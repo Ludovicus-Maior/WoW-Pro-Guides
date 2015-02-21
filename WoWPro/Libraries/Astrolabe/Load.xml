@@ -2,5 +2,6 @@
 ..\FrameXML\UI.xsd">
 	<Script file="DongleStub.lua"/>
 	<Script file="AstrolabeMapMonitor.lua"/>
+	<Script file="Astrolabe-TomTom.lua"/>
 	<Script file="Astrolabe.lua"/>
 </Ui>

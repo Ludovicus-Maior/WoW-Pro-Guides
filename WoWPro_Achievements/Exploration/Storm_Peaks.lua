@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2014-12-25 17:11
+-- Who: Ludovicus
+-- Log: Corrected prologues
+
+-- URL: http://wow-pro.com/node/3474/revisions/26384/view
 -- Date: 2014-05-28 22:00
 -- Who: Ludovicus
 -- Log: Added Dragonblight
@@ -37,7 +42,11 @@
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("KabExpSTp","The Storm Peaks","The Storm Peaks","Exploration", "Northrend", "Kaboca", "Neutral", function()
+local guide = WoWPro:RegisterGuide("KabExpSTp","Achievements","The Storm Peaks","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",1269)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Bor's Breath|QID|912690004|M|24.0,70.0|ACH|1269;4|
 F Frosthold|QID|912690015|M|29.0,74.3|ACH|1269;15|

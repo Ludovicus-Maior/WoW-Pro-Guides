@@ -17,6 +17,7 @@ WoWPro.SubZone = {
 	
 WoWPro.Zone2MapID = {}
 WoWPro.MapID2Zone = {}
+WoWPro.Map2Zone = {}
 
 local function DupCheck(zone,who)
     if WoWPro.MapID2Zone[zone] then
@@ -28,12 +29,14 @@ local function DefineDungeonArea(mapID, floor, zi, dungeon, mapName)
     DupCheck(zi,"DefineDungeonArea")
     WoWPro.Zone2MapID[zi] = {mapID=mapID, floor=floor, dungeon=dungeon, mapName=mapName}
     WoWPro.MapID2Zone[mapID] = zi
+    WoWPro.Map2Zone[mapName] = zi
 end
 
 local function DefineInstance(mapID, numFloors, zi, mapName)
     DupCheck(zi,"DefineInstance")
     if mapName then
         WoWPro.Zone2MapID[zi] = {mapID=mapID, numFloors=numFloors, mapName=mapName}
+        WoWPro.Map2Zone[mapName] = zi
     else
         WoWPro.Zone2MapID[zi] = {mapID=mapID, numFloors=numFloors, mapName=zi}
     end
@@ -44,6 +47,7 @@ local function DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
     if mapName then
         DupCheck(zone,"DefineTerrain1")
         WoWPro.Zone2MapID[zone] = {cont=cont, zonei=zonei, mapID=mapID, numFloors=numFloors, zone=zone, mapName=mapName}
+        WoWPro.Map2Zone[mapName] = zone
     else
         DupCheck(zone,"DefineTerrain2")
         WoWPro.Zone2MapID[zone] = {cont=cont, zonei=zonei, mapID=mapID, numFloors=numFloors, zone=zone, mapName=zone}
@@ -639,8 +643,9 @@ DefineTerrainFloor(7, 1, 950,12,"The Underpale", "Nagrand@Draenor")
 DefineTerrainFloor(7, 2, 970,1,"Umbral Halls", "TanaanJungleIntro")
 DefineTerrainFloor(7, 3, 947,15,"Bloodthorn Cave", "Shadowmoon Valley@Draenor")
 DefineTerrainFloor(7, 4, 949,17,"Moira's Bastion", "Gorgrond")
-DefineTerrainFloor(7, 4, 949,19,"Heart of Fury", "Gorgrond")
+DefineTerrainFloor(7, 4, 949,19,"Fissure of Fury", "Gorgrond")
 DefineTerrainFloor(7, 6, 946,13,"Tomb of Lights", "Talador")
+DefineTerrainFloor(7, 6, 946,14,"Court of Souls", "Talador")
 DefineTerrainFloor(7, 7, 941,1,"Bladespire Citadel", "Frostfire Ridge")
 DefineTerrainFloor(7, 7, 941,2,"Bladespire Courtyard", "Frostfire Ridge")
 DefineTerrainFloor(7, 7, 941,3,"Bladespire Throne", "Frostfire Ridge")

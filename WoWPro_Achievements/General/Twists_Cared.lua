@@ -4,6 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2014-12-25 20:11
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3520/revisions/27102/view
+-- Date: 2014-12-25 18:56
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3520/revisions/27101/view
+-- Date: 2014-12-25 18:55
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3520/revisions/26318/view
 -- Date: 2014-05-26 19:54
 -- Who: Ludovicus
 -- Log: Added guid etype to TwoCared
@@ -59,9 +71,9 @@
 -- Who: Ludovicus
 -- Log: Initial
 
-local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'CaT Zones', 'To All the Squirrels Who Cared for Me','Neutral')
+local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'Maelstrom', 'Twists','Neutral')
+WoWPro:GuideLevels(guide,80, 85, 84)
 WoWPro:GuideIcon(guide,"ACH",5548)
-WoWPro:GuideNextGuide(guide, 'Twists')
 WoWPro:GuideSteps(guide, function()
 return [[
 

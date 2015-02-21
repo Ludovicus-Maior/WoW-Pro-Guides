@@ -149,15 +149,15 @@ frame:SetScript("OnShow", function()
 			row.check:SetScript("OnClick", function(self, button, down)
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 				if button == "LeftButton" and row.check:GetChecked() then
-					local steplist = WoWPro.WorldEvents:SkipStep(row.index)
+					local steplist = WoWPro.SkipStep(row.index)
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 					if steplist ~= "" then 
-						WoWPro:SkipStepDialogCall(row.index, steplist)
+						WoWPro.SkipStepDialogCall(row.index, steplist)
 					end
 				elseif button == "RightButton" and row.check:GetChecked() then
 					completion[row.index] = true
 				elseif not row.check:GetChecked() then
-					WoWPro.WorldEvents:UnSkipStep(row.index)
+					WoWPro.UnSkipStep(row.index)
 				end
 				WoWPro.WorldEvents.UpdateCurrentGuidePanel()
 				WoWPro:UpdateGuide()

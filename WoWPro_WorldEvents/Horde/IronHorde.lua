@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3584
+-- Date: 2015-02-01 22:03
+-- Who: Ludovicus
+-- Log: TRweaks
+
+-- URL: http://wow-pro.com/node/3584/revisions/26736/view
 -- Date: 2014-11-07 20:45
 -- Who: Emmaleah
 -- Log: OK.  PLayed through, tweaked QO tags, missing T steps and mucked with the order.
@@ -40,14 +45,15 @@
 
 local guide = WoWPro:RegisterGuide('IronHordeInvasionH', 'WorldEvents', 'Blasted Lands', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,90, 90, 90.1)
-WoWPro:GuideNextGuide(guide, 'TheDarkPortal')
+WoWPro:GuideNextGuide(guide, 'EmmFluc_DarkPortal')
 WoWPro.WorldEvents:GuideWorldEvent(guide,"Iron Horde Invasion")
 WoWPro:GuideSteps(guide, function()
 return [[
 
 A Iron Horde Invasion|QID|36499|M|49.69,76.43|Z|Orgrimmar@Orgrimmar|
+C The Dark Portal |QID|34398;36881|N|You have accepted quest [The Dark Portal] for the follow-on to this guide. Drop it or you will not be able to complete any quest after [Iron Horde Invasion].|
 F Shattered Landing|QID|36499|NC|M|47.15,62.02|Z|Cleft of Shadow@Orgrimmar|N|Click on the Portal in the Cleft of Shadow.|
-f Shattered Landing|QID|36499|M|72.95,48.58|Z|Blasted Lands|N|At Ameri Windblade.|
+f Shattered Landing|QID|36499|ACTIVE|36499|M|72.95,48.58|Z|Blasted Lands|N|At Ameri Windblade.|
 A Peeking into the Portal|QID|36382|M|71.88,48.97|Z|Blasted Lands|N|From Rokhan.|
 T Iron Horde Invasion|QID|36499|M|71.81,47.72|Z|Blasted Lands|N|To Thrall.|
 A Attack of the Iron Horde|QID|35745|M|71.81,47.72|Z|Blasted Lands|N|From Thrall.|

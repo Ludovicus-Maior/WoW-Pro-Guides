@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2014-12-25 17:11
+-- Who: Ludovicus
+-- Log: Corrected prologues
+
+-- URL: http://wow-pro.com/node/3474/revisions/26384/view
 -- Date: 2014-05-28 22:00
 -- Who: Ludovicus
 -- Log: Added Dragonblight
@@ -37,7 +42,11 @@
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("KabExpDrag","Dragonblight","Dragonblight","Exploration", "Northrend", "Kaboca", "Neutral", function()
+local guide = WoWPro:RegisterGuide("KabExpDrag","Achievements","Dragonblight","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",1265)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Angrathar the Wrath Gate|QID|912650010|M|37.7,17.4|ACH|1265;10|
 F Obsidian Dragonshrine|QID|912650003|M|40.7,31.9|ACH|1265;3|

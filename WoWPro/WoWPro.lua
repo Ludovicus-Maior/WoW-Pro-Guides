@@ -9,7 +9,7 @@ WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {}
 WoWPro.GuideLoaded = false
-WoWPro.Astrolabe = DongleStub("Astrolabe-1.0")
+WoWPro.Astrolabe = DongleStub("Astrolabe-TomTom-1.0")
 
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
@@ -274,7 +274,7 @@ WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky",
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
 	"level", "QID","target", "prof", "mat", "rank", "rep","waypcomplete", "why",
 	 "noncombat","active","ach","spell","qcount","NPC","questtext","prereq","leadin","faction",
-	 "buff", "chat","recipe", "gossip","conditional","pet", "building"
+	 "buff", "chat","recipe", "gossip","conditional","pet", "building", "item"
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -577,6 +577,10 @@ end
 
 function WoWPro:GuideNextGuide(guide,nextGID)
     guide['nextGID'] = nextGID
+end
+
+function WoWPro:GuideAutoSwitch(guide)
+    guide['AutoSwitch'] = true
 end
 
 function WoWPro:GuideSteps(guide,steps)

@@ -4,6 +4,33 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2015-02-08 20:39
+-- Who: Ludovicus
+-- Log: Edited [Pippers' Buried Supplies] as per Aldavor https://github.com/Jiyambi/WoW-Pro-Guides/issues/406
+
+-- URL: http://wow-pro.com/node/3604/revisions/27131/view
+-- Date: 2015-02-01 17:38
+-- Who: Ludovicus
+-- Log: Correcting quest name and flight point name.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27130/view
+-- Date: 2015-01-25 05:58
+-- Who: Ludovicus
+-- Log: Aldavor:  Incorrect QID; the line (615) in Shadowmoon levelling guide should be changed from:
+--	
+--	l Mushroom-Covered Chest |QID|33869|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
+--	
+--	to:
+--	
+--	l Mushroom-Covered Chest |QID|37254|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
+--	
+
+-- URL: http://wow-pro.com/node/3604/revisions/27117/view
+-- Date: 2015-01-04 23:31
+-- Who: Ludovicus
+-- Log: PLaying tweaks.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27078/view
 -- Date: 2014-12-05 22:40
 -- Who: Ludovicus
 -- Log: Eleminated double |N|N| from Bahameye
@@ -203,7 +230,7 @@ T Establish Your Garrison|QID|34586|N|To Baros Alexston|M|41.4,49.2|Z|Lunarfall|
 
 A Keeping it Together |QID|35176|N|From Baros Alexston|PRE|34586|M|41.4,49.2|Z|Lunarfall|
 A Ship Salvage|QID|35166|N|From Baros Alexston|PRE|34586|M|41.4,49.2|Z|Lunarfall|
-A Pale Moonlight |QID|35174|N|From Vindicator Maraad|PRE|34586|M|44.0,53.5|Z|Lunarfall|
+A Pale Moonlight |QID|35174|N|From Vindicator Maraad|PRE|34586|M|44.10,53.35|Z|Lunarfall|
 
 C Keeping it Together |QID|35176|N|Speak to Assistant Brightstone and tell her it's time to get back to work.|QO|1|CHAT|M|45.0,53.6|Z|Lunarfall|
 C Keeping it Together |QID|35176|N|Open the Garrison Cache.|QO|3|NC|M|49.3,43.4|Z|Lunarfall|
@@ -215,26 +242,26 @@ C Pale Moonlight |QID|35174|N|Head down to Eventide Landing and kill Gnaw Bloods
 
 l Fantastic Fish |QID|34174|N|Fantastic Fish: Lootable object for Garrison Resources and 10k XP|M|26.50,5.68|RANK|3|
 l Sunken Treasure |QID|35279|N|Sunken Treasure: Lootable object for Garrison Resources and 10k XP, located in the water under the ship.|M|28.83,7.18|RANK|3|
-K Bahameye |QID|35281|N|*Rare Kill*\nDrops Garrison Resources.|RANK|3|
+K Bahameye |QID|35281|N|*Rare Kill*\nDrops Garrison Resources. This is a phased rare.  If you dont kill it now, you never will.|
 l Stolen Treasure |QID|35280|N|Stolen Treasure: Lootable object for Garrison Resources and 10k XP, located in Paletide Den.|M|27.04,2.49|RANK|3|
 
 C Ship Salvage|QID|35166|N|Finish looting the Drudgeboat Salvage from the floor, or kill and loot the Pale Devourers and Shadowmoon Darters.|US|NC|M|26.5,6.5|
 C Pale Moonlight |QID|35174|N|Finish killing the Pale Devourers|US|QO|2|M|26.5,6.5|
 
-T Pale Moonlight |QID|35174|N|To Vindicator Maraad\n\nUse your Garrison Hearthstone to get back to the garrison.|U|110560|M|44.0,53.5|Z|Lunarfall|
-T Keeping it Together |QID|35176|N|To Baros Alexston|M|41.4,49.2|Z|Lunarfall|
-T Ship Salvage|QID|35166|N|To Baros Alexston|M|41.4,49.2|Z|Lunarfall|
+T Pale Moonlight |QID|35174|N|To Vindicator Maraad\n\nUse your Garrison Hearthstone to get back to the garrison.|U|110560|M|44.09,53.34|Z|Lunarfall|
+T Keeping it Together |QID|35176|N|To Baros Alexston|M|41.20,49.33|Z|Lunarfall|
+T Ship Salvage|QID|35166|N|To Baros Alexston|M|41.20,49.33|Z|Lunarfall|
 
-A Build Your Barracks |QID|34587|N|From Baros Alexston|PRE|35174;35176;35166|M|41.4,49.2|Z|Lunarfall|
+A Build Your Barracks |QID|34587|N|From Baros Alexston|PRE|35174;35176;35166|M|41.20,49.33|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Loot the Barracks Blueprints from the floor of the construction site.|QO|1|NC|M|45.4,40.2|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Click on the Barracks Blueprints to learn it.|QO|2|U|111956|NC|
-C Build Your Barracks |QID|34587|N|Click on the Architect Table, then drag the Barracks icon to the Large Empty Plot.|QO|3|NC|M|41.2,48.9|Z|Lunarfall|
+C Build Your Barracks |QID|34587|N|Click on the Architect Table, then drag the Barracks icon to the Large Empty Plot.|QO|3|NC|M|41.12,48.93|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Go back to the Barracks construction site, and click on the scroll to Finalize Garrison Plot|QO|4|NC|M|44.6,43.5|Z|Lunarfall|
 ; Never completes!
-l Pippers' Buried Supplies|QID|35384|N|Pippers' Burried Supplies: Lootable object for Garrison Resources. Can be at one of four locations around the garrison.|CS|M|46.3,75.9;60.7,55.3;51.7,44.9;30.8,28.3|RANK|3|Z|Lunarfall|LEAD|35381;35382;35383|
-T Build Your Barracks |QID|34587|N|To Vindicator Maraad.|M|44.0,53.5|Z|Lunarfall|
+l Pippers' Buried Supplies|QID|35384|N|Pippers' Burried Supplies: Lootable object for Garrison Resources at four locations around the garrison. Follow Pippers the dog until it stops, and click on the mound (if you already have it, there will just be bones.|RANK|3|Z|Lunarfall|T|Pippers|
+T Build Your Barracks |QID|34587|N|To Vindicator Maraad.|M|44.10,53.35|Z|Lunarfall|
 
-A Qiana Moonshadow |QID|34646|N|From Vindicator Maraad.|PRE|34587|M|44.0,53.5|Z|Lunarfall|
+A Qiana Moonshadow |QID|34646|N|From Vindicator Maraad.|PRE|34587|M|44.10,53.35|Z|Lunarfall|
 C Qiana Moonshadow |QID|34646|N|Head to Qiana Moonshadow in Moonflower Valley (south of your garrison) and speak to her.|CHAT|M|29.94,29.21|
 T Qiana Moonshadow |QID|34646|N|To Qiana Moonshadow (she's now at to your garrison)|M|40.5,53.9|Z|Lunarfall|
 
@@ -242,7 +269,7 @@ A Delegating on Draenor |QID|34692|N|From Lieutenant Thorn|PRE|34646|M|40.3,53.6
 C Delegating on Draenor |QID|34692|N|Click on the Command Table, then send Qiana Moonshadow on the mission.|NC|M|40.4,53.6|Z|Lunarfall|
 T Delegating on Draenor |QID|34692|N|To Lieutenant Thorn|M|40.3,53.6|Z|Lunarfall|
 
-A Migrant Workers |QID|34778|N|From Vindicator Maraad|PRE|34692|M|44.0,53.5|Z|Lunarfall|
+A Migrant Workers |QID|34778|N|From Vindicator Maraad|PRE|34692|M|44.10,53.35|Z|Lunarfall|
 C Migrant Workers |QID|34778|N|Speak with Zipfizzle and tell him to Move Out.|CHAT|M|44.2,51.0|Z|Lunarfall|
 
 A Hero's Welcome |QID|33075|N|From Yrel|PRE|34692|M|47.2,50.9|Z|Lunarfall|
@@ -288,7 +315,7 @@ C Shadows Awaken |QID|34019|N|Kill and loot Karnoth.|M|49.4,37.0|
 A The Mysterious Flask|QID|35342|N|Loot the Mysterious Flask from Karnoth, and use it to begin the quest.|U|113103|P|Alchemy;171;*;1;700|
 A The Strength of Iron|QID|36309|N|Loot Haephest's Satchel from Karnoth, and use it to begin the quest.|U|115343|P|Blacksmithing;164;*;1;700|
 A Enchanted Highmaul Bracer|QID|36308|N|Loot the Enchanted Highmaul Bracer from Karnoth, and use it to begin the quest.|U|115281|P|Enchanting;333;*;1;700|
-A Gnomish Location Transponder|QID|36286|N|Loot the Gnomish Location Transponder from Karnoth, and use it to begin the quest.|U|115278|P|Engineering;202;*;1;700|
+A Transponder 047-B|QID|36286|N|Loot the Gnomish Location Transponder from Karnoth, and use it to begin the quest.|U|115278|P|Engineering;202;*;1;700|
 A A Mysterious Satchel|QID|36239|N|Loot the Mysterious Satchel from Karnoth, and use it to begin the quest.|U|114984|P|Inscription;773;*;1;700|
 A A Power Lost|QID|36408|N|Loot the Drained Crystal Fragment from Karnoth, and use it to begin the quest.|U|115507|P|Jewelcrafting;755;*;1;700|
 A A Call for Huntsman|QID|36176|N|Loot the Dirty Note from Karnoth, and use it to begin the quest.|U|114877|P|Leatherworking;164;*;1;700|
@@ -434,7 +461,7 @@ T Friend of the Exarchs |QID|34788|N|To Exarch Naielle|M|62.48,26.22|
 
 A Supply Drop |QID|35905|N|From Exarch Naielle|PRE|34788|M|62.48,26.22|
 
-f Fey Landing |QID|35444|N|With Vamuun.|M|58.7,31.9|
+f Elodor |QID|35444|N|With Vamuun.|M|58.7,31.9|
 
 ;The next block is for Engineers only
 T Gnomish Location Transponder|QID|36286|N|To Goggles|M|60.9,32.6|ACTIVE|36286|

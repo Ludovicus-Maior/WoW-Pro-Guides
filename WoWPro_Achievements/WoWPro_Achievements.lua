@@ -80,6 +80,18 @@ function WoWPro.Achievements:RegisterGuide(GIDvalue, zonename, guidename, catego
 	}
 end
 
+function WoWPro.Achievements:GuideMisc(guide, name, categoryname, subname)
+    if not name or not categoryname then
+        WoWPro:Error("Achievements Guide %s is missing name or cat.",guide.GID)
+    end
+    guide['name']=name
+    guide['category']=categoryname
+
+    if subname then
+        guide['sub']=subname
+    end
+end
+
 function WoWPro.Achievements:LoadAllGuides()
     self:Print("Test Load of Achievements Guides")
     local aCount=0

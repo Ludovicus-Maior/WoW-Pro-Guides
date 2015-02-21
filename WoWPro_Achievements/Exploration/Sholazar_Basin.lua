@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2014-12-25 17:11
+-- Who: Ludovicus
+-- Log: Corrected prologues
+
+-- URL: http://wow-pro.com/node/3474/revisions/26384/view
 -- Date: 2014-05-28 22:00
 -- Who: Ludovicus
 -- Log: Added Dragonblight
@@ -37,7 +42,11 @@
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("KabExpShoB","Sholazar Basin","Sholazar Basin","Exploration", "Northrend", "Kaboca", "Neutral", function()
+local guide = WoWPro:RegisterGuide("KabExpShoB","Achievements","Sholazar Basin","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",1268)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F The Avalanche|QID|912680009|M|73.0,36.0|ACH|1268;9|
 F Makers' Overlook|QID|912680004|M|79.0,55.0|ACH|1268;4|

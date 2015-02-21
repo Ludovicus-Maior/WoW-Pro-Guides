@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2015-02-19 20:15
+-- Who: Aldavor
+-- Log: Added very last line as a note, as otherwise it skips to the next guide without offering the final quest turn in at the grave, and can easily be missed.
+
+-- URL: http://wow-pro.com/node/3222/revisions/26630/view
 -- Date: 2014-07-25 22:24
 -- Who: Ludovicus
 -- Log: Add mean
@@ -348,5 +353,6 @@ A A Daughter's Love|QID|26797|M|74.95,46.88|N|From Watcher Ladimore.\n\nOnly ava
 F Raven Hill|QID|26797|M|77.5,44.3|N|Fly to Raven Hill.|O|
 T A Daughter's Love|QID|26797|M|17.66,29.11|N|Turn the quest into "A Weathered Grave".|O|
 
+N Next guide|N|Close this step when you are ready to go to the next guide.|
 ]]
 end)

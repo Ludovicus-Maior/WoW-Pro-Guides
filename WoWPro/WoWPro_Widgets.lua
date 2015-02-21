@@ -89,7 +89,7 @@ function WoWPro:CreateTargetButton(parent, id)
 	targetbutton:SetHeight(32)
 	targetbutton:SetWidth(32)
 	targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -35, -7)
-
+	
 	local targeticon = targetbutton:CreateTexture(nil, "ARTWORK")
 	targeticon:SetWidth(36) targeticon:SetHeight(36)
 	targeticon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
@@ -97,8 +97,62 @@ function WoWPro:CreateTargetButton(parent, id)
 
 	targetbutton:RegisterForClicks("anyUp")
 	targetbutton:Hide()
-	
+
 	return targetbutton, targeticon
+end
+
+function WoWPro:CreateLootsButton(parent, id)
+	local lootsbutton = CreateFrame("Button", "WoWPro_looticon"..id, parent)
+	lootsbutton:SetFrameStrata("MEDIUM")
+	lootsbutton:SetHeight(24)
+	lootsbutton:SetWidth(24)
+	lootsbutton:SetPoint("TOPRIGHT", parent, "TOPRIGHT", 0, 0)
+	lootsbutton.ID = nil
+    lootsbutton:SetScript("OnEnter", function(self)
+                    GameTooltip:SetOwner(lootsbutton,'ANCHOR_LEFT')
+                    if lootsbutton.ID and lootsbutton.ID:len() > 1 and lootsbutton.ID:sub(1,1) == "$" then
+                        GameTooltip:SetCurrencyByID(tonumber(lootsbutton.ID:sub(2)))
+                        GameTooltip:Show()
+                    elseif tonumber(lootsbutton.ID) then
+                        GameTooltip:SetItemByID(tonumber(lootsbutton.ID))
+                        GameTooltip:Show()
+                    end               
+    end)
+    lootsbutton:SetScript("OnLeave", function(self)
+                    if lootsbutton.ID then
+        		        GameTooltip:Hide()
+        		    end
+    end)
+    
+
+	local lootsicon = lootsbutton:CreateTexture(nil, "ARTWORK")
+	lootsbutton.lootsicon = lootsicon
+	lootsicon:SetWidth(24)
+	lootsicon:SetHeight(24)
+	lootsicon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
+	lootsicon:SetAllPoints(lootsbutton)
+
+    function lootsbutton:SetItemByID(ID)
+        self.ID = ID
+        local name, amount, texturePath, earnedThisWeek, weeklyMax, totalMax, isDiscovered
+        local link, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice
+        if ID and ID:len() > 1 and ID:sub(1,1) == "$" then
+            name, amount, texture, earnedThisWeek, weeklyMax, totalMax, isDiscovered = GetCurrencyInfo(tonumber(ID:sub(2)))
+        elseif tonumber(ID) then
+            name, link, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice = GetItemInfo(tonumber(ID))
+        end
+        if texture then
+            self.lootsicon:SetTexture(texture)
+            return name
+        else
+            self.lootsicon:SetTexture("Interface\\ICONS\\INV_Misc_QuestionMark")
+            return string.format("Unknown item [%s]",tostring(ID))        
+        end
+    end
+	
+	lootsbutton:Hide()
+	
+	return lootsbutton, lootsicon
 end
 
 function WoWPro:CreateHeading(parent, text, subtext)

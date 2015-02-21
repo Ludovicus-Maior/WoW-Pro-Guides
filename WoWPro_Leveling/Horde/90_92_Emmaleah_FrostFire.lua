@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2015-02-01 22:09
+-- Who: Ludovicus
+-- Log: Small tweaks.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27096/view
+-- Date: 2014-12-14 22:31
+-- Who: Emmaleah
+-- Log: Corrected QID for [first enchanting work order]. It was incorrect for all steps except the A step.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27080/view
 -- Date: 2014-12-05 23:30
 -- Who: Emmaleah
 -- Log: 12/3 hotfixes made the treasure maps soulbound (just when I add it to the guide)
@@ -303,7 +313,7 @@ T Moving In|QID|33657|M|42.94,41.60|N|To Durotan.|Z|Bladespire Citadel|
 A Save Wolf Home|QID|33468|M|42.94,41.60|N|From Durotan.|Z|Bladespire Citadel|
 
 A Wanted: Gutsmash the Destroyer|QID|33919|M|28.9,44.8|N|From Bounty Board. If the dot and arrow don't line up with the bounty board, your UI is out of sync with the map layer, opening your map or /reload should fix it.|Z|Bladespire Citadel|
-A Mopping Up|QID|33412|M|28.3,45.7|N|From Snowrunner Rolga.|Z|Bladespire Citadel|
+A Mopping Up|QID|33412|M|28.29,45.72|N|From Snowrunner Rolga.|Z|Bladespire Citadel|
 A Slavery and Strife|QID|33119|M|20.1,52.9|N|From Guse.|RANK|2|
 f Bladespire Fortress|QID|33412|M|19.9,51.8|N|At Roark the Airwolf.|
 F Wor'gol|QID|33468|M|24.33,37.24|N|At Roark the Airwolf.|
@@ -361,7 +371,7 @@ A The Warlord's Guard|QID|33450|M|24.30,28.30|N|From Igrimar the Resolute.|
 C The Cure|QID|33454|M|27.17,26.98|S|N|Kill Geomancers to loot the antidote, use it on the gladiators.|
 K Thunk|QID|33450|M|27.0,25.6|QO|1|N|Inside the building.|T|Thunk|
 K Gullok|QID|33450|M|27.97,23.56|QO|2|N|In the cave.|T|Gullok|
-K Splorg|QID|33450|M|28.4,16.1|QO|3|N|Inside the building up the hill.|T|Splorg|
+K Splorg|QID|33450|M|28.51,26.18|QO|3|N|Inside the building up the hill.|T|Splorg|
 C The Cure|QID|33454|M|27.17,26.98|US|N|Finish curing the gladiators.|
 T The Warlord's Guard|QID|33450|M|24.30,28.30|N|To Igrimar the Resolute.|
 T The Cure|QID|33454|M|24.30,28.30|N|To Igrimar the Resolute.|
@@ -370,10 +380,10 @@ C The Fall of the Warlord|QID|33467|M|23.2,26.6|N|Click on the weapon stand to s
 
 A Slaying Slavers|QID|33898|M|24.14,39.30|N|From Gol'kosh the Axe.|
 C Cut 'Em Out!|QID|36516|M|27,43|QO|2|NC|S|P|Leatherworking;165|N|Pick the sootweed that is also growing in the area as you go along.|
-C Slavery and Strife|QID|33119|M|30.59,41.56|RANK|2|S|NC|N|To release the slaves, click on the ball they are chained to.|
+C Slavery and Strife|QID|33119|M|30.59,41.56|QO|1|RANK|2|S|NC|N|To release the slaves, click on the ball they are chained to.|
 C Slaying Slavers|QID|33898|M|24.14,39.30|S|N|Kill the ogres as you are freeing the slaves.|
 A Slave's Stash|QID|33500|M|27.6,42.8|N|Walk along the plank and jump from one roof to the next to loot.|
-C Slavery and Strife|QID|33119|M|30.59,41.56|RANK|2|US|NC|N|To release the slaves, click on the ball they are chained to.|
+C Slavery and Strife|QID|33119|M|30.59,41.56|QO|1|RANK|2|US|NC|N|To release the slaves, click on the ball they are chained to.|
 T Slavery and Strife|QID|33119|M|30.78,41.51|N|To Mulverick.|RANK|2|
 A Mulverick's Plight|QID|33483|M|30.78,41.51|N|From Mulverick.|RANK|2|
 R Entrance to Sootstained Mine|QID|33483|M|29.62,41.73|CC|N|After you walk in the mine and enter the big room, open your map, if the waypoint is placed correctly (on the sootstained mine map) all is good.  If not, you need to type /reload to reload your UI as you have entered an alternate map area.|
@@ -408,7 +418,7 @@ U Learn Tailoring skill|QID|36706|U|115357|M|20.47,60.60|P|Tailoring;197|N|After
 F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Leatherworking;165|
 F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Tailoring;197|LEAD|36516|
 T The Slavemaster's Demise|QID|33484|M|18.44,42.12;24.36,37.30|CS|N|To Guse.|
-T The Fall of the Warlord|QID|33467|M|25.6,36.4|N|To Snowrunner Rolga.|
+T The Fall of the Warlord|QID|33467|M|28.29,45.72|N|To Snowrunner Rolga.|Z|Bladespire Citadel|
 T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel|N|To Durotan.|
 A Ga'nar's Vengeance|QID|32783|M|43.13,41.23|Z|Bladespire Citadel|N|From Durotan.|
 A Securing the South|QID|32989|M|43.13,41.23|Z|Bladespire Citadel|N|From Durotan.|
@@ -518,7 +528,7 @@ T The Apprentice|QID|35104|M|37.71,47.47|N|To Ang'kra.|P|Alchemy;171|
 A Avenge and Reclaim|QID|35106|M|37.71,47.47|PRE|35104|N|From Ang'kra.|P|Alchemy;171|
 C Avenge and Reclaim|QID|35106|M|41.86,40.28|P|Alchemy;171|T|Or'Nak|
 T Avenge and Reclaim|QID|35106|M|37.72,47.47|P|Alchemy;171|N|To Ang'kra.|
-U Learn Alchemy skill|QID|33918|U|109558|M|37.72,47.47|P|Alchemy;171|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
+U Learn Alchemy skill|QID|32991|U|109558|M|37.72,47.47|P|Alchemy;171|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Alchemy Lab Blueprints|QID|33918|U|111812|M|37.72,47.47|P|Alchemy;171|N|After you learn check this step off manually.|
 
 C Into the Boneslag|QID|32991|NC|M|40.4,49|QO|1|
@@ -730,10 +740,10 @@ T Your First Engineering Work Order|QID|37571|M|53.47,36.94|N|To Garbra Fizzwonk
 
 ;if you chose enchanting hut SMALL
 A Your First Enchanting Work Order|QID|36645|M|52.95,37.31|N|From Yukla Greenshadow.|BUILDING|EnchantingHut;93;125;126|
-B Draenic Dust|QID|37568|M|51.85,35.76|L|109693 5|N|Use the Essence Font in you Enchanting Hut to DE some unneeded gear to get the Draenic Dust for the work order(or otherwise acquire it from bank/mailbox/AH).|BUILDING|EnchantingHut;93;125;126|
-C Place first work order|QID|37568|M|51.85,35.76|QO|1|CHAT|N|At Garra.|BUILDING|EnchantingHut;93;125;126|
-C Pick up work order|QID|37568|M|51.85,35.76|QO|2|NC|N|At the bundles and boxes called 'Enchanting Work Order'.|BUILDING|EnchantingHut;93;125;126|
-T Your First Enchanting Work Order|QID|37568|M|52.56,36.72|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
+B Draenic Dust|QID|36645|M|51.85,35.76|L|109693 5|N|Use the Essence Font in you Enchanting Hut to DE some unneeded gear to get the Draenic Dust for the work order(or otherwise acquire it from bank/mailbox/AH).|BUILDING|EnchantingHut;93;125;126|
+C Place first work order|QID|36645|M|51.85,35.76|QO|1|CHAT|N|At Garra.|BUILDING|EnchantingHut;93;125;126|
+C Pick up work order|QID|36645|M|51.85,35.76|QO|2|NC|N|At the bundles and boxes called 'Enchanting Work Order'.|BUILDING|EnchantingHut;93;125;126|
+T Your First Enchanting Work Order|QID|36645|M|52.56,36.72|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
 
 ;if you choose barn MED
 A Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|From Farmer Lok'lub|

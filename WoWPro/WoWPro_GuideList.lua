@@ -306,11 +306,22 @@ function WoWPro:GuideTabFrame_RowOnClick()
 end		
 
 
-local TooltipIcon
+local TooltipButton, TooltipIcon
 function WoWPro:ShowTooltipIcon(icon)
+    if not TooltipButton then
+         TooltipButton, TooltipIcon = WoWPro:CreateLootsButton(GameTooltip, 99)
+    end
+    TooltipButton:SetParent(GameTooltip)
+    TooltipIcon:SetTexture(icon)
+    TooltipButton:SetPoint("TOPRIGHT", GameTooltip, "TOPRIGHT", -4, -4)
+    TooltipButton:Show()
 end
 
 function WoWPro:HideTooltipIcon()
+    if TooltipButton then
+        TooltipButton:Hide()
+        TooltipButton:SetParent(nil)
+    end
 end
 
 WoWPro:Export("CreateGuideTabFrame_Rows")

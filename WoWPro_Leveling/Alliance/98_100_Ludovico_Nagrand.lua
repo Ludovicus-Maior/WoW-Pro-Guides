@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2015-01-14 20:15
+-- Who: Ludovicus
+-- Log: Added missing CS
+
+-- URL: http://wow-pro.com/node/3618/revisions/27075/view
 -- Date: 2014-12-03 12:25
 -- Who: Ludovicus
 -- Log: Finished play-through.
@@ -541,7 +546,7 @@ F Throne of the Elements|QID|35395|M|63.64,61.55|N|To John Shelby|
 T The Fate of Gordawg|QID|35395|M|72.79,19.69|N|To Kalandrios|
 T The Dark Heart of Oshu'gun|QID|35396|M|71.54,19.76|N|To Vindicator Nobundo|
 
-R Gates of Grommashar|QID|35169|M|61.61,58.71; 69.50,58.62; 71.70, 66.00; 74.6,69.4|N|Ride to the Gates. This is a scenario, so don't queue up for anything or you will bug it out.|
+R Gates of Grommashar|QID|35169|M|61.61,58.71; 69.50,58.62; 71.70, 66.00; 74.6,69.4|CS|N|Ride to the Gates. This is a scenario, so don't queue up for anything or you will bug it out.|
 C And Justice for Thrall|QID|35169|M|74.56,69.56|CHAT|QO|1|N|Speak to Vindicator Yrel|
 C And Justice for Thrall|QID|35169|M|71.4,84.4|QO|2|N|Garrosh Hellscream|
 T And Justice for Thrall|QID|35169|M|66.96,33.77|N|A Cinematic and then, To Vindicator Yrel. Go up the hill past Thrall to see Garrosh youtself, before you turn in.|
