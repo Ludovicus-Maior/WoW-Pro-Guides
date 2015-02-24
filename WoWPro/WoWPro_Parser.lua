@@ -46,22 +46,24 @@ WoWPro.actionlabels = {
 -- Skip a step -- 
 function WoWPro.SkipStep(index)
 	local GID = WoWProDB.char.currentguide
+	WoWPro:dbp("SkipStep(%s) Action is %s QID is %s ",tostring(index),  tostring(WoWPro.action[index]), tostring(WoWPro.QID[index]))
 	
 	if not WoWPro.QID[index] then return "" end
 	if WoWPro.action[index] == "D" then return "" end -- No skipping this type
-	if WoWPro.action[index] == "A" 
-	or WoWPro.action[index] == "C" 
-	or WoWPro.action[index] == "T" then
-	    local numqids = select("#", string.split(";", WoWPro.QID[j]))
+	if WoWPro.QID[index] then 
+	    local numqids = select("#", string.split(";", WoWPro.QID[index]))
 	    for k=1,numqids do
-	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[j]))
+	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[index]))
 	        if tonumber(kqid) then
 	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = true
+	            WoWPro:dbp("Skipping QID %d",tonumber(kqid))
 	        end
 	    end
 		WoWProCharDB.Guide[GID].skipped[index] = true
+		WoWPro:dbp("Skipping step %d", index)
 	else 
 		WoWProCharDB.Guide[GID].skipped[index] = true
+		WoWPro:dbp("Just skipping step %d", index)
 	end
 	local steplist = ""
 	
@@ -78,6 +80,7 @@ function WoWPro.SkipStep(index)
 						or WoWPro.action[j] == "T" then
 							WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = true
 						end
+						WoWPro:dbp("Skipping QID %s as well.", WoWPro.QID[j])
 						steplist = steplist.."- "..WoWPro.step[j].."\n"
 						skipstep(j)
 					end
@@ -396,11 +399,32 @@ function WoWPro:GuideSetup()
     WoWPro:SendMessage("WoWPro_GuideSetup")
 end
 
+function WoWPro.RecordQID(QIDs)
+    if not QIDs then return end
+
+    local GID = WoWProDB.char.currentguide
+    local guideType = WoWPro.Guides[GID].guidetype
+    local guideClass = WoWPro[guideType]
+    local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
+
+    if not recordQIDs then return end
+    
+	local numQIDs = select("#", string.split(";", QIDs))
+
+	for j=1,numQIDs do
+		local qid = select(numQIDs-j+1, string.split(";", QIDs))
+		local QID = tonumber(qid)
+		if QID then
+			WoWProDB.global.QID2Guide[QID] = WoWProDB.char.currentguide
+		end
+    end
+end
+
 function WoWPro.SetupGuideReal()
     local GID = WoWProDB.char.currentguide
     local guideType = WoWPro.Guides[GID].guidetype
     local guideClass = WoWPro[guideType]
-    local recordQIDs = guideClass.RecordQIDs
+    local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
     
     WoWPro:dbp("SetupGuideReal(%s): Type: %s, recordQIDs:",GID,guideType,tostring(recordQIDs))
     
@@ -418,7 +442,13 @@ function WoWPro.SetupGuideReal()
 		end
 
 	    WoWProCharDB.Guide[GID].completion[i] = false
-	    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was defaulted to incomplete."  
+	    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was defaulted to incomplete."
+	    
+	    if WoWProCharDB.Guide[GID].skipped[i] then
+	        WoWProCharDB.Guide[GID].completion[i] = true
+	        WoWPro.why[i] = "Previously marked as skipped"
+	    end
+	    
 		for j=1,numQIDs do
 			local QID = nil
 			local qid
@@ -428,15 +458,18 @@ function WoWPro.SetupGuideReal()
 			end
  
             if QID then
-                if recordQIDs then
-                    WoWProDB.global.QID2Guide[QID] = GID
-                end
     		    -- Turned in quests --
     			if WoWPro:IsQuestFlaggedCompleted(qid,true) then
     			    WoWProCharDB.Guide[GID].completion[i] = true
     			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as completed."
     			end
-    	
+    	        
+    	        -- Skiped quests --
+    	        if WoWProCharDB.skippedQIDs[QID] then
+    			    WoWProCharDB.Guide[GID].completion[i] = true
+    			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as skipped."
+                end
+                	            
     		    -- Quest Accepts and Completions --
     		    if not WoWProCharDB.Guide[GID].completion[i] then
     		        if WoWPro.QuestLog[QID] then 
@@ -467,14 +500,17 @@ end
 -- Checkbox Function --
 function WoWPro:CheckFunction(row, button, down)
     local GID = WoWProDB.char.currentguide
+    WoWPro:dbp("WoWPro:CheckFunction: row %d button %s UD %s rowChecked %s",row.index, button, tostring(down), tostring(row.check:GetChecked()))
 	if button == "LeftButton" and row.check:GetChecked() then
-		local steplist = WoWPro:SkipStep(row.index)
+	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as skipped.", row.index)
+		local steplist = WoWPro.SkipStep(row.index)
 		row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 		if steplist ~= "" then 
 			WoWPro:SkipStepDialogCall(row.index, steplist)
 		end
 	elseif button == "RightButton" and row.check:GetChecked() then
 	    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as complete.", row.index)
 		WoWProCharDB.Guide[GID].completion[row.index] = true
 		WoWPro:MapPoint()
 		if WoWProDB.profile.checksound then	
@@ -485,7 +521,8 @@ function WoWPro:CheckFunction(row, button, down)
 	        WoWPro:dbp("WoWPro:CheckFunction: %s guide is done.",GID)
 	    end
 	elseif not row.check:GetChecked() then
-		WoWPro:UnSkipStep(row.index)
+	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as UNskipped.", row.index)
+		WoWPro.UnSkipStep(row.index)
 	end
 	WoWPro:UpdateGuide("CheckFunction")
 end
