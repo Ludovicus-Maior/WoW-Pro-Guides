@@ -1084,13 +1084,8 @@ function WoWPro:PopulateQuestLog()
 		end
 	end
 
-	-- Track the QuestLogs for debugging for Emmaleah
-	WoWProDB.char.Emmaleah = WoWProDB.char.Emmaleah or {}
-	if WoWPro.DebugLevel > 0 then
-	    table.insert(WoWProDB.char.Emmaleah,WoWPro.QuestLog)
-	else
-	    WoWProDB.char.Emmaleah = {}
-	end
+	-- Stop Tracking the QuestLogs for debugging for Emmaleah
+	WoWProDB.char.Emmaleah = nil
 	return num
 end
 
