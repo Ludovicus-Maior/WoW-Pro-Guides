@@ -575,6 +575,12 @@ function WoWPro:GuideClassSpecific(guide,class)
     end
 end
 
+function WoWPro:GuidePetBattle(guide)
+    guide['PetBattle'] = true
+end
+
+
+
 function WoWPro:GuideNextGuide(guide,nextGID)
     guide['nextGID'] = nextGID
 end
