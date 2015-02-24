@@ -163,6 +163,8 @@ local function getSystemPosition( mapData, f, x, y )
 	return x, y;
 end
 
+ASTROLABE_VERBOSE = true
+print("WoWPro Astrolabe activated.")
 local function printError( ... )
 	if ( ASTROLABE_VERBOSE) then
 		print(...)
@@ -188,7 +190,10 @@ function Astrolabe:ComputeDistance( m1, f1, x1, y1, m2, f2, x2, y2 )
 	argcheck(y2, 9, "number");
 	--]]
 	
-	if not ( m1 and m2 ) then return end;
+	if not ( m1 and m2 ) then
+	    -- print("AL:CD Invalid m1(%s) or m2(s)",tostring(m1), tostring(m2))
+	    return
+	end;
 	f1 = f1 or min(#WorldMapSize[m1], 1);
 	f2 = f2 or min(#WorldMapSize[m2], 1);
 	
@@ -201,7 +206,7 @@ function Astrolabe:ComputeDistance( m1, f1, x1, y1, m2, f2, x2, y2 )
 		end
 		xDelta = (x2 - x1) * mapData.width;
 		yDelta = (y2 - y1) * mapData.height;
-	
+	    -- print("AL:CD Same map and floor %g %g", xDelta, yDelta)
 	else
 		local map1 = WorldMapSize[m1];
 		local map2 = WorldMapSize[m2];
@@ -211,7 +216,7 @@ function Astrolabe:ComputeDistance( m1, f1, x1, y1, m2, f2, x2, y2 )
 			x2, y2 = getSystemPosition(map2, f2, x2, y2);
 			xDelta = (x2 - x1);
 			yDelta = (y2 - y1);
-		
+		    -- print("AL:CD Same continent %g %g", xDelta, yDelta)
 		else
 			local s1 = map1.system;
 			local s2 = map2.system;
@@ -233,6 +238,8 @@ function Astrolabe:ComputeDistance( m1, f1, x1, y1, m2, f2, x2, y2 )
 				
 				xDelta = x2 - x1;
 				yDelta = y2 - y1;
+			else
+			    print("AL:CD No common systems")
 			end
 		
 		end
@@ -563,9 +570,15 @@ function Astrolabe:PlaceIconOnMinimap( icon, mapID, mapFloor, xPos, yPos )
 		end
 	end
 	
+	if not (lM and lF and lx and ly) then
+	    print("Astrolabe: No valid user position.  Punting AL:PlaceIconOnMinimap()")
+	    return -2;
+	end
+	
 	local dist, xDist, yDist = self:ComputeDistance(lM, lF, lx, ly, mapID, mapFloor, xPos, yPos);
 	if not ( dist ) then
 		--icon's position has no meaningful position relative to the player's current location
+		print("Astrolabe: No valid distance.  Punting AL:PlaceIconOnMinimap()")
 		return -1;
 	end
 	
@@ -1643,6 +1656,7 @@ AstrolabeMapMonitor:RegisterAstrolabeLibrary(Astrolabe, LIBRARY_VERSION_MAJOR);
 Astrolabe.WorldMapSize = WorldMapSize
 Astrolabe.MicroDungeonSize = MicroDungeonSize
 Astrolabe.zeroData = zeroData
+Astrolabe.activate = activate
 
 WorldMapSize[27][10] = { xOffset =  -500.500000, height = 380.000000, yOffset =  5242.000000, width = 570.000000 , __index = zeroDataFunc };
 WorldMapSize[811][3] = { xOffset =  -114.999512, height = 173.333984, yOffset =  -726.333008, width = 260.000977 , __index = zeroDataFunc };
@@ -1667,6 +1681,8 @@ WorldMapSize[950][10] = { xOffset = -3895.00000, height = 370.000000, yOffset = 
 WorldMapSize[950][11] = { xOffset = -5181.245117, height = 245.839844, yOffset = -2989.580078, width = 368.759766 , __index = zeroDataFunc };
 WorldMapSize[950][12] = { xOffset = -6075.00000, height = 400.000000, yOffset = -2322.500000, width = 600.000000 , __index = zeroDataFunc };
 WorldMapSize[970][1]  = { xOffset =  2720.379883, height = 303.172852, yOffset = -4359.998535, width = 454.759766 , __index = zeroDataFunc };
+WorldMapSize[971]     = { xOffset = -545.8339844, height = 456.250000, yOffset = -2091.666992, width = 683.333984 , originSystem = 1116 , system = 1116, __index = zeroDataFunc };
 WorldMapSize[971][23] = { xOffset =  -31.0000000, height = 250.000000, yOffset = -1806.000000, width = 375.000000 , __index = zeroDataFunc };
+WorldMapSize[976]     = { xOffset = -4855.416016, height = 468.750000, yOffset = -5814.530078, width = 702.083008 , originSystem = 1116 , system = 1116, __index = zeroDataFunc };
 WorldMapSize[976][27] = { xOffset = -4305.000000, height = 269.000000, yOffset = -5356.000000, width = 390.000000 , __index = zeroDataFunc };
 
