@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2015-02-25 00:36
+-- Who: Ludovicus
+-- Log: Tweaks as I played through.
+
+-- URL: http://wow-pro.com/node/3605/revisions/27115/view
 -- Date: 2015-01-04 02:35
 -- Who: Emmaleah
 -- Log: added more Rank 2 tags. I didn't think C / T steps needed them if the A step had them... but apparently they do.
@@ -283,30 +288,30 @@ T Dirgemire|QID|36285|M|86.68,28.30|N|To Dr. Hadley Ricard.|RANK|2|
 C Whacking Weeds|QID|36273|M|84.27,28.31|US|RANK|2|
 
 R Skysong Lake|QID|34964|M|73.69,26.64|RANK|2|RANK|2|
-f Skysong Lake|QID|34964|M|73.69,26.64|N|At Gixmo Moneycash.|RANK|2|RANK|2|
+f Throne of the Elements|QID|34964|M|73.69,26.64|N|At Gixmo Moneycash.|RANK|2|RANK|2|
 T The Farseer Awaits|QID|34964|M|71.71,19.61|N|To Farseer Drek'Thar.|RANK|2|
 A Called to the Throne|QID|34965|M|71.71,19.61|N|From Farseer Drek'Thar.|RANK|2|
 C Called to the Throne|QID|34965|M|71.71,19.61|CHAT|N|Wait for the dialog to finish and then the next quests are available.|RANK|2|
 T Called to the Throne|QID|34965|M|71.71,19.61|N|To Farseer Drek'Thar.|RANK|2|
 A Elemental Attunement|QID|34891|M|71.71,19.61|N|From Incineratus.|RANK|2|
-A Earth, Wind and Fire...and Water|QID|34881|M|71.71,19.61|N|From Incineratus.|RANK|2|
-A Guardians of the Plateau|QID|34893|M|71.37,17.99|N|From Incineratus.|RANK|2|
+A Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.83|N|From Incineratus.|RANK|2|
+A Guardians of the Plateau|QID|34893|M|71.34,17.83|N|From Incineratus.|RANK|2|
 A An Old Friend|QID|34943|M|72.75,19.66|N|From Kalandrios.|RANK|2|
 T An Old Friend|QID|34943|M|73.75,16.56;75.07,22.75|CS|N|To Gar'rok.|RANK|2|
 A A Rare Bloom|QID|34894|M|75.07,22.75|N|From Gar'rok.|RANK|2|
 
 R Elemental Plateau|QID|34881|NC|M|79.94,31.5;82.60,30.19;82.49,25.11;82.02,22.34|CS|N|Run up from where the first waymark shows on your map.|RANK|2|
 C Earth, Wind and Fire...and Water|QID|34881|M|67.18,10.48|S|N|Each area is a mix of two types of elementals. Be sure and get all of that type's drops before you leave the area. There are also ground spawns of the item you need.|RANK|2|
-C Elemental Attunement|QID|34891|NC|QO|2|M|78.32,24.42|N|Click on the rock piller to become attuned to it.|RANK|2|
+C Elemental Attunement|QID|34891|NC|QO|2|M|78.32,24.42|N|Click on the rock pillar to become attuned to it.|RANK|2|
 K Corrupted Wind Guardian|QID|34893|QO|2|M|79.73,24.25|T|Corrupted Wind Guardian|RANK|2|
-C Elemental Attunement|QID|34891|QO|1|NC|M|79.27,11.68|N|Click on the rock piller to become attuned to it.|RANK|2|
+C Elemental Attunement|QID|34891|QO|1|NC|M|79.27,11.68|N|Click on the rock pillar to become attuned to it.|RANK|2|
 K Unstable Earth Guardian|QID|34893|QO|1|M|81.51,14.46|T|Unstable Earth Guardian|RANK|2|
 K Tainted Water Guardian|QID|34893|QO|4|M|75.26,13.96|T|Tainted Water Guardian|RANK|2|
-C Elemental Attunement|QID|34891|M|73.84,10.41|QO|4|NC|N|Click on the rock piller to become attuned to it.|RANK|2|
+C Elemental Attunement|QID|34891|M|73.84,10.41|QO|4|NC|N|Click on the rock pillar to become attuned to it.|RANK|2|
 K Magmire|QID|33928|M|70.23,9.59|L|113080|T|Magmire|RANK|2|N|Go into Magma Cave (its at the bottom of the path) and kill Magmire.|RANK|2|
 A A Wrong of Earth and Fire|QID|33928|M|70.23,9.59|O|U|113080|N|From 'A Molten Core' which drops from Magmire.|RANK|2|
 C A Rare Bloom|QID|34894|NC|M|70.59,9.91|N|In the back of Magma Cave|RANK|2|
-C Elemental Attunement|QID|34891|M|67.46,4.16|QO|3|NC|N|Click on the rock piller to become attuned to it.|RANK|2|
+C Elemental Attunement|QID|34891|M|67.46,4.16|QO|3|NC|N|Click on the rock pillar to become attuned to it.|RANK|2|
 K Volatile Flame Guardian|QID|34893|QO|3|M|66.57,8.64|T|Volatile Flame Guardian|RANK|2|
 C Earth, Wind and Fire...and Water|QID|34881|M|67.18,10.48|US|RANK|2|
 
