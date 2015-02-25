@@ -423,16 +423,18 @@ function WoWPro.EventHandler(frame, event, ...)
 	
 	-- Noticing if we are doing a pet battle!
 	local guidetype = "WoWPro"
+	local battleHide = false
 	if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype then
 	    guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
+	    battleHide = not WoWPro.Guides[WoWProDB.char.currentguide].PetBattle
 	end
 	
-	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) then
+	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) and battleHide then
 		WoWPro:Print("|cff33ff33Pet Battle Auto Hide|r: %s Module",guidetype)
 		WoWPro.MainFrame:Hide()
 		WoWPro.Titlebar:Hide()
 		WoWPro.Hidden = true
-			return
+		return
 	end
 	if event == "PET_BATTLE_CLOSE" and WoWPro.Hidden then
 		WoWPro:Print("|cff33ff33Pet Battle Exit Auto Show|r: %s Module",guidetype)
