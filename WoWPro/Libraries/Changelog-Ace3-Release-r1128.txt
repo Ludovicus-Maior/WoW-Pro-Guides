@@ -1,0 +1,21 @@
+------------------------------------------------------------------------
+r1128 | nevcairiel | 2015-02-24 14:26:47 +0000 (Tue, 24 Feb 2015) | 1 line
+Changed paths:
+   A /tags/Release-r1128 (from /trunk:1127)
+
+Tag as Release-r1128
+------------------------------------------------------------------------
+r1127 | nevcairiel | 2015-02-24 14:26:09 +0000 (Tue, 24 Feb 2015) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+   M /trunk/changelog.txt
+
+Update changelog, bump TOC
+------------------------------------------------------------------------
+r1126 | nevcairiel | 2014-11-10 06:38:01 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+
+Use true/false in GameTooltip:SetText/AddLine instead of 1/0
+------------------------------------------------------------------------
