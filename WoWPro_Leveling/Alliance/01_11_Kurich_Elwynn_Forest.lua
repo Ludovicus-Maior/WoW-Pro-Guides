@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2015-02-19 20:10
+-- Who: Aldavor
+-- Log: Change of quest name from "Healing the Wounded" to "Learning the Word" in WoD expac.
+
+-- URL: http://wow-pro.com/node/3197/revisions/26868/view
 -- Date: 2014-11-07 22:51
 -- Who: Ludovicus
 -- Log: Removed human stutter.
@@ -249,12 +254,12 @@ A The Hunter's Path|QID|26917|C|Hunter|R|Human|M|48.55,42.56|N|From Ashley Blank
 A The Power of the Light|QID|26918|C|Paladin|R|Human|M|50.43,42.12|N|From Brother Sammuel.|
 A Mastering the Arcane|QID|26916|C|Mage|R|Human|M|49.66,39.40|N|From Khelden Bremen.|
 A The Deepest Cut|QID|26915|C|Rogue|R|Human|M|50.31,39.92|N|From Jorik Kerridan.|
-A Healing The Wounded|QID|26919|C|Priest|R|Human|M|49.81,39.49|N|From Priestess Anetta.|
+A Learning the Word|QID|26919|C|Priest|R|Human|M|49.81,39.49|N|From Priestess Anetta.|
 A Immolation|QID|26914|C|Warlock|R|Human|M|49.87,42.65|N|From Drusilla La Salle.|
 A Palm of the Tiger|QID|31142|C|Monk|R|Human|M|50.35,41.81|N|From Bao.|
 C Immolation|N|Learn Immolate then use it on the training dummies.|QID|26914|C|Warlock|R|Human|M|48.63,44.37|
 C The Deepest Cut|N|Learn Eviscerate and use it on the training dummies. |QID|26915|C|Rogue|R|Human|M|48.63,44.37|
-C Healing The Wounded|N|Learn Flash Heal then use it on Wounded Trainees inside the abbey.|QID|26919|C|Priest|R|Human|
+C Learning the Word|N|Learn Shadow Word: Pain then practice it (5 times) on the training dummies.|QID|26919|C|Priest|R|Human|
 C Charging into Battle|N|Learn Charge from the warrior trainer then use it on the training dummies.|QID|26913|C|Warrior|R|Human|M|48.63,44.37|
 C The Hunter's Path|N|Learn Steady Shot from the hunter trainer then use it on the training dummies.|QID|26917|C|Hunter|R|Human|M|48.63,44.37|
 C The Power of the Light|N|Learn Seal of righteousness and judgement then use judgement on the training dummies.|QID|26918|C|Paladin|R|Human|M|48.63,44.37|
@@ -262,7 +267,7 @@ C Mastering the Arcane|N|Learn Arcane Missiles then use it on the training dummi
 C Palm of the Tiger|N|Learn Tiger Palm then use it on the training dummies.|QID|31142|C|Monk|R|Human|M|48.63,44.37|
 T Immolation|QID|26914|C|Warlock|R|Human|M|49.87,42.65|N|To Drusilla La Salle.|
 T The Deepest Cut|QID|26915|C|Rogue|R|Human|M|50.31,39.92|N|To Jorik Kerridan.|
-T Healing The Wounded|QID|26919|C|Priest|R|Human|M|49.81,39.49|N|To Priestess Anetta.|
+T Learning the Word|QID|26919|C|Priest|R|Human|M|49.81,39.49|N|To Priestess Anetta.|
 T Charging into Battle|QID|26913|C|Warrior|R|Human|M|50.24,42.28|N|To Llane Beshere.|
 T The Power of the Light|QID|26918|C|Paladin|R|Human|M|50.43,42.12|N|To Brother Sammuel.|
 T Mastering the Arcane|QID|26916|C|Mage|R|Human|M|49.66,39.40|N|To Khelden Bremen.|

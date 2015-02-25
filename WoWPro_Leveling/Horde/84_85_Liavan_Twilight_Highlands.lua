@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
+-- Date: 2015-02-24 05:25
+-- Who: Emmaleah
+-- Log: added 2nd Coord for Following the young home, edited Note to say that the eggs are in several locations in the area.
+
+-- URL: http://wow-pro.com/node/3312/revisions/26908/view
 -- Date: 2014-11-08 04:23
 -- Who: Emmaleah
 -- Log: Delete Dup |N| T Paving the Way
@@ -484,10 +489,8 @@ T Blackout|QID|28173|M|59.06,69.79|N|To Lirastrasza.|
 T A Fitting End|QID|28191|M|59.06,69.79|N|To Lirastrasza.|
 T Shining Through the Dark|QID|28175|M|59.06,69.79|N|To Velastrasza.|
 A Following the Young Home|QID|28176|M|59.06,69.79|N|From Lirastrasza.|
-
-C Following the Young Home|QID|28176|U|63126|M|49.88,85.69|QO|Obsidian Whelps hatched: 1/1|N|Use Mother's flame to hatch the eggs outside the cave.|
+C Following the Young Home|QID|28176|U|63126|M|58.09,80.24;49.88,85.69|QO|1|N|Use Mother's flame to hatch the eggs outside the cave. There are several clumps of eggs in this area.|
 C Following the Young Home|QID|28176|M|49.88,85.69|N|Follow the whelps into the cave.|
-
 T Following the Young Home|QID|28176|M|44.99,90.95|N|To Baleflame. Deeper inside the cave.|
 A Last of Her Kind|QID|28247|M|44.99,90.95|N|From Baleflame.|
 

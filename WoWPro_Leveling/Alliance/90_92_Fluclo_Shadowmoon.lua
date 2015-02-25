@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2015-02-25 00:35
+-- Who: Ludovicus
+-- Log: Tweaks as I played through.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27140/view
 -- Date: 2015-02-08 20:39
 -- Who: Ludovicus
 -- Log: Edited [Pippers' Buried Supplies] as per Aldavor https://github.com/Jiyambi/WoW-Pro-Guides/issues/406
@@ -272,15 +277,15 @@ T Delegating on Draenor |QID|34692|N|To Lieutenant Thorn|M|40.3,53.6|Z|Lunarfall
 A Migrant Workers |QID|34778|N|From Vindicator Maraad|PRE|34692|M|44.10,53.35|Z|Lunarfall|
 C Migrant Workers |QID|34778|N|Speak with Zipfizzle and tell him to Move Out.|CHAT|M|44.2,51.0|Z|Lunarfall|
 
-A Hero's Welcome |QID|33075|N|From Yrel|PRE|34692|M|47.2,50.9|Z|Lunarfall|
+A A Hero's Welcome |QID|33075|N|From Yrel|PRE|34692|M|47.2,50.9|Z|Lunarfall|
 
 A Wanted: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|3|
 C Wanted: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|RANK|3|
 T Wanted: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|RANK|3|M|45.5,37.7|
 
 f Embaari Village |QID|33075|N|With Eonor|M|45.68,38.86|
-C Hero's Welcome |QID|33075|N|Find Samaara at Embaari Village|M|46.04,38.92|NC|
-T Hero's Welcome |QID|33075|N|To Samaara|M|46.04,38.92|
+C A Hero's Welcome |QID|33075|N|Find Samaara at Embaari Village|M|46.04,38.92|NC|
+T A Hero's Welcome |QID|33075|N|To Samaara|M|46.04,38.92|
 A Dark Enemies |QID|33765|N|From Samaara|M|46.04,38.92|PRE|33075|
 
 h Lamplighter Inn|QID|33813|M|46.70,40.95|N|Set your hearthstone to Lamplighter Inn in Embaari Village.|
@@ -318,7 +323,7 @@ A Enchanted Highmaul Bracer|QID|36308|N|Loot the Enchanted Highmaul Bracer from 
 A Transponder 047-B|QID|36286|N|Loot the Gnomish Location Transponder from Karnoth, and use it to begin the quest.|U|115278|P|Engineering;202;*;1;700|
 A A Mysterious Satchel|QID|36239|N|Loot the Mysterious Satchel from Karnoth, and use it to begin the quest.|U|114984|P|Inscription;773;*;1;700|
 A A Power Lost|QID|36408|N|Loot the Drained Crystal Fragment from Karnoth, and use it to begin the quest.|U|115507|P|Jewelcrafting;755;*;1;700|
-A A Call for Huntsman|QID|36176|N|Loot the Dirty Note from Karnoth, and use it to begin the quest.|U|114877|P|Leatherworking;164;*;1;700|
+A A Call for Huntsman|QID|36176|N|Loot the Dirty Note from Karnoth, and use it to begin the quest.|U|114877|P|Leatherworking;165;*;1;700|
 A The Cryptic Tome of Tailoring|QID|36236|N|Loot the Cryptic Tome of Tailoring Note from Karnoth, and use it to begin the quest.|U|114972|P|Tailoring;197;*;1;700|
 
 ;The following quests have been seen at 49.3,37.4 and 49.42,36.81 - not yet found out why it varies (yet!)
@@ -353,7 +358,7 @@ T Shocking Assistance|QID|35345|M|55.85,41.18|N|To Abatha.|
 T A Call for Huntsman |QID|36176|N|To Fanara in Embaari Village.|M|44.2,40.9|ACTIVE|36176|
 A Friendly Competition |QID|36177|N|From Fanara in Embaari Village.|M|44.2,40.9|PRE|36176|
 C Friendly Competition |QID|36177|N|Kill and loot the Shadowmoon Stalkers.|M|44.0,42.0|S|QO|1|
-C Friendly Competition |QID|36177|N|Kill and loot the Silverwing Kaliri|M|45.0,30.0|QO|2|
+C Friendly Competition |QID|36177|N|Kill and loot the Silverwing Kaliri|M|45.0,30.0|QO|2|T|Silverwing|
 C Friendly Competition |QID|36177|N|Kill and loot the Shadowmoon Stalkers.|M|44.0,42.0|US|QO|1|
 T Friendly Competition |QID|36177|N|To Fanara in Embaari Village.|M|44.2,40.9|
 
