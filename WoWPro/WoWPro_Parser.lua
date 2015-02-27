@@ -136,6 +136,62 @@ function WoWPro.UnSkipStep(index)
 	WoWPro:UpdateGuide("UnSkipStep")
 end
 
+local TagTable = {}
+local function DefineTag(action, key, vtype, validator, setter)
+    TagTable[action] = {key=key, vtype=vtype, validator=validator, setter=setter}
+end
+
+DefineTag("N","note","string",nil,nil)
+DefineTag("QID","QID","string",IsQidList,nil)
+DefineTag("M","map","string",IsCoordList,nil)
+DefineTag("S","sticky","boolean",nil, function (text)
+    WoWPro.sticky[i] = true;
+    WoWPro.stickycount = WoWPro.stickycount + 1;
+end)
+DefineTag("US","unsticky","boolean",nil,nil)
+DefineTag("U","use","boolean",nil,nil)
+DefineTag("L","lootitem","string",nil,function (text)
+    _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)|");
+	if WoWPro.lootitem[i] then
+    	if tonumber(WoWPro.lootqty[i]) ~= nil then
+    	    WoWPro.lootqty[i] = tonumber(WoWPro.lootqty[i])
+    	else
+    	    WoWPro.lootqty[i] = 1
+    	end
+    end
+end)    
+DefineTag("QO","questtext","string",nil,nil)
+DefineTag("O","optional","boolean",nil,function (text)
+    WoWPro.optional[i] = true;
+    WoWPro.optionalcount = WoWPro.optionalcount + 1;
+end)
+DefineTag("PRE","prereq","string",nil,nil)
+DefineTag("CC","waypcomplete","string",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
+DefineTag("CS","waypcomplete","string",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
+DefineTag("CN","waypcomplete","string",nil,function (value,i) WoWPro.waypcomplete[i] = false; end)
+DefineTag("NC","noncombat","boolean",nil,nil)
+DefineTag("CHAT","chat","boolean",nil,nil)
+DefineTag("LVL","level","string",nil,nil)
+DefineTag("LEAD","leadin","string",nil,nil)
+DefineTag("ACTIVE","active","string",nil,nil)
+DefineTag("T","target","string",nil,nil)
+DefineTag("REP","rep","string",nil,nil)
+DefineTag("P","prof","string",nil,nil)
+DefineTag("RANK","rank","string",nil,nil)
+DefineTag("SPELL","spell","string",nil,nil)
+DefineTag("NPC","NPC","string",nil,nil)
+DefineTag("ACH","ach","string",nil,nil)
+DefineTag("BUFF","buff","string",nil,nil)
+DefineTag("RECIPE","recipe","string",nil,nil)
+DefineTag("PET","pet","string",nil,nil)
+DefineTag("BUILDING","building","string",nil,nil)
+DefineTag("ITEM","item","string",nil,nil)
+DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end)
+DefineTag("Z","zone","string",nil,nil)
+DefineTag("FACTION","faction","string",nil,nil)
+
+	
+
 
 function WoWPro.ParseQuestLine(faction,i,text)
 	local GID = WoWProDB.char.currentguide
@@ -148,7 +204,55 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	end
 	WoWPro.step[i] = WoWPro.step[i]:trim()
 	WoWPro.stepcount = WoWPro.stepcount + 1
-	WoWPro.QID[i] = text:match("|QID|([^|]*)|?")
+	
+	local tags = { strsplit("|", text) }
+	local idx = 2
+	
+	-- Parse the tags
+	repeat
+	    local tag = tags[idx]
+	    local tag_spec = TagTable[tag]
+	    local value = nil
+	    if tag_spec then
+	        if not WoWPro[tag_spec.key] then
+	            WoWPro:Error("Tag %s has a bad key value of '%s'. Report this!", tag, tag_spec.key)
+	            tag = nil
+	        end
+	        if WoWPro[tag_spec.key][i] then
+	            WoWPro:Warning("Step %s [%s] has duplicate tag ||%s||.",WoWPro.action[i],WoWPro.step[i],tag)
+	        end
+	        if tag_spec.vtype == "boolean" then
+	            -- We only care that it exists
+	            value = true
+	        else
+	            -- pop the next value off the stack
+	            idx = idx + 1
+	            value = tags[idx]
+	        end
+	        if tag and tag_spec.validator then
+	            if not tag_spec.validator(WoWPro.action[i],WoWPro.step[i],tag,value) then
+	                WoWPro:Warning("Step %s [%s] has an bad value for tag ||%s||%s||.",WoWPro.action[i],WoWPro.step[i],tag, value)
+	                tag = nil
+	                value = nil
+	            end
+	        end
+	        if tag then
+	            if tag_spec.setter then
+	                tag_spec.setter(value,i)
+	            else
+	                WoWPro[tag_spec.key][i] = value
+	            end
+	        end
+	    else
+	        tag = tag:trim()
+	        -- empty tags and tags that are comments are permissible
+	        if tag ~= "" and tag:sub(1,1) ~= ";" then
+	            WoWPro:Error("Step %s [%s] has an unknown tag ||%s||.",WoWPro.action[i],WoWPro.step[i],tag)
+	        end
+	    end
+	    idx = idx + 1
+	until idx > #tags
+	
 	if WoWPro.action[i] == "t" then
 	    WoWPro.action[i] = "T"
 	    WoWPro.conditional[i] = true
@@ -156,46 +260,18 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
 	    WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
 	end
-	WoWPro.note[i] = text:match("|N|([^|]*)|?")
-	WoWPro.mat[i] = text:match("|N|([^|]*)|?")
-	WoWPro.map[i] = text:match("|M|([^|]*)|?")
 	if WoWPro.map[i] then
 	    WoWPro:ValidateMapCoords(GID,WoWPro.action[i],WoWPro.step[i],WoWPro.map[i])
 	end    
-	if text:find("|S|") then 
-		WoWPro.sticky[i] = true; 
-		WoWPro.stickycount = WoWPro.stickycount + 1 
-	end
-	if text:find("|US|") then WoWPro.unsticky[i] = true end
-	WoWPro.use[i] = text:match("|U|([^|]*)|?")
-	WoWPro.zone[i] = text:match("|Z|([^|]*)|?") or (WoWPro.map[i] and zone)
+	WoWPro.zone[i] = WoWPro.zone[i] or (WoWPro.map[i] and zone)
 	if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
---		local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,GID,text)
---        WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
---        table.insert(WoWProDB.global.ZoneErrors, line)
 	    WoWPro:Error("Step %s [%s] has a bad Z||%s|| tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
 	    WoWPro.zone[i] = nil
 	end
-	_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
-	if WoWPro.lootitem[i] then
-    	if tonumber(WoWPro.lootqty[i]) ~= nil then
-    	    WoWPro.lootqty[i] = tonumber(WoWPro.lootqty[i])
-    	else
-    	    WoWPro.lootqty[i] = 1
-    	end
-    end
-	WoWPro.questtext[i] = text:match("|QO|([^|]*)|?")
-	if text:find("|O|") then 
-		WoWPro.optional[i] = true
-		WoWPro.optionalcount = WoWPro.optionalcount + 1 
-	end
-	WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?") or (WoWPro.action[i] == "A" and WoWPro:GrailQuestPrereq(WoWPro.QID[i]))
+	WoWPro.prereq[i] = WoWPro.prereq[i] or (WoWPro.action[i] == "A" and WoWPro:GrailQuestPrereq(WoWPro.QID[i]))
 
 	if WoWPro.map[i] then
-		if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
-		elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
-		elseif text:find("|CN|") then WoWPro.waypcomplete[i] = false
-		else
+		if WoWPro.waypcomplete[i] == nil then 
 		    WoWPro.waypcomplete[i] = false
 		    if WoWPro.map[i]:find(";") then
 		        WoWPro:Warning("Step %s [%s:%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
@@ -204,10 +280,10 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	end
 
 	if faction then
+	    -- The parser may have set this already, but we allow the caller to override
 		WoWPro.faction[i] = faction
 	end
-	if text:find("|NC|") then WoWPro.noncombat[i] = true end
-	if text:find("|CHAT|") then WoWPro.chat[i] = true end
+
 	local gql = WoWPro:GrailQuestLevel(WoWPro.QID[i])
 	if WoWPro.DebugLevel > 0 and gql and tonumber(WoWPro.QID[i]) and tonumber(WoWPro.QID[i]) < 100000 then
 	    if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel > 1 and tonumber(gql) < (WoWPro.Guides[GID].startlevel / 2) then
@@ -230,30 +306,12 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	        WoWPro.Guides[GID].acnt_level = WoWPro.Guides[GID].acnt_level + 1
 	    end
 	end
-	WoWPro.level[i] = text:match("|LVL|([^|]*)|?") or gql
-	WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
-	WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
-	WoWPro.target[i] = text:match("|T|([^|]*)|?")
-	WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
-	WoWPro.prof[i] = text:match("|P|([^|]*)|?")
-	WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
-	WoWPro.spell[i] = text:match("|SPELL|([^|]*)|?")
-	WoWPro.NPC[i] = text:match("|NPC|([^|]*)|?")
-	WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
-	WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
-	WoWPro.recipe[i] = text:match("|RECIPE|([^|]*)|?")
-	WoWPro.pet[i] = text:match("|PET|([^|]*)|?")
-	WoWPro.building[i] = text:match("|BUILDING|([^|]*)|?")
-	WoWPro.item[i] = text:match("|ITEM|([^|]*)|?")
-	WoWPro.gossip[i] = text:match("|QG|([^|]*)|?")
-	if WoWPro.gossip[i] then WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end
+
 	WoWPro.why[i] = "I dunno."
 
-    -- If the step is "Achievement" use the name and description from the server ...
-    if WoWPro.ach[i] and false then
-        if not WoWPro.note[i] then
-            WoWPro.note[i] = ""
-        end
+    -- If the step is "Achievement" there is no note use the name and description from the server ...
+    if WoWPro.ach[i] and not WoWPro.note[i] then
+        WoWPro.note[i] = ""
     	local achnum, achitem = string.split(";",WoWPro.ach[i])
     	local count = GetAchievementNumCriteria(achnum) 
     	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
