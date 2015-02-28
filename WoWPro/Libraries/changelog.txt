@@ -1,3 +1,7 @@
+Ace3 Release - Revision r1128 (February 24th, 2015)
+---------------------------------------------------
+AceGUI-3.0: Fixed an error in GameTooltip handling causing wrong formatting in some cases
+
 Ace3 Release - Revision r1122 (October 14th, 2014)
 --------------------------------------------------
 AceDB-3.0: Now using the GetCurrentRegion() API to determine region-based profile keys (fix for WoW 6.0)

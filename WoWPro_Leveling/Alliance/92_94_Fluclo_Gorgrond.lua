@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2015-02-25 21:25
+-- Who: Aldavor
+-- Log: Replaced Shredder vs Saberon section, added Beatface vs Boulder quest and some PRE additions to allow for both types of outpost buildings.
+
+-- URL: http://wow-pro.com/node/3613/revisions/27056/view
 -- Date: 2014-11-26 14:17
 -- Who: Fluclo
 
@@ -442,10 +447,14 @@ C Plant Pruning |QID|36436|N|Kill the Seedpriests and Primal Growths|US|
 T Ambassador to the Ancient |QID|36437|N|To Altauur, who has moved to a cave in Dionor's Demise|M|51.32,47.96|
 T Plant Pruning |QID|36436|N|To Altauur|M|51.31,47.97|
 
-A Shredder vs. Saberon |QID|36439|N|From Altauur|M|51.31,47.97|PRE|36436|
+A Shredder vs. Saberon |QID|36439|N|From Altauur|M|51.31,47.97|PRE|36436;35708|
 R Steamscar Rise|QID|36439|N|Head to Steamscar Rise|M|52.29,46.52|ACTIVE|36439|
 C Shredder vs. Saberon |QID|36439|N|Head up the path, break the Strong Vine Barricade, then walk in.|NC|M|52.22,48.66|
-T Shredder vs. Saberon |QID|36439|N|To Altauur, who is moving into Steamscar Rise after you broke in.|M|52.04,49.50|PRE|36436|
+T Shredder vs. Saberon |QID|36439|N|To Altauur, who is moving into Steamscar Rise after you broke in.|M|52.04,49.50|PRE|36436;35708|
+
+A Beatface vs. Boulder |QID|36438|N|From Altauur|M|51.31,47.97|PRE|36436;34704|
+C Beatface vs. Boulder |QID|36438|N|Leave the cave and go left; there is a trail with a red banner over it heading up the mountain that brings you into a spot full of dead podlings\nFollow it round to the left and click on the boulders|NC|M|50.61,51.44|ACTIVE|36438|
+T Beatface vs. Boulder |QID|36438|N|To Altauur, who will spawn to your right as soon as you walk into the encampment.|M|52.04,49.50|PRE|36436;34704|
 
 A Saberon Population Reduction |QID|36440|N|From Altauur|M|52.04,49.50|PRE|36439|
 A Reclaiming Property|QID|36441|N|From Saberon Stash|M|51.85,50.02|

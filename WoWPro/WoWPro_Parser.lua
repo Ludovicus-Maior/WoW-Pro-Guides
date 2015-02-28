@@ -46,22 +46,24 @@ WoWPro.actionlabels = {
 -- Skip a step -- 
 function WoWPro.SkipStep(index)
 	local GID = WoWProDB.char.currentguide
+	WoWPro:dbp("SkipStep(%s) Action is %s QID is %s ",tostring(index),  tostring(WoWPro.action[index]), tostring(WoWPro.QID[index]))
 	
 	if not WoWPro.QID[index] then return "" end
 	if WoWPro.action[index] == "D" then return "" end -- No skipping this type
-	if WoWPro.action[index] == "A" 
-	or WoWPro.action[index] == "C" 
-	or WoWPro.action[index] == "T" then
-	    local numqids = select("#", string.split(";", WoWPro.QID[j]))
+	if WoWPro.QID[index] then 
+	    local numqids = select("#", string.split(";", WoWPro.QID[index]))
 	    for k=1,numqids do
-	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[j]))
+	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[index]))
 	        if tonumber(kqid) then
 	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = true
+	            WoWPro:dbp("Skipping QID %d",tonumber(kqid))
 	        end
 	    end
 		WoWProCharDB.Guide[GID].skipped[index] = true
+		WoWPro:dbp("Skipping step %d", index)
 	else 
 		WoWProCharDB.Guide[GID].skipped[index] = true
+		WoWPro:dbp("Just skipping step %d", index)
 	end
 	local steplist = ""
 	
@@ -78,6 +80,7 @@ function WoWPro.SkipStep(index)
 						or WoWPro.action[j] == "T" then
 							WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = true
 						end
+						WoWPro:dbp("Skipping QID %s as well.", WoWPro.QID[j])
 						steplist = steplist.."- "..WoWPro.step[j].."\n"
 						skipstep(j)
 					end
@@ -133,6 +136,62 @@ function WoWPro.UnSkipStep(index)
 	WoWPro:UpdateGuide("UnSkipStep")
 end
 
+local TagTable = {}
+local function DefineTag(action, key, vtype, validator, setter)
+    TagTable[action] = {key=key, vtype=vtype, validator=validator, setter=setter}
+end
+
+DefineTag("N","note","string",nil,nil)
+DefineTag("QID","QID","string",nil,nil)
+DefineTag("M","map","string",nil,nil)
+DefineTag("S","sticky","boolean",nil, function (text,i)
+    WoWPro.sticky[i] = true;
+    WoWPro.stickycount = WoWPro.stickycount + 1;
+end)
+DefineTag("US","unsticky","boolean",nil,nil)
+DefineTag("U","use","number",nil,nil)
+DefineTag("L","lootitem","string",nil,function (text,i)
+    _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)|");
+	if WoWPro.lootitem[i] then
+    	if tonumber(WoWPro.lootqty[i]) ~= nil then
+    	    WoWPro.lootqty[i] = tonumber(WoWPro.lootqty[i])
+    	else
+    	    WoWPro.lootqty[i] = 1
+    	end
+    end
+end)    
+DefineTag("QO","questtext","string",nil,nil)
+DefineTag("O","optional","boolean",nil,function (text,i)
+    WoWPro.optional[i] = true;
+    WoWPro.optionalcount = WoWPro.optionalcount + 1;
+end)
+DefineTag("PRE","prereq","string",nil,nil)
+DefineTag("CC","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
+DefineTag("CS","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
+DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = false; end)
+DefineTag("NC","noncombat","boolean",nil,nil)
+DefineTag("CHAT","chat","boolean",nil,nil)
+DefineTag("LVL","level","string",nil,nil)
+DefineTag("LEAD","leadin","string",nil,nil)
+DefineTag("ACTIVE","active","string",nil,nil)
+DefineTag("T","target","string",nil,nil)
+DefineTag("REP","rep","string",nil,nil)
+DefineTag("P","prof","string",nil,nil)
+DefineTag("RANK","rank","number",nil,nil)
+DefineTag("SPELL","spell","string",nil,nil)
+DefineTag("NPC","NPC","number",nil,nil)
+DefineTag("ACH","ach","string",nil,nil)
+DefineTag("BUFF","buff","string",nil,nil)
+DefineTag("RECIPE","recipe","number",nil,nil)
+DefineTag("PET","pet","string",nil,nil)
+DefineTag("BUILDING","building","string",nil,nil)
+DefineTag("ITEM","item","string",nil,nil)
+DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end)
+DefineTag("Z","zone","string",nil,nil)
+DefineTag("FACTION","faction","string",nil,nil)
+
+	
+
 
 function WoWPro.ParseQuestLine(faction,i,text)
 	local GID = WoWProDB.char.currentguide
@@ -145,7 +204,67 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	end
 	WoWPro.step[i] = WoWPro.step[i]:trim()
 	WoWPro.stepcount = WoWPro.stepcount + 1
-	WoWPro.QID[i] = text:match("|QID|([^|]*)|?")
+	
+	local tags = { strsplit("|", text) }
+	local idx = 2
+	
+	-- Parse the tags
+	repeat
+	    local tag = tags[idx]
+	    local tag_spec = TagTable[tag]
+	    local value = nil
+	    if tag_spec then
+	        if not WoWPro[tag_spec.key] then
+	            WoWPro:Error("Tag %s has a bad key value of '%s'. Report this!", tag, tag_spec.key)
+	            tag = nil
+	        end
+	        if WoWPro[tag_spec.key][i] then
+	            WoWPro:Warning("Step %s [%s] has duplicate tag ||%s||.",WoWPro.action[i],WoWPro.step[i],tag)
+	        end
+	        if tag_spec.vtype == "boolean" then
+	            -- We only care that it exists
+	            value = true
+	        elseif tag_spec.vtype == "number" then
+	            -- pop the next value off the stack
+	            idx = idx + 1
+	            value = tonumber(tags[idx])
+	            if not value then
+	                WoWPro:Warning("Step %s [%s] has an bad value for tag ||%s||%s||.",WoWPro.action[i],WoWPro.step[i],tag, value)
+	            end
+	        elseif tag_spec.vtype == "string" then
+	            -- pop the next value off the stack
+	            idx = idx + 1
+	            value = tags[idx]
+	            if not value then
+	                WoWPro:Warning("Step %s [%s] has an bad value for tag ||%s||%s||.",WoWPro.action[i],WoWPro.step[i],tag, value)
+	            end
+	        else
+	            WoWPro:Error("Tag %s has a bad key vtype of '%s'. Report this!", tag, tag_spec.vtype)
+	        end
+	        if tag and tag_spec.validator then
+	            if not tag_spec.validator(WoWPro.action[i],WoWPro.step[i],tag,value) then
+	                WoWPro:Warning("Step %s [%s] has an bad value for tag ||%s||%s||.",WoWPro.action[i],WoWPro.step[i],tag, value)
+	                tag = nil
+	                value = nil
+	            end
+	        end
+	        if tag then
+	            if tag_spec.setter then
+	                tag_spec.setter(value,i)
+	            else
+	                WoWPro[tag_spec.key][i] = value
+	            end
+	        end
+	    else
+	        tag = tag:trim()
+	        -- empty tags and tags that are comments are permissible
+	        if tag ~= "" and tag:sub(1,1) ~= ";" then
+	            WoWPro:Error("Step %s [%s] has an unknown tag ||%s||.",WoWPro.action[i],WoWPro.step[i],tag)
+	        end
+	    end
+	    idx = idx + 1
+	until idx > #tags
+	
 	if WoWPro.action[i] == "t" then
 	    WoWPro.action[i] = "T"
 	    WoWPro.conditional[i] = true
@@ -153,46 +272,18 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
 	    WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
 	end
-	WoWPro.note[i] = text:match("|N|([^|]*)|?")
-	WoWPro.mat[i] = text:match("|N|([^|]*)|?")
-	WoWPro.map[i] = text:match("|M|([^|]*)|?")
 	if WoWPro.map[i] then
 	    WoWPro:ValidateMapCoords(GID,WoWPro.action[i],WoWPro.step[i],WoWPro.map[i])
 	end    
-	if text:find("|S|") then 
-		WoWPro.sticky[i] = true; 
-		WoWPro.stickycount = WoWPro.stickycount + 1 
-	end
-	if text:find("|US|") then WoWPro.unsticky[i] = true end
-	WoWPro.use[i] = text:match("|U|([^|]*)|?")
-	WoWPro.zone[i] = text:match("|Z|([^|]*)|?") or (WoWPro.map[i] and zone)
+	WoWPro.zone[i] = WoWPro.zone[i] or (WoWPro.map[i] and zone)
 	if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
---		local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,GID,text)
---        WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
---        table.insert(WoWProDB.global.ZoneErrors, line)
 	    WoWPro:Error("Step %s [%s] has a bad Z||%s|| tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
 	    WoWPro.zone[i] = nil
 	end
-	_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
-	if WoWPro.lootitem[i] then
-    	if tonumber(WoWPro.lootqty[i]) ~= nil then
-    	    WoWPro.lootqty[i] = tonumber(WoWPro.lootqty[i])
-    	else
-    	    WoWPro.lootqty[i] = 1
-    	end
-    end
-	WoWPro.questtext[i] = text:match("|QO|([^|]*)|?")
-	if text:find("|O|") then 
-		WoWPro.optional[i] = true
-		WoWPro.optionalcount = WoWPro.optionalcount + 1 
-	end
-	WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?") or (WoWPro.action[i] == "A" and WoWPro:GrailQuestPrereq(WoWPro.QID[i]))
+	WoWPro.prereq[i] = WoWPro.prereq[i] or (WoWPro.action[i] == "A" and WoWPro:GrailQuestPrereq(WoWPro.QID[i]))
 
 	if WoWPro.map[i] then
-		if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
-		elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
-		elseif text:find("|CN|") then WoWPro.waypcomplete[i] = false
-		else
+		if WoWPro.waypcomplete[i] == nil then 
 		    WoWPro.waypcomplete[i] = false
 		    if WoWPro.map[i]:find(";") then
 		        WoWPro:Warning("Step %s [%s:%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
@@ -201,10 +292,10 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	end
 
 	if faction then
+	    -- The parser may have set this already, but we allow the caller to override
 		WoWPro.faction[i] = faction
 	end
-	if text:find("|NC|") then WoWPro.noncombat[i] = true end
-	if text:find("|CHAT|") then WoWPro.chat[i] = true end
+
 	local gql = WoWPro:GrailQuestLevel(WoWPro.QID[i])
 	if WoWPro.DebugLevel > 0 and gql and tonumber(WoWPro.QID[i]) and tonumber(WoWPro.QID[i]) < 100000 then
 	    if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel > 1 and tonumber(gql) < (WoWPro.Guides[GID].startlevel / 2) then
@@ -227,30 +318,12 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	        WoWPro.Guides[GID].acnt_level = WoWPro.Guides[GID].acnt_level + 1
 	    end
 	end
-	WoWPro.level[i] = text:match("|LVL|([^|]*)|?") or gql
-	WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
-	WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
-	WoWPro.target[i] = text:match("|T|([^|]*)|?")
-	WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
-	WoWPro.prof[i] = text:match("|P|([^|]*)|?")
-	WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
-	WoWPro.spell[i] = text:match("|SPELL|([^|]*)|?")
-	WoWPro.NPC[i] = text:match("|NPC|([^|]*)|?")
-	WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
-	WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
-	WoWPro.recipe[i] = text:match("|RECIPE|([^|]*)|?")
-	WoWPro.pet[i] = text:match("|PET|([^|]*)|?")
-	WoWPro.building[i] = text:match("|BUILDING|([^|]*)|?")
-	WoWPro.item[i] = text:match("|ITEM|([^|]*)|?")
-	WoWPro.gossip[i] = text:match("|QG|([^|]*)|?")
-	if WoWPro.gossip[i] then WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end
+
 	WoWPro.why[i] = "I dunno."
 
-    -- If the step is "Achievement" use the name and description from the server ...
-    if WoWPro.ach[i] and false then
-        if not WoWPro.note[i] then
-            WoWPro.note[i] = ""
-        end
+    -- If the step is "Achievement" there is no note use the name and description from the server ...
+    if WoWPro.ach[i] and not WoWPro.note[i] then
+        WoWPro.note[i] = ""
     	local achnum, achitem = string.split(";",WoWPro.ach[i])
     	local count = GetAchievementNumCriteria(achnum) 
     	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
@@ -396,11 +469,32 @@ function WoWPro:GuideSetup()
     WoWPro:SendMessage("WoWPro_GuideSetup")
 end
 
+function WoWPro.RecordQID(QIDs)
+    if not QIDs then return end
+
+    local GID = WoWProDB.char.currentguide
+    local guideType = WoWPro.Guides[GID].guidetype
+    local guideClass = WoWPro[guideType]
+    local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
+
+    if not recordQIDs then return end
+    
+	local numQIDs = select("#", string.split(";", QIDs))
+
+	for j=1,numQIDs do
+		local qid = select(numQIDs-j+1, string.split(";", QIDs))
+		local QID = tonumber(qid)
+		if QID then
+			WoWProDB.global.QID2Guide[QID] = WoWProDB.char.currentguide
+		end
+    end
+end
+
 function WoWPro.SetupGuideReal()
     local GID = WoWProDB.char.currentguide
     local guideType = WoWPro.Guides[GID].guidetype
     local guideClass = WoWPro[guideType]
-    local recordQIDs = guideClass.RecordQIDs
+    local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
     
     WoWPro:dbp("SetupGuideReal(%s): Type: %s, recordQIDs:",GID,guideType,tostring(recordQIDs))
     
@@ -418,7 +512,13 @@ function WoWPro.SetupGuideReal()
 		end
 
 	    WoWProCharDB.Guide[GID].completion[i] = false
-	    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was defaulted to incomplete."  
+	    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was defaulted to incomplete."
+	    
+	    if WoWProCharDB.Guide[GID].skipped[i] then
+	        WoWProCharDB.Guide[GID].completion[i] = true
+	        WoWPro.why[i] = "Previously marked as skipped"
+	    end
+	    
 		for j=1,numQIDs do
 			local QID = nil
 			local qid
@@ -428,15 +528,18 @@ function WoWPro.SetupGuideReal()
 			end
  
             if QID then
-                if recordQIDs then
-                    WoWProDB.global.QID2Guide[QID] = GID
-                end
     		    -- Turned in quests --
     			if WoWPro:IsQuestFlaggedCompleted(qid,true) then
     			    WoWProCharDB.Guide[GID].completion[i] = true
     			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as completed."
     			end
-    	
+    	        
+    	        -- Skiped quests --
+    	        if WoWProCharDB.skippedQIDs[QID] then
+    			    WoWProCharDB.Guide[GID].completion[i] = true
+    			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as skipped."
+                end
+                	            
     		    -- Quest Accepts and Completions --
     		    if not WoWProCharDB.Guide[GID].completion[i] then
     		        if WoWPro.QuestLog[QID] then 
@@ -467,14 +570,17 @@ end
 -- Checkbox Function --
 function WoWPro:CheckFunction(row, button, down)
     local GID = WoWProDB.char.currentguide
+    WoWPro:dbp("WoWPro:CheckFunction: row %d button %s UD %s rowChecked %s",row.index, button, tostring(down), tostring(row.check:GetChecked()))
 	if button == "LeftButton" and row.check:GetChecked() then
-		local steplist = WoWPro:SkipStep(row.index)
+	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as skipped.", row.index)
+		local steplist = WoWPro.SkipStep(row.index)
 		row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 		if steplist ~= "" then 
 			WoWPro:SkipStepDialogCall(row.index, steplist)
 		end
 	elseif button == "RightButton" and row.check:GetChecked() then
 	    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as complete.", row.index)
 		WoWProCharDB.Guide[GID].completion[row.index] = true
 		WoWPro:MapPoint()
 		if WoWProDB.profile.checksound then	
@@ -485,7 +591,8 @@ function WoWPro:CheckFunction(row, button, down)
 	        WoWPro:dbp("WoWPro:CheckFunction: %s guide is done.",GID)
 	    end
 	elseif not row.check:GetChecked() then
-		WoWPro:UnSkipStep(row.index)
+	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as UNskipped.", row.index)
+		WoWPro.UnSkipStep(row.index)
 	end
 	WoWPro:UpdateGuide("CheckFunction")
 end
