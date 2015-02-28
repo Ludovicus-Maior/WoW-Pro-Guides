@@ -142,15 +142,15 @@ local function DefineTag(action, key, vtype, validator, setter)
 end
 
 DefineTag("N","note","string",nil,nil)
-DefineTag("QID","QID","string",IsQidList,nil)
-DefineTag("M","map","string",IsCoordList,nil)
-DefineTag("S","sticky","boolean",nil, function (text)
+DefineTag("QID","QID","string",nil,nil)
+DefineTag("M","map","string",nil,nil)
+DefineTag("S","sticky","boolean",nil, function (text,i)
     WoWPro.sticky[i] = true;
     WoWPro.stickycount = WoWPro.stickycount + 1;
 end)
 DefineTag("US","unsticky","boolean",nil,nil)
-DefineTag("U","use","boolean",nil,nil)
-DefineTag("L","lootitem","string",nil,function (text)
+DefineTag("U","use","number",nil,nil)
+DefineTag("L","lootitem","string",nil,function (text,i)
     _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)|");
 	if WoWPro.lootitem[i] then
     	if tonumber(WoWPro.lootqty[i]) ~= nil then
@@ -161,14 +161,14 @@ DefineTag("L","lootitem","string",nil,function (text)
     end
 end)    
 DefineTag("QO","questtext","string",nil,nil)
-DefineTag("O","optional","boolean",nil,function (text)
+DefineTag("O","optional","boolean",nil,function (text,i)
     WoWPro.optional[i] = true;
     WoWPro.optionalcount = WoWPro.optionalcount + 1;
 end)
 DefineTag("PRE","prereq","string",nil,nil)
-DefineTag("CC","waypcomplete","string",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
-DefineTag("CS","waypcomplete","string",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
-DefineTag("CN","waypcomplete","string",nil,function (value,i) WoWPro.waypcomplete[i] = false; end)
+DefineTag("CC","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
+DefineTag("CS","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
+DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = false; end)
 DefineTag("NC","noncombat","boolean",nil,nil)
 DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("LVL","level","string",nil,nil)
@@ -177,12 +177,12 @@ DefineTag("ACTIVE","active","string",nil,nil)
 DefineTag("T","target","string",nil,nil)
 DefineTag("REP","rep","string",nil,nil)
 DefineTag("P","prof","string",nil,nil)
-DefineTag("RANK","rank","string",nil,nil)
+DefineTag("RANK","rank","number",nil,nil)
 DefineTag("SPELL","spell","string",nil,nil)
-DefineTag("NPC","NPC","string",nil,nil)
+DefineTag("NPC","NPC","number",nil,nil)
 DefineTag("ACH","ach","string",nil,nil)
 DefineTag("BUFF","buff","string",nil,nil)
-DefineTag("RECIPE","recipe","string",nil,nil)
+DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
@@ -224,10 +224,22 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	        if tag_spec.vtype == "boolean" then
 	            -- We only care that it exists
 	            value = true
-	        else
+	        elseif tag_spec.vtype == "number" then
+	            -- pop the next value off the stack
+	            idx = idx + 1
+	            value = tonumber(tags[idx])
+	            if not value then
+	                WoWPro:Warning("Step %s [%s] has an bad value for tag ||%s||%s||.",WoWPro.action[i],WoWPro.step[i],tag, value)
+	            end
+	        elseif tag_spec.vtype == "string" then
 	            -- pop the next value off the stack
 	            idx = idx + 1
 	            value = tags[idx]
+	            if not value then
+	                WoWPro:Warning("Step %s [%s] has an bad value for tag ||%s||%s||.",WoWPro.action[i],WoWPro.step[i],tag, value)
+	            end
+	        else
+	            WoWPro:Error("Tag %s has a bad key vtype of '%s'. Report this!", tag, tag_spec.vtype)
 	        end
 	        if tag and tag_spec.validator then
 	            if not tag_spec.validator(WoWPro.action[i],WoWPro.step[i],tag,value) then
