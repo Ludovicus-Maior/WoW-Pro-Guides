@@ -486,8 +486,7 @@ function WoWPro.NextStep(k,i)
 	        end
 	        --if the step has not been found to be incomplete, run the completion function
 	        if complete then
-	            WoWPro.CompleteStep(i)
-	            WoWPro.why[k] = "Criteria met"
+	            WoWPro.CompleteStep(i,"Criteria met")
 	            skip = true
 	            break
 	        end 
@@ -513,7 +512,7 @@ function WoWPro.NextStep(k,i)
     	
     	-- Complete "f" steps if we know the flight point already
     	if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi[WoWPro.step[k]] then
-	        WoWPro.CompleteStep(k)
+	        WoWPro.CompleteStep(k, "Taxi point known")
 	        skip = true
 	        break
 	    end	
@@ -534,8 +533,7 @@ function WoWPro.NextStep(k,i)
             if WoWPro.action[k] == "L" and level <= UnitLevel("player") then
                 WoWProCharDB.Guide[GID].completion[i] = true
                 skip = true
-                WoWPro.why[k] = "NextStep(): Completed L step because player level is high enough."
-                WoWPro.CompleteStep(k)
+                WoWPro.CompleteStep(k, "NextStep(): Completed L step because player level is high enough.")
                 break
             end
             if WoWPro.action[k] ~= "L" and level > UnitLevel("player") then
@@ -705,8 +703,7 @@ function WoWPro.NextStep(k,i)
     			if achflip then wasEarnedByMe = not wasEarnedByMe end
                 if wasEarnedByMe then
                     if not achflip then
-				        WoWPro.CompleteStep(k)
-				        WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] Complete."
+				        WoWPro.CompleteStep(k, "NextStep(): Achivement ["..Name.."] Complete.") 
 				    end
 				    skip = true
 				else
@@ -718,8 +715,7 @@ function WoWPro.NextStep(k,i)
     			if achflip then completed = not completed end
 			    if completed then
 			        if not achflip then
-				        WoWPro.CompleteStep(k)
-				        WoWPro.why[k] = "NextStep(): Criteria ["..description.."] Complete."
+				        WoWPro.CompleteStep(k, "NextStep(): Criteria ["..description.."] Complete.")
 				    end
 				    skip = true
 				else
@@ -742,19 +738,20 @@ function WoWPro.NextStep(k,i)
     	    if spellFlip then spellKnown = not spellKnown end
     	    WoWPro:dbp("Checking spell step %s [%s] for %s: Nomen %s, Known %s",WoWPro.action[k],WoWPro.step[k],WoWPro.spell[k],tostring(spellName),tostring(spellKnown))
     	    if spellKnown then
-    	        WoWPro.CompleteStep(k)
+    	        local why = string.format("Skipping because spell [%s] is known=%s",spellName, tostring(not not spellKnown))
+    	        WoWPro.CompleteStep(k, why)
 				skip = true
-				WoWPro:dbp("Skipping because spell [%s] is known=%s",spellName, tostring(not not spellKnown))
+				WoWPro:dbp(why)
 			end
     	end
     	
     	if WoWPro.recipe and WoWPro.recipe[k] then
     	    WoWPro:dbp("Step %d Recipe %s",k,WoWPro.recipe[k])
     	    if WoWProCharDB.Trades and WoWPro:AllIDsInTable(WoWPro.recipe[k],WoWProCharDB.Trades) then
-        	    WoWPro.why[k] = "Recipe(s) is known already"
-        	    WoWPro.CompleteStep(k)
+        	    local why = string.format("recipe #%d %s/%d is known: %s",k,WoWPro.step[k],WoWPro.recipe[k],tostring(WoWProCharDB.Trades[WoWPro.recipe[k]]))
+        	    WoWPro.CompleteStep(k, why)
         		skip = true
-        		WoWPro:dbp("recipe #%d %s/%d is known: %s",k,WoWPro.step[k],WoWPro.recipe[k],tostring(WoWProCharDB.Trades[WoWPro.recipe[k]]))
+        		WoWPro:dbp(why)
         		break
         	end
         end
@@ -764,8 +761,9 @@ function WoWPro.NextStep(k,i)
     	    local buffy = WoWPro:CheckPlayerForBuffs(WoWPro.buff[k])
     	    if buffy then
 	            skip = true
-                WoWPro.why[k] = "NextStep(): Skipping step because BUFF was present."
-                WoWPro:dbp("Skipping because buff #%d",buffy);
+	            local why = string.format("Skipping because buff #%d",buffy)
+                WoWPro.why[k] = why
+                WoWPro:dbp(why);
                 break
             end
      	end
@@ -853,8 +851,7 @@ function WoWPro.NextStep(k,i)
 		        else
 		            if i == 1 then
 		                -- Only complete the current step, the loot might go away!
-		                WoWPro.why[k] = "NextStep(): completed cause you have enough loot in bags."
-		                WoWPro.CompleteStep(k)
+		                WoWPro.CompleteStep(k, "NextStep(): completed cause you have enough loot in bags.")
 		            else
 			            WoWPro.why[k] = "NextStep(): skipped cause you have enough loot in bags."
 			        end
@@ -871,8 +868,7 @@ function WoWPro.NextStep(k,i)
     		-- Special for Buy steps where the step name is the item to buy and no |L| specified
     		if WoWPro.action[k] == "B" then
     		    if GetItemCount(WoWPro.step[k]) > 0 then
-    			    WoWPro.why[k] = "NextStep(): completed cause you bought enough named loot."
-    			    WoWPro.CompleteStep(k)
+    			    WoWPro.CompleteStep(k, "NextStep(): completed cause you bought enough named loot.")
     			    skip = true
     			end
     		end		    
@@ -914,7 +910,7 @@ function WoWPro.NextStepNotSticky(k)
 end
 
 -- Step Completion Tasks --
-function WoWPro.CompleteStep(step)
+function WoWPro.CompleteStep(step, why)
 	local GID = WoWProDB.char.currentguide
 	if WoWProCharDB.Guide[GID].completion[step] then return end
 	if WoWProDB.profile.checksound then	
@@ -945,6 +941,7 @@ function WoWPro.CompleteStep(step)
 	    WoWProCharDB.Guide[GID].done = true
 	    WoWPro:print("WoWPro.CompleteStep: %s guide is done.",GID)
 	end
+	WoWPro.why[step] = why
 	WoWPro:UpdateGuide("WoWPro.CompleteStep")
 	WoWPro:RemoveMapPoint()
 	WoWPro:MapPoint()
