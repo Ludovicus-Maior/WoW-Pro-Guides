@@ -776,47 +776,103 @@ function WoWPro:FinalizeGuides()
 	end
 end
 
-    
-function WoWPro:LoadAllGuides()
-    WoWPro:Print("Test Load of All Guides")
-    WoWPro:FinalizeGuides()
-    local aCount=0
-    local hCount=0
-    local nCount=0
-    local Count=0
-    local nextG
-    local zed
-	for guidID,guide in pairs(WoWPro.Guides) do
-        WoWPro:Print("Test Loading " .. guidID)
-        WoWProDB.char.currentguide = guidID
-        --Re-initiallizing tags and counts--
-    	for i,tag in pairs(WoWPro.Tags) do 
-    		WoWPro[tag] = {}
-    	end
-    	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
-        WoWPro:LoadGuideStepsReal()
-        nextG = WoWPro:NextGuide(guidID)
-        if WoWPro.Guides[guidID].zone then
-            zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
-            if not WoWPro:ValidZone(zed) then
-		        WoWPro:Error("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
-		    end
-		end
-        if nextG and WoWPro.Guides[nextG] == nil then	    
-            WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
-        end
-        if not WoWPro.Guides[guidID].icon then
-            WoWPro:Error("Guide %s has no icon.",guidID)
-        end
-        if WoWPro.Guides[guidID].faction then
-            if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end
-            if WoWPro.Guides[guidID].faction == "Neutral"  then nCount = nCount + 1 end
-            if WoWPro.Guides[guidID].faction == "Horde"    then hCount = hCount + 1 end
-        end
-        Count = Count + 1
+local Load = nil
+local LoadCo = nil
+local LoadCall = nil
+local LoadFrame = nil
+local LoadList = {}
+
+local aCount=0
+local hCount=0
+local nCount=0
+local Count=0
+
+local function TestGuideLoad(guidID)
+    if not guidID then return end
+    WoWPro:Print("Test Loading " .. guidID)
+    WoWProDB.char.currentguide = guidID
+    --Re-initiallizing tags and counts--
+	for i,tag in pairs(WoWPro.Tags) do 
+		WoWPro[tag] = {}
 	end
-        WoWPro:Print("%d Done! %d A, %d N, %d H guides present", Count, aCount, nCount, hCount)
+	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
+	WoWProCharDB.Guide[guidID] = {}
+	WoWProCharDB.Guide[guidID].completion =  {}
+    WoWProCharDB.Guide[guidID].skipped =  {}
+    WoWPro:LoadGuideStepsReal()
+    local nextG = WoWPro:NextGuide(guidID)
+    if WoWPro.Guides[guidID].zone then
+        local zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
+        if not WoWPro:ValidZone(zed) then
+	        WoWPro:Error("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
+	    end
+	end
+    if nextG and WoWPro.Guides[nextG] == nil then	    
+        WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
+    end
+    if not WoWPro.Guides[guidID].icon then
+        WoWPro:Error("Guide %s has no icon.",guidID)
+    end
+    if WoWPro.Guides[guidID].faction then
+        if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end
+        if WoWPro.Guides[guidID].faction == "Neutral"  then nCount = nCount + 1 end
+        if WoWPro.Guides[guidID].faction == "Horde"    then hCount = hCount + 1 end
+    end
+    Count = Count + 1
 end
+
+local function LoadNext(frame, elapsed)
+    if Load == nil then
+        -- Start coroutine
+        LoadCo = coroutine.create(function ()
+                                        repeat
+                                            local guidID = table.remove(LoadList)
+                                            TestGuideLoad(guidID)
+                                            Load = guidID
+                                            coroutine.yield(Load)
+                                        until not Load
+                                    end)
+        Load = true
+        return                                                    
+    end
+    if Load then
+        if coroutine.resume(LoadCo) then return end
+        -- false return implies we are done
+        LoadFrame:SetScript("OnUpdate",nil)
+        DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LoadAllGuides(): Done.")
+        LoadCall(Log)
+        Load = nil
+    end
+end
+
+function WoWPro:LoadTestAsync(callback)
+    DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LoadAllGuides(): Test Load of All Guides")
+    if not LoadFrame then
+        LoadFrame = CreateFrame("Frame",nil,UIParent)
+    end
+    Load = nil
+    
+    LoadCall = callback
+    LoadFrame:SetScript("OnUpdate",LoadNext)
+end
+
+function WoWPro.LoadAllGuidesDone()
+    WoWPro:Print("%d Done! %d A, %d N, %d H guides present", Count, aCount, nCount, hCount)
+end
+
+function WoWPro:LoadAllGuides()
+    WoWPro:FinalizeGuides()
+    aCount=0
+    hCount=0
+    nCount=0
+    Count=0
+    LoadList = {}
+ 	for guidID,guide in pairs(WoWPro.Guides) do
+ 	    table.insert(LoadList, guidID)
+	end
+	WoWPro:LoadTestAsync(WoWPro.LoadAllGuidesDone)
+end
+
 
 
 --- MOP Function Compatability Section
