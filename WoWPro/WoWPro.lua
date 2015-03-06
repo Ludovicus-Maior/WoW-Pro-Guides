@@ -776,19 +776,23 @@ function WoWPro:FinalizeGuides()
 	end
 end
 
-local Load = nil
-local LoadCo = nil
-local LoadCall = nil
-local LoadFrame = nil
-local LoadList = {}
+WoWPro.LoadAll = {}
+WoWPro.LoadAll.Load = nil
+WoWPro.LoadAll.Co = nil
+WoWPro.LoadAll.Call = nil
+WoWPro.LoadAll.Frame = nil
+WoWPro.LoadAll.List = {}
 
-local aCount=0
-local hCount=0
-local nCount=0
-local Count=0
+WoWPro.LoadAll.aCount=0
+WoWPro.LoadAll.hCount=0
+WoWPro.LoadAll.nCount=0
+WoWPro.LoadAll.Count=0
 
 local function TestGuideLoad(guidID)
-    if not guidID then return end
+    if not guidID then
+        WoWPro:Print("Finished loading guides.")
+        return
+    end
     WoWPro:Print("Test Loading " .. guidID)
     WoWProDB.char.currentguide = guidID
     --Re-initiallizing tags and counts--
@@ -814,62 +818,66 @@ local function TestGuideLoad(guidID)
         WoWPro:Error("Guide %s has no icon.",guidID)
     end
     if WoWPro.Guides[guidID].faction then
-        if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end
-        if WoWPro.Guides[guidID].faction == "Neutral"  then nCount = nCount + 1 end
-        if WoWPro.Guides[guidID].faction == "Horde"    then hCount = hCount + 1 end
+        if WoWPro.Guides[guidID].faction == "Alliance" then WoWPro.LoadAll.aCount = WoWPro.LoadAll.aCount + 1 end
+        if WoWPro.Guides[guidID].faction == "Neutral"  then WoWPro.LoadAll.nCount = WoWPro.LoadAll.nCount + 1 end
+        if WoWPro.Guides[guidID].faction == "Horde"    then WoWPro.LoadAll.hCount = WoWPro.LoadAll.hCount + 1 end
     end
-    Count = Count + 1
+    WoWPro.LoadAll.Count = WoWPro.LoadAll.Count + 1
 end
 
 local function LoadNext(frame, elapsed)
-    if Load == nil then
+    if WoWPro.LoadAll.Load == nil then
         -- Start coroutine
-        LoadCo = coroutine.create(function ()
+       WoWPro.LoadAll.Co = coroutine.create(function ()
+                                        local guidID
                                         repeat
-                                            local guidID = table.remove(LoadList)
+                                            guidID = table.remove(WoWPro.LoadAll.List)
                                             TestGuideLoad(guidID)
-                                            Load = guidID
-                                            coroutine.yield(Load)
-                                        until not Load
+                                            coroutine.yield(guidID)
+                                        until not guidID
+                                        WoWPro:Print("Exiting coroutine.")
                                     end)
-        Load = true
+        WoWPro.LoadAll.Load = true
         return                                                    
     end
-    if Load then
-        if coroutine.resume(LoadCo) then return end
+    if WoWPro.LoadAll.Load then
+        if coroutine.resume(WoWPro.LoadAll.Co) then return end
         -- false return implies we are done
-        LoadFrame:SetScript("OnUpdate",nil)
+        WoWPro.LoadAll.Frame:SetScript("OnUpdate",nil)
         DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LoadAllGuides(): Done.")
-        LoadCall(Log)
-        Load = nil
+        WoWPro.LoadAll.Call()
+        WoWPro.LoadAll.Load = nil
     end
 end
 
 function WoWPro:LoadTestAsync(callback)
     DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LoadAllGuides(): Test Load of All Guides")
-    if not LoadFrame then
-        LoadFrame = CreateFrame("Frame",nil,UIParent)
+    if not WoWPro.LoadAll.Frame then
+        WoWPro.LoadAll.Frame = CreateFrame("Frame",nil,UIParent)
     end
-    Load = nil
+    WoWPro.LoadAll.Load = nil
     
-    LoadCall = callback
-    LoadFrame:SetScript("OnUpdate",LoadNext)
+    WoWPro.LoadAll.Call = callback
+    WoWPro.LoadAll.Frame:SetScript("OnUpdate",LoadNext)
 end
 
 function WoWPro.LoadAllGuidesDone()
-    WoWPro:Print("%d Done! %d A, %d N, %d H guides present", Count, aCount, nCount, hCount)
+    WoWPro.LoadAllGuidesActive = nil
+    WoWPro:Print("%d Done! %d A, %d N, %d H guides present", WoWPro.LoadAll.Count, WoWPro.LoadAll.aCount, WoWPro.LoadAll.nCount, WoWPro.LoadAll.hCount)
 end
 
 function WoWPro:LoadAllGuides()
     WoWPro:FinalizeGuides()
-    aCount=0
-    hCount=0
-    nCount=0
-    Count=0
-    LoadList = {}
+    WoWPro.LoadAll.aCount=0
+    WoWPro.LoadAll.hCount=0
+    WoWPro.LoadAll.nCount=0
+    WoWPro.LoadAll.Count=0
+    WoWPro.LoadAll.List = {}
  	for guidID,guide in pairs(WoWPro.Guides) do
- 	    table.insert(LoadList, guidID)
+ 	    table.insert(WoWPro.LoadAll.List, guidID)
 	end
+	WoWPro.LoadAllGuidesActive = true
+	WoWPro:Print("LoadAllGuides: %d guides scheduled to load.", #(WoWPro.LoadAll.List))
 	WoWPro:LoadTestAsync(WoWPro.LoadAllGuidesDone)
 end
 

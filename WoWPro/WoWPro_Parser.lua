@@ -186,7 +186,7 @@ DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
-DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end)
+DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
 DefineTag("Z","zone","string",nil,nil)
 DefineTag("FACTION","faction","string",nil,nil)
 DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R tags
@@ -450,7 +450,13 @@ function WoWPro.LoadGuideStepsReal()
     WoWProCharDB.Guide[GID].done = false
 	WoWPro:ParseSteps(steps)
 	
-	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
+	
+	if WoWPro.LoadAllGuidesActive then
+	    WoWPro:dbp("Guide Parsed for LoadAllGuidesActive. "..WoWPro.stepcount.." steps stored.")
+	    return
+	else
+	    WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
+	end
 	WoWPro:PushCurrentGuide(GID)
 	WoWPro:GuideSetup()
 end
