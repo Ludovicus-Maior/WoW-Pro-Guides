@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2015-03-06 19:33
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3414/revisions/26832/view
 -- Date: 2014-11-06 18:13
 -- Who: Fluclo
 -- Log: Added missing |N| to First Lieutenant Connor
@@ -64,7 +68,7 @@
 
 local guide = WoWPro:RegisterGuide("CraToBarPA",'Dailies', "Tol Barad Peninsula", "Crackerhead22", "Alliance")
 WoWPro:GuideLevels(guide,85,85,85)
-WoWPro.Dailies:GuideFaction(guide,1178) --  "Tol Barad Peninsula Guide"
+WoWPro.Dailies:GuideFaction(guide,1177) --  "Tol Barad Peninsula Guide"
 WoWPro:GuideSteps(guide, function()
 return [[
 
