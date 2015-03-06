@@ -189,6 +189,9 @@ DefineTag("ITEM","item","string",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end)
 DefineTag("Z","zone","string",nil,nil)
 DefineTag("FACTION","faction","string",nil,nil)
+DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R tags
+DefineTag("C",nil,"string",nil,function (value,i) end)  -- Swallow C tags
+DefineTag("GEN",nil,"string",nil,function (value,i) end)  -- Swallow C tags
 
 	
 
@@ -211,14 +214,15 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	-- Parse the tags
 	repeat
 	    local tag = tags[idx]
+	    tag = tag and tag:trim() -- clean it up
 	    local tag_spec = TagTable[tag]
 	    local value = nil
 	    if tag_spec then
-	        if not WoWPro[tag_spec.key] then
-	            WoWPro:Error("Tag %s has a bad key value of '%s'. Report this!", tag, tag_spec.key)
+	        if tag_spec.key and not WoWPro[tag_spec.key] then
+	            WoWPro:Error("Tag %s has a bad key value of '%s'. Report this!", tag, tostring(tag_spec.key))
 	            tag = nil
 	        end
-	        if WoWPro[tag_spec.key][i] then
+	        if tag_spec.key and WoWPro[tag_spec.key][i] then
 	            WoWPro:Warning("Step %s [%s] has duplicate tag ||%s||.",WoWPro.action[i],WoWPro.step[i],tag)
 	        end
 	        if tag_spec.vtype == "boolean" then
@@ -256,9 +260,10 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	            end
 	        end
 	    else
-	        tag = tag:trim()
-	        -- empty tags and tags that are comments are permissible
-	        if tag ~= "" and tag:sub(1,1) ~= ";" then
+	        if not tag and idx <  #tags then
+	            WoWPro:Warning("Step %s [%s] has an empty tag.",WoWPro.action[i],WoWPro.step[i])
+	        elseif tag and tag ~= "" and tag:sub(1,1) ~= ";" then
+	            -- empty tags and tags that are comments are permissible
 	            WoWPro:Error("Step %s [%s] has an unknown tag ||%s||.",WoWPro.action[i],WoWPro.step[i],tag)
 	        end
 	    end
