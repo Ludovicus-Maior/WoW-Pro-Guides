@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2015-03-07 22:41
+-- Who: Aldavor
+-- Log: Replaced Ammen Vale coords with new correct ones; removed redundant references to skill/class training; changed the 'l' step to a 'C' on Blood Elf Plans - didn't close on looting even with the 'L' tag (also amended the QID to the previous one).
+
+-- URL: http://wow-pro.com/node/3206/revisions/26803/view
 -- Date: 2014-11-06 12:49
 -- Who: Fluclo
 -- Log: Removed duplicate tag from The Missing Scout
@@ -162,90 +167,87 @@ WoWPro:GuideSteps(guide, function()
 return [[
 R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
 f Seat of the Naaru|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
-A You Survived!|QID|9279|M|84.2,43.0|N|From Megelon right in front of you.|R|Draenei|
-T You Survived!|QID|9279|N|To Proenitus.|M|80.4,45.9|R|Draenei|
-A Replenishing the Healing Crystals|QID|9280|M|80.4,45.9|N|From Proenitus.|R|Draenei|
-A Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|From Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
-C Replenishing the Healing Crystals|QID|9280|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Draenei|
-C Replenishing the Healing Crystals|QID|9369|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
-T Replenishing the Healing Crystals|QID|9280|M|80.4,45.9|N|To Proenitus.|R|Draenei|
-T Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
-A Urgent Delivery!|QID|9409|M|80.4,45.9|N|From Proenitus.|
-T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building.|M|80.1,48.8|
-A Volatile Mutations|QID|10302|M|79.1,46.5|N|From Botanist Taerix.|
-C Volatile Mutations|QID|10302|M|77.85,43.37|N|Kill Volatile Mutations.|
-T Volatile Mutations|QID|10302|M|79.1,46.5|N|To Botanist Taerix.|
+A You Survived!|QID|9279|M|61.2,29.6|N|From Megelon right in front of you.|R|Draenei|
+T You Survived!|QID|9279|N|To Proenitus.|M|52.8,35.9|R|Draenei|
+A Replenishing the Healing Crystals|QID|9280|M|52.8,35.9|N|From Proenitus.|R|Draenei|
+A Replenishing the Healing Crystals|QID|9369|M|52.8,35.9|N|From Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
+C Replenishing the Healing Crystals|QID|9280|M|51.2,31.3|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Draenei|
+C Replenishing the Healing Crystals|QID|9369|M|51.2,31.3|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
+T Replenishing the Healing Crystals|QID|9280|M|52.8,35.9|N|To Proenitus.|R|Draenei|
+T Replenishing the Healing Crystals|QID|9369|M|52.8,35.9|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
+A Urgent Delivery!|QID|9409|M|52.8,35.9|N|From Proenitus.|
+T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building (he wanders around inside the place a bit).|M|51.8,42.0|
+A Volatile Mutations|QID|10302|M|49.9,37.3|N|From Botanist Taerix, back outside.|
+C Volatile Mutations|QID|10302|M|50.2,37.0|N|Kill Volatile Mutations.|
+T Volatile Mutations|QID|10302|M|49.9,37.3|N|To Botanist Taerix.|
 
-A What Must Be Done...|QID|9293|M|79.1,46.5|N|From Botanist Taerix.|
-A Botanical Legwork|QID|9799|M|79.1,46.5|N|From Apprentic Vishael.|
-A Rescue the Survivors!|QID|9283|M|80.1,48.8|N|From Zaldunn.|R|Draenei|
-r Sell junk and repair|QID|9293|N|At Mura.|M|79.19,50.93|
-A Spare Parts |QID|9305|M|79.5,51.4|N|From Technician Zhanaa.|
-A Inoculation |QID|9303|M|79.5,51.4|N|From Vindicator Aldar.|
-C Rescue the Survivors!|QID|9283|S|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|NC|R|Draenei|
-C Botanical Legwork|QID|9799|M|74.39,49.97|S|N|Collect Corrupted Flowers.|NC|
-C What Must Be Done...|QID|9293|N|Kill Mutated Root Lashers.|M|74.9,50.4|
-C Botanical Legwork|QID|9799|M|74.39,49.97|US|N|Collect Corrupted Flowers.|NC|
-C Rescue the Survivors!|QID|9283|US|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|NC|R|Draenei|
-T Botanical Legwork|QID|9799|M|79.1,46.5|N|To Apprentic Vishael.|
-T What Must Be Done...|QID|9293|M|79.1,46.5|N|To Botanist Taerix.|
-A Healing the Lake|QID|9294|M|79.1,46.5|N|From Botanist Taerix.|
-T Rescue the Survivors!|QID|9283|M|80.1,48.8|N|To Zaldunn.|R|Draenei|
+A What Must Be Done...|QID|9293|M|49.9,37.3|N|From Botanist Taerix.|
+A Botanical Legwork|QID|9799|M|49.7,37.4|N|From Apprentic Vishael.|
+A Rescue the Survivors!|QID|9283|M|51.8,42.0|N|From Zaldunn.|R|Draenei|
+A Spare Parts|QID|37445|M|50.5,47.9|N|From Technician Zhanaa.|
+A Inoculation|QID|37444|M|50.6,48.7|N|From Vindicator Aldar.|
+r Sell junk and repair (right click to close)|QID|9293|N|At Mura.|M|50.0,47.2|
+C Rescue the Survivors!|QID|9283|S|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|39.1,43.7|NC|R|Draenei|
+C Botanical Legwork|QID|9799|M|39.1,43.7|S|N|Collect Corrupted Flowers.|NC|
+C What Must Be Done...|QID|9293|N|Kill Mutated Root Lashers.|M|39.1,43.7|
+C Botanical Legwork|QID|9799|M|39.1,43.7|US|N|Collect Corrupted Flowers.|NC|
+C Rescue the Survivors!|QID|9283|US|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|39.1,43.7|NC|R|Draenei|
+T Botanical Legwork|QID|9799|M|49.7,37.4|N|To Apprentic Vishael.|
+T What Must Be Done...|QID|9293|M|49.9,37.3|N|To Botanist Taerix.|
+A Healing the Lake|QID|9294|M|49.9,37.3|N|From Botanist Taerix.|
+T Rescue the Survivors!|QID|9283|M|51.8,42.0|N|To Zaldunn.|R|Draenei|
 
-N Shaman Training|QID|9421|C|Shaman|N|Get your new skills at the trainer.|M|79.3,49.1|
-N Priest Training|QID|9291|C|Priest|N|Get your new skills at the trainer.|M|79.3,49.1|
-N Hunter Training|QID|9288|C|Hunter|N|Get your new skills at the trainer.|M|79.3,49.1|
-N Paladin Training|QID|9287|C|Paladin|N|Get your new skills at the trainer.|M|79.3,49.1|
-N Warrior Training|QID|9289|C|Warrior|N|Get your new skills at the trainer.|M|79.3,49.1|
-N Mage Training|QID|9290|C|Mage|N|Get your new skills at the trainer.|M|79.3,49.1|
+A The Tiger Palm|QID|31173|M|50.5,48.7|C|Monk|N|From Mojo Stormstout.|
+C The Tiger Palm|QID|31173|M|50.5,48.7|C|Monk|N|Find a Training Dummy on the northwest side of the Crash Site and practice using Tiger Palm. |
+T The Tiger Palm|QID|31173|M|50.5,48.7|C|Monk|N|From Mojo Stormstout.|
+A Your First Lesson|QID|26958|M|50.9,43.9|C|Warrior|N|From Kore.|
+C Your First Lesson|QID|26958|M|50.9,43.9|C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
+T Your First Lesson|QID|26958|M|50.9,43.9|C|Warrior|N|To Kore.|
+A Arcane Missiles|QID|26968|M|50.9,42.3|C|Mage|N|From Valaatu.|
+C Arcane Missiles|QID|26968|M|50.9,42.3|C|Mage|N|Learn Arcane Missiles from Valaatu. Find a Training Dummy on the northwest side of the Crash Site and practice using Arcane Missiles 2 times. |
+T Arcane Missiles|QID|26968|M|50.9,42.3|C|Mage|N|To Valaatu.|
+A Primal Strike|QID|26969|M|50.2,43.2|C|Shaman|N|From Firmanvaar. |
+C Primal Strike|QID|26969|M|50.2,43.2|C|Shaman|N|Learn Primal Strike from Firmanvaar. Find a Training Dummy on the northwest side of the Crash Site and practice using Primal Strike 3 times. |
+T Primal Strike|QID|26969|M|50.2,43.2|C|Shaman|N|To Firmanvaar. |
+A Steadying Your Shot|QID|10070|M|51.5,44.4|C|Hunter|N|From Keilnei.|
+C Steadying Your Shot|QID|10070|M|51.5,44.4|C|Hunter|N|Learn Steady Shot from Keilnei. Find a Training Dummy on the northwest side of the Crash Site and practice using Steady Shot 5 times. |
+T Steadying Your Shot|QID|10070|M|51.5,44.4|C|Hunter|N|To Keilnei.|
+A The Light's Power|QID|26966|M|51.3,40.9|C|Paladin|N|From Aurelon.|
+C The Light's Power|QID|26966|M|51.3,40.9|C|Paladin|N|Learn Seal of Righteousness and Judgement from Aurelon. Apply Seal of Righteousness, find a Training Dummy on the northwest side of the Crash Site and use Judgement. |
+T The Light's Power|QID|26966|M|51.3,40.9|C|Paladin|N|To Aurelon|
+A Learning the Word|QID|26970|M|51.8,42.0|C|Priest|N|From Zalduun.|
+C Learning the Word|QID|26970|M|51.8,42.0|C|Priest|N|Learn Shadow Word:Pain from Zalduun.  Find a Training Dummy on the northwest side of the Crash Site and use Shadow Word. |
+T Learning the Word|QID|26970|M|51.8,42.0|C|Priest|N|To Zalduun.|
 
-A The Tiger Palm|QID|31173|M|79.40,51.60|C|Monk|N|From Mojo Stormstout.|
-C The Tiger Palm|QID|31173|M|80.08,45.77|C|Monk|N|Find a Training Dummy on the northwest side of the Crash Site and practice using Tiger Palm. |
-T The Tiger Palm|QID|31173|M|79.40,51.60|C|Monk|N|From Mojo Stormstout.|
-A Your First Lesson|QID|26958|M|79.61,49.42|C|Warrior|N|From Kore.|
-C Your First Lesson|QID|26958|M|80.08,45.77|C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
-T Your First Lesson|QID|26958|M|79.61,49.42|C|Warrior|N|To Kore.|
-A Arcane Missiles|QID|26968|M|79.6,48.8|C|Mage|N|From Valaatu.|
-C Arcane Missiles|QID|26968|M|80.08,45.77|C|Mage|N|Learn Arcane Missiles from Valaatu. Find a Training Dummy on the northwest side of the Crash Site and practice using Arcane Missiles 2 times. |
-T Arcane Missiles|QID|26968|M|79.6,48.8|C|Mage|N|To Valaatu.|
-A Primal Strike|QID|26969|M|79.9,49.1|C|Shaman|N|From Firmanvaar. |
-C Primal Strike|QID|26969|M|80.08,45.77|C|Shaman|N|Learn Primal Strike from Firmanvaar. Find a Training Dummy on the northwest side of the Crash Site and practice using Primal Strike 3 times. |
-T Primal Strike|QID|26969|M|79.9,49.1|C|Shaman|N|To Firmanvaar. |
-A Steadying Your Shot|QID|10070|M|79.9,49.6|C|Hunter|N|From Keilnei.|
-C Steadying Your Shot|QID|10070|M|80.08,45.77|C|Hunter|N|Learn Steady Shot from Keilnei. Find a Training Dummy on the northwest side of the Crash Site and practice using Steady Shot 5 times. |
-T Steadying Your Shot|QID|10070|M|79.9,49.6|C|Hunter|N|To Keilnei.|
-A The Light's Power|QID|26966|M|79.75,48.34|C|Paladin|N|From Aurelon.|
-C The Light's Power|QID|26966|M|80.08,45.77|C|Paladin|N|Learn Seal of Righteousness and Judgement from Aurelon. Apply Seal of Righteousness, find a Training Dummy on the northwest side of the Crash Site and use Judgement. |
-T The Light's Power|QID|26966|M|79.75,48.34|C|Paladin|N|To Aurelon|
-A Learning the Word|QID|26970|M|80.1,48.5|C|Priest|N|From Zalduun.|
-C Learning the Word|QID|26970|M|80.1,48.5|C|Priest|N|Learn Shadow Word:Pain from Zalduun.  Find a Training Dummy on the northwest side of the Crash Site and use Shadow Word. |
-T Learning the Word|QID|26970|M|80.1,48.5|C|Priest|N|To Zalduun.|
+r Sell junk and repair|QID|37445|N|At Mura, close this step when done.|M|50.0,47.2|
+C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent (right click on the icon).|M|45.5,64.6|NC|
+C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|
+C Spare Parts|QID|37445|N|Into the hills, through the cave. The parts are spread all over the camp.|M|58,72|
+C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|
+H Ammen Vale|QID|37445|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
+T Healing the Lake|QID|9294|M|49.9,37.3|N|To Botanist Taerix.|
+A Vindicator Aldar|QID|10304|M|49.9,37.3|N|From Botanist Taerix.|
+T Vindicator Aldar|QID|10304|M|50.6,48.7|N|Speak to Vindicator Aldar.|
+T Inoculation|QID|37444|M|50.6,48.7|N|To Vindicator Aldar.|
+A The Missing Scout|QID|9309|M|50.6,48.7|N|From Vindicator Aldar.|
+T Spare Parts|QID|37445|M|50.5,47.9|N|To Technician Zhanaa.|
 
-r Sell junk and repair|QID|9305|N|At Mura, close this step when done.|M|79.19,50.93|
-C Healing the Lake|QID|9294|N|Head south to the giant crystal and right-click it.|M|77,59|NC|
-C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|S|NC|
-C Spare Parts|QID|9305|N|Into the hills, through the cave. The parts are spread all over the camp.|M|84.51,65.29|
-C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|US|NC|
-H Ammen Vale|QID|9305|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
-T Healing the Lake|QID|9294|M|79.1,46.5|N|To Botanist Taerix.|
-T Inoculation|QID|9303|M|79.5,51.4|N|To Vindicator Aldar.|
-A The Missing Scout|QID|9309|M|79.5,51.4|N|From Vindicator Aldar.|
-T Spare Parts|QID|9305|M|79.5,51.4|N|To Technician Zhanaa.|
-N Visit class trainer|QID|9309|M|79.97,48.66|
-T The Missing Scout|QID|9309|M|72.01,60.84|N|To Tolaan.|
-A The Blood Elves|QID|10303|N|From Tolaan.|M|70.61,63.16|
-C The Blood Elves|QID|10303|N|Kill Blood Elf Scouts.|M|70.61,63.16|
-T The Blood Elves|QID|10303|M|72.01,60.84|N|To Tolaan.|
-A Blood Elf Spy|QID|9311|M|72.01,60.84|N|From Tolaan.|
-C Blood Elf Spy|QID|9311|N|Find Surveyor Candress in front of a tent at the top of the ridge.|M|69.27,65.72|
-l Blood Elf Plans|QID|9798|N|Loot Surveyor Candress's body to get the attack plans.|L|24414|M|69.3,65.7|
-A Blood Elf Plans|QID|9798|N|Starts from a drop from Surveyor Candress.|U|24414|M|69.3,65.7|
-T Blood Elf Spy|QID|9311|N|To Vindicator Aldar.|M|79.5,51.4|
-T Blood Elf Plans|QID|9798|M|79.5,51.4|N|To Vindicator Aldar.|
-A The Emitter|QID|9312|M|79.5,51.4|N|From Vindicator Aldar.|
-T The Emitter|QID|9312|M|79.5,51.4|N|To Technician Zhanaa.|
-A Travel to Azure Watch|QID|9313|M|79.5,51.4|N|From Technician Zhanaa.|
-r Sell junk and repair|QID|9452|N|At Mura.|M|79.19,50.93|
+T The Missing Scout|QID|9309|M|33.8,68.4|N|To Tolaan.|
+A The Blood Elves|QID|10303|N|From Tolaan.|M|33.8,68.4|
+C The Blood Elves|QID|10303|N|Kill Blood Elf Scouts.|M|29,73|
+T The Blood Elves|QID|10303|M|33.8,68.4|N|To Tolaan.|
+A Blood Elf Spy|QID|9311|M|33.8,68.4|N|From Tolaan.|
+C Blood Elf Spy|QID|9311|N|Find Surveyor Candress in front of a tent at the top of the ridge.|M|28.0,80.0|
+
+C Blood Elf Plans|QID|9311|N|Loot Surveyor Candress's body to get the attack plans.|L|24414|M|28.0,80.0|
+A Blood Elf Plans|QID|9798|N|Starts from a drop from Surveyor Candress.|M|28.0,80.0|
+
+T Blood Elf Spy|QID|9311|N|To Vindicator Aldar.|M|50.6,48.7|
+T Blood Elf Plans|QID|9798|M|50.6,48.7|N|To Vindicator Aldar.|
+A The Emitter|QID|9312|M|50.6,48.7|N|From Vindicator Aldar.|
+T The Emitter|QID|9312|M|50.6,48.7|N|To Technician Zhanaa.|
+A Travel to Azure Watch|QID|9313|M|50.5,47.9|N|From Technician Zhanaa.|
+r Sell junk and repair|QID|9452|N|At Mura (close when done).|M|50.0,47.2|
 
 A Word from Azure Watch |QID|9314|M|69,54;64.5,54.0|CC|N|From Aeun.|
 A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|From Diktynna.|
