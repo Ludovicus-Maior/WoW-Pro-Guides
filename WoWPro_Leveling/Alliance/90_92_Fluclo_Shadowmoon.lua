@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2015-03-04 22:55
+-- Who: Ludovicus
+-- Log: Play through tweaks.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27148/view
 -- Date: 2015-02-25 00:35
 -- Who: Ludovicus
 -- Log: Tweaks as I played through.
@@ -381,7 +386,7 @@ A Circle the Wagon |QID|34779|N|From Foreman Zipfizzle|M|56.0,32.6|PRE|34778|
 
 C Circle the Wagon |QID|34779|N|Locate the missing wagon in Saraah's Vale.|NC|M|51.2,28.4|QO|1|
 C Circle the Wagon |QID|34779|N|Defend the wagon from the Shadowmoon Raiders|M|51.2,28.4|QO|2|
-C Circle the Wagon |QID|34779|N|Follow Maraad through Saraah's Vale and Elodor Fields. There will be two ambushes during the escort.|QO|3|CN|M|52.50,30.28;53.82,32.12;55.97,32.82|
+C Circle the Wagon |QID|34779|N|Follow Maraad through Saraah's Vale and Elodor Fields. There will be two ambushes during the escort.|QO|3|CS|M|52.50,30.28;53.82,32.12;55.97,32.82|
 T Circle the Wagon |QID|34779|N|To Exarch Akama|M|55.97,32.82|
 
 A Invisible Ramparts |QID|34780|N|From Exarch Hataaru|M|56.24,32.61|PRE|34779|
@@ -440,6 +445,7 @@ T Engorged Goren |QID|34786|N|To Apprentice Artificer Andren|M|61.87,29.14|
 T Shut 'er Down |QID|35070|N|To Exarch Hataaru|M|61.91,29.69|
 A Exarch Maladaar |QID|34787|N|From Exarch Akama|M|61.92,29.61|PRE|35070|
 
+f Elodor |QID|34787|N|With Vamuun.|M|58.7,31.9|
 T Exarch Maladaar |QID|34787|N|To Exarch Maladaar on Fey Landing.|CS|M|59.38,29.15;59.51,30.37|
 A Trust No One |QID|35552|N|From Exarch Maladaar.|M|59.51,30.37|PRE|34787|
 C Trust No One |QID|35552|N|Follow the trail to the Infiltrator's Hideout.|M|61.3,24.8|NC|
@@ -465,8 +471,6 @@ C Friend of the Exarchs |QID|34788|N|Choose a follower.\n\n- Andren is good for 
 T Friend of the Exarchs |QID|34788|N|To Exarch Naielle|M|62.48,26.22|
 
 A Supply Drop |QID|35905|N|From Exarch Naielle|PRE|34788|M|62.48,26.22|
-
-f Elodor |QID|35444|N|With Vamuun.|M|58.7,31.9|
 
 ;The next block is for Engineers only
 T Gnomish Location Transponder|QID|36286|N|To Goggles|M|60.9,32.6|ACTIVE|36286|

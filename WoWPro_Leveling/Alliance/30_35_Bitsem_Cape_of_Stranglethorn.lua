@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2015-03-04 20:25
+-- Who: Aldavor
+-- Log: Changed the 'CN' to 'CC' in "The Bloodsail Buccaneers" line to auto-complete directional waypoints.
+
+-- URL: http://wow-pro.com/node/3237/revisions/26811/view
 -- Date: 2014-11-06 13:12
 -- Who: Fluclo
 -- Log: Added missing pipe in High Priest Venoxis
@@ -248,7 +253,7 @@ A The Captain's Chest|QID|26599|M|40.33,67.87|N|From Captain Hecklebury Smotts.|
 ;f Booty Bay|QID|26593|NC|M|41.64,74.47|N|Get the Booty Bay flight path.|
 
 K "Good-Boy" Bruce |QID|26617|L|59143|M|41.35,61.23|N|Kill and loot "Good-Boy" Bruce.|S|
-T The Bloodsail Buccaneers|QID|26609|M|42.33,67.89;45.06,65.75;41.35,61.16|CN|N|To Bloodsail Correspondence on the Southern Savage Coast.|
+T The Bloodsail Buccaneers|QID|26609|M|42.33,67.89;45.06,65.75;41.35,61.16|CC|N|To Bloodsail Correspondence on the Southern Savage Coast.|
 A Bloodsail Treachery|QID|26610|PRE|26609|M|41.35,61.16|N|From Bloodsail Correspondence.|
 K "Good-Boy" Bruce |QID|26617|L|59143|M|41.35,61.23|N|Kill and loot "Good-Boy" Bruce.|US|
 A An Old Sea Dog|QID|26617|U|59143|N|Accept this quest from the Weather-Beaten Coin.|

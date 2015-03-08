@@ -167,7 +167,7 @@ A Soulfang|QID|36128|M|75.60,65.00|Z|Nagrand@Draenor|N|i597 Intellect Sword|ITEM
 A Brutag Grimblade|QID|37400|M|43.00,36.40|Z|Nagrand@Draenor|N|i620 Intellect/Strength Plate Boots|ITEM|119380|RANK|3|LVL|100|
 A Durg Spinecrusher|QID|37395|M|38.60,22.40|Z|Nagrand@Draenor|N|i620 Agility 2H Mace|ITEM|119405|RANK|3|LVL|100|
 A Appropriated Warsong Supplies|QID|35673|M|73.10,75.50|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|
-A Aogexon|QID|37210|M|51.00,16.00|Z|Nagrand@Draenor|Neputation Item for Steamwheedle Preservation Society|ITEM|118654|RANK|3|LVL|100|
+A Aogexon|QID|37210|M|51.00,16.00|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118654|RANK|3|LVL|100|
 A Polished Saberon Skull|QID|36035|M|72.70,61.00|Z|Nagrand@Draenor|N|i605 Agility/Strength Ring|ITEM|118254|
 A Goldtoe's Plunder|QID|36109|M|38.30,58.80|Z|Nagrand@Draenor|N|Gold|; Key on the Parrot
 A Explorer Dez|QID|xxx|M|67.60,14.20|Z|Nagrand@Draenor|N|Nothing|; You can reach him from the east starting at the elemental plateau
@@ -176,12 +176,12 @@ A Malroc Stonesunder |QID|35932|M|81.20,60.00|Z|Nagrand@Draenor|N|i597 Agility S
 A Mr. Pinchy Sr.|QID|36229|M|45.80,15.20|Z|Nagrand@Draenor|N|i616 Trinket Multistrike + Lobstrok Proc|ITEM|118690|RANK|2|
 A Bag of Herbs|QID|36116|M|62.50,67.10|Z|Nagrand@Draenor|N|Herbs|ITEM|109124|
 A Adventurer's Pack|QID|35765|M|82.30,56.60|Z|Nagrand@Draenor|N|Gold|
-A Vileclaw|QID|37520|M|37.00,38.00|Z|Nagrand@Draenor|Neputation Item for Steamwheedle Preservation Society|ITEM|120172|RANK|3|LVL|100|
+A Vileclaw|QID|37520|M|37.00,38.00|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|120172|RANK|3|LVL|100|
 A Gortag Steelgrip|QID|37472|M|45.00,36.40|Z|Nagrand@Draenor|N|unknown|RANK|3|LVL|100|
 A Adventurer's Staff|QID|35953|M|81.50,13.00|Z|Nagrand@Draenor|N|Gold|
 A Tura'aka|QID|35920|M|65.00,39.00|Z|Nagrand@Draenor|N|i609 Agility Cloak|ITEM|116814|RANK|2|
 A Berserk T-300 Series Mark II|QID|35735|M|77.00,64.00|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|RANK|2|; In a cave, opened with a switch
-A Xelganak|QID|37226|M|41.00,44.00|Z|Nagrand@Draenor|Neputation Item for Steamwheedle Preservation Society|ITEM|118661|RANK|3|LVL|100|
+A Xelganak|QID|37226|M|41.00,44.00|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118661|RANK|3|LVL|100|
 A Sean Whitesea|QID|35912|M|61.80,47.20|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|RANK|2|
 A Pit Slayer|QID|37397|M|38.00,19.60|Z|Nagrand@Draenor|N|i620 Strength Ring|ITEM|119389|RANK|3|LVL|100|
 A Captain Ironbeard|QID|34727|M|34.60,77.00|Z|Nagrand@Draenor|N|Toy + i607 Gun|ITEM|118244|RANK|2|
@@ -194,9 +194,9 @@ A Pit Beast|QID|37637|M|58.20,18.00|Z|Nagrand@Draenor|N|Apexis Crystals|ITEM|$82
 A Outrider Duretha|QID|35943|M|61.80,69.00|Z|Nagrand@Draenor|N|i598 Agility/Intellect Leather Boots|ITEM|116800|RANK|2|
 A Adventurer's Pack|QID|35969|M|45.60,52.00|Z|Nagrand@Draenor|N|Gold|
 A Ophiis|QID|35875|M|42.80,49.20|Z|Nagrand@Draenor|N|i602 Cloth Pants|ITEM|116765|RANK|2|
-A Gagrog the Brutal|QID|37223|M|48.20,22.20|Z|Nagrand@Draenor|Neputation Item for Steamwheedle Preservation Society|ITEM|118658|RANK|3|LVL|100|
+A Gagrog the Brutal|QID|37223|M|48.20,22.20|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118658|RANK|3|LVL|100|
 A Explorer Razzuk|QID|xxx|M|75.60,64.60|Z|Nagrand@Draenor|N|Nothing|; Is required for some other Treasures
-A Mu'gra|QID|37224|M|34.00,51.00|Z|Nagrand@Draenor|Neputation Item for Steamwheedle Preservation Society|ITEM|118659|RANK|3|LVL|100|
+A Mu'gra|QID|37224|M|34.00,51.00|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118659|RANK|3|LVL|100|
 A Warmaster Blugthol|QID|34645|M|82.60,76.20|Z|Nagrand@Draenor|N|i600 Strength/Intellect Plate Bracer|ITEM|116805|RANK|2|
 A Explorer Nozzand |QID|35623|M|89.00,41.20|Z|Nagrand@Draenor|N|Trash Item|ITEM|118679|RANK|2|
 A Gaz'orda|QID|34725|M|42.20,78.60|Z|Nagrand@Draenor|N|i602 Intellect Ring|ITEM|116798|RANK|2|; In the cave
@@ -230,16 +230,16 @@ A Abu'Gar's Favorite Lure|QID|36711|M|38.40,49.40|Z|Nagrand@Draenor|N|Abu'Gar's 
 A Abu'gar's Vitality|QID|36711|M|65.90,61.20|Z|Nagrand@Draenor|N|Abu'gar's Vitality|ITEM|114242|; Combine with the other Abu'Gar Parts for a follower (just north of Telaar)
 A Adventurer's Pack|QID|35597|M|69.90,52.40|Z|Nagrand@Draenor|N|Gold|
 A Important Exploration Supplies|QID|36099|M|75.30,65.70|Z|Nagrand@Draenor|N|Alcoholic Beverages|ITEM|61986|
-A Direhoof|QID|37222|M|60.00,38.00|Z|Nagrand@Draenor|Neputation Item for Steamwheedle Preservation Society|ITEM|118657|RANK|3|LVL|100|
+A Direhoof|QID|37222|M|60.00,38.00|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118657|RANK|3|LVL|100|
 A Ogre Beads|QID|36049|M|81.00,79.80|Z|Nagrand@Draenor|N|i605 Str Ring|ITEM|118255|
-A Dekorhan|QID|37221|M|50.20,41.20|Z|Nagrand@Draenor|Neputation Item for Steamwheedle Preservation Society|ITEM|118656|RANK|3|LVL|100|
+A Dekorhan|QID|37221|M|50.20,41.20|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118656|RANK|3|LVL|100|
 A Watertight Bag|QID|36071|M|64.70,35.80|Z|Nagrand@Draenor|N|20 Slot Bag|ITEM|118235|
-A Bergruu|QID|37211|M|62.60,16.80|Z|Nagrand@Draenor|Neputation Item for Steamwheedle Preservation Society|ITEM|118655|RANK|3|LVL|100|
+A Bergruu|QID|37211|M|62.60,16.80|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118655|RANK|3|LVL|100|
 A Lost Pendant|QID|36082|M|61.80,57.40|Z|Nagrand@Draenor|N|i593 Green Amulet|ITEM|116687|
 A Ancient Blademaster|QID|35778|M|84.60,53.40|Z|Nagrand@Draenor|N|i598 Strength Neck|ITEM|116832|RANK|2|
 A Gnarlhoof the Rabid|QID|35717|M|66.60,56.60|Z|Nagrand@Draenor|N|i598 Trinket Multistrike + Agi Proc|ITEM|116824|RANK|2|
 A Warsong Spoils|QID|35593|M|80.60,60.60|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|; Take Explorer Razzuk's Glider to get there [west of here]
-A Thek'talon|QID|37225|M|63.40,29.60|Z|Nagrand@Draenor|Neputation Item for Steamwheedle Preservation Society|ITEM|118660|RANK|3|LVL|100|
+A Thek'talon|QID|37225|M|63.40,29.60|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118660|RANK|3|LVL|100|
 A Warsong Helm|QID|36073|M|52.40,44.40|Z|Nagrand@Draenor|N|i609 Mail Agility/Intellect Helm|ITEM|118250|
 A Smuggler's Cache|QID|36857|M|88.91,33.10|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|
 A Golden Kaliri Egg|QID|35694|M|58.20,52.60|Z|Nagrand@Draenor|N|Trash Item|ITEM|118266|
@@ -278,13 +278,13 @@ A Orc Skeleton|QID|36507|M|66.90,33.50|Z|Shadowmoon Valley@Draenor|N|i526 Streng
 A Greka's Urn|QID|33614|M|38.50,43.00|Z|Shadowmoon Valley@Draenor|N|i528 Trinket Haste + Strength Proc|ITEM|113408|
 A Peaceful Offering 2|QID|33610|M|45.20,60.50|Z|Shadowmoon Valley@Draenor|N|Trash Items|ITEM|107650|
 A Yggdrel|QID|33389|M|48.80,66.40|Z|Shadowmoon Valley@Draenor|N|Toy|ITEM|113570|RANK|2|
-A Ba'ruun|QID|35731|M|52.80,16.80|Z|Shadowmoon Valley@Draenor|Neusable Food without Buff|ITEM|113540|RANK|2|
+A Ba'ruun|QID|35731|M|52.80,16.80|Z|Shadowmoon Valley@Draenor|N|Reusable Food without Buff|ITEM|113540|RANK|2|
 A Mikkal's Chest|QID|35603|M|58.90,22.00|Z|Shadowmoon Valley@Draenor|N|Trash Item|ITEM|113215|; mostly just for the XP
 A Demidos|QID|37351|M|46.00,71.60|Z|Shadowmoon Valley@Draenor|N|Apexis Crystals|ITEM|$823|RANK|3|LVL|100|
 A Uzko's Knickknacks|QID|33540|M|35.90,40.90|Z|Shadowmoon Valley@Draenor|N|i525 Agility/Intellect Leather Boots|ITEM|113546|
 A Alchemist's Satchel|QID|35581|M|55.00,45.00|Z|Shadowmoon Valley@Draenor|N|Herbs|ITEM|109124|
 A Shadowmoon Treasure|QID|33571|M|28.30,39.30|Z|Shadowmoon Valley@Draenor|N|Garrison Resources|ITEM|$824|; Quest ID is wrong - Treasure will stay active after looting
-A Carved Drinking Horn|QID|33569|M|33.50,39.70|Z|Shadowmoon Valley@Draenor|Neusable Mana Potion|ITEM|113545|
+A Carved Drinking Horn|QID|33569|M|33.50,39.70|Z|Shadowmoon Valley@Draenor|N|Reusable Mana Potion|ITEM|113545|
 A Bahameye|QID|35281|M|29.60,6.20|Z|Shadowmoon Valley@Draenor|N|Fire Ammonite|ITEM|111666|RANK|2|
 A Hanging Satchel|QID|33564|M|47.10,46.10|Z|Shadowmoon Valley@Draenor|N|i518 agi/int leather gloves|ITEM|108900|
 A Ashes of A'kumbo|QID|33584|M|37.70,44.30|Z|Shadowmoon Valley@Draenor|N|Consumable for Rested XP|ITEM|113531|
@@ -336,12 +336,12 @@ A Peaceful Offering 4|QID|33612|M|44.50,59.20|Z|Shadowmoon Valley@Draenor|N|Tras
 A Shadowmoon Exile Treasure|QID|33570|M|45.80,24.60|Z|Shadowmoon Valley@Draenor|N|25 Garrison Resources|ITEM|113388|; In a cave below Exile Rise
 A Darktalon|QID|35555|M|49.60,42.00|Z|Shadowmoon Valley@Draenor|N|i520 Agility Cloak|ITEM|113541|RANK|2|
 A Darkmaster Go'vid|QID|35448|M|41.00,83.00|Z|Shadowmoon Valley@Draenor|N|i525 Intellect Staff + Lobstrok Summon|ITEM|113548|RANK|2|
-A Rai'vosh|QID|35553|M|48.60,22.60|Z|Shadowmoon Valley@Draenor|Neusable Slowfall Item|ITEM|113542|RANK|2|
+A Rai'vosh|QID|35553|M|48.60,22.60|Z|Shadowmoon Valley@Draenor|N|Reusable Slowfall Item|ITEM|113542|RANK|2|
 A Waterlogged Chest  |QID|33566|M|39.20,83.80|Z|Shadowmoon Valley@Draenor|N|i520 Strength Fist Weapon + Garrison Resources|ITEM|113372|
 A Strange Spore|QID|35600|M|55.80,19.90|Z|Shadowmoon Valley@Draenor|N|Pet|ITEM|118104|
 A Mushroom-Covered Chest|QID|37254|M|52.90,24.90|Z|Shadowmoon Valley@Draenor|N|25 Garrison Resources|ITEM|113388|
 A Armored Elekk Tusk|QID|33869|M|41.50,27.90|Z|Shadowmoon Valley@Draenor|N|i518 Trinket Bonus Armor + Mastery on use|ITEM|108902|
-A Dusty Lockbox|QID|36879|M|29.85,37.48|Z|Shadowmoon Valley@Draenor|Random Greens|ITEM|$824|
+A Dusty Lockbox|QID|36879|M|29.85,37.48|Z|Shadowmoon Valley@Draenor|N|Random Greens|ITEM|$824|
 A Stolen Treasure|QID|35280|M|27.10,2.60|Z|Shadowmoon Valley@Draenor|N|Garrison Resources|ITEM|$824|
 A Ancestral Greataxe|QID|35584|M|52.80,48.40|Z|Shadowmoon Valley@Draenor|N|i519 2H Strength Axe|ITEM|113560|; Quest ID might be wrong - Treasure might stay active after looting
 A Avalanche|QID|37410|M|68.20,84.80|Z|Shadowmoon Valley@Draenor|N|Apexis Crystals|ITEM|$823|RANK|3|LVL|100|
@@ -502,7 +502,7 @@ A Bonechewer Remnants|QID|34259|M|33.30,76.70|Z|Talador|N|Garrison Resources|ITE
 A Isaaris Cache|QID|34134|M|57.20,75.40|Z|Talador|N|i564 Agility Neck|ITEM|117563|
 A Vigilant Paarthos|QID|37350|M|36.80,41.00|Z|Talador|N|i620 Intellect/Strength Plate Shoulders|ITEM|119383|RANK|3|LVL|100|
 A Burning Blade Cache|QID|36937|M|70.10,7.00|Z|Talador|N|Apexis Crystal|ITEM|$823|
-A Foreman's Lunchbox|QID|34238|M|57.30,28.60|Z|Talador|Neusable Food/Drink|ITEM|116120|
+A Foreman's Lunchbox|QID|34238|M|57.30,28.60|Z|Talador|N|Reusable Food/Drink|ITEM|116120|
 A Underseer Bloodmane|QID|34945|M|63.80,20.70|Z|Talador|N|i554 Strength Ring|ITEM|112475|RANK|2|; don't kill his Pet
 A Taladorantula|QID|34171|M|59.00,88.00|Z|Talador|N|i565 Agility Sword|ITEM|116126|RANK|2|
 A Strategist Ankor, Archmagus Tekar, Soulbinder Naylana|QID|37337|M|46.00,27.40|Z|Talador|N|Apexis Crystals|ITEM|$823|RANK|3|; !!! Level 100 !!! One of them - loot once

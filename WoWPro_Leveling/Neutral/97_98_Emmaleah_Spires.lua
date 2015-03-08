@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2015-03-07 13:22
+-- Who: Aldavor
+-- Log: Replaced lines (h Southport) and (A Cult of the Ravenspeakers) as they had duplicate N tags.
+
+-- URL: http://wow-pro.com/node/3602/revisions/27137/view
 -- Date: 2015-02-01 22:25
 -- Who: Ludovicus
 -- Log: QIDs and typos
@@ -183,7 +188,7 @@ T Orders, Commander?|QID|35286|M|39.84,60.78|N|To Lieutenant Willem.|FACTION|All
 A Outpost specific quest|QID|37327;35699|M|39.84,60.78|N|The quest (and quest giver) is determined by which building you choose. It is from Lieutenant Willam (brewery) or Millie Osgood (smugglers den).|FACTION|Alliance|PRE|35286|
 ;A Peace Offering|QID|35699|N|From Millie Osgood.| -- smugglers den
 ;A Befriending the Locals|QID|37327|N|From Lieutenant Willem -- brewery
-h Southport|QID|35276|M|40.12,61.49|N|At Elria Willowfall.|FACTION|Alliance|N|If you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
+h Southport|QID|35276|M|40.12,61.49|FACTION|Alliance|N|At Elria Willowfall.\nIf you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
 A Old Friends|QID|35293|M|39.79,60.68|N|From Jasper Fel.|FACTION|Alliance|PRE|35286|RANK|2|
 ;horde
 R Axefall|QID|35275|M|40.06,44.04|N|On the other side of the mountain.|FACTION|Horde|
@@ -402,7 +407,7 @@ T A Worthy Vessel|QID|36059|M|46.62,46.75|N|To Shade of Terokk.|RANK|2|
 A The Avatar of Terokk|QID|35896|M|46.62,46.75|PRE|36059|N|From Shade of Terokk.|RANK|2|
 C The Avatar of Terokk|QID|35896|M|30.40,27.07|CHAT|N|Tell Terokk you are ready to start. Use the "1" ability and everything in front of you dies, until you meet Kargath (who is a bit more of a challenge).|RANK|2|
 T The Avatar of Terokk|QID|35896|M|46.49,46.66|N|To Reshad.|RANK|2|
-A Cult of the Ravenspeakers|QID|34921|M|46.93,46.11|N|From Anzu.|RANK|2|N|Place the feather Anzu gave you in the 'Offering Basket'.|
+A Cult of the Ravenspeakers|QID|34921|M|46.93,46.11|RANK|2|N|From Anzu.\nPlace the feather Anzu gave you in the 'Offering Basket'.|
 
 C Cult of the Ravenspeakers|QID|34921|NC|M|48.93,48.90|RANK|2|
 T Cult of the Ravenspeakers|QID|34921|M|48.97,48.97|N|To Iktis of the Flock.|RANK|2|
