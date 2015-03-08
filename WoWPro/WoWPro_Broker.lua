@@ -890,7 +890,7 @@ end
 -- Next Step Not Sticky --
 -- Determines the next active step that isn't a sticky step (for mapping) --
 function WoWPro.NextStepNotSticky(k)
-    WoWPro:print("Called WoWPro.NextStepNotSticky(%d)",k)
+    WoWPro:dbp("Called WoWPro.NextStepNotSticky(%d)",k)
 	if not k then k = 1 end
 	local sticky = true
 	while sticky do 
@@ -904,7 +904,11 @@ function WoWPro.NextStepNotSticky(k)
 	if k > WoWPro.stepcount then
 	    WoWPro:print("WoWPro.NextStepNotSticky=%d: > EOG",k)
 	else
-	    WoWPro:print("WoWPro.NextStepNotSticky=%d: %s [%s] %s",k, WoWPro.action[k], WoWPro.step[k], (WoWPro.questtext[k] and "QO="..WoWPro.questtext[k]) or "" )
+	    if WoWPro.questtext[k] then
+	        WoWPro:dbp("WoWPro.NextStepNotSticky=%d: %s [%s] QO=%s",k, WoWPro.action[k], WoWPro.step[k], WoWPro.questtext[k] )
+	    else
+	        WoWPro:dbp("WoWPro.NextStepNotSticky=%d: %s [%s]",k, WoWPro.action[k], WoWPro.step[k])
+	    end
     end
 	return k
 end
@@ -939,7 +943,7 @@ function WoWPro.CompleteStep(step, why)
 	end
 	if WoWPro.action[step] == "D" then
 	    WoWProCharDB.Guide[GID].done = true
-	    WoWPro:print("WoWPro.CompleteStep: %s guide is done.",GID)
+	    WoWPro:dbp("WoWPro.CompleteStep: %s guide is done.",GID)
 	end
 	WoWPro.why[step] = why
 	WoWPro:UpdateGuide("WoWPro.CompleteStep")
