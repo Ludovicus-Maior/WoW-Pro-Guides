@@ -218,7 +218,6 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	
 	-- The first tag is is the Action followed by the Step name
 	local primo = tags[1]
-	WoWPro:print("Primo is '%s'.", primo)
 	if string.len(primo) < 3 then
 	    -- Too short to be valid
 	    WoWPro:Error("Line %d in guide %s has too short a preamble.  Only %d characters. '%s'",i,GID, string.len(primo), primo)
