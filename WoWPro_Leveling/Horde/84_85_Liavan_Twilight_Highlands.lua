@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
+-- Date: 2015-03-09 17:58
+-- Who: Ludovicus
+-- Log: QO tweaks
+
+-- URL: http://wow-pro.com/node/3312/revisions/27146/view
 -- Date: 2015-02-24 05:25
 -- Who: Emmaleah
 -- Log: added 2nd Coord for Following the young home, edited Note to say that the eggs are in several locations in the area.
@@ -458,11 +463,11 @@ T Thog's Nightlight|QID|28166|M|36.43,38.04|N|To Buunu.|
 A Night Terrors|QID|28170|M|36.43,38.04|N|From Buunu.|
 
 R Night Terrors|QID|28170|U|67537|CC|M|35.14,36.62;35.00,35.16;34.15,35.65|N|Enter the cave and talk to Uchek, then Head North.|
-C Night Terrors|QID|28170|U|67537|M|34.24,35.68|QO|First Shrine Cleansed: 1/1|N|
+C Night Terrors|QID|28170|U|67537|M|34.24,35.68|QO|First Shrine Cleansed: 1/1|
 R Night Terrors|QID|28170|U|67537|CC|M|33.97,35.10;33.43,36.81|N|Jump off north, then head southwest.|
-C Night Terrors|QID|28170|U|67537|M|34.11,35.63|QO|Second Shrine Cleansed: 1/1|N|
+C Night Terrors|QID|28170|U|67537|M|34.11,35.63|QO|Second Shrine Cleansed: 1/1|
 R Night Terrors|QID|28170|U|67537|CC|M|34.20,36.63;34.64,37.98;34.27,37.82|N|Head back east toward where Uchek was, then go right.|
-C Night Terrors|QID|28170|U|67537|M|34.11,35.63|QO|Third Shrine Cleansed: 1/1|N|
+C Night Terrors|QID|28170|U|67537|M|34.11,35.63|QO|Third Shrine Cleansed: 1/1|
 
 T Night Terrors|QID|28170|M|36.37,37.99|N|Jump down and head back out the cave to Buunu.|
 
@@ -489,7 +494,7 @@ T Blackout|QID|28173|M|59.06,69.79|N|To Lirastrasza.|
 T A Fitting End|QID|28191|M|59.06,69.79|N|To Lirastrasza.|
 T Shining Through the Dark|QID|28175|M|59.06,69.79|N|To Velastrasza.|
 A Following the Young Home|QID|28176|M|59.06,69.79|N|From Lirastrasza.|
-C Following the Young Home|QID|28176|U|63126|M|58.09,80.24;49.88,85.69|QO|1|N|Use Mother's flame to hatch the eggs outside the cave. There are several clumps of eggs in this area.|
+C Following the Young Home|QID|28176|U|63126|M|58.09,80.24;49.88,85.69|CN|QO|1|N|Use Mother's flame to hatch the eggs outside the cave. There are several clumps of eggs in this area.|
 C Following the Young Home|QID|28176|M|49.88,85.69|N|Follow the whelps into the cave.|
 T Following the Young Home|QID|28176|M|44.99,90.95|N|To Baleflame. Deeper inside the cave.|
 A Last of Her Kind|QID|28247|M|44.99,90.95|N|From Baleflame.|
@@ -505,8 +510,8 @@ A Kor'kron Drop|QID|27491|M|45.32,75.42|N|From Lady Cozwynn.|
 A Call in the Artillery|QID|27497|M|45.32,75.42|N|From Lady Cozwynn.|
 f Crushblow|QID|27497|M|45.68,76.25|N|At Tokrog.|
 
-C Kor'kron Drop|QID|27491|M|45.72,76.02|QO|Get wind rider squad: 1/1|N|Talk to Jon-Jon right next to flight master.|
-C Kor'kron Drop|QID|27491|M|39.17,64.57|QO||N|Fly northwest. X on ground marks the spot.|
+C Kor'kron Drop|QID|27491|M|45.72,76.02|QO|1|N|Talk to Jon-Jon right next to flight master.|
+C Kor'kron Drop|QID|27491|M|39.17,64.57|QO|2|N|Fly northwest. X on ground marks the spot.|
 C Ogres & Ettins|QID|27493|M|42.47,71.21|S|
 C Call in the Artillery|QID|27497|U|61367|M|39.10,62.51|QO|Northern building targeted: 1/1|
 C Call in the Artillery|QID|27497|U|61367|M|40.93,64.18|QO|Northeastern building targeted: 1/1|
@@ -534,8 +539,8 @@ C Four Heads are Better than None|QID|27501|M|38.78,70.63|N|Then take the path t
 T Four Heads are Better than None|QID|27501|M|45.34,75.49|N|To Lady Cozwynn.|
 A Up to the Citadel|QID|27503|M|45.34,75.49|N|From Lady Cozwynn.|
 
-C Up to the Citadel|QID|27503|M|38.96,64.09|QO|Speak to the Squad commander: 1/1|N|Same location as the X on the ground from earlier.|
-C Up to the Citadel|QID|27503|M|37.61,65.53|QO|Kor'kron escorted: 1/1|N|
+C Up to the Citadel|QID|27503|M|38.96,64.09|QO|1|N|Same location as the X on the ground from earlier.|
+C Up to the Citadel|QID|27503|M|37.61,65.53|QO|2|
 
 T Up to the Citadel|QID|27503|M|37.71,64.96|N|To Cho'gall.|
 A Just You and Garona|QID|27638|M|37.73,64.89|N|From Cho'gall.|

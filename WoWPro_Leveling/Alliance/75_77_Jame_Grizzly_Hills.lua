@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2015-03-09 17:23
+-- Who: Ludovicus
+-- Log: Eliminated trailing |N|
+
+-- URL: http://wow-pro.com/node/3293/revisions/26823/view
 -- Date: 2014-11-06 14:03
 -- Who: Fluclo
 -- Log: Removed duplicate N tag from Mounting Up
@@ -309,7 +314,7 @@ T A Dark Influence |QID|12220|N|To Hierophant Thayreen.|M|31.22,59.49|
 T The Failed World Tree |QID|12219|M|31.2,59.5|N|To Hierophant Thayreen.|
 A A Possible Link |QID|12246|M|31.2,59.5|N|From Hierophant Thayreen.|
 A Children of Ursoc |QID|12247|M|31.2,59.5|N|From Hierophant Thayreen.|
-r Sell junk and repair |QID|12443|M|31.38,59.87|N|
+r Sell junk and repair |QID|12443|M|31.38,59.87|
 
 C The Thane of Voldrune |QID|12255|N|Get on Flamebringer and kill Thane Torvald Eriksson in Voldrune.|M|26.6,77.8|
 

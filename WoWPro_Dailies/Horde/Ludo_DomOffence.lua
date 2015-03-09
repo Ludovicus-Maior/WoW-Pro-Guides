@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_dominance_offensive_source_code
+-- Date: 2015-03-09 18:09
+-- Who: Ludovicus
+-- Log: Z corrections
+
+-- URL: http://wow-pro.com/node/3603/revisions/26848/view
 -- Date: 2014-11-07 20:34
 -- Who: Fluclo
 -- Log: Added missing |N| tags, removed duplicate PRE cag, fixed missing comma in coords for The Bell
@@ -159,8 +164,8 @@ T We Require More Minerals!|QID|32131|M|64.2,72.4|N|To Zazzix "Toasty" Sparkrock
 ; Rep Related questlines
 A Rise Of An Empire|QID|32256|M|10.39,53.71|REP|Dominance Offensive;1375;friendly;1000|PRE|32108|N|From General Nazgrim|
 R Shrine of Two Moons|QID|32256|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
-T Rise Of An Empire|QID|32256|M|32.23,84.91|N|To Garrosh Hellscream, upstairs, past the bank to the left.|Z|Shrine of Two Moons/2|
-A Buried Secrets|QID|32242|PRE|32256|M|2.23,84.91|N|From Garrosh Hellscream|Z|Shrine of Two Moons/2|
+T Rise Of An Empire|QID|32256|M|32.23,84.91|N|To Garrosh Hellscream, upstairs, past the bank to the left.|Z|The Imperial Mercantile@Shrine of Two Moons|
+A Buried Secrets|QID|32242|PRE|32256|M|2.23,84.91|N|From Garrosh Hellscream|Z|The Imperial Mercantile@Shrine of Two Moons|
 T Buried Secrets|QID|32242|M|20.95,15.59|N|To Fanlyr Silverthorn|Z|Vale of Eternal Blossoms|
 A Voice of the Gods|QID|32257|PRE|32242|M|21,15.4|N|From Fanlyr Silverthorn|Z|Vale of Eternal Blossoms|
 C Ancient Korune Tablet|QID|32257|M|18.10,11.87|N|Approach the statue and click it to awaken.  Stay out of the silver pools and then loot it.  Dont go far or it will re-freeze.|
@@ -173,9 +178,9 @@ A Regeneration Takes Time|QID|32318|PRE|32284|M|71.6,93.2|Z|Kun-Lai Summit|N|Fro
 C Regeneration Takes Time|QID|32318|M|74,94|Z|Kun-Lai Summit|N|Up in the mountains.  Sinester Needle and Summmit Sprite.|
 T Regeneration Takes Time|QID|32318|M|71.6,93.2|Z|Kun-Lai Summit|N|To Chen Stormstout|
 A Find Thrall!|QID|32319|PRE|32318|M|71.6,93.2|Z|Kun-Lai Summit|N|From Vol'jin|
-R The Den|QID|32319|U|92510|N|Use the Hearthstone to get to Thrall in the Valley of Trials.|
-T Find Thrall!|QID|32319|M|44.65,66.74|Z|Valley of Trials|N|To Thrall|
-A The Horde Is Family|QID|32320|PRE|32319|M|44.4,66.6|Z|Valley of Trials|N|From Thrall|
+R The Den|QID|32319|U|92510|N|Use the Hearthstone to get to Thrall in the ValleyofTrialsStart.|
+T Find Thrall!|QID|32319|M|44.65,66.74|Z|ValleyofTrialsStart|N|To Thrall|
+A The Horde Is Family|QID|32320|PRE|32319|M|44.4,66.6|Z|ValleyofTrialsStart|N|From Thrall|
 C The Horde Is Family|QID|32320|QO|1|N|Escort Thrall and stay close.  Mind the Kor'kron Soulbreaker that casts Curse of Tongues at the end of the ride.|
 T The Horde Is Family|QID|32320|M|38.41,46.46|Z|Echo Isles|N|To Thrall|
 A De-Subjugation|QID|32372|PRE|32320|M|38.4,46.6|Z|Echo Isles|N|From Thrall|
@@ -222,13 +227,13 @@ T Trapping the Leader|QID|32384|M|53.83,49.24|Z|Kun-Lai Summit|N|To Lor'themar T
 
 A Echoes of Thunder|QID|32351|M|10.39,53.71|REP|Dominance Offensive;1375;honored;10800|PRE|32384|N|From General Nazgrim|
 R Vale of Eternal Blossoms|QID|32351|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
-T Echoes of Thunder|QID|32351|M|68.63,43.79|Z|Shrine of Two Moons/2|N|To Baine Bloodhoof, in the Bank.|
-A A Gathering Storm|QID|32352|PRE|32351|M|68.63,43.79|Z|Shrine of Two Moons/2|N|From Baine Bloodhoof.|
-C Sha-Touched Grunts|QID|32352|M|59.20,11.20;60.40,13.60;62.10,23.50;62.50,10.40;59.10,19.80;61.00,21.80;63.25,19.00|Z|Shrine of Two Moons/2||CN|N|Interrogate the grunts.|QO|1|
-T A Gathering Storm|QID|32352|M|65.42,46.41|Z|Shrine of Two Moons/2|N|To Garrosh Hellscream|
+T Echoes of Thunder|QID|32351|M|68.63,43.79|Z|The Imperial Mercantile@Shrine of Two Moons|N|To Baine Bloodhoof, in the Bank.|
+A A Gathering Storm|QID|32352|PRE|32351|M|68.63,43.79|Z|The Imperial Mercantile@Shrine of Two Moons|N|From Baine Bloodhoof.|
+C Sha-Touched Grunts|QID|32352|M|59.20,11.20;60.40,13.60;62.10,23.50;62.50,10.40;59.10,19.80;61.00,21.80;63.25,19.00|Z|The Imperial Mercantile@Shrine of Two Moons||CN|N|Interrogate the grunts.|QO|1|
+T A Gathering Storm|QID|32352|M|65.42,46.41|Z|The Imperial Mercantile@Shrine of Two Moons|N|To Garrosh Hellscream|
 
 A Get My Results!|QID|32329|PRE|32352|M|10.39,53.71|REP|Dominance Offensive;1375;revered;2700|N|From General Nazgrim|
-R Silvermoon City|QID|32329|M|68.63,43.79|Z|Shrine of Two Moons/2|N|You are on your own.  Get to the Shrine of Two Moons and take the portal there to Silvermoon.|
+R Silvermoon City|QID|32329|M|68.63,43.79|Z|The Imperial Mercantile@Shrine of Two Moons|N|You are on your own.  Get to the Shrine of Two Moons and take the portal there to Silvermoon.|
 T Get My Results!|QID|32329|M|53.80,20.23|Z|Silvermoon City|N|To Lor'themar Theron|
 A What's in the Box?|QID|32330|PRE|32329|M|53.80,20.23|Z|Silvermoon City|N|From Lor'themar Theron|
 C Arcanis Mechanica|QID|32330|M|86.58,32.67|Z|Silvermoon City|QO|1|N|Farstriders' Square, it is in the Northeast building.|
