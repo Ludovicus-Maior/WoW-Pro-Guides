@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/cooking_recipies
+-- Date: 2015-03-09 17:31
+-- Who: Ludovicus
+-- Log: The Imperial Exchange@Shrine of Seven Stars
+
+-- URL: http://wow-pro.com/node/3567/revisions/25898/view
 -- Date: 2014-02-14 00:15
 -- Who: Ludovicus
 
@@ -184,7 +189,7 @@ B Smoked Sagefish|QID|990025704|RECIPE|25704|M|57.70,45.20|Z|Hillsbrad Foothills
 B Smoked Sagefish|QID|990025704|RECIPE|25704|M|48.30,30.90|Z|Ghostlands|FACTION|Horde|P|Cooking;185;80|N|Sold by Master Chef Mouldier in Ghostlands.|
 B Smoked Sagefish|QID|990025704|RECIPE|25704|M|26.70,43.50|Z|Redridge Mountains|FACTION|Alliance|P|Cooking;185;80|N|Sold by Gloria Femmel in Redridge Mountains.|
 B Smoked Sagefish|QID|990025704|RECIPE|25704|M|51.00,52.50|Z|Thunder Bluff|FACTION|Horde|P|Cooking;185;80|N|Sold by Naal Mistrunner in Thunder Bluff.|
-B Smoked Sagefish|QID|990025704|RECIPE|25704|M|62.40,26.60|Z|Shrine of Seven Stars|FACTION|Alliance|P|Cooking;185;80|N|Sold by Jojo in Shrine of Seven Stars.|
+B Smoked Sagefish|QID|990025704|RECIPE|25704|M|62.40,26.60|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Cooking;185;80|N|Sold by Jojo in Shrine of Seven Stars.|
 B Smoked Sagefish|QID|990025704|RECIPE|25704|M|52.40,51.60|Z|Valley of the Four Winds|P|Cooking;185;80|N|Sold by Noodles in Valley of the Four Winds.|
 B Smoked Sagefish|QID|990025704|RECIPE|25704|M|46.70,70.50|Z|Azuremyst Isle|FACTION|Alliance|P|Cooking;185;80|N|Sold by "Cookie" McWeaksauce in Azuremyst Isle.|
 B Smoked Sagefish|QID|990025704|RECIPE|25704|M|65.10,39.10|Z|Badlands|P|Cooking;185;80|N|Sold by "Chef" Overheat in Badlands.|
@@ -307,7 +312,7 @@ B Sagefish Delight|QID|990025954|RECIPE|25954|M|57.70,45.20|Z|Hillsbrad Foothill
 B Sagefish Delight|QID|990025954|RECIPE|25954|M|48.30,30.90|Z|Ghostlands|FACTION|Horde|P|Cooking;185;175|N|Sold by Master Chef Mouldier in Ghostlands.|
 B Sagefish Delight|QID|990025954|RECIPE|25954|M|26.70,43.50|Z|Redridge Mountains|FACTION|Alliance|P|Cooking;185;175|N|Sold by Gloria Femmel in Redridge Mountains.|
 B Sagefish Delight|QID|990025954|RECIPE|25954|M|51.00,52.50|Z|Thunder Bluff|FACTION|Horde|P|Cooking;185;175|N|Sold by Naal Mistrunner in Thunder Bluff.|
-B Sagefish Delight|QID|990025954|RECIPE|25954|M|62.40,26.60|Z|Shrine of Seven Stars|FACTION|Alliance|P|Cooking;185;175|N|Sold by Jojo in Shrine of Seven Stars.|
+B Sagefish Delight|QID|990025954|RECIPE|25954|M|62.40,26.60|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Cooking;185;175|N|Sold by Jojo in Shrine of Seven Stars.|
 B Sagefish Delight|QID|990025954|RECIPE|25954|M|52.40,51.60|Z|Valley of the Four Winds|P|Cooking;185;175|N|Sold by Noodles in Valley of the Four Winds.|
 B Sagefish Delight|QID|990025954|RECIPE|25954|M|46.70,70.50|Z|Azuremyst Isle|FACTION|Alliance|P|Cooking;185;175|N|Sold by "Cookie" McWeaksauce in Azuremyst Isle.|
 B Sagefish Delight|QID|990025954|RECIPE|25954|M|65.10,39.10|Z|Badlands|P|Cooking;185;175|N|Sold by "Chef" Overheat in Badlands.|

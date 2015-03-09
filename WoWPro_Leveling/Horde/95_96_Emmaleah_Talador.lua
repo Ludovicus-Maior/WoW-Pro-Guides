@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2015-03-08 21:51
+-- Who: Ludovicus
+-- Log: Tag tweaks so it passes the checks.
+
+-- URL: http://wow-pro.com/node/3598/revisions/27145/view
 -- Date: 2015-02-24 05:05
 -- Who: Emmaleah
 -- Log: Added almost all the rares and treasures.  I got sidetracked with work and haven't quite finished (about 20 or 30 items left to add - and yes, I do have a list of them), but I thought I would post it as is to make the cut for 6.1.
@@ -141,7 +146,7 @@ K Kil'uun|QID|34108|M|67.18,28.74|US|T|Kil'uun|N|He flys all over this area, kee
 K Underseer Bloodmane|QID|34945|M|63.8,20.7|L|112475|ITEM|112475|T|Underseer Bloodmane|N|Kill and loot for a bit of treasure. If you kill Prize (his pet) first it will cause him to enrage, making the fight needlessly more difficult.|RANK|3|
 R Fort Wrynn|QID|34683|M|66.65,20.99|CC|N|Don't actually run into Fort Wrynn as it's an alliance base.|RANK|2|
 K Dr. Gloom|QID|34142|M|68.6,15.4|L|112499|T|Dr. Gloom|ITEM|112499|N|Kill and loot for a bit of treasure.|RANK|2|
-l Rook's Tacklebox|QID|34232|M|64.9,13.3|L|116117|Loot for abit of treasure.|ITEM|116117|RANK|2|
+l Rook's Tacklebox|QID|34232|M|64.9,13.3|L|116117|N|Loot for abit of treasure.|ITEM|116117|RANK|2|
 l Jug of Aged Ironwine|QID|34233|M|65.5,11.3|L|117568|ITEM|116768|N|Pick up for a bit of treasure and light refreshment.|RANK|2|
 R The Path of Glory|QID|34683|M|66.15,10.76|N|Continue north following the road until you get to the Path of Glory. Cross the bridge and you will find yourself in Frostwolf Overlook.|RANK|2|
 A Gazlowe's Solution|QID|33721|M|62.06,10.40|N|From Gazlowe.|RANK|2|
@@ -437,19 +442,19 @@ T Never Forget|QID|34013|M|50.52,87.56|N|To Defender Artaal.|RANK|2|
 
 R Aarko's Estate|QID|34182|M|43.24,89.09;37.38,95.85|CS|RANK|3|
 l Aarko's Family Treasure|QID|34182|M|36.5,96.1|L|117567|ITEM|117567|N|Talk to XXX to start the event.  Defeat waves of mobs ending with XXX.  At the conclusion you can have thier family treasure.|
-l Farmer's Bounty|QID|34249|M|35.5,96.8|L|$824|N|Loot for some garrison resources.|RANK|3|
-l Yuuri's Gift|QID|34140|M|40.7,89.5|L|$824|N|Loot for some garrison resources.|RANK|3|
+l Farmer's Bounty|QID|34249|M|35.5,96.8|ITEM|$824|N|Loot for some garrison resources.|RANK|3|
+; l Yuuri's Gift|QID|34140|M|40.7,89.5|ITEM|$824|N|Loot for some garrison resources.|RANK|3|  -- Duplicate?
 
 R Retribution Point|QID|34326|M|43.44,75.92|RANK|2|
 T Changing the Tide|QID|34326|M|43.44,75.92|N|To Restalaan.|RANK|2|
 A Desperate Measures|QID|34092|M|43.43,75.94|N|From Restalaan.|RANK|2|
 A Ogre Diplomacy|QID|34122|M|42.97,76.23|N|From Lady Liadrin.|RANK|2|
 f Retribution Point|QID|34122|M|42.12,76.78|N|At Beldos.|RANK|2|
-l Yuuri's Gift|QID|34140|l|$824|M|40.7,89.5|PRE|33530|N|Yuuri is so greatful you rescued her she has some garrison resources for you.|RANK|3|
-l Aarko's Family Treasure|34182|M|36.5,96.1|L|
-l Farmer's Bounty|34249|
+l Yuuri's Gift|QID|34140|ITEM|$824|M|40.7,89.5|PRE|33530|N|Yuuri is so greatful you rescued her she has some garrison resources for you.|RANK|3|
+; l Aarko's Family Treasure|34182|M|36.5,96.1|L|  -- Incomplete
+; l Farmer's Bounty|34249| -- Incomplete
 R Ango'rosh Ruins|QID|34122|M|41.26,79.83|RANK|2|
-Treasure of Ango'rosh|QID|34257|
+; Treasure of Ango'rosh|QID|34257| -- Incomplete
 C Ogre Diplomacy|QID|34122|M|39.61,83.68|S|RANK|2|
 K Dur'gol the Ruthless|QID|34092|QO|2|M|42.67,84.92|T|Dur'gol the Ruthless|N|Kill Dur'gol and loot his book.|RANK|2|
 C Mok'war the Terrible|QID|34092|QO|1|M|39.5,83.62|T|Mok'war the Terrible|N|Kill Mok'war and loot his book.|RANK|2|
@@ -464,7 +469,7 @@ l Teroclaw Nest|QID|35162|M|39,77|N|These nests are all over the zone, if you ha
 R Gul'rok|QID|34144|M|34.48,78.57|N|No road takes you here, just ride across the countryside.|RANK|2|
 K Cro Fleshrender|QID|34165|M|37.6,70.4|L|116123|T|Cro Fleshrender|ITEM|116123|N|Kill and loot for a bit of treasure.|
 C Retribution for the Light|QID|34144|M|35,79|S|N|Kill these as you accomplish the other objectives (as if you had a choice).|RANK|2|
-A Hiding in the Shadows|QID|34163|M||N|From Shadow Council Communicator. (There are several locations this is offered in Gul'rok)|RANK|2|
+A Hiding in the Shadows|QID|34163|N|From Shadow Council Communicator. (There are several locations this is offered in Gul'rok)|RANK|2|
 C Hiding in the Shadows|QID|34163|M|37.78,77.34|QO|1|NC|N|The orb is at the top of the watchtower.|RANK|2|
 K Viperlash|QID|34148|M|37.6,74.9|L|112371|T|Viperlash|ITEM|112371|N|Viperlash is in a shallow cavern. Kill him and remove the spear from his side to retrieve someone's lost gloves.|RANK|2|
 A Book Burning|QID|34164|M|34.01,73.96|N|From Kor'thos Dawnfury.|RANK|2|
@@ -493,7 +498,7 @@ C Sher'KHAAAAAAANNNN!|QID|33884|QO|1|M|31.14,71.12|RANK|3|S|
 K Glimmerwing|QID|34189|L|116113|M|32,65.2|T|Glimmerwing|ITEM|116113|N|Kill and loot for a bit of treasure.|RANK|3|
 R The Sunset Shore|QID|36919|M|28.84,65.69;25.54,69.49|CS|N|Probably not worth the run unless you want the ring.|ITEM|118686|RANK|3|
 K Grrberrgle|QID|36919|M|22.25,74.41|T|Grrberrgle|N|At last check, he drops no loot, but he is awfully cute. Grrberrgle is on an island and spawns when you open a 'restless crate'.|RANK|3|
-l Gift of the Ancients|QID|36829|M|27.8,75.6)L|118686|ITEM|118686|N|From the shore is a path marked by a rowboat at water's edge. Up from that is a little cave with a puzzle left by the ancients.  Turn all the statues to face the center and treasure should appear. if that doesn't work, make them all face outward, if that doesn't work, try some other direction.|RANK|3|
+l Gift of the Ancients|QID|36829|M|27.8,75.6|L|118686|ITEM|118686|N|From the shore is a path marked by a rowboat at water's edge. Up from that is a little cave with a puzzle left by the ancients.  Turn all the statues to face the center and treasure should appear. if that doesn't work, make them all face outward, if that doesn't work, try some other direction.|RANK|3|
 K Sher'khaan|QID|33884|QO|2|M|31.14,71.12|RANK|3|T|Sher'khaan|N|Run back up the hill and find Sher'khaan's cave.|
 A And the Elekk Too?!|QID|33944|M|32.28,65.64|RANK|3|
 C Sher'KHAAAAAAANNNN!|QID|33884|QO|1|M|31.14,71.12|RANK|3|US|

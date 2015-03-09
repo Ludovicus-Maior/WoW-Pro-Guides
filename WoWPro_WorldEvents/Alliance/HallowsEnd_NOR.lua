@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2015-03-09 17:40
+-- Who: Ludovicus
+-- Log: The Underbelly@Dalaran
+
+-- URL: http://wow-pro.com/node/3440/revisions/26865/view
 -- Date: 2014-11-07 22:01
 -- Who: Emmaleah
 -- Log: corrections per list 'o errors missing N tag x2, misplaced z tag. several missing "|"
@@ -188,7 +193,7 @@ A Candy Bucket |QID|13438|M|28.97,56.16|Z|Dragonblight|N|Star's Rest|
 
 F Dalaran|QID|13472|M|72.70,45.68|Z|Dalaran City@Dalaran|U|37586|
 A Candy Bucket |QID|13463|M|48.32,40.86|Z|Dalaran City@Dalaran|N|The Legerdemain Lounge|
-A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|Z|Dalaran City@The Underbelly|U|37586|CS|N|The Underbelly@Dalaran|
+A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|Z|The Underbelly@Dalaran|U|37586|CS|N|The Underbelly@Dalaran|
 A Candy Bucket |QID|13473|M|42.56,63.27|Z|Dalaran City@Dalaran|U|37586|N|Hero's Rest Inn|
 N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
 N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|
