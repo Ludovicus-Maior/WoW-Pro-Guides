@@ -160,7 +160,7 @@ A Genedar Debris|QID|35999|M|48.00,60.10|Z|Nagrand@Draenor|N|Garrison Resources|
 A Bounty of the Elements|QID|36174|M|77.10,16.60|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|; Use the elemental Stones to access
 A Highmaul Sledge|QID|36039|M|67.40,49.00|Z|Nagrand@Draenor|N|i605 Strength Ring|ITEM|118252|
 A Steamwheedle Supplies|QID|35591|M|77.80,51.90|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|; Take Explorer Razzuk's Glider to get there [south of here]
-A Burning Blade Cache|QID|35696|M|85.42,53.44|Z|Nagrand@Draenor|Nandom Green|ITEM|$824|
+A Burning Blade Cache|QID|35696|M|85.42,53.44|Z|Nagrand@Draenor|N|Random Green|ITEM|$824|
 A Lernaea|QID|37408|M|52.00,90.00|Z|Nagrand@Draenor|N|unknown|RANK|3|LVL|100|
 A Explorer Bibsi|QID|xxx|M|53.40,73.20|Z|Nagrand@Draenor|N|Nothing|; You need to use a rocket to get to her [south-east of her position]
 A Soulfang|QID|36128|M|75.60,65.00|Z|Nagrand@Draenor|N|i597 Intellect Sword|ITEM|116806|RANK|2|
