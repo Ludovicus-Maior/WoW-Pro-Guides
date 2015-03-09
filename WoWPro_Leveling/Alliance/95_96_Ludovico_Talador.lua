@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-03-09 19:24
+-- Who: Ludovicus
+-- Log: Added missing note.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27143/view
 -- Date: 2015-02-20 20:07
 -- Who: Aldavor
 -- Log: Removed last line of guide as Ra'kahn is further up the guide list. Added a new last line to ensure turn-ins are effected and a click off to go to the next guide.
@@ -302,7 +307,7 @@ A What the Draenei Found|QID|33579|M|77.74,43.96|N|From Raksi|
 C Harmonic Crystal|QID|33761|M|77.74,44.08|QO|3|N|Green Spiky Crystal|
 C Melani's Doll|QID|33734|M|77.91,42.98|QO|2|
 C Polished Crystal|QID|33761|M|76.98,43.08|QO|2|N|Clear Purple Rectangle|
-C Annals of Aruuna|QID|33734|M|75.45,44.13|QO|3|N|
+C Annals of Aruuna|QID|33734|M|75.45,44.13|QO|3|N|Floating book.|
 C Honed Crystal|QID|33761|M|76.17,44.26|QO|1|N|Glowing Red Spike|
 C Crystal-Shaper's Tools|QID|33734|M|77.54,41.24|QO|1|
 C Burning Sky|QID|33740|M|75.80,45.20;78.20,45.00;79.80,34.50;75.38,36.52;77.30,41.00;74.89,66.49;73.60,59.25;77.90,38.00;76.81,43.26;78.06,35.61;75.25,39.86;81.62,36.14;77.61,61.06;75.12,62.17|CN|N|Kill Wing-Guards, Squallbringers, and Sun-Callers.|US|

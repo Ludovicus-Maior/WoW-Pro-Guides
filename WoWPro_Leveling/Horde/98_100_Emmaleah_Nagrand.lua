@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2015-03-09 19:34
+-- Who: Ludovicus
+-- Log: Deduped some tags
+
+-- URL: http://wow-pro.com/node/3605/revisions/27149/view
 -- Date: 2015-02-25 00:36
 -- Who: Ludovicus
 -- Log: Tweaks as I played through.
@@ -187,7 +192,7 @@ T A Lesson in Teamwork|QID|35663|M|71.13,52.35|N|To Gazmolf Futzwangler.|RANK|2|
 T A Lesson in Archaeology|QID|35632|M|71.13,52.35|N|To Gazmolf Futzwangler.|RANK|2|
 
 C Tastes Like Chicken|QID|34869|M|78.53,59.13|US|RANK|2|
-R The Ring of Trials|QID|34869|M|78.37,52.47|RANK|2|RANK|2|
+R The Ring of Trials|QID|34869|M|78.37,52.47|RANK|2|
 T Meatgut Needs Bones|QID|35928|M|78.37,52.47|N|To Meatgut, repeatable for XP and gold.|L|113578 25|RANK|2|
 T Tastes Like Chicken|QID|34869|M|79.21,52.64|N|To Digrem Orebar.|RANK|2|
 A Fruitful Ventures|QID|34819|M|79.22,52.62|N|From Digrem Orebar.|RANK|2|
@@ -287,8 +292,8 @@ C Dirgemire|QID|36285|CS|M|86.85,16.25;84.66,17.50|N|The entrance to the underwa
 T Dirgemire|QID|36285|M|86.68,28.30|N|To Dr. Hadley Ricard.|RANK|2|
 C Whacking Weeds|QID|36273|M|84.27,28.31|US|RANK|2|
 
-R Skysong Lake|QID|34964|M|73.69,26.64|RANK|2|RANK|2|
-f Throne of the Elements|QID|34964|M|73.69,26.64|N|At Gixmo Moneycash.|RANK|2|RANK|2|
+R Skysong Lake|QID|34964|M|73.69,26.64|RANK|2|
+f Throne of the Elements|QID|34964|M|73.69,26.64|N|At Gixmo Moneycash.|RANK|2|
 T The Farseer Awaits|QID|34964|M|71.71,19.61|N|To Farseer Drek'Thar.|RANK|2|
 A Called to the Throne|QID|34965|M|71.71,19.61|N|From Farseer Drek'Thar.|RANK|2|
 C Called to the Throne|QID|34965|M|71.71,19.61|CHAT|N|Wait for the dialog to finish and then the next quests are available.|RANK|2|
@@ -308,7 +313,7 @@ C Elemental Attunement|QID|34891|QO|1|NC|M|79.27,11.68|N|Click on the rock pilla
 K Unstable Earth Guardian|QID|34893|QO|1|M|81.51,14.46|T|Unstable Earth Guardian|RANK|2|
 K Tainted Water Guardian|QID|34893|QO|4|M|75.26,13.96|T|Tainted Water Guardian|RANK|2|
 C Elemental Attunement|QID|34891|M|73.84,10.41|QO|4|NC|N|Click on the rock pillar to become attuned to it.|RANK|2|
-K Magmire|QID|33928|M|70.23,9.59|L|113080|T|Magmire|RANK|2|N|Go into Magma Cave (its at the bottom of the path) and kill Magmire.|RANK|2|
+K Magmire|QID|33928|M|70.23,9.59|L|113080|T|Magmire|N|Go into Magma Cave (its at the bottom of the path) and kill Magmire.|RANK|2|
 A A Wrong of Earth and Fire|QID|33928|M|70.23,9.59|O|U|113080|N|From 'A Molten Core' which drops from Magmire.|RANK|2|
 C A Rare Bloom|QID|34894|NC|M|70.59,9.91|N|In the back of Magma Cave|RANK|2|
 C Elemental Attunement|QID|34891|M|67.46,4.16|QO|3|NC|N|Click on the rock pillar to become attuned to it.|RANK|2|
@@ -364,7 +369,7 @@ C The Warsong Threat|QID|35271|NC|QO|3|M|51.86,67.75|N|On a table at the back of
 C Disrupt the Rituals|QID|35083|NC|QO|3|M|50.45,69.99;50.39,71.06|CN|RANK|2|
 f Nivek's Overlook|QID|35084|M|49.38,75.91|N|At Nivek Lee. Its a bit of a run over to this flight path, but...someday it may come in handy.|RANK|3|
 C Silence the Call|QID|35084|QO|2|M|55.45,55.92|US|N|If somehow you avoided killing enough, now is the time to finish it.|RANK|2|
-T Disrupt the Rituals|QID|35083|M|46.77,57.46|N||QID|35231|M|40.43,56.80|To the Shamanstone.|RANK|2|
+T Disrupt the Rituals|QID|35083|M|46.77,57.46;40.43,56.80|CN|N|To the Shamanstone.|RANK|2|
 T Silence the Call|QID|35084|M|46.77,57.46|N|To the Shamanstone. (any of the 3 shamanstones work, you dont have to run to the one marked in the guide.)|RANK|2|
 A Through the Nether|QID|35085|M|46.77,57.46|N|From the Shamanstone.|RANK|2|
 
@@ -384,9 +389,9 @@ A The Shadow of the Void|QID|35088|M|46.81,57.53|N|From the Shamanstone.|RANK|2|
 C The Shadow of the Void|QID|35088|M|48.09,58.59|T|Invalidus|N|Click on the crystal to summon Invalidus.|RANK|2|
 T The Shadow of the Void|QID|35088|M|46.81,57.54|N|To the Shamanstone. (any of the 3 shamanstones work, you dont have to run to the one marked in the guide.)|RANK|2|
 
-R Iron Docks|QID|35596|M|40,76|RANK|3|N|You can pick up a leatherworking follower here and do the bonus objective if you so desire (75gold reward @ 100 ).|RANK|3|
+R Iron Docks|QID|35596|M|40,76|N|You can pick up a leatherworking follower here and do the bonus objective if you so desire (75gold reward @ 100 ).|RANK|3|
 K Bolkar the Cruel|QID|35596|M|40.42,76.14|L|111863|RANK|3|N|Goldmane the skinner is imprisoned at the top of the tower.  Kill Bolkar (who is beside the cage) to get the key.(if Goldmane is outside of the cage you can just accept him as a follower.)|  RANK|3|
-A Feline Friends Forever|QID|35596|M|40.42,76.14|RANK|3|N|Use the key to open the cage and then Goldmane will offer to follow you.|U|111863|RANK|3|
+A Feline Friends Forever|QID|35596|M|40.42,76.14|N|Use the key to open the cage and then Goldmane will offer to follow you.|U|111863|RANK|3|
 
 R Ancestral Grounds|QID|35231|M|40.43,56.80|RANK|2|
 T Spiritual Matters|QID|35231|M|40.43,56.80|N|To Gar'rok.|RANK|2|
@@ -428,7 +433,7 @@ A Lok-rath is Secured|QID|35098|M|48.60,48.22|N|From Durotan.|RANK|2|
 H Wor'var|QID|35098|M|48.60,48.22|N|Back to the outpost.|RANK|2|
 
 T Lok-rath is Secured|QID|35098|M|82.84,45.07|N|To Thrall.|RANK|2|
-A And Justice for Thrall|QID|35171|M|82.84,45.07|N|From Thrall.|RANK|2|RANK|2|
+A And Justice for Thrall|QID|35171|M|82.84,45.07|N|From Thrall.|RANK|2|
 A Bread and Circuses|QID|35922|M|82.84,46.84|N|From Lucy Brokerblast.|LEAD|34662|RANK|2|
 T Bread and Circuses|QID|35922|M|79.46,50.31|N|To Dexyl Deadblade.|RANK|2|
 A Ring of Trials: Crushmaul|QID|34662|M|79.46,50.31|N|From Dexyl Deadblade.|RANK|2|

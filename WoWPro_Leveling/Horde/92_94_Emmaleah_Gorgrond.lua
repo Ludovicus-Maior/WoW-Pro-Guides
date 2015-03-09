@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2015-03-09 19:38
+-- Who: Ludovicus
+-- Log: Tag twiddles
+
+-- URL: http://wow-pro.com/node/3599/revisions/27136/view
 -- Date: 2015-02-01 22:23
 -- Who: Ludovicus
 -- Log: Played through and corrected coords and things.
@@ -224,14 +229,14 @@ K Glut|QID|36204|M|46.2,50.8|T|Glut|L|118229|N|Kill and loot for an ilvl 534 agi
 l Odd Boulder|QID|36732|M|44.17,46.65|N|Call Beatface (click on the rock) to expose the Obsidian Crystal Formation|RANK|3|;8
 C Fair Warning|QID|35128|M|32.12,75.66|QO|1|S|N|Go into the cave and kill them as you go down.|Z|Fissure of Fury|
 C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|CHAT|QO|1|N|Talk to Thukmar and then take care of him.|Z|Fissure of Fury|
-C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|NC|QO|2|N|The intel is on the ground beside Thukmar.|;Z|Fissure of Fury| -- this seems to not be on map layer 19, dispite it showing on map layer 19 when you open the map...
+C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|NC|QO|2|N|The intel is on the ground beside Thukmar.|;Z|;Fissure of Fury| -- this seems to not be on map layer 19, despite it showing on map layer 19 when you open the map...
 B Horned Skull|QID|35056|M|42.1,66.73|QO|1|N|Loot for some Garrison Resources.|RANK|3|Z|Fissure of Fury|ITEM|$934|
 l Hardened Thornvine|QID|36720|M|36.71,51.45|Z|Fissure of Fury|N|This is in the room with Gelgor. Use Shredder (click on the vines) to expose the Ancient Titan Chest|RANK|3|;6 -
 K Gelgor of the Blue Flame|QID|36391|M|34.0,38.6|T|Gelgor the Blue Flame|L|118230|N|Kill and loot for an ilvl 534 versatility trinket.|RANK|3|ITEM|118230|;in fissure of fury
 l Odd Boulder|QID|36723|M|60.34,44.75|Z|Fissure of Fury|N|Call Beatface (click on the rock) to expose the Aged Stone Container|RANK|3|;7
-C Fair Warning|QID|35128|M|30.78,75.97|US|;Z|Fissure of Fury|
-A A Great Escape|QID|35210|M|34.72,66.66|N|From Goren Tunnel.|PRE|35041|;Z|Fissure of Fury|
-C A Great Escape|QID|35210|M|34.72,66.66|NC|N|Click on the mound of dirt to clear the tunnel entrance.|;Z|Fissure of Fury|
+C Fair Warning|QID|35128|M|30.78,75.97|US|;Z|;Fissure of Fury|
+A A Great Escape|QID|35210|M|34.72,66.66|N|From Goren Tunnel.|PRE|35041|;Z|;Fissure of Fury|
+C A Great Escape|QID|35210|M|34.72,66.66|NC|N|Click on the mound of dirt to clear the tunnel entrance.|;Z|;Fissure of Fury|
 T Leave Every Soldier Behind|QID|35129|M|43.9,48.9|N|To Rexxar.|
 T Fair Warning|QID|35128|M|43.9,48.9|N|To Rexxar.|
 T A Great Escape|QID|35210|M|43.9,48.9|N|To Rexxar.|
@@ -249,7 +254,7 @@ B Petrified Rylak Egg |QID|36521|M|46.25,42.93|L|118707|N|Pick up for a bit of t
 K Rolkor|QID|36393|M|47.73,41.07|L|118211|N|Kill and loot for an ilvl 539 str trinket.|RANK|3|ITEM|118211|
 l Hardened Thornvine|QID|36717|M|47.5,43.63|N|Use Shredder (click on the vines) to expose the Aged Stone Container|RANK|3|;11 - Gronn Canyon below Rolkar
 K Greldrok the Cunning|QID|36186|M|46.8,43.2|T|Greldrok the Cunning|L|118210|N|Inside a cave, Kill and loot for an ilvl 534 str 1H Mace.|RANK|3|ITEM|118210|
-l Odd Boulder|QID|36735|M|47.92,39.97|N|Call Beatface (click on the rock) to expose the Ancient Titan Chest|RANK|3|;12 - Gronn Canyon just before |US|Seedbearers
+l Odd Boulder|QID|36735|M|47.92,39.97|N|Call Beatface (click on the rock) to expose the Ancient Titan Chest|RANK|3|;12 - Gronn Canyon
 B Warm Goren Egg|QID|36203|M|48.9,47.3|QO|1|N|In 7 days this will become a Goren Disguise (toy)|RANK|3|ACTIVE|35136;35807|ITEM|118716|
 
 C Chains of Iron|QID|35136|M|49.0,45.2;49.2,44.8|CS|QO|1|N|When you enter this valley, you first see Rexxar fighting some grunts, assist him, as he works his way towards Captain Brak. Eventually Nisha flys up and brings Capt. Brak to you. Kill her, then go over and loot the artifact.|
@@ -280,7 +285,7 @@ T The Infested|QID|35400|M|46.58,71.47|N|To Draka.|
 A Bushwhacker|QID|35432|M|46.58,71.47|N|From Draka.|PRE|35400|
 
 R Evermorn Springs|QID|35430;36037|M|44.95,79.09|
-l Hardened Thornvine|QID|35981|45.31,81.99|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;20.1 - Deeproot
+l Hardened Thornvine|QID|35981|M|45.31,81.99|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;20.1 - Deeproot
 l Hardened Thornvine|QID|36714|M|47.66,76.78|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;21 - Deeproot
 C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|
 T Cutter|QID|35430|M|43.72,84.00|N|To Cutter. You can jump over the wall of his hut in the back.|
