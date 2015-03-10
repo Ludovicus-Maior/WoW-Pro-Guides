@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2015-03-10 19:54
+-- Who: Emmaleah
+-- Log: All items added. I haven't finished the play through, to make sure they flow right, so I may have more changes tomorrow.
+
+-- URL: http://wow-pro.com/node/3598/revisions/27158/view
 -- Date: 2015-03-08 21:51
 -- Who: Ludovicus
 -- Log: Tag tweaks so it passes the checks.
@@ -97,7 +102,7 @@ R Kuuro's Claim|QID|34576|M|74.03,22.68|ACTIVE|34576|
 C Iridium Recovery|QID|34576|M|75.4,22|S|N|Look up, these are non-agro critters flying above you.|
 C Out of Jovite|QID|34577|M|75.4,22|NC|S|N|These are green crystals sticking out the ground and walls.|
 C Gas Guzzlers|QID|34579|M|75.4,22|U|111910|N|After you kill the goren, use your 'Goren Gas Extractor' on them.|
-A Pure Crystal Dust|QID|34576|M|78.11,14.8|N|More treasure, it's up the ramp and at the end of the room.|ACTIVE|34263;37421|ITEM|117572|
+l Pure Crystal Dust|QID|34576|M|78.11,14.8|L|117572|N|More treasure, it's up the ramp and at the end of the room.|ACTIVE|34263;37421|ITEM|117572|
 C Gas Guzzlers|QID|34579|M|75.4,22|U|111910|N|After you kill the goren, use your 'Goren Gas Extractor' on them.|US|
 C Iridium Recovery|QID|34576|M|75.4,22|US|N|Look up, these are non-agro critters flying above you.|
 C Out of Jovite|QID|34577|M|75.4,22|NC|US|N|These are green crystals sticking out the ground and walls.|
@@ -139,16 +144,16 @@ A Logistical Nightmare|QID|34766|M|71.19,29.42|N|From Provisioner Naya.|RANK|2|
 A Wanted: Kil'uun|QID|34108|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
 A Wanted: Hilaani|QID|34107|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
 A Wanted: Ra'tok the Hammer|QID|34106|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
-C Wanted: Kil'uun|QID|34108|M|67.18,28.74|S|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
+K Kil'uun|QID|34108|QID|34108|M|67.18,28.74|L|112380|S|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
 C Logistical Nightmare|QID|34766|M|68.06,31.38|RANK|2|
-K Kil'uun|QID|34108|M|67.18,28.74|US|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
+K Kil'uun|QID|34108|M|67.18,28.74|L|112380|US|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
 
 K Underseer Bloodmane|QID|34945|M|63.8,20.7|L|112475|ITEM|112475|T|Underseer Bloodmane|N|Kill and loot for a bit of treasure. If you kill Prize (his pet) first it will cause him to enrage, making the fight needlessly more difficult.|RANK|3|
 R Fort Wrynn|QID|34683|M|66.65,20.99|CC|N|Don't actually run into Fort Wrynn as it's an alliance base.|RANK|2|
 K Dr. Gloom|QID|34142|M|68.6,15.4|L|112499|T|Dr. Gloom|ITEM|112499|N|Kill and loot for a bit of treasure.|RANK|2|
-l Rook's Tacklebox|QID|34232|M|64.9,13.3|L|116117|N|Loot for abit of treasure.|ITEM|116117|RANK|2|
-l Jug of Aged Ironwine|QID|34233|M|65.5,11.3|L|117568|ITEM|116768|N|Pick up for a bit of treasure and light refreshment.|RANK|2|
+l Rook's Tacklebox|QID|34232|M|64.9,13.3|L|116117|N|Loot for a bit of treasure.|ITEM|116117|RANK|2|
 R The Path of Glory|QID|34683|M|66.15,10.76|N|Continue north following the road until you get to the Path of Glory. Cross the bridge and you will find yourself in Frostwolf Overlook.|RANK|2|
+l Jug of Aged Ironwine|QID|34233|M|65.5,11.3|L|117568|ITEM|116768|N|This is in a cave at the base of the waterfall, It's out of the way and requires you to run past level 100 hostile NPCs (or hearth) when coming back up from the cave. Pick up for a bit of treasure and light refreshment.|RANK|3|
 A Gazlowe's Solution|QID|33721|M|62.06,10.40|N|From Gazlowe.|RANK|2|
 A In Short Supply|QID|33735|M|62.01,10.99|N|From Draka.|RANK|2|
 T One Step Ahead|QID|34683|M|61.52,10.95|N|To Durotan.|RANK|2|
@@ -191,6 +196,7 @@ A Dying Wish|QID|33973|M|56.91,25.94|N|From Ahm.|RANK|2|
 C Dying Wish|QID|33973|M|57.02,24.27|T|Blademaster Bralok|RANK|2|
 T Dying Wish|QID|33973|M|56.91,25.94|N|To Ahm.|RANK|2|
 C Dreadpiston|QID|34950|M|56.33,27.28|T|Dreadpiston|RANK|2|
+l Foreman's Lunchbox|QID|34238|M|57.34,28.65|L|116120|ITEM|116120|N|This one requires a bit of jumping.  Go from the crates to the top of the tent, to the top of the next tent, to the scaffolding. Hardly worth the effort for even a most excellent lunch.|RANK|2|
 C Iron Them Out|QID|33736|M|55.84,29.09|US|NC|N|Click to destroy.|RANK|2|
 C Vol. X Pages ?|QID|33724|M|56.74,24.51|US|N|Drops from the Iron Horde mobs.|RANK|2|
 R Durotan's Grasp|QID|34950|M|55.43,40.83|N|Follow the road or cross country.|RANK|2|
@@ -208,12 +214,14 @@ C Born to Shred|QID|33729|M|56.06,37.75;58.54,38.09|CS|NC|QO|2|N|When you get th
 T Born to Shred|QID|33729|M|60.07,40.65|N|To your Iron Shredder Prototype.|RANK|2|
 A Engineering her Demise|QID|33730|M|60.07,40.65|N|From your Iron Shredder Prototype.|RANK|2|
 C Engineering her Demise|QID|33730|M|61.06,38.75|T|Ketya Shrediron|RANK|2|
+l Amethyl Crystal|QID|34236|M|62.05, 32.35|L|116131|ITEM|116131|N|Loot for a bit of treasure on your run back to Durotan's Grasp.|RANK|2|
 T Engineering her Demise|QID|33730|M|55.58,40.96|N|To Durotan.|RANK|2|
 A Khadgar's Plan|QID|34962|M|55.58,40.96|N|From Durotan.|RANK|2|
+l Luminous Shell|QID|34235|M|52.56,29.54|L|116132|ITEM|116132|N|Turn, just before you get to Khadgar and run down the hill and across the stream for an Intellect Necklace.|RANK|2|
 T Khadgar's Plan|QID|34962|M|54.18,36.43|N|Follow Durotan down the road to where Khadgar is (and turn in to him).|RANK|2|
 A The Battle for Shattrath|QID|33731|M|54.18,36.43|N|From Archmage Khadgar.|RANK|2|
 C The Battle for Shattrath|QID|33731|M|50.49,34.97|CHAT|N|Follow the scenario instructions, starting with a chat with Gazlowe.|RANK|2|
-T The Battle for Shattrath|QID|33731|M|71.44,29.60|N|To Durotan.|RANK|2|
+T The Battle for Shattrath|QID|33731|M|71.44,29.60|N|Take Khadgar's portal back to Vol'jin's Pride where you can turn this quest in to Durotan.|RANK|2|
 T Logistical Nightmare|QID|34766|M|71.18,29.43|N|To Provisioner Naya.|RANK|2|
 A Send Them Running|QID|34803|M|71.18,29.43|N|From Provisioner Naya.|RANK|2|
 T Wanted: Kil'uun|QID|34108|M|70.81,29.64|N|To Beastmaster Tagh.|RANK|2|
@@ -224,28 +232,29 @@ T Send Them Running|QID|34803|M|71.18,29.43|N|To Provisioner Naya.|RANK|2|
 R Aruuna|QID|33740|M|73.07,38.74|CC|N|You actually don't run quite there as Barum is just outside of Aruuna.|RANK|2|
 A Burning Sky|QID|33740|M|73.07,38.74|N|From Crystal-Shaper Barum.|RANK|2|
 A Pieces of Us|QID|33734|M|73.07,38.74|N|From Crystal-Shaper Barum.|RANK|2|
-l Keluu's Belongings|QID|34261|M|75.7,41.4|N|Pick up for a bit of gold.|RANK|2|
+l Keluu's Belongings|QID|34261|M|75.7,41.4|N|Under the bridge lies Keluu and her belongings are beside her.Pick up for a bit of gold.|RANK|2|
 C Burning Sky|QID|33740|M|76.89,42.58|S|N|Kill these guys as you go about the other objectives.|RANK|2|
 A Barum's Notes|QID|33761|M|76.27,42.76|N|From Barum's Notes.|RANK|2|
 C Barum's Notes|QID|33761|NC|S|M|78.60,45.58|N|These crystals, scattered all over, give buffs -- if you want to, keep the buff refreshed by clicking on them every time you see one.|
 l Relic of Aruuna|QID|34250|L|116128|M|75.8,44.7|N|Loot for a bit of treasure|ITEM|116128|RANK|2|
-C Pieces of Us|QID|33734|NC|QO|3|M|78.22,43.76|RANK|2|
+C Pieces of Us|QID|33734|NC|QO|3|M|75.44,44.14|RANK|2|
 A Pyrophobia|QID|33578|M|77.71,43.93|N|From Raksi.|RANK|2|
 K Sun-Sage Kairyx|QID|33578|QO|1|M|78.54,45.34|T|Sun-Sage Kairyx|RANK|2|
 T Pyrophobia|QID|33578|M|77.75,43.96|N|To Raksi.|RANK|2|
 A What the Draenei Found|QID|33579|M|77.75,43.96|N|From Raksi.|RANK|2|
 C Pieces of Us|QID|33734|NC|QO|2|M|77.92,42.97|RANK|2|
 C Pieces of Us|QID|33734|NC|QO|1|M|77.53,41.24|N|After you find this follow the mine cart tracks to the cave to see what the draenei found.|RANK|2|
-
+l Iron Scout|QID|33649|CHAT|M|75.06,36.08|L|$824|ITEM|$824|N|Before you go into the cave (because you will be teleported out), there is a scout lying on the ground over here that you can rifle the body for some garrison resources.|RANK|2|
 C Burning Sky|QID|33740|M|78.13,36.50|US|RANK|2|
 C Barum's Notes|QID|33761|NC|US|M|78.13,36.50|RANK|2|
-C What the Draenei Found|QID|33579|NC|M|81.22,37.57;82.69,37.87|CS|N|Into the cave and thru the first small room.  Go to the right in the larger room and then cross the stone bridge. (you can't walk on the mining cart tracks.)  Examine (click) the color changing crystal.|RANK|2|
+l Aruuna Mining Cart|QID|34260|L|109118|ITEM|109118|M|81.22,37.57;81.9,35|CS|N|Into the cave and thru the first small room.  Go to the right in the larger room and then drop down (or run down the fallen stone "ramp") to find the mining cart to loot for a bit of blackrock ore.|RANK|2|
+C What the Draenei Found|QID|33579|NC|M|82.69,37.87|N|Run back up the ramp and cross the stone bridge. (you can't walk on the mining cart tracks.)  Examine (click) the color changing crystal.|RANK|2|
 T What the Draenei Found|QID|33579|M|82.64,37.78|N|To Raksi.|RANK|2|
 A The Purge of Veil Shadar|QID|33580|M|70.50,56.85|N|From Shadow-Sage Iskar.|RANK|2|
 f Terokkar Refuge|QID|33580|M|70.34,57.10|N|At Skytalon Inuz.|RANK|2|
 A Forbidden Knowledge|QID|33581|M|70.52,57.35|N|From Darkscryer Raastok.|RANK|2|
 A Kura's Vengeance|QID|33582|M|70.77,56.79|N|From Kura the Blind.|RANK|2|
-
+l Lightbearer|QID|34101|M|68.8,56.1|L|109192|ITEM|109192|N|Loot just lying here against a tree trunk|RANK|2|
 A Seek Out the Seer|QID|34721|M|68.65,45.33|N|From Elumm who paths up and down this road.|RANK|2|
 A Clear!|QID|34751|M|64.21,47.71|N|From Ziz Fizziks.|RANK|2|
 T Seek Out the Seer|QID|34721|M|65.41,50.20|N|To Seer Malune.|RANK|2|
@@ -255,11 +264,13 @@ C Cure of Aruunem|QID|33873|M|65.52,51.95;70.81,55.13|CN|NC|S|N|These are growin
 C Dust of the Dead|QID|33872|M|65.52,51.95;70.81,55.13|CN|N|Kill the moths and loot thier dust.|RANK|2|
 C Cure of Aruunem|QID|33873|M|65.52,51.95;70.81,55.13|CN|NC|US|N|These are growing in the area.|RANK|2|
 C Clear!|QID|34751|M|72.82,54.29|S|N|Kill the eels as you swim across the water to see Barum. Don't worry about getting them all as we will be in the area again.|RANK|2|
-K Hen-Mother Hami|QID|34167|M|77.6,50.6|L|112369|T|Hen-Mother Hami|N|Kill and Look for a bit of treasure.|ITEM|112369|RANK|2|
-K Kaavu the Crimson Claw|QID|34199|L|$824|M|77.8,56.6|T|Kaavu the Crimson Claw|N|Currently bugged and only drops garrison resources|RANK|3|
+l Bright Coin|QID|34471|M|73.5,51.4|L|116127|ITEM|116127|N|This coin is lying in the water under the bridge.|RANK|2|
+K Hen-Mother Hami|QID|34167|M|77.6,50.6|L|112369|T|Hen-Mother Hami|N|She patrols thru this area. Kill and Look for a bit of treasure.|ITEM|112369|RANK|2|
+l Charred Sword|QID|34248|M|77.04,49.96|L|116116|ITEM|116116|N|The sword is just lying her in the burned over area.|RANK|2|
 T Burning Sky|QID|33740|M|76.72,55.23|N|To Crystal-Shaper Barum.|RANK|2|
 T Pieces of Us|QID|33734|M|76.72,55.23|N|To Crystal-Shaper Barum.|RANK|2|
 T Barum's Notes|QID|33761|M|76.72,55.23|N|To Crystal-Shaper Barum.|RANK|2|
+K Kaavu the Crimson Claw|QID|34199|L|$824|M|77.8,56.6|T|Kaavu the Crimson Claw|N|This occurs inside an alliance area (Anchorite Sojourn) so probably better avoided.  It can be done without becoming PVP flagged if you are careful.  This event Currently appears to be bugged and only drops garrison resources.|RANK|3|
 R Veil Shadar|QID|33580|M|76.42,57.79;76.86,60.16|CS|N|You probably want to circle around the Alliance base (Anchorite's Sojourn).|RANK|2|
 C The Purge of Veil Shadar|QID|33580|CHAT|S|M|75.49,65.49|RANK|2|
 C Forbidden Knowledge|QID|33581|NC|S|M|74.52,66.93|N|These are pinkish glowing books on the ground.|RANK|2|
@@ -349,6 +360,7 @@ C Aruumel's Rest|QID|33874|M|69.03,55.28|T|Aruumel|U|108749|N|Unless you want to
 T Aruumel's Rest|QID|33874|M|65.43,50.74|N|To Seer Malune.|RANK|2|
 T Clear!|QID|34751|M|64.20,47.72|N|To Ziz Fizziks.|RANK|2|
 A New Owner|QID|35238|M|64.24,47.80|N|From Pleasure Bot 8000. You may need to wait a min or so for this quest to show up.|RANK|2|
+l Barrel of Fish|QID|34252|M|62.4,48|L|110506|ITEM|110506|N|Loot for a bit of treasure.|RANK|2|
 
 A A Pilgrimage Gone Awry|QID|34801|M|61.35,54.39|N|From Nadur.|RANK|3|
 C A Pilgrimage Gone Awry|QID|34801|QO|3|M|64.21,58.96|N|The frogs are along the water's edge.|RANK|3|
@@ -370,6 +382,7 @@ A Every Bit Counts|QID|34710|M|55.37,66.75|N|From Ranger Belonis.|RANK|2|
 A Powering the Defenses|QID|35249|M|55.56,66.98|N|From Mehlar Dawnblade.|RANK|2|
 T The Lady of Light|QID|34696|M|55.49,67.68|N|To Lady Liadrin.|RANK|2|
 A Holding the Line|QID|34418|M|55.49,67.68|N|From Lady Liadrin.|RANK|2|
+l Draenei Weapons|QID|34253|M|55.2,66.8|L|116118|ITEM|116118|N|Treasure, lying here for the taking.|RANK|2|
 A The Heart of Auchindoun|QID|33920|M|56.51,67.14|N|From Soulbinder Nyami.|RANK|2|
 A Disrupting the Flow|QID|33917|M|56.66,66.25|N|From Vindicator Nobundo.|RANK|2|
 C Holding the Line|QID|34418|S|M|57.27,65.57|RANK|2|
@@ -443,18 +456,15 @@ T Never Forget|QID|34013|M|50.52,87.56|N|To Defender Artaal.|RANK|2|
 R Aarko's Estate|QID|34182|M|43.24,89.09;37.38,95.85|CS|RANK|3|
 l Aarko's Family Treasure|QID|34182|M|36.5,96.1|L|117567|ITEM|117567|N|Talk to XXX to start the event.  Defeat waves of mobs ending with XXX.  At the conclusion you can have thier family treasure.|
 l Farmer's Bounty|QID|34249|M|35.5,96.8|ITEM|$824|N|Loot for some garrison resources.|RANK|3|
-; l Yuuri's Gift|QID|34140|M|40.7,89.5|ITEM|$824|N|Loot for some garrison resources.|RANK|3|  -- Duplicate?
+l Yuuri's Gift|QID|34140|ITEM|$824|M|40.7,89.5|PRE|33530|N|Yuuri is so greatful you rescued her she has some garrison resources for you.|RANK|3|
 
+f Retribution Point|QID|34122|M|42.12,76.78|N|At Beldos.|RANK|2|
 R Retribution Point|QID|34326|M|43.44,75.92|RANK|2|
 T Changing the Tide|QID|34326|M|43.44,75.92|N|To Restalaan.|RANK|2|
 A Desperate Measures|QID|34092|M|43.43,75.94|N|From Restalaan.|RANK|2|
 A Ogre Diplomacy|QID|34122|M|42.97,76.23|N|From Lady Liadrin.|RANK|2|
-f Retribution Point|QID|34122|M|42.12,76.78|N|At Beldos.|RANK|2|
-l Yuuri's Gift|QID|34140|ITEM|$824|M|40.7,89.5|PRE|33530|N|Yuuri is so greatful you rescued her she has some garrison resources for you.|RANK|3|
-; l Aarko's Family Treasure|34182|M|36.5,96.1|L|  -- Incomplete
-; l Farmer's Bounty|34249| -- Incomplete
 R Ango'rosh Ruins|QID|34122|M|41.26,79.83|RANK|2|
-; Treasure of Ango'rosh|QID|34257| -- Incomplete
+l Treasure of Ango'rosh|QID|34257|M|38.33,84.51|ITEM|116119|RANK|2|
 C Ogre Diplomacy|QID|34122|M|39.61,83.68|S|RANK|2|
 K Dur'gol the Ruthless|QID|34092|QO|2|M|42.67,84.92|T|Dur'gol the Ruthless|N|Kill Dur'gol and loot his book.|RANK|2|
 C Mok'war the Terrible|QID|34092|QO|1|M|39.5,83.62|T|Mok'war the Terrible|N|Kill Mok'war and loot his book.|RANK|2|
@@ -469,7 +479,7 @@ l Teroclaw Nest|QID|35162|M|39,77|N|These nests are all over the zone, if you ha
 R Gul'rok|QID|34144|M|34.48,78.57|N|No road takes you here, just ride across the countryside.|RANK|2|
 K Cro Fleshrender|QID|34165|M|37.6,70.4|L|116123|T|Cro Fleshrender|ITEM|116123|N|Kill and loot for a bit of treasure.|
 C Retribution for the Light|QID|34144|M|35,79|S|N|Kill these as you accomplish the other objectives (as if you had a choice).|RANK|2|
-A Hiding in the Shadows|QID|34163|N|From Shadow Council Communicator. (There are several locations this is offered in Gul'rok)|RANK|2|
+A Hiding in the Shadows|QID|34163|N|From Shadow Council Communicator. (The communicators are at several locations in Gul'rok.  Head for the nearest yellow '!')|RANK|2|
 C Hiding in the Shadows|QID|34163|M|37.78,77.34|QO|1|NC|N|The orb is at the top of the watchtower.|RANK|2|
 K Viperlash|QID|34148|M|37.6,74.9|L|112371|T|Viperlash|ITEM|112371|N|Viperlash is in a shallow cavern. Kill him and remove the spear from his side to retrieve someone's lost gloves.|RANK|2|
 A Book Burning|QID|34164|M|34.01,73.96|N|From Kor'thos Dawnfury.|RANK|2|
