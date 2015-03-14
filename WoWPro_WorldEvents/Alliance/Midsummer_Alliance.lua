@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2015-03-09 17:19
+-- Who: Ludovicus
+-- Log: Added missing Z tag
+
+-- URL: http://wow-pro.com/node/3406/revisions/26608/view
 -- Date: 2014-07-25 21:53
 -- Who: Ludovicus
 -- Log: adj levels
@@ -284,7 +289,7 @@ T Honor the Flame|QID|32502|M|51.8,51.4|Z|Valley of the Four Winds|
 F Soggy's Gamble|N|Fly to Soggy's Gamble in the Dread Waste.|QID|32497|M|56.42,50.34|Z|Valley of the Four Winds|
 A Honor the Flame|N|From the Flame Warden. (Soggy's Gamble)|QID|32497|M|56.1,69.5|Z|Dread Wastes|
 T Honor the Flame|QID|32497|M|56.1,69.5|Z|Dread Wastes|
-F Longying Outpost|N|Fly to Longying Outpost in Townlong Steppes.|QID|32501|M|56.12,70.13|
+F Longying Outpost|N|Fly to Longying Outpost in Townlong Steppes.|QID|32501|M|56.12,70.13|Z|Dread Wastes|
 A Honor the Flame|N|From the Flame Warden. (Longying Outpost)|QID|32501|M|71.5,56.3|Z|Townlong Steppes|
 T Honor the Flame|QID|32501|M|71.5,56.3|Z|Townlong Steppes|
 F Binan Village|N|Fly to Binan Village in Kun-Lai Summit.|QID|32500|M|71.12,57.33|Z|Townlong Steppes|

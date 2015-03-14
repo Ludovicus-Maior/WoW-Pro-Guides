@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2015-03-09 19:28
+-- Who: Ludovicus
+-- Log: Corrected double N on "h Axefall"
+
+-- URL: http://wow-pro.com/node/3602/revisions/27173/view
+-- Date: 2015-03-09 19:25
+-- Who: Ludovicus
+-- Log: CHanged M step to N
+
+-- URL: http://wow-pro.com/node/3602/revisions/27155/view
 -- Date: 2015-03-07 13:22
 -- Who: Aldavor
 -- Log: Replaced lines (h Southport) and (A Cult of the Ravenspeakers) as they had duplicate N tags.
@@ -124,7 +134,7 @@ N Beginnings|QID|34653;36951|N|This guide begins at your garrison to take the fr
 N Bonus Objectives|QID|34653;36951|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be at least level 96 to do this guide.|
 N Jumping Games|QID|34653;36951|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle). They mostly reward archeology fragments. I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653;36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.
-M Use of Rank Setting|QID|34653;36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|
+N Use of Rank Setting|QID|34653;36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|
 A Arakkoa Exodus|QID|34653|M|42.67,44.73|Z|Lunarfall|N|From the Bulletin Board|FACTION|Alliance|
 A Arakkoa Exodus|QID|36951|M|49.5,41.5|Z|Frostwall|N|From the Command Board|FACTION|Horde|
 F Spires of Arak|QID|34653|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
@@ -200,7 +210,7 @@ T Orders, Commander?|QID|35277|M|40.18,43.51|N|To Taskmaster Gornek.|FACTION|Hor
 A Outpost specific quest|QID|37326;35697|M|40.19,43.46|N|The quest (and quest giver) is determined by which building you choose. It is from Taskmaster Gornek (brewery) or Provisioner Galgar(smugglers den).|FACTION|Horde|PRE|35277|
 ;A Peace Offering|QID|35697|M|40.05,43.18|N|From Provisioner Galgar.|-- smugglers den
 ;A Befriending the Locals|QID|37326|N|From Taskmaster Gornek -- brewery
-h Axefall|QID|35275|M|40.41,42.99|N|At Taz'jari.|FACTION|Horde|N|If you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
+h Axefall|QID|35275|M|40.41,42.99|FACTION|Horde|N|At Taz'jari. If you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
 A What's Theirs is Ours|QID|35295|M|40.27,43.37|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35277|RANK|2|
 
 A Return to Veil Terokk|QID|35611|M|40.18,60.25|N|From Percy.|PRE|35286+35277|RANK|2|

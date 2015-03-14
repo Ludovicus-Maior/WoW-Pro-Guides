@@ -194,7 +194,7 @@ local function CreateDisplayConfig()
 					arank = {
 						order = 6,
 						type = "range",
-						name = L["Difficulty / Completeness"],
+						name = L["Rank (Difficulty/Completeness)"],
 						desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
 						min = 1, max = 3, step = 1,
 						get = function(info) return WoWProDB.profile.rank end,

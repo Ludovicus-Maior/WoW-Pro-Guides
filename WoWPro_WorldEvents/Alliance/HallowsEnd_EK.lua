@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2015-03-09 17:40
+-- Who: Ludovicus
+-- Log: The Underbelly@Dalaran
+
+-- URL: http://wow-pro.com/node/3440/revisions/26865/view
 -- Date: 2014-11-07 22:01
 -- Who: Emmaleah
 -- Log: corrections per list 'o errors missing N tag x2, misplaced z tag. several missing "|"

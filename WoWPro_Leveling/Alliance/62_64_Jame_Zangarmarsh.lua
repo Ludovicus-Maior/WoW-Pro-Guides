@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2015-03-09 17:25
+-- Who: Ludovicus
+-- Log: Added missing |N| value.
+
+-- URL: http://wow-pro.com/node/3273/revisions/26818/view
 -- Date: 2014-11-06 13:40
 -- Who: Fluclo
 -- Log: Removed duplicate tags
@@ -352,7 +357,7 @@ H Orebor Harborage|QID|9839|N|Hearth to Orebor Harborage.|U|6948|M|41.89,26.29|
 T Overlord Gorefist|QID|9839|M|41.9,27.2|N|To Ikuti.|
 A A Message to Telaar|QID|9792|M|41.9,27.2|N|From Ikuti.|
 F Telredor|QID|9803|N|Fly to Telredor.|M|41.30,29.0|
-T Messenger to the Feralfen|QID|9803|M|68.2,49.4|N|
+T Messenger to the Feralfen|QID|9803|M|68.2,49.4|N|To Anchorite Ahuurn.|
 r Sell junk, repair, restock|QID|9803|N|Sell junk, repair, restock. Close this step to go to the next guide.|M|68.5,50.14|
 ]]
 end)

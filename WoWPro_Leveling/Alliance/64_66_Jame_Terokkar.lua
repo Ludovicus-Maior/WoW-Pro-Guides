@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2015-03-09 17:38
+-- Who: Ludovicus
+-- Log: Missing N value.
+
+-- URL: http://wow-pro.com/node/3277/revisions/26819/view
 -- Date: 2014-11-06 13:43
 -- Who: Fluclo
 -- Log: Removed duplicate tags
@@ -275,7 +280,7 @@ A Thinning the Ranks|QID|10007|M|69.7,44.2|N|From Theloria Shadecloak.|
 C Thinning the Ranks |N|Kiill the mobs needed for this quest.|QID|10007|S|
 C The Firewing Liaison|N|Kill Lisaile Fireweaver.|QID|10002|M|67.00,53.00|
 
-A Fel Orc Plans|QID|10012|M|67.90,53.60|N|
+A Fel Orc Plans|QID|10012|M|67.90,53.60|N|Click on the plans on the ground.|
 C Thinning the Ranks |N|Kiill the mobs needed for this quest.|QID|10007|US|
 C Magical Disturbances |N|Kill the rest of the Warp Stalkers for this quest.|QID|10026|M|55.00,37.00|US|
 C Olemba Seeds |N|Loot the rest of the seeds for this quest.|QID|9992|M|34.9,42.8|US|

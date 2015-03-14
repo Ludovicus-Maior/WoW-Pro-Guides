@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2015-03-09 19:39
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3587/revisions/27135/view
 -- Date: 2015-02-01 22:09
 -- Who: Ludovicus
 -- Log: Small tweaks.
@@ -656,7 +660,7 @@ A Things Are Not Goren Our Way|QID|35154|M|61.99,73.88|N|From Gorsol.|LVL|92|
 C Things Are Not Goren Our Way|QID|35154|M|61.39,84.40|N|After completing this quest you will be able to mine here, without the mining profession.|T|Stonetooth|
 T Things Are Not Goren Our Way|QID|35154|M|62.00,73.93|N|To Gorsol. Congratulations, you have your own personal mine, that doesnt require mining to gather in. You can harvest the ore once per day. You can immediately buy the plans from Rezlek, the goblin next to your architect table and upgrade your mine to level 2 for greater yield. (I would recoment mining first because it seems to reset the ore spawning.)|
 
-C Big Frostfire Gun|QID|36627|M|45.13,71.75|P|Engineering;202|N|
+C Big Frostfire Gun|QID|36627|M|45.13,71.75|P|Engineering;202|
 T Big Frostfire Gun|QID|36627|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
 U Learn Engineering skill|QID|33493|U|111921|M|50.03,68.90|P|Engineering;202|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Engineering Works Blueprints|QID|33493|U|109258|M|50.03,68.90|P|Engineering;202|N|After you learn check this step off manually.|

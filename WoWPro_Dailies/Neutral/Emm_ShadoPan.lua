@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2015-03-09 19:23
+-- Who: Ludovicus
+-- Log: Got rid of empty |N|| tags
+
+-- URL: http://wow-pro.com/node/3501/revisions/26853/view
 -- Date: 2014-11-07 20:41
 -- Who: Fluclo
 -- Log: Added missing |M| tags
@@ -230,7 +235,7 @@ C The Challenger's Ring: Snow Blossom|QID|31038|M|48.92,70.11;50.4,67.8|CS|N|Sno
 T The Challenger's Ring: Snow Blossom|QID|31038|M|49.02,70.45|N|To Ban Bearheart.|
 
 A The Challenger's Ring: Hawkmaster Nurong|QID|31220|PRE|31197|M|49.01,71.36|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Ling of the Six Pools.|
-C The Challenger's Ring: Hawkmaster Nurong|QID|31220|M|49.01,70.94;50.71,68.18|CS|N|
+C The Challenger's Ring: Hawkmaster Nurong|QID|31220|M|49.01,70.94;50.71,68.18|CS|
 T The Challenger's Ring: Hawkmaster Nurong|QID|31220|M|49.01,71.36|N|To Ling of the Six Pools.|
 
 A The Challenger's Ring: Lao-Chin the Iron Belly|QID|31128|PRE|31113|M|49.5,70.5|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Master Snowdrift.|
@@ -242,7 +247,7 @@ C The Challenger's Ring: Yalia Sagewhisper|QID|31104|M|48.86,70.02;50.35,67.74|C
 T The Challenger's Ring: Yalia Sagewhisper|QID|31104|M|49.02,70.45|N|To Ban Bearheart.|
 
 A The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|PRE|31197|M|49.01,71.36|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Ling of the Six Pools.|
-C The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|50.4,67.85;50.62,68.5|CS|N|
+C The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|50.4,67.85;50.62,68.5|CS|
 T The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|49.01,71.36|N|To Ling of the Six Pools.|
 
 ;Sha of Anger
