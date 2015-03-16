@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2015-03-16 10:27
+-- Who: Emmaleah
+-- Log: fix K Xanatos so it autocompletes
+
+-- URL: http://wow-pro.com/node/3598/revisions/27179/view
+-- Date: 2015-03-16 09:14
+-- Who: Emmaleah
+-- Log: remove dup QID tag in K Kil'uun
+
+-- URL: http://wow-pro.com/node/3598/revisions/27178/view
 -- Date: 2015-03-10 19:54
 -- Who: Emmaleah
 -- Log: All items added. I haven't finished the play through, to make sure they flow right, so I may have more changes tomorrow.
@@ -144,7 +154,7 @@ A Logistical Nightmare|QID|34766|M|71.19,29.42|N|From Provisioner Naya.|RANK|2|
 A Wanted: Kil'uun|QID|34108|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
 A Wanted: Hilaani|QID|34107|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
 A Wanted: Ra'tok the Hammer|QID|34106|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
-K Kil'uun|QID|34108|QID|34108|M|67.18,28.74|L|112380|S|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
+K Kil'uun|QID|34108|M|67.18,28.74|L|112380|S|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
 C Logistical Nightmare|QID|34766|M|68.06,31.38|RANK|2|
 K Kil'uun|QID|34108|M|67.18,28.74|L|112380|US|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
 
@@ -415,8 +425,8 @@ C Antivenin|QID|33971|S|M|58.05,83.34|N|These drop from the spiders in Deathweb 
 K Taladorantula|QID|34171|M|59,87.4|L|116126|T|Taladorantula|ITEM|116126|N|Killing the little white spiderlings (AE or stomping on them) will cause a giant spider to spawn. You will see 5 "warning" texts and then she spawns.|RANK|2|
 l Webbed Sac|QID|34255|M|65.5,88.6|L|116129|N|After you get into the big room of the cave, you will see a ramp on your right, up that is a rare named and some treasure.|ITEM|116129|RANK|2|
 K Klikixx|QID|34498|L|116125|M|66.8,85.4|T|Klikixx|N|A bit further along the ledge you will find Klikixx. After you kill her, you can jump down and finish the other objectives in the cave.|ITEM|116125|RANK|2|
-K Xanatos|QID|33970|L|110683|M|65.77,86.88|N|The Sha'tari crytstal is right behind Xanatos.|RANK|2|T|Xanatos the Defiler|
-l Curious Death Web Egg|QID|34239|M|66.6,86.9|N|Loot for a bit of treasure|ITEM|117569|RANK|2|
+K Xanatos|QID|33970|QO|1|M|65.77,86.88|T|Xanatos the Defiler|
+l Sha'tari crystal|QID|33970|QO|2|M|65.77,86.88|N|The Sha'tari crytstal is right behind Xanatos.|RANK|2|l Curious Death Web Egg|QID|34239|M|66.6,86.9|N|Loot for a bit of treasure|ITEM|117569|RANK|2|
 l Rusted Lockbox|QID|34276|M|66,85.1|N|Its down at the bottom of the pond, its a long way down but you have time and won't drown.  Contains a random green item and garrison resources.|RANK|2|
 C Antivenin|QID|33971|US|M|58.05,83.34|RANK|2|
 C Vile Defilers|QID|33972|M|57.43,85.36|US|RANK|2|
