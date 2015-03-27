@@ -126,6 +126,22 @@ function WoWPro.AutoCompleteLoot()
 	end
 end
 
+-- Save Garrison Building Locations for the BUILDING tag
+function WoWPro.SaveGarrisonBuildings()
+    local mapID = GetCurrentMapAreaID()
+    if (mapID == WoWPro.Zone2MapID['Lunarfall'].mapID) or (mapID == WoWPro.Zone2MapID['Frostwall'].mapID) then
+        WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
+        -- We just moved into the zone
+        local numPOIs = GetNumMapLandmarks();
+        for i=2, numPOIs do
+            local name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = GetMapLandmarkInfo(i);
+            WoWProCharDB.BuildingLocations[name] = {x=(100*x), y=(100*y)}
+            WoWPro.dbp("Building %s @ %g,%g", name, 100*x, 100*y)
+        end
+    end
+end
+
+
 -- Auto-Complete: Quest Update --
 function WoWPro:AutoCompleteQuestUpdate(questComplete)
 	local GID = WoWProDB.char.currentguide
@@ -419,6 +435,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" or event == "PLAYER_ENTERING_WORLD" then
 	    -- Check to see if the current zone is mapped properly.
 	    WoWPro.CheckAstrolabeData()
+	    WoWPro.SaveGarrisonBuildings()
 	end
 
 	if WoWPro.InitLockdown and event == "QUEST_LOG_UPDATE" then
