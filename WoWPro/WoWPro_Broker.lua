@@ -820,9 +820,15 @@ function WoWPro.NextStep(k,i)
                 for i = 1, #buildings do
                     local building = buildings[i];
                     if idHash[building.buildingID] then
+                        local id, name, texPrefix, icon, rank, isBuilding, timeStart, buildTime, canActivate, canUpgrade, isPrebuilt = C_Garrison.GetOwnedBuildingInfoAbbrev(building.plotID);
                         owned = true
-                        WoWPro.why[k] = "NextStep(): Building owned."
+                        WoWPro.why[k] = "NextStep(): " .. name .." owned."
                         WoWPro:dbp("Building %d is owned",building.buildingID)
+                        if not WoWPro.map[k] then
+                            if WoWProCharDB.BuildingLocations[name] then
+                                WoWPro.map[k] = string.format("%2.2f,%2.2f",WoWProCharDB.BuildingLocations[name].x, WoWProCharDB.BuildingLocations[name].y)
+                            end
+                        end
                     end
                 end
                 -- skip if no buildings owned.
