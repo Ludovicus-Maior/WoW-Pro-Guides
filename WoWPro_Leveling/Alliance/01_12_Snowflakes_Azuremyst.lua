@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2015-03-27 21:18
+-- Who: Aldavor
+-- Log: Cleaned up, added some missing map coords, reviewed ordering of a couple of quests.
+
+-- URL: http://wow-pro.com/node/3206/revisions/27182/view
 -- Date: 2015-03-23 22:27
 -- Who: Aldavor
 -- Log: Updated second part of the guide (from Ammen Vale). Removed redundant class trainer messages, changed ordering of initial quests slightly to add in "The Prophecy of Velen" Draenei quest. Cleaned up, added map coords, added note for Hero's Call quest being an option.
@@ -182,13 +187,16 @@ T Replenishing the Healing Crystals|QID|9280|M|52.8,35.9|N|To Proenitus.|R|Draen
 T Replenishing the Healing Crystals|QID|9369|M|52.8,35.9|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
 A Urgent Delivery!|QID|9409|M|52.8,35.9|N|From Proenitus.|
 T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building (he wanders around inside the place a bit).|M|51.8,42.0|
+
+A Rescue the Survivors!|QID|9283|M|51.8,42.0|N|From Zaldunn.|R|Draenei|
+A Learning the Word|QID|26970|M|51.8,42.0|C|Priest|N|From Zalduun.|
+
 A Volatile Mutations|QID|10302|M|49.9,37.3|N|From Botanist Taerix, back outside.|
 C Volatile Mutations|QID|10302|M|50.2,37.0|N|Kill Volatile Mutations.|
 T Volatile Mutations|QID|10302|M|49.9,37.3|N|To Botanist Taerix.|
 
 A What Must Be Done...|QID|9293|M|49.9,37.3|N|From Botanist Taerix.|
 A Botanical Legwork|QID|9799|M|49.7,37.4|N|From Apprentic Vishael.|
-A Rescue the Survivors!|QID|9283|M|51.8,42.0|N|From Zaldunn.|R|Draenei|
 A Spare Parts|QID|37445|M|50.5,47.9|N|From Technician Zhanaa.|
 A Inoculation|QID|37444|M|50.6,48.7|N|From Vindicator Aldar.|
 r Sell junk and repair (right click to close)|QID|9293|N|At Mura.|M|50.0,47.2|
@@ -220,7 +228,6 @@ T Steadying Your Shot|QID|10070|M|51.5,44.4|C|Hunter|N|To Keilnei.|
 A The Light's Power|QID|26966|M|51.3,40.9|C|Paladin|N|From Aurelon.|
 C The Light's Power|QID|26966|M|51.3,40.9|C|Paladin|N|Learn Seal of Righteousness and Judgement from Aurelon. Apply Seal of Righteousness, find a Training Dummy on the northwest side of the Crash Site and use Judgement. |
 T The Light's Power|QID|26966|M|51.3,40.9|C|Paladin|N|To Aurelon|
-A Learning the Word|QID|26970|M|51.8,42.0|C|Priest|N|From Zalduun.|
 C Learning the Word|QID|26970|M|51.8,42.0|C|Priest|N|Learn Shadow Word:Pain from Zalduun.  Find a Training Dummy on the northwest side of the Crash Site and use Shadow Word. |
 T Learning the Word|QID|26970|M|51.8,42.0|C|Priest|N|To Zalduun.|
 
@@ -254,8 +261,9 @@ T The Emitter|QID|9312|M|50.6,48.7|N|To Technician Zhanaa.|
 A Travel to Azure Watch|QID|9313|M|50.5,47.9|N|From Technician Zhanaa.|
 r Sell junk and repair|QID|9452|N|At Mura (close when done).|M|50.0,47.2|
 
-A Word from Azure Watch |QID|9314|M|69,54;64.5,54.0|CC|N|From Aeun.|
+A Word from Azure Watch |QID|9314|M|69,54;64.5,54.0|CC|N|Run for a fairly long way almost directly west, heading out of Ammen Vale; get this from Aeun.|
 A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|From Diktynna.|
+N Fishing Training|O|QID|9452|N|You could take this opportunity to learn fishing if you so desire... click to close.|M|61.1,54.2|
 C Red Snapper - Very Tasty!|N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore. Sometimes, an Angry Murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.|QID|9452|U|23654|M|62.31,55.11|
 T Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|To Diktynna.|
 A Find Acteon!|QID|9453|M|61.1,54.2|N|From Diktynna.|
@@ -269,16 +277,16 @@ A Beds, Bandages, and Beyond|QID|9603|N|From Caregive Chellan.|R|Draenei|
 h Azure Watch|QID|9454|N|Set your hearth to Azure Watch with Caregive Chellan.|
 A Medicinal Purpose|QID|9454|M|48.4,51.8|N|From Anchorite Fateema.|R|Draenei|
 
-N Professions |QID|9454|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
-N Note!|QID|9454|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
+N Professions|O|QID|9454|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
+N Note!|O|QID|9454|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
 
-C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|L|23676 6|
-C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|S|R|Draenei|L|23685 8|
+C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|L|23676 6|M|51,55|
+C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|US|R|Draenei|L|23685 8|M|51,55|
 T Medicinal Purpose|QID|9463|M|48.4,51.8|N|To Anchorite Fateema.|R|Draenei|
 A An Alternative Alternative|QID|9473|M|48.4,51.8|N|From Daedal.|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|To Acteon.|
 A The Great Moongraze Hunt|QID|10324|M|49.8,51.9|N|From Acteon.|
-C An Alternative Alternative|QID|9473|S|N|Look for Azure Snapdragon Bulbs.|R|Draenei|L|23692 5|
+C An Alternative Alternative|QID|9473|US|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|L|23692 5|M|48.5,55.1|
 T An Alternative Alternative|QID|9473|M|48.4,51.8|N|To Daedal.|R|Draenei|
 A The Prophecy of Velen|QID|9505|M|48.4,51.8|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
 
@@ -298,19 +306,19 @@ T The Prophecy of Velen|QID|9505|M|47.0,70.2|N|To Admiral Odesyus.|R|Draenei|
 A A Small Start|QID|9506|M|47.0,70.2|N|From Admiral Odesyus.|
 A Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|From "Cookie" McWeaksauce.|
 C Cookie's Jumbo Gumbo|QID|9512|S|N|Kill crawlers for Skittering Crawler Meat.|
-C A Small Start|QID|9506|M|58.61,66.38|QO|Loot the Nautical Map 1/1|N|Find and right click the map.|
-C A Small Start|QID|9506|M|59.55,67.66|QO|Loot the Nautical Compass 1/1|N|Now right click the compass.|
-C Cookie's Jumbo Gumbo|QID|9512|US|N|Follow the shore east to while killing crawlers for Skittering Crawler Meat.|M|58,67|
+C A Small Start|QID|9506|M|58.61,66.38|N|Find and right click the Nautical Map.|QO|2|
+C A Small Start|QID|9506|M|59.55,67.66|N|Now find and right click the Nautical Compass.|QO|1|
+C Cookie's Jumbo Gumbo|QID|9512|US|N|Follow the shore back eastwards while killing crawlers for Skittering Crawler Meat.|M|58,67|
 T A Small Start|QID|9506|N|To Admiral Odesyus.|M|47.0,70.2|
 A I've Got a Plant|QID|9530|M|47.0,70.2|N|From Admiral Odesyus.|
 A Reclaiming the Ruins|QID|9513|M|47.0,70.2|N|From Priestess Kyleen Il'dinare.|
 A Precious and Fragile Things Need Special Handling|QID|9523|M|47.2,70.0|N|From Archaeologist Adamant Ironheart.|
 T Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|To "Cookie" McWeaksauce.|
 
-r Sell junk and repair|QID|9530|N|At Blacksmith Calypso|M|46.4,71.1|
+r Sell junk and repair (click to close)|QID|9530|N|At Blacksmith Calypso|M|46.4,71.1|
 
-C I've Got a Plant|QID|9530|S|N|Look for piles of leaves and tree trunks.|
-C Reclaiming the Ruins|QID|9513|N|Kill any Naga you need for this quest. When the rune covered tablet drops, accept the quest.|S|
+C I've Got a Plant|QID|9530|S|N|North of Odesyus' Landing, look for glowing piles of leaves and tree trunks.|
+C Reclaiming the Ruins|QID|9513|N|To the west of the landing, kill any Naga you need for this quest. When the rune covered tablet drops, accept the quest.|S|
 C Precious and Fragile Things Need Special Handling|QID|9523|N|Go to the Wrathscale Point and collect Ancient Relics.|M|35,75|S|
 A Rune Covered Tablet|QID|9514|N|The tablet should have dropped off the naga while you're killing them.|U|23759|M|36.1,77.0|
 C Reclaiming the Ruins|QID|9513|N|Kill any Naga you still need for this quest.|US|
@@ -326,8 +334,7 @@ R Azure Watch|QID|9538|M|48,53|N|Run to Azure Watch.|
 A The Missing Fisherman|QID|10428|M|49.0,51.1|N|From Dulvi.|
 
 C The Great Moongraze Hunt|QID|10324|S|N|Kill and loot the needed Moongraze Stags for the Hides.|M|48.52,55.63|
-C Faintly Glowing Crystal.|QID|9455|L|23678|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal.|M|48.26,41.43|
-A Strange Findings|N|Start this off the Faintly Glowing Crystal.|QID|9455|U|23678|M|48.26,41.43|
+A Strange Findings|QID|9455|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|M|48.26,41.43|
 C The Great Moongraze Hunt|QID|10324|US|N|Kill and loot the needed Moongraze Stags for the Hides.|M|48.52,55.63|
 T The Great Moongraze Hunt|QID|10324|M|49.8,51.9|N|To Acteon.|
 T Strange Findings|QID|9455|M|47.1,50.6|N|To Exarch Menelaous.|
@@ -354,7 +361,7 @@ C Warlord Sriss'tiz|QID|9515|N|Head to a cave in Wrathscale Point. Drop down the
 
 C Tree's Company|N|Fight your way out of the cavern then go far southwest to a Naga Flag. Use your Tree Disguise Kit and wait for the complete message.|QID|9531|U|23792|M|18.48,84.33|
 A A Cry For Help|N|On the northern side of the island, behind a fallen tree. From Magwin.|QID|9528|M|13.61,73.26|
-C A Cry For Help|N|Escort Magwin across the island, defending her from the owlkin. You'll end up at the next quest NPC we need.|QID|9528|M|16.6,94.5|
+C A Cry For Help|N|Escort Magwin across the island, defending her from the owlkin (she's VERY slow). You'll end up at the next quest NPC we need.|QID|9528|M|16.6,94.5|
 T A Cry For Help|QID|9528|M|16.6,94.5|N|To Cowlen.|
 T The Missing Fisherman|QID|10428|M|16.6,94.5|N|To Cowlen.|
 A All That Remains|QID|9527|M|16.6,94.5|N|From Cowlen.|
@@ -365,11 +372,11 @@ H Azure Watch|QID|9544|U|6948|N|Hearth back to Azure Watch.|
 T The Prophecy of Akida|QID|9544|M|49.4,51.0|N|To Arugoo of the Stillpine.|
 A Stillpine Hold|QID|9559|M|49.4,51.0|N|From Arugoo of the Stillpine.|
 T Nightstalker Clean Up, Isle 2...|QID|9456|M|47.1,50.6|N|To Exarch Menelaous.|
-R Odesyus' Landing|QID|9515|N|Head to Odesyus' Landing.|M|46.11,72.16|
+R Odesyus' Landing|QID|9515|N|Head to Odesyus' Landing... again...|M|46.11,72.16|
 T Warlord Sriss'tiz|QID|9515|M|47.0,70.2|N|To Priestess Kyleen Il'dinare.|
 T Tree's Company|QID|9531|M|47.0,70.2|N|To Admiral Odesyus.|
 A Show Gnomercy|QID|9537|M|47.0,70.2|N|From Admiral Odesyus.|
-C Show Gnomercy|QID|9537|T|Engineer "Spark" Overgrind|N|Search the beach for Engineer "Spark" Overgrind, talk to him and kill him.|M|48.28,72.22|
+C Show Gnomercy|QID|9537|T|Engineer "Spark" Overgrind|N|Search the beach for Engineer "Spark" Overgrind, talk to him, then kill and loot him.|M|48.28,72.22|
 T Show Gnomercy|QID|9537|M|47.0,70.2|N|To Admiral Odesyus.|
 A Deliver Them From Evil...|QID|9602|M|47.0,70.2|N|From Admiral Odesyus.|
 H Azure Watch|QID|9602|N|Or run if your Hearthstone is on cooldown.|U|6948|
@@ -396,21 +403,21 @@ T The Kurken is Lurkin'|QID|9570|M|47.0,22.3|N|To Kurz the Revelator.|
 A The Kurken's Hide|QID|9571|M|47.0,22.3|N|From Kurz the Revelator.|
 A Warn Your People|QID|9622|N|From High Chief Stillpine.|M|46.7,20.6|
 T The Kurken's Hide|QID|9571|M|44.8,23.9|N|To Moordo.|
+
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|M|35,13|S|
-C Murgurgula|QID|9564|N|Look for the boss murloc named Murgurgula. Kill it and loot Gurf's Dignity from him.|CC|M|35,13;33.45,27.04|QO|Murgugula slain: 1/1|L|23850|
-A Gurf's Dignity|QID|9564|U|23850|M|33.8,25.7|N|From Gurf's Dignity.|
+A Gurf's Dignity|CN|QID|9564|N|Look for the boss murloc named Murgurgula. Kill it, loot Gurf's Dignity from him and accept its quest|M|35,13;33.45,27.04|QO|Murgugula slain: 1/1|L|23850|
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|M|35,13|US|
 T Murlocs... Why Here? Why Now?|QID|9562|N|To Gurf.|M|44.7,23.6|
 T Gurf's Dignity|QID|9564|M|44.7,23.6|N|To Gurf.|
-T Warn Your People|QID|9622|M|47.13,50.61|N|To Exarch Menelaous.|
+
+T Warn Your People|QID|9622|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|U|6948|
 T Bandits!|QID|9616|M|47.13,50.61|N|To Exarch Menelaous.|O|
 r Sell junk and repair|QID|9623|N|At Kioni.|M|49.69,52.75|
 F The Exodar|QID|9623|N|Fly to The Exodar. I would suggest visiting the AH and bank while you are there.|M|49.7,49.12|
 A Hero's Call: Bloodmyst Isle!|QID|28559|M|55.31,47.34|Z|The Exodar|N|Picked up from the Hero's Call Board. Will not be there if your level is too high.\n\nNOTE: If you take this, another quest "Elekks Are Serious Business" will NOT be available. The other one is better XP and reward, so I suggest you skip this one.|
 T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Head up and outside. Then turn this quest into Torallius the Pack Handler.|
 A Elekks Are Serious Business|QID|9625|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
-R Kessel's Crossing|QID|9625|Z|Bloodmyst Isle|N|Go north to Kessel's Crossing on Bloodmyst Isle.|M|63.50,88.14|
+R Kessel's Crossing|QID|9625|Z|Bloodmyst Isle|N|Go north to Kessel's Crossing on Bloodmyst Isle (it's a long run - just follow the path).|M|63.50,88.14|
 T Elekks Are Serious Business|QID|9625|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
-N Level 12|QID|9625|N|You should be level 12. Tick this step off and go to the next Guide.|
 ]]
 end)
