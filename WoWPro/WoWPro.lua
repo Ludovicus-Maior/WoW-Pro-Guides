@@ -579,7 +579,9 @@ function WoWPro:GuidePetBattle(guide)
     guide['PetBattle'] = true
 end
 
-
+function WoWPro:GuideName(guide, name)
+    guide['name']=name
+end
 
 function WoWPro:GuideNextGuide(guide,nextGID)
     guide['nextGID'] = nextGID
