@@ -1198,7 +1198,7 @@ function WoWPro:CompleteAtEnd()
 end
 
 
-function WoWPro:OrderSteps()
+function WoWPro.OrderSteps(update)
     -- Put the stuff we did or dont want at the end
     local limit = WoWPro:CompleteAtEnd()
     WoWPro:Print("Limit at %d instead of %d",limit,WoWPro.stepcount)
@@ -1222,7 +1222,9 @@ function WoWPro:OrderSteps()
             WoWPro.why[anchor+1] = string.format("selected step as the next closest at a distance of %g",d)
         end
     end
-    WoWPro:UpdateGuide("WoWPro.OrderSteps")
+    if update then
+        WoWPro:UpdateGuide("WoWPro.OrderSteps")
+    end
 end
 
 
