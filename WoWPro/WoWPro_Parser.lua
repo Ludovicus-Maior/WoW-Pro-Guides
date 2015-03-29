@@ -547,6 +547,11 @@ function WoWPro.SetupGuideReal()
     
 	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
+	-- Do we need to do AutoProximitySort'
+	if WoWPro.Guides[GID].AutoProximitySort then
+	    WoWPro.OrderSteps(false)    
+	end
+	
 	-- Checking to see if any steps are already complete --
 	for i=1, WoWPro.stepcount do
 		local action = WoWPro.action[i]
