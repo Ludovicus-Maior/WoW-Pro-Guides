@@ -11,7 +11,8 @@ WoWPro_Achievements.lua
 
 Exploration\Guides.xml
 General\Guides.xml
-Garrison\Guides.xml
+Garrison_Alliance\Guides.xml
+Garrison_Horde\Guides.xml
 Quests\Guides.xml
 
 WoWPro_Achievements_Parser.lua

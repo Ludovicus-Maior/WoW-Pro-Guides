@@ -199,6 +199,30 @@ C Place a work order|QID|36345|QO|2|M|51.71,58.32|Z|Frostwall|N|At Farmer Lok'lu
 T Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|To Farmer Lok'lub|
 
 
+;; Garrison Level Quesrs
+
+A Things Are Not Goren Our Way |QID|34192|N|From Timothy Leens|M|65.46,41.79|Z|Lunarfall|PRE|36592|BUILDING|townhall;2|
+C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|S|QO|1|
+C Things Are Not Goren Our Way |QID|34192|N|Head to the back of the mine and kill Stonetooth.|M|58.81,78.85|Z|Lunarfall Excavation@Lunarfall|T|Stonetooth|QO|2|
+C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|US|QO|1|
+T Things Are Not Goren Our Way |QID|34192|N|To Timothy Leens|M|65.46,41.79|Z|Lunarfall|
+
+A Looking For Help |QID|34194|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton|PRE|36592|BUILDING|townhall;2|LVL|94|
+C Looking For Help |QID|34194|M|26.96, 7.29|CHAT|N|Ask for help from Maidari at Eventide Landing.  Fastest way to get there is to jump carefully down the back of your garrison.|
+T Looking For Help |QID|34194|M|26.96, 7.29|N|To Madari.|
+A Moonshell Claws |QID|36199|M|26.96, 7.29|N|From Madari.|PRE|34194|
+C Claws |QID|36199|M|30.20, 10.68|QO|1|N|On the other side of the ship.|
+T Moonshell Claws |QID|36199|M|26.96, 7.29|N|To Madari.|
+A Proving Your Worth |QID|36201|M|26.96, 7.29|N|From Madari.|PRE|36199|
+C Shadow Sturgeons |QID|36201|M|27.59, 6.90|QO|1|N|Be sure to equip your best fishing pole and use the bait.|U|114874|
+T Proving Your Worth |QID|36201|M|26.96, 7.29|N|From Madari.|
+A Anglin' In Our Garrison |QID|36202|M|26.96, 7.29|N|From Madari.|PRE|36201|
+T Anglin' In Our Garrison |QID|36202|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton|
+
+A Clearing the Garden |QID|36404|M|58.89, 53.45|N|From Naron Bloomthistle|Z|Lunarfall|PRE|36592|BUILDING|townhall;2|LVL|96|
+C Kill the Raccoons|QID|36404|M|57.6,59.6|Z|Lunarfall|QO|1|
+T Clearing the Garden |QID|36404|M|58.89, 53.45|Z|Lunarfall|N|To Naron Bloomthistle|
+
 ]]
 
 end)

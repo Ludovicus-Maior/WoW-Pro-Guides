@@ -9,10 +9,11 @@
 -- Log: Init
 
 local guide = WoWPro:RegisterGuide('LudoGarrCampaign', 'Achievements', 'Lunarfall', 'Ludovicus', 'Neutral')
-WoWPro:GuideLevels(guide,90, 100, 98.7)
+WoWPro:GuideLevels(guide,100, 101, 100.5)
 WoWPro:GuideIcon(guide,"ACH",9491)
+WoWPro:GuideName(guide,"Garrison Campaign")
 WoWPro:GuideNextGuide(guide, nil)
--- WoWPro:GuideTriggered(guide)
+WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
