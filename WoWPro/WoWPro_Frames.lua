@@ -782,6 +782,7 @@ function WoWPro:CreateDropdownMenu()
 			end
 			WoWPro:LoadGuide()
 		end},
+		{text = "Proxymity Sort", func = function() WoWPro.OrderSteps(true); end }
 	}
 end
 
