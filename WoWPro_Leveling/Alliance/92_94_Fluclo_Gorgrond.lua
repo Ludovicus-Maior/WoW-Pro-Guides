@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2015-03-29 22:57
+-- Who: Ludovicus
+-- Log: Added N for [A Heavy Helping Hand]
+
+-- URL: http://wow-pro.com/node/3613/revisions/27151/view
 -- Date: 2015-02-25 21:25
 -- Who: Aldavor
 -- Log: Replaced Shredder vs Saberon section, added Beatface vs Boulder quest and some PRE additions to allow for both types of outpost buildings.
@@ -218,6 +223,7 @@ T The Life Spring|QID|35209|N|To Yrel|M|46.04,76.67|
 T Bushwhacker |QID|35206|N|To Yrel|M|46.04,76.67|
 T Pollen Power |QID|35204|N|To Rangari Kaalya|M|46.12,76.66|
 
+N A Heavy Helping Hand |QID|35225|N|If this quest does not show up in the guide, just /reload and it should magically appear.|ACTIVE|-35225|
 A A Heavy Helping Hand |QID|35225|N|From Thaelin Darkanvi.|M|46.08,76.86|PRE|35209;35206;35204|
 C A Heavy Helping Hand |QID|35225|N|Follow the road then the dirt track south to Bastion Rise|M|47.58,94.10|NC|
 T A Heavy Helping Hand |QID|35225|N|To Hansel Heavyhands|M|47.58,94.10|
