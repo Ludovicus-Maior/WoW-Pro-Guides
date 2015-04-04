@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2015-03-29 21:14
+-- Who: Aldavor
+-- Log: Slight amendment to incirrect entry.
+
+-- URL: http://wow-pro.com/node/3486/revisions/27185/view
 -- Date: 2015-03-29 20:58
 -- Who: Aldavor
 -- Log: Added QIDs where necessary, RANK'd some elements, fair bit of cleaning up, changed QOs to numeric sequences instead of text to allow auto-close.
@@ -781,9 +786,7 @@ T Jaded Heart|QID|30502|M|49.32,61.50|N|To Lorewalker Cho.|
 T Emergency Response|QID|31319|M|49.32,61.50|N|To Lorewalker Cho.|
 A Moving On|QID|30648|M|49.31,61.35|N|From Fei.|
 C Moving On|QID|30648|M|49.31,61.35|N|Talk to Fei.|
-
-; [aldavor] this is wrong, as it auto-completes once the ride is over - check though.
-;T Moving On|QID|30648|N|To UI Alert (after the ride into the Valley).|
+T Moving On|QID|30648|N|To UI Alert (after the ride into the Valley).|
 
 N Congratulations,|N|You finished The Jade Forest. Next zone is Valley of the Four Winds, the guide should load when you check off this step.|
 ]]
