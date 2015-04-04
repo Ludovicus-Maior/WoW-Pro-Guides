@@ -71,6 +71,12 @@ function WoWPro:AllIDsInTable(IDs,tabla)
     return QidMapReduce(IDs,false,"&",";",function (qid) return tabla[qid] end)
 end
 
+-- Wipe out all the QIDs in the table.
+function WoWPro:WipeQIDsInTable(IDs,tabla)
+    return QidMapReduce(IDs,false,"&",";",function (qid) tabla[qid] = nil; return true; end)
+end
+
+
 WoWPro.PetsOwned = nil
 
 -- Lazy check for existence of pets
@@ -801,6 +807,12 @@ function WoWPro.NextStep(k,i)
                 if ids ~= level then
                     skip = true
                     WoWPro.why[k] = "NextStep(): TownHall not right level"
+                end
+            elseif  Name == "townhallonly" then
+    		    local buildings = C_Garrison.GetBuildings();
+                if #buildings > 0 then
+        		    WoWPro.why[k] = "NextStep(): Buildings owned already."
+                    skip = true
                 end
             else
                 local idHash = {}
