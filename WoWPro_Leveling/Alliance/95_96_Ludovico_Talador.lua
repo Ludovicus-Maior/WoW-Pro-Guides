@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-04-05 19:27
+-- Who: Aldavor
+-- Log: Some -major- modifications and flow changes. I've left my comments in the source in case there are any issues.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27172/view
 -- Date: 2015-03-09 19:24
 -- Who: Ludovicus
 -- Log: Added missing note.
@@ -124,7 +129,6 @@ WoWPro:GuideLevels(guide,95, 96, 95.3)
 WoWPro:GuideNextGuide(guide, 'EmmSoArak')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 L Level 94 |QID|34566|LVL|94|N|This guide requires a minimum level of 94 to do.|
 
 T News from Talador |QID|36495|N|To Bodrick Grey, in your Garrison.|M|38.33,36.74|Z|Lunarfall|O|
@@ -158,20 +162,52 @@ T In Ared's Memory|QID|35045|M|70.15,20.11|N|To Miall|
 A Out of Jovite|QID|34571|M|70.15,20.11|N|From Miall|PRE|35045|
 A Iridium Recovery|QID|34573|M|70.15,20.11|N|From Miall|PRE|35045|
 A Gas Guzzlers|QID|34624|M|70.15,20.11|N|From Miall|PRE|35045|
-R Kuuro's Claim|QID|34573|M|71.06,23.05;71.29,24.03;72.57,24.44;73.62,23.90|CS|N|Take back door to the road to the mine.|
+
+; [aldavor] this one is shared between structure types, for bonus objective and loot find.
+R Kuuro's Claim|QID|34573;34263|M|71.06,23.05;71.29,24.03;72.57,24.44;73.62,23.90|CS|N|Take back door to the road to the mine. Once you get there, you can do the bonus objective.|
 C Iridium Recovery|QID|34573|M|75.4,22|S|N|Kill and loot the Iridium Geode.|
+
+; [aldavor] back to arsenal
 C Out of Jovite|QID|34571|M|75.4,22|NC|S|N|These are green crystals sticking out the ground and walls.|
 C Gas Guzzlers|QID|34624|M|75.4,22|N|Kill the Glowgullets, then use your 'Goren Gas Extractor' on them.|S|U|111910|
+
+; [aldavor] lootable object - for everyone
 l Pure Crystal Dust|QID|34263|M|78.21,14.72|N|Pure Crystal Dust: Lootable object for Garrison Resources and decent XP. At the back of the right hand walkway.|RANK|3|
+
+; [aldavor] arsenal only continued
 C Out of Jovite|QID|34571|M|75.4,22|NC|US|N|These are green crystals sticking out the ground and walls.|
 C Iridium Recovery|QID|34573|M|75.4,22|US|N|Kill and loot the Iridium Geode.|
 C Gas Guzzlers|QID|34624|M|75.4,22|N|Kill the Glowgullets, then use your 'Goren Gas Extractor' on them.|US|U|111910|
 T Iridium Recovery|QID|34573|M|70.15,20.11|N|To Miall|
 T Out of Jovite|QID|34571|N|To Mial.|M|70.90,30.49|
 T Gas Guzzlers|QID|34624|M|70.15,20.11|N|To Miall|
-
 A Going to the Gordunni|QID|34578|M|70.15,20.11|N|From Miall|PRE|34573;34571;34624|
 
+; [aldavor] moved arcane sanctum quests to here.
+; Mage Tower
+T An Audience With The Archmage|QID|34631|M|75.0,31.2|N|To Archmage Khadgar|
+A Making Acquaintances|QID|34815|PRE|34631|M|75.0,31.2|N|From Archmage Khadgar|
+; [aldavor] added this as a step, prior to getting the fp - added that too.
+R Making Acquaintances|QID|34815|M|80.4,25.6|CC|N|Follow Khadgar (he changes into a bird) into Zangarra|ACTIVE|34815|
+f Zangarra|QID|34815|N|To Dominic Arlington|M|80.4,25.4|ACTIVE|34815|
+T Making Acquaintances|QID|34815|M|85.0,31.0|N|Take the portal south-east of flight master, then turn in to Magister Serena|
+
+A Creating the Ink|QID|34609|PRE|34815|M|85.0,31.0|N|From Magister Serena|
+A Forming the Scroll|QID|34612|PRE|34815|M|85.0,31.0|N|From Magister Serena|
+A Gathering the Spark|QID|34619|PRE|34815|M|85.0,31.0|N|From Magister Serena|
+C Forming the Scroll|QID|34612|M|82.2,31.6|N|Slumbering Protector|
+C Creating the Ink|QID|34609|M|84.0,29.8|N|Encroaching Giant|
+C Creating the Ink|QID|34609|M|83.0,31.6|N|Invasive Shambler|
+T Creating the Ink|QID|34609|M|0,0|N|To Magister Serena|
+T Forming the Scroll|QID|34612|M|0,0|N|To Magister Serena|
+T Gathering the Spark|QID|34619|M|0,0|N|To Magister Serena|
+
+A Next Steps|QID|34875|PRE|34609;34612;34619|M|0,0|N|From Magister Serena|
+H Fort Wrynn|QID|34875|N|Hearth back to Fort Wrynn|ACTIVE|34875|
+T Next Steps|QID|34875|M|69.6,21.1|N|To Magister Serena|
+A The Foot of the Fortress|QID|34908|PRE|34875|M|69.6,21.1|N|From Magister Serena|
+
+; [aldavor] we can place the wanted: pickups in here, as well as the pilgrim's road bits and brew quest.
 A Why Is The Brew Gone?|QID|34773|M|69.60,21.60|N|From Quartermaster O'Riley|RANK|2|
 C Why Is The Brew Gone?|QID|34773|M|72.5,22.2|N|Make your way around the lake killing raiders and looting swords and beer.|
 T Why Is The Brew Gone?|QID|34773|M|69.60,21.60|N|To Quartermaster O'Riley|
@@ -183,10 +219,11 @@ T Not In Your House|QID|34804|M|69.60,21.60|N|To Quartermaster O'Riley|
 A Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|From Patrick Messer|RANK|3|
 A Wanted: Hilaani|QID|34104|M|69.43,21.14|N|From Patrick Messer|RANK|3|
 
-R The Pilgrim's Road|QID|34578|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;72.66,38.06;67.30,42.83|CS|N|Its a long ride.  We will break it up a little. Head out the back.|
+; [aldavor] added arcane sanctum qid
+R The Pilgrim's Road|QID|34578;34908|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;72.66,38.06;67.30,42.83|CS|N|Its a long ride.  We will break it up a little. Head out the back.|
 
 A Seek Out the Seer|QID|33871|M|67.50,43.75;70.78,47.38;68.98,45.97|CN|N|From Elumm who walks up and down this road.|
-R Duskfall Island|QID|34578|M|67.56,44.76;66.29,46.85;65.83,47.53|CS|N|Next, Duskfall!|
+R Duskfall Island|QID|34578;34908|M|67.56,44.76;66.29,46.85;65.83,47.53|CS|N|Next, Duskfall!|
 A Clear!|QID|34761|M|62.86,50.32|N|From Torben Zapblast|
 T Seek Out the Seer|QID|33871|M|65.43,50.73|N|To Seer Malune|
 A Dust of the Dead|QID|33872|M|65.43,50.73|N|From Seer Malune.|PRE|33871|
@@ -212,68 +249,14 @@ T A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|To Nadur|
 K Ra'kahn|M|60.1,57.5;59.48,59.59|CS|RANK|3|QID|34196|N|Rare kill; may drop Ra'kahn's Bite (i563 Fist Weapon). Head SW from Nadur, cave entrance is first coord.|
 
 C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress, waaay to the south of fort. Party of 3 suggested.|
-R Gordal Foothills|QID|34578|M|63.41,63.12;62.47,65.40;62.41,67.42|CS|N|Now on to the Gordunni|
 
-; These quests NOT part of having the Arcane Sanctum.
-
-T Going to the Gordunni|QID|34578|M|69.57,67.87|N|To Miall|
-A Dropping Bombs|QID|34976|M|62.57,67.87|N|From Miall|
-C Dropping Bombs|QID|34976|M|63.46,68.99|QO|1|U|112091|N|Base Catapult Destroyed|
-C Dropping Bombs|QID|34976|M|65.51,68.91|QO|2|U|112091|N|Central Catapult Destroyed|
-C Dropping Bombs|QID|34976|M|66.82,68.05|QO|3|U|112091|N|Summit Catapult Destroyed|
-C Dropping Bombs|QID|34976|M|69.05,69.04|QO|4|U|112091|N|Use Grappling Hook|
-T Dropping Bombs|QID|34976|M|69.63,69.84|N|To Miall, near the base of the wall.|
-
-A Punching Through|QID|34979|M|69.63,69.84|N|From Miall, near the base of the wall.|
-A Prized Repossessions|QID|34978|M|69.63,69.84|N|From Miall, near the base of the wall.|
-A Supply Recovery|QID|34977|M|69.63,69.84|N|From Miall, near the base of the wall.|
-C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|S|
-C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|S|
-K Vizier Vorgorsh|QID|34979|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|
-K Vizier Cromaug|QID|34979|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|Up another flight in the building.|
-K Vizier Zulmork|QID|34979|M|67.14,77.04|QO|2|T|Vizier Zulmork|
-C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|
-C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|US|
-t Punching Through|QID|34979|N|To Miall, who is next to you|
-t Prized Repossessions|QID|34978|N|To Miall, who is next to you|
-t Supply Recovery|QID|34977|N|To Miall, who is next to you|
-
-A The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|PRE|34979;34978;34977|
-K Witch Lord Morkurk|QID|34980|M|64.0,81.8|QO|1|T|Witch Lord Morkurk|U|112307|
-T The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|
-A The Only Way to Travel|QID|34981|N|To Miall, who is next to you|
-T The Only Way to Travel|QID|34981|M|69.78,20.74|N|To Miall|
-A Armor Up|QID|34982|M|69.8,20.8|N|From Miall|RANK|2|
-T Armor Up|QID|34982|M|69.8,20.8|N|To Miall|
-
-; Above Block for other comment to here are NOT part of Arcane Sanctum.
-
-C Wanted: Kil'uun|QID|34103|M|66.20,34.40;72.90,31.40;72.95,25.95;67.05,36.35;73.20,28.30;72.75,34.15;66.25,31.77;68.88,27.29;71.28,24.52;69.80,37.25|CN|N|Kil'uun, Circles clockwise south of Fort Wrynn around Voljin's Pride. Party of 3 suggested.|
-T Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|To Patrick Messer|
-
-; Mage Tower
-; A An Audience With The Archmage|QID|34631|M|69.9,20.8|N|From Foreman Eksos|
-T An Audience With The Archmage|QID|34631|M|75.0,31.2|N|To Archmage Khadgar|
-A Making Acquaintances|QID|34815|PRE|34631|M|75.0,31.2|N|From Archmage Khadgar|
-T Making Acquaintances|QID|34815|M|85.0,31.0|N|To Magister Serena|
-
-A Creating the Ink|QID|34609|PRE|34815|M|85.0,31.0|N|From Magister Serena|
-A Forming the Scroll|QID|34612|PRE|34815|M|85.0,31.0|N|From Magister Serena|
-A Gathering the Spark|QID|34619|PRE|34815|M|85.0,31.0|N|From Magister Serena|
-C Forming the Scroll|QID|34612|M|82.2,31.6|N|Slumbering Protector|
-C Creating the Ink|QID|34609|M|84.0,29.8|N|Encroaching Giant|
-C Creating the Ink|QID|34609|M|83.0,31.6|N|Invasive Shambler|
-T Creating the Ink|QID|34609|M|0,0|N|To Magister Serena|
-T Forming the Scroll|QID|34612|M|0,0|N|To Magister Serena|
-T Gathering the Spark|QID|34619|M|0,0|N|To Magister Serena|
-
-A Next Steps|QID|34875|PRE|34609;34612;34619|M|0,0|N|From Magister Serena|
-T Next Steps|QID|34875|M|69.6,21.1|N|To Magister Serena|
-A The Foot of the Fortress|QID|34908|PRE|34875|M|69.6,21.1|N|From Magister Serena|
+; [aldavor] Use PREs with these arcane tower ones.
 T The Foot of the Fortress|QID|34908|M|62.0,69.3|N|To Magister Serena|
 A Dropping In|QID|34913|PRE|34908|M|62.0,69.3|N|From Magister Serena|
+; [aldavor] these need to be stepped through...
 T Dropping In|QID|34913|M|69.9,69.5|N|To Magister Serena|
 
+; [aldavor] these need to be stepped through...
 A While We're in the Neighborhood|QID|34909|PRE|34913|M|69.9,69.5|N|From Magister Serena|
 A Vicious Viziers|QID|34888|PRE|34913|M|69.9,69.5|N|From Magister Serena|
 A Orbs of Power|QID|34889|PRE|34913|M|69.9,69.5|N|From Magister Serena|
@@ -283,16 +266,61 @@ T Orbs of Power|QID|34889|M|0,0|N|To Magister Serena|
 
 A The Final Step|QID|34912|PRE|34909;34888;34889|M|0,0|N|From Magister Serena|
 C The Final Step|QID|34912|M|64.0,81.8|N|Witch Lord Morkurk|
+; [aldavor] steal the nexus (need M coords)
 C The Final Step|QID|34912|M|64.3,81.8|N|Arcane Nexus|
+; [aldavor] she's right there next to you.
 T The Final Step|QID|34912|M|0,0|N|To Magister Serena|
 A Due Cause to Celebrate|QID|34711|PRE|34912|M|0,0|N|From Magister Serena|
+; [aldavor] note to say that she'll teleport you to the outpost. Turn in at fort wrynn.
 T Due Cause to Celebrate|QID|34711|M|69.7,20.8|N|To Magister Serena|
+; [aldavor] this is to add her as a follower.
 A Joining the Ranks|QID|34993|PRE|34711|M|69.7,20.8|N|From Magister Serena|RANK|2|
 T Joining the Ranks|QID|34993|M|69.7,20.8|N|To Magister Serena|
 
+; These quests NOT part of having the Arcane Sanctum.
+; (Use PREs???)
+R Gordal Foothills|QID|34578|PRE|34624|M|63.41,63.12;62.47,65.40;62.41,67.42|CS|N|Now on to the Gordunni|
+
+T Going to the Gordunni|QID|34578|PRE|34624|M|69.57,67.87|N|To Miall|
+A Dropping Bombs|QID|34976|M|62.57,67.87|N|From Miall|PRE|34578|
+C Dropping Bombs|QID|34976|M|63.46,68.99|QO|1|U|112091|N|Base Catapult Destroyed|PRE|34578|
+C Dropping Bombs|QID|34976|M|65.51,68.91|QO|2|U|112091|N|Central Catapult Destroyed|PRE|34578|
+C Dropping Bombs|QID|34976|M|66.82,68.05|QO|3|U|112091|N|Summit Catapult Destroyed|PRE|34578|
+C Dropping Bombs|QID|34976|M|69.05,69.04|QO|4|U|112091|N|Use Grappling Hook|PRE|34578|
+T Dropping Bombs|QID|34976|M|69.63,69.84|N|To Miall, near the base of the wall.|PRE|34578|
+
+A Punching Through|QID|34979|M|69.63,69.84|N|From Miall, near the base of the wall.|PRE|34578|
+A Prized Repossessions|QID|34978|M|69.63,69.84|N|From Miall, near the base of the wall.|PRE|34578|
+A Supply Recovery|QID|34977|M|69.63,69.84|N|From Miall, near the base of the wall.|PRE|34578|
+C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|S|PRE|34578|
+C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|S|PRE|34578|
+K Vizier Vorgorsh|QID|34979|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|PRE|34578|
+K Vizier Cromaug|QID|34979|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|Up another flight in the building.|PRE|34578|
+K Vizier Zulmork|QID|34979|M|67.14,77.04|QO|2|T|Vizier Zulmork|PRE|34578|
+C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|PRE|34578|
+C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|US|PRE|34578|
+t Punching Through|QID|34979|N|To Miall, who is next to you|PRE|34578|
+t Prized Repossessions|QID|34978|N|To Miall, who is next to you|PRE|34578|
+t Supply Recovery|QID|34977|N|To Miall, who is next to you|PRE|34578|
+
+A The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|PRE|34979;34978;34977|
+K Witch Lord Morkurk|QID|34980|M|64.0,81.8|QO|1|T|Witch Lord Morkurk|U|112307|PRE|34578|
+T The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|PRE|34578|
+A The Only Way to Travel|QID|34981|N|To Miall, who is next to you|PRE|34578|
+T The Only Way to Travel|QID|34981|M|69.78,20.74|N|To Miall|PRE|34578|
+A Armor Up|QID|34982|M|69.8,20.8|N|From Miall|RANK|2|PRE|34578|
+T Armor Up|QID|34982|M|69.8,20.8|N|To Miall|PRE|34578|
+
+; Above Block for other comment to here are NOT part of Arcane Sanctum.
+
+C Wanted: Kil'uun|QID|34103|M|66.20,34.40;72.90,31.40;72.95,25.95;67.05,36.35;73.20,28.30;72.75,34.15;66.25,31.77;68.88,27.29;71.28,24.52;69.80,37.25|CN|N|Kil'uun, Circles clockwise south of Fort Wrynn around Voljin's Pride. Party of 3 suggested.|
+T Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|To Patrick Messer|
+
 ; The Plight of the Arakkoa
 A As the Smoke Rises|QID|34685|PRE|34711+34981|M|69.45,21.46|N|From Kalaam|
-R The Road to the Signpost|QID|34685|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;73.07,38.69|CS|N|Its a long ride. Head out the back.|
+R The Road to the Signpost|QID|34685|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;73.07,38.69|CS|N|Its another long ride (well, same one really...) Head out the back.\nNear the end of this stretch, accept the quest from Akhan.|
+A They Came From Above|QID|36843|M|67.50,42.17|N|From Akhan, near the fork to the Pilgrim's highway.|
+T They Came From Above|QID|36843|M|73.0,38.6|N|To Crystal-Shaper Barum|
 T As the Smoke Rises|QID|34685|M|73.07,38.75|N|To Crystal-Shaper Barum|
 
 A Burning Sky|QID|33740|M|73.07,38.75|N|From Crystal-Shaper Barum|
@@ -307,7 +335,7 @@ A What the Draenei Found|QID|33579|M|77.74,43.96|N|From Raksi|
 C Harmonic Crystal|QID|33761|M|77.74,44.08|QO|3|N|Green Spiky Crystal|
 C Melani's Doll|QID|33734|M|77.91,42.98|QO|2|
 C Polished Crystal|QID|33761|M|76.98,43.08|QO|2|N|Clear Purple Rectangle|
-C Annals of Aruuna|QID|33734|M|75.45,44.13|QO|3|N|Floating book.|
+C Annals of Aruuna|QID|33734|M|75.45,44.13|QO|3|N|Floating Book.|
 C Honed Crystal|QID|33761|M|76.17,44.26|QO|1|N|Glowing Red Spike|
 C Crystal-Shaper's Tools|QID|33734|M|77.54,41.24|QO|1|
 C Burning Sky|QID|33740|M|75.80,45.20;78.20,45.00;79.80,34.50;75.38,36.52;77.30,41.00;74.89,66.49;73.60,59.25;77.90,38.00;76.81,43.26;78.06,35.61;75.25,39.86;81.62,36.14;77.61,61.06;75.12,62.17|CN|N|Kill Wing-Guards, Squallbringers, and Sun-Callers.|US|
@@ -332,8 +360,8 @@ T Forbidden Knowledge|QID|33581|M|70.51,57.34|N|To Darkscryer Raastok.|
 T Kura's Vengeance|QID|33582|M|70.77,56.78|N|To Kura the Blind.|
 
 ; The Battle for Shattrath
-H Fort Wrynn|QID|36801|N|Hearth back or fly to Fort Wrynn|
-A One Step Ahead|QID|36801|M|69.61,20.80|N|From Sloan McCoy|
+H Fort Wrynn|QID|36801|N|Fly (or hearth if set and off cd) to Fort Wrynn|
+A One Step Ahead|QID|36801|M|69.61,20.80|N|From Sloan McCoy (SI:7 agent)|
 R Redemption Rise|QID|36801|M|66.57,22.72;64.79,25.56;63.20,25.90|CS|N|Go out the front door of the fort to the road again.|
 f Redemption Rise|QID|36801|M|63.29,25.71|N|At Nomaeaa|
 T One Step Ahead|QID|36801|M|63.04,25.89|N|To Vindicator Maraad|
@@ -369,12 +397,16 @@ C Vol. X Pages ?|QID|34094|M|54.2,22.2|N|Kill orcs at the Archenon Siegeyard to 
 C Iron Them Out|QID|34095|M|57.05,29.30|N|Click on glowing tanks to destroy.|
 C Dreadpiston|QID|34959|M|56.48,27.33|
 A Dying Wish|QID|33973|M|56.90,25.97|N|From Ahm|RANK|2|
-K Blademaster Bralok|QID|33973|M|57.03,24.38|N|Loot heirloom|
+; [aldavor] added QO|1 otherwise it doesn't close when done.
+K Blademaster Bralok|QID|33973|M|57.03,24.38|N|Loot heirloom|QO|1|
 T Dying Wish|QID|33973|M|56.90,25.97|N|To Ahm|
 C Vol. X Pages ?|QID|34094|M|54.2,22.2|N|Kill orcs at the Archenon Siegeyard to get the pages.|US|
-
-K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|N|Ra'tok the Hammer is down the path to the coastline.|
+; [aldavor] added QO|1 otherwise it remains after you kill him up to when you turn in the quest.
+K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|QO|1|N|Ra'tok the Hammer is down the path to the coastline.|
 N Bonus Objective|QID|34095|M|54.2,22.2|N|There is a bonus objective there on the coast. Take the path to the coastline.|
+
+; [aldavor] While doing the bonus objective, you can also get [Deceptia's Smoldering Boots] (rank 3) - I didn't get the exact coords but it's around 58.0, 15.0.
+N Deceptia's Smoldering Boots|QID|34095|M|58.0,15.0|N|While doing the bonus, you can also get this for your toy box - the camp will explode, and you can find these (cog wheel) on the ground in the remains.|RANK|3|
 
 T Iron Them Out|QID|34095|M|63.06,25.84|N|To Yrel|
 T Dreadpiston|QID|34959|M|63.04,25.89|N|To Vindicator Maraad|
@@ -506,7 +538,6 @@ C Book Burning|QID|34164|US|QO|1|T|Shadowborne Dementor|N|Kill Dementors and loo
 T Book Burning|QID|34164|M|34.01,73.97|N|To Kor'thos Dawnfury|
 
 ; Not sure but for flow, this one below, MIGHT be able to be turned in before getting the Come Together quest - didn't test as I'd already turned in 35254
-
 T Retribution for the Light|QID|35254|M|42.91,76.11|N|To Exarch Maladaar|
 
 T Into the Heart of Madness|QID|34157|M|31.21,73.60|N|To Soulbinder Nyami|
@@ -563,23 +594,25 @@ C Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|N|Ra'tok the Hammer, on the Or
 T Wanted: Ra'tok the Hammer|QID|34105|M|69.43,21.14|N|To Patrick Messer|
 
 ; Sometime when in
-A As the Smoke Rises|QID|34685|M|0.0,0.0|N|From ?|; Neutral
-T As the Smoke Rises|QID|34685|M|73.0,38.6|N|To Crystal-Shaper Barum|
-A They Came From Above|QID|36843|M|67.50,42.17|N|From Akhan, near the fork to the Pilgrim's highway.|
-T They Came From Above|QID|36843|M|73.0,38.6|N|To Crystal-Shaper Barum|
+; [aldavor] already in
+;A As the Smoke Rises|QID|34685|M|0.0,0.0|N|From ?|; Neutral
+;T As the Smoke Rises|QID|34685|M|73.0,38.6|N|To Crystal-Shaper Barum|
+;A They Came From Above|QID|36843|M|67.50,42.17|N|From Akhan, near the fork to the Pilgrim's highway.|
+;T They Came From Above|QID|36843|M|73.0,38.6|N|To Crystal-Shaper Barum|
 
-A Burning Sky|QID|33740|LEAD|34685;36843|M|0.0,0.0|N|From Crystal-Shaper Barum|; Neutral
-C Burning Sky|QID|33740|M|79.8,34.6|N|Adherent Wing-Guard|
-C Burning Sky|QID|33740|M|75.4,63.2|N|Adherent Squallbringer|
-C Burning Sky|QID|33740|M|76.0,43.8|N|Adherent Sun-Caller|
-T Burning Sky|QID|33740|M|76.6,55.2|N|To Crystal-Shaper Barum|
+;A Burning Sky|QID|33740|LEAD|34685;36843|M|0.0,0.0|N|From Crystal-Shaper Barum|; Neutral
+;C Burning Sky|QID|33740|M|79.8,34.6|N|Adherent Wing-Guard|
+;C Burning Sky|QID|33740|M|75.4,63.2|N|Adherent Squallbringer|
+;C Burning Sky|QID|33740|M|76.0,43.8|N|Adherent Sun-Caller|
+;T Burning Sky|QID|33740|M|76.6,55.2|N|To Crystal-Shaper Barum|
 
-A Pieces of Us|QID|33734|M|0.0,0.0|N|From Crystal-Shaper Barum|; Neutral
-C Pieces of Us|QID|33734|M|75.8,44.4|N|Crystal-Shaper's Tools|
-C Pieces of Us|QID|33734|M|77.9,43.1|N|Melani's Doll|
-C Pieces of Us|QID|33734|M|78.2,43.8|N|Annals of Aruuna|
-T Pieces of Us|QID|33734|M|76.6,55.2|N|To Crystal-Shaper Barum|
+;A Pieces of Us|QID|33734|M|0.0,0.0|N|From Crystal-Shaper Barum|; Neutral
+;C Pieces of Us|QID|33734|M|75.8,44.4|N|Crystal-Shaper's Tools|
+;C Pieces of Us|QID|33734|M|77.9,43.1|N|Melani's Doll|
+;C Pieces of Us|QID|33734|M|78.2,43.8|N|Annals of Aruuna|
+;T Pieces of Us|QID|33734|M|76.6,55.2|N|To Crystal-Shaper Barum|
 
 D Fall-through|N|No more quests in this guide. Next is Spires of Arak.|
+
 ]]
 end)
