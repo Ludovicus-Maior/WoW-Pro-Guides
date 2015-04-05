@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2015-04-05 07:26
+-- Who: Emmaleah
+-- Log: suntouched spear should be rank 3 (or maybe 2... but not none like it was)
+
+-- URL: http://wow-pro.com/node/3599/revisions/27176/view
 -- Date: 2015-03-09 19:38
 -- Who: Ludovicus
 -- Log: Tag twiddles
@@ -197,7 +202,7 @@ C What the Bony Xuk?|QID|35038|NC|M|44.03,53.02|S|N|From the Longtooth Gorger co
 K Gronnslaver Raz|QID|35037|M|47.7,52|QO|2|T|Gronnslaver Raz|ACTIVE|35037|
 A The Gronn Strategy|QID|35925|M|47.73,52.07|N|From Weaponization Orders.|ACTIVE|35934|
 l Hardened Thornvine|QID|36718|M|47.21,51.82|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;5
-B Suntouched Spear|QID|36610|M|45.7,49.7|QO|1|N|Run out of Raz's camp and towards the waypoint, then drop down to the ledge about 15 feet below, Wait here for Charl Doomwing to fly overhead to get that one.|ITEM|118718|
+B Suntouched Spear|QID|36610|M|45.7,49.7|QO|1|N|Run out of Raz's camp and towards the waypoint, then drop down to the ledge about 15 feet below, Wait here for Charl Doomwing to fly overhead to get that one.|ITEM|118718|RANK|3|
 K Charl Doomwing|QID|35815|M|46.0,46.8|T|Charl Doomwing|L|113456|N|This is an elite mob, it is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
 A Trophy of Glory: Charl Doomwing|QID|35815|M|46.0,46.8|O|U|113456|N|From 'Fang of the Doomwing' you just looted.|
 l Odd Boulder|QID|36731|M|43.36,51.68|N|Call Beatface (click on the rock) to expose the Ancient Titan Chest|RANK|3|;5.1
