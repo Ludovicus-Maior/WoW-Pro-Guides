@@ -100,18 +100,15 @@ end
 function WoWPro.UnSkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	WoWProCharDB.Guide[GID].completion[index] = nil
-	if WoWPro.QID[index] 
-	and ( WoWPro.action[index] == "A" 
-		or WoWPro.action[index] == "C" 
-		or WoWPro.action[index] == "T" ) then
-    		local numqids = select("#", string.split(";", WoWPro.QID[j]))
-    	    for k=1,numqids do
-    	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[j]))
-    	        if tonumber(kqid) then
-    	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = nil
-    	        end
-    	    end
-			WoWProCharDB.Guide[GID].skipped[index] = nil
+	if WoWPro.QID[index] then
+		local numqids = select("#", string.split(";", WoWPro.QID[index]))
+	    for k=1,numqids do
+	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[index]))
+	        if tonumber(kqid) then
+	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = nil
+	        end
+	    end
+		WoWProCharDB.Guide[GID].skipped[index] = nil
 	else
 		WoWProCharDB.Guide[GID].skipped[index] = nil
 	end
