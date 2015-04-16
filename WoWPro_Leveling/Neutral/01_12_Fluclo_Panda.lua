@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2015-04-16 16:08
+-- Who: Aldavor
+-- Log: Amendments made to initial quests for WoD (some no longer valid, others slightly changed). Changed QO's to numerics to effect auto-closes. Added comments, some tweaks may have to be done at the end once factions have been selected.
+
+-- URL: http://wow-pro.com/node/3483/revisions/26591/view
 -- Date: 2014-07-25 19:47
 -- Who: Ludovicus
 -- Log: Removed race specifiers.
@@ -153,10 +158,6 @@ WoWPro:GuideRaceSpecific(guide,"Pandaren")
 WoWPro:GuideNextGuide(guide, 'WkjLoc1220|BitAzs1220')
 WoWPro:GuideSteps(guide, function()
 return [[
-
-A Much to Learn |QID|30039;30040;30041;30042;30043;30044;30045|M|56.66,18.17|N|From Alert UI.|
-T Much to Learn |QID|30039;30040;30041;30042;30043;30044;30045|M|56.66,18.17|N|To Master Shang Xi.|
-
 A The Lesson of the Iron Bough|QID|30027|M|56.66,18.17|N|From Master Shang Xi. Monk|C|Monk|
 A The Lesson of the Iron Bough|QID|30033|M|56.66,18.17|N|From Master Shang Xi. Hunter|C|Mage|
 A The Lesson of the Iron Bough|QID|30034|M|56.66,18.17|N|From Master Shang Xi. Mage|C|Hunter|
@@ -165,24 +166,30 @@ A The Lesson of the Iron Bough|QID|30036|M|56.66,18.17|N|From Master Shang Xi. R
 A The Lesson of the Iron Bough|QID|30037|M|56.66,18.17|N|From Master Shang Xi. Shaman|C|Shaman|
 A The Lesson of the Iron Bough|QID|30038|M|56.66,18.17|N|From Master Shang Xi. Warrior|C|Warrior|
 
-C The Lesson of the Iron Bough|QID|30027|M|57.00,19.65|NC|N|Head down into the training ground, and loot from the Weapon Rack.|L|73209|C|Monk|
-C The Lesson of the Iron Bough|QID|30033|M|57.00,19.65|NC|N|Head down into the training ground, and loot from the Weapon Rack.|L|73209|C|Mage|
-C The Lesson of the Iron Bough|QID|30034|M|57.00,19.65|NC|N|Head down into the training ground, and loot from the Weapon Rack.|L|73211|C|Hunter|
-C The Lesson of the Iron Bough|QID|30035|M|57.00,19.65|NC|N|Head down into the training ground, and loot both items from the Weapon Rack.|L|73207|C|Priest|
-C The Lesson of the Iron Bough|QID|30036|M|57.00,19.65|NC|N|Head down into the training ground, and loot both items from the Weapon Rack.|L|73208|C|Rogue|
-C The Lesson of the Iron Bough|QID|30037|M|57.00,19.65|NC|N|Head down into the training ground, and loot both items from the Weapon Rack.|L|73213|C|Shaman|
-C The Lesson of the Iron Bough|QID|30038|M|57.00,19.65|NC|N|Head down into the training ground, and loot from the Weapon Rack.|L|73210|C|Warrior|
+; [aldavor] this one works - set for all the others too.
+C The Lesson of the Iron Bough|QID|30035|M|57.00,19.65|NC|N|Head down into the training ground, and loot both items from the Weapon Rack.|C|Priest|
+C The Lesson of the Iron Bough|QID|30035|M|57.00,19.65|NC|N|Equip the Trainee's Mace.|U|73207|C|Priest|QO|1|
+C The Lesson of the Iron Bough|QID|30035|M|57.00,19.65|NC|N|Equip the Trainee's Book of Prayers.|U|76393|C|Priest|QO|2|
 
-C The Lesson of the Iron Bough|QID|30027|M|57.00,19.65|NC|N|Equip the Trainee's Staff.|U|73209|C|Monk|
-C The Lesson of the Iron Bough|QID|30033|M|57.00,19.65|NC|N|Equip the Trainee's Staff.|U|73209|C|Mage|
-C The Lesson of the Iron Bough|QID|30034|M|57.00,19.65|NC|N|Equip the Trainee's Crossbow.|U|73211|C|Hunter|
-C The Lesson of the Iron Bough|QID|30035|M|57.00,19.65|NC|N|Equip the Trainee's Mace.|U|73207|C|Priest|QO|Loot and Equip a Trainee's Mace: 1/1|
-C The Lesson of the Iron Bough|QID|30035|M|57.00,19.65|NC|N|Equip the Trainee's Book of Prayers.|U|76393|C|Priest|QO|Loot and Equip a Trainee's Book of Prayers: 1/1|
-C The Lesson of the Iron Bough|QID|30036|M|57.00,19.65|NC|N|Equip the first Trainee's Dagger.|U|73208|C|Rogue|QO|Loot and Equip a Trainee's Dagger: 1/1|
-C The Lesson of the Iron Bough|QID|30036|M|57.00,19.65|NC|N|Equip the second Trainee's Dagger.|U|73212|C|Rogue|QO|Loot and Equip a Second Trainee's Dagger: 1/1|
-C The Lesson of the Iron Bough|QID|30037|M|57.00,19.65|NC|N|Equip the Trainee's Axe.|U|76391|C|Shaman|QO|Loot and Equip a Trainee's Axe: 1/1|
-C The Lesson of the Iron Bough|QID|30037|M|57.00,19.65|NC|N|Equip the Trainee's Shield.|U|73213|C|Shaman|QO|Loot and Equip a Trainee's Shield: 1/1|
-C The Lesson of the Iron Bough|QID|30038|M|57.00,19.65|NC|N|Equip the Trainee's Sword.|U|73210|C|Warrior|
+C The Lesson of the Iron Bough|QID|30027|M|57.00,19.65|NC|N|Head down into the training ground, and loot from the Weapon Rack.|L|73209|C|Monk|
+C The Lesson of the Iron Bough|QID|30027|M|57.00,19.65|NC|N|Equip the Trainee's Staff.|U|73209|C|Monk|QO|1|
+
+C The Lesson of the Iron Bough|QID|30033|M|57.00,19.65|NC|N|Head down into the training ground, and loot from the Weapon Rack.|L|73209|C|Mage|
+C The Lesson of the Iron Bough|QID|30033|M|57.00,19.65|NC|N|Equip the Trainee's Staff.|U|73209|C|Mage|QO|1|
+
+C The Lesson of the Iron Bough|QID|30034|M|57.00,19.65|NC|N|Head down into the training ground, and loot from the Weapon Rack.|L|73211|C|Hunter|
+C The Lesson of the Iron Bough|QID|30034|M|57.00,19.65|NC|N|Equip the Trainee's Crossbow.|U|73211|C|Hunter|QO|1|
+
+C The Lesson of the Iron Bough|QID|30036|M|57.00,19.65|NC|N|Head down into the training ground, and loot both items from the Weapon Rack.|L|73208|C|Rogue|
+C The Lesson of the Iron Bough|QID|30036|M|57.00,19.65|NC|N|Equip the first Trainee's Dagger.|U|73208|C|Rogue|QO|1|
+C The Lesson of the Iron Bough|QID|30036|M|57.00,19.65|NC|N|Equip the second Trainee's Dagger.|U|73212|C|Rogue|QO|2|
+
+C The Lesson of the Iron Bough|QID|30037|M|57.00,19.65|NC|N|Head down into the training ground, and loot both items from the Weapon Rack.|L|73213|C|Shaman|
+C The Lesson of the Iron Bough|QID|30037|M|57.00,19.65|NC|N|Equip the Trainee's Axe.|U|76391|C|Shaman|QO|1|
+C The Lesson of the Iron Bough|QID|30037|M|57.00,19.65|NC|N|Equip the Trainee's Shield.|U|73213|C|Shaman|QO|2|
+
+C The Lesson of the Iron Bough|QID|30038|M|57.00,19.65|NC|N|Head down into the training ground, and loot from the Weapon Rack.|L|73210|C|Warrior|
+C The Lesson of the Iron Bough|QID|30038|M|57.00,19.65|NC|N|Equip the Trainee's Sword.|U|73210|C|Warrior|QO|1|
 
 T The Lesson of the Iron Bough|QID|30027|M|56.66,18.17|N|To Master Shang Xi. Monk|C|Monk|
 T The Lesson of the Iron Bough|QID|30033|M|56.66,18.17|N|To Master Shang Xi. Hunter|C|Mage|
@@ -201,18 +208,16 @@ C The Lesson of Stifled Pride|QID|29524|M|60.04,19.14|N|Head into the building, 
 T The Lesson of Stifled Pride|QID|29524|M|59.70,19.17|N|To Master Shang Xi (he has moved to the ground floor entrance of the building).|
 
 A The Lesson of the Burning Scroll|QID|29408|M|59.70,19.17|N|From Master Shang Xi.|
-C The Lesson of the Burning Scroll|QID|29408|M|59.93,20.32|NC|N|Snatch the Master's Flame from Master Shang Xi|QO|Snatch the Master's Flame: 1/1|
-C The Lesson of the Burning Scroll|QID|29408|M|60.10,18.42;59.78,19.73;60.02,18.59;59.99,20.27|CS|N|Head on up the stairs, follow around the floor to the second flight of stairs, then head to the balcony and burn the Edict of Temperance.|NC|
-T The Lesson of the Burning Scroll|QID|29408|M|59.73,19.08|N|To Master Shang Xi.|
+C The Lesson of the Burning Scroll|QID|29408|M|60.10,18.42;59.78,19.73;60.02,18.59;59.99,20.27|CS|N|You get the flame automatically now; head on up the stairs, follow around the floor to the second flight of stairs, then head to the balcony and burn the Edict of Temperance.|NC|
+T The Lesson of the Burning Scroll|QID|29408|M|59.73,19.08|N|Back down the stairs to Master Shang Xi.|
 
 A The Disciple's Challenge|QID|29409|M|59.73,19.08|N|From Master Shang Xi.|
-C The Disciple's Challenge|QID|29409|M|66.96,22.93|N|Head out of the building, down the stairs, across the bridge to the Tranquil Grotto, then defeat Jaomin Ro.|
+C The Disciple's Challenge|QID|29409|M|66.96,22.93|N|Head out of the east side of the building, down the stairs, across the bridge to the Tranquil Grotto, then defeat Jaomin Ro.|
 T The Disciple's Challenge|QID|29409|M|66.00,22.80|N|To Master Shang Xi (he has moved to the Tranquil Grotto bridge).|
 
 A Aysa of the Tushui|QID|29410|M|66.01,22.76|N|From Master Shang Xi.|
 T Aysa of the Tushui|QID|29410|M|55.09,32.82|N|To Merchant Lorvo at Fu's Pond.|
 
-;A The Missing Driver|QID|29419|M|55.09,32.82|N|From Merchant Lorvo.|S| ** Sticky not required **
 A Items of Utmost Importance|QID|29424|M|55.09,32.82|N|From Merchant Lorvo.|
 A The Missing Driver|QID|29419|M|55.09,32.82|N|From Merchant Lorvo.|
 
@@ -220,7 +225,6 @@ C Items of Utmost Importance|QID|29424|M|54.11,20.92|N|Kill and loot the Amberle
 C The Missing Driver|QID|29419|M|54.11,20.92|N|Run to Mim Dimwind in The Dawning Valley|NC|
 C Items of Utmost Importance|QID|29424|M|54.11,20.92|N|Finish killing and looting the Amberleaf Scamps|US|
 
-;T The Missing Driver|QID|29419|M|55.09,32.82|N|To Merchant Lorvo.|S| ** Sticky not required **
 T Items of Utmost Importance|QID|29424|M|55.09,32.82|N|To Merchant Lorvo.|
 T The Missing Driver|QID|29419|M|55.09,32.82|N|To Merchant Lorvo.|
 
@@ -249,10 +253,10 @@ A The Spirit's Guardian|QID|29420|M|50.28,21.45|N|From Master Shang Xi (he has m
 T The Spirit's Guardian|QID|29420|M|41.48,25.04;40.87,22.52;38.80,25.51|CS|N|To Master Li Fei at Shrine of Inner-Light.|
 
 A The Challenger's Fires|QID|29664|M|38.80,25.51|N|From Master Li Fei|
-C The Challenger's Fires|QID|29664|M|38.71,25.42|N|Light the torch on the Brazier of the Flickering Flame.|NC|QO|Challenger Torch lit: 1/1|
-C The Challenger's Fires|QID|29664|M|39.18,25.38|N|Light the Brazier of the Blue Flame|NC|QO|Blue Brazier lit: 1/1|
-C The Challenger's Fires|QID|29664|M|39.00,23.48|N|Light the Brazier of the Red Flame|NC|QO|Red Brazier lit: 1/1|
-C The Challenger's Fires|QID|29664|M|38.25,24.87|N|Light the Brazier of the Violet Flame|NC|QO|Violet Brazier lit: 1/1|
+C The Challenger's Fires|QID|29664|M|38.71,25.42|N|Light the torch on the Brazier of the Flickering Flame.|NC|QO|1|
+C The Challenger's Fires|QID|29664|M|39.18,25.38|N|Light the Brazier of the Blue Flame|NC|QO|3|
+C The Challenger's Fires|QID|29664|M|39.00,23.48|N|Light the Brazier of the Red Flame|NC|QO|2|
+C The Challenger's Fires|QID|29664|M|38.25,24.87|N|Light the Brazier of the Violet Flame|NC|QO|4|
 T The Challenger's Fires|QID|29664|M|38.80,25.51|N|To Master Li Fei|
 
 A Only the Worthy Shall Pass|QID|29421|M|38.80,25.51|N|From Master Li Fei|
@@ -264,7 +268,7 @@ C Huo, the Spirit of Fire|QID|29422|M|39.45,29.62|N|Head up the ramp to Huo Anci
 T Huo, the Spirit of Fire|QID|29422|M|39.45,29.62|N|To Huo|
 
 A The Passion of Shen-zin Su|QID|29423|M|39.45,29.62|N|From Huo|
-C The Passion of Shen-zin Su|QID|29423|M|38.71,26.42;40.73,22.29;41.65,25.14;51.04,30.62;51.44,46.41|CS|N|Head out of the Shrine and go to Temple of Five Dawns. Follow Huo for a 50% speed bonus.|NC|
+C The Passion of Shen-zin Su|QID|29423|M|38.71,26.42;40.73,22.29;41.65,25.14;51.04,30.62;51.44,46.41|CS|N|Head out of the Shrine and go to Temple of Five Dawns. Stay with Huo for a 50% speed bonus.|NC|
 T The Passion of Shen-zin Su|QID|29423|M|51.44,46.41|N|To Master Shang Xi|
 
 A The Singing Pools|QID|29521|M|51.44,46.41|N|From Master Shang Xi|
@@ -276,13 +280,9 @@ T The Singing Pools|QID|29521|M|65.59,42.59|N|To Aysa Cloudsinger (she has moved
 A The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|From Aysa Cloudsinger|
 A The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|From Aysa Cloudsinger|
 
-; ** Cordinates are not needed for this quest and do this quest after you finish 'The Lesson of the Balanced Rock' **
-; C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Collect the Tearwood Reeds from the ground.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|S|
 C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|
-; ** Found a better way to do this step ** C The Lesson of Dry Fur|QID|29661|N|Head to the other side of the bridge to the north, and find an exit pole (the poles on the edge of the water), jump onto one, then jump onto other poles until you reach the bell.|NC|
 C The Lesson of Dry Fur|QID|29661|M|63.70,44.48;61.62,47.14;61.44,47.77|CC|N|Head west under the bridge. There are several poles in the water than you can jump onto from the bridge. Jump onto one and continue jumping onto other poles until you reach the bell.|NC|
-; ** Cordinates are not needed for this quest ** C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Finish collecting the Tearwood Reeds from the ground.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|US|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|US|
 C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water. Easiest way into the water is to walk off the bell rock. Otherwise, you have to use an exit pole to get down.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back and disengage any attacking cranes.|NC|US|
 
@@ -294,7 +294,6 @@ T The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|To Aysa Cloudsinger|
 A Finding an Old Friend|QID|29676|M|65.59,42.59|N|From Aysa Cloudsinger|
 T Finding an Old Friend|QID|29676|M|70.61,38.75|N|To Old Man Liang in Liang's Retreat|
 
-;A The Sting of Learning|QID|29666|M|70.61,38.75|N|From Old Man Liang|S| ** Sticky not required **
 A The Sun Pearl|QID|29677|M|70.61,38.75|N|From Old Man Liang|
 A The Sting of Learning|QID|29666|M|70.61,38.75|N|From Old Man Liang|
 
@@ -302,12 +301,11 @@ C The Sting of Learning|QID|29666|M|72.20,42.00|N|Kill the Water Pincers.|S|
 C The Sun Pearl|QID|29677|M|76.3,47.0|N|Jump into the Singing Pools, open the Ancient Clam, and loot the Sun Pearl. It may be guarded by Fang-she. Defeat her and then loot the Sun Pearl from the clam.|NC|
 C The Sting of Learning|QID|29666|M|72.20,42.00|N|Kill the Water Pincers. If there are none in the area, check the other pools.|US|
 
-;T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|S| ** Sticky not required **
 T The Sun Pearl|QID|29677|M|78.50,42.85|N|To Old Man Liang (he's moved to the Gazebo)|
 T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|
 
 A Shu, the Spirit of Water|QID|29678|M|78.50,42.85|N|From Old Man Liang|
-C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks, and it will jump you to the edge of the Pool of Reflection, then walk forward to the pool.|QO|Cross to the Pool of Reflection: 1/1|NC|
+C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks, and it will jump you to the edge of the Pool of Reflection, then walk forward to the pool.|QO|1|NC|
 C Shu, the Spirit of Water|QID|29678|M|79.64,38.62|N|Use the Sun Pearl to coax out Shu.|NC|
 T Shu, the Spirit of Water|QID|29678|N|(UI Alert)|
 
@@ -322,9 +320,9 @@ A Rascals|QID|29769|M|68.89,65.00|N|From Ji Firepaw|
 A Still Good!|QID|29770|M|68.13,66.40|N|From Gao Summerdraft|
 
 C Rascals|QID|29769|M|72.62,74.17|N|Kill Plump Virmen|S|
-C Still Good!|QID|29770|M|71.66,70.54|N|Head into the Teaming Burrow and collect 3 Stolen Carrots either from the ground or from the Plump Virmen.|NC|QO|Stolen Carrot: 3/3|
-C Still Good!|QID|29770|M|77.19,71.06|N|Head out of the cave, to the Virmen Grotto and collect 3 Pilfered Pumpkins from the ground|NC|QO|Pilfered Pumpkin: 3/3|
-C Still Good!|QID|29770|M|70.74,78.82|N|Collect 3 Uprooted Turnips from the ground|NC|QO|Uprooted Turnip: 3/3|
+C Still Good!|QID|29770|M|71.66,70.54|N|Head into the Teaming Burrow and collect 3 Stolen Carrots either from the ground or from the Plump Virmen.|NC|QO|2|L|74296 3|
+C Still Good!|QID|29770|M|77.19,71.06|N|Head out of the cave, to the Virmen Grotto and collect 3 Pilfered Pumpkins from the ground|NC|QO|3|L|74297 3|
+C Still Good!|QID|29770|M|70.74,78.82|N|Collect 3 Uprooted Turnips from the ground|NC|QO|1|L|74295 3|
 C Rascals|QID|29769|M|68.40,72.10|N|Finish Killing Plump Virmen|US|
 
 T Still Good!|QID|29770|M|68.13,66.40|N|To Gao Summerdraft|
@@ -345,12 +343,16 @@ C Raucous Rousing|QID|29772|N|Ring the gong next to Ji Firepaw.|NC|
 T Raucous Rousing|QID|29772|M|68.89,65.00|N|To Ji Firepaw|
 
 A Not In the Face!|QID|29774|M|68.89,65.00|N|From Ji Firepaw|
-C Not In the Face!|QID|29774|M|69.00,62.95|N|Head to Shu, and ask him for help|CHAT|QO|Ask Shu for help: 1/1|
+C Not In the Face!|QID|29774|M|69.00,62.95|N|Head to Shu, and ask him for help|CHAT|QO|1|
 C Not In the Face!|QID|29774|M|68.89,65.00|N|Head back to Wugou and wait for Shu to wake him.|NC|
 T Not In the Face!|QID|29774|M|68.89,65.00|N|To Ji Firepaw|
 
 A The Spirit and Body of Shen-zin Su|QID|29775|M|68.89,65.00|N|From Ji Firepaw|
-R Mandori Village|QID|29775|M|67.98,67.20;51.86,58.54|CC|N|Head to the Delivery Cart for a ride to the steps of Temple of Five Dawns|
+
+; [aldavor] this doesn't show up at the moment as the crazy arrow/tomtom isn't picking up coordinates right.
+;R Mandori Village|QID|29775|M|68.0,67.0|CS|N|Head to the Delivery Cart for a ride to the steps of Temple of Five Dawns|
+; [aldavor] Added a note to help out.
+N Mandori Village|QID|29775|N|Head to the Delivery Cart at 68.0,67.0 for a ride to the steps of Temple of Five Dawns.\n\nClose this when you're on it.|
 T The Spirit and Body of Shen-zin Su|QID|29775|M|51.58,48.32|N|Head up the stairs to Master Shang Xi|
 
 A Morning Breeze Village|QID|29776|M|51.58,48.32|N|From Master Shang Xi|
@@ -373,16 +375,15 @@ T Rewritten Wisdoms|QID|29778|M|30.97,36.74|N|To Ji Firepaw|
 A Monkey Advisory Warning|QID|29781|M|30.97,36.74|N|From Ji Firepaw|
 A Do No Evil|QID|29780|M|30.97,36.74|N|From Ji Firepaw|
 A The Direct Solution|QID|29779|M|30.97,36.74|N|From Ji Firepaw|
-;A Do No Evil|QID|29780|M|30.97,36.74|N|From Ji Firepaw|US| ** Sticky not required **
-;A Monkey Advisory Warning|QID|29781|M|30.97,36.74|N|From Ji Firepaw|US| ** Sticky not required **
 
-C The Direct Solution|QID|29779|N|Kill Fe-Fang Hozen|S|
-A Stronger Than Bone|QID|29782|M|28.33,38.78;26.43,33.73|CC|N|From Jade Tiger Pillar in Fe-Feng Village|
+; [aldavor] *** check these M coords at some later stage ***
+C The Direct Solution|QID|29779|M|24.44,30.62|N|Kill Fe-Fang Hozen|S|
+A Stronger Thanw Bone|QID|29782|M|28.33,38.78;26.43,33.73|CC|N|From Jade Tiger Pillar in Fe-Feng Village|
 C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundles as you go.  There are several where Ruk-Ruk is|S|NC|
 C Do No Evil|QID|29780|M|20.93,34.36|N|Kill Ruk-Ruk|
 T Do No Evil|QID|29780|N|To Ji Firepaw|
 C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundle from where Ruk-Ruk was, or elsewhere in the village|US|NC|
-T Monkey Advisory Warning|QID|29781|N|To Ji Firepaw|
+T Monkey Advisory Warning|QID|29781|M|24.44,30.62|N|To Ji Firepaw|
 C The Direct Solution|QID|29779|M|24.44,30.62|N|Finish killing Fe-Fang Hozen.  Ji Firepaw has a great AOE kick, so feel free to pull a few.|US|
 
 T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you see Ji Firepaw at the water's edge as Ji stops helping you and runs off to the water's edge when you turn in the quest.|
@@ -391,7 +392,7 @@ T Stronger Than Bone|QID|29782|M|29.92,39.77|N|To Jojo Ironbrow|
 
 T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you are out of the monkey village to turn this in as Ji stops helping you and runs off when you turn in the last quest|US|
 A Balanced Perspective|QID|29784|M|30.97,36.74|N|From Ji Firepaw|
-T Balanced Perspective|QID|29784|M|32.94,35.60|N|Cross the ropes, to Aysa Cloudsinger|
+T Balanced Perspective|QID|29784|M|32.94,35.60|N|Cross the ropes, to Aysa Cloudsinger\n\nIf you have difficulty with the ropes, go into your Game Menu, click Interface and select the Mouse option. Check "Click-to-Move" and "Okay". This means that you will move wherever you right-click your mouse, and makes it easier.\n\nDon't forget to uncheck this after you've finished the quest.|
 
 A Dafeng, the Spirit of Air|QID|29785|M|32.94,35.60|N|From Aysa Cloudsinger|
 R Chamber of Whispers|QID|29785|M|28.09,64.23|N|Head to the Chamber of Whispers|
@@ -406,7 +407,6 @@ A Worthy of Passing|QID|29787|M|30.00,60.37|N|From Master Shang Xi|
 C Worthy of Passing|QID|29787|M|22.72,52.82|N|Follow Master Shang Xi to the Elders' Path then defeat the Guardian of the Elders|
 T Worthy of Passing|QID|29787|M|19.33,50.67|N|To Master Shang Xi who is now in The Wood of Staves|
 
-;A Small, But Significant|QID|29789|M|19.33,50.67|N|From Master Shang Xi|S| ** Sticky not required **
 A Unwelcome Nature|QID|29788|M|19.33,50.67|N|From Master Shang Xi|
 A Small, But Significant|QID|29789|M|19.33,50.67|N|From Master Shang Xi|
 
@@ -414,7 +414,6 @@ C Unwelcome Nature|QID|29788|N|Kill the Thornbranch Scamp|S|
 C Small, But Significant|QID|29789|N|Collect the Kun-Pai Ritual Charm hanging from the trees.|NC|
 C Unwelcome Nature|QID|29788|N|Finish killing the Thornbranch Scamp|US|
 
-;T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|S| ** Sticky not required **
 T Unwelcome Nature|QID|29788|M|19.33,50.67|N|To Master Shang Xi|
 T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|
 
@@ -422,15 +421,16 @@ A Passing Wisdom|QID|29790|M|19.33,50.67|N|From Master Shang Xi|
 C Passing Wisdom|QID|29790|M|19.33,50.67|N|Wait while Master Shang Xi tells you the story.|NC|
 T Passing Wisdom|QID|29790|M|15.79,49.11|N|To Aysa Cloudsinger|
 
+; [aldavor] *** check these for auto-close/checks ***
 A The Suffering of Shen-zin Su|QID|29791|M|15.79,49.11|N|To Aysa Cloudsinger|
-C The Suffering of Shen-zin Su|QID|29791|M|15.57,48.90|N|Right click on Shang Xi's Hot Air Balloon.|QO|Board the Hot Air Balloon: 1/1|NC|
-C The Suffering of Shen-zin Su|QID|29791|M|15.57,48.90|N|Sit back and discover that you're questing on the back of a giant turtle!|
-T The Suffering of Shen-zin Su|QID|29791|M|51.30,48.30|N|Wait until you land, then to Elder Shaopai.|
+C The Suffering of Shen-zin Su|QID|29791|M|15.57,48.90|N|Right click on Shang Xi's Hot Air Balloon.|QO|1|NC|
+C The Suffering of Shen-zin Su|QID|29791|M|15.57,48.90|N|Sit back and discover that you're questing on the back of a giant turtle!|QO|2|
+T The Suffering of Shen-zin Su|QID|29791|M|51.30,48.30|N|Wait until you land, go down both flights of stairs and outside, then north to Elder Shaopai.|
 
 A Bidden to Greatness|QID|29792|M|51.30,48.30|N|From Elder Shaopai.|
 r Repair/Restock|QID|29792|M|50.65, 58.6|N|Right next to the Blacksmith where you can repair and sell is a profession trainer should you happen to need him|
-C Bidden to Greatness|QID|29792|M|51.58,60.97|N|Head to the Mandori Village Gate|NC|QO|Open the Mandori Village Gate: 1/1|
-C Bidden to Greatness|QID|29792|M|52.26,68.27|N|Head to the Pei-Wu Forest Gate|NC|QO|Open the Pei-Wu Forest Gate: 1/1|
+C Bidden to Greatness|QID|29792|M|51.58,60.97|N|Head to the Mandori Village Gate|NC|QO|1|
+C Bidden to Greatness|QID|29792|M|52.26,68.27|N|Head to the Pei-Wu Forest Gate|NC|QO|2|
 T Bidden to Greatness|QID|29792|M|50.08,76.62|N|To Wei Palerage|
 
 A Preying on the Predators|QID|30591|M|50.08,76.62|N|From Wei Palerage|
@@ -459,7 +459,6 @@ T Evil from the Seas|QID|29793|M|36.38,72.52|N|To Ji Firepaw|
 A Urgent News|QID|29796|M|36.38,72.52|N|From Ji Firepaw|
 T Urgent News|QID|29796|M|42.20,86.55|N|To Delora Lionheart|
 
-;A Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|S| ** Sticky not required **
 A None Left Behind|QID|29794|M|42.20,86.55|N|From Delora Lionheart|
 A Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|
 
@@ -471,7 +470,6 @@ C Medical Supplies|QID|29797|M|38.40,83.60|N|Collect the Medical Supplies lying 
 C From Bad to Worse|QID|29665|M|38.40,83.60|N|Finish killing Deepscale Tormentors|US|
 C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp.  Repeat three times|NC|US|
 
-;T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|S| ** Sticky not required **
 T None Left Behind|QID|29794|M|42.20,86.55|N|From Delora Lionheart|
 T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|
 
@@ -490,8 +488,9 @@ C The Healing of Shen-zin Su|QID|29799|M|38.45,85.95|N|Release the healers found
 T The Healing of Shen-zin Su|QID|29799|M|39.33,86.19|N|To Ji Firepaw|
 
 A New Allies|QID|29800|M|38.81,86.32|N|After the cut-scene, from Ji Firepaw|
-R Mandori Village|QID|29800|M|41.57,85.47;51.72,58.97|CC|N|The Delivery Cart will take you there.|
-T New Allies|QID|29800|M|51.46,48.33|N|Up the stairs, to Spirit of Master Shang Xi|
+; [aldavor] Note in here until the arrow/coords marker has been fixed.
+;R Mandori Village|QID|29800|M|41.57,85.47;51.72,58.97|CC|N|The Delivery Cart will take you there.|
+T New Allies|QID|29800|M|51.46,48.33|N|Jump onto the cart at 41.6, 85,5 then when you arrive, go up the stairs to Spirit of Master Shang Xi|
 
 A A New Fate|QID|31450|M|51.46,48.33|N|From Spirit of Master Shang Xi|
 C A New Fate|QID|31450|N|Speak to Spirit of Master Shang Xi, and choose your destiny!|NC|
@@ -499,7 +498,7 @@ C A New Fate|QID|31450|N|Speak to Spirit of Master Shang Xi, and choose your des
 ; The cinematic triggers a reload, which re-evaluates all the following steps in the new faction.
 T A New Fate|QID|31450|N|Straight in front of you, and welcome to the mainland.|
 
-N Destiny Chosen|QID|30987;31012|N|The next faction specific quest should be automatically chosen for you. If not, report the bug!|
+N Destiny Chosen|QID|30987;31012|N|The next faction specific quest should be automatically chosen for you. If not, report the bug!\n\nClick to continue.|
 A Joining the Horde|QID|31012|M|45.58,12.61|N|From Ji Firepaw|Z|Durotar|FACTION|Horde|
 A Joining the Alliance|QID|30987|M|32.90,50.95|N|From Aysa Cloudsinger|Z|Elwynn Forest|FACTION|Alliance|
 
@@ -522,6 +521,7 @@ A An Old Pit Fighter|QID|30989|M|82.59,28.07|PRE|30987|N|From King Varian Wrynn|
 C An Old Pit Fighter|QID|30989|M|82.59,28.07|N|The King will want you to fight him, but every hit will miss/dodge, after a short while, the fight will be over.|Z|Stormwind City|FACTION|Alliance|
 T An Old Pit Fighter|QID|30989|M|85.78,31.70|N|To King Varian Wrynn, who has moved back into the Keep|Z|Stormwind City|FACTION|Alliance|
 
+; [aldavor] this is not appearing.... coming up with "No guide loaded". TODO: check.
 N Faction Update|N|In order to load the correct guides for your new faction, we need you either log out and back in or use the "/reload" command.  Click this step when you are ready to go on!|
 
 ]]
