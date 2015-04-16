@@ -403,6 +403,13 @@ end
     
     
 function WoWPro:TryRemap(z,s,f,x,y)
+    local map, pizo = WoWPro.Astrolabe:GetCurrentPlayerPosition()
+    if map == s then
+        WoWPro:dbp("Shifted from %d to %d",z,s)
+        return s,x,y
+    else
+        return nil,nil,nil
+    end
 	local nx , ny = AL:TranslateWorldMapPosition(z,f,x/100,y/100,s,f)
 	WoWPro:dbp("Remapping1 to %d,%g,%g",s,nx,ny)
 	if nx and ny then
@@ -691,10 +698,6 @@ function WoWPro:RemoveMapPoint()
 end
 
 function  WoWPro.CheckAstrolabeData(force)
-    if not WoWPro.Astrolabe['zeroData'] then
-        WoWPro:dbp("CheckAstrolabeData(): No Astrolabe!")
-        return
-    end
     local Astrolabe = WoWPro.Astrolabe
     local map, pizo = Astrolabe:GetCurrentPlayerPosition()
     if not (map and pizo) then
@@ -703,8 +706,7 @@ function  WoWPro.CheckAstrolabeData(force)
         return
     end
     local AW = Astrolabe.WorldMapSize[map][pizo]
-    local Az = Astrolabe.zeroData
-    if (not force) and AW ~= Az then
+    if (not force) and AWS and AW.height ~= 1 and AW.width ~= 1 then
         -- We have data
         WoWPro:dbp("Map data present for %d/%d", map, pizo)
         return
