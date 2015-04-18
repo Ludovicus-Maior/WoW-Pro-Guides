@@ -392,7 +392,7 @@ function WoWPro:ValidZone(zone)
             return tostring(tonumber(zone))
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
-	        return WoWPro.Zone2MapID[zone].mapID
+	        return zone
 	    elseif zone:match("/") then
 	        local nzone , floor = string.split("/",zone)
 	        return WoWPro:ValidZone(nzone)
