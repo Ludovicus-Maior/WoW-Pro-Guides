@@ -408,10 +408,10 @@ function WoWPro:TryRemap(z,s,f,x,y)
         return nil,nil,nil
     end
 	local nx , ny = AL:TranslateWorldMapPosition(z,f,x/100,y/100,s,f)
-	WoWPro:Error("Remapping1 to %d,%g,%g",s,nx,ny)
+	WoWPro:dbp("Remapping1 to %d,%g,%g",s,nx,ny)
 	if nx and ny then
 		-- Successfull translation, remap
-		WoWPro:Error("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
+		WoWPro:dbp("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
 		return s,nx*100,ny*100
 	end
 	return nil,nil,nil
