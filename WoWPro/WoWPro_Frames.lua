@@ -776,9 +776,12 @@ function WoWPro:CreateDropdownMenu()
 		end},
 		{text = L["Reset Current Guide"], func = function() 
 			if not WoWProDB.char.currentguide then return end
-			WoWProCharDB.Guide[WoWProDB.char.currentguide] = nil
+			local GID = WoWProDB.char.currentguide
+			WoWProCharDB.Guide[GID] = nil
 			for j = 1,WoWPro.stepcount do 
-				if WoWPro.QID[j] then WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = nil end
+				if WoWPro.QID[j] then
+				     WoWPro:WipeQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
+				end
 			end
 			WoWPro:LoadGuide()
 		end},
