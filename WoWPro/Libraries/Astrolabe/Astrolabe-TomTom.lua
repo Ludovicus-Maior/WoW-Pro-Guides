@@ -1384,6 +1384,7 @@ WorldMapSize = {
 MicroDungeonSize = {}
 
 -- SetMapByID does not work for mapID 971 or 976 during the first UI load since the client was started, so we have to hardcode their information.
+-- Also the maps for the starting zones need to be pegged here.
 local HARDCODED_MAP_INFORMATION = {
     [971] = {
         ["mapName"] = "garrisonsmvalliance",
@@ -1399,6 +1400,76 @@ local HARDCODED_MAP_INFORMATION = {
         ["numFloors"] = 0,
         [0] = {},
     },
+    [864] = {
+        ["mapName"] = "northshire",
+        ["cont"] = 2,
+        ["zone"] = 25,
+        ["numFloors"] = 0,
+        [0] = {},        
+    },
+    [866] = {
+        ["mapName"] = "coldridge",
+        ["cont"] = 2,
+        ["zone"] = 1,
+        ["numFloors"] = 0,
+        [0] = {},        
+    },    
+    [888] = {
+        ["mapName"] = "shadowglen",
+        ["cont"] = 1,
+        ["zone"] = 10,
+        ["numFloors"] = 0,
+        [0] = {},        
+    },
+    [889] = {
+        ["mapName"] = "valleyoftrials",
+        ["cont"] = 1,
+        ["zone"] = 27,
+        ["numFloors"] = 0,
+        [0] = {},        
+    },
+    [890] = {
+        ["mapName"] = "campnarache",
+        ["cont"] = 1,
+        ["zone"] = 5,
+        ["numFloors"] = 0,
+        [0] = {},        
+    },
+    [891] = {
+        ["mapName"] = "echoisles",
+        ["cont"] = 1,
+        ["zone"] = 27,
+        ["numFloors"] = 0,
+        [0] = {},        
+    },
+    [892] = {
+        ["mapName"] = "deathknell",
+        ["cont"] = 2,
+        ["zone"] = 8,
+        ["numFloors"] = 0,
+        [0] = {},        
+    },
+    [893] = {
+        ["mapName"] = "sunstrider",
+        ["cont"] = 2,
+        ["zone"] = 23,
+        ["numFloors"] = 0,
+        [0] = {},        
+    },
+    [894] = {
+        ["mapName"] = "ammenvale",
+        ["cont"] = 1,
+        ["zone"] = 3,
+        ["numFloors"] = 0,
+        [0] = {},        
+    },
+    [895] = {
+        ["mapName"] = "tinkertown",
+        ["cont"] = 2,
+        ["zone"] = 1,
+        ["numFloors"] = 0,
+        [0] = {},        
+    },    
 }
 -- Distribute data from hardcoding to their maps
 for mapID, data in pairs(HARDCODED_MAP_INFORMATION) do

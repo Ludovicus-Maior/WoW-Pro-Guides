@@ -404,17 +404,14 @@ end
     
 function WoWPro:TryRemap(z,s,f,x,y)
     local map, pizo = WoWPro.Astrolabe:GetCurrentPlayerPosition()
-    if map == s then
-        WoWPro:dbp("Shifted from %d to %d",z,s)
-        return s,x,y
-    else
+    if map ~= s then
         return nil,nil,nil
     end
 	local nx , ny = AL:TranslateWorldMapPosition(z,f,x/100,y/100,s,f)
-	WoWPro:dbp("Remapping1 to %d,%g,%g",s,nx,ny)
+	WoWPro:Error("Remapping1 to %d,%g,%g",s,nx,ny)
 	if nx and ny then
 		-- Successfull translation, remap
-		WoWPro:dbp("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
+		WoWPro:Error("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
 		return s,nx*100,ny*100
 	end
 	return nil,nil,nil
