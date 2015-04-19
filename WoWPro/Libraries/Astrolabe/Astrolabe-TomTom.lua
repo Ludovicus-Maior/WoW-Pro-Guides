@@ -1504,7 +1504,6 @@ local MAPS_TO_REMAP = {
     [857] = {910}, -- Krasarang = Krasarang_terrain1
     [971] = {973, 974, 975, 991}, -- garrisonsmvalliance = garrisonsmvalliance_tier1, garrisonsmvalliance_tier3, garrisonsmvalliance_tier4, garrisonsmvalliance_tier2
     [976] = {980, 981, 982, 990}, -- garrisonffhorde = garrisonffhorde_tier1, garrisonffhorde_tier3, garrisonffhorde_tier4, garrisonffhorde_tier2
-    [464] = {894} -- "Azuremyst Isle to Ammen Vale"
 }
 -- Distribute data from valid maps to maps needing remapping
 for validMapID, remapMapIDs in pairs(MAPS_TO_REMAP) do
