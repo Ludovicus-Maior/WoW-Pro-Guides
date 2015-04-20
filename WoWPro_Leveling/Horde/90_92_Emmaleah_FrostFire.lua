@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2015-04-20 04:56
+-- Who: Emmaleah
+-- Log: corrected some dup rank tags and missed deletions of M tags from my last update.  (will I ever be done with this zone?)
+
+-- URL: http://wow-pro.com/node/3587/revisions/27192/view
 -- Date: 2015-04-07 20:44
 -- Who: Emmaleah
 -- Log: added Fen Tao (6.1 change) Setup rank 1 to be minimum to progress your garrison to lvl 2. Took M tags (and Z tags) out of all the steps with BUILDING tags so Ludovicus's code can give the correct cords.
@@ -384,19 +389,19 @@ C The Fall of the Warlord|QID|33467|M|23.2,26.6|N|Click on the weapon stand to s
 
 A Slaying Slavers|QID|33898|M|24.14,39.30|N|From Gol'kosh the Axe.|RANK|2|
 C Cut 'Em Out!|QID|36516|M|27,43|QO|2|NC|S|P|Leatherworking;165|N|Pick the sootweed that is also growing in the area as you go along.|
-C Slavery and Strife|QID|33119|M|30.59,41.56|QO|1|RANK|2|S|NC|N|To release the slaves, click on the ball they are chained to.|RANK|2|
+C Slavery and Strife|QID|33119|M|30.59,41.56|QO|1|RANK|2|S|NC|N|To release the slaves, click on the ball they are chained to.|
 C Slaying Slavers|QID|33898|M|24.14,39.30|S|N|Kill the ogres as you are freeing the slaves.|RANK|2|
 A Slave's Stash|QID|33500|M|27.6,42.8|N|Walk along the plank and jump from one roof to the next to loot.|RANK|2|
-C Slavery and Strife|QID|33119|M|30.59,41.56|QO|1|RANK|2|US|NC|N|To release the slaves, click on the ball they are chained to.|RANK|2|
-T Slavery and Strife|QID|33119|M|30.78,41.51|N|To Mulverick.|RANK|2|RANK|2|
-A Mulverick's Plight|QID|33483|M|30.78,41.51|N|From Mulverick.|RANK|2|RANK|2|
+C Slavery and Strife|QID|33119|M|30.59,41.56|QO|1|RANK|2|US|NC|N|To release the slaves, click on the ball they are chained to.|
+T Slavery and Strife|QID|33119|M|30.78,41.51|N|To Mulverick.|RANK|2|
+A Mulverick's Plight|QID|33483|M|30.78,41.51|N|From Mulverick.|RANK|2|PRE|33119|
 R Entrance to Sootstained Mine|QID|33483|M|29.62,41.73|CC|N|After you walk in the mine and enter the big room, open your map, if the waypoint is placed correctly (on the sootstained mine map) all is good.  If not, you need to type /reload to reload your UI as you have entered an alternate map area.|RANK|2|
-C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|S|RANK|2|N|Go down into the mines and collect the axes from taskmasters along the way.|RANK|2|
-C Mulverick's Plight|QID|33483|M|59.65,51.67;51.43,34.51|Z|Sootstained Mine|CS|QO|2|RANK|2|N|Go down into the mines and you will find Turgall with the key.|RANK|2|
-C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|US|RANK|2|N|You can run behind Turgall and jump down for a shortcut back to Mulverick.|T|Slavemaster Turgall|RANK|2|
-C Mulverick's Plight|QID|33483|M|30.78,41.52|QO|3|RANK|2|NC|N|Bring the key and the axes back to Mulverick.|RANK|2|
+C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|S|RANK|2|N|Go down into the mines and collect the axes from taskmasters along the way.|
+C Mulverick's Plight|QID|33483|M|59.65,51.67;51.43,34.51|Z|Sootstained Mine|CS|QO|2|RANK|2|N|Go down into the mines and you will find Turgall with the key.|
+C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|US|RANK|2|N|You can run behind Turgall and jump down for a shortcut back to Mulverick.|T|Slavemaster Turgall|
+C Mulverick's Plight|QID|33483|M|30.78,41.52|QO|3|RANK|2|NC|N|Bring the key and the axes back to Mulverick.|
 T Mulverick's Plight|QID|33483|M|30.77,41.44|N|To Mulverick.|RANK|2|
-A The Slavemaster's Demise|QID|33484|M|30.77,41.44|N|From Mulverick.|RANK|2|
+A The Slavemaster's Demise|QID|33484|M|30.77,41.44|N|From Mulverick.|RANK|2|PRE|33483|
 A Mulverick's Offer of Service|QID|34732|M|30.77,41.44|N|From Mulverick.|RANK|2|
 C From Their Cold Dead Hands|QID|36417|M|24.4,28.3|US|P|Tailoring;197|N|From the ogres you have been killing.|
 C Slaying Slavers|QID|33898|M|24.14,39.30|US|N|If you still need to kill ogres, now is the time to finish up.|RANK|2|
@@ -585,7 +590,7 @@ C Treasure-Clumsy Cragmaul Brute|QID|33531|M|50.1,18.7|N|More treasure just lyin
 N Explore Cold Snap Bluffs|QID|34348|M|51.7,18.7|CC|N|Be careful of the lvl 100 mobs. Check this off manually if you don't want to explore.|RANK|3|
 
 T The Real Prey|QID|34348|M|52.61,40.42|N|To Shadow Hunter Rala.|RANK|2|
-A Oath of Shadow Hunter Rala|QID|34731|M|52.61,40.42|RANK|2|N|From Shadow Hunter Rala.|PRE|34348|RANK|2|
+A Oath of Shadow Hunter Rala|QID|34731|M|52.61,40.42|RANK|2|N|From Shadow Hunter Rala.|PRE|34348|
 
 ;JC/BS interlude
 F Wor'gal|QID|36378|ACTIVE|36378|M|51.70,41.12|P|Jewelcrafting;755|N|At Ja'kana.|
@@ -728,8 +733,8 @@ T Your First Alchemy Work Order|QID|37568|BUILDING|AlchemyLab;76;119;120|N|From 
 ;if you choose scribes quarters SMALL
 A Your First Inscription Work Order|QID|37572|BUILDING|ScribesQtrs;95;129;130|N|From Urgra.|
 B Cereleun Pigment|QID|37572|BUILDING|ScribesQtrs;95;129;130|L|114931 2|N|Acquire from milling Draenor herbs or the Auction House or some other method.|
-C Place order|QID|37572|QO|1|M|BUILDING|ScribesQtrs;95;129;130|CHAT|N|Talk to Y'rogg to start a work order.|
-C Pick up order|QID|37572|QO|2|M|BUILDING|ScribesQtrs;95;129;130|NC|N|From the bundles, barrels and boxes beside the building, called 'Inscription Work Order'.|
+C Place order|QID|37572|QO|1|BUILDING|ScribesQtrs;95;129;130|CHAT|N|Talk to Y'rogg to start a work order.|
+C Pick up order|QID|37572|QO|2|BUILDING|ScribesQtrs;95;129;130|NC|N|From the bundles, barrels and boxes beside the building, called 'Inscription Work Order'.|
 T Your First Inscription Work Order|QID|37572|BUILDING|ScribesQtrs;95;129;130|N|From Y'rogg.|
 
 ;engineering works SMALL
@@ -748,7 +753,7 @@ C Pick up work order|QID|36645|QO|2|NC|N|At the bundles and boxes called 'Enchan
 T Your First Enchanting Work Order|QID|36645|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
 
 ;if you choose barn MED
-A Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|N|From Farmer Lok'lub|
+A Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|From Farmer Lok'lub|
 C Go trap an animal|QID|36345|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a wolf (in the shivering trench ~55,62) if you want fur (cloth) and a clefthoof (nearest concentration is outside of sootstained mines ~26,46) if you are interested in leather. You can trap more if you want, up to 7 can be turned in each day.|
 C Place a work order|QID|36345|QO|2|N|At Farmer Lok'lub, sometimes he gets bored and wanders around, I have found him as far away as my garrison's graveyard.|
 T Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|To Farmer Lok'lub|
