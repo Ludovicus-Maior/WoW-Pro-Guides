@@ -3,7 +3,8 @@
   <Script file="01_05_Gylin_Gnome_Starter.lua"/>
   <Script file="01_05_Kurich_Northshire_Forest.lua"/>
   <Script file="05_11_Kurich_Elwynn_Forest.lua"/>  
-  <Script file="01_12_Bitsem_Teldrassil.lua"/>
+  <Script file="01_05_Bitsem_Shadowglen.lua"/>
+  <Script file="05_12_Bitsem_Teldrassil.lua"/>
   <Script file="01_12_Snowflakes_Azuremyst.lua"/>
   <Script file="01_13_Rpotor_Worgen_Starter.lua"/>
   <Script file="05_10_Gameldar_Dun_Morogh.lua"/>

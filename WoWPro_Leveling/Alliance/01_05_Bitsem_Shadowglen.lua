@@ -1,0 +1,236 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2014-11-06 12:41
+-- Who: Fluclo
+-- Log: Duplicate N tag removed from Learning the Word
+
+-- URL: http://wow-pro.com/node/3204/revisions/26489/view
+-- Date: 2014-06-04 20:13
+-- Who: Ludovicus
+-- Log: Level adj
+
+-- URL: http://wow-pro.com/node/3204/revisions/26478/view
+-- Date: 2014-06-02 22:10
+-- Who: Ludovicus
+-- Log: Icons
+
+-- URL: http://wow-pro.com/node/3204/revisions/26350/view
+-- Date: 2014-05-27 20:40
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "1,9".
+
+-- URL: http://wow-pro.com/node/3204/revisions/26205/view
+-- Date: 2014-05-25 22:18
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3204/revisions/26140/view
+-- Date: 2014-05-20 19:20
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3204/revisions/25952/view
+-- Date: 2014-05-14 21:57
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3204/revisions/25588/view
+-- Date: 2013-03-23 20:17
+-- Who: Ludovicus
+-- Log: Name tweak on [The Moss-Twined Heart]
+
+-- URL: http://wow-pro.com/node/3204/revisions/25587/view
+-- Date: 2013-03-23 20:17
+-- Who: Ludovicus
+-- Log: Wrong QID in F step, bad zone name too.
+
+-- URL: http://wow-pro.com/node/3204/revisions/25586/view
+-- Date: 2013-03-23 20:14
+-- Who: Ludovicus
+-- Log: Tweaked [Learning the Word]
+
+-- URL: http://wow-pro.com/node/3204/revisions/25376/view
+-- Date: 2013-01-12 19:31
+-- Who: Ludovicus
+-- Log: Added a CN tag
+
+-- URL: http://wow-pro.com/node/3204/revisions/25135/view
+-- Date: 2012-10-09 15:35
+-- Who: Ludovicus
+-- Log: Added trial monk quests.  Coords are not correct.
+
+-- URL: http://wow-pro.com/node/3204/revisions/24688/view
+-- Date: 2011-07-23 02:55
+-- Who: Crackerhead22
+-- Log: Changed "A Healer's Touch" quest to "Rejuvenating Touch", fixed the note for it. Found by G Visje.
+
+-- URL: http://wow-pro.com/node/3204/revisions/24584/view
+-- Date: 2011-06-25 00:32
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 28724 -  Fixed, was supposed to be PRE
+--	! Missing A step for step T qid 28725 - Fixed
+--	! Duplicate A step for qid 489 - Fixed by removing duplicate line
+
+-- URL: http://wow-pro.com/node/3204/revisions/24582/view
+-- Date: 2011-06-25 00:19
+-- Who: Crackerhead22
+-- Log: Corrected QID for the turn-in of "Dolanaar Delivery".
+
+-- URL: http://wow-pro.com/node/3204/revisions/24561/view
+-- Date: 2011-06-20 01:35
+-- Who: Crackerhead22
+-- Log: Fixed PRE QID of !Line 41 for step A unknown QID 38713 in PRE: [A Fel Moss Corruption|QID|28714|PRE|38713|M|58.01,39.29|N|From Ilthalaine.|]
+
+-- URL: http://wow-pro.com/node/3204/revisions/24516/view
+-- Date: 2011-06-07 23:04
+-- Who: Ludovicus
+-- Log: ! Line 247, for step l non-decimal QID: [l Moss-Twined Heart|QID||M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill and loot it for the .|]
+
+-- URL: http://wow-pro.com/node/3204/revisions/24503/view
+-- Date: 2011-06-05 17:35
+-- Who: Crackerhead22
+-- Log: Added a couple of missing notes, added missing quests. Added in Race tags for NE only quests.
+
+-- URL: http://wow-pro.com/node/3204/revisions/24273/view
+-- Date: 2011-04-26 22:46
+-- Who: Ludovicus
+-- Log: Added missing N and PRE tags
+
+-- URL: http://wow-pro.com/node/3204/revisions/24220/view
+-- Date: 2011-04-05 23:33
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3204/revisions/24120/view
+-- Date: 2011-02-20 21:10
+-- Who: Ludovicus
+-- Log: Change starting level from '1' to '01' like the rest.
+
+-- URL: http://wow-pro.com/node/3204/revisions/24073/view
+-- Date: 2011-01-29 17:21
+-- Who: Ludovicus
+-- Log: Adding missing QID to Level 6 step.
+
+-- URL: http://wow-pro.com/node/3204/revisions/23274/view
+-- Date: 2010-12-02 23:14
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3204/revisions/23273/view
+-- Date: 2010-12-02 23:14
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3204/revisions/23272/view
+-- Date: 2010-12-02 23:13
+-- Who: Jiyambi
+
+local guide = WoWPro:RegisterGuide('BitTel0110', "Leveling", 'Shadowglen (NightElf)', 'Bitsem', 'Alliance')
+WoWPro:GuideLevels(guide,1,9, 3.5814)
+WoWPro:GuideNextGuide(guide, 'BitTel0510')
+WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))
+WoWPro:GuideSteps(guide, function()
+return [[
+
+A The Balance of Nature|QID|28713|M|57.97,39.19|N|From Ilthalaine.|
+C The Balance of Nature|QID|28713|M|58.23,40.16|N|Kill Young Nightsabers.|
+
+L Level 2|QID|28713|LVL|2|N|You should be around level 2 by this point.|
+
+T The Balance of Nature|QID|28713|M|58.01,39.29|N|To Ilthalaine.|
+A Fel Moss Corruption|QID|28714|PRE|28713|M|58.01,39.29|N|From Ilthalaine.|
+A Demonic Thieves|QID|28715|PRE|28734|M|58.04,38.85|N|From Melithar Staghelm.|
+
+C Fel Moss Corruption|QID|28714|S|M|55.68,40.12|N|Kill and loot Grells.|
+C Demonic Thieves|QID|28715|M|55.66,40.39|N|Collect Meltihar's Stolen Bags from the ground.|
+C Fel Moss Corruption|QID|28714|US|M|55.68,40.12|N|Finish killing Grells for Fel Moss.|
+
+T Demonic Thieves|QID|28715|M|58.01,38.81|N|To Melithar Staghelm.|
+
+L Level 3|QID|28715|LVL|3|N|You should be around level 3 by this point.|
+
+T Fel Moss Corruption|QID|28714|M|58.07,38.86|N|To Ilthalaine.|
+
+A Etched Sigil|QID|3117|PRE|28714|C|Hunter|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
+A Verdant Sigil|QID|3120|PRE|28714|C|Druid|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
+A Forbidden Sigil|QID|26841|PRE|28714|C|Mage|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
+A Simple Sigil|QID|3116|PRE|28714|C|Warrior|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
+A Hallowed Sigil|QID|3119|PRE|28714|C|Priest|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
+A Encrypted Sigil|QID|3118|PRE|28714|C|Rogue|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
+A Calligraphed Sigil|QID|31168|PRE|28714|C|Monk|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
+
+T Etched Sigil|QID|3117|M|58.82,35.86|C|Hunter|N|To Ayanna Everstride.|R|Night Elf|
+T Verdant Sigil|QID|3120|C|Druid|M|58.2,34.8|N|To Mardant Strongoak.|R|Night Elf|
+T Forbidden Sigil|QID|26841|C|Mage|M|58.4,35.6|N|To Rhyanda.|R|Night Elf|
+T Simple Sigil|QID|3116|C|Warrior|M|58.8,33.8|N|To Alyissia.|R|Night Elf|
+T Hallowed Sigil|QID|3119|C|Priest|M|58.4,35.6|N|To Shanda.|R|Night Elf|
+T Encrypted Sigil|QID|3118|C|Rogue|M|58.8,33.9|N|To Frahun Shadewhisper.|R|Night Elf|
+T Calligraphed Sigil|QID|31168|C|Monk|M|58.8,33.9|N|To Laoxi.|R|Night Elf|
+
+A A Woodsman's Training|QID|26947|PRE|3117|C|Hunter|M|58.82,35.86|N|From Ayanna Everstride.|R|Night Elf|
+A Rejuvenating Touch|QID|26948|PRE|3120|C|Druid|M|58.2,34.8|N|From Mardant Strongoak.|R|Night Elf|
+A Arcane Missles|QID|26940|PRE|26841|C|Mage|M|58.4,35.6|N|From Rhyanda.|R|Night Elf|
+A Learning New Techniques|QID|26945|PRE|3116|C|Warrior|M|58.8,33.8|N|From Alyissia.|R|Night Elf|
+A Learning the Word|QID|26949|PRE|3119|C|Priest|M|58.4,35.6|N|From Shanda.|R|Night Elf|
+A A Rogue's Advantage|QID|26946|PRE|3118|C|Rogue|M|58.8,33.9|N|From Frahun Shadewhisper.|R|Night Elf|
+A The Art of the Monk|QID|31169|PRE|31168|C|Monk|M|58.8,33.9|N|From Laoxi.|R|Night Elf|
+
+C A Woodsman's Training|QID|26947|C|Hunter|M|58.83,35.82|N|Train Steady Shot and practice it 5 times on a practice dummy.|R|Night Elf|
+C Rejuvenating Touch|QID|26948|C|Druid|N|Train Rejuvenation. Use it to heal a Wounded Sentinel.|R|Night Elf|
+C Arcane Missles|QID|26940|C|Mage|M|58.83,35.82|N|Train Arcane Missles. Use it 5 times on Training Dummy.|R|Night Elf|
+C Learning New Techniques|QID|26945|C|Warrior|M|58.2,34.8|N|Train Charge. Use it 5 times on Training Dummy.|R|Night Elf|
+C Learning the Word|QID|26949|C|Priest|N|Train Shadow Word: Pain. Use it 5 times on Training Dummy.|R|Night Elf|
+C A Rogue's Advantage|QID|26946|C|Rogue|M|58.83,35.82|N|Train Eviscerate. Use it 5 times on Training Dummy.|R|Night Elf|
+C The Art of the Monk|QID|31169|C|Monk|M|58.83,35.82|N|Use Tiger Palm on Training Dummy.|R|Night Elf|
+
+T A Woodsman's Training|QID|26947|C|Hunter|M|58.83,35.82|N|To Ayanna Everstride.|R|Night Elf|
+T Rejuvenating Touch|QID|26948|C|Druid|M|58.2,34.8|N|To Mardant Strongoak.|R|Night Elf|
+T Arcane Missles|QID|26940|C|Mage|M|58.4,35.6|N|To Rhyanda.|R|Night Elf|
+T Learning New Techniques|QID|26945|C|Warrior|M|58.8,33.8|N|To Alyissia.|R|Night Elf|
+T Learning the Word|QID|26949|C|Priest|M|58.4,35.6|N|To Shanda.|R|Night Elf|
+T A Rogue's Advantage|QID|26946|C|Rogue|M|58.8,33.9|N|To Frahun Shadewhisper.|R|Night Elf|
+T The Art of the Monk|QID|31169|C|Monk|M|58.8,33.9|N|To Laoxi.|R|Night Elf|
+
+A Priestess of the Moon|QID|28723|M|58.85,35.75|N|From Ayanna Everstride.|R|Night Elf|
+T Priestess of the Moon|QID|28723|M|57.21,33.33|N|To Dentaria Silverglade.|R|Night Elf|
+
+A Iverron's Antidote|QID|28724|PRE|28723|M|57.21,33.33|N|From Dentaria Silverglade.|R|Night Elf|
+C Iverron's Antidote|QID|28724|M|57.40,33.56|N|Around the pools.|R|Night Elf|
+T Iverron's Antidote|QID|28724|M|57.19,33.29|N|To Dentaria Silverglade.|R|Night Elf|
+
+A The Woodland Protector|QID|28725|PRE|28724|M|56.38,27.92|N|From Tarindrella.|R|Night Elf|
+T The Woodland Protector|QID|28725|M|56.38,27.92|N|To Tarindrella.|R|Night Elf|
+
+A Webwood Corruption|QID|28726|PRE|28725|M|56.36,27.72|N|From Tarindrella.|R|Night Elf|
+
+L Level 4|QID|28726|LVL|4|N|You should be around level 4 by this point.|
+
+C Webwood Corruption|QID|28726|M|56.31,22.50|N|Tarindrella will accompany you.|R|Night Elf|
+T Webwood Corruption|QID|28726|M|56.31,22.50|N|Tarindrella should still be with you. Turn in to her.|R|Night Elf|
+
+A Vile Touch|QID|28727|PRE|28726|N|From Tarindrella. She's still with you.|R|Night Elf|
+C Vile Touch|QID|28727|QO|Githyiss the Vile slain: 1/1|M|56.28,22.52|N|Kill Gilthyiss the Vile.|R|Night Elf|
+T Vile Touch|QID|28727|M|57.16,33.09|N|To Ayanna Everstride.|R|Night Elf|
+
+A Signs of Things to Come|QID|28728|PRE|28727|NC|N|From Tarindrella. She'll teleport you back to Dentaria Silverglade.|R|Night Elf|
+T Signs of Things to Come|QID|28728|M|57.18,33.20|N|To Dentaria Silverglade.|R|Night Elf|
+
+A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|M|57.18,33.20|N|From Dentaria Silverglade.|R|Night Elf|
+C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|59.15,29.09|N|Use the Phial at the moonwell.|R|Night Elf|
+T Teldrassil: Crown of Azeroth|QID|28729|M|57.22,33.15|N|To Dentaria Silverglade.|R|Night Elf|
+
+A Precious Waters|QID|28730|PRE|28729|M|57.22,33.15|N|From Dentaria Silverglade.|R|Night Elf|
+T Precious Waters|QID|28730|M|57.00,36.49;58.39,34.54|CS|N|Up the ramp to Tenaron Stormgrip.|R|Night Elf|
+
+L Level 5|QID|28730|LVL|5|N|You should be around level 5 by this point.|
+
+A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|58.39,34.54|N|From Tenaron Stormgrip.|R|Night Elf|
+
+r Aldrassil|QID|28731|NC|M|58.73,35.99|N|Repair and Restock. Sell junk and train.|R|Night Elf|
+
+A Dolanaar Delivery|QID|2159|M|60.19,41.64|N|From Porthannius.|
+
+]]
+
+end)
