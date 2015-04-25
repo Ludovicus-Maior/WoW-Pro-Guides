@@ -3,17 +3,6 @@
 ----------------------------------
 
 -- Map information from 5.0.5 (16057) 9/15
-
-WoWPro.SubZone = {
-	[30] = 864, -- "Elwynn Forest" => "Northshire"
-	[9] = 890, -- "Mulgore" to "Camp Narache"
-	[27] = {866, 895}, -- "Dun Morogue" to Coldridge Valley or New Tinkertown"
-	[462] = 893, -- "Eversong to Sunstrider"
-	[20] = 892, -- "Tirisfal Glades to Deathknell"
-	[464] = 894, -- "Azuremyst Isle to Ammen Vale"
-	[41] = 888, -- "Teldrassil to Shadowglen"
-	[4] = {889,891}, -- "Durotar to Valley of Trials or Echo Isles"
-	}
 	
 WoWPro.Zone2MapID = {}
 WoWPro.MapID2Zone = {}

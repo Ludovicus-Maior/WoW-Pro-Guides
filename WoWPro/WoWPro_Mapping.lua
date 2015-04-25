@@ -400,38 +400,7 @@ function WoWPro:ValidZone(zone)
     end    
     return false
 end
-    
-    
-function WoWPro:TryRemap(z,s,f,x,y)
-    local map, pizo = WoWPro.Astrolabe:GetCurrentPlayerPosition()
-    if map ~= s then
-        return nil,nil,nil
-    end
-	local nx , ny = AL:TranslateWorldMapPosition(z,f,x/100,y/100,s,f)
-	if nx and ny then
-		-- Successfull translation, remap
-		WoWPro:dbp("WoWPro:TryRemap: %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
-		return s,nx*100,ny*100
-	else
-	    WoWPro:dbp("WoWPro:TryRemap: to %d,%g,%g to %s failed.",z,x,y,s)	    
-	end
-	return nil,nil,nil
-end
 
-function WoWPro:MaybeRemap(z,f,x,y)
-    if (not WoWPro.SubZone[z])  or (not AL) or (not AL.TranslateWorldMapPosition) then return nil,nil,nil end
-    WoWPro:dbp("Remap? %d/%g,%g %s",z,x,y,tostring(WoWPro.SubZone[z]))
-    if type(WoWPro.SubZone[z]) == "number" then
-        return WoWPro:TryRemap(z,WoWPro.SubZone[z],f,x,y)
-    end
-    if type(WoWPro.SubZone[z]) == "table" then
-        for idx, val in ipairs(WoWPro.SubZone[z]) do
-            local z,x,y = WoWPro:TryRemap(z,val,f,x,y)
-            if z then return z,x,y end
-        end
-    end
-	return nil,nil,nil
-end
 
 function WoWPro:ValidateMapCoords(guide,action,step,coords)
 	local numcoords = select("#", string.split(";", coords))
@@ -606,13 +575,7 @@ function WoWPro:MapPoint(row)
 				else
 				    title = desc
 				end
-				local mm,mx,my = WoWPro:MaybeRemap(zm,zf,x,y)
-				if mm then
-					-- Remapped coords
-				    uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
-				else
-				    uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
-				end
+				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
 				if not uid then
 				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
 				end
