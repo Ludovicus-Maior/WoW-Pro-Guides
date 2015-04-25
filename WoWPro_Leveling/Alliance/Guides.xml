@@ -1,7 +1,8 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
   <Script file="01_05_Gylin_Dwarf_Starter.lua"/>
   <Script file="01_05_Gylin_Gnome_Starter.lua"/>
-  <Script file="01_11_Kurich_Elwynn_Forest.lua"/>
+  <Script file="01_05_Kurich_Northshire_Forest.lua"/>
+  <Script file="05_11_Kurich_Elwynn_Forest.lua"/>  
   <Script file="01_12_Bitsem_Teldrassil.lua"/>
   <Script file="01_12_Snowflakes_Azuremyst.lua"/>
   <Script file="01_13_Rpotor_Worgen_Starter.lua"/>
