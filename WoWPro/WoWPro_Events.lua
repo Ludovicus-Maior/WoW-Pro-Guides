@@ -345,7 +345,7 @@ function WoWPro:UpdateQuestTracker()
 			    local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
 				local j = WoWPro.QuestLog[qid].index
 				row.trackcheck = true
-				if not questtext and action == "C" then
+				if not questtext and action == "C" and WoWPro.QuestLog[qid].leaderBoard then
 				    -- no QO tag specified, lets set something up
 				    WoWPro:dbp("UQT: QID %d active, but no QO tag, lets make something up.", qid)
 					if WoWPro.QuestLog[qid].leaderBoard[1] then
@@ -393,6 +393,9 @@ function WoWPro:UpdateQuestTracker()
     						end
     					end
 					end
+				else
+				    --No questtext or leaderboard
+				    WoWPro:dbp("UQT: QID %d active, but no QO or leaderBoard!", qid)
 				end
 			end
 			if lootitem then
