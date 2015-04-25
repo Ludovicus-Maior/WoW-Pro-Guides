@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2015-04-25 15:17
+-- Who: Ludovicus
+-- Log: Add Iceshatter QO's
+
+-- URL: http://wow-pro.com/node/3292/revisions/26770/view
 -- Date: 2014-10-30 02:47
 -- Who: Emmaleah
 -- Log: clarify quest A Flesh Bound tome per user's comment here http://wow-pro.com/comment/reply/3123/54199#comment-54199
@@ -365,10 +370,10 @@ K Bonesunder |QID|12148|QO|Emblazoned Battle Horn: 1/1|M|50.64,58.5|N|Look for B
 T One of a Kind |QID|12148|M|60.0,55.1|N|To Aurastrasza.|
 
 A Mighty Magnataur |QID|12149|N|From Aurastrasza.|M|60.0,55.1|
-K Drakegore |QID|12149|QO|Drakegore slain: 1/1|M|67.4,39;68,42.4|CN|N|Kill Drakegore. He also has an aura which does 300 fire damage to enemies in his melee range, nothing too bad.|
-K Iceshatter |QID|12149|QO|Iceshatter slain: 1/1|M|67,50|N|Kill Iceshatter. He periodically casts Pulsing Shards. This is very dangerous and can't be interrupted. Either run away while he channels it or use something like cloak of shadows, divine shield, ice block.|
+K Drakegore |QID|12149|QO|3|M|67.4,39;68,42.4|CN|N|Kill Drakegore. He also has an aura which does 300 fire damage to enemies in his melee range, nothing too bad.|
+K Iceshatter |QID|12149|QO|1|M|67,50|N|Kill Iceshatter. He periodically casts Pulsing Shards. This is very dangerous and can't be interrupted. Either run away while he channels it or use something like cloak of shadows, divine shield, ice block.|
 C In Service of Frost |QID|12127|U|36847|N|Ice Revenants will be on a frozen lake just south of you. Beat one down to 35% and use the Frost Gem on it.|M|66.2,52.9|
-C Mighty Magnataur |QID|12149|M|67.4,70.2|N|Kill Bloodfeast. He summons maggots which heal him up.|
+K Bloodfeast |QID|12149|QO|2|M|67.4,70.2|N|Kill Bloodfeast. He summons maggots which heal him up.|
 T Mighty Magnataur |QID|12149||M|60.0,55.1|N|To Aurastrasza.|
 A Reclusive Runemaster |QID|12150|N|From Aurastrasza.|M|60.0,55.1|
 K Deathguard Schneider |QID|12245|QO|Deathguard Schneider slain: 1/1|N|New Hearthglen. She's behind the gallows in a cage, talk to her and select the first text option; kill her.|M|71.4,72.2|

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-04-25 20:41
+-- Who: Ludovicus
+-- Log: Change zone for Troll starter
+
+-- URL: http://wow-pro.com/node/3199/revisions/27208/view
+-- Date: 2015-04-25 17:57
+-- Who: Ludovicus
+-- Log: Shift zone
+
+-- URL: http://wow-pro.com/node/3199/revisions/26967/view
 -- Date: 2014-11-12 00:04
 -- Who: Fluclo
 -- Log: Removing duplicate PREs
@@ -272,19 +282,6 @@
 -- Date: 2011-04-29 15:19
 -- Who: Ludovicus
 -- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
-
--- URL: http://wow-pro.com/node/3199/revisions/24148/view
--- Date: 2011-03-08 12:18
--- Who: Ludovicus
--- Log: Redid quest sequence for Orc starting area as [Hana'zua] now has a pre-requisite.
-
--- URL: http://wow-pro.com/node/3199/revisions/24043/view
--- Date: 2011-01-24 00:46
--- Who: Ludovicus
--- Log: Optimize acquisition of a few quests: [The War of Northwatch Aggression], [A Exploiting the Situation].
---	Do [The Wolf and The Kodo] first, in order to maximize the water breathing buff.
---	Coordinate tweaks for [Thonk], [Raggaran's Rage], [Neeru Fireblade].
---	Addition note for [Lost But Not Forgotten], so you don't kill alligators before you need them.
 
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)

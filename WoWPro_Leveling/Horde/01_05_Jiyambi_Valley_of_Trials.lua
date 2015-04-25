@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-04-25 20:41
+-- Who: Ludovicus
+-- Log: Change zone for Troll starter
+
+-- URL: http://wow-pro.com/node/3199/revisions/27208/view
+-- Date: 2015-04-25 17:57
+-- Who: Ludovicus
+-- Log: Shift zone
+
+-- URL: http://wow-pro.com/node/3199/revisions/26967/view
 -- Date: 2014-11-12 00:04
 -- Who: Fluclo
 -- Log: Removing duplicate PREs
@@ -273,111 +283,101 @@
 -- Who: Ludovicus
 -- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
 
--- URL: http://wow-pro.com/node/3199/revisions/24148/view
--- Date: 2011-03-08 12:18
--- Who: Ludovicus
--- Log: Redid quest sequence for Orc starting area as [Hana'zua] now has a pre-requisite.
-
--- URL: http://wow-pro.com/node/3199/revisions/24043/view
--- Date: 2011-01-24 00:46
--- Who: Ludovicus
--- Log: Optimize acquisition of a few quests: [The War of Northwatch Aggression], [A Exploiting the Situation].
---	Do [The Wolf and The Kodo] first, in order to maximize the water breathing buff.
---	Coordinate tweaks for [Thonk], [Raggaran's Rage], [Neeru Fireblade].
---	Addition note for [Lost But Not Forgotten], so you don't kill alligators before you need them.
-
-local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Durotar (Orc)', 'Jiyambi', 'Horde')
+local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'ValleyofTrials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Orc_Male","Interface\\Icons\\Achievement_Character_Orc_Female"))
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Your Place In The World|QID|25152|M|43.33,68.81|N|From Kaltunk.|
-T Your Place In The World|QID|25152|M|43.22,68.23|N|To Gornek.|
-A Cutting Teeth|QID|25126|M|43.22,68.23|N|From Gornek.|
-C Cutting Teeth|QID|25126|M|44.90,65.60|N|Kill boars in the nearby boar pen.|
-T Cutting Teeth|QID|25126|M|43.26,68.22|N|To Gornek.|
+A Your Place In The World|QID|25152|M|45.33,68.58|N|From Kaltunk.|
+T Your Place In The World|QID|25152|M|44.90,66.31|N|To Gornek.|
+A Cutting Teeth|QID|25126|M|44.94,66.43|N|From Gornek.|
+C Cutting Teeth|QID|25126|M|51.48,56.01|N|Kill boars in the nearby boar pen.|
+T Cutting Teeth|QID|25126|M|44.94,66.43|N|To Gornek.|
 
-A Invaders in Our Home|QID|25172|M|43.23,68.21|N|From Gornek.|
-C Invaders in Our Home|QID|25172|M|43.91,72.54|N|Kill Northwatch scouts to the south.|
-T Invaders in Our Home|QID|25172|M|43.27,68.24|N|To Gornek.|
+A Invaders in Our Home|QID|25172|M|44.94,66.43|N|From Gornek.|
+C Invaders in Our Home|QID|25172|M|47.60,83.19|N|Kill Northwatch scouts to the south.|
+T Invaders in Our Home|QID|25172|M|44.94,66.43|N|To Gornek.|
 
-A Galgar's Cactus Apple Surprise|QID|25136|M|42.75,67.31|N|From Galgar.|
-C Galgar's Cactus Apple Surprise|QID|25136|NC|M|44.62,64.74|N|Loot cactus apples from cactuses.|
-T Galgar's Cactus Apple Surprise|QID|25136|M|42.73,67.29|N|To Galgar.|
+A Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|From Galgar.|
+C Galgar's Cactus Apple Surprise|QID|25136|NC|M|50.38,52.64|N|Loot cactus apples from cactuses.|
+T Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|To Galgar.|
 
 L Level 3|QID|25127|LVL|3|N|You need to be Level 3 to continue with this guide.|
 
-A Rune-Inscribed Parchment|QID|3089|R|Orc|C|Shaman|M|43.22,68.23|N|From Gornek.|
-A Glyphic Parchment|QID|25138|R|Orc|C|Mage|M|43.22,68.23|N|From Gornek.|
-A Simple Parchment|QID|2383|R|Orc|C|Warrior|M|43.22,68.23|N|From Gornek.|
-A Etched Parchment|QID|3087|R|Orc|C|Hunter|M|43.22,68.23|N|From Gornek.|
-A Tainted Parchment|QID|3090|R|Orc|C|Warlock|M|43.22,68.23|N|From Gornek.|
-A Encrypted Parchment|QID|3088|R|Orc|C|Rogue|M|43.22,68.23|N|From Gornek.|
+A Rune-Inscribed Parchment|QID|3089|R|Orc|C|Shaman|M|44.94,66.43|N|From Gornek.|
+A Glyphic Parchment|QID|25138|R|Orc|C|Mage|M|44.94,66.43|N|From Gornek.|
+A Simple Parchment|QID|2383|R|Orc|C|Warrior|M|44.94,66.43|N|From Gornek.|
+A Etched Parchment|QID|3087|R|Orc|C|Hunter|M|44.94,66.43|N|From Gornek.|
+A Tainted Parchment|QID|3090|R|Orc|C|Warlock|M|44.94,66.43|N|From Gornek.|
+A Encrypted Parchment|QID|3088|R|Orc|C|Rogue|M|44.94,66.43|N|From Gornek.|
 
-T Rune-Inscribed Parchment|QID|3089|R|Orc|C|Shaman|M|42.39,69.00|N|To Shikrik.|
-T Glyphic Parchment|QID|25138|R|Orc|C|Mage|M|42.51,69.04|N|To Acrypha.|
-T Simple Parchment|QID|2383|R|Orc|C|Warrior|M|42.88,69.45|N|To Frang.|
-T Etched Parchment|QID|3087|R|Orc|C|Hunter|M|42.84,69.33|N|To Karranisha.|
-T Tainted Parchment|QID|3090|R|Orc|C|Warlock|M|42.39,68.07|N|To Nartok.|
-T Encrypted Parchment|QID|3088|R|Orc|C|Rogue|M|42.37,68.81|N|To Rwag.|
+T Rune-Inscribed Parchment|QID|3089|R|Orc|C|Shaman|M|41.64,69.32|N|To Shikrik.|
+T Glyphic Parchment|QID|25138|R|Orc|C|Mage|M|42.11,69.48|N|To Acrypha.|
+T Simple Parchment|QID|2383|R|Orc|C|Warrior|M|43.56,71.09|N|To Frang.|
+T Etched Parchment|QID|3087|R|Orc|C|Hunter|M|43.41,70.62|N|To Karranisha.|
+T Tainted Parchment|QID|3090|R|Orc|C|Warlock|M|41.64,65.68|N|To Nartok.|
+T Encrypted Parchment|QID|3088|R|Orc|C|Rogue|M|41.57,68.58|N|To Rwag.|
 
-A Primal Strike|QID|25143|R|Orc|C|Shaman|PRE|3089|M|42.39,69.00|N|From Shikrik.|
-A Arcane Missiles|QID|25149|R|Orc|C|Mage|PRE|25138|M|42.51,69.04|N|From Acrypha.|
-A Charge|QID|25147|R|Orc|C|Warrior|PRE|2383|M|42.88,69.45|N|From Frang.|
-A Steady Shot|QID|25139|R|Orc|C|Hunter|PRE|3087|M|42.84,69.33|N|From Karranisha.|
-A Immolate|QID|25145|R|Orc|C|Warlock|PRE|3090|M|42.39,68.07|N|From Nartok.|
-A Eviscerate|QID|25141|R|Orc|C|Rogue|PRE|3088|M|42.37,68.81|N|From Rwag.|
+A Primal Strike|QID|25143|R|Orc|C|Shaman|PRE|3089|M|41.64,69.32|N|From Shikrik.|
+A Arcane Missiles|QID|25149|R|Orc|C|Mage|PRE|25138|M|42.11,69.48|N|From Acrypha.|
+A Charge|QID|25147|R|Orc|C|Warrior|PRE|2383|M|43.56,71.09|N|From Frang.|
+A Steady Shot|QID|25139|R|Orc|C|Hunter|PRE|3087|M|43.41,70.62|N|From Karranisha.|
+A Immolate|QID|25145|R|Orc|C|Warlock|PRE|3090|M|41.64,65.68|N|From Nartok.|
+A Eviscerate|QID|25141|R|Orc|C|Rogue|PRE|3088|M|41.57,68.58|N|From Rwag.|
 
-C Primal Strike|QID|25143|R|Orc|C|Shaman|M|42.39,69.00|N|Train Primal Strike and practice on training dummy.|
-C Arcane Missiles|QID|25149|R|Orc|C|Mage|M|42.51,69.04|N|Train Arcane Missiles and practice on training dummy.|
-C Charge|QID|25147|R|Orc|C|Warrior|M|42.88,69.45|N|Train Charge and practice on training dummy.|
-C Steady Shot|QID|25139|R|Orc|C|Hunter|M|42.84,69.33|N|Train Steady Shot and practice on training dummy.|
-C Immolate|QID|25145|R|Orc|C|Warlock|M|42.39,68.07|N|Train Immolate and practice on training dummy.|
-C Eviscerate|QID|25141|R|Orc|C|Rogue|M|42.37,68.81|N|Train Eviscerate and practice on training dummy.|
+C Primal Strike|QID|25143|R|Orc|C|Shaman|M|41.64,69.32|N|Train Primal Strike and practice on training dummy.|
+C Arcane Missiles|QID|25149|R|Orc|C|Mage|M|42.11,69.48|N|Train Arcane Missiles and practice on training dummy.|
+C Charge|QID|25147|R|Orc|C|Warrior|M|43.56,71.09|N|Train Charge and practice on training dummy.|
+C Steady Shot|QID|25139|R|Orc|C|Hunter|M|43.41,70.62|N|Train Steady Shot and practice on training dummy.|
+C Immolate|QID|25145|R|Orc|C|Warlock|M|41.64,65.68|N|Train Immolate and practice on training dummy.|
+C Eviscerate|QID|25141|R|Orc|C|Rogue|M|41.57,68.58|N|Train Eviscerate and practice on training dummy.|
 
-T Primal Strike|QID|25143|R|Orc|C|Shaman|M|42.39,69.00|N|To Shikrik.|
-T Arcane Missiles|QID|25149|R|Orc|C|Mage|M|42.51,69.04|N|To Acrypha.|
-T Charge|QID|25147|R|Orc|C|Warrior|M|42.88,69.45|N|To Frang.|
-T Steady Shot|QID|25139|R|Orc|C|Hunter|M|42.84,69.33|N|To Karranisha.|
-T Immolate|QID|25145|R|Orc|C|Warlock|M|42.39,68.07|N|To Nartok.|
-T Eviscerate|QID|25141|R|Orc|C|Rogue|M|42.37,68.81|N|To Rwag.|
+T Primal Strike|QID|25143|R|Orc|C|Shaman|M|41.64,69.32|N|To Shikrik.|
+T Arcane Missiles|QID|25149|R|Orc|C|Mage|M|42.11,69.48|N|To Acrypha.|
+T Charge|QID|25147|R|Orc|C|Warrior|M|43.56,71.09|N|To Frang.|
+T Steady Shot|QID|25139|R|Orc|C|Hunter|M|43.41,70.62|N|To Karranisha.|
+T Immolate|QID|25145|R|Orc|C|Warlock|M|41.64,65.68|N|To Nartok.|
+T Eviscerate|QID|25141|R|Orc|C|Rogue|M|41.57,68.58|N|To Rwag.|
 
-A Sting of the Scorpid|QID|25127|M|43.27,68.24|N|From Gornek.|
-A Lazy Peons|QID|37446|M|43.51,67.47|N|From Foreman Thazz'ril.|
-C Lazy Peons|QID|37446|S|NC|U|16114|M|46.50,63.00|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
-C Sting of the Scorpid|QID|25127|M|46.50,63.00|N|Kill and loot scorpids.|
-C Lazy Peons|QID|37446|US|NC|U|16114|M|46.50,63.00|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
-T Lazy Peons|QID|37446|M|43.54,67.48|N|To Foreman Thazz'ril.|
-T Sting of the Scorpid|QID|25127|M|43.26,68.17|N|To Gornek.|
+A Sting of the Scorpid|QID|25127|M|44.94,66.43|N|From Gornek.|
+A Lazy Peons|QID|37446|M|46.03,63.33|N|From Foreman Thazz'ril.|
+C Lazy Peons|QID|37446|S|NC|U|16114|M|57.74,45.82|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
+C Sting of the Scorpid|QID|25127|M|57.74,45.82|N|Kill and loot scorpids.|
+C Lazy Peons|QID|37446|US|NC|U|16114|M|57.74,45.82|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
+T Lazy Peons|QID|37446|M|46.15,63.37|N|To Foreman Thazz'ril.|
+T Sting of the Scorpid|QID|25127|M|44.94,66.43|N|To Gornek.|
 
-A Hana'zua|QID|25128|PRE|25127|M|42.40,69.16|N|From Canaga Earthcaller.|
-A Vile Familiars|QID|25131|PRE|25127|M|43.43,67.48|N|From Zureetha Fargaze.|
-C Vile Familiars|QID|25131|M|44.48,56.56|N|Kill Vile Familiars near the cave to the north.|
-T Hana'zua|QID|25128|M|40.63,62.58|N|To Hana'zua.|
-A Sarkoth|QID|25129|M|40.63,62.58|N|From Hana'zua.|
-C Sarkoth|QID|25129|M|40.35,66.85|N|Kill and loot Sarkoth.|
-T Sarkoth|QID|25129|M|40.59,62.63|N|To Hana'zua.|
-A Back to the Den|QID|25130|M|40.59,62.63|N|From Hana'zua.|
-T Back to the Den|QID|25130|M|40.54,66.91;42.12,67.37;43.26,68.17|CC|N|To Gornek at the starting area.  As a short-cut, you can jump down near where you fought Sarkoth.|
-T Vile Familiars|QID|25131|M|43.47,67.48|N|To Zureetha Fargaze.|
+A Hana'zua|QID|25128|PRE|25127|M|41.68,69.95|N|From Canaga Earthcaller.|
+A Vile Familiars|QID|25131|PRE|25127|M|45.72,63.37|N|From Zureetha Fargaze.|
+C Vile Familiars|QID|25131|M|49.83,20.60|N|Kill Vile Familiars near the cave to the north.|
+T Hana'zua|QID|25128|M|34.75,44.18|N|To Hana'zua.|
+A Sarkoth|QID|25129|M|34.75,44.18|N|From Hana'zua.|
+C Sarkoth|QID|25129|M|33.65,60.90|N|Kill and loot Sarkoth.|
+T Sarkoth|QID|25129|M|34.59,44.38|N|To Hana'zua.|
+A Back to the Den|QID|25130|M|34.59,44.38|N|From Hana'zua.|
+T Back to the Den|QID|25130|M|34.40,61.14;40.59,62.94;45.05,66.07|CC|N|To Gornek at the starting area.  As a short-cut, you can jump down near where you fought Sarkoth.|
+T Vile Familiars|QID|25131|M|45.87,63.37|N|To Zureetha Fargaze.|
 
-A Burning Blade Medallion|QID|25132|M|43.47,67.48|N|From Zureetha Fargaze.|
-A Thazz'ril's Pick|QID|25135|M|43.47,67.48|N|From Foreman Thazz'ril.|
+A Burning Blade Medallion|QID|25132|M|45.87,63.37|N|From Zureetha Fargaze.|
+A Thazz'ril's Pick|QID|25135|M|45.87,63.37|N|From Foreman Thazz'ril.|
 
-C Burning Blade Medallion|QID|25132|M|42.43,53.53|N|Kill felstalkers as you go through the cave.|S|QO|Felstalker slain: 7/7|
-C Thazz'ril's Pick|QID|25135|NC|M|43.75,53.77|N|Inside the cave, central passage.|
-K Yarrog Baneshadow|QID|25132|M|42.43,53.53|N|Kill Yarrog Baneshadow, then loot the Burning Blade Medallion.  On entering the cave, he's at the end of the left tunnel, from Thazz'ril's Pick, take the tunnels to the right.|QO|2|
-C Burning Blade Medallion|QID|25132|M|42.50,55.25|N|Finish killing the felstalkers as you leave the cave|US|QO|1|
+C Burning Blade Medallion|QID|25132|M|41.80,8.73|N|Kill felstalkers as you go through the cave.|S|QO|Felstalker slain: 7/7|
+C Thazz'ril's Pick|QID|25135|NC|M|46.97,9.67|N|Inside the cave, central passage.|
+K Yarrog Baneshadow|QID|25132|M|41.80,8.73|N|Kill Yarrog Baneshadow, then loot the Burning Blade Medallion.  On entering the cave, he's at the end of the left tunnel, from Thazz'ril's Pick, take the tunnels to the right.|QO|2|
+C Burning Blade Medallion|QID|25132|M|42.08,15.47|N|Finish killing the felstalkers as you leave the cave|US|QO|1|
 
-H Valley of Trials|QID|25132|M|45.19,68.72|CC|N|Hearth or run back the The Den.|
+H Valley of Trials|QID|25132|M|52.61,68.23|CC|N|Hearth or run back the The Den.|
 
-T Thazz'ril's Pick|QID|25135|M|43.51,67.49|N|To Foreman Thazz'ril at the starting area.|
-T Burning Blade Medallion|QID|25132|M|43.48,67.51|N|To Zureetha Fargaze.|
-A Report to Sen'jin Village|QID|25133|M|43.48,67.51|N|From Zureetha Fargaze.|
-R Sen'jin Village|QID|25133|M|55.36,73.35|N|Follow the road to the east until you see the signpost, then head south-east along the dirt track to Sen'jin Village.|
-T Report to Sen'jin Village|QID|25133|M|55.93,74.69|N|To Master Gadrin.|
+T Thazz'ril's Pick|QID|25135|M|46.03,63.41|N|To Foreman Thazz'ril at the starting area.|
+T Burning Blade Medallion|QID|25132|M|45.91,63.49|N|To Zureetha Fargaze.|
+A Report to Sen'jin Village|QID|25133|M|45.91,63.49|N|From Zureetha Fargaze.|
+
+; Now we go from ValleyOfTrails to Durotar
+R Sen'jin Village|QID|25133|M|55.36,73.35|Z|Durotar|N|Follow the road to the east until you see the signpost, then head south-east along the dirt track to Sen'jin Village.|
+T Report to Sen'jin Village|QID|25133|M|55.93,74.69|Z|Durotar|N|To Master Gadrin.|
+
 ]]
 
 end)
