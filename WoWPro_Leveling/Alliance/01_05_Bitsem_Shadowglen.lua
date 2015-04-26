@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2015-04-25 21:17
+-- Who: Ludovicus
+-- Log: Break guide in 2
+
+-- URL: http://wow-pro.com/node/3204/revisions/26801/view
 -- Date: 2014-11-06 12:41
 -- Who: Fluclo
 -- Log: Duplicate N tag removed from Learning the Word

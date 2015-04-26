@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2015-04-25 21:17
+-- Who: Ludovicus
+-- Log: Break guide in 2
+
+-- URL: http://wow-pro.com/node/3204/revisions/26801/view
 -- Date: 2014-11-06 12:41
 -- Who: Fluclo
 -- Log: Duplicate N tag removed from Learning the Word
@@ -312,6 +317,6 @@ f Rut'theran Village|QID|26383|M|55.36,88.51|N|At Vesprystus.|
 F Lor'danel|QID|26383|M|55.36,88.51|N|Talk to Vesprystus, and ask to be sent to Lor'danel.|
 T Breaking Waves of Change|QID|26383|M|51.8,18|Z|Darkshore|N|To Dentaria Silverglade.|
 
-]] 
+]]
 
 end)
