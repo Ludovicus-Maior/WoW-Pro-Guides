@@ -636,16 +636,16 @@ DefineDungeonArea( 811,4,"Hall of the Crescent Moon@Shrine of Two Moons","Shrine
 
 -- Starter Zones
 DefineInstance( 864,0,"Northshire","Northshire")
-DefineInstance( 866,0,"ColdridgeValley","ColdridgeValley")
+DefineInstance( 866,0,"Coldridge Valley","ColdridgeValley")
 DefineInstance( 888,0,"Shadowglen","ShadowglenStart")
-DefineInstance( 889,0,"ValleyofTrials","ValleyofTrialsStart")
-DefineInstance( 890,0,"CampNarache","CampNaracheStart")
-DefineInstance( 891,0,"EchoIsles","EchoIslesStart")
+DefineInstance( 889,0,"Valley of Trials","ValleyofTrialsStart")
+DefineInstance( 890,0,"Camp Narache","CampNaracheStart")
+DefineInstance( 891,0,"Echo Isles","EchoIslesStart")
 DefineInstance( 892,0,"Deathknell","DeathknellStart")
-DefineInstance( 893,0,"SunstriderIsle","SunstriderIsleStart")
-DefineInstance( 894,0,"AmmenVale","AmmenValeStart")
+DefineInstance( 893,0,"Sunstrider Isle","SunstriderIsleStart")
+DefineInstance( 894,0,"Ammen Vale","AmmenValeStart")
 DefineTerrainFloor(2, 1, 27,10,"The Old Dormitory","DunMorogh")
-DefineInstance( 895,0,"NewTinkertown","NewTinkertownStart")
+DefineInstance( 895,0,"New Tinkertown","NewTinkertownStart")
 
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
