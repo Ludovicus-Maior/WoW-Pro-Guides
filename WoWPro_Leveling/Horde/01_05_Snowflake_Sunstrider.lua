@@ -202,8 +202,8 @@
 -- Date: 2010-12-02 23:20
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("SnoSun0105", "Leveling", "Sunstrider (Belf)", "Snowflake", "Horde")
-WoWPro:GuideLevels(guide,1,10, 5.78882)
+local guide = WoWPro:RegisterGuide("SnoSun0105", "Leveling", "Sunstrider Isle (Belf)", "Snowflake", "Horde")
+WoWPro:GuideLevels(guide,1,5, 1.78882)
 WoWPro:GuideNextGuide(guide, "SnoEve0512")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_BloodElf_Male","Interface\\Icons\\Achievement_Character_BloodElf_Female"))
 WoWPro:GuideSteps(guide, function()

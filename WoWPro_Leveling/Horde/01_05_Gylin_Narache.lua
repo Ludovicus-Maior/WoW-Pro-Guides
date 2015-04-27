@@ -118,7 +118,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('GylNar0105', "Leveling", 'Camp Narache (Tauren)', 'Gylin', 'Horde')
-WoWPro:GuideLevels(guide,1,12,9)
+WoWPro:GuideLevels(guide,1,5,2)
 WoWPro:GuideNextGuide(guide, 'GylMul0512')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function()

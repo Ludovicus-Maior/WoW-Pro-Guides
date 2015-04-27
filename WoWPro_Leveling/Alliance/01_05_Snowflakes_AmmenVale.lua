@@ -171,7 +171,7 @@
 
 local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Ammen Vale (Draenai)", "Snowflake", "Alliance")
 WoWPro:GuideLevels(guide,1,5,4.88439)
-WoWPro:GuideNextGuide(guide, "SnoAzu0112")
+WoWPro:GuideNextGuide(guide, "SnoAzu0512")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Draenei_Male","Interface\\Icons\\Achievement_Character_Draenei_Female"))
 WoWPro:GuideSteps(guide, function()
 return [[

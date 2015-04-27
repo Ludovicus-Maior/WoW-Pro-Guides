@@ -181,7 +181,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('MalKez0105', "Leveling", 'Kezan', 'Malorajan', 'Horde')
-WoWPro:GuideLevels(guide,01,02, 1.03704)
+WoWPro:GuideLevels(guide,1,3, 1.03704)
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Goblin_Male","Interface\\Icons\\Achievement_Character_Goblin_Female"))
 WoWPro:GuideNextGuide(guide, 'MalLos0512')
 WoWPro:GuideRaceSpecific(guide,"Goblin")

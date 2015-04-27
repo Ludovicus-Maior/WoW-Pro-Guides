@@ -284,7 +284,7 @@
 -- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
 
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
-WoWPro:GuideLevels(guide,1,5,3) -- Faux, really all level 1!
+WoWPro:GuideLevels(guide,1,5,2) -- Faux, really all level 1!
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
 WoWPro:GuideSteps(guide, function()

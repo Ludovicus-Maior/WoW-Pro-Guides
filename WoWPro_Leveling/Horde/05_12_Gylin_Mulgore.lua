@@ -118,7 +118,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('GylMul0512', "Leveling", 'Mulgore', 'Gylin', 'Horde')
-WoWPro:GuideLevels(guide,1,12,9)
+WoWPro:GuideLevels(guide,4,10,8)
 WoWPro:GuideNextGuide(guide, 'BitNor1220')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function()

@@ -203,7 +203,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("SnoEve0512", "Leveling", "Eversong Woods", "Snowflake", "Horde")
-WoWPro:GuideLevels(guide,1,10, 5.78882)
+WoWPro:GuideLevels(guide,5,10, 5.78882)
 WoWPro:GuideNextGuide(guide, "SnoGho1221")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_BloodElf_Male","Interface\\Icons\\Achievement_Character_BloodElf_Female"))
 WoWPro:GuideSteps(guide, function()

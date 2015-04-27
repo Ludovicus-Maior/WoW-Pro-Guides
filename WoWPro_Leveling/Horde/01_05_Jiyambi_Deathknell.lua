@@ -135,7 +135,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyDk0105', "Leveling", 'Deathknell (Undead)', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,1,9, 4.98758)
+WoWPro:GuideLevels(guide,1,5, 4.98758)
 WoWPro:GuideNextGuide(guide, 'JiyTir0512')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Undead_Male","Interface\\Icons\\Achievement_Character_Undead_Female"))
 WoWPro:GuideSteps(guide, function()
