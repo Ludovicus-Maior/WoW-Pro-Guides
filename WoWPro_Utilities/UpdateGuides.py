@@ -101,6 +101,7 @@ class FindGuides(HTMLParser):
             self.feed(self._lump)
             self._lump = self._rootHandle.read()
         print "# URL yielded %d items" % len(self._list)
+        print "#", " ".join(self._list)
         return self._list
 
 Guides = {}
