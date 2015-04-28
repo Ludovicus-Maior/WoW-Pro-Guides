@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2015-04-28 00:44
+-- Who: Ludovicus
+-- Log: Split
+
+-- URL: http://wow-pro.com/node/3207/revisions/26931/view
 -- Date: 2014-11-08 07:07
 -- Who: Emmaleah
 -- Log: fixed items per list o' errors

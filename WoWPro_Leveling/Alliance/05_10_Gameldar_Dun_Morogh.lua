@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-04-28 00:49
+-- Who: Ludovicus
+-- Log: Zone name fixes
+
+-- URL: http://wow-pro.com/node/3200/revisions/27204/view
 -- Date: 2015-04-18 14:31
 -- Who: Aldavor
 -- Log: Updated Dun Morogh (lvls 5-12); removed redundant class training, amended some steps to autoclose.
@@ -258,10 +263,6 @@
 -- Date: 2011-04-29 18:18
 -- Who: Ludovicus
 -- Log: Changed O steps to N steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24226/view
--- Date: 2011-04-05 23:41
--- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,2,10,5.74453)

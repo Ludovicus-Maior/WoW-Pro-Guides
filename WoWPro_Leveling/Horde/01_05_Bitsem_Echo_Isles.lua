@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-04-28 00:48
+-- Who: Ludovicus
+-- Log: Zone fix for ValleyofTrials
+
+-- URL: http://wow-pro.com/node/3199/revisions/27209/view
 -- Date: 2015-04-25 20:41
 -- Who: Ludovicus
 -- Log: Change zone for Troll starter
@@ -278,13 +283,8 @@
 -- Date: 2011-04-29 15:25
 -- Who: Ludovicus
 
--- URL: http://wow-pro.com/node/3199/revisions/24315/view
--- Date: 2011-04-29 15:19
--- Who: Ludovicus
--- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
-
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
-WoWPro:GuideLevels(guide,1,5,2) -- Faux, really all level 1!
+WoWPro:GuideLevels(guide,1,5,3) -- Faux, really all level 1!
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
 WoWPro:GuideSteps(guide, function()

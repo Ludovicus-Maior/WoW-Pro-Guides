@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-04-28 00:48
+-- Who: Ludovicus
+-- Log: Zone fix for ValleyofTrials
+
+-- URL: http://wow-pro.com/node/3199/revisions/27209/view
 -- Date: 2015-04-25 20:41
 -- Who: Ludovicus
 -- Log: Change zone for Troll starter
@@ -277,11 +282,6 @@
 -- URL: http://wow-pro.com/node/3199/revisions/24318/view
 -- Date: 2011-04-29 15:25
 -- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3199/revisions/24315/view
--- Date: 2011-04-29 15:19
--- Who: Ludovicus
--- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
 
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)

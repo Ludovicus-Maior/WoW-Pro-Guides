@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2015-04-28 00:36
+-- Who: Ludovicus
+-- Log: Split
+
+-- URL: http://wow-pro.com/node/3203/revisions/27123/view
 -- Date: 2015-01-14 23:28
 -- Who: Ludovicus
 -- Log: Kudos to Tessero for noticing the Mulgore guide was missing!
@@ -218,7 +223,6 @@ T Rites of the Earthmother|QID|23733|M|41.19,76.05|N|To Dyami Windsoar.|
 A Rite of the Winds|QID|24215|M|41.19,76.05|N|From Dyami Windsoar.|
 F Bloodhoof Village|NC|QID|24215|M|47.70,59.66|N|Use the Water of Vision to become an eagle spirit and fly to Bloodhoof Village.|U|49652|
 T Rite of the Winds|QID|24215|M|47.70,59.66|Z|Mulgore|N|To Ahmo Thunderhorn.|
-
 
 ]]
 

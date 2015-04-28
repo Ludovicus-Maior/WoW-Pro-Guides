@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2015-04-28 00:36
+-- Who: Ludovicus
+-- Log: Split
+
+-- URL: http://wow-pro.com/node/3203/revisions/27123/view
 -- Date: 2015-01-14 23:28
 -- Who: Ludovicus
 -- Log: Kudos to Tessero for noticing the Mulgore guide was missing!
@@ -118,7 +123,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('GylMul0512', "Leveling", 'Mulgore', 'Gylin', 'Horde')
-WoWPro:GuideLevels(guide,4,10,8)
+WoWPro:GuideLevels(guide,4,10,
 WoWPro:GuideNextGuide(guide, 'BitNor1220')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function()

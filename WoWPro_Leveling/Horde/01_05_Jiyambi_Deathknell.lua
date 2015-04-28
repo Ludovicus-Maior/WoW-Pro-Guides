@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2015-04-28 00:39
+-- Who: Ludovicus
+-- Log: Split
+
+-- URL: http://wow-pro.com/node/3205/revisions/26956/view
 -- Date: 2014-11-09 10:57
 -- Who: Fluclo
 -- Log: Removed "You should be" levels, since you can continue the guide even if you're not those levels;
