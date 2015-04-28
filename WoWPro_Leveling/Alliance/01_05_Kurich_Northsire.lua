@@ -1,19 +1,169 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2015-04-25 20:56
+-- Who: Ludovicus
+-- Log: Split in two
 
-Home » content
+-- URL: http://wow-pro.com/node/3197/revisions/27141/view
+-- Date: 2015-02-19 20:10
+-- Who: Aldavor
+-- Log: Change of quest name from "Healing the Wounded" to "Learning the Word" in WoD expac.
 
-    View
-    Edit
-    Outline
-    Revisions
-    Track
+-- URL: http://wow-pro.com/node/3197/revisions/26868/view
+-- Date: 2014-11-07 22:51
+-- Who: Ludovicus
+-- Log: Removed human stutter.
 
-Source Code - Elwynn Forest
-If you feel comfortable editing guide files, feel free to fix bugs on this page. Make sure you record your changes in the change log! If you'd rather just leave a comment with any mistakes you find in them, someone else can add the changes to the file at a later time.
+-- URL: http://wow-pro.com/node/3197/revisions/26800/view
+-- Date: 2014-11-06 12:40
+-- Who: Fluclo
+-- Log: Removed duplicate note from all training T steps
 
+-- URL: http://wow-pro.com/node/3197/revisions/26477/view
+-- Date: 2014-06-02 22:08
+-- Who: Ludovicus
+-- Log: Icons
 
-Northshire Source Code
+-- URL: http://wow-pro.com/node/3197/revisions/26393/view
+-- Date: 2014-05-30 12:01
+-- Who: Ludovicus
+-- Log: Stetting levels
+
+-- URL: http://wow-pro.com/node/3197/revisions/26203/view
+-- Date: 2014-05-25 22:06
+-- Who: Ludovicus
+-- Log: Added guide type
+
+-- URL: http://wow-pro.com/node/3197/revisions/26130/view
+-- Date: 2014-05-20 18:41
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3197/revisions/25949/view
+-- Date: 2014-05-14 21:47
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3197/revisions/25628/view
+-- Date: 2013-05-14 15:48
+-- Who: Ludovicus
+-- Log: Corrected coords for C [The Fargodeep Mine]
+
+-- URL: http://wow-pro.com/node/3197/revisions/25585/view
+-- Date: 2013-03-23 20:11
+-- Who: Ludovicus
+-- Log: Many quest name updates
+
+-- URL: http://wow-pro.com/node/3197/revisions/25517/view
+-- Date: 2013-02-06 20:10
+-- Who: Ludovicus
+-- Log: Correct quest names for autocomplete to work right!
+
+-- URL: http://wow-pro.com/node/3197/revisions/25371/view
+-- Date: 2013-01-12 19:19
+-- Who: Ludovicus
+-- Log: Added CS tags
+
+-- URL: http://wow-pro.com/node/3197/revisions/25124/view
+-- Date: 2012-10-08 19:41
+-- Who: Ludovicus
+-- Log: Add Human Monk starter quests and get rid of - in zone name.
+
+-- URL: http://wow-pro.com/node/3197/revisions/25000/view
+-- Date: 2012-05-29 16:33
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3197/revisions/24974/view
+-- Date: 2012-05-08 21:57
+-- Who: Crackerhead22
+-- Log: Fixes from member 'wowmanus'
+
+-- URL: http://wow-pro.com/node/3197/revisions/24819/view
+-- Date: 2011-11-24 03:02
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3197/revisions/24796/view
+-- Date: 2011-11-04 20:41
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3197/revisions/24769/view
+-- Date: 2011-10-26 21:16
+-- Who: Fluclo
+-- Log: Added |NC| tags
+
+-- URL: http://wow-pro.com/node/3197/revisions/24740/view
+-- Date: 2011-08-23 23:28
+-- Who: Jiyambi
+-- Log: Added a few clarifications in directions.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24515/view
+-- Date: 2011-06-07 23:03
+-- Who: Ludovicus
+-- Log: ! Line 248 for step T has unknown tag [To Milly Osworth.]: [T Extinguishing Hope|QID|26391|M|48.15,42.52|To Milly Osworth.|]
+--	! Line 254 for step A has unknown tag [48.20,42.06]: [A Report To Goldshire|QID|54||48.20,42.06|N|From Marshal McBride.|]
+
+-- URL: http://wow-pro.com/node/3197/revisions/24464/view
+-- Date: 2011-05-31 20:57
+-- Who: Ludovicus
+-- Log: Z|Stormwind City| not city
+
+-- URL: http://wow-pro.com/node/3197/revisions/24443/view
+-- Date: 2011-05-28 20:21
+-- Who: Crackerhead22
+-- Log: Removed |R|Human,Worgen| tag from certain steps.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24441/view
+-- Date: 2011-05-28 17:40
+-- Who: Crackerhead22
+-- Log: Added missing notes, added sticky steps, added quests (and steps) with race tags for Worgen, Dwarves, Night Elves, Gnomes and Draenei.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24289/view
+-- Date: 2011-04-29 14:05
+-- Who: Ludovicus
+-- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
+
+-- URL: http://wow-pro.com/node/3197/revisions/24272/view
+-- Date: 2011-04-26 22:42
+-- Who: Ludovicus
+-- Log: Fixed syntax errors.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24201/view
+-- Date: 2011-04-02 19:01
+-- Who: Ludovicus
+-- Log: Syntax error in quest [Fear No Evil] for Human Warlocks.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24058/view
+-- Date: 2011-01-26 02:48
+-- Who: Fluclo
+-- Log: Missing the A for Rest And Relaxation
+
+-- URL: http://wow-pro.com/node/3197/revisions/23934/view
+-- Date: 2011-01-06 15:28
+-- Who: Crackerhead22
+-- Log: Added missing turn in for "Wanted: Hogger", added in class quests and race tags noted by calmeira.
+
+-- URL: http://wow-pro.com/node/3197/revisions/23323/view
+-- Date: 2010-12-03 08:42
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3197/revisions/23254/view
+-- Date: 2010-12-02 17:31
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3197/revisions/23243/view
+-- Date: 2010-12-02 09:47
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3197/revisions/23242/view
+-- Date: 2010-12-02 09:46
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3197/revisions/23241/view
+-- Date: 2010-12-02 09:42
+-- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("KurNShire0105", "Leveling", "Northshire (Human)", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,1,9,4.83099)

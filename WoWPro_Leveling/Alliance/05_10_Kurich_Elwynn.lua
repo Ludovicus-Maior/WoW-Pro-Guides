@@ -1,4 +1,170 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2015-04-25 20:56
+-- Who: Ludovicus
+-- Log: Split in two
+
+-- URL: http://wow-pro.com/node/3197/revisions/27141/view
+-- Date: 2015-02-19 20:10
+-- Who: Aldavor
+-- Log: Change of quest name from "Healing the Wounded" to "Learning the Word" in WoD expac.
+
+-- URL: http://wow-pro.com/node/3197/revisions/26868/view
+-- Date: 2014-11-07 22:51
+-- Who: Ludovicus
+-- Log: Removed human stutter.
+
+-- URL: http://wow-pro.com/node/3197/revisions/26800/view
+-- Date: 2014-11-06 12:40
+-- Who: Fluclo
+-- Log: Removed duplicate note from all training T steps
+
+-- URL: http://wow-pro.com/node/3197/revisions/26477/view
+-- Date: 2014-06-02 22:08
+-- Who: Ludovicus
+-- Log: Icons
+
+-- URL: http://wow-pro.com/node/3197/revisions/26393/view
+-- Date: 2014-05-30 12:01
+-- Who: Ludovicus
+-- Log: Stetting levels
+
+-- URL: http://wow-pro.com/node/3197/revisions/26203/view
+-- Date: 2014-05-25 22:06
+-- Who: Ludovicus
+-- Log: Added guide type
+
+-- URL: http://wow-pro.com/node/3197/revisions/26130/view
+-- Date: 2014-05-20 18:41
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3197/revisions/25949/view
+-- Date: 2014-05-14 21:47
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3197/revisions/25628/view
+-- Date: 2013-05-14 15:48
+-- Who: Ludovicus
+-- Log: Corrected coords for C [The Fargodeep Mine]
+
+-- URL: http://wow-pro.com/node/3197/revisions/25585/view
+-- Date: 2013-03-23 20:11
+-- Who: Ludovicus
+-- Log: Many quest name updates
+
+-- URL: http://wow-pro.com/node/3197/revisions/25517/view
+-- Date: 2013-02-06 20:10
+-- Who: Ludovicus
+-- Log: Correct quest names for autocomplete to work right!
+
+-- URL: http://wow-pro.com/node/3197/revisions/25371/view
+-- Date: 2013-01-12 19:19
+-- Who: Ludovicus
+-- Log: Added CS tags
+
+-- URL: http://wow-pro.com/node/3197/revisions/25124/view
+-- Date: 2012-10-08 19:41
+-- Who: Ludovicus
+-- Log: Add Human Monk starter quests and get rid of - in zone name.
+
+-- URL: http://wow-pro.com/node/3197/revisions/25000/view
+-- Date: 2012-05-29 16:33
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3197/revisions/24974/view
+-- Date: 2012-05-08 21:57
+-- Who: Crackerhead22
+-- Log: Fixes from member 'wowmanus'
+
+-- URL: http://wow-pro.com/node/3197/revisions/24819/view
+-- Date: 2011-11-24 03:02
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3197/revisions/24796/view
+-- Date: 2011-11-04 20:41
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3197/revisions/24769/view
+-- Date: 2011-10-26 21:16
+-- Who: Fluclo
+-- Log: Added |NC| tags
+
+-- URL: http://wow-pro.com/node/3197/revisions/24740/view
+-- Date: 2011-08-23 23:28
+-- Who: Jiyambi
+-- Log: Added a few clarifications in directions.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24515/view
+-- Date: 2011-06-07 23:03
+-- Who: Ludovicus
+-- Log: ! Line 248 for step T has unknown tag [To Milly Osworth.]: [T Extinguishing Hope|QID|26391|M|48.15,42.52|To Milly Osworth.|]
+--	! Line 254 for step A has unknown tag [48.20,42.06]: [A Report To Goldshire|QID|54||48.20,42.06|N|From Marshal McBride.|]
+
+-- URL: http://wow-pro.com/node/3197/revisions/24464/view
+-- Date: 2011-05-31 20:57
+-- Who: Ludovicus
+-- Log: Z|Stormwind City| not city
+
+-- URL: http://wow-pro.com/node/3197/revisions/24443/view
+-- Date: 2011-05-28 20:21
+-- Who: Crackerhead22
+-- Log: Removed |R|Human,Worgen| tag from certain steps.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24441/view
+-- Date: 2011-05-28 17:40
+-- Who: Crackerhead22
+-- Log: Added missing notes, added sticky steps, added quests (and steps) with race tags for Worgen, Dwarves, Night Elves, Gnomes and Draenei.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24289/view
+-- Date: 2011-04-29 14:05
+-- Who: Ludovicus
+-- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
+
+-- URL: http://wow-pro.com/node/3197/revisions/24272/view
+-- Date: 2011-04-26 22:42
+-- Who: Ludovicus
+-- Log: Fixed syntax errors.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24201/view
+-- Date: 2011-04-02 19:01
+-- Who: Ludovicus
+-- Log: Syntax error in quest [Fear No Evil] for Human Warlocks.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24058/view
+-- Date: 2011-01-26 02:48
+-- Who: Fluclo
+-- Log: Missing the A for Rest And Relaxation
+
+-- URL: http://wow-pro.com/node/3197/revisions/23934/view
+-- Date: 2011-01-06 15:28
+-- Who: Crackerhead22
+-- Log: Added missing turn in for "Wanted: Hogger", added in class quests and race tags noted by calmeira.
+
+-- URL: http://wow-pro.com/node/3197/revisions/23323/view
+-- Date: 2010-12-03 08:42
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3197/revisions/23254/view
+-- Date: 2010-12-02 17:31
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3197/revisions/23243/view
+-- Date: 2010-12-02 09:47
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3197/revisions/23242/view
+-- Date: 2010-12-02 09:46
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3197/revisions/23241/view
+-- Date: 2010-12-02 09:42
+-- Who: Jiyambi
+
 local guide = WoWPro:RegisterGuide("KurElw0511", "Leveling", "Elwynn Forest (Human)", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,1,7,4.83099)
 WoWPro:GuideNextGuide(guide, "BitWes1020")
@@ -12,7 +178,7 @@ T Rest and Relaxation|QID|2158|M|43.77,65.80|N|To Innkeeper Farley.|
 A Kobold Candles|QID|60|M|43.32,65.71|N|From William Pestle.|
 T Report to Goldshire|QID|54|M|42.11,65.92|N|To Marshal Dughan.|
 A The Fargodeep Mine|QID|62|M|42.11,65.92|N|From Marshal Dughan.|
-r Sell Junk,restock,train and repair.|QID|85|N|Repair available inside the forging hut. Lien Farner at the junction will train you the basics of every primary professions.\n\nClick this step to continue.|M|41.84,65.68;41.95,67.17|CS|
+r Sell Junk,restock,train and repair.|QID|85|N|Repair available inside the forging hut.  Lien Farner at the junction  will train you the basics of every primary professions.\n\nClick this step to continue.|M|41.84,65.68;41.95,67.17|CS|
 A Gold Dust Exchange|QID|47|M|42.14,67.25|N|From Remy "Two Times".|
 
 R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|85|M|34.31,83.67|
@@ -64,7 +230,7 @@ R Jasperlode Mine|N|Go to the Jasperlode Mine.|QID|76|M|60.88,59.15|
 C The Jasperlode Mine|N|Go into the mine until you get a quest completed message.|QID|76|M|61.74,53.91|NC|
 H Lion's Pride Inn |QID|112|U|6948|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|M|43.77,65.80|
 T Collecting Kelp|QID|112|M|43.32,65.70|N|To William Pestle.|
-A The Escape|QID|114|M|43.32,65.70|N|From William Pestle. You will need to wait a few seconds after turning in Collecting Kelp before this quest is available.|
+A The Escape|QID|114|M|43.32,65.70|N|From William Pestle.  You will need to wait a few seconds after turning in Collecting Kelp before this quest is available.|
 r Sell Junk,Restock,Train and Repair.|QID|76|M|41.84,65.68|
 T The Jasperlode Mine|QID|76|M|42.11,65.93|N|To Marshal Dughan.|
 
@@ -111,7 +277,7 @@ T Report to Thomas|QID|71|M|73.97,72.18|N|To Guard Thomas.|
 A Cloth and Leather Armor|QID|59|M|73.97,72.18|N|From Guard Thomas.|
 
 C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps.|QID|83|M|71.20,78.86|S|
-C Manhunt|N|Kill Morgan the collector and pick up his ring.|T|Morgan The Collector|QID|147|M|71.05,80.63|
+C Manhunt|N|Kill Morgan the collector and  pick up his ring.|T|Morgan The Collector|QID|147|M|71.05,80.63|
 C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps.|QID|83|M|71.20,78.86|US|
 
 T Fine Linen Goods|QID|83|M|79.46,68.71|N|To Sara Timberlain.|
@@ -142,14 +308,14 @@ A Westbrook Garrison Needs Help!|QID|239|M|42.10,65.93|N|From Marshal Dughan.|
 
 T Westbrook Garrison Needs Help!|QID|239|M|24.23,74.45|N|To Deputy Rainer.|
 A Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|N|From Deputy Rainer.|
-A Wanted: "Hogger"|QID|176|M|24.54,74.67|N|From the Wanted Poster.|
+A Wanted:  "Hogger"|QID|176|M|24.54,74.67|N|From the Wanted Poster.|
 C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|S|
-C Wanted: "Hogger"|N|Get Hogger down in health quickly, help will arrive and take him.|M|25.1,94.6|QID|176|
-A Furlbrow's Deed|N|If you're going to Westfall next, then grab this quest. It's a folded paper next to a dead man.|QID|184|M|24.78,95.26|
+C Wanted:  "Hogger"|N|Get Hogger down in health quickly, help will arrive and take him.|M|25.1,94.6|QID|176|
+A Furlbrow's Deed|N|If you're going to Westfall next, then grab this quest.  It's a folded paper next to a dead man.|QID|184|M|24.78,95.26|
 C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|US|
 T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|N|To Deputy Rainer.|
-T Wanted: "Hogger"|QID|176|M|42.2,65.9|N|To Marshal Dughan.|
-A Hero's Call: Westfall!|QID|26378|M|42.2,65.9|N|If you're going to Westfall next, then grab this quest. From Marshal Dughan.|
+T Wanted:  "Hogger"|QID|176|M|42.2,65.9|N|To Marshal Dughan.|
+A Hero's Call: Westfall!|QID|26378|M|42.2,65.9|N|If you're going to Westfall next, then grab this quest.  From Marshal Dughan.|
 
 ]]
 
