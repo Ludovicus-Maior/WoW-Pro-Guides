@@ -134,7 +134,7 @@
 -- Date: 2010-12-02 23:15
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('JiyTir0112', "Leveling", 'Tirisfal Glades (Undead)', 'Jiyambi', 'Horde')
+local guide = WoWPro:RegisterGuide('JiyTir0512', "Leveling", 'Tirisfal Glades (Undead)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,9, 4.98758)
 WoWPro:GuideNextGuide(guide, 'MalSil1220')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Undead_Male","Interface\\Icons\\Achievement_Character_Undead_Female"))
