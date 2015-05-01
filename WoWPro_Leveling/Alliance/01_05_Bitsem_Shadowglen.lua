@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2015-04-29 21:38
+-- Who: Ludovicus
+-- Log: Shifted coords to Shadowglen
+
+-- URL: http://wow-pro.com/node/3204/revisions/27211/view
 -- Date: 2015-04-25 21:17
 -- Who: Ludovicus
 -- Log: Break guide in 2
@@ -138,103 +143,103 @@ WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achieve
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A The Balance of Nature|QID|28713|M|57.97,39.19|N|From Ilthalaine.|
-C The Balance of Nature|QID|28713|M|58.23,40.16|N|Kill Young Nightsabers.|
+A The Balance of Nature|QID|28713|M|45.65,74.52|N|From Ilthalaine.|
+C The Balance of Nature|QID|28713|M|46.71,78.45|N|Kill Young Nightsabers.|
 
 L Level 2|QID|28713|LVL|2|N|You should be around level 2 by this point.|
 
-T The Balance of Nature|QID|28713|M|58.01,39.29|N|To Ilthalaine.|
-A Fel Moss Corruption|QID|28714|PRE|28713|M|58.01,39.29|N|From Ilthalaine.|
-A Demonic Thieves|QID|28715|PRE|28734|M|58.04,38.85|N|From Melithar Staghelm.|
+T The Balance of Nature|QID|28713|M|45.82,74.92|N|To Ilthalaine.|
+A Fel Moss Corruption|QID|28714|PRE|28713|M|45.82,74.92|N|From Ilthalaine.|
+A Demonic Thieves|QID|28715|PRE|28734|M|45.94,73.14|N|From Melithar Staghelm.|
 
-C Fel Moss Corruption|QID|28714|S|M|55.68,40.12|N|Kill and loot Grells.|
-C Demonic Thieves|QID|28715|M|55.66,40.39|N|Collect Meltihar's Stolen Bags from the ground.|
-C Fel Moss Corruption|QID|28714|US|M|55.68,40.12|N|Finish killing Grells for Fel Moss.|
+C Fel Moss Corruption|QID|28714|S|M|36.38,78.29|N|Kill and loot Grells.|
+C Demonic Thieves|QID|28715|M|36.29,79.38|N|Collect Meltihar's Stolen Bags from the ground.|
+C Fel Moss Corruption|QID|28714|US|M|36.38,78.29|N|Finish killing Grells for Fel Moss.|
 
-T Demonic Thieves|QID|28715|M|58.01,38.81|N|To Melithar Staghelm.|
+T Demonic Thieves|QID|28715|M|45.82,72.98|N|To Melithar Staghelm.|
 
 L Level 3|QID|28715|LVL|3|N|You should be around level 3 by this point.|
 
-T Fel Moss Corruption|QID|28714|M|58.07,38.86|N|To Ilthalaine.|
+T Fel Moss Corruption|QID|28714|M|46.06,73.18|N|To Ilthalaine.|
 
-A Etched Sigil|QID|3117|PRE|28714|C|Hunter|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
-A Verdant Sigil|QID|3120|PRE|28714|C|Druid|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
-A Forbidden Sigil|QID|26841|PRE|28714|C|Mage|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
-A Simple Sigil|QID|3116|PRE|28714|C|Warrior|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
-A Hallowed Sigil|QID|3119|PRE|28714|C|Priest|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
-A Encrypted Sigil|QID|3118|PRE|28714|C|Rogue|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
-A Calligraphed Sigil|QID|31168|PRE|28714|C|Monk|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
+A Etched Sigil|QID|3117|PRE|28714|C|Hunter|M|46.06,73.18|N|From Ilthalaine.|R|Night Elf|
+A Verdant Sigil|QID|3120|PRE|28714|C|Druid|M|46.06,73.18|N|From Ilthalaine.|R|Night Elf|
+A Forbidden Sigil|QID|26841|PRE|28714|C|Mage|M|46.06,73.18|N|From Ilthalaine.|R|Night Elf|
+A Simple Sigil|QID|3116|PRE|28714|C|Warrior|M|46.06,73.18|N|From Ilthalaine.|R|Night Elf|
+A Hallowed Sigil|QID|3119|PRE|28714|C|Priest|M|46.06,73.18|N|From Ilthalaine.|R|Night Elf|
+A Encrypted Sigil|QID|3118|PRE|28714|C|Rogue|M|46.06,73.18|N|From Ilthalaine.|R|Night Elf|
+A Calligraphed Sigil|QID|31168|PRE|28714|C|Monk|M|46.06,73.18|N|From Ilthalaine.|R|Night Elf|
 
-T Etched Sigil|QID|3117|M|58.82,35.86|C|Hunter|N|To Ayanna Everstride.|R|Night Elf|
-T Verdant Sigil|QID|3120|C|Druid|M|58.2,34.8|N|To Mardant Strongoak.|R|Night Elf|
-T Forbidden Sigil|QID|26841|C|Mage|M|58.4,35.6|N|To Rhyanda.|R|Night Elf|
-T Simple Sigil|QID|3116|C|Warrior|M|58.8,33.8|N|To Alyissia.|R|Night Elf|
-T Hallowed Sigil|QID|3119|C|Priest|M|58.4,35.6|N|To Shanda.|R|Night Elf|
-T Encrypted Sigil|QID|3118|C|Rogue|M|58.8,33.9|N|To Frahun Shadewhisper.|R|Night Elf|
-T Calligraphed Sigil|QID|31168|C|Monk|M|58.8,33.9|N|To Laoxi.|R|Night Elf|
+T Etched Sigil|QID|3117|M|49.10,61.03|C|Hunter|N|To Ayanna Everstride.|R|Night Elf|
+T Verdant Sigil|QID|3120|C|Druid|M|46.59,56.73|N|To Mardant Strongoak.|R|Night Elf|
+T Forbidden Sigil|QID|26841|C|Mage|M|47.40,59.97|N|To Rhyanda.|R|Night Elf|
+T Simple Sigil|QID|3116|C|Warrior|M|49.02,52.68|N|To Alyissia.|R|Night Elf|
+T Hallowed Sigil|QID|3119|C|Priest|M|47.40,59.97|N|To Shanda.|R|Night Elf|
+T Encrypted Sigil|QID|3118|C|Rogue|M|49.02,53.08|N|To Frahun Shadewhisper.|R|Night Elf|
+T Calligraphed Sigil|QID|31168|C|Monk|M|49.02,53.08|N|To Laoxi.|R|Night Elf|
 
-A A Woodsman's Training|QID|26947|PRE|3117|C|Hunter|M|58.82,35.86|N|From Ayanna Everstride.|R|Night Elf|
-A Rejuvenating Touch|QID|26948|PRE|3120|C|Druid|M|58.2,34.8|N|From Mardant Strongoak.|R|Night Elf|
-A Arcane Missles|QID|26940|PRE|26841|C|Mage|M|58.4,35.6|N|From Rhyanda.|R|Night Elf|
-A Learning New Techniques|QID|26945|PRE|3116|C|Warrior|M|58.8,33.8|N|From Alyissia.|R|Night Elf|
-A Learning the Word|QID|26949|PRE|3119|C|Priest|M|58.4,35.6|N|From Shanda.|R|Night Elf|
-A A Rogue's Advantage|QID|26946|PRE|3118|C|Rogue|M|58.8,33.9|N|From Frahun Shadewhisper.|R|Night Elf|
-A The Art of the Monk|QID|31169|PRE|31168|C|Monk|M|58.8,33.9|N|From Laoxi.|R|Night Elf|
+A A Woodsman's Training|QID|26947|PRE|3117|C|Hunter|M|49.10,61.03|N|From Ayanna Everstride.|R|Night Elf|
+A Rejuvenating Touch|QID|26948|PRE|3120|C|Druid|M|46.59,56.73|N|From Mardant Strongoak.|R|Night Elf|
+A Arcane Missles|QID|26940|PRE|26841|C|Mage|M|47.40,59.97|N|From Rhyanda.|R|Night Elf|
+A Learning New Techniques|QID|26945|PRE|3116|C|Warrior|M|49.02,52.68|N|From Alyissia.|R|Night Elf|
+A Learning the Word|QID|26949|PRE|3119|C|Priest|M|47.40,59.97|N|From Shanda.|R|Night Elf|
+A A Rogue's Advantage|QID|26946|PRE|3118|C|Rogue|M|49.02,53.08|N|From Frahun Shadewhisper.|R|Night Elf|
+A The Art of the Monk|QID|31169|PRE|31168|C|Monk|M|49.02,53.08|N|From Laoxi.|R|Night Elf|
 
-C A Woodsman's Training|QID|26947|C|Hunter|M|58.83,35.82|N|Train Steady Shot and practice it 5 times on a practice dummy.|R|Night Elf|
+C A Woodsman's Training|QID|26947|C|Hunter|M|49.14,60.86|N|Train Steady Shot and practice it 5 times on a practice dummy.|R|Night Elf|
 C Rejuvenating Touch|QID|26948|C|Druid|N|Train Rejuvenation. Use it to heal a Wounded Sentinel.|R|Night Elf|
-C Arcane Missles|QID|26940|C|Mage|M|58.83,35.82|N|Train Arcane Missles. Use it 5 times on Training Dummy.|R|Night Elf|
-C Learning New Techniques|QID|26945|C|Warrior|M|58.2,34.8|N|Train Charge. Use it 5 times on Training Dummy.|R|Night Elf|
+C Arcane Missles|QID|26940|C|Mage|M|49.14,60.86|N|Train Arcane Missles. Use it 5 times on Training Dummy.|R|Night Elf|
+C Learning New Techniques|QID|26945|C|Warrior|M|46.59,56.73|N|Train Charge. Use it 5 times on Training Dummy.|R|Night Elf|
 C Learning the Word|QID|26949|C|Priest|N|Train Shadow Word: Pain. Use it 5 times on Training Dummy.|R|Night Elf|
-C A Rogue's Advantage|QID|26946|C|Rogue|M|58.83,35.82|N|Train Eviscerate. Use it 5 times on Training Dummy.|R|Night Elf|
-C The Art of the Monk|QID|31169|C|Monk|M|58.83,35.82|N|Use Tiger Palm on Training Dummy.|R|Night Elf|
+C A Rogue's Advantage|QID|26946|C|Rogue|M|49.14,60.86|N|Train Eviscerate. Use it 5 times on Training Dummy.|R|Night Elf|
+C The Art of the Monk|QID|31169|C|Monk|M|49.14,60.86|N|Use Tiger Palm on Training Dummy.|R|Night Elf|
 
-T A Woodsman's Training|QID|26947|C|Hunter|M|58.83,35.82|N|To Ayanna Everstride.|R|Night Elf|
-T Rejuvenating Touch|QID|26948|C|Druid|M|58.2,34.8|N|To Mardant Strongoak.|R|Night Elf|
-T Arcane Missles|QID|26940|C|Mage|M|58.4,35.6|N|To Rhyanda.|R|Night Elf|
-T Learning New Techniques|QID|26945|C|Warrior|M|58.8,33.8|N|To Alyissia.|R|Night Elf|
-T Learning the Word|QID|26949|C|Priest|M|58.4,35.6|N|To Shanda.|R|Night Elf|
-T A Rogue's Advantage|QID|26946|C|Rogue|M|58.8,33.9|N|To Frahun Shadewhisper.|R|Night Elf|
-T The Art of the Monk|QID|31169|C|Monk|M|58.8,33.9|N|To Laoxi.|R|Night Elf|
+T A Woodsman's Training|QID|26947|C|Hunter|M|49.14,60.86|N|To Ayanna Everstride.|R|Night Elf|
+T Rejuvenating Touch|QID|26948|C|Druid|M|46.59,56.73|N|To Mardant Strongoak.|R|Night Elf|
+T Arcane Missles|QID|26940|C|Mage|M|47.40,59.97|N|To Rhyanda.|R|Night Elf|
+T Learning New Techniques|QID|26945|C|Warrior|M|49.02,52.68|N|To Alyissia.|R|Night Elf|
+T Learning the Word|QID|26949|C|Priest|M|47.40,59.97|N|To Shanda.|R|Night Elf|
+T A Rogue's Advantage|QID|26946|C|Rogue|M|49.02,53.08|N|To Frahun Shadewhisper.|R|Night Elf|
+T The Art of the Monk|QID|31169|C|Monk|M|49.02,53.08|N|To Laoxi.|R|Night Elf|
 
-A Priestess of the Moon|QID|28723|M|58.85,35.75|N|From Ayanna Everstride.|R|Night Elf|
-T Priestess of the Moon|QID|28723|M|57.21,33.33|N|To Dentaria Silverglade.|R|Night Elf|
+A Priestess of the Moon|QID|28723|M|49.22,60.58|N|From Ayanna Everstride.|R|Night Elf|
+T Priestess of the Moon|QID|28723|M|42.58,50.78|N|To Dentaria Silverglade.|R|Night Elf|
 
-A Iverron's Antidote|QID|28724|PRE|28723|M|57.21,33.33|N|From Dentaria Silverglade.|R|Night Elf|
-C Iverron's Antidote|QID|28724|M|57.40,33.56|N|Around the pools.|R|Night Elf|
-T Iverron's Antidote|QID|28724|M|57.19,33.29|N|To Dentaria Silverglade.|R|Night Elf|
+A Iverron's Antidote|QID|28724|PRE|28723|M|42.58,50.78|N|From Dentaria Silverglade.|R|Night Elf|
+C Iverron's Antidote|QID|28724|M|43.34,51.71|N|Around the pools.|R|Night Elf|
+T Iverron's Antidote|QID|28724|M|42.49,50.61|N|To Dentaria Silverglade.|R|Night Elf|
 
-A The Woodland Protector|QID|28725|PRE|28724|M|56.38,27.92|N|From Tarindrella.|R|Night Elf|
-T The Woodland Protector|QID|28725|M|56.38,27.92|N|To Tarindrella.|R|Night Elf|
+A The Woodland Protector|QID|28725|PRE|28724|M|39.21,28.86|N|From Tarindrella.|R|Night Elf|
+T The Woodland Protector|QID|28725|M|39.21,28.86|N|To Tarindrella.|R|Night Elf|
 
-A Webwood Corruption|QID|28726|PRE|28725|M|56.36,27.72|N|From Tarindrella.|R|Night Elf|
+A Webwood Corruption|QID|28726|PRE|28725|M|39.13,28.04|N|From Tarindrella.|R|Night Elf|
 
 L Level 4|QID|28726|LVL|4|N|You should be around level 4 by this point.|
 
-C Webwood Corruption|QID|28726|M|56.31,22.50|N|Tarindrella will accompany you.|R|Night Elf|
-T Webwood Corruption|QID|28726|M|56.31,22.50|N|Tarindrella should still be with you. Turn in to her.|R|Night Elf|
+C Webwood Corruption|QID|28726|M|38.93,6.89|N|Tarindrella will accompany you.|R|Night Elf|
+T Webwood Corruption|QID|28726|M|38.93,6.89|N|Tarindrella should still be with you. Turn in to her.|R|Night Elf|
 
 A Vile Touch|QID|28727|PRE|28726|N|From Tarindrella. She's still with you.|R|Night Elf|
-C Vile Touch|QID|28727|QO|Githyiss the Vile slain: 1/1|M|56.28,22.52|N|Kill Gilthyiss the Vile.|R|Night Elf|
-T Vile Touch|QID|28727|M|57.16,33.09|N|To Ayanna Everstride.|R|Night Elf|
+C Vile Touch|QID|28727|QO|Githyiss the Vile slain: 1/1|M|38.81,6.98|N|Kill Gilthyiss the Vile.|R|Night Elf|
+T Vile Touch|QID|28727|M|42.37,49.80|N|To Ayanna Everstride.|R|Night Elf|
 
 A Signs of Things to Come|QID|28728|PRE|28727|NC|N|From Tarindrella. She'll teleport you back to Dentaria Silverglade.|R|Night Elf|
-T Signs of Things to Come|QID|28728|M|57.18,33.20|N|To Dentaria Silverglade.|R|Night Elf|
+T Signs of Things to Come|QID|28728|M|42.45,50.25|N|To Dentaria Silverglade.|R|Night Elf|
 
-A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|M|57.18,33.20|N|From Dentaria Silverglade.|R|Night Elf|
-C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|59.15,29.09|N|Use the Phial at the moonwell.|R|Night Elf|
-T Teldrassil: Crown of Azeroth|QID|28729|M|57.22,33.15|N|To Dentaria Silverglade.|R|Night Elf|
+A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|M|42.45,50.25|N|From Dentaria Silverglade.|R|Night Elf|
+C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|50.44,33.60|N|Use the Phial at the moonwell.|R|Night Elf|
+T Teldrassil: Crown of Azeroth|QID|28729|M|42.62,50.05|N|To Dentaria Silverglade.|R|Night Elf|
 
-A Precious Waters|QID|28730|PRE|28729|M|57.22,33.15|N|From Dentaria Silverglade.|R|Night Elf|
-T Precious Waters|QID|28730|M|57.00,36.49;58.39,34.54|CS|N|Up the ramp to Tenaron Stormgrip.|R|Night Elf|
+A Precious Waters|QID|28730|PRE|28729|M|42.62,50.05|N|From Dentaria Silverglade.|R|Night Elf|
+T Precious Waters|QID|28730|M|41.72,63.58;47.36,55.68|CS|N|Up the ramp to Tenaron Stormgrip.|R|Night Elf|
 
 L Level 5|QID|28730|LVL|5|N|You should be around level 5 by this point.|
 
-A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|58.39,34.54|N|From Tenaron Stormgrip.|R|Night Elf|
+A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|47.36,55.68|N|From Tenaron Stormgrip.|R|Night Elf|
 
-r Aldrassil|QID|28731|NC|M|58.73,35.99|N|Repair and Restock. Sell junk and train.|R|Night Elf|
+r Aldrassil|QID|28731|NC|M|48.73,61.55|N|Repair and Restock. Sell junk and train.|R|Night Elf|
 
-A Dolanaar Delivery|QID|2159|M|60.19,41.64|N|From Porthannius.|
+A Dolanaar Delivery|QID|2159|M|54.65,84.44|N|From Porthannius.|
 
 ]]
 

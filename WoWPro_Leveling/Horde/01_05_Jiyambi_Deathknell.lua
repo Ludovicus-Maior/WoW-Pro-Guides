@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2015-04-30 20:26
+-- Who: Ludovicus
+-- Log: remap
+
+-- URL: http://wow-pro.com/node/3205/revisions/27213/view
 -- Date: 2015-04-28 00:39
 -- Who: Ludovicus
 -- Log: Split
@@ -146,108 +151,108 @@ WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achieve
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Fresh out of the Grave|QID|24959|M|29.41,70.96|R|Undead|N|From Agatha.|
-T Fresh out of the Grave|QID|24959|M|30.04,71.27|R|Undead|N|To Undertaker Mordo.|
+A Fresh out of the Grave|QID|24959|M|40.71,78.53|R|Undead|N|From Agatha.|
+T Fresh out of the Grave|QID|24959|M|43.32,79.82|R|Undead|N|To Undertaker Mordo.|
 
-A The Shadow Grave|QID|28608|M|30.04,71.27|R|Undead|N|From Undertaker Mordo.|
-C The Shadow Grave|QID|28608|NC|M|30.33,72.24;29.69,71.99|CS|R|Undead|N|Head down the stairs into the crypt and over to the table in the corner. Click on the thread and the vial of green liquid.|
-T The Shadow Grave|QID|28608|M|30.1,71.3|R|Undead|N|Leave the Crypt and return to Undertaker Mordo.| ;Removed extra coordinates - not required.
+A The Shadow Grave|QID|28608|M|43.32,79.82|R|Undead|N|From Undertaker Mordo.|
+C The Shadow Grave|QID|28608|NC|M|44.52,83.84;41.87,82.80|CS|R|Undead|N|Head down the stairs into the crypt and over to the table in the corner. Click on the thread and the vial of green liquid.|
+T The Shadow Grave|QID|28608|M|43.57,79.94|R|Undead|N|Leave the Crypt and return to Undertaker Mordo.| ;Removed extra coordinates - not required.
 
-A Those That Couldn't Be Saved|QID|26799|M|30.08,71.33|R|Undead|N|From Undertaker Mordo.
-C Those That Couldn't Be Saved|QID|26799|S|M|30.80,70.07|R|Undead|N|Kill zombies.|
+A Those That Couldn't Be Saved|QID|26799|M|43.49,80.07|R|Undead|N|From Undertaker Mordo.
+C Those That Couldn't Be Saved|QID|26799|S|M|46.47,74.85|R|Undead|N|Kill zombies.|
 
-A The Wakening|QID|24960|M|30.65,71.46|R|Undead|N|From Caretaker Caice. Speak with the Forsaken at each waypoint and go through their conversation.|
+A The Wakening|QID|24960|M|45.85,80.60|R|Undead|N|From Caretaker Caice. Speak with the Forsaken at each waypoint and go through their conversation.|
 
-C The Wakening|QID|24960|NC|M|30.2,69.0|QO|Speak with Lilian Voss: 1/1|R|Undead|
-C The Wakening|QID|24960|NC|M|30.8,69.2|QO|Speak with Marshal Redpath: 1/1|R|Undead|
-C The Wakening|QID|24960|NC|M|29.4,69.6|R|Undead|N|Speak with Valdred Moray to finish up the quest.|
+C The Wakening|QID|24960|NC|M|43.99,70.41|QO|Speak with Lilian Voss: 1/1|R|Undead|
+C The Wakening|QID|24960|NC|M|46.47,71.24|QO|Speak with Marshal Redpath: 1/1|R|Undead|
+C The Wakening|QID|24960|NC|M|40.67,72.90|R|Undead|N|Speak with Valdred Moray to finish up the quest.|
 
-C Those That Couldn't Be Saved|QID|26799|US|M|30.80,70.07|R|Undead|N|Kill zombies.|
-T The Wakening|QID|24960|M|30.65,71.40|R|Undead|N|To Caretaker Caice.|
+C Those That Couldn't Be Saved|QID|26799|US|M|46.47,74.85|R|Undead|N|Kill zombies.|
+T The Wakening|QID|24960|M|45.85,80.36|R|Undead|N|To Caretaker Caice.|
 
-A Beyond the Graves|QID|25089|M|30.65,71.40|R|Undead|N|From Caretaker Caice.|
-T Those That Couldn't Be Saved|QID|26799|M|30.10,71.30|R|Undead|N|To Undertaker Mordo.|
-T Beyond the Graves|QID|25089|M|31.74,65.66|R|Undead|N|To Deathguard Saltain.|
+A Beyond the Graves|QID|25089|M|45.85,80.36|R|Undead|N|From Caretaker Caice.|
+T Those That Couldn't Be Saved|QID|26799|M|43.57,79.94|R|Undead|N|To Undertaker Mordo.|
+T Beyond the Graves|QID|25089|M|50.37,56.57|R|Undead|N|To Deathguard Saltain.|
 
-A Recruitment|QID|26800|M|31.74,65.66|R|Undead|N|From Deathguard Saltain.|
-A Scourge on our Perimeter|QID|26801|M|30.86,66.20|N|From Shadow Priest Sarvis.|
+A Recruitment|QID|26800|M|50.37,56.57|R|Undead|N|From Deathguard Saltain.|
+A Scourge on our Perimeter|QID|26801|M|46.72,58.81|N|From Shadow Priest Sarvis.|
 
-C Scourge on our Perimeter|QID|26801|S|M|32.00,62.01|N|Kill zombies and skeletons.|
-C Recruitment|QID|26800|NC|M|32.57,64.19|R|Undead|N|Click on the Scarlet Corpses with the yellow arrow pointing at them to pick them up.|
-C Scourge on our Perimeter|QID|26801|US|M|32.00,62.01|N|Kill zombies and skeletons.|
+C Scourge on our Perimeter|QID|26801|S|M|51.45,41.45|N|Kill zombies and skeletons.|
+C Recruitment|QID|26800|NC|M|53.81,50.48|R|Undead|N|Click on the Scarlet Corpses with the yellow arrow pointing at them to pick them up.|
+C Scourge on our Perimeter|QID|26801|US|M|51.45,41.45|N|Kill zombies and skeletons.|
 
-T Recruitment|QID|26800|M|31.63,65.61|R|Undead|N|To Deathguard Saltain.|
-T Scourge on our Perimeter|QID|26801|M|30.87,66.19|N|To Shadow Priest Sarvis.|
+T Recruitment|QID|26800|M|49.92,56.37|R|Undead|N|To Deathguard Saltain.|
+T Scourge on our Perimeter|QID|26801|M|46.76,58.77|N|To Shadow Priest Sarvis.|
 
 L Level 3|QID|24961|LVL|3|N|You need to be Level 3 to continue with this guide.|
 
-A Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Glyphic Scroll|QID|3098|R|Undead|C|Mage|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Simple Scroll|QID|3095|R|Undead|C|Warrior|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Scribbled Scroll|QID|31146|R|Undead|C|Monk|M|30.87,66.19|N|From Shadow Priest Sarvis.|
+A Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|46.76,58.77|N|From Shadow Priest Sarvis.|
+A Glyphic Scroll|QID|3098|R|Undead|C|Mage|M|46.76,58.77|N|From Shadow Priest Sarvis.|
+A Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|46.76,58.77|N|From Shadow Priest Sarvis.|
+A Simple Scroll|QID|3095|R|Undead|C|Warrior|M|46.76,58.77|N|From Shadow Priest Sarvis.|
+A Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|46.76,58.77|N|From Shadow Priest Sarvis.|
+A Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|46.76,58.77|N|From Shadow Priest Sarvis.|
+A Scribbled Scroll|QID|31146|R|Undead|C|Monk|M|46.76,58.77|N|From Shadow Priest Sarvis.|
 
-A The Truth of the Grave|QID|24961|M|30.89,66.11|N|From Novice Elreth.|PRE|26801|
+A The Truth of the Grave|QID|24961|M|46.85,58.44|N|From Novice Elreth.|PRE|26801|
 
-T Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|31.12,66.08|N|To Dark Cleric Duesten.|
-T Glyphic Scroll|QID|3098|R|Undead|C|Mage|M|30.91,66.13|N|To Isabella.|
-T Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|31.47,65.59|N|To Xavier the Huntsman.|
-T Simple Scroll|QID|3095|R|Undead|C|Warrior|M|32.63,65.61|N|To Dannil Stern.|
-T Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|30.92,66.30|N|To Maximillion.|
-T Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|30.87,66.19|N|To David Trias.|
-T Scribbled Scroll|QID|31146|R|Undead|C|Monk|M|32.43,65.74|N|To Ting, Strong of Stomach.|
+T Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|47.80,58.31|N|To Dark Cleric Duesten.|
+T Glyphic Scroll|QID|3098|R|Undead|C|Mage|M|46.93,58.52|N|To Isabella.|
+T Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|49.25,56.28|N|To Xavier the Huntsman.|
+T Simple Scroll|QID|3095|R|Undead|C|Warrior|M|54.06,56.37|N|To Dannil Stern.|
+T Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|46.97,59.23|N|To Maximillion.|
+T Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|46.76,58.77|N|To David Trias.|
+T Scribbled Scroll|QID|31146|R|Undead|C|Monk|M|53.23,56.91|N|To Ting, Strong of Stomach.|
 
-A Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|31.12,66.08|N|From Dark Cleric Duesten.|
-A Magic Training|QID|24965|R|Undead|C|Mage|M|30.91,66.13|N|From Isabella.|
-A The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.47,65.59|N|From Xavier the Huntsman.|
-A Charging into Battle|QID|24969|R|Undead|C|Warrior|M|32.63,65.61|N|From Dannal Stern.|
-A Dark Deeds|QID|24968|R|Undead|C|Warlock|M|30.92,66.30|N|From Maximillion.|
-A Stab!|QID|24967|R|Undead|C|Rogue|M|30.87,66.19|N|From David Trias.|
-A Tiger Palm|QID|31147|R|Undead|C|Monk|M|32.43,65.74|N|From Ting, Strong of Stomach.|
+A Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|47.80,58.31|N|From Dark Cleric Duesten.|
+A Magic Training|QID|24965|R|Undead|C|Mage|M|46.93,58.52|N|From Isabella.|
+A The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|49.25,56.28|N|From Xavier the Huntsman.|
+A Charging into Battle|QID|24969|R|Undead|C|Warrior|M|54.06,56.37|N|From Dannal Stern.|
+A Dark Deeds|QID|24968|R|Undead|C|Warlock|M|46.97,59.23|N|From Maximillion.|
+A Stab!|QID|24967|R|Undead|C|Rogue|M|46.76,58.77|N|From David Trias.|
+A Tiger Palm|QID|31147|R|Undead|C|Monk|M|53.23,56.91|N|From Ting, Strong of Stomach.|
 
-C Of Light and Shadows|QID|24966|R|Undead|C|Priest|NC|M|31.12,66.08|N|Train Flash Heal. Use it on the wounded forsaken next to you.|
-C Magic Training|QID|24965|R|Undead|C|Mage|M|31.65,66.83|N|Train Arcane Missles from Isabella. Go to a Dummy, cast Fireball, then Arcane Missles when it becomes available.|
-C The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.65,66.83|N|Learn Steady Shot from Xavier, practice it 5 times on a Dummy.|
-C Charging into Battle|QID|24969|R|Undead|C|Warrior|M|31.65,66.83|N|Learn Chrage from Dannal and practice it on a Dummy.|
-C Dark Deeds|QID|24968|R|Undead|C|Warlock|M|31.65,66.83|N|Learn Immolate from Maximillion and practice it 5 times on a Dummy.|
-C Stab!|QID|24967|R|Undead|C|Rogue|M|31.65,66.83|N|Learn Eviscerate from David, practice it 3 times on a Dummy.|
-C Tiger Palm|QID|31147|R|Undead|C|Monk|M|31.65,66.83|N|Use Tiger Palm on a Dummy.|
+C Of Light and Shadows|QID|24966|R|Undead|C|Priest|NC|M|47.80,58.31|N|Train Flash Heal. Use it on the wounded forsaken next to you.|
+C Magic Training|QID|24965|R|Undead|C|Mage|M|50.00,61.42|N|Train Arcane Missles from Isabella. Go to a Dummy, cast Fireball, then Arcane Missles when it becomes available.|
+C The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|50.00,61.42|N|Learn Steady Shot from Xavier, practice it 5 times on a Dummy.|
+C Charging into Battle|QID|24969|R|Undead|C|Warrior|M|50.00,61.42|N|Learn Chrage from Dannal and practice it on a Dummy.|
+C Dark Deeds|QID|24968|R|Undead|C|Warlock|M|50.00,61.42|N|Learn Immolate from Maximillion and practice it 5 times on a Dummy.|
+C Stab!|QID|24967|R|Undead|C|Rogue|M|50.00,61.42|N|Learn Eviscerate from David, practice it 3 times on a Dummy.|
+C Tiger Palm|QID|31147|R|Undead|C|Monk|M|50.00,61.42|N|Use Tiger Palm on a Dummy.|
 
-T Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|31.07,66.07|N|To Dark Cleric Duesten.|
-T Magic Training|QID|24965|R|Undead|C|Mage|M|30.91,66.13|N|To Isabella.|
-T The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.47,65.59|N|To Xavier the Huntsman.|
-T Charging into Battle|QID|24969|R|Undead|C|Warrior|M|32.63,65.61|N|To Dannal Stern.|
-T Dark Deeds|QID|24968|R|Undead|C|Warlock|M|30.92,66.30|N|To Maximillion.|
-T Stab!|QID|24967|R|Undead|C|Rogue|M|30.87,66.19|N|To David Trias.|
-T Tiger Palm|QID|31147|R|Undead|C|Monk|M|32.43,65.74|N|From Ting, Strong of Stomach.|
+T Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|47.59,58.27|N|To Dark Cleric Duesten.|
+T Magic Training|QID|24965|R|Undead|C|Mage|M|46.93,58.52|N|To Isabella.|
+T The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|49.25,56.28|N|To Xavier the Huntsman.|
+T Charging into Battle|QID|24969|R|Undead|C|Warrior|M|54.06,56.37|N|To Dannal Stern.|
+T Dark Deeds|QID|24968|R|Undead|C|Warlock|M|46.97,59.23|N|To Maximillion.|
+T Stab!|QID|24967|R|Undead|C|Rogue|M|46.76,58.77|N|To David Trias.|
+T Tiger Palm|QID|31147|R|Undead|C|Monk|M|53.23,56.91|N|From Ting, Strong of Stomach.|
 
-C The Truth of the Grave|QID|24961|NC|M|32.69,65.79|N|She's in the inn, though the location inside is random. Right-click the cowering woman and choose the gossip option.|
-T The Truth of the Grave|QID|24961|M|30.89,66.08|N|To Novice Elreth.|
+C The Truth of the Grave|QID|24961|NC|M|54.31,57.11|N|She's in the inn, though the location inside is random. Right-click the cowering woman and choose the gossip option.|
+T The Truth of the Grave|QID|24961|M|46.85,58.31|N|To Novice Elreth.|
 
-A The Executor In the Field|QID|28672|M|30.89,66.08|N|From Novice Elreth.|PRE|24961|
-T The Executor In the Field|QID|28672|M|32.95,61.13|N|To Executor Arren.|
+A The Executor In the Field|QID|28672|M|46.85,58.31|N|From Novice Elreth.|PRE|24961|
+T The Executor In the Field|QID|28672|M|55.39,37.80|N|To Executor Arren.|
 
-A The Damned|QID|26802|M|32.95,61.13|N|From Executor Arren.|PRE|28672|
-C The Damned|QID|26802|M|34.98,58.92|N|Kill and loot bats and wolves.|
-T The Damned|QID|26802|M|32.99,61.08|N|To Executor Arren.|
+A The Damned|QID|26802|M|55.39,37.80|N|From Executor Arren.|PRE|28672|
+C The Damned|QID|26802|M|63.81,28.65|N|Kill and loot bats and wolves.|
+T The Damned|QID|26802|M|55.56,37.60|N|To Executor Arren.|
 
-A Night Web's Hollow|QID|24973|M|32.99,61.08|N|From Executor Arren.|PRE|24973|
-C Night Web's Hollow|QID|24973|M|27.86,58.61|N|Kill spiders over at the mine.|
-T Night Web's Hollow|QID|24973|M|32.97,61.09|N|To Executor Arren.|
+A Night Web's Hollow|QID|24973|M|55.56,37.60|N|From Executor Arren.|PRE|24973|
+C Night Web's Hollow|QID|24973|M|34.28,27.36|N|Kill spiders over at the mine.|
+T Night Web's Hollow|QID|24973|M|55.47,37.64|N|To Executor Arren.|
 
-A No Better Than the Zombies|QID|24970|M|32.97,61.09|N|From Executor Arren.|PRE|24973|
-T No Better Than the Zombies|QID|24970|M|35.74,62.19|N|To Darnell.|
+A No Better Than the Zombies|QID|24970|M|55.47,37.64|N|From Executor Arren.|PRE|24973|
+T No Better Than the Zombies|QID|24970|M|66.96,42.20|N|To Darnell.|
 
-A Assault on the Rotbrain Encampment|QID|24971|M|35.74,62.19|N|From Darnell.|PRE|24970|
-C Assault on the Rotbrain Encampment|QID|24971|M|36.48,68.83|N|Kill the hostile undead, and Marshal Redpath. BE VERY CAUTIOUS! This quest can be pretty difficult - Marshal Redpath is quite tough to take on alone. See if you can get the NPCs to help, or team up with another player.|
-T Assault on the Rotbrain Encampment|QID|24971|M|30.88,66.20|N|To Shadow Priest Sarvis.|
+A Assault on the Rotbrain Encampment|QID|24971|M|66.96,42.20|N|From Darnell.|PRE|24970|
+C Assault on the Rotbrain Encampment|QID|24971|M|70.03,69.71|N|Kill the hostile undead, and Marshal Redpath. BE VERY CAUTIOUS! This quest can be pretty difficult - Marshal Redpath is quite tough to take on alone. See if you can get the NPCs to help, or team up with another player.|
+T Assault on the Rotbrain Encampment|QID|24971|M|46.81,58.81|N|To Shadow Priest Sarvis.|
 
-A Vital Intelligence|QID|24972|M|30.88,66.20|N|From Shadow Priest Sarvis.|PRE|24971|
-R Calston Estate|QID|24972|M|44.70,53.60|N|Follow the road out of Deathknell.|ACTIVE|24972|
-r Empty your bags|QID|24972|M|44.5,53.2|N|You won't have to repair yet. But, with only 1 bag right now, you'll need to empty it.|S|ACTIVE|24972|
-T Vital Intelligence|QID|24972|M|44.70,53.60|Z|Tirisfal Glades|N|To Deathguard Simmer.|
+A Vital Intelligence|QID|24972|M|46.81,58.81|N|From Shadow Priest Sarvis.|PRE|24971|
+R Calston Estate|QID|24972|M|104.12,6.61|N|Follow the road out of Deathknell.|ACTIVE|24972|
+r Empty your bags|QID|24972|M|103.29,4.95|N|You won't have to repair yet. But, with only 1 bag right now, you'll need to empty it.|S|ACTIVE|24972|
+T Vital Intelligence|QID|24972|M|104.12,6.61|Z|Tirisfal Glades|N|To Deathguard Simmer.|
 
 ]]
 

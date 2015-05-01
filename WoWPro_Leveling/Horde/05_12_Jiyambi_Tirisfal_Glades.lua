@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2015-04-30 20:26
+-- Who: Ludovicus
+-- Log: remap
+
+-- URL: http://wow-pro.com/node/3205/revisions/27213/view
 -- Date: 2015-04-28 00:39
 -- Who: Ludovicus
 -- Log: Split

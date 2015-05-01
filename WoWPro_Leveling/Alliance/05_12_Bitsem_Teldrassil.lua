@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2015-04-29 21:38
+-- Who: Ludovicus
+-- Log: Shifted coords to Shadowglen
+
+-- URL: http://wow-pro.com/node/3204/revisions/27211/view
 -- Date: 2015-04-25 21:17
 -- Who: Ludovicus
 -- Log: Break guide in 2

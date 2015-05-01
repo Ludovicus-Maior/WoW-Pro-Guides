@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-04-30 20:24
+-- Who: Ludovicus
+-- Log: remap
+
+-- URL: http://wow-pro.com/node/3200/revisions/27217/view
 -- Date: 2015-04-28 00:49
 -- Who: Ludovicus
 -- Log: Zone name fixes
@@ -258,11 +263,6 @@
 -- Date: 2011-06-02 23:30
 -- Who: Fluclo
 -- Log: Added Coord Complete tag to both "Enter the cave" here steps
-
--- URL: http://wow-pro.com/node/3200/revisions/24354/view
--- Date: 2011-04-29 18:18
--- Who: Ludovicus
--- Log: Changed O steps to N steps.
 
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,2,10,5.74453)
