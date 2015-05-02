@@ -335,8 +335,8 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 
 	local GQL = tonumber(WoWPro:GrailQuestLevel(WoWPro.QID[i]))
 	
-	if GQL and GQL < 1 then
-	    WoWPro:dbg("Guide %s QID %s: Grail reports %s!",GID,WoWPro.QID[i],GQL)
+	if GQL and GQL < 1 and tonumber(WoWPro.QID[i]) < 100000  then
+	    WoWPro:dbp("Guide %s QID %s: Grail reports %s!",GID,WoWPro.QID[i],GQL)
 	    GQL = nil
     end
 
