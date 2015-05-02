@@ -333,27 +333,28 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 		WoWPro.faction[i] = faction
 	end
 
-	local gql = WoWPro:GrailQuestLevel(WoWPro.QID[i])
-	if WoWPro.DebugLevel > 0 and gql and tonumber(WoWPro.QID[i]) and tonumber(WoWPro.QID[i]) < 100000 then
-	    if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel > 1 and tonumber(gql) < (WoWPro.Guides[GID].startlevel / 2) then
-	        WoWPro:Warning("Guide %s QID %s is level %s?",GID,WoWPro.QID[i],gql)
-	        gql = "0"
+	local GQL = tonumber(WoWPro:GrailQuestLevel(WoWPro.QID[i]))
+	
+	if GQL and GQL < 1 then
+	    WoWPro:dbg("Guide %s QID %s: Grail reports %s!",GID,WoWPro.QID[i],GQL)
+	    GQL = nil
+    end
+
+	if WoWPro.DebugLevel > 0 and GQL and tonumber(WoWPro.QID[i]) and tonumber(WoWPro.QID[i]) < 100000 then
+	    if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel > 1 and GQL < 2 then
+            -- Treat a 1 from grail as meaning no level requirement.
+	        GQL = WoWPro.Guides[GID].startlevel
 	    end
-	    if tonumber(gql) < 1 then
-	        WoWPro:Warning("Guide %s QID %s is level %s!",GID,WoWPro.QID[i],gql)
-	    else
-	        gql = tonumber(gql)
-	        if WoWPro.Guides[GID].startlevel and gql < tonumber(WoWPro.Guides[GID].startlevel) then
-	              WoWPro:Warning("Guide %s QID %s is level %s!??",GID,WoWPro.QID[i],gql)
-	        end
-	        if WoWPro.Guides[GID].endlevel and gql > tonumber(WoWPro.Guides[GID].endlevel) then
-	              WoWPro:Warning("Guide %s QID %s is level %s!??",GID,WoWPro.QID[i],gql)
-	        end
-	        WoWPro.Guides[GID].amax_level = max(WoWPro.Guides[GID].amax_level,gql)
-	        WoWPro.Guides[GID].amin_level = min(WoWPro.Guides[GID].amin_level,gql)
-	        WoWPro.Guides[GID].asum_level = WoWPro.Guides[GID].asum_level + gql
-	        WoWPro.Guides[GID].acnt_level = WoWPro.Guides[GID].acnt_level + 1
-	    end
+        if WoWPro.Guides[GID].startlevel and (GQL+2) < WoWPro.Guides[GID].startlevel then
+              WoWPro:Warning("Guide %s QID %s is level %d, but startlevel=%d!",GID,WoWPro.QID[i],GQL, WoWPro.Guides[GID].startlevel)
+        end
+        if WoWPro.Guides[GID].endlevel and GQL > WoWPro.Guides[GID].endlevel then
+              WoWPro:Warning("Guide %s QID %s is level %d, but endlevel=%d",GID,WoWPro.QID[i],GQL, WoWPro.Guides[GID].endlevel)
+        end
+        WoWPro.Guides[GID].amax_level = max(WoWPro.Guides[GID].amax_level,GQL)
+        WoWPro.Guides[GID].amin_level = min(WoWPro.Guides[GID].amin_level,GQL)
+        WoWPro.Guides[GID].asum_level = WoWPro.Guides[GID].asum_level + GQL
+        WoWPro.Guides[GID].acnt_level = WoWPro.Guides[GID].acnt_level + 1
 	end
 
 	WoWPro.why[i] = "I dunno."
