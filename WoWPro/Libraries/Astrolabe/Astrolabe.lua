@@ -1,5 +1,7 @@
 --[[
 Name: Astrolabe
+Revision: $Rev: 161 $
+$Date: 2014-10-14 22:59:04 -0700 (Tue, 14 Oct 2014) $
 Author(s): Esamynn (esamynn at wowinterface.com)
 Inspired By: Gatherer by Norganna
              MapLibrary by Kristofer Karlsson (krka at kth.se)
@@ -39,8 +41,8 @@ Note:
 -- WARNING!!!
 -- DO NOT MAKE CHANGES TO THIS LIBRARY WITHOUT FIRST CHANGING THE LIBRARY_VERSION_MAJOR
 -- STRING (to something unique) OR ELSE YOU MAY BREAK OTHER ADDONS THAT USE THIS LIBRARY!!!
-local LIBRARY_VERSION_MAJOR = "Astrolabe-1.0"
-local LIBRARY_VERSION_MINOR = 162.1
+local LIBRARY_VERSION_MAJOR = "Astrolabe-TomTom-1.0"
+local LIBRARY_VERSION_MINOR = tonumber(string.match("$Revision: 161 $", "(%d+)") or 1) + 0.1
 
 if not DongleStub then error(LIBRARY_VERSION_MAJOR .. " requires DongleStub.") end
 if not DongleStub:IsNewerVersion(LIBRARY_VERSION_MAJOR, LIBRARY_VERSION_MINOR) then return end
@@ -123,7 +125,7 @@ local issecurevariable = issecurevariable
 local real_GetCurrentMapAreaID = GetCurrentMapAreaID
 local function GetCurrentMapAreaID()
 	local id = real_GetCurrentMapAreaID();
-	if ( id < 0 and GetCurrentMapContinent() == WORLDMAP_AZEROTH_ID ) then
+	if ( id < 0 and GetCurrentMapContinent() == WORLDMAP_WORLD_ID ) then
 		return 0;
 	end
 	return id;
@@ -141,7 +143,7 @@ local function assert(level,condition,message)
 end
 
 local function argcheck(value, num, ...)
-	assert(1, type(num) == "number", "Bad argument #2 to 'argcheck' (number expected, got " .. type(num) .. ")")
+	assert(1, type(num) == "number", "Bad argument #2 to 'argcheck' (number expected, got " .. type(level) .. ")")
 	
 	for i=1,select("#", ...) do
 		if type(value) == select(i, ...) then return end
@@ -334,10 +336,10 @@ function Astrolabe:GetUnitPosition( unit, noMapChange )
 			-- attempt to zoom out once - logic copied from WorldMapZoomOutButton_OnClick()
 				if ( ZoomOut() ) then
 					-- do nothing
-				elseif ( GetCurrentMapZone() ~= WORLDMAP_AZEROTH_ID ) then
+				elseif ( GetCurrentMapZone() ~= WORLDMAP_WORLD_ID ) then
 					SetMapZoom(GetCurrentMapContinent());
 				else
-					SetMapZoom(WORLDMAP_AZEROTH_ID);
+					SetMapZoom(WORLDMAP_WORLD_ID);
 				end
 			x, y = GetPlayerMapPosition(unit);
 			if ( x <= 0 and y <= 0 ) then
@@ -378,10 +380,10 @@ function Astrolabe:GetCurrentPlayerPosition()
 			-- attempt to zoom out once - logic copied from WorldMapZoomOutButton_OnClick()
 				if ( ZoomOut() ) then
 					-- do nothing
-				elseif ( GetCurrentMapZone() ~= WORLDMAP_AZEROTH_ID ) then
+				elseif ( GetCurrentMapZone() ~= WORLDMAP_WORLD_ID ) then
 					SetMapZoom(GetCurrentMapContinent());
 				else
-					SetMapZoom(WORLDMAP_AZEROTH_ID);
+					SetMapZoom(WORLDMAP_WORLD_ID);
 				end
 			x, y = GetPlayerMapPosition("player");
 			if ( x <= 0 and y <= 0 ) then
@@ -1256,8 +1258,10 @@ local function activate( newInstance, oldInstance )
 			local contZoneList = newInstance.ContinentList[C];
 			contZoneList[0] = continents[C*2 - 1];
 			for Z = 1, (#zones / 2) do
-				contZoneList[Z] = zones[Z*2 - 1];
-				SetMapByID(contZoneList[Z]);
+				local areaId = zones[Z*2 - 1];
+				SetMapByID(areaId);
+				local zoneKey = GetCurrentMapZone();
+				contZoneList[zoneKey] = areaId
 				harvestMapData(HarvestedMapData);
 			end
 		end
@@ -1382,89 +1386,6 @@ WorldMapSize = {
 }
 
 MicroDungeonSize = {}
-
--- SetMapByID does not work for mapID 971 or 976 during the first UI load since the client was started, so we have to hardcode their information.
-local HARDCODED_MAP_INFORMATION = {
-    [971] = {
-        ["mapName"] = "garrisonsmvalliance",
-        ["cont"] = 7,
-        ["zone"] = 7,
-        ["numFloors"] = 0,
-        [0] = {},
-    },
-    [976] = {
-        ["mapName"] = "garrisonffhorde",
-        ["cont"] = 7,
-        ["zone"] = 3,
-        ["numFloors"] = 0,
-        [0] = {},
-    },
-}
--- Distribute data from hardcoding to their maps
-for mapID, data in pairs(HARDCODED_MAP_INFORMATION) do
-    -- Only distribute the information if we didn't get it through other means
-    if ( not Astrolabe.HarvestedMapData[mapID] ) then
-        -- Copy table contents
-        Astrolabe.HarvestedMapData[mapID] = {}
-        Astrolabe.HarvestedMapData[mapID].mapName = data.mapName
-        Astrolabe.HarvestedMapData[mapID].cont = data.cont
-        Astrolabe.HarvestedMapData[mapID].zone = data.zone
-        Astrolabe.HarvestedMapData[mapID].numFloors = data.numFloors
-        Astrolabe.HarvestedMapData[mapID].hiddenFloor = data.hiddenFloor
-        Astrolabe.HarvestedMapData[mapID][0] = {}
-        -- While these mapIDs are not accessible by most of the API, we -can- get base floor coordinate info, so we don't have to hardcode that.
-        local _, _, _, TLx, BRx, TLy, BRy, _, _, _ = GetAreaMapInfo(mapID)
-        Astrolabe.HarvestedMapData[mapID][0].TLx = TLx
-        Astrolabe.HarvestedMapData[mapID][0].TLy = TLy
-        Astrolabe.HarvestedMapData[mapID][0].BRx = BRx
-        Astrolabe.HarvestedMapData[mapID][0].BRy = BRy
-    end
-end
-
--- worldMapIDs who have the bit 2 flag set cannot be displayed via SetMapByID and therefore will get no information from the above code.
--- We work around this by remapping them where possible since their characteristics usually are based off another worldMapID anyway.
-local MAPS_TO_REMAP = {
-    [19] = {992}, -- BlastedLands_terrain1 = BlastedLands
-    [141] = {907}, -- Dustwallow = Dustwallow_terrain1
-    [544] = {681, 682}, -- TheLostIsles = TheLostIsles_terrain1, TheLostIsles_terrain2
-    [606] = {683}, -- Hyjal = Hyjal_terrain1
-    [700] = {770}, -- TwilightHighlands = TwilightHighlands_terrain1
-    [720] = {748}, -- Uldum = Uldum_terrain1
-    [857] = {910}, -- Krasarang = Krasarang_terrain1
-    [971] = {973, 974, 975, 991}, -- garrisonsmvalliance = garrisonsmvalliance_tier1, garrisonsmvalliance_tier3, garrisonsmvalliance_tier4, garrisonsmvalliance_tier2
-    [976] = {980, 981, 982, 990}, -- garrisonffhorde = garrisonffhorde_tier1, garrisonffhorde_tier3, garrisonffhorde_tier4, garrisonffhorde_tier2
-}
--- Distribute data from valid maps to maps needing remapping
-for validMapID, remapMapIDs in pairs(MAPS_TO_REMAP) do
-    for _, currentRemapMapID in pairs(remapMapIDs) do
-        if ( Astrolabe.HarvestedMapData[validMapID] and not Astrolabe.HarvestedMapData[currentRemapMapID] ) then
-            -- Speed up accesses
-            local oldTable = Astrolabe.HarvestedMapData[validMapID]
-            Astrolabe.HarvestedMapData[currentRemapMapID] = {}
-            local newTable = Astrolabe.HarvestedMapData[currentRemapMapID]
-            
-            -- Copy table contents
-            newTable.mapName = oldTable.mapName
-            newTable.cont = oldTable.cont
-            newTable.zone = oldTable.zone
-            newTable.numFloors = oldTable.numFloors
-            newTable.hiddenFloor = oldTable.hiddenFloor
-            
-            -- Copy floors
-            if ( oldTable.numFloors ) then
-                for f = 0, oldTable.numFloors do
-                    if ( oldTable[f] and oldTable[f].TLx and oldTable[f].TLy and oldTable[f].BRx and oldTable[f].BRy ) then
-                        newTable[f] = {}
-                        newTable[f].TLx = oldTable[f].TLx
-                        newTable[f].TLy = oldTable[f].TLy
-                        newTable[f].BRx = oldTable[f].BRx
-                        newTable[f].BRy = oldTable[f].BRy
-                    end
-                end
-            end
-        end
-    end
-end
 
 
 --------------------------------------------------------------------------------------------------------------
@@ -1666,7 +1587,7 @@ Astrolabe.HarvestedMapData.VERSION = harvestedDataVersion
 -- micro dungeons
 for _, ID in ipairs(GetDungeonMaps()) do
 	local floorIndex, minX, maxX, minY, maxY, terrainMapID, parentWorldMapID, flags = GetDungeonMapInfo(ID);
-	if ( (WorldMapSize[parentWorldMapID] and not WorldMapSize[parentWorldMapID][floorIndex]) or (band(flags, DUNGEONMAP_MICRO_DUNGEON) == DUNGEONMAP_MICRO_DUNGEON) ) then
+	if ( band(flags, DUNGEONMAP_MICRO_DUNGEON) == DUNGEONMAP_MICRO_DUNGEON ) then
 		local TLx, TLy, BRx, BRy = -maxX, -maxY, -minX, -minY
 		-- apply any necessary transforms
 		local transformApplied = false
@@ -1700,11 +1621,6 @@ end
 -- done with Transforms data
 TRANSFORMS = nil
 
--- Note: There is a potential bug that could come up here in the future.
--- Example: ingame API returns mapID 857 floor 2 for a micro dungeon, while GetDungeonMapInfo lists the mapID as 910.
--- Because Astrolabe sets up micro dungeon data using originSystems, there is no issue (857 and 910 share an originSystem) with any data at this point in time (Patch 6.1).
--- However, the issue could surface in the future if Blizzard mislabeled an originSystem, hence the note placed here.
-
 for _, data in pairs(MicroDungeonSize) do
 	setmetatable(data, zeroData);
 end
@@ -1727,5 +1643,30 @@ AstrolabeMapMonitor:RegisterAstrolabeLibrary(Astrolabe, LIBRARY_VERSION_MAJOR);
 Astrolabe.WorldMapSize = WorldMapSize
 Astrolabe.MicroDungeonSize = MicroDungeonSize
 Astrolabe.zeroData = zeroData
-Astrolabe.activate = activate
+
+WorldMapSize[27][10] = { xOffset =  -500.500000, height = 380.000000, yOffset =  5242.000000, width = 570.000000 , __index = zeroDataFunc };
+WorldMapSize[811][3] = { xOffset =  -114.999512, height = 173.333984, yOffset =  -726.333008, width = 260.000977 , __index = zeroDataFunc };
+WorldMapSize[811][4] = { xOffset =   -87.500000, height = 210.000000, yOffset =  -693.750000, width = 315.000000 , __index = zeroDataFunc };
+WorldMapSize[857][1] = { xOffset =   994.375000, height = 175.000000, yOffset =   750.000000, width = 262.500000 , __index = zeroDataFunc };
+WorldMapSize[857][2] = { xOffset =  1135.469971, height = 335.000732, yOffset =   885.000366, width = 502.500977 , __index = zeroDataFunc };
+WorldMapSize[857][3] = { xOffset =  1009.369995, height = 141.666016, yOffset =   763.333008, width = 212.499023 , __index = zeroDataFunc };
+WorldMapSize[873][5] = { xOffset =   413.750000, height = 595.000000, yOffset = -1140.000000, width = 892.500000 , __index = zeroDataFunc };
+WorldMapSize[941][1] = { xOffset = -5437.495117, height = 483.339844, yOffset = -6523.330078, width = 725.009766 , __index = zeroDataFunc };
+WorldMapSize[941][2] = { xOffset = -5479.995117, height = 423.339844, yOffset = -6537.330078, width = 635.009766 , __index = zeroDataFunc };
+WorldMapSize[941][3] = { xOffset = -5645.000000, height = 240.000000, yOffset = -6710.000000, width = 360.000000 , __index = zeroDataFunc };
+WorldMapSize[941][4] = { xOffset = -5516.000000, height = 410.000000, yOffset = -6540.000000, width = 615.000000 , __index = zeroDataFunc };
+WorldMapSize[941][5] = { xOffset = -3296.250000, height = 295.000000, yOffset = -5475.000000, width = 442.500000 , __index = zeroDataFunc };
+WorldMapSize[941][6] = { xOffset = -3296.250000, height = 295.000000, yOffset = -5475.000000, width = 442.500000 , __index = zeroDataFunc };
+WorldMapSize[941][7] = { xOffset = -4147.500000, height = 550.000000, yOffset = -6650.000000, width = 825.000000 , __index = zeroDataFunc };
+WorldMapSize[946][13] = { xOffset = -1962.50000, height = 350.000000, yOffset = -1615.000000, width = 525.000000 , __index = zeroDataFunc };
+WorldMapSize[946][14] = { xOffset = -3092.50000, height = 360.000000, yOffset = -2005.000000, width = 550.000000 , __index = zeroDataFunc };
+WorldMapSize[947][15] = { xOffset =  -583.75000, height = 231.000000, yOffset = -1030.750000, width = 346.500000 , __index = zeroDataFunc };
+WorldMapSize[949][17] = { xOffset = -1013.75000, height = 165.000000, yOffset = -4330.000000, width = 247.500000 , __index = zeroDataFunc };
+WorldMapSize[949][19] = { xOffset = -1375.75000, height = 265.000000, yOffset = -6950.000000, width = 397.500000 , __index = zeroDataFunc };
+WorldMapSize[950][10] = { xOffset = -3895.00000, height = 370.000000, yOffset = -2510.500000, width = 555.000000 , __index = zeroDataFunc };
+WorldMapSize[950][11] = { xOffset = -5181.245117, height = 245.839844, yOffset = -2989.580078, width = 368.759766 , __index = zeroDataFunc };
+WorldMapSize[950][12] = { xOffset = -6075.00000, height = 400.000000, yOffset = -2322.500000, width = 600.000000 , __index = zeroDataFunc };
+WorldMapSize[970][1]  = { xOffset =  2720.379883, height = 303.172852, yOffset = -4359.998535, width = 454.759766 , __index = zeroDataFunc };
+WorldMapSize[971][23] = { xOffset =  -31.0000000, height = 250.000000, yOffset = -1806.000000, width = 375.000000 , __index = zeroDataFunc };
+WorldMapSize[976][27] = { xOffset = -4305.000000, height = 269.000000, yOffset = -5356.000000, width = 390.000000 , __index = zeroDataFunc };
 
