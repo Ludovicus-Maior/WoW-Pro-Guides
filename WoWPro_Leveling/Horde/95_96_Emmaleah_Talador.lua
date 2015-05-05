@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2015-05-03 03:51
+-- Who: Emmaleah
+-- Log: fixed missing HRT between l Sha'tari crystals and l curious death web egg
+
+-- URL: http://wow-pro.com/node/3598/revisions/27181/view
 -- Date: 2015-03-22 00:31
 -- Who: Emmaleah
 -- Log: Finally finished checking all my talador changes. Hopefully its also mistake free. Main change of note is the correct hearthstone is used to go to Vol'jin's Pride, 
@@ -431,7 +436,8 @@ K Taladorantula|QID|34171|M|59,87.4|L|116126|T|Taladorantula|ITEM|116126|N|Killi
 l Webbed Sac|QID|34255|M|65.5,88.6|L|116129|N|After you get into the big room of the cave, you will see a ramp on your right, up that is a rare named and some treasure.|ITEM|116129|RANK|2|
 K Klikixx|QID|34498|L|116125|M|66.8,85.4|T|Klikixx|N|A bit further along the ledge you will find Klikixx. After you kill her, you can jump down and finish the other objectives in the cave.|ITEM|116125|RANK|2|
 K Xanatos|QID|33970|QO|1|M|65.77,86.88|T|Xanatos the Defiler|
-l Sha'tari crystal|QID|33970|QO|2|M|65.77,86.88|N|The Sha'tari crytstal is right behind Xanatos.|RANK|2|l Curious Death Web Egg|QID|34239|M|66.6,86.9|N|Loot for a bit of treasure|ITEM|117569|RANK|2|
+l Sha'tari crystal|QID|33970|QO|2|M|65.77,86.88|N|The Sha'tari crytstal is right behind Xanatos.|RANK|2|
+l Curious Death Web Egg|QID|34239|M|66.6,86.9|N|Loot for a bit of treasure|ITEM|117569|RANK|2|
 l Rusted Lockbox|QID|34276|M|66,85.1|N|Its down at the bottom of the pond, its a long way down but you have time and won't drown.  Contains a random green item and garrison resources.|RANK|2|
 C Antivenin|QID|33971|US|M|58.05,83.34|RANK|2|
 C Vile Defilers|QID|33972|M|57.43,85.36|US|RANK|2|

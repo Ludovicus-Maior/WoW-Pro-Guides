@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2015-05-02 00:23
+-- Who: Ludovicus
+-- Log: 8) gets mapped to a smiley!
+
+-- URL: http://wow-pro.com/node/3203/revisions/27229/view
 -- Date: 2015-04-30 20:25
 -- Who: Ludovicus
 -- Log: remap

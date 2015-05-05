@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2015-05-02 00:23
+-- Who: Ludovicus
+-- Log: 8) gets mapped to a smiley!
+
+-- URL: http://wow-pro.com/node/3203/revisions/27229/view
 -- Date: 2015-04-30 20:25
 -- Who: Ludovicus
 -- Log: remap
@@ -128,7 +133,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('GylMul0512', "Leveling", 'Mulgore', 'Gylin', 'Horde')
-WoWPro:GuideLevels(guide,4,10,
+WoWPro:GuideLevels(guide,4,10,8 )
 WoWPro:GuideNextGuide(guide, 'BitNor1220')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function()
