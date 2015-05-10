@@ -44,7 +44,7 @@ function WoWPro.Leveling:OnEnable()
 			Tauren = "GylMul0105",
 			BloodElf = "SnoEve0112",
 			Goblin = "MalKez0105", 
-			Draenei = "SnoAzu0112",
+			Draenei = "SnoAmmen0105",
 			NightElf = "BitTel0110",
 			Dwarf = "GylDwa0105",
 			Gnome = "GylGno0105",
