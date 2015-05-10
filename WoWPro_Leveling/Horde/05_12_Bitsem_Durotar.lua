@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-05-10 20:40
+-- Who: Ludovicus
+-- Log: Touched up Echo Isles.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27216/view
 -- Date: 2015-04-28 00:48
 -- Who: Ludovicus
 -- Log: Zone fix for ValleyofTrials
@@ -278,10 +283,6 @@
 -- Date: 2011-04-29 15:27
 -- Who: Ludovicus
 -- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
-
--- URL: http://wow-pro.com/node/3199/revisions/24318/view
--- Date: 2011-04-29 15:25
--- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
