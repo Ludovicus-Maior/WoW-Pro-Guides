@@ -40,15 +40,15 @@ function WoWPro.Leveling:OnEnable()
 		local startguides = {
 			Orc = "JiyDur0105", 
 			Troll = "BitDur0105", 
-			Scourge = "JiyTir0112",
+			Scourge = "JiyDk0105",
 			Tauren = "GylMul0105",
-			BloodElf = "SnoEve0112",
+			BloodElf = "SnoSun0105",
 			Goblin = "MalKez0105", 
 			Draenei = "SnoAmmen0105",
 			NightElf = "BitTel0110",
 			Dwarf = "GylDwa0105",
 			Gnome = "GylGno0105",
-			Human = "KurElw0111",
+			Human = "KurNShire0105",
 			Worgen = "RpoGil0113",
 			Pandaren = "FlucloPanda",
 		}
