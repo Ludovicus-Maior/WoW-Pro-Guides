@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2015-05-10 23:45
+-- Who: Ludovicus
+-- Log: Zone tweaks for Ammen Vale.
+
+-- URL: http://wow-pro.com/node/3206/revisions/27215/view
 -- Date: 2015-04-28 00:47
 -- Who: Ludovicus
 -- Log: Split

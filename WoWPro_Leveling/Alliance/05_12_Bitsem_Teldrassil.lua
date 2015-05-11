@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2015-05-10 23:42
+-- Who: Ludovicus
+-- Log: Guide name change BitSha0105
+
+-- URL: http://wow-pro.com/node/3204/revisions/27226/view
 -- Date: 2015-04-29 21:38
 -- Who: Ludovicus
 -- Log: Shifted coords to Shadowglen
