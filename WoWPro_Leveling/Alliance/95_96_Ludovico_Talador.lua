@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-05-16 14:58
+-- Who: Ludovicus
+-- Log: PLaythrough tweaks
+
+-- URL: http://wow-pro.com/node/3614/revisions/27191/view
 -- Date: 2015-04-05 19:27
 -- Who: Aldavor
 -- Log: Some -major- modifications and flow changes. I've left my comments in the source in case there are any issues.
@@ -219,11 +224,13 @@ T Not In Your House|QID|34804|M|69.60,21.60|N|To Quartermaster O'Riley|
 A Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|From Patrick Messer|RANK|3|
 A Wanted: Hilaani|QID|34104|M|69.43,21.14|N|From Patrick Messer|RANK|3|
 
+C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress, waaay to the south of fort. Party of 3 suggested.|
+
 ; [aldavor] added arcane sanctum qid
-R The Pilgrim's Road|QID|34578;34908|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;72.66,38.06;67.30,42.83|CS|N|Its a long ride.  We will break it up a little. Head out the back.|
+R The Pilgrim's Road|QID|33871|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;72.66,38.06;67.30,42.83|CS|N|Its a long ride.  We will break it up a little. Head out the back.|
 
 A Seek Out the Seer|QID|33871|M|67.50,43.75;70.78,47.38;68.98,45.97|CN|N|From Elumm who walks up and down this road.|
-R Duskfall Island|QID|34578;34908|M|67.56,44.76;66.29,46.85;65.83,47.53|CS|N|Next, Duskfall!|
+R Duskfall Island|QID|34761|M|67.56,44.76;66.29,46.85;65.83,47.53|CS|N|Next, Duskfall!|
 A Clear!|QID|34761|M|62.86,50.32|N|From Torben Zapblast|
 T Seek Out the Seer|QID|33871|M|65.43,50.73|N|To Seer Malune|
 A Dust of the Dead|QID|33872|M|65.43,50.73|N|From Seer Malune.|PRE|33871|
@@ -243,12 +250,11 @@ A New Owner|QID|35239|M|62.89,50.46|N|From Pleasure-Bot 8000, after a delay.|
 T New Owner|QID|35239|M|62.89,50.46|N|To Pleasure-Bot 8000|
 
 A A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|From Nadur|
-C A Pilgrimage Gone Awry|QID|34802|S|N|Kill Ridge Prowlers (and cubs) for Prowler Blood, Snapdragon Fronds are growing plants, loot Riverhopper Eye from frogs/toads|
+C A Pilgrimage Gone Awry|QID|34802|N|Kill Ridge Prowlers (and cubs) for Prowler Blood, Snapdragon Fronds are growing plants, loot Riverhopper Eye from frogs/toads|
 T A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|To Nadur|
 
 K Ra'kahn|M|60.1,57.5;59.48,59.59|CS|RANK|3|QID|34196|N|Rare kill; may drop Ra'kahn's Bite (i563 Fist Weapon). Head SW from Nadur, cave entrance is first coord.|
 
-C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress, waaay to the south of fort. Party of 3 suggested.|
 
 ; [aldavor] Use PREs with these arcane tower ones.
 T The Foot of the Fortress|QID|34908|M|62.0,69.3|N|To Magister Serena|
@@ -616,3 +622,148 @@ D Fall-through|N|No more quests in this guide. Next is Spires of Arak.|
 
 ]]
 end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

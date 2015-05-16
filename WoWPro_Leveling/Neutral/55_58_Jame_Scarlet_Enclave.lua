@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
+-- Date: 2015-05-16 15:02
+-- Who: Ludovicus
+-- Log: You dont have Cinderglacier at the start now, just Razorice.
+
+-- URL: http://wow-pro.com/node/3369/revisions/26590/view
 -- Date: 2014-07-25 19:46
 -- Who: Ludovicus
 -- Log: Removed class specifiers.
@@ -76,7 +81,7 @@ C The Emblazoned Runeblade |QID|12619|U|38607|N|Use the [Battle-worn Sword] near
 T The Emblazoned Runeblade |QID|12619|N|To Instructor Razuvious.|M|48.0,28.5|
 A Runeforging: Preparation For Battle |QID|12842|M|48.0,28.5|N|From Instructor Razuvious.|
 
-C Runeforging: Preparation For Battle |QID|12842|U|38707|N|Use your Runeforging to engrave a Rune of Cinderglacier onto the [Runed Soulblade], then Equip your [Runed Soulblade].|M|47.4,31.0|
+C Runeforging: Preparation For Battle |QID|12842|U|38707|N|Use your Runeforging to engrave a Rune of Razorice onto the [Runed Soulblade], then Equip your [Runed Soulblade].|M|47.4,31.0|
 
 T Runeforging: Preparation For Battle |QID|12842|N|To Instructor Razuvious.|M|48.0,28.5|
 A The Endless Hunger |QID|12848|M|48.0,28.5|N|From Instructor Razuvious.|
@@ -296,3 +301,61 @@ N Thus ends the Death Knight starting area.|N|Close this step to head start the 
 
 ]]
 end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

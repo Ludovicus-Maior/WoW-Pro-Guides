@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-05-16 15:07
+-- Who: Ludovicus
+-- Log: Revert to get the dwarf zone back, re-add the zone changes for gnomes.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27246/view
+-- Date: 2015-05-16 15:06
+-- Who: Ludovicus
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3200/revisions/27228/view
 -- Date: 2015-04-30 20:24
 -- Who: Ludovicus
 -- Log: remap
@@ -253,16 +263,6 @@
 -- Date: 2011-06-02 23:50
 -- Who: Fluclo
 -- Log: Adding auto-complete step for On to Kharanos
-
--- URL: http://wow-pro.com/node/3200/revisions/24494/view
--- Date: 2011-06-02 23:39
--- Who: Fluclo
--- Log:  No Tanks! as the latter is a Non-Combat quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24493/view
--- Date: 2011-06-02 23:30
--- Who: Fluclo
--- Log: Added Coord Complete tag to both "Enter the cave" here steps
 
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2015-05-16 14:54
+-- Who: Aldavor
+-- Log: Amended a few coordinates. Checked through for monk, seemed OK. The last quest of the guide ("Rest and Relaxation") doesn't check off when accepted - amended coords as NPC in different zone.
+
+-- URL: http://wow-pro.com/node/3197/revisions/27227/view
 -- Date: 2015-04-30 20:19
 -- Who: Ludovicus
 -- Log: Remap
@@ -186,6 +191,7 @@ A Beating Them Back!|QID|28764|C|Rogue|M|33.55,53.00|R|Human|N|From Marshal McBr
 A Beating Them Back!|QID|28765|C|Warlock|M|33.55,53.00|R|Human|N|From Marshal McBride.|
 A Beating Them Back!|QID|31139|C|Monk|M|33.55,53.00|R|Human|N|From Marshal McBride.|
 A Beating Them Back!|QID|29078|M|33.55,53.00|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|N|From Marshal McBride.|
+
 C Beating Them Back!|N|Kill worgs around this location.|QID|28762|C|Paladin|M|28.86,42.35|R|Human|
 C Beating Them Back!|N|Kill worgs around this location.|QID|28766|C|Warrior|M|28.86,42.35|R|Human|
 C Beating Them Back!|N|Kill worgs around this location.|QID|28767|C|Hunter|M|28.86,42.35|R|Human|
@@ -195,6 +201,7 @@ C Beating Them Back!|N|Kill worgs around this location.|QID|28764|C|Rogue|M|28.8
 C Beating Them Back!|N|Kill worgs around this location.|QID|28765|C|Warlock|M|28.86,42.35|R|Human|
 C Beating Them Back!|N|Kill worgs around this location.|QID|31139|C|Monk|M|28.86,42.35|R|Human|
 C Beating Them Back!|N|Kill worgs around this location.|QID|29078|M|28.86,42.35|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
+
 T Beating Them Back!|QID|28762|C|Paladin|M|33.55,53.00|R|Human|N|To Marshal McBride.|
 T Beating Them Back!|QID|28766|C|Warrior|M|33.55,53.00|R|Human|N|To Marshal McBride.|
 T Beating Them Back!|QID|28767|C|Hunter|M|33.55,53.00|R|Human|N|To Marshal McBride.|
@@ -267,14 +274,14 @@ A The Deepest Cut|QID|26915|C|Rogue|R|Human|M|41.11,45.33|N|From Jorik Kerridan.
 A Learning the Word|QID|26919|C|Priest|R|Human|M|39.32,43.78|N|From Priestess Anetta.|
 A Immolation|QID|26914|C|Warlock|R|Human|M|39.53,55.11|N|From Drusilla La Salle.|
 A Palm of the Tiger|QID|31142|C|Monk|R|Human|M|41.25,52.10|N|From Bao.|
-C Immolation|N|Learn Immolate then use it on the training dummies.|QID|26914|C|Warlock|R|Human|M|48.63,44.37|
-C The Deepest Cut|N|Learn Eviscerate and use it on the training dummies. |QID|26915|C|Rogue|R|Human|M|48.63,44.37|
-C Learning the Word|N|Learn Shadow Word: Pain then practice it (5 times) on the training dummies.|QID|26919|C|Priest|R|Human|
-C Charging into Battle|N|Learn Charge from the warrior trainer then use it on the training dummies.|QID|26913|C|Warrior|R|Human|M|48.63,44.37|
-C The Hunter's Path|N|Learn Steady Shot from the hunter trainer then use it on the training dummies.|QID|26917|C|Hunter|R|Human|M|48.63,44.37|
-C The Power of the Light|N|Learn Seal of righteousness and judgement then use judgement on the training dummies.|QID|26918|C|Paladin|R|Human|M|48.63,44.37|
-C Mastering the Arcane|N|Learn Arcane Missiles then use it on the training dummies.|QID|26916|C|Mage|R|Human|M|48.63,44.37|
-C Palm of the Tiger|N|Learn Tiger Palm then use it on the training dummies.|QID|31142|C|Monk|R|Human|M|48.63,44.37|
+C Immolation|N|Learn Immolate then use it on the training dummies.|QID|26914|C|Warlock|R|Human|M|35.17,61.15|
+C The Deepest Cut|N|Learn Eviscerate and use it on the training dummies. |QID|26915|C|Rogue|R|Human|M|35.17,61.15|
+C Learning the Word|N|Learn Shadow Word: Pain then practice it (5 times) on the training dummies.|QID|26919|C|Priest|R|Human|M|35.17,61.15|
+C Charging into Battle|N|Learn Charge from the warrior trainer then use it on the training dummies.|QID|26913|C|Warrior|R|Human|M|35.17,61.15|
+C The Hunter's Path|N|Learn Steady Shot from the hunter trainer then use it on the training dummies.|QID|26917|C|Hunter|R|Human|M|35.17,61.15|
+C The Power of the Light|N|Learn Seal of righteousness and judgement then use judgement on the training dummies.|QID|26918|C|Paladin|R|Human|M|35.17,61.15|
+C Mastering the Arcane|N|Learn Arcane Missiles then use it on the training dummies.|QID|26916|C|Mage|R|Human|M|35.17,61.15|
+C Palm of the Tiger|N|Learn Tiger Palm then use it on the training dummies.|QID|31142|C|Monk|R|Human|M|35.17,61.15|
 T Immolation|QID|26914|C|Warlock|R|Human|M|39.53,55.11|N|To Drusilla La Salle.|
 T The Deepest Cut|QID|26915|C|Rogue|R|Human|M|41.11,45.33|N|To Jorik Kerridan.|
 T Learning the Word|QID|26919|C|Priest|R|Human|M|39.32,43.78|N|To Priestess Anetta.|
@@ -389,17 +396,18 @@ T The Rear is Clear|QID|29083|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|33.55,53.
 A Blackrock Invasion|QID|26389|M|33.55,53.00|N|From Marshal McBride.|
 A Extinguishing Hope|QID|26391|M|33.37,54.64|N|From Milly Osworth.|
 C Extinguishing Hope|N|Extinguish the fires.|S|U|58362|QID|26391|M|54.40,76.15|NC|
-C Blackrock Invasion|N|Kill and loot Orcs until you have 8 Blackrock Weapons.|QID|26389|M|54.02,48.52|
+C Blackrock Invasion|N|Kill and loot Orcs until you have 8 Blackrock Weapons.|QID|26389|M|52.00,68.73|
 C Extinguishing Hope|N|Extinguish the fires.|US|U|58362|QID|26391|M|54.40,76.15|NC|
 T Extinguishing Hope|QID|26391|M|33.37,54.64|N|To Milly Osworth.|
 T Blackrock Invasion|QID|26389|M|33.55,53.00|N|To Marshal McBride.|
 A Ending the Invasion!|QID|26390|M|33.55,53.00|N|From Marshal McBride.|
-C Ending the Invasion!|N|Kill Kurtok The Slayer (go around the abbey to get to him).|QID|26390|M|56.90,40.81|
+C Ending the Invasion!|N|Kill Kurtok The Slayer (go around the abbey to get to him).|QID|26390|M|65.06,48.19|
 H Northshire Valley|QID|26390|U|6948|N|Hearth or run back.|M|48.20,42.06|
 T Ending the Invasion!|QID|26390|M|33.55,53.00|N|To Marshal McBride.|
 A Report to Goldshire|QID|54|M|33.55,53.00|N|From Marshal McBride.|
 
-A Rest and Relaxation|QID|2158|M|24.09,73.32|N|From Falkhaan Isenstrider.|
+; [aldavor] this step is not checking off when accepted... had to add zone because of the npc location.
+A Rest and Relaxation|QID|2158|M|45.42,48.99|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|Z|Elwynn Forest|
 
 ]]
 

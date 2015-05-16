@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2015-05-16 14:54
+-- Who: Aldavor
+-- Log: Amended a few coordinates. Checked through for monk, seemed OK. The last quest of the guide ("Rest and Relaxation") doesn't check off when accepted - amended coords as NPC in different zone.
+
+-- URL: http://wow-pro.com/node/3197/revisions/27227/view
 -- Date: 2015-04-30 20:19
 -- Who: Ludovicus
 -- Log: Remap
