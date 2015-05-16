@@ -76,8 +76,37 @@ T Cleaning Up Gul'var|QID|33269|N|To Cordana Felsong|M|29.27,25.70|Z|Shadowmoon 
 T To Catch a Shadow |QID|33116|N|To Archmage Khadgar, and a cutscene.|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 T Bounty: Twisted Ancient|QID|33111|M|28.94,15.91|Z|Lunarfall|N|To Baros Alexston.|
 
-
-
+A Let's Get To Work|QID|39082|M|28.20,10.63|Z|Shadowmoon Valley@Draenor|N|From Merreck Vonder|
+T Let's Get To Work|QID|39082|M|29.77,10.64|Z|Shadowmoon Valley@Draenor|N|To Solog Roark|
+A Shipbuilding|QID|39054|M|29.77,10.64|Z|Shadowmoon Valley@Draenor|N|From Solog Roark|
+U Shipbuilding|QID|39054|U|127268|QO|1|N|Click on the plans to learn them.|
+T Shipbuilding|QID|39054|M|29.77,10.64|Z|Shadowmoon Valley@Draenor|N|From Solog Roark|
+A Strange Tools|QID|39276|M|29.77,10.64|Z|Shadowmoon Valley@Draenor|N|To Solog Roark|
+T Strange Tools|QID|39276|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|To Yanas Seastrike|
+A Ship Shape|QID|39055|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|From Yanas Seastrike|
+C If they build it ...|QID|39055|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|Ask Yanas to build it.|CHAT|
+C ... you will come back.|QID|39055|QO|2|N|Now wait for the boat to be build. The usual hour.|
+T Ship Shape|QID|39055|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|To Yanas Seastrike|
+A The Invasion of Tanaan|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|From Yanas Seastrike|
+C Meet with Khadgar|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|QO|1|CHAT|
+C Speak with Yrel|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|QO|2|CHAT|
+A The Invasion of Tanaan|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|To Yrel|
+C Meet with Khadgar|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|QO|1|CHAT|
+C Speak with Yrel|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|QO|2|CHAT|
+T The Invasion of Tanaan|QID|38435|M|29.82,10.69|Z|Tanaan Jungle|N|To Yerl|
+A Obstacle Course|QID|38436|M|29.82,10.69|Z|Tanaan Jungle|N|From Yerl|
+C Bleeding Hollow|QID|38436|M|29.82,10.69|Z|Tanaan Jungle|QO|1|N|Get Info|
+C Cultists|QID|38436|M|29.82,10.69|Z|Tanaan Jungle|QO|2|N|Get Info|
+T Obstacle Course|QID|38436|M|29.82,10.69|Z|Tanaan Jungle|N|To Yerl|
+A In, Through, and Beyond!|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|N|From Yerl|
+C Reach|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|QO|1|
+C Destroy|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|QO|2|
+C Meet|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|QO|3|
+T In, Through, and Beyond!|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|N|To Exarch Naielle|
+A The Assault Base|QID|38445|M|29.82,10.69|Z|Tanaan Jungle|N|From Exarch Naielle|
+C Follow|QID|38445|M|29.82,10.69|Z|Tanaan Jungle|QO|1|
+C Plant the Flag|QID|38445|M|29.82,10.69|Z|Tanaan Jungle|QO|2|
+T The Assault Base|QID|38445|M|29.82,10.69|Z|Tanaan Jungle|N|To Exarch Naielle|
 ]]
 
 end)

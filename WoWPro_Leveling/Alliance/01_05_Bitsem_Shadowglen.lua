@@ -136,7 +136,7 @@
 -- Date: 2010-12-02 23:13
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('BitTel0110', "Leveling", 'Shadowglen (NightElf)', 'Bitsem', 'Alliance')
+local guide = WoWPro:RegisterGuide('BitSha0105', "Leveling", 'Shadowglen (NightElf)', 'Bitsem', 'Alliance')
 WoWPro:GuideLevels(guide,1,9, 3.5814)
 WoWPro:GuideNextGuide(guide, 'BitTel0510')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))

@@ -214,6 +214,33 @@ K Exarch Council|QID|36169|QO|1|N|They dont hit hard.  Use your "Call to Arms"|
 T The Trial of Champions|QID|36169|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|N|To Exarch Maladaar|
 
 
+A Garrison Campaign: War Council|QID|38253|M|30.32,33.46|N|From UI in 6.2|
+T Garrison Campaign: War Council|QID|38253|M|31.98,31.91|N|To King Varian Wrynn|
+A We Need a Shipwright|QID|38257|PRE|38253|N|From King Varian Wrynn|
+F Iron Docks|QID|38257|M|48.00,49.83|N|Fly to the Iron Docks in Gorgrond on Air Longdrink. Chat with him.|CHAT|
+T We Need a Shipwright|QID|38257|M|52.57,9.85|Z|Gorgrond|N|To Exarch Naielle|
+A Derailment|QID|38254|PRE|38257|M|52.57,9.85|Z|Gorgrond|N|From Exarch Naielle|
+C Detonator|QID|38254|M|51.42,14.32|Z|Gorgrond|QO|2|
+C Explosives|QID|38254|M|56.42,15.18|Z|Gorgrond|QO|1|
+T Derailment|QID|38254|M|56.75,17.17|Z|Gorgrond|N|To Yrel|
+A The Train Gang|QID|38255|PRE|38254|M|56.75,17.17|Z|Gorgrond|N|From Yrel|
+C First Explosive|QID|38255|M|56.92,16.90|Z|Gorgrond|QO|1|N|Plant the 1st explosive.|
+C Second Explosive|QID|38255|M|56.92,17.15|Z|Gorgrond|QO|2|N|Plant the 2nd explosive.|
+C Third Explosive|QID|38255|M|56.92,17.39|Z|Gorgrond|QO|3|N|Plant the 3rd explosive.|
+C Open the Train|QID|38255|M|56.75,17.19|Z|Gorgrond|QO|4|N|Blow Open the Train.|
+C Recruit |QID|38255|M|2,2|Z|Gorgrond|QO|5|N|Recruit Solog Roark, DO NOT FIGHT HIM.|
+T The Train Gang|QID|38255|M|56.75,17.23|Z|Gorgrond|N|From Solog Roark|
+A Hook, Line, and... Sink Him!|QID|38256|PRE|38255|M|56.75,17.23|Z|Gorgrond|N|From Solog Roark|
+C Grapple|QID|38256|M|50.64,16.08|Z|Gorgrond|QO|1|N|Use a Blackrock Grapple.|
+K Knar|QID|38256|M|50.61,17.57|Z|Gorgrond|QO|2|T|Knar|N|Kill him and loot the blueprints.|
+T Hook, Line, and... Sink Him!|QID|38256|M|50.61,16.68|Z|Gorgrond|N|To Solog Roark|
+A Nothing Remains|QID|38258|PRE|38256|M|50.61,16.68|Z|Gorgrond|N|From Solog Roark|
+H Lunarfall|QID|36164|N|Hearth back to your Garrison.|
+T Nothing Remains|QID|38258|M|31.98,31.91|N|To King Varian Wrynn|
+A All Hands on Deck|QID|38259|PRE|38258|M|31.98,31.91|N|From King Varian Wrynn|
+T All Hands on Deck|QID|38259|M|27.52,11.26|N|To Solog Roark|
+
+
 D Next!|QID|0|N|Click to return to whatever guide you were doing before.|
 
 
