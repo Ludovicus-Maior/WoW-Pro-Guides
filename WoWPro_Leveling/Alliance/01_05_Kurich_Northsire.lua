@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2015-05-16 16:08
+-- Who: Aldavor
+-- Log: Removed redundant comments
+
+-- URL: http://wow-pro.com/node/3197/revisions/27249/view
+-- Date: 2015-05-16 16:07
+-- Who: Aldavor
+-- Log: Changed QID from 2158 to 37112 for "Rest and Relaxation" quest (updated with WoD expac).
+
+-- URL: http://wow-pro.com/node/3197/revisions/27243/view
 -- Date: 2015-05-16 14:54
 -- Who: Aldavor
 -- Log: Amended a few coordinates. Checked through for monk, seemed OK. The last quest of the guide ("Rest and Relaxation") doesn't check off when accepted - amended coords as NPC in different zone.
@@ -406,8 +416,7 @@ H Northshire Valley|QID|26390|U|6948|N|Hearth or run back.|M|48.20,42.06|
 T Ending the Invasion!|QID|26390|M|33.55,53.00|N|To Marshal McBride.|
 A Report to Goldshire|QID|54|M|33.55,53.00|N|From Marshal McBride.|
 
-; [aldavor] this step is not checking off when accepted... had to add zone because of the npc location.
-A Rest and Relaxation|QID|2158|M|45.42,48.99|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|Z|Elwynn Forest|
+A Rest and Relaxation|QID|37112|M|45.42,48.99|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|Z|Elwynn Forest|
 
 ]]
 

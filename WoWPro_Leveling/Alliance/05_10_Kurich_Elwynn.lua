@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2015-05-16 16:08
+-- Who: Aldavor
+-- Log: Removed redundant comments
+
+-- URL: http://wow-pro.com/node/3197/revisions/27249/view
+-- Date: 2015-05-16 16:07
+-- Who: Aldavor
+-- Log: Changed QID from 2158 to 37112 for "Rest and Relaxation" quest (updated with WoD expac).
+
+-- URL: http://wow-pro.com/node/3197/revisions/27243/view
 -- Date: 2015-05-16 14:54
 -- Who: Aldavor
 -- Log: Amended a few coordinates. Checked through for monk, seemed OK. The last quest of the guide ("Rest and Relaxation") doesn't check off when accepted - amended coords as NPC in different zone.
@@ -182,9 +192,9 @@ WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achieve
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;f Goldshire|QID|2158|M|41.72,64.64|N|At Bartlett the Brave.|
-h Lion's Pride Inn|QID|2158|M|43.77,65.80|N|At Innkeeper Farley.|
-T Rest and Relaxation|QID|2158|M|43.77,65.80|N|To Innkeeper Farley.|
+;f Goldshire|QID|37112|M|41.72,64.64|N|At Bartlett the Brave.|
+h Lion's Pride Inn|QID|37112|M|43.77,65.80|N|At Innkeeper Farley.|
+T Rest and Relaxation|QID|37112|M|43.77,65.80|N|To Innkeeper Farley.|
 A Kobold Candles|QID|60|M|43.32,65.71|N|From William Pestle.|
 T Report to Goldshire|QID|54|M|42.11,65.92|N|To Marshal Dughan.|
 A The Fargodeep Mine|QID|62|M|42.11,65.92|N|From Marshal Dughan.|

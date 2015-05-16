@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-05-16 18:02
+-- Who: Ludovicus
+-- Log: Amend coords for Gnome starter zone.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27248/view
+-- Date: 2015-05-16 15:55
+-- Who: Aldavor
+-- Log: Amended most coordinates in the Dwarf starter zone; changed some 'l' tags to 'C' with numeric QOs; cleaned up.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27247/view
 -- Date: 2015-05-16 15:07
 -- Who: Ludovicus
 -- Log: Revert to get the dwarf zone back, re-add the zone changes for gnomes.
@@ -253,16 +263,6 @@
 -- Date: 2011-06-03 18:45
 -- Who: Fluclo
 -- Log: Tweaked coords for Razzle Sprysprocket
-
--- URL: http://wow-pro.com/node/3200/revisions/24497/view
--- Date: 2011-06-03 18:41
--- Who: Fluclo
--- Log: Removed the unnecessary |Z|Dun Morogh| tags; Removed unnecessary QO tag in Bound for Kharanos; Added quest A Honor Student; Added  three to/from Ironforge quests as Rank 2 quests; Updated some Run to and Heath steps to auto-complete; added some notes for clarity
-
--- URL: http://wow-pro.com/node/3200/revisions/24495/view
--- Date: 2011-06-02 23:50
--- Who: Fluclo
--- Log: Adding auto-complete step for On to Kharanos
 
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,2,10,5.74453)
