@@ -1658,7 +1658,7 @@ Astrolabe.MicroDungeonSize = MicroDungeonSize
 Astrolabe.zeroData = zeroData
 Astrolabe.activate = activate
 
-WorldMapSize[27][10] = { xOffset =  -500.500000, height = 380.000000, yOffset =  5242.000000, width = 570.000000 , __index = zeroDataFunc };
+WorldMapSize[27][10] = { xOffset =  -500.000000, height = 380.000000, yOffset =  5242.500000, width = 570.000000 , __index = zeroDataFunc };
 WorldMapSize[811][3] = { xOffset =  -114.999512, height = 173.333984, yOffset =  -726.333008, width = 260.000977 , __index = zeroDataFunc };
 WorldMapSize[811][4] = { xOffset =   -87.500000, height = 210.000000, yOffset =  -693.750000, width = 315.000000 , __index = zeroDataFunc };
 WorldMapSize[857][1] = { xOffset =   994.375000, height = 175.000000, yOffset =   750.000000, width = 262.500000 , __index = zeroDataFunc };
