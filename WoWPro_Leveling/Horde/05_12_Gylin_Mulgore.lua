@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2015-05-17 22:14
+-- Who: Ludovicus
+-- Log: Tauren Starter zone update
+
+-- URL: http://wow-pro.com/node/3203/revisions/27232/view
 -- Date: 2015-05-02 00:23
 -- Who: Ludovicus
 -- Log: 8) gets mapped to a smiley!
@@ -133,108 +138,11 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('GylMul0512', "Leveling", 'Mulgore', 'Gylin', 'Horde')
-WoWPro:GuideLevels(guide,4,10,8 )
+WoWPro:GuideLevels(guide,4,9,4.84868 )
 WoWPro:GuideNextGuide(guide, 'BitNor1220')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function()
 return [[
-
-A The First Step|QID|14449|M|45.14,75.56|N|From Chief Hawkwind.|
-T The First Step|QID|14449|M|48.89,78.33|N|To Grull Hawkwind.|
-A Rite of Strength|QID|14452|M|48.89,78.33|N|From Grull Hawkwind.|
-C Rite of Strength|QID|14452|M|49.34,78.68|N|Kill the Quilboars fighting with the defenders.|
-T Rite of Strength|QID|14452|M|48.92,78.30|N|To Grull Hawkwind.|
-
-L Level 2|QID|24852|LVL|2|N|You should be around level 2 by this point.|
-
-A Our Tribe, Imprisoned|QID|24852|M|48.92,78.30|N|From Grull Hawkwind.|
-C Our Tribe, Imprisoned|NC|QID|24852|M|51.43,80.26|N|Free the captured braves from the cages in this area.|
-T Our Tribe, Imprisoned|QID|24852|M|48.95,78.31|N|To Grull Hawkwind.|
-A Go to Adana|QID|14458|M|48.95,78.31|N|From Grull Hawkwind.|
-
-T Go to Adana|QID|14458|M|46.21,82.63|N|To Adana Thunderhorn.|
-A Rite of Courage|QID|14456|M|46.21,82.63|N|From Adana Thunderhorn.|
-A Stop the Thorncallers|QID|14455|M|46.21,82.63|N|From Adana Thunderhorn.|
-C Rite of Courage|S|QID|14456|M|47.40,86.15|N|Kill Britlebark Gun Thiefs and loot the Stolen Rifles from them.|
-C Stop the Thorncallers|QID|14455|M|46.77,87.35|N|Kill Bristleback Thorncallers|
-C Rite of Courage|US|QID|14456|M|47.40,86.15|N|Kill Britlebark Gun Thiefs and loot any Stolen Rifles you still need.|
-
-L Level 3|LVL|3|N|You should be around level 3 by this point.|
-
-T Rite of Courage|QID|14456|M|46.21,82.76|N|To Adana Thunderhorn.|
-T Stop the Thorncallers|QID|14455|M|46.21,82.76|N|To Adana Thunderhorn.|
-A The Battleboars|QID|14459|M|46.21,82.76|N|From Adana Thunderhorn.|
-A Feed of Evil|QID|14461|M|46.21,82.76|N|From Adana Thunderhorn.|
-C Feed of Evil|NC|QID|14461|M|44.77,87.73;44.27,88.58;45.31,89.19|CS|N|Use Adona's Torch on the Troughs|U|49539|
-C The Battleboars|QID|14459|M|44.81,88.44|N|Kill any Battleboars you still need|
-T The Battleboars|QID|14459|M|46.20,82.70|N|To Adana Thunderhorn.|
-
-L Level 4|QID|14461|LVL|4|N|You should be around level 4 by this point.|
-
-T Feed of Evil|QID|14461|M|46.20,82.70|N|To Adana Thunderhorn.|
-A Rite of Honor|QID|14460|M|46.20,82.70|N|From Adana Thunderhorn.|
-
-A Verdant Note|QID|3094|M|46.15,82.47|N|From Rohaku Stonehoof.|C|Druid|R|Tauren|
-A Etched Note|QID|3092|M|46.16,82.49|N|From Rohaku Stonehoof.|C|Hunter|R|Tauren|
-A Consecrated Note|QID|27015|M|82.79,17.20|N|From Rohaku Stonehoof.|C|Paladin|R|Tauren|
-A Hallowed Note|QID|27014|M|46.18,82.49|N|From Rohaku Stonehoof.|C|Priest|R|Tauren|
-A Rune-Inscribed Note|QID|3093|M|46.19,82.39|N|From Rohaku Stonehoof.|C|Shaman|R|Tauren|
-A Simple Note|QID|3091|M|46.18,82.41|N|From Rohaku Stonehoof.|C|Warrior|R|Tauren|
-A Calligraphed Note|QID|31165|M|46.18,82.41|N|From Rohaku Stonehoof.|C|Monk|R|Tauren|
-C Rite of Honor|QID|14460|M|41.26,81.39|N|Kill and loot Chief Squealer Thornmantle, who is hanging out in this small cave.|
-
-H Camp Narache|QID|14460|M|45.16,75.45|U|6948|N|Use your hearthstone to return to Camp Narache (or run there).|
-
-T Verdant Note|QID|3094|M|45.21,75.29|N|To Gart Mistrunner.|C|Druid|R|Tauren|
-A The Healer's Touch|QID|27067|M|45.21,75.29|N|From Gart Mistrunner.|C|Druid|R|Tauren|
-C The Healer's Touch|QID|27067|M|44.57,74.60|C|Druid|R|Tauren|
-T The Healer's Touch|QID|27067|M|45.15,75.15|N|To Gart Mistrunner.|C|Druid|R|Tauren|
-
-T Etched Note|QID|3092|M|45.21,75.46|N|To Lanka Farshot.|C|Hunter|R|Tauren|
-A The Hunter's Path|QID|27021|M|45.21,75.46|N|From Lanka Farshot.|C|Hunter|R|Tauren|
-C The Hunter's Path|QID|27021|M|45.21,75.46|C|Hunter|R|Tauren|N|Use the indicated shot on the Training Dummy's.|
-T The Hunter's Path|QID|27021|M|45.21,75.46|N|To Lanka Farshot.|C|Hunter|R|Tauren|
-
-; The BloodElf/Troll adds should be verified.
-T Consecrated Note|QID|27015|M|45.01,75.40|N|To Sunwalker Helaku.|C|Paladin|R|Tauren,BloodElf|
-A The Way of the Sunwalkers|QID|27023|M|45.01,75.40|N|From Sunwalker Helaku.|C|Paladin|R|Tauren,BloodElf|
-C The Way of the Sunwalkers|QID|27023|M|45.39,75.47|C|Paladin|R|Tauren,BloodElf|
-T The Way of the Sunwalkers|QID|27023|M|45.02,75.40|N|To Sunwalker Helaku.|C|Paladin|R|Tauren,BloodElf|
-
-T Hallowed Note|QID|27014|M|45.03,75.32|N|To Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
-A Healing in a Flash|QID|27066|M|45.03,75.32|N|From Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
-C Healing in a Flash|QID|27066|M|44.51,74.50|C|Priest|R|Tauren,Troll|
-T Healing in a Flash|QID|27066|M|44.94,75.16|N|To Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
-
-T Rune-Inscribed Note|QID|3093|M|45.04,75.10|N|To Meela Dawnstrider.|C|Shaman|R|Tauren|
-A Primal Strike|QID|27027|M|45.04,75.10|N|From Meela Dawnstrider.|C|Shaman|R|Tauren|
-C Primal Strike|QID|27027|M|45.44,75.48|C|Shaman|R|Tauren|
-T Primal Strike|QID|27027|M|45.11,75.09|N|To Meela Dawnstrider.|C|Shaman|R|Tauren|
-
-T Simple Note|QID|3091|M|45.04,75.58|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
-A The First Lesson|QID|27020|M|45.04,75.58|N|From Harutt Thunderhorn.|C|Warrior|R|Tauren|
-C The First Lesson|QID|27020|M|45.40,75.53|C|Warrior|R|Tauren|
-T The First Lesson|QID|27020|M|45.06,75.52|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
-
-T Calligraphed Note|QID|31165|M|45.23,75.47|N|From Shoyu.|C|Monk|R|Tauren|
-A Tiger Palm|QID|31166|M|45.23,75.47|N|To Shoyu.|C|Monk|R|Tauren|
-C Tiger Palm|QID|31166|M|45.40,75.53|C|Monk|R|Tauren|
-T Tiger Palm|QID|31166|M|45.23,75.47|N|To Shoyu.|C|Monk|R|Tauren|
-
-T Rite of Honor|QID|14460|M|45.17,75.60|N|To Chief Hawkwind.|
-A Last Rites, First Rites|QID|24861|M|45.17,75.60|N|From Chief Hawkwind.|
-C Last Rites, First Rites|NC|QID|24861|M|45.17,75.60|U|50465|N|Use the Water Pitcher to place an offering for Greatmother Hawkwind.|
-T Last Rites, First Rites|QID|24861|M|45.17,75.60|N|To Chief Hawkwind.|
-
-A Rites of the Earthmother|QID|23733|M|45.17,75.60|N|From Chief Hawkwind.|
-R Fargaze Mesa|QID|23733|M|43.00,77.37|N|Head up the path on the hill to Fargaze Mesa.|
-T Rites of the Earthmother|QID|23733|M|41.19,76.05|N|To Dyami Windsoar.|
-
-A Rite of the Winds|QID|24215|M|41.19,76.05|N|From Dyami Windsoar.|
-F Bloodhoof Village|NC|QID|24215|M|47.70,59.66|N|Use the Water of Vision to become an eagle spirit and fly to Bloodhoof Village.|U|49652|
-T Rite of the Winds|QID|24215|M|47.70,59.66|N|To Ahmo Thunderhorn.|
-
-L Level 5|QID|14438|LVL|5|N|You should be around level 5 by this point.|
 
 A Sharing the Land|QID|14438|M|47.70,59.66|N|From Ahmo Thunderhorn.|
 h Bloodhoof Village|QID|14438|M|46.85,60.38|N|At Innkeeper Kauth.|
