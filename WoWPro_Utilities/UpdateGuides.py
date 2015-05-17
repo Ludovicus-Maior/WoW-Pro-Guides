@@ -186,7 +186,6 @@ class FindSource(HTMLParser):
             self._data = self._data + data
             if re.search("]]",data):
                 self._sawBrackets = True
-                return
             if self._sawBrackets and re.search("end\s*\)",data):
                 self._inGuide = False
                 self._sawBrackets = False
