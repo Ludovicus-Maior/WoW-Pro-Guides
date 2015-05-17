@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-05-16 21:18
+-- Who: Ludovicus
+-- Log: Need a blank line before the [/code] directive.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27253/view
+-- Date: 2015-05-16 21:17
+-- Who: Ludovicus
+-- Log: Updated Dwarf guide levels.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27251/view
 -- Date: 2015-05-16 18:02
 -- Who: Ludovicus
 -- Log: Amend coords for Gnome starter zone.
@@ -253,16 +263,6 @@
 -- Date: 2011-06-06 12:51
 -- Who: Crackerhead22
 -- Log: Dwarf starting area update: Added race tags for the Dwarf only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags.
-
--- URL: http://wow-pro.com/node/3200/revisions/24499/view
--- Date: 2011-06-03 18:47
--- Who: Fluclo
--- Log: Removing f Kharanos, as FP already known to the two starting races, and you already meet the Flight Master in an earlier quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24498/view
--- Date: 2011-06-03 18:45
--- Who: Fluclo
--- Log: Tweaked coords for Razzle Sprysprocket
 
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,2,10,5.74453)

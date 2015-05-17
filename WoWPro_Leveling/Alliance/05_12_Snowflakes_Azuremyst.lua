@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2015-05-16 21:21
+-- Who: Ludovicus
+-- Log: Adjusted Azuremyst guide levels
+
+-- URL: http://wow-pro.com/node/3206/revisions/27242/view
 -- Date: 2015-05-10 23:45
 -- Who: Ludovicus
 -- Log: Zone tweaks for Ammen Vale.
@@ -180,7 +185,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("SnoAzu0512", "Leveling", "Azuremyst Isle (Draenai)", "Snowflake", "Alliance")
-WoWPro:GuideLevels(guide,1,10,4.88439)
+WoWPro:GuideLevels(guide,5,10,6.17886)
 WoWPro:GuideNextGuide(guide, "SveBlo1220")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Draenei_Male","Interface\\Icons\\Achievement_Character_Draenei_Female"))
 WoWPro:GuideSteps(guide, function()

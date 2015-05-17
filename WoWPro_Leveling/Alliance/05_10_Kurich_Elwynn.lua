@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2015-05-16 21:19
+-- Who: Ludovicus
+-- Log: Adjusted Elwynn forest guide levels
+
+-- URL: http://wow-pro.com/node/3197/revisions/27250/view
 -- Date: 2015-05-16 16:08
 -- Who: Aldavor
 -- Log: Removed redundant comments
@@ -186,7 +191,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("KurElw0511", "Leveling", "Elwynn Forest (Human)", "Kurich", "Alliance")
-WoWPro:GuideLevels(guide,1,7,4.83099)
+WoWPro:GuideLevels(guide,5,10,5.83607)
 WoWPro:GuideNextGuide(guide, "BitWes1020")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Human_Male","Interface\\Icons\\Achievement_Character_Human_Female"))
 WoWPro:GuideSteps(guide, function()

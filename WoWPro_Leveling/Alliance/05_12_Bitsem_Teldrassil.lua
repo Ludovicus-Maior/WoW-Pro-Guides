@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2015-05-16 21:20
+-- Who: Ludovicus
+-- Log: Adjusted Teldrassil guide levels
+
+-- URL: http://wow-pro.com/node/3204/revisions/27252/view
+-- Date: 2015-05-16 21:16
+-- Who: Ludovicus
+-- Log: Updated Shadowglen Guide levels
+
+-- URL: http://wow-pro.com/node/3204/revisions/27241/view
 -- Date: 2015-05-10 23:42
 -- Who: Ludovicus
 -- Log: Guide name change BitSha0105
@@ -142,7 +152,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitTel0510', "Leveling", 'Teldrassil', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,1,9, 3.5814)
+WoWPro:GuideLevels(guide,3,9, 4.27344)
 WoWPro:GuideNextGuide(guide, 'JamDar1320')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))
 WoWPro:GuideSteps(guide, function()
