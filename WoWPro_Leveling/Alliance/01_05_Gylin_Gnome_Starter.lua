@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-05-18 00:14
+-- Who: Ludovicus
+-- Log: Wow, that [code] block thing was a bad idea.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27254/view
 -- Date: 2015-05-16 21:18
 -- Who: Ludovicus
 -- Log: Need a blank line before the [/code] directive.
@@ -259,11 +264,6 @@
 -- Who: Crackerhead22
 -- Log: Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
 
--- URL: http://wow-pro.com/node/3200/revisions/24504/view
--- Date: 2011-06-06 12:51
--- Who: Crackerhead22
--- Log: Dwarf starting area update: Added race tags for the Dwarf only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags.
-
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,3,1.81013)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -429,4 +429,3 @@ A Bound for Kharanos|QID|26380|M|49.91,44.98|Z|Dun Morogh|N|Run along the road h
 R Kharanos|QID|26373|M|53.00,48.32|Z|Dun Morogh|N|Follow the path East/South-East to get to Kharanos.|
 ]]
 end)
-
