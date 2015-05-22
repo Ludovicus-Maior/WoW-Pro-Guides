@@ -278,7 +278,7 @@ A Travel to Azure Watch|QID|9313|M|50.51,47.87|N|From Technician Zhanaa.|
 r Sell junk and repair|QID|9452|N|At Mura (close when done).|M|49.99,47.15|
 
 R Azuremyst Isle|QID|9314|M|28,55;19.25,54.32|CS|N|Run for a fairly long way almost directly west, and up the trail heading out of Ammen Vale.|
-A Word from Azure Watch |QID|9314|M|64.49,54.04|Z|Azuremyst Isle|From Aeun.|
+A Word from Azure Watch |QID|9314|M|64.49,54.04|Z|Azuremyst Isle|N|From Aeun.|
 
 ]]
 end)

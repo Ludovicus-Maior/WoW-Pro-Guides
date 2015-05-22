@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2015-05-22 20:54
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3244/revisions/26814/view
 -- Date: 2014-11-06 13:31
 -- Who: Fluclo
 -- Log: Fixed level tag at The Battle Resumes!
@@ -131,7 +135,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitWes3540', "Leveling", 'Western Plaguelands', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,34,39, 35)
+WoWPro:GuideLevels(guide,34,39,35.1196)
 WoWPro:GuideNextGuide(guide, 'CraEas4045')
 WoWPro:GuideIcon(guide,"ACH",4893)
 WoWPro:GuideSteps(guide, function()
