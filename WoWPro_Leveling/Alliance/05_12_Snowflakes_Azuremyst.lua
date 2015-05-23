@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2015-05-22 20:59
+-- Who: Ludovicus
+-- Log: Missing N tag
+
+-- URL: http://wow-pro.com/node/3206/revisions/27257/view
 -- Date: 2015-05-16 21:21
 -- Who: Ludovicus
 -- Log: Adjusted Azuremyst guide levels
