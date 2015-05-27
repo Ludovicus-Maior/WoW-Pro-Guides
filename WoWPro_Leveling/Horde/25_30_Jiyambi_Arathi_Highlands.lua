@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2015-05-26 22:08
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3230/revisions/26442/view
 -- Date: 2014-06-02 14:57
 -- Who: Ludovicus
 
@@ -56,19 +60,27 @@ WoWPro:GuideIcon(guide,"ACH",4896)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Warchief's Command: Arathi Highlands!|QID|28619|O|M|56.53,47.02|Z|Hillsbrad Foothills|N|From High Warlord Cromush.|
-R Galen's Fall|M|13.23,34.86|N|On the west side of Arathi Highlands.|
-f Galen's Fall|M|13.23,34.86|N|At Rhoda Bowers.|
-T Warchief's Command: Arathi Highlands!|QID|28619|O|M|13.34,35.80|N|To Dark Ranger Alina.|
+L Level 25 |QID|28619|LVL|25|N|This guide requires a minimum level of 25 to do.|
+
+R Galen's Fall|M|13.23,34.86|QID|28619;28572|N|Get Warchief's Command: Arathi Highlands! from the command board in Tarren's Mill (Hillsbrad Foothills), Undercity or Silvermoon City, then make your way to Galen's Fall which is on the border of Hillsbrad Foothills and Arathi Highlands.|
+T Warchief's Command: Arathi Highlands!|QID|28619|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28619|
+T Warchief's Command: Arathi Highlands!|QID|28572|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28572|
+
 A First Blood|QID|26022|M|13.34,35.80|N|From Dark Ranger Alina.|
+f Galen's Fall|QID|26022|M|13.23,34.86|N|At Rhoda Bowers.|
 A Clearing the Highlands|QID|26053|M|13.39,33.99|N|From Deathstalker Maudria.|
-A To Steal From Thieves|QID|26428|M|13.71,34.08|N|From Genavie Callow.|
-C First Blood|QID|26022|M|24.64,28.56|N|Kill and loot humans at the farmstead to the northeast.|
-C Clearing the Highlands|QID|26053|M|28.86,47.98|N|Kill ogres in and around Boulder'gor.|
-T Clearing the Highlands|QID|26053|M|13.40,34.33|N|To Deathstalker Maudria, back at Galen's Fall.|
+
+C Clearing the Highlands|QID|26053|M|28.70,45.40|QO|1|N|Kill Boulderfist ogres around Boulder'gor.|S|
+C Clearing the Highlands|QID|26053|M|28.70,45.40|QO|2|N|Head into Boulderfist Outpost, and kill the enforcers. The cavern entrance is on the east side of the hill.|
+C Clearing the Highlands|QID|26053|M|28.70,45.40|QO|1|N|Finish killing the ogres as you head north-west.|
+C First Blood|QID|26022|M|24.64,28.56|N|Kill and loot the syndicates at the farmstead to the north-west Be aware that some are hidden by stealth.|
+
+T Clearing the Highlands|QID|26053|M|13.40,34.33|N|To Deathstalker Maudria, back at Galen's Fall. Take care when heading back, as the direct route takes you through Level 29 Elementals at the Circle of West Binding.|
 A Call to Arms|QID|26027|PRE|26053|M|13.39,34.25|N|From Deathstalker Maudria.|
+
 T First Blood|QID|26022|M|13.35,35.88|N|To Dark Ranger Alina.|
 A The Forsaken Trollbane|QID|26023|PRE|26022|M|13.35,35.88|N|From Dark Ranger Alina.|
+
 A The Traitor Orc|QID|26025|PRE|26022|M|13.35,35.88|N|From Dark Ranger Alina.|
 T The Forsaken Trollbane|QID|26023|M|13.02,36.00|N|To Galen Trollbane.|
 A Sigil of Strom|QID|26030|PRE|26023|M|13.02,36.00|N|From Galen Trollbane.|
@@ -85,6 +97,9 @@ C Sigil of Thoradin|QID|26031|M|16.59,60.88|N|Head back to Stromgarde. In the we
 C The Real Threat|QID|26029|M|14.69,67.44|N|Kill and loot Or'Kalar, in the ogre section of Stromgarde.|
 T Sigil of Thoradin|QID|26031|M|12.98,36.06|N|To Galen Trollbane, back at Galen's Fall.|
 A Sigil of Arathor|QID|26032|PRE|26031|M|12.98,36.06|N|From Galen Trollbane.|
+
+A To Steal From Thieves|QID|26428|M|13.71,34.08|N|From Genavie Callow.|
+
 T The Real Threat|QID|26029|M|13.34,33.99|N|To Deathstalker Maudria.|
 C Sigil of Arathor|QID|26032|M|37.80,56.16|N|From the human lieutenant on a horse outside Refugee Point. Be careful, the other humans in this area will flag you PvP!|
 K Marcel Dabyrie|QID|26428|QO|Marcel's Head: 1/1|M|48.53,39.23|N|Inside the stable.|
@@ -151,8 +166,9 @@ T Myzrael's Tale|QID|26911|M|69.63,36.53|N|To Zaruk.|
 A The Princess Unleashed|QID|26912|PRE|26911|M|69.63,36.53|N|From Zaruk.|
 C The Princess Unleashed|QID|26912|U|4472|M|57.35,34.61|N|Use the scroll to summon Myzrael. This is technically a group quest, but can be solo'd if you feel comfortable with it. She will degrade into several earth elementals upon death. Once you've defeated her, be sure to loot the shackles from her.|
 T The Princess Unleashed|QID|26912|M|57.34,34.63|N|To the stone in front of you.|
-A Revantusk Village|QID|26430|M|69.00,34.78|N|From Drum Fel, back at Hammerfall. Take this if you'd like to do the Hinterlands next.|
-A Into the Scarlet Monastery|QID|26986|M|68.46,37.76|N|From Doctor Gregory Victor. Pick this up if you'd like to run Scarlet Monestary later.|
+A Revantusk Village|QID|26430|M|69.00,34.78|N|From Drum Fel, back at Hammerfall. Take this if you'd like to do the Hinterlands next.|RANK|3|
+A Into the Scarlet Monastery|QID|26986|M|68.46,37.76|N|From Doctor Gregory Victor. Pick this up if you'd like to run Scarlet Monestary later.|RANK|3|
+
 ]]
 
 end)
