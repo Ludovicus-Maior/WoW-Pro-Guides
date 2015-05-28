@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2015-05-27 22:16
+-- Who: Fluclo
+-- Log: Clarifying steps for the Keep
+
+-- URL: http://wow-pro.com/node/3230/revisions/27266/view
 -- Date: 2015-05-26 22:08
 -- Who: Fluclo
 
@@ -84,16 +89,21 @@ A The Forsaken Trollbane|QID|26023|PRE|26022|M|13.35,35.88|N|From Dark Ranger Al
 A The Traitor Orc|QID|26025|PRE|26022|M|13.35,35.88|N|From Dark Ranger Alina.|
 T The Forsaken Trollbane|QID|26023|M|13.02,36.00|N|To Galen Trollbane.|
 A Sigil of Strom|QID|26030|PRE|26023|M|13.02,36.00|N|From Galen Trollbane.|
+
+R Stromgarde Keep |QID|26025|M|19.65,61.50|N|Head along the road to Stromgarde Keep|
 C Sigil of Strom|QID|26030|S|M|22.45,62.41|N|Kill Syndicate members until you find the Sigil of Strom.|
-C The Traitor Orc|QID|26025|M|22.98,66.01|N|Enter Stromgarde and head to the second level, then turn east. Kill and loot Marez Cowl.|
+C The Traitor Orc|QID|26025|M|22.98,66.01|N|Turn left before the stairs, and head to the last building. Go around the side of the building, Marez Cowl is hiding at the back. Loot hersqw for the Orb.|T|Marez Cowl|
 C Sigil of Strom|QID|26030|US|M|22.45,62.41|N|Kill Syndicate members until you find the Sigil of Strom.|
-C Call to Arms|QID|26027|M|11.19,70.78|N|Kill shamans and lords in the ogre section of Stromgarde.|
+
+C Call to Arms|QID|26027|N|Head back along the path, turning left in the alleyway after the stairs. Head along there to reach the shamans and lords in the ogre section of Stromgarde. Be careful here as there is a Level 30 Apprentice that will flag you for PvP if you attack.|CC|M|17.75,62.70;17.40,67.90;14.50,69.60|
+
 T Sigil of Strom|QID|26030|M|13.04,36.10|N|To Galen Trollbane, back at Galen's Fall.|
 A Sigil of Thoradin|QID|26031|PRE|26030|M|13.04,36.10|N|From Galen Trollbane.|
 T Call to Arms|QID|26027|M|13.27,35.92|N|To Dark Ranger Alina.|
 T The Traitor Orc|QID|26025|M|13.27,35.92|N|To Dark Ranger Alina.|
 A The Real Threat|QID|26029|PRE|26027|M|13.39,34.29|N|From Deathstalker Maudria.|
-C Sigil of Thoradin|QID|26031|M|16.59,60.88|N|Head back to Stromgarde. In the western portion of the keep, kill and loot humans.|
+
+C Sigil of Thoradin|QID|26031|M|16.59,60.88|N|Head back to Stromgarde. Turn  right to the western portion of the keep, kill and loot humans.|
 C The Real Threat|QID|26029|M|14.69,67.44|N|Kill and loot Or'Kalar, in the ogre section of Stromgarde.|
 T Sigil of Thoradin|QID|26031|M|12.98,36.06|N|To Galen Trollbane, back at Galen's Fall.|
 A Sigil of Arathor|QID|26032|PRE|26031|M|12.98,36.06|N|From Galen Trollbane.|
