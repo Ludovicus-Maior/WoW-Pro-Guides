@@ -6,6 +6,21 @@ WoWPro.Leveling = WoWPro:NewModule("Leveling")
 local myUFG = UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.Leveling)
 
+WoWPro.Leveling.StartGuides = {
+			Orc = "JiyDur0105", 
+			Troll = "BitDur0105", 
+			Scourge = "JiyDk0105",
+			Tauren = "GylNar0105",
+			BloodElf = "SnoSun0105",
+			Goblin = "MalKez0105", 
+			Draenei = "SnoAmmen0105",
+			NightElf = "BitSha0105",
+			Dwarf = "GylDwa0105",
+			Gnome = "GylGno0105",
+			Human = "KurNShire0105",
+			Worgen = "RpoGil0113",
+			Pandaren = "FlucloPanda",
+		}
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Leveling:OnInitialize()
@@ -37,24 +52,9 @@ function WoWPro.Leveling:OnEnable()
 
 	-- New Level 1 Character --	
 	if UnitLevel("player") == 1 and UnitXP("player") < 100 then
-		local startguides = {
-			Orc = "JiyDur0105", 
-			Troll = "BitDur0105", 
-			Scourge = "JiyDk0105",
-			Tauren = "GylMul0105",
-			BloodElf = "SnoSun0105",
-			Goblin = "MalKez0105", 
-			Draenei = "SnoAmmen0105",
-			NightElf = "BitTel0110",
-			Dwarf = "GylDwa0105",
-			Gnome = "GylGno0105",
-			Human = "KurNShire0105",
-			Worgen = "RpoGil0113",
-			Pandaren = "FlucloPanda",
-		}
-		WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(startguides[engRace]))
-		WoWProDB.char.currentguide = startguides[engRace]
-		WoWPro:LoadGuide(startguides[engRace])
+		WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
+		WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
+		WoWPro:LoadGuide(WoWPro.Leveling.StartGuides[engRace])
 	-- New Death Knight --
 	elseif UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then
 		WoWPro:LoadGuide("JamScar5558")
@@ -65,6 +65,18 @@ function WoWPro.Leveling:OnEnable()
 	
 	WoWPro.FirstMapCall = true
 	WoWProCharDB.Taxi = WoWProCharDB.Taxi or {}
+end
+
+-- Validate that all start guides are present and accounted for
+function WoWPro.Leveling:ValidateStartGuides()
+    for k,v in pairs(WoWPro.Leveling.StartGuides) do
+        if WoWPro.Guides[v] then
+            WoWPro.Leveling:Print("Starter guide for %s (%s) is present.", k, v)
+        else
+            WoWPro.Leveling:Error("Starter guide for %s (%s) is missing.", k, v)
+        end
+    end
+    WoWPro.Leveling:Print("WoWPro.Leveling:ValidateStartGuides() done.")
 end
 
 -- Called when the module is disabled --
