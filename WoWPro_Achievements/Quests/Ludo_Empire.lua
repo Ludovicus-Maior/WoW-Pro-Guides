@@ -9,7 +9,7 @@
 -- Log: Init
 
 local guide = WoWPro:RegisterGuide('LudoEmpire', 'Achievements', 'Talador', 'Ludovicus', 'Neutral')
-WoWPro:GuideLevels(guide,90, 100, 98.7)
+WoWPro:GuideLevels(guide,98, 100, 98.7)
 WoWPro:GuideIcon(guide,"ACH",9640)
 WoWPro:GuideNextGuide(guide, nil)
 -- WoWPro:GuideTriggered(guide)
@@ -80,12 +80,64 @@ T Legacy of the Sorcerer Kings|QID|35998|M|85.18,31.72|N|To Archmage Khadgar|
 A The Scrying Game|QID|36005|PRE|35997;35998|M|85.18,31.72|N|From Archmage Khadgar|
 C The Scrying Game|QID|36005|CHAT|N|Tell Khadgar to get started.|
 T The Scrying Game|QID|36005|M|84.8,31.4|N|To Cordana Felsong|
-A Hunter: Hunted|QID|36006|PRE|36005|M|84.8,31.4|N|From Cordana Felsong|
-; ....
+N Hunter: Hunted|QID|36006|N|This is a good time to get mounted up, buffed up. You can use a bodyguard or your outpost power for the fight! Don't attack Garona until you are in the cave.|
+A Hunter: Hunted|QID|36006|PRE|36005|M|84.8,31.4|N|From Cordana Felsong.|
+C Find|QID|36006|M|84.21,28.22|QO|1|N|Don't be stupid and drop off the edge from the tower, unless you can slow your fall.  Take the path and catch up.  If the path has faded. Drop the quest and take it again.|
+C Track|QID|36006|M|84.21,28.22|QO|2|N|Keep following the blood trail to the cave.|
+C Corner|QID|36006|M|84.21,28.22|QO|3|N|Head into the cave.|
+C Defeat|QID|36006|M|84.21,28.22|QO|4|N|Whack her down to size!|
+C Capture|QID|36006|M|84.21,28.22|QO|5|N|Bring her back.|
 T Hunter: Hunted|QID|36006|M|84.8,31.4|N|From Cordana Felsong|
 
 A Touch of the Kirin-Tor|QID|36007|PRE|36006|M|85.18,31.72|N|From Archmage Khadgar|
-; and all the new ones!
+C Touch of the Kirin-Tor|QID|36007|CHAT|N|Tell Archmage Khadgar you ar ready|
+T Touch of the Kirin-Tor|QID|36007|M|85.18,31.72|N|From Archmage Khadgar|
+A Heart of the Fury|QID|36009|M|85.18,31.72|PRE|36007|N|From Archmage Khadgar|
+A Flamebender's Tome|QID|36010|M|85.18,31.72|PRE|36007|N|From Archmage Khadgar|
+A Reverse Piracy|QID|36012|M|85.18,31.72|PRE|36007|N|From Archmage Khadgar|
+A Might of the Elemental Lords|QID|36013|M|85.18,31.72|PRE|36007|N|From Archmage Khadgar|
+C Might of the Elemental Lords|QID|36013|Z|FoundryRaid|QO|1|N|Collect Elemental Tablets from BRF Bosses.|S|
+C Flamebender's Tome|QID|36010|M|19.5,76.8|Z|The Black Forge@FoundryRaid|QO|1|N|Kill Flamebender Ka'graz and loot the Tome|
+C Reverse Piracy|QID|36012|M|85,23.5;87.1,39.6|CN|Z|The Black Forge@FoundryRaid|N|Inside a Stolen Sha'tari Vault, behind the Iron Maidens is the Orb|
+C Heart of the Fury|QID|36009|M|45.9,53.4|Z|Slagworks@FoundryRaid|QO|1|N|Kill the Heart of the Mountain and loot the Heart|
+C Might of the Elemental Lords|QID|36013|Z|FoundryRaid|QO|1|N|Collect Elemental Tablets from BRF Bosses.|US|
+
+t Heart of the Fury|QID|36009|M|85.18,31.72|N|To Archmage Khadgar|
+t Flamebender's Tome|QID|36010|M|85.18,31.72|N|To Archmage Khadgar|
+t Reverse Piracy|QID|36012|M|85.18,31.72|N|To Archmage Khadgar|
+t Might of the Elemental Lords|QID|36013|M|85.18,31.72|N|To Archmage Khadgar|
+
+N Refresh|QID|36014|N|Click off this step.  It lets the client catch up with the server. You will now get your ring upgrade and get the Garona questline.|
+A Blackhand's Secret|QID|36014|M|85.18,31.72|PRE|36009;36010;36012;36013|N|From Archmage Khadgar|
+A The Unbroken Circle|QID|36016|M|85.18,31.72|PRE|36009;36010;36012;36013|N|From Archmage Khadgar|
+C The Unbroken Circle|QID|36016|CHAT|N|Ask Archmage Khadgar for your i715 upgrade|
+T The Unbroken Circle|QID|36016|M|85.18,31.72|N|To Archmage Khadgar|
+C Severed Arm|QID|36016|M|48.4,34.5|Z|The Crucible@FoundryRaid|N|Kill Blackhand and loot his arm.|
+T Blackhand's Secret|QID|36014|M|85.18,31.72|N|To Archmage Khadgar|
+A Prisoner of the Mind|QID|36017|PRE|36014|M|85.18,31.72|N|From Archmage Khadgar|
+C Prisoner of the Mind|QID|36017|CHAT|N|Tell Archmage Khadgar to get going.|
+T Prisoner of the Mind|QID|36017|PRE|36014|M|85.18,31.72|N|To Archmage Khadgar|
+A Orb of Dominion|QID|37834|PRE|36017|M|85.18,31.72|N|From Archmage Khadgar|
+A The Shadow War|QID|37835|PRE|36017|M|55,18|N|From UI, as you approach |
+C Shadow Council|QID|37835|M|56.92,16.81|Z|Shadowmoon Valley@Draenor|QO|1|S|
+C Orb of Dominion|QID|37834|M|55,18;56.3,18.4|Z|Shadowmoon Valley@Draenor|CS|QO|1|N|Make you way to the cave enterance and the grab the orb. Keep left.|
+C Shadow Council|QID|37835|M|56.92,16.81|Z|Shadowmoon Valley@Draenor|QO|1|US|N|A nasty rumor says you need your kills befoe looting the orb...|
+T Orb of Dominion|QID|37834|M|85.18,31.72|N|From Archmage Khadgar|
+T The Shadow War|QID|37835|M|55,18|N|To UI|
+A Breaking Badness|QID|37836|PRE|37834|M|85.18,31.72|N|From Archmage Khadgar|
+C Breaking Badness|QID|37836|CHAT|N|Tell Khadgar to get the Demon out from Garona. Prepare to kill it (685Khp).|
+T Breaking Badness|QID|37836|M|85.18,31.72|N|From Archmage Khadgar|
+A To Gul'dan!|QID|37964|PRE|37836|M|85.18,31.72|N|From Archmage Khadgar|
+T To Gul'dan!|QID|37964|M|67.4,6.6|N|To Archmage Khadgar|
+A An Inside Job|QID|37837|PRE|37964|M|67.4,6.6|N|From Archmage Khadgar|
+C Infiltrate|QID|37837|M|68,5|QO|1|N|Make your into the compound.  Use Garona to kill NPC that are not being looked at and no alarms will be raised.|
+C Locate Intel|QID|37837|M|69,4|QO|2|N|In the first building to the right.|
+C Spy|QID|37837|M|70,10|QO|3|N|Out to the main walkway and back up.  Click on the glowing boxes to start the cinematic.  You will be ported back to Khadgar at the end.|
+T An Inside Job|QID|37837|PRE|37964|M|67.4,6.6|N|From Archmage Khadgar|
+A The Final Assault|QID|37841|PRE|37837|M|67.4,6.6|N|From Archmage Khadgar|
+N Danger!|QID|37841|N|As soon as you accept Garona's service, leave ASAP!  The phasing will end and you will be attacked.|
+A My Garona|QID|37841|PRE|37837|M|67.4,6.6|N|From Garona Halforcen|
+T My Garona|QID|37841|M|67.4,6.6|N|To Garona Halforcen|
 ]]
 
 end)
