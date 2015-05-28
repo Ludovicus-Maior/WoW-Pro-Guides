@@ -8,7 +8,7 @@
 -- Who: Ludovicus
 -- Log: Init
 
-local guide = WoWPro:RegisterGuide('LudoShadowTrailAe', 'Achievements', 'Lunarfall', 'Ludovicus', 'Alliance')
+local guide = WoWPro:RegisterGuide('LudoGarrissonSupport', 'Achievements', 'Lunarfall', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,92, 100, 98.7)
 WoWPro:GuideIcon(guide,"ACH",9528)
 WoWPro:GuideNextGuide(guide, nil)
@@ -87,26 +87,27 @@ A Ship Shape|QID|39055|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|From Yanas Se
 C If they build it ...|QID|39055|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|Ask Yanas to build it.|CHAT|
 C ... you will come back.|QID|39055|QO|2|N|Now wait for the boat to be build. The usual hour.|
 T Ship Shape|QID|39055|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|To Yanas Seastrike|
-A The Invasion of Tanaan|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|From Yanas Seastrike|
-C Meet with Khadgar|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|QO|1|CHAT|
-C Speak with Yrel|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|QO|2|CHAT|
+
+;; Campaign
 A The Invasion of Tanaan|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|N|To Yrel|
 C Meet with Khadgar|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|QO|1|CHAT|
-C Speak with Yrel|QID|38435|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|QO|2|CHAT|
-T The Invasion of Tanaan|QID|38435|M|29.82,10.69|Z|Tanaan Jungle|N|To Yerl|
+C Speak with Yrel|QID|38435|M|27.60,10.18|Z|Shadowmoon Valley@Draenor|QO|2|CHAT|
+T The Invasion of Tanaan|QID|38435|M|73.42,71.10|Z|Tanaan Jungle|N|To Yerl|
+
 A Obstacle Course|QID|38436|M|29.82,10.69|Z|Tanaan Jungle|N|From Yerl|
-C Bleeding Hollow|QID|38436|M|29.82,10.69|Z|Tanaan Jungle|QO|1|N|Get Info|
-C Cultists|QID|38436|M|29.82,10.69|Z|Tanaan Jungle|QO|2|N|Get Info|
-T Obstacle Course|QID|38436|M|29.82,10.69|Z|Tanaan Jungle|N|To Yerl|
-A In, Through, and Beyond!|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|N|From Yerl|
-C Reach|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|QO|1|
-C Destroy|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|QO|2|
-C Meet|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|QO|3|
-T In, Through, and Beyond!|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|N|To Exarch Naielle|
-A The Assault Base|QID|38445|M|29.82,10.69|Z|Tanaan Jungle|N|From Exarch Naielle|
-C Follow|QID|38445|M|29.82,10.69|Z|Tanaan Jungle|QO|1|
-C Plant the Flag|QID|38445|M|29.82,10.69|Z|Tanaan Jungle|QO|2|
-T The Assault Base|QID|38445|M|29.82,10.69|Z|Tanaan Jungle|N|To Exarch Naielle|
+C Bleeding Hollow|QID|38436|M|68,87,64.91|Z|Tanaan Jungle|QO|1|N|Get Info, Over the bridge and to the west, along the coast. Kill Rulkrik and loot the scroll.|
+C Cultists|QID|38436|M|74.00,56.08|Z|Tanaan Jungle|QO|2|N|Get Info, Continue over the bridge ... Kill Magril|
+T Obstacle Course|QID|38436|M|69.47,52.97|Z|Tanaan Jungle|N|To Exarch Naielle|
+A In, Through, and Beyond!|QID|38444|M|69.47,52.97|Z|Tanaan Jungle|N|From  Exarch Naielle|
+C Reach|QID|38444|M|64.42,51.63|Z|Tanaan Jungle|QO|1|N|Get to the cannon, avoiding the bomb marks on the ground.|
+C Destroy|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|QO|2|N|Click on the bombs to detroy the cannon.|
+C Meet|QID|38444|M|60.75,47.23|Z|Tanaan Jungle|QO|3|
+T In, Through, and Beyond!|QID|38444|M|60.75,47.23|Z|Tanaan Jungle|N|To Exarch Naielle|
+A The Assault Base|QID|38445|M|60.75,47.23|Z|Tanaan Jungle|N|From Exarch Naielle|
+C Follow|QID|38445|M|59.64,48.37|Z|Tanaan Jungle|QO|1|
+C Plant the Flag|QID|38445|M|59.62,48.38|Z|Tanaan Jungle|QO|2|
+f Lion's Watch|QID|38445|M|57.51,58.76|N|Learn the flight point from Skyguard Thann|
+T The Assault Base|QID|38445|M|58.51,60.35|Z|Tanaan Jungle|N|To Exarch Naielle|
 ]]
 
 end)
