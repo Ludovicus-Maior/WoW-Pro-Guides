@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2015-05-29 00:30
+-- Who: Ludovicus
+-- Log: New starter zone.
+
+-- URL: http://wow-pro.com/node/3205/revisions/27230/view
 -- Date: 2015-04-30 20:26
 -- Who: Ludovicus
 -- Log: remap
@@ -145,7 +150,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyTir0512', "Leveling", 'Tirisfal Glades (Undead)', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,5,9, 4.98758)
+WoWPro:GuideLevels(guide,4,9, 5.54676)
 WoWPro:GuideNextGuide(guide, 'MalSil1220')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Undead_Male","Interface\\Icons\\Achievement_Character_Undead_Female"))
 WoWPro:GuideSteps(guide, function()

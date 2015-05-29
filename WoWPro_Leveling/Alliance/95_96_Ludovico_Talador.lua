@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-05-29 00:23
+-- Who: Ludovicus
+-- Log: Playthrough tweaks
+
+-- URL: http://wow-pro.com/node/3614/revisions/27244/view
 -- Date: 2015-05-16 14:58
 -- Who: Ludovicus
 -- Log: PLaythrough tweaks
@@ -255,7 +260,6 @@ T A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|To Nadur|
 
 K Ra'kahn|M|60.1,57.5;59.48,59.59|CS|RANK|3|QID|34196|N|Rare kill; may drop Ra'kahn's Bite (i563 Fist Weapon). Head SW from Nadur, cave entrance is first coord.|
 
-
 ; [aldavor] Use PREs with these arcane tower ones.
 T The Foot of the Fortress|QID|34908|M|62.0,69.3|N|To Magister Serena|
 A Dropping In|QID|34913|PRE|34908|M|62.0,69.3|N|From Magister Serena|
@@ -333,6 +337,7 @@ A Burning Sky|QID|33740|M|73.07,38.75|N|From Crystal-Shaper Barum|
 A Pieces of Us|QID|33734|M|73.07,38.75|N|From Crystal-Shaper Barum|
 A Barum's Notes|QID|33761|ACTIVE|33740;33734|M|76.27,42.77|N|From Barum's Notes|
 A Pyrophobia|QID|33578|M|77.74,43.96|N|From Raksi|
+A Keluu's Belongings|QID|34261|M|75.68,41.41|Z|Talador|N|Under the bridge, next to Keluu's corpse.  XP!|
 C Burning Sky|QID|33740|M|75.80,45.20;78.20,45.00;79.80,34.50;75.38,36.52;77.30,41.00;74.89,66.49;73.60,59.25;77.90,38.00;76.81,43.26;78.06,35.61;75.25,39.86;81.62,36.14;77.61,61.06;75.12,62.17|CN|N|Kill Wing-Guards, Squallbringers, and Sun-Callers.|S|
 
 K Sun-Sage Kairyx|QID|33578|M|78.45,45.23|QO|1|N|Sun-Sage Kairyx|
@@ -411,8 +416,7 @@ C Vol. X Pages ?|QID|34094|M|54.2,22.2|N|Kill orcs at the Archenon Siegeyard to 
 K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|QO|1|N|Ra'tok the Hammer is down the path to the coastline.|
 N Bonus Objective|QID|34095|M|54.2,22.2|N|There is a bonus objective there on the coast. Take the path to the coastline.|
 
-; [aldavor] While doing the bonus objective, you can also get [Deceptia's Smoldering Boots] (rank 3) - I didn't get the exact coords but it's around 58.0, 15.0.
-N Deceptia's Smoldering Boots|QID|34095|M|58.0,15.0|N|While doing the bonus, you can also get this for your toy box - the camp will explode, and you can find these (cog wheel) on the ground in the remains.|RANK|3|
+N Deceptia's Smoldering Boots|QID|34095|M|58.84,12.07|N|While doing the bonus, you can also get this for your toy box - the camp will explode, and you can find these (cog wheel) on the ground in the remains.|RANK|3|
 
 T Iron Them Out|QID|34095|M|63.06,25.84|N|To Yrel|
 T Dreadpiston|QID|34959|M|63.04,25.89|N|To Vindicator Maraad|
@@ -464,8 +468,8 @@ C Holding the Line|QID|34407|M|55.66,63.41|N|Slay demons around here.|
 
 C Burning Resonators|QID|33917|M|56.37,63.33;55.52,64.34;57.24,64.02;54.89,52.29|CN|QO|1|
 
-T The Heart of Auchindoun|QID|33920|M|56.51,67.13|N|To Soulbinder Nyami|
 T Disrupting the Flow|QID|33917|M|56.7,66.0|N|To Vindicator Nobundo|
+T The Heart of Auchindoun|QID|33920|M|56.51,67.13|N|To Soulbinder Nyami|
 T Holding the Line|QID|34407|M|55.64,67.70|N|To Exarch Maladaar|
 
 A Light's Rest|QID|34452|M|55.64,67.70|N|From Exarch Maladaar|
@@ -622,148 +626,3 @@ D Fall-through|N|No more quests in this guide. Next is Spires of Arak.|
 
 ]]
 end)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

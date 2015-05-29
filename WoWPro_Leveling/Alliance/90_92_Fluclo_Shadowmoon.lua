@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2015-05-29 00:20
+-- Who: Ludovicus
+-- Log: Add LEAD to [The Southern Wilds]
+
+-- URL: http://wow-pro.com/node/3604/revisions/27188/view
 -- Date: 2015-03-29 22:59
 -- Who: Ludovicus
 -- Log: QID correction for chest.
@@ -341,7 +346,7 @@ T Shadows Awaken |QID|34019|N|To Prophet Velen|CN|M|49.30,37.41;49.42,36.81|
 A Into Twilight |QID|33072|N|From Prophet Velen|CN|M|49.30,37.41;49.42,36.81|PRE|34019|
 
 ;The following quest has been seen at 49.1,38.6 and 49.08,37.25 - not yet found out why it varies (yet!)
-A The Southern Wilds |QID|35444|N|From Farmer Gehaar|CN|M|49.05,38.63;49.1,38.6|PRE|34019|
+A The Southern Wilds |QID|35444|N|From Farmer Gehaar|CN|M|49.05,38.63;49.1,38.6|PRE|34019|LEAD|33786|
 
 ; The next 7 blocks of quests are dependant upon which profession item(s) you have looted from Karnoth.
 H Lunarfall |QID|36308;33814;36236|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|36308;35342;36236|
