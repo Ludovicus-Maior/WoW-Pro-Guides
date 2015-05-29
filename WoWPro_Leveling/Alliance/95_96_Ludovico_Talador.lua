@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-05-29 15:40
+-- Who: Aldavor
+-- Log: Correction of wrong QID for vicious viziers
+
+-- URL: http://wow-pro.com/node/3614/revisions/27273/view
+-- Date: 2015-05-29 15:38
+-- Who: Aldavor
+-- Log: Arcane sanctum based quests un-followable/incomplete; refactored and reset some incorrect QIDs - hopefully should be right now.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27271/view
 -- Date: 2015-05-29 00:23
 -- Who: Ludovicus
 -- Log: Playthrough tweaks
@@ -229,8 +239,6 @@ T Not In Your House|QID|34804|M|69.60,21.60|N|To Quartermaster O'Riley|
 A Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|From Patrick Messer|RANK|3|
 A Wanted: Hilaani|QID|34104|M|69.43,21.14|N|From Patrick Messer|RANK|3|
 
-C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress, waaay to the south of fort. Party of 3 suggested.|
-
 ; [aldavor] added arcane sanctum qid
 R The Pilgrim's Road|QID|33871|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;72.66,38.06;67.30,42.83|CS|N|Its a long ride.  We will break it up a little. Head out the back.|
 
@@ -260,18 +268,34 @@ T A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|To Nadur|
 
 K Ra'kahn|M|60.1,57.5;59.48,59.59|CS|RANK|3|QID|34196|N|Rare kill; may drop Ra'kahn's Bite (i563 Fist Weapon). Head SW from Nadur, cave entrance is first coord.|
 
+; [aldavor] add the Hilaani task here as global.
+C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress. Party of 3 suggested.|
+
 ; [aldavor] Use PREs with these arcane tower ones.
 T The Foot of the Fortress|QID|34908|M|62.0,69.3|N|To Magister Serena|
 A Dropping In|QID|34913|PRE|34908|M|62.0,69.3|N|From Magister Serena|
 ; [aldavor] these need to be stepped through...
+C Dropping In|QID|34913|PRE|34908|M|63.46,68.99|QO|1|U|112091|N|Base Catapult Destroyed|
+C Dropping In|QID|34913|PRE|34908|M|65.51,68.91|QO|2|U|112091|N|Central Catapult Destroyed|
+C Dropping In|QID|34913|PRE|34908|M|66.82,68.05|QO|3|U|112091|N|Summit Catapult Destroyed|
+C Dropping In|QID|34913|PRE|34908|M|69.05,69.04|QO|4|U|112091|N|Use Magister Serena's portal|
 T Dropping In|QID|34913|M|69.9,69.5|N|To Magister Serena|
 
 ; [aldavor] these need to be stepped through...
-A While We're in the Neighborhood|QID|34909|PRE|34913|M|69.9,69.5|N|From Magister Serena|
-A Vicious Viziers|QID|34888|PRE|34913|M|69.9,69.5|N|From Magister Serena|
-A Orbs of Power|QID|34889|PRE|34913|M|69.9,69.5|N|From Magister Serena|
+A While We're in the Neighborhood|QID|34909|PRE|34908|M|69.9,69.5|N|From Magister Serena|
+A Vicious Viziers|QID|34910|PRE|34908|M|69.9,69.5|N|From Magister Serena|
+A Orbs of Power|QID|34889|PRE|34908|M|69.9,69.5|N|From Magister Serena|
+
+C Orbs of Power|QID|34889|PRE|34908|M|67.0,80.0|QO|1|N|Scattered throughout the area.|S|
+C While We're in the Neighborhood|QID|34909|PRE|34908|M|66.10,80.70|N|Collect 8 Runebeads from Gordunni Bashers or Cleavers|S|
+K Vizier Vorgorsh|QID|34910|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|PRE|34908|
+K Vizier Cromaug|QID|34910|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|Up another flight in the building.|PRE|34908|
+K Vizier Zulmork|QID|34910|M|67.14,77.04|QO|2|T|Vizier Zulmork|PRE|34908|
+C Orbs of Power|QID|34889|PRE|34908|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|
+C While We're in the Neighborhood|QID|34909|PRE|34908|M|66.10,80.70|N|From Gordunni Bashers or Cleavers|US|
+
 T While We're in the Neighborhood|QID|34909|M|0,0|N|To Magister Serena|
-T Vicious Viziers|QID|34888|M|0,0|N|To Magister Serena|
+T Vicious Viziers|QID|34910|M|0,0|N|To Magister Serena|
 T Orbs of Power|QID|34889|M|0,0|N|To Magister Serena|
 
 A The Final Step|QID|34912|PRE|34909;34888;34889|M|0,0|N|From Magister Serena|
@@ -280,7 +304,7 @@ C The Final Step|QID|34912|M|64.0,81.8|N|Witch Lord Morkurk|
 C The Final Step|QID|34912|M|64.3,81.8|N|Arcane Nexus|
 ; [aldavor] she's right there next to you.
 T The Final Step|QID|34912|M|0,0|N|To Magister Serena|
-A Due Cause to Celebrate|QID|34711|PRE|34912|M|0,0|N|From Magister Serena|
+A Due Cause to Celebrate|QID|34711|PRE|34912|M|0,0|N|From Magister Serena (she'll offer to teleport you back to Fort Wrynn - no need to do anything)|
 ; [aldavor] note to say that she'll teleport you to the outpost. Turn in at fort wrynn.
 T Due Cause to Celebrate|QID|34711|M|69.7,20.8|N|To Magister Serena|
 ; [aldavor] this is to add her as a follower.
@@ -320,8 +344,7 @@ A The Only Way to Travel|QID|34981|N|To Miall, who is next to you|PRE|34578|
 T The Only Way to Travel|QID|34981|M|69.78,20.74|N|To Miall|PRE|34578|
 A Armor Up|QID|34982|M|69.8,20.8|N|From Miall|RANK|2|PRE|34578|
 T Armor Up|QID|34982|M|69.8,20.8|N|To Miall|PRE|34578|
-
-; Above Block for other comment to here are NOT part of Arcane Sanctum.
+; [aldavor] Above Block for other comment to here are NOT part of Arcane Sanctum.
 
 C Wanted: Kil'uun|QID|34103|M|66.20,34.40;72.90,31.40;72.95,25.95;67.05,36.35;73.20,28.30;72.75,34.15;66.25,31.77;68.88,27.29;71.28,24.52;69.80,37.25|CN|N|Kil'uun, Circles clockwise south of Fort Wrynn around Voljin's Pride. Party of 3 suggested.|
 T Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|To Patrick Messer|
@@ -569,7 +592,7 @@ A Gatekeepers of Auchindoun|QID|34777|M|57.42,51.12|N|From Defender Illona|
 K Vindicator Dalu|QID|34777|QO|1|CHAT|N|Challenge him alone or with the other if you have artilletry strike.|
 K Soulbinder Halaari|QID|34777|QO|2|CHAT|N|Challenge him alone or with the other if you have artilletry strike.|
 T Gatekeepers of Auchindoun|QID|34777|M|57.42,51.12|N|To Defender Illona|
-A The True Path|QID|36519|M|57.42,51.12|N|From Defender Illona|
+A The True Path|QID|36519|M|57.42,51.12|N|From Defender Illona (to get her as a follower)|
 T The True Path|QID|36519|M|57.42,51.12|N|To Defender Illona|
 
 T Every Bit Counts|QID|34709|M|49.89,56.16|N|To Ageilaa|
@@ -602,25 +625,6 @@ T Wanted: Hilaani|QID|34104|M|69.43,21.14|N|To Patrick Messer|
 A Wanted: Ra'tok the Hammer|QID|34105|M|69.43,21.14|N|From Patrick Messer|
 C Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|N|Ra'tok the Hammer, on the Orunai Coast, west of fort, NW of Tuurem.  Party of 3 suggested.|
 T Wanted: Ra'tok the Hammer|QID|34105|M|69.43,21.14|N|To Patrick Messer|
-
-; Sometime when in
-; [aldavor] already in
-;A As the Smoke Rises|QID|34685|M|0.0,0.0|N|From ?|; Neutral
-;T As the Smoke Rises|QID|34685|M|73.0,38.6|N|To Crystal-Shaper Barum|
-;A They Came From Above|QID|36843|M|67.50,42.17|N|From Akhan, near the fork to the Pilgrim's highway.|
-;T They Came From Above|QID|36843|M|73.0,38.6|N|To Crystal-Shaper Barum|
-
-;A Burning Sky|QID|33740|LEAD|34685;36843|M|0.0,0.0|N|From Crystal-Shaper Barum|; Neutral
-;C Burning Sky|QID|33740|M|79.8,34.6|N|Adherent Wing-Guard|
-;C Burning Sky|QID|33740|M|75.4,63.2|N|Adherent Squallbringer|
-;C Burning Sky|QID|33740|M|76.0,43.8|N|Adherent Sun-Caller|
-;T Burning Sky|QID|33740|M|76.6,55.2|N|To Crystal-Shaper Barum|
-
-;A Pieces of Us|QID|33734|M|0.0,0.0|N|From Crystal-Shaper Barum|; Neutral
-;C Pieces of Us|QID|33734|M|75.8,44.4|N|Crystal-Shaper's Tools|
-;C Pieces of Us|QID|33734|M|77.9,43.1|N|Melani's Doll|
-;C Pieces of Us|QID|33734|M|78.2,43.8|N|Annals of Aruuna|
-;T Pieces of Us|QID|33734|M|76.6,55.2|N|To Crystal-Shaper Barum|
 
 D Fall-through|N|No more quests in this guide. Next is Spires of Arak.|
 
