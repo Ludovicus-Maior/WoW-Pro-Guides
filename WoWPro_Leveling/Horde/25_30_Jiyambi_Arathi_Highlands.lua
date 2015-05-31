@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2015-05-31 07:55
+-- Who: Fluclo
+-- Log: Coords to get to Or'Kalar added
+
+-- URL: http://wow-pro.com/node/3230/revisions/27267/view
 -- Date: 2015-05-27 22:16
 -- Who: Fluclo
 -- Log: Clarifying steps for the Keep
@@ -88,6 +93,7 @@ A The Forsaken Trollbane|QID|26023|PRE|26022|M|13.35,35.88|N|From Dark Ranger Al
 
 A The Traitor Orc|QID|26025|PRE|26022|M|13.35,35.88|N|From Dark Ranger Alina.|
 T The Forsaken Trollbane|QID|26023|M|13.02,36.00|N|To Galen Trollbane.|
+
 A Sigil of Strom|QID|26030|PRE|26023|M|13.02,36.00|N|From Galen Trollbane.|
 
 R Stromgarde Keep |QID|26025|M|19.65,61.50|N|Head along the road to Stromgarde Keep|
@@ -104,7 +110,7 @@ T The Traitor Orc|QID|26025|M|13.27,35.92|N|To Dark Ranger Alina.|
 A The Real Threat|QID|26029|PRE|26027|M|13.39,34.29|N|From Deathstalker Maudria.|
 
 C Sigil of Thoradin|QID|26031|M|16.59,60.88|N|Head back to Stromgarde. Turn  right to the western portion of the keep, kill and loot humans.|
-C The Real Threat|QID|26029|M|14.69,67.44|N|Kill and loot Or'Kalar, in the ogre section of Stromgarde.|
+C The Real Threat|QID|26029|N|Kill and loot Or'Kalar, in the ogre section of Stromgarde.|M|17.75,62.70;17.40,67.90;14.69,67.44|CC|
 T Sigil of Thoradin|QID|26031|M|12.98,36.06|N|To Galen Trollbane, back at Galen's Fall.|
 A Sigil of Arathor|QID|26032|PRE|26031|M|12.98,36.06|N|From Galen Trollbane.|
 
