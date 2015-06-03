@@ -95,12 +95,12 @@ C Speak with Yrel|QID|38435|M|27.60,10.18|Z|Shadowmoon Valley@Draenor|QO|2|CHAT|
 T The Invasion of Tanaan|QID|38435|M|73.42,71.10|Z|Tanaan Jungle|N|To Yerl|
 
 A Obstacle Course|QID|38436|M|29.82,10.69|Z|Tanaan Jungle|N|From Yerl|
-C Bleeding Hollow|QID|38436|M|68,87,64.91|Z|Tanaan Jungle|QO|1|N|Get Info, Over the bridge and to the west, along the coast. Kill Rulkrik and loot the scroll.|
+C Bleeding Hollow|QID|38436|M|68.87,64.91|Z|Tanaan Jungle|QO|1|N|Get Info, Over the bridge and to the west, along the coast. Kill Rulkrik and loot the scroll.|
 C Cultists|QID|38436|M|74.00,56.08|Z|Tanaan Jungle|QO|2|N|Get Info, Continue over the bridge ... Kill Magril|
 T Obstacle Course|QID|38436|M|69.47,52.97|Z|Tanaan Jungle|N|To Exarch Naielle|
 A In, Through, and Beyond!|QID|38444|M|69.47,52.97|Z|Tanaan Jungle|N|From  Exarch Naielle|
 C Reach|QID|38444|M|64.42,51.63|Z|Tanaan Jungle|QO|1|N|Get to the cannon, avoiding the bomb marks on the ground.|
-C Destroy|QID|38444|M|29.82,10.69|Z|Tanaan Jungle|QO|2|N|Click on the bombs to detroy the cannon.|
+C Destroy|QID|38444|M|64.43,51.62|Z|Tanaan Jungle|QO|2|N|Click on the bombs to detroy the cannon.|
 C Meet|QID|38444|M|60.75,47.23|Z|Tanaan Jungle|QO|3|
 T In, Through, and Beyond!|QID|38444|M|60.75,47.23|Z|Tanaan Jungle|N|To Exarch Naielle|
 A The Assault Base|QID|38445|M|60.75,47.23|Z|Tanaan Jungle|N|From Exarch Naielle|
@@ -108,6 +108,31 @@ C Follow|QID|38445|M|59.64,48.37|Z|Tanaan Jungle|QO|1|
 C Plant the Flag|QID|38445|M|59.62,48.38|Z|Tanaan Jungle|QO|2|
 f Lion's Watch|QID|38445|M|57.51,58.76|N|Learn the flight point from Skyguard Thann|
 T The Assault Base|QID|38445|M|58.51,60.35|Z|Tanaan Jungle|N|To Exarch Naielle|
+
+A Shipyard Report|QID|39422|M|58.51,60.35|Z|Tanaan Jungle|N|From Exarch Naielle|
+H Town Hall|QID|39423|N|Hearth back to your Garrison.|U|110560|ACTIVE|39423|
+T Shipyard Report|QID|39422|M|28.20,10.63|Z|Shadowmoon Valley@Draenor|N|From Merreck Vonder|
+
+A Naval Commander|QID|39056|M|28.20,10.63|Z|Shadowmoon Valley@Draenor|N|From Merreck Vonder|
+C High Vantage Point|QID|39056|M|28.21,11.75|Z|Shadowmoon Valley@Draenor|QO|1|N|Up the stairs, at the tent you saw on your way down.|
+C In the Navy|QID|39056|M|28.21,11.75|Z|Shadowmoon Valley@Draenor|QO|2|N|Use the table to start a mission|
+C Mission Complete|QID|39056|M|28.21,11.75|Z|Shadowmoon Valley@Draenor|QO|3|N|Wait a minute for the mission to finish and then use the table again.|
+T Naval Commander|QID|39056|M|28.21,11.69|Z|Shadowmoon Valley@Draenor|N|From Merreck Vonder|
+
+A Destroying the Competition|QID|39404|M|28.21,11.69|Z|Shadowmoon Valley@Draenor|N|From Merreck Vonder|
+U Ship Blueprint: Destroyer|QID|39404|U|126900|N|Learn the blueprint.|QO|1|
+C Build a Submarine|QID|39404|M|29.82,10.69|Z|Shadowmoon Valley@Draenor|QO|2|N|To Yanas Seastrike, ask him to build it and then click on it.|CHAT|
+C On a mission|QID|39404|M|28.21,11.75|Z|Shadowmoon Valley@Draenor|QO|3|N|Use the table to start a mission|
+T Destroying the Competition|QID|39404|M|28.21,11.69|Z|Shadowmoon Valley@Draenor|N|From Merreck Vonder|
+
+A Upgrading The Fleet|QID|39067|M|28.20,10.63|Z|Shadowmoon Valley@Draenor|N|From Merreck Vonder|
+
+C Naval Combat Missions|QID|39067|QO|1|S|
+C Collect: Garrison Resources (1000)|QID|39067|QO|2|
+C Naval Combat Missions|QID|39067|QO|1|US|
+T Upgrading The Fleet|QID|39067|M|28.20,10.63|Z|Shadowmoon Valley@Draenor|N|From Merreck Vonder|
+
+
 ]]
 
 end)
