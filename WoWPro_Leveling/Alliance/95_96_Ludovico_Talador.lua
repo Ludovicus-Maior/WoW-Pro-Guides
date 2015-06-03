@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-05-31 19:37
+-- Who: Ludovicus
+-- Log: Corrected [Dropping in], [Orbs of Power]. Order of Vizier Zulmork vs Cromaug.
+--	Coords for Magister Serena.  Just a play through to the "The Plight of the Arakkoa".
+
+-- URL: http://wow-pro.com/node/3614/revisions/27274/view
 -- Date: 2015-05-29 15:40
 -- Who: Aldavor
 -- Log: Correction of wrong QID for vicious viziers
@@ -272,44 +278,43 @@ K Ra'kahn|M|60.1,57.5;59.48,59.59|CS|RANK|3|QID|34196|N|Rare kill; may drop Ra'k
 C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress. Party of 3 suggested.|
 
 ; [aldavor] Use PREs with these arcane tower ones.
-T The Foot of the Fortress|QID|34908|M|62.0,69.3|N|To Magister Serena|
-A Dropping In|QID|34913|PRE|34908|M|62.0,69.3|N|From Magister Serena|
-; [aldavor] these need to be stepped through...
-C Dropping In|QID|34913|PRE|34908|M|63.46,68.99|QO|1|U|112091|N|Base Catapult Destroyed|
-C Dropping In|QID|34913|PRE|34908|M|65.51,68.91|QO|2|U|112091|N|Central Catapult Destroyed|
-C Dropping In|QID|34913|PRE|34908|M|66.82,68.05|QO|3|U|112091|N|Summit Catapult Destroyed|
-C Dropping In|QID|34913|PRE|34908|M|69.05,69.04|QO|4|U|112091|N|Use Magister Serena's portal|
-T Dropping In|QID|34913|M|69.9,69.5|N|To Magister Serena|
+T The Foot of the Fortress|QID|34908|M|62.25,68.29|N|To Magister Serena|
+A Dropping In|QID|34913|PRE|34908|M|62.25,68.29|N|From Magister Serena|
 
-; [aldavor] these need to be stepped through...
-A While We're in the Neighborhood|QID|34909|PRE|34908|M|69.9,69.5|N|From Magister Serena|
-A Vicious Viziers|QID|34910|PRE|34908|M|69.9,69.5|N|From Magister Serena|
-A Orbs of Power|QID|34889|PRE|34908|M|69.9,69.5|N|From Magister Serena|
+C Dropping In|QID|34913|M|63.46,68.99|QO|1/3 Catapults destroyed|N|Base Catapult, click on it to mark for destruction.|
+C Dropping In|QID|34913|M|65.51,68.91|QO|2/3 Catapults destroyed|N|Central Catapult, click on it to mark for destruction.|
+C Dropping In|QID|34913|M|66.82,68.05|QO|3/3 Catapults destroyed|N|Summit Catapult, click on it to mark for destruction.|
+C Dropping In|QID|34913|M|69.05,69.04|QO|4|U|112091|N|Use Magister Serena's portal, click on it.|
+T Dropping In|QID|34913|M|69.95,69.46|N|To Magister Serena|
 
-C Orbs of Power|QID|34889|PRE|34908|M|67.0,80.0|QO|1|N|Scattered throughout the area.|S|
+A While We're in the Neighborhood|QID|34909|PRE|34908|M|69.95,69.46|N|From Magister Serena|
+A Vicious Viziers|QID|34910|PRE|34908|M|69.95,69.46|N|From Magister Serena|
+A Orbs of Power|QID|34911|PRE|34908|M|69.95,69.46|N|From Magister Serena|
+
+C Orbs of Power|QID|34911|PRE|34908|M|67.0,80.0|QO|1|N|Scattered throughout the area.|S|
 C While We're in the Neighborhood|QID|34909|PRE|34908|M|66.10,80.70|N|Collect 8 Runebeads from Gordunni Bashers or Cleavers|S|
 K Vizier Vorgorsh|QID|34910|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|PRE|34908|
-K Vizier Cromaug|QID|34910|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|Up another flight in the building.|PRE|34908|
-K Vizier Zulmork|QID|34910|M|67.14,77.04|QO|2|T|Vizier Zulmork|PRE|34908|
-C Orbs of Power|QID|34889|PRE|34908|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|
+K Vizier Zulmork|QID|34910|M|67.14,77.04|QO|2|T|Vizier Zulmork|N|Up another flight in the building.|PRE|34908|
+K Vizier Cromaug|QID|34910|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|In the building.|PRE|34908|
+
+C Orbs of Power|QID|34911|PRE|34908|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|
 C While We're in the Neighborhood|QID|34909|PRE|34908|M|66.10,80.70|N|From Gordunni Bashers or Cleavers|US|
 
 T While We're in the Neighborhood|QID|34909|M|0,0|N|To Magister Serena|
 T Vicious Viziers|QID|34910|M|0,0|N|To Magister Serena|
-T Orbs of Power|QID|34889|M|0,0|N|To Magister Serena|
+T Orbs of Power|QID|34911|M|0,0|N|To Magister Serena|
 
-A The Final Step|QID|34912|PRE|34909;34888;34889|M|0,0|N|From Magister Serena|
+A The Final Step|QID|34912|PRE|34909;34888;34911|M|0,0|N|From Magister Serena|
 C The Final Step|QID|34912|M|64.0,81.8|N|Witch Lord Morkurk|
 ; [aldavor] steal the nexus (need M coords)
 C The Final Step|QID|34912|M|64.3,81.8|N|Arcane Nexus|
 ; [aldavor] she's right there next to you.
 T The Final Step|QID|34912|M|0,0|N|To Magister Serena|
-A Due Cause to Celebrate|QID|34711|PRE|34912|M|0,0|N|From Magister Serena (she'll offer to teleport you back to Fort Wrynn - no need to do anything)|
-; [aldavor] note to say that she'll teleport you to the outpost. Turn in at fort wrynn.
-T Due Cause to Celebrate|QID|34711|M|69.7,20.8|N|To Magister Serena|
+A Due Cause to Celebrate|QID|34711|PRE|34912|M|0,0|N|From Magister Serena|
+T Due Cause to Celebrate|QID|34711|M|69.74,20.78|N|To Magister Serena (she'll offer to teleport you back to Fort Wrynn - no need to do anything)|
 ; [aldavor] this is to add her as a follower.
-A Joining the Ranks|QID|34993|PRE|34711|M|69.7,20.8|N|From Magister Serena|RANK|2|
-T Joining the Ranks|QID|34993|M|69.7,20.8|N|To Magister Serena|
+A Joining the Ranks|QID|34993|PRE|34711|M|9.74,20.78|N|From Magister Serena|RANK|2|
+T Joining the Ranks|QID|34993|M|9.74,20.78|N|To Magister Serena|
 
 ; These quests NOT part of having the Arcane Sanctum.
 ; (Use PREs???)
@@ -329,8 +334,9 @@ A Supply Recovery|QID|34977|M|69.63,69.84|N|From Miall, near the base of the wal
 C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|S|PRE|34578|
 C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|S|PRE|34578|
 K Vizier Vorgorsh|QID|34979|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|PRE|34578|
-K Vizier Cromaug|QID|34979|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|Up another flight in the building.|PRE|34578|
-K Vizier Zulmork|QID|34979|M|67.14,77.04|QO|2|T|Vizier Zulmork|PRE|34578|
+K Vizier Zulmork|QID|34979|M|67.14,77.04|QO|2|T|Vizier Zulmork|PRE|34578|N|Up another flight in the building.|
+K Vizier Cromaug|QID|34979|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|In the building.|PRE|34578|
+
 C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|PRE|34578|
 C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|US|PRE|34578|
 t Punching Through|QID|34979|N|To Miall, who is next to you|PRE|34578|
@@ -623,7 +629,7 @@ D Your Garrison|QID|35537|M|71.84,29.75|N|Back to your garrison, where the Spire
 T Wanted: Hilaani|QID|34104|M|69.43,21.14|N|To Patrick Messer|
 
 A Wanted: Ra'tok the Hammer|QID|34105|M|69.43,21.14|N|From Patrick Messer|
-C Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|N|Ra'tok the Hammer, on the Orunai Coast, west of fort, NW of Tuurem.  Party of 3 suggested.|
+C Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|N|Ra'tok the Hammer, on the Orunai Coast, west of fort, NW of Tuurem.  Party of 2 suggested, but not required.|
 T Wanted: Ra'tok the Hammer|QID|34105|M|69.43,21.14|N|To Patrick Messer|
 
 D Fall-through|N|No more quests in this guide. Next is Spires of Arak.|

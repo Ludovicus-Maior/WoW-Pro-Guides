@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2015-06-02 15:28
+-- Who: Fluclo
+-- Log: Updated |QO| step for the Dabyrie's as it wasn't working properly
+
+-- URL: http://wow-pro.com/node/3230/revisions/27275/view
 -- Date: 2015-05-31 07:55
 -- Who: Fluclo
 -- Log: Coords to get to Or'Kalar added
@@ -93,7 +98,6 @@ A The Forsaken Trollbane|QID|26023|PRE|26022|M|13.35,35.88|N|From Dark Ranger Al
 
 A The Traitor Orc|QID|26025|PRE|26022|M|13.35,35.88|N|From Dark Ranger Alina.|
 T The Forsaken Trollbane|QID|26023|M|13.02,36.00|N|To Galen Trollbane.|
-
 A Sigil of Strom|QID|26030|PRE|26023|M|13.02,36.00|N|From Galen Trollbane.|
 
 R Stromgarde Keep |QID|26025|M|19.65,61.50|N|Head along the road to Stromgarde Keep|
@@ -118,9 +122,9 @@ A To Steal From Thieves|QID|26428|M|13.71,34.08|N|From Genavie Callow.|
 
 T The Real Threat|QID|26029|M|13.34,33.99|N|To Deathstalker Maudria.|
 C Sigil of Arathor|QID|26032|M|37.80,56.16|N|From the human lieutenant on a horse outside Refugee Point. Be careful, the other humans in this area will flag you PvP!|
-K Marcel Dabyrie|QID|26428|QO|Marcel's Head: 1/1|M|48.53,39.23|N|Inside the stable.|
-K Fardel Dabyrie|QID|26428|QO|Fardel's Head: 1/1|M|51.28,41.58|N|Outside the barn.|
-K Kenata Dabyrie|QID|26428|QO|Kenata's Head: 1/1|M|50.87,36.99|N|Inside the house on the hill.|
+K Marcel Dabyrie|QID|26428|QO|2|M|48.53,39.23|N|Inside the stable.|
+K Fardel Dabyrie|QID|26428|QO|3|M|51.28,41.58|N|Outside the barn.|
+K Kenata Dabyrie|QID|26428|QO|1|M|50.87,36.99|N|Inside the house on the hill.|
 R Hammerfall|QID|26909|M|69.61,36.47|N|Head to the eastern corner of the zone.|
 A Raising Spirits|QID|26107|M|67.80,34.79|N|From Gor'mul.|
 h Hammerfall|QID|26628|M|68.97,33.32|N|At Innkeeper Adegwa.|
