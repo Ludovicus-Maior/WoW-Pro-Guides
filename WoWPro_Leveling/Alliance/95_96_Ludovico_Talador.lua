@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-06-03 22:34
+-- Who: Ludovicus
+-- Log: Tiny tweaks
+
+-- URL: http://wow-pro.com/node/3614/revisions/27276/view
 -- Date: 2015-05-31 19:37
 -- Who: Ludovicus
 -- Log: Corrected [Dropping in], [Orbs of Power]. Order of Vizier Zulmork vs Cromaug.
@@ -151,7 +156,7 @@
 -- Log: Initil Notes.
 
 local guide = WoWPro:RegisterGuide('LudoTalador', 'Leveling', 'Talador', 'Ludovicus', 'Alliance')
-WoWPro:GuideLevels(guide,95, 96, 95.3)
+WoWPro:GuideLevels(guide,94, 96, 94.3425)
 WoWPro:GuideNextGuide(guide, 'EmmSoArak')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -357,16 +362,14 @@ T Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|To Patrick Messer|
 
 ; The Plight of the Arakkoa
 A As the Smoke Rises|QID|34685|PRE|34711+34981|M|69.45,21.46|N|From Kalaam|
-R The Road to the Signpost|QID|34685|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;73.07,38.69|CS|N|Its another long ride (well, same one really...) Head out the back.\nNear the end of this stretch, accept the quest from Akhan.|
-A They Came From Above|QID|36843|M|67.50,42.17|N|From Akhan, near the fork to the Pilgrim's highway.|
-T They Came From Above|QID|36843|M|73.0,38.6|N|To Crystal-Shaper Barum|
+R The Road to the Signpost|QID|34685|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;73.07,38.75|CS|N|Its another long ride (well, almost the same one really...) Head out the back.|
 T As the Smoke Rises|QID|34685|M|73.07,38.75|N|To Crystal-Shaper Barum|
 
 A Burning Sky|QID|33740|M|73.07,38.75|N|From Crystal-Shaper Barum|
 A Pieces of Us|QID|33734|M|73.07,38.75|N|From Crystal-Shaper Barum|
+A Keluu's Belongings|QID|34261|M|75.68,41.41|Z|Talador|N|Under the bridge, next to Keluu's corpse.  XP!|
 A Barum's Notes|QID|33761|ACTIVE|33740;33734|M|76.27,42.77|N|From Barum's Notes|
 A Pyrophobia|QID|33578|M|77.74,43.96|N|From Raksi|
-A Keluu's Belongings|QID|34261|M|75.68,41.41|Z|Talador|N|Under the bridge, next to Keluu's corpse.  XP!|
 C Burning Sky|QID|33740|M|75.80,45.20;78.20,45.00;79.80,34.50;75.38,36.52;77.30,41.00;74.89,66.49;73.60,59.25;77.90,38.00;76.81,43.26;78.06,35.61;75.25,39.86;81.62,36.14;77.61,61.06;75.12,62.17|CN|N|Kill Wing-Guards, Squallbringers, and Sun-Callers.|S|
 
 K Sun-Sage Kairyx|QID|33578|M|78.45,45.23|QO|1|N|Sun-Sage Kairyx|
@@ -386,6 +389,7 @@ T Pieces of Us|QID|33734|M|76.71,55.24|N|To Crystal-Shaper Barum, who moved a bi
 T Burning Sky|QID|33740|M|76.71,55.24|N|To Crystal-Shaper Barum|
 T Barum's Notes|QID|33761|M|76.71,55.24|N|To Crystal-Shaper Barum|
 
+f Anchorite's Sojourn|M|80.08,56.68|N|At Zarri, beyond the battle.|
 A The Purge of Veil Shadar|QID|33580|M|70.50,56.85|N|From Shadow-Sage Iskar.|
 A Kura's Vengeance|QID|33582|M|70.77,56.79|N|From Kura the Blind.|
 A Forbidden Knowledge|QID|33581|M|70.52,57.35|N|From Darkscryer Raastok.|
@@ -442,7 +446,7 @@ K Blademaster Bralok|QID|33973|M|57.03,24.38|N|Loot heirloom|QO|1|
 T Dying Wish|QID|33973|M|56.90,25.97|N|To Ahm|
 C Vol. X Pages ?|QID|34094|M|54.2,22.2|N|Kill orcs at the Archenon Siegeyard to get the pages.|US|
 ; [aldavor] added QO|1 otherwise it remains after you kill him up to when you turn in the quest.
-K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|QO|1|N|Ra'tok the Hammer is down the path to the coastline.|
+K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|QO|1|N|Ra'tok the Hammer is down the path to the coastline.|ACTIVE|34105
 N Bonus Objective|QID|34095|M|54.2,22.2|N|There is a bonus objective there on the coast. Take the path to the coastline.|
 
 N Deceptia's Smoldering Boots|QID|34095|M|58.84,12.07|N|While doing the bonus, you can also get this for your toy box - the camp will explode, and you can find these (cog wheel) on the ground in the remains.|RANK|3|
@@ -592,7 +596,7 @@ H Fort Wrynn|QID|34707|N|Hearth back or fly or ride to Fort Wrynn|
 T Come Together|QID|34707|M|69.66,21.61|N|To Vindicator Icia|
 
 ; Jorune Mine
-F Terokkar Refuge||QID|34709|N|To Skyguard Amelia|M|69.85,21.49|
+F Terokkar Refuge|QID|34709|N|To Skyguard Amelia|M|69.85,21.49|
 ; Lets get another follower!
 A Gatekeepers of Auchindoun|QID|34777|M|57.42,51.12|N|From Defender Illona|
 K Vindicator Dalu|QID|34777|QO|1|CHAT|N|Challenge him alone or with the other if you have artilletry strike.|
