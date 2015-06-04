@@ -472,6 +472,12 @@ function WoWPro.LoadGuideStepsReal()
 	local GID = WoWProDB.char.currentguide
     WoWPro:dbp("LoadGuideSteps(%s)",GID);
     
+	--Re-initiallizing tags and counts--
+	for i,tag in pairs(WoWPro.Tags) do 
+		WoWPro[tag] = {}
+	end
+	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
+	
 	-- Parsing quests --
 	local sequencef = WoWPro.Guides[GID].sequence
 	local sequence = sequencef()

@@ -119,12 +119,6 @@ function WoWPro.LoadGuideReal()
     
     WoWPro:dbp("WoWPro_LoadGuide: starting guide cleanup:  %s",tostring(GID))
     
-	--Re-initiallizing tags and counts--
-	for i,tag in pairs(WoWPro.Tags) do 
-		WoWPro[tag] = {}
-	end
-	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
-	
 	--Checking the GID and loading the guide --
 	if not GID then 
 		WoWPro:LoadNilGuide() 
