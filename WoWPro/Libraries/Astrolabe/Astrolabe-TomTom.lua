@@ -239,7 +239,8 @@ function Astrolabe:ComputeDistance( m1, f1, x1, y1, m2, f2, x2, y2 )
 				xDelta = x2 - x1;
 				yDelta = y2 - y1;
 			else
-			    print("AL:CD No common systems")
+			    --- print("AL:CD No common systems")
+			    return
 			end
 		
 		end
