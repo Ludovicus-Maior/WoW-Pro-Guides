@@ -458,14 +458,12 @@ function WoWPro.EventHandler(frame, event, ...)
 	end
 	
 	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) and battleHide then
-		WoWPro:Print("|cff33ff33Pet Battle Auto Hide|r: %s Module",guidetype)
 		WoWPro.MainFrame:Hide()
 		WoWPro.Titlebar:Hide()
 		WoWPro.Hidden = true
 		return
 	end
 	if event == "PET_BATTLE_CLOSE" and WoWPro.Hidden then
-		WoWPro:Print("|cff33ff33Pet Battle Exit Auto Show|r: %s Module",guidetype)
 		WoWPro.MainFrame:Show()
 		WoWPro.Titlebar:Show()
 		WoWPro.Hidden = nil		
