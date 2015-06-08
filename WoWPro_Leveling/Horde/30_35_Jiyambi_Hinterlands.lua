@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
+-- Date: 2015-06-08 12:17
+-- Who: Fluclo
+-- Log: The Right Way was not available from Huntsman Markhor, and wowhead says This quest was marked obsolete by Blizzard and cannot be obtained or completed.
+
+-- URL: http://wow-pro.com/node/3240/revisions/26453/view
 -- Date: 2014-06-02 15:17
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -50,7 +55,7 @@ f Revantusk Village|QID|26210|M|81.69,81.80|N|From Gorkas.|
 A Gammerita, Mon!|QID|26210|M|80.35,81.46|N|From Katoom the Angler.|
 A Snapjaws, Mon!|QID|26211|M|80.35,81.46|N|From Katoom the Angler.|
 A Stalking the Stalkers|QID|26223|M|79.09,79.57|N|From Huntsman Markhor.|
-A The Right Way|QID|26987|M|79.09,79.57|N|From Huntsman Markhor.|
+
 A Stomp To My Beat|QID|26240|M|78.79,78.44|N|From Mystic Yayo'jin.|
 A Pupellyverbos Port|QID|26225|M|77.35,79.96|N|From Grognard.|
 A Lard Lost His Lunch|QID|26212|M|78.20,81.27|N|From Lard.|
