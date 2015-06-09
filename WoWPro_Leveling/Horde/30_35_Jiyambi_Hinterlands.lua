@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
+-- Date: 2015-06-09 16:21
+-- Who: Fluclo
+-- Log: Added minimum level information, added step to handle someone who hasn't worked on Arathi Guide before doing Hinterlands guide, removed the |O| tag on the A step as this makes the whole line redundant, reordered some quests as they are level locked, removed dungeon quest which has been removed from the game.
+
+-- URL: http://wow-pro.com/node/3240/revisions/27281/view
 -- Date: 2015-06-08 12:17
 -- Who: Fluclo
 -- Log: The Right Way was not available from Huntsman Markhor, and wowhead says This quest was marked obsolete by Blizzard and cannot be obtained or completed.
@@ -48,57 +53,74 @@ WoWPro:GuideIcon(guide,"ACH",4897)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Revantusk Village|QID|26430|O|M|69.00,34.78|N|From Drum Fel in Hammerfall in Arathi Highlands.|
-F Revantusk Village|QID|26430|O|M|68.19,33.44|N|At Urda.|
-R Revantusk Village|QID|26210|M|80.35,81.46|N|On the far east of the Hinterlands.|
-f Revantusk Village|QID|26210|M|81.69,81.80|N|From Gorkas.|
+L Level 29 |QID|28619|LVL|29|N|This guide requires a minimum level of 29 to do.|
+
+A Revantusk Village|QID|26430|M|69.00,34.78|Z|Arathi Highlands|N|From Drum Fel|PRE|26429|
+A Revantusk Village|QID|26430|M|69.00,34.78|Z|Arathi Highlands|N|From Drum Fel. He can be found in Hammerfall (Arathi Highlands)\n\nIf you've not been to Hammerfall before, head along the road from Hillsbrad Foothills (watching out for one Level 30 mob walking along the road near Refuge Point)|LEAD|26429|
+F The Hinterlands|QID|26430|M|68.19,33.44|N|Speak to Urda, the Bat Handler and ask for a ride to Revantusk Village.|CHAT|
+
+f Revantusk Village|QID|26430|M|81.69,81.80|N|From Gorkas.|
 A Gammerita, Mon!|QID|26210|M|80.35,81.46|N|From Katoom the Angler.|
 A Snapjaws, Mon!|QID|26211|M|80.35,81.46|N|From Katoom the Angler.|
-A Stalking the Stalkers|QID|26223|M|79.09,79.57|N|From Huntsman Markhor.|
-
-A Stomp To My Beat|QID|26240|M|78.79,78.44|N|From Mystic Yayo'jin.|
 A Pupellyverbos Port|QID|26225|M|77.35,79.96|N|From Grognard.|
 A Lard Lost His Lunch|QID|26212|M|78.20,81.27|N|From Lard.|
-h Revantusk Village|QID|26212|M|78.20,81.27|N|At Lard.|
-T Revantusk Village|QID|26430|O|M|78.16,81.37|N|To Elder Torntusk, upstairs in the inn.|
-A The Savage Dwarves|QID|26238|M|78.16,81.37|N|From Elder Torntusk.|
-A Thornar Thunderclash|QID|26263|M|78.16,81.37|N|From Elder Torntusk.|
-C Stalking the Stalkers|QID|26223|M|72.43,66.27;70.01,55.83|CS|N|Climb up the cliffs and kill the wolves at the top.|
-C The Savage Dwarves|QID|26238|S|M|71.03,50.04|N|Kill Wildhammer Dwarves.|
-C Stomp To My Beat|QID|26240|NC|U|57920|M|71.48,50.40|N|Use the drums on Revantusk warriors (not the casters!)|
-C The Savage Dwarves|QID|26238|US|M|71.03,50.04|N|Kill Wildhammer Dwarves.|
-C Thornar Thunderclash|QID|26263|M|70.97,48.47|N|He's located inside a small fortified area.|
-C Lard Lost His Lunch|QID|26212|M|81.15,46.29;84.03,40.82|CS|N|Time for some fun! Head towards the waterfall and jump down, but make sure to aim so you hit the water! Swim out to the island just to the north. Right-click the picnic basket on the island. Then kill and loot the trolls that show up.|
-C Snapjaws, Mon!|QID|26211|S|M|78.21,66.51|N|Kill the turtles found up and down the coast.|
-C Pupellyverbos Port|QID|26225|S|NC|M|79.43,70.17|N|Loot the bottles of wine found up and down the coast.|
-C Gammerita, Mon!|QID|26210|M|77.85,70.96|N|Kill and loot Gammerita, the huge turtle that patrols the area.|
-C Pupellyverbos Port|QID|26225|US|NC|M|79.43,70.17|N|Loot the bottles of wine found up and down the coast.|
-C Snapjaws, Mon!|QID|26211|US|M|78.21,66.51|N|Kill the turtles found up and down the coast.|
-T Pupellyverbos Port|QID|26225|M|77.30,79.80|N|To Grognard, back at Revantusk Village.|
-T Lard Lost His Lunch|QID|26212|M|78.19,81.33|N|To Lard.|
-T Thornar Thunderclash|QID|26263|M|78.17,81.42|N|To Elder Torntusk, upstairs.|
-T The Savage Dwarves|QID|26238|M|78.17,81.42|N|To Elder Torntusk.|
-A Skulk Rock Clean-Up|QID|26267|PRE|26263|M|78.17,81.42|N|From Elder Torntusk.|
-A Skulk Rock Supplies|QID|26268|PRE|26263|M|78.17,81.42|N|From Elder Torntusk.|
-A Prime Slime|QID|26283|PRE|26263|M|78.03,78.24|N|From Malcom Fendelson.|
-T Stomp To My Beat|QID|26240|M|78.79,78.41|N|To Mystic Yayo'jin.|
-T Stalking the Stalkers|QID|26223|M|79.12,79.51|N|To Huntsman Markhor.|
-A Hunt the Savages|QID|26224|PRE|26223|M|79.12,79.51|N|From Huntsman Markhor.|
+h Revantusk Village|QID|26430|M|78.20,81.27|N|At Lard.|
+T Warchief's Command: The Hinterlands!|QID|28574|M|78.16,81.37|N|To Elder Torntusk, upstairs in the inn.|ACTIVE|28574|
+T Revantusk Village|QID|26430|M|78.16,81.37|N|To Elder Torntusk, upstairs in the inn.|
+
+C Pupellyverbos Port|QID|26225|S|NC|M|79.43,70.17|N|Loot the bottles of wine found along the coast.|
+C Snapjaws, Mon!|QID|26211|S|M|78.21,66.51|N|Kill the turtles found along the coast.|
+C Gammerita, Mon!|QID|26210|M|77.85,70.96|N|Kill and loot Gammerita, the huge turtle that patrols the area.|T|Gammerita|
+C Lard Lost His Lunch|QID|26212|M|84.03,40.82|N|Head along the coast to The Overlook Cliffs, then swim out to the island. Click on Lard's Picnic Basket. This will spawn a couple of Vilebranch Kidnappers. Kill and loot them for Lard's Lunch.|
+C Pupellyverbos Port|QID|26225|US|NC|M|79.43,70.17|N|Finish looting the bottles of wine found along the coast.|
+C Snapjaws, Mon!|QID|26211|US|M|78.21,66.51|N|Finish killing the turtles along the coast.|
+
+H Revantusk Village|QID|26212|N|Run back to Revantusk Village (or Hearthstone if it's a long way away).|M|78.20,81.30|
+T Lard Lost His Lunch|QID|26212|N|To Lard.|M|78.20,81.30|
+
 T Gammerita, Mon!|QID|26210|M|80.31,81.48|N|To Katoom the Angler.|
 T Snapjaws, Mon!|QID|26211|M|80.31,81.48|N|To Katoom the Angler.|
-C Hunt the Savages|QID|26224|M|76.33,76.38;72.78,68.80;62.91,48.73|CC|N|Head up the ramp and towards the center of the zone. Kill owlbeasts.|
+T Pupellyverbos Port|QID|26225|M|77.30,79.80|N|To Grognard.|
+
+L Level 30 |QID|28619|LVL|30|N|You need to be Level 30 to continue with this guide.|
+
+A The Savage Dwarves|QID|26238|M|78.16,81.37|N|From Elder Torntusk, upstairs in the Inn.|
+A Thornar Thunderclash|QID|26263|M|78.16,81.37|N|From Elder Torntusk.|
+A Stalking the Stalkers|QID|26223|M|79.09,79.57|N|From Huntsman Markhor.|
+A Stomp To My Beat|QID|26240|M|78.79,78.44|N|From Mystic Yayo'jin.|
+
+C Stalking the Stalkers|QID|26223|M|75.45,75.15;70.35,63.15;71.65,50.95;60.95,44.90|CC|N|Head up the path, then kill the Silvermane Stalkers.|
+C The Savage Dwarves|QID|26238|S|M|71.03,50.04|N|Kill Wildhammer Dwarves.|
+C Stomp To My Beat|QID|26240|NC|U|57920|M|71.48,50.40|N|Use the drums on Revantusk stalkers (not the casters!)|S|T|Revantusk Stalker|
+C Thornar Thunderclash|QID|26263|M|70.97,48.47|N|He's located inside a small fortified area.|
+C Stomp To My Beat|QID|26240|NC|U|57920|M|71.48,50.40|N|Use the drums on Revantusk stalkers (not the casters!)|US|T|Revantusk Stalker|
+C The Savage Dwarves|QID|26238|US|M|71.03,50.04|N|Finish killing Wildhammer Dwarves.|
+
+H Revantusk Village|QID|26263|N|Hearthstone or run back to Revantusk Village|M|71.15,64.70;78.20,81.30|CC|
+T The Savage Dwarves|QID|26238|M|78.17,81.42|N|To Elder Torntusk, upstairs.|
+T Thornar Thunderclash|QID|26263|M|78.17,81.42|N|To Elder Torntusk|
+
+A Skulk Rock Clean-Up|QID|26267|PRE|26263|M|78.17,81.42|N|From Elder Torntusk.|
+A Skulk Rock Supplies|QID|26268|PRE|26263|M|78.17,81.42|N|From Elder Torntusk.|
+T Stalking the Stalkers|QID|26223|M|79.12,79.51|N|To Huntsman Markhor.|
+A Hunt the Savages|QID|26224|PRE|26223|M|79.12,79.51|N|From Huntsman Markhor.|
+T Stomp To My Beat|QID|26240|M|78.79,78.41|N|To Mystic Yayo'jin.|
+A Prime Slime|QID|26283|PRE|26263|M|78.03,78.24|N|From Malcom Fendelson.|
+
+C Hunt the Savages|QID|26224|M|76.33,76.38;72.78,68.80;61.05,62.40|CC|N|Follow the path, and kill any Savage Owlbeasts you find up there.|
 C Skulk Rock Clean-Up|QID|26267|S|M|57.55,39.35|N|Kill oozes in and around Skull Rock.|
 C Skulk Rock Supplies|QID|26268|S|NC|M|55.95,44.96|N|Loot the crates in and around Skull Rock. They are quite small, so look carefully!|
-C Prime Slime|QID|26283|M|57.47,38.85;57.46,41.54|CS|N|The entrance to the cave is on the north side of Skull Rock. Head inside and jump down - the Direglob should be there. Kill and loot it.|
+C Prime Slime|QID|26283|M|57.47,38.85;57.46,41.54|CS|N|The entrance to the cave is on the north side of Skull Rock. Head inside and jump down or go down the ramp - the Direglob should be there. Kill and loot it.|
 C Skulk Rock Supplies|QID|26268|US|NC|M|55.95,44.96|N|Loot the crates in and around Skull Rock. They are quite small, so look carefully!|
 C Skulk Rock Clean-Up|QID|26267|US|M|57.55,39.35|N|Kill oozes in and around Skull Rock.|
-H Revantusk Village|QID|26267|M|78.16,81.40|N|If you can't hearth there, ride back.|
-T Skulk Rock Clean-Up|QID|26267|M|78.16,81.40|N|To Elder Torntusk.|
+
+H Revantusk Village|QID|26267|N|Hearthstone or run back to Revantusk Village|M|71.15,64.70;78.20,81.30|CC|
+T Skulk Rock Clean-Up|QID|26267|M|78.16,81.40|N|To Elder Torntusk, upstairs.|
 T Skulk Rock Supplies|QID|26268|M|78.16,81.40|N|To Elder Torntusk.|
 A The Fall of Jintha'Alor|QID|26432|PRE|26268|M|78.16,81.40|N|From Elder Torntusk.|
 T Hunt the Savages|QID|26224|M|79.07,79.60|N|To Huntsman Markhor.|
 T Prime Slime|QID|26283|M|78.13,78.24|N|To Malcom Fendelson.|
-A Moving Things Along|QID|26988|M|78.78,78.44|N|From Mystic Yayo'jin. Pick this up if you are interested in doing Scarlet Monastery.|
+
 R Jintha'Alor|QID|26432|M|76.01,76.02;72.77,68.68;67.79,66.38|CS|N|Head back up the cliff and to the camp near the entrance to Jintha'Alor.|
 T The Fall of Jintha'Alor|QID|26432|M|67.79,66.38|N|To Primal Torntusk.|
 A Start Taking Back|QID|26306|PRE|26432|M|67.79,66.38|N|From Primal Torntusk.|
@@ -167,6 +189,7 @@ A Shadra the Venom Queen|QID|26419|M|35.54,68.46|N|From Deathstalker Lookout.|
 C Shadra the Venom Queen|QID|26419|M|34.59,69.70|N|Let the forsaken tank for you, and defeat the venom queen!|
 T Shadra the Venom Queen|QID|26419|M|31.96,58.33|N|To Darkcleric Marnal, back at the Hiri'Watha Research Station.|
 A The Battle for Andorhal|QID|28508|M|31.96,58.33|N|From Darkcleric Marnal. Pick this up if you'd like to do Western Plaguelands next.|
+
 ]]
 
 end)
