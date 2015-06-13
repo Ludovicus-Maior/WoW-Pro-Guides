@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-06-13 18:53
+-- Who: Fluclo
+-- Log: Added |PRE| to quests only available when you've finished earlier quests; 
+--	Added |S| to Invaders in Our Home and Galgar's Cactus Apple can be done at the same time;
+--	Hearthstone to Den was generating a "No closest waypoint?" error, therefore removed |CC|; 
+--	Added |ACTIVE| tags where the steps only make sense if you are doing a particular quest; 
+--	Added |T| to couple quests to make them easier;
+--	Corrected |QO| tag for Burning Blade Medallion;
+
+-- URL: http://wow-pro.com/node/3199/revisions/27240/view
 -- Date: 2015-05-10 20:40
 -- Who: Ludovicus
 -- Log: Touched up Echo Isles.
@@ -278,11 +288,6 @@
 -- URL: http://wow-pro.com/node/3199/revisions/24435/view
 -- Date: 2011-05-28 11:04
 -- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3199/revisions/24319/view
--- Date: 2011-04-29 15:27
--- Who: Ludovicus
--- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
 
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.05357)
