@@ -1258,12 +1258,12 @@ end
 
 function WoWPro:QuestPrereq(qid)
     WoWPro:DoQuest(qid)
-    local firstQuestsInPrerequisiteChain = {}
-    local allQuestsInPrerequisiteChain = {}
 
-    Grail:_PreparePrerequisiteInfo(Grail:QuestPrerequisites(qid, true), firstQuestsInPrerequisiteChain,
-                                   allQuestsInPrerequisiteChain, 0, true)
-    
+    local controlTable = { ["result"] = {}, ["preq"] = {}, ["lastIndexUsed"] = 0, ["doMath"] = true }
+    local lastIndexUsed = Grail._PreparePrerequisiteInfo(Grail:QuestPrerequisites(qid, true), controlTable)
+    local firstQuestsInPrerequisiteChain = controlTable.result
+    local allQuestsInPrerequisiteChain = controlTable.preq
+
     for i,q in ipairs(allQuestsInPrerequisiteChain) do
         WoWPro:DoQuest(q)
     end
