@@ -572,14 +572,14 @@ function Astrolabe:PlaceIconOnMinimap( icon, mapID, mapFloor, xPos, yPos )
 	end
 	
 	if not (lM and lF and lx and ly) then
-	    print("Astrolabe: No valid user position.  Punting AL:PlaceIconOnMinimap()")
+	    -- print("Astrolabe: No valid user position.  Punting AL:PlaceIconOnMinimap()")
 	    return -2;
 	end
 	
 	local dist, xDist, yDist = self:ComputeDistance(lM, lF, lx, ly, mapID, mapFloor, xPos, yPos);
 	if not ( dist ) then
 		--icon's position has no meaningful position relative to the player's current location
-		print("Astrolabe: No valid distance.  Punting AL:PlaceIconOnMinimap()")
+		-- print("Astrolabe: No valid distance.  Punting AL:PlaceIconOnMinimap()")
 		return -1;
 	end
 	
