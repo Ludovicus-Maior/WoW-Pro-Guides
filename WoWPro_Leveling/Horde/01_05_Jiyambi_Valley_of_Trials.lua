@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-06-13 23:06
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3199/revisions/27283/view
 -- Date: 2015-06-13 18:53
 -- Who: Fluclo
 -- Log: Added |PRE| to quests only available when you've finished earlier quests; 
@@ -284,10 +288,6 @@
 -- Date: 2011-05-28 11:12
 -- Who: Ludovicus
 -- Log: Coord/Zone tweaks
-
--- URL: http://wow-pro.com/node/3199/revisions/24435/view
--- Date: 2011-05-28 11:04
--- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)
