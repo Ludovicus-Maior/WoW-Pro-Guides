@@ -4,6 +4,25 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-06-19 20:16
+-- Who: Ludovicus
+-- Log: Rogue typo
+
+-- URL: http://wow-pro.com/node/3199/revisions/27284/view
+-- Date: 2015-06-13 23:06
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3199/revisions/27283/view
+-- Date: 2015-06-13 18:53
+-- Who: Fluclo
+-- Log: Added |PRE| to quests only available when you've finished earlier quests; 
+--	Added |S| to Invaders in Our Home and Galgar's Cactus Apple can be done at the same time;
+--	Hearthstone to Den was generating a "No closest waypoint?" error, therefore removed |CC|; 
+--	Added |ACTIVE| tags where the steps only make sense if you are doing a particular quest; 
+--	Added |T| to couple quests to make them easier;
+--	Corrected |QO| tag for Burning Blade Medallion;
+
+-- URL: http://wow-pro.com/node/3199/revisions/27240/view
 -- Date: 2015-05-10 20:40
 -- Who: Ludovicus
 -- Log: Touched up Echo Isles.
@@ -270,20 +289,6 @@
 -- Who: Ludovicus
 -- Log: Coord Tweak for Shamans
 
--- URL: http://wow-pro.com/node/3199/revisions/24438/view
--- Date: 2011-05-28 11:12
--- Who: Ludovicus
--- Log: Coord/Zone tweaks
-
--- URL: http://wow-pro.com/node/3199/revisions/24435/view
--- Date: 2011-05-28 11:04
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3199/revisions/24319/view
--- Date: 2011-04-29 15:27
--- Who: Ludovicus
--- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
-
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
@@ -293,17 +298,18 @@ return [[
 
 A Your Place In The World|QID|25152|M|45.33,68.58|N|From Kaltunk.|
 T Your Place In The World|QID|25152|M|44.90,66.31|N|To Gornek.|
-A Cutting Teeth|QID|25126|M|44.94,66.43|N|From Gornek.|
+
+A Cutting Teeth|QID|25126|M|44.94,66.43|N|From Gornek.|PRE|25152|
 C Cutting Teeth|QID|25126|M|51.48,56.01|N|Kill boars in the nearby boar pen.|
 T Cutting Teeth|QID|25126|M|44.94,66.43|N|To Gornek.|
 
-A Invaders in Our Home|QID|25172|M|44.94,66.43|N|From Gornek.|
+A Invaders in Our Home|QID|25172|M|44.94,66.43|N|From Gornek.|PRE|25126|
+A Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|From Galgar.|PRE|25126|
+C Galgar's Cactus Apple Surprise|QID|25136|NC|M|50.38,52.64|N|Loot cactus apples from cactuses.|S|
 C Invaders in Our Home|QID|25172|M|47.60,83.19|N|Kill Northwatch scouts to the south.|
-T Invaders in Our Home|QID|25172|M|44.94,66.43|N|To Gornek.|
-
-A Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|From Galgar.|
-C Galgar's Cactus Apple Surprise|QID|25136|NC|M|50.38,52.64|N|Loot cactus apples from cactuses.|
+C Galgar's Cactus Apple Surprise|QID|25136|NC|M|50.38,52.64|N|Loot cactus apples from cactuses.|US|
 T Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|To Galgar.|
+T Invaders in Our Home|QID|25172|M|44.94,66.43|N|To Gornek.|
 
 L Level 3|QID|25127|LVL|3|N|You need to be Level 3 to continue with this guide.|
 
@@ -342,11 +348,11 @@ T Steady Shot|QID|25139|R|Orc|C|Hunter|M|43.41,70.62|N|To Karranisha.|
 T Immolate|QID|25145|R|Orc|C|Warlock|M|41.64,65.68|N|To Nartok.|
 T Eviscerate|QID|25141|R|Orc|C|Rogue|M|41.57,68.58|N|To Rwag.|
 
-A Sting of the Scorpid|QID|25127|M|44.94,66.43|N|From Gornek.|
-A Lazy Peons|QID|37446|M|46.03,63.33|N|From Foreman Thazz'ril.|
-C Lazy Peons|QID|37446|S|NC|U|16114|M|57.74,45.82|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
+A Sting of the Scorpid|QID|25127|M|44.94,66.43|N|From Gornek.|PRE|25172|
+A Lazy Peons|QID|37446|M|46.03,63.33|N|From Foreman Thazz'ril.|PRE|25172|
+C Lazy Peons|QID|37446|S|NC|U|16114|M|57.74,45.82|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|
 C Sting of the Scorpid|QID|25127|M|57.74,45.82|N|Kill and loot scorpids.|
-C Lazy Peons|QID|37446|US|NC|U|16114|M|57.74,45.82|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
+C Lazy Peons|QID|37446|US|NC|U|16114|M|57.74,45.82|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|
 T Lazy Peons|QID|37446|M|46.15,63.37|N|To Foreman Thazz'ril.|
 T Sting of the Scorpid|QID|25127|M|44.94,66.43|N|To Gornek.|
 
@@ -354,29 +360,31 @@ A Hana'zua|QID|25128|PRE|25127|M|41.68,69.95|N|From Canaga Earthcaller.|
 A Vile Familiars|QID|25131|PRE|25127|M|45.72,63.37|N|From Zureetha Fargaze.|
 C Vile Familiars|QID|25131|M|49.83,20.60|N|Kill Vile Familiars near the cave to the north.|
 T Hana'zua|QID|25128|M|34.75,44.18|N|To Hana'zua.|
+
 A Sarkoth|QID|25129|M|34.75,44.18|N|From Hana'zua.|
 C Sarkoth|QID|25129|M|33.65,60.90|N|Kill and loot Sarkoth.|
 T Sarkoth|QID|25129|M|34.59,44.38|N|To Hana'zua.|
-A Back to the Den|QID|25130|M|34.59,44.38|N|From Hana'zua.|
+
+A Back to the Den|QID|25130|M|34.59,44.38|N|From Hana'zua.|PRE|25129|
 T Back to the Den|QID|25130|M|34.40,61.14;40.59,62.94;45.05,66.07|CC|N|To Gornek at the starting area.  As a short-cut, you can jump down near where you fought Sarkoth.|
 T Vile Familiars|QID|25131|M|45.87,63.37|N|To Zureetha Fargaze.|
 
-A Burning Blade Medallion|QID|25132|M|45.87,63.37|N|From Zureetha Fargaze.|
-A Thazz'ril's Pick|QID|25135|M|45.87,63.37|N|From Foreman Thazz'ril.|
+A Burning Blade Medallion|QID|25132|M|45.87,63.37|N|From Zureetha Fargaze.|PRE|25131|
+A Thazz'ril's Pick|QID|25135|M|45.87,63.37|N|From Foreman Thazz'ril.|PRE|25131|
 
-C Burning Blade Medallion|QID|25132|M|41.80,8.73|N|Kill felstalkers as you go through the cave.|S|QO|Felstalker slain: 7/7|
+C Burning Blade Medallion|QID|25132|M|41.80,8.73|N|Kill felstalkers as you go through the cave.|S|QO|1|
 C Thazz'ril's Pick|QID|25135|NC|M|46.97,9.67|N|Inside the cave, central passage.|
-K Yarrog Baneshadow|QID|25132|M|41.80,8.73|N|Kill Yarrog Baneshadow, then loot the Burning Blade Medallion.  On entering the cave, he's at the end of the left tunnel, from Thazz'ril's Pick, take the tunnels to the right.|QO|2|
+K Yarrog Baneshadow|QID|25132|M|41.80,8.73|N|Kill Yarrog Baneshadow, then loot the Burning Blade Medallion.  On entering the cave, he's at the end of the left tunnel, from Thazz'ril's Pick, take the tunnels to the right.|QO|2|T|Yarrog Baneshadow|
 C Burning Blade Medallion|QID|25132|M|42.08,15.47|N|Finish killing the felstalkers as you leave the cave|US|QO|1|
 
-H Valley of Trials|QID|25132|M|52.61,68.23|CC|N|Hearth or run back the The Den.|
+H Valley of Trials|QID|25132|M|52.61,68.23|N|Hearth or run back the The Den.|
 
 T Thazz'ril's Pick|QID|25135|M|46.03,63.41|N|To Foreman Thazz'ril at the starting area.|
 T Burning Blade Medallion|QID|25132|M|45.91,63.49|N|To Zureetha Fargaze.|
-A Report to Sen'jin Village|QID|25133|M|45.91,63.49|N|From Zureetha Fargaze.|
+A Report to Sen'jin Village|QID|25133|M|45.91,63.49|N|From Zureetha Fargaze.|PRE|25132|
 
 ; Now we go from ValleyOfTrails to Durotar
-R Sen'jin Village|QID|25133|M|55.36,73.35|Z|Durotar|N|Follow the road to the east until you see the signpost, then head south-east along the dirt track to Sen'jin Village.|
+R Sen'jin Village|QID|25133|M|55.36,73.35|Z|Durotar|N|Follow the road to the east until you see the signpost, then head south-east along the dirt track to Sen'jin Village.|ACTIVE|25133|
 T Report to Sen'jin Village|QID|25133|M|55.93,74.69|Z|Durotar|N|To Master Gadrin.|
 
 ]]

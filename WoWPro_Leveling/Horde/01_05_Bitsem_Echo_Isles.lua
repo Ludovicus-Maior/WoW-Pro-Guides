@@ -4,6 +4,25 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-06-19 20:16
+-- Who: Ludovicus
+-- Log: Rogue typo
+
+-- URL: http://wow-pro.com/node/3199/revisions/27284/view
+-- Date: 2015-06-13 23:06
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3199/revisions/27283/view
+-- Date: 2015-06-13 18:53
+-- Who: Fluclo
+-- Log: Added |PRE| to quests only available when you've finished earlier quests; 
+--	Added |S| to Invaders in Our Home and Galgar's Cactus Apple can be done at the same time;
+--	Hearthstone to Den was generating a "No closest waypoint?" error, therefore removed |CC|; 
+--	Added |ACTIVE| tags where the steps only make sense if you are doing a particular quest; 
+--	Added |T| to couple quests to make them easier;
+--	Corrected |QO| tag for Burning Blade Medallion;
+
+-- URL: http://wow-pro.com/node/3199/revisions/27240/view
 -- Date: 2015-05-10 20:40
 -- Who: Ludovicus
 -- Log: Touched up Echo Isles.
@@ -270,20 +289,6 @@
 -- Who: Ludovicus
 -- Log: Coord Tweak for Shamans
 
--- URL: http://wow-pro.com/node/3199/revisions/24438/view
--- Date: 2011-05-28 11:12
--- Who: Ludovicus
--- Log: Coord/Zone tweaks
-
--- URL: http://wow-pro.com/node/3199/revisions/24435/view
--- Date: 2011-05-28 11:04
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3199/revisions/24319/view
--- Date: 2011-04-29 15:27
--- Who: Ludovicus
--- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
-
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.05357)
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
@@ -426,7 +431,7 @@ A The Arts of a Hunter|QID|24778|C|Hunter|PRE|24780|M|57.22,50.78|N|From Ortezza
 C The Arts of a Druid|QID|31162|C|Monk|M|57.57,52.68|N|Practice Tiger Palm on a Tiki Target.|
 C The Arts of a Druid|QID|3|C|Druid|M|57.57,52.68|N|Practice Healing Touch.|Z|Echo Isles|
 C The Arts of a Mage|QID|24752|C|Mage|M|58.13,54.14|N|Practice Arcane Intellect.|
-C The Arts of a Rogue|QID|24772|C|Rogue|M|52.89,49.90|N|Practice Stealth.|
+C The Arts of a Rogue|QID|24772|C|Rogue|M|52.89,49.90|N|Practice Evicerate.|
 C The Arts of a Warrior|QID|24640|C|Warrior|M|51.40,52.59|N|Practice Charge on Tiki Target.|
 C The Arts of a Warlock|QID|26274|C|Warlock|M|50.02,49.96|N|Practice Immolate.|
 C The Arts of a Priest|QID|24784|C|Priest|M|58.04,49.26|N|Practice Power Word: Fortitude.|
