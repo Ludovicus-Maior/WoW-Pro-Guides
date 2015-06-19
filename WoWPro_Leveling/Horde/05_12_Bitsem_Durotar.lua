@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-06-19 20:16
+-- Who: Ludovicus
+-- Log: Rogue typo
+
+-- URL: http://wow-pro.com/node/3199/revisions/27284/view
 -- Date: 2015-06-13 23:06
 -- Who: Fluclo
 
@@ -283,11 +288,6 @@
 -- Date: 2011-05-30 11:48
 -- Who: Ludovicus
 -- Log: Coord Tweak for Shamans
-
--- URL: http://wow-pro.com/node/3199/revisions/24438/view
--- Date: 2011-05-28 11:12
--- Who: Ludovicus
--- Log: Coord/Zone tweaks
 
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
