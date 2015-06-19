@@ -555,7 +555,7 @@ function WoWPro:MapPoint(row)
     		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
 
 		-- Parsing and mapping coordinates --
-		WoWPro:print("WoWPro:MapPoint1(%s@%s=%s/%s)",coords,tostring(zone),tostring(zm),tostring(zf))
+		WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s/%s)",i,coords,tostring(zone),tostring(zm),tostring(zf))
 		local numcoords = select("#", string.split(";", coords))
         FinalCoord = nil
 		for j=1,numcoords do
@@ -617,7 +617,7 @@ function WoWPro:MapPoint(row)
 						end
 					end
 				else
-				    WoWPro:Error("No closest waypoint? Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
+				    WoWPro:Warning("No closest waypoint? Please report a bug if the arrow is not working: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
 				end
 			elseif autoarrival == 2 then
 				TomTom.db.profile.arrow.setclosest = false
