@@ -117,6 +117,24 @@ function WoWPro.LoadGuideReal()
         return
     end
     
+    -- Need to register guides first
+    if WoWPro.Guides2Register then
+        -- Save the original guide to load
+        WoWPro.PuntedGuide = WoWPro.PuntedGuide or GID
+        -- pop off the next guide to load
+        GID = table.remove(WoWPro.Guides2Register)
+        while GID and not WoWPro.Guides[GID] do
+            GID = table.remove(WoWPro.Guides2Register)
+        end
+        if not GID then
+            WoWPro.Guides2Register = nil
+            GID = WoWPro.PuntedGuide
+            WoWPro.PuntedGuide = nil
+            WoWPro:dbp("Finished processing Guides2Register, back to loading normally.")
+        end
+        WoWProDB.char.currentguide = GID
+    end
+    
     WoWPro:dbp("WoWPro_LoadGuide: starting guide cleanup:  %s",tostring(GID))
     
 	--Checking the GID and loading the guide --
@@ -394,7 +412,8 @@ function WoWPro.NextStep(k,i)
 			end
 		end
 	
-	
+	    -- WoWPro:dbp("Checkpoint Aleph for step %d",k)
+	    
 		-- Checking Prerequisites --
     	if WoWPro.prereq[k] then
     	    if string.find(WoWPro.prereq[k],"+") then
@@ -544,6 +563,8 @@ function WoWPro.NextStep(k,i)
             end
         end
             
+        -- WoWPro:dbp("Checkpoint Beth for step %d",k)
+         
 		-- Skipping profession quests if their requirements aren't met --
 		if WoWPro.prof[k] and not skip then
 			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
@@ -842,6 +863,8 @@ function WoWPro.NextStep(k,i)
             end
 		end
         
+        -- WoWPro:dbp("Checkpoint Gimel for step %d",k)
+        
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank and WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
@@ -851,11 +874,10 @@ function WoWPro.NextStep(k,i)
 			end
 		end
 		
-		skip = WoWPro[WoWPro.Guides[GID].guidetype]:NextStep(k, skip)
-		
-
+		-- WoWPro:dbp("Checkpoint Daleth for step %d",k)
         -- Do we have enough loot in bags?
 		if (WoWPro.lootitem and WoWPro.lootitem[k]) then
+		    WoWPro:dbp("Checking step %d for loot %s",k, WoWPro.lootitem[k])
 		    if GetItemCount(WoWPro.lootitem[k]) >= WoWPro.lootqty[k] then
 		        if WoWPro.action[k] == "T" then
 		            -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
@@ -890,12 +912,16 @@ function WoWPro.NextStep(k,i)
 		if WoWPro.unsticky[k] and WoWPro.ActiveStickyCount and i > WoWPro.ActiveStickyCount+1 then 
 			skip = true 
 		end
-		
+
+
+		skip = WoWPro[WoWPro.Guides[GID].guidetype]:NextStep(k, skip)
+				
 	until true
 	if skip then k = k+1 end
 		
 	end
 	
+	WoWPro.why[k] = "NextStep(): Step active."
 	return k
 end
 
@@ -932,7 +958,7 @@ function WoWPro.CompleteStep(step, why)
 	if WoWProDB.profile.checksound then	
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
-	WoWPro:print("WoWPro.CompleteStep(%d,%s)",step,WoWPro.step[step])
+	WoWPro:print("WoWPro.CompleteStep(%d,%s[%s],'%s')",step,WoWPro.action[step], WoWPro.step[step], why)
 	WoWProCharDB.Guide[GID].completion[step] = true
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWProCharDB.Guide[GID].completion[row.index] then
