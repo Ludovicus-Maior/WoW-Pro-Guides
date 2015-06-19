@@ -150,7 +150,8 @@ end)
 DefineTag("US","unsticky","boolean",nil,nil)
 DefineTag("U","use","number",nil,nil)
 DefineTag("L","lootitem","string",nil,function (text,i)
-    _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)|");
+    _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)");
+    -- WoWPro:dbp("L [%s]/[%s]",WoWPro.lootitem[i], WoWPro.lootqty[i])
 	if WoWPro.lootitem[i] then
     	if tonumber(WoWPro.lootqty[i]) ~= nil then
     	    WoWPro.lootqty[i] = tonumber(WoWPro.lootqty[i])
@@ -385,6 +386,27 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 end
 
+function WoWPro.RecordQID(QIDs)
+    if not QIDs then return end
+
+    local GID = WoWProDB.char.currentguide
+    local guideType = WoWPro.Guides[GID].guidetype
+    local guideClass = WoWPro[guideType]
+    local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
+
+    if not recordQIDs then return end
+    
+	local numQIDs = select("#", string.split(";", QIDs))
+
+	for j=1,numQIDs do
+		local qid = select(numQIDs-j+1, string.split(";", QIDs))
+		local QID = tonumber(qid)
+		if QID then
+			WoWProDB.global.QID2Guide[QID] = GID
+		end
+    end
+end
+
 -- Quest parsing function --
 function WoWPro:ParseSteps(steps)
 	WoWPro:dbp("Parsing Guide, %d steps",#steps)
@@ -439,6 +461,7 @@ function WoWPro:ParseSteps(steps)
 			   (gender == nil or gender == UnitSex("player")) and
 			   (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
 				WoWPro.ParseQuestLine(faction, zone, i, text)
+				WoWPro.RecordQID(WoWPro.QID[i])
 				i = i + 1
 			end
 		end
@@ -470,7 +493,9 @@ end
 
 function WoWPro.LoadGuideStepsReal()
 	local GID = WoWProDB.char.currentguide
-    WoWPro:dbp("LoadGuideSteps(%s)",GID);
+    local AutoSwitch = WoWPro.Guides[GID].AutoSwitch
+
+    WoWPro:dbp("LoadGuideSteps(%s) AutoSwitch=%s",GID,tostring(AutoSwitch));
     
 	--Re-initiallizing tags and counts--
 	for i,tag in pairs(WoWPro.Tags) do 
@@ -497,6 +522,15 @@ function WoWPro.LoadGuideStepsReal()
 	else
 	    WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
 	end
+	
+	-- May need to go the the next guide to register	
+	if WoWPro.Guides2Register then
+	    WoWProDB.global.Guide2QIDs[GID] = WoWPro.Version
+	    WoWPro:dbp("Recorded %s, time to load next Guides2Register.", GID)
+        WoWPro:SendMessage("WoWPro_LoadGuide")
+        return
+    end
+    
 	WoWPro:PushCurrentGuide(GID)
 	WoWPro:GuideSetup()
 end
@@ -520,34 +554,13 @@ function WoWPro:GuideSetup()
     WoWPro:SendMessage("WoWPro_GuideSetup")
 end
 
-function WoWPro.RecordQID(QIDs)
-    if not QIDs then return end
-
-    local GID = WoWProDB.char.currentguide
-    local guideType = WoWPro.Guides[GID].guidetype
-    local guideClass = WoWPro[guideType]
-    local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
-
-    if not recordQIDs then return end
-    
-	local numQIDs = select("#", string.split(";", QIDs))
-
-	for j=1,numQIDs do
-		local qid = select(numQIDs-j+1, string.split(";", QIDs))
-		local QID = tonumber(qid)
-		if QID then
-			WoWProDB.global.QID2Guide[QID] = WoWProDB.char.currentguide
-		end
-    end
-end
 
 function WoWPro.SetupGuideReal()
     local GID = WoWProDB.char.currentguide
     local guideType = WoWPro.Guides[GID].guidetype
     local guideClass = WoWPro[guideType]
-    local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
     
-    WoWPro:dbp("SetupGuideReal(%s): Type: %s, recordQIDs:",GID,guideType,tostring(recordQIDs))
+    WoWPro:dbp("SetupGuideReal(%s): Type: %s",GID,guideType)
     
 	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
