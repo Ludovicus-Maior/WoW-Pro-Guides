@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2015-06-20 14:29
+-- Who: Ludovicus
+-- Log: PLaythrough
+
+-- URL: http://wow-pro.com/node/3207/revisions/27287/view
 -- Date: 2015-06-19 21:46
 -- Who: Ludovicus
 -- Log: Sunstrider corrections
@@ -224,11 +229,19 @@ WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achieve
 WoWPro:GuideSteps(guide, function()
 return [[
 
+local guide = WoWPro:RegisterGuide("SnoEve0512", "Leveling", "Eversong Woods", "Snowflake", "Horde")
+WoWPro:GuideLevels(guide,5,10, 5.78882)
+WoWPro:GuideNextGuide(guide, "SnoGho1221")
+WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_BloodElf_Male","Interface\\Icons\\Achievement_Character_BloodElf_Female"))
+WoWPro:GuideSteps(guide, function()
+return [[
+
 R Eversong Woods|QID|9704|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|M|56.95,49.60|Z|Eversong Woods|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
-F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 A Slain by the Wretched |QID|9704|M|40.4,32.2|N|First quest after Sunstrider Isle starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 
 ;The guide continues at this point for all races
+F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
+f Falconwing Square|QID|9704|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles|
 T Slain by the Wretched |QID|9704|N|To Slain Outrunner.|M|42.0,35.7|
 A Package Recovery |QID|9705|N|From Slain Outrunner.|M|42.0,35.7|
 T Package Recovery |QID|9705|N|To Outrunner Alarion.|M|40.4,32.2|
@@ -267,9 +280,9 @@ T Arcane Instability |QID|8486|N|To Ley-Keeper Velania.|M|36.7,57.4|
 A Fish Heads, Fish Heads... |QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|M|31.49,53.78;29.89,58.52|CC|
 C Fish Heads, Fish Heads... |QID|8884|N|Kill murlocs for the 8 fish heads. |M|27,59.5|
 l Captain Kelisendra's Lost Rutters |QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|M|27,59.5|
-A Captain Kelisendra's Lost Rutters |QID|8887|U|21776|N|From Captain Kelisendra's Lost Rutters.|M|27.3,57.2|
-T Fish Heads, Fish Heads... |QID|8884|N|To Hathvelion Sungaze.|M|30.2,58.3|
-A The Ring of Mmmrrrggglll |QID|8885|N|From Hathvelion Sungaze.|
+A Captain Kelisendra's Lost Rutters |QID|8887|U|21776|N|From Captain Kelisendra's Lost Rutters.|
+T Fish Heads, Fish Heads... |QID|8884|N|To Hathvelion Sungaze.|M|29.89,58.52|
+A The Ring of Mmmrrrggglll |QID|8885|N|From Hathvelion Sungaze.|M|29.89,58.52|
 H Falconwing Square|QID|8482|U|6948|N|Hearth to Falconwing Square.|
 T Incriminating Documents |QID|8482|N|To Aeldon Sunbrand.|M|48.2,46.0|
 
@@ -285,16 +298,16 @@ T Taking the Fall |QID|9064|N|To Instructor Antheol.|M|55.7,54.5|
 
 A Swift Discipline |QID|9066|N|From Instructor Antheol.|M|55.7,54.5|
 A The Dead Scar |QID|8475|N|From Ranger Jaela.|M|50.3,50.8|
-C Swift Discipline - Apprentice Ralen |QID|9066|U|22473|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|M|45.20,56.40|QO|Apprentice Ralen Disciplined: 1/1|T|Apprentice Ralen|
-C Swift Discipline - Apprentice Meledor|QID|9066|U|22473|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|M|44.9,61.0|T|Apprentice Meledor|
+C Swift Discipline - Apprentice Ralen |QID|9066|U|22473|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|M|45.20,56.40|QO|2|T|Apprentice Ralen|
+C Swift Discipline - Apprentice Meledor|QID|9066|U|22473|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|M|44.9,61.0|QO|1|T|Apprentice Meledor|
 C The Dead Scar |QID|8475|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers. \n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an in-level player to survive. |M|51.2,56.3|
 T The Dead Scar |QID|8475|N|To Ranger Jaela.|M|50.3,50.8|
 T Swift Discipline |QID|9066|N|To Instructor Antheol.|M|55.7,54.5|
 F Falconwing Square|QID|8483|M|54.37,50.73|N|Fly to Falconwing Square.|
 T The Dwarven Spy |QID|8483|N|To Aeldon Sunbrand.|M|48.2,46.0|
 A Fairbreeze Village |QID|9256|N|From Aeldon Sunbrand.|
-F Fairbreeze Village |QID|9256|M|46.26,46.80|N|Fly to Fairbreeze Village.|
 
+f Fairbreeze Village |QID|9256|M|43.94,69.98|N|Run to Fairbreeze Village and get the flight point from Skymaster Brightdawn.|
 A Pelt Collection |QID|8491|N|From Velan Brightoak.|M|44.7,69.6|
 A Saltheril's Haven |QID|9395|N|From Magistrix Landra Dawnstrider.|M|44.0,70.8|
 A The Wayward Apprentice |QID|9254|N|From Magistrix Landra Dawnstrider.|M|44.0,70.8|
@@ -303,19 +316,19 @@ A Situation at Sunsail Anchorage |QID|8892|N|From Ranger Degolien|M|43.3,70.8|
 A Ranger Sareyn |QID|9358|N|From Marniel Amberlight. If you've already done Defending Fairbreeze Village this quest won't be available so just skip it.|M|43.7,71.2|
 h Fairbreeze Village |QID|9395|N|With Marniel Amberlight.|
 A Goods from Silvermoon City|QID|9130|R|BloodElf|M|43.7,71.54|N|From Sathiel.|
-r Repair/Sell Junk|QID|9130|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
+r Repair/Sell Junk|QID|9395|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
 C Pelt Collection |QID|8491|N|Kill springpaws.|M|46.00,67.00|S|
 T Saltheril's Haven |QID|9395|N|To Lord Saltheril.|M|38.1,73.6|
 
 A The Party Never Ends |QID|9067|N|From Lord Saltheril.|M|38.1,73.6|
-B Bundle of Fireworks |QID|9067|L|22777|N|Buy a Bundle of fireworks from Halis Dawnstrider at Fairbreeze Village.|M|44.10,70.40|
+B Bundle of Fireworks |QID|9067|QO|3|N|Buy a Bundle of fireworks from Halis Dawnstrider at Fairbreeze Village.|M|44.10,70.40|
 T Goods from Silvermoon City|QID|9130|R|BloodElf|N|To Skymaster Brightdawn.|M|44,70|
 A Fly to Silvermoon City|QID|9133|R|BloodElf|M|44,70|N|From Skymaster Brightdawn.|
 F Silvermoon City|QID|9133|M|44,70|N|Ask Skymaster Brightdawn to fly you to Silvermoon City.|
 R Silvermoon City|QID|9133|N|Run east to Silvermoon City.|M|72.37,90.93|Z|Silvermoon City|
 T Fly to Silvermoon City|QID|9133|R|BloodElf|Z|Silvermoon City|N|To Sathren Azuredawn.|M|69.26,77.04;68.28,74.08;66.50,73.43;54,71|CS|
 A Skymistress Gloaming|QID|9134|R|BloodElf|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn.|
-B Suntouched Special Reserve|QID|9067|L|22775|Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|M|79.70,58.40|
+B Suntouched Special Reserve|QID|9067|QO|1||Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|M|79.70,58.40|
 T Skymistress Gloaming|QID|9134|R|BloodElf|M|54.38,50.79|N|To Skymistress Gloaming.|
 
 A Return to Sathiel|QID|9135|R|BloodElf|M|54.38,50.79|N|From Skymistress Gloaming.|
@@ -325,7 +338,7 @@ T Captain Kelisendra's Lost Rutters |QID|8887|N|To Captain Kelisendra. Follow th
 A Grimscale Pirates! |QID|8886|N|From Captain Kelisendra.|M|36.4,66.7|
 A Lost Armaments |QID|8480|N|From Velendris Whitemorn.|M|36.4,66.7|
 C Grimscale Pirates! |QID|8886|N|Either pick these up from the floor, or kill and loot the murlocs. |M|24.9,66.8|S|
-K Kill Mmmrrrggglll |QID|8885|L|21770|N|He roams the beach. |M|25,69|T|Mmmrrrggglll|
+K Kill Mmmrrrggglll |QID|8885|QO|1|N|He roams the beach. |M|25,69|T|Mmmrrrggglll|
 C Grimscale Pirates! |QID|8886|N|Either pick these up from the floor, or kill and loot the murlocs. |M|24.9,66.8|US|
 T The Ring of Mmmrrrggglll |QID|8885|N|To Hathvelion Sungaze|M|30.2,58.5|
 C Situation at Sunsail Anchorage |QID|8892|S|N|Kill Wretched Thugs and Hooligans.|
@@ -334,7 +347,7 @@ T Grimscale Pirates! |QID|8886|N|To Captain Kelisendra. At Sunsail Anchorage.|M|
 T Lost Armaments |QID|8480|N|To Velendris Whitemorn.|M|36.4,66.7|
 
 A Wretched Ringleader |QID|9076|N|From Velendris Whitemorn.|M|36.4,66.7|
-K Aldaron |QID|9076|L|22487|N|Go back to the big white tower-like building and fight your way up. At the top you'll find Aldaron the Reckless with two guards. If you are careful you can probably pull the guards solo before you kill Aldras. |M|32.70,68.4|
+K Aldaron |QID|9076|QO|1|N|Go back to the big white tower-like building and fight your way up. At the top you'll find Aldaron the Reckless with two guards. If you are careful you can probably pull the guards solo before you kill Aldras. |M|32.70,68.4|
 C Situation at Sunsail Anchorage |QID|8892|S|N|Finish killing the Wretched Thugs and Hooligans.|
 T Wretched Ringleader |QID|9076|N|To Velendris Whitemorn.|M|36.4,66.7|
 C Pelt Collection |QID|8491|N|Kill springpaws. They're all around Fairbreeze. |M|46.00,67.00|US|
@@ -356,7 +369,7 @@ T Unexpected Results |QID|8488|N|To Apprentice Mirveda. You should now be level 
 A Research Notes |QID|9255|N|From Apprentice Mirveda.|M|54.3,71.0|
 T Farstrider Retreat |QID|9359|N|To Lieutenant Dawnrunner.|M|60.3,62.8|
 A Amani Encroachment |QID|8476|N|From Lieutenant Dawnrunner.|M|60.3,62.8|
-B Buy Springpaw Appetizers |QID|9067|L|22776|N|Buy Springpaw Appetizers from Zalene Firstlight at Farstrider Retreat.|M|60.40,62.46|
+B Buy Springpaw Appetizers |QID|9067|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight at Farstrider Retreat.|M|60.40,62.46|
 
 A The Spearcrafter's Hammer |QID|8477|N|From Arathel Sunforge.|M|59.5,62.6|
 A The Magister's Apprentice |QID|8888|N|From Magister Duskwither. Up the right ramp.|M|60.3,61.4|
@@ -375,17 +388,17 @@ C Cleaning up the Grounds |QID|8894|N|Kill the Mana Serpent and Ether Fiends fro
 R Azurebreeze Coast |QID|8894|N|If you want the explorer achievement, head to Azurebreeze Coast.\n\nIf you don't, just click this step.|M|72.00,43.00|
 C Cleaning up the Grounds |QID|8894|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|US|
 T Cleaning up the Grounds |QID|8894|N|To Groundskeeper Wyllithen.|M|68.7,46.9|
-N Deactivating the Spire - First Power Source |QID|8889|N|Click on the Orb of Translocation, then deactivate the First Power Source.|M|69.20,52.10|QO|First Power Source Deactivated: 1/1|
-N Deactivating the Spire - Second Power Source |QID|8889|N|Head up the stairs, then deactivate the Second Power Source.|M|69.20,52.10|QO|Second Power Source Deactivated: 1/1|
+N Deactivating the Spire - First Power Source |QID|8889|N|Click on the Orb of Translocation, then deactivate the First Power Source.|M|69.20,52.10|QO|1|NC|
+N Deactivating the Spire - Second Power Source |QID|8889|N|Head up the stairs, then deactivate the Second Power Source.|M|69.20,52.10|QO|2|NC|
 A Abandoned Investigations |QID|8891|N|From Magister Duskwither's Journal on the table near the door.|M|69.2,52.1|
-C Deactivating the Spire|QID|8889|N|Head up the stairs again, then deactivate the Third Power Source.|M|69.20,52.10|
+C Deactivating the Spire|QID|8889|N|Head up the stairs again, then deactivate the Third Power Source.|M|69.20,52.10|QO|3|NC|
 T Deactivating the Spire |QID|8889|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|M|67.8,56.5|
 A Word from the Spire |QID|8890|N|From Apprentice Loralthalis.|M|67.8,56.5|
 ;N Visit your trainer if you want|QID|8890|N|since we are by Silvermoon City. Right-click the box to continue.|
 T Word from the Spire |QID|8890|N|To Magister Duskwither. Back at farstrider retreat, up the right ramp. |M|60.3,61.4|
 T Abandoned Investigations |QID|8891|N|To Magister Duskwither.|M|60.3,61.4|
 C Amani Encroachment|QID|8476|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
-K Spearcrafter Otembe|QID|8477|L|20759|N|Head to southeast to the trolls, toward Spearcrafter Otembe. Kill trolls that you need for Amani Encroachment while you go.|M|70,72|
+K Spearcrafter Otembe|QID|8477|QO|1|N|Head to southeast to the trolls, toward Spearcrafter Otembe. Kill trolls that you need for Amani Encroachment while you go.|M|70,72|
 
 A Zul'Marosh |QID|8479|N|From Ven'jashi.|M|70.5,72.3|
 K Chieftain Zul'Marosh |QID|8479|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first. |M|61.60,79.60|
@@ -417,7 +430,7 @@ T Whitebark's Memory|QID|10166|M|37.58,86.14|N|To Whitebark's Spirit. Use the pe
 C A Somber Task|QID|8473|M|35.7,85.2|N|Kill 10 Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34,80|N|To Larianna Riverwind.|
 
-N End of Eversong Woods Guide |QID|9144|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods quest if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|M|43,86;55,84|CC|
+N End of Eversong Woods Guide |QID|9144|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods Acheivement if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|M|43,86;55,84|CC|
 
 ]]
 end)
