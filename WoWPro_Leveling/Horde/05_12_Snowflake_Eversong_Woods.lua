@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2015-06-19 21:46
+-- Who: Ludovicus
+-- Log: Sunstrider corrections
+
+-- URL: http://wow-pro.com/node/3207/revisions/27231/view
 -- Date: 2015-04-30 20:27
 -- Who: Ludovicus
 -- Log: remap
