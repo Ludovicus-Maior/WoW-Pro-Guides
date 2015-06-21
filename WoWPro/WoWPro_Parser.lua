@@ -100,18 +100,15 @@ end
 function WoWPro.UnSkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	WoWProCharDB.Guide[GID].completion[index] = nil
-	if WoWPro.QID[index] 
-	and ( WoWPro.action[index] == "A" 
-		or WoWPro.action[index] == "C" 
-		or WoWPro.action[index] == "T" ) then
-    		local numqids = select("#", string.split(";", WoWPro.QID[j]))
-    	    for k=1,numqids do
-    	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[j]))
-    	        if tonumber(kqid) then
-    	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = nil
-    	        end
-    	    end
-			WoWProCharDB.Guide[GID].skipped[index] = nil
+	if WoWPro.QID[index] then
+		local numqids = select("#", string.split(";", WoWPro.QID[index]))
+	    for k=1,numqids do
+	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[index]))
+	        if tonumber(kqid) then
+	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = nil
+	        end
+	    end
+		WoWProCharDB.Guide[GID].skipped[index] = nil
 	else
 		WoWProCharDB.Guide[GID].skipped[index] = nil
 	end
@@ -153,7 +150,8 @@ end)
 DefineTag("US","unsticky","boolean",nil,nil)
 DefineTag("U","use","number",nil,nil)
 DefineTag("L","lootitem","string",nil,function (text,i)
-    _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)|");
+    _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)");
+    -- WoWPro:dbp("L [%s]/[%s]",WoWPro.lootitem[i], WoWPro.lootqty[i])
 	if WoWPro.lootitem[i] then
     	if tonumber(WoWPro.lootqty[i]) ~= nil then
     	    WoWPro.lootqty[i] = tonumber(WoWPro.lootqty[i])
@@ -336,27 +334,28 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 		WoWPro.faction[i] = faction
 	end
 
-	local gql = WoWPro:GrailQuestLevel(WoWPro.QID[i])
-	if WoWPro.DebugLevel > 0 and gql and tonumber(WoWPro.QID[i]) and tonumber(WoWPro.QID[i]) < 100000 then
-	    if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel > 1 and tonumber(gql) < (WoWPro.Guides[GID].startlevel / 2) then
-	        WoWPro:Warning("Guide %s QID %s is level %s?",GID,WoWPro.QID[i],gql)
-	        gql = "0"
+	local GQL = tonumber(WoWPro:GrailQuestLevel(WoWPro.QID[i]))
+	
+	if GQL and GQL < 1 and tonumber(WoWPro.QID[i]) < 100000  then
+	    WoWPro:dbp("Guide %s QID %s: Grail reports %s!",GID,WoWPro.QID[i],GQL)
+	    GQL = nil
+    end
+
+	if WoWPro.DebugLevel > 0 and GQL and tonumber(WoWPro.QID[i]) and tonumber(WoWPro.QID[i]) < 100000 then
+	    if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel > 1 and GQL < 2 then
+            -- Treat a 1 from grail as meaning no level requirement.
+	        GQL = WoWPro.Guides[GID].startlevel
 	    end
-	    if tonumber(gql) < 1 then
-	        WoWPro:Warning("Guide %s QID %s is level %s!",GID,WoWPro.QID[i],gql)
-	    else
-	        gql = tonumber(gql)
-	        if WoWPro.Guides[GID].startlevel and gql < tonumber(WoWPro.Guides[GID].startlevel) then
-	              WoWPro:Warning("Guide %s QID %s is level %s!??",GID,WoWPro.QID[i],gql)
-	        end
-	        if WoWPro.Guides[GID].endlevel and gql > tonumber(WoWPro.Guides[GID].endlevel) then
-	              WoWPro:Warning("Guide %s QID %s is level %s!??",GID,WoWPro.QID[i],gql)
-	        end
-	        WoWPro.Guides[GID].amax_level = max(WoWPro.Guides[GID].amax_level,gql)
-	        WoWPro.Guides[GID].amin_level = min(WoWPro.Guides[GID].amin_level,gql)
-	        WoWPro.Guides[GID].asum_level = WoWPro.Guides[GID].asum_level + gql
-	        WoWPro.Guides[GID].acnt_level = WoWPro.Guides[GID].acnt_level + 1
-	    end
+        if WoWPro.Guides[GID].startlevel and (GQL+2) < WoWPro.Guides[GID].startlevel then
+              WoWPro:Warning("Guide %s QID %s is level %d, but startlevel=%d!",GID,WoWPro.QID[i],GQL, WoWPro.Guides[GID].startlevel)
+        end
+        if WoWPro.Guides[GID].endlevel and GQL > WoWPro.Guides[GID].endlevel then
+              WoWPro:Warning("Guide %s QID %s is level %d, but endlevel=%d",GID,WoWPro.QID[i],GQL, WoWPro.Guides[GID].endlevel)
+        end
+        WoWPro.Guides[GID].amax_level = max(WoWPro.Guides[GID].amax_level,GQL)
+        WoWPro.Guides[GID].amin_level = min(WoWPro.Guides[GID].amin_level,GQL)
+        WoWPro.Guides[GID].asum_level = WoWPro.Guides[GID].asum_level + GQL
+        WoWPro.Guides[GID].acnt_level = WoWPro.Guides[GID].acnt_level + 1
 	end
 
 	WoWPro.why[i] = "I dunno."
@@ -385,6 +384,27 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	   WoWPro[WoWPro.Guides[WoWProDB.char.currentguide].guidetype].ParseQuestLine then
 	    WoWPro[WoWPro.Guides[WoWProDB.char.currentguide].guidetype]:ParseQuestLine(text,i)
 	end
+end
+
+function WoWPro.RecordQID(QIDs)
+    if not QIDs then return end
+
+    local GID = WoWProDB.char.currentguide
+    local guideType = WoWPro.Guides[GID].guidetype
+    local guideClass = WoWPro[guideType]
+    local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
+
+    if not recordQIDs then return end
+    
+	local numQIDs = select("#", string.split(";", QIDs))
+
+	for j=1,numQIDs do
+		local qid = select(numQIDs-j+1, string.split(";", QIDs))
+		local QID = tonumber(qid)
+		if QID then
+			WoWProDB.global.QID2Guide[QID] = GID
+		end
+    end
 end
 
 -- Quest parsing function --
@@ -441,6 +461,7 @@ function WoWPro:ParseSteps(steps)
 			   (gender == nil or gender == UnitSex("player")) and
 			   (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
 				WoWPro.ParseQuestLine(faction, zone, i, text)
+				WoWPro.RecordQID(WoWPro.QID[i])
 				i = i + 1
 			end
 		end
@@ -472,8 +493,16 @@ end
 
 function WoWPro.LoadGuideStepsReal()
 	local GID = WoWProDB.char.currentguide
-    WoWPro:dbp("LoadGuideSteps(%s)",GID);
+    local AutoSwitch = WoWPro.Guides[GID].AutoSwitch
+
+    WoWPro:dbp("LoadGuideSteps(%s) AutoSwitch=%s",GID,tostring(AutoSwitch));
     
+	--Re-initiallizing tags and counts--
+	for i,tag in pairs(WoWPro.Tags) do 
+		WoWPro[tag] = {}
+	end
+	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
+	
 	-- Parsing quests --
 	local sequencef = WoWPro.Guides[GID].sequence
 	local sequence = sequencef()
@@ -493,6 +522,15 @@ function WoWPro.LoadGuideStepsReal()
 	else
 	    WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
 	end
+	
+	-- May need to go the the next guide to register	
+	if WoWPro.Guides2Register then
+	    WoWProDB.global.Guide2QIDs[GID] = WoWPro.Version
+	    WoWPro:dbp("Recorded %s, time to load next Guides2Register.", GID)
+        WoWPro:SendMessage("WoWPro_LoadGuide")
+        return
+    end
+    
 	WoWPro:PushCurrentGuide(GID)
 	WoWPro:GuideSetup()
 end
@@ -516,36 +554,20 @@ function WoWPro:GuideSetup()
     WoWPro:SendMessage("WoWPro_GuideSetup")
 end
 
-function WoWPro.RecordQID(QIDs)
-    if not QIDs then return end
-
-    local GID = WoWProDB.char.currentguide
-    local guideType = WoWPro.Guides[GID].guidetype
-    local guideClass = WoWPro[guideType]
-    local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
-
-    if not recordQIDs then return end
-    
-	local numQIDs = select("#", string.split(";", QIDs))
-
-	for j=1,numQIDs do
-		local qid = select(numQIDs-j+1, string.split(";", QIDs))
-		local QID = tonumber(qid)
-		if QID then
-			WoWProDB.global.QID2Guide[QID] = WoWProDB.char.currentguide
-		end
-    end
-end
 
 function WoWPro.SetupGuideReal()
     local GID = WoWProDB.char.currentguide
     local guideType = WoWPro.Guides[GID].guidetype
     local guideClass = WoWPro[guideType]
-    local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
     
-    WoWPro:dbp("SetupGuideReal(%s): Type: %s, recordQIDs:",GID,guideType,tostring(recordQIDs))
+    WoWPro:dbp("SetupGuideReal(%s): Type: %s",GID,guideType)
     
 	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
+	
+	-- Do we need to do AutoProximitySort'
+	if WoWPro.Guides[GID].AutoProximitySort then
+	    WoWPro.OrderSteps(false)    
+	end
 	
 	-- Checking to see if any steps are already complete --
 	for i=1, WoWPro.stepcount do
@@ -923,8 +945,7 @@ end
 function WoWPro:RowLeftClick(i)
     local QID = tonumber(WoWPro.QID[WoWPro.rows[i].index])
 	if  QID and WoWPro.QuestLog[QID] then
-	    ShowUIPanel(QuestLogFrame)
-		QuestLog_OpenToQuest(WoWPro.QuestLog[QID].index)
+	    QuestMapFrame_OpenToQuestDetails(QID)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
 end

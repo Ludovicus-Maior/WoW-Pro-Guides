@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2015-05-03 03:51
+-- Who: Emmaleah
+-- Log: fixed missing HRT between l Sha'tari crystals and l curious death web egg
+
+-- URL: http://wow-pro.com/node/3598/revisions/27181/view
+-- Date: 2015-03-22 00:31
+-- Who: Emmaleah
+-- Log: Finally finished checking all my talador changes. Hopefully its also mistake free. Main change of note is the correct hearthstone is used to go to Vol'jin's Pride, 
+
+-- URL: http://wow-pro.com/node/3598/revisions/27180/view
+-- Date: 2015-03-16 10:27
+-- Who: Emmaleah
+-- Log: fix K Xanatos so it autocompletes
+
+-- URL: http://wow-pro.com/node/3598/revisions/27179/view
+-- Date: 2015-03-16 09:14
+-- Who: Emmaleah
+-- Log: remove dup QID tag in K Kil'uun
+
+-- URL: http://wow-pro.com/node/3598/revisions/27178/view
 -- Date: 2015-03-10 19:54
 -- Who: Emmaleah
 -- Log: All items added. I haven't finished the play through, to make sure they flow right, so I may have more changes tomorrow.
@@ -144,7 +164,7 @@ A Logistical Nightmare|QID|34766|M|71.19,29.42|N|From Provisioner Naya.|RANK|2|
 A Wanted: Kil'uun|QID|34108|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
 A Wanted: Hilaani|QID|34107|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
 A Wanted: Ra'tok the Hammer|QID|34106|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
-K Kil'uun|QID|34108|QID|34108|M|67.18,28.74|L|112380|S|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
+K Kil'uun|QID|34108|M|67.18,28.74|L|112380|S|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
 C Logistical Nightmare|QID|34766|M|68.06,31.38|RANK|2|
 K Kil'uun|QID|34108|M|67.18,28.74|L|112380|US|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
 
@@ -415,7 +435,8 @@ C Antivenin|QID|33971|S|M|58.05,83.34|N|These drop from the spiders in Deathweb 
 K Taladorantula|QID|34171|M|59,87.4|L|116126|T|Taladorantula|ITEM|116126|N|Killing the little white spiderlings (AE or stomping on them) will cause a giant spider to spawn. You will see 5 "warning" texts and then she spawns.|RANK|2|
 l Webbed Sac|QID|34255|M|65.5,88.6|L|116129|N|After you get into the big room of the cave, you will see a ramp on your right, up that is a rare named and some treasure.|ITEM|116129|RANK|2|
 K Klikixx|QID|34498|L|116125|M|66.8,85.4|T|Klikixx|N|A bit further along the ledge you will find Klikixx. After you kill her, you can jump down and finish the other objectives in the cave.|ITEM|116125|RANK|2|
-K Xanatos|QID|33970|L|110683|M|65.77,86.88|N|The Sha'tari crytstal is right behind Xanatos.|RANK|2|T|Xanatos the Defiler|
+K Xanatos|QID|33970|QO|1|M|65.77,86.88|T|Xanatos the Defiler|
+l Sha'tari crystal|QID|33970|QO|2|M|65.77,86.88|N|The Sha'tari crytstal is right behind Xanatos.|RANK|2|
 l Curious Death Web Egg|QID|34239|M|66.6,86.9|N|Loot for a bit of treasure|ITEM|117569|RANK|2|
 l Rusted Lockbox|QID|34276|M|66,85.1|N|Its down at the bottom of the pond, its a long way down but you have time and won't drown.  Contains a random green item and garrison resources.|RANK|2|
 C Antivenin|QID|33971|US|M|58.05,83.34|RANK|2|
@@ -439,7 +460,7 @@ C Invasion of the Soul Eaters|QID|33988|QO|1|M|49.30,87.86|NC|N|Pick up a torch 
 C Never Forget|QID|34013|NC|QO|1|M|49.25,87.85|N|Pick up the book lying open on the bundles.|RANK|2|
 C Invasion of the Soul Eaters|QID|33988|QO|2|M|48.46,88.66|S|U|108886|RANK|2|
 C Never Forget|QID|34013|NC|QO|2|M|49.35,90.80|RANK|2|
-l Relic of Telmor|QID|116128|L|116128|M|47,91.7|ITEM|116128|N|Pick up for a bit of vendor loot.|RANK|2|
+l Relic of Telmor|QID|34256|L|116128|M|47,91.7|ITEM|116128|N|Pick up for a bit of vendor loot.|RANK|2|
 C Never Forget|QID|34013|NC|QO|3|M|47.52,88.93|RANK|2|
 K Lo'marg Jawcrusher|QID|34208|M|49.2,92.3|L|116070|T|Lo'marg Jawcrusher|ITEM|116070|N|Take the elevator up and rescue the students and earn a bit of treasure in the process.|RANK|2|
 C Invasion of the Soul Eaters|QID|33988|QO|2|M|48.46,88.66|US|U|108886|RANK|2|
@@ -454,9 +475,9 @@ T Payback|QID|34234|M|50.40,87.33|N|To Vindicator Kaluud.|RANK|2|
 T Never Forget|QID|34013|M|50.52,87.56|N|To Defender Artaal.|RANK|2|
 
 R Aarko's Estate|QID|34182|M|43.24,89.09;37.38,95.85|CS|RANK|3|
-l Aarko's Family Treasure|QID|34182|M|36.5,96.1|L|117567|ITEM|117567|N|Talk to XXX to start the event.  Defeat waves of mobs ending with XXX.  At the conclusion you can have thier family treasure.|
+l Aarko's Family Treasure|QID|34182|M|36.5,96.1|L|117567|ITEM|117567|N|Talk to Aarko to start the event.  Defeat waves of mobs ending with Surok Darkstorm.  At the conclusion you can have thier family treasure.|
 l Farmer's Bounty|QID|34249|M|35.5,96.8|ITEM|$824|N|Loot for some garrison resources.|RANK|3|
-l Yuuri's Gift|QID|34140|ITEM|$824|M|40.7,89.5|PRE|33530|N|Yuuri is so greatful you rescued her she has some garrison resources for you.|RANK|3|
+l Yuuri's Gift|QID|34140|ITEM|$824|M|40.7,89.5|PRE|33530|N|Yuuri is so greatful you rescued him,he wants to share some garrison resources for you (located in the wagon, not behind him as he says).|RANK|3|
 
 f Retribution Point|QID|34122|M|42.12,76.78|N|At Beldos.|RANK|2|
 R Retribution Point|QID|34326|M|43.44,75.92|RANK|2|
@@ -464,10 +485,10 @@ T Changing the Tide|QID|34326|M|43.44,75.92|N|To Restalaan.|RANK|2|
 A Desperate Measures|QID|34092|M|43.43,75.94|N|From Restalaan.|RANK|2|
 A Ogre Diplomacy|QID|34122|M|42.97,76.23|N|From Lady Liadrin.|RANK|2|
 R Ango'rosh Ruins|QID|34122|M|41.26,79.83|RANK|2|
-l Treasure of Ango'rosh|QID|34257|M|38.33,84.51|ITEM|116119|RANK|2|
 C Ogre Diplomacy|QID|34122|M|39.61,83.68|S|RANK|2|
-K Dur'gol the Ruthless|QID|34092|QO|2|M|42.67,84.92|T|Dur'gol the Ruthless|N|Kill Dur'gol and loot his book.|RANK|2|
+l Treasure of Ango'rosh|QID|34257|M|38.33,84.51|ITEM|116119|RANK|2|
 C Mok'war the Terrible|QID|34092|QO|1|M|39.5,83.62|T|Mok'war the Terrible|N|Kill Mok'war and loot his book.|RANK|2|
+K Dur'gol the Ruthless|QID|34092|QO|2|M|42.67,84.92|T|Dur'gol the Ruthless|N|Kill Dur'gol and loot his book.|RANK|2|
 C Desperate Measures|QID|34092|NC|QO|3|M|41.18,82.45|N|This is channeled, so stand still!|RANK|2|
 C Ogre Diplomacy|QID|34122|M|39.61,83.68|US|RANK|2|
 T Desperate Measures|QID|34092|M|43.43,75.94|N|To Restalaan.|RANK|2|
@@ -477,7 +498,6 @@ A Into the Heart of Madness|QID|34157|M|42.93,76.09|N|From Exarch Maladaar.|RANK
 
 l Teroclaw Nest|QID|35162|M|39,77|N|These nests are all over the zone, if you haven't yet come across one, here is one right in line with our route.|ITEM|112699|L|112699|RANK|2|
 R Gul'rok|QID|34144|M|34.48,78.57|N|No road takes you here, just ride across the countryside.|RANK|2|
-K Cro Fleshrender|QID|34165|M|37.6,70.4|L|116123|T|Cro Fleshrender|ITEM|116123|N|Kill and loot for a bit of treasure.|
 C Retribution for the Light|QID|34144|M|35,79|S|N|Kill these as you accomplish the other objectives (as if you had a choice).|RANK|2|
 A Hiding in the Shadows|QID|34163|N|From Shadow Council Communicator. (The communicators are at several locations in Gul'rok.  Head for the nearest yellow '!')|RANK|2|
 C Hiding in the Shadows|QID|34163|M|37.78,77.34|QO|1|NC|N|The orb is at the top of the watchtower.|RANK|2|
@@ -500,14 +520,15 @@ T Destination: Unknown|QID|34564|M|46.32,74.09|N|To Soulbinder Tuulani.|RANK|2|
 A Together We are Strong|QID|36512|M|46.32,74.47|N|From Soulbinder Tuulani.|RANK|2|
 A Come Together|QID|34706|M|45.71,74.45|N|From Lady Liadrin.|RANK|2|
 
-R Northwest towards Nagrand|QID|34710|M|42.79,74.79;42.28,67.81;39.30,67.20|CC|RANK|3|N|Follow the road towards Nagrand until you come across Caleb.|
-A Just Peachicky|QID|33882|M|36.20,65.03|RANK|3|N|From Caleb.|
+R Northwest towards Nagrand|QID|34710|M|42.79,74.79;42.28,67.81|CC|RANK|3|N|Follow the road towards Nagrand.|
+K Cro Fleshrender|QID|34165|M|37.6,70.4|L|116123|T|Cro Fleshrender|ITEM|116123|N|Kill and loot for a bit of treasure.|RANK|3|
+A Just Peachicky|QID|33882|M|36.20,65.03|RANK|3|N|From Caleb.(he is a little farther down the road towards Nagrand.)|
 A Sher'KHAAAAAAANNNN!|QID|33884|M|36.20,65.03|RANK|3|N|From Caleb.|
 C Just Peachicky|QID|33882|S|NC|M|31.68,62.61|RANK|3|N|Click on these friendly little guys to rescue them.|
 C Sher'KHAAAAAAANNNN!|QID|33884|QO|1|M|31.14,71.12|RANK|3|S|
 K Glimmerwing|QID|34189|L|116113|M|32,65.2|T|Glimmerwing|ITEM|116113|N|Kill and loot for a bit of treasure.|RANK|3|
 R The Sunset Shore|QID|36919|M|28.84,65.69;25.54,69.49|CS|N|Probably not worth the run unless you want the ring.|ITEM|118686|RANK|3|
-K Grrberrgle|QID|36919|M|22.25,74.41|T|Grrberrgle|N|At last check, he drops no loot, but he is awfully cute. Grrberrgle is on an island and spawns when you open a 'restless crate'.|RANK|3|
+K Grrberrgle|QID|36919|M|22.25,74.41|T|Grrberrgle|N|He drops a weapon that varies by class. Grrberrgle is on an island and spawns when you open a 'restless crate'.|RANK|3|
 l Gift of the Ancients|QID|36829|M|27.8,75.6|L|118686|ITEM|118686|N|From the shore is a path marked by a rowboat at water's edge. Up from that is a little cave with a puzzle left by the ancients.  Turn all the statues to face the center and treasure should appear. if that doesn't work, make them all face outward, if that doesn't work, try some other direction.|RANK|3|
 K Sher'khaan|QID|33884|QO|2|M|31.14,71.12|RANK|3|T|Sher'khaan|N|Run back up the hill and find Sher'khaan's cave.|
 A And the Elekk Too?!|QID|33944|M|32.28,65.64|RANK|3|
@@ -518,7 +539,7 @@ T Sher'KHAAAAAAANNNN!|QID|33884|M|36.19,65.06|RANK|3|N|To Caleb.|
 T And the Elekk Too?!|QID|33944|M|36.19,65.06|RANK|3|N|To Caleb.|
 
 K Echo of Murmer|QID|34221|M|34,57.2|L|113670|T|Echo of Murmur|ITEM|113670|N|Kill and Loot for a bit of treasure.|RANK|3|
-K Shirzir|QID|34671|M|67.5,23.13|Z|Court of Souls|L|112370|T|Shirzir|ITEM|112370|N|He is in the middle hallway, in an underground building in the Court of Souls. Kill and loot for a bit of treasure.|ACTIVE|34667|RANK|3|
+K Shirzir|QID|34671|M|67.5,23.13|Z|Court of Souls|L|112370|T|Shirzir|ITEM|112370|N|He is in the middle hallway, in an underground building in the Court of Souls. You may as well do the bonus objective while you are down there.  Save the ballista/shooting the bats for last so this step will be visable. Kill and loot for a bit of treasure. Do the |ACTIVE|34667|RANK|3|
 l Soulbinder's Reliquary|M|28.27,35.03|Z|Court of Souls|L|117570|ITEM|117570|N|The chest is at the end of the hall to your right as you leave the hall Shirzir was in.|ACTIVE|34667|RANK|3|
 K Frenzied Golem|QID|34145|L|113287|M|46.6,55.6|T|Frenzied Golem|ITEM|113287|N|Kill and loot for a bit of treasure, there are actually 2 versions of the trinket he drops.|RANK|3|
 
@@ -545,12 +566,12 @@ T Kaelynara Sunchaser|QID|34447|M|51.62,50.45|N|To Vindicator Doruu.|RANK|2|
 C Frenzied Manafeeders|QID|34400|U|110468|US|M|50.20,52.06|N|Fight the moths down to 35% (you will see an emote) then use the Dissapation Crystal(it has a very short range, so stand close).|RANK|2|
 T Frenzied Manafeeders|QID|34400|M|49.89,56.14|N|To Ageilaa.|RANK|2|
 
-H Vol'jin's Pride|QID|34706|M|49.89,56.14|N|Hearth and turn in the final quest and then you are done with Talador.|RANK|2|U|110560|
+H Vol'jin's Pride|QID|34706|M|49.89,56.14|N|Hearth and turn in the final quest and then you are done with Talador.|RANK|2|
 T Come Together|QID|34706|M|71.84,29.75|N|To Knight-Lord Dranarus.|RANK|2|
 A News from Spires of Arak|LVL|96|QID|35537|M|71.25,29.94|N|From Shadow Hunter Kajassa.|
 H Town Hall|QID|35537|M|71.84,29.75|N|Back to your garrison, where the Spires of Arak guide will start.|U|110560|
 T News from Spires of Arak|QID|35537|M|45.93,42.86|Z|Frostwall|N|To Rokhan.|
-A Arakkoa Exodus|QID|34653|M|45.93,42.86|Z|Frostwall|N|From Rokhan.|
+A Arakkoa Exodus|QID|34653|M|45.93,42.86|Z|Frostwall|N|From Rokhan.|LEAD|36951|
 A Solidarity in Death|QID|36522|M|50.40,15.80|Z|Frostwall|PRE|33973|N|To/From Ahm to accept him as your follower.|
 A Clearing the Garden|QID|34193|M|43.61,83.10|Z|Frostwall|N|From Tarnon.|
 C Clearing the Garden|QID|34193|M|48.11,89.25|Z|Frostwall|

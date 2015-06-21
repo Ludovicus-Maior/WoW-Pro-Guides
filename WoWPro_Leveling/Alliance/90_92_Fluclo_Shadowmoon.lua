@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2015-06-16 12:14
+-- Who: Fluclo
+-- Log: Fixed Pippers Burried Supplies so that you get all four of them, and for all to auto-complete; Removed phased rare note as this bug has been fixed; moved Ashran Appearance to when it first becomes available; Added Lunarfall Egg, False-Bottomed Jar and Astrologer's Box treasures.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27270/view
+-- Date: 2015-05-29 00:20
+-- Who: Ludovicus
+-- Log: Add LEAD to [The Southern Wilds]
+
+-- URL: http://wow-pro.com/node/3604/revisions/27188/view
+-- Date: 2015-03-29 22:59
+-- Who: Ludovicus
+-- Log: QID correction for chest.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27153/view
 -- Date: 2015-03-04 22:55
 -- Who: Ludovicus
 -- Log: Play through tweaks.
@@ -224,6 +239,8 @@ T For the Alliance! |QID|34583|N|To Baros Alexston|M|29.0,16.2|
 A Looking for Lumber |QID|34584|N|From Baros Alexston|M|29.0,16.2|PRE|34583|
 A Ravenous Ravens |QID|34616|N|From Baros Alexston|M|29.0,16.2|PRE|34583|
 C Ravenous Ravens |QID|34616|N|Kill the Lunarfall Ravens|S|M|29.1,17.8|
+l Lunarfall Egg |QID|35530|N|Lunarfall Egg: Lootable object for 25 Garrison Resources. Can be found inside the nest/wagon.|RANK|3|
+
 C Looking for Lumber |QID|34584|N|Click on the flag shadows to mark the trees.|NC|M|28.61,17.20;29.09,17.80;28.94,19.78;29.30,19.21;29.88,18.84;30.55,21.03;30.89,19.23;31.67,18.14;31.16,17.04;32.22,16.43;30.27,17.02|CN|
 C Ravenous Ravens |QID|34616|N|Finish killing the Lunarfall Ravens|US|M|29.1,17.8|
 T Looking for Lumber |QID|34584|N|From Baros Alexston|M|29.0,16.2|
@@ -236,15 +253,18 @@ T Quakefist |QID|34585|N|To Yrel|M|28.9,16.4|
 A Establish Your Garrison|QID|34586|N|From Baros Alexston|M|29.0,16.2|PRE|34585|
 C Establish Your Garrison|QID|34586|N|Speak to Baros Alexston and tell him you have everything, and build the garrison.|CHAT|M|29.0,16.2|
 f Lunarfall |QID|34586|N|With Dungar Longdrink.  If your Arrow disappeared, a /reload or a quick look at the map will fix things.|PRE|34585|M|47.8,49.8|Z|Lunarfall|
+l Pippers' Buried Supplies|QID|35382|N|Pippers' Burried Supplies: Lootable object for Garrison Resources. Behind Blacksmith Rachelle Black's stall next to the Gryphon master.|M|50.63,48.46|RANK|3|Z|Lunarfall|
 T Establish Your Garrison|QID|34586|N|To Baros Alexston|M|41.4,49.2|Z|Lunarfall|
 
 A Keeping it Together |QID|35176|N|From Baros Alexston|PRE|34586|M|41.4,49.2|Z|Lunarfall|
 A Ship Salvage|QID|35166|N|From Baros Alexston|PRE|34586|M|41.4,49.2|Z|Lunarfall|
+l Pippers' Buried Supplies |QID|35381|N|Pippers' Buried Supplies: Lootable object for Garrison Resources. To the left of the tent.|M|42.44,54.38|Z|Lunarfall|RANK|3|
 A Pale Moonlight |QID|35174|N|From Vindicator Maraad|PRE|34586|M|44.10,53.35|Z|Lunarfall|
 
 C Keeping it Together |QID|35176|N|Speak to Assistant Brightstone and tell her it's time to get back to work.|QO|1|CHAT|M|45.0,53.6|Z|Lunarfall|
 C Keeping it Together |QID|35176|N|Open the Garrison Cache.|QO|3|NC|M|49.3,43.4|Z|Lunarfall|
 C Keeping it Together |QID|35176|N|Head to Shelly Harnby (outside the garrison) and gather her report.|QO|2|CHAT|M|32.6,34.4|Z|Lunarfall|
+l Pippers' Buried Supplies |QID|35383|N|Pippers' Buried Supplies: Lootable object for Garrison Resources. In front of the large stone near Shelly Harnby|M|30.99,27.83|Z|Lunarfall|RANK|3|
 
 C Pale Moonlight |QID|35174|N|Kill and loot the Pale Devourers|S|QO|2|
 C Ship Salvage|QID|35166|N|Loot the Drudgeboat Salvage from the floor, or kill and loot the Pale Devourers and Shadowmoon Darters.|S|NC|
@@ -252,7 +272,7 @@ C Pale Moonlight |QID|35174|N|Head down to Eventide Landing and kill Gnaw Bloods
 
 l Fantastic Fish |QID|34174|N|Fantastic Fish: Lootable object for Garrison Resources and 10k XP|M|26.50,5.68|RANK|3|
 l Sunken Treasure |QID|35279|N|Sunken Treasure: Lootable object for Garrison Resources and 10k XP, located in the water under the ship.|M|28.83,7.18|RANK|3|
-K Bahameye |QID|35281|N|*Rare Kill*\nDrops Garrison Resources. This is a phased rare.  If you dont kill it now, you never will.|
+K Bahameye |QID|35281|N|*Rare Kill*\nDrops Garrison Resources.|
 l Stolen Treasure |QID|35280|N|Stolen Treasure: Lootable object for Garrison Resources and 10k XP, located in Paletide Den.|M|27.04,2.49|RANK|3|
 
 C Ship Salvage|QID|35166|N|Finish looting the Drudgeboat Salvage from the floor, or kill and loot the Pale Devourers and Shadowmoon Darters.|US|NC|M|26.5,6.5|
@@ -267,8 +287,7 @@ C Build Your Barracks |QID|34587|N|Loot the Barracks Blueprints from the floor o
 C Build Your Barracks |QID|34587|N|Click on the Barracks Blueprints to learn it.|QO|2|U|111956|NC|
 C Build Your Barracks |QID|34587|N|Click on the Architect Table, then drag the Barracks icon to the Large Empty Plot.|QO|3|NC|M|41.12,48.93|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Go back to the Barracks construction site, and click on the scroll to Finalize Garrison Plot|QO|4|NC|M|44.6,43.5|Z|Lunarfall|
-; Never completes!
-l Pippers' Buried Supplies|QID|35384|N|Pippers' Burried Supplies: Lootable object for Garrison Resources at four locations around the garrison. Follow Pippers the dog until it stops, and click on the mound (if you already have it, there will just be bones.|RANK|3|Z|Lunarfall|T|Pippers|
+l Pippers' Buried Supplies|QID|35384|N|Pippers' Burried Supplies: Lootable object for Garrison Resources. Behind the two trees near the tent after you've rezoned ouside the garrison when completing the barracks.|M|49.13,76.86|RANK|3|Z|Lunarfall|
 T Build Your Barracks |QID|34587|N|To Vindicator Maraad.|M|44.10,53.35|Z|Lunarfall|
 
 A Qiana Moonshadow |QID|34646|N|From Vindicator Maraad.|PRE|34587|M|44.10,53.35|Z|Lunarfall|
@@ -279,14 +298,35 @@ A Delegating on Draenor |QID|34692|N|From Lieutenant Thorn|PRE|34646|M|40.3,53.6
 C Delegating on Draenor |QID|34692|N|Click on the Command Table, then send Qiana Moonshadow on the mission.|NC|M|40.4,53.6|Z|Lunarfall|
 T Delegating on Draenor |QID|34692|N|To Lieutenant Thorn|M|40.3,53.6|Z|Lunarfall|
 
+;Stormshield and Delvar Ironfist follower
+A Ashran Appearance |QID|36624|N|From Lieutenant Thorn.\n\nThis will involve four quests that take you to Stormshield in Ashran and will gain you a follower. Skip this quest if you want to stay in Shadowmoon Valley.|M|31.27,32.72|Z|Lunarfall|RANK|2|
+C Ashran Appearance |QID|36624|N|Speak with Dungar Longdrink and ask him to fly you to Ashran,|CHAT|M|48.15,49.87|Z|Lunarfall|
+F Stormshield|QID|36624|N|Ask Dungar to take you to Stormshield in Ashran.|M|48.15,49.87|Z|Lunarfall|
+T Ashran Appearance |QID|36624|N|To Private Tristan|M|37.55,91.19|Z|Ashran|
+
+A Host Howell |QID|36626|N|From Private Tristan|M|37.55,91.19|Z|Ashran|PRE|36624|
+T Host Howell |QID|36626|N|To Lieutenant Howell|M|38.30,96.88|Z|Ashran|
+
+A Inspiring Ashran |QID|36629|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|36626|
+C Inspiring Ashran |QID|36629|N|Speak with Jaesia Rosecheek, the Innkeeper.|M|38.35,97.31|Z|Ashran|QO|1|CHAT|
+C Inspiring Ashran |QID|36629|N|Speak with Knewbie McGreen|M|44.29,89.37|Z|Ashran|QO|2|CHAT|
+C Inspiring Ashran |QID|36629|N|Speak with Vindicator Nuurem, inside the Town Hall|M|40.74,97.09|Z|Ashran|QO|3|CHAT|
+T Inspiring Ashran |QID|36629|N|To Lieutenant Howell|M|38.30,96.88|Z|Ashran|
+
+A A Surly Dwarf |QID|36630|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|36629|
+T A Surly Dwarf |QID|36630|N|To Delvar Ironfist, inside Stormshield Barracks|M|41.05,86.93|Z|Ashran|
+A Delvar Ironfist |QID|36633|N|From Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
+T Delvar Ironfist |QID|36633|N|To Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
+F Lunarfall|QID|33075|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|PRE|36630|
+
 A Migrant Workers |QID|34778|N|From Vindicator Maraad|PRE|34692|M|44.10,53.35|Z|Lunarfall|
 C Migrant Workers |QID|34778|N|Speak with Zipfizzle and tell him to Move Out.|CHAT|M|44.2,51.0|Z|Lunarfall|
 
 A A Hero's Welcome |QID|33075|N|From Yrel|PRE|34692|M|47.2,50.9|Z|Lunarfall|
 
-A Wanted: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|3|
-C Wanted: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|RANK|3|
-T Wanted: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|RANK|3|M|45.5,37.7|
+A Wanted: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|2|
+C Wanted: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|
+T Wanted: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|M|45.5,37.7|
 
 f Embaari Village |QID|33075|N|With Eonor|M|45.68,38.86|
 C A Hero's Welcome |QID|33075|N|Find Samaara at Embaari Village|M|46.04,38.92|NC|
@@ -310,6 +350,9 @@ T In Need of a Hero |QID|33813|N|To Ariaana|M|52.03,32.66|
 
 C Think of the Children! |QID|33070|N|Complete the quest In Need of a Hero to save Ariaana|QO|3|NC|
 C Think of the Children! |QID|33070|N|Save Rastaak from inside the burning hut in Arbor Glen|QO|2|CHAT|M|51.94,35.99|
+
+l False-Bottomed Jar|QID|33037|N|False-Bottomed Jar: Lootable object for gold.Outside the hut |M|51.75,35.50|RANK|3|
+
 C Closing the Door |QID|33905|N|Finish closing the void portals by killing the Shadowmoon Portalmasters around a void portals.|M|52.5,36.5|US|
 C Dark Enemies |QID|33765|N|Finish killing the Shadowmoon Voidmancers as you head back to Teluuna Observatory|US|M|51.3,38.9|
 
@@ -336,7 +379,9 @@ T Shadows Awaken |QID|34019|N|To Prophet Velen|CN|M|49.30,37.41;49.42,36.81|
 A Into Twilight |QID|33072|N|From Prophet Velen|CN|M|49.30,37.41;49.42,36.81|PRE|34019|
 
 ;The following quest has been seen at 49.1,38.6 and 49.08,37.25 - not yet found out why it varies (yet!)
-A The Southern Wilds |QID|35444|N|From Farmer Gehaar|CN|M|49.05,38.63;49.1,38.6|PRE|34019|
+A The Southern Wilds |QID|35444|N|From Farmer Gehaar|CN|M|49.05,38.63;49.1,38.6|PRE|34019|LEAD|33786|
+
+l Astrologer's Box|QID|33867|N|Astrologer's Box: Star Chart Toy. You will first need to leave Teluuna Observatory (until it shows another zone), then go back to the Observatory so that the fires disappear, then go up the ramp to the top floor. |M|48.50,40.34;49.83,37.01;49.41,37.55|CC|RANK|3|
 
 ; The next 7 blocks of quests are dependant upon which profession item(s) you have looted from Karnoth.
 H Lunarfall |QID|36308;33814;36236|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|36308;35342;36236|
@@ -621,7 +666,7 @@ C Escape From Shaz'gul |QID|33081|N|Escort Yrel out of Shaz'gul, a number of mob
 
 T Escape From Shaz'gul |QID|33081|N|To Yrel, now in Twilight Glade.|M|40.60,54.94|
 A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33081+33059|
-A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez.|PRE|33081|
+A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez. If he is not here, he might be in your garrison.|PRE|33081|
 
 F Embaari Village |QID|33586|M|40.7,55.3|N|Fly to Embaari Village, or use your hearthstone if it has cooled down.|
 f Exile's Rise|QID|33586|M|45.57,25.40|N|At Wargra.|
@@ -643,7 +688,7 @@ R Mount Kra'gor |QID|35553|N|Head east outside of the cave, then head up the hil
 K Rai'vosh |QID|35553|N|Kill Rai'vosh for a Rare piece to slow falling and some Garrison Resources. When you first reach him, you need to allow the dialog between Turog and Rai'vosh to play out before he is attackable.|M|48.81,22.64|RANK|3|
 
 C Lunarblossom|QID|34836|N|Loot the Lunarblossom from the ground of Deadwalker Pass, the entrance to the Pass is to the east of Exile's Rise.|NC|S|M|51.1,19.2|
-l Mushroom-Covered Chest |QID|33869|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
+l Mushroom-Covered Chest |QID|37254|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
 
 R Deadwalker Pass |QID|34847|N|Head east to Deadwalker Pass|M|50.93,25.20|ACTIVE|34847|
 C Forbidden Love|QID|34847|N|Head up to Dol'mak's Hideout to find Kral'za. The cave entrance is at the back of Deadwalker Pass - continue along the path north to get there.|QO|1|NC|M|48.1,15.1|
@@ -821,26 +866,6 @@ T Failed Apprentice |QID|36313|N|To Deema|M|37.4,72.6|
 A Oru'kai's Staff |QID|36315|N|From Deema|M|37.4,72.6|PRE|36313|
 C Oru'kai's Staff |QID|36315|N|Obtain Oru'kai's Staff from the water.|
 T Oru'kai's Staff |QID|36315|N|To Arcanist Delath|M|37.4,72.6|
-
-A Ashran Appearance |QID|36624|N|From Lieutenant Thorn|M|31.27,32.72|Z|Lunarfall|
-C Ashran Appearance |QID|36624|N|Speak with Dungar Longdrink and ask him to fly you to Ashran,|CHAT|M|48.15,49.87|Z|Lunarfall|
-F Stormshield|QID|36624|N|Ask Dungar to take you to Stormshield in Ashran.|M|48.15,49.87|Z|Lunarfall|
-T Ashran Appearance |QID|36624|N|To Private Tristan|M|37.55,91.19|Z|Ashran|
-
-A Host Howell |QID|36626|N|From Private Tristan|M|37.55,91.19|Z|Ashran|PRE|36624|
-T Host Howell |QID|36626|N|To Lieutenant Howell|M|38.30,96.88|Z|Ashran|
-
-A Inspiring Ashran |QID|36629|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|36626|
-C Inspiring Ashran |QID|36629|N|Speak with Jaesia Rosecheek|M|38.35,97.31|Z|Ashran|QO|1|CHAT|
-C Inspiring Ashran |QID|36629|N|Speak with Knewbie McGreen|M|44.29,89.37|Z|Ashran|QO|2|CHAT|
-C Inspiring Ashran |QID|36629|N|Speak with Vindicator Nuurem|M|40.74,97.09|Z|Ashran|QO|3|CHAT|
-T Inspiring Ashran |QID|36629|N|To Lieutenant Howell|M|38.30,96.88|Z|Ashran|
-
-A A Surly Dwarf |QID|36630|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|36629|
-T A Surly Dwarf |QID|36630|N|To Delvar Ironfist|M|41.05,86.93|Z|Ashran|
-A Delvar Ironfist |QID|36633|N|From Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
-
-F Lunarfall|QID|34192|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|PRE|36624|
 
 A Things Are Not Goren Our Way |QID|34192|N|From Timothy Leens|M|65.46,41.79|Z|Lunarfall|PRE|36592|
 C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|S|QO|1|

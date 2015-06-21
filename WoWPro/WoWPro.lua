@@ -292,6 +292,7 @@ function WoWPro:OnInitialize()
 	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
 	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
 	WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
+	WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs  or {}
 	WoWProDB.global.RecklessCombat = false
 	if WoWProCharDB.EnableGrail == nil then
 	    WoWProCharDB.EnableGrail = true
@@ -579,7 +580,9 @@ function WoWPro:GuidePetBattle(guide)
     guide['PetBattle'] = true
 end
 
-
+function WoWPro:GuideName(guide, name)
+    guide['name']=name
+end
 
 function WoWPro:GuideNextGuide(guide,nextGID)
     guide['nextGID'] = nextGID
@@ -587,6 +590,11 @@ end
 
 function WoWPro:GuideAutoSwitch(guide)
     guide['AutoSwitch'] = true
+    if not WoWProDB.global.Guide2QIDs[guide.GID] or WoWPro.Version ~= WoWProDB.global.Guide2QIDs[guide.GID]  then
+        WoWPro.Guides2Register = WoWPro.Guides2Register or {}
+        table.insert(WoWPro.Guides2Register, guide.GID)
+        WoWPro:dbp("Add %s to Guides2Register.", guide.GID)
+    end 
 end
 
 function WoWPro:GuideSteps(guide,steps)

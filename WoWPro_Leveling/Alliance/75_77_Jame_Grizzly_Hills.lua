@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2015-04-17 01:48
+-- Who: Ludovicus
+-- Log: Korelock's catches.
+
+-- URL: http://wow-pro.com/node/3293/revisions/27160/view
 -- Date: 2015-03-09 17:23
 -- Who: Ludovicus
 -- Log: Eliminated trailing |N|
@@ -144,9 +149,6 @@ WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-f Amberpine Lodge |QID|12511|M|31.33,59.16|N|Grab the flightpoint at Vana Grey.|
-h Amberpine Lodge |QID|12511|M|31.97,60.22|N|Set your hearth at Amberpine Lodge with Jenniger Bell.|
-
 T The Hills Have Us |QID|12511|N|To Lieutenant Dumont in Amberpine Lodge.|M|31.89,60.15|
 A Local Support |QID|12292|M|31.8,60.2|N|From Lieutenant Dumont.|
 A Replenishing the Storehouse |QID|12212|N|From Master Woodsman Anderhol.|M|32.06,59.98|
@@ -154,6 +156,9 @@ A Them or Us! |QID|12215|N|From Master Woodsman Anderhol.|M|32.02,59.89|
 A Mmm... Amberseeds! |QID|12225|N|From Amberseed.|M|31.80,59.64|
 T Mmm... Amberseeds! |QID|12225|N|To Master Woodsman Anderhol.|M|32.06,59.96|
 A Just Passing Through |QID|12226|M|32.1,60.0|N|From Master Woodsman Anderhol.|
+
+f Amberpine Lodge |QID|12292|M|31.33,59.16|N|Grab the flightpoint at Vana Grey.|
+h Amberpine Lodge |QID|12292Korelock |M|31.97,60.22|N|Set your hearth at Amberpine Lodge with Jennifer Bell.|
 
 C Replenishing the Storehouse |QID|12212|N|North of Amberpine Lodge, kill and loot Tallhorn Stags.|M|33.3,58.0|
 T Replenishing the Storehouse |QID|12212|N|Back to Master Woodsman Anderhol.|M|32.06,59.94|
@@ -318,7 +323,7 @@ r Sell junk and repair |QID|12443|M|31.38,59.87|
 
 C The Thane of Voldrune |QID|12255|N|Get on Flamebringer and kill Thane Torvald Eriksson in Voldrune.|M|26.6,77.8|
 
-N The next few quests put you into PvP so they are optional.|
+N The next few quests put you into PvP so they are optional.|QID|12443|
 A Seeking Solvent |QID|12443|N|From Barblefink.|M|23.0,80.2|
 A Keep Them at Bay! |QID|12316|N|From Lieutenant Stuart.|M|22.1,81.2|
 A Smoke 'Em Out |QID|12323|N|From Sergeant Downey.|M|22.0,80.8|

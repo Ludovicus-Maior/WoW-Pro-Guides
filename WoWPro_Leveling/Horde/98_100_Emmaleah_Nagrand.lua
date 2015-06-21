@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2015-04-11 20:05
+-- Who: Blanckaert
+-- Log: Removed duplicate Rank 2 from line 135 (R The Ring of Trails) and line 270 (K Bolkar the Cruel)
+
+-- URL: http://wow-pro.com/node/3605/revisions/27175/view
 -- Date: 2015-03-09 19:34
 -- Who: Ludovicus
 -- Log: Deduped some tags
@@ -244,7 +249,7 @@ l Abu'gar's Vitality|QID|36711|L|114242|M|65.83,61.51;65.82,61.14|CS|N|Mouseover
 C King of the Breezestriders|QID|35378|M|57.83,69.78|RANK|2|
 C Queen of the Clefthoof|QID|35375|M|71.74,52.26|RANK|2|
 C New Babies|QID|34900|M|60.85,47.24|NC|US|N|The non agro baby clefthoofs are what you are looking for, you will probably have to kill the accompanying adults first.|RANK|2|
-R The Ring of Trials|QID|34900|M|79.22,52.67|RANK|2|RANK|2|
+R The Ring of Trials|QID|34900|M|79.22,52.67|RANK|2|
 T New Babies|QID|34900|M|79.22,52.67|N|To Digrem Orebar.|RANK|2|
 R Wor'var|QID|34918|M|82.84,45.07|RANK|2|
 T Shields Down!|QID|34918|M|82.84,45.07|N|To Thrall.|RANK|2|
@@ -390,7 +395,7 @@ C The Shadow of the Void|QID|35088|M|48.09,58.59|T|Invalidus|N|Click on the crys
 T The Shadow of the Void|QID|35088|M|46.81,57.54|N|To the Shamanstone. (any of the 3 shamanstones work, you dont have to run to the one marked in the guide.)|RANK|2|
 
 R Iron Docks|QID|35596|M|40,76|N|You can pick up a leatherworking follower here and do the bonus objective if you so desire (75gold reward @ 100 ).|RANK|3|
-K Bolkar the Cruel|QID|35596|M|40.42,76.14|L|111863|RANK|3|N|Goldmane the skinner is imprisoned at the top of the tower.  Kill Bolkar (who is beside the cage) to get the key.(if Goldmane is outside of the cage you can just accept him as a follower.)|  RANK|3|
+K Bolkar the Cruel|QID|35596|M|40.42,76.14|L|111863|N|Goldmane the skinner is imprisoned at the top of the tower.  Kill Bolkar (who is beside the cage) to get the key.(if Goldmane is outside of the cage you can just accept him as a follower.)|  RANK|3|
 A Feline Friends Forever|QID|35596|M|40.42,76.14|N|Use the key to open the cage and then Goldmane will offer to follow you.|U|111863|RANK|3|
 
 R Ancestral Grounds|QID|35231|M|40.43,56.80|RANK|2|

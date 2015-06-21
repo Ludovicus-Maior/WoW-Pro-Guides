@@ -3,17 +3,6 @@
 ----------------------------------
 
 -- Map information from 5.0.5 (16057) 9/15
-
-WoWPro.SubZone = {
-	[30] = 864, -- "Elwynn Forest" => "Northshire"
-	[9] = 890, -- "Mulgore" to "Camp Narache"
-	[27] = {866, 895}, -- "Dun Morogue" to Coldridge Valley or New Tinkertown"
-	[462] = 893, -- "Eversong to Sunstrider"
-	[20] = 892, -- "Tirisfal Glades to Deathknell"
-	[464] = 894, -- "Azuremyst Isle to Ammen Vale"
-	[41] = 888, -- "Teldrassil to Shadowglen"
-	[4] = {889,891}, -- "Durotar to Valley of Trials or Echo Isles"
-	}
 	
 WoWPro.Zone2MapID = {}
 WoWPro.MapID2Zone = {}
@@ -443,8 +432,6 @@ DefineInstance( 824,7,"DragonSoul","DragonSoul")
 DefineInstance( 851,0,"DustwallowMarshScenario","DustwallowMarshScenario")
 DefineInstance( 856,0,"TempleofKotmogu","TempleofKotmogu")
 DefineInstance( 860,0,"STVDiamondMineBG","STVDiamondMineBG")
-DefineInstance( 864,0,"Northshire","Northshire")
-DefineInstance( 866,0,"ColdridgeValley","ColdridgeValley")
 DefineInstance( 867,2,"EastTemple","EastTemple")
 DefineInstance( 871,2,"ScarletHalls","ScarletHalls")
 DefineInstance( 874,2,"ScarletCathedral","ScarletCathedral")
@@ -461,14 +448,6 @@ DefineInstance( 884,0,"KunLaiPassScenario","KunLaiPassScenario")
 DefineInstance( 885,3,"MogushanPalace","MogushanPalace")
 DefineInstance( 886,0,"TerraceOfEndlessSpring","TerraceOfEndlessSpring")
 DefineInstance( 887,3,"SiegeofNiuzaoTemple","SiegeofNiuzaoTemple")
-DefineInstance( 888,0,"ShadowglenStart","ShadowglenStart")
-DefineInstance( 889,0,"ValleyofTrialsStart","ValleyofTrialsStart")
-DefineInstance( 890,0,"CampNaracheStart","CampNaracheStart")
-DefineInstance( 891,0,"EchoIslesStart","EchoIslesStart")
-DefineInstance( 892,0,"DeathknellStart","DeathknellStart")
-DefineInstance( 893,0,"SunstriderIsleStart","SunstriderIsleStart")
-DefineInstance( 894,0,"AmmenValeStart","AmmenValeStart")
-DefineInstance( 895,0,"NewTinkertownStart","NewTinkertownStart")
 DefineInstance( 896,3,"MogushanVaults","MogushanVaults")
 DefineInstance( 897,2,"HeartofFear","HeartofFear")
 DefineInstance( 898,4,"Scholomance#898","Scholomance#898")
@@ -634,8 +613,6 @@ DefineInstance(1011,0,"Warspear")
 DefineTerrain(2,50, 614,0,"Abyssal Depths")
 DefineTerrain(2,51, 615,0,"Shimmering Expanse")
 DefineTerrain(2,51, 610,0,"Kelp'thar Forest")
-DefineTerrain(3, 9, 477,0,"Nagrand")
-DefineTerrain(3,10, 479,0,"Shadowmoon Valley")
 DefineTerrainFloor(6,11, 873,5,"The Ancient Passage","TheHiddenPass")
 DefineTerrainFloor(7, 1, 950,10,"The Master's Cavern", "Nagrand@Draenor")
 DefineTerrainFloor(7, 1, 950,11,"Vault of the Titan", "Nagrand@Draenor")
@@ -657,6 +634,18 @@ DefineDungeonArea( 811,4,"The Emperor's Step@Shrine of Seven Stars","Shrine of S
 DefineDungeonArea( 321,3,"The Imperial Mercantile@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
 DefineDungeonArea( 811,4,"Hall of the Crescent Moon@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
 
+-- Starter Zones
+DefineInstance( 864,0,"Northshire","Northshire")
+DefineInstance( 866,0,"Coldridge Valley","ColdridgeValley")
+DefineInstance( 888,0,"Shadowglen","ShadowglenStart")
+DefineInstance( 889,0,"Valley of Trials","ValleyofTrialsStart")
+DefineInstance( 890,0,"Camp Narache","CampNaracheStart")
+DefineInstance( 891,0,"Echo Isles","EchoIslesStart")
+DefineInstance( 892,0,"Deathknell","DeathknellStart")
+DefineInstance( 893,0,"Sunstrider Isle","SunstriderIsleStart")
+DefineInstance( 894,0,"Ammen Vale","AmmenValeStart")
+DefineTerrainFloor(2, 1, 27,10,"The Old Dormitory","DunMorogh")
+DefineInstance( 895,0,"New Tinkertown","NewTinkertownStart")
 
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
@@ -753,6 +742,11 @@ local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
 end
 
 function WoWPro:IsInstanceZone(zone)
+    zone = WoWPro:ValidZone(zone)
+    if not zone then
+        WoWPro:Error("Zone [%s] is invalid.  Please report!",zone)
+        return false
+    end      
     local mapID = WoWPro.Zone2MapID[zone]
     if not mapID then
         WoWPro:Error("Zone [%s] is not in Zone2MapID.  Please report!",zone)

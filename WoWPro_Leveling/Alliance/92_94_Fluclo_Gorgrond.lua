@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2015-04-04 19:31
+-- Who: Aldavor
+-- Log: Re-added PRE tags to "A Heavy Helping Hand" and the flight to Bastion Rise; replaced the flight point name from The Iron Approach" to Iron Docks to enable auto-close.
+
+-- URL: http://wow-pro.com/node/3613/revisions/27187/view
+-- Date: 2015-03-29 22:57
+-- Who: Ludovicus
+-- Log: Added N for [A Heavy Helping Hand]
+
+-- URL: http://wow-pro.com/node/3613/revisions/27151/view
 -- Date: 2015-02-25 21:25
 -- Who: Aldavor
 -- Log: Replaced Shredder vs Saberon section, added Beatface vs Boulder quest and some PRE additions to allow for both types of outpost buildings.
@@ -218,6 +228,7 @@ T The Life Spring|QID|35209|N|To Yrel|M|46.04,76.67|
 T Bushwhacker |QID|35206|N|To Yrel|M|46.04,76.67|
 T Pollen Power |QID|35204|N|To Rangari Kaalya|M|46.12,76.66|
 
+N A Heavy Helping Hand |QID|35225|N|If this quest does not show up in the guide, just /reload and it should magically appear.|ACTIVE|-35225|PRE|35209;35206;35204|
 A A Heavy Helping Hand |QID|35225|N|From Thaelin Darkanvi.|M|46.08,76.86|PRE|35209;35206;35204|
 C A Heavy Helping Hand |QID|35225|N|Follow the road then the dirt track south to Bastion Rise|M|47.58,94.10|NC|
 T A Heavy Helping Hand |QID|35225|N|To Hansel Heavyhands|M|47.58,94.10|
@@ -240,7 +251,7 @@ T Iyu |QID|35235|N|To Yrel, who is now in Bastion Rise.|M|47.71,93.30|
 
 A Power of the Genesaur |QID|35255|N|From Yrel|PRE|35235|M|47.71,93.30|
 A Service of Rangari Kaalya|QID|35262|N|From Rangari Kaalya|PRE|35235|M|47.78,93.27|
-f Bastion Rise|QID|35255|N|At Ranger Yaval down under the ledge.|M|46.40,92.41|
+f Bastion Rise|QID|35255|N|At Ranger Yaval down under the ledge.|M|46.40,92.41|PRE|35235|
 H Highpass |QID|35255|N|Hearthstone to Highpass, or fly there if you didn't set your hearthstone.|ACTIVE|35255|
 T Power of the Genesaur |QID|35255|N|To Vindicator Maraad|M|52.85,59.68|
 
@@ -383,7 +394,7 @@ C Strike While the Iron is Hot |QID|36575|N|Speak to Rangari Rajess to fly to th
 C Strike While the Iron is Hot |QID|36576|N|Speak to Rangari Rajess to fly to the Iron Docks.|CHAT|QO|1|M|52.83,59.33|
 
 C Strike While the Iron is Hot |QID|36575;36576|N|Follow through the instance steps.\n\n1. Speak to Yrel\n2. Use the Artifact\n3. Survive the onslaught (Use the artifact when it is off cooldown)\n4. Kill Goc\n5. Kill Commander Gar.|QO|2|
-f The Iron Approach|QID|36575;36576|N|With Nisha|M|43.03,20.22|ACTIVE|36575;36576|
+f Iron Docks|QID|36575;36576|N|With Nisha|M|43.03,20.22|ACTIVE|36575;36576|
 F Highpass |QID|36575;36576|N|Fly to Highpass.|M|43.03,20.22|ACTIVE|36575;36576|
 T Strike While the Iron is Hot |QID|36575;36576|N|To Vindicator Maraad|M|52.85,59.68|
 

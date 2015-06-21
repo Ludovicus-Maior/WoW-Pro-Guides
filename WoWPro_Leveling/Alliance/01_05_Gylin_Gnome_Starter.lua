@@ -4,6 +4,61 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-05-18 00:14
+-- Who: Ludovicus
+-- Log: Wow, that [code] block thing was a bad idea.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27254/view
+-- Date: 2015-05-16 21:18
+-- Who: Ludovicus
+-- Log: Need a blank line before the [/code] directive.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27253/view
+-- Date: 2015-05-16 21:17
+-- Who: Ludovicus
+-- Log: Updated Dwarf guide levels.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27251/view
+-- Date: 2015-05-16 18:02
+-- Who: Ludovicus
+-- Log: Amend coords for Gnome starter zone.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27248/view
+-- Date: 2015-05-16 15:55
+-- Who: Aldavor
+-- Log: Amended most coordinates in the Dwarf starter zone; changed some 'l' tags to 'C' with numeric QOs; cleaned up.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27247/view
+-- Date: 2015-05-16 15:07
+-- Who: Ludovicus
+-- Log: Revert to get the dwarf zone back, re-add the zone changes for gnomes.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27246/view
+-- Date: 2015-05-16 15:06
+-- Who: Ludovicus
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3200/revisions/27228/view
+-- Date: 2015-04-30 20:24
+-- Who: Ludovicus
+-- Log: remap
+
+-- URL: http://wow-pro.com/node/3200/revisions/27217/view
+-- Date: 2015-04-28 00:49
+-- Who: Ludovicus
+-- Log: Zone name fixes
+
+-- URL: http://wow-pro.com/node/3200/revisions/27204/view
+-- Date: 2015-04-18 14:31
+-- Who: Aldavor
+-- Log: Updated Dun Morogh (lvls 5-12); removed redundant class training, amended some steps to autoclose.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27203/view
+-- Date: 2015-04-18 12:24
+-- Who: Aldavor
+-- Log: updated starter zone for Gnome (Warlock) - still needs coords correcting for other classes.
+
+-- URL: http://wow-pro.com/node/3200/revisions/26804/view
 -- Date: 2014-11-06 12:53
 -- Who: Fluclo
 -- Log: Removed duplicate PRE tag from Return to Gremlock
@@ -209,207 +264,168 @@
 -- Who: Crackerhead22
 -- Log: Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
 
--- URL: http://wow-pro.com/node/3200/revisions/24504/view
--- Date: 2011-06-06 12:51
--- Who: Crackerhead22
--- Log: Dwarf starting area update: Added race tags for the Dwarf only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags.
-
--- URL: http://wow-pro.com/node/3200/revisions/24499/view
--- Date: 2011-06-03 18:47
--- Who: Fluclo
--- Log: Removing f Kharanos, as FP already known to the two starting races, and you already meet the Flight Master in an earlier quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24498/view
--- Date: 2011-06-03 18:45
--- Who: Fluclo
--- Log: Tweaked coords for Razzle Sprysprocket
-
--- URL: http://wow-pro.com/node/3200/revisions/24497/view
--- Date: 2011-06-03 18:41
--- Who: Fluclo
--- Log: Removed the unnecessary |Z|Dun Morogh| tags; Removed unnecessary QO tag in Bound for Kharanos; Added quest A Honor Student; Added  three to/from Ironforge quests as Rank 2 quests; Updated some Run to and Heath steps to auto-complete; added some notes for clarity
-
--- URL: http://wow-pro.com/node/3200/revisions/24495/view
--- Date: 2011-06-02 23:50
--- Who: Fluclo
--- Log: Adding auto-complete step for On to Kharanos
-
--- URL: http://wow-pro.com/node/3200/revisions/24494/view
--- Date: 2011-06-02 23:39
--- Who: Fluclo
--- Log:  No Tanks! as the latter is a Non-Combat quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24493/view
--- Date: 2011-06-02 23:30
--- Who: Fluclo
--- Log: Added Coord Complete tag to both "Enter the cave" here steps
-
--- URL: http://wow-pro.com/node/3200/revisions/24354/view
--- Date: 2011-04-29 18:18
--- Who: Ludovicus
--- Log: Changed O steps to N steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24226/view
--- Date: 2011-04-05 23:41
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3200/revisions/24219/view
--- Date: 2011-04-05 23:32
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3200/revisions/24200/view
--- Date: 2011-04-02 18:57
--- Who: Ludovicus
--- Log: QID on [Get Me Explosives Back!] was wrong.  Added advice to [Down with Crushcog!]
-
-local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "Dun Morogh (Gnome)", "Gylin - Gnome", "Alliance")
-WoWPro:GuideLevels(guide,1,5,1)
+local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
+WoWPro:GuideLevels(guide,1,3,1.81013)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
+WoWPro:GuideRaceSpecific(guide,"Gnome")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Gnome_Male","Interface\\Icons\\Achievement_Character_Gnome_Female"))
 WoWPro:GuideSteps(guide, function()
 return
 [[
+; [aldavor] The initial set of quests in lower Gnomeregan are correct.
+A Pinned Down|QID|27670|M|34.10,32.22|Z|The Old Dormitory|N|From Nevin Twistwrench standing in front of you.|
+C Pinned Down|QID|27670|M|40.39,32.03|Z|The Old Dormitory|N|Kill 6 Crazed Lepers.|
+T Pinned Down|QID|27670|M|34.10,32.22|Z|The Old Dormitory|N|To Nevin Twistwrench|
+A Report to Carvo Blastbolt|PRE|27670|QID|28167|M|34.10,32.22|Z|The Old Dormitory|N|From Nevin Twistwrench.|
+T Report to Carvo Blastbolt|QID|28167|M|50.99,31.92|Z|The Old Dormitory|N|To Carvo Blastbolt, at the top of the ramp.|
+A See to the Survivors|PRE|28167|QID|27671|M|50.99,31.92|Z|The Old Dormitory|N|From Carvo Blastbolt.|
+C See to the Survivors|QID|27671|M|45.6,28.6|Z|The Old Dormitory|N|Use the Teleport Beacon on the survivors around the lower level of the room, then return to Carvo Blastbolt.|U|62057|
+T See to the Survivors|QID|27671|M|50.99,31.92|Z|The Old Dormitory|N|To Carvo Blastbolt.|
 
-N To races other than Gnome|R|Dwarf,Draenei,Night Elf,Human,Worgen|N|All of the quests for this guide are Gnome only, so they won't show. So close this step to finish the rest of Dun Morogh.|
-A Pinned Down|QID|27670|M|25.77,31.93|N|From Nevin Twistwrench standing in front of you.|R|Gnome|
-C Pinned Down|QID|27670|M|26.49,31.94|N|Kill 6 Crazed Lepers.|R|Gnome|
-T Pinned Down|QID|27670|M|25.77,31.93|N|To Nevin Twistwrench|R|Gnome|
-A Report to Carvo Blastbolt|PRE|27670|QID|28167|M|25.77,31.93|N|From Nevin Twistwrench.|R|Gnome|
-T Report to Carvo Blastbolt|QID|28167|M|27.70,31.95|N|To Carvo Blastbolt, at the top of the ramp.|R|Gnome|
-A See to the Survivors|PRE|28167|QID|27671|M|27.70,31.95|N|From Carvo Blastbolt.|R|Gnome|
-C See to the Survivors|QID|27671|N|Use the Teleport Beacon on the survivors around the lower level of the room, then return to Carvo Blastbolt.|U|62057|R|Gnome|
-T See to the Survivors|QID|27671|M|27.70,31.95|N|To Carvo Blastbolt.|R|Gnome|
+L Level 2!|LVL|2|QID|28169|N|You should be around level 2 by this point|
 
-L Level 2!|LVL|2|QID|28169|N|You should be around level 2 by this point|R|Gnome|
+A Withdraw to the Loading Room!|PRE|27671|QID|28169|M|50.99,31.92|Z|The Old Dormitory|N|From Carvo Blastbolt.|
+T Withdraw to the Loading Room!|QID|28169|M|53.07,82.36|Z|The Old Dormitory|N|To Gaffer Coilspring.|
+A Decontamination|PRE|28169|QID|27635|M|53.07,82.36|Z|The Old Dormitory|N|From Gaffer Coilspring.|
+C Decontamination|QID|27635|M|58.84,81.69|Z|The Old Dormitory|N|Jump onto a Sanitron 500 to get decontaminated.|
+T Decontamination|QID|27635|M|66.46,81.64|Z|The Old Dormitory|N|To Technician Braggle.|
+A To the Surface|PRE|27635|QID|27674|M|66.46,81.64|Z|The Old Dormitory|N|To Technician Braggle.|
+R New Tinkertown|QID|27674|M|67.29,84.14|Z|The Old Dormitory|N|Talk to Torben Zapblast and ask him to teleport you to the surface.|CHAT|
+T To the Surface|QID|27674|M|39.50,38.39|N|To Nevin Twistwrench in front of you.|
 
-A Withdraw to the Loading Room!|PRE|27671|QID|28169|M|27.70,31.95|N|From Carvo Blastbolt.|R|Gnome|
-T Withdraw to the Loading Room!|QID|28169|M|27.98,37.71|N|To Gaffer Coilspring.|R|Gnome|
-A Decontamination|PRE|28169|QID|27635|M|27.98,37.71|N|From Gaffer Coilspring.|R|Gnome|
-C Decontamination|QID|27635|M|28.64,37.72|N|Jump onto a Sanitron 500 to get decontaminated.|R|Gnome|
-T Decontamination|QID|27635|M|29.50,37.73|N|To Technician Braggle.|R|Gnome|
-A To the Surface|PRE|27635|QID|27674|M|29.50,37.73|N|To Technician Braggle.|R|Gnome|
-R New Tinkertown|QID|27674|M|29.60,37.96|N|Talk to Torben Zapblast and ask him to teleport you to the surface.|R|Gnome|
-T To the Surface|QID|27674|N|To Nevin Twistwrench in front of you.|R|Gnome|
+A The Future of Gnomeregan|PRE|27674|QID|26197|C|Mage|M|39.15,38.49|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|PRE|27674|QID|26199|C|Priest|M|39.50,38.39|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|PRE|27674|QID|26206|C|Rogue|M|39.50,38.39|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|PRE|27674|QID|26202|C|Warlock|M|39.50,38.39|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|PRE|27674|QID|26203|C|Warrior|M|39.50,38.39|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|PRE|27674|QID|31135|C|Monk|M|39.50,38.39|N|From Nevin Twistwrench.|
 
-A The Future of Gnomeregan|PRE|27674|QID|26197|C|Mage|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
-A The Future of Gnomeregan|PRE|27674|QID|26199|C|Priest|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
-A The Future of Gnomeregan|PRE|27674|QID|26206|C|Rogue|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
-A The Future of Gnomeregan|PRE|27674|QID|26202|C|Warlock|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
-A The Future of Gnomeregan|PRE|27674|QID|26203|C|Warrior|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
-A The Future of Gnomeregan|PRE|27674|QID|31135|C|Monk|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
+; [aldavor] These are now surface quests.
+; [aldavor] ALL THESE COORDS ARE CHANGED NOW - area is New Tinkertown
+; [aldavor] The first line is the new correct coords for the npc.
+T The Future of Gnomeregan|QID|26202|M|37.68,37.97|N|To Alamar Grimm.|C|Warlock|
+T The Future of Gnomeregan|QID|26197|M|41.00,29.23|N|To Bipsi Frostflinger.|C|Mage|
+T The Future of Gnomeregan|QID|26199|M|39.44,28.35|N|To "Doc" Cogspin.|C|Priest|
+T The Future of Gnomeregan|QID|26206|M|38.04,33.70|N|To Kelsey Steelspark.|C|Rogue|
+T The Future of Gnomeregan|QID|26203|M|40.65,35.35|N|To Drill Sergeant Steamcrank, who wanders.|C|Warrior|
+T The Future of Gnomeregan|QID|31135|M|40.09,35.61|N|To Xi.|C|Monk|
 
-T The Future of Gnomeregan|QID|26197|M|34.50,35.10|N|To Bipsi Frostflinger.|C|Mage|R|Gnome|
-T The Future of Gnomeregan|QID|26199|M|33.91,34.77|N|To "Doc" Cogspin.|C|Priest|R|Gnome|
-T The Future of Gnomeregan|QID|26206|M|33.38,36.79|N|To Kelsey Steelspark.|C|Rogue|R|Gnome|
-T The Future of Gnomeregan|QID|26202|M|33.27,38.37|N|To Alamar Grimm.|C|Warlock|R|Gnome|
-T The Future of Gnomeregan|QID|26203|M|34.24,37.59|N|To Drill Sergeant Steamcrank.|C|Warrior|R|Gnome|
-T The Future of Gnomeregan|QID|31135|M|34.16,37.52|N|To Xi.|C|Monk|R|Gnome|
+; [aldavor] The first line is the new correct coords for the npc.
+A Meet the High Tinker|PRE|26202|QID|26424|C|Warlock|M|37.68,37.97|N|From Alamar Grimm.|
+A Meet the High Tinker|PRE|26197|QID|26421|C|Mage|M|41.10,29.12|N|From Bipsi Frostflinger.|
+A Meet the High Tinker|PRE|26199|QID|26422|C|Priest|M|39.40,28.38|N|From "Doc" Cogspin.|
+A Meet the High Tinker|PRE|26206|QID|26423|C|Rogue|M|38.03,33.56|N|From Kelsey Steelspark.|
+A Meet the High Tinker|PRE|26203|QID|26425|C|Warrior|M|40.65,35.35|N|From Drill Sergeant Steamcrank.|
+A Meet the High Tinker|PRE|31135|QID|31137|C|Monk|M|40.09,35.61|N|From Xi.|
 
-A Meet the High Tinker|PRE|26197|QID|26421|C|Mage|M|34.50,35.10|N|From Bipsi Frostflinger.|R|Gnome|
-A Meet the High Tinker|PRE|26199|QID|26422|C|Priest|M|33.91,34.77|N|From "Doc" Cogspin.|R|Gnome|
-A Meet the High Tinker|PRE|26206|QID|26423|C|Rogue|M|33.38,36.79|N|From Kelsey Steelspark.|R|Gnome|
-A Meet the High Tinker|PRE|26202|QID|26424|C|Warlock|M|33.27,38.37|N|From Alamar Grimm.|R|Gnome|
-A Meet the High Tinker|PRE|26203|QID|26425|C|Warrior|M|34.24,37.59|N|From Drill Sergeant Steamcrank.|R|Gnome|
-A Meet the High Tinker|PRE|31135|QID|31137|C|Monk|M|34.16,37.52|N|From Xi.|R|Gnome|
+; [aldavor] The first line is the new correct coords for the npc.
+T Meet the High Tinker|QID|26424|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Warlock|
+T Meet the High Tinker|QID|26421|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Mage|
+T Meet the High Tinker|QID|26422|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Priest|
+T Meet the High Tinker|QID|26423|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Rogue|
+T Meet the High Tinker|QID|26425|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Warrior|
+T Meet the High Tinker|QID|31137|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Monk|
 
-T Meet the High Tinker|QID|26421|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Mage|R|Gnome|
-T Meet the High Tinker|QID|26422|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Priest|R|Gnome|
-T Meet the High Tinker|QID|26423|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Rogue|R|Gnome|
-T Meet the High Tinker|QID|26424|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Warlock|R|Gnome|
-T Meet the High Tinker|QID|26425|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Warrior|R|Gnome|
-T Meet the High Tinker|QID|31137|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Monk|R|Gnome|
+A The Fight Continues|QID|26208|M|38.72,32.74|N|From High Tinker Mekkatorque.|
+T The Fight Continues|QID|26208|M|38.72,32.74|N|To High Tinker Mekkatorque.|
+A A Triumph of Gnomish Ingenuity|PRE|26208|QID|26566|M|38.72,32.81|N|From High Tinker Mekkatorque.|
 
-A The Fight Continues|QID|26208|M|33.71,36.48|N|From High Tinker Mekkatorque.|R|Gnome|
-C The Fight Continues|QID|26208|N|Watch the scene on the Holo-table|R|Gnome|
-T The Fight Continues|QID|26208|M|33.71,36.48|N|To High Tinker Mekkatorque.|R|Gnome|
-A A Triumph of Gnomish Ingenuity|PRE|26208|QID|26566|M|33.71,36.48|N|From High Tinker Mekkatorque.|R|Gnome|
-T A Triumph of Gnomish Ingenuity|QID|26566|M|34.32,34.70|N|To Engineer Grindspark.|R|Gnome|
-A Scrounging for Parts|PRE|26566|QID|26222|M|34.32,34.70|N|From Engineer Grindspark.|R|Gnome|
-C Scrounging for Parts|QID|26222|N|Collect Spare Parts scattered on the ground around the area.|M|33.5,35.6|R|Gnome|
-T Scrounging for Parts|QID|26222|M|34.32,34.70|N|To Engineer Grindspark.|R|Gnome|
+T A Triumph of Gnomish Ingenuity|QID|26566|M|40.62,28.07|N|To Engineer Grindspark.|
+A Scrounging for Parts|PRE|26566|QID|26222|M|40.62,28.07|N|From Engineer Grindspark.|
+C Scrounging for Parts|QID|26222|N|Collect Spare Parts scattered on the ground around the area.|M|38.35,30.55|
+T Scrounging for Parts|QID|26222|M|40.62,28.07|N|To Engineer Grindspark.|
 
-A A Job for the Multi-Bot|PRE|26222|QID|26205|N|From Engineer Grindspark.|R|Gnome|
-A What's Left Behind|QID|26264|M|33.88,34.15|N|From Tock Sprysprocket.|R|Gnome|
-A Dealing with the Fallout|QID|26265|M|33.47,39.19|N|From Corporal Fizzwhistle, behind the building.|R|Gnome|
-C A Job for the Multi-Bot|S|QID|26205|N|Stand near the erupting Toxic Geysers in the green pools nearby and the Multi-Bot will clean them up.|R|Gnome|
-C What's Left Behind|S|QID|26264|N|Kill Toxic Oozes around the area and loot Recovered Possessions from them.|M|33.2,41.4|R|Gnome|
-C Dealing with the Fallout|QID|26265|N|Destroy 6 Living Contaminations at the Toxic Airfield.|M|33.2,43.4|R|Gnome|
-C A Job for the Multi-Bot|US|QID|26205|N|Stand near the Toxic Geysers in the pools nearby and the Multi-Bot will clean them up.|R|Gnome|
-C What's Left Behind|US|QID|26264|N|Kill Toxic Oozes around the area and loot Recovered Possessions from them.|M|33.2,41.4|R|Gnome|
+A A Job for the Multi-Bot|PRE|26222|QID|26205|N|From Engineer Grindspark.|M|40.62,28.07|
+A What's Left Behind|QID|26264|M|39.22,26.55|N|From Tock Sprysprocket.|
+A Dealing with the Fallout|QID|26265|M|38.20,40.21|N|From Corporal Fizzwhistle, behind the building near the toxic dump.|
 
-L Level 3!|LVL|3|QID|26264|N|You should be around level 3 by this point|R|Gnome|
+C A Job for the Multi-Bot|S|QID|26205|N|Stand near the erupting Toxic Geysers in the green pools nearby and the Multi-Bot will clean them up.|
+C What's Left Behind|S|QID|26264|N|Kill Toxic Oozes around the area and loot Recovered Possessions from them.|M|37.56,45.90|
+C Dealing with the Fallout|QID|26265|N|Destroy 6 Living Contaminations at the Toxic Airfield.|M|37.56,51.20|
+C A Job for the Multi-Bot|US|QID|26205|N|Stand near the Toxic Geysers in the pools nearby and the Multi-Bot will clean them up.|
+C What's Left Behind|US|QID|26264|N|Kill Toxic Oozes around the area and loot Recovered Possessions from them.|M|37.56,45.90|
 
-T Dealing with the Fallout|QID|26265|M|33.46,39.32|N|To Corporal Fizzwhistle.|R|Gnome|
+L Level 3!|LVL|3|QID|26264|N|You should be around level 3 by this point|
 
-A The Arts of a Mage|QID|26198|M|34.49,35.05|N|From Bipsi Frostflinger.|C|Mage|R|Gnome|
-C The Arts of a Mage|QID|26198|M|34.57,36.25|N|Train Arcane Missiles. Once you've learned the spell, successfully cast Arcane Missiles twice at a Training Dummy in New Tinkertown.|C|Mage|R|Gnome|
-T The Arts of a Mage|QID|26198|M|34.49,35.05|N|To Bipsi Frostflinger.|C|Mage|R|Gnome|
+T Dealing with the Fallout|QID|26265|M|38.20,40.21|N|To Corporal Fizzwhistle.|
 
-A The Arts of a Rogue|QID|26207|M|33.39,36.78|N|From Kelsey Steelspark.|C|Rogue|R|Gnome|
-C The Arts of a Rogue|QID|26207|M|34.52,37.58|N|Learn Eviscerate, then find a training dummy in New Tinkertown and practice using Eviscerate 3 times.|C|Rogue|R|Gnome|
-T The Arts of a Rogue|QID|26207|M|33.39,36.78|N|To Kelsey Steelspark.|C|Rogue|R|Gnome|
+; **********************************
+; [aldavor] Do these as individual sets
+A The Power of a Warlock|QID|26201|M|37.68,37.97|N|From Alamar Grimm (may already have been auto-accepted).|C|Warlock|
+C The Power of a Warlock|QID|26201|M|40.96,35.78|N|Cast Corruption on a Training Dummy in New Tinkertown 5 times.|C|Warlock|
+T The Power of a Warlock|QID|26201|M|37.68,37.97|N|To Alamar Grimm.|C|Warlock|
 
-A The Power of a Warlock|QID|26201|M|33.22,38.38|N|From Alamar Grimm.|C|Warlock|R|Gnome|
-C The Power of a Warlock|QID|26201|M|34.33,37.66|N|Learn Immolate, then cast Immolate on a Training Dummy in New Tinkertown 5 times.|C|Warlock|R|Gnome|
-T The Power of a Warlock|QID|26201|M|33.25,38.31|N|To Alamar Grimm.|C|Warlock|R|Gnome|
+A The Arts of a Mage|QID|26198|M|41.10,29.12|N|From Bipsi Frostflinger.|C|Mage|
+C The Arts of a Mage|QID|26198|M|40.96,35.78|N|Cast Arcane Missiles twice at a Training Dummy in New Tinkertown.|C|Mage|
+T The Arts of a Mage|QID|26198|M|41.10,29.12|N|To Bipsi Frostflinger.|C|Mage|
 
-A The Arts of a Warrior|QID|26204|M|34.25,37.56|N|From Drill Sergeant Steamcrank.|C|Warrior|R|Gnome|
-C The Arts of a Warrior|QID|26204|M|34.46,37.48|N|Learn Charge. Locate a Training Dummy in New Tinkertown and use Charge on it.|C|Warrior|R|Gnome|
-T The Arts of a Warrior|QID|26204|M|34.32,37.52|N|To Drill Sergeant Steamcrank.|C|Warrior|R|Gnome|
+A The Arts of a Rogue|QID|26207|M|38.03,33.56|N|From Kelsey Steelspark.|C|Rogue|
+C The Arts of a Rogue|QID|26207|M|40.96,35.78|N|Practice using Eviscerate 3 times on a Training Dummy in New Tinkertown.|C|Rogue|
+T The Arts of a Rogue|QID|26207|M|38.03,33.56|N|To Kelsey Steelspark.|C|Rogue|
 
-A The Arts of a Priest|QID|26200|M|33.90,34.84|N|From "Doc" Cogspin.|C|Priest|R|Gnome|
-C The Arts of a Priest|QID|26200|M|33.90,34.84|C|Priest|N|Train Flash Heal, then use Flash Heal 5 times on Wounded Infantry in New Tinkertown.|R|Gnome|
-T The Arts of a Priest|QID|26200|M|33.90,34.84|N|To "Doc" Cogspin.|C|Priest|R|Gnome|
+A The Arts of a Warrior|QID|26204|M|40.65,35.35|N|From Drill Sergeant Steamcrank.|C|Warrior|
+C The Arts of a Warrior|QID|26204|M|40.96,35.78|N|Use Charge on a Training Dummy in New Tinkertown.|C|Warrior|
+T The Arts of a Warrior|QID|26204|M|40.65,35.35|N|To Drill Sergeant Steamcrank.|C|Warrior|
 
-A The Arts of a Monk|QID|31138|M|34.16,37.52|N|From Xi.|C|Monk|R|Gnome|; May have been auto-accepted already!
-C The Arts of a Monk|QID|31138|M|34.46,37.48|N|Locate a Training Dummy in New Tinkertown and use Tiger Palm on it.|C|Monk|R|Gnome|
-T The Arts of a Monk|QID|31138|M|34.16,37.52|N|To Xi.|C|Monk|R|Gnome|
+; [aldavor] changed this from Flash Heal.
+A The Arts of a Priest|QID|26200|M|39.40,28.38|N|From "Doc" Cogspin.|C|Priest|
+C The Arts of a Priest|QID|26200|M|40.96,35.78|C|Priest|N|Use Shadow Word: Pain 5 times on a Training Dummy in New Tinkertown.|
+T The Arts of a Priest|QID|26200|M|39.40,28.38|N|To "Doc" Cogspin.|C|Priest|
 
-T A Job for the Multi-Bot|QID|26205|M|34.32,34.64|N|To Engineer Grindspark.|R|Gnome|
-T What's Left Behind|QID|26264|M|33.85,34.17|N|To Tock Sprysprocke.|R|Gnome|
-A What's Keeping Jessup?|QID|26316|M|33.53,36.69|N|From Captain Tread Sparknozzle.|R|Gnome|
+A The Arts of a Monk|QID|31138|M|40.09,35.61|N|From Xi.|C|Monk|; May have been auto-accepted already!
+C The Arts of a Monk|QID|31138|M|40.96,35.78|N|Locate a Training Dummy in New Tinkertown and use Tiger Palm on it.|C|Monk|
+T The Arts of a Monk|QID|31138|M|40.09,35.61|N|To Xi.|C|Monk|
+; **********************************
 
-T What's Keeping Jessup?|QID|26316|M|33.12,48.70|N|To Jessup McCree.|R|Gnome|
-A Get Me Explosives Back!|QID|26285|M|33.12,48.70|N|From Jessup McCree.|R|Gnome|
-A Missing in Action|QID|26284|M|33.12,48.70|N|From Jessup McCree.|R|Gnome|
-C Missing in Action|S|QID|26284|N|Attack the cages to release captives.|R|Gnome|
-C Get Me Explosives Back!|QID|26285|M|35.52,51.52|N|Kill Rockjaws and loot Stolen Powder Kegs from them.|R|Gnome|
-C Missing in Action|US|QID|26284|M|35.52,51.52|N|Attack the cages to release captives.|R|Gnome|
+T A Job for the Multi-Bot|QID|26205|M|40.62,28.07|N|To Engineer Grindspark.|
+T What's Left Behind|QID|26264|M|39.22,26.55|N|To Tock Sprysprocke.|
+A What's Keeping Jessup?|QID|26316|M|38.38,33.48|N|From Captain Tread Sparknozzle.|
 
-L Level 4|LVL|4|QID|26285|N|You should be around level 4 by this point|R|Gnome|
+T What's Keeping Jessup?|QID|26316|M|37.28,65.20|N|To Jessup McCree, at the Frostmane Hold.|
+A Get Me Explosives Back!|QID|26285|M|37.28,65.20|N|From Jessup McCree.|
+A Missing in Action|QID|26284|M|37.28,65.20|N|From Jessup McCree.|
+C Missing in Action|S|QID|26284|N|Attack the cages to release captives.|
+C Get Me Explosives Back!|QID|26285|M|38.86,71.04|N|Kill Rockjaws and loot Stolen Powder Kegs from them.|
+C Missing in Action|US|QID|26284|M|38.01,72.34|N|Attack the cages to release captives.|
 
-T Get Me Explosives Back!|QID|26285|M|33.12,48.70|N|To Jessup McCree|R|Gnome|
-T Missing in Action|QID|26284|M|33.12,48.70|N|To Jessup McCree|R|Gnome|
-A Finishin' the Job|QID|26318|N|From Jessup McCree.|M|33.12,48.70|R|Gnome|
-R Enter the cave here|QID|26318|CC|M|31.98,49.20|N|Enter the cave and run through it keeping to the left as you go.|C|Mage,Priest,Rogue,Warrior|R|Gnome|
-R Enter the cave here|QID|26318|CC|M|31.98,49.20|N|Dismiss your Imp, then enter the cave and run through it keeping to the left as you go.|C|Warlock|R|Gnome|
-K Boss Bruggor|QID|26318|M|28.88,48.93|T|Boss Bruggor|QO|Boss Bruggor slain: 1/1|N|Kill Boss Bruggor.|R|Gnome|
-C Finishin' the Job|QID|26318|M|29.11,48.50|N|Activate the Detonator to detonate the trogg tunnels.|R|Gnome|
-T Finishin' the Job|QID|26318|M|33.12,48.70|N|To Jessup McCree.|C|Mage,Priest,Rogue,Warrior|R|Gnome|
-T Finishin' the Job|QID|26318|M|33.12,48.70|N|To Jessup McCree, and resummon your Imp.|C|Warlock|R|Gnome|
-A One More Thing|PRE|26318|QID|26329|M|33.12,48.70|N|From Jessup McCree.|R|Gnome|
-T One More Thing|QID|26329|M|33.74,36.51|N|To High Tinker Mekkatorque.|R|Gnome|
-A Crushcog's Minions|QID|26331|M|33.74,36.51|N|From High Tinker Mekkatorque.|R|Gnome|
-A No Tanks!|QID|26333|M|33.50,36.76|N|From Hinkles Fastblast.|R|Gnome|
-C No Tanks!|S|QID|26333|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|40.5,32.26|R|Gnome|
-C Crushcog's Minions|QID|26331|M|40.5,32.26|N|Kill 8 of Crushcog's Minions at Crushcog's Arsenal.|R|Gnome|
-C No Tanks!|US|QID|26333|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|40.5,32.26|R|Gnome|
-T Crushcog's Minions|QID|26331|M|33.73,36.46|N|To High Tinker Mekkatorque.|R|Gnome|
-T No Tanks!|QID|26333|M|33.47,36.75|N|To Hinkles Fastblast.|R|Gnome|
-A Staging in Brewnall|QID|26339|N|From Kelsey Steelspark.|M|33.4,36.8|R|Gnome|
+L Level 4|LVL|4|QID|26285|N|You should be around level 4 by this point; if not, keep killing Rockjaws.|
 
-L Level 5|LVL|5|QID|26339|N|You should be around level 5 by this point|R|Gnome|
+T Get Me Explosives Back!|QID|26285|M|37.28,65.20|N|To Jessup McCree|
+T Missing in Action|QID|26284|M|37.28,65.20|N|To Jessup McCree|
+A Finishin' the Job|QID|26318|N|From Jessup McCree.|M|37.28,65.20|
+C Enter the cave here|QID|26318|CC|M|33.82,66.34;25.98,66.14;26.89,64.55|N|Dismiss your Imp, then enter the cave and run through it keeping to the left as you go. Kill Boss Bruggor then use the detonator at the end of the cave.|C|Warlock|T|Boss Bruggor|
+C Enter the cave here|QID|26318|CC|M|33.82,66.34;25.98,66.14;26.89,64.55|N|Enter the cave and run through it keeping to the left as you go.|C|Mage,Priest,Rogue,Warrior|
+T Finishin' the Job|QID|26318|M|37.28,65.20|N|To Jessup McCree, and resummon your Imp.|C|Warlock|
+T Finishin' the Job|QID|26318|M|37.28,65.20|N|To Jessup McCree.|C|Mage,Priest,Rogue,Warrior|
+A One More Thing|PRE|26318|QID|26329|M|37.28,65.20|N|From Jessup McCree.|
+T One More Thing|QID|26329|M|38.72,32.74|N|To High Tinker Mekkatorque.|
 
-T Staging in Brewnall|QID|26339|M|37.38,43.99|N|To Jarvi Shadowstep.|R|Gnome|
-A Paint it Black|PRE|26339|QID|26342|M|37.38,43.99|N|From Jarvi Shadowstep.|R|Gnome|
-C Paint it Black|QID|26342|M|39.54,41.4|N|Use the Paintinator on Sentry Bot's on Iceflow Lake.|U|58203|R|Gnome|
-T Paint it Black|QID|26342|M|37.46,44.07|N|To Jarvi Shadowstep.|R|Gnome|
-A Down with Crushcog!|PRE|26342|QID|26364|M|37.38,43.99|N|From Jarvi Shadowstep.|R|Gnome|
-N Speak to High Tinker Mekkatorgue|QID|26364|M|40.57,42.02|N|Tell him you're ready to begin, then close this step.|R|Gnome|
-C Down with Crushcog!|QID|26364|M|41.02,40.36|N|Use the Orbital Targeting Device on the area where Crushcog is standing. Defend yourself if attacked.|U|58253|R|Gnome|
-T Down with Crushcog!|QID|26364|M|37.42,43.95|N|To Jarvi Shadowstep|R|Gnome|
-A On to Kharanos|PRE|26364|QID|26373|M|37.38,43.99|N|From Jarvi Shadowstep.|R|Gnome|
-A Bound for Kharanos|QID|26380|M|49.89,45.01|N|From Ciara Deepstone.|R|Gnome|
-R Kharanos|QID|26373|M|53.53,50.15|N|Follow the path East to get to Kharanos.|R|Gnome|
+A Crushcog's Minions|QID|26331|M|38.72,32.74|N|From High Tinker Mekkatorque.|
+A No Tanks!|QID|26333|M|38.19,33.68|N|From Hinkles Fastblast.|
+C No Tanks!|S|QID|26333|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|59.04,20.12|
+C Crushcog's Minions|QID|26331|M|57.20,19.37|N|Kill 8 of Crushcog's Minions at Crushcog's Arsenal.|
+C No Tanks!|US|QID|26333|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|59.04,20.12|
+T Crushcog's Minions|QID|26331|M|38.72,32.74|N|To High Tinker Mekkatorque.|
+T No Tanks!|QID|26333|M|38.19,33.68|N|To Hinkles Fastblast.|
+
+A Staging in Brewnall|QID|26339|N|From Kelsey Steelspark.|M|38.03,33.56|
+
+L Level 5|LVL|5|QID|26339|N|You should be around level 5 by this point|
+
+T Staging in Brewnall|QID|26339|M|48.75,52.90|N|Follow the road southeast to Jarvi Shadowstep.|
+A Paint it Black|PRE|26339|QID|26342|M|48.75,52.90|N|From Jarvi Shadowstep.|
+C Paint it Black|QID|26342|M|53.80,49.80|N|Use the Paintinator on Sentry Bot's on Iceflow Lake.|U|58203|
+T Paint it Black|QID|26342|M|48.75,52.90|N|To Jarvi Shadowstep.|
+A Down with Crushcog!|PRE|26342|QID|26364|M|48.75,52.90|N|From Jarvi Shadowstep.|
+C Speak to High Tinker Mekkatorgue|QID|26364|M|57.17,47.57|N|Tell him you're ready to begin. You may need to click this step to advance.|CHAT|QO|1|
+C Down with Crushcog!|QID|26364|M|58.81,43.61|N|Use the Orbital Targeting Device on the area where Crushcog is standing. Defend yourself if attacked.|U|58253|QO|2|
+
+r Sell and Repair|M|49.67,51.92|QID|26364|N|Sell junk and repair if necessary at Burdrak Harglhelm. Close when done.|
+T Down with Crushcog!|QID|26364|M|48.75,52.90|N|To Jarvi Shadowstep|
+A On to Kharanos|PRE|26364|QID|26373|M|48.75,52.90|N|From Jarvi Shadowstep.|
+
+; [aldavor] this pickup is actually in Dun Morogh
+A Bound for Kharanos|QID|26380|M|49.91,44.98|Z|Dun Morogh|N|Run along the road heading (kinda) east into Dun Morogh and get this from Ciara Deepstone.|
+R Kharanos|QID|26373|M|53.00,48.32|Z|Dun Morogh|N|Follow the path East/South-East to get to Kharanos.|
 ]]
 end)

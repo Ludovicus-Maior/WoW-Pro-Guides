@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2015-05-26 21:37
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3238/revisions/26922/view
 -- Date: 2014-11-08 06:24
 -- Who: Emmaleah
 -- Log: Delete Dup M on It's You, Add Pandaren to Akiris by the Bundle
@@ -81,6 +85,8 @@ WoWPro:GuideNextGuide(guide, 'JiyWes3540')
 WoWPro:GuideIcon(guide,"ACH",4905)
 WoWPro:GuideSteps(guide, function()
 return [[
+
+L Level 29 |QID|26404|LVL|29|N|This guide requires a minimum level of 29 to do.|
 
 f Hardwrench Hideaway|QID|26404|M|35.15,29.24|N|At Hizzle.|
 T Above My Pay Grade|QID|26404|M|34.79,29.49|N|To Sassy Hardwrench.|

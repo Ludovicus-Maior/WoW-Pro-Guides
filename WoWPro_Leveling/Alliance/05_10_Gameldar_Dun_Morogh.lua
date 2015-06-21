@@ -4,6 +4,61 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-05-18 00:14
+-- Who: Ludovicus
+-- Log: Wow, that [code] block thing was a bad idea.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27254/view
+-- Date: 2015-05-16 21:18
+-- Who: Ludovicus
+-- Log: Need a blank line before the [/code] directive.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27253/view
+-- Date: 2015-05-16 21:17
+-- Who: Ludovicus
+-- Log: Updated Dwarf guide levels.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27251/view
+-- Date: 2015-05-16 18:02
+-- Who: Ludovicus
+-- Log: Amend coords for Gnome starter zone.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27248/view
+-- Date: 2015-05-16 15:55
+-- Who: Aldavor
+-- Log: Amended most coordinates in the Dwarf starter zone; changed some 'l' tags to 'C' with numeric QOs; cleaned up.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27247/view
+-- Date: 2015-05-16 15:07
+-- Who: Ludovicus
+-- Log: Revert to get the dwarf zone back, re-add the zone changes for gnomes.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27246/view
+-- Date: 2015-05-16 15:06
+-- Who: Ludovicus
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3200/revisions/27228/view
+-- Date: 2015-04-30 20:24
+-- Who: Ludovicus
+-- Log: remap
+
+-- URL: http://wow-pro.com/node/3200/revisions/27217/view
+-- Date: 2015-04-28 00:49
+-- Who: Ludovicus
+-- Log: Zone name fixes
+
+-- URL: http://wow-pro.com/node/3200/revisions/27204/view
+-- Date: 2015-04-18 14:31
+-- Who: Aldavor
+-- Log: Updated Dun Morogh (lvls 5-12); removed redundant class training, amended some steps to autoclose.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27203/view
+-- Date: 2015-04-18 12:24
+-- Who: Aldavor
+-- Log: updated starter zone for Gnome (Warlock) - still needs coords correcting for other classes.
+
+-- URL: http://wow-pro.com/node/3200/revisions/26804/view
 -- Date: 2014-11-06 12:53
 -- Who: Fluclo
 -- Log: Removed duplicate PRE tag from Return to Gremlock
@@ -209,87 +264,26 @@
 -- Who: Crackerhead22
 -- Log: Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
 
--- URL: http://wow-pro.com/node/3200/revisions/24504/view
--- Date: 2011-06-06 12:51
--- Who: Crackerhead22
--- Log: Dwarf starting area update: Added race tags for the Dwarf only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags.
-
--- URL: http://wow-pro.com/node/3200/revisions/24499/view
--- Date: 2011-06-03 18:47
--- Who: Fluclo
--- Log: Removing f Kharanos, as FP already known to the two starting races, and you already meet the Flight Master in an earlier quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24498/view
--- Date: 2011-06-03 18:45
--- Who: Fluclo
--- Log: Tweaked coords for Razzle Sprysprocket
-
--- URL: http://wow-pro.com/node/3200/revisions/24497/view
--- Date: 2011-06-03 18:41
--- Who: Fluclo
--- Log: Removed the unnecessary |Z|Dun Morogh| tags; Removed unnecessary QO tag in Bound for Kharanos; Added quest A Honor Student; Added  three to/from Ironforge quests as Rank 2 quests; Updated some Run to and Heath steps to auto-complete; added some notes for clarity
-
--- URL: http://wow-pro.com/node/3200/revisions/24495/view
--- Date: 2011-06-02 23:50
--- Who: Fluclo
--- Log: Adding auto-complete step for On to Kharanos
-
--- URL: http://wow-pro.com/node/3200/revisions/24494/view
--- Date: 2011-06-02 23:39
--- Who: Fluclo
--- Log:  No Tanks! as the latter is a Non-Combat quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24493/view
--- Date: 2011-06-02 23:30
--- Who: Fluclo
--- Log: Added Coord Complete tag to both "Enter the cave" here steps
-
--- URL: http://wow-pro.com/node/3200/revisions/24354/view
--- Date: 2011-04-29 18:18
--- Who: Ludovicus
--- Log: Changed O steps to N steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24226/view
--- Date: 2011-04-05 23:41
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3200/revisions/24219/view
--- Date: 2011-04-05 23:32
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3200/revisions/24200/view
--- Date: 2011-04-02 18:57
--- Who: Ludovicus
--- Log: QID on [Get Me Explosives Back!] was wrong.  Added advice to [Down with Crushcog!]
-
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,2,10,5.74453)
 WoWPro:GuideNextGuide(guide, 'WkjLoc1220')
 WoWPro:GuideIcon(guide,"ACH",627)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A Beer Basted Boar Ribs|QID|384|M|53.89,50.79|N|From Ragnar Thunderbrew. Kill any boars you see from now on for Tender Boar Meat.|
 T Bound for Kharanos|QID|26380|M|54.47,50.81|N|To Innkeeper Belm.|R|Gnome|
-h Thunderbrew Distillery|QID|315|M|54.47,50.81|N|Make Thunderbrew Distillery your new home at Innkeeper Belm.|
-N Sell junk|QID|315|M|54.47,50.81|N|To Innkeeper Belm.|
+h Thunderbrew Distillery|QID|26373|M|54.47,50.81|N|Make Thunderbrew Distillery your new home at Innkeeper Belm.|
+N Sell junk|QID|26373|M|54.47,50.81|N|To Innkeeper Belm. Close when done.|
 B Rhapsody Malt|QID|384|M|54.47,50.81|N|From Innkeeper Belm.|L|2894|
 
-N Secondary Profession: First Aid |QID|384|M|54.31,50.90|N|If you want to learn First Aid, now's the time to start, Thamner Pol will start you off. Click this step to continue.|R|Gnome,Dwarf|
-N Secondary Profession: Cooking |QID|384|M|54.73,50.58|N|If you want to learn Cooking, now's the time to start, Gremlock Pilsnor will start you off. Click this step to continue.|R|Gnome,Dwarf|
+N Secondary Profession: First Aid |QID|26373|M|54.31,50.90|N|If you want to learn First Aid, now's the time to start, Thamner Pol will start you off. Click this step to continue.|R|Gnome,Dwarf|
+N Secondary Profession: Cooking |QID|26373|M|54.73,50.58|N|If you want to learn Cooking, now's the time to start, Gremlock Pilsnor will start you off. Click this step to continue.|R|Gnome,Dwarf|
 A Honor Students |QID|6387|M|54.73,50.58|N|From Gremlock.|R|Gnome,Dwarf|
-N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|R|Gnome,Dwarf|
-N Class Training |QID|384|M|54.47,50.97|N|You should visit your class trainer Granis Swiftaxe. Click this step to continue.|C|Warrior|R|Gnome,Dwarf|
-N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Maxan Anvol. Click this step to continue.|C|Priest|R|Gnome,Dwarf|
-N Class Training |QID|384|M|54.61,50.40|N|You should visit your class trainer Magis Sparkmantle. Click this step to continue.|C|Mage|R|Gnome,Dwarf|
-N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Azar Stronghammer. Click this step to continue.|C|Paladin|R|Gnome,Dwarf|
-N Class Training |QID|384|M|54.60,50.23|N|You should visit your class trainer Halbin Frosthammer. Click this step to continue.|C|Shaman|R|Gnome,Dwarf|
 
+; [aldavor] removed references to class training - redundant.
 A The Perfect Stout|QID|315|M|54.12,51.21|N|From Rejold Barleybrew.|
 
-N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Gimrizz Shadowcog. Click this step to continue.|C|Warlock|R|Gnome,Dwarf|
-N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Grif Wildheart. Click this step to continue.|C|Hunter|R|Gnome,Dwarf|
-N Primary Professions |QID|384|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |R|Gnome,Dwarf|
+N Primary Professions |QID|26373|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |R|Gnome,Dwarf|
 
 T On to Kharanos|QID|26373|M|53.68,52.17|N|To Captain Tharran.|R|Gnome|
 A Frostmane Aggression|QID|25724|M|53.68,52.17|N|From Captain Tharran.|
@@ -298,11 +292,11 @@ T Honor Students |QID|6387|M|53.80,52.75|N|To Brolan Galebeard.|R|Gnome,Dwarf|
 
 A Bound for Kharanos|QID|26380|M|49.89,45.01|N|From Ciara Deepstone.|R|Dwarf,Human,Nightelf,Worgen,Draenei|
 
-A Ride to Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|There will follow three quests that sees you ride to Ironforge and back, and is worth 1,580 XP and some reputation with Ironforge and Gnomeregan.|R|Gnome,Dwarf|
+A Ride to Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|The next three quests see you ride to Ironforge and back, and is worth 1,580 XP and some reputation with Ironforge and Gnomeregan.|R|Gnome,Dwarf|
 F Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|Speak with Brolan Galebeard and ask him to fly you to Ironforge|R|Gnome,Dwarf|
 T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, inside the Deepmountain Mining & Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf|Z|Ironforge|
 A Gryth Thurden |RANK|2|QID|6388|M|51.37,26.27|N|From Golnir Bouldertoe|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
-T Gryth Thurden |RANK|2|QID|6388|M|55.42,47.80|N|To Gryth Thurden|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
+T Gryth Thurden |RANK|2|QID|6388|M|55.42,47.80|N|Back to the flight master, Gryth Thurden|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
 A Return to Gremlock |RANK|2|QID|6392|PRE|6388|M|55.42,47.80|N|From Gryth Thurden|R|Gnome,Dwarf|Z|Ironforge|
 F Thunderbrew Distillery|RANK|2|QID|6392|M|54.73,50.58|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|PRE|6391|R|Gnome,Dwarf|
 T Return to Gremlock |RANK|2|QID|6392|M|54.73,50.81|N|To Gremlock Pilsnor|PRE|6391|R|Gnome,Dwarf|
@@ -319,12 +313,12 @@ A Culling the Wendigos|QID|25667|M|53.68,52.17|N|From Captain Tharran.|
 A Forced to Watch from Afar|QID|313|M|53.68,52.17|N|From Captain Tharran.|
 A Pilfered Supplies|QID|25668|M|53.67,52.14|N|From Quartermaster Glynna.|
 
-R The Grizzled Den|QID|25667|M|49.51,52.90|N|Head into the Grizzled Den.|
+R Grizzled Den|QID|25667|CC|M|49.51,52.90|N|Head into the Grizzled Den.|
 C Culling the Wendigos|QID|25667|S|M|48.28,47.38|N|Kill Wendigos as you make your way through the cave.|
 C Pilfered Supplies|QID|25668|S|M|49.22,47.77|N|Collect the supplies as you go through the cave.|
-C Mountaineer Dunstan|QID|313|QO|Convey orders to Mountaineer Dunstan: 1/1|M|48.31,47.12|N|Talk to Mountaineer Dunstan.|
-C Mountainer Lewin|QID|313|QO|Convey orders to Mountainer Lewin: 1/1|M|49.14,47.75|N|Talk to Mountainer Lewin.|
-C Forced to Watch from Afar|QID|313|M|49.30,44.44|N|Talk to Mountainer Valgrum.|
+C Mountaineer Dunstan|QID|313|QO|1|M|48.31,47.12|N|Talk to Mountaineer Dunstan.|CHAT|
+C Mountainer Lewin|QID|313|QO|2|M|49.14,47.75|N|Talk to Mountainer Lewin.|CHAT|
+C Forced to Watch from Afar|QID|313|M|49.30,44.44|N|Talk to Mountainer Valgrum.|QO|3|CHAT|
 C Culling the Wendigos|QID|25667|US|M|48.28,47.38|N|Kill any Wendigos you still need.|
 C Pilfered Supplies|QID|25668|US|M|49.22,47.77|N|Collect any supplies you still need.|
 H Thunderbrew Distillery|QID|25668|U|6948|N|Hearth to Thunderbrew Distillery.|
@@ -337,9 +331,9 @@ A Operation Recombobulation|QID|412|M|53.32,51.98|N|From Razzle Sprysprocket.|
 f Kharanos|M|53.77,52.71|N|At Brolan Galebeard.|QID|412|R|Human,NightElf,Draenei,Worgen|
 
 C Beer Basted Boar Ribs|QID|384|S|N|Kill and loot boars you to the Tender Boar Ribs.|
-C Operation Recombobulation|QID|412|S|M|58.00,57.29|N|Kill Frostmane Salvagers and loot Gyromechanic Gears.|
+C Operation Recombobulation|QID|412|S|M|58.00,57.29|N|Kill Frostmane Salvagers and loot Gyromechanic Gears (be prepared to spend time on this; they respawn very slowly).|
 C Pushing Forward|QID|25792|U|56009|M|58.14,57.63|N|Use the Rune of Fire to burn the Constriction Totems.|
-C Operation Recombobulation|QID|412|US|M|58.00,57.29|N|Kill Frostmane Salvagers and loot Gyromechanic Gears.|
+C Operation Recombobulation|QID|412|US|M|58.00,57.29|N|Kill Frostmane Salvagers and loot Gyromechanic Gears (be prepared to spend time on this; they respawn very slowly).|
 C Beer Basted Boar Ribs|QID|384|US|N|Kill any boars you still need meat from.|M|51.73,55.8|
 
 T Operation Recombobulation|QID|412|M|53.32,51.98|N|To Razzle Sprysprocket.|
@@ -356,12 +350,13 @@ T The Ultrasafe Personnel Launcher|QID|25839|M|62.53,53.62|N|To Slamp Wobblecog.
 A Eliminate the Resistance|QID|25840|M|62.53,53.62|N|From Slamp Wobblecog.|
 A Strike From Above|QID|25841|M|62.53,53.62|N|From Slamp Wobblecog.|
 A The View from Down Here|QID|28868|M|62.54,53.72|N|From Snevik the Blade.|
-C Eliminate the Resistance|QID|25840|S|QO|Frostmane Warrior slain: 5/5|M|62.04,56.13|N|Kill Frostmane Warriors.|
+
+C Eliminate the Resistance|QID|25840|S|M|62.04,56.13|N|Kill Frostmane Warriors.|
 C The View from Down Here|QID|28868|S|U|67249|N|Use the Viewpoint Equalizer on Frostmane Builders.|T|Frostmane Builders|
-C Attack on Northern Frostmane Retreat|QID|25841|U|56048|QO|Attack on Northern Frostmane Retreat: 1/1|M|64.47,54.37|N|Use the Signal Flare in the circle of stones on the ground.|
-K Kill Battok the Berserker|QID|25840|T|Battok the Berserker|QO|Battok the Berserker slain: 1/1|M|63.81,55.68|N|Dancing in the middle of the camp.|
-C Strike From Above|QID|25841|U|56048|QO|Attack on Southern Frostmane Retreat: 1/1|M|63.20,57.16|N|Use the Signal Flare just in front of the buildings.|
-C Eliminate the Resistance|QID|25840|US|QO|Frostmane Warrior slain: 5/5|M|62.04,56.13|N|Kill Frostmane Warriors.|
+C Attack on Northern Frostmane Retreat|QID|25841|U|56048|QO|1|M|64.47,54.37|N|Use the Signal Flare in the circle of stones on the ground.|
+C Kill Battok the Berserker|QID|25840|T|Battok the Berserker|QO|1|M|63.81,55.68|N|Dancing in the middle of the camp.|
+C Strike From Above|QID|25841|U|56048|QO|2|M|63.20,57.16|N|Use the Signal Flare just in front of the buildings.|
+C Eliminate the Resistance|QID|25840|US|M|62.04,56.13|N|Kill Frostmane Warriors.|
 C The View from Down Here|QID|28868|U|67249|N|Use the Viewpoint Equalizer on Frostmane Builders.|T|Frostmane Builders|US|
 T The View from Down Here|QID|28868|M|62.54,53.72|N|To Snevik the Blade.|
 T Eliminate the Resistance|QID|25840|M|62.53,53.62|N|To Slamp Wobblecog.|
@@ -374,7 +369,7 @@ C It's Raid Night Every Night|QID|25932|M|70.38,49.23|N|5 Frostmane Raiders will
 T It's Raid Night Every Night|QID|25932|M|70.43,48.99|N|To Sergeant Flinthammer.|
 A Protecting the Herd|QID|314|M|70.30,48.25|N|From Rudra Amberstill.|
 R Protecting the Herd|QID|314|CC|M|69.37,49.57|N|Follow this path up the hill.|
-K Vagash|QID|314|T|Vagash|M|69.55,47.43|N|Kill Vagash and loot the fang for the quest Protecting the Herd.|L|3627|
+K Vagash|QID|314|T|Vagash|M|69.3,45.4|N|Go to the cave and kill Vagash and loot the fang for the quest Protecting the Herd.|L|3627|QO|1|
 T Protecting the Herd|QID|314|M|70.31,48.26|N|To Rudra Amberstill.|
 A Rams on the Lam|QID|25905|M|70.58,48.77|N|From Veron Amberstill.|
 C Rams on the Lam|QID|25905|M|69.76,57.21|N|Get within 15 yards of them.|NC|T|/cleartarget\n/targetexact Stolen Ram\n/whistle\n|
@@ -396,19 +391,19 @@ T Those Blasted Troggs!|QID|432|M|76.30,54.60|N|To Foreman Stonebrow.|
 T The Public Servant|QID|433|M|75.84,54.34|N|To Senator Mehr Stonehallow.|
 A Trouble at the Lake|QID|25986|M|75.91,54.26|N|From Senator Mehr Stonehallow.|
 
-T Trouble at the Lake|QID|25986|M|82.79,48.36|N|To Sergeant Bahrum.|
+T Trouble at the Lake|QID|25986|M|82.79,48.36|N|Head out eastwards to Sergeant Bahrum.|
 A Entombed in Ice|QID|25978|M|82.79,48.36|N|From Sergeant Bahrum.|
 A Dealing with the Surge|QID|25979|M|82.59,48.22|N|From Khurgorn Singefeather.|
-C Dealing with the Surge|QID|25979|M|83.41,49.78|N|Kill Helm'S Bed Surfgers.|S|
+C Dealing with the Surge|QID|25979|M|83.41,49.78|N|Kill Helm's Bed Surfgers.|S|
 C Entombed in Ice|QID|25978|M|82.94,50.96|N|Attack the Icy Tombs to free the Frozen Mountaineers.|
-C Dealing with the Surge|QID|25979|M|83.41,49.78|N|Kill Helm'S Bed Surfgers.|US|
+C Dealing with the Surge|QID|25979|M|83.41,49.78|N|Kill Helm's Bed Surfgers.|US|
 T Dealing with the Surge|QID|25979|M|82.69,48.32|N|To Khurgorn Singefeather.|
 T Entombed in Ice|QID|25978|M|82.90,48.38|N|To Sergeant Bahrum.|
 
 A Dark Iron Scheming|QID|25997|M|82.80,48.38|N|From Sergeant Bahrum.|
-C Dark Iron Scheming|QID|25997|S|QO|Dark Iron Spy slain: 5/5|M|85.15,60.61|N|Kill Dark Iron Spys.|
-C Dark Iron Scheming|QID|25997|T|Captain Beld|QO|Dark Iron Attack Plans: 1/1|M|85.15,60.61|N|Kill Captain Beld and loot the Dark Iron Attack Plans.|
-C Dark Iron Scheming|QID|25997|US|QO|Dark Iron Spy slain: 5/5|N|Kill Dark Iron Spys.|
+C Dark Iron Scheming|QID|25997|S|QO|1|M|85.15,60.61|N|Kill Dark Iron Spies.|
+C Dark Iron Scheming|QID|25997|T|Captain Beld|QO|2|M|85.15,60.61|N|Kill Captain Beld and loot the Dark Iron Attack Plans.|
+C Dark Iron Scheming|QID|25997|US|QO|1|N|Kill Dark Iron Spies.|
 
 T Dark Iron Scheming|QID|25997|M|82.76,48.31|N|To Sergeant Bahrum.|
 A Get to the Airfield|QID|25998|M|82.76,48.31|N|From Sergeant Bahrum.|
@@ -431,12 +426,12 @@ T Grimaxe's Demise|QID|26102|M|78.23,20.49|N|To Commander Stonebreaker.|
 A Demanding Answers|QID|26112|M|78.24,20.50|N|From Commander Stonebreaker.|
 L Level 12|QID|26112|N|Before you continue the guide, you need to be within 1975xp of level 12. If you are not, use Rixa's Flying Machine to return to Gol'Bolar Quarry. Then go just east of the quarry and kill mobs until you are within 1975xp of level 12.|LVL|12|
 
-H Thunderbrew Distillery|QID|26112|U|6948|N|Head to Ironforge.  Your Hearthstone is probably set to Thunderbrew Distillery and will shorten your distance.|
+H Thunderbrew Distillery|QID|26112|U|6948|N|Head to Ironforge. Your Hearthstone is probably set to Thunderbrew Distillery and will shorten your distance.|
 F Ironforge|QID|26112|M|53.78,52.72|N|Fly to Ironforge.|
 T Demanding Answers|QID|26112|M|39.78,57.23|Z|Ironforge|N|To Moira Thaurissan.|
 A Seize the Ambassador|QID|26118|M|39.78,57.23|Z|Ironforge|N|From Moira Thaurissan.|
 A Reinforcements for Loch Modan|QID|26131|Z|Ironforge|M|41.47,52.32|N|From Mountaineer Barleybrew.  Accept if you plan on going to Loch Modan next.|
-C Seize the Ambassador|QID|26118|U|56837|T|Ambassador Slaghammer|M|38.4, 45.83|Z|Ironforge|N|Use the Sturdy Manacles to arrest Ambassador Slaghammer, then head back to the High Seat.|
+C Seize the Ambassador|QID|26118|U|56837|T|Ambassador Slaghammer|M|38.4, 45.83|Z|Ironforge|N|Use the Sturdy Manacles to arrest Ambassador Slaghammer, then head back to the High Seat. The quest will complete after some dialogue.|
 T Seize the Ambassador|QID|26118|M|39.78,57.23|Z|Ironforge|N|To Moira Thaurissan.|
 N Visit your trainers, AH, etc.|N|Close this step to continue to Loch Modan.|
 ]]

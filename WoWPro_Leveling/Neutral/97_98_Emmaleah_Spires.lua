@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2015-06-19 21:49
+-- Who: Ludovicus
+-- Log: Add the Garrison Pinchwhistle Gearworks leadins
+
+-- URL: http://wow-pro.com/node/3602/revisions/27174/view
 -- Date: 2015-03-09 19:28
 -- Who: Ludovicus
 -- Log: Corrected double N on "h Axefall"
@@ -130,7 +135,7 @@ WoWPro:GuideNextGuide(guide, 'LudoNagrand|EmmNagrand')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Beginnings|QID|34653;36951|N|This guide begins at your garrison to take the free flight to Spires.  If you do the Pinchwhistle Gearworks chain from your garrison, it will not be available for you when you come to it in this guide.|
+N Beginnings|QID|34653;36951|N|This guide begins at your garrison to take the free flight to Spires.|
 N Bonus Objectives|QID|34653;36951|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be at least level 96 to do this guide.|
 N Jumping Games|QID|34653;36951|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle). They mostly reward archeology fragments. I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653;36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.
@@ -595,11 +600,12 @@ A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest
 T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|3|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
-f Pinchwhistle Gearworks|QID|35619;35620|M|60.88,73.31|N|At Kwiven Quickcog.|
-T Pinchwhistle Gearworks|QID|35619;35620|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
-A Defungination|QID|35077|M|61.47,72.94|N|From Kimzee Pinchwhistle.|PRE|35619+35620|
-A Spore-be-Gone|QID|35079|M|61.46,72.96|N|From Engineer Gazwitz.|PRE|35619+35620|
-A Unwanted Pests|QID|36179|NC|M|62.56,73.92|N|From Exterminator Lemmy.|PRE|35619+35620|
+; +36861+36862 The Garrison Versions of [Pinchwhistle Gearworks]
+f Pinchwhistle Gearworks|QID|35619;35620;36861;36862|M|60.88,73.31|N|At Kwiven Quickcog.|
+T Pinchwhistle Gearworks|QID|35619;35620;36861;36862|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
+A Defungination|QID|35077|M|61.47,72.94|N|From Kimzee Pinchwhistle.|PRE|35619+35620+36861+36862|
+A Spore-be-Gone|QID|35079|M|61.46,72.96|N|From Engineer Gazwitz.|PRE|35619+35620+36861+36862|
+A Unwanted Pests|QID|36179|NC|M|62.56,73.92|N|From Exterminator Lemmy.|PRE|35619+35620+36861+36862|
 C Unwanted Pests|QID|36179|NC|M|63.14,75.02|S|
 C Spore-be-Gone|QID|35079|M|63.33,77.41|NC|S|N|These look a bit like rocket clusters. Click to reactivate.|
 C Defungination|QID|35077|M|62.95,74.72|U|112683|NC|N|These are yellow blobs on the ground. Face them and use your flame blaster.|

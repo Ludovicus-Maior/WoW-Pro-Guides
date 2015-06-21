@@ -126,6 +126,22 @@ function WoWPro.AutoCompleteLoot()
 	end
 end
 
+-- Save Garrison Building Locations for the BUILDING tag
+function WoWPro.SaveGarrisonBuildings()
+    local mapID = GetCurrentMapAreaID()
+    if (mapID == WoWPro.Zone2MapID['Lunarfall'].mapID) or (mapID == WoWPro.Zone2MapID['Frostwall'].mapID) then
+        WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
+        -- We just moved into the zone
+        local numPOIs = GetNumMapLandmarks();
+        for i=2, numPOIs do
+            local name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = GetMapLandmarkInfo(i);
+            WoWProCharDB.BuildingLocations[name] = {x=(100*x), y=(100*y)}
+            WoWPro.dbp("Building %s @ %g,%g", name, 100*x, 100*y)
+        end
+    end
+end
+
+
 -- Auto-Complete: Quest Update --
 function WoWPro:AutoCompleteQuestUpdate(questComplete)
 	local GID = WoWProDB.char.currentguide
@@ -329,7 +345,7 @@ function WoWPro:UpdateQuestTracker()
 			    local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
 				local j = WoWPro.QuestLog[qid].index
 				row.trackcheck = true
-				if not questtext and action == "C" then
+				if not questtext and action == "C" and WoWPro.QuestLog[qid].leaderBoard then
 				    -- no QO tag specified, lets set something up
 				    WoWPro:dbp("UQT: QID %d active, but no QO tag, lets make something up.", qid)
 					if WoWPro.QuestLog[qid].leaderBoard[1] then
@@ -377,6 +393,9 @@ function WoWPro:UpdateQuestTracker()
     						end
     					end
 					end
+				else
+				    --No questtext or leaderboard
+				    WoWPro:dbp("UQT: QID %d active, but no QO or leaderBoard!", qid)
 				end
 			end
 			if lootitem then
@@ -419,6 +438,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" or event == "PLAYER_ENTERING_WORLD" then
 	    -- Check to see if the current zone is mapped properly.
 	    WoWPro.CheckAstrolabeData()
+	    WoWPro.SaveGarrisonBuildings()
 	end
 
 	if WoWPro.InitLockdown and event == "QUEST_LOG_UPDATE" then
@@ -438,14 +458,12 @@ function WoWPro.EventHandler(frame, event, ...)
 	end
 	
 	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) and battleHide then
-		WoWPro:Print("|cff33ff33Pet Battle Auto Hide|r: %s Module",guidetype)
 		WoWPro.MainFrame:Hide()
 		WoWPro.Titlebar:Hide()
 		WoWPro.Hidden = true
 		return
 	end
 	if event == "PET_BATTLE_CLOSE" and WoWPro.Hidden then
-		WoWPro:Print("|cff33ff33Pet Battle Exit Auto Show|r: %s Module",guidetype)
 		WoWPro.MainFrame:Show()
 		WoWPro.Titlebar:Show()
 		WoWPro.Hidden = nil		

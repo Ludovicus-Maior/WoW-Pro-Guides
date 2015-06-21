@@ -392,7 +392,7 @@ function WoWPro:ValidZone(zone)
             return tostring(tonumber(zone))
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
-	        return WoWPro.Zone2MapID[zone].mapID
+	        return zone
 	    elseif zone:match("/") then
 	        local nzone , floor = string.split("/",zone)
 	        return WoWPro:ValidZone(nzone)
@@ -400,33 +400,7 @@ function WoWPro:ValidZone(zone)
     end    
     return false
 end
-    
-    
-function WoWPro:TryRemap(z,s,f,x,y)
-	local nx , ny = AL:TranslateWorldMapPosition(z,f,x/100,y/100,s,f)
-	WoWPro:dbp("Remapping1 to %d,%g,%g",s,nx,ny)
-	if nx and ny then
-		-- Successfull translation, remap
-		WoWPro:dbp("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
-		return s,nx*100,ny*100
-	end
-	return nil,nil,nil
-end
 
-function WoWPro:MaybeRemap(z,f,x,y)
-    if (not WoWPro.SubZone[z])  or (not AL) or (not AL.TranslateWorldMapPosition) then return nil,nil,nil end
-    WoWPro:dbp("Remap? %d/%g,%g %s",z,x,y,tostring(WoWPro.SubZone[z]))
-    if type(WoWPro.SubZone[z]) == "number" then
-        return WoWPro:TryRemap(z,WoWPro.SubZone[z],f,x,y)
-    end
-    if type(WoWPro.SubZone[z]) == "table" then
-        for idx, val in ipairs(WoWPro.SubZone[z]) do
-            local z,x,y = WoWPro:TryRemap(z,val,f,x,y)
-            if z then return z,x,y end
-        end
-    end
-	return nil,nil,nil
-end
 
 function WoWPro:ValidateMapCoords(guide,action,step,coords)
 	local numcoords = select("#", string.split(";", coords))
@@ -581,7 +555,7 @@ function WoWPro:MapPoint(row)
     		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
 
 		-- Parsing and mapping coordinates --
-		WoWPro:print("WoWPro:MapPoint1(%s@%s=%s/%s)",coords,tostring(zone),tostring(zm),tostring(zf))
+		WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s/%s)",i,coords,tostring(zone),tostring(zm),tostring(zf))
 		local numcoords = select("#", string.split(";", coords))
         FinalCoord = nil
 		for j=1,numcoords do
@@ -601,13 +575,7 @@ function WoWPro:MapPoint(row)
 				else
 				    title = desc
 				end
-				local mm,mx,my = WoWPro:MaybeRemap(zm,zf,x,y)
-				if mm then
-					-- Remapped coords
-				    uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
-				else
-				    uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
-				end
+				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
 				if not uid then
 				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
 				end
@@ -649,7 +617,7 @@ function WoWPro:MapPoint(row)
 						end
 					end
 				else
-				    WoWPro:Error("No closest waypoint? Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
+				    WoWPro:Warning("No closest waypoint? Please report a bug if the arrow is not working: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
 				end
 			elseif autoarrival == 2 then
 				TomTom.db.profile.arrow.setclosest = false
@@ -691,10 +659,6 @@ function WoWPro:RemoveMapPoint()
 end
 
 function  WoWPro.CheckAstrolabeData(force)
-    if not WoWPro.Astrolabe['zeroData'] then
-        WoWPro:dbp("CheckAstrolabeData(): No Astrolabe!")
-        return
-    end
     local Astrolabe = WoWPro.Astrolabe
     local map, pizo = Astrolabe:GetCurrentPlayerPosition()
     if not (map and pizo) then
@@ -703,8 +667,7 @@ function  WoWPro.CheckAstrolabeData(force)
         return
     end
     local AW = Astrolabe.WorldMapSize[map][pizo]
-    local Az = Astrolabe.zeroData
-    if (not force) and AW ~= Az then
+    if (not force) and AWS and AW.height ~= 1 and AW.width ~= 1 then
         -- We have data
         WoWPro:dbp("Map data present for %d/%d", map, pizo)
         return

@@ -4,6 +4,36 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2015-05-03 17:39
+-- Who: Emmaleah
+-- Log: removed the multiple ";" from C Leave every soldier behind, apparently it keeps trying to parse after it comes to the first one.
+
+-- URL: http://wow-pro.com/node/3599/revisions/27236/view
+-- Date: 2015-05-02 23:01
+-- Who: Ludovicus
+-- Log: Converted some --'s in the guide to ; to get rid of parsing errrors.
+
+-- URL: http://wow-pro.com/node/3599/revisions/27235/view
+-- Date: 2015-05-02 22:57
+-- Who: Ludovicus
+-- Log: quid correction
+
+-- URL: http://wow-pro.com/node/3599/revisions/27234/view
+-- Date: 2015-05-02 22:51
+-- Who: Ludovicus
+-- Log: QID for [Proof of Strength: Goren Tooth] was wrong.
+
+-- URL: http://wow-pro.com/node/3599/revisions/27233/view
+-- Date: 2015-05-02 22:48
+-- Who: Ludovicus
+-- Log: Removed reference to QID 36290, which is for Nagrand and level 100!
+
+-- URL: http://wow-pro.com/node/3599/revisions/27190/view
+-- Date: 2015-04-05 07:26
+-- Who: Emmaleah
+-- Log: suntouched spear should be rank 3 (or maybe 2... but not none like it was)
+
+-- URL: http://wow-pro.com/node/3599/revisions/27176/view
 -- Date: 2015-03-09 19:38
 -- Who: Ludovicus
 -- Log: Tag twiddles
@@ -89,7 +119,7 @@
 -- Log: Copy from Emmaleah's blog
 
 local guide = WoWPro:RegisterGuide('EmmGorgrond', 'Leveling', 'Gorgrond', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,92, 94,92.7)
+WoWPro:GuideLevels(guide,92, 94,92.3228)
 WoWPro:GuideNextGuide(guide, 'EmmTalador')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -101,7 +131,7 @@ N Bonus Objectives|QID|35557|N|This guide does not include the bonus objectives.
 ;this section all applies if you have arena - optional drops you may have gotten while out and about in gorgrond
 A Proof of Strength: Ancient Branch|QID|36094|O|U|114030|M|46.29,69.31|N|From 'Ancient Branch' you just looted.|
 A Proof of Strength: Botani Bloom|QID|36086|O|U|114025|M|46.29,69.31|N|From 'Botani Bloom' you just looted.|
-A Proof of Strength: Goren Tooth|QID|36948|O|U|113590|M|46.29,69.31|N|From 'Acid-Stained Goren Tooth' you just looted.|
+A Proof of Strength: Goren Tooth|QID|35948|O|U|113590|M|46.29,69.31|N|From 'Acid-Stained Goren Tooth' you just looted.|
 A Proof of Strength: Gronnling Scale|QID|36080|O|U|114021|M|46.29,69.31|N|From 'Gronnling Scale' you just looted.|
 A Proof of Strength: Orc Thorn|QID|36091|O|U|114027|M|46.29,69.31|N|From 'Orc Thorn' you just looted.|
 A Proof of Strength: Wasp Stinger|QID|36101|O|U|114034|M|46.29,69.31|N|From 'Wasp Stinger' you just looted.|
@@ -140,8 +170,8 @@ C Your Base, Your Choice|QID|35151|M|45.87,70.30|NC|N|Choose which building you 
 T Your Base, Your Choice|QID|35151|M|46.10,70.18|N|To Durotan.|
 
 A Durotan's quest|QID|36474;35880|M|46.10,70.18|N|From Durotan. This quest will vary depending on whether you chose the  Lumber Yard or the Sparring Arena in the previous step.|
-;A The Razorbloom|QID|36474|M|46.10,70.20|N|From Durotan.| -- build lumber mill
-;A Rage and Wisdom|QID|35880|M|46.10,70.18|N|From Durotan.| -- build sparring arena
+;A The Razorbloom|QID|36474|M|46.10,70.20|N|From Durotan.| ; build lumber mill
+;A Rage and Wisdom|QID|35880|M|46.10,70.18|N|From Durotan.| ; build sparring arena
 A Reagents from Rakthoth|QID|33694|M|46.29,69.98|N|From Marrow.|LVL|93|RANK|2|
 A Skulltakers in Crimson Fen|QID|35667|M|46.29,69.98|N|From Marrow.|RANK|2|
 A Tangleheart|QID|35707|M|46.36,69.64|N|From Penny Clobberbottom.|ACTIVE|36474|
@@ -197,7 +227,7 @@ C What the Bony Xuk?|QID|35038|NC|M|44.03,53.02|S|N|From the Longtooth Gorger co
 K Gronnslaver Raz|QID|35037|M|47.7,52|QO|2|T|Gronnslaver Raz|ACTIVE|35037|
 A The Gronn Strategy|QID|35925|M|47.73,52.07|N|From Weaponization Orders.|ACTIVE|35934|
 l Hardened Thornvine|QID|36718|M|47.21,51.82|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;5
-B Suntouched Spear|QID|36610|M|45.7,49.7|QO|1|N|Run out of Raz's camp and towards the waypoint, then drop down to the ledge about 15 feet below, Wait here for Charl Doomwing to fly overhead to get that one.|ITEM|118718|
+B Suntouched Spear|QID|36610|M|45.7,49.7|QO|1|N|Run out of Raz's camp and towards the waypoint, then drop down to the ledge about 15 feet below, Wait here for Charl Doomwing to fly overhead to get that one.|ITEM|118718|RANK|3|
 K Charl Doomwing|QID|35815|M|46.0,46.8|T|Charl Doomwing|L|113456|N|This is an elite mob, it is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
 A Trophy of Glory: Charl Doomwing|QID|35815|M|46.0,46.8|O|U|113456|N|From 'Fang of the Doomwing' you just looted.|
 l Odd Boulder|QID|36731|M|43.36,51.68|N|Call Beatface (click on the rock) to expose the Ancient Titan Chest|RANK|3|;5.1
@@ -229,7 +259,7 @@ K Glut|QID|36204|M|46.2,50.8|T|Glut|L|118229|N|Kill and loot for an ilvl 534 agi
 l Odd Boulder|QID|36732|M|44.17,46.65|N|Call Beatface (click on the rock) to expose the Obsidian Crystal Formation|RANK|3|;8
 C Fair Warning|QID|35128|M|32.12,75.66|QO|1|S|N|Go into the cave and kill them as you go down.|Z|Fissure of Fury|
 C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|CHAT|QO|1|N|Talk to Thukmar and then take care of him.|Z|Fissure of Fury|
-C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|NC|QO|2|N|The intel is on the ground beside Thukmar.|;Z|;Fissure of Fury| -- this seems to not be on map layer 19, despite it showing on map layer 19 when you open the map...
+C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|NC|QO|2|N|The intel is on the ground beside Thukmar.|;this seems to not be on map layer 19, despite it showing on map layer 19 when you open the map...
 B Horned Skull|QID|35056|M|42.1,66.73|QO|1|N|Loot for some Garrison Resources.|RANK|3|Z|Fissure of Fury|ITEM|$934|
 l Hardened Thornvine|QID|36720|M|36.71,51.45|Z|Fissure of Fury|N|This is in the room with Gelgor. Use Shredder (click on the vines) to expose the Ancient Titan Chest|RANK|3|;6 -
 K Gelgor of the Blue Flame|QID|36391|M|34.0,38.6|T|Gelgor the Blue Flame|L|118230|N|Kill and loot for an ilvl 534 versatility trinket.|RANK|3|ITEM|118230|;in fissure of fury
@@ -553,7 +583,7 @@ t Trophy of Glory: Erosian|QID|35807|M|37.28,77.02|N|To Durotan.|
 t Trophy of Glory: Fungal Praetorian|QID|35814|M|37.28,77.02|N|To Durotan.|
 t Proof of Strength: Ancient Branch|QID|36094|M|46.29,69.31|N|To Limbflayer.|
 t Proof of Strength: Botani Bloom|QID|36086|M|46.29,69.31|N|To Limbflayer.|
-t Proof of Strength: Goren Tooth|QID|36948|M|46.29,69.31|N|To Limbflayer.|
+t Proof of Strength: Goren Tooth|QID|35948|M|46.29,69.31|N|To Limbflayer.|
 t Proof of Strength: Gronnling Scale|QID|36080|M|46.29,69.31|N|To Limbflayer.|
 t Proof of Strength: Orc Thorn|QID|36091|M|46.29,69.31|N|To Limbflayer.|
 t Proof of Strength: Wasp Stinger|QID|36101|M|46.29,69.31|N|To Limbflayer.|
@@ -566,7 +596,7 @@ C Strike While the Iron is Hot|QID|36573;36574|QO|1|M|46.0,69.2|CHAT|N|At Grinsl
 C Strike While the Iron is Hot|QID|36573;36574|QO|2|M|44.7,17.8|CHAT|N|Talk to Draka to begin. \nUse your extra action button to release the artifact, keep doing it as it comes off cooldown. \nKeep fighting until the scenario finishes.
 f The Iron Approach|QID|36573;36574|M|43.02,20.22|N|At Nisha.|ACTIVE|36573;36574|
 F Beastwatch|QID|36573;36574|M|43.02,20.22|N|At Nisha. Fly back to Beastwatch to turn in. It's a little faster to hearth if you want.|ACTIVE|36573;36574|
-T Strike While the Iron is Hot|QID|36573;36574|M|46.09,70.19|N|To Durotan. Your reward is a book that allows the purchase of a level 2 small or medium garrison building plan -- in Ashran, there is a breadcrumb quest to lead you there in a few steps.|
+T Strike While the Iron is Hot|QID|36573;36574|M|46.09,70.19|N|To Durotan. Your reward is a book that allows the purchase of a level 2 small or medium garrison building plan in Ashran. There is a breadcrumb quest to lead you there in a few steps.|
 
 L Level 94|QID|37290|LVL|94|N|You are probably close to, or already 95, but you need to be at least 94 to get the next few quests.|
 A News from Talador|QID|36494|M|46.09,70.19|N|From Durotan.|
@@ -653,7 +683,7 @@ R Ruins of Ata'gar|QID|34295|M|19.9,14.8|CC|Z|Frostfire Ridge|N|Run out of the c
 T Eliminate the Shadow Council|QID|34292|M|31.8,11.8|Z|Frostfire Ridge|N|To Cordana Felsong.|
 T To Capture Gul'dan|QID|34295|M|31.7,11.9|Z|Frostfire Ridge|N|To Archmage Khadgar.|
 
-H Town Hall|QID|36290|U|110560|M|31.7,11.9|Z|Frostfire Ridge|RANK|3|
+H Town Hall|QID|34681|U|110560|M|31.7,11.9|Z|Frostfire Ridge|RANK|3|
 
 N Finalize your buildings|QID|34681|M|51.63,63.03|N|Click on the scrolls for each of the buildings to finalize them.  Most will then have NPC's that will offer a quest. This step will need manually checked off.|
 

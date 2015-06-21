@@ -71,6 +71,12 @@ function WoWPro:AllIDsInTable(IDs,tabla)
     return QidMapReduce(IDs,false,"&",";",function (qid) return tabla[qid] end)
 end
 
+-- Wipe out all the QIDs in the table.
+function WoWPro:WipeQIDsInTable(IDs,tabla)
+    return QidMapReduce(IDs,false,"&",";",function (qid) tabla[qid] = nil; return true; end)
+end
+
+
 WoWPro.PetsOwned = nil
 
 -- Lazy check for existence of pets
@@ -111,14 +117,26 @@ function WoWPro.LoadGuideReal()
         return
     end
     
+    -- Need to register guides first
+    if WoWPro.Guides2Register then
+        -- Save the original guide to load
+        WoWPro.PuntedGuide = WoWPro.PuntedGuide or GID
+        -- pop off the next guide to load
+        GID = table.remove(WoWPro.Guides2Register)
+        while GID and not WoWPro.Guides[GID] do
+            GID = table.remove(WoWPro.Guides2Register)
+        end
+        if not GID then
+            WoWPro.Guides2Register = nil
+            GID = WoWPro.PuntedGuide
+            WoWPro.PuntedGuide = nil
+            WoWPro:dbp("Finished processing Guides2Register, back to loading normally.")
+        end
+        WoWProDB.char.currentguide = GID
+    end
+    
     WoWPro:dbp("WoWPro_LoadGuide: starting guide cleanup:  %s",tostring(GID))
     
-	--Re-initiallizing tags and counts--
-	for i,tag in pairs(WoWPro.Tags) do 
-		WoWPro[tag] = {}
-	end
-	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
-	
 	--Checking the GID and loading the guide --
 	if not GID then 
 		WoWPro:LoadNilGuide() 
@@ -394,7 +412,8 @@ function WoWPro.NextStep(k,i)
 			end
 		end
 	
-	
+	    -- WoWPro:dbp("Checkpoint Aleph for step %d",k)
+	    
 		-- Checking Prerequisites --
     	if WoWPro.prereq[k] then
     	    if string.find(WoWPro.prereq[k],"+") then
@@ -544,6 +563,8 @@ function WoWPro.NextStep(k,i)
             end
         end
             
+        -- WoWPro:dbp("Checkpoint Beth for step %d",k)
+         
 		-- Skipping profession quests if their requirements aren't met --
 		if WoWPro.prof[k] and not skip then
 			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
@@ -802,6 +823,12 @@ function WoWPro.NextStep(k,i)
                     skip = true
                     WoWPro.why[k] = "NextStep(): TownHall not right level"
                 end
+            elseif  Name == "townhallonly" then
+    		    local buildings = C_Garrison.GetBuildings();
+                if #buildings > 0 then
+        		    WoWPro.why[k] = "NextStep(): Buildings owned already."
+                    skip = true
+                end
             else
                 local idHash = {}
                 WoWPro:dbp("Checking to see if you own %s: %s",Name, ids)
@@ -820,15 +847,23 @@ function WoWPro.NextStep(k,i)
                 for i = 1, #buildings do
                     local building = buildings[i];
                     if idHash[building.buildingID] then
+                        local id, name, texPrefix, icon, rank, isBuilding, timeStart, buildTime, canActivate, canUpgrade, isPrebuilt = C_Garrison.GetOwnedBuildingInfoAbbrev(building.plotID);
                         owned = true
-                        WoWPro.why[k] = "NextStep(): Building owned."
+                        WoWPro.why[k] = "NextStep(): " .. name .." owned."
                         WoWPro:dbp("Building %d is owned",building.buildingID)
+                        if not WoWPro.map[k] then
+                            if WoWProCharDB.BuildingLocations[name] then
+                                WoWPro.map[k] = string.format("%2.2f,%2.2f",WoWProCharDB.BuildingLocations[name].x, WoWProCharDB.BuildingLocations[name].y)
+                            end
+                        end
                     end
                 end
                 -- skip if no buildings owned.
                 skip = not owned
             end
 		end
+        
+        -- WoWPro:dbp("Checkpoint Gimel for step %d",k)
         
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank and WoWPro.rank[k] then
@@ -839,11 +874,10 @@ function WoWPro.NextStep(k,i)
 			end
 		end
 		
-		skip = WoWPro[WoWPro.Guides[GID].guidetype]:NextStep(k, skip)
-		
-
+		-- WoWPro:dbp("Checkpoint Daleth for step %d",k)
         -- Do we have enough loot in bags?
 		if (WoWPro.lootitem and WoWPro.lootitem[k]) then
+		    WoWPro:dbp("Checking step %d for loot %s",k, WoWPro.lootitem[k])
 		    if GetItemCount(WoWPro.lootitem[k]) >= WoWPro.lootqty[k] then
 		        if WoWPro.action[k] == "T" then
 		            -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
@@ -878,12 +912,16 @@ function WoWPro.NextStep(k,i)
 		if WoWPro.unsticky[k] and WoWPro.ActiveStickyCount and i > WoWPro.ActiveStickyCount+1 then 
 			skip = true 
 		end
-		
+
+
+		skip = WoWPro[WoWPro.Guides[GID].guidetype]:NextStep(k, skip)
+				
 	until true
 	if skip then k = k+1 end
 		
 	end
 	
+	WoWPro.why[k] = "NextStep(): Step active."
 	return k
 end
 
@@ -920,7 +958,7 @@ function WoWPro.CompleteStep(step, why)
 	if WoWProDB.profile.checksound then	
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
-	WoWPro:print("WoWPro.CompleteStep(%d,%s)",step,WoWPro.step[step])
+	WoWPro:print("WoWPro.CompleteStep(%d,%s[%s],'%s')",step,WoWPro.action[step], WoWPro.step[step], why)
 	WoWProCharDB.Guide[GID].completion[step] = true
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWProCharDB.Guide[GID].completion[row.index] then
@@ -1192,7 +1230,7 @@ function WoWPro:CompleteAtEnd()
 end
 
 
-function WoWPro:OrderSteps()
+function WoWPro.OrderSteps(update)
     -- Put the stuff we did or dont want at the end
     local limit = WoWPro:CompleteAtEnd()
     WoWPro:Print("Limit at %d instead of %d",limit,WoWPro.stepcount)
@@ -1216,7 +1254,9 @@ function WoWPro:OrderSteps()
             WoWPro.why[anchor+1] = string.format("selected step as the next closest at a distance of %g",d)
         end
     end
-    WoWPro:UpdateGuide("WoWPro.OrderSteps")
+    if update then
+        WoWPro:UpdateGuide("WoWPro.OrderSteps")
+    end
 end
 
 
@@ -1244,12 +1284,12 @@ end
 
 function WoWPro:QuestPrereq(qid)
     WoWPro:DoQuest(qid)
-    local firstQuestsInPrerequisiteChain = {}
-    local allQuestsInPrerequisiteChain = {}
 
-    Grail:_PreparePrerequisiteInfo(Grail:QuestPrerequisites(qid, true), firstQuestsInPrerequisiteChain,
-                                   allQuestsInPrerequisiteChain, 0, true)
-    
+    local controlTable = { ["result"] = {}, ["preq"] = {}, ["lastIndexUsed"] = 0, ["doMath"] = true }
+    local lastIndexUsed = Grail._PreparePrerequisiteInfo(Grail:QuestPrerequisites(qid, true), controlTable)
+    local firstQuestsInPrerequisiteChain = controlTable.result
+    local allQuestsInPrerequisiteChain = controlTable.preq
+
     for i,q in ipairs(allQuestsInPrerequisiteChain) do
         WoWPro:DoQuest(q)
     end
