@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2015-06-22 16:23
+-- Who: Ludovicus
+-- Log: Got rid of stuttttter.
+
+-- URL: http://wow-pro.com/node/3207/revisions/27289/view
 -- Date: 2015-06-20 14:29
 -- Who: Ludovicus
 -- Log: PLaythrough

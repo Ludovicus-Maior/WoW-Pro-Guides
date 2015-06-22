@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-06-22 16:09
+-- Who: Ludovicus
+-- Log: Typo cleanup.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27290/view
+-- Date: 2015-06-22 16:06
+-- Who: Ludovicus
+-- Log: No quests for Paladins in Echo Isles.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27286/view
 -- Date: 2015-06-19 20:16
 -- Who: Ludovicus
 -- Log: Rogue typo
@@ -279,16 +289,6 @@
 -- Who: Ludovicus
 -- Log: Coord tweak around [The Burning Blade]
 
--- URL: http://wow-pro.com/node/3199/revisions/24452/view
--- Date: 2011-05-30 11:51
--- Who: Ludovicus
--- Log: [Thazz'ril's Pick] decoupling.
-
--- URL: http://wow-pro.com/node/3199/revisions/24451/view
--- Date: 2011-05-30 11:48
--- Who: Ludovicus
--- Log: Coord Tweak for Shamans
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
@@ -323,13 +323,13 @@ T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.|RANK|
 
 T Purge the Valley|QID|25168|M|55.94,74.79|N|To Master Gadrin.|
 A Riding On|QID|25171|PRE|25168|M|55.94,74.79|N|From Master Gadrin.|
-R Razor Hill|QID|25171|M|55.27,74.65|N|Talk to Raider Jhash for ride to Razor Hill.|CHAT|ACTIVE|25168|
+R Razor Hill|QID|25171|M|55.27,74.65|N|Talk to Raider Jhash for ride to Razor Hill.|CHAT|ACTIVE|25171|
 N Profession Trainers|QID|25171|M|52.96,41.90|N|When you arrive in Razor Hill, Runda the Profession Trainer, just outside the Barracks can teach you most professions, whilst Rawrk inside the barracks will teach you First Aid.|S|ACTIVE|25171|T|Runda|
+h Razor Hill|QID|25171|M|51.61,41.65|N|At Innkeeper Grosk.|ACTIVE|25171|
 T Riding On|QID|25171|M|51.92,43.48|N|To Gar'Thok.|
 
 A From Bad to Worse|QID|25173|M|51.92,43.48|N|From Gar'Thok.|PRE|25171|
 A Meats to Orgrimmar|QID|6365|M|50.76,42.78|R|Orc,Tauren,Troll|N|From Grimtak.|RANK|2|
-h Razor Hill|QID|6365|M|51.61,41.65|N|At Innkeeper Grosk.|ACTIVE|6365|
 T Meats to Orgrimmar|QID|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|To Burok.|RANK|2|
 
 A Ride to Orgrimmar|QID|6384|PRE|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|From Burok.|RANK|2|
@@ -412,7 +412,7 @@ T Watershed Patrol|QID|25188|RANK|2|M|49.55,40.17|N|To Thonk.|
 L Level 8 |QID|25238|LVL|8|N|You need to be Level 8 to continue with this guide.|
 
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
-R Dustwind Cave|QID|25232|M|54.13,40.71;55.68,38;52.79,28.53|N|Run to Dustwind Cave.|CN|ACTIVE|25232|
+R Dustwind Cave|QID|25232|M|54.13,40.71;55.68,38;52.79,28.53|N|Run to Dustwind Cave.|CS|ACTIVE|25232|
 C The Burning Blade|QID|25232|M|52.79,28.53|N|Kill and loot the Burning Blade thugs, neophytes and cultists for their spellscrolls.|
 H Razor Hill |QID|25232|N|Hearthstone to Razor Hill.|M|51.61,41.65|ACTIVE|25232|
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar.|
