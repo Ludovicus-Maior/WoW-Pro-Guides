@@ -76,6 +76,11 @@ function WoWPro:WipeQIDsInTable(IDs,tabla)
     return QidMapReduce(IDs,false,"&",";",function (qid) tabla[qid] = nil; return true; end)
 end
 
+-- Wipe out all the QIDs in the table.
+function WoWPro:SetQIDsInTable(IDs,tabla)
+    return QidMapReduce(IDs,false,"&",";",function (qid) tabla[qid] = true; return true; end)
+end
+
 
 WoWPro.PetsOwned = nil
 
@@ -389,9 +394,9 @@ function WoWPro.NextStep(k,i)
 		-- Quickly skip any manually skipped quests --
 		if WoWProCharDB.Guide[GID].skipped[k] then
 			WoWPro:dbp("SkippedStep(%d,%s [%s])",k,WoWPro.action[k],WoWPro.step[k]); skip = true ;  break
-		elseif WoWProCharDB.skippedQIDs[QID] then
+		elseif WoWPro:QIDsInTable(QID,WoWProCharDB.skippedQIDs) then
 			WoWProCharDB.Guide[GID].skipped[k] = true
-			WoWPro:dbp("SkippedQUID(%d, qid=%s, %s [%s])",k,QID,WoWPro.action[k],WoWPro.step[k]); skip = true ; break
+			WoWPro:dbp("SkippedQID(%d, qid=%s, %s [%s])",k,QID,WoWPro.action[k],WoWPro.step[k]); skip = true ; break
 		end
 		
 		-- Optional Quests --
@@ -459,7 +464,7 @@ function WoWPro.NextStep(k,i)
     				or WoWPro.action[k] == "C" 
     				or WoWPro.action[k] == "T" then
     				    -- LFO: Questionable, needs review
-    					WoWProCharDB.skippedQIDs[QID] = true
+    					WoWProCharDB.skippedQIDs[tonumber(jprereq)] = true
     					WoWProCharDB.Guide[GID].skipped[k] = true
     				else
     					WoWProCharDB.Guide[GID].skipped[k] = true
@@ -604,7 +609,7 @@ function WoWPro.NextStep(k,i)
 				    -- If they do not have the profession, mark the step and quest as skipped
 				    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
 				    WoWProCharDB.Guide[GID].skipped[k] = true
-				    WoWProCharDB.skippedQIDs[QID] = true
+				    WoWPro:SetQIDsInTable(QID,WoWProCharDB.skippedQIDs)
 				    WoWPro:dbp("Prof permaskip qid %s for no %s",WoWPro.QID[k],prof)
 				    skip = true 
 				    break
@@ -707,8 +712,7 @@ function WoWPro.NextStep(k,i)
 			-- Mark quests as skipped that we will assume will NEVER be done.
 			if WoWPro.action[k] == "A" and standingId < 3 and repID > 3 and skip then
 			    WoWProCharDB.Guide[GID].skipped[k] = true
-			    -- LFO: Questionable, needs review.
-			    WoWProCharDB.skippedQIDs[QID] = true
+			    WoWPro:SetQIDsInTable(QID,WoWProCharDB.skippedQIDs)
 			end
         end
         
