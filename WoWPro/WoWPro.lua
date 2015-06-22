@@ -584,6 +584,10 @@ function WoWPro:GuideName(guide, name)
     guide['name']=name
 end
 
+function WoWPro:GetGuideName(GID)
+    return WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone or GID
+end
+
 function WoWPro:GuideNextGuide(guide,nextGID)
     guide['nextGID'] = nextGID
 end

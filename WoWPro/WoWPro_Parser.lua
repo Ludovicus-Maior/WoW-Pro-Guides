@@ -468,6 +468,16 @@ function WoWPro:ParseSteps(steps)
 			end
 		end
 	end
+	-- OK, now add a standard D step at the end of every guide
+	local fini, nguide
+	nguide = WoWPro:NextGuide(GID)
+	if nguide then
+	    fini = string.format("D Onwards|N|This ends %s. %s is next.|",WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide))
+	else
+	    fini = string.format("D Fini|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|",WoWPro:GetGuideName(GID))
+	end
+	WoWPro.ParseQuestLine(faction, zone, i, fini)
+	    
 	if WoWPro.DebugLevel > 0 then
 	    if WoWPro.Guides[GID].acnt_level > 0 then
             if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel ~= WoWPro.Guides[GID].amin_level then
