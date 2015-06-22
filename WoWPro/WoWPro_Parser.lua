@@ -76,11 +76,11 @@ function WoWPro.SkipStep(index)
 				for k=1,numprereqs do
 					local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
 					if tonumber(kprereq) == tonumber(WoWPro.QID[currentstep]) 
-					and WoWProCharDB.skippedQIDs[WoWPro.QID[currentstep]] then
+					and WoWPro:QIDsInTable(WoWPro.QID[currentstep],WoWProCharDB.skippedQIDs) then
 						if WoWPro.action[j] == "A" 
 						or WoWPro.action[j] == "C" 
 						or WoWPro.action[j] == "T" then
-							WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = true
+						    WoWPro:SetQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
 						end
 						WoWPro:dbp("Skipping QID %s as well.", WoWPro.QID[j])
 						steplist = steplist.."- "..WoWPro.step[j].."\n"
@@ -106,12 +106,14 @@ function WoWPro.UnSkipStep(index)
 	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[index]))
 	        if tonumber(kqid) then
 	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = nil
+	            WoWPro:dbp("UnSkipStep(): unskipping QID %s",kqid)
 	        end
 	    end
 		WoWProCharDB.Guide[GID].skipped[index] = nil
 	else
 		WoWProCharDB.Guide[GID].skipped[index] = nil
 	end
+	WoWPro:dbp("UnSkipStep(): unskipping step %d", index)
 	
 	local function unskipstep(currentstep)
 		for j = 1,WoWPro.stepcount do if WoWPro.prereq[j] then
@@ -122,9 +124,9 @@ function WoWPro.UnSkipStep(index)
 					if WoWPro.action[j] == "A" 
 					or WoWPro.action[j] == "C" 
 					or WoWPro.action[j] == "T" then
-						WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = nil
+						WoWProCharDB.skippedQIDs[tonumber(kprereq)] = nil
+						WoWPro:dbp("UnSkipStep(): pre quid %s", kprereq)
 					end
-					WoWProCharDB.Guide[GID].skipped = {}
 					unskipstep(j)
 				end
 			end
@@ -756,9 +758,9 @@ function WoWPro:RowUpdate(offset)
 		row.step:SetText(step)
 		row.track:SetText("")
 		if step then row.check:Show() else row.check:Hide() end
-		if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
+		if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k],WoWProCharDB.skippedQIDs) then
 			row.check:SetChecked(true)
-			if WoWProCharDB.Guide[GID].skipped[k] or WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
+			if WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k],WoWProCharDB.skippedQIDs) then
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 			else
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
