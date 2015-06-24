@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2015-06-23 22:09
+-- Who: Ludovicus
+-- Log: Add flight points, lots of QO changes and a few coord tweaks
+
+-- URL: http://wow-pro.com/node/3217/revisions/26928/view
 -- Date: 2014-11-08 06:45
 -- Who: Emmaleah
 -- Log: Remove Dup N from A Survey the Lakeshore, and U's from C Survey the Lakeshore.
@@ -114,14 +119,14 @@ A Beyond Durotar|QID|25648|M|45.0,14.6|Z|Durotar|N|From Gor the Enforcer, just o
 T Beyond Durotar|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275;28496|
 
 A Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|From the Warchief's Command Board.|LEAD|25275;25648|
-T Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275;25648|
+T Warchief's Command: Azshara!|QID|28496|M|27.00,77.09|N|To Labor Captain Grabbit.|LEAD|25275;25648|
 
-A Venison for the Troops|QID|14118|M|26.88,76.98|N|From Ag'tor Bloodfist.|
-A The Eyes of Ashenvale|QID|14117|M|26.88,76.98|N|From Ag'tor Bloodfist.|
+A Venison for the Troops|QID|14118|M|26.82,76.95|N|From Ag'tor Bloodfist.|
+A The Eyes of Ashenvale|QID|14117|M|26.82,76.95|N|From Ag'tor Bloodfist.|
 C Venison for the Troops|QID|14118|S|M|27.98,68.76|N|Kill Weakened Mosshoof Stags and Talrendis Scouts while you are doing the next few quests.|
 C The Eyes of Ashenvale|QID|14117|S|M|29.80,74.71|N|Kill 8 Talrendis Scouts. If you loot Scout's Orders, activate the quest Return of the Highborne?|
-T Report to the Labor Captain|O|QID|25275|M|26.93,77.04|N|To Labor Captain Grabbit|
-A Runaway Shredder!|QID|14129|M|26.93,77.04|N|From Labor Captain Grabbit.|
+T Report to the Labor Captain|O|QID|25275|M|27.00,77.09|N|To Labor Captain Grabbit|
+A Runaway Shredder!|QID|14129|M|27.00,77.09|N|From Labor Captain Grabbit.|
 C Runaway Shredder!|QID|14129|M|27.00,72.83|N|Attack one of the runaway shredders and hop inside when it's damaged enough.|
 T Runaway Shredder!|QID|14129|M|27.00,72.83|N|(UI Alert)|
 
@@ -141,26 +146,27 @@ l Scout's Orders|QID|14127|RANK|2|M|29.95,74.40|L|47039|N|Kill and loot Talrendi
 A Return of the Highborne?|QID|14127|RANK|2|M|29.95,74.40|U|47039|N|From the Scout's Orders you looted.|
 C Venison for the Troops|QID|14118|US|M|27.08,72.91|N|Exit Shredder. Collect 15 Slabs of Venison from Weakened Mosshoof Stags.|
 C The Eyes of Ashenvale|QID|14117|US|M|29.80,74.71|N|Kill 8 Talrendis Scouts. |
-T Arborcide|QID|14155|M|26.90,77.06|N|To Labor Captain Grabbit.|
+T Arborcide|QID|14155|M|27.00,77.09|N|To Labor Captain Grabbit.|
 
-A Report to Horzak|QID|14162|M|26.90,77.06|N|From Labor Captain Grabbit.|
-T Venison for the Troops|QID|14118|M|26.87,76.90|N|To Ag'tor Bloodfist.|
-T The Eyes of Ashenvale|QID|14117|M|26.87,76.90|N|To Ag'tor Bloodfist.|
-T Return of the Highborne?|QID|14127|M|26.87,76.90|N|To Ag'tor Bloodfist.|
-A Return of the Highborne?|QID|14128|PRE|14127|RANK|2|M|26.87,76.90|N|From Ag'tor Bloodfist.|
-T Return of the Highborne?|QID|14128|M|29.65,66.96|N|To Malynea Skyreaver.|
-T Report to Horzak|QID|14162|M|29.15,66.34|N|To Horzak Zignibble.|
+A Report to Horzak|QID|14162|M|27.00,77.09|N|From Labor Captain Grabbit.|
+T Venison for the Troops|QID|14118|M|26.82,76.95|N|To Ag'tor Bloodfist.|
+T The Eyes of Ashenvale|QID|14117|M|26.82,76.95|N|To Ag'tor Bloodfist.|
+T Return of the Highborne?|QID|14127|M|26.82,76.95|N|To Ag'tor Bloodfist.|
+A Return of the Highborne?|QID|14128|PRE|14127|RANK|2|M|26.82,76.95|N|From Ag'tor Bloodfist.|
+T Return of the Highborne?|QID|14128|M|29.68,66.88|N|To Malynea Skyreaver.|
+T Report to Horzak|QID|14162|M|29.15,66.24|N|To Horzak Zignibble.|
 
-A Basilisk Bashin'|QID|14161|PRE|14162|M|29.15,66.34|N|From Horzak Zignibble.|
-A Stone Cold|QID|14165|M|29.15,66.34|N|From Horzak Zignibble.|
-A A Quota to Meet|QID|14197|M|29.21,66.44|N|From Foreman Fisk.|
+A Basilisk Bashin'|QID|14161|PRE|14162|M|29.15,66.24|N|From Horzak Zignibble.|
+A Stone Cold|QID|14165|M|29.15,66.24|N|From Horzak Zignibble.|
+A A Quota to Meet|QID|14197|M|29.21,66.44|N|From Foreman Fisk, who wanders.|
 C A Quota to Meet|QID|14197|S|M|23.20,67.44|N|Gather 20 ingots of Mountainfoot Iron.|
 C Basilisk Bashin'|QID|14161|M|25.50,68.50|N|Kill Greystone Basilisks while you search for a stonified Mountainfoot Miner at the Mountainfoot Strip Mine.|
 N Stone Cold|QID|14165|NC|M|26.56,68.50|N|Make sure you get a stonified Mountainfoot Miner on your back.|
-T Basilisk Bashin'|QID|14161|M|29.17,66.35|N|To Horzak Zignibble.|
-T Stone Cold|QID|14165|M|29.17,66.35|N|To Horzak Zignibble.|
+T Basilisk Bashin'|QID|14161|M|29.15,66.24|N|To Horzak Zignibble.|
+T Stone Cold|QID|14165|M|29.15,66.24|N|To Horzak Zignibble.|
 
-A The Perfect Prism|QID|14190|PRE|14165|M|29.17,66.35|N|From Horzak Zignibble.|
+A The Perfect Prism|QID|14190|PRE|14165|M|29.15,66.24|N|From Horzak Zignibble.|
+t A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|
 C The Perfect Prism|QID|14190|M|21.57,66.10|N|Kill Talrendis Saboteurs until you loot a Crystal Pendant.|
 C A Quota to Meet|QID|14197|US|M|23.20,67.44|N|Gather 20 ingots of Mountainfoot Iron.|
 T The Perfect Prism|QID|14190|M|20.29,70.31|N|To the Headquarters Radio.|
@@ -168,10 +174,10 @@ A Prismbreak|QID|14192|PRE|14190|M|20.29,70.31|N|From the Headquarters Radio.|
 T Prismbreak|QID|14192|M|20.09,70.06|N|To the Weapons Cabinet.|
 A Refleshification|QID|14194|PRE|14192|M|20.09,70.06|N|From the Weapons Cabinet.|
 C Refleshification|QID|14194|U|48104|M|24.56,72.63|N|Use The Refleshifier to de-stonify eight Mountainfoot Miners.|
-T A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk.|
-T Refleshification|QID|14194|M|29.16,66.33|N|To Horzak Zignibble.|
+T A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|
+T Refleshification|QID|14194|M|29.15,66.24|N|To Horzak Zignibble.|
 
-A Another Warm Body|QID|14468|M|29.44,66.76|RANK|2|N|From Private Worcester.|
+A Another Warm Body|QID|14468|M|29.52,66.84|RANK|2|N|From Private Worcester.|
 T Another Warm Body|QID|14468|M|29.43,57.68|N|To Commander Molotov.|
 A Hand-me-downs|QID|14469|RANK|2|M|29.43,57.68|N|From Commander Molotov.|
 A Military Breakthrough|QID|14470|RANK|2|M|29.38,57.61|N|From Glix Grindlock.|
@@ -191,18 +197,18 @@ A Profitability Scouting|QID|24452|RANK|2|M|29.46,57.67|N|From Commander Molotov
 C Profitability Scouting|QID|24452|NC|U|49701|M|31.31,49.92|N|Use the stealth field generator to infiltrate the Ruins of Eldarath and identify the Heart of Arkkoroc.|
 T Profitability Scouting|QID|24452|M|29.46,57.67|N|To Commander Molotov.|
 A Private Chat|QID|24453|PRE|24452|RANK|2|M|29.46,57.67|N|From Commander Molotov.|
-T Private Chat|QID|24453|M|29.55,66.73|N|Back to the Orgrimmar Rocketway Exchange, to Private Worcester.|
-A A Thousand Stories in the Sand|QID|14201|M|29.7,66.9|N|From Malynea Skyreaver.|
-A Survey the Lakeshore|QID|14202|M|29.71,67.11|N|From Custer Clubnik.|
+T Private Chat|QID|24453|M|29.52,66.84|N|Back to the Orgrimmar Rocketway Exchange, to Private Worcester.|
+A A Thousand Stories in the Sand|QID|14201|M|29.68,66.88|N|From Malynea Skyreaver.|
+A Survey the Lakeshore|QID|14202|M|29.59,66.85|N|From Custer Clubnik.|
 C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|S|N|Collect Recovered Artifacts.|
-C Survey North Marker|QID|14202|U|48665|QO|Survey North Marker: 1/1|M|34.69,71.57|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
-C Survey  Marker|QID|14202|U|48665|QO|Survey East Marker: 1/1|M|37.37,74.61|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
-C Survey the Lakeshore|QID|14202|QO|Survey West Marker: 1/1|M|34.29,76.62|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
+C Survey North Marker|QID|14202|U|48665|QO|2|M|34.69,71.57|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
+C Survey East Marker|QID|14202|U|48665|QO|3|M|37.37,74.61|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
+C Survey the Lakeshore|QID|14202|QO|1|M|34.29,76.62|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
 C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|US|N|Collect Recovered Artifacts.|
-T A Thousand Stories in the Sand|QID|14201|M|29.64,66.86|N|To Malynea Skyreaver.|
+T A Thousand Stories in the Sand|QID|14201|M|29.68,66.88|N|To Malynea Skyreaver.|
 
 A Memories of the Dead|QID|14215|PRE|14201|M|29.64,66.86|N|From Malynea Skyreaver.|
-T Survey the Lakeshore|QID|14202|M|29.71,67.11|N|To Custer Clubnik.|
+T Survey the Lakeshore|QID|14202|M|29.59,66.85|N|To Custer Clubnik, who wanders.|
 C Memories of the Dead|QID|14215|M|36.57,72.50;37.52,74.53|CS|N|Talk to the Spirit of Kalytha then follow the arrow to Archmage Selwyn.|
 T Memories of the Dead|QID|14215|M|37.52,74.53|N|(UI Alert)|
 A Mystery of the Sarcen Stone|QID|14216|PRE|14201|M|37.52,74.53|N|(UI Alert)|
@@ -210,16 +216,17 @@ C Mystery of the Sarcen Stone|QID|14216|M|35.52,75.28|N|Open the Ancient Stone C
 T Mystery of the Sarcen Stone|QID|14216|M|29.66,66.88|N|To Malynea Skyreaver.|
 A Gunk in the Trunk|QID|14209|PRE|14202|M|29.71,67.11|N|From Custer Clubnik.|
 C Gunk in the Trunk|QID|14209|M|30.02,67.37|N|Click on the Dozer and kill the Ectoplasmic Exhaust that appears. Loot the sample.|
-T Gunk in the Trunk|QID|14209|M|29.73,67.15|N|To Custer Clubnik.|
-A Dozercism|QID|14423|PRE|14209|M|29.73,67.15|N|From Custer Clubnik.|
+T Gunk in the Trunk|QID|14209|M|29.73,67.15|N|To Custer Clubnik, who wanders.|
+A Dozercism|QID|14423|PRE|14209|M|29.73,67.15|N|From Custer Clubnik, who wanders.|
 C Dozercism|QID|14423|U|49350|M|28.94,66.54|N|Use the Blessed Flaregun by Clubnik's Dozer. Be sure you have the Dozer targeted when the priest appears, or it is hard to target it afterwards.|
-T Dozercism|QID|14423|M|29.62,67.07|N|To Custer Clubnik.|
+T Dozercism|QID|14423|M|29.62,67.07|N|To Custer Clubnik, who wanders.|
 
 A Need More Science|QID|14424|M|29.62,67.07;29.39,66.63|CS|N|From Custer Clubnik. Ride the lift to the top of the tower and talk to the goblin for a rocket ride to the Southern Rocketway Terminus.|
 F Southern Rocketway Terminus|QID|14424|M|29.47,66.22|N|Go to the top of the tower, talk to the Bilgewater Rocket-jockey and ride the rocket to Southern Rocketway Terminus.|
-T Need More Science|QID|14424|M|50.38,74.25|N|To Assistant Greely.|
-A When Science Attacks|QID|14308|PRE|14424|M|50.38,74.25|N|From Assistant Greely.|
-A Mortar the Point|QID|14258|M|52.17,74.22|N|From Bombardier Captain Smooks.|
+f Southern Rocketway|QID|14424|M|51.49,74.28|N|Get flight point from Friz Groundspin|
+T Need More Science|QID|14424|M|50.41,74.29|N|To Assistant Greely.|
+A When Science Attacks|QID|14308|PRE|14424|M|50.41,74.29|N|From Assistant Greely.|
+A Mortar the Point|QID|14258|M|52.22,74.23|N|From Bombardier Captain Smooks.|
 C Mortar the Point|QID|14258|M|43.11,77.18|N|Collect Mortar shells.|S|
 C When Science Attacks|QID|14308|U|49132|M|43.39,76.07|N|Put out Lab fires, and put out Research Interns that are on fire.|S|
 A Bad Science! Bad!|QID|14322|M|45.09,75.46|N|From Twistex Happytongs.|
@@ -238,12 +245,12 @@ T When Science Attacks|QID|14308|M|43.80,77.36|N|To the Secret Lab Squawkbox.|
 A Segmentation Fault: Core Dumped|QID|14310|PRE|14308|M|43.80,77.36|N|From the Secret Lab Squawkbox.|
 C Segmentation Fault: Core Dumped|QID|14310|U|49132|M|49.37,74.92|N|Pull the lever! Use the Extinguisher on the cart when it starts flaming.|
 T Segmentation Fault: Core Dumped|QID|14310|M|50.38,74.28|N|To Assistant Greely.|
-A Mysterious Azsharite|QID|14370|M|50.38,74.28|N|From Assistant Greely.|
-A A Gigantic Snack|QID|14371|M|50.38,74.28|N|From Assistant Greely.|
-T Mortar the Point|QID|14258|M|52.21,74.23|N|To Bombardier Captain Smooks.|
+A Mysterious Azsharite|QID|14370|M|50.41,74.29|N|From Assistant Greely.|
+A A Gigantic Snack|QID|14371|M|50.41,74.29|N|From Assistant Greely.|
+T Mortar the Point|QID|14258|M|52.22,74.23|N|To Bombardier Captain Smooks.|
 
-A To Gut a Fish|QID|14262|M|50.70,75.23|N|From Torg Twocrush.|
-A Investigating the Sea Shrine|QID|14267|M|50.70,75.23|N|From Torg Twocrush.|
+A To Gut a Fish|QID|14262|M|50.68,75.30|N|From Torg Twocrush.|
+A Investigating the Sea Shrine|QID|14267|M|50.68,75.30|N|From Torg Twocrush.|
 C A Gigantic Snack|QID|14371|M|46.7,72.2|N|Kill and loot Mistwing Cliffdwellers.|S|
 C Mysterious Azsharite|QID|14370|M|50.55,82.10|N|Loot Azharite Formations off the ground. If you come across a "Crystallized Note" while looting the formations, I would recommend reading it for a laugh and a hint on what Azharite is.|
 C A Gigantic Snack|QID|14371|M|46.7,72.2|N|Kill and loot Mistwing Cliffdwellers.|US|
@@ -255,41 +262,41 @@ T The Keystone Shard|QID|14270|M|58.99,71.93|N|To the Naga Power Stone.|
 
 A Report to Twocrush|QID|14271|PRE|14270|M|58.99,71.93|N|From the Naga Power Stone.|
 C To Gut a Fish|QID|14262|M|55.49,76.45|US|N|Kill Spitelash Stormfurys and Seacallers.|
-T To Gut a Fish|QID|14262|M|50.70,75.24|N|To Torg Twocrush.|
-T Report to Twocrush|QID|14271|M|50.69,75.20|N|To Torg Twocrush.|
-A Sisters of the Sea|QID|14295|PRE|14271|RANK|3|M|50.69,75.20|N|From Torg Twocrush.|
+T To Gut a Fish|QID|14262|M|50.68,75.30|N|To Torg Twocrush.|
+T Report to Twocrush|QID|14271|M|50.68,75.30|N|To Torg Twocrush.|
+A Sisters of the Sea|QID|14295|PRE|14271|RANK|3|M|50.68,75.30|N|From Torg Twocrush.|
 T Mysterious Azsharite|QID|14370|M|50.45,74.37|N|To Assistant Greely.|
 T A Gigantic Snack|QID|14371|M|50.45,74.37|N|To Assistant Greely.|
 A Befriending Giants|QID|14377|M|50.45,74.37|N|From Assistant Greely.|
-K Lady Silisthra|QID|14295|M|62.81,76.32|QO|Lady Silisthra slain: 1/1|N|Kill Lady Silisthra, disable the Power Stone behind her to make it easier to kill her.|
-C Sisters of the Sea|QID|14295|M|63.13,79.38|N|Kill Lady Vesthra, disable the Power Stone behind her to make it easier to kill her.|
-T Sisters of the Sea|QID|14295|M|50.70,75.21|N|To Torg Twocrush.|
+K Lady Silisthra|QID|14295|M|62.81,76.32|QO|1|N|Kill Lady Silisthra, disable the Power Stone behind her to make it easier to kill her.|
+C Sisters of the Sea|QID|14295|M|63.13,79.38|N|Kill Lady Vesthra, disable the Power Stone behind her to make it easier to kill her.|QO|2|
+T Sisters of the Sea|QID|14295|M|50.68,75.30|N|To Torg Twocrush.|
 C Befriending Giants|QID|14377|M|47.78,75.47|N|Talk to Gormungan.|
 T Befriending Giants|QID|14377|M|50.39,74.30|N|To Assistant Greely.|
 
-A Azsharite Experiment Number One|QID|14385|PRE|14377|M|50.39,74.30|N|From Assistant Greely.|
+A Azsharite Experiment Number One|QID|14385|PRE|14377|M|50.41,74.29|N|From Assistant Greely.|
 A The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.50,74.75|N|From Hobart Grapplehammer.|
 C The Terrible Tinkers of the Ruined Reaches|QID|14383|S|M|43.49,83.00;40.07,84.43|CS|N|Follow the lit path West, kill gnomes on your way to Bingham Gadgetspring inside the house. Kill him.|
-l Giant-Sized Laxative|QID|14385|PRE|14377|M|43.49,83.00;40.07,84.43|CS|L|49230|N|The Laxative is upstairs in Bingham's house.|
-C Azsharite Experiment Number One|QID|14385|PRE|14377|M|47.8,75.5|N|Attempt to give the laxative to Gormungan.|
+l Giant-Sized Laxative|QID|14385|M|43.49,83.00;40.07,84.43|CS|QO|1|N|The Laxative is upstairs in Bingham's house.|
 C The Terrible Tinkers of the Ruined Reaches|QID|14383|US|M|43.49,83.00;40.07,84.43|CS|N|Kill the rest of the gnomes needed to finish the quest.|
-T Azsharite Experiment Number One|QID|14385|M|50.38,74.29|N|To Assistant Greely.|
-A Azsharite Experiment Number Two|QID|14388|PRE|14385|M|50.38,74.29|N|From Assistant Greely.|
+C Azsharite Experiment Number One|QID|14385|M|47.8,75.5|N|Attempt to give the laxative to Gormungan.|QO|2|
+T Azsharite Experiment Number One|QID|14385|M|50.41,74.29|N|To Assistant Greely.|
+A Azsharite Experiment Number Two|QID|14388|PRE|14385|M|50.41,74.29|N|From Assistant Greely.|
 T The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.51,74.74|N|To Hobart Grapplehammer.|
 C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk to Assistant Greely when you're ready to shrink. Hop on a rat and run to Gormungan.|
-T Azsharite Experiment Number Two|QID|14388|M|50.39,74.29|N|To Assistant Greely.|
+T Azsharite Experiment Number Two|QID|14388|M|50.41,74.29|N|To Assistant Greely.|
 
 A A Hello to Arms|QID|24458|M|50.53,74.77;51.48,74.32|CS|N|From Hobart Grapplehammer.|
 F Bilgewater Harbor|QID|24458|M|51.48,74.3|N|Speak with Friz Groundspin for a free airlift.|
-A Operation Fishgut|QID|14478|M|56.99,50.13|N|From the Wrenchmen Recruitment Poster.|
+f Bilgewater Harbor|QID|24458|M|52.92,49.85|N|Head down to the docks to get the flight point.|
+A Operation Fishgut|QID|14478|M|52.31,50.30|N|From the Wrenchmen Recruitment Poster on the column.|
 h Bilgewater Harbor|QID|24458|M|57.02,50.29|N|At Grimy Greasefingers.|
-A Azshara Blues|QID|14407|M|59.38,50.68|N|From Teemo.|
 T A Hello to Arms|QID|24458|M|60.51,50.86|N|To Bleenik Fizzlefuse.|
 T Operation Fishgut|QID|14478|M|60.62,50.67|N|To Commander Molotov.|
 A Rapid Deployment|QID|24455|PRE|14478|M|60.62,50.67|N|From Commander Molotov.|
 T Rapid Deployment|QID|24455|M|58.07,52.32|N|To Captain Desoto.|
 A There Are Many Like It|QID|14479|PRE|24455|M|58.07,52.32|N|From Captain Desoto.
-F The Shattered Strand|QID|24437|M|57.89,52.22|N|Hop on the Surface to Other Surface Transport rocket when you're ready to leave.|
+F The Shattered Strand|QID|14479|M|57.89,52.22|N|Hop on the Surface to Other Surface Transport rocket when you're ready to leave.|
 A First Come, First Served|QID|24437|M|39.14,51.77|N|From Ruckus.|
 T There Are Many Like It|QID|14479|M|41.50,53.63|N|To Lieutenant Drex.|
 
@@ -297,9 +304,9 @@ A Mop Up|QID|24435|PRE|14479|M|41.50,53.63|N|From Lieutenant Drex.|
 A Halo Drops|QID|24436|M|41.41,53.92|N|From Sergeant Hort.|
 C Mop Up|QID|24435|PRE|14479|S|M|41.50,53.63|N|Kill Naga.|
 C Halo Drops|QID|24436|U|49679|M|41.41,53.92|N|Use the Flare Gun near Wounded Soldiers.|S|
-N Southern Pagoda|QID|24437|U|49685|M|43.88,59.92|QO|Southern Pagoda claimed: 1/1|N|Stand in the blue light and use the Flag and claim the Southern Pagoda.|
-N Big ol' Tower|QID|24437|U|49685|M|43.6,43.42|QO|Big ol' Tower claimed: 1/1|N|Stand in the blue light and use the Flag and claim the Big ol' Tower.|
-C First Come, First Served|QID|24437|U|49685|M|45.46,38.54|N|Stand in the blue light and use the Flag and claim the Northern Vista.|
+N Southern Pagoda|QID|24437|U|49685|M|43.88,59.92|QO|1|N|Stand in the blue light and use the Flag and claim the Southern Pagoda.|
+N Big ol' Tower|QID|24437|U|49685|M|43.6,43.42|QO|2|N|Stand in the blue light and use the Flag and claim the Big ol' Tower.|
+C First Come, First Served|QID|24437|U|49685|M|45.46,38.54|QO|3|N|Stand in the blue light and use the Flag and claim the Northern Vista.|
 C Halo Drops|QID|24436|U|49679|M|41.41,53.92|N|Use the Flare Gun near Wounded Soldiers.|US|
 C Mop Up|QID|24435|PRE|14479|US|M|41.50,53.63|N|Finish killing Nagas for this quest.|
 T First Come, First Served|QID|24437|M|39.14,51.77|N|To Ruckus.|
@@ -328,6 +335,7 @@ T Handling the Goods|QID|14486|M|34.52,44.71|N|To Tora Halotrix.|
 
 A Shore Leave|QID|24449|PRE|14485|M|34.33,44.88;34.48,44.59|CS|N|From Captain Tork.
 T Shore Leave|QID|24449|M|60.59,50.57|N|To Uncle Bedlam. Hop on the Military Gyrocopter when ready to leave.|
+A Azshara Blues|QID|14407|M|59.38,50.68|N|From Teemo.|
 T Azshara Blues|QID|14407|M|55.47,52.16|N|To Kalec.|
 A Friends Come In All Colors|QID|14130|PRE|14407|M|55.47,52.16|N|From Kalec.|
 F Bitter Reaches|QID|14130|M|52.93,49.86|N|The flight point you're actually headed to is Northern Rocketway north of Bilgewater Harbor.|
