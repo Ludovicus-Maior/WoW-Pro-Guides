@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('LudoBuildingsHorde', 'Achievements', 'Frostfire Ridge', 'Ludovicus', 'Horde')
 WoWPro:GuideLevels(guide,90, 100, 92)
 WoWPro:GuideIcon(guide,"ACH",9096)
@@ -113,7 +117,6 @@ T Big Frostfire Gun|QID|36627|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Bla
 U Learn Engineering skill|QID|33493|U|111921|M|50.03,68.90|P|Engineering;202|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Engineering Works Blueprints|QID|33493|U|109258|M|50.03,68.90|P|Engineering;202|N|After you learn check this step off manually.|
 
-
 ; Now the quests to start up the buildings.
 ;if you chose the lumber mill  MED
 A Easing into Lumberjacking|QID|36137|M|51.63,63.03|N|From Lumber Lord Okton.|BUILDING|LumberMill;40;41;138|
@@ -201,7 +204,6 @@ A Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|
 C Go trap an animal|QID|36345|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a wolf (in the shivering trench ~55,62) if you want fur (cloth) and a clefthoof (nearest concentration is outside of sootstained mines ~26,46) if you are interested in leather. You can trap more if you want, up to 7 can be turned in each day.|
 C Place a work order|QID|36345|QO|2|M|51.71,58.32|Z|Frostwall|N|At Farmer Lok'lub, sometimes he gets bored and wanders around, I have found him as far away as my garrison's graveyard.|
 T Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|To Farmer Lok'lub|
-
 
 ]]
 

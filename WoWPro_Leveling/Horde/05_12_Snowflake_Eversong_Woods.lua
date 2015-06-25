@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2015-06-22 16:23
+-- Who: Ludovicus
+-- Log: Got rid of stuttttter.
+
+-- URL: http://wow-pro.com/node/3207/revisions/27289/view
 -- Date: 2015-06-20 14:29
 -- Who: Ludovicus
 -- Log: PLaythrough
@@ -221,13 +226,6 @@
 -- URL: http://wow-pro.com/node/3207/revisions/23279/view
 -- Date: 2010-12-02 23:20
 -- Who: Jiyambi
-
-local guide = WoWPro:RegisterGuide("SnoEve0512", "Leveling", "Eversong Woods", "Snowflake", "Horde")
-WoWPro:GuideLevels(guide,5,10, 5.78882)
-WoWPro:GuideNextGuide(guide, "SnoGho1221")
-WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_BloodElf_Male","Interface\\Icons\\Achievement_Character_BloodElf_Female"))
-WoWPro:GuideSteps(guide, function()
-return [[
 
 local guide = WoWPro:RegisterGuide("SnoEve0512", "Leveling", "Eversong Woods", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,5,10, 5.78882)

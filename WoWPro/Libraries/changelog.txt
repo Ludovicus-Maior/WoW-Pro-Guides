@@ -1,3 +1,7 @@
+Ace3 Release - Revision r1134 (June 23rd, 2015)
+-----------------------------------------------
+AceGUI-3.0: TreeGroup: Prevent Word Wrap in tree elements 
+
 Ace3 Release - Revision r1128 (February 24th, 2015)
 ---------------------------------------------------
 AceGUI-3.0: Fixed an error in GameTooltip handling causing wrong formatting in some cases

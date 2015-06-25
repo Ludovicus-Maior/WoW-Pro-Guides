@@ -3,7 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-
 local guide = WoWPro:RegisterGuide('LudoDraenorLoots',"Achievements",'Draenor', 'Ludovicus','Neutral')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Garrison_Resource")
 WoWPro.Achievements:GuideMisc(guide, "Equipment, Garrison $, and $$$", "Loots", "Draenor")
@@ -531,7 +530,6 @@ A Relic of Telmor|QID|34256|M|47.00,91.70|Z|Talador|N|Trash Item|ITEM|116128|
 A Teroclaw Nest 6|QID|35162|M|70.90,35.50|Z|Talador|N|Pet|ITEM|112699|; Only one Teroclaw Nest can be looted
 A Light of the Sea|QID|34258|M|38.20,12.50|Z|Talador|N|Garrison Resources|ITEM|$824|
 A Ketya's Stash|QID|34290|M|54.00,27.60|Z|Talador|N|Pet|ITEM|116402|
-
 
 ]]
 

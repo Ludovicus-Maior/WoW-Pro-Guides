@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-06-22 16:09
+-- Who: Ludovicus
+-- Log: Typo cleanup.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27290/view
+-- Date: 2015-06-22 16:06
+-- Who: Ludovicus
+-- Log: No quests for Paladins in Echo Isles.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27286/view
 -- Date: 2015-06-19 20:16
 -- Who: Ludovicus
 -- Log: Rogue typo
@@ -279,16 +289,6 @@
 -- Who: Ludovicus
 -- Log: Coord tweak around [The Burning Blade]
 
--- URL: http://wow-pro.com/node/3199/revisions/24452/view
--- Date: 2011-05-30 11:51
--- Who: Ludovicus
--- Log: [Thazz'ril's Pick] decoupling.
-
--- URL: http://wow-pro.com/node/3199/revisions/24451/view
--- Date: 2011-05-30 11:48
--- Who: Ludovicus
--- Log: Coord Tweak for Shamans
-
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.05357)
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
@@ -297,6 +297,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N You silly Death Knight|QID|24764|C|DeathKnight|N|Do not bother with this zone.  There are no quests for YOU.|
+N You silly Palandin|QID|24764|C|Paladin|N|Do not bother with this zone.  There are no quests for YOU.|
 A The Rise of the Darkspear|QID|31159|C|Monk|M|42.82,53.44|N|From Jin'thala.|
 A The Rise of the Darkspear|QID|24764|C|Druid|M|42.82,53.44|N|From Jin'thala.|
 A The Rise of the Darkspear|QID|24750|C|Mage|M|42.82,53.44|N|From Jin'thala.|

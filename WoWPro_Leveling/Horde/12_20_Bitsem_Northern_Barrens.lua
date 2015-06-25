@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2015-06-22 16:11
+-- Who: Ludovicus
+-- Log: Played through on a Level 14 Pally.  Lost of QO changes.
+
+-- URL: http://wow-pro.com/node/3214/revisions/26927/view
 -- Date: 2014-11-08 06:39
 -- Who: Emmaleah
 -- Log: Delete Dup RANK tag on A Disciples of Naralex
@@ -130,9 +135,9 @@ A Supplies for the Crossroads|QID|5041|RANK|1|M|67.57,38.85|N|From Halga Bloodey
 
 R Cave|QID|872;5041|M|65.92,52.50|CC|N|Head to the entrance of the Cave.|
 C Supplies for the Crossroads|QID|5041|NC|S|M|66.32,51.89;63.03,56.47|CN|N|Collect the Supply Crates from the floor in the cave.|
-C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Thornweavers.|S|QO|Razormane Thornweaver slain: 5/5|
-C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Defenders.|S|QO|Razormane Defender slain: 5/5|
-K Kreenig Snarlsnout|QID|872|M|64.3,55.15|N|Kill and loot Kreenig Snarlsnout for his tusk. He's on a ledge overlooking the lake. Run through the cave to the lake, then follow the path upwards to the left.|QO|Kreenig Snarlsnout's Tusk: 1/1|
+C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Thornweavers.|S|QO|1|
+C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Defenders.|S|QO|2|
+K Kreenig Snarlsnout|QID|872|M|64.3,55.15|N|Kill and loot Kreenig Snarlsnout for his tusk. He's on a ledge overlooking the lake. Run through the cave to the lake, then follow the path upwards to the left.|QO|3|
 C Supplies for the Crossroads|QID|5041|NC|US|M|63.03,56.47|N|Finish collecting the Supply Crates from the floor in the cave.|
 C The Far Watch Offensive|QID|872|M|65.92,52.50|N|Finish killing the Razormane Thornweavers and Thornweavers as you head out of the cave.|US|
 
@@ -186,7 +191,7 @@ f The Crossroads |QID|13992|M|48.7,58.67|N|Get The Crossroads flightpoint from D
 A Fungal Spores|QID|848|RANK|1|M|48.63,58.45|N|From Apothecary Helbrim.|
 A The Forgotten Pools|QID|870|RANK|1|M|49.41,58.67|N|From Tonga Runetotem.|
 
-A Disciples of Naralex|QID|26878|M|49.41,58.67|N|*DUNGEON QUEST* - only accept if you plan on doing the Wailing Caverns Instance, otherwise skip this step. From Tonga Runetotem.|RANK|3|
+A Disciples of Naralex|QID|26878|M|49.41,58.67|LVL|15|N|*DUNGEON QUEST* - only accept if you plan on doing the Wailing Caverns Instance, otherwise skip this step. From Tonga Runetotem.|RANK|3|
 
 h The Crossroads|QID|13992|M|49.60,57.95|N|At Innkeeper Boorand Plainswind.|
 
@@ -226,7 +231,7 @@ C Echeyakee|QID|881|U|10327|M|47.48,44.01|N|Use the Horn of Echeyakee at his lai
 
 T Echeyakee|QID|881|M|49.98,59.82|N|To Sergra Darkthorn.|
 A Into the Raptor's Den|QID|905|PRE|881|RANK|1|M|49.98,59.82|N|From Sergra Darkthorn.|
-l Sunscale Feather|QID|905|L|5165 3|S|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|
+l Sunscale Feather|QID|905|L|5165 3|S|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|ACTIVE|905|
 A Flushing Out Verog|QID|14072|RANK|1|M|55.20,78.40|N|From Shoe.|
 A King of Centaur Mountain|QID|13995|RANK|2|M|54.97,78.57|N|Escort quest. From Gorgal Angerscar.|
 C Flushing Out Verog|QID|14072|S|NC|M|52.94,80.85|N|Collect Centaur Intelligence from centaur camps while questing.|
@@ -242,12 +247,12 @@ A The Stagnant Oasis|QID|877|PRE|13988|RANK|1|M|60.73,85.38|N|From Jerrik Highmo
 A Altered Beings|QID|880|RANK|1|M|60.60,85.34|N|From Jerrik Highmountain.|
 
 C Altered Beings|QID|880|S|M|55.36,79.14|N|From now on kill Oasis Snapjaws for their shells.|
+C The Stagnant Oasis|QID|877|NC|U|5068|M|55.91,80.76|N|Use the Dried Seeds underwater at the fissure.|
 C Flushing Out Verog|QID|14072|US|NC|M|52.94,80.85;51.02,83.40;58.26,82.22;52.94,80.85|CN|N|Finish collecting Centaur Intelligence from huts.|
 l Sunscale Feather|QID|905|L|5165 3|US|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|M|48.27,73.44|
-N Visit Blue Raptor Nest|QID|905|NC|QO|Visit Blue Raptor Nest: 1/1|U|5165|M|48.57,74.81|N|Use the feather at the blue nest.|
-N Visit Red Raptor Nest|QID|905|NC|QO|Visit Red Raptor Nest: 1/1|U|5165|M|49.67,75.13|N|Use the feather at the red nest.|
-C Into the Raptor's Den|QID|905|U|5165|M|47.92,74.24;48.02,76.14|CS|N|Finally use the feather at the yellow nest.|
-C The Stagnant Oasis|QID|877|NC|U|5068|M|55.91,80.76|N|Use the Dried Seeds underwater at the fissure.|
+N Visit Blue Raptor Nest|QID|905|NC|QO|3|U|5165|M|48.57,74.81|N|Use the feather at the blue nest.|
+N Visit Red Raptor Nest|QID|905|NC|QO|1|U|5165|M|49.67,75.13|N|Use the feather at the red nest.|
+C Into the Raptor's Den|QID|905|U|5165|M|47.92,74.24;48.02,76.14|CS|N|Finally use the feather at the yellow nest.|QO|2|
 C Altered Beings|QID|880|US|M|55.36,79.14|N|Finish killing snapjaws.|
 
 T Flushing Out Verog|QID|14072|M|55.20,78.40|N|To Shoe.|
@@ -262,10 +267,10 @@ T The Stagnant Oasis|QID|877|PRE|13988|M|49.48,58.73|N|To Tonga Runetotem.|
 T Altered Beings|QID|880|M|49.48,58.73|N|To Tonga Runetotem.|
 T In Fungus We Trust|QID|13998|M|48.65,58.38|N|To Apothecary Helbrim.|
 A Who's Shroomin' Who?|QID|13999|PRE|13998|RANK|1|M|48.65,58.38|N|From Apothecary Helbrim.|
-A Deathgate's Reinforcements|QID|14073|RANK|1|M|48.68,59.54|N|From Thork.|
+A Deathgate's Reinforcements|QID|14073|LVL|16|RANK|1|M|48.68,59.54|N|From Thork.|
 
 T Deathgate's Reinforcements|QID|14073|M|37.79,55.33|N|To Regthar Deathgate.|
-A Centaur Bracers|QID|855|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
+A Centaur Bracers|QID|855|LVL|15|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 A Hezrul Bloodmark|QID|852|PRE|14073|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 
 C Centaur Bracers|QID|855|S|M|39.71,70.36|N|Kill Kolkar Marauders and Stormseers and loot their Bracers.|
@@ -275,13 +280,14 @@ C Centaur Bracers|QID|855|US|M|39.71,70.36|N|Finish collecting 10 Centaur Bracer
 T Hezrul Bloodmark|QID|852|M|37.82,55.28|N|To Regthar Deathgate.|
 T Centaur Bracers|QID|855|M|37.82,55.28|N|To Regthar Deathgate.|
 
-A Counterattack!|QID|4021|RANK|1|M|37.82,55.28|N|From Regthar Deathgate.|
+A Counterattack!|QID|4021|PRE|14073|RANK|1|M|37.82,55.28|N|From Regthar Deathgate.|
 C Counterattack!|QID|4021|M|36.06,54.79|N|Kill Kolkar centaur until Krom'zar appears, then slay him. Don't forget to take a Piece of Krom'zar's Banner.|
 T Counterattack!|QID|4021|M|37.88,55.23|N|To Regthar Deathgate.|
-F Ratchet|QID|13991|M|48.71,58.68|N|Head to The Crossroads and fly to Ratchet.|
+R Ratchet|QID|13991|M|66.90,72.72|N|Head to The Crossroads and ride to Ratchet.|
+f Ratchet|QID|13991|M|69.13,70.70|N|Get the flight point from Bragok|
 T The Purloined Payroll|QID|13991|M|66.90,72.72|N|To Gazrog.|
 A Investigate the Wreckage|QID|14066|PRE|13991|RANK|1|M|66.90,72.72|N|From Gazrog.|
-A A Captain's Vengeance|QID|891|RANK|2|M|67.64,74.06|N|From Captain Thalo'thas Brightsun.|
+A A Captain's Vengeance|QID|891|RANK|2|M|67.72,74.00|N|From Captain Thalo'thas Brightsun.|
 T Who's Shroomin' Who?|QID|13999|M|67.07,74.78|N|To Sashya.|
 
 h Ratchet|QID|14066|M|67.29,74.68|N|At Innkeeper Wiley.|
@@ -292,35 +298,35 @@ A WANTED: Cap'n Garvey|QID|895|RANK|2|M|68.28,71.28|N|From the WANTED poster.|
 A Southsea Freebooters|QID|887|RANK|2|M|69.53,72.88|N|From Wharfmaster Dizzywig.|
 A Take it up with Tony|QID|14052|RANK|1|M|69.53,72.88|N|From Wharfmaster Dizzywig.|
 
-C Investigate the Wreckage|QID|14066|NC|M|58.86,67.19|N|Head to the waypoint to investigate the wreckage.|
+C Investigate the Wreckage|QID|14066|NC|M|65.99,66.91|N|Head to the waypoint to investigate the wreckage.|
 T Investigate the Wreckage|QID|14066|M|58.86,67.19|N|(UI Alert)|
 
 A To Track a Thief|QID|869|PRE|14066|RANK|1|M|58.86,67.19|N|(UI Alert)|
-A Waptor Twapping|QID|14068|RANK|1|M|62.37,63.88|N|From Kala'ma.|
+A Waptor Twapping|QID|14068|RANK|1|M|62.03,63.26|N|From Kala'ma.|
 C To Track a Thief|QID|869|NC|M|62.83,61.83|N|Find the set of tracks.|
 T To Track a Thief|QID|869|M|62.36,61.43|N|(UI Alert)|
 
 A The Stolen Silver|QID|14067|PRE|869|RANK|1|M|62.36,61.43|N|(UI Alert)|
-K Sunscale Ravagers|QID|14067|S|QO|Sunscale Ravager slain: 8/8|M|62.74,61.66|N|Kill Sunscale Ravagers.|
-K Sunscale Scytheclaws|QID|14067|S|QO|Sunscale Scytheclaw slain: 4/4|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
+K Sunscale Ravagers|QID|14067|S|QO|1|M|62.74,61.66|N|Kill Sunscale Ravagers.|
+K Sunscale Scytheclaws|QID|14067|S|QO|2|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
 C Waptor Twapping|QID|14068|S|U|46853|M|63.13,59.18|N|Use the Waptor Twap near Raptors, then loot the trap.|
-l Stolen Silver|QID|14067|L|5061|M|63.72,58.79|N|Loot the Stolen Silver from the Stolen Silver Lockbox.|
+l Stolen Silver|QID|14067|QO|3|M|63.72,58.79|N|Loot the Stolen Silver from the Stolen Silver Lockbox.|
 
 C It's Gotta be the Horn|QID|865|M|65.08,58.80|N|Kill Reaperclaw and his minions. Loot his horn.|
 C Waptor Twapping|QID|14068|US|U|46853|M|63.13,59.18|N|Use the Waptor Twap near Raptors, then loot the trap.|
-K Sunscale Ravagers|QID|14067|US|QO|Sunscale Ravager slain: 8/8|M|62.74,61.66|N|Kill Sunscale Ravagers.|
-K Sunscale Scytheclaws|QID|14067|US|QO|Sunscale Scytheclaw slain: 4/4|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
-T Waptor Twapping|QID|14068|M|62.38,63.87|N|To Kala'ma.|
+K Sunscale Ravagers|QID|14067|US|QO|1|M|62.74,61.66|N|Kill Sunscale Ravagers.|
+K Sunscale Scytheclaws|QID|14067|US|QO|2|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
+T Waptor Twapping|QID|14068|M|62.03,63.26|N|To Kala'ma.|
 
 H Ratchet|QID|14067|NC|M|66.87,72.78|N|Hearth to Ratchet.|
 
 T The Stolen Silver|QID|14067|M|66.94,72.84|N|To Gazrog.|
 T It's Gotta be the Horn|QID|865|M|67.85,71.52|N|To Mebok Mizzyrix.|
 
-l Theramore Medals|QID|891|S|M|71.51,86.54|L|5078 10|N|From now on, kill Theramore mobs. Be sure to loot the Medals from them.|
-K Lieutenant Pyre|QID|891|M|70.4,84.1|QO|Lieutenant Pyre slain: 1/1|T|Lieutenant Pyre|N|Kill Lieutenant Pyre. She stays near the archers.|
-K Lieutenant Buckland|QID|891|M|70.91,85.34|QO|Lieutenant Buckland slain: 1/1|T|Lieutenant Buckland|N|Kill Lieutenant Buckland. He wanders from around the holding pen and the boat.|
-l Theramore Medals|QID|891|US|M|71.51,86.54|L|5078 10|N|Finish gathering Theramore Medals.|
+l Theramore Medals|QID|891|S|M|71.51,86.54|QO|3|N|From now on, kill Theramore mobs. Be sure to loot the Medals from them.|
+K Lieutenant Pyre|QID|891|M|70.4,84.1|QO|2|T|Lieutenant Pyre|N|Kill Lieutenant Pyre. She stays near the archers.|
+K Lieutenant Buckland|QID|891|M|70.91,85.34|QO|1|T|Lieutenant Buckland|N|Kill Lieutenant Buckland. He wanders from around the holding pen and the boat.|
+l Theramore Medals|QID|891|US|M|71.51,86.54|QO|3|N|Finish gathering Theramore Medals.|
 
 C Southsea Freebooters|QID|887|S|M|77.61,89.48|N|Finish killing 8 Southsea Cutthroats or Privateers on Fray Island.|
 
@@ -377,12 +383,12 @@ T Gazlowe's Fortune|QID|14050|M|68.36,69.09|N|To Gazlowe.|
 
 A Raging River Ride|QID|26769|PRE|14050|RANK|1|M|68.36,69.09|N|From Gazlowe.|
 C Raging River Ride|QID|26769|M|72.96,65.53|N|Hop on the riverboat for a free ride.|
-T Raging River Ride|QID|26769|M|62.55,16.86|N|To Nozzlepot.|
+f Nozzlepot's Outpost|QID|26769|M|62.30,17.12|N|Get flight point from Gazrix.|
+h Nozzlepot's Outpost|QID|26769|M|62.52,16.65|N|At Innkeeper Kritzle.|
+T Raging River Ride|QID|26769|M|62.50,16.75|N|To Nozzlepot.|
 
-h Nozzlepot's Outpost|QID|29087|M|62.52,16.65|N|At Innkeeper Kritzle.|
-
-A Sludge Investigation|QID|29087|M|62.55,16.86|N|From Nozzlepot.|
-A Hyena Extermination|QID|29088|M|62.55,16.86|N|From Nozzlepot.|
+A Sludge Investigation|QID|29087|M|62.50,16.75|N|From Nozzlepot.|
+A Hyena Extermination|QID|29088|M|62.50,16.75|N|From Nozzlepot.|
 A Competition Schmompetition|QID|29086|M|62.23,17.40|RANK|1|N|From Sputtervalve.|
 
 ; Venture Co. Drill Site
@@ -401,8 +407,8 @@ C The Escape|QID|863|NC|M|57.55,18.23;54.7,20.7|CS|N|Escort Wizzlecrank out of t
 C Hyena Extermination|QID|29088|M|53,25|N|Kill Hyenas.|
 C Competition Schmompetition|QID|29086|M|59.13,18.49|RANK|1|N|Kill Drudgers, Mercenaries, or Peons.|US|
 
-T Sludge Beast!|QID|29089|M|62.55,16.86|N|To Nozzlepot.|
-T Hyena Extermination|QID|29088|M|62.55,16.86|N|To Nozzlepot.|
+T Sludge Beast!|QID|29089|M|62.50,16.75|N|To Nozzlepot.|
+T Hyena Extermination|QID|29088|M|62.50,16.75|N|To Nozzlepot.|
 T Competition Schmompetition|QID|29086|M|62.29,17.43|N|To Sputtervalve.|
 T The Escape|QID|863|M|62.29,17.43|N|To Sputtervalve.|
 A Samophlange|QID|29021|M|62.23,17.40|RANK|1|N|From Sputtervalve.|
@@ -429,11 +435,11 @@ T Samophlange Repair|QID|14003|M|62.62,17.00|N|To Brak Blusterpipe.|
 A Wenikee Boltbucket|QID|29026|RANK|1|M|62.62,17.00|N|From Brak Blusterpipe.|
 T Wenikee Boltbucket|QID|29026|M|62.62,17.00;44.37,24.94|CC|N|Talk to Brak to teleport directly to her. To Wenikee Boltbucket.|
 A Nugget Slugs|QID|29027|PRE|29026|RANK|1|M|44.37,24.94|N|From Wenikee Boltbucket.|
-A A Burning Threat|QID|29090|RANK|1|M|44.3,25.1|N|From Brogor.|
+A A Burning Threat|QID|29090|RANK|1|M|44.34,25.10|N|From Brogor.|
 C A Burning Threat|QID|29090|M|42,32|N|Kill 8 members of the Burning Blade.|S|
 C Nugget Slugs|QID|29027|NC|M|42,32|N|Collect Slugs from the Tool Buckets all around the farm.|
 C A Burning Threat|QID|29090|M|42,32|N|Kill 8 members of the Burning Blade.|US|
-T A Burning Threat|QID|29090|RANK|1|M|44.2,25.0|N|To Brogor.|
+T A Burning Threat|QID|29090|RANK|1|M|44.34,25.10|N|To Brogor.|
 T Nugget Slugs|QID|29027|M|44.34,24.90|N|To Wenikee Boltbucket.|
 A Return to Samophlanger|QID|14004|RANK|1|M|44.34,24.90|N|From Wenikee Boltbucket.|
 
@@ -456,12 +462,10 @@ T Miner's Fortune|QID|29015|M|62.63,16.98|N|To Brak Blusterpipe.|
 T Read the Manual|QID|14006|M|62.25,17.41|N|To Sputtervalve.|
 
 ; The Dreadmist Peak sequence. All part of a quest chain, triggered by [Read the Manual]
-;A They Call Him Swiftdagger. He Kills Harpies.|QID|28877|PRE|14004|RANK|1|M|62.55,16.86| -Not in game?
 A The Short Way Home|QID|29094|PRE|29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
-;T They Call Him Swiftdagger. He Kills Harpies.|QID|28877|M|30.59,45.95|N|To Darsok Swiftdagger.| -Not in game?
 C The Short Way Home|QID|29094|RANK|1|M|62.15,17.43|N|Hop on the Silver Bullet X-831.|
 T The Short Way Home|QID|29094|M|30.59,45.95|N|To Darsok Swiftdagger.|
-A Harpy Raiders|QID|867|RANK|2|M|30.59,45.95|N|From Darsok Swiftdagger.|
+A Harpy Raiders|QID|867|RANK|2|LVL|15|M|30.59,45.95|N|From Darsok Swiftdagger.|
 A Harpy Lieutenants|QID|875|PRE|867|RANK|2|M|30.61,46.02|N|From Darsok Swiftdagger.|
 
 C Harpy Raiders|QID|867|M|27.40,28.55|N|Kill any type of Witchwing Harpies for Witchwing Talons.|S|

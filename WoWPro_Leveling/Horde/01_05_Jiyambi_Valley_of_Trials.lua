@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-06-22 16:09
+-- Who: Ludovicus
+-- Log: Typo cleanup.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27290/view
+-- Date: 2015-06-22 16:06
+-- Who: Ludovicus
+-- Log: No quests for Paladins in Echo Isles.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27286/view
 -- Date: 2015-06-19 20:16
 -- Who: Ludovicus
 -- Log: Rogue typo
@@ -278,16 +288,6 @@
 -- Date: 2011-05-30 11:55
 -- Who: Ludovicus
 -- Log: Coord tweak around [The Burning Blade]
-
--- URL: http://wow-pro.com/node/3199/revisions/24452/view
--- Date: 2011-05-30 11:51
--- Who: Ludovicus
--- Log: [Thazz'ril's Pick] decoupling.
-
--- URL: http://wow-pro.com/node/3199/revisions/24451/view
--- Date: 2011-05-30 11:48
--- Who: Ludovicus
--- Log: Coord Tweak for Shamans
 
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)

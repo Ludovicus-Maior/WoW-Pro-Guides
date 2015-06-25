@@ -635,7 +635,7 @@ function WoWPro.EventHandler(frame, event, ...)
 		end  
     end
 
-    -- Noting that a quest is being completed for quest log update events --
+    -- Noting that a quest is being completed for AutoTurnin --
 	if event == "QUEST_COMPLETE" then
 	    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
@@ -644,31 +644,23 @@ function WoWPro.EventHandler(frame, event, ...)
 		        GetQuestReward(1)
 		    end
         end
-		WoWPro.CompletingQuest = true
-		WoWProCharDB.completedQIDs[GetQuestID()] = true
-		WoWPro:AutoCompleteQuestUpdate(GetQuestID())
 	end
 	
 	if event == "QUEST_TURNED_IN" or event == "QUEST_ACCEPTED" then
 	    local qlidx, qid = ...
 	    WoWPro:dbp("%s(%s,%s)",event,qlidx,qid)
-	    -- just watch for now
+	    if event == "QUEST_TURNED_IN" then
+        	WoWPro.CompletingQuest = true
+        	WoWProCharDB.completedQIDs[qlidx] = true
+        	WoWPro:AutoCompleteQuestUpdate(qlidx)	    
+	    end
 	end
 	    
 	if event == "TRADE_SKILL_SHOW" then
 	    WoWPro:ScanTrade()
     end
 
-	-- Module Event Handlers --
-	for name, module in WoWPro:IterateModules() do
-		if WoWPro[name].EventHandler 
-		and WoWProDB.char.currentguide 
-		and WoWPro.Guides[WoWProDB.char.currentguide]
-		and guidetype == name 
-		then WoWPro[name]:EventHandler(frame, event, ...) end
-	end
-	
-		-- Auto-Completion --
+	-- Auto-Completion --
 	if event == "TAXIMAP_OPENED" then
 		WoWPro:RecordTaxiLocations(...)
 		local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
@@ -703,6 +695,17 @@ function WoWPro.EventHandler(frame, event, ...)
 	if event == "GOSSIP_CLOSED" then
 	    WoWPro.GossipText = nil
 	end
+	
+	-- Module Event Handlers --
+	for name, module in WoWPro:IterateModules() do
+		if WoWPro[name].EventHandler 
+		and WoWProDB.char.currentguide 
+		and WoWPro.Guides[WoWProDB.char.currentguide]
+		and guidetype == name 
+		then WoWPro[name]:EventHandler(frame, event, ...) end
+	end
+	
+
 end
 
 function WoWPro.PuntedQLU()
