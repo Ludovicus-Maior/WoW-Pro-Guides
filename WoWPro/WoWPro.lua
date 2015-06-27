@@ -585,7 +585,11 @@ function WoWPro:GuideName(guide, name)
 end
 
 function WoWPro:GetGuideName(GID)
-    return WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone or GID
+    if GID
+        return WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone or GID
+    else
+        return nil
+    end
 end
 
 function WoWPro:GuideNextGuide(guide,nextGID)
