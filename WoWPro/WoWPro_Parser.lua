@@ -240,8 +240,6 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    return    
     end
 
-	WoWPro.stepcount = WoWPro.stepcount + 1
-	
 	local idx = 2
 	
 	-- Parse the tags
@@ -337,6 +335,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 
 	local GQL = tonumber(WoWPro:GrailQuestLevel(WoWPro.QID[i]))
+    WoWPro.level[i] = WoWPro.level[i] or (WoWPro.action[i] == "A" and GQL)
 	
 	if GQL and GQL < 1 and tonumber(WoWPro.QID[i]) < 100000  then
 	    WoWPro:dbp("Guide %s QID %s: Grail reports %s!",GID,WoWPro.QID[i],GQL)
@@ -413,7 +412,7 @@ end
 function WoWPro:ParseSteps(steps)
 	WoWPro:dbp("Parsing Guide, %d steps",#steps)
 	local GID = WoWProDB.char.currentguide
-	local i = 1
+	local i = 2  -- Leave room the the L step
 	local myclassL, myclass = UnitClass("player")
 	local myraceL, myrace = UnitRace("player")
 	local myFaction = strupper(UnitFactionGroup("player"))
@@ -468,6 +467,12 @@ function WoWPro:ParseSteps(steps)
 			end
 		end
 	end
+	-- OK, now add a standard L step at the start of every guide
+	local init,min_level
+	min_level = WoWPro.Guides[GID].startlevel or 1
+	init = string.format("L Level %d|LVL|%d|N|You need to be level %d to start this guide.|",min_level,min_level,min_level)
+	WoWPro.ParseQuestLine(faction, zone, 1, init)
+	
 	-- OK, now add a standard D step at the end of every guide
 	local fini, nguide
 	nguide = WoWPro:NextGuide(GID)
@@ -477,7 +482,8 @@ function WoWPro:ParseSteps(steps)
 	    fini = string.format("D Fini|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|",WoWPro:GetGuideName(GID))
 	end
 	WoWPro.ParseQuestLine(faction, zone, i, fini)
-	    
+    WoWPro.stepcount = i
+
 	if WoWPro.DebugLevel > 0 then
 	    if WoWPro.Guides[GID].acnt_level > 0 then
             if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel ~= WoWPro.Guides[GID].amin_level then
@@ -592,12 +598,12 @@ function WoWPro.SetupGuideReal()
 			numQIDs = 0
 		end
 
-	    WoWProCharDB.Guide[GID].completion[i] = false
+	    WoWProCharDB.Guide[GID].completion[i] = nil
 	    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was defaulted to incomplete."
 	    
 	    if WoWProCharDB.Guide[GID].skipped[i] then
-	        WoWProCharDB.Guide[GID].completion[i] = true
 	        WoWPro.why[i] = "Previously marked as skipped"
+	        WoWProCharDB.Guide[GID].completion[i] = WoWPro.why[i]
 	    end
 	    
 		for j=1,numQIDs do
@@ -611,13 +617,13 @@ function WoWPro.SetupGuideReal()
             if QID then
     		    -- Turned in quests --
     			if WoWPro:IsQuestFlaggedCompleted(qid,true) then
-    			    WoWProCharDB.Guide[GID].completion[i] = true
+    			    WoWProCharDB.Guide[GID].completion[i] = QID
     			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as completed."
     			end
     	        
-    	        -- Skiped quests --
+    	        -- Skipped quests --
     	        if WoWProCharDB.skippedQIDs[QID] then
-    			    WoWProCharDB.Guide[GID].completion[i] = true
+    			    WoWProCharDB.Guide[GID].completion[i] = QID
     			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as skipped."
                 end
                 	            
@@ -625,11 +631,11 @@ function WoWPro.SetupGuideReal()
     		    if not WoWProCharDB.Guide[GID].completion[i] then
     		        if WoWPro.QuestLog[QID] then 
         			    if action == "A" then
-        			        WoWProCharDB.Guide[GID].completion[i] = true
+        			        WoWProCharDB.Guide[GID].completion[i] = QID
         			        WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was in QuestLog."
         			    end
         			    if action == "C" and WoWPro.QuestLog[QID].complete then
-        				    WoWProCharDB.Guide[GID].completion[i] = true
+        				    WoWProCharDB.Guide[GID].completion[i] = QID
         				    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest in QuestLog was complete."
         			    end
         			end
@@ -662,7 +668,7 @@ function WoWPro:CheckFunction(row, button, down)
 	elseif button == "RightButton" and row.check:GetChecked() then
 	    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as complete.", row.index)
-		WoWProCharDB.Guide[GID].completion[row.index] = true
+		WoWProCharDB.Guide[GID].completion[row.index] = "Right-Click"
 		WoWPro:MapPoint()
 		if WoWProDB.profile.checksound then	
 			PlaySoundFile(WoWProDB.profile.checksoundfile)

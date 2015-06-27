@@ -270,9 +270,7 @@ function WoWPro.AutoCompleteCriteria()
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 	local GID = WoWProDB.char.currentguide
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
-		    WoWProCharDB.Guide[GID].completion[qidx] = true
-		    WoWProCharDB.completedQIDs[WoWPro.QID[qidx]] = true
-		    WoWPro:UpdateGuide("AutoCompleteCriteria") 
+	        WoWPro.CompleteStep(qidx,"AutoCompleteCriteria")
 	end			
 	
 end
@@ -285,9 +283,7 @@ function WoWPro.AutoCompleteChest()
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 	local GID = WoWProDB.char.currentguide
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
-		    WoWProCharDB.Guide[GID].completion[qidx] = true
-		    WoWProCharDB.completedQIDs[WoWPro.QID[qidx]] = true
-		    WoWPro:UpdateGuide("AutoCompleteChest") 
+	        WoWPro.CompleteStep(qidx,"AutoCompleteChest")
 	end			
 	
 end

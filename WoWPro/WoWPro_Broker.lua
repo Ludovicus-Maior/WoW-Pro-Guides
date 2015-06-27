@@ -389,14 +389,24 @@ function WoWPro.NextStep(k,i)
 		skip = false -- The step defaults to NOT skipped
 		
 		-- Quickly skip completed steps --
-		if WoWProCharDB.Guide[GID].completion[k] then skip = true ; break end
+		if WoWProCharDB.Guide[GID].completion[k] then
+		    -- WoWPro.why[k] = "NextStep(): Completed."
+		    skip = true
+		    break
+		end
 
 		-- Quickly skip any manually skipped quests --
 		if WoWProCharDB.Guide[GID].skipped[k] then
-			WoWPro:dbp("SkippedStep(%d,%s [%s])",k,WoWPro.action[k],WoWPro.step[k]); skip = true ;  break
+			WoWPro:dbp("SkippedStep(%d,%s [%s])",k,WoWPro.action[k],WoWPro.step[k])
+			WoWPro.why[k] = "NextStep(): SkippedStep."
+			skip = true
+			break
 		elseif WoWPro:QIDsInTable(QID,WoWProCharDB.skippedQIDs) then
 			WoWProCharDB.Guide[GID].skipped[k] = true
-			WoWPro:dbp("SkippedQID(%d, qid=%s, %s [%s])",k,QID,WoWPro.action[k],WoWPro.step[k]); skip = true ; break
+			WoWPro.why[k] = "NextStep(): SkippedQID."
+			WoWPro:dbp("SkippedQID(%d, qid=%s, %s [%s])",k,QID,WoWPro.action[k],WoWPro.step[k]);
+			skip = true
+			break
 		end
 		
 		-- Optional Quests --
@@ -427,7 +437,7 @@ function WoWPro.NextStep(k,i)
         		local totalFailure = true
         		for j=1,numprereqs do
         			local jprereq = select(numprereqs-j+1, string.split("+", WoWPro.prereq[k]))
-        			if WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+        			if WoWPro:IsQuestFlaggedCompleted(jprereq, true) then 
         				totalFailure = false -- If one of the prereqs is complete, step is not skipped.
         			end
         		end
@@ -440,7 +450,7 @@ function WoWPro.NextStep(k,i)
         		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
         		for j=1,numprereqs do
         			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-        			if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+        			if not WoWPro:IsQuestFlaggedCompleted(jprereq, true) then 
         				skip = true -- If one of the prereqs is NOT complete, step is skipped.
         				WoWPro.why[k] = "NextStep(): Not all of the prereqs was met: " .. WoWPro.prereq[k]
         			end
@@ -555,7 +565,6 @@ function WoWPro.NextStep(k,i)
         if WoWPro.level and WoWPro.level[k] then
             local level = tonumber(WoWPro.level[k])
             if WoWPro.action[k] == "L" and level <= UnitLevel("player") then
-                WoWProCharDB.Guide[GID].completion[i] = true
                 skip = true
                 WoWPro.CompleteStep(k, "NextStep(): Completed L step because player level is high enough.")
                 break
@@ -947,9 +956,9 @@ function WoWPro.NextStepNotSticky(k)
 	    WoWPro:print("WoWPro.NextStepNotSticky=%d: > EOG",k)
 	else
 	    if WoWPro.questtext[k] then
-	        WoWPro:dbp("WoWPro.NextStepNotSticky=%d: %s [%s] QO=%s",k, WoWPro.action[k], WoWPro.step[k], WoWPro.questtext[k] )
+	        WoWPro:dbp("WoWPro.NextStepNotSticky=%d: %s [%s] QO=%s",k, tostring(WoWPro.action[k]), tostring(WoWPro.step[k]), tostring(WoWPro.questtext[k]) )
 	    else
-	        WoWPro:dbp("WoWPro.NextStepNotSticky=%d: %s [%s]",k, WoWPro.action[k], WoWPro.step[k])
+	        WoWPro:dbp("WoWPro.NextStepNotSticky=%d: %s [%s]",k, tostring(WoWPro.action[k]), tostring(WoWPro.step[k]))
 	    end
     end
 	return k
@@ -962,8 +971,9 @@ function WoWPro.CompleteStep(step, why)
 	if WoWProDB.profile.checksound then	
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
-	WoWPro:print("WoWPro.CompleteStep(%d,%s[%s],'%s')",step,WoWPro.action[step], WoWPro.step[step], why)
-	WoWProCharDB.Guide[GID].completion[step] = true
+	WoWPro:dbp("WoWPro.CompleteStep(%d,%s[%s],'%s')",step,WoWPro.action[step], WoWPro.step[step], why)
+	WoWPro.why[step] = why
+	WoWProCharDB.Guide[GID].completion[step] = why
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWProCharDB.Guide[GID].completion[row.index] then
 			row.check:SetChecked(true)
