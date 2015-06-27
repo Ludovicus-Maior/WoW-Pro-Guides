@@ -55,7 +55,7 @@ function WoWPro.Leveling:NextStep(k, skip)
 		else
 			if WoWPro.faction[k] ~= myFaction then
 				-- Now that we have made up our minds, skip the ones that do not match.
-				WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true -- Mark the quests NOT the steps as skipped or we get funny results on reload.
+				WoWPro:SetQIDsInTable(WoWPro.QID[k],WoWProCharDB.skippedQIDs)
 				skip = true
 			end
 		end
