@@ -31,9 +31,9 @@ done
 # Find the current version.  Use the one in WoWPro as the master
 crelease=`awk -F: '$1 == "## Version" {print $2}' < WoWPro/WoWPro.toc | tr -d ' ' `
 echo '#' The current release is "[${crelease}]"
-echo -n '#' 'Please enter the new release number (a T will automatically be appended):'
+echo -n '#' 'Please enter the new release number:'
 read nrelease
-nrelease=${nrelease}T
+nrelease=${nrelease}
 echo '#' The new release number will be "[${nrelease}]".  
 echo -n "# Please ^C or abort this command or hit enter to proceed:"
 read confirm
