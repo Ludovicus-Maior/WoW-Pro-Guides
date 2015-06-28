@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2015-06-28 23:54
+-- Who: Ludovicus
+-- Log: PLaythrough with QO and M adjustments
+
+-- URL: http://wow-pro.com/node/3205/revisions/27272/view
 -- Date: 2015-05-29 00:30
 -- Who: Ludovicus
 -- Log: New starter zone.
@@ -259,8 +264,8 @@ T Assault on the Rotbrain Encampment|QID|24971|M|46.61,58.83|US|N|To Shadow Prie
 A Vital Intelligence|QID|24972|M|46.61,58.83|N|From Shadow Priest Sarvis.|PRE|24971|
 R Tirisfal Glades|QID|24972|M|52.60,43.95;67.70,34.48;81.20,14.33|CC|N|Follow the road out of Deathknell.|ACTIVE|24972|
 R Calston Estate|QID|24972|M|43.77,53.15|Z|Tirisfal Glades|
-r Gordo empty bags|QID|24972|M|44.98,53.16|Z|Tirisfal Glades|T|Gordo|N|You won't have to repair yet. But, with only 1 bag right now, you'll need to empty it.|ACTIVE|24972|
-T Vital Intelligence|QID|24972|M|44.75,54.67|Z|Tirisfal Glades|N|To Deathguard Simmer.|
+r Gordo empty bags|QID|24972|M|44.57,52.94|Z|Tirisfal Glades|T|Gordo|N|You won't have to repair yet. But, with only 1 bag right now, you'll need to empty it.|ACTIVE|24972|
+T Vital Intelligence|QID|24972|M|44.70,53.67|Z|Tirisfal Glades|N|To Deathguard Simmer.|
 
 ]]
 

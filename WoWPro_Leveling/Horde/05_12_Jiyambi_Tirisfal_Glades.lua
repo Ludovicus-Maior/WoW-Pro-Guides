@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2015-06-28 23:54
+-- Who: Ludovicus
+-- Log: PLaythrough with QO and M adjustments
+
+-- URL: http://wow-pro.com/node/3205/revisions/27272/view
 -- Date: 2015-05-29 00:30
 -- Who: Ludovicus
 -- Log: New starter zone.
@@ -156,7 +161,7 @@ WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achieve
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Reaping the Reapers|QID|24978|M|44.70,53.60|N|From Deathguard Simmer.|
+A Reaping the Reapers|QID|24978|M|44.70,53.67|N|From Deathguard Simmer.|
 A Fields of Grief|QID|24975|M|44.61,53.76|N|From Apothecary Johaan.|
 
 C Reaping the Reapers|QID|24978|S|M|35.92,51.32|N|Kill farmers.|
@@ -170,7 +175,7 @@ T Fields of Grief|QID|24975|M|44.62,53.75|N|To Apothecary Johaan.|
 A Variety is the Spice of Death|QID|24976|M|44.62,53.75|N|From Apothecary Johaan.|PRE|24975|
 
 A Ever So Lonely|QID|24974|M|44.71,53.64|N|From Sedrick Calston, upstairs.|
-C Marrowpetals|QID|24976|NC|QO|Marrowpetal: 4/4|M|49.18,53.28|N|Collect Marrowpetals from the lake floor.|
+C Marrowpetals|QID|24976|NC|QO|1|M|49.18,53.28|N|Collect Marrowpetals from the lake floor.|
 C The Scarlet Palisade|QID|24980|S|M|31.92,46.00|N|Kill members of the Scarlet Crusade.|
 
 K Scarlet Crusade|QID|24979|L|52079|M|34.91,48.45|N|Kill Scarlet Crusade at the Scarlet Palisade until you get a Scarlet Letter.|
@@ -179,7 +184,7 @@ A A Scarlet Letter|QID|24979|U|52079|M|34.91,48.45|N|Right-click the Scarlet Pal
 C A Scarlet Letter|QID|24979|NC|M|31.69,46.13|N|Go to the top of the tower and talk to Lilian. Watch the scene.|
 C The Scarlet Palisade|QID|24980|US|M|31.92,46.00|N|Kill members of the Scarlet Crusade.|
 C Briny Sea Cucumber|QID|24976|NC|QO|3|M|33.19,43.14|N|Collect Sea Cucumbers from the ocean floor. Watch out for the rare level 10 murloc who roams the area - he's probably a bit too strong for you!|
-C Ever So Lonely|QID|24974|U|52059|QO|Vile Fin captured: 1/1|M|35.06,44.67|N|Use the murloc leash on a murloc after you beat it down to 25%. \nDon't wait too long to return. You only have 10 minutes before he dies.|
+C Ever So Lonely|QID|24974|U|52059|QO|1|M|35.06,44.67|N|Use the murloc leash on a murloc after you beat it down to 25%. \nDon't wait too long to return. You only have 10 minutes before he dies.|
 C Xavren's Thorn|QID|24976|NC|QO|2|M|33.19,43.14|N|Collect Xavren's Thorn on the cliffs above the beach.|
 C Ever So Lonely|QID|24974|NC|U|52059|M|44.72,53.68|N|Head back to the Carlston Estate and head upstairs to turn in the murloc to Carlston.|
 
@@ -305,10 +310,10 @@ A The Mills Overrun|QID|25004|M|54.63,29.93|N|From Coleman Farthing.|PRE|25003|
 A Deaths in the Family|QID|25029|M|54.61,29.91|N|From Coleman Farthing.|PRE|25003|
 
 C The Mills Overrun|QID|25004|S|M|46.69,31.46|N|Kill and loot both types of skeleton.|
-C Devlin's Remains|QID|25029|QO|Devlin's Remains: 1/1|M|48.89,33.99|N|Kill and loot Devlin.|
-C Nissa's Remains|QID|25029|QO|Nissa's Remains: 1/1|M|49.37,36.03|N|Kill and loot Nissa, inside the house.|
-C Thurman's Remains|QID|25029|QO|Thurman's Remains: 1/1|M|45.89,30.19|N|Kill and loot Thurman.|
-C Gregor's Remains|QID|25029|QO|Gregor's Remains: 1/1|M|45.56,29.98|N|Kill and loot Gregor.|
+C Devlin's Remains|QID|25029|QO|4|M|48.89,33.99|N|Kill and loot Devlin.|
+C Nissa's Remains|QID|25029|QO|1|M|49.37,36.03|N|Kill and loot Nissa, inside the house.|
+C Thurman's Remains|QID|25029|QO|3|M|45.89,30.19|N|Kill and loot Thurman.|
+C Gregor's Remains|QID|25029|QO|2|M|45.56,29.98|N|Kill and loot Gregor.|
 C The Mills Overrun|QID|25004|US|M|46.69,31.46|N|Kill and loot both types of skeleton.|
 
 T The Mills Overrun|QID|25004|M|54.55,29.85|N|To Coleman Farthing.|
@@ -324,9 +329,8 @@ C The Grasp Weakens|QID|25006|M|62.02,52.91|N|Talk to Shadow Priestess Malia ins
 T The Grasp Weakens|QID|25006|M|60.99,50.55|N|To Magistrate Sevren.|
 
 A East... Always to the East|QID|25007|M|60.99,50.55|N|From Magistrate Sevren.|PRE|25007|
-F The Bulwark|QID|25007|M|58.8, 51.8|N|At Anette Williams|ACTIVE|25007|
-;You already have the basic Flight Points learnt.
-;f The Bulwark|QID|25007|N|From Timothy Cunningham.|M|83.55,69.97|
+R The Bulwark|QID|25007|M|61.99,54.95;65.73,59.80;72.32,63.62;76.69,69.43;82.58,70.72|CS|N|Take a hike to the Bulwark|
+f The Bulwark|QID|25007|N|From Timothy Cunningham.|M|83.55,69.97|
 h The Bulwark|QID|25007|M|83.08,71.93|N|At Provisioner Elda.|ACTIVE|25007|
 
 A Grisly Grizzlies|QID|25056|N|From Apothecary Dithers.|M|83.25,69.26|
