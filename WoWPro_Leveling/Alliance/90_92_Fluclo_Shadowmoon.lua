@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2015-06-30 04:25
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3604/revisions/27294/view
 -- Date: 2015-06-22 16:53
 -- Who: Fluclo
 
@@ -233,8 +237,8 @@ A Step Three: Prophet! |QID|34575|N|Auto-Accepted|
 T Step Three: Prophet! |QID|34575|N|To Prophet Velen|M|27.0,8.1|
 
 A Finding a Foothold |QID|34582|N|From Prophet Velen|PRE|34575|M|27.0,8.1|
-C Finding a Foothold |QID|34582|N|Head to Lunarfall, the location of your new garrison.|NC|M|28.8,16.2|
-T Finding a Foothold |QID|34582|N|To Vindicator Maraad|M|28.8,16.2|
+C Finding a Foothold |QID|34582|N|Head towards Lunarfall, the location of your new garrison.|NC|M|27.0,11.5|
+T Finding a Foothold |QID|34582|N|To Vindicator Maraad.|M|28.8,16.2|
 
 A For the Alliance! |QID|34583|N|From Vindicator Maraad|PRE|34582|M|28.8,16.2|
 C For the Alliance! |QID|34583|N|Click on the outline of the Alliance Banner, then wait for the portal to open and your friends to come through.|NC|M|29.0,16.1|
@@ -243,7 +247,7 @@ T For the Alliance! |QID|34583|N|To Baros Alexston|M|29.0,16.2|
 A Looking for Lumber |QID|34584|N|From Baros Alexston|M|29.0,16.2|PRE|34583|
 A Ravenous Ravens |QID|34616|N|From Baros Alexston|M|29.0,16.2|PRE|34583|
 C Ravenous Ravens |QID|34616|N|Kill the Lunarfall Ravens|S|M|29.1,17.8|
-l Lunarfall Egg |QID|35530|N|Lunarfall Egg: Lootable object for 25 Garrison Resources. Can be found inside the nest/wagon.|RANK|3|
+l Lunarfall Egg |QID|35530|N|Lunarfall Egg: Lootable object for 25 Garrison Resources. Can be found inside the nest/wagon.|RANK|3|M|30.21,19.87|
 
 C Looking for Lumber |QID|34584|N|Click on the flag shadows to mark the trees.|NC|M|28.61,17.20;29.09,17.80;28.94,19.78;29.30,19.21;29.88,18.84;30.55,21.03;30.89,19.23;31.67,18.14;31.16,17.04;32.22,16.43;30.27,17.02|CN|
 C Ravenous Ravens |QID|34616|N|Finish killing the Lunarfall Ravens|US|M|29.1,17.8|
