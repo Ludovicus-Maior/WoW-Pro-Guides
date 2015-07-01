@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2015-06-30 22:24
+-- Who: Ludovicus
+-- Log: Remove bogus NextGuide call.
+
+-- URL: http://wow-pro.com/node/3605/revisions/27193/view
 -- Date: 2015-04-11 20:05
 -- Who: Blanckaert
 -- Log: Removed duplicate Rank 2 from line 135 (R The Ring of Trails) and line 270 (K Bolkar the Cruel)
@@ -103,7 +108,6 @@
 
 local guide = WoWPro:RegisterGuide('EmmNagrand', 'Leveling', 'Nagrand@Draenor', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,98, 100, 98.7)
-WoWPro:GuideNextGuide(guide, 'nil')
 WoWPro:GuideSteps(guide, function()
 return [[
 
