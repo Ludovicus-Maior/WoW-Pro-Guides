@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2015-07-01 18:25
+-- Who: Ludovicus
+-- Log: Played through on a level locked 15 Belf Pally.
+
+-- URL: http://wow-pro.com/node/3221/revisions/26429/view
 -- Date: 2014-06-02 13:27
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -175,7 +180,7 @@ C Spirits of the Drowned|QID|9274|US|M|71.04,24.00|N|Kill any ghost you see floa
 T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
 T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
 
-H Tranquillien|QID|9158|N|Hearth back to Tranquillien.|
+H Tranquillien|QID|9152|N|Hearth back to Tranquillien.|
 A The Plagued Coast|QID|9149|M|47.66,34.86|N|From Apothecary Renzithen.|
 A Tomber's Supplies|QID|9152|M|47.01,28.38|N|From Rathis Tomber.|
 A Goldenmist Village|QID|9139|M|46.24,28.35|N|From Arcanist Vandril.|
@@ -196,7 +201,7 @@ C Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and ki
 C The Plagued Coast|QID|9149|M|19.02,24.06|N|Kill any murlocs you see for their spines. You will need 6 spines.|
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders untill you have 5 Crunchy Spider Legs.|US|
 
-H Tranquillien|QID|9139|N|Hearth back to Tranquillien.|
+H Tranquillien|QID|9171|N|Hearth back to Tranquillien.|
 T Culinary Crunch|QID|9171|M|48.43,30.93|N|To Master Chef Mouldier.|
 r Repair/Restock|QID|9155|M|49.07,30.33|N|At Blacksmith Frances. Do not sell any Rotting Hearts you may have.|
 T Tomber's Supplies|QID|9152|M|47.01,28.38|N|To Rathis Tomber.|
@@ -214,13 +219,13 @@ C Trouble at the Underlight Mines|QID|9192|M|29.25,47.93|N|Head down the slope a
 C Underlight Ore Samples|QID|9207|M|29.25,47.93|N|You should have all the ore you need by the time you get done the previous step. If not, keep killing gnolls till you do.|
 L Level 15|QID|9140|LVL|15|N|You should be level 15 by now. If not, kill mobs until you are.|
 C Retaking Windrunner Spire|QID|9173|M|11.04,56.98|N|Kill 8 Acolytes, and 10 Fallen Rangers.|
-l The Lady's Necklace|QID|9175|L|22597 |N|Kill Acolytes and Fallen Rangers until this drops.|
+l The Lady's Necklace|QID|9175|L|22597|N|Kill Acolytes and Fallen Rangers until this drops.|LVL|15|
 A The Lady's Necklace|QID|9175|U|22597|M|11.27,57.12|N|Accept the quest from the necklace.|
 C Windrunner Village|QID|9140|M|17.95,42.65|N|Jump into the water and swim into the village. Kill Phantasms and Gargoyles until you get 6 Phantasmals Substances, and 4 Gargoyle Fragments.|
 C Into Occupied Territory|QID|9163|M|10.56,22.49|N|Night Elf Plans: An'daroth and An'owyn, can be in several spots on the isle. Night Elf Plans: Scrying on Sin'dorei, is on the boat.|
 
-H Tranquillien|QID|9216|N|Hearth back to Tranquillien.|
-r Training/Repair/Sell Junk|QID|9175|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
+H Tranquillien|QID|9140|N|Hearth back to Tranquillien.|
+r Training/Repair/Sell Junk|QID|9140|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
 A Spinal Dust|QID|9218|M|48.95,31.35|N|From Magistrix Aminel.|
 A Rotting Hearts|QID|9216|M|48.95,31.35|N|From Magistrix Aminel.|
 T Rotting Hearts|QID|9216|M|48.95,31.35|N|To Magistrix Aminel.|
@@ -249,6 +254,7 @@ A A Little Dash of Seasoning|QID|9275|M|72.68,31.55|N|From Apothecary Venustus. 
 T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna.|
 A The Traitor's Shadow|QID|9161|M|71.93,32.64|N|From Ranger Vynna.|
 
+R Amani Catacombs|QID|9193|M|53.46,19.15;55.21,21.09;58.18,27.30|CS|N|Off the road to Suncrown Villiage.|
 C Troll Juju|QID|9199|M|66,28|N|Kill any Troll you come across to get 8 Troll Juju.|S|
 C Investigate the Amani Catacombs|QID|9193|NC|U|22755|M|62.92,32.46|N|Burn the Troll remains as you go.|S|
 A Escape from the Catacombs|QID|9212|M|62.92,32.63|N|From Ranger Lilatha.|
@@ -261,20 +267,20 @@ T The Traitor's Shadow|QID|9161|M|79.63,17.72|N|Fight your way in, and click on 
 A Hints of the Past|QID|9162|M|79.63,17.72|N|From the book.|
 T Hints of the Past|QID|9162|M|71.89,32.63|N|To Ranger Vynna.|
 A Report to Magister Kaendris|QID|9172|M|71.89,32.63|N|From Ranger Vynna.|
-K Vampiric Mistbats|QID|9159|QO|Vampiric Mistbat slain: 10/10|M|73.16,37.71|N|Kill 10 Vamperic Mistbats.|
-l Shadowpine Weaponry|QID|9214|L|23167 3|M|80,38;75,45|CN|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|S|
-l Headhunter Axes|QID|9214|L|23165 3|M|80,38;75,45|CN|N|Kill Headhunters until you get 3 Headhunter Axes.|S|
+K Vampiric Mistbats|QID|9159|QO|1|M|73.16,37.71|N|Kill 10 Vamperic Mistbats.|
+C Shadowpine Weaponry|QID|9214|L|23167 3|M|80,38;75,45|CN|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|S|
+C Headhunter Axes|QID|9214|L|23165 3|M|80,38;75,45|CN|N|Kill Headhunters until you get 3 Headhunter Axes.|S|
 C Attack on Zeb'Tela|QID|9276|M|80,38;75,45|CN|N|Kill 8 Shadowcasters and 8 Headhunters between the two points.|
-l Shadowpine Weaponry|QID|9214|L|23167 3|M|80,38;75,45|CN|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|US|
-l Headhunter Axes|QID|9214|L|23165 3|M|80,38;75,45|CN|N|Kill Headhunters until you get 3 Headhunter Axes.|US|
+C Shadowpine Weaponry|QID|9214|L|23167 3|M|80,38;75,45|CN|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|US|
+C Headhunter Axes|QID|9214|L|23165 3|M|80,38;75,45|CN|N|Kill Headhunters until you get 3 Headhunter Axes.|US|
 T Attack on Zeb'Tela|QID|9276|M|72.34,31.33|N|To Farstrider Solanna.|
 A Assault on Zeb'Nowa|QID|9277|M|72.34,31.33|N|From Farstrider Solanna.|
 C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|S|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|S|N|Kill Catlords and Hexxers till you get 3 Hexxer Staves and 3 Catlord Claws.|
-U Poison the Fresh Fish Rack|QID|9275|U|22796|QO|Poison the Fresh Fish Rack: 1/1|M|68.22,57.85|N|Poison the Fresh Fish Rack inside the hut.|
-U Poison the Smoked Meat Rack|QID|9275|U|22796|QO|Poison the Raw Meat Rack: 1/1|M|65.06,66.73|N|Poison the Raw Meat Rack.|
+U Poison the Fresh Fish Rack|ACTIVE|9275|U|22796|QO|Poison the Fresh Fish Rack: 1/1|M|68.22,57.85|N|Poison the Fresh Fish Rack inside the hut.|
+U Poison the Smoked Meat Rack|ACTIVE|9275|U|22796|QO|Poison the Raw Meat Rack: 1/1|M|65.06,66.73|N|Poison the Raw Meat Rack.|
 C A Little Dash of Seasoning|QID|9275|M|62.82,75.13|N|Poison the Smoked Meat Rack.|
-K Bring Me Kel'gash's Head!|QID|9215|L|22640|M|65.33,79.51|N|If you feel that you can kill Kel'gash, or if you have help, go ahead and try. He is stunnable and silenceable.|
+K Bring Me Kel'gash's Head!|QID|9215|QO|1|M|65.33,79.51|N|If you feel that you can kill Kel'gash, or if you have help, go ahead and try. He is stunnable and silenceable.|
 C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|US|N|Kill Catlords and Hexxers till you get 3 Hexxer Staves and 3 Catlord Claws.|
 
@@ -295,7 +301,7 @@ A War on Deatholme|QID|9220|M|54.92,48.43|N|From Magister Idonis.|
 
 l Stone of Flame|QID|9176|M|40.35,49.85|N|Go inside the Howling Ziggurat and loot the Stone of Flame.|L|22599|
 C The Twin Ziggurats|QID|9176|M|34.30,47.60|N|Go inside the Bleeding Ziggurat and loot the Stone of Light.|
-C Curbing the Plague|QID|9159|M|25.25,44.36|N|Kill the 8 Spindleweb Lurkers you need.|
+C Curbing the Plague|QID|9159|M|25.25,44.36|QO|2|N|Kill the 8 Spindleweb Lurkers you need.|
 C Spinal Dust|QID|9218|M|38,51;37,69|CN|N|Kill Dread Sentinels and Deathcage Sorcerers between the waypoints until you get 10 Spinal Dust.|
 C War on Deatholme|QID|9220|M|32.12,76.13|N|Slay 5 Eyes of Dar'khan, 6 Nerubis Centurions and 6 Wailers in Deatholme.|
 T The Twin Ziggurats|QID|9176|M|55.00,48.95|N|To Magister Kaendris.|
@@ -316,7 +322,7 @@ r Repair/Restock|QID|9877|M|49.05,30.32|N|At Blacksmith Frances.|
 T A Restorative Draught|QID|9877|M|47.66,34.86|N|To Apothecary Renzithen.|
 A Captives at Deatholme|QID|9164|M|47.66,34.86|N|From Apothecary Renzithen.|
 C Apothecary Enith|QID|9164|QO|Apothecary Enith Rescued: 1/1|M|32.1,73.9|N|Go down into the crypt and Talk to Apothecary Enith.|
-K Jurion the Deceiver|QID|9170|QO| Jurion the Deceiver slain: 1/1|M|32.1,74|N|Kill Jurion the Deciever in the crypt.|
+K Jurion the Deceiver|QID|9170|QO|Jurion the Deceiver slain: 1/1|M|32.1,74|N|Kill Jurion the Deciever in the crypt.|
 K Mirdoran the Fallen|QID|9170|QO|Mirdoran the Fallen slain: 1/1|M|37.1,79.1|N|Kill Mirdoran the Fallen.|
 C Apprentice Varnis|QID|9164|QO|Apprentice Varnis Rescued: 1/1|M|37.88,84.40;40.97,83.10|CS|N|Go into the butchery and talk to Aprentive Varnis.|
 K Borgoth the Bloodletter.|QID|9170|S|M|41,83.1;32.7,89.9|CN|N|Borgoth can be in either butchery.|QO|Borgoth the Bloodletter slain: 1/1|
