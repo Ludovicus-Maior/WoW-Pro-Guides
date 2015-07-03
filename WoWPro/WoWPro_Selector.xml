@@ -21,7 +21,7 @@
           <Layer>
             <Texture name="$parentGlow" parentKey="glow" alphamode="ADD" file="Interface\Buttons\UI-ActionButton-Border">
                 <Size>
-                    <AbsDimension x="128" y="128" />
+                    <AbsDimension x="72" y="72" />
                 </Size>
                 <Anchors>
                     <Anchor point="CENTER"/>

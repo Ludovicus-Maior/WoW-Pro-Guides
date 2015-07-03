@@ -35,32 +35,39 @@ function WoWPro:SelectorOptionsTable()
 						get = function(info) return WoWProDB.profile.Selector.AnyQuesting end,
 						set = function(info,val) WoWProDB.profile.Selector.AnyQuesting = val 
 							 end,
-					},  
-					quest_hard = {
-						type = "range",
-						name = L["Quest Difficulty"],
-						desc = L["Determines how agressive you are with questing."],
-						min = -2, max = 2, step = 1,
-						get = function(info) return WoWProDB.profile.Selector.QuestHard end,
-						set = function(info,val) WoWProDB.profile.Selector.QuestHard = val 
-							end
 					},
-					quest_hardness = {
-						type = "description",
-						name = function ()
-						    if WoWProDB.profile.Selector.QuestHard == 2 then
-						        return "I like my quests RED"
-						    elseif WoWProDB.profile.Selector.QuestHard == 1 then
-						        return "I like my quests Orange"
-						    elseif WoWProDB.profile.Selector.QuestHard == 0 then
-						        return "I like my quests Yellow"					
-						    elseif WoWProDB.profile.Selector.QuestHard == -1 then
-						        return "I like my quests Green"
-						    elseif WoWProDB.profile.Selector.QuestHard == -2 then
-						        return "Please don't hurt me!"
-						    end
-						end
-					},						        
+					difficulty = {  type = "group",
+                    				order = 2,
+                    				name = L["Quest Difficulty Control"],
+                    				desc = L["How hard do you want it?"],
+                    				args = {  
+                        					quest_hard = {
+                        						type = "range",
+                        						name = L["Quest Difficulty"],
+                        						desc = L["Determines how agressive you are with questing."],
+                        						min = -2, max = 2, step = 1,
+                        						get = function(info) return WoWProDB.profile.Selector.QuestHard end,
+                        						set = function(info,val) WoWProDB.profile.Selector.QuestHard = val 
+                        							end
+                        					},
+                        					quest_hardness = {
+                        						type = "description",
+                        						name = function ()
+                        						    if WoWProDB.profile.Selector.QuestHard == 2 then
+                        						        return "I like my quests RED"
+                        						    elseif WoWProDB.profile.Selector.QuestHard == 1 then
+                        						        return "I like my quests Orange"
+                        						    elseif WoWProDB.profile.Selector.QuestHard == 0 then
+                        						        return "I like my quests Yellow"					
+                        						    elseif WoWProDB.profile.Selector.QuestHard == -1 then
+                        						        return "I like my quests Green"
+                        						    elseif WoWProDB.profile.Selector.QuestHard == -2 then
+                        						        return "Please don't hurt me!"
+                        						    end
+                        						end
+                        					}
+                        				}
+                    },					        
 					do_dailies = {
         				type = "toggle",
         				name = L["Enable Dailies"],
@@ -95,31 +102,24 @@ function WoWPro:SelectorOptionsTable()
 end
 
 
-function WoWPro:lfo()
-    CreateFrame("Frame","Frame1", UIParent)
-    Frame1:SetWidth(64)
-    Frame1:SetHeight(64)
-    Frame1:SetPoint("CENTER")
-    local _, name, _, _, _, _, _, _, _, icon = GetAchievementInfo(761);
-    Frame1.texture=Frame1:CreateTexture()
-    Frame1.texture:SetAllPoints(Frame1)
-    Frame1.texture:SetTexture(icon)
-end
-
-
 WOWPRO_SELECTOR = "Show the WoW-Pro Guide Selector"
 
 function WoWPro:UpdateGuideScores ()
-    WoWPro.Leveling:dbp("UpdateGuideScores()")
+    WoWPro:dbp("UpdateGuideScores()")
+    -- Allow each module to update scores
 	for name, module in WoWPro:IterateModules() do
 	    if WoWPro[name].UpdateGuideScores then 
 		    WoWPro[name]:UpdateGuideScores()
 		end
 	end
+	-- Jam in any guides that have been already loaded or are in the questlog
+	for guidID,QID in pairs(WoWPro.QuestLogGuides) do
+	    WoWPro.Guides[guidID].score = 110
+	end
 end
 
 function WoWPro:SelectTopGuides()
-    WoWPro.Leveling:dbp("SelectTopGuides()")
+    WoWPro:dbp("SelectTopGuides()")
     local scores = {}
     WoWPro:UpdateGuideScores ()
     for guidID,guide in pairs(WoWPro.Guides) do
@@ -127,16 +127,18 @@ function WoWPro:SelectTopGuides()
             table.insert(scores, {score = guide.score, GID = guidID })
         end
     end
-    local scoref = function (a,b) return a.score < b.score end
+    local scoref = function (a,b) return a.score > b.score end
     table.sort(scores, scoref)
+    WoWPro.scores = scores -- Debugging
     for idx=1,8 do
         local item = WoWProSelector_Frame.button[idx]
         local GID = scores[idx].GID
         local guide = WoWPro.Guides[GID]
-        WoWPro:dbp("SelectTopGuides: Picked %s for %d",GID,idx) 
+        WoWPro:dbp("SelectTopGuides: Picked %s/%s for %d",GID,tostring(guide.icon),idx) 
         item.title:SetText(guide.name)
-        item.class:SetText(guide.class)
-        item:SetNormalTexture(guide.icon)        
+        item.class:SetText(guide.guidetype)
+        item:SetNormalTexture(guide.icon)
+        item:SetPushedTexture(guide.icon)        
     end
 end
 
@@ -157,9 +159,6 @@ function WoWPro:Selector()
         WoWProSelector_Frame.button[WoWProSelector_Frame.selection]:SetButtonState("PUSHED",false)
     end
 end
-
-
-
  	
 function WoWProSelector_CloseButton_OnClick()
     WoWProSelector_Frame:Hide()
@@ -171,7 +170,6 @@ function WoWPro:Selector_OnLoad()
     tinsert(UISpecialFrames, WoWProSelector_Frame:GetName());
     
     for idx=1,8 do
-      local _, name, _, _, _, _, _, _, _, icon = GetAchievementInfo(760+idx);
       local item = CreateFrame("Button","WoWProSelector_Button" .. idx, WoWProSelector_Frame , "WoWProSelector_ButtonTemplate")
         WoWProSelector_Frame.button[idx] = item
         if idx == 1 then
@@ -179,16 +177,26 @@ function WoWPro:Selector_OnLoad()
         else
             item:SetPoint("TOPLEFT",  WoWProSelector_Frame.button[idx-1], "TOPRIGHT", 12,0)
         end
-        item.title:SetText(name)
-        item.class:SetText("Class")
-        item:SetNormalTexture(icon)
         item:SetPushedTexture("Interface\\Buttons\\UI-Quickslot-Depress")
     end
-    
-    
 end
 
+-- Callback from "WoWPro_GuideSelect"
+function WoWPro.SelectGuideReal()
+    WoWPro:Selector()
+end
 
+-- Enqueue a guide selection for later
+function WoWPro:SelectGuide(GID)
+    if GID then
+        WoWPro.QuestLogGuides = WoWPro.QuestLogGuides or {}
+        if not WoWPro.QuestLogGuides[GID] then
+            WoWPro.QuestLogGuides[GID] = true
+--            WoWPro:SendMessage("WoWPro_GuideSelect")
+        end
+    end
+    
+end
 
 function WoWPro:Selector_OnShow()
     for idx=1,8 do

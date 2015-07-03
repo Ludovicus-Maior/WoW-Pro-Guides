@@ -92,7 +92,7 @@ function WoWPro.Leveling:UpdateGuideScores()
 	                WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; progress %d / %d",guidID, WoWProCharDB.Guide[guidID].progress, WoWProCharDB.Guide[guidID].total)
 	            end
 	        elseif UnitLevel("player") < guide.startlevel then
-	            
+	            guide.score = 0
 	        elseif UnitLevel("player") > guide.endlevel then
 	            guide.score = 100 * (guide.endlevel / UnitLevel("player"))
 	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; endlevel %f", guidID, guide.endlevel) 
@@ -101,7 +101,7 @@ function WoWPro.Leveling:UpdateGuideScores()
 	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; level %f", guidID, guide.level) 
 	        end
         end
-        guide.name = guide.zone
+        guide.name = guide.name or guide.zone
     end 
 end
 

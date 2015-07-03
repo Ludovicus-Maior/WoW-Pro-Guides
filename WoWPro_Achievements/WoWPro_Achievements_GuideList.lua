@@ -157,4 +157,10 @@ end
 WoWPro.Achievements.GuideList.Format={{"Name",0.30,nameSort},{"Category",0.15,categorySort},{"Sub",0.25,subSort},{"Author",0.15,authorSort},{"Progress",0.15,nil}}
 WoWPro.Achievements.GuideList.Init = Init
 
+function WoWPro.Achievements:UpdateGuideScores()
+    WoWPro.Achievements:dbp("UpdateGuideScores()")
+    -- Setup the Icons
+    Init()
+end
+
 WoWPro.Achievements:dbp("Guide Setup complete")
