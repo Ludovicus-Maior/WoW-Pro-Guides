@@ -935,6 +935,7 @@ function WoWPro.NextStep(k,i)
 	end
 	
 	WoWPro.why[k] = "NextStep(): Step active."
+	WoWPro:dbp("%s=WoWPro.NextStep()",tostring(k))
 	return k
 end
 
@@ -1008,12 +1009,6 @@ WoWPro.QuestLog = {}
 function WoWPro:PopulateQuestLog()
 	WoWPro:print("WoWPro:PopulateQuestLog()")
 	
-	-- If the UI is up, dont muck with things
----	if (QuestLogFrame:IsShown() or QuestLogDetailFrame:IsShown()) then
----	    WoWPro:SendMessage("WoWPro_PuntedQLU")
----	    return nil
----	end
-	
 	WoWPro.oldQuests = WoWPro.QuestLog or {}
 	WoWPro.newQuest, WoWPro.missingQuest = false, false
 	
@@ -1027,8 +1022,6 @@ function WoWPro:PopulateQuestLog()
 
     i=1
 	repeat
---		local questTitle, level, questTag, suggestedGroup, isHeader, 
---			isCollapsed, isComplete, isDaily, questID, startEvent, displayQuestID = GetQuestLogTitle(i)
 		local questTitle, level, suggestedGroup, isHeader, isCollapsed, isComplete, frequency,
 		    questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isStory = GetQuestLogTitle(i)
 		local leaderBoard
@@ -1114,6 +1107,10 @@ function WoWPro:PopulateQuestLog()
 			WoWPro.newQuest = QID 
 			WoWPro:print("New Quest %d: [%s]",QID,WoWPro.QuestLog[QID].title)
 		end
+		-- Is this an auto-switch quest?
+		if WoWProDB.global.QID2Guide[QID] then
+		    WoWPro:SelectGuide(WoWProDB.global.QID2Guide[QID])
+		end
 	end
 	
 	-- Generating table WoWPro.missingQuest --
@@ -1124,7 +1121,7 @@ function WoWPro:PopulateQuestLog()
 		end
 	end
 
-	-- Generating table WoWPro.objectiveUpdate --
+	-- Print updated objectives --
 	for QID, questInfo in pairs(WoWPro.oldQuests) do
 		if WoWPro.QuestLog[QID] then 
             if WoWPro.oldQuests[QID].leaderboard and WoWPro.QuestLog[QID].leaderboard then
