@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-07-05 17:47
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3614/revisions/27279/view
 -- Date: 2015-06-03 22:34
 -- Who: Ludovicus
 -- Log: Tiny tweaks
@@ -157,6 +162,7 @@
 
 local guide = WoWPro:RegisterGuide('LudoTalador', 'Leveling', 'Talador', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,94, 96, 94.3425)
+WoWPro:GuideIcon(guide,"ACH",8940)
 WoWPro:GuideNextGuide(guide, 'EmmSoArak')
 WoWPro:GuideSteps(guide, function()
 return [[

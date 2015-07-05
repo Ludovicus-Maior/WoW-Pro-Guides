@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2015-07-05 17:48
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3598/revisions/27237/view
 -- Date: 2015-05-03 03:51
 -- Who: Emmaleah
 -- Log: fixed missing HRT between l Sha'tari crystals and l curious death web egg
@@ -90,6 +95,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmTalador', 'Leveling', 'Talador', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,94, 96, 94.7)
+WoWPro:GuideIcon(guide,"ACH",8940)
 WoWPro:GuideNextGuide(guide, 'EmmSoArak')
 WoWPro:GuideSteps(guide, function()
 return [[

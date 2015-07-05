@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2015-07-05 17:44
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3618/revisions/27309/view
 -- Date: 2015-06-30 22:24
 -- Who: Ludovicus
 -- Log: Removed bogus NextGuide call.
@@ -79,6 +84,7 @@
 
 local guide = WoWPro:RegisterGuide('LudoNagrand', 'Leveling', 'Nagrand@Draenor', 'Ludo+Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,98, 100, 98.7)
+WoWPro:GuideIcon(guide,"ACH",8942)
 WoWPro:GuideSteps(guide, function()
 return [[
 

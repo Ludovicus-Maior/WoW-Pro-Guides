@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2015-07-05 17:49
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3613/revisions/27189/view
 -- Date: 2015-04-04 19:31
 -- Who: Aldavor
 -- Log: Re-added PRE tags to "A Heavy Helping Hand" and the flight to Bastion Rise; replaced the flight point name from The Iron Approach" to Iron Docks to enable auto-close.
@@ -91,6 +96,7 @@
 
 local guide = WoWPro:RegisterGuide('FlucloGorgrond', 'Leveling', 'Gorgrond', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,92, 94, 93)
+WoWPro:GuideIcon(guide,"ACH",8939)
 WoWPro:GuideNextGuide(guide, 'LudoTalador')
 WoWPro:GuideSteps(guide, function()
 return [[

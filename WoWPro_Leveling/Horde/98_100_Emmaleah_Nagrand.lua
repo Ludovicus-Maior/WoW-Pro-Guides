@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2015-07-05 17:45
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3605/revisions/27308/view
 -- Date: 2015-06-30 22:24
 -- Who: Ludovicus
 -- Log: Remove bogus NextGuide call.
@@ -108,6 +113,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmNagrand', 'Leveling', 'Nagrand@Draenor', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,98, 100, 98.7)
+WoWPro:GuideIcon(guide,"ACH",8942)
 WoWPro:GuideSteps(guide, function()
 return [[
 

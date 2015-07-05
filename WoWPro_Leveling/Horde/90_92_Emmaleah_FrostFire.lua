@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2015-07-05 17:51
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3587/revisions/27205/view
 -- Date: 2015-04-20 04:56
 -- Who: Emmaleah
 -- Log: corrected some dup rank tags and missed deletions of M tags from my last update.  (will I ever be done with this zone?)
@@ -203,6 +208,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,91, 92, 90.7)
+WoWPro:GuideIcon(guide,"ACH",8937)
 WoWPro:GuideNextGuide(guide, 'EmmGorgrond')
 WoWPro:GuideSteps(guide, function()
 return [[

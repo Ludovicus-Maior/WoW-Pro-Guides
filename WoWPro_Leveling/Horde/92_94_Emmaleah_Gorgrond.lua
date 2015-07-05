@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2015-07-05 17:49
+-- Who: Ludovicus
+-- Log: Added Icon
+
+-- URL: http://wow-pro.com/node/3599/revisions/27238/view
 -- Date: 2015-05-03 17:39
 -- Who: Emmaleah
 -- Log: removed the multiple ";" from C Leave every soldier behind, apparently it keeps trying to parse after it comes to the first one.
@@ -120,6 +125,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmGorgrond', 'Leveling', 'Gorgrond', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,92, 94,92.3228)
+WoWPro:GuideIcon(guide,"ACH",8939)
 WoWPro:GuideNextGuide(guide, 'EmmTalador')
 WoWPro:GuideSteps(guide, function()
 return [[

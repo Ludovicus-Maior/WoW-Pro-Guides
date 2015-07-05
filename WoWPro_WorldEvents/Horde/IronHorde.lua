@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3584
+-- Date: 2015-07-05 18:13
+-- Who: Ludovicus
+-- Log: Icon add
+
+-- URL: http://wow-pro.com/node/3584/revisions/27133/view
 -- Date: 2015-02-01 22:03
 -- Who: Ludovicus
 -- Log: TRweaks
@@ -45,6 +50,7 @@
 
 local guide = WoWPro:RegisterGuide('IronHordeInvasionH', 'WorldEvents', 'Blasted Lands', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,90, 90, 90.1)
+WoWPro:GuideIcon(guide,"Icon","Inferface\\ICONS\\INV_Tabard_A_03IronHorde")
 WoWPro:GuideNextGuide(guide, 'EmmFluc_DarkPortal')
 WoWPro.WorldEvents:GuideWorldEvent(guide,"Iron Horde Invasion")
 WoWPro:GuideSteps(guide, function()

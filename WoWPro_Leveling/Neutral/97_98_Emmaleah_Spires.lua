@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2015-07-05 17:46
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3602/revisions/27288/view
 -- Date: 2015-06-19 21:49
 -- Who: Ludovicus
 -- Log: Add the Garrison Pinchwhistle Gearworks leadins
@@ -131,6 +136,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmSoArak', 'Leveling', 'Spires of Arak', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,96, 98, 96.7)
+WoWPro:GuideIcon(guide,"ACH",8941)
 WoWPro:GuideNextGuide(guide, 'LudoNagrand|EmmNagrand')
 WoWPro:GuideSteps(guide, function()
 return [[

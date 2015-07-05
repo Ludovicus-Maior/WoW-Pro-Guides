@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2015-07-05 18:14
+-- Who: Ludovicus
+-- Log: Not enough slash
+
+-- URL: http://wow-pro.com/node/3600/revisions/27320/view
+-- Date: 2015-07-05 18:10
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3600/revisions/27134/view
 -- Date: 2015-02-01 22:06
 -- Who: Ludovicus
 -- Log: Put the run to the cave in TanaanJungleIntro instead of Umbral Halls.
@@ -141,6 +151,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'Assault on the Dark Portal', 'Emm+Fluc', 'Neutral')
 WoWPro:GuideLevels(guide,90,90,90)
+WoWPro:GuideIcon(guide,"ICON","Inferface\\ICONS\\Achievement_Dungeon_Outland_DungeonMaster")
 WoWPro:GuideNextGuide(guide, 'ShadowDraenor|EmmFrostfire')
 WoWPro:GuideSteps(guide, function()
 return [[

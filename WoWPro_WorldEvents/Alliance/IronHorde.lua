@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_iron_horde_invasion_source_code
+-- Date: 2015-07-05 18:12
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3607/revisions/27132/view
 -- Date: 2015-02-01 22:02
 -- Who: Ludovicus
 -- Log: Tweaks.
@@ -63,6 +68,7 @@
 
 local guide = WoWPro:RegisterGuide('IronHordeInvasionA', 'WorldEvents', 'Blasted Lands', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90, 90, 90.1)
+WoWPro:GuideIcon(guide,"Icon","Inferface\\ICONS\\INV_Tabard_A_03IronHorde")
 WoWPro:GuideNextGuide(guide, 'EmmFluc_DarkPortal')
 WoWPro.WorldEvents:GuideHoliday(guide,"Iron Horde Invasion")
 WoWPro:GuideSteps(guide, function()
