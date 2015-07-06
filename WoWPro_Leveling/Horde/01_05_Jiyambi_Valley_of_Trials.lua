@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-07-05 21:26
+-- Who: Ludovicus
+-- Log: Changed DK and Paladin warnings to D steps to mark the zone as completed.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27291/view
 -- Date: 2015-06-22 16:09
 -- Who: Ludovicus
 -- Log: Typo cleanup.
@@ -283,11 +288,6 @@
 -- Date: 2011-06-07 10:55
 -- Who: Ludovicus
 -- Log: Add [Conscript of the Horde] and fix Z tag for [Neeru Fireblade]
-
--- URL: http://wow-pro.com/node/3199/revisions/24453/view
--- Date: 2011-05-30 11:55
--- Who: Ludovicus
--- Log: Coord tweak around [The Burning Blade]
 
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)
