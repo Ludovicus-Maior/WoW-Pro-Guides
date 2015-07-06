@@ -8,6 +8,22 @@ import time
 import datetime
 
 
+def emit_s3_summary(bucket,megaLog, to_delete):
+    for year in megaLog:
+        for month in megaLog[year]:
+            for day in megaLog[year][month].keys()
+                key = Key(bucket)
+                key.key = "%s/%s/%s.txt" % (year, month, day)
+                key.set_contents_from_string(megaLog[year][month][day])
+                del(megaLog[year][month][day])
+                print "! Wrote %s" % key.key
+                
+    for nomen in to_delete:
+        key = Key(bucket)
+        key.name = nomen
+        key.delete()
+    print "! Purged %d keys" % len(to_delete)
+
 def process_s3_logs(bucketName="WoW-Pro"):
     megaLog = {}
     try:
@@ -39,21 +55,14 @@ def process_s3_logs(bucketName="WoW-Pro"):
             if not timeStamp.month in megaLog[timeStamp.year]:
                 megaLog[timeStamp.year][timeStamp.month] = {}
             if not timeStamp.day in megaLog[timeStamp.year][timeStamp.month]:
+                emit_s3_summary(bucket, megaLog, to_delete)
+                to_delete = []
                 megaLog[timeStamp.year][timeStamp.month][timeStamp.day] = ""
             megaLog[timeStamp.year][timeStamp.month][timeStamp.day] += data
+            megaLog[timeStamp.year][timeStamp.month][timeStamp.day] += "\n"
             to_delete.append(entry.name)
             print "! Processed %s" % entry.name
-        for year in megaLog:
-            for month in megaLog[year]:
-                for day in megaLog[year][month]:
-                    key = Key(bucket)
-                    key.key = "%s/%s/%s.txt" % (year, month, day)
-                    key.set_contents_from_string(megaLog[year][month][day])
-        for nomen in to_delete:
-            key = Key(bucket)
-            key.name = nomen
-            key.delete()
-    except Exception as ex:
+   except Exception as ex:
         raise
 
 process_s3_logs()
