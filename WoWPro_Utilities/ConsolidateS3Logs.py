@@ -11,13 +11,12 @@ import datetime
 def emit_s3_summary(bucket,megaLog, to_delete):
     for year in megaLog:
         for month in megaLog[year]:
-            for day in megaLog[year][month].keys()
+            for day in megaLog[year][month].keys():
                 key = Key(bucket)
-                key.key = "%s/%s/%s.txt" % (year, month, day)
+                key.key = "summary/%s/%s/%s.txt" % (year, month, day)
                 key.set_contents_from_string(megaLog[year][month][day])
                 del(megaLog[year][month][day])
                 print "! Wrote %s" % key.key
-                
     for nomen in to_delete:
         key = Key(bucket)
         key.name = nomen
@@ -37,7 +36,7 @@ def process_s3_logs(bucketName="WoW-Pro"):
             nomen = entry.name
             if not nomen.startswith("logs/2"):
                 print "! Found odd key %s" % entry.name
-                continue                
+                continue
             try:
                 nomen = nomen[5:24]
                 timeStamp = datetime.datetime.strptime(nomen,"%Y-%m-%d-%H-%M-%S")
@@ -45,8 +44,8 @@ def process_s3_logs(bucketName="WoW-Pro"):
                 # Nope, just skip the file.
                 print "! Found strange key %s aka %s" % (entry.name, nomen)
                 continue
-            # Do not process the current month.
-            if now.year == timeStamp.year and now.month == timeStamp.month:
+            # Do not process the current day.
+            if now.year == timeStamp.year and now.month == timeStamp.month and now.day == timeStamp.day:
                 continue
             # OK, lets process this file
             data = entry.get_contents_as_string()
@@ -62,8 +61,9 @@ def process_s3_logs(bucketName="WoW-Pro"):
             megaLog[timeStamp.year][timeStamp.month][timeStamp.day] += "\n"
             to_delete.append(entry.name)
             print "! Processed %s" % entry.name
-   except Exception as ex:
+    except Exception as ex:
         raise
+    emit_s3_summary(bucket, megaLog, to_delete)
 
 process_s3_logs()
 
