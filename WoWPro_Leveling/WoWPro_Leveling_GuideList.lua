@@ -13,6 +13,7 @@ for guidID,guide in pairs(WoWPro.Guides) do
 	        end
 	        return ""
 	    end
+	    WoWPro:ResolveIcon(guide)
 		table.insert(guides, {
 			GID = guidID,
 			guide = guide,
@@ -69,6 +70,7 @@ WoWPro.Leveling.GuideList.Format={{"Zone",0.35,zoneSort},{"Range",0.15,rangeSort
 
 -- Fancy tooltip!
 function WoWPro.Leveling.GuideTooltipInfo(row, tooltip, guide)
+    WoWPro:ResolveIcon(guide)
     GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
     GameTooltip:AddLine(guide.zone)
     if guide.icon then
@@ -86,19 +88,17 @@ function WoWPro.Leveling:UpdateGuideScores()
     WoWPro.Leveling:dbp("UpdateGuideScores()")
     for guidID,guide in pairs(WoWPro.Guides) do
 	    if guide.guidetype == "Leveling" then
-	        if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
-	            if WoWProCharDB.Guide[guidID].progress > 0 and WoWProCharDB.Guide[guidID].progress <=  WoWProCharDB.Guide[guidID].total then
-	                guide.score = 100 * WoWProCharDB.Guide[guidID].progress / WoWProCharDB.Guide[guidID].total
-	                WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; progress %d / %d",guidID, WoWProCharDB.Guide[guidID].progress, WoWProCharDB.Guide[guidID].total)
-	            end
-	        elseif UnitLevel("player") < guide.startlevel then
+	        WoWPro:ResolveIcon(guide)
+	        if UnitLevel("player") < guide.startlevel then
+	            guide.score = 0
+	        elseif WoWProCharDB.Guide[guidID].done then
 	            guide.score = 0
 	        elseif UnitLevel("player") > guide.endlevel then
 	            guide.score = 100 * (guide.endlevel / UnitLevel("player"))
 	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; endlevel %f", guidID, guide.endlevel) 
 	        else
 	            guide.score = 100 * (guide.level / UnitLevel("player"))
-	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; level %f", guidID, guide.level) 
+	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; level %f", guidID, guide.level)
 	        end
         end
         guide.name = guide.name or guide.zone
