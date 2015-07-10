@@ -113,9 +113,11 @@ function WoWPro:UpdateGuideScores ()
 		end
 	end
 	-- Jam in any guides that have been already loaded or are in the questlog
-	for guidID,QID in pairs(WoWPro.QuestLogGuides) do
-	    WoWPro.Guides[guidID].score = 110
-	end
+    if WoWPro.QuestLogGuides then
+        for guidID,QID in pairs(WoWPro.QuestLogGuides) do
+            WoWPro.Guides[guidID].score = 110
+        end
+    end
 end
 
 function WoWPro:SelectTopGuides()
@@ -133,12 +135,19 @@ function WoWPro:SelectTopGuides()
     for idx=1,8 do
         local item = WoWProSelector_Frame.button[idx]
         local GID = scores[idx].GID
+        local score = scores[idx].score
         local guide = WoWPro.Guides[GID]
-        WoWPro:dbp("SelectTopGuides: Picked %s/%s for %d",GID,tostring(guide.icon),idx) 
-        item.title:SetText(guide.name)
-        item.class:SetText(guide.guidetype)
-        item:SetNormalTexture(guide.icon)
-        item:SetPushedTexture(guide.icon)        
+        if score > 0 then
+            WoWPro:dbp("SelectTopGuides: Picked %s/%s for %d",GID,tostring(guide.icon),idx)
+            item.title:SetText(guide.name)
+            item.class:SetText(guide.guidetype)
+            item:SetNormalTexture(guide.icon)
+            item.GID = GID
+        else
+            -- Nope, dont show anything
+            item:Hide()
+            item.GID = nil
+        end
     end
 end
 
@@ -164,7 +173,21 @@ function WoWProSelector_CloseButton_OnClick()
     WoWProSelector_Frame:Hide()
 end
 
-function WoWPro:Selector_OnLoad()
+function WoWPro_SelectorButton_OnMouseDown(self)
+    local state = self:GetButtonState()
+    print("WoWPro_Selector_OnMouseDown, state=",state,self.GID)
+    if state == "NORMAL" then
+        self:SetButtonState("PUSHED",false)
+        return
+    elseif state == "PUSHED" then
+        self:SetButtonState("NORMAL",false)
+        return
+    else
+        print("Huh?")
+    end
+end
+
+function WoWPro_Selector_OnLoad()
     WoWProSelector_Frame.button = {}
     
     tinsert(UISpecialFrames, WoWProSelector_Frame:GetName());
@@ -177,7 +200,7 @@ function WoWPro:Selector_OnLoad()
         else
             item:SetPoint("TOPLEFT",  WoWProSelector_Frame.button[idx-1], "TOPRIGHT", 12,0)
         end
-        item:SetPushedTexture("Interface\\Buttons\\UI-Quickslot-Depress")
+        item:RegisterForClicks("AnyDown")
     end
 end
 
@@ -198,13 +221,13 @@ function WoWPro:SelectGuide(GID)
     
 end
 
-function WoWPro:Selector_OnShow()
+function WoWPro_Selector_OnShow()
     for idx=1,8 do
         WoWProSelector_Frame.button[idx]:Show()
     end
 end
 
-function WoWPro:Selector_OnHide()
+function WoWPro_Selector_OnHide()
     for idx=1,8 do
         WoWProSelector_Frame.button[idx]:Hide()
     end

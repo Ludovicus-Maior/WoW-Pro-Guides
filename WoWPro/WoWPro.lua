@@ -294,6 +294,8 @@ function WoWPro:OnInitialize()
 	WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
 	WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs  or {}
 	WoWProDB.global.RecklessCombat = false
+	WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
+
 	if WoWProCharDB.EnableGrail == nil then
 	    WoWProCharDB.EnableGrail = true
 	end
@@ -589,7 +591,7 @@ function WoWPro:GetGuideName(GID)
     if GID and WoWPro.Guides[GID] then
         return WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone or GID
     else
-        return nil
+        return GID
     end
 end
 
@@ -770,6 +772,51 @@ function WoWPro.LevelColor(guide)
     end
     
 end
+
+-- Creating a Table of Guides for the Guide List and sorting based on level --
+local guides
+
+function WoWPro.AchievementsScrape()
+    WoWProDB.global.Achievements.Category = {}
+    WoWProDB.global.Achievements.Achievement = {}
+
+    local categories = GetCategoryList()
+    for i, cid in ipairs(categories) do
+        local name, parentID, flags = GetCategoryInfo(cid)
+        WoWProDB.global.Achievements.Category[cid] = { ['name'] = name, ['parentID'] = parentID}
+    end
+    for cid, cinfo in pairs(WoWProDB.global.Achievements.Category) do
+        local numItems, numCompleted = GetCategoryNumAchievements(cid)
+        for index = 1,numItems do
+            local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(cid, index)
+            WoWProDB.global.Achievements.Achievement[id] = {['cid'] = cid, ['name'] = name, ['icon'] = icon } 
+        end
+    end
+end
+
+function WoWPro:ResolveIcon(guide)
+    if guide['icon'] then
+        return
+    end
+    if guide['ach'] then
+        local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(guide.ach)
+        guide.icon = icon
+        return
+    end
+    if guide['pro'] then
+        -- prof1, prof2, archaeology, fishing, cooking, firstAid
+        local profs = {GetProfessions()}
+        for index = 1,#profs do
+            if profs[index] then
+                local name, texture, rank, maxRank, numSpells, spelloffset, skillLine, rankModifier, specializationIndex, specializationOffset = GetProfessionInfo(profs[index])
+                if skillLine == tonumber(guide['pro']) then
+                    guide.icon = texture
+                end
+            end
+        end
+    end
+end
+
 
 function WoWPro:GuideIcon(guide,gtype,gsubtype)
     gtype = strupper(gtype)
