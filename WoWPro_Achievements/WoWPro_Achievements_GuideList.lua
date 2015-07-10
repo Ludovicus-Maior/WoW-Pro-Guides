@@ -4,28 +4,6 @@
 WoWPro.Achievements.GuideList = {}
 WoWPro.Achievements.GuideList.Guides = {}
 
-WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
--- Creating a Table of Guides for the Guide List and sorting based on level --
-local guides
-
-function WoWPro.Achievements.Scrape()
-    WoWProDB.global.Achievements.Category = {}
-    WoWProDB.global.Achievements.Achievement = {}
-
-    local categories = GetCategoryList()
-    for i, cid in ipairs(categories) do
-        local name, parentID, flags = GetCategoryInfo(cid)
-        WoWProDB.global.Achievements.Category[cid] = { ['name'] = name, ['parentID'] = parentID}
-    end
-    for cid, cinfo in pairs(WoWProDB.global.Achievements.Category) do
-        local numItems, numCompleted = GetCategoryNumAchievements(cid)
-        for index = 1,numItems do
-            local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(cid, index)
-            WoWProDB.global.Achievements.Achievement[id] = {['cid'] = cid, ['name'] = name, ['icon'] = icon } 
-        end
-    end    
-end
-
 local function AddInfo(guide)
     -- If name and cat are set, then assume all is well.
     if guide.name and guide.category then
@@ -69,7 +47,7 @@ end
 local function Init()
     guides = {}
     if not WoWProDB.global.Achievements.Category then
-        WoWPro.Achievements.Scrape()
+        WoWPro.AchievementsScrape()
     end
     
     for guidID,guide in pairs(WoWPro.Guides) do
