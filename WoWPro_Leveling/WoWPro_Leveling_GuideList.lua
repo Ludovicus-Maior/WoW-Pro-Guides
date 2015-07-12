@@ -91,7 +91,7 @@ function WoWPro.Leveling:UpdateGuideScores()
 	        WoWPro:ResolveIcon(guide)
 	        if UnitLevel("player") < guide.startlevel then
 	            guide.score = 0
-	        elseif WoWProCharDB.Guide[guidID].done then
+	        elseif WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].done then
 	            guide.score = 0
 	        elseif UnitLevel("player") > guide.endlevel then
 	            guide.score = 100 * (guide.endlevel / UnitLevel("player"))
