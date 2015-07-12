@@ -300,6 +300,7 @@ function WoWPro:OnInitialize()
 	    WoWProCharDB.EnableGrail = true
 	end
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
+	WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
 	end
