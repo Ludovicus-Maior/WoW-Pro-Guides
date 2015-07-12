@@ -209,9 +209,16 @@ end
 function WoWPro:NextGuide(GID)
 	local myUFG = UnitFactionGroup("player")
     if not WoWPro.Guides[GID].nextGID then
-        -- If there is no next guide defined, SAY.
-        WoWPro:dbp("WoWPro:NextGuide(%s): no next guide", GID)
-        return nil
+        -- If there is no next guide defined, see if we can pop something off the stack
+        local pop = WoWPro:PopCurrentGuide(GID, false)
+        if pop then
+            WoWPro:dbp("WoWPro:NextGuide(%s): popped guide", pop)
+            return pop
+        else
+            WoWPro:dbp("WoWPro:NextGuide(%s): no next guide and no pop", GID)
+            return nil
+        end
+
     end
 	if WoWPro.Guides[GID].faction == "Neutral" then
 	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
@@ -431,6 +438,13 @@ function WoWPro.NextStep(k,i)
 			end
 		end
 	
+	    -- Handle Jump actions
+	    if WoWPro.action[k] == "J" and  WoWPro.guide[k] and i == 1 then
+            WoWPro.CompleteStep(i,"Time to JUMP")
+            skip = true
+            break
+	    end
+
 	    -- WoWPro:dbp("Checkpoint Aleph for step %d",k)
 	    
 		-- Checking Prerequisites --
@@ -1002,6 +1016,11 @@ function WoWPro.CompleteStep(step, why)
 	    WoWProCharDB.Guide[GID].done = true
 	    WoWPro:dbp("WoWPro.CompleteStep: %s guide is done.",GID)
 	end
+	if WoWPro.action[step] == "J" then
+	    local nGID = WoWPro.guide[step]
+	    WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",GID, nGID)
+	    WoWPro:LoadGuide(nGID)
+	end
 	WoWPro.why[step] = why
 	WoWPro:UpdateGuide("WoWPro.CompleteStep")
 	WoWPro:RemoveMapPoint()
@@ -1112,8 +1131,8 @@ function WoWPro:PopulateQuestLog()
 			WoWPro:print("New Quest %d: [%s]",QID,WoWPro.QuestLog[QID].title)
 		end
 		-- Is this an auto-switch quest?
-		if WoWProDB.global.QID2Guide[QID] then
-		    WoWPro:SelectGuide(WoWProDB.global.QID2Guide[QID])
+		if WoWProDB.global.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProDB.global.QID2Guide[QID] then
+		    WoWPro:SelectGuide(WoWProDB.global.QID2Guide[QID], WoWPro.QuestLog[QID].title)
 		end
 	end
 	
