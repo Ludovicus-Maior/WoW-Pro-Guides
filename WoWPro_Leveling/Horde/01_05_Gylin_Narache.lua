@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2015-07-12 20:27
+-- Who: Ludovicus
+-- Log: Playthrough on a Belf Pally
+
+-- URL: http://wow-pro.com/node/3203/revisions/27328/view
+-- Date: 2015-07-12 20:25
+-- Who: Ludovicus
+-- Log: Blood elfs are not special anymore.
+
+-- URL: http://wow-pro.com/node/3203/revisions/27258/view
 -- Date: 2015-05-17 22:14
 -- Who: Ludovicus
 -- Log: Tauren Starter zone update

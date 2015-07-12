@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2015-07-12 20:28
+-- Who: Ludovicus
+-- Log: Bitter Reaches Tweak.
+
+-- URL: http://wow-pro.com/node/3217/revisions/27300/view
 -- Date: 2015-06-23 22:09
 -- Who: Ludovicus
 -- Log: Add flight points, lots of QO changes and a few coord tweaks
@@ -338,7 +343,7 @@ T Shore Leave|QID|24449|M|60.59,50.57|N|To Uncle Bedlam. Hop on the Military Gyr
 A Azshara Blues|QID|14407|M|59.38,50.68|N|From Teemo.|
 T Azshara Blues|QID|14407|M|55.47,52.16|N|To Kalec.|
 A Friends Come In All Colors|QID|14130|PRE|14407|M|55.47,52.16|N|From Kalec.|
-F Bitter Reaches|QID|14130|M|52.93,49.86|N|The flight point you're actually headed to is Northern Rocketway north of Bilgewater Harbor.|
+F Bitter Reaches|QID|14130|M|67.46,21.13|N|The flight point you're actually headed to is Northern Rocketway north of Bilgewater Harbor.|
 T Friends Come In All Colors|QID|14130|M|70.33,36.28|N|To Ergll.|
 A A Little Pick-me-up|QID|14131|M|70.33,36.28|N|From Ergll.|
 A That's Just Rude!|QID|14132|M|70.33,36.28|N|From Ergll.|

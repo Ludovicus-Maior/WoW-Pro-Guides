@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2015-07-12 20:31
+-- Who: Ludovicus
+-- Log: Play through on Belf Pally
+
+-- URL: http://wow-pro.com/node/3228/revisions/26925/view
 -- Date: 2014-11-08 06:36
 -- Who: Emmaleah
 -- Log:  A The Essence of Aku'Mai
@@ -109,6 +114,7 @@ A Rescue the Fallen|QID|13613|RANK|1|M|42.42,15.76|Z|Northern Barrens|N|From Din
 A Mor'shan Defense|QID|13612|RANK|1|M|42.73,15.06|Z|Northern Barrens|N|From Kadrak.|
 A Find Gorat!|QID|13618|RANK|1|M|42.73,15.06|Z|Northern Barrens|N|From Kadrak.|
 A Empty Quivers|QID|13615|RANK|1|M|42.23,15.22|Z|Northern Barrens|N|From Truun.|
+f The Mor'shan Ramparts|QID|13615|M|41.98,15.88|Z|Northern Barrens|N|Get the flightpoint from Gort Goreflight|
 
 C Mor'shan Defense|QID|13612|M|67.29,86.43;42.15,13.06|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|CN|S|
 C Empty Quivers|QID|13615|M|65.07,85.38|S|N|Collect "shiny" Arrow spots.|
@@ -130,7 +136,7 @@ C Gorat's Vengeance|QID|13621|U|45023|M|64.21,84.51;65.66,82.21|CS|N|Use Gorat's
 T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|Northern Barrens|N|To Kadrak.|
 
 A Got Wood?|QID|13628|RANK|1|M|42.31,15.20|Z|Northern Barrens|N|From Truun.|
-C Got Wood?|QID|13628|M|42.58,15.19;42.81,15.97|Z|Northern Barrens|CC|N|Speak to Kadrak when you're ready to leave. Then hop on Brutusk (the huge kodo.).|
+C Got Wood?|QID|13628|M|42.58,15.19;42.81,15.97|Z|Northern Barrens|CC|N|Speak to Kadrak when you're ready to leave. Then hop on Brutusk (the huge kodo). If you can't mount Brutusk, /reload your UI and all will be well.|
 T Got Wood?|QID|13628|M|72.89,80.42|N|Ride Brutusk to Warsong Lumber Camp. To Gorka.|
 
 A Management Material|QID|13640|PRE|13628|RANK|1|M|72.86,80.42|N|From Gorka.|
@@ -150,6 +156,7 @@ r To the Rescue!|QID|13712|Z|Northern Barrens|N|Repair and Restock if necessary.
 C To the Rescue!|QID|13712|M|42.66,14.96;73.26,64.99|CC|N|Speak to Kadrak when you're ready to leave.|
 T To the Rescue!|QID|13712|M|73.64,62.22|N|After breaking the seige, follow Kadrak into Splintertree Post and turn in the quest to him there.|
 
+f Splintertree Post|QID|13803|M|73.18,61.59|N|Get the flight point from Vuhlgra|
 A Blood of the Weak|QID|13803|PRE|13712|RANK|1|M|73.64,62.22|N|From Kadrak.|
 A Destroy the Legion|QID|26448|RANK|1|M|73.22,60.09|N|From Valusha.|
 A Ashenvale Outrunners|QID|6503|RANK|1|M|73.55,60.92|N|From Kuray'bin.|
@@ -206,7 +213,7 @@ T Rain of Destruction|QID|13798|M|72.21,57.61|N|To Durak.|
 
 A All Apologies|QID|13841|RANK|1|M|73.33,62.12|N|From Splintertree Demolisher.|
 
-K Gorgannon|QID|26449|L|45477|M|84.08,71.07;84.24,77.20;87.41,78.98;89.57,76.78|CS|N|Follow the waypoints to Gorgannon in Demonfall Canyon. Kill him, pick up the loot.|
+K Gorgannon|QID|26449|QO|0|M|84.08,71.07;84.24,77.20;87.41,78.98;89.57,76.78|CS|N|Follow the waypoints to Gorgannon in Demonfall Canyon. Kill him, pick up the loot.|
 C Never Again!|QID|26449|M|82.72,77.91;81.38,78.12;81.12,79.32;80.94,80.05;79.53,80.65;78.41,81.57;78.38,83.84|CS|N|Follow the waypoints through the Canyon and up another path to Diathorus. Kill him, pick up the loot.|
 
 H Splintertree Post|QID|26449|N|If Hearthstone isn't ready, just run back to Splintertree Post.|

@@ -3,10 +3,20 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/garrison_buildings_alliance
+-- Date: 2015-07-12 20:33
+-- Who: Ludovicus
+-- Log: Tweaks and spell checks
+
+-- URL: http://wow-pro.com/node/3631/revisions/27296/view
+-- Date: 2015-06-23 12:18
+-- Who: Ludovicus
+-- Log: Initial Version
+
 local guide = WoWPro:RegisterGuide('LudoBuildingsAlliance', 'Achievements', 'Shadowmoon Valley@Draenor', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,90, 100, 92)
 WoWPro:GuideIcon(guide,"ACH",9096)
-WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideName(guide, "Garrison Buildings")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -106,7 +116,7 @@ A Easing into Lumberjacking|QID|36189|N|From Justin Timberlord.|BUILDING|LumberM
 C Easing into Lumberjacking|QID|36189|M|31.29, 24.70|N|Ride and exit your garrison through the main gate and the tree will be on your right on the road.|
 T Easing into Lumberjacking|QID|36189|N|To Justin Timberlord.|BUILDING|LumberMill;40|Z|Lunarfall|
 A Turning Timber into Profit|QID|36192|N|From Justin Timberlord.|PRE|36189|Z|Lunarfall|BUILDING|LumberMill;40|
-F Embaari Village |QID|36138|N|Fly to Embaari Village to go to Arbor Glen for your wood.|ACTIVE|36138|
+F Embaari Village |QID|36192|M|48.05,49.86|Z|Lunarfall|N|Fly to Embaari Village to go to Arbor Glen for your wood.|ACTIVE|36192|
 C Turning Timber into Profit|QID|36192|M|46.60,34.50|N|As you are out and about don't forget to mark trees.|QO|1|
 C Turning Timber into Profit|QID|36192|N|Now turn in your first order at the mill.|BUILDING|LumberMill;40|QO|2|Z|Lunarfall|
 T Turning Timber into Profit|QID|36192|N|From Justin Timberlord.|Z|Lunarfall|BUILDING|LumberMill;40|
@@ -143,7 +153,7 @@ C Place work order|QID|37574|M|52.84,47.29|QO|1|CHAT|L|110609 5|N|At Yanny.|
 C Pick up work order|QID|37574|M|52.95,41.3|QO|2|NC|L|110609 5|N|At Yanny.|
 t Your First Leatherworking Work Order|QID|37574|M|52.84,47.29|N|To Yanny.|
 
-;tailering emporium SMALL
+;tailoring emporium SMALL
 A Your First Tailoring Work Order|QID|36643|M|48.22,32.51|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|N|From ??.|
 B Sumptuous Fur|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|L|111557 5|N|Acquire from killing and looting humanoids (saborons a very good source) or the Auction House or some other method.|
 C Place order|QID|36643|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|CHAT|N|Talk to Turga to start a work order.|
@@ -207,21 +217,28 @@ C Things Are Not Goren Our Way |QID|34192|N|Head to the back of the mine and kil
 C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|US|QO|1|
 T Things Are Not Goren Our Way |QID|34192|N|To Timothy Leens|M|65.46,41.79|Z|Lunarfall|
 
-A Looking For Help |QID|34194|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton|PRE|36592|BUILDING|townhall;2|LVL|94|
-C Looking For Help |QID|34194|M|26.96, 7.29|CHAT|N|Ask for help from Maidari at Eventide Landing.  Fastest way to get there is to jump carefully down the back of your garrison.|
-T Looking For Help |QID|34194|M|26.96, 7.29|N|To Madari.|
-A Moonshell Claws |QID|36199|M|26.96, 7.29|N|From Madari.|PRE|34194|
+; Fishing Shack
+A Looking For Help |QID|34194|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton, Fisherman|PRE|36592|BUILDING|townhall;2|LVL|94|
+C Looking For Help |QID|34194|M|26.96, 6.65|CHAT|N|Ask for help from Maidari at Eventide Landing.  Fastest way to get there is to jump carefully down the back of your garrison.|
+T Looking For Help |QID|34194|M|26.97, 6.65|N|To Madari.|
+A Moonshell Claws |QID|36199|M|26.96, 6.65|N|From Madari.|PRE|34194|
 C Claws |QID|36199|M|30.20, 10.68|QO|1|N|On the other side of the ship.|
-T Moonshell Claws |QID|36199|M|26.96, 7.29|N|To Madari.|
-A Proving Your Worth |QID|36201|M|26.96, 7.29|N|From Madari.|PRE|36199|
+T Moonshell Claws |QID|36199|M|26.96, 6.65|N|To Madari.|
+A Proving Your Worth |QID|36201|M|26.96, 6.65|N|From Madari.|PRE|36199|
 C Shadow Sturgeons |QID|36201|M|27.59, 6.90|QO|1|N|Be sure to equip your best fishing pole and use the bait.|U|114874|
-T Proving Your Worth |QID|36201|M|26.96, 7.29|N|From Madari.|
-A Anglin' In Our Garrison |QID|36202|M|26.96, 7.29|N|From Madari.|PRE|36201|
+T Proving Your Worth |QID|36201|M|26.96, 6.65|N|From Madari.|
+A Anglin' In Our Garrison |QID|36202|M|26.96, 6.65|N|From Madari.|PRE|36201|
 T Anglin' In Our Garrison |QID|36202|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton|
 
+; Garden
 A Clearing the Garden |QID|36404|M|58.89, 53.45|N|From Naron Bloomthistle|Z|Lunarfall|PRE|36592|BUILDING|townhall;2|LVL|96|
 C Kill the Raccoons|QID|36404|M|57.6,59.6|Z|Lunarfall|QO|1|
 T Clearing the Garden |QID|36404|M|58.89, 53.45|Z|Lunarfall|N|To Naron Bloomthistle|
+
+; Pet Battle Station
+A Unearthed Magic|QID|38241|M|28.85,38.56|N|From Lio the Lioness|Z|Lunarfall|BUILDING|townhall;3|LVL|98|
+C Unearthed Magic|QID|38241|M|65.8,41.8|N|It is in a cart outside the mine.|
+T Unearthed Magic|QID|38241|M|28.85,38.56|N|To Lio the Lioness|Z|Lunarfall|
 
 ]]
 
