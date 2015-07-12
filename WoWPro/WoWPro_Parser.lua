@@ -21,7 +21,8 @@ WoWPro.actiontypes = {
 	L = "Interface\\Icons\\Spell_ChargePositive",
 	l = "Interface\\Icons\\INV_Misc_Bag_08",
 	r = "Interface\\Icons\\Ability_Repair",
-	D = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Green"
+	D = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Green",
+	J = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Red"
 }
 WoWPro.actionlabels = {
 	A = "Accept",
@@ -41,7 +42,8 @@ WoWPro.actionlabels = {
 	L = "Level",
 	l = "Loot",
 	r = "Repair/Restock",
-	D = "Done"
+	D = "Done",
+	J = "Jump"
 }
 
 
@@ -188,12 +190,13 @@ DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
+DefineTag("GUIDE","guide","string",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
 DefineTag("Z","zone","string",nil,nil)
 DefineTag("FACTION","faction","string",nil,nil)
 DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R tags
 DefineTag("C",nil,"string",nil,function (value,i) end)  -- Swallow C tags
-DefineTag("GEN",nil,"string",nil,function (value,i) end)  -- Swallow C tags
+DefineTag("GEN",nil,"string",nil,function (value,i) end)  -- Swallow Gen tags
 
 	
 
@@ -274,6 +277,15 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	                WoWPro:Warning("%d:Step %s [%s] has an missing value for tag ||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag)
 	            elseif string.len(value) == 0 then
 	                WoWPro:Warning("%d:Step %s [%s] has an empty value for tag ||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag)
+	            end
+	        elseif tag_spec.vtype == "guide" then
+	            -- pop the next value off the stack
+	            idx = idx + 1
+	            value = tags[idx]
+	            if not value then
+	                WoWPro:Warning("%d:Step %s [%s] has an missing value for tag ||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag)
+	            elseif not WoWPro.Guides[value] then
+	                WoWPro:Warning("%d:Step %s [%s] has an invalid value for tag ||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag)
 	            end
 	        else
 	            WoWPro:Error("Tag %s has a bad key vtype of '%s'. Report this!", tag, tag_spec.vtype)
@@ -562,17 +574,25 @@ function WoWPro.LoadGuideStepsReal()
 	WoWPro:GuideSetup()
 end
 
--- Push the guide on to the list of active guides, one per module
+-- Push the guide on to the list of active guides
 function WoWPro:PushCurrentGuide(GID)
     local guideType = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
-    if not  WoWProDB.char[guideType] then
-        WoWProDB.char[guideType] = {}
+    table.insert(WoWProCharDB.GuideStack,GID)
+    WoWPro[guideType]:dbp("Recorded load for guide %s",GID, when)
+end
+
+function WoWPro:PopCurrentGuide(current, pop)
+    -- Get rid of the current guide
+    for idx = 1, #WoWProCharDB.GuideStack do
+        while WoWProCharDB.GuideStack[idx] == current do
+            table.remove(WoWProCharDB.GuideStack,idx)
+        end
     end
-    if not WoWProDB.char[guideType].GuideStack then
-        WoWProDB.char[guideType].GuideStack = {}
+    if pop then
+        return table.remove(WoWProCharDB.GuideStack)
+    else
+        return WoWProCharDB.GuideStack[#WoWProCharDB.GuideStack]
     end
-    WoWProDB.char[guideType].GuideStack[GID] = time()
-    WoWPro[guideType]:dbp("Recorded load for guide %s at %d",GID,WoWProDB.char[guideType].GuideStack[GID])
 end
 
 -- Guide Setup --
