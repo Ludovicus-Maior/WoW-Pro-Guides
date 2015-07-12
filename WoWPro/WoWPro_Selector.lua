@@ -187,6 +187,22 @@ function WoWPro_SelectorButton_OnMouseDown(self)
     end
 end
 
+function WoWPro:OfferGuideSwitch(nGID, quest)
+    WoWPro:dbp("OfferGuideSwitch(%s, %s)", tostring(nGID), tostring(quest))
+    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"] = {
+        text = "Would you like to switch to the guide for the quest you just accepted?",
+	    OnAccept = function (self, data, data2) WoWPro:dbp("WOWPRO_SWITCH_GUIDE(YES)"); WoWPro:LoadGuide(nGID); end ,
+	    OnCancel = function (self, data, why) WoWPro:dbp("WOWPRO_SWITCH_GUIDE(NO,%s)", why); end,
+	    timeout = 30,
+	    button1 = YES,
+	    button2 = NO
+	}
+	if quest then
+	    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"].text = string.format("Would you like to switch to the guide for the quest [%s]?", quest)
+	end
+	StaticPopup_Show("WOWPRO_SWITCH_GUIDE")
+end
+
 function WoWPro_Selector_OnLoad()
     WoWProSelector_Frame.button = {}
     
@@ -202,20 +218,38 @@ function WoWPro_Selector_OnLoad()
         end
         item:RegisterForClicks("AnyDown")
     end
+
+    -- Single Guide Offer
+    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"] = {
+        text = "Would you like to switch to the guide for the quest you just accepted?",
+	    OnAccept = function () end ,
+	    OnCancel = function (why) end,
+	}
 end
 
 -- Callback from "WoWPro_GuideSelect"
 function WoWPro.SelectGuideReal()
-    WoWPro:Selector()
+    local count, nGID , quest
+    count = 0
+    for guidID,value in pairs(WoWPro.QuestLogGuides) do
+        count = count + 1
+        quest = value
+        nGID = guidID
+    end
+    if count == 1 then
+        WoWPro:OfferGuideSwitch(nGID, quest)
+--    else
+--        WoWPro:Selector()
+    end
 end
 
 -- Enqueue a guide selection for later
-function WoWPro:SelectGuide(GID)
+function WoWPro:SelectGuide(GID, quest)
     if GID then
         WoWPro.QuestLogGuides = WoWPro.QuestLogGuides or {}
         if not WoWPro.QuestLogGuides[GID] then
-            WoWPro.QuestLogGuides[GID] = true
---            WoWPro:SendMessage("WoWPro_GuideSelect")
+            WoWPro.QuestLogGuides[GID] = quest
+            WoWPro:SendMessage("WoWPro_GuideSelect")
         end
     end
     
