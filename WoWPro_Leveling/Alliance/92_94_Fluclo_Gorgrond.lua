@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2015-07-12 12:28
+-- Who: Fluclo
+-- Log: Fixing Great Escape as it didn't show up at the right time due to a bad |PRE| tag, and ceases to become available after you've completed Leave Every Soldier Behind
+
+-- URL: http://wow-pro.com/node/3613/revisions/27316/view
 -- Date: 2015-07-05 17:49
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -371,7 +376,7 @@ C Leave Every Soldier Behind |QID|36223|N|Pick up Thukmar's Intel.|QO|2|NC|M|45.
 C Fair Warning|QID|35128|N|Kill Borogahn|QO|2|T|Borogahn|M|31.08,74.93|
 l Horned Skull |QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|47.05,67.03|RANK|3|ACTIVE|35128|
 C Fair Warning|QID|35128|N|Finish killing the Ogron Spinecrusher|QO|1|US|M|47.05,67.03|
-A A Great Escape |QID|35210|N|From Goren Tunnel (near Borogahn's location)|M|41.97,46.81|PRE|35128|
+A A Great Escape |QID|35210|N|From Goren Tunnel (near Borogahn's location)|M|41.97,46.81|PRE|36209|LEAD|36223|
 C A Great Escape |QID|35210|N|Use the Goren Tunnel|M|41.97,46.81|NC|
 
 T Leave Every Soldier Behind |QID|36223|N|To Rexxar, who is now in Gronn Canyon.|M|43.94,48.83|
