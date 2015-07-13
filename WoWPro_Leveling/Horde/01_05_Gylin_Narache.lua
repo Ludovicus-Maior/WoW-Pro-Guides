@@ -210,11 +210,10 @@ A The Hunter's Path|QID|27021|M|28.13,27.85|N|From Lanka Farshot.|C|Hunter|R|Tau
 C The Hunter's Path|QID|27021|M|27.91,28.32|C|Hunter|R|Tauren|N|Use the indicated shot on the Training Dummy's.|
 T The Hunter's Path|QID|27021|M|28.13,27.85|N|To Lanka Farshot.|C|Hunter|R|Tauren|
 
-; The BloodElf/Troll adds should be verified.
-T Consecrated Note|QID|27015|M|27.15,27.93|N|To Sunwalker Helaku.|C|Paladin|R|Tauren,BloodElf|
-A The Way of the Sunwalkers|QID|27023|M|27.15,27.93|N|From Sunwalker Helaku.|C|Paladin|R|Tauren,BloodElf|
-C The Way of the Sunwalkers|QID|27023|M|28.47,28.35|C|Paladin|R|Tauren,BloodElf|
-T The Way of the Sunwalkers|QID|27023|M|27.15,27.93|N|To Sunwalker Helaku.|C|Paladin|R|Tauren,BloodElf|
+T Consecrated Note|QID|27015|M|27.15,27.93|N|To Sunwalker Helaku.|C|Paladin|R|Tauren|
+A The Way of the Sunwalkers|QID|27023|M|27.15,27.93|N|From Sunwalker Helaku.|C|Paladin|R|Tauren|
+C The Way of the Sunwalkers|QID|27023|M|28.47,28.35|C|Paladin|R|Tauren|
+T The Way of the Sunwalkers|QID|27023|M|27.15,27.93|N|To Sunwalker Helaku.|C|Paladin|R|Tauren|
 
 T Hallowed Note|QID|27014|M|27.23,27.43|N|To Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
 A Healing in a Flash|QID|27066|M|27.23,27.43|N|From Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
@@ -242,7 +241,7 @@ C Last Rites, First Rites|NC|QID|24861|M|27.79,28.75|U|50465|N|Use the Water Pit
 T Last Rites, First Rites|QID|24861|M|27.72,28.28|N|To Chief Hawkwind.|
 
 A Rites of the Earthmother|QID|23733|M|27.72,28.28|N|From Chief Hawkwind.|
-R Fargaze Mesa|QID|23733|M|18.85,28.91|N|Head up the path on the hill to Fargaze Mesa.|
+R Fargaze Mesa|QID|23733|M|21.03,34.52;15.76,27.68|CS|N|Head up the path on the hill to Fargaze Mesa.|
 T Rites of the Earthmother|QID|23733|M|15.62,30.28|N|To Dyami Windsoar.|
 
 A Rite of the Winds|QID|24215|M|15.62,30.28|N|From Dyami Windsoar.|

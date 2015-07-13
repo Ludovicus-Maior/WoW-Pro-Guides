@@ -197,7 +197,7 @@ T The Ravaged Caravan|QID|751|M|57.05,60.24|N|To Morin Cloudstalker.|
 A The Venture Co.|QID|26179|M|57.05,60.24|N|From Morin Cloudstalker.|
 A Supervisor Fizsprocket|QID|26180|M|57.05,60.24|N|From Morin Cloudstalker.|
 C The Venture Co.|S|QID|26179|N|Kill Workers as you make your way up the hill to the mine.|QO|Venture Co. Worker slain: 7/7|
-K Supervisor Fizsprocket|QID|26180|M|60.92,47.07|N|Kill Supervisor Fizsprocket inside the mine and loot his clipboard.|T|Supervisor Fizsprocket|QO|Fizsprocket's Clipboard: 1/1|
+K Supervisor Fizsprocket|QID|26180|M|60.92,47.07|N|Kill Supervisor Fizsprocket inside the mine and loot his clipboard.|T|Supervisor Fizsprocket|QO|1|
 C The Venture Co.|US|QID|26179|N|Kill Workers you still need as you make your way back down the hill.|QO|Venture Co. Worker slain: 7/7|
 C Mazzranache|S|QID|26188|N|Kill Flatland Cougars you see until you get a femur.|QO|Flatland Cougar Femur: 1/1|
 C Thunderhorn Totem|US|QID|24441|R|Tauren|N|Finish killing and looting the Flatland Cougars and Prairie Stalkers for their claws.|
@@ -209,10 +209,10 @@ C Dangers of the Windfury|QID|743|M|63.43,68.61|N|Kill and loot the Windfury for
 H Bloodhoof Village|QID|743|M|46.82,60.46|N|Hearth to Bloodhoof Village, or run back. Sell any junk you might have to Innkeeper Kauth.|
 
 C Kyle's Gone Missing!|NC|S|QID|11129|U|33009|T|Kyle the Frenzied|N|While in Bloodhoof Village turning in your quests, keep a look out for Kyle the Frenzied running around. Target him and place the Tender Strider Meat on the ground.|
-T Dangers of the Windfury|QID|743|M|47.51,61.22|N|To Ruul Eagletalon.|
+T Dangers of the Windfury|QID|743|M|47.50,61.34|N|To Ruul Eagletalon.|
 T Thunderhorn Totem|QID|24441|M|48.59,59.89|R|Tauren|N|To Mull Thunderhorn.|
 A Thunderhorn Cleansing|QID|24456|PRE|24441|M|48.59,59.89|R|Tauren|N|From Mull Thunderhorn.|
-T Mazzranache|QID|26188|M|47.18,56.76|N|To Maur Raincaller.|
+T Mazzranache|QID|26188|M|47.15,56.66|N|To Maur Raincaller.|
 C Kyle's Gone Missing!|NC|US|QID|11129|M|47.18,56.76|U|33009|T|Kyle the Frenzied|N|Wait here until you see Kyle the Frenzied. Target him and place the Tender Strider Meat on the ground.|
 T Kyle's Gone Missing!|QID|11129|M|48.31,53.17|N|To Ahab Wheathoof.|
 C Thunderhorn Cleansing|NC|QID|24456|M|44.98,45.25|R|Tauren|N|Use the Thunderhorn Cleansing Totem at the well.|U|5415|
@@ -232,14 +232,21 @@ C Rite of Vision|NC|QID|20441|R|Tauren|N|Drink the Water of Vision to become a W
 T Rite of Vision|QID|20441|M|49.37,17.49|R|Tauren|N|To Una Wildmane.|
 A Wildmane Totem|QID|24523|M|49.37,17.49|R|Tauren|N|From Una Wildmane.|
 A Rite of Wisdom|QID|773|M|49.48,17.21|R|Tauren|N|From Lorekeeper Raintotem.|
+
 A A Sacred Burial|QID|833|M|49.48,17.21|N|From Lorekeeper Raintotem.|
-A The Hunter's Way|QID|861|M|49.63,17.22|N|From Skorn Whitecloud.|
+K Ghost Howl|QID|770|M|44.05,16.62|T|Ghost Howl|N|Go find Ghost Howl and whack him for the quest.|
+U Demon Scarred Cloak|QID|770|U|4854|N|Click to get the quest.|
+
+T The Demon Scarred Cloak|QID|770|M|49.63,17.22|N|To Skorn Whitecloud.|
+
+; I think this is Tauren only now ...
+A The Hunter's Way|QID|861|M|49.63,17.22|N|From Skorn Whitecloud.|R|Tauren|
 A Preparation for Ceremony|QID|744|M|49.60,17.49|N|From Eyahn Eagletalon.|
-C The Hunter's Way|QID|861|S|M|51.25,21.86|N|Kill any Flatland Prowlers you see.|
+C The Hunter's Way|QID|861|S|M|51.25,21.86|N|Kill any Flatland Prowlers you see.|R|Tauren|
 C Wildmane Totem|QID|24523|S|M|47.87,21.86|R|Tauren|N|Kill any Prairie Wolf Alpha you see.|
 C Preparation for Ceremony|QID|744|M|54.73,12.95|N|Kill and loot the Windfury Sorceress for the Azure Feathers, and kill and loot Windfury Matriarch for the Bronze Feathers.|
 
-R Red Rocks|QID|773|M|59.62,22.42|N|Head to Red Rocks.|
+R Red Rocks|ACTIVE|773|M|59.62,22.42|N|Head to Red Rocks.|
 
 C A Sacred Burial|QID|833|M|60.77,22.52|N|Kill the Bristleback Interloper as you head towards the Ancestral Spirit.|S|
 T Rite of Wisdom|QID|773|M|60.77,22.52|N|To Ancestral Spirit.|
@@ -249,19 +256,19 @@ L Level 10|QID|744|LVL|10|N|You should be around level 10 by this point.|
 
 C Wildmane Totem|QID|24523|US|M|47.87,21.86|R|Tauren|N|Finish killing any Prairie Wolf Alpha you see.|
 C The Hunter's Way|QID|861|US|M|51.25,21.86|N|Finish killing any Flatland Prowlers you see.|
-T The Hunter's Way|QID|861|M|49.66,17.41|N|To Skorn Whitecloud.|
-T A Sacred Burial|QID|833|M|49.59,17.21|N|To Lorekeeper Raintotem.|
+T The Hunter's Way|QID|861|M|49.66,17.41|N|To Skorn Whitecloud.|R|Tauren|
+T A Sacred Burial|QID|833|M|49.51,17.10|N|To Lorekeeper Raintotem.|
 T Wildmane Totem|QID|24523|M|49.45,17.31|R|Tauren|N|To Una Wildmane.|
 
 A Wildmane Cleansing|QID|24524|M|49.45,17.31|R|Tauren|N|From Una Wildmane.|
-T Preparation for Ceremony|QID|744|M|49.59,17.47|N|To Eyahn Eagletalon.|
+T Preparation for Ceremony|QID|744|M|49.59,17.59|N|To Eyahn Eagletalon.|
 C Wildmane Cleansing|QID|24524|NC|U|5416|M|43.07,16.41|R|Tauren|N|Use the Wildmane Cleansing Totem at the well. If you see a Ghost Wolf, kill and loot it.|
 
 T Wildmane Cleansing|QID|24524|M|49.31,17.34|R|Tauren|N|To Una Wildmane.|
 A Journey into Thunder Bluff|QID|24550|M|49.31,17.34|R|Tauren|N|From Una Wildmane.|
 T The Demon Scarred Cloak|QID|770|M|49.68,17.23|N|To Skorn Whitecloud.|
 
-H Bloodhoof Village|QID|6361|M|46.82,60.46|N|Hearth to Bloodhoof Village, or run back. Sell any junk you might have to Innkeeper Kauth.|
+H Bloodhoof Village|ACTIVE|6361|M|46.82,60.46|N|Hearth to Bloodhoof Village, or run back. Sell any junk you might have to Innkeeper Kauth.|
 
 A A Bundle of Hides|QID|6361|M|46.11,58.17|R|Tauren|N|From Varg Windwhisper.|
 ;This next step is auto-learned
@@ -283,11 +290,11 @@ T Journey into Thunder Bluff|QID|24550|M|59.90,51.68|Z|Thunder Bluff|R|Tauren|N|
 A War Dance|QID|24540|M|59.90,51.68|Z|Thunder Bluff|R|Tauren||N|From Baine Bloodhoof.|
 ;N Visit your trainer|QID|6362|N|Visit your trainer and buy any new skill/spells you have available. Ask a Bluff Watcher where you trainer's are, there are some outside the buildings either side of the building Baine Bloodhoof is in.|
 
-R Mulgore|QID|24540|M|40.76,24.81|N|Head to the lift and let it take you down to Mulgore, and continue north-west.|
+R Mulgore|ACTIVE|24540|M|40.76,24.81|N|Head to the lift and let it take you down to Mulgore, and continue north-west.|
 R Stonetalon Path|QID|24540|M|38.23,14.22|R|Tauren|N|Continue to run north-west to the Stonetalon Pass.|
 C War Dance|QID|24540|M|37.19,13.06|R|Tauren|N|Start Orno Grimtotem at the top. You only need to achieve about 25% damage, before Bain Bloodhoof comes and finishes him off. Also, don't bother attacking any Defenders if you can get past them, as they offer no loot or XP.|
 
-H Bloodhoof Village|QID|6364|M|46.82,60.46|N|Hearth to Bloodhoof Village, or run back. Sell any junk you might have to Innkeeper Kauth.|
+H Bloodhoof Village|ACTIVE|6364|M|46.82,60.46|N|Hearth to Bloodhoof Village, or run back. Sell any junk you might have to Innkeeper Kauth.|
 
 T Return to Varg|QID|6364|M|46.14,58.20|R|Tauren|N|To Varg Windwhisper.|
 F Thunder Bluff|QID|24550|M|42.48,28.66|R|Tauren|N|Fly to Thunder Bluff.|
@@ -295,9 +302,9 @@ F Thunder Bluff|QID|24550|M|42.48,28.66|R|Tauren|N|Fly to Thunder Bluff.|
 T War Dance|QID|24540|M|59.88,51.62|Z|Thunder Bluff|R|Tauren|N|To Baine Bloodhoof.|
 
 A Walk With The Earth Mother|QID|26397|M|59.88,51.62|Z|Thunder Bluff|R|Tauren|N|From Baine Bloodhoof.|
-F Orgrimmar|QID|26397|M|46.79,49.81|N|Speak to Tal the Wind Rider Master and select Send me to Orgrimmar.|
+F Orgrimmar|ACTIVE|26397|M|46.79,49.81|N|Speak to Tal the Wind Rider Master and select Send me to Orgrimmar.|
 
-R Valley of Strength|QID|26397|M|51.21,63.07|N|Head down the lift and onto Valley of Strength.|
+R Valley of Strength|ACTIVE|26397|M|51.21,63.07|N|Head down the lift and onto Valley of Strength.|
 T Walk With The Earth Mother|QID|26397|M|48.19,70.65|Z|Orgrimmar|R|Tauren|N|To Garrosh Hellscream. Inside the building.|
 
 ]]
