@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-07-17 19:28
+-- Who: Fluclo
+-- Log: Paint it Black is a non-combat quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/27334/view
+-- Date: 2015-07-17 19:25
+-- Who: Fluclo
+-- Log: No Tanks is a non-combat quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/27333/view
+-- Date: 2015-07-17 19:24
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3200/revisions/27259/view
 -- Date: 2015-05-18 00:14
 -- Who: Ludovicus
 -- Log: Wow, that [code] block thing was a bad idea.
@@ -247,23 +261,6 @@
 -- Who: Crackerhead22
 -- Log: Added missing R for a race tag.
 
--- URL: http://wow-pro.com/node/3200/revisions/24507/view
--- Date: 2011-06-06 21:14
--- Who: Crackerhead22
--- Log: Dwarf starting area update: Added race tags for the Dwarf only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags.
---	Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
---	5-12 guide update: Added race tags for a few steps (non-Gnome step for "Bound for Kharanos", non-Gnome/Dwarf step for getting FP at Kharanos), added missing notes, added missing waypoint, tweaked a few notes, tweaked a few waypoints. Added in steps done by Fluclo (as I missed his edits before I started my edits).
-
--- URL: http://wow-pro.com/node/3200/revisions/24506/view
--- Date: 2011-06-06 20:43
--- Who: Crackerhead22
--- Log: .
-
--- URL: http://wow-pro.com/node/3200/revisions/24505/view
--- Date: 2011-06-06 14:23
--- Who: Crackerhead22
--- Log: Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
-
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,3,1.81013)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -402,10 +399,10 @@ T One More Thing|QID|26329|M|38.72,32.74|N|To High Tinker Mekkatorque.|
 
 A Crushcog's Minions|QID|26331|M|38.72,32.74|N|From High Tinker Mekkatorque.|
 A No Tanks!|QID|26333|M|38.19,33.68|N|From Hinkles Fastblast.|
-C No Tanks!|S|QID|26333|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|59.04,20.12|
+C No Tanks!|S|QID|26333|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|59.04,20.12|NC|
 C Crushcog's Minions|QID|26331|M|57.20,19.37|N|Kill 8 of Crushcog's Minions at Crushcog's Arsenal.|
 C No Tanks!|US|QID|26333|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|59.04,20.12|
-T Crushcog's Minions|QID|26331|M|38.72,32.74|N|To High Tinker Mekkatorque.|
+T Crushcog's Minions|QID|26331|M|38.72,32.74|N|To High Tinker Mekkatorque.|NC|
 T No Tanks!|QID|26333|M|38.19,33.68|N|To Hinkles Fastblast.|
 
 A Staging in Brewnall|QID|26339|N|From Kelsey Steelspark.|M|38.03,33.56|
@@ -414,7 +411,7 @@ L Level 5|LVL|5|QID|26339|N|You should be around level 5 by this point|
 
 T Staging in Brewnall|QID|26339|M|48.75,52.90|N|Follow the road southeast to Jarvi Shadowstep.|
 A Paint it Black|PRE|26339|QID|26342|M|48.75,52.90|N|From Jarvi Shadowstep.|
-C Paint it Black|QID|26342|M|53.80,49.80|N|Use the Paintinator on Sentry Bot's on Iceflow Lake.|U|58203|
+C Paint it Black|QID|26342|M|53.80,49.80|N|Use the Paintinator on Sentry Bot's on Iceflow Lake.|U|58203|NC|
 T Paint it Black|QID|26342|M|48.75,52.90|N|To Jarvi Shadowstep.|
 A Down with Crushcog!|PRE|26342|QID|26364|M|48.75,52.90|N|From Jarvi Shadowstep.|
 C Speak to High Tinker Mekkatorgue|QID|26364|M|57.17,47.57|N|Tell him you're ready to begin. You may need to click this step to advance.|CHAT|QO|1|
