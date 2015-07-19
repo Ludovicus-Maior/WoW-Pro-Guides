@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-07-17 19:28
+-- Who: Fluclo
+-- Log: Paint it Black is a non-combat quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/27334/view
+-- Date: 2015-07-17 19:25
+-- Who: Fluclo
+-- Log: No Tanks is a non-combat quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/27333/view
+-- Date: 2015-07-17 19:24
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3200/revisions/27259/view
 -- Date: 2015-05-18 00:14
 -- Who: Ludovicus
 -- Log: Wow, that [code] block thing was a bad idea.
@@ -246,23 +260,6 @@
 -- Date: 2011-06-06 21:27
 -- Who: Crackerhead22
 -- Log: Added missing R for a race tag.
-
--- URL: http://wow-pro.com/node/3200/revisions/24507/view
--- Date: 2011-06-06 21:14
--- Who: Crackerhead22
--- Log: Dwarf starting area update: Added race tags for the Dwarf only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags.
---	Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
---	5-12 guide update: Added race tags for a few steps (non-Gnome step for "Bound for Kharanos", non-Gnome/Dwarf step for getting FP at Kharanos), added missing notes, added missing waypoint, tweaked a few notes, tweaked a few waypoints. Added in steps done by Fluclo (as I missed his edits before I started my edits).
-
--- URL: http://wow-pro.com/node/3200/revisions/24506/view
--- Date: 2011-06-06 20:43
--- Who: Crackerhead22
--- Log: .
-
--- URL: http://wow-pro.com/node/3200/revisions/24505/view
--- Date: 2011-06-06 14:23
--- Who: Crackerhead22
--- Log: Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
 
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,2,10,5.74453)
