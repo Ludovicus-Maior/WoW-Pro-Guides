@@ -440,8 +440,7 @@ function WoWPro.NextStep(k,i)
 	
 	    -- Handle Jump actions
 	    if WoWPro.action[k] == "J" and  WoWPro.guide[k] and i == 1 then
-            WoWPro.CompleteStep(i,"Time to JUMP")
-            skip = true
+            skip = false
             break
 	    end
 
@@ -841,7 +840,10 @@ function WoWPro.NextStep(k,i)
         -- Test for buildings, default is to skip if we dont have any of the named ones if all other conditions satisfied.
         if WoWPro.building and WoWPro.building[k] and not skip then
             local Name,ids  = string.split(";",WoWPro.building[k],2)
-            local numList = select("#", string.split(";", ids))
+            local numList = 0
+            if ids then
+                numList = select("#", string.split(";", ids))
+            end
             Name = string.lower(Name)
             if Name == "townhall" then
                 local level, mapTexture, townHallX, townHallY = C_Garrison.GetGarrisonInfo()
