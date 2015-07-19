@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('FlucloTanaanJungle', "Daily", 'Tanaan Jungle', 'Fluclo', 'Neutral')
+local guide = WoWPro:RegisterGuide('FlucloTanaanJungle', "Dailies", 'Tanaan Jungle', 'Fluclo', 'Neutral')
 WoWPro:GuideLevels(guide,100,100,100)
 WoWPro:GuideName(guide, "Garrison Campaign: War Council")
 WoWPro:GuideAutoSwitch(guide)
