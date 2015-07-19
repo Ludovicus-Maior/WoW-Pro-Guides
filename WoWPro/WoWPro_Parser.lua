@@ -52,7 +52,6 @@ function WoWPro.SkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	WoWPro:dbp("SkipStep(%s) Action is %s QID is %s ",tostring(index),  tostring(WoWPro.action[index]), tostring(WoWPro.QID[index]))
 	
-	if not WoWPro.QID[index] then return "" end
 	if WoWPro.action[index] == "D" then return "" end -- No skipping this type
 	if WoWPro.QID[index] then 
 	    local numqids = select("#", string.split(";", WoWPro.QID[index]))
@@ -697,8 +696,7 @@ function WoWPro:CheckFunction(row, button, down)
 	elseif button == "RightButton" and row.check:GetChecked() then
 	    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as complete.", row.index)
-		WoWProCharDB.Guide[GID].completion[row.index] = "Right-Click"
-		WoWPro:MapPoint()
+		WoWPro.CompleteStep(row.index,"Right-Click")
 		if WoWProDB.profile.checksound then	
 			PlaySoundFile(WoWProDB.profile.checksoundfile)
 		end
