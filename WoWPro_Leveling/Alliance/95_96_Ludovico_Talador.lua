@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-07-19 21:42
+-- Who: Fluclo
+-- Log: In Ared's Memory is a non-combat quest
+
+-- URL: http://wow-pro.com/node/3614/revisions/27340/view
+-- Date: 2015-07-19 21:41
+-- Who: Fluclo
+-- Log: The Quarry Quandary is a Non Combat quest
+
+-- URL: http://wow-pro.com/node/3614/revisions/27339/view
+-- Date: 2015-07-19 21:40
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3614/revisions/27314/view
 -- Date: 2015-07-05 17:47
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -166,11 +180,11 @@ WoWPro:GuideIcon(guide,"ACH",8940)
 WoWPro:GuideNextGuide(guide, 'EmmSoArak')
 WoWPro:GuideSteps(guide, function()
 return [[
-L Level 94 |QID|34566|LVL|94|N|This guide requires a minimum level of 94 to do.|
 
 T News from Talador |QID|36495|N|To Bodrick Grey, in your Garrison.|M|38.33,36.74|Z|Lunarfall|O|
 
-A The Critical Path |QID|34676|N|From Bodrick Grey|LEAD|36495|
+A The Critical Path |QID|34676|N|From Bodrick Grey|LEAD|36495|LVL|96|
+A The Critical Path |QID|34676|N|Open your Adventure Guide and Start Quest for Talador.|LEAD|36495|
 A The Critical Path |QID|37183|N|From Bodrick Grey|M|38.20,36.90|Z|Lunarfall|PRE|36495|
 
 N Talador|QID|34676;37183|ACTIVE|34676;37183|S|N|If you want the garrison supply treasures and rare elites included in this guide, please set your Rank to 3.|
@@ -189,11 +203,11 @@ A Next Quest |QID|34563;34631|N|From Foreman Eksos.\n\nIf you built Wrynn Arsena
 h Fort Wrynn|QID|34563;34631|M|69.73,21.77|Z|Talador|N|With Olivia Abbington.|
 
 ; Artillery Tower
-C The Quarry Quandary|QID|34563|M|69.26,19.29|N|Head to Apprentice Mial, just outside the fort to the north.|
+C The Quarry Quandary|QID|34563|M|69.26,19.29|N|Head to Apprentice Mial, just outside the fort to the north.|NC|
 T The Quarry Quandary|QID|34563|M|69.26,19.29|N|To Apprentice Miall|
 
 A In Ared's Memory|QID|35045|M|69.26,19.29|N|From Apprentice Miall|PRE|34563|
-C In Ared's Memory|QID|35045|M|70.15,20.11|N|To Mial, who has now moved to inside Wrynn Artillery Tower.|
+C In Ared's Memory|QID|35045|M|70.15,20.11|N|To Mial, who has now moved to inside Wrynn Artillery Tower.|NC|
 T In Ared's Memory|QID|35045|M|70.15,20.11|N|To Miall|
 
 A Out of Jovite|QID|34571|M|70.15,20.11|N|From Miall|PRE|35045|

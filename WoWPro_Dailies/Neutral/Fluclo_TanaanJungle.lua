@@ -1,3 +1,27 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/node/3628
+-- Date: 2015-07-19 20:59
+-- Who: Ludovicus
+-- Log: I need to spell Dailies right.
+
+-- URL: http://wow-pro.com/node/3628/revisions/27337/view
+-- Date: 2015-07-19 20:44
+-- Who: Ludovicus
+-- Log: MAke it an WoWPro:GuideAutoSwitch guide
+
+-- URL: http://wow-pro.com/node/3628/revisions/27336/view
+-- Date: 2015-07-19 20:42
+-- Who: Ludovicus
+-- Log: Change name and guide type.
+
+-- URL: http://wow-pro.com/node/3628/revisions/27277/view
+-- Date: 2015-07-12 20:39
+-- Who: Ludovicus
+
 local guide = WoWPro:RegisterGuide('FlucloTanaanJungle', "Dailies", 'Tanaan Jungle', 'Fluclo', 'Neutral')
 WoWPro:GuideLevels(guide,100,100,100)
 WoWPro:GuideName(guide, "Garrison Campaign: War Council")
@@ -21,10 +45,10 @@ T We Need a Shipwright |QID|38568|N|To Sammy Fivefingers|M|56.15,6.66|Z|Gorgrond
 
 A Derailment |QID|38254|N|From Exarch Naielle.|M|52.57,9.85|Z|Gorgrond|PRE|38257|FACTION|Alliance|
 A Derailment |QID|38570|N|From Sammy Fivefingers|M|56.15,6.66|Z|Gorgrond|PRE|38568|FACTION|Horde|
-C Derailment |QID|38254|QO|1|N|Collect Explosive Charges|NC|M|49.75,12.67|Z|Gorgrond|FACTION|Alliance|
-C Derailment |QID|38254|QO|2|N|Collect Detonator|NC|M|51.41,14.30|Z|Gorgrond|FACTION|Alliance|
-C Derailment |QID|38570|QO|2|N|Collect Detonator|NC|M|56.55,11.53|Z|Gorgrond|FACTION|Horde|
-C Derailment |QID|38570|QO|1|N|Collect Explosive Charges|NC|M|56.43,15.17|Z|Gorgrond|FACTION|Horde|
+C Derailment  |QID|38254|QO|1|N|Collect Explosive Charges|NC|M|49.75,12.67|Z|Gorgrond|FACTION|Alliance|
+C Derailment  |QID|38254|QO|2|N|Collect Detonator|NC|M|51.41,14.30|Z|Gorgrond|FACTION|Alliance|
+C Derailment  |QID|38570|QO|2|N|Collect Detonator|NC|M|56.55,11.53|Z|Gorgrond|FACTION|Horde|
+C Derailment  |QID|38570|QO|1|N|Collect Explosive Charges|NC|M|56.43,15.17|Z|Gorgrond|FACTION|Horde|
 T Derailment |QID|38254|N|To Exarch Yrel|M|56.75,17.15|Z|Gorgrond|FACTION|Alliance|
 T Derailment |QID|38570|N|To Durotan|M|56.75,17.15|Z|Gorgrond|FACTION|Horde|
 
