@@ -1661,6 +1661,8 @@ Astrolabe.activate = activate
 
 WorldMapSize[27][10] = { xOffset =  -500.000000, height = 380.000000, yOffset =  5242.500000, width = 570.000000 , __index = zeroDataFunc };
 WorldMapSize[321][2] = { xOffset =  4526.060059, height = 241.390015, yOffset = -1690.880005, width = 362.089844 , __index = zeroDataFunc };
+WorldMapSize[504][1] = { xOffset =  -222.494995, height = 553.339844, yOffset = -5513.330078, width = 830.015015 , __index = zeroDataFunc };
+WorldMapSize[520][1] = { xOffset =   708.068970, height = 734.187500, yOffset =   -64.075500, width =1101.280975 , __index = zeroDataFunc };
 WorldMapSize[544][1] = { xOffset = -2815.000000, height = 182.666626, yOffset =  -514.166687, width = 274.000000 , __index = zeroDataFunc };
 WorldMapSize[799][4] = { xOffset =  2190.024414, height = 346.699219, yOffset = 11119.599609, width = 520.048828 , __index = zeroDataFunc };
 WorldMapSize[811][3] = { xOffset =  -114.999512, height = 173.333984, yOffset =  -726.333008, width = 260.000977 , __index = zeroDataFunc };
@@ -1669,6 +1671,8 @@ WorldMapSize[857][1] = { xOffset =   994.375000, height = 175.000000, yOffset = 
 WorldMapSize[857][2] = { xOffset =  1135.469971, height = 335.000732, yOffset =   885.000366, width = 502.500977 , __index = zeroDataFunc };
 WorldMapSize[857][3] = { xOffset =  1009.369995, height = 141.666016, yOffset =   763.333008, width = 212.499023 , __index = zeroDataFunc };
 WorldMapSize[873][5] = { xOffset =   413.750000, height = 595.000000, yOffset = -1140.000000, width = 892.500000 , __index = zeroDataFunc };
+WorldMapSize[903][1] = { xOffset =  -824.500000, height = 146.000000, yOffset = -1624.500000, width = 219.000000 , __index = zeroDataFunc };
+WorldMapSize[903][2] = { xOffset =  -804.500000, height = 172.666748, yOffset = -1636.166626, width = 259.000000 , __index = zeroDataFunc };
 WorldMapSize[925][1] = { xOffset =  4857.504883, height = 143.339966, yOffset = -1958.329956, width = 215.009766 , __index = zeroDataFunc };
 WorldMapSize[941][1] = { xOffset = -5437.495117, height = 483.339844, yOffset = -6523.330078, width = 725.009766 , __index = zeroDataFunc };
 WorldMapSize[941][2] = { xOffset = -5479.995117, height = 423.339844, yOffset = -6537.330078, width = 635.009766 , __index = zeroDataFunc };
