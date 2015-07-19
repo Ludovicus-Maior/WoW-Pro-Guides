@@ -685,7 +685,8 @@ function  WoWPro.CheckAstrolabeData(force)
 	mapData.yOffset = -TLy
 	Astrolabe.WorldMapSize[map][pizo] = mapData
 	WoWPro:Error("You discovered new map info for %s:%s. Please report this on the WoWPro.com website.", GetZoneText(), string.trim(GetSubZoneText()))
-	WoWPro:Error("[%d/%d] w=%f, h=%f, xO=%f, yO=%f", map, pizo, mapData.width, mapData.height, mapData.xOffset, mapData.yOffset)
+	-- WorldMapSize[27][10] = { xOffset =  -500.000000, height = 380.000000, yOffset =  5242.500000, width = 570.000000 , __index = zeroDataFunc };
+	WoWPro:Error("[%d][%d] = { xOffset = %f, height = %f, yOffset = %f, width = %f}", map, pizo, mapData.xOffset,  mapData.height,  mapData.yOffset, mapData.width)
 end
 
 function WoWPro:ZoneInfo()
