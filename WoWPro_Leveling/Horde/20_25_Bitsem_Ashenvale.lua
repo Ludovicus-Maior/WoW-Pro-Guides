@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2015-07-20 00:50
+-- Who: Ludovicus
+-- Log:  Vol'jin
+--	Then some Z tag corrections.
+
+-- URL: http://wow-pro.com/node/3228/revisions/27331/view
 -- Date: 2015-07-12 20:31
 -- Who: Ludovicus
 -- Log: Play through on Belf Pally
@@ -258,8 +264,8 @@ T Satyr Horns|QID|6441|M|73.84,62.45|N|To Pixel.|
 
 F Orgrimmar|QID|13841|M|73.21,61.54|N|Fly to Orgrimmar|
 
-T All Apologies|QID|13841|M|50.79,63.38;48.12,70.72|Z|Orgrimmar|CC|N|Take the lift down, then turn in to Garrosh Hellscream.|
-A Dread Head Redemption|QID|13842|PRE|13841|M|48.12,70.72|Z|Orgrimmar|N|From Garrosh Hellscream.|
+T All Apologies|QID|13841|M|50.79,63.38;48.12,70.72|Z|Orgrimmar@Orgrimmar|CC|N|Take the lift down, then turn in to Vol'jin.|
+A Dread Head Redemption|QID|13842|PRE|13841|M|48.12,70.72|Z|Orgrimmar@Orgrimmar|N|From Vol'jin.|
 
 F Splintertree Outpost|QID|13842|M|49.6,59.17|N|Fly back to Splintertree...again. (Or hearth)|Z|Orgrimmar|
 
@@ -267,7 +273,7 @@ C Dread Head Redemption|QID|13842|M|72.22,56.76|N|Back into the mine, talk to Du
 
 F Orgrimmar|QID|13842|M|73.21,61.54|N|Fly back to Orgrimmar.|
 
-T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar|N|To Garrosh Hellscream.|
+T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar@Orgrimmar|N|To Vol'jin.|
 
 F Zoram'gar Outpost|QID|13848|M|49.6,59.17|N|Fly to Zoram'gar Outpost.|Z|Orgrimmar|
 
