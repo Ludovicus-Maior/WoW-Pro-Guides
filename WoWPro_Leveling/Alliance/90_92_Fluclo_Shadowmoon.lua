@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2015-07-20 00:47
+-- Who: Ludovicus
+-- Log: Remove repliated garrison buildings section.  Allow [Meet Us at Starfall Outpost] to autoswitch.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27318/view
 -- Date: 2015-07-05 17:50
 -- Who: Ludovicus
 -- Log: Added Icon
@@ -235,7 +240,6 @@ WoWPro:GuideNextGuide(guide, 'FlucloGorgrond')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 90 |QID|34575|LVL|90|N|This guide requires a minimum level of 90 to do.|
 N Getting to Shadowmoon Valley (Draenor) |QID|34575|N|To get to Shadowmoon Valley (Draenor), you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|35884|
 
 N Welcome to Shadowmoon Valley|QID|34575|ACTIVE|34575|S|N|If you want the garrison supply treasures included in this guide, please set your Rank to 3.|
@@ -824,7 +828,7 @@ C Bigger is Better |QID|36592|M|41.4,49.0|Z|Lunarfall|N|Select the Architect Tab
 T Bigger is Better |QID|36592|M|31.66,31.16|Z|Lunarfall|N|To Baros Alexston.|
 T Supply Drop|QID|35905|M|31.8,31.2|Z|Lunarfall|N|To Baros Alexston.|
 
-A Building for Professions |QID|36100|M|31.8,31.2|Z|Lunarfall|N|From Baros Alexston.|
+A Building for Professions |QID|36100|M|31.8,31.2|Z|Lunarfall|N|From Baros Alexston.|BUILDING|TownHallOnly|
 C Building for Professions |QID|36100|N|Click on the Architect's table, bring up the small plots, and build on one of the plots.|NC|M|31.7,31.8|Z|Lunarfall|
 T Building for Professions |QID|36100|M|31.8,31.2|Z|Lunarfall|N|To Baros Alexston.|
 
@@ -872,121 +876,14 @@ T Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.39,19.27|
 
 T Gloomshade Game Hunter|QID|33461|M|37.92,63.49|Z|Lunarfall|N|To Arsenio Zerep just outside your Garrison. Use your Garrison Hearthstone to get you back to your garrison.|U|110560|
 
-;Enchanting Quests
-T The Arakkoan Enchanter|QID|36310|N|To Arcanist Delath|M|37.4,72.6|
-A Failed Apprentice |QID|36313|N|From Arcanist Delath|M|37.4,72.6|PRE|36310|
-C Failed Apprentice |QID|36313|N|Free Deema|M|37.4,72.6|NC|
-T Failed Apprentice |QID|36313|N|To Deema|M|37.4,72.6|
-A Oru'kai's Staff |QID|36315|N|From Deema|M|37.4,72.6|PRE|36313|
-C Oru'kai's Staff |QID|36315|N|Obtain Oru'kai's Staff from the water.|
-T Oru'kai's Staff |QID|36315|N|To Arcanist Delath|M|37.4,72.6|
-
-A Things Are Not Goren Our Way |QID|34192|N|From Timothy Leens|M|65.46,41.79|Z|Lunarfall|PRE|36592|
-C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|S|QO|1|
-C Things Are Not Goren Our Way |QID|34192|N|Head to the back of the mine and kill Stonetooth.|M|58.81,78.85|Z|Lunarfall Excavation@Lunarfall|T|Stonetooth|QO|2|
-C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|US|QO|1|
-T Things Are Not Goren Our Way |QID|34192|N|To Timothy Leens|M|65.46,41.79|Z|Lunarfall|
-
-A Your First Alchemy Work Order |QID|36641|N|From your Alchemy. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Alchemy;76;119;120|
-C Your First Alchemy Work Order |QID|36641|N|Speak to Peter Kearie to start your first Alchemy Work Order.|QO|1|ACTIVE|36641|CHAT|
-A Your First Enchanting Work Order|QID|36645|N|From your Enchanter's Study. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Enchanter's Study;93;125;126|
-C Your First Enchanting Work Order|QID|36645|N|Speak to Garm to start your first Enchanting Work Order.|QO|1|ACTIVE|36645|CHAT|
-A Your First Engineering Work Order|QID|36646|N|From Zaren Hoffle. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Engineering Works;91;123;124|
-C Your First Engineering Work Order|QID|36646|N|Speak to Helayn Whent to start your first Engineering Work Order.|QO|1|ACTIVE|36646|CHAT|
-A Your First Jewelcrafting Work Order |QID|36644|N|From your Gem Boutique. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Gem Boutique;96;131;132|
-C Your First Jewelcrafting Work Order |QID|36644|N|Speak to Kaya Solasen to start your first Jewelcrafting Work Order.|QO|1|ACTIVE|36644|CHAT|
-A Your First Inscription Work Order |QID|36647|N|From your Scribe's Quarters. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Scribe's Quarters;95;129;130|
-C Your First Inscription Work Order |QID|36647|N|Speak to Kurt Broadoak to start your first Inscription Work Order.|QO|1|ACTIVE|36647|CHAT|
-A Lost in Transition |QID|37087|N|From Kyra Goldhands. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Storehouse;51;142;143|
-C Lost in Transition |QID|37087|N|Collect the crates of surplus materials from around the fort.|NC|BUILDING|Storehouse;51;142;143|
-A Your First Tailoring Work Order |QID|36643|N|From your Tailoring Emporium. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Tailoring Emporium;94;127;128|
-C Your First Tailoring Work Order |QID|36643|N|Speak to Kaylie Macdonald to start your first Tailoring Work Order.|QO|1|ACTIVE|36643|CHAT|
-A Your First Blacksmithing Work Order|QID|35168|N|From your Forge. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|The Forge;60;117;118|
-C Your First Blacksmithing Work Order|QID|35168|N|Speak to Yulia Samras to start your first Blacksmithing Work Order.|QO|1|ACTIVE|35168|CHAT|
-A Your First Leatherworking Work Order |QID|36642|N|From your Tannery. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|The Tannery;90;121;122|
-C Your First Leatherworking Work Order |QID|36642|N|Speak to Marianne Levine to start your first Leatherworking Work Order.|QO|1|ACTIVE|36642|CHAT|
-
-C Your First Alchemy Work Order |QID|36641|N|Collect the Alchemy Work Order.|QO|2|ACTIVE|36641|NC|
-T Your First Alchemy Work Order |QID|36641|N|To Peter Kearie.|ACTIVE|36641|
-C Your First Enchanting Work Order|QID|36645|N|Collect the Enchanting Work Order.|QO|2|ACTIVE|36645|NC|
-T Your First Enchanting Work Order|QID|36645|N|To Garm.|ACTIVE|36645|
-C Your First Engineering Work Order|QID|36646|N|Collect the Engineering Work Order.|QO|2|ACTIVE|36646|NC|
-T Your First Engineering Work Order|QID|36646|N|To Helayn Whent|ACTIVE|36646|
-C Your First Jewelcrafting Work Order |QID|36644|N|Collect the Jewelcrafting Work Order.|QO|2|ACTIVE|36644|NC|
-T Your First Jewelcrafting Work Order |QID|36644|N|To Kaya Solasen.|ACTIVE|36644|
-C Your First Inscription Work Order |QID|36647|N|Collect the Inscription Work Order.|QO|2|ACTIVE|36647|NC|
-T Your First Inscription Work Order |QID|36647|N|To Kurt Broadoak.|ACTIVE|36647|
-T Lost in Transition |QID|37087|N|To Kyra Goldhands|ACTIVE|37087|
-C Your First Tailoring Work Order |QID|36643|N|Collect the Tailoring Work Order.|QO|2|ACTIVE|36643|NC|
-T Your First Tailoring Work Order |QID|36643|N|To Kaylie Macdonald.|ACTIVE|36643|
-C Your First Blacksmithing Work Order|QID|35168|N|Collect the Blacksmithing Work Order.|QO|2|ACTIVE|35168|NC|
-T Your First Blacksmithing Work Order|QID|35168|N|To Yulia Samras|ACTIVE|35168|
-C Your First Leatherworking Work Order |QID|36642|N|Collect the Leatherworking Work Order.|QO|2|ACTIVE|36642|NC|
-T Your First Leatherworking Work Order |QID|36642|N|To Marianne Levine.|ACTIVE|36642|
+J Garrison Buldings|GUIDE|LudoBuildingsAlliance|N|Check in to see if there are any building quests to do.|
 
 ; Having this quest and the [Ashran Appearance] quest causes the Ashran one not to complete.
-A The Secrets of Gorgrond |QID|35556|N|Moving onto Gorgrond next? Accept this quest from your Bulletin Board.|LEAD|36632;35556|LVL|92|M|42.65,44.74|Z|Lunarfall|
+A The Secrets of Gorgrond |QID|33533;35556;36632|N|Moving onto Gorgrond next? Accept this quest from your Bulletin Board.|LEAD|35033|LVL|92|M|42.65,44.74|Z|Lunarfall|
 
 ;Level 94 quests in Shadowmoon Valley
-;Will only show if you've reached Level 94 when finishing Shadowmoon Valley quests.
+;Will only show if you've reached Level 94 when finishing Shadowmoon Valley quests.  This will switch us to the "On Shadows Trail Guide"
 A Meet Us at Starfall Outpost|QID|33359|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|94|
-A Bounty: Twisted Ancient|QID|33111|N|From the Bulletin Board. This is a 3-party group quest.|M|42.72,44.75|Z|Lunarfall|RANK|2|LVL|94|
-
-T Meet Us at Starfall Outpost|QID|33359|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72||Z|Shadowmoon Valley@Draenor|LVL|94|
-A Catching His Eye|QID|33062|N|From Archmage Khadgar|M|29.21,25.72|PRE|33359||Z|Shadowmoon Valley@Draenor|LVL|94|
-
-A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Bounty: Twisted Ancient|QID|33111|N|Kill and loot the Twisted Ancient for the Corrupted Lumber. This is flagged as a 3-party group quest.|RANK|2|M|26.15,17.50|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-R Watcher's Den|QID|33062|ACTIVE|33062|N|Head down the road to the Watcher's Den.|M|25.44,19.30;22.87,16.86|CS|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Catching His Eye|QID|33062|N|Capture the All-Seeing Eye (bring his health down to 1%)|Z|Shadowmoon Valley@Draenor|LVL|94|
-T Catching His Eye|QID|33062|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-A Shrouding Stones |QID|33115|N|From Archmage Khadgar|M|29.21,25.72|PRE|33062|Z|Shadowmoon Valley@Draenor|LVL|94|
-T Shadowmoonwell |QID|33113|N|To Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|LVL|94|
-A A Curse Upon the Woods |QID|33120|N|From Delas Moonfang|M|29.48,24.52|PRE|33113|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|S|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Shrouding Stones |QID|33115|N|Southern Shrouding Stone destroyed by clicking it.|QO|3|NC|M|23.82,28.72|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Shrouding Stones |QID|33115|N|Central Shrouding Stone destroyed by clicking it.|QO|1|NC|M|23.04,24.40||Z|Shadowmoon Valley@Draenor|LVL|94|
-C Shrouding Stones |QID|33115|N|Northern Shrouding Stone destroyed by clicking it.|QO|2|NC|M|26.00,15.92|Z|Shadowmoon Valley@Draenor|LVL|94|
-C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|US|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-T Shrouding Stones |QID|33115|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|LVL|94|
-A Ominous Portents |QID|33112|N|From Archmage Khadgar|M|29.21,25.72|PRE|33115|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-T A Curse Upon the Woods |QID|33120|N|To Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Ominous Portents |QID|33112|N|Speak to the All-Seeing Eye and begin the compulsion. Use key 1 until he says something, then use key 2. Repeat until you get the cinematic.|CHAT|Z|Shadowmoon Valley@Draenor|LVL|94|
-T Ominous Portents |QID|33112|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-A Soul Shards of Summoning |QID|33066|N|From Archmage Khadgar|M|29.21,25.72|PRE|33112|Z|Shadowmoon Valley@Draenor|LVL|94|
-A Cleaning Up Gul'var|QID|33269|N|From Cordana Felsong|M|29.27,25.70|PRE|33112|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-C Cleaning Up Gul'var|QID|33269|N|Kill the Shadow Council orcs|S|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Soul Shards of Summoning |QID|33066|N|Kill and loot Fel Mistress Hagra for her shard|QO|1|M|20.89,27.26|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Soul Shards of Summoning |QID|33066|N|Kill and loot Grogal the Harvester for his shard|QO|2|M|20.82,31.56|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Soul Shards of Summoning |QID|33066|N|Kill and loot Corruptor Kurgoth for his shard|QO|3|M|18.26,24.15|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-T Soul Shards of Summoning |QID|33066|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|LVL|94|
-A Heart On Fire|QID|33168|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33066|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Heart On Fire|QID|33168|N|Kill and loot Krosnis for his Fiery Heart.|M|17.72,27.48|T|Krosnis|Z|Shadowmoon Valley@Draenor|LVL|94|
-T Heart On Fire|QID|33168|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-A Forging the Soul Trap |QID|33114|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33168|Z|Shadowmoon Valley@Draenor|LVL|94|
-C Forging the Soul Trap |QID|33114|N|Click on the Gul'var Soul Shards to combine them.|NC|Z|Shadowmoon Valley@Draenor|LVL|94|
-T Forging the Soul Trap |QID|33114|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-A To Catch a Shadow |QID|33116|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|Z|Shadowmoon Valley@Draenor|LVL|94|
-l Demonic Cache|QID|33575|N|Demonic Cache: Treasure Loot, found inside the building. Offers an i550 Necklace worth 11 gold and some XP.|RANK|3|M|20.37,30.64|Z|Shadowmoon Valley@Draenor|LVL|94|
-C To Catch a Shadow |QID|33116|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|Z|Shadowmoon Valley@Draenor|LVL|94|
-C To Catch a Shadow |QID|33116|N|Kill Ruzuun|QO|2|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-C Cleaning Up Gul'var|QID|33269|N|Finish Killing the Shadow Council orcs|US|M|19.40,24.90|Z|Shadowmoon Valley@Draenor|LVL|94|
-T Cleaning Up Gul'var|QID|33269|N|To Cordana Felsong|M|29.27,25.70|Z|Shadowmoon Valley@Draenor|LVL|94|
-
-T To Catch a Shadow |QID|33116|N|To Archmage Khadgar, and a cutscene.|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|LVL|94|
-T Bounty: Twisted Ancient|QID|33111|M|28.94,15.91|Z|Lunarfall|N|To Baros Alexston.|LVL|94|
 
 D Zone Finished|QID|33533;35556;36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
 

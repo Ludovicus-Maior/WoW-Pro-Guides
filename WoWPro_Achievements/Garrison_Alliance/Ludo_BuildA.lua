@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_buildings_alliance
+-- Date: 2015-07-20 00:43
+-- Who: Ludovicus
+-- Log: Clean up lumber section and add pet battle station.
+
+-- URL: http://wow-pro.com/node/3631/revisions/27332/view
 -- Date: 2015-07-12 20:33
 -- Who: Ludovicus
 -- Log: Tweaks and spell checks
@@ -113,19 +118,22 @@ T Hexcloth|QID|36269|N|To Ameeka.|M|58.2,26.5|
 ; Now the quests to start up the buildings.
 ;if you chose the lumber mill
 A Easing into Lumberjacking|QID|36189|N|From Justin Timberlord.|BUILDING|LumberMill;40|Z|Lunarfall|
-C Easing into Lumberjacking|QID|36189|M|31.29, 24.70|N|Ride and exit your garrison through the main gate and the tree will be on your right on the road.|
+C Small Timber|QID|36189|M|31.29, 24.70|N|Ride and exit your garrison through the main gate and the tree will be on your right on the road.|NC|
 T Easing into Lumberjacking|QID|36189|N|To Justin Timberlord.|BUILDING|LumberMill;40|Z|Lunarfall|
-A Turning Timber into Profit|QID|36192|N|From Justin Timberlord.|PRE|36189|Z|Lunarfall|BUILDING|LumberMill;40|
+A Turning Timber into Profit|QID|36192|N|From Justin Timberlord.|PRE|36189|Z|Lunarfall|BUILDING|LumberMill;40;41;138|
 F Embaari Village |QID|36192|M|48.05,49.86|Z|Lunarfall|N|Fly to Embaari Village to go to Arbor Glen for your wood.|ACTIVE|36192|
 C Turning Timber into Profit|QID|36192|M|46.60,34.50|N|As you are out and about don't forget to mark trees.|QO|1|
-C Turning Timber into Profit|QID|36192|N|Now turn in your first order at the mill.|BUILDING|LumberMill;40|QO|2|Z|Lunarfall|
-T Turning Timber into Profit|QID|36192|N|From Justin Timberlord.|Z|Lunarfall|BUILDING|LumberMill;40|
-A Sharper Blades, Bigger Timber|QID|36189|N|From Justin Timberlord.|BUILDING|LumberMill;41|PRE|36192|Z|Lunarfall|
-C Sharper Blades, Bigger Timber|QID|36189|M|30.51,30.67|N|Ride and exit your garrison through the main gate ride to near Anguish Fortress.|
-T Easing into Lumberjacking|QID|36189|N|To Justin Timberlord.|Z|Lunarfall|
-A Tree-i-cide|QID|36189|N|From Justin Timberlord.|BUILDING|LumberMill;138|PRE|36189|Z|Lunarfall|
-C Tree-i-cide|QID|36189|M|35.24,22.25;33,25|CS|N|When facing the cliff, the path is to your left. To get up the final rise, the slope is a little to the left of the center.|
-T Tree-i-cide|QID|36189|N|To Justin Timberlord.|BUILDING|LumberMill;138|Z|Lunarfall|
+C Weldon Barov|QID|36192|N|When chopping trees, one of them might be a fallen tree.  Weldon Barov will be beneath and will become a follower.|NC|
+C Turning Timber into Profit|QID|36192|N|Now turn in your first order at the mill.|BUILDING|LumberMill;40;41;138|QO|2|Z|Lunarfall|
+T Turning Timber into Profit|QID|36192|N|From Justin Timberlord.|Z|Lunarfall|BUILDING|LumberMill;40;41;138|
+K Alexi Barov|QID|36448|N|Go chop some small timber. Eventually Alexi will spawn.|ACTIVE|36448|
+T Reduction in Force|QID|36448|N|To Weldon Barov|Z|Lunarfall|BUILDING|LumberMill;40;41;138|
+A Sharper Blades, Bigger Timber|QID|36194|PRE|36192|N|From Justin Timberlord.|BUILDING|LumberMill;41;138|Z|Lunarfall|
+C Medium Timber|QID|36194|M|30.51,30.67|QO|1|N|Ride and exit your garrison through the main gate ride to near Anguish Fortress.|
+T Sharper Blades, Bigger Timber|QID|36194|N|To Justin Timberlord.|Z|Lunarfall|BUILDING|LumberMill;41;138|
+A Tree-i-cide|QID|36195|PRE|36194|N|From Justin Timberlord.|BUILDING|LumberMill;138|Z|Lunarfall|
+C Large Lumber|QID|36195|M|35.63,24.65;35.08,22.78;33.95,25.53|CS|N|Go to Gloomshade Grove and then take the path up the side. To get up the final rise, the slope is a little to the left of the center.|
+T Tree-i-cide|QID|36195|N|To Justin Timberlord.|BUILDING|LumberMill;138|Z|Lunarfall|
 
 ;if you chose the inn(tavern) MED
 A The Headhunter's Harvest|QID|37046|RANK|2|M|50.50,60.66|N|From Akanja.|BUILDING|Inn;34;35;36|
@@ -225,7 +233,7 @@ A Moonshell Claws |QID|36199|M|26.96, 6.65|N|From Madari.|PRE|34194|
 C Claws |QID|36199|M|30.20, 10.68|QO|1|N|On the other side of the ship.|
 T Moonshell Claws |QID|36199|M|26.96, 6.65|N|To Madari.|
 A Proving Your Worth |QID|36201|M|26.96, 6.65|N|From Madari.|PRE|36199|
-C Shadow Sturgeons |QID|36201|M|27.59, 6.90|QO|1|N|Be sure to equip your best fishing pole and use the bait.|U|114874|
+C Shadow Sturgeons |QID|36201|M|27.59, 6.90|QO|1|N|Be sure to equip your best fishing pole and use the bait.|U|114874|NC|
 T Proving Your Worth |QID|36201|M|26.96, 6.65|N|From Madari.|
 A Anglin' In Our Garrison |QID|36202|M|26.96, 6.65|N|From Madari.|PRE|36201|
 T Anglin' In Our Garrison |QID|36202|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton|
@@ -236,10 +244,15 @@ C Kill the Raccoons|QID|36404|M|57.6,59.6|Z|Lunarfall|QO|1|
 T Clearing the Garden |QID|36404|M|58.89, 53.45|Z|Lunarfall|N|To Naron Bloomthistle|
 
 ; Pet Battle Station
-A Unearthed Magic|QID|38241|M|28.85,38.56|N|From Lio the Lioness|Z|Lunarfall|BUILDING|townhall;3|LVL|98|
-C Unearthed Magic|QID|38241|M|65.8,41.8|N|It is in a cart outside the mine.|
-T Unearthed Magic|QID|38241|M|28.85,38.56|N|To Lio the Lioness|Z|Lunarfall|
-
+A Unearthed Magic|QID|38241|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|BUILDING|townhall;3|LVL|98|
+C Unearthed Magic|QID|38241|M|65.69,42.54|Z|Lunarfall|N|It is in a cart outside the mine.|
+T Unearthed Magic|QID|38241|M|28.85,38.56|Z|Lunarfall|N|To Lio the Lioness|
+A Pets Versus Pests|QID|36423|PRE|38241|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|
+C Suggestions|QID|36423|N|Some pet suggestions follow.  However,  Pandaren Water Spirit+Chrominius Geyser+Whirlpool+How will work for all.|NC|
+C Gorefu|QID|36423|M|57.4,21.8|Z|Lunarfall|QO|2|T|Gorefu|N|Gorefu is near the Fishing Shack.\n
+C Carrotus Maximus|QID|36423|M|57.76,60.10|Z|Lunarfall|QO|1|T|Carrotus|N|Carrotus is near the herb garden.\nAquatics like Frogs, Striders or Crabs.\nUse Kiss, Pump, Cleansing Rain, Whirlpool, Surge.|
+C Gnawface|QID|36423|M|60.14,77.82|Z|Lunarfall|QO|3|T|Gnawface|N|Outside your fort at the cooks camp.\nFoxes, Raptors, Mechanicals.\nUse Black Claw, Hunting Party, Howl, Bite.|
+T Pets Versus Pests|QID|36423|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|
 ]]
 
 end)
