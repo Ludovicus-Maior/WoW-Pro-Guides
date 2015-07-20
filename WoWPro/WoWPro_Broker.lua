@@ -1274,7 +1274,7 @@ function WoWPro.OrderSteps(update)
     local sidx,d = WoWPro:FindClosestStep(limit)
     WoWPro.SwapSteps(1,sidx)
     WoWPro.why[1] = string.format("selected step as the closest at a distance of %g",d)
-    WoWPro:Print("First setp %d at distance of %g",sidx,d)
+    WoWPro:Print("First step %d at distance of %g",sidx,d)
     -- Now achor at each step and find the following step that is closer
     for anchor = 1, limit do
        local distance, closest 
