@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/treasures_draenor_neutral
+-- Date: 2015-07-20 19:37
+-- Who: Blanckaert
+-- Log: Added spawn time and cave to Ragore.
+
+-- URL: http://wow-pro.com/node/3633/revisions/27298/view
+-- Date: 2015-06-23 12:21
+-- Who: Ludovicus
+-- Log: Initial Version
+
 local guide = WoWPro:RegisterGuide('LudoDraenorLoots',"Achievements",'Draenor', 'Ludovicus','Neutral')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Garrison_Resource")
 WoWPro.Achievements:GuideMisc(guide, "Equipment, Garrison $, and $$$", "Loots", "Draenor")
@@ -28,7 +38,7 @@ A Yaga the Scarred|QID|34559|M|40.40,27.80|Z|Frostfire Ridge|N|i516 Agility/Inte
 A Burning Pearl|QID|34520|M|42.40,19.70|Z|Frostfire Ridge|N|i525 Trinket Multistrike + Mastery Proc|ITEM|120341|
 A Giant-Slayer Kul|QID|32918|M|54.60,22.20|Z|Frostfire Ridge|N|i516 Trinket Versatility + Agility Proc|ITEM|111530|RANK|2|
 A Earthshaker Holar|QID|37403|M|86.60,51.80|Z|Frostfire Ridge|N|Apexis Crystals|ITEM|$823|RANK|3|LVL|100|
-A Ragore Driftstalker|QID|37401|M|86.60,48.80|Z|Frostfire Ridge|N|i620 Agility/Intellect Leather Chest|ITEM|119359|RANK|3|LVL|100|
+A Ragore Driftstalker|QID|37401|M|86.60,48.80|Z|Frostfire Ridge|N|i620 Agility/Intellect Leather Chest, (30-110min spawn, in Cave)|ITEM|119359|RANK|3|LVL|100|
 A Pale Fishmonger|QID|34470|M|28.20,66.20|Z|Frostfire Ridge|N|Fish|ITEM|111666|RANK|2|
 A Crag-Leaper's Cache|QID|33940|M|42.70,31.70|Z|Frostfire Ridge|N|i516 Agility/Intellect Mail Boots|ITEM|112187|
 A Gruuk|QID|34825|M|51.80,64.80|Z|Frostfire Ridge|N|i513 Trinket Haste + Critical Strike|ITEM|111948|RANK|2|
