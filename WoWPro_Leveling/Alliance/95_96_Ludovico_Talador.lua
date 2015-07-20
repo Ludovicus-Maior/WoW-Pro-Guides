@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-07-20 12:00
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3614/revisions/27341/view
 -- Date: 2015-07-19 21:42
 -- Who: Fluclo
 -- Log: In Ared's Memory is a non-combat quest
@@ -260,7 +264,7 @@ A The Foot of the Fortress|QID|34908|PRE|34875|M|69.6,21.1|N|From Magister Seren
 
 ; [aldavor] we can place the wanted: pickups in here, as well as the pilgrim's road bits and brew quest.
 A Why Is The Brew Gone?|QID|34773|M|69.60,21.60|N|From Quartermaster O'Riley|RANK|2|
-C Why Is The Brew Gone?|QID|34773|M|72.5,22.2|N|Make your way around the lake killing raiders and looting swords and beer.|
+C Why Is The Brew Gone?|QID|34773|M|72.5,22.2|N|Make your way around the lake and loot the swords and beer. Killing is not necessary for the quest, but you may need to clear a path to the lootables.|NC|
 T Why Is The Brew Gone?|QID|34773|M|69.60,21.60|N|To Quartermaster O'Riley|
 
 A Not In Your House|QID|34804|PRE|34773|M|69.60,21.60|N|From Quartermaster O'Riley|
@@ -277,9 +281,10 @@ A Seek Out the Seer|QID|33871|M|67.50,43.75;70.78,47.38;68.98,45.97|CN|N|From El
 R Duskfall Island|QID|34761|M|67.56,44.76;66.29,46.85;65.83,47.53|CS|N|Next, Duskfall!|
 A Clear!|QID|34761|M|62.86,50.32|N|From Torben Zapblast|
 T Seek Out the Seer|QID|33871|M|65.43,50.73|N|To Seer Malune|
+
 A Dust of the Dead|QID|33872|M|65.43,50.73|N|From Seer Malune.|PRE|33871|
 A Cure of Aruunem|QID|33873|M|65.43,50.73|N|From Seer Malune.|PRE|33871|
-C Cure of Aruunem|QID|33873|M|65.52,51.95;70.81,55.13|CN|NC|S|N|These are growing in the area.|
+C Cure of Aruunem|QID|33873|NC|S|N|These are growing in the area.|
 C Dust of the Dead|QID|33872|M|65.52,51.95;70.81,55.13|CN|N|Kill the moths and loot thier dust.|
 C Cure of Aruunem|QID|33873|M|65.52,51.95;70.81,55.13|CN|NC|US|N|These are growing in the area.|
 T Dust of the Dead|QID|33872|M|65.43,50.73|N|To Seer Malune.|
