@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/treasures_draenor_neutral
+-- Date: 2015-07-20 22:37
+-- Who: Ludovicus
+-- Log: Got rid of QID|xxx placeholders and either filled them in or deleted.
+
+-- URL: http://wow-pro.com/node/3633/revisions/27346/view
 -- Date: 2015-07-20 19:37
 -- Who: Blanckaert
 -- Log: Added spawn time and cave to Ragore.
@@ -58,7 +63,6 @@ A Scout Goreseeker|QID|34132|M|76.40,63.40|Z|Frostfire Ridge|N|i516 Agility/Inte
 A Lucky Coin|QID|34642|M|19.20,12.00|Z|Frostfire Ridge|N|Flavor Item - Gold Coin|ITEM|111408|; Sells for 25g
 A Survivalist's Cache|QID|33946|M|64.70,25.70|Z|Frostfire Ridge|N|Garrison Resources|ITEM|$824|
 A Thunderlord Cache|QID|32803|M|34.20,23.50|Z|Frostfire Ridge|N|Garrison Resources|ITEM|$824|
-A Taskmaster Kullah|QID|xxx|M|84.40,48.80|Z|Frostfire Ridge|N|unknown|RANK|3|; !!! Level 100 !!! Quest ID is missing - Rare will stay active after the kill
 A Raided Loot|QID|34967|M|37.20,59.20|Z|Frostfire Ridge|N|Garrison Resources|ITEM|$824|
 A Iron Horde Supplies|QID|33017|M|69.00,69.10|Z|Frostfire Ridge|N|Garrison Resources|ITEM|$824|
 A Mother of Goren|QID|37381|M|70.00,27.00|Z|Frostfire Ridge|N|Apexis Crystals|ITEM|$823|RANK|3|LVL|100|
@@ -85,7 +89,6 @@ A Frozen Frostwolf Axe|QID|34507|M|24.20,48.60|Z|Frostfire Ridge|N|i516 Spellpow
 A Jaluk the Pacifist|QID|37556|M|85.00,52.20|Z|Frostfire Ridge|N|Apexis Crystals|ITEM|$823|RANK|3|LVL|100|
 A Huntmaster Kuang|QID|34130|M|58.60,34.20|Z|Frostfire Ridge|N|Garrison Resources|ITEM|$824|RANK|2|
 A Canyon Icemother|QID|32941|M|34.00,23.20|Z|Frostfire Ridge|N|25 Garrison Resources|ITEM|101436|RANK|2|
-A Gomtar the Agile|QID|xxx|M|72.20,30.00|Z|Frostfire Ridge|N|unknown|RANK|3|; !!! Level 100 !!! Quest ID is missing - Rare will stay active after the kill
 A Slave's Stash|QID|33500|M|27.60,42.80|Z|Frostfire Ridge|N|Alcoholic Beverages|ITEM|43696|
 A Hoarfrost|QID|37382|M|68.80,19.40|Z|Frostfire Ridge|N|Apexis Crystals|ITEM|$823|RANK|3|LVL|100|
 A Broodmother Reeg'ak|QID|33843|M|66.40,31.40|Z|Frostfire Ridge|N|i516 Trinket Intellect + Multistrike Proc|ITEM|111533|RANK|2|
@@ -154,7 +157,6 @@ A Glut|QID|36204|M|46.20,50.80|Z|Gorgrond|N|i534 Trinket Agility + Multistrike P
 A Rolkor|QID|36393|M|47.80,41.40|Z|Gorgrond|N|i539 Trinket Strength + Critical Strike Proc|ITEM|118211|RANK|2|
 A Suntouched Spear|QID|36610|M|45.70,49.70|Z|Gorgrond|N|Trash Item|ITEM|118708|
 A Pile of Rubble|QID|36118|M|43.95,70.55|Z|Gorgrond|N|Random Green|
-A Sunken Treasure|QID|xxx|M|71.90,66.60|Z|Gorgrond|N|Garrison Resources|ITEM|$824|; Quest ID is missing - Treasure will stay active after looting
 A Evermorn Supply Cache|QID|36658|M|41.80,78.10|Z|Gorgrond|N|Random Green|
 A Stompalupagus|QID|36837|M|54.20,72.40|Z|Gorgrond|N|i537 2H Agility/Strength Mace|ITEM|118228|RANK|2|
 A Depthroot|QID|37370|M|57.60,35.80|Z|Gorgrond|N|i620 Agility Polearm|ITEM|119406|RANK|3|LVL|100|
@@ -171,7 +173,6 @@ A Highmaul Sledge|QID|36039|M|67.40,49.00|Z|Nagrand@Draenor|N|i605 Strength Ring
 A Steamwheedle Supplies|QID|35591|M|77.80,51.90|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|; Take Explorer Razzuk's Glider to get there [south of here]
 A Burning Blade Cache|QID|35696|M|85.42,53.44|Z|Nagrand@Draenor|N|Random Green|ITEM|$824|
 A Lernaea|QID|37408|M|52.00,90.00|Z|Nagrand@Draenor|N|unknown|RANK|3|LVL|100|
-A Explorer Bibsi|QID|xxx|M|53.40,73.20|Z|Nagrand@Draenor|N|Nothing|; You need to use a rocket to get to her [south-east of her position]
 A Soulfang|QID|36128|M|75.60,65.00|Z|Nagrand@Draenor|N|i597 Intellect Sword|ITEM|116806|RANK|2|
 A Brutag Grimblade|QID|37400|M|43.00,36.40|Z|Nagrand@Draenor|N|i620 Intellect/Strength Plate Boots|ITEM|119380|RANK|3|LVL|100|
 A Durg Spinecrusher|QID|37395|M|38.60,22.40|Z|Nagrand@Draenor|N|i620 Agility 2H Mace|ITEM|119405|RANK|3|LVL|100|
@@ -179,7 +180,6 @@ A Appropriated Warsong Supplies|QID|35673|M|73.10,75.50|Z|Nagrand@Draenor|N|Garr
 A Aogexon|QID|37210|M|51.00,16.00|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118654|RANK|3|LVL|100|
 A Polished Saberon Skull|QID|36035|M|72.70,61.00|Z|Nagrand@Draenor|N|i605 Agility/Strength Ring|ITEM|118254|
 A Goldtoe's Plunder|QID|36109|M|38.30,58.80|Z|Nagrand@Draenor|N|Gold|; Key on the Parrot
-A Explorer Dez|QID|xxx|M|67.60,14.20|Z|Nagrand@Draenor|N|Nothing|; You can reach him from the east starting at the elemental plateau
 A Warsong Lockbox|QID|35678|M|73.00,70.40|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|
 A Malroc Stonesunder |QID|35932|M|81.20,60.00|Z|Nagrand@Draenor|N|i597 Agility Staff|ITEM|116796|RANK|2|
 A Mr. Pinchy Sr.|QID|36229|M|45.80,15.20|Z|Nagrand@Draenor|N|i616 Trinket Multistrike + Lobstrok Proc|ITEM|118690|RANK|2|
@@ -204,7 +204,6 @@ A Outrider Duretha|QID|35943|M|61.80,69.00|Z|Nagrand@Draenor|N|i598 Agility/Inte
 A Adventurer's Pack|QID|35969|M|45.60,52.00|Z|Nagrand@Draenor|N|Gold|
 A Ophiis|QID|35875|M|42.80,49.20|Z|Nagrand@Draenor|N|i602 Cloth Pants|ITEM|116765|RANK|2|
 A Gagrog the Brutal|QID|37223|M|48.20,22.20|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118658|RANK|3|LVL|100|
-A Explorer Razzuk|QID|xxx|M|75.60,64.60|Z|Nagrand@Draenor|N|Nothing|; Is required for some other Treasures
 A Mu'gra|QID|37224|M|34.00,51.00|Z|Nagrand@Draenor|N|Reputation Item for Steamwheedle Preservation Society|ITEM|118659|RANK|3|LVL|100|
 A Warmaster Blugthol|QID|34645|M|82.60,76.20|Z|Nagrand@Draenor|N|i600 Strength/Intellect Plate Bracer|ITEM|116805|RANK|2|
 A Explorer Nozzand |QID|35623|M|89.00,41.20|Z|Nagrand@Draenor|N|Trash Item|ITEM|118679|RANK|2|
@@ -265,13 +264,10 @@ A Hidden Stash|QID|35622|M|87.50,45.00|Z|Nagrand@Draenor|N|Garrison Resources|IT
 A Steamwheedle Supplies|QID|35583|M|52.70,80.10|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|; Take Explorer Bibsi's Glider to get there [north of here]
 A Warsong Supplies|QID|35976|M|89.40,65.80|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|
 A Saberon Stash|QID|36102|M|75.20,65.00|Z|Nagrand@Draenor|N|Gold|
-A Rocket to Explorer Bibsi|QID|xxx|M|58.50,76.30|Z|Nagrand@Draenor|N|Nothing|; Is required to get to Explorer Bibsi
 A Goblin Pack|QID|35576|M|47.20,74.30|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|; Take Explorer Bibsi's Glider to get there [east of here]
 A Goblin Pack|QID|35590|M|73.00,62.20|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|; Take Explorer Razzuk's Glider to get there [south-east of here]
 A Fragment of Oshu'gun|QID|36020|M|45.80,66.30|Z|Nagrand@Draenor|N|i607 Intellect Shield|ITEM|117981|
 A Genedar Debris|QID|36008|M|48.60,72.70|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|
-A Explorer Renzo|QID|xxx|M|83.80,33.80|Z|Nagrand@Draenor|N|Nothing|; Is required for 3 Treasures [2 north-east, 1 south-west]
-A Explorer Garix|QID|xxx|M|87.20,41.00|Z|Nagrand@Draenor|N|Nothing|; Is required for 2 Treasures [1 south, 1 south-east]
 A Netherspawn|QID|35865|M|47.60,70.80|Z|Nagrand@Draenor|N|Pet|ITEM|116815|RANK|2|
 A Elemental Offering|QID|35954|M|66.90,19.50|Z|Nagrand@Draenor|N|Trash Item|ITEM|118234|
 A Sneevel|QID|36880|M|27.60,43.60|Z|Shadowmoon Valley@Draenor|N|i519 Cloth Pants|ITEM|118734|RANK|2|
@@ -378,7 +374,7 @@ A Gift of Anzu|QID|36390|M|57.00,79.00|Z|Spires of Arak|N|i585 Caster 1H Sword|I
 A Gobblefin|QID|36305|M|33.00,59.00|Z|Spires of Arak|N|Trash Item|ITEM|116836|RANK|2|
 A Smuggled Apexis Artifacts|QID|36433|M|56.30,45.30|Z|Spires of Arak|N|Archaeology Fragments|RANK|3|; Requires Archaeology and possibly a little bit of jumping
 A Rukhmar's Image|QID|36377|M|44.40,12.00|Z|Spires of Arak|N|Trash Item|ITEM|118693|
-A Sailor Zazzuk's 180-Proof Rum  |QID|xxx|M|59.10,90.60|Z|Spires of Arak|N|Alcoholic Beverages|ITEM|116917|; QuestID is missing, will stay active after looting
+A Sailor Zazzuk's 180-Proof Rum  |QID|36366|M|59.10,90.60|Z|Spires of Arak|N|Alcoholic Beverages|ITEM|116917|; QuestID is missing, will stay active after looting
 A Relics of the Outcasts 3|QID|36355|M|43.20,27.20|Z|Spires of Arak|N|Archaeology Fragments|RANK|3|; Requires Archaeology and possibly a little bit of jumping
 A Elixir of Shadow Sight 5|QID|36400|M|55.60,22.00|Z|Spires of Arak|N|Elixir of Shadow Sight|ITEM|115463|; Elixir can be used at Shrine of Terrok for 1 of 6 i585 Weapons (see Gift of Anzu) Object will be removed as soon as you loot all Gifts of Anzu
 A Sethekk Ritual Brew|QID|36450|M|71.60,48.50|Z|Spires of Arak|N|Healing Potions + Alcoholic Beverages|ITEM|109223|
@@ -490,7 +486,7 @@ A Amethyl Crystal|QID|34236|M|62.00,32.40|Z|Talador|N|100 Garrison Resources|ITE
 A Pure Crystal Dust|QID|34263|M|78.20,14.80|Z|Talador|N|i554 Agility Ring|ITEM|117572|
 A Echo of Murmur|QID|34221|M|34.20,57.00|Z|Talador|N|Toy|ITEM|113670|RANK|2|
 A Gennadian|QID|34929|M|67.40,80.60|Z|Talador|N|i558 Trinket Agility + Mastery Proc|ITEM|116075|RANK|2|
-A Bonechewer Spear|QID|xxx|M|37.60,74.90|Z|Talador|N|i566 Agility/Intellect Mail Gloves|ITEM|112371|; Quest ID is missing - Treasure will stay active after looting
+A Bonechewer Spear|QID|34148|M|37.60,74.90|Z|Talador|N|i566 Agility/Intellect Mail Gloves|ITEM|112371|; Quest ID is missing - Treasure will stay active after looting
 A Xothear the Destroyer|QID|37343|M|38.00,14.60|Z|Talador|N|i620 Agility/Intellect Mail Shoulders|ITEM|119371|RANK|3|LVL|100|
 A Relic of Aruuna|QID|34250|M|75.80,44.80|Z|Talador|N|Trash Item|ITEM|116128|
 A No'losh|QID|34859|M|86.40,30.40|Z|Talador|N|i558 Trinket Versatility + Int Proc|ITEM|116077|RANK|2|
