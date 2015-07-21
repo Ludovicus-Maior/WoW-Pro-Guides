@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/treasures_draenor_neutral
+-- Date: 2015-07-21 21:13
+-- Who: Blanckaert
+-- Log: Added Tanaan Jungle items, though it still need item type, Name, and IDs added.  (Hope I formatted it right)
+
+-- URL: http://wow-pro.com/node/3633/revisions/27349/view
+-- Date: 2015-07-21 16:10
+-- Who: Blanckaert
+-- Log: Removed Duplicate entries for Faction Specific Items. QIDs #35383, 35384, 35381, 35530, 35289, 35382
+
+-- URL: http://wow-pro.com/node/3633/revisions/27348/view
+-- Date: 2015-07-21 15:34
+-- Who: Blanckaert
+-- Log: Adjusted spawn point of Earthshaker Holar
+
+-- URL: http://wow-pro.com/node/3633/revisions/27347/view
 -- Date: 2015-07-20 22:37
 -- Who: Ludovicus
 -- Log: Got rid of QID|xxx placeholders and either filled them in or deleted.
@@ -42,7 +57,7 @@ A Iron Horde Munitions|QID|36863|M|56.70,71.80|Z|Frostfire Ridge|N|Garrison Reso
 A Yaga the Scarred|QID|34559|M|40.40,27.80|Z|Frostfire Ridge|N|i516 Agility/Intellect Leather Waist|ITEM|111477|RANK|2|
 A Burning Pearl|QID|34520|M|42.40,19.70|Z|Frostfire Ridge|N|i525 Trinket Multistrike + Mastery Proc|ITEM|120341|
 A Giant-Slayer Kul|QID|32918|M|54.60,22.20|Z|Frostfire Ridge|N|i516 Trinket Versatility + Agility Proc|ITEM|111530|RANK|2|
-A Earthshaker Holar|QID|37403|M|86.60,51.80|Z|Frostfire Ridge|N|Apexis Crystals|ITEM|$823|RANK|3|LVL|100|
+A Earthshaker Holar|QID|37403|M|84.11,46.34|Z|Frostfire Ridge|N|Spawns in Ring, Gives Apexis Crystals|ITEM|$823|RANK|3|LVL|100|
 A Ragore Driftstalker|QID|37401|M|86.60,48.80|Z|Frostfire Ridge|N|i620 Agility/Intellect Leather Chest, (30-110min spawn, in Cave)|ITEM|119359|RANK|3|LVL|100|
 A Pale Fishmonger|QID|34470|M|28.20,66.20|Z|Frostfire Ridge|N|Fish|ITEM|111666|RANK|2|
 A Crag-Leaper's Cache|QID|33940|M|42.70,31.70|Z|Frostfire Ridge|N|i516 Agility/Intellect Mail Boots|ITEM|112187|
@@ -353,12 +368,9 @@ A Avalanche|QID|37410|M|68.20,84.80|Z|Shadowmoon Valley@Draenor|N|Apexis Crystal
 A Rovo's Dagger|QID|33573|M|36.70,44.50|Z|Shadowmoon Valley@Draenor|N|i520 Agility Dagger|ITEM|113378|
 A Rotting Basket|QID|33572|M|22.80,33.90|Z|Shadowmoon Valley@Draenor|N|Trash Item|ITEM|113373|
 A Fantastic Fish|QID|34174|M|26.50,5.70|Z|Shadowmoon Valley@Draenor|N|Garrison Resources|ITEM|$824|
-A Pippers' Buried Supplies 3|QID|35383|M|30.80,28.30|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
-A Pippers' Buried Supplies 4|QID|35384|M|49.19,76.83|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
-A Pippers' Buried Supplies 1|QID|35381|M|42.40,54.36|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
-A Lunarfall Egg|QID|35530|M|49.60,43.80|Z|Lunarfall|FACTION|Alliance|N|Garrison Resources|ITEM|$824|; on a wagon
-A Spark's Stolen Supplies|QID|35289|M|51.80,1.10|Z|Lunarfall|FACTION|Alliance|N|Garrison Resources|ITEM|$824|; in a cave in the lake
-A Pippers' Buried Supplies 2|QID|35382|M|50.70,48.50|Z|Lunarfall|FACTION|Alliance|N|Garrison Resources|ITEM|$824|
+
+-- removed QIDS, dupes also listed below with other faction specific items.
+
 A Echidna|QID|37406|M|69.00,54.00|Z|Spires of Arak|N|unknown|RANK|3|LVL|100|
 A Elixir of Shadow Sight 3|QID|36398|M|69.20,43.30|Z|Spires of Arak|N|Elixir of Shadow Sight|ITEM|115463|; Elixir can be used at Shrine of Terrok for 1 of 6 i585 Weapons (see Gift of Anzu) Object will be removed as soon as you loot all Gifts of Anzu
 A Sun-Touched Cache 1|QID|36421|M|34.10,27.50|Z|Spires of Arak|N|Garrison Resources|ITEM|$824|
