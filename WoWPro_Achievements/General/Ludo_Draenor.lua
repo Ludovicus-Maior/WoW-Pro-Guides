@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/treasures_draenor_neutral
+-- Date: 2015-07-22 01:46
+-- Who: Blanckaert
+-- Log: for some reason, change didn't go through.  fleshed out some of the items, a few need you to be ON a quest to get, put PRE tags on those.. but that might not work right
+
+-- URL: http://wow-pro.com/node/3633/revisions/27352/view
+-- Date: 2015-07-22 01:41
+-- Who: Blanckaert
+-- Log: Added some Item IDs, and listed if needs a quest in log at the time to get Used PRE tag, but not sure if that was the right one
+
+-- URL: http://wow-pro.com/node/3633/revisions/27351/view
+-- Date: 2015-07-21 23:59
+-- Who: Blanckaert
+-- Log: changed -- to ; for two comments I had put in
+
+-- URL: http://wow-pro.com/node/3633/revisions/27350/view
 -- Date: 2015-07-21 21:13
 -- Who: Blanckaert
 -- Log: Added Tanaan Jungle items, though it still need item type, Name, and IDs added.  (Hope I formatted it right)
@@ -369,7 +384,7 @@ A Rovo's Dagger|QID|33573|M|36.70,44.50|Z|Shadowmoon Valley@Draenor|N|i520 Agili
 A Rotting Basket|QID|33572|M|22.80,33.90|Z|Shadowmoon Valley@Draenor|N|Trash Item|ITEM|113373|
 A Fantastic Fish|QID|34174|M|26.50,5.70|Z|Shadowmoon Valley@Draenor|N|Garrison Resources|ITEM|$824|
 
--- removed QIDS, dupes also listed below with other faction specific items.
+; removed QIDS, dupes also listed below with other faction specific items.
 
 A Echidna|QID|37406|M|69.00,54.00|Z|Spires of Arak|N|unknown|RANK|3|LVL|100|
 A Elixir of Shadow Sight 3|QID|36398|M|69.20,43.30|Z|Spires of Arak|N|Elixir of Shadow Sight|ITEM|115463|; Elixir can be used at Shrine of Terrok for 1 of 6 i585 Weapons (see Gift of Anzu) Object will be removed as soon as you loot all Gifts of Anzu
@@ -548,6 +563,61 @@ A Relic of Telmor|QID|34256|M|47.00,91.70|Z|Talador|N|Trash Item|ITEM|116128|
 A Teroclaw Nest 6|QID|35162|M|70.90,35.50|Z|Talador|N|Pet|ITEM|112699|; Only one Teroclaw Nest can be looted
 A Light of the Sea|QID|34258|M|38.20,12.50|Z|Talador|N|Garrison Resources|ITEM|$824|
 A Ketya's Stash|QID|34290|M|54.00,27.60|Z|Talador|N|Pet|ITEM|116402|
+
+; Tanaan Jungle (Still need to flesh out item type, name and ids)
+
+A Axe of the Weeping Wolf||QID|38754|M|15.00,54.40|Z|Tanaan Jungle|N|Axe of the Weeping Wolf
+A The Eye of Grannok|QID|38757|M|16.00,59.40|Z|Tanaan Jungle|N|The Eye of Grannok|
+A Spoils of War|QID|38755|M|17.30,57.00|Z|Tanaan Jungle|N|Spoils of War|
+A Stolen Captain's Chest|QID|38283|M|17.00,52.90|Z|Tanaan Jungle|N|Stolen Captain's Chest|
+A Weathered Axe|QID|38208|M|15.90,49.70|Z|Tanaan Jungle|N|Weathered Axe|
+A Bleeding Hollow Warchest|QID|38678|M|20.00,47.80|Z|Tanaan Jungle|N|Bleeding Hollow Warchest|
+A Borrowed Enchanted Spyglass|QID|38735|M|25.30,50.20|Z|Tanaan Jungle|N|Borrowed Enchanted Spyglass|
+A Looted Bleeding Hollow Treasure|QID|38741|M|26.50,62.90|Z|Tanaan Jungle|N|Looted Bleeding Hollow Treasure|
+A Looted Bleeding Hollow Treasure|QID|38683|PRE|38453|M|26.80,44.20|Z|Tanaan Jungle|N|Throbbing Blood Orb - Requires being on Garrison Campaign: The Bane Of The Bleeding Hollow.|ITEM|127709|  ; Req's Quest in Log - PRE ?
+A Polished Crystal|QID|38629|M|30.50,72.00|Z|Tanaan Jungle|N|Polished Crystal|
+A Tome of Secrets|QID|38426|M|32.40,70.50|Z|Tanaan Jungle|N|Accursed Tome of Sargerei - TOY|ITEM|127670|
+A The Blade of Kra'nak|QID|38320|M|19.30,40.90|Z|Tanaan Jungle|N|The Blade of Kra'nak|
+A Jeweled Arakkoa Effigy|QID|38732|M|31.40,31.10|Z|Tanaan Jungle|N|Jeweled Arakkoa Effigy|
+A Partially Mined Apexis Crystal|QID|38863|M|28.90,34.60|Z|Tanaan Jungle|N|Partially Mined Apexis Crystal|
+A Skull of the Mad Chief|QID|38742|M|34.70,34.70|Z|Tanaan Jungle|N|Skull of the Mad Chief|ITEM|127669|
+A Dazzling Rod|QID|38822|M|42.90,35.30|Z|Tanaan Jungle|N|Dazzling Rod, Top of Tower - TOY|ITEM|127859|
+A The Commander's Shield|QID|38821|M|43.20,38.30|Z|Tanaan Jungle|N|The Commander's Shield|
+A Strange Sapphire|QID|37956|M|36.30,43.40|Z|Tanaan Jungle|N|Strange Sapphire|
+A Pale Removal Equipment|QID|38640|M|37.10,46.20|Z|Tanaan Jungle|N|Pale Removal Equipment|
+A Fel-Drenched Satchel|QID|38773|M|46.90,44.40|Z|Tanaan Jungle|N|Fel-Drenched Goggles - Cosmetic|ITEM|128218|
+A Sacrificial Blade|QID|38776|M|46.80,42.10|Z|Tanaan Jungle|N|Sacrificial Blade|
+A Book of Zyzzix|QID|38771|M|46.90,36.70|Z|Tanaan Jungle|N|Book of Zyzzix|
+A Stashed Iron Sea Booty|QID|38760|M|33.90,78.10|Z|Tanaan Jungle|N|Stashed Iron Sea Booty|
+A Stashed Iron Sea Booty|QID|38761|M|35.00,77.20|Z|Tanaan Jungle|N|Stashed Iron Sea Booty|
+A Stashed Iron Sea Booty|QID|38762|M|34.50,78.30|Z|Tanaan Jungle|N|Stashed Iron Sea Booty|
+A Ironbeard's Treasure|QID|38758|M|35.90,78.60|Z|Tanaan Jungle|N|Ironbeard's Treasure|
+A Brazier of Awakening|QID|38788|M|37.80,80.80|Z|Tanaan Jungle|N|Brazier of Awakening BOP Item|ITEM|127770|
+A Snake Charmer's Flute|QID|38638|M|40.60,79.80|Z|Tanaan Jungle|N|Snake Charmer's Flute|
+A Forgotten Champion's Blade|QID|38657|M|41.50,73.40|Z|Tanaan Jungle|N|Forgotten Champion's Blade|
+A The Perfect Blossom|QID|38639|M|40.80,75.50|Z|Tanaan Jungle|N|The Perfect Blossom - TOY|ITEM|127766|
+A Bleeding Hollow Mushroom Stash|QID|38809|M|49.90,76.80|Z|Tanaan Jungle|N|Bleeding Hollow Mushroom Stash|
+A Looted Mystical Staff|QID|38814|M|48.60,75.30|Z|Tanaan Jungle|N|Looted Mystical Staff|
+A Crystallized Essence of the Elements|QID|38705|M|48.00,70.40|Z|Tanaan Jungle|N|Crystallized Essence of the Elements|
+A Overgrown Relic|QID|38731|M|50.90,64.90|Z|Tanaan Jungle|N|Overgrown Relic|
+A Forgotten Sack|QID|38591|M|56.90,65.10|Z|Tanaan Jungle|N|Forgotten Sack|
+A Lodged Hunting Spear|QID|38593|M|54.80,69.30|Z|Tanaan Jungle|N|Lodged Hunting Spear|
+A Crystallized Fel Spike|QID|38602|M|62.00,70.80|Z|Tanaan Jungle|N|Crystallized Fel Spike|
+A Blackfang Island Cache|QID|38601|M|61.20,75.70|Z|Tanaan Jungle|N|Blackfang Island Cache|
+A Scout's Belongings|QID|38703|M|50.00,79.70|Z|Tanaan Jungle|N|Scout's Belongings|
+A Discarded Helm|QID|38702|M|50.00,81.20|Z|Tanaan Jungle|N|Discarded Helm|
+A Fel-Tainted Apexis Formation|QID|39075|M|51.60,32.50|Z|Tanaan Jungle|N|Fel-Tainted Apexis Formation|
+A Rune Etched Femur|QID|38686|M|51.80,24.30|Z|Tanaan Jungle|N|Rune Etched Femur|
+A Censer of Torment|QID|38682|M|62.50,20.60|Z|Tanaan Jungle|N|Censer of Torment|
+A Jewel of the Fallen Star|QID|38679|M|58.50,25.40|Z|Tanaan Jungle|N|Jewel of the Fallen Star|
+A Forgotten Shard of the Cipher|QID|38740|M|63.30,28.10|Z|Tanaan Jungle|N|Shard of Cyrukh - Pet|ITEM|128309|
+A Strange Fruit|QID|38701|M|64.50,42.10|Z|Tanaan Jungle|N|Strange Green Fruit - TOY. Jump off, you'll get a slow fall buff.|ITEM|127396|	 	 ; Might need adjustment of note
+A Stashed Bleeding Hollow Loot|QID|38779|M|73.60,43.20|Z|Tanaan Jungle|N|Stashed Bleeding Hollow Loot|
+A Forgotten Iron Horde Supplies|QID|38704|M|69.70,56.00|Z|Tanaan Jungle|N|Forgotten Iron Horde Supplies|
+A Bejeweled Egg|QID|39469|M|65.90,85.00|Z|Tanaan Jungle|N|Bejeweled Egg|
+A Dead Man's Chest|QID|39470|M|55.00,90.70|Z|Tanaan Jungle|N|Dead Man's Chest|
+A Mysterious Corrupted Obelisk|QID|38739|PRE|38463|M|46.30,72.70|Z|Tanaan Jungle|N|Corrupted Primal Obelisk - Requires being on The Cipher of Damnation Quest to get to it.|ITEM|241666|   ; Quest in log - 38463 - PRE ?
+A Jewel of Hellfire|QID|38334|M|28.70,23.30|Z|Tanaan Jungle|N|Jewel of Hellfire - TOY|ITEM|127668
 
 ]]
 
