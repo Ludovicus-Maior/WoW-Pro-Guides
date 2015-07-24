@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/treasures_draenor_neutral
+-- Date: 2015-07-24 03:35
+-- Who: Blanckaert
+-- Log: fixed a bad coord, added to last treasures I hadn't gotten yet, but still need to go back over with a fresh toon.
+
+-- URL: http://wow-pro.com/node/3633/revisions/27355/view
 -- Date: 2015-07-23 05:36
 -- Who: Blanckaert
 -- Log: fleshed out more of the treasures, going to start going back over them to get Coords to xx.xx. * there is an issue with the ACTIVE on the last three items.
@@ -67,6 +72,8 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Looting Draenor|N|To use this guide, right click on the menu and select proximity sort.|
+
+; Frostfire Ridge
 
 A Gurun|QID|34839|M|47.00,55.20|Z|Frostfire Ridge|N|i513 Strength Cloak|ITEM|111955|RANK|2|
 A Supply Dump|QID|33942|M|16.10,49.80|Z|Frostfire Ridge|N|Garrison Resources|ITEM|$824|
@@ -135,6 +142,9 @@ A Broodmother Reeg'ak|QID|33843|M|66.40,31.40|Z|Frostfire Ridge|N|i516 Trinket I
 A Ak'ox the Slaughterer|QID|37525|M|88.60,57.40|Z|Frostfire Ridge|N|Apexis Crystals|ITEM|$823|RANK|3|LVL|100|
 A Forgotten Supplies|QID|34841|M|43.70,55.50|Z|Frostfire Ridge|N|Garrison Resources|ITEM|$824|
 A Snow-Covered Strongbox|QID|34647|M|24.00,13.00|Z|Frostfire Ridge|N|Garrison Resources|ITEM|$824|
+
+; Gorgrond
+
 A Khargax the Devourer|QID|35820|M|52.40,65.80|Z|Gorgrond|N|Quest Item for XP|ITEM|113461|RANK|2|; You must finish the quest before this element gets removed from the map
 A Inventor Blammo|QID|37367|M|47.60,30.60|Z|Gorgrond|N|unknown|RANK|3|LVL|100|
 A Bashiok|QID|35335|M|40.00,79.00|Z|Gorgrond|N|Toy|ITEM|118222|RANK|2|
@@ -200,6 +210,9 @@ A Pile of Rubble|QID|36118|M|43.95,70.55|Z|Gorgrond|N|Random Green|
 A Evermorn Supply Cache|QID|36658|M|41.80,78.10|Z|Gorgrond|N|Random Green|
 A Stompalupagus|QID|36837|M|54.20,72.40|Z|Gorgrond|N|i537 2H Agility/Strength Mace|ITEM|118228|RANK|2|
 A Depthroot|QID|37370|M|57.60,35.80|Z|Gorgrond|N|i620 Agility Polearm|ITEM|119406|RANK|3|LVL|100|
+
+; Nagrand@Draenor
+
 A Treasure of Kull'krosh|QID|34760|M|37.70,70.60|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|
 A Gorepetal|QID|35898|M|93.20,28.20|Z|Nagrand@Draenor|N|i602 Agility/Intellect Leather Gloves|ITEM|116916|RANK|2|; The gloves let you gather herbs faster while in Draenor
 A Freshwater Clam|QID|35692|M|73.10,21.60|Z|Nagrand@Draenor|N|Trash Item|ITEM|118233|
@@ -310,6 +323,9 @@ A Fragment of Oshu'gun|QID|36020|M|45.80,66.30|Z|Nagrand@Draenor|N|i607 Intellec
 A Genedar Debris|QID|36008|M|48.60,72.70|Z|Nagrand@Draenor|N|Garrison Resources|ITEM|$824|
 A Netherspawn|QID|35865|M|47.60,70.80|Z|Nagrand@Draenor|N|Pet|ITEM|116815|RANK|2|
 A Elemental Offering|QID|35954|M|66.90,19.50|Z|Nagrand@Draenor|N|Trash Item|ITEM|118234|
+
+; Shadowmoon Valley @ Draenor
+
 A Sneevel|QID|36880|M|27.60,43.60|Z|Shadowmoon Valley@Draenor|N|i519 Cloth Pants|ITEM|118734|RANK|2|
 A Amaukwa|QID|33061|M|37.20,36.40|Z|Shadowmoon Valley@Draenor|N|i516 Agility/Intellect Mail Body|ITEM|109060|RANK|2|
 A Veema's Herb Bag|QID|33866|M|34.20,43.50|Z|Shadowmoon Valley@Draenor|N|Herbs|ITEM|109124|
@@ -396,6 +412,8 @@ A Fantastic Fish|QID|34174|M|26.50,5.70|Z|Shadowmoon Valley@Draenor|N|Garrison R
 
 ; removed QIDS, dupes also listed below with other faction specific items.
 
+; Spires of Arak
+
 A Echidna|QID|37406|M|69.00,54.00|Z|Spires of Arak|N|unknown|RANK|3|LVL|100|
 A Elixir of Shadow Sight 3|QID|36398|M|69.20,43.30|Z|Spires of Arak|N|Elixir of Shadow Sight|ITEM|115463|; Elixir can be used at Shrine of Terrok for 1 of 6 i585 Weapons (see Gift of Anzu) Object will be removed as soon as you loot all Gifts of Anzu
 A Sun-Touched Cache 1|QID|36421|M|34.10,27.50|Z|Spires of Arak|N|Garrison Resources|ITEM|$824|
@@ -479,6 +497,9 @@ A Relics of the Outcasts 4|QID|36356|M|67.40,39.80|Z|Spires of Arak|N|Archaeolog
 A Misplaced Scrolls|QID|36244|M|42.70,18.30|Z|Spires of Arak|N|Archaeology Fragments|RANK|3|; Requires Archaeology and possibly a little bit of jumping
 A Relics of the Outcasts 5|QID|36359|M|60.20,53.90|Z|Spires of Arak|N|Archaeology Fragments|RANK|3|; Requires Archaeology and possibly a little bit of jumping
 A Iron Horde Explosives|QID|36444|M|50.40,25.80|Z|Spires of Arak|N|Trash Item|ITEM|118691|
+
+; Faction related items
+
 A Lady Sena's Other Materials Stash|QID|34937|M|74.50,56.20|Z|Frostwall|FACTION|Horde|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
 A Pippers' Buried Supplies 2|QID|35382|M|37.30,74.91|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
 A Lunarfall Egg|QID|35530|M|61.27,72.61|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|; in the tent
@@ -494,6 +515,9 @@ A Spark's Stolen Supplies|QID|35289|M|51.80,1.10|Z|Lunarfall|FACTION|Alliance|BU
 A Pippers' Buried Supplies 1|QID|35381|M|41.68,58.03|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
 A Lady Sena's Other Materials Stash|QID|34937|M|74.50,56.20|Z|Frostwall|FACTION|Horde|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
 A Lady Sena's Other Materials Stash|QID|34937|M|74.50,56.20|Z|Frostwall|FACTION|Horde|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
+
+; Talador
+
 A Teroclaw Nest 8|QID|35162|M|54.10,56.30|Z|Talador|N|Pet|ITEM|112699|; Only one Teroclaw Nest can be looted
 A Grrbrrgle|QID|36919|M|22.20,74.00|Z|Talador|N|unknown|RANK|2|; Restless Crate
 A Avatar of Socrethar|QID|37338|M|46.60,35.20|Z|Talador|N|i620 Offhand|ITEM|119378|RANK|3|LVL|100|
@@ -574,7 +598,7 @@ A Teroclaw Nest 6|QID|35162|M|70.90,35.50|Z|Talador|N|Pet|ITEM|112699|; Only one
 A Light of the Sea|QID|34258|M|38.20,12.50|Z|Talador|N|Garrison Resources|ITEM|$824|
 A Ketya's Stash|QID|34290|M|54.00,27.60|Z|Talador|N|Pet|ITEM|116402|
 
-; Tanaan Jungle (Still need to flesh out item type, name and ids)
+; Tanaan Jungle (Still need to flesh out item type, name and ids) Added by Blanckaert
 
 A Axe of the Weeping Wolf||QID|38754|M|15.00,54.40|Z|Tanaan Jungle|N|i650 2H Axe, Axe of the Weeping Wolf|ITEM|127325|
 A The Eye of Grannok|QID|38757|M|16.00,59.40|Z|Tanaan Jungle|N|i650 Int/Haste Trinket Grannok's Lidless Eye|ITEM|128220|
@@ -614,7 +638,7 @@ A Forgotten Sack|QID|38591|M|56.90,65.10|Z|Tanaan Jungle|N|Forgotten Sack|
 A Lodged Hunting Spear|QID|38593|M|54.83,69.32|Z|Tanaan Jungle|N|i650 - Agility Polearm, Ravager Hunting Spear - Go around back of tree, and Jumping Game.|ITEM|127334|
 A Crystallized Fel Spike|QID|38602|M|62.19,70.97|Z|Tanaan Jungle|N|i650 Int/Spirit Trinket - Fel Shard|ITEM|128217|
 A Blackfang Island Cache|QID|38601|M|61.18,75.77|Z|Tanaan Jungle|N|Blackfang Island Cache - Gives Garrison Resources (x53?)|ITEM|$824|
-A Discarded Helm|QID|38702|M|51.449.94,81.28|Z|Tanaan Jungle|N|i650 Helm - Fallen's Adventurer's Helm|ITEM|127312|
+A Discarded Helm|QID|38702|M|49.94,81.28|Z|Tanaan Jungle|N|i650 Helm - Fallen's Adventurer's Helm|ITEM|127312|
 A Scout's Belongings|QID|38703|M|51.52,81.59;50.37,80.77;49.96,79.70|CS|Z|Tanaan Jungle|N|i650 Agi Cloak Scout's Spy Cloak|ITEM|127354|
 A Dead Man's Chest|QID|39470|M|54.91,90.77|Z|Tanaan Jungle|N|Dead Man's Chest - Gives Garrison Resources (x100?)|ITEM|$824|
 A Fel-Tainted Apexis Formation|QID|39075|M|54.0,26.4;51.60,32.50|CS|Z|Tanaan Jungle|N|Fel-Tainted Apexis Formation, Jump across, then get to lower levels to jump down to it. Gives Apexis Crystals|ITEM|$823|
@@ -622,16 +646,16 @@ A Rune Etched Femur|QID|38686|M|51.80,24.30|Z|Tanaan Jungle|N|Rune Etched Femur|
 A Censer of Torment|QID|38682|M|62.50,20.60|Z|Tanaan Jungle|N|Censer of Torment|
 A Jewel of the Fallen Star|QID|38679|M|58.50,25.40|Z|Tanaan Jungle|N|Jewel of the Fallen Star|
 A Strange Fruit|QID|38701|M|64.50,42.10|Z|Tanaan Jungle|N|Strange Green Fruit - TOY. Jump off, you'll get a slow fall buff.|ITEM|127396|
-A Stashed Bleeding Hollow Loot|QID|38779|M|73.60,43.20|Z|Tanaan Jungle|N|Stashed Bleeding Hollow Loot|
-A Forgotten Iron Horde Supplies|QID|38704|M|69.70,56.00|Z|Tanaan Jungle|N|Forgotten Iron Horde Supplies|
+A Stashed Bleeding Hollow Loot|QID|38779|M|73.65,43.25|Z|Tanaan Jungle|N|Stashed Bleeding Hollow Loot - Gives some gold and a grey item.|
+A Forgotten Iron Horde Supplies|QID|38704|M|69.75,55.99|Z|Tanaan Jungle|N|Forgotten Iron Horde Supplies - Gives Garrison Resources (x25?)|ITEM|$824|
 A Bejeweled Egg|QID|39469|M|65.91,85.00|Z|Tanaan Jungle|N|Bejeweled Egg|ITEM|128386|
 A Jewel of Hellfire|QID|38334|M|28.70,23.30|Z|Tanaan Jungle|N|Jewel of Hellfire - TOY, Easier to use Hearth then to run back.|ITEM|127668|
 
 ; Quest Required to get the following Items
 
-A Looted Bleeding Hollow Treasure|QID|38683|ACTIVE|38560+38453|M|26.80,44.20|Z|Tanaan Jungle|N|Throbbing Blood Orb.|ITEM|127709|			; Only able to get with Quest in Log - 38453H - 38560A
-A Mysterious Corrupted Obelisk|QID|38739|ACTIVE|39394+38463|M|46.30,72.70|Z|Tanaan Jungle|N|Corrupted Primal Obelisk|ITEM|241666|   		; Only able to get with Quest in log - 38463H - 39394A
-A Forgotten Shard of the Cipher|QID|38740|ACTIVE|39394+38463|M|63.30,28.10|Z|Tanaan Jungle|N|Shard of Cyrukh - Pet|ITEM|128309|				; Only able to get with Quest in log - 38463H - 39394A
+A Looted Bleeding Hollow Treasure|QID|38683|ACTIVE|38560;38453|M|26.80,44.20|Z|Tanaan Jungle|N|Throbbing Blood Orb.|ITEM|127709|			; Only able to get with Quest in Log - 38453H - 38560A
+A Mysterious Corrupted Obelisk|QID|38739|ACTIVE|39394;38463|M|46.30,72.70|Z|Tanaan Jungle|N|Corrupted Primal Obelisk|ITEM|241666|   		; Only able to get with Quest in log - 38463H - 39394A
+A Forgotten Shard of the Cipher|QID|38740|ACTIVE|39394;38463|M|63.30,28.10|Z|Tanaan Jungle|N|Shard of Cyrukh - Pet|ITEM|128309|				; Only able to get with Quest in log - 38463H - 39394A
 
 ]]
 
