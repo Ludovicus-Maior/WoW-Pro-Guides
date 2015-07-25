@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-07-25 18:45
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3199/revisions/27324/view
 -- Date: 2015-07-05 21:26
 -- Who: Ludovicus
 -- Log: Changed DK and Paladin warnings to D steps to mark the zone as completed.
@@ -284,14 +289,10 @@
 -- Who: Fluclo
 -- Log: Shouldn't be a need to grind in Cataclysm, so tweaked to remove any grinding. 
 
--- URL: http://wow-pro.com/node/3199/revisions/24512/view
--- Date: 2011-06-07 10:55
--- Who: Ludovicus
--- Log: Add [Conscript of the Horde] and fix Z tag for [Neeru Fireblade]
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
+WoWPro:GuideIcon(guide,"ACH",728)
 WoWPro:GuideSteps(guide, function()
 return [[
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2015-07-25 18:43
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3212/revisions/26938/view
 -- Date: 2014-11-08 13:05
 -- Who: Ludovicus
 -- Log: Extra NC
@@ -183,6 +188,7 @@
 local guide = WoWPro:RegisterGuide('MalLos0512', 'Leveling', 'The Lost Isles', 'Malorajan', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5)
 WoWPro:GuideRaceSpecific(guide,"Goblin")
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Crate_07")
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
 WoWPro:GuideSteps(guide, function()
 return [[

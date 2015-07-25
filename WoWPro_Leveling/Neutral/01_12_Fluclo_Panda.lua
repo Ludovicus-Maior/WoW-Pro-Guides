@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2015-07-25 18:36
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3483/revisions/27201/view
 -- Date: 2015-04-16 16:08
 -- Who: Aldavor
 -- Log: Amendments made to initial quests for WoD (some no longer valid, others slightly changed). Changed QO's to numerics to effect auto-closes. Added comments, some tweaks may have to be done at the end once factions have been selected.
@@ -155,6 +160,7 @@
 local guide = WoWPro:RegisterGuide('FlucloPanda', "Leveling", 'TheWanderingIsle', 'Fluclo', 'Neutral')
 WoWPro:GuideLevels(guide,1,12,1.0531)
 WoWPro:GuideRaceSpecific(guide,"Pandaren")
+WoWPro:GuideIcon(guide,"ACH",6974)
 WoWPro:GuideNextGuide(guide, 'WkjLoc1220|BitAzs1220')
 WoWPro:GuideSteps(guide, function()
 return [[

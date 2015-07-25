@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
+-- Date: 2015-07-25 18:18
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3443/revisions/26862/view
 -- Date: 2014-11-07 21:34
 -- Who: Emmaleah
 -- Log: added 3 N tags per list o' errors
@@ -47,6 +52,7 @@
 local guide = WoWPro:RegisterGuide("LudoPilBountyA",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,1,90,10)
 WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
+WoWPro:GuideIcon(guide,"ACH",3478)
 WoWPro:GuideSteps(guide, function()
 return [[
 

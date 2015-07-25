@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
+-- Date: 2015-07-25 18:33
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3369/revisions/27245/view
 -- Date: 2015-05-16 15:02
 -- Who: Ludovicus
 -- Log: You dont have Cinderglacier at the start now, just Razorice.
@@ -68,6 +73,7 @@ local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "ScarletEnclave", 
 WoWPro:GuideLevels(guide,55,58,55)
 WoWPro:GuideNextGuide(guide, "CraBla5458|JiyBla5560")
 WoWPro:GuideClassSpecific(guide,"DeathKnight")
+WoWPro:GuideIcon(guide,"ICON","Interface\\CHARACTERFRAME\\Button_ClassIcon_DeathKnight")
 WoWPro:GuideSteps(guide, function()
 return [[
 

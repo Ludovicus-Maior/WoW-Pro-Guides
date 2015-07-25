@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2015-07-25 18:17
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3458/revisions/27362/view
+-- Date: 2015-07-25 18:17
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3458/revisions/26861/view
 -- Date: 2014-11-07 21:31
 -- Who: Emmaleah
 -- Log: corrections per List 'o errors and added other QID's to Horde side A Greatfather Winter is here
@@ -51,6 +61,7 @@
 local guide = WoWPro:RegisterGuide("LudoWinterVeilA",'WorldEvents',"Winter Veil", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,1,80,19.2647)
 WoWPro.WorldEvents:GuideHoliday(guide,"WinterVeil")
+WoWPro:GuideIcon(guide,"ACH",1691)
 WoWPro:GuideSteps(guide, function()
 return [[
 

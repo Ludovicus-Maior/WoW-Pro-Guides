@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
+-- Date: 2015-07-25 18:14
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3451/revisions/26496/view
 -- Date: 2014-06-10 21:36
 -- Who: Ludovicus
 -- Log: Changed guide format.
@@ -85,6 +90,7 @@
 local guide = WoWPro:RegisterGuide("CraLunFesEldA",'WorldEvents',"Lunar Festival Elders Guide", "Crackerhead22", "Alliance")
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.WorldEvents:GuideHoliday(guide,"LunarFestival")
+WoWPro:GuideIcon(guide,"ACH",915)
 WoWPro:GuideSteps(guide, function()
 return [[
 

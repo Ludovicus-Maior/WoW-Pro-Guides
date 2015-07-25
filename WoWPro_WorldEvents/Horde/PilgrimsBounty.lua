@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_horde
+-- Date: 2015-07-25 18:18
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3444/revisions/26843/view
 -- Date: 2014-11-07 20:25
 -- Who: Emmaleah
 -- Log: add 3 N tags per Ludo's list 'o errors 11/5/14
@@ -45,6 +50,7 @@
 local guide = WoWPro:RegisterGuide("LudoPilBountyH",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
+WoWPro:GuideIcon(guide,"ACH",3478)
 WoWPro:GuideSteps(guide, function()
 return [[
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2015-07-25 18:14
+-- Who: Ludovicus
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3452/revisions/27147/view
 -- Date: 2015-02-24 08:27
 -- Who: Emmaleah
 -- Log: Correct a misplaced "|"
@@ -75,6 +80,7 @@
 local guide = WoWPro:RegisterGuide("CraLunFesEldH",'WorldEvents',"Lunar Festival Elders Guide", "Crackerhead22", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.WorldEvents:GuideHoliday(guide,"LunarFestival")
+WoWPro:GuideIcon(guide,"ACH",914)
 WoWPro:GuideSteps(guide, function()
 return [[
 
