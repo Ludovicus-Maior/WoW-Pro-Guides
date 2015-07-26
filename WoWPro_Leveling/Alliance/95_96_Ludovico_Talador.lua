@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-07-26 19:49
+-- Who: Fluclo
+-- Log: Moved Ra'kahn to flow with A Pilgrimage Gone Awry quest; added individual steps for A Pilgrimage Gone Awry.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27345/view
 -- Date: 2015-07-20 12:00
 -- Who: Fluclo
 
@@ -299,10 +304,13 @@ A New Owner|QID|35239|M|62.89,50.46|N|From Pleasure-Bot 8000, after a delay.|
 T New Owner|QID|35239|M|62.89,50.46|N|To Pleasure-Bot 8000|
 
 A A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|From Nadur|
-C A Pilgrimage Gone Awry|QID|34802|N|Kill Ridge Prowlers (and cubs) for Prowler Blood, Snapdragon Fronds are growing plants, loot Riverhopper Eye from frogs/toads|
+C A Pilgrimage Gone Awry|QID|34802|N|Kill and loot the prowlers for their blood|S|QO|1|
+C A Pilgrimage Gone Awry|QID|34802|N|Loot the Snapdragon Fronds from the ground|S|QO|2|NC|
+K Ra'kahn|M|60.1,57.5;59.48,59.59|CS|RANK|3|QID|34196|N|Rare kill; drops Ra'kahn's Bite (i563 Fist Weapon). Cave entrance is first coordinate.|
+C A Pilgrimage Gone Awry|QID|34802|N|Finish looting the Snapdragon Fronds from the ground|US|QO|2|NC|
+C A Pilgrimage Gone Awry|QID|34802|N|Finish killing and looting the prowlers for their blood|US|QO|1|
+C A Pilgrimage Gone Awry|QID|34802|N|Kill and loot the Noxious Riverhopper and Palebelly Croakers until one drops the Eye.|QO|3|
 T A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|To Nadur|
-
-K Ra'kahn|M|60.1,57.5;59.48,59.59|CS|RANK|3|QID|34196|N|Rare kill; may drop Ra'kahn's Bite (i563 Fist Weapon). Head SW from Nadur, cave entrance is first coord.|
 
 ; [aldavor] add the Hilaani task here as global.
 C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress. Party of 3 suggested.|
