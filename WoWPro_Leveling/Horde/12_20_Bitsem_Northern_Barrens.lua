@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2015-07-27 01:24
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3214/revisions/27292/view
 -- Date: 2015-06-22 16:11
 -- Who: Ludovicus
 -- Log: Played through on a Level 14 Pally.  Lost of QO changes.
@@ -267,7 +271,7 @@ T The Stagnant Oasis|QID|877|PRE|13988|M|49.48,58.73|N|To Tonga Runetotem.|
 T Altered Beings|QID|880|M|49.48,58.73|N|To Tonga Runetotem.|
 T In Fungus We Trust|QID|13998|M|48.65,58.38|N|To Apothecary Helbrim.|
 A Who's Shroomin' Who?|QID|13999|PRE|13998|RANK|1|M|48.65,58.38|N|From Apothecary Helbrim.|
-A Deathgate's Reinforcements|QID|14073|LVL|16|RANK|1|M|48.68,59.54|N|From Thork.|
+A Deathgate's Reinforcements|QID|14073|PRE|13992;850|LVL|16|RANK|1|M|48.68,59.54|N|From Thork.|
 
 T Deathgate's Reinforcements|QID|14073|M|37.79,55.33|N|To Regthar Deathgate.|
 A Centaur Bracers|QID|855|LVL|15|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|

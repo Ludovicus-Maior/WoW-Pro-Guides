@@ -4,6 +4,40 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-07-27 13:36
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3614/revisions/27376/view
+-- Date: 2015-07-27 13:33
+-- Who: Fluclo
+-- Log: The Final Step tweaks
+
+-- URL: http://wow-pro.com/node/3614/revisions/27375/view
+-- Date: 2015-07-27 13:27
+-- Who: Fluclo
+-- Log: Added Elite and Treasure whilst in Gordal Fortress.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27374/view
+-- Date: 2015-07-27 13:10
+-- Who: Fluclo
+-- Log: The quest "Dropping In" isn't showing the waypoints to the three catapults although they do have |M| tags.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27373/view
+-- Date: 2015-07-27 13:02
+-- Who: Fluclo
+-- Log: Added QID for Ra'kahn so that it auto-completes.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27372/view
+-- Date: 2015-07-27 12:56
+-- Who: Fluclo
+-- Log: Added Hammertooth Rare and reordered Clear! to fit with this.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27370/view
+-- Date: 2015-07-26 19:49
+-- Who: Fluclo
+-- Log: Moved Ra'kahn to flow with A Pilgrimage Gone Awry quest; added individual steps for A Pilgrimage Gone Awry.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27345/view
 -- Date: 2015-07-20 12:00
 -- Who: Fluclo
 
@@ -279,7 +313,6 @@ R The Pilgrim's Road|QID|33871|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75
 
 A Seek Out the Seer|QID|33871|M|67.50,43.75;70.78,47.38;68.98,45.97|CN|N|From Elumm who walks up and down this road.|
 R Duskfall Island|QID|34761|M|67.56,44.76;66.29,46.85;65.83,47.53|CS|N|Next, Duskfall!|
-A Clear!|QID|34761|M|62.86,50.32|N|From Torben Zapblast|
 T Seek Out the Seer|QID|33871|M|65.43,50.73|N|To Seer Malune|
 
 A Dust of the Dead|QID|33872|M|65.43,50.73|N|From Seer Malune.|PRE|33871|
@@ -293,16 +326,24 @@ A Aruumel's Rest|QID|33874|M|65.43,50.73|N|From Seer Malune.|PRE|33872;33873|
 C Aruumel's Rest|QID|33874|M|69.03,55.28|T|Aruumel|U|108749|N|Unless you want to fight your way there, wait to use the elixer until you arrive at the green dot.  Use it and then kill Aruumel.|
 f Terokkar Refuge|QID|33874|M|70.34,57.10|N|At Skytalon Inuz, just up the hill.|
 T Aruumel's Rest|QID|33874|M|65.43,50.73|N|To Seer Malune.|
-C Clear!|QID|34761|M|61.39,44.41;72.54,53.57;66.89,59.55|CN|N|These are located in each of the areas marked.|
+
+A Clear!|QID|34761|M|62.86,50.32|N|From Torben Zapblast|
+C Clear!|QID|34761|M|61.39,44.41;72.54,53.57;66.89,59.55|CN|N|Kill and loot the Lakebottom Zappers in the lake.|S|
+K Hammertooth |QID|34185|N|**Rare Kill**\nKill and loot Hammertooth, that patrols around the water.|RANK|3|M|61.50,45.50|
+C Clear!|QID|34761|M|61.39,44.41;72.54,53.57;66.89,59.55|CN|N|**Follower**\nFinish killing and looting the Lakebottom Zappers in the lake.|US|
 T Clear!|QID|34761|M|62.86,50.32|N|To Torben Zapblast|
-A New Owner|QID|35239|M|62.89,50.46|N|From Pleasure-Bot 8000, after a delay.|
+
+A New Owner|QID|35239|M|62.89,50.46|N|From Pleasure-Bot 8000. This will appear about 15 seconds after a little dialog from Torben Zapblast.|
 T New Owner|QID|35239|M|62.89,50.46|N|To Pleasure-Bot 8000|
 
 A A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|From Nadur|
-C A Pilgrimage Gone Awry|QID|34802|N|Kill Ridge Prowlers (and cubs) for Prowler Blood, Snapdragon Fronds are growing plants, loot Riverhopper Eye from frogs/toads|
+C A Pilgrimage Gone Awry|QID|34802|N|Kill and loot the prowlers for their blood|S|QO|1|
+C A Pilgrimage Gone Awry|QID|34802|N|Loot the Snapdragon Fronds from the ground|S|QO|2|NC|
+K Ra'kahn|QID|34196|M|60.1,57.5|RANK|3|N|Rare kill; drops Ra'kahn's Bite (i563 Fist Weapon). Coordinates is Cave Entrance, Ra'kahn can be found at the back of the cave.|ACTIVE|34802|
+C A Pilgrimage Gone Awry|QID|34802|N|Finish looting the Snapdragon Fronds from the ground|US|QO|2|NC|
+C A Pilgrimage Gone Awry|QID|34802|N|Finish killing and looting the prowlers for their blood|US|QO|1|
+C A Pilgrimage Gone Awry|QID|34802|N|Kill and loot the Noxious Riverhopper and Palebelly Croakers until one drops the Eye.|QO|3|
 T A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|To Nadur|
-
-K Ra'kahn|M|60.1,57.5;59.48,59.59|CS|RANK|3|QID|34196|N|Rare kill; may drop Ra'kahn's Bite (i563 Fist Weapon). Head SW from Nadur, cave entrance is first coord.|
 
 ; [aldavor] add the Hilaani task here as global.
 C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress. Party of 3 suggested.|
@@ -324,24 +365,26 @@ A Orbs of Power|QID|34911|PRE|34908|M|69.95,69.46|N|From Magister Serena|
 C Orbs of Power|QID|34911|PRE|34908|M|67.0,80.0|QO|1|N|Scattered throughout the area.|S|
 C While We're in the Neighborhood|QID|34909|PRE|34908|M|66.10,80.70|N|Collect 8 Runebeads from Gordunni Bashers or Cleavers|S|
 K Vizier Vorgorsh|QID|34910|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|PRE|34908|
-K Vizier Zulmork|QID|34910|M|67.14,77.04|QO|2|T|Vizier Zulmork|N|Up another flight in the building.|PRE|34908|
-K Vizier Cromaug|QID|34910|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|In the building.|PRE|34908|
+K Gennadian|QID|34929|N|**Rare Elite**\nWhilst this elite has 300k HP, you will have Magister Serena helping you battle, therefore this is the perfect time to take on this elite. Just jump down into the pit, the exit is to the north of the pit.|RANK|3|
+K Vizier Zulmork|QID|34910|M|67.14,77.04|QO|2|T|Vizier Zulmork|N|Continue east to get to Zulmork. There's an orb just outside the hut too.|PRE|34908|
+K Vizier Cromaug|QID|34910|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|To the north-west, also note the orb nearby|PRE|34908|
+T Vicious Viziers|QID|34910|M|0,0|N|To Magister Serena who is with you.|
 
 C Orbs of Power|QID|34911|PRE|34908|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|
 C While We're in the Neighborhood|QID|34909|PRE|34908|M|66.10,80.70|N|From Gordunni Bashers or Cleavers|US|
 
-T While We're in the Neighborhood|QID|34909|M|0,0|N|To Magister Serena|
-T Vicious Viziers|QID|34910|M|0,0|N|To Magister Serena|
-T Orbs of Power|QID|34911|M|0,0|N|To Magister Serena|
+T While We're in the Neighborhood|QID|34909|M|0,0|N|To Magister Serena who is with you.|
+T Orbs of Power|QID|34911|M|0,0|N|To Magister Serena who is with you.|
 
-A The Final Step|QID|34912|PRE|34909;34888;34911|M|0,0|N|From Magister Serena|
-C The Final Step|QID|34912|M|64.0,81.8|N|Witch Lord Morkurk|
-; [aldavor] steal the nexus (need M coords)
-C The Final Step|QID|34912|M|64.3,81.8|N|Arcane Nexus|
-; [aldavor] she's right there next to you.
-T The Final Step|QID|34912|M|0,0|N|To Magister Serena|
+A The Final Step|QID|34912|PRE|34909;34888;34911|M|0,0|N|From Magister Serena who stands by your side whilst in Gordal Fortress.|
+L Iron Box |QID|34251|ACTIVE|34912|N|**Rare Loot**\nLoot the Iron Box inside the hut to the right of the final steps|RANK|3|
+C The Final Step|QID|34912|QO|1|M|64.00,81.75|N|Run to the top of the stairs, then attack Witch Lord Morkurk. Pay attention to the HUD alerts to use the Mass Teleportation scroll and to get into the dome shield.|
+C The Final Step|QID|34912|QO|2|M|64.25,81.79|N|Loot the Arcane Nexus|NC|
+T The Final Step|QID|34912|M|0,0|N|To Magister Serena who is with you.|
+
 A Due Cause to Celebrate|QID|34711|PRE|34912|M|0,0|N|From Magister Serena|
-T Due Cause to Celebrate|QID|34711|M|69.74,20.78|N|To Magister Serena (she'll offer to teleport you back to Fort Wrynn - no need to do anything)|
+T Due Cause to Celebrate|QID|34711|M|69.74,20.78|N|Wait to be teleported back to Fort Wrynn. To Magister Serena|
+
 ; [aldavor] this is to add her as a follower.
 A Joining the Ranks|QID|34993|PRE|34711|M|9.74,20.78|N|From Magister Serena|RANK|2|
 T Joining the Ranks|QID|34993|M|9.74,20.78|N|To Magister Serena|
