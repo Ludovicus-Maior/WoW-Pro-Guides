@@ -689,6 +689,17 @@ function  WoWPro.CheckAstrolabeData(force)
 	WoWPro:Error("[%d][%d] = { xOffset = %f, height = %f, yOffset = %f, width = %f}", map, pizo, mapData.xOffset,  mapData.height,  mapData.yOffset, mapData.width)
 end
 
+function WoWPro:LogLocation()
+    local Astrolabe = WoWPro.Astrolabe
+    local map, pizo, x , y = Astrolabe:GetCurrentPlayerPosition()
+
+    if not (map and pizo) then
+        WoWPro:print("Player map and floor unknown")
+    else
+        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", map, pizo, x*100 , y*100, GetZoneText(), string.trim(GetSubZoneText()))
+    end
+end
+
 function WoWPro:ZoneInfo()
      WoWPro.eBox = WoWPro.eBox or CreateFrame("EditBox", nil,UIParent,ChatFrameEditBoxTemplate)
     local eBox = WoWPro.eBox

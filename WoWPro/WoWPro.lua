@@ -193,6 +193,7 @@ end
 function WoWPro:LogDump(callback)
     if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
     DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating log")
+    WoWPro:LogLocation()
     if not LogFrame then
         LogFrame = CreateFrame("Frame",nil,UIParent)
     end
