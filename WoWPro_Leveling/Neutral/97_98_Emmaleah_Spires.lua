@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2015-08-09 19:57
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3602/revisions/27313/view
 -- Date: 2015-07-05 17:46
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -157,10 +161,12 @@ C The Shadows of Skettis|QID|34655|M|43.66,12.92|CHAT|N|Follow the main road dow
 T The Shadows of Skettis|QID|34655|M|43.66,12.92|N|To Reshad.|
 A Hidden in Plain Sight|QID|34656|M|43.66,12.92|N|From Reshad.|PRE|34655|
 A Adherents of the Sun God|QID|34657|M|43.66,12.92|N|From Reshad.|PRE|34655|
-C Adherents of the Sun God|QID|34657|S|M|44.95,15.11|
-C Hidden in Plain Sight|QID|34656|NC|QO|2|M|44.94,15.14|
-C Hidden in Plain Sight|QID|34656|NC|QO|1|M|41.23,16.26|
-C Adherents of the Sun God|QID|34657|M|42.77,14.32|US|
+
+C Adherents of the Sun God|QID|34657|S|M|44.95,15.11|N|Kill the Adherent Bladewings|
+C Hidden in Plain Sight|QID|34656|NC|QO|1|M|41.23,16.26|N|Get the Weathered Wingblades from the hands of the scarecrow to the south.|
+C Hidden in Plain Sight|QID|34656|NC|QO|2|M|44.94,15.14|N|Get the Ragged Mask from the head of the scarecrow to the north-east.|
+C Adherents of the Sun God|QID|34657|M|42.77,14.32|US|N|Finish killing the Adherent Bladewings|
+
 T Hidden in Plain Sight|QID|34656|M|43.66,12.91|N|To Reshad.|
 T Adherents of the Sun God|QID|34657|M|43.66,12.91|N|To Reshad.|
 A Orders From On High|QID|34658|M|43.66,12.91|N|From Reshad.|PRE|34656;34657|
