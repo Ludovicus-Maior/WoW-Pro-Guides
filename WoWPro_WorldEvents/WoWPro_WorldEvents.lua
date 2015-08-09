@@ -80,16 +80,20 @@ function WoWPro.WorldEvents:GuideHoliday(guide,holiday, name)
     guide['holiday']=holiday
     if name then
         guide['name']=name
+    else
+        guide['name']=holiday
     end
 
     guide['category']='Holiday'
-
+    guide['icon'] = "Interface\\Calendar\\Holidays\\Calendar_" .. holiday
 end
 
 function WoWPro.WorldEvents:GuideWorldEvent(guide, name)
     -- No holiday means World Event
     if name then
         guide['name']=name
+    else
+        WoWPro.WorldEvents:Error("GuideWorldEvent: No name supplied in guide %s", guide.GID)
     end
 
     guide['category']='World Event'
