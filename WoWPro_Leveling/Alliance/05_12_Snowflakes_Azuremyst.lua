@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2015-08-12 01:30
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3206/revisions/27263/view
 -- Date: 2015-05-22 20:59
 -- Who: Ludovicus
 -- Log: Missing N tag
@@ -220,7 +224,7 @@ T Medicinal Purpose|QID|9463|M|48.4,51.8|N|To Anchorite Fateema.|R|Draenei|
 A An Alternative Alternative|QID|9473|M|48.4,51.8|N|From Daedal.|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|To Acteon.|
 A The Great Moongraze Hunt|QID|10324|M|49.8,51.9|N|From Acteon.|
-C An Alternative Alternative|QID|9473|US|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|L|23692 5|M|48.5,55.1|
+C An Alternative Alternative|QID|9473|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|QO|1|M|48.5,55.1|
 T An Alternative Alternative|QID|9473|M|48.4,51.8|N|To Daedal.|R|Draenei|
 A The Prophecy of Velen|QID|9505|M|48.4,51.8|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
 

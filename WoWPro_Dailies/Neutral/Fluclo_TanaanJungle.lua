@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3628
+-- Date: 2015-08-09 23:46
+-- Who: Ludovicus
+-- Log: Playthrough  edits.
+
+-- URL: http://wow-pro.com/node/3628/revisions/27338/view
 -- Date: 2015-07-19 20:59
 -- Who: Ludovicus
 -- Log: I need to spell Dailies right.
