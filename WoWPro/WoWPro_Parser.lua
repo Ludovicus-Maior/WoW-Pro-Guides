@@ -68,31 +68,25 @@ function WoWPro.SkipStep(index)
 		WoWProCharDB.Guide[GID].skipped[index] = true
 		WoWPro:dbp("Just skipping step %d", index)
 	end
+
 	local steplist = ""
-	
-	local function skipstep(currentstep)
+
+    -- Deep recursion can kill!
+	while index do
+	    index = nil
 		for j = 1,WoWPro.stepcount do 
-			if WoWPro.prereq[j] then
-				local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
-				for k=1,numprereqs do
-					local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
-					if tonumber(kprereq) == tonumber(WoWPro.QID[currentstep]) 
-					and WoWPro:QIDsInTable(WoWPro.QID[currentstep],WoWProCharDB.skippedQIDs) then
-						if WoWPro.action[j] == "A" 
-						or WoWPro.action[j] == "C" 
-						or WoWPro.action[j] == "T" then
-						    WoWPro:SetQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
-						end
-						WoWPro:dbp("Skipping QID %s as well.", WoWPro.QID[j])
-						steplist = steplist.."- "..WoWPro.step[j].."\n"
-						skipstep(j)
-					end
+			if WoWPro.prereq[j] and not WoWProCharDB.Guide[GID].skipped[j] then
+			    if WoWPro:QIDsInTable(WoWPro.prereq[j],WoWProCharDB.skippedQIDs) then
+				    WoWPro:SetQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
+				    WoWProCharDB.Guide[GID].skipped[j] = true
+					WoWPro:dbp("Skipping QID %s as well.", WoWPro.QID[j])
+					steplist = steplist.."- "..WoWPro.step[j].."\n"
+					index = j
 				end
 			end 
 		end
 	end
 	
-	skipstep(index)
 	WoWPro:UpdateGuide("SkipStep")
 	return steplist
 end
