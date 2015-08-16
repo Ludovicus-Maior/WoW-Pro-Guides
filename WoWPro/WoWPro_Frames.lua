@@ -698,7 +698,7 @@ function WoWPro:CreateSkipStepsDialog()
 		WoWPro.SkipStepsDialog:SetHeight(120+WoWPro.SkipStepsDialogText:GetHeight())
 		WoWPro.SkipStepsCancelButton:SetScript("OnClick", function(self, button)
 			WoWPro.SkipStepsDialog:Hide()
-			WoWPro.Leveling:UnSkipStep(index)
+			WoWPro.UnSkipStep(index)
 		end)
 		WoWPro.SkipStepsDialog:Show()
 	end
