@@ -24,11 +24,11 @@ function WoWPro:SetDefaults()
 end
 
 local soundfiles = {
-			["Window Close"] = [[Sound\Interface\AuctionWindowClose.wav]],
-			["Window Open"] = [[Sound\Interface\AuctionWindowOpen.wav]],
-			["Level Up"] = [[Sound\Interface\LevelUp.wav]],
-			["Map Ping"] = [[Sound\Interface\MapPing.wav]],
-			["Boat Docked"] = [[Sound\Doodad\BoatDockedWarning.wav]],
+			["Window Close"] = [[Sound\Interface\AuctionWindowClose.ogg]],
+			["Window Open"] = [[Sound\Interface\AuctionWindowOpen.ogg]],
+			["Level Up"] = [[Sound\Interface\LevelUp.ogg]],
+			["Map Ping"] = [[Sound\Interface\MapPing.ogg]],
+			["Boat Docked"] = [[Sound\Doodad\BoatDockedWarning.ogg]],
 }
 
 local function CreateDisplayConfig()
