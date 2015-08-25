@@ -76,7 +76,7 @@ function WoWPro:WipeQIDsInTable(IDs,tabla)
     return QidMapReduce(IDs,false,"&",";",function (qid) tabla[qid] = nil; return true; end)
 end
 
--- Wipe out all the QIDs in the table.
+-- Set all the QIDs in the table.
 function WoWPro:SetQIDsInTable(IDs,tabla)
     return QidMapReduce(IDs,false,"&",";",function (qid) tabla[qid] = true; return true; end)
 end
@@ -224,10 +224,10 @@ function WoWPro:NextGuide(GID)
 	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
 	    local  AllianceGUID, HordeGID = string.split("|",WoWPro.Guides[GID].nextGID)
 	    if myUFG == "Alliance" then
-	        WoWPro:dbp("WoWPro:NextGuide(%s): Alliance %s", AllianceGUID)
+	        WoWPro:dbp("WoWPro:NextGuide(%s): Alliance %s", GID, AllianceGUID)
 	        return AllianceGUID
 	    else
-	         WoWPro:dbp("WoWPro:NextGuide(%s): Horde %s", HordeGID)
+	         WoWPro:dbp("WoWPro:NextGuide(%s): Horde %s", GID, HordeGID)
 	        return HordeGID
 	    end
 	else
