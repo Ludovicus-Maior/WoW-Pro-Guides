@@ -8,9 +8,9 @@ WoWPro:GuideSteps(guide,function()
 return [[
 
 ; Amulet of Rukhmar
-A Treasure Contract: Amulet of Rukhmar|QID|37848|N|From Harrison Jones|
-F Akita’s Hovel|QID|37848|N|Faction Flight Master|
-C Research Notes|M|47.8,9.0;48.9,8.5;49.2,11.1;50.1,8.8;50.1,11.4;50.9,11.5;51.4,9.1;52.0,10.5;52.7,7.9;53.0,13.6;53.6,9.5;53.9,8.4;54.6,8.0;55.0,9.2;55.5,7.7|Z|Spires of Arak|CN|QO|1|
+;A Treasure Contract: Amulet of Rukhmar|QID|37848|N|From Harrison Jones|
+F Akita’s Hovel|QID|37848|ACTIVE|37848|N|Faction Flight Master|
+C Research Notes|QID|37848|M|47.8,9.0;48.9,8.5;49.2,11.1;50.1,8.8;50.1,11.4;50.9,11.5;51.4,9.1;52.0,10.5;52.7,7.9;53.0,13.6;53.6,9.5;53.9,8.4;54.6,8.0;55.0,9.2;55.5,7.7|Z|Spires of Arak|CN|QO|1|
 T Treasure Contract: Amulet of Rukhmar|QID|37848|N|To UI|
 A Amulet of Rukhmar: The First Key|QID|37849|PRE|37848|N|From UI|
 C The First Key|QID|37849|M|53.0,14.8|Z|Spires of Arak|QO|1|N|Look for the circular golden compass pattern on the ground. Click it.|NC|
@@ -30,8 +30,8 @@ T Amulet of Rukhmar: The Apexis Device|QID|37993|PRE|37851|N|To Rokhan, at your 
 
 
 ; The Artificer
-A Treasure Contract: The Artificer|QID|37973|N|From Harrison Jones|
-F Akita’s Hovel|QID|37848|N|Faction Flight Master|
+;A Treasure Contract: The Artificer|QID|37973|N|From Harrison Jones|
+F Akita’s Hovel|QID|37973|ACTIVE|37973|N|Faction Flight Master|
 C Artificer Maatun's corpse|QID|37848|M|67.4,21.8|Z|Spires of Arak|QO|1|N|Take the south-east path to his corpse.|
 C Artificer Maatun's journal|QID|37848|M|67.4,21.8|Z|Spires of Arak|QO|2|N|Click on the journal nearby.|
 T Treasure Contract: The Artificer|QID|37973|N|To UI|
@@ -51,8 +51,8 @@ T Dream of Argus: The Crystal Reborn|QID|37979|N|To Bodrick Grey, at your Garris
 T Dream of Argus: The Crystal Reborn|QID|37997|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
 ; Explosive Discoveries
-A Treasure Contract: Explosive Discoveries|QID|37881|N|From Harrison Jones|
-F Darktide Roost|QID|37881|N|Faction Flight Master|
+;A Treasure Contract: Explosive Discoveries|QID|37881|N|From Harrison Jones|
+F Darktide Roost|QID|37881|ACTIVE|37881|N|Faction Flight Master|
 C Megacharge's Cookbook|QID|37881|M|56.6,92.0|Z|Shadowmoon Valley|QO|1|N|Kill Demolitionist Megacharge for his cookbook|T|Demolitionist Megacharge|
 T Treasure Contract: Explosive Discoveries|QID|37881|N|To UI|
 A Dark Grimoire: The First Ingredient|QID|37882|PRE|37881|N|From UI|
@@ -71,9 +71,9 @@ T Dark Grimoire: Breaching the Barrier|QID|37885|N|To Bodrick Grey, at your Garr
 T Dark Grimoire: Breaching the Barrier|QID|37994|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
 ; The Thunderlord Sage
-A Treasure Contract: The Thunderlord Sage|QID|37914|N|From Harrison Jones|
-l Raw Clefthoof Meat|QID|37914|L|109131|N|You will need at least one piece of meat for the last step. You can also farm it from any Clefthoof.|
-F Iron Siegeworks|QID|37914|N|Faction Flight Master|FACTION|Alliance|
+;A Treasure Contract: The Thunderlord Sage|QID|37914|N|From Harrison Jones|
+l Raw Clefthoof Meat|QID|37914|ACTIVE|37914|L|109131|N|You will need at least one piece of meat for the last step. You can also farm it from any Clefthoof.|
+F Iron Siegeworks|QID|37914|ACTIVE|37914|N|Faction Flight Master|FACTION|Alliance|
 C Windreader Argoram's corpse|QID|37914|M|70.1,26.8|Z|Frostfire Ridge|QO|1|N|Ride to his dead body.|
 C Windreader Argoram's corpse|QID|37914|M|70.1,26.8|Z|Frostfire Ridge|QO|2|N|Click on the body and search for clues.|
 T Treasure Contract: The Thunderlord Sage|QID|37914|N|To UI|
@@ -96,9 +96,9 @@ T Gronnsbane: The Blessing of Beasts|QID|37919|N|To Bodrick Grey, at your Garris
 T Gronnsbane: The Blessing of Beasts|QID|37995|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
 ; Gutrek's Cleaver
-A Treasure Contract: Gutrek's Cleaver|QID|37788|N|From Harrison Jones|
-F Rilzit's Holdfast|QID|37788|N|Faction Flight Master|
-R Broken Precipice|QID|37788|M|35.40,19.80|Z|Nagrand@Draenor|N|Take the path west. Needs more coords.|
+;A Treasure Contract: Gutrek's Cleaver|QID|37788|N|From Harrison Jones|
+F Rilzit's Holdfast|QID|37788|ACTIVE|37788|N|Faction Flight Master|
+R Broken Precipice|QID|37788|ACTIVE|37788|M|35.40,19.80|Z|Nagrand@Draenor|N|Take the path west. Needs more coords.|
 C Journal Pages|QID|37788|M|35.40,19.80;36.48,15.18;37.52,23.65|CN|Z|Nagrand@Draenor|QO|1|N|Kill kill Arcanist Earthsmashers, Slave-Grinders, and Sledgebashers for the pages. 25% drop rate.| 
 T Treasure Contract: Gutrek's Cleaver|QID|37788|N|To UI|
 A Gutrek's Cleaver: The First Piece|QID|37797|PRE|37788|N|From UI|
@@ -119,25 +119,25 @@ T Gutrek's Cleaver: The Spirit Forge|QID|37811|N|To Bodrick Grey, at your Garris
 T Gutrek's Cleaver: The Spirit Forge|QID|37992|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
 ; The Infected Orc
-A Treasure Contract: The Infected Orc|QID|37941|N|From Harrison Jones|
-F Everbloom Overlook|QID|37788|N|Faction Flight Master|
-C The Journal|QID|37788|M|70.50,31.80;69.67,43.88;71.00,34.25;72.29,36.28;68.85,29.30;72.58,39.30;72.34,43.11|CN|Z|Gorgrond|QO|1|N|Kill Enthralled Mutants and Twisted Guardians until you get the journal.|
+;A Treasure Contract: The Infected Orc|QID|37941|N|From Harrison Jones|
+F Everbloom Overlook|QID|37941|ACTIVE|37941|N|Faction Flight Master|
+C The Journal|QID|37941|M|70.50,31.80;69.67,43.88;71.00,34.25;72.29,36.28;68.85,29.30;72.58,39.30;72.34,43.11|CN|Z|Gorgrond|QO|1|N|Kill Enthralled Mutants and Twisted Guardians until you get the journal.|
 T Treasure Contract: The Infected Orc|QID|37941|N|To UI|
 A The Silent Skull: The First Reagent|QID|37942|PRE|37941|N|From UI|
-C Shadethistle|QID|37942|M|57.0,35.9|Z|Gorgrond|QO|1|N|Under a rock-covered shelter. Click the purple Shadethistle plant.|
+C Shadethistle|QID|37942|M|57.00,35.88|Z|Gorgrond|QO|1|N|Under a rock-covered shelter. Click the purple Shadethistle plant.|
 T The Silent Skull: The First Reagent|QID|37942|N|To UI|
 A The Silent Skull: The Second Reagent|QID|37943|PRE|37942|N|From UI|
-C Bonethorn|QID|37943|M|68.6,34.2|Z|Gorgrond|QO|1|N|In the eye socket of the skull. Click the Bonethorn.|
+C Bonethorn|QID|37943|M|68.63,34.22|Z|Gorgrond|QO|1|N|In the eye socket of the skull. Click the Bonethorn.|
 T The Silent Skull: The Second Reagent|QID|37943|N|To UI|
 A The Silent Skull: The Third Reagent|QID|37944|PRE|37943|N|From UI|
-C Shadethistle|QID|37944|M|59.62,33.29|Z|Gorgrond|QO|1|N|In an inactive steam vent. Click the Steamcap Mushrooms.|
+C Steamcaps|QID|37944|M|59.63,33.29|Z|Gorgrond|QO|1|N|In an inactive steam vent. Click the Steamcap Mushrooms.|
 T The Silent Skull: The Third Reagent|QID|37944|N|To UI|
 
 A The Silent Skull: Taking from the Taker|QID|37945|PRE|37944|N|From UI|FACTION|Alliance|
 A The Silent Skull: Taking from the Taker|QID|37996|PRE|37944|N|From UI|FACTION|Horde|
-C Brew the Elixir|QID|37945;37996|M|60.0,32.6;59.9,31.6|Z|Gorgrond|CS|QO|1|N|Go to the cave and click on the cauldron to brew.\nUse this command to make the rest of the quest easier: "/console ffxGlow 0"|
+C Brew the Elixir|QID|37945;37996|M|60.0,32.6;59.9,31.6|Z|Gorgrond|CS|QO|1|N|Go to the cave and click on the cauldron to brew.\nUse this command to make the rest of the quest easier: "/console ffxGlow 0"|T|/console ffxGlow 0|
 C Drink the elixir|QID|37945;37996|M|62.0,31.9|Z|Gorgrond|QO|2|N|Click on the cauldron again to drink. Find the Brightscale Ravager by the cave enterance. Avoid floating/moving skulls, as you will lose your buff and need to drink from the cauldron again. Follow him till you see a hovering ravager (Gu'rakh) who will offer to take you to Skulltaker.|T|Brightscale Ravager|
-K Skulltaker|QID|37945;37996|M|57.5,27.0|Z|Gorgrond|QO|3|N|Gu'rakh will drop you in Skulltaker's Crater. Kill and loot the skull.|T|Skulltaker|
+K Skulltaker|QID|37945;37996|M|57.26,26.82|Z|Gorgrond|QO|3|N|Gu'rakh will drop you in Skulltaker's Crater. Kill and loot the skull.|T|Skulltaker|
 T The Silent Skull: Taking from the Taker|QID|37945|N|To Bodrick Grey, at your Garrison.\nRemember "/console ffxGlow 1"|FACTION|Alliance|
 T The Silent Skull: Taking from the Taker|QID|37996|N|To Rokhan, at your Garrison.\nRemember "/console ffxGlow 1"|FACTION|Horde|
 
