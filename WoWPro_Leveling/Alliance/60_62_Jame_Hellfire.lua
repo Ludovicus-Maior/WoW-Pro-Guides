@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2015-08-28 01:07
+-- Who: Ludovicus
+-- Log: CHnaged [Ravager Egg Roundup] from an l to C step with a QO.
+
+-- URL: http://wow-pro.com/node/3271/revisions/26817/view
 -- Date: 2014-11-06 13:37
 -- Who: Fluclo
 -- Log: Removed duplicate M tags from QID 10047 and 9912
@@ -169,7 +174,7 @@ A Expedition Point |QID|10143|M|61.7,60.8|N|From Sergeant Altumus.|
 T Laying Waste to the Unwanted |QID|10078|M|51.2,60.0|N|To Dumphry.|
 A Ravager Egg Roundup |QID|9349|M|49.2,74.8|N|From Legassi.|
 A In Case of Emergency... |QID|10161|M|49.2,74.8|N|From "Screaming" Screed Luckheed.|
-l Ravager Egg Roundup|N|Get 12 Ravager eggs from the ground and the Ravagers.|QID|9349|M|42.00,83.00|L|23217 12|
+C Ravager Egg Roundup|N|Get 12 Ravager eggs from the ground and the Ravagers.|QID|9349|M|42.00,83.00|QO|1|
 T Ravager Egg Roundup|QID|9349|M|49.2,74.8|N|To Legassi.|
 A Helboar, the Other White Meat |QID|9361|M|49.2,74.8|N|From Legassi.|
 C Helboar, the Other White Meat|QID|9361|M|50.58,74.27|N|Kill Helboars around the quest giver and loot them. Use Purification Mixture on the Tainted Helboar Meat.|U|23268|
