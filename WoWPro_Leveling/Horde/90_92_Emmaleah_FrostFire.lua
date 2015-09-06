@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2015-09-06 19:44
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3587/revisions/27384/view
+-- Date: 2015-09-06 16:49
+-- Who: Crackerhead22
+-- Log: Removed Z tag from "Wanted: Grondo's Bounty" accept line. Added Z tag to "Things Are Not Goren Our Way" quest lines.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27383/view
+-- Date: 2015-09-06 14:37
+-- Who: Crackerhead22
+-- Log: Edit to where "Wanted: Grondo's Bounty" is accepted.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27319/view
 -- Date: 2015-07-05 17:51
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -480,7 +494,6 @@ A Spare Parts|QID|36594|M|60.14,38.79|Z|Frostwall|PRE|36589|P|Engineering;202|N|
 T The Mysterious Flask|QID|35058|M|45.16,51.00|Z|Frostwall|N|To Refugee Lo'nash.|P|Alchemy;171|
 A The Alchemist|QID|35103|M|45.16,51.00|PRE|35058|Z|Frostwall|N|From Refugee Lo'nash.|P|Alchemy;171|
 
-A Wanted: Grondo's Bounty|QID|33918|M|48.94,41.57|N|From the Command Board.|Z|Frostwall|RANK|2|
 T To the Garrison|QID|32796|M|50.16,37.94|N|To Durotan.|Z|Frostwall|
 
 ;upgrade garrison level 2
@@ -565,6 +578,7 @@ A Frosted Fury|QID|34346|M|52.52,40.43|N|From Shadow Hunter Mala.|RANK|2|
 C Poulticide|QID|34345|M|56.12,37.83|S|NC|N|These are ground spawn in the area.|RANK|2|
 C Lurkers|QID|34344|M|54.01,31.36|S|N|These drop off the Snow Lurkers.|RANK|2|
 C Frosted Fury|QID|34346|M|59.46,35.37|S|N|These drop off the Ice Furies.|RANK|2|
+A Wanted: Grondo's Bounty|QID|33918|M|53.73,42.34|N|Get near Grondo for the quest to pop.|RANK|2|
 C Wanted: Grondo's Bounty|QID|33918|M|53.73,42.34|T|Grondo|RANK|2|
 A Smeltcraft|QID|33838|M|65.06,39.52|N|From Initiate Na'Shra.|RANK|2|
 C Smeltcraft|QID|33838|M|66.66,38.06|NC|N|These are lying around on the ground in the gate of the breakers area.|RANK|2|
@@ -661,13 +675,13 @@ T The Master Siegesmith|QID|33828|M|62.53,74.91|N|To Lokra.|RANK|2|
 A Return to the Pack|QID|33493|M|62.53,74.91|N|From Lokra.|RANK|2|
 C Spare Parts|QID|36594|M|56.74,71.82|P|Engineering;202|N|Kill and loot for the shells or pick them up from the ground. Use the provided bomb to blow up the siege cannons and pick up the parts. There is a treasure chest here also with some garrison resources, (and hopefully sometimes something better).|
 H Town Hall (Frostwall)|QID|33918|M|41.58,53.06|U|110560|Z|Frostwall|CC|RANK|2|
-T Wanted: Grondo's Bounty|QID|33918|M|45.88,42.80|N|To Rokhan.|RANK|2|
+T Wanted: Grondo's Bounty|QID|33918|M|45.88,42.80|N|To Rokhan.|RANK|2|Z|Frostwall|
 
 T Spare Parts|QID|36594|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
 A Big Frostfire Gun|QID|36627|M|50.03,68.90|PRE|36594|P|Engineering;202|N|From Blizthraz Blastcharge.|
-A Things Are Not Goren Our Way|QID|35154|M|61.99,73.88|N|From Gorsol.|LVL|92|
-C Things Are Not Goren Our Way|QID|35154|M|61.39,84.40|N|After completing this quest you will be able to mine here, without the mining profession.|T|Stonetooth|
-T Things Are Not Goren Our Way|QID|35154|M|62.00,73.93|N|To Gorsol. Congratulations, you have your own personal mine, that doesnt require mining to gather in. You can harvest the ore once per day. You can immediately buy the plans from Rezlek, the goblin next to your architect table and upgrade your mine to level 2 for greater yield. (I would recoment mining first because it seems to reset the ore spawning.)|
+A Things Are Not Goren Our Way|QID|35154|M|61.99,73.88|N|From Gorsol.|LVL|92|Z|Frostwall|
+C Things Are Not Goren Our Way|QID|35154|M|61.39,84.40|N|After completing this quest you will be able to mine here, without the mining profession.|T|Stonetooth|Z|Frostwall|
+T Things Are Not Goren Our Way|QID|35154|M|62.00,73.93|N|To Gorsol. Congratulations, you have your own personal mine, that doesnt require mining to gather in. You can harvest the ore once per day. You can immediately buy the plans from Rezlek, the goblin next to your architect table and upgrade your mine to level 2 for greater yield. (I would recoment mining first because it seems to reset the ore spawning.)|Z|Frostwall|
 
 C Big Frostfire Gun|QID|36627|M|45.13,71.75|P|Engineering;202|
 T Big Frostfire Gun|QID|36627|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
@@ -744,7 +758,7 @@ C Pick up order|QID|37572|QO|2|BUILDING|ScribesQtrs;95;129;130|NC|N|From the bun
 T Your First Inscription Work Order|QID|37572|BUILDING|ScribesQtrs;95;129;130|N|From Y'rogg.|
 
 ;engineering works SMALL
-A Your First Engineering Work Order|QID|37571|BUILDING|EngineeringWorks;91;123;124|N|From Pozzlow.|
+A Your First Engineering Work Order|QID|37571|BUILDING|EngineeringWorks;91;123;124|N|From Pozzlow.|Z|Frostwall|
 B True Iron Ore|QID|37571|L|109118 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 Blackrock Ore.|BUILDING|EngineeringWorks;91;123;124|
 B Blackrock Ore|QID|37571|L|109119 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 True Iron Ore.|BUILDING|EngineeringWorks;91;123;124|
 C Place work order|QID|37571|CHAT|QO|1|N|At Garbra Fizzwonk.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
@@ -764,14 +778,15 @@ C Go trap an animal|QID|36345|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a wolf (in t
 C Place a work order|QID|36345|QO|2|N|At Farmer Lok'lub, sometimes he gets bored and wanders around, I have found him as far away as my garrison's graveyard.|
 T Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|To Farmer Lok'lub|
 
-A The Secrets of Gorgrond|QID|35557|M|41.58,53.06|N|From the Command Board.|
-T Return to the Pack|QID|33493|M|50.17,37.82|N|To Durotan.|RANK|2|
-A Thunderlord Invasion|QID|37291|M|50.17,37.82|N|From Durotan.|RANK|2|
-C Thunderlord Invasion|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the scenario. You can take up to two groupmates with you if they come to your garrison. It will take around 10 min.|RANK|2|
-t Thunderlord Invasion|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|RANK|2|
-A The Iron Wolf|QID|33010|M|50.17,37.82|N|From Durotan.|RANK|2|
+T Return to the Pack|QID|33493|M|50.17,37.82|N|To Durotan.|RANK|2|Z|Frostwall|
+A Thunderlord Invasion|QID|37291|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
+C Thunderlord Invasion|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the scenario. You can take up to two groupmates with you if they come to your garrison. It will take around 10 min.|RANK|2|Z|Frostwall|
+t Thunderlord Invasion|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|RANK|2|Z|Frostwall|
+A The Iron Wolf|QID|33010|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
 
-A Sevices of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654;34651|RANK|2|
+A Sevices of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654;34651|RANK|2|Z|Frostwall|
+A The Land Provides|QID|34960|M|54.2,67.5|N|From the Icevine.  To note there is a rarespawn (Coldtusk) that runs nears it.|RANK|2|
+C The Land Provides|QID|34960|M|54.2,67.5|N|Collect the Frozen Plant Matter from the Icevines in the area. (Just turn this in whenever you are in your garrison next.|
 R Grimfrost Hill|QID|33125|M|65.14,49.45|RANK|3|
 A A Proper Parting|QID|33125|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
 A Gut Guttra|QID|33132|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
@@ -783,7 +798,7 @@ C A Proper Parting|QID|33125|M|62.55,50.83|NC|QO|3|RANK|3|
 T A Proper Parting|QID|33125|M|66.04,49.10|N|To Outrider Urukag.|RANK|3|
 T Gut Guttra|QID|33132|M|66.04,49.10|N|To Outrider Urukag.|RANK|3|
 
-R Grom'gar|QID|33010|M|62.81,65.73|RANK|2|
+R The Hunter's Hall|QID|33010|M|63.39,65.67|RANK|2|
 C The Iron Wolf|QID|33010|M|58.38,58.36|Z|Hunter's Hall|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|RANK|2|
 T The Iron Wolf|QID|33010|M|53.23,56.27|Z|Hunter's Hall|N|To Thrall.|RANK|2|
 A To Thunder Pass|QID|34123|M|53.23,56.27|Z|Hunter's Hall|N|From Thrall.|RANK|2|
@@ -793,6 +808,7 @@ T To Thunder Pass|QID|34123|M|73.43,58.83|N|To Lokra.|RANK|2|
 A The Battle of Thunder Pass|QID|34124|M|73.43,58.83|N|From Lokra.|RANK|2|
 C The Battle of Thunder Pass|QID|34124|M|74.98,55.76|N|This scenario takes around 20 min. Talk to Durotan to start it. Up to two groupmates can share the scenario with you. The grunts are not part of the objectives and are the LOWEST priority to kill. \nThe orcs with flags are the ones you need to kill.|RANK|2|
 T The Battle of Thunder Pass|QID|34124|M|76.16,55.16|N|To Durotan.|RANK|2|
+A The Secrets of Gorgrond|QID|34867|M|76.16,55.16|N|From Durotan.|
 A The Frostwolves Stand Ready|QID|37563|M|76.32,54.06|N|From Makar Stonebinder.|RANK|2|
 C Pick one|QID|37563|M|76.32,54.06|N|Geyah is a resto shaman, her guarenteed ability is a magic debuff counter, Kal'gor is an elemental shaman and his guarenteed ability is a counter to minion swarms, Lokra is an enhancelent shaman and her guarenteed ability is a counter to danger zones.  Pick the one you want.|RANK|2|
 T The Frostwolves Stand Ready|QID|37563|M|76.32,54.06|N|To Makar Stonebinder.|RANK|2|
@@ -833,7 +849,7 @@ T Vul'gaths End|QID|34075|M|82.82,76.33|N|To Scout Ruk'Gan.|RANK|3|
 
 D We're outa here!|N|This concludes Frostfire Ridge, check off this step and the next guide will open.|
 
-;This should be at the end of the gorgrond guide  (i.e. the next time you come to your garrison)
+;This should be at the end of the Gorgrond guide  (i.e. the next time you come to your garrison)
 ;C Turning Timber into Profit|QID|36138|QO|2|M|51.99,61.68|N|Talk to Okton to place your work order.|
 ;T Turning Timber into Profit|QID|36138|M|51.68,62.51|N|To Lumber Lord Oktron.|
 ;A Sharper Blades, Bigger Timber|QID|36142|M|51.68,62.51|N|From Lumber Lord Oktron.|PRE|36138|
