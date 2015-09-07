@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2015-09-07 18:58
+-- Who: Crackerhead22
+-- Log: Removed "The Land Provides", not sure why I put it in.  O_o
+
+-- URL: http://wow-pro.com/node/3587/revisions/27385/view
 -- Date: 2015-09-06 19:44
 -- Who: Crackerhead22
 
@@ -785,8 +790,6 @@ t Thunderlord Invasion|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|RANK|2|Z|F
 A The Iron Wolf|QID|33010|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
 
 A Sevices of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654;34651|RANK|2|Z|Frostwall|
-A The Land Provides|QID|34960|M|54.2,67.5|N|From the Icevine.  To note there is a rarespawn (Coldtusk) that runs nears it.|RANK|2|
-C The Land Provides|QID|34960|M|54.2,67.5|N|Collect the Frozen Plant Matter from the Icevines in the area. (Just turn this in whenever you are in your garrison next.|
 R Grimfrost Hill|QID|33125|M|65.14,49.45|RANK|3|
 A A Proper Parting|QID|33125|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
 A Gut Guttra|QID|33132|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
