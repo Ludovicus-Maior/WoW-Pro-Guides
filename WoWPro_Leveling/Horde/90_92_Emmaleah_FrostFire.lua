@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2015-09-16 06:41
+-- Who: Crackerhead22
+-- Log: Fixed a QID in the PRE tag for "The Real Prey."
+
+-- URL: http://wow-pro.com/node/3587/revisions/27386/view
 -- Date: 2015-09-07 18:58
 -- Who: Crackerhead22
 -- Log: Removed "The Land Provides", not sure why I put it in.  O_o
@@ -608,7 +613,7 @@ T Frosted Fury|QID|34346|M|52.51,40.42|N|To Shadow Hunter Mala.|RANK|2|
 T Lurkers|QID|34344|M|52.63,40.41|N|To Shadow Hunter Rala.|RANK|2|
 T Poulticide|QID|34345|M|52.63,40.41|N|To Shadow Hunter Rala.|RANK|2|
 
-A The Real Prey|QID|34348|M|52.63,40.45|N|From Shadow Hunter Rala.|PRE|35344;34345|RANK|2|
+A The Real Prey|QID|34348|M|52.63,40.45|N|From Shadow Hunter Rala.|PRE|34344;34345|RANK|2|
 C The Real Prey|QID|34348|M|53.4,29.4;52.13,29.42|CS|T|Grosh the Mighty|RANK|2|
 f Bloodmaul Slag Mines|QID|34348|M|51.44,21.47|N|At Brenna Skymoor.As long as you are in the neighborhood, you can run up and get this explore and flight path, totally optional, for level 100 content. |RANK|3|
 C Treasure-Clumsy Cragmaul Brute|QID|33531|M|50.1,18.7|N|More treasure just lying around to be claimed.|RANK|3|
