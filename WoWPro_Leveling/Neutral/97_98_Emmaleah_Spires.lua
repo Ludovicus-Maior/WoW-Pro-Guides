@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2015-09-29 07:41
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3602/revisions/27378/view
 -- Date: 2015-08-09 19:57
 -- Who: Fluclo
 
@@ -150,8 +154,6 @@ N Bonus Objectives|QID|34653;36951|N|The bonus quests are not mentioned in this 
 N Jumping Games|QID|34653;36951|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle). They mostly reward archeology fragments. I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653;36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.
 N Use of Rank Setting|QID|34653;36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|
-A Arakkoa Exodus|QID|34653|M|42.67,44.73|Z|Lunarfall|N|From the Bulletin Board|FACTION|Alliance|
-A Arakkoa Exodus|QID|36951|M|49.5,41.5|Z|Frostwall|N|From the Command Board|FACTION|Horde|
 F Spires of Arak|QID|34653|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
 F Spires of Arak|QID|36951|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
 
@@ -162,10 +164,10 @@ T The Shadows of Skettis|QID|34655|M|43.66,12.92|N|To Reshad.|
 A Hidden in Plain Sight|QID|34656|M|43.66,12.92|N|From Reshad.|PRE|34655|
 A Adherents of the Sun God|QID|34657|M|43.66,12.92|N|From Reshad.|PRE|34655|
 
-C Adherents of the Sun God|QID|34657|S|M|44.95,15.11|N|Kill the Adherent Bladewings|
+C Adherents of the Sun God|QID|34657|S|M|44.95,15.11|N|Kill the Adherent Bladewings.|
 C Hidden in Plain Sight|QID|34656|NC|QO|1|M|41.23,16.26|N|Get the Weathered Wingblades from the hands of the scarecrow to the south.|
 C Hidden in Plain Sight|QID|34656|NC|QO|2|M|44.94,15.14|N|Get the Ragged Mask from the head of the scarecrow to the north-east.|
-C Adherents of the Sun God|QID|34657|M|42.77,14.32|US|N|Finish killing the Adherent Bladewings|
+C Adherents of the Sun God|QID|34657|M|42.77,14.32|US|N|Finish killing the Adherent Bladewings.|
 
 T Hidden in Plain Sight|QID|34656|M|43.66,12.91|N|To Reshad.|
 T Adherents of the Sun God|QID|34657|M|43.66,12.91|N|To Reshad.|
@@ -183,18 +185,18 @@ A All Due Respect|QID|35636|M|51.62,31.38|N|From Ornekka.|PRE|34659|
 A Echo Hunters|QID|34805|M|51.57,31.36|N|From Rashad.|PRE|34659|
 C A Charming Deception|QID|34756|M|49.60,38.24|S|NC|N|After you click on the charms, an adherant will attack, the charm gives you an illusion, which you can "dispell" to stun your opponent.|
 C Echo Hunters|QID|34805|M|50.23,39.80|S|N|These are bats, (up in the air), you need ranged to get their attention.|T|Echo Hunter|
-C All Due Respect|QID|35636|NC|QO|1|M|50.25,36.37|
+C All Due Respect|QID|35636|NC|QO|1|M|50.25,36.37|N|Pick up the Feather of Syth.|
 C All Due Respect|QID|35636|NC|QO|2|M|50.46,36.85|N|After you find the 2nd item, you will have to fight several adherants while Reshad studies what you have found.|
 T All Due Respect|QID|35636|M|50.27,36.72|N|To Reshad.|
 A Syth's Secret|QID|35668|M|50.27,36.72|N|From Reshad.|PRE|35636|
-C Syth's Secret|QID|35668|CS|M|49.05,41.23;48.47,42.47|T|Sun-Talon Oberyx|N|Go down into the burrow,kill Oberyx and loot the eye.|
+C Syth's Secret|QID|35668|CS|M|49.05,41.23;48.47,42.47|T|Sun-Talon Oberyx|N|Go down into the burrow, kill Oberyx and loot the eye.|
 C A Charming Deception|QID|34756|M|49.60,38.24|US|N|After you click on the charms, an adherant will attack, the charm gives you an illusion, which you can "dispell" to stun your opponent.|
 C Echo Hunters|QID|34805|M|50.23,39.80|US|N|These are bats, (up in the air), you need ranged to get their attention.|
 T A Charming Deception|QID|34756|M|48.59,44.48|N|To Reshad.|
 T Syth's Secret|QID|35668|M|48.59,44.48|N|To Reshad.|
 T Echo Hunters|QID|34805|M|48.59,44.48|N|To Reshad.|
-A A Gathering of Shadows|QID|35671|M|48.59,44.48|N|From Reshad.|PRE|35668+34805|
-C A Gathering of Shadows|QID|35671|M|46.54,45.59|NC|
+A A Gathering of Shadows|QID|35671|M|48.59,44.48|N|From Reshad.|PRE|35668;34805|
+C A Gathering of Shadows|QID|35671|M|46.54,45.59|NC|N|Enter Veil Terokk.|
 T A Gathering of Shadows|QID|35671|M|46.51,45.60|N|To Shadow-Sage Iskar.|
 f Veil Terokk|QID|35272|M|46.18,44.13|N|At Skytalon Meshaal.|
 A One of Our Own|QID|35274|M|45.89,46.36|N|From Jasper Fel.|FACTION|Alliance|
@@ -230,17 +232,18 @@ A Outpost specific quest|QID|37326;35697|M|40.19,43.46|N|The quest (and quest gi
 h Axefall|QID|35275|M|40.41,42.99|FACTION|Horde|N|At Taz'jari. If you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
 A What's Theirs is Ours|QID|35295|M|40.27,43.37|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35277|RANK|2|
 
-A Return to Veil Terokk|QID|35611|M|40.18,60.25|N|From Percy.|PRE|35286+35277|RANK|2|
-R Admiral Taylor's Garrison|QID|35295|M|39.13,48.95|RANK|2|
+A Return to Veil Terokk|QID|35611|M|40.09,43.98|N|From Percy. Loot the Basket of Arakkoa Goods under him for some loot.|PRE|35277|RANK|2|FACTION|Horde|
+A Return to Veil Terokk|QID|35611|M|40.18,60.25|N|From Percy. Loot the Basket of Arakkoa Goods under him for some loot.|PRE|35286|RANK|2|FACTION|Alliance|
+R Admiral Taylor's Garrison|QID|35295|M|39.13,48.95|RANK|2|N|Head over to Admiral Taylor's Garrison.|
 T Old Friends|QID|35293|M|39.13,48.95|N|From Jasper Fel.|FACTION|Alliance|RANK|2|
 T What's Theirs is Ours|QID|35295|M|39.13,48.95|N|To Shadow Hunter Ukambe.|FACTION|Horde|RANK|2|
 A I See Dead People|QID|35329|M|39.13,48.95|N|From Jasper Fel.|FACTION|Alliance|PRE|35293|RANK|2|
 A I See Dead People|QID|35322|M|39.13,48.95|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35295|RANK|2|
 
 C I See Dead People|QID|35322;35329|QO|1|M|39.01,48.72|N|Kill the spectres outside the garrison until the plans drop.|RANK|2|
-C I See Dead People|QID|35322;35329|QO|2|M|39.01,48.72|NC|RANK|2|
+C I See Dead People|QID|35322;35329|QO|2|M|39.01,48.72|NC|RANK|2|N|Talk to Bryan Finn and show him the schematic.|
 T I See Dead People|QID|35322;35329|M|39.01,48.72|N|To Bryan Finn.|RANK|2|
-A A Parting Favor|QID|35339|M|39.01,48.72|N|From Bryan Finn.|PRE|35222+35329|RANK|2|
+A A Parting Favor|QID|35339|M|39.01,48.72|N|From Bryan Finn.|PRE|35322+35329|RANK|2|
 C A Parting Favor|QID|35339|QO|1|M|37.68,51.13|S|N|Kill the spectres inside the garrison until you have enough essence.|RANK|2|
 A Three Feet Under|QID|36864|M|35.80,52.20|N|Help Gibb out and he will follow you for life. From Benjamin Gibb.|FACTION|Horde|RANK|2|
 C A Parting Favor|QID|35339|QO|1|M|37.68,51.13|US|N|Kill the spectres inside the garrison until you have enough essence.|RANK|2|
@@ -253,11 +256,11 @@ A Second in Command|QID|35380|M|37.55,50.76|N|From Alice Finn.|PRE|35353|RANK|2|
 T Second in Command|QID|35380|M|37.70,53.81|N|To Sir Harris.|RANK|2|
 A Punishable by Death|QID|35407|M|37.70,53.81|N|From Sir Harris.|PRE|35380|RANK|2|
 A Prime the Cannons|QID|35408|M|37.66,53.87|N|From Lady Claudia.|PRE|35380|RANK|2|
-C Punishable by Death|QID|35407||M|35.58,52.84|S|RANK|2|
-C Prime the Cannons|QID|35408|NC|QO|1|M|37.01,52.45|S|RANK|2|
-C Prime the Cannons|QID|35408|NC|QO|2|M|36.42,53.55|RANK|2|
-C Prime the Cannons|QID|35408|NC|QO|1|M|37.01,52.45|US|RANK|2|
-C Punishable by Death|QID|35407||M|35.58,52.84|US|RANK|2|
+C Punishable by Death|QID|35407||M|35.58,52.84|S|RANK|2|N|Kill any Traitorous mobs for this.|
+C Prime the Cannons|QID|35408|NC|QO|1|M|37.01,52.45|S|RANK|2|N|Loot the cannonballs from the ground.|
+C Prime the Cannons|QID|35408|NC|QO|2|M|36.42,53.55|RANK|2|N|Loot the cannon.|
+C Prime the Cannons|QID|35408|NC|QO|1|M|37.01,52.45|US|RANK|2|N|Finish picking up cannonballs.|
+C Punishable by Death|QID|35407||M|35.58,52.84|US|RANK|2|N|Finish killing Traitors.|
 T Punishable by Death|QID|35407|M|37.70,53.81|N|To Sir Harris.|RANK|2|
 T Prime the Cannons|QID|35408|M|37.65,53.87|N|To Lady Claudia.|RANK|2|
 A Admiral Taylor|QID|35482;36183|M|37.65,53.89|N|From Lady Claudia.|PRE|35407;35408|RANK|2|
@@ -277,7 +280,7 @@ t Befriending the Locals|QID|37326;37327|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
 C Peace Offering|QID|35697;35699|M|43.90,48.90|CHAT|N|Offer a peace offering to Shadow-Sage Iksar.|
 t Peace Offering|QID|35697;35699|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
 A A Lack of Wasps|QID|37296|M|43.90,48.90|N|From Dusk-Seer Irizzar.|PRE|35697+35699+37326+37327|
-C A Lack of Wasps|QID|37296|M|44.15,47.54|
+C A Lack of Wasps|QID|37296|M|44.15,47.54|N|Kill the Widow Wasps.|
 T A Lack of Wasps|QID|37296|M|43.90,48.91|N|To Dusk-Seer Irizzar.|
 A Not Here, Not Now|QID|37328;37329;37330;37331|M|43.90,48.91|N|From Dusk-Seer Irizzar.|PRE|37296|
 
@@ -287,30 +290,30 @@ A The Kaliri Whisperer|QID|34884|M|45.87,45.74|N|From Reshad.|PRE|35611|RANK|2|
 A Last of the Talonpriests|QID|34827|M|45.93,45.78|N|From Shadow-Sage Iskar.|RANK|2|
 
 R Shadowglade|QID|34886|M|45.42,36.32|N|Run to Shadowglade to find Skizzik.|RANK|2|
-C The Kaliri Whisperer|QID|34884|M|45.42,36.32|CHAT|RANK|2|
+C The Kaliri Whisperer|QID|34884|M|45.42,36.32|CHAT|RANK|2|N|Search Skizzik's corpse to get the gavel.|
 A Mother of Thorns|QID|34885|M|45.42,36.32|N|From Skizzik.|RANK|2|
 A Ikky's Egg|QID|34838|M|45.39,36.70|N|From a Kaliri Egg.|RANK|2|
 C Ikky's Egg|QID|34838|M|45.39,36.70|NC|N|Click on the egg to help him hatch.|RANK|2|
 T Ikky's Egg|QID|34838|M|45.39,36.70|N|To Ikky.|RANK|2|
 A Baby Bird|QID|34886|M|45.39,36.70|N|From Ikky.|PRE|34838|RANK|2|
-C Mother of Thorns|QID|34885|M|44.22,38.10|QO|1|S|RANK|2|
-C Baby Bird|QID|34886|M|44.37,37.71|NC|S|N|Crawling on the ground|RANK|2|
-C Mother of Thorns|QID|34885|M|40.39,36.56|QO|2|RANK|2|
-C Mother of Thorns|QID|34885|M|44.22,38.10|QO|1|US|RANK|2|
-C Baby Bird|QID|34886|M|44.37,37.71|NC|US|N|Crawling on the ground|RANK|2|
+C Mother of Thorns|QID|34885|M|44.22,38.10|QO|1|S|RANK|2|N|Kill Shadeback Ravagers as you go.|
+C Baby Bird|QID|34886|M|44.37,37.71|NC|S|N|Crawling on the ground.|RANK|2|
+C Mother of Thorns|QID|34885|M|44.22,38.10|QO|2|RANK|2|N|Kill the Shadeback Thornmother.|
+C Mother of Thorns|QID|34885|M|44.22,38.10|QO|1|US|RANK|2|N|Finish killing Shadeback Ravagers.|
+C Baby Bird|QID|34886|M|44.37,37.71|NC|US|N|Finish picking up grubs.|RANK|2|
 T Baby Bird|QID|34886|M|45.40,36.69|N|To Ikky.|RANK|2|
 
-C Last of the Talonpriests|QID|34827|NC|U|112100|M|48.11,34.60|RANK|2|
+C Last of the Talonpriests|QID|34827|NC|U|112100|M|48.11,34.60|RANK|2|N|Head to the waypoint then use the Elixir of Shadows.|
 T Last of the Talonpriests|QID|34827|M|48.01,34.76|N|To Talonpriest Ishaal.|RANK|2|
 A Ishaal's Orb|QID|34828|M|48.01,34.76|N|From Talonpriest Ishaal.|PRE|34827|RANK|2|
 A New Neighbors|QID|34829|M|48.01,34.76|N|From Talonpriest Ishaal.|PRE|34827|RANK|2|
-C New Neighbors|QID|34829|S|M|45.43,29.96|RANK|2|
+C New Neighbors|QID|34829|S|M|45.43,29.96|RANK|2|N|Kill Shattered Hand orcs as you go.|
 A Egg Punt|QID|36425|M|47.13,31.65|N|From a Ravager Egg.|ACTIVE|34829|RANK|2|
-C Egg Punt|QID|36425|NC|S|M|47.92,28.52|RANK|2|
-C Ishaal's Orb|QID|34828|NC|M|48.08,28.47|RANK|2|
-C Egg Punt|QID|36425|NC|US|M|47.92,28.52|RANK|2|
+C Egg Punt|QID|36425|NC|S|M|47.92,28.52|RANK|2|N|Click on Ravager Eggs.|
+C Ishaal's Orb|QID|34828|NC|M|48.08,28.47|RANK|2|N|Click on the orb inside the hut.|
+C Egg Punt|QID|36425|NC|US|M|47.92,28.52|RANK|2|N|Finish punting Ravager Eggs.|
 T Egg Punt|QID|36425|M|47.54,29.24|N|To UI Alert|RANK|2|
-C New Neighbors|QID|34829|US|M|45.43,29.96|RANK|2|
+C New Neighbors|QID|34829|US|M|45.43,29.96|RANK|2|N|Finish killing Shattered Hand orcs.|
 T New Neighbors|QID|34829|M|48.02,34.75|N|To Talonpriest Ishaal.|RANK|2|
 T Ishaal's Orb|QID|34828|M|48.02,34.75|N|To Talonpriest Ishaal.|RANK|2|
 A Behind the Veil|QID|34830|M|48.02,34.75|N|From Talonpriest Ishaal.|PRE|34828|RANK|2|
@@ -321,12 +324,12 @@ T Behind the Veil|QID|34830|M|44.48,24.02|N|To Talonpriest Zellek.|RANK|2|
 A Blades in the Dark|QID|34882|M|44.48,24.02|N|From Talonpriest Zellek.|PRE|34830|RANK|2|
 A A Feast of Shadows|QID|34883|M|44.48,24.02|N|From Talonpriest Zellek.|PRE|34830|RANK|2|
 C A Feast of Shadows|QID|34883|M|43.46,23.37|S|N|These drop from the mobs in this area.|RANK|2|
-C Blades in the Dark|QID|34882|T|Malrok Thornscar|M|42.73,26.53|RANK|2|
-C A Feast of Shadows|QID|34883|M|43.46,23.37|US|RANK|2|
+C Blades in the Dark|QID|34882|T|Malrok Thornscar|M|42.73,26.53|RANK|2|N|Run over and kill Malrock.|
+C A Feast of Shadows|QID|34883|M|43.46,23.37|US|RANK|2|N|Finish looting Shadow Dust.|
 T Blades in the Dark|QID|34882|M|44.48,24.01|N|To Talonpriest Zellek.|RANK|2|
 T A Feast of Shadows|QID|34883|M|44.48,24.01|N|To Talonpriest Zellek.|RANK|2|
-A Back from Beyond|QID|34942|M|44.48,24.01|N|From Talonpriest Zellek.|PRE|34882+34883|RANK|2|
-A Power Unearthed|QID|35257|M|44.40,23.99|N|From Darkscryer Raastok.|PRE|34882+34883|RANK|2|
+A Back from Beyond|QID|34942|M|44.48,24.01|N|From Talonpriest Zellek.|PRE|34882;34883|RANK|2|
+A Power Unearthed|QID|35257|M|44.40,23.99|N|From Darkscryer Raastok.|PRE|34882;34883|RANK|2|
 
 R Apexis Excavation|QID|35257|M|36.99,24.63|RANK|2|
 f Apexis Excavation|QID|35257|M|36.99,24.63|N|At Skytalon Kuris.|RANK|2|
@@ -348,7 +351,7 @@ C Hot Seat|QID|35273|NC|M|35.48,32.03|N|Hop in the chair and use the abilities t
 C Hardly Working|QID|35260|U|113084|NC|US|M|33.51,25.39|N|The outcasts you are freeing and the apexis guardians exist on all three levels. Visit the cave at ground level first!|RANK|2|
 T Hot Seat|QID|35273|M|36.95,24.44|N|To Kura the Blind.|RANK|2|
 T Legacy of the Apexis|QID|35258|M|36.85,24.52|N|To Darkscryer Raastok.|RANK|2|
-A Control is King|QID|35634|M|36.83,24.53|N|From Darkscryer Raastok.|PRE|35273+35258|RANK|2|
+A Control is King|QID|35634|M|36.83,24.53|N|From Darkscryer Raastok.|PRE|35273;35258|RANK|2|
 T Hardly Working|QID|35260|M|36.85,24.52|N|To Darkscryer Raastok.|RANK|2|
 H Southport|QID|37329;37331|M|36.99,24.63|N|If you hearthstone isnt up or you didn't choose to set it to Southport, you can fly at Skytalon Kuris.|FACTION|Alliance|RANK|2|
 H Axefall|QID|37328;37330|M|36.99,24.63|N|If you hearthstone isnt up or you didn't choose to set it to Axefall, you can fly at Skytalon Kuris.|FACTION|Horde|RANK|2|
@@ -385,28 +388,28 @@ f Talon Watch|QID|34998|M|61.90,42.62|N|At Skytalon Karaz.|RANK|2|
 A Hatred Undying|QID|34999|M|61.90,42.23|N|From Kazu.|RANK|2|
 T Talon Watch|QID|34998|M|62.23,42.68|N|To Talon Guard Kurekk.|RANK|2|
 A Banished From the Sky|QID|35000|M|62.23,42.68|N|From Talon Guard Kurekk.|PRE|34998|RANK|2|
-C Hatred Undying|QID|34999|S|M|64.26,38.53|RANK|2|
-C Banished From the Sky|QID|35000|U|116977|M|64.21,39.73|RANK|2|
-C Hatred Undying|QID|34999|US|M|64.26,38.53|RANK|2|
+C Hatred Undying|QID|34999|S|M|64.26,38.53|RANK|2|N|Kill and loot the slimes to get the blood.|
+C Banished From the Sky|QID|35000|U|116977|M|64.21,39.73|RANK|2|N|Click on the Cursed Arkkoa to free them.|
+C Hatred Undying|QID|34999|US|M|64.26,38.53|RANK|2|N|Finish gathering blood.|
 T Banished From the Sky|QID|35000|M|62.22,42.69|N|To Talon Guard Kurekk.|RANK|2|
 A Gaze of the Raven God|QID|35001|M|62.22,42.69|N|From Talon Guard Kurekk.|PRE|35000|RANK|2|
 A Sons of Sethe|QID|35002|M|62.22,42.69|N|From Talon Guard Kurekk.|PRE|35000|RANK|2|
 T Hatred Undying|QID|34999|M|61.89,42.22|N|To Kazu.|RANK|2|
-C Gaze of the Raven God|QID|35001|U|117396|NC|S|M|65.78,43.67|RANK|2|
-C Sons of Sethe|QID|35002|M|66.77,47.42|RANK|2|
-C Gaze of the Raven God|QID|35001|U|117396|NC|US|M|65.78,43.67|RANK|2|
+C Gaze of the Raven God|QID|35001|U|117396|NC|S|M|65.78,43.67|RANK|2|N|Destroy nests as you come across them.|
+C Sons of Sethe|QID|35002|M|66.77,47.42|RANK|2|N|Kill and loot the Sethekk Wind Serpents for the wings.|
+C Gaze of the Raven God|QID|35001|U|117396|NC|US|M|65.78,43.67|RANK|2|N|Finish destroying any nests.|
 T Sons of Sethe|QID|35002|M|66.81,51.39|N|To the Offering Bowl.|RANK|2|
 T Gaze of the Raven God|QID|35001|M|66.59,51.69|N|To the stand to Place Eye of Anzu.|RANK|2|
 
 A The False Talon King|QID|35011|M|66.77,51.58|N|From Talon Guard Kurekk.|PRE|35001;35002|RANK|2|
 A Servants of a Dead God|QID|35004|M|66.83,51.72|N|From Anzu, (who is perched on a broken piller beside/above the alter).|PRE|35001;35002|RANK|2|
 A Ritual Severance|QID|35003|M|66.83,51.72|N|From Anzu.|PRE|35001;35002|RANK|2|
-C Servants of a Dead God|QID|35004|S|M|67.46,38.17|RANK|2|
+C Servants of a Dead God|QID|35004|S|M|67.46,38.17|RANK|2|N|Kill Prophets and Chosen.|
 C Southern Ritual|QID|35003|QO|1|NC|M|68.96,41.76|N|Run all over the circle until you stomp it out.|RANK|2|
-C The False Talon King|QID|35011|M|70.05,40.91|RANK|2|
-C Central Ritual|QID|35003|QO|2|NC|M|67.57,40.62|RANK|2|
-C Northern Ritual|QID|35003|QO|3|NC|M|66.93,38.24|RANK|2|
-C Servants of a Dead God|QID|35004|US|M|67.46,38.17|RANK|2|
+C The False Talon King|QID|35011|M|70.05,40.91|RANK|2|N|Kill and loot Talon King Ikiss.|
+C Central Ritual|QID|35003|QO|2|NC|M|67.57,40.62|RANK|2|N|Stomp out the circle.|
+C Northern Ritual|QID|35003|QO|3|NC|M|66.93,38.24|RANK|2|N|Stomp out the final circle.|
+C Servants of a Dead God|QID|35004|US|M|67.46,38.17|RANK|2|N|Finish killing Prophets and Chosen.|
 T The False Talon King|QID|35011|M|64.10,37.00|N|To Talon Guard Kurekk.|RANK|2|
 A Lithic's Gift|QID|35013|M|64.10,37.00|N|From Talon Guard Kurekk.|PRE|35011|RANK|2|
 T Servants of a Dead God|QID|35004|M|64.32,37.01|N|To Anzu.|RANK|2|
@@ -434,39 +437,39 @@ T A Worthy Vessel|QID|36059|M|46.62,46.75|N|To Shade of Terokk.|RANK|2|
 A The Avatar of Terokk|QID|35896|M|46.62,46.75|PRE|36059|N|From Shade of Terokk.|RANK|2|
 C The Avatar of Terokk|QID|35896|M|30.40,27.07|CHAT|N|Tell Terokk you are ready to start. Use the "1" ability and everything in front of you dies, until you meet Kargath (who is a bit more of a challenge).|RANK|2|
 T The Avatar of Terokk|QID|35896|M|46.49,46.66|N|To Reshad.|RANK|2|
-A Cult of the Ravenspeakers|QID|34921|M|46.93,46.11|RANK|2|N|From Anzu.\nPlace the feather Anzu gave you in the 'Offering Basket'.|
+A Cult of the Ravenspeakers|QID|34921|M|46.93,46.11|RANK|2|N|From Anzu.|
 
-C Cult of the Ravenspeakers|QID|34921|NC|M|48.93,48.90|RANK|2|
+C Cult of the Ravenspeakers|QID|34921|NC|M|48.93,48.90|RANK|2|N|Place the feather Anzu gave you in the 'Offering Basket'.|
 T Cult of the Ravenspeakers|QID|34921|M|48.97,48.97|N|To Iktis of the Flock.|RANK|2|
 A To the... Rescue?|QID|34991|M|48.97,48.97|N|From Iktis of the Flock.|PRE|34921|RANK|2|
 C To the... Rescue?|QID|34991|M|48.73,51.59|N|Go kill the Raptor and rescue(loot) poor Tillok.|T|Stonescale|RANK|2|
 T To the... Rescue?|QID|34991|M|48.98,48.97|N|To Iktis of the Flock.|RANK|2|
 A The High Ravenspeaker|QID|35010|M|48.98,48.97|N|From Iktis of the Flock.|PRE|34991|RANK|2|
-C The High Ravenspeaker|QID|35010|M|51.11,49.62|NC|RANK|2|
+C The High Ravenspeaker|QID|35010|M|51.11,49.62|NC|RANK|2|N|Follow Iktis.|
 T The High Ravenspeaker|QID|35010|M|52.13,49.91|N|To High Ravenspeaker Krikka.|RANK|2|
 A Rendezvous with the Ritualists|QID|35007|M|52.13,49.91|N|From High Ravenspeaker Krikka.|PRE|35010|RANK|2|
 T Rendezvous with the Ritualists|QID|35007|M|54.87,54.24|N|To Ravenspeaker Sekara.|RANK|2|
 A The Bloodmane|QID|34923|M|54.87,54.24|N|From Ravenspeaker Sekara.|PRE|35007|RANK|2|
 A Words of the Raven Mother|QID|34922|M|54.87,54.24|N|From Ravenspeaker Sekara.|PRE|35007|RANK|2|
-C The Bloodmane|QID|34923|QO|1|S|M|55.77,54.55|RANK|2|
-C Words of the Raven Mother|QID|34922|S|NC|M|56.39,57.39|RANK|2|
+C The Bloodmane|QID|34923|QO|1|S|M|55.77,54.55|RANK|2|N|Kill Bloodmane Razorclaws.|
+C Words of the Raven Mother|QID|34922|S|NC|M|56.39,57.39|RANK|2|N|Loot the Scroll Fragments off of the ground, they should be next to the dead Initiates.|
 C The Bloodmane|QID|34923|QO|2|M|57.25,57.23|N|Sorrowfang wanders thru this area and out to the path.|RANK|2|
-C The Bloodmane|QID|34923|QO|1|US|M|55.77,54.55|RANK|2|
-C Words of the Raven Mother|QID|34922|US|NC|M|56.39,57.39|RANK|2|
+C The Bloodmane|QID|34923|QO|1|US|M|55.77,54.55|RANK|2|N|Finish killing Bloodmane Razorclaws.|
+C Words of the Raven Mother|QID|34922|US|NC|M|56.39,57.39|RANK|2|N|Finish looting Scroll Fragments.|
 T The Bloodmane|QID|34923|M|54.87,54.25|N|To Ravenspeaker Sekara.|RANK|2|
 T Words of the Raven Mother|QID|34922|M|54.87,54.25|N|To Ravenspeaker Sekara.|RANK|2|
 A Ralshiara's Demise|QID|34938|M|54.87,54.25|N|From Ravenspeaker Sekara.|PRE|34923;34922|RANK|2|
 A Declawing The Bloodmane|QID|34939|M|54.86,54.33|N|From High Ravenspeaker Krikka.|PRE|34923;34922|RANK|2|
 A The Egg Thieves|QID|34924|M|54.84,54.14|N|From Vakora of the Flock.|PRE|34923;34922|RANK|2|
 A The Initiate's Revenge|QID|36790|M|51.00,55.97|N|From Mortally Wounded Initiate.|PRE|34923;34922|RANK|2|
-C The Egg Thieves|QID|34924|NC|S|M|50.00,63.06|RANK|2|
-C Declawing The Bloodmane|QID|34939|S|M|51.44,58.14|RANK|2|
-C The Initiate's Revenge|QID|36790|S|M|43.16,50.83|RANK|2|
-C Ralshiara's Demise|QID|34938|U|112681|T|Ralshiara|M|50.00,59.81|RANK|2|
-C The Egg Thieves|QID|34924|NC|US|M|50.00,63.06|RANK|2|
-C Declawing The Bloodmane|QID|34939|US|M|51.44,58.14|RANK|2|
-C The Initiate's Revenge|QID|36790|US|M|43.16,50.83|RANK|2|
-C Wanted: Spineslicer's Husk|QID|35675;35670|M|53.28,69.40|RANK|3|
+C The Egg Thieves|QID|34924|NC|S|M|50.00,63.06|RANK|2|N|Pick up the Dread Raven Eggs.|
+C Declawing The Bloodmane|QID|34939|S|M|51.44,58.14|RANK|2|N|Kill and loot Bloodmane Earthbinders for their paws.|
+C The Initiate's Revenge|QID|36790|S|M|43.16,50.83|RANK|2|N|Kill Bloodmane Saberons.|
+C Ralshiara's Demise|QID|34938|U|112681|T|Ralshiara|M|50.00,59.81|RANK|2|N|Kill Ralshiara.|
+C The Egg Thieves|QID|34924|NC|US|M|50.00,63.06|RANK|2|N|Finish picking up eggs.|
+C Declawing The Bloodmane|QID|34939|US|M|51.44,58.14|RANK|2|N|Finish gathering paws.|
+C The Initiate's Revenge|QID|36790|US|M|43.16,50.83|RANK|2|N|Finish killings Bloodmanes.|
+C Wanted: Spineslicer's Husk|QID|35675;35670|M|53.28,69.40|RANK|3|N|Kill and loot Spineslicer.|
 A Leorajh, the Enlightened|QID|37168|M|54.82,68.53;55.68,65.34;54.97,65.53;54.2,62.91|CS|RANK|3|N|You will probably have to kill up to 10 extra mobs to get this follower.  But, he does grant you access to your mission table anywhere on Draenor if you use him as your bodyguard. Start by running up the rocks beside Leorajh's Den and follow the path up to the Apexis Chamber. Inside othe chamber you will find Leorajh.|
 C Wanted: Keeho's Severed Paw|QID|35674;35669|M|50.23,78.38|N|This is as good as time as any to detour over and get this last wanted poster quest done. You can also do the bonus objective quest if you want.|RANK|3|
 
@@ -480,9 +483,10 @@ C Call of the Raven Mother|QID|35009|QO|1|M|52.11,49.91|CHAT|RANK|2|
 C Call of the Raven Mother|QID|35009|NC|QO|2|M|51.60,50.41|N|Position yourself where your cursor becomes a gold hand when mousing over the 4 items: aromatic herbs, blessed water, sacred feathers and the Scroll of the Ravens.  Krikka will tell you (in your general chat box) which item to add to the fire. Follow the instructions and eventually the ritual will be complete.|RANK|2|
 T Call of the Raven Mother|QID|35009|M|51.14,50.52|N|To Ka'alu.|RANK|2|
 A On Ebon Wings|QID|36085|M|51.35,50.28|N|From Reshad.|PRE|35009|RANK|2|
-C On Ebon Wings|QID|36085|QO|1|M|51.14,50.52|CHAT|RANK|2|
-C On Ebon Wings|QID|36085|QO|2|M|45.33,53.21|RANK|2|
-C On Ebon Wings|QID|36085|QO|3|M|45.33,53.21|RANK|2|
+C On Ebon Wings|QID|36085|QO|1|M|51.14,50.52|CHAT|RANK|2|N|Talk to Ka'alu to get a ride.|
+C On Ebon Wings|QID|36085|QO|2|M|45.33,53.21|RANK|2|N|Kill Adherents as you go.|S|
+C On Ebon Wings|QID|36085|QO|3|M|45.33,53.21|RANK|2|N|Kill Windkeeper Koreyx.|
+C On Ebon Wings|QID|36085|QO|2|M|45.33,53.21|RANK|2|N|Finish killing Adherents.|US|
 T On Ebon Wings|QID|36085|M|46.51,54.29|N|To Reshad.|RANK|2|
 A When All Is Aligned|QID|35704|M|46.51,54.29|N|From Reshad.|PRE|36085|RANK|2|
 C When All Is Aligned|QID|35704|NC|M|46.5,54.56|N|Hop back on Ka'alu to began a bombing mission. Press "1" to fire, you have no control of speed or direction Ka'alu flies.|RANK|2|
@@ -527,16 +531,16 @@ T Assassin's Mark|QID|35924|M|53.57,27.51|N|To (a stealthed) Dark Ranger Velonar
 A The Power of Poison|QID|35947|M|53.57,27.51|PRE|35924|N|From (a stealthed) Dark Ranger Velonara.|FACTION|Horde|
 A Extrinsic Motivation|QID|36022|M|53.57,27.51|PRE|35924|N|From (a stealthed) Dark Ranger Velonara.|FACTION|Horde|
 C The Power of Poison|QID|35947||M|53.57,27.51|U|113587|N|Use the poison Velonara provided to enhance your weapons ability to convince the orcs to talk.|FACTION|Horde|
-C Extrinsic Motivation|QID|36022|M|56,33|FACTION|Horde|
+C Extrinsic Motivation|QID|36022|M|56,33|FACTION|Horde|N|Finish killing whatever mobs you need.|
 T The Power of Poison|QID|35947|M|53.57,27.51|N|To (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
 T Extrinsic Motivation|QID|36022|M|53.57,27.51|N|To (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
 A Gradual Venomshiv|QID|36028|PRE|36022;35947|M|53.57,27.51|N|From (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
-C Gardul Venomshiv|QID|36028|T|Gardul Venomshiv|M|56.09,33.93|FACTION|Horde|
+C Gardul Venomshiv|QID|36028|T|Gardul Venomshiv|M|56.09,33.93|FACTION|Horde|N|Head over and attack Gardul.|
 T Gardul Venomshiv|QID|36028|M|57.14,34.49|N|To Dark Ranger Velonara.|FACTION|Horde|
 A We Have Him Now|QID|36047|M|57.14,34.49|PRE|36022|N|From Dark Ranger Velonara.|FACTION|Horde|
-C We Have Him Now|QID|36047|M|58.15,33.3|QO|2|S|FACTION|Horde|
-C We Have Him Now|QID|36047|M|58.15,33.3|QO|1|T|Gardul Venomshiv|FACTION|Horde|
-C We Have Him Now|QID|36047|M|58.15,33.3|QO|2|US|FACTION|Horde|
+C We Have Him Now|QID|36047|M|58.15,33.3|QO|2|S|FACTION|Horde|N|Loot Poison Barrels off of the ground.|
+C We Have Him Now|QID|36047|M|58.15,33.3|QO|1|T|Gardul Venomshiv|FACTION|Horde|N|Kill Gardul.|
+C We Have Him Now|QID|36047|M|58.15,33.3|QO|2|US|FACTION|Horde|N|Finish looting Poison Barrels.|
 T We Have Him Now|QID|36047|M|57.14,34.49|N|To Dark Ranger Velonara.|FACTION|Horde|
 A No Time to Waste|QID|36166|M|57.14,34.49|PRE|36022|N|From Dark Ranger Velonara.|FACTION|Horde|
 
@@ -587,7 +591,7 @@ T The Ebon Hunter|QID|35797|M|60.08,53.64|N|To Trixxy Weldblast.|FACTION|Horde|
 
 R The Howling Crag|QID|35676;35672|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are NOT taking the provided ride and instead we are going to take a side trip for our traveling convenience. Go North and somewhat east.|ACTIVE|36165;36166|
 R The Howling Crag|QID|35676;35672|RANK|3|M|61,18|N|Its a bit of a run but this is as close as we get to this area in the guide, Go North and somewhat east.|PRE|35835;35797|;not actually a prereq, but I only want the step to show if you finished one of those quests
-C Wanted: Venombarb|QID|35676;35672|M|61.11,19.05|RANK|3|
+C Wanted: Venombarb|QID|35676;35672|M|61.11,19.05|RANK|3|N|Kill and loot Venombarb.|
 
 ;alliance
 H Southport|QID|35619|ACTIVE|35676;36165|FACTION|Alliance|
@@ -612,12 +616,12 @@ A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest
 T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|3|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
-; +36861+36862 The Garrison Versions of [Pinchwhistle Gearworks]
+; ;36861;36862 The Garrison Versions of [Pinchwhistle Gearworks]
 f Pinchwhistle Gearworks|QID|35619;35620;36861;36862|M|60.88,73.31|N|At Kwiven Quickcog.|
 T Pinchwhistle Gearworks|QID|35619;35620;36861;36862|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
-A Defungination|QID|35077|M|61.47,72.94|N|From Kimzee Pinchwhistle.|PRE|35619+35620+36861+36862|
-A Spore-be-Gone|QID|35079|M|61.46,72.96|N|From Engineer Gazwitz.|PRE|35619+35620+36861+36862|
-A Unwanted Pests|QID|36179|NC|M|62.56,73.92|N|From Exterminator Lemmy.|PRE|35619+35620+36861+36862|
+A Defungination|QID|35077|M|61.47,72.94|N|From Kimzee Pinchwhistle.|PRE|35619;35620;36861;36862|
+A Spore-be-Gone|QID|35079|M|61.46,72.96|N|From Engineer Gazwitz.|PRE|35619;35620;36861;36862|
+A Unwanted Pests|QID|36179|NC|M|62.56,73.92|N|From Exterminator Lemmy.|PRE|35619;35620;36861;36862|
 C Unwanted Pests|QID|36179|NC|M|63.14,75.02|S|
 C Spore-be-Gone|QID|35079|M|63.33,77.41|NC|S|N|These look a bit like rocket clusters. Click to reactivate.|
 C Defungination|QID|35077|M|62.95,74.72|U|112683|NC|N|These are yellow blobs on the ground. Face them and use your flame blaster.|
