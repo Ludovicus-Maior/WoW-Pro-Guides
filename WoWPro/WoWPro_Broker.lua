@@ -1112,7 +1112,7 @@ function WoWPro:PopulateQuestLog()
 		if ( i > 50 ) then
 		    break
 		end
-	until num == numQuests
+	until i > entries
 	
 	if lastCollapsed then
 	    CollapseQuestHeader(lastCollapsed)
@@ -1120,7 +1120,7 @@ function WoWPro:PopulateQuestLog()
 	end
 
 	WoWPro:dbp("Quest Log populated. "..num.." quests found.")
-	if numQuests ~= num then
+	if numQuests > num then
 	    WoWPro:Error("Expected to find %d quests in QuestLog, but found %d.",numQuests, num)
 	end
 
@@ -1135,6 +1135,7 @@ function WoWPro:PopulateQuestLog()
 		-- Is this an auto-switch quest?
 		if WoWProDB.global.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProDB.global.QID2Guide[QID] then
 		    WoWPro:SelectGuide(WoWProDB.global.QID2Guide[QID], WoWPro.QuestLog[QID].title)
+		    WoWPro:print("AutoSwitch: [%s] => %s",WoWPro.QuestLog[QID].title, WoWProDB.global.QID2Guide[QID])
 		end
 	end
 	
