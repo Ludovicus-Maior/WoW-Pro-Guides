@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2015-10-03 00:17
+-- Who: Ludovicus
+-- Log: PLaythrough on Faction Changed toon
+
+-- URL: http://wow-pro.com/node/3587/revisions/27389/view
 -- Date: 2015-09-16 06:41
 -- Who: Crackerhead22
 -- Log: Fixed a QID in the PRE tag for "The Real Prey."
@@ -245,11 +250,11 @@ N Treasure|QID|33815|M|40.75,67.10|N|The guide mentions some but not nearly all 
 N Bonus Objectives|QID|33815|M|40.75,67.10|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100.|
 N Rank settings|QID|33816|N|Setting the guide to Rank 1 will guide you thru the minimum necessary to advance your character's garrison to level 2 and you out of this zone.  If you do not have some accerated or alternative method of gaining xp you will not be 92, which is required for the next zone, Gorgrond.  Rank 2 includes nearly everything, with just a few out of the way quests marked as Rank 3.|
 
-t The Home of the Frostwolves|QID|33868|M|40.75,67.10|N|To Farseer Drek'Thar.|
+t The Home of the Frostwolves|QID|33868|LEAD|33815|M|40.75,67.10|N|To Farseer Drek'Thar.|
 A A Song of Frost and Fire|QID|33815|M|40.75,67.10|N|From Farseer Drek'Thar.|
 C A Song of Frost and Fire|QID|33815|M|41.81,69.64|CHAT|N|Mount up and be ready to follow Durotan.|
 T A Song of Frost and Fire|QID|33815|M|41.81,69.64|N|To Durotan.|
-A Of Wolves and Warriors|QID|34402|M|41.81,69.64|N|From Durotan.|
+A Of Wolves and Warriors|QID|34402|LEAD|34364|M|41.81,69.64|N|From Durotan.|
 T Of Wolves and Warriors|QID|34402|M|48.73,65.34|N|To Thrall.|
 A For the Horde!|QID|34364|M|48.73,65.34|N|From Thrall.|
 C For the Horde!|QID|34364|M|48.68,64.89|NC|N|Click on the faintly glowing banner to make it real.|
@@ -354,7 +359,7 @@ A Save Wolf Home|QID|33468|M|42.94,41.60|N|From Durotan.|Z|Bladespire Citadel|
 A Wanted: Gutsmash the Destroyer|QID|33919|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel|RANK|2|
 A Mopping Up|QID|33412|M|28.29,45.72|N|From Snowrunner Rolga.|Z|Bladespire Citadel|RANK|2|
 A Slavery and Strife|QID|33119|M|20.1,52.9|N|From Guse.|RANK|2|
-f Bladespire Fortress|QID|33412|M|19.9,51.8|N|At Roark the Airwolf.|
+f Bladespire Citadel|QID|33412|M|19.9,51.8|N|At Roark the Airwolf.|
 F Wor'gol|QID|33468|M|24.33,37.24|N|At Roark the Airwolf.|
 
 A Free Our Brothers and Sisters|QID|33807|M|21.76,56.39|N|From Duratan.|
