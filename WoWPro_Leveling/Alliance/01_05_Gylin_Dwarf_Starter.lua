@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-10-05 14:50
+-- Who: Ludovicus
+-- Log: Correct coords for [Wayward Fire Elemental] and [Grik'nir the Cold]
+
+-- URL: http://wow-pro.com/node/3200/revisions/27335/view
 -- Date: 2015-07-17 19:28
 -- Who: Fluclo
 -- Log: Paint it Black is a non-combat quest
@@ -256,11 +261,6 @@
 --	! Line 139 for step N has unknown tag [Gnome,Dwarf]: [N Primary Professions |QID|384|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |Gnome,Dwarf|]
 --	! Line 271 for step R has unknown tag [77.14,18.52]: [R Striking Back|QID|26094|77.14,18.52|N|Put the bombs on the action bar. Jump into the Repaired Bomber here.|CC|]
 
--- URL: http://wow-pro.com/node/3200/revisions/24508/view
--- Date: 2011-06-06 21:27
--- Who: Crackerhead22
--- Log: Added missing R for a race tag.
-
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,2,1.1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -389,9 +389,8 @@ T The Troll Menace |QID|182|M|42.74,62.22|N|To Grelin Whitebeard.|
 A Ice and Fire |PRE|24489|QID|218|M|42.74,62.22|N|From Grelin Whitebeard.|
 T A Refugee's Quandary |QID|3361|M|42.04,63.34|N|To Felix Whindlebolt.|
 C Ice and Fire |S|QID|218|M|51.17,82.44;37.17,78.31|N|Enter the cave, keeping to the left as you go throught it, killing Frostmane Novices and Blades as you go.|CC|
-K Wayward Fire Elemental |QID|218|M|37.17,78.31;36.74,77.93|CS|T|Wayward Fire Elemental|QO|2|N|Kill the Wayward Fire Elemental.|
-K Grik'nir the Cold |QID|218|M|37.40,78.50|T|Grik'nir the Cold|QO|1|N|Kill Grik'nir the Cold.|
-C Ice and Fire |US|QID|218|M|33.31,77.83|N|Make your way out of the cave, killing any Frostmane Novices and Blades you still need.|
+K Wayward Fire Elemental |QID|218|M|12.61,36.80;36.91,78.19|Z|Coldridge Valley/9|CS|T|Wayward Fire Elemental|QO|2|N|Kill the Wa
+K Grik'nir the Cold |QID|218|M|76.24,32.00|Z|Coldridge Valley/9|T|Grik'nir the Cold|QO|1|N|Kill Grik'nir the Cold.|C Ice and Fire |US|QID|218|M|33.31,77.83|N|Make your way out of the cave, killing any Frostmane Novices and Blades you still need.|
 
 L Level 5 |LVL|5|QID|218|N|You should be around level 5 by this point|
 

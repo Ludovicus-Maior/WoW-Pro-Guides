@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2015-10-05 14:50
+-- Who: Ludovicus
+-- Log: Correct coords for [Wayward Fire Elemental] and [Grik'nir the Cold]
+
+-- URL: http://wow-pro.com/node/3200/revisions/27335/view
 -- Date: 2015-07-17 19:28
 -- Who: Fluclo
 -- Log: Paint it Black is a non-combat quest
@@ -255,11 +260,6 @@
 --	! Line 138 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Grif Wildheart. Click this step to continue.|C|Hunter|Gnome,Dwarf|]
 --	! Line 139 for step N has unknown tag [Gnome,Dwarf]: [N Primary Professions |QID|384|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |Gnome,Dwarf|]
 --	! Line 271 for step R has unknown tag [77.14,18.52]: [R Striking Back|QID|26094|77.14,18.52|N|Put the bombs on the action bar. Jump into the Repaired Bomber here.|CC|]
-
--- URL: http://wow-pro.com/node/3200/revisions/24508/view
--- Date: 2011-06-06 21:27
--- Who: Crackerhead22
--- Log: Added missing R for a race tag.
 
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,3,1.81013)

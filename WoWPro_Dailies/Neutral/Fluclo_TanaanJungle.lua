@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3628
+-- Date: 2015-10-05 14:56
+-- Who: Ludovicus
+-- Log: More unlocks!
+
+-- URL: http://wow-pro.com/node/3628/revisions/27379/view
 -- Date: 2015-08-09 23:46
 -- Who: Ludovicus
 -- Log: Playthrough  edits.
@@ -37,7 +42,7 @@ return [[
 N Garrison Campaign: War Council|QID|38253;38567|LVL|100|N|This unlocks the Tanaan Jungle daily quest hub.|
 
 A Garrison Campaign: War Council |QID|38253|N|This quest is auto-accepted when you enter the your garrison.|U|110560|FACTION|Alliance|M|32.0,32.0|Z|Lunarfall|
-A Garrison Campaign: War Council |QID|38567|N|This quest is auto-accepted when you enter the your garrison.|U|110560|FACTION|Horde|Z|Frostfire|
+A Garrison Campaign: War Council |QID|38567|N|This quest is auto-accepted when you enter the your garrison.|U|110560|FACTION|Horde|Z|Frostwall|
 T Garrison Campaign: War Council |QID|38253|N|To King Varian Wrynn|FACTION|Alliance|M|32.0,32.0|Z|Lunarfall|
 T Garrison Campaign: War Council |QID|38567|N|To Warchief Vol'jin|FACTION|Horde|M|39.20,54.80|Z|Frostwall|
 
@@ -139,6 +144,38 @@ C The Assault Base |QID|37935|QO|2|N|Click on the Horde Banner to claim Vol'mar.
 T The Assault Base |QID|38445|N|To Exarch Yrel, inside The Lion's Den|M|58.5,60.35|FACTION|Alliance|
 T The Assault Base |QID|37935|N|To Draka, inside Vol'mar Hold|M|61.53,45.80|FACTION|Horde|
 
+;; Now lets unlock the dailies
+A The Battle for the West |QID|38581|M|58.5,60.35|N|From Exarch Yrel|FACTION|Alliance|
+A The Battle for the West |QID|38577|M|61.53,45.80|N|From Draka|FACTION|Horde|
+C Skyguard Thann           |QID|38581|CHAT|QO|1|N|Ask Thann for a ride to the Iron Front.  |M|57.50,58.75|FACTION|Alliance|
+C Gargash the Flightmaster |QID|38577|CHAT|QO|1|N|Ask Gargash for a ride to the Iron Front.|M|60.40,46.45|FACTION|Horde|
+f The Iron Front |QID|38581|ACTIVE|38581|M|10.03, 53.06|N|Get the flight point from Skyguard Blann.|FACTION|Alliance|
+f The Iron Front |QID|38577|ACTIVE|38577|M|9.28,55.85|N|Get the flight point from Nasher.|FACTION|Horde|
+C A Chat with Maladaar |QID|38581|CHAT|QO|2|N|Speak with Maladaar.|M|9.83,53.59|FACTION|Alliance|
+C A Chat with Durotan |QID|38577|CHAT|QO|2|N|Speak with Durotan.  |M|9.68,56.22|FACTION|Horde|
+T The Battle for the West |QID|38581|M|9.83,53.59|N|To Maladaar|FACTION|Alliance|
+T The Battle for the West |QID|38577|M|9.68,56.22|N|To Durotan|FACTION|Horde|
+A Commander in the Field! |QID|38446|PRE|38581|M|9.83,53.59|N|From Maladaar|FACTION|Alliance|
+A Commander in the Field! |QID|38001|PRE|38577|M|9.68,56.22|N|From Durotan|FACTION|Horde|
+f Sha'naari Refuge |QID|38446;38001|M|29.55,63.14|N|Get the flight point from Sha'ana|
+C Southwest Tanaan Jungle |QID|38446|CHAT|QO|1|M|29.66,62.99|N|Speak to Altauur.|FACTION|Alliance|
+C Southwest Tanaan Jungle |QID|38001|CHAT|QO|1|M|29.40,63.02|N|Speak to Cutter.|FACTION|Horde|
+f Aktar's Post|QID|38446;38001|M|26.14,38.87|N|Get the flight point from Karis|
+C Northwest Tanaan Jungle |QID|38446|CHAT|QO|2|M|25.96,38.83|N|Speak to Laara.|FACTION|Alliance|
+C Northwest Tanaan Jungle |QID|38001|CHAT|QO|2|M|25.95,38.84|N|Speak to Zel'Duk.|FACTION|Horde|
+F Sha'naari Refuge|QID|38446;38001|M|43.40, 42.24|N|To Karis, fly back to the refuge and ride on south.|
+f Vault of the Earth|QID|38446;38001|M|47.00,70.26|N|Get the flight point from Urtol.|
+f Malo's Lookout|QID|38446;38001|M|43.40, 42.24|N|Get the flight point from Malo|
+C Northeast Tanaan Jungle |QID|38446|CHAT|QO|3|M|43.31,42.09|N|Speak to Kearnen.|FACTION|Alliance|
+C Northeast Tanaan Jungle |QID|38001|CHAT|QO|3|M|43.67,42.40|N|Speak to Malgurk.|FACTION|Horde|
+F Lion's Watch |QID|38446|M|43.40, 42.24|N|Get back to homebase.|FACTION|Alliance|
+F Vol'mar      |QID|38001|M|43.40, 42.24|N|Get back to home base.|FACTION|Horde|
+T Commander in the Field! |QID|38446|M|58.5,60.35|N|To Exarch Yrel|FACTION|Alliance|
+T Commander in the Field! |QID|38001|M|61.53,45.80|N|To Draka|FACTION|Horde|
+
+;; Dailies go here
+
+;; Back to shipbuilding.
 A Shipyard Report|QID|39422|N|From Exarch Yrel|M|58.5,60.35|PRE|38445|FACTION|Alliance|LEAD|39056|
 A Shipyard Report|QID|39423|N|From Draka|M|61.53,45.80|PRE|37935|FACTION|Horde|LEAD|39243|
 f Lion's Watch |QID|39422|N|with Skyguard Thann|M|57.50,58.75|FACTION|Alliance|ACTIVE|39422|
@@ -198,13 +235,30 @@ T A True Naval Commander |QID|39676|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frost
 
 A Upgrading The Fleet |QID|39067|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 A Upgrading The Fleet |QID|39245|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
-C Upgrading The Fleet |QID|39067;39245|QO|1|N|You need to complete 15 Naval Combat Missions, which will take some time (For example, A Little Combat mission takes 30 minutes to complete)|NC|
+A I Sunk Your Battleship |QID|39601|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+A I Sunk Your Battleship |QID|39604|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
+F Lion's Watch |QID|39601|M|48.00,49.80|Z|Lunarfall|N|Now fly back to Tanaan Jungle|FACTION|Alliance|
+F Vol'mar |QID|39604|M|45.85,50.80|Z|Frostwall|N|Now fly back to Tanaan Jungle|FACTION|Horde|
+C Find Krethos |QID|39601|QO|1|M|58.4,60.4|FACTION|Alliance|
+C Find Denjai |QID|39604|QO|1|M|61.66,45.70|FACTION|Horde|
+U Ship Blueprint: Battleship |QID|39601|QO|3|N|Buy the plans and learn them.|U|128492|FACTION|Alliance|
+U Ship Blueprint: Battleship |QID|39604|QO|3|N|Buy the plans and learn them.|U|127269|FACTION|Horde|
+T I Sunk Your Battleship |QID|39601|N|To Vindicator Krethos|M|58.4,60.4|FACTION|Alliance|
+T I Sunk Your Battleship |QID|39604|N|To Shadow Hunter Denjai|M|61.66,45.70|FACTION|Horde|
+
+C Upgrading The Fleet |QID|39067;39245|QO|1|N|You need to complete 15 Naval Combat Missions.\n You want 1 Transport; 3 Destroyers; 3 Battleships; 1 Submarine to start.|NC|
 C Upgrading The Fleet |QID|39067;39245|QO|2|N|You will need to collect 1,000 Garrison Resources to continue. Try your garrison cache, or do other stuff that gains enough resources to continue.|NC|
 C Upgrading The Fleet |QID|39067;39245|QO|3|N|You will need to collect 1,000 gold to continue. Try selling junk, or do other stuff that gains enough gold to continue.|NC|
 T Upgrading The Fleet |QID|39067|N|To Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 T Upgrading The Fleet |QID|39245|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
-A I Sunk Your Battleship |QID|39601|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+A Naval Domination |QID|39068|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+A Naval Domination |QID|39246|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
+C Naval Domination |QID|39068;39246|QO|1|N|You need to complete 25 Naval Treasure Missions.|NC|
+C Naval Domination |QID|39068;39246|QO|2|N|You will need to collect 2,500 Garrison Resources to continue.|NC|
+C Naval Domination |QID|39068;39246|QO|3|N|You will need to collect 2,500 gold to continue.|NC|
+T Naval Domination |QID|39068|N|To Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+T Naval Domination |QID|39246|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
 ]]
 

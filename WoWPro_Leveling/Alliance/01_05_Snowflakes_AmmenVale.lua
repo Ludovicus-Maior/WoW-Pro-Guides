@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2015-10-05 14:54
+-- Who: Ludovicus
+-- Log: R Odyseus' Landing was popping when it should not have.
+
+-- URL: http://wow-pro.com/node/3206/revisions/27393/view
+-- Date: 2015-10-05 14:53
+-- Who: Ludovicus
+-- Log: Small tweaks to AmmenVale
+
+-- URL: http://wow-pro.com/node/3206/revisions/27380/view
 -- Date: 2015-08-12 01:30
 -- Who: Ludovicus
 
@@ -200,7 +210,7 @@ WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achieve
 WoWPro:GuideSteps(guide, function()
 return [[
 R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
-f Seat of the Naaru|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
+f The Exodar|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
 A You Survived!|QID|9279|M|61.16,29.49|N|From Megelon right in front of you.|R|Draenei|
 T You Survived!|QID|9279|N|To Proenitus.|M|52.73,35.90|R|Draenei|
 A Replenishing the Healing Crystals|QID|9280|M|52.73,35.90|N|From Proenitus.|R|Draenei|
@@ -213,7 +223,7 @@ A Urgent Delivery!|QID|9409|M|52.73,35.90|N|From Proenitus.|
 T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building (he wanders around inside the place a bit).|M|51.8,42.0|
 
 A Rescue the Survivors!|QID|9283|M|52.21,43.32|N|From Zaldunn.|R|Draenei|
-A Botanist Taerix|QID|9371|M|52.73,35.90|N|From Proenitus.|
+A Botanist Taerix|QID|9371|LEAD|10302|M|52.73,35.90|N|From Proenitus.|
 
 T Botanist Taerix|QID|9371|M|49.87,37.35|N|To Botanist Taerix around the corner near the Training dummies.|
 A Volatile Mutations|QID|10302|M|49.87,37.35|N|From Botanist Taerix, back outside.|
@@ -254,6 +264,9 @@ A Learning the Word|QID|26970|M|52.21,43.32|C|Priest|N|From Zalduun, who wanders
 C Learning the Word|QID|26970|M|51.25,36.69|C|Priest|N|Find a Training Dummy on the northwest side of the Crash Site and use Shadow Word. |
 T Learning the Word|QID|26970|M|52.21,43.32|C|Priest|N|To Zalduun, who wanders.|
 
+A Vindicator Aldar|QID|10304|LEAD|37444|M|49.87,37.35|N|From Botanist Taerix.|
+T Vindicator Aldar|QID|10304|M|50.65,48.73|N|Speak to Vindicator Aldar.|
+
 A Spare Parts|QID|37445|M|50.51,47.87|N|From Technician Zhanaa.|
 A Inoculation|QID|37444|M|50.65,48.73|N|From Vindicator Aldar.|
 r Sell junk and repair|QID|37445|N|At Mura, close this step when done.|M|49.99,47.15|
@@ -263,8 +276,6 @@ C Spare Parts|QID|37445|N|Into the hills, through the cave. The parts are spread
 C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|
 H Ammen Vale|QID|37445|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
 T Healing the Lake|QID|9294|M|49.87,37.35|N|To Botanist Taerix.|
-A Vindicator Aldar|QID|10304|M|49.87,37.35|N|From Botanist Taerix.|
-T Vindicator Aldar|QID|10304|M|50.65,48.73|N|Speak to Vindicator Aldar.|
 T Inoculation|QID|37444|M|50.65,48.73|N|To Vindicator Aldar.|
 A The Missing Scout|QID|9309|M|50.65,48.73|N|From Vindicator Aldar.|
 T Spare Parts|QID|37445|M|50.51,47.87|N|To Technician Zhanaa.|

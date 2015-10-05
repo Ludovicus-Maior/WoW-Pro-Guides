@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2015-10-05 14:54
+-- Who: Ludovicus
+-- Log: R Odyseus' Landing was popping when it should not have.
+
+-- URL: http://wow-pro.com/node/3206/revisions/27393/view
+-- Date: 2015-10-05 14:53
+-- Who: Ludovicus
+-- Log: Small tweaks to AmmenVale
+
+-- URL: http://wow-pro.com/node/3206/revisions/27380/view
 -- Date: 2015-08-12 01:30
 -- Who: Ludovicus
 
@@ -239,7 +249,7 @@ A Return to Caregiver Chellan|QID|9606|Z|The Exodar|N|From Stephanos.|R|Draenei|
 F Azure Watch|QID|9606|M|54.33,36.73|Z|The Exodar|N|Fly back to Azure Watch.|R|Draenei|
 T Return to Caregiver Chellan|QID|9606|M|48.39,49.25|N|To Caregiver Chellan.|R|Draenei|
 
-R Odyseus' Landing|QID|9505|N|Take the road to the south and follow it to Odyseus' Landing|CC|M|47,69|
+R Odyseus' Landing|QID|9505|ACTIVE|9505|N|Take the road to the south and follow it to Odyseus' Landing|CC|M|47,69|
 T The Prophecy of Velen|QID|9505|M|47.0,70.2|N|To Admiral Odesyus.|R|Draenei|
 A A Small Start|QID|9506|M|47.0,70.2|N|From Admiral Odesyus.|
 A Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|From "Cookie" McWeaksauce.|

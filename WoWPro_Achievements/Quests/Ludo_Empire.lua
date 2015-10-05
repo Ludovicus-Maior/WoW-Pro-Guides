@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/draenor_legendary_ring_and_follower_quests
+-- Date: 2015-10-05 14:58
+-- Who: Ludovicus
+-- Log: Moved [Blackhand's Secret]
+
+-- URL: http://wow-pro.com/node/3634/revisions/27299/view
+-- Date: 2015-06-23 12:24
+-- Who: Ludovicus
+-- Log: Start
+
 local guide = WoWPro:RegisterGuide('LudoEmpire', 'Achievements', 'Talador', 'Ludovicus', 'Neutral')
 WoWPro:GuideLevels(guide,98, 100, 98.7)
 WoWPro:GuideIcon(guide,"ACH",9640)
@@ -100,15 +110,15 @@ C Might of the Elemental Lords|QID|36013|Z|FoundryRaid|QO|1|N|Collect Elemental 
 t Heart of the Fury|QID|36009|M|85.18,31.72|N|To Archmage Khadgar|
 t Flamebender's Tome|QID|36010|M|85.18,31.72|N|To Archmage Khadgar|
 t Reverse Piracy|QID|36012|M|85.18,31.72|N|To Archmage Khadgar|
+A Blackhand's Secret|QID|36014|M|85.18,31.72|PRE|36009;36010;36012|N|From Archmage Khadgar|
+C Severed Arm|QID|36016|M|48.4,34.5|Z|The Crucible@FoundryRaid|N|Kill Blackhand and loot his arm.|
+t Blackhand's Secret|QID|36014|M|85.18,31.72|N|To Archmage Khadgar|
 t Might of the Elemental Lords|QID|36013|M|85.18,31.72|N|To Archmage Khadgar|
 
 N Refresh|QID|36014|N|Click off this step.  It lets the client catch up with the server. You will now get your ring upgrade and get the Garona questline.|
-A Blackhand's Secret|QID|36014|M|85.18,31.72|PRE|36009;36010;36012;36013|N|From Archmage Khadgar|
 A The Unbroken Circle|QID|36016|M|85.18,31.72|PRE|36009;36010;36012;36013|N|From Archmage Khadgar|
 C The Unbroken Circle|QID|36016|CHAT|N|Ask Archmage Khadgar for your i715 upgrade|
 T The Unbroken Circle|QID|36016|M|85.18,31.72|N|To Archmage Khadgar|
-C Severed Arm|QID|36016|M|48.4,34.5|Z|The Crucible@FoundryRaid|N|Kill Blackhand and loot his arm.|
-T Blackhand's Secret|QID|36014|M|85.18,31.72|N|To Archmage Khadgar|
 A Prisoner of the Mind|QID|36017|PRE|36014|M|85.18,31.72|N|From Archmage Khadgar|
 C Prisoner of the Mind|QID|36017|CHAT|N|Tell Archmage Khadgar to get going.|
 T Prisoner of the Mind|QID|36017|PRE|36014|M|85.18,31.72|N|To Archmage Khadgar|
