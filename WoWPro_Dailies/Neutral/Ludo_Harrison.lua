@@ -10,7 +10,7 @@ return [[
 
 ; Amulet of Rukhmar
 ;A Treasure Contract: Amulet of Rukhmar|QID|37848|N|From Harrison Jones|
-F Akeeta’s Hovel|QID|37848|ACTIVE|37848|N|Faction Flight Master|
+F Akeeta's Hovel|QID|37848|ACTIVE|37848|N|Faction Flight Master|
 C Research Notes|QID|37848|M|47.8,9.0;48.9,8.5;49.2,11.1;50.1,8.8;50.1,11.4;50.9,11.5;51.4,9.1;52.0,10.5;52.7,7.9;53.0,13.6;53.6,9.5;53.9,8.4;54.6,8.0;55.0,9.2;55.5,7.7|Z|Spires of Arak|CN|QO|1|
 T Treasure Contract: Amulet of Rukhmar|QID|37848|N|To UI|
 A Amulet of Rukhmar: The First Key|QID|37849|PRE|37848|N|From UI|
