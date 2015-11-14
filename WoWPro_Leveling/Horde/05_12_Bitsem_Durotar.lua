@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2015-11-14 13:48
+-- Who: Aldavor
+-- Log: (thanks to Kevin-MazrigosEU) Corrected several quest and journey coordinates. Re-ordered quest pick-ups and turn-ins to match quest giving requirements.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27369/view
 -- Date: 2015-07-25 18:45
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -283,11 +288,6 @@
 -- Date: 2011-06-25 01:32
 -- Who: Crackerhead22
 -- Log: ! Missing A step for step T qid 24721 - 24712 is wrong QID, fixed to 24751
-
--- URL: http://wow-pro.com/node/3199/revisions/24536/view
--- Date: 2011-06-08 23:20
--- Who: Fluclo
--- Log: Shouldn't be a need to grind in Cataclysm, so tweaked to remove any grinding. 
 
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
