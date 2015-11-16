@@ -25,4 +25,7 @@
   <Script file="Ludo_Wyrmrest.lua"/>
   <Script file="Twists_ShattSun.lua"/>
   <Script file="Way2Hairy_Klaxxi.lua"/>
+  <Script file="Lare_PetLvl.lua"/>
+  <Script file="Lare_PetTamersDrae.lua"/>
+  <Script file="Lare_PetTinyTerrors.lua"/>
 </Ui>
