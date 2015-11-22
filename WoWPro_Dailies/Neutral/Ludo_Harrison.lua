@@ -47,9 +47,9 @@ K Koros Soulsplinter|QID|37978|M|74.4,30.2; 73.9,28.9; 75.0,26.1|CS|Z|Spires of 
 T Dream of Argus: The Final Fragment|QID|37978|N|To UI|
 A Dream of Argus: The Crystal Reborn|QID|37979|PRE|37978|N|From UI|FACTION|Alliance|
 A Dream of Argus: The Crystal Reborn|QID|37997|PRE|37978|N|From UI|FACTION|Horde|
-C Reconstruction Device|QID|37979;37997|M|32.75,45.31|Z|Shadowmoon Valley|QO|1|
-C Reconstruction Device|QID|37979;37997|M|32.29,46.58|Z|Shadowmoon Valley|QO|2|
-C Reconstruction Device|QID|37979;37997|M|32.34,46.46|Z|Shadowmoon Valley|QO|3|N|The symbols on the rings must match the symbols on the pylons.|
+C Reconstruction Device|QID|37979;37997|M|32.75,45.31|Z|Shadowmoon Valley@Draenor|QO|1|
+C Reconstruction Device|QID|37979;37997|M|32.29,46.58|Z|Shadowmoon Valley@Draenor|QO|2|
+C Reconstruction Device|QID|37979;37997|M|32.34,46.46|Z|Shadowmoon Valley@Draenor|QO|3|N|The symbols on the rings must match the symbols on the pylons.|
 T Dream of Argus: The Crystal Reborn|QID|37979|N|To Bodrick Grey, at your Garrison.|FACTION|Alliance|
 T Dream of Argus: The Crystal Reborn|QID|37997|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
@@ -101,7 +101,7 @@ T Gronnsbane: The Blessing of Beasts|QID|37995|N|To Rokhan, at your Garrison.|FA
 ; Gutrek's Cleaver
 ;A Treasure Contract: Gutrek's Cleaver|QID|37788|N|From Harrison Jones|
 F Rilzit's Holdfast|QID|37788|ACTIVE|37788|N|Faction Flight Master|
-R Broken Precipice|QID|37788|ACTIVE|37788|M|49.61,31.79;44.50,28.88;42.08,26.09|CS|Z|Nagrand@Draenor|N|Take the path west. Needs more coords.|
+R Broken Precipice|QID|37788|ACTIVE|37788|M|49.61,31.79;44.50,28.88;42.08,26.09|CS|Z|Nagrand@Draenor|N|Take the path west.|
 C Journal Pages|QID|37788|M|35.40,19.80;36.48,15.18;37.52,23.65|CN|Z|Nagrand@Draenor|QO|1|N|Kill kill Arcanist Earthsmashers, Slave-Grinders, and Sledgebashers for the pages. 25% drop rate.| 
 T Treasure Contract: Gutrek's Cleaver|QID|37788|N|To UI|
 A Gutrek's Cleaver: The First Piece|QID|37797|PRE|37788|N|From UI|
@@ -135,7 +135,6 @@ T The Silent Skull: The Second Reagent|QID|37943|N|To UI|
 A The Silent Skull: The Third Reagent|QID|37944|PRE|37943|N|From UI|
 C Steamcaps|QID|37944|M|59.63,33.29|Z|Gorgrond|QO|1|N|In an inactive steam vent. Click the Steamcap Mushrooms.|
 T The Silent Skull: The Third Reagent|QID|37944|N|To UI|
-
 A The Silent Skull: Taking from the Taker|QID|37945|PRE|37944|N|From UI|FACTION|Alliance|
 A The Silent Skull: Taking from the Taker|QID|37996|PRE|37944|N|From UI|FACTION|Horde|
 C Brew the Elixir|QID|37945;37996|M|60.0,32.6;59.9,31.6|Z|Gorgrond|CS|QO|1|N|Go to the cave and click on the cauldron to brew.\nUse this command to make the rest of the quest easier: "/console ffxGlow 0"|T|/console ffxGlow 0|
