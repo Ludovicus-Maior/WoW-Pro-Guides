@@ -115,7 +115,7 @@ function WoWPro.UnSkipStep(index)
 			local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
 			for k=1,numprereqs do
 				local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
-				if tonumber(kprereq) == WoWPro.QID[currentstep] then
+				if tonumber(kprereq) and tonumber(kprereq) == WoWPro.QID[currentstep] then
 					if WoWPro.action[j] == "A" 
 					or WoWPro.action[j] == "C" 
 					or WoWPro.action[j] == "T" then
@@ -163,6 +163,7 @@ DefineTag("O","optional","boolean",nil,function (text,i)
     WoWPro.optionalcount = WoWPro.optionalcount + 1;
 end)
 DefineTag("PRE","prereq","string",nil,nil)
+DefineTag("AVAILIBLE","availible","string",nil,nil)
 DefineTag("CC","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
 DefineTag("CS","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
 DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = false; end)

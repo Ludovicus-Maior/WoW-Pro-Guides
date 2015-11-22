@@ -438,6 +438,20 @@ function WoWPro.NextStep(k,i)
 			end
 		end
 	
+	    -- Availible quests: not complete and not in quest log --
+	    if WoWPro.availible[k] then
+	        local availible = WoWPro.availible[k]
+	        if WoWPro:QIDsInTable(availible,WoWPro.QuestLog) then
+	            WoWPro.CompleteStep(k,"NextStep(): Availible quest is currently in quest log")
+	            break
+	        end
+	        if WoWPro:IsQuestFlaggedCompleted(availible) then
+	            skip = true
+	            WoWPro.CompleteStep(k,"NextStep(): Availible quest is currently complete")
+	            break
+	        end 
+	    end 
+	    
 	    -- Handle Jump actions
 	    if WoWPro.action[k] == "J" and  WoWPro.guide[k] and i == 1 then
             skip = false
@@ -537,7 +551,7 @@ function WoWPro.NextStep(k,i)
 	        end
 	        --if the step has not been found to be incomplete, run the completion function
 	        if complete then
-	            WoWPro.CompleteStep(i,"Criteria met")
+	            WoWPro.CompleteStep(k,"Criteria met")
 	            skip = true
 	            break
 	        end 
@@ -1198,10 +1212,19 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
         WoWProCharDB.completedQIDs = {}
     end
     if not force and type(WoWProCharDB.completedQIDs[QID]) ~= "nil" then
-        return WoWProCharDB.completedQIDs[QID]
+        if QID > 0 then
+            return WoWProCharDB.completedQIDs[QID]
+        else
+            return not WoWProCharDB.completedQIDs[-QID]
+        end
     end
-    WoWProCharDB.completedQIDs[QID] = IsQuestFlaggedCompleted(QID) or false
-    return WoWProCharDB.completedQIDs[QID]
+    if QID > 0 then
+        WoWProCharDB.completedQIDs[QID] = IsQuestFlaggedCompleted(QID) or false
+        return WoWProCharDB.completedQIDs[QID]
+    else
+        WoWProCharDB.completedQIDs[-QID] = IsQuestFlaggedCompleted(-QID) or false
+        return not WoWProCharDB.completedQIDs[-QID]
+    end
 end
 
 -- Quest Ordering by distance to travel
