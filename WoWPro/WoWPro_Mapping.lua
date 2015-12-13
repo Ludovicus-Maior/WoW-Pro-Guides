@@ -6,7 +6,8 @@ local L = WoWPro_Locale
 local cache = {}	
 local B = LibStub("LibBabble-Zone-3.0")
 local BL = B:GetUnstrictLookupTable()
-local AL = DongleStub and pcall(DongleStub,"Astrolabe-TomTom-1.0") and DongleStub("Astrolabe-TomTom-1.0")
+local HBD = LibStub("HereBeDragons-1.0")
+WoWPro.HBD = HBD
 
 -- placeholder flags in case you want to implement options to disable
 -- later on TomTom tooltips and right-clicking drop-down menus
@@ -312,7 +313,7 @@ function WoWPro:MapPointDelta()
 end
 
 
-function WoWPro:DistanceBetweenSteps(i,j)
+function WoWPro.DistanceBetweenSteps(i,j)
     if not WoWPro.map[i] then return 1e197 end
     if not WoWPro.map[j] then return 1e196 end
     local GID = WoWProDB.char.currentguide
@@ -348,12 +349,12 @@ function WoWPro:DistanceBetweenSteps(i,j)
     end
 
     
-    local distance = AL:ComputeDistance(im,ifl,ix,iy, jm,jfl,jx,jy) or 1e198
+    local distance = HBD:GetZoneDistance(im,ifl,ix,iy, jm,jfl,jx,jy) or 1e198
     WoWPro:dbp("Dx %s(%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",WoWPro.step[i],ix*100,iy*100,im, WoWPro.step[j],jx*100,jy*100,jm,distance)
     return distance
 end
 
-function WoWPro:DistanceToStep(i)
+function WoWPro.DistanceToStep(i)
     if not WoWPro.map[i] then return 1e200 end
     local GID = WoWProDB.char.currentguide
     if WoWProCharDB.Guide[GID].completion[i] then return 1e-6 end
@@ -377,7 +378,7 @@ function WoWPro:DistanceToStep(i)
     local m = GetCurrentMapAreaID()
     local f = GetCurrentMapDungeonLevel()
     
-    local distance = AL:ComputeDistance(m,f,x,y, im,ifl,ix,iy) or 1e199
+    local distance = HBD:GetZoneDistance(m,f,x,y, im,ifl,ix,iy) or 1e199
     WoWPro:dbp("IDx (%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",x*100,y*100,m, WoWPro.step[i],ix*100,iy*100,im,distance)
     return distance
 end    
@@ -658,16 +659,15 @@ function WoWPro:RemoveMapPoint()
 	end
 end
 
-function  WoWPro.CheckAstrolabeData(force)
-    local Astrolabe = WoWPro.Astrolabe
-    local map, pizo = Astrolabe:GetCurrentPlayerPosition()
+function  WoWPro.CheckHBDData(force)
+    local map, pizo = HBD:GetPlayerZonePosition()
     if not (map and pizo) then
-        WoWPro:dbp("CheckAstrolabeData(): No player position yet!")
+        WoWPro:dbp("CheckHBDData(): No player position yet!")
         -- We are not mapped yet.
         return
     end
-    local AW = Astrolabe.WorldMapSize[map][pizo]
-    if (not force) and AWS and AW.height ~= 1 and AW.width ~= 1 then
+    local width, height = HBD:GetZoneSize(map, pizo)
+    if (not force) and width > 0 and height > 0 then
         -- We have data
         WoWPro:dbp("Map data present for %d/%d", map, pizo)
         return
@@ -683,17 +683,16 @@ function  WoWPro.CheckAstrolabeData(force)
 	mapData.height = BRy - TLy
 	mapData.xOffset = -TLx
 	mapData.yOffset = -TLy
-	Astrolabe.WorldMapSize[map][pizo] = mapData
+	
 	WoWPro:print("You discovered new map info for %s:%s. Please report this on the WoWPro.com website.", GetZoneText(), string.trim(GetSubZoneText()))
 	-- WorldMapSize[27][10] = { xOffset =  -500.000000, height = 380.000000, yOffset =  5242.500000, width = 570.000000 , __index = zeroDataFunc };
 	WoWPro:print("[%d][%d] = { xOffset = %f, height = %f, yOffset = %f, width = %f}", map, pizo, mapData.xOffset,  mapData.height,  mapData.yOffset, mapData.width)
 end
 
 function WoWPro:LogLocation()
-    local Astrolabe = WoWPro.Astrolabe
-    local map, pizo, x , y = Astrolabe:GetCurrentPlayerPosition()
+    local x, y, mapID, level, mapFile, isMicroDungeon = HBD:GetPlayerZonePosition()
 
-    if not (map and pizo) then
+    if not (map and level) then
         WoWPro:print("Player map and floor unknown")
     else
         WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", map, pizo, x*100 , y*100, GetZoneText(), string.trim(GetSubZoneText()))
