@@ -617,7 +617,7 @@ function WoWPro.NextStep(k,i)
 			proflvl = tonumber(proflvl) or 1
 			profmaxlvl = tonumber(profmaxlvl) or 0
 			profmaxskill = tonumber(profmaxskill) or 0
-			if WoWProCharDB.ProfessionalfOffset and WoWPro.Guides[GID].nextGID then
+			if WoWProCharDB.ProfessionalfOffset and WoWPro.Guides[GID].BuyersGuide then
                 proflvl = proflvl - WoWProCharDB.ProfessionalfOffset
                 if 	proflvl < 1 then
                     proflvl = 1
@@ -1239,10 +1239,10 @@ function WoWPro.SwapSteps(i,j)
 end
 
 
-function WoWPro:FindClosestStep(limit)
+function WoWPro.FindClosestStep(limit)
     local distance, closest
     for index=1, limit do
-        local d = WoWPro:DistanceToStep(index)
+        local d = WoWPro.DistanceToStep(index)
         if (not distance) or (d < distance) then
             distance = d
             closest = index
@@ -1295,7 +1295,7 @@ function WoWPro.OrderSteps(update)
     local limit = WoWPro:CompleteAtEnd()
     WoWPro:Print("Limit at %d instead of %d",limit,WoWPro.stepcount)
     -- Put the first step closest to us
-    local sidx,d = WoWPro:FindClosestStep(limit)
+    local sidx,d = WoWPro.FindClosestStep(limit)
     WoWPro.SwapSteps(1,sidx)
     WoWPro.why[1] = string.format("selected step as the closest at a distance of %g",d)
     WoWPro:Print("First step %d at distance of %g",sidx,d)
@@ -1303,7 +1303,7 @@ function WoWPro.OrderSteps(update)
     for anchor = 1, limit do
        local distance, closest 
        for index=anchor+1 , limit do
-            local d = WoWPro:DistanceBetweenSteps(anchor,index)
+            local d = WoWPro.DistanceBetweenSteps(anchor,index)
             if (not distance) or (d < distance) then
                 distance = d
                 closest = index
