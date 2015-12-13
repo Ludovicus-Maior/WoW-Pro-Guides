@@ -431,7 +431,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" or event == "PLAYER_ENTERING_WORLD" then
 	    -- Check to see if the current zone is mapped properly.
-	    WoWPro.CheckAstrolabeData()
+	    WoWPro.CheckHBDData()
 	    WoWPro.SaveGarrisonBuildings()
 	end
 
