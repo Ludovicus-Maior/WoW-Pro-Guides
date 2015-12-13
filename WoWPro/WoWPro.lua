@@ -9,7 +9,6 @@ WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {}
 WoWPro.GuideLoaded = false
-WoWPro.Astrolabe = DongleStub("Astrolabe-TomTom-1.0")
 
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
