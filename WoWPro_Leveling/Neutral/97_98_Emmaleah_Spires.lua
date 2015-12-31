@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2015-12-31 23:37
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3602/revisions/27390/view
 -- Date: 2015-09-29 07:41
 -- Who: Crackerhead22
 
@@ -150,7 +154,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Beginnings|QID|34653;36951|N|This guide begins at your garrison to take the free flight to Spires.|
-N Bonus Objectives|QID|34653;36951|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be at least level 96 to do this guide.|
+N Bonus Objectives|QID|34653;36951|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.|
 N Jumping Games|QID|34653;36951|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle). They mostly reward archeology fragments. I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653;36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.
 N Use of Rank Setting|QID|34653;36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|

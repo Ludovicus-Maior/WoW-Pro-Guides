@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2015-12-31 23:40
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3599/revisions/27387/view
 -- Date: 2015-09-07 19:27
 -- Who: Crackerhead22
 

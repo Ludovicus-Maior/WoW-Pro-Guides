@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2015-12-31 23:39
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3613/revisions/27325/view
 -- Date: 2015-07-12 12:28
 -- Who: Fluclo
 -- Log: Fixing Great Escape as it didn't show up at the right time due to a bad |PRE| tag, and ceases to become available after you've completed Leave Every Soldier Behind
@@ -105,8 +109,6 @@ WoWPro:GuideIcon(guide,"ACH",8939)
 WoWPro:GuideNextGuide(guide, 'LudoTalador')
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 92 |QID|33533;35556;36632|LVL|92|N|This guide requires a minimum level of 92 to do.|
 
 F Wildwood Wash |QID|33533|N|Fly to Wildwood Wash in Gorgrond.|ACTIVE|33533|M|48.10,49.80|Z|Lunarfall|
 T The Secrets of Gorgrond |QID|33533|N|To Yrel|O|ACTIVE|33533|M|63.99,57.19|

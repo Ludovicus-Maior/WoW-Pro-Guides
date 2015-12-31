@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2015-12-31 23:35
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3605/revisions/27312/view
 -- Date: 2015-07-05 17:45
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -118,7 +122,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Beginnings|QID|34794|N|This guide begins at your garrison to take the free flight to Nagrand.|
-N Bonus Objectives|QID|34794|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be 98 to do this guide.|
+N Bonus Objectives|QID|34794|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.|
 
 T News from Nagrand|QID|36607;36602|M|45.82,42.96|Z|Frostwall|N|To Rokhan.|
 A Taking the Fight to Nagrand|QID|34794|M|45.82,42.96|Z|Frostwall|N|From Rokhan.|

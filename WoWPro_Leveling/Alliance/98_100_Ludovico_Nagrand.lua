@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2015-12-31 23:34
+-- Who: Ludovicus
+-- Log: Removed starter messages.
+
+-- URL: http://wow-pro.com/node/3618/revisions/27311/view
 -- Date: 2015-07-05 17:44
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -88,9 +93,6 @@ WoWPro:GuideIcon(guide,"ACH",8942)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Warning!|QID|36601;36606|N|This guide is partially written. It has been played through once and still needs TLC. Use at your own risk|
-
-L Level 98 |QID|34674;37184|LVL|98|N|This guide requires a minimum level of 98 to do.|
 N Welcome to Nagrand|QID|36601;36606|N|If you want the rare elite and treasures included in this guide, please set your Rank to 3.|
 
 T News from Nagrand|QID|36601;36606|M|38.36,36.75|Z|Lunarfall|N|To Baros Alexston at your garrison.|U|110560|

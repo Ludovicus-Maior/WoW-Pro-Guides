@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2015-12-31 23:42
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3587/revisions/27391/view
 -- Date: 2015-10-03 00:17
 -- Who: Ludovicus
 -- Log: PLaythrough on Faction Changed toon
@@ -242,7 +246,6 @@ WoWPro:GuideNextGuide(guide, 'EmmGorgrond')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;i know you will still be 90 when you start this guide, but if i register it as 91, then it will sort after the Tanaan Jungle Intro guide
-L Level 90 |QID|33815|LVL|90|N|This guide requires a minimum level of 90 to do.|
 N Getting to Frostfire Ridge|QID|33815|N|To get to Frostfire Riege in Draenor, you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|34446|
 
 N Welcome to Frostfire Ridge|QID|33815|M|40.75,67.10|
