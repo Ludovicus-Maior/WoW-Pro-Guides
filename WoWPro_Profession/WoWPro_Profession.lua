@@ -40,7 +40,7 @@ function WoWPro.Profession:OnEnable()
 	end
 	WoWProCharDB.ShowBOP = ((WoWProCharDB.ShowBOP == nil) and true) or (WoWProCharDB.ShowBOP and true)
 	WoWProCharDB.IgnoreProf = WoWProCharDB.IgnoreProf or false
-	WoWProCharDB.ProfessionalfOffset = WoWProCharDB.ProfessionalfOffset or 10
+	WoWProCharDB.ProfessionalfOffset = WoWProCharDB.ProfessionalfOffset or 100
 	
 	WoWPro.FirstMapCall = true
 end
