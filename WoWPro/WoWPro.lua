@@ -617,6 +617,10 @@ function WoWPro:GuideSteps(guide,steps)
     guide['sequence'] = steps
 end
 
+function WoWPro:BuyersGuide(guide)
+    guide['BuyersGuide'] = true
+end
+
 function WoWPro:GuidePickGender(male,female)
     if UnitSex("player") <= 2 then
         return male
