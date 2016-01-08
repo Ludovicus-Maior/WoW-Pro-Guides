@@ -26,7 +26,8 @@ function WoWPro:TakeTaxi(index,destination)
     for i = 1, NumTaxiNodes() do
         local nomen = TaxiNodeName(i)
         local location,zone = string.split(",",nomen)
-        if location == destination then
+        -- We do a loose match and ignore Blizzards faction suffixes
+        if strfind(location, destination) then
             WoWPro:Print("Taking flight to: [%s]",location)
             if IsMounted() then
                 Dismount()
