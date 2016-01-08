@@ -96,6 +96,9 @@ function WoWPro:CreateTargetButton(parent, id)
 	targeticon:SetAllPoints(targetbutton)
 
 	targetbutton:RegisterForClicks("anyUp")
+	targetbutton.SetTarget = function () targetbutton:SetTexture("Interface\\Icons\\Ability_Marksmanship"); end
+	targetbutton.SetMacro = function () targetbutton:SetTexture("Interface\\Icons\\INV_Misc_Book_11"); end
+	targetbutton.SetEmote = function () targetbutton:SetTexture("Interface\\Icons\\INV_Misc_Toy_07"); end
 	targetbutton:Hide()
 
 	return targetbutton, targeticon
