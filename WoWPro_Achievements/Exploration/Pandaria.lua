@@ -1,3 +1,18 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_pandaria
+-- Date: 2016-01-08 23:28
+-- Who: Ludovicus
+-- Log: 3645
+
+-- URL: http://wow-pro.com/node/3645/revisions/27413/view
+-- Date: 2016-01-08 23:28
+-- Who: Ludovicus
+-- Log: Initial
+
 local guide = WoWPro:RegisterGuide("LudoExpPandaria","Achievements","Pandaria","Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,90,100,99)
 WoWPro:GuideIcon(guide,"ACH",6974)
@@ -111,9 +126,6 @@ F The Sunset Brewgarden|QID|969780010|M|0.00,0.00|Z|Dread Wastes|ACH|6978;10|
 F Writhingwood|QID|969780011|M|0.00,0.00|Z|Dread Wastes|ACH|6978;11|
 F Zan'vess|QID|969780012|M|0.00,0.00|Z|Dread Wastes|ACH|6978;12|
 
-
 N Congratulations on exploring Pandaria!
 ]]
 end)
-
-

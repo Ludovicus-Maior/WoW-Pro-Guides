@@ -1,4 +1,17 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/harrison_jones_treasure_contracts
+-- Date: 2016-01-08 23:51
+-- Who: Ludovicus
+-- Log: 3647
+
+-- URL: http://wow-pro.com/node/3647/revisions/27418/view
+-- Date: 2016-01-08 23:50
+-- Who: Ludovicus
+-- Log: Initial
 
 local guide = WoWPro:RegisterGuide("LudoHarrison",'Dailies',"Draenor","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,100,100,101)
@@ -29,7 +42,6 @@ K Aspect of Rukhmar|QID|37852;37993|M|70.2,34.3|Z|Spires of Arak|QO|2|T|Aspect o
 T Amulet of Rukhmar: The Apexis Device|QID|37852|PRE|37851|N|To Bodrick Grey, at your Garrison.|FACTION|Alliance|
 T Amulet of Rukhmar: The Apexis Device|QID|37993|PRE|37851|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
-
 ; The Artificer
 ;A Treasure Contract: The Artificer|QID|37973|N|From Harrison Jones|
 F Akeeta's Hovel|QID|37973|ACTIVE|37973|N|Faction Flight Master|
@@ -43,7 +55,7 @@ A Dream of Argus: The Second Fragment|QID|37977|PRE|37976|N|From UI|
 K Vok Blacktongue|QID|37977|M|73.0,32.2|Z|Spires of Arak|QO|1|N|Get out of the cave and back to the fork.  Take the other path past the archway to a hut where your target is and loot the shard.|T|Vok Blacktongue|
 T Dream of Argus: The Second Fragment|QID|37977|N|To UI|
 A Dream of Argus: The Final Fragment|QID|37978|PRE|37977|N|From UI|
-K Koros Soulsplinter|QID|37978|M|74.4,30.2; 73.9,28.9; 75.0,26.1|CS|Z|Spires of Arak|QO|1|N|Head to athe path leading up a hill , turn right at the first branch a short and when you pass through a stone archway and see a void portal on your right, take a hard right up that hill to the peak. Koros has the shard, but he has a buddy to help.|T|Koros Soulsplinter| 
+K Koros Soulsplinter|QID|37978|M|74.4,30.2; 73.9,28.9; 75.0,26.1|CS|Z|Spires of Arak|QO|1|N|Head to athe path leading up a hill , turn right at the first branch a short and when you pass through a stone archway and see a void portal on your right, take a hard right up that hill to the peak. Koros has the shard, but he has a buddy to help.|T|Koros Soulsplinter|
 T Dream of Argus: The Final Fragment|QID|37978|N|To UI|
 A Dream of Argus: The Crystal Reborn|QID|37979|PRE|37978|N|From UI|FACTION|Alliance|
 A Dream of Argus: The Crystal Reborn|QID|37997|PRE|37978|N|From UI|FACTION|Horde|
@@ -102,7 +114,7 @@ T Gronnsbane: The Blessing of Beasts|QID|37995|N|To Rokhan, at your Garrison.|FA
 ;A Treasure Contract: Gutrek's Cleaver|QID|37788|N|From Harrison Jones|
 F Rilzit's Holdfast|QID|37788|ACTIVE|37788|N|Faction Flight Master|
 R Broken Precipice|QID|37788|ACTIVE|37788|M|49.61,31.79;44.50,28.88;42.08,26.09|CS|Z|Nagrand@Draenor|N|Take the path west.|
-C Journal Pages|QID|37788|M|35.40,19.80;36.48,15.18;37.52,23.65|CN|Z|Nagrand@Draenor|QO|1|N|Kill kill Arcanist Earthsmashers, Slave-Grinders, and Sledgebashers for the pages. 25% drop rate.| 
+C Journal Pages|QID|37788|M|35.40,19.80;36.48,15.18;37.52,23.65|CN|Z|Nagrand@Draenor|QO|1|N|Kill kill Arcanist Earthsmashers, Slave-Grinders, and Sledgebashers for the pages. 25% drop rate.|
 T Treasure Contract: Gutrek's Cleaver|QID|37788|N|To UI|
 A Gutrek's Cleaver: The First Piece|QID|37797|PRE|37788|N|From UI|
 C The First Piece|QID|37797|M|39.69,14.87|Z|Nagrand@Draenor|QO|1|N|The Pommel looks like a small red stone inside the eye socket of an animal skull. Click it.|
@@ -143,9 +155,5 @@ K Skulltaker|QID|37945;37996|M|57.26,26.82|Z|Gorgrond|QO|3|N|Gu'rakh will drop y
 T The Silent Skull: Taking from the Taker|QID|37945|N|To Bodrick Grey, at your Garrison.\nRemember "/console ffxGlow 1"|FACTION|Alliance|
 T The Silent Skull: Taking from the Taker|QID|37996|N|To Rokhan, at your Garrison.\nRemember "/console ffxGlow 1"|FACTION|Horde|
 
-
 ]]
 end)
-
-
-

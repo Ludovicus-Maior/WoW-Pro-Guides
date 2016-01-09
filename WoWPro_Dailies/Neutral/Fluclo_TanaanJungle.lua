@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3628
+-- Date: 2016-01-09 01:19
+-- Who: Ludovicus
+-- Log: Add Weeklies
+
+-- URL: http://wow-pro.com/node/3628/revisions/27395/view
 -- Date: 2015-10-05 14:56
 -- Who: Ludovicus
 -- Log: More unlocks!
@@ -173,7 +178,84 @@ F Vol'mar      |QID|38001|M|43.40, 42.24|N|Get back to home base.|FACTION|Horde|
 T Commander in the Field! |QID|38446|M|58.5,60.35|N|To Exarch Yrel|FACTION|Alliance|
 T Commander in the Field! |QID|38001|M|61.53,45.80|N|To Draka|FACTION|Horde|
 
+;; Weeklies go here
+
+;a Garrison Campaign: The Bane of the Bleeding Hollow|QID|38453|FACTION|Horde|
+;a Garrison Campaign: The Bane of the Bleeding Hollow|QID|38560|FACTION|Alliance|
+C Hunting Maps|QID|38453;38560|M|26.40,62.80;20.50,53.40;22.00,48.30;24.70,50.00;23.25,53.05;20.40,51.15|CN|N|Kill Bleeding Hollow NPCs, except Brutes.|T|Bleeding Hollow|
+T Garrison Campaign: The Bane of the Bleeding Hollow|QID|38453;38560|N|To UI|
+A Finding the Killer |QID|38270|PRE|38453+38560|N|From UI|
+T Finding the Killer |QID|38270|M|27.06,44.41|N|To Ariok|
+A Following the Bloody Path |QID|38271|PRE|38270|M|27.06,44.41|N|From Ariok|
+T Following the Bloody Path |QID|38271|M|32.58,37.45|N|To Ariok|
+A The Bleeding Hollow |QID|38272|PRE|38271|M|32.58,37.45|N|From Ariok|
+A Spirits of the Bleeding Hollow |QID|38273|PRE|38271|ACTIVE|38272|M|32.42,37.40|N|From the Orc Skull|
+C Slay Enraged Blood Spirits |QID|38273|QO|1|S|
+C The Bottom of the Bleeding Hollow|QID|38273|N|Take the spiral path down to the bottom. Kill spirits along the way.|
+C Slay Enraged Blood Spirits |QID|38273|QO|1|US|
+T Spirits of the Bleeding Hollow |QID|38273|M|32.42,37.40|N|From the Orc Skull|
+T The Bleeding Hollow |QID|38272|M|32.44,37.32|N|Head down to the bottom and take the exit on the left.|
+A The Eye of Kilrogg |QID|38274|PRE|38273|M|32.44,37.32|N|Chieftains|
+C Eye of Kilrogg|QID|38274|QO|1|N|Click on the stones on the cave walls. Kill Mob, loot the eye. Rinse, repeat. The sixth eye should be the Eye of Kilrogg|
+C Eye of Kilrogg|QID|38274|M|32.53,36.86|QO|2|N|Click on the skull in the stone floor. Watch the scene and kill the eye.|
+T The Eye of Kilrogg |QID|38274|M|32.80,37.49|N|From Ariok|
+
+;a Garrison Campaign: In the Shadows|QID|37687|FACTION|Alliance|
+;a Garrison Campaign: In the Shadows|QID|37688|FACTION|Horde|
+C Volatile Concoction|QID|37687;37688|U|122463|N|Use the Volatile Concoction on the glowy things in your camp and kill.|
+T Garrison Campaign: In the Shadows|QID|37687|FACTION|Alliance|
+T Garrison Campaign: In the Shadows|QID|37688|FACTION|Horde|
+A Friends Above|QID|38267|PRE|37687|FACTION|Alliance|
+A Friends Above|QID|38269|PRE|37688|FACTION|Horde|
+T Friends Above|QID|38267|FACTION|Alliance|
+T Friends Above|QID|38269|FACTION|Horde|
+A Get a Clue|QID|38213|PRE|38267+38269|M|25.8, 38.8|N|From Reshad|
+C The Scroll|QID|38213|M|22.12,39.30|QO|1|
+C The Fire|QID|38213|M|20.33,35.93|QO|2|
+C The Shield|QID|38213|M|18.73,39.77|QO|3|
+C Final Clue|QID|38213|M|16.10,44.25|QO|4|
+T Get a Clue|QID|38213|M|16.10,44.25|N|To Iskar's Tome of Shadows|
+A Dark Ascension|QID|38223|PRE|38213|M|16.1, 44.3|N|From Iskar's Tome of Shadows|
+C Speak to Reshad|QID|38223|M|16.12, 44.38|CHAT|
+T Dark Ascension|QID|38223|M|16.12, 44.38|N|To Reshad|
+
+;a Garrison Campaign: Onslaught at Auchindoun|QID|38415|FACTION|Horde|
+;a Garrison Campaign: Onslaught at Auchindoun|QID|38421|FACTION|Alliance|
+F Retribution Point|QID|38421|ACTIVE|38421|M|57.51,58.76|N|To Skyguard Thann|
+T Garrison Campaign: Onslaught at Auchindoun|QID|38415|FACTION|Horde|
+T Garrison Campaign: Onslaught at Auchindoun|QID|38421|M|44.30,65.39|Z|Talador|N|To Yrel|FACTION|Alliance|
+A Secrets of the Sargerei|QID|38416|PRE|38415|FACTION|Horde|
+A Secrets of the Sargerei|QID|38562|PRE|38421|M|44.30,65.39|Z|Talador|N|From Yrel|FACTION|Alliance|
+A The Sargerei Menace|QID|38565|PRE|38421|M|44.30,65.39|Z|Talador|N|From Yrel|FACTION|Alliance|
+A The Sargerei Menace|QID|38417|PRE|38415|FACTION|Horde|
+K Sargerei|QID|38565;38417|M|46.15,62.62|Z|Talador|QO|1|N|Kill Sargerei and make your way to the hole in the middle.|
+T The Sargerei Menace|QID|38565|FACTION|Alliance|
+T The Sargerei Menace|QID|38417|FACTION|Horde|
+C Breached Ossuary|QID|38416;38562|M|46.75,63.53|Z|Talador|QO|1|N|Down the rabbit hole ...|
+C Destroy West Fel Soul Drainer|QID|38416;38562|M|24.14,44.60|Z|Talador/30|QO|2|
+C Destroy East Fel Soul Drainer|QID|38416;38562|M|63.52,17.51|Z|Talador/30|QO|3|
+C Investigate the Lower Chamber|QID|38416;38562|M|49.95,50.92|Z|Talador/30|QO|4|
+C Destroy the Corrupted Soul Foci|QID|38416;38562|M|58,78|Z|Talador|QO|5|
+C Defeat Gorefiend|QID|38416;38562|M|60,86|Z|Talador|QO|6|
+T Secrets of the Sargerei|QID|38416|FACTION|Horde|
+T Secrets of the Sargerei|QID|38562|FACTION|Alliance|M|56.77,66.58|Z|Talador|QO|5|N|To Yrel|
+
+;a Garrison Campaign: The Warlock|QID|38561|FACTION|Alliance|
+;a Garrison Campaign: The Warlock|QID|38458|FACTION|Horde|
+T Garrison Campaign: The Warlock|QID|38458;38561|
+A Breaching the Barrier|QID|38462|PRE|38458+38561|
+T Breaching the Barrier|QID|38462|
+A The Cipher of Damnation|QID|39394|PRE|38462|FACTION|Alliance|
+A The Cipher of Damnation|QID|38463|PRE|38462|FACTION|Horde|
+T The Cipher of Damnation|QID|39394|FACTION|Alliance|
+T The Cipher of Damnation|QID|38463|FACTION|Horde|
+A Oronok's Offer|QID|39395|PRE|38463|
+
 ;; Dailies go here
+;a Assault on The Fel Forge|QID|38440|FACTION|Alliance|
+;a Assault on The Fel Forge|QID|38441|FACTION|Horde|
+T Assault on The Fel Forge|QID|38440|FACTION|Alliance|
+T Assault on The Fel Forge|QID|38441|FACTION|Horde|
 
 ;; Back to shipbuilding.
 A Shipyard Report|QID|39422|N|From Exarch Yrel|M|58.5,60.35|PRE|38445|FACTION|Alliance|LEAD|39056|
@@ -237,6 +319,10 @@ A Upgrading The Fleet |QID|39067|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon
 A Upgrading The Fleet |QID|39245|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 A I Sunk Your Battleship |QID|39601|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 A I Sunk Your Battleship |QID|39604|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
+
+A Gems of the Apexis |QID|39175|N|From Baros Alexston|M|29.23,33.12|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|P|Jewelcrafting;755|
+A Gems of the Apexis |QID|39175|N|From Gazlowe|M|42,55|Z|Shadowmoon Valley@Draenor|FACTION|Horde|P|Jewelcrafting;755|
+
 F Lion's Watch |QID|39601|M|48.00,49.80|Z|Lunarfall|N|Now fly back to Tanaan Jungle|FACTION|Alliance|
 F Vol'mar |QID|39604|M|45.85,50.80|Z|Frostwall|N|Now fly back to Tanaan Jungle|FACTION|Horde|
 C Find Krethos |QID|39601|QO|1|M|58.4,60.4|FACTION|Alliance|
@@ -254,7 +340,15 @@ T Upgrading The Fleet |QID|39245|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfir
 
 A Naval Domination |QID|39068|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 A Naval Domination |QID|39246|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
-C Naval Domination |QID|39068;39246|QO|1|N|You need to complete 25 Naval Treasure Missions.|NC|
+C Naval Domination |QID|39068;39246|QO|1|N|You need to complete 25 Naval Treasure Missions.|NC|S|
+K Belgork|AVAILIBLE|38932|M|34.9,47.1|N|Equipment Blueprint: Bilge Pump|T|Belgork|
+K Felsmith Damorka|AVAILIBLE|39366|M|45.7,47.0|N|Equipment Blueprint: Felsmoke Launchers|T|Felsmith Damorka|
+K Captain Ironbeard|AVAILIBLE|39365|M|36.2,79.0|N|Equipment Blueprint: Ghostly Spyglass|T|Captain Ironbeard|
+K Xanzith the Everlasting|AVAILIBLE|39356|M|60.0,21.6|N|Equipment Blueprint: High Intensity Fog Lights|T|Xanzith the Everlasting|
+K Cindral the Wildfire|AVAILIBLE|39363|M|44.6,37.8|N|Equipment Blueprint: Ice Cutter|T|Cindral the Wildfire|
+K Zoug the Heavy|AVAILIBLE|39360|M|37.0,33.0|N|Equipment Blueprint: True Iron Rudder|T|Zoug the Heavy|
+K Savage Whale Shark|AVAILIBLE|39355|M|39.6,30.6|N|Equipment Blueprint: Trained Shark Tank|T|Savage Whale Shark|
+C Naval Domination |QID|39068;39246|QO|1|N|You need to complete 25 Naval Treasure Missions.|NC|US|
 C Naval Domination |QID|39068;39246|QO|2|N|You will need to collect 2,500 Garrison Resources to continue.|NC|
 C Naval Domination |QID|39068;39246|QO|3|N|You will need to collect 2,500 gold to continue.|NC|
 T Naval Domination |QID|39068|N|To Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|

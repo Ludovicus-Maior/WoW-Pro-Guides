@@ -3,10 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/node/3618/revisions/26992/view
--- Date: 2014-11-14 17:44
+-- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-01-09 00:41
 -- Who: Ludovicus
--- Log: Init
+-- Log: 3648
+
+-- URL: http://wow-pro.com/node/3648/revisions/27421/view
+-- Date: 2016-01-09 00:40
+-- Who: Ludovicus
+-- Log: Initial
 
 local guide = WoWPro:RegisterGuide('LudoGarrCampaign', 'Achievements', 'Lunarfall', 'Ludovicus', 'Neutral')
 WoWPro:GuideLevels(guide,100, 101, 100.5)
@@ -20,7 +25,7 @@ return [[
 ; The Warlord's Council|QID|994910001|M|0.00,0.00|ACH|9491;1|
 ; The Sargerei|QID|994910002|M|0.00,0.00|ACH|9491;2|
 ; Darktide Roost|QID|994910003|M|0.00,0.00|ACH|9491;3|****
-; Iron Siegeworks|QID|994910004|M|0.00,0.00|ACH|9491;4|**** 
+; Iron Siegeworks|QID|994910004|M|0.00,0.00|ACH|9491;4|****
 ; The Ring of Blood|QID|994910005|M|0.00,0.00|ACH|9491;5|****
 ; Heart of the Breakers|QID|994910006|M|0.00,0.00|ACH|9491;6|
 ; A Strike at the Heart|QID|994910007|M|0.00,0.00|ACH|9491;7|
@@ -30,7 +35,6 @@ return [[
 ; The Exarch's Call|QID|994910011|M|0.00,0.00|ACH|9491;11|
 ; Primal Fury|QID|994910012|M|0.00,0.00|ACH|9491;12|
 
-
 ; Garrison Campaign: Seismic Matters
 ; A Garrison Campaign: Seismic Matters|QID|34026|M|29.25,33.13|N|From Baros Alexston|
 T Garrison Campaign: Seismic Matters|QID|34026|M|64.51,69.90|N|To Jr. Surveyor Dorn|
@@ -38,10 +42,10 @@ A Groundbreaking Data|QID|34027|PRE|34026|M|64.51,69.90|N|From Jr. Surveyor Dorn
 C Groundbreaking Data|QID|34027|M|64.55,69.35|QO|1|N|Click on the Tremor Tracker and fight 2 waves of 3 Iron Grunts out of the mole machines.|
 T Groundbreaking Data|QID|34027|M|64.0,69.6|N|To Jr. Surveyor Dorn|
 A These Look Familiar...|QID|34028|PRE|34027|M|64.51,69.90|N|From Jr. Surveyor Dorn|
-F Everbloom Wilds|QID|34028|M|48.00,49.83|N|Fly to Gorgrond on Air Longdrink.|
-R Everbloom Overlook|QID|34028|M|61.17,38.37;64.81,35.48;66.62,34.26;68.10,32.46;68.79,29.17|Z|Gorgrond|CS|N|Make your way to Everbloom Overlook|
+F Everbloom Wilds|QID|34028|ACTIVE|34028|M|48.00,49.83|N|Fly to Everbloom Wilds@Gorgrond on Air Longdrink. Everbloom Overlook isyour ultimate destination.|
+R Everbloom Overlook|QID|34028|ACTIVE|34028|M|61.17,38.37;64.81,35.48;66.62,34.26;68.10,32.46;68.79,29.17|Z|Gorgrond|CS|N|Make your way to Everbloom Overlook|
 f Everbloom Overlook|QID|34028|M|68.72,28.75|Z|Gorgrond|N|Get the flight point while you are here from Researcher Sarix.|
-R Thaelin's Workshop|QID|34028|M|69.74,23.60|Z|Gorgrond|N|Go over the hills and drop down to the cave/mound.|
+R Thaelin's Workshop|QID|34028|ACTIVE|34028|M|69.74,23.60|Z|Gorgrond|N|Go over the hills and drop down to the cave/mound.|
 T These Look Familiar...|QID|34028|M|69.63,26.11|Z|Gorgrond|N|To Hansel Heavyhands|
 A The Prototype|QID|34029|PRE|34028|M|69.63,26.11|Z|Gorgrond|N|From Hansel Heavyhands|
 C Mole Machine|QID|34029|M|69.22,25.63|N|Click on the mole machine and enjoy the scene!|
@@ -64,10 +68,9 @@ A And The Mole You Rode In On|QID|34033|PRE|34032|N|From Dark Iron Golem, who is
 C And The Mole You Rode In On|QID|34033|M|86.39,49.01|N|Go to the cave near where you fought the Overlord and take the Mole Machine.|
 T And The Mole You Rode In On|QID|34033|M|64.69,67.35|N|To Thaelin Darkanvil|
 
-
 ; Garrison Campaign: Darktide Roost
 ; A Garrison Campaign: Darktide Roost|QID|35861|M|38.34,36.95|N|From Bodrick Grey|
-F Darktide Roost|QID|35861|M|48.00,49.82|N|Ask Dungar Longdrink for a ride|
+F Darktide Roost|QID|35861|ACTIVE|35861|M|48.00,49.82|N|Ask Dungar Longdrink for a ride|
 f Darktide Roost|QID|35861|M|59.85,81.83|Z|Shadowmoon Valley@Draenor|N|Get the flight point from Beasttamer Ladaak.|
 T Garrison Campaign: Darktide Roost|QID|35861|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Shredder Suppressor|QID|34353|PRE|35861|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
@@ -86,18 +89,16 @@ T Dirty Rats|QID|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Releasing Rylak|QID|34365|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 A Downsizing the Darktide|QID|34397|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|S|
-K Assistant Fexfuse|QID|34397|M|60.6,93.0|Z|Shadowmoon Valley@Draenor|QO|1|
-K Captain Killrath|QID|34397|M|62.2,94.0|Z|Shadowmoon Valley@Draenor|QO|2|
-K Ra'ka Bloodspear|QID|34397|M|59.4,99.0|Z|Shadowmoon Valley@Draenor|QO|3|
+K Assistant Fexfuse|QID|34397|ACTIVE|34397|M|60.6,93.0|Z|Shadowmoon Valley@Draenor|QO|1|
+K Captain Killrath|QID|34397|ACTIVE|34397|M|62.2,94.0|Z|Shadowmoon Valley@Draenor|QO|2|
+K Ra'ka Bloodspear|QID|34397|ACTIVE|34397|M|59.4,99.0|Z|Shadowmoon Valley@Draenor|QO|3|
 C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|US|
 T Releasing Rylak|QID|34365|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 T Downsizing the Darktide|QID|34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Rylak Rescue|QID|34450|PRE|34365;34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 C Ride Nisha|QID|34450|QO|1|N|Click on Nisha to get a flight to the top of the mountain.
-K Razz Ricketroz|QID|34450|M|60.4,90.2|Z|Shadowmoon Valley@Draenor|QO|2|
+K Razz Ricketroz|QID|34450|ACTIVE|34450|M|60.4,90.2|Z|Shadowmoon Valley@Draenor|QO|2|
 T Rylak Rescue|QID|34450|M|67.97,90.12|Z|Shadowmoon Valley@Draenor|N|Click on Nisha to get a ride to Rexxar|
-
-
 
 ; Garrison Campaign: The Sargerei|QID|34026|M|64.51,69.90|N|To Jr. Surveyor Dorn|
 ; A Garrison Campaign: The Sargerei|QID|35185|M|40.0,44.4|N|From Khadgar's Servant|
@@ -110,9 +111,9 @@ C Sargerei Slippers|QID|35187|M|49.65,73.40;45.33,74.53;49.74,76.49|Z|Shadowmoon
 C Sargerei Robe|QID|35187|M|51.00,75.50;49.40,73.10;48.05,80.25|Z|Shadowmoon Valley@Draenor|CN|QO|2|N|Kill Sargerei Demonlords and others for a robe|US|
 C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.60,72.85;45.85,80.75;51.20,76.70|Z|Shadowmoon Valley@Draenor|CN|QO|3|N|Kill Sargerei Workers for a cowl|US|
 l Sargerei Disguise|QID|35187|L|112904|U|112893|N|Click on the slippers to make the Disguise.
-U Put on the Disguise|QID|35187|U|112904|QO|5|N|If you lose the disguise, you will need to get all 3 peices and make a new one.|  
-C Infiltrating the Sargerei|QID|35187|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|QO|6|N|Speak to Soulbinder Zamaya|
-C Infiltrating the Sargerei|QID|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|CHAT|QO|7|N|Tell him 'the rain falls on Shadowmoon.'|
+U Put on the Disguise|QID|35187|U|112904|QO|5|N|If you lose the disguise, you will need to get all 3 peices and make a new one.|
+C Infiltrating the Sargerei|QID|35187|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|QO|5|N|Speak to Soulbinder Zamaya|
+C Infiltrating the Sargerei|QID|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|CHAT|QO|6|N|Tell him 'the rain falls on Shadowmoon.'|
 T Infiltrating the Sargerei|QID|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To Anchorite Laanda|
 
 ; These are parallel
@@ -150,7 +151,6 @@ A Forging Ahead|QID|35196|PRE|35195||M|50.58,82.30|N|From Anchorite Laanda|
 
 T Forging Ahead|QID|35196|M|40.0,44.4|N|To Khadgar's Servant, wandering in your Garrison.|
 
-
 ; Garrison Campaign: Deep Recon
 ; A Garrison Campaign: Deep Recon|QID|35837|M|0.0,0.0|N|From ?|
 T Garrison Campaign: Deep Recon|QID|35837|M|49.8,37.0|N|To Jeanine Amrell|
@@ -161,7 +161,6 @@ C Plans of War|QID|35839|M|43.2,34.2|N|Scale Model of Gorgorek|
 C Plans of War|QID|35839|M|42.6,38.6|N|Miniature War Machine|
 C Plans of War|QID|35839|M|45.8,36.6|N|Map of Tanaan Jungle|
 T Plans of War|QID|35839|M|37.8,36.8|N|To Bodrick Grey|
-
 
 ; Garrison Campaign: Crows In The Field
 ; A Garrison Campaign: Crows In The Field|QID|34409|M|0.0,0.0|N|From ?|
@@ -176,7 +175,7 @@ A The Giant Cauldron|QID|34337|PRE|34336;34347|M|0.0,0.0|N|From ?|; Neutral
 T The Giant Cauldron|QID|34337|M|54.2,56.0|N|To Thisalee Crow|
 
 ; The Exarch's Call|
-A Garrison Campaign: The Exarch's Call|QID|36163|M|33.0,34.6|N|From Deedree|
+; A Garrison Campaign: The Exarch's Call|QID|36163|M|33.0,34.6|N|From Deedree|
 F Elodor||QID|36163|M|48.00,49.83|N|Fly to Embaari Villiage on Air Longdrink.|
 T Garrison Campaign: The Exarch's Call|QID|36163|M|65.23,26.18|Z|Shadowmoon Valley@Draenor|N|To Yrel, at the Altar of the Sha'tar|
 
@@ -213,14 +212,7 @@ C The Trial of Champions|QID|36169|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|CHA
 K Exarch Council|QID|36169|QO|1|N|They dont hit hard.  Use your "Call to Arms"|
 T The Trial of Champions|QID|36169|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|N|To Exarch Maladaar|
 
-
-
 D Next!|QID|0|N|Click to return to whatever guide you were doing before.|
-
-
-
-
-
 
 A The Descent|QID|34338|M|0.0,0.0|N|From ?|; Neutral
 C The Descent|QID|34338|M|52.0,54.0|N|Abyssal Earthwarden|
@@ -238,9 +230,6 @@ T A Good Death|QID|34354|M|59.22,82.24|N|To Rexxar|
 
 A The Beating Heart|QID|34410|M|0.0,0.0|N|From ?|
 T The Beating Heart|QID|34410|M|47.0,88.4|N|To Morthis Whisperwing|
-
-
-
 
 A Intercepting the Orders|QID|35840|M|0.0,0.0|N|From ?|
 T Intercepting the Orders|QID|35840|M|37.8,36.8|N|To Bodrick Grey|

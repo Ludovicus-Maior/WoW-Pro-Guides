@@ -1,14 +1,28 @@
-﻿local guide = WoWPro:RegisterGuide("LareLvlPet","Dailies","Pandaria", "Larenon", "Neutral")
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/battle_pet_levelup_125
+-- Date: 2016-01-08 23:16
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3642/revisions/27406/view
+-- Date: 2016-01-08 23:15
+-- Who: Ludovicus
+-- Log: Initial Version
+
+local guide = WoWPro:RegisterGuide("LareLvlPet","Dailies","Pandaria", "Larenon", "Neutral")
 WoWPro:GuideLevels(guide,1, 90, 45)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
-WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet Levelup 1-25","Pets") 
+WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet Levelup 1-25","Pets")
 WoWPro:GuideNextGuide(guide, 'nil')
 WoWPro:GuideSteps(guide, function()
 
 return
 [[
 N Pet leveling|QID|31958|N|Battle pet levelup 1-25 in 5 fights|
-N Disclaimer|QID|31958|N|Please note that I just did the coding of this guide, most of the actual strategies are the work of Elfuego of www.wowpetbattle.com, and some other folks from Wowhead comments (credit given in the text below). You can visit Elfuego's website for more awesome pet battle strategies to make sure that all your pet battle opponents GET OWNED!|
+N Disclaimer|QID|31958|N|Please note that I just did the coding of this guide, most of the actual strategies are the work of Elfuego ofwww.wowpetbattle.com, and some other folks from Wowhead comments (credit given in the text below). You can visit Elfuego's website for more awesome pet battle strategies to make sure that all your pet battle opponents GET OWNED!|
 N General Notes|QID|31958|N|You need a Safari Hat and a Lesser Pet Treat active on you to level your pet all the way to 25 using this guide. During pet battles, the guide window automatically hides. To work around this and see the guide window during the battle, disable and then enable your WoWPro addon (easiest is by left-clicking on its panda icon twice).|
 N General Notes|QID|31958|N|Steps describing the battle strategies will not auto-complete in the guide, you have to manually complete them by right clicking as you go.|
 U Buff check |BUFF|158486|U|92738|N|Warning! It seems your Safari Hat is not on! You can leave your hat on! Press the icon next to this step to use it now, or you can right click this step to skip.|

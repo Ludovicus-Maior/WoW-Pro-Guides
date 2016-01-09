@@ -1,7 +1,22 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/tiny_terrors_tanaan_dailies
+-- Date: 2016-01-08 23:22
+-- Who: Ludovicus
+-- Log: Use 3644
+
+-- URL: http://wow-pro.com/node/3644/revisions/27410/view
+-- Date: 2016-01-08 23:22
+-- Who: Ludovicus
+-- Log: Initial Cut
+
 local guide = WoWPro:RegisterGuide("LarePetTinyTerrors","Dailies","Draenor","Larenon","Neutral")
 WoWPro:GuideLevels(guide,100, 100, 100)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
-WoWPro.Dailies:GuideNameAndCategory(guide,"Tiny Terrors in Tanaan Daily","Pets")
+WoWPro.Dailies:GuideNameAndCategory(guide,"Tiny Terrors in Tanaan Dailies","Pets")
 WoWPro:GuidePetBattle(guide)
 WoWPro:GuideSteps(guide, function()
 

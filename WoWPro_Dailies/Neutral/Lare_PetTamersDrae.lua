@@ -1,4 +1,19 @@
-﻿local guide = WoWPro:RegisterGuide("LarePetTamersDrae","Dailies","Draenor","Larenon","Neutral")
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/battle_pet_tamers_draenor
+-- Date: 2016-01-08 23:19
+-- Who: Ludovicus
+-- Log: Tweak
+
+-- URL: http://wow-pro.com/node/3643/revisions/27408/view
+-- Date: 2016-01-08 23:18
+-- Who: Ludovicus
+-- Log: Initial Version
+
+local guide = WoWPro:RegisterGuide("LarePetTamersDrae","Dailies","Draenor","Larenon","Neutral")
 WoWPro:GuideLevels(guide,1, 90, 45)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
 WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet Tamers of Draenor","Pets")

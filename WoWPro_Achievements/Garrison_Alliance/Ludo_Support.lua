@@ -3,10 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/node/3618/revisions/26992/view
--- Date: 2014-11-14 17:44
+-- URL: http://wow-pro.com/wiki/garrisson_support
+-- Date: 2016-01-09 00:43
 -- Who: Ludovicus
--- Log: Init
+-- Log: 3649
+
+-- URL: http://wow-pro.com/node/3649/revisions/27423/view
+-- Date: 2016-01-09 00:43
+-- Who: Ludovicus
+-- Log: Initial
 
 local guide = WoWPro:RegisterGuide('LudoGarrissonSupport', 'Achievements', 'Lunarfall', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,94, 96, 95)
@@ -15,7 +20,6 @@ WoWPro:GuideName(guide,"On the Shadow's Trail")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 
 A Meet Us at Starfall Outpost|QID|33359|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|94|
 ; Gone from game!??
