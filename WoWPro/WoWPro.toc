@@ -41,6 +41,7 @@ WoWPro_Broker.lua
 WoWPro_Events.lua
 WoWPro_NilGuide.lua
 WoWPro_Parser.lua
+WoWPro_Pets.lua
 WoWPro_Trade.lua
 WoWPro_Selector.lua
 WoWPro_Selector.xml
