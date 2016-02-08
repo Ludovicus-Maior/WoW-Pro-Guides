@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2016-02-08 01:03
+-- Who: Ludovicus
+-- Log: Added [Hero's Call: Desolace!] support.
+
+-- URL: http://wow-pro.com/node/3313/revisions/26606/view
 -- Date: 2014-07-25 21:45
 -- Who: Ludovicus
 -- Log: Add mean
@@ -138,11 +143,11 @@ WoWPro:GuideIcon(guide,"ACH",4930)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Farwatcher's Glen|QID|25938|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|
+R Farwatcher's Glen|QID|25938;28531|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|
 
-A Help for Desolace|QID|25938|M|33.09,59.63|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
-R The Charred Vale|QID|25938|M|30.95,62.20;30.23,63.15;30.06,64.98|CS|N|Follow the waypoints to help you safely down the mountains.|Z|Stonetalon Mountains|
-T Help for Desolace|QID|25938|M|54.18,9.41|N|To Officer Jankie.|
+A Help for Desolace|QID|25938;28531|LEAD|14384|M|33.09,59.63|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
+R The Charred Vale|QID|25938;28531|M|30.95,62.20;30.23,63.15;30.06,64.98|CS|N|Follow the waypoints to help you safely down the mountains.|Z|Stonetalon Mountains|
+T Help for Desolace|QID|25938;28531|M|54.18,9.41|N|To Officer Jankie.|
 A Rerouted!|QID|14384|M|54.18,9.41|N|From Officer Jankie.|
 R Nijel's Point|QID|14384|M|54.18,9.41|N|Mount Jankie's Mount for a ride to Nijel's Point.|
 f Nijel's Point|QID|14384|M|64.72,10.39|N|At Baritanas Skyriver.|

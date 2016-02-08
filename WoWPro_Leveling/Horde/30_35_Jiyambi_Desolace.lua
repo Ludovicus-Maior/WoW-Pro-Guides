@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2016-02-08 01:04
+-- Who: Ludovicus
+-- Log: Add T|Dying Kodo| and a PRE correction.
+
+-- URL: http://wow-pro.com/node/3314/revisions/26923/view
 -- Date: 2014-11-08 06:26
 -- Who: Emmaleah
 -- Log: Delete dup NC on C To the Hilt
@@ -224,17 +229,17 @@ T Smeed's Harnesses|RANK|2|QID|14341|M|60.83,61.89|N|To Smeed Scrabblescrew, at 
 A Kodo Roundup|RANK|2|QID|5561|M|60.79,61.89|N|From Smeed Scrabblescrew.|
 
 C Bone Collector |QID|5501|S|M|52.2,58.4|N|Kodo Bones from the graveyard, they look like smaller Kodo skulls. A Kodo Apparition can spawn when you pick one up.|RANK|3|
-C Delivery Device|QID|14339|M|50.42,58.07|S|N|Kill and loot Dying Kodos.|
+C Delivery Device|QID|14339|M|50.42,58.07|S|N|Kill and loot Dying Kodos.|T|Dying Kodo|
 C Kodo Roundup|NC|RANK|2|QID|5561|U|13892|M|60.73,61.98|N|Go into the Kodo Graveyard and use the Kodo Kombobulator on an Ancient or Aged Kodo, then bring it back to Smeed (Try not to get too far ahead of it). Click on the Kodo once back to Smeed to inspect it. Do this three times.. Repeat.|
 T Kodo Roundup|RANK|2|QID|5561|M|60.81,61.92|N|To Smeed Scrabblescrew.|
-C Delivery Device|QID|14339|M|50.42,58.07|US|N|Kill and loot Dying Kodos.|
+C Delivery Device|QID|14339|M|50.42,58.07|US|N|Kill and loot Dying Kodos.|T|Dying Kodo|
 C Bone Collector |QID|5501|US|M|52.2,58.4|N|Kodo Bones from the graveyard, they look like smaller Kodo skulls. A Kodo Apparition can spawn when you pick one up.|RANK|3|
 
 T Delivery Device|QID|14339|M|55.29,58.22;52.23,53.48|CC|N|To Maurin Bonesplitter.|
 A Maurin's Concoction|QID|14343|PRE|14339|M|52.23,53.48|N|From Maurin Bonesplitter.|
 
 T Maurin's Concoction|QID|14343|M|57.41,47.72|N|To Karnum Marshweaver, back at Karnum's Glade.|
-A Cleansing Our Crevasse|QID|14346|M|57.41,47.72|N|From Karnum Marshweaver.|
+A Cleansing Our Crevasse|QID|14346|PRE|14343|M|57.41,47.72|N|From Karnum Marshweaver.|
 C Cleansing Our Crevasse|QID|14346|M|57.58,47.71|N|Hop onto Grimfeather - he will take you to the naga. Use Ability 1 to bomb the naga. Use Ability 3 when you are done.|
 T Cleansing Our Crevasse|QID|14346|M|57.42,47.72|N|Use Ability 3 to return to Karnum Marshweaver. Congrats on a very nice piece of gear!|
 

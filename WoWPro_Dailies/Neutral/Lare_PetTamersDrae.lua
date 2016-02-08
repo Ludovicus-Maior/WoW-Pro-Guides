@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_tamers_draenor
+-- Date: 2016-02-08 01:08
+-- Who: Ludovicus
+-- Log: Tiny tweaks
+
+-- URL: http://wow-pro.com/node/3643/revisions/27409/view
 -- Date: 2016-01-08 23:19
 -- Who: Ludovicus
 -- Log: Tweak
@@ -27,7 +32,7 @@ N General Notes|QID|37205|N|We will do a full circle and visit all the pet tamer
 N General Notes|QID|37205|N|Steps describing the battle strategies will not auto-complete in the guide, you have to manually complete them by right clicking as you go.|
 N Buff check|BUFF|158486|N|Warning! It seems your Safari Hat is not on! You can leave your hat on! Put it on from your Toy Collection or you can right click this step to skip.|
 U Buff check|BUFF|142204|U|98112|N|Warning! It seems you forgot to apply your Lesser Pet Treat! Press the icon next to this step to use it now, or you can right click this step to skip.|
-F Exile's Rise|N|Fly to Exile's Rise.|
+F Exile's Rise|N|Fly to Exile's Rise in Shadowmoon.|
 A Ashlei|QID|37203|M|50.0,31.2|Z|Shadowmoon Valley@Draenor|N|From Ashlei|
 N Pets needed|QID|37203|N|Mechanical Pandaren Dragonling (1/1/2)\nLevel Pet\nDarkmoon Zeppelin (1/1/2)|
 N Strategy|QID|37203|N|1) Start with Mechanical Pandaren Dragonling.\n2) Decoy\n3) Breath spam until Pixiebell dies.\n4) Switch in your Level Pet.\n5) Once the round resolves switch back to Dragonling|
@@ -46,7 +51,7 @@ N Pets needed|QID|37208|N|Chrominius (2/2/2)\nLevel Pet(w/ 900+ health or 1100+ 
 N Strategy|QID|37208|N|1) Arcane Explosion\n2) Ancient Blessing (from now on, use it on cooldown)\n3) Spam Arcane Explosion\n4) Surge of Power when you are unable to endure 2 more attacks. You have to wing it a little here and do the math: Serendipity's Counterspell does 200ish damage, Feedback does about 400 and Cocoon Strike about 150.\nSo for example if you are under 800ish health and Serendipity only has Feedback off-cooldown, you do Surge of Power.\n5) When Chrominius dies switch in the level pet.\n6) After the round resolves, switch in the Whelpling.|
 N Strategy|QID|37208|N|1) Arcane Storm\n2) Mana Surge|
 T Taralune|QID|37208|M|49.0,80.4|Z|Talador|N|To Taralune|
-F Nagrand|N|Fly to Rilzit's Holdfast.|M|42,76.8|Z|Talador|
+F Rilzit's Holdfast|N|Fly to Rilzit's Holdfast in Nagrand.|M|42,76.8|Z|Talador|
 R The way to Tarr|M|56.11,23.12;56.98,18.16;55.99,17.12|CS|Z|Nagrand@Draenor|N|Follow these waypoints to Tarr.|
 A Tarr the Terrible|QID|37206|M|56.2,9.8|Z|Nagrand@Draenor|N|From Tarr|
 N Pets needed|QID|37206|N|Level Pet(w/ 900+ health)\nScooter the Snail (2/2/1) OR Any snail you have w/ the highest Power stat\nMr. Grubbs (2/1/1) OR Any Maggot with Consume and Leap|
