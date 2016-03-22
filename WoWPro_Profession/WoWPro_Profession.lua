@@ -61,26 +61,13 @@ end
 -- Guide Registration Function --
 function WoWPro.Profession:RegisterGuide(GIDvalue, zonename, guidename, authorname, startlevelvalue, 
 	endlevelvalue, vendorP, factionname, sequencevalue)
-
-	
---[[ Purpose: 
-		Called by guides to register them to the WoWPro.Guide table. All members
-		of this table must have a quidetype parameter to let the addon know what 
-		module should handle that guide.]]
-		
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
-		-- If the guide is not of the correct faction, don't register it
-		
-	WoWPro.Guides[GIDvalue] = {
-		guidetype = "Profession",
-		zone = zonename,
-		name = guidename,
-		author = authorname,
-		startlevel = startlevelvalue,
-		endlevel = endlevelvalue,
-		sequence = sequencevalue,
-		nextGID = nil,
-	}
+    
+    local guide = WoWPro:RegisterGuide(GIDvalue, "Profession", zonename, authorname, factionname)
+    WoWPro:GuideName(guide, guidename)
+    WoWPro:GuideLevels(guide,WoWPro:PlayerLevel()+1,WoWPro:PlayerLevel()+2)
+    WoWPro:GuideSteps(guide,sequencevalue)
+    WoWPro:BuyersGuide(guide)
+    return guide
 end
 
 function WoWPro.Profession:LoadAllGuides()
