@@ -152,6 +152,10 @@ function WoWPro.PetLoadAndPick(slot, name_or_id, pick)
 end
 
 function WoWPro.NpcCheck()
+    local myNPC = WoWPro:TargetNpcId()
+    if WoWProDB.global.NpcFauxQuests[myNPC] then
+        WoWPro:AddFauxQuest(WoWProDB.global.NpcFauxQuests[myNPC].qid, WoWProDB.global.NpcFauxQuests[myNPC].title, 100)
+    end
 end
 
 function WoWPro.PetLoadTest()
