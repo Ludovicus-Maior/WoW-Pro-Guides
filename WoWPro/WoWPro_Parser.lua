@@ -22,7 +22,8 @@ WoWPro.actiontypes = {
 	l = "Interface\\Icons\\INV_Misc_Bag_08",
 	r = "Interface\\Icons\\Ability_Repair",
 	D = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Green",
-	J = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Red"
+	J = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Red",
+	["!"] = "Interface\\GossipFrame\\DailyQuestIcon",
 }
 WoWPro.actionlabels = {
 	A = "Accept",
@@ -43,7 +44,8 @@ WoWPro.actionlabels = {
 	l = "Loot",
 	r = "Repair/Restock",
 	D = "Done",
-	J = "Jump"
+	J = "Jump",
+	["!"] = "Declare"
 }
 
 
@@ -132,9 +134,14 @@ function WoWPro.UnSkipStep(index)
 	WoWPro:UpdateGuide("UnSkipStep")
 end
 
+
 local TagTable = {}
 local function DefineTag(action, key, vtype, validator, setter)
     TagTable[action] = {key=key, vtype=vtype, validator=validator, setter=setter}
+    if key then
+        WoWPro.Tags[key]=true
+        WoWPro[key] = {}
+    end
 end
 
 DefineTag("N","note","string",nil,nil)
@@ -177,7 +184,7 @@ DefineTag("REP","rep","string",nil,nil)
 DefineTag("P","prof","string",nil,nil)
 DefineTag("RANK","rank","number",nil,nil)
 DefineTag("SPELL","spell","string",nil,nil)
-DefineTag("NPC","NPC","number",nil,nil)
+DefineTag("NPC","NPC","string",nil,nil)
 DefineTag("ACH","ach","string",nil,nil)
 DefineTag("BUFF","buff","string",nil,nil)
 DefineTag("RECIPE","recipe","number",nil,nil)
@@ -188,18 +195,25 @@ DefineTag("GUIDE","guide","string",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
 DefineTag("Z","zone","string",nil,nil)
 DefineTag("FACTION","faction","string",nil,nil)
-DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R tags
+DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R Tags
 DefineTag("C",nil,"string",nil,function (value,i) end)  -- Swallow C tags
 DefineTag("GEN",nil,"string",nil,function (value,i) end)  -- Swallow Gen tags
-
-	
+DefineTag("PET1","pet1","string",nil,nil)
+DefineTag("PET2","pet2","string",nil,nil)
+DefineTag("PET3","pet3","string",nil,nil)
+DefineTag("STRATEGY","strategy","string",nil,nil)
+DefineTag("SELECT","select","string",nil,nil)
+DefineTag("DEAD","dead","string",nil,nil)
+DefineTag("WIN","win","boolean",nil,nil)
 
 
 function WoWPro.ParseQuestLine(faction, zone, i, text)
 	local GID = WoWProDB.char.currentguide
 		
 		
-	text = string.trim(text) 
+	text = string.trim(text)
+	-- Printing anything with a | is dangerous.  Map it to a ¦
+	atext = text:gsub("|", "¦")
 	if text == "" or string.sub(text,1,1) == ";" then
 	    -- empty lines or comments are ignored
 	    return
@@ -251,7 +265,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	            tag = nil
 	        end
 	        if tag_spec.key and WoWPro[tag_spec.key][i] then
-	            WoWPro:Warning("%d:Step %s [%s] has duplicate tag ||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag)
+	            WoWPro:Warning("%d:Duplicate tag ¦%s¦ in [%s].",i,tag,atext)
 	        end
 	        if tag_spec.vtype == "boolean" then
 	            -- We only care that it exists
@@ -261,32 +275,32 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	            idx = idx + 1
 	            value = tonumber(tags[idx])
 	            if not value then
-	                WoWPro:Warning("%d:Step %s [%s] has an bad value for tag ||%s||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag, value)
+	                WoWPro:Warning("%d:Bad value for tag ¦%s¦%s¦ in [%s].",i,tag, tags[idx],atext)
 	            end
 	        elseif tag_spec.vtype == "string" then
 	            -- pop the next value off the stack
 	            idx = idx + 1
 	            value = tags[idx]
 	            if not value then
-	                WoWPro:Warning("%d:Step %s [%s] has an missing value for tag ||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag)
+	                WoWPro:Warning("%d:Missing value for tag %s in [%s].",i,tag,atext)
 	            elseif string.len(value) == 0 then
-	                WoWPro:Warning("%d:Step %s [%s] has an empty value for tag ||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag)
+	                WoWPro:Warning("%d:Empty value for tag ¦%s¦ in [%s].",i,tag,atext)
 	            end
 	        elseif tag_spec.vtype == "guide" then
 	            -- pop the next value off the stack
 	            idx = idx + 1
 	            value = tags[idx]
 	            if not value then
-	                WoWPro:Warning("%d:Step %s [%s] has an missing value for tag ||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag)
+	                WoWPro:Warning("%d:Missing value for tag ¦%s¦ in [%s].",i,tag,atext)
 	            elseif not WoWPro.Guides[value] then
-	                WoWPro:Warning("%d:Step %s [%s] has an invalid value for tag ||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag)
+	                WoWPro:Warning("%d:Invalid value for tag ¦%s¦ in [%s].",i,tag,atext)
 	            end
 	        else
 	            WoWPro:Error("Tag %s has a bad key vtype of '%s'. Report this!", tag, tag_spec.vtype)
 	        end
 	        if tag and tag_spec.validator then
 	            if not tag_spec.validator(WoWPro.action[i],WoWPro.step[i],tag,value) then
-	                WoWPro:Warning("i:Step %s [%s] has an bad value for tag ||%s||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag, value)
+	                WoWPro:Warning("%d:Validation failed for tag ¦%s¦%s¦ in [%s].",i,tag, value,atext)
 	                tag = nil
 	                value = nil
 	            end
@@ -300,10 +314,10 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	        end
 	    else
 	        if not tag and idx <  #tags then
-	            WoWPro:Warning("%d:Step %s [%s] has an empty tag.",i,WoWPro.action[i],WoWPro.step[i])
+	            WoWPro:Warning("%d:Empty tag in [%s].",i,atext)
 	        elseif tag and tag ~= "" and tag:sub(1,1) ~= ";" then
 	            -- empty tags and tags that are comments are permissible
-	            WoWPro:Error("%s:Step %s [%s] has an unknown tag ||%s||.",i,WoWPro.action[i],WoWPro.step[i],tag)
+	            WoWPro:Error("%i:Unknown tag ¦%s¦ in [%s].",i,tag, atext)
 	        end
 	    end
 	    idx = idx + 1
@@ -321,7 +335,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end    
 	WoWPro.zone[i] = WoWPro.zone[i] or (WoWPro.map[i] and zone)
 	if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
-	    WoWPro:Error("Step %s [%s] has a bad Z||%s|| tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
+	    WoWPro:Error("Step %s [%s] has a bad ¦Z¦%s¦ tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
 	    WoWPro.zone[i] = nil
 	end
 	WoWPro.prereq[i] = WoWPro.prereq[i] or (WoWPro.action[i] == "A" and WoWPro:GrailQuestPrereq(WoWPro.QID[i]))
@@ -330,7 +344,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 		if WoWPro.waypcomplete[i] == nil then 
 		    WoWPro.waypcomplete[i] = false
 		    if WoWPro.map[i]:find(";") then
-		        WoWPro:Warning("Step %s [%s:%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
+		        WoWPro:Warning("Step %s [%s:%s] in %s is missing a CS¦CC¦CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
 		    end
 		end
 	end
@@ -393,7 +407,9 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 end
 
-function WoWPro.RecordQID(QIDs)
+function WoWPro.RecordStuff(i)
+    local QIDs = WoWPro.QID[i]
+    local NPCs = WoWPro.NPC[i]
     if not QIDs then return end
 
     local GID = WoWProDB.char.currentguide
@@ -403,15 +419,33 @@ function WoWPro.RecordQID(QIDs)
 
     if not recordQIDs then return end
     
-	local numQIDs = select("#", string.split(";", QIDs))
+	
 
-	for j=1,numQIDs do
-		local qid = select(numQIDs-j+1, string.split(";", QIDs))
-		local QID = tonumber(qid)
-		if QID then
-			WoWProDB.global.QID2Guide[QID] = GID
-		end
+    if WoWPro.action[i] == "!" then
+        -- NPC triggered QID
+        -- ! Brutus/Ruckus|NPC|85561;85655|QID|-85561|
+        local numNPCs = select("#", string.split(";", NPCs))
+        local qid = tonumber(QIDs)
+    	for j=1,numNPCs do
+    		local npc = select(numNPCs-j+1, string.split(";", NPCs))
+    		local NPC = tonumber(npc)
+    		if NPC then
+    			WoWProDB.global.NpcFauxQuests[NPC] = {qid = qid, title = WoWPro.step[i]}
+    			WoWPro:Print("Recorded NPC %d => QID %g",NPC, qid)
+    		end
+    	end        
+    else
+        -- Regular step declaration
+        local numQIDs = select("#", string.split(";", QIDs))
+    	for j=1,numQIDs do
+    		local qid = select(numQIDs-j+1, string.split(";", QIDs))
+    		local QID = tonumber(qid)
+    		if QID then
+    			WoWProDB.global.QID2Guide[QID] = GID
+    		end
+        end
     end
+
 end
 
 -- Quest parsing function --
@@ -468,7 +502,7 @@ function WoWPro:ParseSteps(steps)
 			   (gender == nil or gender == UnitSex("player")) and
 			   (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
 				WoWPro.ParseQuestLine(faction, zone, i, text)
-				WoWPro.RecordQID(WoWPro.QID[i])
+				WoWPro.RecordStuff(i)
 				i = i + 1
 			end
 		end
@@ -531,7 +565,7 @@ function WoWPro.LoadGuideStepsReal()
     WoWPro:dbp("LoadGuideSteps(%s) AutoSwitch=%s",GID,tostring(AutoSwitch));
     
 	--Re-initiallizing tags and counts--
-	for i,tag in pairs(WoWPro.Tags) do 
+	for tag,val in pairs(WoWPro.Tags) do 
 		WoWPro[tag] = {}
 	end
 	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
