@@ -3,10 +3,29 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/node/3618/revisions/26992/view
--- Date: 2014-11-14 17:44
+-- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-03-23 01:27
 -- Who: Ludovicus
--- Log: Init
+
+-- URL: http://wow-pro.com/node/3648/revisions/27437/view
+-- Date: 2016-03-23 01:26
+-- Who: Ludovicus
+-- Log: Add Horde Guide.
+
+-- URL: http://wow-pro.com/node/3648/revisions/27436/view
+-- Date: 2016-03-23 01:25
+-- Who: Ludovicus
+-- Log: Alliance switch
+
+-- URL: http://wow-pro.com/node/3648/revisions/27422/view
+-- Date: 2016-01-09 00:41
+-- Who: Ludovicus
+-- Log: 3648
+
+-- URL: http://wow-pro.com/node/3648/revisions/27421/view
+-- Date: 2016-01-09 00:40
+-- Who: Ludovicus
+-- Log: Initial
 
 local guide = WoWPro:RegisterGuide('LudoGarrCampaignH', 'Achievements', 'Frostwall', 'Ludovicus', 'Horde')
 WoWPro:GuideLevels(guide,100, 101, 100.5)
@@ -29,7 +48,6 @@ return [[
 ; Ours is the Fury|QID|994920010|M|0.00,0.00|ACH|9492;10| -- Skel
 ; Primal Fury|QID|994920011|M|0.00,0.00|ACH|9492;11| -- Skel
 ; The Warlord's Council|QID|994920012|M|0.00,0.00|ACH|9492;12|
-
 
 ; A Garrison Campaign: The Sargerei|QID|35185;35186|M|40.0,44.4|N|From Khadgar's Servant|
 T Garrison Campaign: The Sargerei|QID|35185;35186|M|43.56,77.29|Z|Shadowmoon Valley@Draenor|N|To Archmage Modera|
@@ -111,7 +129,6 @@ C Ride Nisha|QID|34450|QO|1|N|Click on Nisha to get a flight to the top of the m
 K Razz Ricketroz|QID|34450|ACTIVE|34450|M|60.4,90.2|Z|Shadowmoon Valley@Draenor|QO|2|
 T Rylak Rescue|QID|34450|M|67.97,90.12|Z|Shadowmoon Valley@Draenor|N|Click on Nisha to get a ride to Rexxar|
 
-
 ; Garrison Campaign: Seismic Matters -- Iron Siegeworks for Alliance
 ; A Garrison Campaign: Seismic Matters|QID|34026|M|29.25,33.13|N|From Baros Alexston|
 T Garrison Campaign: Seismic Matters|QID|34026|M|64.51,69.90|N|To Jr. Surveyor Dorn|FACTION|Alliance|
@@ -144,7 +161,6 @@ T Privileged Information|QID|34032|N|To Dark Iron Golem, who is following you.|F
 A And The Mole You Rode In On|QID|34033|PRE|34032|N|From Dark Iron Golem, who is following you.|FACTION|Alliance|
 C And The Mole You Rode In On|QID|34033|M|86.39,49.01|N|Go to the cave near where you fought the Overlord and take the Mole Machine.|FACTION|Alliance|
 T And The Mole You Rode In On|QID|34033|M|64.69,67.35|N|To Thaelin Darkanvil|FACTION|Alliance|
-
 
 ; Garrison Campaign: Grinding Gears -- Iron Siegeworks for Horde
 ;A Garrison Campaign: Grinding Gears|QID|34034|M|38.34,36.95|N|From Rokhan|FACTION|Horde|
@@ -212,7 +228,6 @@ A The Beating Heart|QID|34410|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|Fro
 T The Beating Heart|QID|34410|M|47.0,88.4|Z|Gorgrond|N|To Morthis Whisperwing|FACTION|Alliance|
 A The Beating Heart|QID|34410|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Horde|
 T The Beating Heart|QID|34410|M|47.0,88.4|Z|Gorgrond|N|To Morthis Whisperwing|FACTION|Horde|
-
 
 ; A Strike at the Heart -- Faction Specific
 ; A Garrison Campaign: Every Rose Has Its Thorn|QID|36160|M|29.25,33.13|N|From Baros Alexston|FACTION|Alliance|
@@ -307,7 +322,6 @@ A Soulgrinder Survivor|QID|34319|PRE|34318;34469|M|39.4,23.4|N|From Orlana Stron
 C Soulgrinder Survivor|QID|34319|M|38.0,13.8|N|Borgal Doomfist|FACTION|Horde|
 T Soulgrinder Survivor|QID|34319|M|37.6,14.0|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
 
-
 ; Broken Precipice -- Mostly Neutral
 A Garrison Campaign: The Broken Precipice|QID|35985|M|54.8,14.8|N|From Nixxie|FACTION|Alliance|
 T Garrison Campaign: The Broken Precipice|QID|35985|M|39.6,24.6|N|To Greblin Fastfizzle|FACTION|Alliance|
@@ -343,9 +357,6 @@ A News for Nixxie|QID|37517|PRE|35973|M|40.6,13.0|N|From Dizzy Sparkshift|FACTIO
 T News for Nixxie|QID|37517|M|54.8,14.8|N|To Nixxie|FACTION|Alliance|
 A News for Nixxie|QID|37516|PRE|35973|M|40.6,13.0|N|From Dizzy Sparkshift|FACTION|Horde|
 T News for Nixxie|QID|37516|M|54.8,14.8|N|To Nixxie|FACTION|Horde|
-
-
-
 
 ; The Exarch's Call -- Alliance Only
 ; A Garrison Campaign: The Exarch's Call|QID|36163|M|33.0,34.6|N|From Deedree|
@@ -424,7 +435,6 @@ C Primal Fury|QID|36341|M|69.4,5.6|N|Azuka Bladefury|
 C Primal Fury|QID|36341|M|69.4,9.0|N|Bodrick Grey|
 T Primal Fury|QID|36341|M|29.2,34.6|N|To Lieutenant Thorn|
 
-
 ; Warlord's Council -- Alliance
 A Garrison Campaign: Deep Recon|QID|35837|M|37.8,36.8|N|From Bodrick Grey|
 T Garrison Campaign: Deep Recon|QID|35837|M|49.8,37.0|N|To Jeanine Amrell|
@@ -478,7 +488,6 @@ T Intercepting the Orders|QID|35846|M|45.6,43.2|N|To Rokhan|
 A Putting Down the Packleader|QID|35842|PRE|35846|M|41.8,37.0|N|From Shadow Hunter Kajassa|
 C Putting Down the Packleader|QID|35842|M|44.6,38.0|N|Packleader Vor'gash|
 T Putting Down the Packleader|QID|35842|M|45.6,43.2|N|To Rokhan|
-
 
 D Next!|QID|0|N|Click to return to whatever guide you were doing before.|
 

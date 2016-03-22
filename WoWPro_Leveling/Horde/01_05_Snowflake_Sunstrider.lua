@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2016-03-23 01:35
+-- Who: Ludovicus
+-- Log: Fix bad coords on rogue quests
+
+-- URL: http://wow-pro.com/node/3207/revisions/27293/view
 -- Date: 2015-06-22 16:23
 -- Who: Ludovicus
 -- Log: Got rid of stuttttter.
@@ -272,7 +277,7 @@ T Hunter Training |QID|9393|R|BloodElf|C|Hunter|N|To Ranger Sallina.|M|64.21,42.
 T Mage Training |QID|8328|R|BloodElf|C|Mage|N|To Julia Sunstriker.|M|64.77,46.52|
 T Paladin Training |QID|9676|R|BloodElf|C|Paladin|N|To Jesthenis Sunstriker.|M|65.52,43.74|
 T Priest Training |QID|8564|R|BloodElf|C|Priest|N|To Matron Arena.|M|65.34,43.20|
-T Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|To Pathstalker Kariel.|M|63.85.42.08|
+T Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|To Pathstalker Kariel.|M|63.85,42.08|
 T Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|Summoner Teli'Larien.|M|63.86,46.49|
 T Monk Training |QID|31170|R|BloodElf|C|Monk|N|To Pao.|M|63.41,42.61|
 
@@ -291,9 +296,9 @@ T Arcane Missiles|QID|10068|R|BloodElf|M|64.77,46.52|C|Mage|N|To Julia Sunstrike
 A Ways of the Light|QID|10069|R|BloodElf|M|65.52,43.74|C|Paladin|N|From Jesthenis Sunstriker.|
 C Ways of the Light|QID|10069|R|BloodElf|M|62.00,44.00|C|Paladin|N|Learn Judgement and Seal of Righteousness from Jesthenis Sunstriker. Cast Seal of Righteousness on yourself, then locate a Training Dummy outside the Sunspire and use Judgement.|
 T Ways of the Light|QID|10069|R|BloodElf|M|65.52,43.74|C|Paladin|N|To Jesthenis Sunstriker.|
-A Evisceration|QID|10071|R|BloodElf|M|63.85.42.08|C|Rogue|N|From Pathstalker Kariel.|
+A Evisceration|QID|10071|R|BloodElf|M|63.85,42.08|C|Rogue|N|From Pathstalker Kariel.|
 C Evisceration|QID|10071|R|BloodElf|M|62.00,44.00|C|Rogue|N|Learn Eviscerate from Pathstalker Kariel. Locate a Training Dummy outside the Sunspire and practice using Eviscerate 3 times. |
-T Evisceration|QID|10071|R|BloodElf|M|63.85.42.08|C|Rogue|N|To Pathstalker Kariel.|
+T Evisceration|QID|10071|R|BloodElf|M|63.85,42.08|C|Rogue|N|To Pathstalker Kariel.|
 A Learning the Word|QID|10072|R|BloodElf|M|65.34,43.20|C|Priest|N|From Matron Arena.|
 C Learning the Word|QID|10072|R|BloodElf|M|134.64,115.87|Z|Sunstrider Isle|C|Priest|N|Locate a Training Dummy outside the Sunspire and practice using Shadow Word: Pain 5 times.|
 T Learning the Word|QID|10072|R|BloodElf|M|65.34,43.20|C|Priest|N|To Matron Arena|

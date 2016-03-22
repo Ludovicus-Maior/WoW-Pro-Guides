@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-03-23 01:27
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3648/revisions/27437/view
+-- Date: 2016-03-23 01:26
+-- Who: Ludovicus
+-- Log: Add Horde Guide.
+
+-- URL: http://wow-pro.com/node/3648/revisions/27436/view
+-- Date: 2016-03-23 01:25
+-- Who: Ludovicus
+-- Log: Alliance switch
+
+-- URL: http://wow-pro.com/node/3648/revisions/27422/view
 -- Date: 2016-01-09 00:41
 -- Who: Ludovicus
 -- Log: 3648
@@ -226,7 +240,6 @@ C Fight!|QID|36222|QO|2|N|Kill Katsuo (0.5MH) and Azuka (0.8MH).  If you use a t
 T The Champion of Blood|QID|36222|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|
 A Out of the Shadows|QID|36289|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|; Alliance
 T Out of the Shadows|QID|36289|M|38.34,36.95|N|From Bodrick Grey|
-
 
 D Next!|QID|0|N|Click to return to whatever guide you were doing before.|
 
