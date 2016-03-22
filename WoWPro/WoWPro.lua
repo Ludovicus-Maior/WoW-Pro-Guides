@@ -269,13 +269,6 @@ local defaults = { profile = {
 	stickytitletextcolor = {1, 1, 1},
 } }
 
--- Core Tag Setup --
-WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", 
-	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
-	"level", "QID","target", "prof", "mat", "rank", "rep","waypcomplete", "why",
-	 "noncombat","active","ach","spell","qcount","NPC","questtext","prereq","leadin","faction",
-	 "buff", "chat","recipe", "gossip","conditional","pet", "building", "item", "guide", "availible"
-}
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro:OnInitialize()
@@ -295,6 +288,7 @@ function WoWPro:OnInitialize()
 	WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs  or {}
 	WoWProDB.global.RecklessCombat = false
 	WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
+	WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
 
 	if WoWProCharDB.EnableGrail == nil then
 	    WoWProCharDB.EnableGrail = true
@@ -378,8 +372,8 @@ function WoWPro:OnEnable()
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
 		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_SHOW", "GOSSIP_SHOW",
-		"QUEST_DETAIL", "QUEST_GREETING", "QUEST_TURNED_IN", "QUEST_ACCEPTED", "CINEMATIC_START", "CINEMATIC_STOP", "ZONE_CHANGED_NEW_AREA"
-		
+		"QUEST_DETAIL", "QUEST_GREETING", "QUEST_TURNED_IN", "QUEST_ACCEPTED", "CINEMATIC_START", "CINEMATIC_STOP", "ZONE_CHANGED_NEW_AREA",
+		"PLAYER_TARGET_CHANGED"		
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
 	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
@@ -425,6 +419,10 @@ function WoWPro:OnDisable()
 	WoWPro:Print("|cffff3333Disabled|r: Version %s", WoWPro.Version)
 end
 
+-- Core Tag Setup --
+-- These are not part of any tag per say.  All others are defined in _Parser.lua
+WoWPro.Tags = { action=true, step=true, lootqty=true, why=true, qcount=true, conditional=true}
+
 -- Tag Registration Function --
 function WoWPro:RegisterTags(tagtable)
 --[[ Purpose: Can be called by modules to add tags to the WoWPro.Tags table. 
@@ -432,7 +430,7 @@ This table is iterated on in several key functions within the addon.
 ]]--
 	if not WoWPro.Tags then return end			-- If the table doesn't exist for some reason (function called too early), end.
 	for i=1,#tagtable do
-		table.insert(WoWPro.Tags,tagtable[i])	-- Insert each tag from the table supplied into the WoWPro.Tags table.
+	    WoWPro.Tags[tagtable[i]]=true -- Insert each tag from the table supplied into the WoWPro.Tags table.	
 	end
 end
 
@@ -459,19 +457,21 @@ end
 -- https://github.com/Rainrider/KlaxxiKillOrder/issues/1
 -- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
-    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = strsplit(":", UnitGUID("target") or "")
+    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = strsplit("-", UnitGUID("target") or "")
     if not unitType then
         WoWPro:dbp("No target");
         return nil
     end      
     
     if unitType == "Player" then
-        unitType, serverID, npcID = strsplit(":", UnitGUID("target"))
-        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcid);
-        return npcid
+        unitType, serverID, npcID = strsplit("-", UnitGUID("target"))
+        npcID = tonumber(npcID)
+        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcID);
+        return npcID
     else
-        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcid);
-        return nil
+        npcID = tonumber(npcID)
+        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcID);
+        return npcID
     end
 end
 
