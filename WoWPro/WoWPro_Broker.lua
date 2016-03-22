@@ -1044,6 +1044,41 @@ function WoWPro.CompleteStep(step, why)
 end
 
 WoWPro.QuestLog = {}
+WoWPro.FauxQuestLog = {}
+
+local function  tablecopy(orig)
+    local  copy = {}
+    for orig_key, orig_value in pairs(orig) do
+        copy[orig_key] = orig_value
+    end
+    return copy
+end
+
+
+function WoWPro:AddFauxQuest(questID, questTitle, level, suggestedGroup, isComplete, ocompleted, isDaily, leaderBoard )
+    WoWPro:dbp("AddFauxQuest(%s,'$s')",tostring(questID), tostring(questTitle))
+	WoWPro.FauxQuestLog[questID] = {
+		title = questTitle,
+		level = level,
+		tag = questTag or "Standard",
+		group = suggestedGroup or false,
+		complete = isComplete or false,
+		ocompleted = ocompleted or false,
+		daily = isDaily or false,
+		leaderBoard = leaderBoard,
+		header = currentHeader,
+		use = use,
+		coords = coords,
+		index = i
+	}
+	WoWPro:SendMessage("WoWPro_PuntedQLU")
+end
+
+function WoWPro:DelFauxQuest(questID)
+    WoWPro.FauxQuestLog[questID] = nil
+    WoWPro:SendMessage("WoWPro_PuntedQLU")
+end
+
 -- Populate the Quest Log table for other functions to call on --
 function WoWPro:PopulateQuestLog()
 	WoWPro:print("WoWPro:PopulateQuestLog()")
@@ -1052,7 +1087,7 @@ function WoWPro:PopulateQuestLog()
 	WoWPro.newQuest, WoWPro.missingQuest = false, false
 	
 	-- Generating the Quest Log table --
-	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
+	WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
 	local i, currentHeader = 1, "None"
 	local entries, numQuests = GetNumQuestLogEntries()
 	local lastCollapsed = nil
@@ -1180,7 +1215,9 @@ function WoWPro:PopulateQuestLog()
 end
 
    		
-
+local function is_int(number)
+    return math.floor(number) == math.ceil(number)
+end
 
 -- Cached version of function
 function WoWPro:IsQuestFlaggedCompleted(qid,force)
@@ -1213,14 +1250,26 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
     end
     if not force and type(WoWProCharDB.completedQIDs[QID]) ~= "nil" then
         if QID > 0 then
-            return WoWProCharDB.completedQIDs[QID]
+            if is_int(QID) then
+                return WoWProCharDB.completedQIDs[QID]
+            else
+                QID = math.floor(QID)
+                WoWProCharDB.completedQIDs[-QID] = not WoWPro.QuestLog[-QID] 
+                return WoWProCharDB.completedQIDs[-QID]
+            end
         else
             return not WoWProCharDB.completedQIDs[-QID]
         end
     end
     if QID > 0 then
-        WoWProCharDB.completedQIDs[QID] = IsQuestFlaggedCompleted(QID) or false
-        return WoWProCharDB.completedQIDs[QID]
+        if is_int(QID) then
+            WoWProCharDB.completedQIDs[QID] = IsQuestFlaggedCompleted(QID) or false
+            return WoWProCharDB.completedQIDs[QID]
+        else
+            QID = math.floor(QID)
+            WoWProCharDB.completedQIDs[-QID] = not WoWPro.QuestLog[-QID] 
+            return WoWProCharDB.completedQIDs[QID]
+        end
     else
         WoWProCharDB.completedQIDs[-QID] = IsQuestFlaggedCompleted(-QID) or false
         return not WoWProCharDB.completedQIDs[-QID]
@@ -1231,7 +1280,7 @@ end
 
 function WoWPro.SwapSteps(i,j)
     local GID = WoWProDB.char.currentguide
-    for idx,tag in pairs(WoWPro.Tags) do
+    for tag,val in pairs(WoWPro.Tags) do
         WoWPro[tag][j] ,  WoWPro[tag][i] =  WoWPro[tag][i] ,  WoWPro[tag][j]
     end
     WoWProCharDB.Guide[GID].completion[i] , WoWProCharDB.Guide[GID].completion[j] = WoWProCharDB.Guide[GID].completion[j] , WoWProCharDB.Guide[GID].completion[i]
