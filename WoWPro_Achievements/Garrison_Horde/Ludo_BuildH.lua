@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/garrison_buildings_horde
+-- Date: 2016-03-22 20:44
+-- Who: Ludovicus
+-- Log: Trimmed useless |N| from [Big Frostfire Gun]
+
+-- URL: http://wow-pro.com/node/3632/revisions/27297/view
+-- Date: 2015-06-23 12:19
+-- Who: Ludovicus
+
 local guide = WoWPro:RegisterGuide('LudoBuildingsHorde', 'Achievements', 'Frostfire Ridge', 'Ludovicus', 'Horde')
 WoWPro:GuideLevels(guide,90, 100, 92)
 WoWPro:GuideIcon(guide,"ACH",9096)
@@ -112,7 +121,7 @@ U Learn Inscription skill|QID|33918|U|111923|M|61.2,71.2|P|Inscription;773|N|Aft
 C Spare Parts|QID|36594|M|56.74,71.82|P|Engineering;202|N|Kill and loot for the shells or pick them up from the ground. Use the provided bomb to blow up the siege cannons and pick up the parts. There is a treasure chest here also with some garrison resources, (and hopefully sometimes something better).|
 T Spare Parts|QID|36594|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
 A Big Frostfire Gun|QID|36627|M|50.03,68.90|PRE|36594|P|Engineering;202|N|From Blizthraz Blastcharge.|
-C Big Frostfire Gun|QID|36627|M|45.13,71.75|P|Engineering;202|N|
+C Big Frostfire Gun|QID|36627|M|45.13,71.75|P|Engineering;202|
 T Big Frostfire Gun|QID|36627|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
 U Learn Engineering skill|QID|33493|U|111921|M|50.03,68.90|P|Engineering;202|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Engineering Works Blueprints|QID|33493|U|109258|M|50.03,68.90|P|Engineering;202|N|After you learn check this step off manually.|
