@@ -32,6 +32,7 @@ function WoWPro:TakeTaxi(index,destination)
             if IsMounted() then
                 Dismount()
             end
+            TaxiNodeOnButtonEnter(_G["TaxiButton"..i])
             TakeTaxiNode(i)
             WoWPro.CompleteStep(index,"Took known flight point")
             return
@@ -689,6 +690,10 @@ function WoWPro.EventHandler(frame, event, ...)
 	end
 	if event == "GOSSIP_CLOSED" then
 	    WoWPro.GossipText = nil
+	end
+	
+	if event == "PLAYER_TARGET_CHANGED" then
+	    WoWPro.NpcCheck(...)
 	end
 	
 	-- Module Event Handlers --
