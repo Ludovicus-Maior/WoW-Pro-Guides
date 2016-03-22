@@ -9,6 +9,8 @@ WoWPro:GuideSteps(guide, function()
 return
 [[
 
+N Achtung!|N|This is not a working guide yet.  It is the experimental Pet guide.|
+
 ; Day 1: Deebs, Tyri, and Puzzle  ** 2393 XP!!!!
 ! Deebs, Tyri, and Puzzle|NPC|79180;79181;79182|QID|-79180|
 
@@ -51,6 +53,7 @@ C Lil' Bling/Darkmoon Zeppelin|QID|85561.1|PET1|Lil' Bling;73011;2+2+2|PET2|Dark
 
 ; Day 11: Rockbiter, Stonechewer, and Acidtooth
 ! Acidtooth, Stonechewer, and Rockbiter|NPC|85679;85680;85681|QID|85679.1|
+C Pandaren Water Spirit/Fox/Undead|QID|85561.1|PET1|Pandaren Water Spirit;66950;1+2+2|PET2|Fox;85561;110+362|PET3|Undead;;422;Undead|STRATEGY|PWS/Fox/Undead|
 
 ; Day 12: Quintessence of Light
 ! Quintessence of Light|NPC|85652|QID|85652.1|
