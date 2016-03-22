@@ -13,7 +13,7 @@
 -- Who: Ludovicus
 -- Log: Initial
 
-local guide = WoWPro:RegisterGuide('LudoGarrCampaign', 'Achievements', 'Lunarfall', 'Ludovicus', 'Neutral')
+local guide = WoWPro:RegisterGuide('LudoGarrCampaignA', 'Achievements', 'Lunarfall', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,100, 101, 100.5)
 WoWPro:GuideIcon(guide,"ACH",9491)
 WoWPro:GuideName(guide,"Garrison Campaign")
@@ -211,6 +211,22 @@ A The Trial of Champions|QID|36169|PRE|36168;36164;36167|M|75.14,57.89|Z|Shadowm
 C The Trial of Champions|QID|36169|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|CHAT|N|Tell Exarch Maladaar you are ready to bash the Exarch Council.  Do not MC Exarch Maladaar or it is auto-fail! Be sure to use Yrel's buff on the ground.|
 K Exarch Council|QID|36169|QO|1|N|They dont hit hard.  Use your "Call to Arms"|
 T The Trial of Champions|QID|36169|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|N|To Exarch Maladaar|
+
+; Garrison Campaign: The Ring of Blood|QID|36219;36280;36281;36282| --Neutral
+T Garrison Campaign: The Ring of Blood|QID|36219;36280;36281;36282|M|63,36|Z|Nagrand@Draenor|N|To Gurgthock, near Joz's Rylaks in Nagrand. Bring a follower with you to help.|
+A How Tough Are You?|QID|36220|PRE|36219;36280;36281;36282|M|63,36|Z|Nagrand@Draenor|N|From Gurgthock|
+K Lug'dol|QID|36220|ACTIVE|36220|M|64.2,22.8|Z|Nagrand@Draenor|QO|1|T|Lug'dol|N|Kill and loot head.|
+T How Tough Are You?|QID|36220|M|56.8,19.2|Z|Nagrand@Draenor|N|To Kroggol the Wall|
+A Entry Fee|QID|36221|PRE|36220|M|56.8,19.2|Z|Nagrand@Draenor|N|From Kroggol the Wall|
+C Blood Stones|QID|36221|M|58,15|Z|Nagrand@Draenor|QO|1|N|Kill mobs in the Gorian Proving Grounds. Each mob has a buff showing how many blood stones they drop.  The Elite in the building drops 13!|
+T Entry Fee|QID|36221|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|
+A The Champion of Blood|QID|36222|PRE|36221|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|
+C Gurgthock|QID|36222|M|56.8,13.0|Z|Nagrand@Draenor|QO|1|N|Speak to Gurgthock to get thins started. If someone else if fighting, you may have to wait.|CHAT|
+C Fight!|QID|36222|QO|2|N|Kill Katsuo (0.5MH) and Azuka (0.8MH).  If you use a tank, kill Katsuo first, bu you *must* be out of the tank before Azuka surrenders @10% Health.|
+T The Champion of Blood|QID|36222|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|
+A Out of the Shadows|QID|36289|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|; Alliance
+T Out of the Shadows|QID|36289|M|38.34,36.95|N|From Bodrick Grey|
+
 
 D Next!|QID|0|N|Click to return to whatever guide you were doing before.|
 
