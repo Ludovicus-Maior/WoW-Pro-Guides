@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_first_aid
+-- Date: 2016-03-23 02:11
+-- Who: Ludovicus
+-- Log: Line 28 in guide TwiFirstAid has only 1 sections.
+
+-- URL: http://wow-pro.com/node/3410/revisions/25655/view
 -- Date: 2013-05-16 00:54
 -- Who: Twists
 -- Log: Update to handle the new parser.
@@ -45,6 +50,6 @@ N Learn Zen First Aid|QID|901290023|P|First Aid;129;*;0;600|N|Visit your Trainer
 N Windwool Bandage|QID|901290024|P|First Aid;129;500;550;|N|1;Windwool Cloth;50;125|
 N Heavy Windwool Bandage|QID|901290025|P|First Aid;129;550;600;|N|3;Windwool Cloth;75;75|
 
-N That completes First Aid.
+N First Aid.|N|That completes First Aid.|
 ]]
 end)
