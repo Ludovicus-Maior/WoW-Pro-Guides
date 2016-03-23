@@ -224,14 +224,14 @@ function WoWPro:NextGuide(GID)
 	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
 	    local  AllianceGUID, HordeGID = string.split("|",WoWPro.Guides[GID].nextGID)
 	    if myUFG == "Alliance" then
-	        WoWPro:dbp("WoWPro:NextGuide(%s): Alliance %s", GID, AllianceGUID)
+	        WoWPro:dbp("WoWPro:NextGuide(%s): Alliance %s", GID, tostring(AllianceGUID))
 	        return AllianceGUID
 	    else
-	         WoWPro:dbp("WoWPro:NextGuide(%s): Horde %s", GID, HordeGID)
+	         WoWPro:dbp("WoWPro:NextGuide(%s): Horde %s", GID, tostring(HordeGID))
 	        return HordeGID
 	    end
 	else
-	     WoWPro:dbp("WoWPro:NextGuide(%s):  %s", GID, WoWPro.Guides[GID].nextGID)
+	     WoWPro:dbp("WoWPro:NextGuide(%s):  %s", GID, tostring(WoWPro.Guides[GID].nextGID))
 	    return WoWPro.Guides[GID].nextGID
 	end
 end
