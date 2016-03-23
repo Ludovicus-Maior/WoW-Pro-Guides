@@ -64,7 +64,7 @@ function WoWPro.Profession:RegisterGuide(GIDvalue, zonename, guidename, authorna
     
     local guide = WoWPro:RegisterGuide(GIDvalue, "Profession", zonename, authorname, factionname)
     WoWPro:GuideName(guide, guidename)
-    WoWPro:GuideLevels(guide,0,WoWPro:PlayerLevel(),WoWPro:PlayerLevel()/2.0)
+    WoWPro:GuideLevels(guide,0,UnitLevel("player"),UnitLevel("player")/2.0)
     WoWPro:GuideSteps(guide,sequencevalue)
     WoWPro:BuyersGuide(guide)
     return guide
