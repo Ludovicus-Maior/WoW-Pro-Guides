@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2016-03-23 12:41
+-- Who: Ludovicus
+-- Log: Fixing step merge.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27392/view
 -- Date: 2015-10-05 14:50
 -- Who: Ludovicus
 -- Log: Correct coords for [Wayward Fire Elemental] and [Grik'nir the Cold]
@@ -247,20 +252,6 @@
 -- Who: Fluclo
 -- Log: Corrected Zone on Ride to Ironforge quests
 
--- URL: http://wow-pro.com/node/3200/revisions/24517/view
--- Date: 2011-06-07 23:07
--- Who: Ludovicus
--- Log: ! Line 128 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|Gnome,Dwarf|]
---	! Line 129 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.47,50.97|N|You should visit your class trainer Granis Swiftaxe. Click this step to continue.|C|Warrior|Gnome,Dwarf|]
---	! Line 130 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Maxan Anvol. Click this step to continue.|C|Priest|Gnome,Dwarf|]
---	! Line 131 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.61,50.40|N|You should visit your class trainer Magis Sparkmantle. Click this step to continue.|C|Mage|Gnome,Dwarf|]
---	! Line 132 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Azar Stronghammer. Click this step to continue.|C|Paladin|Gnome,Dwarf|]
---	! Line 133 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.60,50.23|N|You should visit your class trainer Halbin Frosthammer. Click this step to continue.|C|Shaman|Gnome,Dwarf|]
---	! Line 137 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Gimrizz Shadowcog. Click this step to continue.|C|Warlock|Gnome,Dwarf|]
---	! Line 138 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Grif Wildheart. Click this step to continue.|C|Hunter|Gnome,Dwarf|]
---	! Line 139 for step N has unknown tag [Gnome,Dwarf]: [N Primary Professions |QID|384|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |Gnome,Dwarf|]
---	! Line 271 for step R has unknown tag [77.14,18.52]: [R Striking Back|QID|26094|77.14,18.52|N|Put the bombs on the action bar. Jump into the Repaired Bomber here.|CC|]
-
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,2,1.1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -390,7 +381,8 @@ A Ice and Fire |PRE|24489|QID|218|M|42.74,62.22|N|From Grelin Whitebeard.|
 T A Refugee's Quandary |QID|3361|M|42.04,63.34|N|To Felix Whindlebolt.|
 C Ice and Fire |S|QID|218|M|51.17,82.44;37.17,78.31|N|Enter the cave, keeping to the left as you go throught it, killing Frostmane Novices and Blades as you go.|CC|
 K Wayward Fire Elemental |QID|218|M|12.61,36.80;36.91,78.19|Z|Coldridge Valley/9|CS|T|Wayward Fire Elemental|QO|2|N|Kill the Wa
-K Grik'nir the Cold |QID|218|M|76.24,32.00|Z|Coldridge Valley/9|T|Grik'nir the Cold|QO|1|N|Kill Grik'nir the Cold.|C Ice and Fire |US|QID|218|M|33.31,77.83|N|Make your way out of the cave, killing any Frostmane Novices and Blades you still need.|
+K Grik'nir the Cold |QID|218|M|76.24,32.00|Z|Coldridge Valley/9|T|Grik'nir the Cold|QO|1|N|Kill Grik'nir the Cold.|
+C Ice and Fire |US|QID|218|M|33.31,77.83|N|Make your way out of the cave, killing any Frostmane Novices and Blades you still need.|
 
 L Level 5 |LVL|5|QID|218|N|You should be around level 5 by this point|
 
