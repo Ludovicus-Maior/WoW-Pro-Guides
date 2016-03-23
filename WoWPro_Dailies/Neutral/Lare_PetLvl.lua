@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_levelup_125
+-- Date: 2016-03-23 02:09
+-- Who: Ludovicus
+-- Log: Um, 'nil' is not nil
+
+-- URL: http://wow-pro.com/node/3642/revisions/27407/view
 -- Date: 2016-01-08 23:16
 -- Who: Ludovicus
 
@@ -16,7 +21,7 @@ local guide = WoWPro:RegisterGuide("LareLvlPet","Dailies","Pandaria", "Larenon",
 WoWPro:GuideLevels(guide,1, 90, 45)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
 WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet Levelup 1-25","Pets")
-WoWPro:GuideNextGuide(guide, 'nil')
+WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
 
 return
