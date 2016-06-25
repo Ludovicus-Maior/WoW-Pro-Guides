@@ -453,16 +453,24 @@ function WoWPro.EventHandler(frame, event, ...)
 	    battleHide = not WoWPro.Guides[WoWProDB.char.currentguide].PetBattle
 	end
 	
-	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) and battleHide then
-		WoWPro.MainFrame:Hide()
-		WoWPro.Titlebar:Hide()
-		WoWPro.Hidden = true
+	if event == "PET_BATTLE_OPENING_START" then
+	    WoWPro.LastPetBattleWinner = nil
+	    if (not WoWPro.Hidden) and battleHide then
+        	WoWPro.MainFrame:Hide()
+        	WoWPro.Titlebar:Hide()
+        	WoWPro.Hidden = true
+        end
+		WoWPro.PetBattleActive = true
 		return
 	end
-	if event == "PET_BATTLE_CLOSE" and WoWPro.Hidden then
-		WoWPro.MainFrame:Show()
-		WoWPro.Titlebar:Show()
-		WoWPro.Hidden = nil		
+	if event == "PET_BATTLE_CLOSE" then
+	    if WoWPro.Hidden then
+    		WoWPro.MainFrame:Show()
+    		WoWPro.Titlebar:Show()
+    	end
+		WoWPro.PetBattleActive = false
+		WoWPro.Hidden = nil
+		WoWPro.current_strategy = nil		
 	end
 	
 	-- Stop processing if no guide is active or something is odd!
@@ -666,7 +674,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	end
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro:AutoCompleteSetHearth(...)
-	end	
+	end
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
 		WoWPro:AutoCompleteZone(...)
 	end
@@ -696,6 +704,17 @@ function WoWPro.EventHandler(frame, event, ...)
 	    WoWPro.NpcCheck(...)
 	end
 	
+	if event == "PET_BATTLE_PET_ROUND_RESULTS" then
+	    WoWPro:UpdateGuide(event)
+	end
+	
+	if event == "PET_BATTLE_FINAL_ROUND" then
+	    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+	    local winner = ...
+	    WoWPro:DelFauxQuest(WoWPro.QID[qidx])
+	    WoWPro:UpdateGuide(event)
+	end
+	
 	-- Module Event Handlers --
 	for name, module in WoWPro:IterateModules() do
 		if WoWPro[name].EventHandler 
@@ -704,6 +723,7 @@ function WoWPro.EventHandler(frame, event, ...)
 		and guidetype == name 
 		then WoWPro[name]:EventHandler(frame, event, ...) end
 	end
+	
 	
 
 end

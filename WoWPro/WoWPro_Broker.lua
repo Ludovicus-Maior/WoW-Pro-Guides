@@ -420,6 +420,14 @@ function WoWPro.NextStep(k,i)
 			break
 		end
 		
+		-- ! Steps --
+		if WoWPro.action[k] == "!" then
+		    -- These had their effect when the guide was parsed
+            WoWPro.CompleteStep(k,"NPC Mapping completed")
+            skip = true
+            break
+        end
+
 		-- Optional Quests --
 		if WoWPro.optional[k] and QID then 
 			skip = true --Optional steps default to skipped --
@@ -439,15 +447,15 @@ function WoWPro.NextStep(k,i)
 		end
 	
 	    -- Availible quests: not complete and not in quest log --
-	    if WoWPro.availible[k] then
-	        local availible = WoWPro.availible[k]
-	        if WoWPro:QIDsInTable(availible,WoWPro.QuestLog) then
-	            WoWPro.CompleteStep(k,"NextStep(): Availible quest is currently in quest log")
+	    if WoWPro.available[k] then
+	        local available = WoWPro.available[k]
+	        if WoWPro:QIDsInTable(available,WoWPro.QuestLog) then
+	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently in quest log")
 	            break
 	        end
-	        if WoWPro:IsQuestFlaggedCompleted(availible) then
+	        if WoWPro:IsQuestFlaggedCompleted(available) then
 	            skip = true
-	            WoWPro.CompleteStep(k,"NextStep(): Availible quest is currently complete")
+	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently complete")
 	            break
 	        end 
 	    end 
@@ -529,10 +537,12 @@ function WoWPro.NextStep(k,i)
         end
 
         -- Partial Completion --
-        if WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and WoWPro:QIDsInTable(QID,WoWPro.QuestLog,'leaderBoard') and WoWPro.questtext[k] 
-        and not WoWProCharDB.Guide[GID].completion[k] then
-                local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
-                -- WoWPro:Print("LFO: qid is %s",tostring(qid))
+        if WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and
+           WoWPro:QIDsInTable(QID,WoWPro.QuestLog,'leaderBoard') and
+           WoWPro.questtext[k] and
+           not WoWProCharDB.Guide[GID].completion[k] then
+            local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
+            -- WoWPro:Print("LFO: qid is %s",tostring(qid))
 	        local numquesttext = select("#", string.split(";", WoWPro.questtext[k]))
 	        local complete = true
 	        for l=1,numquesttext do
@@ -564,7 +574,7 @@ function WoWPro.NextStep(k,i)
     			skip = true -- If the quest is not in the quest log, the step is skipped --
     			WoWPro:dbp("Step %s [%s/%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],tostring(QID))
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
-    			
+    			break
     		elseif WoWPro.action[k] == "T" and QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end) then
     		    -- For turnins, make sure we have completed the criteria
     		    if WoWPro.conditional[k] and not QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
@@ -960,6 +970,61 @@ function WoWPro.NextStep(k,i)
 			skip = true 
 		end
 
+        -- PETS!!  There are two classses of pet steps:  Selection and Strategy
+        -- Selection steps check have PET{123} tags to pick pets and a STRATEGY step to set the strategy
+        -- The complete if all the pets can be selected and then set the strategy
+        -- If the STRATEGY is already set, then this step is skipped
+        -- Example:
+        --     C Iron Starlette/Darkmoon Zepplin|QID|85561.1|PET1|Iron Starlette;77221;1+1+1|PET2|Darkmoon Zepplin;85561;1+1+2|PET3|Leveling;;;L>20|STRATEGY|IS/DZ|
+        if (WoWPro.pet1[k] or WoWPro.pet2[k] or WoWPro.pet3[k]) and WoWPro.strategy[k] then
+            if not WoWPro.current_strategy then
+                if  WoWPro.PetSelectStep(k) then
+                    WoWPro.current_strategy = WoWPro.strategy[k]
+                    WoWPro.CompleteStep(k, "NextStep(): Selected pet strategy " .. WoWPro.current_strategy)
+                    WoWPro:Print("Selected %s as the PetBattle strategy.", WoWPro.current_strategy)
+                    skip = true
+                else
+                    WoWPro.why[k] = "NextStep(): pets not matched for strategy " ..  WoWPro.strategy[k]
+                    skip = true
+                end
+            else
+                WoWPro.why[k] = "NextStep(): Another strategy is active!"
+                skip = true                
+            end
+            break
+        end
+        
+        -- Pet Strategy steps guide the user in the use of the pets.
+        if WoWPro.PetBattleActive and WoWPro.strategy[k] and WoWPro.current_strategy then
+            if WoWPro.strategy[k] ~= WoWPro.current_strategy then
+                -- Step is for strategy not active
+                WoWPro.why[k] = "NextStep(): not active strategy " ..  WoWPro.current_strategy
+                skip = true
+                break 
+            end
+            -- So we are in an active strategy step
+            if WoWPro.select[k] then
+                -- make sure this pet is active
+                WoWPro.PetSelect(WoWPro.select[k])
+            end
+            -- Three ways to end the step:
+            --    1) |DEAD|PET{123}| or|DEAD|{NPCID} i.e. switch when someone dies
+            --    2) |SWITCH|PET{123}| i.e. manual switch when button is pressed
+            --    3) |WIN| i.e. if you won, complete, if you lost, clear step completetion for all steps with current strategy.
+            -- Example:
+            -- C Iron Starlette|QID|85561.1|STRATEGY|IS/DZ|N|Brutus:\n1: Windup\m2: Supercharge (kill Brutus)\n3:Windup (and die)|SELECT|1|DEAD|PET1|
+            -- C Darkmoon Zepplin|QID|85561.1|STRATEGY|IS/DZ|N|Rukus:\n1: Bombing Run\m2: Missle\n3:Missle (and die)|SELECT|2|DEAD|PET2|
+            -- C Leveling Pet|QID|85561.1|STRATEGY|IS/DZ|N|Leveling:\n1: Best Damage\n2: Best Damage\n3: Bomb Hits|SELECT|3|DEAD|85655|WIN|
+            if WoWPro.dead[k] then
+                local dead = WoWPro.PetDead(WoWPro.dead[k])
+                if dead then
+                    WoWPro.CompleteStep(k, "NextStep(): PetDead():" .. tostring(dead) .. " died")
+                    skip = true
+                    break
+                end
+            end
+            -- SWITCH handling is done by WoWPro:RowUpdate(), which sets the use button to the next pet          
+        end
 
 		skip = WoWPro[WoWPro.Guides[GID].guidetype]:NextStep(k, skip)
 				
@@ -1056,7 +1121,7 @@ end
 
 
 function WoWPro:AddFauxQuest(questID, questTitle, level, suggestedGroup, isComplete, ocompleted, isDaily, leaderBoard )
-    WoWPro:dbp("AddFauxQuest(%s,'$s')",tostring(questID), tostring(questTitle))
+    WoWPro:dbp("AddFauxQuest(%s,'%s')",tostring(questID), tostring(questTitle))
 	WoWPro.FauxQuestLog[questID] = {
 		title = questTitle,
 		level = level,
@@ -1075,7 +1140,9 @@ function WoWPro:AddFauxQuest(questID, questTitle, level, suggestedGroup, isCompl
 end
 
 function WoWPro:DelFauxQuest(questID)
+    if not questID then return; end
     WoWPro.FauxQuestLog[questID] = nil
+    WoWPro.QuestLog[questID] = nil
     WoWPro:SendMessage("WoWPro_PuntedQLU")
 end
 
@@ -1179,7 +1246,7 @@ function WoWPro:PopulateQuestLog()
 	for QID, questInfo in pairs(WoWPro.QuestLog) do
 		if not WoWPro.oldQuests[QID] then 
 			WoWPro.newQuest = QID 
-			WoWPro:print("New Quest %d: [%s]",QID,WoWPro.QuestLog[QID].title)
+			WoWPro:print("New Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
 		end
 		-- Is this an auto-switch quest?
 		if WoWProDB.global.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProDB.global.QID2Guide[QID] then
@@ -1198,11 +1265,15 @@ function WoWPro:PopulateQuestLog()
 
 	-- Print updated objectives --
 	for QID, questInfo in pairs(WoWPro.oldQuests) do
-		if WoWPro.QuestLog[QID] then 
-            if WoWPro.oldQuests[QID].leaderboard and WoWPro.QuestLog[QID].leaderboard then
-                for  idx, status in pairs(WoWPro.oldQuests[QID].leaderboard) do
-                    if WoWPro.QuestLog[QID].leaderboard[idx] ~= WoWPro.oldQuests[QID].leaderboard[idx] then
-                        WoWPro:print("Updated objective: "..WoWPro.QuestLog[QID].leaderboard[idx])
+	    WoWPro:print("Old QID %d", QID)
+		if WoWPro.QuestLog[QID] then
+		    WoWPro:print("New QID %d", QID)
+            if WoWPro.oldQuests[QID].leaderBoard and WoWPro.QuestLog[QID].leaderBoard then
+                for idx, status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
+                    -- Same Objective
+                    WoWPro:print("idx %d, status %s",idx,status) 
+                    if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
+                        WoWPro:print("Completed objective %d (%s) on quest [%s]", idx, WoWPro.QuestLog[QID].leaderBoard[idx], WoWPro.QuestLog[QID].title)
                     end
                 end
             end

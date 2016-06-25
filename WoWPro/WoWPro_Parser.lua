@@ -170,7 +170,7 @@ DefineTag("O","optional","boolean",nil,function (text,i)
     WoWPro.optionalcount = WoWPro.optionalcount + 1;
 end)
 DefineTag("PRE","prereq","string",nil,nil)
-DefineTag("AVAILIBLE","availible","string",nil,nil)
+DefineTag("AVAILABLE","available","string",nil,nil)
 DefineTag("CC","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
 DefineTag("CS","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
 DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = false; end)
@@ -202,7 +202,8 @@ DefineTag("PET1","pet1","string",nil,nil)
 DefineTag("PET2","pet2","string",nil,nil)
 DefineTag("PET3","pet3","string",nil,nil)
 DefineTag("STRATEGY","strategy","string",nil,nil)
-DefineTag("SELECT","select","string",nil,nil)
+DefineTag("SELECT","select","number",nil,nil)
+DefineTag("SWITCH","switch","number",nil,nil)
 DefineTag("DEAD","dead","string",nil,nil)
 DefineTag("WIN","win","boolean",nil,nil)
 
@@ -355,7 +356,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 
 	local GQL = tonumber(WoWPro:GrailQuestLevel(WoWPro.QID[i]))
-    WoWPro.level[i] = WoWPro.level[i] or (WoWPro.action[i] == "A" and GQL)
+    WoWPro.level[i] = WoWPro.level[i] or GCL
 	
 	if GQL and GQL < 1 and tonumber(WoWPro.QID[i]) < 100000  then
 	    WoWPro:dbp("Guide %s QID %s: Grail reports %s!",GID,WoWPro.QID[i],GQL)
@@ -363,9 +364,13 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     end
 
 	if WoWPro.DebugLevel > 0 and GQL and tonumber(WoWPro.QID[i]) and tonumber(WoWPro.QID[i]) < 100000 then
-	    if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel > 1 and GQL < 2 then
-            -- Treat a 1 from grail as meaning no level requirement.
-	        GQL = WoWPro.Guides[GID].startlevel
+	    if WoWPro.Guides[GID].startlevel then
+	        if  WoWPro.Guides[GID].startlevel > 1 then
+	            if GQL < 2 then
+                    -- Treat a 1 from grail as meaning no level requirement.
+        	        GQL = WoWPro.Guides[GID].startlevel
+        	    end
+        	end
 	    end
         if WoWPro.Guides[GID].startlevel and (GQL+2) < WoWPro.Guides[GID].startlevel then
               WoWPro:Warning("Guide %s QID %s is level %d, but startlevel=%d!",GID,WoWPro.QID[i],GQL, WoWPro.Guides[GID].startlevel)
@@ -423,15 +428,14 @@ function WoWPro.RecordStuff(i)
 
     if WoWPro.action[i] == "!" then
         -- NPC triggered QID
-        -- ! Brutus/Ruckus|NPC|85561;85655|QID|-85561|
+        -- ! Brutus/Ruckus|NPC|85561;85655|QID|85561.1|
         local numNPCs = select("#", string.split(";", NPCs))
-        local qid = tonumber(QIDs)
     	for j=1,numNPCs do
     		local npc = select(numNPCs-j+1, string.split(";", NPCs))
     		local NPC = tonumber(npc)
     		if NPC then
-    			WoWProDB.global.NpcFauxQuests[NPC] = {qid = qid, title = WoWPro.step[i]}
-    			WoWPro:Print("Recorded NPC %d => QID %g",NPC, qid)
+    			WoWProDB.global.NpcFauxQuests[NPC] = {qid = tonumber(QIDs), title = WoWPro.step[i]}
+--    			WoWPro:Print("Recorded NPC %d => QID %s",NPC, QIDs)
     		end
     	end        
     else
@@ -441,7 +445,9 @@ function WoWPro.RecordStuff(i)
     		local qid = select(numQIDs-j+1, string.split(";", QIDs))
     		local QID = tonumber(qid)
     		if QID then
+--    		    WoWPro:Print("Recorded QID %s to GID %s",qid,GID)
     			WoWProDB.global.QID2Guide[QID] = GID
+    			WoWProDB.global.QID2Guide[qid] = GID
     		end
         end
     end
@@ -456,8 +462,11 @@ function WoWPro:ParseSteps(steps)
 	local myclassL, myclass = UnitClass("player")
 	local myraceL, myrace = UnitRace("player")
 	local myFaction = strupper(UnitFactionGroup("player"))
-	local zone = strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
+	local zone = strtrim(string.match(WoWPro.Guides[GID].zone or "", "([^%(]+)"))
 
+    if WoWPro.Recorder then
+        i = 1 -- No extra steps for recorder guides
+    end
 	if myrace == "Scourge" then
 		myrace = "Undead"
 	end
@@ -509,12 +518,14 @@ function WoWPro:ParseSteps(steps)
 	end
 	-- OK, now add a standard L step at the start of every guide
 	local init,min_level
-	min_level = WoWPro.Guides[GID].startlevel or 1
-	init = string.format("L Level %d|LVL|%d|N|You need to be level %d to start this guide.|",min_level,min_level,min_level)
-	WoWPro.ParseQuestLine(faction, zone, 1, init)
+	if not WoWPro.Recorder then
+    	min_level = WoWPro.Guides[GID].startlevel or 1
+    	init = string.format("L Level %d|LVL|%d|N|You need to be level %d to start this guide.|",min_level,min_level,min_level)
+    	WoWPro.ParseQuestLine(faction, zone, 1, init)
+	end
 	
 	-- OK, now add a standard L step just before the end of the guide, if we have an end-level
-	if WoWPro.Guides[GID].endlevel then
+	if not WoWPro.Recorder and WoWPro.Guides[GID].endlevel then
 	    local halt
 	    local endlevel = WoWPro.Guides[GID].endlevel
 	    halt =  string.format("L Level %d|LVL|%d|N|You need to be level %d to finish this guide.|",endlevel,endlevel,endlevel)
@@ -524,15 +535,17 @@ function WoWPro:ParseSteps(steps)
 
 	-- OK, now add a standard D step at the end of every guide
 	local fini, nguide
-	nguide = WoWPro:NextGuide(GID)
-	if nguide then
-	    fini = string.format("D Onwards|N|This ends %s. %s is next.|",WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide))
-	else
-	    fini = string.format("D Fini|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|",WoWPro:GetGuideName(GID))
-	end
-	WoWPro.ParseQuestLine(faction, zone, i, fini)
-    WoWPro.stepcount = i
-
+    	if not  WoWPro.Recorder then
+    	nguide = WoWPro:NextGuide(GID)
+    	if nguide then
+    	    fini = string.format("D Onwards|N|This ends %s. %s is next.|",WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide))
+    	else
+    	    fini = string.format("D Fini|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|",WoWPro:GetGuideName(GID))
+    	end
+    	WoWPro.ParseQuestLine(faction, zone, i, fini)
+        WoWPro.stepcount = i
+    end
+    
 	if WoWPro.DebugLevel > 0 then
 	    if WoWPro.Guides[GID].acnt_level > 0 then
             if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel ~= WoWPro.Guides[GID].amin_level then
@@ -912,7 +925,7 @@ function WoWPro:RowUpdate(offset)
 		
 		-- Item Button --
 		if action == "H" and not use then use = 6948 end
-		if ( not use ) and action == "C" and WoWPro.QuestLog[tonumber(QID)] then
+		if ( not use ) and action == "C" and WoWPro.QuestLog[tonumber(QID)] and WoWPro.QuestLog[tonumber(QID)].index then
 			local link, icon, charges = GetQuestLogSpecialItemInfo(WoWPro.QuestLog[tonumber(QID)].index)
 			if link then
 				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
@@ -949,6 +962,17 @@ function WoWPro:RowUpdate(offset)
 				end
 				itemkb = true
 			end
+		elseif WoWPro.switch[k] then
+		    row.itembutton:Show()
+		    row.itemicon:SetTexture(WoWPro.PetIcon(WoWPro.switch[k]))
+		    row.itembutton:SetAttribute("type", "SwitchPet")
+		    local switch = WoWPro.switch[k]
+		    local kk = k 
+		    row.itembutton.SwitchPet = function ()
+		        WoWPro:Print("Switch Pet Button %s %d", type(switch), switch )
+		        C_PetBattles.ChangePet(switch)
+		        WoWPro.CompleteStep(kk, "Clicked pet switch")
+		    end
 		else row.itembutton:Hide() end
 		
 		-- Loots Button --

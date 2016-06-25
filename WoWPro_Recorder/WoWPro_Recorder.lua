@@ -60,8 +60,8 @@ function WoWPro.Recorder:RegisterSavedGuides()
 			guidetype = guideInfo.guidetype,
 			zone = guideInfo.zone,
 			author = guideInfo.author,
-			startlevel = guideInfo.startlevel,
-			endlevel = guideInfo.endlevel,
+			startlevel = tonumber(guideInfo.startlevel),
+			endlevel = tonumber(guideInfo.endlevel),
 			sequence = function()
 return guideInfo.sequence
 end,
@@ -185,36 +185,33 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 		else
 		    WoWPro.Recorder:dbp("Got PQLU and looking for changed quest status")
 			for QID, questInfo in pairs(WoWPro.QuestLog) do
-				if questInfo.complete then 
-					if not WoWPro.oldQuests[QID].complete then
-						WoWPro.Recorder:dbp("Quest "..QID.." is newly complete.")
-						local nc = false
-						if GetNumQuestLeaderBoards(questInfo.index) then 
-							for j=1,GetNumQuestLeaderBoards(questInfo.index) do 
-								local objtype = select(2,GetQuestLogLeaderBoard(j, questInfo.index))
-								if objtype == "event" then nc = true end
-							end 
-						end
-						local stepInfo = {
-							action = "C",
-							step = questInfo.title,
-							QID = QID,
-							map = string.format("%.2f,%.2f", x*100,y*100),
-							zone = zonetag,
-							noncombat = nc,
-							use = questInfo.use,
-							questtext = questInfo.leaderBoard[1],
-							class = checkClassQuest(QID,WoWPro.QuestLog)
-						}
-						WoWPro.Recorder:AddStep(stepInfo)
-						WoWPro:AutoCompleteQuestUpdate()
+                if WoWPro.oldQuests[QID] then
+                    if WoWPro.oldQuests[QID].leaderBoard and WoWPro.QuestLog[QID].leaderBoard then
+                        for idx,status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
+                            WoWPro.Recorder:dbp("Checking status on QO #%d of QID %d aka %s",idx,QID,status)
+                            if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
+        						local stepInfo = {
+        							action = "C",
+        							step = WoWPro.QuestLog[QID].title,
+        							QID = QID,
+        							map = string.format("%.2f,%.2f", x*100,y*100),
+        							zone = zonetag,
+        							noncombat = nc,
+        							use = WoWPro.QuestLog[QID].use,
+        							note = WoWPro.QuestLog[QID].leaderBoard[idx],
+        							questtext = tostring(idx),
+        							class = checkClassQuest(QID,WoWPro.QuestLog)
+        						}
+        						WoWPro.Recorder:dbp("Completed QO #%d (%s) for [%s]",idx,stepInfo.note, stepInfo.step)
+        						WoWPro.Recorder:AddStep(stepInfo)
+        						WoWPro:AutoCompleteQuestUpdate()
+        					end
+        				end
 					end
 				end
 			end
 		end
-	
 	end
-	
 end
 
 function WoWPro.Recorder.PostQuestLogUpdate()
@@ -250,11 +247,11 @@ function WoWPro.Recorder:RowUpdate(offset)
 			{text = "Move Up", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == 1 then return end
-				for _,tag in pairs(WoWPro.Tags) do 
+				for tag,_ in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
 					table.insert(WoWPro[tag], pos-1, WoWPro[tag][pos])
 				end
-				for _,tag in pairs(WoWPro.Tags) do 
+				for tag,_ in pairs(WoWPro.Tags) do 
 					table.remove(WoWPro[tag], pos+1)
 				end
 				WoWPro.Recorder.SelectedStep = pos-1
@@ -264,11 +261,11 @@ function WoWPro.Recorder:RowUpdate(offset)
 			{text = "Move Down", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == WoWPro.stepcount then return end
-				for _,tag in pairs(WoWPro.Tags) do 
+				for tag,_ in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
 					table.insert(WoWPro[tag], pos+2, WoWPro[tag][pos])
 				end
-				for _,tag in pairs(WoWPro.Tags) do 
+				for tag,_ in pairs(WoWPro.Tags) do 
 					table.remove(WoWPro[tag], pos)
 				end
 				WoWPro.Recorder.SelectedStep = pos+1
@@ -277,7 +274,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 			end},
 			{text = "Clone Step", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
-				for _,tag in pairs(WoWPro.Tags) do 
+				for tag,_ in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
 					table.insert(WoWPro[tag], pos+1, WoWPro[tag][pos])
 				end
@@ -309,7 +306,7 @@ function WoWPro.Recorder:AddStep(stepInfo,position)
     end
 	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 	WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos, stepInfo.action, stepInfo.step)
-	for i,tag in pairs(WoWPro.Tags) do 
+	for tag,_ in pairs(WoWPro.Tags) do 
 		value = stepInfo[tag]
 		if not value then value = false end
 		table.insert(WoWPro[tag], pos+1, value)
@@ -332,7 +329,7 @@ function WoWPro.Recorder:RemoveStep(position)
     end
 	local pos = position or WoWPro.stepcount
 	WoWPro.Recorder:dbp("Deleteing step %d %s [%s]",pos, WoWPro.action, WoWPro.step)
-	for i,tag in pairs(WoWPro.Tags) do 
+	for tag,_ in pairs(WoWPro.Tags) do 
 		table.remove(WoWPro[tag], pos)
 --		WoWPro.Recorder:dbp("Removing tag "..tag.." at position "..pos)
 	end
@@ -415,8 +412,8 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 		guidetype = WoWPro.Guides[GID].guidetype,
 		zone = WoWPro.Guides[GID].zone,
 		author = WoWPro.Guides[GID].author,
-		startlevel = WoWPro.Guides[GID].startlevel,
-		endlevel = WoWPro.Guides[GID].endlevel,
+		startlevel = tonumber(WoWPro.Guides[GID].startlevel),
+		endlevel = tonumber(WoWPro.Guides[GID].endlevel),
 		sequence = sequence,
 		nextGID = WoWPro.Guides[GID].nextGID,
 		faction = UnitFactionGroup("player")
