@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2016-06-23 23:41
+-- Who: Linkslegend5
+
+-- URL: http://wow-pro.com/node/3204/revisions/27260/view
 -- Date: 2015-05-19 11:09
 -- Who: Ludovicus
 -- Log: Update Nelf Starter
@@ -196,24 +200,24 @@ T Encrypted Sigil|QID|3118|C|Rogue|M|47.92,62.05|N|To Frahun Shadewhisper.|R|Nig
 T Calligraphed Sigil|QID|31168|C|Monk|M|50.07,62.93|N|To Laoxi.|R|Night Elf|
 
 A A Woodsman's Training|QID|26947|PRE|3117|C|Hunter|M|47.97,61.62|N|From Ayanna Everstride.|R|Night Elf|
-A Rejuvenating Touch|QID|26948|PRE|3120|C|Druid|M|46.59,56.62|N|From Mardant Strongoak.|R|Night Elf|
-A Arcane Missles|QID|26940|PRE|26841|C|Mage|M|49.81,61.80|N|From Rhyanda.|R|Night Elf|
+A Moonfire|QID|26948|PRE|3120|C|Druid|M|46.59,56.62|N|From Mardant Strongoak.|R|Night Elf|
+A Frost Nova|QID|26940|PRE|26841|C|Mage|M|49.81,61.80|N|From Rhyanda.|R|Night Elf|
 A Learning New Techniques|QID|26945|PRE|3116|C|Warrior|M|49.02,52.68|N|From Alyissia.|R|Night Elf|
 A Learning the Word|QID|26949|PRE|3119|C|Priest|M|49.52,61.18|N|From Shanda.|R|Night Elf|
 A A Rogue's Advantage|QID|26946|PRE|3118|C|Rogue|M|47.92,62.05|N|From Frahun Shadewhisper.|R|Night Elf|
 A The Art of the Monk|QID|31169|PRE|31168|C|Monk|M|50.07,62.93|N|From Laoxi.|R|Night Elf|
 
-C A Woodsman's Training|QID|26947|C|Hunter|M|49.14,60.86|N|Train Steady Shot and practice it on a practice dummy.|R|Night Elf|
-C Rejuvenating Touch|QID|26948|C|Druid|N|Train Rejuvenation. Use it to heal a Wounded Sentinel.|R|Night Elf|
-C Arcane Missles|QID|26940|C|Mage|M|49.14,60.86|N|Train Arcane Missles. Use it on the Training Dummy.|R|Night Elf|
-C Learning New Techniques|QID|26945|C|Warrior|M|49.14,60.86|N|Train Charge. Use it  on the Training Dummy.|R|Night Elf|
-C Learning the Word|QID|26949|C|Priest|M|49.14,60.86|N|Train Shadow Word: Pain. Use it on the Training Dummy.|R|Night Elf|
-C A Rogue's Advantage|QID|26946|C|Rogue|M|49.14,60.86|N|Train Eviscerate. Use it on Training Dummy.|R|Night Elf|
-C The Art of the Monk|QID|31169|C|Monk|M|49.14,60.86|N|Use Tiger Palm on Training Dummy.|R|Night Elf|
+C A Woodsman's Training|QID|26947|C|Hunter|M|48.94,66.58|N|You automatically learn Steady Shot. Practice it on the Training Dummy outside.|R|Night Elf|
+C Moonfire|QID|26948|C|Druid|M|48.94,66.58|N|You automatically learn Moonfire. Practice it on the Training Dummy outside.|R|Night Elf|
+C Frost Nova|QID|26940|C|Mage|M|48.94,66.58|N|You automatically learn Frost Nova. Practice it on the Training Dummy outside.|R|Night Elf|
+C Learning New Techniques|QID|26945|C|Warrior|M|48.94,66.58|N|You automatically learn Charge. Practice it on the Training Dummy outside.|R|Night Elf|
+C Learning the Word|QID|26949|C|Priest|M|48.94,66.58|N|You automatically learn Shadow Word: Pain. Practice it on the Training Dummy outside.|R|Night Elf|
+C A Rogue's Advantage|QID|26946|C|Rogue|M|48.94,66.58|N|You automatically learn Eviscerate. Practice it on Training Dummy outside.|R|Night Elf|
+C The Art of the Monk|QID|31169|C|Monk|M|48.94,66.58|N|You automatically learn Tiger Palm. Practice it on the Training Dummy outside.|R|Night Elf|
 
 T A Woodsman's Training|QID|26947|C|Hunter|M|47.97,61.62|N|To Ayanna Everstride.|R|Night Elf|
-T Rejuvenating Touch|QID|26948|C|Druid|M|46.59,56.62|N|To Mardant Strongoak.|R|Night Elf|
-T Arcane Missles|QID|26940|C|Mage|M|49.81,61.80|N|To Rhyanda.|R|Night Elf|
+T Moonfire|QID|26948|C|Druid|M|46.59,56.62|N|To Mardant Strongoak.|R|Night Elf|
+T Frost Nova|QID|26940|C|Mage|M|49.81,61.80|N|To Rhyanda.|R|Night Elf|
 T Learning New Techniques|QID|26945|C|Warrior|M|47.80,61.80|N|To Alyissia.|R|Night Elf|
 T Learning the Word|QID|26949|C|Priest|M|49.52,61.18|N|To Shanda.|R|Night Elf|
 T A Rogue's Advantage|QID|26946|C|Rogue|M|47.92,62.05|N|To Frahun Shadewhisper.|R|Night Elf|
@@ -225,6 +229,8 @@ T Priestess of the Moon|QID|28723|M|42.50,50.49|N|To Dentaria Silverglade. Go ou
 A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|N|From Dentaria Silverglade.|R|Night Elf|
 C Iverron's Antidote|QID|28724|M|43.34,51.71|N|Around the pools.|R|Night Elf|
 T Iverron's Antidote|QID|28724|M|42.50,50.49|N|To Dentaria Silverglade.|R|Night Elf|
+
+R Shadowthread Cave|QID|28725|M|39.15,30.51|N|Walk inside the Cave until Tarindrella appears.|
 
 A The Woodland Protector|QID|28725|PRE|28724|M|44.57,81.56|N|From Tarindrella.|R|Night Elf|
 T The Woodland Protector|QID|28725|N|To Tarindrella.|R|Night Elf|
@@ -253,7 +259,7 @@ L Level 5|QID|28730|LVL|5|N|You should be around level 5 by this point.|
 
 A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|47.20,55.96|N|From Tenaron Stormgrip.|R|Night Elf|
 
-r Aldrassil|QID|28731|NC|M|49.06,60.39|N|Repair and Restock with Freja. Sell junk and train.|R|Night Elf|
+r Aldrassil|QID|28731|NC|M|49.06,60.39|N|Repair and Restock with Freja. Sell any unwanted items.|R|Night Elf|
 
 A Dolanaar Delivery|QID|2159|M|54.56,84.72|N|From Porthannius.|
 

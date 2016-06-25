@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2016-06-23 23:41
+-- Who: Linkslegend5
+
+-- URL: http://wow-pro.com/node/3204/revisions/27260/view
 -- Date: 2015-05-19 11:09
 -- Who: Ludovicus
 -- Log: Update Nelf Starter
