@@ -187,7 +187,7 @@ if not oldversion or oldversion < 15 then
             end
         end
 
-        local numFloors = GetNumDungeonMapLevels()
+        local numFloors = GetNumDungeonMapLevels() or 0
         if numFloors == 0 and GetCurrentMapDungeonLevel() == 1 then
             numFloors = 1
             mapData[id].fakefloor = true
