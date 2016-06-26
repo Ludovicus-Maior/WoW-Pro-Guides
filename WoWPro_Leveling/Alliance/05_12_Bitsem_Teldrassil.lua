@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2016-06-25 22:13
+-- Who: Linkslegend5
+-- Log: Changed points where a person would be a level without heirlooms.
+--	Fixed some typos. Changed a quest turn in to before going out for two more.
+
+-- URL: http://wow-pro.com/node/3204/revisions/27444/view
 -- Date: 2016-06-23 23:41
 -- Who: Linkslegend5
 
@@ -242,8 +248,6 @@ l Black Feather Quill|QID|483|M|45.92,54.52|L|3406|N|Ask the Sentinel Huntress w
 l Sapphire of Sky|QID|483|M|45.79,51.29|L|3407|N|Ask the Sentinel Huntress where the Sapphire of Sky is and follow the mist, then loot the Sapphire.|
 C The Relics of Wakening|QID|483|M|46.75,50.18|N|Finally, ask her about the Raven Claw Talisman. Follow the green mist and loot the Talisman.|
 
-L Level 8|QID|932|LVL|8|N|You should be around level 8 by this point.|
-
 C The Sleeping Druid|QID|2541|US|M|45.36,50.85|N|Kill Shaman.|
 T The Sleeping Druid|QID|2541|M|45.10,53.47|N|To Oben Rageclaw. Ask the Sentinel to show you the way out to find Oben Rageclaw easier.|
 A Druid of the Claw|QID|2561|PRE|2541|M|45.10,53.47|N|From Oben Rageclaw.|
@@ -251,15 +255,14 @@ C Druid of the Claw|QID|2561|NC|U|8149|M|45.64,52.75|N|Kill Rageclaw next door. 
 T Druid of the Claw|QID|2561|M|45.08,53.45|N|To Oben Rageclaw.|
 C Resident Danger|QID|13945|US|M|46.67,52.03|N|Finish killing  Ban'ethil Gnarlpinet.|
 
+L Level 8|QID|483|LVL|8|N|You should be around level 8 by this point.|
+
 H Dolanaar|QID|483|NC|M|55.65,50.04|N|Hearth to Dolanaar.|
 
 T The Relics of Wakening|QID|483|M|55.73,51.97|N|To Athridas Bearmantle.|
 A Ursal the Mauler|QID|486|M|55.73,51.97|N|From Athridas Bearmantle.|
 
 T Resident Danger|QID|13945|M|55.71,51.99|N|To Sentinel Kyra Starsong.|
-
-L Level 9|QID|486|LVL|9|N|You should be around level 9 by this point.|
-
 T Nature's Reprisal|QID|13946|M|55.75,50.49|N|To Syral Bladeleaf.|
 T Twisted Hatred|QID|932|M|55.60,50.07|N|To Tallonkai Swiftroot.|
 
@@ -272,6 +275,8 @@ C The Road to Darnassus|QID|487|M|50.80,36.67|N|Finish killing Gnarlpine Ambushe
 T The Road to Darnassus|QID|487|M|49.37,44.61|N|To Moon Priestess Amara.|
 T Ursal the Mauler|QID|486|M|55.70,51.95|N|To Athridas Bearmantle.|
 
+L Level 9|QID|997|LVL|9|N|You should be around level 9 by this point.|
+
 A Denalan's Earth|QID|997|M|55.74,50.47|N|From Syral Bladeleaf.|
 
 T Denalan's Earth|QID|997|M|59.94,59.76|N|To Denalan.|
@@ -281,13 +286,12 @@ A Timberling Sprouts|QID|919|M|59.89,59.79|N|From Denalan.|
 C Timberling Seeds|QID|918|S|M|59.80,60.80|N|Kill and loot Timberlings to get the seeds.|
 C Timberling Sprouts|QID|919|M|58.89,62.14|N|Pick up Timberling Sprouts. They look like a ball of vines.|S|
 A The Glowing Fruit|QID|930|M|57.48,62.80|N|From the Strange Fruited Plant.|
-l Moss-Twined Heart|QID|927|M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill and loot it for the .|
+l Moss-Twined Heart|QID|927|M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill it and loot the Most-Twined Heart.|
 A The Moss-twined Heart|QID|927|U|5179|N|Accept this quest from the Moss-Twined Heart.|
 C Timberling Sprouts|QID|919|M|58.89,62.14|N|Pick up Timberling Sprouts. They look like a ball of vines.|US|
 C Timberling Seeds|QID|918|US|M|59.80,60.80|N|Kill and loot Timberlings to get the seeds.|
 T Timberling Seeds|QID|918|M|59.89,59.72|N|To Denalan.|
 A Rellian Greenspyre|QID|922|PRE|918|M|59.89,59.72|N|From Denalan.|
-L Level 10|QID|922|LVL|10|N|You should be around level 10 by this point.|
 T Timberling Sprouts|QID|919|M|59.89,59.72|N|To Denalan.|
 T The Glowing Fruit|QID|930|M|59.89,59.72|N|To Denalan.|
 T The Moss-twined Heart|QID|927|M|59.89,59.72|N|To Denalan.|
@@ -303,17 +307,16 @@ C Teldrassil: The Burden of the Kaldorei|QID|7383|M|40.46,29.99|N|Fill the Ameth
 A Tears of the Moon|QID|2518|M|39.24,29.82|N|From Priestess A'moora.|
 A The Enchanted Glade|QID|937|M|39.45,29.85|N|From Sentinel Arynia Cloudsbreak.|
 
-L Level 11|QID|937|LVL|11|N|You should be around level 11 by this point.|
-
 C The Enchanted Glade|QID|937|M|36.91,29.83|N|Kill and loot Harpies until you get all the belts needed.|S|
 A Mist|QID|938|M|34.49,27.82|N|Head through the Harpies to Mist and accept this quest.|
 C Mist|QID|938|M|39.45,29.85|N|Escort Mist to Sentinel Arynia Cloudsbreak.|
 T Mist|QID|938|M|39.45,29.85|N|To Sentinel Arynia Cloudsbreak.|
 C The Enchanted Glade|QID|937|M|36.91,29.83|N|Kill and loot Harpies until you get all the belts needed.|US|
+T The Enchanted Glade|QID|937|M|39.52,29.83|N|To Sentinel Arynia Cloudsbreak.|
+L Level 10|QID|2518|LVL|10|N|You should be around level 10 by this point.|
 C Tears of the Moon|QID|2518|M|40.64,22.39|N|Kill and loot Lady Sathrah.|
 C Mossy Tumors|QID|923|M|44.28,25.79|N|Kill and loot Timberlings until you get 5 Mossy Tumors.|
 
-T The Enchanted Glade|QID|937|M|39.52,29.83|N|To Sentinel Arynia Cloudsbreak.|
 T Tears of the Moon|QID|2518|M|39.23,29.79|N|To Priestess A'moora.|
 T Mossy Tumors|QID|923|M|43.89,44.11|N|To Rellian Greenspyre.|
 
@@ -322,10 +325,9 @@ C Oakenscowl|QID|2499|M|47.34,34.83|N|Kill and loot Oakenscowl to get the Gargan
 T Oakenscowl|QID|2499|M|43.93,44.22|N|To Denalan.|
 
 T Teldrassil: The Burden of the Kaldorei|QID|7383|M|41.02,45.57|N|To Corithras Moonrage.|
+L Level 11|QID|933|LVL|11|N|You should be around level 11 by this point.|
 A Teldrassil: The Coming Dawn|QID|933|PRE|7383|M|41.02,45.57|N|From Corithras Moonrage.|
 C Teldrassil: The Coming Dawn|QID|933|U|5621|M|43.83,58.69|N|Use the Tourmaline Phial at the moonwell.|
-
-L Level 12|QID|933|LVL|12|N|You should be around level 12 by this point.|
 
 T Teldrassil: The Coming Dawn|QID|933|M|42.57,58.14|N|To Tarindrella.|
 

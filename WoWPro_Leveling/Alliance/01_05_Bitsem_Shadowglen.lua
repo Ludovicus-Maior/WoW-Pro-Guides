@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2016-06-25 22:13
+-- Who: Linkslegend5
+-- Log: Changed points where a person would be a level without heirlooms.
+--	Fixed some typos. Changed a quest turn in to before going out for two more.
+
+-- URL: http://wow-pro.com/node/3204/revisions/27444/view
 -- Date: 2016-06-23 23:41
 -- Who: Linkslegend5
 
