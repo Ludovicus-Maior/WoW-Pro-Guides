@@ -1,0 +1,24 @@
+------------------------------------------------------------------------
+r1138 | nevcairiel | 2016-06-01 10:17:04 +0000 (Wed, 01 Jun 2016) | 3 lines
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+
+AceGUI-3.0: TreeGroup: Refresh the tree in an OnUpdate once after Acquire, not only after creation
+
+The widget creation and acquire can be on different code paths, this ensures the tree height is always known and the tree populated properly.
+------------------------------------------------------------------------
+r1137 | nevcairiel | 2016-05-15 10:57:36 +0000 (Sun, 15 May 2016) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
+
+AceGUI-3.0: Use SetColorTexture in 7.0
+------------------------------------------------------------------------
+r1136 | nevcairiel | 2015-10-22 23:09:27 +0000 (Thu, 22 Oct 2015) | 1 line
+Changed paths:
+   M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
+
+AceDBOptions-3.0: Update localization from WoWAce, add ptBR
+------------------------------------------------------------------------
