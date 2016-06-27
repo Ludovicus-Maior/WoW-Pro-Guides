@@ -1,6 +1,6 @@
 -- HereBeDragons is a data API for the World of Warcraft mapping system
 
-local MAJOR, MINOR = "HereBeDragons-1.0", 15
+local MAJOR, MINOR = "HereBeDragons-1.0", 19
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -17,6 +17,8 @@ HereBeDragons.microDungeons    = HereBeDragons.microDungeons or {}
 HereBeDragons.transforms       = HereBeDragons.transforms or {}
 
 HereBeDragons.callbacks        = CBH:New(HereBeDragons, nil, nil, false)
+
+local IsLegion = select(4, GetBuildInfo()) >= 70000
 
 -- constants
 local TERRAIN_MATCH = "_terrain%d+$"
@@ -43,14 +45,25 @@ local currentPlayerZoneMapID, currentPlayerLevel, currentMapFile, currentMapIsMi
 local instanceIDOverrides = {
     -- Draenor
     [1152] = 1116, -- Horde Garrison 1
-    [1153] = 1116, -- Horde Garrison 2
-    [1154] = 1116, -- Horde Garrison 3
+    [1330] = 1116, -- Horde Garrison 2
+    [1153] = 1116, -- Horde Garrison 3
+    [1154] = 1116, -- Horde Garrison 4 (unused)
     [1158] = 1116, -- Alliance Garrison 1
-    [1159] = 1116, -- Alliance Garrison 2
-    [1160] = 1116, -- Alliance Garrison 3
+    [1331] = 1116, -- Alliance Garrison 2
+    [1159] = 1116, -- Alliance Garrison 3
+    [1160] = 1116, -- Alliance Garrison 4 (unused)
     [1191] = 1116, -- Ashran PvP Zone
+    [1203] = 1116, -- Frostfire Finale Scenario
+    [1207] = 1116, -- Talador Finale Scenario
+    [1277] = 1116, -- Defense of Karabor Scenario (SMV)
+    [1402] = 1116, -- Gorgrond Finale Scenario
     [1464] = 1116, -- Tanaan
     [1465] = 1116, -- Tanaan
+    -- Legion
+    [1478] = 1220, -- Temple of Elune Scenario (Val'Sharah)
+    [1502] = 1220, -- Dalaran Underbelly
+    [1533] = 0,    -- Karazhan Artifact Scenario
+    [1612] = 1220, -- Feral Druid Artifact Scenario (Suramar)
 }
 
 -- unregister and store all WORLD_MAP_UPDATE registrants, to avoid excess processing when
@@ -73,10 +86,11 @@ local function RestoreWMU()
 end
 
 -- gather map info, but only if this isn't an upgrade (or the upgrade version forces a re-map)
-if not oldversion or oldversion < 15 then
+if not oldversion or oldversion < 18 then
     -- wipe old data, if required, otherwise the upgrade path isn't triggered
     if oldversion then
         wipe(mapData)
+        wipe(microDungeons)
     end
 
     local MAPS_TO_REMAP = {
@@ -164,6 +178,9 @@ if not oldversion or oldversion < 15 then
         mapData[id].instance = instanceID
         mapData[id].name = GetMapNameByID(id)
 
+        -- store the original instance id (ie. not remapped for map transforms) for micro dungeons
+        mapData[id].originalInstance = originalInstanceID
+
         local mapFile = GetMapInfo()
         if mapFile then
             -- remove phased terrain from the map names
@@ -187,32 +204,40 @@ if not oldversion or oldversion < 15 then
             end
         end
 
-        local numFloors = GetNumDungeonMapLevels() or 0
-        if numFloors == 0 and GetCurrentMapDungeonLevel() == 1 then
-            numFloors = 1
-            mapData[id].fakefloor = true
+        local floors
+        if IsLegion then
+            floors = { GetNumDungeonMapLevels() }
+        else
+            floors = {}
+            for f = 1, GetNumDungeonMapLevels() do
+                floors[f] = f
+            end
+        end
+        if #floors == 0 and GetCurrentMapDungeonLevel() > 0 then
+            floors[1] = GetCurrentMapDungeonLevel()
+            mapData[id].fakefloor = GetCurrentMapDungeonLevel()
         end
 
         mapData[id].floors = {}
-        if numFloors > 0 then
-            for f = 1, numFloors do
-                SetDungeonMapLevel(f)
-                local _, right, bottom, left, top = GetCurrentMapDungeonLevel()
-                if left and top and right and bottom then
-                    instanceID, left, right, top, bottom = applyMapTransforms(originalInstanceID, left, right, top, bottom)
-                    mapData[id].floors[f] = { left - right, top - bottom, left, top }
-                    mapData[id].floors[f].instance = mapData[id].instance
-                elseif f == 1 and DungeonUsesTerrainMap() then
-                    mapData[id].floors[f] = { mapData[id][1], mapData[id][2], mapData[id][3], mapData[id][4] }
-                    mapData[id].floors[f].instance = mapData[id].instance
-                end
+        mapData[id].numFloors = #floors
+        for i = 1, mapData[id].numFloors do
+            local f = floors[i]
+            SetDungeonMapLevel(f)
+            local _, right, bottom, left, top = GetCurrentMapDungeonLevel()
+            if left and top and right and bottom then
+                instanceID, left, right, top, bottom = applyMapTransforms(originalInstanceID, left, right, top, bottom)
+                mapData[id].floors[f] = { left - right, top - bottom, left, top }
+                mapData[id].floors[f].instance = mapData[id].instance
+            elseif f == 1 and DungeonUsesTerrainMap() then
+                mapData[id].floors[f] = { mapData[id][1], mapData[id][2], mapData[id][3], mapData[id][4] }
+                mapData[id].floors[f].instance = mapData[id].instance
             end
         end
 
         -- setup microdungeon storage if the its a zone map or has no floors of its own
-        if (mapData[id].C > 0 and mapData[id].Z > 0) or numFloors == 0 then
-            if not microDungeons[instanceID] then
-                microDungeons[instanceID] = {}
+        if (mapData[id].C > 0 and mapData[id].Z > 0) or mapData[id].numFloors == 0 then
+            if not microDungeons[originalInstanceID] then
+                microDungeons[originalInstanceID] = {}
             end
         end
     end
@@ -222,12 +247,13 @@ if not oldversion or oldversion < 15 then
             local floorIndex, minX, maxX, minY, maxY, terrainMapID, parentWorldMapID, flags = GetDungeonMapInfo(dID)
 
             -- apply transform
+            local originalTerrainMapID = terrainMapID
             terrainMapID, maxX, minX, maxY, minY = applyMapTransforms(terrainMapID, maxX, minX, maxY, minY)
 
             -- check if this zone can have microdungeons
-            if microDungeons[terrainMapID] then
-                microDungeons[terrainMapID][floorIndex] = { maxX - minX, maxY - minY, maxX, maxY }
-                microDungeons[terrainMapID][floorIndex].instance = terrainMapID
+            if microDungeons[originalTerrainMapID] then
+                microDungeons[originalTerrainMapID][floorIndex] = { maxX - minX, maxY - minY, maxX, maxY }
+                microDungeons[originalTerrainMapID][floorIndex].instance = terrainMapID
             end
         end
     end
@@ -343,14 +369,14 @@ local function getMapDataTable(mapID, level)
     if not data then return nil end
 
     if (type(level) ~= "number" or level == 0) and data.fakefloor then
-        level = 1
+        level = data.fakefloor
     end
 
     if type(level) == "number" and level > 0 then
         if data.floors[level] then
             return data.floors[level]
-        elseif microDungeons[data.instance] and microDungeons[data.instance][level] then
-            return microDungeons[data.instance][level]
+        elseif data.originalInstance and microDungeons[data.originalInstance] and microDungeons[data.originalInstance][level] then
+            return microDungeons[data.originalInstance][level]
         end
     else
         return data
@@ -494,9 +520,9 @@ function HereBeDragons:GetNumFloors(mapID)
         mapID = mapToID[mapID]
     end
 
-    if not mapData[mapID] then return 0 end
+    if not mapData[mapID] or not mapData[mapID].numFloors then return 0 end
 
-    return #(mapData[mapID].floors)
+    return mapData[mapID].numFloors
 end
 
 --- Get a list of all map IDs
@@ -629,6 +655,7 @@ end
 function HereBeDragons:GetUnitWorldPosition(unitId)
     -- get the current position
     local y, x, z, instanceID = UnitPosition(unitId)
+    if not x or not y then return nil, nil, nil end
 
     -- return transformed coordinates
     return applyCoordinateTransforms(x, y, instanceID)
@@ -640,6 +667,7 @@ end
 function HereBeDragons:GetPlayerWorldPosition()
     -- get the current position
     local y, x, z, instanceID = UnitPosition("player")
+    if not x or not y then return nil, nil, nil end
 
     -- return transformed coordinates
     return applyCoordinateTransforms(x, y, instanceID)
@@ -659,6 +687,7 @@ end
 function HereBeDragons:GetPlayerZonePosition(allowOutOfBounds)
     if not currentPlayerZoneMapID then return nil, nil, nil, nil end
     local x, y, instanceID = self:GetPlayerWorldPosition()
+    if not x or not y then return nil, nil, nil, nil end
 
     x, y = self:GetZoneCoordinatesFromWorld(x, y, currentPlayerZoneMapID, currentPlayerLevel, allowOutOfBounds)
     if x and y then

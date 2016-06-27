@@ -1,6 +1,6 @@
 -- HereBeDragons-Pins is a library to show pins/icons on the world map and minimap
 
-local MAJOR, MINOR = "HereBeDragons-Pins-1.0", 11
+local MAJOR, MINOR = "HereBeDragons-Pins-1.0", 12
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local pins, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -388,7 +388,7 @@ function pins:AddMinimapIconWorld(ref, icon, instanceID, x, y, floatOnEdge)
 
     minimapPinRegistry[ref][icon] = true
 
-    local t = newCachedTable()
+    local t = minimapPins[icon] or newCachedTable()
     t.instanceID = instanceID
     t.x = x
     t.y = y
@@ -503,7 +503,7 @@ function pins:AddWorldMapIconWorld(ref, icon, instanceID, x, y)
 
     worldmapPinRegistry[ref][icon] = true
 
-    local t = newCachedTable()
+    local t = worldmapPins[icon] or newCachedTable()
     t.instanceID = instanceID
     t.x = x
     t.y = y
@@ -550,7 +550,7 @@ function pins:AddWorldMapIconMF(ref, icon, mapID, mapFloor, x, y)
 
     worldmapPinRegistry[ref][icon] = true
 
-    local t = newCachedTable()
+    local t = worldmapPins[icon] or newCachedTable()
     t.instanceID = instanceID
     t.x = xCoord
     t.y = yCoord
