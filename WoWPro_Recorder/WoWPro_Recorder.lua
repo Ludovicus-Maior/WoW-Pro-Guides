@@ -23,7 +23,7 @@ function WoWPro.Recorder:OnEnable()
 	--Loading Frames--
 	if not WoWPro.Recorder.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Recorder:CreateRecorderFrame()
-		WoWPro.Recorder.SelectedStep = WoWPro.stepcount or 0 
+		WoWPro.Recorder.SelectedStep = nil
 		WoWPro.Recorder.FramesLoaded = true
 	end
 
@@ -223,9 +223,21 @@ function WoWPro.Recorder.PostQuestLogUpdate()
     WoWPro.Recorder.eventHandler(nil,"POST_QUEST_LOG_UPDATE")
 end
 
-
 function WoWPro.Recorder.PostGuideLoad()
-    WoWPro.Recorder.SelectedStep = nil   
+end
+
+function WoWPro.Recorder.PostUpdateGuide()
+    if not WoWPro.Recorder.SelectedStep then
+        if WoWPro.ActiveStep then
+            WoWPro.Recorder.SelectedStep = WoWPro.ActiveStep
+            WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Selecting step %d as current position at ActiveStep.", WoWPro.ActiveStep)
+        else
+            WoWPro.Recorder.SelectedStep = WoWPro.stepcount
+            WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Selecting step %d as current position at EOG.", WoWPro.stepcount)
+        end
+    else
+        WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Keeping step %d as current position.", WoWPro.Recorder.SelectedStep)
+    end
 end
 
 function WoWPro.Recorder:RegisterEvents()
@@ -256,7 +268,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				end
 				WoWPro.Recorder.SelectedStep = pos-1
 				WoWPro.Recorder:CheckpointCurrentGuide("MoveUp")
-				WoWPro:UpdateGuide()
+				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveUp)")
 			end},
 			{text = "Move Down", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
@@ -270,7 +282,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				end
 				WoWPro.Recorder.SelectedStep = pos+1
 				WoWPro.Recorder:CheckpointCurrentGuide("MoveDown")
-				WoWPro:UpdateGuide()
+				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveDown)")
 			end},
 			{text = "Clone Step", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
@@ -280,7 +292,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				end
 				WoWPro.stepcount = WoWPro.stepcount+1
 			    WoWPro.Recorder:CheckpointCurrentGuide("Clone")
-				WoWPro:UpdateGuide()
+				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(Clone)")
 			end}
 		}
 		WoWPro.Recorder.RowDropdownMenu[i] = dropdown
@@ -305,6 +317,9 @@ function WoWPro.Recorder:AddStep(stepInfo,position)
         return
     end
 	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
+	if pos > WoWPro.stepcount then
+	    pos = WoWPro.stepcount
+	end
 	WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos, stepInfo.action, stepInfo.step)
 	for tag,_ in pairs(WoWPro.Tags) do 
 		value = stepInfo[tag]
@@ -316,10 +331,10 @@ function WoWPro.Recorder:AddStep(stepInfo,position)
 	if WoWPro.Recorder.SelectedStep then
 	    WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep + 1
 	else
-	    WoWPro.Recorder.SelectedStep = 1
+	    WoWPro.Recorder.SelectedStep = WoWPro.stepcount
 	end
 	WoWPro.Recorder:CheckpointCurrentGuide("AddStep")
-	WoWPro:UpdateGuide()
+	WoWPro:UpdateGuide("WoWPro.Recorder:AddStep()")
 end
 
 function WoWPro.Recorder:RemoveStep(position)
@@ -328,13 +343,18 @@ function WoWPro.Recorder:RemoveStep(position)
         return
     end
 	local pos = position or WoWPro.stepcount
-	WoWPro.Recorder:dbp("Deleteing step %d %s [%s]",pos, WoWPro.action, WoWPro.step)
+	WoWPro.Recorder:dbp("Deleteing step %d %s [%s]",pos, WoWPro.action[pos], WoWPro.step[pos])
 	for tag,_ in pairs(WoWPro.Tags) do 
 		table.remove(WoWPro[tag], pos)
 --		WoWPro.Recorder:dbp("Removing tag "..tag.." at position "..pos)
 	end
 	WoWPro.stepcount = WoWPro.stepcount-1
-	WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep - 1
+	if WoWPro.Recorder.SelectedStep then
+	    WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep - 1
+	else
+	    WoWPro.Recorder.SelectedStep = WoWPro.stepcount
+	end
+
 	WoWPro.Recorder:CheckpointCurrentGuide("RemoveStep")
 	WoWPro:UpdateGuide()
 end
@@ -418,6 +438,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 		nextGID = WoWPro.Guides[GID].nextGID,
 		faction = UnitFactionGroup("player")
 	}
+	WoWPro.Recorder:RegisterSavedGuides()
 	WoWPro.Recorder:dbp("WoWPro.Recorder:CheckpointCurrentGuide(%s)",why)
 	return guideString
 end
