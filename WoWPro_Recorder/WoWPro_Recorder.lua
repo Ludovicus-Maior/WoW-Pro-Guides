@@ -150,6 +150,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 		
 	elseif event == "POST_QUEST_LOG_UPDATE" then
 		WoWPro.Recorder:dbp("POST_QUEST_LOG_UPDATE detected.")
+		WoWPro.inhibit_oldQuests_update = false
 		
 		if WoWPro.newQuest then
 			local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
@@ -320,7 +321,7 @@ function WoWPro.Recorder:AddStep(stepInfo,position)
 	if pos > WoWPro.stepcount then
 	    pos = WoWPro.stepcount
 	end
-	WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos, stepInfo.action, stepInfo.step)
+	WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos+1, stepInfo.action, stepInfo.step)
 	for tag,_ in pairs(WoWPro.Tags) do 
 		value = stepInfo[tag]
 		if not value then value = false end
