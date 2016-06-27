@@ -328,7 +328,7 @@ function WoWPro.Recorder:RemoveStep(position)
         return
     end
 	local pos = position or WoWPro.stepcount
-	WoWPro.Recorder:dbp("Deleteing step %d %s [%s]",pos, WoWPro.action, WoWPro.step)
+	WoWPro.Recorder:dbp("Deleteing step %d %s [%s]",pos, WoWPro.action[pos], WoWPro.step[pos])
 	for tag,_ in pairs(WoWPro.Tags) do 
 		table.remove(WoWPro[tag], pos)
 --		WoWPro.Recorder:dbp("Removing tag "..tag.." at position "..pos)
@@ -418,6 +418,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 		nextGID = WoWPro.Guides[GID].nextGID,
 		faction = UnitFactionGroup("player")
 	}
+	WoWPro.Recorder:RegisterSavedGuides()
 	WoWPro.Recorder:dbp("WoWPro.Recorder:CheckpointCurrentGuide(%s)",why)
 	return guideString
 end
