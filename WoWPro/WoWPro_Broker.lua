@@ -1147,11 +1147,16 @@ function WoWPro:DelFauxQuest(questID)
     WoWPro:SendMessage("WoWPro_PuntedQLU")
 end
 
+WoWPro.inhibit_oldQuests_update = false
+
 -- Populate the Quest Log table for other functions to call on --
 function WoWPro:PopulateQuestLog()
 	WoWPro:print("WoWPro:PopulateQuestLog()")
 	
-	WoWPro.oldQuests = WoWPro.QuestLog or {}
+	if not WoWPro.inhibit_oldQuests_update then
+	    WoWPro.oldQuests = WoWPro.QuestLog or {}
+	    WoWPro.inhibit_oldQuests_update = true
+	end
 	WoWPro.newQuest, WoWPro.missingQuest = false, false
 	
 	-- Generating the Quest Log table --
@@ -1284,6 +1289,10 @@ function WoWPro:PopulateQuestLog()
 	return num
 end
 
+function WoWPro.PostQuestLogUpdate()
+    WoWPro.inhibit_oldQuests_update = false
+    WoWPro:dbp("WoWPro.PostQuestLogUpdate() inhibit_oldQuests_update = false")
+end
    		
 local function is_int(number)
     return math.floor(number) == math.ceil(number)
