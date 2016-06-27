@@ -365,6 +365,7 @@ function WoWPro.UpdateGuideReal(From)
 		end
 	end
 	WoWPro:MapPoint()
+	WoWPro:SendMessage("WoWPro_PostUpdateGuide")
 end	
 
 local Rep2IdAndClass
@@ -1255,7 +1256,7 @@ function WoWPro:PopulateQuestLog()
 		end
 	end
 	
-	-- Generating table WoWPro.missingQuest --
+	-- Finding WoWPro.missingQuest --
 	for QID, questInfo in pairs(WoWPro.oldQuests) do
 		if not WoWPro.QuestLog[QID] then 
 			WoWPro.missingQuest = QID 
@@ -1265,15 +1266,13 @@ function WoWPro:PopulateQuestLog()
 
 	-- Print updated objectives --
 	for QID, questInfo in pairs(WoWPro.oldQuests) do
-	    WoWPro:print("Old QID %d", QID)
 		if WoWPro.QuestLog[QID] then
-		    WoWPro:print("New QID %d", QID)
             if WoWPro.oldQuests[QID].leaderBoard and WoWPro.QuestLog[QID].leaderBoard then
                 for idx, status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
                     -- Same Objective
                     WoWPro:print("idx %d, status %s",idx,status) 
                     if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
-                        WoWPro:print("Completed objective %d (%s) on quest [%s]", idx, WoWPro.QuestLog[QID].leaderBoard[idx], WoWPro.QuestLog[QID].title)
+                        WoWPro:print("Completed objective #%d (%s) on quest [%s]", idx, WoWPro.QuestLog[QID].leaderBoard[idx], WoWPro.QuestLog[QID].title)
                     end
                 end
             end

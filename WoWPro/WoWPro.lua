@@ -388,6 +388,7 @@ function WoWPro:OnEnable()
 	if WoWPro.Recorder then
 	    bucket:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.Recorder.PostQuestLogUpdate)
 	    bucket:RegisterBucketMessage("WoWPro_PostLoadGuide",0.1,WoWPro.Recorder.PostGuideLoad)
+	    bucket:RegisterBucketMessage("WoWPro_PostUpdateGuide",0.1,WoWPro.Recorder.PostUpdateGuide)
 	end
 	
 	WoWPro.LockdownTimer = nil
