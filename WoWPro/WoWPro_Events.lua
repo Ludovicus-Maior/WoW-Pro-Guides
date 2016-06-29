@@ -409,6 +409,15 @@ function WoWPro:UpdateQuestTracker()
 end
 
 
+local ScenarioEvent = {}
+ScenarioEvent["SCENARIO_UPDATE"] = true
+ScenarioEvent["SCENARIO_CRITERIA_UPDATE"] =  true
+ScenarioEvent["SCENARIO_SPELL_UPDATE" = true
+ScenarioEvent["SCENARIO_COMPLETED"] = true
+ScenarioEvent["SCENARIO_CRITERIA_SHOW_STATE_UPDATE"] = true
+ScenarioEvent["CRITERIA_COMPLETE"] = true
+
+
 function WoWPro.EventHandler(frame, event, ...)
     WoWPro:LogEvent(event,...)
 
@@ -505,6 +514,26 @@ function WoWPro.EventHandler(frame, event, ...)
 		end
 	end
 
+    -- Are we in a scenario?
+    if C_Scenario.IsInScenario() then
+        if ScenarioEvent[event] then
+            local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = C_Scenario.GetInfo();
+            WoWPro:dbp("name='%s', currentStage=%s, numStages=%s, flags=%s, x=%s, y=%s, completed=%s, xp=%s, money=%s, scenarioType=%s = C_Scenario.GetInfo()",
+                       name, tostring(currentStage), tostring(numStages), tostring(flags), tostring(x), tostring(y), tostring(completed), tostring(xp), tostring(money),
+                       tostring(scenarioType))
+            local stageName, stageDescription, numCriteria, _, _, _, numSpells, _, weightedProgress = C_Scenario.GetStepInfo();
+            WoWPro:dbp("stageName=%s, stageDescription=%s, numCriteria=%s, numSpells=%s, weightedProgress=%s  = C_Scenario.GetStepInfo()",
+                       stageName, stageDescription, tostring(numCriteria), tostring(numSpells), tostring(weightedProgress))
+            for criteriaIndex = 1, numCriteria do
+                local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, _, isWeightedProgress = C_Scenario.GetCriteriaInfo(criteriaIndex);
+                if (criteriaString) then
+                    WoWPro:dbp("criteriaString=%s, criteriaType=%s, completed=%s, quantity=%s, totalQuantity=%s, flags=%s, assetID=%s, quantityString=%s, criteriaID=%s, duration=%s, isWeightedProgress=%s = C_Scenario.GetCriteriaInfo(%d)",
+                               criteriaString, tostring(criteriaType), tostring(completed), tostring(quantity), tostring(totalQuantity), tostring(flags), tostring(assetID),
+                               tostring(duration), tostring(elapsed), tostring(isWeightedProgress), criteriaIndex)
+                end
+            end
+        end
+    end
 
 	-- Unlocking guide frame when leaving combat --
 	if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_ENTERING_WORLD" then
