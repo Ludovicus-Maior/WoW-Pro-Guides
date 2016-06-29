@@ -412,7 +412,7 @@ end
 local ScenarioEvent = {}
 ScenarioEvent["SCENARIO_UPDATE"] = true
 ScenarioEvent["SCENARIO_CRITERIA_UPDATE"] =  true
-ScenarioEvent["SCENARIO_SPELL_UPDATE" = true
+ScenarioEvent["SCENARIO_SPELL_UPDATE"] = true
 ScenarioEvent["SCENARIO_COMPLETED"] = true
 ScenarioEvent["SCENARIO_CRITERIA_SHOW_STATE_UPDATE"] = true
 ScenarioEvent["CRITERIA_COMPLETE"] = true
