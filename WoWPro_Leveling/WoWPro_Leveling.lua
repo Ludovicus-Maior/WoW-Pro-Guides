@@ -56,10 +56,15 @@ function WoWPro.Leveling:OnEnable()
 		WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
 		WoWPro:LoadGuide(WoWPro.Leveling.StartGuides[engRace])
 	-- New Death Knight --
-	elseif UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then
+	elseif UnitLevel("player") == 55 and UnitXP("player") < 2000 and engClass == "DEATHKNIGHT" then
+	    WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
 		WoWPro:LoadGuide("JamScar5558")
+	elseif UnitLevel("player") == 98 and UnitXP("player") < 2000 and engClass == "DEMONHUNTER" then
+	    WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
+	    WoWPro:LoadGuide("LinksMardum098099")
 	-- No current guide, but a guide was stored for later use --
 	elseif WoWProDB.char.lastlevelingguide and not WoWProDB.char.currentguide then
+	    WoWPro.Leveling:dbp("Loading last leveling guide.")
 		WoWPro:LoadGuide(WoWProDB.char.lastlevelingguide)
 	end
 	
