@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2016-07-01 04:43
+-- Who: Linkslegend5
+-- Log: *sigh* The actual updated guide, the last was incorrectly edited to the same guide as before. ~_~
+
+-- URL: http://wow-pro.com/node/3207/revisions/27460/view
+-- Date: 2016-07-01 04:41
+-- Who: Linkslegend5
+-- Log: Sunstrider Isle changes. Mostly rearranged steps, correcting (and updating) the class spells and steps.
+
+-- URL: http://wow-pro.com/node/3207/revisions/27439/view
 -- Date: 2016-03-23 01:35
 -- Who: Ludovicus
 -- Log: Fix bad coords on rogue quests

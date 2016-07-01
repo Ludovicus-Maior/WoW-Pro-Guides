@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2016-07-01 04:43
+-- Who: Linkslegend5
+-- Log: *sigh* The actual updated guide, the last was incorrectly edited to the same guide as before. ~_~
+
+-- URL: http://wow-pro.com/node/3207/revisions/27460/view
+-- Date: 2016-07-01 04:41
+-- Who: Linkslegend5
+-- Log: Sunstrider Isle changes. Mostly rearranged steps, correcting (and updating) the class spells and steps.
+
+-- URL: http://wow-pro.com/node/3207/revisions/27439/view
 -- Date: 2016-03-23 01:35
 -- Who: Ludovicus
 -- Log: Fix bad coords on rogue quests
@@ -232,7 +242,7 @@
 -- Date: 2010-12-02 23:20
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("SnoSun0105", "Leveling", "Sunstrider Isle (Belf)", "Snowflake", "Horde")
+local guide = WoWPro:RegisterGuide("SnoSun0105", "Leveling", "Sunstrider Isle", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,1,5, 1.78882)
 WoWPro:GuideNextGuide(guide, "SnoEve0512")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_BloodElf_Male","Interface\\Icons\\Achievement_Character_BloodElf_Female"))
@@ -240,104 +250,106 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Sunstrider Isle starting zone is for BloodElf's only.
-A Reclaiming Sunstrider Isle|QID|8325|R|BloodElf|N|From Magistrix Erona.|M|61.04,45.13|
-C Mana Wyrm |QID|8325|R|BloodElf|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|M|55.90,47.60|
-T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|N|To Magistrix Erona.|M|61.04,45.13|
+A Reclaiming Sunstrider Isle|QID|8325|R|BloodElf|M|61.04,45.13|N|From Magistrix Erona.|
+C Mana Wyrm |QID|8325|R|BloodElf|M|55.90,47.60|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|
+T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|M|61.04,45.13|N|To Magistrix Erona.|
 
-L Level 2|LVL|2|N|Kill mana wyrms until you ding.|QID|8326|
+L Level 2|LVL|2|N|Kill any mobs in the area you need to get Level 2.|QID|8326|
+
 A Unfortunate Measures|QID|8326|R|BloodElf|M|60.98,45.11|N|From Magistrix Erona.|
-R Empty your bags|QID|8326|M|58.36,39.01|R|BloodElf|N|You may want to empty your bags before venturing further. \nSell unwanted items to Jainthess Thelryn beside you.|
-C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill and loot Springpaw Lynxs and Cubs for the Lynx collars.|M|67.15,38.94|
+A Warrior Training |QID|8329|R|BloodElf|M|61.04,45.13|C|Warrior|N|From Magistrix Erona.|
+A Hunter Training |QID|9393|R|BloodElf|M|61.04,45.13|C|Hunter|N|From Fagistrix Erona.|
+A Mage Training |QID|8328|R|BloodElf|M|61.04,45.13|C|Mage|N|From Magistrix Erona.|
+A Paladin Training |QID|9676|R|BloodElf|M|61.04,45.13|C|Paladin|N|From Magistrix Erona.|
+A Priest Training |QID|8564|R|BloodElf|M|61.04,45.13|C|Priest|N|From Magistrix Eron.|
+A Rogue Training |QID|9392|R|BloodElf|M|61.04,45.13|C|Rogue|N|From Magistrix Erona.|
+A Warlock Training |QID|8563|R|BloodElf|M|61.04,45.13|C|Warlock|N|From Magistrix Erona.|
+A Monk Training |QID|31170|R|BloodElf|M|61.04,45.13|C|Monk|N|From Magistrix Erona.|
+
+T Warrior Training |QID|8329|R|BloodElf|M|64.95,42.38|C|Warrior|N|To Delios Silverblade.|
+T Hunter Training |QID|9393|R|BloodElf|M|64.95,42.38|C|Hunter|N|To Ranger Sallina.|
+T Mage Training |QID|8328|R|BloodElf|M|64.77,46.52|C|Mage|N|To Julia Sunstriker.|
+T Paladin Training |QID|9676|R|BloodElf|M|65.52,43.74|C|Paladin|N|To Jesthenis Sunstriker.|
+T Priest Training |QID|8564|R|BloodElf|M|65.34,43.20|C|Priest|N|To Matron Arena.|
+T Rogue Training |QID|9392|R|BloodElf|M|63.85,42.08|C|Rogue|N|To Pathstalker Kariel.|
+T Warlock Training |QID|8563|R|BloodElf|M|63.86,46.49|C|Warlock|N|Summoner Teli'Larien.|
+T Monk Training |QID|31170|R|BloodElf|M|63.41,42.61|C|Monk|N|To Pao.|
+
+A Charge!|QID|27091|R|BloodElf|M|64.95,42.38|C|Warrior|N|From Delios Silverblade.|
+A Steady Shot|QID|10070|R|BloodElf|M|64.21,42.06|C|Hunter|N|From Ranger Sallina.|
+A Frost Nova|QID|10068|R|BloodElf|M|64.77,46.52|C|Mage|N|From Julia Sunstriker.|
+A Ways of the Light|QID|10069|R|BloodElf|M|65.52,43.74|C|Paladin|N|From Jesthenis Sunstriker.|
+A Learning the Word|QID|10072|R|BloodElf|M|65.34,43.20|C|Priest|N|From Matron Arena.|
+A Evisceration|QID|10071|R|BloodElf|M|63.85,42.08|C|Rogue|N|From Pathstalker Kariel.|
+A Corruption|QID|10073|R|BloodElf|M|63.86,46.49|C|Warlock|N|From Summoner Teli'Larien|
+A Tiger Palm |QID|31171|R|BloodElf|M|63.41,42.61|C|Monk|N|From Pao.|
+
+C Unfortunate Measures |QID|8326|R|BloodElf|M|67.15,38.94|N|Kill and loot Springpaw Lynxs and Cubs for the Lynx collars.|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|60.98,45.11|N|To Magistrix Erona.|
+
+L Level 3|LVL|3|N|You should be Level 3 to by this point, if not kill anything in the area until then.|QID|8327|R|BloodElf|
+
+A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|61.04,45.13|N|From Magistrix Erona.|
+C Charge!|QID|27091|R|BloodElf|M|62.00,44.00|C|Warrior|N|You automatically learn Charge. Use it on a Training Dummy nearby.|
+C Steady Shot|QID|10070|R|BloodElf|M|62.00,44.00|C|Hunter|N|You automatically learn Steady Shot. Use it on a Training Dummy five times.|
+C Frost Nova|QID|10068|R|BloodElf|M|62.00,44.00|C|Mage|N|You automatically learn Frost Nova. Stand between two Training Dummies and cast Frost Nova, it should hit both.|
+C Ways of the Light|QID|10069|R|BloodElf|M|62.00,44.00|C|Paladin|N|You automatically learn Seal of Command. Cast Seal of Command, then auto attack a Training Dummy nearby.|
+C Learning the Word|QID|10072|R|BloodElf|M|134.64,115.87|C|Priest|N|You automatically learn Shadow Word: Pain. Use it on a Training Dummy nearby five times.|
+C Evisceration|QID|10071|R|BloodElf|M|62.00,44.00|C|Rogue|N|You automatically learn Eviscerate. Use it on a Training Dummy nearby three times.|
+C Corruption|QID|10073|R|BloodElf|M|62.00,44.00|C|Warlock|N|You automatically learn Immolate. Use it on a Training Dummy nearby five times.|
+C Tiger Palm |QID|31171|R|BloodElf|M|62.00,44.00|C|Monk|N|You automatically learn Tiger Palm. Use it on a Training Dummy nearby.|
+
+T Charge!|QID|27091|R|BloodElf|M|64.95,42.38|C|Warrior|N|To Delios Silverblade.|
+T Steady Shot|QID|10070|R|BloodElf|M|64.21,42.06|C|Hunter|N|To Ranger Sallina.|
+T Frost Nova|QID|10068|R|BloodElf|M|64.77,46.52|C|Mage|N|To Julia Sunstriker.|
+T Ways of the Light|QID|10069|R|BloodElf|M|65.52,43.74|C|Paladin|N|To Jesthenis Sunstriker.|
+T Learning the Word|QID|10072|R|BloodElf|M|65.34,43.20|C|Priest|N|To Matron Arena|
+T Evisceration|QID|10071|R|BloodElf|M|63.85,42.08|C|Rogue|N|To Pathstalker Kariel.|
+T Corruption|QID|10073|R|BloodElf|M|63.86,46.49|C|Warlock|N|To Summoner Teli'Larien|
+T Tiger Palm |QID|31171|R|BloodElf|M|63.41,42.61|C|Monk|N|To Pao.|
 
 A The Shrine of Dath'Remar|QID|37442|R|BloodElf|M|63.97,42.83|N|From Well Watcher Solanian, inside the building and up the ramp.|
 A Solanian's Belongings|QID|37443|R|BloodElf|M|63.97,42.83|N|From Well Watcher Solanian.|
-A A Fistful of Slivers |QID|37440|R|BloodElf|N|From Arcanist Ithanas, go outside via the balcony, then jump down to your left.|M|61.82,39.36|
-A Thirst Unending|QID|37439|R|BloodElf|N|From Arcanist Helion. Go through the gazeebo in front of you.|M|58.45,38.78|
+A A Fistful of Slivers |QID|37440|R|BloodElf|M|61.82,39.36|N|From Arcanist Ithanas, go outside via the balcony, then jump down to your left.|
+A Thirst Unending|QID|37439|R|BloodElf|M|58.45,38.78|N|From Arcanist Helion. Go through the gazeebo in front of you.|
 
-C Thirst Unending |QID|37439|R|BloodElf|N|Use your racial talent, Arcane Torrent, when you are within 8 yards of a Mana Wyrm. |M|59.44,54.04|S|
-C Solonaian's Journal |QID|37443|R|BloodElf|N|Get Solonaian's Journal, near the big green crystal. |M|60.06,57.11|NC|QO|3|
-C Thirst Unending |QID|37439|R|BloodElf|N|Use your racial talent, Arcane Torrent, on a Mana Wyrm. |M|59.44,54.04|US|
-T Thirst Unending |QID|37439|R|BloodElf|N|To Arcanist Helion.|M|58.45,38.78|
-R Empty your bags|QID|8326|M|58.36,39.01|R|BloodElf|N|You may want to empty your bags before venturing further. \nSell unwanted items to Jainthess Thelryn beside you.|
+C Thirst Unending |QID|37439|R|BloodElf|M|59.44,54.04|N|Use your racial talent, Arcane Torrent, when you are within 8 yards of a Mana Wyrm.|S|
+C A Fistful of Slivers |QID|37440|R|BloodElf|M|59.44,54.04|N|As you go to the Journal, kill and loot the Mana Wyrms for Arcane Slivers.|S|
+C Solonaian's Journal |QID|37443|R|BloodElf|M|60.06,57.11|N|Get Solonaian's Journal, near the big green crystal.|QO|3|
+C Thirst Unending |QID|37439|R|BloodElf|M|59.44,54.04|N|Use your racial talent, Arcane Torrent, on a Mana Wyrm.|US|
+C A Fistful of Slivers |QID|37440|R|BloodElf|M|59.44,54.04|N|Finish killing and collecting the Slivers from the Mana Wyrms in the area.|US|
+T A Fistful of Slivers |QID|37440|R|BloodElf|M|61.82,39.36|N|To Arcanist Ithanas.|
+T Thirst Unending |QID|37439|R|BloodElf|M|58.45,38.78|N|To Arcanist Helion.|
+r Repair/Sell |QID|8327|R|BloodElf|M|58.39,39.06|N|Sell any unwanted items and repair your gear with Jainthess Thelryn nearby. Close this step to continue.|
 
-L Level 3|LVL|3|N|You need to be Level 3 to continue this guide.|QID|8327|R|BloodElf|
-A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|61.04,45.13|N|From Magistrix Erona.|
-A Warrior Training |QID|8329|R|BloodElf|C|Warrior|N|From Magistrix Erona.|M|61.04,45.13|
-A Hunter Training |QID|9393|R|BloodElf|C|Hunter|N|From Fagistrix Erona.|M|61.04,45.13|
-A Mage Training |QID|8328|R|BloodElf|C|Mage|N|From Magistrix Erona.|M|61.04,45.13|
-A Paladin Training |QID|9676|R|BloodElf|C|Paladin|N|From Magistrix Erona.|M|61.04,45.13|
-A Priest Training |QID|8564|R|BloodElf|C|Priest|N|From Magistrix Eron.a|M|61.04,45.13|
-A Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|From Magistrix Erona.|M|61.04,45.13|
-A Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|From Magistrix Erona.|M|61.04,45.13|
-A Monk Training |QID|31170|R|BloodElf|C|Monk|N|From Magistrix Erona.|M|61.04,45.13|
+T Report to Lanthan Perilon |QID|8327|R|BloodElf|M|52.88,49.80|N|To Lanthan Perilon.|
+A Aggression |QID|8334|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
+C Aggression |QID|8334|R|BloodElf|N|Kill any Tender and Feral Tender you see.|S|
+C Solanian's Scrying Orb |QID|37443|R|BloodElf|M|52.15,69.46|N|Get Solonaian's Scrying Orb from the lake's platform, to the south of Sunstrider Isle.|QO|1|
+C Solanian's Belongings|QID|37443|R|BloodElf|M|40.48,50.50|N|Get the Scroll of Scourge Magic, which is northwest.|QO|2|
+C The Shrine of Dath'Remar |QID|37442|R|BloodElf|M|35.43,40.49|N|Go to the far north-west of the island until you reach the Shrine of Dath'Remar. Click on it to read the plaque.|
+C Aggression |QID|8334|R|BloodElf|N|Finish killing the Feral Tenders and Tenders you need.|US|
 
-T Warrior Training |QID|8329|R|BloodElf|C|Warrior|N|To Delios Silverblade.|M|64.95,42.38|
-T Hunter Training |QID|9393|R|BloodElf|C|Hunter|N|To Ranger Sallina.|M|64.21,42.06|
-T Mage Training |QID|8328|R|BloodElf|C|Mage|N|To Julia Sunstriker.|M|64.77,46.52|
-T Paladin Training |QID|9676|R|BloodElf|C|Paladin|N|To Jesthenis Sunstriker.|M|65.52,43.74|
-T Priest Training |QID|8564|R|BloodElf|C|Priest|N|To Matron Arena.|M|65.34,43.20|
-T Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|To Pathstalker Kariel.|M|63.85,42.08|
-T Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|Summoner Teli'Larien.|M|63.86,46.49|
-T Monk Training |QID|31170|R|BloodElf|C|Monk|N|To Pao.|M|63.41,42.61|
-
-A Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|From Pao.|M|63.41,42.61|
-C Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|Learn Tiger Palm from Pao. Locate a Training Dummy outside the Sunspire and practice using Tiger Palm.|M|38.33,20.64|
-T Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|To Pao.|M|63.41,42.61|
-A Charge!|QID|27091|M|64.95,42.38|R|BloodElf|C|Warrior|N|From Delios Silverblade.|
-C Charge!|QID|27091|M|62.00,44.00||R|BloodElf|C|Warrior|N|Learn charge from your trainer and Charge the target dummy.|
-T Charge!|QID|27091|M|64.95,42.38|R|BloodElf|C|Warrior|N|To Delios Silverblade.|
-A Steady Shot|QID|10070|R|BloodElf|M|64.21,42.06|C|Hunter|N|From Ranger Sallina.|
-C Steady Shot|QID|10070|R|BloodElf|M|62.00,44.00|C|Hunter|N|Learn Steady Shot from Ranger Sallina. Locate a Training Dummy outside the Sunspire and practice using Steady Shot 5 times.|
-T Steady Shot|QID|10070|R|BloodElf|M|64.21,42.06|C|Hunter|N|To Ranger Sallina.|
-A Arcane Missiles|QID|10068|R|BloodElf|M|64.77,46.52|C|Mage|N|From Julia Sunstriker.|
-C Arcane Missiles|QID|10068|R|BloodElf|M|62.00,44.00|C|Mage|N|Learn Arcane Missiles from Julia Sunstriker. Locate a Training Dummy outside the Sunspire and practice using Arcane Missiles 2 times.|
-T Arcane Missiles|QID|10068|R|BloodElf|M|64.77,46.52|C|Mage|N|To Julia Sunstriker.|
-A Ways of the Light|QID|10069|R|BloodElf|M|65.52,43.74|C|Paladin|N|From Jesthenis Sunstriker.|
-C Ways of the Light|QID|10069|R|BloodElf|M|62.00,44.00|C|Paladin|N|Learn Judgement and Seal of Righteousness from Jesthenis Sunstriker. Cast Seal of Righteousness on yourself, then locate a Training Dummy outside the Sunspire and use Judgement.|
-T Ways of the Light|QID|10069|R|BloodElf|M|65.52,43.74|C|Paladin|N|To Jesthenis Sunstriker.|
-A Evisceration|QID|10071|R|BloodElf|M|63.85,42.08|C|Rogue|N|From Pathstalker Kariel.|
-C Evisceration|QID|10071|R|BloodElf|M|62.00,44.00|C|Rogue|N|Learn Eviscerate from Pathstalker Kariel. Locate a Training Dummy outside the Sunspire and practice using Eviscerate 3 times. |
-T Evisceration|QID|10071|R|BloodElf|M|63.85,42.08|C|Rogue|N|To Pathstalker Kariel.|
-A Learning the Word|QID|10072|R|BloodElf|M|65.34,43.20|C|Priest|N|From Matron Arena.|
-C Learning the Word|QID|10072|R|BloodElf|M|134.64,115.87|Z|Sunstrider Isle|C|Priest|N|Locate a Training Dummy outside the Sunspire and practice using Shadow Word: Pain 5 times.|
-T Learning the Word|QID|10072|R|BloodElf|M|65.34,43.20|C|Priest|N|To Matron Arena|
-A Immolation|QID|10073|R|BloodElf|M|63.86,46.49|C|Warlock|N|From Summoner Teli'Larien|
-C Immolation|QID|10073|R|BloodElf|M|62.00,44.00|C|Warlock|N|Learn Immolate from Summoner Teli'Larien. Locate a Training Dummy outside the Sunspire and practice casting Immolate 5 times. |
-T Immolation|QID|10073|R|BloodElf|M|63.86,46.49|C|Warlock|N|To Summoner Teli'Larien|
-T Report to Lanthan Perilon |QID|8327|R|BloodElf|N|To Lanthan Perilon.|M|52.88,49.80|
-
-A Aggression |QID|8334|R|BloodElf|N|From Lanthan Perilon.|M|52.88,49.80|
-C A Fistful of Slivers |QID|37440|R|BloodElf|N|As you kill the Feral Tenders, loot the Arcane Slivers from them.|M|59.44,54.04|S|
-C Aggression |QID|8334|R|BloodElf|S|N|Kill any Tender and Feral Tender you see.|
-C Solanian's Scrying Orb |QID|37443|R|BloodElf|N|Get Solonaian's Scrying Orb from the lake's platform, to the south of Sunstrider Isle. |M|52.15,69.46|QO|1|NC|
-C Solanian's Belongings|QID|37443|R|BloodElf|N|Get the Scroll of Scourge Magic, which is northwest.|M|40.48,50.50|NC|QO|2|
-C The Shrine of Dath'Remar |QID|37442|R|BloodElf|N|Go to the far north-west of the island until you reach the Shrine of Dath'Remar. Click on it to read the plaque.|M|35.43,40.49|NC|
-C Aggression |QID|8334|R|BloodElf|US|N|Finish killing the Feral Tenders and Tenders you need.|
-C A Fistful of Slivers |QID|37440|R|BloodElf|N|As you head back to the Sunspire, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|M|59.44,54.04|US|
-T The Shrine of Dath'Remar |QID|37442|R|BloodElf|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|M|63.97,42.83|
-T Solanian's Belongings |QID|37443|R|BloodElf|N|To Well Watcher Solanian.|M|63.97,42.83|
-T A Fistful of Slivers |QID|37440|R|BloodElf|N|To Arcanist Ithanas.|M|61.82,39.36|
+T The Shrine of Dath'Remar |QID|37442|R|BloodElf|M|63.97,42.83|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|
+T Solanian's Belongings |QID|37443|R|BloodElf|M|63.97,42.83|N|To Well Watcher Solanian.|
 T Aggression |QID|8334|R|BloodElf|M|52.88,49.80|N|To Lanthan Perilon.|
 
-A Felendren the Banished |QID|8335|R|BloodElf|N|From Lanthan Perilon.|M|52.88,49.80|
-C Felendren the Banished |QID|8335|R|BloodElf|N|Kill Arcane Wraiths|M|39.03,63.98|S|QO|1|
-l Tainted Arcane Sliver|S|L|20483|R|BloodElf|N|Kill and loot a Tainted Arcane Wraith, it will drop a Tainted Arcane Sliver.|
-K Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp and to the top of Falthrien Academy. At the first waypoint there will be two paths to choose, both will merge further on, so either can be taken. At the top, kill Felendren and loot his head.|M|41.56,61.85;38.05,66.35|QO|3||CC|
+A Felendren the Banished |QID|8335|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
+C Felendren the Banished |QID|8335|R|BloodElf|M|39.03,63.98|N|Kill Arcane Wraiths.|S|
+l Tainted Arcane Sliver|L|20483|R|BloodElf|N|Kill and loot a Tainted Arcane Wraith, it will drop a Tainted Arcane Sliver.|S|
+K Felendren the Banished |QID|8335|R|BloodElf|M|41.56,61.85;38.05,66.35|QO|3|CC|N|Go up the ramp and to the top of Falthrien Academy. At the first waypoint there will be two paths to choose, both will merge further on, so either can be taken. At the top, kill Felendren and loot his head.|
 l Tainted Arcane Sliver|US|L|20483|R|BloodElf|N|Kill and loot the Tainted Arcane Wraiths until they drop the Tainted Arcane Sliver.|
 A Tainted Arcane Sliver |QID|8338|R|BloodElf|U|20483|N|The Tainted Arcane Sliver starts a quest - click it and accept the quest.|
-C Felendren the Banished |QID|8335|R|BloodElf|N|Kill another Tainted Arcane Wraith|M|39.03,63.98|QO|2|
-C Felendren the Banished |QID|8335|R|BloodElf|N|Finish killing the Arcane Wraiths|M|39.03,63.98|US|QO|1|
-H Sunstrider Isle|QID|8338|U|6948|R|BloodElf|N|Hearthstone back to the starting point, or run back.|M|37.75,21.10|
-T Tainted Arcane Sliver |QID|8338|R|BloodElf|N|To Arcanist Helion.|M|58.45,38.78|
-r Repair/Sell|QID|8335|R|BloodElf|M|58.46,38.95|N|Good opportunity to sell unwanted loot with Jainthess Thelryn.\nClose this step to continue.|RANK|3|
-T Felendren the Banished |QID|8335|R|BloodElf|N|To Lanthan Perilon.|M|52.88,49.80|
+C Felendren the Banished |QID|8335|R|BloodElf|M|39.03,63.98|QO|2|N|Kill another Tainted Arcane Wraith.|
+C Felendren the Banished |QID|8335|R|BloodElf|M|39.03,63.98|QO|1|N|Finish killing the Arcane Wraiths.|US|
+H Sunstrider Isle|QID|8338|U|6948|R|BloodElf|M|37.75,21.10|N|Hearthstone back to the starting point, or run back.|
+T Tainted Arcane Sliver |QID|8338|R|BloodElf|M|58.45,38.78|N|To Arcanist Helion.|
+r Repair/Sell |QID|8335|R|BloodElf|M|58.39,39.06|N|Sell any unwanted items you may have, and repair your gear. Close step to continue.|
+T Felendren the Banished |QID|8335|R|BloodElf|M|52.88,49.80|N|To Lanthan Perilon.|
 
-L Level 4|QID|8347|LVL|4|N|You need to be Level 4 to continue this guide.|R|BloodElf|
-
-A Aiding the Outrunners |QID|8347|R|BloodElf|N|From Lanthan Perilon.|M|52.88,49.80|
-T Aiding the Outrunners |QID|8347|R|BloodElf|N|To Outrunner Alarion.|M|40.4,32.2|Z|Eversong Woods|
-A Slain by the Wretched |QID|9704|N|From Outrunner Alarion.|M|68.37,79.58|Z|Eversong Woods|R|BloodElf|
+A Aiding the Outrunners |QID|8347|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
+T Aiding the Outrunners |QID|8347|R|BloodElf|M|40.4,32.2|N|To Outrunner Alarion.|Z|Eversong Woods|
+A Slain by the Wretched |QID|9704|R|BloodElf|M|68.37,79.58|N|From Outrunner Alarion.|Z|Eversong Woods|
 
 ]]
 end)
