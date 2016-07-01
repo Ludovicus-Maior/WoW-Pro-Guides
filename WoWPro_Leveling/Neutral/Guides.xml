@@ -18,6 +18,7 @@
   <Script file="89_90_Emmaleah_Townlong_Steppes.lua"/>
   <Script file="90_90_EmmFluc_DarkPortal.lua"/>
   <Script file="97_98_Emmaleah_Spires.lua"/>
-  <Script file="98_99_Links_Mardum.lua"/>
-  <Script file="99_100_Links_WardenVault.lua"/>
+  <Script file="098_099_Links_Mardum.lua"/>
+  <Script file="099_100_Links_Vault.lua"/>
+  <Script file="100_100_Links_DH_Artifact.lua"/>
 </Ui>
