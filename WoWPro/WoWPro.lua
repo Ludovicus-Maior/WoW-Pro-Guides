@@ -966,6 +966,8 @@ end
 --- MOP Function Compatability Section
 local wversion, wbuild, wdata, winterface = GetBuildInfo()
 WoWPro.MOP = (winterface >= 50000)
+WoWPro.WOD = (winterface >= 60000)
+WoWPro.WOL = (winterface >= 70000)
 
 if WoWPro.MOP then
     WoWPro.GetNumPartyMembers = GetNumGroupMembers
