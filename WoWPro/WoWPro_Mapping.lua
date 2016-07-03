@@ -399,7 +399,7 @@ function WoWPro:ValidZone(zone)
 	        return WoWPro:ValidZone(nzone)
 	    end
     end    
-    return false
+    return nil
 end
 
 
