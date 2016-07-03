@@ -5,6 +5,10 @@
 local L = WoWPro_Locale
 local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 
+-- Is nil when no scenario is active
+-- Is a table when a scenario is ongoing
+WoWPro.Scenario = nil
+
 local function QidMapReduce(list,default,or_string,and_string,func)
     if not list then return default end
     local do_or = string.find(list,or_string)
@@ -565,8 +569,42 @@ function WoWPro.NextStep(k,i)
 	        end 
         end
 
+        -- Scenario objectives
+        if WoWPro.sobjective[k] then
+            local stage, objective = string.split(";",WoWPro.sobjective[k])
+            stage = tonumber(stage)
+            objective = tonumber(objective) or 0
+            if not WoWPro.Scenario then
+                skip = true
+                break
+            end
+            if WoWPro.Scenario.currentStage > stage then
+                WoWPro.CompleteStep(k, "Stage completed")
+                   skip = true
+                   break
+               end
+               if WoWPro.Scenario.currentStage < stage then
+                   WoWPro.why[k] = "NextStep(): Stage is not active yet."
+                   skip = true
+                   break
+               end
+               if objective > 0 then
+                   if objective > WoWPro.Scenario.numCriteria then
+                       WoWPro:Error("Invalid objective number")
+                       skip = true
+                       break
+                   end
+                   if WoWPro.Scenario.Criteria[objective].completed then
+                       WoWPro.CompleteStep(k, "Scenario objective completed")
+                       skip = true
+                       break
+                   end
+               end
+        end
+
+
 	    -- Skip C or T steps if not in QuestLog
-	    if WoWPro.action[k] == "C" or WoWPro.action[k] == "T" then
+           if (WoWPro.action[k] == "C" or WoWPro.action[k] == "T") and QID then
 --	        WoWPro:Print("LFO: %s [%s] step %s",WoWPro.action[k],WoWPro.step[k],k)
 	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then 
     			skip = true -- If the quest is not in the quest log, the step is skipped --
@@ -1298,7 +1336,84 @@ function WoWPro.PostQuestLogUpdate()
     WoWPro.inhibit_oldQuests_update = false
     WoWPro:dbp("WoWPro.PostQuestLogUpdate() inhibit_oldQuests_update = false")
 end
-   		
+
+
+function WoWPro.ProcessScenarioStage(flag)
+    WoWPro:dbp("WoWPro.ProcessScenarioStage(%s)",tostring(flag))
+    local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = C_Scenario.GetInfo()
+    if not name then
+        WoWPro:dbp("WoWPro.ProcessScenarioStage: C_Scenario.GetInfo() inactive.")
+        return
+    end
+    -- Always create a new scenario table
+    WoWPro.Scenario =  {}
+    WoWPro.Scenario.name = name
+    WoWPro.Scenario.currentStage = currentStage
+    WoWPro.Scenario.numStages = numStages
+    WoWPro.Scenario.completed = completed
+
+    WoWPro:dbp("name='%s', currentStage=%s, numStages=%s, flags=%s, x=%s, y=%s, completed=%s, xp=%s, money=%s, scenarioType=%s = C_Scenario.GetInfo()",
+               name, tostring(currentStage), tostring(numStages), tostring(flags), tostring(x), tostring(y), tostring(completed), tostring(xp), tostring(money),
+               tostring(scenarioType))
+    local stageName, stageDescription, numCriteria = C_Scenario.GetStepInfo();
+    WoWPro.Scenario.stageName = stageName
+    WoWPro.Scenario.stageDescription = stageDescription
+    WoWPro.Scenario.numCriteria = numCriteria
+    WoWPro.ProcessScenarioCriteria(true)
+
+    if WoWPro.Recorder then
+        if WoWPro.Recorder.ProcessScenarioStage then
+            WoWPro.Recorder.ProcessScenarioStage(WoWPro.Scenario)
+        else
+            WoWPro:dbp("No WoWPro.Recorder.ProcessScenarioCriteria to call.")
+        end
+    end
+end
+
+function WoWPro.ProcessScenarioCriteria(punt)
+    WoWPro:dbp("WoWPro.ProcessScenarioCriteria(%s)", tostring(punt))
+    if not WoWPro.Scenario then
+        WoWPro:dbp("WoWPro.ProcessScenarioCriteria(): No WoWPro.Scenario active.  Calling WoWPro.ProcessScenarioStage().")
+        WoWPro.ProcessScenarioStage("ProcessScenarioCriteria_noScenario")
+        return
+    end
+    local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = C_Scenario.GetInfo()
+    if WoWPro.Scenario.name ~= name or WoWPro.Scenario.currentStage ~= currentStage then
+        WoWPro:dbp("WoWPro.ProcessScenarioCriteria(): Crypto Stage update. Calling WoWPro.ProcessScenarioStage().")
+        WoWPro.ProcessScenarioStage("ProcessScenarioCriteria_updatedScenario")
+    end
+    -- Always create a new Criteria table
+    WoWPro.Scenario.Criteria = {}
+    for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
+        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, _, isWeightedProgress = C_Scenario.GetCriteriaInfo(criteriaIndex);
+        if (criteriaString) then
+            WoWPro.Scenario.Criteria[criteriaIndex] = WoWPro.Scenario.Criteria[criteriaIndex] or {}
+            WoWPro.Scenario.Criteria[criteriaIndex].criteriaString = criteriaString
+            WoWPro.Scenario.Criteria[criteriaIndex].completed = completed
+            WoWPro.Scenario.Criteria[criteriaIndex].quantity = quantity
+            WoWPro.Scenario.Criteria[criteriaIndex].totalQuantity = totalQuantity
+            WoWPro.Scenario.Criteria[criteriaIndex].quantityString = quantityString
+            WoWPro.Scenario.Criteria[criteriaIndex].criteriaID = criteriaID
+            WoWPro:dbp("criteriaString=%s, criteriaType=%s, completed=%s, quantity=%s, totalQuantity=%s, flags=%s, assetID=%s, quantityString=%s, criteriaID=%s, duration=%s, elapsed=%s, isWeightedProgress=%s = C_Scenario.GetCriteriaInfo(%d)",
+                       criteriaString, tostring(criteriaType), tostring(completed), tostring(quantity), tostring(totalQuantity), tostring(flags), tostring(assetID),
+                       quantityString, tostring(criteriaID), tostring(duration), tostring(elapsed), tostring(isWeightedProgress), criteriaIndex)
+        end
+    end
+    if not punt then
+        if WoWPro.Recorder then
+            if WoWPro.Recorder.ProcessScenarioCriteria then
+                WoWPro.Recorder.ProcessScenarioCriteria(WoWPro.Scenario)
+            else
+                WoWPro:dbp("No WoWPro.Recorder.ProcessScenarioCriteria to call.")
+            end
+        else
+            WoWPro:dbp("WoWPro.ProcessScenarioCriteria(): No WoWPro.Recorder!")
+        end
+    else
+        WoWPro:dbp("WoWPro.ProcessScenarioCriteria(): PUNT!")
+    end
+end
+
 local function is_int(number)
     return math.floor(number) == math.ceil(number)
 end

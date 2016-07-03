@@ -35,7 +35,7 @@ function WoWPro.Recorder:OnEnable()
 	
 	WoWPro.Recorder:RegisterEvents()
 	WoWPro.Recorder:RegisterSavedGuides()
-	
+	WoWPro.Recorder.ProcessScenarioStage(nil)
 end
 
 function WoWPro.Recorder:OnDisable()
@@ -82,6 +82,14 @@ return [[
 	end
 end
 
+local function checkClassQuest(QID, questTable)
+	if UnitClass("player") == questTable[QID].header then 
+		return UnitClass("player")
+	else
+		return nil
+	end
+end
+
 
 function WoWPro.Recorder.eventHandler(frame, event, ...)
 	local GID = WoWProDB.char.currentguide
@@ -92,13 +100,6 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 	local zonetag
 	if GetZoneText() ~= WoWPro.Guides[GID].zone then zonetag = GetZoneText() else zonetag = nil end
 
-	local function checkClassQuest(QID, questTable)
-		if UnitClass("player") == questTable[QID].header then 
-			return UnitClass("player")
-		else
-			return nil
-		end
-	end
 
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.Recorder:dbp("CHAT_MSG_SYSTEM detected.")
@@ -114,7 +115,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			}
 			if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
 			WoWPro.Recorder:dbp("Adding hearth location "..loc)
-			WoWPro.Recorder:AddStep(stepInfo)
+			WoWPro.Recorder.AddStep(stepInfo)
 		end	
 		WoWPro:AutoCompleteSetHearth(...)
 		
@@ -129,7 +130,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			level = newLevel
 		}
 		WoWPro.Recorder:dbp("Adding level up to level "..newLevel)
-		WoWPro.Recorder:AddStep(stepInfo)
+		WoWPro.Recorder.AddStep(stepInfo)
 		WoWPro:AutoCompleteLevel(newLevel)
 		
 	elseif event == "UI_INFO_MESSAGE" then
@@ -144,7 +145,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			}
 			if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
 			WoWPro.Recorder:dbp("Adding get FP "..GetSubZoneText() or GetZoneText())
-			WoWPro.Recorder:AddStep(stepInfo)
+			WoWPro.Recorder.AddStep(stepInfo)
 		end
 		WoWPro:AutoCompleteGetFP(...)
 		
@@ -165,7 +166,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			if GetUnitName("target") then stepInfo.note = "From "..GetUnitName("target").."." end
 			WoWPro.Recorder.lastStep = WoWPro.newQuest
 			WoWPro.Recorder:dbp("Adding new quest "..WoWPro.newQuest)
-			WoWPro.Recorder:AddStep(stepInfo)
+			WoWPro.Recorder.AddStep(stepInfo)
 			WoWPro:AutoCompleteQuestUpdate()
 			
 		elseif WoWPro.missingQuest and WoWPro.CompletingQuest then
@@ -180,7 +181,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			}
 			if GetUnitName("target") then stepInfo.note = "To "..GetUnitName("target").."." end
 			WoWPro.Recorder:dbp("Turning in quest "..stepInfo.QID)
-			WoWPro.Recorder:AddStep(stepInfo)
+			WoWPro.Recorder.AddStep(stepInfo)
 			WoWPro:AutoCompleteQuestUpdate()
 			
 		else
@@ -204,7 +205,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         							class = checkClassQuest(QID,WoWPro.QuestLog)
         						}
         						WoWPro.Recorder:dbp("Completed QO #%d (%s) for [%s]",idx,stepInfo.note, stepInfo.step)
-        						WoWPro.Recorder:AddStep(stepInfo)
+        						WoWPro.Recorder.AddStep(stepInfo)
         						WoWPro:AutoCompleteQuestUpdate()
         					end
         				end
@@ -240,6 +241,133 @@ function WoWPro.Recorder.PostUpdateGuide()
         WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Keeping step %d as current position.", WoWPro.Recorder.SelectedStep)
     end
 end
+
+local old_scenario = nil
+
+function WoWPro.Recorder.ProcessScenarioStage(scenario)
+    -- Cleanup!
+    if not scenario then
+        old_scenario = nil
+        return
+    end
+    
+    local GID = WoWProDB.char.currentguide
+    local zonetag
+    if GetZoneText() ~= WoWPro.Guides[GID].zone then
+        zonetag = GetZoneText()
+    else
+        zonetag = nil
+    end
+    
+    if old_scenario then
+        -- has anything changed?
+        if old_scenario.currentStage > scenario.currentStage then
+            -- close old stage and open the new stage
+            local stepInfo = {
+                action = "C",
+                step = old_scenario.stageName,
+                zone = zonetag,
+                note = old_scenario.stageDescription,
+                unsticky = true,
+                sobjective = tostring(old_scenario.currentStage),
+            }
+            WoWPro.Recorder:Print("Closing old stage: %s", stepInfo.step)
+            WoWPro.Recorder.AddStep(stepInfo)
+            stepInfo = {
+                action = "C",
+                step = scenario.stageName,
+                zone = zonetag,
+                note = scenario.stageDescription,
+                sticky = true,
+                sobjective = tostring(scenario.currentStage),
+            }
+            WoWPro.Recorder:Print("Entering next stage: %s", stepInfo.step)
+            WoWPro.Recorder.AddStep(stepInfo)
+        else
+            if scenario.completed then
+               -- Close Scenario
+                local stepInfo = {
+                    action = "C",
+                    step = scenario.stageName,
+                    zone = zonetag,
+                    note = scenario.stageDescription,
+                    unsticky = true,
+                    sobjective = tostring(scenario.currentStage),
+                }
+                WoWPro.Recorder:Print("Finishing final stage: %s", stepInfo.step)
+                WoWPro.Recorder.AddStep(stepInfo)        
+            end
+        end
+    else    
+       -- New Scenario
+        local stepInfo = {
+            action = "C",
+            step = scenario.stageName,
+            zone = zonetag,
+            note = scenario.stageDescription,
+            sticky = true,
+            sobjective = tostring(scenario.currentStage),
+        }
+        WoWPro.Recorder:Print("Starting new scenario: %s", scenario.name)
+        WoWPro.Recorder:Print("Entering new stage: %s", stepInfo.step)
+        WoWPro.Recorder.AddStep(stepInfo)
+    end
+    WoWPro.Recorder.ProcessScenarioCriteria(scenario)
+end
+
+function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
+    local GID = WoWProDB.char.currentguide
+    local x, y = GetPlayerMapPosition("player")
+    local zonetag
+    if GetZoneText() ~= WoWPro.Guides[GID].zone then zonetag = GetZoneText() else zonetag = nil end
+
+    if old_scenario then
+        if old_scenario.currentStage == scenario.currentStage then
+            WoWPro.Recorder:dbp("WoWPro.Recorder.ProcessScenario: Scanning stage: %d for completed criteria", scenario.currentStage )
+            for criteriaIndex = 1, scenario.numCriteria do
+                if (not old_scenario.Criteria[criteriaIndex].completed) and scenario.Criteria[criteriaIndex].completed then
+                    -- Incremental completion!
+                    local stepInfo = {
+                        action = "C",
+                        step = scenario.Criteria[criteriaIndex].criteriaString,
+                        map = string.format("%.2f,%.2f", x*100,y*100),
+                        zone = zonetag,
+                        note = scenario.Criteria[criteriaIndex].criteriaString,
+                        sobjective = string.format("%d;%d", scenario.currentStage, criteriaIndex),
+                    }
+                    WoWPro.Recorder:Print("Completed criteria: %s", stepInfo.step)
+                    WoWPro.Recorder.AddStep(stepInfo)
+                end
+            end
+        else
+            -- if we switched stages, then anything uncompleted in the old state must have been done!
+            WoWPro.Recorder:dbp("WoWPro.Recorder.ProcessScenario: PostScanning stage: %d for completed criteria", old_scenario.currentStage )
+            for criteriaIndex = 1, old_scenario.numCriteria do
+                if (not old_scenario.Criteria[criteriaIndex].completed) then
+                    -- Pretend completed!
+                    local stepInfo = {
+                           action = "C",
+                           step = old_scenario.Criteria[criteriaIndex].criteriaString,
+                           map = string.format("%.2f,%.2f", x*100,y*100),
+                           zone = zonetag,
+                           note = old_scenario.Criteria[criteriaIndex].criteriaString,
+                           sobjective = string.format("%d;%d", old_scenario.currentStage, criteriaIndex),
+                    }
+                    WoWPro.Recorder.AddStep(stepInfo)
+                end
+            end
+        end
+    else
+        WoWPro.Recorder:dbp("WoWPro.Recorder.ProcessScenario: No old_scenario for reference.")
+    end
+    -- Update state
+    if scenario.completed then
+        old_scenario = nil
+    else
+        old_scenario = scenario
+    end
+end
+
 
 function WoWPro.Recorder:RegisterEvents()
 	WoWPro.Recorder.events = {"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP"}
@@ -312,11 +440,18 @@ function WoWPro.Recorder:RowLeftClick(i)
 	WoWPro.Recorder:RowUpdate(true)
 end
 		
-function WoWPro.Recorder:AddStep(stepInfo,position)
+function WoWPro.Recorder.AddStep(stepInfo,position)
     if not WoWPro.GuideLoaded then
         WoWPro.Recorder:Warning("Hey, no guide is loaded!")
         return
     end
+    if type(stepInfo.action) ~= "string" then
+        stepInfo.action = "?"
+    end
+    if type(stepInfo.step) ~= "string" then
+        stepInfo.step = "?"
+    end
+        
 	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 	if pos > WoWPro.stepcount then
 	    pos = WoWPro.stepcount
@@ -335,7 +470,10 @@ function WoWPro.Recorder:AddStep(stepInfo,position)
 	    WoWPro.Recorder.SelectedStep = WoWPro.stepcount
 	end
 	WoWPro.Recorder:CheckpointCurrentGuide("AddStep")
-	WoWPro:UpdateGuide("WoWPro.Recorder:AddStep()")
+	local line = WoWPro.Recorder.EmitStep(pos+1)
+	line = line:gsub("|", "¦")
+	WoWPro.Recorder:Print(line)
+	WoWPro:UpdateGuide("WoWPro.Recorder.AddStep()")
 end
 
 function WoWPro.Recorder:RemoveStep(position)
@@ -367,6 +505,52 @@ end
 ---WoWPro:GuideSteps(guide, function()
 ---return [[
 
+local function addTag(line, tag, value)
+	line = line..tag.."\|"
+	if value then
+		line = line..tostring(value).."\|"
+	end
+	return line
+end
+
+
+function WoWPro.Recorder.EmitStep(i)
+    if type(WoWPro.action[i]) ~= "string" or type(WoWPro.step[i]) ~= "string" then
+        return ""
+    end
+
+    local line = WoWPro.action[i].." "..WoWPro.step[i].."|"
+    
+    if WoWPro.QID[i] then line = addTag(line, "QID", tostring(WoWPro.QID[i])) end
+    if WoWPro.optional[i] then line = addTag(line, "O") end
+    if WoWPro.sticky[i] then line = addTag(line, "S") end
+    if WoWPro.unsticky[i] then line = addTag(line, "US") end
+    if WoWPro.rank[i] then line = addTag(line, "RANK", WoWPro.rank[i]) end
+    if WoWPro.noncombat[i] then line = addTag(line, "NC") end
+    if WoWPro.level[i] then line = addTag(line, "LVL", WoWPro.level[i]) end
+    if WoWPro.prof[i] then line = addTag(line, "P", WoWPro.prof[i]) end
+    if WoWPro.waypcomplete[i] == 1 then line = addTag(line, "CC")
+    elseif WoWPro.waypcomplete[i] == 2 then line = addTag(line, "CS") end
+    if WoWPro.prereq[i] then line = addTag(line, "PRE", WoWPro.prereq[i]) end
+    if WoWPro.leadin[i] then line = addTag(line, "LEAD", WoWPro.leadin[i]) end
+    if WoWPro.use[i] then line = addTag(line, "U", WoWPro.use[i]) end
+    if WoWPro.lootitem[i] then
+    	line = line.."L|"..WoWPro.lootitem[i]
+    	if WoWPro.lootqty[i] then
+    		line = line.." "..WoWPro.lootqty[i].."|"
+    	else
+    		line = line.."|"
+    	end
+    end
+    if WoWPro.target[i] then line = addTag(line, "T", WoWPro.target[i]) end
+    if WoWPro.questtext[i] then line = addTag(line, "QO", WoWPro.questtext[i]) end
+    if WoWPro.sobjective[i] then line = addTag(line, "SO", WoWPro.sobjective[i]) end
+    if WoWPro.map[i] then line = addTag(line, "M", WoWPro.map[i]) end
+    if WoWPro.zone[i] then line = addTag(line, "Z", WoWPro.zone[i]) end
+    if WoWPro.note[i] then line = addTag(line, "N", WoWPro.note[i]) end
+    return line
+end
+
 function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	local GID = WoWProDB.char.currentguide
 
@@ -385,45 +569,9 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 		
 	local sequence = {}
 		
-	function addTag(line, tag, value)
-		line = line..tag.."\|"
-		if value then
-			line = line..tostring(value).."\|"
-		end
-		return line
-	end
 	
 	for i,action in pairs(WoWPro.action) do
-	
-		local line = action.." "..WoWPro.step[i].."|"
-		
-		if WoWPro.QID[i] then line = addTag(line, "QID", tostring(WoWPro.QID[i])) end
-		if WoWPro.optional[i] then line = addTag(line, "O") end
-		if WoWPro.sticky[i] then line = addTag(line, "S") end
-		if WoWPro.unsticky[i] then line = addTag(line, "US") end
-		if WoWPro.rank[i] then line = addTag(line, "RANK", WoWPro.rank[i]) end
-		if WoWPro.noncombat[i] then line = addTag(line, "NC") end
-		if WoWPro.level[i] then line = addTag(line, "LVL", WoWPro.level[i]) end
-		if WoWPro.prof[i] then line = addTag(line, "P", WoWPro.prof[i]) end
-		if WoWPro.waypcomplete[i] == 1 then line = addTag(line, "CC")
-		elseif WoWPro.waypcomplete[i] == 2 then line = addTag(line, "CS") end
-		if WoWPro.prereq[i] then line = addTag(line, "PRE", WoWPro.prereq[i]) end
-		if WoWPro.leadin[i] then line = addTag(line, "LEAD", WoWPro.leadin[i]) end
-		if WoWPro.use[i] then line = addTag(line, "U", WoWPro.use[i]) end
-		if WoWPro.lootitem[i] then
-			line = line.."L|"..WoWPro.lootitem[i]
-			if WoWPro.lootqty[i] then
-				line = line.." "..WoWPro.lootqty[i].."|"
-			else
-				line = line.."|"
-			end
-		end
-		if WoWPro.target[i] then line = addTag(line, "T", WoWPro.target[i]) end
-		if WoWPro.questtext[i] then line = addTag(line, "QO", WoWPro.questtext[i]) end
-		if WoWPro.map[i] then line = addTag(line, "M", WoWPro.map[i]) end
-		if WoWPro.zone[i] then line = addTag(line, "Z", WoWPro.zone[i]) end
-		if WoWPro.note[i] then line = addTag(line, "N", WoWPro.note[i]) end
-		
+	    local line = WoWPro.Recorder.EmitStep(i)
 		table.insert(sequence,line)
 	end
 	
