@@ -165,6 +165,7 @@ DefineTag("L","lootitem","string",nil,function (text,i)
     end
 end)    
 DefineTag("QO","questtext","string",nil,nil)
+DefineTag("SO","sobjective","string",nil,nil)
 DefineTag("O","optional","boolean",nil,function (text,i)
     WoWPro.optional[i] = true;
     WoWPro.optionalcount = WoWPro.optionalcount + 1;
