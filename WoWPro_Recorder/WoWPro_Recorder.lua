@@ -261,7 +261,7 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
     
     if old_scenario then
         -- has anything changed?
-        if old_scenario.currentStage > scenario.currentStage then
+        if old_scenario.currentStage < scenario.currentStage then
             -- close old stage and open the new stage
             local stepInfo = {
                 action = "C",
@@ -288,11 +288,11 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
                -- Close Scenario
                 local stepInfo = {
                     action = "C",
-                    step = scenario.stageName,
+                    step = tostring(old_scenario.stageName),
                     zone = zonetag,
                     note = scenario.stageDescription,
                     unsticky = true,
-                    sobjective = tostring(scenario.currentStage),
+                    sobjective = tostring(old_scenario.currentStage),
                 }
                 WoWPro.Recorder:Print("Finishing final stage: %s", stepInfo.step)
                 WoWPro.Recorder.AddStep(stepInfo)        
@@ -325,6 +325,7 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
         if old_scenario.currentStage == scenario.currentStage then
             WoWPro.Recorder:dbp("WoWPro.Recorder.ProcessScenario: Scanning stage: %d for completed criteria", scenario.currentStage )
             for criteriaIndex = 1, scenario.numCriteria do
+--                WoWPro.Recorder:dbp("W.R.PS: cI=%d os.C.completed=%s, s.C.completed=%s",criteriaIndex, tostring(old_scenario.Criteria[criteriaIndex].completed),tostring(scenario.Criteria[criteriaIndex].completed))
                 if (not old_scenario.Criteria[criteriaIndex].completed) and scenario.Criteria[criteriaIndex].completed then
                     -- Incremental completion!
                     local stepInfo = {
@@ -353,6 +354,7 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
                            note = old_scenario.Criteria[criteriaIndex].criteriaString,
                            sobjective = string.format("%d;%d", old_scenario.currentStage, criteriaIndex),
                     }
+                    WoWPro.Recorder:Print("Assuming Completed criteria: %s", stepInfo.step)
                     WoWPro.Recorder.AddStep(stepInfo)
                 end
             end
@@ -363,8 +365,17 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
     -- Update state
     if scenario.completed then
         old_scenario = nil
+        WoWPro.Recorder:dbp("WoWPro.Recorder.ProcessScenario: Retired old_scenario.");
     else
-        old_scenario = scenario
+        if old_scenario then
+            WoWPro.Recorder:dbp("WoWPro.Recorder.ProcessScenario: Retiring serial %d/%d in favor of %d/%d",
+                                old_scenario.serial,old_scenario.Criteria.serial,
+                                scenario.serial,scenario.Criteria.serial);
+        else
+            WoWPro.Recorder:dbp("WoWPro.Recorder.ProcessScenario: Starting serial %d/%d",
+                                scenario.serial,scenario.Criteria.serial);
+        end
+            old_scenario = scenario
     end
 end
 
@@ -523,8 +534,6 @@ function WoWPro.Recorder.EmitStep(i)
     
     if WoWPro.QID[i] then line = addTag(line, "QID", tostring(WoWPro.QID[i])) end
     if WoWPro.optional[i] then line = addTag(line, "O") end
-    if WoWPro.sticky[i] then line = addTag(line, "S") end
-    if WoWPro.unsticky[i] then line = addTag(line, "US") end
     if WoWPro.rank[i] then line = addTag(line, "RANK", WoWPro.rank[i]) end
     if WoWPro.noncombat[i] then line = addTag(line, "NC") end
     if WoWPro.level[i] then line = addTag(line, "LVL", WoWPro.level[i]) end
@@ -548,6 +557,9 @@ function WoWPro.Recorder.EmitStep(i)
     if WoWPro.map[i] then line = addTag(line, "M", WoWPro.map[i]) end
     if WoWPro.zone[i] then line = addTag(line, "Z", WoWPro.zone[i]) end
     if WoWPro.note[i] then line = addTag(line, "N", WoWPro.note[i]) end
+    if WoWPro.sticky[i] then line = addTag(line, "S") end
+    if WoWPro.unsticky[i] then line = addTag(line, "US") end
+
     return line
 end
 

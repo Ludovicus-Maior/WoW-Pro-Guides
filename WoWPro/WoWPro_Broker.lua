@@ -1332,6 +1332,7 @@ function WoWPro.PostQuestLogUpdate()
     WoWPro:dbp("WoWPro.PostQuestLogUpdate() inhibit_oldQuests_update = false")
 end
 
+local ScenarioSerial = 0
 
 function WoWPro.ProcessScenarioStage(flag)
     WoWPro:dbp("WoWPro.ProcessScenarioStage(%s)",tostring(flag))
@@ -1342,6 +1343,8 @@ function WoWPro.ProcessScenarioStage(flag)
     end
     -- Always create a new scenario table
     WoWPro.Scenario =  {}
+    WoWPro.Scenario.serial = ScenarioSerial
+    ScenarioSerial = ScenarioSerial + 1
     WoWPro.Scenario.name = name
     WoWPro.Scenario.currentStage = currentStage
     WoWPro.Scenario.numStages = numStages
@@ -1365,6 +1368,20 @@ function WoWPro.ProcessScenarioStage(flag)
     end
 end
 
+local function shallowcopy(orig)
+    local orig_type = type(orig)
+    local copy
+    if orig_type == 'table' then
+        copy = {}
+        for orig_key, orig_value in pairs(orig) do
+            copy[orig_key] = orig_value
+        end
+    else -- number, string, boolean, etc
+        copy = orig
+    end
+    return copy
+end
+
 function WoWPro.ProcessScenarioCriteria(punt)
     WoWPro:dbp("WoWPro.ProcessScenarioCriteria(%s)", tostring(punt))
     if not WoWPro.Scenario then
@@ -1377,8 +1394,11 @@ function WoWPro.ProcessScenarioCriteria(punt)
         WoWPro:dbp("WoWPro.ProcessScenarioCriteria(): Crypto Stage update. Calling WoWPro.ProcessScenarioStage().")
         WoWPro.ProcessScenarioStage("ProcessScenarioCriteria_updatedScenario")
     end
-    -- Always create a new Criteria table
+    -- Always create a new Criteria table in a clone of the Scenario table.
+    WoWPro.Scenario = shallowcopy(WoWPro.Scenario)
     WoWPro.Scenario.Criteria = {}
+    WoWPro.Scenario.Criteria.serial = ScenarioSerial
+    ScenarioSerial = ScenarioSerial + 1
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
         local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, _, isWeightedProgress = C_Scenario.GetCriteriaInfo(criteriaIndex);
         if (criteriaString) then
