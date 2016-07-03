@@ -946,14 +946,14 @@ local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
 end
 
 function WoWPro:IsInstanceZone(zone)
-    zone = WoWPro:ValidZone(zone)
-    if not zone then
+    nzone = WoWPro:ValidZone(zone)
+    if not nzone then
         WoWPro:Error("Zone [%s] is invalid.  Please report!",zone)
         return false
     end      
-    local mapID = WoWPro.Zone2MapID[zone]
+    local mapID = WoWPro.Zone2MapID[nzone]
     if not mapID then
-        WoWPro:Error("Zone [%s] is not in Zone2MapID.  Please report!",zone)
+        WoWPro:Error("Zone [%s] is not in Zone2MapID.  Please report!",nzone)
         return false
     end  
     if mapID.cont or mapID.zone then
