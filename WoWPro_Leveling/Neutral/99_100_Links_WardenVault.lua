@@ -1,5 +1,5 @@
 
-ocal guide = WoWPro:RegisterGuide('LinksVault099100v2', 'Leveling', 'Vault of the Warden', 'Linkslegend5', 'Neutral')
+local guide = WoWPro:RegisterGuide('LinksVault099100', 'Leveling', 'Vault of the Warden', 'Linkslegend5', 'Neutral')
 WoWPro:GuideLevels(guide,99, 100)
 WoWPro:GuideNextGuide(guide, '')
 WoWPro:GuideSteps(guide, function()

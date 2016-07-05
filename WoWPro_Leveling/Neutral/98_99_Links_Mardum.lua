@@ -1,5 +1,5 @@
 
-local guide = WoWPro:RegisterGuide('LinksMardum098099v2', 'Leveling', 'Mardum, the Shattered Abyss', 'Linkslegend5', 'Neutral')
+local guide = WoWPro:RegisterGuide('LinksMardum098099', 'Leveling', 'Mardum', 'Linkslegend5', 'Neutral')
 WoWPro:GuideLevels(guide,98, 99)
 WoWPro:GuideNextGuide(guide, 'LinksVault099100v2')
 WoWPro:GuideSteps(guide, function()
