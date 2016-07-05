@@ -1,34 +1,75 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/mardum_shattered_abyss_source_code
+-- Date: 2016-07-01 02:22
+-- Who: Ludovicus
+-- Log: Just the usual tweaks.
+
+-- URL: http://wow-pro.com/node/3656/revisions/27458/view
+-- Date: 2016-06-30 23:25
+-- Who: Ludovicus
+-- Log: Add class restriction and icons.
+
+-- URL: http://wow-pro.com/node/3656/revisions/27456/view
+-- Date: 2016-06-28 05:32
+-- Who: Linkslegend5
+-- Log: Finished the DH rough draft, with the Artifact and Class Hall, it ends with picking a zone to start. Only has the DPS spec Artifact, but the recorder didn't get those steps (due to a scenario issue).
+
+-- URL: http://wow-pro.com/node/3656/revisions/27455/view
+-- Date: 2016-06-28 02:02
+-- Who: Ludovicus
+-- Log: Tweaks
+
+-- URL: http://wow-pro.com/node/3656/revisions/27454/view
+-- Date: 2016-06-28 00:37
+-- Who: Linkslegend5
+-- Log: Added Vault of the Warden, the next step after Mardum.
+
+-- URL: http://wow-pro.com/node/3656/revisions/27453/view
+-- Date: 2016-06-28 00:34
+-- Who: Linkslegend5
+-- Log: Wow-Pro Recording of Mardum, the Shattered Abyss.
+
+-- URL: http://wow-pro.com/node/3656/revisions/27449/view
+-- Date: 2016-06-28 00:05
+-- Who: Ludovicus
+-- Log: Initial blank
+
 local guide = WoWPro:RegisterGuide('LinksMardum098099', 'Leveling', 'Mardum', 'Linkslegend5', 'Neutral')
-WoWPro:GuideLevels(guide,98, 99)
-WoWPro:GuideNextGuide(guide, 'LinksVault099100v2')
+WoWPro:GuideLevels(guide,98, 99, 98.0)
+WoWPro:GuideNextGuide(guide, 'LinksVault099100')
+WoWPro:GuideClassSpecific(guide,"DemonHunter")
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_DemonHunter")
 WoWPro:GuideSteps(guide, function()
 return [[
-A The Invasion Begins|QID|40077|M|22.01,55.84|N|From Kayn Sunfury.|
-C The Invasion Begins|QID|40077|QO|1|M|27.48,63.43|N|15/15 Demons slain|
-C The Invasion Begins|QID|40077|QO|2|M|28.56,62.88|N|1/1 Change the Legion banner|
-A Assault on Mardum|QID|39279|M|28.55,62.95|N|From Kayn Sunfury.|
+A The Invasion Begins|QID|40077|M|22.09,55.82|N|From Kayn Sunfury.|
+C The Invasion Begins|QID|40077|QO|1|M|27.48,63.43|N|Slay Demons.|
+C The Invasion Begins|QID|40077|QO|2|M|28.67,62.91|N|Change the Legion banner|
+T The Invasion Begins|QID|40077|M|28.59,63.06|N|To Kayn Sunfury.|
+A Assault on Mardum|QID|39279|M|28.59,63.06|N|From Kayn Sunfury.|
 A Enter the Illidari: Ashtongue|QID|40378|M|28.55,62.95|N|From Kayn Sunfury.|
-C Enter the Illidari: Ashtongue|QID|40378|QO|1|M|31.56,62.08|N|1/1 Ashtongue forces|
-C Enter the Illidari: Ashtongue|QID|40378|QO|2|M|31.56,62.45|N|1/1 Accept Illidan's gift|
-C Enter the Illidari: Ashtongue|QID|40378|QO|3|M|32.09,69.65|N|1/1 Find Allari to the southeast|
-h Mardum, the Shattered Abyss|QID|40378|M|33.95,70.05|N|At Allari the Souleater.|
+C Enter the Illidari: Ashtongue|QID|40378|QO|1|M|31.57,61.91|N|Click on the Legion Gateway Activator.|
+C Enter the Illidari: Ashtongue|QID|40378|QO|2|M|31.56,62.45|N|Click on the Felsaber to accept it.|
+C Enter the Illidari: Ashtongue|QID|40378|QO|3|M|32.09,69.65|N|Find Allari to the southeast.|
 T Enter the Illidari: Ashtongue|QID|40378|M|33.95,70.05|N|To Allari the Souleater.|
 A Set Them Free|QID|38759|M|33.95,70.05|N|From Allari the Souleater.|
 A Eye On the Prize|QID|39049|M|33.95,70.05|N|From Allari the Souleater.|
 A Enter the Illidari: Coilskar|QID|40379|M|33.94,69.96|N|From Sevis Brightflame.|
-C Set Them Free|QID|38759|QO|1|M|37.10,73.75|N|1/1 Soulwrought Key|
+C Set Them Free|QID|38759|QO|1|M|37.10,73.75|N|Get a Soulwrought Key from a Jailer|
 C Set Them Free|QID|38759|QO|3|M|39.35,71.72|N|1/1 Cyana Nightglaive freed|
 C Set Them Free|QID|38759|QO|2|M|41.72,73.21|N|1/1 Belath Dawnblade freed|
-T Assault on Mardum|QID|39279|M|39.43,70.47|N|To Foul Felstalker.|
 C Set Them Free|QID|38759|QO|4|M|38.62,67.90|N|1/1 Izal Whitemoon freed|
 C Set Them Free|QID|38759|QO|5|M|41.59,66.67|N|1/1 Mannethrel Darkstar freed|
-C Enter the Illidari: Coilskar|QID|40379|QO|1|M|43.43,72.68|N|1/1 Soul sacrificed|
-C Enter the Illidari: Coilskar|QID|40379|QO|2|M|43.79,72.04|N|1/1 Coilskar forces|
+C Enter the Illidari: Coilskar|QID|40379|QO|1|M|43.43,72.68|N|Click on thr Ashtoung Mystic to sacrifice his Soul.|
+C Enter the Illidari: Coilskar|QID|40379|QO|2|M|43.79,72.04|N|Click on the Legion Gateway Activator.|
 C Eye On the Prize|QID|39049|QO|1|M|42.62,79.17|N|1/1 Inquisitor Baleful slain & power taken|
-T Enter the Illidari: Coilskar|QID|40379|M|38.80,60.64|N|To Jace Darkweaver.|
-T Eye On the Prize|QID|39049|M|38.80,60.64|N|To Jace Darkweaver.|
-T Set Them Free|QID|38759|M|38.80,60.64|N|To Jace Darkweaver.|
+T Enter the Illidari: Coilskar|QID|40379|M|38.80,60.63|N|To Jace Darkweaver.|
+T Eye On the Prize|QID|39049|M|338.80,60.63|N|To Jace Darkweaver.|
+T Set Them Free|QID|38759|M|38.80,60.63|N|To Jace Darkweaver.|
+; T Assault on Mardum|QID|39279|M|39.43,70.47|N|To Foul Felstalker.| automatically turned in when done.
 h Mardum, the Shattered Abyss|QID|40379|M|38.80,60.64|N|At Jace Darkweaver.|
 A Meeting With the Queen|QID|39050|M|38.80,60.64|N|From Jace Darkweaver.|
 C Meeting With the Queen|QID|39050|QO|1|M|38.80,60.64|N|1/1 Ritual completed|
@@ -92,4 +133,3 @@ h Vault of Silence|QID|38729|M|69.86,37.70|N|At Kayn Sunfury.|
 ]]
 
 end)
-
