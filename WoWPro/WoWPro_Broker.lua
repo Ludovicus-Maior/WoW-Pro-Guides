@@ -1307,7 +1307,7 @@ function WoWPro:PopulateQuestLog()
 	for QID, questInfo in pairs(WoWPro.oldQuests) do
 		if not WoWPro.QuestLog[QID] then 
 			WoWPro.missingQuest = QID 
-			WoWPro:print("Missing Quest: "..WoWPro.oldQuests[QID].title)
+			WoWPro:print("Missing Quest: %d [%s]",QID, tostring(WoWPro.oldQuests[QID].title))
 		end
 	end
 
