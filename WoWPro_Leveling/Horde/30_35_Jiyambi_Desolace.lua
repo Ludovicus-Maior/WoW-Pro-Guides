@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2016-07-17 20:19
+-- Who: Ludovicus
+-- Log: Updated Q0 for [Three Princes]
+
+-- URL: http://wow-pro.com/node/3314/revisions/27431/view
 -- Date: 2016-02-08 01:04
 -- Who: Ludovicus
 -- Log: Add T|Dying Kodo| and a PRE correction.
@@ -293,9 +298,9 @@ A Jugkar's Undoing|RANK|2|QID|14344|U|49200|N|From the Infernal Power Core.|
 C Jugkar's Undoing|RANK|2|QID|14344|U|49199|M|54.36,76.96|N|Use the Infernal Power Core on the big demon. You'll take control of him - use him to defeat the warlock. Ability 1 is an enrage, Ability 2 is a stun, and Ability 3 is a cone of fire. Just use them when they are off cooldown, try to use the stun to interrupt the warlock's casts.|
 T Jugkar's Undoing|RANK|2|QID|14344|N|The turn-in should pop up automatically.|
 
-K Rhoho|QID|14328|M|41.78,82.51|QO|Rhoho Defeated: 1/1|N|At the Gelkis Village to the west, kill Rhoho.|
-K Sherik|QID|14328|M|35.56,81.48|QO|Sherik Defeated: 1/1|N|Kill Sherik.|
-C Three Princes|QID|14328|M|35.62,92.28|N|Now kill Jorreth.|
+K Rhoho|QID|14328|M|41.78,82.51|QO|1|N|At the Gelkis Village to the west, kill Rhoho.|
+K Sherik|QID|14328|M|35.40,81.40|QO|2|N|Kill Sherik.|
+K Jorreth|QID|14328|M|35.62,92.28|QO|3|N|Kill Jorreth.|
 T Three Princes|QID|14328|M|38.15,85.52;38.47,90.88;40.46,95.43|CS|N|To Khan Shodo, inside the cave.|
 A Not So Fast!|QID|14329|M|40.46,95.43|N|From Khan Shodo.|
 
