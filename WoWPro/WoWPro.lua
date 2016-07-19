@@ -311,6 +311,7 @@ function WoWPro:OnInitialize()
     WoWPro.GuideLoaded = false
     WoWPro.EnableGrail = WoWProCharDB.EnableGrail or True
     WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
+    WoWPro.inhibit_oldQuests_update = false
 end
 
 
