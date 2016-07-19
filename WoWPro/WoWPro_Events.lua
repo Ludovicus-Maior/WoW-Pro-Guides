@@ -468,9 +468,15 @@ function WoWPro.EventHandler(frame, event, ...)
     		WoWPro.MainFrame:Show()
     		WoWPro.Titlebar:Show()
     	end
-		WoWPro.PetBattleActive = false
+
 		WoWPro.Hidden = nil
-		WoWPro.current_strategy = nil		
+		if not C_PetBattles.IsInBattle() then
+		    WoWPro.PetBattleActive = false
+		    WoWPro:dbp("C_PetBattles.IsInBattle() = false")
+		else
+		    WoWPro:dbp("C_PetBattles.IsInBattle() = true")
+		    return
+		end
 	end
 	
 	-- Stop processing if no guide is active or something is odd!
@@ -507,7 +513,7 @@ function WoWPro.EventHandler(frame, event, ...)
 
 
 	-- Unlocking guide frame when leaving combat --
-	if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_ENTERING_WORLD" then
+	if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_ENTERING_WORLD" or event == "PET_BATTLE_CLOSE" then
 		WoWPro:UpdateGuide(event) 
 	end
 	
@@ -683,9 +689,6 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:AutoCompleteQuestUpdate(nil)
 		WoWPro:UpdateQuestTracker()
 		WoWPro:UpdateGuide(event)
-		if WoWPro.Recorder then
-	        WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
-	    end
 	end
 
 	if event == "UI_INFO_MESSAGE" then
@@ -712,6 +715,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 	    local winner = ...
 	    WoWPro:DelFauxQuest(WoWPro.QID[qidx])
+        WoWPro.ProcessFinalRound(winner, qidx)
 	    WoWPro:UpdateGuide(event)
 	end
 	

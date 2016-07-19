@@ -205,7 +205,6 @@ DefineTag("STRATEGY","strategy","string",nil,nil)
 DefineTag("SELECT","select","number",nil,nil)
 DefineTag("SWITCH","switch","number",nil,nil)
 DefineTag("DEAD","dead","string",nil,nil)
-DefineTag("WIN","win","boolean",nil,nil)
 
 
 function WoWPro.ParseQuestLine(faction, zone, i, text)
@@ -970,7 +969,6 @@ function WoWPro:RowUpdate(offset)
 		    local switch = WoWPro.switch[k]
 		    local kk = k 
 		    row.itembutton.SwitchPet = function ()
-		        WoWPro:Print("Switch Pet Button %s %d", type(switch), switch )
 		        C_PetBattles.ChangePet(switch)
 		        WoWPro.CompleteStep(kk, "Clicked pet switch")
 		    end

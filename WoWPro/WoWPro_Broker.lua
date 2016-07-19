@@ -110,6 +110,7 @@ function WoWPro:LoadGuide(guideID)
         WoWProDB.char.currentguide = guideID
     end
     WoWPro.GuideLoaded = false
+    WoWPro.current_strategy = nil
     WoWPro:SendMessage("WoWPro_LoadGuide")
 end
 
@@ -447,13 +448,9 @@ function WoWPro.NextStep(k,i)
 			end
 		end
 	
-	    -- Availible quests: not complete and not in quest log --
+	    -- Availible quests: not complete  --
 	    if WoWPro.available[k] then
 	        local available = WoWPro.available[k]
-	        if WoWPro:QIDsInTable(available,WoWPro.QuestLog) then
-	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently in quest log")
-	            break
-	        end
 	        if WoWPro:IsQuestFlaggedCompleted(available) then
 	            skip = true
 	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently complete")
@@ -978,11 +975,16 @@ function WoWPro.NextStep(k,i)
         -- Example:
         --     C Iron Starlette/Darkmoon Zepplin|QID|85561.1|PET1|Iron Starlette;77221;1+1+1|PET2|Darkmoon Zepplin;85561;1+1+2|PET3|Leveling;;;L>20|STRATEGY|IS/DZ|
         if (WoWPro.pet1[k] or WoWPro.pet2[k] or WoWPro.pet3[k]) and WoWPro.strategy[k] then
-            if not WoWPro.current_strategy then
+            if  WoWPro.PetBattleActive then
+                WoWPro.why[k] = "NextStep(): Pet battle is still active!"
+                skip = true
+                break
+            end
+            if WoWPro.current_strategy == nil then
                 if  WoWPro.PetSelectStep(k) then
                     WoWPro.current_strategy = WoWPro.strategy[k]
-                    WoWPro.CompleteStep(k, "NextStep(): Selected pet strategy " .. WoWPro.current_strategy)
                     WoWPro:Print("Selected %s as the PetBattle strategy.", WoWPro.current_strategy)
+                    WoWPro.CompleteStep(k, "NextStep(): Selected pet strategy " .. WoWPro.current_strategy)
                     skip = true
                 else
                     WoWPro.why[k] = "NextStep(): pets not matched for strategy " ..  WoWPro.strategy[k]
@@ -996,26 +998,28 @@ function WoWPro.NextStep(k,i)
         end
         
         -- Pet Strategy steps guide the user in the use of the pets.
-        if WoWPro.PetBattleActive and WoWPro.strategy[k] and WoWPro.current_strategy then
+        -- Skip over inactive strategy steps
+        if WoWPro.strategy[k] and WoWPro.current_strategy then
             if WoWPro.strategy[k] ~= WoWPro.current_strategy then
                 -- Step is for strategy not active
                 WoWPro.why[k] = "NextStep(): not active strategy " ..  WoWPro.current_strategy
                 skip = true
                 break 
             end
-            -- So we are in an active strategy step
+        end
+        -- So we are in an active strategy step
+        if WoWPro.PetBattleActive and WoWPro.strategy[k] and WoWPro.current_strategy and WoWPro.strategy[k] == WoWPro.current_strategy then
             if WoWPro.select[k] then
                 -- make sure this pet is active
                 WoWPro.PetSelect(WoWPro.select[k])
             end
-            -- Three ways to end the step:
+            -- Two ways to end the step:
             --    1) |DEAD|PET{123}| or|DEAD|{NPCID} i.e. switch when someone dies
             --    2) |SWITCH|PET{123}| i.e. manual switch when button is pressed
-            --    3) |WIN| i.e. if you won, complete, if you lost, clear step completetion for all steps with current strategy.
             -- Example:
-            -- C Iron Starlette|QID|85561.1|STRATEGY|IS/DZ|N|Brutus:\n1: Windup\m2: Supercharge (kill Brutus)\n3:Windup (and die)|SELECT|1|DEAD|PET1|
-            -- C Darkmoon Zepplin|QID|85561.1|STRATEGY|IS/DZ|N|Rukus:\n1: Bombing Run\m2: Missle\n3:Missle (and die)|SELECT|2|DEAD|PET2|
-            -- C Leveling Pet|QID|85561.1|STRATEGY|IS/DZ|N|Leveling:\n1: Best Damage\n2: Best Damage\n3: Bomb Hits|SELECT|3|DEAD|85655|WIN|
+            -- C Iron Starlette|QID|85561.1|STRATEGY|IS/DZ|N|Brutus:\n1: Windup\m2: Supercharge (kill Brutus)\n3:Windup (and die)|SELECT|1|DEAD|1,1|
+            -- C Darkmoon Zepplin|QID|85561.1|STRATEGY|IS/DZ|N|Rukus:\n1: Bombing Run\m2: Missle\n3:Missle (and die)|SELECT|2|DEAD|1,2|
+            -- C Leveling Pet|QID|85561.1|STRATEGY|IS/DZ|N|Leveling:\n1: Best Damage\n2: Best Damage\n3: Bomb Hits|SELECT|3|DEAD|2,1|
             if WoWPro.dead[k] then
                 local dead = WoWPro.PetDead(WoWPro.dead[k])
                 if dead then
@@ -1286,6 +1290,7 @@ function WoWPro:PopulateQuestLog()
 
 	-- Stop Tracking the QuestLogs for debugging for Emmaleah
 	WoWProDB.char.Emmaleah = nil
+	WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
 	return num
 end
 
