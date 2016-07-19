@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2016-07-17 20:17
+-- Who: Ludovicus
+-- Log: L to Q0 conversions needed to play.
+
+-- URL: http://wow-pro.com/node/3234/revisions/26924/view
 -- Date: 2014-11-08 06:27
 -- Who: Emmaleah
 -- Log: Remove Dup NC tag from C Kobold Fury!
@@ -120,10 +125,11 @@ A Krom'gar Fortress|QID|26004|PRE|26002|M|74.28,47.71|N|From Saurboz.|
 
 R Krom'gar Fortress|QID|26004|M|66.54,62.80|N|Run to Krom'gar Fortress.|
 f Krom'gar Fortress|QID|26004|M|66.52,62.75|N|Get the flight point.|
+h Krom'gar Fortress|QID|26004|M|66.45,64.20|N|If you like, set your hearth at Felonius Stark.|
 T Krom'gar Fortress|QID|26004|M|66.13,63.72|N|To Overlord Krom'gar.|
 A Seek and Destroy|QID|26009|M|66.07,63.75|RANK|3|N|From Overlord Krom'gar. May only be available at certain times.|
 A Ashes to Ashes|QID|26010|PRE|26004|M|66.13,63.72|N|From Overlord Krom'gar.|
-h Krom'gar Fortress|QID|26011|M|66.45,64.20|N|If you like, set your hearth at Felonius Stark.|
+
 A Dream of a Better Tomorrow|RANK|2|QID|26026|PRE|26004|M|66.13,64.23|N|From Clarissa.|
 A Might of the Krom'gar|QID|28084|M|65.85,64.12|N|From the Krom'gar Quartermaster. The quartermaster will sell you items depending on your rank in the army. Your current rank is listed up in your buffs.|
 A Enemy of the Horde: Marshal Paltrow|QID|26011|PRE|26004|M|65.77,63.33|N|From Spy-Mistress Anara.|
@@ -134,11 +140,11 @@ C Enemy of the Horde: Marshal Paltrow|QID|26011|M|62.1,68.02|N|Kill Marshal Palt
 ; A Orders from Base Camp|QID|26016|M|62.04,67.88|N|The orders drop from Marshal Paltrow. Right-click them to accept the quest.|U|56474|
 C Ashes to Ashes|NC|QID|26010|U|56473|M|61.42,64.88|US|N|Use the flamethrower on the tents.|
 C Seek and Destroy|QID|26009|M|61.42,64.88|US|RANK|3|N|Kill Alliance soldiers.|
-l Mechanized Air|RANK|2|QID|26026|M|59.94,64.21|L|55223|N|Inside the goblin hut.|
-l Mechanized Fire|RANK|2|QID|26026|M|63.09,56.72|L|55221|N|On top of the huge logging machine.|
-l Mechanized Ice|RANK|2|QID|26026|M|66.18,50.05|L|55222|N|On top of the tower.|
+C Mechanized Air|RANK|2|QID|26026|M|59.94,64.21|QO|4|N|Inside the goblin hut.|
+C Mechanized Fire|RANK|2|QID|26026|M|63.09,56.72|QO|2|N|On top of the huge logging machine.|
+C Mechanized Ice|RANK|2|QID|26026|M|66.18,50.05|QO|3||N|On top of the tower.|
 A BEWARE OF CRAGJAW!|RANK|2|QID|26043|M|65.01,49.37|N|From the STAY OUT! poster.|
-C Dream of a Better Tomorrow|RANK|2|NC|QID|26026|M|68.42,45.70;67.09,43.60;63.05,45.65|CS|N|At the end of the stretch of deck, guarded by Gerenzo Wrenchwhistle.|
+C Dream of a Better Tomorrow|QO|1|NC|QID|26026|M|68.42,45.70;67.09,43.60;63.05,45.65|CS|N|At the end of the stretch of deck, guarded by Gerenzo Wrenchwhistle.|
 C BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.21,47.19|N|Jump off if you'd like to try to take on Cragjaw. He's at the center of the lake. Feel free to skip this quest if it's too hard and you can't find someone to help you.|
 
 H Krom'gar Fortress|QID|26011|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|

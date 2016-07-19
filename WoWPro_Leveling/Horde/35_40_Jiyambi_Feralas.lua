@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
+-- Date: 2016-07-17 20:21
+-- Who: Ludovicus
+-- Log: Moved [A Signs of Change] to a better location.
+
+-- URL: http://wow-pro.com/node/3245/revisions/26921/view
 -- Date: 2014-11-08 06:02
 -- Who: Emmaleah
 -- Log: Replace |l| with |L| in l A Perfect Yeti Hide
@@ -62,13 +67,18 @@ WoWPro:GuideNextGuide(guide, 'JiyTho4045')
 WoWPro:GuideIcon(guide,"ACH",4932)
 WoWPro:GuideSteps(guide, function()
 return [[
+A Warchief's Command: Feralas!|QID|28510|N|From Warchief's Command Board|
+A The Wilds of Feralas|QID|26589|M|73.2,73.0|N|From Khan Shodo.|
 
 F Camp Ataya|QID|25339|M|57.71,49.74|N|Fly to Camp Ataya in Feralas.|Z|Desolace|
-A The Wilds of Feralas|QID|26589|M|41.38,15.44|N|To Konu Runetotem.|
+A The Wilds of Feralas|QID|26589|M|73.2,73.0|N|From Khan Shodo.|
+h Camp Ataya|QID|14411|US|M|41.40,15.73|N|At Adene Treetotem.|
+
+A Signs of Change|QID|25210|M|41.39,15.40|N|From Konu Runetotem.|
+
 A Vengeance on the Northspring|QID|25339|RANK|2|M|41.60,15.14|N|From Talo Thornhoof.|
 A Dark Heart|QID|25340|RANK|2|M|41.61,15.21|N|From Talo Thornhoof.|
-A Signs of Change|QID|25210|M|41.39,15.40|N|From Konu Runetotem.|
-h Camp Ataya|QID|14411|US|M|41.40,15.73|N|At Adene Treetotem.|
+
 C Vengeance on the Northspring|QID|25339|S|RANK|2|M|39.46,12.70|N|Kill harpies in the area.|
 l Horn of the Hatetalon|QID|25340|RANK|2|M|40.59,8.52|L|9530|N|Kill harpies until you find the Horn of the Hatetalon.|
 C Dark Heart|QID|25340|RANK|2|M|40.59,8.52|U|9530|N|Use the Horn of the Hatetalon near the Hatetalon Stones. Kill and loot the summoned harpy.|
