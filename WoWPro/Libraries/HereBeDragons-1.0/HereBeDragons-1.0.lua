@@ -1,6 +1,6 @@
 -- HereBeDragons is a data API for the World of Warcraft mapping system
 
-local MAJOR, MINOR = "HereBeDragons-1.0", 19
+local MAJOR, MINOR = "HereBeDragons-1.0", 21
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -86,7 +86,7 @@ local function RestoreWMU()
 end
 
 -- gather map info, but only if this isn't an upgrade (or the upgrade version forces a re-map)
-if not oldversion or oldversion < 18 then
+if not oldversion or oldversion < 21 then
     -- wipe old data, if required, otherwise the upgrade path isn't triggered
     if oldversion then
         wipe(mapData)
@@ -207,6 +207,13 @@ if not oldversion or oldversion < 18 then
         local floors
         if IsLegion then
             floors = { GetNumDungeonMapLevels() }
+
+            -- offset floors for terrain map
+            if DungeonUsesTerrainMap() then
+                for i = 1, #floors do
+                    floors[i] = floors[i] + 1
+                end
+            end
         else
             floors = {}
             for f = 1, GetNumDungeonMapLevels() do
@@ -268,14 +275,37 @@ if not oldversion or oldversion < 18 then
         mapData[WORLDMAP_COSMIC_ID].Z = 0
         mapData[WORLDMAP_COSMIC_ID].name = WORLD_MAP
 
-        -- fake world map
-        mapData[WORLDMAP_AZEROTH_ID] = {0, 0, 0, 0}
-        mapData[WORLDMAP_AZEROTH_ID].instance = -1
+        -- fake azeroth world map
+        -- the world map has one "floor" per continent it contains, which allows
+        -- using these floors to translate coordinates from and to the world map.
+        -- note: due to artistic differences in the drawn azeroth maps, the values
+        -- used for the continents are estimates and not perfectly accurate
+        mapData[WORLDMAP_AZEROTH_ID] = { 63570, 42382, 53730, 19600 } -- Eastern Kingdoms, or floor 0
+        mapData[WORLDMAP_AZEROTH_ID].floors = {
+            -- Kalimdor
+            [1] =    { 65700, 43795, 11900, 23760, instance = 1    },
+            -- Northrend
+            [571] =  { 65700, 43795, 33440, 11960, instance = 571  },
+            -- Pandaria
+            [870] =  { 58520, 39015, 29070, 34410, instance = 870  },
+            -- Broken Isles
+            [1220] = { 96710, 64476, 63100, 29960, instance = 1220 },
+        }
+        mapData[WORLDMAP_AZEROTH_ID].instance = 0
         mapData[WORLDMAP_AZEROTH_ID].mapFile = "World"
-        mapData[WORLDMAP_AZEROTH_ID].floors = {}
         mapData[WORLDMAP_AZEROTH_ID].C = 0
         mapData[WORLDMAP_AZEROTH_ID].Z = 0
         mapData[WORLDMAP_AZEROTH_ID].name = WORLD_MAP
+
+        -- we only have data for legion clients, zeroing the coordinates
+        -- and niling out the floors temporarily disables the logic on live
+        if not IsLegion then
+            mapData[WORLDMAP_AZEROTH_ID][1] = 0
+            mapData[WORLDMAP_AZEROTH_ID][2] = 0
+            mapData[WORLDMAP_AZEROTH_ID][3] = 0
+            mapData[WORLDMAP_AZEROTH_ID][4] = 0
+            mapData[WORLDMAP_AZEROTH_ID].floors = {}
+        end
 
         -- alliance draenor garrison
         if mapData[971] then

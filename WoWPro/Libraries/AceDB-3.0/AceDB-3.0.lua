@@ -10,6 +10,7 @@
 -- * **race** Race-specific data. All of the players characters of the same race share this database.
 -- * **faction** Faction-specific data. All of the players characters of the same faction share this database.
 -- * **factionrealm** Faction and realm specific data. All of the players characters on the same realm and of the same faction share this database.
+-- * **locale** Locale specific data, based on the locale of the players game client.
 -- * **global** Global Data. All characters on the same account share this database.
 -- * **profile** Profile-specific data. All characters using the same profile share this database. The user can control which profile should be used.
 --
@@ -39,7 +40,7 @@
 -- end
 -- @class file
 -- @name AceDB-3.0.lua
--- @release $Id: AceDB-3.0.lua 1124 2014-10-27 21:00:07Z funkydude $
+-- @release $Id: AceDB-3.0.lua 1142 2016-07-11 08:36:19Z nevcairiel $
 local ACEDB_MAJOR, ACEDB_MINOR = "AceDB-3.0", 26
 local AceDB, oldminor = LibStub:NewLibrary(ACEDB_MAJOR, ACEDB_MINOR)
 

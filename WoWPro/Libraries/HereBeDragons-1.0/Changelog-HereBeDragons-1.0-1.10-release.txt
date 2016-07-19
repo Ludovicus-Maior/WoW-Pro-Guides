@@ -1,0 +1,58 @@
+tag 1.10-release
+2d51075ff24fae1d8b8ea1bd0b44a0e13f7bd29f
+Hendrik Leppkes <h.leppkes@gmail.com>
+2016-07-17 14:00:52 +0200
+
+Tag as 1.10-release
+
+
+--------------------
+
+Hendrik Leppkes:
+	- Update TOC to 7.0
+Sinus Pi:
+	- Support basic transformations from and to the azeroth world map, as well as showing pins on it
+	The world map behaves slightly differently to any other zones, as
+	there is no global instance that covers all its "sub" zones.
+	
+	To accomodate this, every of the five continents uses a "floor"
+	identified by its instance id, which allows the caller to indicate
+	which sub-continent to translate to.
+	
+	Example:
+	Translating a pin from the center of Stormwind to the Azeroth World Map
+	could be done like this:
+	
+	HBD:TranslateZoneCoordinates(0.5, 0.5, 301, 0, WORLDMAP_AZEROTH_ID, 0)
+	
+	0.5, 0.5 are the zone coordinates in Stormwind, dead center in the map.
+	301 is Stormwinds map id, with floor 0 (floor nil could also be used)
+	WORLDMAP_AZEROTH_ID is the target zone, and the target floor is the
+	Eastern Kingdom instance ID (which is 0)
+	
+	The Azeroth World Map supports all map functions that take a zone/level combination.
+	Note that in all cases the level has to be specified as the instance ID
+	of the origin continent of the coordinates you are trying to work with.
+Hendrik Leppkes:
+	- Properly use the terrain map offset for dungeon floors in Legion
+	The API in legion changed to return the internal floor ids, which need
+	to be offset by one when the map uses the terrain map as the first floor.
+	- Re-use data tables for pins when an existing pin is re-added to move it.
+	This avoids excess table creation which bypassed the internal table cache.
+	- Protect against errors during loading when no unit position is available.
+	- Fix handling of micro dungeons on transformed continents
+	- Add feral druid artifact scenario override
+	- Add instance override for the Karazhan Artifact Scenario
+	- Dalaran Underbelly has its own instance ID, apparently.
+	- Properly handle map levels in 7.0
+	GetNumDungeonMapLevels() now returns a list of available map levels instead of
+	a total count.
+	- Add instance override for the Temple of Elune Scenario in Val'sharah
+	- Add a fallback for GetNumDungeonMapLevels, which can return nil on the Legion Alpha.
+	Minor intentionally not bumped since this change is only needed on the alpha,
+	but would need a full data update to take effect, which would only add overhead on live.
+	
+	Reported by Gethe and MysticalOS on IRC, fix tested by MysticalOS.
+	- Add the confirmed Draenor zone finale scenarios to the instance overrides
+	- Add the proper Garrison Level 2 instance IDs
+	Fixes ticket 5.

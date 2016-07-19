@@ -1,6 +1,6 @@
 -- HereBeDragons-Pins is a library to show pins/icons on the world map and minimap
 
-local MAJOR, MINOR = "HereBeDragons-Pins-1.0", 12
+local MAJOR, MINOR = "HereBeDragons-Pins-1.0", 13
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local pins, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -276,6 +276,13 @@ local function UpdateMinimapZoom()
 end
 
 local function PositionWorldMapIcon(icon, data, currentMapID, currentMapFloor)
+    -- special handling for the azeroth world map
+    -- translating coordinates to the azeroth map requires passing the instance ID
+    -- of the origin continent, so the appropriate coordinates can be calculated
+    if currentMapID == WORLDMAP_AZEROTH_ID then
+        currentMapFloor = data.instanceID
+    end
+
     local x, y = HBD:GetZoneCoordinatesFromWorld(data.x, data.y, currentMapID, currentMapFloor)
     if x and y then
         icon:ClearAllPoints()
@@ -286,10 +293,22 @@ local function PositionWorldMapIcon(icon, data, currentMapID, currentMapFloor)
     end
 end
 
+local function GetWorldMapLocation()
+    local mapID, mapFloor = GetCurrentMapAreaID(), GetCurrentMapDungeonLevel()
+
+    -- override the mapID for the azeroth world map
+    if mapID == -1 and GetCurrentMapContinent() == 0 and GetCurrentMapZone() == 0 then
+        mapID = WORLDMAP_AZEROTH_ID
+        mapFloor = 0
+    end
+
+    return mapID, mapFloor
+end
+
 local function UpdateWorldMap()
     if not WorldMapButton:IsVisible() then return end
 
-    local mapID, mapFloor = GetCurrentMapAreaID(), GetCurrentMapDungeonLevel()
+    local mapID, mapFloor = GetWorldMapLocation()
 
     -- not viewing a valid map
     if not mapID or mapID == -1 then
@@ -305,7 +324,7 @@ local function UpdateWorldMap()
     worldmapHeight = WorldMapButton:GetHeight()
 
     for icon, data in pairs(worldmapPins) do
-        if instanceID == data.instanceID and (not data.floor or (data.floor == mapFloor and (data.floor == 0 or data.mapID == mapID))) then
+        if (instanceID == data.instanceID or mapID == WORLDMAP_AZEROTH_ID) and (not data.floor or (data.floor == mapFloor and (data.floor == 0 or data.mapID == mapID))) then
             PositionWorldMapIcon(icon, data, mapID, mapFloor)
         else
             icon:Hide()
@@ -513,8 +532,8 @@ function pins:AddWorldMapIconWorld(ref, icon, instanceID, x, y)
     worldmapPins[icon] = t
 
     if WorldMapButton:IsVisible() then
-        local currentMapID, currentMapFloor = GetCurrentMapAreaID(), GetCurrentMapDungeonLevel()
-        if currentMapID and HBD.mapData[currentMapID] and HBD.mapData[currentMapID].instance == instanceID then
+        local currentMapID, currentMapFloor = GetWorldMapLocation()
+        if currentMapID and HBD.mapData[currentMapID] and (HBD.mapData[currentMapID].instance == instanceID or currentMapID == WORLDMAP_AZEROTH_ID) then
             PositionWorldMapIcon(icon, t, currentMapID, currentMapFloor)
         else
             icon:Hide()
@@ -560,8 +579,9 @@ function pins:AddWorldMapIconMF(ref, icon, mapID, mapFloor, x, y)
     worldmapPins[icon] = t
 
     if WorldMapButton:IsVisible() then
-        local currentMapID, currentMapFloor = GetCurrentMapAreaID(), GetCurrentMapDungeonLevel()
-        if currentMapID and HBD.mapData[currentMapID] and HBD.mapData[currentMapID].instance == instanceID and (not mapFloor or (currentMapFloor == mapFloor and (mapFloor == 0 or currentMapID == mapID))) then
+        local currentMapID, currentMapFloor = GetWorldMapLocation()
+        if currentMapID and HBD.mapData[currentMapID] and (HBD.mapData[currentMapID].instance == instanceID or currentMapID == WORLDMAP_AZEROTH_ID)
+           and (not mapFloor or (currentMapFloor == mapFloor and (mapFloor == 0 or currentMapID == mapID))) then
             PositionWorldMapIcon(icon, t, currentMapID, currentMapFloor)
         else
             icon:Hide()

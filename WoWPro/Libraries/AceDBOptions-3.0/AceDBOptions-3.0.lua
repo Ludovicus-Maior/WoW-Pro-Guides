@@ -1,7 +1,7 @@
 --- AceDBOptions-3.0 provides a universal AceConfig options screen for managing AceDB-3.0 profiles.
 -- @class file
 -- @name AceDBOptions-3.0
--- @release $Id: AceDBOptions-3.0.lua 1136 2015-10-22 23:09:27Z nevcairiel $
+-- @release $Id: AceDBOptions-3.0.lua 1140 2016-07-03 07:53:29Z nevcairiel $
 local ACEDBO_MAJOR, ACEDBO_MINOR = "AceDBOptions-3.0", 15
 local AceDBOptions, oldminor = LibStub:NewLibrary(ACEDBO_MAJOR, ACEDBO_MINOR)
 
@@ -57,15 +57,15 @@ if LOCALE == "deDE" then
 	L["default"] = "Standard"
 	L["delete"] = "Profil löschen"
 	L["delete_confirm"] = "Willst du das ausgewählte Profil wirklich löschen?"
-	L["delete_desc"] = "Lösche vorhandene oder unbenutzte Profile aus der Datenbank um Platz zu sparen und um die SavedVariables Datei 'sauber' zu halten."
+	L["delete_desc"] = "Lösche vorhandene oder unbenutzte Profile aus der Datenbank, um Platz zu sparen und die SavedVariables-Datei 'sauber' zu halten."
 	L["delete_sub"] = "Löscht ein Profil aus der Datenbank."
-	L["intro"] = "Hier kannst du das aktive Datenbankprofile ändern, damit du verschiedene Einstellungen für jeden Charakter erstellen kannst, wodurch eine sehr flexible Konfiguration möglich wird."
+	L["intro"] = "Hier kannst du das aktive Datenbankprofil ändern, damit du verschiedene Einstellungen für jeden Charakter erstellen kannst, wodurch eine sehr flexible Konfiguration möglich wird."
 	L["new"] = "Neu"
 	L["new_sub"] = "Ein neues Profil erstellen."
 	L["profiles"] = "Profile"
 	L["profiles_sub"] = "Profile verwalten"
 	L["reset"] = "Profil zurücksetzen"
-	L["reset_desc"] = "Setzt das momentane Profil auf Standardwerte zurück, für den Fall das mit der Konfiguration etwas schief lief oder weil du einfach neu starten willst."
+	L["reset_desc"] = "Setzt das momentane Profil auf Standardwerte zurück, für den Fall, dass mit der Konfiguration etwas schief lief oder weil du einfach neu starten willst."
 	L["reset_sub"] = "Das aktuelle Profil auf Standard zurücksetzen."
 elseif LOCALE == "frFR" then
 	L["choose"] = "Profils existants"
@@ -88,25 +88,25 @@ elseif LOCALE == "frFR" then
 	L["reset_desc"] = "Réinitialise le profil actuel au cas où votre configuration est corrompue ou si vous voulez tout simplement faire table rase."
 	L["reset_sub"] = "Réinitialise le profil actuel avec les paramètres par défaut."
 elseif LOCALE == "koKR" then
-	L["choose"] = "프로필 선택"
-	L["choose_desc"] = "새로운 이름을 입력하거나, 이미 있는 프로필 중 하나를 선택하여 새로운 프로필을 만들 수 있습니다."
-	L["choose_sub"] = "현재 이용할 수 있는 프로필을 선택합니다."
-	L["copy"] = "불러오기"
-	L["copy_desc"] = "현재 사용 중인 프로필에, 선택한 프로필의 설정을 복사합니다."
+	L["choose"] = "저장 중인 프로필"
+	L["choose_desc"] = "입력창에 새로운 이름을 입력하거나 저장 중인 프로필 중 하나를 선택하여 새로운 프로필을 만들 수 있습니다."
+	L["choose_sub"] = "현재 이용할 수 있는 프로필 중 하나를 선택합니다."
+	L["copy"] = "복사해오기"
+	L["copy_desc"] = "현재 사용 중인 프로필에 선택한 프로필의 설정을 복사합니다."
 	L["current"] = "현재 프로필:"
 	L["default"] = "기본값"
 	L["delete"] = "프로필 삭제"
-	L["delete_confirm"] = "정말로 선택한 프로필의 삭제를 원하십니까?"
-	L["delete_desc"] = "데이터베이스에 있는 안 쓰는 프로필을 삭제하면 SavedVariables 파일 정리와 공간 절약이 됩니다."
+	L["delete_confirm"] = "정말로 선택한 프로필을 삭제할까요?"
+	L["delete_desc"] = "저장 공간 절약과 SavedVariables 파일의 정리를 위해 데이터베이스에서 사용하지 않는 프로필을 삭제하세요."
 	L["delete_sub"] = "데이터베이스의 프로필을 삭제합니다."
-	L["intro"] = "사용 중인 데이터베이스 프로필을 바꾸면 각 캐릭터별로 다른 설정을 할 수 있습니다."
+	L["intro"] = "활성 데이터베이스 프로필을 변경할 수 있고, 각 캐릭터 별로 다른 설정을 할 수 있습니다."
 	L["new"] = "새로운 프로필"
 	L["new_sub"] = "새로운 프로필을 만듭니다."
 	L["profiles"] = "프로필"
-	L["profiles_sub"] = "프로필 설정"
+	L["profiles_sub"] = "프로필 관리"
 	L["reset"] = "프로필 초기화"
-	L["reset_desc"] = "설정이 깨졌거나 처음부터 다시 설정을 원하시는 경우, 현재 프로필을 기본값으로 초기화하세요."
-	L["reset_sub"] = "현재 프로필을 기본값으로 초기화합니다."
+	L["reset_desc"] = "설정이 깨졌거나 처음부터 다시 설정을 원하는 경우, 현재 프로필을 기본값으로 초기화하세요."
+	L["reset_sub"] = "현재 프로필을 기본값으로 초기화합니다"
 elseif LOCALE == "esES" or LOCALE == "esMX" then
 	L["choose"] = "Perfiles existentes"
 	L["choose_desc"] = "Puedes crear un nuevo perfil introduciendo un nombre en el recuadro o puedes seleccionar un perfil de los ya existentes."
