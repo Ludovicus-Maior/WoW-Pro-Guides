@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_levelup_125
+-- Date: 2016-07-19 18:55
+-- Who: Ludovicus
+-- Log: Major re-write.
+
+-- URL: http://wow-pro.com/node/3642/revisions/27440/view
 -- Date: 2016-03-23 02:09
 -- Who: Ludovicus
 -- Log: Um, 'nil' is not nil

@@ -1,4 +1,43 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/mardum_shattered_abyss_source_code
+-- Date: 2016-07-01 02:22
+-- Who: Ludovicus
+-- Log: Just the usual tweaks.
+
+-- URL: http://wow-pro.com/node/3656/revisions/27458/view
+-- Date: 2016-06-30 23:25
+-- Who: Ludovicus
+-- Log: Add class restriction and icons.
+
+-- URL: http://wow-pro.com/node/3656/revisions/27456/view
+-- Date: 2016-06-28 05:32
+-- Who: Linkslegend5
+-- Log: Finished the DH rough draft, with the Artifact and Class Hall, it ends with picking a zone to start. Only has the DPS spec Artifact, but the recorder didn't get those steps (due to a scenario issue).
+
+-- URL: http://wow-pro.com/node/3656/revisions/27455/view
+-- Date: 2016-06-28 02:02
+-- Who: Ludovicus
+-- Log: Tweaks
+
+-- URL: http://wow-pro.com/node/3656/revisions/27454/view
+-- Date: 2016-06-28 00:37
+-- Who: Linkslegend5
+-- Log: Added Vault of the Warden, the next step after Mardum.
+
+-- URL: http://wow-pro.com/node/3656/revisions/27453/view
+-- Date: 2016-06-28 00:34
+-- Who: Linkslegend5
+-- Log: Wow-Pro Recording of Mardum, the Shattered Abyss.
+
+-- URL: http://wow-pro.com/node/3656/revisions/27449/view
+-- Date: 2016-06-28 00:05
+-- Who: Ludovicus
+-- Log: Initial blank
+
 local guide = WoWPro:RegisterGuide('LinksDHArtCH100100', 'Leveling', 'Orgrimmar', 'Linkslegend5', 'Horde')
 WoWPro:GuideLevels(guide,100, 100)
 WoWPro:GuideNextGuide(guide, '')
@@ -63,4 +102,3 @@ T Direct Our Wrath|QID|41099|M|0.00,0.00|Z|Mardum, the Shattered Abyss|N|To Altr
 ]]
 
 end)
-
