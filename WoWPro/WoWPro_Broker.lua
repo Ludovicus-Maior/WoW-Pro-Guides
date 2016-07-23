@@ -934,7 +934,7 @@ function WoWPro.NextStep(k,i)
     		        end
     		        idHash[bid] = true
     		    end
-    		    local buildings = C_Garrison.GetBuildings();
+    		    local buildings = C_Garrison.GetBuildings(LE_GARRISON_TYPE_6_0);
     		    WoWPro.why[k] = "NextStep(): Building not owned."
     		    local owned = false
                 for i = 1, #buildings do
