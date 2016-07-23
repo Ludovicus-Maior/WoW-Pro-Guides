@@ -24,7 +24,7 @@ C Puzzle|QID|79180.1|STRATEGY|Wee/MPD|N|1) Thunderbolt on cooldown\n2) Breath as
 C Iron Starlette/Darkmoon Zepplin|QID|85561.1|PET1|Iron Starlette;77221;1+1+1|PET2|Darkmoon Zepplin;55367;1+1+2|PET3|Leveling;;;L>20|STRATEGY|IS/DZ|
 C Iron Starlette|QID|85561.1|STRATEGY|IS/DZ|N|Brutus:\n1: Windup\m2: Supercharge (kill Brutus)\n3:Windup (and die)|SELECT|1|DEAD|1,1|
 C Darkmoon Zepplin|QID|85561.1|STRATEGY|IS/DZ|N|Rukus:\n1: Bombing Run\m2: Missle\n3:Missle (and die)|SELECT|2|DEAD|1,2|
-C Leveling Pet|QID|85561.1|STRATEGY|IS/DZ|N|Leveling:\n1: Best Damage\n2: Best Damage\n3: Bomb Hits|SELECT|3|DEAD|2,3|WIN|
+C Leveling Pet|QID|85561.1|STRATEGY|IS/DZ|N|Leveling:\n1: Best Damage\n2: Best Damage\n3: Bomb Hits|SELECT|3|DEAD|2,3|
 
 C Lil' Bling/Darkmoon Zeppelin|QID|85561.1|PET1|Lil' Bling;73011;2+2+2|PET2|Darkmoon Zeppelin;55367;1+2+2|PET3|Leveling|STRATEGY|LB/DZ|
 
@@ -37,15 +37,15 @@ C Eternal Strider/Emperor Crab/Mechanical Pandaren Dragonling|QID|85656.1|PET1|E
 C Mr. Terrible|QID|85656.1|STRATEGY|ES/EC/MPD|N|1) Pump\n2) Cleansing Rain\n3) Pump|SELECT|1|DEAD|2,1|
 C Carroteye .vs. Strider|QID|85656.1|STRATEGY|ES/EC/MPD|N|Spam Water Jet till Strider dies.|SELECT|1|DEAD|1,1|
 C Carroteye .vs. Crab|QID|85656.1|STRATEGY|ES/EC/MPD|N|1) Renewing Mist\n2) Whirlpool\n3) Surge.|SELECT|2|DEAD|2,2|SWITCH|3|
-C Sloppus .vs. Dragonling|QID|85656.1|STRATEGY|ES/EC/MPD|N|1)Decoy\n2) Breath spam!|SELECT|3|DEAD|2,3|WIN|
+C Sloppus .vs. Dragonling|QID|85656.1|STRATEGY|ES/EC/MPD|N|1)Decoy\n2) Breath spam!|SELECT|3|DEAD|2,3|
 
 ; Day 4: The Beakinator
 ! The Beakinator|NPC|85659|QID|85659.1|
 C Nexus Whelpling|QID|85659.1|PET1|Nexus Whelpling;68845;1+2+2|STRATEGY|BeakinatorWhelping|
-C Beakinator|QID|85659.1|STRATEGY|BeakinatorWhelping|N|1) Arcane Storm\n2) Mana Surge|SELECT|1|DEAD|2,1|WIN|
+C Beakinator|QID|85659.1|STRATEGY|BeakinatorWhelping|N|1) Arcane Storm\n2) Mana Surge|SELECT|1|DEAD|2,1|
 C Unborn Val'kyr/Chrominius|QID|85659.1|PET1|Unborn Val'kyr;71163;2+2+2|PET2|Chrominius;68662;1+1+2|STRATEGY|BeakinatorUnbornChrominius|
 C Beakinator|QID|85659.1|STRATEGY|BeakinatorUnbornChrominius|N|1) Curse of Doom\n2) Unholy Ascension|SELECT|1|DEAD|1,1|
-C Beakinator|QID|85659.1|STRATEGY|BeakinatorUnbornChrominius|N|1) Howl\n) Surge of Power|SELECT|2|DEAD|2,1|WIN|
+C Beakinator|QID|85659.1|STRATEGY|BeakinatorUnbornChrominius|N|1) Howl\n) Surge of Power|SELECT|2|DEAD|2,1|
 
 ; Day 5: King Floret and Queen Floret
 ! King Floret and Queen Floret|NPC|85660;85661|QID|85660.1|
@@ -53,7 +53,7 @@ C Pandaren Water Spirit/Chrominius/Eternal Strider|QID|85660.1|PET1|Pandaren Wat
 C Pandaren Water Spirit|QID|85660.1|STRATEGY|HowlBombPump|N|1)Geyser\n2)Whirlpool\n3)Swap to Chrominius|SELECT|1|SWITCH|2|
 C Chrominius|QID|85660.1|STRATEGY|HowlBombPump|N|1)Howl\n2)Bite until enemy dead\n3)Surge of Power and die\n4) Swap to PWS|SELECT|2|DEAD|1,2|SWITCH|1|
 C Pandaren Water Spirit|QID|85660.1|STRATEGY|HowlBombPump|N|1)Geyser\n2)Whirlpool\n3)Swap to Strider|SELECT|1|SWITCH|3|
-C Strider|QID|85660.1|STRATEGY|HowlBombPump|N|1)Pump\n2)Pump|SELECT|3|WIN|
+C Strider|QID|85660.1|STRATEGY|HowlBombPump|N|1)Pump\n2)Pump|SELECT|3|
 
 
 ; Day 6: Kromli and Gromli
@@ -62,7 +62,7 @@ C Unborn Val'kyr/Stitched Pup/Leveling|QID|85662.1|PET1|Unborn Val'kyr;71163;2+2
 C Kromli|QID|85662.1|STRATEGY|UV/SP|N|1) Curse of Doom (if Rupture stuns, forfeit)\n2) Switch to Pup|SELECT|1|SWITCH|2|
 C Kromli|QID|85662.1|STRATEGY|UV/SP|N|1) Howl\n2) Diseased Bite\n3) Diseased Bite|SELECT|2|DEAD|2,1|SWITCH|1|
 C Gromli|QID|85662.1|STRATEGY|UV/SP|N|1) Curse of Doom\n2) Unholy Ascension\n3) Switch to Pup|SELECT|1|SWITCH|2|
-C Gromli|QID|85662.1|STRATEGY|UV/SP|N|1) Howl\n2) Diseased Bite\n3) Diseased Bite|SELECT|2|DEAD|2,2|WIN|
+C Gromli|QID|85662.1|STRATEGY|UV/SP|N|1) Howl\n2) Diseased Bite\n3) Diseased Bite|SELECT|2|DEAD|2,2|
 
 
 ; Day 7: Grubbles, Stings, and Scrags
@@ -70,7 +70,7 @@ C Gromli|QID|85662.1|STRATEGY|UV/SP|N|1) Howl\n2) Diseased Bite\n3) Diseased Bit
 C Lil' Bad Wolf/Iron Starlette|QID|85664.1|PET1|Lil' Bad Wolf;71014;1+2+1|PET2|Iron Starlette;77221;1+2+1|PET3|Backup;;|STRATEGY|WolfStar|
 C Grubbles|QID|85664.1|STRATEGY|WolfStar|N|1) Dodge\n2) Howl\n3) Claw spam|SELECT|1|DEAD|2,1|SWITCH|2|
 C Scrags|QID|85664.1|STRATEGY|WolfStar|N|1) Wind-Up\n2) Toxic Smoke\n3) Wind-Up|SELECT|2|DEAD|2,2|
-C Stings|QID|85664.1|STRATEGY|WolfStar|N|1) Wind-Up\n2) Supercharge\n3) Wind-Up|SELECT|2|DEAD|2,3|WIN|
+C Stings|QID|85664.1|STRATEGY|WolfStar|N|1) Wind-Up\n2) Supercharge\n3) Wind-Up|SELECT|2|DEAD|2,3|
 
 
 ; Day 8: Jahan, Samm, and Archimedes
@@ -85,7 +85,7 @@ C Archimedes|QID|85674.1|STRATEGY|NexusWhelping|N|1) Arcane Storm\n2) Frost Brea
 C Unborn Val'kyr/Pandaren Water Spirit/Chrominius|QID|79751.1|PET1|Unborn Val'kyr;71163;2+2+2|PET2|Pandaren Water Spirit;66950;1+2+2|PET3|Chrominius;68662;1+1+2|STRATEGY|HowlBombClassic|
 C Unborn Val'kyr|QID|79751.1|STRATEGY|HowlBombClassic|N|1) Curse of Doom\n2) Unholy Ascension|SELECT|1|DEAD|1,1|
 C Pandaren Water Spirit|QID|79751.1|STRATEGY|HowlBombClassic|N|3) Geyser\n4) Whirlpool\n5) Switch to Chrominius|SELECT|2|SWITCH|3|
-C Chrominius|QID|79751.1|STRATEGY|HowlBombClassic|N|6) Howl\n7) Bite *|DEAD|79751|WIN|
+C Chrominius|QID|79751.1|STRATEGY|HowlBombClassic|N|6) Howl\n7) Bite *|DEAD|79751|
 
 ; Day 10: Fiero and Tirs
 ! Fiero and Tirs|NPC|85677;85678|QID|85677.1|
@@ -99,7 +99,7 @@ C Fox|QID|85679.1|STRATEGY|PWS+Howl|N|1)Howl\n2)Dance\n3)Switch to PWS|SELECT|2|
 C Pandaren Water Spirit|QID|85679.1|STRATEGY|PWS+Howl|N|1)Geyser\n2)Whirlpool\n3) Switch to fox.|SELECT|1|SWITCH|2|
 C Fox|QID|85679.1|STRATEGY|PWS+Howl|N|1)Howl\n2)Dance\n3)Switch to PWS|SELECT|2|DEAD|85680|
 C Pandaren Water Spirit|QID|85679.1|STRATEGY|PWS+Howl|N|1)Whirlpool\n2) Switch to Unborn Val'kyr.|SELECT|1|SWITCH|3|
-C Unborn Val'kyr|QID|85679.1|STRATEGY|PWS+Howl|N|1)Shadow Shock until you win!|DEAD|85681|WIN|
+C Unborn Val'kyr|QID|85679.1|STRATEGY|PWS+Howl|N|1)Shadow Shock until you win!|DEAD|85681|
 
 
 ; Day 12: Quintessence of Light
@@ -118,7 +118,7 @@ C Ruby Droplet|QID|85682.1|PET1|Ruby Droplet;73356;2+2+2|PET2|Level;|PET3|Level;
 C Unborn Val'kyr/Sprite Darter Hatchling/Fjord Worg Pup|QID|85685.1|PET1|Unborn Val'kyr;71163;1+2+2|PET2|Sprite Darter Hatchling;9662;1+2+1|PET3|Fjord Worg Pup;62669;2+2+2|STRATEGY|UV/Darter/Pup|
 C Unborn Val'kyr|QID|85685.1|STRATEGY|UV/Darter/Pup|N|1) Curse of Doom\n2)Unholy Acension|SELECT|1|DEAD|1,1|
 C Sprite Darter Hatchling|QID|85685.1|STRATEGY|UV/Darter/Pup|N|3)Exchange Life|SELECT|2|SWITCH|3|
-C Fjord Worg Pup|QID|85685.1|STRATEGY|UV/Darter/Pup|N|4) Howl\n5) Flurry until dead|SELECT|3|DEAD|2,1|WIN|
+C Fjord Worg Pup|QID|85685.1|STRATEGY|UV/Darter/Pup|N|4) Howl\n5) Flurry until dead|SELECT|3|DEAD|2,1|
 
 ; Day 15: Manos, Hanos, and Fatos
 ! Manos, Hanos, and Fatos|NPC|85686;85687;85688|QID|85686.1|
