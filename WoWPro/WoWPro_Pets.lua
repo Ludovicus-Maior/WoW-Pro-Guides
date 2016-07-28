@@ -52,8 +52,10 @@ function WoWPro.PetMeetsLimits(petID, limits)
     local limit_type = string.sub(limits, 1, 2)
 
     if limits == "" then
-        return true
-    elseif limit_type == "L>" then
+        -- no limit implies L25
+        limits = "L>24"
+    end
+    if limit_type == "L>" then
         local min_level = tonumber(string.sub(limits, 3, -1))
         return level > min_level
     elseif limit_type == "H>" then
@@ -275,6 +277,9 @@ function WoWPro.PetLoadAndPick(slot, name_or_id, pick, limits)
     if name_or_id == "Leveling" then
         picker = WoWPro.PickWorstPet
         name_or_id = ""
+        if limits == "" then
+            limits = "L>0"
+        end
     else
         picker = WoWPro.PickBestPet
     end
