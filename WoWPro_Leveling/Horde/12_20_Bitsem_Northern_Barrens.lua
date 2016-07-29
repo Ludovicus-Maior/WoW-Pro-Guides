@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2016-07-29 15:27
+-- Who: tubera
+-- Log: Changed Buckland's coordinates to his spawn location
+
+-- URL: http://wow-pro.com/node/3214/revisions/27475/view
+-- Date: 2016-07-29 14:12
+-- Who: tubera
+-- Log: Fixed Reaperclaw coordinates
+
+-- URL: http://wow-pro.com/node/3214/revisions/27371/view
 -- Date: 2015-07-27 01:24
 -- Who: Ludovicus
 
@@ -316,7 +326,7 @@ K Sunscale Scytheclaws|QID|14067|S|QO|2|M|62.74,61.66|N|Kill Sunscale Scytheclaw
 C Waptor Twapping|QID|14068|S|U|46853|M|63.13,59.18|N|Use the Waptor Twap near Raptors, then loot the trap.|
 l Stolen Silver|QID|14067|QO|3|M|63.72,58.79|N|Loot the Stolen Silver from the Stolen Silver Lockbox.|
 
-C It's Gotta be the Horn|QID|865|M|65.08,58.80|N|Kill Reaperclaw and his minions. Loot his horn.|
+C It's Gotta be the Horn|QID|865|M|64.82,57.15|N|Kill Reaperclaw and his minions. Loot his horn.|
 C Waptor Twapping|QID|14068|US|U|46853|M|63.13,59.18|N|Use the Waptor Twap near Raptors, then loot the trap.|
 K Sunscale Ravagers|QID|14067|US|QO|1|M|62.74,61.66|N|Kill Sunscale Ravagers.|
 K Sunscale Scytheclaws|QID|14067|US|QO|2|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
@@ -329,7 +339,7 @@ T It's Gotta be the Horn|QID|865|M|67.85,71.52|N|To Mebok Mizzyrix.|
 
 l Theramore Medals|QID|891|S|M|71.51,86.54|QO|3|N|From now on, kill Theramore mobs. Be sure to loot the Medals from them.|
 K Lieutenant Pyre|QID|891|M|70.4,84.1|QO|2|T|Lieutenant Pyre|N|Kill Lieutenant Pyre. She stays near the archers.|
-K Lieutenant Buckland|QID|891|M|70.91,85.34|QO|1|T|Lieutenant Buckland|N|Kill Lieutenant Buckland. He wanders from around the holding pen and the boat.|
+K Lieutenant Buckland|QID|891|M|71.5,86.5|QO|1|T|Lieutenant Buckland|N|Kill Lieutenant Buckland. He wanders from around the holding pen and the boat.|
 l Theramore Medals|QID|891|US|M|71.51,86.54|QO|3|N|Finish gathering Theramore Medals.|
 
 C Southsea Freebooters|QID|887|S|M|77.61,89.48|N|Finish killing 8 Southsea Cutthroats or Privateers on Fray Island.|
