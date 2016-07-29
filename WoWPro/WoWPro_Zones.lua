@@ -66,7 +66,12 @@ local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
         WoWPro:Print("Duplicate for %s %d",record.mapName, record.mapID, record.mapID  )
         return
     end
-    record.numFloors = GetNumDungeonMapLevels();
+    local floors = { GetNumDungeonMapLevels() }
+    record.numFloors = 0
+    for i = 1, #floors do
+        record.numFloors = floors[i]
+    end
+
     if cont then
         record.cont = cont
     elseif GetCurrentMapContinent() > -1 then
@@ -74,7 +79,7 @@ local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
     end
     if zone then
         record.zone = zone
-    elseif GetCurrentMapContinent() > -1 and GetCurrentMapZone() > -1 then
+    elseif GetCurrentMapContinent() > -1 and GetCurrentMapZone() > -1 and zonenames[GetCurrentMapContinent()] and zonenames[GetCurrentMapContinent()][GetCurrentMapZone()] then
         record.zone = zonenames[GetCurrentMapContinent()][GetCurrentMapZone()]
     end
     if zone_idx then
@@ -321,8 +326,8 @@ local function Zone2Functs(tabla)
     return result
 end
 
-function WoWPro:Functionalize()
-    WoWPro:GenerateMapCache()
+function WoWPro.Functionalize()
+    WoWPro.GenerateMapCache()
     WoWPro:Print("WoWPro:Functionalize(): 1")
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Maps","Hit escape to dismiss")
     local LogBox = WoWPro.LogBox
@@ -338,31 +343,13 @@ function WoWPro:Functionalize()
     WoWPro:Print("WoWPro:Functionalize(): 3")
 end
 
-local function Rzti2Text()
-    local result = ""
-    for z=1,10000 do
-        local rzti = GetRealZoneText(z)
-        if rzti and rzti ~= "" then
-            result = result .. string.format("[%d] = %q\n",z,rzti)
-        end
-    end
-    return result
-end
 
-function WoWPro:RZTI()
-    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro RTZI","Hit escape to dismiss")
-    local LogBox = WoWPro.LogBox
-    LogBox.Box:SetText( Rzti2Text() )
-    LogBox.Scroll:UpdateScrollChildRect()
-    LogBox:Show()
-end
-
-function WoWPro:GenerateMapCache()
+function WoWPro.GenerateMapCache()
     local here = GetCurrentMapAreaID()
     
     Zone2MapID = {}
     MapsSeen = {}
-    contnames = pack_v(GetMapContinents())
+    local contnames = pack_v(GetMapContinents())
 	for ci=1,7 do
 	    WoWPro:Print("Continent %d [%s]",ci,contnames[ci])
 	    zonenames[ci] = {}
@@ -396,149 +383,4 @@ function WoWPro:GenerateMapCache()
     WoWPro.Zone2MapID = Zone2MapID
     WoWProDB.global.Zone2MapID = Zone2MapID
     SetMapByID(here)
-end
-
----		mapData[955] = { 
----			['floors'] = 0, ['name'] = "CelestialChallenge", ['rzti'] = 1161, ['map_type'] = 0, ['continent'] = 0, ['transform'] = 0,
----			[1] = {2400.0,1600.0,4083.333984375,233.333984375,6483.333984375,-1366.666015625},
----			['micro'] = {
----	            
----			},	
-
-function WoWPro.GenerateLMDItem(k, orig)
-    WoWPro:Print("GenerateLMDItem(%d)",k)
-	SetMapByID(k)
-	SetDungeonMapLevel(0)
-	local v = {}
-	local o = orig or {}
-	local _,l,t,r,b = GetCurrentMapZone()
-	local floors = GetNumDungeonMapLevels();
-	local width, height = 0,0
-	v.floors = floors
-	if l then
-    	width = math.abs((-l) - (-r))
-    	height = math.abs(t - b)
-    	local mapFileName, textureHeight, textureWidth, isMicrodungeon, microDungeonMapName  = GetMapInfo();
-    	if isMicrodungeon then
-    		v.name = microDungeonMapName
-    	else
-    	    v.name = mapFileName
-    	end
-    	if v.floors == 0 then
-    	    v[0] = {}
-    		v[0][1] = width
-    		v[0][2] = height
-    		v[0][3] = -l
-    		v[0][4] = t
-    		v[0][5] = -r
-    		v[0][6] = b
-    	end
-    end
-	v.mapID = k
-	v.rzti = o.rzti or 0
-	v.map_type = o.map_type or 0
-	v.continent = GetCurrentMapContinent()
-	if v.continent < 0 then
-	    v.continent = 0
-	end
-	v.transform = o.transform or 0
-	    
-	-- update floor data if we can
-	if v.floors > 0 then
-		for f = 1, floors do
-			SetDungeonMapLevel(f)
-			local ff, l, t, r, b = GetCurrentMapDungeonLevel()
-			WoWPro:Print("GenerateLMDItem1: Testing for level %s/%d",tostring(l),f)
-			if l then
-    			v[f] = {}
-    			local width, height = 0,0
-    			width = math.abs((-l) - (-r))
-    			height = math.abs(t - b)
-    			v[f][1] = width
-    			v[f][2] = height
-    			v[f][3] = -l
-    			v[f][4] = t
-    			v[f][5] = -r
-    			v[f][6] = b
-    			local mapFileName, textureHeight, textureWidth, isMicrodungeon, microDungeonMapName  = GetMapInfo();
-    			if isMicrodungeon then
-    		        v[f][7] = microDungeonMapName
-    	        else
-    	            v[f][7] = mapFileName
-    	        end
-    		end
-		end
-	else
-	    SetMapByID(k)
-	    local mapname = strupper(GetMapInfo() or "")
-	    for f = 1, 10 do
-	        SetMapByID(k,f)
-	        SetDungeonMapLevel(f)
-	        local ff, l, t, r, b = GetCurrentMapDungeonLevel()
-			if l then
-    			v.micro = v.micro or {}
-    			local width, height = 0,0
-    			width = math.abs((-l) - (-r))
-    			height = math.abs(t - b)
-    			v.micro[f] = {}
-    			v.micro[f][1] = width
-    			v.micro[f][2] = height
-    			v.micro[f][3] = -l
-    			v.micro[f][4] = t
-    			v.micro[f][5] = -r
-    			v.micro[f][6] = b
-            end
-	        local floorname = _G["DUNGEON_FLOOR_"..mapname..f]
-	        if floorname then
-	            v.micro = v.micro or {}         
-    			v.micro[f] = v.micro[f] or {}
-    		    v.micro[f][7] = floorname
-    		end
-		end	    
-	end
-	return v
-end
-
-function WoWPro.DisplayLMDItem(k, orig)
-    local v = WoWPro.GenerateLMDItem(k, orig)
-    local result = ""
-    result = result .. string.format("mapData[%d] = {\n",v.mapID)
-    result = result .. string.format("    ['floors'] = %d, ['name'] = %q, ['rzti'] = %d, ['map_type'] = %d, ['continent'] = %d, ['transform'] = %d,\n", v.floors,  v.name, v.rzti, v.map_type, v.continent, v.transform)
-    local floors = max(1, v.floors)
-    for f = 0, floors do
-        if v[f] then
-            result = result .. string.format("    [%d] = {",f)
-            if v[f][1] then
-                for n=1, 6 do
-                    result = result .. string.format("%f,",v[f][n])
-                end
-            end
-            if v[f][7] then
-                result = result .. string.format(" [7]=%q},\n",v[f][7])
-            else
-                result = result .. string.format("},\n")
-            end
-        end
-    end
-    if v.micro then
-        result = result .. string.format("    ['micro'] = {\n")
-        for f = 1, 10 do
-            if v.micro[f] then
-                result = result .. string.format("      [%d] = {",f)
-                if v.micro[f][1] then
-                    for n=1, 6 do
-                        result = result .. string.format("%f,",v.micro[f][n])
-                    end
-                end
-                if v.micro[f][7] then
-                    result = result .. string.format(" [7]=%q},\n",v.micro[f][7])
-                else
-                    result = result .. string.format("},\n")
-                end
-            end
-        end
-        result = result .. "    }\n"
-    end
-    result = result .. "}\n"
-    return result
 end
