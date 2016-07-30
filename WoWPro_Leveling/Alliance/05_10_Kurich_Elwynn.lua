@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2016-07-30 21:07
+-- Who: Ludovicus
+-- Log: Syntax Fix
+
+-- URL: http://wow-pro.com/node/3197/revisions/27492/view
 -- Date: 2016-07-30 19:21
 -- Who: tubera
 -- Log: Remove class quests, they're no longer available. Join the battle now offered by McBride. Add Missing note tag to Fear no Evil (warrior)

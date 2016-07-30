@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_buildings_horde
+-- Date: 2016-07-30 21:03
+-- Who: Ludovicus
+-- Log: Added @FrostfireRidge
+
+-- URL: http://wow-pro.com/node/3632/revisions/27435/view
 -- Date: 2016-03-22 20:44
 -- Who: Ludovicus
 -- Log: Trimmed useless |N| from [Big Frostfire Gun]
@@ -21,9 +26,9 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ; If this quest is here for you, something wierd is going on.  Nevertheless
-A The Butcher of Bladespire|QID|33410|M|70.8,78.6|N|From Thrall.|Z|Bladespire Courtyard|
-C The Butcher of Bladespire|QID|33410|M|58.07,77.50|T|Dorogg the Ruthless|Z|Bladespire Courtyard|
-T The Butcher of Bladespire|QID|33410|M|70.71,78.56|N|To Thrall.|Z|Bladespire Courtyard|
+A The Butcher of Bladespire|QID|33410|M|70.8,78.6|N|From Thrall.|Z|Bladespire Courtyard@FrostfireRidge|
+C The Butcher of Bladespire|QID|33410|M|58.07,77.50|T|Dorogg the Ruthless|Z|Bladespire Courtyard@FrostfireRidge|
+T The Butcher of Bladespire|QID|33410|M|70.71,78.56|N|To Thrall.|Z|Bladespire Courtyard@FrostfireRidge|
 
 ; Now the quests to get the intro plans
 A The Mysterious Flask|QID|35058|M|0,0|P|Alchemy;171|O|U|112566|N|From a Mysterious Flask which should have just dropped from Dorogg.|

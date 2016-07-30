@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2016-07-30 21:12
+-- Who: Ludovicus
+-- Log:  Stonecrag Gorge@NagrandDraenor ???
+
+-- URL: http://wow-pro.com/node/3618/revisions/27491/view
 -- Date: 2016-07-30 19:07
 -- Who: Ludovicus
 -- Log: Add some @NagrandDraenor's
@@ -336,9 +341,9 @@ A A Lesson in Archaeology |QID|35632|N|From Gazmolf Futzwangler|M|71.13,52.35|PR
 R Vault of the Titan |QID|35663|N|Head to the Vault of the Titan.|M|73.39,49.62;68.62,45.01;66.80,49.69;67.20,49.55|CS|
 l Highmaul Sledge |QID|36039|M|67.39,49.09|N|Up on the side under the flag. Gives a 605 Str/Stam ring.|RANK|3|
 C A Lesson in Teamwork |QID|35663|N|Loot the Ancient Reliquaris from the ground or kill and loot the Highmaul.|NC|S|
-C A Lesson in Archaeology |QID|35632|N|Deploy the Teleportation Beacon.  Stay on the left, cross the wooden bridge.|NC|QO|1|M|69,45|Z|Vault of the Titan@NagrandDraenor|
-C A Lesson in Archaeology |QID|35632|N|Wait for the dialog to finish.|NC|QO|2|M|69,45|Z|Vault of the Titan@NagrandDraenor|
-C A Lesson in Teamwork |QID|35663|N|Finish looting the Ancient Reliquaries from the ground or kill and loot the Highmaul.|NC|US|M|46,54|Z|Vault of the Titan@NagrandDraenor|
+C A Lesson in Archaeology |QID|35632|N|Deploy the Teleportation Beacon.  Stay on the left, cross the wooden bridge.|NC|QO|1|M|69,45|Z|Stonecrag Gorge@NagrandDraenor|
+C A Lesson in Archaeology |QID|35632|N|Wait for the dialog to finish.|NC|QO|2|M|69,45|Z|Stonecrag Gorge@NagrandDraenor|
+C A Lesson in Teamwork |QID|35663|N|Finish looting the Ancient Reliquaries from the ground or kill and loot the Highmaul.|NC|US|M|46,54|Z|Stonecrag Gorge@NagrandDraenor|
 
 T A Lesson in Teamwork |QID|35663|N|To Gazmolf Futzwangler|M|71.13,52.35|
 T A Lesson in Archaeology |QID|35632|N|To Gazmolf Futzwangler|M|71.13,52.35|
