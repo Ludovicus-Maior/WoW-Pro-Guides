@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2016-07-30 16:18
+-- Who: Ludovicus
+-- Log: ¦Court of Souls¦ is now |Tomb of Souls@Talador|
+
+-- URL: http://wow-pro.com/node/3598/revisions/27402/view
 -- Date: 2015-12-31 23:38
 -- Who: Ludovicus
 
@@ -552,8 +557,8 @@ T Sher'KHAAAAAAANNNN!|QID|33884|M|36.19,65.06|RANK|3|N|To Caleb.|
 T And the Elekk Too?!|QID|33944|M|36.19,65.06|RANK|3|N|To Caleb.|
 
 K Echo of Murmer|QID|34221|M|34,57.2|L|113670|T|Echo of Murmur|ITEM|113670|N|Kill and Loot for a bit of treasure.|RANK|3|
-K Shirzir|QID|34671|M|67.5,23.13|Z|Court of Souls|L|112370|T|Shirzir|ITEM|112370|N|He is in the middle hallway, in an underground building in the Court of Souls. You may as well do the bonus objective while you are down there.  Save the ballista/shooting the bats for last so this step will be visable. Kill and loot for a bit of treasure. Do the |ACTIVE|34667|RANK|3|
-l Soulbinder's Reliquary|M|28.27,35.03|Z|Court of Souls|L|117570|ITEM|117570|N|The chest is at the end of the hall to your right as you leave the hall Shirzir was in.|ACTIVE|34667|RANK|3|
+K Shirzir|QID|34671|M|67.5,23.13|Z|Tomb of Souls@Talador|L|112370|T|Shirzir|ITEM|112370|N|He is in the middle hallway, in an underground building in the Court of Souls. You may as well do the bonus objective while you are down there.  Save the ballista/shooting the bats for last so this step will be visable. Kill and loot for a bit of treasure. Do the |ACTIVE|34667|RANK|3|
+l Soulbinder's Reliquary|M|28.27,35.03|Z|Tomb of Souls@Talador|L|117570|ITEM|117570|N|The chest is at the end of the hall to your right as you leave the hall Shirzir was in.|ACTIVE|34667|RANK|3|
 K Frenzied Golem|QID|34145|L|113287|M|46.6,55.6|T|Frenzied Golem|ITEM|113287|N|Kill and loot for a bit of treasure, there are actually 2 versions of the trinket he drops.|RANK|3|
 
 R Jorune Mine|QID|34399|M|49.42,57.64|CS|N|Follow the road to Jorune Mine.|RANK|3|

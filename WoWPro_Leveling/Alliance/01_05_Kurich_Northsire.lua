@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2016-07-30 19:21
+-- Who: tubera
+-- Log: Remove class quests, they're no longer available. Join the battle now offered by McBride. Add Missing note tag to Fear no Evil (warrior)
+
+-- URL: http://wow-pro.com/node/3197/revisions/27269/view
 -- Date: 2015-05-29 00:17
 -- Who: Ludovicus
 -- Log: Level adj
@@ -274,57 +279,15 @@ L Level 2 |QID|3105|C|Warlock|R|Human|N|You need to be Level 2 to continue.|LVL|
 L Level 2 |QID|3100|C|Warrior|R|Human|N|You need to be Level 2 to continue.|LVL|2|
 L Level 2 |QID|31141|C|Monk|R|Human|N|You need to be Level 2 to continue.|LVL|2|
 
-A Etched Letter|QID|26910|C|Hunter|R|Human|M|33.55,53.00|N|From Marshal McBride.|
-A Consecrated Letter|QID|3101|C|Paladin|R|Human|M|33.55,53.00|N|From Marshal McBride.|
-A Hallowed Letter|QID|3103|C|Priest|R|Human|M|33.55,53.00|N|From Marshal McBride.|
-A Glyphic Letter|QID|3104|C|Mage|R|Human|M|33.55,53.00|N|From Marshal McBride.|
-A Encrypted Letter|QID|3102|C|Rogue|R|Human|M|33.55,53.00|N|From Marshal McBride.|
-A Tainted Letter|QID|3105|C|Warlock|R|Human|M|33.55,53.00|N|From Marshal McBride.|
-A Simple Letter|QID|3100|C|Warrior|R|Human|M|33.55,53.00|N|From Marshal McBride.|
-A Calligraphed Letter|QID|31141|C|Monk|R|Human|M|33.55,53.00|N|From Marshal McBride.|
-T Etched Letter|QID|26910|C|Hunter|R|Human|M|34.80,54.79|N|To Ashley Blank.|
-T Concecrated Letter|QID|3101|C|Paladin|R|Human|M|41.54,53.21|N|To Brother Sammuel.|
-T Hallowed Letter|QID|3103|C|Priest|R|Human|M|39.32,43.78|N|To Priestess Anetta.|
-T Glyphic Letter|QID|3104|C|Mage|R|Human|M|38.78,43.46|N|To Khelden Bremen.|
-T Encrypted Letter|QID|3102|C|Rogue|R|Human|M|41.11,45.33|N|To Jorik Kerridan.|
-T Tainted Letter|QID|3105|C|Warlock|R|Human|M|39.53,55.11|N|To Drusilla La Salle.|
-T Simple Letter|QID|3100|C|Warrior|R|Human|M|40.86,53.78|N|To Llane Beshere.|
-T Calligraphed Letter|QID|31141|C|Monk|R|Human|M|41.25,52.10|N|To Bao.|
-
-A Charging into Battle|QID|26913|C|Warrior|R|Human|M|40.86,53.78|N|From Llane Beshere.|
-A The Hunter's Path|QID|26917|C|Hunter|R|Human|M|34.80,54.79|N|From Ashley Blank.|
-A The Power of the Light|QID|26918|C|Paladin|R|Human|M|41.54,53.21|N|From Brother Sammuel.|
-A Mastering the Arcane|QID|26916|C|Mage|R|Human|M|38.78,43.46|N|From Khelden Bremen.|
-A The Deepest Cut|QID|26915|C|Rogue|R|Human|M|41.11,45.33|N|From Jorik Kerridan.|
-A Learning the Word|QID|26919|C|Priest|R|Human|M|39.32,43.78|N|From Priestess Anetta.|
-A Immolation|QID|26914|C|Warlock|R|Human|M|39.53,55.11|N|From Drusilla La Salle.|
-A Palm of the Tiger|QID|31142|C|Monk|R|Human|M|41.25,52.10|N|From Bao.|
-C Immolation|N|Learn Immolate then use it on the training dummies.|QID|26914|C|Warlock|R|Human|M|35.17,61.15|
-C The Deepest Cut|N|Learn Eviscerate and use it on the training dummies. |QID|26915|C|Rogue|R|Human|M|35.17,61.15|
-C Learning the Word|N|Learn Shadow Word: Pain then practice it (5 times) on the training dummies.|QID|26919|C|Priest|R|Human|M|35.17,61.15|
-C Charging into Battle|N|Learn Charge from the warrior trainer then use it on the training dummies.|QID|26913|C|Warrior|R|Human|M|35.17,61.15|
-C The Hunter's Path|N|Learn Steady Shot from the hunter trainer then use it on the training dummies.|QID|26917|C|Hunter|R|Human|M|35.17,61.15|
-C The Power of the Light|N|Learn Seal of righteousness and judgement then use judgement on the training dummies.|QID|26918|C|Paladin|R|Human|M|35.17,61.15|
-C Mastering the Arcane|N|Learn Arcane Missiles then use it on the training dummies.|QID|26916|C|Mage|R|Human|M|35.17,61.15|
-C Palm of the Tiger|N|Learn Tiger Palm then use it on the training dummies.|QID|31142|C|Monk|R|Human|M|35.17,61.15|
-T Immolation|QID|26914|C|Warlock|R|Human|M|39.53,55.11|N|To Drusilla La Salle.|
-T The Deepest Cut|QID|26915|C|Rogue|R|Human|M|41.11,45.33|N|To Jorik Kerridan.|
-T Learning the Word|QID|26919|C|Priest|R|Human|M|39.32,43.78|N|To Priestess Anetta.|
-T Charging into Battle|QID|26913|C|Warrior|R|Human|M|40.86,53.78|N|To Llane Beshere.|
-T The Power of the Light|QID|26918|C|Paladin|R|Human|M|41.54,53.21|N|To Brother Sammuel.|
-T Mastering the Arcane|QID|26916|C|Mage|R|Human|M|38.78,43.46|N|To Khelden Bremen.|
-T The Hunter's Path|QID|26917|C|Hunter|R|Human|M|34.80,54.79|N|To Ashley Blank.|
-T Palm of the Tiger|QID|31142|C|Monk|R|Human|M|41.25,52.10|N|To Bao.|
-
-A Join the Battle!|QID|28788|C|Warlock|R|Human|M|39.53,55.11|N|From Ashley Blank.|
-A Join the Battle!|QID|28787|C|Rogue|R|Human|M|41.11,45.33|N|From Ashley Blank.|
-A Join the Battle!|QID|28786|C|Priest|R|Human|M|39.32,43.78|N|From Ashley Blank.|
-A Join the Battle!|QID|28789|C|Warrior|R|Human|M|40.86,53.78|N|From Ashley Blank.|
-A Join the Battle!|QID|28785|C|Paladin|R|Human|M|41.54,53.21|N|From Ashley Blank.|
-A Join the Battle!|QID|28784|C|Mage|R|Human|M|38.78,43.46|N|From Ashley Blank.|
-A Join the Battle!|QID|28780|C|Hunter|R|Human|M|34.80,54.79|N|From Ashley Blank.|
-A Join the Battle!|QID|31143|C|Monk|R|Human|M|41.25,52.10|N|From Bao.|
-A Join the Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|34.80,54.79|N|From Ashley Blank.|
+A Join the Battle!|QID|28788|C|Warlock|R|Human|M|33.55,53.00|N|To Marshal McBride.|
+A Join the Battle!|QID|28787|C|Rogue|R|Human|M|33.55,53.00|N|To Marshal McBride.|
+A Join the Battle!|QID|28786|C|Priest|R|Human|M|33.55,53.00|N|To Marshal McBride.|
+A Join the Battle!|QID|28789|C|Warrior|R|Human|M|33.55,53.00|N|To Marshal McBride.|
+A Join the Battle!|QID|28785|C|Paladin|R|Human|M|33.55,53.00|N|To Marshal McBride.|
+A Join the Battle!|QID|28784|C|Mage|R|Human|M|33.55,53.00|N|To Marshal McBride.|
+A Join the Battle!|QID|28780|C|Hunter|R|Human|M|33.55,53.00|N|To Marshal McBride.|
+A Join the Battle!|QID|31143|C|Monk|R|Human|M|33.55,53.00|N|To Marshal McBride.|
+A Join the Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|34.80,54.79|N|M|33.55,53.00|N|To Marshal McBride.|
 T Join the Battle!|QID|28788|C|Warlock|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
 T Join the Battle!|QID|28787|C|Rogue|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
 T Join the Battle!|QID|28786|C|Priest|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
@@ -386,7 +349,7 @@ T They Sent Assassins|QID|28791|C|Hunter|R|Human|M|35.74,39.81|N|To Sergeant Wil
 T Fear No Evil|QID|28808|C|Mage|R|Human|M|34.59,39.02|N|To Brother Paxton.|
 T They Sent Assassins|QID|28792|C|Mage|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
 T Fear No Evil|QID|28813|C|Warrior|R|Human|M|34.59,39.02|N|To Brother Paxton.|
-T They Sent Assassins|QID|28797|C|Warrior|R|Human|M|48.81,38.38|
+T They Sent Assassins|QID|28797|C|Warrior|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
 T Fear No Evil|QID|28810|C|Priest|R|Human|M|34.59,39.02|N|To Brother Paxton.|
 T They Sent Assassins|QID|28794|C|Priest|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
 T Fear No Evil|QID|28811|C|Rogue|R|Human|M|34.59,39.02|N|To Brother Paxton.|

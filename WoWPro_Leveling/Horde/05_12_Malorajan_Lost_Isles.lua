@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2016-07-30 20:11
+-- Who: tubera
+-- Log: Remove class quests. Move quests around to make guide more efficient.
+
+-- URL: http://wow-pro.com/node/3212/revisions/27368/view
 -- Date: 2015-07-25 18:43
 -- Who: Ludovicus
 -- Log: Add Icon

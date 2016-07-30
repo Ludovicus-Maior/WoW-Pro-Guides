@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3628
+-- Date: 2016-07-30 16:05
+-- Who: Ludovicus
+-- Log: Spell AVAILABLE right
+
+-- URL: http://wow-pro.com/node/3628/revisions/27426/view
 -- Date: 2016-01-09 01:19
 -- Who: Ludovicus
 -- Log: Add Weeklies
@@ -341,13 +346,13 @@ T Upgrading The Fleet |QID|39245|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfir
 A Naval Domination |QID|39068|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 A Naval Domination |QID|39246|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 C Naval Domination |QID|39068;39246|QO|1|N|You need to complete 25 Naval Treasure Missions.|NC|S|
-K Belgork|AVAILIBLE|38932|M|34.9,47.1|N|Equipment Blueprint: Bilge Pump|T|Belgork|
-K Felsmith Damorka|AVAILIBLE|39366|M|45.7,47.0|N|Equipment Blueprint: Felsmoke Launchers|T|Felsmith Damorka|
-K Captain Ironbeard|AVAILIBLE|39365|M|36.2,79.0|N|Equipment Blueprint: Ghostly Spyglass|T|Captain Ironbeard|
-K Xanzith the Everlasting|AVAILIBLE|39356|M|60.0,21.6|N|Equipment Blueprint: High Intensity Fog Lights|T|Xanzith the Everlasting|
-K Cindral the Wildfire|AVAILIBLE|39363|M|44.6,37.8|N|Equipment Blueprint: Ice Cutter|T|Cindral the Wildfire|
-K Zoug the Heavy|AVAILIBLE|39360|M|37.0,33.0|N|Equipment Blueprint: True Iron Rudder|T|Zoug the Heavy|
-K Savage Whale Shark|AVAILIBLE|39355|M|39.6,30.6|N|Equipment Blueprint: Trained Shark Tank|T|Savage Whale Shark|
+K Belgork|AVAILABLE|38932|M|34.9,47.1|N|Equipment Blueprint: Bilge Pump|T|Belgork|
+K Felsmith Damorka|AVAILABLE|39366|M|45.7,47.0|N|Equipment Blueprint: Felsmoke Launchers|T|Felsmith Damorka|
+K Captain Ironbeard|AVAILABLE|39365|M|36.2,79.0|N|Equipment Blueprint: Ghostly Spyglass|T|Captain Ironbeard|
+K Xanzith the Everlasting|AVAILABLE|39356|M|60.0,21.6|N|Equipment Blueprint: High Intensity Fog Lights|T|Xanzith the Everlasting|
+K Cindral the Wildfire|AVAILABLE|39363|M|44.6,37.8|N|Equipment Blueprint: Ice Cutter|T|Cindral the Wildfire|
+K Zoug the Heavy|AVAILABLE|39360|M|37.0,33.0|N|Equipment Blueprint: True Iron Rudder|T|Zoug the Heavy|
+K Savage Whale Shark|AVAILABLE|39355|M|39.6,30.6|N|Equipment Blueprint: Trained Shark Tank|T|Savage Whale Shark|
 C Naval Domination |QID|39068;39246|QO|1|N|You need to complete 25 Naval Treasure Missions.|NC|US|
 C Naval Domination |QID|39068;39246|QO|2|N|You will need to collect 2,500 Garrison Resources to continue.|NC|
 C Naval Domination |QID|39068;39246|QO|3|N|You will need to collect 2,500 gold to continue.|NC|

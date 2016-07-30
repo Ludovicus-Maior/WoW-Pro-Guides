@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mardum_shattered_abyss_source_code
+-- Date: 2016-07-30 16:02
+-- Who: Ludovicus
+-- Log: Zone tweaks
+
+-- URL: http://wow-pro.com/node/3656/revisions/27459/view
 -- Date: 2016-07-01 02:22
 -- Who: Ludovicus
 -- Log: Just the usual tweaks.
@@ -38,7 +43,7 @@
 -- Who: Ludovicus
 -- Log: Initial blank
 
-local guide = WoWPro:RegisterGuide('LinksMardum098099', 'Leveling', 'Mardum', 'Linkslegend5', 'Neutral')
+local guide = WoWPro:RegisterGuide('LinksMardum098099', 'Leveling', 'MardumtheShatteredAbyss', 'Linkslegend5', 'Neutral')
 WoWPro:GuideLevels(guide,98, 99, 98.0)
 WoWPro:GuideNextGuide(guide, 'LinksVault099100')
 WoWPro:GuideClassSpecific(guide,"DemonHunter")

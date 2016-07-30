@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2016-07-30 15:50
+-- Who: Ludovicus
+-- Log: Ah, Hunter's Hall changed to Grom'gar@FrostfireRidge
+
+-- URL: http://wow-pro.com/node/3587/revisions/27478/view
+-- Date: 2016-07-30 15:43
+-- Who: Ludovicus
+-- Log: Stick @FrostfireRidge on a bunch of Z tags. [Hunter's Hall] comes up as undefined.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27405/view
 -- Date: 2015-12-31 23:42
 -- Who: Ludovicus
 
@@ -323,44 +333,44 @@ C Gormaul Tower|QID|33784|M|21.08,43.93|N|Ride to Gormaul Tower then kill the og
 T Gormaul Tower|QID|33784|M|19.74,44.77|N|To Durotan.|
 A These Colors Don't Run|QID|33526|M|19.74,44.77|N|From Durotan.|
 C These Colors Don't Run|QID|33526|U|107279|M|39.0,23.4|N|Kill the ogres and plant the flag as you run up to Durotan's new location.|
-T These Colors Don't Run|QID|33526|M|43.54,23.08|N|To Durotan.|Z|Bladespire Citadel|
-A Deeds Left Undone|QID|33546|M|43.54,23.08|N|From Durotan.|Z|Bladespire Citadel|
-C Deeds Left Undone|QID|33546|M|56.03,43.64|NC|N|Pick up the barrels of oil off of the ground as you go to Gol'kosh.|Z|Bladespire Citadel|
-T Deeds Left Undone|QID|33546|M|34.27,73.03|N|To Durotan, who is now outside in the courtyard of the citadel.|Z|Bladespire Citadel|
-A Great Balls of Fire!|QID|33408|M|34.27,73.03|N|From Durotan.|Z|Bladespire Citadel|
-C Great Balls of Fire!|QID|33408|M|56.0,85.8|NC|N|Dodge the fireballs as you run up the ramp, click on the barricade when you arrive.|Z|Bladespire Citadel|
-T Great Balls of Fire!|QID|33408|M|70.8,78.6|N|To Thrall.|Z|Bladespire Courtyard|
-A The Butcher of Bladespire|QID|33410|M|70.8,78.6|N|From Thrall.|Z|Bladespire Courtyard|
-C The Butcher of Bladespire|QID|33410|M|58.07,77.50|T|Dorogg the Ruthless|Z|Bladespire Courtyard|
-T The Butcher of Bladespire|QID|33410|M|70.71,78.56|N|To Thrall.|Z|Bladespire Courtyard|
-A To the Slaughter|QID|33622|M|70.71,78.56|N|From Thrall.|Z|Bladespire Courtyard|
-A Armed and Dangerous|QID|33344|M|70.71,78.56|N|From Thrall.|Z|Bladespire Courtyard|
+T These Colors Don't Run|QID|33526|M|43.54,23.08|N|To Durotan.|Z|Bladespire Citadel@FrostfireRidge|
+A Deeds Left Undone|QID|33546|M|43.54,23.08|N|From Durotan.|Z|Bladespire Citadel@FrostfireRidge|
+C Deeds Left Undone|QID|33546|M|56.03,43.64|NC|N|Pick up the barrels of oil off of the ground as you go to Gol'kosh.|Z|Bladespire Citadel@FrostfireRidge|
+T Deeds Left Undone|QID|33546|M|34.27,73.03|N|To Durotan, who is now outside in the courtyard of the citadel.|Z|Bladespire Citadel@FrostfireRidge|
+A Great Balls of Fire!|QID|33408|M|34.27,73.03|N|From Durotan.|Z|Bladespire Citadel@FrostfireRidge|
+C Great Balls of Fire!|QID|33408|M|56.0,85.8|NC|N|Dodge the fireballs as you run up the ramp, click on the barricade when you arrive.|Z|Bladespire Citadel@FrostfireRidge|
+T Great Balls of Fire!|QID|33408|M|70.8,78.6|N|To Thrall.|Z|Bladespire Courtyard@FrostfireRidge|
+A The Butcher of Bladespire|QID|33410|M|70.8,78.6|N|From Thrall.|Z|Bladespire Courtyard@FrostfireRidge|
+C The Butcher of Bladespire|QID|33410|M|58.07,77.50|T|Dorogg the Ruthless|Z|Bladespire Courtyard@FrostfireRidge|
+T The Butcher of Bladespire|QID|33410|M|70.71,78.56|N|To Thrall.|Z|Bladespire Courtyard@FrostfireRidge|
+A To the Slaughter|QID|33622|M|70.71,78.56|N|From Thrall.|Z|Bladespire Courtyard@FrostfireRidge|
+A Armed and Dangerous|QID|33344|M|70.71,78.56|N|From Thrall.|Z|Bladespire Courtyard@FrostfireRidge|
 ;drops from Dorogg -- starts profession training;
 A The Mysterious Flask|QID|35058|M|0,0|P|Alchemy;171|O|U|112566|N|From a Mysterious Flask which should have just dropped from Dorogg.|
 A The Fractured Hammer|QID|36205|M|0,0|P|Blacksmithing;164|O|U|114965|N|From a Fractured Forge Hammer which should have just dropped from Dorogg.|
 A Enchanted Highmaul Bracer|QID|36255|M|0,0|P|Enchanting;333|O|U|115008|N|From an Enchanted Highmaul Bracer which should have just dropped from Dorogg.|
-A Heavy Arms|QID|36589|M|0,0|Z|Bladespire Citadel|P|Engineering;202|O|U|116438|N|From a Burned out Hand Cannon which should have just dropped from Dorogg.|
+A Heavy Arms|QID|36589|M|0,0|Z|Bladespire Citadel@FrostfireRidge|P|Engineering;202|O|U|116438|N|From a Burned out Hand Cannon which should have just dropped from Dorogg.|
 A Unintelligible Intelligence|QID|36435|M|0,0|P|Inscription;773|O|U|115593|N|From Illegible Sootstained Notes which should have just dropped from Dorogg.|
 A The Intricate Pendant|QID|36314|M|0,0|P|Jewelcrafting;755|O|U|115287|N|From an Intricate Crimson Pendant which should have just dropped from Dorogg.|
 A A Warrior's Shroud|QID|36505|M|0,0|P|Leatherworking;165|O|U|116173|N|From a Tattered Frostwolf Shroud which should have just dropped from Dorogg.|
 A Trega's Tailoring Kit|QID|36301|M|0,0|P|Tailoring;197|O|U|114973|N|From a Frostwolf Tailoring Kit which should have just dropped from Dorogg.|
 
-C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|S|N|Click on the slaves as you work your way towards Duratan.|Z|Bladespire Courtyard|
-C To the Slaughter|QID|33622|M|52.47,21.00|Z|Bladespire Courtyard|
-C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|US|N|Finish up giving the slaves weapons.|Z|Bladespire Courtyard|
-T To the Slaughter|QID|33622|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtyard|
-T Armed and Dangerous|QID|33344|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtyard|
-A Last Steps|QID|33527|M|50.30,32.59|N|From Durotan.|Z|Bladespire Courtyard|
-C Last Steps|QID|33527|M|50.3,31.8|T|Gorr'thog|N|Click on the ladder beside you to climb the chain. At the top you will find Gorr'thog. Kill him.|Z|Bladespire Throne|
-T Last Steps|QID|33527|M|66.52,56.51|N|To Durotan.|Z|Bladespire Courtyard|
+C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|S|N|Click on the slaves as you work your way towards Duratan.|Z|Bladespire Courtyard@FrostfireRidge|
+C To the Slaughter|QID|33622|M|52.47,21.00|Z|Bladespire Courtyard@FrostfireRidge|
+C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|US|N|Finish up giving the slaves weapons.|Z|Bladespire Courtyard@FrostfireRidge|
+T To the Slaughter|QID|33622|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
+T Armed and Dangerous|QID|33344|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
+A Last Steps|QID|33527|M|50.30,32.59|N|From Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
+C Last Steps|QID|33527|M|50.3,31.8|T|Gorr'thog|N|Click on the ladder beside you to climb the chain. At the top you will find Gorr'thog. Kill him.|Z|Bladespire Throne@FrostfireRidge|
+T Last Steps|QID|33527|M|66.52,56.51|N|To Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
 L Level 91|QID|34823|LVL|91|N|You should be around level 91 by this point.|
-A Moving In|QID|33657|M|66.52,56.51|N|From Durotan.|Z|Bladespire Throne|
-C Moving In|QID|33657|M|66.52,56.51|NC|N|Hop on the wolf next to Durotan and it will take you to the next area.|Z|Bladespire Throne|
-T Moving In|QID|33657|M|42.94,41.60|N|To Durotan.|Z|Bladespire Citadel|
-A Save Wolf Home|QID|33468|M|42.94,41.60|N|From Durotan.|Z|Bladespire Citadel|
+A Moving In|QID|33657|M|66.52,56.51|N|From Durotan.|Z|Bladespire Throne@FrostfireRidge|
+C Moving In|QID|33657|M|66.52,56.51|NC|N|Hop on the wolf next to Durotan and it will take you to the next area.|Z|Bladespire Throne@FrostfireRidge|
+T Moving In|QID|33657|M|42.94,41.60|N|To Durotan.|Z|Bladespire Citadel@FrostfireRidge|
+A Save Wolf Home|QID|33468|M|42.94,41.60|N|From Durotan.|Z|Bladespire Citadel@FrostfireRidge|
 
-A Wanted: Gutsmash the Destroyer|QID|33919|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel|RANK|2|
-A Mopping Up|QID|33412|M|28.29,45.72|N|From Snowrunner Rolga.|Z|Bladespire Citadel|RANK|2|
+A Wanted: Gutsmash the Destroyer|QID|33919|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
+A Mopping Up|QID|33412|M|28.29,45.72|N|From Snowrunner Rolga.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
 A Slavery and Strife|QID|33119|M|20.1,52.9|N|From Guse.|RANK|2|
 f Bladespire Citadel|QID|33412|M|19.9,51.8|N|At Roark the Airwolf.|
 F Wor'gol|QID|33468|M|24.33,37.24|N|At Roark the Airwolf.|
@@ -434,9 +444,9 @@ C Slavery and Strife|QID|33119|M|30.59,41.56|QO|1|RANK|2|US|NC|N|To release the 
 T Slavery and Strife|QID|33119|M|30.78,41.51|N|To Mulverick.|RANK|2|
 A Mulverick's Plight|QID|33483|M|30.78,41.51|N|From Mulverick.|RANK|2|PRE|33119|
 R Entrance to Sootstained Mine|QID|33483|M|29.62,41.73|CC|N|After you walk in the mine and enter the big room, open your map, if the waypoint is placed correctly (on the sootstained mine map) all is good.  If not, you need to type /reload to reload your UI as you have entered an alternate map area.|RANK|2|
-C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|S|RANK|2|N|Go down into the mines and collect the axes from taskmasters along the way.|
-C Mulverick's Plight|QID|33483|M|59.65,51.67;51.43,34.51|Z|Sootstained Mine|CS|QO|2|RANK|2|N|Go down into the mines and you will find Turgall with the key.|
-C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|US|RANK|2|N|You can run behind Turgall and jump down for a shortcut back to Mulverick.|T|Slavemaster Turgall|
+C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mines@FrostfireRidge|QO|1|S|RANK|2|N|Go down into the mines and collect the axes from taskmasters along the way.|
+C Mulverick's Plight|QID|33483|M|59.65,51.67;51.43,34.51|Z|Sootstained Mines@FrostfireRidge|CS|QO|2|RANK|2|N|Go down into the mines and you will find Turgall with the key.|
+C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mines@FrostfireRidge|QO|1|US|RANK|2|N|You can run behind Turgall and jump down for a shortcut back to Mulverick.|T|Slavemaster Turgall|
 C Mulverick's Plight|QID|33483|M|30.78,41.52|QO|3|RANK|2|NC|N|Bring the key and the axes back to Mulverick.|
 T Mulverick's Plight|QID|33483|M|30.77,41.44|N|To Mulverick.|RANK|2|
 A The Slavemaster's Demise|QID|33484|M|30.77,41.44|N|From Mulverick.|RANK|2|PRE|33483|
@@ -465,11 +475,11 @@ U Learn Tailoring skill|QID|36706|U|115357|M|20.47,60.60|P|Tailoring;197|N|After
 F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Leatherworking;165|
 F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Tailoring;197|LEAD|36516|
 T The Slavemaster's Demise|QID|33484|M|18.44,42.12;24.36,37.30|CS|N|To Guse.|RANK|2|
-T The Fall of the Warlord|QID|33467|M|28.29,45.72|N|To Snowrunner Rolga.|Z|Bladespire Citadel|RANK|2|
-T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel|N|To Durotan.|
-A Ga'nar's Vengeance|QID|32783|M|43.13,41.23|Z|Bladespire Citadel|N|From Durotan.|
-A Securing the South|QID|32989|M|43.13,41.23|Z|Bladespire Citadel|N|From Durotan.|RANK|2|
-T Wanted: Gutsmash the Destroyer|QID|33919|M|43.0,44.7|Z|Bladespire Citadel|N|To Der'shway.|RANK|2|
+T The Fall of the Warlord|QID|33467|M|28.29,45.72|N|To Snowrunner Rolga.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
+T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|To Durotan.|
+A Ga'nar's Vengeance|QID|32783|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|
+A Securing the South|QID|32989|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|RANK|2|
+T Wanted: Gutsmash the Destroyer|QID|33919|M|43.0,44.7|Z|Bladespire Citadel@FrostfireRidge|N|To Der'shway.|RANK|2|
 
 R Daggermaw Ravine|QID|32783|M|30.89,25.84|N|Run roughly northeast from the Ring of Blood to Daggermaw Ravine.|
 T Ga'nar's Vengeance|QID|32783|M|30.89,25.84|N|To Ga'nar|
@@ -493,11 +503,11 @@ A Wrath of Gronn|QID|32794|M|46.40,32.15|N|From Ga'nar.|
 C Articles of the Fallen|QID|32804|M|46.59,33.46|NC|N|Pick up the items off of the ground in this open area.|
 T Articles of the Fallen|QID|32804|M|46.38,32.04|N|To Kal'gor the Honorable.|
 C Wrath of Gronn|QID|32794|M|39.88,72.16|N|Head down the cave and fight the gronn's captors.|
-T Wrath of Gronn|QID|32794|M|50.58,54.40|N|To Ga'nar. Take any path in the cave to the middle.|Z|Grulloc's Lair|
-A The Eldest|QID|32795|M|50.58,54.40|Z|Grulloc's Lair|N|From Ga'nar.|
-C The Eldest|QID|32795|M|53.65,62.58|Z|Grulloc's Lair|CHAT|N|Talk to Ga'nar to start the fight.|T|Grulloc|
-T The Eldest|QID|32795|M|49.30,50.46|Z|Grulloc's Lair|N|From Ga'nar.|
-A To the Garrison|QID|32796|M|49.30,50.46|Z|Grulloc's Lair|
+T Wrath of Gronn|QID|32794|M|50.58,54.40|N|To Ga'nar. Take any path in the cave to the middle.|Z|Grulloc's Lair@FrostfireRidge|
+A The Eldest|QID|32795|M|50.58,54.40|Z|Grulloc's Lair@FrostfireRidge|N|From Ga'nar.|
+C The Eldest|QID|32795|M|53.65,62.58|Z|Grulloc's Lair@FrostfireRidge|CHAT|N|Talk to Ga'nar to start the fight.|T|Grulloc|
+T The Eldest|QID|32795|M|49.30,50.46|Z|Grulloc's Lair@FrostfireRidge|N|From Ga'nar.|
+A To the Garrison|QID|32796|M|49.30,50.46|Z|Grulloc's Lair@FrostfireRidge|
 H Town Hall (Frostwall)|QID|32796|M|41.58,53.06|Z|Frostwall|U|110560|N|Back to your Garrison.|
 
 A Ashran Appearance|QID|36706|M|52.45,53.35|N|From Gazlowe.|Z|Frostwall|
@@ -815,9 +825,9 @@ T A Proper Parting|QID|33125|M|66.04,49.10|N|To Outrider Urukag.|RANK|3|
 T Gut Guttra|QID|33132|M|66.04,49.10|N|To Outrider Urukag.|RANK|3|
 
 R The Hunter's Hall|QID|33010|M|63.39,65.67|RANK|2|
-C The Iron Wolf|QID|33010|M|58.38,58.36|Z|Hunter's Hall|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|RANK|2|
-T The Iron Wolf|QID|33010|M|53.23,56.27|Z|Hunter's Hall|N|To Thrall.|RANK|2|
-A To Thunder Pass|QID|34123|M|53.23,56.27|Z|Hunter's Hall|N|From Thrall.|RANK|2|
+C The Iron Wolf|QID|33010|M|58.38,58.36|Z|Grom'gar@FrostfireRidge|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|RANK|2|
+T The Iron Wolf|QID|33010|M|53.23,56.27|Z|Grom'gar@FrostfireRidge|N|To Thrall.|RANK|2|
+A To Thunder Pass|QID|34123|M|53.23,56.27|Z|Grom'gar@FrostfireRidge|N|From Thrall.|RANK|2|
 
 f Wolf's Stand|QID|34124|M|73.63,60.03|N|At Windhunter.|RANK|2|
 T To Thunder Pass|QID|34123|M|73.43,58.83|N|To Lokra.|RANK|2|

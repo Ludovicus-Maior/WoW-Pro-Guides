@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2016-07-30 19:55
+-- Who: tubera
+-- Log: Remove unavailable class quests.
+
+-- URL: http://wow-pro.com/node/3203/revisions/27329/view
 -- Date: 2015-07-12 20:27
 -- Who: Ludovicus
 -- Log: Playthrough on a Belf Pally
@@ -188,52 +193,9 @@ L Level 4|QID|14461|LVL|4|N|You should be around level 4 by this point.|
 
 T Feed of Evil|QID|14461|M|30.92,50.59|N|To Adana Thunderhorn.|
 A Rite of Honor|QID|14460|M|30.92,50.59|N|From Adana Thunderhorn.|
-
-A Verdant Note|QID|3094|M|30.82,49.46|N|From Rohaku Stonehoof.|C|Druid|R|Tauren|
-A Etched Note|QID|3092|M|30.82,49.46|N|From Rohaku Stonehoof.|C|Hunter|R|Tauren|
-A Consecrated Note|QID|27015|M|30.82,49.46|N|From Rohaku Stonehoof.|C|Paladin|R|Tauren|
-A Hallowed Note|QID|27014|M|30.82,49.46|N|From Rohaku Stonehoof.|C|Priest|R|Tauren|
-A Rune-Inscribed Note|QID|3093|M|30.82,49.46|N|From Rohaku Stonehoof.|C|Shaman|R|Tauren|
-A Simple Note|QID|3091|M|30.82,49.46|N|From Rohaku Stonehoof.|C|Warrior|R|Tauren|
-A Calligraphed Note|QID|31165|M|30.82,49.46|N|From Rohaku Stonehoof.|C|Monk|R|Tauren|
 C Rite of Honor|QID|14460|M|15.32,46.69|N|Kill and loot Chief Squealer Thornmantle, who is hanging out in this small cave.|
 
 H Camp Narache|QID|14460|M|27.76,28.29|U|6948|N|Use your hearthstone to return to Camp Narache (or run there).|
-
-T Verdant Note|QID|3094|M|27.95,27.29|N|To Gart Mistrunner.|C|Druid|R|Tauren|
-A The Healer's Touch|QID|27067|M|27.95,27.29|N|From Gart Mistrunner.|C|Druid|R|Tauren|
-C The Healer's Touch|QID|27067|M|25.94,25.67|C|Druid|R|Tauren|
-T The Healer's Touch|QID|27067|M|27.95,27.29|N|To Gart Mistrunner.|C|Druid|R|Tauren|
-
-T Etched Note|QID|3092|M|28.13,27.85|N|To Lanka Farshot.|C|Hunter|R|Tauren|
-A The Hunter's Path|QID|27021|M|28.13,27.85|N|From Lanka Farshot.|C|Hunter|R|Tauren|
-C The Hunter's Path|QID|27021|M|27.91,28.32|C|Hunter|R|Tauren|N|Use the indicated shot on the Training Dummy's.|
-T The Hunter's Path|QID|27021|M|28.13,27.85|N|To Lanka Farshot.|C|Hunter|R|Tauren|
-
-T Consecrated Note|QID|27015|M|27.15,27.93|N|To Sunwalker Helaku.|C|Paladin|R|Tauren|
-A The Way of the Sunwalkers|QID|27023|M|27.15,27.93|N|From Sunwalker Helaku.|C|Paladin|R|Tauren|
-C The Way of the Sunwalkers|QID|27023|M|28.47,28.35|C|Paladin|R|Tauren|
-T The Way of the Sunwalkers|QID|27023|M|27.15,27.93|N|To Sunwalker Helaku.|C|Paladin|R|Tauren|
-
-T Hallowed Note|QID|27014|M|27.23,27.43|N|To Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
-A Healing in a Flash|QID|27066|M|27.23,27.43|N|From Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
-C Healing in a Flash|QID|27066|M|25.75,25.36|C|Priest|R|Tauren,Troll|
-T Healing in a Flash|QID|27066|M|27.23,27.43|N|To Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
-
-T Rune-Inscribed Note|QID|3093|M|27.53,27.07|N|To Meela Dawnstrider.|C|Shaman|R|Tauren|
-A Primal Strike|QID|27027|M|27.53,27.07|N|From Meela Dawnstrider.|C|Shaman|R|Tauren|
-C Primal Strike|QID|27027|M|28.62,28.38|C|Shaman|R|Tauren|
-T Primal Strike|QID|27027|M|27.53,27.07|N|To Meela Dawnstrider.|C|Shaman|R|Tauren|
-
-T Simple Note|QID|3091|M|27.23,28.49|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
-A The First Lesson|QID|27020|M|27.23,28.49|N|From Harutt Thunderhorn.|C|Warrior|R|Tauren|
-C The First Lesson|QID|27020|M|28.50,28.54|C|Warrior|R|Tauren|
-T The First Lesson|QID|27020|M|27.23,28.49|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
-
-T Calligraphed Note|QID|31165|M|27.97,28.35|N|To Shoyu.|C|Monk|R|Tauren|
-A Tiger Palm|QID|31166|M|27.97,28.35|N|From Shoyu.|C|Monk|R|Tauren|
-C Tiger Palm|QID|31166|M|28.50,28.54|C|Monk|R|Tauren|
-T Tiger Palm|QID|31166|M|27.97,28.35|N|To Shoyu.|C|Monk|R|Tauren|
 
 T Rite of Honor|QID|14460|M|27.72,28.28|N|To Chief Hawkwind.|
 A Last Rites, First Rites|QID|24861|M|27.72,28.28|N|From Chief Hawkwind.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2016-07-30 18:51
+-- Who: Ludovicus
+-- Log: Add some @Gorgrond
+
+-- URL: http://wow-pro.com/node/3599/revisions/27404/view
 -- Date: 2015-12-31 23:40
 -- Who: Ludovicus
 
@@ -270,12 +275,12 @@ A Get the Xuk Out|QID|36832|M|44,48.8|N|From Spirit of Bony Xuk.|PRE|35247|
 B Harvestable Precious Crystal|QID|36651|PRE|35880|M|44.55,50.76;46.12,49.95|CS|QO|1|N|Enter Glut's Burrow and you will find the crystal in the back, feel free to kill the Glut (silver elite} while you are here.|RANK|3|ITEM|$824|
 K Glut|QID|36204|M|46.2,50.8|T|Glut|L|118229|N|Kill and loot for an ilvl 534 agility trinket.|RANK|3|ITEM|118229|PRE|35880|
 l Odd Boulder|QID|36732|M|44.17,46.65|N|Call Beatface (click on the rock) to expose the Obsidian Crystal Formation|PRE|35880|RANK|3|;8
-C Fair Warning|QID|35128|M|32.12,75.66|QO|1|S|N|Go into the cave and kill them as you go down.|Z|Fissure of Fury|
-C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|CHAT|QO|1|N|Talk to Thukmar and then take care of him.|Z|Fissure of Fury|
+C Fair Warning|QID|35128|M|32.12,75.66|QO|1|S|N|Go into the cave and kill them as you go down.|Z|Fissure of Fury@Gorgrond|
+C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|CHAT|QO|1|N|Talk to Thukmar and then take care of him.|Z|Fissure of Fury@Gorgrond|
 C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|NC|QO|2|N|The intel is on the ground beside Thukmar.|;this seems to not be on map layer 19, despite it showing on map layer 19 when you open the map...
-B Horned Skull|QID|35056|M|42.1,66.73|QO|1|N|Loot for some Garrison Resources.|RANK|3|Z|Fissure of Fury|ITEM|$934|PRE|35880|
+B Horned Skull|QID|35056|M|42.1,66.73|QO|1|N|Loot for some Garrison Resources.|RANK|3|Z|Fissure of Fury@Gorgrond|ITEM|$934|PRE|35880|
 K Gelgor of the Blue Flame|QID|36391|M|34.0,38.6|T|Gelgor the Blue Flame|L|118230|N|Kill and loot for an ilvl 534 versatility trinket.|PRE|35880|RANK|3|ITEM|118230|;in fissure of fury
-l Odd Boulder|QID|36723|M|60.34,44.75|Z|Fissure of Fury|N|Call Beatface (click on the rock) to expose the Aged Stone Container|PRE|35880|RANK|3|;7
+l Odd Boulder|QID|36723|M|60.34,44.75|Z|Fissure of Fury@Gorgrond|N|Call Beatface (click on the rock) to expose the Aged Stone Container|PRE|35880|RANK|3|;7
 C Fair Warning|QID|35128|M|30.78,75.97|US|;Z|;Fissure of Fury|
 A A Great Escape|QID|35210|M|34.72,66.66|N|From Goren Tunnel.|PRE|35041|;Z|;Fissure of Fury|
 C A Great Escape|QID|35210|M|34.72,66.66|NC|N|Click on the mound of dirt to clear the tunnel entrance.|;Z|;Fissure of Fury|

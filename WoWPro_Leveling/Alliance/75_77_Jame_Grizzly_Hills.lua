@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2016-07-30 19:00
+-- Who: Ludovicus
+-- Log: Stray ¦Korelock¦
+
+-- URL: http://wow-pro.com/node/3293/revisions/27472/view
 -- Date: 2016-07-21 23:48
 -- Who: Emmaleah
 -- Log: fixxed malformed QID 12292 per error report.
@@ -163,7 +168,7 @@ T Mmm... Amberseeds! |QID|12225|N|To Master Woodsman Anderhol.|M|32.06,59.96|
 A Just Passing Through |QID|12226|M|32.1,60.0|N|From Master Woodsman Anderhol.|
 
 f Amberpine Lodge |QID|12292|M|31.33,59.16|N|Grab the flightpoint at Vana Grey.|
-h Amberpine Lodge |QID|12292|Korelock |M|31.97,60.22|N|Set your hearth at Amberpine Lodge with Jennifer Bell.|
+h Amberpine Lodge |QID|12292|M|31.97,60.22|N|Set your hearth at Amberpine Lodge with Jennifer Bell.|
 
 C Replenishing the Storehouse |QID|12212|N|North of Amberpine Lodge, kill and loot Tallhorn Stags.|M|33.3,58.0|
 T Replenishing the Storehouse |QID|12212|N|Back to Master Woodsman Anderhol.|M|32.06,59.94|

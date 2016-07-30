@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2016-07-30 19:34
+-- Who: tubera
+-- Log: Removed class quests from Echo Isles.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27493/view
+-- Date: 2016-07-30 19:31
+-- Who: tubera
+-- Log: Removed class quests. They're no longer available.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27398/view
 -- Date: 2015-11-14 13:48
 -- Who: Aldavor
 -- Log: (thanks to Kevin-MazrigosEU) Corrected several quest and journey coordinates. Re-ordered quest pick-ups and turn-ins to match quest giving requirements.
@@ -279,16 +289,6 @@
 -- Who: Jiyambi
 -- Log: Added note to Young and Vicious which explains the bug with Swiftclaw and how to fix it.
 
--- URL: http://wow-pro.com/node/3199/revisions/24658/view
--- Date: 2011-07-05 03:10
--- Who: Jiyambi
--- Log: Fixed QIDs on some L steps (had QIDs for quests that were already complete, so would never show up), also added a H step after the cave section, to speed travel.
-
--- URL: http://wow-pro.com/node/3199/revisions/24597/view
--- Date: 2011-06-25 01:32
--- Who: Crackerhead22
--- Log: ! Missing A step for step T qid 24721 - 24712 is wrong QID, fixed to 24751
-
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.05357)
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
@@ -418,36 +418,6 @@ T Proving Pit|QID|24762|C|Shaman|M|51.40,52.59|N|To Nekali.|
 T Proving Pit|QID|24780|C|Hunter|M|57.22,50.78|N|To Ortezza.|
 
 L Level 3 |QID|31162;24766;24752;24772;24640;26274;24784;24760;24778|LVL|3|N|You need to be Level 3 to continue with this guide.|
-
-A The Arts of a Monk|QID|31162|C|Monk|PRE|31161|M|52.57,51.86|N|From Zabrax.|
-A The Arts of a Druid|QID|24766|C|Druid|PRE|24768|M|57.57,52.68|N|From Zen'tabra.|
-A The Arts of a Mage|QID|24752|C|Mage|PRE|24754|M|59.68,52.10|N|From Soratha.|
-A The Arts of a Rogue|QID|24772|C|Rogue|PRE|24774|M|52.89,49.90|N|From Legati.|
-A The Arts of a Warrior|QID|24640|C|Warrior|PRE|24642|M|51.40,52.59|N|From Nortet.|
-A The Arts of a Warlock|QID|26274|C|Warlock|PRE|26276|M|50.02,49.96|N|From Voldreka.|
-A The Arts of a Priest|QID|24784|C|Priest|PRE|24786|M|58.04,49.26|N|From Tunari.|
-A The Arts of a Shaman|QID|24760|C|Shaman|PRE|24762|M|50.08,52.74|N|From Nekali.|
-A The Arts of a Hunter|QID|24778|C|Hunter|PRE|24780|M|57.22,50.78|N|From Ortezza.|
-
-C The Arts of a Druid|QID|31162|C|Monk|M|57.57,52.68|N|Practice Tiger Palm on a Tiki Target.|
-C The Arts of a Druid|QID|3|C|Druid|M|57.57,52.68|N|Practice Healing Touch.|Z|Echo Isles|
-C The Arts of a Mage|QID|24752|C|Mage|M|58.13,54.14|N|Practice Arcane Intellect.|
-C The Arts of a Rogue|QID|24772|C|Rogue|M|52.89,49.90|N|Practice Evicerate.|
-C The Arts of a Warrior|QID|24640|C|Warrior|M|51.40,52.59|N|Practice Charge on Tiki Target.|
-C The Arts of a Warlock|QID|26274|C|Warlock|M|50.02,49.96|N|Practice Immolate.|
-C The Arts of a Priest|QID|24784|C|Priest|M|58.04,49.26|N|Practice Power Word: Fortitude.|
-C The Arts of a Shaman|QID|24760|C|Shaman|M|50.08,52.74|N|Practice Primal Strike.|
-C The Arts of a Hunter|QID|24778|C|Hunter|M|56.37,50.08|N|Practice Steady Shot on Tiki Target.|
-
-T The Arts of a Druid|QID|31162|C|Monk|M|57.57,52.68|N|To Zabrax.|
-T The Arts of a Druid|QID|24766|C|Druid|M|58.04,53.82|N|To Zen'tabra.|
-T The Arts of a Mage|QID|24752|C|Mage|M|59.68,52.10|N|To Soratha.|
-T The Arts of a Rogue|QID|24772|C|Rogue|M|52.89,49.90|N|To Legati.|
-T The Arts of a Warrior|QID|24640|C|Warrior|M|51.40,52.59|N|To Nortet.|
-T The Arts of a Warlock|QID|26274|C|Warlock|M|50.02,49.96|N|To Voldreka.|
-T The Arts of a Priest|QID|24784|C|Priest|M|58.04,49.26|N|To Tunari.|
-T The Arts of a Shaman|QID|24760|C|Shaman|M|50.08,52.74|N|To Nekali.|
-T The Arts of a Hunter|QID|24778|C|Hunter|M|56.37,50.08|N|To Ortezza.|
 
 A More Than Expected|QID|31163|PRE|31162|C|Monk|M|52.56,51.84|N|From Zabrax.|
 A More Than Expected|QID|24769|PRE|24766|C|Druid|M|58.04,53.82|N|From Zen'tabra.|

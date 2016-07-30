@@ -1,8 +1,14 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,98, 105)
 WoWPro:GuideNextGuide(guide, 'nil')
 WoWPro:GuideSteps(guide, function()
 return [[
+
 
 T Paradise Lost|QID|39718|M|72.51,45.66|Z|Dalaran|N|To Archmage Khadgar.|
 A Down to Azsuna|QID|41220|M|72.51,45.66|Z|Dalaran|N|From Archmage Khadgar.|
@@ -346,4 +352,3 @@ A Get Your Mix On|QID|39325|M|41.28,33.12|Z|Dalaran|N|From Deucus Valdera.|P|Alc
 ]]
 
 end)
-

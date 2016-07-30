@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2016-07-30 18:49
+-- Who: Ludovicus
+-- Log: Added @NagrandDraenor to a few Z tags
+
+-- URL: http://wow-pro.com/node/3605/revisions/27400/view
 -- Date: 2015-12-31 23:35
 -- Who: Ludovicus
 
@@ -151,9 +156,9 @@ T The Blade Itself|QID|34849|M|85.44,54.60|N|To Lantresor of the Blade.|
 T Not Without My Honor|QID|34850|M|85.44,54.60|N|To Lantresor of the Blade.|
 A Meet Me in the Cavern|QID|34866|M|85.44,54.60|N|From Lantresor of the Blade.|
 C The Friend of My Enemy|QID|34826|US|M|85.42,55.30|N|Finish this up before you go in the Cavern as the ones inside don't count and when you come out you will be neutral to them.|
-T Meet Me in the Cavern|QID|34866|M|44.93,19.88|N|To Lantresor of the Blade.|Z|The Master's Cavern|
-A Challenge of the Masters|QID|34868|M|44.93,19.88|N|From Lantresor of the Blade.|Z|The Master's Cavern|
-C Challenge of the Masters|QID|34868|M|54.30,68.23|N|First you fight one, then two, with an add towards the end, Then the final guy.|Z|The Master's Cavern|
+T Meet Me in the Cavern|QID|34866|M|44.93,19.88|N|To Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
+A Challenge of the Masters|QID|34868|M|44.93,19.88|N|From Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
+C Challenge of the Masters|QID|34868|M|54.30,68.23|N|First you fight one, then two, with an add towards the end, Then the final guy.|Z|The Master's Cavern@NagrandDraenor|
 R Wor'var|QID|34826|M|82.78,46.55|
 T The Friend of My Enemy|QID|34826|M|82.86,45.08|N|To Thrall.|
 T Challenge of the Masters|QID|34868|M|82.94,44.08|N|To Foreman Thazz'ril.|
@@ -205,7 +210,7 @@ T Good Help is Hard to Find|QID|34811|M|71.12,52.43|N|To Trixi Leroux.|RANK|2|
 A A Lesson in Teamwork|QID|35663|M|71.13,52.35|N|From Gazmolf Futzwangler.|RANK|2|
 A A Lesson in Archaeology|QID|35632|M|71.13,52.35|N|From Gazmolf Futzwangler.|RANK|2|
 C A Lesson in Teamwork|QID|35663|M|66.91,50.19|QO|1|S|N|These drop off of the ogres and exist as groundspawn.|RANK|2|
-C A Lesson in Archaeology|QID|35632|U|113217|M|12.21,49.66;69.33,40.19|CS|NC|N|Inside the cave is a disk in the middle of a fireball, The goblins do all the work, all you have to do is place the teleportation device near the fireball so they can.|Z|Vault of the Titan|RANK|2|
+C A Lesson in Archaeology|QID|35632|U|113217|M|12.21,49.66;69.33,40.19|CS|NC|N|Inside the cave is a disk in the middle of a fireball, The goblins do all the work, all you have to do is place the teleportation device near the fireball so they can.|Z|Vault of the Titan@NagrandDraenor|RANK|2|
 C A Lesson in Teamwork|QID|35663|M|66.91,50.19|QO|1|US|N|These drop off of the ogres and exist as groundspawn.|RANK|2|
 T A Lesson in Teamwork|QID|35663|M|71.13,52.35|N|To Gazmolf Futzwangler.|RANK|2|
 T A Lesson in Archaeology|QID|35632|M|71.13,52.35|N|To Gazmolf Futzwangler.|RANK|2|
@@ -365,18 +370,18 @@ A Silence the Call|QID|35084|M|55.45,55.92|N|From the Shamanstone.|RANK|2|
 A Disrupt the Rituals|QID|35083|M|55.45,55.92|N|From the Shamanstone.|RANK|2|
 
 R Shadowfall Canyon|QID|35145|M|55.93,56.98|CC|N|We are making a short sidetrip for Farseer Drak'Thar.|RANK|2|
-C The Pale Threat|QID|35145|S|QO|2|M|52.60,60.46|N|If you kill the pale orcs near the elemental spirits you will free them allso. Kill pale orcs as you work your way towards the tunnel into The Underpale.|RANK|2|
+C The Pale Threat|QID|35145|S|QO|2|M|52.60,60.46|N|If you kill the pale orcs near the elemental spirits you will free them allso. Kill pale orcs as you work your way towards the tunnel into The Underpale.@NagrandDraenor|RANK|2|
 C Dark Binding|QID|35144|S|M|52.70,60.68|N|The earth spirits are freed by killing them.|RANK|2|
-C The Pale Threat|QID|35145|QO|1|M|66.31,17.68|T|Greyseer|Z|The Underpale|RANK|2|
-C Dark Binding|QID|35144|US|M|66.31,17.68|Z|The Underpale|RANK|2|
-C The Pale Threat|QID|35145|US|QO|2|M|66.31,17.68|Z|The Underpale|RANK|2|
-T Dark Binding|QID|35144|M|46.02,32.72|N|To Farseer Drek'Thar.|Z|The Underpale|RANK|2|
-T The Pale Threat|QID|35145|M|46.02,32.72|N|To Farseer Drek'Thar.|Z|The Underpale|RANK|2|
-A The Fate of Gordawg|QID|34271|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale|RANK|2|
-A The Dark Heart of Oshu'gun|QID|35317|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale|RANK|2|
-C The Fate of Gordawg|QID|34271|M|41.21,40.82|T|Gordawg|N|Kill Gordawg|Z|The Underpale|RANK|2|
-C The Dark Heart of Oshu'gun|QID|35317|M|17.1,66.23|T|Decimatus|N|Listen to Chogall and Gul'dan and then kill Decimatus.|Z|The Underpale|RANK|2|
-R Spirit Woods|QID|35084|M|22.76,65.79;9.95,61.41|CS|Z|The Underpale|N|Follow Farseer Drek'Thar out for a shortcut.|RANK|2|
+C The Pale Threat|QID|35145|QO|1|M|66.31,17.68|T|Greyseer|Z|The Underpale@NagrandDraenor|RANK|2|
+C Dark Binding|QID|35144|US|M|66.31,17.68|Z|The Underpale@NagrandDraenor|RANK|2|
+C The Pale Threat|QID|35145|US|QO|2|M|66.31,17.68|Z|The Underpale@NagrandDraenor|RANK|2|
+T Dark Binding|QID|35144|M|46.02,32.72|N|To Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
+T The Pale Threat|QID|35145|M|46.02,32.72|N|To Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
+A The Fate of Gordawg|QID|34271|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
+A The Dark Heart of Oshu'gun|QID|35317|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
+C The Fate of Gordawg|QID|34271|M|41.21,40.82|T|Gordawg|N|Kill Gordawg|Z|The Underpale@NagrandDraenor|RANK|2|
+C The Dark Heart of Oshu'gun|QID|35317|M|17.1,66.23|T|Decimatus|N|Listen to Chogall and Gul'dan and then kill Decimatus.|Z|The Underpale@NagrandDraenor|RANK|2|
+R Spirit Woods|QID|35084|M|22.76,65.79;9.95,61.41|CS|Z|The Underpale@NagrandDraenor|N|Follow Farseer Drek'Thar out for a shortcut.|RANK|2|
 
 C Silence the Call|QID|35084|QO|2|M|55.45,55.92|S|N|It will be hard to avoid killing them as you go about the other tasks.|RANK|2|
 C Disrupt the Rituals|QID|35083|NC|QO|1|M|48.46,58.69;47.79,58.71|CN|RANK|2|

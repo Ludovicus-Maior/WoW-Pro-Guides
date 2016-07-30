@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2016-07-30 19:04
+-- Who: Ludovicus
+-- Log: Added some @Talador's
+
+-- URL: http://wow-pro.com/node/3614/revisions/27377/view
 -- Date: 2015-07-27 13:36
 -- Who: Fluclo
 
@@ -552,14 +557,14 @@ A The Heart of Auchindoun|QID|33920|M|56.51,67.13|N|From Soulbinder Nyami|
 A Disrupting the Flow|QID|33917|M|56.7,66.0|N|From Vindicator Nobundo|
 
 R Tomb of Lights|QID|34458|M|58.56,65.08;58.85,64.83|CS|N|Head in and go downstairs.
-T Powering the Defenses|QID|34458|M|68.43,19.27|Z|Tomb of Lights|N|To Soulbinder Tuulani|
-A We Must Construct Additional Pylons|QID|34351|M|68.43,19.27|Z|Tomb of Lights|N|From Soulbinder Tuulani|
-C Arkonite Crystals|QID|34351|M|50.98,32.56|Z|Tomb of Lights|QO|1|N|In the rooms, purple crystals on the ground.|
-C Arkonite Pylon|QID|34351|M|31.97,48.53|Z|Tomb of Lights|QO|2|
+T Powering the Defenses|QID|34458|M|68.43,19.27|Z|Tomb of Lights@Talador|N|To Soulbinder Tuulani|
+A We Must Construct Additional Pylons|QID|34351|M|68.43,19.27|Z|Tomb of Lights@Talador|N|From Soulbinder Tuulani|
+C Arkonite Crystals|QID|34351|M|50.98,32.56|Z|Tomb of Lights@Talador|QO|1|N|In the rooms, purple crystals on the ground.|
+C Arkonite Pylon|QID|34351|M|31.97,48.53|Z|Tomb of Lights@Talador|QO|2|
 
-A Nightmare in the Tomb|QID|33530|M|52.18,38.97|Z|Tomb of Lights|N|From Yuuri|
-C Ritual investigated|QID|33530|M|60.13,57.07|Z|Tomb of Lights|QO|1|
-K Tagar Spinebreaker|QID|33530|M|64.13,67.88|Z|Tomb of Lights|QO|2|
+A Nightmare in the Tomb|QID|33530|M|52.18,38.97|Z|Tomb of Lights@Talador|N|From Yuuri|
+C Ritual investigated|QID|33530|M|60.13,57.07|Z|Tomb of Lights@Talador|QO|1|
+K Tagar Spinebreaker|QID|33530|M|64.13,67.88|Z|Tomb of Lights@Talador|QO|2|
 T Nightmare in the Tomb|QID|33530|M|55.64,67.70|N|To Exarch Maladaar|
 T We Must Construct Additional Pylons|QID|34351|M|55.12,67.41|N|To Soulbinder Tuulani|
 

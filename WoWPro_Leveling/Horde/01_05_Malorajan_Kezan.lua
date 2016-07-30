@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2016-07-30 20:11
+-- Who: tubera
+-- Log: Remove class quests. Move quests around to make guide more efficient.
+
+-- URL: http://wow-pro.com/node/3212/revisions/27368/view
 -- Date: 2015-07-25 18:43
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -227,7 +232,21 @@ A Do it Yourself|QID|14070|M|56.49,76.98|N|From Sassy Hardwrench.|PRE|14071|
 T Report for Tryouts|QID|24567|M|48.75,57.83|N|To Coach Crosscheck. You have no fall damage whilst mounted in your Hot-Rod.|U|46856|
 
 A The Replacements|QID|24488|M|48.75,57.83|N|From Coach Crosscheck.|PRE|24567|
-C The Replacements|QID|24488|M|43.05,62.79|N|Look in and around the field for Replacement Parts, they look like yellow crates. You can remain mounted in your Hot-Rod whilst you collect the crates.|U|46856|NC|
+C The Replacements|QID|24488|M|43.05,62.79|N|Look around for Replacement Parts, they look like yellow crates. You can remain mounted in your Hot-Rod whilst you collect the crates.|U|46856|NC|S
+R Drudgetown|QID|24520|M|43.50,70.25|N|Head to Drudgetown on your Hot Rod. Go under the ramp.|U|46856|ACTIVE|24488;14070|
+C Bruno Flameretardant|QID|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|1|U|46856|
+C Sudsy Magee|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|4|U|46856|
+C Jack the Hammer|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|3|U|46856|
+C Frankie Gearslip|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|QO|2|U|46856|
+C The Replacements|QID|24488|M|43.05,62.79|N|Finish picking up Replacement Parts|U|46856|NC|US
+
+T Off to the Bank|QID|26711;26712|M|30.09,71.67|N|To FBoK Bank Teller.|U|46856|
+
+A The New You|QID|14109;14110|PRE|26711+26712|M|30.09,71.67|N|From FBoK Bank Teller.|
+C Hip New Outfit|QID|14109;14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|2|CHAT|U|46856|
+C Shiny Bling|QID|14109;14110|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|1|CHAT|U|46856|
+C Cool Shades|QID|14109;14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|QO|3|CHAT|U|46856|
+
 T The Replacements|QID|24488|M|48.73,57.42|N|To Coach Crosscheck.|U|46856|
 
 A Necessary Roughness|QID|24502|M|48.73,57.42|N|From Coach Crosscheck.|PRE|24488|
@@ -240,18 +259,6 @@ C Fourth and Goal|QID|24503|M|47.70,57.75|N|Use Key 1 to kick a footbomb between
 T Fourth and Goal|QID|24503|M|48.62,57.74|N|Wait until the dragon finishes his attack, then To Coach Crosscheck.|U|46856|
 
 A Give Sassy the News|QID|24520|M|48.62,57.74|N|From Coach Crosscheck.|PRE|24503|
-R Drudgetown|QID|24520|M|43.50,70.25|N|Head to Drudgetown on your Hot Rod.|U|46856|ACTIVE|24520|
-C Bruno Flameretardant|QID|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|1|U|46856|
-C Sudsy Magee|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|4|U|46856|
-C Jack the Hammer|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|3|U|46856|
-C Frankie Gearslip|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|QO|2|U|46856|
-R First Bank of Kezan|QID|26711;26712|M|29.95,64.57|N|Head to the First Bank of Kezan|U|46856|ACTIVE|26711;26712|
-T Off to the Bank|QID|26711;26712|M|30.09,71.67|N|To FBoK Bank Teller.|U|46856|
-
-A The New You|QID|14109;14110|PRE|26711+26712|M|30.09,71.67|N|From FBoK Bank Teller.|
-C Hip New Outfit|QID|14109;14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|2|CHAT|U|46856|
-C Shiny Bling|QID|14109;14110|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|1|CHAT|U|46856|
-C Cool Shades|QID|14109;14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|QO|3|CHAT|U|46856|
 
 H KTC Headquarters|QID|14109;14110|M|56.62,76.90|N|Hearthstone, or ride back to KTC Headquarters.|U|46856|ACTIVE|14109;14110|
 T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane, back at KTC Headquarters.|GEN|MALE|U|46856|
@@ -259,31 +266,10 @@ T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale, back at KTC Headquarters
 T Give Sassy the News|QID|24520|M|56.42,76.97|N|To Sassy Hardwrench.|
 T Do it Yourself|QID|14070|M|56.42,76.97|N|To Sassy Hardwrench.|
 
-L Level 3|QID|14007;14008;14009;14010;14011;14012;14013|LVL|3|N|You need to be level 3 to continue this guide.|
-A Steady Shot|QID|14007|M|60.26,77.54|N|From Bamm Megabomb.|C|Hunter|U|46856|LVL|2|
-C Steady Shot|QID|14007|M|60.31,77.53|N|Use Steady Shot three times on a training dummy.|C|Hunter|LVL|3|
-T Steady Shot|QID|14007|M|60.36,77.52|N|To Bamm Megabomb.|C|Hunter|
-A Arcane Missles|QID|14008|M|59.3,73.8|N|From Fizz Lighter.|C|Mage|U|46856|LVL|2|
-C Arcane Missles|QID|14008|M|60.31,77.53|N|Use Frost Nova twice on a training dummy.|C|Mage|LVL|3|
-T Arcane Missles|QID|14008|M|59.3,73.8|N|To Fizz Lighter.|C|Mage|
-A Learning the Word|QID|14009|M|57.9,77|N|From Sister Goldskinner.|C|Priest|U|46856|LVL|2|
-C Learning the Word|QID|14009|M|57.9,77|N|Use Shadow Word: Pain three times on a training dummy.|C|Priest|LVL|3|
-T Learning the Word|QID|14009|M|57.9,77|N|To Sister Goldskinner.|C|Priest|
-A Eviscerate|QID|14010|M|59.0,76.4|N|From Slinky Sharpshiv|C|Rogue|U|46856|LVL|2|
-C Eviscerate|QID|14010|M|59.0,76.4|N|Use Eviscerate three times on a training dummy.|C|Rogue|LVL|3|
-T Eviscerate|QID|14010|M|59.0,76.4|N|To Slinky Sharpshiv|C|Rogue|
-A Primal Strike|QID|14011|M|59.7,76.2|N|From Maxx Avalanche.|C|Shaman|U|46856|LVL|2|
-C Primal Strike|QID|14011|M|60.31,77.53|N|Use Primal Strike twice on a training dummy.|C|Shaman|LVL|3|
-T Primal Strike|QID|14011|M|59.9,76.2|N|To Maxx Avalanche.|C|Shaman|
-A Corruption|QID|14012|M|58,74.3|N|From Evol Fingers.|C|Warlock|U|46856|LVL|2|
-C Corruption|QID|14012|M|60.31,77.53|N|Use Corruption three times on a training dummy.|C|Warlock|LVL|3|
-T Corruption|QID|14012|M|58,74.3|N|To Evol Fingers.|C|Warlock|
-A Charge|QID|14013|M|60.1,77.7|N|From Warrior-Matic NX-01.|C|Warrior|U|46856|LVL|2|
-C Charge|QID|14013|M|60.31,77.53|N|Use Charge three times on a training dummy.|C|Warrior|LVL|3|
-T Charge|QID|14013|M|60.1,77.7|N|To Warrior-Matic NX-01.|C|Warrior|
+L Level 3|QID|14113|LVL|3|N|You need to be level 3 to continue this guide.|
 
-A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|14007+14008+14009+14011+14012+14013|
-A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|14007+14008+14009+14011+14012+14013|
+A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|14070|
+A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|14070|
 C Life of the Party|QID|14113;14153|M|60.21,85.76|N|Entertain 10 Partygoers. \nUse Key 1 (Bubbly) for those holding a drink glass\nUse Key 2 (Bucket) if they have blue swirls over their head.\nUse Key 3 (Dance) if they are dancing\nUse Key 4 (Fireworks) if they are holding a red sparkler\nUse Key 5 (Hors D'oeuvres) if they are holding a chicken drumstick.\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
 T Life of the Party|QID|14113;14153|M|56.52,76.95|N|To Sassy Hardwrench.|
 

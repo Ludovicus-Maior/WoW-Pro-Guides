@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2016-07-30 20:00
+-- Who: tubera
+-- Log: Remove removed class quests. Add Novice Elreth quest
+
+-- URL: http://wow-pro.com/node/3205/revisions/27303/view
 -- Date: 2015-06-28 23:54
 -- Who: Ludovicus
 -- Log: PLaythrough with QO and M adjustments

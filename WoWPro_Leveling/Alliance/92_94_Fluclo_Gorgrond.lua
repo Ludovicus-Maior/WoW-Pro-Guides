@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2016-07-30 19:02
+-- Who: Ludovicus
+-- Log: Added some @Gorgrond's
+
+-- URL: http://wow-pro.com/node/3613/revisions/27403/view
 -- Date: 2015-12-31 23:39
 -- Who: Ludovicus
 
@@ -251,10 +256,10 @@ A Down the Goren Hole |QID|35229|N|From Hansel Heavyhands|M|47.55,94.09|PRE|3522
 A Just In Case |QID|35233|N|From Hansel Heavyhands|M|47.55,94.09|PRE|35225|
 
 C Down the Goren Hole |QID|35229|N|Kill the Goren Breachers in Moira's Bastion.|S|
-C Just In Case |QID|35233|N|Loot the Doomshot from the ground as you head towards the cave below|NC|M|58.59,23.19|Z|Moira's Bastion|
-C Down the Goren Hole |QID|35229|N|Finish killing the Goren Breachers as you head to the cave below|US|M|58.59,23.19|Z|Moira's Bastion|
-C Will of the Genesaur|QID|35234|N|Recover the Will of the Genesaur, which is in a cave below.|NC|M|58.59,23.19|Z|Moira's Bastion|
-T Will of the Genesaur|QID|35234|N|To Hansel Heavyhands, who has now moved to the machine.|M|50.07,22.32|Z|Moira's Bastion|
+C Just In Case |QID|35233|N|Loot the Doomshot from the ground as you head towards the cave below|NC|M|58.59,23.19|Z|Moira's Bastion@Gorgrond|
+C Down the Goren Hole |QID|35229|N|Finish killing the Goren Breachers as you head to the cave below|US|M|58.59,23.19|Z|Moira's Bastion@Gorgrond|
+C Will of the Genesaur|QID|35234|N|Recover the Will of the Genesaur, which is in a cave below.|NC|M|58.59,23.19|Z|Moira's Bastion@Gorgrond|
+T Will of the Genesaur|QID|35234|N|To Hansel Heavyhands, who has now moved to the machine.|M|50.07,22.32|Z|Moira's Bastion@Gorgrond|
 T Down the Goren Hole |QID|35229|N|To Hansel Heavyhands|M|47.58,94.10|
 T Just In Case |QID|35233|N|To Hansel Heavyhands|M|47.58,94.10|
 

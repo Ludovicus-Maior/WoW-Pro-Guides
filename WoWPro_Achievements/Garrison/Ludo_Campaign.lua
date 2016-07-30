@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-07-30 18:54
+-- Who: Ludovicus
+-- Log: Added missing M tag
+
+-- URL: http://wow-pro.com/node/3648/revisions/27482/view
+-- Date: 2016-07-30 16:14
+-- Who: Ludovicus
+-- Log: Uploaded the new merged guide.
+
+-- URL: http://wow-pro.com/node/3648/revisions/27438/view
 -- Date: 2016-03-23 01:27
 -- Who: Ludovicus
 
@@ -48,6 +58,8 @@ return [[
 ; Ours is the Fury|QID|994920010|M|0.00,0.00|ACH|9492;10| -- Skel
 ; Primal Fury|QID|994920011|M|0.00,0.00|ACH|9492;11| -- Skel
 ; The Warlord's Council|QID|994920012|M|0.00,0.00|ACH|9492;12|
+
+N Garrison Campaign|N|This guide is supposed to trigger when you accept the garrison campaign quests in your garrison. It is not yet complete.|
 
 ; A Garrison Campaign: The Sargerei|QID|35185;35186|M|40.0,44.4|N|From Khadgar's Servant|
 T Garrison Campaign: The Sargerei|QID|35185;35186|M|43.56,77.29|Z|Shadowmoon Valley@Draenor|N|To Archmage Modera|
@@ -217,7 +229,7 @@ A The Descent|QID|34338|PRE|34337|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|
 A A Goren's Feast|QID|34339|PRE|34337|M|54.2,55.8|Z|Gorgrond|N|From Choluna|
 A Heating Up|QID|34340|PRE|34337|M|54.2,56.0|Z|Gorgrond|N|From Aren Mistshade|
 C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|S|
-C Hissing Geyser|QID|34340|37.58, 75.06|Z|Cragplume Depths|QO|1|U|110288|
+C Hissing Geyser|QID|34340|M|37.58, 75.06|Z|Cragplume Depths@Gorgrond|QO|1|U|110288|
 C The Descent|QID|34338|M|52.53, 53.76|Z|Gorgrond|N|Go all the way down, where you will see a small yellow arrow.|QO|1|
 K Abyssal Earthwarden|ACTIVE|34338|QO|2|N|Wait for the Earthwarden to spawn.  He might take awhile, depending on when he was last killed.|
 C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|US|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2016-07-30 19:55
+-- Who: tubera
+-- Log: Remove unavailable class quests.
+
+-- URL: http://wow-pro.com/node/3203/revisions/27329/view
 -- Date: 2015-07-12 20:27
 -- Who: Ludovicus
 -- Log: Playthrough on a Belf Pally

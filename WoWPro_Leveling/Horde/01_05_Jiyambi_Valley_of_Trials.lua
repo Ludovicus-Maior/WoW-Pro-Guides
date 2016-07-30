@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2016-07-30 19:34
+-- Who: tubera
+-- Log: Removed class quests from Echo Isles.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27493/view
+-- Date: 2016-07-30 19:31
+-- Who: tubera
+-- Log: Removed class quests. They're no longer available.
+
+-- URL: http://wow-pro.com/node/3199/revisions/27398/view
 -- Date: 2015-11-14 13:48
 -- Who: Aldavor
 -- Log: (thanks to Kevin-MazrigosEU) Corrected several quest and journey coordinates. Re-ordered quest pick-ups and turn-ins to match quest giving requirements.
@@ -279,16 +289,6 @@
 -- Who: Jiyambi
 -- Log: Added note to Young and Vicious which explains the bug with Swiftclaw and how to fix it.
 
--- URL: http://wow-pro.com/node/3199/revisions/24658/view
--- Date: 2011-07-05 03:10
--- Who: Jiyambi
--- Log: Fixed QIDs on some L steps (had QIDs for quests that were already complete, so would never show up), also added a H step after the cave section, to speed travel.
-
--- URL: http://wow-pro.com/node/3199/revisions/24597/view
--- Date: 2011-06-25 01:32
--- Who: Crackerhead22
--- Log: ! Missing A step for step T qid 24721 - 24712 is wrong QID, fixed to 24751
-
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
@@ -304,27 +304,7 @@ C Cutting Teeth|QID|25126|M|51.82,54.74|N|Kill boars in the nearby boar pen.|
 T Cutting Teeth|QID|25126|M|44.94,66.43|N|To Gornek.|
 
 A Invaders in Our Home|QID|25172|M|44.94,66.43|N|From Gornek.|PRE|25126|
-A Rune-Inscribed Parchment|QID|3089|R|Orc|C|Shaman|M|44.94,66.43|N|From Gornek.|
-A Glyphic Parchment|QID|25138|R|Orc|C|Mage|M|44.94,66.43|N|From Gornek.|
-A Simple Parchment|QID|2383|R|Orc|C|Warrior|M|44.94,66.43|N|From Gornek.|
-A Etched Parchment|QID|3087|R|Orc|C|Hunter|M|44.94,66.43|N|From Gornek.|
-A Tainted Parchment|QID|3090|R|Orc|C|Warlock|M|44.94,66.43|N|From Gornek.|
-A Encrypted Parchment|QID|3088|R|Orc|C|Rogue|M|44.94,66.43|N|From Gornek.|
 A Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|From Galgar.|PRE|25126|
-
-T Rune-Inscribed Parchment|QID|3089|R|Orc|C|Shaman|M|41.64,69.32|N|To Shikrik.|
-T Glyphic Parchment|QID|25138|R|Orc|C|Mage|M|42.11,69.48|N|To Acrypha.|
-T Simple Parchment|QID|2383|R|Orc|C|Warrior|M|43.56,71.09|N|To Frang.|
-T Etched Parchment|QID|3087|R|Orc|C|Hunter|M|43.41,70.62|N|To Karranisha.|
-T Tainted Parchment|QID|3090|R|Orc|C|Warlock|M|41.64,65.68|N|To Nartok.|
-T Encrypted Parchment|QID|3088|R|Orc|C|Rogue|M|41.57,68.58|N|To Rwag.|
-
-A Primal Strike|QID|25143|R|Orc|C|Shaman|PRE|3089|M|41.64,69.32|N|From Shikrik.|
-A Arcane Missiles|QID|25149|R|Orc|C|Mage|PRE|25138|M|42.11,69.48|N|From Acrypha.|
-A Charge|QID|25147|R|Orc|C|Warrior|PRE|2383|M|43.56,71.09|N|From Frang.|
-A Steady Shot|QID|25139|R|Orc|C|Hunter|PRE|3087|M|43.41,70.62|N|From Karranisha.|
-A Immolate|QID|25145|R|Orc|C|Warlock|PRE|3090|M|41.64,65.68|N|From Nartok.|
-A Eviscerate|QID|25141|R|Orc|C|Rogue|PRE|3088|M|41.57,68.58|N|From Rwag.|
 
 C Galgar's Cactus Apple Surprise|QID|25136|NC|M|48.89,75.18;52.81,77.63;47.11,82.61;42.04,85.34;36.97,83.12;36.32,81.69|CN|N|Loot cactus apples from cactuses.|S|
 C Invaders in Our Home|QID|25172|M|47.60,83.19|N|Kill Northwatch scouts to the south.|
@@ -333,19 +313,6 @@ T Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|To Galgar.|
 T Invaders in Our Home|QID|25172|M|44.94,66.43|N|To Gornek.|
 
 A Sting of the Scorpid|QID|25127|M|44.94,66.43|N|From Gornek.|PRE|25172|
-C Primal Strike|QID|25143|R|Orc|C|Shaman|M|41.64,69.32|N|Train Primal Strike and practice on training dummy.|
-C Arcane Missiles|QID|25149|R|Orc|C|Mage|M|42.11,69.48|N|Train Arcane Missiles and practice on training dummy.|
-C Charge|QID|25147|R|Orc|C|Warrior|M|43.56,71.09|N|Train Charge and practice on training dummy.|
-C Steady Shot|QID|25139|R|Orc|C|Hunter|M|43.41,70.62|N|Train Steady Shot and practice on training dummy.|
-C Immolate|QID|25145|R|Orc|C|Warlock|M|41.64,65.68|N|Train Immolate and practice on training dummy.|
-C Eviscerate|QID|25141|R|Orc|C|Rogue|M|41.57,68.58|N|Train Eviscerate and practice on training dummy.|
-
-T Primal Strike|QID|25143|R|Orc|C|Shaman|M|41.64,69.32|N|To Shikrik.|
-T Arcane Missiles|QID|25149|R|Orc|C|Mage|M|42.11,69.48|N|To Acrypha.|
-T Charge|QID|25147|R|Orc|C|Warrior|M|43.56,71.09|N|To Frang.|
-T Steady Shot|QID|25139|R|Orc|C|Hunter|M|43.41,70.62|N|To Karranisha.|
-T Immolate|QID|25145|R|Orc|C|Warlock|M|41.64,65.68|N|To Nartok.|
-T Eviscerate|QID|25141|R|Orc|C|Rogue|M|41.57,68.58|N|To Rwag.|
 
 A Lazy Peons|QID|37446|M|46.03,63.33|N|From Foreman Thazz'ril.|PRE|25172|
 C Lazy Peons|QID|37446|S|NC|U|16114|M|57.74,45.82|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|

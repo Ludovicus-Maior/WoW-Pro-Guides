@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mardum_shattered_abyss_source_code
+-- Date: 2016-07-30 16:02
+-- Who: Ludovicus
+-- Log: Zone tweaks
+
+-- URL: http://wow-pro.com/node/3656/revisions/27459/view
 -- Date: 2016-07-01 02:22
 -- Who: Ludovicus
 -- Log: Just the usual tweaks.
@@ -94,11 +99,11 @@ C Cursed Forge of the Nathrezim|QID|41064|QO|1|M|0.00,0.00|Z|Orgrimmar|N|1/1 Art
 T Cursed Forge of the Nathrezim|QID|41064|M|0.00,0.00|Z|Orgrimmar|N|To Battlelord Gaardoun.|
 A The Hunter's Gaze|QID|41066|M|0.00,0.00|Z|Orgrimmar|N|From Allari the Souleater.|
 C The Hunter's Gaze|QID|41066|QO|1|M|0.00,0.00|N|1/1 Gaze upon the Burning Legion|
-T The Hunter's Gaze|QID|41066|M|59.39,51.34|Z|Mardum, the Shattered Abyss|N|To Allari the Souleater.|
-A Time is of the Essence|QID|41096|M|59.39,51.34|Z|Mardum, the Shattered Abyss|N|From Allari the Souleater.|
-T Time is of the Essence|QID|41096|M|0.00,0.00|Z|Mardum, the Shattered Abyss|N|To Altruis the Sufferer.|
-A Direct Our Wrath|QID|41099|M|0.00,0.00|Z|Mardum, the Shattered Abyss|N|From Altruis the Sufferer.|
-T Direct Our Wrath|QID|41099|M|0.00,0.00|Z|Mardum, the Shattered Abyss|N|To Altruis the Sufferer.|
+T The Hunter's Gaze|QID|41066|M|59.39,51.34|Z|MardumtheShatteredAbyss|N|To Allari the Souleater.|
+A Time is of the Essence|QID|41096|M|59.39,51.34|Z|MardumtheShatteredAbyss|N|From Allari the Souleater.|
+T Time is of the Essence|QID|41096|M|0.00,0.00|Z|MardumtheShatteredAbyss|N|To Altruis the Sufferer.|
+A Direct Our Wrath|QID|41099|M|0.00,0.00|Z|MardumtheShatteredAbyss|N|From Altruis the Sufferer.|
+T Direct Our Wrath|QID|41099|M|0.00,0.00|Z|MardumtheShatteredAbyss|N|To Altruis the Sufferer.|
 ]]
 
 end)

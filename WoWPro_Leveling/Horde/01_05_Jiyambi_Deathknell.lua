@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2016-07-30 20:00
+-- Who: tubera
+-- Log: Remove removed class quests. Add Novice Elreth quest
+
+-- URL: http://wow-pro.com/node/3205/revisions/27303/view
 -- Date: 2015-06-28 23:54
 -- Who: Ludovicus
 -- Log: PLaythrough with QO and M adjustments
@@ -196,47 +201,10 @@ T Scourge on our Perimeter|QID|26801|M|46.61,58.83|N|To Shadow Priest Sarvis.|
 
 L Level 3|QID|24961|LVL|3|N|You need to be Level 3 to continue with this guide.|
 
-A Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|46.61,58.83|N|From Shadow Priest Sarvis.|
-A Glyphic Scroll|QID|3098|R|Undead|C|Mage|M|46.61,58.83|N|From Shadow Priest Sarvis.|
-A Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|46.61,58.83|N|From Shadow Priest Sarvis.|
-A Simple Scroll|QID|3095|R|Undead|C|Warrior|M|46.61,58.83|N|From Shadow Priest Sarvis.|
-A Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|46.61,58.83|N|From Shadow Priest Sarvis.|
-A Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|46.61,58.83|N|From Shadow Priest Sarvis.|
-A Scribbled Scroll|QID|31146|R|Undead|C|Monk|M|46.61,58.83|N|From Shadow Priest Sarvis.|
+A Novice Elreth|QID|28651|R|Undead|M|46.61,58.83|N|From Shadow Priest Sarvis.|
+T Novice Elreth|QID|28651|R|Undead|M|46.75,58.21|N|To Novice Elreth.|
 
 A The Truth of the Grave|QID|24961|M|46.73,58.20|N|From Novice Elreth.|PRE|26801|
-
-T Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|47.80,58.31|N|To Dark Cleric Duesten.|
-T Glyphic Scroll|QID|3098|R|Undead|C|Mage|M|46.93,58.52|N|To Isabella.|
-T Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|49.25,56.28|N|To Xavier the Huntsman.|
-T Simple Scroll|QID|3095|R|Undead|C|Warrior|M|54.18,56.36|N|To Dannal Stern.|
-T Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|46.97,59.23|N|To Maximillion.|
-T Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|46.76,58.77|N|To David Trias.|
-T Scribbled Scroll|QID|31146|R|Undead|C|Monk|M|53.23,56.91|N|To Ting, Strong of Stomach.|
-
-A Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|47.76,58.10|N|From Dark Cleric Duesten.|
-A Magic Training|QID|24965|R|Undead|C|Mage|M|47.03,58.26|N|From Isabella.|
-A The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|49.17,56.33|N|From Xavier the Huntsman.|
-A Charging into Battle|QID|24969|R|Undead|C|Warrior|M|54.18,56.36|N|From Dannal Stern.|
-A Dark Deeds|QID|24968|R|Undead|C|Warlock|M|46.91,59.42|N|From Maximillion.|
-A Stab!|QID|24967|R|Undead|C|Rogue|M|53.65,56.55|N|From David Trias.|
-A Tiger Palm|QID|31147|R|Undead|C|Monk|M|53.24,56.87|N|From Ting, Strong of Stomach.|
-
-C Of Light and Shadows|QID|24966|R|Undead|C|Priest|NC|M|47.76,58.10|N|Train Flash Heal. Use it on the wounded forsaken next to you.|
-C Magic Training|QID|24965|R|Undead|C|Mage|M|50.00,61.42|N|Train Arcane Missles from Isabella. Go to a Dummy, cast Fireball, then Arcane Missles when it becomes available.|
-C The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|50.00,61.42|N|Learn Steady Shot from Xavier, practice it 5 times on a Dummy.|
-C Charging into Battle|QID|24969|R|Undead|C|Warrior|M|50.00,61.42|N|Learn Chrage from Dannal and practice it on a Dummy.|
-C Dark Deeds|QID|24968|R|Undead|C|Warlock|M|50.00,61.42|N|Learn Immolate from Maximillion and practice it 5 times on a Dummy.|
-C Stab!|QID|24967|R|Undead|C|Rogue|M|50.00,61.42|N|Learn Eviscerate from David, practice it 3 times on a Dummy.|
-C Tiger Palm|QID|31147|R|Undead|C|Monk|M|50.00,61.42|N|Use Tiger Palm on a Dummy.|
-
-T Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|47.59,58.27|N|To Dark Cleric Duesten.|
-T Magic Training|QID|24965|R|Undead|C|Mage|M|47.03,58.26|N|To Isabella.|
-T The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|49.17,56.33|N|To Xavier the Huntsman.|
-T Charging into Battle|QID|24969|R|Undead|C|Warrior|M|54.18,56.36|N|To Dannal Stern.|
-T Dark Deeds|QID|24968|R|Undead|C|Warlock|M|46.91,59.42|N|To Maximillion.|
-T Stab!|QID|24967|R|Undead|C|Rogue|M|53.65,56.55|N|To David Trias.|
-T Tiger Palm|QID|31147|R|Undead|C|Monk|M|53.24,56.87|N|From Ting, Strong of Stomach.|
 
 C The Truth of the Grave|QID|24961|NC|M|54.31,57.11|N|She's in the inn, though the location inside is random. Right-click the cowering woman and choose the gossip option.|
 T The Truth of the Grave|QID|24961|M|46.85,58.31|N|To Novice Elreth.|

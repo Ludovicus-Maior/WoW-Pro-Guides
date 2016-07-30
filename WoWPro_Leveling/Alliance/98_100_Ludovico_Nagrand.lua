@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2016-07-30 19:07
+-- Who: Ludovicus
+-- Log: Add some @NagrandDraenor's
+
+-- URL: http://wow-pro.com/node/3618/revisions/27484/view
+-- Date: 2016-07-30 16:47
+-- Who: tubera
+-- Log: Fix T Removing the Reinforcements. Not D'kaan, but Thaelin. 
+
+-- URL: http://wow-pro.com/node/3618/revisions/27399/view
 -- Date: 2015-12-31 23:34
 -- Who: Ludovicus
 -- Log: Removed starter messages.
@@ -287,18 +297,18 @@ T Not Without My Honor|QID|34955|M|85.44,54.60|N|To Lantresor of the Blade.|
 
 A Meet Me in the Cavern|QID|34956|M|85.44,54.60|N|From Lantresor of the Blade.|
 C The Friend o' My Enemy|QID|34952|M|85.42,55.30|N|Finish this up before you go in the Cavern as the ones inside don't count and when you come out you will be neutral to them.|US|
-T Meet Me in the Cavern|QID|34956|M|89.99,55.94|N|To Lantresor of the Blade.|Z|The Master's Cavern|
+T Meet Me in the Cavern|QID|34956|M|89.99,55.94|N|To Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
 
-A Challenge of the Masters|QID|34957|M|89.99,55.94|N|From Lantresor of the Blade.|Z|The Master's Cavern|
-C Challenge of the Masters|QID|34957|M|53.11,68.60|N|Kill the various challengers up to Warlord Dharl of the Thrice-Bloodied Blade.|Z|The Master's Cavern|
+A Challenge of the Masters|QID|34957|M|89.99,55.94|N|From Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
+C Challenge of the Masters|QID|34957|M|53.11,68.60|N|Kill the various challengers up to Warlord Dharl of the Thrice-Bloodied Blade.|Z|The Master's Cavern@NagrandDraenor|
 
 H Telaari Station |QID|34868|N|Use your hearthstone to return to Telaari Station.|ACTIVE|34596;34877;34957;34952|
 
 T Reglakk's Research|QID|34596|M|63.52,61.88|N|From Rangari D'kaan.|
-T Removing the Reinforcements|QID|34877|M|63.52,61.88|N|From Rangari D'kaan.|
 T Challenge of the Masters|QID|34957|M|63.52,61.88|N|From Rangari D'kaan.|
 A Along the Riverside |QID|35059|M|63.52,61.88|N|To Rangari D'kaan.|
 A Nobundo Sends Word |QID|35332|M|63.52,61.88|N|To Rangari D'kaan.|
+T Removing the Reinforcements|QID|34877|M|63.1,61.94|N|From Thaelin Darkanvil.|
 
 T The Friend o' My Enemy|QID|34952|US|M|63.54,61.84|N|To Hansel Heavyhands|
 A The Honor of a Blademaster|QID|34747|N|From Lantresor of the Blade.|M|64.23,59.57|
@@ -326,9 +336,9 @@ A A Lesson in Archaeology |QID|35632|N|From Gazmolf Futzwangler|M|71.13,52.35|PR
 R Vault of the Titan |QID|35663|N|Head to the Vault of the Titan.|M|73.39,49.62;68.62,45.01;66.80,49.69;67.20,49.55|CS|
 l Highmaul Sledge |QID|36039|M|67.39,49.09|N|Up on the side under the flag. Gives a 605 Str/Stam ring.|RANK|3|
 C A Lesson in Teamwork |QID|35663|N|Loot the Ancient Reliquaris from the ground or kill and loot the Highmaul.|NC|S|
-C A Lesson in Archaeology |QID|35632|N|Deploy the Teleportation Beacon.  Stay on the left, cross the wooden bridge.|NC|QO|1|M|69,45|Z|Vault of the Titan|
-C A Lesson in Archaeology |QID|35632|N|Wait for the dialog to finish.|NC|QO|2|M|69,45|Z|Vault of the Titan|
-C A Lesson in Teamwork |QID|35663|N|Finish looting the Ancient Reliquaries from the ground or kill and loot the Highmaul.|NC|US|M|46,54|Z|Vault of the Titan|
+C A Lesson in Archaeology |QID|35632|N|Deploy the Teleportation Beacon.  Stay on the left, cross the wooden bridge.|NC|QO|1|M|69,45|Z|Vault of the Titan@NagrandDraenor|
+C A Lesson in Archaeology |QID|35632|N|Wait for the dialog to finish.|NC|QO|2|M|69,45|Z|Vault of the Titan@NagrandDraenor|
+C A Lesson in Teamwork |QID|35663|N|Finish looting the Ancient Reliquaries from the ground or kill and loot the Highmaul.|NC|US|M|46,54|Z|Vault of the Titan@NagrandDraenor|
 
 T A Lesson in Teamwork |QID|35663|N|To Gazmolf Futzwangler|M|71.13,52.35|
 T A Lesson in Archaeology |QID|35632|N|To Gazmolf Futzwangler|M|71.13,52.35|
@@ -490,15 +500,15 @@ C The Pale Threat|QID|35397|M|57.6,59.2|QO|2|N|Kill the Pale|S|
 K Enslaved Earth Spirit|QID|35398|M|52.6,61.2|T|Enslaved Earth Spirit|QO|1|S|
 K Greyseer|QID|35397|M|66.30,18.00|QO|1|Z|The Underpale|N|Head to the cave at the back of Shadowfall Canyon. The arrow may be flaky until you get into the cave.|
 
-T The Pale Threat|QID|35397|M|46.12,32.83|Z|The Underpale|N|To Vindicator Nobundo, in the cave.|
-T Dark Binding |QID|35398|M|46.12,32.83|Z|The Underpale|N|To Vindicator Nobundo, in the cave.|
-A The Fate of Gordawg|QID|35395|PRE|35397;35398|M|46.12,32.83|Z|The Underpale|N|To Vindicator Nobundo, in the cave.|
-A The Dark Heart of Oshu'gun|QID|35396|PRE|35397;35398|M|46.12,32.83|Z|The Underpale|N|To Vindicator Nobundo, in the cave.|
-l Heart of the Fury|QID|35395|M|41.0,40.5|Z|The Underpale|QO|1|N|Kill Gordawg and loot the heart.|
+T The Pale Threat|QID|35397|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
+T Dark Binding |QID|35398|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
+A The Fate of Gordawg|QID|35395|PRE|35397;35398|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
+A The Dark Heart of Oshu'gun|QID|35396|PRE|35397;35398|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
+l Heart of the Fury|QID|35395|M|41.0,40.5|Z|The Underpale@NagrandDraenor|QO|1|N|Kill Gordawg and loot the heart.|
 
-C The Dark Heart of Oshu'gun|QID|35396|M|17.50,64.50|Z|The Underpale|QO|1|N|Head into the opening behind Gordawg and keep on going till you see Cho'gall.|
-K Decimatus|QID|35396|M|17.09,64.70|Z|The Underpale|QO|2|T|Decimatus|
-R Oshu'gun|QID|35393|M|22.67,65.43;19.77,72.35;11.88,68.73;8.41,60.20|CS|Z|The Underpale|N|Follow Nobundo up the ramp and leave the Sanctum here. Climb up the crack.|
+C The Dark Heart of Oshu'gun|QID|35396|M|17.50,64.50|Z|The Underpale@NagrandDraenor|QO|1|N|Head into the opening behind Gordawg and keep on going till you see Cho'gall.|
+K Decimatus|QID|35396|M|17.09,64.70|Z|The Underpale@NagrandDraenor|QO|2|T|Decimatus|
+R Oshu'gun|QID|35393|M|22.67,65.43;19.77,72.35;11.88,68.73;8.41,60.20|CS|Z|The Underpale@NagrandDraenor|N|Follow Nobundo up the ramp and leave the Sanctum here. Climb up the crack.|
 
 C Mok'gor totems|QID|35083|M|48.16,58.49|QO|1|
 C Gra'ah totems|QID|35083|M|52.39,63.35|QO|2|

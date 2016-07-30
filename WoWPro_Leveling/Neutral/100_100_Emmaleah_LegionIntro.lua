@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmLegionIntro', 'Leveling', 'Dalaran', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,100, 100, 100.0)
 WoWPro:GuideNextGuide(guide, 'EmmAzsuna')
@@ -469,7 +473,7 @@ C Shrine of the Truthguard|QID|42017|U|140192|QO|3|M|63.55,46.16|Z|Dalaran|N|Ret
 T Shrine of the Truthguard|QID|42017|M|71.77,45.17|Z|Dalaran|N|To Lord Maxwell Tyrosus.|C|Paladin|
 A We Meet at Light's Hope|QID|38576|M|71.77,45.17|Z|Dalaran|N|From Lord Maxwell Tyrosus.|C|Paladin|
 C We Meet at Light's Hope|QID|38576|QO|1|M|43.75,40.05|Z|Dalaran|N|(Optional) Take the Chamber of Guardians(Dalaran) portal to Dalaran Crater.  Be ready with Divine shield it's, WAY HIGH up in the air.|C|Paladin|
-C We Meet at Light's Hope|QID|38576|QO|2|M|73.69,53.82|Z|Eastern Plaguelands|N|(Optional) Fly to Light's Hope Chapel.|C|Paladin|; how is this optional? ... i suppose you could walk :)
+C We Meet at Light's Hope|QID|38576|QO|2|M|73.69,53.82|Z|Eastern Plaguelands|N|(Optional) Fly to Light's Hope Chapel.|C|Paladin|; how is this optional? ... i suppose you could walk
 ;C We Meet at Light's Hope|QID|38576|QO|3|M|43.27,88.00|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|C|Paladin|
 ;T We Meet at Light's Hope|QID|38576|M|63.17,37.13|N|To Lord Maxwell Tyrosus.|C|Paladin|
 ;Paladin class hall
@@ -489,10 +493,8 @@ A Zone Leadin Quest|QID|39718;39864;39731;39733|M|52.93,78.75|Z|Eastern Plaguela
 T A Sound Plan|QID|39756|M|52.29,78.11|Z|Eastern Plaguelands|N|To Lord Grayson Shadowbreaker.|C|Paladin|
 C Travel to Dalaran|QID|39718;39864;39731;39733|M|46.35,63.12|Z|Eastern Plaguelands|N|Click on the portal to Dalaran.|C|Paladin|
 
-
 D This ends the intro guide|N|Azsuna will auto load, if you want a diferant zone you can manually choose it.|
 
 ]]
 
 end)
-
