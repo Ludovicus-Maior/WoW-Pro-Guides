@@ -21,4 +21,6 @@
   <Script file="098_099_Links_Mardum.lua"/>
   <Script file="099_100_Links_Vault.lua"/>
   <Script file="100_100_Links_DH_Artifact.lua"/>
+  <Script file="100_100_Emmaleah_LegionIntro.lua"/>
+  <Script file="100_105_Emmaleah_Azsuna.lua"/>
 </Ui>
