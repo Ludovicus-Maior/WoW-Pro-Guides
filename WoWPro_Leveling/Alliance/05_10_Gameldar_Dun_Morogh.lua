@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2016-07-31 00:10
+-- Who: tubera
+-- Log: Remove class quests from Coldridge Valley. Fix note on Wayward Fire Elemental
+
+-- URL: http://wow-pro.com/node/3200/revisions/27442/view
 -- Date: 2016-03-23 12:41
 -- Who: Ludovicus
 -- Log: Fixing step merge.
@@ -246,11 +251,6 @@
 -- Date: 2011-06-24 19:43
 -- Who: Fluclo
 -- Log: |US| the The View from Down Here quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24579/view
--- Date: 2011-06-24 14:58
--- Who: Fluclo
--- Log: Corrected Zone on Ride to Ironforge quests
 
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,2,10,5.74453)
