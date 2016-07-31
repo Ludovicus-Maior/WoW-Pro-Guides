@@ -690,12 +690,14 @@ function  WoWPro.CheckHBDData(force)
 end
 
 function WoWPro:LogLocation()
-    local x, y, mapID, level, mapFile, isMicroDungeon = HBD:GetPlayerZonePosition()
+    local x, y = HBD:GetPlayerZonePosition()
 
-    if not (mapID and level) then
+    if not (x and y) then
         WoWPro:print("Player map and floor unknown")
     else
-        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", map, pizo, x*100 , y*100, GetZoneText(), string.trim(GetSubZoneText()))
+        mapID = GetCurrentMapAreaID()
+        level = GetCurrentMapDungeonLevel()
+        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", x*100 , y*100, mapID, level, GetMapNameByID(mapID), GetZoneText() )
     end
 end
 
