@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2016-08-01 00:45
+-- Who: tubera
+-- Log: Remove class ability quests. Move "A Vindicator Aldar", Healing the lake must be done before. Split Inoculation, it has 2 QIDs 1 for Draenei(37444) and 1 for Others(9303).
+
+-- URL: http://wow-pro.com/node/3206/revisions/27394/view
 -- Date: 2015-10-05 14:54
 -- Who: Ludovicus
 -- Log: R Odyseus' Landing was popping when it should not have.

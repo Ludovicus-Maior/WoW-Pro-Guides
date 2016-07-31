@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2016-08-01 00:45
+-- Who: tubera
+-- Log: Remove class ability quests. Move "A Vindicator Aldar", Healing the lake must be done before. Split Inoculation, it has 2 QIDs 1 for Draenei(37444) and 1 for Others(9303).
+
+-- URL: http://wow-pro.com/node/3206/revisions/27394/view
 -- Date: 2015-10-05 14:54
 -- Who: Ludovicus
 -- Log: R Odyseus' Landing was popping when it should not have.
@@ -239,44 +244,30 @@ C What Must Be Done...|QID|9293|N|Kill Mutated Root Lashers.|M|39.1,43.7|
 C Botanical Legwork|QID|9799|M|39.1,43.7|US|N|Collect Corrupted Flowers.|NC|
 T Botanical Legwork|QID|9799|M|49.72,37.54|N|To Apprentic Vishael.|
 T What Must Be Done...|QID|9293|M|49.87,37.35|N|To Botanist Taerix.|
+
 A Healing the Lake|QID|9294|M|49.87,37.35|N|From Botanist Taerix.|
 T Rescue the Survivors!|QID|9283|M|51.8,42.0|N|To wandering Zaldunn.|R|Draenei|
+C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent (right click on the icon).|M|45.5,64.6|NC|
+T Healing the Lake|QID|9294|M|49.87,37.35|N|To Botanist Taerix.|
 
-A The Tiger Palm|QID|31173|M|50.47,48.72|C|Monk|N|From Mojo Stormstout, just outside the building's south exit.|
-C The Tiger Palm|QID|31173|M|51.25,36.69|C|Monk|N|Find a Training Dummy on the northwest side of the Crash Site and practice using Tiger Palm. |
-T The Tiger Palm|QID|31173|M|50.47,48.72|C|Monk|N|From Mojo Stormstout.|
-A Your First Lesson|QID|26958|M|50.87,43.86|C|Warrior|N|From Kore.|
-C Your First Lesson|QID|26958|M|51.25,36.69|C|Warrior|N|Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
-T Your First Lesson|QID|26958|M|50.87,43.86|C|Warrior|N|To Kore.|
-A Arcane Missiles|QID|26968|M|50.86,42.34|C|Mage|N|From Valaatu.|
-C Arcane Missiles|QID|26968|M|51.25,36.69|C|Mage|N|Find a Training Dummy on the northwest side of the Crash Site and practice using Arcane Missiles 2 times. |
-T Arcane Missiles|QID|26968|M|50.86,42.34|C|Mage|N|To Valaatu.|
-A Primal Strike|QID|26969|M|50.18,43.13|C|Shaman|N|From Firmanvaar. |
-C Primal Strike|QID|26969|M|51.25,36.69|C|Shaman|N|Find a Training Dummy on the northwest side of the Crash Site and practice using Primal Strike 3 times. |
-T Primal Strike|QID|26969|M|50.18,43.13|C|Shaman|N|To Firmanvaar. |
-A Steadying Your Shot|QID|10070|M|51.54,44.47|C|Hunter|N|From Keilnei.|
-C Steadying Your Shot|QID|10070|M|51.25,36.69|C|Hunter|N|Find a Training Dummy on the northwest side of the Crash Site and practice using Steady Shot 5 times. |
-T Steadying Your Shot|QID|10070|M|51.54,44.47|C|Hunter|N|To Keilnei.|
-A The Light's Power|QID|26966|M|51.10,41.14|C|Paladin|N|From Aurelon.|
-C The Light's Power|QID|26966|M|51.25,36.69|C|Paladin|N|Find a Training Dummy on the northwest side of the Crash Site and use Judgement. |
-T The Light's Power|QID|26966|M|51.10,41.14|C|Paladin|N|To Aurelon|
-A Learning the Word|QID|26970|M|52.21,43.32|C|Priest|N|From Zalduun, who wanders.|
-C Learning the Word|QID|26970|M|51.25,36.69|C|Priest|N|Find a Training Dummy on the northwest side of the Crash Site and use Shadow Word. |
-T Learning the Word|QID|26970|M|52.21,43.32|C|Priest|N|To Zalduun, who wanders.|
-
-A Vindicator Aldar|QID|10304|LEAD|37444|M|49.87,37.35|N|From Botanist Taerix.|
+A Vindicator Aldar|QID|10304|PRE|9294|LEAD|37444|M|49.87,37.35|N|From Botanist Taerix.|
 T Vindicator Aldar|QID|10304|M|50.65,48.73|N|Speak to Vindicator Aldar.|
 
 A Spare Parts|QID|37445|M|50.51,47.87|N|From Technician Zhanaa.|
-A Inoculation|QID|37444|M|50.65,48.73|N|From Vindicator Aldar.|
+A Inoculation|QID|37444|M|50.65,48.73|N|From Vindicator Aldar.|R|Draenei
+A Inoculation|QID|9303|M|50.65,48.73|N|From Vindicator Aldar.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren
+
 r Sell junk and repair|QID|37445|N|At Mura, close this step when done.|M|49.99,47.15|
-C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent (right click on the icon).|M|45.5,64.6|NC|
-C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|
+C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|Draenei
+C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren
 C Spare Parts|QID|37445|N|Into the hills, through the cave. The parts are spread all over the camp.|M|58,72|
-C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|
+C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|E|Draenei
+C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren
 H Ammen Vale|QID|37445|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
-T Healing the Lake|QID|9294|M|49.87,37.35|N|To Botanist Taerix.|
-T Inoculation|QID|37444|M|50.65,48.73|N|To Vindicator Aldar.|
+
+T Inoculation|QID|37444|M|50.65,48.73|N|To Vindicator Aldar.|R|Draenei
+T Inoculation|QID|9303|M|50.65,48.73|N|To Vindicator Aldar.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren
+
 A The Missing Scout|QID|9309|M|50.65,48.73|N|From Vindicator Aldar.|
 T Spare Parts|QID|37445|M|50.51,47.87|N|To Technician Zhanaa.|
 
