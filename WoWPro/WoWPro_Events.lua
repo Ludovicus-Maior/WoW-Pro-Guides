@@ -372,7 +372,7 @@ function WoWPro:UpdateQuestTracker()
 					for l=1,numquesttext do
 						local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
 						if tonumber(lquesttext) then
-						    if WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard[tonumber(lquesttext)] then
+						    if WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[tonumber(lquesttext)] then
 						        track = "- " .. WoWPro.QuestLog[qid].leaderBoard[tonumber(lquesttext)]
 						    else
 						        track = "- " .. "?"
