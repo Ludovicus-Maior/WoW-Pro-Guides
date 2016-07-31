@@ -1,0 +1,19 @@
+tag 1.11-release
+2637719e50b88afd05694c19a854538d090d02b5
+Hendrik Leppkes <h.leppkes@gmail.com>
+2016-07-30 11:19:24 +0200
+
+Tag as 1.11-release
+
+
+--------------------
+
+Hendrik Leppkes:
+	- Fix restoring the map in multi-level micro dungeons
+	- Fix restoring the current map location while in micro dungeons
+	- Make the timed update upgrade safe and avoid having multiple active timers
+	- Run a timer to catch floor changes in multi-level micro dungeons
+	Multi-level micro dungeons do not reliably fire any events when traveling
+	between different floors, so instead run a one second timer to keep
+	updating the map location while inside a micro dungeon to catch those
+	changes.

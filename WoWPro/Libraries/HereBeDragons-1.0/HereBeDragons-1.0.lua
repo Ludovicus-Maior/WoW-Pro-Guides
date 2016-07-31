@@ -1,6 +1,6 @@
 -- HereBeDragons is a data API for the World of Warcraft mapping system
 
-local MAJOR, MINOR = "HereBeDragons-1.0", 21
+local MAJOR, MINOR = "HereBeDragons-1.0", 25
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -413,6 +413,7 @@ local function getMapDataTable(mapID, level)
     end
 end
 
+local StartUpdateTimer
 local function UpdateCurrentPosition()
     UnregisterWMU()
 
@@ -447,10 +448,10 @@ local function UpdateCurrentPosition()
     if prevContinent then
         SetMapZoom(prevContinent)
     else
-        if prevMapID and prevMapID ~= newMapID then
+        -- reset map if it changed, or we need to go back to level 0
+        if prevMapID and (prevMapID ~= newMapID or (prevLevel ~= newLevel and prevLevel == 0)) then
             SetMapByID(prevMapID)
         end
-        -- and level
         if prevLevel and prevLevel > 0 then
             SetDungeonMapLevel(prevLevel)
         end
@@ -465,6 +466,31 @@ local function UpdateCurrentPosition()
         -- update upvalues and signal callback
         currentPlayerZoneMapID, currentPlayerLevel, currentMapFile, currentMapIsMicroDungeon = newMapID, newLevel, microFile or mapFile, isMicroDungeon
         HereBeDragons.callbacks:Fire("PlayerZoneChanged", currentPlayerZoneMapID, currentPlayerLevel, currentMapFile, currentMapIsMicroDungeon)
+    end
+
+    -- start a timer to update in micro dungeons since multi-level micro dungeons do not reliably fire events
+    if isMicroDungeon then
+        StartUpdateTimer()
+    end
+end
+
+-- upgradeable timer callback, don't want to keep calling the old function if the library is upgraded
+HereBeDragons.UpdateCurrentPosition = UpdateCurrentPosition
+local function UpdateTimerCallback()
+    -- signal that the timer ran
+    HereBeDragons.updateTimerActive = nil
+
+    -- run update now
+    HereBeDragons.UpdateCurrentPosition()
+end
+
+function StartUpdateTimer()
+    if not HereBeDragons.updateTimerActive then
+        -- prevent running multiple timers
+        HereBeDragons.updateTimerActive = true
+
+        -- and queue an update
+        C_Timer.After(1, UpdateTimerCallback)
     end
 end
 
