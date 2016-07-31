@@ -426,7 +426,7 @@ function WoWPro.RecordStuff(i)
     
 	
 
-    if WoWPro.action[i] == "!" then
+    if WoWPro.action[i] == "!" and NPCs then
         -- NPC triggered QID
         -- ! Brutus/Ruckus|NPC|85561;85655|QID|85561.1|
         local numNPCs = select("#", string.split(";", NPCs))
