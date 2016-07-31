@@ -265,7 +265,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						local zonetag, note
 						if GetZoneText() ~= WoWPro.Guides[WoWProDB.char.currentguide].zone then zonetag = GetZoneText() else zonetag = nil end
 						if GetUnitName("target") then note = "At "..GetUnitName("target").."." end
-						WoWPro.Recorder:AddStep({
+						WoWPro.Recorder.AddStep({
 							action = "r",
 							step = "Repair/Restock",
 							QID = WoWPro.Recorder.lastStep,
@@ -657,7 +657,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 								WoWPro:Error("Looks like your step is missing a QID! We can't register it without one. Please fill that out and try again.")
 								return 
 						end
-						WoWPro.Recorder:AddStep(WoWPro.Recorder.stepInfo)
+						WoWPro.Recorder.AddStep(WoWPro.Recorder.stepInfo)
 						WoWPro.Recorder.stepInfo = {}
 						WoWPro.Recorder.QIDtoAdd = nil
 						WoWPro.Recorder.questtextset = true
