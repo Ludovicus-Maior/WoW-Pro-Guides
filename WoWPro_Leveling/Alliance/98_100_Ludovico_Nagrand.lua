@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2016-07-31 20:57
+-- Who: tubera
+-- Log: Moved "T Removing the Reinforcements" a bit forward to avoid walking back and forth.
+
+-- URL: http://wow-pro.com/node/3618/revisions/27502/view
 -- Date: 2016-07-30 21:12
 -- Who: Ludovicus
 -- Log:  Stonecrag Gorge@NagrandDraenor ???
@@ -309,11 +314,11 @@ C Challenge of the Masters|QID|34957|M|53.11,68.60|N|Kill the various challenger
 
 H Telaari Station |QID|34868|N|Use your hearthstone to return to Telaari Station.|ACTIVE|34596;34877;34957;34952|
 
+T Removing the Reinforcements|QID|34877|M|63.1,61.94|N|From Thaelin Darkanvil.|
 T Reglakk's Research|QID|34596|M|63.52,61.88|N|From Rangari D'kaan.|
 T Challenge of the Masters|QID|34957|M|63.52,61.88|N|From Rangari D'kaan.|
 A Along the Riverside |QID|35059|M|63.52,61.88|N|To Rangari D'kaan.|
 A Nobundo Sends Word |QID|35332|M|63.52,61.88|N|To Rangari D'kaan.|
-T Removing the Reinforcements|QID|34877|M|63.1,61.94|N|From Thaelin Darkanvil.|
 
 T The Friend o' My Enemy|QID|34952|US|M|63.54,61.84|N|To Hansel Heavyhands|
 A The Honor of a Blademaster|QID|34747|N|From Lantresor of the Blade.|M|64.23,59.57|
