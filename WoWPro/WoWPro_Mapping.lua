@@ -3,9 +3,7 @@
 ----------------------------------
 
 local L = WoWPro_Locale
-local cache = {}	
-local B = LibStub("LibBabble-Zone-3.0")
-local BL = B:GetUnstrictLookupTable()
+local cache = {}
 local HBD = LibStub("HereBeDragons-1.0")
 WoWPro.HBD = HBD
 
