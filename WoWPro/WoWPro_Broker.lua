@@ -1019,12 +1019,14 @@ function WoWPro.NextStep(k,i)
                 break
             end
             if WoWPro.current_strategy == nil then
+                WoWPro:Print("Checking if %s/%s can be the PetBattle strategy.", WoWPro.step[k], WoWPro.strategy[k])
                 if  WoWPro.PetSelectStep(k) then
                     WoWPro.current_strategy = WoWPro.strategy[k]
                     WoWPro:Print("Selected %s as the PetBattle strategy.", WoWPro.current_strategy)
                     WoWPro.CompleteStep(k, "NextStep(): Selected pet strategy " .. WoWPro.current_strategy)
                     skip = true
                 else
+                    WoWPro:Print("Failed PET match on %s/%s.", WoWPro.step[k], WoWPro.strategy[k])
                     WoWPro.why[k] = "NextStep(): pets not matched for strategy " ..  WoWPro.strategy[k]
                     skip = true
                 end
