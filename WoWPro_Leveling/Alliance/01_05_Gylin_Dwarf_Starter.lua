@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2016-07-31 16:09
+-- Who: tubera
+-- Log:  Meet the High Tinker for hunter. Remove class ability training quests.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27503/view
 -- Date: 2016-07-31 00:10
 -- Who: tubera
 -- Log: Remove class quests from Coldridge Valley. Fix note on Wayward Fire Elemental
@@ -246,11 +251,6 @@
 -- Date: 2011-06-24 19:52
 -- Who: Fluclo
 -- Log: Added auto-complete to killing Vagash
-
--- URL: http://wow-pro.com/node/3200/revisions/24580/view
--- Date: 2011-06-24 19:43
--- Who: Fluclo
--- Log: |US| the The View from Down Here quest
 
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,2,1.1)

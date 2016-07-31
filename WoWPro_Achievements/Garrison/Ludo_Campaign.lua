@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-07-31 19:58
+-- Who: tubera
+-- Log: Cleaned up Broken Precipe. Added zone tags; Flight option from garrison; Stickied Ogre Onslaught.
+
+-- URL: http://wow-pro.com/node/3648/revisions/27487/view
 -- Date: 2016-07-30 18:54
 -- Who: Ludovicus
 -- Log: Added missing M tag
@@ -335,42 +340,37 @@ C Soulgrinder Survivor|QID|34319|M|38.0,13.8|N|Borgal Doomfist|FACTION|Horde|
 T Soulgrinder Survivor|QID|34319|M|37.6,14.0|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
 
 ; Broken Precipice -- Mostly Neutral
-A Garrison Campaign: The Broken Precipice|QID|35985|M|54.8,14.8|N|From Nixxie|FACTION|Alliance|
-T Garrison Campaign: The Broken Precipice|QID|35985|M|39.6,24.6|N|To Greblin Fastfizzle|FACTION|Alliance|
-A Garrison Campaign: The Broken Precipice|QID|36117|M|54.8,14.8|N|From Nixxie|FACTION|Horde|
-T Garrison Campaign: The Broken Precipice|QID|36117|M|39.6,24.6|N|To Greblin Fastfizzle|FACTION|Horde|
-A Greblin Fastfizzle|QID|35945|PRE|36117|M|39.6,24.6|N|From Greblin Fastfizzle|; Neutral
-C Greblin Fastfizzle|QID|35945|M|39.6,24.6|N|Greblin Fastfizzle|
-T Greblin Fastfizzle|QID|35945|M|39.6,24.4|N|To Greblin Fastfizzle|
-A Preservation Capitalization|QID|35970|PRE|35945|M|39.6,24.4|N|From Greblin Fastfizzle|; Neutral
-C Preservation Capitalization|QID|35970|M|37.9,25.6|N|Redtooth Necklace|
-C Preservation Capitalization|QID|35970|M|36.7,21.2|N|Ogre Bust|
-C Preservation Capitalization|QID|35970|M|35.7,18.9|N|Purpletooth Necklace|
-T Preservation Capitalization|QID|35970|M|39.6,24.4|N|To Greblin Fastfizzle|
-A Ogre Onslaught|QID|35972|PRE|35945|M|39.6,24.4|N|From Greblin Fastfizzle|; Neutral
-C Ogre Onslaught|QID|35972|M|36.4,20.8|N|Defiant Drudge|
-C Ogre Onslaught|QID|35972|M|35.4,22.8|N|Sledgebasher|
-C Ogre Onslaught|QID|35972|M|38.6,23.8|N|Arcanist Earthsmasher|
-C Ogre Onslaught|QID|35972|M|41.6,14.4|N|Dominating Drudge|
-C Ogre Onslaught|QID|35972|M|38.0,15.2|N|Sledgebasher|
-C Ogre Onslaught|QID|35972|M|37.6,23.6|N|Broken Drudge|
-C Ogre Onslaught|QID|35972|M|38.6,14.6|N|Bloodbash Ogrechucker|
-C Ogre Onslaught|QID|35972|M|40.2,15.8|N|Bloodbash Breaker|
-C Ogre Onslaught|QID|35972|M|38.6,24.0|N|Durg Spinecrusher|
-C Ogre Onslaught|QID|35972|M|37.8,15.6|N|Slave-Grinder|
-T Ogre Onslaught|QID|35972|M|39.6,24.4|N|To Greblin Fastfizzle|
+;A Garrison Campaign: The Broken Precipice|QID|35985|M|54.8,14.8|N|From Nixxie|FACTION|Alliance|
+;A Garrison Campaign: The Broken Precipice|QID|36117|M|54.8,14.8|N|From Nixxie|FACTION|Horde|
+F Nagrand|QID|35985|ACTIVE|35985|Z|Lunarfall|M|45.76,50.8|Z|Lunarfall|N|Use the chat option|FACTION|Alliance
+F Nagrand|QID|36117|ACTIVE|36117|Z|Frostwall|M|45.76,50.8|Z|Frostwall|N|Use the chat option|FACTION|Horde
+T Garrison Campaign: The Broken Precipice|QID|35985|M|39.6,24.6|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|FACTION|Alliance|
+T Garrison Campaign: The Broken Precipice|QID|36117|M|39.6,24.6|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|FACTION|Horde|
+; Neutral
+A Greblin Fastfizzle|QID|35945|PRE|36117|M|39.6,24.6|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|
+C Greblin Fastfizzle|QID|35945|M|39.6,24.6|Z|Nagrand@Draenor|N|Greblin Fastfizzle|
+T Greblin Fastfizzle|QID|35945|M|39.6,24.4|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|
+A Preservation Capitalization|QID|35970|PRE|35945|M|39.6,24.4|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|
+A Ogre Onslaught|QID|35972|PRE|35945|M|39.6,24.4|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|
+C Ogre Onslaught|QID|35972|M|36.4,20.8|Z|Nagrand@Draenor|N|Kill Ogres and Ogron in the area|S
+C Preservation Capitalization|QID|35970|M|37.9,25.6|Z|Nagrand@Draenor|N|Redtooth Necklace|QO|1
+C Preservation Capitalization|QID|35970|M|36.7,21.2|Z|Nagrand@Draenor|N|Ogre Bust|QO|3
+C Preservation Capitalization|QID|35970|M|35.7,18.9|Z|Nagrand@Draenor|N|Purpletooth Necklace|QO|2
+C Ogre Onslaught|QID|35972|M|36.4,20.8|Z|Nagrand@Draenor|N|Finish killing Ogres and Ogron|US
+T Preservation Capitalization|QID|35970|M|39.6,24.4|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|
+T Ogre Onslaught|QID|35972|M|39.6,24.4|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|
 A Dizzy Sparkshift|QID|37511|PRE|35972;35970|M|39.6,24.4|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|; Neutral
 T Dizzy Sparkshift|QID|37511|M|40.75,12.96|Z|Nagrand@Draenor|N|To Dizzy Sparkshift|
 A Brokyo Beatdown|QID|35973|PRE|37511|M|40.75,12.96|Z|Nagrand@Draenor|N|From Dizzy Sparkshift|; Neutral
 C Brokyo Beatdown|QID|35973|M|41.8,14.4|Z|Nagrand@Draenor|N|Brokyo|QO|1|
 C Brokyo Beatdown|QID|35973|M|41.0,14.2|Z|Nagrand@Draenor|N|Brokyo's Prized Possession|QO|2|
 T Brokyo Beatdown|QID|35973|M|40.6,13.0|Z|Nagrand@Draenor|N|To Dizzy Sparkshift|
+; /neutral
 A News for Nixxie|QID|37517|PRE|35973|M|40.75,12.96|Z|Nagrand@Draenor|N|From Dizzy Sparkshift|FACTION|Alliance|
-T News for Nixxie|QID|37517|M|61.07,79.28|Z|Shadowmoon Valley@Draenor|N|To Nixxie|FACTION|Alliance|
+T News for Nixxie|QID|37517|M|61.07,79.28|Z|Lunarfall|N|To Nixxie|FACTION|Alliance|
 A News for Nixxie|QID|37516|PRE|35973|M|40.75,12.96|Z|Nagrand@Draenor|N|From Dizzy Sparkshift|FACTION|Horde|
-T News for Nixxie|QID|37516|M|54.8,14.8|Z|Frostfire Ridge|N|To Nixxie|FACTION|Horde|
+T News for Nixxie|QID|37516|M|54.8,14.8|Z|Frostwall|N|To Nixxie|FACTION|Horde|; The Exarch's Call -- Alliance Only
 
-; The Exarch's Call -- Alliance Only
 ; A Garrison Campaign: The Exarch's Call|QID|36163|M|33.0,34.6|N|From Deedree|
 F Elodor||QID|36163|M|48.00,49.83|N|Fly to Embaari Villiage on Air Longdrink.|
 T Garrison Campaign: The Exarch's Call|QID|36163|M|65.23,26.18|Z|Shadowmoon Valley@Draenor|N|To Yrel, at the Altar of the Sha'tar|

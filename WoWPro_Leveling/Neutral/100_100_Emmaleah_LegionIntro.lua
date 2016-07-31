@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3659
--- Date: 2016-07-31 02:00
+-- Date: 2016-07-31 10:36
 -- Who: Emmaleah
 -- Log: Added missing M tag
 
@@ -237,6 +237,87 @@ A The Path of the Dreadscar|QID|40824|M|30.92,58.31|Z|Dreadscar Rift|N|From Rits
 A Zone Leadin Quest|QID|39718;39864;39731;39733|M|66.1,47.01|Z|Dreadscar Rift|N|From Dreadscar Battle Plans. Choose which zone you want to do first.  The Legion expansion is set up differantly so all are viable first zones.  The Azsuna guild will autoload when you close this guide, but you can close it and open any of the other guides.|C|Warlock|PRE|40824|C|Warlock|
 T The Path of the Dreadscar|QID|40824|M|65.69,47.86|Z|Dreadscar Rift|N|To Ritssyn Flamescowl.|PRE|40823|C|Warlock|
 C Return to Dalaran|QID|39864|QO|1|M|73.79,38.19|Z|Dreadscar Rift|N|Portal back to Dalaran|C|Warlock|
+;Warrior
+A A Desparate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|Dalaran|N|From Eitrigg.|C|Warrior|PRE|44683;44184|
+A An Important Mission|QID|42814|FACTION|Alliance|M|57.47,45.56|Z|Dalaran|N|From ?.|C|Warrior|PRE|44683;44184|
+C Chat with Saurfang|QID|41052|M|57.47,45.56|Z|Dalaran|CHAT|N|Talk to him.|FACTION|Horde|C|Warrior|PRE|44683;44184|
+A Return to the Broken Shore|QID|38904|FACTION|Horde|M|75.05,46.18|Z|Dalaran|N|From High Overlord Saurfang.|C|Warrior|PRE|41052|
+A Return to the Broken Shore|QID|42815|FACTION|Alliance|M|75.05,46.18|Z|Dalaran|N|From Danath Trollbane.|C|Warrior|PRE|42814|
+C Return to the Broken Shore|QID|38904;42815|NC|QO|1|M|75.04,47.17|Z|Dalaran|N|Hop on the extra mount.|C|Warrior|PRE|41052;42814|
+C Meet up with the vrykul.|SO|1;1|M|50.37,28.28|Z|Broken Shore|N|Meet up with the vrykul.|C|Warrior|ACTIVE|38904;42815|
+C Legion forces eliminated|SO|2;1|M|51.28,30.71|Z|Broken Shore|N|Aid the vrykul in eliminating the Legion forces.|C|Warrior|ACTIVE|38904;42815|
+C Approach Danica|SO|3;1|M|50.90,29.94|Z|Broken Shore|N|Approach Danica|C|Warrior|ACTIVE|38904;42815|
+C Defeat Bezzeredes and his allies.|SO|4;1|M|49.45,32.56|Z|Dalaran|N|Defeat Bezzeredes and his allies.|C|Warrior|ACTIVE|38904;42815|
+C Defeat Malgalor|SO|5;1|M|49.64,28.65|Z|Broken Shore|N|Defeat Malgalor.|C|Warrior|ACTIVE|38904;42815|
+C Return to the Broken Shore|QID|38904;42815|QO|2|M|59.04,27.27|Z|Broken Shore|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|C|Warrior|PRE|41052;42814|
+T Return to the Broken Shore|QID|38904;42815|M|59.07,29.88|Z|Broken Shore|N|To Danica the Reclaimer.|C|Warrior|ACTIVE|41052;42814|
+A Odyn and the Valarjar|QID|39654|M|59.07,29.88|Z|Broken Shore|N|From Danica the Reclaimer.|C|Warrior|PRE|38904;42815|
+C Odyn and the Valarjar|QID|39654|NC|QO|1|M|59.23,45.46|Z|Skyhold|NC|N|Follow Danica|C|Warrior|PRE|38904;42815|
+C Odyn and the Valarjar|QID|39654|QO|2|M|58.55,68.39|Z|Skyhold|NC|N|Go to the Great Mead Hall|C|Warrior|PRE|38904;42815|
+C Odyn and the Valarjar|QID|39654|QO|3|M|58.45,76.79|Z|Skyhold|NC|N|Listen to Odyn|C|Warrior|PRE|38904;42815|
+T Odyn and the Valarjar|QID|39654|M|58.43,85.13|Z|Skyhold|N|To Odyn.|C|Warrior|PRE|38904;42815|
+A Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold|N|From Odyn.|C|Warrior|PRE|38654|
+C Weapons of Legend|QID|40579|QO|M|58.43,85.13|Z|Skyhold|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|C|Warrior|PRE|38654|
+T Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold|N|To Odyn.|C|Warrior|PRE|38654|
+A Artifact Specific Quest|QID|41105;40043;39191|M|58.43,85.13|Z|Skyhold|N|From Odyn.|C|Warrior|PRE|40579|
+;ARMS
+;A The Sword of Kings|QID|41105|M|58.43,85.13|Z|Skyhold|N|From Odyn.|
+C The Sword of Kings|QID|41105|NC|QO|1|M|58.39,24.69|Z|Skyhold|N|(Optional) Speak with Aerylia to go to Dalaran|C|Warrior|PRE|40579|
+C The Sword of Kings|QID|41105|NC|QO|2|M|43.75,40.05|Z|Dalaran|N|(Optional) Take the Portal to Dalaran Crater. Its a long fall, you probably won't die...|C|Warrior|PRE|40579|
+C The Sword of Kings|QID|41105|QO|3|M|15.83,60.68|Z|Tirisfal Glades|N|Go to the Tomb of Tyr in Tirisfal Glades|C|Warrior|PRE|40579|
+C Culling the Cultists|SO|1;1|M|13.68,56.77|Z|Tirisfal Glades|N|Fly to the tomb of Tyr.|
+C Slay the ritualists torturing Thoradin.|SO|2;1|M|13.68,56.77|Z|Tirisfal Glades|N|Slay the ritualists torturing Thoradin.|
+C Follow and listen to Thoradin.|SO|3;1|CHAT|M|14.26,56.50|Z|Tirisfal Glades|N|Follow and listen to Thoradin.|
+C Enter the Tomb of Tyr.|SO|4;1|M|37.11,45.08|Z|Tirisfal Glades|N|The entrance is beneath the lake.|
+C Void Tendrils killed|SO|5;1|M|39.31,58.03|Z|Tirisfal Glades|N|Void Tendrils killed|
+C Kill Soth'ozz|SO|6;1|M|37.44,56.06|Z|Tirisfal Glades|N|Kill Soth'ozz|
+C Reach the prison chamber.|SO|7;1|M|59.89,74.64|Z|Tirisfal Glades|N|Reach the prison chamber.|
+C A Quick Execution|SO|8;1|M|63.91,71.43|Z|Tirisfal Glades|N|Click on Zakajz before it is awake, ... (oh well, nothing is ever that easy.|
+C Defeat Zakajz|SO|9;1|M|63.91,71.43|Z|Tirisfal Glades|N|Defeat Zakajz|
+C Take Strom'kar, the Warbreaker.|NC|SO|10;1|M|58.03,75.86|Z|Tirisfal Glades|N|Take Strom'kar, the Warbreaker.|
+C The Sword of Kings|QID|41105|NC|QO|4|M|61.37,74.78|Z|Tirisfal Glades|N|Use the Extra Action Button to permanently deal with Zakalz.|C|Warrior|PRE|40579|
+C The Sword of Kings|QID|41105|Z|Tirisfall Glade|QO|5|N|Step into the glowing circle made by the Val'kyr and use your extra action button.|C|Warrior|PRE|40579|
+T The Sword of Kings|QID|41105|M|58.64,85.92|N|To Odyn.|C|Warrior|PRE|40579|
+;FURY
+;A The Hunter of Heroes|QID|40043|M|58.48,84.54|Z|Dalaran|N|From Odyn.|C|Warrior|PRE|40579|
+C The Hunter of Heroes|QID|40043|M|58.43,24.55|Z|Dalaran|CHAT|N|Speak with Aerylia to go to Tideskorn Harbor.|C|Warrior|PRE|40579|
+C Into the Mists|SO|1|Z|Stormheim|N|The village is shrouded in mists. Light the bonfire to clear it and provoke the Helarjar.|C|Warrior|ACTIVE|40043|
+C Defeat waves of Enemies|SO|2;2|M|62.47,46.23|Z|Stormheim|N|Defeat waves of Enemies.|C|Warrior|ACTIVE|40043|
+C Kill the leader of the attackers|SO|2;1|M|62.27,46.07|Z|Stormheim|N|Kill the leader of the attackers.|C|Warrior|ACTIVE|40043|
+C Kill the mystics and reach the docks|SO|3;1|M|60.16,47.59|Z|Stormheim|N|Kill the mystics and reach the docks.|C|Warrior|ACTIVE|40043|
+C Destroy the Prison Runestones|SO|4;1|M|60.13,42.04|Z|Stormheim|N|Destroy the Prison Runestones.|C|Warrior|ACTIVE|40043|
+C Defeat Vigfus Bladewind|SO|5;1|M|59.36,43.97|Z|Stormheim|N|Fight Vigfus Bladewind.|C|Warrior|ACTIVE|40043|
+C Chase and kill Vigfus|SO|6;1|M|55.63,43.06|Z|Stormheim|N|Chase and kill Vigfus.|C|Warrior|ACTIVE|40043|
+C The Hunter of Heroes|QID|40043|QO|2|M|55.70,42.97|Z|Stormheim|N|Deal with Vigfus Bladewind and his warband.|C|Warrior|PRE|40579|
+C Wield the Warswords|SO|7;1|M|55.70,42.97|Z|Stormheim|N|Pick up the Warswords.|C|Warrior|ACTIVE|40043|
+C The Hunter of Heroes|QID|40043|NC|QO|3|M|55.41,42.94|Z|Stormheim|N|Stand in the middle of the glowing area and use your extra action button to return to Skyhold.|C|Warrior|PRE|40579|
+T The Hunter of Heroes|QID|40043|M|58.58,85.63|Z|Skyhold|N|To Odyn.|C|Warrior|PRE|40579|
+;PROTECTION
+;A Legacy of the Icebreaker|QID|39191|M|58.42,84.89|Z|Skyhold|N|From Odyn.|C|Warrior|PRE|40579|
+C Legacy of the Icebreaker|QID|39191|M|59.27,25.32|Z|Skyhold|CHAT|N|Talk with Hrithnir.|C|Warrior|ACTIVE|40579|
+C The Sealed Tomb|SO|1;1|M|84.26,9.55|Z|Stormheim|N|Fight your way down the hill (with Hrithnir) until you get to the entrance of the tomb.|C|Warrior|ACTIVE|40579|
+C Defeat Pillik|SO|2;1|M|84.26,9.55|Z|Stormheim|N|After you defeat him, the doors will open.|C|Warrior|ACTIVE|40579|
+C Find Magnar|SO|3;1|M|53.22,57.52|Z|Stormheim|N|Heroic Leap to the nearest mob, after he dies, Heroic Leap to the one across.  When those two are dead, the wind on the floor goes away.|C|Warrior|ACTIVE|40579|
+C Defend Hruthnir|SO|4;1|M|50.58,72.84|Z|Stormheim|N|Defend Hruthnir|C|Warrior|ACTIVE|40579|
+C Defeat Magnar Icebreaker|SO|5;1|M|50.13,83.25|Z|Stormheim|N|Defeat Magnar Icebreaker|C|Warrior|ACTIVE|40579|
+C Armaments of the Black Wyrm|SO|6;1|M|19.98,82.35|Z|Tomb of the Old Kings|N|The sword and shield are yours, claim them.|C|Warrior|ACTIVE|40579|
+C Legacy of the Icebreaker|QID|39191|QO|3|M|M|19.98,82.35|Z|Tomb of the Old Kings|N|Stand in the middle of the glowing circle and use your extra action button to take Odyn's portal back to Skyhold.|C|Warrior|PRE|40759|
+T Legacy of the Icebreaker|QID|39191|M|58.51,85.77|N|To Odyn.|C|Warrior|PRE|40759|
+;Warrior Class Hall
+A The Forgening|QID|39530|M|58.64,85.92|Z|Skyhold|N|From Odyn.|C|Warrior|PRE|41105;40579;39191|
+T The Forgening|QID|39530|M|40.94,36.85|Z|Skyhold|N|To Master Smith Helgar.|C|Warrior|PRE|41105;40579;39191|
+A The Forge of Odyn|QID|39192|M|40.94,36.85|Z|Skyhold|N|From Master Smith Helgar.|C|Warrior|PRE|39530|
+C The Forge of Odyn|QID|39192|QO|1|M|39.95,35.21|Z|Skyhold|N|Use the Forge of Odyn to imbue your artifact.|C|Warrior|PRE|39530|
+T The Forge of Odyn|QID|39192|M|41.05,37.18|Z|Skyhold|N|To Master Smith Helgar.|C|Warrior|PRE|39530|
+A The Eye of Odyn|QID|39214|M|43.63,34.66|Z|Skyhold|N|From Danica the Reclaimer.|C|Warrior|PRE|39192|
+T The Eye of Odyn|QID|39214|M|59.78,13.33|Z|Skyhold|N|To Skyseer Ghrent.|C|Warrior|PRE|39192|
+A Thus Begins the War|QID|40585|M|59.78,13.33|Z|Skyhold|N|From Skyseer Ghrent.|C|Warrior|PRE|39124|
+A Zone Leadin Quest|QID|39718;39864;39731;39733|M|59.45,13.34|Z|Skyhold|N|From the Eye of Odyn. Choose which zone you want to do first.  The Legion expansion is set up differantly so all are viable first zones.  The Azsuna guild will autoload when you close this guide, but you can close it and open any of the other guides.|C|Warrior|ACTIVE|40585|
+;A Paradise Lost|QID|39718|;Azsuna
+;A Stormheim|QID|39864|;Stormheim
+;A The Tranquil Forest|QID|39731|;Val'sharah
+;A The Lone Mountain|QID|39733|;Highmountain
+C Travel to Dalaran|QID|39718;39864;39731;39733|M|58.55,24.00|Z|Skyhold|N|Talk to the Val'kyr for transport to Dalaran.|
 ;Priest
 A Priestly Matters|QID|40705|M|57.57,44.48|Z|Dalaran|N|From Hooded Priestess.|C|Priest|
 R Chamber of the Guardians|QID|40705|M|49.44,47.54|Z|Dalaran|N|In the middle of Dalaran.|ACTIVE|40705|C|Priest|

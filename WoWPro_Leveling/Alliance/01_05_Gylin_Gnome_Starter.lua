@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2016-07-31 16:09
+-- Who: tubera
+-- Log:  Meet the High Tinker for hunter. Remove class ability training quests.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27503/view
 -- Date: 2016-07-31 00:10
 -- Who: tubera
 -- Log: Remove class quests from Coldridge Valley. Fix note on Wayward Fire Elemental
@@ -247,11 +252,6 @@
 -- Who: Fluclo
 -- Log: Added auto-complete to killing Vagash
 
--- URL: http://wow-pro.com/node/3200/revisions/24580/view
--- Date: 2011-06-24 19:43
--- Who: Fluclo
--- Log: |US| the The View from Down Here quest
-
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,3,1.81013)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -287,6 +287,7 @@ A The Future of Gnomeregan|PRE|27674|QID|26206|C|Rogue|M|39.50,38.39|N|From Nevi
 A The Future of Gnomeregan|PRE|27674|QID|26202|C|Warlock|M|39.50,38.39|N|From Nevin Twistwrench.|
 A The Future of Gnomeregan|PRE|27674|QID|26203|C|Warrior|M|39.50,38.39|N|From Nevin Twistwrench.|
 A The Future of Gnomeregan|PRE|27674|QID|31135|C|Monk|M|39.50,38.39|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|QID|41217|C|Hunter|M|39.50,38.38|N|From Nevin Twistwrench.|
 
 ; [aldavor] These are now surface quests.
 ; [aldavor] ALL THESE COORDS ARE CHANGED NOW - area is New Tinkertown
@@ -297,6 +298,7 @@ T The Future of Gnomeregan|QID|26199|M|39.44,28.35|N|To "Doc" Cogspin.|C|Priest|
 T The Future of Gnomeregan|QID|26206|M|38.04,33.70|N|To Kelsey Steelspark.|C|Rogue|
 T The Future of Gnomeregan|QID|26203|M|40.65,35.35|N|To Drill Sergeant Steamcrank, who wanders.|C|Warrior|
 T The Future of Gnomeregan|QID|31135|M|40.09,35.61|N|To Xi.|C|Monk|
+T The Future of Gnomeregan|QID|41217|C|Hunter|M|41.86,31.58|N|To Muffinus Chromebrew.|
 
 ; [aldavor] The first line is the new correct coords for the npc.
 A Meet the High Tinker|PRE|26202|QID|26424|C|Warlock|M|37.68,37.97|N|From Alamar Grimm.|
@@ -305,6 +307,7 @@ A Meet the High Tinker|PRE|26199|QID|26422|C|Priest|M|39.40,28.38|N|From "Doc" C
 A Meet the High Tinker|PRE|26206|QID|26423|C|Rogue|M|38.03,33.56|N|From Kelsey Steelspark.|
 A Meet the High Tinker|PRE|26203|QID|26425|C|Warrior|M|40.65,35.35|N|From Drill Sergeant Steamcrank.|
 A Meet the High Tinker|PRE|31135|QID|31137|C|Monk|M|40.09,35.61|N|From Xi.|
+A Meet the High Tinker|QID|41218|C|Hunter|M|41.86,31.58|N|From Muffinus Chromebrew.|
 
 ; [aldavor] The first line is the new correct coords for the npc.
 T Meet the High Tinker|QID|26424|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Warlock|
@@ -313,6 +316,7 @@ T Meet the High Tinker|QID|26422|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|P
 T Meet the High Tinker|QID|26423|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Rogue|
 T Meet the High Tinker|QID|26425|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Warrior|
 T Meet the High Tinker|QID|31137|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Monk|
+T Meet the High Tinker|QID|41218|M|38.68,32.94|Z|N|To High Tinker Mekkatorque.|C|Hunter|
 
 A The Fight Continues|QID|26208|M|38.72,32.74|N|From High Tinker Mekkatorque.|
 T The Fight Continues|QID|26208|M|38.72,32.74|N|To High Tinker Mekkatorque.|
@@ -336,34 +340,6 @@ C What's Left Behind|US|QID|26264|N|Kill Toxic Oozes around the area and loot Re
 L Level 3!|LVL|3|QID|26264|N|You should be around level 3 by this point|
 
 T Dealing with the Fallout|QID|26265|M|38.20,40.21|N|To Corporal Fizzwhistle.|
-
-; **********************************
-; [aldavor] Do these as individual sets
-A The Power of a Warlock|QID|26201|M|37.68,37.97|N|From Alamar Grimm (may already have been auto-accepted).|C|Warlock|
-C The Power of a Warlock|QID|26201|M|40.96,35.78|N|Cast Corruption on a Training Dummy in New Tinkertown 5 times.|C|Warlock|
-T The Power of a Warlock|QID|26201|M|37.68,37.97|N|To Alamar Grimm.|C|Warlock|
-
-A The Arts of a Mage|QID|26198|M|41.10,29.12|N|From Bipsi Frostflinger.|C|Mage|
-C The Arts of a Mage|QID|26198|M|40.96,35.78|N|Cast Arcane Missiles twice at a Training Dummy in New Tinkertown.|C|Mage|
-T The Arts of a Mage|QID|26198|M|41.10,29.12|N|To Bipsi Frostflinger.|C|Mage|
-
-A The Arts of a Rogue|QID|26207|M|38.03,33.56|N|From Kelsey Steelspark.|C|Rogue|
-C The Arts of a Rogue|QID|26207|M|40.96,35.78|N|Practice using Eviscerate 3 times on a Training Dummy in New Tinkertown.|C|Rogue|
-T The Arts of a Rogue|QID|26207|M|38.03,33.56|N|To Kelsey Steelspark.|C|Rogue|
-
-A The Arts of a Warrior|QID|26204|M|40.65,35.35|N|From Drill Sergeant Steamcrank.|C|Warrior|
-C The Arts of a Warrior|QID|26204|M|40.96,35.78|N|Use Charge on a Training Dummy in New Tinkertown.|C|Warrior|
-T The Arts of a Warrior|QID|26204|M|40.65,35.35|N|To Drill Sergeant Steamcrank.|C|Warrior|
-
-; [aldavor] changed this from Flash Heal.
-A The Arts of a Priest|QID|26200|M|39.40,28.38|N|From "Doc" Cogspin.|C|Priest|
-C The Arts of a Priest|QID|26200|M|40.96,35.78|C|Priest|N|Use Shadow Word: Pain 5 times on a Training Dummy in New Tinkertown.|
-T The Arts of a Priest|QID|26200|M|39.40,28.38|N|To "Doc" Cogspin.|C|Priest|
-
-A The Arts of a Monk|QID|31138|M|40.09,35.61|N|From Xi.|C|Monk|; May have been auto-accepted already!
-C The Arts of a Monk|QID|31138|M|40.96,35.78|N|Locate a Training Dummy in New Tinkertown and use Tiger Palm on it.|C|Monk|
-T The Arts of a Monk|QID|31138|M|40.09,35.61|N|To Xi.|C|Monk|
-; **********************************
 
 T A Job for the Multi-Bot|QID|26205|M|40.62,28.07|N|To Engineer Grindspark.|
 T What's Left Behind|QID|26264|M|39.22,26.55|N|To Tock Sprysprocke.|
