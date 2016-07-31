@@ -308,8 +308,8 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
             sticky = true,
             sobjective = tostring(scenario.currentStage),
         }
-        WoWPro.Recorder:Print("Starting new scenario: %s", scenario.name)
-        WoWPro.Recorder:Print("Entering new stage: %s", stepInfo.step)
+        WoWPro.Recorder:Print("Starting new scenario: %s", tostring(scenario.name))
+        WoWPro.Recorder:Print("Entering new stage: %s", tostring(stepInfo.step))
         WoWPro.Recorder.AddStep(stepInfo)
     end
     WoWPro.Recorder.ProcessScenarioCriteria(scenario)

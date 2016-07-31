@@ -1340,7 +1340,7 @@ end
 local ScenarioSerial = 0
 
 function WoWPro.ProcessScenarioStage(flag)
-    WoWPro:dbp("WoWPro.ProcessScenarioStage(%s)",tostring(flag))
+    WoWPro:print("WoWPro.ProcessScenarioStage(%s)",tostring(flag))
     local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = C_Scenario.GetInfo()
     if not name then
         WoWPro:dbp("WoWPro.ProcessScenarioStage: C_Scenario.GetInfo() inactive.")
@@ -1355,9 +1355,9 @@ function WoWPro.ProcessScenarioStage(flag)
     WoWPro.Scenario.numStages = numStages
     WoWPro.Scenario.completed = completed
 
-    WoWPro:dbp("name='%s', currentStage=%s, numStages=%s, flags=%s, x=%s, y=%s, completed=%s, xp=%s, money=%s, scenarioType=%s = C_Scenario.GetInfo()",
-               name, tostring(currentStage), tostring(numStages), tostring(flags), tostring(x), tostring(y), tostring(completed), tostring(xp), tostring(money),
-               tostring(scenarioType))
+    WoWPro:print("name='%s', currentStage=%s, numStages=%s, flags=%s, x=%s, y=%s, completed=%s, xp=%s, money=%s, scenarioType=%s = C_Scenario.GetInfo()",
+                 name, tostring(currentStage), tostring(numStages), tostring(flags), tostring(x), tostring(y), tostring(completed), tostring(xp), tostring(money),
+                 tostring(scenarioType))
     local stageName, stageDescription, numCriteria = C_Scenario.GetStepInfo();
     WoWPro.Scenario.stageName = stageName
     WoWPro.Scenario.stageDescription = stageDescription
@@ -1388,22 +1388,24 @@ local function shallowcopy(orig)
 end
 
 function WoWPro.ProcessScenarioCriteria(punt)
-    WoWPro:dbp("WoWPro.ProcessScenarioCriteria(%s)", tostring(punt))
+    WoWPro:print("WoWPro.ProcessScenarioCriteria(%s)", tostring(punt))
     if not WoWPro.Scenario then
-        WoWPro:dbp("WoWPro.ProcessScenarioCriteria(): No WoWPro.Scenario active.  Calling WoWPro.ProcessScenarioStage().")
+        WoWPro:print("WoWPro.ProcessScenarioCriteria(): No WoWPro.Scenario active.  Calling WoWPro.ProcessScenarioStage().")
         WoWPro.ProcessScenarioStage("ProcessScenarioCriteria_noScenario")
         return
     end
     local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = C_Scenario.GetInfo()
     if WoWPro.Scenario.name ~= name or WoWPro.Scenario.currentStage ~= currentStage then
-        WoWPro:dbp("WoWPro.ProcessScenarioCriteria(): Crypto Stage update. Calling WoWPro.ProcessScenarioStage().")
+        WoWPro:print("WoWPro.ProcessScenarioCriteria(): Crypto Stage update. Calling WoWPro.ProcessScenarioStage().")
         WoWPro.ProcessScenarioStage("ProcessScenarioCriteria_updatedScenario")
+        return
     end
     -- Always create a new Criteria table in a clone of the Scenario table.
     WoWPro.Scenario = shallowcopy(WoWPro.Scenario)
     WoWPro.Scenario.Criteria = {}
     WoWPro.Scenario.Criteria.serial = ScenarioSerial
     ScenarioSerial = ScenarioSerial + 1
+    WoWPro:print("WoWPro.ProcessScenarioCriteria: Serial %d, found %d criteria",WoWPro.Scenario.Criteria.serial, WoWPro.Scenario.numCriteria)
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
         local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, _, isWeightedProgress = C_Scenario.GetCriteriaInfo(criteriaIndex);
         if (criteriaString) then
@@ -1414,9 +1416,9 @@ function WoWPro.ProcessScenarioCriteria(punt)
             WoWPro.Scenario.Criteria[criteriaIndex].totalQuantity = totalQuantity
             WoWPro.Scenario.Criteria[criteriaIndex].quantityString = quantityString
             WoWPro.Scenario.Criteria[criteriaIndex].criteriaID = criteriaID
-            WoWPro:dbp("criteriaString=%s, criteriaType=%s, completed=%s, quantity=%s, totalQuantity=%s, flags=%s, assetID=%s, quantityString=%s, criteriaID=%s, duration=%s, elapsed=%s, isWeightedProgress=%s = C_Scenario.GetCriteriaInfo(%d)",
-                       criteriaString, tostring(criteriaType), tostring(completed), tostring(quantity), tostring(totalQuantity), tostring(flags), tostring(assetID),
-                       quantityString, tostring(criteriaID), tostring(duration), tostring(elapsed), tostring(isWeightedProgress), criteriaIndex)
+            WoWPro:print("criteriaString=%s, criteriaType=%s, completed=%s, quantity=%s, totalQuantity=%s, flags=%s, assetID=%s, quantityString=%s, criteriaID=%s, duration=%s, elapsed=%s, isWeightedProgress=%s = C_Scenario.GetCriteriaInfo(%d)",
+                         criteriaString, tostring(criteriaType), tostring(completed), tostring(quantity), tostring(totalQuantity), tostring(flags), tostring(assetID),
+                         quantityString, tostring(criteriaID), tostring(duration), tostring(elapsed), tostring(isWeightedProgress), criteriaIndex)
         end
     end
     if not punt then
