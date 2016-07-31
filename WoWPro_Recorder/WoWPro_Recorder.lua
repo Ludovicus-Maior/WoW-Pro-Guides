@@ -399,9 +399,11 @@ function WoWPro.Recorder:RowUpdate(offset)
 			{text = "Move Up", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == 1 then return end
-				for tag,_ in pairs(WoWPro.Tags) do 
-					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
-					table.insert(WoWPro[tag], pos-1, WoWPro[tag][pos])
+				for tag,_ in pairs(WoWPro.Tags) do
+				    local a = WoWPro[tag][pos]
+				    local b = WoWPro[tag][pos-1]
+				    WoWPro[tag][pos] = b
+				    WoWPro[tag][pos+1] = a
 				end
 				for tag,_ in pairs(WoWPro.Tags) do 
 					table.remove(WoWPro[tag], pos+1)
@@ -414,11 +416,10 @@ function WoWPro.Recorder:RowUpdate(offset)
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == WoWPro.stepcount then return end
 				for tag,_ in pairs(WoWPro.Tags) do 
-					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
-					table.insert(WoWPro[tag], pos+2, WoWPro[tag][pos])
-				end
-				for tag,_ in pairs(WoWPro.Tags) do 
-					table.remove(WoWPro[tag], pos)
+				    local a = WoWPro[tag][pos]
+				    local b = WoWPro[tag][pos+1]
+				    WoWPro[tag][pos] = b
+				    WoWPro[tag][pos+1] = a
 				end
 				WoWPro.Recorder.SelectedStep = pos+1
 				WoWPro.Recorder:CheckpointCurrentGuide("MoveDown")
@@ -566,6 +567,13 @@ end
 function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	local GID = WoWProDB.char.currentguide
 
+    local function quoted(str)
+        if str == nil then
+            return "nil"
+        else
+            return "'"..tostring(str).."'"
+        end
+    end
 	local header = "local guide = WoWPro:RegisterGuide('"
 		..GID.."', '"
 		..WoWPro.Guides[GID].guidetype.."', '"
@@ -575,8 +583,8 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 		.."WoWPro:GuideLevels(guide,"
 		..WoWPro.Guides[GID].startlevel..", "
 		..WoWPro.Guides[GID].endlevel..")\n"
-		.."WoWPro:GuideNextGuide(guide, '"
-		..WoWPro.Guides[GID].nextGID.."')\n"
+		.."WoWPro:GuideNextGuide(guide, "
+		..quoted(WoWPro.Guides[GID].nextGID)..")\n"
 		.."WoWPro:GuideSteps(guide, function()\nreturn [[\n"
 		
 	local sequence = {}
