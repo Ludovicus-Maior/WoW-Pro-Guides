@@ -660,7 +660,7 @@ function WoWPro:RemoveMapPoint()
 end
 
 function  WoWPro.CheckHBDData(force)
-    local map, pizo = HBD:GetPlayerZonePosition()
+    local x, y, map, pizo, mapFile, isMicroDungeon = HBD:GetPlayerZonePosition()
     if not (map and pizo) then
         WoWPro:dbp("CheckHBDData(): No player position yet!")
         -- We are not mapped yet.
@@ -692,7 +692,7 @@ end
 function WoWPro:LogLocation()
     local x, y, mapID, level, mapFile, isMicroDungeon = HBD:GetPlayerZonePosition()
 
-    if not (map and level) then
+    if not (mapID and level) then
         WoWPro:print("Player map and floor unknown")
     else
         WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", map, pizo, x*100 , y*100, GetZoneText(), string.trim(GetSubZoneText()))
