@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2016-07-31 01:11
+-- Who: tubera
+-- Log:  Fell Moss Corruption. Fix note A Priestess of the Moon.
+
+-- URL: http://wow-pro.com/node/3204/revisions/27447/view
 -- Date: 2016-06-25 22:13
 -- Who: Linkslegend5
 -- Log: Changed points where a person would be a level without heirlooms.
@@ -185,51 +190,11 @@ C Fel Moss Corruption|QID|28714|S|M|36.38,78.29|N|Kill and loot Grells.|
 C Demonic Thieves|QID|28715|M|36.29,79.38|N|Collect Meltihar's Stolen Bags from the ground.|
 C Fel Moss Corruption|QID|28714|US|M|36.38,78.29|N|Finish killing Grells for Fel Moss.|
 
-T Fel Moss Corruption|QID|28714|M|46.30,73.50|N|To Ilthalaine.|
 T Demonic Thieves|QID|28715|M|45.95,72.88|N|To Melithar Staghelm.|
+T Fel Moss Corruption|QID|28714|M|46.30,73.50|N|To Ilthalaine.|
 L Level 3|QID|28715|LVL|3|N|You should be around level 3 by this point.|
 
-A Etched Sigil|QID|3117|PRE|28714|C|Hunter|M|45.95,72.88|N|From Melithar Staghelm.|R|Night Elf|
-A Verdant Sigil|QID|3120|PRE|28714|C|Druid|M|45.95,72.88|N|From Melithar Staghelm.|R|Night Elf|
-A Forbidden Sigil|QID|26841|PRE|28714|C|Mage|M|45.95,72.88|N|From Melithar Staghelm.|R|Night Elf|
-A Simple Sigil|QID|3116|PRE|28714|C|Warrior|M|45.95,72.88|N|From Melithar Staghelm.|R|Night Elf|
-A Hallowed Sigil|QID|3119|PRE|28714|C|Priest|M|45.95,72.88|N|From Melithar Staghelm.|R|Night Elf|
-A Encrypted Sigil|QID|3118|PRE|28714|C|Rogue|M|45.95,72.88|N|From Melithar Staghelm.|R|Night Elf|
-A Calligraphed Sigil|QID|31168|PRE|28714|C|Monk|M|45.95,72.88|N|From Melithar Staghelm.|R|Night Elf|
-
-T Etched Sigil|QID|3117|M|47.97,61.62|C|Hunter|N|To Ayanna Everstride.|R|Night Elf|
-T Verdant Sigil|QID|3120|C|Druid|M|46.59,56.62|N|To Mardant Strongoak.|R|Night Elf|
-T Forbidden Sigil|QID|26841|C|Mage|M|49.81,61.80|N|To Rhyanda.|R|Night Elf|
-T Simple Sigil|QID|3116|C|Warrior|M|47.80,61.80|N|To Alyissia.|R|Night Elf|
-T Hallowed Sigil|QID|3119|C|Priest|M|49.52,61.18|N|To Shanda.|R|Night Elf|
-T Encrypted Sigil|QID|3118|C|Rogue|M|47.92,62.05|N|To Frahun Shadewhisper.|R|Night Elf|
-T Calligraphed Sigil|QID|31168|C|Monk|M|50.07,62.93|N|To Laoxi.|R|Night Elf|
-
-A A Woodsman's Training|QID|26947|PRE|3117|C|Hunter|M|47.97,61.62|N|From Ayanna Everstride.|R|Night Elf|
-A Moonfire|QID|26948|PRE|3120|C|Druid|M|46.59,56.62|N|From Mardant Strongoak.|R|Night Elf|
-A Frost Nova|QID|26940|PRE|26841|C|Mage|M|49.81,61.80|N|From Rhyanda.|R|Night Elf|
-A Learning New Techniques|QID|26945|PRE|3116|C|Warrior|M|49.02,52.68|N|From Alyissia.|R|Night Elf|
-A Learning the Word|QID|26949|PRE|3119|C|Priest|M|49.52,61.18|N|From Shanda.|R|Night Elf|
-A A Rogue's Advantage|QID|26946|PRE|3118|C|Rogue|M|47.92,62.05|N|From Frahun Shadewhisper.|R|Night Elf|
-A The Art of the Monk|QID|31169|PRE|31168|C|Monk|M|50.07,62.93|N|From Laoxi.|R|Night Elf|
-
-C A Woodsman's Training|QID|26947|C|Hunter|M|48.94,66.58|N|You automatically learn Steady Shot. Practice it on the Training Dummy outside.|R|Night Elf|
-C Moonfire|QID|26948|C|Druid|M|48.94,66.58|N|You automatically learn Moonfire. Practice it on the Training Dummy outside.|R|Night Elf|
-C Frost Nova|QID|26940|C|Mage|M|48.94,66.58|N|You automatically learn Frost Nova. Practice it on the Training Dummy outside.|R|Night Elf|
-C Learning New Techniques|QID|26945|C|Warrior|M|48.94,66.58|N|You automatically learn Charge. Practice it on the Training Dummy outside.|R|Night Elf|
-C Learning the Word|QID|26949|C|Priest|M|48.94,66.58|N|You automatically learn Shadow Word: Pain. Practice it on the Training Dummy outside.|R|Night Elf|
-C A Rogue's Advantage|QID|26946|C|Rogue|M|48.94,66.58|N|You automatically learn Eviscerate. Practice it on Training Dummy outside.|R|Night Elf|
-C The Art of the Monk|QID|31169|C|Monk|M|48.94,66.58|N|You automatically learn Tiger Palm. Practice it on the Training Dummy outside.|R|Night Elf|
-
-T A Woodsman's Training|QID|26947|C|Hunter|M|47.97,61.62|N|To Ayanna Everstride.|R|Night Elf|
-T Moonfire|QID|26948|C|Druid|M|46.59,56.62|N|To Mardant Strongoak.|R|Night Elf|
-T Frost Nova|QID|26940|C|Mage|M|49.81,61.80|N|To Rhyanda.|R|Night Elf|
-T Learning New Techniques|QID|26945|C|Warrior|M|47.80,61.80|N|To Alyissia.|R|Night Elf|
-T Learning the Word|QID|26949|C|Priest|M|49.52,61.18|N|To Shanda.|R|Night Elf|
-T A Rogue's Advantage|QID|26946|C|Rogue|M|47.92,62.05|N|To Frahun Shadewhisper.|R|Night Elf|
-T The Art of the Monk|QID|31169|C|Monk|M|50.07,62.93|N|To Laoxi.|R|Night Elf|
-
-A Priestess of the Moon|QID|28723|N|From your trainer.|R|Night Elf|
+A Priestess of the Moon|QID|28723|N|From Ilthalaine.|R|Night Elf|
 T Priestess of the Moon|QID|28723|M|42.50,50.49|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|R|Night Elf|
 
 A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|N|From Dentaria Silverglade.|R|Night Elf|

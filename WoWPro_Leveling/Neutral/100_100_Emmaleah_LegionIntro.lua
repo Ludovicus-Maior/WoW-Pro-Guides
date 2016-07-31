@@ -4,8 +4,8 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3659
--- Date: 2016-07-30 20:57
--- Who: Ludovicus
+-- Date: 2016-07-31 02:00
+-- Who: Emmaleah
 -- Log: Added missing M tag
 
 -- URL: http://wow-pro.com/node/3659/revisions/27473/view
@@ -25,7 +25,7 @@ T The Legion Returns|QID|43926|M|46.01,13.94|Z|Durotar|N|To Holgar Stormaxe.|FAC
 A To Be Prepared|QID|44281|M|46.01,13.94|Z|Durotar|N|From Holgar Stormaxe.|FACTION|HORDE|PRE|43926|
 C To Be Prepared|QID|44281|NC|QO|3|M|47.76,13.46|Z|Durotar|N|Click on the food to eat your last meal.|FACTION|HORDE|PRE|43926|
 C To Be Prepared|QID|44281|NC|QO|1|M|49.65,14.20|Z|Durotar|N|Click on the keg to polish your armor.|PRE|43926|
-l Optional - consumables|QID|44281|NC|M|50.11,13.77|Z|Durotar|N|Click on the cauldron to pick up 10 +food/+mana/+fdamage items. (optional).|L|141295|FACTION|HORDE|ACTIVE|44281|
+l Optional - consumables|QID|44281|NC|M|50.11,13.77|Z|Durotar|N|Click on the cauldren to pick up 10 +food/+mana/+fdamage items. (optional).|L|141295|FACTION|HORDE|ACTIVE|44281|
 C To Be Prepared|QID|44281|NC|QO|2|M|51.37,12.26|Z|Durotar|N|Click on the sun sphere to empower your weapon.|FACTION|HORDE|PRE|43926|
 C To Be Prepared|QID|44281|CHAT|QO|4|M|52.50,11.04|Z|Durotar|N|Challenge on of the NPC's standing around here to a duel.|FACTION|HORDE|PRE|43926|
 T To Be Prepared|QID|44281|M|55.66,11.05|Z|Durotar|N|To Stone Guard Mukar.|FACTION|HORDE|PRE|43926|
@@ -62,8 +62,8 @@ T Demons Among Us|QID|40607|M|45.67,15.93|Z|Durotar|N|To Lady Sylvanas Windrunne
 A Keep Your Friends Close|QID|40605|M|45.67,15.93|Z|Durotar|N|From Lady Sylvanas Windrunner.|FACTION|HORDE|PRE|40607|
 
 T Keep Your Friends Close|QID|40605|M|53.09,57.35|Z|Orgrimmar|N|Fly up to the plateau area behind where the flight master is and talk to Elthyn Da'rai.|FACTION|HORDE|PRE|40607|
-A In the Blink of an Eye|QID|44663|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|40605|
-C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|PRE|40605|
+A In the Blink of an Eye|QID|44663|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
 ;Alliance
 A The Legion Returns|QID|40519|N|From UI Alert.|FACTION|ALLIANCE|
@@ -75,7 +75,7 @@ C To Be Prepared|QID|42782|QO|3|M|29.63,30.02|Z|Stormwind City|N|Last meal eaten
 C To Be Prepared|QID|42782|QO|4|M|33.74,33.27|Z|Stormwind City|N|Pick one of the NPC's in the area to duel with.|FACTION|ALLIANCE|PRE|40519|
 T To Be Prepared|QID|42782|M|18.93,26.51|Z|Stormwind City|N|To Knight Dameron.|FACTION|ALLIANCE|PRE|40519|
 A The Battle for Broken Shore|QID|42740|M|18.93,26.51|Z|Stormwind City|N|From Knight Dameron.|FACTION|ALLIANCE|PRE|40782|
-C The Battle for Broken Shore|QID|42740|QO|1|M|0.00,0.00|Z|Dalaran|N|Talk to xxx to take the shipto the Broken Shore|FACTION|ALLIANCE|PRE|40782|
+C The Battle for Broken Shore|QID|42740|QO|1|M|0.00,0.00|Z|Dalaran|N|Talk to xxx to take the ship to the Broken Shore|FACTION|ALLIANCE|PRE|40782|
 
 C The Broken Shore|SO|1|Z|Broken Shore|N|Travel to the Broken Shore.|FACTION|ALLIANCE|
 C Storm The Beach|SO|2|Z|Broken Shore|N|Destroy all demons and structures on the beach.|FACTION|ALLIANCE|
@@ -103,13 +103,253 @@ C Demons Among Us|QID|40593|QO|3|M|82.40,28.03|Z|Stormwind City|N|Destroy the Co
 T Demons Among Us|QID|40593|M|85.76,31.75|Z|Stormwind City|N|To Anduin Wrynn.|FACTION|ALLIANCE|PRE|40517|
 A Illidari Allies|QID|44120|M|85.76,31.75|Z|Stormwind City|N|From Anduin Wrynn.|FACTION|ALLIANCE|PRE|40593|
 T Illidari Allies|QID|44120|M|40.26,77.70|Z|Stormwind City|N|To Elerion Bladedancer.|FACTION|ALLIANCE|PRE|40593|
-A In the Blink of an Eye|QID|44663|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|PRE|44120|
-C In the Blink of an Eye|QID|44663|QO|1|M|55.16,73.99|Z|Deadwind Pass|N|Take the Portal to Dalaran|FACTION|ALLIANCE|PRE|44120|
+A In the Blink of an Eye|QID|44663|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+C In the Blink of an Eye|QID|44663|QO|1|M|55.16,73.99|Z|Deadwind Pass|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 
 ;both
-C In the Blink of an Eye|QID|44663|CHAT|QO|2|M|49.84,48.28|Z|Dalaran|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663|M|57.59,45.60|Z|Dalaran|N|To Emissary Auldbridge.|
-
+C In the Blink of an Eye|QID|44663|CHAT|QO|2|M|49.84,48.28|Z|Dalaran|NC|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|QID|44663|M|57.12,45.84|Z|Dalaran|N|To Emissary Auldbridge.|
+;Warlock
+A The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran|N|From Ritssyn Flamescowl.|C|Warlock|PRE|44663|
+C The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran|NC|N|Follow Ritssyn through the portal.|C|Warlock|PRE|44663|
+T The Sixth|QID|40716|M|57.87,60.03|Z|Dalaran|N|To Ritssyn Flamescowl.|C|Warlock|PRE|44663|
+A The New Blood|QID|40729|M|57.87,60.03|Z|Dalaran|N|From Ritssyn Flamescowl.|C|Warlock|PRE|44716|
+C The New Blood|QID|40729|NC|QO|1|M|58.36,68.06|Z|Dalaran|N|Wait a minute or so until the gate is fully formed and then click on the gate to perform the ritual and then wait until you are transported to a solo scenario.|C|Warlock|PRE|44716|
+C Far From Home|NC|SO|1|Z|Dreadscar Rift|N|Listen to Ritssyn.|C|Warlock|ACTIVE|40729|
+C The Dread Warden|SO|2;1|M|34.99,63.12|Z|Dreadscar Rift|N|Use the extra action button to Enslave the jailer Beshtal thus freeing yourself from his cage, then defeat him with Ritssyn's aid.|ACTIVE|40729|C|Warlock|
+C Escape the Jailer|SO|2;2|M|33.96,59.25|Z|Dreadscar Rift|N|Now you fight him.|ACTIVE|40729|C|Warlock|
+C Jubeka Shadowbreaker freed|SO|3;1|M|24.37,59.97|Z|Dreadscar Rift|N|On the way up to free Jubeka, stop and talk to the demon Calydus, let him run ahead and he will distract some of the other demons for you.|ACTIVE|40729|C|Warlock|
+C Shinfel Blightsworn freed|SO|3;3|M|41.55,66.05|Z|Dreadscar Rift|N|Shinfel Blightsworn freed|ACTIVE|40729|C|Warlock|
+C Zinnin Smythe Freed|SO|3;2|M|38.35,74.34|Z|Dreadscar Rift|N|Zinnin Smythe Freed|ACTIVE|40729|C|Warlock|
+C Meet with Calydus|SO|4;1|M|42.61,40.39|Z|Dreadscar Rift|N|Follow Calydus, click on the crystals to lower the barrior (after killing the jailers guarding them).|ACTIVE|40729|C|Warlock|
+C Tome of Blighted Implements|SO|5;1|M|56.21,36.34|Z|Dreadscar Rift|N|Follow Calydus to the archives, pick up the 'felbound tome'.|ACTIVE|40729|C|Warlock|
+C The New Blood|QID|40729|QO|2|M|45.93,64.68|Z|Dreadscar Rift|N|Jagganoth appears and throws you out of the area, follow Calydus to escape from Dreadscar Rift.|PRE|40716|C|Warlock|
+T The New Blood|QID|40729|M|55.87,65.36|Z|Dalaran|N|To Calydus.|PRE|40716|C|Warlock|
+A The Tome of Blighted Implements|QID|40684|M|55.87,65.36|Z|Dalaran|N|From Calydus.|PRE|40729|C|Warlock|
+C The Tome of Blighted Implements|QID|40684|QO|1|M|55.87,65.36|Z|Dalaran|N|Chose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|PRE|40729|C|Warlock|
+T The Tome of Blighted Implements|QID|40684|M|55.87,65.36|Z|Dalaran|N|To Calydus.|PRE|40729|C|Warlock|
+A Artifact Specific Quest|QID|43100;40495;42128;42128|M|55.87,65.36|Z|Dalaran|N|From Calydus.|PRE|40684|C|Warlock|
+;DEMONOLOGY
+A Ritual Reagents|QID|42128|M|55.82,65.24|Z|Dalaran|N|From Calydus.|C|Warlock|PRE|40684|
+C Ritual Reagents|QID|42128|NC|QO|1|M|33.87,39.56|Z|Dalaran|N|Grave Dust is found in the graveyard northeast of The Violet Citadel.|C|Warlock|PRE|40684|
+C Ritual Reagents|QID|42128|NC|QO|2|M|38.30,25.60|Z|Dalaran|N|The Oil can be found on the counter in 'Like Clockwork' (engineer's building)|C|Warlock|PRE|40684|
+C Ritual Reagents|QID|42128|QO|3|M|48.57,38.19|Z|Dalaran|N|Aged Snowplum Brandy can be found on the bar in Legerdemain Lounge.  The Druken Mage who abandoned it is briefly, quite grumpy with you for swiping it.|C|Warlock|PRE|40684|
+C Ritual Reagents|QID|42128|NC|QO|4|M|59.68,38.64|Z|Dalaran|N|The 'Docile Stag' can be found in 'Magical Menagerie', Either option works to acquire the blood.|C|Warlock|PRE|40684|
+T Ritual Reagents|QID|42128|M|54.41,46.74|Z|Dalaran|N|To Calydus, Inside the Violet Gate.|C|Warlock|PRE|40684|
+A Looking into the Darkness|QID|42168|M|54.41,46.74|Z|Dalaran|N|From Calydus.|C|Warlock|PRE|42128|
+C Looking into the Darkness|QID|42168|NC|QO|1|M|53.65,47.34|Z|Dalaran|N|Step into the middle of the circle and use your 'Extra Action Button'.|C|Warlock|PRE|42128|
+C Looking into the Darkness|QID|42168|CHAT|QO|2|M|53.73,47.30|Z|Dalaran|N|Chat with the Thal'Kiel.|C|Warlock|PRE|42128|
+T Looking into the Darkness|QID|42168|M|54.38,46.81|Z|Dalaran|N|To Calydus.|C|Warlock|PRE|42128|
+A Dark Whispers|QID|42125|M|54.38,46.81|Z|Dalaran|N|From Calydus.|C|Warlock|PRE|42168|
+C Dark Whispers|QID|42125|NC|QO|1|M|53.76,47.30|Z|Dalaran|N|Enter Calydus's Demonic Portal.|C|Warlock|PRE|42168|
+C Searching the Hold|SO|1|Z|Suramar|N|The skull should be within Felsoul Hold. Make your way down the path and search for it.|C|Warlock|ACTIVE|42125|
+C Defeat the Felborn Overfiend|SO|2;1|M|27.60,64.14|Z|Suramar|N|Defeat the Felborn Overfiend.|C|Warlock|ACTIVE|42125|
+C Mephistroth's Barrier crossed|SO|3;1|M|24.64,62.06|Z|Suramar|N|Mephistroth has escaped with the skull. Use your demonic gateway to cross the trap.|C|Warlock|ACTIVE|42125|
+C Defeat waves of enemies|SO|4;2|M|29.79,60.73|Z|Suramar|N|Defeat 3 waves of enemies.|C|Warlock|ACTIVE|42125|
+C Defeat the leaders of the attackers|SO|4;1|M|30.49,60.94|Z|Suramar|N|Defeat the leaders of the attackers.|C|Warlock|ACTIVE|42125|
+C Interrupted Mephistroth's ritual|SO|5;1|M|30.97,63.13|Z|Suramar|N|Clear the way to Mephistroth's ritual and then interrupt it.|C|Warlock|ACTIVE|42125|
+C Mephistroth Defeated|SO|5;2|M|31.21,65.62|Z|Suramar|N|Defeat Mephistroth|C|Warlock|ACTIVE|42125|
+C Retrieve the skull|SO|6;1|M|31.10,65.92|Z|Suramar|N|Retrieve the skull|C|Warlock|ACTIVE|42125|
+C Dark Whispers|QID|42125|QO|2|M|31.10,65.92|Z|Suramar|N|Pick up the Skull of the Man'ari|C|Warlock|PRE|42168|
+C Portal of Thal'kiel used|SO|7;1|M|31.33,65.88|Z|Suramar|N|Portal of Thal'kiel used|C|Warlock|ACTIVE|42125|
+T Dark Whispers|QID|42125|M|55.66,65.30|N|To Calydus.|C|Warlock|PRE|42168|
+;AFFLICTION
+;A Ulthalesh, the Deadwind Harvester|QID|40495|M|55.70,65.40|Z|Dalaran|N|From Calydus.|C|Warlock|PRE|40684|
+C Ulthalesh, the Deadwind Harvester|QID|40495|NC|QO|1|M|49.44,47.54|Z|Dalaran|N|(Optional) Take the Dalaran portal to Karazhan.|C|Warlock|PRE|40684|
+C Ulthalesh, the Deadwind Harvester|QID|40495|NC|QO|2|M|77.45,36.06|Z|Duskwood|N|Investigate Manor Mistmantle in Duskwood|C|Warlock|PRE|40684|
+C Ulthalesh, the Deadwind Harvester|QID|40495|QO|3|M|77.42,36.28|Z|Duskwood|CHAT|N|Any of the chat options will convince him.|C|Warlock|PRE|40684|
+T Ulthalesh, the Deadwind Harvester|QID|40495|M|77.42,36.28|Z|Duskwood|N|To Revil Kost.|C|Warlock|PRE|40684|
+A Following the Curse|QID|40588|M|77.42,36.28|Z|Duskwood|N|From Revil Kost.|C|Warlock|PRE|40495|
+C Following the Curse|QID|40588|QO|1|M|50.78,40.82|Z|Deadwind Pass|N|Follow Revil to Ariden's Camp. There are 3 small skirmishes in route.|C|Warlock|PRE|40495|
+T Following the Curse|QID|40588|M|52.41,34.40|Z|Deadwind Pass|N|To Revil Kost.|C|Warlock|PRE|40495|
+A Disturbing the Past|QID|40604|M|52.41,34.40|Z|Deadwind Pass|N|From Revil Kost.|C|Warlock|PRE|40588|
+C Disturbing the Past|QID|40604|NC|QO|1|M|52.30,33.94|Z|Deadwind Pass|N|You can investigate all the glowing things, you only have to investigate this 'battered journal'.|C|Warlock|PRE|40588|
+C Disturbing the Past|QID|40604|M|52.31,33.79|Z|Deadwind Pass|N|To a Battered Journal.|C|Warlock|PRE|40588|
+A To Point the Way|QID|40606|M|52.31,33.79|Z|Deadwind Pass|N|From a Battered Journal.|C|Warlock|PRE|40604|
+C To Point the Way|QID|40606|NC|QO|1|M|52.16,34.04|Z|Deadwind Pass|N|Pick up Ariden's Compass|C|Warlock|PRE|40604|
+T To Point the Way|QID|40606|M|52.42,34.41|Z|Deadwind Pass|N|To Revil Kost.|C|Warlock|PRE|40604|
+A The Fate of Deadwind|QID|40611|M|52.42,34.41|Z|Deadwind Pass|N|From Revil Kost.|C|Warlock|PRE|40606|
+C The Fate of Deadwind|QID|40611|NC|QO|1|M|35.52,35.43|Z|Deadwind Pass|N|Use your extra action button, wait for the dialog to conclude.|C|Warlock|PRE|40606|
+C The Fate of Deadwind|QID|40611|NC|QO|2|M|40.76,78.29|Z|Deadwind Pass|N|Use your extra action button, wait for the dialog to conclude.|C|Warlock|PRE|40606|
+C The Fate of Deadwind|QID|40611|NC|QO|3|M|46.87,62.40|Z|Deadwind Pass|N|Use your extra action button, wait for the dialog to conclude.|C|Warlock|PRE|40606|
+T The Fate of Deadwind|QID|40611|M|49.47,74.75|Z|Deadwind Pass|N|To Revil Kost.|C|Warlock|PRE|40606|
+A The Dark Riders|QID|40623|M|49.47,74.75|Z|Deadwind Pass|N|From Revil Kost.|C|Warlock|PRE|40611|
+R Catacombs|QID|40934|M|46.63,69.10|Z|Deadwind Pass|CC|N|Make your way into the Dark Riders' catacombs beneath Karazhan.|C|Warlock|ACTIVE|40623|
+C Karazhan Catacombs infiltrated|SO|1;1|M|72.03,75.24|Z|Deadwind Pass|N|Karazhan Catacombs infiltrated|C|Warlock|ACTIVE|40623|
+C Grasp of the Damned|NC|SO|2;1|Z|Deadwind Pass|N|Use Demonic Gateway to cross Ariden's spirit barrier.|S|C|Warlock|ACTIVE|40623|
+C Conservator Defeated|NC|SO|3;1|M|57.03,68.81|Z|Deadwind Pass|N|Defeat the Conservator.|C|Warlock|ACTIVE|40623|
+C Ulthalesh found|SO|4;1|M|48.47,67.84|Z|Deadwind Pass|NC|N|Attempt to pick up Ulthalesh.|C|Warlock|ACTIVE|40623|
+C Ariden followed|SO|5;1|M|68.38,37.58|Z|Deadwind Pass|N|Follow Ariden.|C|Warlock|ACTIVE|40623|
+C Ariden defeated|SO|6;1|M|68.98,27.77|Z|Deadwind Pass|N|Defeat Ariden, don't ignore his imps.|C|Warlock|ACTIVE|40623|
+C Ulthalesh, the Deadwind Harvester claimed|SO|7;1|M|68.62,26.02|Z|Deadwind Pass|N|Ulthalesh, the Deadwind Harvester claimed|C|Warlock|ACTIVE|40623|
+C The Dark Riders|QID|40623|NC|QO|2|M|68.62,26.02|Z|Deadwind Pass|N|Pick up Ulthalesh.|C|Warlock|PRE|40611|
+T The Dark Riders|QID|40623|M|68.21,27.38|Z|Deadwind Pass|N|To Revil Kost.|C|Warlock|PRE|40611|
+A The Power Possessed|QID|40712|M|68.21,27.38|Z|Deadwind Pass|N|From Revil Kost.|C|Warlock|PRE|40623|
+U Return to Dalaran|QID|40712|M|68.21,27.38|Z|Deadwind Pass|U|140192|N|Use your Dalaran Hearthstone to return.  You will find Revil in the Underbelly.|
+T The Power Possessed|QID|40712|M|55.85,65.40|N|To Calydus.|C|Warlock|PRE|40623|
+;DESTRUCTION
+;A Finding the Scepter|QID|43100|M|55.87,65.36|Z|Dalaran|N|From Calydus.|PRE|40684|C|Warlock|
+C Finding the Scepter|QID|43100|QO|1|M|49.44,47.54|Z|Dalaran|NC|N|(Optional) Take the Portal to Dalaran Crater. Its a lot of falling damage if you don't have a way to mitigate.|PRE|40684|C|Warlock|
+C Finding the Scepter|QID|43100|QO|2|M|67.02,73.87|Z|Western Plaguelands|NC|N|Go to Caer Darrow|PRE|40684|C|Warlock|
+C Finding the Scepter|QID|43100|QO|3|M|69.16,79.65|Z|Western Plaguelands|NC|N|Find information on the Shadow Council|PRE|40684|C|Warlock|
+C Finding the Scepter|QID|43100|QO|4|M|69.89,74.35|Z|Western Plaguelands|N|Take the Book of Medivh from Jergosh|PRE|40684|C|Warlock|
+C Finding the Scepter|QID|43100|QO|5|M|69.16,79.16|Z|Western Plaguelands|NC|N|Speak with Calydus|PRE|40684|C|Warlock|
+T Finding the Scepter|QID|43100|M|69.16,79.16|Z|Western Plaguelands|N|To Calydus.|PRE|40684|C|Warlock|
+A An Eye for a Scepter|QID|43153|M|69.16,79.16|Z|Western Plaguelands|N|From Calydus.|PRE|43100|C|Warlock|
+C An Eye for a Scepter|QID|43153|NC|QO|1|M|0.00,0.00|Z|Western Plaguelands|N|Take the Portal to Tol Barad||PRE|43100|C|Warlock|
+C Where Are They?|SO|1|Z|Tol Barad|N|The Shadow Council is most likely looking for a prisoner. The cell blocks are a good choice to start.|ACTIVE|43153|C|Warlock|
+C Speak with Allaris and Nagaz.|SO|2;1|M|0.00,0.00|Z|Tol Barad|N|Speak with Allaris and Nagaz.|ACTIVE|43153|C|Warlock|
+C Find Tyranis in D-Block|SO|3;1|M|0.00,0.00|Z|Tol Barad|N|Find Tyranis in D-Block|C|Warlock|ACTIVE|43153|C|Warlock|
+C Break Tyranis' chain or leave him|SO|4;1|M|0.00,0.00|Z|Tol Barad|NC|N|Let your self be pulled in by the force, but aim for the cell wall rather than the doorway. When you get in range you can click his chain.|ACTIVE|43153|C|Warlock|
+C Continue searching the rest of the cell block.|SO|5;1|M|0.00,0.00|Z|Tol Barad|N|Continue searching the rest of the cell block.|ACTIVE|43153|C|Warlock|
+C Follow then kill Nagaz.|SO|6;1|M|0.00,0.00|Z|Tol Barad|N|Follow, then kill Nagaz when he turns hostile.|ACTIVE|43153|C|Warlock|
+C Continue searching D-Block.|SO|7;1|M|0.00,0.00|Z|Tol Barad|N|Continue searching D-Block.|ACTIVE|43153|C|Warlock|
+C Find the prison manifest.|SO|8;1|M|0.00,0.00|Z|Tol Barad|N|Follow Allaris and finally find the prison manifest.|ACTIVE|43153|C|Warlock|
+C Enter Baradin Hold|SO|9;1|M|0.00,0.00|Z|Tol Barad|N|Enter Baradin Hold.|ACTIVE|43153|C|Warlock|
+C Kill Occul'tharon and find the Eye of Dalaran.|SO|10;1|M|49.15,22.51|Z|Tol Barad|N|Kill Occul'tharon and find the Eye of Dalaran.|ACTIVE|43153|C|Warlock|
+C An Eye for a Scepter|QID|43153|QO|2|M|49.15,22.51|Z|Tol Barad|N|Find the Eye of Dalaran.|PRE|43100|C|Warlock|
+C An Eye for a Scepter|QID|43153|QO|3|M|74.06,42.48|Z|Tol Barad|NC|N|Return to Calydus in Dalaran.|PRE|43100|C|Warlock|
+T An Eye for a Scepter|QID|43153|M|74.06,42.48|Z|Dalaran|N|To Calydus.|PRE|43100|C|Warlock|
+A Ritual Ruination|QID|43254|M|74.06,42.48|Z|Dalaran|N|From Calydus.|PRE|43153|C|Warlock|
+C Ritual Ruination|QID|43254|NC|QO|1|M|74.65,42.67|Z|Dalaran|N|Take the Fel Bat to the Broken Shore.|PRE|43153|C|Warlock|
+C Ritual Ruination|QID|43254|NC|QO|2|M|60.57,25.01|Z|Broken Shore|N|Listen to Gul'dan.|PRE|43153|C|Warlock|
+C Ritual Ruination|QID|43254|QO|3|M|59.72,25.71|Z|Broken Shore|N|Slay Allaris Nassarin.|PRE|43153|C|Warlock|
+C Ritual Ruination|QID|43254|NC|QO|4|M|60.16,25.41|Z|Broken Shore|N|Take the Scepter of Sargeras.|PRE|43153|C|Warlock|
+C Ritual Ruination|QID|43254|NC|QO|5|M|60.16,25.41|Z|Broken Shore|N|Click on the Legion Alter to ruin the ritual.|PRE|43153|C|Warlock|
+C Ritual Ruination|QID|43254|QO|6|M|58.95,26.81|Z|Broken Shore|N|Escape to Dalaran and meet Calydus.|PRE|43153|C|Warlock|
+T Ritual Ruination|QID|43254|M|55.86,64.99|Z|Dalaran|N|To Calydus.|PRE|43153|C|Warlock|
+;Warlock class hall
+A The Heart of the Dreadscar|QID|40731|M|55.86,64.99|Z|Dalaran|N|From Calydus.|PRE|43153|C|Warlock|
+R Into the portal|QID|40731|M|58.95,26.81|Z|Dalaran|CC|N|Into the portal to enter the solo scenario.|ACTIVE|40731|C|Warlock|
+C The Council's Vengeance|SO|1;1|M|56.18,36.02|Z|Dreadscar Rift|N|Run forward to find and defeat Jagganoth.|ACTIVE|40731|C|Warlock|
+C Heart of the Overlord|NC|SO|2;1|M|56.18,36.02|Z|Dreadscar Rift|N|Click twice to pick up the Heart of the Overlord.|ACTIVE|40731|C|Warlock|
+C Heart placed above the altar|SO|3;1|M|64.91,38.46;51.28,46.52;32.25,25.30|Z|Dreadscar Rift|CS|N|Run to the alter and place the Heart of the Overlord above it.|ACTIVE|40731|C|Warlock|
+C Command Jagganoth's armies|NC|SO|3;2|M|32.25,25.30|Z|Dreadscar Rift|N|Just wait and this step completes.|ACTIVE|40731|C|Warlock|
+C The Heart of the Dreadscar|QID|40731|NC|QO|1|M|32.25,25.30|Z|Dreadscar Rift|N|Wait, and this step will complete.|C|Warlock|
+T The Heart of the Dreadscar|QID|40731|M|37.69,31.22|Z|Dreadscar Rift|N|To Calydus.|C|Warlock|
+A Power Overwhelming|QID|40821|M|37.69,31.22|Z|Dreadscar Rift|N|From Calydus.|PRE|40731|C|Warlock|
+C Power Overwhelming|QID|40821|NC|QO|1|M|34.54,29.24|Z|Dreadscar Rift|N|Click on the Alter to empower Artifact.|PRE|40731|C|Warlock|
+T Power Overwhelming|QID|40821|M|37.64,31.18|Z|Dreadscar Rift|N|To Calydus.|PRE|40731|C|Warlock|
+A Rebuilding the Council|QID|40823|M|37.64,31.18|Z|Dreadscar Rift|N|From Calydus.|PRE|40821|C|Warlock|
+C Rebuilding the Council|QID|40823|NC|QO|1|M|31.82,56.63|Z|Dreadscar Rift|N|At least you can mount up and ride to where  you need to reserect Ritssyn. (if you are careful you can jump down).|PRE|40821|C|Warlock|
+T Rebuilding the Council|QID|40823|M|30.92,58.31|Z|Dreadscar Rift|N|To Ritssyn Flamescowl.|PRE|40821|C|Warlock|
+A The Path of the Dreadscar|QID|40824|M|30.92,58.31|Z|Dreadscar Rift|N|From Ritssyn Flamescowl.|PRE|40823|C|Warlock|
+A Zone Leadin Quest|QID|39718;39864;39731;39733|M|66.1,47.01|Z|Dreadscar Rift|N|From Dreadscar Battle Plans. Choose which zone you want to do first.  The Legion expansion is set up differantly so all are viable first zones.  The Azsuna guild will autoload when you close this guide, but you can close it and open any of the other guides.|C|Warlock|PRE|40824|C|Warlock|
+T The Path of the Dreadscar|QID|40824|M|65.69,47.86|Z|Dreadscar Rift|N|To Ritssyn Flamescowl.|PRE|40823|C|Warlock|
+C Return to Dalaran|QID|39864|QO|1|M|73.79,38.19|Z|Dreadscar Rift|N|Portal back to Dalaran|C|Warlock|
+;Priest
+A Priestly Matters|QID|40705|M|57.57,44.48|Z|Dalaran|N|From Hooded Priestess.|C|Priest|
+R Chamber of the Guardians|QID|40705|M|49.44,47.54|Z|Dalaran|N|In the middle of Dalaran.|ACTIVE|40705|C|Priest|
+C Priestly Matters|QID|40705|QO|1|M|43.75,40.05|Z|Dalaran|NC|N|(Optional) Take the Portal to the Dalaran Crater, be ready with levitate or some other way to mitigate falling damage.|C|Priest|
+C Priestly Matters|QID|40705|QO|2|M|79.09,41.06|Z|Tirisfal Glades|CHAT|N|Meet with the priest at Faol's Rest in Tirisfal Glades.|C|Priest|
+C Priestly Matters|QID|40705|QO|3|M|78.90,40.92|Z|Tirisfal Glades|NC|N|Listen to Alonsus Faol.|C|Priest|
+T Priestly Matters|QID|40705|M|78.96,41.00|Z|Tirisfal Glades|N|To Alonsus Faol.|C|Priest|
+A A Legend You Can Hold|QID|40706|M|78.96,41.00|Z|Tirisfal Glades|N|From Alonsus Faol.|C|Priest|PRE|40705|
+C A Legend You Can Hold|QID|40706|QO|1|M|78.96,41.00|NC|Z|Tirisfal Glades|N|Chose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|C|Priest|PRE|40705|
+T A Legend You Can Hold|QID|40706|M|78.96,41.00|Z|Tirisfal Glades|N|To Alonsus Faol.|C|Priest|PRE|40705|
+A Accept artifact specific quest|QID|40710;41625;41957|M|78.96,41.00|Z|Tirisfal Glades|N|From Alonsus Faol.|C|Priest|PRE|40706|
+;HOLY
+A The Vindicator's Plea|QID|41957|M|78.51,41.07|Z|Tirisfal Glades|N|From Brother Larry.|C|Priest|PRE|40706|
+T The Vindicator's Plea|QID|41957|M|37.76,36.86|Z|Dalaran|N|To Vindicator Boros.|C|Priest|PRE|40706|
+A House Call|QID|41966|M|37.76,36.86|Z|Dalaran|N|From Vindicator Boros.|C|Priest|PRE|41957|
+C House Call|QID|41966|NC|QO|1|M|36.02,36.69|Z|Dalaran|N|Use Purify to cure Barrem. After you cure him there is a bad thing to kill.|C|Priest|PRE|41957|
+T House Call|QID|41966|M|37.46,35.52|Z|Dalaran|N|To Defender Barrem.|C|Priest|PRE|41957|
+A Out of the Darkness|QID|41967|M|37.46,35.52|Z|Dalaran|N|From Defender Barrem.|C|Priest|PRE|41966|
+C Out of the Darkness|QID|41967|QO|1|M|70.71,43.93|Z|Dalaran|N|Go up to Krasus landing and hop on Lightfeather who is waiting for you.|C|Priest|PRE|41966|
+C Out of the Darkness|QID|41967|QO|2|M|34.72,33.11|Z|Dalaran|N|Kill the demon standing in front of you.|C|Priest|PRE|41966|
+C Out of the Darkness|QID|41967|QO|3|M|34.00,33.91|Z|Dalaran|N|Resurrect Alora.|C|Priest|PRE|41966|
+T Out of the Darkness|QID|41967|M|34.00,33.91|Z|Dalaran|N|To Alora.|C|Priest|PRE|41966|
+A Salvation From On High|QID|41993|M|34.00,33.91|Z|Dalaran|N|From Alora.|C|Priest|PRE|41967|
+C Salvation From On High|QID|41993|QO|1|M|33.37,33.38|N|Heal and otherwise assist Jace Darkweaver.|C|Priest|PRE|41967|
+T Salvation From On High|QID|41993|M|33.58,33.12|N|To Jace Darkweaver.|C|Priest|PRE|41967|
+A Return of the Light|QID|42074|M|33.58,33.12|N|From Jace Darkweaver.|C|Priest|PRE|41993|
+C Return of the Light|QID|42074|QO|1|M|0.00,0.00|N|Travel through the Portal on Darkstone Isle|C|Priest|PRE|41993|
+C Heal Vindicator Boros|SO|1|Z|Niskara|N|You've emerged upon a ship of the Burning Legion to find your allies have become seperated in battle. Help Vindicator Boros recover from his injuries.|ACTIVE|42074|C|PRIEST|
+C Assist Jace Darkweaver.|SO|2;1|M|71.03,73.45|Z|Dalaran|N|Heal and otherwise assist Jace Darkweaver.|ACTIVE|42074|C|PRIEST|
+C Destroy the Anchoring Crystal|SO|3;1|M|70.95,72.91|Z|Dalaran|N|Destroy the Anchoring Crystal.|ACTIVE|42074|C|PRIEST|
+C Exit the lower levels of the Legion Ship.|SO|3;2|M|70.75,81.14|Z|Dalaran|N|Exit the lower levels of the Legion Ship.ACTIVE|42074|C|PRIEST|
+C Rescue Bo'ja|SO|4;1|M|71.29,73.92|Z|Dalaran|N|Rescue Bo'ja|ACTIVE|42074|C|PRIEST|
+C Defeat Captain Naranoth|SO|5;1|M|72.85,73.61|Z|Dalaran|N|Defeat Captain Naranoth|ACTIVE|42074|C|PRIEST|
+C Defeat Lady Calindris|SO|6;1|M|62.14,61.42|Z|Dalaran|N|Assist your allies in defeating Lady Calindris|ACTIVE|42074|C|PRIEST|
+C T'uure obtained.|SO|7;1|M|65.34,59.26|Z|Dalaran|N|Pick up T'uure.|ACTIVE|42074|C|PRIEST|
+C Return of the Light|QID|42074|QO|2|M|65.34,59.26|Z|Dalaran|N|Pick up T'uure.|PRE|41993|C|PRIEST|
+C Leave Niskara|SO|7;2|M|65.53,59.99|N|Bo'ja made a portal for you, use it to Leave Niskara.|ACTIVE|42074|C|PRIEST|
+T Return of the Light|QID|42074|M|46.28,20.52|N|To Prophet Velen.|PRE|41993|C|PRIEST|
+;SHADOW
+;A Blade in Twilight|QID|40710|M|78.96,41.00|Z|Tirisfal Glades|N|From Alonsus Faol.|C|Priest|
+C Blade in Twilight|QID|40710|QO|1|M|17.62,53.55|Z|Tirisfal Glades|N|Go to the cultists' camp in Tirisfal Glades.|C|Priest|PRE|40706|
+C Find the first clue.|NC|SO|1;1|M|13.47,57.58|Z|Tirisfal Glades|N|Find the first clue in the bed of a wagon.|C|Priest|ACTIVE|40710|
+C Find the second clue.|NC|SO|1;2|M|13.20,55.48|Z|Tirisfal Glades|N|Find the second clue inside a tent.|C|Priest|ACTIVE|40710|
+C Find the third clue.|NC|SO|1;3|M|13.87,55.40|Z|Tirisfal Glades|N|Find the third clue on a crate at the lake's edge.|C|Priest|ACTIVE|40710|
+C Enter the tomb at the bottom of the lake.|SO|2;1|M|37.72,13.70;34.22,23.38|CS|Z|Tirisfal Glades|N|Enter the tomb at the bottom of the lake.|C|Priest|ACTIVE|40710|
+C Defeat the guards at the door to gain access.|SO|3;1|M|37.07,40.51|Z|Tirisfal Glades|N|Defeat the guards at the door to gain access.|C|Priest|ACTIVE|40710|
+C Enter the Tomb of Tyr.|SO|4;1|M|37.27,44.13|Z|Tirisfal Glades|N|Enter the Tomb of Tyr.|C|Priest|ACTIVE|40710|
+C Stop the dampening rituals|SO|5;1|M|41.09,53.58|Z|Tirisfal Glades|N|Cultists are dampening the holy wards of the tomb. Dispel their defenses and kill the ritualists to break the barrier.|C|Priest|ACTIVE|40710|
+C Defeat the Amassing Darkness|SO|6;1|M|37.89,51.97|Z|Tirisfal Glades|N|Defeat the Amassing Darkness|C|Priest|ACTIVE|40710|
+C Dark Passage|SO|7;1|M|56.87,74.19|Z|Tirisfal Glades|N|You can use mass dispell or kill the void tendrils some other way.|C|Priest|ACTIVE|40710|
+C Death to the Deacon|SO|8|Z|Tirisfal Glades|N|Stop the Twilight Deacon.|C|Priest|ACTIVE|40710|
+C Blade in Twilight|QID|40710|QO|2|M|59.87,74.94|Z|Tirisfal Glades|N|Use your special action button to consume Zakajz.|C|Priest|PRE|40706|
+R Return to Dalaran|QID|40710|QO|3|M|57.43,73.29|Z|Tirisfal Glades|N|Shadowlord Slaghammer has created a portal back to Dalaran for you.|C|Priest|PRE|40706|
+C Blade in Twilight|QID|40710|QO|3|M|46.25,20.92|Z|Dalaran|NC|N|You will find Alonsus and Moira beside the North Bank.|C|Priest|PRE|40706|
+T Blade in Twilight|QID|40710|M|46.15,21.32|Z|Dalaran|N|To Moira Thaurissan.|C|Priest|PRE|40706|
+;DISCIPLINE
+;A The Light's Wrath|QID|41625|M|78.95,40.99|Z|Tirisfal Glades|N|From Alonsus Faol.|C|Priest|
+U Back to Dalaran|U|140192|QID|41625|M|78.95,40.99|Z|Tirisfal Glades|N|Use your Dalaran hearthstone or otherwise travel back to Dalaran.|ACTIVE|41625|C|Priest|
+T The Light's Wrath|QID|41625|M|28.64,49.92|Z|Dalaran|N|To Archmage Kalec.|C|Priest|
+A A New Threat|QID|41626|M|28.64,49.92|Z|Dalaran|N|From Archmage Kalec.|C|Priest|PRE|41625|
+C A New Threat|QID|41626|U|136410|QO|1|M|50.36,59.11|Z|Dalaran|N|Take the Dalaran portal to Wyrmrest Temple (Optional)|C|Priest|PRE|41625|
+C A New Threat|QID|41626|U|136410|QO|2|M|56.46,63.19|Z|Dragonblight|N|Travel to the Azure Dragonshrine|C|Priest|PRE|41625|
+C A New Threat|QID|41626|U|136410|QO|3|M|54.80,67.56|Z|Dragonblight|N|Click on the glowing spots in this area.|C|Priest|PRE|41625|
+T A New Threat|QID|41626|M|56.69,69.12|Z|Dragonblight|N|To UI Alert.|C|Priest|PRE|41625|
+A A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|Dragonblight|N|From UI Alert.|C|Priest|PRE|41626|
+C A Forgotten Enemy|QID|41627|QO|1|M|56.69,69.12|Z|Dragonblight|N|Activate the communication device|C|Priest|PRE|41626|
+T A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|Dragonblight|N|To Nexus-Prince Bilaal.|C|Priest|PRE|41626|
+A Eyes of the Dragon|QID|41628|M|56.69,69.12|Z|Dragonblight|N|From Nexus-Prince Bilaal.|C|Priest|PRE|41627|
+C Eyes of the Dragon|QID|41628|QO|1|M|28.62,28.92|Z|Borean Tundra|N|Scout the Nexus spire.|NC|C|Priest|PRE|41627|
+C Eyes of the Dragon|QID|41628|QO|2|M|24.65,29.63|Z|Borean Tundra|N|Scout the Surge Needle.|NC|C|Priest|PRE|41627|
+C Eyes of the Dragon|QID|41628|QO|3|M|25.16,27.83|Z|Borean Tundra|N|Scout the Nexus foundation.|NC|C|Priest|PRE|41627|
+T Eyes of the Dragon|QID|41628|M|28.41,25.62|Z|Borean Tundra|N|To UI Alert.|C|Priest|PRE|41627|
+A Harnessing the Holy Fire|QID|41629|M|28.41,25.62|Z|Borean Tundra|N|From UI Alert.|C|Priest|PRE|41628|
+C Harnessing the Holy Fire|QID|41629|QO|1|M|27.14,29.42|Z|Borean Tundra|N|Kill the elemental mobs and click on the balls of light to full up the bar with Unstable Holy Energy, *dieing resets to zero*.|C|Priest|PRE|41628|
+T Harnessing the Holy Fire|QID|41629|M|27.14,29.42|Z|Borean Tundra|N|To UI Alert.|C|Priest|PRE|41628|
+A Unleashing Judgment|QID|41630|M|27.14,29.42|Z|Borean Tundra|N|From UI Alert.|C|Priest|PRE|41629|
+C Unleashing Judgment|QID|41630|QO|2|M|24.21,29.62|Z|Borean Tundra|N|West Surge Needle destroyed.|C|Priest|PRE|41629|
+C Unleashing Judgment|QID|41630|QO|3|M|27.38,20.34|Z|Borean Tundra|N|North Surge Needle destroyed.|C|Priest|PRE|41629|
+C Unleashing Judgment|QID|41630|QO|1|M|32.73,27.79|Z|Borean Tundra|N|East Surge Needle destroyed.|C|Priest|PRE|4162|
+T Unleashing Judgment|QID|41630|M|32.73,27.79|Z|Borean Tundra|N|To UI Alert.|C|Priest|PRE|41629|
+A The Nexus Vault|QID|41631|M|30.27,28.07|Z|Borean Tundra|N|From UI Alert.|C|Priest|PRE|41630|
+C The Azure Prisoner|SO|1;1|M|35.71,68.94|N|Free Azuregos from the ethereals by defeating the Voidtouched Channelers binding him.|C|Priest|ACTIVE|41631|
+C Azuregos healed to full|SO|1;2|M|35.71,68.94|N|Azuregos healed to full.|C|Priest|ACTIVE|41631|
+C Reach the Librarium|SO|2;1|M|27.10,33.67|N|Reach the Librarium|C|Priest|ACTIVE|41631|
+C Find a way into the vault|SO|2;2|M|27.75,40.42|N|Find a way into the vault, Shield yourself and Azurgos.|C|Priest|ACTIVE|41631|
+C Judgement's Flame defeated|SO|3;1|M|27.75,40.42|N|Defeat Judgement's Flame. Keep Azuregos healed/shielded.|C|Priest|ACTIVE|41631|
+C Reach the Rift|SO|4;1|M|30.97,22.24|N|Reach the Rift.  When Azuregos changes to dragon form, hop on for a ride across the rift.|C|Priest|ACTIVE|41631|
+C Nexus-Prince Bilaal Defeated|SO|5;1|M|59.55,20.28|N|Defeat Nexus-Prince Bilaal. Lots of shielding again.|C|Priest|ACTIVE|41631|
+C The Nexus Vault|QID|41631|QO|1|M|59.55,20.28|N|1/1 Nexus-Prince Bilaal slain|C|Priest|ACTIVE|41631|
+C Subdue Light's Wrath|SO|6;1|M|0.00,0.00|N|Subdue Light's Wrath|C|Priest|ACTIVE|41631|
+C A Will of Fire|SO|6;1|Z|The Beyond|N|Heal snd shield yourself while seizing control of Light's Wrath.|C|Priest|ACTIVE|41631|
+C Claim Light's Wrath|SO|7;1|M|0.00,0.00|N|Claim Light's Wrath.|C|Priest|ACTIVE|41631|
+C Leave the Nexus Vault|SO|7;2|M|58.65,20.99|N|Leave the Nexus Vault via the Portal Azuregos creates for you.|C|Priest|ACTIVE|41631|
+T The Nexus Vault|QID|41631|M|28.60,49.89|Z|Dalaran|N|To Archmage Kalec.|C|Priest|PRE|40630|
+A A Gift of Time|QID|41632|M|28.60,49.89|Z|Dalaran|N|From Archmage Kalec.|C|Priest|PRE|40631|
+T A Gift of Time|QID|41632|M|46.37,20.96|Z|Dalaran|N|To Alonsus Faol.|C|Priest|PRE|40631|
+;Priest Hall
+A The Light and the Void|QID|40938|M|46.26,20.50|Z|Dalaran|N|From Prophet Velen.|C|Priest|PRE|40710;40631;xxxxx|
+C The Light and the Void|QID|40938|QO|1|M|49.44,47.54|Z|Dalaran|NC|N|Follow Velen to the portal.|C|Priest|
+C The Light and the Void|QID|40938|QO|2|M|49.78,75.06|Z|Dalaran|NC|N|Take the portal to Netherlight Temple.|C|Priest|
+C The Light and the Void|QID|40938|QO|3|M|49.66,49.16|Z|Dalaran|NC|N|Listen to Alonsus Faol.|C|Priest|
+C The Light and the Void|QID|40938|QO|4|M|49.75,47.36|Z|Dalaran|NC|N|Use your special action button and stand still until the channelling bar finishes and the quest updates.|C|Priest|
+C The Light and the Void|QID|40938|QO|5|M|49.77,31.51|Z|Dalaran|NC|N|Listen to the dialog and wait for the quest to update.|C|Priest|
+T The Light and the Void|QID|40938|M|48.76,48.33|N|To Alonsus Faol.|C|Priest|
+A Artifacts Need Artificers|QID|41015|M|48.76,48.33|N|From Alonsus Faol.|C|Priest|PRE|40938|
+T Artifacts Need Artificers|QID|41015|M|48.73,22.85|N|To Betild Deepanvil.|C|Priest|PRE|40938|
+A Empowering Your Artifact|QID|41017|M|48.73,22.85|N|From Betild Deepanvil.|C|Priest|PRE|41015|
+C Empowering Your Artifact|QID|41017|M|49.70,21.44|N|Use the Altar of Light and Shadow to empower your artifact|C|Priest|PRE|41015|
+T Empowering Your Artifact|QID|41017|M|48.81,22.92|N|To Betild Deepanvil.|C|Priest|PRE|41015|
+A Actions on Azeroth|QID|41019|M|48.78,48.44|N|From Alonsus Faol.|C|Priest|PRE|41017|
+A Zone Leadin Quest|QID|39718;39864;39731;39733|M|49.23,48.61|N|From Command Map. Choose which zone you want to do first.  The Legion expansion is set up differantly so all are viable first zones.  The Azsuna guild will autoload when you close this guide, but you can close it and open any of the other guides.|C|Priest|ACTIVE|41019|
+T Actions on Azeroth|QID|41019|M|48.73,48.49|N|To Alonsus Faol.|C|Priest|PRE|41017|
+C Travel to Dalaran|QID|39718;39864;39731;39733|M|46.36,63.23|N|Take the portal back to Dalaran.|PRE|41019|C|Priest|
 ;Rogue
 A Call of The Uncrowned|QID|40832|M|57.06,44.98|Z|Dalaran|N|From Ravenholdt Courier.|C|Rogue|PRE|44663|
 C Call of The Uncrowned|QID|40832|QO|1|M|55.23,55.60|Z|Dalaran|N|Read the letter.|C|Rogue|U|133558|NC|PRE|44663|
@@ -125,9 +365,9 @@ A A Worthy Blade|QID|40840|M|41.44,78.08|Z|Dalaran|N|From Lord Jorach Ravenholdt
 C A Worthy Blade|QID|40840|QO|3|M|42.38,75.75|Z|Dalaran|N|Talk to Tess.|C|Rogue|CHAT|PRE|44839|
 C A Worthy Blade|QID|40840|QO|1|M|41.17,74.24|Z|Dalaran|N|Talk to Tethys.|C|Rogue|CHAT|PRE|44839|
 C A Worthy Blade|QID|40840|QO|2|M|40.91,75.40|Z|Dalaran|N|Talk to Valeera.|C|Rogue|CHAT|PRE|44839|
-C A Worthy Blade|QID|40840|QO|4|M|41.44,78.08|Z|Dalaran|N|Choose which artifact you want to complete first(which spec you want to level with primarily).|C|Rogue|PRE|44839|
+C A Worthy Blade|QID|40840|QO|4|M|41.44,78.08|Z|Dalaran|N|Chose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|C|Rogue|PRE|44839|
 T A Worthy Blade|QID|40840|M|41.44,78.080|Z|Dalaran|N|To Lord Jorach Ravenholdt.|C|Rogue|PRE|44839|
-A Spec Specific Quest|QID|41919;42501;40847|M|41.44,78.08|Z|Dalaran|N|From one of the NPCs in this room.|C|Rogue|PRE|40840|
+A Artifact Specific Quest|QID|41919;42501;40847|M|41.44,78.08|Z|Dalaran|N|From one of the NPCs in this room.|C|Rogue|PRE|40840|
 ;ASSASINATION
 ;A Finishing the Job|QID|42501|M|42.40,76.02|Z|Dalaran|N|From Princess Tess Greymane.|C|Rogue|PRE|40840|
 A No Sanctuary|QID|42502|M|42.40,76.02|Z|Dalaran|N|From Princess Tess Greymane.|C|Rogue|ACTIVE|42502|
@@ -229,17 +469,17 @@ A Zone Lead-in Quest|QID|39718;39864;39731;39733|M|37.40,44.20|N|From the Scouti
 T Lethal Efficiency|QID|40997|M|37.40,44.20|N|To Nikki the Gossip.|C|Rogue|PRE|40997|
 
 ;HUNTER
-A Needs of the Hunters|QID|40384|M|57.24,44.84|Z|Dalaran|N|From Snowfeather. Wait a minute or so for him to fly over.|PRE|44663|C|Hunter|
-T Needs of the Hunters|QID|40384|M|60.04,53.47|Z|Dalaran|N|To Emmarel Shadewarden.|PRE|44663|C|Hunter|
+A Needs of the Hunters|QID|40384|M|57.24,44.84|Z|Dalaran|N|From Snowfeather. Wait a minute or so for him to fly over.|C|Hunter|PRE|44663|
+T Needs of the Hunters|QID|40384|M|60.04,53.47|Z|Dalaran|N|To Emmarel Shadewarden.|C|Hunter|PRE|44663|
 A The Hunter's Call|QID|41415|M|0.00,0.00|Z|Dalaran|N|From Emmarel Shadewarden.|PRE|40384|C|Hunter|
 C The Hunter's Call|QID|41415|CHAT|QO|1|M|59.18,37.94|Z|Dalaran|N|Speak to Grif Wildheart inside Magical Menagerie.|PRE|40384|C|Hunter|
 C The Hunter's Call|QID|41415|CHAT|QO|3|M|55.66,63.54|Z|Dalaran|N|Apata can be found upstairs, inside the Arsonal Absolute.|PRE|40384|C|Hunter|
 C The Hunter's Call|QID|41415|CHAT|QO|2|M|42.44,56.58|Z|Dalaran|N|Courier Larkspur can be found just outside the Grayfang Enclave.|PRE|40384|C|Hunter|
 T The Hunter's Call|QID|41415|M|59.97,53.39|Z|Dalaran|N|To Emmarel Shadewarden.|PRE|40384|C|Hunter|
 A Weapons of Legend|QID|40618|M|59.97,53.39|Z|Dalaran|N|From Emmarel Shadewarden.|PRE|41415|C|Hunter|
-C Weapons of Legend|QID|40618|QO|1|M|59.97,53.39|Z|Dalaran|N|Choose which artifact you want to complete first(which spec you want to level with primarily).|PRE|41415|C|Hunter|
+C Weapons of Legend|QID|40618|QO|1|M|59.97,53.39|Z|Dalaran|N|Chose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|PRE|41415|C|Hunter|
 T Weapons of Legend|QID|40618|M|59.97,53.39|Z|Dalaran|N|To Emmarel Shadewarden.|PRE|41415|C|Hunter|
-A Spec specific quest|QID|41540;41541;41542|M|60.01,53.44|Z|Dalaran|N|From Emmarel Shadewarden.|PRE|40618|C|Hunter|
+A Artifact specific quest|QID|41540;41541;41542|M|60.01,53.44|Z|Dalaran|N|From Emmarel Shadewarden.|PRE|40618|C|Hunter|
 ;MARKSMANSHIP
 ;A Rendezvous with the Courier|QID|41540|M|60.06,53.47|Z|Dalaran|N|From Emmarel Shadewarden.|C|Hunter|
 T Rendezvous with the Courier|QID|41540|M|71.46,50.04|Z|Dalaran|N|To Courier Larkspur.|C|Hunter|
@@ -276,44 +516,22 @@ C The Eagle Spirit's Blessing|QID|39427|QO|4|M|60.79,80.85|Z|Highmountain|N|Foll
 T The Eagle Spirit's Blessing|QID|39427|M|60.79,80.94|Z|Highmountain|N|To Apata Highmountain.|PRE|41542|C|Hunter|
 A The Spear in the Shadow|QID|40385|M|60.79,80.94|Z|Highmountain|N|From Apata Highmountain.|PRE|39427|C|Hunter|
 C The Spear in the Shadow|QID|40385|QO|1|M|53.74,46.69|Z|Stormheim|N|Take the Eagle Spirit flight to the harbor.|NC|C|Hunter|
-C Landing|SO|1|Z|Stormheim|N|Wuho should have located a good spot to start. Wait for his signal, then regroup at the landing site.|S|C|Hunter|
 C Speak with Apata at the landing site.|SO|1;1|M|53.73,46.66|Z|Orgrimmar|N|Speak with Apata at the landing site.|C|Hunter|
-C Landing|SO|1|Z|Stormheim|N|Wuho should have located a good spot to start. Wait for his signal, then regroup at the landing site.|US|C|Hunter|
-C The Haunted Harbor|SO|2|Z|Stormheim|N|Kvaldir wards bar the way further into the swamp. Investigate Tideskorn Harbor to find a way through.|S|C|Hunter|
 C Investigate Tideskorn Harbor|SO|2;1|M|56.80,47.20|Z|Stormheim|N|Investigate Tideskorn Harbor|C|Hunter|
-C The Haunted Harbor|SO|2|Z|Stormheim|N|Kvaldir wards bar the way further into the swamp. Investigate Tideskorn Harbor to find a way through.|US|C|Hunter|
-C Distracting Them Wisely|SO|3|Z|Stormheim|N|The Mist Warders manage the wards. Use a Freezing Trap or slay them to steal their wardstones.|S|C|Hunter|
 C Defeat the Mist Warder using your Freezing Trap.|SO|3;1|M|57.47,46.53|Z|Orgrimmar|N|Defeat the Mist Warder using your Freezing Trap.|C|Hunter|
-C Distracting Them Wisely|SO|3|Z|Stormheim|N|The Mist Warders manage the wards. Use a Freezing Trap or slay them to steal their wardstones.|US|C|Hunter|
-C Easy Pickings|SO|4|Z|Stormheim|N|Steal the Wardstone now that the Warder is taken care of.|S|C|Hunter|
 C Obtain the Activated Wardstone|SO|4;1|M|57.59,46.42|Z|Stormheim|N|Obtain the Activated Wardstone|C|Hunter|
-C Easy Pickings|SO|4|Z|Stormheim|N|Steal the Wardstone now that the Warder is taken care of.|US|C|Hunter|
-C Just a Few More|SO|5|Z|Stormheim|N|More wardstones will be needed to breach the wall. Collect more wardstones from the kvaldir in the harbor.|S|C|Hunter|
 C Obtain more Activated Wardstones|SO|5;1|M|59.99,43.73|Z|Stormheim|N|Obtain more Activated Wardstones|C|Hunter|
-C Just a Few More|SO|5|Z|Stormheim|N|More wardstones will be needed to breach the wall. Collect more wardstones from the kvaldir in the harbor.|US|C|Hunter|
-C The Wall of Fog|SO|6|Z|Stormheim|N|Apata and Wuho are out near the wards, find them and find a way to breach the wards.|S|C|Hunter|
 C Speak with Apata.|SO|6;1|M|55.33,42.45|Z|Stormheim|N|Speak with Apata.|C|Hunter|
-C The Wall of Fog|SO|6|Z|Stormheim|N|Apata and Wuho are out near the wards, find them and find a way to breach the wards.|US|C|Hunter|
-C Into the Mists|SO|7|Z|Stormheim|N|Harpoons and runes in hand, the fog barrier can be breached. Use a harpoon to cross the wards.|S|C|Hunter|
 C Use the harpoon to cross the fog.|SO|7;1|M|56.07,40.68|Z|Stormheim|N|Use the harpoon to cross the fog.|C|Hunter|
-C Into the Mists|SO|7|Z|Stormheim|N|Harpoons and runes in hand, the fog barrier can be breached. Use a harpoon to cross the wards.|US|C|Hunter|
 C The Shallows of Death|SO|8|Z|Stormheim|N|Apata wants to get the lay of the land carefully, follow her around the swamp.|C|Hunter|
-C Deadly Shadows|SO|9|Z|Stormheim|N|Dakarr is sending illusionary stalkers at you, defend yourself!|S|C|Hunter|
 C Follow Apata.|SO|8;1|M|55.80,40.47|Z|Stormheim|N|Follow Apata.|C|Hunter|
-C Deadly Shadows|SO|9|Z|Stormheim|N|Dakarr is sending illusionary stalkers at you, defend yourself!|US|C|Hunter|
-C The Hunter or the Hunted|SO|10|Z|Stormheim|N|Dakarr hides in deep mists, go into them and lay traps to catch him.|S|C|Hunter|
+C Deadly Shadows|SO|9|Z|Stormheim|N|Dakarr is sending illusionary stalkers at you, defend yourself!|C|Hunter|
 C Place a trap in the mists to catch Dakarr.|SO|10;1|M|55.17,39.18|Z|Stormheim|N|Place a trap in the mists to catch Dakarr.|C|Hunter|
-C The Hunter or the Hunted|SO|10|Z|Stormheim|N|Dakarr hides in deep mists, go into them and lay traps to catch him.|US|C|Hunter|
-C For the Fallen|SO|11|Z|Stormheim|N|The beast has fled to another lair of mist, trap it again and avenge Wuho.|S|C|Hunter|
 C Trap Dakarr in the mist lair.|SO|11;1|M|57.37,37.43|Z|Stormheim|N|Trap Dakarr in the mist lair.|C|Hunter|
-C For the Fallen|SO|11|Z|Stormheim|N|The beast has fled to another lair of mist, trap it again and avenge Wuho.|US|C|Hunter|
-C The Lair of the Beast|SO|12|Z|Stormheim|N|Dakarr has fled to his true lair, but is too weak to hide behind fog. Finish him in his lair.|S|C|Hunter|
 C Slay Dakarr.|SO|12;1|M|58.45,33.77|Z|Stormheim|N|Slay Dakarr.|C|Hunter|
-C The Lair of the Beast|SO|12|Z|Lair of the Beast|N|Dakarr has fled to his true lair, but is too weak to hide behind fog. Finish him in his lair.|US|C|Hunter|
-C Talonclaw|SO|13|Z|Lair of the Beast|N|The foul beast is dead and the path to the Spear is open. Take up Talonclaw.|S|C|Hunter|
 C The Spear in the Shadow|QID|40385|QO|2|M|58.46,33.78|N|Slay the Highmountain's Bane and reclaim Talonclaw.|PRE|39427|C|Hunter|
 C The Spear in the Shadow|QID|40385|QO|3|M|28.59,33.65|Z|Lair of the Beast|N|Click the portal to return to Dalaran.|PRE|39427|C|Hunter|
-T The Spear in the Shadow|QID|40385|M|60.04,53.43|Z|Dalaran|N|To Emmarel Shadewarden.|PRE|39427|
+T The Spear in the Shadow|QID|40385|M|60.04,53.43|Z|Dalaran|N|To Emmarel Shadewarden.|PRE|39427|C|Hunter|
 ;BEASTMASTRY
 ;A A Beastly Expedition|QID|41541|PRE|40618|M|59.97,53.39|Z|Dalaran|N|From Emmarel Shadewarden.|C|Hunter|
 T A Beastly Expedition|QID|41541|M|71.39,50.59|Z|Dalaran|N|To Grif Wildheart.|PRE|40618|C|Hunter|
@@ -321,23 +539,13 @@ A Stolen Thunder|QID|41574|PRE|41541|M|71.39,50.59|Z|Dalaran|N|From Grif Wildhea
 C Stolen Thunder|QID|41574|QO|1|NC|M|71.26,51.69|Z|Dalaran|N|Click on his Griffin 'Huey' to fly with Grif Wildheart.|PRE|41541|C|Hunter|
 C Stolen Thunder|QID|41574|QO|2|NC|M||Z|Stormheim|S|N|Follow the scenario instructions to find Titanstrike.|PRE|41541|C|Hunter|
 C Making Introductions|SO|1|Z|Stormheim|N|Speak with Grif and meet his vrykul guide, Prustaga.|C|Hunter|
-C Tomb Raider|SO|2|Z|Stormheim|N|Fnd the entrance to the tomb of Warlord Volund inside the Tomb of Ancient Kings.|S|C|Hunter|
 C Find Warlord Volund's tomb.|SO|2;1|M|55.38,49.54|N|Find Warlord Volund's tomb.|C|Hunter|
-C Tomb Raider|SO|2|Z|Tomb of the Old Kings|N|Fnd the entrance to the tomb of Warlord Volund inside the Tomb of Ancient Kings.|US|
-C Volund's Hoard|SO|3|Z|Tomb of the Old Kings|N|Assist Prustaga in opening the door to Volund's tomb.|S|C|Hunter|
 C Protect Prustaga as she opens Volund's tomb.|SO|3;1|M|53.84,47.37|N|Protect Prustaga as she opens Volund's tomb.|C|Hunter|
-C Volund's Hoard|SO|3|Z|Tomb of the Old Kings|N|Assist Prustaga in opening the door to Volund's tomb.|US|C|Hunter|
-C Every Nook and Cranny|SO|4|Z|Tomb of the Old Kings|N|Scour Volund's Hoard for a sign of Titanstrike.|S|C|Hunter|
 C Search for Titanstrike.|SO|4;1|M|59.33,20.66|N|Search for Titanstrike.|C|Hunter|
-C Every Nook and Cranny|SO|4|Z|Tomb of the Old Kings|N|Scour Volund's Hoard for a sign of Titanstrike.|US|C|Hunter|
-C Volund's Last Stand|SO|5|Z|Tomb of the Old Kings|N|Warlord Volund seeks to stop you from claiming Titanstrike.|S|C|Hunter|
 C Defeat Warlord Volund.|SO|5;1|M|58.14,18.48|N|Defeat Warlord Volund.|C|Hunter|
-C Volund's Last Stand|SO|5|Z|Tomb of the Old Kings|N|Warlord Volund seeks to stop you from claiming Titanstrike.|US|C|Hunter|
-C Answering the Call|SO|6|Z|Tomb of the Old Kings|N|Use the teleportation pad to join Mimiron in Ulduar.|S|C|Hunter|
 C Join Keeper Mimiron in Ulduar.|SO|6;1|M|58.26,17.78|N|Join Keeper Mimiron in Ulduar.|C|Hunter|
-C Answering the Call|SO|6|Z|Tomb of the Old Kings|US|C|Hunter|
 C Stolen Thunder|QID|41574|QO|2|M|44.97,37.33|Z|Ulduar|US|PRE|41541|C|Hunter|
-T Stolen Thunder|QID|41574|M|44.97,37.33|Z|Ulduar|N|To Mimiron.|PRE|41541|
+T Stolen Thunder|QID|41574|M|44.97,37.33|Z|Ulduar|N|To Mimiron.|PRE|41541|C|Hunter|
 A The Creator's Workshop|QID|42158|M|44.97,37.33|Z|Ulduar|N|From Mimiron.|PRE|41574|C|Hunter|
 C The Creator's Workshop|QID|42158|QO|1|M|43.72,38.88|Z|Ulduar|N|First, you have to jump over the fires as you deactivate the TWO fusion press control panels.  /nSecond, you must avoid the blue swirls on the ground (that show where the lightning will hit) as you acivate the FOUR crystals that form the stabilization matrix. /nLast, you finally get to press that big red button!|PRE|41574|C|Hunter|
 T The Creator's Workshop|QID|42158|M|43.72,38.88|Z|Ulduar|N|To Mimiron.|PRE|41574|C|Hunter|
@@ -372,7 +580,7 @@ A Tactical Matters|QID|40958|M|47.32,53.97|Z|Trueshot Lodge|N|From Altar Keeper 
 T Tactical Matters|QID|40958|M|42.82,46.95|Z|Trueshot Lodge|N|To Tactician Tinderfell.|PRE|41047|C|Hunter|
 A The Campaign Begins|QID|40959|M|42.82,46.95|Z|Trueshot Lodge|N|From Tactician Tinderfell.|PRE|40958|C|Hunter|
 C The Campaign Begins|QID|40959|M|42.82,46.95|Z|Trueshot Lodge|N|Choose which zone you want to do first.  The Legion expansion is set up differantly so all are viable first zones.  The Azsuna guild will autoload when you close this guide, but you can close it and open any of the other guides.|C|Hunter|
-A Zone Leadin Quest|QID|39718;39864;39731;39733|M|42.62,46.84|Z|Trueshot Lodge|N|From the Scouting Map.|
+A Zone Leadin Quest|QID|39718;39864;39731;39733|M|42.62,46.84|Z|Trueshot Lodge|N|From the Scouting Map.|C|Hunter|
 ;A Paradise Lost|QID|39718|;Azsuna
 ;A Stormheim|QID|39864|;Stormheim
 ;A The Tranquil Forest|QID|39731|;Val'sharah
@@ -386,9 +594,9 @@ C An Urgent Gathering|QID|38710|QO|1|M|58.48,42.14|Z|Dalaran|N|Travard is just o
 C An Urgent Gathering|QID|38710|QO|2|M|41.54,37.34|Z|Dalaran|N|Orik is just inside 'The Scribe's Sarcellum'.|C|Paladin|
 T An Urgent Gathering|QID|38710|M|74.91,48.23|Z|Dalaran|N|To Lord Maxwell Tyrosus.|C|Paladin|
 A Weapons of Legend|QID|40408|M|74.91,48.23|Z|Dalaran|N|From Lord Maxwell Tyrosus.|C|Paladin|
-C Weapons of Legend|QID|40408|QO|1|M|74.91,48.23|Z|Dalaran|N|Choose which artifact you want to complete first(which spec you want to level with primarily).|PRE|38710|C|Paladin|
+C Weapons of Legend|QID|40408|QO|1|M|74.91,48.23|Z|Dalaran|N|Chose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|PRE|38710|C|Paladin|
 T Weapons of Legend|QID|40408|M|74.91,48.23|Z|Dalaran|N|To Lord Maxwell Tyrosus.|C|Paladin|
-A Spec specific quest|QID|42000;42231;42770|M|74.91,48.23|Z|Dalaran|N|From Lord Maxwell Tyrosus.|C|Paladin|
+A Artifact specific quest|QID|42000;42231;42770|M|74.91,48.23|Z|Dalaran|N|From Lord Maxwell Tyrosus.|C|Paladin|
 ;RETRIBUTION
 ;A Seeking Guidance|QID|42770|M|74.91,48.23|Z|Dalaran|N|From Lord Maxwell Tyrosus.|C|Paladin|
 C Seeking Guidance|QID|42770|QO|1|M|55.16,36.74|Z|Dalaran|N|Enter the Chamber of the Guardian, step on the teleport pad and then run down the stairs, until you see the Dalaran Crater portal.|C|Paladin|
@@ -497,10 +705,96 @@ C Forging New Strength|QID|39722|NC|M|72.63,23.58|Z|Eastern Plaguelands|N|Click 
 T Forging New Strength|QID|39722|M|73.79,19.70|Z|Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|C|Paladin|
 A Logistical Matters|QID|38933|M|73.79,19.70|Z|Eastern Plaguelands|N|From Lord Maxwell Tyrosus.|C|Paladin|
 T Logistical Matters|QID|38933|M|52.29,78.17|Z|Eastern Plaguelands|N|To Lord Grayson Shadowbreaker.|C|Paladin|
-A A Sound Plan|QID|39756|M|52.29,78.17|Z|Eastern Plaguelands|N|From Lord Grayson Shadowbreaker.|N|Choose which zone you want to do first.  The Legion expansion is set up differantly so all are viable first zones.  The Azsuna guild will autoload when you close this guide, but you can close it and open any of the other guides.|C|Paladin|
+A A Sound Plan|QID|39756|M|52.29,78.17|Z|Eastern Plaguelands|N|From Lord Grayson Shadowbreaker. Choose which zone you want to do first.  The Legion expansion is set up differantly so all are viable first zones.  The Azsuna guild will autoload when you close this guide, but you can close it and open any of the other guides.|C|Paladin|
 A Zone Leadin Quest|QID|39718;39864;39731;39733|M|52.93,78.75|Z|Eastern Plaguelands|N|From Scouting Map.|C|Paladin|
 T A Sound Plan|QID|39756|M|52.29,78.11|Z|Eastern Plaguelands|N|To Lord Grayson Shadowbreaker.|C|Paladin|
 C Travel to Dalaran|QID|39718;39864;39731;39733|M|46.35,63.12|Z|Eastern Plaguelands|N|Click on the portal to Dalaran.|C|Paladin|
+;DEATH KNIGHT
+A The Call To War|QID|40714|M|57.67,45.71|Z|Dalaran|N|From UI Alert a minute or so after you turn in the previous quest.|C|Death Knight|
+T The Call To War|QID|40714|M|73.11,46.85|Z|Dalaran|N|To Duke Lankral up on Krasus Landing.|C|Death Knight|
+A A Pact of Necessity|QID|40715|M|73.11,46.85|Z|Dalaran|N|From Duke Lankral.|C|Death Knight|PRE|40714|
+C A Pact of Necessity|QID|40715|NC|QO|1|M|73.11,46.85|Z|Dalaran|N|Chose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102)|C|Death Knight|PRE|40714|
+T A Pact of Necessity|QID|40715|M|73.11,46.85|Z|Dalaran|N|To Duke Lankral.|C|Death Knight|PRE|40714|
+A Artifact Specific Quest|QID|40930;40740;38990|M|73.11,46.85|Z|Dalaran|N|From UI (Lich King.|C|Death Knight|PRE|40715|
+;UNHOLY
+;A Apocalypse|QID|40930|M|73.11,46.85|Z|Dalaran|N|From UI (Lich King).|C|Death Knight|PRE|40715|
+C Apocalypse|QID|40930|QO|1|M|55.16,36.74|Z|Dalaran|NC|N|(Optional)Enter the Chamber of the Guardian, step on the teleport pad and then run down the stairs, until you see the portal to Karazhan|C|Death Knight|PRE|40715|
+C Apocalypse|QID|40930|QO|2|M|77.42,35.97|Z|Duskwood|NC|N|Investigate Manor Mistmantle in Duskwood|C|Death Knight|PRE|40715|
+C Apocalypse|QID|40930|QO|3|M|77.43,36.27|Z|Duskwood|CHAT|N|Convince Revil to help. Any of the options will work.|C|Death Knight|PRE|40715|
+T Apocalypse|QID|40930|M|77.43,36.27|Z|Duskwood|N|To Revil Kost.|C|Death Knight|PRE|40715|
+A Following the Curse|QID|40931|M|77.43,36.27|Z|Duskwood|N|From Revil Kost.|C|Death Knight|PRE|40930|
+C Following the Curse|QID|40931|QO|1|M|50.80,40.79|Z|Deadwind Pass|N|Follow Revil to Ariden's Camp|C|Death Knight|PRE|40930|
+T Following the Curse|QID|40931|M|52.37,34.27|Z|Deadwind Pass|N|To Revil Kost.|C|Death Knight|PRE|40930|
+A Disturbing the Past|QID|40932|M|52.37,34.27|Z|Deadwind Pass|N|From Revil Kost.|C|Death Knight|PRE|40931|
+C Disturbing the Past|QID|40932|QO|1|M|52.36,33.97|Z|Deadwind Pass|N|Ariden's Camp investigated|C|Death Knight|PRE|40931|
+T Disturbing the Past|QID|40932|M|52.34,33.85|Z|Deadwind Pass|N|To the journal beside the tent.|C|Death Knight|PRE|40931|
+A A Grisly Task|QID|40933|M|52.41,34.46|Z|Deadwind Pass|N|From Revil Kost.|C|Death Knight|PRE|40932|
+C A Grisly Task|QID|40933|QO|1|M|52.05,70.37|Z|Deadwind Pass|N|Click on the piles of dirt until you find a spirit who will talk to you.|C|Death Knight|PRE|40932|
+T A Grisly Task|QID|40933|M|49.45,74.70|Z|Deadwind Pass|N|To Revil Kost.|C|Death Knight|PRE|40932|
+A The Dark Riders|QID|40934|M|49.45,74.70|Z|Deadwind Pass|N|From Revil Kost.|C|Death Knight|PRE|40933|
+R Catacombs|QID|40934|M|46.63,69.10|Z|Deadwind Pass|CC|N|Make your way into the Dark Riders' catacombs beneath Karazhan.|ACTIVE|40933|
+C Karazhan Catacombs infiltrated|SO|1;1|M|72.51,75.28|Z|Deadwind Pass|N|Infiltrate Karazhan Catacombs.|C|Death Knight|ACTIVE|40933|
+C Spirit Barrier crossed|SO|2;1|M|70.43,69.67|Z|Deadwind Pass|N|Cross the Spirit Barrier.|ACTIVE|40934|
+C Conservator Defeated|SO|3;1|M|57.08,68.89|Z|Deadwind Pass|N|Defeat the Conservator.|ACTIVE|40934|
+C Apocalypse found|SO|4;1|M|47.14,67.69|Z|Deadwind Pass|N|Find Apocalypse.|ACTIVE|40934|
+C Ariden followed|SO|5;1|M|68.65,37.11|Z|Deadwind Pass|N|Follow Ariden into the depths of the Karazhan catacombs.|ACTIVE|40934|
+C Ariden defeated|SO|6;1|M|68.47,31.56|Z|Deadwind Pass|N|Defeat Ariden, (quickly as he summons adds.)|ACTIVE|40934|
+C Apocalypse|SO|7;1|M|68.16,24.72|Z|Deadwind Pass|N|Pick up Apocalypse.|C|Death Knight|ACTIVE|40934|
+C The Dark Riders|QID|40934|QO|2|M|68.16,24.72|Z|Deadwind Pass|N|Pick up Apocalypse.|C|Death Knight|PRE|40933|
+T The Dark Riders|QID|40934|M|68.24,27.11|Z|Deadwind Pass|N|To Revil Kost.|C|Death Knight|PRE|40933|
+A The Call of Vengeance|QID|40935|M|68.24,27.11|Z|Deadwind Pass|N|From Revil Kost.|C|Death Knight|PRE|40934|
+C The Call of Vengeance|QID|40935|QO|1|M|0.00,0.00|Z|Deadwind Pass|NC|N|Take the Death Gate to the Frozen Throne.|C|Death Knight|PRE|40934|
+C The Call of Vengeance|QID|40935|QO|2|M|49.08,90.73|Z|Dalaran|NC|N|Stand by the throne a minute or so to obtain the Mark of the Lich King.|C|Death Knight|PRE|40934|
+C The Call of Vengeance|QID|40935|QO|3|M|63.38,69.31|Z|Dalaran|NC|N|Take the Death Gate to Acherus|C|Death Knight|PRE|40934|
+T The Call of Vengeance|QID|40935|M|50.85,50.52|Z|Archerus: The Ebon Hold|N|To Highlord Darion Mograine.|C|Death Knight|PRE|40934|
+;BLOOD
+;A The Dead and the Damned|QID|40740|M|73.03,46.79|Z|Dalaran|N|From UI (Lich King).|C|Death Knight|PRE|40715|
+C The Dead and the Damned|QID|40740|NC|QO|1|M|73.35,47.90|Z|Dalaran|N|Optional: Ride Zeomus to the Broken Shore|C|Death Knight|PRE|40715|
+C The Dead and the Damned|QID|40740|NC|QO|2|M|32.00,31.96|Z|Broken Shore|N|Enter into the Legion Portal|C|Death Knight|PRE|40715|
+C Hunting the Hunters|SO|1|Z|Niskara|N|Run forward until you see Baron Sliver.|C|Death Knight|ACTIVE|40740|
+C Follow Baron Silver|SO|2;1|M|22.25,51.03|Z|Niskara|N|Follow Baron Silver|C|Death Knight|ACTIVE|40740|
+C Protect Baron Sliver while he disables the Fel Barrier|SO|3;1|M|23.82,48.23|Z|Niskara|N|Protect Baron Sliver while he disables the Fel Barrier|C|Death Knight|ACTIVE|40740|
+C Search the Legion camp.|SO|4;1|M|38.48,46.79|Z|Niskara|N|Follow Barron Silver and search the Legion camp.|C|Death Knight|ACTIVE|40740|
+C Hunt down Inquisitor Zalinor and obtain his key.|SO|5;1|M|43.12,38.05|Z|Niskara|N|Hunt down Inquisitor Zalinor and obtain his key.|C|Death Knight|ACTIVE|40740|
+C Release your ally|SO|6;1|M|38.01,47.06|Z|Niskara|N|Release your ally|C|Death Knight|ACTIVE|40740|
+C Citadel Barrier Disabled|SO|7;1|M|40.38,52.19|Z|Niskara|N|As you travel to the citadel, they will stop, use Anti-Magic Shell to avoid the fel ground, continue towards the citadel and assist Baron Sliver as he disables it's barrier.|C|Death Knight|ACTIVE|40740|
+C Search within the citadel for Margrave|SO|8;1|M|62.04,60.16|Z|Niskara|N|As you approach Margrave, a scene will occur.|C|Death Knight|ACTIVE|40740|
+C The Fleshripper|SO|9|Z|Niskara|N|Gorelix has slain Margrave! Destroy the demon!|C|Death Knight|ACTIVE|40740|
+C The Dead and the Damned|QID|40740|QO|3|M|64.20,60.04|Z|Niskara|N|Obtain the Maw of the Damned|C|Death Knight|ACTIVE|40740|
+C Use Baron Sliver's Death Gate|SO|11;1|M|63.13,61.37|Z|Niskara|N|Use Baron Sliver's Death Gate|C|Death Knight|ACTIVE|40740|
+C The Call of Icecrown|NC|QID|40740|QO|4|N|Run up the hill to the frozen throne, wait until you optain the Mark of the Lich King, then take the Death Gate when it appears.|C|Death Knight|PRE|40715|
+T The Dead and the Damned|QID|40740|M|50.99,50.74|Z|Acherus: The Ebon Hold|N|To Highlord Darion Mograine.|C|Death Knight|PRE|40715|
+;FROST
+;A The Call of Icecrown|QID|38990|M|73.03,46.79|Z|Dalaran|N|From UI (Lich King).|C|Death Knight|PRE|40715|
+C The Call of Icecrown|QID|38990|QO|1|M|73.03,46.79|Z|Dalaran|N|Use the Deathgate to enter the solo scenario.|C|Death Knight|PRE|40715|
+C The Call of Icecrown|QID|38990|QO|2|M|59.63,18.42|Z|Icecrown Citadel|N|Run forward and step onto the raised area to unlock the gates.|C|Death Knight|PRE|40715|
+C The Call of the North|SO|1|Z|Icecrown Citadel|N|The Lich King awaits your return to the citadel.|C|Death Knight|ACTIVE|38990|
+C Enter Icecrown Citadel|SO|2;1|M|0.00,0.00|Z|Icecrown Citadel|N|Beware the ice jets shooting out from the walls and pass between them when they stop. When you get to the two gargoyles, you should position them on the pressure plates they start on so the portculis opens.  You can do this either with control undead then use one to freeze the other, or after you fight a bit, they freeze and you can drag them over with Death Grip if you didnt have them freeze where you want them.|C|Death Knight|ACTIVE|38990|
+C Collect Fragments within Icecrown Citadel|SO|3;1|M|51.42,49.81|Z|Icecrown Citadel|N|Kill the mobs as you travel they only direction you can, Collect Fragments at the four noted spots.|C|Death Knight|ACTIVE|38990|
+C Use the Scourge Teleporter within the Spire|SO|4;1|M|51.83,53.15|Z|Icecrown Citadel|N|Use the Scourge Teleporter within the Spire.|C|Death Knight|ACTIVE|38990|
+C Reforge the fragments and form your weapon|SO|5;1|M|0.00,0.00|Z|Icecrown Citadel|N|Reforge the fragments and form your weapon.|C|Death Knight|ACTIVE|38990|
+C Purge the blades of the malevolent souls within|SO|6;1|M|0.00,0.00|Z|Icecrown Citadel|N|Fight the Echo of Arthas to purge the blades.|C|Death Knight|ACTIVE|38990|
+C The Call of Icecrown|QID|38990|QO|3|M|0.00,0.00|Z|Icecrown Citadel|N|Pick up the Blades.|C|Death Knight|PRE|40715|
+C The Call of Icecrown|QID|38990|QO|4|M|0.00,0.00|Z|Icecrown Citadel|N|Run up the hill to the Frozen Throne and wait a minute or so to obtain the Lich King's blessing.|C|Death Knight|PRE|40715|
+C The Call of Icecrown|QID|38990|QO|5|M|0.00,0.00|Z|Icecrown Citadel|N|Depart the Frozen Throne by taking the Acherus Waygate.|C|Death Knight|PRE|40715|
+T The Call of Icecrown|QID|38990|M|50.99,50.74|Z|Acherus: The Ebon Hold|N|To Highlord Darion Mograine.|C|Death Knight|PRE|40715|
+;Death Knight class hall
+A Keeping Your Edge|QID|39757|M|49.76,55.96|Z|Archerus: The Ebon Hold|N|From Illanna Dreadmoore.|C|Death Knight|PRE|40935;40740|
+C Keeping Your Edge|QID|39757|QO|1|M|36.39,38.65|Z|Archerus: The Ebon Hold|N|Take the teleporter to the second level of Acherus|C|Death Knight|PRE|40935|
+T Keeping Your Edge|QID|39757|M|0.00,0.00|Z|Archerus: The Ebon Hold|N|To Grand Master Siegesmith Corvus.|C|Death Knight|PRE|40935|
+A Advanced Runecarving|QID|39761|M|0.00,0.00|Z|Archerus: The Ebon Hold|N|From Grand Master Siegesmith Corvus.|C|Death Knight|PRE|40757|
+C Advanced Runecarving|QID|39761|QO|1|M|0.00,0.00|Z|Archerus: The Ebon Hold|NC|N|Use the Soul Forge to imbue your artifact|C|Death Knight|PRE|40757|
+T Advanced Runecarving|QID|39761|M|0.00,0.00|Z|Archerus: The Ebon Hold|N|To Grand Master Siegesmith Corvus.|C|Death Knight|PRE|40757|
+A Plans and Preparations|QID|39832|M|0.00,0.00|Z|Archerus: The Ebon Hold|N|From Grand Master Siegesmith Corvus.|C|Death Knight|PRE|40761|
+T Plans and Preparations|QID|39832|M|49.66,51.25|Z|Archerus: The Ebon Hold|N|To Siouxsie the Banshee.|C|Death Knight|PRE|40761|
+A Our Next Move|QID|39799|M|49.66,51.25|Z|Archerus: The Ebon Hold|N|From Siouxsie the Banshee.|C|Death Knight|PRE|39832|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733|M|49.66,51.25|Z|Archerus: The Ebon Hold|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differantly so all are viable first zones.  The Azsuna guild will autoload when you close this guide, but you can close it and open any of the other guides.|C|Death Knight|ACTIVE|39799|
+;A Paradise Lost|QID|39718|;Azsuna
+;A Stormheim|QID|39864|;Stormheim
+;A The Tranquil Forest|QID|39731|;Val'sharah
+;A The Lone Mountain|QID|39733|;Highmountain
+T Our Next Move|QID|39799|M|49.66,51.25|Z|Archerus: The Ebon Hold|N|To Siouxsie the Banshee.|C|Death Knight|PRE|39832|
+C Travel to Dalaran|QID|39718;39864;39731;39733|M|24.67,33.69|Z|Archerus: The Ebon Hold|N|The portal is out by the flightmaster.|C|Death Knight|
 
 D This ends the intro guide|N|Azsuna will auto load, if you want a diferant zone you can manually choose it.|
 
