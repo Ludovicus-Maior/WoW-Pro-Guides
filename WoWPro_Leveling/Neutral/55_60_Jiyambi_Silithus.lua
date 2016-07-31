@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silithus_neutral
+-- Date: 2016-07-31 12:31
+-- Who: tubera
+-- Log: Change The Twilight Lexicon to use QO tags
+
+-- URL: http://wow-pro.com/node/3270/revisions/27505/view
+-- Date: 2016-07-31 12:01
+-- Who: tubera
+-- Log: Change Noggle's last hope to use QO tags.
+
+-- URL: http://wow-pro.com/node/3270/revisions/26466/view
 -- Date: 2014-06-02 16:13
 -- Who: Ludovicus
 -- Log: added mean level
@@ -125,8 +135,10 @@ T Deadly Desert Venom|QID|8277|M|55.34,36.31|N|To Beetix Ficklespragg.|
 A Noggle's Last Hope|QID|8278|PRE|8277|M|55.34,36.31|N|From Beetix Ficklespragg.|
 
 C Stepping Up Security|QID|8281|M|43.69,52.01|N|Kill 20 Dredge Crushers.|S|
-l Stonelash Pincer Stingers|QID|8278|M|46.01,50.69|L|20374 3|N|Kill and loot Stonelash Pincers.|
-C Noggle's Last Hope|QID|8278|M|49.51,75.66|N|Kill and loot Stonelash Flayers and Rock Stalkers. (Note: they may share spawn spots)|
+C Stonelash Pincer Stingers|QID|8278|M|46.01,50.69|QO|2|N|Kill and loot Stonelash Pincers.|
+C Noggle's Last Hope|QID|8278|M|49.51,75.66|QO|3|N|Kill and loot Rock Stalkers.|S
+C Noggle's Last Hope|QID|8278|M|49.51,75.66|QO|1|N|Kill and loot Stonelash Flayers|
+C Noggle's Last Hope|QID|8278|M|49.51,75.66|QO|3|N|Kill and loot Rock Stalkers.|US
 C Stepping Up Security|QID|8281|M|60,55;43.69,52.01;34,36|CN|N|Go between the waypoints and finish killing 20 Dredge Crushers.|US|
 T Stepping Up Security|QID|8281|M|54.88,35.95|N|To Windcaller Proudhorn.|
 T Noggle's Last Hope|QID|8278|M|55.39,36.28|N|To Beetix Ficklespragg.|
@@ -150,12 +162,12 @@ A The Twilight Lexicon|QID|8279|M|68.65,62.99|N|From Hermit Ortell.|
 T Report to General Kirika|QID|9416|M|54.63,62.86|N|To General Kirika.|FACTION|Horde|
 A Scouring the Desert|RANK|3|QID|9422|M|54.63,62.86|N|From General Kirika. NOTE: This PVP quest and is optional, it's up to you to complete it on your own.|FACTION|Horde|
 
-l Twilight Lexicon - Chapter 2|QID|8279|M|24.75,77.23|L|20395|T|Twilight Keeper Exeter|N|Kill and loot Twilight Keeper Exeter. He is way back in the back of the camp.|
+C The Twilight Lexicon|QID|8279|M|24.75,77.23|QO|2|T|Twilight Keeper Exeter|N|Kill and loot Twilight Keeper Exeter. He is way back in the back of the camp.|
 
 H Cenarion Hold|QID|9415|M|55.51,36.72|N|If your hearth isn't up or you didn't set it there, skip this step since it is near Cenarion Hold anyways.|
 
-l Twilight Lexicon - Chapter 3|QID|8279|M|45.82,39.06|L|20396|T|Twilight Keeper Havunth|N|Kill and loot Twilight Keeper Havunth.|
-C The Twilight Lexicon|QID|8279|M|33.51,34.56|T|Twilight Keeper Mayna|N|Kill and loot Twilight Keeper Mayna.|
+C Twilight Lexicon|QID|8279|M|45.82,39.06|QO|3|T|Twilight Keeper Havunth|N|Kill and loot Twilight Keeper Havunth.|
+C The Twilight Lexicon|QID|8279|M|33.51,34.56|QO|1|T|Twilight Keeper Mayna|N|Kill and loot Twilight Keeper Mayna.|
 
 T Report to Marshal Bluewall|QID|9415|M|39.56,46.93|N|To Marshal Bluewall|FACTION|Alliance|
 A Scouring the Desert|RANK|3|QID|9419|M|39.56,46.93|N|From Marshal Bluewall NOTE: This PVP quest and is optional, it's up to you to complete it on your own.|FACTION|Alliance|
