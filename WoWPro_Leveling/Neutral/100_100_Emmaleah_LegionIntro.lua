@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3659
+-- Date: 2016-07-30 20:57
+-- Who: Ludovicus
+-- Log: Added missing M tag
+
+-- URL: http://wow-pro.com/node/3659/revisions/27473/view
+-- Date: 2016-07-30 00:45
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionIntro', 'Leveling', 'Dalaran', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,100, 100, 100.0)
 WoWPro:GuideNextGuide(guide, 'EmmAzsuna')
@@ -16,7 +25,7 @@ T The Legion Returns|QID|43926|M|46.01,13.94|Z|Durotar|N|To Holgar Stormaxe.|FAC
 A To Be Prepared|QID|44281|M|46.01,13.94|Z|Durotar|N|From Holgar Stormaxe.|FACTION|HORDE|PRE|43926|
 C To Be Prepared|QID|44281|NC|QO|3|M|47.76,13.46|Z|Durotar|N|Click on the food to eat your last meal.|FACTION|HORDE|PRE|43926|
 C To Be Prepared|QID|44281|NC|QO|1|M|49.65,14.20|Z|Durotar|N|Click on the keg to polish your armor.|PRE|43926|
-l Optional - consumables|QID|44281|NC|50.11,13.77|Z|Durotar|N|Click on the cauldren to pick up 10 +food/+mana/+fdamage items. (optional).|L|141295|FACTION|HORDE|ACTIVE|44281|
+l Optional - consumables|QID|44281|NC|M|50.11,13.77|Z|Durotar|N|Click on the cauldron to pick up 10 +food/+mana/+fdamage items. (optional).|L|141295|FACTION|HORDE|ACTIVE|44281|
 C To Be Prepared|QID|44281|NC|QO|2|M|51.37,12.26|Z|Durotar|N|Click on the sun sphere to empower your weapon.|FACTION|HORDE|PRE|43926|
 C To Be Prepared|QID|44281|CHAT|QO|4|M|52.50,11.04|Z|Durotar|N|Challenge on of the NPC's standing around here to a duel.|FACTION|HORDE|PRE|43926|
 T To Be Prepared|QID|44281|M|55.66,11.05|Z|Durotar|N|To Stone Guard Mukar.|FACTION|HORDE|PRE|43926|

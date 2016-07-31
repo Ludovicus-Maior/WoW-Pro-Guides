@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2016-07-30 21:07
+-- Who: Ludovicus
+-- Log: Syntax Fix
+
+-- URL: http://wow-pro.com/node/3197/revisions/27492/view
 -- Date: 2016-07-30 19:21
 -- Who: tubera
 -- Log: Remove class quests, they're no longer available. Join the battle now offered by McBride. Add Missing note tag to Fear no Evil (warrior)
@@ -287,7 +292,7 @@ A Join the Battle!|QID|28785|C|Paladin|R|Human|M|33.55,53.00|N|To Marshal McBrid
 A Join the Battle!|QID|28784|C|Mage|R|Human|M|33.55,53.00|N|To Marshal McBride.|
 A Join the Battle!|QID|28780|C|Hunter|R|Human|M|33.55,53.00|N|To Marshal McBride.|
 A Join the Battle!|QID|31143|C|Monk|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A Join the Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|34.80,54.79|N|M|33.55,53.00|N|To Marshal McBride.|
+A Join the Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|33.55,53.00|N|To Marshal McBride.|
 T Join the Battle!|QID|28788|C|Warlock|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
 T Join the Battle!|QID|28787|C|Rogue|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
 T Join the Battle!|QID|28786|C|Priest|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|

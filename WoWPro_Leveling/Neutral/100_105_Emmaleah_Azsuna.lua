@@ -3,9 +3,18 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3657
+-- Date: 2016-07-30 21:01
+-- Who: Ludovicus
+-- Log: Syntax fixes
+
+-- URL: http://wow-pro.com/node/3657/revisions/27463/view
+-- Date: 2016-07-30 20:51
+-- Who: Ludovicus
+
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,98, 105)
-WoWPro:GuideNextGuide(guide, 'nil')
+WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -58,7 +67,7 @@ C Dark Revelations|QID|37449|QO|3|M|43.57,43.28|Z|Azsuna|N|Meet back at Illidari
 T Dark Revelations|QID|37449|M|43.56,43.46|Z|Azsuna|N|To Kayn Sunfury.|
 A Journey to the Repose|QID|38443|M|43.55,43.42|Z|Azsuna|N|From Archmage Khadgar.|
 
-R Azurewing Repose|QID|38443|M|40.85,36.59;47.71,28.60|Z|Azsuna|N|Ride to Azurewing Repose.|
+R Azurewing Repose|QID|38443|M|40.85,36.59;47.71,28.60|CS|Z|Azsuna|N|Ride to Azurewing Repose.|
 f Azurewing Repose|QID|38443|M|48.43,28.08|Z|Azsuna|N|At Dagrona.|
 T Journey to the Repose|QID|38443|M|47.94,27.19|Z|Azsuna|N|To Archmage Khadgar.|
 A The Death of the Eldest|QID|37853|M|47.94,27.19|Z|Azsuna|N|From Archmage Khadgar.|
@@ -109,7 +118,7 @@ C You Scratch My Back...|QID|37860|QO|1|M|56.00,14.75|Z|Azsuna|N|Click on your s
 C You Scratch My Back...|QID|37860|QO|4|M|56.90,14.01|Z|Azsuna|N|Click on your special action button to send in the whelplings to disable the eastern mana pylon.|
 T You Scratch My Back...|QID|37860|M|56.90,14.01|Z|Azsuna|N|To UI Alert.|
 R Treasure chest|QID|37861|M|57.89,12.23|Z|Azsuna|N|Treasure chest containing items and resources.|
-C The Nightborne Prince|QID|37861|QO|1|M|56.12,13.3; 57.58,12.44|Z|Azsuna|N|Stairway up to Ael'Yith starts here.|T|Ael'Yith|
+C The Nightborne Prince|QID|37861|QO|1|M|56.12,13.3; 57.58,12.44|Z|Azsuna|N|Stairway up to Ael'Yith starts here.|CS|T|Ael'Yith|
 T The Nightborne Prince|QID|37861|M|57.55,13.52|Z|Azsuna|N|To Stellagosa.|
 A Still Alive|QID|37862|M|57.55,13.52|Z|Azsuna|N|After you accept the quest from Stellagosa, hop on for a ride back to Azurewing Repose.|
 T Still Alive|QID|37862|M|49.92,26.55|Z|Azsuna|N|To Stellagosa after she lands.|
@@ -247,7 +256,7 @@ A Wrath of Azshara|QID|38286|M|61.70,41.08|N|From Prince Farondis. Thia ia a dun
 C Back from the Dead|QID|42694|QO|3|M|56.21,42.24|N|1/1 Search the eastern colonnade|
 C Back from the Dead|QID|42694|QO|4|M|54.47,45.56|N|1/1 Search near the plaza fountain|
 T Back from the Dead|QID|42694|M|53.30,45.43|N|To Olothil Starlance.|
-K Golza the Iron Fin|QID||M|65.17,40.02|N|Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091,138839|T|Golza the Iron Fin|
+K Golza the Iron Fin|M|65.17,40.02|N|Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091,138839|T|Golza the Iron Fin|
 
 R Felblaze Ingress|QID|42372|M|63.86,28.92|N|Ride to the Felblaxe Ingress.|
 T Felblaze Ingress|QID|42372|M|63.86,28.92|N|To Tehd Shoemaker.|
@@ -284,9 +293,9 @@ C This IS In My Contract.|QID|38237|QO|1|M|64.11,52.88|Z|Azsuna|N|Speak with Dag
 C This IS In My Contract.|QID|38237|QO|2|M|63.52,53.24|Z|Azsuna|T|Sharazaan|
 T This IS In My Contract.|QID|38237|M|62.70,51.47|Z|Azsuna|N|To Daglop.|
 
-K Syphonus|QID||M|67.12,51.64|N|When approaching, beware of the level 110 Hostile NPCs in the area (and avoid them).  Rare mob drops a bit of treasure and resources|T|Syphonus|ITEM|129064|
-K The Oracle|QID||M|59.76,54.65;59.69,55.17|CS|N|Go up the stairs starting at the first marked spot.  Rare mob drops a bit of treasure and resources|T|The Oracle|ITEM|129065|
-K Disputed Treasure|QID|38365|55.87,56.87|N|Kill the npcs agueing over the treasure chest then you can loot it for a bit of treasure and resources.|
+K Syphonus|M|67.12,51.64|N|When approaching, beware of the level 110 Hostile NPCs in the area (and avoid them).  Rare mob drops a bit of treasure and resources|T|Syphonus|ITEM|129064|
+K The Oracle|M|59.76,54.65;59.69,55.17|CS|N|Go up the stairs starting at the first marked spot.  Rare mob drops a bit of treasure and resources|T|The Oracle|ITEM|129065|
+K Disputed Treasure|QID|38365|M|55.87,56.87|N|Kill the npcs agueing over the treasure chest then you can loot it for a bit of treasure and resources.|
 
 f Shackle's Den|QID|37654|M|56.19,58.93|N|At Avaya Farwind.|
 A Maritime Law|QID|37654|M|56.60,59.59|Z|Azsuna|N|From Mr. Shackle.|
@@ -326,7 +335,7 @@ A Round 1, Fight!|QID|37538|M|47.93,48.67|Z|Azsuna|N|From Sternfathom.|
 C Round 1, Fight!|QID|37538|M|47.93,48.67|Z|Azsuna|N|Tell Sternfathom you are ready.|
 T Round 1, Fight!|QID|37538|M|43.62,24.67|Z|Azsuna|N|To Okuna's pack.|
 A Plunder the Cove|QID|37495|M|43.62,24.67|Z|Azsuna|N|Bonus objective you may as well do while you are here.|
-A The Right Weapon for the Job|QID|37565|M|43.62,24.67|Z|Azsuna|From Okuna's pack.|
+A The Right Weapon for the Job|QID|37565|M|43.62,24.67|Z|Azsuna|N|From Okuna's pack.|
 C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|S|N|Click on the quest item whenever you are near some prisoners.|
 A A Favor for Mr. Shackle|QID|38857|M|50.35,60.98|Z|Azsuna|N|From Seska Seafang.|
 C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|Z|Azsuna|N|Grace the Green rescued|
