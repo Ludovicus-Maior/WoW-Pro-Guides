@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2016-08-01 01:46
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3232/revisions/27466/view
+-- Date: 2016-07-17 20:18
+-- Who: Ludovicus
+-- Log: Got rid of the use of fake QIDs
+
+-- URL: http://wow-pro.com/node/3232/revisions/26459/view
 -- Date: 2014-06-02 15:27
 -- Who: Ludovicus
 -- Log: Set Levels
