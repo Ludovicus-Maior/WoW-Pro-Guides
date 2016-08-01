@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-01 13:42
+-- Who: tubera
+-- Log: Heart of the Breakers: Added missing step Heart of Gorgorek. Changed K steps to C steps so they would autocomplete. Added some N tags where it was unclear what to do. Fixed Zones on last step. Added basic F step to fly to Gorgrond.
+
+-- URL: http://wow-pro.com/node/3648/revisions/27508/view
 -- Date: 2016-07-31 19:58
 -- Who: tubera
 -- Log: Cleaned up Broken Precipe. Added zone tags; Flight option from garrison; Stickied Ogre Onslaught.
@@ -217,12 +222,13 @@ A Out of the Shadows|QID|36290|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Trol
 T Out of the Shadows|QID|36290|M|38.34,36.95|N|To Rokhan|
 
 ; Heart of the Breakers -- Mostly Neutral
-; A Garrison Campaign: Crows In The Field|QID|34409|M|47.0,88.8|N|From Morthis Whisperwing|
+; A Garrison Campaign: Crows In The Field|QID|34409|M|47.0,88.8|N|From Morthis Whisperwing
 ; A Garrison Campaign: Crows In The Field|QID|34335|M|69.4,9.0|N|From Choluna|
+F Gorgrond|ACTIVE|34409;34335|N|Fly to your base in Gorgrond
 T Garrison Campaign: Crows In The Field|QID|34409;34335|M|39.8,37.0|Z|Gorgrond|N|To Thisalee Crow|
 A Ambushing the Enemy|QID|34336|PRE|34409;34335|M|39.8,37.0|Z|Gorgrond|N|From Thisalee Crow|
 C Caravan Shipment|QID|34336|M|42.5,39.4|Z|Gorgrond|N|Caravan Shipment|QO|1|S|
-K Lieutenant O'rok|ACTIVE|34336|M|40.4,40.4|Z|Gorgrond|T|Lieutenant O'rok|QO|2|
+C Ambushing the Enemy|QID|34336|M|40.4,40.4|Z|Gorgrond|T|Lieutenant O'rok|QO|2|N|Kill and loot Lieutenant O'rok
 A Bladefury's Orders|QID|34347|PRE|34409;34335|M|40.4,40.3|Z|Gorgrond|N|From Bladefury's Orders|
 C Caravan Shipment|QID|34336|M|42.5,39.4|Z|Gorgrond|N|Caravan Shipment|QO|1|US|
 T Ambushing the Enemy|QID|34336|M|39.8,37.0|Z|Gorgrond|N|To Thisalee Crow|
@@ -233,19 +239,19 @@ T The Giant Cauldron|QID|34337|M|54.2,56.0|Z|Gorgrond|N|To Thisalee Crow|
 A The Descent|QID|34338|PRE|34337|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|
 A A Goren's Feast|QID|34339|PRE|34337|M|54.2,55.8|Z|Gorgrond|N|From Choluna|
 A Heating Up|QID|34340|PRE|34337|M|54.2,56.0|Z|Gorgrond|N|From Aren Mistshade|
-C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|S|
-C Hissing Geyser|QID|34340|M|37.58, 75.06|Z|Cragplume Depths@Gorgrond|QO|1|U|110288|
+C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|S|Z|Gorgrond
+C Hissing Geyser|QID|34340|M|37.58, 75.06|Z|Cragplume Depths|QO|1|U|110288|
 C The Descent|QID|34338|M|52.53, 53.76|Z|Gorgrond|N|Go all the way down, where you will see a small yellow arrow.|QO|1|
-K Abyssal Earthwarden|ACTIVE|34338|QO|2|N|Wait for the Earthwarden to spawn.  He might take awhile, depending on when he was last killed.|
-C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|US|
-T The Descent|QID|34338|M|54.2,56.0|Z|Gorgrond|N|To Thisalee Crow|
+C The Descent|QID|34338|QO|2|N|Kill the Earthwarden. He might take awhile to spawn, depending on when he was last killed.
+C The Descent|QID|34338|QO|3|N|Click the Heart of Gorgorek (The round thing behind the Earthwarden).
+C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|US|Z|Gorgrond
+T The Descent|QID|34338|M|54.2,56.0|Z|Gorgrond|N|Go to the central chamber and watch the cutscene, step into the sparkly geyser to be thrown up. Hand in to Thisalee Crow|
 T A Goren's Feast|QID|34339|M|39.8,37.0|Z|Gorgrond|N|To Choluna|
 T Heating Up|QID|34340|M|40.0,37.0|Z|Gorgrond|N|To Aren Mistshade|
-A The Beating Heart|QID|34410|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Alliance|
-T The Beating Heart|QID|34410|M|47.0,88.4|Z|Gorgrond|N|To Morthis Whisperwing|FACTION|Alliance|
-A The Beating Heart|QID|34410|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Horde|
-T The Beating Heart|QID|34410|M|47.0,88.4|Z|Gorgrond|N|To Morthis Whisperwing|FACTION|Horde|
-
+A The Beating Heart|QID|34410|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Alliance|Z|Gorgrond
+T The Beating Heart|QID|34410|M|47.0,88.4|N|To Morthis Whisperwing|FACTION|Alliance|Z|Lunarfall
+A The Beating Heart|QID|34341|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Horde|
+T The Beating Heart|QID|34341|M|47.0,88.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall
 ; A Strike at the Heart -- Faction Specific
 ; A Garrison Campaign: Every Rose Has Its Thorn|QID|36160|M|29.25,33.13|N|From Baros Alexston|FACTION|Alliance|
 C Azerothian Rose|QID|36160|M|57.9,57.5|N|In your Garrison Garden.|FACTION|Alliance|
