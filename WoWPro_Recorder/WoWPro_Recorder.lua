@@ -135,7 +135,8 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 		
 	elseif event == "UI_INFO_MESSAGE" then
 		WoWPro.Recorder:dbp("UI_INFO_MESSAGE detected.")
-		if ... == ERR_NEWTAXIPATH then
+		local _, msg = ...
+		if msg == ERR_NEWTAXIPATH then
 			local stepInfo = {
 				action = "f",
 				step = GetSubZoneText() or GetZoneText(),

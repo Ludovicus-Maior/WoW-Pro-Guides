@@ -43,8 +43,9 @@ end
 
 -- Auto-Complete: Get flight point --
 function WoWPro:AutoCompleteGetFP(...)
+    local _, msg = ...
 	local index = WoWPro.rows[1].index
-	if ... == ERR_NEWTAXIPATH and WoWPro.action[index] == "f" 
+	if msg == ERR_NEWTAXIPATH and WoWPro.action[index] == "f"
 	and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
 		WoWPro.CompleteStep(index, "AutoCompleteGetFP")
 	end
