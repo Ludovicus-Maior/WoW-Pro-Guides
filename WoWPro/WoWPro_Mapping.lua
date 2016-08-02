@@ -489,9 +489,12 @@ function WoWPro:MapPoint(row)
 	-- Using LightHeaded if the user has it and if there aren't coords from anything else --
 	if LightHeaded and WoWPro.QID and WoWPro.QID[i] and not coords then
 		if type(WoWPro.QID[i]) ~= "number" then return end
-		local npcid, npcname, stype
-		if WoWPro.action[i]=="A" then _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i])
-		else _, _, _, _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i]) end
+		local _, npcid, npcname, stype
+		if WoWPro.action[i]=="A" then
+		     _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i])
+		else
+		     _, _, _, _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i])
+		end
 		if stype == "npc" then
 			local data = LightHeaded:LoadNPCData(tonumber(npcid))
 			if not data then return end

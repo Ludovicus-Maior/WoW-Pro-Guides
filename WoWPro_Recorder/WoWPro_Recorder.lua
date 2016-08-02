@@ -518,11 +518,14 @@ end
 ---WoWPro:GuideSteps(guide, function()
 ---return [[
 
-local function addTag(line, tag, value)
+local function addTagValue(line, tag, value)
 	line = line..tag.."\|"
-	if value then
-		line = line..tostring(value).."\|"
-	end
+	line = line..tostring(value).."\|"
+	return line
+end
+
+local function addTag(line, tag)
+	line = line..tag.."\|"
 	return line
 end
 
@@ -534,34 +537,38 @@ function WoWPro.Recorder.EmitStep(i)
 
     local line = WoWPro.action[i].." "..WoWPro.step[i].."|"
     
-    if WoWPro.QID[i] then line = addTag(line, "QID", tostring(WoWPro.QID[i])) end
-    if WoWPro.optional[i] then line = addTag(line, "O") end
-    if WoWPro.rank[i] then line = addTag(line, "RANK", WoWPro.rank[i]) end
-    if WoWPro.noncombat[i] then line = addTag(line, "NC") end
-    if WoWPro.level[i] then line = addTag(line, "LVL", WoWPro.level[i]) end
-    if WoWPro.prof[i] then line = addTag(line, "P", WoWPro.prof[i]) end
-    if WoWPro.waypcomplete[i] == 1 then line = addTag(line, "CC")
-    elseif WoWPro.waypcomplete[i] == 2 then line = addTag(line, "CS") end
-    if WoWPro.prereq[i] then line = addTag(line, "PRE", WoWPro.prereq[i]) end
-    if WoWPro.leadin[i] then line = addTag(line, "LEAD", WoWPro.leadin[i]) end
-    if WoWPro.use[i] then line = addTag(line, "U", WoWPro.use[i]) end
-    if WoWPro.lootitem[i] then
-    	line = line.."L|"..WoWPro.lootitem[i]
-    	if WoWPro.lootqty[i] then
-    		line = line.." "..WoWPro.lootqty[i].."|"
-    	else
-    		line = line.."|"
-    	end
+    for idx=1,#WoWPro.TagList do
+        local tag = WoWPro.TagList[idx]
+        local key = WoWPro.TagTable[tag].key
+        -- Special tags get handled first
+        if key == "lootitem" then
+            if WoWPro.lootqty[i] then
+                line = addTagValue(line, tag, WoWPro.lootitem[i].." "..WoWPro.lootqty[i])
+            else
+                line = addTagValue(line, tag, WoWPro.lootitem[i])
+            end
+        elseif tag == "CC" then
+            if WoWPro.waypcomplete[i] == 1 then
+                line = addTag(line, "CC")
+            elseif WoWPro.waypcomplete[i] == 2 then
+                line = addTag(line, "CS")
+            elseif WoWPro.waypcomplete[i] == false
+                line = addTag(line, "CN")
+            end
+        elseif tag == "CS" or "CN" then
+            line = line
+        elseif WoWPro.TagTable[tag].vtype == "boolean" then
+            -- No value
+            if WoWPro[key][i] then
+                line = addTag(line, tag)
+            end
+        else
+            -- Everything else is a value
+            if WoWPro[key][i] then
+                line = addTagValue(line, tag, WoWPro[key][i])
+            end
+        end
     end
-    if WoWPro.target[i] then line = addTag(line, "T", WoWPro.target[i]) end
-    if WoWPro.questtext[i] then line = addTag(line, "QO", WoWPro.questtext[i]) end
-    if WoWPro.sobjective[i] then line = addTag(line, "SO", WoWPro.sobjective[i]) end
-    if WoWPro.map[i] then line = addTag(line, "M", WoWPro.map[i]) end
-    if WoWPro.zone[i] then line = addTag(line, "Z", WoWPro.zone[i]) end
-    if WoWPro.note[i] then line = addTag(line, "N", WoWPro.note[i]) end
-    if WoWPro.sticky[i] then line = addTag(line, "S") end
-    if WoWPro.unsticky[i] then line = addTag(line, "US") end
-
     return line
 end
 

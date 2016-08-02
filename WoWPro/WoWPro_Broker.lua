@@ -1217,6 +1217,7 @@ function WoWPro:PopulateQuestLog()
 		    questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isStory = GetQuestLogTitle(i)
 		local leaderBoard
 		local ocompleted
+		local _
 		if not questTitle and (num < numQuests) then
 		     WoWPro:Error("PopulateQuestLog: return value from GetQuestLogTitle(%d) is nil.",i)
 		end

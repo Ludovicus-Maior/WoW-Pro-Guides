@@ -205,7 +205,7 @@ function WoWPro:CreateTab(name, parent)
 	tab:SetBackdropColor(0.1, 0.1, 0.1, 1)
 	tab:RegisterForClicks("anyUp")
 	
-	tab.border = tab:CreateTexture('border')
+	tab.border = tab:CreateTexture()
 	tab.border:SetAllPoints(tab)
 	tab.border:SetPoint("BOTTOM", 0, 5)
 	tab.border:SetTexture("Interface\\OPTIONSFRAME\\UI-OptionsFrame-InactiveTab")

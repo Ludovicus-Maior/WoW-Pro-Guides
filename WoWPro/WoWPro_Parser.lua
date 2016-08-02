@@ -135,26 +135,39 @@ function WoWPro.UnSkipStep(index)
 end
 
 
-local TagTable = {}
+WoWPro.TagTable = {} -- Indexed by tag
+WoWPro.TagList = {}  -- In order of definition
 local function DefineTag(action, key, vtype, validator, setter)
-    TagTable[action] = {key=key, vtype=vtype, validator=validator, setter=setter}
+    WoWPro.TagTable[action] = {key=key, vtype=vtype, validator=validator, setter=setter}
     if key then
         WoWPro.Tags[key]=true
         WoWPro[key] = {}
+        table.insert(WoWPro.TagList, action)
     end
 end
 
-DefineTag("N","note","string",nil,nil)
+-- QID Tags first
 DefineTag("QID","QID","string",nil,nil)
-DefineTag("M","map","string",nil,nil)
-DefineTag("S","sticky","boolean",nil, function (text,i)
-    WoWPro.sticky[i] = true;
-    WoWPro.stickycount = WoWPro.stickycount + 1;
+DefineTag("PRE","prereq","string",nil,nil)
+DefineTag("AVAILABLE","available","string",nil,nil)
+DefineTag("O","optional","boolean",nil,function (text,i)
+    WoWPro.optional[i] = true;
+    WoWPro.optionalcount = WoWPro.optionalcount + 1;
 end)
-DefineTag("US","unsticky","boolean",nil,nil)
-DefineTag("U","use","number",nil,nil)
+DefineTag("LEAD","leadin","string",nil,nil)
+DefineTag("ACTIVE","active","string",nil,nil)
+DefineTag("NPC","NPC","string",nil,nil)
+
+-- Mapping Tags
+DefineTag("M","map","string",nil,nil)
+DefineTag("Z","zone","string",nil,nil)
+DefineTag("CC","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
+DefineTag("CS","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
+DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = false; end)
+
+-- Item or Quest Objective Tags
 DefineTag("L","lootitem","string",nil,function (text,i)
-    _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)");
+    local _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)");
     -- WoWPro:dbp("L [%s]/[%s]",WoWPro.lootitem[i], WoWPro.lootqty[i])
 	if WoWPro.lootitem[i] then
     	if tonumber(WoWPro.lootqty[i]) ~= nil then
@@ -166,39 +179,26 @@ DefineTag("L","lootitem","string",nil,function (text,i)
 end)    
 DefineTag("QO","questtext","string",nil,nil)
 DefineTag("SO","sobjective","string",nil,nil)
-DefineTag("O","optional","boolean",nil,function (text,i)
-    WoWPro.optional[i] = true;
-    WoWPro.optionalcount = WoWPro.optionalcount + 1;
-end)
-DefineTag("PRE","prereq","string",nil,nil)
-DefineTag("AVAILABLE","available","string",nil,nil)
-DefineTag("CC","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
-DefineTag("CS","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
-DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = false; end)
+DefineTag("U","use","number",nil,nil)
+DefineTag("ITEM","item","string",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
 DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("LVL","level","string",nil,nil)
-DefineTag("LEAD","leadin","string",nil,nil)
-DefineTag("ACTIVE","active","string",nil,nil)
 DefineTag("T","target","string",nil,nil)
+DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
+
+-- Conditionals
 DefineTag("REP","rep","string",nil,nil)
 DefineTag("P","prof","string",nil,nil)
-DefineTag("RANK","rank","number",nil,nil)
 DefineTag("SPELL","spell","string",nil,nil)
-DefineTag("NPC","NPC","string",nil,nil)
 DefineTag("ACH","ach","string",nil,nil)
 DefineTag("BUFF","buff","string",nil,nil)
 DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
-DefineTag("ITEM","item","string",nil,nil)
 DefineTag("GUIDE","guide","string",nil,nil)
-DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
-DefineTag("Z","zone","string",nil,nil)
-DefineTag("FACTION","faction","string",nil,nil)
-DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R Tags
-DefineTag("C",nil,"string",nil,function (value,i) end)  -- Swallow C tags
-DefineTag("GEN",nil,"string",nil,function (value,i) end)  -- Swallow Gen tags
+
+-- Pet Stuff
 DefineTag("PET1","pet1","string",nil,nil)
 DefineTag("PET2","pet2","string",nil,nil)
 DefineTag("PET3","pet3","string",nil,nil)
@@ -208,13 +208,26 @@ DefineTag("SWITCH","switch","number",nil,nil)
 DefineTag("DEAD","dead","string",nil,nil)
 
 
+-- Stuff at the end
+DefineTag("US","unsticky","boolean",nil,nil)
+DefineTag("S","sticky","boolean",nil, function (text,i)
+    WoWPro.sticky[i] = true;
+    WoWPro.stickycount = WoWPro.stickycount + 1;
+end)
+DefineTag("N","note","string",nil,nil)
+DefineTag("FACTION","faction","string",nil,nil)
+DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R Tags
+DefineTag("C",nil,"string",nil,function (value,i) end)  -- Swallow C tags
+DefineTag("GEN",nil,"string",nil,function (value,i) end)  -- Swallow Gen tags
+DefineTag("RANK","rank","number",nil,nil)
+
 function WoWPro.ParseQuestLine(faction, zone, i, text)
 	local GID = WoWProDB.char.currentguide
 		
 		
 	text = string.trim(text)
 	-- Printing anything with a | is dangerous.  Map it to a ¦
-	atext = text:gsub("|", "¦")
+	local atext = text:gsub("|", "¦")
 	if text == "" or string.sub(text,1,1) == ";" then
 	    -- empty lines or comments are ignored
 	    return
@@ -258,7 +271,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	repeat
 	    local tag = tags[idx]
 	    tag = tag and tag:trim() -- clean it up
-	    local tag_spec = TagTable[tag]
+	    local tag_spec = WoWPro.TagTable[tag]
 	    local value = nil
 	    if tag_spec then
 	        if tag_spec.key and not WoWPro[tag_spec.key] then
@@ -889,7 +902,9 @@ function WoWPro:RowUpdate(offset)
 			QuestMapUpdateAllQuests()
 			QuestPOIUpdateIcons()
 			local _, x, y, obj
-			if QID and tonumber(QID) then _, x, y, obj = QuestPOIGetIconInfo(tonumber(QID)) end
+			if QID and tonumber(QID) then
+			    _, x, y, obj = QuestPOIGetIconInfo(tonumber(QID))
+			end
 			if coord or x then
 				table.insert(dropdown, 
 					{text = "Map Coordinates", func = function()

@@ -652,7 +652,7 @@ end
 
 -- Skip Steps Dialog --
 function WoWPro:CreateSkipStepsDialog()
-	local frame, titletext = WoWPro:CreateDialogBox("Skip Steps", 250, 250)
+	local frame, titletext = WoWPro:CreateDialogBox("WoWPro_SkipSteps", 250, 250)
 	frame:SetClampedToScreen(true)
 	
 	local explanation = frame:CreateFontString()
@@ -662,7 +662,7 @@ function WoWPro:CreateSkipStepsDialog()
 	explanation:SetWidth(frame:GetWidth()-20)
 	explanation:SetTextColor(1, 1, 1)
 
-	local button1 = CreateFrame("Button", "Okay", frame, "OptionsButtonTemplate")
+	local button1 = CreateFrame("Button", "WoWPro_SkipOkay", frame, "OptionsButtonTemplate")
 	button1:SetPoint("TOP", titletext, "BOTTOM", 0, -5)
 	button1:SetHeight(25)
 	button1:SetWidth(160)
@@ -675,7 +675,7 @@ function WoWPro:CreateSkipStepsDialog()
 		WoWPro.SkipStepsDialog:Hide()
 	end) 
 
-	local button2 = CreateFrame("Button", "Cancel", frame, "OptionsButtonTemplate")
+	local button2 = CreateFrame("Button", "WoWPro_SkipCancel", frame, "OptionsButtonTemplate")
 	button2:SetPoint("TOP", titletext, "BOTTOM", 0, -30)
 	button2:SetHeight(25)
 	button2:SetWidth(160)
@@ -708,9 +708,9 @@ end
 -- Next Guide Dialog --
 function WoWPro:CreateNextGuideDialog()
 	
-	local frame, titletext = WoWPro:CreateDialogBox("Guide Completed", 180, 150)
+	local frame, titletext = WoWPro:CreateDialogBox("WoWPro_GuideCompleted", 180, 150)
 
-	local button1 = CreateFrame("Button", "LoadNextGuide", frame, "OptionsButtonTemplate")
+	local button1 = CreateFrame("Button", "WoWPro_LoadNextGuide", frame, "OptionsButtonTemplate")
 	button1:SetPoint("BOTTOMLEFT", 10, 80)
 	button1:SetHeight(25)
 	button1:SetWidth(160)
@@ -724,7 +724,7 @@ function WoWPro:CreateNextGuideDialog()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 
-	local button2 = CreateFrame("Button", "OpenWoWPro_Leveling.GuideList", frame, "OptionsButtonTemplate")
+	local button2 = CreateFrame("Button", "WoWPro_OpenLevelingGuidelist", frame, "OptionsButtonTemplate")
 	button2:SetPoint("BOTTOMLEFT", 10, 45)
 	button2:SetHeight(25)
 	button2:SetWidth(160)
@@ -739,7 +739,7 @@ function WoWPro:CreateNextGuideDialog()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 
-	local button3 = CreateFrame("Button", "OpenWoWPro_Leveling.GuideList", frame, "OptionsButtonTemplate")
+	local button3 = CreateFrame("Button", "WoWPro_ResetGuide", frame, "OptionsButtonTemplate")
 	button3:SetPoint("BOTTOMLEFT", 10, 10)
 	button3:SetHeight(25)
 	button3:SetWidth(160)
