@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2016-08-01 23:42
+-- Who: tubera
+-- Log: Remove class quests, move mailbox note to after getting quest. Remove Training notes. Fix a few QO tags.
+
+-- URL: http://wow-pro.com/node/3211/revisions/26869/view
 -- Date: 2014-11-07 22:52
 -- Who: Ludovicus
 -- Log: got rid of extra coords.
@@ -211,7 +216,6 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Zone is Ruins of Gilneas City
-N Check Your Mail |QID|14098|Z|GilneasCity|M|58.94,31.89|N|There's a mailbox a few steps south. You can pick up your Bind on Account items and pets here.|O|
 A Lockdown! |QID|14078|Z|GilneasCity|M|59.11,23.83|N|From Prince Liam Greymane right in front of you.|
 
 T Lockdown! |QID|14078|Z|GilneasCity|M|54.65,16.68|N|Go north and then west along the street to Lieutenant Walden lying on the ground.|
@@ -222,6 +226,8 @@ A All Hell Breaks Loose |QID|14093|Z|GilneasCity|M|59.80,22.23|N|From Prince Lia
 A Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|
 
 A Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.58,26.77|N|Go a few steps south to Gwen Armstead.|
+
+N Check Your Mail |ACTIVE|14094|Z|GilneasCity|M|58.94,31.89|N|There's a mailbox a few steps south. You can pick up your Bind on Account items and pets here.|O|
 
 C All Hell Breaks Loose |QID|14093|N|Kill Rampaging Worgen.|Z|GilneasCity|M|58.8,32.7|S|
 C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|Z|GilneasCity|M|58.8,32.7|S|NC|
@@ -252,31 +258,6 @@ T Someone's Keeping Track of You |QID|14275|Z|GilneasCity|M|71.3,61.4|C|Hunter|N
 T Arcane Inquiries |QID|14277|Z|GilneasCity|M|68.2,64.8|C|Mage|N|Go straight and then take your first right to Myriam Spellwaker.|
 T Seek the Sister |QID|14278|Z|GilneasCity|M|70.5,65.2|C|Priest|N|See Sister Almyra.|
 T The Winds Know Your Name... Apparently |QID|14280|Z|GilneasCity|M|70.2,65.7|C|Druid|N|To Celestine of the Harvest.|
-
-A Charge |QID|14266|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|From Sergeant Cleese.|
-A Eviscerate |QID|14272|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|From Loren the Fence.|
-A Immolate |QID|14274|Z|GilneasCity|M|71.2,64.3|C|Warlock|N|From Vitus Darkwalker.|
-A Steady Shot |QID|14276|Z|GilneasCity|M|71.3,61.4|C|Hunter|N|From Huntsman Blake.|
-A Learning the Word |QID|14279|Z|GilneasCity|M|68.2,64.8|C|Priest|N|From Sister Almyra.|
-A Frost Nova |QID|14281|Z|GilneasCity|M|70.5,65.2|C|Mage|N|From Myriam Spellwaker.|
-A Healing Touch |QID|14283|Z|GilneasCity|M|70.2,65.7|C|Druid|N|From Celestine of the Harvest.|
-
-C Charge |QID|14266|Z|GilneasCity|M|66.9,64.2|C|Warrior|N|Train Charge from your trainer and then practice it on a Bloodfang Worgen.|
-C Eviscerate |QID|14272|Z|GilneasCity|M|66.9,64.2|C|Rogue|N|Train Eviscerate from your trainer and then practice it on a Bloodfang Worgen.|
-C Immolate |QID|14274|Z|GilneasCity|M|66.9,64.2|C|Warlock|N|Train Immolate from your trainer and then practice it on a Bloodfang Worgen.|
-C Steady Shot |QID|14276|Z|GilneasCity|M|66.9,64.2|C|Hunter|N|Train Steady Shot from your trainer and then practice it on a Bloodfang Worgen.|
-C Learning the Word |QID|14279|Z|GilneasCity|M|68.2,64.8|C|Priest|N|Train Flash Heal from your trainer and then practice it on a Wounded Guard.|
-C Frost Nova |QID|14281|Z|GilneasCity|M|66.9,64.2|C|Mage|N|Train Frost Nova from your trainer and then practice it on a Bloodfang Worgen.|
-C Healing Touch |QID|14283|Z|GilneasCity|M|70.2,65.7|C|Druid|N|Train Healing Touch from your trainer and then practice it a Wounded Guard.|
-
-T Charge |QID|14266|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|To Sergeant Cleese.|
-T Eviscerate |QID|14272|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|To Loren the Fence.|
-T Immolate |QID|14274|Z|GilneasCity|M|71.2,64.3|C|Warlock|N|To Vitus Darkwalker.|
-T Steady Shot |QID|14276|Z|GilneasCity|M|71.3,61.4|C|Hunter|N|To Huntsman Blake.|
-T Learning the Word |QID|14279|Z|GilneasCity|M|70.5,65.2|C|Priest|N|To Sister Almyra.|
-T Frost Nova |QID|14281|Z|GilneasCity|M|68.2,64.8|C|Mage|N|To Myriam Spellwaker.|
-T Healing Touch |QID|14283|Z|GilneasCity|M|70.2,65.7|C|Druid|N|To Celestine of the Harvest.|
-
 A Safety in Numbers |QID|14286|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|From Sergeant Cleese.|
 A Safety in Numbers |QID|14285|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|From Loren the Fence.|
 A Safety in Numbers |QID|14287|Z|GilneasCity|M|71.2,64.3|C|Warlock|N|From Vitus Darkwalker.|
@@ -293,7 +274,6 @@ T Safety in Numbers |QID|14289|Z|GilneasCity|M|65.9,77.4|C|Priest|N|To King Genn
 T Safety in Numbers |QID|14288|Z|GilneasCity|M|65.9,77.4|C|Mage|N|To King Genn Greymane.|
 T Safety in Numbers |QID|14291|Z|GilneasCity|M|65.9,77.4|C|Druid|N|To King Genn Greymane.|
 
-N Training in Earnest|QID|14157|Z|GilneasCity|M|65.9,77.4|N|Take a moment and click on the minimap button that looks like a magnifying glass and make sure "class trainer" is enabled.  Then when you level up and get new skills, train at a convenient time.  Your trainers will follow you as you progress.|
 A Old Divisions |QID|14157|Z|GilneasCity|M|65.9,77.4|N|From King Genn Greymane.|
 A While You're At It |QID|24930|Z|GilneasCity|M|65.5,77.4|N|From Lord Godfrey.|
 
@@ -306,7 +286,7 @@ A By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.0,63.1|N|From Lord Dari
 C By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.0,63.1|N|Fight off the attacking Worgen for 2 minutes to complete the quest.|
 T By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.0,63.1|N|To Lord Darius Crowley.|
 A Brothers In Arms |QID|26129|Z|GilneasCity|M|55.0,63.1|N|From Lord Darius Crowley.|
-C While You're At It |QID|24930|Z|GilneasCity|M|58.0,72.0|N|Kill 5 Bloodfang Worgen|US|
+C While You're At It |QID|24930|Z|GilneasCity|M|58.0,72.0|N|Go back down to finish off killing Bloodfang Worgen|US|
 
 T While You're At It |QID|24930|Z|GilneasCity|M|65.5,77.4|N|Leave the balcony along the walkway, get down the stairs and go back southeast to Lord Godfrey.|
 T Brothers In Arms |QID|26129|Z|GilneasCity|M|65.9,77.4|N|To King Genn Greymane.|
@@ -330,7 +310,6 @@ T Save Krennan Aranas |QID|14293|Z|GilneasCity|M|55.8,80.2|N|Turn in to Lord God
 A Time to Regroup |QID|14294|Z|GilneasCity|M|55.8,80.2|N|From Lord Godfrey.|
 
 T Time to Regroup |QID|14294|Z|GilneasCity|M|53.84,84.03;42.80,82.85;30.5,73.3|CS|N|Go west, then south along the streets then through a bridge west into the Greymane Court district. Continue northwest along the street to King Greymane.|
-N Training in Earnest|QID|14212|Z|GilneasCity|M|32.24,73.29|N|Find your trainer here, and train, if you have leveled.|
 A Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.6|N|From Lord Crowley.|
 
 C Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.9|N|Mount Crowley's Horse.  While on the scripted path use your mount's (1) Throw Torch ability to round up 30 worgen. If you do not get 30, ride the horse again.|
@@ -385,12 +364,12 @@ A Two By Sea|QID|14382|Z|Gilneas|M|28.90,63.91|N|From Lord Godfrey.|
 A Save the Children!|QID|14368|Z|Gilneas|M|28.90,63.91|N|From Melinda Hammond.|
 
 C Unleash the Beast|QID|14369|Z|Gilneas|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|S|
-C Talk to James|QID|14368|Z|Gilneas|M|28.56,66.74|QO|James rescued: 1/1|N|James is northwest, next to the house. Right-click James to rescue him.|NC|
-C Talk to Ashley|QID|14368|Z|Gilneas|M|27.92,66.64|QO|Ashley rescued: 1/1|N|Inside the house upstairs. Right-click to rescue her.|NC|
-C Talk to Cynthia|QID|14368|Z|Gilneas|M|29.59,69.18|QO|Cynthia rescued: 1/1|N|Go southeast to the cornfield and find Cynthia near the shed. Right-click her to rescue her.|NC|
+C Talk to James|QID|14368|Z|Gilneas|M|28.56,66.74|QO|3|N|James is northwest, next to the house. Right-click James to rescue him.|NC|
+C Talk to Ashley|QID|14368|Z|Gilneas|M|27.92,66.64|QO|2|N|Inside the house upstairs. Right-click to rescue her.|NC|
+C Talk to Cynthia|QID|14368|Z|Gilneas|M|29.59,69.18|QO|1|N|Go southeast to the cornfield and find Cynthia near the shed. Right-click her to rescue her.|NC|
 
-C Kill Captain Anson|QID|14382|Z|Gilneas|M|25.34,72.20;23.9,75.0|QO|Captain Anson slain: 1/1|CC|N|Go to one of the catapults and kill the Forsaken Machinist operating it. Get into the catapult and aim it on the deck of the ship closer to you to the south. use the catapult's Launch ability to launch yourself onto the ship. Go down the stairs and kill Captain Anson.|
-C Kill Captain Morris|QID|14382|Z|Gilneas|M|29.54,74.23;27.2,80.0|QO|Captain Morris slain: 1/1|CC|N|Go to another catapult, kill the Forsaken Machinist, launch yourself onto the other ship. Go downstairs and kill Captain Morris.|
+C Kill Captain Anson|QID|14382|Z|Gilneas|M|25.34,72.20;23.9,75.0|QO|1|CC|N|Go to one of the catapults and kill the Forsaken Machinist operating it. Get into the catapult and aim it on the deck of the ship closer to you to the south. use the catapult's Launch ability to launch yourself onto the ship. Go down the stairs and kill Captain Anson.|
+C Kill Captain Morris|QID|14382|Z|Gilneas|M|29.54,74.23;27.2,80.0|QO|2|CC|N|Go to another catapult, kill the Forsaken Machinist, launch yourself onto the other ship. Go downstairs and kill Captain Morris.|
 C Unleash the Beast|QID|14369|Z|Gilneas|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|US|
 
 N Sell Junk|QID|14369|Z|Gilneas|M|28.81,63.48|N|Sell Junk at Marie Allen.|
@@ -436,9 +415,10 @@ A Not Quite Shipshape|QID|14404|Z|Gilneas|M|36.84,84.19|N|From Sebastian Hayward
 A Washed Up|QID|14412|Z|Gilneas|M|36.84,84.19|N|From Sebastian Hayward.|
 
 C Washed Up|QID|14412|Z|Gilneas|M|36.83,85.06|N|Kill 6 Forsaken Castaways.|S|
-l Coal Tar|QID|14404|Z|Gilneas|M|37.53,85.96|L|49339|N|Loot the Barrel of Coal Tar.|
-l Shipwright's Tools|QID|14404|Z|Gilneas|M|37.42,87.13|L|49337|N|Loot the Shipwright's Tools, inside the house.|
-C Not Quite Shipshape|QID|14404|Z|Gilneas|M|36.17,86.44|N|Loot the Planks of Wood.|
+; add QO
+l Coal Tar|QID|14404|Z|Gilneas|M|37.53,85.96|L|49339|N|Loot the Barrel of Coal Tar.|QO|3
+l Shipwright's Tools|QID|14404|Z|Gilneas|M|37.42,87.13|L|49337|N|Loot the Shipwright's Tools, inside the house.|QO|1
+C Not Quite Shipshape|QID|14404|Z|Gilneas|M|36.17,86.44|N|Loot the Planks of Wood.|QO|2
 C Washed Up|QID|14412|Z|Gilneas|M|36.83,85.06|N|Kill 6 Forsaken Castaways.|US|
 T Not Quite Shipshape|QID|14404|Z|Gilneas|M|36.88,84.20|N|To Sebastian Hayward.|
 T Washed Up|QID|14412|Z|Gilneas|M|36.88,84.20|N|To Sebastian Hayward.|
@@ -508,28 +488,31 @@ N Sell Junk|QID|24617|Z|Gilneas|M|68.13,74.49|N|Sell Junk.|
 
 T Onwards and Upwards|QID|24672|Z|Gilneas|M|67.51,91.81;71.10,86.90;72.71,80.13|CC|N|To Krennan Aranas.|
 A Betrayal at Tempest's Reach|QID|24592|Z|Gilneas|M|72.71,80.13|N|From Krennan Aranas.|
-K Baron Ashbury|QID|24592|Z|Gilneas|M|79.09,72.63;82.53,68.99;85.23,73.95|CS|QO|Baron Ashbury slain: 1/1|N|Cross the bridge, drink your Krennan's Potion of Stealth. Keep going until you cross another bridge leading to a big house with a large tower. Kill Baron Ashbury, preferably near the back entrance to the house. The dogs can see through the stealth, so be careful.|U|50218|
+K Baron Ashbury|QID|24592|Z|Gilneas|M|79.09,72.63;82.53,68.99;85.23,73.95|CS|QO|1|N|Cross the bridge, drink your Krennan's Potion of Stealth. Keep going until you cross another bridge leading to a big house with a large tower. Kill Baron Ashbury, preferably near the back entrance to the house. The dogs can see through the stealth, so be careful.|U|50218|
 C Betrayal at Tempest's Reach|QID|24592|Z|Gilneas|M|82.07,66.63;80.34,63.97;77.97,66.20|CS|N|Drink your Krennan's Potion of Stealth again, get in the village, follow the road to the top of the hill and kill Lord Walden, preferably inside the house.|U|50218|
 T Betrayal at Tempest's Reach|QID|24592|Z|Gilneas|M|78.27,72.01|N|To King Genn Greymane.|U|50218|
 A Flank the Forsaken|QID|24677|Z|Gilneas|M|78.27,72.01|N|From King Genn Greymane.|
 R Livery Outpost|QID|24677|Z|Gilneas|M|78.36,71.80|N|Speak to Lord Hewell to get a horse which will take you to Livery Outpost.|
 T Flank the Forsaken|QID|24677|Z|Gilneas|M|70.88,39.85|N|To Lorna Crowley.|
+A Liberation Day|QID|24575|Z|Gilneas|M|70.88,39.85|N|From Lorna Crowley.|
 A Last Meal|QID|24675|Z|Gilneas|M|70.76,39.82|N|From Magda Whitewall.|
 A Slaves to No One|QID|24674|Z|Gilneas|M|70.65,39.70|N|From Marcus.|
-A Liberation Day|QID|24575|Z|Gilneas|M|70.88,39.85|N|From Lorna Crowley.|
+
 C Last Meal|QID|24675|Z|Gilneas|M|78.11,43.57|N|Kill Brown Stags until you get 10 Side of Stag Meats.|
 C Liberation Day|QID|24575|Z|Gilneas|M|76.86,29.47|N|Kill Forsaken Slavedrivers, loot their keys and free Enslaved Gilneans while fighting your way through the mine.|S|
 C Slaves to No One|QID|24674|Z|Gilneas|M|76.39,31.27;80.03,25.72;80.30,32.28|CS|N|Brothogg is at the bottom of the mine.|
 C Liberation Day|QID|24575|Z|Gilneas|M|76.86,29.47|N|Free 5 Enslaved Gilneans.|US|
 L Level 11|QID|24575|LVL|11|N|You should be around level 11 by this point.|
 T Slaves to No One|QID|24674|Z|Gilneas|M|71.06,39.77|N|To Marcus.|
-T Liberation Day|QID|24575|Z|Gilneas|M|70.92,39.89|N|To Lorna Crowley.|
 T Last Meal|QID|24675|Z|Gilneas|M|70.69,39.74|N|To Magda Whitewall.|
+T Liberation Day|QID|24575|Z|Gilneas|M|70.92,39.89|N|To Lorna Crowley.|
 A Push Them Out|QID|24676|Z|Gilneas|M|70.88,39.77|N|From Lorna Crowley.|
-N Push Them Out|QID|24676|Z|Gilneas|M|72.61,30.79|QO|Forsaken Infantry slain: 4/4|N|Go northeast to Emberstone Village and kill 4 Forsaken Infantry.|
-N Push Them Out|QID|24676|Z|Gilneas|M|72.85,28.49|QO|Executor Cornell slain: 1/1|N|Kill Executor Cornell (western part of the village, standing under a tent).|
-C Push Them Out|QID|24676|Z|Gilneas|M|74.14,27.45|N|Kill Valnov the Mad (northern part of the village, standing in front of a lab table).|
+C Push Them Out|QID|24676|Z|Gilneas|M|72.61,30.79|QO|1|N|Go northeast to Emberstone Village and kill 4 Forsaken Infantry.|S
+K Push Them Out|QID|24676|Z|Gilneas|M|72.85,28.49|QO|2|N|Kill Executor Cornell (western part of the village, standing under a tent).|
+K Push Them Out|QID|24676|QO|3|Z|Gilneas|M|74.14,27.45|N|Kill Valnov the Mad (northern part of the village, standing in front of a lab table).|
+C Push Them Out|QID|24676|Z|Gilneas|M|72.61,30.79|QO|1|N|Finish killing  Forsaken Infantry.|US
 T Push Them Out|QID|24676|Z|Gilneas|M|70.87,39.80|N|To Lorna Crowley.|
+
 A The Battle for Gilneas City|QID|24904|LVL|11|Z|Gilneas|M|70.87,39.80|N|From Lorna Crowley.|
 C The Battle for Gilneas City|QID|24904|M|70.06,40.89|Z|Gilneas|N|Speak to Krennan Aranas standing at the bridge leading to the city. This will start a big script. Follow Prince Liam Greymane and help out with the fights. Use the Rapier of the Gilnean Patriots to boost the combatants during the fights.|U|50334|
 T The Battle for Gilneas City|QID|24904|M|38.59,60.17|Z|GilneasCity|N|To Lorna Crowley.|
@@ -563,8 +546,8 @@ A Rut'theran Village|QID|14434|Z|Gilneas|M|42.59,35.93|N|Talk to Admiral Nightwi
 A The Howling Oak|QID|28517|M|55.22,89.15|Z|Teldrassil|N|From Krennan Aranas.|
 T The Howling Oak|QID|28517|M|41.88,48.25;46.04,34.73;47.97,14.16|Z|Darnassus|CS|N|Take the teleporter, then go to the Howling Oak and turn in to Genn Greymane.|
 A Breaking Waves of Change|QID|26385|M|48.12,14.48|Z|Darnassus|N|From Genn Greymane.|
-f Get the Darnassus Flight Point|QID|26385|M|36.67,47.91|Z|Darnassus|N|At Leora.|
-F Lor'danel|QID|26385|M|55.41,88.40|Z|Darnassus|N|Take the teleport out of Darnassus, then get a Hyppogryph ride to Lor'danel.|
+f Darnassus|QID|26385|M|36.67,47.91|Z|Darnassus|N|Get the Darnassus Flight Point at Leora.|
+F Lor'danel|QID|26385|M|55.41,88.40|Z|Teldrassil|N|Take the teleport out of Darnassus, then get a Hyppogryph ride to Lor'danel.|
 T Breaking Waves of Change|QID|26385|M|51.77,18.00|Z|Darkshore|N|To Dentaria Silverglade. You'll be taken to the next guide, which will cover Darkshore!|
 
 ]]
