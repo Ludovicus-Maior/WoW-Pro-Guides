@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-02 21:49
+-- Who: tubera
+-- Log: Add " to fly to the Broken Precipe" to be more clear.
+
+-- URL: http://wow-pro.com/node/3648/revisions/27517/view
+-- Date: 2016-08-02 19:15
+-- Who: tubera
+-- Log: added QID/ACTIVE Id value on Azuka Bladefury to prevent error messages, I hope it's the correct one.
+
+-- URL: http://wow-pro.com/node/3648/revisions/27515/view
+-- Date: 2016-08-02 13:56
+-- Who: tubera
+-- Log: Removed duplicate Z tags in broken precipe
+
+-- URL: http://wow-pro.com/node/3648/revisions/27513/view
 -- Date: 2016-08-01 13:42
 -- Who: tubera
 -- Log: Heart of the Breakers: Added missing step Heart of Gorgorek. Changed K steps to C steps so they would autocomplete. Added some N tags where it was unclear what to do. Fixed Zones on last step. Added basic F step to fly to Gorgrond.
@@ -273,7 +288,7 @@ K Akatha Blazeburn slain|ACTIVE|36242|M|73.0,49.4|T|Akatha|QO|2|FACTION|Horde|
 K Drek the Firecaller slain|ACTIVE|36242|M|46.0,84.0|T|Drek|QO|3|FACTION|Horde|
 T Where There Is Smoke...|QID|36242|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|
 A A Stolen Heart|QID|36248|M|40,54.4|N|From Warmaster Zog|FACTION|Horde|
-K Azuka Bladefury|QID|ACTIVE|T|Azuka|QO|1|FACTION|Horde|; missing coords
+K Azuka Bladefury|QID|36248|ACTIVE|36248|T|Azuka|QO|1|FACTION|Horde|; missing coords, added QID/ACTIVE Id value
 T A Stolen Heart|QID|36248|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|
 
 ; Fall of Shattrath -- Faction Specific
@@ -348,8 +363,8 @@ T Soulgrinder Survivor|QID|34319|M|37.6,14.0|N|To Shadow Hunter Bwu'ja|FACTION|H
 ; Broken Precipice -- Mostly Neutral
 ;A Garrison Campaign: The Broken Precipice|QID|35985|M|54.8,14.8|N|From Nixxie|FACTION|Alliance|
 ;A Garrison Campaign: The Broken Precipice|QID|36117|M|54.8,14.8|N|From Nixxie|FACTION|Horde|
-F Nagrand|QID|35985|ACTIVE|35985|Z|Lunarfall|M|45.76,50.8|Z|Lunarfall|N|Use the chat option|FACTION|Alliance
-F Nagrand|QID|36117|ACTIVE|36117|Z|Frostwall|M|45.76,50.8|Z|Frostwall|N|Use the chat option|FACTION|Horde
+F Nagrand|QID|35985|ACTIVE|35985|Z|Lunarfall|M|45.76,50.8||N|Use the chat option to fly to the Broken Precipe|FACTION|Alliance
+F Nagrand|QID|36117|ACTIVE|36117|Z|Frostwall|M|45.76,50.8|N|Use the chat option to fly to the Broken Precipe|FACTION|Horde
 T Garrison Campaign: The Broken Precipice|QID|35985|M|39.6,24.6|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|FACTION|Alliance|
 T Garrison Campaign: The Broken Precipice|QID|36117|M|39.6,24.6|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|FACTION|Horde|
 ; Neutral

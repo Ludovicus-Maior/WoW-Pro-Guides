@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2016-08-02 17:21
+-- Who: tubera
+-- Log: Fix QO tags. Added some notes, mainly to clear up where the Quest givers are hiding. 
+
+-- URL: http://wow-pro.com/node/3215/revisions/26809/view
 -- Date: 2014-11-06 13:08
 -- Who: Fluclo
 -- Log: Removed duplicate tag from h Lakeshire step
@@ -124,24 +129,24 @@ R Redridge Mountains|QID|26506|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge 
 
 A Wanted: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|
 A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|
-T Hero's Call: Redridge Mountains!|QID|28563|M|15.32,64.86|N|To Watch Captain Parker.|O|
-T Hero's Call: Redridge Mountains!|QID|26365|M|15.32,64.86|N|To Watch Captain Parker.|O|
-A Still Assessing the Threat|QID|26503|M|15.32,64.86|N|From Watch Captain Parker.|
-C Wanted: Redridge Gnolls|QID|26504|S|M|28.21,73.94|N|Kill any Gnoll you come across.|
-C Franks and Beans|QID|26506|S|M|20.46,64.70|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.|
-C Gnoll Battle Plans|QID|26503|NC|QO|Gnoll Battle Plans: 1/1|M|16.19,55.25|N|Pick up the Gnoll Battle Plans here.|
-C Gnoll Orders|QID|26503|NC|QO|Gnoll Orders: 1/1|M|28.02,74.72|N|Pick up the Gnoll Orders at this waypoint.|
-C Gnoll Strategy Guide|QID|26503|NC|M|30.57,62.7|N|Pick up the Gnoll Strategy Guide here.|
+T Hero's Call: Redridge Mountains!|QID|28563|M|15.32,64.86|N|To Watch Captain Parker on top of the tower.|O|
+T Hero's Call: Redridge Mountains!|QID|26365|M|15.32,64.86|N|To Watch Captain Parker on top of the tower.|O|
+A Still Assessing the Threat|QID|26503|M|15.32,64.86|N|From Watch Captain Parker on top of the tower.|
+C Franks and Beans|QID|26506|S|M|20.46,64.70|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.
+C Wanted: Redridge Gnolls|QID|26504|S|M|28.21,73.94|N|Kill any Gnoll you come across.
+C Gnoll Battle Plans|QID|26503|NC|QO|1|M|16.19,55.25|N|Pick up the Gnoll Battle Plans here.|
+C Gnoll Orders|QID|26503|NC|QO|2|M|28.02,74.72|N|Pick up the Gnoll Orders at this waypoint.|
+C Gnoll Strategy Guide|QID|26503|QO|3|NC|M|30.57,62.7|N|Pick up the Gnoll Strategy Guide here.|
 C Wanted: Redridge Gnolls|QID|26504|US|M|28.21,73.94|N|Kill any Gnoll you come across.|
-C Franks and Beans|QID|26506|US|M|20.46,64.70|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.|
+C Franks and Beans|QID|26506|US|M|20.46,64.70|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.
 T Franks and Beans|QID|26506|M|15.71,65.27|N|To Darcy Parker.|
-T Still Assessing the Threat|QID|26503|M|15.31,64.82|N|To Watch Captain Parker.|
-A Parker's Report|QID|26505|M|15.31,64.82|N|From Watch Captain Parker.|
-T Wanted: Redridge Gnolls|QID|26504|M|15.31,64.82|N|To Watch Captain Parker.|
+T Still Assessing the Threat|QID|26503|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
+A Parker's Report|QID|26505|M|15.31,64.82|N|From Watch Captain Parker on top of the tower.|
+T Wanted: Redridge Gnolls|QID|26504|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
 
 ; f Lakeshire|M|29.48,53.77|N|At Ariena Stormfeather.|QID|26761|
-T Threat to the Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon.|O|
-T Parker's Report|QID|26505|M|28.78,41.15|N|To Magistrate Solomon.|
+T Threat to the Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon inside the town hall.|O|
+T Parker's Report|QID|26505|M|28.78,41.15|N|To Magistrate Solomon inside the town hall.|
 A We Must Prepare!|QID|26510|M|28.78,41.15|N|From Magistrate Solomon.|
 A Lake Everstill Clean Up|QID|26511|M|28.61,40.99|N|From Bailiff Conacher.|
 h Lakeshire|QID|26509|M|26.38,41.54|N|At Innkeeper Brianna.|
@@ -154,8 +159,8 @@ C Nida's Necklace|QID|26508|NC|M|20.43,47.21;35.6,49.6|CN|N|Jump in the water an
 C Lake Everstill Clean Up|QID|26511|S|M|37.46,43.48|N|Kill any murloc you see.|
 C We Must Prepare!|QID|26510|NC|M|37.82,42.14|N|Pick up the Gnomecorder on the small isle.|
 C Lake Everstill Clean Up|QID|26511|US|M|37.46,43.48|N|Kill any murloc you see.|
-T Nida's Necklace|QID|26508|M|28.30,48.73|N|To Nida.|
-T Lake Everstill Clean Up|QID|26511|M|28.62,41.01|N|To Bailiff Conacher.|
+T Nida'sdd Necklace|QID|26508|M|28.30,48.73|N|To Nida.|
+T Lake Everstill Clean Up|QID|26511|M|28.62,41.01|N|To Bailiff Conacher inside the town hall.|
 T We Must Prepare!|QID|26510|M|28.74,41.10|N|To Magistrate Solomon.|
 A Tuning the Gnomecorder|QID|26512|M|28.74,41.10|N|From Magistrate Solomon.|
 A Like a Fart in the Wind|QID|26513|M|31.73,44.80|N|From Marshal Marris.|
@@ -181,12 +186,12 @@ C Saving Foreman Oslow|QID|26520|U|58895|M|31.75,44.41|N|Run to the boulder at L
 C Like a Fart in the Wind|QID|26513|US|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|NC|
 
 T Like a Fart in the Wind|QID|26513|M|31.80,44.76|N|To Marshal Marris.|
-T Yowler Must Die!|QID|26545|M|28.76,41.12|N|To Magistrate Solomon.|
+T Yowler Must Die!|QID|26545|M|28.76,41.12|N|To Magistrate Solomon inside the town hall.|
 T Saving Foreman Oslow|QID|26520|M|28.76,41.12|N|To Magistrate Solomon.|
 A John J. Keeshan|QID|26567|M|28.76,40.90|N|From Colonel Troteman.|
 T John J. Keeshan|QID|26567|M|26.20,39.86|N|Head to the basement of the Inn to find John J. Keeshan.|
 A This Ain't My War|QID|26568|M|26.20,39.90|N|From John J. Keeshan.|
-T This Ain't My War|QID|26568|M|28.57,40.84|N|To Colonel Troteman.|
+T This Ain't My War|QID|26568|M|28.57,40.84|N|To Colonel Troteman in the town hall.|
 A Weapons of War|QID|26571|M|28.57,40.84|N|From Colonel Troteman.|
 A In Search of Bravo Company|QID|26586|M|28.58,40.90|N|From Colonel Troteman.|
 A Surveying Equipment|QID|26569|M|29.63,44.41|N|From Foreman Oslow.|
@@ -215,7 +220,7 @@ C Surveying Equipment|QID|26569|M|32.46,9.82|N|Kill and loot Blackrock Trackers.
 C Render's Army|QID|26570|US|M|29.35,10.76|N|Kill any and all orcs for this quest. Except for the elites.|
 
 H Lakeshire Inn|QID|26563|N|Hearth back to Lakeshire or run if it is on cooldown.|
-T His Heart Must Be In It|QID|26573|M|28.51,40.85|N|To Colonel Troteman.|
+T His Heart Must Be In It|QID|26573|M|28.51,40.85|N|To Colonel Troteman in the town hall.|
 T Return of the Bravo Company|QID|26563|M|28.51,40.85|N|To Colonel Troteman.|
 A They Drew First Blood|QID|26607|M|28.51,40.85|N|From Colonel Troteman.|
 T Surveying Equipment|QID|26569|M|29.65,44.38|N|To Foreman Oslow.|
@@ -247,9 +252,9 @@ C Blackrock Holding Pen Key|QID|26646|NC|U|60384|M|69.4,76.53|N|Use the field ki
 C Prisoners of War|QID|26646|U|60384|M|69.40,58.59|N|If the orc is about to wake up, use ability #3 again. Use #2 to get out of the cave. Then head to the waypoint, click on one of the cages to free the people.|
 T Prisoners of War|QID|26646|M|69.46,58.62|N|(UI Alert)|
 A To Win a War, You Gotta Become War|QID|26651|M|69.46,58.62|N|(UI Alert)|
-C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|Seaforium Planted at Blackrock Tower: 1/1|M|66.4,71.43|N|Re-apply the Camouflage if it's low. Head to the waypoint and use #2 to get in the tower. Use the Chloroform to get to the top. Once inside at the top use ability #4.|
-C To Win a War, You Gotta Become War|QID|26651|U|60385|M|63.86,70.34|N|Same deal as the Tower. Use a distraction to get in and plant a charge,|
-
+C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|2|M|66.4,71.43|N|Re-apply the Camouflage if it's low. Head to the waypoint and use #2 to get in the tower. Use the Chloroform to get to the top. Once inside at the top use ability #4.|
+C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|1|M|63.86,70.34|N|Same deal as the Tower. Use a distraction to get in and plant a charge,|
+dw
 R Shalewind Canyon|QID|26651|U|60385|M|72.4,64.3;77.26,65.86|CC|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|
 T To Win a War, You Gotta Become War|QID|26651|M|77.60,65.56|N|To John J. Keeshan.|
 A Detonation|QID|26668|M|77.60,65.56|N|From John J. Keeshan.|
@@ -265,22 +270,22 @@ T The Dark Tower|QID|26693|M|67.55,29.54|N|(UI Alert)|
 A The Grand Magus Doane|QID|26694|M|67.55,29.54|N|(UI Alert)|
 C The Grand Magus Doane|QID|26694|U|59522|M|71.30,45.17|N|Click on the Ward of Ilgalar to enter the tower, then head to the top and kick Grand Magus Doane's butt.|
 C Shadowhide Extinction|QID|26692|US|M|70.24,39.53|N|Kill any Gnoll you come across.|
-T Shadowhide Extinction|QID|26692|M|77.79,65.16|N|To Danforth.|
+T Shadowhide Extinction|QID|26692|M|77.79,65.16|N|(UI Alert)|
 T The Grand Magus Doane|QID|26694|M|77.77,65.23|N|To John J. Keeshan.|
 
 A AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|77.29,65.80|N|From Colonel Troteman.|
 C AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.76,36.57|N|Hop in the tank and head towared Keeshan's post. You should have all 200 when you get there.|
 T AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.76,36.57|N|To Colonel Troteman.|
 A Showdown at Stonewatch|QID|26713|M|60.76,36.57|N|From Colonel Troteman.|
-C Showdown at Stonewatch|QID|26713|QO|Tharil'zun slain: 1/1|M|60.29,47.27|N|First up is Tharil'zun.|
-C Showdown at Stonewatch|QID|26713|M|58.44,55.60|N|Head to the waypoint to kill Gath'Ilzogg.|
+C Showdown at Stonewatch|QID|26713|QO|1|M|60.29,47.27|N|First up is Tharil'zun.|
+C Showdown at Stonewatch|QID|26713|QO|2|M|58.44,55.60|N|Head to the waypoint to kill Gath'Ilzogg.|
 T Showdown at Stonewatch|QID|26713|M|58.44,55.53|N|(UI Alert)|
 A Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.44,55.53|N|(UI Alert)|
 C Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.89,55.27|N|Use the horn tha should be next to Gath'Ilzogg's corpse. Try to stay on Darkblaze's side, and just attack as hard as you can. You can not pull it off of Keeshan.|
 T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.55,36.46|N|To Colonel Troteman.|
 A Triumphant Return|QID|26726|M|60.55,36.46|N|From Colonel Troteman.|
-H Lakeshire|QID|26726|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|
-T Triumphant Return|QID|26726|M|28.79,41.11|N|To Magistrate Solomon.|
+H Lakeshire Inn|QID|26726|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|
+T Triumphant Return|QID|26726|M|28.79,41.11|N|To Magistrate Solomon in the town hall.|
 F Stormwind City|M|21.78,57.70|N|Fly to Stormwind visit your trainers, and AH.|
 N Next guide|N|Close this step when you are ready to go to the next guide.
 ]]
