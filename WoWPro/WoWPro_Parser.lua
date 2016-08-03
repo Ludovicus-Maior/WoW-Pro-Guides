@@ -1,7 +1,7 @@
 -----------------------------
 --      WoWPro_Parser      --
 -----------------------------
-	
+
 local L = WoWPro_Locale
 WoWPro.actiontypes = {
 	A = "Interface\\GossipFrame\\AvailableQuestIcon",
@@ -167,7 +167,8 @@ DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomple
 
 -- Item or Quest Objective Tags
 DefineTag("L","lootitem","string",nil,function (text,i)
-    local _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)");
+        local _
+        _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)");
     -- WoWPro:dbp("L [%s]/[%s]",WoWPro.lootitem[i], WoWPro.lootqty[i])
 	if WoWPro.lootitem[i] then
     	if tonumber(WoWPro.lootqty[i]) ~= nil then
@@ -176,7 +177,7 @@ DefineTag("L","lootitem","string",nil,function (text,i)
     	    WoWPro.lootqty[i] = 1
     	end
     end
-end)    
+end)
 DefineTag("QO","questtext","string",nil,nil)
 DefineTag("SO","sobjective","string",nil,nil)
 DefineTag("U","use","number",nil,nil)
