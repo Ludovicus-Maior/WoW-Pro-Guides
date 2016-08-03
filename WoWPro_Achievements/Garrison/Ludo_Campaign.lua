@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-03 14:07
+-- Who: tubera
+-- Log: Strike at the heart, Horde: Add coordinates Azuka. Add Zone. Change ACTIVE to QID on "Where the is Smoke"
+
+-- URL: http://wow-pro.com/node/3648/revisions/27521/view
 -- Date: 2016-08-02 21:49
 -- Who: tubera
 -- Log: Add " to fly to the Broken Precipe" to be more clear.
@@ -279,17 +284,18 @@ T Where There Is Smoke...|QID|36161|M|29.4,34.4|N|From Lieutenant Thorn|FACTION|
 A A Stolen Heart|QID|36162|PRE|36161|M|29.4,34.4|N|From Lieutenant Thorn|FACTION|Alliance|
 K Azuka Bladefury|ACTIVE|36162|T|Azuka|QO|1|FACTION|Alliance|; missing coords
 T A Stolen Heart|QID|36162|M|29.4,34.4|N|From Lieutenant Thorn|FACTION|Alliance|
+
 ; A Garrison Campaign: Missing Grunt|QID|36261|M|40,54.4|N|From Warmaster Zog|FACTION|Horde|
-C Dul'zak|QID|36261|M|63.4,44.4|QO|1|FACTION|Horde|
-T Garrison Campaign: Missing Grunt|QID|36261|M|40,54.4|N|To Bloody Blade|FACTION|Horde|
-A Where There Is Smoke...|QID|36242|PRE|36261|M|40,54.4|N|From Bloody Blade|FACTION|Horde|
-K Rag'sla Thunkblade slain|ACTIVE|36242|M|55.0,17.0|T|Rag'sla|QO|1|FACTION|Horde|
-K Akatha Blazeburn slain|ACTIVE|36242|M|73.0,49.4|T|Akatha|QO|2|FACTION|Horde|
-K Drek the Firecaller slain|ACTIVE|36242|M|46.0,84.0|T|Drek|QO|3|FACTION|Horde|
-T Where There Is Smoke...|QID|36242|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|
-A A Stolen Heart|QID|36248|M|40,54.4|N|From Warmaster Zog|FACTION|Horde|
-K Azuka Bladefury|QID|36248|ACTIVE|36248|T|Azuka|QO|1|FACTION|Horde|; missing coords, added QID/ACTIVE Id value
-T A Stolen Heart|QID|36248|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|
+C Dul'zak|QID|36261|M|63.4,44.4|QO|1|FACTION|Horde|Z|Frostwall
+T Garrison Campaign: Missing Grunt|QID|36261|M|40,54.4|N|To Bloody Blade|FACTION|Horde|Z|Frostwall
+A Where There Is Smoke...|QID|36242|PRE|36261|M|40,54.4|N|From Bloody Blade|FACTION|Horde|Z|Frostwall
+K Rag'sla Thunkblade slain|QID|36242|M|55.0,17.0|T|Rag'sla|QO|1|FACTION|Horde|Z|Frostwall
+K Akatha Blazeburn slain|QID|36242|M|73.0,49.4|T|Akatha|QO|2|FACTION|Horde|Z|Frostwall
+K Drek the Firecaller slain|QID|36242|M|46.0,84.0|T|Drek|QO|3|FACTION|Horde|Z|Frostwall
+T Where There Is Smoke...|QID|36242|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall
+A A Stolen Heart|QID|36248|M|40,54.4|N|From Warmaster Zog|FACTION|Horde|Z|Frostwall
+K Azuka Bladefury|QID|36248|T|Azuka|QO|1|FACTION|Horde|Z|Frostwall|M|52.24,35.55| ; added QID/ACTIVE Id value
+T A Stolen Heart|QID|36248|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall
 
 ; Fall of Shattrath -- Faction Specific
 ; A Garrison Campaign: The Fall of Shattrath|QID|35679|M|40.0,44.4|N|From Khadgar's Servant.|FACTION|Alliance|
