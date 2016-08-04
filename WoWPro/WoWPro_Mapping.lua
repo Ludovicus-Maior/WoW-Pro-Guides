@@ -162,7 +162,7 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 			end
 		end
 	end
-	
+	-- autoarrival == 0 is a no-op
 end
 
 -- table with custom callback functions to use in TomTom
@@ -624,6 +624,7 @@ function WoWPro:MapPoint(row)
 			elseif autoarrival == 2 then
 				TomTom.db.profile.arrow.setclosest = false
 			end
+			-- autoarrival == 0 is a no-op
 		end
 		TomTom.db.profile.persistence.cleardistance = OldCleardistance
 	elseif TomTom then

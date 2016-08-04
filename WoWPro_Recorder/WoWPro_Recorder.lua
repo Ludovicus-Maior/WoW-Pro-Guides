@@ -552,7 +552,7 @@ function WoWPro.Recorder.EmitStep(i)
                 line = addTag(line, "CC")
             elseif WoWPro.waypcomplete[i] == 2 then
                 line = addTag(line, "CS")
-            elseif WoWPro.waypcomplete[i] == false then
+            elseif WoWPro.waypcomplete[i] == 0 then
                 line = addTag(line, "CN")
             end
         elseif tag == "CS" or "CN" then
