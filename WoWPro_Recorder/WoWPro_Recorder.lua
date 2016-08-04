@@ -520,7 +520,11 @@ end
 
 local function addTagValue(line, tag, value)
 	line = line..tag.."\|"
-	line = line..tostring(value).."\|"
+	if value == nil then
+	    line = line.." \|"
+	else
+	    line = line..tostring(value).."\|"
+	end
 	return line
 end
 
@@ -531,6 +535,8 @@ end
 
 
 function WoWPro.Recorder.EmitStep(i)
+    local GID = WoWProDB.char.currentguide
+
     if type(WoWPro.action[i]) ~= "string" or type(WoWPro.step[i]) ~= "string" then
         return ""
     end
@@ -552,11 +558,16 @@ function WoWPro.Recorder.EmitStep(i)
                 line = addTag(line, "CC")
             elseif WoWPro.waypcomplete[i] == 2 then
                 line = addTag(line, "CS")
-            elseif WoWPro.waypcomplete[i] == false then
+            elseif WoWPro.waypcomplete[i] == 0 then
                 line = addTag(line, "CN")
             end
         elseif tag == "CS" or "CN" then
             line = line
+        elseif tag == "Z" then
+            -- Suppress zone tags that are dupes of the master zone
+            if WoWPro.zone[i] and WoWPro.zone[i] ~= WoWPro.Guides[GID].zone then
+                line = addTagValue(line, tag, WoWPro.zone[i])
+            end
         elseif WoWPro.TagTable[tag].vtype == "boolean" then
             -- No value
             if WoWPro[key][i] then

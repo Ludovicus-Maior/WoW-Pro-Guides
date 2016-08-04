@@ -163,7 +163,7 @@ DefineTag("M","map","string",nil,nil)
 DefineTag("Z","zone","string",nil,nil)
 DefineTag("CC","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
 DefineTag("CS","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
-DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = false; end)
+DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 0; end)
 
 -- Item or Quest Objective Tags
 DefineTag("L","lootitem","string",nil,function (text,i)
