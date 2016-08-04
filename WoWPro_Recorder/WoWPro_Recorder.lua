@@ -520,7 +520,11 @@ end
 
 local function addTagValue(line, tag, value)
 	line = line..tag.."\|"
-	line = line..tostring(value).."\|"
+	if value == nil then
+	    line = line.." \|"
+	else
+	    line = line..tostring(value).."\|"
+	end
 	return line
 end
 
