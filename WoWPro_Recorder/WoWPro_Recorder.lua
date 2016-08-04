@@ -605,16 +605,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	
 	local guideString = header..table.concat(sequence,"\n").."\n]]\n\nend)"
 	
-	WoWPro_RecorderDB[GID] = {
-		guidetype = WoWPro.Guides[GID].guidetype,
-		zone = WoWPro.Guides[GID].zone,
-		author = WoWPro.Guides[GID].author,
-		startlevel = tonumber(WoWPro.Guides[GID].startlevel),
-		endlevel = tonumber(WoWPro.Guides[GID].endlevel),
-		sequence = sequence,
-		nextGID = WoWPro.Guides[GID].nextGID,
-		faction = UnitFactionGroup("player")
-	}
+	WoWPro_RecorderDB[GID] = WoWPro.ShallowCopyTable(WoWPro.Guides[GID])
 	WoWPro.Recorder:RegisterSavedGuides()
 	WoWPro.Recorder:dbp("WoWPro.Recorder:CheckpointCurrentGuide(%s)",why)
 	return guideString

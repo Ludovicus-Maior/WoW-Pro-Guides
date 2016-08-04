@@ -1376,19 +1376,6 @@ function WoWPro.ProcessScenarioStage(flag)
     end
 end
 
-local function shallowcopy(orig)
-    local orig_type = type(orig)
-    local copy
-    if orig_type == 'table' then
-        copy = {}
-        for orig_key, orig_value in pairs(orig) do
-            copy[orig_key] = orig_value
-        end
-    else -- number, string, boolean, etc
-        copy = orig
-    end
-    return copy
-end
 
 function WoWPro.ProcessScenarioCriteria(punt)
     WoWPro:print("WoWPro.ProcessScenarioCriteria(%s)", tostring(punt))
@@ -1404,7 +1391,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
         return
     end
     -- Always create a new Criteria table in a clone of the Scenario table.
-    WoWPro.Scenario = shallowcopy(WoWPro.Scenario)
+    WoWPro.Scenario = WoWPro.ShallowCopyTable(WoWPro.Scenario)
     WoWPro.Scenario.Criteria = {}
     WoWPro.Scenario.Criteria.serial = ScenarioSerial
     ScenarioSerial = ScenarioSerial + 1
