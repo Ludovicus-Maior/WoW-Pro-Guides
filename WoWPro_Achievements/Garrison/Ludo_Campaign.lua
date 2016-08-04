@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-04 15:49
+-- Who: tubera
+-- Log: Refixed last fix, so step will autocomplete.
+
+-- URL: http://wow-pro.com/node/3648/revisions/27524/view
+-- Date: 2016-08-04 15:41
+-- Who: tubera
+-- Log: Add Zone tag to Fall of Shattrath: Challenge
+
+-- URL: http://wow-pro.com/node/3648/revisions/27522/view
 -- Date: 2016-08-03 14:07
 -- Who: tubera
 -- Log: Strike at the heart, Horde: Add coordinates Azuka. Add Zone. Change ACTIVE to QID on "Where the is Smoke"
@@ -304,8 +314,8 @@ A Reclaiming the City|QID|35683|PRE|35679|M|49.8,48.6|Z|Talador|N|From Exarch Ma
 C Sargerei Insignias|QID|35683|M|38,21|N|Head into the city of Shattrath and kill and loot Insignias.|QO|1|FACTION|Alliance|
 T Reclaiming the City|QID|35683|M|49.8,48.6|Z|Talador|N|To Exarch Maladaar.|FACTION|Alliance|
 A Socrethar's Demise|QID|35685|PRE|35683|M|49.8,48.6|Z|Talador|N|From Exarch Maladaar.|FACTION|Alliance|
-C Challenge|QID|35685|M|41.6,32.4|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Alliance|
-K Socrethar|ACTIVE|35685|T|Socrethar|QO|2|FACTION|Alliance|
+C Screthar's Demise|QID|35687|M|41.6,32.4|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Horde|
+K Socrethar's Demise|QID|35687|T|Socrethar|QO|2|FACTION|Horde|
 T Socrethar's Demise|QID|35685|M|49.8,48.6|Z|Talador|N|To Exarch Maladaar.|FACTION|Alliance|
 ; A Garrison Campaign: The Fall of Shattrath|QID|35680|M|47.6,47.0|N|From Khadgar's Servant.|FACTION|Horde|
 T Garrison Campaign: The Fall of Shattrath|QID|35680|M|50.0,48.6|Z|Talador|N|To Lady Liadrin, at the Spire of Light in Talador. Bring a follower.|FACTION|Horde|
@@ -313,8 +323,8 @@ A Reclaiming the City|QID|35684|PRE|35680|M|50.0,48.6|Z|Talador|N|From Lady Liad
 C Sargerei Insignias|QID|35684|M|38,21|N|Head into the city of Shattrath and kill and loot Insignias.|QO|1|FACTION|Horde|
 T Reclaiming the City|QID|35684|M|50.0,48.6|Z|Talador|N|To Lady Liadrin.|FACTION|Horde|
 A Socrethar's Demise|QID|35687|PRE|35684|M|50.0,48.6|Z|Talador|N|From Lady Liadrin.|FACTION|Horde|
-C Challenge|QID|35687|M|41.6,32.4|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Horde|
-K Socrethar|ACTIVE|35687|T|Socrethar|QO|2|FACTION|Horde|
+C Screthar's Demise|QID|35687|M|41.6,32.4|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Horde|
+K Socrethar's Demise|QID|35687|T|Socrethar|QO|2|FACTION|Horde|
 T Socrethar's Demise|QID|35687|M|50.0,48.6|Z|Talador|N|To Lady Liadrin.|FACTION|Horde|
 
 ; Bloodmaul Compound
