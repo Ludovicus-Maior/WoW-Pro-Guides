@@ -531,6 +531,8 @@ end
 
 
 function WoWPro.Recorder.EmitStep(i)
+    local GID = WoWProDB.char.currentguide
+
     if type(WoWPro.action[i]) ~= "string" or type(WoWPro.step[i]) ~= "string" then
         return ""
     end
@@ -557,6 +559,11 @@ function WoWPro.Recorder.EmitStep(i)
             end
         elseif tag == "CS" or "CN" then
             line = line
+        elseif tag == "Z" then
+            -- Suppress zone tags that are dupes of the master zone
+            if WoWPro.zone[i] and WoWPro.zone[i] ~= WoWPro.Guides[GID].zone then
+                line = addTagValue(line, tag, WoWPro.zone[i])
+            end
         elseif WoWPro.TagTable[tag].vtype == "boolean" then
             -- No value
             if WoWPro[key][i] then
