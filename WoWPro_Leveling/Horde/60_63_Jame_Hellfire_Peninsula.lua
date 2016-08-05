@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2016-08-05 05:45
+-- Who: tubera
+-- Log: Fix several QO tags. Added missing "T Keep Thornfang hill clear". Fix flightpoint names.
+
+-- URL: http://wow-pro.com/node/3272/revisions/26919/view
 -- Date: 2014-11-08 05:57
 -- Who: Emmaleah
 -- Log: correct a missing "|" for H Falcon Watch
@@ -119,7 +124,7 @@ T Apothecary Zelana |QID|10449|M|66.2,42.0|N|To Apothecary Zelana.|
 A Spinebreaker Post |QID|10242|M|66.2,42.0|N|From Apothecary Zelana.|
 
 l Demonic Rune Stones|QID|10208|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones. |M|70.91,45.28|
-C Disrupt Port Xilus|NC|QID|10208|QO|Disrupt Port Xilus: 1/1|N|Step inside the gates and right-click to disable Port Xilus.|M|70,45|
+C Disrupt Their Reinforcements|NC|QID|10208|QO|1|N|Step inside the gates and right-click to disable Port Xilus.|M|70.8,45.5|
 l Demonic Rune Stones|QID|10208|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones. |M|73.98,39.11|
 C Disrupt Their Reinforcements|NC|QID|10208|N|Step inside the gates and right-click to disable Port Kruul.|M|74.0,38.7|
 T Disrupt Their Reinforcements |QID|10208|N|To Forward Commander To'arch.|M|66,44|
@@ -217,8 +222,8 @@ C Make Them Listen |QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|
 A Decipher the Tome |QID|10229|U|28552|M|58.0,79.0|N|From A Mysterious Tome.|
 C Smooth as Butter |QID|9356|N|Kill and loot Bonstripper Buzzard until you have 12 wings.|M|63.4,66.3|
 C In Case of Emergency... |QID|10161|N|Pick up Zepplin Debris.|M|58.0,71.5|US|
-N Eastern Cannon|QID|10087|QO|Eastern Cannon Burned: 1/1|U|27479|N|Head to the Eastern Cannon. Burn it. |M|60.90,52.50|
-C Burn It Up... For the Horde!|QID|10087|U|27479|N|Go further west along the Path of Glory and find the Western Cannon. Burn it. |M|54.67,54.10|
+C Burn It Up... For the Horde!|QID|10087|QO|1|U|27479|N|Head to the Eastern Cannon. Burn it. |M|60.90,52.50|
+C Burn It Up... For the Horde!|QID|10087|QO|2|U|27479|N|Go further west along the Path of Glory and find the Western Cannon. Burn it.
 H Thrallmar|QID|10087|U|6948|N|Hearth to Thrallmar.|
 T Burn It Up... For the Horde! |QID|10087|M|55.17,38.79|N|To Megzeg Nukklebust.|
 T Doorway to the Abyss |QID|10392|M|55.0,36.0|N|To Nazgrel.|
@@ -231,7 +236,7 @@ T The Warchief's Mandate |QID|9405|M|54.23,37.90|N|To Far Seer Regulkut.|
 A A Spirit Guide |QID|9410|M|54.23,37.90|N|From Far Seer Regulkut.|
 T A Burden of Souls |QID|10864|N|To Apothecary Antonivich.|M|52.28,36.46|
 A The Demoniac Scryer |QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|
-F Spinebreaker Post|QID|10229|N|Fly to Spinebreaker Post.|M|56.28,36.25|
+F Spinebreaker Ridge|QID|10229|N|Fly to Spinebreaker Post.|M|56.28,36.25|
 T Decipher the Tome |QID|10229|M|61.74,81.79|N|To Althen the Historian.|
 
 A The Battle Horn |QID|10230|M|61.74,81.79|N|From Althen the Historian.|
@@ -252,10 +257,10 @@ A Void Ridge |QID|10294|M|61.87,81.53|N|From Ogath the Mad.|
 C Bloody Vengeance |QID|10250|U|28651|N|Head to the semi-destroyed tower. Use the Unyielding Battle Horn and kill Urtrak when he spawns.|M|63.5,77.6|
 K Bleeding Hollow Peon |QID|10792|L|31347 4|N|Kill Peons until you loot 4 Bleeding Hollow Torches.|
 C Light it up|NC|QID|10792|U|31347|L|31346 4|M|69.2,69.2|N|Find the Bleeding Hollow forge, it's directly to the left after you enter the north gate. Use the torch at the forge to light all four.|
-C Burn down the Eastern Hovel|NC|QID|10792|QO|Eastern Hovel Burned: 1/1|U|31346|N|Head to the building next to the forge, and use the torch. |M|69.7,70.3|
-C Burn down the Stables|NC|QID|10792|QO|Stable Burned: 1/1|U|31346|N|Head to the building where you killed the Worg Master, and use the torch. |M|68.2,73.4|
-C Burn down the Eastern Hovel|NC|QID|10792|QO|Western Hovel Burned: 1/1|U|31346|N|Head to the Western Hovel, and use the torch. |M|67.1,75.8|
-C Zeth'Gor Must Burn!|NC|QID|10792|U|31346|N|Head to the Barracks, and use the torch. |M|69,75.9|
+C Zeth'Gor Must Burn!|NC|QID|10792|QO|2|U|31346|N|Head to the building next to the forge, and use the torch.|M|69.7,70.3|
+C Zeth'Gor Must Burn!|NC|QID|10792|QO|4|U|31346|N|Head to the building where you killed the Worg Master, and use the torch. |M|68.2,73.4|
+C Zeth'Gor Must Burn!|NC|QID|10792|QO|3|U|31346|N|Head to the Western Hovel, and use the torch. |M|67.1,75.8|
+C Zeth'Gor Must Burn!|NC|QID|10792|QO|1|U|31346|N|Head to the Barracks, and use the torch. |M|69,75.9|
 C The Eyes of Grillok |QID|10813|N|Find an Eye of Grillok, and use Zezzak's Shard on it. Then get the hell out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|U|31463|
 T The Eyes of Grillok |QID|10813|M|61.66,81.86|N|To Zezzak.|
 
@@ -330,9 +335,9 @@ T Trueflight Arrows |QID|9381|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
 C The Cleansing Must Be Stopped |QID|9370|N|Clear around the Altar of Aggonar. HP/Mana up, then use the Signaling Gem. Of the 3 mobs that come at you, you only have to kill the Draenei Anchorite.|U|23358|M|39,40|
 H Falcon Watch|QID|9370|U|6948|N|Hearth to Falcon Watch.|
 T The Cleansing Must Be Stopped |QID|9370|M|26.99,59.54|N|To Ryathen the Somber.|
-C Western Beacon|NC|QID|9391|QO|Western Beacon: 1/1|N|Light the Western Beacon. Mobs in the area aggro when you light the beacon, so kill them first.|M|30,61|
-C Central Beacon|NC|QID|9391|QO|Central Beacon: 1/1|N|Light the Western Beacon. Same deal as before with the mobs.|M|34,60|
-C Marking the Path|NC|QID|9391|N|Light the final beacon, the Southern one.|M|36.14,65.38|
+C Marking the Path|NC|QID|9391|QO|1|N|Light the Western Beacon. Mobs in the area aggro when you light the beacon, so kill them first.|M|30,61|
+C Marking the Path|NC|QID|9391|QO|2|N|Light the Western Beacon. Same deal as before with the mobs.|M|34,60|
+C Marking the Path|NC|QID|9391|QO|3|N|Light the final beacon, the Southern one.|M|36.14,65.38|
 T Honor the Fallen |QID|10258|N|To Commander Hogarth.|M|57,77|
 T Void Ridge |QID|10294|M|61.87,81.53|N|To Ogath the Mad.|
 
@@ -370,15 +375,16 @@ A A Traitor Among Us |QID|10367|M|16.3,65.1|N|From Naladu.|
 C A Traitor Among Us |N|Get the key from the chest here.|QID|10367|M|14.35,63.35|
 T A Traitor Among Us |QID|10367|M|16.3,65.1|N|To Naladu.|
 A The Dreghood Elders |QID|10368|M|16.3,65.1|N|From Naladu.|
-C Free Morod|CHAT|N|Free Morod here.|QID|10368|QO|Morod Freed: 1/1|M|13.10,61.00|
-C Free Aylaan|CHAT|N|Free Aylaan here.|QID|10368|QO|Aylaan Freed: 1/1|M|13.00,58.40|
-C The Dreghood Elders|CHAT|N|Free Akoru here.|QID|10368|M|15.50,58.75|
+C The Dreghood Elders|CHAT|N|Free Morod here.|QID|10368|QO|1|M|13.10,61.00|
+C The Dreghood Elders|CHAT|N|Free Aylaan here.|QID|10368|QO|3|M|13.00,58.40|
+C The Dreghood Elders|CHAT|N|Free Akoru here.|QID|10368|QO|2|M|15.50,58.75|
 T The Dreghood Elders |QID|10368|M|16.3,65.1|N|To Naladu.|
 A Arzeth's Demise |QID|10369|M|16.3,65.1|N|From Naladu.|
 C Arzeth's Demise |N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|QID|10369|M|14.25,61.50|T|Arzeth the Merciless|U|29513|
 T Arzeth's Demise |QID|10369|M|16.3,65.1|N|To Naladu.|
 C Source of the Corruption |QID|9387|N|Kill the Taskmasters until you have enough essence. The Brutes will run once you kill the Taskmaster.|M|15.0,55.5|US|
 C Keep Thornfang Hill Clear! |QID|10159|N|Kill the Ravagers and Venomspitters needed for this quest.|M|12,50|
+T Keep Thornfang Hill Clear|QID|10159|M|15.88,52.13|To Mahuram Stouthoof
 R Cenarion Refuge |QID|9747|N|Follow the road west, you'll come to Cenarion Refuge.  While you are here, this guide has you pick up quests so you can fly back next time instead of running.|Z|Zangarmarsh|M|80.5,64.0|
 
 A The Umbrafen Tribe |QID|9747|Z|Zangarmarsh|M|80.5,64.0|N|From Ikeyen.|
@@ -396,7 +402,7 @@ T Warden Hamoot |QID|9778|Z|Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
 A A Warm Welcome |QID|9728|Z|Zangarmarsh|M|79.0,65.5|N|From Warden Hamoot.|
 R Swamprat Post |QID|10103|N|To Swamprat Post in the northeast.|Z|Zangarmarsh|M|85,55|
 T Report to Zurai |QID|10103|Z|Zangarmarsh|M|85.5,55.0|N|To Zurai.|
-f Falcon Watch |QID|9387|N|Grab the flight path, so you can fly here next time.|M|84.77,55.11|
+f Swamprat Post |QID|9387|N|Grab the flight path, so you can fly here next time.|M|84.77,55.11|
 H Falcon Watch|QID|9387|N|Hearth to Falcon Watch.|
 T Source of the Corruption |QID|9387|M|26.79,59.71|N|To Apothecary Azethen.|
 T A Pilgrim's Plight |QID|9376|M|27.16,61.90|N|To Taleris Dawngazer.|
