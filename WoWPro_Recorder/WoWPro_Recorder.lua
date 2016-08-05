@@ -54,6 +54,8 @@ function WoWPro.Recorder:RegisterSavedGuides()
 	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
 		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
 		WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
+		local sequence_string = guideInfo.sequence
+		WoWPro.Guides[GID].sequence = function () return sequence_string; end
 	end
 end
 
@@ -602,11 +604,12 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	end
 	
 	local sequence_string = table.concat(sequence,"\n")
-	WoWPro_RecorderDB[GID].sequence = function () return sequence_string; end
+	WoWPro.Guides[GID].sequence = function () return sequence_string; end
 
 	local guideString = header.. sequence_string .."\n]]\n\nend)"
 	
 	WoWPro_RecorderDB[GID] = WoWPro.ShallowCopyTable(WoWPro.Guides[GID])
+	WoWPro_RecorderDB[GID].sequence = sequence_string
 	WoWPro.Recorder:RegisterSavedGuides()
 	WoWPro.Recorder:dbp("WoWPro.Recorder:CheckpointCurrentGuide(%s)",why)
 	return guideString
