@@ -56,17 +56,8 @@ function WoWPro.Recorder:RegisterSavedGuides()
 		if type(guideInfo.sequence) == "table" then
 		    guideInfo.sequence = table.concat(guideInfo.sequence,"\n")
 		end
-		WoWPro.Guides[GID] = {
-			guidetype = guideInfo.guidetype,
-			zone = guideInfo.zone,
-			author = guideInfo.author,
-			startlevel = tonumber(guideInfo.startlevel),
-			endlevel = tonumber(guideInfo.endlevel),
-			sequence = function()
-return guideInfo.sequence
-end,
-			nextGID = guideInfo.nextGID,
-		}
+		WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
+		WoWPro.Guides[GID].sequence = function() return guideInfo.sequence; end
 	end
 end
 
@@ -95,7 +86,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 	local GID = WoWProDB.char.currentguide
 	WoWPro.Recorder:dbp(event.." event fired.")
 	if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
-	
+
 	local x, y = GetPlayerMapPosition("player")
 	local zonetag
 	if GetZoneText() ~= WoWPro.Guides[GID].zone then zonetag = GetZoneText() else zonetag = nil end
@@ -520,7 +511,7 @@ end
 
 local function addTagValue(line, tag, value)
 	line = line..tag.."\|"
-	if value == nil then
+	if value == nil or value == false then
 	    line = line.." \|"
 	else
 	    line = line..tostring(value).."\|"
@@ -541,13 +532,13 @@ function WoWPro.Recorder.EmitStep(i)
         return ""
     end
 
-    local line = WoWPro.action[i].." "..WoWPro.step[i].."|"
-    
+    local line = WoWPro.action[i].." "..WoWPro.step[i].."\|"
+
     for idx=1,#WoWPro.TagList do
         local tag = WoWPro.TagList[idx]
         local key = WoWPro.TagTable[tag].key
         -- Special tags get handled first
-        if key == "lootitem" then
+        if key == "lootitem" and WoWPro.lootitem[i] then
             if WoWPro.lootqty[i] then
                 line = addTagValue(line, tag, WoWPro.lootitem[i].." "..WoWPro.lootqty[i])
             else
@@ -561,7 +552,7 @@ function WoWPro.Recorder.EmitStep(i)
             elseif WoWPro.waypcomplete[i] == 0 then
                 line = addTag(line, "CN")
             end
-        elseif tag == "CS" or "CN" then
+        elseif tag == "CS" or tag == "CN" then
             line = line
         elseif tag == "Z" then
             -- Suppress zone tags that are dupes of the master zone
@@ -598,7 +589,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 		..WoWPro.Guides[GID].guidetype.."', '"
 		..WoWPro.Guides[GID].zone.."', '"
 		..WoWPro.Guides[GID].author.."', '"
-		..UnitFactionGroup("player").."')\n"
+		..WoWPro.Guides[GID].faction.."')\n"
 		.."WoWPro:GuideLevels(guide,"
 		..WoWPro.Guides[GID].startlevel..", "
 		..WoWPro.Guides[GID].endlevel..")\n"
