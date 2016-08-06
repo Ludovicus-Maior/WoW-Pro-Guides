@@ -573,6 +573,11 @@ function WoWPro.NextStep(k,i)
         if WoWPro.sobjective[k] then
             local stage, objective = string.split(";",WoWPro.sobjective[k])
             stage = tonumber(stage)
+            if stage == nil then
+                WoWPro:Error("Warning: malformed SO tag [%s] at step %s [%s]",WoWPro.sobjective[k], WoWPro.action[k],WoWPro.step[k])
+                skip = true
+                break
+            end
             objective = tonumber(objective) or 0
             if not WoWPro.Scenario then
                 skip = true
@@ -1347,6 +1352,7 @@ function WoWPro.ProcessScenarioStage(flag)
     local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = C_Scenario.GetInfo()
     if not name then
         WoWPro:dbp("WoWPro.ProcessScenarioStage: C_Scenario.GetInfo() inactive.")
+        WoWPro.Scenario = nil
         return
     end
     -- Always create a new scenario table
