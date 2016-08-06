@@ -462,10 +462,24 @@ function WoWPro.NextStep(k,i)
 	        end 
 	    end 
 	    
-	    -- Handle Jump actions
-	    if WoWPro.action[k] == "J" and  WoWPro.guide[k] and i == 1 then
-            skip = false
-            break
+	    -- Handle Jump/Done actions
+	    if (WoWPro.action[k] == "J" or WoWPro.action[k] == "D") and WoWPro.guide[k] then
+	        if i ~= 1 then
+	            -- Only activate when it is the first thing to be done.
+	            skip = true
+	            WoWPro.why[k] = "NextStep(): Not yet first."
+	            break
+	        end
+	        -- Ready to Jump or be Done
+	        if QID and not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
+	            -- Our QID is not active, we must skip.
+                skip = true
+                WoWPro.why[k] = "NextStep(): QID not in QuestLog"
+                break
+            else
+                skip = false
+                break
+            end
 	    end
 
 	    -- WoWPro:dbp("Checkpoint Aleph for step %d",k)
@@ -1145,6 +1159,11 @@ function WoWPro.CompleteStep(step, why)
 	end
 	if WoWPro.action[step] == "D" then
 	    WoWProCharDB.Guide[GID].done = true
+	    if WoWPro.guide[step] then
+            local nGID = WoWPro.guide[step]
+	        WoWPro:dbp("WoWPro.CompleteStep: %s guide is now the next guide.", nGID)
+	        WoWPro:LoadGuide(nGID)
+	    end
 	    WoWPro:dbp("WoWPro.CompleteStep: %s guide is done.",GID)
 	end
 	if WoWPro.action[step] == "J" then
