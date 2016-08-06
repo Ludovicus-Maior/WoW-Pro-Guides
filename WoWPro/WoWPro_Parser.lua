@@ -946,14 +946,6 @@ function WoWPro:RowUpdate(offset)
 		
 		-- Item Button --
 		if action == "H" and not use then use = 6948 end
-		if ( not use ) and action == "C" and WoWPro.QuestLog[tonumber(QID)] and WoWPro.QuestLog[tonumber(QID)].index then
-			local link, icon, charges = GetQuestLogSpecialItemInfo(WoWPro.QuestLog[tonumber(QID)].index)
-			if link then
-				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
-				use = Id
-				WoWPro.use[k] = use
-			end
-		end
 		
 		if use and GetItemInfo(use) then
 			row.itembutton:Show() 
