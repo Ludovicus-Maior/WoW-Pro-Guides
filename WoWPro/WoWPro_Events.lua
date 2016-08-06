@@ -425,21 +425,16 @@ function WoWPro.EventHandler(frame, event, ...)
     end
     
 	-- Unlocking event processong after things get settled --
-	if event == "PLAYER_ENTERING_WORLD" or event == "CINEMATIC_STOP" then
-	    WoWPro:print("Setting Timer PEW/CS")
+	if event == "PLAYER_ENTERING_WORLD"  then
+	    WoWPro:print("Setting Timer PEW")
 	    WoWPro.InitLockdown = true
-	    if event == "PLAYER_ENTERING_WORLD" then
-    	    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
-    	    WoWPro.LockdownTimer = 1.5
-    	else
-    	    WoWPro.LockdownCounter = 3  -- times until release and give up to wait for other addons
-    	    WoWPro.LockdownTimer = 0.5
-    	end
+	    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
+	    WoWPro.LockdownTimer = 1.5
 	end
 		
 	-- Locking event processong till after things get settled --
-	if event == "PLAYER_LEAVING_WORLD" or event == "CINEMATIC_START" then
-	    WoWPro:print("Locking Down PLW/CS")
+	if event == "PLAYER_LEAVING_WORLD"  then
+	    WoWPro:print("Locking Down PLW")
 	    WoWPro.InitLockdown = true
 	end
 	
