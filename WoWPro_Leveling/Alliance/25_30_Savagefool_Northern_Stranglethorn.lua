@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
+-- Date: 2016-08-06 21:58
+-- Who: tubera
+-- Log: Reorganize start a bit for the L26 quest. Fix several QOs. Add few |PRE|/|O| tag combinations for UI popups.
+
+-- URL: http://wow-pro.com/node/3231/revisions/26626/view
 -- Date: 2014-07-25 22:21
 -- Who: Ludovicus
 -- Log: Add mean
@@ -73,21 +78,30 @@ WoWPro:GuideIcon(guide,"ACH",4906)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 24 |LVL|24|QID|26740|N|You need to be level 24 to do this guide.|
+L Level 24 |LVL|24|QID|26732|N|You need to be level 24 to do this guide.|
 
-R Rebel Camp|QID|26740|M|47.82,11.98|N|Northern Stranglethorn is to the south of Duskwood. You can obtain one of two breadcrumbs into this zone, Rebels Without a Clue is offered by Sentinel Velene Starstrike at the Stardust Spire in Ashenvale, and from Sister Elsington in Raven Hill, Duskwood.  Alternatively, in-level players can obtain the Hero's Call from Stormwind City.\n\nOnce you have one of these two, head to the Rebel Camp.|
+R Rebel Camp|QID|26732|M|47.82,11.98|N|Northern Stranglethorn is to the south of Duskwood. You can obtain one of two breadcrumbs into this zone, Rebels Without a Clue is offered by Sentinel Velene Starstrike at the Stardust Spire in Ashenvale, and from Sister Elsington in Raven Hill, Duskwood.  Alternatively, in-level players can obtain the Hero's Call from Stormwind City.\n\nOnce you have one of these two, head to the Rebel Camp.|
 f Rebel Camp|QID|26740|M|47.87,11.86|N|At James Stillair.|
 
 T Rebels Without a Clue|QID|26838|M|47.56,10.33|N|To Lieutenant Doren.|O|
 T Hero's Call: Northern Stranglethorn Vale!|QID|28699|M|47.56,10.33|N|To Lieutenant Doren.|O|
 
 A The Fate of Kurzen|QID|26735|M|47.56,10.33|N|From Lieutenant Doren.|
-A Krazek's Cookery|QID|26740|M|47.17,10.68|N|From Corporal Kaleb.|
 A Bad Medicine|QID|26732|M|47.28,11.02|N|From Brother Nimetz.|
 
-R Nesingwary's Expedition|QID|26740|M|49.33,14.39;47.75,24.25;44.16,22.61|CS|N|Head to Nesingwary's Expedition.|
-T Krazek's Cookery|QID|26740|M|43.72,23.04|N|To Krazek.|
-A Venture Company Mining|QID|26763|M|43.72,23.04|N|From Krazek.|
+C Bad Medicine|QID|26732|M|57.85,20.58|N|Kill and loot Kurzen mobs for the Jungle Remedies.|S|
+C The Fate of Kurzen|QID|26735|M|57.65,21.21|N|The Record and the Dossiers can be found lying about anywhere within Kurzen's Compound, around the campfire is normally a good place to find them.|NC|
+C Bad Medicine|QID|26732|M|57.85,20.58|N|Finish killing and looting Kurzen mobs for the Jungle Remedies.|US|
+A Just Hatched|QID|26738|M|57.85,20.58|N|Loot a Lashtail Raptor Egg Fragment (You recieve this when you get your last Jungle Remedy.). This quest automatically accepts.|
+;R Rebel Camp|QID|26732|M|48.16,24.35;47.56,11.49|CC|N|Head back to the Rebel Camp.|
+T Bad Medicine|QID|26732|M|47.35,11.21|N|To Brother Nimetz.|
+A Control Sample|QID|26733|M|47.35,11.21|N|From Brother Nimetz.|
+T The Fate of Kurzen|QID|26735|M|47.54,10.41|N|To Lieutenant Doren.|
+A Spared from Madness|QID|26736|PRE|26735|M|47.54,10.41|N|From Lieutenant Doren.|
+T Just Hatched|QID|26738|M|47.10,10.88|N|To Corporal Sethman.|
+A I Think She's Hungry|QID|26739|PRE|26738|M|47.10,10.88|N|From Corporal Sethman.|
+
+R Nesingwary's Expedition|QID|583|M|49.33,14.39;50.51,19.15;47.35,25.75;44.16,22.61|CS|N|Head to Nesingwary's Expedition.|
 A Supply and Demand|QID|26343|M|43.80,23.45|N|From Drizzlik.|
 A Welcome to the Jungle|QID|583|M|44.21,22.29|N|From Barnil Stonepot.|
 T Welcome to the Jungle|QID|583|M|44.25,22.92|N|To Hemet Nesingwary Jr..|
@@ -97,50 +111,54 @@ A Panther Hunting|QID|190|M|44.23,22.43|N|From Sir S. J. Erlgadin.|
 A The Green Hills of Stranglethorn|QID|26269|M|44.22,22.32|N|From Barnil Stonepot.|
 
 C The Green Hills of Stranglethorn|QID|26269|M|42.30,21.81|N|This can looted from any of the beast in the area.|S|
+C Tiger Hunting|QID|185|M|41.45,23.37|N|Kill Young Stranglethorn Tigers until complete.|S|
+t Tiger Hunting|QID|185|M|41.45,23.37|N|(UI Alert)|
+A Tiger Stalking|QID|186|PRE|185|M|41.45,23.37|N|(UI Alert)|O|
 C Supply and Demand|QID|26343|M|39.01,19.45|N|Follow the river west, kill and loot the River Crocolisk.|
-C Tiger Hunting|QID|185|M|41.45,23.37|N|Kill Young Stranglethorn Tigers until complete.|
-T Tiger Hunting|QID|185|M|41.45,23.37|N|(UI Alert)|
-A Tiger Stalking|QID|186|M|41.45,23.37|N|(UI Alert)|
+C Tiger Hunting|QID|185|M|41.45,23.37|N|Kill Young Stranglethorn Tigers until complete.|US|
 C The Green Hills of Stranglethorn|QID|26269|M|42.30,21.81|N|This can looted from any of the beast in the area.|US|
 T Supply and Demand|QID|26343|M|43.56,23.40|N|To Drizzlik.|
 A Some Assembly Required|QID|26344|M|43.56,23.40|N|From Drizzlik.|
 T The Green Hills of Stranglethorn|QID|26269|M|44.22,22.32|N|To Barnil Stonepot.|
 
+L Level 25|LVL|25|QID|186|N|You should be level 25 here.|
+
 C Panther Hunting|QID|190|M|53.58,24.18|N|Kill 10 Young Panthers.|
-T Panther Hunting|QID|190|M|53.58,24.18|N|(UI Alert)|
-A Panther Stalking|QID|191|M|53.58,24.18|N|(UI Alert)|
-C Bad Medicine|QID|26732|M|57.85,20.58|N|Kill and loot Kurzen mobs for the Jungle Remedies.|S|
-C The Fate of Kurzen|QID|26735|M|57.65,21.21|N|The Record and the Dossiers can be found lying about anywhere within Kurzen's Compound, around the campfire is normally a good place to find them.|NC|
-C Bad Medicine|QID|26732|M|57.85,20.58|N|Finish killing and looting Kurzen mobs for the Jungle Remedies.|US|
-A Just Hatched|QID|26738|M|57.85,20.58|N|Loot a Lashtail Raptor Egg Fragment (You recieve this when you get your last Jungle Remedy.). This quest automatically accepts.|
+t Panther Hunting|QID|190|M|53.58,24.18|N|(UI Alert)|
+A Panther Stalking|QID|191|PRE|190|M|53.58,24.18|N|(UI Alert)|O|
+
 C Tiger Stalking|QID|186|M|60.23,29.45|N|Kill 10 Stranglethorn Tigers.|
 T Tiger Stalking|QID|186|M|60.23,29.45|N|(UI Alert)|
-A Tiger Prowess|QID|187|M|60.23,29.45|N|(UI Alert)|
+A Tiger Prowess|QID|187|PRE|186|M|60.23,29.45|N|(UI Alert)|O|
+
+L Level 26|LVL|26|QID|186|N|You should be level 26 here.|
+
+R Rebel Camp|QID|26740|N|Head back to the rebel camp|
+
+;add level requirement
+A Krazek's Cookery|QID|26740|M|47.17,10.68|N|From Corporal Kaleb.|LVL|26
+T Krazek's Cookery|QID|26740|M|43.72,23.04|N|To Krazek at Nesingwary's Expedition.|
+A Venture Company Mining|QID|26763|PRE|26740|M|43.72,23.04|N|From Krazek.|
 
 C Some Assembly Required|QID|26344|M|52.32,39.56|N|Kill Snapjaw Crocolisk and loot them, they are found along the river.|S|
 C Venture Company Mining|QID|26763|M|57.54,35.34|N|Kill Venture Co. employess and loot the crystals.|
 C Some Assembly Required|QID|26344|M|52.32,39.56|N|Kill Snapjaw Crocolisk and loot them until you complete the quest. They are on both sides of the river by the Venture Co. Base Camp, feel free to cross over as you'll be returning to Nesingwary's next.\n\nDon't go under either bridge, as the crocodiles beyond are not the right ones (only Snapjaw Crocolisks drop the skins, not Elders Crocs or River Crocs)|US|
 T Some Assembly Required|QID|26344|M|43.72,23.55|N|To Drizzlik.|
+
 A Excelsior|QID|26345|M|43.72,23.55|N|From Drizzlik.|
 T Venture Company Mining|QID|26763|M|43.68,23.03|N|To Krazek.|
 A Return to Corporal Kaleb|QID|26765|M|43.68,23.03|N|From Krazek.|
 
-R Rebel Camp|QID|26732|M|48.16,24.35;47.56,11.49|CC|N|Head back to the Rebel Camp.|
-T Bad Medicine|QID|26732|M|47.35,11.21|N|To Brother Nimetz.|
-A Control Sample|QID|26733|M|47.35,11.21|N|From Brother Nimetz.|
-T Just Hatched|QID|26738|M|47.10,10.88|N|To Corporal Sethman.|
-A I Think She's Hungry|QID|26739|M|47.10,10.88|N|From Corporal Sethman.|
-T Return to Corporal Kaleb|QID|26765|M|47.10,10.88|N|To Corporal Kaleb.|
-T The Fate of Kurzen|QID|26735|M|47.54,10.41|N|To Lieutenant Doren.|
-A Spared from Madness|QID|26736|M|47.54,10.41|N|From Lieutenant Doren.|
-r Sell Junk|QID|26736|N|Close this step when done.|
+T Return to Corporal Kaleb|QID|26765|M|47.10,10.88|N|To Corporal Kaleb at the Rebel camp.|
+
+r Sell Junk|QID|26733|M|47.44,10.19|N|At Corporal Bluth. Close this step when done.|
 R Kurzen's Compound|QID|26736|M|56,20|N|Goto Kurzen's Outpost.|
 C Spared from Madness|QID|26736|M|56.53,20.28|N|Top floor of this building, click on the cage to free them.|
 C I Think She's Hungry|QID|26739|U|58165|M|63.22,22.16|S|N|Kill a Basilisk and let the your Raptor eat it.|
 C Control Sample|QID|26733|M|63.22,22.16|N|Kill and loot Crystal Spine Basilisk. Make sure you loot before you raptor eats it all.|
 C I Think She's Hungry|QID|26739|U|58165|M|63.22,22.16|US|N|Kill a Basilisk and let the your Raptor eat it.|
 
-T Control Sample|QID|26733|M|47.32,11.23|N|To Brother Nimetz.|
+T Control Sample|QID|26733|M|47.32,11.23|N|To Brother Nimetz at the Rebel Camp.|
 A The Source of the Madness|QID|26734|M|47.32,11.23|N|From Brother Nimetz.|
 T I Think She's Hungry|QID|26739|M|47.10,10.93|N|To Corporal Sethman.|
 A Deep Roots|QID|26744|M|47.10,10.93|N|From Corporal Sethman.|
@@ -149,29 +167,29 @@ A Stopping Kurzen's Legacy|QID|26737|M|47.56,10.41|N|From Lieutenant Doren.|
 
 C Tiger Prowess|QID|187|M|38.18,34.92|N|Kill Elder Stranglethorn Tigers until you are finish this quest.|
 T Tiger Prowess|QID|187|M|38.18,34.92|N|(UI Alert)|
-A Tiger Mastery|QID|188|M|38.18,34.92|N|(UI Alert)|
+A Tiger Mastery|QID|188|PRE|187||M|38.18,34.92|N|(UI Alert)|O|
 C Tiger Mastery|QID|188|M|38.33,31.41|N|Kill and loot Sin'Dall to get her paw.|
 C Panther Stalking|QID|191|M|32.69,27.37|N|Kill 10 Panthers.|
 T Panther Stalking|QID|191|M|32.69,27.37|N|(UI Alert)|
-A Panther Prowess|QID|192|M|32.69,27.37|N|(UI Alert)|
+A Panther Prowess|QID|192|PRE|191|M|32.69,27.37|N|(UI Alert)|O|
 C Raptor Hunting|QID|194|M|29.98,30.99|N|Kill 10 Stranglethorn Raptors.|
 T Raptor Hunting|QID|194|M|30.43,31.52|N|(UI Alert)|
-A Raptor Stalking|QID|195|M|30.43,31.52|N|(UI Alert)|
+A Raptor Stalking|QID|195|PRE|194|M|30.43,31.52|N|(UI Alert)|O|
 C Deep Roots|QID|26744|M|33.61,36.74|U|58165|N|Pickup the Bloodscalp Lore Tablet. Make sure you have your baby raptor out (She will start another quest).|
 A Favored Skull|QID|26745|M|33.61,36.74|N|From Lashtail Hatchling.|
 C Raptor Stalking|QID|195|M|38.44,43.24|N|Kill Lashtail Raptors until you are done this quest.|
 T Raptor Stalking|QID|195|M|38.46,43.58|N|(UI Alert)|
-A Raptor Prowess|QID|196|M|38.46,43.58|N|(UI Alert)|
+A Raptor Prowess|QID|196|PRE|185|M|38.46,43.58|N|(UI Alert)|O|
 
 R The Stockpile|QID|26737|M|60.08,17.91|N|The cave at Kurzen's Compound.|
 C The Source of the Madness|QID|26734|M|62.73,17.60|N|Drops off of Kurzen's men in the cave.|S|
-K Chief Anders|QID|26737|M|63.78,16.73|QO|Chief Anders slain: 1/1|N|Kill Chief Anders.|
-K Chief Gaulus|QID|26737|M|62.39,14.14|QO|Chief Gaulus slain: 1/1|N|Kill Chief Gaulus.|
-K Chief Miranda|QID|26737|M|65.78,17.12|QO|Chief Miranda slain: 1/1|N|Kill Chief Miranda.|
-C Stopping Kurzen's Legacy|QID|26737|M|66.03,11.76|N|Finally kill Chief Esquivel.|
-C The Source of the Madness|QID|26734|M|62.73,17.60|N|Drops off of Kurzen's men in the cave.|US|
+K Chief Anders|QID|26737|M|63.78,16.73|QO|1|N|Kill Chief Anders.|
+K Chief Gaulus|QID|26737|M|62.39,14.14|QO|2|N|Kill Chief Gaulus.|
+K Chief Miranda|QID|26737|M|65.78,17.12|QO|3|N|Kill Chief Miranda.|
+K Chief Miranda|QID|26737|M|65.78,17.12|QO|4|N|Finally kill Chief Esquivel.|
+C The Source of the Madness|QID|26734|M|66.04,11.76|N|Drops off of Kurzen's men in the cave.|US|
 
-T The Source of the Madness|QID|26734|M|47.32,11.19|N|To Brother Nimetz.|
+T The Source of the Madness|QID|26734|M|47.32,11.19|N|To Brother Nimetz ath the Rebel Camp.|
 T Deep Roots|QID|26744|M|47.05,10.92|N|To Corporal Sethman.|
 T Favored Skull|QID|26745|M|47.21,10.67|N|To Osborn Obnoticus.|
 A A Nose for This Sort of Thing|QID|26746|M|47.21,10.67|N|From Osborn Obnoticus.|
@@ -196,10 +214,10 @@ C Excelsior|QID|26345|M|50.48,49.40|N|Kill Elder Snapjaw Crocolisk until you loo
 C Panther Prowess|QID|192|S|M|62.49,48.16|N|Kill Shadowmaw Panthers until quest is complete. They are stealthed around trees along the road.|
 C Raptor Prowess|QID|196|M|58.27,50.05|N|Kill Jungle Stalkers until the quest is done.|
 T Raptor Prowess|QID|196|M|58.27,50.05|N|(UI Alert)|
-A Raptor Mastery|QID|197|M|58.27,50.05|N|(UI Alert)|
+A Raptor Mastery|QID|197|PRE|196|M|58.27,50.05|N|(UI Alert)|O|
 C Panther Prowess|QID|192|US|M|62.49,48.16|N|Kill Shadowmaw Panthers until quest is complete. They are stealthed around trees along the road.|
 T Panther Prowess|QID|192|M|62.49,48.16|N|(UI Alert)|
-A Panther Mastery|QID|193|M|62.49,48.16|N|(UI Alert)|
+A Panther Mastery|QID|193|PRE|192||M|62.49,48.16|N|(UI Alert)|O|
 C Panther Mastery|QID|193|M|65.99,43.29;65.51,36.82;32.95,49.91|CN|N|Kill Bhag'thera and loot his fang. He is somewhere between the waypoints.|T|Bhag'thera|
 C Raptor Mastery|QID|197|M|60.44,61.49|N|Kill Tethis and loot his talon. He can be anywhere in this area.|T|Tethis|
 R Fort Livingston|QID|197|M|52.66,66.18|N|Head to Fort Livingston.|
@@ -268,16 +286,15 @@ C Nighttime in the Jungle|QID|26780|M|58.10,73.17|US|N|Extinguish 8 Zul'Mamwe Br
 T Zul'Mamwe Mambo|QID|26779|M|52.70,66.70|N|To Ghaliri.|
 T Nighttime in the Jungle|QID|26780|M|52.82,66.43|N|To Kinnel.|
 T Mind Control|QID|26774|M|53.35,66.64|N|To Priestess Thaalia.|
-A Be Raptor|QID|26775|M|53.35,66.64|N|From Priestess Thaalia.|
-N Speak with Tan'shang|QID|26775|QO|Speak with Tan'shang: 1/1|M|89.07,46.32|N|Speak to the Priestess and begin the vision. Sneak around the trolls and talk to Tan'shang. Go slow!|
-N Help Tenjiyu|QID|26775|QO|Help Tenjiyu: 1/1|M|86.91,44.63|N|Talk to Tenjiyu. Then sneak into a tent and steal food from a sleeping troll, head back and talk to Tenjiyu again.|
-N Speak with Chiyu|QID|26775|QO|Speak with Chiyu: 1/1|M|82.8,37.53|N|Talk to Chiyu.|
-C Be Raptor|QID|26775|M|73.62,32.88|N|Finally, time to escape Zul'Gurub. To warn you, this is the hardest part.|
+A Be Raptor|QID|26775|M|53.35,66.64|N|From Priestess Thaalia.|CHAT|
+N Speak with Tan'shang|QID|26775|QO|1|M|89.07,46.32|N|Speak to the Priestess and begin the vision. Sneak around the trolls and talk to Tan'shang. Go slow!|
+N Help Tenjiyu|QID|26775|QO|2|M|86.91,44.63|N|Talk to Tenjiyu. Then sneak into a tent and steal food from a sleeping troll, head back and talk to Tenjiyu again.|
+N Speak with Chiyu|QID|26775|QO|3|M|82.8,37.53|N|Talk to Chiyu.|
+C Be Raptor|QID|26775|QO|4|M|73.62,32.88|N|Finally, time to escape Zul'Gurub. To warn you, this is the hardest part.|
 T Be Raptor|QID|26775|M|53.40,66.75|N|To Priestess Thaalia.|
 A Ghaliri|QID|26776|M|53.40,66.75|N|From Priestess Thaalia.|
 T Ghaliri|QID|26776|M|52.75,66.77|N|To Ghaliri.|
 F Explorers' League Digsite|QID|26805|N|Speak to Robert Rhodes and tell him you are ready to fly to the Explorers' League Digsite.|
-
 ]]
 
 end)
