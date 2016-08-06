@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-05 19:38
+-- Who: tubera
+-- Log: Cleaned up "Deep Recon" (Horde)
+
+-- URL: http://wow-pro.com/node/3648/revisions/27525/view
 -- Date: 2016-08-04 15:49
 -- Who: tubera
 -- Log: Refixed last fix, so step will autocomplete.
@@ -512,32 +517,23 @@ C Putting Down the Packleader|QID|35841|M|44.6,38.0|N|Packleader Vor'gash|
 T Putting Down the Packleader|QID|35841|M|37.8,36.8|N|To Bodrick Grey|
 
 ; Warlord's Council -- Horde
-A Garrison Campaign: Deep Recon|QID|35843|M|45.6,43.2|N|From Rokhan|
-T Garrison Campaign: Deep Recon|QID|35843|M|49.8,37.0|N|To Shadow Hunter Zasta|
-A The Warlord's Council|QID|35844|PRE|35843|M|49.8,37.0|N|From Shadow Hunter Zasta|
-T The Warlord's Council|QID|35844|M|41.8,37.0|N|To Shadow Hunter Kajassa|
-A Plans of War|QID|35845|PRE|35844|M|41.8,37.0|N|From Shadow Hunter Kajassa|
-C Plans of War|QID|35845|M|43.2,34.2|N|Scale Model of Gorgorek|
-C Plans of War|QID|35845|M|42.6,38.6|N|Miniature War Machine|
-C Plans of War|QID|35845|M|45.8,36.6|N|Map of Tanaan Jungle|
-T Plans of War|QID|35845|M|45.6,43.2|N|To Rokhan|
-A Intercepting the Orders|QID|35846|PRE|35845|M|41.8,37.0|N|From Shadow Hunter Kajassa|
-C Intercepting the Orders|QID|35846|M|43.2,34.4|N|Mok'gol Brutalizer|
-C Intercepting the Orders|QID|35846|M|44.4,37.2|N|Mok'gol Grunt|
-C Intercepting the Orders|QID|35846|M|43.2,35.2|N|Mok'gol Pack-Leader|
-C Intercepting the Orders|QID|35846|M|42.6,38.6|N|Mok'gol Wolfsong|
-C Intercepting the Orders|QID|35846|M|43.2,39.0|N|Mok'gol Raider|
-C Intercepting the Orders|QID|35846|M|45.8,34.8|N|Karosh Blackwind|
-C Intercepting the Orders|QID|35846|M|43.0,36.2|N|Brutag Grimblade|
-C Intercepting the Orders|QID|35846|M|42.4,36.4|N|Krahl Deadeye|
-C Intercepting the Orders|QID|35846|M|42.4,36.4|N|Gortag Steelgrip|
-C Intercepting the Orders|QID|35846|M|45.0,34.2|N|Mok'gol Raider|
-C Intercepting the Orders|QID|35846|M|45.0,34.2|N|Mok'gol Pack-Leader|
-T Intercepting the Orders|QID|35846|M|45.6,43.2|N|To Rokhan|
-A Putting Down the Packleader|QID|35842|PRE|35846|M|41.8,37.0|N|From Shadow Hunter Kajassa|
-C Putting Down the Packleader|QID|35842|M|44.6,38.0|N|Packleader Vor'gash|
-T Putting Down the Packleader|QID|35842|M|45.6,43.2|N|To Rokhan|
-
+;A Garrison Campaign: Deep Recon|QID|35843|M|45.6,43.2|N|From Rokhan|
+T Garrison Campaign: Deep Recon|QID|35843|M|49.8,37.0|Z|Nagrand@Draenor|N|To Shadow Hunter Zasta in Nagrand|
+A The Warlord's Council|QID|35844|PRE|35843|M|49.8,37.0|Z|Nagrand@Draenor|N|From Shadow Hunter Zasta|
+T The Warlord's Council|QID|35844|M|41.8,37.0|Z|Nagrand@Draenor|N|To Shadow Hunter Kajassa|
+A Plans of War|QID|35845|PRE|35844|M|41.8,37.0|Z|Nagrand@Draenor|N|From Shadow Hunter Kajassa|
+A Putting Down the Packleader|QID|35842|PRE|35844|M|41.8,37.0|N|From Shadow Hunter Kajassa|
+A Intercepting the Orders|QID|35846|PRE|35844|M|41.8,37.0|N|From Shadow Hunter Kajassa|
+C Intercepting the Orders|QID|35846|M|43.2,34.4|N|Kill Orcs in the area to get all plans|S
+K Putting Down the Packleader|QID|35842|T|Packleader|M|44.6,38.0|N|Kill Packleader Vor'gash|S
+C Plans of War|QID|35845|QO|1|M|43.2,34.2|Z|Nagrand@Draenor|N|Scale Model of Gorgorek|NC
+C Plans of War|QID|35845|QO|2|M|42.6,38.6|Z|Nagrand@Draenor|N|Miniature War Machine|NC
+C Plans of War|QID|35845|QO|3|M|45.8,36.6|Z|Nagrand@Draenor|N|Map of Tanaan Jungle|NC
+K Putting Down the Packleader|QID|35842|T|Packleader|M|44.6,38.0|N|Kill Packleader Vor'gash|US
+C Intercepting the Orders|QID|35846|M|43.2,34.4|N|Keep killing Orcs until you have all plans|US
+T Plans of War|QID|35845|M|45.6,43.2|Z|Frostwall|N|To Rokhan at your Garrison|
+T Intercepting the Orders|QID|35846|M|45.6,43.2|Z|Frostwall|N|To Rokhan|
+T Putting Down the Packleader|QID|35842|M|45.6,43.2|Z|Frostwall|N|To Rokhan|
 D Next!|QID|0|N|Click to return to whatever guide you were doing before.|
 
 A A Good Death|QID|34354|M|0.0,0.0|N|From ?|; Neutral
