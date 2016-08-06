@@ -59,7 +59,7 @@ function WoWPro.PetMeetsLimits(petID, limits)
 
     if limit_type == "L>" then
         local min_level = tonumber(string.sub(limits, 3, -1))
-        WoWPro:dbp("PetMeetsLimits: Level %d > %d ?",level, min_level)
+--        WoWPro:dbp("PetMeetsLimits: Level %d > %d ?",level, min_level)
         return level > min_level
     elseif limit_type == "H>" then
         local min_health = tonumber(string.sub(limits, 3, -1))
@@ -174,14 +174,17 @@ function WoWPro.GetPetByAbilities(abilities, limits)
     local numPets, numOwned = C_PetJournal.GetNumPets();
     local pids = nil
     local slots = {}
+    local spells = {}
     local target_score = 0
     -- How many ability slots are valid?
     for j = 1,3 do
         if abilities[j] > 2 then
             target_score = target_score + 1
+            spells[abilities[j]] = true
+--            WoWPro:dbp("WoWPro.GetPetByAbilities: spells[%d]=true",abilities[j])
         end
     end
-    WoWPro:dbp("GetPetByAbilities(): Searching out of %d/%d",numPets, numOwned)
+    WoWPro:dbp("GetPetByAbilities(): Searching out of %d/%d, target_score is %d",numPets, numOwned, target_score)
     for i = 1,numPets do
         -- petID="BattlePet-0-0000027C0B08", speciesID=244, isOwned=true, customName=nil, level=1, favorite=false, isRevoked=false
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
@@ -190,6 +193,7 @@ function WoWPro.GetPetByAbilities(abilities, limits)
         idTable, levelTable = C_PetJournal.GetPetAbilityList(speciesID)
         local score = 0
         local ok = false
+        slots = {}
         if isOwned and canBattle then
             if limits then
                 if WoWPro.PetMeetsLimits(petID, limits) then
@@ -201,8 +205,10 @@ function WoWPro.GetPetByAbilities(abilities, limits)
         end
         -- Possible candidate?
         if ok then
+--            WoWPro:dbp("WoWPro.GetPetByAbilities: Considering Candidate %s aka %s/%d", petID, speciesName, companionID)
             for j = 1,6 do
-                if abilities[idTable[j]] and levelTable[i] <= level  and not slots[j] then
+--                WoWPro:dbp("WoWPro.GetPetByAbilities: idTable[j] = %s, levelTable[j] = %s",tostring(idTable[j]), tostring(levelTable[j]))
+                if spells[idTable[j]] and levelTable[j] <= level  and not slots[j] then
                     pids = pids or {}
                     slots[j+3] = true
                     score = score + 1
@@ -282,6 +288,36 @@ function WoWPro.MapPetSpellPicks(pet,pick)
 --    WoWPro:dbp("MapPetSpellPicks() for [%s] species %s, level %d", name, tostring(speciesID), level)
     local slots = {}
     local ability = {}
+
+    -- Set the default abilities: 1+1+1
+    for j = 1,3 do
+        ability[j] = idTable[j]
+    end
+
+    -- First look for spell picks to override
+    if pick[0] > 2 then
+        for i = 1,3 do
+            if pick[i] > 2 then
+                -- So the spell is specified. Find the slot to use
+                for j = 1,3 do
+                    if levelTable[j] <= level  and not slots[j] then
+                        if pick[i] == idTable[j] then
+                            ability[j] = idTable[j]
+                            slots[j] = true
+                            WoWPro:dbp("MapPetSpellPicks(1): pick spell %d",idTable[j])
+                        end
+                        if pick[i] == idTable[j+3] then
+                            ability[j] = idTable[j+3]
+                            slots[j] = true
+                            WoWPro:dbp("MapPetSpellPicks(2): pick spell %d",idTable[j+3])
+                        end
+                    end
+                end
+            end
+        end
+        return ability
+    end
+    -- Next set the toggles
     for j = 1,6 do
         if levelTable[j] <= level  and not slots[j] then
 --            WoWPro:dbp("MapPetSpellPicks(): ability %d is availible level %d", j, levelTable[j])
@@ -293,16 +329,9 @@ function WoWPro.MapPetSpellPicks(pet,pick)
             end
             if j > 3 and pick[j-3] == 2 then
                 ability[j-3] = idTable[j]
-                slots[j] = true
+                slots[j-3] = true
 --                WoWPro:dbp("MapPetSpellPicks(): pick2 spell %d",idTable[j])
             end
-            local idx = 1+ ((j-1)%3)
-            if pick[idx] > 2 and pick[idx] == idTable[j] then
-                ability[idx] = idTable[j]
-                slots[j] = true
---                WoWPro:dbp("MapPetSpellPicks(): pick spell %d",idTable[j])
-            end
---            WoWPro:Print("MapPetSpellPicks(): Mapped Pick %d to spell %d", pick[idx], ability[idx])
         end
     end
     return ability        
@@ -353,7 +382,7 @@ function WoWPro.PetLoadBySpec(slot, spec)
     local pick = { string.split("+",pick_spec) }
     pick[0] = -1
     for i = 1,3 do
-        pick[i] = tonumber(pick[i]) or 1
+        pick[i] = tonumber(pick[i]) or 0
         pick[0] = math.max(pick[0], pick[i])
     end
     return WoWPro.PetLoadAndPick(slot, name, tonumber(id) , pick, limits or "")
