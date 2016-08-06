@@ -530,6 +530,8 @@ function WoWPro:ParseSteps(steps)
 			end
 		end
 	end
+	local last_i = i -1
+
 	-- OK, now add a standard L step at the start of every guide
 	local init,min_level
 	if not WoWPro.Recorder then
@@ -537,7 +539,7 @@ function WoWPro:ParseSteps(steps)
     	init = string.format("L Level %d|LVL|%d|N|You need to be level %d to start this guide.|",min_level,min_level,min_level)
     	WoWPro.ParseQuestLine(faction, zone, 1, init)
 	end
-	
+
 	-- OK, now add a standard L step just before the end of the guide, if we have an end-level
 	if not WoWPro.Recorder and WoWPro.Guides[GID].endlevel then
 	    local halt
@@ -547,9 +549,9 @@ function WoWPro:ParseSteps(steps)
 	    i = i + 1
 	end
 
-	-- OK, now add a standard D step at the end of every guide
+	-- OK, now add a standard D step at the end of every guide, if there is none there
 	local fini, nguide
-    if not  WoWPro.Recorder then
+    if not  WoWPro.Recorder and WoWPro.action[last_i] ~= "D" then
     	nguide = WoWPro:NextGuide(GID)
     	if nguide then
     	    fini = string.format("D Onwards|N|This ends %s. %s is next.|",WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide))
@@ -557,9 +559,11 @@ function WoWPro:ParseSteps(steps)
     	    fini = string.format("D Fini|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|",WoWPro:GetGuideName(GID))
     	end
     	WoWPro.ParseQuestLine(faction, zone, i, fini)
+        WoWPro.stepcount = i
+    else
+        WoWPro.stepcount = i - 1
     end
-    
-    WoWPro.stepcount = i
+
 
 	if WoWPro.DebugLevel > 0 then
 	    if WoWPro.Guides[GID].acnt_level > 0 then
