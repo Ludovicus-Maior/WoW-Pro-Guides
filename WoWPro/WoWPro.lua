@@ -48,7 +48,7 @@ function WoWPro:Add2Log(level,msg)
 	    WoWPro.Log[date("%H%M.")..string.format("%04d",WoWPro.Serial)] = msg
 	end
 end
--- Debug print function --
+-- Debug print function. log, never console --
 function WoWPro:dbp(message,...)
 	if WoWPro.DebugLevel > 0 and message ~= nil then
 	    local msg = string.format("|c7f007f00%s|r: "..message, self.name or "Wow-Pro",...)
@@ -57,6 +57,7 @@ function WoWPro:dbp(message,...)
 end
 WoWPro:Export("dbp")
 
+--  Print function. log, never console --
 function WoWPro:print(message,...)
 	if message ~= nil then
 	    local msg = string.format("|c7f0000ff%s|r: "..message, self.name or "Wow-Pro",...)
@@ -65,7 +66,7 @@ function WoWPro:print(message,...)
 end
 WoWPro:Export("print")
 
--- WoWPro print function --
+-- WoWPro print function, log and console --
 function WoWPro:Print(message,...)
 	if message ~= nil then
 	    local msg = string.format("|c7fffff7f%s|r: "..message, self.name or "Wow-Pro",...)
@@ -74,7 +75,7 @@ function WoWPro:Print(message,...)
 end
 WoWPro:Export("Print")
 
--- WoWPro warning function --
+-- WoWPro warning function, log and console --
 function WoWPro:Warning(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffffff00%s|r: "..message, self.name or "Wow-Pro",...)
@@ -83,7 +84,7 @@ function WoWPro:Warning(message,...)
 end
 WoWPro:Export("Warning")
 
--- WoWPro error function --
+-- WoWPro error function, log and console --
 function WoWPro:Error(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffff7d0a%s|r: "..message, self.name or "Wow-Pro",...)
@@ -92,7 +93,7 @@ function WoWPro:Error(message,...)
 end
 WoWPro:Export("Error")
 
--- WoWPro error function --
+-- WoWPro Event function, only log --
 function WoWPro:LogEvent(event,...)
     local msg = string.format("|cffff7d0a%s|r: %s(", self.name or "Wow-Pro",tostring(event))
     local arg = {...}
@@ -110,6 +111,39 @@ function WoWPro:LogEvent(event,...)
     msg = msg .. string.format(") InitLockdown=%s",tostring(WoWPro.InitLockdown))
     WoWPro:Add2Log(3,msg)
 end
+
+-- Error Logging
+
+local logerror_lock = nil
+local DEBUG_LEVEL = 4
+function WoWPro.LogError(error_msg)
+    logerror_lock = error_msg
+
+    local msg = string.format("|cffff7d0a%s|r: Error: %s", "Wow-Pro",tostring(error_msg))
+    WoWPro:Add2Log(3,msg)
+
+    msg = string.format("|cffff7d0a%s|r: Stack: %s", "Wow-Pro", debugstack(DEBUG_LEVEL, 5, 5))
+    WoWPro:Add2Log(3,msg)
+
+    msg = string.format("|cffff7d0a%s|r: Locals: %s", "Wow-Pro", debuglocals(DEBUG_LEVEL))
+    WoWPro:Add2Log(3,msg)
+    logerror_lock = nil
+end
+
+-- Get the current error handler
+local origHandler = geterrorhandler()
+
+local function OnErrorHandler(msg)
+    if logerror_lock then
+        -- Something bad happend, just clear the flag
+        logerror_lock = nil
+    else
+        WoWPro.LogError(msg)
+    end
+    return origHandler(msg)
+end
+
+seterrorhandler(OnErrorHandler)
 
 function WoWPro.ShallowCopyTable(orig)
     local orig_type = type(orig)
@@ -392,6 +426,7 @@ function WoWPro:OnEnable()
 		"PET_BATTLE_OPENING_START", "PET_BATTLE_PET_ROUND_RESULTS", "CHAT_MSG_PET_BATTLE_COMBAT_LOG", "PET_BATTLE_FINAL_ROUND", "PET_BATTLE_CLOSE",
 		"SCENARIO_UPDATE", "SCENARIO_CRITERIA_UPDATE", "SCENARIO_SPELL_UPDATE", "SCENARIO_COMPLETED", "SCENARIO_CRITERIA_SHOW_STATE_UPDATE",
 		"CRITERIA_COMPLETE",
+		"ADDON_ACTION_FORBIDDEN", "ADDON_ACTION_BLOCKED"
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
 	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)

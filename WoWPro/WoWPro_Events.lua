@@ -418,6 +418,12 @@ end
 function WoWPro.EventHandler(frame, event, ...)
     WoWPro:LogEvent(event,...)
 
+    -- Naughty People!
+    if event == "ADDON_ACTION_FORBIDDEN" or event == "ADDON_ACTION_BLOCKED" then
+        -- Its has been logged by LogEvent, so just return
+        return
+    end
+    
 	-- Unlocking event processong after things get settled --
 	if event == "PLAYER_ENTERING_WORLD" or event == "CINEMATIC_STOP" then
 	    WoWPro:print("Setting Timer PEW/CS")
