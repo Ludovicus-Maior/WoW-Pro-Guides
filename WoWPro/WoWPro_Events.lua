@@ -73,11 +73,13 @@ function WoWPro:CheckPlayerForBuffs(buffs)
 end
 
 -- Auto-Complete: Do we have a buff? --
-function WoWPro:AutoCompleteBuff(unit,...)
+function WoWPro.AutoCompleteBuff(unit,...)
     if unit ~= "player" then return end
 	for i = 1,15 do
 		local index = WoWPro.rows[i].index
 		if WoWPro.buff and WoWPro.buff[index] and  WoWPro:CheckPlayerForBuffs(WoWPro.buff[index]) then
+		    -- Log only the usefull ones!
+		    WoWPro:LogEvent("UNIT_AURA", unit, ...)
 		    WoWPro.CompleteStep(index, "AutoCompleteBuff")
 		end
 	end
@@ -416,6 +418,13 @@ end
 
 
 function WoWPro.EventHandler(frame, event, ...)
+    -- Filter out non-player UNIT_AURA events
+    if event == "UNIT_AURA" not MaybeCombatLockdown() then
+         -- Process silently!
+        WoWPro.AutoCompleteBuff(...)
+        return
+    end
+
     WoWPro:LogEvent(event,...)
 
     -- Naughty People!
@@ -543,11 +552,6 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:UpdateGuide(event) 
 	end
 
-    -- Did we get a buff?
-    if event == "UNIT_AURA" and not MaybeCombatLockdown() then
-        WoWPro:AutoCompleteBuff(...)
-    end
-        
 	-- Lets see what quests the NPC has:
     if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
         local npcQuests = {GetGossipAvailableQuests()};
