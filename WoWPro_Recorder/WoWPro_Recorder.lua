@@ -255,9 +255,9 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
             -- close old stage and open the new stage
             local stepInfo = {
                 action = "C",
-                step = old_scenario.stageName,
+                step = tostring(old_scenario.stageName),
                 zone = zonetag,
-                note = old_scenario.stageDescription,
+                note = tostring(old_scenario.stageDescription),
                 unsticky = true,
                 sobjective = tostring(old_scenario.currentStage),
             }
@@ -265,9 +265,9 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
             WoWPro.Recorder.AddStep(stepInfo)
             stepInfo = {
                 action = "C",
-                step = scenario.stageName,
+                step = tostring(scenario.stageName),
                 zone = zonetag,
-                note = scenario.stageDescription,
+                note = tostring(scenario.stageDescription),
                 sticky = true,
                 sobjective = tostring(scenario.currentStage),
             }
@@ -280,7 +280,7 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
                     action = "C",
                     step = tostring(old_scenario.stageName),
                     zone = zonetag,
-                    note = scenario.stageDescription,
+                    note = tostring(scenario.stageDescription),
                     unsticky = true,
                     sobjective = tostring(old_scenario.currentStage),
                 }
@@ -292,14 +292,14 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
        -- New Scenario
         local stepInfo = {
             action = "C",
-            step = scenario.stageName,
+            step = tostring(scenario.stageName),
             zone = zonetag,
-            note = scenario.stageDescription,
+            note = tostring(scenario.stageDescription),
             sticky = true,
             sobjective = tostring(scenario.currentStage),
         }
         WoWPro.Recorder:Print("Starting new scenario: %s", tostring(scenario.name))
-        WoWPro.Recorder:Print("Entering new stage: %s", tostring(stepInfo.step))
+        WoWPro.Recorder:Print("Entering new stage: %s", tostring(scenario.stageName))
         WoWPro.Recorder.AddStep(stepInfo)
     end
     WoWPro.Recorder.ProcessScenarioCriteria(scenario)
