@@ -990,7 +990,7 @@ function WoWPro.NextStep(k,i)
         -- Do we have enough loot in bags?
 		if (WoWPro.lootitem and WoWPro.lootitem[k]) then
 		    WoWPro:dbp("Checking step %d for loot %s",k, WoWPro.lootitem[k])
-		    if GetItemCount(WoWPro.lootitem[k]) >= WoWPro.lootqty[k] then
+		    if GetItemCount(WoWPro.lootitem[k]) >= (WoWPro.lootqty[k] or 1) then
 		        if WoWPro.action[k] == "T" then
 		            -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
 		            WoWPro.why[k] = "NextStep(): enough loot to turn in quest."
