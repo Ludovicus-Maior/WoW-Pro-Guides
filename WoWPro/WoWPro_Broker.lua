@@ -1372,6 +1372,9 @@ function WoWPro.ProcessScenarioStage(flag)
     if not name then
         WoWPro:dbp("WoWPro.ProcessScenarioStage: C_Scenario.GetInfo() inactive.")
         WoWPro.Scenario = nil
+        if WoWPro.Recorder and WoWPro.Recorder.ProcessScenarioStage then
+            WoWPro.Recorder.ProcessScenarioStage(nil)
+        end
         return
     end
     -- Always create a new scenario table
