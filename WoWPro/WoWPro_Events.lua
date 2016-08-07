@@ -705,7 +705,7 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:AutoCompleteZone(...)
 	end
 	if event == "QUEST_LOG_UPDATE" then
-		WoWPro:PopulateQuestLog()
+		WoWPro.PopulateQuestLog()
 		WoWPro:AutoCompleteQuestUpdate(nil)
 		WoWPro:UpdateQuestTracker()
 		WoWPro:UpdateGuide(event)

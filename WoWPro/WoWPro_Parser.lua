@@ -669,7 +669,7 @@ function WoWPro.SetupGuideReal()
     
     WoWPro:dbp("SetupGuideReal(%s): Type: %s",GID,guideType)
     
-	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
+	WoWPro.PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
 	-- Do we need to do AutoProximitySort'
 	if WoWPro.Guides[GID].AutoProximitySort then

@@ -1218,8 +1218,8 @@ end
 WoWPro.inhibit_oldQuests_update = false
 
 -- Populate the Quest Log table for other functions to call on --
-function WoWPro:PopulateQuestLog()
-	WoWPro:print("WoWPro:PopulateQuestLog()")
+function WoWPro.PopulateQuestLog()
+	WoWPro:print("PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is %s", tostring(WoWPro.inhibit_oldQuests_update))
 	
 	if not WoWPro.inhibit_oldQuests_update then
 	    WoWPro.oldQuests = WoWPro.QuestLog or {}
@@ -1233,7 +1233,7 @@ function WoWPro:PopulateQuestLog()
 	local entries, numQuests = GetNumQuestLogEntries()
 	local lastCollapsed = nil
 	local num = 0
-	WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.",entries,numQuests)
+	WoWPro:dbg("PopulateQuestLog: Entries %d, Quests %d.",entries,numQuests)
 
     i=1
 	repeat
@@ -1310,7 +1310,7 @@ function WoWPro:PopulateQuestLog()
 	    lastCollapsed = nil
 	end
 
-	WoWPro:dbp("Quest Log populated. "..num.." quests found.")
+	WoWPro:print("Quest Log populated. "..num.." quests found.")
 	if numQuests > num then
 	    WoWPro:Error("Expected to find %d quests in QuestLog, but found %d.",numQuests, num)
 	end
@@ -1341,10 +1341,11 @@ function WoWPro:PopulateQuestLog()
 	-- Print updated objectives --
 	for QID, questInfo in pairs(WoWPro.oldQuests) do
 		if WoWPro.QuestLog[QID] then
+		    WoWPro:print("Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
             if WoWPro.oldQuests[QID].leaderBoard and WoWPro.QuestLog[QID].leaderBoard then
                 for idx, status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
                     -- Same Objective
-                    WoWPro:print("idx %d, status %s",idx,status) 
+                    WoWPro:dbp("idx %d, status %s",idx,status)
                     if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
                         WoWPro:print("Completed objective #%d (%s) on quest [%s]", idx, WoWPro.QuestLog[QID].leaderBoard[idx], WoWPro.QuestLog[QID].title)
                     end
