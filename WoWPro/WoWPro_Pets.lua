@@ -89,6 +89,12 @@ end
 function WoWPro.GetPetByNameOrID(name, id, limits)
     local numPets, numOwned = C_PetJournal.GetNumPets();
     local pids = nil
+
+    if numPets == 0 then
+        WoWPro:dbp("GetPetByNameOrID():No pets!")
+        return nil
+    end
+
     WoWPro:dbp("GetPetByNameOrID(): Searching for %s/%s out of %d/%d",tostring(name), tostring(id),numPets, numOwned)
     for i = 1,numPets do
         -- petID="BattlePet-0-0000027C0B08", speciesID=244, isOwned=true, customName=nil, level=1, favorite=false, isRevoked=false
@@ -125,6 +131,11 @@ function WoWPro.GetLevelingPet(limits)
     local petID_worst = nil
     local speciesName_worst = nil
     local companionID_worst = nil
+
+    if numPets == 0 then
+        WoWPro:dbp("GetLevelingPet():No pets!")
+        return nil
+    end
 
     WoWPro:dbp("GetLevelingPet(): Searching out of %d/%d",numPets, numOwned)
     for i = 1,numPets do
@@ -176,6 +187,12 @@ function WoWPro.GetPetByAbilities(abilities, limits)
     local slots = {}
     local spells = {}
     local target_score = 0
+
+    if numPets == 0 then
+        WoWPro:dbp("GetPetByAbilities():No pets!")
+        return nil
+    end
+
     -- How many ability slots are valid?
     for j = 1,3 do
         if abilities[j] > 2 then
