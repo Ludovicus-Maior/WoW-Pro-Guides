@@ -1233,7 +1233,7 @@ function WoWPro.PopulateQuestLog()
 	local entries, numQuests = GetNumQuestLogEntries()
 	local lastCollapsed = nil
 	local num = 0
-	WoWPro:dbg("PopulateQuestLog: Entries %d, Quests %d.",entries,numQuests)
+	WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.",entries,numQuests)
 
     i=1
 	repeat
