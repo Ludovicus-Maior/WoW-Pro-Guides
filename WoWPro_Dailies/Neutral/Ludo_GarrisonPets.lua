@@ -26,10 +26,6 @@ C Iron Starlette|QID|85561.1|STRATEGY|IS/DZ|N|Brutus:\n1: Windup\m2: Supercharge
 C Darkmoon Zepplin|QID|85561.1|STRATEGY|IS/DZ|N|Rukus:\n1: Bombing Run\m2: Missle\n3:Missle (and die)|SELECT|2|DEAD|1,2|
 C Leveling Pet|QID|85561.1|STRATEGY|IS/DZ|N|Leveling:\n1: Best Damage\n2: Best Damage\n3: Bomb Hits|SELECT|3|DEAD|2,3|
 
-C Lil' Bling/Darkmoon Zeppelin|QID|85561.1|PET1|Lil' Bling;73011;2+2+2|PET2|Darkmoon Zeppelin;55367;1+2+2|PET3|Leveling|STRATEGY|LB/DZ|
-
-
-
 
 ; Day 3: Mr. Terrible, Carroteye, and Sloppus
 ! Mr. Terrible, Carroteye, and Sloppus|NPC|85656;85657;85658|QID|85656.1|
@@ -67,7 +63,7 @@ C Gromli|QID|85662.1|STRATEGY|UV/SP|N|1) Howl\n2) Diseased Bite\n3) Diseased Bit
 
 ; Day 7: Grubbles, Stings, and Scrags
 ! Grubbles, Scrags, and Stings|NPC|85664;85665;85666|QID|85664.1|
-C Lil' Bad Wolf/Iron Starlette|QID|85664.1|PET1|Lil' Bad Wolf;71014;1+2+1|PET2|Iron Starlette;77221;1+2+1|PET3|Backup;;|STRATEGY|WolfStar|
+C Lil' Bad Wolf/Iron Starlette|QID|85664.1|PET1|Lil' Bad Wolf;71014;1+2+1|PET2|Iron Starlette;77221;1+2+1|PET3|Leveling;;|STRATEGY|WolfStar|
 C Grubbles|QID|85664.1|STRATEGY|WolfStar|N|1) Dodge\n2) Howl\n3) Claw spam|SELECT|1|DEAD|2,1|SWITCH|2|
 C Scrags|QID|85664.1|STRATEGY|WolfStar|N|1) Wind-Up\n2) Toxic Smoke\n3) Wind-Up|SELECT|2|DEAD|2,2|
 C Stings|QID|85664.1|STRATEGY|WolfStar|N|1) Wind-Up\n2) Supercharge\n3) Wind-Up|SELECT|2|DEAD|2,3|
@@ -89,6 +85,11 @@ C Chrominius|QID|79751.1|STRATEGY|HowlBombClassic|N|6) Howl\n7) Bite *|DEAD|7975
 
 ; Day 10: Fiero and Tirs
 ! Fiero and Tirs|NPC|85677;85678|QID|85677.1|
+C Pandaren Water Spirit|QID|85677.1|PET1|Pandaren Water Spirit;66950;1+2+1|PET2|Spirebound Crab;63005;2+2+2;|PET3|Pumper;;297|STRATEGY|AeroKargath@WoWHead|
+C PWS .vs. Tirs|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n2)Dive\n3) (avoids massive damage attack)\n)4,5) Water Jet\n|SELECT|1|DEAD|2,1|
+C PWS .vs. Fiero|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n2)Dive\n3) (avoids massive damage attack)\n)4,5) Water Jet\n|SELECT|1|DEAD|1,1|
+C Crab .vs. Fiero|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n 2) Surge Spam!|DEAD|2,2|
+
 
 
 ; Day 11: Rockbiter, Stonechewer, and Acidtooth
