@@ -9,13 +9,13 @@ local initSpecs = {}
 
 -- [0] UI Name , [1] UI Desc, [2]UI Var, [3] guide Var, Register ordinal
 initSpecs["Leveling"] = {
-                          { "GID:", "The ID for this guide.", "GID" , nil, 1 },
-                          { "Author Name:", "The author of the original guide.", "Author" , "author", 3 },
-                          { "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID", 6},
-                          { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone", 2},
-                          { "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel", 4 },
-                          { "End Level:", "The ending level for the guide.", "EndLvl", "endlevel", 5 },
-                          { "Faction:", "The Faction for the guide", "Faction", faction, 7} 
+                          { "GID:", "The ID for this guide.", "GID" , nil},
+                          { "Author Name:", "The author of the original guide.", "Author" , "author"},
+                          { "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
+                          { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
+                          { "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
+                          { "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
+                          { "Faction:", "The Faction for the guide", "Faction", "faction"}
                          }
 initSpecs["Achievements"] = {
                           { "GID:", "The ID for this guide.", "GID" , nil },
@@ -25,7 +25,8 @@ initSpecs["Achievements"] = {
                           { "Category:", "The Category for the guide.", "Category", "category" },
                           { "Subcategory:", "The subcategory for the guide.", "Subcategory"  , "sub" },
                         }
-                        
+WoWPro.Recorder.initSpecs = initSpecs
+
 local function CreateInitSpecMenu(module)
     -- punt if we dont have a spec
     if not initSpecs[module] then return; end
@@ -91,6 +92,9 @@ local function CreateInitSpecMenu(module)
 							for idx,value in ipairs(initSpecs[module]) do
                                 if value[4] then
                                     optArgs[value[4]] = WoWPro.Recorder.CurrentGuide[value[3]]
+                                    WoWPro.Recorder:Print("Setting %s to '%s'",value[4], WoWPro.Recorder.CurrentGuide[value[3]])
+                                else
+                                    WoWPro.Recorder:Print("Skipped %s",value[3])
                                 end
 							end							    
 							WoWPro.Recorder:InitGuide(WoWPro.Recorder.CurrentGuide.GID,WoWPro.Recorder.CurrentGuide.Type, optArgs)
