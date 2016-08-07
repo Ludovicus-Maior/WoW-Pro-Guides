@@ -125,7 +125,7 @@ function WoWPro.LogError(error_msg)
     msg = string.format("|cffff7d0a%s|r: Stack: %s", "Wow-Pro", debugstack(DEBUG_LEVEL, 5, 5))
     WoWPro:Add2Log(3,msg)
 
-    msg = string.format("|cffff7d0a%s|r: Locals: %s", "Wow-Pro", debuglocals(DEBUG_LEVEL))
+    msg = string.format("|cffff7d0a%s|r: Locals: %s", "Wow-Pro", debuglocals(DEBUG_LEVEL) or "Nada")
     WoWPro:Add2Log(3,msg)
     logerror_lock = nil
 end
