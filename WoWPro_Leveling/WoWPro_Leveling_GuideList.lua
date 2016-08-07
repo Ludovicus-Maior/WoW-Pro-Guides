@@ -17,7 +17,7 @@ for guidID,guide in pairs(WoWPro.Guides) do
 		table.insert(guides, {
 			GID = guidID,
 			guide = guide,
-			Zone = guide.zone,
+			Zone = WoWPro:GetGuideName(guidID),
 			Author = guide.author,
 			Range = "("..tostring(guide.startlevel).."-"..tostring(guide.endlevel)..")",
 			Progress = progress, 
