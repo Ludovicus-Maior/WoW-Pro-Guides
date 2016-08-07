@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
+-- Date: 2016-08-07 21:56
+-- Who: tubera
+-- Log: Several tweaks, since quest objects now give an UI popup. And added getting of flight points. Instead of using flight points that most likely won't exist yet. Added few quest levels. Added pre to "Wilds of Feralas" since you need to have done Desolace.
+
+-- URL: http://wow-pro.com/node/3245/revisions/27468/view
 -- Date: 2016-07-17 20:21
 -- Who: Ludovicus
 -- Log: Moved [A Signs of Change] to a better location.
@@ -68,11 +73,14 @@ WoWPro:GuideIcon(guide,"ACH",4932)
 WoWPro:GuideSteps(guide, function()
 return [[
 A Warchief's Command: Feralas!|QID|28510|N|From Warchief's Command Board|
-A The Wilds of Feralas|QID|26589|M|73.2,73.0|N|From Khan Shodo.|
+;add zone & pre
+A The Wilds of Feralas|QID|26589|PRE|14394|M|73.2,73.0|N|From Khan Shodo.|Z|Desolace|
 
 F Camp Ataya|QID|25339|M|57.71,49.74|N|Fly to Camp Ataya in Feralas.|Z|Desolace|
-A The Wilds of Feralas|QID|26589|M|73.2,73.0|N|From Khan Shodo.|
-h Camp Ataya|QID|14411|US|M|41.40,15.73|N|At Adene Treetotem.|
+h Camp Ataya|QID|25339|US|M|41.40,15.73|N|At Adene Treetotem.|
+;add T for warchief's command. fix Wilds of feralas to T
+T The Wilds of Feralas|QID|26589|PRE|14394|M|41.39,15.40|N|To Konu Runetotem.|
+T Warchief's Command: Feralas!|QID|28510|M|41.39,15.40|N|To Konu Runetotem.|
 
 A Signs of Change|QID|25210|M|41.39,15.40|N|From Konu Runetotem.|
 
@@ -88,6 +96,8 @@ T Dark Heart|QID|25340|RANK|2|M|41.62,15.20|N|To Talo Thornhoof.|
 C Signs of Change|QID|25210|M|41.90,23.10|N|From stags south of the camp.|
 T Signs of Change|QID|25210|M|41.38,15.43|N|To Konu Runetotem, back at Camp Ataya.|
 
+; move this forward and make it optional.
+A Find OOX-22/FE!|QID|25475|RANK|2|N|(UI Alert)|O|
 A More Than Illness|QID|25230|PRE|25210|M|41.38,15.43|N|From Konu Runetotem.|
 C More Than Illness|QID|25230|M|48.86,9.32|N|The whelps can be found around the lake to the north-east.|
 T More Than Illness|QID|25230|M|41.37,15.45|N|To Konu Runetotem, back at Camp Ataya.|
@@ -106,13 +116,15 @@ A To Stonemaul Hold|QID|25386|PRE|25250|M|41.37,15.46|N|From Konu Runetotem.|
 A Still With The Zapped Giants|QID|25465|RANK|3|M|48.66,44.82|N|From Zorbin Fandazzle. He can be found along the road to the south.|
 A Even More Fuel for the Zapping|QID|25466|RANK|3|M|48.66,44.82|N|From Zorbin Fandazzle.|
 R Stonemaul Hold|QID|25386|M|51.92,48.07|N|Folow the road.|
+h Stonemaul Hold|QID|25452|M|51.90,47.47|N|At Chonk.|
 T To Stonemaul Hold|QID|25386|M|51.92,48.07|N|To Orhan Ogreblade.|
 A The Gordunni Threat|QID|25209|M|51.92,48.02|N|From Orhan Ogreblade.|
 A The Gordunni Orb|QID|25341|M|51.92,48.02|N|From Orhan Ogreblade.|
 A Testing the Vessel|QID|25336|M|52.26,48.06|N|From Gombana.|
 A The Mark of Quality|QID|25452|RANK|2|M|52.83,47.12|N|From Jangdor Swiftstrider.|
-h Stonemaul Hold|QID|25452|M|51.90,47.47|N|At Chonk.|
+f Stonemaul Hold|QID|25452|M|51.02,48.4|N|Get the flight point from Mergek|
 C The Mark of Quality|QID|25452|RANK|2|M|52.07,31.60|N|The yetis can be found to the north. Follow the road north, then cut east to Rage Scar Hold.|
+H Stonemaul Hold|QID|25452|N|Hearth back to Stonemaul Hold.|
 T The Mark of Quality|QID|25452|RANK|2|M|52.83,47.12|N|To Jangdor Swiftstrider, back at Stonemaul Hold.|
 
 A Improved Quality|QID|25453|RANK|2|PRE|25452|M|52.82,47.10|N|From Jangdor Swiftstrider.|
@@ -123,15 +135,14 @@ C Hippogryph Muisek|QID|25337|U|9619|M|53.80,72.02|N|Kill hippogryphs and use th
 C The Gordunni Threat|QID|25209|S|M|59.09,63.13|N|Kill ogres around the Ruins of Isildien.|
 C The Gordunni Orb|QID|25341|M|59.34,65.78|N|The Orb drops from ogre warlocks in the Ruins of Isildien.|
 C The Gordunni Threat|QID|25209|US|M|59.09,63.13|N|Kill ogres around the Ruins of Isildien.|
+A Perfect Yeti Hide|QID|25454|RANK|2|U|55167|M|53.47,55.53|N|Use the Perfect Yeti Hide to start a quest.|O|
 C Improved Quality|QID|25453|S|RANK|2|M|52.29,58.39|N|Kill and loot yetis at the Feral Scar Vale.|
 l Perfect Yeti Hide|QID|25454|RANK|2|L|55167|M|55.11,51.31|N|Kill yetis until you get a Perfect Yeti Hide.|S|
 l OOX-22/FE Distress Beacon|QID|25475|RANK|2|L|8705|M|55.52,55.81|N|Kill yetis until you find a distress beacon.|
 l Perfect Yeti Hide|QID|25454|RANK|2|L|55167|M|53.47,55.53|N|Kill yetis until you get a Perfect Yeti Hide.|US|
-A Perfect Yeti Hide|QID|25454|RANK|2|U|55167|M|53.47,55.53|N|Use the Perfect Yeti Hide to start a quest.|
-A Find OOX-22/FE!|QID|25475|RANK|2|U|8705|N|Use the distress beacon.|
-T Find OOX-22/FE!|QID|25475|RANK|2|M|53.37,55.71|N|To Homing Robot OOX-22/FE.|
 C Improved Quality|QID|25453|US|RANK|2|M|52.29,58.39|N|Kill and loot yetis at the Feral Scar Vale.|
 
+T Find OOX-22/FE!|QID|25475|RANK|2|M|53.37,55.71|N|To Homing Robot OOX-22/FE.|
 A Rescue OOX-22/FE!|QID|25476|RANK|3|M|53.37,55.71|N|From Homing Robot OOX-22/FE. This is optional as the turn-in is over in Booty Bay.|
 C Rescue OOX-22/FE!|QID|25476|RANK|3|M|55.62,51.34|N|Follow the chicken. There will be one ambush of yetis when you get close to the road, so be ready.|
 C Even More Fuel for the Zapping|QID|25466|RANK|3|M|45.39,65.85|N|Kill and loot water elementals on the coast|S|
@@ -149,7 +160,7 @@ T Hippogryph Muisek|QID|25337|M|52.26,48.06|N|To Gombana.|
 A The Flow of Muisek|QID|25641|PRE|25337|M|52.26,48.06|N|From Gombana.|
 T Improved Quality|QID|25453|RANK|2|M|52.80,47.11|N|To Jangdor Swiftstrider.|
 T Perfect Yeti Hide|QID|25454|RANK|2|M|52.80,47.11|N|To Jangdor Swiftstrider.|
-T Talk to Swar'jan|QID|25342|M|51.91,46.68|N|To Swar'jan.|
+T Talk to Swar'jan|QID|25342|M|51.91,46.68|N|To Swar'jan on top of the tower.|
 A Ogre Abduction|QID|25344|PRE|25342|M|51.91,46.68|N|From Swar'jan.|
 C Rulers of Dire Maul|QID|25252|M|58.61,44.47|N|Kill ogres near Dire Maul.|S|
 C Ogre Abduction|QID|25344|U|52833|M|59.85,46.59|N|Use the orb on an Ogre Mage after beating him down to 30% health.|
@@ -162,16 +173,16 @@ H Stonemaul Hold|QID|25329|M|51.90,48.02|N|If your hearth is up and set there, h
 T Might of the Stonemaul|QID|25329|M|51.90,48.02|N|To Orhan Ogreblade.|
 
 A To Camp Mojache|QID|25387|PRE|25329|M|51.90,48.02|N|From Orhan Ogreblade.|
-F Camp Mojache|QID|25641|M|51,48.41|N|Fly to Camp Mojache.|
 T The Flow of Muisek|QID|25641|M|74.46,43.38|N|To Witch Doctor Uzer'i.|
 A Treant Muisek|QID|25338|PRE|25641|M|74.46,43.38|N|From Witch Doctor Uzer'i.|
 T To Camp Mojache|QID|25387|M|74.61,42.91|N|To Chief Spirithorn.|
 A The Hilltop Threat|QID|25373|M|74.60,42.89|N|From Chief Spirithorn.|
 A Twisted Sisters|QID|25349|M|74.60,42.89|N|From Chief Spirithorn.|
 A War on the Woodpaw|QID|25363|M|74.92,42.52|N|From Hadoken Swiftstrider.|
-A The Highborne|QID|27132|M|74.92,42.52|N|From Hadoken Swiftstrider. Pick this up if you'd like to do Dire Maul.|
+A The Highborne|QID|27132|LVL|41|M|74.92,42.52|N|From Hadoken Swiftstrider. Pick this up if you'd like to do Dire Maul.|O|
 A The Darkmist Ruins|QID|25643|M|75.07,42.78|N|From Sage Palerunner.|
-h Camp Mojache Longhouse|QID|25643|M|74.79,45.12|N|At Innkeeper Greul.|
+h Camp Mojache Longhouse|QID|25338|M|74.79,45.12|N|At Innkeeper Greul.|
+f Camp Mojache|QID|25338|M|75.46,44.36|N|Get the flight point from Shyn.|
 C Treant Muisek|QID|25338|S|U|9606|M|76.55,40.33|N|Kill treants and use the vessel on their corpses.|
 C Twisted Sisters|QID|25349|M|77.06,39.17|N|Kill dryads to the north-east of Camp Mojache.|
 C The Hilltop Threat|QID|25373|M|76.94,34.81|N|The Gordunni Hillguards are in the hills to the north.|
@@ -188,7 +199,7 @@ A Ysondre's Call|QID|25378|PRE|25349|M|74.59,42.89|N|From Chief Spirithorn.|
 T War on the Woodpaw|QID|25363|M|74.90,42.52|N|To Hadoken Swiftstrider.|
 A Woodpaw Investigation|QID|25365|PRE|25363|M|74.90,42.52|N|From Hadoken Swiftstrider.|
 A Alpha Strike|QID|25364|PRE|25363|M|74.90,42.52|N|From Hadoken Swiftstrider.|
-A A New Cloak's Sheen|QID|25361|PRE|25338|M|75.00,42.99|N|From Krueg Skullsplitter.|
+A A New Cloak's Sheen|QID|25361|PRE|25338|M|75.00,42.99|N|From Krueg Skullsplitter who wanders a bit.|
 T Ysondre's Call|QID|25378|M|81.55,42.45|N|To Ysondre, on top of the hill to the east.|
 A Taerar's Fall|QID|25379|M|81.55,42.45|N|From Ysondre.|
 C Taerar's Fall|QID|25379|M|81.53,42.49|N|Allow Ysondre to tank for you, be cautious and you should be fine.|
@@ -246,7 +257,8 @@ T Stinglasher|QID|25369|M|74.91,42.53|N|To Hadoken Swiftstrider.|
 
 A To the Summit|QID|25356|M|74.59,42.93|N|From Jawn Highmesa.|
 C To the Summit|QID|25356|M|75.44,44.34|N|Talk to Shyn the Wind Rider Master, and ask him to send you to Westreach Summit.|
-T To the Summit|QID|25356|M|91.57,41.64|N|To Kanati Greycloud.|
+f Westreach Summit|QID|25356|M|11.14,11.57|Z|Thousand Needles|N|Get the flight point from Nah'te|
+T To the Summit|QID|25356|M|11.12,11.29|Z|Thousand Needles|N|To Kanati Greycloud.|
 
 ]]
 end)
