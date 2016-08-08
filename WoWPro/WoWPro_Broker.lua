@@ -585,6 +585,14 @@ function WoWPro.NextStep(k,i)
 
         -- Scenario objectives
         if WoWPro.sobjective[k] then
+            if not WoWPro.Scenario then
+                -- Hmm, we were expecting a scenario.   Did it sneak up on us?
+                 WoWPro.ProcessScenarioStage("NextStep()")
+                 if not WoWPro.Scenario then
+                    skip = true
+                    break
+                 end
+            end
             local stage, objective = string.split(";",WoWPro.sobjective[k])
             stage = tonumber(stage)
             if stage == nil then
