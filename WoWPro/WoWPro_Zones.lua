@@ -350,7 +350,7 @@ function WoWPro.GenerateMapCache()
     Zone2MapID = {}
     MapsSeen = {}
     local contnames = pack_v(GetMapContinents())
-	for ci=1,7 do
+	for ci=1,8 do
 	    WoWPro:Print("Continent %d [%s]",ci,contnames[ci])
 	    zonenames[ci] = {}
 	    zonenames[ci][0] = contnames[ci]
@@ -383,4 +383,9 @@ function WoWPro.GenerateMapCache()
     WoWPro.Zone2MapID = Zone2MapID
     WoWProDB.global.Zone2MapID = Zone2MapID
     SetMapByID(here)
+end
+
+function WoWPro.WhereAmI()
+    local mapFileName, textureHeight, textureWidth, isMicroDungeon, microDungeonMapName = GetMapInfo()
+    local mapID, isContinent = GetCurrentMapAreaID()
 end
