@@ -452,6 +452,13 @@ function WoWPro.NextStep(k,i)
 			end
 		end
 	
+	    -- A Steps --
+		if WoWPro.action[k] == "A" and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
+            WoWPro.CompleteStep(k,"Quest in QuestLog")
+            skip = true
+            break
+        end
+
 	    -- Availible quests: not complete  --
 	    if WoWPro.available[k] then
 	        local available = WoWPro.available[k]
