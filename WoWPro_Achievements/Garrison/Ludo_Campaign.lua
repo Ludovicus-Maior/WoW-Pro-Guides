@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-08 02:42
+-- Who: tubera
+-- Log: Tweaked: Garrison Campaign: The Search for Shadow Hunter Bwu'ja (Horde)
+
+-- URL: http://wow-pro.com/node/3648/revisions/27527/view
 -- Date: 2016-08-05 19:38
 -- Who: tubera
 -- Log: Cleaned up "Deep Recon" (Horde)
@@ -357,29 +362,34 @@ T The Totems That Bind|QID|34288|M|39.4,23.4|Z|Frostfire Ridge|N|To Orlana Stron
 A Soulgrinder Survivor|QID|34289|PRE|34287;34288|M|39.4,23.4|Z|Frostfire Ridge|N|From Orlana Strongbrow|FACTION|Alliance|
 C Soulgrinder Survivor|QID|34289|M|38.0,13.8|Z|Frostfire Ridge|N|Borgal Doomfist|FACTION|Alliance|
 T Soulgrinder Survivor|QID|34289|M|38.0,14.6|Z|Frostfire Ridge|N|To Owynn Graddock|FACTION|Alliance|
+
 ; A Garrison Campaign: The Search for Shadow Hunter Bwu'ja|QID|34309|M|50.2,41.8|N|From Shadow Hunter Moj'jar|
-T Garrison Campaign: The Search for Shadow Hunter Bwu'ja|QID|34309|M|51.8,16.8|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
-A Out of the Chains|QID|34314|PRE|34309|M|51.8,16.8|N|From Shadow Hunter Bwu'ja|FACTION|Horde|
-C Out of the Chains|QID|34314|M|53.0,18.4|N|Rugrum the Pit Boss|FACTION|Horde|
-T Out of the Chains|QID|34314|M|51.8,16.8|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
-A Gearing Up|QID|34315|PRE|34314|M|51.8,16.8|N|From Shadow Hunter Bwu'ja|FACTION|Horde|
-C Gearing Up|QID|34315|M|45.5,22.3|N|Ogre Chest|FACTION|Horde|
-C Gearing Up|QID|34315|M|47.7,18.9|N|Ogre Chest|FACTION|Horde|
-C Gearing Up|QID|34315|M|43.9,15.1|N|Shadow Hunter's Mask|FACTION|Horde|
-T Gearing Up|QID|34315|M|51.8,16.8|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
-A Seeking the Truth|QID|34316|PRE|34315|M|51.8,16.8|N|From Shadow Hunter Bwu'ja|FACTION|Horde|
-T Seeking the Truth|QID|34316|M|40.4,21.8|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
-A The Shadow Gate|QID|34381|PRE|34316|M|40.4,21.8|N|From Shadow Hunter Bwu'ja|FACTION|Horde|
-C The Shadow Gate|QID|34381|M|39.4,23.4|N|Grubnor Wargut|FACTION|Horde|
-T The Shadow Gate|QID|34381|M|39.6,23.6|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
-A The Totems That Bind|QID|34318|PRE|34381|M|39.4,23.4|N|From Orlana Strongbrow|FACTION|Horde|
-C The Totems That Bind|QID|34318|M|40.3,17.8|N|Borgal's Totem|FACTION|Horde|
-T The Totems That Bind|QID|34318|M|39.4,23.4|N|To Orlana Strongbrow|FACTION|Horde|
-A Cleansing the Souls|QID|34469|PRE|34381|M|39.4,23.4|N|From Orlana Strongbrow|FACTION|Horde|
-T Cleansing the Souls|QID|34469|M|39.4,23.4|N|To Orlana Strongbrow|FACTION|Horde|
-A Soulgrinder Survivor|QID|34319|PRE|34318;34469|M|39.4,23.4|N|From Orlana Strongbrow|FACTION|Horde|
-C Soulgrinder Survivor|QID|34319|M|38.0,13.8|N|Borgal Doomfist|FACTION|Horde|
-T Soulgrinder Survivor|QID|34319|M|37.6,14.0|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
+T Garrison Campaign: The Search for Shadow Hunter Bwu'ja|QID|34309|M|51.8,16.8|Z|Frostfire Ridge|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
+A Out of the Chains|QID|34314|PRE|34309|M|51.8,16.8|Z|Frostfire Ridge|N|From Shadow Hunter Bwu'ja|FACTION|Horde|
+C Out of the Chains|QID|34314|QO|1|T|Rugrum|M|53.0,18.4|Z|Frostfire Ridge|N|Rugrum the Pit Boss|FACTION|Horde|
+C Out of the Chains|QID|34314|QO|2|M|51.79,16.77|Z|Frostfire Ridge|N|Unlock Shadow Hunter Bwu'ja's chain|FACTION|Horde|
+T Out of the Chains|QID|34314|M|51.8,16.8|Z|Frostfire Ridge|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
+A Gearing Up|QID|34315|PRE|34314|M|51.8,16.8|Z|Frostfire Ridge|N|From Shadow Hunter Bwu'ja|FACTION|Horde|
+C Gearing Up|QID|34315|QO|2|M|47.7,18.9|Z|Frostfire Ridge|N|Ogre Chest|FACTION|Horde|
+C Gearing Up|QID|34315|QO|1|M|45.5,22.3|Z|Frostfire Ridge|N|Ogre Chest|FACTION|Horde|
+C Gearing Up|QID|34315|QO|3|M|43.9,15.1|Z|Frostfire Ridge|N|Shadow Hunter's Mask|FACTION|Horde|
+T Gearing Up|QID|34315|M|51.8,16.8|Z|Frostfire Ridge|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
+A Seeking the Truth|QID|34316|PRE|34315|M|51.8,16.8|Z|Frostfire Ridge|N|From Shadow Hunter Bwu'ja|FACTION|Horde|
+T Seeking the Truth|QID|34316|M|40.4,21.8|Z|Frostfire Ridge|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
+A The Shadow Gate|QID|34381|PRE|34316|M|40.4,21.8|Z|Frostfire Ridge|N|From Shadow Hunter Bwu'ja|FACTION|Horde|
+C The Shadow Gate|QID|34381|QO|1|M|39.4,23.4|Z|Frostfire Ridge|N|Kill Grubnor Wargut|FACTION|Horde|
+C The Shadow Gate|QID|34381|QO|2|M|39.4,23.67|Z|Frostfire Ridge|N|Through the portal|FACTION|Horde|
+T The Shadow Gate|QID|34381|M|39.6,23.6|Z|Frostfire Ridge|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
+A The Totems That Bind|QID|34318|PRE|34381|Z|Frostfire Ridge|M|39.4,23.4|N|From Orlana Strongbrow|FACTION|Horde|
+A Cleansing the Souls|QID|34469|PRE|34381|M|39.4,23.4|Z|Frostfire Ridge|N|From Orlana Strongbrow|FACTION|Horde|
+C Cleansing the Souls|QID|34469|M|40.12,22.41|U|110394|S|N|Kill crazed souls and cleanse them with the soul shard|
+C The Totems That Bind|QID|34318|M|40.3,17.8|Z|Frostfire Ridge|N|Borgal's Totem's are found thoughout the area|FACTION|Horde|
+C Cleansing the Souls|QID|34469|M|40.12,22.41|U|110394|US|N|Kill crazed souls and cleanse them with the soul shard|
+T Cleansing the Souls|QID|34469|M|39.4,23.4|Z|Frostfire Ridge|N|To Orlana Strongbrow|FACTION|Horde|
+T The Totems That Bind|QID|34318|M|39.4,23.4|Z|Frostfire Ridge|N|To Orlana Strongbrow|FACTION|Horde|
+A Soulgrinder Survivor|QID|34319|PRE|34318;34469|M|39.4,23.4|Z|Frostfire Ridge|N|From Orlana Strongbrow|FACTION|Horde|
+C Soulgrinder Survivor|QID|34319|M|38.0,13.8|Z|Frostfire Ridge|N|Borgal Doomfist|FACTION|Horde|
+T Soulgrinder Survivor|QID|34319|M|37.6,14.0|Z|Frostfire Ridge|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
 
 ; Broken Precipice -- Mostly Neutral
 ;A Garrison Campaign: The Broken Precipice|QID|35985|M|54.8,14.8|N|From Nixxie|FACTION|Alliance|
@@ -517,23 +527,23 @@ C Putting Down the Packleader|QID|35841|M|44.6,38.0|N|Packleader Vor'gash|
 T Putting Down the Packleader|QID|35841|M|37.8,36.8|N|To Bodrick Grey|
 
 ; Warlord's Council -- Horde
-;A Garrison Campaign: Deep Recon|QID|35843|M|45.6,43.2|N|From Rokhan|
-T Garrison Campaign: Deep Recon|QID|35843|M|49.8,37.0|Z|Nagrand@Draenor|N|To Shadow Hunter Zasta in Nagrand|
-A The Warlord's Council|QID|35844|PRE|35843|M|49.8,37.0|Z|Nagrand@Draenor|N|From Shadow Hunter Zasta|
-T The Warlord's Council|QID|35844|M|41.8,37.0|Z|Nagrand@Draenor|N|To Shadow Hunter Kajassa|
-A Plans of War|QID|35845|PRE|35844|M|41.8,37.0|Z|Nagrand@Draenor|N|From Shadow Hunter Kajassa|
-A Putting Down the Packleader|QID|35842|PRE|35844|M|41.8,37.0|N|From Shadow Hunter Kajassa|
-A Intercepting the Orders|QID|35846|PRE|35844|M|41.8,37.0|N|From Shadow Hunter Kajassa|
-C Intercepting the Orders|QID|35846|M|43.2,34.4|N|Kill Orcs in the area to get all plans|S
-K Putting Down the Packleader|QID|35842|T|Packleader|M|44.6,38.0|N|Kill Packleader Vor'gash|S
-C Plans of War|QID|35845|QO|1|M|43.2,34.2|Z|Nagrand@Draenor|N|Scale Model of Gorgorek|NC
-C Plans of War|QID|35845|QO|2|M|42.6,38.6|Z|Nagrand@Draenor|N|Miniature War Machine|NC
-C Plans of War|QID|35845|QO|3|M|45.8,36.6|Z|Nagrand@Draenor|N|Map of Tanaan Jungle|NC
-K Putting Down the Packleader|QID|35842|T|Packleader|M|44.6,38.0|N|Kill Packleader Vor'gash|US
-C Intercepting the Orders|QID|35846|M|43.2,34.4|N|Keep killing Orcs until you have all plans|US
-T Plans of War|QID|35845|M|45.6,43.2|Z|Frostwall|N|To Rokhan at your Garrison|
-T Intercepting the Orders|QID|35846|M|45.6,43.2|Z|Frostwall|N|To Rokhan|
-T Putting Down the Packleader|QID|35842|M|45.6,43.2|Z|Frostwall|N|To Rokhan|
+;A Garrison Campaign: Deep Recon|QID|35843|M|45.6,43.2|N|From Rokhan|FACTION|Horde|
+T Garrison Campaign: Deep Recon|QID|35843|M|49.8,37.0|Z|Nagrand@Draenor|N|To Shadow Hunter Zasta in Nagrand|FACTION|Horde|
+A The Warlord's Council|QID|35844|PRE|35843|M|49.8,37.0|Z|Nagrand@Draenor|N|From Shadow Hunter Zasta|FACTION|Horde|
+T The Warlord's Council|QID|35844|M|41.8,37.0|Z|Nagrand@Draenor|N|To Shadow Hunter Kajassa|FACTION|Horde|
+A Plans of War|QID|35845|PRE|35844|M|41.8,37.0|Z|Nagrand@Draenor|N|From Shadow Hunter Kajassa|FACTION|Horde|
+A Putting Down the Packleader|QID|35842|PRE|35844|M|41.8,37.0|N|From Shadow Hunter Kajassa|FACTION|Horde|
+A Intercepting the Orders|QID|35846|PRE|35844|M|41.8,37.0|N|From Shadow Hunter Kajassa|FACTION|Horde|
+C Intercepting the Orders|QID|35846|M|43.2,34.4|N|Kill Orcs in the area to get all plans|S|FACTION|Horde|
+C Putting Down the Packleader|QID|35842|T|Packleader Vor'gash|M|44.6,38.0|N|Kill Packleader Vor'gash|S|FACTION|Horde|
+C Plans of War|QID|35845|QO|1|M|43.2,34.2|Z|Nagrand@Draenor|N|Scale Model of Gorgorek|NC|FACTION|Horde|
+C Plans of War|QID|35845|QO|3|M|45.8,36.6|Z|Nagrand@Draenor|N|Map of Tanaan Jungle|NC|FACTION|Horde|
+C Plans of War|QID|35845|QO|2|M|42.6,38.6|Z|Nagrand@Draenor|N|Miniature War Machine|NC|FACTION|Horde|
+C Putting Down the Packleader|QID|35842|T|Packleader Vor'gash|M|44.6,38.0|N|Kill Packleader Vor'gash|US|FACTION|Horde|
+C Intercepting the Orders|QID|35846|M|43.2,34.4|N|Keep killing Orcs until you have all plans|US|FACTION|Horde|
+T Plans of War|QID|35845|M|45.6,43.2|Z|Frostwall|N|To Rokhan at your Garrison|FACTION|Horde|
+T Intercepting the Orders|QID|35846|M|45.6,43.2|Z|Frostwall|N|To Rokhan|FACTION|Horde|
+T Putting Down the Packleader|QID|35842|M|45.6,43.2|Z|Frostwall|N|To Rokhan|FACTION|Horde|
 D Next!|QID|0|N|Click to return to whatever guide you were doing before.|
 
 A A Good Death|QID|34354|M|0.0,0.0|N|From ?|; Neutral
