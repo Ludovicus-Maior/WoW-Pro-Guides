@@ -5,7 +5,7 @@
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
 ## OptionalDeps: Carbonite, TomTom
-## Version: 7.0.3J
+## Version: 7.0.3K
 ## X-Category: Compilations
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 
