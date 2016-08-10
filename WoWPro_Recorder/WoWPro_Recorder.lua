@@ -56,6 +56,8 @@ function WoWPro.Recorder:RegisterSavedGuides()
 		WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
 		local sequence_string = guideInfo.sequence
 		WoWPro.Guides[GID].sequence = function () return sequence_string; end
+		WoWPro.Guides[GID].startlevel = tonumber(WoWPro.Guides[GID].startlevel)
+		WoWPro.Guides[GID].endlevel = tonumber(WoWPro.Guides[GID].endlevel)
 	end
 end
 
