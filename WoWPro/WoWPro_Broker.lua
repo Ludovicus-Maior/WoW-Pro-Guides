@@ -49,7 +49,27 @@ local function QidMapReduce(list,default,or_string,and_string,func)
 --    WoWPro:dbp("QidMapReduce: default return %s",tostring(default))
     return default
 end
-    
+
+function WoWPro.QidVerify(list,empty_ok,or_string,and_string)
+    if not list then return empty_ok end
+    if list == "" then return empty_ok end
+    local do_or = string.find(list,or_string)
+    local split_string
+    if do_or then
+        split_string = or_string
+    else
+        split_string = and_string
+    end
+    local numList = select("#", string.split(split_string, list))
+    for i=1,numList do
+        local QID = select(numList-i+1, string.split(split_string, list))
+        QID = tonumber(QID)
+		if QID == nil or QID == 0 then
+		    return false
+		end
+    end
+    return true
+end
                     
 
 -- See if any of the list of QIDs are in the indicated table.
@@ -228,6 +248,7 @@ function WoWPro:NextGuide(GID)
 	if WoWPro.Guides[GID].faction == "Neutral" then
 	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
 	    local  AllianceGUID, HordeGID = string.split("|",WoWPro.Guides[GID].nextGID)
+	    HordeGID = HordeGID or AllianceGUID -- If the next guide is neutral, both use the same guide
 	    if myUFG == "Alliance" then
 	        WoWPro:dbp("WoWPro:NextGuide(%s): Alliance %s", GID, tostring(AllianceGUID))
 	        return AllianceGUID
