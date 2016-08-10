@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2016-08-09 15:05
+-- Who: tubera
+-- Log: Reordered TotE a little. Fix/change some destination names. Add missing US for Volatile fire spirits.
+
+-- URL: http://wow-pro.com/node/3618/revisions/27531/view
 -- Date: 2016-08-07 16:15
 -- Who: tubera
 -- Log: Add U 113217.
@@ -446,7 +451,7 @@ H Telaari Station |QID|35062|N|Use your hearthstone to return to Telaari Station
 T Carrier Has Arrived|QID|35141|M|63.06,61.95|N|To Thaelin Darkanvil|
 T Lok-rath is Secured|QID|35062|M|63.52,61.89|N|To Rangari D'kaan|
 A And Justice for Thrall|QID|35169|PRE|34596;34957;35062|M|63.52,61.89|N|From Rangari D'kaan|
-F Yrel's Watch|QID|35332|M|63.64,61.55|N|To John Shelby|
+F Joz's Rylaks|QID|35332|M|63.64,61.55|N|To John Shelby|
 
 f Throne of the Elements|QID|35332|N|With Gixmo Moneycash|M|73.70,26.65|
 T Nobundo Sends Word |QID|35332|N|To Vindicator Nobundo at the Throne of the Elements|M|71.72,19.65|
@@ -455,9 +460,9 @@ C Called to the Throne |QID|35331|QO|1|N|Speak to Vindicator Nobundo, and tell h
 C Called to the Throne |QID|35331|QO|2|N|Commune with the furries|NC|M|71.40,18.12|
 T Called to the Throne |QID|35331|N|To Vindicator Nobundo|M|71.72,19.65|
 A Elemental Attunement |QID|35333|N|From Vindicator Nobundo|M|71.72,19.65|PRE|35331|
-A An Old Friend |QID|34943|M|72.78,19.72|N|From Kalandrios|PRE|35331|
 A Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.86|N|From Inceneratus|
 A Guardians of the Plateau|QID|34893|M|71.34,17.86|N|From Inceneratus|
+A An Old Friend |QID|34943|M|72.78,19.72|N|From Kalandrios|PRE|35331|
 
 R Skysong Lake |QID|34943|N|Head up the path through Skysong Lake and up the ledge.|M|73.85,16.50|
 T An Old Friend |QID|34943|M|75.07,22.74|N|To Gar'rok, up on the ledge.|
@@ -474,14 +479,16 @@ C Pillar of Earth|QID|35333|M|79.30,11.67|QO|1|
 
 K Tumultous Water Spirit|QID|34881|M|78.00,15.50;80.35,18.55;72.31,9.12;74.12,11.01;75.99,12.54|CN|QO|4|S|
 K Tainted Water Guardian|QID|34893|M|75.28,14.05|QO|4|
+l Abandoned Fishing Pole|QID|35836|M|75.32,10.85|N|*Rare Kill* Use the chat option to be reeled in by Fangler. Kill him for A Tangle of Fishing Hooks worth 37g and a bit of Garrison Resources.|RANK|3|
 C Pillar of Water|QID|35333|M|73.80,10.50|QO|4|
 
-R Magmire|QID|34894|M|68.8,10.4|N|To get the bloom, you need to get past Magmire. Cave opening here.|
-A A Wrong of Earth and Fire|QID|33928|N|Kill Magmire and get the quest from the Molten Core|U|113080|
-C A Rare Bloom|QID|34894|M|70.7,9.9|N|Ember Blossom, in the back of the cave.|
 K Volatile Fire Spirit|QID|34881|M|73.60,10.45;71.14,8.29;68.53,9.85;67.75,11.95;65.47,10.59|CN|QO|3|S|
+R Magma Cave|QID|34894|M|68.8,10.4|N|To get the bloom, you need to get past Magmire. Cave opening here.|
+A A Wrong of Earth and Fire|QID|33928|N|(UI Alert) Kill Magmire and get the quest from A Molten Core|
+C A Rare Bloom|QID|34894|M|70.7,9.9|N|Ember Blossom, in the back of the cave.|
 K Volatile Flame Guardian|QID|34893|M|66.54,8.39|QO|3|
 C Pillar of Flame|QID|35333|M|67.42,9.17|QO|3|
+K Volatile Fire Spirit|QID|34881|M|73.60,10.45;71.14,8.29;68.53,9.85;67.75,11.95;65.47,10.59|CN|QO|3|US|
 
 R Throne of the Elements|QID|34894|M|67.57,11.28;68.83,14.10;70.62,17.15|CS|N|Take the back way back.|
 T A Rare Bloom|QID|34894|M|75.07,22.74|N|To Gar'rok|
