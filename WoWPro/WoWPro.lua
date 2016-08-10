@@ -613,9 +613,9 @@ function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
     if not meanLevel then
         meanLevel = (upperLevel*3.0 + lowerLevel) / 4.0
     end
-    guide['startlevel'] = lowerLevel
-    guide['endlevel'] = upperLevel
-    guide['level'] = meanLevel
+    guide['startlevel'] = tonumber(lowerLevel)
+    guide['endlevel'] = tonumber(upperLevel)
+    guide['level'] = tonumber(meanLevel)
 end
 
 function WoWPro:GuideRaceSpecific(guide,race)
