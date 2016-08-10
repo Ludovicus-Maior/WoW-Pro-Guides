@@ -146,17 +146,28 @@ local function DefineTag(action, key, vtype, validator, setter)
     end
 end
 
+local function validate_list_of_qids(action, step, tag, value)
+    --- Either X;Y;Z or X&Y&Z, no empties
+    return WoWPro.QidVerify(value, false,";","+")
+end
+
+local function validate_list_of_ints(action, step, tag, value)
+    ---  X;Y, no empties
+    --- WoWPro.QidVerify(list,empty_ok,or_string,and_string)
+    return WoWPro.QidVerify(value, false,";","|")
+end
+
 -- QID Tags first
-DefineTag("QID","QID","string",nil,nil)
-DefineTag("PRE","prereq","string",nil,nil)
-DefineTag("AVAILABLE","available","string",nil,nil)
+DefineTag("QID","QID","string",validate_list_of_qids,nil)
+DefineTag("PRE","prereq","string",validate_list_of_qids,nil)
+DefineTag("AVAILABLE","available","string",validate_list_of_qids,nil)
 DefineTag("O","optional","boolean",nil,function (text,i)
     WoWPro.optional[i] = true;
     WoWPro.optionalcount = WoWPro.optionalcount + 1;
 end)
-DefineTag("LEAD","leadin","string",nil,nil)
-DefineTag("ACTIVE","active","string",nil,nil)
-DefineTag("NPC","NPC","string",nil,nil)
+DefineTag("LEAD","leadin","string",validate_list_of_qids,nil)
+DefineTag("ACTIVE","active","string",validate_list_of_qids,nil)
+DefineTag("NPC","NPC","number",nil,nil)
 
 -- Mapping Tags
 DefineTag("M","map","string",nil,nil)
@@ -179,12 +190,12 @@ DefineTag("L","lootitem","string",nil,function (text,i)
     end
 end)
 DefineTag("QO","questtext","string",nil,nil)
-DefineTag("SO","sobjective","string",nil,nil)
+DefineTag("SO","sobjective","string",validate_list_of_ints,nil)
 DefineTag("U","use","number",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
 DefineTag("CHAT","chat","boolean",nil,nil)
-DefineTag("LVL","level","string",nil,nil)
+DefineTag("LVL","level","number",nil,nil)
 DefineTag("T","target","string",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
 
