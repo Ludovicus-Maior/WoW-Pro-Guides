@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mardum_shattered_abyss_source_code
+-- Date: 2016-08-11 11:23
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3656/revisions/27546/view
+-- Date: 2016-08-11 11:20
+-- Who: Emmaleah
+-- Log: fix typo "clikcking" corrected Izal's gender, added ClassSpecific Registration to the 3rd (Orgrimmar) guide
+
+-- URL: http://wow-pro.com/node/3656/revisions/27545/view
 -- Date: 2016-08-10 06:54
 -- Who: Emmaleah
 -- Log: Changes only made to the Mardum (1st) guide. Added Item Tags, added NC tags, deleted NC tags so the CHAT tags would show. 
@@ -64,7 +73,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 A The Invasion Begins|QID|40077|M|22.09,55.82|N|From Kayn Sunfury.|
 C The Invasion Begins|QID|40077|QO|1|M|27.48,63.43|N|Slay your 15 Demons.|
-C The Invasion Begins|QID|40077|QO|2|M|28.67,62.91|NC|N|Change the Legion banner by clikcing on it.|
+C The Invasion Begins|QID|40077|QO|2|M|28.67,62.91|NC|N|Change the Legion banner by clicking on it.|
 T The Invasion Begins|QID|40077|M|28.59,63.06|N|To Kayn Sunfury.|
 A Assault on Mardum|QID|39279|M|28.59,63.06|N|From Kayn Sunfury.|
 A Enter the Illidari: Ashtongue|QID|40378|M|28.55,62.95|N|From Kayn Sunfury.|
@@ -76,10 +85,10 @@ A Set Them Free|QID|38759|M|33.95,70.05|N|From Allari the Souleater.|
 A Eye On the Prize|QID|39049|M|33.95,70.05|N|From Allari the Souleater.|
 A Enter the Illidari: Coilskar|QID|40379|M|33.94,69.96|N|From Sevis Brightflame.|
 C Set Them Free|QID|38759|QO|1|M|37.10,73.75|N|Get a Soulwrought Key from a Jailer|
-C Set Them Free|QID|38759|QO|3|M|39.35,71.72|NC|N|Find Cyana Nightglaive and free her by clikcking on her cell.|
-C Set Them Free|QID|38759|QO|2|M|41.72,73.21|NC|N|Find Belath Dawnblade and free him by clikcking on his cell.|
-C Set Them Free|QID|38759|QO|4|M|38.62,67.90|NC|N|Find Izal Whitemoon and free him by clikcking on his cell.|
-C Set Them Free|QID|38759|QO|5|M|41.59,66.67|NC|N|Find Mannethrel Darkstar and free him by clikcking on his cell.|
+C Set Them Free|QID|38759|QO|3|M|39.35,71.72|NC|N|Find Cyana Nightglaive and free her by clicking on her cell.|
+C Set Them Free|QID|38759|QO|2|M|41.72,73.21|NC|N|Find Belath Dawnblade and free him by clicking on his cell.|
+C Set Them Free|QID|38759|QO|4|M|38.62,67.90|NC|N|Find Izal Whitemoon and free her by clicking on her cell.|
+C Set Them Free|QID|38759|QO|5|M|41.59,66.67|NC|N|Find Mannethrel Darkstar and free him by clicking on his cell.|
 C Enter the Illidari: Coilskar|QID|40379|QO|1|M|43.43,72.68|NC|N|Click on the Ashtoung Mystic to sacrifice his Soul.|
 C Enter the Illidari: Coilskar|QID|40379|QO|2|M|43.79,72.04|NC|N|Click on the Legion Gateway Activator.|
 K Inquisitor Baleful|QID|39049|QO|1|M|42.62,79.17|N|Kill Baleful & stand near his corpse to take his power.|T|Inquisitor Baleful|

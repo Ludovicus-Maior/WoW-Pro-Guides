@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mardum_shattered_abyss_source_code
+-- Date: 2016-08-11 11:23
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3656/revisions/27546/view
+-- Date: 2016-08-11 11:20
+-- Who: Emmaleah
+-- Log: fix typo "clikcking" corrected Izal's gender, added ClassSpecific Registration to the 3rd (Orgrimmar) guide
+
+-- URL: http://wow-pro.com/node/3656/revisions/27545/view
 -- Date: 2016-08-10 06:54
 -- Who: Emmaleah
 -- Log: Changes only made to the Mardum (1st) guide. Added Item Tags, added NC tags, deleted NC tags so the CHAT tags would show. 

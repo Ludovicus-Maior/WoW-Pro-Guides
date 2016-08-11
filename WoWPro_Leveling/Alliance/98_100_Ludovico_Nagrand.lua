@@ -4,6 +4,17 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2016-08-11 14:59
+-- Who: tubera
+-- Log: Fix Zone on Greyeer
+
+-- URL: http://wow-pro.com/node/3618/revisions/27548/view
+-- Date: 2016-08-11 14:36
+-- Who: tubera
+-- Log:  King of the BreezeStriders
+--	Add missing US throughout the last part.
+
+-- URL: http://wow-pro.com/node/3618/revisions/27542/view
 -- Date: 2016-08-09 15:05
 -- Who: tubera
 -- Log: Reordered TotE a little. Fix/change some destination names. Add missing US for Volatile fire spirits.
@@ -363,7 +374,16 @@ C A Lesson in Teamwork |QID|35663|N|Finish looting the Ancient Reliquaries from 
 T A Lesson in Teamwork |QID|35663|N|To Gazmolf Futzwangler|M|71.13,52.35|
 T A Lesson in Archaeology |QID|35632|N|To Gazmolf Futzwangler|M|71.13,52.35|
 
+; missing C
+C King of the Breezestriders|QID|35357|M|57.8,69.31|N|Kill and loot Tall Buck.|
+C Queen of the Clefthoof|QID|35350|M|67,51|N|Find Banthar and kill her for her horn. She wanders around Stonecrag Gorge|
+
 H Telaari Station |QID|35146;36273|N|Use your hearthstone to return to Telaari Station.|
+
+;missing T
+T King of the Breezestriders|QID|35357|M|63.5,61.4|N|To Rangaari Laara.|
+T Queen of the Clefthoof|QID|35350|M|63.55,61.42|N|To Kia Herman|
+
 F The Ring of Trials|QID|34869|M|63.64,61.55|N|To John Shelby|
 C Fruitful Ventures |QID|34819|N|Loot the Nagrand Cherry just North of the ring of trials.|M|79.00,42.50|NC|
 T Fruitful Ventures |QID|34819|M|79.23,52.65|N|To Digrem Orebar|
@@ -520,7 +540,7 @@ A Disrupt the Rituals|QID|35083|M|55.46,55.92|N|From Shamanstone|
 
 C The Pale Threat|QID|35397|M|57.6,59.2|QO|2|N|Kill the Pale|S|
 K Enslaved Earth Spirit|QID|35398|M|52.6,61.2|T|Enslaved Earth Spirit|QO|1|S|
-K Greyseer|QID|35397|M|66.30,18.00|QO|1|Z|The Underpale|N|Head to the cave at the back of Shadowfall Canyon. The arrow may be flaky until you get into the cave.|
+K Greyseer|QID|35397|M|66.30,18.00|QO|1|Z|The Underpale@NagrandDraenor|N|Head to the cave at the back of Shadowfall Canyon. The arrow may be flaky until you get into the cave.|
 
 T The Pale Threat|QID|35397|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
 T Dark Binding |QID|35398|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
@@ -555,6 +575,8 @@ A Echoes of the Past|QID|35023|PRE|34941|M|40.40,56.75|N|From Dahaka|
 
 C Echoes of the Past|QID|35023|M|37.8,56.2|QO|1|N|Tormented Echos's and Void-Crazed Spirits.  Stay on the first two tiers.|S|
 C Lighting The Darkness|QID|35022|M|38.50,54.25|QO|1|N|Light the pyres.  Stay on the first two tiers.|U|112396|
+;add US
+C Echoes of the Past|QID|35023|M|37.8,56.2|QO|1|N|Tormented Echos's and Void-Crazed Spirits.  Stay on the first two tiers.|US|
 
 T Lighting The Darkness|QID|35022|M|40.43,56.79|N|To Gar'rok|
 T Echoes of the Past|QID|35023|M|40.4,56.6|N|To Dahaka|
@@ -563,19 +585,24 @@ A Golmash Hellscream|QID|35024|PRE|35022;35023||M|40.43,56.79|N|From Gar'rok|
 C Golmash Hellscream|QID|35024|M|37.4,55.6|N|Golmash Hellscream, on the third tier.|
 
 T Golmash Hellscream|QID|35024|M|40.4,56.8|N|To Gar'rok|
+;add US
+C Silence the Call|QID|35084|M|54.2,67.6|QO|2|N|Finish killing Warsong shamans|US|
 T Silence the Call|QID|35084|M|46.73,57.52|N|To Shamanstone|
 T Disrupt the Rituals|QID|35083|M|46.73,57.52|N|To Shamanstone|
 A Through the Nether|QID|35085|PRE|35084;35083|M|46.73,57.52|N|To Shamanstone|
 
 C Nether Beacon|QID|35085|M|48.07,59.05|QO|1|N|Near each set of totems you destroyed, there is a nether beacon.  Click on it.|
 
-T Through the Nether|QID|35085|M|46.81,57.51|N|From Shamanstone|
+T Through the Nether|QID|35085|M|46.81,57.51|N|From Shamanstone, any Shamanstone in the area will do.|
 A The Nether Approaches|QID|35087|PRE|35085|M|46.81,57.51|N|From Shamanstone|
 A The Void March|QID|35086|PRE|35085|M|46.81,57.51|N|From Shamanstone|
 
 K Void Terror|QID|35086|M|51.6,64.8|QO|1|S|
 K Void Tendril|QID|35086|M|51.6,64.8|QO|2|S|
 C Void Portals|QID|35087|M|46.20,58.60;50.10,72.00;52.10,65.50;52.60,70.40;52.70,68.00;52.30,61.95;49.25,56.85;50.38,59.98|CN|QO|1|
+;add US
+K Void Tendril|QID|35086|M|51.6,64.8|QO|2|US|
+K Void Terror|QID|35086|M|51.6,64.8|QO|1|US|
 
 T The Nether Approaches|QID|35087|M|46.81,57.51|N|From Shamanstone|
 T The Void March|QID|35086|M|46.81,57.51|N|From Shamanstone|
@@ -595,7 +622,7 @@ C And Justice for Thrall|QID|35169|M|74.56,69.56|CHAT|QO|1|N|Speak to Vindicator
 C And Justice for Thrall|QID|35169|M|71.4,84.4|QO|2|N|Garrosh Hellscream|
 T And Justice for Thrall|QID|35169|M|66.96,33.77|N|A Cinematic and then, To Vindicator Yrel. Go up the hill past Thrall to see Garrosh youtself, before you turn in.|
 
-D Thanks|QID|0|N|Ludovicus and Fluclo would like to thank you for using our guide. Watch for the upcoming Treasures of Nagrand Acheivment Guide!|
+D Thanks|QID|0|N|Ludovicus and Fluclo would like to thank you for using our guide. Watch for the upcoming Treasures of Nagrand Achievment Guide!|
 
 ]]
 
