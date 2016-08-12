@@ -1197,15 +1197,17 @@ function WoWPro.CompleteStep(step, why)
 	    WoWProCharDB.Guide[GID].done = true
 	    if WoWPro.guide[step] then
             local nGID = WoWPro.guide[step]
-	        WoWPro:dbp("WoWPro.CompleteStep: %s guide is now the next guide.", nGID)
+	        WoWPro:dbp("WoWPro.CompleteStep: %s will be the next guide.", nGID)
 	        WoWPro:LoadGuide(nGID)
 	    end
 	    WoWPro:dbp("WoWPro.CompleteStep: %s guide is done.",GID)
+	    return
 	end
 	if WoWPro.action[step] == "J" then
 	    local nGID = WoWPro.guide[step]
 	    WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",GID, nGID)
 	    WoWPro:LoadGuide(nGID)
+	    return
 	end
 	WoWPro.why[step] = why
 	WoWPro:UpdateGuide("WoWPro.CompleteStep")
