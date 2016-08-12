@@ -147,7 +147,8 @@ local function DefineTag(action, key, vtype, validator, setter)
 end
 
 local function validate_list_of_qids(action, step, tag, value)
-    --- Either X;Y;Z or X&Y&Z, no empties
+    --- Either X;Y;Z or X&Y&Z, or *, no empties
+    if value == "*" then return true; end
     return WoWPro.QidVerify(value, false,";","+")
 end
 
@@ -167,7 +168,7 @@ DefineTag("O","optional","boolean",nil,function (text,i)
 end)
 DefineTag("LEAD","leadin","string",validate_list_of_qids,nil)
 DefineTag("ACTIVE","active","string",validate_list_of_qids,nil)
-DefineTag("NPC","NPC","number",nil,nil)
+DefineTag("NPC","NPC","string",validate_list_of_ints,nil)
 
 -- Mapping Tags
 DefineTag("M","map","string",nil,nil)
