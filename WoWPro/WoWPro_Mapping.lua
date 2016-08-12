@@ -427,6 +427,7 @@ local LastMapPoint = nil
 function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
+	if not WoWPro.GuideLoaded then return end
 	if WoWPro.InitLockdown then return end
 
 	-- Loading Variables for this step --
