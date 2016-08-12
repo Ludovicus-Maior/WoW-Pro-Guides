@@ -273,6 +273,14 @@ function WoWPro.ComparePets(pet1,pet2)
         return pet2, pet1
     end
 
+    -- Prefer current health, just in case we have duplicates where one is not at max health
+    if health1 > health2 then
+        return pet1, pet2
+    elseif health2 > health1 then
+        return pet2, pet1
+    end
+
+
 end
 
 function WoWPro.PickBestPet(candidates)
