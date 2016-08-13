@@ -419,9 +419,11 @@ end
 
 function WoWPro.EventHandler(frame, event, ...)
     -- Filter out non-player UNIT_AURA events
-    if event == "UNIT_AURA" and not MaybeCombatLockdown() then
+    if event == "UNIT_AURA" then
          -- Process silently!
-        WoWPro.AutoCompleteBuff(...)
+        if not MaybeCombatLockdown() then
+            WoWPro.AutoCompleteBuff(...)
+        end
         return
     end
 
