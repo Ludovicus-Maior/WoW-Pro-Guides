@@ -634,7 +634,7 @@ function WoWPro.NextStep(k,i)
                 break
             end
             if WoWPro.Scenario.currentStage > stage then
-                WoWPro.CompleteStep(k, "Stage completed")
+                WoWPro.CompleteStep(k, "Stage completed: "..WoWPro.sobjective[k])
                    skip = true
                    break
                end
@@ -650,7 +650,7 @@ function WoWPro.NextStep(k,i)
                        break
                    end
                    if WoWPro.Scenario.Criteria[objective].completed then
-                       WoWPro.CompleteStep(k, "Scenario objective completed")
+                       WoWPro.CompleteStep(k, "Scenario objective completed:"..WoWPro.sobjective[k])
                        skip = true
                        break
                    end
