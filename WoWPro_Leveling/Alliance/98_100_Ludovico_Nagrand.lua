@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2016-08-12 22:11
+-- Who: tubera
+-- Log: Change QID of D step to 999999
+
+-- URL: http://wow-pro.com/node/3618/revisions/27549/view
 -- Date: 2016-08-11 14:59
 -- Who: tubera
 -- Log: Fix Zone on Greyeer
@@ -622,7 +627,7 @@ C And Justice for Thrall|QID|35169|M|74.56,69.56|CHAT|QO|1|N|Speak to Vindicator
 C And Justice for Thrall|QID|35169|M|71.4,84.4|QO|2|N|Garrosh Hellscream|
 T And Justice for Thrall|QID|35169|M|66.96,33.77|N|A Cinematic and then, To Vindicator Yrel. Go up the hill past Thrall to see Garrosh youtself, before you turn in.|
 
-D Thanks|QID|0|N|Ludovicus and Fluclo would like to thank you for using our guide. Watch for the upcoming Treasures of Nagrand Achievment Guide!|
+D Thanks|QID|999999|N|Ludovicus and Fluclo would like to thank you for using our guide. Watch for the upcoming Treasures of Nagrand Achievment Guide!|
 
 ]]
 
