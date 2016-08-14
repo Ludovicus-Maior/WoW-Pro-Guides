@@ -510,17 +510,17 @@ end
 ---return [[
 
 local function addTagValue(line, tag, value)
-	line = line..tag.."\|"
+	line = line..tag.."||"
 	if value == nil or value == false then
-	    line = line.." \|"
+	    line = line.." ||"
 	else
-	    line = line..tostring(value).."\|"
+	    line = line..tostring(value).."||"
 	end
 	return line
 end
 
 local function addTag(line, tag)
-	line = line..tag.."\|"
+	line = line..tag.."||"
 	return line
 end
 
@@ -532,7 +532,7 @@ function WoWPro.Recorder.EmitStep(i)
         return ""
     end
 
-    local line = WoWPro.action[i].." "..WoWPro.step[i].."\|"
+    local line = WoWPro.action[i].." "..WoWPro.step[i].."||"
 
     for idx=1,#WoWPro.TagList do
         local tag = WoWPro.TagList[idx]
