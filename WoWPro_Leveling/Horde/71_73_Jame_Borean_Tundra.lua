@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2016-08-15 00:45
+-- Who: tubera
+-- Log: Part 1: Move few quest pickups back due to level requirements. Fix few QO's
+
+-- URL: http://wow-pro.com/node/3290/revisions/26912/view
 -- Date: 2014-11-08 05:29
 -- Who: Emmaleah
 -- Log: remove Dup N and Dup Z per big list o' errors
@@ -111,13 +116,14 @@ A Bury Those Cockroaches! |QID|11608|M|43.3,55.4|N|From Quartermaster Holgoth.|
 T Taking Back Mightstone Quarry |QID|11598|M|43.2,55.0|N|To Overlord Razgor.|
 A Cutting Off the Source |QID|11602|M|43.2,55.0|N|From Overlord Razgor.|
 A Untold Truths |QID|11614|M|43.2,55.0|N|From Shadowstalker Barthus.|
-N Blast the Eastern Sinkhole |QID|11608|QO|East Nerub'ar Sinkhole Destroyed: 1/1|U|34710|N|Go down to the left of the barricades, you'll find a hole blocked by webs. Stand on it and use your Depth Charge.|M|44.23,56.75|
+;QO
+N Blast the Eastern Sinkhole |QID|11608|QO|2|U|34710|N|Go down to the left of the barricades, you'll find a hole blocked by webs. Stand on it and use your Depth Charge.|M|44.23,56.75|
 C Cutting off the Source |QID|11602|N|Head SW to a set of scaffolds. The Nerub'kar Egg Sacks are on then, they look like eggs in a cup. Go up the scaffold, destroying the eggs, then continue SW and head down the other scaffold, destroying eggs. Continue till you finish the quest.|M|43,59|
-N Blast the Southern Sinkhole |QID|11608|QO|South Nerub'ar Sinkhole Destroyed: 1/1|U|34710|N|It's about 20 paces NW of the scaffolds.|M|41.6,58.3|
-N Blast the Western Sinkhole |QID|11608|QO|West Nerub'ar Sinkhole Destroyed: 1/1|U|34710|N|Go NW, there's a narrow path.|M|39.8,52.5|
+N Blast the Southern Sinkhole |QID|11608|QO|1|U|34710|N|It's about 20 paces NW of the scaffolds.|M|41.6,58.3|
+N Blast the Western Sinkhole |QID|11608|QO|3|U|34710|N|Go NW, there's a narrow path.|M|39.8,52.5|
 T Untold Truths |QID|11614|N|To Shadowstalker Luther's corpse. He's just next to the sinkhole.|M|40.1,52.1|
 A Nerub'ar Secrets|QID|11615|M|40.1,52.1|N|From Shadowstalker Luther's corpse.|
-C Bury Those Cockroaches |QID|11608|U|34710|N|The final sinkhole is to the NE.|M|41.3,50.4|
+C Bury Those Cockroaches |QID|11608|QO|4|U|34710|N|The final sinkhole is to the NE.|M|41.3,50.4|
 
 A What the Cold Wind Brings... |QID|11632|O|U|34777|N|From Ith'rix's Hardened Carapace.|
 T Bury Those Cockroaches! |QID|11608|M|43.3,55.4|N|To Quartermaster Holgoth..|
@@ -129,8 +135,6 @@ T What the Cold Wind Brings... |QID|11632|O|N|To Overlord Saurfang.|
 T Message to Hellscream |QID|11616|M|41.3,53.6|N|To Garrosh Hellscream.|
 A Reinforcements Incoming... |QID|11618|M|41.3,53.6|N|From Garrosh Hellscream.|
 A Ride to Taunka'le Village |QID|11888|M|41.7,54.7|N|From Ambassador Talonga.|
-A Too Close For Comfort |QID|11574|M|41.7,54.7|N|From Endorah.|
-A To Bor'gorok Outpost, Quickly! |QID|12486|M|41.6,53.5|N|From Saurnak the Mystic.|
 T Wind Master To'bor |QID|11634|N|Go to the top of Warsong Hold. To Wind Master To'bor.|M|42.3,54.9|
 A Magic Carpet Ride |QID|11636|M|42.3,54.9|N|From Wind Master To'bor.|
 F Coast of Echoes|QID|11636|N|Go talk to Yanni, he's the only blood elf in sight. Get him to send you to Garrosh's Landing, and enjoy the carpet ride.|M|42.3,55.7|
@@ -161,11 +165,11 @@ T Horn of the Ancient Mariner |QID|11660|M|32.3,54.3|N|To Waltor of Pal'ea.|
 A Orabus the Helmsman |QID|11661|M|32.3,54.3|N|From Waltor of Pal'ea.|
 T Tanks a lot... |QID|11651|M|32.2,54.1|N|To Gorge the Corpsegrinder.|
 A The Plains of Nasam |QID|11652|M|32.2,54.1|N|From Gorge the Corpsegrinder.|
-N Burn Bor's Hammer |QID|11656|QO|Bor's Hammer destroyed: 1/1|U|34830|N|Head into the mist, the first ship is at .|M|30,53|
-N Burn The Kur Drakkar |QID|11656|QO|The Kur Drakkar destroyed: 1/1|U|34830|N|To the north, just next to The Serpent's Maw. |M|31,49|
-N Burn the Serpent's Maw |QID|11656|QO|The Serpent's Maw destroyed: 1/1|U|34830|N|Next to the ship you just burned. |M|31.5,48.2|
+N Burn Bor's Hammer |QID|11656|QO|3|U|34830|N|Head into the mist, the first ship is at .|M|30,53|
+N Burn The Kur Drakkar |QID|11656|QO|2|U|34830|N|To the north, just next to The Serpent's Maw. |M|31,49|
+N Burn the Serpent's Maw |QID|11656|QO|1|U|34830|N|Next to the ship you just burned. |M|31.5,48.2|
 C Orabus the Helmsman |QID|11661|U|34844|N|Head south to the Warsong Jetty. Head to the end of the jetty and use the Horn. Kill all comers till you complete the quest. |M|26.7,54.6|
-C Burn in Effigy |QID|11656|U|34830|N|The final ship is just to the south.|M|30,62|
+C Burn in Effigy |QID|11656|QO|4|U|34830|N|The final ship is just to the south.|M|30,62|
 T Burn in Effigy |QID|11656|M|32.3,54.3|N|To Waltor of Pal'ea.|
 T Orabus the Helmsman |QID|11661|M|32.3,54.3|N|To Waltor of Pal'ea.|
 
@@ -199,9 +203,9 @@ A Merciful Freedom |QID|11676|M|37.9,52.6|N|From Shadowstalker Canarius.|
 A Damned Filthy Swine |QID|11688|M|37.9,52.3|N|From Farmer Torp.|
 C Merciful Freedom|QID|11676|N|Collect keys from Warsong Aberrations and En'kilah Necrolords to free prisoners.|S|
 C Damned Filthy Swine|QID|11688|N|Kill 10 Unliving Swine.|S|
-N Torp's Farm|QID|11686|QO|Scout Torp's Farm: 1/1|N|Head over to Torp's Farm, next to the sparkling flag.|M|36,53|
-N Warsong Granary|QID|11686|QO|Scout Warsong Granary: 1/1|N|Now head to the Warsong Granary.|M|35,55|
-C The Warsong Farms|QID|11686|N|Finally head to the Slaughterhouse.|M|39.51,47.37|
+N Torp's Farm|QID|11686|QO|2|N|Head over to Torp's Farm, next to the sparkling flag.|M|36,53|
+N Warsong Granary|QID|11686|QO|1|N|Now head to the Warsong Granary.|M|35,55|
+C The Warsong Farms|QID|11686|QO|3|N|Finally head to the Slaughterhouse.|M|39.51,47.37|
 C Merciful Freedom|QID|11676|N|Collect keys from Warsong Aberrations and En'kilah Necrolords to free prisoners.|US|M|36.4,48.1|
 C Damned Filthy Swine|QID|11688|N|Finish killing the 10 Unliving Swine.|US|
 T The Warsong Farms |QID|11686|M|37.9,52.6|N|To Shadowstalker Ickoris.|
@@ -219,6 +223,10 @@ A Foolish Endeavors |QID|11705|M|34.6,46.4|N|From Shadowstalker Getry.|
 C Foolish Endeavors |QID|11705|N|Let Saurfang tank. If you are going to die, back off and let Saurfang finish it. Let Getry engage first, but be right behind him, this quest can bug easily if he aggros before he is supposed to.|
 T Foolish Endeavors |QID|11705|M|41.3,53.6|N|To Garrosh Hellscream.|
 A Nork Bloodfrenzy's Charge |QID|11709|M|41.3,53.6|N|From Garrosh Hellscream.|
+;lvl
+L Level 69|QID|11709|LVL|69|N|You should be level 69 now.
+A To Bor'gorok Outpost, Quickly! |QID|12486|LVL|69|M|41.6,53.5|N|From Saurnak the Mystic.|
+A Too Close For Comfort |QID|11574|LVL|69|M|41.7,54.7|N|From Endorah.|
 T Nork Bloodfrenzy's Charge |QID|11709|M|43.7,54.5|N|To Warden Nork Bloodfrenzy.|
 A Coward Delivery... Under 30 Minutes or it's Free |QID|11711|M|43.7,54.5|N|From Warden Nork Bloodfrenzy.|
 C Coward Delivery... Under 30 Minutes or it's Free |QID|11711|N|Follow the path north out of the quarry, then follow the trail east. When you get to the crossroads, use the flaregun. Make sure the prisioner stays with you.|U|34971|M|55,51|
@@ -256,9 +264,10 @@ A Scouting the Sinkholes |QID|11684|M|77.1,37.8|N|From Greatfather Mahan.|
 T Hellscream's Champion |QID|11916|M|75.9,37.2|N|To Chieftain Wintergale.|
 A Load'er Up! |QID|11881|M|77.5,37.0|N|From Fezzix Geartwist.|
 A Sage Highmesa is Missing |QID|11674|M|77.3,36.9|N|From Greatmother Taiga.|
-N Mark Location of South Sinkhole|QID|11684|U|34920|QO|Mark Location of South Sinkhole: 1/1|N|Go to the first sinkhole.|M|70.36,36.67|
-N Mark Location of Northeast Sinkhole|QID|11684|U|34920|QO|Mark Location of Northeast Sinkhole: 1/1|N|Now the second one.|M|69.66,32.54|
-C Scouting the Sinkholes |QID|11684|U|34920|N|Now mark the final sinkhole.|M|66.36,32.51|
+;QO
+N Mark Location of South Sinkhole|QID|11684|U|34920|QO|1|N|Go to the first sinkhole.|M|70.36,36.67|
+N Mark Location of Northeast Sinkhole|QID|11684|U|34920|QO|2|N|Now the second one.|M|69.66,32.54|
+C Scouting the Sinkholes |QID|11684|U|34920|QO|3|N|Now mark the final sinkhole.|M|66.36,32.51|
 A Emergency Supplies |QID|11887|N|Head SW and look for a dead gnome.|M|64,36|
 C Emergency Supplies |QID|11887|N|You're looking for gnome bodies identical to the one we just got the quest from. They're all over the southern half of the Scaling Pools. You don't need to dismount.|M|62.9,35.8|
 C What Are They Up To? |QID|11890|N|Head to the Fizzcrank Pumping Station to inspect it.|M|64,23|
