@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2016-08-15 20:16
+-- Who: tubera
+-- Log: Fix several QOs
+
+-- URL: http://wow-pro.com/node/3244/revisions/27464/view
 -- Date: 2016-07-17 20:15
 -- Who: Ludovicus
 -- Log: Added Andorhal flight point capture
@@ -244,13 +249,14 @@ A I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.60,54.88|N|From Selyria Gr
 f The Menders' Stead|QID|27197|M|50.49,52.34|N|At Marge Heffman.|
 r Repair and Sell Junk |QID|26999|M|50.69,53.12|N|Excellent opportunity to repair and sell your junk with Gurt.\n\nClick this step to continue.|RANK|3|
 
-C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|47.41,52.91|CN|N|Click on the Unhealthy-Looking Pumpkins then kill the Thrashing Pumpkin that appears.|QO|Unhealthy-Looking Pumpkin Removed: 3/3|
-C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|46.33,54.45|CN|N|Click on the Rotten Apples then kill the Pome Wrath that appears.|QO|Rotten Apple Removed: 4/4|
-C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|45.19,53.40|CN|N|Click on the Bad Corn then kill the Corn Stalker that appears.|QO|Bad Corn Removed: 6/6|
+C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|47.41,52.91|CN|N|Click on the Unhealthy-Looking Pumpkins then kill the Thrashing Pumpkin that appears.|QO|3|
+C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|46.33,54.45|CN|N|Click on the Rotten Apples then kill the Pome Wrath that appears.|QO|2|
+C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|45.19,53.40|CN|N|Click on the Bad Corn then kill the Corn Stalker that appears.|QO|1|
 C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Kill with Zen'kiki with you. If Zen'kiki isn't with you, talk to Adrine Towhide at The Mender's Stead to get him back.|S|
-l Diseased Wolf Samples|QID|26999|M|46.98,46.34|L|60763 4|N|Kill and loot Diseased Wolves for their samples.|S|
-l Hulking Plaguebear Samples|QID|26999|M|46.98,46.34|L|60762 4|N|Kill and loot Hulking Plaguebears for their samples.|
-l Diseased Wolf Samples|QID|26999|M|46.98,46.34|L|60763 4|N|Kill and loot Diseased Wolves for their samples.|US|
+;QO
+l Diseased Wolf Samples|QID|26999|M|46.98,46.34|QO|4|N|Kill and loot Diseased Wolves for their samples.|S|
+l Hulking Plaguebear Samples|QID|26999|M|46.98,46.34||QO|3|N|Kill and loot Hulking Plaguebears for their samples.|
+l Diseased Wolf Samples|QID|26999|M|46.98,46.34||QO|4|N|Kill and loot Diseased Wolves for their samples.|US|
 C A New Era for the Plaguelands|QID|26999|M|54.92,60.83|N|Kill and loot Plague Lurkers and Venom Mist Lurkers to get their samples.|
 C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Finish killing the wildlife with Zen'kiki. If Zen'kiki isn't with you, talk to Adrine Towhide at The Mender's Stead to get him back.|US|
 T A New Era for the Plaguelands|QID|26999|M|49.33,54.92|N|To Field Agent Kaartish.|
@@ -320,11 +326,11 @@ C Unusual Behavior... Even For Gnolls|QID|27152|M|54.78,34.10;56.16,34.70;57.07,
 T Unusual Behavior... Even For Gnolls|QID|27152|M|57.28,35.71|N|(UI Alert)|
 
 A The Good People of Hearthglen|QID|27153|PRE|27152|M|57.28,35.71|N|(UI Alert)|
-C Bree Ironstock|QID|27153|M|43.68,17.22|QO|Speak with Bree Ironstock: 1/1|N|Head back to Hearthglen, then talk to Bree Ironstock in the stables.|CHAT|
-C High Cleric Alphus|QID|27153|M|42.15,18.24|QO|Speak with High Cleric Alphus: 1/1|N|Talk to High Cleric Alphus in the Town Hall.|CHAT|
-C Morris Vant|QID|27153|M|44.38,13.55|QO|Speak with Morris Vant: 1/1|N|Talk to Morris Vant inside the blacksmith building.|CHAT|
+C Bree Ironstock|QID|27153|M|43.68,17.22|QO|3|N|Head back to Hearthglen, then talk to Bree Ironstock in the stables.|CHAT|
+C High Cleric Alphus|QID|27153|M|42.15,18.24|QO|4|N|Talk to High Cleric Alphus in the Town Hall.|CHAT|
+C Morris Vant|QID|27153|M|44.38,13.55|QO|1|N|Talk to Morris Vant inside the blacksmith building.|CHAT|
 r Repair and Sell Junk |QID|27153|M|44.38,13.55|N|Excellent opportunity to repair and sell your junk with Morris Vant.\n\nClick this step to continue.|RANK|3|
-C Outfitter Mendelev|QID|27153|M|44.82,12.47|QO|Speak with Outfitter Mendelev: 1/1|N|Talk to Outfitter Mendelev in the hut to the west.|CHAT|
+C Outfitter Mendelev|QID|27153|M|44.82,12.47|QO|2|N|Talk to Outfitter Mendelev in the hut to the west.|CHAT|
 T The Good People of Hearthglen|QID|27153|M|44.82,12.47|N|(UI Alert)|
 
 A Bagging Bisp|QID|27154|PRE|27153|M|42.16,18.33|N|(UI Alert)|
