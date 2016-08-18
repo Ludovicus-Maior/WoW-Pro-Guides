@@ -39,6 +39,7 @@ WoWPro_ZoneData.lua
 WoWPro_Mapping.lua
 WoWPro_Broker.lua
 WoWPro_Events.lua
+WoWPro_Markup.lua
 WoWPro_NilGuide.lua
 WoWPro_Parser.lua
 WoWPro_Pets.lua
