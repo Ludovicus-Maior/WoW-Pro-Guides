@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-15 22:25
+-- Who: Ludovicus
+-- Log: Correct [Garrison Campaign: The Fall of Shattrath] for the alliance.
+
+-- URL: http://wow-pro.com/node/3648/revisions/27536/view
 -- Date: 2016-08-08 02:42
 -- Who: tubera
 -- Log: Tweaked: Garrison Campaign: The Search for Shadow Hunter Bwu'ja (Horde)
@@ -324,8 +329,8 @@ A Reclaiming the City|QID|35683|PRE|35679|M|49.8,48.6|Z|Talador|N|From Exarch Ma
 C Sargerei Insignias|QID|35683|M|38,21|N|Head into the city of Shattrath and kill and loot Insignias.|QO|1|FACTION|Alliance|
 T Reclaiming the City|QID|35683|M|49.8,48.6|Z|Talador|N|To Exarch Maladaar.|FACTION|Alliance|
 A Socrethar's Demise|QID|35685|PRE|35683|M|49.8,48.6|Z|Talador|N|From Exarch Maladaar.|FACTION|Alliance|
-C Screthar's Demise|QID|35687|M|41.6,32.4|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Horde|
-K Socrethar's Demise|QID|35687|T|Socrethar|QO|2|FACTION|Horde|
+C Screthar's Demise|QID|35685|M|42.36,32.99|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Alliance|
+K Socrethar|QID|35685|T|Socrethar|QO|2|FACTION|Alliance|
 T Socrethar's Demise|QID|35685|M|49.8,48.6|Z|Talador|N|To Exarch Maladaar.|FACTION|Alliance|
 ; A Garrison Campaign: The Fall of Shattrath|QID|35680|M|47.6,47.0|N|From Khadgar's Servant.|FACTION|Horde|
 T Garrison Campaign: The Fall of Shattrath|QID|35680|M|50.0,48.6|Z|Talador|N|To Lady Liadrin, at the Spire of Light in Talador. Bring a follower.|FACTION|Horde|
@@ -544,7 +549,7 @@ C Intercepting the Orders|QID|35846|M|43.2,34.4|N|Keep killing Orcs until you ha
 T Plans of War|QID|35845|M|45.6,43.2|Z|Frostwall|N|To Rokhan at your Garrison|FACTION|Horde|
 T Intercepting the Orders|QID|35846|M|45.6,43.2|Z|Frostwall|N|To Rokhan|FACTION|Horde|
 T Putting Down the Packleader|QID|35842|M|45.6,43.2|Z|Frostwall|N|To Rokhan|FACTION|Horde|
-D Next!|QID|0|N|Click to return to whatever guide you were doing before.|
+D Next!|N|Click to return to whatever guide you were doing before.|
 
 A A Good Death|QID|34354|M|0.0,0.0|N|From ?|; Neutral
 C A Good Death|QID|34354|M|58.6,84.4|N|Injured Darkwing Glider|

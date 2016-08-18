@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_levelup_125
+-- Date: 2016-08-15 22:22
+-- Who: Ludovicus
+-- Log: Use Rank2 for the extra trainers.  Use Rank3 for the hard strategies.
+
+-- URL: http://wow-pro.com/node/3642/revisions/27469/view
 -- Date: 2016-07-19 18:55
 -- Who: Ludovicus
 -- Log: Major re-write.
@@ -72,20 +77,20 @@ T Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|To Flowing Pand
 
 N Grand Master Shu|AVAILABLE|31957|PET1|Leveling;;;H>800M|PET2|Szechuan Chicken;63585;1+1+2|PET3|Red Cricket;63370;1+2+1|STRATEGY|Ludovicus/Shu|RANK|3|
 A Grand Master Shu|QID|31957|M|55.10,37.56|Z|Dread Wastes|N|From Wastewalker Shu|RANK|3|STRATEGY|Ludovicus/Shu|
-C Leveling|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Start off with your level pet, do something and then switch to Chicken|RANK|3|SELECT|1|SWITCH|2|
-C Crusher|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Squawk\n2) Peck to death.\n3) Squawk when debuffed\n4) Swap to Cricket when Crusher is dead.|RANK|3|SELECT|2|DEAD|2,1|SWITCH|3|
-C Pounder|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Use Cocoon Strike for Rupture, which is cast 1st. \n2) Nature's Touch on cooldown, \n3) Skitter on fill.|RANK|3|SELECT|3|DEAD|2,2|
-C Mutilator|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Use Cocoon Strike and Nature's Touch on cooldown, \n3) Skitter on fill.|RANK|3|SELECT|3|DEAD|2,3|
+C Leveling|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Start off with your level pet, do something and then switch to Chicken|RANK|2|SELECT|1|SWITCH|2|
+C Crusher|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Squawk\n2) Peck to death.\n3) Squawk when debuffed\n4) Swap to Cricket when Crusher is dead.|RANK|2|SELECT|2|DEAD|2,1|SWITCH|3|
+C Pounder|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Use Cocoon Strike for Rupture, which is cast 1st. \n2) Nature's Touch on cooldown, \n3) Skitter on fill.|RANK|2|SELECT|3|DEAD|2,2|
+C Mutilator|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Use Cocoon Strike and Nature's Touch on cooldown, \n3) Skitter on fill.|RANK|2|SELECT|3|DEAD|2,3|
 T Grand Master Shu|QID|31957|M|55.10,37.56|Z|Dread Wastes|N|To Wastewalker Shu|RANK|3|
 
 N Grand Master Zusshi|AVAILABLE|31991|PET1|Chuck;26056;1+1+2|PET2|Jade Owl;61877;2+1+1|PET3|Leveling;;;H>300U|STRATEGY|sirinad@Wowhead.com/Zusshi|
-A Grand Master Zusshi|QID|31991|M|36.32,52.21|Z|Townlong Steppes|N|From Master Zusshi|RANK|3|
+A Grand Master Zusshi|QID|31991|M|36.32,52.21|Z|Townlong Steppes|N|From Master Zusshi|RANK|2|
 C Diamond|QID|31991|STRATEGY|sirinad@Wowhead.com/Zusshi|N|1) If your enemy is not Diamond, forfeit. Rip.\n2) Blood in Water\n3) Surge to Kill.|SELECT|1|DEAD|2,1|
 C Mollus .vs. Chuck|QID|31991|STRATEGY|sirinad@Wowhead.com/Zusshi|N|1) Rip\n2) Surge, get killed\n3) Swap in level pet|SELECT|1|SWITCH|3|
 C Mollus .vs. Leveling|QID|31991|STRATEGY|sirinad@Wowhead.com/Zusshi|N|Switch to Owl.|SELECT|3|SWITCH|2|
 C Mollus .vs. Owl|QID|31991|STRATEGY|sirinad@Wowhead.com/Zusshi|N|1) Adrenaline Rush, Thrash+ until death|SELECT|2|DEAD|2,2|
 C Skimmer|QID|31991|STRATEGY|sirinad@Wowhead.com/Zusshi|N|1) Thrash, Thrash, Lift-off,\n 2) Adrenaline Rush, Thrash+|SELECT|2|DEAD|2,3|
-T Grand Master Zusshi|QID|31991|M|36.32,52.21|Z|Townlong Steppes|N|To Master Zusshi|RANK|3|
+T Grand Master Zusshi|QID|31991|M|36.32,52.21|Z|Townlong Steppes|N|To Master Zusshi|RANK|2|
 
 N Burning Pandaren Spirit|AVAILABLE|32434|PET1|Anubisath Idol;68659;1+1+1|PET2|Strand Crab;61312;2+2+1|PET3|Leveling;;;H>200C|STRATEGY|Elfuego/Burning|
 A Burning Pandaren Spirit|QID|32434|M|57.0,42.2|Z|Townlong Steppes|N|From Burning Pandaren Spirit|
@@ -97,7 +102,7 @@ C Glowy|QID|32434|N|1) Just Sandstorm - Crush spam till she’s dead.\nCrab is f
 T Burning Pandaren Spirit|QID|32434|M|57.0,42.2|Z|Townlong Steppes|N|To Burning Pandaren Spirit|
 
 N Grand Master Yon|AVAILABLE|31956|PET1|Anubisath Idol;68659;1+1+1|PET2|Leveling;;;|PET3|Leveling;;;|STRATEGY|jjanchan/Yon|
-A Grand Master Yon|QID|31956|M|35.84,73.62|Z|Kun-Lai Summit|N|From Grand Master Yon|RANK|3|
+A Grand Master Yon|QID|31956|M|35.84,73.62|Z|Kun-Lai Summit|N|From Grand Master Yon|RANK|2|
 C Piqua|QID|31956|STRATEGY|jjanchan/Yon|N|1) Sandstorm\n2) Crush\n3) Deflect,\n4) Switch to Leveling 1|SELECT|1|SWITCH|2|
 C Piqua Leveling1|QID|31956|STRATEGY|jjanchan/Yon|N|1) One attack\n2) Switch back to Idol|SELECT|2|SWITCH|1|
 C Piqua|QID|31956|STRATEGY|jjanchan/Yon|N|1) Crush to kill\n2) Deflect after Lift-Off,\n3) Sandstorm on cooldown until done.|SELECT|1|DEAD|2,1|
@@ -105,10 +110,10 @@ C Lapin|QID|31956|STRATEGY|jjanchan/Yon|N|1) Use Deflect to counter Burrrow\n2) 
 C Bleat|QID|31956|STRATEGY|jjanchan/Yon|N|1) Use Deflect to counter Chew\n2) Sandstorm on cooldown\n3) On Stampede, switch to Leveling 2\n|SELECT|1|SWITCH|3|
 C Bleat Leveling2|QID|31956|STRATEGY|jjanchan/Yon|N|1) One attack\n2) Switch back to Idol|SELECT|3|SWITCH|1|
 C Bleat|QID|31956|STRATEGY|jjanchan/Yon|N|1) Use Deflect to counter Chew\n2) Sandstorm on cooldown\n3) Crush for the kill\n|SELECT|1|DEAD|2,3|
-T Grand Master Yon|QID|31956|M|35.84,73.62|Z|Kun-Lai Summit|N|To Grand Master Yon|RANK|3|
+T Grand Master Yon|QID|31956|M|35.84,73.62|Z|Kun-Lai Summit|N|To Grand Master Yon|RANK|2|
 
 N Thundering Pandaren Spirit|AVAILABLE|32441|PET1|Leveling;;;|PET2|Rusty Snail;62313;2+1+1|PET3|Mechanical Pandaren Dragonling;64899;1+1+2|STRATEGY|Ludovicus/Thundering|
-A Thundering Pandaren Spirit|QID|32441|M|64.95,93.80|Z|Kun-Lai Summit|N|From Thundering Pandaren Spirit|RANK|3|
+A Thundering Pandaren Spirit|QID|32441|M|64.95,93.80|Z|Kun-Lai Summit|N|From Thundering Pandaren Spirit|RANK|2|
 C Spirit .vs Leveling|QID|32441|STRATEGY|Ludovicus/Thundering|N|1) Attack with something and then swap in Snail|SELECT|1|SWITCH|2|
 C Spirit .vs. Snail|QID|32441|STRATEGY|Ludovicus/Thundering|N|1) Goo\n2) Dive\n 3)Abs*|SELECT|2|DEAD|2,1|
 C Sludgy .vs. Snail|QID|32441|STRATEGY|Ludovicus/Thundering|N|1) Goo\n2) Abs till snail is dead\n3) Swap in MPD|SELECT|2|SWITCH|3|
@@ -117,7 +122,7 @@ C Tunneler|QID|32441|STRATEGY|Ludovicus/Thundering|N|1) Bombing Run\n2) Breath\n
 T Thundering Pandaren Spirit|QID|32441|M|64.95,93.80|Z|Kun-Lai Summit|N|From Thundering Pandaren Spirit|
 
 N Whispering Pandaren Spirit|AVAILABLE|32440|PET1|Leveling;;;|PET2|Nether Faerie Dragon;62395;2+2+1|PET3|Nexus Whelpling;68845;1+2+2|STRATEGY|Ludovicus/Whispering|
-A Whispering Pandaren Spirit|QID|32440|M|28.89,36.03|Z|The Jade Forest|N|From Whispering Pandaren Spirit|RANK|3|
+A Whispering Pandaren Spirit|QID|32440|M|28.89,36.03|Z|The Jade Forest|N|From Whispering Pandaren Spirit|RANK|2|
 C Dusty .vs. Leveling|QID|32440|STRATEGY|Ludovicus/Whispering|N|1) Level Pet attack\n2) Swap Nether Faerie Dragon.|SELECT|1|SWITCH|2|
 C Dusty .vs. Dragon|QID|32440|STRATEGY|Ludovicus/Whispering|N|1) Moonfire\n2) Arcane Blast*|SELECT|2|DEAD|2,1|
 C Whispertail|QID|32440|STRATEGY|Ludovicus/Whispering|N|1) Life Exchange\n2) Arcane Blast*|SELECT|2|DEAD|2,2|
@@ -125,13 +130,13 @@ C Spirit|QID|32440|STRATEGY|Ludovicus/Whispering|N|1) Life Exchange, 2) Moonfire
 T Whispering Pandaren Spirit|QID|32440|M|28.89,36.03|Z|The Jade Forest|N|From Whispering Pandaren Spirit|
 
 N Grand Master Hyuna|AVAILABLE|31953|PET1|Celestial Dragon;40624;1+1+1|PET2|Wildhammer Gryphon Hatchling;62900;1+1+2;|PET3|Leveling;;;L>10|STRATEGY|Ludovicus/Hyuna|
-A Grand Master Hyuna|QID|31953|M|47.96,54.18|Z|The Jade Forest|N|From Hyuna of the Shrines|RANK|3|
+A Grand Master Hyuna|QID|31953|M|47.96,54.18|Z|The Jade Forest|N|From Hyuna of the Shrines|RANK|2|
 C Skyshaper|QID|31953|STRATEGY|Ludovicus/Hyuna|N|1) Moonfire\n2) Spam Flamethrower until dead.|SELECT|1|DEAD|2,1|
 C Fangor|QID|31953|STRATEGY|Ludovicus/Hyuna|N|1) Moonfire\n2) Ancient Blessing\n3) Flamethrower.\n3) On Dragon's death, swap in Gryphon|SELECT|1|SWITCH|2|
 C Dor .vs. Dragon|QID|31953|STRATEGY|Ludovicus/Hyuna|N|1) Lift off\n2) Swap to carry|SELECT|2|SWITCH|3|
 C Dor .vs. Leveing|QID|31953|STRATEGY|Ludovicus/Hyuna|N|1) Attack\n 2) Swap to Gryphon once round resolves|SELECT|3|SWITCH|2|
 C Dor .vs. Gryphon|QID|31953|STRATEGY|Ludovicus/Hyuna|N|1) Spam Peck and Lift-Off to avoid Headbutt.|SELECT|2|
-T Grand Master Hyuna|QID|31953|M|47.96,54.18|Z|The Jade Forest|N|From Hyuna of the Shrines|RANK|3|
+T Grand Master Hyuna|QID|31953|M|47.96,54.18|Z|The Jade Forest|N|From Hyuna of the Shrines|RANK|2|
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
 end)
