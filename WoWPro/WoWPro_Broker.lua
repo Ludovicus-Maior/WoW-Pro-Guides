@@ -972,7 +972,7 @@ function WoWPro.NextStep(k,i)
                     WoWPro.why[k] = "NextStep(): TownHall not right level"
                 end
             elseif  Name == "townhallonly" then
-    		    local buildings = C_Garrison.GetBuildings();
+                local buildings = C_Garrison.GetBuildings(LE_GARRISON_TYPE_6_0);
                 if #buildings > 0 then
         		    WoWPro.why[k] = "NextStep(): Buildings owned already."
                     skip = true
