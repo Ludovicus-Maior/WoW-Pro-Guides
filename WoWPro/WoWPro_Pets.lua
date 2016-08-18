@@ -280,7 +280,8 @@ function WoWPro.ComparePets(pet1,pet2)
         return pet2, pet1
     end
 
-
+    -- Meh, no difference
+    return pet1, pet2
 end
 
 function WoWPro.PickBestPet(candidates)
