@@ -54,7 +54,8 @@ function WoWPro.Recorder:RegisterSavedGuides()
 	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
 		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
 		WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
-		local sequence_string = guideInfo.sequence
+		-- Change the ||'s into |'s like the real guides
+		local sequence_string = (guideInfo.sequence):gsub("||", "|")
 		WoWPro.Guides[GID].sequence = function () return sequence_string; end
 		WoWPro.Guides[GID].startlevel = tonumber(WoWPro.Guides[GID].startlevel)
 		WoWPro.Guides[GID].endlevel = tonumber(WoWPro.Guides[GID].endlevel)
@@ -475,7 +476,7 @@ function WoWPro.Recorder.AddStep(stepInfo,position)
 	end
 	WoWPro.Recorder:CheckpointCurrentGuide("AddStep")
 	local line = WoWPro.Recorder.EmitStep(pos+1)
-	line = line:gsub("|", "¦")
+	line = line:gsub("||", "¦") -- Change the ||'s into fancy unicode ¦'s for display only
 	WoWPro.Recorder:Print(line)
 	WoWPro:UpdateGuide("WoWPro.Recorder.AddStep()")
 end
@@ -636,7 +637,8 @@ function WoWPro.Recorder:SaveGuide(window)
 				desc = "",
 				width = "full",
 				get = function(info)
-						return guideString:trim():gsub("|N", "||N"):gsub("|R", "||R")
+				        -- Use the guide, with the ||'s for protection.
+						return guideString
 					end,
 			},
 		},
