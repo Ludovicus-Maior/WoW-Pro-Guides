@@ -21,6 +21,18 @@
   <Script file="098_099_Links_Mardum.lua"/>
   <Script file="099_100_Links_Vault.lua"/>
   <Script file="100_100_Links_DH_Artifact.lua"/>
-  <Script file="100_100_Emmaleah_LegionIntro.lua"/>
+  <Script file="098_110_Emmaleah_Legion_DK.lua"/>
+  <Script file="098_110_Emmaleah_Legion_Druid.lua"/>
+  <Script file="098_110_Emmaleah_Legion_Hunter.lua"/>
+  <Script file="098_110_Emmaleah_Legion_Mage.lua"/>
+  <Script file="098_110_Emmaleah_Legion_Monk.lua"/>
+  <Script file="098_110_Emmaleah_Legion_Paladin.lua"/>
+  <Script file="098_110_Emmaleah_Legion_Priest.lua"/>
+  <Script file="098_110_Emmaleah_Legion_Rogue.lua"/>
+  <Script file="098_110_Emmaleah_Legion_Shaman.lua"/>
+  <Script file="098_110_Emmaleah_Legion_Warlock.lua"/>
+  <Script file="098_110_Emmaleah_Legion_Warrior.lua"/>
   <Script file="100_105_Emmaleah_Azsuna.lua"/>
+  <Script file="100_105_Emmaleah_Highmountain.lua"/>
+  <Script file="100_105_Emmaleah_Valsharah.lua"/>
 </Ui>
