@@ -1,8 +1,21 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/node/3669
+-- Date: 2016-08-22 23:23
+-- Who: Ludovicus
+-- Log: 'nil' vs nil
+
+-- URL: http://wow-pro.com/node/3669/revisions/27566/view
+-- Date: 2016-08-20 00:14
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionDruid', 'Leveling', 'EmeraldDreamway', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Druid Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
-WoWPro:GuideNextGuide(guide, 'nil')
+WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideClassSpecific(guide,"Druid")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Druid")
@@ -19,7 +32,7 @@ C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Dalar
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
 A A Summons From Moonglade|QID|40643|M|57.77,44.90|Z|Dalaran@Dalaran70|N|From Archdruid Hamuul Runetotem.|
-T A Summons From Moonglade|QID|40643|M|57.77,44.90|Z|Dalaran@Dalaran70|N|Use Teleport Moonglade when you are done in Dalaran.. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|
+T A Summons From Moonglade|QID|40643|M|57.77,44.90|Z|Dalaran@Dalaran70|N|Use Teleport Moonglade when you are done in Dalaran..  Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|
 A Call of the Wilds|QID|41106|M|56.28,31.86|Z|Moonglade|N|From Archdruid Hamuul Runetotem.|PRE|40643|
 C Call of the Wilds|QID|41106|QO|1|M|43.61,53.15|Z|Moonglade|CHAT|N|Speak to Zen'tabra|
 C Call of the Wilds|QID|41106|NC|QO|2|M|55.21,71.01|Z|Moonglade|N|Sniff Naralex's pillow.|
@@ -154,7 +167,7 @@ A Join the Dreamer|QID|41449|M|52.19,52.91|Z|The Dreamgrove|N|From Mylune.|PRE|4
 T Join the Dreamer|QID|41449|M|41.87,0.00|Z|The Dreamgrove|N|To Naralex.|
 A In Deep Slumber|QID|41436|M|41.87,0.00|Z|The Dreamgrove|N|From Naralex.|PRE|40449|
 C In Deep Slumber|QID|41436|NC|U|135506|QO|1|M|40.87,0.00|Z|The Dreamgrove|N|Stand on Naralex's bed and drink the cup of moonwater to enter the Emerald Dream|
-C In Deep Slumber|QID|41436|NC|QO|2|M|44.94,51.08|Z|The Dreamgrove|N|Use stealth to quickly travel to the outside, avoid the red ground "fog". You need to make it to the tree before the bar fills up.|
+C In Deep Slumber|QID|41436|NC|QO|2|M|44.94,51.08|Z|The Dreamgrove|N|Use stealth to quickly travel to the outside, avoid the red ground "fog".  You need to make it to the tree before the bar fills up.|
 T In Deep Slumber|QID|41436|NC|QO|2|M|41.87,0.00|Z|The Dreamgrove|N|To Naralex.|
 A Reconvene|QID|41332|M|41.87,0.00|Z|The Dreamgrove|N|From Naralex.|PRE|40436|
 T Reconvene|QID|41690|M|45.18,51.72|Z|The Dreamgrove|N|To Lyessa Bloomwatcher.|
@@ -189,7 +202,7 @@ T Ascending The Circle|QID|41332|Z|The Dreamgrove|N|To Malfurion Stormrage.|
 A Word on the Winds|QID|40652|Z|The Dreamgrove|N|From Malfurion Stormrage.|PRE|41332|
 T Word on the Winds|QID|40652|Z|The Dreamgrove|N|To Skylord Omnuron.|
 A Making Trails|QID|40653|Z|The Dreamgrove|N|From Skylord Omnuron.|N|Choose which zone you want to do first. |PRE|40652|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|Z|The Dreamgrove|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40653|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|Z|The Dreamgrove|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40653|
 T Making Trails|QID|40653|Z|The Dreamgrove|N|To Skylord Omnuron.|
 f The Dreamgrove|QID|42438|M|61.70,33.74|Z|The Dreamgrove|N|At Danise Stargazer.|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|Z|The Dreamgrove|N|Take the portal to travel to Dalaran.|
@@ -200,4 +213,3 @@ J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you w
 J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
 ]]
 end)
-

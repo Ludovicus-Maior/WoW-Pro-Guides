@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmLegionRogue', 'Leveling', 'The Hall of Shadows@Dalaran', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Rogue Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -62,14 +66,14 @@ A Preparation|QID|42568|M|73.62,43.64|Z|Duskwood|N|From UI Alert.|PRE|42539|
 T Preparation|QID|42568|M|36.76,52.58|Z|Elwynn Forest|N|To Garona Halforcen.|
 A The Unseen Blade|QID|42627|M|36.76,52.58|Z|Elwynn Forest|N|From Garona Halforcen.|PRE|42568|
 C Confront Mathias Shaw.|SO|1;1|M|32.05,49.24|Z|Elwynn Forest|N|Confront Mathias Shaw.|QID|42627|
-C Live Drop|SO|2|M|66.19,74.39|Z|Stormwind City|N|Use stealth (even if you are alliance), try to fight the guards that see invis when they are far enough away from the others. Elling is upstairs in his family shop (Trias Cheese - the first shop on your right).|QID|42627|
+C Live Drop|SO|2|M|66.19,74.39|Z|Stormwind City|N|Use stealth (even if you are alliance), try to fight the guards that see invis when they are far enough away from the others.  Elling is upstairs in his family shop (Trias Cheese - the first shop on your right).|QID|42627|
 C Use the smoke bomb in the Trader's Hall.|SO|3;1|M|61.39,71.91|Z|Stormwind City|N|Use the smoke bomb in the Trader's Hall.|NC|QID|42627|U|214645|
 C Pickpocket Guards until you find information|SO|4;1|M|64.04,75.52|Z|Stormwind City|N|Pickpocket Guards until you find information|NC|QID|42627|
 C Read the Coded Message|SO|4;2|M|64.04,75.52|Z|Stormwind City|N|Read the Coded Message|NC|QID|42627|U|218893|
 C Meet Garona at the Pig and Whistle Tavern.|SO|5;1|M|74.30,55.57|Z|Stormwind City|N|Meet Garona at the Pig and Whistle Tavern.|NC|QID|42627|
 C Open the tavern door.|SO|6;1|M|75.04,55.40|Z|Stormwind City|N|Click to open the tavern door (not use your pick lock ability).|NC|QID|42627|
 C Make Althea Ebonlocke talk.|SO|6;2|M|76.11,53.72|Z|Stormwind City|N|Make Althea Ebonlocke talk.|QID|42627|
-C On the Trail|SO|7;1|Z|Stormwind City|N|Sneak into Stormwind Keep, the Herald is in the courtyard to the left of the throneroom. Use sprint to get through the purple wind trap in the hallway.|QID|42627|
+C On the Trail|SO|7;1|Z|Stormwind City|N|Sneak into Stormwind Keep, the Herald is in the courtyard to the left of the throneroom.  Use sprint to get through the purple wind trap in the hallway.|QID|42627|
 C Marked for Death|SO|8|M|82.67,28.30|Z|Stormwind City|N|It's up to you to assassinate Melris and put and end to this once and for all.|QID|42627|
 C Marked for Death|QID|42627|QO|1|M|82.77,27.92|Z|Stormwind City|N|It's up to you to assassinate Melris and put and end to this once and for all.|
 C A Dark Gift|QID|42627|M|82.77,27.92|Z|Stormwind City|N|Take up the Kingslayers as your own.|
@@ -85,7 +89,7 @@ C A Friendly Accord|QID|40847|QO|4|M|39.99,68.39|Z|The Cape of Stranglethorn|N|B
 T A Friendly Accord|QID|40847|M|40.76,69.11|Z|The Cape of Stranglethorn|N|To Fleet Admiral Tethys.|
 A The Dreadblades|QID|40849|M|40.76,69.11|Z|The Cape of Stranglethorn|N|From Fleet Admiral Tethys.|PRE|40847|
 C The Dreadblades|QID|40849|QO|1|M|40.76,69.11|Z|The Cape of Stranglethorn|N|Tell the Admiral you are ready to set sail.|CHAT|
-C Maritime Diplomacy|SO|1|Z|Azsuna|N|As you are running across the landing area, be aware of stealteh explosive traps. Board the ship on the other side of the beach and attack First Mate DeGauza. Be aware of the radias marks for the bombs going off during the fight.|QID|40849|
+C Maritime Diplomacy|SO|1|Z|Azsuna|N|As you are running across the landing area, be aware of stealteh explosive traps. Board the ship on the other side of the beach and attack First Mate DeGauza.  Be aware of the radias marks for the bombs going off during the fight.|QID|40849|
 C Find the Dread Admiral Eliza|SO|2;1|M|57.02,66.63|Z|Azsuna|N|Find the Dread Admiral Eliza|QID|40849|
 C Defeat Lord Brinebeard|SO|3;1|M|56.38,67.22|Z|Azsuna|N|Defeat Lord Brinebeard|QID|40849|
 C Pursue the Dread Admiral Eliza into the temple depths|SO|4;1|M|54.09,71.47|Z|Azsuna|N|You need to kill the three guardians (note they heal - use kick) to open the doorway to continue pursueing the Dread Admiral Eliza into the temple depths.|QID|40849|
@@ -139,7 +143,7 @@ A Delegation|QID|40996|M|30.44,70.40|N|From Marin Noggenfogger.|PRE|40995|
 T Delegation|QID|40996|M|37.90,45.19|N|To Nikki the Gossip.|
 A Lethal Efficiency|QID|40997|M|37.90,45.19|N|From Nikki the Gossip.|PRE|40996|
 C Lethal Efficiency|QID|40997|M|37.90,45.19|NC|N|Choose which zone you want to do first.|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|37.40,44.20|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|PRE|40997|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|37.40,44.20|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40997|
 T Lethal Efficiency|QID|40997|M|37.40,44.20|N|To Nikki the Gossip.|
 
 ;Insert the stuff that happens after you finish first zone here
@@ -153,5 +157,3 @@ J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, yo
 
 ]]
 end)
-
-

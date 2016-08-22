@@ -1,3 +1,17 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/node/3667
+-- Date: 2016-08-22 22:47
+-- Who: Ludovicus
+-- Log: Changed to BBCODE
+
+-- URL: http://wow-pro.com/node/3667/revisions/27564/view
+-- Date: 2016-08-20 00:02
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionIntro_H', 'Leveling', 'Dalaran@Dalaran70', 'Emmaleah', 'Horde')
 WoWPro:GuideName(guide, 'Horde Legion Intro')
 WoWPro:GuideLevels(guide,98, 98, 98.0)
@@ -64,5 +78,3 @@ D On to Class Halls|N|This ends the intro scenario and the Warrior order hall gu
 
 ]]
 end)
-
-

@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmLegionHunter', 'Leveling', 'TrueshotLodge@Highmountain', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Hunter Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -54,7 +58,7 @@ C Join Keeper Mimiron in Ulduar.|SO|6;1|M|58.26,17.78|N|Join Keeper Mimiron in U
 C Stolen Thunder|QID|41574|QO|2|M|44.97,37.33|Z|Ulduar|US|C|Hunter|
 T Stolen Thunder|QID|41574|M|44.97,37.33|Z|Ulduar|N|To Mimiron.|C|Hunter|
 A The Creator's Workshop|QID|42158|M|44.97,37.33|Z|Ulduar|N|From Mimiron.|PRE|41574|C|Hunter|
-C The Creator's Workshop|QID|42158|QO|1|M|43.72,38.88|Z|Ulduar|N|First, you have to jump over the fires as you deactivate the TWO fusion press control panels. /nSecond, you must avoid the blue swirls on the ground (that show where the lightning will hit) as you acivate the FOUR crystals that form the stabilization matrix. /nLast, you finally get to press that big red button!|C|Hunter|
+C The Creator's Workshop|QID|42158|QO|1|M|43.72,38.88|Z|Ulduar|N|First, you have to jump over the fires as you deactivate the TWO fusion press control panels.  /nSecond, you must avoid the blue swirls on the ground (that show where the lightning will hit) as you acivate the FOUR crystals that form the stabilization matrix. /nLast, you finally get to press that big red button!|C|Hunter|
 T The Creator's Workshop|QID|42158|M|43.72,38.88|Z|Ulduar|N|To Mimiron.|C|Hunter|
 A Never Hunt Alone|QID|42185|M|43.70,38.86|Z|Ulduar|N|From Mimiron.|PRE|42158|C|Hunter|
 C Never Hunt Alone|QID|42185|QO|1|M|41.69,18.46|Z|The Storm Peaks|N|Hop on the Aerial Command Unit.|C|Hunter|
@@ -142,7 +146,7 @@ A Tactical Matters|QID|40958|M|47.32,53.97|Z|Trueshot Lodge|N|From Altar Keeper 
 T Tactical Matters|QID|40958|M|42.82,46.95|Z|Trueshot Lodge|N|To Tactician Tinderfell.|C|Hunter|
 A The Campaign Begins|QID|40959|M|42.82,46.95|Z|Trueshot Lodge|N|From Tactician Tinderfell.|PRE|40958|C|Hunter|
 C The Campaign Begins|QID|40959|M|42.82,46.95|Z|Trueshot Lodge|N|Choose which zone you want to do first.|C|Hunter|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|42.62,46.84|Z|Trueshot Lodge|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|C|Hunter|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|42.62,46.84|Z|Trueshot Lodge|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|C|Hunter|
 T The Campaign Begins|QID|40959|M|42.62,46.84|Z|Trueshot Lodge|N|To Tactician Tinderfell.|C|Hunter|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|42.62,46.84|Z|Trueshot Lodge|N|Take the portal to Dalaran|C|Hunter|
 
@@ -153,4 +157,3 @@ J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, yo
 
 ]]
 end)
-

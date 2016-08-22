@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,98, 105, 100.1)
 WoWPro:GuideNextGuide(guide, 'EmmHighmountain')
@@ -7,7 +11,7 @@ return [[
 
 N Starting in Dalaran|QID|39733|U|140192|N|This guide assumes you are starting in Dalaran. |
 N Treasure|QID|39733|N|All the treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 1.|
-N Rares (Silver Elite)|QID|39733|N|A significant number, but not all of the Silver mobs are listed. The item displayed has a high chance to drop but not guarenteed. Blizzard has marked these mobs on the minimap with a star.|
+N Rares (Silver Elite)|QID|39733|N|A significant number, but not all of the Silver mobs are listed.  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|QID|39733|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure in the zone.|
 T The Lone Mountain|QID|39733|M|71.13,43.96|Z|Dalaran@Dalaran70|N|To Warbrave Oro.|
 A Keepers of the Hammer|QID|38907|M|71.13,43.96|Z|Dalaran@Dalaran70|QO|1|N|From Warbrave Oro.|
@@ -16,8 +20,8 @@ C Keepers of the Hammer|QID|38907|M|45.70,38.88|Z|ThunderTotem|NC|N|Meet Warbrav
 T Keepers of the Hammer|QID|38907|M|50.01,44.71|Z|ThunderTotem|CS|N|Take the elevator down to Mayla Highmountain.|
 A The Rivermane Tribe|QID|38911|M|44.51,50.70|Z|ThunderTotem|N|From Mayla Highmountain.|
 $ Treasure Chest|QID|40471|M|62.04,67.25|Z|ThunderTotem|N|Loot for a bit of treasure and Resources.|
-$ Treasure Chest|QID|44352|M|32.16,38.35;31.98,38.35|Z|ThunderTotem|CS|N|Jump off the bridge and swim into an underwater cave to find the Treasure. Loot for a bit of resources and treasure.|RANK|2|
-$ Treasure Chest|QID|40475|M|32.05,41.93|Z|ThunderTotem|N|After you leave the cave, as you are swimming to shore, there is another treasure in the boat. Loot for a bit of resources and treasure.|RANK|2|
+$ Treasure Chest|QID|44352|M|32.16,38.35;31.98,38.35|Z|ThunderTotem|CS|N|Jump off the bridge and swim into an underwater cave to find the Treasure.  Loot for a bit of resources and treasure.|RANK|2|
+$ Treasure Chest|QID|40475|M|32.05,41.93|Z|ThunderTotem|N|After you leave the cave, as you are swimming to shore, there is another treasure in the boat.  Loot for a bit of resources and treasure.|RANK|2|
 A The Rivermane Tribe|QID|38911|M|43.64,59.92|N|From Jale Rivermane.|
 T The Rivermane Tribe|QID|38911|M|43.64,59.92|N|To Jale Rivermane.|
 A Ormgul the Pestilent|QID|39491|M|43.64,59.92|N|From Jale Rivermane.|
@@ -96,7 +100,7 @@ C Bitestone Enclave|QID|39043|M|84.05,46.57|N|Kill Basalisks and Drogbar.|
 T Bitestone Enclave|QID|39043|M|47.32,44.53|N|To Warbrave Oro.|
 A Dargrul and the Hammer|QID|39027|M|47.32,44.53|N|From Warbrave Oro.|
 C Dargrul and the Hammer|QID|39027|M|66.48,49.66|QO|1|NC|N|Follow Warbrave Oro to confront Dargrul. When he encases you in rock, click on it to break free.|
-C Dargrul and the Hammer|QID|39027|M|15.25,26.78|QO|2|NC|N|There is a Treasure chest up where Dargrul was. You will have to kill 15-20 mobs to get it, so I'm not sure its worth it. Run out of the cavern.|
+C Dargrul and the Hammer|QID|39027|M|15.25,26.78|QO|2|NC|N|There is a Treasure chest up where Dargrul was.  You will have to kill 15-20 mobs to get it, so I'm not sure its worth it.  Run out of the cavern.|
 T Dargrul and the Hammer|QID|39027|M|38.60,68.44|N|To Spiritwalker Ebonhorn.|
 A Get to High Ground|QID|38909|M|38.60,68.44|N|From Spiritwalker Ebonhorn.|
 C Get to High Ground|QID|38909|M|27.48,38.90|QO|1|N|Escort Jale Rivermane to Thunder Totem.|
@@ -119,7 +123,7 @@ T To See the Past|QID|40520|M|74.92,75.00|N|To Spiritwalker Ebonhorn.|
 
 A Huln's War - The Arrival|QID|39983|M|74.92,75.00|N|From Spiritwalker Ebonhorn.|
 C Huln's War - The Arrival|QID|39983|M|0.00,0.00|QO|1|N|1/1 Ask Ebonhorn to Tell You the Story of Huln.|
-C Huln's War - The Arrival|QID|39983|M|36.02,36.65|Z|Azshara|QO|2|N|Slay members of the Legion.|
+C Huln's War - The Arrival|QID|39983|M|36.02,36.65|Z|Azshara|QO|2|N|Slay members of the  Legion.|
 T Huln's War - The Arrival|QID|39983|M|29.45,39.33|Z|Azshara|N|To Unng Ak.|
 A Huln's War - Malorne's Favored|QID|40112|M|29.45,39.33|Z|Azshara|N|From Unng Ak.|
 T Huln's War - Malorne's Favored|QID|40112|M|27.96,47.38|Z|Azshara|N|To Eche'ro.|
@@ -143,7 +147,7 @@ C Mountainstrider Round-Up|QID|42596|M|53.37,20.63; 54.15,45.76|CN|Z|ThunderTote
 C Moozy's Reunion|QID|42590|M|53.98,45.76|Z|ThunderTotem|N|By the time you have all the mountainstriders safely back to the stables, Ethel made it home.|
 T Mountainstrider Round-Up|QID|42596|M|53.98,45.76|Z|ThunderTotem|N|To Liza Galestride.|
 T Moozy's Reunion|QID|42590|M|45.93,54.93|Z|ThunderTotem|N|To Sella Waterwise.|
-C Ceremonial Drums|QID|42622|M|52.99,57.83|Z|ThunderTotem|QO|3|N|Kill the drumtakers to get the Small Ceremonial Drums|
+C Ceremonial Drums|QID|42622|M|52.99,57.83|Z|ThunderTotem|QO|3|N|Kill the drumtakers to get the  Small Ceremonial Drums|
 C Ceremonial Drums|QID|42622|M|45.10,65.09|N|Finish collecting drums.|
 T Secrets of Highmountain|QID|38916|M|44.87,65.72|N|To Spiritwalker Ebonhorn.|
 
@@ -170,7 +174,7 @@ C An Ancient Secret|QID|39577|M|61.52,72.74|Z|NeltherionsVault@Highmountain|QO|2
 C An Ancient Secret|QID|39577|M|61.52,72.74|Z|NeltherionsVault@Highmountain|QO|3|NC|N|Listen to Ebonhorn|
 T An Ancient Secret|QID|39577|M|61.52,72.74|Z|NeltherionsVault@Highmountain|N|To Ebyssian.|
 A The Backdoor|QID|39579|M|61.52,72.74|Z|NeltherionsVault@Highmountain|N|From Ebyssian.|
-$ Treasure Chest|QID|40509|M|40.26,50.09|Z|NeltherionsVault@Highmountain|N|Note, you can ride a mount in here. Backtrack a little ways to pick up this chest for treasure and resources.|RANK|2|
+$ Treasure Chest|QID|40509|M|40.26,50.09|Z|NeltherionsVault@Highmountain|N|Note, you can ride a mount in here.  Backtrack a little ways to pick up this chest for treasure and resources.|RANK|2|
 R The Backdoor|QID|39579|M|49.71,86.94|Z|NeltherionsVault@Highmountain|N|The backdoor is this way. Mount up and ride out.|
 C Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|NeltherionsVault@Highmountain|US|N|If you somehow managed to not finish this, kill a few more.|
 T Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|NeltherionsVault@Highmountain|N|Auto turned in upon completion.|
@@ -211,7 +215,7 @@ C Burn the Candle at Both Ends|QID|40345|M|55.30,42.51|QO|5|NC|N|Give reward to 
 C Burn the Candle at Both Ends|QID|40345|M|54.95,42.90|QO|6|NC|N|The miner is just around the corner.|
 K Kill Devouring Darkness|QID|40414|QO|1|T|Devouring Darkness|N|Take the kobold candles to start this release the Devouring Darkness.|ITEM|131780|
 $ Glimmering Treasure Chest|QID|40483|M|54.18,41.59|N|Loot for a bit of treasure and resources.|
-$ Small Treasure Chest|QID|40484|M|53.46,43.56|N|Run (or jump) down to the bottom of the cavern. Loot the chest for treasure and resources.|
+$ Small Treasure Chest|QID|40484|M|53.46,43.56|N|Run (or jump) down to the bottom of the cavern.  Loot the chest for treasure and resources.|
 C Burn the Candle at Both Ends|QID|40345|M|53.61,42.15|QO|7|N|Meet with Kindle.|
 C Burn the Candle at Both Ends|QID|40345|M|53.61,42.15|QO|8|NC|N|Recover the Candle.|
 T Burn the Candle at Both Ends|QID|40345|M|55.28,41.80|N|To Bluewax Gatekeeper.|
@@ -225,7 +229,7 @@ A Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|N|Auto accepted when
 C Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|S|N|Anything you kill inside the boundry line progresses the objective.|
 C Rocs vs Eagles|QID|38910|M|49.59,40.89|S|N|Captive Great Eagle rescued.|
 $ Treasure Chest|QID|39503|M|47.63,44.05|N|Kick the runt off the cliff, then loot the chest for a bit of treasure and resources.|RANK|2|
-K Kill Crawshuk the Hungry|QID|39806|QO|1|M|48.38,40.05|T|Crawshuk the Hungry|RANK|2|ITEM|131809|
+K Kill Crawshuk the  Hungry|QID|39806|QO|1|M|48.38,40.05|T|Crawshuk the  Hungry|RANK|2|ITEM|131809|
 $ Small Treasure Chest|QID|40498|M|50.98,38.80|N|Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|40499|M|53.06,39.47|N|Loot for a bit of treasure and resources.|
 C Rocs vs Eagles|QID|38910|M|49.59,40.89|US|N|Captive Great Eagle rescued.|
@@ -238,7 +242,7 @@ C Tamer Takedown|QID|40071|M|49.12,42.20|N|Kill Tamer Korgrul.|T|Tamer Korgrul.|
 C Eagle Egg Recovery|QID|40070|M|50.82,35.32|NC|N|Eagle Eggs are ground spawn.|
 K Kill Luggut the Eggeater|QID|40406|QO|1|M|50.81,34.50|T|Luggut the Eggeater|N|Rare - Kill for a bit of treasure and resources.|ITEM|131776|
 C Fledgling Worm Guts|QID|40069|M|50.29,34.88|N|Kill the worms in this area and loot the worm Guts.|
-$ Small Treasure Chest|QID|40497|M|50.25,38.63|N|Run up the ramp (just before the bridge where you turn in the quest) for a small treasure chest. Loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|40497|M|50.25,38.63|N|Run up the ramp (just before the bridge where you turn in the quest) for a small treasure chest.  Loot for a bit of treasure and resources.|
 T Tamer Takedown|QID|40071|M|49.45,39.24|N|To Oren Windstrider.|
 T Fledgling Worm Guts|QID|40069|M|49.45,39.24|N|To Oren Windstrider.|
 A Going Down, Going Up|QID|42425|M|49.45,39.24|N|From Oren Windstrider.|
@@ -257,7 +261,7 @@ C Assaulting the Haglands|QID|39429|M|50.04,34.58|S|N|Kill harpies and kobolds a
 C The Three|QID|39321|M|50.50,35.47|QO|3|N|Kill Ugla the Hag.|T|Ugla the Hag|
 $ Treasure Chest|QID|40506|M|50.81,35.05|N|Loot for a bit of resources and treasure.|
 $ Treasure Chest|QID|39466|M|49.64,37.74|N|Loot for a bit of resources and treasure.|
-$ Optional-Toy|QID|39824|M|55.7,53.2;53.61,51.04|CS|ITEM|131811|U|131927|N|If you want to have this toy, there is one more treasure to pick up. After you get it click on the feather to combine. Its hard to explain and you may want to consult the internet for more info. The coordinates are to where the path starts to get to the tree that the chest is balanced on. Check this off manually if you don't want to do this.|RANK|2|
+$ Optional-Toy|QID|39824|M|55.7,53.2;53.61,51.04|CS|ITEM|131811|U|131927|N|If you want to have this toy, there is one more treasure to pick up. After you get it click on the feather to combine. Its hard to explain and you may want to consult the internet for more info.  The coordinates are to where the path starts to get to the tree that the chest is balanced on. Check this off manually if you don't want to do this.|RANK|2|
 C The Three|QID|39321|M|50.92,50.44|QO|2|N|Kill Agara Deathsong.|T|Agara Deathsong.|
 K Kill Skullhat|QID|39321|QO|1|M|51.37,31.96|T|Kill Skullhat|N|Kill and loot for a bit of treasure and resources.|ITEM|131769|
 $ Treasure Chest|QID|40505|M|52.03,32.44|N|Loot for a bit of treasure and resources.|
@@ -360,7 +364,7 @@ T Slime Time|QID|40049|M|42.73,10.95|N|To King Mrgl-Mrgl.|RANK|3|
 A Murlocs: The Next Generation|QID|40102|M|42.73,10.95|N|From King Mrgl-Mrgl.|RANK|3|
 A Oh, the Clawdacity!|QID|40230|M|42.73,10.95|N|From King Mrgl-Mrgl.|RANK|3|
 C Murlocs: The Next Generation|QID|40102|M|42.77,10.91|QO|1|N|Click on Murky's Egg.|RANK|3|
-C Murlocs: The Next Generation|QID|40102|M|48.86,13.24|QO|2|N|If you go out of the area bounded on your minimap, the bond terminates. Its ok, you can finish the quest without Murky. You want to finish this before you go in where Clawdayshus is.|RANK|3|
+C Murlocs: The Next Generation|QID|40102|M|48.86,13.24|QO|2|N|If you go out of the area bounded on your minimap, the bond terminates.  Its ok, you can finish the quest without Murky.  You want to finish this before you go in where Clawdayshus is.|RANK|3|
 C Oh, the Clawdacity!|QID|40230|M|49.52,15.58|N|Kill Clawdayshus.|T|Clawdayshus|RANK|3|
 T Murlocs: The Next Generation|QID|40102|M|49.57,15.96|N|To King Mrgl-Mrgl.|RANK|3|
 T Oh, the Clawdacity!|QID|40230|M|49.57,15.96|N|To King Mrgl-Mrgl.|RANK|3|
@@ -393,7 +397,7 @@ T I Have a Bad Feeling About This|QID|39873|M|39.00,37.32|N|To Navarrogg's now e
 $ Small Treasure Chest|QID|40480|M|41.96,34.65;42.49,35.02|CS|N|This is on a tree that has fallen over (above) the road. Loot for a bit of treasure and resources.|
 C Witches of the Sky-Bonus Objective|QID|39371|M|41.96,34.65|S|N|Pick up the Harpy eggs and kill the harpies to advance this objective.|
 C Hags of a Feather|QID|39373|M|42.30,27.41|S|N|Kill the Harpies and loot feathers.|
-K Kill Slumber|QID|40175|QO|1|M|41.48,31.79|ITEM|131921|T|Slumber|N|Kill the sleeping bear for a bit of loot and treasure. Be aware a 110 elite paths through this area.|
+K Kill Slumber|QID|40175|QO|1|M|41.48,31.79|ITEM|131921|T|Slumber|N|Kill the sleeping bear for a bit of loot and treasure.  Be aware a 110 elite paths through this area.|
 C Witch of the Wood|QID|39372|M|41.29,28.10|T|Witch of the Wood|N|Kill her and her pet moose.|
 C Hags of a Feather|QID|39373|M|42.30,27.41|US|N|Finish collecting the feathers.|
 $ Small Treasure Chest|QID|40479|M|42.21,27.32|N|Loot for a bit of resources and treasure.|
@@ -411,7 +415,7 @@ C Cave of the Blood Trial|QID|39455|M|38.16,35.03|QO|2|N|Kill the Bloodtotem War
 T Cave of the Blood Trial|QID|39455|M|38.51,35.40|N|To Torok Bloodtotem.|
 A Rite of Blood|QID|39860|M|38.51,35.40|N|From Torok Bloodtotem.|
 C Rite of Blood|QID|39860|M|41.08,80.86|QO|1|NC|N|Approach Navarrogg to Begin the Ritual.|
-C Rite of Blood|QID|39860|M|40.21,82.36|QO|2|N|Periodically, Navarrogg will tell you to stand on a rune on the floor. Do it.|
+C Rite of Blood|QID|39860|M|40.21,82.36|QO|2|N|Periodically, Navarrogg will tell you to stand on a rune on the floor.  Do it.|
 T Rite of Blood|QID|39860|M|41.16,85.62|N|To Navarrogg.|
 A Rock Troll in a Hard Place|QID|39381|M|41.16,85.62|N|From Navarrogg.|
 C Rock Troll in a Hard Place|QID|39381|M|40.14,84.23|CHAT|QO|1|N|Speak with Navarrogg.|
@@ -434,7 +438,7 @@ T Pet Rocks|QID|39391|M|45.21,32.51|N|To Navarrogg.|
 T Stonedark Crystal|QID|39425|M|45.21,32.51|N|To Navarrogg.|
 T They Will Pay With Blood|QID|39588|M|45.21,32.51|N|To Navarrogg.|
 A Blood Debt|QID|39426|M|45.21,32.51|N|From Navarrogg.|
-$ Glimmering Treasure Chest|QID|40482|M|47.40,29.29;48.05,27.31;46.67,28.11|CS|N|Up the hill. then walk on top of the building/statue and drop down onto the statue's nose to find a tresure chest. Loot for a bit of resources and treasure.|RANK|3|
+$ Glimmering Treasure Chest|QID|40482|M|47.40,29.29;48.05,27.31;46.67,28.11|CS|N|Up the hill. then walk on top of the building/statue and drop down onto the statue's nose to find a tresure chest.  Loot for a bit of resources and treasure.|RANK|3|
 
 C Blood Debt|QID|39426|M|49.17,23.82|N|Torok Bloodtotem slain|
 T Blood Debt|QID|39426|M|49.20,23.81|N|To Navarrogg.|
@@ -480,7 +484,7 @@ C Wolf Pack Attack|QID|39656|M|56.14,55.43|U|128651|N|Shoot the hand cannon towa
 T Wolf Pack Attack|QID|39656|M|57.64,56.61|N|To Razik Gazbolt.|
 
 ;begin lost stuff. recreated from notes, memory, wowhead.
-$ Totally Safe Treasure Chest|QID|39766|M|53.13,55.20;52.32,51.39|N|The path starts at the first coordinate. It's a bit of a run, but with a beautiful view. What could go wrong. Find the chest and be prepared to fight for it. Loot for a bit of treasure and resources.|ITEM|131802|RANK|3|
+$ Totally Safe Treasure Chest|QID|39766|M|53.13,55.20;52.32,51.39|N|The path starts at the first coordinate.  It's a bit of a run, but with a beautiful view. What could go wrong.  Find the chest and be prepared to fight for it.  Loot for a bit of treasure and resources.|ITEM|131802|RANK|3|
 C Unexpected Allies|QID|39456|M|35.07,43.55|Z|ThunderTotem|QO|1|CHAT|N|Meet him just outside the Path of Earth doorway.|
 ;end lost stuff. game crash
 C Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem|QO|2|NC|N|Wait / watch the ritual.|
@@ -535,4 +539,3 @@ D On to Class Halls|N|This ends Highmountain and the Warrior order hall guide wi
 ]]
 
 end)
-

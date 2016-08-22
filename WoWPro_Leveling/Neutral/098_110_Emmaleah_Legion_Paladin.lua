@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmLegionPaladin', 'Leveling', 'PaladinClassShrine', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Paladin Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -43,7 +47,7 @@ C The Brother's Trail|QID|42377|QO|7|M|61.17,38.15|Z|Dragonblight|N|Take the Spa
 C The Brother's Trail|QID|42377|QO|9|M|79.20,46.09|Z|Dalaran@Dalaran70|N|(Optional) Click on Lanigosa if you want to accept her offer of a ride to Dalaran. Otherwise return to Dalaran some other way.|NC|
 T The Brother's Trail|QID|42377|M|72.04,49.33|Z|Dalaran@Dalaran70|N|To Travard.|
 A The Silver Hand|QID|42120|M|72.04,49.33|Z|Dalaran@Dalaran70|N|From Travard.|
-C The Silver Hand|QID|42120|QO|1|M|43.75,40.05|Z|Dalaran@Dalaran70|N|Optional. Enter the Chamber of the Guardian, step on the teleport pad and then run down the stairs, until you see the Dalaran Crater portal. Be ready with Divine Shield, Slow Fall potion, something... You come out way above the crater. You can travel to Light's Hope Chapel any way you choose.|
+C The Silver Hand|QID|42120|QO|1|M|43.75,40.05|Z|Dalaran@Dalaran70|N|Optional. Enter the Chamber of the Guardian, step on the teleport pad and then run down the stairs, until you see the Dalaran Crater portal. Be ready with Divine Shield, Slow Fall potion, something... You come out way above the  crater. You can travel to Light's Hope Chapel any way you choose.|
 C The Silver Hand|QID|42120|QO|2|M|12.00,61.14|Z|Tirisfal Glades|N|Go to the marked location in Tirisfal Glades|
 C Speak with Travard.|SO|1;1|M|13.56,56.67|Z|Tirisfal Glades|N|Speak with Travard.|CHAT|
 C Go to the tomb of Tyr with Travard.|SO|2;1|M|37.28,41.77|Z|Tirisfal Glades|N|Swim down with Tavard to the underwater entrance of the tomb of Tyr.|
@@ -60,7 +64,7 @@ C The Silver Hand|QID|42120|QO|3|M|37.43,55.14|Z|Floor1@TirisfalGladesInsideScen
 C The Silver Hand|QID|42120|QO|4|M|47.45,64.58;13.04,57.42|CS|Z|Floor1@TirisfalGladesInsideScenario|N|The portal returns you to the Camp in Tirisfall Glade, the Hippogryph will return you to Dalaran. Return to Tyrosus.|NC|
 T The Silver Hand|QID|42120|M|71.82,45.03|Z|Dalaran@Dalaran70|N|To Lord Maxwell Tyrosus.|
 A We Meet at Light's Hope|QID|38576|M|71.82,45.03|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|
-C We Meet at Light's Hope|QID|38576|QO|1|M|43.75,40.05|Z|Dalaran@Dalaran70|N|(Optional) Take the Chamber of Guardians(Dalaran) portal to Dalaran Crater. Its still in the same place, WAY HIGH up in the air.|
+C We Meet at Light's Hope|QID|38576|QO|1|M|43.75,40.05|Z|Dalaran@Dalaran70|N|(Optional) Take the Chamber of Guardians(Dalaran) portal to Dalaran Crater.  Its still in the same place, WAY HIGH up in the air.|
 C We Meet at Light's Hope|QID|38576|QO|2|M|73.35,53.79|Z|Eastern Plaguelands|N|(Optional) Fly to Light's Hope Chapel.|
 ;C We Meet at Light's Hope|QID|38576|QO|3|M|42.56,88.22|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|
 ;T We Meet at Light's Hope|QID|38576|M|63.23,37.06|N|To Lord Maxwell Tyrosus.|
@@ -79,7 +83,7 @@ C Dark Storms|QID|42847|M|53.35,78.74|QO|1|NC|N|Open the scouting map and choose
 T Dark Storms|QID|42847|M|52.31,78.05|N|To Lord Grayson Shadowbreaker.|
 A Recruiting the Troops|QID|42848|M|52.31,78.05|N|From Lord Grayson Shadowbreaker.|
 A A Sign From The Sky|QID|42866|M|49.88,72.29|N|From Lord Maxwell Tyrosus.|
-C Recruiting the Troops|QID|42848|M|53.24,56.15|QO|1|NC|N|Go talk with Ansela, the first trainee is instant. The next two take 30 minutes each.|
+C Recruiting the Troops|QID|42848|M|53.24,56.15|QO|1|NC|N|Go talk with Ansela, the first trainee is instant.  The next two take 30 minutes each.|
 T Recruiting the Troops|QID|42848|M|52.29,78.22|N|To Lord Grayson Shadowbreaker.|
 A Wrath and Justice|QID|42849|M|52.29,78.22|N|From Lord Grayson Shadowbreaker.|
 C Wrath and Justice|QID|42849|M|53.01,78.30|N|"Wrath and Justice" mission completed|
@@ -102,13 +106,13 @@ A A Falling Star|QID|44257|M|28.49,48.34|Z|Dalaran@Dalaran70|N|From Archmage Kha
 C Seeker of Truth|QID|42000|QO|1|M|73.97,49.13|Z|Dalaran@Dalaran70|N|Speak with Orik and Tahu.|CHAT|
 T Seeker of Truth|QID|42000|M|73.97,49.13|Z|Dalaran@Dalaran70|N|To Orik Trueheart.|
 A To Northrend|QID|42002|M|73.97,49.13|Z|Dalaran@Dalaran70|N|From Orik Trueheart.|
-C To Northrend|QID|42002|CS|QO|1|M|49.55,47.75;50.36,59.11|Z|Dalaran@Dalaran70|N|(Optional) Take the Chamber of Guardians(Dalaran) portal to Wyrmrest Temple. Travel to Howling Fjord by your preferred method.|
+C To Northrend|QID|42002|CS|QO|1|M|49.55,47.75;50.36,59.11|Z|Dalaran@Dalaran70|N|(Optional) Take the Chamber of Guardians(Dalaran) portal to Wyrmrest Temple.  Travel to Howling Fjord by your preferred method.|
 C To Northrend|QID|42002|QO|2|M|56.76,78.51|Z|Howling Fjord|N|Find Orik Trueheart at Shield Hill.|NC|
 T To Northrend|QID|42002|M|56.89,78.68|Z|Howling Fjord|N|To Orik Trueheart.|
 A The End of the Saga|QID|42005|M|56.89,78.68|Z|Howling Fjord|N|From Orik Trueheart.|
 C The End of the Saga|QID|42005|QO|1|M|56.89,78.74|Z|Howling Fjord|N|Speak with Tahu Sagewind|CHAT|
 C The End of the Saga|QID|42005|QO|2|M|62.21,82.19|Z|Howling Fjord|N|Go to each of the highlighted graves until you find the hero's grave.|
-C The End of the Saga|QID|42005|NC|U|140192|QO|3|M|62.21,82.19|Z|Howling Fjord|N|Listen to the Dialog. After it completes you can use your Dalaran Hearthstone to return.|
+C The End of the Saga|QID|42005|NC|U|140192|QO|3|M|62.21,82.19|Z|Howling Fjord|N|Listen to the Dialog.  After it completes you can use your Dalaran Hearthstone to return.|
 T The End of the Saga|QID|42005|M|72.55,50.47|Z|Dalaran@Dalaran70|N|To Orik Trueheart.|
 A Shrine of the Truthguard|QID|42017|M|72.55,50.47|Z|Dalaran@Dalaran70|N|From Orik Trueheart.|
 C Shrine of the Truthguard|QID|42017|NC|QO|1|M|72.21,50.44|Z|Dalaran@Dalaran70|N|Take the Argent Hippogryph to Stormheim.|
@@ -130,7 +134,7 @@ C We Meet at Light's Hope|QID|38576|QO|2|M|73.69,53.82|Z|Eastern Plaguelands|N|(
 ;RETRIBUTION
 ;A Seeking Guidance|QID|42770|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|
 C Seeking Guidance|QID|42770|QO|1|M|55.16,36.74|Z|Dalaran@Dalaran70|N|Enter the Chamber of the Guardian, step on the teleport pad and then run down the stairs, until you see the Dalaran Crater portal.|
-C Seeking Guidance|QID|42770|QO|2|M|30.91,36.34|Z|Aegwynn's Gallery@Dalaran70|N|Be ready with Divine Shield, Slow Fall potion, something... You come out way above the crater.|
+C Seeking Guidance|QID|42770|QO|2|M|30.91,36.34|Z|Aegwynn's Gallery@Dalaran70|N|Be ready with Divine Shield, Slow Fall potion, something... You come out way above the  crater.|
 C Seeking Guidance|QID|42770|QO|3|M|45.24,80.27|Z|Western Plaguelands|N|Fly to Uther's Tomb.|
 T Seeking Guidance|QID|42770|M|51.55,79.05|Z|Western Plaguelands|N|To Lord Maxwell Tyrosus.|
 A Sacred Ground|QID|42772|M|51.43,79.01|Z|Western Plaguelands|N|From High Priest Thel'danis.|
@@ -183,4 +187,3 @@ J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you
 
 ]]
 end)
-

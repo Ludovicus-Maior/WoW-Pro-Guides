@@ -1,10 +1,33 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/node/3668
+-- Date: 2016-08-22 23:36
+-- Who: Ludovicus
+-- Log: Corrected class name
+
+-- URL: http://wow-pro.com/node/3668/revisions/27591/view
+-- Date: 2016-08-22 23:23
+-- Who: Ludovicus
+-- Log: 'nil' vs nil
+
+-- URL: http://wow-pro.com/node/3668/revisions/27589/view
+-- Date: 2016-08-22 22:53
+-- Who: Ludovicus
+-- Log: Added DK to the guide name.
+
+-- URL: http://wow-pro.com/node/3668/revisions/27565/view
+-- Date: 2016-08-20 00:06
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionDK', 'Leveling', 'Archerus: The Ebon Hold', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Death Knight Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
-WoWPro:GuideNextGuide(guide, 'nil')
+WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideClassSpecific(guide, 'Death Knight')
+WoWPro:GuideClassSpecific(guide, 'DeathKnight')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_DeathKnight")
 
 WoWPro:GuideSteps(guide, function()
@@ -118,4 +141,3 @@ J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, yo
 
 ]]
 end)
-

@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmLegionWarrior', 'Leveling', 'ValhallasWarriorOrderHome', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Warrior Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -84,7 +88,7 @@ T The Hunter of Heroes|QID|40043|M|58.58,85.63|N|To Odyn.|
 C Legacy of the Icebreaker|QID|39191|M|59.27,25.32|CHAT|N|Talk with Hrithnir.|ACTIVE|40579|
 C The Sealed Tomb|SO|1;1|M|84.26,9.55|Z|StormheimArtifactProtWarrior|N|Fight your way down the hill (with Hrithnir) until you get to the entrance of the tomb.|QID|40579|
 C Defeat Pillik|SO|2;1|M|84.26,9.55|ZStormheimArtifactProtWarrior|N|After you defeat him, the doors will open.|QID|40579|
-C Find Magnar|SO|3;1|M|53.22,57.52|Z|StormheimArtifactProtWarrior|N|Heroic Leap to the nearest mob, after he dies, Heroic Leap to the one across. When those two are dead, the wind on the floor goes away.|QID|40579|
+C Find Magnar|SO|3;1|M|53.22,57.52|Z|StormheimArtifactProtWarrior|N|Heroic Leap to the nearest mob, after he dies, Heroic Leap to the one across.  When those two are dead, the wind on the floor goes away.|QID|40579|
 C Defend Hruthnir|SO|4;1|M|50.58,72.84|Z|StormheimArtifactProtWarrior|N|Defend Hruthnir|QID|40579|
 C Defeat Magnar Icebreaker|SO|5;1|M|50.13,83.25|Z|StormheimArtifactProtWarrior|N|Defeat Magnar Icebreaker|QID|40579|
 C Armaments of the Black Wyrm|SO|6;1|M|19.98,82.35|Z|StormheimArtifactProtWarrior|N|The sword and shield are yours, claim them.|QID|40579|
@@ -100,7 +104,7 @@ T The Forge of Odyn|QID|39192|M|41.05,37.18|N|To Master Smith Helgar.|
 A The Eye of Odyn|QID|39214|M|43.63,34.66|N|From Danica the Reclaimer.|PRE|39192|
 T The Eye of Odyn|QID|39214|M|59.78,13.33|N|To Skyseer Ghrent.|
 A Thus Begins the War|QID|40585|M|59.78,13.33|N|From Skyseer Ghrent.|PRE|39124|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|59.45,13.34|N|From the Eye of Odyn. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40585|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|59.45,13.34|N|From the Eye of Odyn. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40585|
 T Thus Begins the War|QID|40585|M|59.78,13.33|N|To Skyseer Ghrent.|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|58.55,24.00|N|Talk to the Val'kyr for transport to Dalaran.|
 
@@ -115,4 +119,3 @@ J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, yo
 
 ]]
 end)
-

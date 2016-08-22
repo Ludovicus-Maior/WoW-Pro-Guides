@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmLegionPriest', 'Leveling', 'PriestOrderHall', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Priest Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -61,7 +65,7 @@ C Azuregos healed to full|SO|1;2|M|35.71,68.94|Z|The Nexus|N|Azuregos healed to 
 C Reach the Librarium|SO|2;1|M|27.10,33.67|Z|The Nexus|N|Reach the Librarium|QID|41631|
 C Find a way into the vault|SO|2;2|M|27.75,40.42|Z|The Nexus|N|Find a way into the vault, Shield yourself and Azurgos.|QID|41631|
 C Judgement's Flame defeated|SO|3;1|M|27.75,40.42|Z|The Nexus|N|Defeat Judgement's Flame. Keep Azuregos healed/shielded.|QID|41631|
-C Reach the Rift|SO|4;1|M|30.97,22.24|Z|The Nexus|N|Reach the Rift. When Azuregos changes to dragon form, hop on for a ride across the rift.|QID|41631|
+C Reach the Rift|SO|4;1|M|30.97,22.24|Z|The Nexus|N|Reach the Rift.  When Azuregos changes to dragon form, hop on for a ride across the rift.|QID|41631|
 C Nexus-Prince Bilaal Defeated|SO|5;1|Z|The Nexus|M|59.55,20.28|N|Defeat Nexus-Prince Bilaal. Lots of shielding again.|QID|41631|
 C The Nexus Vault|QID|41631|QO|1|M|59.55,20.28|Z|The Nexus|N|Kill Nexus-Prince Bilaal.|ACTIVE|41631|T|Nexus-Prince Bilaal|
 C A Will of Fire|SO|6;1|M|0.00,0.00|Z|The Beyond|Z|The Nexus|N|Heal snd shield yourself while seizing control of Light's Wrath.|QID|41631|
@@ -135,7 +139,7 @@ A Empowering Your Artifact|QID|41017|M|48.73,22.85|N|From Betild Deepanvil.|PRE|
 C Empowering Your Artifact|QID|41017|M|49.70,21.44|N|Use the Altar of Light and Shadow to empower your artifact|
 T Empowering Your Artifact|QID|41017|M|48.81,22.92|N|To Betild Deepanvil.|
 A Actions on Azeroth|QID|41019|M|48.78,48.44|N|From Alonsus Faol.|PRE|41017|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|49.23,48.61|N|From Command Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41019|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|49.23,48.61|N|From Command Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41019|
 T Actions on Azeroth|QID|41019|M|48.73,48.49|N|To Alonsus Faol.|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|46.36,63.23|N|Take the portal back to Dalaran.|
 
@@ -146,4 +150,3 @@ J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, yo
 
 ]]
 end)
-

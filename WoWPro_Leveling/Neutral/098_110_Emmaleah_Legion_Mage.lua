@@ -1,7 +1,21 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/node/3671
+-- Date: 2016-08-22 23:24
+-- Who: Ludovicus
+-- Log: 'nil' vs nil
+
+-- URL: http://wow-pro.com/node/3671/revisions/27569/view
+-- Date: 2016-08-20 00:28
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionMage', 'Leveling', 'Hall of the Guardian@MageClassShrine', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Mage Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
-WoWPro:GuideNextGuide(guide, 'nil')
+WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideClassSpecific(guide, 'Mage')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Mage")
@@ -26,7 +40,7 @@ C Void Barrier passed|QID|41036|M|50.29,54.44|Z|The Violet Hold|NC|SO|2;1|N|Blin
 C Siphoning Rift slain|QID|41036|M|64.86,35.73|Z|The Violet Hold|SO|2;2|N|Kill the four siphening Rifts.|
 C Activate the Forge of the Guardian|QID|41036|M|50.80,47.75|Z|The Violet Hold|SO|3;1|NC|N|Activate the Forge of the Guardian.|
 C Kathra'natir defeated|QID|41036|M|52.11,70.47|Z|The Violet Hold|SO|4;1|N|Kathra'natir defeated. BTW, spellsteal is really handy here.|T|Kathra'natir|
-C Listen to Meryl|QID|41036|M|49.47,69.51|Z|The Violet Hold|NC|SO|5;1|N|Listen to Meryl.|
+C Listen to  Meryl|QID|41036|M|49.47,69.51|Z|The Violet Hold|NC|SO|5;1|N|Listen to Meryl.|
 C The Dreadlord's Prize|QID|41036|M|50.80,47.75|Z|The Violet Hold|QO|2|NC|N|Click on the Forge of the Guardian to recover it.|
 C The Dreadlord's Prize|QID|41036|M|60.17,44.82|QO|3|NC|N|Listen to Meryl for a minute or so.|
 T The Dreadlord's Prize|QID|41036|M|55.28,43.41|N|To Meryl Felstorm.|
@@ -59,7 +73,7 @@ C Eyes of the Dragon|QID|42008|M|32.21,27.83|Z|Borean Tundra|QO|2|NC|N|Surge Nee
 C Eyes of the Dragon|QID|42008|M|26.50,25.34|Z|Borean Tundra|QO|3|NC|N|Nexus foundation scouted|
 T Eyes of the Dragon|QID|42008|M|26.50,25.34|Z|Borean Tundra|N|To UI Alert.|
 A Harnessing the Arcane|QID|42009|M|26.32,25.48|Z|Borean Tundra|N|From UI Alert.|PRE|42008|
-C Harnessing the Arcane|QID|42009|M|29.16,25.70|Z|Borean Tundra|QO|1|N|Click on the 'Breach of Arcane Energy' and kill the Arcane Aberrants to complete your progress bar. Avoid dieing as it resets your progress.|
+C Harnessing the Arcane|QID|42009|M|29.16,25.70|Z|Borean Tundra|QO|1|N|Click on the 'Breach of Arcane Energy' and kill the Arcane Aberrants to complete your progress bar.  Avoid dieing as it resets your progress.|
 T Harnessing the Arcane|QID|42009|M|28.92,26.13|Z|Borean Tundra|N|From UI Alert.|
 A Arcane Unleashed|QID|42010|M|28.92,26.13|Z|Borean Tundra|N|UI Alert.|PRE|42009|
 C Arcane Unleashed|QID|42010|M|27.32,20.40|Z|Borean Tundra|QO|3|NC|N|Click on the purple mass in the center.|
@@ -86,7 +100,7 @@ T The Nexus Vault|QID|42011|M|28.58,49.86|N|To Archmage Kalec who can be found i
 ;A An Unexpected Message|QID|40267|M|58.12,41.11|N|From Meryl Felstorm.|PRE|41085|
 C An Unexpected Message|QID|40267|M|63.00,46.59|QO|1|U|130131|NC|N|Use the Crystal to discover it's Message.|
 R Chamber of the Guardians|QID|40267|ACTIVE|40267|M|49.49,47.32|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|
-R Portal-Ancient Dalaran|QID|40267|ACTIVE|40267|M|28.64,77.37|Z|Aegwynn's Gallery@Dalaran70|N|Optional - Use the Dalaran Portal to the original site of Dalaran. If you know it, you can use Teleport - Ancient Dalaran.|
+R Portal-Ancient Dalaran|QID|40267|ACTIVE|40267|M|28.64,77.37|Z|Aegwynn's Gallery@Dalaran70|N|Optional - Use the Dalaran Portal to the original site of Dalaran.  If you know it, you can use Teleport - Ancient Dalaran.|
 C An Unexpected Message|QID|40267|M|28.72,37.07|Z|Hillsbrad Foothills|QO|2|U|130131|N|Meet Archmage Modera in Hillsbrad.|
 T An Unexpected Message|QID|40267|M|28.76,37.32|Z|Hillsbrad Foothills|N|To Archmage Modera.|
 A The Path of Atonement|QID|40270|M|28.76,37.32|Z|Hillsbrad Foothills|N|From Archmage Modera.|PRE|40267|
@@ -159,7 +173,7 @@ A The Tirisgarde Reborn|QID|41124|M|60.51,34.49|N|From Meryl Felstorm.|PRE|42113
 C The Tirisgarde Reborn|QID|41124|M|60.51,34.49|NC|N|Watch and listen, eventually you will receive your new title.|
 T The Tirisgarde Reborn|QID|41124|M|81.61,60.26|N|To The Great Akazamzarak.|
 A A Conjuror's Duty|QID|41141|M|81.61,60.26|N|From The Great Akazamzarak.|PRE|42124|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|81.61,60.26|N|From Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|81.61,60.26|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
 T A Conjuror's Duty|QID|41141|M|81.66,60.14|N|To The Great Akazamzarak.|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|67.52,46.47|QO|1|N|Use the portal to travel to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
 
@@ -170,4 +184,3 @@ J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, yo
 
 ]]
 end)
-

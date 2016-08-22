@@ -1,3 +1,8 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmLegionMonk', 'Leveling', 'MonkOrderHallTheWanderingIsle', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Monk Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -55,7 +60,7 @@ C Tianji of the Ox|QID|41945|M|52.96,60.19|NC|N|Use the scouting map (missions t
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|52.96,60.19|N|From the Scouting Map (scouting map tab). Choose which zone you want to do next|PRE|42186|;*|NPC|99041
 T Tianji of the Ox|QID|41945|M|51.41,48.37|N|To Master Hsu.|
 A Building Our Troops|QID|41946|M|51.41,48.37|N|From Master Hsu.|PRE|41945|
-C Building Our Troops|QID|41946|M|53.35,59.75|NC|N|Give Tianji a work order to train an initiate, the first one is near instant. After it is done, click on the banner to retrieve the initiate, then train the other two initiates which will take 30 minutes each.|
+C Building Our Troops|QID|41946|M|53.35,59.75|NC|N|Give Tianji a work order to train an initiate, the first one is near instant.  After it is done, click on the banner to retrieve the initiate, then train the other two initiates which will take 30 minutes each.|
 T Building Our Troops|QID|41946|M|51.41,48.37|N|To Master Hsu.|
 A Scrolls of Knowledge|QID|42210|M|51.41,48.37|N|From Master Hsu.|PRE|41946|
 C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours.|
@@ -124,7 +129,7 @@ R Pools of Purity|QID|42767|M|63.3,26.04|Z|Valley of the Four Winds|N|Fly over t
 C The Riddle of Purity|QID|42768|M|63.3,26.04|Z|Valley of the Four Winds|N|Kill and loot the water elemental.|NC|
 R The Imperial Granary|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|Fly over to the Imperial Grainery|ACTIVE|42767|CN|
 C The Riddle of the Land|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|As you go, pick up the sacks of grain.|S|NC|
-C The Riddle of the Barrel|QID|42766|M|51.3,61.17|Z|Valley of the Four Winds|N|Kill and loot Vardis, who is found upstairs in the grainery.|T|Vardis|
+C The Riddle of the Barrel|QID|42766|M|51.3,61.17|Z|Valley of the Four Winds|N|Kill and loot Vardis, who  is found upstairs in the grainery.|T|Vardis|
 C The Riddle of the Land|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|Pick up any sacks of grain you still need.|US|NC|
 T The Riddle of Purity|QID|42768|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King who appears beside you when you pick up the last sack of grai/8n.|
 T The Riddle of the Barrel|QID|42766|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King.|
@@ -193,7 +198,7 @@ T Purity of Form|QID|40698|M|51.41,48.37|N|To Iron-Body Ponshu.|
 A A Matter of Planning|QID|40793|M|51.41,48.37|N|From Iron-Body Ponshu.|PRE|40698|
 T A Matter of Planning|QID|40793|M|52.75,59.79|N|To Master Hsu.|
 A The Fight Begins|QID|40795|M|52.75,59.79|N|From Master Hsu.|PRE|40793|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|52.96,60.19|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40795|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|52.96,60.19|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40795|
 T The Fight Begins|QID|40795|M|52.75,59.79|N|To Master Hsu.|
 
 ;C Portal to Dalaran|QID|39718|M|52.4,57.10|N|Take the portal to Dalaran.|NC|ACTIVE|39718|
@@ -208,4 +213,3 @@ J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, yo
 
 ]]
 end)
-

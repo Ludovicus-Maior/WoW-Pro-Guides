@@ -1,4 +1,22 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-08-22 23:11
+-- Who: Ludovicus
+-- Log: Converted to BBCODE
+
+-- URL: http://wow-pro.com/node/3665/revisions/27563/view
+-- Date: 2016-08-19 23:58
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3665/revisions/27550/view
+-- Date: 2016-08-12 08:37
+-- Who: Emmaleah
+-- Log: First Public Draft
+
 local guide = WoWPro:RegisterGuide('EmmValsharah', 'Leveling', "Val'sharah", 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,98, 105, 100.1)
 WoWPro:GuideNextGuide(guide, nil)
@@ -20,7 +38,7 @@ A Archdruid of the Vale|QID|38382|M|54.38,73.58|N|From Aranelle.|
 A Archdruid of the Claw|QID|38142|M|54.38,73.58|N|From Aranelle.|
 A Archdruid of Lore|QID|38381|M|54.38,73.58|N|From Aranelle.|
 
-A Treasure|QID|38466|M|55.55,77.60|L|130147|N|Open this treasure chest to start a short event where several forest sprites attack. After they are dead, loot the chest again for your treasure|ITEM|130147|RANK|2|
+A Treasure|QID|38466|M|55.55,77.60|L|130147|N|Open this treasure chest to start a short event where several forest sprites attack.  After they are dead, loot the chest again for your treasure|ITEM|130147|RANK|2|
 U Thistleleaf Branch|QID|38382|M|55.55,77.60|U|130147|N|Click to add the toy to your collection.|RANK|2|
 l Companion Pet|QID|38468|M|59.54,77.23|L|130154|N|Chat with Lorel Stagfeather to start a fight with Gorebeak.|ITEM|130154|RANK|2|T|Gorebeak|
 U Pygmy Owl|QID|38468|M|59.54,77.23|U|130154|N|Click to add the Pygmy Owl to your collection.|RANK|2|
@@ -101,7 +119,7 @@ A Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|N|From Saylanna Riverbr
 A Thieving Thistleleaf|QID|38862|M|53.77,79.87|N|Auto accepted from the lunarwing egg you just looted.|RANK|2|
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|As you search for Thorndancers, free Lunarwings by untangleing the roots, or fighting the ones in the air.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|S|N|As you search for Thorndancers, kill Thistleleaf Ruffians to reclaim the eggs.|RANK|2|
-A Treasure|QID|38861|M|54.94,80.56|N|Dive in and swim into an underwater cave. Loot the treasure chest for a bit of treasure and resources.|RANK|2|
+A Treasure|QID|38861|M|54.94,80.56|N|Dive in and swim into an underwater cave.  Loot the treasure chest for a bit of treasure and resources.|RANK|2|
 K Jinkiki The Puncturer|QID|38889|M|53,87|T|Jinkiki The Puncturer|N|Enter the cave and rescue the baby bear.|ITEM|128690|
 A Adopting the Adorable|QID|38889|M|53,87|N|From UI upon killing Jinkiki.|
 C Thorny Dancing|QID|40220|M|53.75,79.82|N|Kill 3 Thorndancers, they are the taller Thistleleaf mobs.|RANK|2|
@@ -154,7 +172,7 @@ T Death to the Witchmother|QID|38225|M|48.89,70.22|N|To Elothir.|
 A Return to the Grove|QID|38322|M|48.89,70.22|N|From Elothir.|
 A Wisp in the Willows|QID|39354|M|54.28,68.28|N|From Syndrelle.|RANK|2|
 C Wisp in the Willows|QID|39354|M|54.31,68.22|QO|1|NC|N|Click on the wisp to bond.|RANK|2|
-C Wisp in the Willows|QID|39354|M|49.28,63.90|QO|2|NC|N|The wisp will go unerringly to the pools, and then try to get eaten by fish, you need to steer it away from the water circles, and stop at each seedling tree. Press the "1" key to grow the trees.|RANK|2|
+C Wisp in the Willows|QID|39354|M|49.28,63.90|QO|2|NC|N|The wisp will go unerringly to the pools, and then try to get eaten by fish, you need to steer it away from the water circles, and stop at each seedling tree.  Press the "1" key to grow the trees.|RANK|2|
 T Wisp in the Willows|QID|39354|M|54.25,68.30|N|To Syndrelle.|RANK|2|
 
 R Grove of Cenarius|QID|38322|M|54.74,67.19;54.16,67.71|CS|N|Follow the road on into the Grove.|
@@ -371,4 +389,3 @@ D On to Class Halls|N|This ends Val'sharah and the Warrior order hall guide will
 ]]
 
 end)
-

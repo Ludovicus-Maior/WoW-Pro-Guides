@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmLegionShaman', 'Leveling', 'MaelstromShaman', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Shaman Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -133,7 +137,7 @@ A The Maelstrom Beckons|QID|40276|M|28.98,69.25|N|From Farseer Nobundo.|PRE|4022
 C The Maelstrom Beckons|QID|40276|QO|1|M|37.04,45.73|N|Imbue Your Artifact with a New Power.|
 T The Maelstrom Beckons|QID|40276|M|30.30,51.67|N|To Farseer Nobundo.|
 A Azeroth Needs You|QID|41510|M|30.30,51.67|N|From Farseer Nobundo.|PRE|40276|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|33.48,59.37|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|PRE|40276|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|33.48,59.37|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40276|
 T Azeroth Needs You|QID|41510|M|30.34,51.57|N|To Farseer Nobundo.|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|29.92,52.01|N|Take the portal to Dalaran.|
 
@@ -144,4 +148,3 @@ J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, yo
 
 ]]
 end)
-

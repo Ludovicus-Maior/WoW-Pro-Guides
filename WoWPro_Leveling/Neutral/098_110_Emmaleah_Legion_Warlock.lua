@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmLegionWarlock', 'Leveling', 'WarlockClassShrine', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Warlock Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -83,7 +87,7 @@ T The Power Possessed|QID|40712|M|55.85,65.40|N|To Calydus.|
 A Ritual Reagents|QID|42128|M|55.82,65.24|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|40684|
 C Ritual Reagents|QID|42128|NC|QO|1|M|33.87,39.56|Z|Dalaran@Dalaran70|N|Grave Dust is found in the graveyard northeast of The Violet Citadel.|
 C Ritual Reagents|QID|42128|NC|QO|2|M|38.30,25.60|Z|Dalaran@Dalaran70|N|The Oil can be found on the counter in 'Like Clockwork' (engineer's building)|
-C Ritual Reagents|QID|42128|QO|3|M|48.57,38.19|Z|Dalaran@Dalaran70|N|Aged Snowplum Brandy can be found on the bar in Legerdemain Lounge. The Druken Mage who abandoned it is briefly, quite grumpy with you for swiping it.|
+C Ritual Reagents|QID|42128|QO|3|M|48.57,38.19|Z|Dalaran@Dalaran70|N|Aged Snowplum Brandy can be found on the bar in Legerdemain Lounge.  The Druken Mage who abandoned it is briefly, quite grumpy with you for swiping it.|
 C Ritual Reagents|QID|42128|NC|QO|4|M|59.68,38.64|Z|Dalaran@Dalaran70|N|The 'Docile Stag' can be found in 'Magical Menagerie', Either option works to acquire the blood.|
 T Ritual Reagents|QID|42128|M|54.41,46.74|Z|Dalaran@Dalaran70|N|To Calydus, Inside the Violet Gate.|
 A Looking into the Darkness|QID|42168|M|54.41,46.74|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|42128|
@@ -153,7 +157,7 @@ A Rebuilding the Council|QID|40823|M|37.64,31.18|N|From Calydus.|PRE|40821|
 C Rebuilding the Council|QID|40823|NC|QO|1|M|31.82,56.63|N|At least you can mount up and ride to where you need to resurrect Ritssyn. (if you are careful you can jump down).|
 T Rebuilding the Council|QID|40823|M|30.92,58.31|N|To Ritssyn Flamescowl.|
 A The Path of the Dreadscar|QID|40824|M|30.92,58.31|N|From Ritssyn Flamescowl.|PRE|40823|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|66.1,47.01|N|From Dreadscar Battle Plans. Choose which zone you want to do first. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|PRE|40824|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|66.1,47.01|N|From Dreadscar Battle Plans. Choose which zone you want to do first. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40824|
 T The Path of the Dreadscar|QID|40824|M|65.69,47.86|N|To Ritssyn Flamescowl.|
 C Return to Dalaran|QID|39864|QO|1|M|73.79,38.19|N|Portal back to Dalaran|
 
@@ -164,4 +168,3 @@ J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, yo
 
 ]]
 end)
-
