@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2016-08-22 03:59
+-- Who: tubera
+-- Log: A lot of QOs;Add a few f/T tags;Add some texts where things are not clear.
+
+-- URL: http://wow-pro.com/node/3295/revisions/26901/view
 -- Date: 2014-11-08 03:23
 -- Who: Emmaleah
 -- Log: corrections per list o' errors. also added PRE tags on Amphitheater of Anguish and took out the HPs of the mobs due to 6.0 changes.
@@ -150,7 +155,7 @@ A A Great Storm Approaches |QID|12912|N|From Gymer, who is in the big cage at Th
 
 A Light Won't Grant Me Vengeance |QID|12904|N|From Gerk, who is in one of the glowing green vats a little west of Gymer.|M|17.63,57.52|
 C Light Won't Grant Me Vengeance |QID|12904|N|Kill the Varguls.|M|19,56|S|
-C Find Burr |N|He's across the courtyard to the west on one of the tables. |QID|12903|QO|Burr found: 1/1|M|15.56,59.44|
+C Find Burr |N|He's across the courtyard to the west on one of the tables. |QID|12903|QO|3|M|15.56,59.44|
 C That's What Friends Are For... |QID|12903|N|Head to Dargath's Demise and find Crusader Dargath in the ruins. He's got a glowing swirl around him. |M|24.73,51.54|
 C Making Something Out Of Nothing |QID|12901|N|The Scrap Metal is on the ground all over.|M|19.4,56|US|
 C Light Won't Grant Me Vengeance |QID|12904|N|Kill the Varguls.|M|19,56|US|
@@ -160,13 +165,14 @@ T Making Something Out Of Nothing |QID|12901|M|25.3,64.0|N|To Engineer Reed.|
 T A Great Storm Approaches |QID|12912|M|25.3,64.0|N|To Engineer Reed.|
 
 A Gymer's Salvation |QID|12914|M|25.3,64.0|N|From Engineer Reed.|
-K Banshees |QID|12914|N|Kill the banshees in The Dead Fields for their essence. They are floating so you will probably have to pull them to you.|L|41504 6|
-C Gymer's Salvation |QID|12914|N|Now head to the area around Ebon Watch and kill the Icetouched Earthragers. |M|14.26,73.60|
+K Banshees |QID|12914|N|Kill the banshees in The Dead Fields for their essence. They are floating so you will probably have to pull them to you.|QO|1|T|Banshee
+C Gymer's Salvation |QID|12914|QO|2|N|Now head to the area around Ebon Watch and kill the Icetouched Earthragers. |M|14.26,73.60|
+f Ebon Watch|QID|12914|M|14.01,73.59|N|Get the flightpoint from Baneflight
 T The Ebon Watch |QID|12884|M|14.12,73.79|N|To Stefan Vadu.|
 A Kickin' Nass and Takin' Manes |QID|12630|M|14.1,73.8|N|From Stefan Vadu.|
+A An Invitation, of Sorts... |QID|12631|O|N|(UI Alert) From the Unliving Choker. You get this quest chain if you didn't complete the Drakuru quest chain in Grizzly Hills.|
 C Kickin' Nass and Takin' Manes |QID|12630|N|Kill the trolls, put the boot to Nass!|U|38659|M|15.5,69.8|
-T Kickin' Nass and Takin' Manes |QID|12630|N|Back to Ebon Watch.|M|14.12,73.79|
-A An Invitation, of Sorts... |QID|12631|O|N|From the Unliving Choker. You get this quest chain if you didn't complete the Drakuru quest chain in Grizzly Hills.|U|38660|M|15.5,69.8|
+T Kickin' Nass and Takin' Manes |QID|12630|N|Back to Stefan Vadu at Ebon Watch.|M|14.12,73.79|
 T An Invitation, of Sorts... |QID|12631|O|M|14.1,73.8|N|To Stefan Vadu.|
 A Near Miss |QID|12637|O|PRE|12631|M|14.1,73.8|N|From Stefan Vadu.|
 C Near Miss |QID|12637|O|N|Bloodrose Datura will give you a demo. |M|14.29,74.03|
@@ -177,21 +183,21 @@ C Close Call |QID|12638|O|N|Bloodrose Datura will give you a demo.|M|14.29,74.03
 
 A Taking a Stand |QID|12795|M|14.3,74.0|N|From Bloodrose Datura.|
 T Near Miss |QID|12637|O|M|14.1,73.8|N|To Stefan Vadu.|
-A You Can Run, But You Can't Hide |QID|12629|O|PRE|12631|M|14.1,73.8|N|From Stefan Vadu.|
-C You Can Run, But You Can't Hide |QID|12629|O|N|Around the Reliquary of Agony. Pick up the Drool from the ground. Kill and loot the Abominations.|M|21.24,75.01|
-T You Can Run, But You Can't Hide |QID|12629|O|N|Back to Stefan Vadu at Ebon Watch.|M|14.26,73.60|
-A Dressing Down |QID|12648|O|PRE|12631|M|14.1,73.8|N|From Stefan Vadu.|
-C Dressing Down |QID|12648|O|N|Return to the Reliquary of Agony and use the choker. Buy the plasma from Gristlegut.|U|38699|M|19.82,75.32|
-T Close Call |QID|12638|O|M|14.1,73.8|N|To Stefan Vadu.|
-A Silver Lining |QID|12643|O|PRE|12633|N|From Stefan Vadu.|
-C Silver Lining |QID|12643|O|N|Around the Reliquary of Agony . Pick up the Drool from the ground. Kill the Abominations.|M|21.24,75.01|
-T Silver Lining |QID|12643|O|N|Back to Ebon Watch. |M|14.12,73.79|
+A You Can Run, But You Can't Hide |QID|12629|PRE|12631|M|14.1,73.8|N|From Stefan Vadu.|
+C You Can Run, But You Can't Hide |QID|12629|N|Around the Reliquary of Agony. Pick up the Drool from the ground. Kill and loot the Abominations.|M|21.24,75.01|
+T You Can Run, But You Can't Hide |QID|12629|N|Back to Stefan Vadu at Ebon Watch.|M|14.26,73.60|
+A Dressing Down |QID|12648|PRE|12631|M|14.1,73.8|N|From Stefan Vadu.|
+C Dressing Down |QID|12648|N|Return to the Reliquary of Agony and use the choker. Buy the plasma from Gristlegut.|U|38699|M|19.82,75.32|
+T Close Call |QID|12638|M|14.1,73.8|N|To Stefan Vadu.|
+A Silver Lining |QID|12643|PRE|12633|N|From Stefan Vadu.|
+C Silver Lining |QID|12643|N|Around the Reliquary of Agony . Pick up the Drool from the ground. Kill the Abominations.|M|21.24,75.01|
+T Silver Lining |QID|12643|N|Back to Ebon Watch. |M|14.12,73.79|
 
 A Suit Up! |QID|12649|O|PRE|12633|N|From Stefan Vadu.|
 C Suit Up! |QID|12649|O|N|Return to the Reliquary of Agony and use the choker. You cannot use while shapeshifted. Buy the plasma from Gristlegut.|U|38699|M|19.91,75.44|
 A Feedin' Da Goolz |QID|12652|M|19.9,75.5|N|From Gristlegut.|
 C Feedin' Da Goolz |QID|12652|N|Use the bowl near the ghouls. Be careful of the Blightguards, they see through your disguise. You should hotkey the chocker because your diguise will fail at some point.|U|38701|
-T Feedin' Da Goolz |QID|12652|N|Back to Gristlegut.|M|19.9,75.5|
+T Feedin' Da Goolz |QID|12652|N|Back to Gristlegut.|M|19.9,75.5|U|38699
 T Dressing Down |QID|12648|O|N|Back to Ebon Watch.|M|14.12,73.79|
 T Suit Up! |QID|12649|O|N|Back to Ebon Watch.|M|14.12,73.79|
 A Infiltrating Voltarus |QID|12661|M|14.1,73.8|N|From Stefan Vadu.|
@@ -203,10 +209,11 @@ T Our Only Hope |QID|12916|M|19.7,56.4|N|To Gymer.|
 A The Storm King's Vengeance |QID|12919|N|From Gymer.|
 N The Storm King's Vengeance |QID|12919|N|Do not bother to look for the scourge: they will find you.|
 N The Storm King's Vengeance |QID|12919|N|Talk to Gymer to mount him and go!|
-K Algar the Chosen |QID|12919|QO|Algar the Chosen slain: 1/1|M|29.2,46|N|He flies in circles underneath Volatrus, above the circular platform on the ground.|
-K Prince Navarius  |QID|12919|QO|Prince Navarius slain: 1/1|M|29.8,65.4;32.4,63.6|CN|N|At one of these two spots.|
-K Thrym |QID|12919|QO|Thrym slain: 1/1|N|He will spawn after killing the Prince. Snack on clouds and wait.|
-C The Storm King's Vengeance |QID|12919|N|Finish killing scourge.|
+C The Storm King's Vengeance |QID|12919|QO|1|N|Finish killing scourge.|S
+K Algar the Chosen |QID|12919|QO|2|M|29.2,46|N|He flies in circles underneath Volatrus, above the circular platform on the ground.|
+K Prince Navarius  |QID|12919|QO|4|M|29.8,65.4;32.4,63.6|CN|N|At one of these two spots.|
+K Thrym |QID|12919|QO|3|N|He will spawn after killing the Prince. Snack on clouds and wait.|
+C The Storm King's Vengeance |QID|12919|QO|1|N|Finish killing scourge.|US
 T The Storm King's Vengeance |QID|12919|N|Back to Crusader Forward Camp.|M|25.43,63.97|
 
 N Overlord Drakuru 1|QID|12661|N|Hotkey the disguise so you can reequip it when it fails. Close this step.|M|23.81,45.01|
@@ -222,7 +229,7 @@ T Infiltrating Voltarus |QID|12661|N|Port back down, blow the horn.|U|41390|
 
 A So Far, So Bad |QID|12669|N|From Stefan Vadu.|
 A It Rolls Downhill |QID|12673|N|From Overlord Drakuru.|M|27.12,46.10|
-C It Rolls Downhill |QID|12673|N|Port back down, target a geist, use the scepter to charm it and send it for a crystal (the button is on the pet bar, get close they're not too bright). You MUST wait until the geist ports up to get credit, so don't get in a rush to charm another one.|U|39157|M|27.2,45.1|
+C It Rolls Downhill |QID|12673|N|Port back down, target a geist, use the scepter to charm it and send it for a crystal (the button is on the pet bar, get close they're not too bright). You MUST wait until the geist ports up to get credit, so don't get in a rush to charm another one.|U|39157|M|27.2,45.1|T|Blight Geist|
 T It Rolls Downhill |QID|12673|N|Back to Overlord Drakuru.|M|27.12,46.10|
 C So Far, So Bad |QID|12669|N|Port back down, use the Diluting Additive near the cauldrons. Blightguards will spawn mobs, run away to try to avoid aggro. The Cauldrons are at the waypoints.|U|39154|M|31.29,43.2;31.16,44.31;31.04,45.16;29.6,47.43;26.80,46.92|CS|
 T So Far, So Bad |QID|12669|N|Blow the horn...again.|U|41390|
@@ -236,7 +243,7 @@ T Hazardous Materials |QID|12677|N|Port back down, blow the horn. Are you tired 
 A Sabotage |QID|12676|N|From Stefan Vadu.|
 A Fuel for the Fire |QID|12690|N|From Overlord Drakuru.|M|27.12,46.10|
 C Fuel for the Fire |QID|12690|N|Go to the Frigid Breach. Time for some fun! Use the scepter to charm an abomination. Send him out to gather up trolls. Just before he dies, blow him up! Repeat until you've killed 60. Don't worry about the chieftans, they get carried off before they attack.|U|39238|M|32.74,38.72|
-N Destroy Scourgewagons |N|They are all over the Reliquary of Pain. Use the explosive and run.|QID|12676|QO|Scourgewagons destroyed: 5/5|U|39165|
+N Destroy Scourgewagons |N|They are all over the Reliquary of Pain. Use the explosive and run.|QID|12676|QO|1|U|39165|
 T Fuel for the Fire |QID|12690|N|Back to Overlord Drakuru.|M|27.12,46.10|
 
 A Disclosure |QID|12710|M|27.1,46.2|N|From Overlord Drakuru.|
@@ -254,7 +261,7 @@ T Taking a Stand |QID|12795|N|Head to the Argent Stand. Turn this quest into Com
 A Defend the Stand |QID|12503|M|39.4,67.0|N|From Commander Falstaav.|
 A Parachutes for the Argent Crusade |QID|12740|M|39.4,67.0|N|From Commander Falstaav.|
 C Defend the Stand |QID|12503|N|Kill Scourge.|M|38.4,67.1|S|
-C Parachutes for the Argent Crusade |QID|12740|N|Throw parachutes to the Argent fighters out in the battlefield. Has a heck of a range on it.|U|39615|M|38.4,67.1|
+C Parachutes for the Argent Crusade |QID|12740|N|Throw parachutes to the Argent fighters out in the battlefield. Has a heck of a range on it. Some of the crusaders might already have the buff.|U|39615|M|38.4,67.1|
 C Defend the Stand |QID|12503|N|Kill anymore you need.|M|38.4,67.1|US|
 T Defend the Stand |QID|12503|N|Back to the Argent Stand, to Commander Falstaav.|M|39.44,66.90|
 T Parachutes for the Argent Crusade |QID|12740|M|39.4,67.0|N|To Commander Falstaav.|
@@ -268,13 +275,14 @@ T New Orders for Sergeant Stackhammer |QID|12505|N|Straight North from the Argen
 A Argent Crusade, We Are Leaving! |QID|12504|M|40.4,48.2|N|From Sergeant Stackhammer.|
 
 A Mopping Up |QID|12508|M|40.4,48.2|N|From Corporal Maga.|
+A Strange Mojo |QID|12507|N|(UI Alert) It's a drop. Keep killing trolls until you get it.|M|40.4,47.0|O|
 C Argent Crusade, We Are Leaving! |QID|12504|M|40.4,47.0|S|N|Talk to Argent Soldiers and tell them to pack it. They can be killed by the trolls.|
 C Mopping Up |QID|12508|M|40.4,47.0|S|N|Kill 10 Followers of Sseratus.|
 C Trouble at the Altar of Sseratus |QID|12506|N|Avoid the Prophet in front and go into the temple. Kill Trolls and give Argents their orders on the way.|M|40.0,39.0|
 C Argent Crusade, We Are Leaving! |QID|12504|M|40.4,47.0|US|N|Finish telling Argent Soldiers to pull back.|
 C Mopping Up |QID|12508|M|40.4,47.0|US|N|Finish killing trolls.|
 
-A Strange Mojo |QID|12507|N|It's a drop. Keep killing trolls until you get it.|U|38321|M|40.4,47.0|
+l Strange Mojo |QID|12507|N|It's a drop. Keep killing trolls until you get it.|M|40.4,47.0|L|38321
 T Argent Crusade, We Are Leaving! |QID|12504|N|Back to Sergeant Stackhammer.|M|40.41,48.27|
 T Mopping Up |QID|12508|M|40.4,48.2|N|From Corporal Maga.|
 A Lab Work |QID|12557|N|Inside the building at Heb'Valok.|M|35.08,52.09|
@@ -296,28 +304,28 @@ T Strange Mojo |QID|12507|M|40.5,65.6|N|To Hexxer Ubungo.|
 A Precious Elemental Fluids |QID|12510|M|40.5,65.6|N|From Hexxer Ubungo.|
 A The Drakkari Do Not Need Water Elementals! |QID|12562|N|From Sub-Lieutenant Jax at the Southern part of the Argent Stand next to the Leatherworking supplier.|M|40.18,68.91|
 
-A Something for the Pain |QID|12597|N|Take the road southeast.|M|48.76,78.85|
+A Something for the Pain |QID|12597|N|Take the road southeast. From Captain Brandon.|M|48.76,78.85|
 C Something for the Pain |QID|12597|N|Gather 5 Mature Water-Poppies.|M|44.9,79.5|S|
 C The Drakkari Do Not Need Water Elementals! |QID|12562|N|Kill 10 Drakkari Water Binders.|S|
 K Crazed Water Elementals |QID|12510|N|Head West to the Drak'Sotra Fields. Kill the Elementals, you need 3 links to make a tether (You'll need 9 links total). Kill Trolls and gather plants also.|L|38323 3|M|44.74,78.99|
 N Make a tether now!! |QID|12510|N|Make a tether. You can't loot more than 3 at a time.|U|38323|L|38324|
-K Watery Lord |QID|12510|N|Use the tether to summon.|U|38324|L|38325 1|
+K Watery Lord |QID|12510|N|Use the tether to summon. Click this off after looting the Precious Elemental Fluid|U|38324|
 K Kill more Elementals |QID|12510|N|Keep killing the Elementals.|L|38323 3|
 N Make another tether now!! |QID|12510|U|38323|L|38324|
-K Summon again |QID|12510|U|38324|L|38325 2|
+K Summon again |QID|12510|U|38324|N|Click this off after looting the Precious Elemental Fluid
 K Go for the last 3 Links |QID|12510|L|38323 3|
 U Make the last tether.|QID|12510|U|38323|L|38324|
 C Precious Elemental Fluids |QID|12510|N|Last time...finally.|U|38324|M|40.2,73.6|
 C The Drakkari Do Not Need Water Elementals! |QID|12562|N|Kill any trolls you still need.|US|
 C Something for the Pain |QID|12597|N|Gather any plants you still need.|M|44.9,79.5|US|
-T Something for the Pain |QID|12597|N|Back to Drak'Sotra. |M|48.76,78.85|
+T Something for the Pain |QID|12597|N|Back to Captain Brandon at Drak'Sotra. |M|48.76,78.85|
 
 A Throwing Down |QID|12598|N|Following the aquaduct to the South will take you to the crusader camp. |M|58.04,72.48|
-A Leave No One Behind |QID|12512|N|He's in the back, right corner.|M|58.7,72.5|
+A Leave No One Behind |QID|12512|N|To Dr.Rogers in the back, right corner.|M|58.7,72.5|
 C Throwing Down |QID|12598|N|Throw the High Impact Grenades in the craters (they actually look like pyramids), then run. Crispy Spider Treats, not just for Hallows End anymore.|U|38574|M|53.4,68.7|
-N Crusader Jonathan |N|In the tower at the waypoint. Bandage him and lead him back to the camp. You've got 3 minutes, but remember he's injured, avoid all combat and don't lose him on the run back.|QID|12512|QO|Saved Crusader Jonathan: 1/1|U|38330|M|50.7,69.9|
-N Crusader Josephine |N|In the tower at waypoint. Same plan as before.|QID|12512|QO|Saved Crusader Josephine: 1/1|U|38330|M|49.4,74.7|
-C Leave No One Behind |QID|12512|N|Crusader Lamoof is in the tower at waypoint. Lead him home, or at least to the doctor.|U|38330|M|53.6,75.0|
+N Crusader Jonathan |N|In the tower at the waypoint. Bandage him and lead him back to the camp. You've got 3 minutes, but remember he's injured, avoid all combat and don't lose him on the run back.|QID|12512|QO|1|U|38330|M|50.7,69.9|
+N Crusader Josephine |N|In the tower at waypoint. Same plan as before.|QID|12512|QO|3|U|38330|M|49.4,74.7|
+C Leave No One Behind |QID|12512|QO|2|N|Crusader Lamoof is in the tower at waypoint. Lead him home, or at least to the doctor.|U|38330|M|53.6,75.0|
 T Leave No One Behind |QID|12512|M|58.7,72.5|N|To Dr. Rogers.|
 T Throwing Down |QID|12598|M|58.1,72.4|N|To Captain Rupert.|
 
@@ -339,7 +347,7 @@ C Crashed Sprayer |QID|12583|N|Over near Crusader Josephine's tower .|M|48.80,75
 T Crashed Sprayer |QID|12583|M|58.28,72.05|N|Run back to the camp and turn in to Specialist Cogwheel.|
 
 A A Tangled Skein |QID|12555|M|58.3,72.0|N|From Specialist Cogwheel.|
-C A Tangled Skein |QID|12555|N|Oh! What a tangled skein we weave. Use the it on the plague sprayers.|U|38515|M|58.3,74.3|
+C A Tangled Skein |QID|12555|N|Oh! What a tangled skein we weave. Use the it on the plague sprayers.|U|38515|M|58.3,74.3|T|Plague Sprayer
 C Pure Evil |QID|12584|N|Inside Kolramas. Little, glowing chunks of ore that are hard to see. Look in all the nooks and crannies.|M|60.15,79.31|
 C Malas the Corrupter |QID|12554|N|Malas is at the top of the Kolramas necropolis.|M|60.80,80.32|
 T A Tangled Skein |QID|12555|N|Back to the camp. To Specialist Cogwheel.|M|58.04,72.48|
@@ -349,6 +357,7 @@ T Pure Evil |QID|12584|M|40.8,66.6|N|To Eitrigg.|
 T Precious Elemental Fluids |QID|12510|M|40.5,65.6|N|To Hexxer Ubungo.|
 A Mushroom Mixer |QID|12514|M|40.5,65.6|N|From Hexxer Ubungo.|
 A Gluttonous Lurkers |QID|12527|N|From Apprentive Pestlepot.|M|41.3,65.1|
+f The Argent Stand|QID|12599|N|From Gurrik.|M|41.55,64.42|
 
 A Creature Comforts |QID|12599|N|Go West to Drak'Agal. From Captain Grondel, he's in a building south of the Amphitheater of Anguish.|M|48.13,63.83|
 C Mushroom Mixer |QID|12514|N|All over the area, you need 10. Herbalists can use their tracking to make it easier.|M|41.4,57.4|S|
@@ -374,10 +383,10 @@ T The Blessing of Zim'Torga |QID|12615|N|Big statue in the middle.|M|59.4,57.2|
 
 A The Leaders at Jin'Alai |QID|12622|M|59.2,56.2|N|From Scalper Ahunae.|
 C The Leaders at Jin'Alai |QID|12622|N|Kill Trolls, you must kill trolls to get the bosses to spawn (Also check to see if one is up). Pay attention to you chat log, when the "bosses" yell, find him by his Totem. The items can be looted by everyone, so don't worry if someone else tags the mob first. Just don't forget to loot, they spawn in order, so it could be awhile if you miss one.|S|
-C Breaking Through Jin'Alai |QID|12627|N|Just South, Click on the Purple cauldron.|M|57.62,61.72|QO|Purple Cauldron disturbed: 1/1|
-C Breaking Through Jin'Alai |QID|12627|N|Click on the Red cauldron.|M|58.78,62.71|QO|Red Cauldron disturbed: 1/1|
-C Breaking Through Jin'Alai |QID|12627|N|Click on the Blue cauldron.|M|57.20,65.34|QO|Blue Cauldron disturbed: 1/1|
-C Breaking Through Jin'Alai |QID|12627|N|Click on the Green cauldron.|M|55.70,64.31|
+C Breaking Through Jin'Alai |QID|12627|N|Just South, Click on the Purple cauldron.|M|57.62,61.72|QO|3|
+C Breaking Through Jin'Alai |QID|12627|N|Click on the Red cauldron.|M|58.78,62.71|QO|4|
+C Breaking Through Jin'Alai |QID|12627|N|Click on the Blue cauldron.|M|57.20,65.34|QO|1|
+C Breaking Through Jin'Alai |QID|12627|N|Click on the Green cauldron.|M|55.70,64.31|QO|2|
 
 C The Leaders at Jin'Alai |QID|12622|N|Kill Trolls, you must kill trolls to get the bosses to spawn (Also check to see if one is up). Pay attention to you chat log, when the "bosses" yell, find him by his Totem. The items can be looted by everyone, so don't worry if someone else tags the mob first. Just don't forget to loot, they spawn in order, so it could be awhile if you miss one.|US|
 T Breaking Through Jin'Alai |QID|12627|N|To Witch Doctor Khufu.|M|59.51,57.99|
@@ -385,6 +394,7 @@ A To Speak With Har'koa |QID|12628|M|59.5,58.1|N|From Witch Doctor Khufu.|
 A Relics of the Snow Leopard Goddess |QID|12635|M|60.0,57.9|N|From Chronicler To'kini.|
 ; The quest "Just Checkin'" on the following line is missing the ' after "Checkin" (it should read " Just Checkin'' ")so it does not auto-accept, since it is optional.|
 A Just Checkin' |QID|29836|M|60.0,57.9|N|From Chronicler To'kini. This quest takes you into Gundrak, you can do this if you wish. There is another quest that leads you into Gundrak later in the guide.|
+f Zim'Torga|QID|12622|M|60.02,56.74|N|Get the flightpoint from Maaka.
 T The Leaders at Jin'Alai |QID|12622|M|59.2,56.2|N|To Scalper Ahunae.|
 T To Speak With Har'koa |QID|12628|N|Head to the Altar of Har'koa to the SE. To Har'koa.|M|63.73,70.44|
 A But First My Offspring |QID|12632|M|63.8,70.5|N|From Har'koa.|
@@ -441,9 +451,9 @@ C Foundation for Revenge |QID|12668|N|The Soul Fonts look like big dragon heads.
 T Foundation for Revenge |QID|12668|M|75.4,58.6|N|To Quetz'lun's Spirit.|
 
 A Hell Hath a Fury |QID|12674|M|75.4,58.6|N|From Quetz'lun's Spirit.|
-C Hell Hath a Fury |QID|12674|QO|High Priest Mu'funu hexed at death: 1/1|U|39158|N|Use the hex stick on the priests, then give them a beat down. Mu'funu is down the stairs to the right|M|74.55,57.37|CS|
-C Hell Hath a Fury |QID|12674|QO|High Priestess Tua-Tua hexed at death: 1/1|U|39158|N|Tua-Tua is to the South.|M|73.94,60.16|
-C Hell Hath a Fury |QID|12674|U|39158|N|Hawinni patrols the North side of the same tier. He's a big, hulking SOB.|M|75,54;78,54|CN|
+C Hell Hath a Fury |QID|12674|QO|1|U|39158|N|Use the hex stick on the priests, then give them a beat down. Mu'funu is down the stairs to the right|M|74.55,57.37|CS|
+C Hell Hath a Fury |QID|12674|QO|2|U|39158|N|Tua-Tua is to the South.|M|73.94,60.16|
+C Hell Hath a Fury |QID|12674|QO|3|U|39158|N|Hawinni patrols the North side of the same tier. He's a big, hulking SOB.|M|75,54;78,54|CN|
 T Hell Hath a Fury |QID|12674|M|75.4,58.6|N|To Quetz'lun's Spirit.|
 A One Last Thing |QID|12675|M|75.4,58.6|N|From Quetz'lun's Spirit.|
 T One Last Thing |QID|12675|M|63.73,70.44|N|To Har'koa.|
@@ -493,15 +503,15 @@ F Zim'Torga|QID|12721|N|Fly to Zim'Torga,|M|70.46,23.29|
 T Rampage |QID|12721|N|To Witch Doctor Khufu.|M|59.51,57.99|
 
 A The Gods Have Spoken |QID|12729|N|From Witch Doctor Khufu.|
-l Unblemished Heart of the Guardian |QID|12729|N|Get the buff from Zim'Torga. Kill the Guardians around Zim'Rhuk for the Heart.|L|39540|M|59.46,44.46|
-C The Gods Have Spoken |QID|12729|N|The Wardens are around The Altar of Quetz'lun. Kill them for the Essence.|M|75.38,58.65|
+l Unblemished Heart of the Guardian |QID|12729|N|Get the buff from Zim'Torga. Kill the Guardians around Zim'Rhuk for the Heart.|QO|1|M|59.46,44.46|
+C The Gods Have Spoken |QID|12729|N|The Wardens are around The Altar of Quetz'lun. Kill them for the Essence.|M|75.38,58.65|QO|2|
 T The Gods Have Spoken |QID|12729|N|Back to Har'koa. Remember she's at Zim'Torga now.|M|60.13,57.72|
 
 A Convocation at Zol'Heb |QID|12730|N|From Har'koa.|
 C Convocation at Zol'Heb |QID|12730|N|Use the item in the circle to summon the Prophet. After you get him to about 75% health, Har'koa will show up to help. The Prophet has an evil AoE, but Har'koa can remove it so stay close to her. If you die just run back and try to pick a good time to rez. He may kill Har'koa, so be prepared to finish him off, if necessary.|U|39566|M|77.55,36.67|
 T Convocation at Zol'Heb |QID|12730|N|Back to Har'koa.|M|60.13,57.72|
 ; The quest "Unfinished Business" on the following line has wrong caps on 'Business' so it does not auto-accept since it is optional.|
-A Unfinished Business |QID|29833|N|From Har'koa.|
+A Unfinished Business |QID|29833|N|From Har'koa. This quest is optional as it leads into Gundrak|
 
 N Amphitheater of Anguish |QID|12948|N|If you haven't gotten the achievement yet (and you know you want it), get a group up for the Amphitheater of Anguish. |
 

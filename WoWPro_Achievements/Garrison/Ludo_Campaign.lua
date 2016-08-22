@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-21 20:10
+-- Who: tubera
+-- Log: Tweak The Sargerei
+
+-- URL: http://wow-pro.com/node/3648/revisions/27555/view
 -- Date: 2016-08-15 22:25
 -- Who: Ludovicus
 -- Log: Correct [Garrison Campaign: The Fall of Shattrath] for the alliance.
@@ -126,7 +131,7 @@ C Sargerei Slippers|QID|35187|M|49.65,73.40;45.33,74.53;49.74,76.49|Z|Shadowmoon
 C Sargerei Robe|QID|35187|M|51.00,75.50;49.40,73.10;48.05,80.25|Z|Shadowmoon Valley@Draenor|CN|QO|2|N|Kill Sargerei Demonlords and others for a robe|US|
 C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.60,72.85;45.85,80.75;51.20,76.70|Z|Shadowmoon Valley@Draenor|CN|QO|3|N|Kill Sargerei Workers for a cowl|US|
 l Sargerei Disguise|QID|35187|L|112904|U|112893|N|Click on the slippers to make the Disguise.
-U Put on the Disguise|QID|35187|U|112904|QO|5|N|If you lose the disguise, you will need to get all 3 peices and make a new one.|
+U Put on the Disguise|QID|35187|U|112904|QO|5|N|If you lose the disguise, you will need to get all 3 pieces and make a new one.|
 C Infiltrating the Sargerei|QID|35187|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|QO|5|N|Speak to Soulbinder Zamaya|
 C Infiltrating the Sargerei|QID|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|CHAT|QO|6|N|Tell him 'the rain falls on Shadowmoon.'|
 T Infiltrating the Sargerei|QID|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To Anchorite Laanda|
@@ -137,14 +142,13 @@ A An Ancient Threat|QID|35190|PRE|35185|M|49.80,81.50|Z|Shadowmoon Valley@Draeno
 A Pesky Podlings|QID|35188|PRE|35185|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|From Soulbinder Zamaya|; Neutral
 ; A mess of completions
 C Shattering the Enemy|QID|35191|M|50.4,75.6|Z|Shadowmoon Valley@Draenor|N|Felstorm Crystal|S|
+C The Word of Socrethar|QID|35189|M|50.6,79.6|Z|Shadowmoon Valley@Draenor|QO|3|N|The Promise of Eternity|
 C The Word of Socrethar|QID|35189|M|51.4,75.6|Z|Shadowmoon Valley@Draenor|QO|1|N|The Eredar Destiny|
 C The Word of Socrethar|QID|35189|M|50.0,72.4|Z|Shadowmoon Valley@Draenor|QO|2|N|The Purpose of Unity|
-C The Word of Socrethar|QID|35189|M|50.6,79.6|Z|Shadowmoon Valley@Draenor|QO|3|N|The Promise of Eternity|
 C Shattering the Enemy|QID|35191|M|50.4,75.6|Z|Shadowmoon Valley@Draenor|N|Felstorm Crystal|US
-C Pesky Podlings|QID|35188|M|44.8,72.0|Z|Shadowmoon Valley@Draenor|N|Shadowglen Thornshooter|
-C Pesky Podlings|QID|35188|M|45.0,73.4|Z|Shadowmoon Valley@Draenor|N|Shadowglen Spitter|
-C Pesky Podlings|QID|35188|M|44.8,77.2|Z|Shadowmoon Valley@Draenor|N|Brambleking Fili|
-C An Ancient Threat|QID|35190|M|45.54,73.81|Z|Shadowmoon Valley@Draenor|N|Eldermoss|
+C An Ancient Threat|QID|35190|M|45.54,73.81|Z|Shadowmoon Valley@Draenor|N|Eldermoss|S|
+C Pesky Podlings|QID|35188|M|44.8,72.0|Z|Shadowmoon Valley@Draenor|N|Kill Podlings for their Wooden Spears|
+C An Ancient Threat|QID|35190|M|45.54,73.81|Z|Shadowmoon Valley@Draenor|N|Eldermoss|US|
 ; Turn everythign in
 T Shattering the Enemy|QID|35191|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To Anchorite Laanda|
 T The Word of Socrethar|QID|35189|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To Anchorite Laanda|

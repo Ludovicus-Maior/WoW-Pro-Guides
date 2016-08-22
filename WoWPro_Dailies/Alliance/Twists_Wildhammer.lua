@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_wildhammer_dalies_twilight_highlands
+-- Date: 2016-08-20 01:00
+-- Who: Emmaleah
+-- Log: changed link in header to match the page it should.
+
+-- URL: http://wow-pro.com/node/3415/revisions/26887/view
 -- Date: 2014-11-08 00:32
 -- Who: Ludovicus
 -- Log: Missing M
