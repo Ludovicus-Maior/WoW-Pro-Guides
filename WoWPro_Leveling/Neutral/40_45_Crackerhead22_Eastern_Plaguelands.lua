@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2016-08-19 16:47
+-- Who: tubera
+-- Log: Fix mostly QOs; Add Missing T; Removed suggestions to go to Capital cities. There's no more training.
+
+-- URL: http://wow-pro.com/node/3251/revisions/26619/view
 -- Date: 2014-07-25 22:04
 -- Who: Ludovicus
 -- Log: adj mean
@@ -196,7 +201,7 @@ A What I Do Best|QID|27371|M|18.40,75.08|N|From Tarenar Sunstrike.|
 C What I Do Best|QID|27371|M|18.35,77.66|N|Kill 5 Death's Step Miscreations. Tarenar Sunstrike will assist you in this quest.|
 T What I Do Best|QID|27371|M|18.35,77.66|N|(UI Alert)|
 A A Gift For Fiona|QID|27372|M|18.35,77.66|N|(UI Alert)|
-C Plaguehounds|QID|27372|M|18.07,71.42|L|60986 10|N|Kill Plaguehounds until you get 10 blood.|
+C Plaguehounds|QID|27372|M|18.07,71.42|N|Kill Plaguehounds until you get 10 blood.|
 T A Gift For Fiona|QID|27372|M|9.02,66.40|N|To Fiona.|
 A Onward, to Light's Hope Chapel|QID|27373|M|9.02,66.40|N|From Fiona.|
 
@@ -247,29 +252,29 @@ A Heroes of Darrowshire|QID|27388|M|35.18,68.02|N|From Chromie.|US|
 A Marauders of Darrowshire|QID|27389|M|35.18,68.02|N|From Chromie.|US|RANK|2|
 
 A Cenarion Tenacity|QID|27544|M|34.93,68.32|N|From Urk Gagbaz.|RANK|2|
-C Heroes of Darrowshire - extended Annals of Darrowshire|QID|27388|L|13202|M|35.57,68.89|N|Speak to Carl Redpath and ask for the extended Annals of Darrowshire.|QO|Extended Annals of Darrowshire: 1/1|CHAT|RANK|2|
+C Heroes of Darrowshire - extended Annals of Darrowshire|QID|27388|L|13202|M|35.57,68.89|N|Speak to Carl Redpath and ask for the extended Annals of Darrowshire.|QO|1|CHAT|RANK|2|
 
 C Rough Roads|QID|27382|M|41.30,71.09|N|Kill any Plaguebats you need.|S|
-C Villains of Darrowshire - Shattered Sword of Marduk|QID|27387|M|39.77,72.36|N|Pick up the "Shattered Sword of Marduk" fron the floor.|QO|Shattered Sword of Marduk: 1/1|NC|RANK|2|
+C Villains of Darrowshire - Shattered Sword of Marduk|QID|27387|M|39.77,72.36|N|Pick up the "Shattered Sword of Marduk" fron the floor.|QO|2|NC|RANK|2|
 C Rough Roads|QID|27382|M|41.30,71.09|N|Finish killing any Plaguebats you need.|US|
 T Rough Roads|QID|27382|M|35.91,69.06|N|To Argus Highbeacon. \n\nOnce you complete this quest, the wagon will give a new Zone Buff, "Argus' Journal", which gives 2% more experience whilst in the zone.|
 
-C Heroes of Darrowshire - Redpath's Shield|QID|27388|M|22.29,68.40|N|Pick up "Redpath's Shield" from the ground floor of the house in The Marris Stead.|QO|Redpath's Shield: 1/1|NC|RANK|2|
-C Heroes of Darrowshire - Davil's Libram|QID|27388|M|22.29,68.40|N|Pick up "Davil's Libram" upstairs from the shield. Should be in the fireplace.|QO|Davil's Libram: 1/1|NC|RANK|2|
+C Heroes of Darrowshire - Redpath's Shield|QID|27388|M|22.29,68.40|N|Pick up "Redpath's Shield" from the ground floor of the house in The Marris Stead.|QO|3|NC|RANK|2|
+C Heroes of Darrowshire - Davil's Libram|QID|27388|M|22.29,68.40|N|Pick up "Davil's Libram" upstairs from the shield. Should be in the fireplace.|QO|2|NC|RANK|2|
 
 T Cenarion Tenacity|QID|27544|M|30.22,56.99|N|At Rayne, she is in stealth as a cat.|RANK|2|
 A Postponing the Inevitable|QID|27420|M|30.22,56.99|N|From Rayne.|RANK|2|
 A Amidst Death, Life|QID|27421|M|30.22,56.99|N|From Rayne.|RANK|2|
 
-C Marauders of Darrowshire|QID|27389|S|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|RANK|2|
+C Marauders of Darrowshire|QID|27389|S|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|RANK|2|
 C Postponing the Inevitable|QID|27420|S|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
 C Amidst Death, Life|QID|27421|U|61036|M|34.26,44.66;37.50,43.06;37.54,48.30|CS|N|Head into the middle of the Necropolis and use Rayne's Seeds.|RANK|2|NC|
 C Postponing the Inevitable|QID|27420|US|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
-C Marauders of Darrowshire|QID|27389|US|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|RANK|2|
+C Marauders of Darrowshire|QID|27389|US|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|RANK|2|
 
 T Postponing the Inevitable|QID|27420|M|30.17,56.93|N|To Rayne.|RANK|2|
 T Amidst Death, Life|QID|27421|M|30.17,56.93|N|To Rayne.|RANK|2|
-C Villains of Darrowshire - Skull of Horgus|QID|27387|M|37.32,60.24|N|Pick of the "Skull of Horgus".|QO|Skull of Horgus: 1/1|NC|RANK|2|
+C Villains of Darrowshire - Skull of Horgus|QID|27387|M|37.32,60.24|N|Pick of the "Skull of Horgus".|QO|1|NC|RANK|2|
 
 T Villains of Darrowshire|QID|27387|M|35.15,68.05|N|To Chromie.|RANK|2|
 T Heroes of Darrowshire|QID|27388|M|35.15,68.05|N|To Chromie.|RANK|2|
@@ -302,8 +307,9 @@ l Living Rot|QID|27451|N|Gather 7 pieces of "Living Rot" from the undead.|L|1544
 C Dark Garb|QID|27452|N|Kill the cultists to get the two pieces needed, while killing the undead.|M|55,64|
 l Living Rot|QID|27451|N|Gather 7 pieces of "Living Rot" from the undead.|L|15447 7|M|55,64|US|
 C To Kill With Purpose|QID|27451|M|55,64|N|Use the "Mortar and Pestle" once you have 7 "Living Rot".|U|15454|
-T Dark Garb|QID|27452|M|54.28,63.03|N|(UI Alert)|
-A Catalysm|QID|27453|M|54.28,63.03|N|(UI Alert)|
+t Dark Garb|QID|27452|M|54.28,63.03|N|(UI Alert)|
+T To Kill With Purpose|QID|27451|M|55,64|N|(UI Alert)|
+A Catalysm|QID|27453|PRE|27451|M|54.28,63.03|N|(UI Alert)|
 C Catalysm|QID|27453|U|61284|M|58.44,75.55|N|Use the flask on Plague Ravager and Blighted Surge in Lake Meledar. They have to be alive, and you need to be right next to them when you use the flask. This may need some creative thinking ranged classes.|
 T Catalysm|QID|27453|M|58.48,74.34|N|(UI Alert)|
 A Just a Drop in the Bucket|QID|27454|M|58.48,74.34|N|(UI Alert)|
@@ -327,10 +333,10 @@ T Argent Call: The Trial of the Crypt|QID|27464|M|75.80,52.05|N|To Lord Maxwell 
 A Argent Call: The Noxious Glade|QID|27465|M|75.80,52.05|N|From Lord Maxwell Tyrosus.|
 A Buried Blades|QID|27467|M|75.73,52.19|N|From Master Craftsman Omarion.|
 
-N Optional dungeon quests|QID|27467|M|76.09,51.00|N|There are two dungeon quests from Lord Raymond George, in the cemetary behind the chapel. One for Scholomance, and one for Stratholme.|
-h Light's Hope Chapel|QID|27467|M|75.61,52.30|N|At Jessica Chambers.|
-N Train if you wish...|QID|27456|N|If you want, go to a major city to visit your trainers, or the AH.|
-C Gathering Some Grub(s)|QID|27456|L|13853 15|M|71.46,65.31|N|Kill the worms until you get 15 "Slab of Carrion Worm Meat".
+N Optional dungeon quests|QID|27459|M|76.09,51.00|N|There are two dungeon quests from Lord Raymond George, in the cemetary behind the chapel. One for Scholomance, and one for Stratholme.
+h Light's Hope Chapel|QID|27459|M|75.61,52.30|N|At Jessica Chambers.|
+;N Train if you wish...|QID|27456|N|If you want, go to a major city to visit your trainers, or the AH.|
+C Gathering Some Grub(s)|QID|27456|M|71.46,65.31|N|Kill the worms until you get 15 "Slab of Carrion Worm Meat".
 T The Brotherhood of Light|QID|27459|M|72.53,74.86|N|To Archmage Angela Dosantos.|
 A Soft Landing|QID|27460|M|72.61,74.87|N|From Archmage Angela Dosantos.|
 C Soft Landing|QID|27460|M|77.55,79.26|N|Kill the 10 Scarlet Crusaders, then use the Flare at the waypoint.|
@@ -343,11 +349,11 @@ A The Wrathcaster|QID|27615|M|75.48,76.17|N|From Crusade Commander Korfax.|
 A The Huntsman|QID|27616|M|75.48,76.17|N|From Crusade Commander Korfax.|
 A The Commander|QID|27619|M|75.48,76.17|N|From Scarlet Cleric.|
 
-l Scarlet Salvage|QID|27614|L|61962 1|M|75.87,77.50|N|Pick up "Gavinrad's Sigil".|
-l Scarlet Salvage|QID|27614|L|61961 1|M|75.13,79.04|N|Pick up "Shroud of Uther".|
-l Scarlet Salvage|QID|27614|L|61960 1|M|74.24,78.31|N|Pick up "Lihanna's Strand".|
-C Scarlet Salvage|QID|27614|L|61959 1|M|74.78,76.68|N|Pick up the "Crimson Boar".|
+l Scarlet Salvage|QID|27614|QO|4|M|75.87,77.50|N|Pick up "Gavinrad's Sigil".|
+l Scarlet Salvage|QID|27614|QO|3|M|75.13,79.04|N|Pick up "Shroud of Uther".|
 C The Wrathcaster|QID|27615|M|74.64,78.62|N|Go downstairs.|
+l Scarlet Salvage|QID|27614|QO|2|M|74.24,78.31|N|Pick up "Lihanna's Strand".|
+C Scarlet Salvage|QID|27614|QO|1|M|74.78,76.68|N|Pick up the "Crimson Boar".|
 C The Commander|QID|27619|M|75.02,77.76|N|Go up two floors, in the middle area.|
 C The Huntsman|QID|27616|M|74.47,77.88|N|Go to the roof.|
 
@@ -371,24 +377,26 @@ C Like Rats|QID|27620|M|81.45,78.75|N|Work your way inside the cathedral and kil
 
 H Light's Hope Chapel|QID|27620|N|Hearth to Light's Hope Chapel, or run if your hearth is not up.|
 T Like Rats|QID|27620|M|75.66,52.18|N|To Leonid Barthalomew the Revered.|
+r Sell junk, repair/restock. At Craftsman Wilhelm.|QID|27456|M|75.16,53.69|
 T Gathering Some Grub(s)|QID|27456|M|73.86,51.96|N|To Rimblat Earthshatter.|
-r Sell junk, repair/restock.|QID|27458|M|75.16,53.69|
-C Smokey and the Bandage|QID|27458|L|62028 1|M|71.58,46.38|N|Kill Stephen Browman to get "Browman's Wrappings".|
 C Buried Blades|QID|27467|S|M|76.20,39.41|N|Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|
-C Argent Call: The Noxious Glade|QID|27465|M|77.35,39.07|N|Watch out for Garginox, a level 45 elite.|
+C Argent Call: The Noxious Glade|QID|27465|M|77.35,39.07|N|Watch out for Garginox, a level 45 elite.|S|
+C Smokey and the Bandage|QID|27458|L|62028 1|M|71.58,46.38|N|Kill Stephen Browman to get "Browman's Wrappings".|
+C Argent Call: The Noxious Glade|QID|27465|M|77.35,39.07|N|Watch out for Garginox, a level 45 elite.|US|
+C Buried Blades|QID|27467|US|M|76.20,39.41|N|Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|
 T Smokey and the Bandage|QID|27458|M|74.94,53.36|N|To Smokey LaRue.|
 T Buried Blades|QID|27467|US|M|75.67,52.21|N|To Master Craftsman Omarion.|
 T Argent Call: The Noxious Glade|QID|27465|M|75.80,52.07|N|To Lord Maxwell Tyrosus.|
 A An Opportune Alliance|QID|27457|M|73.85,52.01|N|From Rimblat Earthshatter.|
 R Eastwall Tower|QID|27457|M|62,42|N|Run to Eastwall Tower.|
-A Argent Call: Northdale|QID|27466|M|61.56,43.23|N|From Tarenar Sunstrike.|
 f Eastwall Tower|QID|27457|M|61.62,43.81|N|At Richard Trueflight.|
+A Argent Call: Northdale|QID|27466|M|61.56,43.23|N|From Tarenar Sunstrike.|
 T An Opportune Alliance|QID|27457|M|61.42,42.83|N|To Fiona.|
 T Argent Call: Northdale|QID|27466|M|61.42,42.78|N|To Fiona.|
 
 N Optional Buff|QID|27479|N|New buff at caravan. "Rimbalt's Stone", chance to cast a small self-heal when killing creatures within Eastern Plaguelands.|
-A Righteous Indignation|QID|27479|M|61.29,42.94|N|From Deacon Andaal.|
-A Out of the Ziggurat|QID|27481|M|61.29,42.84|N|From Vex'tul.|
+A Righteous Indignation|QID|27479|M|61.29,42.94|N|From Deacon Andaal who wanders a bit.|
+A Out of the Ziggurat|QID|27481|M|61.29,42.84|N|From Vex'tul who also wanders.|
 A The Corpulent One|QID|27477|M|61.50,43.22|N|From Gamella Cracklefizz.|
 A Ix'lar the Underlord|QID|27487|M|61.53,43.29|N|From Tarenar Sunstrike.|
 C Ix'lar the Underlord|QID|27487|M|60.88,34.20|N|Ix'lar wanders around, so look for the boss icon on the minimap to see where he is.|
@@ -408,7 +416,7 @@ A Impatience|QID|27488|M|61.50,43.21|N|From Tarenar Sunstrike.|
 C Impatience|QID|27488|L|61318 1|M|65.45,24.49|N|Pick up "Gidwin's Prayer Book".|
 T Impatience|QID|27488|M|61.53,43.31|N|To Tarenar Sunstrike.|
 A Nobody to Blame but Myself|QID|27489|M|61.53,43.31|N|From Tarenar Sunstrike.|
-r Sell junk, repair/restock.|QID|27489|M|62.28,42.28|
+r Sell junk, repair/restock. At Patricia Marshall.|QID|27489|M|62.28,42.28|
 
 C Nobody to Blame but Myself|QID|27489|M|50.52,20.45|N|Ride Fiona's Caravan to Northpass Tower.|
 T Nobody to Blame but Myself|QID|27489|M|50.46,20.27|N|To Tarenar Sunstrike.|
@@ -431,8 +439,9 @@ A Guardians of Stratholme|QID|27525|M|27.58,21.14|N|From Tarenar Sunstrike.|
 A Scourged Mass|QID|27528|M|27.70,21.02|N|From Crusader Kevin Frost.|
 A Defenders of Darrowshire|QID|27529|M|27.70,21.02|N|From Crusader Kevin Frost.|
 A Add 'em to the Pile|QID|27539|M|27.70,21.02|N|From Crusader Kevin Frost.|
+A The Baroness' Missive|QID|27551|U|61378|N|(UI Alert) Omasum Blighthoof or Karthis Darkrune should drop this.|O|
 C Guardians of Stratholme|QID|27525|M|24.94,20.41;29.37,20.00|CS|N|Kill Omasum Blighthoof and Karthis Darkrune.|
-A The Baroness' Missive|QID|27551|U|61378|N|Omasum Blighthoof or Karthis Darkrune should drop this. If not kill them again until they do.|
+N The Baroness' Missive|QID|27551|L|61378 1|N|Keep killing Omasum Blighthoof and Karthis Darkrune until it drops|
 T The Baroness' Missive|QID|27551|M|27.48,21.27|N|To Tarenar Sunstrike.|
 A Gidwin's Fate Revealed|QID|27526|M|27.48,21.27|N|From Tarenar Sunstrike.|
 T Guardians of Stratholme|QID|27525|M|27.48,21.27|N|To Tarenar Sunstrike.|
@@ -469,7 +478,7 @@ T Augustus' Receipt Book|QID|27534|M|11.40,28.73|N|To Augustus the Touched.|
 C Counter-Plague Research|QID|27531|M|25.09,34.66|N|The berries are small green bushes with red berries next to the mushrooms. The arms are glittering but can be hard to spot, so look carefully. The "Flesh Giant Foot Scrapings" is near the Corpsebeasts where the waypoint is.|
 T Counter-Plague Research|QID|27531|M|17.81,27.86|N|To Argent Apothecary Judkins.|
 T Journey's End|QID|27527|U|61379|M|73.83,52.16|N|To Fiona. Use "Gidwin's Hearthstone" to save your own.
-F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc. Close this step when done.|FACTION|Alliance|
+;F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc. Close this step when done.|FACTION|Alliance|
 A Fuselight, Ho!|QID|27762|M|73.78,53.05|N|From Gek Nozzlerocket. Pick this up if you'd like to head to the Badlands next!|FACTION|Horde|
 T Fuselight, Ho!|QID|27762|O|M|73.78,53.05|N|Hop on the rocket near the quest giver. When you land, turn-in to Eddie Flofizzle.|FACTION|Horde|
 

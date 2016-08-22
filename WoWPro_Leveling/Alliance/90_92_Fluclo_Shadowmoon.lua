@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2016-08-21 19:06
+-- Who: tubera
+-- Log: Add U tag to In need of a Hero
+
+-- URL: http://wow-pro.com/node/3604/revisions/27343/view
 -- Date: 2015-07-20 00:47
 -- Who: Ludovicus
 -- Log: Remove repliated garrison buildings section.  Allow [Meet Us at Starfall Outpost] to autoswitch.
@@ -361,9 +366,9 @@ C Closing the Door |QID|33905|N|Kill the Shadowmoon Portalmasters around the voi
 C Think of the Children! |QID|33070|N|Save Hakaam from inside the burning hut in Arbor Glen|QO|1|M|49.0,30.9|CHAT|
 
 A In Need of a Hero |QID|33813|N|From Ariaana|M|52.03,32.66|ACTIVE|33070|
-C In Need of a Hero |QID|33813|N|Grab a Draenei Bucket from outside the hut, then go back in and use it on the Floor Fire|QO|2|NC|
-C In Need of a Hero |QID|33813|N|Grab a Draenei Bucket from outside the hut, then go back in and use it on the Bookshelf Fire|QO|1|NC|
-C In Need of a Hero |QID|33813|N|Grab a Draenei Bucket from outside the hut, then go back in and use it on the Table Fire|QO|3|NC|
+C In Need of a Hero |QID|33813|N|Grab a Draenei Bucket from outside the hut, then go back in and use it on the Floor Fire|QO|2|NC|U|111908|
+C In Need of a Hero |QID|33813|N|Grab a Draenei Bucket from outside the hut, then go back in and use it on the Bookshelf Fire|QO|1|NC|U|111908|
+C In Need of a Hero |QID|33813|N|Grab a Draenei Bucket from outside the hut, then go back in and use it on the Table Fire|QO|3|NC|U|111908|
 T In Need of a Hero |QID|33813|N|To Ariaana|M|52.03,32.66|
 
 C Think of the Children! |QID|33070|N|Complete the quest In Need of a Hero to save Ariaana|QO|3|NC|
