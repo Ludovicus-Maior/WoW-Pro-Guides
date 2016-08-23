@@ -627,12 +627,32 @@ function WoWPro:GuideRaceSpecific(guide,race)
     end
 end
 
+local ValidClass = {}
+local function RegisterClass(class)
+    ValidClass[class] = true
+end
+RegisterClass("WARRIOR")
+RegisterClass("DEATHKNIGHT")
+RegisterClass("PALADIN")
+RegisterClass("PRIEST")
+RegisterClass("SHAMAN")
+RegisterClass("DRUID")
+RegisterClass("ROGUE")
+RegisterClass("HUNTER")
+RegisterClass("MAGE")
+RegisterClass("WARLOCK")
+RegisterClass("MONK")
+RegisterClass("DEMONHUNTER")
+
 function WoWPro:GuideClassSpecific(guide,class)
     local locClass, engClass = UnitClass("player")
     class = strupper(class)
+    if not ValidClass[class] then
+        WoWPro:Error("For guide %s, Invalid class of %s used in GuideClassSpecific()", guide.GID, class)
+    end
     engClass = strupper(engClass)
     if engClass ~= class then
-        WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't mach")
+        WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't match", guide.GID)
     end
 end
 
