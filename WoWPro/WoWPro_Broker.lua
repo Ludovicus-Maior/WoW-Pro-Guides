@@ -473,8 +473,8 @@ function WoWPro.NextStep(k,i)
 			end
 		end
 	
-	    -- A Steps --
-		if WoWPro.action[k] == "A" and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
+	    -- A/$ Steps --
+		if (WoWPro.action[k] == "A" or WoWPro.action[k] == "$") and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
             WoWPro.CompleteStep(k,"Quest in QuestLog")
             skip = true
             break
@@ -554,7 +554,8 @@ function WoWPro.NextStep(k,i)
     				WoWPro:dbp("MissingPreReq2(%d)",k)
     				-- If their prerequisite has been skipped, skipping any dependant quests --
     				if WoWPro.action[k] == "A" 
-    				or WoWPro.action[k] == "C" 
+    				or WoWPro.action[k] == "C"
+    				or WoWPro.action[k] == "$"
     				or WoWPro.action[k] == "T" then
     				    -- LFO: Questionable, needs review
     					WoWProCharDB.skippedQIDs[tonumber(jprereq)] = true

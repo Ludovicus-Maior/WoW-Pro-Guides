@@ -24,6 +24,7 @@ WoWPro.actiontypes = {
 	D = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Green",
 	J = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Red",
 	["!"] = "Interface\\GossipFrame\\DailyQuestIcon",
+	["$"] = "Interface\\Worldmap\\TreasureChest_64",
 }
 WoWPro.actionlabels = {
 	A = "Accept",
@@ -45,7 +46,8 @@ WoWPro.actionlabels = {
 	r = "Repair/Restock",
 	D = "Done",
 	J = "Jump",
-	["!"] = "Declare"
+	["!"] = "Declare",
+	["$"] = "Treasure"
 }
 
 
@@ -411,6 +413,11 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 
 	WoWPro.why[i] = "I dunno."
+
+    -- If there is a note, expand any markup.
+    if WoWPro.note[i] then
+        WoWPro.note[i] = WoWPro.ExpandMarkup(WoWPro.note[i])
+    end
 
     -- If the step is "Achievement" there is no note use the name and description from the server ...
     if WoWPro.ach[i] and not WoWPro.note[i] then
