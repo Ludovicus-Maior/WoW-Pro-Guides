@@ -193,10 +193,20 @@ function WoWPro:OfferGuideSwitch(nGID, quest)
         text = "Would you like to switch to the guide for the quest you just accepted?",
 	    OnAccept = function (self, data, data2) WoWPro:dbp("WOWPRO_SWITCH_GUIDE(YES)"); WoWPro:LoadGuide(nGID); end ,
 	    OnCancel = function (self, data, why) WoWPro:dbp("WOWPRO_SWITCH_GUIDE(NO,%s)", why); end,
+	    OnAlt = function(self, data, why) WoWPro:dbp("WOWPRO_SWITCH_GUIDE('leave me alone',%s)", why); WoWProCharDB.Guide[nGID].NoSelect = true ; end,
+	    OnShow = function(self)
+	        self.button3:SetScript("OnEnter",function (self)
+                                              GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
+                                              GameTooltip:SetText("Stop asking to switch guides for this quest.\nResetting the guide will re-enable asking to switch.");
+                                              end);
+	        self.button3:SetScript("OnLeave",function (self) GameTooltip:Hide(); end);
+	    end,
 	    timeout = 30,
 	    button1 = YES,
-	    button2 = NO
+	    button2 = NO,
+	    button3 = "Don't ask"
 	}
+
 	if quest then
 	    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"].text = string.format("Would you like to switch to the guide for the quest [%s]?", quest)
 	end
@@ -232,9 +242,11 @@ function WoWPro.SelectGuideReal()
     local count, nGID , quest
     count = 0
     for guidID,value in pairs(WoWPro.QuestLogGuides) do
-        count = count + 1
-        quest = value
-        nGID = guidID
+        if not WoWProCharDB.Guide[guidID].NoSelect then
+            count = count + 1
+            quest = value
+            nGID = guidID
+        end
     end
     if count == 1 then
         WoWPro:OfferGuideSwitch(nGID, quest)
