@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-26 22:09
+-- Who: tubera
+-- Log: Worked out Awakinging, Horde
+
+-- URL: http://wow-pro.com/node/3648/revisions/27596/view
+-- Date: 2016-08-26 20:53
+-- Who: tubera
+-- Log: Darkride Roost: Add quest "free their mind"; Add Alliance flight to DR; Add missing zones.
+
+-- URL: http://wow-pro.com/node/3648/revisions/27595/view
 -- Date: 2016-08-26 02:10
 -- Who: tubera
 -- Log: Cleanup: Ours is the Fury, Horde
@@ -175,15 +185,16 @@ T Forging Ahead|QID|35197|M|40.0,44.4|N|To Khadgar's Servant, wandering in your 
 
 ; Garrison Campaign: Darktide Roost
 ; A Garrison Campaign: Darktide Roost|QID|35876|M|38.34,36.95|N|From Rokhan|
-F Darktide Roost|QID|35876|ACTIVE|35876|M|45.86,51.02|N|Ask Bron Skyhorn for a ride|
-f Darktide Roost|QID|35876|M|59.85,81.83|Z|Shadowmoon Valley@Draenor|N|Get the flight point from Beasttamer Ladaak.|
-T Garrison Campaign: Darktide Roost|QID|35876|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
-A Shredder Suppressor|QID|34353|PRE|35861|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
-A Darktide Defender|QID|34352|PRE|35861|M|59.08,82.28|Z|Shadowmoon Valley@Draenor|N|Click on the dead defender.|
-C Shredders|QID|34353|M|58.60,88.80;61.60,81.80;58.60,84.50;59.00,82.50;57.70,86.30;63.70,87.20;62.40,84.65|CN|Z|Shadowmoon Valley@Draenor|QO|1|N|Only the red ones count.|S|
-C Pilferers|QID|34352|M|64.00,89.80;66.20,84.80;56.20,92.50;61.55,82.40;60.00,85.50;59.30,82.75;57.15,87.72;61.85,84.40;60.80,94.20;64.18,86.75|CN|Z|Shadowmoon Valley@Draenor|QO|1|S|
+F Darktide Roost|QID|35876|ACTIVE|35876|M|45.86,51.02|N|Ask Bron Skyhorn for a ride|FACTION|Horde
+F Darktide Roost|QID|35861|ACTIVE|35861|M|45.86,51.02|N|Ask Dungar Longdrink for a ride|FACTION|Alliance
+f Darktide Roost|QID|34352|M|59.85,81.83|Z|Shadowmoon Valley@Draenor|N|Get the flight point from Beasttamer Ladaak.|
+T Garrison Campaign: Darktide Roost|QID|35876|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|FACTION|Horde
+T Garrison Campaign: Darktide Roost|QID|35861|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|FACTION|Alliance
+A Shredder Suppressor|QID|34353|PRE|35876+35861|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|From Rexxar| ;Neutral from here
+A Darktide Defender|QID|34352|PRE|35861+35876|M|59.08,82.28|Z|Shadowmoon Valley@Draenor|N|Click on the dead defender.|
 C Engineers|QID|34352|M|63.20,84.50;55.45,90.38;61.50,82.00;58.80,88.60;61.08,84.75;63.75,87.17;58.17,85.7|CN|Z|Shadowmoon Valley@Draenor|QO|2|S|
-C Shredders|QID|34353|M|58.60,88.80;61.60,81.80;58.60,84.50;59.00,82.50;57.70,86.30;63.70,87.20;62.40,84.65|CN|Z|Shadowmoon Valley@Draenor|QO|1|N|Only the red ones count.|US|
+C Pilferers|QID|34352|M|64.00,89.80;66.20,84.80;56.20,92.50;61.55,82.40;60.00,85.50;59.30,82.75;57.15,87.72;61.85,84.40;60.80,94.20;64.18,86.75|CN|Z|Shadowmoon Valley@Draenor|QO|1|S|
+C Shredders|QID|34353|M|58.60,88.80;61.60,81.80;58.60,84.50;59.00,82.50;57.70,86.30;63.70,87.20;62.40,84.65|CN|Z|Shadowmoon Valley@Draenor|QO|1|N|Only the red ones count.|
 C Pilferers|QID|34352|M|64.00,89.80;66.20,84.80;56.20,92.50;61.55,82.40;60.00,85.50;59.30,82.75;57.15,87.72;61.85,84.40;60.80,94.20;64.18,86.75|CN|Z|Shadowmoon Valley@Draenor|QO|1|US|
 C Engineers|QID|34352|M|63.20,84.50;55.45,90.38;61.50,82.00;58.80,88.60;61.08,84.75;63.75,87.17;58.17,85.7|CN|Z|Shadowmoon Valley@Draenor|QO|2|US|
 T Darktide Defender|QID|34352|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|UI turnin.|
@@ -193,10 +204,14 @@ C Dirty Rats|QID|34355|M|56.0,89.3|Z|Shadowmoon Valley@Draenor|QO|1|U|110268|N|U
 T Dirty Rats|QID|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Releasing Rylak|QID|34365|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 A Downsizing the Darktide|QID|34397|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
-C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|S|
+A Free Their Minds|QID|34455|PRE|34355|M|59.8,94.52|Z|Shadowmoon Valley@Draenor|N|From the Goblin Mind Control Device|
+C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|S|Z|Shadowmoon Valley@Draenor|
+U Free their minds|QID|34455|M|59.33,95.69|N|Use the Rylak Mind controller on Controlled Darkwing.|QO|1|S|U|110447|Z|Shadowmoon Valley@Draenor|
+t Free their minds|QID|34455|M|59.33,95.69|N|UI turnin.|S|U|110447|Z|Shadowmoon Valley@Draenor|
 K Assistant Fexfuse|QID|34397|ACTIVE|34397|M|60.6,93.0|Z|Shadowmoon Valley@Draenor|QO|1|
 K Captain Killrath|QID|34397|ACTIVE|34397|M|62.2,94.0|Z|Shadowmoon Valley@Draenor|QO|2|
 K Ra'ka Bloodspear|QID|34397|ACTIVE|34397|M|59.4,99.0|Z|Shadowmoon Valley@Draenor|QO|3|
+U Free their minds|QID|34455|M|59.33,95.69|N|Use the Rylak Mind controller on Controlled Darkwing.|QO|1|US|U|110447|Z|Shadowmoon Valley@Draenor|
 C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|US|
 T Releasing Rylak|QID|34365|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 T Downsizing the Darktide|QID|34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
@@ -491,15 +506,22 @@ A Ours is the Fury|QID|33427|PRE|32985|M|70.0,38.2|N|From Thrall|Z|Frostfire Rid
 T Ours is the Fury|QID|33427|M|40.0,54.4|N|To Warmaster Zog|Z|Frostwall|FACTION|Horde
 
 ; Primal Fury  -- Horde
-A Garrison Campaign: Awakening|QID|36136|M|45.6,43.2|N|From Rokhan|
-C Garrison Campaign: Awakening|QID|36136|M|37.8,44.6|N|Duurg|
-C Garrison Campaign: Awakening|QID|36136|M|41.0,43.0|N|Thisalee Crow|
-T Garrison Campaign: Awakening|QID|36136|M|41.0,43.0|N|To Choluna|
-A Primal Fury|QID|36342|PRE|36136|M|41.0,43.0|N|From Choluna|
-C Primal Fury|QID|36342|M|69.0,3.4|N|Gorgorek|
-C Primal Fury|QID|36342|M|69.4,5.6|N|Azuka Bladefury|
-C Primal Fury|QID|36342|M|66.8,9.2|N|Rokhan|
-T Primal Fury|QID|36342|M|40.0,54.4|N|To Warmaster Zog|
+;A Garrison Campaign: Awakening|QID|36136|M|45.6,43.2|N|From Rokhan|
+F Skysea Ridge|QID|36136|N|Make your way to Gorgrond|FACTION|Horde
+C Garrison Campaign: Awakening|QID|36136|QO|1|M|40.95,43.03|N|Speak to Choluna|Z|Gorgrond|FACTION|Horde
+C Garrison Campaign: Awakening|QID|36136|QO|2|M|37.8,44.6|N|Duurg|Z|Gorgrond|FACTION|Horde
+C Garrison Campaign: Awakening|QID|36136|M|41.0,43.0|N|Thisalee Crow|FACTION|Horde
+T Garrison Campaign: Awakening|QID|36136|M|40.95,43.03|N|To Choluna|Z|Gorgrond|FACTION|Horde
+A Primal Fury|QID|36342|PRE|36136|M|41.0,43.0|N|From Choluna|Z|Gorgrond|FACTION|Horde
+F Forstwolf Overlook|QID|36342|M|39.6,36.4|N|Fly to Talador|FACTION|Horde|Z|Gorgrond
+C Primal Fury|QID|36342|QO|1|M|66.8,9.2|N|To Rokhan|FACTION|Horde|Z|Talador
+C Primal Fury|QID|36342|QO|2|M|69.0,3.4|N|Kill Gorgorek|FACTION|Horde|Z|Talador
+C Primal Fury|QID|36342|QO|3|M|69.4,5.6|N|Kill Azuka Bladefury|FACTION|Horde
+A Sanketsu, The Burning Blade|QID|37192|PRE|36136|M|69.45,5.74|Z|Talador|FACTION|Horde
+C Primal Fury|QID|36342|QO|4|M|67.51,7.59|Z|Talador|FACTION|Horde
+C Primal Fury|QID|36342|QO|5|M|69.42,9.22|Z|Talador|FACTION|Horde
+T Primal Fury|QID|36342|M|40.0,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall
+T Sanketsu, The Burning Blade|QID|37192|M|40.0,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall
 ; Primal Fury  -- Alliance
 A Garrison Campaign: Awakening|QID|36134|M|37.8,36.8|N|From Bodrick Grey|
 C Garrison Campaign: Awakening|QID|36134|M|37.8,44.6|N|Duurg|
