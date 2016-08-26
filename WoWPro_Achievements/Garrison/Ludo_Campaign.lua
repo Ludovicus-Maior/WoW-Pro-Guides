@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-26 02:10
+-- Who: tubera
+-- Log: Cleanup: Ours is the Fury, Horde
+
+-- URL: http://wow-pro.com/node/3648/revisions/27583/view
 -- Date: 2016-08-21 20:10
 -- Who: tubera
 -- Log: Tweak The Sargerei
@@ -463,29 +468,27 @@ K Exarch Council|ACTIVE|36169|QO|1|N|They dont hit hard.  Use your "Call to Arms
 T The Trial of Champions|QID|36169|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|N|To Exarch Maladaar|
 
 ; Ours is the Fury -- Horde Only
-A Garrison Campaign: Farseer's Rock|QID|32979|M|50.4,38.2|N|From Thrall|
-C Garrison Campaign: Farseer's Rock|QID|32979|M|74.0,29.6|N|Draka|
-T Garrison Campaign: Farseer's Rock|QID|32979|M|74.0,29.6|N|To Draka|
-A Eaters of the Elements|QID|32980|PRE|32979|M|74.0,29.6|N|From Draka|
-C Eaters of the Elements|QID|32980|M|57.6,41.6|N|Flaming Goren|
-T Eaters of the Elements|QID|32980|M|74.0,29.6|N|To Farseer Drek'Thar|
-A In the Shadow of Giants|QID|32983|PRE|32980|M|74.0,29.6|N|From Farseer Drek'Thar|
-C In the Shadow of Giants|QID|32983|M|70.8,23.6|N|Flamrog|
-C In the Shadow of Giants|QID|32983|M|70.0,27.4|N|Kindler|
-T In the Shadow of Giants|QID|32983|M|74.0,29.6|N|To Farseer Drek'Thar|
-A Eatercology|QID|33444|PRE|32980|M|74.0,29.6|N|From Draka|
-C Eatercology|QID|33444|M|66.6,25.4|N|Icejaw Rockbiter|
-C Eatercology|QID|33444|M|70.0,26.8|N|Burning Slagmaw|
-C Eatercology|QID|33444|M|73.2,23.2|N|Vicious Acidmaw|
-C Eatercology|QID|33444|M|71.6,26.2|N|Pillaged Caravan Goods|
-T Eatercology|QID|33444|M|74.0,29.6|N|To Draka|
-A The Ascent|QID|32984|PRE|32983;33444|M|74.0,29.6|N|From Farseer Drek'Thar|
-T The Ascent|QID|32984|M|70.0,38.2|N|To Farseer Drek'Thar|
-A Fury of Frostfire|QID|32985|PRE|32984|M|70.0,38.2|N|From Farseer Drek'Thar|
-C Fury of Frostfire|QID|32985|M|70.2,38.2|N|Kron|
-T Fury of Frostfire|QID|32985|M|70.0,38.2|N|To Farseer Drek'Thar|
-A Ours is the Fury|QID|33427|PRE|32985|M|70.0,38.2|N|From Thrall|
-T Ours is the Fury|QID|33427|M|40.0,54.4|N|To Warmaster Zog|
+;A Garrison Campaign: Farseer's Rock|QID|32979|M|50.4,38.2|N|From Thrall|FACTION|Horde
+C Garrison Campaign: Farseer's Rock|QID|32979|M|57.12,41.48|N|Draka|Z|Frostfire Ridge|FACTION|Horde
+T Garrison Campaign: Farseer's Rock|QID|32979|M|57.12,41.48|N|To Draka|Z|Frostfire Ridge|FACTION|Horde
+A Eaters of the Elements|QID|32980|PRE|32979|M|57.12,41.48|N|From Draka|Z|Frostfire Ridge|FACTION|Horde
+C Eaters of the Elements|QID|32980|M|57.6,41.6|N|Flaming Goren|Z|Frostfire Ridge|FACTION|Horde
+T Eaters of the Elements|QID|32980|M|74.0,29.6|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
+A In the Shadow of Giants|QID|32983|PRE|32980|M|57.42,41.42|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
+A Eatercology|QID|33444|PRE|32980|M|57.42,41.42|N|From Draka|Z|Frostfire Ridge|FACTION|Horde
+C Eatercology|QID|33444|M|66.6,25.4|N|Kill and loot Goren|Z|Frostfire Ridge|S|FACTION|Horde
+C In the Shadow of Giants|QID|32983|M|70.0,27.4|N|Kindler|Z|Frostfire Ridge|QO|2|FACTION|Horde
+C In the Shadow of Giants|QID|32983|M|70.8,23.6|N|Flamrog|Z|Frostfire Ridge|QO|1|FACTION|Horde
+C Eatercology|QID|33444|M|66.6,25.4|N|Kill and loot Goren|Z|Frostfire Ridge|US|FACTION|Horde
+T Eatercology|QID|33444|M|74.0,29.6|N|To Draka|Z|Frostfire Ridge|FACTION|Horde
+T In the Shadow of Giants|QID|32983|M|74.0,29.6|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
+A The Ascent|QID|32984|PRE|32983;33444|M|74.0,29.6|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
+T The Ascent|QID|32984|M|70.0,38.2|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
+A Fury of Frostfire|QID|32985|PRE|32984|M|70.0,38.2|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
+C Fury of Frostfire|QID|32985|M|70.2,38.2|N|Kron|Z|Frostfire Ridge|FACTION|Horde
+T Fury of Frostfire|QID|32985|M|70.0,38.2|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
+A Ours is the Fury|QID|33427|PRE|32985|M|70.0,38.2|N|From Thrall|Z|Frostfire Ridge|FACTION|Horde
+T Ours is the Fury|QID|33427|M|40.0,54.4|N|To Warmaster Zog|Z|Frostwall|FACTION|Horde
 
 ; Primal Fury  -- Horde
 A Garrison Campaign: Awakening|QID|36136|M|45.6,43.2|N|From Rokhan|
