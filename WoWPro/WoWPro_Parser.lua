@@ -25,6 +25,7 @@ WoWPro.actiontypes = {
 	J = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Red",
 	["!"] = "Interface\\GossipFrame\\DailyQuestIcon",
 	["$"] = "Interface\\Worldmap\\TreasureChest_64",
+	[";"] = "Interface\\Icons\\INV_Scroll_11",
 }
 WoWPro.actionlabels = {
 	A = "Accept",
@@ -47,7 +48,8 @@ WoWPro.actionlabels = {
 	D = "Done",
 	J = "Jump",
 	["!"] = "Declare",
-	["$"] = "Treasure"
+	["$"] = "Treasure",
+	[";"] = "Comment"
 }
 
 
@@ -243,10 +245,18 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	text = string.trim(text)
 	-- Printing anything with a | is dangerous.  Map it to a ¦
 	local atext = text:gsub("|", "¦")
-	if text == "" or string.sub(text,1,1) == ";" then
-	    -- empty lines or comments are ignored
+	if text == "" then
+	    -- empty lines ignored
 	    return
 	end
+
+    -- Handle comment lines specially
+    if string.sub(text,1,1) == ";" then
+        WoWPro.action[i] = string.sub(text,1,1)
+        WoWPro.step[i] = string.sub(text,2)
+        WoWPro.step[i] = WoWPro.step[i]:trim()
+        return
+    end
 
     -- Split the line up on the pipes
     local tags = { strsplit("|", text) }
@@ -512,7 +522,7 @@ function WoWPro:ParseSteps(steps)
 	for j=1,#steps do
 		local text = steps[j]
 		text = text:trim()
-		if text ~= "" and text:sub(1,1) ~= ";" then
+		if text ~= "" then
 			local class, race  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?")
 			local gender, faction = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?")
 			if class then
@@ -539,8 +549,8 @@ function WoWPro:ParseSteps(steps)
 				-- deleting leading/trailing whitespace and then canonicalize the case
 				faction=strupper(strtrim(faction))
             end			    
-			if (class == nil or class:find(myclass)) and
-			   (race == nil or race:find(myrace)) and
+			if (class == nil or class == myclass) and
+			   (race == nil or race == myrace) and
 			   (gender == nil or gender == UnitSex("player")) and
 			   (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
 				WoWPro.ParseQuestLine(faction, zone, i, text)

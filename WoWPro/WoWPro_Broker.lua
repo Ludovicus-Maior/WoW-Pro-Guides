@@ -447,10 +447,16 @@ function WoWPro.NextStep(k,i)
 			break
 		end
 		
-		-- ! Steps --
+		-- !/; Steps --
 		if WoWPro.action[k] == "!" then
 		    -- These had their effect when the guide was parsed
             WoWPro.CompleteStep(k,"NPC Mapping completed")
+            skip = true
+            break
+        end
+		if WoWPro.action[k] == ";" then
+		    -- These have no effect
+            WoWPro.CompleteStep(k,"Comment")
             skip = true
             break
         end
