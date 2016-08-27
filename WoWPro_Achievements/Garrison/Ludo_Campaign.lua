@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-26 23:45
+-- Who: tubera
+-- Log: Tweak Seismic Matters; remove duplicate Z tag in Heart of the Breakers;Fix Cragplume depths (@Gorgrond)
+
+-- URL: http://wow-pro.com/node/3648/revisions/27597/view
 -- Date: 2016-08-26 22:09
 -- Who: tubera
 -- Log: Worked out Awakinging, Horde
@@ -222,36 +227,36 @@ T Rylak Rescue|QID|34450|M|67.97,90.12|Z|Shadowmoon Valley@Draenor|N|Click on Ni
 
 ; Garrison Campaign: Seismic Matters -- Iron Siegeworks for Alliance
 ; A Garrison Campaign: Seismic Matters|QID|34026|M|29.25,33.13|N|From Baros Alexston|
-T Garrison Campaign: Seismic Matters|QID|34026|M|64.51,69.90|N|To Jr. Surveyor Dorn|FACTION|Alliance|
-A Groundbreaking Data|QID|34027|PRE|34026|M|64.51,69.90|N|From Jr. Surveyor Dorn|FACTION|Alliance|
-C Groundbreaking Data|QID|34027|M|64.55,69.35|QO|1|N|Click on the Tremor Tracker and fight 2 waves of 3 Iron Grunts out of the mole machines.|FACTION|Alliance|
-T Groundbreaking Data|QID|34027|M|64.0,69.6|N|To Jr. Surveyor Dorn|FACTION|Alliance|
-A These Look Familiar...|QID|34028|PRE|34027|M|64.51,69.90|N|From Jr. Surveyor Dorn|FACTION|Alliance|
-F Everbloom Wilds|QID|34028|ACTIVE|34028|M|48.00,49.83|N|Fly to Everbloom Wilds@Gorgrond on Air Longdrink. Everbloom Overlook isyour ultimate destination.|FACTION|Alliance|
+T Garrison Campaign: Seismic Matters|QID|34026|M|64.51,69.90|Z|Lunarfall|N|To Jr. Surveyor Dorn|FACTION|Alliance|
+A Groundbreaking Data|QID|34027|PRE|34026|M|64.51,69.90|Z|Lunarfall|N|From Jr. Surveyor Dorn|FACTION|Alliance|
+C Groundbreaking Data|QID|34027|M|64.55,69.35|Z|Lunarfall|QO|1|N|Click on the Tremor Tracker and fight 2 waves of 3 Iron Grunts out of the mole machines.|FACTION|Alliance|
+T Groundbreaking Data|QID|34027|M|64.0,69.6|Z|Lunarfall|N|To Jr. Surveyor Dorn|FACTION|Alliance|
+A These Look Familiar...|QID|34028|PRE|34027|M|64.51,69.90|Z|Lunarfall|N|From Jr. Surveyor Dorn|FACTION|Alliance|
+F Everbloom Wilds|QID|34028|ACTIVE|34028|M|48.00,49.83|Z|Lunarfall|N|Fly to Everbloom Wilds@Gorgrond on Air Longdrink. Everbloom Overlook isyour ultimate destination.|FACTION|Alliance|
 R Everbloom Overlook|QID|34028|ACTIVE|34028|M|61.17,38.37;64.81,35.48;66.62,34.26;68.10,32.46;68.79,29.17|Z|Gorgrond|CS|N|Make your way to Everbloom Overlook|FACTION|Alliance|
 f Everbloom Overlook|QID|34028|M|68.72,28.75|Z|Gorgrond|N|Get the flight point while you are here from Researcher Sarix.|FACTION|Alliance|
 R Thaelin's Workshop|QID|34028|ACTIVE|34028|M|69.74,23.60|Z|Gorgrond|N|Go over the hills and drop down to the cave/mound.|FACTION|Alliance|
 T These Look Familiar...|QID|34028|M|69.63,26.11|Z|Gorgrond|N|To Hansel Heavyhands|FACTION|Alliance|
 A The Prototype|QID|34029|PRE|34028|M|69.63,26.11|Z|Gorgrond|N|From Hansel Heavyhands|FACTION|Alliance|
-C Mole Machine|QID|34029|M|69.22,25.63|N|Click on the mole machine and enjoy the scene!|FACTION|Alliance|
+C Mole Machine|QID|34029|M|69.22,25.63|Z|Gorgrond|N|Click on the mole machine and enjoy the scene!|FACTION|Alliance|
 T The Prototype|QID|34029|M|86.38,48.91|Z|Frostfire Ridge|N|To Hansel Heavyhands|FACTION|Alliance|
 A The Captive Engineer|QID|34030|PRE|34029|M|86.38,48.91|Z|Frostfire Ridge|N|From Hansel Heavyhands|FACTION|Alliance|
 C The Captive Engineer|QID|34030|M|88.40,49.47|Z|Frostfire Ridge|N|Thaelin Darkanvil is in the building to your left.|FACTION|Alliance|
 T The Captive Engineer|QID|34030|M|88.40,49.47|Z|Frostfire Ridge|N|To Thaelin Darkanvil|FACTION|Alliance|
-A "Mole Machine, Go Home"|QID|34048|M|88.48,49.56|PRE|34030|N|From Dark Iron Golem, who appears after completing the previous quest and skitters about.|FACTION|Alliance|
-A Something to Remember Me By|QID|34031|PRE|34030|M|88.48,49.56|Z|Frostfire Ridge|N|From Dark Iron Golem|FACTION|Alliance|
+A "Mole Machine, Go Home"|QID|34048|M|88.48,49.56|PRE|34030|N|From Thealin Darkanvil after he put on The Suit.|FACTION|Alliance|
+A Something to Remember Me By|QID|34031|PRE|34030|M|88.48,49.56|Z|Frostfire Ridge|N|From Thealin Darkanvil|FACTION|Alliance|
 C "Mole Machine, Go Home"|QID|34048|M|85.3,58.0|Z|Frostfire Ridge|CS|N|Iron Horde Mole Machine|S|FACTION|Alliance|
 C Something to Remember Me By|QID|34031|M|85.80,49.50;88.20,51.40;86.00,54.15;86.97,57.02|Z|Frostfire Ridge|CS|N|Plant Dark Iron Mine|S|FACTION|Alliance|
 C "Mole Machine, Go Home"|QID|34048|M|85.3,58.0|Z|Frostfire Ridge|CS|N|Iron Horde Mole Machine|US|FACTION|Alliance|
 C Something to Remember Me By|QID|34031|M|85.80,49.50;88.20,51.40;86.00,54.15;86.97,57.02|Z|Frostfire Ridge|CS|N|Plant Dark Iron Mine|US|FACTION|Alliance|
-T "Mole Machine, Go Home"|QID|34048|N|To Dark Iron Golem, who is following you.|FACTION|Alliance|
-T Something to Remember Me By|QID|34031|N|To Dark Iron Golem, who is following you.|FACTION|Alliance|
-A Privileged Information|QID|34032|PRE|34031;34048|N|From Dark Iron Golem, who is following you.|FACTION|Alliance|
+T "Mole Machine, Go Home"|QID|34048|N|To Thaelin Darkanvil, who is following you.|FACTION|Alliance|
+T Something to Remember Me By|QID|34031|N|To Thaelin Darkanvil, who is following you.|FACTION|Alliance|
+A Privileged Information|QID|34032|PRE|34031;34048|N|From Thaelin Darkanvil, who is following you.|FACTION|Alliance|
 C Privileged Information|QID|34032|M|86.6,45.8|Z|Frostfire Ridge|N|Overlord Blackhammer|FACTION|Alliance|
-T Privileged Information|QID|34032|N|To Dark Iron Golem, who is following you.|FACTION|Alliance|
+T Privileged Information|QID|34032|N|To Thaelin Darkanvil, who is following you.|FACTION|Alliance|
 A And The Mole You Rode In On|QID|34033|PRE|34032|N|From Dark Iron Golem, who is following you.|FACTION|Alliance|
-C And The Mole You Rode In On|QID|34033|M|86.39,49.01|N|Go to the cave near where you fought the Overlord and take the Mole Machine.|FACTION|Alliance|
-T And The Mole You Rode In On|QID|34033|M|64.69,67.35|N|To Thaelin Darkanvil|FACTION|Alliance|
+C And The Mole You Rode In On|QID|34033|M|86.39,49.01|Z|Frostfire Ridge|N|Go to the cave near where you fought the Overlord and take the Mole Machine.|FACTION|Alliance|
+T And The Mole You Rode In On|QID|34033|M|64.69,67.35|Z|Lunarfall|N|To Thaelin Darkanvil|FACTION|Alliance|
 
 ; Garrison Campaign: Grinding Gears -- Iron Siegeworks for Horde
 ;A Garrison Campaign: Grinding Gears|QID|34034|M|38.34,36.95|N|From Rokhan|FACTION|Horde|
@@ -309,7 +314,7 @@ A The Descent|QID|34338|PRE|34337|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|
 A A Goren's Feast|QID|34339|PRE|34337|M|54.2,55.8|Z|Gorgrond|N|From Choluna|
 A Heating Up|QID|34340|PRE|34337|M|54.2,56.0|Z|Gorgrond|N|From Aren Mistshade|
 C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|S|Z|Gorgrond
-C Hissing Geyser|QID|34340|M|37.58, 75.06|Z|Cragplume Depths|QO|1|U|110288|
+C Hissing Geyser|QID|34340|M|37.58, 75.06|Z|Cragplume Depths@Gorgrond|QO|1|U|110288|
 C The Descent|QID|34338|M|52.53, 53.76|Z|Gorgrond|N|Go all the way down, where you will see a small yellow arrow.|QO|1|
 C The Descent|QID|34338|QO|2|N|Kill the Earthwarden. He might take awhile to spawn, depending on when he was last killed.
 C The Descent|QID|34338|QO|3|N|Click the Heart of Gorgorek (The round thing behind the Earthwarden).
@@ -317,7 +322,7 @@ C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|US|Z|Gorgrond
 T The Descent|QID|34338|M|54.2,56.0|Z|Gorgrond|N|Go to the central chamber and watch the cutscene, step into the sparkly geyser to be thrown up. Hand in to Thisalee Crow|
 T A Goren's Feast|QID|34339|M|39.8,37.0|Z|Gorgrond|N|To Choluna|
 T Heating Up|QID|34340|M|40.0,37.0|Z|Gorgrond|N|To Aren Mistshade|
-A The Beating Heart|QID|34410|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Alliance|Z|Gorgrond
+A The Beating Heart|QID|34410|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Alliance|
 T The Beating Heart|QID|34410|M|47.0,88.4|N|To Morthis Whisperwing|FACTION|Alliance|Z|Lunarfall
 A The Beating Heart|QID|34341|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Horde|
 T The Beating Heart|QID|34341|M|47.0,88.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall

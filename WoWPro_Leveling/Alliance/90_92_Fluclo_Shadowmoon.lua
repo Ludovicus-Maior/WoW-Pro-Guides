@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2016-08-27 02:33
+-- Who: tubera
+-- Log: Add more U tags where needed
+
+-- URL: http://wow-pro.com/node/3604/revisions/27582/view
 -- Date: 2016-08-21 19:06
 -- Who: tubera
 -- Log: Add U tag to In need of a Hero
@@ -601,7 +606,7 @@ C Botani Beatdown|QID|34995|M|53.67,57.26|N|Kill the Blademoon Botani|S|
 C Rotting Riverbeasts|QID|34996|M|51.6,63.2|N|Kill the Blooming Mandragora. By the river-edge, there are Shadow Lily's that will allow you to walk on water.|
 
 A Slumberbloom|QID|34997|M|53.14,65.38|N|From Sleepy Rangari.|
-C Slumberbloom|QID|34997|M|53.3,65.7|N|Destroy the Slumberblooms by using the Gathered Pebbles on them.|S|NC|
+C Slumberbloom|QID|34997|M|53.3,65.7|N|Destroy the Slumberblooms by using the Gathered Pebbles on them.|S|NC|U|112332
 
 C Forever Young|QID|34994|N|Collect the Youthvine from the ground.|NC|M|53.8,69.3|S|
 
@@ -616,7 +621,7 @@ T Gestating Genesaur|QID|35015|M|55.67,71.98|N|To Rangari Arepheon.|
 C Poison Paralysis|QID|35006|NC|N|Find and cure Argus Highbeacon|QO|2|M|56.8,70.4|
 C Poison Paralysis|QID|35006|NC|N|Find and cure Rimblat Earthshatter|QO|1|M|55.1,68.1|
 
-C Slumberbloom|QID|34997|M|53.3,65.7|N|Finish destroying the Slumberblooms by using the Gathered Pebbles on them.|NC|US|
+C Slumberbloom|QID|34997|M|53.3,65.7|N|Finish destroying the Slumberblooms by using the Gathered Pebbles on them.|NC|US|U|112332
 T Slumberbloom|QID|34997|N|Auto-Complete|
 
 C Forever Young|QID|34994|N|Finish collecting the Youthvine from the ground.|NC|M|54.7,70.0|US|
@@ -657,7 +662,7 @@ C Swamplighter Dust |QID|33076|N|Finish killing and looting the Frenzied Swampli
 T The Clarity Elixir |QID|33076|N|To Prophet Velen in Moonwillow Peak|CS|M|39.73,53.59;37.66,54.75;35.26,49.12|
 
 A The Fate of Karabor |QID|33059|N|From Prophet Velen|M|35.26,49.12|PRE|33076|
-C The Fate of Karabor |QID|33059|N|Click on the Clarity Elixir to drink it|M|35.26,49.12|QO|1|NC|
+C The Fate of Karabor |QID|33059|N|Click on the Clarity Elixir to drink it|M|35.26,49.12|QO|1|NC|U|111591
 C The Fate of Karabor |QID|33059|N|Follow through the Scenario steps to witness the fate of Karabor.\n\n1. Move forward with Prophet Velen to Yrel's position\n2. Kill Krull\n3. Run up the first flight of stairs, wait for Prophet Velen to run up the stairs, then tell him we're being overrun.\n(Undismissed pets will die at this point)|M|35.26,49.12|QO|2|
 
 T The Fate of Karabor |QID|33059|N|To Prophet Velen, in Twilight Glade. \n(Recall/revive your pet if appropriate)|M|40.53,54.91|
@@ -731,7 +736,7 @@ A Harbingers of the Void|QID|33793|M|35.83,36.97|N|From Rangari Saa'to.|PRE|3404
 A The Great Salvation|QID|33794|M|35.83,36.97|N|From Rangari Saa'to.|PRE|34043|
 A Across the Stars|QID|33795|M|35.37,36.95|N|From Illuminate Praavi.|PRE|34043|
 
-C Into Anguish|QID|35032|N|Head up the stairs, then use the Fragment of Anguish to remove the forcefield.|QO|1|M|35.0,37.9|NC|
+C Into Anguish|QID|35032|N|Head up the stairs, then use the Fragment of Anguish to remove the forcefield.|QO|1|M|35.0,37.9|NC|U|112386
 
 C The Clothes on Their Backs|QID|36266|N|Kill and loot the Shadowmoon Forces for their Ceremonial Shadowmoon Robes.|S|
 C On the Offensive|QID|33083|N|Kill the Shadowmoon Forces|S|
