@@ -1022,7 +1022,13 @@ function WoWPro.NextStep(k,i)
         
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank and WoWPro.rank[k] then
-			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
+		    local rank = tonumber(WoWPro.rank[k])
+		    if rank < 0 and -rank != WoWProDB.profile.rank then
+			    WoWProCharDB.Guide[GID].skipped[k] = true
+			    WoWPro.why[k] = "NextStep(): Step rank is not equal to current rank"
+			    skip = true
+		    end
+			if rank > WoWProDB.profile.rank then
 			    WoWProCharDB.Guide[GID].skipped[k] = true
 			    WoWPro.why[k] = "NextStep(): Step rank is too high."
 			    skip = true
