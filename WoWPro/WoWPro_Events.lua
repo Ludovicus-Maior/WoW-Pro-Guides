@@ -380,7 +380,7 @@ function WoWPro:UpdateQuestTracker()
 						    else
 						        track = "- " .. "?"
 						    end
-						    if WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].ocompleted[tonumber(lquesttext)] then
+						    if WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].ocompleted and WoWPro.QuestLog[qid].ocompleted[tonumber(lquesttext)] then
 						        track =  track.." (C)"
 						    end
 						else
