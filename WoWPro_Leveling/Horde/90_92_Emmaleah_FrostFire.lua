@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2016-08-27 15:29
+-- Who: tubera
+-- Log: Tweak Thunder pass for the auto-accept of quest items. (Coil of rope)
+
+-- URL: http://wow-pro.com/node/3587/revisions/27603/view
+-- Date: 2016-08-27 15:00
+-- Who: tubera
+-- Log: Remove duplicate S tag in Enfilade
+
+-- URL: http://wow-pro.com/node/3587/revisions/27602/view
+-- Date: 2016-08-27 14:02
+-- Who: tubera
+-- Log: Tweak Grom'Gar
+
+-- URL: http://wow-pro.com/node/3587/revisions/27479/view
 -- Date: 2016-07-30 15:50
 -- Who: Ludovicus
 -- Log: Ah, Hunter's Hall changed to Grom'gar@FrostfireRidge
@@ -234,20 +249,6 @@
 -- Date: 2014-08-30 22:47
 -- Who: Emmaleah
 -- Log: fix a typo
-
--- URL: http://wow-pro.com/node/3587/revisions/26648/view
--- Date: 2014-08-30 20:22
--- Who: Ludovicus
--- Log: Metge my tweaks in.
-
--- URL: http://wow-pro.com/node/3587/revisions/26647/view
--- Date: 2014-08-30 01:17
--- Who: Emmaleah
--- Log: many revisions - play test 8/29/14
-
--- URL: http://wow-pro.com/node/3587/revisions/26646/view
--- Date: 2014-08-29 22:12
--- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,91, 92, 90.7)
@@ -680,12 +681,11 @@ C Karg Unchained|QID|33785|M|63.22,60.02|S|N|Kill them all.|RANK|2|
 C Where's My Wolf?!|QID|33826|M|65.9,60.8|T|Huntmaster Torash|QO|1|RANK|2|
 A Dagg at Gromgar|QID|34651|M|65.9,60.8|N|There is no quest "!", but if you want Dagg to be your follower later, you need to free him from this cage.|RANK|2|
 C Where's My Wolf?!|QID|33826|M|61.01,64.95|QO|2|NC|RANK|2|
-C Karg Unchained|QID|33785|M|63.77,68.17|N|Finish killing the orcs.|RANK|2|
-T Where's My Wolf?!|QID|33826|M|63.21,60.07|N|To Karg Bloodfury.|RANK|2|
-A Enfilade|QID|32994|M|63.21,60.07|N|From Karg Bloodfury who is following you around unless you went into The Hunter's Hall, at which point he will reappear as soon as you leave.|RANK|2|
-T Karg Unchained|QID|33785|M|63.21,60.07|N|To Karg Bloodfury (he is following you around).|RANK|2|
-A The Master Siegesmith|QID|33828|M|63.19,60.04|N|From Lokra.|RANK|2|
+T Where's My Wolf?!|QID|33826|M|63.21,60.07|N|To Karg Bloodfury. (he is following you around)|RANK|2|
+A Enfilade|QID|32994|PRE|33826|M|63.21,60.07|N|From Karg Bloodfury who is following you around unless you went into The Hunter's Hall, at which point he will reappear as soon as you leave.|RANK|2|
+A The Master Siegesmith|QID|33828|PRE|33826|M|63.19,60.04|N|From Lokra. (Also following you around)|RANK|2|
 C Enfilade|QID|32994|M|61.38,71.71|S|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|RANK|2|
+C The Master Siegesmith|QID|33828|M|62.66,74.54|T|Master Siegesmith Uratok|RANK|2|
 
 ;the rest of the inscription quest
 C Bypassing Security|QID|36457|M|61.26,71.18|P|Inscription;773|U|116063|N|Use your disguise and rescue Nicholaus.|
@@ -696,8 +696,11 @@ T Stealing the Declaration|QID|36475|M|61.26,71.18|P|Inscription;773|N|To Nichol
 U Learn Inscription skill|QID|33918|U|111923|M|61.2,71.2|P|Inscription;773|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Scribe's Quarters Blueprints|QID|33918|U|111815|M|61.2,71.2|P|Inscription;773|N|After you learn check this step off manually.|
 
-C The Master Siegesmith|QID|33828|M|62.66,74.54|T|Master Siegesmith Uratok|RANK|2|
-C Enfilade|QID|32994|M|61.38,71.71|US|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|RANK|2|
+C Enfilade|QID|32994|M|61.38,71.71|S|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|RANK|2|US|
+C Karg Unchained|QID|33785|M|63.77,68.17|N|Finish killing the orcs.|RANK|2|US
+
+T Karg Unchained|QID|33785|M|63.21,60.07|N|To Karg Bloodfury.|RANK|2|
+
 T Enfilade|QID|32994|M|62.53,74.91|N|To Karg Bloodfury.|RANK|2|
 T The Master Siegesmith|QID|33828|M|62.53,74.91|N|To Lokra.|RANK|2|
 A Return to the Pack|QID|33493|M|62.53,74.91|N|From Lokra.|RANK|2|
@@ -843,12 +846,14 @@ R Bones of Agurak|QID|34066|M|78.38,54.95;83.62,60.88|CS|N|There is a passage th
 f Thunder Pass|QID|34066|M|83.62,60.88|N|At Bile Warneck.|RANK|2|
 A Savage Vengeance|QID|34066|M|83.22,62.76|N|From Scout Ruk'Gan. If you happen arrive just as someone else picked up the quest it takes a minute or two for him to come back.|RANK|3|
 C Savage Vengeance|QID|34066|M|83.50,65.90|S|RANK|3|
+A A Collection of Coils|QID|34067|M|86.33,63.30|U|109121|N|From UI Alert.|RANK|3|O
 A Getting the Points|QID|34069|M|84.14,65.11|N|From Barbed Thunderlord Spear.|RANK|3|
-C Getting the Points|QID|34069|M|84.53,68.44|NC|S|RANK|3|
-K Thunderlord Wranglers|QID|34066|NC|L|109121|N|Use the item to accept the quest.|RANK|3|
-A A Collection of Coils|QID|34067|M|86.33,63.30|U|109121|N|From a Coil of Sturdy Rope.|RANK|3|
-C A Collection of Coils|QID|34067|M|84.99,64.21|N|These drop from the Thunderlord Wranglers.|RANK|3|
-C Getting the Points|QID|34069|M|84.53,68.44|NC|US|RANK|3|
+C A Collection of Coils|QID|34067|M|84.99,64.21|N|These drop from the Thunderlord Wranglers.|RANK|3|S
+
+C Getting the Points|QID|34069|M|84.53,68.44|NC|RANK|3|N|Also kill Thunderlord Wranglers to get the Coil of sturdy Rope
+;K Thunderlord Wranglers|QID|34066|N|Kill Thunderlord Wranglers to get a Coil of Sturdy Rope|RANK|3|
+
+C A Collection of Coils|QID|34067|M|84.99,64.21|N|These drop from the Thunderlord Wranglers.|RANK|3|US
 C Savage Vengeance|QID|34066|M|83.50,65.90|US|RANK|3|
 T Savage Vengeance|QID|34066|M|82.62,69.77|N|To Scout Ruk'Gan.|RANK|3|
 T Getting the Points|QID|34069|M|82.62,69.77|N|To Scout Ruk'Gan.|RANK|3|

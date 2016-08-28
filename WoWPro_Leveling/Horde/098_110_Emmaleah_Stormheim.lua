@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmStormheim', 'Leveling', 'Stormheim', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,98, 105)
 WoWPro:GuideNextGuide(guide, nil)
@@ -54,7 +58,7 @@ T The Windrunner's Fate|QID|38360|M|44.12,18.20|N|To Nathanos Blightcaller.|
 T Wrath of the Blightcaller|QID|38361|M|44.12,18.20|N|To Nathanos Blightcaller.|
 A A Grim Trophy|QID|38362|M|44.12,18.20|N|From Nathanos Blightcaller.|
 C A Grim Trophy|QID|38362|M|42.14,21.34|T|Thane Wildsky|N|Loot his Head.|
-K Worgen Stalkers|QID|38627|M|44.32,22.91|QO|1|N|Help your forsaken buddies defeat the Worgen Stalkers.|;no item listed as dropping on WoWhead, I didnt get one either 
+K Worgen Stalkers|QID|38627|M|44.32,22.91|QO|1|N|Help your forsaken buddies defeat the Worgen Stalkers.|;no item listed as dropping on WoWhead, I didnt get one either
 T A Grim Trophy|QID|38362|M|36.58,29.04;36.83,30.95|CS|N|Elevator up is at first coordinate. Turn in to Nathanos Blightcaller.|
 A The Ancient Trials|QID|38459|M|36.80,31.04|N|From Huginn.|
 A Eyes in the Overlook|QID|38308|M|36.74,31.12|N|From Cullen's Scouting Report.|
@@ -547,10 +551,6 @@ D On to Class Halls|N|This ends Stormheim and the Shaman order hall guide will l
 D On to Class Halls|N|This ends Stormheim and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends Stormheim and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
 
-
-
 ]]
 
 end)
-
-
