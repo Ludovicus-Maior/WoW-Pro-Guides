@@ -1,6 +1,6 @@
 -- HereBeDragons is a data API for the World of Warcraft mapping system
 
-local MAJOR, MINOR = "HereBeDragons-1.0", 25
+local MAJOR, MINOR = "HereBeDragons-1.0", 26
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -86,7 +86,7 @@ local function RestoreWMU()
 end
 
 -- gather map info, but only if this isn't an upgrade (or the upgrade version forces a re-map)
-if not oldversion or oldversion < 21 then
+if not oldversion or oldversion < 26 then
     -- wipe old data, if required, otherwise the upgrade path isn't triggered
     if oldversion then
         wipe(mapData)
@@ -244,7 +244,7 @@ if not oldversion or oldversion < 21 then
         -- setup microdungeon storage if the its a zone map or has no floors of its own
         if (mapData[id].C > 0 and mapData[id].Z > 0) or mapData[id].numFloors == 0 then
             if not microDungeons[originalInstanceID] then
-                microDungeons[originalInstanceID] = {}
+                microDungeons[originalInstanceID] = { global = {} }
             end
         end
     end
@@ -259,8 +259,19 @@ if not oldversion or oldversion < 21 then
 
             -- check if this zone can have microdungeons
             if microDungeons[originalTerrainMapID] then
-                microDungeons[originalTerrainMapID][floorIndex] = { maxX - minX, maxY - minY, maxX, maxY }
-                microDungeons[originalTerrainMapID][floorIndex].instance = terrainMapID
+                -- store per-zone info
+                if not microDungeons[originalTerrainMapID][parentWorldMapID] then
+                    microDungeons[originalTerrainMapID][parentWorldMapID] = {}
+                end
+
+                microDungeons[originalTerrainMapID][parentWorldMapID][floorIndex] = { maxX - minX, maxY - minY, maxX, maxY }
+                microDungeons[originalTerrainMapID][parentWorldMapID][floorIndex].instance = terrainMapID
+
+                -- store global info, as some microdungeon are associated to the wrong zone when phasing is involved (garrison, and more)
+                -- but only store the first, since there can be overlap on the same continent otherwise
+                if not microDungeons[originalTerrainMapID].global[floorIndex] then
+                    microDungeons[originalTerrainMapID].global[floorIndex] = microDungeons[originalTerrainMapID][parentWorldMapID][floorIndex]
+                end
             end
         end
     end
@@ -405,8 +416,12 @@ local function getMapDataTable(mapID, level)
     if type(level) == "number" and level > 0 then
         if data.floors[level] then
             return data.floors[level]
-        elseif data.originalInstance and microDungeons[data.originalInstance] and microDungeons[data.originalInstance][level] then
-            return microDungeons[data.originalInstance][level]
+        elseif data.originalInstance and microDungeons[data.originalInstance] then
+            if microDungeons[data.originalInstance][mapID] and microDungeons[data.originalInstance][mapID][level] then
+                return microDungeons[data.originalInstance][mapID][level]
+            elseif microDungeons[data.originalInstance].global[level] then
+                return microDungeons[data.originalInstance].global[level]
+            end
         end
     else
         return data
