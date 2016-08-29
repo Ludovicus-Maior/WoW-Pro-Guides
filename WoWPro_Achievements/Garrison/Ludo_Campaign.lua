@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2016-08-28 23:27
+-- Who: tubera
+-- Log: Add missing Zone
+
+-- URL: http://wow-pro.com/node/3648/revisions/27606/view
+-- Date: 2016-08-28 23:17
+-- Who: tubera
+-- Log: Fix typo Forstwolf Overlook
+
+-- URL: http://wow-pro.com/node/3648/revisions/27598/view
 -- Date: 2016-08-26 23:45
 -- Who: tubera
 -- Log: Tweak Seismic Matters; remove duplicate Z tag in Heart of the Breakers;Fix Cragplume depths (@Gorgrond)
@@ -518,10 +528,10 @@ C Garrison Campaign: Awakening|QID|36136|QO|2|M|37.8,44.6|N|Duurg|Z|Gorgrond|FAC
 C Garrison Campaign: Awakening|QID|36136|M|41.0,43.0|N|Thisalee Crow|FACTION|Horde
 T Garrison Campaign: Awakening|QID|36136|M|40.95,43.03|N|To Choluna|Z|Gorgrond|FACTION|Horde
 A Primal Fury|QID|36342|PRE|36136|M|41.0,43.0|N|From Choluna|Z|Gorgrond|FACTION|Horde
-F Forstwolf Overlook|QID|36342|M|39.6,36.4|N|Fly to Talador|FACTION|Horde|Z|Gorgrond
+F Frostwolf Overlook|QID|36342|M|39.6,36.4|N|Fly to Talador|FACTION|Horde|Z|Gorgrond
 C Primal Fury|QID|36342|QO|1|M|66.8,9.2|N|To Rokhan|FACTION|Horde|Z|Talador
 C Primal Fury|QID|36342|QO|2|M|69.0,3.4|N|Kill Gorgorek|FACTION|Horde|Z|Talador
-C Primal Fury|QID|36342|QO|3|M|69.4,5.6|N|Kill Azuka Bladefury|FACTION|Horde
+C Primal Fury|QID|36342|QO|3|M|69.4,5.6|N|Kill Azuka Bladefury|FACTION|Horde|Z|Talador
 A Sanketsu, The Burning Blade|QID|37192|PRE|36136|M|69.45,5.74|Z|Talador|FACTION|Horde
 C Primal Fury|QID|36342|QO|4|M|67.51,7.59|Z|Talador|FACTION|Horde
 C Primal Fury|QID|36342|QO|5|M|69.42,9.22|Z|Talador|FACTION|Horde
