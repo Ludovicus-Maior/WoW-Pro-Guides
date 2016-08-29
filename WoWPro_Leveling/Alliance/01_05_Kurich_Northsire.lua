@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2016-08-29 20:42
+-- Who: Fluclo
+-- Log: Reformatted the repair remainders so they are sticky information that auto-complete on handing in quest. Changed coords for Protect the Frontier to where there are more bears, changed QID on Hearthstone as step would not show, added CC coords in Stormwind to assist those unfamiliar with the zone. 
+
+-- URL: http://wow-pro.com/node/3197/revisions/27612/view
+-- Date: 2016-08-29 20:34
+-- Who: Fluclo
+-- Log: Turn-in of Dungar Longdrink and start of Return to Argus is with Dungar Longdrink. 
+
+-- URL: http://wow-pro.com/node/3197/revisions/27611/view
+-- Date: 2016-08-29 20:00
+-- Who: Fluclo
+-- Log: Removed repair step after Manhunt as it prevented Discover Rolf's Fate from showing.
+
+-- URL: http://wow-pro.com/node/3197/revisions/27610/view
+-- Date: 2016-08-29 19:53
+-- Who: Fluclo
+-- Log: Have to turn The Collector in before Manhunt is available. Quest Accept Further Concerns to when you accept the ride for the quest.
+
+-- URL: http://wow-pro.com/node/3197/revisions/27501/view
 -- Date: 2016-07-30 21:07
 -- Who: Ludovicus
 -- Log: Syntax Fix

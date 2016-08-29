@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2016-08-29 21:51
+-- Who: Fluclo
+-- Log: Level 9 needed, so changed WoWPro:GuideLevels from 8 to 9
+
+-- URL: http://wow-pro.com/node/3213/revisions/26805/view
 -- Date: 2014-11-06 12:56
 -- Who: Fluclo
 -- Log: Removed duplicate S tag from The Coast Isn't Clear
@@ -118,13 +123,11 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitWes1020', "Leveling", 'Westfall', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,8,14,10.4861)
+WoWPro:GuideLevels(guide,9,14,10.4861)
 WoWPro:GuideNextGuide(guide, 'KurRed1520')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 9 |QID|26209|LVL|9|N|This guide requires a minimum level of 9 to do.|
 
 R Westfall |QID|26209|N|Westfall is located west of Elwynn Forest (just follow the road west from Goldshire).\n\nThere are two breadcrumb quests for this region:\n\nFurlbrow's Deed\nThis is a pickup from the floor behind Hogger\n\nHero's Call: Westfall\nThis quest is available from either of the Hero's Callboards in Stormwind City (Dwarven District and Trade District), or from any of these: Deputy Rainer at Westbrook Garrison, Marshall Dughan in Goldshire, Guard Thomas at the eastern Elwynn Bridge, Marshall McCree and Marshall Haggard at Eastvale Logging Camp.|
 

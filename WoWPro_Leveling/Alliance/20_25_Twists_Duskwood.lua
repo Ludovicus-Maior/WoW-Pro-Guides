@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2016-08-29 21:52
+-- Who: Fluclo
+-- Log: Level 19 needed, so changed WoWPro:GuideLevels from 18 to 19. Removed redundant L step from start of guide.
+
+-- URL: http://wow-pro.com/node/3222/revisions/27142/view
 -- Date: 2015-02-19 20:15
 -- Who: Aldavor
 -- Log: Added very last line as a note, as otherwise it skips to the next guide without offering the final quest turn in at the grave, and can easily be missed.
@@ -103,14 +108,12 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("TwiDus2025", "Leveling", "Duskwood", "Twists", "Alliance")
-WoWPro:GuideLevels(guide,18,24, 20.5621)
+WoWPro:GuideLevels(guide,19,24, 20.5621)
 WoWPro:GuideNextGuide(guide, "SavNorStr2530")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return
 [[
-
-L Level 19 |QID|26618|N|You need to be Level 19 to work this guide.|LVL|19|
 
 R Duskwood |QID|26618|M|74.54,41.59|N|Duskwood is found to the south-west of Redridge Mountains, east of Westfall and south of Elwynn Forest.  \n\nThe bread-crumb quest are Hero's Call: Duskwood! which is obtainable from Bailiff Conacher in Redridge Mountains, or from the Hero's Callboard in Stormwind City.|
 
