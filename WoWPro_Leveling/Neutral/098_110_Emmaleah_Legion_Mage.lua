@@ -4,15 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
--- Date: 2016-08-22 23:24
--- Who: Ludovicus
+-- Date: 2016-08-30 19:29
+-- Who: Emmaleah
 -- Log: 'nil' vs nil
 
 -- URL: http://wow-pro.com/node/3671/revisions/27569/view
 -- Date: 2016-08-20 00:28
 -- Who: Emmaleah
 
-local guide = WoWPro:RegisterGuide('EmmLegionMage', 'Leveling', 'Hall of the Guardian@MageClassShrine', 'Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmLegionMage', 'Leveling', '1068', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Mage Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
 WoWPro:GuideNextGuide(guide, nil)
@@ -61,7 +61,7 @@ A A New Threat|QID|42006|M|28.69,49.94|N|From Archmage Kalec.|PRE|42001|
 R Chamber of the Guardians|QID|42006|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|ACTIVE|42006|
 C A New Threat|QID|42006|M|31.22,83.42|Z|Aegwynn's Gallery@Dalaran70|QO|1|N|Optional - Use the Dalaran Portal to Wrymrest Temple.|
 C A New Threat|QID|42006|M|55.74,63.89|Z|Dragonblight|QO|2|N|Travel to the Azure Dragonshrine|
-C A New Threat|QID|42006|M|56.57,67.86;56.2,66.47;55.92,64.85|Z|Dragonblight|CN|QO|3|N|3/3 Clues Found|
+C A New Threat|QID|42006|M|56.57,67.86;56.2,66.47;55.92,64.85|Z|Dragonblight|CN|QO|3|N|Find the 3 Clues.|
 T A New Threat|QID|42006|M|56.67,69.13|Z|Dragonblight|N|To Ethereal Communication Device.|
 A A Forgotten Enemy|QID|42007|M|56.67,69.13|Z|Dragonblight|N|From Ethereal Communication Device.|PRE|42006|
 C A Forgotten Enemy|QID|42007|M|56.67,69.15|Z|Dragonblight|QO|1|N|Click the glowing lever to activate the communication device.|
@@ -108,32 +108,32 @@ C The Path of Atonement|QID|40270|M|28.76,37.32|Z|Hillsbrad Foothills|N|Listen t
 T The Path of Atonement|QID|40270|M|28.75,37.19|Z|Hillsbrad Foothills|N|To Aethas Sunreaver.|
 A The Frozen Flame|QID|11997|M|28.75,37.19|Z|Hillsbrad Foothills|N|From Aethas Sunreaver.|PRE|40270|
 C The Frozen Flame|QID|11997|M|28.77,37.25|Z|Hillsbrad Foothills|QO|1|NC|N|Mage Portal Taken|
-C The Frozen Halls|QID|11997|M|76.78,63.53|Z|Icecrown Citadel|SO|1|N|Defeat the Iceborn Conjurer.|
-C Destroy Permafrost Walls|QID|11997|M|76.68,61.87;73.47,53.58;61.85,53.80;52.83,40.41|CS|Z|Icecrown Citadel|SO|2;1|N|Destroy Permafrost Walls|
-C Hot of the Trail|QID|11997|M|51.86,35.29|Z|Icecrown Citadel|SO|3;1|N|Survive the three waves of flaming undead.|
-C Playing with Fire|QID|11997|M|50.93,14.71|Z|Icecrown Citadel|SO|4;1|N|Slay Lyandra Sunstrider|T|Lyandra Sunstrider|
-C The Frozen Flame|QID|11997|M|51.84,16.60|Z|Icecrown Citadel|QO|2|N|Pick up Felo'melorn.|
-R Portal to Dalaran|QID|11997|M|51.84,18.26|Z|Icecrown Citadel|N|Aethas has made a portal to Dalaran for you.|ACTIVE|11997|
+C The Frozen Halls|QID|11997|M|76.78,63.53|Z|IcecrownCitadel|SO|1|N|Defeat the Iceborn Conjurer.|
+C Destroy Permafrost Walls|QID|11997|M|76.68,61.87;73.47,53.58;61.85,53.80;52.83,40.41|CS|Z|IcecrownCitadel|SO|2;1|N|Destroy Permafrost Walls|
+C Hot of the Trail|QID|11997|M|51.86,35.29|Z|IcecrownCitadel|SO|3;1|N|Survive the three waves of flaming undead.|
+C Playing with Fire|QID|11997|M|50.93,14.71|Z|IcecrownCitadel|SO|4;1|N|Slay Lyandra Sunstrider|T|Lyandra Sunstrider|
+C The Frozen Flame|QID|11997|M|51.84,16.60|Z|IcecrownCitadel|QO|2|N|Pick up Felo'melorn.|
+R Portal to Dalaran|QID|11997|M|51.84,18.26|Z|IcecrownCitadel|N|Aethas has made a portal to Dalaran for you.|ACTIVE|11997|
 T The Frozen Flame|QID|11997|M|28.45,48.97|N|To Archmage Modera.|
 
 ;FROST
 A Finding Ebonchill|QID|42452|M|59.19,42.95|N|From Meryl Felstorm.|PRE|41085|
-C Finding Ebonchill|QID|42452|M|52.67,41.83;59.25,34.69;66.52,40.47|QO|1|NC|N|Find information on Arrexis|
+C Finding Ebonchill|QID|42452|M|52.67,41.83;59.25,34.69;66.52,40.47|CS|QO|1|NC|N|Find information on Arrexis|
 C Finding Ebonchill|QID|42452|M|59.17,42.94|QO|2|N|Speak with Meryl|CHAT|
 T Finding Ebonchill|QID|42452|M|59.17,42.94|N|To Meryl Felstorm.|
 A The Deadwind Site|QID|42476|M|59.17,42.94|N|From Meryl Felstorm.|PRE|42452|
 A Daio the Decrepit|QID|42477|M|59.17,42.94|N|From Meryl Felstorm.|PRE|42452|
 A Alodi's Gems|QID|42455|M|60.79,43.21|N|From Alodi.|PRE|42452|
 R Portal to Dalaran|QID|42455|M|62.63,51.62|CC|N|Use the portal to get back to Dalaran.|
-C Alodi's Gems|QID|42455|M|51.73,19.05|Z|Dalaran@Dalaran70QO|1|NC|N|Go to the Bank of Dalaran.|
-C Alodi's Gems|QID|42455|M|51.49,18.68|Z|Dalaran@Dalaran70QO|2|NC|N|Speak with the manager.|
-C Alodi's Gems|QID|42455|M|54.69,16.39|Z|Dalaran@Dalaran70QO|3|NC|N|Enter Alodi's personal vault.|
-C Alodi's Gems|QID|42455|M|53.94,18.83;54.31,14.76;50.78,15.71|Z|Dalaran@Dalaran70QO|4|NC|N|Find the Mana Gems.|
+C Alodi's Gems|QID|42455|M|51.73,19.05|Z|Dalaran@Dalaran70|QO|1|NC|N|Go to the Bank of Dalaran.|
+C Alodi's Gems|QID|42455|M|51.49,18.68|Z|Dalaran@Dalaran70|QO|2|NC|N|Speak with the manager.|
+C Alodi's Gems|QID|42455|M|54.69,16.39|Z|Dalaran@Dalaran70|QO|3|NC|N|Enter Alodi's personal vault.|
+C Alodi's Gems|QID|42455|M|53.94,18.83;54.31,14.76;50.78,15.71|CS|Z|Dalaran@Dalaran70|QO|4|NC|N|Find the Mana Gems.|
 R Chamber of the Guardians|QID|42477;42476|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|ACTIVE|42476;42477|
 C Portal Karazhan|QID|42476;42477|M|32.27,71.76|Z|Aegwynn's Gallery@Dalaran70|QO|1|NC|N|Optional - Use the Dalaran Portal to Karazhan.|
 C The Deadwind Site|QID|42476|M|37.75,67.20|Z|Deadwind Pass|QO|2|NC|N|Fly to the abandoned Kirin Tor camp near Karazhan|
 C The Deadwind Site|QID|42476|M|35.82,64.01|Z|Deadwind Pass|QO|3|NC|N|Find remaining ritual items.|
-C The Deadwind Site|QID|42476|M|34.95,62.51|Z|Deadwind Pass|QO|4|NC|M|Find any text on the ritual.|
+C The Deadwind Site|QID|42476|M|34.95,62.51|Z|Deadwind Pass|QO|4|NC|N|Find any text on the ritual.|
 C The Deadwind Site|QID|42476|M|34.23,62.30|Z|Deadwind Pass|QO|5|NC|N|Listen to Merina.|
 C The Deadwind Site|QID|42476|M|34.06,59.77|Z|Deadwind Pass|QO|6|NC|N|Take the Ritual Focus Crystal.|
 C Daio the Decrepit|QID|42477|M|32.27,44.57|Z|Blasted Lands|QO|2|NC|N|Fly to the Tainted Scar and find Daio.|
@@ -146,7 +146,7 @@ T Daio the Decrepit|QID|42477|M|59.17,42.94|N|To Meryl Felstorm.|
 A The Mage Hunter|QID|42479|M|59.17,42.94|N|From Meryl Felstorm.|PRE|42455+42476+42477|
 R Portal to Dalaran|QID|42479|N|Take the portal out.|ACTIVE|42479|
 C The Mage Hunter|QID|42479|M|69.83,51.13|QO|1|NC|N|Take the hippogryph in Dalaran to Faronaar.|
-C Preparations|QID|42479|M|30.61,45.04|Z|AzsunaArtifact|SO|1:1|NC|N|Talk to Meryl.|
+C Preparations|QID|42479|M|30.61,45.04|Z|AzsunaArtifact|SO|1;1|NC|N|Talk to Meryl.|
 C Wards set up|QID|42479|M|30.07,48.30;29.96,51.67;26.78,49.01|Z|AzsunaArtifact|SO|2;1|CN|N|Go to the three locations and set the Wards.|
 C Go to the Altar of End Times.|QID|42479|M|27.46,50.18|Z|AzsunaArtifact|SO|3;1|N|Go to the center of the Altar of End Times.|
 C Activate the Ritual Focus|QID|42479|M|27.65,50.62|Z|AzsunaArtifact|SO|3;2|N|Activate the Ritual Focus|
@@ -178,7 +178,8 @@ T A Conjuror's Duty|QID|41141|M|81.66,60.14|N|To The Great Akazamzarak.|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|67.52,46.47|QO|1|N|Use the portal to travel to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
-J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|
+J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
+J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
 

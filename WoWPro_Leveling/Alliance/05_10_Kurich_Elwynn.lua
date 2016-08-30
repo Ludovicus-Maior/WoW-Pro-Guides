@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2016-08-30 19:32
+-- Who: Fluclo
+-- Log: Elwynn Forest is not just for Humans, so removed Humans from the guide title
+
+-- URL: http://wow-pro.com/node/3197/revisions/27637/view
+-- Date: 2016-08-30 18:34
+-- Who: Fluclo
+-- Log: Added PRE tags where a quest before is required. Added Rank 2 to the quests that are not essential for progress in storyline. Added Target for Kurtok the Slayer. Changed Repair and Sell lines to auto-complete sticky messages. Moved Rest and Relaxation from Northshire to Elwynn guide, and added Report to Goldshire to Elwynn guide. Changed Elwynn guide from Level 3 to Level 4, and added Level tags to those that need higher levels (the guide should be level 5 and over as the Stonefield/Maclure storylines near the beginning of the guide need level 5). Added Active tags to the run steps so they only show when you're doing the relevant quests. Clarified Kobolds need looting as well as killing.
+
+-- URL: http://wow-pro.com/node/3197/revisions/27613/view
 -- Date: 2016-08-29 20:42
 -- Who: Fluclo
 -- Log: Reformatted the repair remainders so they are sticky information that auto-complete on handing in quest. Changed coords for Protect the Frontier to where there are more bears, changed QID on Hearthstone as step would not show, added CC coords in Stormwind to assist those unfamiliar with the zone. 
@@ -230,51 +240,55 @@
 -- Date: 2010-12-02 09:42
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("KurElw0511", "Leveling", "Elwynn Forest (Human)", "Kurich", "Alliance")
-WoWPro:GuideLevels(guide,3,9,5.79167)
+local guide = WoWPro:RegisterGuide("KurElw0511", "Leveling", "Elwynn Forest", "Kurich", "Alliance")
+WoWPro:GuideLevels(guide,4,9,5.79167)
 WoWPro:GuideNextGuide(guide, "BitWes1020")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Human_Male","Interface\\Icons\\Achievement_Character_Human_Female"))
 WoWPro:GuideSteps(guide, function()
 return [[
 
+A Report to Goldshire|QID|54|M|48.22,42.03|N|From Marshal McBride in Northshire Valley|PRE|26390|RANK|2|
+A Rest and Relaxation|QID|37112|M|45.42,48.99|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|RANK|2|
+
 ;f Goldshire|QID|37112|M|41.72,64.64|N|At Bartlett the Brave.|
+h Lion's Pride Inn|QID|37112|M|43.77,65.80|N|At Innkeeper Farley.|ACTIVE|37112|
 T Rest and Relaxation|QID|37112|M|43.77,65.80|N|To Innkeeper Farley.|
-h Lion's Pride Inn|QID|37112|M|43.77,65.80|N|At Innkeeper Farley.|
 A Kobold Candles|QID|60|M|43.32,65.71|N|From William Pestle.|
 r Sell Junk,restock,train and repair.|QID|54|N|Repair available inside the forging hut. Lien Farner at the junction will train you the basics of every primary professions.|M|41.84,65.68|S|ACTIVE|54|
 T Report to Goldshire|QID|54|M|42.11,65.92|N|To Marshal Dughan.|
 A The Fargodeep Mine|QID|62|M|42.11,65.92|N|From Marshal Dughan.|
 A Gold Dust Exchange|QID|47|M|42.14,67.25|N|From Remy "Two Times".|
 
-R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|85|M|34.31,83.67|
-A Lost Necklace|QID|85|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
-R The Maclure Vineyards|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|85|M|40.47,86.61|
+R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|85|M|34.31,83.67|LVL|5|
+A Lost Necklace|QID|85|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|LVL|5|
+R The Maclure Vineyards|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|85|M|40.47,86.61|ACTIVE|85|
 T Lost Necklace|QID|85|M|43.13,85.72|N|To Billy Maclure.|
-A Pie for Billy|QID|86|M|43.13,85.72|N|From Billy Maclure.|
+A Pie for Billy|QID|86|M|43.13,85.72|N|From Billy Maclure.|PRE|85|
 C Pie for Billy|N|Kill and loot Stonetusk Boars until you have 4 Tender Boar Meat.|QID|86|M|41.74,87.48|S|
-A Young Lovers|QID|106|M|43.15,89.63|N|From Maybell Maclure.|
+A Young Lovers|QID|106|M|43.15,89.63|N|From Maybell Maclure.|LVL|5|
 C Pie for Billy|N|Kill and loot Stonetusk Boars until you have 4 Tender Boar Meat.|QID|86|M|41.74,87.48|US|
-R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|86|M|29.84,86.00|
+R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|86|M|29.84,86.00|ACTIVE|106|
 T Young Lovers|QID|106|M|29.84,86.00|N|To Tommy Joe Stonefield.|
-A Speak with Gramma|QID|111|M|29.84,86.00|N|From Tommy Joe Stonefield.|
+A Speak with Gramma|QID|111|M|29.84,86.00|N|From Tommy Joe Stonefield.|PRE|106|
 T Pie for Billy|QID|86|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
-A Back to Billy|QID|84|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
+A Back to Billy|QID|84|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|PRE|86|
 T Speak with Gramma|QID|111|M|34.94,83.86|N|To Gramma Stonefield, inside the hut.|
-A Note to William|QID|107|M|34.94,83.86|N|From Gramma Stonefield.|
-R The Maclure Vineyards|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|84|M|40.47,86.61|
+A Note to William|QID|107|M|34.94,83.86|N|From Gramma Stonefield.|PRE|111|
+R The Maclure Vineyards|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|84|M|40.47,86.61|ACTIVE|84|
 T Back to Billy|QID|84|M|43.13,85.72|N|To Billy Maclure.|
-A Goldtooth|QID|87|M|43.13,85.72|N|From Billy Maclure.|
+A Goldtooth|QID|87|M|43.13,85.72|N|From Billy Maclure.|PRE|84|
 C Goldtooth|N|Go to Goldtooth's Den (which is located OUTSIDE of the mine), kill Goldtooth and loot Bernice's Necklace.|T|Goldtooth|QID|87|M|40.10,80.64|
 T Goldtooth|QID|87|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
-A Princess Must Die!|QID|88|M|34.66,84.48|N|From Ma Stonefield.|
+
+A Princess Must Die!|QID|88|M|34.66,84.48|N|From Ma Stonefield.|LVL|6|RANK|2|
 C Princess Must Die!|N|Kill Princess and pickup the Brass Collar.|QID|88|M|33.02,85.52|
 T Princess Must Die!|QID|88|M|34.66,84.48|N|To Ma Stonefield.|
 
-C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|S|
-C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|S|
+C Kobold Candles|N|Kill and loot Kobolds until you have 8 Kobold Candles.|QID|60|S|
+C Gold Dust Exchange|N|Kill and loot Kobolds until you have 10 Gold Dust.|QID|47|S|
 C The Fargodeep Mine|N|Enter the mine and follow the way until you get a quest completed message.|QID|62|M|38.96,82.27;39.05,81.59;39.56,80.32|NC|CS|
-C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|US|
-C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|US|
+C Kobold Candles|N|Kill and loot Kobolds until you have 8 Kobold Candles.|QID|60|US|M|38.00,83.50|
+C Gold Dust Exchange|N|Kill and loot Kobolds until you have 10 Gold Dust.|QID|47|US|M|38.00,83.50|
 
 H Lion's Pride Inn |QID|60|N|Hearthstone to, or run back to Lion's Pride Inn in Goldshire.|M|43.75,65.75|
 T Note to William|QID|107|M|43.32,65.70|N|To William Pestle.|
@@ -290,26 +304,26 @@ T The Fargodeep Mine|QID|62|M|42.11,65.93|N|To Marshal Dughan.|
 A The Jasperlode Mine|QID|76|M|42.11,65.93|N|From Marshal Dughan.|
 
 C Collecting Kelp|N|Kill Murlocs until you have 4 Crystal Kelp Fronds.|QID|112|M|50.93,66.47|
-R Jasperlode Mine|N|Go to the Jasperlode Mine.|QID|76|M|60.88,59.15|
+R Jasperlode Mine|N|Go to the Jasperlode Mine.|QID|76|M|60.88,59.15|ACTIVE|76|
 C The Jasperlode Mine|N|Go into the mine until you get a quest completed message.|QID|76|M|61.74,53.91|NC|
-H Lion's Pride Inn |QID|112|U|6948|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|M|43.77,65.80|
+H Lion's Pride Inn |QID|112|U|6948|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|M|43.77,65.80|ACTIVE|112|
 T Collecting Kelp|QID|112|M|43.32,65.70|N|To William Pestle.|
 
-A The Escape|QID|114|M|43.32,65.70|N|From William Pestle. You will need to wait a few seconds after turning in Collecting Kelp before this quest is available.|
+A The Escape|QID|114|M|43.32,65.70|N|From William Pestle. You will need to wait a few seconds after turning in Collecting Kelp before this quest is available.|PRE|112|
 r Sell Junk, Restock, and Repair.|QID|76|M|42.11,65.93|ACTIVE|76|N|Take this opportunity to sell Junk, Restock, and Repair.|S|
 T The Jasperlode Mine|QID|76|M|42.11,65.93|N|To Marshal Dughan.|
 
-A Further Concerns|QID|35|M|42.11,65.93|N|From Marshal Dughan.|
+A Further Concerns|QID|35|M|42.11,65.93|N|From Marshal Dughan.|PRE|40|LVL|7|
 T Further Concerns|QID|35|M|73.97,72.18|N|Speak to Marshal Dughan and ask for a ride with the Stormwind Charger. This will take you to Guard Thomas.|
 
-A Protect the Frontier|QID|52|M|73.97,72.18|N|From Guard Thomas.|
-A Find the Lost Guards|QID|37|M|73.97,72.18|N|From Guard Thomas.|
-A Bounty on Murlocs|QID|46|M|74.03,72.32|N|From the Bounty Board.|
+A Protect the Frontier|QID|52|M|73.97,72.18|N|From Guard Thomas.|LVL|7|
+A Find the Lost Guards|QID|37|M|73.97,72.18|N|From Guard Thomas.|PRE|35|
+A Bounty on Murlocs|QID|46|M|74.03,72.32|N|From the Bounty Board.|LVL|7|
 A Wanted: James Clark|QID|26152|M|74.03,72.32|N|From the Bounty Board.|
 
 C Protect the Frontier|QID|52|M|73.97,72.18|S|N|Kill the Bears and Wolves that you need.|
 T Find the Lost Guards|N|To A half-eaten body.|QID|37|M|72.66,60.33|
-A Discover Rolf's Fate|QID|45|M|72.66,60.33|N|From A half-eaten body.|
+A Discover Rolf's Fate|QID|45|M|72.66,60.33|N|From A half-eaten body.|PRE|37|
 
 A Fine Linen Goods|QID|83|M|79.46,68.71|N|From Sara Timberlain.|
 C Wanted: James Clark|N|Kill James clark and pickup his head and the Gold Pickup Schedule.|T|James Clark|QID|26152|M|78.66,67.16|
@@ -318,12 +332,12 @@ A The Collector|N|Get this from the Gold Pickup Schedule in your bags.|U|1307|QI
 A A Bundle of Trouble|QID|5545|M|81.38,66.11|N|From Supervisor Raelen.|
 T Wanted: James Clark|QID|26152|M|81.86,66.04|N|To Marshal McCree.|
 T The Collector|QID|123|M|81.86,66.04|N|To Marshal McCree.|
-A Manhunt|QID|147|M|81.86,66.04|N|From Marshal McCree.|
+A Manhunt|QID|147|M|81.86,66.04|N|From Marshal McCree.|PRE|123|
 
 C Bounty on Murlocs|N|Kill and loot Murlocs for their fins Fins.|QID|46|M|79.51,56.00|S|
 C A Bundle of Trouble|N|Collect 8 Bundles Of Wood.|QID|5545|M|80.75,61.33|NC|S|
 T Discover Rolf's Fate|QID|45|M|79.80,55.50|N|To Rolf's corpse.|
-A Report to Thomas|QID|71|M|79.80,55.50|N|From Rolf's corpse.|
+A Report to Thomas|QID|71|M|79.80,55.50|N|From Rolf's corpse.|PRE|45|
 C Bounty on Murlocs|N|Kill Murlocs until you have 8 Murloc Fins.|QID|46|M|79.51,56.00|US|
 C Bounty on Murlocs|N|Kill and loot Murlocs for their fins Fins.|QID|46|M|79.51,56.00|US|
 
@@ -338,7 +352,7 @@ C Protect the Frontier|N|Kill the remaining wolves and Bears you need to finish 
 T Protect the Frontier|QID|52|M|73.97,72.18|N|To Guard Thomas.|
 T Bounty on Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|
 T Report to Thomas|QID|71|M|73.97,72.18|N|To Guard Thomas.|
-A Cloth and Leather Armor|QID|59|M|73.97,72.18|N|From Guard Thomas.|
+A Cloth and Leather Armor|QID|59|M|73.97,72.18|N|From Guard Thomas.|PRE|71|
 
 C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps.|QID|83|M|71.20,78.86|S|
 C Manhunt|N|Kill Morgan the collector and pick up his ring.|T|Morgan The Collector|QID|147|M|71.05,80.63|
