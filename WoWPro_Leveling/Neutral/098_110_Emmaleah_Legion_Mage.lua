@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2016-08-30 21:55
+-- Who: Ludovicus
+-- Log: 153958.0310 ~ WoWPro: Step C [Slay Balaadur.] has a bad ¦Z¦RAzsunaArtifact¦ tag.
+--	153958.0311 ~ WoWPro: 124:Unknown tag ¦To Meryl Felstorm.¦ in [T The Mage Hunter¦QID¦42479¦M¦56.57,33.95¦Z¦N¦To Meryl Felstorm.¦].
+--	153958.0312 ~ WoWPro: Step T [The Mage Hunter] has a bad ¦Z¦N¦ tag.
+
+-- URL: http://wow-pro.com/node/3671/revisions/27593/view
 -- Date: 2016-08-30 19:29
 -- Who: Emmaleah
 -- Log: 'nil' vs nil
@@ -152,9 +159,9 @@ C Go to the Altar of End Times.|QID|42479|M|27.46,50.18|Z|AzsunaArtifact|SO|3;1|
 C Activate the Ritual Focus|QID|42479|M|27.65,50.62|Z|AzsunaArtifact|SO|3;2|N|Activate the Ritual Focus|
 C "Complete" the ritual.|QID|42479|M|27.66,50.63|Z|AzsunaArtifact|SO|4;1|N|Use the Ritual Focus whenever possible to complete the ritual.|
 C Wait for Balaadur's ambush.|QID|42479|M|27.60,50.93|Z|AzsunaArtifact|SO|4;2|N|Wait for Balaadur's ambush.|
-C Slay Balaadur.|QID|42479|M|67.15,92.89|Z|RAzsunaArtifact|SO|5;1|N|Slay Balaadur.|
+C Slay Balaadur.|QID|42479|M|67.15,92.89|Z|AzsunaArtifact|SO|5;1|N|Slay Balaadur.|
 C The Mage Hunter|QID|42479|M|67.04,92.73|Z|AzsunaArtifact|QO|2|N|Pick up Ebonchill. Use the portals to go back home.|
-T The Mage Hunter|QID|42479|M|56.57,33.95|Z|N|To Meryl Felstorm.|
+T The Mage Hunter|QID|42479|M|56.57,33.95|N|To Meryl Felstorm.|
 
 ;Mage Class Hall
 A The Champion's Return|QID|41114|M|28.58,49.86|N|From UI Alert.|
