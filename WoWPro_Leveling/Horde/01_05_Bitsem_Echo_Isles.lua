@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2016-08-31 00:25
+-- Who: Ludovicus
+-- Log: 0 is not valid
+
+-- URL: http://wow-pro.com/node/3199/revisions/27494/view
 -- Date: 2016-07-30 19:34
 -- Who: tubera
 -- Log: Removed class quests from Echo Isles.
@@ -284,11 +289,6 @@
 -- Who: Ludovicus
 -- Log: Get rid of - in zone names.
 
--- URL: http://wow-pro.com/node/3199/revisions/24660/view
--- Date: 2011-07-05 05:42
--- Who: Jiyambi
--- Log: Added note to Young and Vicious which explains the bug with Swiftclaw and how to fix it.
-
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.05357)
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
@@ -509,7 +509,7 @@ T An Ancient Enemy|QID|24814|M|61.57,65.85|N|To Vol'jin.|
 A Sen'jin Village|QID|25073|PRE|24814|M|61.57,65.85|N|From Vol'jin.|
 T Sen'jin Village|QID|25073|M|55.95,74.72|Z|Durotar|N|To Master Gadrin.|
 
-N Are you sure? |QID|0|LEAD|25073|N|Are you sure you want to skip this guide totally? You can't skip any quests on Echo Isles. This action will lead you out of Echo Isles and onto Durotar.|
+N Are you sure? |QID|1|LEAD|25073|N|Are you sure you want to skip this guide totally? You can't skip any quests on Echo Isles. This action will lead you out of Echo Isles and onto Durotar.|
 
 D Onwards to Durotar|N|You have finished the Echo Isles guide, the next guide will start as soon as you click off this step.|
 

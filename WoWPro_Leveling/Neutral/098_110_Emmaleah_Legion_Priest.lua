@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-08-31 00:22
+-- Who: Ludovicus
+-- Log: Zone Typo
+
+-- URL: http://wow-pro.com/node/3674/revisions/27655/view
 -- Date: 2016-08-30 23:18
 -- Who: Ludovicus
 -- Log: Relocating priests to NetherlightTemple
@@ -127,7 +132,7 @@ C Defeat the guards at the door to gain access.|SO|3;1|M|37.07,40.51|Z|Floor1@Ti
 C Enter the Tomb of Tyr.|SO|4;1|M|37.27,44.13|Z|Floor1@TirisfalGladesInsideScenario|N|Enter the Tomb of Tyr.|QID|40710|
 C Stop the dampening rituals|SO|5;1|M|41.09,53.58|Z|Floor1@TirisfalGladesInsideScenario|N|Cultists are dampening the holy wards of the tomb. Dispel their defenses and kill the ritualists to break the barrier.|QID|40710|
 C Defeat the Amassing Darkness|SO|6;1|M|37.89,51.97|Z|Floor1@TirisfalGladesInsideScenario|N|Defeat the Amassing Darkness|QID|40710|
-C Dark Passage|SO|7;1|M|56.87,74.19|Z|TFloor1@TirisfalGladesInsideScenario|N|You can use mass dispell or kill the void tendrils some other way.|QID|40710|
+C Dark Passage|SO|7;1|M|56.87,74.19|Z|Floor1@TirisfalGladesInsideScenario|N|You can use mass dispell or kill the void tendrils some other way.|QID|40710|
 C Death to the Deacon|SO|8|Z|Floor2@TirisfalGladesInsideScenariol@TirisfalGladesInsideScenariol Glades|N|Stop the Twilight Deacon.|QID|40710|
 C Blade in Twilight|QID|40710|QO|2|M|59.87,74.94|Z|Floor2@TirisfalGladesInsideScenario|N|Use your extra action button to consume Zakajz.|
 R Return to Dalaran|QID|40710|QO|3|M|57.43,73.29|Z|Floor2@TirisfalGladesInsideScenario|N|Shadowlord Slaghammer has created a portal back to Dalaran for you.|

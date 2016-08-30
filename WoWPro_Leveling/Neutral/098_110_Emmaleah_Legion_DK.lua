@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-08-31 00:15
+-- Who: Ludovicus
+-- Log: Leftover ¦Z¦Acherus: The Ebon Hold¦'s
+
+-- URL: http://wow-pro.com/node/3668/revisions/27644/view
 -- Date: 2016-08-30 22:12
 -- Who: Ludovicus
 -- Log: Zone Fixes
@@ -76,7 +81,7 @@ C The Fleshripper|SO|9|Z|Niskara|N|Gorelix has slain Margrave! Destroy the demon
 C The Dead and the Damned|QID|40740|QO|3|M|64.20,60.04|Z|Niskara|N|Obtain the Maw of the Damned|ACTIVE|40740|
 C Use Baron Sliver's Death Gate|SO|11;1|M|63.13,61.37|Z|Niskara|N|Use Baron Sliver's Death Gate|QID|40740|
 C The Call of Icecrown|NC|QID|40740|QO|4|N|Run up the hill to the frozen throne, wait until you optain the Mark of the Lich King, then take the Death Gate when it appears.|
-T The Dead and the Damned|QID|40740|M|50.99,50.74|Z|Acherus: The Ebon Hold|N|To Highlord Darion Mograine.|
+T The Dead and the Damned|QID|40740|M|50.99,50.74|Z|Hall of Command@BrokenShore|N|To Highlord Darion Mograine.|
 
 ;FROST
 ;A The Call of Icecrown|QID|38990|M|73.03,46.79|Z|Dalaran@Dalaran70|N|From UI (Lich King).|PRE|40715|
@@ -91,7 +96,7 @@ C Purge the blades of the malevolent souls within|SO|6;1|M|0.00,0.00|Z|IcecrownC
 C The Call of Icecrown|QID|38990|QO|3|M|0.00,0.00|Z|IcecrownCitadelDeathKnight|N|Pick up the Blades.|
 C The Call of Icecrown|QID|38990|QO|4|M|0.00,0.00|Z|IcecrownCitadelDeathKnight|N|Run up the hill to the Frozen Throne and wait a minute or so to obtain the Lich King's blessing.|
 C The Call of Icecrown|QID|38990|QO|5|M|0.00,0.00|Z|IcecrownCitadelDeathKnight|N|Depart the Frozen Throne by taking the Acherus Waygate.|
-T The Call of Icecrown|QID|38990|M|50.99,50.74|Z|Acherus: The Ebon Hold|N|To Highlord Darion Mograine.|
+T The Call of Icecrown|QID|38990|M|50.99,50.74|Z|Hall of Command@BrokenShore|N|To Highlord Darion Mograine.|
 
 ;UNHOLY
 ;A Apocalypse|QID|40930|M|73.11,46.85|Z|Dalaran@Dalaran70|N|From UI (Lich King).|PRE|40715|
@@ -123,7 +128,7 @@ A The Call of Vengeance|QID|40935|M|68.24,27.11|Z|KarazhanScenario|N|From Revil 
 C The Call of Vengeance|QID|40935|QO|1|M|0.00,0.00|Z|KarazhanScenario|NC|N|Take the Death Gate to the Frozen Throne.|
 C The Call of Vengeance|QID|40935|QO|2|M|49.08,90.73|Z|Dalaran@Dalaran70|NC|N|Stand by the throne a minute or so to obtain the Mark of the Lich King.|
 C The Call of Vengeance|QID|40935|QO|3|M|63.38,69.31|Z|Dalaran@Dalaran70|NC|N|Take the Death Gate to Acherus|
-T The Call of Vengeance|QID|40935|M|50.85,50.52|Z|Archerus: The Ebon Hold|N|To Highlord Darion Mograine.|
+T The Call of Vengeance|QID|40935|M|50.85,50.52|Z|Hall of Command@BrokenShore|N|To Highlord Darion Mograine.|
 
 ; Death Knight class hall
 ; Hall of Command@BrokenShore is the bottom floor, with flight master

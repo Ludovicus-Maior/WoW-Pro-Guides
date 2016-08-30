@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2016-08-31 00:25
+-- Who: Ludovicus
+-- Log: 0 is not valid
+
+-- URL: http://wow-pro.com/node/3199/revisions/27494/view
 -- Date: 2016-07-30 19:34
 -- Who: tubera
 -- Log: Removed class quests from Echo Isles.
@@ -283,11 +288,6 @@
 -- Date: 2012-10-08 19:43
 -- Who: Ludovicus
 -- Log: Get rid of - in zone names.
-
--- URL: http://wow-pro.com/node/3199/revisions/24660/view
--- Date: 2011-07-05 05:42
--- Who: Jiyambi
--- Log: Added note to Young and Vicious which explains the bug with Swiftclaw and how to fix it.
 
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
