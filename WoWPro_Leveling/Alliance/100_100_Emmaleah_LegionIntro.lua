@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_intro_guide
+-- Date: 2016-08-30 21:52
+-- Who: Ludovicus
+-- Log: Updated to |Z|Broken Shore|
+
+-- URL: http://wow-pro.com/node/3662/revisions/27568/view
 -- Date: 2016-08-20 00:25
 -- Who: Emmaleah
 -- Log: Split out the intro by factions and each class to their own guides. I am however unable to edit the title to reflect this in now alliance guide.
@@ -70,17 +75,17 @@ C To Be Prepared|QID|42782|QO|4|M|33.74,33.27|Z|Stormwind City|N|Pick one of the
 T To Be Prepared|QID|42782|M|18.93,26.51|Z|Stormwind City|N|To Knight Dameron.|
 A The Battle for Broken Shore|QID|42740|M|18.93,26.51|Z|Stormwind City|N|From Knight Dameron.|PRE|40782|
 C The Battle for Broken Shore|QID|42740|QO|1|M|19.94,29.45|Z|Stormwind City|N|Talk to Captain Angelica to take the ship to the Broken Shore|
-C The Broken Shore|QID|42740|SO|1|M|49.77,72.75|Z|BrokenShore|N|Travel to the Broken Shore.|
-C Fel Lords slain|QID|42740|SO|2;2|M|47.87,68.71|Z|BrokenShore|N|Fel Lords slain|
-C Demons slain|QID|42740|SO|2;1|M|47.56,68.53|Z|BrokenShore|N|Demons slain|
-C Spires of Woe destroyed|QID|42740|SO|2;3|M|46.90,71.23|Z|BrokenShore|N|Spires of Woe destroyed|
-C Dread Commander Arganoth slain|QID|42740|SO|3;1|M|48.56,70.90|Z|BrokenShore|T|Dread Commander Arganoth|N|Dread Commander Arganoth slain|
-C Varian found|QID|42740|SO|4;1|M|38.35,47.05|Z|BrokenShore|N|Locate King Varian Wrynn.|
-C Shielded Anchors shattered.|QID|42740|SO|5;1|M|38.59,42.68|Z|BrokenShore|N|Destroy the demon portal to stop reinforcements.|
-C Raze the Black City|QID|42740|SO|6|Z|BrokenShore|N|Assault the demon city.|
-C Tirion found|QID|42740|SO|7;1|M|55.71,32.27|Z|BrokenShore|N|Find Tirion.|
-C Krosus slain.|QID|42740|SO|8;1|M|55.04,32.21|Z|BrokenShore|N|Krosus slain.|T|Krosus|
-C Gul'dan confronted.|QID|42740|SO|9;1|M|58.34,27.36|Z|BrokenShore|N|Confrunt Gul'dan.|
+C The Broken Shore|QID|42740|SO|1|M|49.77,72.75|Z|Broken Shore|N|Travel to the Broken Shore.|
+C Fel Lords slain|QID|42740|SO|2;2|M|47.87,68.71|Z|Broken Shore|N|Fel Lords slain|
+C Demons slain|QID|42740|SO|2;1|M|47.56,68.53|Z|Broken Shore|N|Demons slain|
+C Spires of Woe destroyed|QID|42740|SO|2;3|M|46.90,71.23|Z|Broken Shore|N|Spires of Woe destroyed|
+C Dread Commander Arganoth slain|QID|42740|SO|3;1|M|48.56,70.90|Z|Broken Shore|T|Dread Commander Arganoth|N|Dread Commander Arganoth slain|
+C Varian found|QID|42740|SO|4;1|M|38.35,47.05|Z|Broken Shore|N|Locate King Varian Wrynn.|
+C Shielded Anchors shattered.|QID|42740|SO|5;1|M|38.59,42.68|Z|Broken Shore|N|Destroy the demon portal to stop reinforcements.|
+C Raze the Black City|QID|42740|SO|6|Z|Broken Shore|N|Assault the demon city.|
+C Tirion found|QID|42740|SO|7;1|M|55.71,32.27|Z|Broken Shore|N|Find Tirion.|
+C Krosus slain.|QID|42740|SO|8;1|M|55.04,32.21|Z|Broken Shore|N|Krosus slain.|T|Krosus|
+C Gul'dan confronted.|QID|42740|SO|9;1|M|58.34,27.36|Z|Broken Shore|N|Confrunt Gul'dan.|
 T The Battle for Broken Shore|QID|42740|M|20.10,34.92|Z|Stormwind City|N|To Genn Greymane.|
 A The Fallen Lion|QID|40517|M|20.10,34.92|Z|Stormwind City|N|From Genn Greymane.|PRE|42740|
 C The Fallen Lion|QID|40517|QO|1|M|85.56,31.82|Z|Stormwind City|NC|N|(Optional) Ride a gryphon to Stormwind Keep.|
