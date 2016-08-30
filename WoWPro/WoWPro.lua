@@ -620,6 +620,9 @@ end
 
 function WoWPro:GuideRaceSpecific(guide,race)
     local locRace, engRace = UnitRace("player")
+    if WoWPro.DebugLevel > 0 then
+        return -- Allow developers to check everything
+    end
     race = strupper(race)
     engRace = strupper(engRace)
     if engRace ~= race then
@@ -646,6 +649,9 @@ RegisterClass("DEMONHUNTER")
 
 function WoWPro:GuideClassSpecific(guide,class)
     local locClass, engClass = UnitClass("player")
+    if WoWPro.DebugLevel > 0 then
+        return -- Allow developers to check everything
+    end
     class = strupper(class)
     if not ValidClass[class] then
         WoWPro:Error("For guide %s, Invalid class of %s used in GuideClassSpecific()", guide.GID, class)
@@ -858,6 +864,7 @@ end
 local guides
 
 function WoWPro.AchievementsScrape()
+    WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
     WoWProDB.global.Achievements.Category = {}
     WoWProDB.global.Achievements.Achievement = {}
 
