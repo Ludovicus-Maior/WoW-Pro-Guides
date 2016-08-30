@@ -968,7 +968,7 @@ function WoWPro.NextStep(k,i)
             end
             Name = string.lower(Name)
             if Name == "townhall" then
-                local level, mapTexture, townHallX, townHallY = C_Garrison.GetGarrisonInfo()
+                local level, mapTexture, townHallX, townHallY = C_Garrison.GetGarrisonInfo(LE_GARRISON_TYPE_6_0)
                 if ( not level or not townHallX or not townHallY ) then
                     -- if no garrison yet, then stop.
                     skip = true
