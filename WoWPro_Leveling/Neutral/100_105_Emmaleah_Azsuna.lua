@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-08-30 22:23
+-- Who: Ludovicus
+-- Log: Correct typo in 60.98,34.67,65.84,37.26
+
+-- URL: http://wow-pro.com/node/3657/revisions/27499/view
 -- Date: 2016-08-30 18:40
 -- Who: Emmaleah
 -- Log: Syntax fixes
@@ -345,7 +350,7 @@ A Treasure Chest|QID|38419|M|57.15,31.06|N|Loot for a bit of treasure and resour
 K Kill Pridelord Meowl|QID|38061|QO|1|M|56.05,28.91|T|Pridelord Meowl|ITEM|138395|N|Silver to kill for a bit of treasure and resources.|RANK|3|
 A Small Treasure Chest|QID|42288|M|55.36,27.74|N|Loot for a bit of treasure and resources.|RANK|3|
 A Small Treasure Chest|QID|42338|M|55.70,25.48;57.19,25.23|CS|N|Loot for a bit of treasure and resources.|RANK|3|
-R Olivian Veil|QID|40751|M|60.98,34.67,65.84,37.26;66.06,43.44|CS|N|Back to questing.|RANK|3|
+R Olivian Veil|QID|40751|M|60.98,34.67;65.84,37.26;66.06,43.44|CS|N|Back to questing.|RANK|3|
 A Small Treasure Chest|QID|40751|M|66.06,43.44|N|Loot for a bit of treasure and resources.|
 K Syphonus|QID|37989|QO|1|M|67.19,51.58|T|Syphonus|N|Silver to kill for a bit of treasure and resources.  Be wary of the lvl 110 mobs nearby.|RANK|2|
 T Missing Demon|QID|42238|M|61.22,50.74|N|To Daglop.|RANK|2|

@@ -3,6 +3,20 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3670
+-- Date: 2016-08-30 22:58
+-- Who: Ludovicus
+-- Log: BrokenShore zone correction
+
+-- URL: http://wow-pro.com/node/3670/revisions/27651/view
+-- Date: 2016-08-30 22:57
+-- Who: Ludovicus
+-- Log: Default zone was wrong.
+
+-- URL: http://wow-pro.com/node/3670/revisions/27567/view
+-- Date: 2016-08-30 02:28
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionHunter', 'Leveling', 'TrueshotLodge@Highmountain', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Hunter Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)

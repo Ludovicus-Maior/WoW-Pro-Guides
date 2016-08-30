@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3676
+-- Date: 2016-08-30 22:33
+-- Who: Ludovicus
+-- Log: Zone tweaks
+
+-- URL: http://wow-pro.com/node/3676/revisions/27574/view
+-- Date: 2016-08-20 00:41
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionShaman', 'Leveling', 'MaelstromShaman', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Shaman Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -112,20 +121,20 @@ C Wavespeaker's Trail|QID|43645|QO|3|M|33.07,67.29|Z|Shimmering Expanse|N|Inside
 C Wavespeaker's Trail|QID|43645|QO|1|M|40.51,74.98|Z|Shimmering Expanse|N|Right in front of a giant you will need to kill to pick up the clue.|
 T Wavespeaker's Trail|QID|43645|M|43.61,63.23|Z|Shimmering Expanse|N|To Erunak Stonespeaker.|
 A Azshara's Power|QID|40341|M|43.61,63.23|Z|Shimmering Expanse|N|From Erunak Stonespeaker.|PRE|41645|
-C Azshara's Power|QID|40341|QO|1|M|68.03,27.38|Z|AbyssalMawShamanAcquisition|N|Travel to the Abyssal Maw.|
-C Azshara's Power|QID|40341|QO|2|M|0.00,0.00|Z|AbyssalMawShamanAcquisition|N|Enter the Throne of Tides.|
-C Heal the Sea Giant.|SO|1;1|M|49.98,84.29|Z|AbyssalMawShamanAcquisition|N|Cast a heal on the Sea Giant.|QID|40341|
-C Kill the Naga Brutes.|SO|1;2|M|49.98,84.29|Z|AbyssalMawShamanAcquisition|N|Kill the Naga Brutes.|QID|40341|
-C Recruit the Sea Giant.|NC|SO|1;3|M|50.27,82.63|Z|AbyssalMawShamanAcquisition|N|Recruit the Sea Giant.|QID|40341|
-C Defeat Adelee's Guards.|SO|2;1|M|50.70,54.82|Z|Throne of Neptulon|N|Defeat Adelee's Guards.|QID|40341|
-C Rescue Adelee.|SO|2;2|M|49.78,52.15|Z|Throne of Neptulon|N|Rescue Adelee.|QID|40341|
-C Ask Grash to Smash the Ice Wall|SO|3;1|M|49.57,52.48|Z|Throne of Neptulon|N|Ask Grash to Smash the Ice Wall.|QID|40341|
-C Defeat Kra'liss|SO|3;2|M|50.01,44.56|Z|Throne of Neptulon|N|Defeat Kra'liss.|QID|40341|
-C Run through the wave gauntlet.|SO|4;2|M|51.68,56.46|Z|Throne of Neptulon|N|Run through the wave gauntlet.|QID|40341|
-C Ask Grash to destroy the ice wall.|SO|5;1|M|50.61,54.08|Z|Throne of Neptulon|N|Ask Grash to destroy the ice wall.|QID|40341|
-C Slay Lady Zithreen.|SO|5;2|M|49.84,41.98|Z|Throne of Neptulon|N|Slay Lady Zithreen.|QID|40341|
-C Azshara's Power|QID|40341|QO|3|M|50.47,42.97|Z|Throne of Neptulon|N|Pick up Sharas'dal.|
-C Azshara's Power|QID|40341|QO|4|M|50.60,42.92|Z|Throne of Neptulon|N|Click on the bubble to return to the Maelstrom.|
+C Azshara's Power|QID|40341|QO|1|M|68.03,27.38|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Travel to the Abyssal Maw.|
+C Azshara's Power|QID|40341|QO|2|M|0.00,0.00|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Enter the Throne of Tides.|
+C Heal the Sea Giant.|SO|1;1|M|49.98,84.29|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Cast a heal on the Sea Giant.|QID|40341|
+C Kill the Naga Brutes.|SO|1;2|M|49.98,84.29|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Kill the Naga Brutes.|QID|40341|
+C Recruit the Sea Giant.|NC|SO|1;3|M|50.27,82.63|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Recruit the Sea Giant.|QID|40341|
+C Defeat Adelee's Guards.|SO|2;1|M|50.70,54.82|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Defeat Adelee's Guards.|QID|40341|
+C Rescue Adelee.|SO|2;2|M|49.78,52.15|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Rescue Adelee.|QID|40341|
+C Ask Grash to Smash the Ice Wall|SO|3;1|M|49.57,52.48|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Ask Grash to Smash the Ice Wall.|QID|40341|
+C Defeat Kra'liss|SO|3;2|M|50.01,44.56|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Defeat Kra'liss.|QID|40341|
+C Run through the wave gauntlet.|SO|4;2|M|51.68,56.46|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Run through the wave gauntlet.|QID|40341|
+C Ask Grash to destroy the ice wall.|SO|5;1|M|50.61,54.08|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Ask Grash to destroy the ice wall.|QID|40341|
+C Slay Lady Zithreen.|SO|5;2|M|49.84,41.98|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Slay Lady Zithreen.|QID|40341|
+C Azshara's Power|QID|40341|QO|3|M|50.47,42.97|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Pick up Sharas'dal.|
+C Azshara's Power|QID|40341|QO|4|M|50.60,42.92|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Click on the bubble to return to the Maelstrom.|
 T Azshara's Power|QID|40341|M|34.05,76.78|N|To Stormcaller Mylra.|
 
 ;Shaman Class Hall

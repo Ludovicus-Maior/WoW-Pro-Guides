@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2016-08-30 23:09
+-- Who: Ludovicus
+-- Log: |N| tag trouble
+
+-- URL: http://wow-pro.com/node/3669/revisions/27653/view
+-- Date: 2016-08-30 23:07
+-- Who: Ludovicus
+-- Log: Zone updates.
+
+-- URL: http://wow-pro.com/node/3669/revisions/27592/view
 -- Date: 2016-08-22 23:23
 -- Who: Ludovicus
 -- Log: 'nil' vs nil

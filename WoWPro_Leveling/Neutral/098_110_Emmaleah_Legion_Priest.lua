@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3674
+-- Date: 2016-08-30 23:18
+-- Who: Ludovicus
+-- Log: Relocating priests to NetherlightTemple
+
+-- URL: http://wow-pro.com/node/3674/revisions/27572/view
+-- Date: 2016-08-20 00:36
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionPriest', 'Leveling', 'PriestOrderHall', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Priest Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-08-30 22:26
+-- Who: Ludovicus
+-- Log: Step $ [Treasire:38390] in EmmValsharah is missing a CS¦CC¦CN tag.
+
+-- URL: http://wow-pro.com/node/3665/revisions/27635/view
 -- Date: 2016-08-30 02:19
 -- Who: Emmaleah
 -- Log: many refinements from play thru. 8/28/16. Finiahed adding all the rares and treasures. Changed treasure step type to $.
@@ -389,7 +394,7 @@ C Close Enough to Touch|QID|38687;41763|M|62.42,33.18|NC|QO|3|N|Search for Malfu
 K Kill Lyrath Moonfeather|QID|40079|QO|1|M|61.80,30.41|ITEM|130118|N|Kill and loot for a bit of treasure and resources.|T|Lyrath Moonfeather|
 C Close Enough to Touch|QID|38687;41763|M|59.12,32.62|NC|QO|4|N|Search for Malfurion in the Village|
 K Kill Ironbranch|QID|40080|QO|1|M|58.78,33.91|N|Kill for a bit of loot and treasure.|T|Ironbranch|
-$ Treasire|QID|38390|M|53.2,38;54,34.89|ITEM|141891|N|Just check this off and save the repair bill if you can't stealth or arent in a group. That being said, there is a cave in the tangled cleft.  In the middle of the cave is the treasure.|RANK|3|
+$ Treasure|QID|38390|M|53.2,38;54,34.89|CS|ITEM|141891|N|Just check this off and save the repair bill if you can't stealth or are not in a group. That being said, there is a cave in the tangled cleft.  In the middle of the cave is the treasure.|RANK|3|
 C Close Enough to Touch|QID|38687;41763|M|58.47,37.71|NC|QO|5|N|Find Malfurion|
 C Ruins of Shala'nir|QID|38748|M|61.52,35.71|US|N|Stay and finish if you want to.|
 t Ruins of Shala'nir|QID|38748|M|61.52,35.71|N|Auto Turned in when completed.|

@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3677
+-- Date: 2016-08-30 22:20
+-- Who: Ludovicus
+-- Log: The Typo police are after Emm!
+
+-- URL: http://wow-pro.com/node/3677/revisions/27575/view
+-- Date: 2016-08-20 00:52
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionWarrior', 'Leveling', 'ValhallasWarriorOrderHome', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Warrior Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -28,20 +37,20 @@ C Chat with Saurfang|QID|41052|M|57.47,45.56|Z|Dalaran@Dalaran70|CHAT|N|Talk to 
 A Return to the Broken Shore|QID|38904|FACTION|Horde|M|75.05,46.18|Z|Dalaran@Dalaran70|N|From High Overlord Saurfang.|PRE|41052|
 A Return to the Broken Shore|QID|42815|FACTION|Alliance|M|75.05,46.18|Z|Dalaran@Dalaran70|N|From Danath Trollbane.|PRE|42814|
 C Return to the Broken Shore|QID|38904;42815|NC|QO|1|M|75.04,47.17|Z|Dalaran@Dalaran70|N|Hop on the extra mount.|
-C Meet up with the vrykul.|SO|1;1|M|50.37,28.28|Z|BrokenShore|N|Meet up with the vrykul.|QID|38904;42815|
-C Legion forces eliminated|SO|2;1|M|51.28,30.71|Z|BrokenShore|N|Aid the vrykul in eliminating the Legion forces.|QID|38904;42815|
-C Approach Danica|SO|3;1|M|50.90,29.94|Z|BrokenShore|N|Approach Danica|QID|38904;42815|
+C Meet up with the vrykul.|SO|1;1|M|50.37,28.28|Z|Broken Shore|N|Meet up with the vrykul.|QID|38904;42815|
+C Legion forces eliminated|SO|2;1|M|51.28,30.71|Z|Broken Shore|N|Aid the vrykul in eliminating the Legion forces.|QID|38904;42815|
+C Approach Danica|SO|3;1|M|50.90,29.94|Z|Broken Shore|N|Approach Danica|QID|38904;42815|
 C Defeat Bezzeredes and his allies.|SO|4;1|M|49.45,32.56|Z|Dalaran@Dalaran70|N|Defeat Bezzeredes and his allies.|QID|38904;42815|
-C Defeat Malgalor|SO|5;1|M|49.64,28.65|Z|BrokenShore|N|Defeat Malgalor.|QID|38904;42815|
-C Return to the Broken Shore|QID|38904;42815|QO|2|M|59.04,27.27|Z|BrokenShore|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|
-T Return to the Broken Shore|QID|38904;42815|M|59.07,29.88|Z|BrokenShore|N|To Danica the Reclaimer.|ACTIVE|41052;42814|
-A Odyn and the Valarjar|QID|39654|M|59.07,29.88|Z|BrokenShore|N|From Danica the Reclaimer.|
-C Odyn and the Valarjar|QID|39654|NC|QO|1|M|59.23,45.46|NC|N|Follow Danica|
+C Defeat Malgalor|SO|5;1|M|49.64,28.65|Z|Broken Shore|N|Defeat Malgalor.|QID|38904;42815|
+C Return to the Broken Shore|QID|38904;42815|QO|2|M|59.04,27.27|Z|Broken Shore|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|
+T Return to the Broken Shore|QID|38904;42815|M|59.07,29.88|Z|Broken Shore|N|To Danica the Reclaimer.|ACTIVE|41052;42814|
+A Odyn and the Valarjar|QID|39654|M|59.07,29.88|Z|Broken Shore|N|From Danica the Reclaimer.|
+C Odyn and the Valarjar|QID|39654|QO|1|M|59.23,45.46|NC|N|Follow Danica|
 C Odyn and the Valarjar|QID|39654|QO|2|M|58.55,68.39|NC|N|Go to the Great Mead Hall|
 C Odyn and the Valarjar|QID|39654|QO|3|M|58.45,76.79|NC|N|Listen to Odyn|
 T Odyn and the Valarjar|QID|39654|M|58.43,85.13|N|To Odyn.|
 A Weapons of Legend|QID|40579|M|58.43,85.13|N|From Odyn.|PRE|38654|
-C Weapons of Legend|QID|40579|QO|M|58.43,85.13|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
+C Weapons of Legend|QID|40579|M|58.43,85.13|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T Weapons of Legend|QID|40579|M|58.43,85.13|N|To Odyn.|
 A Artifact Specific Quest|QID|41105;40043;39191|M|58.43,85.13|N|From Odyn.|PRE|40579|
 
@@ -87,12 +96,12 @@ T The Hunter of Heroes|QID|40043|M|58.58,85.63|N|To Odyn.|
 ;A Legacy of the Icebreaker|QID|39191|M|58.42,84.89|N|From Odyn.|PRE|40579|
 C Legacy of the Icebreaker|QID|39191|M|59.27,25.32|CHAT|N|Talk with Hrithnir.|ACTIVE|40579|
 C The Sealed Tomb|SO|1;1|M|84.26,9.55|Z|StormheimArtifactProtWarrior|N|Fight your way down the hill (with Hrithnir) until you get to the entrance of the tomb.|QID|40579|
-C Defeat Pillik|SO|2;1|M|84.26,9.55|ZStormheimArtifactProtWarrior|N|After you defeat him, the doors will open.|QID|40579|
+C Defeat Pillik|SO|2;1|M|84.26,9.55|Z|StormheimArtifactProtWarrior|N|After you defeat him, the doors will open.|QID|40579|
 C Find Magnar|SO|3;1|M|53.22,57.52|Z|StormheimArtifactProtWarrior|N|Heroic Leap to the nearest mob, after he dies, Heroic Leap to the one across.  When those two are dead, the wind on the floor goes away.|QID|40579|
 C Defend Hruthnir|SO|4;1|M|50.58,72.84|Z|StormheimArtifactProtWarrior|N|Defend Hruthnir|QID|40579|
 C Defeat Magnar Icebreaker|SO|5;1|M|50.13,83.25|Z|StormheimArtifactProtWarrior|N|Defeat Magnar Icebreaker|QID|40579|
 C Armaments of the Black Wyrm|SO|6;1|M|19.98,82.35|Z|StormheimArtifactProtWarrior|N|The sword and shield are yours, claim them.|QID|40579|
-C Legacy of the Icebreaker|QID|39191|QO|3|M|M|19.98,82.35|Z|StormheimArtifactProtWarrior|N|Stand in the middle of the glowing circle and use your extra action button to take Odyn's portal back to Skyhold.|
+C Legacy of the Icebreaker|QID|39191|QO|3|M|19.98,82.35|Z|StormheimArtifactProtWarrior|N|Stand in the middle of the glowing circle and use your extra action button to take Odyn's portal back to Skyhold.|
 T Legacy of the Icebreaker|QID|39191|M|58.51,85.77|N|To Odyn.|
 
 ;Warrior Class Hall

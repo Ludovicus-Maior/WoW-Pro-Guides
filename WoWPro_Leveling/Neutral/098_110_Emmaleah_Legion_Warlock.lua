@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3679
+-- Date: 2016-08-30 22:15
+-- Who: Ludovicus
+-- Log: Corrected Zones
+
+-- URL: http://wow-pro.com/node/3679/revisions/27577/view
+-- Date: 2016-08-20 00:56
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionWarlock', 'Leveling', 'WarlockClassShrine', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Warlock Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -134,11 +143,11 @@ C An Eye for a Scepter|QID|43153|QO|3|M|74.06,42.48|Z|Baradin Hold@TolBaradWarlo
 T An Eye for a Scepter|QID|43153|M|74.06,42.48|Z|Dalaran@Dalaran70|N|To Calydus.|
 A Ritual Ruination|QID|43254|M|74.06,42.48|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|43153|
 C Ritual Ruination|QID|43254|NC|QO|1|M|74.65,42.67|Z|Dalaran@Dalaran70|N|Take the Fel Bat to the Broken Shore.|
-C Ritual Ruination|QID|43254|NC|QO|2|M|60.57,25.01|Z|BrokenShore|N|Listen to Gul'dan.|
-C Ritual Ruination|QID|43254|QO|3|M|59.72,25.71|Z|BrokenShore|N|Slay Allaris Nassarin.|
-C Ritual Ruination|QID|43254|NC|QO|4|M|60.16,25.41|Z|BrokenShore|N|Take the Scepter of Sargeras.|
-C Ritual Ruination|QID|43254|NC|QO|5|M|60.16,25.41|Z|BrokenShore|N|Click on the Legion Alter to ruin the ritual.|
-C Ritual Ruination|QID|43254|QO|6|M|58.95,26.81|Z|BrokenShore|N|Escape to Dalaran and meet Calydus.|
+C Ritual Ruination|QID|43254|NC|QO|2|M|60.57,25.01|Z|Broken Shore|N|Listen to Gul'dan.|
+C Ritual Ruination|QID|43254|QO|3|M|59.72,25.71|Z|Broken Shore|N|Slay Allaris Nassarin.|
+C Ritual Ruination|QID|43254|NC|QO|4|M|60.16,25.41|Z|Broken Shore|N|Take the Scepter of Sargeras.|
+C Ritual Ruination|QID|43254|NC|QO|5|M|60.16,25.41|Z|Broken Shore|N|Click on the Legion Alter to ruin the ritual.|
+C Ritual Ruination|QID|43254|QO|6|M|58.95,26.81|Z|Broken Shore|N|Escape to Dalaran and meet Calydus.|
 T Ritual Ruination|QID|43254|M|55.86,64.99|Z|Dalaran@Dalaran70|N|To Calydus.|
 
 ;Warlock class hall

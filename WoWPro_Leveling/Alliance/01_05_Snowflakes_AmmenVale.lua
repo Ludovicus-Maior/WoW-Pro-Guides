@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2016-08-30 22:43
+-- Who: Ludovicus
+-- Log: Corrected a few typos.
+
+-- URL: http://wow-pro.com/node/3206/revisions/27511/view
 -- Date: 2016-08-01 00:45
 -- Who: tubera
 -- Log: Remove class ability quests. Move "A Vindicator Aldar", Healing the lake must be done before. Split Inoculation, it has 2 QIDs 1 for Draenei(37444) and 1 for Others(9303).
@@ -247,7 +252,7 @@ T What Must Be Done...|QID|9293|M|49.87,37.35|N|To Botanist Taerix.|
 
 A Healing the Lake|QID|9294|M|49.87,37.35|N|From Botanist Taerix.|
 T Rescue the Survivors!|QID|9283|M|51.8,42.0|N|To wandering Zaldunn.|R|Draenei|
-C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent (right click on the icon).|M|45.5,64.6|NC|
+C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent (right click on the icon).|M|45.5,64.6|NC|
 T Healing the Lake|QID|9294|M|49.87,37.35|N|To Botanist Taerix.|
 
 A Vindicator Aldar|QID|10304|PRE|9294|LEAD|37444|M|49.87,37.35|N|From Botanist Taerix.|
@@ -261,7 +266,7 @@ r Sell junk and repair|QID|37445|N|At Mura, close this step when done.|M|49.99,4
 C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|Draenei
 C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren
 C Spare Parts|QID|37445|N|Into the hills, through the cave. The parts are spread all over the camp.|M|58,72|
-C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|E|Draenei
+C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|Draenei
 C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren
 H Ammen Vale|QID|37445|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
 

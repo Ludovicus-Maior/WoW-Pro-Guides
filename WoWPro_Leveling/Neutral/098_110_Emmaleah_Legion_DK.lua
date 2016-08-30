@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-08-30 22:12
+-- Who: Ludovicus
+-- Log: Zone Fixes
+
+-- URL: http://wow-pro.com/node/3668/revisions/27594/view
 -- Date: 2016-08-22 23:36
 -- Who: Ludovicus
 -- Log: Corrected class name
@@ -58,7 +63,7 @@ A Artifact Specific Quest|QID|40930;40740;38990|M|73.11,46.85|Z|Dalaran@Dalaran7
 ;BLOOD
 ;A The Dead and the Damned|QID|40740|M|73.03,46.79|Z|Dalaran@Dalaran70|N|From UI (Lich King).|PRE|40715|
 C The Dead and the Damned|QID|40740|NC|QO|1|M|73.35,47.90|Z|Dalaran@Dalaran70|N|Optional: Ride Zeomus to the Broken Shore|
-C The Dead and the Damned|QID|40740|NC|QO|2|M|32.00,31.96|Z|BrokenShore|N|Enter into the Legion Portal|
+C The Dead and the Damned|QID|40740|NC|QO|2|M|32.00,31.96|Z|Broken Shore|N|Enter into the Legion Portal|
 C Hunting the Hunters|SO|1|Z|Niskara|N|Run forward until you see Baron Sliver.|QID|40740|
 C Follow Baron Silver|SO|2;1|M|22.25,51.03|Z|Niskara|N|Follow Baron Silver|QID|40740|
 C Protect Baron Sliver while he disables the Fel Barrier|SO|3;1|M|23.82,48.23|Z|Niskara|N|Protect Baron Sliver while he disables the Fel Barrier|QID|40740|
@@ -120,19 +125,21 @@ C The Call of Vengeance|QID|40935|QO|2|M|49.08,90.73|Z|Dalaran@Dalaran70|NC|N|St
 C The Call of Vengeance|QID|40935|QO|3|M|63.38,69.31|Z|Dalaran@Dalaran70|NC|N|Take the Death Gate to Acherus|
 T The Call of Vengeance|QID|40935|M|50.85,50.52|Z|Archerus: The Ebon Hold|N|To Highlord Darion Mograine.|
 
-;Death Knight class hall
-A Keeping Your Edge|QID|39757|M|49.76,55.96|Z|Archerus: The Ebon Hold|N|From Illanna Dreadmoore.|
-C Keeping Your Edge|QID|39757|QO|1|M|36.39,38.65|Z|Archerus: The Ebon Hold|N|Take the teleporter to the second level of Acherus|
-T Keeping Your Edge|QID|39757|M|0.00,0.00|Z|Archerus: The Ebon Hold|N|To Grand Master Siegesmith Corvus.|
-A Advanced Runecarving|QID|39761|M|0.00,0.00|Z|Archerus: The Ebon Hold|N|From Grand Master Siegesmith Corvus.|PRE|40757|
-C Advanced Runecarving|QID|39761|QO|1|M|0.00,0.00|Z|Archerus: The Ebon Hold|NC|N|Use the Soul Forge to imbue your artifact|
-T Advanced Runecarving|QID|39761|M|0.00,0.00|Z|Archerus: The Ebon Hold|N|To Grand Master Siegesmith Corvus.|
-A Plans and Preparations|QID|39832|M|0.00,0.00|Z|Archerus: The Ebon Hold|N|From Grand Master Siegesmith Corvus.|PRE|40761|
-T Plans and Preparations|QID|39832|M|49.66,51.25|Z|Archerus: The Ebon Hold|N|To Siouxsie the Banshee.|
-A Our Next Move|QID|39799|M|49.66,51.25|Z|Archerus: The Ebon Hold|N|From Siouxsie the Banshee.|PRE|39832|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|49.66,51.25|Z|Archerus: The Ebon Hold|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|39799|
-T Our Next Move|QID|39799|M|49.66,51.25|Z|Archerus: The Ebon Hold|N|To Siouxsie the Banshee.|
-C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|24.67,33.69|Z|Archerus: The Ebon Hold|N|The portal is out by the flightmaster.|
+; Death Knight class hall
+; Hall of Command@BrokenShore is the bottom floor, with flight master
+; The Heart of Acherus@BrokenShore is the top floor
+A Keeping Your Edge|QID|39757|M|49.76,55.96|Z|Hall of Command@BrokenShore|N|From Illanna Dreadmoore.|
+C Keeping Your Edge|QID|39757|QO|1|M|36.39,38.65|Z|The Heart of Acherus@BrokenShore|N|Take the teleporter to the second level of Acherus|
+T Keeping Your Edge|QID|39757|M|0.00,0.00|Z|The Heart of Acherus@BrokenShore|N|To Grand Master Siegesmith Corvus.|
+A Advanced Runecarving|QID|39761|M|0.00,0.00|Z|The Heart of Acherus@BrokenShore|N|From Grand Master Siegesmith Corvus.|PRE|40757|
+C Advanced Runecarving|QID|39761|QO|1|M|0.00,0.00|Z|The Heart of Acherus@BrokenShore|NC|N|Use the Soul Forge to imbue your artifact|
+T Advanced Runecarving|QID|39761|M|0.00,0.00|Z|The Heart of Acherus@BrokenShore|N|To Grand Master Siegesmith Corvus.|
+A Plans and Preparations|QID|39832|M|0.00,0.00|Z|The Heart of Acherus@BrokenShore|N|From Grand Master Siegesmith Corvus.|PRE|40761|
+T Plans and Preparations|QID|39832|M|49.66,51.25|Z|Hall of Command@BrokenShore|N|To Siouxsie the Banshee.|
+A Our Next Move|QID|39799|M|49.66,51.25|Z|Hall of Command@BrokenShore|N|From Siouxsie the Banshee.|PRE|39832|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|49.66,51.25|Z|Hall of Command@BrokenShore|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|39799|
+T Our Next Move|QID|39799|M|49.66,51.25|Z|Hall of Command@BrokenShore|N|To Siouxsie the Banshee.|
+C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|24.67,33.69|Z|Hall of Command@BrokenShore|N|The portal is out by the flightmaster.|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|
