@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2016-08-29 23:02
+-- Who: Fluclo
+-- Log: Minimum WoWPro:GuideLevels changed from 31 to 34
+
+-- URL: http://wow-pro.com/node/3243/revisions/26618/view
 -- Date: 2014-07-25 22:03
 -- Who: Ludovicus
 -- Log: coor mean
@@ -62,7 +67,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjFer3540', "Leveling", 'Feralas', 'WKjezz', 'Alliance')
-WoWPro:GuideLevels(guide,31,38, 35.1758)
+WoWPro:GuideLevels(guide,34,38, 35.1758)
 WoWPro:GuideNextGuide(guide, 'WkjTho4045')
 WoWPro:GuideIcon(guide,"ACH",4932)
 WoWPro:GuideSteps(guide, function()

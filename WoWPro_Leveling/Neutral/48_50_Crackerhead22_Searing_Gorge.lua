@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2016-08-29 22:58
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3255/revisions/27581/view
 -- Date: 2016-08-20 20:11
 -- Who: tubera
 -- Log: oops level tag is LVL not L
@@ -142,8 +146,6 @@ WoWPro:GuideNextGuide(guide, 'CraBur5052|LiaBur5052')
 WoWPro:GuideIcon(guide,"ACH",4910)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 46|QID|27963|N|You need to be Level 46 to do this guide.|LVL|46|
 
 H Dragon's Mouth|QID|27963|N|Hearth back to Dragon's Mouth.|FACTION|Alliance|
 R Searing Gorge|QID|27963|M|9.79,51.31;2.29,51.97|Z|Badlands|CS|N|Follow the arrows into Searing Gorge.|

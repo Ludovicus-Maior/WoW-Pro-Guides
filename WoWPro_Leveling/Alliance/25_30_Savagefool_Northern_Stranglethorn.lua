@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
+-- Date: 2016-08-29 22:55
+-- Who: Fluclo
+-- Log: Changed WoWPro:GuideLevels from 19 to 24, and removed redundant L step at the beginning of the guide
+
+-- URL: http://wow-pro.com/node/3231/revisions/27528/view
 -- Date: 2016-08-06 21:58
 -- Who: tubera
 -- Log: Reorganize start a bit for the L26 quest. Fix several QOs. Add few |PRE|/|O| tag combinations for UI popups.
@@ -72,13 +77,11 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('SavNorStr2530', "Leveling", 'Northern Stranglethorn', 'Savagefool', 'Alliance')
-WoWPro:GuideLevels(guide,19,29, 24.4783)
+WoWPro:GuideLevels(guide,24,29, 24.4783)
 WoWPro:GuideNextGuide(guide, 'BitCap3035')
 WoWPro:GuideIcon(guide,"ACH",4906)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 24 |LVL|24|QID|26732|N|You need to be level 24 to do this guide.|
 
 R Rebel Camp|QID|26732|M|47.82,11.98|N|Northern Stranglethorn is to the south of Duskwood. You can obtain one of two breadcrumbs into this zone, Rebels Without a Clue is offered by Sentinel Velene Starstrike at the Stardust Spire in Ashenvale, and from Sister Elsington in Raven Hill, Duskwood.  Alternatively, in-level players can obtain the Hero's Call from Stormwind City.\n\nOnce you have one of these two, head to the Rebel Camp.|
 f Rebel Camp|QID|26740|M|47.87,11.86|N|At James Stillair.|

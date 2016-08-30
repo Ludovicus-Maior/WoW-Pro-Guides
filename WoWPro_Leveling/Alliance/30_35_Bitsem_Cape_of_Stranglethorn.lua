@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2016-08-29 22:56
+-- Who: Fluclo
+-- Log: Changed WoWPro:GuideLevels from 26 to 29, and removed redundant L step at beginning of guide.
+
+-- URL: http://wow-pro.com/node/3237/revisions/27152/view
 -- Date: 2015-03-04 20:25
 -- Who: Aldavor
 -- Log: Changed the 'CN' to 'CC' in "The Bloodsail Buccaneers" line to auto-complete directional waypoints.
@@ -124,13 +129,11 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitCap3035', "Leveling", 'The Cape of Stranglethorn', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,26,34, 30.1168)
+WoWPro:GuideLevels(guide,29,34, 30.1168)
 WoWPro:GuideNextGuide(guide, 'BitWes3540')
 WoWPro:GuideIcon(guide,"ACH",4905)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 29 |QID|26805|N|You need to be Level 29 to work this guide.|LVL|29|
 
 R Fort Livingston |QID|26805|N|The Cape of Stranglethorn is found south of Northern Stranglethorn. To start this guide, first head to Fort Livingstone, to the south of Northern Stranglethorn.\n\nThere is a breadcrumb quest leading you to this zone, Hero's Call from the callboard in Stormwind City, which can be used in addition to the breadcrumb from Northern Stranglethorn.|
 A To the Cape! |QID|26805|M|53.37,66.32|N|From Wilfred Harrys in Fort Livingston, Northern Stranglethorn.  This quest is available even if you haven't quested in Northern Stranglethorn.|Z|Northern Stranglethorn|

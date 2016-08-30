@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2016-08-29 22:52
+-- Who: Fluclo
+-- Log: Removed redundant L step from beginning of guide
+
+-- URL: http://wow-pro.com/node/3224/revisions/26810/view
 -- Date: 2014-11-06 13:11
 -- Who: Fluclo
 -- Log: Removed duplicate NC tag from Down In Thelgen Rock; Added missing M tag in Torrention
@@ -106,8 +111,6 @@ WoWPro:GuideNextGuide(guide, 'BitAra2025')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 18 |QID|26137|LVL|18|N|This guide requires a minimum level of 18 to do.|
 
 R Algaz Station|QID|26137|M|25.45,17.97|Z|Loch Modan|N|Start by heading to Algaz Station, located to the north-west of Loch Modan.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 2: Loch Modan and Dun Algaz\nRank 1: Wetlands Only|LEAD|27116|
 

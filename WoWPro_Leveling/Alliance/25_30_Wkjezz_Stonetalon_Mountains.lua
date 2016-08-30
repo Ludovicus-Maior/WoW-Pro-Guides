@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2016-08-29 22:55
+-- Who: Fluclo
+-- Log: Changed WoWPro:GuideLevels from 23 to 24, and removed redundant L step from beginning of guide
+
+-- URL: http://wow-pro.com/node/3233/revisions/26490/view
 -- Date: 2014-06-04 20:14
 -- Who: Ludovicus
 -- Log: Added mean
@@ -82,13 +87,11 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjSton2530', "Leveling", 'Stonetalon Mountains', 'WKjezz', 'Alliance')
-WoWPro:GuideLevels(guide,23,27, 25.2466)
+WoWPro:GuideLevels(guide,24,27, 25.2466)
 WoWPro:GuideNextGuide(guide, 'WkjDes3035')
 WoWPro:GuideIcon(guide,"ACH",4936)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 24 |N|You need to be Level 24 to work this guide.|QID|25614|LVL|24|
 
 R Stardust Spire |QID|13979|N|You start off Stonetalon Mountains from Stardust Spire, Ashenvale.  This is south of Astranaar.\n\nThere is a breadcrumb Hero's Call from The Exodar and Darnassus, otherwise this guide comes off the Ashenvale guide (there are four quests overlap that should be picked up by the guide).\n\nYou will be performing a few quests in Astranaar before heading to Stonetalon Mountains, this is the only way to get a lot of the Stonetalon Quests.|M|35.25,71.50|Z|Ashenvale|
 

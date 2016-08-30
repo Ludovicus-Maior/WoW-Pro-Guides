@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2016-08-29 22:51
+-- Who: Fluclo
+-- Log: Removing redundant L step at beginning of guide
+
+-- URL: http://wow-pro.com/node/3218/revisions/26808/view
 -- Date: 2014-11-06 13:06
 -- Who: Fluclo
 -- Log: Removed duplicate tags from QID 13562, 13564, 13565, 13512 (x2) and 13605
@@ -132,8 +137,6 @@ WoWPro:GuideNextGuide(guide, "WkjAsh2025")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 8 |QID|13518|LVL|8|N|This guide requires a minimum level of 8 to do.|
 
 R Lor'danel |QID|13518|N|This guide starts from Lor'danel, which can be reached by Flightpoint from Darnassus and Exodar.  The breadcrumb quest is Breaking Waves of Change from The Howling Oak in Darnassus, or Hero's Call: Darkshore! from Darnassus.|R|Worgen|
 R Lor'danel |QID|13518|N|This guide starts from Lor'danel, which can be reached by Flightpoint from Darnassus and Exodar.  The breadcrumb quest is Breaking Waves of Change from The Temple of the Moon in Darnassus, or Hero's Call: Darkshore! from Darnassus.|R|Human,Gnome,Draenei,Dwarf,Night Elf|

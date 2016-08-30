@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2016-08-29 22:57
+-- Who: Fluclo
+-- Log: Removed redundant L step from beginning of guide
+
+-- URL: http://wow-pro.com/node/3244/revisions/27553/view
 -- Date: 2016-08-15 20:16
 -- Who: tubera
 -- Log: Fix several QOs
@@ -150,8 +155,6 @@ WoWPro:GuideNextGuide(guide, 'CraEas4045')
 WoWPro:GuideIcon(guide,"ACH",4893)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 34 |QID|27161|N|You need to be Level 34 to do this guide.|LVL|34|
 
 R Andorhal |QID|27161|N|Western Plaguelands is located north of The Hinterlands.  You can take the quest The Battle for Andorhal from Booty Bay (War-Mage Erallier near the Flightmaster), Gryphon Master Talonaxe in Aerie Peak, or from Commander Ashlam Valorfist in Chillwind Camp.  Each will give you transportation to Andorhal. Alternatively, you can also take the Hero's Call from Ironforge or Stormwind City.|M|41.08,70.26|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2016-08-29 22:59
+-- Who: Fluclo
+-- Log: Changed WoWPro:GuideLevels from 43 to 44, and removed redundant L step from beginning of guide
+
+-- URL: http://wow-pro.com/node/3259/revisions/26595/view
 -- Date: 2014-07-25 21:03
 -- Who: Ludovicus
 -- Log: Adj. mean level.
@@ -100,13 +105,11 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjTan4550', "Leveling", 'Tanaris', 'Wkjezz', 'Alliance')
-WoWPro:GuideLevels(guide,43,49,44.7607)
+WoWPro:GuideLevels(guide,44,49,44.7607)
 WoWPro:GuideNextGuide(guide, 'JiyUng5055')
 WoWPro:GuideIcon(guide,"ACH",4935)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 44 |QID|27446|LVL|44|N|You need to be Level 44 to work this guide.|
 
 R Thousand Needles |QID|27446|LVL|45|M|75.95,74.58|N|This quest starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles.  \n\nIf you have not quested in Thousand Needles before this point, you should fly to Shadebough, Feralas or Mudsprocket, Dustwallow Marsh.  From there, get the quest To New Thalanaar, fly to New Thalanaar, do the quest The Grimtotem are Coming, then the quest Two If By Boat.|Z|Thousand Needles|
 R Fizzle & Pozzik's Speedbarge |QID|27446|N|This guide starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles, so head there first.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2016-08-29 22:53
+-- Who: Fluclo
+-- Log: Changed WoWPro:GuideLevels from level 17 to level 19, and removed redundant L step at beginning of guide
+
+-- URL: http://wow-pro.com/node/3225/revisions/26615/view
 -- Date: 2014-07-25 22:01
 -- Who: Ludovicus
 -- Log: add mean
@@ -135,14 +140,12 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjAsh2025', "Leveling", 'Ashenvale', 'WKJezz', 'Alliance')
-WoWPro:GuideLevels(guide,17,24, 20.0346)
+WoWPro:GuideLevels(guide,19,24, 20.0346)
 WoWPro:GuideNextGuide(guide, 'WkjSton2530')
 WoWPro:GuideIcon(guide,"ACH",4925)
 WoWPro:GuideSteps(guide, function()
 
 return [[
-
-L Level 19 |QID|13594|LVL|19|N|This guide requires a minimum level of 19 to do.|
 
 N Ashenvale Guide |QID|13594|N|There are two breadcrumb quests to this guide, Ashes in Ashenvale from Balren of the Claw in Darkshore for those who worked through that zone, and Hero's Call: Ashenvale available from Darnassus.\n\nAshenvale has a weird design, so we will be making what seems some odd moves around the zone, this is to provide maximum possible XP. \n\n(Click this step to continue)|
 

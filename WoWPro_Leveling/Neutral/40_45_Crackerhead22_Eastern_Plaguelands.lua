@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2016-08-29 22:58
+-- Who: Fluclo
+-- Log: Removed redundant L step from beginning of guide
+
+-- URL: http://wow-pro.com/node/3251/revisions/27562/view
 -- Date: 2016-08-19 16:47
 -- Who: tubera
 -- Log: Fix mostly QOs; Add Missing T; Removed suggestions to go to Capital cities. There's no more training.
@@ -154,8 +159,6 @@ WoWPro:GuideNextGuide(guide, 'CraBad4548|LiaBad4548')
 WoWPro:GuideIcon(guide,"ACH",4892)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 39 |QID|27367|N|You need to be Level 39 to do this guide.|LVL|39|
 
 ;Option 1 - Already got the Hero's Call/Warchief's Command in log
 F Thondroril River |QID|27367|M|9.02,66.52|N|Head to Fiona at the western part of Eastern Plaguelands.\n\nIf you've never been to Eastern Plaguelands and don't have a flying mount, head to Menders Stead in Western Plaguelands, and run east.|ACTIVE|28577;28578|

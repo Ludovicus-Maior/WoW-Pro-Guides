@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2016-08-29 22:47
+-- Who: Fluclo
+-- Log: The first three quests need level 8, 9 and 10, and all followups need level 10, therefore changing WoWPro:GuideLevels minimum level to 10.
+
+-- URL: http://wow-pro.com/node/3220/revisions/27184/view
 -- Date: 2015-03-28 16:25
 -- Who: Aldavor
 -- Log: Some minor changes, added tags where appropriate, cleaned up.
@@ -113,7 +118,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Bloodmyst Isle", "Sven", "Alliance")
-WoWPro:GuideLevels(guide,8,19,12.9677)
+WoWPro:GuideLevels(guide,10,19,12.9677)
 WoWPro:GuideNextGuide(guide, "WkjAsh2025")
 WoWPro:GuideIcon(guide,"ACH",4926)
 WoWPro:GuideSteps(guide, function()

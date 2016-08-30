@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2016-08-30 00:24
+-- Who: Fluclo
+-- Log: Clarified steps for He Who Controls the Ettins, clarified targets for Canyon Romp, added in-cavern markers to Ardo Dirtpaw, added Target tag for Canyon Ettin, moved Fart in the Wind unsticky to avoid having to return to the area to finish collecting, moved Surveying Equipment unsticky to avoid having to return to the area to finish collecting, clarified missing step in Danforth quest. Fixed couple of unexpected characters (typos). Minor clarifying notes for a few steps.
+
+-- URL: http://wow-pro.com/node/3215/revisions/27617/view
+-- Date: 2016-08-29 22:24
+-- Who: Fluclo
+-- Log: Flight points are again unknown until you first visit them, so removed ; before each of the three FlightPoints
+
+-- URL: http://wow-pro.com/node/3215/revisions/27616/view
+-- Date: 2016-08-29 22:01
+-- Who: Fluclo
+-- Log: Minimum level is 14, so updated WoWPro:GuideLevels from 12 to 14, and removed redundant L step at start of guide
+
+-- URL: http://wow-pro.com/node/3215/revisions/27516/view
 -- Date: 2016-08-02 17:21
 -- Who: tubera
 -- Log: Fix QO tags. Added some notes, mainly to clear up where the Quest givers are hiding. 
@@ -117,13 +132,11 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("KurRed1520", "Leveling", "Redridge Mountains", "Kurich", "Alliance")
-WoWPro:GuideLevels(guide,12,17, 15.1325)
+WoWPro:GuideLevels(guide,14,17, 15.1325)
 WoWPro:GuideNextGuide(guide, "TwiDus2025")
 WoWPro:GuideIcon(guide,"ACH",4902)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 14 |QID|26506|LVL|14|N|This guide requires a minimum level of 14 to do.|
 
 R Redridge Mountains|QID|26506|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are Threat to the Kingdom from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and Hero's Call: Redridge Mountains! available from both Hero's Callboards in Stormwind City, as well as from King Varian Wrynn. |
 
@@ -144,48 +157,49 @@ T Still Assessing the Threat|QID|26503|M|15.31,64.82|N|To Watch Captain Parker o
 A Parker's Report|QID|26505|M|15.31,64.82|N|From Watch Captain Parker on top of the tower.|
 T Wanted: Redridge Gnolls|QID|26504|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
 
-; f Lakeshire|M|29.48,53.77|N|At Ariena Stormfeather.|QID|26761|
+f Lakeshire|M|29.48,53.77|N|At Ariena Stormfeather.|QID|26761|
+r Repair, Sell Junk|QID|26505|S|ACTIVE|26505|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|
 T Threat to the Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon inside the town hall.|O|
 T Parker's Report|QID|26505|M|28.78,41.15|N|To Magistrate Solomon inside the town hall.|
 A We Must Prepare!|QID|26510|M|28.78,41.15|N|From Magistrate Solomon.|
 A Lake Everstill Clean Up|QID|26511|M|28.61,40.99|N|From Bailiff Conacher.|
 h Lakeshire|QID|26509|M|26.38,41.54|N|At Innkeeper Brianna.|
-A An Unwelcome Guest|QID|26509|M|22.03,42.79|N|From Martie Jainrose.|
+A An Unwelcome Guest|QID|26509|M|22.03,42.79|N|From Martie Jainrose to the west of the town.|
 C An Unwelcome Guest|QID|26509|M|17.59,44.80|N|Find and kill Bellygrub. Loot his tusk, once he is dead.|
 T An Unwelcome Guest|QID|26509|M|21.89,42.82|N|To Martie Jainrose.|
-r Sell junk, Repair/Restock|QID|26509|M|29.57,42.98|N|At Dorin Songblade.|
-A Nida's Necklace|QID|26508|M|28.35,48.72|N|From Shawn.|
+A Nida's Necklace|QID|26508|M|28.35,48.72|N|From Shawn on the second pier.|
 C Nida's Necklace|QID|26508|NC|M|20.43,47.21;35.6,49.6|CN|N|Jump in the water and look for Glinting Mud. It can be anywhere within the 2 waypoints.  Head to the west first, if not there then head east.|
 C Lake Everstill Clean Up|QID|26511|S|M|37.46,43.48|N|Kill any murloc you see.|
 C We Must Prepare!|QID|26510|NC|M|37.82,42.14|N|Pick up the Gnomecorder on the small isle.|
 C Lake Everstill Clean Up|QID|26511|US|M|37.46,43.48|N|Kill any murloc you see.|
-T Nida'sdd Necklace|QID|26508|M|28.30,48.73|N|To Nida.|
+T Nida's Necklace|QID|26508|M|28.30,48.73|N|To Nida.|
 T Lake Everstill Clean Up|QID|26511|M|28.62,41.01|N|To Bailiff Conacher inside the town hall.|
 T We Must Prepare!|QID|26510|M|28.74,41.10|N|To Magistrate Solomon.|
 A Tuning the Gnomecorder|QID|26512|M|28.74,41.10|N|From Magistrate Solomon.|
-A Like a Fart in the Wind|QID|26513|M|31.73,44.80|N|From Marshal Marris.|
+A Like a Fart in the Wind|QID|26513|M|31.73,44.80|N|From Marshal Marris near the bridge.|
 C Tuning the Gnomecorder|QID|26512|NC|M|32.36,39.53|N|Head to the Lakeshire Graveyard.|
 T Tuning the Gnomecorder|QID|26512|M|32.31,39.51|N|(UI Alert)|
 
 A Canyon Romp|QID|26514|M|32.31,39.51|N|(UI Alert)|
+N Wandering Elite|QID|26514|ACTIVE|26514|N|Note: There is a wandering Level 18 elite called Canyon Ettin in this area. Until you get the orb later, you should avoid him. The ground will shake when he is near you.|S|
 C Like a Fart in the Wind|QID|26513|S|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|NC|
-C Canyon Romp|QID|26514|M|32.14,25.18|N|Kill and loot any Gnoll you see. Be careful of the elite Etin wandering around.|S|
-l Dirt-Stained Scroll|QID|26519|L|58898|M|32.14,25.18|N|Kill and loot Gnolls until this drops.|
-A He Who Controls the Ettins|QID|26519|U|58898|M|33.92,24.55|N|Accept this quest from the Dirt-Stained Scroll.|
-C Canyon Romp|QID|26514|M|32.14,25.18|N|Kill and loot any Gnoll you see.|US|
+C Canyon Romp|QID|26514|M|32.14,25.18|N|Kill and loot any Redridge Mystic and Bashers you see. Be careful of the elite Etin wandering around.|S|
+A He Who Controls the Ettins|QID|26519|M|32.14,25.18|N|Kill and loot  Redridge Mystic and Bashers until one drops a Dirt-Stained Scroll. This quest will auto-start upon looting the scroll.|
+C Canyon Romp|QID|26514|M|32.14,25.18|N|Finish killing any looting Redridge Mystic and Bashers|US|
 T Canyon Romp|QID|26514|M|32.57,25.13|N|(UI Alert)|
 A They've Wised Up...|QID|26544|M|32.57,25.13|N|(UI Alert)|
 C They've Wised Up...|QID|26544|NC|M|20.22,23.77|N|Head inside of Rethbane Caverns and look for a Blackrock Overseer. Kill him to get the Blackrock Missive.|
 T They've Wised Up...|QID|26544|M|20.22,23.77|N|(UI Alert)|
 A Yowler Must Die!|QID|26545|M|20.22,23.77|N|(UI Alert)|
-C He Who Controls the Ettins|QID|26519|M|18.05,18.48|N|Find and kill Ardo Dirtpaw.|
+C He Who Controls the Ettins|QID|26519|CC|M|20.55,23.70;22.45,21.15;21.18,15.15;19.95,16.22;18.05,18.48|N|Find and kill Ardo Dirtpaw.|
 T He Who Controls the Ettins|QID|26519|M|17.93,18.53|N|Turn it in at the orb.|
 A Saving Foreman Oslow|QID|26520|M|17.93,18.53|N|From the Ettin Control Panel.|
-K Yowler Must Die!|QID|26545|U|58895|L|58937 |M|27.45,22.09|N|Ok, time to grab some help, go around looking for a Canyon Enttin. When you see one, use the orb and quickly get it down to around 50% health. Find Yowler, kill him and loot the plans.|
+K Yowler Must Die!|QID|26545|U|58895|L|58937|M|27.45,22.09|N|Leave the Caverns, and look for the Canyon Ettin. When you see him, use the orb and quickly get it down to around 50% health. Once at 50%, use the Orb to subdue it. Once subdued, head to Yowler (waypoint location), kill him and loot the plans.|T|Canyon Ettin|
+C Like a Fart in the Wind|QID|26513|US|M|32.27,25.10|N|Finish collecting the supply crates.|NC|
 C Saving Foreman Oslow|QID|26520|U|58895|M|31.75,44.41|N|Run to the boulder at Lakeshire Bridge.  When you get near the boulder use the orb again to get the rock off Oslow.|NC|
-C Like a Fart in the Wind|QID|26513|US|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|NC|
 
 T Like a Fart in the Wind|QID|26513|M|31.80,44.76|N|To Marshal Marris.|
+r Repair, Sell Junk|QID|26545|S|ACTIVE|26545|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|
 T Yowler Must Die!|QID|26545|M|28.76,41.12|N|To Magistrate Solomon inside the town hall.|
 T Saving Foreman Oslow|QID|26520|M|28.76,41.12|N|To Magistrate Solomon.|
 A John J. Keeshan|QID|26567|M|28.76,40.90|N|From Colonel Troteman.|
@@ -194,30 +208,33 @@ A This Ain't My War|QID|26568|M|26.20,39.90|N|From John J. Keeshan.|
 T This Ain't My War|QID|26568|M|28.57,40.84|N|To Colonel Troteman in the town hall.|
 A Weapons of War|QID|26571|M|28.57,40.84|N|From Colonel Troteman.|
 A In Search of Bravo Company|QID|26586|M|28.58,40.90|N|From Colonel Troteman.|
-A Surveying Equipment|QID|26569|M|29.63,44.41|N|From Foreman Oslow.|
+A Surveying Equipment|QID|26569|M|29.63,44.41|N|From Foreman Oslow outside towards the bridge.|
 A Render's Army|QID|26570|M|29.63,44.41|N|From Marshal Marris.|
+
+R Alther's Mill|QID|26586|M|41.25,35.60|N|Head along the road north-east to Alther's Mill.|
 C Render's Army|QID|26570|S|M|29.35,10.76|N|Kill any and all orcs for this quest.  Except for the elites.|
-T In Search of Bravo Company|QID|26586|M|47.42,41.68|N|To Messner.|
+T In Search of Bravo Company|QID|26586|M|47.42,41.68|N|To Messner. |
 A Breaking Out is Hard to Do|QID|26587|M|47.42,41.68|N|From Messner.|
 C Weapons of War|QID|26571|M|50.82,41.45|N|Kill Homurk for the knife, and Murdunk for the bow.|
 T Weapons of War|QID|26571|M|51.45,41.30|N|(UI Alert)|
 A His Heart Must Be In It|QID|26573|M|51.45,41.30|N|(UI Alert)|
 C Breaking Out is Hard to Do|QID|26587|NC|M|49.06,37.83|N|Be careful not to be seen by the Worg Captain, go into the center of the sleeping Worgs and loot the key from the stump.|
 T Breaking Out is Hard to Do|QID|26587|M|47.57,41.81|N|To Messner.|
-A Jorgensen|QID|26560|M|47.60,41.83|N|From Messner.|
+A Jorgensen|QID|26560|M|47.60,41.83|N|From Messner. It takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|
 C Surveying Equipment|QID|26569|M|32.46,9.82|N|Kill and loot Blackrock Trackers.|S|
-C Jorgensen|QID|26560|L|58969|M|43.56,11.03|N|Kill Utroka the Keymistress to get Jorgensen's Cage Key.|
-T Jorgensen|QID|26560|M|33.62,11.75|N|To Jorgensen.|
-A Krakauer|QID|26561|M|33.63,11.37|N|From Jorgensen.|
+
+C Jorgensen|QID|26560|L|58969|M|43.56,11.03|N|Head back to the road then head north. Kill Utroka the Keymistress to get Jorgensen's Cage Key.|
+T Jorgensen|QID|26560|M|33.62,11.75|N|To Jorgensen, he can be found in Render's Camp to the west.|
+A Krakauer|QID|26561|M|33.63,11.37|N|From Jorgensen. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|
+C Surveying Equipment|QID|26569|M|32.46,9.82|N|Finish killing and looting the Blackrock Trackers.|US|
 C His Heart Must Be In It|QID|26573|M|26.67,10.65|N|Enter the cave, and then at the split turn right, loot the Blackrock Coffer.|
 C Krakauer|QID|26561|M|26.41,10.40|N|Kill Ritualist Tarak.|
 T Krakauer|QID|26561|M|26.03,10.45|N|To Krakauer.|
-A And Last But Not Least... Danforth|QID|26562|M|26.08,10.48|N|From Krakauer.|
+A And Last But Not Least... Danforth|QID|26562|M|26.08,10.48|N|From Krakauer. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|
 C And Last But Not Least... Danforth|QID|26562|M|28.13,18.25|N|Kill Overlord Barbarius and recover the Blackrock Lever Key. Use the Blackrock Lever Key to free Danforth. |
-T And Last But Not Least... Danforth|QID|26562|M|28.21,17.11|N|To Danforth.|
-A Return of the Bravo Company|QID|26563|M|28.07,17.29|N|From Danforth.|
-C Surveying Equipment|QID|26569|M|32.46,9.82|N|Kill and loot Blackrock Trackers.|US|
-C Render's Army|QID|26570|US|M|29.35,10.76|N|Kill any and all orcs for this quest. Except for the elites.|
+T And Last But Not Least... Danforth|QID|26562|M|28.21,17.11|N|Use the Chain Level, then wait for Danforth to drop into the water. To Danforth.|
+A Return of the Bravo Company|QID|26563|M|28.07,17.29|N|From Danforth. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|
+C Render's Army|QID|26570|US|M|29.35,10.76|N|Finish killing any and all orcs for this quest. Except for the elites.|
 
 H Lakeshire Inn|QID|26563|N|Hearth back to Lakeshire or run if it is on cooldown.|
 T His Heart Must Be In It|QID|26573|M|28.51,40.85|N|To Colonel Troteman in the town hall.|
@@ -225,11 +242,11 @@ T Return of the Bravo Company|QID|26563|M|28.51,40.85|N|To Colonel Troteman.|
 A They Drew First Blood|QID|26607|M|28.51,40.85|N|From Colonel Troteman.|
 T Surveying Equipment|QID|26569|M|29.65,44.38|N|To Foreman Oslow.|
 T Render's Army|QID|26570|M|29.65,44.38|N|To Marshal Marris.|
-r Repair/Restock|QID|26607|M|29.61,43.00|N|At Dorin Songblade.|
+r Repair, Sell Junk|QID|26607|S|ACTIVE|26607|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to John J. Keeshan|
 T They Drew First Blood|QID|26607|M|26.29,39.90|N|Head to the basement of the inn to John J. Keeshan.|
 A It's Never Over|QID|26616|M|26.29,39.90|N|From John J. Keeshan.|
-C It's Never Over|QID|26616|NC|M|34.25,45.6|N|Click on the boat to head to Camp Everstill.|
-; f Camp Everstill|QID|26616|M|52.87,54.51|N|At Arlen Marsters.|
+C It's Never Over|QID|26616|NC|M|34.25,45.6|N|Head to the dock just beyond the bridge, and click on the boat to head to Camp Everstill.|
+f Camp Everstill|QID|26616|M|52.87,54.51|N|At Arlen Marsters.|
 
 T It's Never Over|QID|26616|M|52.48,55.19|N|To John J. Keeshan.|
 A Point of Contact: Brubaker|QID|26639|M|52.48,55.19|N|From John J. Keeshan.|
@@ -254,16 +271,15 @@ T Prisoners of War|QID|26646|M|69.46,58.62|N|(UI Alert)|
 A To Win a War, You Gotta Become War|QID|26651|M|69.46,58.62|N|(UI Alert)|
 C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|2|M|66.4,71.43|N|Re-apply the Camouflage if it's low. Head to the waypoint and use #2 to get in the tower. Use the Chloroform to get to the top. Once inside at the top use ability #4.|
 C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|1|M|63.86,70.34|N|Same deal as the Tower. Use a distraction to get in and plant a charge,|
-dw
+
 R Shalewind Canyon|QID|26651|U|60385|M|72.4,64.3;77.26,65.86|CC|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|
 T To Win a War, You Gotta Become War|QID|26651|M|77.60,65.56|N|To John J. Keeshan.|
 A Detonation|QID|26668|M|77.60,65.56|N|From John J. Keeshan.|
 C Detonation|QID|26668|NC|M|77.60,65.61|N|Enjoy the brief cut scene.|
 T Detonation|QID|26668|M|77.60,65.61|N|To John J. Keeshan.|
-; f Shalewind Canyon|QID|26668|M|77.91,65.85|N|At Nora Baldwin.|
+f Shalewind Canyon|QID|26668|M|77.91,65.85|N|At Nora Baldwin.|
 A The Dark Tower|QID|26693|M|77.57,65.57|N|From John J. Keeshan.|
 A Shadowhide Extinction|QID|26692|M|77.59,65.54|N|From Danforth.|
-r Repair/Restock|QID|26692|M|78.71,63.46|N|At Clyde Ranthal.|
 C Shadowhide Extinction|QID|26692|S|N|Kill any Gnoll you come across.|
 C The Dark Tower|QID|26693|M|67.58,29.61|N|Enter the cave and kill General Fangore. Loot his corpse to get the Key of Ilgalar.|
 T The Dark Tower|QID|26693|M|67.55,29.54|N|(UI Alert)|
@@ -288,6 +304,7 @@ H Lakeshire Inn|QID|26726|N|Hearth back to Lakeshire Inn, or run if your hearth 
 T Triumphant Return|QID|26726|M|28.79,41.11|N|To Magistrate Solomon in the town hall.|
 F Stormwind City|M|21.78,57.70|N|Fly to Stormwind visit your trainers, and AH.|
 N Next guide|N|Close this step when you are ready to go to the next guide.
+
 ]]
 
 end)

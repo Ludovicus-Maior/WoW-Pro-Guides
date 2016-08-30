@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2016-08-29 22:57
+-- Who: Fluclo
+-- Log: Removed redundant L step from beginning of guide
+
+-- URL: http://wow-pro.com/node/3247/revisions/26815/view
 -- Date: 2014-11-06 13:32
 -- Who: Fluclo
 -- Log: Removed duplicate M tag in Hero's Call: Badlands!
@@ -101,7 +106,6 @@ WoWPro:GuideNextGuide(guide, 'CraSea4850')
 WoWPro:GuideIcon(guide,"ACH",4900)
 WoWPro:GuideSteps(guide, function()
 return [[
-L Level 44 |QID|27762|LVL|44|N|This guide requires a minimum level of 44 to do.|
 
 R Light's Hope Chapel|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|The questing begins at Light's Hope Chapel in Eastern Plaguelands. Head to there to begin this guide. \n\nYou can also grab hold the breadcrumb Hero's Quest from Ironforge or Stormwind, but this is not necessary for this guide.|
 T Hero's Call: Badlands! |QID|28579|M|73.8,53.1|Z|Eastern Plaguelands|N|To Gek Nozzlerocket|O|

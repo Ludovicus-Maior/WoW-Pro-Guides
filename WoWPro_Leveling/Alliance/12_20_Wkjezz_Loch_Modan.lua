@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2016-08-29 22:50
+-- Who: Fluclo
+-- Log: WoWPro:GuideLevels changed from 8 to 10, and removing redundant L step from beginning of guide.
+
+-- URL: http://wow-pro.com/node/3216/revisions/26807/view
 -- Date: 2014-11-06 13:00
 -- Who: Fluclo
 -- Log: Removed duplicate M tag from Bird is the Word
@@ -141,13 +146,11 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjLoc1220', "Leveling", 'Loch Modan', 'Wkjezz', 'Alliance')
-WoWPro:GuideLevels(guide,8,15,11.873)
+WoWPro:GuideLevels(guide,10,15,11.873)
 WoWPro:GuideNextGuide(guide, 'WkjWet2025')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 10 |QID|26854|LVL|10|N|This guide requires a minimum level of 10 to do.|
 
 ;Elmore's Task is skipped if you've just done Dun Morogh quests (your not in the right place), or if you've already done Stormpike's Delivery quest (Elmore's task isn't available)
 A Elmore's Task|QID|1097|M|41.6,65.6|Z|Elwynn Forest|N|From Smith Argus at Goldshire in Elwynn Forest.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 3: All Feeder quests\nRank 2: Dun Morogh Feeder Quests\nRank 1: Loch Modan only|LEAD|353;26118|RANK|3|

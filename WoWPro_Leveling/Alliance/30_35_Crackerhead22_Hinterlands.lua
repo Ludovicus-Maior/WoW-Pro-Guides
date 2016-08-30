@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2016-08-29 22:57
+-- Who: Fluclo
+-- Log: Removed redundant L step from beginning of guide
+
+-- URL: http://wow-pro.com/node/3239/revisions/26610/view
 -- Date: 2014-07-25 21:54
 -- Who: Ludovicus
 -- Log: Add mean
@@ -97,8 +102,6 @@ WoWPro:GuideNextGuide(guide, 'BitWes3540')
 WoWPro:GuideIcon(guide,"ACH",4897)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 29 |QID|26546|LVL|29|N|This guide requires a minimum level of 29 to do.|
 
 R The Hinterlands|QID|26546|M|43.36,45.18;36.71,31.15;38.45,22.89;39.32,19.03|Z|Arathi Highlands|CN|N|Follow the waypoints to The Hinterlands.\n\nFor players up to level 33 only, there is a bread-crumb quest from Ironforge Hero's Callboard or from Captain Nials in Aerie Peak.|
 R Aerie Peak|QID|26546|M|26.29,69.07;26.21,55.04;20.13,53.66;14.17,48.03|CN|N|Follow the waypoints to Aerie Peak.|
