@@ -12,7 +12,7 @@
 -- Date: 2016-08-20 00:36
 -- Who: Emmaleah
 
-local guide = WoWPro:RegisterGuide('EmmLegionPriest', 'Leveling', 'PriestOrderHall', 'Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmLegionPriest', 'Leveling', 'NetherlightTemple', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Priest Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
 WoWPro:GuideNextGuide(guide, 'EmmAzsuna')
@@ -77,7 +77,7 @@ C Judgement's Flame defeated|SO|3;1|M|27.75,40.42|Z|The Nexus|N|Defeat Judgement
 C Reach the Rift|SO|4;1|M|30.97,22.24|Z|The Nexus|N|Reach the Rift.  When Azuregos changes to dragon form, hop on for a ride across the rift.|QID|41631|
 C Nexus-Prince Bilaal Defeated|SO|5;1|Z|The Nexus|M|59.55,20.28|N|Defeat Nexus-Prince Bilaal. Lots of shielding again.|QID|41631|
 C The Nexus Vault|QID|41631|QO|1|M|59.55,20.28|Z|The Nexus|N|Kill Nexus-Prince Bilaal.|ACTIVE|41631|T|Nexus-Prince Bilaal|
-C A Will of Fire|SO|6;1|M|0.00,0.00|Z|The Beyond|Z|The Nexus|N|Heal snd shield yourself while seizing control of Light's Wrath.|QID|41631|
+C A Will of Fire|SO|6;1|M|0.00,0.00|Z|The Nexus|N|Heal snd shield yourself while seizing control of Light's Wrath.|QID|41631|
 C Claim Light's Wrath|SO|7;1|M|0.00,0.00|Z|The Nexus|N|Claim Light's Wrath.|QID|41631|
 C Leave the Nexus Vault|SO|7;2|M|58.65,20.99|Z|The Nexus|N|Leave the Nexus Vault via the Portal Azuregos creates for you.|QID|41631|
 T The Nexus Vault|QID|41631|M|28.60,49.89|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
@@ -107,7 +107,7 @@ C Return of the Light|QID|42074|QO|1|M|0.00,0.00|Z|Niskara#1078|N|Travel through
 C Heal Vindicator Boros|SO|1|Z|Niskara#1078|N|You've emerged upon a ship of the Burning Legion to find your allies have become seperated in battle. Help Vindicator Boros recover from his injuries.|QID|42074|
 C Assist Jace Darkweaver.|SO|2;1|M|71.03,73.45|Z|Niskara#1078|N|Heal and otherwise assist Jace Darkweaver.|QID|42074|
 C Destroy the Anchoring Crystal|SO|3;1|M|70.95,72.91|Z|Niskara#1078|N|Destroy the Anchoring Crystal.|QID|42074|
-C Exit the lower levels of the Legion Ship.|SO|3;2|M|70.75,81.14|Z|Niskara#1078|N|Exit the lower levels of the Legion Ship.QID|42074|
+C Exit the lower levels of the Legion Ship.|SO|3;2|M|70.75,81.14|Z|Niskara#1078|N|Exit the lower levels of the Legion Ship.|QID|42074|
 C Rescue Bo'ja|SO|4;1|M|71.29,73.92|Z|Niskara#1078|N|Rescue Bo'ja|QID|42074|
 C Defeat Captain Naranoth|SO|5;1|M|72.85,73.61|Z|Niskara#1078|N|Defeat Captain Naranoth|QID|42074|
 C Defeat Lady Calindris|SO|6;1|M|62.14,61.42|Z|Niskara#1078|N|Assist your allies in defeating Lady Calindris|QID|42074|
@@ -129,13 +129,13 @@ C Stop the dampening rituals|SO|5;1|M|41.09,53.58|Z|Floor1@TirisfalGladesInsideS
 C Defeat the Amassing Darkness|SO|6;1|M|37.89,51.97|Z|Floor1@TirisfalGladesInsideScenario|N|Defeat the Amassing Darkness|QID|40710|
 C Dark Passage|SO|7;1|M|56.87,74.19|Z|TFloor1@TirisfalGladesInsideScenario|N|You can use mass dispell or kill the void tendrils some other way.|QID|40710|
 C Death to the Deacon|SO|8|Z|Floor2@TirisfalGladesInsideScenariol@TirisfalGladesInsideScenariol Glades|N|Stop the Twilight Deacon.|QID|40710|
-C Blade in Twilight|QID|40710|QO|2|M|59.87,74.94|Z|Floor2@TirisfalGladesInsideScenario|N|Shadowlord@TirisfalGladesInsideScenario|N|Use your extra action button to consume Zakajz.|
+C Blade in Twilight|QID|40710|QO|2|M|59.87,74.94|Z|Floor2@TirisfalGladesInsideScenario|N|Use your extra action button to consume Zakajz.|
 R Return to Dalaran|QID|40710|QO|3|M|57.43,73.29|Z|Floor2@TirisfalGladesInsideScenario|N|Shadowlord Slaghammer has created a portal back to Dalaran for you.|
 C Blade in Twilight|QID|40710|QO|3|M|46.25,20.92|Z|Dalaran@Dalaran70|NC|N|You will find Alonsus and Moira beside the North Bank.|
 T Blade in Twilight|QID|40710|M|46.15,21.32|Z|Dalaran@Dalaran70|N|To Moira Thaurissan.|
 
 ;Priest Class Hall
-A The Light and the Void|QID|40938|M|46.26,20.50|Z|Dalaran@Dalaran70|N|From Prophet Velen.|PRE|40710;40631;xxxxx|
+A The Light and the Void|QID|40938|M|46.26,20.50|Z|Dalaran@Dalaran70|N|From Prophet Velen.|PRE|40710;40631|
 C The Light and the Void|QID|40938|QO|1|M|49.44,47.54|Z|Dalaran@Dalaran70|NC|N|Follow Velen to the portal.|
 C The Light and the Void|QID|40938|QO|2|M|49.78,75.06|Z|Dalaran@Dalaran70|NC|N|Take the portal to Netherlight Temple.|
 C The Light and the Void|QID|40938|QO|3|M|49.66,49.16|Z|Dalaran@Dalaran70|NC|N|Listen to Alonsus Faol.|

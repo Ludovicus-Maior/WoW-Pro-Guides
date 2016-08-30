@@ -53,21 +53,21 @@ C The Dreamway|QID|40644|NC|QO|1|M|65.18,60.50|Z|Moonglade|N|Accompany Archdruid
 C The Dreamway|QID|40644|NC|QO|2|M|66.76,60.11|Z|Moonglade|N|Approach and listen to Malfurion|
 C The Dreamway|QID|40644|NC|QO|3|M|66.93,60.11|Z|Moonglade|N|Step into the circle and use your extra action button to complete the ritual.|
 T The Dreamway|QID|40644|M|66.73,60.54|Z|Moonglade|N|To Malfurion Stormrage.|
-A To The Dreamgrove|QID|40645|M|66.73,60.54|Z|Moonglade|N|From Malfurion Stormrage.|PRE|40644|
-C To The Dreamgrove|QID|40645|NC|QO|1|M|68.05,60.23|Z|Moonglade|N|Enter the Emerald Dreamway|
-C To The Dreamgrove|QID|40645|NC|QO|2|M|35.81,52.04|N|Travel with Remulos|
-C To The Dreamgrove|QID|40645|QO|3|M|67.09,28.67|N|Cleanse the Corruption|
-C To The Dreamgrove|QID|40645|NC|QO|4|M|45.23,25.20|N|Travel to the Dreamgrove|
-C To The Dreamgrove|QID|40645|NC|QO|5|M|46.00,51.89|Z|The Dreamgrove|N|Meet the Archdruid|
-T To The Dreamgrove|QID|40645|M|44.55,51.02|Z|The Dreamgrove|N|To Rensar Greathoof.|
-A Weapons of Legend|QID|40646|M|44.55,51.02|Z|The Dreamgrove|N|From Rensar Greathoof.|PRE|40645|
-C Weapons of Legend|QID|40646|NC|QO|1|M|44.55,51.02|Z|The Dreamgrove|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
-T Weapons of Legend|QID|40646|M|44.55,51.02|Z|The Dreamgrove|N|To Rensar Greathoof.|
-A Artifact Specific Quest|QID|40783;42428;41468;41255|M|44.55,51.02|Z|The Dreamgrove|N|From one of the Druids in the area.|PRE|40646|
+A To EmeraldDreamway|QID|40645|M|66.73,60.54|Z|Moonglade|N|From Malfurion Stormrage.|PRE|40644|
+C To EmeraldDreamway|QID|40645|NC|QO|1|M|68.05,60.23|Z|Moonglade|N|Enter the Emerald Dreamway|
+C To EmeraldDreamway|QID|40645|NC|QO|2|M|35.81,52.04|N|Travel with Remulos|
+C To EmeraldDreamway|QID|40645|QO|3|M|67.09,28.67|N|Cleanse the Corruption|
+C To EmeraldDreamway|QID|40645|NC|QO|4|M|45.23,25.20|N|Travel to the Dreamgrove|
+C To EmeraldDreamway|QID|40645|NC|QO|5|M|46.00,51.89|Z|EmeraldDreamway|N|Meet the Archdruid|
+T To EmeraldDreamway|QID|40645|M|44.55,51.02|Z|EmeraldDreamway|N|To Rensar Greathoof.|
+A Weapons of Legend|QID|40646|M|44.55,51.02|Z|EmeraldDreamway|N|From Rensar Greathoof.|PRE|40645|
+C Weapons of Legend|QID|40646|NC|QO|1|M|44.55,51.02|Z|EmeraldDreamway|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
+T Weapons of Legend|QID|40646|M|44.55,51.02|Z|EmeraldDreamway|N|To Rensar Greathoof.|
+A Artifact Specific Quest|QID|40783;42428;41468;41255|M|44.55,51.02|Z|EmeraldDreamway|N|From one of the Druids in the area.|PRE|40646|
 
 ;BALANCE
-;A The Scythe of Elune|QID|40783|M|44.51,51.46|Z|The Dreamgrove|N|From Naralex.|PRE|40646|
-C The Scythe of Elune|QID|40783|NC|QO|1|M|39.71,68.87|Z|The Dreamgrove|N|(Optional): Travel through the Dreamway to Duskwood|
+;A The Scythe of Elune|QID|40783|M|44.51,51.46|Z|EmeraldDreamway|N|From Naralex.|PRE|40646|
+C The Scythe of Elune|QID|40783|NC|QO|1|M|39.71,68.87|Z|EmeraldDreamway|N|(Optional): Travel through the Dreamway to Duskwood|
 C The Scythe of Elune|QID|40783|NC|QO|2|M|48.92,34.29|Z|Duskwood|N|Meet with Valorn|
 T The Scythe of Elune|QID|40783|M|48.92,34.29|Z|Duskwood|N|To Valorn Stillbough.|
 A Its Rightful Place|QID|40784|M|48.92,34.29|Z|Duskwood|N|From Valorn Stillbough.|PRE|40783|
@@ -96,26 +96,26 @@ C Scythe of Elune|SO|7;1|M|68.25,24.18|Z|KarazhanScenario|N|Pick up the Scythe o
 T The Dark Riders|QID|40838|M|68.25,27.20|Z|KarazhanScenario|N|To Revil Kost.|
 A The Burden Borne|QID|40900|M|68.25,27.20|Z|KarazhanScenario|N|From Revil Kost.|PRE|40838|
 C The Burden Borne|QID|40900|NC|M|45.32,24.77|Z|KarazhanScenario|N|Use Dreamwalk (Teleport spell) then run thru the portal in front of you.|
-T The Burden Borne|QID|40900|M|44.46,51.20|Z|The Dreamgrove|N|To Rensar Greathoof.|
+T The Burden Borne|QID|40900|M|44.46,51.20|Z|EmeraldDreamway|N|To Rensar Greathoof.|
 
 ;FERAL
-;A The Shrine of Ashamane|QID|42428|M|44.42,51.13|Z|The Dreamgrove|N|From Rensar Greathoof.|PRE|40646|
-f The Dreamgrove|QID|42428|M|61.70,33.74|Z|The Dreamgrove|N|at Danise Stargazer.|ACTIVE|42428|
-F The Shrine of Ashamane|QID|42428|QO|1|M|61.70,33.74|Z|The Dreamgrove|N|This is a chat (free) option.|ACTIVE|42428|
-T The Shrine of Ashamane|QID|42428|M|70.38,46.68|Z|Valsharah|N|To Delandros Shimmermoon.|
-A Aid for the Ashen|QID|42439|M|70.38,46.68|Z|Valsharah|N|From Delandros Shimmermoon.|PRE|42428|
-A Seeds of Renewal|QID|42438|M|70.38,46.68|Z|Valsharah|N|From Delandros Shimmermoon.|PRE|42428|
-C Aid for the Ashen|QID|42439|M|71.01,38.24|Z|Valsharah|N|Rescue the Ashen Druids by killing thier torturers. Don't go out of the marked quest area, even tho you see more druids over there, they will phase out.|S|
-C Seeds of Renewal|QID|42438|NC|QO|1|M|70.05,42.40;71.69,43.10;71.01,38.24|Z|Valsharah|CN|N|Search the bodies to find the seeds.|
-C Aid for the Ashen|QID|42439|M|73.09,41.04|Z|Valsharah|N|Finish up rescuing druids and head back towards the turn in.|US|
-T Seeds of Renewal|QID|42438|M|73.23,42.66|Z|Valsharah|N|To Delandros Shimmermoon.|
-T Aid for the Ashen|QID|42439|M|73.23,42.66|Z|Valsharah|N|To Delandros Shimmermoon.|
-A The Shrine in Peril|QID|42440|M|73.23,42.66|Z|Valsharah|
-C The Shrine in Peril|QID|42440|NC|QO|1|M|73.76,40.63|Z|Valsharah|N|Investigate Ashamane's Fall.|
-C The Shrine in Peril|QID|42440|QO|2|M|73.81,39.18|Z|Valsharah|N|Kill Algromon|T|Algromon|
-T The Shrine in Peril|QID|42440|M|73.84,38.44|Z|Valsharah|N|To Delandros Shimmermoon.|
-A The Fangs of Ashamane|QID|42430|M|73.84,38.44|Z|Valsharah|N|From Delandros Shimmermoon.|PRE|42440|
-C The Fangs of Ashamane|QID|42430|NC|QO|1|M|73.75,38.39|Z|Valsharah|N|What, a druid using a mount.../sigh.|
+;A The Shrine of Ashamane|QID|42428|M|44.42,51.13|Z|EmeraldDreamway|N|From Rensar Greathoof.|PRE|40646|
+f EmeraldDreamway|QID|42428|M|61.70,33.74|Z|EmeraldDreamway|N|at Danise Stargazer.|ACTIVE|42428|
+F The Shrine of Ashamane|QID|42428|QO|1|M|61.70,33.74|Z|EmeraldDreamway|N|This is a chat (free) option.|ACTIVE|42428|
+T The Shrine of Ashamane|QID|42428|M|70.38,46.68|Z|Val'sharah|N|To Delandros Shimmermoon.|
+A Aid for the Ashen|QID|42439|M|70.38,46.68|Z|Val'sharah|N|From Delandros Shimmermoon.|PRE|42428|
+A Seeds of Renewal|QID|42438|M|70.38,46.68|Z|Val'sharah|N|From Delandros Shimmermoon.|PRE|42428|
+C Aid for the Ashen|QID|42439|M|71.01,38.24|Z|Val'sharah|N|Rescue the Ashen Druids by killing thier torturers. Don't go out of the marked quest area, even tho you see more druids over there, they will phase out.|S|
+C Seeds of Renewal|QID|42438|NC|QO|1|M|70.05,42.40;71.69,43.10;71.01,38.24|Z|Val'sharah|CN|N|Search the bodies to find the seeds.|
+C Aid for the Ashen|QID|42439|M|73.09,41.04|Z|Val'sharah|N|Finish up rescuing druids and head back towards the turn in.|US|
+T Seeds of Renewal|QID|42438|M|73.23,42.66|Z|Val'sharah|N|To Delandros Shimmermoon.|
+T Aid for the Ashen|QID|42439|M|73.23,42.66|Z|Val'sharah|N|To Delandros Shimmermoon.|
+A The Shrine in Peril|QID|42440|M|73.23,42.66|Z|Val'sharah|
+C The Shrine in Peril|QID|42440|NC|QO|1|M|73.76,40.63|Z|Val'sharah|N|Investigate Ashamane's Fall.|
+C The Shrine in Peril|QID|42440|QO|2|M|73.81,39.18|Z|Val'sharah|N|Kill Algromon|T|Algromon|
+T The Shrine in Peril|QID|42440|M|73.84,38.44|Z|Val'sharah|N|To Delandros Shimmermoon.|
+A The Fangs of Ashamane|QID|42430|M|73.84,38.44|Z|Val'sharah|N|From Delandros Shimmermoon.|PRE|42440|
+C The Fangs of Ashamane|QID|42430|NC|QO|1|M|73.75,38.39|Z|Val'sharah|N|What, a druid using a mount.../sigh.|
 C On the Prowl|SO|1|Z|Suramar|N|You've come to the ruins of Falanaar in search of Verstok and the Fangs of Ashamane. Search for clues as to where Verstok has disappeared to.|S|QID|42430|
 C Doorway Opened|SO|2;1|M|21.85,37.24;22.83,36.11|CN|Z|Suramar|N|Click the switches at these locations. (Be aware of the mobs that see stealth), then follow the scent to the doorway which will now be open.|QID|42430|
 C Follow Verstok's trail into the temple depths|SO|3;1|M|22.38,30.93|Z|Suramar|N|Follow Verstok's trail into the temple depths|QID|42430|
@@ -124,14 +124,14 @@ C Chase after Verstok|SO|5;1|M|22.17,36.87|Z|Suramar|N|Jump on the platform near
 C In a Tangled Web|SO|6;1|Z|Suramar|N|Slay the spider.|QID|42430|
 C Retrieve the Fangs of Ashamane|SO|7;1|M|22.58,37.39|Z|Suramar|N|Retrieve the Fangs of Ashamane.|QID|42430|
 C To the Grove|SO|8;1|Z|Suramar|N|Hop on Ebonfang to return to the Dreamgrove.|QID|42430|
-T The Fangs of Ashamane|QID|42430|M|44.49,51.10|Z|The Dreamgrove|N|To Rensar Greathoof.|
+T The Fangs of Ashamane|QID|42430|M|44.49,51.10|Z|EmeraldDreamway|N|To Rensar Greathoof.|
 
 ;GUARDIAN
-;A Mistress of the Claw|QID|41468|M|44.53,51.10|Z|The Dreamgrove|N|From Rensar Greathoof.|PRE|40646|
-T Mistress of the Claw|QID|41468|CS|M|46.62,28.95;39.5,0.07|Z|The Dreamgrove|N|Enter the Barrow Den and follow it's twisty course to find Lea Stonepaw.|
-A To The Hills|QID|41782|M|39.50,0.07|Z|The Dreamgrove|N|From Lea Stonepaw.|PRE|41468|
-C To The Hills|QID|41782|NC|QO|1|M|35.71,25.60|Z|The Dreamgrove|N|Click on the flasks at the edge of this moonwell.|
-R Emerald Dreamway|QID|41782|CC|M|55.27,22.93|Z|The Dreamgrove|N|Run to Emerald Dreamway Portal|ACTIVE|41782|
+;A Mistress of the Claw|QID|41468|M|44.53,51.10|Z|EmeraldDreamway|N|From Rensar Greathoof.|PRE|40646|
+T Mistress of the Claw|QID|41468|CS|M|46.62,28.95;39.5,0.07|Z|EmeraldDreamway|N|Enter the Barrow Den and follow it's twisty course to find Lea Stonepaw.|
+A To The Hills|QID|41782|M|39.50,0.07|Z|EmeraldDreamway|N|From Lea Stonepaw.|PRE|41468|
+C To The Hills|QID|41782|NC|QO|1|M|35.71,25.60|Z|EmeraldDreamway|N|Click on the flasks at the edge of this moonwell.|
+R Emerald Dreamway|QID|41782|CC|M|55.27,22.93|Z|EmeraldDreamway|N|Run to Emerald Dreamway Portal|ACTIVE|41782|
 R Vordrasil|QID|41782|CC|M|32.14,27.66||N|Run to the Vordrassil portal.|ACTIVE|41782|
 C To The Hills|QID|41782|NC|CS|QO|3|M|50.31,40.26;51.05,37.03|Z|Grizzly Hills|N|Go down inside Grizzlemaw and take the tunnel to find Lea.|
 T To The Hills|QID|41782|M|51.29,36.81|Z|Grizzly Hils|N|To Lea Stonepaw.|
@@ -164,25 +164,25 @@ T When Dreams Become Nightmares|QID|40647|M|51.24,36.86|Z|Grizzly Hills|N|To Lea
 A The Dreamer Returns|QID|41918|M|51.24,36.86|Z|Grizzly Hills|N|From Lea Stonepaw.|PRE|40647|
 C The Dreamer Returns|QID|41918|NC|M|51.24,36.86|Z|Grizzly Hills|N|Use Dreamwalk (Teleport spell) then run thru the portal in front of you.|
 R Dreamgrove Portal|QID|41918|M|45.31,24.43||N|Run through the portal.|CC|ACTIVE|41918|
-T The Dreamer Returns|QID|41918|M|44.52,51.10|Z|The Dreamgrove|N|To Rensar Greathoof.|
+T The Dreamer Returns|QID|41918|M|44.52,51.10|Z|EmeraldDreamway|N|To Rensar Greathoof.|
 
 ;RESTORATION
-A Meet with Mylune|QID|40649|M|45.57,50.26|Z|The Dreamgrove|N|From Keeper Remulos.|PRE|40646|
-T Meet with Mylune|QID|40649|M|52.28,52.82|Z|The Dreamgrove|N|To Mylune.|
-A Necessary Preparations|QID|41422|M|52.28,52.82|Z|The Dreamgrove|N|From Mylune.|PRE|40649|
-C Necessary Preparations|QID|41422|NC|QO|2|M|33.07,29.26|Z|The Dreamgrove|N|Ask Leafbeard for his blessing.|
-C Necessary Preparations|QID|41422|NC|QO|1|M|35.61,25.81|Z|The Dreamgrove|N|Pick up a Cup of Moonwater from the edge of the moonwell.|
-T Necessary Preparations|QID|41422|M|52.19,52.91|Z|The Dreamgrove|N|To Mylune.|
-A Join the Dreamer|QID|41449|M|52.19,52.91|Z|The Dreamgrove|N|From Mylune.|PRE|40422|
-T Join the Dreamer|QID|41449|M|41.87,0.00|Z|The Dreamgrove|N|To Naralex.|
-A In Deep Slumber|QID|41436|M|41.87,0.00|Z|The Dreamgrove|N|From Naralex.|PRE|40449|
-C In Deep Slumber|QID|41436|NC|U|135506|QO|1|M|40.87,0.00|Z|The Dreamgrove|N|Stand on Naralex's bed and drink the cup of moonwater to enter the Emerald Dream|
-C In Deep Slumber|QID|41436|NC|QO|2|M|44.94,51.08|Z|The Dreamgrove|N|Use stealth to quickly travel to the outside, avoid the red ground "fog".  You need to make it to the tree before the bar fills up.|
-T In Deep Slumber|QID|41436|NC|QO|2|M|41.87,0.00|Z|The Dreamgrove|N|To Naralex.|
-A Reconvene|QID|41332|M|41.87,0.00|Z|The Dreamgrove|N|From Naralex.|PRE|40436|
-T Reconvene|QID|41690|M|45.18,51.72|Z|The Dreamgrove|N|To Lyessa Bloomwatcher.|
-A Cleansing the Mother Tree|QID|41689|M|45.26,51.85|Z|The Dreamgrove|N|From Lyessa Bloomwatcher.|PRE|40690|
-C Cleansing the Mother Tree|QID|41689|QO|1|M|55.46,22.43|Z|The Dreamgrove|N|Use the portal to enter the Dreamway.|
+A Meet with Mylune|QID|40649|M|45.57,50.26|Z|EmeraldDreamway|N|From Keeper Remulos.|PRE|40646|
+T Meet with Mylune|QID|40649|M|52.28,52.82|Z|EmeraldDreamway|N|To Mylune.|
+A Necessary Preparations|QID|41422|M|52.28,52.82|Z|EmeraldDreamway|N|From Mylune.|PRE|40649|
+C Necessary Preparations|QID|41422|NC|QO|2|M|33.07,29.26|Z|EmeraldDreamway|N|Ask Leafbeard for his blessing.|
+C Necessary Preparations|QID|41422|NC|QO|1|M|35.61,25.81|Z|EmeraldDreamway|N|Pick up a Cup of Moonwater from the edge of the moonwell.|
+T Necessary Preparations|QID|41422|M|52.19,52.91|Z|EmeraldDreamway|N|To Mylune.|
+A Join the Dreamer|QID|41449|M|52.19,52.91|Z|EmeraldDreamway|N|From Mylune.|PRE|40422|
+T Join the Dreamer|QID|41449|M|41.87,0.00|Z|EmeraldDreamway|N|To Naralex.|
+A In Deep Slumber|QID|41436|M|41.87,0.00|Z|EmeraldDreamway|N|From Naralex.|PRE|40449|
+C In Deep Slumber|QID|41436|NC|U|135506|QO|1|M|40.87,0.00|Z|EmeraldDreamway|N|Stand on Naralex's bed and drink the cup of moonwater to enter the Emerald Dream|
+C In Deep Slumber|QID|41436|NC|QO|2|M|44.94,51.08|Z|EmeraldDreamway|N|Use stealth to quickly travel to the outside, avoid the red ground "fog".  You need to make it to the tree before the bar fills up.|
+T In Deep Slumber|QID|41436|NC|QO|2|M|41.87,0.00|Z|EmeraldDreamway|N|To Naralex.|
+A Reconvene|QID|41332|M|41.87,0.00|Z|EmeraldDreamway|N|From Naralex.|PRE|40436|
+T Reconvene|QID|41690|M|45.18,51.72|Z|EmeraldDreamway|N|To Lyessa Bloomwatcher.|
+A Cleansing the Mother Tree|QID|41689|M|45.26,51.85|Z|EmeraldDreamway|N|From Lyessa Bloomwatcher.|PRE|40690|
+C Cleansing the Mother Tree|QID|41689|QO|1|M|55.46,22.43|Z|EmeraldDreamway|N|Use the portal to enter the Dreamway.|
 C Cleansing the Mother Tree|QID|41689|QO|2|M|53,53|N|Use the Mount Hyjal portal to travel to Nordrassil.|
 C The Legion's Devastation|QID|41689|SO|1;1|M|55.74,29.9|Z|Mount Hyjal|CHAT|N|Speak to Skylord Omnuron.|
 C Cleanse Zen'tabra|QID|41689|SO|2;3|M|60.69,24.51|Z|Mount Hyjal|N|Use Nature's Cure to Cleanse Zen'tabra.|
@@ -196,26 +196,26 @@ C Witness G'Hanir's rebirth|QID|41689|SO|5;2|M|61.19,26.08|Z|Mount Hyjal|N|Use t
 C G'Hanir Reborn|QID|41689|SO|6;1|Z|Mount Hyjal|N|Pick up the staff.|
 R Mt Hygel Portal|QID|41689|M|55.74,29.9|Z|Mount Hyjal|N|Run back to the Emerald Dreamway|CC|
 R The Dreamway Portal|QID|41689|M|45.31,24.43||N|Run through the portal.|CC|
-T Cleansing the Mother Tree|QID|41689|M|45.18,51.85|Z|The Dreamgrove|N|To Lyessa Bloomwatcher.|
+T Cleansing the Mother Tree|QID|41689|M|45.18,51.85|Z|EmeraldDreamway|N|To Lyessa Bloomwatcher.|
 
 ;Driud Class Hall
-A Sowing The Seed|QID|41255|QO|1|M|71.17,38.73|Z|The Dreamgrove|N|From Rensar Greathoof.|PRE|40900;42430;41918;41689|
-C Sowing The Seed|QID|41255|M|45.91,51.00|Z|The Dreamgrove|N|Plant the Seed of Ages|
-T Sowing The Seed|QID|41255|M|45.91,51.00|Z|The Dreamgrove|N|To Rensar Greathoof.|
-A The Seed of Ages|QID|40651|M|52.63,51.44|Z|The Dreamgrove|N|From Rensar Greathoof.|PRE|41255|
-C The Seed of Ages|QID|40651|M|52.63,51.44|Z|The Dreamgrove|N|Imbue the artifact weapon with a new power in the seed you just planted.|
-T The Seed of Ages|QID|40651|M|52.68,51.16|Z|The Dreamgrove|N|To Rensar Greathoof.|
-A Ascending The Circle|QID|41332|M|52.59,51.35|Z|The Dreamgrove|N|From Rensar Greathoof.|PRE|40651|
-C Ascending The Circle|QID|41332|M|61.73,33.97|Z|The Dreamgrove|N|Walk with Archdruid Greathoof|
-C Ascending The Circle|QID|41332|NC|QO|1|M|56.51,42.99|Z|The Dreamgrove|N|Speak with Malfurion|
-T Ascending The Circle|QID|41332|Z|The Dreamgrove|N|To Malfurion Stormrage.|
-A Word on the Winds|QID|40652|Z|The Dreamgrove|N|From Malfurion Stormrage.|PRE|41332|
-T Word on the Winds|QID|40652|Z|The Dreamgrove|N|To Skylord Omnuron.|
-A Making Trails|QID|40653|Z|The Dreamgrove|N|From Skylord Omnuron.|N|Choose which zone you want to do first. |PRE|40652|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|Z|The Dreamgrove|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40653|
-T Making Trails|QID|40653|Z|The Dreamgrove|N|To Skylord Omnuron.|
-f The Dreamgrove|QID|42438|M|61.70,33.74|Z|The Dreamgrove|N|At Danise Stargazer.|
-C Travel to Dalaran|QID|39718;39864;39731;39733;39735|Z|The Dreamgrove|N|Take the portal to travel to Dalaran.|
+A Sowing The Seed|QID|41255|QO|1|M|71.17,38.73|Z|EmeraldDreamway|N|From Rensar Greathoof.|PRE|40900;42430;41918;41689|
+C Sowing The Seed|QID|41255|M|45.91,51.00|Z|EmeraldDreamway|N|Plant the Seed of Ages|
+T Sowing The Seed|QID|41255|M|45.91,51.00|Z|EmeraldDreamway|N|To Rensar Greathoof.|
+A The Seed of Ages|QID|40651|M|52.63,51.44|Z|EmeraldDreamway|N|From Rensar Greathoof.|PRE|41255|
+C The Seed of Ages|QID|40651|M|52.63,51.44|Z|EmeraldDreamway|N|Imbue the artifact weapon with a new power in the seed you just planted.|
+T The Seed of Ages|QID|40651|M|52.68,51.16|Z|EmeraldDreamway|N|To Rensar Greathoof.|
+A Ascending The Circle|QID|41332|M|52.59,51.35|Z|EmeraldDreamway|N|From Rensar Greathoof.|PRE|40651|
+C Ascending The Circle|QID|41332|M|61.73,33.97|Z|EmeraldDreamway|N|Walk with Archdruid Greathoof|
+C Ascending The Circle|QID|41332|NC|QO|1|M|56.51,42.99|Z|EmeraldDreamway|N|Speak with Malfurion|
+T Ascending The Circle|QID|41332|Z|EmeraldDreamway|N|To Malfurion Stormrage.|
+A Word on the Winds|QID|40652|Z|EmeraldDreamway|N|From Malfurion Stormrage.|PRE|41332|
+T Word on the Winds|QID|40652|Z|EmeraldDreamway|N|To Skylord Omnuron.|
+A Making Trails|QID|40653|Z|EmeraldDreamway|N|From Skylord Omnuron. Choose which zone you want to do first. |PRE|40652|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|Z|EmeraldDreamway|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40653|
+T Making Trails|QID|40653|Z|EmeraldDreamway|N|To Skylord Omnuron.|
+f EmeraldDreamway|QID|42438|M|61.70,33.74|Z|EmeraldDreamway|N|At Danise Stargazer.|
+C Travel to Dalaran|QID|39718;39864;39731;39733;39735|Z|EmeraldDreamway|N|Take the portal to travel to Dalaran.|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|

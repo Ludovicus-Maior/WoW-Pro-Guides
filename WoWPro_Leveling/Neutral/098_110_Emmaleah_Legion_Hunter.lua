@@ -17,7 +17,7 @@
 -- Date: 2016-08-30 02:28
 -- Who: Emmaleah
 
-local guide = WoWPro:RegisterGuide('EmmLegionHunter', 'Leveling', 'TrueshotLodge@Highmountain', 'Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmLegionHunter', 'Leveling', 'TrueshotLodge', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Hunter Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
 WoWPro:GuideNextGuide(guide, nil)
@@ -118,14 +118,14 @@ R Travel to Dalaran|QID|41540|M|42.62,46.84|CC|N|Take the portal to Dalaran|LVL|
 T Rendezvous with the Courier|QID|41540|M|71.46,50.04|Z|Dalaran@Dalaran70|N|To Courier Larkspur.|
 A Call of the Marksman|QID|40392|M|71.46,50.04|Z|Dalaran@Dalaran70|N|From Courier Larkspur.|PRE|41540|
 C Call of the Marksman|QID|40392|QO|1|M|71.75,50.31|Z|Dalaran@Dalaran70|N|(Optional) Take the hippogryph to the Broken Shore.|
-C Call of the Marksman|QID|40392|QO|2|M|32.42,32.58|Z|BrokenShore|N|Speak to Vereesa Windrunner.|CHAT|
-T Call of the Marksman|QID|40392|M|32.27,32.41|Z|BrokenShore|N|To Vereesa Windrunner.|
-A Clandestine Operation|QID|40402|M|32.27,32.41|Z|BrokenShore|N|From Vereesa Windrunner.|PRE|41392|
-C Clandestine Operation|QID|40402|QO|1|M|32.27,32.41|Z|BrokenShore|N|Listen to Vereesa Windrunner.|CHAT|
-T Clandestine Operation|QID|40402|M|32.27,32.41|Z|BrokenShore|N|To Vereesa Windrunner.|
-A Rescue Mission|QID|40419|M|32.27,32.41|Z|BrokenShore|N|From Vereesa Windrunner.|PRE|41392|
-C Rescue Mission|QID|40419|QO|1|M|32.27,32.41|Z|BrokenShore|N|Speak to Vereesa and begin the mission.|CHAT|
-C Rescue Mission|QID|40419|QO|2|M|16.20,52.47|Z|BrokenShore|N|Travel through the portal to Niskara.|NC|
+C Call of the Marksman|QID|40392|QO|2|M|32.42,32.58|Z|Broken Shore|N|Speak to Vereesa Windrunner.|CHAT|
+T Call of the Marksman|QID|40392|M|32.27,32.41|Z|Broken Shore|N|To Vereesa Windrunner.|
+A Clandestine Operation|QID|40402|M|32.27,32.41|Z|Broken Shore|N|From Vereesa Windrunner.|PRE|41392|
+C Clandestine Operation|QID|40402|QO|1|M|32.27,32.41|Z|Broken Shore|N|Listen to Vereesa Windrunner.|CHAT|
+T Clandestine Operation|QID|40402|M|32.27,32.41|Z|Broken Shore|N|To Vereesa Windrunner.|
+A Rescue Mission|QID|40419|M|32.27,32.41|Z|Broken Shore|N|From Vereesa Windrunner.|PRE|41392|
+C Rescue Mission|QID|40419|QO|1|M|32.27,32.41|Z|Broken Shore|N|Speak to Vereesa and begin the mission.|CHAT|
+C Rescue Mission|QID|40419|QO|2|M|16.20,52.47|Z|Broken Shore|N|Travel through the portal to Niskara.|NC|
 C The Rescue|QID|40419|QO|3|SO|1|Z|Niskara|N|Survey the rise ahead and eliminate Legion patrols.|
 C Stop the Summoners|QID|40419|QO|3|SO|2|Z|Niskara|N|Defeat the Eredar Summoners before they bring in more demons.|
 C Search for Your Allies|QID|40419|QO|3|SO|3|Z|Niskara|N|Go deeper into Legion territory to locate Alleria and Orestes.|
