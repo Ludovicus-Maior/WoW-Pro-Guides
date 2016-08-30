@@ -372,7 +372,7 @@ function WoWPro.GenerateMapCache()
 		end
 	end
     WoWPro:Print("Now scraping maps directly");
-    for z=1,1200 do
+    for z=1,1300 do
         if not MapsSeen[z] then
 --            WoWPro:Print("Now scraping %d", z);
             if( SetMapByID(z) ) then
