@@ -252,8 +252,8 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 
     -- Handle comment lines specially
     if string.sub(text,1,1) == ";" then
-        WoWPro.action[i] = string.sub(text,1,1)
-        WoWPro.step[i] = string.sub(text,2)
+        WoWPro.action[i] = string.sub(atext,1,1)
+        WoWPro.step[i] = string.sub(atext,2)
         WoWPro.step[i] = WoWPro.step[i]:trim()
         return
     end
