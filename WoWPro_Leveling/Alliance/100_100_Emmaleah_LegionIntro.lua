@@ -3,9 +3,9 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/wiki/legion_intro_guide
--- Date: 2016-08-30 21:52
--- Who: Ludovicus
+-- URL: http://wow-pro.com/wiki/legion_intro_guidealliance
+-- Date: 2016-08-31 03:20
+-- Who: Emmaleah
 -- Log: Updated to |Z|Broken Shore|
 
 -- URL: http://wow-pro.com/node/3662/revisions/27568/view

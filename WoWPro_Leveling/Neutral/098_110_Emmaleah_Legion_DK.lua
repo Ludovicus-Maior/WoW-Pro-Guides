@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-08-31 03:03
+-- Who: Emmaleah
+-- Log: deleted bad  in A Call to War
+
+-- URL: http://wow-pro.com/node/3668/revisions/27656/view
 -- Date: 2016-08-31 00:15
 -- Who: Ludovicus
 -- Log: Leftover ¦Z¦Acherus: The Ebon Hold¦'s
@@ -52,8 +57,7 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Dalaran70|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
-A The Call To War|QID|40714|M|57.67,45.71|Z|Dalaran@Dalaran70|N|From UI Alert a minute or so after you turn in the previous
-quest.|
+A The Call To War|QID|40714|M|57.67,45.71|Z|Dalaran@Dalaran70|N|From UI Alert a minute or so after you turn in the previous quest.|
 T The Call To War|QID|40714|M|73.11,46.85|Z|Dalaran@Dalaran70|N|To Duke Lankral up on Krasus Landing.|
 A A Pact of Necessity|QID|40715|M|73.11,46.85|Z|Dalaran@Dalaran70|N|From Duke Lankral.|PRE|40714|
 C A Pact of Necessity|QID|40715|NC|QO|1|M|73.11,46.85|Z|Dalaran@Dalaran70|N|Choose which artifact path you want, the
