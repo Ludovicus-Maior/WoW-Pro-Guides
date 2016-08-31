@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2016-08-31 03:18
+-- Who: Emmaleah
+-- Log: Per Tubera's post. PRE Tag on A The New Blood, and N tag correction for U Return to Dalaran|QID|40712|
+--	As to scenario steps, I think its still a bit rocky.  I know I made some mistakes in formatting (which have hopefully all been fixed now) because I had never made a guide that used scenario steps before. 
+
+-- URL: http://wow-pro.com/node/3679/revisions/27645/view
 -- Date: 2016-08-30 22:15
 -- Who: Ludovicus
 -- Log: Corrected Zones
@@ -35,7 +41,7 @@ T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To 
 A The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Ritssyn Flamescowl.|
 C The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran@Dalaran70|NC|N|Follow Ritssyn through the portal.|
 T The Sixth|QID|40716|M|57.87,60.03|Z|Dalaran@Dalaran70|N|To Ritssyn Flamescowl.|
-A The New Blood|QID|40729|M|57.87,60.03|Z|Dalaran@Dalaran70|N|From Ritssyn Flamescowl.|PRE|44716|
+A The New Blood|QID|40729|M|57.87,60.03|Z|Dalaran@Dalaran70|N|From Ritssyn Flamescowl.|PRE|40716|
 C The New Blood|QID|40729|NC|QO|1|M|58.36,68.06|Z|Dalaran@Dalaran70|N|Wait a minute or so until the gate is fully formed and then click on the gate to perform the ritual and then wait until you are transported to a solo scenario.|
 C Far From Home|NC|SO|1|N|Listen to Ritssyn.|QID|40729|
 C The Dread Warden|SO|2;1|M|34.99,63.12|N|Use the extra action button to Enslave the jailer Beshtal thus freeing yourself from his cage, then defeat him with Ritssyn's aid.|QID|40729|
@@ -89,7 +95,7 @@ C Ulthalesh, the Deadwind Harvester claimed|SO|7;1|M|68.62,26.02|Z|KarazhanScena
 C The Dark Riders|QID|40623|NC|QO|2|M|68.62,26.02|Z|KarazhanScenario|N|Pick up Ulthalesh.|
 T The Dark Riders|QID|40623|M|68.21,27.38|Z|KarazhanScenario|N|To Revil Kost.|
 A The Power Possessed|QID|40712|M|68.21,27.38|Z|KarazhanScenario|N|From Revil Kost.|PRE|40623|
-U Return to Dalaran|QID|40712|M|68.21,27.38|Z|KarazhanScenario|U|140192|N|Use your Dalaran Hearthstone to return. You will find Revil in the Underbelly.|ACTIVE|40712|
+U Return to Dalaran|QID|40712|M|68.21,27.38|Z|KarazhanScenario|U|140192|N|Use your Dalaran Hearthstone to return. You will find Calydus in the Underbelly.|ACTIVE|40712|
 T The Power Possessed|QID|40712|M|55.85,65.40|N|To Calydus.|
 
 ;DEMONOLOGY

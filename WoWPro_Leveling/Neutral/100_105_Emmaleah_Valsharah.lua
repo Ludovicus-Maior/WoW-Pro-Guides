@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-08-31 07:50
+-- Who: Emmaleah
+-- Log: added Notes at top of guide, and Z|Dalaran@Dalaran70 to first 2 steps.
+
+-- URL: http://wow-pro.com/node/3665/revisions/27648/view
 -- Date: 2016-08-30 22:26
 -- Who: Ludovicus
 -- Log: Step $ [Treasire:38390] in EmmValsharah is missing a CS¦CC¦CN tag.
@@ -33,9 +38,14 @@ WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-T The Tranquil Forest|QID|39731|M|70.65,43.80|N|To Archmage Khadgar.|
-A Tying Up Loose Ends|QID|39861|M|70.65,43.80|N|From Archmage Khadgar.|
-C Tying Up Loose Ends|QID|39861|M|69.83,51.21|QO|1|NC|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|
+N Starting in Dalaran|QID|39731|U|140192|N|This guide assumes you are starting in Dalaran. |
+N Treasure|QID|39731|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3.|
+N Rares (Silver Elite)|QID|39731|N|A significant number, but not all of the Silver mobs are listed.  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
+N Ranks|QID|39731|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & nearly every treasure in the zone.|
+
+T The Tranquil Forest|QID|39731|M|70.65,43.80|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+A Tying Up Loose Ends|QID|39861|M|70.65,43.80|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
+C Tying Up Loose Ends|QID|39861|M|69.83,51.21|Z|Dalaran@Dalaran70|QO|1|NC|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|
 $ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|
 $ Treasure|QID|39093|M|54.19,70.59|N|Up the steam on a rock. Loot for a bit of treasure and resources.|
 T Tying Up Loose Ends|QID|39861|M|54.69,72.83|N|To Malfurion Stormrage.|
