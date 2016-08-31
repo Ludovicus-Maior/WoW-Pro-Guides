@@ -127,7 +127,7 @@ C To Weather the Storm|QID|38405|M|41.86,68.40|QO|1|N|1/1 Climbing Treads|
 C To Weather the Storm|QID|38405|M|45.68,66.64|LVL|101|N|1/1 Oiled Cloak|
 T Assault the Drekirjar|QID|38374|M|43.79,68.21|QO|1|N|To Commander Lorna Crowley.|
 T To Weather the Storm|QID|38405|M|43.79,68.21|N|To Commander Lorna Crowley.|
-A Impalement Insurance|QID|38410|PRE|38405;|M|43.79,68.21|N|From Commander Lorna Crowley.|
+A Impalement Insurance|QID|38410|PRE|38405|M|43.79,68.21|N|From Commander Lorna Crowley.|
 C Built to Scale|QID|38337|M|46.15,72.82|N|50/50 Storm Drake Scale|
 C Impalement Insurance|QID|38410|M|43.52,68.14|QO|2|N|7/7 Harpoon Launchers Destroyed|
 T Impalement Insurance|QID|38410|M|46.25,70.37|N|To Commander Lorna Crowley.|
@@ -143,14 +143,14 @@ T Above the Winter Moonlight|QID|38412|M|44.82,77.41|QO|4|N|To Vethir.|
 A Heart of a Dragon|QID|38414|PRE|38412|M|44.82,77.41|QO|3|N|From Vethir.|
 A Wings of Liberty|QID|38413|PRE|38412|M|44.82,77.41|QO|1|N|From Vethir.|
 A Fury of the Storm|QID|40568|PRE|38412|M|44.82,77.41|QO|2|N|From Vethir.|
-C Fury of the Storm|QID|40568|M|43.72,83.29|N|S|Drekirjar vrykul slain|
+C Fury of the Storm|QID|40568|M|43.72,83.29|S|N|Drekirjar vrykul slain|
 C Wings of Liberty|QID|38413|M|45.89,78.76|QO|1|N|1/1 Hrafsir Freed|
 C Wings of Liberty|QID|38413|M|49.07,81.21|QO|1|N|1/1 Aleifir Freed|
 C Wings of Liberty|QID|38413|M|45.64,82.15|QO|1|N|1/1 Hridmogir Freed|
 C Wings of Liberty|QID|38413|M|44.10,80.63|N|1/1 Erilar Freed|
 C Heart of a Dragon|QID|38414|M|42.11,81.87|N|1/1 Find the Thorignir Mother|
 C Heart of a Dragon|QID|38414|M|41.96,81.61|N|1/1 Azariah slain|
-C Fury of the Storm|QID|40568|M|43.72,83.29|N|US|Drekirjar vrykul slain|
+C Fury of the Storm|QID|40568|M|43.72,83.29|US|N|Drekirjar vrykul slain|
 T Heart of a Dragon|QID|38414|M|42.78,82.70|QO|2|N|To Vethir.|
 T Fury of the Storm|QID|40568|M|42.78,82.70|N|To Vethir.|
 T Wings of Liberty|QID|38413|M|42.78,82.70|N|To Vethir.|
