@@ -4,8 +4,8 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
--- Date: 2016-08-30 22:23
--- Who: Ludovicus
+-- Date: 2016-09-01 06:19
+-- Who: Emmaleah
 -- Log: Correct typo in 60.98,34.67,65.84,37.26
 
 -- URL: http://wow-pro.com/node/3657/revisions/27499/view
@@ -267,7 +267,7 @@ A Hit the Books|QID|37678|M|53.02,47.80|Z|1015/17|N|From Andellis.|
 C Dressing With Class|QID|37736|QO|4|M|55.01,51.52|Z|1015/17|NC|N|The spellbook is in this bookcase.|
 C Hit the Books|QID|37678|QO|1|M|60.70,86.32|Z|1015/17|N|Kill the books as you go along.|S|
 C Dressing With Class|QID|37736|QO|3|M|66.24,72.76|Z|1015/17|NC|N|The wand is lying against the wall.|
-A Small Treasure Chest|QID|42284|M|62.00,83.74|N|Loot for a bit of treasure and resources.|
+A Small Treasure Chest|QID|42284|M|62.00,83.74|Z|1015/17]N|Loot for a bit of treasure and resources.|
 C Dressing With Class|QID|37736|QO|2|M|59.46,84.76|Z|1015/17|NC|N|Take the robes from the sleeping student.|
 C Hit the Books|QID|37678|QO|1|M|60.70,86.32|Z|1015/17|N|Finish killing the ancient tomes.|US|
 C Dressing With Class|QID|37736|QO|1|M|55.61,56.08|Z|1015/17|NC|N|The hat is on the ground.|

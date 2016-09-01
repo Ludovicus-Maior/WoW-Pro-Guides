@@ -1,4 +1,18 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-08-31 22:46
+-- Who: Ludovicus
+-- Log: Make it load sans errors.
+
+-- URL: http://wow-pro.com/node/3683/revisions/27667/view
+-- Date: 2016-08-31 22:25
+-- Who: Ludovicus
+-- Log: So far
+
 local guide = WoWPro:RegisterGuide('LudoStormheim', 'Leveling', 'Stormheim', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,98, 105)
 WoWPro:GuideNextGuide(guide, 'Azuna')
@@ -218,4 +232,3 @@ D On to Class Halls|N|This ends Stormheim and the Warrior order hall guide will 
 ]]
 
 end)
-

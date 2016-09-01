@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2016-08-31 23:11
+-- Who: Fluclo
+-- Log: Added Rank 2 to quests not needed for zone progression, Added PRE to quests that need previous quests to be completed first. Added LEAD to Shadowhide Extinction since you can't go back to it once Darnforth is killed in a later quest. Added NC to Bravo Company Camouflage quest. Moved Shalewind flight-path earlier in the guide. Some note updates for clarity.
+
+-- URL: http://wow-pro.com/node/3215/revisions/27666/view
 -- Date: 2016-08-31 21:05
 -- Who: Fluclo
 -- Log: Added Rank 2 to the steps not essential for zone progression. Changed Bellygrub and Nida's Necklace to Rank 3. Add PRE quest tag to those that had to have quests done to get. Added Active to Hearthstone so that it only shows when appropriate.
@@ -143,7 +148,7 @@ WoWPro:GuideIcon(guide,"ACH",4902)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Redridge Mountains|QID|26506|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are Threat to the Kingdom from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and Hero's Call: Redridge Mountains! available from both Hero's Callboards in Stormwind City, as well as from King Varian Wrynn. |
+R Redridge Mountains|QID|26503|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are Threat to the Kingdom from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and Hero's Call: Redridge Mountains! available from both Hero's Callboards in Stormwind City, as well as from King Varian Wrynn. |
 
 A Wanted: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|RANK|2|
 A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|RANK|2|
@@ -216,8 +221,8 @@ A This Ain't My War|QID|26568|M|26.20,39.90|N|From John J. Keeshan.|PRE|26567|
 T This Ain't My War|QID|26568|M|28.57,40.84|N|To Colonel Troteman in the town hall.|
 A Weapons of War|QID|26571|M|28.57,40.84|N|From Colonel Troteman.|PRE|26568|
 A In Search of Bravo Company|QID|26586|M|28.58,40.90|N|From Colonel Troteman.|
-A Surveying Equipment|QID|26569|M|29.63,44.41|N|From Foreman Oslow outside towards the bridge.|
-A Render's Army|QID|26570|M|29.63,44.41|N|From Marshal Marris.|
+A Surveying Equipment|QID|26569|M|29.63,44.41|N|From Foreman Oslow outside towards the bridge.|RANK|2|
+A Render's Army|QID|26570|M|29.63,44.41|N|From Marshal Marris.|RANK|2|
 
 R Alther's Mill|QID|26586|M|41.25,35.60|N|Head along the road north-east to Alther's Mill.|
 C Render's Army|QID|26570|S|M|29.35,10.76|N|Kill any and all orcs for this quest.  Except for the elites.|
@@ -247,68 +252,71 @@ C Render's Army|QID|26570|US|M|29.35,10.76|N|Finish killing any and all orcs for
 H Lakeshire Inn|QID|26563|N|Hearth back to Lakeshire or run if it is on cooldown.|ACTIVE|26563|
 T His Heart Must Be In It|QID|26573|M|28.51,40.85|N|To Colonel Troteman in the town hall.|
 T Return of the Bravo Company|QID|26563|M|28.51,40.85|N|To Colonel Troteman.|
-A They Drew First Blood|QID|26607|M|28.51,40.85|N|From Colonel Troteman.|
+A They Drew First Blood|QID|26607|M|28.51,40.85|N|From Colonel Troteman.|PRE|26573;26563|
 T Surveying Equipment|QID|26569|M|29.65,44.38|N|To Foreman Oslow.|
 T Render's Army|QID|26570|M|29.65,44.38|N|To Marshal Marris.|
-r Repair, Sell Junk|QID|26607|S|ACTIVE|26607|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to John J. Keeshan|
+r Repair, Sell Junk|QID|26607|S|ACTIVE|26607|N|Take this opportunity to sell unwanted junk and to repair with Kimberly Hiett just inside the Inn as you head to John J. Keeshan|T|Kimberly Hiett|
 T They Drew First Blood|QID|26607|M|26.29,39.90|N|Head to the basement of the inn to John J. Keeshan.|
-A It's Never Over|QID|26616|M|26.29,39.90|N|From John J. Keeshan.|
+A It's Never Over|QID|26616|M|26.29,39.90|N|From John J. Keeshan.|PRE|26607|
 C It's Never Over|QID|26616|NC|M|34.25,45.6|N|Head to the dock just beyond the bridge, and click on the boat to head to Camp Everstill.|
 f Camp Everstill|QID|26616|M|52.87,54.51|N|At Arlen Marsters.|
 
-T It's Never Over|QID|26616|M|52.48,55.19|N|To John J. Keeshan.|
-A Point of Contact: Brubaker|QID|26639|M|52.48,55.19|N|From John J. Keeshan.|
-A Hunting the Hunters|QID|26638|M|52.46,55.38|N|From Danforth.|
-A Bravo Company Field Kit: Chloroform|QID|26637|M|52.49,55.47|N|From Messner.|
-A Bravo Company Field Kit: Camouflage|QID|26636|M|52.49,55.47|N|From Krakauer.|
-C Bravo Company Field Kit: Chloroform|QID|26637|NC|M|42.75,53.87|N|Enter the lake and kill any Muckdweller you see.  Don't forget to surface now and then, and be careful of Ol' Gummers.|
+T It's Never Over|QID|26616|M|52.48,55.19|N|To John J. Keeshan, who is now in Camp Everstill.|
+A Point of Contact: Brubaker|QID|26639|M|52.48,55.19|N|From John J. Keeshan.|PRE|26616|
+A Hunting the Hunters|QID|26638|M|52.46,55.38|N|From Danforth.|PRE|26616|
+A Bravo Company Field Kit: Chloroform|QID|26637|M|52.49,55.47|N|From Messner.|PRE|26616|
+A Bravo Company Field Kit: Camouflage|QID|26636|M|52.49,55.47|N|From Krakauer.|PRE|26616|
+C Bravo Company Field Kit: Chloroform|QID|26637|NC|M|42.75,53.87|N|Enter the lake, then kill and loot any Muckdweller you see.  Unless you have underwater breathing, don't forget to surface now and then. Be aware of the elite Ol' Gummers patrolling the waters.|
 C Hunting the Hunters|QID|26638|S|M|52.95,67.78|N|Kill any Blackrock Hunter you see. They are stealthed.|
-C Bravo Company Field Kit: Camouflage|QID|26636|S|M|50.40,65.50|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|
+C Bravo Company Field Kit: Camouflage|QID|26636|S|M|50.40,65.50|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|NC|
 T Point of Contact: Brubaker|QID|26639|M|53.01,67.78|N|To Brubaker.|
-A Unspeakable Atrocities|QID|26640|M|53.01,67.78|N|From Brubaker.|
-C Bravo Company Field Kit: Camouflage|QID|26636|US|M|50.40,65.50|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|
+A Unspeakable Atrocities|QID|26640|M|53.01,67.78|N|From Brubaker.|PRE|26640|
+C Bravo Company Field Kit: Camouflage|QID|26636|US|M|50.40,65.50|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|NC|
 C Hunting the Hunters|QID|26638|US|M|52.95,67.78|N|Kill any Blackrock Hunter you see. They are stealthed.|
 T Bravo Company Field Kit: Camouflage|QID|26636|M|52.47,55.45|N|To Krakauer.|
 T Bravo Company Field Kit: Chloroform|QID|26637|M|52.47,55.45|N|To Messner.|
 T Hunting the Hunters|QID|26638|M|52.47,55.45|N|To Danforth.|
 T Unspeakable Atrocities|QID|26640|M|52.47,55.45|N|To John J. Keeshan.|
-A Prisoners of War|QID|26646|M|52.50,55.48|N|From John J. Keeshan.|
-C Blackrock Holding Pen Key|QID|26646|NC|U|60384|M|69.4,76.53|N|Use the field kit. Then use ability #1 (Camoflauge) when you get near the camp. Use #2 (Distraction) to get past guards (can backfire somewhat). Use #3 (Chloroform) on the orc where the key is.|
+
+A Prisoners of War|QID|26646|M|52.50,55.48|N|From John J. Keeshan.|PRE|26636;26637;26638;26640|
+C Blackrock Holding Pen Key|QID|26646|NC|U|60384|M|69.4,76.53|N|Use the field kit. Then use ability #1 (Camoflauge) when you get near the camp. Use #2 (Distraction) to get past guards (can backfire somewhat). Use #3 (Chloroform) on the orc where the key is.|L|59261|
 C Prisoners of War|QID|26646|U|60384|M|69.40,58.59|N|If the orc is about to wake up, use ability #3 again. Use #2 to get out of the cave. Then head to the waypoint, click on one of the cages to free the people.|
 T Prisoners of War|QID|26646|M|69.46,58.62|N|(UI Alert)|
-A To Win a War, You Gotta Become War|QID|26651|M|69.46,58.62|N|(UI Alert)|
+
+A To Win a War, You Gotta Become War|QID|26651|M|69.46,58.62|N|(UI Alert)|PRE|26646|
 C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|2|M|66.4,71.43|N|Re-apply the Camouflage if it's low. Head to the waypoint and use #2 to get in the tower. Use the Chloroform to get to the top. Once inside at the top use ability #4.|
 C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|1|M|63.86,70.34|N|Same deal as the Tower. Use a distraction to get in and plant a charge,|
-
-R Shalewind Canyon|QID|26651|U|60385|M|72.4,64.3;77.26,65.86|CC|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|
+R Shalewind Canyon|QID|26651|U|60385|M|72.4,64.3;77.26,65.86|CC|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|ACTIVE|26651|
+f Shalewind Canyon|QID|26651|M|77.91,65.85|N|At Nora Baldwin.|
 T To Win a War, You Gotta Become War|QID|26651|M|77.60,65.56|N|To John J. Keeshan.|
-A Detonation|QID|26668|M|77.60,65.56|N|From John J. Keeshan.|
+
+A Detonation|QID|26668|M|77.60,65.56|N|From John J. Keeshan.|PRE|26651|
 C Detonation|QID|26668|NC|M|77.60,65.61|N|Enjoy the brief cut scene.|
 T Detonation|QID|26668|M|77.60,65.61|N|To John J. Keeshan.|
-f Shalewind Canyon|QID|26668|M|77.91,65.85|N|At Nora Baldwin.|
-A The Dark Tower|QID|26693|M|77.57,65.57|N|From John J. Keeshan.|
-A Shadowhide Extinction|QID|26692|M|77.59,65.54|N|From Danforth.|
+
+A The Dark Tower|QID|26693|M|77.57,65.57|N|From John J. Keeshan.|PRE|26668|
+A Shadowhide Extinction|QID|26692|M|77.59,65.54|N|From Danforth.|PRE|26668|RANK|2|LEAD|26714|
 C Shadowhide Extinction|QID|26692|S|N|Kill any Gnoll you come across.|
 C The Dark Tower|QID|26693|M|67.58,29.61|N|Enter the cave and kill General Fangore. Loot his corpse to get the Key of Ilgalar.|
 T The Dark Tower|QID|26693|M|67.55,29.54|N|(UI Alert)|
-A The Grand Magus Doane|QID|26694|M|67.55,29.54|N|(UI Alert)|
-C The Grand Magus Doane|QID|26694|U|59522|M|71.30,45.17|N|Click on the Ward of Ilgalar to enter the tower, then head to the top and kick Grand Magus Doane's butt.|
+A The Grand Magus Doane|QID|26694|M|67.55,29.54|N|(UI Alert)|PRE|26693|
+C The Grand Magus Doane|QID|26694|M|72.08,44.85|N|Run to the Tower of Ilgalar,  click on the Ward of Ilgalar to enter the tower, then head to the top and kick Grand Magus Doane's butt.|
 C Shadowhide Extinction|QID|26692|US|M|70.24,39.53|N|Kill any Gnoll you come across.|
 T Shadowhide Extinction|QID|26692|M|77.79,65.16|N|(UI Alert)|
 T The Grand Magus Doane|QID|26694|M|77.77,65.23|N|To John J. Keeshan.|
 
-A AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|77.29,65.80|N|From Colonel Troteman.|
-C AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.76,36.57|N|Hop in the tank and head towared Keeshan's post. You should have all 200 when you get there.|
+A AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|77.29,65.80|N|From Colonel Troteman.|PRE|26694|
+C AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.76,36.57|N|Hop in the tank and head NORTH towards Keeshan's post. Your buddies will do the killing for you. You should have all 200 by the time you get there.|
 T AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.76,36.57|N|To Colonel Troteman.|
-A Showdown at Stonewatch|QID|26713|M|60.76,36.57|N|From Colonel Troteman.|
-C Showdown at Stonewatch|QID|26713|QO|1|M|60.29,47.27|N|First up is Tharil'zun.|
-C Showdown at Stonewatch|QID|26713|QO|2|M|58.44,55.60|N|Head to the waypoint to kill Gath'Ilzogg.|
+A Showdown at Stonewatch|QID|26713|M|60.76,36.57|N|From Colonel Troteman.|PRE|26708|
+C Showdown at Stonewatch|QID|26713|QO|1|M|60.29,47.27|N|Head up to Stonewatch, and kill Tharil'zun.|T|Tharil'zum|
+C Showdown at Stonewatch|QID|26713|QO|2|M|58.44,55.60|N|Head through the castle grounds and kill Gath'Ilzogg.|T|Gath'Ilzogg|
 T Showdown at Stonewatch|QID|26713|M|58.44,55.53|N|(UI Alert)|
-A Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.44,55.53|N|(UI Alert)|
+A Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.44,55.53|N|(UI Alert)|PRE|26713|
 C Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.89,55.27|N|Use the horn tha should be next to Gath'Ilzogg's corpse. Try to stay on Darkblaze's side, and just attack as hard as you can. You can not pull it off of Keeshan.|
-T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.55,36.46|N|To Colonel Troteman.|
-A Triumphant Return|QID|26726|M|60.55,36.46|N|From Colonel Troteman.|
-H Lakeshire Inn|QID|26726|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|
+T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.55,36.46|N|To Colonel Troteman back at Keeshan's post. All mobs from Stonewatch will be gone.|
+A Triumphant Return|QID|26726|M|60.55,36.46|N|From Colonel Troteman.|PRE|26714|
+H Lakeshire Inn|QID|26726|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|ACTIVE|26726|
 T Triumphant Return|QID|26726|M|28.79,41.11|N|To Magistrate Solomon in the town hall.|
 
 ]]
