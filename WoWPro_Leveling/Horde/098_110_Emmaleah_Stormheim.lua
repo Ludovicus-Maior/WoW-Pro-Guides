@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3680
+-- Date: 2016-09-01 06:27
+-- Who: Emmaleah
+-- Log: moved stormforged grapple launcher aquistion, since it isn't where it was in beta.
+
+-- URL: http://wow-pro.com/node/3680/revisions/27600/view
+-- Date: 2016-08-27 13:55
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmStormheim', 'Leveling', 'Stormheim', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,98, 105)
 WoWPro:GuideNextGuide(guide, nil)
@@ -52,7 +61,6 @@ $ Small Treasure Chest|QID|38498|M|39.58,19.35|N|Loot for a bit of treasure and 
 C The Windrunner's Fate|QID|38360|M|41.72,19.73|QO|2|N|Find Dread-Captain Tattersail.|
 C Wrath of the Blightcaller|QID|38361|M|39.47,19.51|US|N|Finish up killing alliance forces.|
 C The Windrunner's Fate|QID|38360|M|44.15,18.00|QO|3|N|Find the Dark Lady's landing.|
-A Stormforged Grapple Launcher|QID|39775|M|44.27,17.62|N|You will need this to for several quests as well as to enable getting to some treasure chests.|
 $ Treasure Chest|QID|43195|M|50.00,18.10|N|Loot for a bit of treasure and resources.|RANK|3|
 T The Windrunner's Fate|QID|38360|M|44.12,18.20|N|To Nathanos Blightcaller.|
 T Wrath of the Blightcaller|QID|38361|M|44.12,18.20|N|To Nathanos Blightcaller.|
@@ -129,7 +137,7 @@ A Will of the Thorignir|QID|38611|M|41.84,43.07|N|From Havi.|
 f Cullen's Post|QID|38611|M|44.87,59.12|N|At Duchess.|
 T Will of the Thorignir|QID|38611|M|44.81,59.36|N|To Dread-Rider Cullen.|
 A A Grapple a Day|QID|38612|M|44.81,59.36|N|From Dread-Rider Cullen.|
-C A Grapple a Day|QID|38612|M|44.27,17.62|NC|N|You should have this, if for some reason you didn't pick it up, its down on the beach where you met Sylvanas.|
+A Stormforged Grapple Launcher|QID|39775|M|44.85,59.27|N|You will need this for the next few quests as well as to enable getting to some treasure chests.|
 T A Grapple a Day|QID|38612|M|46.55,67.81|N|To Dread-Rider Cullen.|
 A No Wings Required|QID|38613|M|46.55,67.81|N|From Dread-Rider Cullen.|
 A To Weather the Storm|QID|38614|M|46.55,67.81|N|From Dread-Rider Cullen.|
