@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2016-09-01 13:09
+-- Who: Fluclo
+-- Log: Corrected coords in They Sent Assassins (Human Warrior), changed Rest and Relaxation to Active instead of Rank.
+
+-- URL: http://wow-pro.com/node/3197/revisions/27638/view
 -- Date: 2016-08-30 19:32
 -- Who: Fluclo
 -- Log: Elwynn Forest is not just for Humans, so removed Humans from the guide title
@@ -248,7 +253,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Report to Goldshire|QID|54|M|48.22,42.03|N|From Marshal McBride in Northshire Valley|PRE|26390|RANK|2|
-A Rest and Relaxation|QID|37112|M|45.42,48.99|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|RANK|2|
+A Rest and Relaxation|QID|37112|M|45.42,48.99|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|ACTIVE|54|
 
 ;f Goldshire|QID|37112|M|41.72,64.64|N|At Bartlett the Brave.|
 h Lion's Pride Inn|QID|37112|M|43.77,65.80|N|At Innkeeper Farley.|ACTIVE|37112|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2016-09-01 13:09
+-- Who: Fluclo
+-- Log: Corrected coords in They Sent Assassins (Human Warrior), changed Rest and Relaxation to Active instead of Rank.
+
+-- URL: http://wow-pro.com/node/3197/revisions/27638/view
 -- Date: 2016-08-30 19:32
 -- Who: Fluclo
 -- Log: Elwynn Forest is not just for Humans, so removed Humans from the guide title
@@ -387,7 +392,7 @@ T They Sent Assassins|QID|28791|C|Hunter|R|Human|M|35.74,39.81|N|To Sergeant Wil
 T Fear No Evil|QID|28808|C|Mage|R|Human|M|34.59,39.02|N|To Brother Paxton.|
 T They Sent Assassins|QID|28792|C|Mage|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
 T Fear No Evil|QID|28813|C|Warrior|R|Human|M|34.59,39.02|N|To Brother Paxton.|
-T They Sent Assassins|QID|28797|C|Warrior|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T They Sent Assassins|QID|28797|C|Warrior|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
 T Fear No Evil|QID|28810|C|Priest|R|Human|M|34.59,39.02|N|To Brother Paxton.|
 T They Sent Assassins|QID|28794|C|Priest|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
 T Fear No Evil|QID|28811|C|Rogue|R|Human|M|34.59,39.02|N|To Brother Paxton.|
@@ -429,7 +434,7 @@ T Blackrock Invasion|QID|26389|M|33.55,53.00|N|To Marshal McBride.|
 
 A Ending the Invasion!|QID|26390|M|33.55,53.00|N|From Marshal McBride.|PRE|26389|
 C Ending the Invasion!|N|Kill Kurtok the Slayer (go around the abbey to get to him).|QID|26390|M|65.06,48.19|T|Kurtok the Slayer|
-H Northshire Valley|QID|26390|U|6948|N|Hearth or run back to the Abbey.|M|48.20,42.06|ACTIVE|26390|
+;H Northshire Valley|QID|26390|U|6948|N|Hearth or run back to the Abbey.|M|48.20,42.06|ACTIVE|26390|
 r Repair and Sell Junk|QID|26390|S|ACTIVE|26390|N|Take this opportunity to sell your junk and repair with the sellers at the Caravan|T|Godric Rothgar|
 T Ending the Invasion!|QID|26390|M|33.55,53.00|N|To Marshal McBride.|
 
