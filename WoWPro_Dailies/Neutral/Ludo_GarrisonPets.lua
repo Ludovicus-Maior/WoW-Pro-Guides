@@ -11,12 +11,17 @@ return
 
 ; Day 1: Deebs, Tyri, and Puzzle  ** 2393 XP!!!!
 ! Deebs, Tyri, and Puzzle|NPC|79180;79181;79182|QID|79180.1|
+C Sepsis@Warcraftpets|QID|79180.1|PET1|Enchanted Broom;33227;2+2+2|PET2|Leveling;;|PET3|Weebomination;78421;1+1+1|STRATEGY|Sepsis@Warcraftpets|
 C Wee/MPD|QID|79180.1|PET1|Weebomination;78421;1+1+1|PET2|Leveling;;|PET3|Mechanical Pandaren Dragonling;64899;1+2+2|STRATEGY|Wee/MPD|
 C Weebomination|QID|79180.1|STRATEGY|Wee/MPD|N|Cleave until Weebomination dies|SELECT|1|DEAD|1,1|SWITCH|3|
 C Deebs|QID|79180.1|STRATEGY|Wee/MPD|N|1) Thunderbolt on cooldown\n2) Breath as a filler till Deebs dies.|SELECT|3|DEAD|2,1|
 C Tyri|QID|79180.1|STRATEGY|Wee/MPD|N|1) Decoy\n2) Thunderbolt on cooldown\n3) Breath as a filler till Tyri dies.|SELECT|3|DEAD|2,2|SWITCH|2|
 C Leveling|QID|79180.1|STRATEGY|Wee/MPD|N|1) Switch your leveling pet in and then bring back the Dragonling|SELECT|2|SWITCH|3|
 C Puzzle|QID|79180.1|STRATEGY|Wee/MPD|N|1) Thunderbolt on cooldown\n2) Breath as a filler till Deebs Puzzle.|SELECT|3|DEAD|2,3|
+C Strategy by Sepsis@Warcraftpets|QID|79180.1|STRATEGY|Sepsis@Warcraftpets|N|Sweep\nSwitch in your Leveling Pet|SELECT|1|SWITCH|2|
+C Strategy by Sepsis@Warcraftpets|QID|79180.1|STRATEGY|Sepsis@Warcraftpets|N|Switch in your Weebomination|SELECT|2|SWITCH|3|
+C Strategy by Sepsis@Warcraftpets|QID|79180.1|STRATEGY|Sepsis@Warcraftpets|N|Spam Cleave until your Weebomination dies\nSwitch in your Enchanted Broom|SELECT|3|DEAD|1,3|SWITCH|1|
+C Strategy by Sepsis@Warcraftpets|QID|79180.1|STRATEGY|Sepsis@Warcraftpets|N|If Puzzle has the Dodge or Portal buff on him, then spam Wind-Up until all clear and nothing is moving. Otherwise use Batter once, then spam Wind-Up.|SELECT|1|
 
 
 ; Day 2: Brutus and Rukus
