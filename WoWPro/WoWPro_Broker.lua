@@ -652,7 +652,7 @@ function WoWPro.NextStep(k,i)
                end
                if objective > 0 then
                    if objective > WoWPro.Scenario.numCriteria then
-                       WoWPro:Error("Invalid objective number")
+                       WoWPro:dbp("Big scenario objective [%s] at step %s [%s]. objective=%d, numCriteria=%d", WoWPro.sobjective[k], WoWPro.action[k],WoWPro.step[k], objective, WoWPro.Scenario.numCriteria)
                        skip = true
                        break
                    end
