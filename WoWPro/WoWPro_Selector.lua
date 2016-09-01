@@ -242,7 +242,7 @@ function WoWPro.SelectGuideReal()
     local count, nGID , quest
     count = 0
     for guidID,value in pairs(WoWPro.QuestLogGuides) do
-        if not WoWProCharDB.Guide[guidID].NoSelect then
+        if WoWProCharDB.Guide[guidID] and not WoWProCharDB.Guide[guidID].NoSelect then
             count = count + 1
             quest = value
             nGID = guidID
