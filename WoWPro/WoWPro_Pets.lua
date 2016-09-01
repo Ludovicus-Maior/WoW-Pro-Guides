@@ -473,12 +473,14 @@ function WoWPro.ProcessFinalRound(winner, qidx)
         WoWPro.current_strategy = nil
     else
         -- We lost. Mark all completed pet steps that share the same QID AND strategy as uncompleted so we can restart cleanly
-        WoWPro:dbp("ProcessFinalRound: We lost.  Restarting strategy %s.", WoWPro.current_strategy)
-        for i=1, WoWPro.stepcount do
-            if WoWProCharDB.Guide[GID].completion[i] and WoWPro.strategy[i] and WoWPro.strategy[i] == WoWPro.current_strategy then
-                WoWPro.UnSkipStep(i)
+        WoWPro:dbp("ProcessFinalRound: We lost.  Restarting strategy %s.", tostring(WoWPro.current_strategy))
+        if WoWPro.current_strategy then
+            for i=1, WoWPro.stepcount do
+                if WoWProCharDB.Guide[GID].completion[i] and WoWPro.strategy[i] and WoWPro.strategy[i] == WoWPro.current_strategy then
+                    WoWPro.UnSkipStep(i)
+                end
             end
-        end        
+        end
     end
 end
 	
