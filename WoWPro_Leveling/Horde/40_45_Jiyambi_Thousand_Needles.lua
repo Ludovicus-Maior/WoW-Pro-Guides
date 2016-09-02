@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
+-- Date: 2016-09-01 15:06
+-- Who: Ludovicus
+-- Log: luisb reports that [Bar Fight] is needed for [Pirate Accuracy Increasing]
+
+-- URL: http://wow-pro.com/node/3254/revisions/27556/view
 -- Date: 2016-08-16 16:29
 -- Who: tubera
 -- Log:  the Bold
@@ -88,12 +93,12 @@ T Two If By Boat|QID|25489|M|75.94,74.68|N|To Pozzik. He can be found at the ver
 A Do Me a Favor?|QID|25505|PRE|25489|M|75.94,74.68|N|From Pozzik.|
 T Do Me a Favor?|QID|25505|M|77.16,74.47|N|To Razzeric.|
 A Down in the Deeps|PRE|25505|QID|25516|M|77.16,74.47|N|From Razzeric.|
-A Bar Fight!|RANK|2|QID|25518|PRE|25489|M|78.06,73.71|N|From Zamek.|
+A Bar Fight!|QID|25518|PRE|25489|M|78.06,73.71|N|From Zamek.|
 ;insert h
-h Speedbarge Bar|QID|25518|M|76.55,74.58|N|Set your hearth to Speedbarge bar. From Innkeeper Daisy
-B Bottle of Grog|RANK|2|QID|25518|ACTIVE|25518|M|76.55,74.58|N|Go inside and buy a Bottle of Grog from the bartender.|L|54747|
-C Bar Fight!|RANK|2|QID|25518|M|76.55,74.58|N|Use the Bottle of Grog on a gnome in the bar to start the fight.|U|54747|
-T Bar Fight!|RANK|2|QID|25518|M|78.04,73.66|N|To Zamek.|
+h Speedbarge Bar|QID|25516|M|76.55,74.58|N|Set your hearth to Speedbarge bar. From Innkeeper Daisy
+B Bottle of Grog|QID|25518|ACTIVE|25518|M|76.55,74.58|N|Go inside and buy a Bottle of Grog from the bartender.|L|54747|
+C Bar Fight!|QID|25518|M|76.55,74.58|N|Use the Bottle of Grog on a gnome in the bar to start the fight.|U|54747|
+T Bar Fight!|QID|25518|M|78.04,73.66|N|To Zamek.|
 
 A In the Outhouse|QID|25526|PRE|25489|M|79.59,75.04|N|Swim down to the outhouse under the lake - don't worry, you have a buff that lets you breathe underwater here.|
 K Treasure Hunters|QID|25526|L|54821|M|79.58,75.03|S|N|Kill treasure hunters until you get the crowbar.|
@@ -103,7 +108,7 @@ C In the Outhouse|QID|25526|U|54821|M|79.58,75.03|N|Use the crowbar on the outho
 T In the Outhouse|QID|25526|M|79.58,75.03|N|At the outhouse.|
 
 T Down in the Deeps|QID|25516|M|77.10,74.45|N|To Razzeric.|
-A Pirate Accuracy Increasing|QID|25533|PRE|25516|M|77.10,74.45|N|From Razzeric.|
+A Pirate Accuracy Increasing|QID|25533|PRE|25516;25518|M|77.10,74.45|N|From Razzeric.|
 C Pirate Accuracy Increasing|QID|25533|M|79.18,76.61|N|Head to the dock and talk to the goblin there. He'll give you a boat that will act as a pet. Use the main ability to extinguish the fires - it's pretty difficult, just pe patient and aim for the base of the fires.|
 T Pirate Accuracy Increasing|QID|25533|N|(UI Alert)|
 A Circle the Wagons... er, Boats|QID|25543|PRE|25533|N|(UI Alert)|

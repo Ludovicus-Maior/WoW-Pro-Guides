@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2016-09-01 23:18
+-- Who: Ludovicus
+-- Log: Lots of tweaks!
+
+-- URL: http://wow-pro.com/node/3671/revisions/27643/view
 -- Date: 2016-08-30 21:55
 -- Who: Ludovicus
 -- Log: 153958.0310 ~ WoWPro: Step C [Slay Balaadur.] has a bad ¦Z¦RAzsunaArtifact¦ tag.
@@ -19,7 +24,7 @@
 -- Date: 2016-08-20 00:28
 -- Who: Emmaleah
 
-local guide = WoWPro:RegisterGuide('EmmLegionMage', 'Leveling', '1068', 'Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmLegionMage', 'Leveling', 'MageClassShrine', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Mage Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
 WoWPro:GuideNextGuide(guide, nil)
@@ -41,21 +46,21 @@ T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To 
 A Felstorm's Plea|QID|41035|M|57.57,45.77|Z|Dalaran@Dalaran70|N|From Auto Alert.|
 T Felstorm's Plea|QID|41035|M|53.72,47.35|Z|Dalaran@Dalaran70|N|To Meryl Felstorm who is in The Violet Gate.|
 A The Dreadlord's Prize|QID|41036|M|53.72,47.35|Z|Dalaran@Dalaran70|N|From Meryl Felstorm.|PRE|41035|
-R The Violet Hold|QID|41036|M|67.50,69.80|Z|Dalaran@Dalaran70|CC|ACTIVE|41036|
-C Engage the Enemy|QID|41036|M|52.11,70.47|Z|The Violet Hold|SO|1|N|Help Meryl Felstorm battle the dreadlord Kathra'natir.|T|Kathra'natir|
-C Void Barrier passed|QID|41036|M|50.29,54.44|Z|The Violet Hold|NC|SO|2;1|N|Blink/Shimmer past the barrior.|
-C Siphoning Rift slain|QID|41036|M|64.86,35.73|Z|The Violet Hold|SO|2;2|N|Kill the four siphening Rifts.|
-C Activate the Forge of the Guardian|QID|41036|M|50.80,47.75|Z|The Violet Hold|SO|3;1|NC|N|Activate the Forge of the Guardian.|
-C Kathra'natir defeated|QID|41036|M|52.11,70.47|Z|The Violet Hold|SO|4;1|N|Kathra'natir defeated. BTW, spellsteal is really handy here.|T|Kathra'natir|
-C Listen to  Meryl|QID|41036|M|49.47,69.51|Z|The Violet Hold|NC|SO|5;1|N|Listen to Meryl.|
-C The Dreadlord's Prize|QID|41036|M|50.80,47.75|Z|The Violet Hold|QO|2|NC|N|Click on the Forge of the Guardian to recover it.|
+R The Violet Hold|QID|41036|M|67.50,69.80|QO|1|Z|Dalaran@Dalaran70|CC|ACTIVE|41036|
+C Engage the Enemy|QID|41036|M|52.11,70.47|Z|TheVioletHoldAcquisition|SO|1|N|Help Meryl Felstorm battle the dreadlord Kathra'natir.|T|Kathra'natir|
+C Void Barrier passed|QID|41036|M|50.29,54.44|Z|TheVioletHoldAcquisition|NC|SO|2;1|N|Blink/Shimmer past the barrior.|
+C Siphoning Rift slain|QID|41036|M|64.86,35.73|Z|TheVioletHoldAcquisition|SO|2;2|N|Kill the four siphening Rifts.|
+C Activate the Forge of the Guardian|QID|41036|M|50.80,47.75|Z|TheVioletHoldAcquisition|SO|3;1|NC|N|Activate the Forge of the Guardian.|
+C Kathra'natir defeated|QID|41036|M|52.11,70.47|Z|TheVioletHoldAcquisition|SO|4;1|N|Kathra'natir defeated. BTW, spellsteal is really handy here.|T|Kathra'natir|
+C Listen to  Meryl|QID|41036|M|49.47,69.51|Z|TheVioletHoldAcquisition|NC|SO|5;1|N|Listen to Meryl.|
+C The Dreadlord's Prize|QID|41036|M|50.80,47.75|Z|TheVioletHoldAcquisition|QO|2|NC|N|Click on the Forge of the Guardian to recover it.|
 C The Dreadlord's Prize|QID|41036|M|60.17,44.82|QO|3|NC|N|Listen to Meryl for a minute or so.|
-T The Dreadlord's Prize|QID|41036|M|55.28,43.41|N|To Meryl Felstorm.|
-A A Mage's Weapon|QID|41085|M|55.28,43.41|N|From Meryl Felstorm.|PRE|41036|
-C A Mage's Weapon|QID|41085|M|60.88,27.07|N|Click on the book to choose your artifact.|
-T A Mage's Weapon|QID|41085|M|55.28,43.41|N|To Meryl Felstorm.|
-A Artifact Specific Quest|QID|42001;41085;41035|M|55.28,43.41|N|From Meryl Felstorm.|PRE|41085|
-R Portal to Dalaran|QID|42001;41085;41035|M|62.39,51.08|CC|N|How thoughtful, they provided a way out, Use Portal to Dalaran.|
+T The Dreadlord's Prize|QID|41036|M|59.08,42.86|Z|MageClassShrine/2|N|To Meryl Felstorm.|
+A A Mage's Weapon|QID|41085|M|59.08,42.86|Z|MageClassShrine/2|N|From Meryl Felstorm.|PRE|41036|
+C A Mage's Weapon|QID|41085|M|61.20,25.85|Z|MageClassShrine/2|N|Click on the book to choose your artifact.|
+T A Mage's Weapon|QID|41085|M|59.08,42.86|Z|MageClassShrine/2|N|To Meryl Felstorm.|
+A Artifact Specific Quest|QID|42001;40267;42452|M|59.08,42.86|Z|MageClassShrine/2|N|From Meryl Felstorm.|PRE|41085|
+R Portal to Dalaran|QID|42001;40267;42452|M|62.57,51.56|Z|MageClassShrine/2|CC|N|How thoughtful, they provided a way out, Use Portal to Dalaran.|
 
 ;Insert the stuff that happens after you finish first zone here
 
@@ -105,8 +110,8 @@ T The Nexus Vault|QID|42011|M|28.58,49.86|N|To Archmage Kalec who can be found i
 
 ;FIRE
 ;A An Unexpected Message|QID|40267|M|58.12,41.11|N|From Meryl Felstorm.|PRE|41085|
-C An Unexpected Message|QID|40267|M|63.00,46.59|QO|1|U|130131|NC|N|Use the Crystal to discover it's Message.|
-R Chamber of the Guardians|QID|40267|ACTIVE|40267|M|49.49,47.32|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|
+C An Unexpected Message|QID|40267|M|63.00,46.59|Z|Dalaran@Dalaran70|QO|1|U|130131|NC|N|Use the Crystal to discover it's Message.|
+R Chamber of the Guardians|QID|40267|ACTIVE|40267|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|
 R Portal-Ancient Dalaran|QID|40267|ACTIVE|40267|M|28.64,77.37|Z|Aegwynn's Gallery@Dalaran70|N|Optional - Use the Dalaran Portal to the original site of Dalaran.  If you know it, you can use Teleport - Ancient Dalaran.|
 C An Unexpected Message|QID|40267|M|28.72,37.07|Z|Hillsbrad Foothills|QO|2|U|130131|N|Meet Archmage Modera in Hillsbrad.|
 T An Unexpected Message|QID|40267|M|28.76,37.32|Z|Hillsbrad Foothills|N|To Archmage Modera.|
@@ -115,23 +120,23 @@ C The Path of Atonement|QID|40270|M|28.76,37.32|Z|Hillsbrad Foothills|N|Listen t
 T The Path of Atonement|QID|40270|M|28.75,37.19|Z|Hillsbrad Foothills|N|To Aethas Sunreaver.|
 A The Frozen Flame|QID|11997|M|28.75,37.19|Z|Hillsbrad Foothills|N|From Aethas Sunreaver.|PRE|40270|
 C The Frozen Flame|QID|11997|M|28.77,37.25|Z|Hillsbrad Foothills|QO|1|NC|N|Mage Portal Taken|
-C The Frozen Halls|QID|11997|M|76.78,63.53|Z|IcecrownCitadel|SO|1|N|Defeat the Iceborn Conjurer.|
-C Destroy Permafrost Walls|QID|11997|M|76.68,61.87;73.47,53.58;61.85,53.80;52.83,40.41|CS|Z|IcecrownCitadel|SO|2;1|N|Destroy Permafrost Walls|
-C Hot of the Trail|QID|11997|M|51.86,35.29|Z|IcecrownCitadel|SO|3;1|N|Survive the three waves of flaming undead.|
-C Playing with Fire|QID|11997|M|50.93,14.71|Z|IcecrownCitadel|SO|4;1|N|Slay Lyandra Sunstrider|T|Lyandra Sunstrider|
-C The Frozen Flame|QID|11997|M|51.84,16.60|Z|IcecrownCitadel|QO|2|N|Pick up Felo'melorn.|
-R Portal to Dalaran|QID|11997|M|51.84,18.26|Z|IcecrownCitadel|N|Aethas has made a portal to Dalaran for you.|ACTIVE|11997|
-T The Frozen Flame|QID|11997|M|28.45,48.97|N|To Archmage Modera.|
+C The Frozen Halls|QID|11997|M|76.78,63.53|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|1|N|Defeat the Iceborn Conjurer.|
+C Destroy Permafrost Walls|QID|11997|M|76.68,61.87;73.47,53.58;61.85,53.80;51.90,39.19|CS|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|2;1|N|Destroy Permafrost Walls|
+C Hot of the Trail|QID|11997|M|51.86,35.29|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|3;1|N|Survive the three waves of flaming undead.|
+C Playing with Fire|QID|11997|M|50.93,14.71|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|4;1|N|Slay Lyandra Sunstrider|T|Lyandra Sunstrider|
+C The Frozen Flame|QID|11997|M|51.84,16.60|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|QO|2|N|Pick up Felo'melorn.|
+R Portal to Dalaran|QID|11997|M|51.84,18.26|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|N|Aethas has made a portal to Dalaran for you.|ACTIVE|11997|
+T The Frozen Flame|QID|11997|M|28.45,48.97|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
 
 ;FROST
-A Finding Ebonchill|QID|42452|M|59.19,42.95|N|From Meryl Felstorm.|PRE|41085|
+;A Finding Ebonchill|QID|42452|M|59.19,42.95|N|From Meryl Felstorm.|PRE|41085|
 C Finding Ebonchill|QID|42452|M|52.67,41.83;59.25,34.69;66.52,40.47|CS|QO|1|NC|N|Find information on Arrexis|
 C Finding Ebonchill|QID|42452|M|59.17,42.94|QO|2|N|Speak with Meryl|CHAT|
 T Finding Ebonchill|QID|42452|M|59.17,42.94|N|To Meryl Felstorm.|
 A The Deadwind Site|QID|42476|M|59.17,42.94|N|From Meryl Felstorm.|PRE|42452|
 A Daio the Decrepit|QID|42477|M|59.17,42.94|N|From Meryl Felstorm.|PRE|42452|
 A Alodi's Gems|QID|42455|M|60.79,43.21|N|From Alodi.|PRE|42452|
-R Portal to Dalaran|QID|42455|M|62.63,51.62|CC|N|Use the portal to get back to Dalaran.|
+R Portal to Dalaran|QID|42455|M|62.63,51.62|CC|N|Use the portal to get back to Dalaran.|ACTIVE|42455|
 C Alodi's Gems|QID|42455|M|51.73,19.05|Z|Dalaran@Dalaran70|QO|1|NC|N|Go to the Bank of Dalaran.|
 C Alodi's Gems|QID|42455|M|51.49,18.68|Z|Dalaran@Dalaran70|QO|2|NC|N|Speak with the manager.|
 C Alodi's Gems|QID|42455|M|54.69,16.39|Z|Dalaran@Dalaran70|QO|3|NC|N|Enter Alodi's personal vault.|
@@ -150,7 +155,7 @@ C Daio the Decrepit|QID|42477|M|32.48,45.09|Z|Blasted Lands|QO|5|NC|N|Listen to 
 T Alodi's Gems|QID|42455|M|60.79,43.21|N|To Alodi.|
 T The Deadwind Site|QID|42476|M|59.17,42.94|N|To Meryl Felstorm.|
 T Daio the Decrepit|QID|42477|M|59.17,42.94|N|To Meryl Felstorm.|
-A The Mage Hunter|QID|42479|M|59.17,42.94|N|From Meryl Felstorm.|PRE|42455+42476+42477|
+A The Mage Hunter|QID|42479|M|59.17,42.94|N|From Meryl Felstorm.|PRE|42455;42476;42477|
 R Portal to Dalaran|QID|42479|N|Take the portal out.|ACTIVE|42479|
 C The Mage Hunter|QID|42479|M|69.83,51.13|QO|1|NC|N|Take the hippogryph in Dalaran to Faronaar.|
 C Preparations|QID|42479|M|30.61,45.04|Z|AzsunaArtifact|SO|1;1|NC|N|Talk to Meryl.|
@@ -164,25 +169,25 @@ C The Mage Hunter|QID|42479|M|67.04,92.73|Z|AzsunaArtifact|QO|2|N|Pick up Ebonch
 T The Mage Hunter|QID|42479|M|56.57,33.95|N|To Meryl Felstorm.|
 
 ;Mage Class Hall
-A The Champion's Return|QID|41114|M|28.58,49.86|N|From UI Alert.|
-C The Champion's Return|QID|41114|M|28.84,49.88|NC|N|Teleport to the Hall of the Guardian|
-T The Champion's Return|QID|41114|M|56.46,33.87|N|To Meryl Felstorm.|
-A Unlocked Potential|QID|41125|M|56.46,33.87|N|From Meryl Felstorm.|
-C Unlocked Potential|QID|41125|M|59.38,42.79|NC|N|Use the Forge to empower your Artifact.|
-T Unlocked Potential|QID|41125|M|56.63,33.82|N|To Meryl Felstorm.|
-A The Great Akazamzarak|QID|41112|M|56.63,33.82|N|From Meryl Felstorm.|PRE|42125|
-C The Great Akazamzarak|QID|41112|M|57.23,90.39|QO|1|NC|N|(Optional) Portal to Dalaran Taken|
+A The Champion's Return|QID|41114|N|From UI Alert.|
+C The Champion's Return|QID|41114|NC|N|Teleport to the Hall of the Guardian|
+T The Champion's Return|QID|41114|M|56.46,33.87|Z|MageClassShrine/2|N|To Meryl Felstorm, in the library upstairs.|
+A Unlocked Potential|QID|41125|M|56.46,33.87|Z|MageClassShrine/2|N|From Meryl Felstorm.|
+C Unlocked Potential|QID|41125|M|59.38,42.79|Z|MageClassShrine/2|NC|N|Use the Forge to empower your Artifact.|
+T Unlocked Potential|QID|41125|M|56.63,33.82|Z|MageClassShrine/2|N|To Meryl Felstorm.|
+A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|MageClassShrine/2|N|From Meryl Felstorm.|PRE|42125|
+C The Great Akazamzarak|QID|41112|M|57.35,90.48|Z|MageClassShrine/1|QO|1|NC|N|(Optional) Portal to Dalaran Taken|
 C The Great Akazamzarak|QID|41112|M|48.41,63.32|Z|Dalaran@Dalaran70|QO|2|NC|N|You can find him by the statue in front of the south bank, click on his bucket to bribe him.|
 T The Great Akazamzarak|QID|41112|M|48.50,63.41|Z|Dalaran@Dalaran70|N|To The Great Akazamzarak.|
-A The Only Way to Travel|QID|41113|M|48.50,63.41|Z|Dalaran@Dalaran70|N|From The Great Akazamzarak.|PRE|42112|
-T The Only Way to Travel|QID|41113|M|56.63,33.82|Z|Dalaran@Dalaran70|N|Take the portal he created and then turn in to Meryl Felstorm.|
-A The Tirisgarde Reborn|QID|41124|M|60.51,34.49|N|From Meryl Felstorm.|PRE|42113|
-C The Tirisgarde Reborn|QID|41124|M|60.51,34.49|NC|N|Watch and listen, eventually you will receive your new title.|
-T The Tirisgarde Reborn|QID|41124|M|81.61,60.26|N|To The Great Akazamzarak.|
-A A Conjuror's Duty|QID|41141|M|81.61,60.26|N|From The Great Akazamzarak.|PRE|42124|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|81.61,60.26|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
-T A Conjuror's Duty|QID|41141|M|81.66,60.14|N|To The Great Akazamzarak.|
-C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|67.52,46.47|QO|1|N|Use the portal to travel to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
+A The Only Way to Travel|QID|41113|M|48.50,63.41|Z|Dalaran@Dalaran70|N|From The Great Akazamzarak.|PRE|41112|
+T The Only Way to Travel|QID|41113|M|56.63,33.82|Z|MageClassShrine/2|N|Take the portal he created and then turn in to Meryl Felstorm.|
+A The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|MageClassShrine/2|N|From Meryl Felstorm.|PRE|41113|
+C The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|MageClassShrine/2|NC|N|Watch and listen, eventually you will receive your new title.|
+T The Tirisgarde Reborn|QID|41124|M|82.61,60.26|Z|MageClassShrine/1|N|To The Great Akazamzarak, on the first floor.|
+A A Conjuror's Duty|QID|41141|M|81.54,60.35|Z|MageClassShrine/1|N|From The Great Akazamzarak.|PRE|41124|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|81.61,60.26|Z|MageClassShrine/1|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
+T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|MageClassShrine/1|N|To The Great Akazamzarak.|
+C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|57.37,90.31|Z|MageClassShrine/1|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
