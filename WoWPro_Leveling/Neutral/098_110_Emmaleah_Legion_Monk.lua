@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3672
+-- Date: 2016-09-02 20:58
+-- Who: Emmaleah
+-- Log: Tweeks to zone names - can not get arrow to show in kun-lai. Interestingly, the blizzard minimap arrow doesn't show there either. - went thru the WW monk artifact on live, minor changes. Added J to Alliance/Horde Stormheim
+
+-- URL: http://wow-pro.com/node/3672/revisions/27570/view
+-- Date: 2016-08-20 00:30
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionMonk', 'Leveling', 'MonkOrderHallTheWanderingIsle', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Monk Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -19,19 +28,19 @@ C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) 
 A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Dalaran70|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
 A Before the Storm|QID|12103|M|57.56,45.75|Z|Dalaran@Dalaran70|N|From Initiate Da-Nel.|
 C Before the Storm|QID|12103|M|57.56,45.75|Z|Dalaran@Dalaran70|N|Use Zen Pilgrimage.|QO|1|NC|
 C Before the Storm|QID|12103|M|48.73,43.41|Z|Kun-Lai Summit|N|Talk to Master Hight to start a solo scenario.|QO|2|CHAT|
-C The Council of Masters|QID|12103|M|48.73,43.41|Z|Peak of Serenity@KunLaiSummitSCENARIO|N|Assist and Listen to the Dialog.|SO|1|
-C Assist Master Crane|QID|12103|M|47.57,40.81;46.65,39.43;45.88,41.25;46.18,42.32;45.14,43.05|Z|Peak of Serenity@KunLaiSummitSCENARIO|N|Assist Master Crane in Cave of the Crane.|SO|2;1|T|Vizznak|CS|
-C Access the west temple grounds.|QID|12103|M|46.22,42.39|Z|Peak of Serenity@KunLaiSummitSCENARIO|N|Click on Number Nine Jia to take a chi powered ride.|SO|3;1|NC|
-C Rescue Chen Stormstout|QID|12103|M|50.34,38.3|Z|Peak of Serenity@KunLaiSummitSCENARIO|N|Assist Chen kill more demons.|SO|4;1|T|Morvath the Reaver|
-C Children Rescued|QID|12103|M|49.76,41.64|Z|Peak of Serenity@KunLaiSummitSCENARIO|N|Lead the children to safety, killing demons as you go.|SO|5;1|
-C Defeat Portal Master Jorvinax|QID|12103|M|48.13,40.73|Z|Peak of Serenity@KunLaiSummitSCENARIO|N|Fight Portal Master Jorvinax.|SO|6;1|T|Portal Master Jorvinax|
-C Portal Problems|QID|12103|M|48.07,40.16|Z|Peak of Serenity@KunLaiSummitSCENARIO|N|Click on the crystal to destroy the portal and be teleported back to The Wandering Isle.|SO|7;1|NC|
+C The Council of Masters|QID|12103|QO|3|M|48.73,43.41|Z|Kun-Lai Summit|N|Assist and Listen to the Dialog.|SO|1|
+C Assist Master Crane|QID|12103|QO|3|M|47.57,40.81;46.65,39.43;45.88,41.25;46.18,42.32;45.14,43.05|Z|Kun-Lai Summit|N|Assist Master Crane in Cave of the Crane.|SO|2;1|T|Vizznak|CS|
+C Access the west temple grounds.|QID|12103|QO|3|M|46.22,42.39|Z|Kun-Lai Summit|N|Click on Number Nine Jia to take a chi powered ride.|SO|3;1|NC|
+C Rescue Chen Stormstout|QID|12103|QO|3|M|50.34,38.3|Z|Kun-Lai Summit|N|Assist Chen kill more demons.|SO|4;1|T|Morvath the Reaver|
+C Children Rescued|QID|12103|QO|3|M|49.76,41.64|Z|Kun-Lai Summit|N|Lead the children to safety, killing demons as you go.|SO|5;1|
+C Defeat Portal Master Jorvinax|QID|12103|QO|3|M|48.13,40.73|Z|Kun-Lai Summit|N|Fight Portal Master Jorvinax.|SO|6;1|T|Portal Master Jorvinax|
+C Portal Problems|QID|12103|QO|3|M|48.07,40.16|Z|Kun-Lai Summit|N|Click on the crystal to destroy the portal and be teleported back to The Wandering Isle.|SO|7;1|NC|
 R Temple of Five Dawns|QID|12103|M|51.39,54.39|N|Run up the hill to the temple..|
 T Before the Storm|QID|12103|M|51.39,54.39|N|To Fearsome Jang.|
 A The Dawning Light|QID|40236|M|51.39,54.40|N|From Fearsome Jang.|PRE|12103|
@@ -51,7 +60,7 @@ A Rise, Champions|QID|42187|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|42186|
 T Two Paths, Two Weapons|QID|43973|M|51.39,48.38|N|To Iron-Body Ponshu.|
 A Artifact Specific Quest|QID|42762;41003;40569|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|43973|
 ;beginning of lost stuff. recreated from memory and wowhead-coordinates are copied from elsewhere or approximations of where I remember standing.
-N Use the Forge|QID|44424|M|51.44,48.25|N|You may want to save a few of your artifact empowerment items for your other specs, but don't forget to stop by the forge and make your weapon tougher. You will need to check this step off manually.|
+N Use the Forge|QID|44424|M|51.44,48.25|N|You may want to save a few of your artifact empowerment items for your other specs, but don't forget to stop by the forge and make your weapon tougher. You will need to check this step off manually.|PRE|43973|
 C Rise, Champions|QID|42187|M|49.13,58.58|QO|1|NC|N|Recruit Li Li Stormstout.|
 C Rise, Champions|QID|42187|M|55.15,57.0|QO|2|NC|N|Recruit Chen Stormstout.|
 T Rise, Champions|QID|42187|M|51.41,48.37|N|To Master Hsu.|
@@ -77,17 +86,17 @@ T Scrolls of Knowledge|QID|42210|M|51.41,48.37|N|To Master Hsu.|
 A Tech It Up a Notch|QID|42191|M|51.41,48.37|N|From Master Hsu.|PRE|42210
 C Tech It Up a Notch|QID|42191|M|53.04,59.79|N|Click on Number Nine Jia to open a panel where you chose how you want to progress your order hall.|
 T Tech It Up a Notch|QID|42191|M|51.41,48.36|N|To Iron-Body Ponshu.|
-A Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|
+A Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|PRE|42191|
 C Report from the Monastery|QID|41905|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send Chen on the mission. This step takes 1 hour (the length of the mission) to complete. Check it off manually, and don't forget to come back to your scouting map next time you are in the Order Hall.|
-N Train Ox initiates|QID|41905|M|53.35,59.75|NC|N|This mission exhausted your initiate, give Tianji a work order to train a new one. Check this step off manually.|
+N Train Ox initiates|QID|41905|M|53.35,59.75|NC|N|This mission exhausted your initiate, give Tianji a work order to train a new one. Check this step off manually.|ACTIVE|41905|
 T Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|
 
-A The Defense of Tian Monstery|QID|41728|M|51.41,48.36|N|To Iron-Body Ponshu.|
+A The Defense of Tian Monstery|QID|41728|M|51.41,48.36|N|To Iron-Body Ponshu.|PRE|41905|
 C The Defense of Tian Monstery|QID|41728|QO|1|M|47.14,47.74|N|Talk to Tak Tak to take the flight to Tien Monestary.|CHAT|
-A Slowing the Spread|QID|41729|M|38.34,25.81|Z|The Jade Forest|N|From Instructor Myang.|
+A Slowing the Spread|QID|41729|M|38.34,25.81|Z|The Jade Forest|N|From Instructor Myang.|PRE|41905|
 T The Defense of Tian Monstery|QID|41728|M|39.97,24.91|Z|The Jade Forest|N|To Taran Zhu.|
-A Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|
-A Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|
+A Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41730|
+A Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41730|
 C Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|S|N|Kill the demons as you go along.|
 C Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|NC|S|N|As you go along, click on the tainted brew and the fel spikes to destroy. For the fires, you stand inside the circle and then an extra action button appears that you use to put out the fire.|
 C Slowing the Spread|QID|41729|M|38.99,23.25;41.59,23.74;41.40,27.45|Z|The Jade Forest|CN|NC|N|Click on each of the Fel Spreader to destroy them.|
@@ -96,27 +105,27 @@ C Desperate Strike|QID|41730|M|42.07,25.46|Z|The Jade Forest|US|N|Finish any nee
 T Slowing the Spread|QID|41729|M|42.07,25.46|Z|The Jade Forest|N|To the Monkey King.|
 T Desperate Strike|QID|41730|M|42.07,25.46|Z|The Jade Forest|N|To the Monkey King.|
 T Storm, Earth, and Fire|QID|41731|M|42.07,25.46|Z|The Jade Forest|N|To the Monkey King.|
-A The Hand of Keletress|QID|41732|M|42.07,25.46|Z|The Jade Forest|N|From the Monkey King.|
+A The Hand of Keletress|QID|41732|M|42.07,25.46|Z|The Jade Forest|N|From the Monkey King.|PRE|41731|
 C The Hand of Keletress|QID|41732|M|44.00,25.00|Z|The Jade Forest|N|Kill Skola Greatsword,|T|Skola Greatsword|
 T The Hand of Keletress|QID|41732|M|45.50,25.07|Z|The Jade Forest|N|To High Elder Cloudfall.|
-A Rebuilding the Order|QID|41733|M|45.50,25.07|Z|The Jade Forest|N|From High Elder Cloudfall.|
+A Rebuilding the Order|QID|41733|M|45.50,25.07|Z|The Jade Forest|N|From High Elder Cloudfall.|PRE|41732|
 C Rebuilding the Order|QID|41733|QO|1|M|45.11,24.99|Z|The Jade Forest|CHAT|N|Talk to Tak Tak to take a flight back to your order hall.|
 T Rebuilding the Order|QID|41733|M|51.41,48.36|N|To Iron-Body Ponshu. One of your rewards was more initiates to train, don't forget to go train them.|
 
 ;chapter II orderhall
-A The Way of the Tiger|QID|43319|M|51.41,48.36|N|From Iron-Body Ponshu.|
-A Further Training|QID|43062|M|52.54,57.80|N|From High Elder Cloudfall.|
-A Appropriations|QID|41907|M|52.54,57.80|N|From High Elder Cloudfall.|
-A Tracking the Tideskorn|QID|41909|M|52.54,57.80|N|From High Elder Cloudfall.|
+A The Way of the Tiger|QID|43319|M|51.41,48.36|N|From Iron-Body Ponshu.|PRE|41733|
+A Further Training|QID|43062|M|52.54,57.80|N|From High Elder Cloudfall.|PRE|41733|
+A Appropriations|QID|41907|M|52.54,57.80|N|From High Elder Cloudfall.|PRE|41733|
+A Tracking the Tideskorn|QID|41909|M|52.54,57.80|N|From High Elder Cloudfall.|PRE|41733|
 C Tracking the Tideskorn|QID|41909|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send Li Li and some initiates on the mission. This step takes days to complete as there are 5 differant missions. Check it off manually and keep checking in with the mission board.|
 C The Way of the Tiger|QID|43319|M|54.43,57.16|CHAT|N|Talk to Gin Lei to recruit some Tiger troops.|
 T The Way of the Tiger|QID|43319|M|54.43,57.16|N|To Gin Lei.|
 T Appropriations|QID|41907|M|48.99,58.36|N|To Lao Shu.|
-A An Ample Stockpile|QID|43054|M|48.99,58.36|N|From Lao Shu.|
+A An Ample Stockpile|QID|43054|M|48.99,58.36|N|From Lao Shu.|PRE|41907|
 C An Ample Stockpile|QID|43054|N|He offers 3 repeatable quests for turning in (5 at a time) Highmountain Salmon, Spiced Rib Roast, and Silkweave Bandages. Acquire the items, (AH/crafting/friends, etc) and do any combination of the 3 quests 20 times.|
-C Further Training|QID|43062|M|52.54,57.80|N|These must be done in the order hall, not while you are out adventuring.|
-A Taram Zhu|QID|41734|M|51.15,49.64|N|Taran Zhu would like to be your follower.|
-A The Monkey King|QID|41735|M|51.00,49.51|N|The Monkey King also wants to join up.|
+C Further Training|QID|43062|M|52.54,57.80|N|Over the course of your adventuring, you should accomplish these tasks.|
+A Taram Zhu|QID|41734|M|51.15,49.64|N|Taran Zhu would like to be your follower.|PRE|41319|
+A The Monkey King|QID|41735|M|51.00,49.51|N|The Monkey King also wants to join up.|PRE|41319|
 
 ;BREWMASTER
 ;A The Wanderer's Companion|QID|42762|M|51.39,48.36|N|From Iron-Body Ponshu.|PRE|40636|
@@ -179,17 +188,17 @@ C Thunder on the Sands|QID|40634|M|45.62,14.32|Z|Uldum|N|Kill and loot Nader to 
 T Thunder on the Sands|QID|40634|M|54.91,32.74|Z|Uldum|N|To King Phaoris.|
 A Into The Heavens|QID|40570|M|54.91,32.74|Z|Uldum|N|From King Phaoris.|PRE|40634|
 C Into The Heavens|QID|40570|M|54.91,33.68|Z|Uldum|N|Go Outside and use the item to enter a solo scenario.|QO|1|NC|U|132745|
-C Into the Skies|QID|40570|M|30.84,45.08|Z|ArtifactSkywall|N|Lead Li Li and protect her.|SO|1|
-C Running in the Clouds|QID|40570|M|30.73,48.80|Z|ArtifactSkywall|N|The green whirlwinds speed your progress up the ramp.|SO|2;1|NC|
-C Destroy Stormtouched Orbs|QID|40570|M|32.57,52.55;29.25,55.05;25.47,60.24|Z|ArtifactSkywall|N|Click on the orbs to destroy them.|SO|3;1|CN|
-C Raging Winds Bypassed|QID|40570|M|28.81,62.38|Z|ArtifactSkywall|N|Kill the Scion of Typhinius and then use Flying Serpent Kick to pass over the winds.|SO|3;2|NC|
-C Defeat the minions of Typhinius|QID|40570|M|32.09,66.64|Z|ArtifactSkywall|N|Defeat the minions of Typhinius|SO|4;1|
-C Leap upon Zaurac|QID|40570|M|31.09,66.64|Z|ArtifactSkywall|N|Leap upon Zaurac|SO|5;1|
-C Defeat Typhinius|QID|40570|M|35.65,82.55|Z|ArtifactSkywall|N|Defeat Typhinius|SO|6;1|T|Typhinius|
-C Take the Fists of the Heavens|QID|40570|M|35.75,82.91|Z|ArtifactSkywall|N|Take the Fists of the Heavens|SO|7;1|NC|
-C Into The Heavens|QID|40570|M|35.75,82.91|Z|ArtifactSkywall|N|Pick up the weapon.|QO|2|
+C Into the Skies|QID|40570|QO|2|M|30.84,45.08|Z|1049/1|N|Lead Li Li and protect her.|SO|1|
+C Running in the Clouds|QID|40570|QO|2|M|30.38,46.99;30.61,52.69;30.73,48.80|CS|Z|1049/1|N|The green whirlwinds speed your progress up the ramp.|SO|2;1|NC|
+C Destroy Stormtouched Orbs|QID|40570|QO|2|M|32.57,52.55;29.25,55.05;25.47,60.24|Z|1049/1|N|Click on the orbs to destroy them.|SO|3;1|CS|
+C Raging Winds Bypassed|QID|40570|QO|2|M|26.77,59.97;28.81,62.38|CN|Z|1049/1|N|Kill the Scion of Typhinius and then use Flying Serpent Kick to pass over the winds.|SO|3;2|
+C Defeat the minions of Typhinius|QID|40570|QO|2|M|32.09,66.64|Z|1049/1|N|Defeat the minions of Typhinius|SO|4;1|
+C Leap upon Zaurac|QID|40570|QO|2|M|31.09,66.64|Z|1049/1|N|Leap upon Zaurac|SO|5;1|
+C Defeat Typhinius|QID|40570|QO|2|M|35.65,82.55|Z|1049/1|N|Defeat Typhinius|SO|6;1|T|Typhinius|
+C Take the Fists of the Heavens|QID|40570|QO|2|M|35.75,82.91|Z|1049/1|N|Take the Fists of the Heavens|SO|7;1|NC|
+C Into The Heavens|QID|40570|QO|2|M|35.75,82.91|Z|1049/1|N|Pick up the weapon.|QO|2|
 T Into The Heavens|QID|40570|M|50.54,58.61|N|To Li Li Stormstout.|
-R Temple of Five Dawns|QID|40698|M|51.41,48.37|N|Run up the hill to the Temple.|CN|
+R Temple of Five Dawns|QID|40698|M|51.41,48.37|N|Run up the hill to the Temple.|CC|
 
 ;Monk Class Hall
 A Purity of Form|QID|40698|M|51.41,48.37|N|From Iron-Body Ponshu.|PRE|42765;42636;40634|
@@ -207,7 +216,8 @@ T The Fight Begins|QID|40795|M|52.75,59.79|N|To Master Hsu.|
 ;C Portal to Dalaran|QID|39733|M|52.4,57.10|N|Take the portal to Dalaran.|NC|ACTIVE|39733|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
-J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|
+J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
+J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
 
