@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2016-09-03 09:20
+-- Who: Fluclo
+-- Log: Added NC to the Casks, and Felix's stuff, split quest All the Other Stuff into two parts, Lockdown and Whitebeard quests both have a second quest pre-req quest, unnecessary quests for zone progression changed to Rank 2. Removed Level tags as you can continue the quests below that level. Added auto-completing sell junk step towards end of zone. Details of being flown off included in quest rather than after you've started flying. Clarified the Trolls needed for Troll Menace (not all trolls count)
+
+-- URL: http://wow-pro.com/node/3200/revisions/27507/view
 -- Date: 2016-07-31 16:09
 -- Who: tubera
 -- Log:  Meet the High Tinker for hunter. Remove class ability training quests.
@@ -246,11 +251,6 @@
 -- Log: # Checking ../WoWPro_Leveling/Alliance/01_05_Gylin_Dwarf_Starter.lua
 --	! Line 157, for step A, missing Argument for tag N: [A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|N]
 --	! Line 198 for step A has unknown tag [24532]: [A Evisceratin' the Enemy QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|]
-
--- URL: http://wow-pro.com/node/3200/revisions/24581/view
--- Date: 2011-06-24 19:52
--- Who: Fluclo
--- Log: Added auto-complete to killing Vagash
 
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,3,1.81013)

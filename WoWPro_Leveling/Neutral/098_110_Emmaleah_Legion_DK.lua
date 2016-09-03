@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-09-03 02:31
+-- Who: Ludovicus
+-- Log: A few typos, a split line and some better zone info.
+
+-- URL: http://wow-pro.com/node/3668/revisions/27661/view
 -- Date: 2016-08-31 03:03
 -- Who: Emmaleah
 -- Log: deleted bad  in A Call to War
@@ -60,10 +65,9 @@ T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To 
 A The Call To War|QID|40714|M|57.67,45.71|Z|Dalaran@Dalaran70|N|From UI Alert a minute or so after you turn in the previous quest.|
 T The Call To War|QID|40714|M|73.11,46.85|Z|Dalaran@Dalaran70|N|To Duke Lankral up on Krasus Landing.|
 A A Pact of Necessity|QID|40715|M|73.11,46.85|Z|Dalaran@Dalaran70|N|From Duke Lankral.|PRE|40714|
-C A Pact of Necessity|QID|40715|NC|QO|1|M|73.11,46.85|Z|Dalaran@Dalaran70|N|Choose which artifact path you want, the
-next one will be available when you finish the first zone (lvl 101/102).|
+C A Pact of Necessity|QID|40715|NC|QO|1|M|73.11,46.85|Z|Dalaran@Dalaran70|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T A Pact of Necessity|QID|40715|M|73.11,46.85|Z|Dalaran@Dalaran70|N|To Duke Lankral.|
-A Artifact Specific Quest|QID|40930;40740;38990|M|73.11,46.85|Z|Dalaran@Dalaran70|N|From UI (Lich King.|PRE|40715|
+A Artifact Specific Quest|QID|40930;40740;38990|M|73.11,46.85|Z|Dalaran@Dalaran70|N|From UI (Lich King).|PRE|40715|
 
 ;Insert the stuff that happens after you finish first zone here
 
@@ -76,7 +80,7 @@ C The Dead and the Damned|QID|40740|NC|QO|2|M|32.00,31.96|Z|Broken Shore|N|Enter
 C Hunting the Hunters|SO|1|Z|Niskara|N|Run forward until you see Baron Sliver.|QID|40740|
 C Follow Baron Silver|SO|2;1|M|22.25,51.03|Z|Niskara|N|Follow Baron Silver|QID|40740|
 C Protect Baron Sliver while he disables the Fel Barrier|SO|3;1|M|23.82,48.23|Z|Niskara|N|Protect Baron Sliver while he disables the Fel Barrier|QID|40740|
-C Search the Legion camp.|SO|4;1|M|38.48,46.79|Z|Niskara|N|Follow Barron Silver and search the Legion camp.|QID|40740|
+C Search the Legion camp.|SO|4;1|M|37.08,48.31|Z|Niskara|N|Follow Barron Silver and search the Legion camp.|QID|40740|
 C Hunt down Inquisitor Zalinor and obtain his key.|SO|5;1|M|43.12,38.05|Z|Niskara|N|Hunt down Inquisitor Zalinor and obtain his key.|QID|40740|
 C Release your ally|SO|6;1|M|38.01,47.06|Z|Niskara|N|Release your ally|QID|40740|
 C Citadel Barrier Disabled|SO|7;1|M|40.38,52.19|Z|Niskara|N|As you travel to the citadel, they will stop, use Anti-Magic Shell to avoid the fel ground, continue towards the citadel and assist Baron Sliver as he disables it's barrier.|QID|40740|
@@ -84,7 +88,7 @@ C Search within the citadel for Margrave|SO|8;1|M|62.04,60.16|Z|Niskara|N|As you
 C The Fleshripper|SO|9|Z|Niskara|N|Gorelix has slain Margrave! Destroy the demon!|QID|40740|
 C The Dead and the Damned|QID|40740|QO|3|M|64.20,60.04|Z|Niskara|N|Obtain the Maw of the Damned|ACTIVE|40740|
 C Use Baron Sliver's Death Gate|SO|11;1|M|63.13,61.37|Z|Niskara|N|Use Baron Sliver's Death Gate|QID|40740|
-C The Call of Icecrown|NC|QID|40740|QO|4|N|Run up the hill to the frozen throne, wait until you optain the Mark of the Lich King, then take the Death Gate when it appears.|
+C The Call of Icecrown|NC|QID|40740|M|49.53,90.41|Z|The Frozen Throne@IcecrownCitadelDeathKnight|QO|4|N|Run up the hill to the frozen throne, wait until you optain the Mark of the Lich King, then take the Death Gate when it appears.|
 T The Dead and the Damned|QID|40740|M|50.99,50.74|Z|Hall of Command@BrokenShore|N|To Highlord Darion Mograine.|
 
 ;FROST

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-09-03 20:05
+-- Who: Emmaleah
+-- Log: add Z|ThunderTotem| to buy bottle of airspark
+
+-- URL: http://wow-pro.com/node/3678/revisions/27682/view
+-- Date: 2016-09-03 08:16
+-- Who: Emmaleah
+-- Log: Slight map changes /step rearranging per Blanckaert.
+
+-- URL: http://wow-pro.com/node/3678/revisions/27640/view
 -- Date: 2016-08-30 20:59
 -- Who: Ludovicus
 -- Log: Restored Header.
@@ -115,15 +125,15 @@ C Get to High Ground|QID|38909|M|27.48,38.90|Z|ThunderTotem|QO|1|N|Escort Jale R
 C Get to High Ground|QID|38909|M|55.48,65.55|Z|Highmountain/6|QO|2|NC|N|Follow Jale to Mayla Highmountain.|
 T Get to High Ground|QID|38909|M|54.67,63.02|Z|Highmountain/6|N|To Mayla Highmountain.|
 A The Bloodtotem Tribe|QID|38912|M|54.67,63.02|Z|Highmountain/6|N|From Mayla Highmountain.|
-T A Walk With the Spirits|QID|40515|M|51.49,54.85|Z|Highmountain/6|N|To Spiritwalker Ebonhorn.|
-A The Story of Huln|QID|40167|M|51.49,54.85|Z|Highmountain/6|N|From Spiritwalker Ebonhorn.|
 A The Skyhorn Tribe|QID|38913|M|54.67,63.02|Z|Highmountain/6|N|From Mayla Highmountain.|
 A A Walk With the Spirits|QID|40515|M|54.67,63.02|Z|Highmountain/6|N|From Mayla Highmountain.|
-C The Story of Huln|QID|40167|M|51.49,54.85|Z|Highmountain/6|CHAT|N|The Story of Huln witnessed.|
-T The Story of Huln|QID|40167|M|51.46,54.89|Z|Highmountain/6|N|To Spiritwalker Ebonhorn.|
-A To See the Past|QID|40520|M|51.46,54.89|Z|Highmountain/6|N|From Spiritwalker Ebonhorn.|
+T A Walk With the Spirits|QID|40515|M|74.73,74.63|Z|Highmountain/6|N|To Spiritwalker Ebonhorn.|
+A The Story of Huln|QID|40167|M|74.73,74.63|Z|Highmountain/6|N|From Spiritwalker Ebonhorn.|
+C The Story of Huln|QID|40167|M|74.73,74.63|Z|Highmountain/6|CHAT|N|The Story of Huln witnessed.|
+T The Story of Huln|QID|40167|M|74.73,74.63|Z|Highmountain/6|N|To Spiritwalker Ebonhorn.|
+A To See the Past|QID|40520|M|74.73,74.63|Z|Highmountain/6|N|From Spiritwalker Ebonhorn.|
 R Path of Sky|QID|40520|M|50.50,38.94|Z|Highmountain/6|N|Run out this doorway.|
-C To See the Past|QID|40520|M|35.31,23.53|QO|1|NC|N|Buy the bottle of Airspark from Lanna Skyspark.|
+C To See the Past|QID|40520|M|35.31,23.53|Z|ThunderTotem|QO|1|NC|N|Buy the bottle of Airspark from Lanna Skyspark.|
 C To See the Past|QID|40520|M|57.76,10.92|Z|ThunderTotem|QO|2|NC|N|Click on the sparkling place at the base of the falls.|
 K Kill Sekhan|QID|40681|QO|1|M|45.15,56.30|T|Sekhan|N|Rare to kill for treasure and resources.|
 C To See the Past|QID|40520|M|45.17,53.42|QO|3|N|Click on the crystal here and then fight the Darkshard Crystal that appears.|

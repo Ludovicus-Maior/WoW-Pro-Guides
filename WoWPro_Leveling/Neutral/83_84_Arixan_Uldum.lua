@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2016-09-03 01:53
+-- Who: tubera
+-- Log: Fix: QOs
+
+-- URL: http://wow-pro.com/node/3309/revisions/26899/view
 -- Date: 2014-11-08 03:02
 -- Who: Emmaleah
 -- Log: Fixed dup N tags on T Salhet's Secret
@@ -196,7 +201,7 @@ A Budd's Plan|QID|27924|M|59.71,72.03|N|From Budd.|
 
 C Smoke in Their Eyes|QID|27923|U|63027|M|62.12,73.98|N|Walk up to a bale of hay, and use the Brazier Torch to set them on fire.|S|NC|
 C Budd's Plan|QID|27924|M|60.91,74.08|N|Loot the Armor pieces from the tables.  You can also find them by killing Neferset Denizens and Neferset Sentinels.|S|NC|
-l Neferset Key|QID|28105|L|62817|M|59.96,73.92|N|Kill Kavem and loot the Neferset Key.|
+l Neferset Key|QID|28105|QO|1|M|59.96,73.92|N|Kill Kavem and loot the Neferset Key.|
 C Smoke in Their Eyes|QID|27923|U|63027|M|62.12,73.98|N|Walk up to a bale of hay, and use the Brazier Torch to set them on fire.|US|NC|
 C Budd's Plan|QID|27924|M|60.91,74.08|N|Kill Neferset Denizens and Neferset Sentinels for Armor Pieces or find them on ground.|US|NC|
 
@@ -215,7 +220,7 @@ h Ramkahen|QID|28141|M|54.73,32.94|N|At Kazemde.|
 ; Adding back Flight plans, as they are no longer auto-learnt.
 f Ramkahen|QID|28141|M|56.18,33.66|N|At Kurzel.|
 
-C Speak with Sun Priest Asaris|QID|28134|M|52.98,27.78|QO|Speak with Sun Priest Asaris: 1/1|N|Speak to Sun Priest Asaris and say "I might be able to help".|CHAT|
+C Speak with Sun Priest Asaris|QID|28134|M|52.98,27.78|QO|2|N|Speak to Sun Priest Asaris and say "I might be able to help".|CHAT|
 
 A Relics of the Sun King|QID|28141|M|52.98,27.78|N|From Sun Priest Asaris.|S|
 A Venomblood Antidote|QID|28145|M|52.98,27.78|N|From Sun Priest Asaris.|
@@ -233,10 +238,10 @@ A The Bandit Warlord|QID|28502|M|52.98,27.75|N|From Sun Priest Asaris.|
 
 C The Bandit Warlord|QID|28502|M|45.72,16.20|N|Go to the waypoint and kill Warlord Ihsenn.|
 T The Bandit Warlord|QID|28502|M|52.98,27.63|N|To Sun Priest Asaris.|
-C Speak with Asaq|QID|28134|M|49.66,39.13|QO|Speak with Asaq: 1/1|N|Speak to Asaq and say "The king wishes to be informed about Neferset activity".|CHAT|
+C Speak with Asaq|QID|28134|M|49.66,39.13|QO|3|N|Speak to Asaq and say "The king wishes to be informed about Neferset activity".|CHAT|
 A Take it to 'Em!|QID|27993|M|49.68,39.03|N|From Mack.|
 
-C Speak with Nomarch Teneth|QID|28134|M|60.21,38.33|N|Speak to Nomarch and say "King Phaoris sent me to ask you about Neferset activity".|CHAT|QO|Speak with Nomarch Teneth: 1/1|
+C Speak with Nomarch Teneth|QID|28134|M|60.21,38.33|N|Speak to Nomarch and say "King Phaoris sent me to ask you about NefersWet activity".|CHAT|QO|1|
 A Thieving Little Pluckers|QID|28250|M|60.21,38.33|N|From Nomarch Teneth.|
 C Thieving Little Pluckers|QID|28250|U|63351|M|58.60,39.58|N|To the south by the trees. Stand near them, and use the Tahret Dynasty Mallet to kill them.|
 T Thieving Little Pluckers|QID|28250|M|60.25,38.32|N|To Nomarch Teneth.|
@@ -271,9 +276,9 @@ C On to Something|QID|27196|M|64.25,27.01|N|Speak to Harrison Jones and tell him
 T On to Something|QID|27196|M|64.55,27.97|N|To Harrison Jones, he'll jump into the Chamber of Stars, so mount up and head to him inside the Chamber.|
 
 A The Thrill of Discovery|QID|27511|M|64.55,27.97|N|From Harrison Jones.|
-C The Thrill of Discovery|QID|27511|M|65.62,25.94|N|Head towards the North Hieroglyphs.|QO|Northern Hieroglyphs Examined: 1/1|NC|
-C The Thrill of Discovery|QID|27511|M|64.48,30.27|N|Head towards the Ancient Mechanism.|QO|Ancient Mechanism Examined: 1/1|NC|
-C The Thrill of Discovery|QID|27511|M|65.60,34.00|N|Head towards the Southern Hieroglyphs.|QO|Southern Hieroglyphs Examined: 1/1|NC|
+C The Thrill of Discovery|QID|27511|M|65.62,25.94|N|Head towards the North Hieroglyphs.|QO|2|NC|
+C The Thrill of Discovery|QID|27511|M|64.48,30.27|N|Head towards the Ancient Mechanism.|QO|1|NC|
+C The Thrill of Discovery|QID|27511|M|65.60,34.00|N|Head towards the Southern Hieroglyphs.|QO|3|NC|
 T The Thrill of Discovery|QID|27511|M|64.54,28.51|N|(UI Alert)|
 
 A Be Prepared|QID|27517|M|65.16,33.71|N|From the Decrpit Skeleton.|
@@ -298,21 +303,21 @@ T Tipping the Balance|QID|27431|M|64.50,27.99|N|To Harrison Jones.|
 A After the Fall|QID|27624|M|64.50,27.99|N|From Harrison Jones.|
 A Just a Fancy Cockroach|QID|27627|RANK|2|M|63.77,27.26|N|Kill a Scarab to get this quest.|
 
-C Just a Fancy Cockroach - Amethyst Scarabs|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill Amethyst Scarabs.|S|
-C After the Fall|QID|27624|M|63.96,26.68|QO|Orb of the Morning Star: 1/1|N|Collect the Orb of the Morning Star from the head of the statue.|NC|
-C Just a Fancy Cockroach - Amethyst Scarabs|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill the remaining Amethyst Scarabs.|US|
+C Just a Fancy Cockroach - Amethyst Scarabs|QID|27627|RANK|2|M|63.45,27.08|QO|1|N|Kill Amethyst Scarabs.|S|
+C After the Fall|QID|27624|M|63.96,26.68|QO|1|N|Collect the Orb of the Morning Star from the head of the statue.|NC|
+C Just a Fancy Cockroach - Amethyst Scarabs|QID|27627|RANK|2|M|63.45,27.08|QO|1|N|Kill the remaining Amethyst Scarabs.|US|
 
-C Just a Fancy Cockroach - Turquoise Scarabs|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill Turquoise Scarabs.|S|
-C After the Fall|QID|27624|M|62.64,31.97|QO|Orb of the North Star: 1/1|N|Collect the Orb of the North Star from the head of the statue.|NC|
-C Just a Fancy Cockroach - Turquoise Scarabs|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill the remaining Turquoise Scarabs.|US|
+C Just a Fancy Cockroach - Turquoise Scarabs|QID|27627|RANK|2|M|63.06,32.52|QO|4|N|Kill Turquoise Scarabs.|S|
+C After the Fall|QID|27624|M|62.64,31.97|QO|3|N|Collect the Orb of the North Star from the head of the statue.|NC|
+C Just a Fancy Cockroach - Turquoise Scarabs|QID|27627|RANK|2|M|63.06,32.52|QO|4|N|Kill the remaining Turquoise Scarabs.|US|
 
-C Just a Fancy Cockroach - Emerald Scarabs|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill Emerald Scarabs.|S|
-C After the Fall|QID|27624|M|65.26,32.56|QO|Orb of the Shooting Star: 1/1|N|Collect the Orb of the Shooting Star from the head of the statue.|NC|
-C Just a Fancy Cockroach - Emerald Scarabs|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill the remaining Emerald Scarabs.|US|
+C Just a Fancy Cockroach - Emerald Scarabs|QID|27627|RANK|2|M|65.85,32.61|QO|2|N|Kill Emerald Scarabs.|S|
+C After the Fall|QID|27624|M|65.26,32.56|QO|4|N|Collect the Orb of the Shooting Star from the head of the statue.|NC|
+C Just a Fancy Cockroach - Emerald Scarabs|QID|27627|RANK|2|M|65.85,32.61|QO|2|N|Kill the remaining Emerald Scarabs.|US|
 
-C Just a Fancy Cockroach - Sapphire Scarabs|QID|27627|RANK|2|M|66.21,27.03|QO|Sapphire Scarabs Slain: 5/5|N|Kill Sapphire Scarabs.|S|
-C After the Fall|QID|27624|M|66.78,28.01|QO|Orb of the Evening Star: 1/1|N|Collect the Orb of the Evening Star from the head of the statue.|NC|
-C Just a Fancy Cockroach - Sapphire Scarabs|QID|27627|RANK|2|M|66.21,27.03|QO|Sapphire Scarabs Slain: 5/5|N|Kill the remaining Sapphire Scarabs.|US|
+C Just a Fancy Cockroach - Sapphire Scarabs|QID|27627|RANK|2|M|66.21,27.03|QO|3|N|Kill Sapphire Scarabs.|S|
+C After the Fall|QID|27624|M|66.78,28.01|QO|2|N|Collect the Orb of the Evening Star from the head of the statue.|NC|
+C Just a Fancy Cockroach - Sapphire Scarabs|QID|27627|RANK|2|M|66.21,27.03|QO|3|N|Kill the remaining Sapphire Scarabs.|US|
 
 T Just a Fancy Cockroach|QID|27627|RANK|2|M|63.2,33.1|N|(UI Alert)|
 T After the Fall|QID|27624|M|64.47,28.02|N|To Harrison Jones.|
@@ -338,8 +343,8 @@ T The Prophet's Dying Words|QID|27602|M|39.66,45.38|N|"Talk" to the Sand-Covered
 
 A Colossal Guardians|QID|27623|M|39.66,45.38|N|From the Sand-Covered Hieroglyph.|
 
-C Colossal Guardians|QID|27623|M|41.19,37.73|N|Right-click the Colossus of the Moon, kill it and loot the Stone of the Moon.|QO|Stone of the Moon: 1/1|
-C Colossal Guardians|QID|27623|M|39.60,40.88|N|Right-click the Colossus of the Sun, kill it and loot the Stone of the Sun.|
+C Colossal Guardians|QID|27623|M|41.19,37.73|N|Right-click the Colossus of the Moon, kill it and loot the Stone of the Moon.|QO|1|
+C Colossal Guardians|QID|27623|M|39.60,40.88|N|Right-click the Colossus of the Sun, kill it and loot the Stone of the Sun.|QO|2|
 C Under the Choking Sands|QID|27519|M|40.63,39.15|N|Right-click Oasis Survivors to rescue them.|US|NC|
 C Minions of Al'Akir|QID|27520|M|41.07,38.47|US|N|Finish killing Scions of Al'Akir.|RANK|2|
 
@@ -457,9 +462,9 @@ T The Defense of Nahom|QID|28501|M|67.25,42.84|N|To Salhet.|
 A The Push Westward|QID|28623|M|67.25,42.84|N|From Salhet.|
 A The Curse of the Tombs|QID|27755|M|67.27,42.82|N|From Sun Prophet Tumet.|
 
-C The Curse of the Tombs|QID|27755|M|69.58,58.50|N|Kill Crazed Diggers.|S|QO|Crazed Digger slain: 6/6|
-K Mekgineer Mixeltweed|QID|27755|M|69.58,58.50|QO|Mekgineer Mixeltweed slain: 1/1|N|Kill Mekgineer Mixeltweed.|
-C The Curse of the Tombs|QID|27755|M|69.58,58.50|N|Kill Crazed Diggers.|US|QO|Crazed Digger slain: 6/6|
+C The Curse of the Tombs|QID|27755|M|69.58,58.50|N|Kill Crazed Diggers.|S|QO|1|
+K Mekgineer Mixeltweed|QID|27755|M|69.58,58.50|QO|2|N|Kill Mekgineer Mixeltweed.|
+C The Curse of the Tombs|QID|27755|M|69.58,58.50|N|Kill Crazed Diggers.|US|QO|1|
 
 l A.I.D.A. Communicator|QID|27760|L|62483|M|22.47,64.82|N|If you have not gotten this item yet keep killing and looting Crazed Diggers.|
 A Artificial Intelligence|QID|27760|U|62483|M|22.47,64.82|N|From the A.I.D.A. Communicator.|
@@ -469,10 +474,10 @@ A A Disarming Distraction|QID|27761|M|74.11,64.44|N|From the A.I.D.A. Terminal.|
 A Core Access Codes|QID|27777|M|74.11,64.44|N|From the A.I.D.A. Terminal.|
 
 C Core Access Codes|QID|27777|U|62542|M|73.33,72.69|N|Use the Mech Control Scrambler on Twizzleflux the Insane everytime it's ready, this will completely stun him for about 6 seconds each time. Kill Twizzleflux and loot the Core Access Codes.|
-C Unstable Bomb Bot deactivated|QID|27761|U|62398|QO|Unstable Bomb Bot deactivated: 4/4|M|79.01,64.05|N|Don't try to fight the cursed engineers. Use the Holographic Projector to distract them repeatedly. Right-click on the Unstable Bomb Bots to defuse them.|S|NC|
-N Third Bomb Cluster|QID|27761|U|62398|M|78.85,65.06|N|Use the Holographic Projector then right-click on the Third Bomb Cluster to disarm it.|QO|Third Bomb Cluster disarmed: 1/1|
-N Second Bomb Cluster|QID|27761|U|62398|M|79.01,64.05|N|Use the Holographic Projector then right-click on the Second Bomb Cluster to disarm it.|QO|Second Bomb Cluster disarmed: 1/1|
-C A Disarming Distraction|QID|27761|U|62398|M|78.81,61.82|N|Use the Holographic Projector then right-click on the First Bomb Cluster to disarm it.|QO|First Bomb Cluster disarmed: 1/1|NC|
+C Unstable Bomb Bot deactivated|QID|27761|U|62398|QO|4|M|79.01,64.05|N|Don't try to fight the cursed engineers. Use the Holographic Projector to distract them repeatedly. Right-click on the Unstable Bomb Bots to defuse them.|S|NC|
+N Third Bomb Cluster|QID|27761|U|62398|M|78.85,65.06|N|Use the Holographic Projector then right-click on the Third Bomb Cluster to disarm it.|QO|3|
+N Second Bomb Cluster|QID|27761|U|62398|M|79.01,64.05|N|Use the Holographic Projector then right-click on the Second Bomb Cluster to disarm it.|QO|2|
+C A Disarming Distraction|QID|27761|U|62398|M|78.81,61.82|N|Use the Holographic Projector then right-click on the First Bomb Cluster to disarm it.|QO|1|NC|
 C Unstable Bomb Bot deactivated|QID|27761|U|62398|QO|Unstable Bomb Bot deactivated: 4/4|M|79.01,64.05|N|Don't try to fight the cursed engineers. Use the Holographic Projector to distract them repeatedly. Right-click on the Unstable Bomb Bots to defuse them.|US|NC|
 
 T A Disarming Distraction|QID|27761|M|74.08,64.44|N|To the A.I.D.A. Terminal.|S|
@@ -499,8 +504,8 @@ A Salhet's Gambit|QID|28486|M|52.88,65.55|N|From Salhet.|
 C Salhet's Gambit|QID|28486|M|54.06,71.17|N|Speak with Ramhaken Ranger Captain when ready to start the escort.|
 
 C Bleeding the Enemy|QID|28483|M|52.42,79.47|N|Kill Nefersets and loot Neferset Insignias.|S|
-K High Priest Sekhemet|QID|28480|M|47.49,77.79|N|Kill High Priest Sekhemet.|QO|High Priest Sekhemet slain: 1/1|
-C Lieutenants of Darkness|QID|28480|M|50.55,87.04|N|Kill Scorpion-Lord Namkhare.|
+K High Priest Sekhemet|QID|28480|M|47.49,77.79|N|Kill High Priest Sekhemet.|QO|2|
+C Lieutenants of Darkness|QID|28480|M|50.55,87.04|N|Kill Scorpion-Lord Namkhare.|QO|1|
 C Bleeding the Enemy|QID|28483|M|52.42,79.47|N|Kill Nefersets and loot Neferset Insignias.|US|
 
 T Salhet's Gambit|QID|28486|M|52.92,65.55|N|To Salhet.|
@@ -593,8 +598,8 @@ C Crisis Management|QID|28002|M|22.39,63.85;22.28,63.88;22.30,64.00;21.94,64.25|
 T Crisis Management|QID|28002|M|24.40,64.51|N|To Belloc Brightblade.|
 
 A Battlezone|QID|27990|M|24.44,64.11|N|From Commander Schnottz.|
-K Decrepit Watchers|QID|27990|M|21.32,64.5|QO|Decrepit Watchers Obliterated: 7/7|N|Get inside a Siege Tank. You can't drive it, you can just aim the cannon and fire at the Decrepit Watchers.|
-C Battlezone|QID|27990|M|24.37,64.08|N|Head back to Commander Schnottz.|
+K Decrepit Watchers|QID|27990|M|21.32,64.5|QO|1|N|Get inside a Siege Tank. You can't drive it, you can just aim the cannon and fire at the Decrepit Watchers.|
+C Battlezone|QID|27990|QO|2|M|24.37,64.08|N|Head back to Commander Schnottz.|
 T Battlezone|QID|27990|M|24.37,64.08|N|To Commander Schnottz.|
 
 A Missed Me By Zhat Much!|QID|28187|M|24.37,64.08|N|From Commander Schnottz.|
@@ -609,9 +614,9 @@ T Lockdown!|QID|28193|M|22.49,63.21|N|To Commander Schnottz.|
 A Sending a Message|QID|28195|M|22.49,63.21|N|From Commander Schnottz.|
 
 C The Great Escape|QID|28194|M|25.13,68.24|S|N|Kill Schnottz Sea Troopers until you've looted 6 Fresh Sailor Uniforms.|
-K Captain Margun|QID|28195|M|22.29,67.6|N|Kill Captain Margun who is standing on the bridge.|QO|Captain Margun Killed: 1/1|
-K Captain Cork|QID|28195|M|24.88,68.98|N|Kill Captain Cork.|QO|Captain Cork Killed: 1/1|
-C Sending a Message|QID|28195|M|26.05,68.71|N|Finally kill Captain Kronk.|
+K Captain Margun|QID|28195|M|22.29,67.6|N|Kill Captain Margun who is standing on the bridge.|QO|1|
+K Captain Cork|QID|28195|M|24.88,68.98|N|Kill Captain Cork.|QO|2|
+C Sending a Message|QID|28195|M|26.05,68.71|N|Finally kill Captain Kronk.|QO|3|
 C The Great Escape|QID|28194|M|25.13,68.24|US|N|Kill Schnottz Sea Troopers until you've looted 6 Fresh Sailor Uniforms.|
 
 T The Great Escape|QID|28194|M|21.87,64.05|N|To the Prolific Writer.|

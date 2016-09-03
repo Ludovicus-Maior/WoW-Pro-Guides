@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-09-03 08:28
+-- Who: Emmaleah
+-- Log: Tested on Rank 1, moved some steps to rank 2.
+
+-- URL: http://wow-pro.com/node/3665/revisions/27664/view
 -- Date: 2016-08-31 07:50
 -- Who: Emmaleah
 -- Log: added Notes at top of guide, and Z|Dalaran@Dalaran70 to first 2 steps.
@@ -68,7 +73,7 @@ A Dishonored|QID|39383|M|61.04,73.25|N|From Thaon Moonclaw.|
 A Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|N|Auto accepted by entering the area.|
 C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|S|N|Destroy Totems, rescue druids and in general cause meyhem to advance the objective.|
 $ Treasure|QID|38943|M|59.88,72.26|N|Inside the house, up the right staircase. Loot for a bit of resources and treasure.|
-K Kill Petrexx|QID|39596|QO|1|M|61.02,69.36|ITEM|130137|N|Kill for a chance at treasure and resources.|T|Petrexx|;unable to find correct QID
+K Kill Perrexx|QID|39596|QO|1|M|61.02,69.36|ITEM|130137|N|Kill for a chance at treasure and resources.|T|Perrexx|
 C Dishonored|QID|39383|M|62.90,70.99|N|Kill Xandris the Dishonored.|T|Xandris the Dishonored|
 $ Treasure|QID|39069|M|62.78,70.31|N|Located on second floor balcony. Loot for a bit of resources and treasure.|
 T Dishonored|QID|39383|M|62.78,71.66|N|To Thaon Moonclaw.|
@@ -79,13 +84,13 @@ C The Corruptor|QID|39384|M|64.90,66.91|QO|2|N|Kagraxxis the Corruptor slain|T|K
 T The Corruptor|QID|39384|M|65.18,67.03|N|To Evelle Nightwhisper.|
 A The Nightmare Lord|QID|40573|M|65.18,67.03|N|From Evelle Nightwhisper.|
 C The Nightmare Lord|QID|40573|QO|1|M|65.18,67.03|NC|N|Evelle released|
-$ Treasure|QID|39071|M|62.06,67.33|N|Loot for a bit of treasure and resources.|
+$ Treasure|QID|39071|M|62.06,67.33|N|Out of the cavern and around the corner up the stream. Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure|QID|39087|M|61.63,73.69|N|Beside the pond, Loot for a bit of treasure and resources.|
 C The Nightmare Lord|QID|40573|M|62.22,76.14|NC|QO|2|N|Enter The Archdruid's Den|
 $ Treasure|QID|39070|M|63.03,76.98|N|loot for a bit of treasure and resources.|
 C The Nightmare Lord|QID|40573|M|63.83,77.52|NC|QO|3|N|Thaon Moonclaw found|
 C The Nightmare Lord|QID|40573|M|64.03,77.96|QO|4|N|Thaon Moonclaw slain|
 T The Nightmare Lord|QID|40573|M|62.33,76.20|N|To Evelle Nightwhisper.|
-$ Treasure|QID|39087|M|61.63,73.69|N|Loot for a bit of treasure and resources.|
 C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|US|N|Stay and Finish or check this off manually.|
 t Moonclaw Vale-Bonus Objective|QID|39393|M|63.81,70.05|N|Auto-turn-in when completed.|
 
@@ -94,20 +99,20 @@ A All Grell Broke Loose|QID|42883|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Grassroots Effort|QID|42884|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Grell to Pay|QID|42865|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Moist Around the Hedges|QID|42857|M|66.82,75.66|N|From Moist Grizzlecrumb.|RANK|2|
-C Grassroots Effort|QID|42884|S|N|Kill Grell as you search for brambles to untangle.|
-C Moist Around the Hedges|QID|42857|NC|S|N|These are scattered around and drop from the Grell.|
-C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|S|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|
-$ Undergrell Attack|QID|43176|M|67.12,69.57|ITEM|130133|N|Help an embattled druid out for some treasure and resources.|
+C Grassroots Effort|QID|42884|S|N|Kill Grell as you search for brambles to untangle.|RANK|2|
+C Moist Around the Hedges|QID|42857|NC|S|N|These are scattered around and drop from the Grell.|RANK|2|
+C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|S|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
+$ Undergrell Attack|QID|43176|M|67.12,69.57|ITEM|130133|N|Help an embattled druid out for some treasure and resources.|RANK|2|
 C Grell to Pay|QID|42865|M|68.13,71.58|N|Kill Enderkind|T|Enderkind|RANK|2|
-C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|US|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|
-C Moist Around the Hedges|QID|42857|M|68.68,73.84|NC|US|N|These are scattered around and drop from the Grell.|
-C Grassroots Effort|QID|42884|M|68.68,73.84|US|N|Kill Grell as you search for brambles to untangle.|
+C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|US|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
+C Moist Around the Hedges|QID|42857|M|68.68,73.84|NC|US|N|These are scattered around and drop from the Grell.|RANK|2|
+C Grassroots Effort|QID|42884|M|68.68,73.84|US|N|Kill Grell as you search for brambles to untangle.|RANK|2|
 T Grell to Pay|QID|42865|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T All Grell Broke Loose|QID|42883|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T Grassroots Effort|QID|42884|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T Moist Around the Hedges|QID|42857|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 
-R Whispering Bluffs|QID|38900|M|64.69,81.13|N|Continuing on our way towards Steelclaw Vale.|
+R Whispering Bluffs|QID|38900|M|64.69,81.13|N|Continuing on our way towards Steelclaw Vale.|RANK|2|
 $ Treasure|QID|38900|M|64.55,85.46|N|Upstairs, under slanting roof. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39089|M|61.01,79.17|N|Small alcove at the base of the cliff. Loot for a bit of treasure and resources.|RANK|3|
 
@@ -131,7 +136,7 @@ A Moon Reaver|QID|42751|M|59.41,84.13|N|From Guviena Bladesong.|RANK|2|
 
 $ Elindya Featherlight|QID|38887|M|60.42,90.72;61.03,88.04|CS|N|Click on Elindya and then follow her and help her kill the demon Skul'vrax|RANK|3|
 R The Undergorge|QID|42751|M|60.98,85.13|N|There is a bramble barrior, that will fall down when you click on it.|RANK|2|
-K Kill Boneflux|QID|42751|QO|1|M|60.40,82.50|T|Boneflux|N|Kill Boneflux.|
+K Kill Boneflux|QID|42751|QO|1|M|60.40,82.50|T|Boneflux|N|Kill Boneflux.|RANK|3|
 C Moon Reaver|QID|42751|QO|2|CHAT|M|60.46,82.57|N|Let Remulos go free.|RANK|2|
 $ Treasure|QID|38893|M|60.48,82.14|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|44136|M|62.17,86.23;62.70,85.26|CS|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -148,10 +153,10 @@ A Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|N|From Saylanna Riverbr
 A Thieving Thistleleaf|QID|38862|M|53.77,79.87|N|Auto accepted from the lunarwing egg you just looted.|RANK|2|
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|As you search for Thorndancers, free Lunarwings by untangleing the roots, or fighting the ones in the air.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|S|N|As you search for Thorndancers, kill Thistleleaf Ruffians to reclaim the eggs.|RANK|2|
-$ Treasure|QID|38861|M|56.05,83.75|N|In a small cave. Loot for a bit of treasure and resources.|
+$ Treasure|QID|38861|M|56.05,83.75|N|In a small cave. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|38864|M|54.00,82.19;54.94,80.56|CS|N|Dive in and swim into an underwater cave.  Loot the treasure chest for a bit of treasure and resources.|RANK|2|;bugged 8/27 and quest doesnt actually loot or go away.
-K Jinkiki The Puncturer|QID|38889|M|53,87|T|Jinkiki The Puncturer|N|Enter the cave and chat with the little bear to rescue him.|ITEM|128690|
-A Adopting the Adorable|QID|38889|M|53,87|N|From the Shivering Bear Cub upon killing Jinkiki.|
+K Jinkiki The Puncturer|QID|38889|M|53,87|T|Jinkiki The Puncturer|N|Enter the cave and chat with the little bear to rescue him.|ITEM|128690|RANK|2|
+A Adopting the Adorable|QID|38889|M|53,87|N|From the Shivering Bear Cub upon killing Jinkiki.|RANK|2|
 C Thorny Dancing|QID|40220|M|53.75,79.82|N|Kill 3 Thorndancers, they are the taller Thistleleaf mobs.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|US|N|Finish collecting the eggs.|RANK|2|
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|Finish rescueing Lunarwings.|RANK|2|
@@ -166,21 +171,21 @@ $ Treasure|QID|38388|M|50.96,77.00;51.49,77.70|CS|N|Small cave, right beside the
 R Steelclaw Vale|QID|38142|M|49.19,81.06|N|Continue down the road.|
 T Archdruid of the Claw|QID|38142|M|49.09,82.33|N|To Rylissa Bearsong.|
 A Frenzied Furbolgs|QID|38455|M|49.09,82.33|N|From Rylissa Bearsong.|
-A Littlefur|QID|38922|M|48.40,84.64|N|From Elder Sookh.|RANK|2|
-C Frenzied Furbolgs|QID|38455|M|46.95,84.40|S|N|Kill the Smolderhide furbolgs that get in your way as you do your other tasks.|RANK|2|
-T Littlefur|QID|38922|M|46.24,84.56|N|To Littlefur.|RANK|2|
-A Totemic Call|QID|38246|M|46.24,84.56|N|From Littlefur.|RANK|2|
-$ Treasure|QID|38277|M|46.46,86.33|N|Loot for treasure and resources.|RANK|2|
-C Totemic Call|QID|38246|M|48.87,88.52|N|Nightmare Totem destroyed|RANK|2|
+A Littlefur|QID|38922|M|48.40,84.64|N|From Elder Sookh.|;while it could be rank2, you may as well do it while killing the furbolgs.
+C Frenzied Furbolgs|QID|38455|M|46.95,84.40|S|N|Kill the Smolderhide furbolgs that get in your way as you do your other tasks.|
+T Littlefur|QID|38922|M|46.24,84.56|N|To Littlefur.|
+A Totemic Call|QID|38246|M|46.24,84.56|N|From Littlefur.|
+$ Treasure|QID|38277|M|46.46,86.33|N|Loot for treasure and resources.|
+C Totemic Call|QID|38246|M|48.87,88.52|N|Nightmare Totem destroyed|
 R Marrowden|QID|43446|M|46.02,87.22|N|Brief sidetrip for a couple of treasures and a silver.|RANK|3|;can not find the kel'delar treasure and the risk reward is terrible for the one in the hydra cave
 K Kill Bahagar|QID|43446|M|45.61,88.84|ITEM|130135|N|Silver - Kill for loot and resources.|RANK|3|
-$ Treasure|QID|44138|M|43.7,89.9;43.05,88.19|CS|N|In a cave with several unfriendly hydras.  Loot for a bit of treasure and resources.|RANK|3|
-R Smolderhide Thicket|QID|38146|M|48.68,88.28|N|And... back to your questing.|
-K Kill Chieftain Graw|QID|38146|M|48.68,88.28|L|128340|T|Chieftain Graw|RANK|2|
-A The Chieftain's Beads|QID|38146|M|48.71,88.30|N|Auto accepted from item you looted from the Cheiftain.|RANK|2|
-C Frenzied Furbolgs|QID|38455|M|46.95,84.40|US|N|Finish killing the Smolderhide furbolg.|RANK|2|
-T Totemic Call|QID|38246|M|48.39,84.63|N|To Elder Sookh.|RANK|2|
-T The Chieftain's Beads|QID|38146|M|48.39,84.63|N|To Elder Sookh.|RANK|2|
+$ Treasure|QID|44138|M|43.7,89.9;43.05,88.19|CS|N|In a cave with several unfriendly hydras.  Loot for a bit of treasure and resources.|RANK|3|;if we had such a rank... this would qualify for rank 4
+R Smolderhide Thicket|QID|38146|M|48.68,88.28|N|And... back to your questing.|RANK|3|
+K Kill Chieftain Graw|QID|38146|M|48.68,88.28|L|128340|T|Chieftain Graw|
+A The Chieftain's Beads|QID|38146|M|48.71,88.30|N|Auto accepted from item you looted from the Cheiftain.|
+C Frenzied Furbolgs|QID|38455|M|46.95,84.40|US|N|Finish killing the Smolderhide furbolg.|
+T Totemic Call|QID|38246|M|48.39,84.63|N|To Elder Sookh.|
+T The Chieftain's Beads|QID|38146|M|48.39,84.63|N|To Elder Sookh.|
 T Frenzied Furbolgs|QID|38455|M|49.09,82.36|N|To Rylissa Bearsong.|
 A Awakening the Archdruid|QID|38143|M|49.09,82.36|N|From Rylissa Bearsong.|
 $ Treasure|QID|38886|M|49.44,85.21;48.99,86.14|CS|N|Loot for treasure and resources.|
@@ -193,7 +198,7 @@ C The Demons Below|QID|38144|M|48.99,69.91|Z|1018/14|US|N|Finish your demon quot
 T The Demons Below|QID|38144|M|67.53,48.82|Z|1018/14|N|To Koda Steelclaw.|
 T Out of the Dream|QID|38145|M|67.53,48.82|Z|1018/14|N|To Koda Steelclaw.|
 A Entangled Dreams|QID|38147|M|67.53,48.82|Z|1018/14|N|From Koda Steelclaw.|
-C Entangled Dreams|QID|38147|M|49.68,90.34|Z|1018/14|T|Morphael|N|Kill Morphael|
+C Entangled Dreams|QID|38147|M|59.84,83.58|Z|1018/14|T|Morphael|N|Kill Morphael|
 T Entangled Dreams|QID|38147|M|48.85,81.52|N|To Koda Steelclaw.|
 
 $ Treasure|QID|38366|M|48.69,73.79|N|Surrounded by a circle of tree trunks. Loot for a bit of treasure and resources.|
@@ -206,7 +211,7 @@ C Solid as a Rock|QID|38235|M|43.84,70.19|QO|1|NC|N|Click Marnor to rescue him.|
 C Solid as a Rock|QID|38235|M|43.85,75.31|QO|3|NC|N|Click Del'thanar to rescue him.|
 $ Treasure|QID|38363|M|43.39,75.89|N|Loot for a bit of resources and treasure.|
 $ Treasure|QID|38387|M|44.87,79.23;44.35,82.58|CS|N|Run up this path and to a small cave behind and underneath the inn at Sabermaw Bluff for a bit of loot and treasure.|RANK|3|
-K Kill Seersei|QID|38479|M|41.82,78.43|ITEM|130171|T|Seerseo|N|Kill and loot for a bit of resources and treasure.|
+K Kill Seersei|QID|38479|M|41.82,78.43|ITEM|130171|T|Seerseo|N|Kill and loot for a bit of resources and treasure.|RANK|2|
 C Death to the Witchmother|QID|38225|M|45.67,77.59|QO|1|N|Kill Magula.|T|Magula|
 C Solid as a Rock|QID|38235|M|46.58,76.53|QO|2|NC|N|Click Erwind to rescue him.|
 C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Finish or check this off manually.|
@@ -228,7 +233,7 @@ A The Temple of Elune|QID|38641|M|52.48,63.35|N|From Ysera.|
 $ Treasure|QID|39097|M|54.52,60.47|N|In a small cave, loot for a bit of treasure and resources.|
 R The Crescent Vale|QID|38641|M|53.70,63.74;56.59,62.13|CS|N|Follow this road towards the temple.|
 $ Treasure|QID|39072|M|56.22,57.30|N|Loot for a bit of treasure and resources.|
-f Garden of the Moon|QID|38655|M|56.74,57.72|N|At Brinlanya Moonstone.|
+f Garden of the Moon|QID|38641|M|56.74,57.72|N|At Brinlanya Moonstone.|
 T The Temple of Elune|QID|38641|M|51.44,57.01|N|To Lyanis Moonfall.|
 A Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|N|Auto Accepted when you enter the inner temple.|
 A Tears for Fears|QID|38662|M|51.44,57.01|N|From Lyanis Moonfall.|
@@ -278,7 +283,7 @@ $ Treasure|QID|39079|M|38.64,67.18|N|On top of the support for the millwheel, ju
 K Kill Lelyn Swiftshadow|QID|38711|M|39.10,64.34|L|127860 1|T|Lelyn Swiftshadow|
 A The Warden's Signet|QID|38711|M|39.10,64.34|N|From the ring dropped by Lelyn.|U|127860|
 $ Vibrating Arcane Trap|QID|39121|M|34.38,58.30|N|Click on the trap to attract Kiranys Duskwhisper, kill him for a bit of loot and treasure.|ITEM|141876|RANK|2|;unable to find correct QID
-$ Treasure|QID|39081|M|33.81,58.25|N|Loot for a bit of treasure and resources.|
+$ Treasure|QID|39081|M|33.81,58.25|N|Loot for a bit of treasure and resources.|RANK|2|
 C The Farmsteads|QID|38644|M|37.06,58.50|QO|3|NC|N|Check the Fishing Dock|
 A Shriek No More|QID|39117|M|37.06,58.48|N|From Cecily Radcliffe.|
 C Shriek No More|QID|39117|M|35.84,57.34|N|Kill Rotbeak and loot his head.|T|Rotbeak|
@@ -339,7 +344,7 @@ C Malfurion's Fury|QID|38595|M|52.45,63.34|CHAT|N|Tell Ysera you are ready.|
 T Malfurion's Fury|QID|38595|M|60.56,61.43|N|To Ysera.|
 A To Old Friends|QID|38582|M|60.56,61.43|N|From Ysera.|
 C To Old Friends|QID|38582|M|65.61,56.44|QO|1|S|N|Use extra action button to target corrupted plants.|
-$ Treasure|QID|38782|M|67.21,59.29|N|Loot for a bit of treasure and resources. bugged and not available during the phase you are killing Lyrathos, so get it now or after you turn in the quest.|;chest disappeared when i killed lyrathos. so loot it first...
+$ Treasure|QID|38782|M|66.15,56.27;67.21,59.29|CS|N|Loot for a bit of treasure and resources. This is inside the cave, where you kill Botanist Darkgrove, currently bugged and not available during the phase you are killing Lyrathos, so get it now or after you turn in the quest.|RANK|2|;chest disappeared when i killed lyrathos. so loot it first...
 C To Old Friends|QID|38582|M|65.61,56.44|QO|1|US|N|Use extra action button to target corrupted plants.|;this step can be removed if phasing bug fixxed
 C To Old Friends|QID|38582|M|65.92,56.35|QO|2|N|Enter Darkgrove Cavern.|
 C To Old Friends|QID|38582|M|67.29,58.07|QO|3|N|Kill Botanist Darkgrove.|T|Lyrathos Darkgrove|
@@ -363,7 +368,7 @@ A Regroup at the Refuge|QID|43576|M|66.93,50.14|N|From Tyrande Whisperwind.|
 C Lost in Retreat|QID|38671|M|65.12,51.22|NC|S|N|Pick up the Shadowfen Heirlooms|
 $ Treasure|QID|38355|M|64.70,51.25|N|Loot for a bit of treasure and resources.|
 K Kill Grelda the Hag|QID|40126|QO|1|M|65.8,53.45|ITEM|130122|T|Grelda the Hag|N|Kill and loot for a bit of treasure and resources|
-$ Treasure|QID|38386|M|67.38,53.42|N|Upstairs on the second floor balcony. Loot for a bit of treasure and resources.|
+$ Treasure|QID|38381|M|67.38,53.42|N|Upstairs on the second floor balcony. Loot for a bit of treasure and resources.|
 C Lost in Retreat|QID|38671|M|65.12,51.22|NC|US|N|Finish picking up the Shadowfen Heirlooms|
 C Wormtalon Wreckage|QID|41707|M|66.86,50.18|US|N|Finish up killing Wormtalons.|
 T Lost in Retreat|QID|38671|M|69.44,49.38|N|To Mender Onelle.|
@@ -374,20 +379,20 @@ C Heart of the Nightmare|QID|38675;41724|M|68.49,49.68;69.57,49.46|CS|NC|N|Splas
 T Heart of the Nightmare|QID|38675;41724|M|66.22,44.79|N|To Tyrande Whisperwind.|
 A Reading the Leaves|QID|38684|M|66.21,44.53|N|From Elothir.|
 A Given to Corruption|QID|41893;41749|M|66.21,44.53|N|From Elothir.|
-$ Purging the river|QID|39130|M|67.50,45.07|N|Talk to Flandras Mistcaller to start the vignette.-this is currently broken and cant start except once per server reset.|
+$ Purging the river|QID|39130|M|67.50,45.07|N|Kill the elemental for treasure and resources.|;on beta (when it wasnt broken) Talk to Flandras Mistcaller to start the vignette.
 C Reading the Leaves|QID|38684|M|68.10,35.48|S|N|Kill 'Twisted' mobs to collect corrupted petals|
-$ Treasure|QID|38781|M|66.60,42.77;66.56,40.91|CS|N|Follow the path up to an outcropping overlooking the waterfall. Loot for a bit of treasure and resources.|
+$ Treasure|QID|38386|M|66.60,42.77;66.56,40.91|CS|N|Follow the path up to an outcropping overlooking the waterfall. Loot for a bit of treasure and resources.|
 $ Treasure|QID|39073|M|67.16,41.71;68.33,40.61|CS|N|Follow the path down, Chest is in house at base of falls. Loot for a bit of treasure and resources.|
 K Kill Wraithtalon|QID|39856;43447|QO|1|M|66.88,37.38|T|Wraithtalon|ITEM|130116|N|Kill and loot for a bit of treasure and resources.|
 C Reading the Leaves|QID|38684|M|68.10,35.48|US|N|Finish collecting the petals.|
-C Given to Corruption|QID|41749;41893|M|68.69,35.32|N|Kill Varethos.|T|Varethos|
-A Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto Accepted upon entering the area.|
-C Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|S|N|Kill mobs, pick bloodflowers and whatnot, while finding the treasure and rare in the area.|
-$ Treasure|QID|44139|M|63.91,45.57|N|Loot for a bit of treasure and resources.|
-K Kill Thondrax|QID|38780|QO|1|M|62.99,47.95|ITEM|130121|T|Thondrax|N|Kill and loot for a bit of treasure and resources.|
-K Kill Dreadbog|QID|39858|QO|1|M|60.24,44.26|ITEM|130125|T|Dreadbog|N|Kill and loot for a bit of treasure and resources.|
-C Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|US|N|Finish, or check off manually as you choose.|
-t Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto-turned in upon completion.|
+C Given to Corruption|QID|41749;41893|M|66.64,36.14;68.69,35.32|CS|N|Kill Varethos.|T|Varethos|
+A Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto Accepted upon entering the area.|RANK|2|
+C Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|S|N|Kill mobs, pick bloodflowers and whatnot, while finding the treasure and rare in the area.|RANK|2|
+$ Treasure|QID|44139|M|63.91,45.57|N|Loot for a bit of treasure and resources.|RANK|2|
+K Kill Thondrax|QID|38780|QO|1|M|62.99,47.95|ITEM|130121|T|Thondrax|N|Kill and loot for a bit of treasure and resources.|RANK|2|
+K Kill Dreadbog|QID|39858|QO|1|M|60.24,44.26|ITEM|130125|T|Dreadbog|N|Kill and loot for a bit of treasure and resources.|RANK|2|
+C Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|US|N|Finish, or check off manually as you choose.|RANK|2|
+t Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto-turned in upon completion.|RANK|2|
 T Reading the Leaves|QID|38684|M|66.20,44.52|N|To Elothir.|
 T Given to Corruption|QID|41749;41893|M|66.20,44.52|N|To Elothir.|
 
@@ -399,7 +404,7 @@ T Softening the Target|QID|43702|M|63.19,42.22|N|To Tyrande Whisperwind.|
 A Close Enough to Touch|QID|38687;41763|M|63.19,42.22|N|From Tyrande Whisperwind.|
 C Close Enough to Touch|QID|38687;41763|M|62.48,38.89|NC|QO|1|N|Follow Tyrande into Shala'nir|
 C Close Enough to Touch|QID|38687;41763|M|63.03,36.89|NC|QO|2|N|Search for Malfurion at the Inn|
-$ Treasure|QID|39088|M|61.07,34.24|N|Nearly at the bottom of the pond, tangled in some roots. Loot for a bit of treasure and resources.|
+$ Treasure|QID|39088|M|61.07,34.24|N|Nearly at the bottom of the pond, tangled in some roots. Loot for a bit of treasure and resources.|RANK|2|
 C Close Enough to Touch|QID|38687;41763|M|62.42,33.18|NC|QO|3|N|Search for Malfurion near the Lake|
 K Kill Lyrath Moonfeather|QID|40079|QO|1|M|61.80,30.41|ITEM|130118|N|Kill and loot for a bit of treasure and resources.|T|Lyrath Moonfeather|
 C Close Enough to Touch|QID|38687;41763|M|59.12,32.62|NC|QO|4|N|Search for Malfurion in the Village|
@@ -417,7 +422,7 @@ A Enter the Nightmare|QID|40567|M|53.69,55.90|N|From Tyrande Whisperwind. This i
 A The Tears of Elune|QID|40890|M|53.45,55.96|N|From The Tears of Elune.|
 U Dalaran Hearthstone|QID|38743|M|56.74,57.72|N|Use your Dalaran Hearthstone or take the flight master back to Dalaran.|U|140192|
 
-A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;43260;43007;44544;42600;42597|Z|Dalaran@Dalaran70|N|Someone will follow you around Dalaran until you accept this quest.|
+A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran@Dalaran70|N|Someone will follow you around Dalaran until you accept this quest.|
 ;44550 Death Knight - Called to Acherus
 ;44087/42666 Demon Hunter - Return to the Fel Hammer
 ;42516 Druid - Growing Power
@@ -425,12 +430,12 @@ A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844
 ;42175 Mage - Growing Power
 ;42186 Monk - Growing Power
 ;42844 Paladin - Growing Power
-;43260 Priest - Growing Power
+;44100 Priest - Proper Introductions
 ;43007 Rogue - Return to the Chambe of Shadows
 ;44544 Shaman - Call of the Earther Ring
 ;42600 Warlock - Growing Power
 ;42597 Warrior - Odyn's Summons
-C The Tears of Elune|QID|40890|M|55.16,36.74|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used|
+C The Tears of Elune|QID|40890|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used|
 T The Tears of Elune|QID|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Tears of Elune" on the wall.|
 A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|Auto Accepted from UI.|
 
