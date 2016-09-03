@@ -31,14 +31,14 @@ WoWPro.actionlabels = {
 	A = "Accept",
 	C = "Complete",
 	T = "Turn in",
-	t = "Turn in",
+	t = "Turn in when complete",
 	K = "Kill",
 	R = "Run to",
 	H = "Hearth to",
 	h = "Set hearth to",
 	F = "Fly to",
 	f = "Get flight path for",
-	N = "Note:",
+	N = "Note",
 	B = "Buy",
 	b = "Boat or Zeppelin",
 	U = "Use",
@@ -52,6 +52,33 @@ WoWPro.actionlabels = {
 	[";"] = "Comment"
 }
 
+---accept = {
+---	order = 7,
+---	type = "description",
+---	fontSize = "medium",
+---	name = "Accept Quest",
+---	image = "Interface\\GossipFrame\\AvailableQuestIcon",
+---	imageWidth = 15,
+---	imageHeight = 15
+---},
+
+function WoWPro.InsertActionDescriptions(tabla, order)
+    for action, icon in pairs(WoWPro.actiontypes) do
+        local label = WoWPro.actionlabels[action]
+        local nickname = label:gsub("%s+", "")
+        tabla[nickname] = {
+            order = order,
+            type = "description",
+            fontSize = "medium",
+            name = label .. " (" .. action .. ")",
+            image = icon,
+            imageWidth = 16,
+            imageHeight = 16
+        }
+        order = order + 1
+    end
+    return tabla
+end
 
 -- Skip a step -- 
 function WoWPro.SkipStep(index)
