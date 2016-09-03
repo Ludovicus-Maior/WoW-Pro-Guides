@@ -1,0 +1,27 @@
+------------------------------------------------------------------------
+r57 | nevcairiel | 2016-07-20 21:25:42 +0000 (Wed, 20 Jul 2016) | 1 line
+Changed paths:
+   A /tags/r57-release (from /trunk:56)
+
+Tag as r57-release
+------------------------------------------------------------------------
+r56 | nevcairiel | 2016-07-20 21:22:30 +0000 (Wed, 20 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/prototypes.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets.toc
+
+Properly embed LibSharedMedia-3.0 for stand-alone builds
+------------------------------------------------------------------------
+r54 | nevcairiel | 2016-07-19 06:34:58 +0000 (Tue, 19 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets.toc
+
+Update TOC to 7.0
+------------------------------------------------------------------------
+r53 | nevcairiel | 2016-06-03 06:51:46 +0000 (Fri, 03 Jun 2016) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/prototypes.lua
+
+Remove SetPoint to UIParent, AceGUI-3.0 will properly position the element when its used
+------------------------------------------------------------------------
