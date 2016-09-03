@@ -622,11 +622,25 @@ function WoWPro.NextStep(k,i)
         if WoWPro.sobjective[k] then
             if not WoWPro.Scenario then
                 -- Hmm, we were expecting a scenario.   Did it sneak up on us?
-                 WoWPro.ProcessScenarioStage("NextStep()")
+                 WoWPro.ProcessScenarioStage("NextStep(Sneak)")
                  if not WoWPro.Scenario then
                     skip = true
                     break
                  end
+            else
+                local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = C_Scenario.GetInfo()
+                -- Not in a scenario
+                if not name then
+                    skip = true
+                    break
+                end
+                if name ~= WoWPro.Scenario.name then
+                     WoWPro.ProcessScenarioStage("NextStep(Started)")
+                     if not WoWPro.Scenario then
+                        skip = true
+                        break
+                     end
+                end
             end
             local stage, objective = string.split(";",WoWPro.sobjective[k])
             stage = tonumber(stage)
