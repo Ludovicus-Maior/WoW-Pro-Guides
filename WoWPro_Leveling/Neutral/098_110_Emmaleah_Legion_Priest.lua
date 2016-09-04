@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-09-04 13:08
+-- Who: Emmaleah
+-- Log: Added most of chapter 1 to class Hall
+
+-- URL: http://wow-pro.com/node/3674/revisions/27663/view
 -- Date: 2016-08-31 07:41
 -- Who: Emmaleah
 -- Log: Live play thru 8/30 some coordinate updates, mostly in Netherlight Temple. changed zone to Netherlight Temple/1 added QO|2 tags to shadow scenario steps, so if you have quest tracking on it only shows the step you are actually on.
@@ -52,6 +57,43 @@ C A Legend You Can Hold|QID|40706|QO|1|M|78.96,41.00|NC|Z|Tirisfal Glades|N|Choo
 T A Legend You Can Hold|QID|40706|M|78.96,41.00|Z|Tirisfal Glades|N|To Alonsus Faol.|
 A Accept artifact specific quest|QID|40710;41625;41957|M|78.96,41.00|Z|Tirisfal Glades|N|From Alonsus Faol.|PRE|40706|
 
+;chapter I order hall
+;44100-Proper Introductions
+R Windrunner's Sanctuary|QID|44100|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Horde|
+T Proper Introductions|QID|44100|M|51.61,47.81|N|To Alonsus Faol.|
+A Rise Champions|QID|43270|M|51.61,47.81|N|From Alonsus Faol.|PRE|44100|
+A Champion: Calia Menethil|QID|43271|M|51.80,48.98|N|Pick Up Calia as a follower.|ACTIVE|43270|
+A Champion: High Priestess Ishanah|QID|43272|M|57.65,25.80|N|Pick up Ishanah as a follower.|ACTIVE|43270|
+r Upgrade your weapon|QID|44545|M|50.00,21.48|N|Use the alter of Light and Shadow to spend the artifact resources you have been gathering and to socket your artifact enhancements. Manually check this step off.|
+T Rise Champions|QID|43270|M|51.61,47.81|N|To Alonsus Faol.|
+A Spread the Word|QID|43273|M|51.61,47.81|N|From Alonsus Faol.|PRE|43270|
+C Spread the Word|QID|43273|M|50.64,47.85|S|N|Use the scouting map, Note it now has 3 tabs, Missions, followers, Scouting Map. Use the missions tab to send your followers on the mission "Spread the Word".|
+C Pressing the Assault|QID|44545|M|50.64,47.85|NC|N|Use Scouting Map tab to pick the next zone you want to adventure in.|
+C Spread the Word|QID|43273|M|50.64,47.85|US|NC|N|The mission was very quick and will be done or nearly done, Use the scouting map, Note it now has 3 tabs, Missions, followers, Scouting Map. Use the missions tab to complete the mission "Spread the Word".|
+T Pressing the Assault|QID|44545|M|50.64,47.85|N|Turn in to UI Alert.|
+T Spread the Word|QID|43273|M|51.61,47.81|N|To Alonsus Faol.|
+A Recruiting the Troops|QID|43275|M|51.61,47.81|N|From Alonsus Faol.|PRE|43273|
+C Recruiting the Troops|QID|43275|M|40.93,27.63|NC|N|At Grand Anchorite Gesslar. The first one takes 30 seconds to recruit. Pick it up by clicking on the banner and then place 2 more workorders (which take half hour each).|
+T Recruiting the Troops|QID|43275|M|51.61,47.81|N|To Alonsus Faol.|
+A Troops in the Field|QID|43276|M|51.61,47.81|N|From Alonsus Faol.|PRE|43275|
+C Troops in the Field|QID|43276|M|50.64,47.85|NC|N|Use the scouting map to send your followers on the next mission. This is a 4 hour mission.|
+t Troops in the Field|QID|43276|M|51.61,47.81|N|To Alonsus Faol.|
+A Tech it up a Notch|QID|43277|M|51.61,47.81|N|From Alonsus Faol.|PRE|43276|
+C Tech it up a Notch|QID|43277|M|56.01,40.64|NC|N|Go to Archon Torias and select which class hall upgrade you want.|
+T Tech it up a Notch|QID|43277|M|51.61,47.81|N|To Alonsus Faol.|
+A Relieving the Front Lines|QID|43371|M|51.61,47.81|N|From Alonsus Faol.|PRE|43277|
+C Relieving the Front Lines|QID|43371|M|50.64,47.85|NC|N|Use the scouting map to send your followers on the next mission, "Relieving the Front Lines". This mission is 1 hour.|
+t Relieving the Front Lines|QID|43371|M|51.61,47.81|N|To Alonsus Faol Whenever you exhaust an acolyte, you can (and should) recruit more over at Grand Anchorite Gesslar.|
+A Whispers in the Void|QID|43372|M|51.61,47.81|N|From Alonsus Faol.|PRE|43371|
+A A Second Legend|QID|43935|M|51.61,47.81|N|From Alonsus Faol.|PRE|43371|
+C A Second Legend|QID|43935|M|51.61,47.81|N|Choose the artifact quest you want to pursue next.|
+T A Second Legend|QID|43935|M|51.61,47.81|N|To Alonsus Faol.|
+A Artifact specific quest|QID|40710;41625;41957|M|51.61,47.81|N|From Alonsus Faol.|PRE|43935|
+C Whispers in the Void|QID|43372|M|20.01,41.77|CHAT|N|Talk to Gilner Greymoss.|
+T Whispers in the Void|QID|43372|M|51.61,47.81|N|To Alonsus Faol.|
+A The Best and Brightest|QID|43373|M|47.65,47.33|N|From Prophet Velen.|PRE|43372|
+R Dalaran Portal|QID|99999|N|Back to the outside world to continue leveling.|PRE|44100|ACTIVE|39718;39864;39731;39733;39735;43372|
+
 ;DISCIPLINE
 ;A The Light's Wrath|QID|41625|M|78.95,40.99|Z|Tirisfal Glades|N|From Alonsus Faol.|
 U Back to Dalaran|QID|41625|M|78.95,40.99|Z|Tirisfal Glades|U|140192|N|Use your Dalaran hearthstone or otherwise travel back to Dalaran.|ACTIVE|41625|
@@ -94,10 +136,6 @@ T The Nexus Vault|QID|41631|M|28.60,49.89|Z|Dalaran@Dalaran70|N|To Archmage Kale
 A A Gift of Time|QID|41632|M|28.60,49.89|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|40631|
 T A Gift of Time|QID|41632|M|46.37,20.96|Z|Dalaran@Dalaran70|N|To Alonsus Faol.|
 
-;Insert the stuff that happens after you finish first zone here
-
-;insert order hall progression quests here
-
 ;HOLY
 ;A The Vindicator's Plea|QID|41957|M|78.51,41.07|Z|Tirisfal Glades|N|From Brother Larry.|PRE|40706|
 T The Vindicator's Plea|QID|41957|M|37.76,36.86|Z|Dalaran@Dalaran70|N|To Vindicator Boros.|
@@ -105,7 +143,7 @@ A House Call|QID|41966|M|37.76,36.86|Z|Dalaran@Dalaran70|N|From Vindicator Boros
 C House Call|QID|41966|NC|QO|1|M|36.02,36.69|Z|Dalaran@Dalaran70|N|Use Purify to cure Barrem. After you cure him there is a bad thing to kill.|
 T House Call|QID|41966|M|37.46,35.52|Z|Dalaran@Dalaran70|N|To Defender Barrem.|
 A Out of the Darkness|QID|41967|M|37.46,35.52|Z|Dalaran@Dalaran70|N|From Defender Barrem.|PRE|41966|
-C Out of the Darkness|QID|41967|QO|1|M|70.71,43.93|Z|Dalaran@Dalaran70|N|Go up to Krasus landing and hop on Lightfeather who is waiting for you.|
+C Out of the Darkness|QID|41967|QO|1|M|70.71,43.93|Z|Dalaran@Dalaran70|NC|N|Go up to Krasus landing and hop on Lightfeather who is waiting for you.|
 C Out of the Darkness|QID|41967|QO|2|M|34.72,33.11|Z|Niskara#1078|N|Kill the demon standing in front of you.|
 C Out of the Darkness|QID|41967|QO|3|M|34.00,33.91|Z|Niskara#1078|N|Resurrect Alora.|
 T Out of the Darkness|QID|41967|M|34.00,33.91|Z|Niskara#1078|N|To Alora.|
@@ -161,6 +199,24 @@ A Actions on Azeroth|QID|41019|M|48.78,48.44|N|From Alonsus Faol.|PRE|41017|
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|49.23,48.61|N|From Command Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41019|
 T Actions on Azeroth|QID|41019|M|48.73,48.49|N|To Alonsus Faol.|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|49.77,80.42|N|Take the portal back to Dalaran.|
+
+F Felblaze Ingress|QID|43373|M|0.00,0.00|Z|Dalaran@Dalaran70|N|Field trip time. Fly out to as Felblaze Ingress or if you don't have that flightpath, Shackle's Den.|
+C The Best and Brightest|QID|43373|M|57.93,33.51|Z|Azsuna|CHAT|N|Tell Zabra its time to go home.|LVL|103|
+T The Best and Brightest|QID|43373|M|58.53,37.16|Z|Azsuna|N|To Zabra Hexx.|LVL|103|
+A Murloc Mind Control|QID|43374|M|58.53,37.16|Z|Azsuna|N|From Zabra Hexx.|LVL|103|PRE|43373|
+A An Ample Supply|QID|43375|M|58.53,37.16|Z|Azsuna|N|From Zabra Hexx.|LVL|103|PRE|43373|
+C An Ample Supply|QID|43375|M|58.53,37.16|Z|Azsuna|S|NC|N|Pick up the boxes of supplies scattered around.|LVL|103|
+C Murloc Mind Control|QID|43374|M|50.52,36.18|Z|Azsuna|N|Use mind control on a nearby Murloc, use his chew cage ability to get her out of the cage.|LVL|103|
+C An Ample Supply|QID|43375|M|58.53,37.16|US|NC|Z|Azsuna|N|Finish collecting the salve.|LVL|103|
+T Murloc Mind Control|QID|43374|M|58.87,37.08|Z|Azsuna|N|To Yalia Sagewhisper.|LVL|103|
+T An Ample Supply|QID|43375|M|58.52,37.19|Z|Azsuna|N|To Zabra Hexx.|LVL|103|
+A Problem Slaver|QID|43376|M|58.87,37.08|Z|Azsuna|N|To Yalia Sagewhisper.|LVL|103|PRE|43375;43374|
+R Illidari Stand|QID|43376|M|43.18,43.51|Z|Azsuna|N|Run back to Illidari Stand to cure the Demon Hunters.|ACTIVE|43376|LVL|103|
+C Problem Slaver|QID|43376|M|42.34,44.19|Z|Azsuna|N|Apply salve to the demon hunters lying on the ground in this area.|LVL|103|
+T Problem Slaver|QID|43376|M|47.11,43.98|Z|Azsuna|N|To Yalia Sagewhisper.|LVL|103|
+A Champion: Yalia Sagewhisper|QID|42137|M|47.11,43.98|Z|Azsuna|N|To/From Yalia Sagewhisper.|PRE|43376|LVL|103|
+A Champion: Zabra Hexx.|QID|42138|M|47.20,44.00|Z|Azsuna|N|To/From Zabra Hexx.|PRE|43376|LVL|103|
+A Looking Through the Lens|QID|43378|M|47.11,43.98|Z|Azsuna|N|From Yalia Sagewhisper. This is an instance/group quest.PRE|42137||LVL|103|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|

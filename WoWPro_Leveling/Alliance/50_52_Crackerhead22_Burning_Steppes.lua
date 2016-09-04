@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2016-09-04 15:46
+-- Who: tubera
+-- Log: Fix: QO
+
+-- URL: http://wow-pro.com/node/3265/revisions/26816/view
 -- Date: 2014-11-06 13:35
 -- Who: Fluclo
 -- Log: Merged duplicate N tags for A Perfect Costume.
@@ -159,9 +164,9 @@ T Into the Black Tooth Hovel|QID|28239|U|63357|M|45.33,51.60|N|Remember to put o
 A Grunt Work|QID|28245|M|45.33,51.60|N|From Quartermaster Kaoshin.|
 A Strategic Cuts|QID|28246|M|45.33,51.60|N|Automatically accepted.|
 C Grunt Work|QID|28245|S|U|63357|M|35.43,55.39|N|Look for boots. Sometimes spiders will spawn when you have polished a boot.|
-K Voodooist Timan|QID|28246|U|63350|QO|Voodooist Timan slain: 1/1|M|45.37,52.47|N|Find him at the top of the tower, and use the barb.|
-K Worgmistress Othana|QID|28246|U|63350|QO|Worgmistress Othana slain: 1/1|M|39.17,56.14|N|Find her wandering around inside the stable.|
-C Strategic Cuts|QID|28246|U|63350|QO|Gorlop slain: 1/1|M|43.89,60.15;40.01,60.27|CN|N|Gorlop wanders between these two points, you can only use the barb when he is at a lava pool.|
+K Voodooist Timan|QID|28246|U|63350|QO|3|M|45.37,52.47|N|Find him at the top of the tower, and use the barb.|
+K Worgmistress Othana|QID|28246|U|63350|QO|2|M|39.17,56.14|N|Find her wandering around inside the stable.|
+C Strategic Cuts|QID|28246|U|63350|QO|1|M|43.89,60.15;40.01,60.27|CN|N|Gorlop wanders between these two points, you can only use the barb when he is at a lava pool.|
 T Strategic Cuts|QID|28246|M|40.13,59.45|N|(UI Alert)|
 C Grunt Work|QID|28245|US|U|63357|M|35.43,55.39|N|Look for boots. Sometimes spiders will spawn when you have polished a boot.|
 T Grunt Work|QID|28245|M|45.29,51.57|N|To Quartermaster Kaoshin.|
@@ -219,11 +224,11 @@ A Blood Tour|QID|28314|M|73.52,67.13|N|From John J. Keeshan.|
 A Draconic Vanguard|QID|28315|M|73.52,67.13|N|From John J. Keeshan.|
 A A Deal With a Dragon|QID|28316|M|73.52,67.13|N|From John J. Keeshan.|
 C Blood Tour|QID|28314|S|M|77.82,35.84|N|Kill any Black Dragonspawn or Black Wyrmkin you see.|
-K Draconic Vanguard|QID|28315|QO|Whelptamer Akumi slain: 1/1|M|65.03,59.84|N|Kill Wheltamer Akumi here.|
-K Draconic Vanguard|QID|28315|QO|Minyoth slain: 1/1|M|79.50,51.41|N|Kill Minyoth here.|
-K Draconic Vanguard|QID|28315|QO|Tugnar Goremaw slain: 1/1|M|75.67,37.08|N|Kill Tugnar Goremaw here.|
+K Draconic Vanguard|QID|28315|QO|1|M|65.03,59.84|N|Kill Wheltamer Akumi here.|
+K Draconic Vanguard|QID|28315|QO|3|M|79.50,51.41|N|Kill Minyoth here.|
+K Draconic Vanguard|QID|28315|QO|4|M|75.67,37.08|N|Kill Tugnar Goremaw here.|
 T A Deal With a Dragon|QID|28316|M|82.04,31.54|N|To Acride.|
-C Draconic Vanguard|QID|28315|QO|Terromath the Seared slain: 1/1|M|72.29,26.73|N|Kill Terromath.|
+C Draconic Vanguard|QID|28315|QO|2|M|72.29,26.73|N|Kill Terromath.|
 C Blood Tour|QID|28314|US|M|77.82,35.84|N|Kill any Black Dragonspawn or Black Wyrmkin you have you left.|
 T Blood Tour|QID|28314|M|72.29,26.73|N|To John J. Keeshan.|
 T Draconic Vanguard|QID|28315|M|72.29,26.73|N|To John J. Keeshan.|
@@ -234,7 +239,7 @@ A A Delivery for Thorg'izog|QID|28317|M|73.58,67.07|N|From Colonel Troteman.|
 A A Delivery for Neeralak|QID|28318|M|73.58,67.07|N|From Colonel Troteman.|
 A A Delivery for Xi'lun|QID|28319|M|73.58,67.07|N|From Colonel Troteman.|
 T A Delivery for Thorg'izog|U|63357|QID|28317|M|65.12,46.66|N|Put on your disguise, then head towards General Thorg'izog. Enter the cave at the waypoint, at the split head left.|
-T A Delivery for Xi'lun|QID|28319|M|69.52,43.10;63.79,37.81;66.31,37.96;68.88,44.14|CS|N|To High Warlock Xi'lun Follow the path up, he is in the cave.|
+T A Delivery for Xi'lun|QID|28319|M|63.79,37.81;66.31,37.96;68.88,44.14|CS|N|To High Warlock Xi'lun Follow the path up, he is in the cave.|
 T A Delivery for Neeralak|QID|28318|M|70.88,38.13|N|To Dragon-Lord Neeralak. Enter the cave at the waypoint, at the split head left.|
 A Locked and Loaded|QID|28327|M|69.52,43.10|N|(UI Alert)|
 T Locked and Loaded|QID|28327|M|73.53,67.08|N|To Colonel Troteman.|
@@ -243,15 +248,12 @@ C Assault on Dreadmaul Rock|QID|28320|U|63681|M|69.36,51.35|N|Only 1 button to u
 T Assault on Dreadmaul Rock|QID|28320|M|73.52,67.05|N|To Colonel Troteman.|
 
 A Glory Amidst Chaos|QID|28321|M|73.52,67.05|N|From Colonel Troteman.|
-K General Thorg'izog|QID|28321|QO|General Thorg'izog slain: 1/1|M|65.12,46.66|N|General Thorg'izog needs to be killed. Enter the cave at the waypoint, at the split head left.|
-K Dragon-Lord Neeralak|QID|28321|QO|Dragon-Lord Neeralak slain: 1/1|M|69.52,43.10;63.79,37.81;66.31,37.96;68.88,44.14|CS|N|Dragon-Lord Neeralak's turn to die. Follow the path up, he is in the cave.|
-C Glory Amidst Chaos|QID|28321|QO|High Warlock Xi'lun slain: 1/1|M|70.88,38.13|N|Time to kill High Warlock Xi'lun. Enter the cave at the waypoint, at the split head left.|
+K General Thorg'izog|QID|28321|QO|1|M|65.12,46.66|N|General Thorg'izog needs to be killed. Enter the cave at the waypoint, at the split head left.|
+K Dragon-Lord Neeralak|QID|28321|QO|2|M|69.52,43.10;63.79,37.81;66.31,37.96;68.88,44.14|CS|N|Dragon-Lord Neeralak's turn to die. Follow the path up, he is in the cave.|
+C Glory Amidst Chaos|QID|28321|QO|3|M|70.88,38.13|N|Time to kill High Warlock Xi'lun. Enter the cave at the waypoint, at the split head left.|
 T Glory Amidst Chaos|QID|28321|M|73.52,67.00|N|To Colonel Troteman.|
 A The Spoils of War|QID|28322|M|73.52,67.00|N|From Colonel Troteman.|
 T The Spoils of War|QID|28322|M|73.66,67.23|N|To Crate of Left Over Supplies.|
-N If you still have|QID|28322|N|the Blackrock Cudgel of Discipline, go ahead and toss it.|
-F Stormwind City|QID|28569|M|72.16,65.71|N|Fly to Stormwind to train, visit AH, sell junk and repair/restock.|
-F Morgan's Vigil|QID|28569|M|71.05,72.68|Z|Stormwind City|N|When you're done, fly back to Morgan's Vigil.|
 R Swamp of Sorrows|QID|28569|N|Run to Sharon Boomgetter and talk to her to head to the Swamp of Sorrows.|M|78.39,58.85|
 T The Bogpaddle Bullet|QID|28569|M|73.10,14.72|Z|Swamp of Sorrows|N|To Trade Baron Silversnap.|
 ]]

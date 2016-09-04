@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3673
+-- Date: 2016-09-04 13:12
+-- Who: Emmaleah
+-- Log: Now goes thru picking up your 2nd artifact.
+
+-- URL: http://wow-pro.com/node/3673/revisions/27571/view
+-- Date: 2016-08-30 18:22
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('EmmLegionPaladin', 'Leveling', '23/20', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Paladin Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
@@ -28,33 +37,37 @@ A Weapons of Legend|QID|40408|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxw
 C Weapons of Legend|QID|40408|QO|1|M|74.91,48.23|Z|Dalaran@Dalaran70|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T Weapons of Legend|QID|40408|M|74.91,48.23|Z|Dalaran@Dalaran70|N|To Lord Maxwell Tyrosus.|
 A Artifact specific quest|QID|42000;42231;42770|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|40408|
+
 ;stuff that happens after you finish first zone here
 A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran|N|From Justicar Julia Celeste.|PRE|39780;38743;43595;42244;40794|;need to add stormheim alliance ending QID.
-R Run to Windrunner's Sanctuary|QID|42844|M|61.81,13.70|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|
+R Run to Silver Hand ?|QID|42844|M|00.00,00.00|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Alliance|
+R Run to Windrunner's Sanctuary|QID|42844|M|61.81,13.70|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Horde|
 T Growing Power|QID|42844|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
+A Rise Champions|QID|39696|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844|
+A Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844|
+C Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|Choose which artifact you want to pursue next.|
+T Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
+A Artifact Specific Quest|QID|42000;42231;42770M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063|
 A The Blood Matriarch|QID|42846|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844|
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|53.32,78.77|N|From Scouting Map. Note it now has 3 tabs, choose the one called scouting map.|ACTIVE|42844|
 T Pressing the Assault|QID|44545|M|53.32,78.77|N|To Scouting Map.|
-C The Blood Matriarch|QID|42846|M|38.19,64.62|QO|1|N|Enlist Lady Liadrin|
+C The Blood Matriarch|QID|42846|M|38.19,64.62|NC|N|Enlist Lady Liadrin|
 T The Blood Matriarch|QID|42846|M|52.33,78.08|N|To Lord Grayson Shadowbreaker.|
 A Dark Storms|QID|42847|M|52.33,78.08|N|From Lord Grayson Shadowbreaker.|PRE|42846|
-C Dark Storms|QID|42847|M|53.35,78.74|QO|1|NC|N|Open the scouting map and choose the missions tab. It will take 2 minutes for the mission to complete.|
+C Dark Storms|QID|42847|M|53.35,78.74|NC|N|Open the scouting map and choose the missions tab. It will take 2 minutes for the mission to complete.|
 T Dark Storms|QID|42847|M|52.31,78.05|N|To Lord Grayson Shadowbreaker.|
 A Recruiting the Troops|QID|42848|M|52.31,78.05|N|From Lord Grayson Shadowbreaker.|PRE|42847|
 A A Sign From The Sky|QID|42866|M|49.88,72.29|N|From Lord Maxwell Tyrosus.|PRE|42847|
-C Recruiting the Troops|QID|42848|M|53.24,56.15|QO|1|NC|N|Go talk with Ansela, the first trainee is instant. The next two take 30 minutes each.|
+C Recruiting the Troops|QID|42848|M|53.24,56.15|NC|N|Go talk with Ansela, the first trainee is instant. The next two take 30 minutes each.|
 T Recruiting the Troops|QID|42848|M|52.29,78.22|N|To Lord Grayson Shadowbreaker.|
 A Wrath and Justice|QID|42849|M|52.29,78.22|N|From Lord Grayson Shadowbreaker.|PRE|42848|
-C Wrath and Justice|QID|42849|M|53.01,78.30|N|"Wrath and Justice" mission completed|
+C Wrath and Justice|QID|42849|M|53.01,78.30|NC|N|"Wrath and Justice" is an 8 hour mission.|
 t Wrath and Justice|QID|42849|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
 A Tech It Up a Notch|QID|42850|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42849|
-C Tech It Up a Notch|QID|42850|M|39.94,56.52|N|Class hall upgrade chosen|
+C Tech It Up a Notch|QID|42850|M|39.94,56.52|NC|N|Class hall upgrade chosen.|
 T Tech It Up a Notch|QID|42850|M|52.24,78.05|N|To Lord Grayson Shadowbreaker.|
 R Run to the alter|QID|42849|M|72.27,24.27|CC|N|Don't forgot to socket those artifact augments you got while questing.|PRE|38576;42811|
-A Bolstering Your Arsenal|QID|44063|M|49.83,72.36|N|From Lord Maxwell Tyrosus.|PRE|42850|
-C Bolstering Your Arsenal|QID|44063|M|49.83,72.36|N|Choose a second artifact to pursue. It will ask you if you want to change specs, say yes.|
-T Bolstering Your Arsenal|QID|44063|M|49.83,72.36|N|To Lord Maxwell Tyrosus.|
-A Seeker of Truth|QID|42000|M|49.83,72.36|N|From Lord Maxwell Tyrosus.|PRE|44063|
+
 R Dalaran Portal|QID|42866|M|37.9,63.73|CC|ACTIVE|39718;39864;39731;39733;39735|PRE|39780;38743;43595;42244;40794|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|38.11,63.38|NC|N|Travel to Dalaran|PRE|39780;38743;43595;42244;40794|
 T A Sign From The Sky|QID|42866|M|28.49,48.34|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
