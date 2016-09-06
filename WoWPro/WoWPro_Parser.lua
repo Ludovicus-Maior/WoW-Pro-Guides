@@ -525,7 +525,7 @@ function WoWPro.RecordStuff(i)
 end
 
 function WoWPro.SemiMatch(big,little)
-	local possible = select("#", string.split(";", big))
+	local possible = select("#", string.split(",", big))
 	for j=1,possible do
 		local jpossible = select(possible-j+1, string.split(";", big))
 		if jpossible == little then
