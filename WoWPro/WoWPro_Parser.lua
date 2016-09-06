@@ -524,8 +524,19 @@ function WoWPro.RecordStuff(i)
 
 end
 
+function WoWPro.SemiMatch(big,little)
+	local possible = select("#", string.split(";", big))
+	for j=1,possible do
+		local jpossible = select(possible-j+1, string.split(";", big))
+		if jpossible == little then
+			return true
+		end
+	end
+    return false
+end
+
 -- Quest parsing function --
-function WoWPro:ParseSteps(steps)
+function WoWPro.ParseSteps(steps)
 	WoWPro:dbp("Parsing Guide, %d steps",#steps)
 	local GID = WoWProDB.char.currentguide
 	local i = 2  -- Leave room the the L step
@@ -576,8 +587,8 @@ function WoWPro:ParseSteps(steps)
 				-- deleting leading/trailing whitespace and then canonicalize the case
 				faction=strupper(strtrim(faction))
             end			    
-			if (class == nil or class == myclass) and
-			   (race == nil or race == myrace) and
+			if (class == nil or WoWPro.SemiMatch(class, myclass)) and
+			   (race == nil or WoWPro.SemiMatch(race, myrace))  and
 			   (gender == nil or gender == UnitSex("player")) and
 			   (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
 				WoWPro.ParseQuestLine(faction, zone, i, text)
@@ -668,7 +679,7 @@ function WoWPro.LoadGuideStepsReal()
 	local steps = { string.split("\n", sequence ) }
 
     WoWProCharDB.Guide[GID].done = false
-	WoWPro:ParseSteps(steps)
+	WoWPro.ParseSteps(steps)
 	
 	
 	if WoWPro.LoadAllGuidesActive then
