@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2016-09-06 01:46
+-- Who: Fluclo
+-- Log: Changing Level Range to be 1 to 4, as you are level 4 when completing Rank 1 guide
+
+-- URL: http://wow-pro.com/node/3200/revisions/27692/view
+-- Date: 2016-09-06 01:45
+-- Who: Fluclo
+-- Log: Multiple Races in |R| tag doesn't seem to be working, so changed it to individual lines for each of the races. The Troll Menace is auto-accepted even if you're on Rank 1, so added Note.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27684/view
 -- Date: 2016-09-03 09:20
 -- Who: Fluclo
 -- Log: Added NC to the Casks, and Felix's stuff, split quest All the Other Stuff into two parts, Lockdown and Whitebeard quests both have a second quest pre-req quest, unnecessary quests for zone progression changed to Rank 2. Removed Level tags as you can continue the quests below that level. Added auto-completing sell junk step towards end of zone. Details of being flown off included in quest rather than after you've started flying. Clarified the Trolls needed for Troll Menace (not all trolls count)
@@ -237,20 +247,6 @@
 -- Date: 2011-06-28 19:54
 -- Who: Fluclo
 -- Log: Correcting the Sticky of Priceless Treasures
-
--- URL: http://wow-pro.com/node/3200/revisions/24587/view
--- Date: 2011-06-25 00:43
--- Who: Crackerhead22
--- Log: Checking ../WoWPro_Leveling/Alliance/05_10_Gameldar_Dun_Morogh.lua
---	! Duplicate A step for qid 6388 - Fixed
---	! Duplicate T step for qid 6388 - Fixed
-
--- URL: http://wow-pro.com/node/3200/revisions/24583/view
--- Date: 2011-06-25 00:27
--- Who: Crackerhead22
--- Log: # Checking ../WoWPro_Leveling/Alliance/01_05_Gylin_Dwarf_Starter.lua
---	! Line 157, for step A, missing Argument for tag N: [A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|N]
---	! Line 198 for step A has unknown tag [24532]: [A Evisceratin' the Enemy QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|]
 
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,2,10,5.74453)

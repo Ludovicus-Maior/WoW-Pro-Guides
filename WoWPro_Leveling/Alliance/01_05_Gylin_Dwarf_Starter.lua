@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2016-09-06 01:46
+-- Who: Fluclo
+-- Log: Changing Level Range to be 1 to 4, as you are level 4 when completing Rank 1 guide
+
+-- URL: http://wow-pro.com/node/3200/revisions/27692/view
+-- Date: 2016-09-06 01:45
+-- Who: Fluclo
+-- Log: Multiple Races in |R| tag doesn't seem to be working, so changed it to individual lines for each of the races. The Troll Menace is auto-accepted even if you're on Rank 1, so added Note.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27684/view
 -- Date: 2016-09-03 09:20
 -- Who: Fluclo
 -- Log: Added NC to the Casks, and Felix's stuff, split quest All the Other Stuff into two parts, Lockdown and Whitebeard quests both have a second quest pre-req quest, unnecessary quests for zone progression changed to Rank 2. Removed Level tags as you can continue the quests below that level. Added auto-completing sell junk step towards end of zone. Details of being flown off included in quest rather than after you've started flying. Clarified the Trolls needed for Troll Menace (not all trolls count)
@@ -238,20 +248,6 @@
 -- Who: Fluclo
 -- Log: Correcting the Sticky of Priceless Treasures
 
--- URL: http://wow-pro.com/node/3200/revisions/24587/view
--- Date: 2011-06-25 00:43
--- Who: Crackerhead22
--- Log: Checking ../WoWPro_Leveling/Alliance/05_10_Gameldar_Dun_Morogh.lua
---	! Duplicate A step for qid 6388 - Fixed
---	! Duplicate T step for qid 6388 - Fixed
-
--- URL: http://wow-pro.com/node/3200/revisions/24583/view
--- Date: 2011-06-25 00:27
--- Who: Crackerhead22
--- Log: # Checking ../WoWPro_Leveling/Alliance/01_05_Gylin_Dwarf_Starter.lua
---	! Line 157, for step A, missing Argument for tag N: [A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|N]
---	! Line 198 for step A has unknown tag [24532]: [A Evisceratin' the Enemy QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|]
-
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,2,1.1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -260,7 +256,11 @@ WoWPro:GuideSteps(guide, function()
 return
 [[
 
-R Coldridge Valley |QID|24469|M|67.18,41.41|R|Gnome,Draenei,Night Elf,Human,Worgen|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley |QID|24469|M|67.18,41.41|R|Gnome|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley |QID|24469|M|67.18,41.41|R|Draenei|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley |QID|24469|M|67.18,41.41|R|Night Elf|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley |QID|24469|M|67.18,41.41|R|Human|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley |QID|24469|M|67.18,41.41|R|Worgen|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
 
 A Hold the Line! |QID|24469|M|67.18,41.41|N|From Joren Ironstock.|
 C Hold the Line! |QID|24469|M|60.82,50.85|N|Slay 6 Rockjaw Invaders.|
@@ -307,7 +307,7 @@ T Whitebeard Needs Ye |QID|24487|M|42.74,62.22|N|To Grelin Whitebeard.|
 A The Troll Menace |PRE|24487|QID|182|N|From Grelin Whitebeard.|M|42.74,62.22|RANK|2|
 A A Refugee's Quandary |PRE|24487|QID|3361|M|42.04,63.34|N|From Felix Whindlebolt.|RANK|2|
 A Trolling for Information |PRE|24487|QID|24489|M|43.24,63.12|N|From Apprentice Soren.|
-C The Troll Menace |S|QID|182|N|Kill Frostmane Troll Whelps around the camps.|
+C The Troll Menace |S|QID|182|N|Kill Frostmane Troll Whelps around the camps. This quest is not necessary for zone completion if you want to drop it. |
 C Felix's Box|QID|3361|M|21.30,64.00|L|10438|N|Pick up Felix's Box.|QO|1|NC|
 C Trolling for Information - Mirim'koa|QID|24489|M|21.11,66.45|N|Head into the tent, stand next to the Soothsayer Mirim'koa, then listen to the dialogue.|QO|3|NC|
 C Felix's Chest|QID|3361|M|30.95,83.84|L|16313|N|Pick up Felix's Chest.|QO|2|NC|

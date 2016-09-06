@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-09-06 05:03
+-- Who: Emmaleah
+-- Log: Changes per Ludovicus - Alliance guide notes
+
+-- URL: http://wow-pro.com/node/3680/revisions/27673/view
 -- Date: 2016-09-01 06:27
 -- Who: Emmaleah
 -- Log: moved stormforged grapple launcher aquistion, since it isn't where it was in beta.
@@ -82,7 +87,7 @@ $ Small Treasure Chest|QID|43208|M|36.00,39.22;37.21,38.66|CS|N|Loot for a bit o
 
 R Weeping Bluffs|QID|38680|M|36.67,51.79|N|Continue up the hill then down through Stony Highlands and to Weeping Bluffs for some treasure and silver mobs.|RANK|3|
 K Kill Whitewater Typhoon|QID|38472|M|36.67,51.79|QO|1|ITEM|138418|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
-$ Treasure Chest|QID|38677|M|38.73,54.15|N|On the lowest level of the crashed alliance ship, be careful you don't fall over the waterfall. Loot for a bit of treasure and resources.|RANK|3|
+$ Treasure Chest|QID|38677|M|35.73,54.15|N|On the lowest level of the crashed alliance ship, be careful you don't fall over the waterfall. Loot for a bit of treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|38676|M|31.09,56.00|N|On the other half of the alliance ship. Loot for a bit of treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|38680|M|35.92,47.92|N|Loot for a bit of treasure and resources.|RANK|3|
 $ Treasure Chest|QID|38529|M|80.89,48.83;20.03,41.23|Z|1017/9|CS|N|Inside the drake cave that the alliance ship has crashed into. Loot for a bit of treasure and resources.|RANK|3|
@@ -118,17 +123,17 @@ C A Trial of Will|QID|39592|M|48.73,47.59|QO|1|NC|N|You can use the grapple poin
 C The Shattered Watcher|QID|39593|M|48.02,47.58|QO|1|NC|N|Yotnar's Left Arm.|
 C A Trial of Valor|QID|39591|M|50.49,44.78|QO|1|NC|N|Learn about the Trial of Valor.|
 $ Treasure Chest|QID|38483|M|50.13,42.10;50.32,41.00|CS|N|Loot for a bit of treasure and resources.|
-$ Treasure Chest|QID|43246|M|51.46,41.55;50.54,41.24|CS|N|Standing at the first coordinate, look up and northeast.  Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.|
+$ Treasure Chest|QID|43246|M|48.48,41.28;50.54,41.24|CS|N|Standing at the first coordinate, look up and northeast.  Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.|
 C The Shattered Watcher|QID|39593|M|48.69,41.71|QO|4|NC|N|Yotnar's Right Foot.|
 T A Trial of Valor|QID|39591|M|46.75,44.42|N|To Yotnar's Head.|
 T A Trial of Will|QID|39592|M|46.75,44.42|N|To Yotnar's Head.|
 T The Shattered Watcher|QID|39593|M|46.75,44.42|N|To Yotnar's Head.|
 A A Trial of Might|QID|39594|M|46.75,44.42|N|From Yotnar.|
-C A Trial of Might|QID|39594|M|54.26,18.39|QO|1|NC|N|Learn about the Trial of Might.|
-C A Trial of Might|QID|39594|M|54.90,39.68|QO|2|N|Yotnar Defeated.|
+C A Trial of Might|QID|39594|M|49.46,42.24|Z|AggramarsVault|QO|1|NC|N|Go into the Vault and learn about the Trial of Might. Click on the console to start the trial.|
+C A Trial of Might|QID|39594|M|49.45,43.25|Z|AggramarsVault|QO|2|N|Now fight Yotnar.|
 T A Trial of Might|QID|39594|M|46.33,44.79|N|To Yotnar.|
 A The Blessing of the Watchers|QID|39597|M|46.33,44.79|N|From Yotnar.|
-C The Blessing of the Watchers|QID|39597|M|46.33,44.79|CHAT|N|Wait a minute to receive Yotnar's Blessing.|
+C The Blessing of the Watchers|QID|39597|M|46.33,44.79|CHAT|N|Ask Yotnar for his blessing, then listen (or just wait) for a bit to receive Yotnar's Blessing.|
 C A Worthy Challenger-Bonus Objective|US|QID|38442|M|49.73,40.88|N|Finish this up or click it off manually.|
 t A Worthy Challenger-Bonus Objective|QID|38442|M|42.99,41.03|N|Auto turned in when complete.|
 T The Blessing of the Watchers|QID|39597|M|41.84,43.07|N|To Havi.|
@@ -157,9 +162,9 @@ T To Weather the Storm|QID|38614|M|43.71,67.89|N|To Dread-Rider Cullen.|
 A Impalement Insurance|QID|38615|M|43.71,67.89|N|From Dread-Rider Cullen.|
 C Impalement Insurance|QID|38615|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
 $ Treasure Chest|QID|38486|M|39.58,65.18|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|
-$ Treasure Chest|QID|38489|M|44.16,59.97|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|
+$ Treasure Chest|QID|38489|M|44.16,69.97|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|
 K Kill Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the others in the Mead Hall, then you can take on Thane. Kill and loot for some treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|38475|M|40.64,68.52|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64;68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|
 C Impalement Insurance|QID|38615|M|46.09,70.99|US|NC|N|Finish up destroying Harpoon Launchers.|
 C Built to Scale|QID|38616|M|45.80,70.85|US|N|Finish collecting the scales.|
 T Impalement Insurance|QID|38615|M|47.00,71.74|N|To Dread-Rider Cullen.|
