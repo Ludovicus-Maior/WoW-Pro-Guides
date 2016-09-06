@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-09-06 04:35
+-- Who: Emmaleah
+-- Log: correct |M| for $40507, Correct |N| for T39862
+
+-- URL: http://wow-pro.com/node/3678/revisions/27685/view
 -- Date: 2016-09-03 20:05
 -- Who: Emmaleah
 -- Log: add Z|ThunderTotem| to buy bottle of airspark
@@ -294,7 +299,7 @@ T The Three|QID|39321|M|49.21,36.61|N|To Lasan Skyhorn.|
 T Assaulting the Haglands|QID|39429|M|49.21,36.61|N|To Lasan Skyhorn.|
 A The Witchqueen|QID|39322|M|49.21,36.61|N|From Lasan Skyhorn.|
 C The Witchqueen|QID|39322|M|46.25,39.52|T|High Crawliac|N|Kill High Crawliac.|
-$ Treasure Chest|QID|40507|M|46.81,35.05|N|Loot for a bit of treasure and resources.|
+$ Treasure Chest|QID|40507|M|46.81,40.13|N|Loot for a bit of treasure and resources.|
 C Assaulting the Haglands|QID|39429|M|50.90,33.91|US|N|Finish killing any needed.|
 T The Witchqueen|QID|39322|M|45.69,39.15|N|To Lasan Skyhorn.|
 A The Skies of Highmountain|QID|39387|M|45.69,39.15|N|From Lasan Skyhorn.|
@@ -520,12 +525,12 @@ A The Siegebrul|QID|39862|M|53.38,64.12|N|From Navarrogg.|
 C Buy Us Time|QID|39777|M|53.12,62.61|S|N|Kill the Mightstone Drogbar as you accomplish the other objectives.|
 $ Seemingly Unguarded Treasure|QID|40423|M|52.42,58.48;50.75,58.15|CS|ITEM|140681|N|What could go wrong? Click on the pile of gold and then fight for it.|RANK|2|
 C Battle Worms|QID|39776|M|52.95,58.57|QO|1|T|Naxa|N|Use your extra action button to summon the Rivermane to assist in the fight.|
-C The Siegebrul|QID|39862|M|52.59,57.23|QO|1|T|Siegebrul Olgrul|N|Kill Siegebrul Olgrul.|
+C The Siegebrul|QID|39862|M|52.59,57.23|T|Siegebrul Olgrul|N|Kill Siegebrul Olgrul.|
 $ Totally Safe Treasure Chest|QID|39766|M|53.04,55.56;52.32,51.39|CS|N|The path starts at the first coordinate.  It's a bit of a run, but with a beautiful view. What could go wrong.  Find the chest and be prepared to fight for it.  Loot for a bit of treasure and resources.|ITEM|131802|RANK|2|
 C Battle Worms|QID|39776|M|53.91,56.86|QO|3|T|Xist|N|Use your extra action button to summon the power of earth to assist.|
 C Battle Worms|QID|39776|M|54.62,58.89|QO|2|T|Arxas|N|Use your extra action button to summon the Skyhorn eagle riders to assist.|
 C Buy Us Time|QID|39777|M|53.12,62.61|US|N|Finish up any needed drogbar.|
-T The Siegebrul|QID|39862|M|53.38,64.12|N|To Mightstone Flanker.|
+T The Siegebrul|QID|39862|M|53.38,64.12|N|To Navarrogg.|
 T Buy Us Time|QID|39777|M|53.35,64.00|N|To Jale Rivermane.|
 T Battle Worms|QID|39776|M|53.27,64.05|N|To Mayla Highmountain.|
 A Evacuate Snowmane|QID|42088|M|53.27,64.05|N|From Mayla Highmountain.|

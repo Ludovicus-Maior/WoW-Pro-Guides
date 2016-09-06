@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-09-06 20:40
+-- Who: Ludovicus
+-- Log: Add a warning!
+
+-- URL: http://wow-pro.com/node/3683/revisions/27694/view
+-- Date: 2016-09-06 02:44
+-- Who: Ludovicus
+-- Log: Play-though to [Above the Winter Moonlight]
+
+-- URL: http://wow-pro.com/node/3683/revisions/27691/view
+-- Date: 2016-09-05 19:46
+-- Who: Ludovicus
+-- Log: Started Trial of might section.
+
+-- URL: http://wow-pro.com/node/3683/revisions/27686/view
 -- Date: 2016-09-04 00:28
 -- Who: Ludovicus
 -- Log: First playthrough till just before The Trial of Might section.
@@ -30,7 +45,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Starting in Dalaran|QID|39735|U|140192|N|This guide assumes you are starting in Dalaran. |
-N Warning!|QID|39735|N|This guide is NOT complete and probably has errors.|
+N Warning!|QID|39735|N|This guide is NOT complete and probably has errors. The guide has a warning later telling you how far it has been tested. |
 N Treasure|QID|39735|N|All treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 1. If you are using handy notes treasures, there treasure symbol will show over the tomtom green dot, obscuring it, the arrow will still work fine.|
 N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The item displayed has a high chance to drop but not guarenteed. Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure and rare in the zone.|
@@ -130,51 +145,54 @@ C A Trial of Will|QID|39592|M|48.73,47.59|QO|1|NC|N|You can use the grapple poin
 C The Shattered Watcher|QID|39593|M|48.02,47.58|QO|1|NC|N|Yotnar's Left Arm.|
 C A Trial of Valor|QID|39591|M|50.49,44.78|QO|1|NC|N|Learn about the Trial of Valor.|
 $ Treasure Chest|QID|38483|M|50.13,42.10;50.32,41.00|CS|N|Loot for a bit of treasure and resources.|
-$ Treasure Chest|QID|43246|M|51.46,41.55;50.54,41.24|CS|N|Standing at the first coordinate, look up and northeast.  Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.|
+$ Treasure Chest|QID|43246|M|48.48,41.28;50.55,41.24|CS|N|Standing at the first coordinate, look up and northeast.  Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.| ; Emma
+
 C The Shattered Watcher|QID|39593|M|48.69,41.71|QO|4|NC|N|Yotnar's Right Foot.|
 T A Trial of Valor|QID|39591|M|46.75,44.42|N|To Yotnar's Head.|
 T A Trial of Will|QID|39592|M|46.75,44.42|N|To Yotnar's Head.|
 T The Shattered Watcher|QID|39593|M|46.75,44.42|N|To Yotnar's Head.|
 A A Trial of Might|QID|39594|M|46.75,44.42|N|From Yotnar.|
-C A Trial of Might|QID|39594|M|54.26,18.39|QO|1|NC|N|Learn about the Trial of Might.|
-C A Trial of Might|QID|39594|M|54.90,39.68|QO|2|N|Yotnar Defeated.|
+C A Trial of Might|QID|39594|M|49.46,42.24|Z|AggramarsVault|QO|1|NC|N|Go into the Vault and learn about the Trial of Might. Click on the console to start the trial.| ; Emma
+C A Trial of Might|QID|39594|M|49.45,43.25|Z|AggramarsVault|QO|2|N|Now fight Yotnar.| ; Emma
 T A Trial of Might|QID|39594|M|46.33,44.79|N|To Yotnar.|
 A The Blessing of the Watchers|QID|39597|M|46.33,44.79|N|From Yotnar.|
-C The Blessing of the Watchers|QID|39597|M|46.33,44.79|CHAT|N|Wait a minute to receive Yotnar's Blessing.|
+C The Blessing of the Watchers|QID|39597|M|46.33,44.79|QO|1|CHAT|N|Ask Yotnar for his blessing.| ; Emma
 C A Worthy Challenger-Bonus Objective|US|QID|38442|M|49.73,40.88|N|Finish this up or click it off manually.|
 t A Worthy Challenger-Bonus Objective|QID|38442|M|42.99,41.03|N|Auto turned in when complete.|
-T The Blessing of the Watchers|QID|39597|M|41.84,43.07|N|To Havi.|
-A Will of the Thorignir|QID|38611|M|41.84,43.07|N|From Havi.|
+T The Blessing of the Watchers|QID|39597|M|43.17,49.15|N|To Havi.|
+A Will of the Thorignir|QID|38473|M|43.17,49.15|N|From Havi.| ; Faction Specific
 
 ; The Trial of Will (Cry Thunder!)
+R Lorna's Watch|QID|38473|ACTIVE|38473|M|40.34,51.45;45.11,54.33;42.85,59.10;38.32,63.60|CS|N|Lets ride on to Hrydshal and then to the Watch.|
+f Lorna's Watch|QID|38473|M|37.41,63.99|N|At Donovan.|
+T Will of the Thorignir|QID|38473|M|37.38,63.85|N|To Commander Lorna Crowley.|
 A A Grapple a Day|QID|38312|PRE|38473|M|37.38,63.85|N|From Commander Lorna Crowley.|
-f Lorna's Watch|QID|38312|M|37.41,63.99|N|At Donovan.|
 C A Grapple a Day|QID|38312|M|37.37,63.79|QO|1|N|Stormforged Grapple Launcher|
-A Built to Scale|QID|38337|M|43.46,64.40|N|From Stormwing Drake.|
-C Built to Scale|QID|38616|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.|
 T A Grapple a Day|QID|38312|M|42.02,64.48|N|To Commander Lorna Crowley.|
 A No Wings Required|QID|38318|M|42.02,64.48|QO|2|N|From Commander Lorna Crowley.|
-C No Wings Required|QID|38318|M|42.88,64.85|QO|3|N|1/1 Grapple over the wall|
-A Assault the Drekirjar|QID|38374|M|42.88,64.85|N|From Commander Lorna Crowley.|
 A To Weather the Storm|QID|38405|M|42.02,64.48|N|From Commander Lorna Crowley.|
+C No Wings Required|QID|38318|M|42.88,64.85|QO|1|N|Click on the hook with the big Yellow Arrow and grapple over the wall|
+A Built to Scale|QID|38337|M|43.46,64.40|N|Kill a Stormwing Drake to get this quest from the UI.|
+A Assault the Drekirjar|QID|38374|M|42.88,64.85|N|From UI upon entering Hrydshal.|
 C To Weather the Storm|QID|38405|M|45.68,66.64|QO|3|N|Loot Oiled Cloak|
 $ Treasure Chest|QID|38474|M|42.6,65.80|N|Loot for a bit of treasure and resources.|
 K Kill Glimar Ironfist|QID|38333|M|41.5,66.7|QO|1|ITEM|129291|T|Glimar Ironfist|N|Silver - Kill and loot for a bit of treasure and resources.|
 C To Weather the Storm|QID|38405|M|41.86,68.40|QO|2|N|Loot Climbing Treads|
 C To Weather the Storm|QID|38405|M|43.98,66.99|QO|1|T|Stormbreaker Reykir|N|Kill Stormbreaker Reykir and loot the Enchanted Lodestone.|
-T Assault the Drekirjar|QID|38374|M|43.79,68.21|QO|1|N|To Commander Lorna Crowley.|
+T No Wings Required|QID|38318|M|43.79,68.21|N|To Commander Lorna Crowley.|
 T To Weather the Storm|QID|38405|M|43.79,68.21|N|To Commander Lorna Crowley.|
 A Impalement Insurance|QID|38410|PRE|38405|M|43.79,68.21|N|From Commander Lorna Crowley.|
-C Built to Scale|QID|38337|M|46.15,72.82|N|50/50 Storm Drake Scale|
+C Built to Scale|QID|38337|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.|
 C Impalement Insurance|QID|38410|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
-$ Treasure Chest|QID|38486|M|39.58,65.18|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|
-$ Treasure Chest|QID|38489|M|44.16,59.97|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|
+$ Treasure Chest|QID|38486|M|39.47,65.17|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|
+$ Treasure Chest|QID|38489|M|44.16,69.98|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|; Emma!
 K Kill Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the others in the Mead Hall, then you can take on Thane. Kill and loot for some treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|38475|M|40.64,68.52|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|  ; Emma
 C Impalement Insurance|QID|38410|M|46.09,70.99|US|NC|N|Finish up destroying Harpoon Launchers.|
-C Built to Scale|QID|38616|M|45.05,66.45|US|N|Kill drakes and loot the 'Storm Drake Scales'.|
+C Built to Scale|QID|38337|M|45.05,66.45|US|N|Kill drakes and loot the 'Storm Drake Scales'.|
 T Impalement Insurance|QID|38410|M|46.25,70.37|N|To Commander Lorna Crowley.|
-T Built to Scale|QID|38337|M|46.25,70.36|QO|1|N|To Commander Lorna Crowley.|
+T Built to Scale|QID|38337|M|46.25,70.36|N|To Commander Lorna Crowley.|
+N Warning!|QID|38342|N|This guide has not been tested beyond this point. Use at your own risk.]|
 A Another Way|QID|38342|PRE|38410|M|46.25,70.37|N|From Commander Lorna Crowley.|
 C Another Way|QID|38342|M|46.24,72.39|QO|1|N|Kill Gunnlaug Scaleheart|
 C Another Way|QID|38342|M|45.70,73.12|QO|2|N|Climb the Tower|
@@ -184,7 +202,7 @@ C Above the Winter Moonlight|QID|38412|M|46.36,74.37|QO|1|N|Grapple to the Mount
 $ Small Treasure Chest|QID|38476|M|48.13,74.22|N|Beside the waterfall, loot for a bit of treasure and resources.|
 K Kill Stormwing Matriarch|QID|38423|M|49.6,71.6|T|Stormwing Matriarch|QO|1|ITEM|129110|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|
 U Stormwing Whelpling|QID|38423|M|49.6,71.6|U|129208|N|Click to add pet to your collection.|
-C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|US|N|Stay and finish if you want, or manually click it off.|
+C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Stay and finish if you want, or manually click it off.|
 t Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto turned in when complete.|
 $ Small Treasure Chest|QID|38485|M|49.24,76.99;49.76,77.99|CS|N|One grapple point off the trail, you will find a chest in this niche. Loot for treasure and resources, then back to traveling upwards on the trail.|
 K Kill Bladesquall|QID|38431|M|45.88,77.37|QO|1|ITEM|129048|T|Bladesquall|N|Grapple across the defunct bridge for this silver - Kill and loot for a bit of treasure and resources.|
