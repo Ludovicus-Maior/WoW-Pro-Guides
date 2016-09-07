@@ -521,8 +521,7 @@ function WoWPro:TargetNpcId()
     
     if unitType == "Player" then
         unitType, serverID, npcID = strsplit("-", UnitGUID("target"))
-        npcID = tonumber(npcID)
-        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcID);
+        WoWPro:dbp("Your target is a " .. unitType.. " ID %s",npcID);
         return npcID
     else
         npcID = tonumber(npcID)
