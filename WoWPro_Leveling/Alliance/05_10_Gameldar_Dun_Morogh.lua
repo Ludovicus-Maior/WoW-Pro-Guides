@@ -4,6 +4,22 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2016-09-06 23:19
+-- Who: Fluclo
+-- Log: Dun Morogh quests can't be done below level 5, so changed GuideLevel
+
+-- URL: http://wow-pro.com/node/3200/revisions/27705/view
+-- Date: 2016-09-06 23:11
+-- Who: Fluclo
+-- Log: As you are level 5 at the end of the guide, changed GuideLevels to finish at 5; What's Left Behind is not essential for zone progression so added Rank 2 to it; Changed coords for Dealing with the Fallout as the mobs there keep respawning when you kill them; Warlock can handle Finishin' the Job without the need to despawn the pet, so class steps removed. 
+
+-- URL: http://wow-pro.com/node/3200/revisions/27704/view
+-- Date: 2016-09-06 22:40
+-- Who: Fluclo
+-- Log: Added NC to See to the Survivors, Scrounging for Parts and A Job for the Multi-Bot. Changed New Tinkertown step from R to C since you must speak to Torben Zapblast for the quest. Added the pre-req quests for The Fight Continues, What's Left Behind, Dealing with the Fallout, Crushcog's Minions, No Tanks! and Staging in Brewnall. Added a C step for The Fight Continues. Added missing M coords for A Job for the Multi-Bot. Removed Level tags as you can continue without meeting these level requirements, whilst adding Level tag to the last quest (to handle skipping whilst still level 1) Clarified steps needed for Get Me Explosives Back! Tweaked notes on a few steps to clarify what's needed. Swapped order of sticky quests so non-combat ones are given priority. Changed Sell and Repair so that it only shows at right time, and auto-completes when next quest handed in.
+--	
+
+-- URL: http://wow-pro.com/node/3200/revisions/27693/view
 -- Date: 2016-09-06 01:46
 -- Who: Fluclo
 -- Log: Changing Level Range to be 1 to 4, as you are level 4 when completing Rank 1 guide
@@ -233,23 +249,8 @@
 -- Who: Fluclo
 -- Log: Add location note to Mathel's Flying Machine
 
--- URL: http://wow-pro.com/node/3200/revisions/24621/view
--- Date: 2011-06-28 20:05
--- Who: Fluclo
--- Log: Inverting Dealing with the Surge and Entombed in Ice turn-in
-
--- URL: http://wow-pro.com/node/3200/revisions/24620/view
--- Date: 2011-06-28 19:56
--- Who: Fluclo
--- Log: Hand in Trouble at the Lake before taking Entombed in Ice
-
--- URL: http://wow-pro.com/node/3200/revisions/24619/view
--- Date: 2011-06-28 19:54
--- Who: Fluclo
--- Log: Correcting the Sticky of Priceless Treasures
-
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
-WoWPro:GuideLevels(guide,2,10,5.74453)
+WoWPro:GuideLevels(guide,5,10,5.74453)
 WoWPro:GuideNextGuide(guide, 'WkjLoc1220')
 WoWPro:GuideIcon(guide,"ACH",627)
 WoWPro:GuideSteps(guide, function()

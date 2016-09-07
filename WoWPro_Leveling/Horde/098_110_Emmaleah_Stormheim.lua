@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-09-07 04:28
+-- Who: Emmaleah
+-- Log: Added QO|1 in C Above the Winter Moonlight|QID|38618|QO|1|M|46.36,74.37|NC|N|Click on the grapple point on the path.| - thanks Blanckaert
+
+-- URL: http://wow-pro.com/node/3680/revisions/27708/view
+-- Date: 2016-09-07 03:39
+-- Who: Emmaleah
+-- Log: fix typo in $38475-thanks  Blanckaert
+
+-- URL: http://wow-pro.com/node/3680/revisions/27698/view
 -- Date: 2016-09-06 05:03
 -- Who: Emmaleah
 -- Log: Changes per Ludovicus - Alliance guide notes
@@ -164,7 +174,7 @@ C Impalement Insurance|QID|38615|M|46.09,70.99|S|NC|N|Use your grapple launcher 
 $ Treasure Chest|QID|38486|M|39.58,65.18|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|
 $ Treasure Chest|QID|38489|M|44.16,69.97|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|
 K Kill Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the others in the Mead Hall, then you can take on Thane. Kill and loot for some treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64;68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|
 C Impalement Insurance|QID|38615|M|46.09,70.99|US|NC|N|Finish up destroying Harpoon Launchers.|
 C Built to Scale|QID|38616|M|45.80,70.85|US|N|Finish collecting the scales.|
 T Impalement Insurance|QID|38615|M|47.00,71.74|N|To Dread-Rider Cullen.|
@@ -175,7 +185,7 @@ C Another Way|QID|38617|M|45.75,73.05|QO|2|NC|N|Climb the Tower.|
 T Another Way|QID|38617|M|45.99,72.60|N|To Dread-Rider Cullen.|
 A Above the Winter Moonlight|QID|38618|M|45.99,72.60|N|From Dread-Rider Cullen.|
 
-C Above the Winter Moonlight|QID|38618|M|46.36,74.37|NC|N|Click on the grapple point on the path.|
+C Above the Winter Moonlight|QID|38618|QO|1|M|46.36,74.37|NC|N|Click on the grapple point on the path.|
 $ Small Treasure Chest|QID|38476|M|48.13,74.22|N|Beside the waterfall, loot for a bit of treasure and resources.|
 K Kill Stormwing Matriarch|QID|38423|M|49.6,71.6|T|Stormwing Matriarch|QO|1|ITEM|129110|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|
 U Stormwing Whelpling|QID|38423|M|49.6,71.6|U|129208|N|Click to add pet to your collection.|

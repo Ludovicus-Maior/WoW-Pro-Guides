@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_blacksmithing
+-- Date: 2016-09-07 14:39
+-- Who: Ludovicus
+-- Log: Use Hall of the Crescent Moon@Shrine of Two Moons
+
+-- URL: http://wow-pro.com/node/3409/revisions/27163/view
 -- Date: 2015-03-09 17:34
 -- Who: Ludovicus
 -- Log: The Imperial Exchange@Shrine of Seven Stars
@@ -99,7 +104,7 @@ N Ghost-Forged Shoulders|QID|901640058|P|Blacksmithing;164;540;550;|N|7;Ghost Ir
 N Spiritguard Shield|QID|901640059|P|Blacksmithing;164;550;559;|N|9;Ghost Iron Bar;18;232|
 N Ghost-Forged Breastplate|QID|901640060|P|Blacksmithing;164;559;575;|N|12;Ghost Iron Bar;144;214|
 B Plans: Contender's Revenant Breastplace|QID|901640061|P|Blacksmithing;164;575;576;|N|From Cullen Hammerbrow in Shrine of Seven Stars.|M|72.2,49.4|FACTION|Alliance|Z|The Imperial Exchange@Shrine of Seven Stars|
-B Plans: Contender's Revenant Breastplace|QID|901640062|P|Blacksmithing;164;575;576;|N|From Jorunga Stonehoof in Shrine of Two Moons.|M|26.6,46.2|FACTION|Horde|Z|Shrine of Two Moons|
+B Plans: Contender's Revenant Breastplace|QID|901640062|P|Blacksmithing;164;575;576;|N|From Jorunga Stonehoof in Shrine of Two Moons.|M|26.6,46.2|FACTION|Horde|Z|Hall of the Crescent Moon@Shrine of Two Moons|
 N Contender's Revenant Breastplate|QID|901640063|P|Blacksmithing;164;575;600;|N|12;Ghost Iron Bar;60;60|
 
 N That completes Blacksmithing.

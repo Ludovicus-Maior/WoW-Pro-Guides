@@ -4,9 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
--- Date: 2016-09-04 13:26
+-- Date: 2016-09-07 04:17
 -- Who: Emmaleah
--- Log: Finish putting all Rares and Treasures, Moved all rares and treasures out of Rank 1 (all in 2 or 3). Played thru on Rank 3 and Rank 1. (Even found two new treasures!) Converted Treasure to using $ (instead of A) Added Inscription and Tailoring quests.
+-- Log: -Fix T Containing the Demon Within|QID|39938|M|54.00m15.31|N|To Baric Stormrunner.|P|Inscription|LVL|102|
+--	-fixed format of |P| tags to include the ;### 
 
 -- URL: http://wow-pro.com/node/3657/revisions/27647/view
 -- Date: 2016-09-01 06:19
@@ -40,24 +41,24 @@ T Down to Azsuna|QID|41220|M|45.11,42.92|N|To Archmage Khadgar.|
 A Into the Fray|QID|38834|M|45.11,42.92|N|From Archmage Khadgar.|
 f Illidari Stand|QID|41220|M|44.59,43.85|N|At Izal Whitemoon.|
 T Into the Fray|QID|38834|M|43.55,43.45|N|To Kayn Sunfury.|
-T Our New Allies|QID|39934|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription|LVL|102|
-A The Price of Power|QID|39935|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription|LVL|102|PRE|39934|
+T Our New Allies|QID|39934|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|LVL|102|
+A The Price of Power|QID|39935|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39934|
 A Demon Souls|QID|37653|M|43.29,43.16|N|From Allari the Souleater.|
 
 A Reignite the Wards|QID|37658|M|43.15,43.60|N|From Jace Darkweaver.|
 K Kill Ravyn-Drath|QID|37537|QO|1|M|41.14,41.89|T|Ravyn-Drath|ITEM|129080|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Demon Souls|QID|37653|U|122100|QO|1|M|41.58,44.85|S|N|Kill demons as you go and use the gem to trap their souls.|
-C The Price of Power|QID|39935|M|41.58,44.85|S|N|And kill more demons to learn the glyph.|P|Inscription|
+C The Price of Power|QID|39935|M|41.58,44.85|S|N|And kill more demons to learn the glyph.|P|Inscription;773|
 C Reignite the Wards|QID|37658|QO|3|M|42.20,43.32|NC|N|Click the North Ward to reignite.|
 C Reignite the Wards|QID|37658|QO|2|M|41.86,44.89|NC|N|Click the West Ward to reignite.|
 C Reignite the Wards|QID|37658|QO|1|M|42.24,46.42|NC|N|Click the South Ward to reignite.|
-C The Price of Power|QID|39935|M|41.58,44.85|US|N|And kill more demons to learn the glyph.|P|Inscription|
+C The Price of Power|QID|39935|M|41.58,44.85|US|N|And kill more demons to learn the glyph.|P|Inscription;773|
 C Demon Souls|QID|37653|U|122100|QO|1|M|42.24,46.42|N|Finish up killing demons and use the gem to trap their souls.|US|
 T Reignite the Wards|QID|37658|M|43.14,43.60|N|To Jace Darkweaver.|
-T The Price of Power|QID|39935|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription|
+T The Price of Power|QID|39935|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|
 T Demon Souls|QID|37653|M|43.28,43.16|N|To Allari the Souleater.|LVL|102|
-A Scribal Knowledge|QID|39939|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription|LVL|102|PRE|39935|
-A Inscription of the Body|QID|39936|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription|LVL|102|PRE|39935|
+A Scribal Knowledge|QID|39939|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39935|
+A Inscription of the Body|QID|39936|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39935|
 A The Scythe of Souls|QID|37660|M|43.28,43.16|N|From Allari the Souleater.|
 C The Scythe of Souls|QID|37660|QO|1|M|44.38,44.63|N|Chat with Allari|CHAT|
 C The Scythe of Souls|QID|37660|QO|2|M|44.56,44.73|N|Click on the crystal to release the demon soul.|NC|
@@ -167,10 +168,10 @@ C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|N|Click on t
 T Runas Knows the Way|QID|37857|M|53.38,16.21|N|To Projection of Senegos.|
 A Leyline Abuse|QID|37960|M|53.38,16.21|N|From Projection of Senegos.|
 A The Hunger Returns|QID|37959|M|53.78,16.82|N|From Runas the Shamed.|
-T Inscription of the Body|QID|39936|M|54.00,15.28|N|To Baric Stormrunner.|P|Inscription|LVL|102|
-A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscription|LVL|102|PRE|39936|
+T Inscription of the Body|QID|39936|M|54.00,15.28|N|To Baric Stormrunner.|P|Inscription;773|LVL|102|
+A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscription;773|LVL|102|PRE|39936|
 $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and resources.|RANK|2|
-C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription|LVL|102|
+C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773|LVL|102|
 C The Hunger Returns|QID|37959|M|55.62,17.50|S|N|Kill and loot the nightfallen for their charged mana jewels.|
 
 C Leyline Abuse|QID|37960|QO|2|M|56.68,17.60|T|Ishkaneth|
@@ -190,15 +191,15 @@ $ Treasure chest|QID|37958|M|57.89,12.23|N|Treasure chest containing items and r
 $ Unbound Rift|QID|37932|M|59.74,12.29|QO|1|N|Silver - This vignette is located down in the cravasse. Kill and loot for a bit of resources and treasure.|RANK|2|
 $ Treasure Chest|QID|37980|M|58.28,16.07;58.38,15.24;58.69,14.14|CS|N|Take the stairs here, follow the path up, then take the ley portal to find a treasure chest. Loot for treaure and resources.|RANK|2|
 $ Treasure Chest|QID|37832|M|63.23,15.21|N|WAY out of the way, but this is as close as you get to it. Loot for a bit of treasure and resources.|RANK|3|
-C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|US|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription|LVL|102|
-C Opposites Repel|QID|39937|QO|2|M|54.00,15.31|N|Combine the ley dust into a pigment.|U|129105|P|Inscription|LVL|102|
-T Opposites Repel|QID|39937|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription|LVL|102|
-A Containing the Demon Within|QID|39938|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription|LVL|102|PRE|39937|
-C Containing the Demon Within|QID|39938|QO|1|M|54.00,15.31|CHAT|N|Tell Baric Stormrunner you are ready.|P|Inscription|LVL|102|
-C Containing the Demon Within|QID|39938|QO|2|M|53.92,15.28|NC|N|Click on the essence pool.|P|Inscription|LVL|102|
-C Containing the Demon Within|QID|39938|QO|3|M|53.85,15.12|NC|N|Click on the essence pool.|P|Inscription|LVL|102|
-C Containing the Demon Within|QID|39938|QO|4|M|53.76,15.34|NC|N|Click on the essence pool.|P|Inscription|LVL|102|
-T Containing the Demon Within|QID|39938|M|54.00m15.31|N|To Baric Stormrunner.|P|Inscription|LVL|102|
+C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|US|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773|LVL|102|
+C Opposites Repel|QID|39937|QO|2|M|54.00,15.31|N|Combine the ley dust into a pigment.|U|129105|P|Inscription;773|LVL|102|
+T Opposites Repel|QID|39937|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773|LVL|102|
+A Containing the Demon Within|QID|39938|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773|LVL|102|PRE|39937|
+C Containing the Demon Within|QID|39938|QO|1|M|54.00,15.31|CHAT|N|Tell Baric Stormrunner you are ready.|P|Inscription;773|LVL|102|
+C Containing the Demon Within|QID|39938|QO|2|M|53.92,15.28|NC|N|Click on the essence pool.|P|Inscription;773|LVL|102|
+C Containing the Demon Within|QID|39938|QO|3|M|53.85,15.12|NC|N|Click on the essence pool.|P|Inscription;773|LVL|102|
+C Containing the Demon Within|QID|39938|QO|4|M|53.76,15.34|NC|N|Click on the essence pool.|P|Inscription;773|LVL|102|
+T Containing the Demon Within|QID|39938|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773|LVL|102|
 C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|US|N|Finish up the objective or click it off manually.|RANK|2|
 t Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|N|Auto turned in when complete.|RANK|2|
 C The Nightborne Prince|QID|37861|QO|1|M|56.12,13.3; 57.58,12.44|N|Stairway up to Ael'Yith starts here.|CS|T|Ael'Yith|
@@ -367,9 +368,9 @@ C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|US|N|Finish this up or 
 t Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|N|Auto turned in when complete.|RANK|2|
 
 R Felblaze Ingress|QID|42372|M|63.86,28.92|N|Ride to the Felblaxe Ingress.|RANK|3|
-T Scribal Knowledge|QID|39939|M|65.07,25.94|N|To Zarla Shadowheart.|P|Inscription|LVL|102|
-A Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription|LVL|102|PRE|39939|
-A Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription|LVL|102|PRE|39939|
+T Scribal Knowledge|QID|39939|M|65.07,25.94|N|To Zarla Shadowheart.|P|Inscription;773|LVL|102|
+A Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|PRE|39939|
+A Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|PRE|39939|
 T Felblaze Ingress|QID|42372|M|63.86,28.92|N|To Tehd Shoemaker.|RANK|3|
 A Eye See You|QID|42375|M|63.86,28.92|N|From Tehd Shoemaker.|RANK|3|
 C Eye See You|QID|42375|QO|1|M|63.86,28.92;67.07,27.77|CS|NC|N|Click on the Eye of Kilrog and then use it to explore the requested areas. Avoid the NPC's with the eye symbol because they see invis for the radius shown by the light blue circle around them.|RANK|3|
@@ -382,29 +383,29 @@ A Arkethrax|QID|42367|M|63.88,28.88|N|From Marius Felbane.|RANK|3|
 f Felblaze Ingress|QID|42372|M|63.82,28.48|N|At Adept Sunwing.|RANK|3|
 C Quantity Over Quality|QID|42368|M|67.83,26.99|N|Kill demons as you go along.|S|RANK|3|
 $ Small Treasure Chest|QID|42958|M|65.47,29.56|N|Loot for a bit of treasure and resources.|RANK|3|
-C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|The runes are here on the ground on each side of the portal.|P|Inscription|LVL|102|
+C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|The runes are here on the ground on each side of the portal.|P|Inscription;773|LVL|102|
 C They're Doing it Wrong|QID|42369|NC|M|67.85,28.07|N|Two stabilizers need sabatoged on each side of the portal.|RANK|3|
-C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|Finish examining the runes.|P|Inscription|LVL|102|
-C Control is Key|QID|39941|M|68.46,26.17|T|Overseer Felorax|NC|N|Click on the fel totem to summon Overseer Felorax.|P|Inscription|LVL|102|
+C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|Finish examining the runes.|P|Inscription;773|LVL|102|
+C Control is Key|QID|39941|M|68.46,26.17|T|Overseer Felorax|NC|N|Click on the fel totem to summon Overseer Felorax.|P|Inscription;773|LVL|102|
 $ Small Treasure Chest|QID|44103|M|69.16,25.93;69.77,29.57;68.87,29.73|CS|N|In an underwater cave. Loot for a bit of treasure and resources.|RANK|3|
 C Arkethrax|QID|42367|QO|1|M|67.32,30.70|N|Kill Arkethrax|T|Arkethrax|RANK|3|
 C Quantity Over Quality|QID|42368|QO|1|M|67.83,26.99|N|Finish up any demons still needed.|US|RANK|3|
 T Quantity Over Quality|QID|42368|M|63.88,28.88|N|To Marius Felbane.|RANK|3|
 T Arkethrax|QID|42367|M|63.88,28.88|N|To Marius Felbane.|RANK|3|
 T They're Doing it Wrong|QID|42369|M|63.86,28.94|N|To Tehd Shoemaker.|RANK|3|
-T Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription|LVL|102|
-T Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription|LVL|102|
-A The Burdens of Hunting|QID|39943||M|65.07,25.96|N|From Zarla Shadowheart.||P|Inscription|LVL|102|PRE|39941;39940||
+T Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|
+T Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|
+A The Burdens of Hunting|QID|39943||M|65.07,25.96|N|From Zarla Shadowheart.||P|Inscription;773|LVL|102|PRE|39941;39940||
 
 R The Empyrean Society Enclave|QID|38419|M|63.54,33.2|N|Take the road to the left if you want to get through without fighting. Continue on ths road towards Olivian Veil.|RANK|3|
 R The Greenway|QID|38419|M|62.56,34.56|N|Side jaunt for a Silver and 3 chests.|RANK|3|
-T Consult the Locals|QID|38946|M|60.00,34.48|N|To Lyndras.|P|Tailoring|LVL|102|
-A Runic Catgut|QID|38947|M|60.00,34.48|N|From Lyndras.|P|Tailoring|LVL|102|PRE|38946|
-A Hard Times|QID|39948|M|60.00,34.48|N|From Lyndras.|P|Tailoring|LVL|102|PRE|38946|
+T Consult the Locals|QID|38946|M|60.00,34.48|N|To Lyndras.|P|Tailoring;197|LVL|102|
+A Runic Catgut|QID|38947|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197|LVL|102|PRE|38946|
+A Hard Times|QID|39948|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197|LVL|102|PRE|38946|
 $ Treasure Chest|QID|38419|M|57.15,31.06|N|Loot for a bit of treasure and resources.|RANK|3|
-C Runic Catgut|QID|38947|M|S|N|Kill cats until you collect the catgut needed.|P|Tailoring|LVL|102|
+C Runic Catgut|QID|38947|M|57,31|S|N|Kill cats until you collect the catgut needed.|P|Tailoring;197|LVL|102|
 K Kill Pridelord Meowl|QID|38061|QO|1|M|56.05,28.91|T|Pridelord Meowl|ITEM|138395|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|3|
-C Runic Catgut|QID|38947|M|US|N|Kill cats until you collect the catgut needed.|P|Tailoring|LVL|102|
+C Runic Catgut|QID|38947|M|57,31|US|N|Kill cats until you collect the catgut needed.|P|Tailoring;197|LVL|102|
 $ Small Treasure Chest|QID|42288|M|55.36,27.74|N|Loot for a bit of treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|42338|M|55.70,25.48;57.19,25.23|CS|N|Loot for a bit of treasure and resources.|RANK|3|
 R Olivian Veil|QID|40751|M|60.98,34.67;65.84,37.26;66.06,43.44|CS|N|Back to questing.|RANK|3|

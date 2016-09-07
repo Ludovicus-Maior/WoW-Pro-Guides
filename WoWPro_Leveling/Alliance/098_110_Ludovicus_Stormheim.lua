@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-09-07 01:49
+-- Who: Ludovicus
+-- Log: Play through to [Plight of the Blackfeather]
+
+-- URL: http://wow-pro.com/node/3683/revisions/27701/view
 -- Date: 2016-09-06 20:40
 -- Who: Ludovicus
 -- Log: Add a warning!
@@ -192,7 +197,6 @@ C Impalement Insurance|QID|38410|M|46.09,70.99|US|NC|N|Finish up destroying Harp
 C Built to Scale|QID|38337|M|45.05,66.45|US|N|Kill drakes and loot the 'Storm Drake Scales'.|
 T Impalement Insurance|QID|38410|M|46.25,70.37|N|To Commander Lorna Crowley.|
 T Built to Scale|QID|38337|M|46.25,70.36|N|To Commander Lorna Crowley.|
-N Warning!|QID|38342|N|This guide has not been tested beyond this point. Use at your own risk.]|
 A Another Way|QID|38342|PRE|38410|M|46.25,70.37|N|From Commander Lorna Crowley.|
 C Another Way|QID|38342|M|46.24,72.39|QO|1|N|Kill Gunnlaug Scaleheart|
 C Another Way|QID|38342|M|45.70,73.12|QO|2|N|Climb the Tower|
@@ -207,7 +211,7 @@ t Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto turned in
 $ Small Treasure Chest|QID|38485|M|49.24,76.99;49.76,77.99|CS|N|One grapple point off the trail, you will find a chest in this niche. Loot for treasure and resources, then back to traveling upwards on the trail.|
 K Kill Bladesquall|QID|38431|M|45.88,77.37|QO|1|ITEM|129048|T|Bladesquall|N|Grapple across the defunct bridge for this silver - Kill and loot for a bit of treasure and resources.|
 C Above the Winter Moonlight|QID|38412|M|44.26,77.56|QO|2|N|Reach the Top of the Path|
-T Above the Winter Moonlight|QID|38412|M|44.82,77.41|QO|4|N|To Vethir.|
+T Above the Winter Moonlight|QID|38412|M|44.82,77.41|N|To Vethir.|
 A Heart of a Dragon|QID|38414|M|44.79,77.40|N|From Vethir.|
 A Wings of Liberty|QID|38413|M|44.79,77.40|N|From Vethir.|
 A Fury of the Storm|QID|40568|M|44.79,77.40|N|From Vethir.|
@@ -221,7 +225,7 @@ C Wings of Liberty|QID|38413|M|44.12,80.67|QO|3|NC|N|Free Erilar.|
 $ Small Treasure Chest|QID|43239|M|44.30,79.88;43.70,80.09|CS|N|On the top of the spire, hook you way up and loot for treasure and resources.|
 C Heart of a Dragon|QID|38414|M|42.31,81.89|Z|1217/25|QO|1|N|Find the Thorignir Mother.|
 C Heart of a Dragon|QID|38414|M|41.75,81.46|Z|1217/25|QO|2|T|Azariah|N|Kill Azariah.|
-C Fury of the Storm|QID|40568|M|44.07,82.69|US|N|finish killing the vrykul.|
+C Fury of the Storm|QID|40568|M|44.07,82.69|US|N|Finish killing the vrykul.|
 T Heart of a Dragon|QID|38414|M|42.75,82.73|N|To Vethir.|
 T Wings of Liberty|QID|38413|M|42.81,82.69|N|To Vethir.|
 T Fury of the Storm|QID|40568|M|42.75,82.73|N|To Vethir.|
@@ -242,14 +246,14 @@ $ Glimmering Treasure Chest|QID|38763|M|49.70,49.20;49.69,47.28|CS|N|Dodge the e
 A Eating Into Our Business|QID|39789|M|51.46,56.95|N|From Ootasa Galehoof.|RANK|2|
 C Eating Into Our Business|QID|39789|M|48.54,56.93|S|N|Kill Duskpelt worg.|RANK|2|
 $ Small Treasure Chest|QID|43207|M|49.07,60.00|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Houndmaster Ely|QID|38712|M|47.10,57.20|QO|1|ITEM|129037|T|Houndmaster Ely|N|Silver - Kill and loot for a bit of loot and Treasure.|RANK|2|
+; K Kill Houndmaster Ely|QID|38712|M|47.10,57.20|QO|1|ITEM|129037|T|Houndmaster Ely|N|Silver - Kill and loot for a bit of loot and Treasure.|RANK|2| ; Emma Horde only
 C Eating Into Our Business|QID|39789|M|48.54,56.93|US|N|Finish killing Duskpelt worg.|RANK|2|
 T Eating Into Our Business|QID|39789|M|51.46,57.06|N|To Rax Sixtrigger.|RANK|2|
 A Only the Finest|QID|39793|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|2|
 A Rigging the Wager|QID|39787|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
 R Nastrondir|QID|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the sword and into Nastrondir.|RANK|2|
 A The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|
-C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|S|N|Kill the drakes and pick up eggs to advance the objective.|RANK|2|
+C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Kill the drakes and pick up eggs to advance the objective. Click off manually.|RANK|2| ; Emma
 C Only the Finest|QID|39793|M|44.14,37.51|S|N|Kill goats to collect the patches of goat hair.|RANK|2|
 $ Small Treasure Chest|QID|43238|M|43.14,39.01;43.17,40.49|CS|N|Hook out to find chest, loot for treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|43240|M|44.06,37.88;44.99,38.24|CS|N|Use grapple points to get to this treasure. Loot for a bit of treasure and resources.|RANK|2|
@@ -258,8 +262,9 @@ $ Glimmering Treasure Chest|QID|43189|M|42.12,35.72;42.46,34.08|CS|ITEM|141896|N
 K Kill Egyl the Enduring|QID|40068|M|41.77,34.11|QO|1|ITEM|132898|N|There is a cave under the statue. Go inside to find Egyl. Kill and loot for a bit of treasure and resources.|RANK|2|
 C Only the Finest|QID|39793|M|44.14,37.51|US|N|Finish collecting the patches of goat hair.|RANK|2|
 C Rigging the Wager|QID|39787|M|48.87,34.07;48.24,32.81|CS|QO|1|N|There is a grapple point to his nest above. Fight with your back to the wall, so you dont get thrown off. Kill and loot his beak.|RANK|2|
-C The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|US|N|Finish or click off manually.|RANK|2|
+C The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|N|Finish or click off manually.|RANK|2| ; Emma
 t The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|N|Auto turned in upon completion.|RANK|2|
+N Warning!|QID|42444|N|This guide has not been tested beyond this point. Use at your own risk.|
 A Plight of the Blackfeather|QID|42444|M|50.32,34.00|N|From Frightened Ravenbear.|RANK|2|
 T Plight of the Blackfeather|QID|42444|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
 A Singed Feathers|QID|42446|M|49.79,32.63|N|From Cukkaw.|RANK|2|
@@ -272,7 +277,7 @@ C Singed Feathers|QID|42446|M|49.68,29.95|QO|US|N|Finish killing Rampaging Squal
 T Singed Feathers|QID|42446|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
 T Nithogg's Tribute|QID|42445|M|49.79,32.64|N|To Cukkaw.|RANK|2|
 A Dances With Ravenbears|QID|42447|M|49.79,32.64|N|From Cukkaw.|RANK|2|
-C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (multiple times if needed). Mimic thier motions 1-raise arms, 2-spin, 3-flap wings, |RANK|2|
+C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (multiple times if needed). Mimic their motions 1-raise arms, 2-spin, 3-flap wings, |RANK|2|
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|QID|42447|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
 F Cullen's Post|QID|39787|M|51.98,34.81|N|Fly back to Cullen's Post at Hillevi the Scalekeepter.|RANK|2|
@@ -632,6 +637,11 @@ K Kill Roteye|QID|43342|QO|1|M|57.73,34.77;58.37,33.96|CS|ITEM|139387|T|Roteye|N
 K Kill Kottr Vondyr|QID|40109|M|73.46,47.68|QO|1|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 K Kill Grrvrgull the Conquerer|QID|40113|M|78.65,61.17|QO|1|ITEM|138421|T|Grrvrgull the Conquerer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 
+K Kill Apothecary Perez|M|44.2,22.8|ITEM|129266|
+K Kill Assassin Huwe|M|44.2,22.8|ITEM|129266|
+K Kill Dark Ranger Jess|M|44.2,22.8|ITEM|129266|
+K Kill Deathguard Adams|M|44.2,22.8|ITEM|129266|
+K Kill Deathguard Adams|M|77,62|ITEM|130134|
 ]]
 
 end)

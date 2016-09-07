@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2016-09-07 05:11
+-- Who: Emmaleah
+-- Log: corrected Z tag Vault of the Titans to Stonecrag Gorge
+
+-- URL: http://wow-pro.com/node/3605/revisions/27485/view
 -- Date: 2016-07-30 18:49
 -- Who: Ludovicus
 -- Log: Added @NagrandDraenor to a few Z tags
@@ -210,7 +215,7 @@ T Good Help is Hard to Find|QID|34811|M|71.12,52.43|N|To Trixi Leroux.|RANK|2|
 A A Lesson in Teamwork|QID|35663|M|71.13,52.35|N|From Gazmolf Futzwangler.|RANK|2|
 A A Lesson in Archaeology|QID|35632|M|71.13,52.35|N|From Gazmolf Futzwangler.|RANK|2|
 C A Lesson in Teamwork|QID|35663|M|66.91,50.19|QO|1|S|N|These drop off of the ogres and exist as groundspawn.|RANK|2|
-C A Lesson in Archaeology|QID|35632|U|113217|M|12.21,49.66;69.33,40.19|CS|NC|N|Inside the cave is a disk in the middle of a fireball, The goblins do all the work, all you have to do is place the teleportation device near the fireball so they can.|Z|Vault of the Titan@NagrandDraenor|RANK|2|
+C A Lesson in Archaeology|QID|35632|U|113217|M|12.21,49.66;69.33,40.19|CS|NC|N|Inside the cave is a disk in the middle of a fireball, The goblins do all the work, all you have to do is place the teleportation device near the fireball so they can.|Z|Stonecrag Gorge@NagrandDraenor|RANK|2|
 C A Lesson in Teamwork|QID|35663|M|66.91,50.19|QO|1|US|N|These drop off of the ogres and exist as groundspawn.|RANK|2|
 T A Lesson in Teamwork|QID|35663|M|71.13,52.35|N|To Gazmolf Futzwangler.|RANK|2|
 T A Lesson in Archaeology|QID|35632|M|71.13,52.35|N|To Gazmolf Futzwangler.|RANK|2|

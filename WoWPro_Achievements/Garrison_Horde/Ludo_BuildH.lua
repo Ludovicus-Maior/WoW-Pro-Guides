@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_buildings_horde
+-- Date: 2016-09-07 14:27
+-- Who: Ludovicus
+-- Log: Use Bladespire Citadel@FrostfireRidge
+
+-- URL: http://wow-pro.com/node/3632/revisions/27500/view
 -- Date: 2016-07-30 21:03
 -- Who: Ludovicus
 -- Log: Added @FrostfireRidge
@@ -34,7 +39,7 @@ T The Butcher of Bladespire|QID|33410|M|70.71,78.56|N|To Thrall.|Z|Bladespire Co
 A The Mysterious Flask|QID|35058|M|0,0|P|Alchemy;171|O|U|112566|N|From a Mysterious Flask which should have just dropped from Dorogg.|
 A The Fractured Hammer|QID|36205|M|0,0|P|Blacksmithing;164|O|U|114965|N|From a Fractured Forge Hammer which should have just dropped from Dorogg.|
 A Enchanted Highmaul Bracer|QID|36255|M|0,0|P|Enchanting;333|O|U|115008|N|From an Enchanted Highmaul Bracer which should have just dropped from Dorogg.|
-A Heavy Arms|QID|36589|M|0,0|Z|Bladespire Citadel|P|Engineering;202|O|U|116438|N|From a Burned out Hand Cannon which should have just dropped from Dorogg.|
+A Heavy Arms|QID|36589|M|0,0|Z|Bladespire Citadel@FrostfireRidge|P|Engineering;202|O|U|116438|N|From a Burned out Hand Cannon which should have just dropped from Dorogg.|
 A Unintelligible Intelligence|QID|36435|M|0,0|P|Inscription;773|O|U|115593|N|From Illegible Sootstained Notes which should have just dropped from Dorogg.|
 A The Intricate Pendant|QID|36314|M|0,0|P|Jewelcrafting;755|O|U|115287|N|From an Intricate Crimson Pendant which should have just dropped from Dorogg.|
 A A Warrior's Shroud|QID|36505|M|0,0|P|Leatherworking;165|O|U|116173|N|From a Tattered Frostwolf Shroud which should have just dropped from Dorogg.|

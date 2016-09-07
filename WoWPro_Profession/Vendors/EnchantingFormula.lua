@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/enchanting_formulas
+-- Date: 2016-09-07 14:37
+-- Who: Ludovicus
+-- Log: USe Old Hillsbrad@CoTHillsbradFoothills
+
+-- URL: http://wow-pro.com/node/3568/revisions/27164/view
 -- Date: 2015-03-09 17:36
 -- Who: Ludovicus
 -- Log: CoTHillsbradFoothills
@@ -243,7 +248,7 @@ B Magic Lamp|QID|990093843|RECIPE|93843|M|78.70,77.00|Z|Twilight Highlands|FACTI
 B Magic Lamp|QID|990093843|RECIPE|93843|M|56.40,32.20|Z|Darnassus|FACTION|Alliance|P|Enchanting;333;525|N|Sold by Vaean in Darnassus.\nBind on Pickup.|
 B Magic Lamp|QID|990093843|RECIPE|93843|M|39.90,40.20|Z|Thunder Bluff|FACTION|Alliance|P|Enchanting;333;525|N|Sold by Egomis in Thunder Bluff.\nBind on Pickup.|
 B Magic Lamp|QID|990093843|RECIPE|93843|M|53.00,74.20|Z|Stormwind City|FACTION|Alliance|P|Enchanting;333;525|N|Sold by Jessara Cordell in Stormwind City.\nBind on Pickup.|
-B Enchant Shield - Intellect|QID|990027945|RECIPE|27945|M|0.00,0.00|Z|CoTHillsbradFoothills|P|Enchanting;333;325|N|Sold by Aged Dalaran Wizard in Old Hillsbrad Foothills.|
+B Enchant Shield - Intellect|QID|990027945|RECIPE|27945|M|0.00,0.00|Z|Old Hillsbrad@CoTHillsbradFoothills|P|Enchanting;333;325|N|Sold by Aged Dalaran Wizard in Old Hillsbrad Foothills.|
 B Enchant Gloves - Armsman|QID|990044625|RECIPE|44625|M|38.70,40.80|Z|Dalaran|P|Enchanting;333;435|N|Sold by Vanessa Sellers in Dalaran.\nBind on Pickup.|
 B Enchant Cloak - Shadow Armor|QID|990044631|RECIPE|44631|M|38.70,40.80|Z|Dalaran|P|Enchanting;333;440|N|Sold by Vanessa Sellers in Dalaran.\nBind on Pickup.|
 B Enchant Cloak - Superior Defense|QID|990020015|RECIPE|20015|M|48.30,40.10|Z|Moonglade|P|Enchanting;333;285|N|Limited quantity sold by Lorelae Wintersong in Moonglade.|

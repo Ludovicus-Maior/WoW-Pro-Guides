@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2016-09-07 03:43
+-- Who: Emmaleah
+-- Log: delete dup |QO|2 - C Into The Heavens|QID|40570|QO|2|
+
+-- URL: http://wow-pro.com/node/3672/revisions/27679/view
 -- Date: 2016-09-02 20:58
 -- Who: Emmaleah
 -- Log: Tweeks to zone names - can not get arrow to show in kun-lai. Interestingly, the blizzard minimap arrow doesn't show there either. - went thru the WW monk artifact on live, minor changes. Added J to Alliance/Horde Stormheim
@@ -196,7 +201,7 @@ C Defeat the minions of Typhinius|QID|40570|QO|2|M|32.09,66.64|Z|1049/1|N|Defeat
 C Leap upon Zaurac|QID|40570|QO|2|M|31.09,66.64|Z|1049/1|N|Leap upon Zaurac|SO|5;1|
 C Defeat Typhinius|QID|40570|QO|2|M|35.65,82.55|Z|1049/1|N|Defeat Typhinius|SO|6;1|T|Typhinius|
 C Take the Fists of the Heavens|QID|40570|QO|2|M|35.75,82.91|Z|1049/1|N|Take the Fists of the Heavens|SO|7;1|NC|
-C Into The Heavens|QID|40570|QO|2|M|35.75,82.91|Z|1049/1|N|Pick up the weapon.|QO|2|
+C Into The Heavens|QID|40570|QO|2|M|35.75,82.91|Z|1049/1|N|Pick up the weapon.|
 T Into The Heavens|QID|40570|M|50.54,58.61|N|To Li Li Stormstout.|
 R Temple of Five Dawns|QID|40698|M|51.41,48.37|N|Run up the hill to the Temple.|CC|
 

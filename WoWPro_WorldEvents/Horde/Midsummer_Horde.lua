@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2016-09-07 14:34
+-- Who: Ludovicus
+-- Log: Use  The Slave Pens@TheSlavePens
+
+-- URL: http://wow-pro.com/node/3407/revisions/27710/view
+-- Date: 2016-09-07 03:57
+-- Who: Emmaleah
+-- Log: added guide name registration, changed the registered zone to Orgrimmar and deleted all instances of '|Z|Orgrimmar'.  
+
+-- URL: http://wow-pro.com/node/3407/revisions/26847/view
 -- Date: 2014-11-07 20:33
 -- Who: Emmaleah
 -- Log: deleted duplicate tags per Ludo's list o' errors 
@@ -55,7 +65,8 @@
 -- Date: 2011-06-30 05:43
 -- Who: Crackerhead22
 
-local guide = WoWPro:RegisterGuide("EmmMidAch",'WorldEvents',"Midsummer Fire Festival", "Emmaleah", "Horde")
+local guide = WoWPro:RegisterGuide('EmmMidAch','WorldEvents','Orgrimmar', 'Emmaleah', 'Horde')
+WoWPro:GuideName(guide, 'Midsummer Fire Festival')
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer")
 WoWPro:GuideSteps(guide, function()
@@ -70,27 +81,27 @@ N Before you start...|QID|9339|N|Make sure you have your hearth set to Orgrimmar
 N Ranks|QID|9339|N|Rank 2 will leave out the Alliance City Fires, setting to Rank 1 will only do the intro quests and Pandaria.|
 
 R Orgrimmar|QID|9339|N|Head to Orgrimmar if you are not there already. The dailies and other intro quests are also available in Thunder Bluff, Silvermoon and Undercity.|
-A The Spinner of Summer Tales|QID|11971|N|From a Commoner.|M|51.58,25.38|Z|Orgrimmar|
-T The Spinner of Summer Tales|QID|11971|M|47.73,38.20|Z|Orgrimmar|N|To the Festival Talespinner.|
-A Incense for the Festival Scorchlings|QID|11966|M|47.73,38.20|Z|Orgrimmar|N|From the Festival Talespinner.|
-A Unusual Activity|QID|11886|M|47.26,37.90|Z|Orgrimmar|N|From the Earthern Ring Elder.|
-A Torch Tossing|QID|11922|M|46.60,37.27|Z|Orgrimmar|N|From the Master Flame Eater.|RANK|2|
-C Torch Tossing|QID|11922|M|46.18,37.21|Z|Orgrimmar|U|34862|N|Hotkey the torch and use it while standing next to the blue bonfire. Nearby there are a set of burning pedestals with a hunter's mark jumping between them. Throw torches at the pedestal that has the mark on it until you complete the quest.|
-T Torch Tossing|QID|11922|M|46.60,37.27|Z|Orgrimmar|N|To the Master Flame Eater.|
-A Torch Catching|QID|11923|M|46.60,37.27|Z|Orgrimmar|N|From the Master Flame Eater.|RANK|2|
-C Torch Catching|QID|11923|M|46.18,37.21|Z|Orgrimmar|U|34833|N|Use the unlit torch next to the fire and follow it's shadow. Stay under the shadow and you will automatically catch and throw the torch. Keep it up until you've done it 4 times in a row - this can be frustrating if there are lots of people around, but keep trying! If you have a lot of trouble, wait and do it in Thunder Bluff when we go there.|
-T Torch Catching|QID|11923|M|46.60,37.27|Z|Orgrimmar|N|To the Master Flame Eater.|
+A The Spinner of Summer Tales|QID|11971|N|From a Commoner.|M|51.58,25.38|
+T The Spinner of Summer Tales|QID|11971|M|47.73,38.20|N|To the Festival Talespinner.|
+A Incense for the Festival Scorchlings|QID|11966|M|47.73,38.20|N|From the Festival Talespinner.|
+A Unusual Activity|QID|11886|M|47.26,37.90|N|From the Earthern Ring Elder.|
+A Torch Tossing|QID|11922|M|46.60,37.27|N|From the Master Flame Eater.|RANK|2|
+C Torch Tossing|QID|11922|M|46.18,37.21|U|34862|N|Hotkey the torch and use it while standing next to the blue bonfire. Nearby there are a set of burning pedestals with a hunter's mark jumping between them. Throw torches at the pedestal that has the mark on it until you complete the quest.|
+T Torch Tossing|QID|11922|M|46.60,37.27|N|To the Master Flame Eater.|
+A Torch Catching|QID|11923|M|46.60,37.27|N|From the Master Flame Eater.|RANK|2|
+C Torch Catching|QID|11923|M|46.18,37.21|U|34833|N|Use the unlit torch next to the fire and follow it's shadow. Stay under the shadow and you will automatically catch and throw the torch. Keep it up until you've done it 4 times in a row - this can be frustrating if there are lots of people around, but keep trying! If you have a lot of trouble, wait and do it in Thunder Bluff when we go there.|
+T Torch Catching|QID|11923|M|46.60,37.27|N|To the Master Flame Eater.|
 
 N Dailies|QID|11926|N|You've now unlocked two dailies, More Torch Tossing and More Torch Catching. If you want both the brazier (a toy) and the battle pet, you should do these every day of the fire festival in order to earn enough blossoms.|
-A More Torch Tossing|RANK|1|QID|11926|M|46.60,37.27|Z|Orgrimmar|N|From the Master Flame Eater.|
+A More Torch Tossing|RANK|1|QID|11926|M|46.60,37.27|N|From the Master Flame Eater.|
 C More Torch Tossing|RANK|1|QID|11926|M|46.18,37.21|U|34862|N|Hotkey the torch and use it while standing next to the blue bonfire. Nearby there are a set of burning pedestals with a hunter's mark jumping between them. Throw torches at the pedestal that has the mark on it until you complete the quest.|
-T More Torch Tossing|RANK|1|QID|11926|M|46.60,37.27|Z|Orgrimmar|N|To the Master Flame Eater.|
+T More Torch Tossing|RANK|1|QID|11926|M|46.60,37.27|N|To the Master Flame Eater.|
 
-A More Torch Catching|RANK|2|QID|11925|M|46.60,37.27|Z|Orgrimmar|N|From the Master Flame Eater.|
+A More Torch Catching|RANK|2|QID|11925|M|46.60,37.27|N|From the Master Flame Eater.|
 C More Torch Catching|RANK|2|QID|11925|M|46.18,37.21|U|34833|N|Use the unlit torch next to the fire and follow it's shadow. Stay under the shadow and you will automatically catch and throw the torch. Keep it up until you've done it 10 times in a row - this can be frustrating if there are lots of people around, I personally find it more effort than its worth and usually skip it.|
-T More Torch Catching|RANK|2|QID|11925|M|46.60,37.27|Z|Orgrimmar|N|To the Master Flame Eater.|
+T More Torch Catching|RANK|2|QID|11925|M|46.60,37.27|N|To the Master Flame Eater.|
 
-F Razor Hill|N|Fly south to Razor Hill.|M|49.5,59.1|Z|Orgrimmar|RANK|2|QID|11846|
+F Razor Hill|N|Fly south to Razor Hill.|M|49.5,59.1|RANK|2|QID|11846|
 A Honor the Flame|RANK|2|QID|11846|M|52.24,47.40|Z|Durotar|N|From the Flame Keeper. (Durotar)|
 T Incense for the Festival Scorchlings|RANK|2|QID|11966|M|52.2,47.2|Z|Durotar|;completing this autocompleted the honor the flame also. hopefully it wont now that I moved it after the honoring step
 F Splintertree Post|RANK|2|QID|11734|N|Go to the flightmaster and fly to Splintertree Post.|M|53.09,43.59|Z|Durotar|
@@ -124,19 +135,19 @@ R The Exodar|RANK|3|QID|9332|N|Head into the Exodar.|M|33.8,44.6|Z|Azuremyst Isl
 l Flame of the Exodar|RANK|3|QID|11933|L|35569|M|40,25|Z|The Exodar|N|Click on Exodar's Fire to loot the flame.|
 
 H Orgrimmar|N|Hearth as soon as you can.|RANK|2|QID|9332|Z|The Exodar|
-A Stealing Darnassus's Flame|RANK|3|QID|9332|N|Accept this quest from the Flame of Darnassus.|U|23184|Z|Orgrimmar|
-A Stealing the Exodar's Flame|RANK|3|QID|11933|N|Accept this quest from the Flame of the Exodar.|U|35569|Z|Orgrimmar|
-T Stealing Darnassus's Flame|RANK|3|QID|9332|M|47.72,38.17|Z|Orgrimmar|N|To the Festival Talespinner.|
-T Stealing the Exodar's Flame|RANK|3|QID|11933|M|47.72,38.17|Z|Orgrimmar|N|To the Festival Talespinner.|
-T Playing with Fire|RANK|2|QID|11915|M|47.6,38.2|Z|Orgrimmar|N|To the Master Flame Eater.|
-T Inform the Elder|RANK|2|QID|12012|M|47.6,38.2|Z|Orgrimmar|N|To the Earthen Ring Elder.|
+A Stealing Darnassus's Flame|RANK|3|QID|9332|N|Accept this quest from the Flame of Darnassus.|U|23184|
+A Stealing the Exodar's Flame|RANK|3|QID|11933|N|Accept this quest from the Flame of the Exodar.|U|35569|
+T Stealing Darnassus's Flame|RANK|3|QID|9332|M|47.72,38.17|N|To the Festival Talespinner.|
+T Stealing the Exodar's Flame|RANK|3|QID|11933|M|47.72,38.17|N|To the Festival Talespinner.|
+T Playing with Fire|RANK|2|QID|11915|M|47.6,38.2|N|To the Master Flame Eater.|
+T Inform the Elder|RANK|2|QID|12012|M|47.6,38.2|N|To the Earthen Ring Elder.|
 
-A Striking Back|RANK|2|QID|11917;11947;11948;11952;11953;11954|M|47.6,38.2|Z|Orgrimmar|N|From the Earthern Rint Elder.                 This is a daily ... if you need more flowers.|
-F Zoram'gar Strand|ACTIVE|11917|RANK|2|QID|11917|M|49.5,59.1|Z|Orgrimmar|N|Fly to Zoram'gar Strand.|
+A Striking Back|RANK|2|QID|11917;11947;11948;11952;11953;11954|M|47.6,38.2|N|From the Earthern Rint Elder. This is a daily ... if you need more flowers.|
+F Zoram'gar Strand|ACTIVE|11917|RANK|2|QID|11917|M|49.5,59.1|N|Fly to Zoram'gar Strand.|
 C Striking Back|ACTIVE|11917|RANK|2|QID|11917|M|9,12|Z|Ashenvale|N|Click on the Ice Stone to summon the Frostweave Lieutenant.|
 H Orgrimmar|ACTIVE|11917|RANK|2|QID|11917|N|Back to Orgimmar to continue thru the guide.|Z|Ashenvale|
 
-R Mount Hyjal|N|Click the portal to Mt Hyjal.|M|50.83,38.02|Z|Orgrimmar|RANK|2|QID|29030|
+R Mount Hyjal|N|Click the portal to Mt Hyjal.|M|50.83,38.02|RANK|2|QID|29030|
 A Honor the Flame|RANK|2|QID|29030|M|62.83,22.72|Z|Mount Hyjal|N|From the Flame Guardian. (Nordrassil)|
 T Honor the Flame|RANK|2|QID|29030|M|62.80,22.86|Z|Mount Hyjal|N|To the Earthen Ring Bonfire. (Nordrassil)|
 F Everlook|RANK|2|QID|11839|N|Hop on the flight path to the Everlook.|M|62.2,21.6|Z|Mount Hyjal|
@@ -192,15 +203,15 @@ N Kalimdor Complete!|RANK|2|QID|910260014|N|You should now have completed both F
 
 N Queue for Ahune|RANK|2|QID|29036|N|You only need to kill him once for the achievement, but you can farm him for the cloaks, and once a day for the chance of a pet, frostscyte and JP.|
 N Remember to loot Ahune's chest|RANK|2|QID|11972|L|35723|N|'A Shard of Ahune' is in the chest that appears after Ahune is killed, It starts a quest which you accept and turn in before you leave Slave Pens.|
-A Shards of Ahune|RANK|2|QID|11972|U|35723|N|Start the quest while still in the instance.|Z|TheSlavePens|M|29.7,49.4|
-T Shards of Ahune|RANK|2|QID|11972|N|To Luma Skymother in the Instance.|Z|TheSlavePens|M|18.6,49.8|
+A Shards of Ahune|RANK|2|QID|11972|U|35723|N|Start the quest while still in the instance.|Z|The Slave Pens@TheSlavePens|M|29.7,49.4|
+T Shards of Ahune|RANK|2|QID|11972|N|To Luma Skymother in the Instance.|Z|The Slave Pens@TheSlavePens|M|18.6,49.8|
 
-R Deepholm|RANK|2|QID|29036|M|50.6,37|Z|Orgrimmar|N|Take the portal to Deepholm.|PRE|27123|
+R Deepholm|RANK|2|QID|29036|M|50.6,37|N|Take the portal to Deepholm.|PRE|27123|
 A Honor the Flame|RANK|2|QID|29036|M|49.4,51.4|Z|Deepholm|N|From the Flame Guardian. (Deepholm)|PRE|27123|
 T Honor the Flame|RANK|2|QID|29036|M|49.4,51.4|Z|Deepholm|N|To the Earthen Ring Bonfire. (Deepholm)|PRE|27123|
 R Orgrimmar|RANK|2|QID|29031|M|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|PRE|27123|
 
-R Vashj'ir portal|RANK|2|QID|29031|M|50.6,37|Z|Orgrimmar|PRE|25924|
+R Vashj'ir portal|RANK|2|QID|29031|M|50.6,37|PRE|25924|
 R Silver Tide Hollow|N|Hop on your seahorse its a long swim.|M|46,45|Z|Vashj'ir|PRE|25924|;this is the wrong coords but it seems to work
 A Honor the Flame|RANK|2|QID|29031|M|49.35,41.99|Z|Shimmering Expanse|N|From the Flame Guardian. (Vashj'ir)|PRE|25924|
 T Honor the Flame|RANK|2|QID|29031|M|49.33,41.93|Z|Shimmering Expanse|N|To the Earthen Ring Bonfire.|PRE|25924|
@@ -256,7 +267,7 @@ R Wild Shore|RANK|2|QID|11837|M|50.40,70.38|Z|The Cape of Stranglethorn|N|Head d
 A Honor the Flame|RANK|2|QID|11837|M|50.40,70.39|Z|The Cape of Stranglethorn|N|From the Flame Keeper. (The Cape of Stranglethorn)|
 A Desecrate this Fire!|RANK|2|QID|11761|M|51.79,67.26|Z|The Cape of Stranglethorn|N|At the Alliance Bonfire. (The Cape of Stranglethorn)|
 H Orgrimmar|U|6948|N|Hearth back to Orgrimmar.|RANK|2|QID|28946|Z|The Cape of Stranglethorn|
-R Twilight Highlands|N|Click the portal to go to the Twilight Highlands.|M|50.6,37|Z|Orgrimmar|RANK|2|QID|28946|
+R Twilight Highlands|N|Click the portal to go to the Twilight Highlands.|M|50.6,37|RANK|2|QID|28946|
 A Honor the Flame|RANK|2|QID|28946|M|53.13,46.18|Z|Twilight Highlands|N|From the Flame Keeper. (Twilight Highlands)|
 A Desecrate this Fire!|RANK|2|QID|28943|M|47.11,28.22|Z|Twilight Highlands|N|At the Alliance Bonfire. (Twilight Highlands)|
 
@@ -283,12 +294,12 @@ A Honor the Flame|RANK|2|QID|11850|M|46.90,26.34|Z|Ghostlands|N|From the Flame K
 F Silvermoon City|RANK|2|QID|11848|M|45.5,30.65|Z|Ghostlands|N|Fly to Silvermoon City.|
 A Honor the Flame|RANK|2|QID|11848|M|46.40,50.60|Z|Eversong Woods|N|From the Flame Keeper. (Eversong Woods)|
 H Orgrimmar|RANK|2|QID|9331|U|6948|N|Hearth back to Orgrimmar.|
-T Stealing Ironforge's Flame|RANK|3|QID|9331|M|47.8,37.8|Z|Orgrimmar|N|To the Festival Talespinner.|
-T Stealing Stormwind's Flame|RANK|3|QID|9330|M|47.8,37.8|Z|Orgrimmar|N|To the Festival Talespinner.|
-A A Thief's Reward|RANK|3|QID|9339|M|47.8,37.8|Z|Orgrimmar|N|From the Festival Talespinner.|
+T Stealing Ironforge's Flame|RANK|3|QID|9331|M|47.8,37.8|N|To the Festival Talespinner.|
+T Stealing Stormwind's Flame|RANK|3|QID|9330|M|47.8,37.8|N|To the Festival Talespinner.|
+A A Thief's Reward|RANK|3|QID|9339|M|47.8,37.8|N|From the Festival Talespinner.|
 N Eastern Kingdoms Complete!|RANK|2|QID|910250014|N|You should now have completed both Flame Keeper of Eastern Kingdoms and Extinguish Eastern Kingdoms achievements completed. Check this step off to move on to Outland!|
 
-R Blasted Lands|M|35.7,69.1|Z|Orgrimmar|RANK|2|QID|11747|N|Click on the portal to be taken to the Blasted Lands.|
+R Blasted Lands|M|35.7,69.1|RANK|2|QID|11747|N|Click on the portal to be taken to the Blasted Lands.|
 R Hellfire Peninsula|RANK|2|QID|11747|N|Run through the Dark Portal to get to Hellfire Peninsula.|M|55,53.9|Z|Blasted Lands|
 A Desecrate this Fire!|RANK|2|QID|11747|M|61.95,58.46|Z|Hellfire Peninsula|N|At the Alliance Bonfire. (Hellfire Peninsula)|
 A Honor the Flame|RANK|2|QID|11851|M|57.11,42.04|Z|Hellfire Peninsula|N|From the Flame Keeper. (Hellfire Peninsula)|
@@ -315,14 +326,14 @@ A Desecrate this Fire!|RANK|2|QID|11759|M|31.04,62.92|Z|Netherstorm|N|At the All
 N Outland Complete!|QID|910270001|ACH|1027;1|RANK|2|N|You should now have completed both Flame Keeper of Outland and Extinguish Outland achievements.|
 
 H Orgrimmar|U|6948|RANK|2|N|Hearth back to Pandaria and then portal to Ogrimmar, or take the portal in Shattrath if your hearth is not back up yet.|Z|Netherstorm|
-T Striking Back|RANK|2|QID|11917;11947;11948;11952;11953;11954|M|47.6,38.2|Z|Orgrimmar|N|To the Earther Ring Elder.|
-B Mantle of the Fire Festival|RANK|2|QID|902710001|ACH|271;1|L|23324|N|from the Midsummer Merchant.|M|47.6,38.6|Z|Orgrimmar|
-B Vestment of Summer|RANK|2|QID|902710001|ACH|271;1|L|34685|N|from the Midsummer Merchant.|M|47.6,38.6|Z|Orgrimmar|
-B Sandals of Summer|RANK|2|QID|902710001|ACH|271;1|L|34683|N|from the Midsummer Merchant.|M|47.6,38.6|Z|Orgrimmar|
+T Striking Back|RANK|2|QID|11917;11947;11948;11952;11953;11954|M|47.6,38.2|N|To the Earther Ring Elder.|
+B Mantle of the Fire Festival|RANK|2|QID|902710001|ACH|271;1|L|23324|N|from the Midsummer Merchant.|M|47.6,38.6|
+B Vestment of Summer|RANK|2|QID|902710001|ACH|271;1|L|34685|N|from the Midsummer Merchant.|M|47.6,38.6|
+B Sandals of Summer|RANK|2|QID|902710001|ACH|271;1|L|34683|N|from the Midsummer Merchant.|M|47.6,38.6|
 N Dance at the Ribbon Pole|RANK|2|QID|902710001|ACH|271;1|N|Equip the items you just purchased and click on the pole, wait one minute.|
 
-B Buy 15 Juggling Torches from Midsummer Merchant.|RANK|2|QID|902720001|ACH|272;1|M|47.6,38.6|Z|Orgrimmar|L|34599 15|N|These aren't soulbound, check with your friends if you want to save the flowers.|
-R Borean Tundra|RANK|2|QID|13493|N|Run to the Northrend Zeppelin to go to Borean Tundra.|M|44.6,62.6|Z|Orgrimmar|
+B Buy 15 Juggling Torches from Midsummer Merchant.|RANK|2|QID|902720001|ACH|272;1|M|47.6,38.6|L|34599 15|N|These aren't soulbound, check with your friends if you want to save the flowers.|
+R Borean Tundra|RANK|2|QID|13493|N|Run to the Northrend Zeppelin to go to Borean Tundra.|M|44.6,62.6|
 A Honor the Flame|RANK|2|QID|13493|M|51.13,11.54|Z|Borean Tundra|N|From the Flame Keeper. (Borean Tundra)|
 A Desecrate this Fire!|RANK|2|QID|13440|M|55.23,20.25|Z|Borean Tundra|N|At the Alliance Bonfire. (Borean Tundra)|
 A Honor the Flame|RANK|2|QID|13494|M|47.06,61.55|Z|Sholazar Basin|N|From the Flame Keeper. (Sholazar Basin)|

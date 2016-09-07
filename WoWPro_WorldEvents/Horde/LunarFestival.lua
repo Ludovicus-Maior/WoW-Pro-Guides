@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2016-09-07 14:35
+-- Who: Ludovicus
+-- Log: Use The Nexus@TheNexus
+
+-- URL: http://wow-pro.com/node/3452/revisions/27711/view
+-- Date: 2016-09-07 04:03
+-- Who: Emmaleah
+-- Log: changed |Z|TheTempleOfAtalHakkar to |Z|The Temple of Atal' Hakkar x 2 lines
+
+-- URL: http://wow-pro.com/node/3452/revisions/27360/view
 -- Date: 2015-07-25 18:14
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -160,8 +170,8 @@ A Bellowrage the Elder|N|From Elder Bellowrage.|QID|8647|M|54.3,49.5|Z|Blasted L
 N Optional - Zidormi|QID|8713|N|Chat with Zidormi to turn the area return post-WOD invasion state. You will need to manually check this step off. You can skip this step if you don't care which state Blasted Lands is in.|CHAT|M|48.16,7.28|Z|Blasted Lands|LVL|90|
 R The Temple of Atal'Hakkar|N|Head North to Swamp of Sworrows and into the Temple of Atal'Hakkar.|QID|8713|M|69.37,53.07|Z|Swamp of Sorrows|RANK|2|
 R Hall of Masks|N|Head inside the Temple down into the Hall of Masks|QID|8713|Z|Swamp of Sorrows|M|75.99,45.22|RANK|2|
-A Starsong the Elder|N|From Elder Starsong from inside the instance.|QID|8713|M|62.90,34.47|Z|TheTempleOfAtalHakkar|RANK|2|
-R The Temple of Atal'Hakkar|N|Get back out of the instance.|QID|8675|M|49.9,18.4|Z|TheTempleOfAtalHakkar|RANK|2|
+A Starsong the Elder|N|From Elder Starsong from inside the instance.|QID|8713|M|62.90,34.47|Z|The Temple of Atal' Hakkar|RANK|2|
+R The Temple of Atal'Hakkar|N|Get back out of the instance.|QID|8675|M|49.9,18.4|Z|The Temple of Atal Hakkar|RANK|2|
 R Westfall|N|Head to Westfall.|QID|8675|M|56.6,47|Z|Westfall|LVL|60|
 A Skychaser the Elder|N|From Elder Skychaser.|QID|8675|M|56.64,47.09|Z|Westfall|T|Elder Skychaser|LVL|60|
 R Elwynn Forest|N|Run North to Elwynn Forest.|QID|8649|M|39.6,63.5|Z|Elwynn Forest|
@@ -263,7 +273,7 @@ A Wanikaya the Elder|N|From Elder Wanikaya.|QID|13024|M|63.80,49.02|Z|Sholazar B
 F Transitus Shield|N|Fly to the Transitus Shield in Colderra.|QID|13016|M|50,61.4|Z|Sholazar Basin|LVL|68|
 A Northal the Elder|N|From Elder Northal.|QID|13016|M|33.80,34.36|Z|Borean Tundra|LVL|68|
 R The Nexus|N|Run into The Nexus.|QID|13021|M|27.5,26.09|Z|Borean Tundra|RANK|3|LVL|68|
-A Igasho the Elder|N|From Elder Igasho.|QID|13021|M|55.19,64.72|Z|TheNexus|RANK|3|LVL|68|
+A Igasho the Elder|N|From Elder Igasho.|QID|13021|M|55.19,64.72|Z|The Nexus@TheNexus|RANK|3|LVL|68|
 R D.E.H.T.A Encampment|N|Head out of The Nexus and go to the D.H.E.T.A Encampment.|QID|13033|M|57.4,43.6|Z|Borean Tundra|LVL|68|
 A Arp the Elder|N|From Elder Arp.|QID|13033|M|57.41,43.72|Z|Borean Tundra|LVL|68|
 A Pamuya the Elder|N|From Elder Pamuya.|QID|13029|M|42.94,49.57|Z|Borean Tundra|LVL|68|

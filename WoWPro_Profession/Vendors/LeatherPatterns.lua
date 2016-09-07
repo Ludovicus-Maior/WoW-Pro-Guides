@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/leatherworking_patterns
+-- Date: 2016-09-07 14:37
+-- Who: Ludovicus
+-- Log: Use Old Hillsbrad@CoTHillsbradFoothills
+
+-- URL: http://wow-pro.com/node/3572/revisions/26950/view
 -- Date: 2014-11-08 20:24
 -- Who: Ludovicus
 -- Log: Update Shrines
@@ -511,7 +516,7 @@ B Vicious Dragonscale Boots|QID|990078458|RECIPE|78458|M|39.60,34.50|Z|Ironforge
 B Vicious Dragonscale Boots|QID|990078458|RECIPE|78458|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Joseph Moore in Undercity|
 B Vicious Dragonscale Boots|QID|990078458|RECIPE|78458|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;515|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Dragonscale Boots|QID|990078458|RECIPE|78458|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Mak in Thunder Bluff|
-B Riding Crop|QID|990032461|RECIPE|32461|M|0.00,0.00|Z|CoTHillsbradFoothills|FACTION|Neutral|P|Leatherworking;165;350|N|Sold by Thomas Yance in Old Hillsbrad Foothills|
+B Riding Crop|QID|990032461|RECIPE|32461|M|0.00,0.00|Z|Old Hillsbrad@CoTHillsbradFoothills|FACTION|Neutral|P|Leatherworking;165;350|N|Sold by Thomas Yance in Old Hillsbrad Foothills|
 B Vicious Charscale Boots|QID|990078456|RECIPE|78456|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;515|N|Sold by Haferet in The Exodar|
 B Vicious Charscale Boots|QID|990078456|RECIPE|78456|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Zaralda in Silvermoon City|
 B Vicious Charscale Boots|QID|990078456|RECIPE|78456|M|78.80,76.20|Z|Twilight Highlands|FACTION|Alliance|P|Leatherworking;165;515|N|Sold by Misty Merriweather in Twilight Highlands|
