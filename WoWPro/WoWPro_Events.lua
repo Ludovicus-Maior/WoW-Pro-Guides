@@ -22,7 +22,7 @@ function WoWPro:RecordTaxiLocations(...)
 end
 
 -- Auto-Complete: Use flight point --
-function WoWPro:TakeTaxi(index,destination)
+function WoWPro.TakeTaxi_OldStyle(index,destination)
     for i = 1, NumTaxiNodes() do
         local nomen = TaxiNodeName(i)
         local location,zone = string.split(",",nomen)
@@ -34,11 +34,28 @@ function WoWPro:TakeTaxi(index,destination)
             end
             TaxiNodeOnButtonEnter(_G["TaxiButton"..i])
             TakeTaxiNode(i)
-            WoWPro.CompleteStep(index,"Took known flight point")
+            WoWPro.CompleteStep(index,"Took known old flight point")
             return
         end
     end
     WoWPro:Warning("Unable to find flight point to: [%s]",destination)
+end
+
+function WoWPro.TakeTaxi_NewStyle(index,destination)
+    local taxiNodes = GetAllTaxiNodes()
+    for i, taxiNodeData in ipairs(taxiNodes) do
+        -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
+        local location,zone = string.split(",", taxiNodeData.name)
+        if strfind(location, destination) then
+            WoWPro:Print("Taking flight to: [%s]",location)
+            if IsMounted() then
+                Dismount()
+            end
+            TakeTaxiNode(taxiNodeData.slotIndex)
+            WoWPro.CompleteStep(index,"Took known new flight point")
+            return
+        end
+    end
 end
 
 -- Auto-Complete: Get flight point --
@@ -700,7 +717,11 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:RecordTaxiLocations(...)
 		local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 		if WoWPro.action[qidx] == "F" and WoWProCharDB.AutoAccept == true then
-		    WoWPro:TakeTaxi(qidx,WoWPro.step[qidx])   
+		    if TaxiFrame_ShouldShowOldStyle() then
+		        WoWPro.TakeTaxi_OldStyle(qidx,WoWPro.step[qidx])
+		    else
+		        WoWPro.TakeTaxi_NewStyle(qidx,WoWPro.step[qidx])
+		    end
 		end
 	end
 	if event == "CHAT_MSG_SYSTEM" then
