@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-09-09 06:52
+-- Who: Emmaleah
+-- Log: 3 corrections per Tubera - $40510-typo on coordinates,$40483-better |N|, C39429-Track down the errant |US|step and put it where it belonged. (it was about 5 or 6 lines after you turn in the quest... /sigh.
+
+-- URL: http://wow-pro.com/node/3678/revisions/27696/view
 -- Date: 2016-09-06 04:35
 -- Who: Emmaleah
 -- Log: correct |M| for $40507, Correct |N| for T39862
@@ -175,7 +180,7 @@ C Ceremonial Drums|QID|42622|M|45.10,65.09|N|Finish collecting drums.|
 T Secrets of Highmountain|QID|38916|M|44.87,65.72|N|To Spiritwalker Ebonhorn.|
 
 A The Path of Huln|QID|39575|M|44.87,65.72|N|From Spiritwalker Ebonhorn.|
-$ Treasure Chest|QID|40510|M|41.78,72.72|N|Loot for a bit of treasure and resources.|
+$ Treasure Chest|QID|40510|M|43.78,72.72|N|Loot for a bit of treasure and resources.|
 C The Path of Huln|QID|39575|M|45.63,71.15|Z|1024/29|NC|QO|1|N|Escort Spiritwalker Ebonhorn to the Path of Huln.|
 C The Path of Huln|QID|39575|M|46.50,70.98|Z|1024/29|NC|QO|2|N|Jump in to the Vault.|
 T The Path of Huln|QID|39575|M|47.35,70.26|Z|1024/29|N|To Spiritwalker Ebonhorn.|
@@ -237,8 +242,8 @@ C Burn the Candle at Both Ends|QID|40345|M|55.30,42.51|QO|3|NC|N|Basilisk return
 C Burn the Candle at Both Ends|QID|40345|M|55.30,42.51|QO|4|NC|N|Grab reward from junk pile.|
 C Burn the Candle at Both Ends|QID|40345|M|55.30,42.51|QO|5|NC|N|Give reward to Trytooth Hardchisel.|
 C Burn the Candle at Both Ends|QID|40345|M|54.95,42.90|QO|6|NC|N|The miner is just around the corner.|
-K Kill Devouring Darkness|QID|40414|QO|1|T|Devouring Darkness|N|Take the kobold candles to start this release the Devouring Darkness.|ITEM|131780|
-$ Glimmering Treasure Chest|QID|40483|M|54.18,41.59|N|Loot for a bit of treasure and resources.|
+K Kill Devouring Darkness|QID|40414|QO|1|T|Devouring Darkness|N|Take the kobold candles to start this and release the Devouring Darkness.|ITEM|131780|
+$ Glimmering Treasure Chest|QID|40483|M|54.18,41.59|N|Continue up the path to find another chest. Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|40484|M|53.46,43.56|N|Run (or jump) down to the bottom of the cavern.  Loot the chest for treasure and resources.|
 C Burn the Candle at Both Ends|QID|40345|M|53.61,42.15|QO|7|CHAT|N|Meet with Kindle.|
 C Burn the Candle at Both Ends|QID|40345|M|53.61,42.15|QO|8|NC|N|Recover the Candle.|
@@ -295,12 +300,12 @@ K Kill Skullhat|QID|39465|QO|1|M|51.37,31.96|T|Skullhat|N|Kill and loot for a bi
 C The Three|QID|39321|M|50.50,35.47|QO|3|N|Kill Ugla the Hag.|T|Ugla the Hag|
 $ Treasure Chest|QID|40506|M|50.81,35.05|N|Loot for a bit of resources and treasure.|
 $ Treasure Chest|QID|39466|M|49.64,37.74|N|Loot for a bit of resources and treasure.|
+C Assaulting the Haglands|QID|39429|M|50.90,33.91|US|N|Finish killing any needed.|
 T The Three|QID|39321|M|49.21,36.61|N|To Lasan Skyhorn.|
 T Assaulting the Haglands|QID|39429|M|49.21,36.61|N|To Lasan Skyhorn.|
 A The Witchqueen|QID|39322|M|49.21,36.61|N|From Lasan Skyhorn.|
 C The Witchqueen|QID|39322|M|46.25,39.52|T|High Crawliac|N|Kill High Crawliac.|
 $ Treasure Chest|QID|40507|M|46.81,40.13|N|Loot for a bit of treasure and resources.|
-C Assaulting the Haglands|QID|39429|M|50.90,33.91|US|N|Finish killing any needed.|
 T The Witchqueen|QID|39322|M|45.69,39.15|N|To Lasan Skyhorn.|
 A The Skies of Highmountain|QID|39387|M|45.69,39.15|N|From Lasan Skyhorn.|
 K Kill the Exiled Shaman|QID|39782|QO|1|M|41.92,41.61|ITEM|129175|T|Tenpack Flametotem|N|Silver - Run down this path to find kill this shaman and adopt a new pet.|RANK|2|

@@ -4,9 +4,14 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
--- Date: 2016-09-07 04:28
+-- Date: 2016-09-09 06:38
 -- Who: Emmaleah
--- Log: Added QO|1 in C Above the Winter Moonlight|QID|38618|QO|1|M|46.36,74.37|NC|N|Click on the grapple point on the path.| - thanks Blanckaert
+-- Log: QIDs switched between Shadows in the mist (s/b 40044) To Honor the Fallen (s/b 43595)
+
+-- URL: http://wow-pro.com/node/3680/revisions/27712/view
+-- Date: 2016-09-08 19:58
+-- Who: Emmaleah
+-- Log: Switched $38681 and $38738 per suggestion that it is easier to get up the bank if you do it in the other order.
 
 -- URL: http://wow-pro.com/node/3680/revisions/27708/view
 -- Date: 2016-09-07 03:39
@@ -268,8 +273,8 @@ A A Stack of Racks|QID|39792|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
 A A Stone Cold Gamble|QID|39786|M|51.32,56.95|N|From Snaggle Sixtrigger.|RANK|2|
 $ Small Treasure Chest|QID|38477|M|42.33,61.12|N|Kill the basilisk curled around the treasure and then its yours. Loot for treasure and resources.|RANK|2|
 C A Stone Cold Gamble|QID|39786|M|46.66,61.04|T|Stonefang|N|Keep moving around, the groundspikes put out serious damage. Loot Stonefang's Jaw.|RANK|2|
-$ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|38681|M|48.18,65.20;46.60,64.96|CS|N|Inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|
 T A Stone Cold Gamble|QID|39786|M|51.31,56.99|N|To Snaggle Sixtrigger.|RANK|2|
 
 R Valdisdall|QID|39803|M|51.31,54.64;57.87,50.47|CS|N|Off to Valdisdall|
@@ -492,24 +497,24 @@ C Remnants of the Past|QID|39984|M|60.43,42.95|QO|4|NC|N|Fourth Clue is on this 
 C Remnants of the Past|QID|39984|M|58.94,42.81|QO|5|NC|N|Enter the building with the red fog in the doorway.|RANK|2|
 T Remnants of the Past|QID|39984|M|58.94,42.81|N|To Havi.|RANK|2|
 A Scavenging the Shallows|QID|40046|M|58.94,42.81|N|From Havi.|RANK|2|
-A Shadows in the Mists|QID|43595|M|58.94,42.81|N|From Havi.|RANK|2|
-A To Honor the Fallen|QID|40044|M|58.94,42.81|N|From Havi.|RANK|2|
-C To Honor the Fallen|QID|40044|M|60,43|S|N|Kill Kvaldir and collect the weapons.|RANK|2|
+A Shadows in the Mists|QID|40044|M|58.94,42.81|N|From Havi.|RANK|2|
+A To Honor the Fallen|QID|43595|M|58.94,42.81|N|From Havi.|RANK|2|
+C To Honor the Fallen|QID|43595|M|60,43|S|N|Kill Kvaldir and collect the weapons.|RANK|2|
 C Scavenging the Shallows|QID|40046|M|60,43|S|NC|N|Pick up the boat debris until you find the clue.|RANK|2|
 K Kill Captain Brvet|QID|38642|M|57.97,45.28|QO|1|ITEM|129123|N|Silver - Blow the "Horn of the Helmouth", to summon 3 raiders. Kill and loot for a bit of treasure and resources.|RANK|2|
-K Kill Captain Sten|QID|43595|M|55.83,46.82|QO|1|T|Captain Sten|RANK|2|
+K Kill Captain Sten|QID|40044|M|55.83,46.82|QO|1|T|Captain Sten|RANK|2|
 $ Treasure Chest|QID|40095|M|54.98,47.14|N|Underwater on the deck of sunken ship. Loot for a bit of treasure and resources.|RANK|2|
-K Kill Halvir|QID|43595|M|53.86,42.13|QO|4|T|Halvir|RANK|2|
-K Kill Sigrid|QID|43595|M|54.43,35.12|QO|2|T|Sigrid|RANK|2|
-K Kill Kjell|QID|43595|M|57.00,34.81|QO|3|T|Kjell|RANK|2|
+K Kill Halvir|QID|40044|M|53.86,42.13|QO|4|T|Halvir|RANK|2|
+K Kill Sigrid|QID|40044|M|54.43,35.12|QO|2|T|Sigrid|RANK|2|
+K Kill Kjell|QID|40044|M|57.00,34.81|QO|3|T|Kjell|RANK|2|
 K Kill Roteye|QID|43342|QO|1|M|57.73,34.77;58.37,33.96|CS|ITEM|139387|T|Roteye|N|Silver-Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38744|M|61.91,32.25|N|Loot for a bit of treasure and resources.|RANK|3|
 C Scavenging the Shallows|QID|40046|M|56.73,39.33|N|This ships debris is the one you are looking for.|RANK|2|
-C To Honor the Fallen|QID|40044|M|60,43|US|N|Finish collecting the weapons.|RANK|2|
+C To Honor the Fallen|QID|43595|M|60,43|US|N|Finish collecting the weapons.|RANK|2|
 T Scavenging the Shallows|QID|40046|M|58.94,42.81|N|To Havi.|RANK|2|
-T To Honor the Fallen|QID|40044|M|58.94,42.81|N|To Havi.|RANK|2|
-T Shadows in the Mists|QID|43595|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 110.|RANK|2|
-A Piercing the Mists|QID|43596|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|LVL|110|
+T To Honor the Fallen|QID|43595|M|58.94,42.81|N|To Havi.|RANK|2|
+T Shadows in the Mists|QID|40044|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 110.|RANK|2|
+A Piercing the Mists|QID|43596|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|LVL|110|PRE|40044|
 
 R Talonrest|QID|39792|M|53.30,48.30;53.4,53.4|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
