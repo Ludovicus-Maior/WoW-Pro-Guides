@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-09-10 02:30
+-- Who: Ludovicus
+-- Log: Played through to [A Little Kelp From My Foes]
+
+-- URL: http://wow-pro.com/node/3683/revisions/27707/view
 -- Date: 2016-09-07 01:49
 -- Who: Ludovicus
 -- Log: Play through to [Plight of the Blackfeather]
@@ -251,7 +256,7 @@ C Eating Into Our Business|QID|39789|M|48.54,56.93|US|N|Finish killing Duskpelt 
 T Eating Into Our Business|QID|39789|M|51.46,57.06|N|To Rax Sixtrigger.|RANK|2|
 A Only the Finest|QID|39793|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|2|
 A Rigging the Wager|QID|39787|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
-R Nastrondir|QID|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the sword and into Nastrondir.|RANK|2|
+R Nastrondir|QID|39793|ACTIVE|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the sword and into Nastrondir.|RANK|2| ; Emma
 A The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|
 C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Kill the drakes and pick up eggs to advance the objective. Click off manually.|RANK|2| ; Emma
 C Only the Finest|QID|39793|M|44.14,37.51|S|N|Kill goats to collect the patches of goat hair.|RANK|2|
@@ -264,7 +269,6 @@ C Only the Finest|QID|39793|M|44.14,37.51|US|N|Finish collecting the patches of 
 C Rigging the Wager|QID|39787|M|48.87,34.07;48.24,32.81|CS|QO|1|N|There is a grapple point to his nest above. Fight with your back to the wall, so you dont get thrown off. Kill and loot his beak.|RANK|2|
 C The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|N|Finish or click off manually.|RANK|2| ; Emma
 t The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|N|Auto turned in upon completion.|RANK|2|
-N Warning!|QID|42444|N|This guide has not been tested beyond this point. Use at your own risk.|
 A Plight of the Blackfeather|QID|42444|M|50.32,34.00|N|From Frightened Ravenbear.|RANK|2|
 T Plight of the Blackfeather|QID|42444|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
 A Singed Feathers|QID|42446|M|49.79,32.63|N|From Cukkaw.|RANK|2|
@@ -280,56 +284,56 @@ A Dances With Ravenbears|QID|42447|M|49.79,32.64|N|From Cukkaw.|RANK|2|
 C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (multiple times if needed). Mimic their motions 1-raise arms, 2-spin, 3-flap wings, |RANK|2|
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|QID|42447|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
-F Cullen's Post|QID|39787|M|51.98,34.81|N|Fly back to Cullen's Post at Hillevi the Scalekeepter.|RANK|2|
+F Lorna's Watch|QID|39787|M|51.98,34.81|N|Fly back to Lorna's Watch at Hillevi the Scalekeepter.|RANK|2|
+K Hook & Sinker|QID|38625|M|42.09,57.66|ITEM|129109|N|A nice pair of Rares|RANK|2|
 T Rigging the Wager|QID|39787|M|51.33,56.98|N|To Snaggle Sixtrigger.|RANK|2|
 T Only the Finest|QID|39793|M|51.36,57.28|N|To Rax Sixtrigger.|RANK|2|
 A A Stack of Racks|QID|39792|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
 A A Stone Cold Gamble|QID|39786|M|51.32,56.95|N|From Snaggle Sixtrigger.|RANK|2|
-$ Small Treasure Chest|QID|38477|M|42.33,61.12|N|Kill the basilisk curled around the treasure and then its yours. Loot for treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|38477|M|42.33,61.12|N|Kill the basilisk curled around the treasure and then its yours. Kite him around to escape his AOE and interrupt his glare. Loot for treasure and resources.|RANK|2|
 C A Stone Cold Gamble|QID|39786|M|46.66,61.04|T|Stonefang|N|Keep moving around, the groundspikes put out serious damage. Loot Stonefang's Jaw.|RANK|2|
+$ Small Treasure Chest|QID|38681|M|47.25,61.72;47.63,63.29;48.19,64.19;48.18,65.20;46.60,64.96|CS|N|Across the waterfall, inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|
-$ Small Treasure Chest|QID|38681|M|48.18,65.20;46.60,64.96|CS|N|Inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
 T A Stone Cold Gamble|QID|39786|M|51.31,56.99|N|To Snaggle Sixtrigger.|RANK|2|
 
 ; Back to business
-R Valdisdall|QID|39803|M|51.31,54.64;57.87,50.47|CS|N|Off to Valdisdall|
+R Valdisdall|QID|39803|M|51.12,54.76;57.87,50.47|CS|N|Off to Valdisdall|
 h Set Hearth to Valdisdall|QID|39803|M|60.54,50.26|N|At Riala the Hearthwatcher. If you are doing this on Rank 2 or 3.  It will save you a lot of time.|RANK|2|ACTIVE|39803|
 f Valdisdall|QID|39803|M|60.73,50.86|N|At Garhal the Scalekeeper.|
 T The Trials Continue|QID|39803|M|60.14,50.74|N|To Havi.|
 A Speaking of Bones|QID|39804|M|60.14,50.73|N|From Havi.|
 C Speaking of Bones|QID|39804|M|60.67,51.38|NC|N|Click on the buck to butcher.|
-f Valdisdall|QID|39804|M|60.73,50.87|N|At Garhal the Scalekeeper.|
 T Speaking of Bones|QID|39804|M|60.15,50.72|N|To Havi.|
 A To Haustvald|QID|39796|M|60.15,50.72|N|From Havi.|
 R Runewood|QID|39796|M|61.97,54.96;65.97,53.72|CS|N|Run to Runewood.|
-T To Haustvald|QID|39796|M|68.48,54.31|N|To Vydhar.|
-A Turn the Keys|QID|38778|M|68.48,54.31|N|From Vydhar.|
-A The Runewood's Revenge|QID|39788|M|68.48,54.31|N|From Vydhar.|
+T To Haustvald|QID|39796|M|68.50,54.34|N|To Vydhar.|
+A Turn the Keys|QID|38778|M|68.50,54.34|N|From Vydhar.|
+A The Runewood's Revenge|QID|39788|M|68.50,54.34|N|From Vydhar.|
 C Turn the Keys|QID|38778|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|S|N|Click on the three runestones.|;I realize green dots don't show for sticky steps, but the other steps send you to the correct spots and this catches it if you miss one (at the US step).
-C The Runewood's Revenge|QID|39788|M|68.86,52.18|QO|2|N|Kill the Bonespeaker Carver in this area.|
+C The Runewood's Revenge|QID|39788|M|68.60,51.61|QO|2|N|Kill the Bonespeaker Carver in this area.|
 C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1||S|N|The Bonespeaker Runeaxe are around both the remaining runestones.|
 K Kill Urgev the Flayer|QID|38847|M|64.88,51.82|QO|1|ITEM|129219|T|Urgev the Flayer|N|Silver - Kill and loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|40083|M|67.99,57.77|N|Loot fora bit of resources and treasure.|
 C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|N|Finish killing Bonespeaker Runeaxe.|
 
-T Turn the Keys|QID|38778|M|68.47,54.28|N|To Vydhar.|
-T The Runewood's Revenge|QID|39788|M|68.47,54.28|N|To Vydhar.|
-A The Dreaming Fungus|QID|38810|M|68.47,54.28|N|From Vydhar.|
-A Bjornharta|QID|38808|M|68.47,54.28|N|From Vydhar.|
+T Turn the Keys|QID|38778|M|68.48,54.31|N|To Vydhar.|
+T The Runewood's Revenge|QID|39788|M|68.48,54.31|N|To Vydhar.|
+A The Dreaming Fungus|QID|38810|M|68.48,54.31|N|From Vydhar.|
+A Bjornharta|QID|38808|M|68.48,54.31|N|From Vydhar.|
 C Bjornharta|QID|38808|M|70.39,53.00|S|N|Kill bears and loot the Engorged Bear Hearts.|
 C The Dreaming Fungus|QID|38810|M|69.93,52.64|NC|N|8/8 Soulcap|
 K Kill Mordvigbjorn|QID|38837|M|72.60,49.99|QO|1|ITEM|129035|T|Mordvigbjorn|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Bjornharta|QID|38808|M|70.39,53.00|US|N|Finish collecting the Engorged Bear Hearts.|
-T The Dreaming Fungus|QID|38810|M|68.51,54.27|N|To Vydhar.|
-T Bjornharta|QID|38808|M|68.51,54.27|N|To Vydhar.|
-A Judgment Day|QID|38811|M|68.51,54.27|N|From Vydhar.|
-A Lay Them to Rest|QID|39791|M|68.51,54.27|N|From Vydhar.|
+T The Dreaming Fungus|QID|38810|M|68.48,54.31|N|To Vydhar.|
+T Bjornharta|QID|38808|M|68.48,54.31|N|To Vydhar.|
+A Judgment Day|QID|38811|M|68.48,54.31|N|From Vydhar.|
+A Lay Them to Rest|QID|39791|M|68.48,54.31|N|From Vydhar.|
 C Lay Them to Rest|QID|39791|M|64.71,45.39|U|128772|S|N|Weaken them (fight to 50%) and then use Runewood Branch to return the Restless Ancestors to the earth.|
 C Judgment Day|QID|38811|M|64.81,46.56|QO|2|N|Click on the offering bowl and be ready to fight.|
 $ Small Treasure Chest|QID|43205|M|65.37,43.12|N|Loot for a bit of treasure and resources.|
 C Judgment Day|QID|38811|M|67.56,43.00|QO|1|N|Judged by Heimir of the Black Fist|
 A The Nameless King|QID|38685|M|67.26,39.93|QO|1|T|The Nameless King|N|Click on his offering shrine to start the vignette.  Kill him and earn treasure and resources.|
-R Loch Varmad|QID|38744|M|67.08,38.84;68.07,31.11|CS|N|Run down this path and across the water for a treasure.|RANK|3|
+R Loch Varmad|QID|38744|M|67.08,38.84;68.07,31.11|CS|N|Run down this path and across the water for a treasure.|RANK|3| ; Emma QID may be bad.
 $ Treasure Chest|QID|38744|M|68.00,16.69;68.42,29.60|CS|N|If we had a rank 4, this would earn it.  Way out in the bay, is a spire. go to first coord and hook your way up towards the top.  Chest is on the rock, not the buiding at the top. Loot for resources and treasure.|RANK|3|
 C Judgment Day|QID|38811|M|66.87,45.77|QO|3|N|Judged by Oktel Dragonblood|
 $ Small Treasure Chest|QID|43302|M|64.20,41.58;64.29,39.55|CS|N|Loot for a bit of treasure and resources.|
@@ -365,6 +369,7 @@ A An Unworthy Task|QID|39837|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
 C Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|S|N|Freeing captives and killing Kvaldir advance the objective.|
 C An Unworthy Task|QID|39837|M|60.77,43.72|Z|Helheim|NC|N|Find Cooperative spirit.|
 T An Unworthy Task|QID|39837|M|64.56,43.43|Z|Helheim|N|To Colborn the Unworthy. When you open the door, he shows the "?", but it's hard catch him to turn in until he runs to new location.|
+N Warning!|QID|38339|N|This guide has not been tested beyond this point. Use at your own risk.|
 A A Little Kelp From My Foes|QID|38339|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
 A Accessories of the Cursed|QID|38324|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
 A An Unworthy Task|QID|39837|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
@@ -618,7 +623,6 @@ K Kill Tiptog the Lost|QID|38774|M|46.29,50.01|T|Tiptog the Lost|QO|1|ITEM|12916
 K Kill Houndmaster Ely|QID|38712|M|47.10,57.20|QO|1|ITEM|129037|T|Houndmaster Ely|N|Silver - Kill and loot for a bit of loot and Treasure.|RANK|2|
 K Kill Egyl the Enduring|QID|40068|M|41.77,34.11|QO|1|ITEM|132898|N|There is a cave under the statue. Go inside to find Egyl. Kill and loot for a bit of treasure and resources.|RANK|2|
 K Kill Starbuck|QID|42437|M|54.70,29.21|QO|1|ITEM|130132|T|Starbuck|N|Kill and loot for a bit of treasure and resources.|RANK|2|
-K Kill Urgev the Flayer|QID|38847|M|64.88,51.82|QO|1|ITEM|129219|T|Urgev the Flayer|N|Silver - Kill and loot for a bit of treasure and resources.|
 K Kill Mordvigbjorn|QID|38837|M|72.60,49.99|QO|1|ITEM|129035|T|Mordvigbjorn|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 K Kill Fenri|QID|38461|M|84.94,50.05|Z|Helheim|QO|1|ITEM|129291|T|Fenri|N|Silver - Loot for a bit of treasure and resorces.|RANK|2|
 K Kill Soulthirster|QID|39870|M|28.27,64.80|Z|Helheim|QO|1|ITEM|129188|T|Soulthirster|N|Silver - Kill for a pet and the usual resources.|

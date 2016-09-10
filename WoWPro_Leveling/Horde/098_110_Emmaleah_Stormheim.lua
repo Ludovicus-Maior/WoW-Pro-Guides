@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-09-09 22:32
+-- Who: Emmaleah
+-- Log: Corrected misidentified Dreygrot Treasures.
+
+-- URL: http://wow-pro.com/node/3680/revisions/27725/view
 -- Date: 2016-09-09 06:38
 -- Who: Emmaleah
 -- Log: QIDs switched between Shadows in the mist (s/b 40044) To Honor the Fallen (s/b 43595)
@@ -527,7 +532,7 @@ R Dreygrot|QID|42635|M|72.15,47.45;72.47,51.58|CS|N|Run through Runewood to Drey
 A The Mystery of Dreyrgrot|QID|42635|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
 A A Stone of Blood|QID|42639|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
 C The Mystery of Dreyrgrot|QID|42635|M|75.44,48.96|S|NC|N|Use the hook point to get onto the nearest ship.  There are two 'Ancient Dreyrgrot Tab;ets' here, move on to the other two ships that have one each.|RANK|2|
-$ Small Treasure Chest|QID|42629|M|75.37,52.11|N|Hook from the ship to piller.  Chest on top of piller. Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|42632|M|73.96,52.23|N|Hook from the ship to piller.  Chest on top of piller. Loot for a bit of treasure and resources.|RANK|2|
 A The Value of Knowledge|QID|42640|M|75.52,50.78|N|From a crate of Ancient Relics floating in the bay.|RANK|2|
 C The Value of Knowledge|QID|42640|M|75.52,50.78|NC|N|Collect the ancient relics while you travel to the next ship.|RANK|2|
 C A Stone of Blood|QID|42639|M|76.21,49.38|QO|1|T|Captain Broketooth|N|Kill Captain Broketooth and take his Ruby Amulet|RANK|2|
@@ -539,7 +544,7 @@ T A Stone of Blood|QID|42639|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
 A What the Bonespeakers Buried|QID|42641|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
 A Spilling Bad Blood|QID|42645|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
 C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Kill Blood-Crazed Swashbuckler as you go.|RANK|2|
-$ Small Treasure Chest|QID|42632|M|73.9,52.2|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|42628|M|72.13,54.89|N|Loot for a bit of treasure and resources.|RANK|2|
 C What the Bonespeakers Buried|QID|42641|M|72.31,51.59|N|You have to click on him to start the fight. Kill Blood-Thane Lucard.|RANK|2|
 C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Finish up the Blood-Crazed Swashbucklers.|RANK|2|
 T What the Bonespeakers Buried|QID|42641|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-09-10 04:51
+-- Who: Emmaleah
+-- Log: Found a few treasures with mismatched QIDs and other tweaks from live playthru on rank 3.  All treasure is now on Rank 2 or 3. same for Silver Elites. (actually in last revision, but not mentioned in revision history)
+
+-- URL: http://wow-pro.com/node/3665/revisions/27700/view
 -- Date: 2016-09-06 20:00
 -- Who: Emmaleah
 -- Log: Moved all treasure / rares that were rank 1 to rank 2.  Thus Rank 1 is truly minimum to get the zone questing achievement.
@@ -61,6 +66,8 @@ N Ranks|QID|39731|N|Setting the guide to Rank 1 will get you the minimum nesessa
 T The Tranquil Forest|QID|39731|M|70.65,43.80|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Tying Up Loose Ends|QID|39861|M|70.65,43.80|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
 C Tying Up Loose Ends|QID|39861|M|69.83,51.21|Z|Dalaran@Dalaran70|QO|1|NC|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|
+$ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure|QID|39093|M|54.19,70.59|N|Up the steam on a rock. Loot for a bit of treasure and resources.|RANK|2|
 T Tying Up Loose Ends|QID|39861|M|54.69,72.83|N|To Malfurion Stormrage.|
 A Cenarius, Keeper of the Grove|QID|40122|M|54.69,72.83|N|From Malfurion Stormrage.|
 C Cenarius, Keeper of the Grove|QID|40122|M|54.69,72.83|N|Speak to Malfurion|CHAT|
@@ -70,8 +77,6 @@ T Nature's Call|QID|38384|M|53.33,63.93;54.65,65.92;54.38,73.58|CS|N|To Aranelle
 A Archdruid of the Vale|QID|38382|M|54.38,73.58|N|From Aranelle.|
 A Archdruid of the Claw|QID|38142|M|54.38,73.58|N|From Aranelle.|
 A Archdruid of Lore|QID|38381|M|54.38,73.58|N|From Aranelle.|
-$ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|RANK|2|
-$ Treasure|QID|39093|M|54.19,70.59|N|Up the steam on a rock. Loot for a bit of treasure and resources.|RANK|2|
 
 $ Treasure|QID|38466|M|55.55,77.60|L|130147|N|Open this treasure chest to start a short event where several forest sprites attack.  After they are dead, loot the chest again for your treasure|ITEM|130147|RANK|2|
 U Thistleleaf Branch|QID|38382|M|55.55,77.60|U|130147|N|Click to add the toy to your collection.|RANK|2|
@@ -151,7 +156,7 @@ C Moon Reaver|QID|42751|QO|2|CHAT|M|60.46,82.57|N|Let Remulos go free.|RANK|2|
 $ Treasure|QID|38893|M|60.48,82.14|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|44136|M|62.17,86.23;62.70,85.26|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|38389|M|63.38,88.39|N|Loot for a bit of treasure and resources.|RANK|3|
-$ Treasure|QID|39074|M|65.38,86.77|N|Small cave, below Whispering Bluff. Loot for a bit of treasure and resources.|RANK|3|
+$ Treasure|QID|39074|M|65.38,86.25|N|Small cave, below Whispering Bluff. Loot for a bit of treasure and resources.|RANK|3|
 R Lightsong|QID|42786|M|61.46,87.9;59.52,85.90|CS|N|Back up the hill to turn the quests in.|RANK|2|
 T Moon Reaver|QID|42751|M|59.33,83.99|N|To Keeper Remulos.|RANK|2|
 
@@ -164,9 +169,9 @@ A Thieving Thistleleaf|QID|38862|M|53.77,79.87|N|Auto accepted from the lunarwin
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|As you search for Thorndancers, free Lunarwings by untangleing the roots, or fighting the ones in the air.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|S|N|As you search for Thorndancers, kill Thistleleaf Ruffians to reclaim the eggs.|RANK|2|
 $ Treasure|QID|38861|M|56.05,83.75|N|In a small cave. Loot for a bit of treasure and resources.|RANK|2|
-$ Treasure|QID|38864|M|54.00,82.19;54.94,80.56|CS|N|Dive in and swim into an underwater cave.  Loot the treasure chest for a bit of treasure and resources.|RANK|2|;bugged 8/27 and quest doesnt actually loot or go away.
 K Kill Jinkiki The Puncturer|QID|38889|QO|1|M|53,87|T|Jinkiki The Puncturer|N|Enter the cave and chat with the little bear to rescue him.|ITEM|128690|RANK|2|
 A Adopting the Adorable|QID|38889|M|53,87|N|From the Shivering Bear Cub upon killing Jinkiki.|RANK|2|
+$ Treasure|QID|38864|M|54.00,82.19;54.94,80.56|CS|N|Dive in and swim into an underwater cave.  Loot the treasure chest for a bit of treasure and resources.|RANK|2|;bugged 8/27 and quest doesnt actually loot or go away.
 C Thorny Dancing|QID|40220|M|53.75,79.82|N|Kill 3 Thorndancers, they are the taller Thistleleaf mobs.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|US|N|Finish collecting the eggs.|RANK|2|
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|Finish rescueing Lunarwings.|RANK|2|
@@ -176,7 +181,7 @@ T Thieving Thistleleaf|QID|38862|M|53.75,79.82|N|To Saylanna Riverbreeze.|RANK|2
 T Thorny Dancing|QID|40220|M|53.75,79.82|N|To Saylanna Riverbreeze.|RANK|2|
 T Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|N|To Saylanna Riverbreeze.|RANK|2|
 
-R Field of Dreams|QID|38142|M|54.31,77.57;51.82,75.21|CS|N|You can return to Cenarius Grove and then take the road from there, or just go cross country.|
+R Field of Dreamers|QID|38142|M|52.77,78.98;51.82,75.21|CS|N|You can return to Cenarius Grove and then take the road from there, or just go cross country.|
 $ Treasure|QID|38388|M|50.96,77.00;51.49,77.70|CS|N|Small cave, right beside the road. Loot chest for treasure and resources.|RANK|2|
 R Steelclaw Vale|QID|38142|M|49.19,81.06|N|Continue down the road.|
 T Archdruid of the Claw|QID|38142|M|49.09,82.33|N|To Rylissa Bearsong.|
@@ -234,7 +239,7 @@ C Wisp in the Willows|QID|39354|M|54.31,68.22|QO|1|NC|N|Click on the wisp to bon
 C Wisp in the Willows|QID|39354|M|49.28,63.90|QO|2|NC|N|The wisp will go unerringly to the pools, and then try to get eaten by fish, you need to steer it away from the water circles, and stop at each seedling tree.  Press the "1" key to grow the trees.|RANK|2|
 T Wisp in the Willows|QID|39354|M|54.25,68.30|N|To Syndrelle.|RANK|2|
 
-R Grove of Cenarius|QID|38322|M|54.74,67.19;54.16,67.71|CS|N|Follow the road on into the Grove.|
+R Grove of Cenarius|QID|38322|M|54.74,67.19|N|Follow the road on into the Grove.|
 T Return to the Grove|QID|38322|M|51.90,64.11|N|To Malfurion Stormrage.|
 A The Emerald Queen|QID|38377|M|51.90,64.11|N|From Malfurion Stormrage.|
 C The Emerald Queen|QID|38377|M|52.29,64.21|QO|1|N|Ysera Summoned|CHAT|
@@ -378,7 +383,7 @@ A Regroup at the Refuge|QID|43576|M|66.93,50.14|N|From Tyrande Whisperwind.|
 C Lost in Retreat|QID|38671|M|65.12,51.22|NC|S|N|Pick up the Shadowfen Heirlooms|
 $ Treasure|QID|38355|M|64.70,51.25|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Grelda the Hag|QID|40126|QO|1|M|65.8,53.45|ITEM|130122|T|Grelda the Hag|N|Kill and loot for a bit of treasure and resources|RANK|2|
-$ Treasure|QID|38381|M|67.38,53.42|N|Upstairs on the second floor balcony. Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure|QID|38386|M|67.38,53.42|N|Upstairs on the second floor balcony. Loot for a bit of treasure and resources.|RANK|2|
 C Lost in Retreat|QID|38671|M|65.12,51.22|NC|US|N|Finish picking up the Shadowfen Heirlooms|
 C Wormtalon Wreckage|QID|41707|M|66.86,50.18|US|N|Finish up killing Wormtalons.|
 T Lost in Retreat|QID|38671|M|69.44,49.38|N|To Mender Onelle.|
@@ -391,7 +396,7 @@ A Reading the Leaves|QID|38684|M|66.21,44.53|N|From Elothir.|
 A Given to Corruption|QID|41893;41749|M|66.21,44.53|N|From Elothir.|
 $ Purging the river|QID|39130|M|67.50,45.07|N|Kill the elemental for treasure and resources.|RANK|2|;on beta (when it wasnt broken) Talk to Flandras Mistcaller to start the vignette. Flandras now MIA
 C Reading the Leaves|QID|38684|M|68.10,35.48|S|N|Kill 'Twisted' mobs to collect corrupted petals|
-$ Treasure|QID|38386|M|66.60,42.77;66.56,40.91|CS|N|Follow the path up to an outcropping overlooking the waterfall. Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure|QID|39108|M|66.60,42.77;66.56,40.91|CS|N|Follow the path up to an outcropping overlooking the waterfall. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39073|M|67.16,41.71;68.33,40.61|CS|N|Follow the path down, Chest is in house at base of falls. Loot for a bit of treasure and resources.|RANK|2|
 K Kill Wraithtalon|QID|39856;43447|QO|1|M|66.88,37.38|T|Wraithtalon|ITEM|130116|N|Kill and loot for a bit of treasure and resources.|RANK|2|
 C Reading the Leaves|QID|38684|M|68.10,35.48|US|N|Finish collecting the petals.|
