@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2016-09-09 22:15
+-- Who: Emmaleah
+-- Log: Correct QO order and T coordinates for 42187
+
+-- URL: http://wow-pro.com/node/3672/revisions/27709/view
 -- Date: 2016-09-07 03:43
 -- Who: Emmaleah
 -- Log: delete dup |QO|2 - C Into The Heavens|QID|40570|QO|2|
@@ -66,10 +71,10 @@ T Two Paths, Two Weapons|QID|43973|M|51.39,48.38|N|To Iron-Body Ponshu.|
 A Artifact Specific Quest|QID|42762;41003;40569|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|43973|
 ;beginning of lost stuff. recreated from memory and wowhead-coordinates are copied from elsewhere or approximations of where I remember standing.
 N Use the Forge|QID|44424|M|51.44,48.25|N|You may want to save a few of your artifact empowerment items for your other specs, but don't forget to stop by the forge and make your weapon tougher. You will need to check this step off manually.|PRE|43973|
-C Rise, Champions|QID|42187|M|49.13,58.58|QO|1|NC|N|Recruit Li Li Stormstout.|
-C Rise, Champions|QID|42187|M|55.15,57.0|QO|2|NC|N|Recruit Chen Stormstout.|
-T Rise, Champions|QID|42187|M|51.41,48.37|N|To Master Hsu.|
-A Tianji of the Ox|QID|41945|M|51.41,48.37|N|From Master Hsu.|PRE|42187|
+C Rise, Champions|QID|42187|M|49.13,58.58|QO|2|NC|N|Recruit Li Li Stormstout.|
+C Rise, Champions|QID|42187|M|55.15,57.0|QO|1|NC|N|Recruit Chen Stormstout.|
+T Rise, Champions|QID|42187|M|52.75,59.69|N|To Master Hsu.|
+A Tianji of the Ox|QID|41945|M|52.75,59.69|N|From Master Hsu.|PRE|42187|
 C Tianji of the Ox|QID|41945|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send Chen on a mission. This first mission only takes 2 minutes. While you are waiting you can choose your next zone.|
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|52.96,60.19|N|From the Scouting Map (scouting map tab). Choose which zone you want to do next|PRE|42186|;*|NPC|99041
 T Tianji of the Ox|QID|41945|M|51.41,48.37|N|To Master Hsu.|

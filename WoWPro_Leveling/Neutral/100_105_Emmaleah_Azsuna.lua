@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-09-09 22:39
+-- Who: Emmaleah
+-- Log: Better description |N| for C37857, move A/C37963|S| steps to after picking up all the other quests.
+
+-- URL: http://wow-pro.com/node/3657/revisions/27722/view
 -- Date: 2016-09-08 02:37
 -- Who: Emmaleah
 -- Log: Change Olithil and Kallista Starlance's quests to rank 2 as they are not required for the story arc achievement. other minor changes.
@@ -167,14 +172,14 @@ f Challiane Vineyards|QID|38203|M|40.81,8.98|N|At Stagtamer Maliana.|RANK|3|
 T Challiane Vineyards|QID|38203|M|40.78,9.33|N|To Cellarman Voodani.|RANK|3|
 R Azurewing Whelplands|QID|37857|M|53.50,16.68|N|Back to the interupted quest line.|RANK|3|
 
-C Runas Knows the Way|QID|37857|QO|1|M|53.50,16.68|CHAT|N|Follow Runas.|
-A Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|
-C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|N|Click on the mana siphons and kill mobs in the area to advance the objective.|RANK|2|
+C Runas Knows the Way|QID|37857|QO|1|M|53.50,16.68|CHAT|N|Talk to and then follow along with Runas.|
 T Runas Knows the Way|QID|37857|M|53.38,16.21|N|To Projection of Senegos.|
 A Leyline Abuse|QID|37960|M|53.38,16.21|N|From Projection of Senegos.|
 A The Hunger Returns|QID|37959|M|53.78,16.82|N|From Runas the Shamed.|
 T Inscription of the Body|QID|39936|M|54.00,15.28|N|To Baric Stormrunner.|P|Inscription;773|LVL|102|
 A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscription;773|LVL|102|PRE|39936|
+A Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|
+C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|N|Click on the mana siphons and kill mobs in the area to advance the objective.|RANK|2|
 $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and resources.|RANK|2|
 C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773|LVL|102|
 C The Hunger Returns|QID|37959|M|55.62,17.50|S|N|Kill and loot the nightfallen for their charged mana jewels.|
