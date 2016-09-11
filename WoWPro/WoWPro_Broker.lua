@@ -722,7 +722,7 @@ function WoWPro.NextStep(k,i)
                 WoWPro.CompleteStep(k, "NextStep(): Completed L step because player level is high enough.")
                 break
             end
-            if WoWPro.action[k] ~= "L"
+            if WoWPro.action[k] ~= "L" then
                 if level > 0 then
                     -- Positive levels then bound the level to being >
                     if level > UnitLevel("player") then
