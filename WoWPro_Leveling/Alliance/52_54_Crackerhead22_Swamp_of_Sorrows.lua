@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
+-- Date: 2016-09-10 23:36
+-- Who: tubera
+-- Log: Split In with a bang in separate QO's (Including cannon jumps)
+
+-- URL: http://wow-pro.com/node/3249/revisions/26640/view
 -- Date: 2014-08-12 18:39
 -- Who: Fluclo
 
@@ -121,10 +126,16 @@ T Kill Gil|QID|27598|M|83.86,40.04|N|To Crazy Larry.|
 T Can't Take It With Them|QID|27599|M|83.86,40.04|N|To Crazy Larry.|
 
 A In With a Bang|QID|27600|M|83.86,40.04|N|From Crazy Larry.|
-C In With a Bang|QID|27600|M|83.59,37.85|N|Talk to Lil' Crazy Jerry just north of the camp where the waypoint is, and choose to go into the cannon. Fuse is by the mast, powder is in the captain's cabin, and the publications are down in the hold.|
-T In With a Bang|QID|27600|M|83.93,40.03|N|Click on the cannon that is on the deck to go back. Then go to Crazy Larry to turn in the quest..|
+F Fortune's Fist|QID|27600|M|83.59,37.85|N|Talk to Lil' Crazy Jerry just north of the camp where the waypoint is, and choose to go into the cannon.|CHAT|
+C In With a Bang|QID|27600|QO|1|M|97.99,24.96|N|Fuse is by the mast.|
+C In With a Bang|QID|27600|QO|2|M|98.58,27.93|N|Powder is in the captain's cabin.|
+C In With a Bang|QID|27600|QO|3|M|93.83,27.15|N|Publications are down in the hold.|
+F Sorrowmurk|QID|27600|M|98.11,26.02|N|Click on the cannon that is on the deck to go back.|CHAT|
+T In With a Bang|QID|27600|M|83.93,40.03|N|To Crazy Larry.|
+
 A Baba Bogbrew|QID|27740|M|83.93,40.03|N|From Crazy Larry.|
-T Baba Bogbrew|QID|27740|M|69.12,76.20|N|Talk to Lil' Crazy just south of the camp, then head to Baba Bogbrew.|
+F Stagalbog|QID|27740|M|82.82,40.99|N|Talk to Lil' Crazy just south of the camp.|CHAT|
+T Baba Bogbrew|QID|27740|M|69.12,76.20|N|To Baba Bogbrew.|
 A Marshfin Madness|QID|27691|M|69.12,76.20|N|From Baba Bogbrew.|
 C Marshfin Madness|QID|27691|M|81.57,88.82|N|Kill any Murloc you see.|
 T Marshfin Madness|QID|27691|M|69.18,76.35|N|To Baba Bogbrew.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-09-11 05:54
+-- Who: Blanckaert
+-- Log:  stream
+
+-- URL: http://wow-pro.com/node/3665/revisions/27733/view
 -- Date: 2016-09-10 04:51
 -- Who: Emmaleah
 -- Log: Found a few treasures with mismatched QIDs and other tweaks from live playthru on rank 3.  All treasure is now on Rank 2 or 3. same for Silver Elites. (actually in last revision, but not mentioned in revision history)
@@ -67,7 +72,7 @@ T The Tranquil Forest|QID|39731|M|70.65,43.80|Z|Dalaran@Dalaran70|N|To Archmage 
 A Tying Up Loose Ends|QID|39861|M|70.65,43.80|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
 C Tying Up Loose Ends|QID|39861|M|69.83,51.21|Z|Dalaran@Dalaran70|QO|1|NC|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|
 $ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|RANK|2|
-$ Treasure|QID|39093|M|54.19,70.59|N|Up the steam on a rock. Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure|QID|39093|M|54.19,70.59|N|Up the stream on a rock. Loot for a bit of treasure and resources.|RANK|2|
 T Tying Up Loose Ends|QID|39861|M|54.69,72.83|N|To Malfurion Stormrage.|
 A Cenarius, Keeper of the Grove|QID|40122|M|54.69,72.83|N|From Malfurion Stormrage.|
 C Cenarius, Keeper of the Grove|QID|40122|M|54.69,72.83|N|Speak to Malfurion|CHAT|
