@@ -142,6 +142,10 @@ function WoWPro:SelectTopGuides()
             item.title:SetText(guide.name)
             item.class:SetText(guide.guidetype)
             item:SetNormalTexture(guide.icon)
+            if guide.icon_offsets then
+                local x1, x2, y1, y2 = unpack(guide.icon_offsets)
+                item:SetTexCoord(x1, x2, y1, y2)
+            end
             item.GID = GID
         else
             -- Nope, dont show anything

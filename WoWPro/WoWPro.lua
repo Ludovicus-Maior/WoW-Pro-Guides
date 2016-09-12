@@ -659,6 +659,8 @@ function WoWPro:GuideClassSpecific(guide,class)
     if engClass ~= class then
         WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't match", guide.GID)
     end
+    guide.icon = "Interface\Glues\CharacterCreate\UI-CharacterCreate-Classes"
+    guide.icon_offsets = CLASS_ICON_TCOORDS[class]
 end
 
 function WoWPro:GuidePetBattle(guide)

@@ -204,7 +204,7 @@ function WoWPro:UpdateGuideList()
         		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row,tooltip,iGuide.guide)		            
         		    GameTooltip:Show()
         		    if iGuide.guide.icon then
-        		        WoWPro:ShowTooltipIcon(iGuide.guide.icon)
+                        WoWPro:ShowTooltipIcon(iGuide.guide.icon, iGuide.guide.icon_offsets)
         		    end
         		end)
         		row:SetScript("OnLeave", function(self)
@@ -307,12 +307,16 @@ end
 
 
 local TooltipButton, TooltipIcon
-function WoWPro:ShowTooltipIcon(icon)
+function WoWPro:ShowTooltipIcon(icon, offsets)
     if not TooltipButton then
          TooltipButton, TooltipIcon = WoWPro:CreateLootsButton(GameTooltip, 99)
     end
     TooltipButton:SetParent(GameTooltip)
     TooltipIcon:SetTexture(icon)
+    if offsets then
+        local x1, x2, y1, y2 = unpack(offsets)
+        TooltipButton:SetTexCoord(x1, x2, y1, y2)
+    end
     TooltipButton:SetPoint("TOPRIGHT", GameTooltip, "TOPRIGHT", -4, -4)
     TooltipButton:Show()
 end
@@ -345,7 +349,7 @@ function WoWPro:CreateGuideTabFrame_Rows(frame)
     		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row,tooltip,iGuide.guide)		            
     		    GameTooltip:Show()
     		    if iGuide.guide.icon then
-    		        WoWPro:ShowTooltipIcon(iGuide.guide.icon)
+    		        WoWPro:ShowTooltipIcon(iGuide.guide.icon, iGuide.guide.icon_offsets)
     		    end
     		end)
     		row:SetScript("OnLeave", function(self)
