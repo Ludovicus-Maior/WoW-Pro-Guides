@@ -735,7 +735,7 @@ function WoWPro.NextStep(k,i)
                     -- Negative levels bound the level to being |level| <
                     if -level <= UnitLevel("player") then
                         skip = true
-                        WoWPro:dbp("Skip %s [%s] because its level %d is too low.",WoWPro.action[k],WoWPro.step[k],level)
+                        WoWPro:dbp("Skip %s [%s] because player level %d is too high.",WoWPro.action[k],WoWPro.step[k],level)
                         WoWPro.why[k] = "NextStep(): Skipping step because player level not high enough."
                         break
                     end
