@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2016-09-13 19:44
+-- Who: Ludovicus
+-- Log: Added missing CS tag.
+
+-- URL: http://wow-pro.com/node/3266/revisions/27699/view
 -- Date: 2016-09-06 17:26
 -- Who: tubera
 -- Log: QOs; Reorganize a bit for UI Alerts; Remove Dungeon quest (No longer available);
@@ -211,7 +216,7 @@ T Assault on Dreadmaul Rock|QID|28454|M|54.69,24.48|N|To Eitrigg.|
 A Glory Amidst Chaos|QID|28455|M|54.69,24.48|N|From Eitrigg.|
 K Glory Amidst Chaos|QID|28455|QO|1|M|65.12,46.66|
 K Glory Amidst Chaos|QID|28455|QO|2|M|63.79,37.81;66.31,37.96;68.88,44.14|CS|
-K Glory Amidst Chaos|QID|28455|QO|3|M|69.32,39.24;70.88,38.13|N|Jump off at the first waypoint.
+K Glory Amidst Chaos|QID|28455|QO|3|M|69.32,39.24;70.88,38.13|CS|N|Jump off at the first waypoint.
 T Glory Amidst Chaos|QID|28455|M|54.61,24.61|N|Back to Eitrigg at Flame Crest.|
 A The Spoils of War|QID|28456|M|54.61,24.61|N|From Eitrigg.|
 T The Spoils of War|QID|28456|M|54.61,24.61|N|To Eitrigg.|
