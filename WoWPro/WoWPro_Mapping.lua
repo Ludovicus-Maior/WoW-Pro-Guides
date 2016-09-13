@@ -698,8 +698,8 @@ function WoWPro:LogLocation()
     if not (x and y) then
         WoWPro:print("Player map and floor unknown")
     else
-        mapID = GetCurrentMapAreaID()
-        level = GetCurrentMapDungeonLevel()
+        local mapID = GetCurrentMapAreaID()
+        local level = GetCurrentMapDungeonLevel()
         WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", x*100 , y*100, mapID, level, GetMapNameByID(mapID), GetZoneText() )
     end
 end

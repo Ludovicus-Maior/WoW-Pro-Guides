@@ -17,7 +17,8 @@ end
 function WoWPro.DefineDungeonArea(mapID, floor, zi, dungeon, mapName)
     DupCheck(zi,"DefineDungeonArea")
     WoWPro.Zone2MapID[zi] = {mapID=mapID, floor=floor, dungeon=dungeon, mapName=mapName}
-    WoWPro.MapID2Zone[mapID] = zi
+    WoWPro.MapID2Zone[mapID] = WoWPro.MapID2Zone[mapID] or {}
+    WoWPro.MapID2Zone[mapID][floor] = zi
     WoWPro.Map2Zone[mapName] = zi
 end
 
@@ -29,7 +30,8 @@ function WoWPro.DefineInstance(mapID, numFloors, zi, mapName)
     else
         WoWPro.Zone2MapID[zi] = {mapID=mapID, numFloors=numFloors, mapName=zi}
     end
-    WoWPro.MapID2Zone[mapID] = zi
+    WoWPro.MapID2Zone[mapID] = WoWPro.MapID2Zone[mapID] or {}
+    WoWPro.MapID2Zone[mapID][0] = zi
 end
 
 function WoWPro.DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
@@ -41,7 +43,8 @@ function WoWPro.DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
         DupCheck(zone,"DefineTerrain2")
         WoWPro.Zone2MapID[zone] = {cont=cont, zonei=zonei, mapID=mapID, numFloors=numFloors, zone=zone, mapName=zone}
     end
-    WoWPro.MapID2Zone[mapID] = zone
+    WoWPro.MapID2Zone[mapID] = WoWPro.MapID2Zone[mapID] or {}
+    WoWPro.MapID2Zone[mapID][0] = zone
 end
 
 function WoWPro.DefineTerrainFloor(cont, zonei, mapID, floor, zone, mapName)
@@ -52,9 +55,25 @@ function WoWPro.DefineTerrainFloor(cont, zonei, mapID, floor, zone, mapName)
         DupCheck(zone,"DefineTerrainFloor2")
         WoWPro.Zone2MapID[zone] = {cont=cont, zonei=zonei, mapID=mapID, floor=floor, zone=zone, mapName=zone}
     end
-    WoWPro.MapID2Zone[mapID] = zone
+    WoWPro.MapID2Zone[mapID] = WoWPro.MapID2Zone[mapID] or {}
+    WoWPro.MapID2Zone[mapID][floor] = zone
 end
 
+function WoWPro.GetZoneText()
+    local mapID = GetCurrentMapAreaID()
+    local level = GetCurrentMapDungeonLevel()
+    if WoWPro.MapID2Zone[mapID] then
+        if WoWPro.MapID2Zone[mapID][level] then
+            return WoWPro.MapID2Zone[mapID][level]
+        elseif WoWPro.MapID2Zone[mapID][0] then
+            return string.format("%s/%d",  WoWPro.MapID2Zone[mapID][0], level)
+        else
+            return string.format("%d/%d", mapID, level)
+        end
+    else
+        return string.format("%d/%d", mapID, level)
+    end
+end
 
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}

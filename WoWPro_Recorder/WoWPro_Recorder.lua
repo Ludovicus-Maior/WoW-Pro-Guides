@@ -89,8 +89,10 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 	if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
 
 	local x, y = GetPlayerMapPosition("player")
-	local zonetag
-	if GetZoneText() ~= WoWPro.Guides[GID].zone then zonetag = GetZoneText() else zonetag = nil end
+	local zonetag = WoWPro.GetZoneText()
+	if zonetag == WoWPro.Guides[GID].zone then
+	    zonetag = nil
+	end
 
 
 	if event == "CHAT_MSG_SYSTEM" then
@@ -311,8 +313,10 @@ end
 function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
     local GID = WoWProDB.char.currentguide
     local x, y = GetPlayerMapPosition("player")
-    local zonetag
-    if GetZoneText() ~= WoWPro.Guides[GID].zone then zonetag = GetZoneText() else zonetag = nil end
+    local zonetag = WoWPro.GetZoneText()
+    if zonetag == WoWPro.Guides[GID].zone then
+        zonetag = nil
+    end
 
     if old_scenario then
         if old_scenario.currentStage == scenario.currentStage then
