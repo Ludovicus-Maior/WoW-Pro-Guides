@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-09-13 03:53
+-- Who: Emmaleah
+-- Log: Add Icon to registration
+
+-- URL: http://wow-pro.com/node/3657/revisions/27729/view
 -- Date: 2016-09-09 22:39
 -- Who: Emmaleah
 -- Log: Better description |N| for C37857, move A/C37963|S| steps to after picking up all the other quests.
@@ -37,6 +42,8 @@ local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah'
 WoWPro:GuideLevels(guide,98, 105)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Azsuna")
+
 return [[
 
 N Starting in Dalaran|QID|39718|U|140192|N|This guide assumes you are starting in Dalaran. |

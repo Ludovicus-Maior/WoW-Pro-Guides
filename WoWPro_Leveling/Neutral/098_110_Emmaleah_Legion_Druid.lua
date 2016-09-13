@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2016-09-12 04:33
+-- Who: Emmaleah
+-- Log: grizzly hills
+
+-- URL: http://wow-pro.com/node/3669/revisions/27654/view
 -- Date: 2016-08-30 23:09
 -- Who: Ludovicus
 -- Log: |N| tag trouble
@@ -134,7 +139,7 @@ C To The Hills|QID|41782|NC|QO|1|M|35.71,25.60|Z|EmeraldDreamway|N|Click on the 
 R Emerald Dreamway|QID|41782|CC|M|55.27,22.93|Z|EmeraldDreamway|N|Run to Emerald Dreamway Portal|ACTIVE|41782|
 R Vordrasil|QID|41782|CC|M|32.14,27.66||N|Run to the Vordrassil portal.|ACTIVE|41782|
 C To The Hills|QID|41782|NC|CS|QO|3|M|50.31,40.26;51.05,37.03|Z|Grizzly Hills|N|Go down inside Grizzlemaw and take the tunnel to find Lea.|
-T To The Hills|QID|41782|M|51.29,36.81|Z|Grizzly Hils|N|To Lea Stonepaw.|
+T To The Hills|QID|41782|M|51.29,36.81|Z|Grizzly Hills|N|To Lea Stonepaw.|
 A Fallen Offerings|QID|41783|M|51.29,36.81|Z|Grizzly Hills|N|From Lea Stonepaw.|PRE|41782|
 l Fallen Offerings|QID|41783|L|136359 3|N|You may need to pick up more than 3 pouches from the Fallen Shaman's lying on the ground.|ACTIVE|41783|
 U Fallen Offerings|QID|41783|U|136359|N|Open the pouches until you get 3 offerings.|ACTIVE|41783|

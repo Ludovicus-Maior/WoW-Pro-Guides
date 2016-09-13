@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mardum_shattered_abyss_source_code
+-- Date: 2016-09-13 18:26
+-- Who: Ludovicus
+-- Log: Add proper name to LinksDHArtCH100100
+
+-- URL: http://wow-pro.com/node/3656/revisions/27547/view
 -- Date: 2016-08-11 11:23
 -- Who: Emmaleah
 
@@ -66,6 +71,7 @@
 local guide = WoWPro:RegisterGuide('LinksDHArtCH100100', 'Leveling', 'Orgrimmar', 'Linkslegend5', 'Neutral')
 WoWPro:GuideLevels(guide,100, 100)
 WoWPro:GuideNextGuide(guide, '')
+WoWPro:GuideName(guide, 'Demon Hunter Order Hall')
 WoWPro:GuideClassSpecific(guide,"DemonHunter")
 WoWPro:GuideSteps(guide, function()
 return [[

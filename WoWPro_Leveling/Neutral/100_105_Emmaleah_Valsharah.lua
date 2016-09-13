@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-09-13 03:41
+-- Who: Emmaleah
+-- Log: restored the "-1" in "R Bradensbrook|...|RANK|-1| The -1 means it ONLY shows if you are doing the guide on rank 1.  The path is defined by the various treasure/rare hunting if you are doing it on rank 2/3 (that are skipped for rank 1).
+
+-- URL: http://wow-pro.com/node/3665/revisions/27746/view
+-- Date: 2016-09-13 03:34
+-- Who: Emmaleah
+-- Log: Added Zone Icon, made changes suggested by Blanckaert. (Place Treasure|QID|38387 at a different place in guide, place Destroy totem to after kill chieftan graw, |O|itemID| tags for the quests started from items.)
+
+-- URL: http://wow-pro.com/node/3665/revisions/27743/view
+-- Date: 2016-09-12 04:53
+-- Who: Emmaleah
+-- Log: some missed rank 2 tabs on treasure and bonus objective steps (and added LVL|-109 that I see is redundant... oh well.
+
+-- URL: http://wow-pro.com/node/3665/revisions/27741/view
+-- Date: 2016-09-12 02:53
+-- Who: Blanckaert
+-- Log: Added |LVL| tags so Bonus Objectives don't show up, if you are Level Capped.
+
+-- URL: http://wow-pro.com/node/3665/revisions/27739/view
+-- Date: 2016-09-12 01:15
+-- Who: Blanckaert
+-- Log: Added Coords for a |CS| step to Grizzleweald.
+
+-- URL: http://wow-pro.com/node/3665/revisions/27736/view
 -- Date: 2016-09-11 05:54
 -- Who: Blanckaert
 -- Log:  stream
@@ -61,18 +86,17 @@ local guide = WoWPro:RegisterGuide('EmmValsharah', 'Leveling', "Val'sharah", 'Em
 WoWPro:GuideLevels(guide,98, 105, 100.1)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_ValSharah")
 return [[
 
 N Starting in Dalaran|QID|39731|U|140192|N|This guide assumes you are starting in Dalaran. |
 N Treasure|QID|39731|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3. None are included on rank 1.|
-N Rares (Silver Elite)|QID|39731|N|All of the Silver mobs are listed on rank 2 or 3 (none on rank 1).  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star. |
+N Rares (Silver Elite)|QID|39731|N|All of the Silver mobs are listed on rank 2 or 3 (none on rank 1).  The item displayed has a high chance to drop but not guaranteed.  Blizzard has marked these mobs on the minimap with a star. |
 N Ranks|QID|39731|N|Setting the guide to Rank 1 will get you the minimum nesessary for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there as well as treasure chests and rares that are in the same areas. Rank 3 gets every quest, rare and nearly every treasure in the zone.|
 
 T The Tranquil Forest|QID|39731|M|70.65,43.80|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Tying Up Loose Ends|QID|39861|M|70.65,43.80|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
 C Tying Up Loose Ends|QID|39861|M|69.83,51.21|Z|Dalaran@Dalaran70|QO|1|NC|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|
-$ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|RANK|2|
-$ Treasure|QID|39093|M|54.19,70.59|N|Up the stream on a rock. Loot for a bit of treasure and resources.|RANK|2|
 T Tying Up Loose Ends|QID|39861|M|54.69,72.83|N|To Malfurion Stormrage.|
 A Cenarius, Keeper of the Grove|QID|40122|M|54.69,72.83|N|From Malfurion Stormrage.|
 C Cenarius, Keeper of the Grove|QID|40122|M|54.69,72.83|N|Speak to Malfurion|CHAT|
@@ -82,6 +106,8 @@ T Nature's Call|QID|38384|M|53.33,63.93;54.65,65.92;54.38,73.58|CS|N|To Aranelle
 A Archdruid of the Vale|QID|38382|M|54.38,73.58|N|From Aranelle.|
 A Archdruid of the Claw|QID|38142|M|54.38,73.58|N|From Aranelle.|
 A Archdruid of Lore|QID|38381|M|54.38,73.58|N|From Aranelle.|
+$ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure|QID|39093|M|54.19,70.59|N|Up the stream on a rock. Loot for a bit of treasure and resources.|RANK|2|
 
 $ Treasure|QID|38466|M|55.55,77.60|L|130147|N|Open this treasure chest to start a short event where several forest sprites attack.  After they are dead, loot the chest again for your treasure|ITEM|130147|RANK|2|
 U Thistleleaf Branch|QID|38382|M|55.55,77.60|U|130147|N|Click to add the toy to your collection.|RANK|2|
@@ -90,8 +116,8 @@ U Pygmy Owl|QID|38468|M|59.54,77.23|U|130154|N|Click to add the Pygmy Owl to you
 
 T Archdruid of the Vale|QID|38382|M|61.04,73.23|N|To Thaon Moonclaw.|
 A Dishonored|QID|39383|M|61.04,73.25|N|From Thaon Moonclaw.|
-A Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|N|Auto accepted by entering the area.|
-C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|S|N|Destroy Totems, rescue druids and in general cause meyhem to advance the objective.|
+A Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|N|Auto accepted by entering the area.|RANK|2|LVL|-109|
+C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|S|N|Destroy Totems, rescue druids and in general cause meyhem to advance the objective.|RANK|2|
 $ Treasure|QID|38943|M|59.88,72.26|N|Inside the house, up the right staircase. Loot for a bit of resources and treasure.|RANK|2|
 K Kill Perrexx|QID|39596|QO|1|M|61.02,69.36|ITEM|130137|N|Kill for a chance at treasure and resources.|T|Perrexx|RANK|2|
 C Dishonored|QID|39383|M|62.90,70.99|N|Kill Xandris the Dishonored.|T|Xandris the Dishonored|
@@ -111,10 +137,10 @@ $ Treasure|QID|39070|M|63.03,76.98|N|loot for a bit of treasure and resources.|R
 C The Nightmare Lord|QID|40573|M|63.83,77.52|NC|QO|3|N|Thaon Moonclaw found|
 C The Nightmare Lord|QID|40573|M|64.03,77.96|QO|4|N|Thaon Moonclaw slain|
 T The Nightmare Lord|QID|40573|M|62.33,76.20|N|To Evelle Nightwhisper.|
-C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|US|N|Stay and Finish or check this off manually.|
-t Moonclaw Vale-Bonus Objective|QID|39393|M|63.81,70.05|N|Auto-turn-in when completed.|
+C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|US|N|Stay and Finish or check this off manually.|RANK|2|
+t Moonclaw Vale-Bonus Objective|QID|39393|M|63.81,70.05|N|Auto-turn-in when completed.|RANK|2|
 
-R Grizzleweald|QID|42865|M|66.69,77.28|N|Some optional quests and treasure are available over here.|RANK|2|
+R Grizzleweald|QID|42865|M|64.28,73.44;65.29,77.07|CS|N|Some optional quests and treasure are available over here.|RANK|2|
 A All Grell Broke Loose|QID|42883|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Grassroots Effort|QID|42884|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Grell to Pay|QID|42865|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
@@ -142,7 +168,7 @@ A Where the Wildkin Are|QID|42747|M|59.41,84.12|N|From Guviena Bladesong.|RANK|2
 C Where the Wildkin Are|QID|42747|M|59.46,82.04|S|N|Kill Wildkin and slimes as you go.|RANK|2|
 C Emerald Sisters|QID|42748|M|59.46,82.04|S|N|Rescue Sisters as you go in the Grotto.|RANK|2|
 A Dreamcatcher|QID|42750|M|59.46,82.04|N|From Leirana.|RANK|2|
-A Grotessque Remains|QID|42786|N|From an item that will randomly drop from the slimes.|RANK|2|
+A Grotesque Remains|QID|42786|O|138441|N|From an item that will randomly drop from the slimes.|RANK|2|
 C Dreamcatcher|QID|42750|M|59.22,81.87|QO|1|NC|N|Click the Shriektalon Totem to siphen.|RANK|2|
 C Dreamcatcher|QID|42750|M|56.30,81.14|QO|2|NC|N|Click the Fearfeather Totem to siphen.|RANK|2|
 C Dreamcatcher|QID|42750|M|61.03,80.70|QO|3|NC|N|Click the Reaverbeak Totem to siphen.|RANK|2|
@@ -150,7 +176,7 @@ C Emerald Sisters|QID|42748|M|59.46,82.04|US|N|Finish rescuing Sisters as you le
 C Where the Wildkin Are|QID|42747|M|59.46,82.04|US|N|Finish killing Wildkin and slimes as you leave the grotto.|RANK|2|
 T Emerald Sisters|QID|42748|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 T Where the Wildkin Are|QID|42747|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
-T Grotessque Remains|QID|42786|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
+T Grotesque Remains|QID|42786|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 T Dreamcatcher|QID|42750|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 A Moon Reaver|QID|42751|M|59.41,84.13|N|From Guviena Bladesong.|RANK|2|
 
@@ -166,11 +192,11 @@ R Lightsong|QID|42786|M|61.46,87.9;59.52,85.90|CS|N|Back up the hill to turn the
 T Moon Reaver|QID|42751|M|59.33,83.99|N|To Keeper Remulos.|RANK|2|
 
 R Lunarwing Shallows|QID|40220|M|57.76,86.68;56.14,78.26;53.77,79.87|CS|N|Some optional quests and a bonus objective are available in Lunarwing Shallows.|RANK|2|
-A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you enter the area.|RANK|2|
+A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you enter the area.|RANK|2|LVL|-109|
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|S|N|Kill the thistleleafs and otherwise work towards the objective.|RANK|2|
 A Thorny Dancing|QID|40220|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
 A Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
-A Thieving Thistleleaf|QID|38862|M|53.77,79.87|N|Auto accepted from the lunarwing egg you just looted.|RANK|2|
+A Thieving Thistleleaf|QID|38862|M|53.77,79.87|O|129966|N|Auto accepted from the lunarwing egg you just looted.|RANK|2|
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|As you search for Thorndancers, free Lunarwings by untangleing the roots, or fighting the ones in the air.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|S|N|As you search for Thorndancers, kill Thistleleaf Ruffians to reclaim the eggs.|RANK|2|
 $ Treasure|QID|38861|M|56.05,83.75|N|In a small cave. Loot for a bit of treasure and resources.|RANK|2|
@@ -196,13 +222,14 @@ C Frenzied Furbolgs|QID|38455|M|46.95,84.40|S|N|Kill the Smolderhide furbolgs th
 T Littlefur|QID|38922|M|46.24,84.56|N|To Littlefur.|
 A Totemic Call|QID|38246|M|46.24,84.56|N|From Littlefur.|
 $ Treasure|QID|38277|M|46.46,86.33|N|Loot for treasure and resources.|RANK|2|
-C Totemic Call|QID|38246|M|48.87,88.52|N|Nightmare Totem destroyed|
 R Marrowden|QID|43446|M|46.02,87.22|N|Brief sidetrip for a couple of treasures and a silver.|RANK|3|;can not find the kel'delar treasure and the risk reward is terrible for the one in the hydra cave
 K Kill Bahagar|QID|43446|QO|1|M|45.61,88.84|ITEM|130135|N|Silver - Kill for loot and resources.|RANK|3|
 $ Treasure|QID|44138|M|43.7,89.9;43.05,88.19|CS|N|In a cave with several unfriendly hydras.  Loot for a bit of treasure and resources.|RANK|3|;if we had such a rank... this would qualify for rank 4
+$ Treasure|QID|38387|M|44.87,79.23;44.35,82.58|CS|N|Run up this path and to a small cave behind and underneath the inn at Sabermaw Bluff for a bit of loot and treasure.|RANK|3|
 R Smolderhide Thicket|QID|38146|M|48.68,88.28|N|And... back to your questing.|RANK|3|
 K Kill Chieftain Graw|QID|38146|M|48.68,88.28|L|128340|T|Chieftain Graw|
-A The Chieftain's Beads|QID|38146|M|48.71,88.30|N|Auto accepted from item you looted from the Cheiftain.|
+A The Chieftain's Beads|QID|38146|M|48.71,88.30|O|128340|N|Auto accepted from item you looted from the Cheiftain.|
+C Totemic Call|QID|38246|M|48.87,88.52|N|Destroy the Nightmare Totem behind the Cheiftain.|
 C Frenzied Furbolgs|QID|38455|M|46.95,84.40|US|N|Finish killing the Smolderhide furbolg.|
 T Totemic Call|QID|38246|M|48.39,84.63|N|To Elder Sookh.|
 T The Chieftain's Beads|QID|38146|M|48.39,84.63|N|To Elder Sookh.|
@@ -225,17 +252,16 @@ $ Treasure|QID|38366|M|48.69,73.79|N|Surrounded by a circle of tree trunks. Loot
 T Archdruid of Lore|QID|38381|M|48.87,70.18|N|To Elothir.|
 A Solid as a Rock|QID|38235|M|48.87,70.18|N|From Elothir.|
 A Death to the Witchmother|QID|38225|M|48.87,70.18|N|From Elothir.|
-A Wretched Sisters-Bonus Objective|QID|38372|M|48.32,68.86;47.25,69.79|CS|N|Auto Accepted when you enter the area.|
-C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Smash eggs, burn nests, rouse acolytes and of course kill harpys to advance the objective.|
+A Wretched Sisters-Bonus Objective|QID|38372|M|48.32,68.86;47.25,69.79|CS|N|Auto Accepted when you enter the area.|RANK|2|LVL|-109|
+C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Smash eggs, burn nests, rouse acolytes and of course kill harpys to advance the objective.|RANK|2|
 C Solid as a Rock|QID|38235|M|43.84,70.19|QO|1|NC|N|Click Marnor to rescue him.|
 C Solid as a Rock|QID|38235|M|43.85,75.31|QO|3|NC|N|Click Del'thanar to rescue him.|
 $ Treasure|QID|38363|M|43.39,75.89|N|Loot for a bit of resources and treasure.|RANK|2|
-$ Treasure|QID|38387|M|44.87,79.23;44.35,82.58|CS|N|Run up this path and to a small cave behind and underneath the inn at Sabermaw Bluff for a bit of loot and treasure.|RANK|3|
 K Kill Seersei|QID|38479|QO|1|M|41.82,78.43|ITEM|130171|T|Seerseo|N|Kill and loot for a bit of resources and treasure.|RANK|2|
 C Death to the Witchmother|QID|38225|M|45.67,77.59|QO|1|N|Kill Magula.|T|Magula|
 C Solid as a Rock|QID|38235|M|46.58,76.53|QO|2|NC|N|Click Erwind to rescue him.|
-C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Finish or check this off manually.|
-t Wretched Sisters-Bonus Objective|QID|38372|M|45.31,73.90|N|Auto turned in when you complete it.|
+C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Finish or check this off manually.|RANK|2|
+t Wretched Sisters-Bonus Objective|QID|38372|M|45.31,73.90|N|Auto turned in when you complete it.|RANK|2|
 T Solid as a Rock|QID|38235|M|48.89,70.22|N|To Elothir.|
 T Death to the Witchmother|QID|38225|M|48.89,70.22|N|To Elothir.|
 A Return to the Grove|QID|38322|M|48.89,70.22|N|From Elothir.|
@@ -255,16 +281,16 @@ R The Crescent Vale|QID|38641|M|53.70,63.74;56.59,62.13|CS|N|Follow this road to
 $ Treasure|QID|39072|M|56.22,57.30|N|Loot for a bit of treasure and resources.|RANK|2|
 f Garden of the Moon|QID|38641|M|56.74,57.72|N|At Brinlanya Moonstone.|
 T The Temple of Elune|QID|38641|M|51.44,57.01|N|To Lyanis Moonfall.|
-A Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|N|Auto Accepted when you enter the inner temple.|
+A Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|N|Auto Accepted when you enter the inner temple.|RANK|2|LVL|-109|
 A Tears for Fears|QID|38662|M|51.44,57.01|N|From Lyanis Moonfall.|
 A Root Cause|QID|38655|M|51.48,56.83|N|From Isoraen Nightstar.|
-C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|S|N|Kill demons, chop down entangling roots as you go to complete the bonus objective.|
+C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|S|N|Kill demons, chop down entangling roots as you go to complete the bonus objective.|RANK|2|
 C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to collect the corrupted root samples.|
 C Tears for Fears|QID|38662|M|59.19,54.03|NC|N|Listen to the dialog|
 C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to collect the corrupted root samples.|
 C Root Cause|QID|38655|M|59.11,54.33|US|NC|N|Finish collecting any needed samples on your way back to the inner temple.|
-C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|US|N|Optional - Finish up the bonus objective.|
-t Defend The Temple-Bonus Objective|QID|39029|M|58.17,57.83|N|Auto turned in when complete.|
+C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|US|N|Optional - Finish up the bonus objective.|RANK|2|
+t Defend The Temple-Bonus Objective|QID|39029|M|58.17,57.83|N|Auto turned in when complete.|RANK|2|
 T Root Cause|QID|38655|M|51.49,56.85|N|To Isoraen Nightstar.|
 T Tears for Fears|QID|38662|M|51.43,57.01|N|To Lyanis Moonfall.|
 A The Die is Cast|QID|38663|M|51.43,57.01|N|From Lyanis Moonfall.|
@@ -324,8 +350,8 @@ T Kur'talos Ravencrest|QID|38718|M|40.74,53.01|N|To Commander Jarod Shadowsong.|
 A Maiev's Trail|QID|38714|M|40.74,53.01|N|From Commander Jarod Shadowsong. If he disappears, run out of the room and back in and he reappears.|
 A The Rooks Guard|QID|38715|M|40.74,53.01|N|From Commander Jarod Shadowsong.|
 U Inscription on tomb|QID|38772|QO|1|M|37.96,52.81|N|Silver - Click on the nameplate to summon Theryssia and put her to rest.|T|Theryssia|RANK|2|
-A Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|N|Auto accepted as you enter this area.|
-C Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|S|N|Click on the Keldorei Tomes, weapon racks and kill the Black Rook mobs as you go about your other objectives.|
+A Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|N|Auto accepted as you enter this area.|RANK|2|LVL|-109|
+C Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|S|N|Click on the Keldorei Tomes, weapon racks and kill the Black Rook mobs as you go about your other objectives.|RANK|2|
 C The Rook's Guard|QID|38715|M|39.92,52.07|QO|1|N|Kill Starlys Strongbow in the Ravencourt.|T|Starlys Strongbow|
 C Maiev's Trail|QID|38714|M|40.45,51.62|QO|1|NC|N|Click on the girl lying in the prison cages here.|
 $ Treasure|QID|38369|M|39.94,54.61|N|Loot for treasure and resources.|RANK|2|
@@ -341,8 +367,8 @@ A Black Rook Prison|QID|38717|M|43.82,50.29|N|From Commander Jarod Shadowsong.|
 $ Treasure|QID|39084|M|43.22,54.87|N|Slight detour while you are following Commander Shadowsong to loot this chest for a bit of treasure and resources.|RANK|2|
 C Black Rook Prison|QID|38717|M|42.22,46.43|N|Kill Araxxas and loot the Prison Keys.|T|Araxxas|
 C Black Rook Hold-Bonus Objective|QID|38716|M|43.35,53.18|US|N|Optional - Complete before you leave the area.|
-t Black Rook Hold-Bonus Objective|QID|38716|M|43.35,53.18|N|Auto turned in when complete.|
-T Black Rook Prison|QID|38717|M|40.56,44.27|N|Go thru the doorway behind Araxxas and down a long winding staircase to find Commander Shadowsong and turn in your quest.|
+t Black Rook Hold-Bonus Objective|QID|38716|M|43.35,53.18|N|Auto turned in when complete.|RANK|2|
+T Black Rook Prison|QID|38717|M|40.56,44.27|N|Go thru the doorway behind Araxxas and down a long winding staircase to find Commander Shadowsong and turn in your quest.|RANK|2|
 A Brotherly Love|QID|38724|M|40.56,44.27|N|From Commander Jarod Shadowsong.|
 A Illidari Freedom|QID|38719|M|40.57,44.34|N|From Arduen Soulblade.|
 $ Treasure|QID|39085|M|40.51,44.68|N|In the water right beside where Arduen is lying. Loot for a bit of treasure and resources.|RANK|2|
@@ -373,7 +399,7 @@ A The Demon's Trail|QID|38753|M|64.88,61.36|N|From Ysera.|
 C The Demon's Trail|QID|38753|M|67.36,56.45|NC|N|Andu'talah Searched|
 T The Demon's Trail|QID|38753|M|67.45,56.11|N|To Tyrande Whisperwind.|
 A Love Lost|QID|41054;41056|M|67.45,56.11|N|From Tyrande Whisperwind.|
-$ Treasure|QID|38783|M|70.18,56.97|N|Loot for a bit of treasure and resources.|
+$ Treasure|QID|38783|M|70.18,56.97|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|38781|M|67.39,57.41;67.81,58.86;68.94,60.64;69.67,61.08;69.44,59.95|CS|N|Run back here for a bit of treasure and resources. After you finish, you can drop down to the path below you to continue on to Starsong Refuge.|RANK|3|
 f Starsong Refuge|QID|41054;41056|M|69.02,50.83|N|At Landrius Ravenfall.|
 T Love Lost|QID|41054;41056|M|69.55,49.52|N|To Tyrande Whisperwind.|
@@ -406,7 +432,7 @@ $ Treasure|QID|39073|M|67.16,41.71;68.33,40.61|CS|N|Follow the path down, Chest 
 K Kill Wraithtalon|QID|39856;43447|QO|1|M|66.88,37.38|T|Wraithtalon|ITEM|130116|N|Kill and loot for a bit of treasure and resources.|RANK|2|
 C Reading the Leaves|QID|38684|M|68.10,35.48|US|N|Finish collecting the petals.|
 C Given to Corruption|QID|41749;41893|M|66.64,36.14;68.69,35.32|CS|N|Kill Varethos.|T|Varethos|
-A Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto Accepted upon entering the area.|RANK|2|
+A Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto Accepted upon entering the area.|RANK|2|LVL|-109|
 C Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|S|N|Kill mobs, pick bloodflowers and whatnot, while finding the treasure and rare in the area.|RANK|2|
 $ Treasure|QID|44139|M|63.91,45.57|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Thondrax|QID|38780|QO|1|M|62.99,47.95|ITEM|130121|T|Thondrax|N|Kill and loot for a bit of treasure and resources.|RANK|2|
@@ -418,8 +444,8 @@ T Given to Corruption|QID|41749;41893|M|66.20,44.52|N|To Elothir.|
 
 A Softening the Target|QID|43702|M|66.20,44.76|N|From Tyrande Whisperwind.|
 C Softening the Target|QID|43702|M|66.34,44.85|N|Hop on the bat for a bombing run.|
-A Ruins of Shala'nir-Bonus Objective|QID|38748|M|63.28,42.07|N|Auto Accepted upon entering the area.|
-C Ruins of Shala'nir-Bonus Objective|QID|38748|M|63.28,42.07|S|N|Kill mobs and destroy nightmare totems to complete the objective.|
+A Ruins of Shala'nir-Bonus Objective|QID|38748|M|63.28,42.07|N|Auto Accepted upon entering the area.|RANK|2|LVL|-109|
+C Ruins of Shala'nir-Bonus Objective|QID|38748|M|63.28,42.07|S|N|Kill mobs and destroy nightmare totems to complete the objective.|RANK|2|
 T Softening the Target|QID|43702|M|63.19,42.22|N|To Tyrande Whisperwind.|
 A Close Enough to Touch|QID|38687;41763|M|63.19,42.22|N|From Tyrande Whisperwind.|
 C Close Enough to Touch|QID|38687;41763|M|62.48,38.89|NC|QO|1|N|Follow Tyrande into Shala'nir|
@@ -431,8 +457,8 @@ C Close Enough to Touch|QID|38687;41763|M|59.12,32.62|NC|QO|4|N|Search for Malfu
 K Kill Ironbranch|QID|40080|QO|1|M|58.78,33.91|N|Kill for a bit of loot and treasure.|T|Ironbranch|RANK|2|
 $ Treasure|QID|38390|M|53.2,38;54,34.89|CS|ITEM|141891|N|Just check this off and save the repair bill if you can't stealth or are not in a group. That being said, there is a cave in the tangled cleft.  In the middle of the cave is the treasure.|RANK|3|
 C Close Enough to Touch|QID|38687;41763|M|58.47,37.71|NC|QO|5|N|Find Malfurion|
-C Ruins of Shala'nir|QID|38748|M|61.52,35.71|US|N|Stay and finish if you want to.|
-t Ruins of Shala'nir|QID|38748|M|61.52,35.71|N|Auto Turned in when completed.|
+C Ruins of Shala'nir-Bonus Objective|QID|38748|M|61.52,35.71|US|N|Stay and finish if you want to.|RANK|2|
+t Ruins of Shala'nir-Bonus Objective|QID|38748|M|61.52,35.71|N|Auto Turned in when completed.|RANK|2|
 T Close Enough to Touch|QID|38687;41763|M|57.81,38.58|N|To Tyrande Whisperwind.|
 A The Fate of Val'sharah|QID|38743|M|57.81,38.58|N|From Tyrande Whisperwind.|
 C The Fate of Val'sharah|QID|38743|M|57.81,38.58|QO|1|N|Speak to Tyrande|CHAT|

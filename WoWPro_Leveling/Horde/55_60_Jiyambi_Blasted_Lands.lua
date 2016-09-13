@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2016-09-13 03:35
+-- Who: tubera
+-- Log: Mostly QOs
+
+-- URL: http://wow-pro.com/node/3268/revisions/26920/view
 -- Date: 2014-11-08 05:59
 -- Who: Emmaleah
 -- Log: Delete Dup NC in C Loramus T... Awaits
@@ -131,9 +136,9 @@ A Blood Ritual|QID|25686|PRE|25685|M|39.25,36.22|N|From Bloodmage Lynnore.|
 C Blood Ritual|NC|QID|25686|M|39.20,36.28|N|Talk to the bloodmage.|
 T Blood Ritual|QID|25686|M|39.18,36.28|N|To Bloodmage Lynnore.|
 A Not Just Any Body|QID|25687|M|39.18,36.28|N|From Bloodmage Lynnore.|
-l Loramus' Torso|QID|25687|M|39.99,37.16|N|Pick up Loramus' Torso.|L|55836|
-l Loramus' Head|QID|25687|M|46.72,26.95|N|Pick up Loramus' Head.|L|55829|
-C Not Just Any Body|NC|QID|25687|M|46.94,39.50|N|Finally loot his legs.|
+l Loramus' Torso|QID|25687|M|39.99,37.16|N|Pick up Loramus' Torso.|QO|2|
+l Loramus' Head|QID|25687|M|46.72,26.95|N|Pick up Loramus' Head.|QO|1|
+C Not Just Any Body|NC|QID|25687|M|46.94,39.50|N|Finally loot his legs.|QO|3|
 T Not Just Any Body|QID|25687|M|41.56,31.95;39.24,36.20|CS|N|To Bloodmage Lynnore.|
 A The Altar of Storms|QID|25688|PRE|25687|M|39.24,36.20|N|From Bloodmage Lynnore.|
 C The Altar of Storms|QID|25688|M|40.44,35.81;36.97,28.40|CS|N|Go up to the Altar of Storms, clear it out then click on the Altar of Blood. Protect Loramus as he is resurrected.|
@@ -147,9 +152,9 @@ A Protecting Our Rear|QID|25694|M|54.40,50.53|N|From Warlord Dar'toon.|
 
 C The Charred Granite of the Dark Portal|NC|QID|25691|U|56024|M|58.24,46.57|S|N|Right-click the rocks to loot granite chips.|
 C The Vile Blood of Demons|QID|25692|M|51.14,46.42|S|N|Kill and loot demons.|
-K Shahandana|QID|25694|QO|Shahandana slain: 1/1|N|Kill Shahandana.|M|59.97,43.22|
-K Gomegaz|QID|25694|QO|Gomegaz slain: 1/1|N|Kill Gomegaz.|M|52.19,42.03|
-C Protecting Our Rear|QID|25694|M|43.90,47.76|N|To round off the trio, kill Jarroc Torn-Wing now.|
+K Shahandana|QID|25694|QO|2|N|Kill Shahandana.|M|59.97,43.22|
+K Gomegaz|QID|25694|QO|3|N|Kill Gomegaz.|M|52.19,42.03|
+C Protecting Our Rear|QID|25694|QO|1|M|43.90,47.76|N|To round off the trio, kill Jarroc Torn-Wing now.|
 C The Charred Granite of the Dark Portal|NC|QID|25691|U|56024|M|58.24,46.57|US|N|Right-click the rocks to loot granite chips.|
 C The Vile Blood of Demons|QID|25692|M|51.14,46.42|US|N|Kill and loot demons.|
 
@@ -179,9 +184,11 @@ T Atrocities|QID|25703|M|71.00,59.89|N|To Neptool.|
 A False Idols|QID|25705|PRE|25703|M|71.00,59.89|N|From Neptool.|
 A Neptool's Revenge|QID|25706|PRE|25703|M|71.00,59.89|N|From Neptool.|
 C False Idols|QID|25705|M|60.87,64.00|S|N|Right-click the idols to destroy them.|
-K Bloodwash Gamblers|QID|25706|M|66.87,72.23|QO|Bloodwash Gambler slain: 4/4|N|Gamblers can be found around the Bloodwash Fighting Pits.|
-K Bloodwash Idolaters|QID|25706|M|60.90,74.74|QO|Bloodwash Idolater slain: 4/4|N|Idolaters can be found around the Bloodwash Shrine.|
-C Neptool's Revenge|QID|25706|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|
+K Bloodwash Gamblers|QID|25706|M|66.87,72.23|QO|3|N|Gamblers can be found around the Bloodwash Fighting Pits.
+K Bloodwash Idolaters|QID|25706|M|60.90,74.74|QO|4|N|Idolaters can be found around the Bloodwash Shrine.
+C Neptool's Revenge|QID|25706|QO|1|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|S
+C Neptool's Revenge|QID|25706|QO|2|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.
+C Neptool's Revenge|QID|25706|QO|1|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|US
 C False Idols|QID|25705|M|60.87,64.00|US|N|Right-click the idols to destroy them.|
 A The Future of the Rockpool|QID|25707|M|61.54,63.02|N|From Abandoned Bloodwash Crate. Click it and choose to help the tadpoles.|
 C The Future of the Rockpool|QID|25707|M|69.23,81.26|N|Drag the crate to the beach and swim a little ways out into the water.|
@@ -194,7 +201,7 @@ T The Sunveil Excursion|RANK|2|QID|25696|M|49.83,71.46|N|To Rohan Sunveil.|
 A The Demons and the Druid|RANK|2|QID|25717|PRE|25696|M|49.83,71.46|N|From Rohan Sunveil.|
 f Sunveil Excursion|RANK|2|QID|25717|M|50.91,72.91|N|At Salena.|
 C The Demons and the Druid|RANK|2|QID|25717|M|36.31,68.27|S|N|Kill Doomguard Destroyers, Dreadlord Defiliers and Corrupted Darkwood Treants.|
-K Bog Lords|RANK|2|QID|25717|M|33.32,77.99|QO|Felspore Bog Lord slain: 3/3|N|The bog lords can be found on the south side of the forest.|
+K Bog Lords|RANK|2|QID|25717|M|33.32,77.99|QO|4|N|The bog lords can be found on the south side of the forest.|
 C The Demons and the Druid|RANK|2|QID|25717|M|36.31,68.27|US|N|Kill Doomguard Destroyers, Dreadlord Defiliers and Corrupted Darkwood Treants.|
 T The Demons and the Druid|RANK|2|QID|25717|M|49.72,71.49|N|To Rohan Sunveil.|
 A How Best to Proceed|RANK|2|QID|25718|PRE|25717|M|49.72,71.49|N|From Rohan Sunveil.|
@@ -229,9 +236,8 @@ T Loramus Thalipedes Awaits|QID|25700|M|39.33,35.81|N|To Loramus Thalipedes.|
 A You Are Rakh'likh, Demon|QID|25701|M|39.33,35.81|N|From Loramus Thalipedes.|
 C You Are Rakh'likh, Demon|QID|25701|U|56012|M|46.53,21.88;44.90,26.85|CS|N|Speak to the ghost to have him teleport you up to the mountain. Wait until Loramus summons the demon. Help him kill it (let him tank). When Loramus is possessed, defeat him, then use the knife.|
 T You Are Rakh'likh, Demon|QID|25701|M|41.57,32.04;54.29,50.00|CC|N|To Watcher Wazzik. Congrats on the excellent ring!|
-
-A Through the Dark Portal|QID|9407|M|54.42,50.56|N|From Warlord Dar'toon. Take this quest to be ready to head to Hellfire Peninsula.|
-N That's it for the|N|Blasted Lands. If you need to, visit your trainers now, and the AH if wish. Close this step to continue.|
+;Not available anymore (possible bug)
+;A Through the Dark Portal|QID|9407|M|54.42,50.56|N|From Warlord Dar'toon. Take this quest to be ready to head to Hellfire Peninsula.|
 
 ]]
 end)

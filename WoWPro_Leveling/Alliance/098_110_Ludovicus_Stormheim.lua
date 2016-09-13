@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-09-13 18:37
+-- Who: Ludovicus
+-- Log: A good V1.0
+
+-- URL: http://wow-pro.com/node/3683/revisions/27751/view
+-- Date: 2016-09-13 17:57
+-- Who: tubera
+-- Log: Remove QO from T Supplies From the Skies.
+
+-- URL: http://wow-pro.com/node/3683/revisions/27742/view
+-- Date: 2016-09-12 03:17
+-- Who: Blanckaert
+-- Log: Added |LVL|-109| Tags to Bonus Objectives
+
+-- URL: http://wow-pro.com/node/3683/revisions/27740/view
+-- Date: 2016-09-12 02:49
+-- Who: Ludovicus
+-- Log: Play through till T [A Stack of Racks]
+
+-- URL: http://wow-pro.com/node/3683/revisions/27738/view
 -- Date: 2016-09-11 21:06
 -- Who: Ludovicus
 -- Log: Play through to [Felskorn Warcamp]
@@ -66,7 +86,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Starting in Dalaran|QID|39735|U|140192|N|This guide assumes you are starting in Dalaran. |
-N Warning!|QID|39735|N|This guide is NOT complete and probably has errors. The guide has a warning later telling you how far it has been tested. |
+N Warning!|QID|39735|N|This guide has had 1 playthrough. There may still be errors and there are certainly some missing treasures and silver kills.|
 N Treasure|QID|39735|N|All treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 1. If you are using handy notes treasures, there treasure symbol will show over the tomtom green dot, obscuring it, the arrow will still work fine.|
 N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The item displayed has a high chance to drop but not guarenteed. Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure and rare in the zone.|
@@ -111,7 +131,7 @@ C Supplies From the Skies|QID|38036|M|33.81,56.98|QO|1|US|N|Skyfire First Aid Ki
 C Boarded!|QID|38052|M|34.35,57.21|N|8/8 Forsaken slain|
 K Kill Whitewater Typhoon|QID|38472|M|36.67,51.79|QO|1|ITEM|138418|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
 T Boarded!|QID|38052|M|33.67,51.06|N|To Sky Admiral Rogers.|
-T Supplies From the Skies|QID|38036|M|33.74,50.81|QO|1|N|To Mishka.|
+T Supplies From the Skies|QID|38036|M|33.74,50.81|N|To Mishka.|
 T See Ya Later, Oscillator|QID|38558|M|33.63,50.84|N|To Tinkmaster Overspark.|
 T Assault and Battery|QID|38053|M|33.60,50.83|N|To Tinkmaster Overspark.|
 A Lightning Rod|QID|38058|M|33.60,50.83|QO|1|N|From Tinkmaster Overspark.|
@@ -146,7 +166,7 @@ C Havi's Test|QID|38331|M|41.82,42.75|QO|3|NC|N|Click on the hearty grains, face
 T Havi's Test|QID|38331|M|41.83,43.06|N|To Havi.|
 
 A Ahead of the Game|QID|39590|M|41.83,43.06|N|From Havi.|
-A A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|N|Auto Accepted upon entering the area.|
+A A Worthy Challenger-Bonus Objective|QID|38442|LVL|-109|M|41.83,43.06|N|Auto Accepted upon entering the area.|
 C A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|S|N|Kill Bloodtotems, Mightstones and Felskorn and destroy totems and banners to advance the objective.|
 A Blood and Gold|QID|39595|M|42.54,43.08|N|From Challengers Tribute, you just looted.|
 C Blood and Gold|QID|39595|M|42.54,43.08|S|N|Kill the champion types to get the tributes.|
@@ -194,7 +214,7 @@ A No Wings Required|QID|38318|M|42.02,64.48|QO|2|N|From Commander Lorna Crowley.
 A To Weather the Storm|QID|38405|M|42.02,64.48|N|From Commander Lorna Crowley.|
 C No Wings Required|QID|38318|M|42.88,64.85|QO|1|N|Click on the hook with the big Yellow Arrow and grapple over the wall|
 A Built to Scale|QID|38337|M|43.46,64.40|N|Kill a Stormwing Drake to get this quest from the UI.|
-A Assault the Drekirjar|QID|38374|M|42.88,64.85|N|From UI upon entering Hrydshal.|
+A Assault the Drekirjar-Bonus Objective|QID|38374|LVL|-109|M|42.88,64.85|N|From UI upon entering Hrydshal.|
 C To Weather the Storm|QID|38405|M|45.68,66.64|QO|3|N|Loot Oiled Cloak|
 $ Treasure Chest|QID|38474|M|42.6,65.80|N|Loot for a bit of treasure and resources.|
 K Kill Glimar Ironfist|QID|38333|M|41.5,66.7|QO|1|ITEM|129291|T|Glimar Ironfist|N|Silver - Kill and loot for a bit of treasure and resources.|
@@ -267,7 +287,7 @@ T Eating Into Our Business|QID|39789|M|51.46,57.06|N|To Rax Sixtrigger.|RANK|2|
 A Only the Finest|QID|39793|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|2|
 A Rigging the Wager|QID|39787|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
 R Nastrondir|QID|39793|ACTIVE|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the Sword and into Nastrondir.|RANK|2| ; Emma
-A The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|
+A The Brood of Nithogg-Bonus Objective|QID|42431|LVL|-109|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|
 C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Kill the drakes and pick up eggs to advance the objective. Click off manually.|RANK|2| ; Emma
 C Only the Finest|QID|39793|M|44.14,37.51|S|N|Kill goats to collect the patches of goat hair.|RANK|2|
 $ Small Treasure Chest|QID|43238|M|43.14,39.01;43.17,40.49|CS|N|Hook out to find chest, loot for treasure and resources.|RANK|2|
@@ -374,7 +394,7 @@ $ Small Treasure Chest|QID|40085|M|73.33,41.51|N|Loot for treasure and resources
 C The Final Judgment|QID|38818|M|73.12,40.06|N|Confront Runeseer Faljar.|
 
 T The Final Judgment|QID|38818|M|65.61,47.17|Z|Helheim|N|To Ashildir.|
-A Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|N|Auto-accepted when you enter the area.|
+A Raze Hel-Bonus Objective|QID|38343|LVL|-109|M|65.61,47.17|Z|Helheim|N|Auto-accepted when you enter the area.|
 A An Unworthy Task|QID|39837|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
 C Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|S|N|Freeing captives and killing Kvaldir advance the objective.|
 C An Unworthy Task|QID|39837|M|60.77,43.72|Z|Helheim|NC|N|Find Cooperative spirit.|
@@ -446,7 +466,7 @@ T Cut Out the Heart|QID|39472|M|71.54,59.82|N|To Genn Greymane.|
 A To Skold-Ashil|QID|39062|M|71.54,59.82|N|From Genn Greymane.|
 T To Skold-Ashil|QID|39062|M|63.56,61.73|N|To Commander Lorna Crowley|
 A Shielded Secrets|QID|39063|M|63.56,61.73|N|From Commander Lorna Crowley|
-A Assault on Skold-Ashil-Bonus Objective|QID|39119|M|56.76,66.30|N|Auto-accepted when you enter the area.|
+A Assault on Skold-Ashil-Bonus Objective|QID|39119|LVL|-109|M|56.76,66.30|N|Auto-accepted when you enter the area.|
 C Assault on Skold-Ashil-Bonus Objective|QID|39119|M|56.76,66.30|S|N|Kill vrykal and destroy the weapon racks. There are also some shieldmaiden statues, you can click on the for a 10 minute buff Three differant buffs, so click all you see.|
 C Shielded Secrets|QID|39063|M|63.42,64.64|S|NC|N|Examine Engraved Shields, these are scattered all over the area.|
 A Stories of Battle|QID|39405|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
@@ -482,7 +502,7 @@ C A Familiar Fate|QID|40002|M|65.94,59.40|QO|2|CHAT|N|Click on the circle of bin
 T A Familiar Fate|QID|40002|M|65.94,59.53|N|To Vethir.|
 A Stem the Tide|QID|40003|M|65.94,59.53|N|From Vethir.|
 A Break the Spine|QID|40004|M|65.94,59.53|N|From Vethir. Note the very handy extra action button you get and use it often while at the Gates of Valor.|
-A Drive Back the Tideskorn-Bonus Objective|QID|39998|M|64.53,60.47|N|Auto accepted upon entering the area.|
+A Drive Back the Tideskorn-Bonus Objective|QID|39998|LVL|-109|M|64.53,60.47|N|Auto accepted upon entering the area.|
 C Drive Back the Tideskorn-Bonus Objective|QID|39998|M|64.53,60.47|S|N|Killing tideskorn and destroying the smaller portals advances the objective.|
 C Stem the Tide|QID|40003|M|69.92,64.40|QO|1|U|129161|NC|N|Call Vethir to destroy the North Portal.|
 C Break the Spine|QID|40004|M|71.04,64.90|QO|4|T|Ravathes|N|Kill Ravathes.|
@@ -502,7 +522,6 @@ C Stormheim's Salvation|QID|40005|M|70.94,70.16|N|God-King Skovald defeated.|
 T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|Ask Vethir for a ride back down so you can turn the quest in to Havi.|
 A Securing the Aegis|QID|40072|M|70.25,69.24|N|From Havi. This is a dungeon quest, so queue, call friends over or check it off and move on.|
 H Return to Dalaran|QID|40072|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, hearth to Dalaran or your class hall and continue on your adventuring.|LEAD|39792|
-
 
 R Valdisdall|QID|39984|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|RANK|2|
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
@@ -536,7 +555,6 @@ T To Honor the Fallen|QID|43595|M|58.94,42.81|N|To Havi.|RANK|2|
 T Shadows in the Mists|QID|40044|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 110.|RANK|2|
 A Piercing the Mists|QID|43596|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|LVL|110|
 
-
 R Talonrest|QID|39792|M|53.73,53.88;51.36,57.13|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
 A Put It All on Red|QID|42483|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
@@ -566,10 +584,9 @@ C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Finish up the Blood-Crazed Swashb
 T What the Bonespeakers Buried|QID|42641|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
 T Spilling Bad Blood|QID|42645|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
 
-N Warning!|QID|40111|N|This guide has not been tested beyond this point. Use at your own risk.|
-A Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Auto-accepted as you enter the area.|RANK|2|
+A Rout the Bilgefin Invaders-Bonus Objective|QID|40111|LVL|-109|M|80.44,53.11|N|Auto-accepted as you enter the area.|RANK|2|
 A A Murky Fate|QID|40120|M|78.24,58.67|N|From Morheim Ancestor.|RANK|2|
-C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Kill Murlocks, burn the housed, break the spears, etc to advance the objective.|RANK|2| ; emma
+C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Kill Murlocks, burn the housed, break the spears, etc to advance the objective. Click to proceeed.|RANK|2| ; emma
 C A Murky Fate|QID|40120|M|79.61,59.90|QO|1|U|129725|S|N|Use the provided torch to burn the decaying corpses.|RANK|2|
 K Kill Grrvrgull the Conquerer|QID|40113|M|78.65,61.17|QO|1|ITEM|138421|T|Grrvrgull the Conquerer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|40099|M|80.58,67.04;81.86,67.49|CS|N|Loot for a bit of treasure and resources.|RANK|3|
