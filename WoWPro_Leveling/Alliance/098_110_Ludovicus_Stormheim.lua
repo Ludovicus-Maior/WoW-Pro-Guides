@@ -60,6 +60,7 @@
 
 local guide = WoWPro:RegisterGuide('LudoStormheim', 'Leveling', 'Stormheim', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,98, 105)
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Stormheim")
 WoWPro:GuideNextGuide(guide, 'Azuna')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -265,7 +266,7 @@ C Eating Into Our Business|QID|39789|M|48.54,56.93|US|N|Finish killing Duskpelt 
 T Eating Into Our Business|QID|39789|M|51.46,57.06|N|To Rax Sixtrigger.|RANK|2|
 A Only the Finest|QID|39793|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|2|
 A Rigging the Wager|QID|39787|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
-R Nastrondir|QID|39793|ACTIVE|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the sword and into Nastrondir.|RANK|2| ; Emma
+R Nastrondir|QID|39793|ACTIVE|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the Sword and into Nastrondir.|RANK|2| ; Emma
 A The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|
 C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Kill the drakes and pick up eggs to advance the objective. Click off manually.|RANK|2| ; Emma
 C Only the Finest|QID|39793|M|44.14,37.51|S|N|Kill goats to collect the patches of goat hair.|RANK|2|
@@ -438,6 +439,7 @@ C Western Plague Cache|QID|39060|M|72.56, 60.81|QO|3|U|127295|N|Toss the toch on
 C Eastern Plague Cache|QID|39060|M|73.49, 63.18|QO|2|U|127295|N|Toss the toch on the banner.|
 C Northern Plague Cache|QID|39060|M|74.46,58.33|QO|1|U|127295|N|Toss the toch on the banner.|
 K Apothecary Curseheart|QID|39472|M|75.0,61.8|QO|1|T|Apothecary Curseheart|N|Beware the Festering Inquisitor (level 110)|
+C A Stack of Racks|QID|39792|M|51.97,75.72|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
 T Combustible Contagion|QID|39060|M|71.54,59.82|N|To Genn Greymane.|
 T Whispers from the Dark|QID|39061|M|71.54,59.82|N|To Genn Greymane.|
 T Cut Out the Heart|QID|39472|M|71.54,59.82|N|To Genn Greymane.|
@@ -471,7 +473,6 @@ A Ending the New Beginning|QID|39122|M|62.31,68.09|N|From Genn Greymane|
 C Banshee Queen|QID|39122|QO|1|N|Follow Greymane and see what the Banshee Queen is up to|
 T Ending the New Beginning|QID|39122|M|71.46,60.58|N|ToCommander Lorna Crowley|
 
-N Warning!|QID|40001|N|This guide has not been tested beyond this point. Use at your own risk.|
 R Felskorn Warcamp|QID|40001|M|62.85,60.42|N|The best way I think is to use your grapple hook and go up the rooks at the back of Skol Ashil (near where Isel the Hammer was).  There is also a gate out the back of Skol Ashil then a path thru the Runewoods and finaly into the Felskorn Warcamp.|
 T Knocking on Valor's Door|QID|40001|M|65.91,59.53|N|To Vethir.|
 A A Familiar Fate|QID|40002|M|65.91,59.53|N|From Vethir.|
@@ -502,6 +503,7 @@ T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|Ask Vethir for a ride back dow
 A Securing the Aegis|QID|40072|M|70.25,69.24|N|From Havi. This is a dungeon quest, so queue, call friends over or check it off and move on.|
 H Return to Dalaran|QID|40072|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, hearth to Dalaran or your class hall and continue on your adventuring.|LEAD|39792|
 
+
 R Valdisdall|QID|39984|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|RANK|2|
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
 C Remnants of the Past|QID|39984|M|60.75,46.12|QO|1|NC|N|Find the first clue.|RANK|2|
@@ -515,26 +517,27 @@ C Remnants of the Past|QID|39984|M|60.43,42.95|QO|4|NC|N|Fourth Clue is on this 
 C Remnants of the Past|QID|39984|M|58.94,42.81|QO|5|NC|N|Enter the building with the red fog in the doorway.|RANK|2|
 T Remnants of the Past|QID|39984|M|58.94,42.81|N|To Havi.|RANK|2|
 A Scavenging the Shallows|QID|40046|M|58.94,42.81|N|From Havi.|RANK|2|
-A Shadows in the Mists|QID|43595|M|58.94,42.81|N|From Havi.|RANK|2|
-A To Honor the Fallen|QID|40044|M|58.94,42.81|N|From Havi.|RANK|2|
-C To Honor the Fallen|QID|40044|M|60,43|S|N|Kill Kvaldir and collect the weapons.|RANK|2|
+A Shadows in the Mists|QID|40044|M|58.94,42.81|N|From Havi.|RANK|2|
+A To Honor the Fallen|QID|43595|M|58.94,42.81|N|From Havi.|RANK|2|
+C To Honor the Fallen|QID|43595|M|60,43|S|N|Kill Kvaldir and collect the weapons.|RANK|2|
 C Scavenging the Shallows|QID|40046|M|60,43|S|NC|N|Pick up the boat debris until you find the clue.|RANK|2|
 K Kill Captain Brvet|QID|38642|M|57.97,45.28|QO|1|ITEM|129123|N|Silver - Blow the "Horn of the Helmouth", to summon 3 raiders. Kill and loot for a bit of treasure and resources.|RANK|2|
-K Kill Captain Sten|QID|43595|M|55.83,46.82|QO|1|T|Captain Sten|RANK|2|
+K Kill Captain Sten|QID|40044|M|55.83,46.82|QO|1|T|Captain Sten|RANK|2|
 $ Treasure Chest|QID|40095|M|54.98,47.14|N|Underwater on the deck of sunken ship. Loot for a bit of treasure and resources.|RANK|2|
-K Kill Halvir|QID|43595|M|53.86,42.13|QO|4|T|Halvir|RANK|2|
-K Kill Sigrid|QID|43595|M|54.43,35.12|QO|2|T|Sigrid|RANK|2|
-K Kill Kjell|QID|43595|M|57.00,34.81|QO|3|T|Kjell|RANK|2|
+K Kill Halvir|QID|40044|M|53.86,42.13|QO|4|T|Halvir|RANK|2|
+K Kill Sigrid|QID|40044|M|54.43,35.12|QO|2|T|Sigrid|RANK|2|
+K Kill Kjell|QID|40044|M|57.00,34.81|QO|3|T|Kjell|RANK|2|
 K Kill Roteye|QID|43342|QO|1|M|57.73,34.77;58.37,33.96|CS|ITEM|139387|T|Roteye|N|Silver-Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38744|M|61.91,32.25|N|Loot for a bit of treasure and resources.|RANK|3|
-C Scavenging the Shallows|QID|40046|M|56.73,39.33|N|This ships debris is the one you are looking for.|RANK|2|
-C To Honor the Fallen|QID|40044|M|60,43|US|N|Finish collecting the weapons.|RANK|2|
+C Scavenging the Shallows|QID|40046|M|56.73,39.33|US|NC|N|This ships debris is the one you are looking for.|RANK|2|
+C To Honor the Fallen|QID|43595|M|60,43|US|N|Finish collecting the weapons.|RANK|2|
 T Scavenging the Shallows|QID|40046|M|58.94,42.81|N|To Havi.|RANK|2|
-T To Honor the Fallen|QID|40044|M|58.94,42.81|N|To Havi.|RANK|2|
-T Shadows in the Mists|QID|43595|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 110.|RANK|2|
+T To Honor the Fallen|QID|43595|M|58.94,42.81|N|To Havi.|RANK|2|
+T Shadows in the Mists|QID|40044|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 110.|RANK|2|
 A Piercing the Mists|QID|43596|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|LVL|110|
 
-R Talonrest|QID|39792|M|53.30,48.30;53.4,53.4|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|
+
+R Talonrest|QID|39792|M|53.73,53.88;51.36,57.13|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
 A Put It All on Red|QID|42483|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
 R Inkbinder's Rise|QID|40109|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|
@@ -545,7 +548,7 @@ R Dreygrot|QID|42635|M|72.15,47.45;72.47,51.58|CS|N|Run through Runewood to Drey
 A The Mystery of Dreyrgrot|QID|42635|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
 A A Stone of Blood|QID|42639|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
 C The Mystery of Dreyrgrot|QID|42635|M|75.44,48.96|S|NC|N|Use the hook point to get onto the nearest ship.  There are two 'Ancient Dreyrgrot Tab;ets' here, move on to the other two ships that have one each.|RANK|2|
-$ Small Treasure Chest|QID|42629|M|75.37,52.11|N|Hook from the ship to piller.  Chest on top of piller. Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|42629|M|73.95,52.22|N|Hook from the ship to pillar.  Chest on top of pillar. Loot for a bit of treasure and resources.|RANK|2| ; Incorrect QID!
 A The Value of Knowledge|QID|42640|M|75.52,50.78|N|From a crate of Ancient Relics floating in the bay.|RANK|2|
 C The Value of Knowledge|QID|42640|M|75.52,50.78|NC|N|Collect the ancient relics while you travel to the next ship.|RANK|2|
 C A Stone of Blood|QID|42639|M|76.21,49.38|QO|1|T|Captain Broketooth|N|Kill Captain Broketooth and take his Ruby Amulet|RANK|2|
@@ -563,14 +566,15 @@ C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Finish up the Blood-Crazed Swashb
 T What the Bonespeakers Buried|QID|42641|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
 T Spilling Bad Blood|QID|42645|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
 
+N Warning!|QID|40111|N|This guide has not been tested beyond this point. Use at your own risk.|
 A Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Auto-accepted as you enter the area.|RANK|2|
 A A Murky Fate|QID|40120|M|78.24,58.67|N|From Morheim Ancestor.|RANK|2|
-C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|S|N|Kill Murlocks, burn the housed, break the spears, etc to advance the objective.|RANK|2|
+C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Kill Murlocks, burn the housed, break the spears, etc to advance the objective.|RANK|2| ; emma
 C A Murky Fate|QID|40120|M|79.61,59.90|QO|1|U|129725|S|N|Use the provided torch to burn the decaying corpses.|RANK|2|
 K Kill Grrvrgull the Conquerer|QID|40113|M|78.65,61.17|QO|1|ITEM|138421|T|Grrvrgull the Conquerer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|40099|M|80.58,67.04;81.86,67.49|CS|N|Loot for a bit of treasure and resources.|RANK|3|
 C A Murky Fate|QID|40120|M|79.61,59.90|QO|1|U|129725|US|N|Finish up burning the decaying corpses.|RANK|2|
-C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|US|N|Stay and finish this up or click off manually and move on.|RANK|2|
+C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Stay and finish this up or click off manually and move on.|RANK|2|
 t Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|81.12,61.30|N|Auto turned in upon completion.|RANK|2|
 T A Murky Fate|QID|40120|M|78.24,58.64|N|To Morheim Ancestor.|RANK|2|
 $ Small Treasure Chest|QID|43191|M|52.37,54.51|N|Loot for a bit of treasure and resources.|RANK|2|
