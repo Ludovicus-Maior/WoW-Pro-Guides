@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2016-09-14 17:40
+-- Who: Ludovicus
+-- Log: Dalaran City@Dalaran
+
+-- URL: http://wow-pro.com/node/3441/revisions/26860/view
 -- Date: 2014-11-07 21:24
 -- Who: Emmaleah
 -- Log: corrections per Ludo's big list o' errors
@@ -202,7 +207,7 @@ F Dalaran|M|30.6,36.4|QID|13463|Z|The Storm Peaks|N|Fly to Dalaran.|U|37586|
 A Candy Bucket|QID|13463|M|48.16,41.25|Z|Dalaran City@Dalaran|N|Amisi Azuregaze, The Legerdemain Lounge)|
 A Candy Bucket|QID|13474|M|66.85,29.58|Z|Dalaran City@Dalaran|N|Uda the Beast, Sunreaver's Sanctuary|
 A Candy Bucket|QID|13472|M|38.24,59.61|Z|The Underbelly@Dalaran|U|37586||N|Head down into the Underbelly from the entrance next to the stairs of the Silver Enclave. From the Candy Bucket. (Dalaran, The Underbelly)|
-F Nessingwary Base Camp|M|72.8,45.6|QID|12950|Z|Dalaran|N|Fly to Nessingwary Base Camp, Sholazar Basin.|U|37586|
+F Nessingwary Base Camp|M|72.8,45.6|QID|12950|Z|Dalaran City@Dalaran|N|Fly to Nessingwary Base Camp, Sholazar Basin.|U|37586|
 A Candy Bucket|QID|12950|M|26.61,59.20|Z|Sholazar Basin|N|Purser Boulian, Nessingwary Base Camp|
 
 ]]

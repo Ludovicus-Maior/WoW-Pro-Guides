@@ -4,9 +4,9 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
--- Date: 2016-09-01 23:18
--- Who: Ludovicus
--- Log: Lots of tweaks!
+-- Date: 2016-09-14 09:16
+-- Who: Emmaleah
+-- Log: Changed C In the Blink of an Eye|QO|2| to Dalaran@DeadwindPass
 
 -- URL: http://wow-pro.com/node/3671/revisions/27643/view
 -- Date: 2016-08-30 21:55
@@ -40,7 +40,7 @@ C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) 
 A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|;both
 
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Dalaran70|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
 A Felstorm's Plea|QID|41035|M|57.57,45.77|Z|Dalaran@Dalaran70|N|From Auto Alert.|

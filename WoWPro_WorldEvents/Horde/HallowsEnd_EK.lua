@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2016-09-14 17:40
+-- Who: Ludovicus
+-- Log: Dalaran City@Dalaran
+
+-- URL: http://wow-pro.com/node/3441/revisions/26860/view
 -- Date: 2014-11-07 21:24
 -- Who: Emmaleah
 -- Log: corrections per Ludo's big list o' errors

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alchemy_recipies
+-- Date: 2016-09-14 18:28
+-- Who: Ludovicus
+-- Log: Dalaran City@Dalaran
+
+-- URL: http://wow-pro.com/node/3565/revisions/27427/view
 -- Date: 2016-01-09 01:23
 -- Who: Ludovicus
 -- Log: Orgrimmar@Orgrimmar
@@ -41,7 +46,7 @@ B Transmute: Primal Might|QID|990029688|RECIPE|29688|M|46.00,20.10|Z|Shattrath C
 B Free Action Potion|QID|990006624|RECIPE|6624|M|54.60,38.90|Z|Darnassus|FACTION|Alliance|P|Alchemy;171;150|N|Limited quantity sold by Ulthir in Darnassus.|
 B Free Action Potion|QID|990006624|RECIPE|6624|M|66.60,54.50|Z|Ironforge|FACTION|Alliance|P|Alchemy;171;150|N|Limited quantity sold by Soolie Berryfizz in Ironforge.|
 B Free Action Potion|QID|990006624|RECIPE|6624|M|55.23,45.83|Z|Orgrimmar@Orgrimmar|FACTION|Horde|P|Alchemy;171;150|N|Limited quantity sold by Kor'geld in Orgrimmar.|
-B Cauldron of Battle|QID|990092643|RECIPE|92643|M|52.60,56.60|Z|Dalaran|P|Alchemy;171;525|N|Sold by Mirla Silverblaze in Dalaran.\nBind on Pickup.|
+B Cauldron of Battle|QID|990092643|RECIPE|92643|M|52.60,56.60|Z|Dalaran City@Dalaran|P|Alchemy;171;525|N|Sold by Mirla Silverblaze in Dalaran.\nBind on Pickup.|
 B Cauldron of Battle|QID|990092643|RECIPE|92643|M|36.30,85.80|Z|Ironforge|FACTION|Alliance|P|Alchemy;171;525|N|Sold by Steeg Haskell in Ironforge.\nBind on Pickup.|
 B Cauldron of Battle|QID|990092643|RECIPE|92643|M|64.60,76.80|Z|Stormwind City|FACTION|Alliance|P|Alchemy;171;525|N|Sold by Shay Pressler in Stormwind City.\nBind on Pickup.|
 B Cauldron of Battle|QID|990092643|RECIPE|92643|M|48.20,75.60|Z|Orgrimmar@Orgrimmar|FACTION|Horde|P|Alchemy;171;525|N|Sold by Goram in Orgrimmar.\nBind on Pickup.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-09-14 09:47
+-- Who: Emmaleah
+-- Log: Added LVL|-109| to A XXX-Bonus Objective steps.
+
+-- URL: http://wow-pro.com/node/3657/revisions/27749/view
 -- Date: 2016-09-13 03:53
 -- Who: Emmaleah
 -- Log: Add Icon to registration
@@ -92,7 +97,7 @@ A From Within|QID|36920|M|43.56,43.46|N|From Kayn Sunfury.|
 T From Within|QID|36920|M|41.24,50.50|N|To Kor'vas Bloodthorn.|
 A Fel Machinations|QID|37656|M|40.05,48.80|N|From Kor'vas Bloodthorn who will show up and follow you around.|
 A Saving Stellagosa|QID|37450|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
-A Retake Faronaar-Bonus Objective|QID|36811|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|
+A Retake Faronaar-Bonus Objective|QID|36811|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|LVL|-109|
 C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|N|Kill demons and click on the glowing items as you accomplish the other objectives.|S|RANK|2|
 C Fel Machinations|QID|37656|M|40.05,48.80|N|Free the prisoners as you go.|S|
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
@@ -164,7 +169,7 @@ T Runas the Shamed|QID|37957|M|49.12,16.54|N|To Projection of Senegos.|
 A Runas Knows the Way|QID|37857|M|49.22,16.08|N|From Runas the Shamed.|
 
 R The Lost Orchard|QID|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|
-A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|
+A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-109|
 A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|S|N|Kill the hostiles, destroy the barrels of tainted barrels to advance the objective.|RANK|3|
 A Challiane Vineyards|QID|38203|M|47.40,12.44|N|From Cellarman Voodani who shows up when you enter the area and follows you.|RANK|3|
 $ Small Treasure Chest|QID|42295|M|47.85,7.73|N|Loot for a bit of treasure and resources.|RANK|3|
@@ -173,7 +178,7 @@ K Kill Normantis the Deposed|QID|37928|QO|1|M|50.24,7.63;49.49,8.81|CS|ITEM|1290
 K Kill Vintner Liastrin|QID|38203|QO|2|M|45.58,12.73|T|Vintner Liastrin|N|Kill and loot second recipe.|RANK|3|
 K Kill Grand Vintner Valiana|QID|38203|QO|3|M|42.91,8.55|T|Grand Vintner Valiana|N|Kill and loot third recipe.|RANK|3|
 $ Glimmering Treasure Chest|QID|38367|M|42.63,8.08|N|Loot for a bit of treasure and resources.|RANK|3|
-C Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|US|N|Stay and complete or check off.|RANK|3|
+C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|US|N|Stay and complete or check off.|RANK|3|
 t A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto turned in when complete.|RANK|3|
 f Challiane Vineyards|QID|38203|M|40.81,8.98|N|At Stagtamer Maliana.|RANK|3|
 T Challiane Vineyards|QID|38203|M|40.78,9.33|N|To Cellarman Voodani.|RANK|3|
@@ -185,7 +190,7 @@ A Leyline Abuse|QID|37960|M|53.38,16.21|N|From Projection of Senegos.|
 A The Hunger Returns|QID|37959|M|53.78,16.82|N|From Runas the Shamed.|
 T Inscription of the Body|QID|39936|M|54.00,15.28|N|To Baric Stormrunner.|P|Inscription;773|LVL|102|
 A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscription;773|LVL|102|PRE|39936|
-A Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|
+A Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|LVL|-109|
 C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|N|Click on the mana siphons and kill mobs in the area to advance the objective.|RANK|2|
 $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and resources.|RANK|2|
 C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773|LVL|102|
@@ -285,7 +290,7 @@ A Infiltrating Shipwreck Arena|QID|37496|M|47.06,41.45|N|From Lady Irisse.|
 T Our Very Bones|QID|37257|M|47.00,41.34|N|To Prince Farondis.|
 A Trailing the Tidestone|QID|37497|M|47.00,41.34|N|From Prince Farondis.|
 C Trailing the Tidestone|QID|37497|QO|1|M|47.00,41.34|N|Chat with the prince to start. As with all escort quests, there are a couple of ambushes.|CHAT|
-A The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|N|Auto-accepted as you enter the area.|RANK|2|
+A The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|N|Auto-accepted as you enter the area.|RANK|2|LVL|-109|
 T Trailing the Tidestone|QID|37497|M|51.80,44.28|N|To Prince Farondis.
 
 A Nar'thalas Still Suffers|QID|37486|M|51.80,44.28|N|From Prince Farondis.|
@@ -374,7 +379,7 @@ C Save Yourself|QID|37530|QO|7|M|57.88,43.10|NC|N|Walk forward into the cave.|
 T Save Yourself|QID|37530|M|57.82,43.43|N|To yourself (because you are Prince Farondis at the moment).|
 A The Head of the Snake|QID|37470|M|57.86,43.36|N|From Prince Farondis.|
 A Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|N|Auto accepted as you enter the area.|RANK|2|
-C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|S|N|Kill Naga, loot the trident racks to activate an extra action button.|RANK|2|
+C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|S|N|Kill Naga, loot the trident racks to activate an extra action button.|RANK|2|LVL|-109|
 C The Head of the Snake|QID|37470|M|62.05,41.57|N|Kill Athissa.|T|Athissa|
 T The Head of the Snake|QID|37470|M|61.70,41.08|N|To Prince Farondis.|
 A Wrath of Azshara|QID|38286|M|61.70,41.08|N|From Prince Farondis. Thia ia a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
@@ -472,7 +477,7 @@ T Morale Booster|QID|37536|M|47.93,48.67|N|To Sternfathom.|
 A Round 1, Fight!|QID|37538|M|47.93,48.67|N|From Sternfathom.|
 C Round 1, Fight!|QID|37538|M|47.93,48.67|N|Tell Sternfathom you are ready.|
 T Round 1, Fight!|QID|37538|M|43.62,24.67|Z|1015/18|N|To Okuna Longtusk's pack.|
-A Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|1015/18|N|Auto-accepted when you enter the area.|RANK|2|
+A Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|1015/18|N|Auto-accepted when you enter the area.|RANK|2|LVL|-109|
 A The Right Weapon for the Job|QID|37565|M|43.62,24.67|Z|1015/18|N|From Okuna's pack.|RANK|2|
 C Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|1015/18|S|N|Killing mobs, and clicking on the Skrog weapons advances the objective.|RANK|2|
 C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|Z|1015/18|S|N|Click on the quest item whenever you are near some prisoners.|
