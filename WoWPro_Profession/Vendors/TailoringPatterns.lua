@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tailoring_patterns
+-- Date: 2016-09-14 19:28
+-- Who: Ludovicus
+-- Log: missed one Dalaran City@Dalaran
+
+-- URL: http://wow-pro.com/node/3573/revisions/27776/view
 -- Date: 2016-09-14 17:44
 -- Who: Ludovicus
 -- Log: Dalaran City@Dalaran
@@ -312,7 +317,7 @@ B Frozen Shadoweave Shoulders|QID|990026756|RECIPE|26756|M|34.60,34.50|Z|Dalaran
 B Spellfire Bag|QID|990026755|RECIPE|26755|M|66.00,67.90|Z|Shattrath City|P|Tailoring;197;375|N|Sold by Gidge Spellweaver in Shattrath City.\nBind on Pickup.|
 B Spellfire Bag|QID|990026755|RECIPE|26755|M|36.50,33.50|Z|Dalaran City@Dalaran|P|Tailoring;197;375|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
 B Spellfire Robe|QID|990026754|RECIPE|26754|M|66.00,67.90|Z|Shattrath City|P|Tailoring;197;375|N|Sold by Gidge Spellweaver in Shattrath City.\nBind on Pickup.|
-B Spellfire Robe|QID|990026754|RECIPE|26754|M|36.50,33.50|Z|Dalaran|P|Tailoring;197;375|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
+B Spellfire Robe|QID|990026754|RECIPE|26754|M|36.50,33.50|Z|Dalaran City@Dalaran|P|Tailoring;197;375|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
 B Spellfire Gloves|QID|990026753|RECIPE|26753|M|66.00,67.90|Z|Shattrath City|P|Tailoring;197;365|N|Sold by Gidge Spellweaver in Shattrath City.\nBind on Pickup.|
 B Spellfire Gloves|QID|990026753|RECIPE|26753|M|36.50,33.50|Z|Dalaran City@Dalaran|P|Tailoring;197;365|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
 B Spellfire Belt|QID|990026752|RECIPE|26752|M|66.00,67.90|Z|Shattrath City|P|Tailoring;197;355|N|Sold by Gidge Spellweaver in Shattrath City.\nBind on Pickup.|
