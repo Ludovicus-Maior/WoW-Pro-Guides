@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mardum_shattered_abyss_source_code
+-- Date: 2016-09-14 02:36
+-- Who: Ludovicus
+-- Log: Deleted duplicate CH
+
+-- URL: http://wow-pro.com/node/3656/revisions/27752/view
 -- Date: 2016-09-13 18:26
 -- Who: Ludovicus
 -- Log: Add proper name to LinksDHArtCH100100

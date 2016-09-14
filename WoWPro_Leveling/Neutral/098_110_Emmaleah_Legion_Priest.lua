@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-09-14 02:14
+-- Who: Emmaleah
+-- Log: minor updates, fixing zone names, adding LVL tags,
+
+-- URL: http://wow-pro.com/node/3674/revisions/27713/view
 -- Date: 2016-09-07 04:31
 -- Who: Emmaleah
 -- Log: Fix - A Looking Through the Lens|QID|43378|M|47.11,43.98|Z|Azsuna|N|From Yalia Sagewhisper. This is an instance/group quest.PRE|42137||LVL|103|
@@ -48,11 +53,11 @@ C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) 
 A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Dalaran70|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Dalaran70|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardian) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
 A Priestly Matters|QID|40705|M|57.57,44.48|Z|Dalaran@Dalaran70|N|From Hooded Priestess.|
-R Chamber of the Guardians|QID|40705|M|49.44,47.54|CC|Z|Dalaran@Dalaran70|N|In the middle of Dalaran.|ACTIVE|40705|
+R Chamber of the Guardian|QID|40705|M|49.44,47.54|CC|Z|Dalaran@Dalaran70|N|In the middle of Dalaran.|ACTIVE|40705|
 C Priestly Matters|QID|40705|QO|1|M|28.66,77.50|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional) Take the Portal to the Dalaran Crater, be ready with levitate or some other way to mitigate falling damage.|
 C Priestly Matters|QID|40705|QO|2|M|79.09,41.06|Z|Tirisfal Glades|CHAT|N|Meet with the priest at Faol's Rest in Tirisfal Glades.|
 C Priestly Matters|QID|40705|QO|3|M|78.90,40.92|Z|Tirisfal Glades|NC|N|Listen to Alonsus Faol.|
@@ -64,81 +69,123 @@ A Accept artifact specific quest|QID|40710;41625;41957|M|78.96,41.00|Z|Tirisfal 
 
 ;chapter I order hall
 ;44100-Proper Introductions
-R Windrunner's Sanctuary|QID|44100|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Horde|
-T Proper Introductions|QID|44100|M|51.61,47.81|N|To Alonsus Faol.|
-A Rise Champions|QID|43270|M|51.61,47.81|N|From Alonsus Faol.|PRE|44100|
-A Champion: Calia Menethil|QID|43271|M|51.80,48.98|N|Pick Up Calia as a follower.|ACTIVE|43270|
-A Champion: High Priestess Ishanah|QID|43272|M|57.65,25.80|N|Pick up Ishanah as a follower.|ACTIVE|43270|
-r Upgrade your weapon|QID|44545|M|50.00,21.48|N|Use the alter of Light and Shadow to spend the artifact resources you have been gathering and to socket your artifact enhancements. Manually check this step off.|
-T Rise Champions|QID|43270|M|51.61,47.81|N|To Alonsus Faol.|
-A Spread the Word|QID|43273|M|51.61,47.81|N|From Alonsus Faol.|PRE|43270|
-C Spread the Word|QID|43273|M|50.64,47.85|S|N|Use the scouting map, Note it now has 3 tabs, Missions, followers, Scouting Map. Use the missions tab to send your followers on the mission "Spread the Word".|
-C Pressing the Assault|QID|44545|M|50.64,47.85|NC|N|Use Scouting Map tab to pick the next zone you want to adventure in.|
-C Spread the Word|QID|43273|M|50.64,47.85|US|NC|N|The mission was very quick and will be done or nearly done, Use the scouting map, Note it now has 3 tabs, Missions, followers, Scouting Map. Use the missions tab to complete the mission "Spread the Word".|
-T Pressing the Assault|QID|44545|M|50.64,47.85|N|Turn in to UI Alert.|
-T Spread the Word|QID|43273|M|51.61,47.81|N|To Alonsus Faol.|
-A Recruiting the Troops|QID|43275|M|51.61,47.81|N|From Alonsus Faol.|PRE|43273|
-C Recruiting the Troops|QID|43275|M|40.93,27.63|NC|N|At Grand Anchorite Gesslar. The first one takes 30 seconds to recruit. Pick it up by clicking on the banner and then place 2 more workorders (which take half hour each).|
-T Recruiting the Troops|QID|43275|M|51.61,47.81|N|To Alonsus Faol.|
-A Troops in the Field|QID|43276|M|51.61,47.81|N|From Alonsus Faol.|PRE|43275|
-C Troops in the Field|QID|43276|M|50.64,47.85|NC|N|Use the scouting map to send your followers on the next mission. This is a 4 hour mission.|
-t Troops in the Field|QID|43276|M|51.61,47.81|N|To Alonsus Faol.|
-A Tech it up a Notch|QID|43277|M|51.61,47.81|N|From Alonsus Faol.|PRE|43276|
-C Tech it up a Notch|QID|43277|M|56.01,40.64|NC|N|Go to Archon Torias and select which class hall upgrade you want.|
-T Tech it up a Notch|QID|43277|M|51.61,47.81|N|To Alonsus Faol.|
-A Relieving the Front Lines|QID|43371|M|51.61,47.81|N|From Alonsus Faol.|PRE|43277|
-C Relieving the Front Lines|QID|43371|M|50.64,47.85|NC|N|Use the scouting map to send your followers on the next mission, "Relieving the Front Lines". This mission is 1 hour.|
-t Relieving the Front Lines|QID|43371|M|51.61,47.81|N|To Alonsus Faol Whenever you exhaust an acolyte, you can (and should) recruit more over at Grand Anchorite Gesslar.|
-A Whispers in the Void|QID|43372|M|51.61,47.81|N|From Alonsus Faol.|PRE|43371|
-A A Second Legend|QID|43935|M|51.61,47.81|N|From Alonsus Faol.|PRE|43371|
-C A Second Legend|QID|43935|M|51.61,47.81|N|Choose the artifact quest you want to pursue next.|
-T A Second Legend|QID|43935|M|51.61,47.81|N|To Alonsus Faol.|
-A Artifact specific quest|QID|40710;41625;41957|M|51.61,47.81|N|From Alonsus Faol.|PRE|43935|
-C Whispers in the Void|QID|43372|M|20.01,41.77|CHAT|N|Talk to Gilner Greymoss.|
-T Whispers in the Void|QID|43372|M|51.61,47.81|N|To Alonsus Faol.|
-A The Best and Brightest|QID|43373|M|47.65,47.33|N|From Prophet Velen.|PRE|43372|
+R Windrunner's Sanctuary|QID|44100|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Horde|LVL|101|
+R Graymane Enclave|QID|44100|M||Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Alliance|LVL|101|
+T Proper Introductions|QID|44100|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
+A Rise Champions|QID|43270|M|51.61,47.81|N|From Alonsus Faol.|PRE|44100|LVL|101|
+A Champion: Calia Menethil|QID|43271|M|51.80,48.98|N|Pick Up Calia as a follower.|ACTIVE|43270|LVL|101|
+A Champion: High Priestess Ishanah|QID|43272|M|57.65,25.80|N|Pick up Ishanah as a follower.|ACTIVE|43270|LVL|101|
+r Upgrade your weapon|QID|44545|M|50.00,21.48|N|Use the alter of Light and Shadow to spend the artifact resources you have been gathering and to socket your artifact enhancements. Manually check this step off.|LVL|101|
+T Rise Champions|QID|43270|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
+A Spread the Word|QID|43273|M|51.61,47.81|N|From Alonsus Faol.|PRE|43270|LVL|101|
+C Spread the Word|QID|43273|M|50.64,47.85|S|N|Use the scouting map, Note it now has 3 tabs, Missions, followers, Scouting Map. Use the missions tab to send your followers on the mission "Spread the Word".|LVL|101|
+C Pressing the Assault|QID|44545|M|50.64,47.85|NC|N|Use Scouting Map tab to pick the next zone you want to adventure in.|LVL|101|
+C Spread the Word|QID|43273|M|50.64,47.85|US|NC|N|The mission was very quick and will be done or nearly done, Use the scouting map, Note it now has 3 tabs, Missions, followers, Scouting Map. Use the missions tab to complete the mission "Spread the Word".|LVL|101|
+T Pressing the Assault|QID|44545|M|50.64,47.85|N|Turn in to UI Alert.|LVL|101|
+T Spread the Word|QID|43273|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
+A Recruiting the Troops|QID|43275|M|51.61,47.81|N|From Alonsus Faol.|PRE|43273|LVL|101|
+C Recruiting the Troops|QID|43275|M|40.93,27.63|NC|N|At Grand Anchorite Gesslar. The first one takes 30 seconds to recruit. Pick it up by clicking on the banner and then place 2 more workorders (which take half hour each).|LVL|101|
+T Recruiting the Troops|QID|43275|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
+A Troops in the Field|QID|43276|M|51.61,47.81|N|From Alonsus Faol.|PRE|43275|LVL|101|
+C Troops in the Field|QID|43276|M|50.64,47.85|NC|N|Use the scouting map to send your followers on the next mission. This is a 4 hour mission.|LVL|101|
+t Troops in the Field|QID|43276|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
+A Tech it up a Notch|QID|43277|M|51.61,47.81|N|From Alonsus Faol.|PRE|43276|LVL|101|
+C Tech it up a Notch|QID|43277|M|56.01,40.64|NC|N|Go to Archon Torias and select which class hall upgrade you want.|LVL|101|
+T Tech it up a Notch|QID|43277|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
+A Relieving the Front Lines|QID|43371|M|51.61,47.81|N|From Alonsus Faol.|PRE|43277|LVL|101|
+C Relieving the Front Lines|QID|43371|M|50.64,47.85|NC|N|Use the scouting map to send yourfollowers on the next mission, "Relieving the Front Lines". This mission is 1 hour.|LVL|101|
+t Relieving the Front Lines|QID|43371|M|51.61,47.81|N|To Alonsus Faol Whenever you exhaust an acolyte, you can (and should) recruit more over at Grand Anchorite Gesslar.|LVL|101|
+A Whispers in the Void|QID|43372|M|51.61,47.81|N|From Alonsus Faol.|PRE|43371|LVL|101|
+C Whispers in the Void|QID|43372|M|20.01,41.77|CHAT|N|Talk to Gilner Greymoss.|LVL|101|
+T Whispers in the Void|QID|43372|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
+A The Best and Brightest|QID|43373|M|47.65,47.33|N|From Prophet Velen.|PRE|43372|LVL|101|
+
 R Dalaran Portal|QID|99999|N|Back to the outside world to continue leveling.|PRE|44100|ACTIVE|39718;39864;39731;39733;39735;43372|
+A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|
+C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
+C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
+C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
+C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
+U Dalaran Hearthstone|QID|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
+R Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|
+T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
+A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar. Take his portal to enter a scenario.|PRE|42457|
+C The Prophet and the Butcher|QID|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
+C In Defense of The Exodar|QID|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
+A Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Automatically accepted by entering the area.|RANK|2|ACTIVE|44004|
+C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|S|N|Kill demons to achieve the objective.|RANK|2|
+A Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|From Farseer Nobundo|RANK|2|ACTIVE|44004|
+C Nobundo's Last Stand|QID|43705|QO|1|M|44.87,9.35|Z|TheExodar|CHAT|N|Tell him you are ready.|RANK|2|
+C Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|Kill 3 waves of mobs.|RANK|2|
+T Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|To Farseer Nobundo.|RANK|2|
+K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|ITEM|140533|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RANK|2|
+C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|US|N|Finish the objective or click it off manually.|RANK|2|
+t Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Auto turned in upon completion.|RANK|2|
+C In Defense of the Exodar|QID|44004|SO|2|US|M|44.87,9.35|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
+C Return to the Prophet|QID|44004|SO|3|M|33.95,66.25|Z|TheExodar|NC|N|Head back to Prophet Velen.|
+C The Light's Heart|QID|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to show him the object.|
+C A Long Way Down|QID|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
+C Revelations|QID|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When Velen says to STOP, ignore him and continue killing the fel annihilator *even though Prophet Velen is also fighting you now*.|
+U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use it and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|ACTIVE|44004|
+T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage Kadgar.|
+A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
+T Light's Charge|QID|44153|M|52.37,69.37|NC|N|Return to your order hall and return to Light's Heart (table in alcove adjacent scouting map).|
+
+;2nd spec artifact
+A A Second Legend|QID|43935|M|51.61,47.81|N|From Alonsus Faol.|PRE|43371|LVL|102|
+C A Second Legend|QID|43935|M|51.61,47.81|N|Choose the artifact quest you want to pursue next.|LVL|102|
+T A Second Legend|QID|43935|M|51.61,47.81|N|To Alonsus Faol.|LVL|102|
+A Artifact specific quest|QID|40710;41625;41957|M|51.61,47.81|N|From Alonsus Faol.|PRE|43935|LVL|102|
+t Return of the Light|QID|42074|M|47.73,47.41|N|To Prophet Velen.|PRE|43935|LVL|102|;holy 2nd or 3rd returns inside netherlight temple
+t A Gift of Time|QID|41632|M|51.61,47.81|N|To Alonsus Faol.|PRE|43935|LVL|102|;disc 2nd or 3rd returns inside netherlight temple
+t Blade in Twilight|QID|40710|M|51.47,45.97|N|To Moira Thaurissan.|PRE|43395|LVL|102|;shadow 2nd or 3rd returns inside netherlight temple
+
+;3rd spec artifact
+A The Third Legend|QID|44407|M|51.60,47.77|N|From Alonsus Faol.|PRE|+43935;42074;41632;-40710|
+A The Third Legend|QID|44407|M|51.60,47.77|N|From Alonsus Faol.|PRE|+43935;41632;40710;-42074|
+A The Third Legend|QID|44407|M|51.60,47.77|N|From Alonsus Faol.|PRE|+43935;40710;42074;-41632|
+C The Third Legend|QID|44407|M|51.60,47.77|N|Choose the remaining artifact.|
+T The Third Legend|QID|44407|M|51.60,47.77|N|To Alonsus Faol.|
 
 ;DISCIPLINE
 ;A The Light's Wrath|QID|41625|M|78.95,40.99|Z|Tirisfal Glades|N|From Alonsus Faol.|
 U Back to Dalaran|QID|41625|M|78.95,40.99|Z|Tirisfal Glades|U|140192|N|Use your Dalaran hearthstone or otherwise travel back to Dalaran.|ACTIVE|41625|
 T The Light's Wrath|QID|41625|M|28.64,49.92|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
 A A New Threat|QID|41626|M|28.64,49.92|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|41625|
-R Chamber of the Guardians|QID|41626|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|ACTIVE|41626|
-C A New Threat|QID|41626|QO|1|M|31.22,83.42|Z|Aegwynn's Gallery@Dalaran70|N|Take the Dalaran portal to Wyrmrest Temple (Optional)|
-C A New Threat|QID|41626|QO|2|M|56.46,63.19|Z|Dragonblight|N|Travel to the Azure Dragonshrine|
-C A New Threat|QID|41626|QO|3|M|54.80,67.56|Z|Dragonblight|N|Click on the glowing spots in this area.|
-T A New Threat|QID|41626|M|56.69,69.12|Z|Dragonblight|N|To UI Alert.|
-A A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|Dragonblight|N|From UI Alert.|PRE|41626|
-C A Forgotten Enemy|QID|41627|QO|1|M|56.69,69.12|Z|Dragonblight|N|Activate the communication device|
-T A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|Dragonblight|N|To Nexus-Prince Bilaal.|
-A Eyes of the Dragon|QID|41628|M|56.69,69.12|Z|Dragonblight|N|From Nexus-Prince Bilaal.|PRE|41627|
+R Chamber of the Guardian|QID|41626|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardian, and step on the teleport pad.|ACTIVE|41626|
+C A New Threat|QID|41626|QO|1|M|31.22,83.42|Z|Aegwynn's Gallery@Dalaran70|NC|N|Take the Dalaran portal to Wyrmrest Temple (Optional)|
+C A New Threat|QID|41626|QO|2|M|56.46,63.19|Z|Dragonblight|NC|N|Travel to the Azure Dragonshrine|
+C A New Threat|QID|41626|QO|3|M|54.49,65.02;56.05,67.55;54.80,67.56|CN|Z|Dragonblight|NC|N|Click on the glowing spots in this area.|
+T A New Threat|QID|41626|M|56.69,69.12|Z|Dragonblight|N|To Ethereal Communication Device.|
+A A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|Dragonblight|N|From Ethereal Communication Device.|PRE|41626|
+C A Forgotten Enemy|QID|41627|QO|1|M|56.69,69.12|Z|Dragonblight|NC|N|Activate the communication device|
+T A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|Dragonblight|N|To UI Alert.|
+A Eyes of the Dragon|QID|41628|M|56.69,69.12|Z|Dragonblight|N|From UI Alert.|PRE|41627|
 C Eyes of the Dragon|QID|41628|QO|1|M|28.62,28.92|Z|Borean Tundra|N|Scout the Nexus spire.|NC|
 C Eyes of the Dragon|QID|41628|QO|2|M|24.65,29.63|Z|Borean Tundra|N|Scout the Surge Needle.|NC|
 C Eyes of the Dragon|QID|41628|QO|3|M|25.16,27.83|Z|Borean Tundra|N|Scout the Nexus foundation.|NC|
 T Eyes of the Dragon|QID|41628|M|28.41,25.62|Z|Borean Tundra|N|To UI Alert.|
 A Harnessing the Holy Fire|QID|41629|M|28.41,25.62|Z|Borean Tundra|N|From UI Alert.|PRE|41628|
-C Harnessing the Holy Fire|QID|41629|QO|1|M|27.14,29.42|Z|Borean Tundra|N|Kill the elemental mobs and click on the balls of light to full up the bar with Unstable Holy Energy, *dieing resets to zero*.|
+C Harnessing the Holy Fire|QID|41629|QO|1|M|27.14,29.42|Z|Borean Tundra|N|Kill the elemental mobs and click on the balls of light to fill up the bar with Unstable Holy Energy, *dieing resets to zero*.|
 T Harnessing the Holy Fire|QID|41629|M|27.14,29.42|Z|Borean Tundra|N|To UI Alert.|
 A Unleashing Judgment|QID|41630|M|27.14,29.42|Z|Borean Tundra|N|From UI Alert.|PRE|41629|
-C Unleashing Judgment|QID|41630|QO|2|M|24.21,29.62|Z|Borean Tundra|N|West Surge Needle destroyed.|
+C Unleashing Judgment|QID|41630|QO|2|M|24.21,29.62|Z|Borean Tundra|NC|N|West Surge Needle destroyed.|
 C Unleashing Judgment|QID|41630|QO|3|M|27.38,20.34|Z|Borean Tundra|N|North Surge Needle destroyed.|
-C Unleashing Judgment|QID|41630|QO|1|M|32.73,27.79|Z|Borean Tundra|N|East Surge Needle destroyed.|PRE|4162|
+C Unleashing Judgment|QID|41630|QO|1|M|32.73,27.79|Z|Borean Tundra|NC|N|East Surge Needle destroyed.|PRE|4162|
 T Unleashing Judgment|QID|41630|M|32.73,27.79|Z|Borean Tundra|N|To UI Alert.|
 A The Nexus Vault|QID|41631|M|30.27,28.07|Z|Borean Tundra|N|From UI Alert.|PRE|41630|
-C The Azure Prisoner|QID|41631|SO|1;1|M|35.71,68.94|Z|The Nexus|N|Free Azuregos from the ethereals by defeating the Voidtouched Channelers binding him.|
-C Azuregos healed to full|QID|41631|SO|1;2|M|35.71,68.94|Z|The Nexus|N|Azuregos healed to full.|
-C Reach the Librarium|QID|41631|SO|2;1|M|27.10,33.67|Z|The Nexus|N|Reach the Librarium|
-C Find a way into the vault|QID|41631|SO|2;2|M|27.75,40.42|Z|The Nexus|N|Find a way into the vault, Shield yourself and Azurgos.|
-C Judgement's Flame defeated|QID|41631|SO|3;1|M|27.75,40.42|Z|The Nexus|N|Defeat Judgement's Flame. Keep Azuregos healed/shielded.|
-C Reach the Rift|QID|41631|SO|4;1|M|30.97,22.24|Z|The Nexus|N|Reach the Rift.  When Azuregos changes to dragon form, hop on for a ride across the rift.|
-C Nexus-Prince Bilaal Defeated|QID|41631|SO|5;1|Z|The Nexus|M|59.55,20.28|N|Defeat Nexus-Prince Bilaal. Lots of shielding again.|
-C The Nexus Vault|QID|41631|QO|1|M|59.55,20.28|Z|The Nexus|N|Kill Nexus-Prince Bilaal.|ACTIVE|41631|T|Nexus-Prince Bilaal|
-C A Will of Fire|QID|41631|SO|6;1|M|0.00,0.00|Z|The Nexus|N|Heal snd shield yourself while seizing control of Light's Wrath.|
-C Claim Light's Wrath|QID|41631|SO|7;1|M|0.00,0.00|Z|The Nexus|N|Claim Light's Wrath.|
-C Leave the Nexus Vault|QID|41631|SO|7;2|M|58.65,20.99|Z|The Nexus|N|Leave the Nexus Vault via the Portal Azuregos creates for you.|
+C The Azure Prisoner|QID|41631|SO|1;1|M|36.14,70.13|Z|TheBeyond/1|N|Free Azuregos from the ethereals by defeating the Voidtouched Channelers binding him.|
+C Azuregos healed to full|QID|41631|SO|1;2|M|36.17,67.57|Z|TheBeyond/1|NC|N|Azuregos healed to full.|
+C Reach the Librarium|QID|41631|SO|2|M|27.10,67.53;18.86,50.72;27.65,39.95|CS|Z|TheBeyond/1|N|Reach the Librarium. Time your passage over the shooting flames to when they are not erupting. Use your shields.|
+C Judgement's Flame defeated|QID|41631|SO|3|M|27.75,40.42|Z|TheBeyond/1|N|Defeat Judgement's Flame. Keep Azuregos healed/shielded.|
+C Reach the Rift|QID|41631|SO|4|M|30.97,22.24|Z|TheBeyond/1|N|Reach the Rift. When Azuregos changes to dragon form, hop on for a ride across the rift.|
+C The Nexus Vault|QID|41631|QO|1|M|59.55,20.28|Z|TheBeyond/1|T|Nexus-Prince Bilaal|N|Defeat Nexus-Prince Bilaal. Lots of shielding again.|
+C A Will of Fire|QID|41631|SO|6|N|Step thru the portal and then go claim Light's Wrath. Heal snd shield yourself while seizing control of Light's Wrath.|;no coordinates. Its not on a map
+C Claim Light's Wrath|QID|41631|SO|7;1|NC|N|Claim Light's Wrath.|;no coordinates. Its not on a map
+C Leave the Nexus Vault|QID|41631|SO|7;2|M|59.22,20.41|Z|TheBeyond/1|NC|N|Leave the Nexus Vault via the Portal Azuregos creates for you.|
 T The Nexus Vault|QID|41631|M|28.60,49.89|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
 A A Gift of Time|QID|41632|M|28.60,49.89|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|40631|
+C A Gift of Time|QID|41632|M|51.61,47.81|CHAT|N|Talk to Alonsus Faol in Netherlight Temple.|LVL|102|
 T A Gift of Time|QID|41632|M|46.37,20.96|Z|Dalaran@Dalaran70|N|To Alonsus Faol.|
 
 ;HOLY
@@ -149,24 +196,23 @@ C House Call|QID|41966|NC|QO|1|M|36.02,36.69|Z|Dalaran@Dalaran70|N|Use Purify to
 T House Call|QID|41966|M|37.46,35.52|Z|Dalaran@Dalaran70|N|To Defender Barrem.|
 A Out of the Darkness|QID|41967|M|37.46,35.52|Z|Dalaran@Dalaran70|N|From Defender Barrem.|PRE|41966|
 C Out of the Darkness|QID|41967|QO|1|M|70.71,43.93|Z|Dalaran@Dalaran70|NC|N|Go up to Krasus landing and hop on Lightfeather who is waiting for you.|
-C Out of the Darkness|QID|41967|QO|2|M|34.72,33.11|Z|Niskara#1078|N|Kill the demon standing in front of you.|
-C Out of the Darkness|QID|41967|QO|3|M|34.00,33.91|Z|Niskara#1078|N|Resurrect Alora.|
-T Out of the Darkness|QID|41967|M|34.00,33.91|Z|Niskara#1078|N|To Alora.|
-A Salvation From On High|QID|41993|M|34.00,33.91|Z|Niskara#1078|N|From Alora.|PRE|41967|
-C Salvation From On High|QID|41993|QO|1|M|33.37,33.38|Z|Niskara#1078|N|Heal and otherwise assist Jace Darkweaver.|
-T Salvation From On High|QID|41993|M|33.58,33.12|Z|Niskara#1078|N|To Jace Darkweaver.|
-A Return of the Light|QID|42074|M|33.58,33.12|Z|Niskara#1078|N|From Jace Darkweaver.|PRE|41993|
-C Return of the Light|QID|42074|QO|1|M|0.00,0.00|Z|Niskara#1078|N|Travel through the Portal on Darkstone Isle|
-C Heal Vindicator Boros|QID|42074|SO|1|Z|Niskara#1078|N|You've emerged upon a ship of the Burning Legion to find your allies have become seperated in battle. Help Vindicator Boros recover from his injuries.|
-C Assist Jace Darkweaver.|QID|42074|SO|2;1|M|71.03,73.45|Z|Niskara#1078|N|Heal and otherwise assist Jace Darkweaver.|
-C Destroy the Anchoring Crystal|QID|42074|SO|3;1|M|70.95,72.91|Z|Niskara#1078|N|Destroy the Anchoring Crystal.|
-C Exit the lower levels of the Legion Ship.|QID|42074|SO|3;2|M|70.75,81.14|Z|Niskara#1078|N|Exit the lower levels of the Legion Ship.|
-C Rescue Bo'ja|QID|42074|SO|4;1|M|71.29,73.92|Z|Niskara#1078|N|Rescue Bo'ja|
-C Defeat Captain Naranoth|QID|42074|SO|5;1|M|72.85,73.61|Z|Niskara#1078|N|Defeat Captain Naranoth|
-C Defeat Lady Calindris|QID|42074|SO|6;1|M|62.14,61.42|Z|Niskara#1078|N|Assist your allies in defeating Lady Calindris|
-C T'uure obtained.|QID|42074|SO|7;1|M|65.34,59.26|Z|Niskara#1078|N|Pick up T'uure.|
-C Return of the Light|QID|42074|QO|2|M|65.34,59.26|Z|Niskara#1078|N|Pick up T'uure.|
-C Leave Niskara|QID|42074|SO|7;2|M|65.53,59.99|Z|Niskara#1078|N|Bo'ja made a portal for you, use it to Leave Niskara.|
+C Out of the Darkness|QID|41967|QO|2|M|34.72,33.11|Z|Broken Shore|N|Kill the demon standing in front of you.|
+C Out of the Darkness|QID|41967|QO|3|M|34.00,33.91|Z|Broken Shore|NC|N|Resurrect Alora.|
+T Out of the Darkness|QID|41967|M|34.00,33.91|Z|Broken Shore|N|To Alora.|
+A Salvation From On High|QID|41993|M|34.00,33.91|Z|Broken Shore|N|From Alora.|PRE|41967|
+C Salvation From On High|QID|41993|QO|1|M|33.37,33.38|Z|Broken Shore|N|Heal and otherwise assist Jace Darkweaver.|
+T Salvation From On High|QID|41993|M|33.58,33.12|Z|Broken Shore|N|To Jace Darkweaver.|
+A Return of the Light|QID|42074|M|33.58,33.12|Z|Broken Shore|N|From Jace Darkweaver.|PRE|41993|
+C Return of the Light|QID|42074|QO|1|M|32.06,31.96|Z|Broken Shore|NC|N|Travel through the Portal on Darkstone Isle|
+C Heal Vindicator Boros|QID|42074|SO|1|M|74.56,82.80|Z|Niskara|N|You've emerged upon a ship of the Burning Legion to find your allies have become seperated in battle. Help Vindicator Boros recover from his injuries.|
+C Assist Jace Darkweaver.|QID|42074|SO|2|M|71.03,73.45|Z|Niskara|N|Heal and otherwise assist Jace Darkweaver.|
+C Destroy the Anchoring Crystal|QID|42074|SO|3;1|M|70.69,71.67|Z|Niskara|N|Destroy the Anchoring Crystal (Smite works nicely).|
+C Exit the lower levels of the Legion Ship.|QID|42074|SO|3;2|M|70.75,81.14|Z|Niskara|N|Exit the lower levels of the Legion Ship.|
+C Rescue Bo'ja|QID|42074|SO|4|M|71.29,73.92|Z|Niskara|NC|N|Rescue Bo'ja|
+C Defeat Captain Naranoth|QID|42074|SO|5|M|72.85,73.61|Z|Niskara|N|To start the combat, approach Naranoth and the NPCs will follow and engage. When he does the ground effect, that means he is about to teleport to the opposite side, move there or your party will be out of healing range.|
+C Defeat Lady Calindris|QID|42074|SO|6|M|62.14,61.42|Z|Niskara|N|Assist your allies in defeating Lady Calindris|
+C T'uure obtained.|QID|42074|SO|7;1|M|65.34,59.26|Z|Niskara|NC|N|Pick up T'uure.|
+C Leave Niskara|QID|42074|SO|7;2|M|65.53,59.99|Z|Niskara|NC|N|Bo'ja made a portal for you, use it to Leave Niskara.|
 T Return of the Light|QID|42074|M|46.28,20.52|Z|Dalaran@Dalaran70|N|To Prophet Velen.|
 
 ;SHADOW
@@ -221,7 +267,7 @@ C Problem Slaver|QID|43376|M|42.34,44.19|Z|Azsuna|N|Apply salve to the demon hun
 T Problem Slaver|QID|43376|M|47.11,43.98|Z|Azsuna|N|To Yalia Sagewhisper.|LVL|103|
 A Champion: Yalia Sagewhisper|QID|42137|M|47.11,43.98|Z|Azsuna|N|To/From Yalia Sagewhisper.|PRE|43376|LVL|103|
 A Champion: Zabra Hexx.|QID|42138|M|47.20,44.00|Z|Azsuna|N|To/From Zabra Hexx.|PRE|43376|LVL|103|
-A Looking Through the Lens|QID|43378|M|47.11,43.98|Z|Azsuna|N|From Yalia Sagewhisper. This is an instance/group quest.|PRE|42137|LVL|103|
+A Looking Through the Lens|QID|43378|M|47.11,43.98|Z|Azsuna|N|From Yalia Sagewhisper. This is an instance/group quest.|PRE|42137||LVL|103|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
