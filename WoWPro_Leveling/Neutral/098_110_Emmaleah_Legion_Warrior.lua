@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2016-09-15 03:15
+-- Who: Emmaleah
+-- Log: changes noted. per Blankaert. (except I used name instead of #.
+
+-- URL: http://wow-pro.com/node/3677/revisions/27646/view
 -- Date: 2016-09-14 09:37
 -- Who: Emmaleah
 -- Log: Updated Jump to Stormheim for alliance/horde
@@ -34,18 +39,18 @@ T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To 
 
 A A Desparate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Eitrigg.|
 A An Important Mission|QID|42814|FACTION|Alliance|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From ?.|
-C Chat with Saurfang|QID|41052|M|57.47,45.56|Z|Dalaran@Dalaran70|CHAT|N|Talk to him.|FACTION|Horde|
+C Chat with Saurfang|QID|41052|M|75.06,46.18|Z|Dalaran@Dalaran70|CHAT|N|Talk to him.|FACTION|Horde|
 A Return to the Broken Shore|QID|38904|FACTION|Horde|M|75.05,46.18|Z|Dalaran@Dalaran70|N|From High Overlord Saurfang.|PRE|41052|
 A Return to the Broken Shore|QID|42815|FACTION|Alliance|M|75.05,46.18|Z|Dalaran@Dalaran70|N|From Danath Trollbane.|PRE|42814|
 C Return to the Broken Shore|QID|38904;42815|NC|QO|1|M|75.04,47.17|Z|Dalaran@Dalaran70|N|Hop on the extra mount.|
 C Meet up with the vrykul.|SO|1;1|M|50.37,28.28|Z|Broken Shore|N|Meet up with the vrykul.|QID|38904;42815|
 C Legion forces eliminated|SO|2;1|M|51.28,30.71|Z|Broken Shore|N|Aid the vrykul in eliminating the Legion forces.|QID|38904;42815|
 C Approach Danica|SO|3;1|M|50.90,29.94|Z|Broken Shore|N|Approach Danica|QID|38904;42815|
-C Defeat Bezzeredes and his allies.|SO|4;1|M|49.45,32.56|Z|Dalaran@Dalaran70|N|Defeat Bezzeredes and his allies.|QID|38904;42815|
+C Defeat Bezzeredes and his allies.|SO|4;1|M|49.45,32.56|Z|Broken Shore|N|Defeat Bezzeredes and his allies.|QID|38904;42815|
 C Defeat Malgalor|SO|5;1|M|49.64,28.65|Z|Broken Shore|N|Defeat Malgalor.|QID|38904;42815|
 C Return to the Broken Shore|QID|38904;42815|QO|2|M|59.04,27.27|Z|Broken Shore|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|
-T Return to the Broken Shore|QID|38904;42815|M|59.07,29.88|Z|Broken Shore|N|To Danica the Reclaimer.|ACTIVE|41052;42814|
-A Odyn and the Valarjar|QID|39654|M|59.07,29.88|Z|Broken Shore|N|From Danica the Reclaimer.|
+T Return to the Broken Shore|QID|38904;42815|M|59.07,29.88|N|To Danica the Reclaimer.|ACTIVE|41052;42814|
+A Odyn and the Valarjar|QID|39654|M|59.07,29.88|N|From Danica the Reclaimer.|
 C Odyn and the Valarjar|QID|39654|QO|1|M|59.23,45.46|NC|N|Follow Danica|
 C Odyn and the Valarjar|QID|39654|QO|2|M|58.55,68.39|NC|N|Go to the Great Mead Hall|
 C Odyn and the Valarjar|QID|39654|QO|3|M|58.45,76.79|NC|N|Listen to Odyn|
@@ -95,14 +100,13 @@ T The Hunter of Heroes|QID|40043|M|58.58,85.63|N|To Odyn.|
 
 ;PROTECTION
 ;A Legacy of the Icebreaker|QID|39191|M|58.42,84.89|N|From Odyn.|PRE|40579|
-C Legacy of the Icebreaker|QID|39191|M|59.27,25.32|CHAT|N|Talk with Hrithnir.|ACTIVE|40579|
-C The Sealed Tomb|SO|1;1|M|84.26,9.55|Z|StormheimArtifactProtWarrior|N|Fight your way down the hill (with Hrithnir) until you get to the entrance of the tomb.|QID|40579|
-C Defeat Pillik|SO|2;1|M|84.26,9.55|Z|StormheimArtifactProtWarrior|N|After you defeat him, the doors will open.|QID|40579|
-C Find Magnar|SO|3;1|M|53.22,57.52|Z|StormheimArtifactProtWarrior|N|Heroic Leap to the nearest mob, after he dies, Heroic Leap to the one across.  When those two are dead, the wind on the floor goes away.|QID|40579|
-C Defend Hruthnir|SO|4;1|M|50.58,72.84|Z|StormheimArtifactProtWarrior|N|Defend Hruthnir|QID|40579|
-C Defeat Magnar Icebreaker|SO|5;1|M|50.13,83.25|Z|StormheimArtifactProtWarrior|N|Defeat Magnar Icebreaker|QID|40579|
-C Armaments of the Black Wyrm|SO|6;1|M|19.98,82.35|Z|StormheimArtifactProtWarrior|N|The sword and shield are yours, claim them.|QID|40579|
-C Legacy of the Icebreaker|QID|39191|QO|3|M|19.98,82.35|Z|StormheimArtifactProtWarrior|N|Stand in the middle of the glowing circle and use your extra action button to take Odyn's portal back to Skyhold.|
+C Legacy of the Icebreaker|QID|39191|M|59.31,26.60|CHAT|N|Talk with Hrithnir.|
+C The Sealed Tomb|QID|39191|SO|1;1|M|84.26,9.55|Z|Stormheim|N|Fight your way down the hill (with Hrithnir) until you get to the entrance of the tomb.|
+C Find Magnar|QID|39191|SO|3;1|M|53.22,57.52|Z|Stormheim/1|N|Heroic Leap to the nearest mob, after he dies, Heroic Leap to the one across.  When those two are dead, the wind on the floor goes away.|
+C Defend Hruthnir|QID|39191|SO|4;1|M|50.58,72.84|Z|Stormheim/1|N|Defend Hruthnir|
+C Defeat Magnar Icebreaker|QID|39191|SO|5;1|M|50.13,83.25|Z|Stormheim/1|N|Defeat Magnar Icebreaker|
+C Armaments of the Black Wyrm|QID|39191|SO|6;1|M|19.98,82.35|Z|Stormheim/1|N|The sword and shield are yours, claim them.|
+C Legacy of the Icebreaker|QID|39191|QO|3|M|19.98,82.35|Z|Stormheim/1|N|Stand in the middle of the glowing circle and use your extra action button to take Odyn's portal back to Skyhold.|
 T Legacy of the Icebreaker|QID|39191|M|58.51,85.77|N|To Odyn.|
 
 ;Warrior Class Hall
@@ -117,10 +121,6 @@ A Thus Begins the War|QID|40585|M|59.78,13.33|N|From Skyseer Ghrent.|PRE|39124|
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|59.45,13.34|N|From the Eye of Odyn. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40585|
 T Thus Begins the War|QID|40585|M|59.78,13.33|N|To Skyseer Ghrent.|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|58.55,24.00|N|Talk to the Val'kyr for transport to Dalaran.|
-
-;Insert the stuff that happens after you finish first zone here
-
-;insert order hall progression quests here
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
