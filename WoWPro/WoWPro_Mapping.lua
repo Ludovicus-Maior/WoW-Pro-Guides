@@ -388,7 +388,7 @@ function WoWPro:ValidZone(zone)
 	if zone then
 	    if tonumber(zone) then
 	        -- Using a numeric zone ID
-            return tostring(tonumber(zone))
+            return tonumber(zone)
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
 	        return zone

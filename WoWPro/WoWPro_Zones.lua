@@ -203,9 +203,9 @@ function WoWPro:IsInstanceZone(zone)
         WoWPro:Error("Zone [%s] is invalid.  Please report!",zone)
         return false
     end      
-    local mapID = WoWPro.Zone2MapID[nzone]
+    local mapID = WoWPro.Zone2MapID[nzone] or  WoWPro.MapID2Zone[nzone]
     if not mapID then
-        WoWPro:Error("Zone [%s] is not in Zone2MapID.  Please report!",nzone)
+        WoWPro:Error("Zone [%s] is not in Zone2MapID or MapID2Zone.  Please report!",nzone)
         return false
     end  
     if mapID.cont or mapID.zone then
