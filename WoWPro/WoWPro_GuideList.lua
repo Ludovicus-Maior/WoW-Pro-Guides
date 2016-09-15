@@ -315,7 +315,7 @@ function WoWPro:ShowTooltipIcon(icon, offsets)
     TooltipIcon:SetTexture(icon)
     if offsets then
         local x1, x2, y1, y2 = unpack(offsets)
-        TooltipButton:SetTexCoord(x1, x2, y1, y2)
+        TooltipIcon:SetTexCoord(x1, x2, y1, y2)
     end
     TooltipButton:SetPoint("TOPRIGHT", GameTooltip, "TOPRIGHT", -4, -4)
     TooltipButton:Show()
