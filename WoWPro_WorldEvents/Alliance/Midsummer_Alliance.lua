@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2016-09-14 17:41
+-- Who: Ludovicus
+-- Log: Dalaran City@Dalaran
+
+-- URL: http://wow-pro.com/node/3406/revisions/27159/view
 -- Date: 2015-03-09 17:19
 -- Who: Ludovicus
 -- Log: Added missing Z tag
@@ -272,10 +277,10 @@ A Honor the Flame|N|From the Flame Warden. (The Storm Peaks)|QID|13490|M|41.44,8
 A Desecrate this Fire!|N|At the Horde Bonfire. (The Storm Peaks)|QID|13455|M|40.41,85.61|Z|The Storm Peaks|
 A Honor the Flame|N|From the Flame Warden. (Crystalsong Forest)|QID|13491|M|78.17,74.95|Z|Crystalsong Forest|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Crystalsong Forest)|QID|13457|M|80.34,52.87|Z|Crystalsong Forest|
-R Dalaran |N|Run to Dalaran.|M|88.72,60.36|Z|Dalaran|
+R Dalaran |N|Run to Dalaran.|M|88.72,60.36|Z|Dalaran City@Dalaran|
 N Torch Juggler|QID|990272|N|To do this achievement, use the Juggling Torches that you purchased earlier. Find a quiet corner in Dalaran where you have open space and have the least amount of lag. Tip: Bind your Torches to a hotkey. Press the hotkey to get the targeting circle and aim directly beneath yourself. Throwing them at yourself this way will allow you to catch them as fast as you can throw them. There is no global cooldown on the torches so you can spam away until you complete this achievement.|ACH|1038;6|
 
-R Stormwind City|N|Take the portal back to Stormwind.|M|39.57,62.38|Z|Dalaran|
+R Stormwind City|N|Take the portal back to Stormwind.|M|39.57,62.38|Z|Dalaran City@Dalaran|
 R Paw'Don Village|N|Take the portal to Paw'Don Village.|M|68.73,17.33|Z|Stormwind City|
 F Dawn's Blossom|N|Fly to Dawn's Blossom in the Jade Forrest.|QID|32498|M|46.04,85.07|Z|The Jade Forest|
 A Honor the Flame|N|From the Flame Warden. (Dawn's Blossom)|QID|32498|M|47.2,47.2|Z|The Jade Forest|

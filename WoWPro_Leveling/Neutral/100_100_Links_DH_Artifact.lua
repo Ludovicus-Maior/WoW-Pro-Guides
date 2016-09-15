@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_artifact_and_class_hall
+-- Date: 2016-09-14 09:05
+-- Who: Emmaleah
+-- Log: changed 2 instances of Dalaran to Dalaran@Dalaran70 (C/T 41119)
+--	Added class Icon registration
+--	Fixed Jump to Stormheim/Alliance/Horde
+
+-- URL: http://wow-pro.com/node/3685/revisions/27761/view
 -- Date: 2016-09-14 02:35
 -- Who: Ludovicus
 
@@ -16,6 +23,7 @@ local guide = WoWPro:RegisterGuide('LinksDHArtCH100100', 'Leveling', 'DemonHunte
 WoWPro:GuideLevels(guide,100, 100)
 WoWPro:GuideName(guide, 'Demon Hunter Order Hall')
 WoWPro:GuideClassSpecific(guide,"DemonHunter")
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_DemonHunter")
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Faction Specific Start
@@ -71,8 +79,8 @@ C By Any Means|QID|41121|QO|2|M|0.00,0.00|Z|Dalaran@Dalaran70|N|1/1 Enter the Vi
 C By Any Means|QID|41121|QO|3|M|52.13,47.80|Z|The Violet Hold|N|1/1 Taldath interrogated|
 T By Any Means|QID|41121|M|50.29,70.94|Z|The Violet Hold|N|To Altruis the Sufferer or Kayn Sunfury.|
 A The Hunt|QID|41119|PRE|41121|M|50.29,70.94|Z|The Violet Hold|N|From Kayn Sunfury or Altruis the Sufferer.|
-C The Hunt|QID|41119|QO|1|M|75.13,47.54|Z|Dalaran|N|1/1 Fly to Felsoul Hold|
-T The Hunt|QID|41119|M|73.84,46.03|Z|Dalaran|N|To Kor'vas Bloodthorn.|
+C The Hunt|QID|41119|QO|1|M|75.13,47.54|Z|Dalaran@Dalaran70|N|Fly to Felsoul Hold|
+T The Hunt|QID|41119|M|73.84,46.03|Z|Dalaran@Dalaran70|N|To Kor'vas Bloodthorn.|
 
 ; Vengeance
 ; A Asking a Favor|QID|40247;41803|M|74.98,49.02|Z|Dalaran@Dalaran70|N|From Kayn Sunfury or Altruis the Sufferer.|
@@ -134,7 +142,8 @@ A Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center@DemonHun
 T Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer or Kayn Sunfury.|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
-J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|
+J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
+J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
 

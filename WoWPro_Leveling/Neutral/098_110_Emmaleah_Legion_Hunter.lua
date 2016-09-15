@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2016-09-14 09:12
+-- Who: Emmaleah
+-- Log: C In The Blink of an Eye changed to Dalaran@DeadwindPass (was Dalaran@Dalaran70)
+
+-- URL: http://wow-pro.com/node/3670/revisions/27652/view
 -- Date: 2016-08-30 22:58
 -- Who: Ludovicus
 -- Log: BrokenShore zone correction
@@ -33,7 +38,7 @@ C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) 
 A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Dalaran70|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
 A Needs of the Hunters|QID|40384|M|57.24,44.84|Z|Dalaran@Dalaran70|N|From Snowfeather. Wait a minute or so for him to fly over.|

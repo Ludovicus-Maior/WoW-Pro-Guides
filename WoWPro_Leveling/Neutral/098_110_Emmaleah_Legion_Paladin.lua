@@ -4,9 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
--- Date: 2016-09-14 02:10
+-- Date: 2016-09-14 09:21
 -- Who: Emmaleah
--- Log: moved the "A Falling Star" quest to a different spot in the guide, correct spelling "stairs" !=stars, changed some "T"s to "t" for steps that were for doing missions.
+-- Log: C In the Blink of an Eye|Q0|2 changed to|Z|Dalaran@DeadwindPass
+--	A Growing Power changed to |Z|Dalaran@Dalaran70
 
 -- URL: http://wow-pro.com/node/3673/revisions/27737/view
 -- Date: 2016-09-11 06:16
@@ -47,7 +48,7 @@ C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) 
 A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Dalaran70|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 A An Urgent Gathering|QID|38710|M|58.68,47.44|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus. Wait a minute or so for him to show up.|PRE|44663;44184|
 C An Urgent Gathering|QID|38710|QO|1|M|58.48,42.14|Z|Dalaran@Dalaran70|N|Travard is just outside 'Magical Menagerie'.|
@@ -59,7 +60,7 @@ T Weapons of Legend|QID|40408|M|74.91,48.23|Z|Dalaran@Dalaran70|N|To Lord Maxwel
 A Artifact specific quest|QID|42000;42231;42770|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|40408|
 
 ;stuff that happens after you finish first zone here
-A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran|N|From Justicar Julia Celeste.|PRE|39780;38743;43595;42244;40794|;need to add stormheim alliance ending QID.
+A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran@Dalaran70|N|From Justicar Julia Celeste.|PRE|39780;38743;43595;42244;40794|;need to add stormheim alliance ending QID.
 R Graymane Enclave|QID|42844|M|32.64,69.99|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Alliance|
 R Windrunner's Sanctuary|QID|42844|M|61.81,13.70|CC|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Horde|
 T Growing Power|QID|42844|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|

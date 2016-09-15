@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2016-09-14 17:32
+-- Who: Ludovicus
+-- Log: Updated to Dalaran City@Dalaran
+
+-- URL: http://wow-pro.com/node/3544/revisions/27119/view
 -- Date: 2015-01-04 23:36
 -- Who: Ludovicus
 -- Log: Corrected faction line.
@@ -172,7 +177,7 @@ A Grand Master Payne|QID|31935|M|77.4,20|Z|Icecrown|RANK|1|N|From Grand Master P
 C Grand Master Payne|QID|31935|M|77.4,20|Z|Icecrown|RANK|1|N|Opponents are level 25 Epic Mechanical, Elemental and Beast. This means your best choices are Elemental, Aquatic and Mechanical.|
 T Grand Master Payne|QID|31935|M|77.4,20|Z|Icecrown|RANK|1|N|To Grand Master Payne.|
 
-R Dalaran|QID|31974|M|40.23,62.83|Z|Dalaran|RANK|1|U|89125|N|You can open your treasure bag while you are flying to the next spot. Use the portal in Dalaran to Stormwind (if you dont have the Uldam portal, the Dalaran portal it Caverns of Time is a good 2nd choice). You don't really want to use your hearthstone so you can save it for leaving Uldum.|
+R Dalaran|QID|31974|M|40.23,62.83|Z|Dalaran City@Dalaran|RANK|1|U|89125|N|You can open your treasure bag while you are flying to the next spot. Use the portal in Dalaran to Stormwind (if you dont have the Uldam portal, the Dalaran portal it Caverns of Time is a good 2nd choice). You don't really want to use your hearthstone so you can save it for leaving Uldum.|
 R Cataclysm Portals|QID|31974|M|76,18|Z|Stormwind City|RANK|1|N|Use the portals or take a long flight.|
 R Uldum|QID|31971|M|56.6,42|Z|Uldum|RANK|1|
 A Grand Master Obalis|QID|31971|M|56.6,42|Z|Uldum|RANK|1|N|From Grand Master Obalis.|

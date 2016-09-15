@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
--- Date: 2016-09-14 02:03
+-- Date: 2016-09-14 08:45
 -- Who: Emmaleah
 -- Log: All quests pre 110, but missing the scenarios for getting #3/#4 followers (Koltira and Thoras Trollbane) Not tested.
 
@@ -180,32 +180,31 @@ t Braid of the Underking|QID|43571||M|98.8,59.2|N|To Salanar the Horseman.|
 N Class Hall Advancement|M|56.01,40.64|LVL|105|NC|N|Don't forget to go to Archivist Zubashi and choose your tier 2 order hall advancement. The rest of progressing your class hall requires level 110.|
 
 ;2nd spec artifact
-A Blades of Destiny|QID|43962|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|43539|LVL|102|
-C Blades of Destiny|QID|43962|M|49.66,51.25|N|Choose the artifact quest you want to pursue next.|LVL|102|
-T Blades of Destiny|QID|43962|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|102|
-A Artifact specific quest|QID|40740;38990;40935|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|43935|LVL|102|
+A Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|PRE|43539|LVL|102|
+C Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the artifact quest you want to pursue next.|LVL|102|
+T Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|To Duke Lankral.|LVL|102|
+A Artifact specific quest|QID|40740;38990;40935|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|PRE|43935|LVL|102|
 
 ;3rd spec artifact
-A A Weapon For Every Occassion|QID|44401|M|51.60,47.77|N|From Siouxsie the Banshee.|ACH|11174;;true|
-C A Weapon For Every Occassion|QID|44401|M|51.60,47.77|N|Choose the remaining artifact.|
-T A Weapon For Every Occassion|QID|44401|M|51.60,47.77|N|To Siouxsie the Banshee.|
+A A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACH|11174;;true|
+C A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the remaining artifact.|
+T A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|
 
 ;BLOOD
 ;A The Dead and the Damned|QID|40740|M|73.03,46.79|Z|Dalaran@Dalaran70|N|From UI (Lich King).|PRE|40715|
-C The Dead and the Damned|QID|40740|NC|QO|1|M|73.35,47.90|Z|Dalaran@Dalaran70|N|Optional: Ride Zeomus to the Broken Shore|
+C The Dead and the Damned|QID|40740|NC|QO|1|M|73.35,47.90|Z|Dalaran@Dalaran70|N|Optional: Ride Zeomus from Krasus' Landing to the Broken Shore|
 C The Dead and the Damned|QID|40740|NC|QO|2|M|32.00,31.96|Z|Broken Shore|N|Enter into the Legion Portal|
-C Hunting the Hunters|SO|1|Z|Niskara|N|Run forward until you see Baron Sliver.|QID|40740|
-C Follow Baron Silver|SO|2;1|M|22.25,51.03|Z|Niskara|N|Follow Baron Silver|QID|40740|
-C Protect Baron Sliver while he disables the Fel Barrier|SO|3;1|M|23.82,48.23|Z|Niskara|N|Protect Baron Sliver while he disables the Fel Barrier|QID|40740|
-C Search the Legion camp.|SO|4;1|M|37.08,48.31|Z|Niskara|N|Follow Barron Silver and search the Legion camp.|QID|40740|
-C Hunt down Inquisitor Zalinor and obtain his key.|SO|5;1|M|43.12,38.05|Z|Niskara|N|Hunt down Inquisitor Zalinor and obtain his key.|QID|40740|
-C Release your ally|SO|6;1|M|38.01,47.06|Z|Niskara|N|Release your ally|QID|40740|
-C Citadel Barrier Disabled|SO|7;1|M|40.38,52.19|Z|Niskara|N|As you travel to the citadel, they will stop, use Anti-Magic Shell to avoid the fel ground, continue towards the citadel and assist Baron Sliver as he disables it's barrier.|QID|40740|
-C Search within the citadel for Margrave|SO|8;1|M|62.04,60.16|Z|Niskara|N|As you approach Margrave, a scene will occur.|QID|40740|
-C The Fleshripper|SO|9|Z|Niskara|N|Gorelix has slain Margrave! Destroy the demon!|QID|40740|
-C The Dead and the Damned|QID|40740|QO|3|M|64.20,60.04|Z|Niskara|N|Obtain the Maw of the Damned|ACTIVE|40740|
-C Use Baron Sliver's Death Gate|SO|11;1|M|63.13,61.37|Z|Niskara|N|Use Baron Sliver's Death Gate|QID|40740|
-C The Call of Icecrown|NC|QID|40740|M|49.53,90.41|Z|The Frozen Throne@IcecrownCitadelDeathKnight|QO|4|N|Run up the hill to the frozen throne, wait until you optain the Mark of the Lich King, then take the Death Gate when it appears.|
+C Hunting the Hunters|SO|1|M|17.59,47.85|Z|Niskara|NC|N|Run forward until you see Baron Sliver.|QID|40740|
+C Follow Baron Silver|SO|2|M|22.25,51.03|Z|Niskara|N|Follow Baron Silver|QID|40740|
+C Protect Baron Sliver while he disables the Fel Barrier|SO|3|M|23.82,48.23|Z|Niskara|N|Protect Baron Sliver while he disables the Fel Barrier|QID|40740|
+C Search the Legion camp.|SO|4|M|37.08,48.31|Z|Niskara|N|Follow Barron Silver and search the Legion camp.|QID|40740|
+C Hunt down Inquisitor Zalinor and obtain his key.|SO|5|M|43.12,38.05|Z|Niskara|N|Hunt down Inquisitor Zalinor and obtain his key.|QID|40740|
+C Release your ally|SO|6|M|38.01,47.06|Z|Niskara|NC|N|Release your ally|QID|40740|
+C Citadel Barrier Disabled|SO|7|M|40.38,52.19|Z|Niskara|N|As you travel to the citadel, they will stop, use Anti-Magic Shell to avoid the fel ground, continue towards the citadel and assist Baron Sliver as he disables it's barrier.|QID|40740|
+C Search within the citadel for Margrave|SO|8|M|64.14,60.24|Z|Niskara|NC|N|As you approach Margrave, a scene will occur.|QID|40740|
+C The Fleshripper|SO|9|M|64.14,60.24|Z|Niskara|N|Gorelix has slain Margrave! Destroy the demon!|QID|40740|
+C The Dead and the Damned|QID|40740|QO|3|M|64.20,60.04|Z|Niskara|N|Obtain the Maw of the Damned|
+R Use Baron Sliver's Death Gate|SO|11|M|63.13,61.37|CC|Z|Niskara|N|Use Baron Sliver's Death Gate|QID|40740|ACTIVE|40740|
 T The Dead and the Damned|QID|40740|M|50.99,50.74|N|To Highlord Darion Mograine.|
 
 ;FROST
@@ -224,35 +223,35 @@ T The Call of Icecrown|QID|38990|M|50.99,50.74|N|To Highlord Darion Mograine.|
 
 ;UNHOLY
 ;A Apocalypse|QID|40930|M|73.11,46.85|Z|Dalaran@Dalaran70|N|From UI (Lich King).|PRE|40715|
-C Apocalypse|QID|40930|QO|1|M|55.16,36.74|Z|Dalaran@Dalaran70|NC|N|(Optional)Enter the Chamber of the Guardian, step on the teleport pad and then run down the stairs, until you see the portal to Karazhan|
+R Chamber of the Guardian|QID|40930|M|49.40,47.40|Z|Dalaran@Dalaran70|N|(Optional)Into the Chamber of the Guardians (in Dalaran), step on the teleport pad, (where the statue in the middle of Dalaran used to be).|ACTIVE|40930|
+C Apocalypse|QID|40930|QO|1|M|32.06,71.44|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional)Run down the stairs, take the portal to Karazhan.|
 C Apocalypse|QID|40930|QO|2|M|77.42,35.97|Z|Duskwood|NC|N|Investigate Manor Mistmantle in Duskwood|
 C Apocalypse|QID|40930|QO|3|M|77.43,36.27|Z|Duskwood|CHAT|N|Convince Revil to help. Any of the options will work.|
 T Apocalypse|QID|40930|M|77.43,36.27|Z|Duskwood|N|To Revil Kost.|
 A Following the Curse|QID|40931|M|77.43,36.27|Z|Duskwood|N|From Revil Kost.|PRE|40930|
-C Following the Curse|QID|40931|QO|1|M|50.80,40.79|Z|Deadwind Pass|N|Follow Revil to Ariden's Camp|
-T Following the Curse|QID|40931|M|52.37,34.27|Z|Deadwind Pass|N|To Revil Kost.|
-A Disturbing the Past|QID|40932|M|52.37,34.27|Z|Deadwind Pass|N|From Revil Kost.|PRE|40931|
-C Disturbing the Past|QID|40932|QO|1|M|52.36,33.97|Z|Deadwind Pass|N|Ariden's Camp investigated|
-T Disturbing the Past|QID|40932|M|52.34,33.85|Z|Deadwind Pass|N|To the journal beside the tent.|
-A A Grisly Task|QID|40933|M|52.41,34.46|Z|Deadwind Pass|N|From Revil Kost.|PRE|40932|
+C Following the Curse|QID|40931|M|50.80,40.79|Z|Deadwind Pass|N|Follow Revil to Ariden's Camp|
+T Following the Curse|QID|40931|M|52.41,34.39|Z|Deadwind Pass|N|To Revil Kost.|
+A Disturbing the Past|QID|40932|M|52.41,34.39|Z|Deadwind Pass|N|From Revil Kost.|PRE|40931|
+C Disturbing the Past|QID|40932|M|52.31,33.85|Z|Deadwind Pass|NC|N|Ariden's Camp investigated|
+T Disturbing the Past|QID|40932|M|52.31,33.85|Z|Deadwind Pass|N|To the Battered Journal beside the tent.|
+A A Grisly Task|QID|40933|M|52.41,34.39|Z|Deadwind Pass|N|From Revil Kost.|PRE|40932|
 C A Grisly Task|QID|40933|QO|1|M|52.05,70.37|Z|Deadwind Pass|N|Click on the piles of dirt until you find a spirit who will talk to you.|
 T A Grisly Task|QID|40933|M|49.45,74.70|Z|Deadwind Pass|N|To Revil Kost.|
-A The Dark Riders|QID|40934|M|49.45,74.70|Z|Deadwind Pass|N|From Revil Kost.|PRE|40933|
-R Catacombs|QID|40934|M|46.63,69.10|Z|Deadwind Pass|CC|N|Make your way into the Dark Riders' catacombs beneath Karazhan.|ACTIVE|40933|
-C Karazhan Catacombs infiltrated|SO|1;1|M|72.51,75.28|Z|KarazhanScenario|N|Infiltrate Karazhan Catacombs.|QID|40933|
-C Spirit Barrier crossed|SO|2;1|M|70.43,69.67|Z|KarazhanScenario|N|Cross the Spirit Barrier.|QID|40934|
-C Conservator Defeated|SO|3;1|M|57.08,68.89|Z|KarazhanScenario|N|Defeat the Conservator.|QID|40934|
-C Apocalypse found|SO|4;1|M|47.14,67.69|Z|KarazhanScenario|N|Find Apocalypse.|QID|40934|
-C Ariden followed|SO|5;1|M|68.65,37.11|Z|KarazhanScenario|N|Follow Ariden into the depths of the Karazhan catacombs.|QID|40934|
-C Ariden defeated|SO|6;1|M|68.47,31.56|Z|KarazhanScenario|N|Defeat Ariden, (quickly as he summons adds.)|QID|40934|
-C Apocalypse|SO|7;1|M|68.16,24.72|Z|KarazhanScenario|N|Pick up Apocalypse.|QID|40934|
-C The Dark Riders|QID|40934|QO|2|M|68.16,24.72|Z|KarazhanScenario|N|Pick up Apocalypse.|
-T The Dark Riders|QID|40934|M|68.24,27.11|Z|KarazhanScenario|N|To Revil Kost.|
-A The Call of Vengeance|QID|40935|M|68.24,27.11|Z|KarazhanScenario|N|From Revil Kost.|PRE|40934|
-C The Call of Vengeance|QID|40935|QO|1|M|0.00,0.00|Z|KarazhanScenario|NC|N|Take the Death Gate to the Frozen Throne.|
-C The Call of Vengeance|QID|40935|QO|2|M|49.08,90.73|Z|Dalaran@Dalaran70|NC|N|Stand by the throne a minute or so to obtain the Mark of the Lich King.|
-C The Call of Vengeance|QID|40935|QO|3|M|63.38,69.31|Z|Dalaran@Dalaran70|NC|N|Take the Death Gate to Acherus|
-T The Call of Vengeance|QID|40935|M|50.85,50.52|N|To Highlord Darion Mograine.|
+A The Dark Riders|QID|40934;40986|M|49.45,74.70|Z|Deadwind Pass|N|From Revil Kost.|PRE|40933|
+R Catacombs|QID|40934;40986|M|46.63,69.10|Z|Deadwind Pass|CC|N|Make your way into the Dark Riders' catacombs beneath Karazhan.|ACTIVE|40934;40986|
+C Karazhan Catacombs infiltrated|SO|1|M|72.51,75.28|Z|32/1|N|Infiltrate Karazhan Catacombs.|QID|40934;40986|
+C Spirit Barrier crossed|SO|2|M|70.43,69.67|Z|32/1|N|Instead of crossing the Spirit Barrier, use Death Grip to bring the Conservator to you.|QID|40934;40986|
+C Conservator Defeated|SO|3|M|57.08,68.89|Z|32/1|N|Defeat the Conservator.|QID|40934;40986|
+C Apocalypse found|SO|4|M|47.14,67.69|Z|32/1|NC|N|Find Apocalypse.|QID|40934;40986|
+C Ariden followed|SO|5|M|55.31,55.90;68.17,43.97|CS|Z|32/1|N|Follow Ariden into the depths of the Karazhan catacombs.|QID|40934;40986|
+C Ariden defeated|SO|6|M|68.47,31.56|Z|32/1|N|Defeat Ariden, (quickly as he summons adds.)|QID|40934;40986|
+C The Dark Riders|QID|40934;40986|QO|2|M|68.16,24.72|Z|32/1|NC|N|Pick up Apocalypse.|
+T The Dark Riders|QID|40934;40986|M|68.24,27.11|Z|32/1|N|To Revil Kost.|
+A The Call of Vengeance|QID|40935;40987|M|68.24,27.11|Z|32/1|N|From Revil Kost.|PRE|40934;40986|
+C The Call of Vengeance|QID|40935;40987|QO|1|M|69.56,26.63|Z|32/1|NC|N|Take the Death Gate provided.|
+C The Call of Vengeance|QID|40935;40987|QO|2|M|49.08,90.73|Z|The Frozen Throne@IcecrownCitadelDeathKnight|NC|N|Stand by the throne a minute or so to obtain the Mark of the Lich King.|
+C The Call of Vengeance|QID|40935;40987|QO|3|M|63.38,69.31|Z|Dalaran@Dalaran70|NC|N|Take the Death Gate to Acherus|
+T The Call of Vengeance|QID|40935;40987|M|50.85,50.52|N|To Highlord Darion Mograine.|
 
 ; Death Knight class hall
 ; Hall of Command@BrokenShore is the bottom floor, with flight master
@@ -270,7 +269,7 @@ A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|49.66,51.25|N|From the 
 T Our Next Move|QID|39799|M|49.66,51.25|N|To Siouxsie the Banshee.|
 A Return of the Four Horseman|QID|42449|M|50.85,50.52|N|From Highlord Darion Mograine.(Wait a minute or so for dialog to finish and then this becomes available.)|
 f Archerus Hold|QID|42449|M|25.61,28.81|N|At Grimwing.|
-R Dalaran||QID|42449|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|42449|
+R Dalaran|QID|42449|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|42449|
 R Graymane Enclave|QID|42449|M|47.2,17.8|Z|Dalaran@Dalaran70|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|42449|
 R Windrunner's Sanctuary|QID|42449|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|42449|
 R Durotar|QID|42449|M|47.32,17.67|Z|Durotar|N|Hop on your mount and fly to Thassarian in Durotar.|ACTIVE|42449|

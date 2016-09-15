@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_intro_guidealliance
+-- Date: 2016-09-14 08:52
+-- Who: Emmaleah
+-- Log: Added Jump to Demon Hunter Guide, added Icon File
+
+-- URL: http://wow-pro.com/node/3662/revisions/27676/view
 -- Date: 2016-09-01 23:17
 -- Who: Ludovicus
 -- Log: Dalaran is in DeadwindPass!
@@ -66,6 +71,7 @@ local guide = WoWPro:RegisterGuide('EmmLegionIntro_A', 'Leveling', 'Dalaran@Dala
 WoWPro:GuideName(guide, 'Alliance Legion Intro')
 WoWPro:GuideLevels(guide,98, 98, 98.0)
 WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_BrokenShore")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -112,6 +118,7 @@ T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To 
 
 D On to Class Halls|N|This ends the intro scenario and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends the intro scenario and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
+D On to Class Halls|N|This ends the intro scenario and the Demon Hunter order hall guide will load.|C|Demon Hunter|GUIDE|LinksDHArtCH100100|
 D On to Class Halls|N|This ends the intro scenario and the Hunter order hall guide will load.|C|Hunter|GUIDE|EmmLegionHunter|
 D On to Class Halls|N|This ends the intro scenario and the Mage order hall guide will load.|C|Mage|GUIDE|EmmLegionMage|
 D On to Class Halls|N|This ends the intro scenario and the Monk order hall guide will load.|C|Monk|GUIDE|EmmLegionMonk|

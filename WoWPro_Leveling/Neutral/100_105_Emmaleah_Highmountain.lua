@@ -4,6 +4,14 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-09-14 09:54
+-- Who: Emmaleah
+-- Log: Added LVL|-109| to A XXX-Bonus Objectives
+--	Added Icon Registration 
+--	DID NOT YET move treasure/rares/Bonus Objectives out of rank 1
+--	also there are some z tags incorrect s/b Highmountain/6 (ThundertotemInterior) instead of Thundertotem. waiting to test the guide to correct them.
+
+-- URL: http://wow-pro.com/node/3678/revisions/27726/view
 -- Date: 2016-09-09 06:52
 -- Who: Emmaleah
 -- Log: 3 corrections per Tubera - $40510-typo on coordinates,$40483-better |N|, C39429-Track down the errant |US|step and put it where it belonged. (it was about 5 or 6 lines after you turn in the quest... /sigh.
@@ -35,6 +43,7 @@
 local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,98, 105, 100.1)
 WoWPro:GuideNextGuide(guide, 'EmmHighmountain')
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Highmountain")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -67,7 +76,7 @@ T Ormgul the Pestilent|QID|39491|M|43.64,59.92|N|To Jale Rivermane.|
 A The Flow of the River|QID|39496|M|43.64,59.92|N|From Jale Rivermane.|
 
 T The Flow of the River|QID|39496|M|42.10,59.34;41.13,61.57|CS|N|To Angler Creel.|
-A Defend the Riverlands-Bonus Objective|QID|39274|M|41.13,61.57|N|Auto Accepted when you enter the area.|
+A Defend the Riverlands-Bonus Objective|QID|39274|M|41.13,61.57|N|Auto Accepted when you enter the area.|LVL|-109|
 C Defend the Riverlands-Bonus Objective|QID|39274|M|41.13,61.57|S|N|You can do this as you do the other objectives in the area.|
 A Trapped Tauren|QID|39316|M|41.13,61.57|N|From Angler Creel.|
 A Fish Out of Water|QID|39614|M|41.13,61.57|N|From Angler Creel.|
@@ -82,7 +91,7 @@ C Spray and Prey|QID|39277|M|38.39,64.26|US|NC|U|127988|N|Use the sprayer on the
 T Moozy's Sojourn|QID|39323|M|37.46,64.29|N|To Moozy.|
 A Moozy's Adventure|QID|39572|M|37.46,64.29|N|From Moozy.|
 C Defend the Riverlands-Bonus Objective|QID|39274|M|39.38,64.13|US|N|Keep it up, if you want to stay and finish this.|
-T Defend the Riverlands-Bonus Objective|QID|39274|M|39.38,64.13|N|Auto Turned in when completed.|
+t Defend the Riverlands-Bonus Objective|QID|39274|M|39.38,64.13|N|Auto Turned in when completed.|
 T Spray and Prey|QID|39277|M|41.17,61.48|N|To Jale Rivermane.|
 T Trapped Tauren|QID|39316|M|41.13,61.56|N|To Angler Creel.|
 T Fish Out of Water|QID|39614|M|41.13,61.56|N|To Angler Creel.|
@@ -184,7 +193,7 @@ $ Treasure Chest|QID|40510|M|43.78,72.72|N|Loot for a bit of treasure and resour
 C The Path of Huln|QID|39575|M|45.63,71.15|Z|1024/29|NC|QO|1|N|Escort Spiritwalker Ebonhorn to the Path of Huln.|
 C The Path of Huln|QID|39575|M|46.50,70.98|Z|1024/29|NC|QO|2|N|Jump in to the Vault.|
 T The Path of Huln|QID|39575|M|47.35,70.26|Z|1024/29|N|To Spiritwalker Ebonhorn.|
-A Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|1024/29|N|Auto accepted when you enter the area.|
+A Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|1024/29|N|Auto accepted when you enter the area.|LVL|-109|
 C Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|1024/29|S|N|Kill stuff, (like you have a choice).Note, you can ride your mount in here!|
 A In Defiance of Deathwing|QID|40219|M|47.35,70.26|Z|1024/29|N|From Spiritwalker Ebonhorn.|
 C In Defiance of Deathwing|QID|40219|M|38.71,71.47|Z|1024/29|QO|1|NC|N|Click on brazier to recieve Vision of Scales.|
@@ -206,7 +215,7 @@ A The Backdoor|QID|39579|M|61.52,72.74|Z|1024/29|N|From Ebyssian.|
 $ Treasure Chest|QID|40509|M|40.26,50.09|Z|1024/29|N|Backtrack a little ways to pick up this chest for treasure and resources.|RANK|2|
 R The Backdoor|QID|39579|M|49.71,86.94|CC|Z|1024/29|N|The backdoor is this way. Mount up and ride out.|
 C Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|1024/29|US|N|If you somehow managed to not finish this, kill a few more.|
-T Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|1024/29|N|Auto turned in upon completion.|
+t Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|1024/29|N|Auto turned in upon completion.|
 T The Backdoor|QID|39579|M|47.48,84.74|N|To Mayla Highmountain.|
 A The High Chieftain|QID|39580|M|47.47,84.73|N|From Mayla Highmountain.|
 f Obsidian Overlook|QID|39579|M|47.26,84.64|N|At Chofa Nighthoof.|
@@ -256,7 +265,7 @@ T Nursing the Wounds|QID|39318|M|52.48,44.70|N|To Lasan Skyhorn.|
 
 A Rocs vs Eagles|QID|38910|M|52.48,44.70|N|From Lasan Skyhorn.|
 K Kill Hartil the Snatcher|QID|39802|QO|1|M|51.12,48.05|N|Kill for a bit of treasure and Resources.|
-A Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|N|Auto accepted when you enter the area.|
+A Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|N|Auto accepted when you enter the area.|LVL|-109|
 C Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|S|N|Anything you kill inside the boundry line progresses the objective.|
 C Rocs vs Eagles|QID|38910|M|49.59,40.89|S|N|Captive Great Eagle rescued.|
 $ Treasure Chest|QID|39503|M|47.63,44.05|N|Kick the runt off the cliff, then loot the chest for a bit of treasure and resources.|RANK|2|
@@ -370,7 +379,7 @@ A I'm Not Lion!|QID|39867|M|40.02,52.36|N|From Ellias.|RANK|2|
 C I'm Not Lion!|QID|39867|M|37.50,49.12|N|Kill and loot the mountain lion.|T|Rashar|RANK|2|
 C Scout It Out|QID|40228|M|44.18,44.14;43.54,44.83|CS|U|130074|T|Irewing|N|Go up the hillside so you are in range to use the flare gun. Fire it off and the other hunters will come help you.|RANK|2|
 C Moose on the Loose|QID|39178|M|45.78,42.80|T|Morashu|N|Kill and loot the old moose. His guards are not there to help you.|RANK|2|
-A The Screeching Crag-Bonus Objective|QID|40316|M|45.19,46.34|N|Auto-accepted when entering the area.|
+A The Screeching Crag-Bonus Objective|QID|40316|M|45.19,46.34|N|Auto-accepted when entering the area.|LVL|-109|
 C The Screeching Crag-Bonus Objective|QID|40316|M|45.19,46.34|S|N|Kill harpys and the cursed animals, click on the hexxing fetishs to advance the objective.|
 A Hex-a-Gone|QID|39419|M|47.18,47.99|N|From Maltha Silenthoof|RANK|3|
 C Hex-a-Gone|QID|39419|M|45.56,49.06|T|Hexweaver Akara|N|Kill Heaweaver Akara.|RANK|3|
@@ -385,7 +394,7 @@ A That Guy in the Costume|QID|40244|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|
 A Procuring a Prototype|QID|39386|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|
 C That Guy in the Costume|QID|40244|M|40.22,52.69|CHAT|N|Ask Tamara for a ride.|RANK|3|
 f Shipwreck Cove|QID|40050|M|41.91,10.40|N|At Steven Nelson.|RANK|3|
-A Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|N|Auto accepted when you enter the area.|RANK|3|
+A Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|N|Auto accepted when you enter the area.|RANK|3|LVL|-109|
 C Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|S|N|Kill the adult Murlocks and click on the boxes of supplies to advance the objective.|RANK|3|
 T That Guy in the Costume|QID|40244|M|42.74,10.94|N|To King Mrgl-Mrgl.|RANK|3|
 A Nature vs. Nurture|QID|40045|M|42.73,10.94|N|From King Mrgl-Mrgl.|RANK|3|
@@ -429,7 +438,7 @@ C Demon Detainment|QID|39774|M|30.16,83.06|Z|1024/16|QO|2|T|Lozar|N|Lozar detain
 T Demon Detainment|QID|39774|M|30.39,82.66|Z|1024/16|N|To Apprentice Rosalyn who is with you.|RANK|2|
 
 R Fields of An'she|QID|38912|M|45.30,83.99;32.66,60.58|CS|Z|1024/16|
-A Witches of the Sky-Bonus Objective|QID|39371|M|38.87,39.33|
+A Witches of the Sky-Bonus Objective|QID|39371|M|38.87,39.33|LVL|-109|
 f The Witchwood|QID|39371|M|38.34,39.23|N|At Rafat Smokehoof.|
 T The Bloodtotem Tribe|QID|38912|M|39.42,36.96|N|To Oakin Ironbull.|
 A Witch of the Wood|QID|39372|M|39.42,36.96|N|From Oakin Ironbull.|
@@ -481,7 +490,7 @@ T Pet Rocks|QID|39391|M|45.21,32.51|N|To Navarrogg.|
 T Stonedark Crystal|QID|39425|M|45.21,32.51|N|To Navarrogg.|
 T They Will Pay With Blood|QID|39588|M|45.21,32.51|N|To Navarrogg.|
 A Blood Debt|QID|39426|M|45.21,32.51|N|From Navarrogg.|
-A Vengence for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto-accepted as you enter the area.|
+A Vengence for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto-accepted as you enter the area.|LVL|-109|
 C Vengence for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|S|N|Click on weapon racks and kill Feltotems to advance the objective.|
 $ Glimmering Treasure Chest|QID|40482|M|48.05,27.31;46.67,28.11|CS|N|Up the hill. then walk on top of the building/statue and drop down onto the statue's nose to find a tresure chest.  Loot for a bit of resources and treasure.|RANK|3|
 K Kill Mellok, Son of Torok|QID|40242|M|49.20,27.11|ITEM|131808|QO|1|T|Mellok, Son of Torok|N|Kill this silver for a bit of loot and treasure.|

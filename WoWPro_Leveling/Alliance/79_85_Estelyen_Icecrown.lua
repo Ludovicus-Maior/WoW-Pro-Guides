@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2016-09-14 18:35
+-- Who: Ludovicus
+-- Log: Dalaran City@Dalaran
+
+-- URL: http://wow-pro.com/node/3301/revisions/26405/view
 -- Date: 2014-05-30 12:23
 -- Who: Ludovicus
 -- Log: Level setting
@@ -95,8 +100,8 @@ WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 N How to use this Guide|QID|13418|N|This guide includes many 5-Man Quests. It is unlikely that you will find a random group for those since the release of Cataclysm, but you can easily solo most of them once your character wears Cataclysm-Gear. If you already have a full equipment from any of the Cataclysm zones, you can try to do them solo, if you don't, just skip those Quests.|
-A Preparations for War|QID|13418|N|From Officer Van Rossem on Krasus Landing in Dalaran.|Z|Dalaran|M|68.80,46.60|
-T Preparations for War|QID|13418|N|Talk to Officer Van Rossem again to fly to the Skybreaker. Turn the quest in to High Captain Justin Bartlett inside the back/rear/stern/aft part of the ship, just walk straight in from the main deck.|Z|Dalaran|
+A Preparations for War|QID|13418|N|From Officer Van Rossem on Krasus Landing in Dalaran.|Z|Dalaran City@Dalaran|M|68.80,46.60|
+T Preparations for War|QID|13418|N|Talk to Officer Van Rossem again to fly to the Skybreaker. Turn the quest in to High Captain Justin Bartlett inside the back/rear/stern/aft part of the ship, just walk straight in from the main deck.|Z|Dalaran City@Dalaran|
 A Judgment Day Comes!|QID|13226|N|From Absalan the Pious. He patrols around on the Deck of the Skybreaker.|
 T Judgment Day Comes!|QID|13226|N|To Highlord Tirion Fordring at the Argent Vanguard.|M|87.40,75.80|
 A Honor Above All Else|QID|13036|N|From Highlord Tirion Fordring.|
