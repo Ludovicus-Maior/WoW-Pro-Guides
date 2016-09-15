@@ -25,10 +25,10 @@ end
 function WoWPro.DefineInstance(mapID, numFloors, zi, mapName)
     DupCheck(zi,"DefineInstance")
     if mapName then
-        WoWPro.Zone2MapID[zi] = {mapID=mapID, numFloors=numFloors, mapName=mapName}
+        WoWPro.Zone2MapID[zi] = {mapID=mapID, floor=0, numFloors=numFloors, mapName=mapName}
         WoWPro.Map2Zone[mapName] = zi
     else
-        WoWPro.Zone2MapID[zi] = {mapID=mapID, numFloors=numFloors, mapName=zi}
+        WoWPro.Zone2MapID[zi] = {mapID=mapID, floor=0, numFloors=numFloors, mapName=zi}
     end
     WoWPro.MapID2Zone[mapID] = WoWPro.MapID2Zone[mapID] or {}
     WoWPro.MapID2Zone[mapID][0] = zi
@@ -203,7 +203,7 @@ function WoWPro:IsInstanceZone(zone)
         WoWPro:Error("Zone [%s] is invalid.  Please report!",zone)
         return false
     end      
-    local mapID = WoWPro.Zone2MapID[nzone] or  WoWPro.MapID2Zone[nzone]
+    local mapID = WoWPro.Zone2MapID[nzone] or WoWPro.MapID2Zone[nzone]
     if not mapID then
         WoWPro:Error("Zone [%s] is not in Zone2MapID or MapID2Zone.  Please report!",nzone)
         return false
