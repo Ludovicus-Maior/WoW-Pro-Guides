@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-09-15 22:47
+-- Who: Emmaleah
+-- Log: Details of how to get Thoras and Koltira added. Other changes between info on Wowhead and actually doing the quests.
+
+-- URL: http://wow-pro.com/node/3668/revisions/27755/view
 -- Date: 2016-09-14 08:45
 -- Who: Emmaleah
 -- Log: All quests pre 110, but missing the scenarios for getting #3/#4 followers (Koltira and Thoras Trollbane) Not tested.
@@ -137,47 +142,54 @@ T Light's Charge|QID|44153|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|NC|N
 R Dalaran Portal|QID|99999|M|24.67,33.69|N|The Portal is near the flightmaster.|PRE|44550|ACTIVE|39718;39864;39731;39733;39735|
 
 A The Ruined Kingdom|QID|42533|M|50.85,50.52|N|From Highlord Darion Mograine.|LVL|103|PRE|43539|
-A A Personal Request|QID|42708|M|0.00,0.00|N|From Thassarian.|LVL|103|PRE|43539|
-R Dalaran Portal|QID|42708|M|24.67,33.69|N|The Portal is near the flightmaster.|ACTIVE|42708|
-R Chamber of the Guardian|QID|42708|M|49.40,47.40|Z|Dalaran@Dalaran70|N|Into the Chamber of the Guardians, step on the teleport pad, (where the statue in the middle of Dalaran used to be).|ACTIVE|42708|FACTION|ALLIANCE|
-R Ancient Dalaran Portal|QID|42708|M|28.58,77.49|Z|Aegwynn's Gallery@Dalaran70|NC|N|Run straight forward, down the stairs to the Ancient Dalaran portal.|ACTIVE|42708|FACTION|ALLIANCE|
-R Windrunner's Sanctuary|QID|42708|M|55.92,22.73|Z|Dalaran@Dalaran70|N|Take the Undercity Portal.|ACTIVE|42708|FACTION|HORDE|
-R Outside Undercity Sewers|QID|42708|M|50.00,70.00|Z|Tirisfal Glades|N|You will find Thassarian just outside the sewer entrance.|ACTIVE|42708|
-C A Personal Request|QID|42708|M|50.00,70.00|Z|Tirisfal Glades|CHAT|N|Talk to Thassarian to start a scenario where you rescue Koltira.|
-T A Personal Request|QID|42708|M|50.00,70.00|Z|Tirisfal Glades|N|To Thassarian.|
-A Champion: Koltira|QID|44244|M|50.00,70.00|Z|Tirisfal Glades|N|From/To Koltira.|PRE|42708|
-
-R Stormguarde Keep (Arathi Highlands)|QID|42533|M|19.4,67.2|Z|Arathi Highlands|N|Mount up and fly over to Stormguarde Keep to get your other follower.|LVL|103|ACTIVE|43533|
-T The Ruined Kingdom|QID|42533|M|19.4,67.2|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
-A Our Oldest Enemies|QID|42534|M|19.4,67.2|Z|Arathi Highlands|N|From Prince Galen Trollbane.|PRE|42533|
-A Death...and Decay|QID|42535|M|19.4,67.2|Z|Arathi Highlands|N|From Prince Galen Trollbane.|PRE|42533|
-C Death...and Decay|QID|42535|M|19.4,67.2|Z|Arathi Highlands|S|N|Defile the Witherbark Supplies as you go.|
-C Our Oldest Enemies|QID|42534|QO|2|M|19.4,67.2|Z|Arathi Highlands|S|N|Kill the Witherbark Trolls as you go.|
-C Our Oldest Enemies|QID|42534|QO|1|M|19.4,67.2|Z|Arathi Highlands|T|Ojin'ba|N|Kill Ojin'ba.|
-C Our Oldest Enemies|QID|42534|QO|2|M|19.4,67.2|Z|Arathi Highlands|US|N|Finish killing the Witherbark Trolls.|
-C Death...and Decay|QID|42535|M|19.4,67.2|Z|Arathi Highlands|US|N|Finish defiling the Witherbark Supplies.|
-T Our Oldest Enemies|QID|42534|M|19.4,67.2|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
-T Death...and Decay|QID|42535|M|19.4,67.2|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
-A Regicide|QID|42536|M|19.4,67.2|Z|Arathi Highlands|N|From Thassarian.|PRE|42534;42535|
-C Regicide|QID|42536|M|21.4,59.8|Z|Arathi Highlands|T|Prince Galen Trollbane|N|He decided to double cross us, Kill him.|
-T Regicide|QID|42536|M|19.4,67.2|Z|Arathi Highlands|N|To Thassarian.|
-A The King Rises|QID|42537|M|19.4,67.2|Z|Arathi Highlands|N|From Thassarian.|PRE|42536|
-C Scenario|QID|42537|N|The King Rises|
+R Dalaran Portal|QID|42533|M|24.67,33.69|N|The Portal is near the flightmaster.|ACTIVE|42533|
+R Graymane Enclave|QID|42533|M|0.00,0.00|Z|Dalaran@Dalaran70|N|Take the Ironforge Portal.|ACTIVE|42533|FACTION|ALLIANCE|
+R Windrunner's Sanctuary|QID|42533|M|55.92,22.73|Z|Dalaran@Dalaran70|N|Take the Undercity Portal.|ACTIVE|42533|FACTION|HORDE|
+R Stromgarde Keep (Arathi Highlands)|QID|42533|M|19.4,67.2|Z|Arathi Highlands|N|Mount up and fly over to Stormguarde Keep to get your other follower.|LVL|103|ACTIVE|43533|
+T The Ruined Kingdom|QID|42533|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane, who is upstairs in the traditional keep commander's room.|
+A Our Oldest Enemies|QID|42534|M|19.45,67.33|Z|Arathi Highlands|N|From Prince Galen Trollbane.|PRE|42533|
+A Death...and Decay|QID|42535|M|19.45,67.33|Z|Arathi Highlands|N|From Prince Galen Trollbane.|PRE|42533|
+C Death...and Decay|QID|42535|M|17.57,68.01|Z|Arathi Highlands|S|NC|N|Defile the Witherbark Supplies as you go.|
+C Our Oldest Enemies|QID|42534|QO|2|M|17.76,65.23|Z|Arathi Highlands|S||N|Kill the Witherbark Trolls as you go.|
+C Our Oldest Enemies|QID|42534|QO|1|M|11.83,69.82|Z|Arathi Highlands|T|Ojin'ba|N|Kill Ojin'ba.|
+C Our Oldest Enemies|QID|42534|QO|2|M|17.57,68.01|Z|Arathi Highlands|US|N|Finish killing the Witherbark Trolls.|
+C Death...and Decay|QID|42535|M|17.57,68.01|Z|Arathi Highlands|US|NC|N|Finish defiling the Witherbark Supplies.|
+T Our Oldest Enemies|QID|42534|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
+T Death...and Decay|QID|42535|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
+A Regicide|QID|42536|M|19.53,67.10|Z|Arathi Highlands|N|From Thassarian.|PRE|42534;42535|
+C Regicide|QID|42536|M|21.95,59.79|Z|Arathi Highlands|T|Prince Galen Trollbane|N|He decided to double cross us, Kill him.|
+T Regicide|QID|42536|M|23.4,61.39|Z|Arathi Highlands|N|To Thassarian, who is now down in the crypt.|
+A The King Rises|QID|42537|M|23.4,61.39|Z|Arathi Highlands|N|From Thassarian.|PRE|42536|
+C The King Rises|QID|42537|M|22.96,61.39|Z|Arathi Highlands|QO|1|NC|N|Click on the grate to open the crypt and enter.|
+C The King Rises|QID|42537|M|22.50,61.37|Z|Arathi Highlands|QO|2|NC|N|Stand in front of the coffin and use your extra action button.|
+R Death-Gate|QID|42537|M|22.57,61.37|Z|Arathi Highlands|N|Use the provided Death-gate or cast your own.|ACTIVE|42537|
 T The King Rises|QID|42537|M|50.85,50.52|N|To Highlord Darion Mograine.|
-A Champion: Thoras Trollbane|QID|44245|M|50.85,50.52|N|From Thoras Trollbane.|PRE|42537|
+A Champion: Thoras Trollbane|QID|44243|M|59.71,33.99|N|From King Thoras Trollbane.|PRE|42537|
+
+A A Personal Request|QID|42708|M|56.05,30.69|N|From Thassarian.|LVL|103|PRE|43539|
+R Dalaran Portal|QID|42708|M|24.67,33.69|N|The Portal is near the flightmaster. If you are doing this immediately after collecting Thoras Trollbane, you can use deathgate to return to Arathi and fly from there if you would rather.|ACTIVE|42708|
+R Graymane Enclave|QID|42708|M|0.00,0.00|Z|Dalaran@Dalaran70|N|Take the Ironforge Portal.|ACTIVE|42708|FACTION|ALLIANCE|
+R Windrunner's Sanctuary|QID|42708|M|55.92,22.73|Z|Dalaran@Dalaran70|N|Take the Undercity Portal.|ACTIVE|42708|FACTION|HORDE|
+R Outside Undercity Sewers|QID|42708|M|50.00,70.00|CC|Z|Tirisfal Glades|N|You will find Thassarian just inside the sewer entrance.|ACTIVE|42708|
+C A Personal Request|QID|42708|M|42.81,35.04|Z|Tirisfal Glades|SO|1|CHAT|N|Speak with Thassarian. FYI, if you should die on this scenario, you must return through this sewer entrance, not the main entrance into Undercity.|
+C A Bold Rescue|QID|42708|M|42.81,35.04|Z|Eastern Kingdoms|SO|2|S|N|Escort Thassarian through the Undercity.|
+C Rescue Koltira from the Apothecarium.|QID|42708|M|43.53,35.67|Z|Eastern Kingdoms|SO|3|N|Click on his cage to Rescue Koltira from the Apothecarium.|
+R Death-Gate|QID|42708|M|43.54,35.69|Z|Eastern Kingdoms|N|Click on his Death-gate to return to Archerus.|ACTIVE|42708|
+T A Personal Request|QID|42708|M|55.93,30.60|N|To Thassarian.|
 
 ;chapter 2
-A Knights of the Ebon Blade|QID|44082|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|44244|
-C Knights of the Ebon Blade|QID|44082|M|49.66,51.25|N|At Korgaz Deadaxe.  Click on his to train some better troops. Don't forget to come back and pick them up when training is completed.|
-T Knights of the Ebon Blade|QID|44082|M|49.66,51.25|N|To Korgaz Deadaxe.|
-A Steeds of the Damned|QID|43899|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|43899|
+A Knights of the Ebon Blade|QID|44082|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|42708|
+A Steeds of the Damned|QID|43899|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|42708|
 C Steeds of the Damned|QID|43899|M|49.66,51.25|NC|N|Use the scouting map to send your followers on the next mission, "Seeds of the Damned.". These 5 missions are each 8 hours (if you cover all the threats). You will need to manually check this step off to progress the guide before the mission is finished.|
 t Steeds of the Damned|QID|43899|M|49.66,51.25|N|To Siouxsie the Banshee.|
-A The Nightmare Lash|QID|43572|M|98.8,59.2|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|42708|
+A Champion: Koltira|QID|44244|M|66.38,64.58|N|From/To Koltira.|PRE|42708|
+A Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenShore|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|42537|
+t Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
+U Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|At Korgaz Deadaxe. Click on him to train some better troops. Don't forget to come back and pick them up when training is completed.|
+T Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|To Korgaz Deadaxe.|
+A The Nightmare Lash|QID|43572|M|98.8,59.2|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|44082|
 t The Nightmare Lash|QID|43572|M|98.8,59.2|N|To Salanar the Horseman.|
-A Braid of the Underking|QID|43571||M|98.8,59.2|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|42537|
-t Braid of the Underking|QID|43571||M|98.8,59.2|N|To Salanar the Horseman.|
-N Class Hall Advancement|M|56.01,40.64|LVL|105|NC|N|Don't forget to go to Archivist Zubashi and choose your tier 2 order hall advancement. The rest of progressing your class hall requires level 110.|
+N Class Hall Advancement|QID|43571|M|56.01,40.64|LVL|105|NC|N|Don't forget to go to Archivist Zubashi and choose your tier 2 order hall advancement. The rest of progressing your class hall requires level 110.|LVL|105|
 
 ;2nd spec artifact
 A Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|PRE|43539|LVL|102|
