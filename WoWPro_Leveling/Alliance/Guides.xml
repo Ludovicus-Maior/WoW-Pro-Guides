@@ -54,6 +54,6 @@
   <Script file="92_94_Fluclo_Gorgrond.lua"/>
   <Script file="95_96_Ludovico_Talador.lua"/>
   <Script file="98_100_Ludovico_Nagrand.lua"/>
-  <Script file="098_110_Ludovicus_Stormheim.lua"/>
   <Script file="100_100_Emmaleah_LegionIntro.lua"/>
+  <Script file="100_109_Ludovicus_Stormheim.lua"/>
 </Ui>
