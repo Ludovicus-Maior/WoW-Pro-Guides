@@ -914,6 +914,7 @@ DefineDungeonArea( 321,3,"The Imperial Exchange@Shrine of Seven Stars","Shrine o
 DefineDungeonArea( 811,4,"The Emperor's Step@Shrine of Seven Stars","Shrine of Seven Stars","Shrine of Seven Stars")
 DefineDungeonArea( 321,3,"The Imperial Mercantile@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
 DefineDungeonArea( 811,4,"Hall of the Crescent Moon@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
+DefineDungeonArea( 1077,0,"TheDreamgrove","TheDreamgrove","TheDreamgrove")
 
 -- Starter Zones
 DefineInstance( 864,0,"Northshire","Northshire")
