@@ -60,9 +60,9 @@ T Paradise Lost|QID|39718|M|72.51,45.66|Z|Dalaran@Dalaran70|N|To Archmage Khadga
 A Down to Azsuna|QID|41220|M|72.51,45.66|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
 C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|Dalaran@Dalaran70|NC|N|Fly down with Khadgar.|
 T Down to Azsuna|QID|41220|M|45.11,42.92|N|To Archmage Khadgar.|
-A Into the Fray|QID|38834|M|45.11,42.92|N|From Archmage Khadgar.|
-f Illidari Stand|QID|41220|M|44.59,43.85|N|At Izal Whitemoon.|
-T Into the Fray|QID|38834|M|43.55,43.45|N|To Kayn Sunfury.|
+A Into the Fray|QID|38834;44137|M|45.11,42.92|N|From Archmage Khadgar.|
+f Illidari Stand|QID|38834;44137|M|44.59,43.85|N|At Izal Whitemoon.|
+T Into the Fray|QID|38834;44137|M|43.55,43.45|N|To Kayn Sunfury.|
 T Our New Allies|QID|39934|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|LVL|102|
 A The Price of Power|QID|39935|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39934|
 A Demon Souls|QID|37653|M|43.29,43.16|N|From Allari the Souleater.|
@@ -92,9 +92,9 @@ C The Scythe of Souls|QID|37660|QO|7|M|44.40,44.69|N|Fight Arev'naal.|T|Question
 C The Scythe of Souls|QID|37660|QO|8|M|44.26,44.14|N|Click on the crystal to leave.|NC|
 C The Scythe of Souls|QID|37660|QO|9|M|43.38,43.36|N|Meet back up with Allari|NC|
 T The Scythe of Souls|QID|37660|M|43.29,43.16|N|To Allari the Souleater.|
-A From Within|QID|36920|M|43.56,43.46|N|From Kayn Sunfury.|
+A From Within|QID|36920;44140|M|43.56,43.46|N|From Kayn Sunfury.|
 
-T From Within|QID|36920|M|41.24,50.50|N|To Kor'vas Bloodthorn.|
+T From Within|QID|36920;44140|M|41.24,50.50|N|To Kor'vas Bloodthorn.|
 A Fel Machinations|QID|37656|M|40.05,48.80|N|From Kor'vas Bloodthorn who will show up and follow you around.|
 A Saving Stellagosa|QID|37450|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
 A Retake Faronaar-Bonus Objective|QID|36811|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|LVL|-109|
