@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-09-16 22:43
+-- Who: Emmaleah
+-- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
+
+-- URL: http://wow-pro.com/node/3678/revisions/27772/view
 -- Date: 2016-09-14 09:54
 -- Who: Emmaleah
 -- Log: Added LVL|-109| to A XXX-Bonus Objectives
@@ -41,8 +46,8 @@
 -- Who: Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,98, 105, 100.1)
-WoWPro:GuideNextGuide(guide, 'EmmHighmountain')
+WoWPro:GuideLevels(guide 100, 109, 100.1)
+WoWPro:GuideNextGuide(guide, Blanc_Suramar')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Highmountain")
 WoWPro:GuideSteps(guide, function()
 return [[

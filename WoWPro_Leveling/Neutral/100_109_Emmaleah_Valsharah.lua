@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-09-16 22:38
+-- Who: Emmaleah
+-- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
+
+-- URL: http://wow-pro.com/node/3665/revisions/27748/view
 -- Date: 2016-09-13 03:41
 -- Who: Emmaleah
 -- Log: restored the "-1" in "R Bradensbrook|...|RANK|-1| The -1 means it ONLY shows if you are doing the guide on rank 1.  The path is defined by the various treasure/rare hunting if you are doing it on rank 2/3 (that are skipped for rank 1).
@@ -83,8 +88,8 @@
 -- Log: First Public Draft
 
 local guide = WoWPro:RegisterGuide('EmmValsharah', 'Leveling', "Val'sharah", 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,98, 105, 100.1)
-WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideLevels(guide,100, 109, 100.1)
+WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_ValSharah")
 return [[

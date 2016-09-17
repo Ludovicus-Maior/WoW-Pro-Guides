@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-09-16 22:35
+-- Who: Emmaleah
+-- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
+
+-- URL: http://wow-pro.com/node/3683/revisions/27753/view
 -- Date: 2016-09-13 18:37
 -- Who: Ludovicus
 -- Log: A good V1.0
@@ -79,9 +84,9 @@
 -- Log: So far
 
 local guide = WoWPro:RegisterGuide('LudoStormheim', 'Leveling', 'Stormheim', 'Ludovicus', 'Alliance')
-WoWPro:GuideLevels(guide,98, 105)
+WoWPro:GuideLevels(guide, 100, 109)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Stormheim")
-WoWPro:GuideNextGuide(guide, 'Azuna')
+WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 return [[
 

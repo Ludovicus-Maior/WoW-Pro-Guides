@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-09-16 22:45
+-- Who: Emmaleah
+-- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
+
+-- URL: http://wow-pro.com/node/3657/revisions/27771/view
 -- Date: 2016-09-14 09:47
 -- Who: Emmaleah
 -- Log: Added LVL|-109| to A XXX-Bonus Objective steps.
@@ -44,8 +49,8 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,98, 105)
-WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideLevels(guide,100, 109)
+WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Azsuna")
 
