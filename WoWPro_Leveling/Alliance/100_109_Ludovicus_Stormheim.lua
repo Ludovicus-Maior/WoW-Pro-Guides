@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-09-18 14:29
+-- Who: tubera
+-- Log: Tweak between a grapple a day-another way
+
+-- URL: http://wow-pro.com/node/3683/revisions/27804/view
 -- Date: 2016-09-16 22:35
 -- Who: Emmaleah
 -- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
@@ -214,23 +219,23 @@ f Lorna's Watch|QID|38473|M|37.41,63.99|N|At Donovan.|
 T Will of the Thorignir|QID|38473|M|37.38,63.85|N|To Commander Lorna Crowley.|
 A A Grapple a Day|QID|38312|PRE|38473|M|37.38,63.85|N|From Commander Lorna Crowley.|
 C A Grapple a Day|QID|38312|M|37.37,63.79|QO|1|N|Stormforged Grapple Launcher|
+$ Treasure Chest|QID|38486|M|39.47,65.17|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|;moved you walk right past it
 T A Grapple a Day|QID|38312|M|42.02,64.48|N|To Commander Lorna Crowley.|
 A No Wings Required|QID|38318|M|42.02,64.48|QO|2|N|From Commander Lorna Crowley.|
 A To Weather the Storm|QID|38405|M|42.02,64.48|N|From Commander Lorna Crowley.|
 C No Wings Required|QID|38318|M|42.88,64.85|QO|1|N|Click on the hook with the big Yellow Arrow and grapple over the wall|
 A Built to Scale|QID|38337|M|43.46,64.40|N|Kill a Stormwing Drake to get this quest from the UI.|
 A Assault the Drekirjar-Bonus Objective|QID|38374|LVL|-109|M|42.88,64.85|N|From UI upon entering Hrydshal.|
+C Built to Scale|QID|38337|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.| ;keep sticky while you're in the area
 C To Weather the Storm|QID|38405|M|45.68,66.64|QO|3|N|Loot Oiled Cloak|
 $ Treasure Chest|QID|38474|M|42.6,65.80|N|Loot for a bit of treasure and resources.|
+C To Weather the Storm|QID|38405|M|43.98,66.99|QO|1|T|Stormbreaker Reykir|N|Kill Stormbreaker Reykir and loot the Enchanted Lodestone.| ; change order to not have to walk back
 K Kill Glimar Ironfist|QID|38333|M|41.5,66.7|QO|1|ITEM|129291|T|Glimar Ironfist|N|Silver - Kill and loot for a bit of treasure and resources.|
 C To Weather the Storm|QID|38405|M|41.86,68.40|QO|2|N|Loot Climbing Treads|
-C To Weather the Storm|QID|38405|M|43.98,66.99|QO|1|T|Stormbreaker Reykir|N|Kill Stormbreaker Reykir and loot the Enchanted Lodestone.|
 T No Wings Required|QID|38318|M|43.79,68.21|N|To Commander Lorna Crowley.|
 T To Weather the Storm|QID|38405|M|43.79,68.21|N|To Commander Lorna Crowley.|
 A Impalement Insurance|QID|38410|PRE|38405|M|43.79,68.21|N|From Commander Lorna Crowley.|
-C Built to Scale|QID|38337|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.|
 C Impalement Insurance|QID|38410|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
-$ Treasure Chest|QID|38486|M|39.47,65.17|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|
 $ Treasure Chest|QID|38489|M|44.16,69.98|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|; Emma!
 K Kill Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the others in the Mead Hall, then you can take on Thane. Kill and loot for some treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|  ; Emma
@@ -241,8 +246,7 @@ T Built to Scale|QID|38337|M|46.25,70.36|N|To Commander Lorna Crowley.|
 A Another Way|QID|38342|PRE|38410|M|46.25,70.37|N|From Commander Lorna Crowley.|
 C Another Way|QID|38342|M|46.24,72.39|QO|1|N|Kill Gunnlaug Scaleheart|
 C Another Way|QID|38342|M|45.70,73.12|QO|2|N|Climb the Tower|
-T Another Way|QID|38342|M|45.62,73.09|N|To Commander Lorna Crowley.|
-A Above the Winter Moonlight|QID|38412|PRE|38342|M|45.65,73.08|N|From Commander Lorna Crowley.|
+T Another Way|QID|38342|M|45.62,73.09|N|To Commander Lorna Crowley.|A Above the Winter Moonlight|QID|38412|PRE|38342|M|45.65,73.08|N|From Commander Lorna Crowley.|
 C Above the Winter Moonlight|QID|38412|M|46.36,74.37|QO|1|N|Grapple to the Mountain Path|
 $ Small Treasure Chest|QID|38476|M|48.13,74.22|N|Beside the waterfall, loot for a bit of treasure and resources.|
 K Kill Stormwing Matriarch|QID|38423|M|49.6,71.6|T|Stormwing Matriarch|QO|1|ITEM|129110|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|
