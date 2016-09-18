@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-09-17 21:32
+-- Who: Ludovicus
+-- Log: Missing '
+
+-- URL: http://wow-pro.com/node/3678/revisions/27807/view
 -- Date: 2016-09-17 20:37
 -- Who: Ludovicus
 -- Log: added missing ","
@@ -52,7 +57,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide, 100, 109, 100.1)
-WoWPro:GuideNextGuide(guide, Blanc_Suramar')
+WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Highmountain")
 WoWPro:GuideSteps(guide, function()
 return [[

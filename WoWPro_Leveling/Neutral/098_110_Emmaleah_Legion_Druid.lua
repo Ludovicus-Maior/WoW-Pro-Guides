@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2016-09-17 21:30
+-- Who: Ludovicus
+-- Log: Fixes for RESTORATION
+
+-- URL: http://wow-pro.com/node/3669/revisions/27744/view
 -- Date: 2016-09-14 09:09
 -- Who: Emmaleah
 -- Log: Changed C In the blink of an eye from Dalaran@Dalaran70 to Dalaran@DeadwindPass
@@ -69,7 +74,7 @@ T To EmeraldDreamway|QID|40645|M|44.55,51.02|Z|EmeraldDreamway|N|To Rensar Great
 A Weapons of Legend|QID|40646|M|44.55,51.02|Z|EmeraldDreamway|N|From Rensar Greathoof.|PRE|40645|
 C Weapons of Legend|QID|40646|NC|QO|1|M|44.55,51.02|Z|EmeraldDreamway|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T Weapons of Legend|QID|40646|M|44.55,51.02|Z|EmeraldDreamway|N|To Rensar Greathoof.|
-A Artifact Specific Quest|QID|40783;42428;41468;41255|M|44.55,51.02|Z|EmeraldDreamway|N|From one of the Druids in the area.|PRE|40646|
+A Artifact Specific Quest|QID|40783;42428;41468;40649|M|44.55,51.02|Z|EmeraldDreamway|N|From one of the Druids in the area.|PRE|40646|
 
 ;BALANCE
 ;A The Scythe of Elune|QID|40783|M|44.51,51.46|Z|EmeraldDreamway|N|From Naralex.|PRE|40646|
@@ -116,7 +121,7 @@ C Seeds of Renewal|QID|42438|NC|QO|1|M|70.05,42.40;71.69,43.10;71.01,38.24|Z|Val
 C Aid for the Ashen|QID|42439|M|73.09,41.04|Z|Val'sharah|N|Finish up rescuing druids and head back towards the turn in.|US|
 T Seeds of Renewal|QID|42438|M|73.23,42.66|Z|Val'sharah|N|To Delandros Shimmermoon.|
 T Aid for the Ashen|QID|42439|M|73.23,42.66|Z|Val'sharah|N|To Delandros Shimmermoon.|
-A The Shrine in Peril|QID|42440|M|73.23,42.66|Z|Val'sharah|
+A The Shrine in Peril|QID|42440|M|73.23,42.66|Z|Val'sharah|PRE|42439|
 C The Shrine in Peril|QID|42440|NC|QO|1|M|73.76,40.63|Z|Val'sharah|N|Investigate Ashamane's Fall.|
 C The Shrine in Peril|QID|42440|QO|2|M|73.81,39.18|Z|Val'sharah|N|Kill Algromon|T|Algromon|
 T The Shrine in Peril|QID|42440|M|73.84,38.44|Z|Val'sharah|N|To Delandros Shimmermoon.|
@@ -173,7 +178,7 @@ R Dreamgrove Portal|QID|41918|M|45.31,24.43||N|Run through the portal.|CC|ACTIVE
 T The Dreamer Returns|QID|41918|M|44.52,51.10|Z|EmeraldDreamway|N|To Rensar Greathoof.|
 
 ;RESTORATION
-A Meet with Mylune|QID|40649|M|45.57,50.26|Z|EmeraldDreamway|N|From Keeper Remulos.|PRE|40646|
+; A Meet with Mylune|QID|40649|M|45.57,50.26|Z|EmeraldDreamway|N|From Keeper Remulos.|PRE|40646|
 T Meet with Mylune|QID|40649|M|52.28,52.82|Z|EmeraldDreamway|N|To Mylune.|
 A Necessary Preparations|QID|41422|M|52.28,52.82|Z|EmeraldDreamway|N|From Mylune.|PRE|40649|
 C Necessary Preparations|QID|41422|NC|QO|2|M|33.07,29.26|Z|EmeraldDreamway|N|Ask Leafbeard for his blessing.|

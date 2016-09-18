@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2016-09-18 01:49
+-- Who: tubera
+-- Log: Fix QOs; Add Future of Rockpool quest (Rank 3)
+
+-- URL: http://wow-pro.com/node/3267/revisions/26621/view
 -- Date: 2014-07-25 22:18
 -- Who: Ludovicus
 -- Log: add mean
@@ -110,7 +115,7 @@ WoWPro:GuideIcon(guide,"ACH",4909)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 54 |QID|25715|L|54|N|You need to be Level 54 to do this guide.|
+L Level 54|QID|25715|LVL|54|N|You need to be Level 54 to do this guide.|
 
 T Hero's Call: Blasted Lands!|QID|28673|M|60.11,13.67|Z|Blasted Lands|N|Enter the building and go up one floor to Quartermaster Lungertz.|O|
 T Blasted Lands: The Other Side of the World|QID|28857|M|60.11,13.67|N|To Quartermaster Lungertz.|O|
@@ -157,8 +162,8 @@ A Kasim Sharim|QID|26157|M|63.09,16.77|N|From Watcher Mahar Ba.|
 R Serpent's Coil|QID|26157|QO|Report to Kasim Sharim in the back of the Serpent's Coil in the Blasted Lands.|M|62.47,22.09;64.35,26.33;60.83,29.42|CS|N|Head back to the area from the previous quest and enter the cave.|
 T Kasim Sharim|QID|26157|M|62.58,26.37|N|To Kasim Sharim.|
 A Attune the Bloodstone|QID|26158|M|62.58,26.37|N|From Kasim Sharim.|
-C Attune the Bloodstone|QID|26158|NC|QO|Use internal Bloodstone Teleporter: 1/1|M|63.19,25.96|N|Click on the Bloodstone.|
-C Attune the Bloodstone|QID|26158|NC|QO|Use external Bloodstone Teleporter: 1/1|M|61.37,29.93|N|Again, click on the Bloodstone.|
+C Attune the Bloodstone|QID|26158|NC|QO|1|M|63.19,25.96|N|Click on the Bloodstone.|
+C Attune the Bloodstone|QID|26158|NC|QO|2|M|61.37,29.93|N|Again, click on the Bloodstone.|
 T Attune the Bloodstone|QID|26158|M|62.32,26.23|N|To Kasim Sharim.|
 A The First Step|QID|26159|M|62.32,26.23|N|From Kasim Sharim.|
 A A Bloodmage's Gotta Eat Too|QID|26172|M|62.32,26.23|N|From Kasim Sharim.|
@@ -188,11 +193,15 @@ C Atrocities|QID|25703|M|68.89,68.32;72.27,61.27|CN|N|Jump down and kill any Nag
 T Atrocities|QID|25703|M|71.03,59.89|N|To Neptool.|
 A False Idols|QID|25705|M|71.03,59.89|N|From Neptool.|
 A Neptool's Revenge|QID|25706|M|71.03,59.89|N|From Neptool.|
-C Neptool's Revenge|QID|25706|QO|Bloodwash Gambler slain: 4/4|M|66.58,72.81|N|Kill the Bloodwash Gamblers here.|
+C Neptool's Revenge|QID|25706|QO|3|M|66.58,72.81|N|Kill the Bloodwash Gamblers here.|
 C False Idols|QID|25705|S|M|61.20,62.76|N|Smash the idols as you go.|
-C Neptool's Revenge|QID|25706|QO|Bloodwash Idolater slain: 4/4|M|60.12,76.47|N|Kill the Bloodwash Idolaters here.|
-C Neptool's Revenge|QID|25706|M|61.20,62.76|N|Kill Bloodwash Zealots and Acolytes inside the cave.|
+C Neptool's Revenge|QID|25706|QO|4|M|60.12,76.47|N|Kill the Bloodwash Idolaters here.|
+C Neptool's Revenge|QID|25706|M|61.20,62.76|N|Kill Bloodwash Zealots and Acolytes inside and around the cave.|
 C False Idols|QID|25705|US|M|61.20,62.76|N|Smash the idols as you go.|
+A The Future of the Rockpool|QID|25707|M|60.53,62.78|N|"Talk" to the Abandoned Bloodwash Crate and chooseto start the quest.|CHAT|RANK|3|
+C The Future of the Rockpool|QID|25707|M|68.74,82.08|N|Drag the crate to the Forbidding Sea, try to avoid aggro. If you get attacked resume by talking to the chest again.|NC
+T The Future of the Rockpool|QID|25707|M|60.53,62.78|N|(UI Alert)|
+
 T False Idols|QID|25705|M|70.99,59.90|N|To Neptool.|
 T Neptool's Revenge|QID|25706|M|70.99,59.90|N|To Neptool.|
 H Nethergarde Keep|QID|26168|N|Hearth back to Nethergarde Keep.|
@@ -208,10 +217,10 @@ A The Vile Blood of Demons|QID|26165|M|54.98,49.62|N|From Watcher Grimeo.|
 A Protecting Our Rear|QID|26173|M|54.74,50.29|N|From Watch Commander Relthorn Netherwane.|
 C The Charred Granite of the Dark Portal|QID|26164|S|U|56024|N|Look for the sparkling stones as you go.|
 C The Vile Blood of Demons|QID|26165|S|N|Kill any and all demons you see for their blood.|
-K Protecting Our Rear|QID|26173|QO|Shahandana slain: 1/1|M|57.26,50.19;60,43.4|CN|N|Kill Shahandana.|
-K Protecting Our Rear|QID|26173|QO|Gomegaz slain: 1/1|M|51.59,42.26|N|Gomegaz's turn to die.|
-C Protecting Our Rear|QID|26173|M|44,47.74|N|And finally Jarroc Torn-Wing's turn.|
-C The Vile Blood of Demons|QID|26165|N|Kill any and all demons for their blood.|
+K Protecting Our Rear|QID|26173|QO|2|M|57.26,50.19;60,43.4|CN|N|Kill Shahandana.|
+K Protecting Our Rear|QID|26173|QO|3|M|51.59,42.26|N|Gomegaz's turn to die.|
+C Protecting Our Rear|QID|26173|QO|1|M|44,47.74|N|And finally Jarroc Torn-Wing's turn.|
+C The Vile Blood of Demons|QID|26165|N|Kill any and all demons for their blood.|US
 C The Charred Granite of the Dark Portal|QID|26164|US|U|56024|N|Look for the sparkling stones as you go.|
 T The Charred Granite of the Dark Portal|QID|26164|M|55.00,49.57|N|To Watcher Grimeo.|
 T The Vile Blood of Demons|QID|26165|M|55.00,49.57|N|To Watcher Grimeo.|
@@ -220,13 +229,12 @@ T Protecting Our Rear|QID|26173|M|54.68,50.29|N|To Watch Commander Relthorn Neth
 A Watching Our Back|QID|26174|M|54.68,50.29|N|From Watch Commander Relthorn Netherwane.|
 C Watching Our Back|QID|26174|M|53.96,49.93|N|This can be very tricky to do. You have wait untill the patrollers backs are to you.|
 T Watching Our Back|QID|26174|M|54.70,50.35|N|To Watch Commander Relthorn Netherwane.|
-
 A Surwich|QID|26175|M|54.70,50.35|N|From Watch Commander Relthorn Netherwane.|
 T Enhancing the Stone|QID|26166|M|61.37,29.93|N|Once again click on the Bloodstone Teleport to get to Kasim Sharim.|
 A Not Just Any Body|QID|26161|M|62.59,26.22|N|From Kasim Sharim.|
-l Loramus' Head|QID|26161|L|55829|M|45.12,30.41;46.6,26.97|CS|N|Enter the cave and go left to get to where Loramus' Head is at.|
-l Loramus' Torso|QID|26161|L|55836|M|41.43,33.27;39.98,37.16|CS|N|Head into the cave and hang a left to get to where Loramus' Torso is.|
-C Not Just Any Body|QID|26161||M|46.88,39.39|N|As always go inside the cave, and you see the chest with his legs.|
+l Loramus' Head|QID|26161|QO|1|M|45.12,30.41;46.6,26.97|CS|N|Enter the cave and go left to get to where Loramus' Head is at.|
+l Loramus' Torso|QID|26161|QO|2|M|41.43,33.27;39.98,37.16|CS|N|Head into the cave and hang a left to get to where Loramus' Torso is.|
+C Not Just Any Body|QID|26161|QO|3|M|46.88,39.39|N|As always go inside the cave, and you see the chest with his legs.|
 T Not Just Any Body|QID|26161|M|61.37,29.93|N|As always click on the Bloodstone Teleporter to find Kasim Sharim.|
 A The Altar of Storms|QID|26162|M|62.91,25.98|N|From Kasim Sharim.|
 C The Altar of Storms|QID|26162|M|40.34,35.72;36.98,28.16|CS|N|Click on the Blood Altar to get things started. Demons will spawn near the small altars with candles. Kill them as quickly as possible.|
@@ -236,7 +244,7 @@ C The Final Ritual|QID|26170|M|62.46,26.03|N|Talk to Kasim and choose to do the 
 T The Final Ritual|QID|26170|M|62.38,26.02|N|To Loramus Thalipedes.|
 A You Are Rakh'likh, Demon|QID|26171|M|62.38,26.02|N|From Loramus Thalipedes.|
 C You Are Rakh'likh, Demon|QID|26171|U|56012|M|46.5,21.67|N|Speak with the Deathly Usher. Kill Razelikh, and then once he enters Loramus, get him down in health then use the Stone Knife when he says too.|
-H Nethergarde Keep|QID|26171|U|56012|N|Hearth to Nethergarde Keep, or if you wish, you can jump down the mountain.|
+H Nethergarde Keep|QID|26171|N|Hearth to Nethergarde Keep, or if you wish, you can jump down the mountain.|
 r Sell junk, repair/restock.|QID|26171|
 R The Dark Portal|QID|26171|M|53.7,42.85|N|Run to The Dark Portal.|
 T You Are Rakh'likh, Demon|QID|26171|M|54.98,49.59|N|To Watcher Grimeo.|
@@ -247,7 +255,7 @@ A Wormthorn's Dream|QID|26184|M|46.41,87.09|N|From Mayor Charlton Connisport.|
 f Surwich|QID|26184|M|47.10,89.20|N|At Graham McAllister.|
 h Surwich|QID|26184|M|44.42,87.70|N|Set your hearth with Donna Berrymore.|
 C Wormthorn's Dream|QID|26184|S|M|38.77,70|N|Kill any Doomguard Destoryer, Dreadlord Defilier, and Corrupted Darkwood Treant you see.|
-K Wormthorn's Dream|QID|26184|QO|Felspore Bog Lord slain: 3/3|M|33.72,78.5|N|Go here to kill the Felspore Bog Lords.|
+K Wormthorn's Dream|QID|26184|QO|4|M|33.72,78.5|N|Go here to kill the Felspore Bog Lords.|
 C Wormthorn's Dream|QID|26184|US|N|Kill any Doomguard Destoryer, Dreadlord Defilier, and Corrupted Darkwood Treant you need left.|
 T Wormthorn's Dream|QID|26184|M|46.45,87.02|N|To Mayor Charlton Connisport.|
 A Advice from the Cenarion Circle|QID|26185|M|46.45,87.02|N|From Mayor Charlton Connisport.|
@@ -263,13 +271,11 @@ C Screecher Brain Paste|QID|26186|U|57179|L|57182 2|M|38.33,58.23|N|Turn the Scr
 C Crushed Nightstalker Legs|QID|26186|U|57178|L|57181 20|M|38.33,58.23|N|Turn the Nightstalker Legs into a powder. You need 20.|
 C Tainted Hide Pouch|QID|26186|U|57177|L|57180 |M|38.33,58.23|N|Combine the Tainted Hides to create the Tainted Hide Pouch.|
 U Demoniac Commixture|QID|26186|U|57182|L|57183 |M|39.02,57.73|N|Use the paste and powder to make the mixture.|
-U Demoniac Vessel|QID|26186|U|57180|N|Use the Tainted Hide Pouch to make the final vessel.|L|57184|
+U Demoniac Vessel|QID|26186|U|57180|N|Use the Tainted Hide Pouch to make the final vessel.|
 T Demoniac Vessel|QID|26186|M|46.36,87.01|N|To Mayor Charlton Connisport.|
 A The Downfall of Marl Wormthorn|QID|26187|M|46.36,87.01|N|From Mayor Charlton Connisport.|
 C The Downfall of Marl Wormthorn|QID|26187|U|57185|M|34.84,68.11|N|Kill the demons around him then use the vessel to snap him out of his trance, then defeat him.|
 T The Downfall of Marl Wormthorn|QID|26187|M|46.34,87.06|N|To Mayor Charlton Connisport.|
-F Stormwind City|QID|28708|M|47.11,89.29|N|Fly to Stormwind to visit trainers, AH, sell junk and repair/restock.|
-L You should by now...|QID|28708|N|Between level 58-60 by now. If you are not level 60, I would suggest doing another zone or two to hit 60. That way you can fly in the Outlands. If you don't wish to do that, just close this step and the next guide will load.|
 
 ]]
 
