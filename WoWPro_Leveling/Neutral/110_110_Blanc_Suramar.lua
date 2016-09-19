@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Blanc_Suramur', 'Leveling', 'Suramur', 'Blanckaert', 'Neutral')
+local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
