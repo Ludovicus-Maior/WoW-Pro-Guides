@@ -1,87 +1,140 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-09-18 05:20
+-- Who: Emmaleah
+-- Log: Edited many |N| tags, moved C/T Survey Says... to after the sequence that ends with killing Arcanist Kel'Danath. Added some R steps, etc.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27806/view
+-- Date: 2016-09-17 08:25
+-- Who: Emmaleah
+-- Log: Edited N tags, added PRE tags and NC tags; (through C Survey Says...)
+
+-- URL: http://wow-pro.com/node/3687/revisions/27799/view
+-- Date: 2016-09-16 19:40
+-- Who: Emmaleah
+-- Log: Added L step and first 2 quests. PRE tags on Nightfall arc, Icon to registration and the guide header to this page.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27797/view
+-- Date: 2016-09-15 04:17
+-- Who: Blanckaert
+-- Log: removed a quest that was from Undercity
+
+-- URL: http://wow-pro.com/node/3687/revisions/27796/view
+-- Date: 2016-09-15 04:10
+-- Who: Blanckaert
+-- Log: Oops.. Spelled the Zone wrong, and missed a few |Z| tags
+
+-- URL: http://wow-pro.com/node/3687/revisions/27793/view
+-- Date: 2016-09-14 22:41
+-- Who: Blanckaert
+
+-- URL: http://wow-pro.com/node/3687/revisions/27792/view
+-- Date: 2016-09-14 22:03
+-- Who: Blanckaert
+
+-- URL: http://wow-pro.com/node/3687/revisions/27790/view
+-- Date: 2016-09-14 21:59
+-- Who: Blanckaert
+-- Log: First steps of the guide, Incomplete.
+
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
 WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Want to let user know EACH time they come to the guide that it is incomplete, not sure if this is the right way to make that Note.
-
+L This guide (and the Suramar zone) requires level 110|LVL|110|
 N Suramar|N|This is INCOMPLETE, and done as a Horde Toon. There ARE errors, Use at your own risk.|
 
-A Trail of Echoes|QID|39987|M|28.69,48.46|Z|Dalaran|N|From Archmage Khadgar.|
-A Trail of Echoes|QID|39987|QO|0/1 Faint Arcane Echo revealed|U|131931|
-C Trail of Echoes|QID|39987|M|39.67,53.22|Z|Suramar|QO|1|U|131931|N|1/1 Faint Arcane Echo revealed|
-C Trail of Echoes|QID|39987|M|39.59,55.73|Z|Suramar|QO|2|U|131931|N|1/1 Blinking Arcane Echo revealed|
-C Trail of Echoes|QID|39987|M|35.87,55.05|Z|Suramar|QO|3|U|131931|N|1/1 Pulsing Arcane Echo revealed|
-C Trail of Echoes|QID|39987|M|35.45,55.92|Z|Suramar|QO|4|U|131931|N|1/1 Erasmus Moonblade slain|
-C Trail of Echoes|QID|39987|M|34.55,53.52|Z|Suramar|QO|5|U|131931|N|1/1 First Arcanist Thalyssra found|
-T Trail of Echoes|QID|39987|M|34.66,53.42|Z|Suramar|N|To First Arcanist Thalyssra.|
-A The Only Way Out is Through|QID|40008|M|34.66,53.42|Z|Suramar|N|From First Arcanist Thalyssra.|
-C The Only Way Out is Through|QID|40008|M|35.73,49.52|Z|Suramar|QO|1|N|1/1 Thalyssra escorted to shelter|
-T The Only Way Out is Through|QID|40008|M|35.33,47.40|Z|Suramar|N|To First Arcanist Thalyssra.|
-A The Nightborne Pact|QID|40123|M|35.33,47.40|Z|Suramar|N|From First Arcanist Thalyssra.|
-C The Nightborne Pact|QID|40123|M|35.33,47.40|Z|Suramar|QO|1|N|1/1 Thalyssra bandaged|
-T The Nightborne Pact|QID|40123|M|35.33,47.40|Z|Suramar|N|To First Arcanist Thalyssra.|
-A Arcane Thirst|QID|40009|M|35.33,47.40|Z|Suramar|N|From First Arcanist Thalyssra.|
-C Arcane Thirst|QID|40009|M|36.74,46.57|Z|Suramar|QO|1|N|1/1 Search Shal'Aran|
-C Arcane Thirst|QID|40009|M|37.01,46.48|Z|Suramar|QO|3|N|6/6 Crystallized Ancient Mana|
-C Arcane Thirst|QID|40009|M|36.71,45.77|Z|Suramar|QO|2|N|1/1 Keeper Selentia slain|
-T Arcane Thirst|QID|40009|M|35.34,47.41|Z|Suramar|N|To First Arcanist Thalyssra.|
-A Shal'Aran|QID|42229|M|35.34,47.41|Z|Suramar|N|From First Arcanist Thalyssra.|
-C Shal'Aran|QID|42229|M|36.54,46.94|Z|Suramar|QO|1|N|1/1 Explore Shal'aran|
-T Shal'Aran|QID|42229|M|36.56,46.93|Z|Suramar|N|To First Arcanist Thalyssra.|
-A Ancient Mana|QID|44672|M|36.56,46.93|Z|Suramar|N|From First Arcanist Thalyssra.|
-A Oculeth's Workshop|QID|40011|M|36.56,46.93|Z|Suramar|N|From First Arcanist Thalyssra.|
-A An Old Ally|QID|40012|M|36.56,46.93|Z|Suramar|N|From First Arcanist Thalyssra.|
-h Shal'Aran|QID|40012|M|36.56,46.93|Z|Suramar|N|At First Arcanist Thalyssra.|
-f Meredil|QID|40012|M|34.34,49.38|Z|Suramar|N|At Ancient Cloudwing.|
-C Ancient Mana|QID|44672|M|34.81,55.09|Z|Suramar|QO|1|U|141652|N|3/3 Ancient Mana node|
-C Oculeth's Workshop|QID|40011|M|49.31,48.18|Z|Suramar|QO|1|U|132883|N|1/1 Token shown to Oculeth|
-T Oculeth's Workshop|QID|40011|M|49.66,48.13|Z|Suramar|N|To Chief Telemancer Oculeth.|
-A The Delicate Art of Telemancy|QID|40747|M|49.66,48.13|Z|Suramar|N|From Chief Telemancer Oculeth.|
-C The Delicate Art of Telemancy|QID|40747|M|55.79,39.73|Z|Suramar|QO|1|N|1/1 Use teleporter at Oculeth's Workshop|
-C The Delicate Art of Telemancy|QID|40747|M|53.18,46.74|Z|Suramar|QO|3|N|1/1 Cracked Warpsleeve|
-C The Delicate Art of Telemancy|QID|40747|M|51.88,35.00|Z|Suramar|QO|2|N|1/1 Weathered Telemancy Beacon|
-T The Delicate Art of Telemancy|QID|40747|M|49.29,47.10|Z|Suramar|N|To Chief Telemancer Oculeth.|
-A Network Security|QID|40748|M|49.29,47.10|Z|Suramar|N|From Chief Telemancer Oculeth.|
-C Network Security|QID|40748|M|59.73,36.67|Z|Suramar|QO|1|N|1/1 Teleport to the Test Chamber|
-C Network Security|QID|40748|M|59.65,33.89|Z|Suramar|QO|2|N|1/1 Arcane Coil overcharged|
-C Network Security|QID|40748|M|56.93,34.97|Z|Suramar|QO|3|N|4/4 Arcane Coil overcharged|
-C Network Security|QID|40748|M|56.05,30.22|Z|Suramar|QO|4|N|1/1 Warpcaster Thwen slain|
-C Network Security|QID|40748|M|56.11,30.21|Z|Suramar|QO|5|N|1/1 Speak with Oculeth|
-T Network Security|QID|40748|M|34.48,48.70|Z|Suramar|N|To Chief Telemancer Oculeth.|
-A Close Enough|QID|40830|M|34.48,48.70|Z|Suramar|N|From Chief Telemancer Oculeth.|
-C Close Enough|QID|40830|M|35.80,47.50|Z|Suramar|QO|1|N|1/1 Carry Oculeth into Shal'Aran|
-C Close Enough|QID|40830|M|36.54,46.91|Z|Suramar|QO|2|N|1/1 Drop Oculeth near Thalyssra|
-T Ancient Mana|QID|44672|M|36.54,46.94|Z|Suramar|N|To First Arcanist Thalyssra.|
-T Close Enough|QID|40830|M|36.54,46.94|Z|Suramar|N|To First Arcanist Thalyssra.|
-A Hungry Work|QID|44691|M|36.54,46.94|Z|Suramar|N|From First Arcanist Thalyssra.|
-C Hungry Work|QID|44691|M|36.58,46.97|Z|Suramar|QO|1|N|1/1 Chief Telemancer Oculeth fed|
-T Hungry Work|QID|44691|M|36.58,46.97|Z|Suramar|N|To Chief Telemancer Oculeth.|
-A Survey Says...|QID|40956|M|36.58,46.97|Z|Suramar|N|From Chief Telemancer Oculeth.|
-C Survey Says...|QID|40956|M|36.13,47.25|Z|Suramar|QO|1|U|133897|N|105/100 Survey percentage|
-T Survey Says...|QID|40956|M|36.13,47.25|Z|Suramar|
-A Tapping the Leylines|QID|40010|M|36.54,46.87|Z|Suramar|N|From First Arcanist Thalyssra.|
-T An Old Ally|QID|40012|M|30.24,39.66|Z|Suramar|
-A Scattered Memories|QID|40326|M|30.24,39.66|Z|Suramar|
-A A Re-Warding Effort|QID|41149|M|30.58,40.06|Z|Suramar|
-C A Re-Warding Effort|QID|41149|M|24.97,44.24|Z|Suramar|QO|1|N|4/4 Arcane Wards activated|
-T A Re-Warding Effort|QID|41149|M|24.97,44.22|Z|Suramar|N|To Withered Feaster.|
-C Scattered Memories|QID|40326|M|26.42,44.52|Z|Suramar|QO|1|N|6/6 Kel'danath's Notes read|
-C Uniting the Isles|QID|43341|M|20.94,52.30|Z|Suramar|QO|1|N|Earn friendly reputation with the Nightfallen in Suramar|
-T Scattered Memories|QID|40326|M|20.94,52.30|Z|Suramar|N|To Withered Test Subject.|
-A Written in Stone|QID|41702|M|20.94,52.30|Z|Suramar|N|From Withered Test Subject.|
-C Written in Stone|QID|41702|M|20.17,55.89|Z|Suramar|QO|1|N|1/1 Spellstone of Kel'danath|
-T Written in Stone|QID|41702|M|20.64,55.07|Z|Suramar|N|To Theryn.|
-A Subject 16|QID|41704|M|20.64,55.07|Z|Suramar|N|From Theryn.|
-A Lingering on the Edge|QID|40796|M|30.39,47.78|Z|Suramar|N|From Absolon.|
-T Lingering on the Edge|QID|40796|M|30.39,47.78|Z|Suramar|N|To Absolon.|
-C Subject 16|QID|41704|M|36.29,47.11|Z|Suramar|QO|1|N|1/1 Deliver Theryn to Thalyssra|
-T Subject 16|QID|41704|M|36.55,46.91|Z|Suramar|N|To First Arcanist Thalyssra.|
-A Kel'danath's Legacy|QID|41760|M|36.55,46.91|Z|Suramar|N|From First Arcanist Thalyssra.|
-C Kel'danath's Legacy|QID|41760|M|34.81,51.69|Z|Suramar|QO|1|N|5/5 Withered charmed|
-T Kel'danath's Legacy|QID|41760|M|36.56,46.93|Z|Suramar|N|To First Arcanist Thalyssra.|
-A Sympathizers Among the Shal'dorei|QID|41762|M|36.56,46.93|Z|Suramar|N|From First Arcanist Thalyssra.|
+A Khadgar's Discovery|QID|44555;39985|N|Auto Accepted from UI upon entering Dalaran.|
+T Khadgar's Discovery|QID|44555;39985|M|28.47,48.31|Z|Dalaran@Dalaran70|N|To Archmage Khadgar in the Violet Citadel.|
+A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44555;39985|
+C Magic Message|QID|39986|M|29.32,48.80|Z|Dalaran@Dalaran70|NC|N|Click on the Arcane Anomaly and watch the dialog.|
+T Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+A Trail of Echoes|QID|39987|M|28.47,48.31|Z|Dalaran|N|From Archmage Khadgar.|PRE|39986|
+C Trail of Echoes|QID|39987|M|39.67,53.22|QO|1|U|131931|N|Click the wand and then click the purple swirls to reveal Faint Arcane Echo.|
+C Trail of Echoes|QID|39987|M|39.59,55.73|QO|2|U|131931|N|Click the wand and then click the purple swirls to reveal Blinking Arcane Echo.|
+C Trail of Echoes|QID|39987|M|35.87,55.05|QO|3|U|131931|N|Click the wand and then click the purple swirls to reveal Pulsing Arcane Echo.|
+C Trail of Echoes|QID|39987|M|35.45,55.92|QO|4|U|131931|N|Slay Erasmus Moonblade.|T|Erasmus Moonblade|
+C Trail of Echoes|QID|39987|M|34.55,53.52|QO|5|U|131931|N|Find First Arcanist Thalyssra.|
+T Trail of Echoes|QID|39987|M|34.66,53.42|N|To First Arcanist Thalyssra.|
+A The Only Way Out is Through|QID|40008|M|34.66,53.42|N|From First Arcanist Thalyssra.|PRE|39987|
+C The Only Way Out is Through|QID|40008|M|35.73,49.52|N|Escort Thalyssra to shelter Concentrate on the mobs hitting the shield.|
+T The Only Way Out is Through|QID|40008|M|35.33,47.40|N|To First Arcanist Thalyssra.|
+A The Nightborne Pact|QID|40123|M|35.33,47.40|N|From First Arcanist Thalyssra.|PRE|40008|
+C The Nightborne Pact|QID|40123|M|35.33,47.40|N|Bandage Thalyssra.|
+T The Nightborne Pact|QID|40123|M|35.33,47.40|N|To First Arcanist Thalyssra.|
+A Arcane Thirst|QID|40009|M|35.33,47.40|N|From First Arcanist Thalyssra.|PRE|40123|
+C Arcane Thirst|QID|40009|M|37.01,46.48|QO|3|S|NC|N|The Crystallized Ancient Mana is around the base of the piller Selentia is on.|
+C Arcane Thirst|QID|40009|M|36.74,46.57|QO|1|N|Walk up to the pillar Selentia is on.|
+C Arcane Thirst|QID|40009|M|36.71,45.77|QO|2|N|Kill the Eternal Tethers first, so you can then slay Keeper Selentia.|
+C Arcane Thirst|QID|40009|M|37.01,46.48|QO|3|US|NC|N|Finish collecting Crystallized Ancient Mana.|
+T Arcane Thirst|QID|40009|M|35.34,47.41|N|To First Arcanist Thalyssra.|
+A Shal'Aran|QID|42229|M|35.34,47.41|N|From First Arcanist Thalyssra.|PRE|42229|
+C Shal'Aran|QID|42229|M|36.54,46.94|NC|N|Follow her as she walks around Shal'aran|
+T Shal'Aran|QID|42229|M|36.56,46.93|N|To First Arcanist Thalyssra.|
+A Ancient Mana|QID|44672|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|42229|
+A Oculeth's Workshop|QID|40011|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|42229|
+A An Old Ally|QID|40012|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|42229|
+h Shal'Aran|QID|40012|M|36.56,46.93|N|At First Arcanist Thalyssra.|
+f Meredil|QID|40012|M|34.34,49.38|N|At Ancient Cloudwing.|
+C Ancient Mana|QID|44672|M|34.81,55.09|S|N|Pick up the ancient mana as you travel towards Oculeth. Continue gathering it as you go along, you will have other uses for it also.|;check this coord is in line to the workshop
+C Oculeth's Workshop|QID|40011|M|49.31,48.18|NC|U|132883|N|Show Token to Oculeth.|
+T Oculeth's Workshop|QID|40011|M|49.66,48.13|N|To Chief Telemancer Oculeth.|
+A The Delicate Art of Telemancy|QID|40747|M|49.66,48.13|N|From Chief Telemancer Oculeth.|PRE|40011|
+C The Delicate Art of Telemancy|QID|40747|M|55.79,39.73|QO|1|NC|N|Use teleporter at Oculeth's Workshop.|
+C The Delicate Art of Telemancy|QID|40747|M|53.18,46.74|QO|3|NC|N|Travel to the Warp Lab to collect the Cracked Warpsleeve.|
+C The Delicate Art of Telemancy|QID|40747|M|51.88,35.00|QO|2|NC|N|Travel to the Fountain and then the Telemetry Lab to collect the Weathered Telemancy Beacon.|
+T The Delicate Art of Telemancy|QID|40747|M|49.29,47.10|N|To Chief Telemancer Oculeth.|;not sure if there is a good sequence back, i had to travel thru several teleport beacons.
+A Network Security|QID|40748|M|49.29,47.10|N|From Chief Telemancer Oculeth.|PRE|40747|
+C Network Security|QID|40748|M|59.73,36.67|QO|1|NC|N|Teleport to the Test Chamber.|
+C Network Security|QID|40748|M|59.65,33.89|QO|2|NC|N|Arcane Coil overcharged.|
+C Network Security|QID|40748|M|56.93,34.97|QO|3|NC|N|Arcane Coil overcharged.|
+C Network Security|QID|40748|M|56.05,30.22|QO|4|N|Warpcaster Thwen slain.|
+C Network Security|QID|40748|M|56.11,30.21|QO|5|CHAT|N|Speak with Oculeth.|
+T Network Security|QID|40748|M|34.48,48.70|N|To Chief Telemancer Oculeth.|
+A Close Enough|QID|40830|M|34.48,48.70|N|From Chief Telemancer Oculeth.|PRE|40748|
+C Close Enough|QID|40830|M|35.80,47.50|QO|1|NC|N|Pick up Oculeth and carry him into Shal'Aran.|
+C Close Enough|QID|40830|M|36.54,46.91|QO|2|NC|N|Use vehicle UI "1" to drop Oculeth near Thalyssra.|
+C Ancient Mana|QID|44672|M|34.81,55.09|US|N|Pick up the ancient mana as you travel towards Oculeth. Continue picking it up until you are capped.|
+T Ancient Mana|QID|44672|M|36.54,46.94|N|To First Arcanist Thalyssra.|
+T Close Enough|QID|40830|M|36.54,46.94|N|To First Arcanist Thalyssra.|
+A Hungry Work|QID|44691|M|36.54,46.94|N|From First Arcanist Thalyssra.|PRE|40830|
+C Hungry Work|QID|44691|M|36.58,46.97|NC|N|Chief Telemancer Oculeth fed.|
+T Hungry Work|QID|44691|M|36.58,46.97|N|To Chief Telemancer Oculeth.|
+A Survey Says...|QID|40956|M|36.58,46.97|N|From Chief Telemancer Oculeth.|PRE|44691|
+R Ambervale|QID|40012|M|34.73,48.20;33.20,47.92;31.40,45.25|CS|N|Run out of the cave and around to your right following the coordinate trail.|
+T An Old Ally|QID|40012|M|30.24,39.66|N|To an Enchanted Scroll.|
+A Scattered Memories|QID|40326|M|30.24,39.66|N|From an Enchanted Scroll.|
+A A Re-Warding Effort|QID|41149|M|30.62,40.06|N|From an Arcane Ward.|ACTIVE|41149|
+C Scattered Memories|QID|40326|M|26.42,44.52|S|NC|N|Read Kel'danath's Notes.|
+C A Re-Warding Effort|QID|41149|M|24.97,44.24|N|Activate the Arcane Wards.|
+T A Re-Warding Effort|QID|41149|M|24.97,44.22|N|To UI Alert.|
+C Scattered Memories|QID|40326|M|26.42,44.52|US|NC|N|Finish reading Kel'danath's Notes.|
+T Scattered Memories|QID|40326|M|20.92,52.28|N|To Kel'danath's Knapsack.|
+A Written in Stone|QID|41702|M|20.92,52.28|N|From Kel'danath's Knapsack.|PRE|40326|
+C Written in Stone|QID|41702|M|20.17,55.89|T|Arcanist Kel'danath|N|Kill Kel'danath and collect the Spellstone of Kel'danath.|
+T Written in Stone|QID|41702|M|20.64,55.07|N|To Theryn.|
+A Subject 16|QID|41704|M|20.64,55.07|N|From Theryn.|PRE|41702|
+A Lingering on the Edge|QID|40796|M|30.39,47.78|N|From Absolon.|
+T Lingering on the Edge|QID|40796|M|30.39,47.78|N|To Absolon.|
+R Ruins of Elune'eth|QID|40956|M|34.77,43.83|N|Run to the Ruins of Elune'eth.|
+C Survey Says...|QID|40956|M|36.64,45.56|NC|U|133897|N|Use the Telemetry Beacon. Occasionaly some pesky anomaly will spawn and you will need to kill it (and possibly close the portal, to stop more).|
+T Survey Says...|QID|40956|M|36.10,47.24|N|To the Telemetry Beacon. After turn in, take the portal back to Shal'Aran.|
+A Tapping the Leylines|QID|40010|M|36.54,46.87|N|From First Arcanist Thalyssra.|PRE|40956|
+C Subject 16|QID|41704|M|36.29,47.11|NC|N|Deliver Theryn to Thalyssra.|
+T Subject 16|QID|41704|M|36.55,46.91|N|To First Arcanist Thalyssra.|
+A Kel'danath's Legacy|QID|41760|M|36.55,46.91|N|From First Arcanist Thalyssra.|QID|41704|
+C Kel'danath's Legacy|QID|41760|M|34.81,51.69|N|Use your extra action button to charm Withered.|
+T Kel'danath's Legacy|QID|41760|M|36.56,46.93|N|To First Arcanist Thalyssra.|
+A Sympathizers Among the Shal'dorei|QID|41762|M|36.56,46.93|N|From First Arcanist Thalyssra.|QID|41760|
+
 A Turtle Powered|QID|40368|M|43.38,41.72|Z|Suramar|N|From Morhun Rivertamer.|
 C Tapping the Leylines|QID|40010|M|41.30,39.41|Z|Suramar|QO|1|N|1/1 Explore Anora Hollow|
 C Tapping the Leylines|QID|40010|M|41.58,38.75|Z|Suramar|QO|2|N|1/1 Step on Ancient Switch|
@@ -119,7 +172,6 @@ C Tools of the Trade|QID|40300|M|50.05,39.00|Z|Suramar|QO|1|N|1/1 Sacred Oil|
 A Fragments of Memory|QID|40308|M|49.09,34.35|Z|Suramar|N|From Feral Scavenger.|
 C Tools of the Trade|QID|40300|M|52.50,31.39|Z|Suramar|QO|3|N|1/1 Chest of Shrouds|
 C Fragments of Memory|QID|40308|M|51.96,29.95|Z|Suramar|QO|1|N|15/15 Tel'anor Memento|
-A The Same, But Different|QID|38404|M|49.15,33.60|Z|Suramar|
 C Tools of the Trade|QID|40300|M|47.79,34.45|Z|Suramar|QO|2|N|1/1 Preserving Incense|
 T Fragments of Memory|QID|40308|M|47.33,33.48|Z|Suramar|N|To Thaedris Feathersong.|
 T Tools of the Trade|QID|40300|M|47.33,33.48|Z|Suramar|N|To Thaedris Feathersong.|
@@ -255,9 +307,9 @@ T Leyline Feed: Falanaar Arcway|QID|43592|M|66.19,52.92|Z|Suramar|N|To Broodmoth
 A Leyline Apprentice|QID|44492|M|37.01,46.39|Z|Suramar|N|From Arcanist Valtrois.|
 T Leyline Apprentice|QID|44492|M|37.01,46.39|Z|Suramar|N|To Arcanist Valtrois.|
 A Scouting the Crimson Thicket|QID|42223|M|49.73,82.18|Z|Suramar|
-A Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|N|From Kozak the Afflictor.|
-C Leyline Feed: Halls of the Eclipse|QID|43594|M|29.19,84.73|QO|1|N|254/250 Ancient Mana|
-T Leyline Feed: Halls of the Eclipse|QID|43594|M|27.26,86.38|N|To Legion Endbringer.|
+A Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|Z|Suramar|N|From Kozak the Afflictor.|
+C Leyline Feed: Halls of the Eclipse|QID|43594|M|29.19,84.73|Z|Suramar|QO|1|N|254/250 Ancient Mana|
+T Leyline Feed: Halls of the Eclipse|QID|43594|M|27.26,86.38|Z|Suramar|N|To Legion Endbringer.|
 A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar|
 T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar|
 T Scouting the Crimson Thicket|QID|42223|M|61.86,49.11|Z|Suramar|N|To Lilryia Dawnwind.|
@@ -297,21 +349,20 @@ C Fisherman's Tonic|QID|40334|M|69.31,67.06|Z|Suramar|QO|3|N|1/1 Siren Blood|
 C Fisherman's Tonic|QID|40334|M|68.89,70.75|Z|Suramar|QO|1|N|4/4 Axetail Eyeball|
 T Fisherman's Tonic|QID|40334|M|68.94,70.66|Z|Suramar|N|To Brandolf.|
 A Testing the Waters|QID|41034|M|68.94,70.66|Z|Suramar|N|From Brandolf.|
-C Testing the Waters|QID|41034|M|75.89,72.29|QO|2|N|1/1 Commander Malt'his slain|
+C Testing the Waters|QID|41034|M|75.89,72.29|Z|Suramar|QO|2|N|1/1 Commander Malt'his slain|
 C Testing the Waters|QID|41034|M|80.19,64.00|Z|Suramar|QO|1|N|1/1 Commander Raz'jira slain|
 C Testing the Waters|QID|41034|M|77.68,58.52|Z|Suramar|QO|3|N|1/1 Commander Kel'tariss slain|
 T Testing the Waters|QID|41034|M|70.63,49.26|Z|Suramar|N|To Brandolf.|
 A Jandvik's Last Hope|QID|40927|M|70.59,48.86|Z|Suramar|N|From Toryl.|
-C Jandvik's Last Hope|QID|40927|M|75.89,52.76|QO|1|N|1/1 Meet with Toryl|
-C Jandvik's Last Hope|QID|40927|M|76.14,53.02|QO|2|N|1/1 Defeat Tidemistress Sashj'tar|
-C Jandvik's Last Hope|QID|40927|M|75.97,52.65|QO|3|N|1/1 Release Toryl|
-T Jandvik's Last Hope|QID|40927|M|75.97,52.65|N|To Toryl.|
-A Against Their Will|QID|41426|M|75.97,52.65|N|From Toryl.|
-A Breaking Down the Big Guns|QID|41709|M|75.97,52.61|N|From Toryl.|
-A Finding Brytag|QID|41606|M|75.97,52.61|N|From Kell.|
-A Sunken Foes|QID|41425|M|75.97,52.61|N|From Kell.|
+C Jandvik's Last Hope|QID|40927|M|75.89,52.76|Z|Suramar|QO|1|N|1/1 Meet with Toryl|
+C Jandvik's Last Hope|QID|40927|M|76.14,53.02|Z|Suramar|QO|2|N|1/1 Defeat Tidemistress Sashj'tar|
+C Jandvik's Last Hope|QID|40927|M|75.97,52.65|Z|Suramar|QO|3|N|1/1 Release Toryl|
+T Jandvik's Last Hope|QID|40927|M|75.97,52.65|Z|Suramar|N|To Toryl.|
+A Against Their Will|QID|41426|M|75.97,52.65|Z|Suramar|N|From Toryl.|
+A Breaking Down the Big Guns|QID|41709|M|75.97,52.61|Z|Suramar|N|From Toryl.|
+A Finding Brytag|QID|41606|M|75.97,52.61|Z|Suramar|N|From Kell.|
+A Sunken Foes|QID|41425|M|75.97,52.61|Z|Suramar|N|From Kell.|
 A Dry Powder|QID|41410|M|77.50,59.83|Z|Suramar|N|From Fjolrik.|
 ]]
 
 end)
-

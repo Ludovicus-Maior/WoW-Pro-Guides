@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-09-19 22:29
+-- Who: Ludovicus
+-- Log: Some O tags should have been U's by my guess.
+
+-- URL: http://wow-pro.com/node/3665/revisions/27805/view
 -- Date: 2016-09-16 22:38
 -- Who: Emmaleah
 -- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
@@ -173,7 +178,7 @@ A Where the Wildkin Are|QID|42747|M|59.41,84.12|N|From Guviena Bladesong.|RANK|2
 C Where the Wildkin Are|QID|42747|M|59.46,82.04|S|N|Kill Wildkin and slimes as you go.|RANK|2|
 C Emerald Sisters|QID|42748|M|59.46,82.04|S|N|Rescue Sisters as you go in the Grotto.|RANK|2|
 A Dreamcatcher|QID|42750|M|59.46,82.04|N|From Leirana.|RANK|2|
-A Grotesque Remains|QID|42786|O|138441|N|From an item that will randomly drop from the slimes.|RANK|2|
+A Grotesque Remains|QID|42786|U|138441|N|From an item that will randomly drop from the slimes.|RANK|2|
 C Dreamcatcher|QID|42750|M|59.22,81.87|QO|1|NC|N|Click the Shriektalon Totem to siphen.|RANK|2|
 C Dreamcatcher|QID|42750|M|56.30,81.14|QO|2|NC|N|Click the Fearfeather Totem to siphen.|RANK|2|
 C Dreamcatcher|QID|42750|M|61.03,80.70|QO|3|NC|N|Click the Reaverbeak Totem to siphen.|RANK|2|
@@ -201,7 +206,7 @@ A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|S|N|Kill the thistleleafs and otherwise work towards the objective.|RANK|2|
 A Thorny Dancing|QID|40220|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
 A Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
-A Thieving Thistleleaf|QID|38862|M|53.77,79.87|O|129966|N|Auto accepted from the lunarwing egg you just looted.|RANK|2|
+A Thieving Thistleleaf|QID|38862|M|53.77,79.87|U|129966|N|Auto accepted from the lunarwing egg you just looted.|RANK|2|
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|As you search for Thorndancers, free Lunarwings by untangleing the roots, or fighting the ones in the air.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|S|N|As you search for Thorndancers, kill Thistleleaf Ruffians to reclaim the eggs.|RANK|2|
 $ Treasure|QID|38861|M|56.05,83.75|N|In a small cave. Loot for a bit of treasure and resources.|RANK|2|
@@ -233,7 +238,7 @@ $ Treasure|QID|44138|M|43.7,89.9;43.05,88.19|CS|N|In a cave with several unfrien
 $ Treasure|QID|38387|M|44.87,79.23;44.35,82.58|CS|N|Run up this path and to a small cave behind and underneath the inn at Sabermaw Bluff for a bit of loot and treasure.|RANK|3|
 R Smolderhide Thicket|QID|38146|M|48.68,88.28|N|And... back to your questing.|RANK|3|
 K Kill Chieftain Graw|QID|38146|M|48.68,88.28|L|128340|T|Chieftain Graw|
-A The Chieftain's Beads|QID|38146|M|48.71,88.30|O|128340|N|Auto accepted from item you looted from the Cheiftain.|
+A The Chieftain's Beads|QID|38146|M|48.71,88.30|U|128340|N|Auto accepted from item you looted from the Cheiftain.|
 C Totemic Call|QID|38246|M|48.87,88.52|N|Destroy the Nightmare Totem behind the Cheiftain.|
 C Frenzied Furbolgs|QID|38455|M|46.95,84.40|US|N|Finish killing the Smolderhide furbolg.|
 T Totemic Call|QID|38246|M|48.39,84.63|N|To Elder Sookh.|

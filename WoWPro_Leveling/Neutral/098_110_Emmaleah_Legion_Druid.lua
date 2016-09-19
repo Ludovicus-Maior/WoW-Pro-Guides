@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2016-09-19 22:08
+-- Who: Ludovicus
+-- Log: EmeraldDreamway Cleanup on aisle 4!
+
+-- URL: http://wow-pro.com/node/3669/revisions/27815/view
 -- Date: 2016-09-18 16:31
 -- Who: Ludovicus
 -- Log: Zone changes
@@ -71,9 +76,9 @@ C The Dreamway|QID|40644|NC|QO|3|M|66.93,60.11|Z|Moonglade|N|Step into the circl
 T The Dreamway|QID|40644|M|66.73,60.54|Z|Moonglade|N|To Malfurion Stormrage.|
 A To TheDreamgrove|QID|40645|M|66.73,60.54|Z|Moonglade|N|From Malfurion Stormrage.|PRE|40644|
 C To TheDreamgrove|QID|40645|NC|QO|1|M|68.05,60.23|Z|Moonglade|N|Enter the Emerald Dreamway|
-C To TheDreamgrove|QID|40645|NC|QO|2|M|35.81,52.04|Z|EmeraldDreamway|N|Travel with Remulos|
-C To TheDreamgrove|QID|40645|QO|3|M|67.09,28.67|Z|EmeraldDreamway|N|Cleanse the Corruption|
-C To TheDreamgrove|QID|40645|NC|QO|4|M|45.23,25.20|Z|EmeraldDreamway|N|Travel to the Dreamgrove|
+C To TheDreamgrove|QID|40645|NC|QO|2|M|40.21,40.23|Z|EmeraldDreamway|N|Travel with Remulos|
+C To TheDreamgrove|QID|40645|QO|3|M|68.93,30.65|Z|EmeraldDreamway|N|Cleanse the Corruption|
+C To TheDreamgrove|QID|40645|NC|QO|4|M|45.70,24.08|Z|EmeraldDreamway|N|Travel to the Dreamgrove|
 C To TheDreamgrove|QID|40645|NC|QO|5|M|46.00,51.89|N|Meet the Archdruid|
 T To TheDreamgrove|QID|40645|M|44.55,51.02|N|To Rensar Greathoof.|
 A Weapons of Legend|QID|40646|M|44.55,51.02|N|From Rensar Greathoof.|PRE|40645|

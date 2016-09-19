@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-09-19 22:33
+-- Who: Ludovicus
+-- Log: Someone did a fat-fingered edit!
+
+-- URL: http://wow-pro.com/node/3683/revisions/27813/view
 -- Date: 2016-09-18 14:29
 -- Who: tubera
 -- Log: Tweak between a grapple a day-another way
@@ -246,7 +251,8 @@ T Built to Scale|QID|38337|M|46.25,70.36|N|To Commander Lorna Crowley.|
 A Another Way|QID|38342|PRE|38410|M|46.25,70.37|N|From Commander Lorna Crowley.|
 C Another Way|QID|38342|M|46.24,72.39|QO|1|N|Kill Gunnlaug Scaleheart|
 C Another Way|QID|38342|M|45.70,73.12|QO|2|N|Climb the Tower|
-T Another Way|QID|38342|M|45.62,73.09|N|To Commander Lorna Crowley.|A Above the Winter Moonlight|QID|38412|PRE|38342|M|45.65,73.08|N|From Commander Lorna Crowley.|
+T Another Way|QID|38342|M|45.62,73.09|N|To Commander Lorna Crowley.|
+A Above the Winter Moonlight|QID|38412|PRE|38342|M|45.65,73.08|N|From Commander Lorna Crowley.|
 C Above the Winter Moonlight|QID|38412|M|46.36,74.37|QO|1|N|Grapple to the Mountain Path|
 $ Small Treasure Chest|QID|38476|M|48.13,74.22|N|Beside the waterfall, loot for a bit of treasure and resources.|
 K Kill Stormwing Matriarch|QID|38423|M|49.6,71.6|T|Stormwing Matriarch|QO|1|ITEM|129110|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|

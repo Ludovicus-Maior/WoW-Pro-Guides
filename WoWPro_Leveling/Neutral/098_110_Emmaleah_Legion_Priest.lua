@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-09-19 22:36
+-- Who: Ludovicus
+-- Log: Added coarse coords for Portal to Netherlight Temple
+
+-- URL: http://wow-pro.com/node/3674/revisions/27767/view
 -- Date: 2016-09-14 09:25
 -- Who: Emmaleah
 -- Log: C In the Blink of an Eye|QO|2 changed to |Z|Dalaran@DeadwindPass
@@ -75,7 +80,7 @@ A Accept artifact specific quest|QID|40710;41625;41957|M|78.96,41.00|Z|Tirisfal 
 ;chapter I order hall
 ;44100-Proper Introductions
 R Windrunner's Sanctuary|QID|44100|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Horde|LVL|101|
-R Graymane Enclave|QID|44100|M||Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Alliance|LVL|101|
+R Graymane Enclave|QID|44100|M|39.2,57.2|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Alliance|LVL|101|
 T Proper Introductions|QID|44100|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
 A Rise Champions|QID|43270|M|51.61,47.81|N|From Alonsus Faol.|PRE|44100|LVL|101|
 A Champion: Calia Menethil|QID|43271|M|51.80,48.98|N|Pick Up Calia as a follower.|ACTIVE|43270|LVL|101|

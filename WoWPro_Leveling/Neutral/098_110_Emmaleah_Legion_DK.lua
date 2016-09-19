@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-09-19 22:15
+-- Who: Ludovicus
+-- Log: Removed duplicate LVL|105
+
+-- URL: http://wow-pro.com/node/3668/revisions/27817/view
+-- Date: 2016-09-19 22:06
+-- Who: Ludovicus
+-- Log: Join broken line.
+
+-- URL: http://wow-pro.com/node/3668/revisions/27808/view
 -- Date: 2016-09-17 20:45
 -- Who: Emmaleah
 -- Log: somehow, reverted (or i didnt add what I said i did in my last revision), details of Koltira scenario and Stromguarde quest lost, this replaces them.  Ludo, you will want to check for your changes too.
@@ -107,8 +117,7 @@ C Troops in the Field|QID|43267|M|49.66,51.25|NC|N|Use the scouting map to send 
 t Troops in the Field|QID|43267|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|101|
 A Tech it up a Notch|QID|43268|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|43267|LVL|101|
 A Salanar the Horseman|QID|43539|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|43268|LVL|101|
-C Salanar the Horseman|QID|43539|M|49.66,51.25|NC|N|Use the scouting map to send your
-followers on the next mission, "Salanar the Horseman". This mission is 1 hour. You will need to manually check this step off to progress the guide before the mission is finished.|LVL|101|
+C Salanar the Horseman|QID|43539|M|49.66,51.25|NC|N|Use the scouting map to send your followers on the next mission, "Salanar the Horseman". This mission is 1 hour. You will need to manually check this step off to progress the guide before the mission is finished.|LVL|101|
 C Tech it up a Notch|QID|43268|M|47.73,53.89|NC|N|Go to Archivist Zubashi and select which class hall upgrade you want.|LVL|101|
 T Tech it up a Notch|QID|43268|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|101|
 t Salanar the Horseman|QID|43539|M|49.66,51.25|N|To Siouxsie the Banshee Whenever you exhaust a ghoul, you can (and should) recruit more over at Dark Summoner Marogh.|LVL|101|
@@ -197,7 +206,7 @@ U Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@Broke
 T Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|To Korgaz Deadaxe.|
 A The Nightmare Lash|QID|43572|M|98.8,59.2|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|44082|
 t The Nightmare Lash|QID|43572|M|98.8,59.2|N|To Salanar the Horseman.|
-N Class Hall Advancement|QID|43571|M|56.01,40.64|LVL|105|NC|N|Don't forget to go to Archivist Zubashi and choose your tier 2 order hall advancement. The rest of progressing your class hall requires level 110.|LVL|105|
+N Class Hall Advancement|QID|43571|M|56.01,40.64|NC|N|Don't forget to go to Archivist Zubashi and choose your tier 2 order hall advancement. The rest of progressing your class hall requires level 110.|LVL|105|
 
 ;2nd spec artifact
 A Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral, if you care about a secondary spec.|PRE|43539|LVL|102|

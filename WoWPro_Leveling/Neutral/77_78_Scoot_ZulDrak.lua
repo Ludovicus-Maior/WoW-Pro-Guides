@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2016-09-19 22:13
+-- Who: Ludovicus
+-- Log: Removed extra space in "The Underbelly" zone.
+
+-- URL: http://wow-pro.com/node/3295/revisions/27784/view
 -- Date: 2016-09-14 18:32
 -- Who: Ludovicus
 -- Log: Proper underbelly zone
@@ -127,7 +132,7 @@ N READ THIS 3! |QID|12902|N|To do the optional quest abandon Into the Breach! an
 N Amphitheater of Anguish |QID|12948|N|While questing look for a group for the Amphitheater of Anguish. There are 6 quests here . You will need some of them for the Achievement, so anytime you can get in, do so. You must be 75 to do these quests.|
 N Amphitheater of Anguish |QID|12948|N|There is an optional leadin quest from Dalaran's Underbelly for the Amphitheater of Anguish, get that now before going to Light's Breach.|
 N Darkkari Offerings|QID|12859|N|As you kill things, loot everything. They have a chance to drop Drakkari Offerings (need 30 total) which are used in 3 quests, and give you a few types of buffs while in Zul'Drak.|
-A The Champion's Call! |QID|12974|O|Z|The  Underbelly@Dalaran|M|53.2,48.8|N|In the Underbelly in Dalaran, find Shifty Vickers. This breadcrumb quest is not availible if you do ANY of the Amphitheater line and it counts to Loremaster.|LEAD|12932;12954|
+A The Champion's Call! |QID|12974|O|Z|The Underbelly@Dalaran|M|53.2,48.8|N|In the Underbelly in Dalaran, find Shifty Vickers. This breadcrumb quest is not availible if you do ANY of the Amphitheater line and it counts to Loremaster.|LEAD|12932;12954|
 
 f Light's Breach |QID|12883|N|Fly to Light's Breach.|Z|Zul'Drak|M|32.05,74.50|
 T Into the Breach! |QID|12789|O|N|To Sargent Riannah, who is next to the Flightmaster.|M|32.05,74.50|
