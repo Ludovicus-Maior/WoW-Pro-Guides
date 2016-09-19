@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-09-19 23:10
+-- Who: Ludovicus
+-- Log: Changed some duplicate QIDs into PREs
+
+-- URL: http://wow-pro.com/node/3687/revisions/27812/view
 -- Date: 2016-09-18 05:20
 -- Who: Emmaleah
 -- Log: Edited many |N| tags, moved C/T Survey Says... to after the sequence that ends with killing Arcanist Kel'Danath. Added some R steps, etc.
@@ -130,10 +135,10 @@ T Survey Says...|QID|40956|M|36.10,47.24|N|To the Telemetry Beacon. After turn i
 A Tapping the Leylines|QID|40010|M|36.54,46.87|N|From First Arcanist Thalyssra.|PRE|40956|
 C Subject 16|QID|41704|M|36.29,47.11|NC|N|Deliver Theryn to Thalyssra.|
 T Subject 16|QID|41704|M|36.55,46.91|N|To First Arcanist Thalyssra.|
-A Kel'danath's Legacy|QID|41760|M|36.55,46.91|N|From First Arcanist Thalyssra.|QID|41704|
+A Kel'danath's Legacy|QID|41760|M|36.55,46.91|N|From First Arcanist Thalyssra.|PRE|41704|
 C Kel'danath's Legacy|QID|41760|M|34.81,51.69|N|Use your extra action button to charm Withered.|
 T Kel'danath's Legacy|QID|41760|M|36.56,46.93|N|To First Arcanist Thalyssra.|
-A Sympathizers Among the Shal'dorei|QID|41762|M|36.56,46.93|N|From First Arcanist Thalyssra.|QID|41760|
+A Sympathizers Among the Shal'dorei|QID|41762|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|41760|
 
 A Turtle Powered|QID|40368|M|43.38,41.72|Z|Suramar|N|From Morhun Rivertamer.|
 C Tapping the Leylines|QID|40010|M|41.30,39.41|Z|Suramar|QO|1|N|1/1 Explore Anora Hollow|
