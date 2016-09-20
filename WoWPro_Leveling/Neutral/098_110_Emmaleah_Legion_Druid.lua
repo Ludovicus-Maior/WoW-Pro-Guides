@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2016-09-20 03:21
+-- Who: Ludovicus
+-- Log: play-through as resto
+
+-- URL: http://wow-pro.com/node/3669/revisions/27818/view
 -- Date: 2016-09-19 22:08
 -- Who: Ludovicus
 -- Log: EmeraldDreamway Cleanup on aisle 4!
@@ -191,18 +196,18 @@ T The Dreamer Returns|QID|41918|M|44.52,51.10|N|To Rensar Greathoof.|
 ; A Meet with Mylune|QID|40649|M|45.57,50.26|N|From Keeper Remulos.|PRE|40646|
 T Meet with Mylune|QID|40649|M|52.28,52.82|N|To Mylune.|
 A Necessary Preparations|QID|41422|M|52.28,52.82|N|From Mylune.|PRE|40649|
-C Necessary Preparations|QID|41422|NC|QO|2|M|33.07,29.26|N|Ask Leafbeard for his blessing.|
-C Necessary Preparations|QID|41422|NC|QO|1|M|35.61,25.81|N|Pick up a Cup of Moonwater from the edge of the moonwell.|
+C Necessary Preparations|QID|41422|NC|QO|2|M|32.85,29.19|N|Ask Leafbeard for his blessing.|
+C Necessary Preparations|QID|41422|NC|QO|1|M|35.50,25.76|N|Pick up a Cup of Moonwater from the edge of the moonwell.|
 T Necessary Preparations|QID|41422|M|52.19,52.91|N|To Mylune.|
-A Join the Dreamer|QID|41449|M|52.19,52.91|N|From Mylune.|PRE|40422|
+A Join the Dreamer|QID|41449|M|52.19,52.91|N|From Mylune.|PRE|41422|
 T Join the Dreamer|QID|41449|M|41.87,0.00|N|To Naralex.|
-A In Deep Slumber|QID|41436|M|41.87,0.00|N|From Naralex.|PRE|40449|
+A In Deep Slumber|QID|41436|M|41.87,0.00|N|From Naralex.|PRE|41449|
 C In Deep Slumber|QID|41436|NC|U|135506|QO|1|M|40.87,0.00|N|Stand on Naralex's bed and drink the cup of moonwater to enter the Emerald Dream|
 C In Deep Slumber|QID|41436|NC|QO|2|M|44.94,51.08|N|Use stealth to quickly travel to the outside, avoid the red ground "fog".  You need to make it to the tree before the bar fills up.|
-T In Deep Slumber|QID|41436|NC|QO|2|M|41.87,0.00|N|To Naralex.|
-A Reconvene|QID|41332|M|41.87,0.00|N|From Naralex.|PRE|40436|
+T In Deep Slumber|QID|41436|M|41.87,0.00|N|To Naralex.|
+A Reconvene|QID|41690|M|41.87,0.00|N|From Naralex.|PRE|41436|
 T Reconvene|QID|41690|M|45.18,51.72|N|To Lyessa Bloomwatcher.|
-A Cleansing the Mother Tree|QID|41689|M|45.26,51.85|N|From Lyessa Bloomwatcher.|PRE|40690|
+A Cleansing the Mother Tree|QID|41689|M|45.26,51.85|N|From Lyessa Bloomwatcher.|PRE|41690|
 C Cleansing the Mother Tree|QID|41689|QO|1|M|55.46,22.43|N|Use the portal to enter the Dreamway.|
 C Cleansing the Mother Tree|QID|41689|QO|2|M|53,53|N|Use the Mount Hyjal portal to travel to Nordrassil.|
 C The Legion's Devastation|QID|41689|SO|1;1|M|55.74,29.9|Z|Mount Hyjal|CHAT|N|Speak to Skylord Omnuron.|
@@ -215,28 +220,28 @@ C Lyessa Must Survive|QID|41689|SO|4;2|M|61.21,26.36|Z|Mount Hyjal|N|Lyessa is i
 C Give Corrupted G'Hanir to Lyessa|QID|41689|SO|5;1|M|60.55,25.48|Z|Mount Hyjal|N|Click on Lyessa to give Corrupted G'Hanir to Lyessa.|
 C Witness G'Hanir's rebirth|QID|41689|SO|5;2|M|61.19,26.08|Z|Mount Hyjal|N|Use the Extra Action button to witness G'Hanir's rebirth.|
 C G'Hanir Reborn|QID|41689|SO|6;1|Z|Mount Hyjal|N|Pick up the staff.|
-R Mt Hygel Portal|QID|41689|M|55.74,29.9|Z|Mount Hyjal|N|Run back to the Emerald Dreamway|CC|
-R The Dreamway Portal|QID|41689|M|45.31,24.43||N|Run through the portal.|CC|
+R Mt Hygal Portal|QID|41689|M|55.74,29.9|Z|Mount Hyjal|N|Run back to the Emerald Dreamway|CC|
+R The Dreamway Portal|QID|41689|M|45.31,24.43|Z|EmeraldDreamway|N|Run through the portal.|CC|
 T Cleansing the Mother Tree|QID|41689|M|45.18,51.85|N|To Lyessa Bloomwatcher.|
 
 ;Druid Class Hall
-A Sowing The Seed|QID|41255|QO|1|M|71.17,38.73|N|From Rensar Greathoof.|PRE|40900;42430;41918;41689|
-C Sowing The Seed|QID|41255|M|45.91,51.00|N|Plant the Seed of Ages|
-T Sowing The Seed|QID|41255|M|45.91,51.00|N|To Rensar Greathoof.|
-A The Seed of Ages|QID|40651|M|52.63,51.44|N|From Rensar Greathoof.|PRE|41255|
-C The Seed of Ages|QID|40651|M|52.63,51.44|N|Imbue the artifact weapon with a new power in the seed you just planted.|
-T The Seed of Ages|QID|40651|M|52.68,51.16|N|To Rensar Greathoof.|
-A Ascending The Circle|QID|41332|M|52.59,51.35|N|From Rensar Greathoof.|PRE|40651|
-C Ascending The Circle|QID|41332|M|61.73,33.97|N|Walk with Archdruid Greathoof|
-C Ascending The Circle|QID|41332|NC|QO|1|M|56.51,42.99|N|Speak with Malfurion|
-T Ascending The Circle|QID|41332|N|To Malfurion Stormrage.|
-A Word on the Winds|QID|40652|N|From Malfurion Stormrage.|PRE|41332|
-T Word on the Winds|QID|40652|N|To Skylord Omnuron.|
-A Making Trails|QID|40653|N|From Skylord Omnuron. Choose which zone you want to do first. |PRE|40652|
+A Sowing The Seed|QID|41255|QO|1|M|44.50,51.10|N|From Rensar Greathoof.|PRE|40900+42430+41918+41689|
+C Sowing The Seed|QID|41255|M|30.89,53.63|N|Plant the Seed of Ages|
+T Sowing The Seed|QID|41255|M|30.91,54.25|N|To Rensar Greathoof.|
+A The Seed of Ages|QID|40651|M|30.91,54.25|N|From Rensar Greathoof.|PRE|41255|
+C The Seed of Ages|QID|40651|M|31.04,53.96|N|Imbue the artifact weapon with a new power in the seed you just planted.|
+T The Seed of Ages|QID|40651|M|30.91,54.25|N|To Rensar Greathoof.|
+A Ascending The Circle|QID|41332|M|30.91,54.25|N|From Rensar Greathoof.|PRE|40651|
+C Ascending The Circle|QID|41332|M|46.01,51.03|N|Walk with Archdruid Greathoof|
+C Ascending The Circle|QID|41332|NC|QO|1|M|46.01,51.03|N|Speak with Malfurion|
+T Ascending The Circle|QID|41332|M|46.01,51.03|N|To Malfurion Stormrage.|
+A Word on the Winds|QID|40652|M|46.01,51.03|N|From Malfurion Stormrage.|PRE|41332|
+T Word on the Winds|QID|40652|M|52.57,51.45|N|To Skylord Omnuron.|
+A Making Trails|QID|40653|M|52.57,51.45|N|From Skylord Omnuron. Choose which zone you want to do first. |PRE|40652|
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40653|
 T Making Trails|QID|40653|N|To Skylord Omnuron.|
-f TheDreamgrove|QID|42438|M|61.70,33.74|N|At Danise Stargazer.|
-C Travel to Dalaran|QID|39718;39864;39731;39733;39735|N|Take the portal to travel to Dalaran.|
+f The Dreamgrove|QID|42438|M|61.70,33.74|N|At Danise Stargazer.|
+C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|56.51,43.07|N|Take the portal to travel to Dalaran.|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|

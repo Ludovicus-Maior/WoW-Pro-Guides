@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-09-20 03:30
+-- Who: Blanckaert
+-- Log: finished off the quests in Jandvik. (Again just quick populated from the recorder.)
+
+-- URL: http://wow-pro.com/node/3687/revisions/27824/view
 -- Date: 2016-09-19 23:10
 -- Who: Ludovicus
 -- Log: Changed some duplicate QIDs into PREs
@@ -368,6 +373,38 @@ A Breaking Down the Big Guns|QID|41709|M|75.97,52.61|Z|Suramar|N|From Toryl.|
 A Finding Brytag|QID|41606|M|75.97,52.61|Z|Suramar|N|From Kell.|
 A Sunken Foes|QID|41425|M|75.97,52.61|Z|Suramar|N|From Kell.|
 A Dry Powder|QID|41410|M|77.50,59.83|Z|Suramar|N|From Fjolrik.|
+C Against Their Will|QID|41426|M|76.49,58.03|QO|1|N|6/6 Possessed Vrykul saved|
+C Breaking Down the Big Guns|QID|41709|M|77.79,60.86|QO|1|N|50/50 Harpoon Parts|
+C Sunken Foes|QID|41425|M|76.46,60.86|QO|2|N|6/6 Trenchwalker Scavenger slain|
+C Dry Powder|QID|41410|M|76.14,59.62|QO|1|N|5/5 Sealed Powder Keg|
+C Sunken Foes|QID|41425|M|77.30,62.15|QO|1|N|6/6 Sashj'tar Overseer slain|
+T Dry Powder|QID|41410|M|77.52,59.80|N|To Fjolrik.|
+A Timing Is Everything|QID|41409|M|77.52,59.80|N|From Fjolrik.|
+C Timing Is Everything|QID|41409|M|77.75,58.95|QO|1|N|1/1 Ride Azuregale Paddlefoot|
+C Timing Is Everything|QID|41409|M|76.16,59.90|QO|2|N|50/50 Naga slain|
+T Finding Brytag|QID|41606|M|74.99,63.29|N|To Brytag.|
+A Bubble Trouble|QID|40364|M|74.99,63.29|N|From Brytag.|
+A The Seawarden|QID|41618|M|74.99,63.29|N|From Brytag.|
+C Bubble Trouble|QID|40364|M|75.11,61.85|QO|1|U|130944|N|1/1 Needle Coral|
+C The Seawarden|QID|41618|M|75.36,67.30|QO|1|N|1/1 Seawarden Largush slain|
+C Bubble Trouble|QID|40364|M|75.58,63.89|QO|2|U|130944|N|5/5 Captured Vrykul rescued|
+T Bubble Trouble|QID|40364|M|75.00,63.39|N|To Brytag.|
+T The Seawarden|QID|41618|M|75.00,63.39|N|To Brytag.|
+T Against Their Will|QID|41426|M|70.63,48.84|N|To Toryl.|
+T Breaking Down the Big Guns|QID|41709|M|70.63,48.84|N|To Toryl.|
+A Turning the Tidemistress|QID|40336|M|70.63,48.84|N|From Toryl.|
+T Timing Is Everything|QID|41409|M|70.55,49.12|N|To Brandolf.|
+T Sunken Foes|QID|41425|M|70.55,49.12|N|To Brandolf.|
+A Shatter the Sashj'tar|QID|41001|M|70.59,49.11|N|From Brandolf.|
+A Squid Out of Water|QID|41499|M|70.59,49.11|N|From Brandolf.|
+C Turning the Tidemistress|QID|40336|M|82.39,58.27|QO|1|N|1/1 Makeshift Ballista built|
+C Turning the Tidemistress|QID|40336|M|82.64,57.77|QO|2|N|1/1 Tidemistress Sashj'tar slain|
+C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|QO|1|N|12/12 Sashj'tar naga slain|
+C Squid Out of Water|QID|41499|M|80.86,56.94|QO|1|N|5/5 Willbreaker Incubators destroyed|
+T Shatter the Sashj'tar|QID|41001|M|70.57,49.17|N|To Brandolf.|
+T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|
+T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
+
 ]]
 
 end)
