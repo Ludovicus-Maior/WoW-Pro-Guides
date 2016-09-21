@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
--- Date: 2016-09-14 09:16
+-- Date: 2016-09-21 07:56
 -- Who: Emmaleah
 -- Log: Changed C In the Blink of an Eye|QO|2| to Dalaran@DeadwindPass
 
@@ -33,7 +33,7 @@ WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Mage")
 WoWPro:GuideSteps(guide, function()
 return [[
-
+N DRAFT|N|A great deal of the content from lvl 101 and on is gleaned from WoWhead and untested. Please post any corrections.|
 A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
@@ -62,9 +62,164 @@ T A Mage's Weapon|QID|41085|M|59.08,42.86|Z|MageClassShrine/2|N|To Meryl Felstor
 A Artifact Specific Quest|QID|42001;40267;42452|M|59.08,42.86|Z|MageClassShrine/2|N|From Meryl Felstorm.|PRE|41085|
 R Portal to Dalaran|QID|42001;40267;42452|M|62.57,51.56|Z|MageClassShrine/2|CC|N|How thoughtful, they provided a way out, Use Portal to Dalaran.|
 
-;Insert the stuff that happens after you finish first zone here
+T Growing Power|QID|42175|LVL|101|M|60.4,36|N|To Meryl Felstorm|LVL|101|
+A Rise, Champions|QID|42663|LVL|101|M|60.4,36|N|From Meryl Felstorm|PRE|42175|
+A Champion: Archmage Modera|QID|42685|M|56,39|LVL|101|PRE|42663|N|From/To Archmage Modera.|
+A Champion: Archmage Kalec|QID|42662|M|55.8,38.8|LVL|101|PRE|42663|N|From/To Archmage Kalec.|
+T Rise, Champions|QID|42663|LVL|101|M|60.4,36|N|To Meryl Felstorm.|
+A Technical Wizardry|QID|42703|LVL|101|M|60.4,36|N|From Meryl Felstorm.|
+T Technical Wizardry|QID|42703|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
+A Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
+C Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
+T Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|To Archmage Melis.|
+A Building Our Troops|QID|42127|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
+C Building Our Troops|QID|42127|LVL|101|M|85.8,46.2|Z|MageClassHall/2|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
+T Building Our Troops|QID|42127|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|To Archmage Melis.|
+A Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
+C Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
+t Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|To Archmage Melis.|
+A Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
+C Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
+t Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|To Archmage Melis.|
+A Ancient Magic|QID|42433|M|82.4,55.6|N|From Archmage Vargoth.|LVL|101|
+C Ancient Magic|QID|42433|M|82.4,55.6|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|
+t Ancient Magic|QID|42433|M|80.8,61.8|N|To Archmage Melis.|
 
-;insert order hall progression quests here
+A Recruiting Apprentices|QID|44098|LVL|103|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
+C Recruiting Apprentices|QID|44098|LVL|103|M|48,33.4|Z|MageClassHall/2|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
+T Recruiting Apprentices|QID|44098|LVL|103|M|48,33.4|Z|MageClassHall/2|N|To Grand Conjurer Mimic.|
+
+A An Unexpected Visitor|QID|42418|M|80.8,61.8|N|From Archmage Melis.|PRE|42433|LVL|103|
+T An Unexpected Visitor|QID|42418|M|60.8,59.4|Z|MageClassHall/2|N|To Ravandwyr.|
+A A Covert Operation|QID|42434|M|60.8,59.4|Z|MageClassHall/2|N|From Ravandwyr.|PRE|42418|
+C A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
+T A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|To Ravandwyr.|
+A Prepare to Be Assimilated|QID|42435|M|64.9,37.8|Z|Azsuna|N|From Ravandwyr.|PRE|42434|
+C Prepare to Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|S|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
+C Prepare to Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|Azsuna|N|Kill Spitespeaker Lir'kess
+C Prepare to Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|US|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
+T Prepare to Be Assimilated|QID|42435|M|66,32.4|Z|Azsuna|N|To Ravandwyr.|
+A What is Going On Here|QID|42166|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42435|
+C What is Going On Here|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|S|N|Talk to Empyrean Society Members.|
+C What is Going On Here|QID|42166|QO|2|M|64.3,31.4|Z|Azsuna|N|Investigate the Brazier.|
+C What is Going On Here|QID|42166|QO|3|M|65.8,32.5|Z|Azsuna|N|Investigate Building.|
+C What is Going On Here|QID|42166|QO|4|M|66.4,33.7|Z|Azsuna|N|Investigate Rotunda.|
+C What is Going On Here|QID|42166|QO|5|M|66.4,33.6|Z|Azsuna|N|Examine the Exotic Book.|
+C What is Going On Here|QID|42166|QO|6|M|66.4,33.4|Z|Azsuna|N|Kill Marlan Blackfire.|
+C What is Going On Here|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|US|N|Talk to Empyrean Society Members.|
+T What is Going On Here|QID|42166|M|66,32.4|Z|Azsuna|N|To Ravandwyr.|
+A Some Knowledge Shouldn't be Shared|QID|42149|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42166|
+A The Next Level Has Arrived|QID|42206|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42166|
+C The Next Level Has Arrived|QID|42206|S|M|65.9,33.8|Z|Azsuna|N|Kill Empyrean Society Members.|
+C Some Knowledge Shouldn't be Shared|QID|42149|M|65.9,33.8|Z|Azsuna|N|Pick up scrolls from the ground.|
+C The Next Level Has Arrived|QID|42206|M|65.9,33.8|Z|Azsuna|US|N|Kill Empyrean Society Members.|
+T The Next Level Has Arrived|QID|42206|N|To Esara Verrinde, who is following you around.|
+T Some Knowledge Shouldn't be Shared|QID|42149|N|To Esara Verrinde.|
+A Final Exit|QID|42171|PRE|42206+42149|
+C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|1|N|Use Rune of Opening to unlock the Empyrean Society Building.|
+C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|2|N|Kill Nora Blackfire.|
+C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|2|N|Loot Missive from Chest.|
+T Final Exit|QID|42171|M|66,32.4|Z|Azsuna|N|To Ravamdwyr.|
+A Empyrean Society Report|QID|42222|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42171|
+C Empyrean Society Report|QID|42222|M|66,32.4|Z|Azsuna|N|Use Teleport: Hall of the Guardian.|
+T Empyrean Society Report|QID|42222|M|71,55.4|Z|MageClassShrine/2|N|To Archmage Khadgar.|
+A Champion: Esara Varrinde|QID|42706|N|From/To Esara Varrinde.|PRE|42222|
+A Champion: Ravandwyr|QID|42705|M|70.6,55.4|Z|MageClassShrine/2|N|From/To Ravamdwyr.|PRE|42222|
+A The Council Is In Session|QID|42416|M|71,55.4|Z|MageClassShrine/2|N|From Archmage Khadgar.|PRE|42222|
+T The Council Is In Session|QID|42416|M|28.8,49.2|Z|Dalaran@Dalaran70|N|To Archmage Ansirem Runeweaver located in the Violet Citadel.|
+A Archamge Vargoth's Retreat|QID|42423|M|28.8,49.2|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|PRE|42416|
+C Archamge Vargoth's Retreat|QID|42423|M|21.3,53.2|Z|Dalaran@Dalaran70|QO|3|N|Take the portal to enter Vargoth's quarters.|
+C Archamge Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|8|N|Examine well-worn scroll.|
+C Archamge Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|4|N|Examine the journal.|
+C Archamge Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|7|N|Examine the magical tome.|
+C Archamge Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|6|N|Examine the frosted doughnut.|
+C Archamge Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|5|N|Examine the crystal ball.|
+T Archamge Vargoth's Retreat|QID|42423|M|22.2,54.68|Z|Dalaran@Dalaran70|N|To Archmage Kalec (who is following you around and commenting).|
+A Following In His Footsteps|QID|42424|M|22.2,54.68|Z|Dalaran@Dalaran70|N|From Archmage Kalec, at Violet Citadel|PRE|42423|
+C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian@MageClassShrine|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
+t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Kalec's Plan|QID|42451|M|80.89,62.80|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|LVL|110|PRE|42424|
+T Kalec's Plan|QID|42451|M|29.26,87.96|Z|Suramar|N|To Kalecgos.|
+A Not A Toothless Dragon|QID|42508|M|29.26,87.96|Z|Suramar|N|From Kalecgos.|PRE|42451|
+C Not A Toothless Dragon|QID|42508|M|34.16,83.46|Z|Suramar|N|Ride Kalecgos.|
+T Not A Toothless Dragon|QID|42508|M|34.16,83.46|Z|Suramar|N|To Kalecgos.|
+A The Enemy of My Enemy...|QID|42521|M|34.16,83.46|Z|Suramar|N|From Kalecgos.|PRE|42508|
+A More Than Just A Food Vendor|QID|42494|M|34.16,83.46|Z|Suramar|N|From Kalecgos.|PRE|42508|
+C More Than Just A Food Vendor|QID|42494|M|46.31,29.82|Z|Suramar/24|QO|2|S|N|Create Conjured Mana Food.|
+C More Than Just A Food Vendor|QID|42494|M|72.84,55.09|Z|Suramar/24|QO|3|S|N|Kill Demons.|
+C More Than Just A Food Vendor|QID|42494|M|60.75,60.11|Z|Suramar/24|QO|1|U|138115|N|Feed Starving Prisoners.|
+C The Enemy of My Enemy...|QID|42521|M|60.68,29.28|Z|Suramar/24|QO|1|N|Find Millhouse Manastorm.|
+C The Enemy of My Enemy...|QID|42521|M|68.06,37.16|Z|Suramar/24|QO|2|T|Inquistor Norvir|N|Kill Inquisitor Norvir and loot Rusty Key.|
+C The Enemy of My Enemy...|QID|42521|M|62.66,30.22|Z|Suramar/24|QO|3|N|Rescue Millhouse Manastorm.|
+C More Than Just A Food Vendor|QID|42494|M|72.84,55.09|Z|Suramar/24|QO|3|US|N|Kill Demons.|
+C More Than Just A Food Vendor|QID|42494|M|60.75,60.11|Z|Suramar/24|QO|1|US|U|138115|N|Feed Starving Prisoners.|
+T The Enemy of My Enemy...|QID|42521|M|66.50,66.05|Z|Suramar/24|N|To Image of Kalec.|
+T More Than Just A Food Vendor|QID|42494|M|66.50,66.05|Z|Suramar/24|N|To Image of Kalec.|
+A Impending Dooooooom!|QID|42493|M|66.50,66.05|Z|Suramar/24|N|From Image of Kalec.|PRE|42494+42521|
+C Impending Dooooooom!|QID|42493|M|70.72,76.72|Z|Suramar/24|QO|1|N|Find the Nightborn Soulstone.|
+C Impending Dooooooom!|QID|42493|M|61.71,74.57|Z|Suramar/24|QO|2|N|Cross Magic Barrier.|
+C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|3|N|Find Archmage Vargoth.|
+C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|4|N|Slay Lady Kyranith.|
+T Impending Dooooooom!|QID|42493|M|41.81,60.31|Z|Suramar/24|N|To Image of Kalec.|
+A A Terrible Loss|QID|42520|M|41.81,60.31|Z|Suramar/24|N|From Image of Kalec.|PRE|42493|
+$ Treasure Chest|QID|99999|M|38.65,43.42|Suramar/24|N|Loot Protected Treasure|
+T A Terrible Loss|QID|42520|M|70.89,55.31|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar.|
+A A Magical Affliction|QID|42707|M|73.41,56.15|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42520|
+A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
+C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian@MageClassShrine/1|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
+t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian@MageClassShrine/2|N|To Archamge Khadgar|
+A Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|From Archmage Khadgar.|PRE|42940|
+R Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|Talk to Khadgar to start the scenario.|ACTIVE|42734|
+t Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|To Archmage Khadgar.|
+A Champion: Meryl Felstorm|QID|42914|M|71.4,61.8|N|From/To Meryl Felstorm|LVL|110|PRE|42734|
+
+A Small Favor|QID|42954|M|37.8,49.8|Z|MageClassHall/2|N|From Archmage Khadgar.|LVL|110|
+T Small Favor|QID|42954|M|37.8,49.8|Z|MageClassHall/2|N|To Ari.|
+A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|MageClassHall/2|N|From Ari.|PRE|42954|
+C The Proper Way of Things|QID|42955|M|46.11,73.75|Z|Suramar|U|138965|N|Collect Phials of Nightwell Energy.|
+T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian@MageClassShrine|N|To Ari.|
+A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian@MageClassShrine|N|From Ari.|PRE|42955|
+T Ari's Package|QID|42956|M|73.05,56.76|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar.|
+A Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42956|
+t Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@MageClassShrine|N|To Ari. (Dungeon Quest)|PRE|42956|
+
+A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@MageClassShrine|N|From Light's Heart {Xe'ra}.|PRE|42940|
+C An Unclear Path|QID|44466|M|45.35,34.15|Z|Val'sharah|N|Witness Illidan's Resilience.|
+T An Unclear Path|QID|44466|M|83.40,32.72|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart {Xe'ra}|
+A Ravencrest's Legacy|QID|44479|M|83.40,32.72|Z|Hall of the Guardian@MageClassShrine|N|From Light's Heart {Xe'ra}|PRE|44466|
+F Ravencrest's Legacy|QID|44479|M|66.87,45.53|Experience Ravencrest's Legacy|N|Fly to Bradensbrook, or use your Teleportation Nexus: Val'sharah|
+R Ravencrest's Legacy|QID|44479|M|41.79,46.84|Z|Val'sharah|N|Upper level, of Ravencourt, Right side after you cross bridge.|
+C Surrounded by Darkness|QID|44479|Z|Darkpens|SO|1|N|Report to Kur'talos Ravencrest.|
+C Preparing for the Apocalypse|QID|44479|M|0.00,0.00|Z|Darkpens|SO|2;1|N|Repair the Deactivated Moon Guard Portal.|
+C The Road to Fel|QID|44479|M|44.28,49.40|Z|BlackRookHoldScenario|SO|3;1|N|Secure the rampart by defeating Xalian Felblaze.|
+C Behold, the Endless March|Z|Black Rook Hold|QID|44479|SO|4|US|N|Enter the upper ramparts of the courtyard.|
+C No Man an Island|QID|44479|M|43.54,51.40|Z|BlackRookHoldScenario|SO|5;1|N|Activate the remaining Moon Guard portals.|
+C True Sacrifice|Z|Black Rook Hold|QID|44479|SO|6|N|Destroy the Nihilam Portal and slay Balaadur to end the invasion.|
+C When Good Men Do Nothing|QID|44479|M|42.31,48.84|Z|BlackRookHoldScenario|SO|7;1|N|Enter Raven's Glory and destroy the Colossal Siegebreaker.|
+C Ravencrest's Legacy|QID|44479|M|42.31,48.84|Z|BlackRookHoldScenario|QO|1|N|Experience Ravencrest's Legacy|
+C A Personal Touch|QID|40562|QO|2|Experience Ravencrest's Legacy|N|Port back to your Hall.|
+T Ravencrest's Legacy|QID|44479|M|83.63,33.20|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart {Xe'ra}.|
+
+;these need put in proper place
+A Orange is the New Purple|QID|44240|LVL|110|M|45.4,57.2|N|From Jackson Watkins.|
+A Champion: Millhouse Manastorm|QID|42702|LVL|110|M|56.2,57.8|N|From/To Millhouse Manastorm.|
+A Champion: Archmage Vargoth|QID|42917|LVL|110|M|70.2,60.4|N|From/To Archmage Vargoth.|
+A Champion: Arcane Destroyer|QID|42704|LVL|110|M|38.4,48.4|Z|MageClassHall/2|N|From/To Arcane Destroyer.|
+
+; if you pick the talent for Arcane Armements you get this one....
+A Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian@MageClassShrine/1|N|From Minuette.|
+C Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian@MageClassShrine/1|N|Place a work order for Champion armaments.|
+T Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian@MageClassShrine/1|N|To Minuette.|
+;2nd artifact
+A A Second Weapon|QID|43441|LVL|102|M|60.4,36|N|From Meryl Felstorm.|PRE|42175|
+C A Second Weapon|QID|43441|LVL|102|M|60.4,36|N|Pick the artifact you want to pursue next.|
+T A Second Weapon|QID|43441|LVL|102|M|60.4,36|N|From Meryl Felstorm.|
+A Artifact Specific Quest|QID|42001;40267;42452|M|60.4,36|N|From Meryl Felstorm.|PRE|43441|
+;3rd artifact
+A Thrice the Power|QID|44310|LVL|102|M|60.4,36|N|From Meryl Felstorm.|ACH|11174;;true|
+C Thrice the Power|QID|44310|LVL|102|M|60.4,36|N|Choose the remaining artifact.|
+T Thrice the Power|QID|44310|LVL|102|M|60.4,36|N|From Meryl Felstorm.|
+A Artifact Specific Quest|QID|42001;40267;42452|M|60.4,36|N|From Meryl Felstorm.|PRE|44310|
 
 ;ARCANE
 ;A Aluneth, Greatstaff of the Magna|QID|42001|M|59.16,42.16|N|From Meryl Felstorm.|PRE|41085|
