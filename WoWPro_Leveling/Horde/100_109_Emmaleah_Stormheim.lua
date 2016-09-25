@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-09-25 19:44
+-- Who: Emmaleah
+-- Log: changes per Tubera's post 9/25/16
+
+-- URL: http://wow-pro.com/node/3680/revisions/27830/view
 -- Date: 2016-09-22 06:23
 -- Who: Emmaleah
 -- Log: Add Rank tags, where missing to final steps of Sixtrigger quest.
@@ -282,11 +287,11 @@ A Plight of the Blackfeather|QID|42444|M|50.32,34.00|N|From Frightened Ravenbear
 T Plight of the Blackfeather|QID|42444|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
 A Singed Feathers|QID|42446|M|49.79,32.63|N|From Cukkaw.|RANK|2|
 A Nithogg's Tribute|QID|42445|M|49.97,32.65|N|From Intact Greatstag Antler.|RANK|2|
-C Singed Feathers|QID|42446|M|49.68,29.95|QO|S|N|Kill Rampaging Squallhunters.|RANK|2|
+C Singed Feathers|QID|42446|M|49.68,29.95|S|N|Kill Rampaging Squallhunters.|RANK|2|
 C Nithogg's Tribute|QID|42445|M|50.32,33.21|S|N|Kill (and loot) Greatstags and Eagles in this area.|RANK|2|
 K Kill Starbuck|QID|42437|M|54.70,29.21|QO|1|ITEM|130132|T|Starbuck|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Nithogg's Tribute|QID|42445|M|50.32,33.21|US|N|Finish collecting feathers and antlers.|RANK|2|
-C Singed Feathers|QID|42446|M|49.68,29.95|QO|US|N|Finish killing Rampaging Squallhunters.|RANK|2|
+C Singed Feathers|QID|42446|M|49.68,29.95|US|N|Finish killing Rampaging Squallhunters.|RANK|2|
 T Singed Feathers|QID|42446|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
 T Nithogg's Tribute|QID|42445|M|49.79,32.64|N|To Cukkaw.|RANK|2|
 A Dances With Ravenbears|QID|42447|M|49.79,32.64|N|From Cukkaw.|RANK|2|
@@ -322,14 +327,15 @@ C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|S|N|The Bonespeaker Runeax
 K Kill Urgev the Flayer|QID|38847|M|64.88,51.82|QO|1|ITEM|129219|T|Urgev the Flayer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|40083|M|67.99,57.77|N|Loot fora bit of resources and treasure.|RANK|2|
 C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|N|Finish killing Bonespeaker Runeaxe.|
-
+C Turn the Keys|QID|38778|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|S|N|Click on the three runestones.|;I realize green dots don't show for sticky steps, but the other steps send you to the correct spots and this catches it if you miss one (at the US step).
 T Turn the Keys|QID|38778|M|68.47,54.28|N|To Vydhar.|
 T The Runewood's Revenge|QID|39788|M|68.47,54.28|N|To Vydhar.|
 A The Dreaming Fungus|QID|38810|M|68.47,54.28|N|From Vydhar.|
 A Bjornharta|QID|38808|M|68.47,54.28|N|From Vydhar.|
 C Bjornharta|QID|38808|M|70.39,53.00|S|N|Kill bears and loot the Engorged Bear Hearts.|
-C The Dreaming Fungus|QID|38810|M|69.93,52.64|NC|N|8/8 Soulcap|
+C The Dreaming Fungus|QID|38810|M|69.93,52.64|S|NC|N|Gather Soulcaps|
 K Kill Mordvigbjorn|QID|38837|M|72.60,49.99|QO|1|ITEM|129035|T|Mordvigbjorn|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+C The Dreaming Fungus|QID|38810|US|M|69.93,52.64|NC|N|Finish gathering Soulcaps|
 C Bjornharta|QID|38808|M|70.39,53.00|US|N|Finish collecting the Engorged Bear Hearts.|
 T The Dreaming Fungus|QID|38810|M|68.51,54.27|N|To Vydhar.|
 T Bjornharta|QID|38808|M|68.51,54.27|N|To Vydhar.|
