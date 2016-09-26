@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2016-09-26 00:11
+-- Who: tubera
+-- Log: Revert QO to # instead of txt on Disrupt Their Reinforcements.
+
+-- URL: http://wow-pro.com/node/3272/revisions/27609/view
 -- Date: 2016-08-29 03:41
 -- Who: Blanckaert
 -- Log: Ran through on a hunter, adjusted some steps, fix error that other fixed before I uploaded this one, did make sure tubera's corrections were in this one too.  FP: Spinebreaker Post on Map, Spinebreaker Ridge for flights.
@@ -128,9 +133,9 @@ T Apothecary Zelana |QID|10449|M|66.2,42.0|N|To Apothecary Zelana.|
 A Spinebreaker Post |QID|10242|M|66.2,42.0|N|From Apothecary Zelana.|
 
 l Demonic Rune Stones|QID|10208|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones. |M|70.91,45.28|
-C Disrupt Their Reinforcements|NC|QID|10208|QO|Disrupt Port Xilus: 1/1|N|Step inside the gates and right-click to disable Port Xilus.|M|70.82,45.44|
+C Disrupt Their Reinforcements|NC|QID|10208|QO|1|N|Step inside the gates and right-click to disable Port Xilus.|M|70.82,45.44|
 l Demonic Rune Stones|QID|10208|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones. |M|73.98,39.11|
-C Disrupt Their Reinforcements|NC|QID|10208|N|Step inside the gates and right-click to disable Port Kruul.|M|74.00,38.75|
+C Disrupt Their Reinforcements|NC|QID|10208|QO|2|N|Step inside the gates and right-click to disable Port Kruul.|M|74.00,38.75|
 T Disrupt Their Reinforcements |QID|10208|M|65.87,43.63|N|To Forward Commander To'arch.|
 A Mission: Gateways Murketh and Shaadraz |QID|10129|M|65.87,43.63|N|From Forward Commander To'arch.|
 C Mission: Gateways Murketh and Shaadraz |QID|10129|M|66.07,43.74|U|28038|CHAT|N|Talk to Wing Commander Brack, tell him your on a bombing mission and you'll go on a controlled flight. Your job is to throw bombs at the Gateways, which look like larger versions of the portals we just destroyed.|
