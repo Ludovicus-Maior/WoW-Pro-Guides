@@ -357,8 +357,8 @@ A Scouting the Crimson Thicket|QID|42223|M|49.73,82.18|Z|Suramar|
 A Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|Z|Suramar|N|From Kozak the Afflictor.|
 C Leyline Feed: Halls of the Eclipse|QID|43594|M|29.19,84.73|Z|Suramar|QO|1|N|254/250 Ancient Mana|
 T Leyline Feed: Halls of the Eclipse|QID|43594|M|27.26,86.38|Z|Suramar|N|To Legion Endbringer.|
-A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar|
-T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar|
+A Felsoul Teleporter Online!|QID|41575|M|39.30,76.30|Z|Suramar|
+T Felsoul Teleporter Online!|QID|41575|M|39.30,76.30|Z|Suramar|
 T Scouting the Crimson Thicket|QID|42223|M|61.86,49.11|Z|Suramar|N|To Lilryia Dawnwind.|
 A Turn Around, Nighteyes|QID|40617|M|61.86,49.11|Z|Suramar|N|From Lilryia Dawnwind.|
 C Turn Around, Nighteyes|QID|40617|M|64.48,46.36|Z|Suramar|QO|1|N|1/1 Nighteyes located|
