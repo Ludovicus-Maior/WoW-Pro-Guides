@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-09-20 22:04
+-- Who: Blanckaert
+-- Log: Added some headers, for breaking up the guide (internal notes) and a quest chain I found near the city.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27828/view
+-- Date: 2016-09-20 03:30
+-- Who: Blanckaert
+-- Log: finished off the quests in Jandvik. (Again just quick populated from the recorder.)
+
+-- URL: http://wow-pro.com/node/3687/revisions/27824/view
 -- Date: 2016-09-19 23:10
 -- Who: Ludovicus
 -- Log: Changed some duplicate QIDs into PREs
@@ -53,9 +63,16 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
 WoWPro:GuideSteps(guide, function()
 return [[
 
+;
+;  v0.4.1.200920161552  (My internal number)
+;
+
 ; Want to let user know EACH time they come to the guide that it is incomplete, not sure if this is the right way to make that Note.
+
 L This guide (and the Suramar zone) requires level 110|LVL|110|
 N Suramar|N|This is INCOMPLETE, and done as a Horde Toon. There ARE errors, Use at your own risk.|
+
+; Main Storyline, Opening of Suramar
 
 A Khadgar's Discovery|QID|44555;39985|N|Auto Accepted from UI upon entering Dalaran.|
 T Khadgar's Discovery|QID|44555;39985|M|28.47,48.31|Z|Dalaran@Dalaran70|N|To Archmage Khadgar in the Violet Citadel.|
@@ -84,12 +101,16 @@ T Arcane Thirst|QID|40009|M|35.34,47.41|N|To First Arcanist Thalyssra.|
 A Shal'Aran|QID|42229|M|35.34,47.41|N|From First Arcanist Thalyssra.|PRE|42229|
 C Shal'Aran|QID|42229|M|36.54,46.94|NC|N|Follow her as she walks around Shal'aran|
 T Shal'Aran|QID|42229|M|36.56,46.93|N|To First Arcanist Thalyssra.|
+
 A Ancient Mana|QID|44672|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|42229|
 A Oculeth's Workshop|QID|40011|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|42229|
 A An Old Ally|QID|40012|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|42229|
 h Shal'Aran|QID|40012|M|36.56,46.93|N|At First Arcanist Thalyssra.|
 f Meredil|QID|40012|M|34.34,49.38|N|At Ancient Cloudwing.|
 C Ancient Mana|QID|44672|M|34.81,55.09|S|N|Pick up the ancient mana as you travel towards Oculeth. Continue gathering it as you go along, you will have other uses for it also.|;check this coord is in line to the workshop
+
+; Chief Temelancer Oculeth Story Line. Along with Arcanist Kel'Danath Story Line.
+
 C Oculeth's Workshop|QID|40011|M|49.31,48.18|NC|U|132883|N|Show Token to Oculeth.|
 T Oculeth's Workshop|QID|40011|M|49.66,48.13|N|To Chief Telemancer Oculeth.|
 A The Delicate Art of Telemancy|QID|40747|M|49.66,48.13|N|From Chief Telemancer Oculeth.|PRE|40011|
@@ -138,8 +159,10 @@ T Subject 16|QID|41704|M|36.55,46.91|N|To First Arcanist Thalyssra.|
 A Kel'danath's Legacy|QID|41760|M|36.55,46.91|N|From First Arcanist Thalyssra.|PRE|41704|
 C Kel'danath's Legacy|QID|41760|M|34.81,51.69|N|Use your extra action button to charm Withered.|
 T Kel'danath's Legacy|QID|41760|M|36.56,46.93|N|To First Arcanist Thalyssra.|
-A Sympathizers Among the Shal'dorei|QID|41762|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|41760|
 
+; Feeding Shal'Aran Story Line
+
+A Sympathizers Among the Shal'dorei|QID|41762|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|41760|
 A Turtle Powered|QID|40368|M|43.38,41.72|Z|Suramar|N|From Morhun Rivertamer.|
 C Tapping the Leylines|QID|40010|M|41.30,39.41|Z|Suramar|QO|1|N|1/1 Explore Anora Hollow|
 C Tapping the Leylines|QID|40010|M|41.58,38.75|Z|Suramar|QO|2|N|1/1 Step on Ancient Switch|
@@ -164,6 +187,9 @@ A An Ancient Recipe|QID|40744|M|45.59,40.75|Z|Suramar|N|From Thaedris Featherson
 A Feeding Shal'Aran|QID|41138|M|36.56,46.93|Z|Suramar|N|From Arcanist Valtrois.|
 C Feeding Shal'Aran|QID|41138|M|36.97,46.21|Z|Suramar|QO|1|N|1/1 Leyline Feed examined|
 T Feeding Shal'Aran|QID|41138|M|36.97,46.21|Z|Suramar|N|To Arcanist Valtrois.|
+
+; Tidying Tel'Anor Side Story Line, ACtivation of Tel'anor Teleporter
+
 A An Ancient Recipe|QID|40744|M|36.43,46.40|Z|Suramar|
 C The Lost Advisor|QID|40266|M|44.04,39.40|Z|Suramar|QO|1|N|8/8 Gather Cliffthorn|
 C An Ancient Recipe|QID|40744|M|46.12,39.50|Z|Suramar|QO|1|N|6/6 Harpy Talon|
@@ -195,9 +221,13 @@ T The Final Ingredient|QID|40319|M|45.09,30.92|Z|Suramar|N|To Thaedris Featherso
 A Feathersong's Redemption|QID|40321|M|45.09,30.92|Z|Suramar|N|From Thaedris Feathersong.|
 C Feathersong's Redemption|QID|40321|M|44.69,22.91|Z|Suramar|QO|1|U|130260|N|1/1 Cliffclutch Matriarch slain|
 T Feathersong's Redemption|QID|40321|M|44.98,23.84|Z|Suramar|N|To Thaedris Feathersong.|
-A Tel'anor'eporter Online!|QID|43809|M|42.02,35.25|Z|Suramar|N|From Water Elemental.|
-T Tel'anor'eporter Online!|QID|43809|M|42.02,35.25|Z|Suramar|N|To Water Elemental.|
+A Tel'anor'eporter Online!|QID|43809|M|42.02,35.25|Z|Suramar|N|From UI?|
+T Tel'anor'eporter Online!|QID|43809|M|42.02,35.25|Z|Suramar|N|To UI?|
 f Irongrove Retreat|QID|43809|M|25.47,31.76|Z|Suramar|N|At Alyndra Stormgazer.|
+F Meredil|QID|41762|M|25.47,31.76|Z|Suramar|N|Fly back to Meredil, then run to next step.|
+
+; Masquerade Story Line (Jump back to city), and Activating Sanctum of Order Teleporter
+
 C Sympathizers Among the Shal'dorei|QID|41762|M|39.05,70.55|Z|Suramar|QO|1|N|1/1 Silgryn met|
 T Sympathizers Among the Shal'dorei|QID|41762|M|40.17,70.79|Z|Suramar|N|To Silgryn.|
 A The Masks We Wear|QID|41834|M|40.17,70.79|Z|Suramar|N|From Silgryn.|
@@ -221,7 +251,11 @@ C First Contact|QID|42147|M|42.78,60.26|Z|Suramar|QO|1|N|1/1 Speak with Vanthir|
 A Sanctum of Order Teleporter Online!|QID|43813|M|43.39,60.65|Z|Suramar|
 T Sanctum of Order Teleporter Online!|QID|43813|M|43.39,60.65|Z|Suramar|
 T First Contact|QID|42147|M|37.05,46.25|Z|Suramar|N|To First Arcanist Thalyssra.|
-A Arcane Communion|QID|40324|M|37.05,46.25|Z|Suramar|N|From First Arcanist Thalyssra.|
+
+; The Light Below Storyline (An Ancient Gift Side Storyline)
+; Need to have BOTH Masquerade and Feeding Shal'Aran done.  PRE 42147 and 41138
+
+A Arcane Communion|QID|40324|M|37.05,46.25|Z|Suramar|N|From First Arcanist Thalyssra.|PRE|41138;42147|
 C Arcane Communion|QID|40324|M|37.11,46.29|Z|Suramar|QO|1|N|1/1 Theryn fed|
 T Arcane Communion|QID|40324|M|37.08,46.27|Z|Suramar|N|To First Arcanist Thalyssra.|
 A Scenes from a Memory|QID|40325|M|37.08,46.27|Z|Suramar|N|Click the memories to clear them.|
@@ -250,9 +284,14 @@ T The Hidden City|QID|42228|M|35.06,54.58|Z|Suramar|N|To Ancient Seed.|
 A The Valewalker's Burden|QID|42230|M|35.06,54.58|Z|Suramar|N|From Ancient Seed.|
 C The Valewalker's Burden|QID|42230|M|40.80,13.82|Z|Suramar|QO|1|N|1/1 Fal'adora Beacon activated|
 T The Valewalker's Burden|QID|42230|M|36.86,46.49|Z|Suramar|
+
 A Seed of Hope|QID|44561|M|36.86,46.49|Z|Suramar|N|From Valewalker Farodin.|
 A Cling to Hope|QID|40798|M|37.71,47.80|Z|Suramar|N|From Absolon.|
 T Cling to Hope|QID|40798|M|41.59,56.16|Z|Suramar|N|To Noressa.|
+
+; Eminent Grow-Main Side Storyline
+; Requires the main questline done to open (PRE|42229|)
+
 A Feline Frantic|QID|41452|M|25.67,30.95|Z|Suramar|N|From Mayruna Moonwing.|
 C Feline Frantic|QID|41452|M|25.64,30.83|Z|Suramar|QO|1|N|1/1 Tidy the Ransacked Crate|
 C Feline Frantic|QID|41452|M|26.12,31.62|Z|Suramar|QO|2|N|1/1 Correct Toppled Bench|
@@ -302,6 +341,9 @@ A Eminent Grow-main|QID|41494|M|26.18,31.32|Z|Suramar|N|From Mythandros Irongrov
 C Eminent Grow-main|QID|41494|M|26.18,31.18|Z|Suramar|QO|1|N|1/1 Inert Waters Imbued|
 C Eminent Grow-main|QID|41494|M|26.04,31.27|Z|Suramar|QO|2|N|1/1 Ritual Completed|
 T Eminent Grow-main|QID|41494|M|26.07,31.31|Z|Suramar|N|To Mayruna Moonwing.|
+
+; Crimson Thicket Area
+
 A Scouting the Crimson Thicket|QID|42223|M|26.22,31.32|Z|Suramar|N|From Solendra Featherdown.|
 A Scouting the Crimson Thicket|QID|42223|M|26.00,31.26|Z|Suramar|
 A Leyline Feed: Falanaar Depths|QID|43593|M|57.77,75.37|Z|Suramar|N|From Hungering Husk.|
@@ -330,6 +372,9 @@ C They Become The Hunted|QID|41215|M|60.95,44.93|Z|Suramar|QO|1|N|6/6 Nightborne
 C Trapping Evolved|QID|41230|M|61.49,43.00|Z|Suramar|QO|1|N|4/4 Arcane Trap|
 T They Become The Hunted|QID|41215|M|61.85,49.07|Z|Suramar|N|To Nighteyes.|
 T Trapping Evolved|QID|41230|M|61.85,49.07|Z|Suramar|N|To Lilryia Dawnwind.|
+
+; Jandvik's Jarl Side Storyline
+
 A Removing Obstacles|QID|40907|M|65.71,51.15|Z|Suramar|N|From Toryl.|
 C Removing Obstacles|QID|40907|M|68.92,52.32|Z|Suramar|QO|1|N|1/1 Calder slain|
 C Removing Obstacles|QID|40907|M|69.07,47.26|Z|Suramar|QO|2|N|1/1 Eynar slain|
@@ -368,6 +413,63 @@ A Breaking Down the Big Guns|QID|41709|M|75.97,52.61|Z|Suramar|N|From Toryl.|
 A Finding Brytag|QID|41606|M|75.97,52.61|Z|Suramar|N|From Kell.|
 A Sunken Foes|QID|41425|M|75.97,52.61|Z|Suramar|N|From Kell.|
 A Dry Powder|QID|41410|M|77.50,59.83|Z|Suramar|N|From Fjolrik.|
+C Against Their Will|QID|41426|M|76.49,58.03|QO|1|N|6/6 Possessed Vrykul saved|
+C Breaking Down the Big Guns|QID|41709|M|77.79,60.86|QO|1|N|50/50 Harpoon Parts|
+C Sunken Foes|QID|41425|M|76.46,60.86|QO|2|N|6/6 Trenchwalker Scavenger slain|
+C Dry Powder|QID|41410|M|76.14,59.62|QO|1|N|5/5 Sealed Powder Keg|
+C Sunken Foes|QID|41425|M|77.30,62.15|QO|1|N|6/6 Sashj'tar Overseer slain|
+T Dry Powder|QID|41410|M|77.52,59.80|N|To Fjolrik.|
+A Timing Is Everything|QID|41409|M|77.52,59.80|N|From Fjolrik.|
+C Timing Is Everything|QID|41409|M|77.75,58.95|QO|1|N|1/1 Ride Azuregale Paddlefoot|
+C Timing Is Everything|QID|41409|M|76.16,59.90|QO|2|N|50/50 Naga slain|
+T Finding Brytag|QID|41606|M|74.99,63.29|N|To Brytag.|
+A Bubble Trouble|QID|40364|M|74.99,63.29|N|From Brytag.|
+A The Seawarden|QID|41618|M|74.99,63.29|N|From Brytag.|
+C Bubble Trouble|QID|40364|M|75.11,61.85|QO|1|U|130944|N|1/1 Needle Coral|
+C The Seawarden|QID|41618|M|75.36,67.30|QO|1|N|1/1 Seawarden Largush slain|
+C Bubble Trouble|QID|40364|M|75.58,63.89|QO|2|U|130944|N|5/5 Captured Vrykul rescued|
+T Bubble Trouble|QID|40364|M|75.00,63.39|N|To Brytag.|
+T The Seawarden|QID|41618|M|75.00,63.39|N|To Brytag.|
+T Against Their Will|QID|41426|M|70.63,48.84|N|To Toryl.|
+T Breaking Down the Big Guns|QID|41709|M|70.63,48.84|N|To Toryl.|
+A Turning the Tidemistress|QID|40336|M|70.63,48.84|N|From Toryl.|
+T Timing Is Everything|QID|41409|M|70.55,49.12|N|To Brandolf.|
+T Sunken Foes|QID|41425|M|70.55,49.12|N|To Brandolf.|
+A Shatter the Sashj'tar|QID|41001|M|70.59,49.11|N|From Brandolf.|
+A Squid Out of Water|QID|41499|M|70.59,49.11|N|From Brandolf.|
+C Turning the Tidemistress|QID|40336|M|82.39,58.27|QO|1|N|1/1 Makeshift Ballista built|
+C Turning the Tidemistress|QID|40336|M|82.64,57.77|QO|2|N|1/1 Tidemistress Sashj'tar slain|
+C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|QO|1|N|12/12 Sashj'tar naga slain|
+C Squid Out of Water|QID|41499|M|80.86,56.94|QO|1|N|5/5 Willbreaker Incubators destroyed|
+T Shatter the Sashj'tar|QID|41001|M|70.57,49.17|N|To Brandolf.|
+T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|
+T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
+
+; Quest found after doing all the above... can't find any PRE/Required info
+
+A A Way Back In|QID|40401|M|34.36,56.14|N|From Iadreth.|
+C A Way Back In|QID|40401|M|41.36,60.68|QO|1|N|1/1 Find the smuggler|
+T A Way Back In|QID|40401|M|41.36,60.68|N|To Astoril.|
+A Final Preparations|QID|40469|M|41.36,60.68|N|From Astoril.|
+C Final Preparations|QID|40469|M|42.74,60.01|QO|1|N|Look around for crates of Stashed Supplies|
+A An Artisan's Mark|QID|41123|M|41.54,71.17|N|From Lespin Silverleaf|
+C An Artisan's Mark|QID|41123|M|42.47,64.99|QO|N|1/1Signet Ring|
+T An Artisan's Mark|QID|41123|M|41.54,71.17|N|To Lespin Silverleaf|
+A All That Glitters|QID|41307|M|41.54,71.17|N|From Lespin Silverleaf|
+A Pry It From Their Cold, Feral Claws|QID|41320|M|41.54,71.17|From Lespin Silverleaf|
+T Final Preparations|QID|40469|M|34.32,56.13|N|To Iadreth.|
+A A Desperate Journey|QID|40424|M|34.32,56.13|N|From Iadreth.|
+C A Desperate Journey|QID|40424|CC|M|35.11,58.95|QO|1|N|Move near lightpost, wait for attack.|
+C A Desperate Journey|QID|40424|CC|M|36.36,60.48|QO|2|N|Move towards cave, wait for attack.|
+C A Desperate Journey|QID|40424|M|37.82,61.68|QO|3|N|1/1 Find Astoril|
+T A Desperate Journey|QID|40424|M|37.82,61.68|N|To Astoril.|
+A Quality of Life|QID|40470|M|37.83,61.60|N|From Iadreth.|
+C Quality of Life|QID|40470|M|38.29,76.45|QO|1|N|1/1 Follow Iadreth|
+C Quality of Life|QID|40470|M|38.10,76.45|QO|2|N|Kill Astoril, onceHe's Hostile.|
+C Quality of Life|QID|40470|M|42.27,79.00|CC|QO|N|After Killing Astoril, use portal behind you. OR Hearth|
+C Quality of Life|QID|40470|M|36.87,46.61|QO|3|N|Chat with Thalyssra|
+T Quality of Life|QID|40470|M|36.87,46.61|N|To First Arcanist Thalyssra.|
+
 ]]
 
 end)
