@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2016-09-28 22:18
+-- Who: Ludovicus
+-- Log: Playthrough on AFFLICTION and DEMONOLOGY
+
+-- URL: http://wow-pro.com/node/3679/revisions/27770/view
 -- Date: 2016-09-14 09:34
 -- Who: Emmaleah
 -- Log: Update Jump to Stormheim for Alliance/Horde
@@ -46,23 +51,23 @@ T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To 
 ;Warlock
 A The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Ritssyn Flamescowl.|
 C The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran@Dalaran70|NC|N|Follow Ritssyn through the portal.|
-T The Sixth|QID|40716|M|57.87,60.03|Z|Dalaran@Dalaran70|N|To Ritssyn Flamescowl.|
-A The New Blood|QID|40729|M|57.87,60.03|Z|Dalaran@Dalaran70|N|From Ritssyn Flamescowl.|PRE|40716|
-C The New Blood|QID|40729|NC|QO|1|M|58.36,68.06|Z|Dalaran@Dalaran70|N|Wait a minute or so until the gate is fully formed and then click on the gate to perform the ritual and then wait until you are transported to a solo scenario.|
-C Far From Home|NC|SO|1|N|Listen to Ritssyn.|QID|40729|
-C The Dread Warden|SO|2;1|M|34.99,63.12|N|Use the extra action button to Enslave the jailer Beshtal thus freeing yourself from his cage, then defeat him with Ritssyn's aid.|QID|40729|
-C Escape the Jailer|SO|2;2|M|33.96,59.25|N|Now you fight him.|QID|40729|
-C Jubeka Shadowbreaker freed|SO|3;1|M|24.37,59.97|N|On the way up to free Jubeka, stop and talk to the demon Calydus, let him run ahead and he will distract some of the other demons for you.|QID|40729|
-C Shinfel Blightsworn freed|SO|3;3|M|41.55,66.05|N|Shinfel Blightsworn freed|QID|40729|
-C Zinnin Smythe Freed|SO|3;2|M|38.35,74.34|N|Zinnin Smythe Freed|QID|40729|
-C Meet with Calydus|SO|4;1|M|42.61,40.39|N|Follow Calydus, click on the crystals to lower the barrior (after killing the jailers guarding them).|QID|40729|
-C Tome of Blighted Implements|SO|5;1|M|56.21,36.34|N|Follow Calydus to the archives, pick up the 'felbound tome'.|QID|40729|
-C The New Blood|QID|40729|QO|2|M|45.93,64.68|N|Jagganoth appears and throws you out of the area, follow Calydus to escape from Dreadscar Rift.|
-T The New Blood|QID|40729|M|55.87,65.36|Z|Dalaran@Dalaran70|N|To Calydus.|
-A The Tome of Blighted Implements|QID|40684|M|55.87,65.36|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|40729|
-C The Tome of Blighted Implements|QID|40684|QO|1|M|55.87,65.36|Z|Dalaran@Dalaran70|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
-T The Tome of Blighted Implements|QID|40684|M|55.87,65.36|Z|Dalaran@Dalaran70|N|To Calydus.|
-A Artifact Specific Quest|QID|43100;40495;42128|M|55.87,65.36|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|40684|
+T The Sixth|QID|40716|M|57.88,59.99|Z|The Underbelly@Dalaran70|N|To Ritssyn Flamescowl.|
+A The New Blood|QID|40729|M|57.88,59.99|Z|The Underbelly@Dalaran70|N|From Ritssyn Flamescowl.|PRE|40716|
+C The New Blood|QID|40729|NC|QO|1|M|58.36,68.06|Z|The Underbelly@Dalaran70|N|Wait a minute or so until the gate is fully formed and then click on the gate to perform the ritual and then wait until you are transported to a solo scenario.|
+C Far From Home|NC|SO|1|Z|DreadscarRift|N|Listen to Ritssyn.|QID|40729|
+C The Dread Warden|SO|2;1|M|33.80,57.27|Z|DreadscarRift|N|Use the extra action button to Enslave the jailer Beshtal thus freeing yourself from his cage, then defeat him with Ritssyn's aid.|QID|40729|
+C Escape the Jailer|SO|2;2|M|34.38,60.16|Z|DreadscarRift|N|Now you fight him.|QID|40729|
+C Jubeka Shadowbreaker freed|SO|3;1|M|24.37,59.97|Z|DreadscarRift|N|On the way up to free Jubeka, stop and talk to the demon Calydus, let him run ahead and he will distract some of the other demons for you.|QID|40729|
+C Zinnin Smythe Freed|SO|3;2|M|38.04,74.70|Z|DreadscarRift|N|Zinnin Smythe Freed|QID|40729|
+C Shinfel Blightsworn freed|SO|3;3|M|42.81,61.87|Z|DreadscarRift|N|Shinfel Blightsworn freed|QID|40729|
+C Meet with Calydus|SO|4;1|M|42.27,40.16|Z|DreadscarRift|N|Follow Calydus, click on the crystals to lower the barrior (after killing the jailers guarding them).|QID|40729|
+C Tome of Blighted Implements|SO|5;1|M|56.21,36.34|Z|DreadscarRift|N|Follow Calydus to the archives, pick up the 'felbound tome'.|QID|40729|
+C The New Blood|QID|40729|QO|2|M|45.93,64.68|Z|DreadscarRift|N|Jagganoth appears and throws you out of the area, follow Calydus to escape from Dreadscar Rift.|
+T The New Blood|QID|40729|M|55.74,65.38|Z|The Underbelly@Dalaran70|N|To Calydus.|
+A The Tome of Blighted Implements|QID|40684|M|55.74,65.38|Z|The Underbelly@Dalaran70|N|From Calydus.|PRE|40729|
+C The Tome of Blighted Implements|QID|40684|QO|1|M|55.87,65.36|Z|The Underbelly@Dalaran70|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
+T The Tome of Blighted Implements|QID|40684|M|55.87,65.36|Z|The Underbelly@Dalaran70|N|To Calydus.|
+A Artifact Specific Quest|QID|43100;40495;42128|M|55.87,65.36|Z|The Underbelly@Dalaran70|N|From Calydus.|PRE|40684|
 
 ;Insert the stuff that happens after you finish first zone here
 
@@ -71,7 +76,7 @@ A Artifact Specific Quest|QID|43100;40495;42128|M|55.87,65.36|Z|Dalaran@Dalaran7
 ;AFFLICTION
 ;A Ulthalesh, the Deadwind Harvester|QID|40495|M|55.70,65.40|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|40684|
 R Chamber of the Guardians|QID|40495|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|ACTIVE|40495|
-C Ulthalesh, the Deadwind Harvester|QID|40495|NC|QO|1|M|28.64,77.37|Z|Aegwynn's Gallery@Dalaran70|N|(Optional) Take the Dalaran portal to Karazhan.|
+C Ulthalesh, the Deadwind Harvester|QID|40495|NC|QO|1|M|32.00,71.71|Z|Aegwynn's Gallery@Dalaran70|N|(Optional) Take the Dalaran portal to Karazhan.|
 C Ulthalesh, the Deadwind Harvester|QID|40495|NC|QO|2|M|77.45,36.06|Z|Duskwood|N|Investigate Manor Mistmantle in Duskwood|
 C Ulthalesh, the Deadwind Harvester|QID|40495|QO|3|M|77.42,36.28|Z|Duskwood|CHAT|N|Any of the chat options will convince him.|
 T Ulthalesh, the Deadwind Harvester|QID|40495|M|77.42,36.28|Z|Duskwood|N|To Revil Kost.|
@@ -102,10 +107,10 @@ C The Dark Riders|QID|40623|NC|QO|2|M|68.62,26.02|Z|KarazhanScenario|N|Pick up U
 T The Dark Riders|QID|40623|M|68.21,27.38|Z|KarazhanScenario|N|To Revil Kost.|
 A The Power Possessed|QID|40712|M|68.21,27.38|Z|KarazhanScenario|N|From Revil Kost.|PRE|40623|
 U Return to Dalaran|QID|40712|M|68.21,27.38|Z|KarazhanScenario|U|140192|N|Use your Dalaran Hearthstone to return. You will find Calydus in the Underbelly.|ACTIVE|40712|
-T The Power Possessed|QID|40712|M|55.85,65.40|N|To Calydus.|
+T The Power Possessed|QID|40712|M|55.85,65.40|Z|The Underbelly@Dalaran70|N|To Calydus.|
 
 ;DEMONOLOGY
-A Ritual Reagents|QID|42128|M|55.82,65.24|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|40684|
+; A Ritual Reagents|QID|42128|M|55.82,65.24|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|40684|
 C Ritual Reagents|QID|42128|NC|QO|1|M|33.87,39.56|Z|Dalaran@Dalaran70|N|Grave Dust is found in the graveyard northeast of The Violet Citadel.|
 C Ritual Reagents|QID|42128|NC|QO|2|M|38.30,25.60|Z|Dalaran@Dalaran70|N|The Oil can be found on the counter in 'Like Clockwork' (engineer's building)|
 C Ritual Reagents|QID|42128|QO|3|M|48.57,38.19|Z|Dalaran@Dalaran70|N|Aged Snowplum Brandy can be found on the bar in Legerdemain Lounge.  The Druken Mage who abandoned it is briefly, quite grumpy with you for swiping it.|
@@ -117,17 +122,17 @@ C Looking into the Darkness|QID|42168|CHAT|QO|2|M|53.73,47.30|Z|Dalaran@Dalaran7
 T Looking into the Darkness|QID|42168|M|54.38,46.81|Z|Dalaran@Dalaran70|N|To Calydus.|
 A Dark Whispers|QID|42125|M|54.38,46.81|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|42168|
 C Dark Whispers|QID|42125|NC|QO|1|M|53.76,47.30|Z|Dalaran@Dalaran70|N|Enter Calydus's Demonic Portal.|
-C Searching the Hold|SO|1|Z|SuramarAcquisition|N|The skull should be within Felsoul Hold. Make your way down the path and search for it.|QID|42125|
-C Defeat the Felborn Overfiend|SO|2;1|M|27.60,64.14|Z|SuramarAcquisition|N|Defeat the Felborn Overfiend.|QID|42125|
-C Mephistroth's Barrier crossed|SO|3;1|M|24.64,62.06|Z|SuramarAcquisition|N|Mephistroth has escaped with the skull. Use your demonic gateway to cross the trap.|QID|42125|
-C Defeat waves of enemies|SO|4;2|M|29.79,60.73|Z|SuramarAcquisition|N|Defeat 3 waves of enemies.|QID|42125|
-C Defeat the leaders of the attackers|SO|4;1|M|30.49,60.94|Z|SuramarAcquisition|N|Defeat the leaders of the attackers.|QID|42125|
-C Interrupted Mephistroth's ritual|SO|5;1|M|30.97,63.13|Z|SuramarAcquisition|N|Clear the way to Mephistroth's ritual and then interrupt it.|QID|42125|
-C Mephistroth Defeated|SO|5;2|M|31.21,65.62|Z|SuramarAcquisition|N|Defeat Mephistroth|QID|42125|
-C Retrieve the skull|SO|6;1|M|31.10,65.92|Z|SuramarAcquisition|N|Retrieve the skull|QID|42125|
-C Dark Whispers|QID|42125|QO|2|M|31.10,65.92|Z|SuramarAcquisition|N|Pick up the Skull of the Man'ari|
-C Portal of Thal'kiel used|SO|7;1|M|31.33,65.88|Z|SuramarAcquisition|N|Portal of Thal'kiel used|QID|42125|
-T Dark Whispers|QID|42125|M|55.66,65.30|Z|Dalaran@Dalaran70|N|To Calydus.|
+C Searching the Hold|SO|1|Z|Suramar|M|27.12,63.43|N|The skull should be within Felsoul Hold. Make your way down the path and search for it.|QID|42125|
+C Defeat the Felborn Overfiend|SO|2;1|M|27.52,64.62|Z|Suramar|N|Defeat the Felborn Overfiend.|QID|42125|
+C Mephistroth's Barrier crossed|SO|3;1|M|28.76,61.90|Z|Suramar|N|Mephistroth has escaped with the skull. Use your demonic gateway to cross the trap.|QID|42125|
+C Defeat waves of enemies|SO|4;2|M|29.79,60.73|Z|Suramar|N|Defeat 3 waves of enemies.|QID|42125|
+C Defeat the leaders of the attackers|SO|4;1|M|30.49,60.94|Z|Suramar|N|Defeat the leaders of the attackers.|QID|42125|
+C Interrupted Mephistroth's ritual|SO|5;1|M|30.97,63.13|Z|Suramar|N|Clear the way to Mephistroth's ritual and then interrupt it.|QID|42125|
+C Mephistroth Defeated|SO|5;2|M|31.21,65.62|Z|Suramar|N|Defeat Mephistroth|QID|42125|
+C Retrieve the skull|SO|6;1|M|31.10,65.92|Z|Suramar|N|Retrieve the skull|QID|42125|
+C Dark Whispers|QID|42125|QO|2|M|31.10,65.92|Z|Suramar|N|Pick up the Skull of the Man'ari|
+C Portal of Thal'kiel used|SO|7;1|M|31.33,65.88|Z|Suramar|N|Portal of Thal'kiel used|QID|42125|
+T Dark Whispers|QID|42125|M|55.66,65.30|Z|The Underbelly@Dalaran70|N|To Calydus, in the Underbelly.|
 
 ;DESTRUCTION
 ;A Finding the Scepter|QID|43100|M|55.87,65.36|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|40684|
@@ -160,16 +165,16 @@ C Ritual Ruination|QID|43254|QO|3|M|59.72,25.71|Z|Broken Shore|N|Slay Allaris Na
 C Ritual Ruination|QID|43254|NC|QO|4|M|60.16,25.41|Z|Broken Shore|N|Take the Scepter of Sargeras.|
 C Ritual Ruination|QID|43254|NC|QO|5|M|60.16,25.41|Z|Broken Shore|N|Click on the Legion Alter to ruin the ritual.|
 C Ritual Ruination|QID|43254|QO|6|M|58.95,26.81|Z|Broken Shore|N|Escape to Dalaran and meet Calydus.|
-T Ritual Ruination|QID|43254|M|55.86,64.99|Z|Dalaran@Dalaran70|N|To Calydus.|
+T Ritual Ruination|QID|43254|M|55.86,64.99|Z|The Underbelly@Dalaran70|N|To Calydus.|
 
 ;Warlock class hall
-A The Heart of the Dreadscar|QID|40731|M|55.86,64.99|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|42125;40712;43254|
-R Into the portal|QID|40731|M|58.95,26.81|Z|Dalaran@Dalaran70|CC|N|Into the portal to enter the solo scenario.|ACTIVE|40731|
-C The Council's Vengeance|SO|1;1|M|56.18,36.02|N|Run forward to find and defeat Jagganoth.|QID|40731|
-C Heart of the Overlord|NC|SO|2;1|M|56.18,36.02|N|Click twice to pick up the Heart of the Overlord.|QID|40731|
-C Heart placed above the altar|SO|3;1|M|64.91,38.46;51.28,46.52;32.25,25.30|CS|N|Run to the alter and place the Heart of the Overlord above it.|QID|40731|
-C Command Jagganoth's armies|NC|SO|3;2|M|32.25,25.30|N|Just wait and this step completes.|QID|40731|
-C The Heart of the Dreadscar|QID|40731|NC|QO|1|M|32.25,25.30|N|Wait, and this step will complete.|
+A The Heart of the Dreadscar|QID|40731|M|55.86,64.99|Z|The Underbelly@Dalaran70|N|From Calydus.|PRE|42125+40712+43254|
+R Into the portal|QID|40731|M|59.07,69.30|Z|The Underbelly@Dalaran70|CC|N|Into the portal to enter the solo scenario.|ACTIVE|40731|
+C The Council's Vengeance|SO|1;1|M|56.18,36.02|Z|DreadscarRift|N|Run forward to find and defeat Jagganoth.|QID|40731|
+C Heart of the Overlord|NC|SO|2;1|M|56.18,36.02|Z|DreadscarRift|N|Click twice to pick up the Heart of the Overlord.|QID|40731|
+C Heart placed above the altar|SO|3;1|M|64.91,38.46;51.28,46.52;32.25,25.30|Z|DreadscarRift|CS|N|Run to the altar and place the Heart of the Overlord above it.|QID|40731|
+C Command Jagganoth's armies|NC|SO|3;2|M|32.25,25.30|Z|DreadscarRift|N|Just wait and this step completes.|QID|40731|
+C The Heart of the Dreadscar|QID|40731|NC|QO|1|M|32.25,25.30|Z|DreadscarRift|N|Wait, and this step will complete.|
 T The Heart of the Dreadscar|QID|40731|M|37.69,31.22|N|To Calydus.|
 A Power Overwhelming|QID|40821|M|37.69,31.22|N|From Calydus.|PRE|40731|
 C Power Overwhelming|QID|40821|NC|QO|1|M|34.54,29.24|N|Click on the Alter to empower Artifact.|

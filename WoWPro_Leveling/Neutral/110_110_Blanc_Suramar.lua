@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-09-28 21:38
+-- Who: Ludovicus
+-- Log: https://github.com/Ludovicus/WoW-Pro-Guides/pull/438/files
+
+-- URL: http://wow-pro.com/node/3687/revisions/27843/view
+-- Date: 2016-09-27 04:43
+-- Who: Blanckaert
+-- Log: Added Honoured opening quest, Blood and wine story line.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27840/view
+-- Date: 2016-09-27 00:44
+-- Who: Blanckaert
+-- Log: Finished off the quest in Felsoul Hold, and added to guide.  Guide mostly complete to just before honoured level.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27839/view
+-- Date: 2016-09-26 17:10
+-- Who: Blanckaert
+-- Log: finished the quests from the city area, no rep for these. Not sure if it progresses the story line
+
+-- URL: http://wow-pro.com/node/3687/revisions/27829/view
 -- Date: 2016-09-20 22:04
 -- Who: Blanckaert
 -- Log: Added some headers, for breaking up the guide (internal notes) and a quest chain I found near the city.
@@ -62,10 +82,6 @@ WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
 WoWPro:GuideSteps(guide, function()
 return [[
-
-;
-;  v0.4.1.200920161552  (My internal number)
-;
 
 ; Want to let user know EACH time they come to the guide that it is incomplete, not sure if this is the right way to make that Note.
 
@@ -348,7 +364,7 @@ A Scouting the Crimson Thicket|QID|42223|M|26.22,31.32|Z|Suramar|N|From Solendra
 A Scouting the Crimson Thicket|QID|42223|M|26.00,31.26|Z|Suramar|
 A Leyline Feed: Falanaar Depths|QID|43593|M|57.77,75.37|Z|Suramar|N|From Hungering Husk.|
 T Leyline Feed: Falanaar Depths|QID|43593|M|57.77,75.37|Z|Suramar|N|To Hungering Husk.|
-A Leyline Feed: Falanaar Arcway|QID|43592|M|66.37,52.44|Z|Suramar|N|From Leyline Spiderling.|
+A Leyline Feed: Falanaar Arcway|QID|43592|M|25.10,44.30|Z|Suramar|N|From Leyline Spiderling.|
 C Leyline Feed: Falanaar Arcway|QID|43592|M|66.09,52.06|Z|Suramar|QO|1|N|343/250 Ancient Mana|
 T Leyline Feed: Falanaar Arcway|QID|43592|M|66.19,52.92|Z|Suramar|N|To Broodmother Shu'malis.|
 A Leyline Apprentice|QID|44492|M|37.01,46.39|Z|Suramar|N|From Arcanist Valtrois.|
@@ -357,8 +373,8 @@ A Scouting the Crimson Thicket|QID|42223|M|49.73,82.18|Z|Suramar|
 A Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|Z|Suramar|N|From Kozak the Afflictor.|
 C Leyline Feed: Halls of the Eclipse|QID|43594|M|29.19,84.73|Z|Suramar|QO|1|N|254/250 Ancient Mana|
 T Leyline Feed: Halls of the Eclipse|QID|43594|M|27.26,86.38|Z|Suramar|N|To Legion Endbringer.|
-A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar|
-T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar|
+A Felsoul Teleporter Online!|QID|41575|M|39.30,76.30|Z|Suramar|
+T Felsoul Teleporter Online!|QID|41575|M|39.30,76.30|Z|Suramar|
 T Scouting the Crimson Thicket|QID|42223|M|61.86,49.11|Z|Suramar|N|To Lilryia Dawnwind.|
 A Turn Around, Nighteyes|QID|40617|M|61.86,49.11|Z|Suramar|N|From Lilryia Dawnwind.|
 C Turn Around, Nighteyes|QID|40617|M|64.48,46.36|Z|Suramar|QO|1|N|1/1 Nighteyes located|
@@ -448,27 +464,219 @@ T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
 ; Quest found after doing all the above... can't find any PRE/Required info
 
 A A Way Back In|QID|40401|M|34.36,56.14|N|From Iadreth.|
-C A Way Back In|QID|40401|M|41.36,60.68|QO|1|N|1/1 Find the smuggler|
+C A Way Back In|QID|40401|M|41.36,60.68|QO|1|N|Find and Chath with Astoril|
 T A Way Back In|QID|40401|M|41.36,60.68|N|To Astoril.|
-A Final Preparations|QID|40469|M|41.36,60.68|N|From Astoril.|
+A Final Preparations|QID|40469|PRE|40401|M|41.36,60.68|N|From Astoril.|
 C Final Preparations|QID|40469|M|42.74,60.01|QO|1|N|Look around for crates of Stashed Supplies|
 A An Artisan's Mark|QID|41123|M|41.54,71.17|N|From Lespin Silverleaf|
 C An Artisan's Mark|QID|41123|M|42.47,64.99|QO|N|1/1Signet Ring|
 T An Artisan's Mark|QID|41123|M|41.54,71.17|N|To Lespin Silverleaf|
-A All That Glitters|QID|41307|M|41.54,71.17|N|From Lespin Silverleaf|
-A Pry It From Their Cold, Feral Claws|QID|41320|M|41.54,71.17|From Lespin Silverleaf|
+A All That Glitters|QID|41307|PRE|41123|M|41.54,71.17|N|From Lespin Silverleaf|
+A Pry It From Their Cold, Feral Claws|QID|41320|PRE|41123|M|41.54,71.17|From Lespin Silverleaf|
 T Final Preparations|QID|40469|M|34.32,56.13|N|To Iadreth.|
-A A Desperate Journey|QID|40424|M|34.32,56.13|N|From Iadreth.|
+A A Desperate Journey|QID|40424|PRE|40469|M|34.32,56.13|N|From Iadreth.|
 C A Desperate Journey|QID|40424|CC|M|35.11,58.95|QO|1|N|Move near lightpost, wait for attack.|
 C A Desperate Journey|QID|40424|CC|M|36.36,60.48|QO|2|N|Move towards cave, wait for attack.|
 C A Desperate Journey|QID|40424|M|37.82,61.68|QO|3|N|1/1 Find Astoril|
 T A Desperate Journey|QID|40424|M|37.82,61.68|N|To Astoril.|
-A Quality of Life|QID|40470|M|37.83,61.60|N|From Iadreth.|
+A Quality of Life|QID|40470|PRE|40424|M|37.83,61.60|N|From Iadreth.|
 C Quality of Life|QID|40470|M|38.29,76.45|QO|1|N|1/1 Follow Iadreth|
-C Quality of Life|QID|40470|M|38.10,76.45|QO|2|N|Kill Astoril, onceHe's Hostile.|
+C Quality of Life|QID|40470|M|38.10,76.45|QO|2|N|Kill Astoril, once He's Hostile.|
 C Quality of Life|QID|40470|M|42.27,79.00|CC|QO|N|After Killing Astoril, use portal behind you. OR Hearth|
 C Quality of Life|QID|40470|M|36.87,46.61|QO|3|N|Chat with Thalyssra|
 T Quality of Life|QID|40470|M|36.87,46.61|N|To First Arcanist Thalyssra.|
+C All That Glitters|QID|41307|M|39.05,83.50|QO|1|N|Loot Arcane Glowlamps off the ground.|
+$ Loot Treasure|QID|43830|M|38.15,87.11|N|Small Treasure Chest|RANK|3|
+C Pry It From Their Cold, Feral Claws|QID|41320|M|40.54,79.66|QO|1|N|Kill Harpies for the Necklaces|
+T All That Glitters|QID|41307|M|41.53,71.22|N|To Lespin Silverleaf.|
+T Pry It From Their Cold, Feral Claws|QID|41320|M|41.53,71.22|N|To Lespin Silverleaf.|
+A Estate Jewelry: A Braggart's Brooch|QID|41465|PRE|41320|M|41.53,71.22|N|From Lespin Silverleaf.|
+A Estate Jewelry: Haute Claw-ture|QID|41466|PRE|41320|M|41.53,71.22|N|From Lespin Silverleaf.|
+C Estate Jewelry: Haute Claw-ture|QID|41466|M|42.48,76.69|N|Chat with Mornath / Fight him.|
+C Estate Jewelry: Haute Claw-ture|QID|41466|M|42.39,76.84|QO|1|N|Open Mornath's Chest|
+C Estate Jewelry: A Braggart's Brooch|QID|41465|M|40.40,57.62|QO|1|N|Chat with Naltethis|
+C Estate Jewelry: A Braggart's Brooch|QID|41465|M|42.21,57.93|QO|2|N|Attack Venlis Swiftsea (He sees you)|
+T Estate Jewelry: A Braggart's Brooch|QID|41465|M|41.53,71.18|N|To Lespin Silverleaf.|
+T Estate Jewelry: Haute Claw-ture|QID|41466|M|41.53,71.18|N|To Lespin Silverleaf.|
+A Elegant Design|QID|41146|PRE|41466|M|41.53,71.18|N|From Lespin Silverleaf.|
+C Elegant Design|QID|41146|M|41.59,59.89|QO|1|N|Chat with Lady Anastae|
+T Elegant Design|QID|41146|M|41.58,59.93|N|To Lady Anastae.|
+A The Master's Legacy|QID|41915|PRE|41146|M|41.58,59.93|N|From Lady Anastae.|
+C The Master's Legacy|QID|41915|M|36.23,60.31;35.28,61.57|CC|QO|1|N|Open Crest, Be Ready Lespin attacks with friends|
+C The Master's Legacy|QID|41915|M|35.62,61.23|QO|2|N|Slay Lespin and Company|
+T The Master's Legacy|QID|41915|M|41.66,71.07|N|To Apprentice Ardrias.|
+; Quests in Felsoul Hold Breaking The Lightbreaker Story Line.
+
+A The Key Is Around Here Somewhere...|QID|41139|M|28.44,82.74|N|From Angus Stormbrew.|
+C The Key Is Around Here Somewhere...|QID|41139|M|28.64,81.29|QO|1|N|Loot Demonwaste Piles for Reinforced Cage Key|
+T The Key Is Around Here Somewhere...|QID|41139|M|28.42,82.65|N|To Angus Stormbrew.|
+A Search and Rescue!|QID|41140|M|28.42,82.65|N|From Angus Stormbrew.|
+C Search and Rescue!|QID|41140|M|28.42,82.65|QO|1|N|Release Angus Stormbrew|
+C Search and Rescue!|QID|41140|M|28.98,84.65|QO|2|N|Enter the Soul Vaults|
+C Search and Rescue!|QID|41140|M|27.19,86.06|QO|3|N|Find Brambley's Cage|
+C Search and Rescue!|QID|41140|M|27.54,88.97|QO|4|N|Felsoul Cage Key (downstairs)|
+C Search and Rescue!|QID|41140|M|27.09,86.06|QO|5|N|Nightfallen Prisoner released|
+T Search and Rescue!|QID|41140|M|27.09,86.06|N|To Selthaes Starsong.|
+A Into The Pit!|QID|41222|M|27.12,86.16|N|From Angus Stormbrew.|
+C Into The Pit!|QID|41222|CS|M|30.51,80.60;33.40,74.96;34.31,74.04|QO|1|N|Escort Angus to Felmaw Cavern|
+T Into The Pit!|QID|41222|M|34.26,73.98|N|To Angus Stormbrew.|
+A Parts Unknown|QID|41214|M|34.26,73.98|N|From Angus Stormbrew.|
+C Parts Unknown|QID|41214|M|34.31,74.04|QO|1|N|Loot Skull, Standing on it.|
+C Parts Unknown|QID|41214|M|35.19,73.81|QO|2|N|1/1 Left Arm|
+C Parts Unknown|QID|41214|M|35.73,72.51|QO|3|N|1/1 Tibia|
+C Parts Unknown|QID|41214|M|37.16,72.35|QO|4|N|1/1 Femur|
+C Parts Unknown|QID|41214|M|36.48,71.28|QO|5|N|1/1 Right Arm|
+C Parts Unknown|QID|41214|M|35.83,70.79|QO|6|N|1/1 Brambley's Dagger|
+T Parts Unknown|QID|41214|M|35.85,70.82|N|To Angus Stormbrew.|
+A Mangelrath|QID|41309|M|35.85,70.82|N|From Angus Stormbrew.|
+C Mangelrath|QID|41309|M|35.39,71.01|QO|1|N|Kill Mangelrath.|
+C Mangelrath|QID|41309|M|35.13,70.73|QO|2|N|Speak with Brambley Morrison|
+C Mangelrath|QID|41309|M|35.46,71.30|QO|3|N|Follow Brambley Morrison, down the fel lava.|
+T Mangelrath|QID|41309|M|35.80,72.44|N|To Brambley Morrison.|
+A A Different Source|QID|40625|M|26.78,70.82|N|From Kyrtos.|
+C A Different Source|QID|40625|M|32.50,66.74|QO|1|N|Kill Abhorrent Artificers in the area for Fel Deconstructor|
+T A Different Source|QID|40625|M|26.78,70.83|N|To Kyrtos.|
+A Discovery Requires Experimentation|QID|40683|PRE|40625|M|26.78,70.83|N|From Kyrtos.|
+A The Road to Fel|QID|40657|M|26.78,70.83|PRE|40625|N|From Kyrtos.|
+R To Lyana Darksorrow|QID|40297|M|30.87,59.17|N|Kill Basilisks on the way, but another quests needs them too.|
+A Lyana Darksorrow|QID|40297|M|30.87,59.17|N|From Lyana Darksorrow.|
+C Lyana Darksorrow|QID|40297|M|30.87,59.17|QO|1|N|Click to destroy Soul Harvester.|
+T Lyana Darksorrow|QID|40297|M|30.87,59.17|N|To Lyana Darksorrow.|
+A Glaive Circumstances|QID|40307|M|30.87,59.17|N|From Lyana Darksorrow.|
+A Fresh Meat|QID|40898|M|30.87,59.17|N|From Lyana Darksorrow.|
+C Discovery Requires Experimentation|QID|40683|M|29.42,66.05;27.91,56.83|S|CN|N|Kill Basilisks|
+C Fresh Meat|QID|40898|M|29.42,66.05;27.91,56.83|S|CN|N|Kill Basilisks|
+C Glaive Circumstances|QID|40307|M|27.17,59.90|QO|2|N|Pick up Lyana's Vengeful Warglaive|
+C The Road to Fel|QID|40657|M|25.61,61.30|QO|1|N|10/10 Fel-Infused Plate|
+C Discovery Requires Experimentation|QID|40683|M|27.41,61.01|QO|1|N|8/8 Felfire Spines|
+C Glaive Circumstances|QID|40307|M|24.64,64.46|QO|1|N|Lyana's Wrathful Warglaive after killing mob.|
+C Fresh Meat|QID|40898|M|28.00,60.80|QO|1|N|6/6 Fresh Fel-Flesh|
+T Fresh Meat|QID|40898|M|30.86,59.17|N|To Lyana Darksorrow.|
+T Glaive Circumstances|QID|40307|M|30.86,59.17|N|To Lyana Darksorrow.|
+A Grimwing the Devourer|QID|40901|PRE|40898|M|30.86,59.17|N|From Lyana Darksorrow.|
+C The Road to Fel|QID|40657|M|25.61,61.30|QO|1|N|10/10 Fel-Infused Plate|
+C Grimwing the Devourer|QID|40901|M|25.32,58.31|QO|1|U|133756|N|Kill Grimwing and Loot head.|
+T Grimwing the Devourer|QID|40901|M|30.00,69.41|N|To Lyana Darksorrow.|
+A A Fate Worse Than Dying|QID|40328|PRE|40901|M|30.00,69.41|N|From Lyana Darksorrow.|
+A Symbols of Power|QID|40929|PRE|40901|M|30.00,69.41|N|From Lyana Darksorrow.|
+T The Road to Fel|QID|40657|M|26.77,70.86|N|To Kyrtos.|
+T Discovery Requires Experimentation|QID|40683|M|26.77,70.86|N|To Kyrtos.|
+A One Small Step for Magic|QID|40694|PRE|40683|M|26.77,70.86|N|From Kyrtos.|
+$ Kyrtos's Research Notes|QID|40694|M|26.86,70.72|N|Loot for treasure|ITEM|140327|
+C One Small Step for Magic|QID|40694|M|26.70,70.93|QO|1|N|Kill mob that spawns.|
+T One Small Step for Magic|QID|40694|M|26.76,70.81|N|To Kyrtos.|
+A The Black Tome|QID|40713|PRE|40694|M|26.76,70.81|N|From Kyrtos.|
+A Fel Bent for Leather|QID|40919|PRE|40694|M|26.76,70.81|N|From Kyrtos.|
+A Power! Get The Power!|QID|40642|PRE|40694|M|26.76,70.81|N|From Kyrtos.|
+C Fel Bent for Leather|QID|40919|M|30.86,70.42|QO|1|U|133925|N|To pull Felbat down, then kill for Hide Scrap.|
+C A Fate Worse Than Dying|QID|40328|M|33.85,66.80|QO|1|N|Free Felsoul Captives in the area.|
+C Power! Get The Power!|QID|40642|M|29.05,59.80;31.99,80.03|S|N|Kill Demons for Fel Essence|
+C Symbols of Power|QID|40929|M|29.05,59.80;31.99,80.03|S|QO|1|N|Kill Demons for Legion Emblem|
+C The Black Tome|QID|40713|M|29.68,82.85|QO|1|N|Kill mob, loot for The Black Tome.|
+C Power! Get The Power!|QID|40642|M|28.81,64.28|US|QO|1|N|8/8 Fel Essence|
+C Symbols of Power|QID|40929|M|28.18,64.37|US|QO|1|N|8/8 Legion Emblem|
+T A Fate Worse Than Dying|QID|40328|M|30.02,69.39|N|To Lyana Darksorrow.|
+T Symbols of Power|QID|40929|M|30.02,69.39|N|To Lyana Darksorrow.|
+A Shard of Vorgos|QID|41097|PRE|40328|M|30.02,69.39|N|From Lyana Darksorrow.|
+A Shard of Kozak|QID|41098|PRE|40328|M|30.02,69.39|N|From Lyana Darksorrow.|
+T The Black Tome|QID|40713|M|26.74,70.80|N|To Kyrtos.|
+T Fel Bent for Leather|QID|40919|M|26.74,70.80|N|To Kyrtos.|
+T Power! Get The Power!|QID|40642|M|26.74,70.80|N|To Kyrtos.|
+A The Bigger They Are, The Harder They Fel|QID|42366|PRE|40642|M|26.74,70.80|
+C The Bigger They Are, The Harder They Fel|QID|42366|M|26.33,71.00|N|Click portal to follow Kyrtos.|
+C The Bigger They Are, The Harder They Fel|QID|42366|M|32.71,74.84|N|Chat with Kyrtos.|
+C The Bigger They Are, The Harder They Fel|QID|42366|M|32.71,74.84|QO|1|N|Kill Kyrtos, then click portal.|
+R Shard of Kozak|QID|41098|M|29.05,84.58;27.71,84.93;26.87,86.28|CC|N|Run down to the SW Corner of the area.|
+C Shard of Kozak|QID|41098|M|26.66,86.09|QO|1|N|1/1 Shard of Kozak|
+R Shard of Vorgos|QID|41097|M|32.75,82.34;35.70,82.23|CC|N|Felsoul Hold, The Arcway|
+R Shard of Vorgos|QID|41097|M|51.20,57.65;50.24,18.33|Z|Suramar/23|CC|N|Run over to the East of the area.|
+C Shard of Vorgos|QID|41097|M|50.24,18.33|Z|Suramar/23|QO|1|N|1/1 Shard of Vorgos|
+R Shard of Kozak|QID|41098|M|32.75,82.34;31.19,84.55|CC|N|Turn in both keys and wait for Lyana Darksorrow.|
+T Shard of Kozak|QID|41098|M|31.19,85.14|N|To Archmage Modera.|
+T Shard of Vorgos|QID|41097|M|30.87,85.00|N|To Archmage Modera.|
+A Azoran Must Die|QID|40412|PRE|41097;41098|M|31.04,85.01|N|From Lyana Darksorrow.|
+C Azoran Must Die|QID|40412|M|32.27,75.68|QO|1|N|Go up any ramp, to come back over top of portal, kill Azoran then return through the portal.|
+T Azoran Must Die|QID|40412|M|31.15,84.61|N|To Lyana Darksorrow.|
+R The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|N|Return to Shal'Aran, Hearth or use Portal in Arcway (If you've activated it.)|
+C The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|QO|2|N|1/1 Report to Thalyssra|
+T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|N|To First Arcanist Thalyssra.|
+
+; This finishes all the quest that I found. EXCEPT the ones for the transportation portal or activating the Ley Lines (I forgot those)
+
+; You should be AT honoured by the time you get here. And be able to move onward.
+
+; Honoured Quests Follow. Blood and Wine storyline.
+
+T Seed of Hope|QID|44561|M|36.83,46.54|N|To Valewalker Farodin.|
+A Moths to a Flame|QID|42828|REP|The Nightfallen;1859;Honored-Exalted|M|36.83,46.54|N|From Valewalker Farodin.|
+A Growing Strong|QID|44562|PRE|44561|M|36.83,46.54|N|From Valewalker Farodin.|
+C Moths to a Flame|QID|42828|M|36.53,46.74|QO|1|N|Click on the Underglow Locusts to Collect them.|
+T Moths to a Flame|QID|42828|M|36.83,46.54|N|To Valewalker Farodin.|
+A Make an Entrance|QID|42829|PRE|42828|M|36.92,46.57|N|From First Arcanist Thalyssra.|
+R Make an Entrance|QID|42829|M|49.54,54.22;50.61,52.42;51.10,52.21|CC|N|Watch out for Sentries.|
+C Make an Entrance|QID|42829|M|51.10,52.21|QO|1|N|Chat with Ly'leth|
+C Make an Entrance|QID|42829|M|53.55,52.12|QO|2|N|Click on Palanquin. Don't worry you wont be seen.|
+C Make an Entrance|QID|42829|M|54.50,52.20|QO|3|N|Chat with Margaux, show sigil|
+T Make an Entrance|QID|42829|M|54.50,52.20|N|To Margaux.|
+A The Fruit of Our Efforts|QID|42832|PRE|42829|M|54.50,52.20|N|From Margaux.|
+C The Fruit of Our Efforts|QID|42832|M|56.01,51.93|QO|1|N|Click on Honeyed Infusion Sample|
+C The Fruit of Our Efforts|QID|42832|M|56.01,51.93|QO|2|N|Click on Supple Nectar Sample|
+C The Fruit of Our Efforts|QID|42832|M|56.01,51.93|QO|3|N|Click on Unctuous Draught Sample|
+T The Fruit of Our Efforts|QID|42832|M|56.01,51.93|N|To Margaux.|
+A How It's Made: Arcwine|QID|42833|M|56.01,51.93|N|From Margaux.|
+C How It's Made: Arcwine|QID|42833|M|55.95,53.45|QO|1|N|Chat with Margaux, at Aging Chamber|
+C How It's Made: Arcwine|QID|42833|M|57.24,54.20|QO|2|N|Chat with Margaux, at Small Orchard|
+C How It's Made: Arcwine|QID|42833|M|58.13,55.59|QO|3|N|Chat with Margaux, at Distribution Center|
+C How It's Made: Arcwine|QID|42833|M|58.25,53.04|QO|4|N|Chat with Margaux, at Infusion Station|
+T How It's Made: Arcwine|QID|42833|M|58.25,53.04|N|To Sylverin.|
+A Intense Concentration|QID|42834|M|58.25,53.04|N|From Sylverin.|
+C Intense Concentration|QID|42834|M|58.21,52.89|QO|1|N|Pick Up an Energy Vessel|
+C Intense Concentration|QID|42834|M|57.89,53.45;57.32,54.09|CC|QO|2|N|Stand in the swirls, to collect the Nightwell Essence|
+C Intense Concentration|QID|42834|M|58.17,52.73|QO|3|N|1/1 Infuse Arcwine|
+C The Old Fashioned Way|QID|42835|M|60.53,56.50|QO|2|N|Silver Jasmine - Brightness, Shadefruit - Sour Note, Water - Little Moisture, Massaging - Jump in the vat, move a little|
+T The Old Fashioned Way|QID|42835|M|60.67,56.51|N|To Margaux.|
+A Balance to Spare|QID|42837|M|60.67,56.51|N|From Margaux.|
+A Silkwing Sabotage|QID|42836|M|61.27,56.04|N|From Sylverin.|
+C Silkwing Sabotage|QID|42836|M|63.40,58.03;63.67,58.29|CC|QO|1|N|Kill Tattered Silkwing|
+C Balance to Spare|QID|42837|M|63.40,58.03;63.67,58.29|CC|QO|1|N|Click on Shadescale Flyeaters to collect.|
+T Balance to Spare|QID|42837|M|61.36,55.15|N|To Sylverin.|
+T Silkwing Sabotage|QID|42836|M|61.36,55.15|N|To Sylverin.|
+A Reversal|QID|42838|M|61.36,55.15|N|From Sylverin. Cut scene as soon as you accept.|
+C Reversal|QID|42838|M|61.36,55.15|QO|1|N|Watch Cut scene as Margaux is executed.|
+T Reversal|QID|42838|M|61.36,55.15|N|To Sylverin.|
+A Vengeance for Margaux|QID|44084|M|61.36,55.15|N|From Sylverin.|
+C Vengeance for Margaux|QID|44084|PRE|42838|M|54.38,52.18;61.36,55.15;63.98,60.42|S|N|Kill Vineyard Enforcer or Wardens|
+C Vengeance for Margaux|QID|44084|M|54.38,52.18;61.36,55.15;63.98,60.42|US|QO|1|N|Kill Vineyard Enforcer or Wardens|
+C Vengeance for Margaux|QID|44084|M|63.98,60.42|QO|2|N|Just run on the portal.|
+T Vengeance for Margaux|QID|44084|M|36.90,46.63|N|To First Arcanist Thalyssra.|
+A Seek the Unsavory|QID|42839|PRE|44084|M|36.90,46.63|N|From First Arcanist Thalyssra.|
+R Seek the Unsavory|QID|42839|M|36.50,44.78|N|Use Portal to The Waning Crescent|
+T Seek the Unsavory|QID|42839|M|48.39,83.31|N|To Vanthir.|
+A Hired Help|QID|43969|PRE|42839|M|48.39,83.31|N|From Vanthir.|
+R Hired Help|QID|43969|CC|M|48.04,81.04;48.08,78.37;49.36,76.42;49.03,74.47;48.56,73.47;48.95,73.45|N|Run to Arluin, Watch out for Sentries|
+C Hired Help|QID|43969|M|48.95,73.45|CHAT|N|Show Arluin your Sigil.|
+C Hired Help|QID|43969|M|48.95,73.45|CHAT|N|Vanthir and I need your help..|
+C Hired Help|QID|43969|M|48.95,73.45|QO|1|N|Arluin Persuaded|
+T Hired Help|QID|43969|M|48.95,73.45|N|To Arluin.|
+A If Words Don't Work...|QID|42840|M|48.95,73.45|N|From Arluin.|
+C If Words Don't Work...|QID|42840|M|48.95,73.45|QO|1|N|Give Arluin 800 Ancient Mana|
+T If Words Don't Work...|QID|42840|M|48.95,73.45|N|To Arluin.|
+A A Big Score|QID|42841|M|48.95,73.45|N|From Arluin.|
+A Asset Security|QID|43352|M|48.95,73.45|N|From Arluin.|
+$ Small Treasuer Chest|QID|43865|M|48.13,73.20|N|Loot for some treasure. use Grapple|USE|138111|
+C Asset Security|QID|43352|M|45.80,75.43|QO|1|N|Grapple to the stash location, No grapple path, run to this point|
+C Asset Security|QID|43352|M|44.90,74.36|QO|2|N|Kill Auditor Yvenne|
+C A Big Score|QID|42841|M|53.43,54.41|QO|1|N|1/1 Thousand-Year Arcwine stolen. Needs being creative. Or Kill the mobs|
+T Asset Security|QID|43352|M|48.95,73.44|N|To Arluin.|
+T A Big Score|QID|42841|M|48.95,73.44|N|To Arluin.|
+A Make Your Mark|QID|42792|PRE|42841|M|48.95,73.44|N|From Arluin.|
+C Make Your Mark|QID|42792|M|49.80,77.68|QO|1|N|Cyrille Recruited|
+C Make Your Mark|QID|42792|M|47.54,77.06|QO|3|N|Sylessa Recruited, beside the Canal.|
+C Make Your Mark|QID|42792|M|47.48,70.60|QO|2|N|Lorin Recruited. Careful, Mobs that see you all around.|
+C Make Your Mark|QID|42792|M|45.98,72.07|QO|4|N|Assassinate Overseer Durant, Help does come.|
+T Make Your Mark|QID|42792|M|48.37,83.33|N|To Vanthir.|
+A And They Will Tremble|QID|44052|PRE|42792|M|48.37,83.33|N|From Vanthir.|
+T And They Will Tremble|QID|44052|M|36.91,46.58|N|To First Arcanist Thalyssra.|
 
 ]]
 

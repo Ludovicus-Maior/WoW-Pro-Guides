@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-09-28 22:12
+-- Who: Ludovicus
+-- Log: Where did that Loot come from?
+
+-- URL: http://wow-pro.com/node/3683/revisions/27822/view
 -- Date: 2016-09-19 22:33
 -- Who: Ludovicus
 -- Log: Someone did a fat-fingered edit!
@@ -107,7 +112,7 @@ N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The
 N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure and rare in the zone.|
 
 ; Greymane's Gambit Leadin
-f The Violet Citadel|QID|39735|M|29.10,46.93|Z|Dalaran@Dalaran70|N|At Sky Admiral Rogers.|
+R The Violet Citadel|QID|39735|M|29.10,46.93|Z|Dalaran@Dalaran70|N|At Sky Admiral Rogers.|
 T Stormheim|QID|39735|M|29.10,46.93|Z|Dalaran@Dalaran70|N|To Sky Admiral Rogers.|
 A A Royal Summons|QID|38035|M|29.10,46.93|Z|Dalaran@Dalaran70|N|From Sky Admiral Rogers.|
 C A Royal Summons|QID|38035|M|28.86,46.63|Z|Dalaran@Dalaran70|QO|1|N|Read the summons from Anduin Wrynn.|U|128687|
@@ -134,7 +139,7 @@ C Greymane's Gambit|QID|39800|M|69.14,74.70|QO|1|N|Greymane's mission complete|
 
 ; The Aftermath
 T Greymane's Gambit|QID|39800|M|33.71,51.02|N|To Sky Admiral Rogers.|
-A Boarded!|QID|38052|M|33.71,51.02|L|138783 1|N|From Sky Admiral Rogers.|
+A Boarded!|QID|38052|M|33.71,51.02|N|From Sky Admiral Rogers.|
 A Supplies From the Skies|QID|38036|M|33.76,50.76|QO|1|N|From Mishka.|
 A Assault and Battery|QID|38053|M|33.61,50.81|QO|1|N|From Tinkmaster Overspark.|
 A See Ya Later, Oscillator|QID|38558|M|33.61,50.81|QO|1|N|From Tinkmaster Overspark.|

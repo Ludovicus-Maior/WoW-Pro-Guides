@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2016-09-28 21:50
+-- Who: Ludovicus
+-- Log: Guardian edits
+
+-- URL: http://wow-pro.com/node/3669/revisions/27827/view
 -- Date: 2016-09-20 03:21
 -- Who: Ludovicus
 -- Log: play-through as resto
@@ -154,11 +159,11 @@ T The Fangs of Ashamane|QID|42430|M|44.49,51.10|N|To Rensar Greathoof.|
 
 ;GUARDIAN
 ;A Mistress of the Claw|QID|41468|M|44.53,51.10|N|From Rensar Greathoof.|PRE|40646|
-T Mistress of the Claw|QID|41468|CS|M|46.62,28.95;39.5,0.07|N|Enter the Barrow Den and follow it's twisty course to find Lea Stonepaw.|
+T Mistress of the Claw|QID|41468|CS|M|46.88,29.22;39.66,0.01|N|Enter the Barrow Den and follow it's twisty course to find Lea Stonepaw.|
 A To The Hills|QID|41782|M|39.50,0.07|N|From Lea Stonepaw.|PRE|41468|
-C To The Hills|QID|41782|NC|QO|1|M|35.71,25.60|N|Click on the flasks at the edge of this moonwell.|
+C To The Hills|QID|41782|NC|QO|1|M|35.71,25.60|N|Click on the flasks at the edge of this moonwell outside the barrow.|
 R Emerald Dreamway|QID|41782|CC|M|55.27,22.93|N|Run to Emerald Dreamway Portal|ACTIVE|41782|
-R Vordrasil|QID|41782|CC|M|32.14,27.66||N|Run to the Vordrassil portal.|ACTIVE|41782|
+R Vordrasil|QID|41782|CC|M|32.14,27.66|Z|EmeraldDreamway|N|Run to the Vordrassil portal.|ACTIVE|41782|
 C To The Hills|QID|41782|NC|CS|QO|3|M|50.31,40.26;51.05,37.03|Z|Grizzly Hills|N|Go down inside Grizzlemaw and take the tunnel to find Lea.|
 T To The Hills|QID|41782|M|51.29,36.81|Z|Grizzly Hills|N|To Lea Stonepaw.|
 A Fallen Offerings|QID|41783|M|51.29,36.81|Z|Grizzly Hills|N|From Lea Stonepaw.|PRE|41782|
@@ -189,8 +194,8 @@ C When Dreams Become Nightmares|QID|40647|QO|3|M|50.19,26.48|Z|UrsocsLairScenari
 T When Dreams Become Nightmares|QID|40647|M|51.24,36.86|Z|Grizzly Hills|N|To Lea Stonepaw.|
 A The Dreamer Returns|QID|41918|M|51.24,36.86|Z|Grizzly Hills|N|From Lea Stonepaw.|PRE|40647|
 C The Dreamer Returns|QID|41918|NC|M|51.24,36.86|Z|Grizzly Hills|N|Use Dreamwalk (Teleport spell) then run thru the portal in front of you.|
-R Dreamgrove Portal|QID|41918|M|45.31,24.43||N|Run through the portal.|CC|ACTIVE|41918|
-T The Dreamer Returns|QID|41918|M|44.52,51.10|N|To Rensar Greathoof.|
+R Dreamgrove Portal|QID|41918|M|45.31,24.43|Z|EmeraldDreamway|N|Run through the portal.|CC|ACTIVE|41918|
+T The Dreamer Returns|QID|41918|M|44.48,51.08|N|To Rensar Greathoof.|
 
 ;RESTORATION
 ; A Meet with Mylune|QID|40649|M|45.57,50.26|N|From Keeper Remulos.|PRE|40646|

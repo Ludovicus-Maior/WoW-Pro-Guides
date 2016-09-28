@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_artifact_and_class_hall
+-- Date: 2016-09-28 22:15
+-- Who: Ludovicus
+-- Log: More Altruis quids.
+
+-- URL: http://wow-pro.com/node/3685/revisions/27765/view
 -- Date: 2016-09-14 09:05
 -- Who: Emmaleah
 -- Log: changed 2 instances of Dalaran to Dalaran@Dalaran70 (C/T 41119)
@@ -68,26 +73,26 @@ T Call of the Illidari|QID|39047;39261|M|74.98,49.02|Z|Dalaran@Dalaran70|N|To Al
 A The Power to Survive|QID|40816;40814|PRE|39047|M|74.98,49.02|Z|Dalaran@Dalaran70|N|From Kayn Sunfury or Altruis the Sufferer.|
 C The Power to Survive|QID|40816;40814|QO|1|M|74.98,49.02|Z|Dalaran@Dalaran70|N|Choose your artifact weapon.|
 T The Power to Survive|QID|40814;40816|M|74.98,49.02|Z|Dalaran@Dalaran70|N|To Altruis the Sufferer or Kayn Sunfury.|
-A Artifact Specific Quest|QID|41120;40247|M|55.87,65.36|Z|Dalaran@Dalaran70|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|40816|
+A Artifact Specific Quest|QID|41120;40819;40247;41803|M|55.87,65.36|Z|Dalaran@Dalaran70|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|40816|
 
 ;Havoc
 ; A Making Arrangements|QID|41120;40819|M|74.98,49.02|Z|Dalaran@Dalaran70|N|From Kayn Sunfury or Altruis the Sufferer.|
 T Making Arrangements|QID|41120|M|65.64,67.26|Z|Dalaran@Dalaran70|N|To Altruis the Sufferer or Kayn Sunfury or.|
-A By Any Means|QID|41121|PRE|41120|M|65.64,67.26|Z|Dalaran@Dalaran70|N|From Kayn Sunfury or Altruis the Sufferer.|
-C By Any Means|QID|41121|QO|1|M|66.08,68.11|Z|Dalaran@Dalaran70|N|1/1 Convince Warden Alturas|
-C By Any Means|QID|41121|QO|2|M|0.00,0.00|Z|Dalaran@Dalaran70|N|1/1 Enter the Violet Hold|
-C By Any Means|QID|41121|QO|3|M|52.13,47.80|Z|The Violet Hold|N|1/1 Taldath interrogated|
-T By Any Means|QID|41121|M|50.29,70.94|Z|The Violet Hold|N|To Altruis the Sufferer or Kayn Sunfury.|
-A The Hunt|QID|41119|PRE|41121|M|50.29,70.94|Z|The Violet Hold|N|From Kayn Sunfury or Altruis the Sufferer.|
-C The Hunt|QID|41119|QO|1|M|75.13,47.54|Z|Dalaran@Dalaran70|N|Fly to Felsoul Hold|
-T The Hunt|QID|41119|M|73.84,46.03|Z|Dalaran@Dalaran70|N|To Kor'vas Bloodthorn.|
+A By Any Means|QID|41121;39051|PRE|41120|M|65.64,67.26|Z|Dalaran@Dalaran70|N|From Kayn Sunfury or Altruis the Sufferer.|
+C By Any Means|QID|41121;39051|QO|1|M|66.08,68.11|Z|Dalaran@Dalaran70|N|1/1 Convince Warden Alturas|
+C By Any Means|QID|41121;39051|QO|2|M|0.00,0.00|Z|Dalaran@Dalaran70|N|1/1 Enter the Violet Hold|
+C By Any Means|QID|41121;39051|QO|3|M|52.13,47.80|Z|The Violet Hold|N|1/1 Taldath interrogated|
+T By Any Means|QID|41121;39051|M|50.29,70.94|Z|The Violet Hold|N|To Altruis the Sufferer or Kayn Sunfury.|
+A The Hunt|QID|41119;39247|PRE|41121|M|50.29,70.94|Z|The Violet Hold|N|From Kayn Sunfury or Altruis the Sufferer.|
+C The Hunt|QID|41119;39247|QO|1|M|75.13,47.54|Z|Dalaran@Dalaran70|N|Fly to Felsoul Hold|
+T The Hunt|QID|41119;39247|M|73.84,46.03|Z|Dalaran@Dalaran70|N|To Kor'vas Bloodthorn.|
 
 ; Vengeance
 ; A Asking a Favor|QID|40247;41803|M|74.98,49.02|Z|Dalaran@Dalaran70|N|From Kayn Sunfury or Altruis the Sufferer.|
 C Asking a Favor|QID|40247;41803|M|28.47,48.31|Z|Dalaran@Dalaran70|N|Ask Khadgar at the Violet Citadel for help.|CHAT|
 T Asking a Favor|QID|40247;41803|M|28.47,48.33|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Ask and You Shall Receive|QID|41804|PRE|40247|M|28.47,48.33|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
-C Crystallized Soul|QID|41804|M|26.54,44.78|N|Follow Khadgar around.|
+C Crystallized Soul|QID|41804|M|26.54,44.78|Z|Dalaran@Dalaran70|N|Follow Khadgar around.|
 T Ask and You Shall Receive|QID|41804|M|28.47,48.33|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Return to Jace|QID|41806|PRE|41804|M|28.47,48.33|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
 T Return to Jace|QID|41806|M|74.44,51.29|Z|Dalaran@Dalaran70|N|To Jace Darkweaver.|
@@ -96,49 +101,49 @@ C Activate the Legion Communicator|QID|41807|M|74.35,51.84|Z|Dalaran@Dalaran70|Q
 C Receive the Souleater's report|QID|41807|QO|2|N|Listen to the blather!|NC|
 T Establishing a Connection|QID|41807|M|74.44,51.29|Z|Dalaran@Dalaran70|N|From Jace Darkweaver.|
 A Vengeance Will Be Ours|QID|40249;41863|PRE|41807|M|75.00,49.03|Z|Dalaran@Dalaran70|N|From Kayn Sunfury or Altruis the Sufferer.|
-C Picking Up the Pieces|QID|40249;4186|Z|Broken Shore|SO|1|N|Free Allari from her chains.|
-C Their Blood Will Flow|QID|40249;4186|Z|Broken Shore|SO|2|N|Cut through the demon hordes and destroy their portals.|
-C A River of Souls|QID|40249;4186|Z|Broken Shore|SO|3|N|Two of Caria's lieutenants are performing a dark ritual. They must be stopped.|
-C Eliminate Doomherald Saera.|QID|40249;4186|M|19.97,61.52|Z|BrokenShorePaladin|SO|3;1|N|Eliminate Doomherald Saera and Taraar.|
-K Gorgonnash.|QID|40249;4186|M|20.42,62.22|Z|BrokenShorePaladin|SO|4;1|N|Destroy Gorgonnash.|
-C Nowhere to Hide|QID|40249;4186|M|21.90,61.05|Z|Broken Shore|SO|5;1|N|Use your demonic senses to pickup Caria's trail. The click on the wall.|
-C Destroy Caria Felsoul.|M|26.44,60.64|Z|BrokenShorePaladin|SO|6;1|N|Destroy Caria Felsoul.|
-C Vengeance Will Be Ours|QID|40249;4186|M|26.75,61.49|Z|BrokenShorePaladin|QO|2|N|Claim the Aldrachi Warblades as your own.|
-C Vengeance Will Be Ours|QID|40249;4186|M|79.13,48.06|Z|Dalaran@Dalaran70|QO|3|N|Hop on the bat to return to Dalaran|
-T Vengeance Will Be Ours|QID|40249;4186|M|73.84,46.05|Z|Dalaran@Dalaran70|N|To Kor'vas Bloodthorn.|
+C Fel Bat Flight|QID|40249;41863|M|75.26,47.63|Z|Dalaran@Dalaran70|QO|1|N|Jump on the Illidari Fel Bat and fly to the Broken Shore.|
+C Picking Up the Pieces|QID|40249;41863|M|15.09,51.78|Z|BrokenShorePaladin|SO|1|N|Free Allari from her chains.|
+C Their Blood Will Flow|QID|40249;41863|M|17.56,57.32|Z|BrokenShorePaladin|SO|2|N|Cut through the demon hordes and destroy their portals.|
+C A River of Souls|QID|40249;41863|M|20.18,61.38|Z|BrokenShorePaladin|SO|3|N|Two of Caria's lieutenants are performing a dark ritual. They must be stopped.|
+K Gorgonnash.|QID|40249;41863|M|20.42,62.22|Z|BrokenShorePaladin|SO|4;1|N|Destroy Gorgonnash.|
+C Nowhere to Hide|QID|40249;41863|M|21.90,61.05|Z|BrokenShorePaladin|SO|5;1|N|Use your demonic senses to pickup Caria's trail. The click on the wall.|
+C Destroy Caria Felsoul.|QID|40249;41863|M|26.44,60.64|Z|BrokenShorePaladin|SO|6;1|N|Destroy Caria Felsoul.|
+C Vengeance Will Be Ours|QID|40249;41863|M|26.75,61.49|Z|BrokenShorePaladin|QO|2|N|Claim the Aldrachi Warblades as your own.|
+C Vengeance Will Be Ours|QID|40249;41863|M|26.13,61.18|Z|BrokenShorePaladin|QO|3|N|Hop on the bat to return to Dalaran|
+T Vengeance Will Be Ours|QID|40249;41863|M|73.84,46.05|Z|Dalaran@Dalaran70|N|To Kor'vas Bloodthorn.|
 
 ; Common Section
-A Eternal Vigil|QID|42869|M|73.84,46.03|Z|Dalaran@Dalaran70|N|From Kor'vas Bloodthorn.|
+A Eternal Vigil|QID|42869|M|73.84,46.03|Z|Dalaran@Dalaran70|N|From Kor'vas Bloodthorn.|PRE|41119+39247+40249+41863|
 C Eternal Vigil|QID|42869|QO|1|M|94.25,63.07|Z|Dalaran@Dalaran70|N|Glide to Illidari Redoubt|
 T Eternal Vigil|QID|42869|M|95.15,66.03|Z|Dalaran@Dalaran70|N|To Jace Darkweaver.|
-A Securing the Way|QID|42872|M|95.15,66.03|Z|Dalaran@Dalaran70|N|From Jace Darkweaver.|
+A Securing the Way|QID|42872|M|95.15,66.03|Z|Dalaran@Dalaran70|N|From Jace Darkweaver.|PRE|42869|
 C Securing the Way|QID|42872|QO|1|M|96.47,66.29|Z|Dalaran@Dalaran70|N|1/1 Have the prisoners' souls removed|
 C Securing the Way|QID|42872|QO|2|M|97.72,68.79|Z|Dalaran@Dalaran70|N|1/1 Rip open a gateway to the Fel Hammer|
 T Securing the Way|QID|42872|M|95.17,66.00|Z|Dalaran@Dalaran70|N|To Jace Darkweaver.|
-A Return to Mardum|QID|41033;41221|M|95.02,66.10|Z|Dalaran@Dalaran70|N|From Matron Mother Malevolence.|
+A Return to Mardum|QID|41033;41221|M|95.02,66.10|Z|Dalaran@Dalaran70|N|From Matron Mother Malevolence.|PRE|42872|
 T Return to Mardum|QID|41033;41221|M|57.63,67.36|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer or Kayn Sunfury.|
 
-A Unbridled Power|QID|41060;41037|M|57.63,67.36|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kayn Sunfury or Altruis the Sufferer.|
+A Unbridled Power|QID|41060;41037|M|57.63,67.36|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41033+41221|
 C Unbridled Power|QID|41060;41037|QO|1|M|58.95,65.97|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|Click on the Fel Hammer|NC|
 T Unbridled Power|QID|41060;41037|M|58.64,57.75|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer or Kayn Sunfury.|
 
-A Spoils of Victory|QID|41070;41062|M|58.64,57.75|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kayn Sunfury or Altruis the Sufferer.|
+A Spoils of Victory|QID|41070;41062|M|58.64,57.75|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41060+41037|
 C Spoils of Victory|QID|41070;41062|QO|1|M|55.88,54.11|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|1/1 Speak to Battlelord Gaardoun|CHAT|
 C Spoils of Victory|QID|41070;41062|QO|2|M|58.82,48.00|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|1/1 Follow Battlelord Gaardoun|NC|
 T Spoils of Victory|QID|41070;41062|M|59.79,45.67|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Battlelord Gaardoun.|
 
-A Cursed Forge of the Nathrezim|QID|41064|M|59.79,45.67|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Battlelord Gaardoun.|
+A Cursed Forge of the Nathrezim|QID|41064|M|59.79,45.67|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Battlelord Gaardoun.|PRE|41070;41062|
 C Cursed Forge of the Nathrezim|QID|41064|QO|1|M|58.48,28.25|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|1/1 Artifact empowered|NC|
 T Cursed Forge of the Nathrezim|QID|41064|M|59.79,45.67|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Battlelord Gaardoun.|
 
-A The Hunter's Gaze|QID|41066|M|59.38,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Allari the Souleater.|
+A The Hunter's Gaze|QID|41066|M|59.38,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Allari the Souleater.|PRE|41064|
 C The Hunter's Gaze|QID|41066|QO|1|M|58.77,54.29|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|Gaze upon the Burning Legion|NC|
 T The Hunter's Gaze|QID|41066|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Allari the Souleater.|
 
-A Time is of the Essence|QID|41096;41067|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Allari the Souleater.|
+A Time is of the Essence|QID|41096;41067|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Allari the Souleater.|PRE|41066|
 T Time is of the Essence|QID|41096;41067|M|58.65,57.95|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer or Kayn Sunfury.|
 
-A Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kayn Sunfury or Altruis the Sufferer.|
+A Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41096+41067|
 T Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer or Kayn Sunfury.|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|

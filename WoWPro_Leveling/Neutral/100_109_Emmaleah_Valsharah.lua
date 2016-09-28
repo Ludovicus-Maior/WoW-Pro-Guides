@@ -4,6 +4,23 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-09-27 08:48
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3665/revisions/27845/view
+-- Date: 2016-09-27 06:34
+-- Who: Emmaleah
+-- Log: Thanks to questchanged addon. I now have the QID for killing Darkshade. Also a few other tweaks. Rank 1 play thru. 9/25/16
+
+-- URL: http://wow-pro.com/node/3665/revisions/27844/view
+-- Date: 2016-09-27 06:20
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3665/revisions/27842/view
+-- Date: 2016-09-27 04:34
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3665/revisions/27821/view
 -- Date: 2016-09-19 22:29
 -- Who: Ludovicus
 -- Log: Some O tags should have been U's by my guess.
@@ -252,9 +269,9 @@ A The Demons Below|QID|38144|M|60.50,17.55|Z|1018/14|N|From Koda Steelclaw.|
 C The Demons Below|QID|38144|M|48.99,69.91|Z|1018/14|S|N|Kill the Darkfiend Intruders.|
 C Out of the Dream|QID|38145|M|48.99,69.91|Z|1018/14|NC|N|Wake up the Druids.|
 C The Demons Below|QID|38144|M|48.99,69.91|Z|1018/14|US|N|Finish your demon quota.|
-T The Demons Below|QID|38144|M|67.53,48.82|Z|1018/14|N|To Koda Steelclaw.|
-T Out of the Dream|QID|38145|M|67.53,48.82|Z|1018/14|N|To Koda Steelclaw.|
-A Entangled Dreams|QID|38147|M|67.53,48.82|Z|1018/14|N|From Koda Steelclaw.|
+T The Demons Below|QID|38144|M|62.53,48.82|Z|1018/14|N|To Koda Steelclaw.|
+T Out of the Dream|QID|38145|M|62.53,48.82|Z|1018/14|N|To Koda Steelclaw.|
+A Entangled Dreams|QID|38147|M|62.53,48.82|Z|1018/14|N|From Koda Steelclaw.|
 C Entangled Dreams|QID|38147|M|59.84,83.58|Z|1018/14|T|Morphael|N|Kill Morphael|
 T Entangled Dreams|QID|38147|M|48.85,81.52|N|To Koda Steelclaw.|
 
@@ -359,6 +376,7 @@ C Kur'talos Ravencrest|QID|38718|M|40.89,53.00|QO|1|NC|N|Click on the banner to 
 T Kur'talos Ravencrest|QID|38718|M|40.74,53.01|N|To Commander Jarod Shadowsong.|
 A Maiev's Trail|QID|38714|M|40.74,53.01|N|From Commander Jarod Shadowsong. If he disappears, run out of the room and back in and he reappears.|
 A The Rooks Guard|QID|38715|M|40.74,53.01|N|From Commander Jarod Shadowsong.|
+R Ravencourt|QID|38715|M|39.06,53.03;38.96,52.44|CS|N|Run out of this chamber and up into the hold courtyard.|RANK|-1|
 U Inscription on tomb|QID|38772|QO|1|M|37.96,52.81|N|Silver - Click on the nameplate to summon Theryssia and put her to rest.|T|Theryssia|RANK|2|
 A Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|N|Auto accepted as you enter this area.|RANK|2|LVL|-109|
 C Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|S|N|Click on the Keldorei Tomes, weapon racks and kill the Black Rook mobs as you go about your other objectives.|RANK|2|
@@ -367,10 +385,10 @@ C Maiev's Trail|QID|38714|M|40.45,51.62|QO|1|NC|N|Click on the girl lying in the
 $ Treasure|QID|38369|M|39.94,54.61|N|Loot for treasure and resources.|RANK|2|
 C The Rook's Guard|QID|38715|M|41.00,56.23|QO|2|N|Continue up the next set of stairs and you can find Kester inside Black Rook Hold.|T|Kester Farseeker|
 C Maiev's Trail|QID|38714|M|40.89,56.34|QO|2|NC|N|Check the pile of scrolls lying here.|
-C Maiev's Trail|QID|38714|M|42.05,51.52|NC|N|Down to the main courtyard and pick up the glaive resting here.|
+C Maiev's Trail|QID|38714|M|42.05,51.52|QO|3|NC|N|Down to the main courtyard and pick up the glaive resting here.|
 C The Rook's Guard|QID|38715|M|42.93,52.00|QO|3|N|Kill Trelan Shieldbreaker.|T|Trelan Shieldbreaker|
-K Kill Darkshade|QID|38714|L|130166|M|43.30,53.88|T|Darkshade|N|Kill and loot for a companion pet.|ITEM|130166|RANK|2|ACH|11262;4|;unable to find related QID
-U Risen Saber Kitten|QID|38714|U|130166|M|43.30,53.88|N|Click the kitten to add to your pet journal.|;unable to find correct QID
+K Kill Darkshade|QID|38767|L|130166|M|43.30,53.88|T|Darkshade|N|Kill and loot for a companion pet.|ITEM|130166|RANK|2|ACH|11262;4|;unable to find related QID
+U Risen Saber Kitten|QID|38767|U|130166|M|43.30,53.88|N|Click the kitten to add to your pet journal.|;unable to find correct QID
 T Maiev's Trail|QID|38714|M|43.82,50.29|N|To Commander Jarod Shadowsong.|
 T The Rook's Guard|QID|38715|M|43.82,50.29|N|To Commander Jarod Shadowsong.|
 A Black Rook Prison|QID|38717|M|43.82,50.29|N|From Commander Jarod Shadowsong.|
@@ -378,7 +396,7 @@ $ Treasure|QID|39084|M|43.22,54.87|N|Slight detour while you are following Comma
 C Black Rook Prison|QID|38717|M|42.22,46.43|N|Kill Araxxas and loot the Prison Keys.|T|Araxxas|
 C Black Rook Hold-Bonus Objective|QID|38716|M|43.35,53.18|US|N|Optional - Complete before you leave the area.|
 t Black Rook Hold-Bonus Objective|QID|38716|M|43.35,53.18|N|Auto turned in when complete.|RANK|2|
-T Black Rook Prison|QID|38717|M|40.56,44.27|N|Go thru the doorway behind Araxxas and down a long winding staircase to find Commander Shadowsong and turn in your quest.|RANK|2|
+T Black Rook Prison|QID|38717|M|40.56,44.27|N|Go thru the doorway behind Araxxas and down a long winding staircase to find Commander Shadowsong and turn in your quest.|
 A Brotherly Love|QID|38724|M|40.56,44.27|N|From Commander Jarod Shadowsong.|
 A Illidari Freedom|QID|38719|M|40.57,44.34|N|From Arduen Soulblade.|
 $ Treasure|QID|39085|M|40.51,44.68|N|In the water right beside where Arduen is lying. Loot for a bit of treasure and resources.|RANK|2|
@@ -494,7 +512,7 @@ A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844
 C The Tears of Elune|QID|40890|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used|
 T The Tears of Elune|QID|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Tears of Elune" on the wall.|
 A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|Auto Accepted from UI.|
-
+A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|Auto Accepted from UI.|
 D On to Class Halls|N|This ends Val'sharah and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Val'sharah and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
 D On to Class Halls|N|This ends Stormheim and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|

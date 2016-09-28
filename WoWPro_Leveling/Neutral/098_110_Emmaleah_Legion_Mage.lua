@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2016-09-28 22:03
+-- Who: Ludovicus
+-- Log:  The Guardian's Library@MageClassShrine
+
+-- URL: http://wow-pro.com/node/3671/revisions/27850/view
+-- Date: 2016-09-28 22:00
+-- Who: Ludovicus
+-- Log: ARCANE playthrough.  Note updated zones, Emmaleah!
+
+-- URL: http://wow-pro.com/node/3671/revisions/27847/view
+-- Date: 2016-09-28 08:03
+-- Who: Emmaleah
+-- Log: correct errors found by guide checker; mostly Z tag mageclasshall s/b mageclassshrine
+
+-- URL: http://wow-pro.com/node/3671/revisions/27677/view
 -- Date: 2016-09-21 07:56
 -- Who: Emmaleah
 -- Log: Changed C In the Blink of an Eye|QO|2| to Dalaran@DeadwindPass
@@ -55,43 +70,43 @@ C Kathra'natir defeated|QID|41036|M|52.11,70.47|Z|TheVioletHoldAcquisition|SO|4;
 C Listen to  Meryl|QID|41036|M|49.47,69.51|Z|TheVioletHoldAcquisition|NC|SO|5;1|N|Listen to Meryl.|
 C The Dreadlord's Prize|QID|41036|M|50.80,47.75|Z|TheVioletHoldAcquisition|QO|2|NC|N|Click on the Forge of the Guardian to recover it.|
 C The Dreadlord's Prize|QID|41036|M|60.17,44.82|QO|3|NC|N|Listen to Meryl for a minute or so.|
-T The Dreadlord's Prize|QID|41036|M|59.08,42.86|Z|MageClassShrine/2|N|To Meryl Felstorm.|
-A A Mage's Weapon|QID|41085|M|59.08,42.86|Z|MageClassShrine/2|N|From Meryl Felstorm.|PRE|41036|
-C A Mage's Weapon|QID|41085|M|61.20,25.85|Z|MageClassShrine/2|N|Click on the book to choose your artifact.|
-T A Mage's Weapon|QID|41085|M|59.08,42.86|Z|MageClassShrine/2|N|To Meryl Felstorm.|
-A Artifact Specific Quest|QID|42001;40267;42452|M|59.08,42.86|Z|MageClassShrine/2|N|From Meryl Felstorm.|PRE|41085|
-R Portal to Dalaran|QID|42001;40267;42452|M|62.57,51.56|Z|MageClassShrine/2|CC|N|How thoughtful, they provided a way out, Use Portal to Dalaran.|
+T The Dreadlord's Prize|QID|41036|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm.|
+A A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|41036|
+C A Mage's Weapon|QID|41085|M|61.20,25.85|Z|The Guardian's Library@MageClassShrine|N|Click on the book to choose your artifact.|
+T A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm.|
+A Artifact Specific Quest|QID|42001;40267;42452|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|41085|
+R Portal to Dalaran|QID|42001;40267;42452|M|62.57,51.56|Z|The Guardian's Library@MageClassShrine|CC|N|How thoughtful, they provided a way out, Use Portal to Dalaran.|
 
-T Growing Power|QID|42175|LVL|101|M|60.4,36|N|To Meryl Felstorm|LVL|101|
+T Growing Power|QID|42175|M|60.4,36|N|To Meryl Felstorm|LVL|101|
 A Rise, Champions|QID|42663|LVL|101|M|60.4,36|N|From Meryl Felstorm|PRE|42175|
 A Champion: Archmage Modera|QID|42685|M|56,39|LVL|101|PRE|42663|N|From/To Archmage Modera.|
 A Champion: Archmage Kalec|QID|42662|M|55.8,38.8|LVL|101|PRE|42663|N|From/To Archmage Kalec.|
 T Rise, Champions|QID|42663|LVL|101|M|60.4,36|N|To Meryl Felstorm.|
 A Technical Wizardry|QID|42703|LVL|101|M|60.4,36|N|From Meryl Felstorm.|
-T Technical Wizardry|QID|42703|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
-A Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
-C Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
-T Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|To Archmage Melis.|
-A Building Our Troops|QID|42127|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
-C Building Our Troops|QID|42127|LVL|101|M|85.8,46.2|Z|MageClassHall/2|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
-T Building Our Troops|QID|42127|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|To Archmage Melis.|
-A Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
-C Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
-t Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|To Archmage Melis.|
-A Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
-C Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
-t Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassHall/2|N|To Archmage Melis.|
+T Technical Wizardry|QID|42703|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
+A Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
+C Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
+T Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
+A Building Our Troops|QID|42127|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
+C Building Our Troops|QID|42127|LVL|101|M|85.8,46.2|Z|MageClassShrine/2|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
+T Building Our Troops|QID|42127|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
+A Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
+C Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
+t Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
+A Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
+C Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
+t Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
 A Ancient Magic|QID|42433|M|82.4,55.6|N|From Archmage Vargoth.|LVL|101|
 C Ancient Magic|QID|42433|M|82.4,55.6|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|
 t Ancient Magic|QID|42433|M|80.8,61.8|N|To Archmage Melis.|
 
-A Recruiting Apprentices|QID|44098|LVL|103|M|80.8,61.8|Z|MageClassHall/2|N|From Archmage Melis.|
-C Recruiting Apprentices|QID|44098|LVL|103|M|48,33.4|Z|MageClassHall/2|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
-T Recruiting Apprentices|QID|44098|LVL|103|M|48,33.4|Z|MageClassHall/2|N|To Grand Conjurer Mimic.|
+A Recruiting Apprentices|QID|44098|LVL|103|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
+C Recruiting Apprentices|QID|44098|LVL|103|M|48,33.4|Z|MageClassShrine/2|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
+T Recruiting Apprentices|QID|44098|LVL|103|M|48,33.4|Z|MageClassShrine/2|N|To Grand Conjurer Mimic.|
 
 A An Unexpected Visitor|QID|42418|M|80.8,61.8|N|From Archmage Melis.|PRE|42433|LVL|103|
-T An Unexpected Visitor|QID|42418|M|60.8,59.4|Z|MageClassHall/2|N|To Ravandwyr.|
-A A Covert Operation|QID|42434|M|60.8,59.4|Z|MageClassHall/2|N|From Ravandwyr.|PRE|42418|
+T An Unexpected Visitor|QID|42418|M|60.8,59.4|Z|MageClassShrine/2|N|To Ravandwyr.|
+A A Covert Operation|QID|42434|M|60.8,59.4|Z|MageClassShrine/2|N|From Ravandwyr.|PRE|42418|
 C A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
 T A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|To Ravandwyr.|
 A Prepare to Be Assimilated|QID|42435|M|64.9,37.8|Z|Azsuna|N|From Ravandwyr.|PRE|42434|
@@ -122,10 +137,10 @@ C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|2|N|Loot Missive from Chest.|
 T Final Exit|QID|42171|M|66,32.4|Z|Azsuna|N|To Ravamdwyr.|
 A Empyrean Society Report|QID|42222|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42171|
 C Empyrean Society Report|QID|42222|M|66,32.4|Z|Azsuna|N|Use Teleport: Hall of the Guardian.|
-T Empyrean Society Report|QID|42222|M|71,55.4|Z|MageClassShrine/2|N|To Archmage Khadgar.|
+T Empyrean Society Report|QID|42222|M|71,55.4|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Khadgar.|
 A Champion: Esara Varrinde|QID|42706|N|From/To Esara Varrinde.|PRE|42222|
-A Champion: Ravandwyr|QID|42705|M|70.6,55.4|Z|MageClassShrine/2|N|From/To Ravamdwyr.|PRE|42222|
-A The Council Is In Session|QID|42416|M|71,55.4|Z|MageClassShrine/2|N|From Archmage Khadgar.|PRE|42222|
+A Champion: Ravandwyr|QID|42705|M|70.6,55.4|Z|Hall of the Guardian@MageClassShrine|N|From/To Ravamdwyr.|PRE|42222|
+A The Council Is In Session|QID|42416|M|71,55.4|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Khadgar.|PRE|42222|
 T The Council Is In Session|QID|42416|M|28.8,49.2|Z|Dalaran@Dalaran70|N|To Archmage Ansirem Runeweaver located in the Violet Citadel.|
 A Archamge Vargoth's Retreat|QID|42423|M|28.8,49.2|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|PRE|42416|
 C Archamge Vargoth's Retreat|QID|42423|M|21.3,53.2|Z|Dalaran@Dalaran70|QO|3|N|Take the portal to enter Vargoth's quarters.|
@@ -162,20 +177,20 @@ C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|3|N|Find Archmage
 C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|4|N|Slay Lady Kyranith.|
 T Impending Dooooooom!|QID|42493|M|41.81,60.31|Z|Suramar/24|N|To Image of Kalec.|
 A A Terrible Loss|QID|42520|M|41.81,60.31|Z|Suramar/24|N|From Image of Kalec.|PRE|42493|
-$ Treasure Chest|QID|99999|M|38.65,43.42|Suramar/24|N|Loot Protected Treasure|
+$ Treasure Chest|QID|99999|M|38.65,43.42|Z|Suramar/24|N|Loot Protected Treasure|
 T A Terrible Loss|QID|42520|M|70.89,55.31|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar.|
 A A Magical Affliction|QID|42707|M|73.41,56.15|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42520|
 A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
 C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian@MageClassShrine/1|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
-t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian@MageClassShrine/2|N|To Archamge Khadgar|
+t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian@MageClassShrine|N|To Archamge Khadgar|
 A Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|From Archmage Khadgar.|PRE|42940|
 R Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|Talk to Khadgar to start the scenario.|ACTIVE|42734|
 t Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|To Archmage Khadgar.|
 A Champion: Meryl Felstorm|QID|42914|M|71.4,61.8|N|From/To Meryl Felstorm|LVL|110|PRE|42734|
 
-A Small Favor|QID|42954|M|37.8,49.8|Z|MageClassHall/2|N|From Archmage Khadgar.|LVL|110|
-T Small Favor|QID|42954|M|37.8,49.8|Z|MageClassHall/2|N|To Ari.|
-A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|MageClassHall/2|N|From Ari.|PRE|42954|
+A Small Favor|QID|42954|M|37.8,49.8|Z|MageClassShrine/2|N|From Archmage Khadgar.|LVL|110|
+T Small Favor|QID|42954|M|37.8,49.8|Z|MageClassShrine/2|N|To Ari.|
+A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|MageClassShrine/2|N|From Ari.|PRE|42954|
 C The Proper Way of Things|QID|42955|M|46.11,73.75|Z|Suramar|U|138965|N|Collect Phials of Nightwell Energy.|
 T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian@MageClassShrine|N|To Ari.|
 A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian@MageClassShrine|N|From Ari.|PRE|42955|
@@ -187,24 +202,24 @@ A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@MageClassShri
 C An Unclear Path|QID|44466|M|45.35,34.15|Z|Val'sharah|N|Witness Illidan's Resilience.|
 T An Unclear Path|QID|44466|M|83.40,32.72|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart {Xe'ra}|
 A Ravencrest's Legacy|QID|44479|M|83.40,32.72|Z|Hall of the Guardian@MageClassShrine|N|From Light's Heart {Xe'ra}|PRE|44466|
-F Ravencrest's Legacy|QID|44479|M|66.87,45.53|Experience Ravencrest's Legacy|N|Fly to Bradensbrook, or use your Teleportation Nexus: Val'sharah|
+F Ravencrest's Legacy|QID|44479|M|66.87,45.53|N|Experience Ravencrest's Legacy|N|Fly to Bradensbrook, or use your Teleportation Nexus: Val'sharah|
 R Ravencrest's Legacy|QID|44479|M|41.79,46.84|Z|Val'sharah|N|Upper level, of Ravencourt, Right side after you cross bridge.|
-C Surrounded by Darkness|QID|44479|Z|Darkpens|SO|1|N|Report to Kur'talos Ravencrest.|
-C Preparing for the Apocalypse|QID|44479|M|0.00,0.00|Z|Darkpens|SO|2;1|N|Repair the Deactivated Moon Guard Portal.|
+C Surrounded by Darkness|QID|44479|Z|BlackRookHoldScenario|SO|1|N|Report to Kur'talos Ravencrest.|
+C Preparing for the Apocalypse|QID|44479|M|0.00,0.00|Z|BlackRookHoldScenario|SO|2;1|N|Repair the Deactivated Moon Guard Portal.|
 C The Road to Fel|QID|44479|M|44.28,49.40|Z|BlackRookHoldScenario|SO|3;1|N|Secure the rampart by defeating Xalian Felblaze.|
 C Behold, the Endless March|Z|Black Rook Hold|QID|44479|SO|4|US|N|Enter the upper ramparts of the courtyard.|
 C No Man an Island|QID|44479|M|43.54,51.40|Z|BlackRookHoldScenario|SO|5;1|N|Activate the remaining Moon Guard portals.|
 C True Sacrifice|Z|Black Rook Hold|QID|44479|SO|6|N|Destroy the Nihilam Portal and slay Balaadur to end the invasion.|
 C When Good Men Do Nothing|QID|44479|M|42.31,48.84|Z|BlackRookHoldScenario|SO|7;1|N|Enter Raven's Glory and destroy the Colossal Siegebreaker.|
 C Ravencrest's Legacy|QID|44479|M|42.31,48.84|Z|BlackRookHoldScenario|QO|1|N|Experience Ravencrest's Legacy|
-C A Personal Touch|QID|40562|QO|2|Experience Ravencrest's Legacy|N|Port back to your Hall.|
+C A Personal Touch|QID|40562|QO|2|N|Port back to your Hall.|
 T Ravencrest's Legacy|QID|44479|M|83.63,33.20|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart {Xe'ra}.|
 
 ;these need put in proper place
 A Orange is the New Purple|QID|44240|LVL|110|M|45.4,57.2|N|From Jackson Watkins.|
 A Champion: Millhouse Manastorm|QID|42702|LVL|110|M|56.2,57.8|N|From/To Millhouse Manastorm.|
 A Champion: Archmage Vargoth|QID|42917|LVL|110|M|70.2,60.4|N|From/To Archmage Vargoth.|
-A Champion: Arcane Destroyer|QID|42704|LVL|110|M|38.4,48.4|Z|MageClassHall/2|N|From/To Arcane Destroyer.|
+A Champion: Arcane Destroyer|QID|42704|LVL|110|M|38.4,48.4|Z|MageClassShrine/2|N|From/To Arcane Destroyer.|
 
 ; if you pick the talent for Arcane Armements you get this one....
 A Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian@MageClassShrine/1|N|From Minuette.|
@@ -223,8 +238,8 @@ A Artifact Specific Quest|QID|42001;40267;42452|M|60.4,36|N|From Meryl Felstorm.
 
 ;ARCANE
 ;A Aluneth, Greatstaff of the Magna|QID|42001|M|59.16,42.16|N|From Meryl Felstorm.|PRE|41085|
-T Aluneth, Greatstaff of the Magna|QID|42001|M|28.69,49.94|N|To Archmage Kalec.|
-A A New Threat|QID|42006|M|28.69,49.94|N|From Archmage Kalec.|PRE|42001|
+T Aluneth, Greatstaff of the Magna|QID|42001|M|28.69,49.94|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
+A A New Threat|QID|42006|M|28.69,49.94|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|42001|
 R Chamber of the Guardians|QID|42006|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|ACTIVE|42006|
 C A New Threat|QID|42006|M|31.22,83.42|Z|Aegwynn's Gallery@Dalaran70|QO|1|N|Optional - Use the Dalaran Portal to Wrymrest Temple.|
 C A New Threat|QID|42006|M|55.74,63.89|Z|Dragonblight|QO|2|N|Travel to the Azure Dragonshrine|
@@ -255,13 +270,13 @@ C Find a way into the vault|QID|42011|M|27.68,39.77|Z|The Nexus|SO|2;2|N|Find a 
 C Echo of Aluneth defeated|QID|42011|M|21.91,35.83|Z|The Nexus|SO|3;1|N|Echo of Aluneth defeated|
 C Reach the Rift|QID|42011|M|30.95,21.91|Z|The Nexus|SO|4;1|N|Reach the Rift|
 C The Nexus Vault|QID|42011|M|58.57,17.63|Z|The Nexus|QO|1|N|Kill Nexus-Prince Bilaal.|T|Nexus-Prince Bilaal|
-C Place the Second Scroll of Meitre|QID|42011|M|0.00,0.00|SO|6;2|N|Step into the pink domes, avoiding the arcane orbs as much as possible and use your extra action button to place the Second Scroll of Meitre.|;no coordinates in this room
-C Place the Third Scroll of Meitre|QID|42011|M|0.00,0.00|SO|6;3|N|Place the Third Scroll of Meitre.|;no coordinates in this room
-C Place the First Scroll of Meitre|QID|42011|M|0.00,0.00|SO|6;1|N|Place the First Scroll of Meitre.|;no coordinates in this room
-C The Nexus Vault|QID|42011|M|0.00,0.00|QO|2|N|Pick up Aluneth, dispite the tone of the speech, it doesn't fight you.|; no coordinates in this room
+C Place the Second Scroll of Meitre|QID|42011|M|0.00,0.00|Z|The Nexus|SO|6;2|N|Step into the pink domes, avoiding the arcane orbs as much as possible and use your extra action button to place the Second Scroll of Meitre.|;no coordinates in this room
+C Place the Third Scroll of Meitre|QID|42011|M|0.00,0.00|Z|The Nexus|SO|6;3|N|Place the Third Scroll of Meitre.|;no coordinates in this room
+C Place the First Scroll of Meitre|QID|42011|M|0.00,0.00|Z|The Nexus|SO|6;1|N|Place the First Scroll of Meitre.|;no coordinates in this room
+C The Nexus Vault|QID|42011|M|0.00,0.00|Z|The Nexus|QO|2|N|Pick up Aluneth, dispite the tone of the speech, it doesn't fight you.|; no coordinates in this room
 C Leave the Nexus Vault|QID|42011|M|60.01,20.01|Z|The Nexus|SO|7;2|N|Use the portal Azuregos left for you to leave the Nexus Vault|; no coordinates in this room
 R Portal to Dalaran|QID|42011|M|59.20,20.44|Z|The Nexus|CC|N|Azuregos has made you a portal to Dalaran.|ACTIVE|42011|
-T The Nexus Vault|QID|42011|M|28.58,49.86|N|To Archmage Kalec who can be found in the Violet Citadel.|
+T The Nexus Vault|QID|42011|M|28.58,49.86|Z|Dalaran@Dalaran70|N|To Archmage Kalec who can be found in the Violet Citadel.|
 
 ;FIRE
 ;A An Unexpected Message|QID|40267|M|58.12,41.11|N|From Meryl Felstorm.|PRE|41085|
@@ -326,23 +341,23 @@ T The Mage Hunter|QID|42479|M|56.57,33.95|N|To Meryl Felstorm.|
 ;Mage Class Hall
 A The Champion's Return|QID|41114|N|From UI Alert.|
 C The Champion's Return|QID|41114|NC|N|Teleport to the Hall of the Guardian|
-T The Champion's Return|QID|41114|M|56.46,33.87|Z|MageClassShrine/2|N|To Meryl Felstorm, in the library upstairs.|
-A Unlocked Potential|QID|41125|M|56.46,33.87|Z|MageClassShrine/2|N|From Meryl Felstorm.|
-C Unlocked Potential|QID|41125|M|59.38,42.79|Z|MageClassShrine/2|NC|N|Use the Forge to empower your Artifact.|
-T Unlocked Potential|QID|41125|M|56.63,33.82|Z|MageClassShrine/2|N|To Meryl Felstorm.|
-A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|MageClassShrine/2|N|From Meryl Felstorm.|PRE|42125|
-C The Great Akazamzarak|QID|41112|M|57.35,90.48|Z|MageClassShrine/1|QO|1|NC|N|(Optional) Portal to Dalaran Taken|
+T The Champion's Return|QID|41114|M|56.46,33.87|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm, in the library upstairs.|
+A Unlocked Potential|QID|41125|M|56.46,33.87|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|
+C Unlocked Potential|QID|41125|M|59.38,42.79|Z|The Guardian's Library@MageClassShrine|NC|N|Use the Forge to empower your Artifact.|
+T Unlocked Potential|QID|41125|M|56.63,33.82|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm.|
+A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|42125|
+C The Great Akazamzarak|QID|41112|M|57.35,90.48|Z|Hall of the Guardian@MageClassShrine|QO|1|NC|N|(Optional) Portal to Dalaran Taken|
 C The Great Akazamzarak|QID|41112|M|48.41,63.32|Z|Dalaran@Dalaran70|QO|2|NC|N|You can find him by the statue in front of the south bank, click on his bucket to bribe him.|
 T The Great Akazamzarak|QID|41112|M|48.50,63.41|Z|Dalaran@Dalaran70|N|To The Great Akazamzarak.|
 A The Only Way to Travel|QID|41113|M|48.50,63.41|Z|Dalaran@Dalaran70|N|From The Great Akazamzarak.|PRE|41112|
-T The Only Way to Travel|QID|41113|M|56.63,33.82|Z|MageClassShrine/2|N|Take the portal he created and then turn in to Meryl Felstorm.|
-A The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|MageClassShrine/2|N|From Meryl Felstorm.|PRE|41113|
-C The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|MageClassShrine/2|NC|N|Watch and listen, eventually you will receive your new title.|
-T The Tirisgarde Reborn|QID|41124|M|82.61,60.26|Z|MageClassShrine/1|N|To The Great Akazamzarak, on the first floor.|
-A A Conjuror's Duty|QID|41141|M|81.54,60.35|Z|MageClassShrine/1|N|From The Great Akazamzarak.|PRE|41124|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|81.61,60.26|Z|MageClassShrine/1|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
-T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|MageClassShrine/1|N|To The Great Akazamzarak.|
-C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|57.37,90.31|Z|MageClassShrine/1|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
+T The Only Way to Travel|QID|41113|M|56.63,33.82|Z|The Guardian's Library@MageClassShrine|N|Take the portal he created and then turn in to Meryl Felstorm.|
+A The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|41113|
+C The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|The Guardian's Library@MageClassShrine|NC|N|Watch and listen, eventually you will receive your new title.|
+T The Tirisgarde Reborn|QID|41124|M|82.61,60.26|Z|Hall of the Guardian@MageClassShrine|N|To The Great Akazamzarak, on the first floor.|
+A A Conjuror's Duty|QID|41141|M|81.54,60.35|Z|Hall of the Guardian@MageClassShrine|N|From The Great Akazamzarak.|PRE|41124|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|81.61,60.26|Z|Hall of the Guardian@MageClassShrine|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
+T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|Hall of the Guardian@MageClassShrine|N|To The Great Akazamzarak.|
+C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|57.37,90.31|Z|Hall of the Guardian@MageClassShrine|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
