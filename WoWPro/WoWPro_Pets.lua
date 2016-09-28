@@ -84,6 +84,8 @@ function WoWPro.PetMeetsLimits(petID, limits)
         local min_speed = tonumber(string.sub(limits, 3, -1))
         return speed > min_speed
     end
+    WoWPro:dbp("PetMeetsLimits: Unknown limit: %s", limits)
+    return true
 end
 
 function WoWPro.GetPetByNameOrID(name, id, limits)
@@ -143,7 +145,6 @@ function WoWPro.GetLevelingPet(limits)
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
         -- companionID=36871, Source="Promotion...",
         local petID, speciesID, isOwned, customName, level, favorite, isRevoked, speciesName, icon, petType, companionID, tooltip, description, isWild, canBattle, isTradeable, isUnique, obtainable = C_PetJournal.GetPetInfoByIndex(i);
-        idTable, levelTable = C_PetJournal.GetPetAbilityList(speciesID)
         local ok = false
         if isOwned and canBattle and level < 25 then
             if limits then
@@ -176,9 +177,13 @@ function WoWPro.GetLevelingPet(limits)
             end
         end
     end
-    pids = {}
-    pids[petID_worst] = {speciesName_worst, companionID_worst}
-    return pids
+    if petID_worst then
+        pids = {}
+        pids[petID_worst] = {speciesName_worst, companionID_worst}
+        return pids
+    else
+        return nil
+    end
 end
 
 function WoWPro.GetPetByAbilities(abilities, limits)
