@@ -348,8 +348,8 @@ A Scouting the Crimson Thicket|QID|42223|M|26.22,31.32|Z|Suramar|N|From Solendra
 A Scouting the Crimson Thicket|QID|42223|M|26.00,31.26|Z|Suramar|
 A Leyline Feed: Falanaar Depths|QID|43593|M|57.77,75.37|Z|Suramar|N|From Hungering Husk.|
 T Leyline Feed: Falanaar Depths|QID|43593|M|57.77,75.37|Z|Suramar|N|To Hungering Husk.|
-A Leyline Feed: Falanaar Arcway|QID|43592|M|66.37,52.44|Z|Suramar|N|From Leyline Spiderling.|
-C Leyline Feed: Falanaar Arcway|QID|43592|M|66.09,52.06|Z|Suramar|QO|1|N|343/250 Ancient Mana|
+A Leyline Feed: Falanaar Arcway|QID|43592|M|25.10,44.30|Z|Suramar|N|From Leyline Spiderling.|
+C Leyline Feed: Falanaar Arcway|QID|43592|M|25.10,44.30|Z|Suramar|QO|1|N|343/250 Ancient Mana|
 T Leyline Feed: Falanaar Arcway|QID|43592|M|66.19,52.92|Z|Suramar|N|To Broodmother Shu'malis.|
 A Leyline Apprentice|QID|44492|M|37.01,46.39|Z|Suramar|N|From Arcanist Valtrois.|
 T Leyline Apprentice|QID|44492|M|37.01,46.39|Z|Suramar|N|To Arcanist Valtrois.|
