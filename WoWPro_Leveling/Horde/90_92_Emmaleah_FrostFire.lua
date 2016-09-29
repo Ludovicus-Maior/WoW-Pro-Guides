@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2016-09-29 00:03
+-- Who: tubera
+-- Log: Remove S tag from unsticky of Enfilade
+
+-- URL: http://wow-pro.com/node/3587/revisions/27604/view
 -- Date: 2016-08-27 15:29
 -- Who: tubera
 -- Log: Tweak Thunder pass for the auto-accept of quest items. (Coil of rope)
@@ -244,11 +249,6 @@
 -- Date: 2014-09-01 23:29
 -- Who: Ludovicus
 -- Log: Add the Lumberyard
-
--- URL: http://wow-pro.com/node/3587/revisions/26649/view
--- Date: 2014-08-30 22:47
--- Who: Emmaleah
--- Log: fix a typo
 
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,91, 92, 90.7)
@@ -696,7 +696,7 @@ T Stealing the Declaration|QID|36475|M|61.26,71.18|P|Inscription;773|N|To Nichol
 U Learn Inscription skill|QID|33918|U|111923|M|61.2,71.2|P|Inscription;773|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Scribe's Quarters Blueprints|QID|33918|U|111815|M|61.2,71.2|P|Inscription;773|N|After you learn check this step off manually.|
 
-C Enfilade|QID|32994|M|61.38,71.71|S|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|RANK|2|US|
+C Enfilade|QID|32994|M|61.38,71.71|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|RANK|2|US|
 C Karg Unchained|QID|33785|M|63.77,68.17|N|Finish killing the orcs.|RANK|2|US
 
 T Karg Unchained|QID|33785|M|63.21,60.07|N|To Karg Bloodfury.|RANK|2|
