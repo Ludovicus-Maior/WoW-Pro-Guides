@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2016-09-29 17:39
+-- Who: Ludovicus
+-- Log: Add missing trailing |
+
+-- URL: http://wow-pro.com/node/3670/revisions/27766/view
 -- Date: 2016-09-14 09:12
 -- Who: Emmaleah
 -- Log: C In The Blink of an Eye changed to Dalaran@DeadwindPass (was Dalaran@Dalaran70)
@@ -54,7 +59,7 @@ T Weapons of Legend|QID|40618|M|59.97,53.39|Z|Dalaran@Dalaran70|N|To Emmarel Sha
 A Artifact specific quest|QID|41540;41541;41542|M|60.01,53.44|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|40618|
 
 ;Insert the stuff that happens after you finish first zone here
-A Pledge of Loyalty|QID|44090|M|40.02,30.16|Z|Dalaran@Dalaran70|N|From Snowfeather. This is a breadcrumb quest to remind you to go to your class hall, if you are already there... skip it.|LEAD|42519|LVL|101
+A Pledge of Loyalty|QID|44090|M|40.02,30.16|Z|Dalaran@Dalaran70|N|From Snowfeather. This is a breadcrumb quest to remind you to go to your class hall, if you are already there... skip it.|LEAD|42519|LVL|101|
 
 ;insert order hall progression quests here
 A Continuing the Legend|QID|44043|M|43.37,26.30|N|From Emmarel Shadewarden.|PRE|40959|LVL|101|
