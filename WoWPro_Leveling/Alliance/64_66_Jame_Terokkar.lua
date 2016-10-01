@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2016-10-01 03:43
+-- Who: tubera
+-- Log: Fix QO/Zone (1st part)
+
+-- URL: http://wow-pro.com/node/3277/revisions/27165/view
 -- Date: 2015-03-09 17:38
 -- Who: Ludovicus
 -- Log: Missing N value.
@@ -135,14 +140,14 @@ T A'dal|Z|Shattrath City|QID|10210|M|54.0,44.8|N|To A'dal.|
 A City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|From Khadgar.|
 C City of Light |N|Follow the npc until you get the quest completion.|QID|10211|M|54.8,44.3|Z|Shattrath City|
 T City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|To Kadgar.|
-N At this point you will have to choose either Aldor or Scryers.|N|Right click the box to continue.|Z|Shattrath City|
-N Allegiance to the ...|QID|10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43.98|
+N At this point you will have to choose either Aldor or Scryers.|N|Right click the box to continue.|Z|Shattrath City|QID|10553;10554
+N Allegiance to the ...|QID|10553;10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43.98|
 
 A Ishanah |Z|Shattrath City|QID|10554|M|54.8,44.3|N|From Khadgar.|REP|Aldor;932|
 T Ishanah |QID|10554||N|To Ishanah. You must take the elevator up to this area.|Z|Shattrath City|M|24.0,29.7|REP|Aldor;932|
 A Restoring the Light|Z|Shattrath City|QID|10021|M|24.0,29.7|N|From Ishanah.|REP|Aldor;932|
 h Shattrath City|QID|9957|Z|Shattrath City|N|Make Shattrath City (Aldor Rise) your home location.|M|28.00,49.00|REP|Aldor;932|
-r Sell junk, Repair, restock, train skills|QID|9957|N|Sell junk, Repair, restock, train skills.|M|27.92,47.45|REP|Aldor;932|
+r Sell junk, Repair, restock, train skills|QID|9957|N|Sell junk, Repair, restock, train skills.|M|27.92,47.45|REP|Aldor;932|Z|Shattrath City|
 
 A Voren'thal the Seer|Z|Shattrath City|QID|10553|M|54.8,44.3|N|From Khadgar.|REP|Scryers;934|
 T Voren'thal the Seer|Z|Shattrath City|N|You must take the elevator up to this area.|QID|10553|M|43.5,91.8|REP|Scryers;934|
@@ -159,14 +164,14 @@ C Rather Be Fishin'|N|Kill eels until you finish this quest.|QID|10037|M|38.00,1
 T What's Wrong at Cenarion Thicket? |QID|9957|M|44.3,26.3|N|To Earthbinder Tavgren.|
 A Clues in the Thicket |QID|9971|M|44.3,26.3|N|From Earthbinder Tavgren.|
 A Strange Energy |QID|9968|M|44.3,26.3|N|From Earthbinder Tavgren.|
-l Vicious Teromoth Sample|QID|9968|S|N|Kill Vicious Teromoths to get 4 Vicious Teromoth Samples.|L|24279 4|M|44.00,20.00|
+l Vicious Teromoth Sample|QID|9968|S|N|Kill Vicious Teromoths to get 4 Vicious Teromoth Samples.|QO|2|M|44.00,20.00|
 A It's Watching You!|QID|9951|M|45.0,22.5|N|From Warden Treelos.|
 C Clues in the Thicket|N|Examine the Strange Object here.|QID|9971|M|45.10,21.80|
 C It's Watching You!|N|Kill Naphthal'ar at the top of the tower.|QID|9951|M|43.50,22.00|
 T It's Watching You!|QID|9951|M|45.0,22.5|N|To Warden Treelos.|
-l Vicious Teromoth Sample|QID|9968|US|N|Kill Vicious Teromoths to get 4 Vicious Teromoth Samples.|L|24279 4|M|44.00,20.00|
+l Vicious Teromoth Sample|QID|9968|US|N|Kill Vicious Teromoths to get 4 Vicious Teromoth Samples.|QO|2|M|44.00,20.00|
 T Clues in the Thicket|QID|9971|M|44.3,26.3|N|To Earthbinder Tavgren.|
-C Strange Energy|N|Kill teromoths until you get the items for this quest.|QID|9968|M|44.00,28.00|
+C Strange Energy|N|Kill teromoths until you get the items for this quest.|QID|9968|M|44.00,28.00|QO|1|
 T Strange Energy|QID|9968|M|44.3,26.3|N|To Earthbinder Tavgren.|
 A By Any Means Necessary|QID|9978|M|44.3,26.3|N|From Earthbinder Tavgren.|
 T By Any Means Necessary|QID|9978|M|47.1,27.0|N|Find Empoor on the road between Shattrath City and Tuurem. Talk to him and then fight him to low health. Turn this quest in right after this.|
@@ -187,13 +192,13 @@ f Allerian Stronghold|QID|10021|N|Get the flight path.|M|59.45,55.40|
 N From now on... |QID|10016|N|From now on, kill Timber Worgs, Timber Alphas, Warp Stalkers, and look for Olemba Seeds on the ground.|
 C Thin the Flock|N|Kill mobs for this quest.|QID|10869|S|
 C The Outcast's Plight |N|Kill Arakkoa to get their feathers.|QID|10917|S|
-l Eye of Veil Shienor|QID|10847|N|Loot the Eye of Veil Shienor in the tree here. Enter the tree at 59.75,25.25|L|25642|M|57.90,23.15|
-K Ayit|QID|9986|N|Kill Ayit.|M|59.40,23.40|QO|Ayit slain: 1/1|
-N Eastern Altar|QID|10021|N|Right-click the Eastern Altar here.|M|49.20,20.30|QO|Eastern Altar: 1/1|REP|Aldor;932|
-K Ashkaz|QID|9986|N|Kill Ashkaz in the trees here.|M|49.00,17.00|QO|Ashkaz slain: 1/1|
-C The Eyes of Skettis|N|Loot the Eye of Veil Reskk here.|QID|10847|M|50.15,19.40|
-N Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|Northern Altar: 1/1|REP|Aldor;932|
-C Restoring the Light|N|Right-click the Altar here to complete the quest.|QID|10021|M|48.10,14.50|REP|Aldor;932|
+l Eye of Veil Shienor|QID|10847|N|Loot the Eye of Veil Shienor in the tree here. Enter the tree at 59.75,25.25|QO|2|M|57.90,23.15|
+K Ayit|QID|9986|N|Kill Ayit.|M|59.40,23.40|QO|2|
+C Eastern Altar|QID|10021|N|Right-click the Eastern Altar here.|M|49.20,20.30|QO|2|REP|Aldor;932|NC
+K Ashkaz|QID|9986|N|Kill Ashkaz in the trees here.|M|49.00,17.00|QO|1|
+C The Eyes of Skettis|N|Loot the Eye of Veil Reskk here.|QID|10847|M|50.15,19.40|QO|1|
+C Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|1|REP|Aldor;932|NC
+C Restoring the Light|N|Right-click the Altar here to complete the quest.|QID|10021|M|48.10,14.50|REP|Aldor;932|QO|3|NC
 C Thin the Flock|N|Kill mobs until you finish this quest.|QID|10869|US|
 C The Outcast's Plight|N|Kill Arakkoa to get their feathers.|QID|10917|US|
 
@@ -214,10 +219,10 @@ R Terokkar Forest|QID|10038|Z|Shattrath City|N|Exit the city to Terokkar.|M|86.3
 T Speak with Private Weeks|QID|10038|M|40.5,36.2|N|To Private Weeks.|
 A Who Are They?|QID|10040|M|40.5,36.2|N|From Private Weeks.|
 N Do not fight anything for now|QID|10040|N|Do not fight anything while disguised or you will lose it.|
-N Shadowy Laborer|N|Talk to the Shadowy Laborer in the town (wandering). Watch out for the Hunters since they can detect the disguise.|QID|10040|M|40.3,39.1|S|QO|Shadowy Laborer Spoken To: 1/1|
-N Shadowy Initiate|QID|10040|N|Talk to the Shadowy Initiate in the town. Watch out for the Hunters since they can detect the disguise.|M|39.05,39.70|QO|Shadowy Initiate Spoken To: 1/1|
-C Who Are They?|QID|10040|N|Talk to the Shadowy Advisor in the building. Watch out for the Hunters since they can detect the disguise.|M|40.30,39.00|
-N Shadowy Laborer|N|Talk to the Shadowy Laborer in the town (wandering). Watch out for the Hunters since they can detect the disguise.|QID|10040|M|40.3,39.1|US|QO|Shadowy Laborer Spoken To: 1/1|
+N Shadowy Laborer|N|Talk to the Shadowy Laborer in the town (wandering). Watch out for the Hunters since they can detect the disguise.|QID|10040|M|40.3,39.1|S|QO|2|
+N Shadowy Initiate|QID|10040|N|Talk to the Shadowy Initiate in the town. Watch out for the Hunters since they can detect the disguise.|M|39.05,39.70|QO|1|
+C Who Are They?|QID|10040|N|Talk to the Shadowy Advisor in the building. Watch out for the Hunters since they can detect the disguise.|M|40.30,39.00|QO|3|
+N Shadowy Laborer|N|Talk to the Shadowy Laborer in the town (wandering). Watch out for the Hunters since they can detect the disguise.|QID|10040|M|40.3,39.1|US|QO|2|
 T Who Are They?|QID|10040|M|40.5,36.2|N|To Private Weeks.|
 A Kill the Shadow Council!|QID|10042|M|40.5,36.2|N|From Private Weeks.|
 C Kill the Shadow Council!|N|Kill all the mobs needed for this quest. Shadowmaster Grieve is at the arrow.|QID|10042|M|40.00,38.00|
@@ -228,7 +233,7 @@ A The Infested Protectors|QID|10896|M|37.9,51.7|N|From Lakotae.|
 A Before Darkness Falls|QID|10878|M|37.4,51.2|N|From Mekeda. He tends to wander around.|
 C Missing Friends |N|Kill bird mobs and get Prison Keys. Use the keys on the cages until you finish this quest.|QID|10852|M|32.3,41.7|S|
 C A Personal Favor |N|Kill bird mobs until you finish this quest.|QID|10112|M|32.3,41.7|S|
-C Veil Skith: Darkstone of Terokk |N|Use the Rod of Purification here.|QID|10839|M|30.80,42.00|
+C Veil Skith: Darkstone of Terokk |N|Use the Rod of Purification here.|QID|10839|M|30.80,42.00|U|31610
 C Stymying the Arakkoa|N|Kill Urdak in the trees.|QID|9986|M|31.00,43.00|
 C Missing Friends |N|Kill bird mobs and get Prison Keys. Use the keys on the cages until you finish this quest.|QID|10852|M|32.3,41.7|US|
 C A Personal Favor |N|Kill bird mobs until you finish this quest.|QID|10112|M|32.3,41.7|US|
