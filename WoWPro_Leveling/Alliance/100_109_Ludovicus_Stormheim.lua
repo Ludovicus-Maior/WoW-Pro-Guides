@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-10-02 02:29
+-- Who: tubera
+-- Log: Remove QO without objective from C Singed Feathers
+
+-- URL: http://wow-pro.com/node/3683/revisions/27852/view
 -- Date: 2016-09-28 22:12
 -- Who: Ludovicus
 -- Log: Where did that Loot come from?
@@ -323,11 +328,11 @@ A Plight of the Blackfeather|QID|42444|M|50.32,34.00|N|From Frightened Ravenbear
 T Plight of the Blackfeather|QID|42444|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
 A Singed Feathers|QID|42446|M|49.79,32.63|N|From Cukkaw.|RANK|2|
 A Nithogg's Tribute|QID|42445|M|49.97,32.65|N|From Intact Greatstag Antler.|RANK|2|
-C Singed Feathers|QID|42446|M|49.68,29.95|QO|S|N|Kill Rampaging Squallhunters.|RANK|2|
+C Singed Feathers|QID|42446|M|49.68,29.95|S|N|Kill Rampaging Squallhunters.|RANK|2|
 C Nithogg's Tribute|QID|42445|M|50.32,33.21|S|N|Kill (and loot) Greatstags and Eagles in this area.|RANK|2|
 K Kill Starbuck|QID|42437|M|54.70,29.21|QO|1|ITEM|130132|T|Starbuck|N|Kill and loot for a bit of treasure and resources.|RANK|2|
 C Nithogg's Tribute|QID|42445|M|50.32,33.21|US|N|Finish collecting feathers and antlers.|RANK|2|
-C Singed Feathers|QID|42446|M|49.68,29.95|QO|US|N|Finish killing Rampaging Squallhunters.|RANK|2|
+C Singed Feathers|QID|42446|M|49.68,29.95|US|N|Finish killing Rampaging Squallhunters.|RANK|2|
 T Singed Feathers|QID|42446|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
 T Nithogg's Tribute|QID|42445|M|49.79,32.64|N|To Cukkaw.|RANK|2|
 A Dances With Ravenbears|QID|42447|M|49.79,32.64|N|From Cukkaw.|RANK|2|
