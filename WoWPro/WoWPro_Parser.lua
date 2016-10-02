@@ -226,6 +226,7 @@ DefineTag("SO","sobjective","string",validate_list_of_ints,nil)
 DefineTag("U","use","number",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
+DefineTag("NA","noauto","boolean",nil,nil)
 DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("LVL","level","number",nil,nil)
 DefineTag("T","target","string",nil,nil)
@@ -278,10 +279,14 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 
     -- Handle comment lines specially
-    if string.sub(text,1,1) == ";" then
-        WoWPro.action[i] = string.sub(atext,1,1)
-        WoWPro.step[i] = string.sub(atext,2)
-        WoWPro.step[i] = WoWPro.step[i]:trim()
+    if WoWPro.DebugLevel > 0 then
+        if string.sub(text,1,1) == ";" then
+            WoWPro.action[i] = string.sub(atext,1,1)
+            WoWPro.step[i] = string.sub(atext,2)
+            WoWPro.step[i] = WoWPro.step[i]:trim()
+            return
+        end
+    else
         return
     end
 
@@ -494,7 +499,9 @@ function WoWPro.RecordStuff(i)
 
     if not recordQIDs then return end
     
-	
+	if WoWPro.noauto[i] then
+	    return
+	end
 
     if WoWPro.action[i] == "!" and NPCs then
         -- NPC triggered QID
