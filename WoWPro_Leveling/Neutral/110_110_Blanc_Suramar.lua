@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-03 18:16
+-- Who: elidion
+-- Log: Fixed the errors that would pop up on load of the guide, a few typos, added more detail on some notes, added some |S| tags where appropriate on some quests and shuffled a few quests around in a more appropriate manner. 
+
+-- URL: http://wow-pro.com/node/3687/revisions/27861/view
+-- Date: 2016-10-02 14:35
+-- Who: Blanckaert
+-- Log: added a quest group, forgot to add in previous edit.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27860/view
+-- Date: 2016-10-02 14:31
+-- Who: Blanckaert
+-- Log: moved a quest group to change flow since you'd go to that area from another quest giver.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27848/view
 -- Date: 2016-09-28 21:38
 -- Who: Ludovicus
 -- Log: https://github.com/Ludovicus/WoW-Pro-Guides/pull/438/files
@@ -194,8 +209,8 @@ C Turtle Powered|QID|40368|M|37.11,38.20|Z|Suramar|QO|1|N|7/7 Shimmering Snapper
 T Turtle Powered|QID|40368|M|43.39,41.69|Z|Suramar|N|To Morhun Rivertamer.|
 A Something in the Water|QID|40348|M|43.39,41.69|Z|Suramar|N|From Morhun Rivertamer.|
 A Purge the Unclean|QID|40370|M|43.39,41.69|Z|Suramar|N|From Morhun Rivertamer.|
-C Something in the Water|QID|40348|M|46.72,37.71|Z|Suramar|QO|1|N|12/12 Mana-corrupted Waterspawn slain|
-C Purge the Unclean|QID|40370|M|47.04,36.73|Z|Suramar|QO|1|U|131760|N|1/1 Cleanse the Corruption|
+C Something in the Water|QID|40348|M|46.72,37.71|Z|Suramar|N|Kill 12 Mana-corrupted Waterspawn|S|
+C Purge the Unclean|QID|40370|M|47.04,36.73|Z|Suramar|U|131760|N|Damage the Azurefall Guardian and then use the Focus|
 T Something in the Water|QID|40348|M|43.41,41.68|Z|Suramar|N|To Morhun Rivertamer.|
 T Purge the Unclean|QID|40370|M|43.41,41.68|Z|Suramar|N|To Morhun Rivertamer.|
 A The Lost Advisor|QID|40266|M|45.59,40.75|Z|Suramar|N|From Thaedris Feathersong.|
@@ -207,8 +222,8 @@ T Feeding Shal'Aran|QID|41138|M|36.97,46.21|Z|Suramar|N|To Arcanist Valtrois.|
 ; Tidying Tel'Anor Side Story Line, ACtivation of Tel'anor Teleporter
 
 A An Ancient Recipe|QID|40744|M|36.43,46.40|Z|Suramar|
-C The Lost Advisor|QID|40266|M|44.04,39.40|Z|Suramar|QO|1|N|8/8 Gather Cliffthorn|
-C An Ancient Recipe|QID|40744|M|46.12,39.50|Z|Suramar|QO|1|N|6/6 Harpy Talon|
+C The Lost Advisor|QID|40266|M|44.04,39.40|Z|Suramar|N|8/8 Gather Cliffthorn|
+C An Ancient Recipe|QID|40744|M|46.12,39.50|Z|Suramar|N|6/6 Harpy Talon|S|
 T The Lost Advisor|QID|40266|M|49.15,43.83|Z|Suramar|N|To Thaedris Feathersong.|
 T An Ancient Recipe|QID|40744|M|49.15,43.83|Z|Suramar|N|To Thaedris Feathersong.|
 A Bad Intentions|QID|40227|M|49.15,43.83|Z|Suramar|N|From Thaedris Feathersong.|
@@ -217,15 +232,15 @@ T Bad Intentions|QID|40227|M|49.15,43.83|Z|Suramar|N|To Thaedris Feathersong.|
 A Tools of the Trade|QID|40300|M|49.15,43.83|Z|Suramar|N|From Thaedris Feathersong.|
 C Tools of the Trade|QID|40300|M|50.05,39.00|Z|Suramar|QO|1|N|1/1 Sacred Oil|
 A Fragments of Memory|QID|40308|M|49.09,34.35|Z|Suramar|N|From Feral Scavenger.|
-C Tools of the Trade|QID|40300|M|52.50,31.39|Z|Suramar|QO|3|N|1/1 Chest of Shrouds|
-C Fragments of Memory|QID|40308|M|51.96,29.95|Z|Suramar|QO|1|N|15/15 Tel'anor Memento|
 C Tools of the Trade|QID|40300|M|47.79,34.45|Z|Suramar|QO|2|N|1/1 Preserving Incense|
+C Fragments of Memory|QID|40308|M|51.96,29.95|Z|Suramar|QO|1|N|15/15 Tel'anor Memento|S|
+C Tools of the Trade|QID|40300|M|52.50,31.39|Z|Suramar|QO|3|N|1/1 Chest of Shrouds|
 T Fragments of Memory|QID|40308|M|47.33,33.48|Z|Suramar|N|To Thaedris Feathersong.|
 T Tools of the Trade|QID|40300|M|47.33,33.48|Z|Suramar|N|To Thaedris Feathersong.|
 A The Last Chapter|QID|40306|M|47.33,33.48|Z|Suramar|N|From Thaedris Feathersong.|
 A Paying Respects|QID|40578|M|47.33,33.48|Z|Suramar|N|From Thaedris Feathersong. Not all Spectres will give credit.|
+C Paying Respects|QID|40578|M|45.22,34.96|Z|Suramar|QO|1|N|8/8 Disturbed ghosts slain|S|
 C The Last Chapter|QID|40306|M|44.08,32.29|Z|Suramar|QO|1|N|1/1 Encyclopedia Botanica. Upstairs on table|
-C Paying Respects|QID|40578|M|45.22,34.96|Z|Suramar|QO|1|N|8/8 Disturbed ghosts slain|
 T The Last Chapter|QID|40306|M|45.07,30.89|Z|Suramar|N|To Thaedris Feathersong.|
 T Paying Respects|QID|40578|M|45.07,30.89|Z|Suramar|N|To Thaedris Feathersong.|
 A End of the Line|QID|40315|M|45.07,30.89|Z|Suramar|N|From Thaedris Feathersong.|
@@ -235,7 +250,7 @@ A The Final Ingredient|QID|40319|M|45.07,30.89|Z|Suramar|N|From Thaedris Feather
 C The Final Ingredient|QID|40319|M|47.85,29.56|Z|Suramar|QO|1|N|1/1 Retrieve Latara's bow|
 T The Final Ingredient|QID|40319|M|45.09,30.92|Z|Suramar|N|To Thaedris Feathersong.|
 A Feathersong's Redemption|QID|40321|M|45.09,30.92|Z|Suramar|N|From Thaedris Feathersong.|
-C Feathersong's Redemption|QID|40321|M|44.69,22.91|Z|Suramar|QO|1|U|130260|N|1/1 Cliffclutch Matriarch slain|
+C Feathersong's Redemption|QID|40321|M|44.69,22.91|Z|Suramar|QO|1|U|130260|N|Throw vial at Cliffclutch Matriarch to weaken and kill her|
 T Feathersong's Redemption|QID|40321|M|44.98,23.84|Z|Suramar|N|To Thaedris Feathersong.|
 A Tel'anor'eporter Online!|QID|43809|M|42.02,35.25|Z|Suramar|N|From UI?|
 T Tel'anor'eporter Online!|QID|43809|M|42.02,35.25|Z|Suramar|N|To UI?|
@@ -469,10 +484,10 @@ T A Way Back In|QID|40401|M|41.36,60.68|N|To Astoril.|
 A Final Preparations|QID|40469|PRE|40401|M|41.36,60.68|N|From Astoril.|
 C Final Preparations|QID|40469|M|42.74,60.01|QO|1|N|Look around for crates of Stashed Supplies|
 A An Artisan's Mark|QID|41123|M|41.54,71.17|N|From Lespin Silverleaf|
-C An Artisan's Mark|QID|41123|M|42.47,64.99|QO|N|1/1Signet Ring|
+C An Artisan's Mark|QID|41123|M|42.47,64.99|N|1/1 Signet Ring|
 T An Artisan's Mark|QID|41123|M|41.54,71.17|N|To Lespin Silverleaf|
 A All That Glitters|QID|41307|PRE|41123|M|41.54,71.17|N|From Lespin Silverleaf|
-A Pry It From Their Cold, Feral Claws|QID|41320|PRE|41123|M|41.54,71.17|From Lespin Silverleaf|
+A Pry It From Their Cold, Feral Claws|QID|41320|PRE|41123|M|41.54,71.17|N|From Lespin Silverleaf|
 T Final Preparations|QID|40469|M|34.32,56.13|N|To Iadreth.|
 A A Desperate Journey|QID|40424|PRE|40469|M|34.32,56.13|N|From Iadreth.|
 C A Desperate Journey|QID|40424|CC|M|35.11,58.95|QO|1|N|Move near lightpost, wait for attack.|
@@ -482,8 +497,8 @@ T A Desperate Journey|QID|40424|M|37.82,61.68|N|To Astoril.|
 A Quality of Life|QID|40470|PRE|40424|M|37.83,61.60|N|From Iadreth.|
 C Quality of Life|QID|40470|M|38.29,76.45|QO|1|N|1/1 Follow Iadreth|
 C Quality of Life|QID|40470|M|38.10,76.45|QO|2|N|Kill Astoril, once He's Hostile.|
-C Quality of Life|QID|40470|M|42.27,79.00|CC|QO|N|After Killing Astoril, use portal behind you. OR Hearth|
-C Quality of Life|QID|40470|M|36.87,46.61|QO|3|N|Chat with Thalyssra|
+C Quality of Life|QID|40470|M|42.27,79.00|CC|QO|3|N|After Killing Astoril, use portal behind you. OR Hearth|
+C Quality of Life|QID|40470|M|36.87,46.61|QO|4|N|Chat with Thalyssra|
 T Quality of Life|QID|40470|M|36.87,46.61|N|To First Arcanist Thalyssra.|
 C All That Glitters|QID|41307|M|39.05,83.50|QO|1|N|Loot Arcane Glowlamps off the ground.|
 $ Loot Treasure|QID|43830|M|38.15,87.11|N|Small Treasure Chest|RANK|3|
@@ -507,32 +522,6 @@ C The Master's Legacy|QID|41915|M|35.62,61.23|QO|2|N|Slay Lespin and Company|
 T The Master's Legacy|QID|41915|M|41.66,71.07|N|To Apprentice Ardrias.|
 ; Quests in Felsoul Hold Breaking The Lightbreaker Story Line.
 
-A The Key Is Around Here Somewhere...|QID|41139|M|28.44,82.74|N|From Angus Stormbrew.|
-C The Key Is Around Here Somewhere...|QID|41139|M|28.64,81.29|QO|1|N|Loot Demonwaste Piles for Reinforced Cage Key|
-T The Key Is Around Here Somewhere...|QID|41139|M|28.42,82.65|N|To Angus Stormbrew.|
-A Search and Rescue!|QID|41140|M|28.42,82.65|N|From Angus Stormbrew.|
-C Search and Rescue!|QID|41140|M|28.42,82.65|QO|1|N|Release Angus Stormbrew|
-C Search and Rescue!|QID|41140|M|28.98,84.65|QO|2|N|Enter the Soul Vaults|
-C Search and Rescue!|QID|41140|M|27.19,86.06|QO|3|N|Find Brambley's Cage|
-C Search and Rescue!|QID|41140|M|27.54,88.97|QO|4|N|Felsoul Cage Key (downstairs)|
-C Search and Rescue!|QID|41140|M|27.09,86.06|QO|5|N|Nightfallen Prisoner released|
-T Search and Rescue!|QID|41140|M|27.09,86.06|N|To Selthaes Starsong.|
-A Into The Pit!|QID|41222|M|27.12,86.16|N|From Angus Stormbrew.|
-C Into The Pit!|QID|41222|CS|M|30.51,80.60;33.40,74.96;34.31,74.04|QO|1|N|Escort Angus to Felmaw Cavern|
-T Into The Pit!|QID|41222|M|34.26,73.98|N|To Angus Stormbrew.|
-A Parts Unknown|QID|41214|M|34.26,73.98|N|From Angus Stormbrew.|
-C Parts Unknown|QID|41214|M|34.31,74.04|QO|1|N|Loot Skull, Standing on it.|
-C Parts Unknown|QID|41214|M|35.19,73.81|QO|2|N|1/1 Left Arm|
-C Parts Unknown|QID|41214|M|35.73,72.51|QO|3|N|1/1 Tibia|
-C Parts Unknown|QID|41214|M|37.16,72.35|QO|4|N|1/1 Femur|
-C Parts Unknown|QID|41214|M|36.48,71.28|QO|5|N|1/1 Right Arm|
-C Parts Unknown|QID|41214|M|35.83,70.79|QO|6|N|1/1 Brambley's Dagger|
-T Parts Unknown|QID|41214|M|35.85,70.82|N|To Angus Stormbrew.|
-A Mangelrath|QID|41309|M|35.85,70.82|N|From Angus Stormbrew.|
-C Mangelrath|QID|41309|M|35.39,71.01|QO|1|N|Kill Mangelrath.|
-C Mangelrath|QID|41309|M|35.13,70.73|QO|2|N|Speak with Brambley Morrison|
-C Mangelrath|QID|41309|M|35.46,71.30|QO|3|N|Follow Brambley Morrison, down the fel lava.|
-T Mangelrath|QID|41309|M|35.80,72.44|N|To Brambley Morrison.|
 A A Different Source|QID|40625|M|26.78,70.82|N|From Kyrtos.|
 C A Different Source|QID|40625|M|32.50,66.74|QO|1|N|Kill Abhorrent Artificers in the area for Fel Deconstructor|
 T A Different Source|QID|40625|M|26.78,70.83|N|To Kyrtos.|
@@ -570,8 +559,8 @@ A Fel Bent for Leather|QID|40919|PRE|40694|M|26.76,70.81|N|From Kyrtos.|
 A Power! Get The Power!|QID|40642|PRE|40694|M|26.76,70.81|N|From Kyrtos.|
 C Fel Bent for Leather|QID|40919|M|30.86,70.42|QO|1|U|133925|N|To pull Felbat down, then kill for Hide Scrap.|
 C A Fate Worse Than Dying|QID|40328|M|33.85,66.80|QO|1|N|Free Felsoul Captives in the area.|
-C Power! Get The Power!|QID|40642|M|29.05,59.80;31.99,80.03|S|N|Kill Demons for Fel Essence|
-C Symbols of Power|QID|40929|M|29.05,59.80;31.99,80.03|S|QO|1|N|Kill Demons for Legion Emblem|
+C Power! Get The Power!|QID|40642|M|29.05,59.80;31.99,80.03|S|CC|N|Kill Demons for Fel Essence|
+C Symbols of Power|QID|40929|M|29.05,59.80;31.99,80.03|S|QO|1|CC|N|Kill Demons for Legion Emblem|
 C The Black Tome|QID|40713|M|29.68,82.85|QO|1|N|Kill mob, loot for The Black Tome.|
 C Power! Get The Power!|QID|40642|M|28.81,64.28|US|QO|1|N|8/8 Fel Essence|
 C Symbols of Power|QID|40929|M|28.18,64.37|US|QO|1|N|8/8 Legion Emblem|
@@ -586,7 +575,33 @@ A The Bigger They Are, The Harder They Fel|QID|42366|PRE|40642|M|26.74,70.80|
 C The Bigger They Are, The Harder They Fel|QID|42366|M|26.33,71.00|N|Click portal to follow Kyrtos.|
 C The Bigger They Are, The Harder They Fel|QID|42366|M|32.71,74.84|N|Chat with Kyrtos.|
 C The Bigger They Are, The Harder They Fel|QID|42366|M|32.71,74.84|QO|1|N|Kill Kyrtos, then click portal.|
-R Shard of Kozak|QID|41098|M|29.05,84.58;27.71,84.93;26.87,86.28|CC|N|Run down to the SW Corner of the area.|
+R Shard of Kozak|QID|41098|M|29.05,84.58;27.71,84.93;26.87,86.28|CC|N|Run down to the SW Corner of the area. Grab other quests in the area too|
+A The Key Is Around Here Somewhere...|QID|41139|M|28.44,82.74|N|From Angus Stormbrew.|
+C The Key Is Around Here Somewhere...|QID|41139|M|28.64,81.29|QO|1|N|Loot Demonwaste Piles for Reinforced Cage Key|
+T The Key Is Around Here Somewhere...|QID|41139|M|28.42,82.65|N|To Angus Stormbrew.|
+A Search and Rescue!|QID|41140|M|28.42,82.65|N|From Angus Stormbrew.|
+C Search and Rescue!|QID|41140|M|28.42,82.65|QO|1|N|Release Angus Stormbrew|
+C Search and Rescue!|QID|41140|M|28.98,84.65|QO|2|N|Enter the Soul Vaults|
+C Search and Rescue!|QID|41140|M|27.19,86.06|QO|3|N|Find Brambley's Cage|
+C Search and Rescue!|QID|41140|M|27.54,88.97|QO|4|N|Felsoul Cage Key (downstairs)|
+C Search and Rescue!|QID|41140|M|27.09,86.06|QO|5|N|Nightfallen Prisoner released|
+T Search and Rescue!|QID|41140|M|27.09,86.06|N|To Selthaes Starsong.|
+A Into The Pit!|QID|41222|M|27.12,86.16|N|From Angus Stormbrew.|
+C Into The Pit!|QID|41222|CS|M|30.51,80.60;33.40,74.96;34.31,74.04|QO|1|N|Escort Angus to Felmaw Cavern|
+T Into The Pit!|QID|41222|M|34.26,73.98|N|To Angus Stormbrew.|
+A Parts Unknown|QID|41214|M|34.26,73.98|N|From Angus Stormbrew.|
+C Parts Unknown|QID|41214|M|34.31,74.04|QO|1|N|Loot Skull, Standing on it.|
+C Parts Unknown|QID|41214|M|35.19,73.81|QO|2|N|1/1 Left Arm|
+C Parts Unknown|QID|41214|M|35.73,72.51|QO|3|N|1/1 Tibia|
+C Parts Unknown|QID|41214|M|37.16,72.35|QO|4|N|1/1 Femur|
+C Parts Unknown|QID|41214|M|36.48,71.28|QO|5|N|1/1 Right Arm|
+C Parts Unknown|QID|41214|M|35.83,70.79|QO|6|N|1/1 Brambley's Dagger|
+T Parts Unknown|QID|41214|M|35.85,70.82|N|To Angus Stormbrew.|
+A Mangelrath|QID|41309|M|35.85,70.82|N|From Angus Stormbrew.|
+C Mangelrath|QID|41309|M|35.39,71.01|QO|1|N|Kill Mangelrath.|
+C Mangelrath|QID|41309|M|35.13,70.73|QO|2|N|Speak with Brambley Morrison|
+C Mangelrath|QID|41309|M|35.46,71.30|QO|3|N|Follow Brambley Morrison, down the fel lava.|
+T Mangelrath|QID|41309|M|35.80,72.44|N|To Brambley Morrison.|
 C Shard of Kozak|QID|41098|M|26.66,86.09|QO|1|N|1/1 Shard of Kozak|
 R Shard of Vorgos|QID|41097|M|32.75,82.34;35.70,82.23|CC|N|Felsoul Hold, The Arcway|
 R Shard of Vorgos|QID|41097|M|51.20,57.65;50.24,18.33|Z|Suramar/23|CC|N|Run over to the East of the area.|
@@ -645,8 +660,8 @@ A Reversal|QID|42838|M|61.36,55.15|N|From Sylverin. Cut scene as soon as you acc
 C Reversal|QID|42838|M|61.36,55.15|QO|1|N|Watch Cut scene as Margaux is executed.|
 T Reversal|QID|42838|M|61.36,55.15|N|To Sylverin.|
 A Vengeance for Margaux|QID|44084|M|61.36,55.15|N|From Sylverin.|
-C Vengeance for Margaux|QID|44084|PRE|42838|M|54.38,52.18;61.36,55.15;63.98,60.42|S|N|Kill Vineyard Enforcer or Wardens|
-C Vengeance for Margaux|QID|44084|M|54.38,52.18;61.36,55.15;63.98,60.42|US|QO|1|N|Kill Vineyard Enforcer or Wardens|
+C Vengeance for Margaux|QID|44084|PRE|42838|M|54.38,52.18;61.36,55.15;63.98,60.42|S|CC|N|Kill Vineyard Enforcer or Wardens|
+C Vengeance for Margaux|QID|44084|M|54.38,52.18;61.36,55.15;63.98,60.42|US|QO|1|CC|N|Kill Vineyard Enforcer or Wardens|
 C Vengeance for Margaux|QID|44084|M|63.98,60.42|QO|2|N|Just run on the portal.|
 T Vengeance for Margaux|QID|44084|M|36.90,46.63|N|To First Arcanist Thalyssra.|
 A Seek the Unsavory|QID|42839|PRE|44084|M|36.90,46.63|N|From First Arcanist Thalyssra.|
@@ -663,7 +678,7 @@ C If Words Don't Work...|QID|42840|M|48.95,73.45|QO|1|N|Give Arluin 800 Ancient 
 T If Words Don't Work...|QID|42840|M|48.95,73.45|N|To Arluin.|
 A A Big Score|QID|42841|M|48.95,73.45|N|From Arluin.|
 A Asset Security|QID|43352|M|48.95,73.45|N|From Arluin.|
-$ Small Treasuer Chest|QID|43865|M|48.13,73.20|N|Loot for some treasure. use Grapple|USE|138111|
+$ Small Treasure Chest|QID|43865|M|48.13,73.20|N|Loot for some treasure. Use Grapple|U|138111|
 C Asset Security|QID|43352|M|45.80,75.43|QO|1|N|Grapple to the stash location, No grapple path, run to this point|
 C Asset Security|QID|43352|M|44.90,74.36|QO|2|N|Kill Auditor Yvenne|
 C A Big Score|QID|42841|M|53.43,54.41|QO|1|N|1/1 Thousand-Year Arcwine stolen. Needs being creative. Or Kill the mobs|
@@ -677,6 +692,21 @@ C Make Your Mark|QID|42792|M|45.98,72.07|QO|4|N|Assassinate Overseer Durant, Hel
 T Make Your Mark|QID|42792|M|48.37,83.33|N|To Vanthir.|
 A And They Will Tremble|QID|44052|PRE|42792|M|48.37,83.33|N|From Vanthir.|
 T And They Will Tremble|QID|44052|M|36.91,46.58|N|To First Arcanist Thalyssra.|
+
+; Quest found, running to do world quests in the city.
+
+N Survival of the Fittest|QID|41216|PRE|44052|N|The following quest is in the city, not sure when it starts but does become a World Quest after doing the chain.|
+A Survival of the Fittest|QID|41216|PRE|44052|M|50.70,56.56|N|From Nighteyes, Down in the water.|
+C Survival of the Fittest|QID|41216|M|50.99,54.33|QO|1|U|134119|N|Creatures Freed, some will attack you.|
+T Survival of the Fittest|QID|41216|M|47.97,52.22|N|To Nighteyes.|
+A Apex Predator|QID|41231|M|47.97,52.22|N|From Nighteyes.|
+C Apex Predator|QID|41231|M|46.70,53.26|QO|1|N|Graedis Oenthar slain, dont worry about the Devilsaur.|
+T Apex Predator|QID|41231|M|47.95,52.29|N|To Nighteyes.|
+A Shalassic Park|QID|43582|M|47.95,52.29|N|From Nighteyes.|
+C Shalassic Park|QID|43582|M|47.01,53.04|QO|1|N|Release Su'esh, by right clicking on it.|
+C Shalassic Park|QID|43582|M|52.02,55.71|QO|2|N|Escape the Menagerie, run the 'saur to this point|
+C Shalassic Park|QID|43582|M|56.05,56.49|QO|3|N|Adversaries slain - trample or eat the demons till you get 50.|
+T Shalassic Park|QID|43582|M|50.71,56.60|N|To Nighteyes, back in the water.|
 
 ]]
 

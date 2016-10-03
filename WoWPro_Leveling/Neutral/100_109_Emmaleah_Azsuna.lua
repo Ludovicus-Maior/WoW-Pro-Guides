@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-10-02 20:07
+-- Who: Emmaleah
+-- Log: Changed QID so R Grey Shoals would auto check off on reload (sooner)
+--	Corrected  to C step on a Tainted Vintage (incorrectly had two A steps)
+
+-- URL: http://wow-pro.com/node/3657/revisions/27802/view
 -- Date: 2016-09-16 22:45
 -- Who: Emmaleah
 -- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
@@ -123,7 +129,7 @@ $ Treasure Chest|QID|44105|M|26.25,47.14|N|Loot for a bit of treasure and resour
 K Kill Inquistitor Tivos|QID|42376|QO|1|M|26.83,49.07;28.30,51.94|CS|ITEM|141874|T|Inquistitor Tivos|N|Silver - Use the portal located at the first coordinate, to port up to the Soulrender above, he is in the lower level. Kill and loot for some treasure and resources.|RANK|3|
 K Kill Broodmother Lizax|QID|44670|QO|1|M|33.26,42.21|ITEM|141869|T|Broodmother Lizax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
 K Kill Vorthax|QID|42280|QO|1|M|37.14,43.35|ITEM|141875|T|Vorthax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
-R Grey Shoals|QID|44102|M|32.43,28.61|N|If you have a glider, gliding across from outside Vorthax's spot is nice. Otherwise run down and swim across.|RANK|3|
+R Grey Shoals|QID|38238|M|32.43,28.61|N|If you have a glider, gliding across from outside Vorthax's spot is nice. Otherwise run down and swim across.|RANK|3|
 K Kill Beacher|QID|38238|QO|1|M|32.43,28.61|ITEM|129067|T|Beacher|N|Silver - Paths up and down the beach. Kill and loot for a bit of treasure and resources.|RANK|3|;probably need a run step in here
 $ Small Treasure Chest|QID|44102|M|34.58,35.55|N|In a alcove under a rocky outcropping. Loot for a bit of treasure and resources.|RANK|3|
 
@@ -175,7 +181,7 @@ A Runas Knows the Way|QID|37857|M|49.22,16.08|N|From Runas the Shamed.|
 
 R The Lost Orchard|QID|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|
 A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-109|
-A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|S|N|Kill the hostiles, destroy the barrels of tainted barrels to advance the objective.|RANK|3|
+C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|S|N|Kill the hostiles, destroy the barrels of tainted barrels to advance the objective.|RANK|3|
 A Challiane Vineyards|QID|38203|M|47.40,12.44|N|From Cellarman Voodani who shows up when you enter the area and follows you.|RANK|3|
 $ Small Treasure Chest|QID|42295|M|47.85,7.73|N|Loot for a bit of treasure and resources.|RANK|3|
 K Kill Vintner Shalrala|QID|38203|QO|1|M|47.16,8.30|T|Vintner Shalrala|N|Kill and loot first recipe.|RANK|3|

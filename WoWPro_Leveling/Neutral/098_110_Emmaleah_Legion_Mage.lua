@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2016-10-02 22:31
+-- Who: Emmaleah
+-- Log: Blanckaert sent me more pieces to Mage line.
+
+-- URL: http://wow-pro.com/node/3671/revisions/27851/view
 -- Date: 2016-09-28 22:03
 -- Who: Ludovicus
 -- Log:  The Guardian's Library@MageClassShrine
@@ -215,6 +220,34 @@ C Ravencrest's Legacy|QID|44479|M|42.31,48.84|Z|BlackRookHoldScenario|QO|1|N|Exp
 C A Personal Touch|QID|40562|QO|2|N|Port back to your Hall.|
 T Ravencrest's Legacy|QID|44479|M|83.63,33.20|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart {Xe'ra}.|
 
+N Available at AK 5|QID|44480|N|Some quests missing here. These next two become available after training artifact knowledge 5.|
+A In My Father's House|QID|44480|M|83.24,32.91|Z|Hall of the Guardian@MageClassShrine|N|From Light's Heart.|
+C In My Father's House|QID|44480|M|32.78,49.97|Z|Azshara|QO|1|N|Witness Illidan's Resilience|U|226968| ; will U accept a spellid?
+T In My Father's House|QID|44480|M|83.24,32.91|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart|
+A Destiny Unfulfilled|QID|44496|M|83.24,32.91|Z|Hall of the Guardian@MageClassShrine|N|From Light's Heart|
+C Destiny Unfulfilled|QID|44496|QO|Experience True Betrayal|U|226973|N|Use the call button|
+C His Duplicity is Hardly Surprising|Z|Black Temple|SO|1|S|N|Confront Akama.|
+C Confront Akama.|M|52.70,71.26|Z|70BlackTempleLegion/1|SO|1;2|N|Confront Akama.|
+C His Duplicity is Hardly Surprising|Z|Black Temple|SO|1|US|N|Confront Akama.|
+C You Are Not Prepared!|Z|Black Temple|SO|2|S|N|Survive until your reinforcements arrive.|
+C Survive the Assault|M|56.13,57.96|Z|70BlackTempleLegion/1|SO|2;2|N|Survive the Assault|
+C You Are Not Prepared!|Z|Black Temple|SO|2|US|N|Survive until your reinforcements arrive.|
+C To The Skies|Z|Black Temple|SO|3|S|N|Summon the Flames of Azzinoth and eliminate your enemies from the sky.|
+C Eliminate Akama's allies|M|56.13,57.96|Z|70BlackTempleLegion/1|SO|2;1|N|Eliminate Akama's allies|
+C Flames of Azzinoth must survive|M|56.02,68.73|Z|70BlackTempleLegion/1|SO|3;2|N|Flames of Azzinoth must survive|
+C To The Skies|Z|Black Temple|SO|3|US|N|Summon the Flames of Azzinoth and eliminate your enemies from the sky.|
+C The Final Countdown|Z|Black Temple|SO|4|S|N|Unleash the hatred of ten thousand years.|
+C Enemies Defeated|M|56.03,66.10|Z|70BlackTempleLegion/1|SO|3;1|N|Enemies Defeated|
+C Use Metamorphosis.|M|56.03,66.10|Z|70BlackTempleLegion/1|SO|4;1|N|Use Metamorphosis.|
+C The Final Countdown|Z|Black Temple|SO|4|US|N|Unleash the hatred of ten thousand years.|
+C The Demon Within|Z|Black Temple|SO|5|S|N|Annihilate your enemies.|
+C The Demon Within|Z|Black Temple|SO|5|US|N|Annihilate your enemies.|
+C The Huntress|Z|Black Temple|SO|6|S|N|Defeat Maiev|
+C Annihilate the rest of your enemies|M|52.01,64.96|Z|70BlackTempleLegion/1|SO|5;2|N|Annihilate the rest of your enemies|
+C Defeat Maiev|M|60.17,67.61|Z|70BlackTempleLegion/1|SO|6;1|N|Defeat Maiev|
+C The Huntress|Z|Black Temple|SO|6|US|N|nil|
+C Destiny Unfulfilled|QID|44496|M|59.82,67.25|Z|70BlackTempleLegion/1|QO|1|N|Experience True Betrayal|
+T Destiny Unfulfilled|QID|44496|M|83.62,32.71|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart|
 ;these need put in proper place
 A Orange is the New Purple|QID|44240|LVL|110|M|45.4,57.2|N|From Jackson Watkins.|
 A Champion: Millhouse Manastorm|QID|42702|LVL|110|M|56.2,57.8|N|From/To Millhouse Manastorm.|
