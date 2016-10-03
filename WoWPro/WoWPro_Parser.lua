@@ -27,6 +27,12 @@ WoWPro.actiontypes = {
 	["$"] = "Interface\\Worldmap\\TreasureChest_64",
 	[";"] = "Interface\\Icons\\INV_Scroll_11",
 }
+if UnitFactionGroup("player") == 'Alliance' then
+    WoWPro.actiontypes['P'] = "Interface\\MINIMAP\\Vehicle-AllianceMagePortal"
+else
+    WoWPro.actiontypes['P'] = "Interface\\MINIMAP\\Vehicle-HordeMagePortal"
+end
+
 WoWPro.actionlabels = {
 	A = "Accept",
 	C = "Complete",
@@ -40,13 +46,14 @@ WoWPro.actionlabels = {
 	f = "Get flight path for",
 	N = "Note",
 	B = "Buy",
-	b = "Boat or Zeppelin",
+	b = "Take Boat or Zeppelin",
 	U = "Use",
 	L = "Level",
 	l = "Loot",
 	r = "Repair/Restock",
 	D = "Done",
 	J = "Jump",
+	P = "Take portal",
 	["!"] = "Declare",
 	["$"] = "Treasure",
 	[";"] = "Comment"

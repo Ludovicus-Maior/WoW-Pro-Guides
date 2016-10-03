@@ -280,7 +280,7 @@ function WoWPro:AutoCompleteZone()
 	local coord = WoWPro.map[currentindex]
 	local waypcomplete = WoWPro.waypcomplete[currentindex]
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
-	if action == "F" or action == "H" or action == "b" or (action == "R" and not waypcomplete) then
+	if action == "F" or action == "H" or action == "b" or "P" or (action == "R" and not waypcomplete) then
 		if step == zonetext or step == subzonetext 
 		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
 			WoWPro.CompleteStep(currentindex,"AutoCompleteZone")
