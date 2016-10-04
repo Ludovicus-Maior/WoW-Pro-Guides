@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-10-04 03:15
+-- Who: Emmaleah
+-- Log: 2nd C Minion! Kill Them!|QID|38232|M|62.01,50.10|S 
+
+-- URL: http://wow-pro.com/node/3657/revisions/27862/view
 -- Date: 2016-10-02 20:07
 -- Who: Emmaleah
 -- Log: Changed QID so R Grey Shoals would auto check off on reload (sooner)
@@ -452,7 +457,7 @@ A Minion! Kill Them!|QID|38232|M|61.22,50.74|N|From Daglop.|RANK|2|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|S|N|The olives are on the ground, the birds and cats drop the feathers and the shadowrunners drop the horns.|RANK|2|
 K Kill Treacherous Stallions|QID|44081|QO|1|M|60.25,46.14|ITEM|140685|T|Devious Sunrunner|N|Silver - Click on the Ley Portal to be transported to a treasure. Kill the Stallions, then loot the chest for a bit of treasure and resources.|RANK|3|
 $ Marius & Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|CS|ITEM|129068|T|Brogozog|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources.|RANK|3|
-C Minion! Kill Them!|QID|38232|M|62.01,50.10|S|N|Finish gathering the things Daglop wants.|RANK|2|
+C Minion! Kill Them!|QID|38232|M|62.01,50.10|US|N|Finish gathering the things Daglop wants.|RANK|2|
 T Minion! Kill Them!|QID|38232|M|61.89,49.63|RANK|2|
 A This IS In My Contract.|QID|38237|M|61.89,49.63|RANK|2|
 C This IS In My Contract.|QID|38237|QO|1|M|64.11,52.88|N|Run down to the beach, Daglop is standing in front of a cave, Speak with him to start the ritual|CHAT|RANK|2|
