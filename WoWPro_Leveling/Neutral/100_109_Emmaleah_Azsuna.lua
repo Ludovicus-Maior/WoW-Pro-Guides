@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-10-04 10:13
+-- Who: Emmaleah
+-- Log: added |NA| to A Wrath of Azshara (I know, this isn't an autoswitching guide.. but just in case someone changes it) 
+
+-- URL: http://wow-pro.com/node/3657/revisions/27866/view
 -- Date: 2016-10-04 03:15
 -- Who: Emmaleah
 -- Log: 2nd C Minion! Kill Them!|QID|38232|M|62.01,50.10|S 
@@ -398,7 +403,7 @@ A Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|N|Auto accepted as you 
 C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|S|N|Kill Naga, loot the trident racks to activate an extra action button.|RANK|2|LVL|-109|
 C The Head of the Snake|QID|37470|M|62.05,41.57|N|Kill Athissa.|T|Athissa|
 T The Head of the Snake|QID|37470|M|61.70,41.08|N|To Prince Farondis.|
-A Wrath of Azshara|QID|38286|M|61.70,41.08|N|From Prince Farondis. Thia ia a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
+A Wrath of Azshara|QID|38286|M|61.70,41.08|NA|N|From Prince Farondis. Thia ia a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
 $ Small Treasure Chest|QID|42294|M|62.81,44.79|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42293|M|63.64,39.18|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Golza the Iron Fin|QID|42372|QO|1|M|65.17,40.02|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|;can not find QID for this encounter

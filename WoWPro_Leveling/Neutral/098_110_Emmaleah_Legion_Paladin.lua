@@ -4,10 +4,9 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
--- Date: 2016-09-14 09:21
+-- Date: 2016-10-04 10:08
 -- Who: Emmaleah
--- Log: C In the Blink of an Eye|Q0|2 changed to|Z|Dalaran@DeadwindPass
---	A Growing Power changed to |Z|Dalaran@Dalaran70
+-- Log: |NA| to the fel lexicon, corrected misspelling of Delas name. Added next few quests from Light's Heart (thru Ravencrest's Legacy.
 
 -- URL: http://wow-pro.com/node/3673/revisions/27737/view
 -- Date: 2016-09-11 06:16
@@ -148,12 +147,12 @@ A Silver Hand Knights|QID|43494|M|52.35,78.03|N|From Lord Grayson Shadowbreaker.
 C Silver Hand Knights|QID|43494|M|58.83,38.90|N|You have access to some tougher recruits. Train them. Don't forget to come back and pick them up.|
 T Silver Hand Knights|QID|43494|M|58.83,38.90|N|From Commander Born.|
 R Dalaran Portal|QID|43486|M|37.9,63.73|CC|N|Take the portal to Dalaran|ACTIVE|43486|
-T Cracking the Codex|QID|43486|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Deelas Moonfang beside the north bank.|
-A The Fel Lexicon|QID|43487|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Deelas Moonfang. This is a dungeon quest, so find friends or queue when ready.(Violet Hold requires minimum level 105)|
-A Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Deelas Moonfang.|
-t The Fel Lexicon|QID|43487|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Deelas Moonfang.|
-t Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Deelas Moonfang.|
-A Translation: Danger!|QID|43535|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Deelas Moonfang.|PRE|43488|;may also have 43487 as pre
+T Cracking the Codex|QID|43486|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang beside the north bank.|
+A The Fel Lexicon|QID|43487|M|44.58,23.09|Z|Dalaran@Dalaran70|NA|N|From Delas Moonfang. This is a dungeon quest, so find friends or queue when ready.(Violet Hold requires minimum level 105)|
+A Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|
+t The Fel Lexicon|QID|43487|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang.|
+t Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang.|
+A Translation: Danger!|QID|43535|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|PRE|43488|;may also have 43487 as pre
 T Translation: Danger!|QID|43535|M|48.37,72.77|N|Aponi Brightmane. |;guessing she will be in same spot as earlier
 N Class Hall Advancement|M|40.01,56.94|LVL|105|N|Don't forget to choose your tier 2 order hall advancement at Sir Alamande Graythorn. The rest of progressing your class hall requires level 110.|
 
@@ -311,7 +310,34 @@ C Revelations|QID|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When 
 U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use it and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|
 T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage Kadgar.|
 A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
-T Light's Charge|QID|44153|M|52.37,69.37|NC|N|Return to your order hall and return to Light's Heart (table in alcove adjacent scouting map).|
+T Light's Charge|QID|44153|M|52.37,69.37|N|Return to your order hall and return to Light's Heart (table in alcove adjacent scouting map).|
+
+A An Unclear Path|QID|44466|M|52.46,69.29|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44153|;no way to limit this showing until you get AK=2
+F Garden of the Moon|QID|44466|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+R Emerald Bay|QID|44466|M|45.33,33.88|Z|Val'sharah|N|Take the path to the south away from the temple.|
+C An Unclear Path|QID|44466|M|52.46,69.29|Z|Val'sharah|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
+T An Unclear Path|QID|44466|M|52.46,69.29|N|To Light's Heart, back in your order hall.|
+A Ravemcrest's Legacy|QID|44479|M|52.46,69.29|N|From Light's Heart.|PRE|44466|
+F Bradensbrook|QID|44466|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+R Black Rook Hold|QID|44466|M|51.42,50.67;45.82,50.34|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|
+C Ravencrest's Legacy|QID|44479|M|41.44,45.63|N|Use your extra action button to watch a vignette about Illidan traveling the wrong path.|
+C Ravencrest's Legacy|QID|44479|SO|1|M|42.4,46.56|N|Listen/watch the dialog.|
+C Ravencrest's Legacy|QID|44479|SO|2|M|42.0,46.2|N|Click on the portal to restore it.|
+C The Road to Fel|QID|44479|SO|3|M|44.3,49.57|N|Defeat Xalian Felblaze. After a bit, you will get a button "6" to sacrifice one of your companions, once you do that, "1" will appear that you use to damage Xalian.|
+C No Man An Island|QID|44479|SO|4||S|M|44.5,51.23;41.0,51.44|CS|N|Activate the remaining portals.|
+A Felspawns of Lothros|QID|44414|M|40.4,53.03|N|From Jared Shadowsong.|
+C Felspawns of Lothros|QID|44414|M|40.4,53.03|N|Help Jared kill Lothros.|
+T Felspawns of Lothros|QID|44414|M|40.4,53.03|N|To Jared Shadowsong.|
+A The Red Axe|QID|44415|M|40.4,53.03|N|From Jared Shadowsong.|
+C The Red Axe|QID|44415|M|39.0,51.30;40.6,50.93;41.4,49.87|CS|N|Click on the unstable portals to close them.|
+T The Red Axe|QID|44415|M|43.8,50.34|N|To Broxigar the Red.|
+A Hunter of Night|QID|44416|M|43.8,50.34|N|From Broxigar the Red.|
+C Hunter of Night|QID|44416|M|43.0,50.29|N|Kill the demon.|
+T Hunter of Night|QID|44416|M|41.6,50.56|N|To Broxigar the Red .|
+C No Man An Island|QID|44479|SO|4|US|M|43.7,50.88;43.7,50.97|CS|N|Click the last portals.|
+C True Sacrifice|QID|44479|SO|5|M|42.7,53.03|N|You have one more button to use. Go destroy the Nihilam Portal and kill Balaadur.|
+C When Good Men Do Nothing|SO|6|M|42.8,48.4|N|During the middle of the fight, you get one more button, use it to win.|
+T Ravencrest's Legacy|QID|44479|M|52.46,69.29|N|To Light's Heart, back in your order hall.|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
