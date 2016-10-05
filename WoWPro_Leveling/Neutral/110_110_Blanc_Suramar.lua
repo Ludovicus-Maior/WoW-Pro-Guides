@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-04 09:44
+-- Who: Emmaleah
+-- Log: Many Minor tweaks. added rares and treasure. Run steps, Leyline quests, etc thru  R Crimson Thicket.
+--	Used new Step type "P" a couple of places (not everywhere), Hopefully I didn't overwrite anyone else's changes. 
+
+-- URL: http://wow-pro.com/node/3687/revisions/27864/view
 -- Date: 2016-10-03 18:16
 -- Who: elidion
 -- Log: Fixed the errors that would pop up on load of the guide, a few typos, added more detail on some notes, added some |S| tags where appropriate on some quests and shuffled a few quests around in a more appropriate manner. 
@@ -104,7 +110,6 @@ L This guide (and the Suramar zone) requires level 110|LVL|110|
 N Suramar|N|This is INCOMPLETE, and done as a Horde Toon. There ARE errors, Use at your own risk.|
 
 ; Main Storyline, Opening of Suramar
-
 A Khadgar's Discovery|QID|44555;39985|N|Auto Accepted from UI upon entering Dalaran.|
 T Khadgar's Discovery|QID|44555;39985|M|28.47,48.31|Z|Dalaran@Dalaran70|N|To Archmage Khadgar in the Violet Citadel.|
 A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44555;39985|
@@ -114,25 +119,24 @@ A Trail of Echoes|QID|39987|M|28.47,48.31|Z|Dalaran|N|From Archmage Khadgar.|PRE
 C Trail of Echoes|QID|39987|M|39.67,53.22|QO|1|U|131931|N|Click the wand and then click the purple swirls to reveal Faint Arcane Echo.|
 C Trail of Echoes|QID|39987|M|39.59,55.73|QO|2|U|131931|N|Click the wand and then click the purple swirls to reveal Blinking Arcane Echo.|
 C Trail of Echoes|QID|39987|M|35.87,55.05|QO|3|U|131931|N|Click the wand and then click the purple swirls to reveal Pulsing Arcane Echo.|
-C Trail of Echoes|QID|39987|M|35.45,55.92|QO|4|U|131931|N|Slay Erasmus Moonblade.|T|Erasmus Moonblade|
-C Trail of Echoes|QID|39987|M|34.55,53.52|QO|5|U|131931|N|Find First Arcanist Thalyssra.|
+C Trail of Echoes|QID|39987|M|35.45,55.92|QO|4|N|Slay Erasmus Moonblade.|T|Erasmus Moonblade|
+C Trail of Echoes|QID|39987|M|34.55,53.52|QO|5|N|Find First Arcanist Thalyssra.|
 T Trail of Echoes|QID|39987|M|34.66,53.42|N|To First Arcanist Thalyssra.|
 A The Only Way Out is Through|QID|40008|M|34.66,53.42|N|From First Arcanist Thalyssra.|PRE|39987|
-C The Only Way Out is Through|QID|40008|M|35.73,49.52|N|Escort Thalyssra to shelter Concentrate on the mobs hitting the shield.|
+C The Only Way Out is Through|QID|40008|M|35.73,49.52|N|Escort Thalyssra to shelter Concentrate on the mobs draining the shield.|
 T The Only Way Out is Through|QID|40008|M|35.33,47.40|N|To First Arcanist Thalyssra.|
 A The Nightborne Pact|QID|40123|M|35.33,47.40|N|From First Arcanist Thalyssra.|PRE|40008|
-C The Nightborne Pact|QID|40123|M|35.33,47.40|N|Bandage Thalyssra.|
+C The Nightborne Pact|QID|40123|M|35.33,47.40|NC|N|Bandage Thalyssra.|
 T The Nightborne Pact|QID|40123|M|35.33,47.40|N|To First Arcanist Thalyssra.|
 A Arcane Thirst|QID|40009|M|35.33,47.40|N|From First Arcanist Thalyssra.|PRE|40123|
 C Arcane Thirst|QID|40009|M|37.01,46.48|QO|3|S|NC|N|The Crystallized Ancient Mana is around the base of the piller Selentia is on.|
-C Arcane Thirst|QID|40009|M|36.74,46.57|QO|1|N|Walk up to the pillar Selentia is on.|
+C Arcane Thirst|QID|40009|M|36.74,46.57|QO|1|NC|N|Walk up to the pillar Selentia is on.|
 C Arcane Thirst|QID|40009|M|36.71,45.77|QO|2|N|Kill the Eternal Tethers first, so you can then slay Keeper Selentia.|
 C Arcane Thirst|QID|40009|M|37.01,46.48|QO|3|US|NC|N|Finish collecting Crystallized Ancient Mana.|
 T Arcane Thirst|QID|40009|M|35.34,47.41|N|To First Arcanist Thalyssra.|
 A Shal'Aran|QID|42229|M|35.34,47.41|N|From First Arcanist Thalyssra.|PRE|42229|
 C Shal'Aran|QID|42229|M|36.54,46.94|NC|N|Follow her as she walks around Shal'aran|
 T Shal'Aran|QID|42229|M|36.56,46.93|N|To First Arcanist Thalyssra.|
-
 A Ancient Mana|QID|44672|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|42229|
 A Oculeth's Workshop|QID|40011|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|42229|
 A An Old Ally|QID|40012|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|42229|
@@ -141,255 +145,298 @@ f Meredil|QID|40012|M|34.34,49.38|N|At Ancient Cloudwing.|
 C Ancient Mana|QID|44672|M|34.81,55.09|S|N|Pick up the ancient mana as you travel towards Oculeth. Continue gathering it as you go along, you will have other uses for it also.|;check this coord is in line to the workshop
 
 ; Chief Temelancer Oculeth Story Line. Along with Arcanist Kel'Danath Story Line.
-
-C Oculeth's Workshop|QID|40011|M|49.31,48.18|NC|U|132883|N|Show Token to Oculeth.|
+C Oculeth's Workshop|QID|40011|M|49.31,48.18|NC|U|132883|N|Use Extra Action button to show Token to Oculeth.|
 T Oculeth's Workshop|QID|40011|M|49.66,48.13|N|To Chief Telemancer Oculeth.|
 A The Delicate Art of Telemancy|QID|40747|M|49.66,48.13|N|From Chief Telemancer Oculeth.|PRE|40011|
-C The Delicate Art of Telemancy|QID|40747|M|55.79,39.73|QO|1|NC|N|Use teleporter at Oculeth's Workshop.|
-C The Delicate Art of Telemancy|QID|40747|M|53.18,46.74|QO|3|NC|N|Travel to the Warp Lab to collect the Cracked Warpsleeve.|
-C The Delicate Art of Telemancy|QID|40747|M|51.88,35.00|QO|2|NC|N|Travel to the Fountain and then the Telemetry Lab to collect the Weathered Telemancy Beacon.|
-T The Delicate Art of Telemancy|QID|40747|M|49.29,47.10|N|To Chief Telemancer Oculeth.|;not sure if there is a good sequence back, i had to travel thru several teleport beacons.
+C The Delicate Art of Telemancy|QID|40747|QO|1|M|49.58,46.78|NC|N|Use teleporter at Oculeth's Workshop.|
+C The Delicate Art of Telemancy|QID|40747|QO|2|M|55.80,39.43;54.32,44.20;51.88,34.99|CS|NC|N|Travel to the Fountain and then the Telemetry Lab to collect the Weathered Telemancy Beacon.|
+C The Delicate Art of Telemancy|QID|40747|QO|3|M|53.01,37.08;54.41,44.57;55.82,39.98;53.16,46.84|CS|NC|N|Return to the Fountain, and then travel to the Breakfast Nook, which will actual return you to Warpwind Cliffs.  Use the Warp Lab teleporter and then collect the Cracked Warpsleeve.|
+T The Delicate Art of Telemancy|QID|40747|M|52.13,44.83;49.29,47.10|CS|N|Use the Workshop teleporter and then turn in to Chief Telemancer Oculeth.|
 A Network Security|QID|40748|M|49.29,47.10|N|From Chief Telemancer Oculeth.|PRE|40747|
 C Network Security|QID|40748|M|59.73,36.67|QO|1|NC|N|Teleport to the Test Chamber.|
 C Network Security|QID|40748|M|59.65,33.89|QO|2|NC|N|Arcane Coil overcharged.|
-C Network Security|QID|40748|M|56.93,34.97|QO|3|NC|N|Arcane Coil overcharged.|
-C Network Security|QID|40748|M|56.05,30.22|QO|4|N|Warpcaster Thwen slain.|
+C Network Security|QID|40748|M|56.93,34.97|QO|3|NC|N|Click on the 4 Arcane Coils in this room.|
+C Network Security|QID|40748|M|56.05,30.22|QO|4|N|You will be transported to a cavern, then you can fight Warpcaster Thwen slain.|T|Warpcaster Thwen|
 C Network Security|QID|40748|M|56.11,30.21|QO|5|CHAT|N|Speak with Oculeth.|
 T Network Security|QID|40748|M|34.48,48.70|N|To Chief Telemancer Oculeth.|
 A Close Enough|QID|40830|M|34.48,48.70|N|From Chief Telemancer Oculeth.|PRE|40748|
 C Close Enough|QID|40830|M|35.80,47.50|QO|1|NC|N|Pick up Oculeth and carry him into Shal'Aran.|
 C Close Enough|QID|40830|M|36.54,46.91|QO|2|NC|N|Use vehicle UI "1" to drop Oculeth near Thalyssra.|
-C Ancient Mana|QID|44672|M|34.81,55.09|US|N|Pick up the ancient mana as you travel towards Oculeth. Continue picking it up until you are capped.|
+C Ancient Mana|QID|44672|M|34.81,55.09|US|N|Continue gathering ancient manu up whenever you are not capped, as you will always have uses for it.|
 T Ancient Mana|QID|44672|M|36.54,46.94|N|To First Arcanist Thalyssra.|
 T Close Enough|QID|40830|M|36.54,46.94|N|To First Arcanist Thalyssra.|
 A Hungry Work|QID|44691|M|36.54,46.94|N|From First Arcanist Thalyssra.|PRE|40830|
 C Hungry Work|QID|44691|M|36.58,46.97|NC|N|Chief Telemancer Oculeth fed.|
 T Hungry Work|QID|44691|M|36.58,46.97|N|To Chief Telemancer Oculeth.|
 A Survey Says...|QID|40956|M|36.58,46.97|N|From Chief Telemancer Oculeth.|PRE|44691|
+
 R Ambervale|QID|40012|M|34.73,48.20;33.20,47.92;31.40,45.25|CS|N|Run out of the cave and around to your right following the coordinate trail.|
+A Lingering on the Edge|QID|40796|M|30.39,47.78|N|From/To Absolon.|
 T An Old Ally|QID|40012|M|30.24,39.66|N|To an Enchanted Scroll.|
-A Scattered Memories|QID|40326|M|30.24,39.66|N|From an Enchanted Scroll.|
-A A Re-Warding Effort|QID|41149|M|30.62,40.06|N|From an Arcane Ward.|ACTIVE|41149|
+A Scattered Memories|QID|40326|M|30.24,39.66|N|From an Enchanted Scroll.|PRE|40012|
+A A Re-Warding Effort|QID|41149|M|30.62,40.06|N|From an Arcane Ward.|ACTIVE|40326|
 C Scattered Memories|QID|40326|M|26.42,44.52|S|NC|N|Read Kel'danath's Notes.|
-C A Re-Warding Effort|QID|41149|M|24.97,44.24|N|Activate the Arcane Wards.|
+C A Re-Warding Effort|QID|41149|M|24.97,44.24|S|N|Activate the Arcane Wards.|
+K Kill Shal'an|QID|42831|M|26.24,41.16|N|Silver - Kill Shal'an for a bit of treasure and resources.|ITEM|139926|T|Shal'an|
+$ Ancient Mana Chunk|QID|42827|M|26.35,41.27|N|Loot for an Ancient Mana item.|ITEM|139890|
+K Kill Oreth the Vile|QID|43449|M|24.61,47.25|N|Silver - Kill Oreth the Vile for a bit of treasure and resources.|T|Oreth the Vile|
+$ Treasure Chest|QID|43842|M|23.40,48.77|N|Loot for a bit of treasure and resources.|
+C Scattered Memories|QID|40326|M|26.42,44.52|US|NC|N|Read Kel'danath's Notes.|
+C A Re-Warding Effort|QID|41149|M|24.97,44.24|US|N|Activate the Arcane Wards.|
 T A Re-Warding Effort|QID|41149|M|24.97,44.22|N|To UI Alert.|
 C Scattered Memories|QID|40326|M|26.42,44.52|US|NC|N|Finish reading Kel'danath's Notes.|
+K Kill Elfbane|QID|41319|M|22.6,51.6|N|Silver - Kill for treasure and resources. Soloable but difficult, friends are very handy here.|ITEM|121806|T|Elfbane|RANK|3|
 T Scattered Memories|QID|40326|M|20.92,52.28|N|To Kel'danath's Knapsack.|
 A Written in Stone|QID|41702|M|20.92,52.28|N|From Kel'danath's Knapsack.|PRE|40326|
 C Written in Stone|QID|41702|M|20.17,55.89|T|Arcanist Kel'danath|N|Kill Kel'danath and collect the Spellstone of Kel'danath.|
 T Written in Stone|QID|41702|M|20.64,55.07|N|To Theryn.|
 A Subject 16|QID|41704|M|20.64,55.07|N|From Theryn.|PRE|41702|
-A Lingering on the Edge|QID|40796|M|30.39,47.78|N|From Absolon.|
-T Lingering on the Edge|QID|40796|M|30.39,47.78|N|To Absolon.|
-R Ruins of Elune'eth|QID|40956|M|34.77,43.83|N|Run to the Ruins of Elune'eth.|
-C Survey Says...|QID|40956|M|36.64,45.56|NC|U|133897|N|Use the Telemetry Beacon. Occasionaly some pesky anomaly will spawn and you will need to kill it (and possibly close the portal, to stop more).|
-T Survey Says...|QID|40956|M|36.10,47.24|N|To the Telemetry Beacon. After turn in, take the portal back to Shal'Aran.|
-A Tapping the Leylines|QID|40010|M|36.54,46.87|N|From First Arcanist Thalyssra.|PRE|40956|
+$ Kel'danath's Manaflask|QID|42842|M|21.43,54.47|ITEM|136269|U|136269|N|Pick this up and click it to add 100 to your ancient mana cap. |
+H Shal'Aran|QID|40956|M|36.56,46.92|N|Run to Shal'Aran if your hearthstone isn't available.|
 C Subject 16|QID|41704|M|36.29,47.11|NC|N|Deliver Theryn to Thalyssra.|
 T Subject 16|QID|41704|M|36.55,46.91|N|To First Arcanist Thalyssra.|
 A Kel'danath's Legacy|QID|41760|M|36.55,46.91|N|From First Arcanist Thalyssra.|PRE|41704|
-C Kel'danath's Legacy|QID|41760|M|34.81,51.69|N|Use your extra action button to charm Withered.|
-T Kel'danath's Legacy|QID|41760|M|36.56,46.93|N|To First Arcanist Thalyssra.|
 
 ; Feeding Shal'Aran Story Line
+C Kel'danath's Legacy|QID|41760|M|34.81,51.69|S|N|Use your extra action button to charm Withered.|
+R Ruins of Elune'eth|QID|40956|M|33.96,48.99;32.70,46.26;34.77,43.83|CS|N|Out of the cave and around to your right to find the Ruins of Elune'eth.|
+C Survey Says...|QID|40956|M|36.64,45.56|NC|U|133897|N|Use the Telemetry Beacon. Occasionaly some pesky anomaly will spawn and you will need to kill it (and possibly close the portal, to stop more).|
+C Kel'danath's Legacy|QID|41760|M|34.81,51.69|US|N|Use your extra action button to charm Withered.|
+T Survey Says...|QID|40956|M|36.10,47.24|N|To the Telemetry Beacon. After turn in, take the portal back to Shal'Aran.|
+T Kel'danath's Legacy|QID|41760|M|36.56,46.93|N|To First Arcanist Thalyssra.|
+A Tapping the Leylines|QID|40010|M|36.54,46.87|N|From First Arcanist Thalyssra.|PRE|40956|
 
 A Sympathizers Among the Shal'dorei|QID|41762|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|41760|
-A Turtle Powered|QID|40368|M|43.38,41.72|Z|Suramar|N|From Morhun Rivertamer.|
-C Tapping the Leylines|QID|40010|M|41.30,39.41|Z|Suramar|QO|1|N|1/1 Explore Anora Hollow|
-C Tapping the Leylines|QID|40010|M|41.58,38.75|Z|Suramar|QO|2|N|1/1 Step on Ancient Switch|
-C Tapping the Leylines|QID|40010|M|41.62,39.10|Z|Suramar|QO|3|N|1/1 Speak with Arcanist Valtrois|
-T Tapping the Leylines|QID|40010|M|39.76,29.69|Z|Suramar|N|To Arcanist Valtrois.|
-A Power Grid|QID|41028|M|39.76,29.69|Z|Suramar|N|From Arcanist Valtrois.|
-C Power Grid|QID|41028|M|52.93,55.83|Z|Suramar|QO|4|N|1/1 Elven Seal charged|
-C Power Grid|QID|41028|M|60.00,54.69|Z|Suramar|QO|3|N|1/1 Beast Seal charged|
-C Power Grid|QID|41028|M|58.91,44.27|Z|Suramar|QO|2|N|1/1 Star Seal charged|
-C Power Grid|QID|41028|M|51.81,46.06|Z|Suramar|QO|1|N|1/1 Moon Seal charged|
-T Power Grid|QID|41028|M|39.52,29.08|Z|Suramar|N|To Arcanist Valtrois.|
-C Turtle Powered|QID|40368|M|37.11,38.20|Z|Suramar|QO|1|N|7/7 Shimmering Snapper Scale|
-T Turtle Powered|QID|40368|M|43.39,41.69|Z|Suramar|N|To Morhun Rivertamer.|
-A Something in the Water|QID|40348|M|43.39,41.69|Z|Suramar|N|From Morhun Rivertamer.|
-A Purge the Unclean|QID|40370|M|43.39,41.69|Z|Suramar|N|From Morhun Rivertamer.|
-C Something in the Water|QID|40348|M|46.72,37.71|Z|Suramar|N|Kill 12 Mana-corrupted Waterspawn|S|
-C Purge the Unclean|QID|40370|M|47.04,36.73|Z|Suramar|U|131760|N|Damage the Azurefall Guardian and then use the Focus|
-T Something in the Water|QID|40348|M|43.41,41.68|Z|Suramar|N|To Morhun Rivertamer.|
-T Purge the Unclean|QID|40370|M|43.41,41.68|Z|Suramar|N|To Morhun Rivertamer.|
-A The Lost Advisor|QID|40266|M|45.59,40.75|Z|Suramar|N|From Thaedris Feathersong.|
-A An Ancient Recipe|QID|40744|M|45.59,40.75|Z|Suramar|N|From Thaedris Feathersong.|
-A Feeding Shal'Aran|QID|41138|M|36.56,46.93|Z|Suramar|N|From Arcanist Valtrois.|
-C Feeding Shal'Aran|QID|41138|M|36.97,46.21|Z|Suramar|QO|1|N|1/1 Leyline Feed examined|
-T Feeding Shal'Aran|QID|41138|M|36.97,46.21|Z|Suramar|N|To Arcanist Valtrois.|
+R Anora Hollow|QID|40368|M|36.33,44.93;38.18,44.83;43.38,41.72|CS|N|Take the teleporter to Ruins of Elune'eth and follow the path to Anora Hollow.|
+A Turtle Powered|QID|40368|M|43.38,41.72|N|From Morhun Rivertamer.|
+C Turtle Powered|QID|40368|M|37.11,38.20|S|N|Kill turtles to collect the Shimmering Snapper Scales.|
+C Tapping the Leylines|QID|40010|M|41.30,39.41|QO|1|NC|N|Explore Anora Hollow.|
+C Tapping the Leylines|QID|40010|M|41.58,38.75|QO|2|NC|N|Step on Ancient Switch.|
+C Tapping the Leylines|QID|40010|M|41.62,39.10|QO|3|CHAT|N|Speak with Arcanist Valtrois.|
+T Tapping the Leylines|QID|40010|M|39.76,29.69|N|To Arcanist Valtrois.|
+A Power Grid|QID|41028|M|39.76,29.69|N|From Arcanist Valtrois.|
+C Power Grid|QID|41028|M|52.93,55.83|NC|N|Valtrois leads you to a room with a 'high switch'. Follow the ley beam to the room with the 8 'low switches' and the 4 'seals'. Click on the switches to get the beams both pointed at the same seal. If you can't, follow the beam that isn't pointed where you want back to its 'high switch' and click it. Then run back to see if both beams are pointed at the same seal, if so, click on the seal. one down, 3 to go.  If not, click on the 'low switch' the beam goes through to point it at the seal, then click to lock it in. Rinse, repeat.|
+T Power Grid|QID|41028|M|39.52,29.08|N|To Arcanist Valtrois.|
+K Kill Myonix|QID|43358|M|40.77,32.87|N|Silver - Kill for a bit of treasure and resources.|
+$ Glimmering Treasure Chest|QID|43856|M|42.32,29.99;44.04,31.93|CS|N|Go inside the cave, up one level from Myonix, at the base of the waterfall. Loot for treasure and resources.|
+C Turtle Powered|QID|40368|M|37.11,38.20|US|N|Finish collecting the Shimmering Snapper Scales.|
+T Turtle Powered|QID|40368|M|43.39,41.69|N|To Morhun Rivertamer.|
+A Something in the Water|QID|40348|M|43.39,41.69|N|From Morhun Rivertamer.|
+A Purge the Unclean|QID|40370|M|43.39,41.69|N|From Morhun Rivertamer.|
+C Something in the Water|QID|40348|M|46.72,37.71|S|N|Kill Mana-corrupted Waterspawn.|
+C Purge the Unclean|QID|40370|M|43.01,39.98;47.04,36.73|CS|QO|1|U|131760|N|Weaken the guardian then use the Focus item to cleanse the corruption.|
+C Something in the Water|QID|40348|M|46.72,37.71|US|N|Kill Mana-corrupted Waterspawn.|
+T Something in the Water|QID|40348|M|43.41,41.68|N|To Morhun Rivertamer.|
+T Purge the Unclean|QID|40370|M|43.41,41.68|N|To Morhun Rivertamer.|
 
-; Tidying Tel'Anor Side Story Line, ACtivation of Tel'anor Teleporter
-
-A An Ancient Recipe|QID|40744|M|36.43,46.40|Z|Suramar|
-C The Lost Advisor|QID|40266|M|44.04,39.40|Z|Suramar|N|8/8 Gather Cliffthorn|
-C An Ancient Recipe|QID|40744|M|46.12,39.50|Z|Suramar|N|6/6 Harpy Talon|S|
-T The Lost Advisor|QID|40266|M|49.15,43.83|Z|Suramar|N|To Thaedris Feathersong.|
-T An Ancient Recipe|QID|40744|M|49.15,43.83|Z|Suramar|N|To Thaedris Feathersong.|
-A Bad Intentions|QID|40227|M|49.15,43.83|Z|Suramar|N|From Thaedris Feathersong.|
-C Bad Intentions|QID|40227|M|49.15,43.83|Z|Suramar|QO|1|N|1/1 Speak with Thaedris Feathersong|
-T Bad Intentions|QID|40227|M|49.15,43.83|Z|Suramar|N|To Thaedris Feathersong.|
-A Tools of the Trade|QID|40300|M|49.15,43.83|Z|Suramar|N|From Thaedris Feathersong.|
-C Tools of the Trade|QID|40300|M|50.05,39.00|Z|Suramar|QO|1|N|1/1 Sacred Oil|
-A Fragments of Memory|QID|40308|M|49.09,34.35|Z|Suramar|N|From Feral Scavenger.|
-C Tools of the Trade|QID|40300|M|47.79,34.45|Z|Suramar|QO|2|N|1/1 Preserving Incense|
-C Fragments of Memory|QID|40308|M|51.96,29.95|Z|Suramar|QO|1|N|15/15 Tel'anor Memento|S|
-C Tools of the Trade|QID|40300|M|52.50,31.39|Z|Suramar|QO|3|N|1/1 Chest of Shrouds|
-T Fragments of Memory|QID|40308|M|47.33,33.48|Z|Suramar|N|To Thaedris Feathersong.|
-T Tools of the Trade|QID|40300|M|47.33,33.48|Z|Suramar|N|To Thaedris Feathersong.|
-A The Last Chapter|QID|40306|M|47.33,33.48|Z|Suramar|N|From Thaedris Feathersong.|
-A Paying Respects|QID|40578|M|47.33,33.48|Z|Suramar|N|From Thaedris Feathersong. Not all Spectres will give credit.|
-C Paying Respects|QID|40578|M|45.22,34.96|Z|Suramar|QO|1|N|8/8 Disturbed ghosts slain|S|
-C The Last Chapter|QID|40306|M|44.08,32.29|Z|Suramar|QO|1|N|1/1 Encyclopedia Botanica. Upstairs on table|
-T The Last Chapter|QID|40306|M|45.07,30.89|Z|Suramar|N|To Thaedris Feathersong.|
-T Paying Respects|QID|40578|M|45.07,30.89|Z|Suramar|N|To Thaedris Feathersong.|
-A End of the Line|QID|40315|M|45.07,30.89|Z|Suramar|N|From Thaedris Feathersong.|
-C End of the Line|QID|40315|M|45.07,30.89|Z|Suramar|QO|1|N|1/1 Speak with Thaedris.|
-T End of the Line|QID|40315|M|45.07,30.89|Z|Suramar|N|To Thaedris Feathersong.|
-A The Final Ingredient|QID|40319|M|45.07,30.89|Z|Suramar|N|From Thaedris Feathersong.|
-C The Final Ingredient|QID|40319|M|47.85,29.56|Z|Suramar|QO|1|N|1/1 Retrieve Latara's bow|
-T The Final Ingredient|QID|40319|M|45.09,30.92|Z|Suramar|N|To Thaedris Feathersong.|
-A Feathersong's Redemption|QID|40321|M|45.09,30.92|Z|Suramar|N|From Thaedris Feathersong.|
-C Feathersong's Redemption|QID|40321|M|44.69,22.91|Z|Suramar|QO|1|U|130260|N|Throw vial at Cliffclutch Matriarch to weaken and kill her|
-T Feathersong's Redemption|QID|40321|M|44.98,23.84|Z|Suramar|N|To Thaedris Feathersong.|
-A Tel'anor'eporter Online!|QID|43809|M|42.02,35.25|Z|Suramar|N|From UI?|
-T Tel'anor'eporter Online!|QID|43809|M|42.02,35.25|Z|Suramar|N|To UI?|
-f Irongrove Retreat|QID|43809|M|25.47,31.76|Z|Suramar|N|At Alyndra Stormgazer.|
-F Meredil|QID|41762|M|25.47,31.76|Z|Suramar|N|Fly back to Meredil, then run to next step.|
+; Tidying Tel'Anor Side Story Line, Activation of Tel'anor Teleporter
+R Tel'anor|QID|40266|M|41.83,41.39;41.12,42.37;44.75,42.94|CS|N|Take the path here, back up to the city level.|
+A The Lost Advisor|QID|40266|M|45.59,40.75|N|From Thaedris Feathersong.|
+A An Ancient Recipe|QID|40744|M|45.59,40.75|N|From Thaedris Feathersong.|
+C The Lost Advisor|QID|40266|M|44.04,39.40|S|NC|N|Gather Cliffthorn from the ground.|
+C An Ancient Recipe|QID|40744|M|46.12,39.50|N|Kill Harpies to acquire the talons.|
+C The Lost Advisor|QID|40266|M|44.04,39.40|S|NC|N|Finish picking up Cliffthorn.|
+T The Lost Advisor|QID|40266|M|49.15,43.83|N|To Thaedris Feathersong.|
+T An Ancient Recipe|QID|40744|M|49.15,43.83|N|To Thaedris Feathersong.|
+A Bad Intentions|QID|40227|M|49.15,43.83|N|From Thaedris Feathersong.|
+C Bad Intentions|QID|40227|M|49.15,43.83|CHAT|N|Speak with Thaedris Feathersong.|
+T Bad Intentions|QID|40227|M|49.15,43.83|N|To Thaedris Feathersong.|
+A Tools of the Trade|QID|40300|M|49.15,43.83|N|From Thaedris Feathersong.|
+C Tools of the Trade|QID|40300|M|50.05,39.00|QO|1|NC|N|Gather the jar of Sacred Oil|
+$ Small Treasure Chest|QID|43855;43857|M|51.50,38.61|N|Loot for a bit of treasure and resources.|
+A Fragments of Memory|QID|40308|M|49.09,34.35|N|From a Shattered Burial Urn.|
+C Fragments of Memory|QID|40308|M|51.96,29.95|S|N|You have a chance of collecting Tel'anor Mementos from all the mobs in this cave.|
+C Tools of the Trade|QID|40300|M|52.50,31.39|QO|3|NC|N|Pick up the Chest of Shrouds|
+$ Treasure|QID|43854|M|52.27,28.89|N|Loot for a bit of treasure and resources.|
+K Kill Garvrulg|QID|40897|QO|1|M|53.03,30.24|N|Silver - Kill and loot for a bit of treasure and resources.|
+$ Dusty Treasure|QID|40767|M|52.72,31.30|N|Down the wooden stairs for this chest. Loot for a bit of treasure and resources.|
+C Fragments of Memory|QID|40308|M|51.96,29.95|S|N|Finish collecting Tel'anor Mementos.|
+C Tools of the Trade|QID|40300|M|47.79,34.45|QO|2|NC|N|Pick up the Bundle of Incense.|
+$ Small Treasure Chest|QID|43853|M|48.14,33.90|N|Loot for a bit of treasure and resources.|
+T Fragments of Memory|QID|40308|M|47.33,33.48|N|To Thaedris Feathersong.|
+T Tools of the Trade|QID|40300|M|47.33,33.48|N|To Thaedris Feathersong.|
+A The Last Chapter|QID|40306|M|47.33,33.48|N|From Thaedris Feathersong.|
+A Paying Respects|QID|40578|M|47.33,33.48|N|From Thaedris Feathersong.|
+C Paying Respects|QID|40578|M|45.22,34.96|S|N|Kill Disturbed ghosts. Not all Spectres will give credit.|
+C The Last Chapter|QID|40306|M|44.08,32.29|NC|N|Encyclopedia Botanica can be found upstairs on a table.|
+C Paying Respects|QID|40578|M|45.11,31.47|US|N|Kill Disturbed ghosts.|
+T The Last Chapter|QID|40306|M|45.07,30.89|N|To Thaedris Feathersong.|
+T Paying Respects|QID|40578|M|45.07,30.89|N|To Thaedris Feathersong.|
+A End of the Line|QID|40315|M|45.07,30.89|N|From Thaedris Feathersong.|
+C End of the Line|QID|40315|M|45.07,30.89|CHAT|N|Speak with Thaedris.|
+T End of the Line|QID|40315|M|45.07,30.89|N|To Thaedris Feathersong.|
+A The Final Ingredient|QID|40319|M|45.07,30.89|N|From Thaedris Feathersong.|
+$ Enchanted Burial Urn|QID|43986|M|44.83,31.00|U|140326|ITEM|140326|N|Pick this up and click it to add 100 to your ancient mana cap. |
+C The Final Ingredient|QID|40319|M|47.85,29.56|N|Kill Latara and retrieve her bow.|
+T The Final Ingredient|QID|40319|M|45.09,30.92|N|To Thaedris Feathersong.|
+A Feathersong's Redemption|QID|40321|M|45.09,30.92|N|From Thaedris Feathersong.|
+$ Shimmering Ancient Mana Cluster|QID|43744|M|46.50,26.03|N|Underwater, Loot for storable ancient mana.|ITEM|141655|
+C Feathersong's Redemption|QID|40321|M|44.69,22.91|U|130260|N|Use the poison to weaken her, then kill Cliffclutch Matriarch. |
+$ Treasure Chest|QID|43850|M|44.27,22.86|N|Loot for a bit of treasure.|
+T Feathersong's Redemption|QID|40321|M|44.98,23.84|N|To Thaedris Feathersong.|
+A Tel'anor'eporter Online!|QID|43809|M|45.01,30.27;45.17,32.19;42.02,35.25|CS|N|Run back to where Theadris was, down the spiral stairs, towards an Unpowered Telemancy Beacon.|
+T Tel'anor'eporter Online!|QID|43809|M|42.02,35.25|N|To Unpowered Telemancy Beacon.|
+R Shal'Aran|QID|41138|M|42.02,35.25|N|Use the portal to return to Shal'Aran.|
+A Feeding Shal'Aran|QID|41138|M|36.56,46.93|N|From Arcanist Valtrois.|
+C Feeding Shal'Aran|QID|41138|M|36.97,46.21|NC|N|Follow her downstairs and examine the Leyline Feed.|
+T Feeding Shal'Aran|QID|41138|M|36.97,46.21|N|To Arcanist Valtrois.|
 
 ; Masquerade Story Line (Jump back to city), and Activating Sanctum of Order Teleporter
-
-C Sympathizers Among the Shal'dorei|QID|41762|M|39.05,70.55|Z|Suramar|QO|1|N|1/1 Silgryn met|
-T Sympathizers Among the Shal'dorei|QID|41762|M|40.17,70.79|Z|Suramar|N|To Silgryn.|
-A The Masks We Wear|QID|41834|M|40.17,70.79|Z|Suramar|N|From Silgryn.|
-C The Masks We Wear|QID|41834|M|40.21,72.33|Z|Suramar|QO|1|U|136600|N|1/1 Enchanted Party Mask|
-C The Masks We Wear|QID|41834|M|40.26,72.31|Z|Suramar|QO|2|U|136600|N|1/1 Wear the Enchanted Party Mask|
-C The Masks We Wear|QID|41834|M|42.63,77.65|Z|Suramar|QO|3|U|136600|N|8/8 Speak with Masqued Revelers|
-C The Masks We Wear|QID|41834|M|43.33,78.69|Z|Suramar|QO|4|U|136600|N|1/1 Meet Ly'leth Lunastre|
-T The Masks We Wear|QID|41834|M|43.35,78.70|Z|Suramar|N|To Ly'leth Lunastre.|
-A Blood of My Blood|QID|41989|M|43.35,78.70|Z|Suramar|N|From Ly'leth Lunastre.|
-A Lunastre Estate Teleporter Online!|QID|43811|M|43.66,79.21|Z|Suramar|N|From Ly'leth Lunastre.|
-T Lunastre Estate Teleporter Online!|QID|43811|M|43.66,79.21|Z|Suramar|N|To Ly'leth Lunastre.|
-C Blood of My Blood|QID|41989|M|42.12,78.73|Z|Suramar|QO|1|N|1/1 Lunastre Memorial inspected|
-C Blood of My Blood|QID|41989|M|42.12,78.73|Z|Suramar|QO|2|N|1/1 Anarys Lunastre defeated|
-C Blood of My Blood|QID|41989|M|43.32,78.73|Z|Suramar|QO|3|N|1/1 Anarys delivered to Ly'leth|
-T Blood of My Blood|QID|41989|M|43.34,78.73|Z|Suramar|N|To Ly'leth Lunastre.|
-A Masquerade|QID|42079|M|43.34,78.73|Z|Suramar|N|From Ly'leth Lunastre.|
-C Masquerade|QID|42079|M|43.36,78.84|Z|Suramar|QO|1|U|136970|N|1/1 Mask of Mirror Image used on Anarys|
-T Masquerade|QID|42079|M|43.37,78.77|Z|Suramar|N|To Ly'leth Lunastre.|
-A First Contact|QID|42147|M|43.37,78.77|Z|Suramar|N|From Ly'leth Lunastre.|
-C First Contact|QID|42147|M|42.78,60.26|Z|Suramar|QO|1|N|1/1 Speak with Vanthir|
-A Sanctum of Order Teleporter Online!|QID|43813|M|43.39,60.65|Z|Suramar|
-T Sanctum of Order Teleporter Online!|QID|43813|M|43.39,60.65|Z|Suramar|
-T First Contact|QID|42147|M|37.05,46.25|Z|Suramar|N|To First Arcanist Thalyssra.|
-
-; The Light Below Storyline (An Ancient Gift Side Storyline)
-; Need to have BOTH Masquerade and Feeding Shal'Aran done.  PRE 42147 and 41138
-
-A Arcane Communion|QID|40324|M|37.05,46.25|Z|Suramar|N|From First Arcanist Thalyssra.|PRE|41138;42147|
-C Arcane Communion|QID|40324|M|37.11,46.29|Z|Suramar|QO|1|N|1/1 Theryn fed|
-T Arcane Communion|QID|40324|M|37.08,46.27|Z|Suramar|N|To First Arcanist Thalyssra.|
-A Scenes from a Memory|QID|40325|M|37.08,46.27|Z|Suramar|N|Click the memories to clear them.|
-C Scenes from a Memory|QID|40325|M|37.04,46.19|Z|Suramar|QO|1|N|1/1 Complete the Arcane Communion|
-T Scenes from a Memory|QID|40325|M|37.06,46.23|Z|Suramar|N|To First Arcanist Thalyssra.|
-A Cloaked in Moonshade|QID|42224|M|37.06,46.23|Z|Suramar|N|From First Arcanist Thalyssra.|
-C Cloaked in Moonshade|QID|42224|M|18.30,38.50|Z|Suramar|QO|1|N|1/1 Explore Moonshade Sanctum|
-T Cloaked in Moonshade|QID|42224|M|17.37,37.85|Z|Suramar|
-A Breaking the Seal|QID|42225|M|17.37,37.85|Z|Suramar|
-C Breaking the Seal|QID|42225|M|17.37,37.70|Z|Suramar|QO|3|N|1/1 Seal of the Sky broken|
-C Breaking the Seal|QID|42225|M|17.23,37.72|Z|Suramar|QO|2|N|1/1 Seal of the Earth broken|
-C Breaking the Seal|QID|42225|M|17.32,37.99|Z|Suramar|QO|1|N|1/1 Seal of the Tides broken|
-T Breaking the Seal|QID|42225|M|17.40,37.92|Z|Suramar|N|To Moonfall Stalker.|
-A Moonshade Holdout|QID|42226|M|17.40,37.92|Z|Suramar|
-C Moonshade Holdout|QID|42226|M|17.48,37.76|Z|Suramar|QO|1|N|1/1 Fal'dorei Webslinger slain|
-C Moonshade Holdout|QID|42226|M|17.26,38.03|Z|Suramar|QO|2|N|1/1 Fal'dorei Broodcaller slain|
-C Moonshade Holdout|QID|42226|M|17.31,38.05|Z|Suramar|QO|3|N|1/1 Fal'dorei Widowmaker slain|
-T Moonshade Holdout|QID|42226|M|17.38,37.98|Z|Suramar|N|To Valewalker Farodin.|
-A Into the Crevasse|QID|42227|M|17.38,37.98|Z|Suramar|N|From Valewalker Farodin.|
-C Into the Crevasse|QID|42227|M|20.43,41.96|Z|Suramar|QO|1|N|1/1 Follow Valewalker Farodin|
-C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Suramar|QO|2|N|1/1 Enter Falanaar Tunnels|
-T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Suramar|N|To Valewalker Farodin.|
-A The Hidden City|QID|42228|M|48.88,43.38|Z|Suramar|N|From Valewalker Farodin.|
-C The Hidden City|QID|42228|M|33.10,61.74|Z|Suramar|QO|1|N|1/1 Orathiss slain|
-T The Hidden City|QID|42228|M|35.06,54.58|Z|Suramar|N|To Ancient Seed.|
-A The Valewalker's Burden|QID|42230|M|35.06,54.58|Z|Suramar|N|From Ancient Seed.|
-C The Valewalker's Burden|QID|42230|M|40.80,13.82|Z|Suramar|QO|1|N|1/1 Fal'adora Beacon activated|
-T The Valewalker's Burden|QID|42230|M|36.86,46.49|Z|Suramar|
-
-A Seed of Hope|QID|44561|M|36.86,46.49|Z|Suramar|N|From Valewalker Farodin.|
-A Cling to Hope|QID|40798|M|37.71,47.80|Z|Suramar|N|From Absolon.|
-T Cling to Hope|QID|40798|M|41.59,56.16|Z|Suramar|N|To Noressa.|
-
+R The Grand Promenade|QID|41762|M|36.34,44.89;37.19,46.32;41.63,54.04|CS|N|Take the Elune'eth portal out and then follow the road Southeast, then turn left on the road encircling the port.|
+K Kill Apothecary Faldren|QID|43580|M|42.37,56.33|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+R Lunastre Estate|QID|41762|M|39.05,70.55|N|Continue on the Grand Promanade (encirling road) until you meet up with Silgryn.|
+C Sympathizers Among the Shal'dorei|QID|41762|M|39.05,70.55|CHAT|N|Meet Silgryn.|
+T Sympathizers Among the Shal'dorei|QID|41762|M|40.17,70.79|N|Follow Silgryn down to beside the buildings and turn in.|
+A The Masks We Wear|QID|41834|M|40.17,70.79|N|From Silgryn.|
+C The Masks We Wear|QID|41834|M|40.21,72.33|QO|1|NC|N|Pick up the Enchanted Party Mask.|
+C The Masks We Wear|QID|41834|M|40.26,72.31|QO|2|U|136600|NC|N|Use the Enchanted Party Mask. Be aware of the NPCs who can see through your illusion. (indicated by a blue circle over their head). If necesary kill them and reapply the mask.|
+C The Masks We Wear|QID|41834|M|42.63,77.65|QO|3|S|CHAT|N|Speak with Masqued Revelers.|
+$ Small Treasure Chest|QID|43870|M|42.56,76.68|N|Loot chest for treasure and resources.|RANK|2|
+C The Masks We Wear|QID|41834|M|42.63,77.65|QO|3|US|CHAT|N|Finish up talking with Masqued Revelers.|
+C The Masks We Wear|QID|41834|M|43.33,78.69|QO|4|CHAT|N|Meet Ly'leth Lunastre.|
+T The Masks We Wear|QID|41834|M|43.35,78.70|N|To Ly'leth Lunastre.|
+A Blood of My Blood|QID|41989|M|43.35,78.70|N|From Ly'leth Lunastre.|
+C Blood of My Blood|QID|41989|M|42.12,78.73|QO|1|NC|N|Inspect the Lunastre Memorial stone.|
+C Blood of My Blood|QID|41989|M|42.12,78.73|QO|2|N|Defeat Anarys Lunastre.|
+C Blood of My Blood|QID|41989|M|43.32,78.73|QO|3|NC|N|Deliver Anarys to Ly'leth.|
+T Blood of My Blood|QID|41989|M|43.34,78.73|N|To Ly'leth Lunastre.|
+A Masquerade|QID|42079|M|43.34,78.73|N|From Ly'leth Lunastre.|
+C Masquerade|QID|42079|M|43.36,78.84|U|136970|N|Use Mask of Mirror Image on Anarys.|
+T Masquerade|QID|42079|M|43.37,78.77|N|To Ly'leth Lunastre.|
+A First Contact|QID|42147|M|43.37,78.77|N|From Ly'leth Lunastre.|
+A Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|N|From Unpowered Telemancy Beacon.|
+T Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|N|To Unpowered Telemancy Beacon.|
+K Kill Magister Phaedris|QID|43348|M|41.99,79.87|N|Silver - Kill and loot for treasure and resources.|ITEM|140405|RANK|2|
+R The Grand Promanade|QID|42147|M|42.81,60.35|CC|N|Reapply your mask via the Extra Action Button(and avid the NPCs who see illusion) and ride over to see Vanthir.|
+C First Contact|QID|42147|M|42.78,60.26|CHAT|N|Speak with Vanthir.|
+R Sanctum of Order|QID|42147|M|42.93,61.97;44.27,62.95;44.59,62.12|CS|N|Into the building and down.|
+A Sanctum of Order Teleporter Online!|QID|43813|M|43.39,60.65|N|From Unpowered Telemancy Beacon.|
+T Sanctum of Order Teleporter Online!|QID|43813|M|43.39,60.65|N|To Unpowered Telemancy Beacon.|
+R Portal to Shal'Aran|QID|42147|M|43.39,60.65|CC|N|Use the portal to travel back to Shal'Aran.|
+T First Contact|QID|42147|M|37.05,46.25|N|To First Arcanist Thalyssra.|
+A Arcane Communion|QID|40324|M|37.05,46.25|N|From First Arcanist Thalyssra.|
+C Arcane Communion|QID|40324|M|37.11,46.29|NC|N|Give Theryn ancient mana.|
+T Arcane Communion|QID|40324|M|37.08,46.27|N|To First Arcanist Thalyssra.|
+A Scenes from a Memory|QID|40325|M|37.08,46.27|N|Click the memories to clear them.|
+C Scenes from a Memory|QID|40325|M|37.04,46.19|NC|N|Click on the memories to banish them.|
+T Scenes from a Memory|QID|40325|M|37.06,46.23|N|To First Arcanist Thalyssra.|
+A Cloaked in Moonshade|QID|42224|M|37.06,46.23|N|From First Arcanist Thalyssra.|
+A Cling to Hope|QID|40798|M|37.71,47.80|N|From Absolon.|
+;Falanaar story arc
+R Moonshade Sanctum|QID|42224|M|36.34,44.89;36.58,45.54;30.51,42.21|CS|N|Take the Elune'eth portal out and then follow the road West towards Moonshade Sanctum.|
+C Cloaked in Moonshade|QID|42224|M|18.30,38.50|NC|N|Explore Moonshade Sanctum.|
+T Cloaked in Moonshade|QID|42224|M|17.37,37.85|N|To Moonshade Relic.|
+A Breaking the Seal|QID|42225|M|17.37,37.85|N|From Moonshade Relic.|
+C Breaking the Seal|QID|42225|M|17.37,37.70|NC|N|Click on the switches until both beams flow to the same seal, then click the seal. Repeat for the other two seals.|
+T Breaking the Seal|QID|42225|M|17.40,37.92|N|To Moonfall Stalker.|
+A Moonshade Holdout|QID|42226|M|17.40,37.92|
+C Moonshade Holdout|QID|42226|M|17.48,37.76|QO|1|N|Kill Fal'dorei Webslinger.|
+C Moonshade Holdout|QID|42226|M|17.26,38.03|QO|2|N|Kill Fal'dorei Broodcaller.|
+C Moonshade Holdout|QID|42226|M|17.31,38.05|QO|3|N|Kill Fal'dorei Widowmaker.|
+T Moonshade Holdout|QID|42226|M|17.38,37.98|N|To Valewalker Farodin.|
+A Into the Crevasse|QID|42227|M|17.38,37.98|N|From Valewalker Farodin.|
+C Into the Crevasse|QID|42227|M|20.43,41.96|QO|1|NC|N|Follow Valewalker Farodin. Make sure you jump INTO the water, the fall will kill you otherwise.|
+C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Falanaar Tunnels@Suramar|QO|2|N|Enter Falanaar Tunnels.|
+T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|To Valewalker Farodin.|
+A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|From Valewalker Farodin.|
+$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for some storeable ancient mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
+R Falanaar South Leyline|QID|43593|M|40.99,45.47;45.03,54.61;41.80,66.64|CC|Z|Falanaar Tunnels@Suramar|N|Increases your ancient mana cap and faction is handy|RANK|2|
+A Leyline Feed Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|From/To Leyline Focus.|RANK|2|
+R Falanaar North Leyline|QID|43592|M|42.49,70.68;45.03,54.61;57.26,45.16|CC|Z|Falanaar Tunnels@Suramar|N|Run to the Arcway to get the other Falanaar leyline.|RANK|2|
+A Leyline Feed: Falanaar Arcway|QID|43592|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|From/To Leyline Focus. Dispite being Silver Elite, there is no quest/reward for killing Broodmother Shu'holis unless you have it as a world quest.|RANK|2|
+$ Small Treasure Chest|QID|43839|M|56.20,36.01;48.68,42.60|CS|Z|Falanaar Tunnels@Suramar|N|Run back out of this room, you will see Orathiss waiting for you. While following Orathiss, slight detour here for a chest. Loot for treasure and resources.|RANK|2|
+;probably need a rank -1 R step also
+R Shattered Locus|QID|42228|M|56.20,36.01;53.10,26.23;47.95,14.07|CS|Z|Falanaar Tunnels@Suramar|N|Back across the webs to where you entered and continue following Orathiss back to the Shattered Locus.|
+C The Hidden City|QID|42228|M|34.61,56.61|CS|Z|Temple of Fal'adora@Suramar|N|Kill Orathiss.|
+T The Hidden City|QID|42228|M|35.21,54.35|Z|Temple of Fal'adora@Suramar|N|To Ancient Seed.|
+A The Valewalker's Burden|QID|42230|M|35.21,54.35|Z|Temple of Fal'adora@Suramar|N|From Ancient Seed.|
+C The Valewalker's Burden|QID|42230|M|40.80,13.82|Z|Temple of Fal'adora@Suramar|NC|N|Follow Valewalker Farodin to find the beacon. Activate the Fal'adora Beacon.|
+T The Valewalker's Burden|QID|42230|M|36.86,46.49|N|To Seedholder.|
+A Seed of Hope|QID|44561|M|36.86,46.49|N|From Valewalker Farodin.|
+A Leyline Apprentice|QID|44492|M|37.01,46.39|N|From/To Arcanist Valtrois.|
+A Building an Army|QID|44636|M|36.88,46.60|N|From First Arcanist Thalyssra.|
+A Lady Lunastre|QID|41877|M|36.88,46.60|N|From First Arcanist Thalyssra.|
+C Building an Army|QID|44636|M|36.88,46.60|CHAT|N|Talk to Thalyssra to start a solo scenario, good for building faction and other rewards. Manually check off if you don't want to do this now.|
+t Building an Army|QID|44636|M|22.69,36.69|N|To UI Alert.|
+C Loadout|QID|43988|SO|1|M|22.69,36.69|NC|N|Speak with Thalyssra to assemble your withered army.|;need a qid???
+C Down in the Depths|QID|43988|SO|2|M|50.03,60.57|Z|Suramar/1|N|Enter the Collapse and proceed as far as you can. Dying, losing all your withered, or speaking with Thalyssra again will end the scenario.|;need a qid???
+C Spoils of War|QID|43988|SO|3|M|22.85,36.20|NC|N|Return to the entrance of the Collapse and collect any rewards that you found. You can do this scenario once a day.|;need a qid???
+P Telemancer Beacon|QID|43988|M|22.69,36.69|N|Return to Shal'Aran and talk to Thalyssra to do this again if you like. *you can now do this daily for faction and resources*.|
+P Falanaar Portal|QID|43988|M||N|Return to Falanaar, to get a treasure and raise your ancient mana cap.|
+$ Volotile Leyline Crystal|QID|43988|M|42.69,30.93;35.52,52.77|CS|Z|Temple of Fal'adora@Suramar|ITEM|140328|U|140328|N|Down the stairs and in the center of the room. Loot and use to increase the amount of Ancient Mana you can hold.|
+$ Small Treasure Chest|QID|43838|M|38.25,53.96|Z|Temple of Fal'adora@Suramar|N|Loot for a bit of treasure and resources.|RANK|2|
+;need a run step to guide you outside
+R Irongrove Retreat|QID|41452|M|22.48,30.26|N|Run across the river and through Feathermane Hunting Grounds.|
+f Irongrove Retreat|QID|41452|M|25.47,31.76|N|At Alyndra Stormgazer.|
 ; Eminent Grow-Main Side Storyline
 ; Requires the main questline done to open (PRE|42229|)
+A Feline Frantic|QID|41452|M|25.67,30.95|N|From Mayruna Moonwing.|PRE|42229|
+C Feline Frantic|QID|41452|M|25.64,30.83|NC|QO|1|N|Tidy the Ransacked Crate.|
+C Feline Frantic|QID|41452|M|26.12,31.62|NC|QO|2|N|Correct Toppled Bench.|
+C Feline Frantic|QID|41452|M|26.47,31.78|NC|QO|3|N|Collect the Spilled Grain.|
+C Feline Frantic|QID|41452|M|26.74,30.65|NC|QO|4|N|Right the Fallen Wagon.|
+T Feline Frantic|QID|41452|M|25.69,30.89|N|To Mayruna Moonwing.|
+A Missing Along the Way|QID|41463|M|25.69,30.89|N|From Mayruna Moonwing.|PRE|41452|
+A Homeward Bounding|QID|41453|M|25.67,30.92|N|From Mardranel Forestheart.|PRE|41452|
+C Homeward Bounding|QID|41453|M|24.39,31.90;22.93,30.48|CS|NC|QO|1|N|Chase the Lost Owlkitten Across the Bridge by standing behind him.|
+C Homeward Bounding|QID|41453|M|21.52,30.45|NC|QO|2|N|Follow the Lost Owlkitten Home.|
+T Homeward Bounding|QID|41453|M|21.41,30.63|N|To Mardranel Forestheart.|
+A You've Got to Be Kitten Me Right Meow|QID|41197|M|21.41,30.63|N|From Mardranel Forestheart.|PRE|41453|
+C You've Got to Be Kitten Me Right Meow|QID|41197|M|21.44,30.55|S|N|Herding cats! stand behind them facing the way you want them to run, and they may go that way.|
+K Starving Ettin|QID|41462|M|21.75,29.42|L|137179|U|137179|N|Kill and loot the Starving Ettin who wanders thru this area, for an item that starts a quest.|
+A Trouble Has Huge Feet|QID|41462|M|21.75,29.42|N|From Grotesque Ettin Leather.|
+C You've Got to Be Kitten Me Right Meow|QID|41197|M|21.44,30.55|N|Finish Herding Lost Feathermane Kittens.|
+T Trouble Has Huge Feet|QID|41462|M|21.40,30.63|N|To Mardranel Forestheart.|
+T You've Got to Be Kitten Me Right Meow|QID|41197|M|21.40,30.63|N|To Mardranel Forestheart.|
+T Missing Along the Way|QID|41463|M|19.58,22.38|N|To Kalendros Irongrove.|
+A Not Here, Not Now, Not Ever|QID|41464|M|19.58,22.38|N|From Kalendros Irongrove.|
+C Not Here, Not Now, Not Ever|QID|41464|M|18.42,21.27|S|N|Destroy Darkfiend Totems. A satyr horn is required to destroy the totem.|U|137189|
+$ Small Treasure Chest|QID|43846|M|16.60,29.74|N|Loot for a bit of treasure and resources.|RANK|2|
+K Kill Shadowquill|QID|43996|QO|1|ITEM|140401|N|Kill and loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43845|M|19.78,16.03|N|Loot for a bit of treasure and resources.|RANK|2|
+C Not Here, Not Now, Not Ever|QID|41464|M|18.42,21.27|US|N|Destroy Darkfiend Totems.|U|137189|
+T Not Here, Not Now, Not Ever|QID|41464|M|19.58,22.38|N|To Kalendros Irongrove.|
+A The Only Choice We Can Make|QID|41467|M|19.58,22.38|N|From Kalendros Irongrove.|
+C The Only Choice We Can Make|QID|41467|M|19.84,22.36|QO|1|N|Incinerate Shaladrassil Root.|U|135534|
+A Redhoof the Ancient|QID|41473|M|25.69,30.92|N|From Mayruna Moonwing.|
+T The Only Choice We Can Make|QID|41467|M|25.69,30.92|N|To Mayruna Moonwing.|
+T Redhoof the Ancient|QID|41473|M|28.31,29.71|N|To Mythandros Irongrove.|
+A Fertilizing the Future|QID|41474|M|28.31,29.71|N|From Mythandros Irongrove.|
+A Prongs and Fangs|QID|41475|M|28.31,29.71|N|From Mythandros Irongrove.|
+C Prongs and Fangs|QID|41475|M|28.89,36.54|QO|1|S|N|Kill Suramar Snarlers.|
+C Fertilizing the Future|QID|41474|M|27.90,32.82|S|N|Plant Lush Grass Seeds.|
+C Prongs and Fangs|QID|41475|M|30.10,32.39|QO|2|N|Kill Gloomfang.|
+C Fertilizing the Future|QID|41474|M|27.90,32.82|US|N|Finish planting Lush Grass Seeds.|
+C Prongs and Fangs|QID|41475|M|28.89,36.54|QO|1||US|N|Finish killing Suramar Snarlers.|
+T Fertilizing the Future|QID|41474|M|28.25,29.67|N|To Mythandros Irongrove.|
+T Prongs and Fangs|QID|41475|M|28.25,29.67|N|To Mythandros Irongrove.|
+A The Final Blessing|QID|41478|M|28.25,29.67|N|From Mythandros Irongrove.|
+T The Final Blessing|QID|41478|M|30.31,30.71|N|To Solendra Featherdown.|
+A Natural Adversaries|QID|41479|M|30.31,30.71|N|From Solendra Featherdown.|
+A Managazer|QID|41480|M|30.31,30.71|N|From Solendra Featherdown.|
+A Moonwhisper Rescue|QID|41485|M|30.31,30.71|N|From Solendra Featherdown.|
+C Natural Adversaries|QID|41479|M|30.90,26.30|S|N|Kill Manascale Basilisk.|
+C Moonwhisper Rescue|QID|41485|M|31.55,27.74|S|U|136605|NC|N|Cleanse Petrified Nightsabers.|
+C Managazer|QID|41480|M|33.21,24.51|QO|1|N|Kill Managazer (Inside Cave).|
+C Moonwhisper Rescue|QID|41485|M|31.55,27.74|US|NC|U|136605|N|Finish cleansing Petrified Nightsabers.|
+C Natural Adversaries|QID|41479|M|30.90,26.30|US|N|Kill Manascale Basilisk.|
+T Natural Adversaries|QID|41479|M|30.37,30.79|N|To Solendra Featherdown.|
+T Managazer|QID|41480|M|30.37,30.79|N|To Solendra Featherdown.|
+T Moonwhisper Rescue|QID|41485|M|30.37,30.79|N|To Solendra Featherdown.|
+A Return to Irongrove Retreat|QID|41469|M|30.37,30.79|N|From Solendra Featherdown.|
+T Return to Irongrove Retreat|QID|41469|M|26.18,31.32|N|To Mythandros Irongrove.|
+A Eminent Grow-main|QID|41494|M|26.18,31.32|N|From Mythandros Irongrove.|
+C Eminent Grow-main|QID|41494|M|26.18,31.18|NC|N|Click on the bowl to imbue the Inert Waters and wait a bit for the ritual to complete.|
+T Eminent Grow-main|QID|41494|M|26.07,31.31|N|To Mayruna Moonwing.|
+A Scouting the Crimson Thicket|QID|42223|M|26.22,31.32|N|From Solendra Featherdown.|
 
-A Feline Frantic|QID|41452|M|25.67,30.95|Z|Suramar|N|From Mayruna Moonwing.|
-C Feline Frantic|QID|41452|M|25.64,30.83|Z|Suramar|QO|1|N|1/1 Tidy the Ransacked Crate|
-C Feline Frantic|QID|41452|M|26.12,31.62|Z|Suramar|QO|2|N|1/1 Correct Toppled Bench|
-C Feline Frantic|QID|41452|M|26.42,31.74|Z|Suramar|QO|3|N|1/1 Collect the Spilled Grain|
-C Feline Frantic|QID|41452|M|26.74,30.65|Z|Suramar|QO|4|N|1/1 Right the Fallen Wagon|
-T Feline Frantic|QID|41452|M|25.69,30.89|Z|Suramar|N|To Mayruna Moonwing.|
-A Missing Along the Way|QID|41463|M|25.69,30.89|Z|Suramar|N|From Mayruna Moonwing.|
-A Homeward Bounding|QID|41453|M|25.69,30.89|Z|Suramar|N|From Mardranel Forestheart.|
-C Homeward Bounding|QID|41453|M|22.93,30.48|Z|Suramar|QO|1|N|1/1 Chase the Lost Owlkitten Across the Bridge|
-C Homeward Bounding|QID|41453|M|21.52,30.45|Z|Suramar|QO|2|N|1/1 Follow the Lost Owlkitten Home|
-T Homeward Bounding|QID|41453|M|21.46,30.59|Z|Suramar|N|To Mardranel Forestheart.|
-A You've Got to Be Kitten Me Right Meow|QID|41197|M|21.46,30.59|Z|Suramar|N|From Mardranel Forestheart.|
-A Trouble Has Huge Feet|QID|41462|M|21.75,29.42|Z|Suramar|N|From Starving Ettin.|
-T Trouble Has Huge Feet|QID|41462|M|21.43,30.61|Z|Suramar|N|To Mardranel Forestheart.|
-C You've Got to Be Kitten Me Right Meow|QID|41197|M|21.44,30.55|Z|Suramar|QO|1|N|7/7 Lost Feathermane Kittens Herded|
-T You've Got to Be Kitten Me Right Meow|QID|41197|M|21.44,30.55|Z|Suramar|N|To Mardranel Forestheart.|
-T Missing Along the Way|QID|41463|M|19.55,22.43|Z|Suramar|N|To Kalendros Irongrove.|
-A Not Here, Not Now, Not Ever|QID|41464|M|19.55,22.43|Z|Suramar|N|From Kalendros Irongrove.|
-C Not Here, Not Now, Not Ever|QID|41464|M|18.42,21.27|Z|Suramar|QO|1|N|3/3 Destroy Darkfiend Totems|
-T Not Here, Not Now, Not Ever|QID|41464|M|19.56,22.42|Z|Suramar|N|To Kalendros Irongrove.|
-A The Only Choice We Can Make|QID|41467|M|19.56,22.42|Z|Suramar|N|From Kalendros Irongrove.|
-C The Only Choice We Can Make|QID|41467|M|19.84,22.36|Z|Suramar|QO|1|N|1/1 Shaladrassil Root Incinerated|
-A Redhoof the Ancient|QID|41473|M|25.69,30.92|Z|Suramar|N|From Mayruna Moonwing.|
-T The Only Choice We Can Make|QID|41467|M|25.69,30.92|Z|Suramar|N|To Mayruna Moonwing.|
-T Redhoof the Ancient|QID|41473|M|28.27,29.69|Z|Suramar|N|To Mythandros Irongrove.|
-A Fertilizing the Future|QID|41474|M|28.27,29.69|Z|Suramar|N|From Mythandros Irongrove.|
-A Prongs and Fangs|QID|41475|M|28.27,29.69|Z|Suramar|N|From Mythandros Irongrove.|
-C Prongs and Fangs|QID|41475|M|30.10,32.39|Z|Suramar|QO|2|N|1/1 Gloomfang slain|
-C Fertilizing the Future|QID|41474|M|27.90,32.82|Z|Suramar|QO|1|N|5/5 Lush Grass Seeds Planted|
-C Prongs and Fangs|QID|41475|M|28.89,36.54|Z|Suramar|QO|1|N|8/8 Suramar Snarler slain|
-T Fertilizing the Future|QID|41474|M|28.25,29.67|Z|Suramar|N|To Mythandros Irongrove.|
-T Prongs and Fangs|QID|41475|M|28.25,29.67|Z|Suramar|N|To Mythandros Irongrove.|
-A The Final Blessing|QID|41478|M|28.25,29.67|Z|Suramar|N|From Mythandros Irongrove.|
-T The Final Blessing|QID|41478|M|30.31,30.71|Z|Suramar|N|To Solendra Featherdown.|
-A Natural Adversaries|QID|41479|M|30.31,30.71|Z|Suramar|N|From Solendra Featherdown.|
-A Managazer|QID|41480|M|30.31,30.71|Z|Suramar|N|From Solendra Featherdown.|
-A Moonwhisper Rescue|QID|41485|M|30.31,30.71|Z|Suramar|N|From Solendra Featherdown.|
-C Moonwhisper Rescue|QID|41485|M|31.55,27.74|Z|Suramar|QO|1|U|136605|N|5/5 Petrified Nightsabers Cleansed|
-C Managazer|QID|41480|M|33.21,24.51|Z|Suramar|QO|1|N|1/1 Managazer slain. In Cave.|
-C Natural Adversaries|QID|41479|M|30.90,26.30|Z|Suramar|QO|1|N|8/8 Manascale Basilisk slain|
-T Natural Adversaries|QID|41479|M|30.37,30.79|Z|Suramar|N|To Solendra Featherdown.|
-T Managazer|QID|41480|M|30.37,30.79|Z|Suramar|N|To Solendra Featherdown.|
-T Moonwhisper Rescue|QID|41485|M|30.37,30.79|Z|Suramar|N|To Solendra Featherdown.|
-A Return to Irongrove Retreat|QID|41469|M|30.37,30.79|Z|Suramar|N|From Solendra Featherdown.|
-T Return to Irongrove Retreat|QID|41469|M|26.18,31.32|Z|Suramar|N|To Mythandros Irongrove.|
-A Eminent Grow-main|QID|41494|M|26.18,31.32|Z|Suramar|N|From Mythandros Irongrove.|
-C Eminent Grow-main|QID|41494|M|26.18,31.18|Z|Suramar|QO|1|N|1/1 Inert Waters Imbued|
-C Eminent Grow-main|QID|41494|M|26.04,31.27|Z|Suramar|QO|2|N|1/1 Ritual Completed|
-T Eminent Grow-main|QID|41494|M|26.07,31.31|Z|Suramar|N|To Mayruna Moonwing.|
+H Shal'Aran|QID|42223|N|Return to Shal'Aran.|
+A Leyline Apprentice|QID|44492|M|37.01,46.39|N|From/To Arcanist Valtrois.|
 
 ; Crimson Thicket Area
-
-A Scouting the Crimson Thicket|QID|42223|M|26.22,31.32|Z|Suramar|N|From Solendra Featherdown.|
-A Scouting the Crimson Thicket|QID|42223|M|26.00,31.26|Z|Suramar|
-A Leyline Feed: Falanaar Depths|QID|43593|M|57.77,75.37|Z|Suramar|N|From Hungering Husk.|
-T Leyline Feed: Falanaar Depths|QID|43593|M|57.77,75.37|Z|Suramar|N|To Hungering Husk.|
-A Leyline Feed: Falanaar Arcway|QID|43592|M|25.10,44.30|Z|Suramar|N|From Leyline Spiderling.|
-C Leyline Feed: Falanaar Arcway|QID|43592|M|66.09,52.06|Z|Suramar|QO|1|N|343/250 Ancient Mana|
-T Leyline Feed: Falanaar Arcway|QID|43592|M|66.19,52.92|Z|Suramar|N|To Broodmother Shu'malis.|
-A Leyline Apprentice|QID|44492|M|37.01,46.39|Z|Suramar|N|From Arcanist Valtrois.|
-T Leyline Apprentice|QID|44492|M|37.01,46.39|Z|Suramar|N|To Arcanist Valtrois.|
-A Scouting the Crimson Thicket|QID|42223|M|49.73,82.18|Z|Suramar|
-A Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|Z|Suramar|N|From Kozak the Afflictor.|
-C Leyline Feed: Halls of the Eclipse|QID|43594|M|29.19,84.73|Z|Suramar|QO|1|N|254/250 Ancient Mana|
-T Leyline Feed: Halls of the Eclipse|QID|43594|M|27.26,86.38|Z|Suramar|N|To Legion Endbringer.|
-A Felsoul Teleporter Online!|QID|41575|M|39.30,76.30|Z|Suramar|
-T Felsoul Teleporter Online!|QID|41575|M|39.30,76.30|Z|Suramar|
+P Sanctum of Order|QID|40798|M|36.69,44.65|N|Take the portal to Sanctum of Order.|
+T Cling to Hope|QID|40798|M|41.59,56.16|N|To Noressa.|
+R Crimson Thicket|QID|42223|M|61.86,49.11|N|Run to the Crimson Thicket.|
 T Scouting the Crimson Thicket|QID|42223|M|61.86,49.11|Z|Suramar|N|To Lilryia Dawnwind.|
 A Turn Around, Nighteyes|QID|40617|M|61.86,49.11|Z|Suramar|N|From Lilryia Dawnwind.|
 C Turn Around, Nighteyes|QID|40617|M|64.48,46.36|Z|Suramar|QO|1|N|1/1 Nighteyes located|
@@ -521,6 +568,12 @@ C The Master's Legacy|QID|41915|M|36.23,60.31;35.28,61.57|CC|QO|1|N|Open Crest, 
 C The Master's Legacy|QID|41915|M|35.62,61.23|QO|2|N|Slay Lespin and Company|
 T The Master's Legacy|QID|41915|M|41.66,71.07|N|To Apprentice Ardrias.|
 ; Quests in Felsoul Hold Breaking The Lightbreaker Story Line.
+;moving these 3 quests here so they dont get lost. most likely not the right place
+A Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|N|From Kozak the Afflictor.|
+C Leyline Feed: Halls of the Eclipse|QID|43594|M|29.19,84.73|QO|1|N|254/250 Ancient Mana|
+T Leyline Feed: Halls of the Eclipse|QID|43594|M|27.26,86.38|N|To Legion Endbringer.|
+A Felsoul Teleporter Online!|QID|41575|M|39.30,76.30|N|From Unpowered Telemancy Beacon.|;53.45,37.31?
+T Felsoul Teleporter Online!|QID|41575|M|39.30,76.30|N|To Unpowered Telemancy Beacon.|
 
 A A Different Source|QID|40625|M|26.78,70.82|N|From Kyrtos.|
 C A Different Source|QID|40625|M|32.50,66.74|QO|1|N|Kill Abhorrent Artificers in the area for Fel Deconstructor|

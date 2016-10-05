@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-10-04 09:52
+-- Who: Emmaleah
+-- Log: added LVL|103| to the Hunter quests
+
+-- URL: http://wow-pro.com/node/3665/revisions/27846/view
 -- Date: 2016-09-27 08:48
 -- Who: Emmaleah
 
@@ -333,12 +338,12 @@ A The Farmsteads|QID|38644|M|42.13,59.06|N|From Emmeline.|
 f Bradensbrook|QID|38644|M|42.24,58.45|N|At Douglas Carrington.|
 $ Treasure|QID|39077|M|42.66,58.02|N|Inside the house is a chest to loot for a bit of treasure and resources.|RANK|2|
 C Children of the Night|QID|38645|M|38.95,61.56|S|N|Kill the Black Rook enemies as you go about the other tasks.|
-C Lending a Helping Hand|QID|42385|M|41.69,60.00|N|To Hudson Crawford.|C|Hunter|
-A Rising Troubles|QID|42386|M|41.69,60.00|N|From Hudson Crawford.|C|Hunter|
-A Assassom Entrapment|QID|42387|M|41.69,60.00|N|From Hudson Crawford.|C|Hunter|
-C Rising Troubles|QID|42386|M|41.69,60.00|S|N|When killing enemies prioritize the hounds to get this quest done also.|C|Hunter|
-C Assassom Entrapment|QID|42387|M|39.51,61.60|QO|1|U|137551|NC|N|Place the trap.|C|Hunter|
-C Assassom Entrapment|QID|42387|M|39.51,61.60|QO|2|T|Captain Tevaris|N|Kill Captain Tevaris.|C|Hunter|
+C Lending a Helping Hand|QID|42385|M|41.69,60.00|N|To Hudson Crawford.|C|Hunter|LVL|103|
+A Rising Troubles|QID|42386|M|41.69,60.00|N|From Hudson Crawford.|C|Hunter|LVL|103|
+A Assassom Entrapment|QID|42387|M|41.69,60.00|N|From Hudson Crawford.|C|Hunter|LVL|103|
+C Rising Troubles|QID|42386|M|41.69,60.00|S|N|When killing enemies prioritize the hounds to get this quest done also.|C|Hunter|LVL|103|
+C Assassom Entrapment|QID|42387|M|39.51,61.60|QO|1|U|137551|NC|N|Place the trap.|C|Hunter|LVL|103|
+C Assassom Entrapment|QID|42387|M|39.51,61.60|QO|2|T|Captain Tevaris|N|Kill Captain Tevaris.|C|Hunter|LVL|103|
 C The Farmsteads|QID|38644|M|38.95,61.56|QO|2|NC|N|Check the Corn Fields.|
 A A Sight For Sore Eyes|QID|38646|M|38.89,61.44|N|From Granny Marl.|
 A For the Corn!|QID|38647|M|38.89,61.44|N|From Granny Marl.|

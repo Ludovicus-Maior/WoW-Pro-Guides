@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-10-04 09:56
+-- Who: Emmaleah
+-- Log: Added |NA| to 2 Braid of the Underking and The Nightmare Lash
+--	Added first few LVL 110 quests
+
+-- URL: http://wow-pro.com/node/3668/revisions/27820/view
 -- Date: 2016-09-19 22:15
 -- Who: Ludovicus
 -- Log: Removed duplicate LVL|105
@@ -200,13 +206,36 @@ A Steeds of the Damned|QID|43899|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|
 C Steeds of the Damned|QID|43899|M|49.66,51.25|NC|N|Use the scouting map to send your followers on the next mission, "Seeds of the Damned.". These 5 missions are each 8 hours (if you cover all the threats). You will need to manually check this step off to progress the guide before the mission is finished.|
 t Steeds of the Damned|QID|43899|M|49.66,51.25|N|To Siouxsie the Banshee.|
 A Champion: Koltira|QID|44244|M|66.38,64.58|N|From/To Koltira.|PRE|42708|
-A Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenShore|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|42537|
+A Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenShore|NA|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|42537|
 t Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
 U Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|At Korgaz Deadaxe. Click on him to train some better troops. Don't forget to come back and pick them up when training is completed.|
 T Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|To Korgaz Deadaxe.|
-A The Nightmare Lash|QID|43572|M|98.8,59.2|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|44082|
+A The Nightmare Lash|QID|43572|M|98.8,59.2|NA|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|44082+43571|
 t The Nightmare Lash|QID|43572|M|98.8,59.2|N|To Salanar the Horseman.|
 N Class Hall Advancement|QID|43571|M|56.01,40.64|NC|N|Don't forget to go to Archivist Zubashi and choose your tier 2 order hall advancement. The rest of progressing your class hall requires level 110.|LVL|105|
+A Hitting the Books|QID|43877|M|49.75,55.89|N|From Illanna Dreadmoore|LVL|110|
+C Hitting the Books|QID|43877|M|49.75,55.89|N|Research your first artifact knowledge (and the 2nd if you have the resources). Keep checking in and researching as each one completes.|LVL|110|
+t Hitting the Books|QID|43877|M|49.75,55.89|N|To Illanna Dreadmoore|LVL|110|
+A Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|From Quartermaster Ozorg.|LVL|110|
+T Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|To Quartermaster Ozorg.|LVL|110|
+A Goddess Watch over You|QID|44337;44338|M|49.75,55.89|NA|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
+C Goddess Watch over You|QID|44338|N|You need to do the main Val'sharah quest line to complete this quest.|
+t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+R Death Gate|QID|44448|M|28.43,40.38|Z|Dalaran@Dalaran70|N|Return to your order hall.|ACTIVE|44448|LVL|110|
+C In the House of Light and Shadow|QID|44448|M||N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
+A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|From Camille Kleister.|LVL|110|
+C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|Toss water on the fire.|
+T Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|To Camille Kleister.|
+A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious Dust (in the wagon).|PRE|39838|
+C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
+C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
+C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
+C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
+t Trial By Fel Fire|QID|39863|N|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
+t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.
 
 ;2nd spec artifact
 A Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral, if you care about a secondary spec.|PRE|43539|LVL|102|

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-10-04 10:13
+-- Who: Emmaleah
+-- Log: added |NA| to A Wrath of Azshara (I know, this isn't an autoswitching guide.. but just in case someone changes it) 
+
+-- URL: http://wow-pro.com/node/3657/revisions/27866/view
+-- Date: 2016-10-04 03:15
+-- Who: Emmaleah
+-- Log: 2nd C Minion! Kill Them!|QID|38232|M|62.01,50.10|S 
+
+-- URL: http://wow-pro.com/node/3657/revisions/27862/view
 -- Date: 2016-10-02 20:07
 -- Who: Emmaleah
 -- Log: Changed QID so R Grey Shoals would auto check off on reload (sooner)
@@ -393,7 +403,7 @@ A Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|N|Auto accepted as you 
 C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|S|N|Kill Naga, loot the trident racks to activate an extra action button.|RANK|2|LVL|-109|
 C The Head of the Snake|QID|37470|M|62.05,41.57|N|Kill Athissa.|T|Athissa|
 T The Head of the Snake|QID|37470|M|61.70,41.08|N|To Prince Farondis.|
-A Wrath of Azshara|QID|38286|M|61.70,41.08|N|From Prince Farondis. Thia ia a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
+A Wrath of Azshara|QID|38286|M|61.70,41.08|NA|N|From Prince Farondis. Thia ia a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
 $ Small Treasure Chest|QID|42294|M|62.81,44.79|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42293|M|63.64,39.18|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Golza the Iron Fin|QID|42372|QO|1|M|65.17,40.02|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|;can not find QID for this encounter
@@ -452,7 +462,7 @@ A Minion! Kill Them!|QID|38232|M|61.22,50.74|N|From Daglop.|RANK|2|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|S|N|The olives are on the ground, the birds and cats drop the feathers and the shadowrunners drop the horns.|RANK|2|
 K Kill Treacherous Stallions|QID|44081|QO|1|M|60.25,46.14|ITEM|140685|T|Devious Sunrunner|N|Silver - Click on the Ley Portal to be transported to a treasure. Kill the Stallions, then loot the chest for a bit of treasure and resources.|RANK|3|
 $ Marius & Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|CS|ITEM|129068|T|Brogozog|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources.|RANK|3|
-C Minion! Kill Them!|QID|38232|M|62.01,50.10|S|N|Finish gathering the things Daglop wants.|RANK|2|
+C Minion! Kill Them!|QID|38232|M|62.01,50.10|US|N|Finish gathering the things Daglop wants.|RANK|2|
 T Minion! Kill Them!|QID|38232|M|61.89,49.63|RANK|2|
 A This IS In My Contract.|QID|38237|M|61.89,49.63|RANK|2|
 C This IS In My Contract.|QID|38237|QO|1|M|64.11,52.88|N|Run down to the beach, Daglop is standing in front of a cave, Speak with him to start the ritual|CHAT|RANK|2|
