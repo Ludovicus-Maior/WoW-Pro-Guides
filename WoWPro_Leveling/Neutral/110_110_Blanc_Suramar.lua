@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-05 09:36
+-- Who: Emmaleah
+-- Log: Delete US/ take out S for C Kel'Danath's legacy (no need for sticky since steps in between were moved. Improve path R Irongrove Retreat(still needs better). Add some NCs in the Irongrove Retreat quest line. Add QO|1| and RANK|2| where needed on most of the silver (rare) lines.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27876/view
 -- Date: 2016-10-05 03:24
 -- Who: Blanckaert
 -- Log: ok I think I fixed the switch around (double) of quests. Also moved three quest around in the Felsoul area.
@@ -164,15 +169,15 @@ A Scattered Memories|QID|40326|M|30.24,39.66|N|From an Enchanted Scroll.|PRE|400
 A A Re-Warding Effort|QID|41149|M|30.62,40.06|N|From an Arcane Ward.|ACTIVE|40326|
 C Scattered Memories|QID|40326|M|26.42,44.52|S|NC|N|Read Kel'danath's Notes.|
 C A Re-Warding Effort|QID|41149|M|24.97,44.24|S|N|Activate the Arcane Wards.|
-K Kill Shal'an|QID|42831|M|26.24,41.16|N|Silver - Kill Shal'an for a bit of treasure and resources.|ITEM|139926|T|Shal'an|
+K Kill Shal'an|QID|42831|QO|1|M|26.24,41.16|N|Silver - Kill Shal'an for a bit of treasure and resources.|ITEM|139926|T|Shal'an|RANK|2|
 $ Ancient Mana Chunk|QID|42827|M|26.35,41.27|N|Loot for an Ancient Mana item.|ITEM|139890|
-K Kill Oreth the Vile|QID|43449|M|24.61,47.25|N|Silver - Kill Oreth the Vile for a bit of treasure and resources.|T|Oreth the Vile|
+K Kill Oreth the Vile|QID|43449|QO|1|M|24.61,47.25|N|Silver - Kill Oreth the Vile for a bit of treasure and resources.|T|Oreth the Vile|RANK|2|
 $ Treasure Chest|QID|43842|M|23.40,48.77|N|Loot for a bit of treasure and resources.|
 C Scattered Memories|QID|40326|M|26.42,44.52|US|NC|N|Read Kel'danath's Notes.|
 C A Re-Warding Effort|QID|41149|M|24.97,44.24|US|N|Activate the Arcane Wards.|
 T A Re-Warding Effort|QID|41149|M|24.97,44.22|N|To UI Alert.|
 C Scattered Memories|QID|40326|M|26.42,44.52|US|NC|N|Finish reading Kel'danath's Notes.|
-K Kill Elfbane|QID|41319|M|22.6,51.6|N|Silver - Kill for treasure and resources. Soloable but difficult, friends are very handy here.|ITEM|121806|T|Elfbane|RANK|3|
+K Kill Elfbane|QID|41319|QO|1|M|22.6,51.6|N|Silver - Kill for treasure and resources. Soloable but difficult, friends are very handy here.|ITEM|121806|T|Elfbane|RANK|3|
 T Scattered Memories|QID|40326|M|20.92,52.28|N|To Kel'danath's Knapsack.|
 A Written in Stone|QID|41702|M|20.92,52.28|N|From Kel'danath's Knapsack.|PRE|40326|
 C Written in Stone|QID|41702|M|20.17,55.89|T|Arcanist Kel'danath|N|Kill Kel'danath and collect the Spellstone of Kel'danath.|
@@ -183,8 +188,7 @@ H Shal'Aran|QID|40956|M|36.56,46.92|N|Run to Shal'Aran if your hearthstone isn't
 C Subject 16|QID|41704|M|36.29,47.11|NC|N|Deliver Theryn to Thalyssra.|
 T Subject 16|QID|41704|M|36.55,46.91|N|To First Arcanist Thalyssra.|
 A Kel'danath's Legacy|QID|41760|PRE|41704|M|36.55,46.91|N|From First Arcanist Thalyssra.|
-C Kel'danath's Legacy|QID|41760|M|34.81,51.69|S|N|Use your extra action button to charm Withered.|
-C Kel'danath's Legacy|QID|41760|M|34.81,51.69|US|N|Use your extra action button to charm Withered.|
+C Kel'danath's Legacy|QID|41760|M|34.81,51.69|N|Use your extra action button to charm Withered.|
 T Kel'danath's Legacy|QID|41760|M|36.56,46.93|N|To First Arcanist Thalyssra.|
 A Tapping the Leylines|QID|40010|M|36.54,46.87|N|From First Arcanist Thalyssra.|PRE|40956|
 A Sympathizers Among the Shal'dorei|QID|41762|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|41760|
@@ -231,7 +235,7 @@ T Tapping the Leylines|QID|40010|M|39.76,29.69|N|To Arcanist Valtrois.|
 A Power Grid|QID|41028|M|39.76,29.69|N|From Arcanist Valtrois.|
 C Power Grid|QID|41028|M|52.93,55.83|NC|N|Valtrois leads you to a room with a 'high switch'. Follow the ley beam to the room with the 8 'low switches' and the 4 'seals'. Click on the switches to get the beams both pointed at the same seal. If you can't, follow the beam that isn't pointed where you want back to its 'high switch' and click it. Then run back to see if both beams are pointed at the same seal, if so, click on the seal. one down, 3 to go.  If not, click on the 'low switch' the beam goes through to point it at the seal, then click to lock it in. Rinse, repeat.|
 T Power Grid|QID|41028|M|39.52,29.08|N|To Arcanist Valtrois.|
-K Kill Myonix|QID|43358|M|40.77,32.87|N|Silver - Kill for a bit of treasure and resources.|
+K Kill Myonix|QID|43358|QO|1|M|40.77,32.87|N|Silver - Kill for a bit of treasure and resources.|RANK|2|
 $ Glimmering Treasure Chest|QID|43856|M|42.32,29.99;44.04,31.93|CS|N|Go inside the cave, up one level from Myonix, at the base of the waterfall. Loot for treasure and resources.|
 C Turtle Powered|QID|40368|M|37.11,38.20|US|N|Finish collecting the Shimmering Snapper Scales.|
 T Turtle Powered|QID|40368|M|43.39,41.69|N|To Morhun Rivertamer.|
@@ -263,7 +267,7 @@ A Fragments of Memory|QID|40308|M|49.09,34.35|N|From a Shattered Burial Urn.|
 C Fragments of Memory|QID|40308|M|51.96,29.95|S|N|You have a chance of collecting Tel'anor Mementos from all the mobs in this cave.|
 C Tools of the Trade|QID|40300|M|52.50,31.39|QO|3|NC|N|Pick up the Chest of Shrouds|
 $ Treasure|QID|43854|M|52.27,28.89|N|Loot for a bit of treasure and resources.|
-K Kill Garvrulg|QID|40897|QO|1|M|53.03,30.24|N|Silver - Kill and loot for a bit of treasure and resources.|
+K Kill Garvrulg|QID|40897|QO|1|M|53.03,30.24|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Dusty Treasure|QID|40767|M|52.72,31.30|N|Down the wooden stairs for this chest. Loot for a bit of treasure and resources.|
 C Fragments of Memory|QID|40308|M|51.96,29.95|S|N|Finish collecting Tel'anor Mementos.|
 C Tools of the Trade|QID|40300|M|47.79,34.45|QO|2|NC|N|Pick up the Bundle of Incense.|
@@ -299,7 +303,7 @@ T Feeding Shal'Aran|QID|41138|M|36.97,46.21|N|To Arcanist Valtrois.|
 ; Masquerade Story Line (Jump back to city), and Activating Sanctum of Order Teleporter
 
 R The Grand Promenade|QID|41762|M|36.34,44.89;37.19,46.32;41.63,54.04|CS|N|Take the Elune'eth portal out and then follow the road Southeast, then turn left on the road encircling the port.|
-K Kill Apothecary Faldren|QID|43580|M|42.37,56.33|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+K Kill Apothecary Faldren|QID|43580|QO|1|M|42.37,56.33|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 R Lunastre Estate|QID|41762|M|39.05,70.55|N|Continue on the Grand Promanade (encirling road) until you meet up with Silgryn.|
 C Sympathizers Among the Shal'dorei|QID|41762|M|39.05,70.55|CHAT|N|Meet Silgryn.|
 T Sympathizers Among the Shal'dorei|QID|41762|M|40.17,70.79|N|Follow Silgryn down to beside the buildings and turn in.|
@@ -322,7 +326,7 @@ T Masquerade|QID|42079|M|43.37,78.77|N|To Ly'leth Lunastre.|
 A First Contact|QID|42147|M|43.37,78.77|N|From Ly'leth Lunastre.|
 A Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|N|From Unpowered Telemancy Beacon.|
 T Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|N|To Unpowered Telemancy Beacon.|
-K Kill Magister Phaedris|QID|43348|M|41.99,79.87|N|Silver - Kill and loot for treasure and resources.|ITEM|140405|RANK|2|
+K Kill Magister Phaedris|QID|43348|QO|1|M|41.99,79.87|N|Silver - Kill and loot for treasure and resources.|ITEM|140405|RANK|2|
 R The Grand Promanade|QID|42147|M|42.81,60.35|CC|N|Reapply your mask via the Extra Action Button(and avid the NPCs who see illusion) and ride over to see Vanthir.|
 C First Contact|QID|42147|M|42.78,60.26|CHAT|N|Speak with Vanthir.|
 R Sanctum of Order|QID|42147|M|42.93,61.97;44.27,62.95;44.59,62.12|CS|N|Into the building and down.|
@@ -388,7 +392,7 @@ $ Small Treasure Chest|QID|43838|M|38.25,53.96|Z|Temple of Fal'adora@Suramar|N|L
 
 ;need a run step to guide you outside
 
-R Irongrove Retreat|QID|41452|M|22.48,30.26|N|Run across the river and through Feathermane Hunting Grounds.|
+R Irongrove Retreat|QID|41452|M|22.48,39.90;22.48,30.26|N|Run out of the temple, across the river and through Feathermane Hunting Grounds.|
 f Irongrove Retreat|QID|41452|M|25.47,31.76|N|At Alyndra Stormgazer.|
 
 ; Eminent Grow-Main Side Storyline
@@ -421,16 +425,18 @@ $ Small Treasure Chest|QID|43845|M|19.78,16.03|N|Loot for a bit of treasure and 
 C Not Here, Not Now, Not Ever|QID|41464|M|18.42,21.27|US|N|Destroy Darkfiend Totems.|U|137189|
 T Not Here, Not Now, Not Ever|QID|41464|M|19.58,22.38|N|To Kalendros Irongrove.|
 A The Only Choice We Can Make|QID|41467|M|19.58,22.38|N|From Kalendros Irongrove.|
-C The Only Choice We Can Make|QID|41467|M|19.84,22.36|QO|1|N|Incinerate Shaladrassil Root.|U|135534|
+C The Only Choice We Can Make|QID|41467|M|19.84,22.36|NC|N|Incinerate Shaladrassil Root.|U|135534|
+K Kill Rauren|QID|43484|M|24.03,25.48|QO|1|N|Silver - Kill and loot for a bit of treasure and resources.|T|Rauren|RANK|2|
+
 A Redhoof the Ancient|QID|41473|M|25.69,30.92|N|From Mayruna Moonwing.|
 T The Only Choice We Can Make|QID|41467|M|25.69,30.92|N|To Mayruna Moonwing.|
 T Redhoof the Ancient|QID|41473|M|28.31,29.71|N|To Mythandros Irongrove.|
 A Fertilizing the Future|QID|41474|M|28.31,29.71|N|From Mythandros Irongrove.|
 A Prongs and Fangs|QID|41475|M|28.31,29.71|N|From Mythandros Irongrove.|
 C Prongs and Fangs|QID|41475|M|28.89,36.54|QO|1|S|N|Kill Suramar Snarlers.|
-C Fertilizing the Future|QID|41474|M|27.90,32.82|S|N|Plant Lush Grass Seeds.|
+C Fertilizing the Future|QID|41474|M|27.90,32.82|S|NC|N|Plant Lush Grass Seeds.|
 C Prongs and Fangs|QID|41475|M|30.10,32.39|QO|2|N|Kill Gloomfang.|
-C Fertilizing the Future|QID|41474|M|27.90,32.82|US|N|Finish planting Lush Grass Seeds.|
+C Fertilizing the Future|QID|41474|M|27.90,32.82|US|NC|N|Finish planting Lush Grass Seeds.|
 C Prongs and Fangs|QID|41475|M|28.89,36.54|QO|1||US|N|Finish killing Suramar Snarlers.|
 T Fertilizing the Future|QID|41474|M|28.25,29.67|N|To Mythandros Irongrove.|
 T Prongs and Fangs|QID|41475|M|28.25,29.67|N|To Mythandros Irongrove.|
