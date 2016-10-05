@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-10-05 02:16
+-- Who: Ludovicus
+-- Log: Just a few tweaks as I started to give my Blood DK a second specialization.
+
+-- URL: http://wow-pro.com/node/3668/revisions/27869/view
 -- Date: 2016-10-04 09:56
 -- Who: Emmaleah
 -- Log: Added |NA| to 2 Braid of the Underking and The Nightmare Lash
@@ -128,13 +133,13 @@ C Tech it up a Notch|QID|43268|M|47.73,53.89|NC|N|Go to Archivist Zubashi and se
 T Tech it up a Notch|QID|43268|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|101|
 t Salanar the Horseman|QID|43539|M|49.66,51.25|N|To Siouxsie the Banshee Whenever you exhaust a ghoul, you can (and should) recruit more over at Dark Summoner Marogh.|LVL|101|
 
-R Travel to Dalaran|QID|44009|M|24.67,33.69|NC|N|The portal is out by the flightmaster.|
+R Travel to Dalaran|QID|44009|M|24.67,33.69|NC|N|The portal is out by the flightmaster.|PRE|43539|
 A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|PRE|43266|
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
 C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
-U Dalaran Hearthstone|QID|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
+U Dalaran Hearthstone|ACTIVE|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
 R Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|
 T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
 A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar.|PRE|42457|
@@ -208,7 +213,7 @@ t Steeds of the Damned|QID|43899|M|49.66,51.25|N|To Siouxsie the Banshee.|
 A Champion: Koltira|QID|44244|M|66.38,64.58|N|From/To Koltira.|PRE|42708|
 A Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenShore|NA|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|42537|
 t Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
-U Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|At Korgaz Deadaxe. Click on him to train some better troops. Don't forget to come back and pick them up when training is completed.|
+U Knights of the Ebon Blade|ACTIVE|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|At Korgaz Deadaxe. Click on him to train some better troops. Don't forget to come back and pick them up when training is completed.|
 T Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|To Korgaz Deadaxe.|
 A The Nightmare Lash|QID|43572|M|98.8,59.2|NA|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|44082+43571|
 t The Nightmare Lash|QID|43572|M|98.8,59.2|N|To Salanar the Horseman.|
