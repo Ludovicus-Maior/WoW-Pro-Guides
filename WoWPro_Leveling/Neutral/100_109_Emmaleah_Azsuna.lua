@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-10-04 21:16
+-- Who: Emmaleah
+-- Log: C Nar'thalas still suffers should be rank 1.
+
+-- URL: http://wow-pro.com/node/3657/revisions/27870/view
 -- Date: 2016-10-04 10:13
 -- Who: Emmaleah
 -- Log: added |NA| to A Wrath of Azshara (I know, this isn't an autoswitching guide.. but just in case someone changes it) 
@@ -337,7 +342,7 @@ $ Small Treasure Chest|QID|37596|M|53.03,37.27|N|Loot for a bit of treasure and 
 C Back from the Dead|QID|42694|QO|3|M|55.92,42.47;56.21,42.24|CS|NC|N|Search the eastern colonnade.|RANK|2|
 $ Glimmering Treasure Chest|QID|37830|M|58.36,43.78|ITEM|131795|N|Loot for a bit of treasure and resources.|RANK|2|
 C Back from the Dead|QID|42694|QO|4|M|54.47,45.56|NC|N|Search near the plaza fountain.|RANK|2|
-C Nar'thalas Still Suffers|QID|37486|QO|1|M|55.58,48.10|T|Athissa|N|Defeat Athissa.|RANK|2|
+C Nar'thalas Still Suffers|QID|37486|QO|1|M|55.58,48.10|T|Athissa|N|Defeat Athissa.|
 K Kill Brawlgoth|QID|42450|QO|1|M|55.23,43.95|T|Brawlgoth|N|Silver - Kill and loot for a bit of treasure and resources.|ITEM|129086|RANK|2|
 T Back from the Dead|QID|42694|M|53.30,45.43|N|To Olothil Starlance.|RANK|2|
 T Nar'thalas Still Suffers|QID|37486|M|51.80,44.31|N|To Prince Farondis.|
