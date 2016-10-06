@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-06 08:10
+-- Who: Emmaleah
+-- Log: Changed two R steps to P, added missed coord for P Falanaar, fixed missing |CS| in R Irongrove Retreat
+
+-- URL: http://wow-pro.com/node/3687/revisions/27883/view
+-- Date: 2016-10-06 03:16
+-- Who: Blanckaert
+-- Log: added Mythic to the dungeon quest, as they are only able to be run as mythic...
+
+-- URL: http://wow-pro.com/node/3687/revisions/27882/view
+-- Date: 2016-10-06 03:11
+-- Who: Blanckaert
+-- Log: forgot a line to copy add 3rd dungeon quest
+
+-- URL: http://wow-pro.com/node/3687/revisions/27881/view
+-- Date: 2016-10-06 03:07
+-- Who: Blanckaert
+-- Log: Add statecraft story line (at 8000+ Honoured Rep)
+
+-- URL: http://wow-pro.com/node/3687/revisions/27879/view
 -- Date: 2016-10-05 09:36
 -- Who: Emmaleah
 -- Log: Delete US/ take out S for C Kel'Danath's legacy (no need for sticky since steps in between were moved. Improve path R Irongrove Retreat(still needs better). Add some NCs in the Irongrove Retreat quest line. Add QO|1| and RANK|2| where needed on most of the silver (rare) lines.
@@ -295,7 +315,7 @@ $ Treasure Chest|QID|43850|M|44.27,22.86|N|Loot for a bit of treasure.|
 T Feathersong's Redemption|QID|40321|M|44.98,23.84|N|To Thaedris Feathersong.|
 A Tel'anor'eporter Online!|QID|43809|M|45.01,30.27;45.17,32.19;42.02,35.25|CS|N|Run back to where Theadris was, down the spiral stairs, towards an Unpowered Telemancy Beacon.|
 T Tel'anor'eporter Online!|QID|43809|M|42.02,35.25|N|To Unpowered Telemancy Beacon.|
-R Shal'Aran|QID|41138|M|42.02,35.25|N|Use the portal to return to Shal'Aran.|
+P Shal'Aran|QID|41138|M|42.02,35.25|N|Use the portal to return to Shal'Aran.|
 A Feeding Shal'Aran|QID|41138|M|36.56,46.93|N|From Arcanist Valtrois.|
 C Feeding Shal'Aran|QID|41138|M|36.97,46.21|NC|N|Follow her downstairs and examine the Leyline Feed.|
 T Feeding Shal'Aran|QID|41138|M|36.97,46.21|N|To Arcanist Valtrois.|
@@ -332,7 +352,7 @@ C First Contact|QID|42147|M|42.78,60.26|CHAT|N|Speak with Vanthir.|
 R Sanctum of Order|QID|42147|M|42.93,61.97;44.27,62.95;44.59,62.12|CS|N|Into the building and down.|
 A Sanctum of Order Teleporter Online!|QID|43813|M|43.39,60.65|N|From Unpowered Telemancy Beacon.|
 T Sanctum of Order Teleporter Online!|QID|43813|M|43.39,60.65|N|To Unpowered Telemancy Beacon.|
-R Portal to Shal'Aran|QID|42147|M|43.39,60.65|CC|N|Use the portal to travel back to Shal'Aran.|
+P Portal to Shal'Aran|QID|42147|M|43.39,60.65|CC|N|Use the portal to travel back to Shal'Aran.|
 T First Contact|QID|42147|M|37.05,46.25|N|To First Arcanist Thalyssra.|
 A Arcane Communion|QID|40324|M|37.05,46.25|N|From First Arcanist Thalyssra.|
 C Arcane Communion|QID|40324|M|37.11,46.29|NC|N|Give Theryn ancient mana.|
@@ -386,13 +406,13 @@ C Loadout|QID|43988|SO|1|M|22.69,36.69|NC|N|Speak with Thalyssra to assemble you
 C Down in the Depths|QID|43988|SO|2|M|50.03,60.57|Z|Suramar/1|N|Enter the Collapse and proceed as far as you can. Dying, losing all your withered, or speaking with Thalyssra again will end the scenario.|;need a qid???
 C Spoils of War|QID|43988|SO|3|M|22.85,36.20|NC|N|Return to the entrance of the Collapse and collect any rewards that you found. You can do this scenario once a day.|;need a qid???
 P Telemancer Beacon|QID|43988|M|22.69,36.69|N|Return to Shal'Aran and talk to Thalyssra to do this again if you like. *you can now do this daily for faction and resources*.|
-P Falanaar Portal|QID|43988|M||N|Return to Falanaar, to get a treasure and raise your ancient mana cap.|
+P Falanaar Portal|QID|43988|M|35.89,45.55|N|Return to Falanaar, to get a treasure and raise your ancient mana cap.|
 $ Volotile Leyline Crystal|QID|43988|M|42.69,30.93;35.52,52.77|CS|Z|Temple of Fal'adora@Suramar|ITEM|140328|U|140328|N|Down the stairs and in the center of the room. Loot and use to increase the amount of Ancient Mana you can hold.|
 $ Small Treasure Chest|QID|43838|M|38.25,53.96|Z|Temple of Fal'adora@Suramar|N|Loot for a bit of treasure and resources.|RANK|2|
 
 ;need a run step to guide you outside
 
-R Irongrove Retreat|QID|41452|M|22.48,39.90;22.48,30.26|N|Run out of the temple, across the river and through Feathermane Hunting Grounds.|
+R Irongrove Retreat|QID|41452|M|22.48,39.90;22.48,30.26|CS|N|Run out of the temple, across the river and through Feathermane Hunting Grounds.|
 f Irongrove Retreat|QID|41452|M|25.47,31.76|N|At Alyndra Stormgazer.|
 
 ; Eminent Grow-Main Side Storyline
@@ -798,6 +818,49 @@ C Shalassic Park|QID|43582|M|52.02,55.71|QO|2|N|Escape the Menagerie, run the 's
 C Shalassic Park|QID|43582|M|56.05,56.49|QO|3|N|Adversaries slain - trample or eat the demons till you get 50.|
 T Shalassic Park|QID|43582|M|50.71,56.60|N|To Nighteyes, back in the water.|
 
+; Statecraft Story line - Quest chain at 8,000 Honoured.
+
+A The Perfect Opportunity|QID|43309|REP|The Nightfallen;1859;Honored-Exalted;8000|M|36.87,46.57|N|From First Arcanist Thalyssra.|
+A Sharing the Wealth|QID|42725|M|47.46,81.97|N|World Quest UI Alert.|
+T Sharing the Wealth|QID|42725|M|51.16,76.08|N|World Quest UI Alert.|
+C The Perfect Opportunity|QID|43309|M|47.85,83.06|QO|1|N|1/1 Meet Ly'leth at the Waning Crescent|
+T The Perfect Opportunity|QID|43309|M|47.85,83.06|N|To Ly'leth Lunastre.|
+A Either With Us|QID|43310|PRE|43309|M|47.85,83.06|N|From Ly'leth Lunastre.|
+A Or Against Us|QID|43311|PRE|43309|M|47.85,83.06|N|From Vanthir.|
+C Or Against Us|QID|43311|CC|M|46.64,80.07;45.69,76.41;48.23,74.91;48.56,73.47;48.95,73.45|N|Run to Arluin, Watch out for Sentries||QO|1|N|Ask Arluin for Help, Need 1200 Ancient Mana.|
+C Or Against Us|QID|43311|M|48.95,73.41|QO|2|N|Arluin Paid 1,200 Ancient Mana|
+T Or Against Us|QID|43311|M|48.95,73.41|N|To Arluin.|
+A Death Becomes Him|QID|43315|M|48.95,73.41|N|From Arluin.|
+$ Treasure Chest|QID|43875|M|54.34,60.32|N|Loot for a bit of treasure and resources.|
+K Death Becomes Him|QID|43315|M|56.64,60.73|QO|1|N|Kill Ruven, down at canal level.|
+T Death Becomes Him|QID|43315|M|57.13,60.76|N|To Arluin.|
+A Rumor Has It|QID|43313|M|57.13,60.76|N|From Arluin.|
+T Either With Us|QID|43310|M|57.54,57.63|N|To Aurore.|
+A Thinly Veiled Threats|QID|43312|M|57.54,57.63|N|From Aurore.|
+C Rumor Has It|QID|43313|M|59.21,58.13|CHAT|Distraught Noble|
+C Rumor Has It|QID|43313|M|61.90,62.39|CHAT|Disgruntled Servant|
+C Rumor Has It|QID|43313|M|58.72,65.45|CHAT|Shamed Noble|
+C Thinly Veiled Threats|QID|43312|M|57.98,68.69|QO|1|N|1/1 Rescue Ailen|
+T Thinly Veiled Threats|QID|43312|M|57.51,57.61|N|To Aurore.|
+A Vote of Confidence|QID|44040|M|57.51,57.61|N|From Aurore.|
+T Rumor Has It|QID|43313|M|47.89,82.99|N|To Ly'leth Lunastre.|
+T Vote of Confidence|QID|44040|M|47.89,82.99|N|To Ly'leth Lunastre.|
+A In the Bag|QID|43317|PRE|44040|M|47.89,82.99|N|From Ly'leth Lunastre.|
+C In the Bag|QID|43317|M|43.48,62.43|QO|1|N|Witness Ly'leth's Ascension|
+T In the Bag|QID|43317|M|43.26,62.20|N|To Ly'leth Lunastre.|
+A Ly'leth's Champion|QID|43318|PRE|43317|M|43.26,62.20|N|From Ly'leth Lunastre.|
+C Ly'leth's Champion|QID|43318|M|43.26,62.20|CHAT|With Ly'leth Lunastre.|
+C Ly'leth's Champion|QID|43318|M|44.69,63.48|N|Special Actions: 1 - Force Blast, 2 - Spiral Slice, 3 - Spellbreak, 4 - Rewind|
+K Ly'leth's Champion|QID|43318|M|44.18,63.12|QO|2|N|Coryn slain|
+T Ly'leth's Champion|QID|43318|M|47.93,83.02|N|To Ly'leth Lunastre.|
+A Friends With Benefits|QID|44053|PRE|43318|M|47.84,82.91|N|From Lunastre Attendant.|
+T Friends With Benefits|QID|44053|M|36.56,46.77|N|To First Arcanist Thalyssra.|
+
+; Mythic Dungeon Quests available after turn in
+
+A Opening the Arcway|QID|42490|PRE|44053|M|36.56,46.77|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest*|
+A Beware the Fury of a Patient Elf|QID|43314|PRE|44053;43313|M|36.56,46.77|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest*|
+A Long Buried Knowledge|QID|42491|PRE|44053;43313|M|37.02,46.21|N|From Arcanist Valtrois. *Mythic Dungeon Quest*|
 ]]
 
 end)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-10-05 22:52
+-- Who: Ludovicus
+-- Log: The PRE tag for [A The Third Legend] had spurious + signs!
+
+-- URL: http://wow-pro.com/node/3674/revisions/27823/view
 -- Date: 2016-09-19 22:36
 -- Who: Ludovicus
 -- Log: Added coarse coords for Portal to Netherlight Temple
@@ -151,9 +156,9 @@ t A Gift of Time|QID|41632|M|51.61,47.81|N|To Alonsus Faol.|PRE|43935|LVL|102|;d
 t Blade in Twilight|QID|40710|M|51.47,45.97|N|To Moira Thaurissan.|PRE|43395|LVL|102|;shadow 2nd or 3rd returns inside netherlight temple
 
 ;3rd spec artifact
-A The Third Legend|QID|44407|M|51.60,47.77|N|From Alonsus Faol.|PRE|+43935;42074;41632;-40710|
-A The Third Legend|QID|44407|M|51.60,47.77|N|From Alonsus Faol.|PRE|+43935;41632;40710;-42074|
-A The Third Legend|QID|44407|M|51.60,47.77|N|From Alonsus Faol.|PRE|+43935;40710;42074;-41632|
+A The Third Legend|QID|44407|M|51.60,47.77|N|From Alonsus Faol.|PRE|43935;42074;41632;-40710|
+A The Third Legend|QID|44407|M|51.60,47.77|N|From Alonsus Faol.|PRE|43935;41632;40710;-42074|
+A The Third Legend|QID|44407|M|51.60,47.77|N|From Alonsus Faol.|PRE|43935;40710;42074;-41632|
 C The Third Legend|QID|44407|M|51.60,47.77|N|Choose the remaining artifact.|
 T The Third Legend|QID|44407|M|51.60,47.77|N|To Alonsus Faol.|
 
