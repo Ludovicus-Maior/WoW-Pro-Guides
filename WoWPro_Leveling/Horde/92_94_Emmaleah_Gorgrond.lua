@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2016-10-07 14:34
+-- Who: tubera
+-- Log: Change treasure/resource to $ steps. Add Bonus objective. Change order on a few quests and fix pre tag on bushwacker.
+
+-- URL: http://wow-pro.com/node/3599/revisions/27486/view
 -- Date: 2016-07-30 18:51
 -- Who: Ludovicus
 -- Log: Add some @Gorgrond
@@ -176,10 +181,10 @@ T Goren, Goren, Gone!|QID|33544|M|40.96,73.87|N|To UI Alert.|
 T We Die Laughing!|QID|33548|M|41.45,74.10|N|To Kaz the Shrieker.|
 T Eye Candy|QID|33563|M|41.48,74.14|N|To Limbflayer.|
 A A Flare for the Dramatic|QID|33593|M|41.49,74.08|N|From Durotan.|
-C A Flare for the Dramatic|QID|33593|M|41.48,74.09|NC|N|Use the flare gun.|
+C A Flare for the Dramatic|QID|33593|M|41.48,74.09|NC|N|Use the flare gun.|U|115534| ;add U tag
 T A Flare for the Dramatic|QID|33593|M|41.49,74.07|N|To Durotan.|
 A Penny From Heaven|QID|36434|M|41.49,74.07|N|From Durotan.|
-B Laughing Skull Cache|QID|35709|M|44.36,73.58;44.20,74.27|CS|QO|1|N|Waypoint is at base of leaning tree, run up it to find the treasure.|ITEM|$824|
+$ Laughing Skull Cache|QID|35709|M|44.36,73.58;44.20,74.27|CS|QO|1|N|Waypoint is at base of leaning tree, run up it to find the treasure.|ITEM|$824|
 T Penny From Heaven|QID|36434|M|45.68,70.60|N|To Penny Clobberbottom.|
 A Just Another Stick in the Wall|QID|36460|M|45.68,70.60|N|From Penny Clobberbottom.|
 C Just Another Stick in the Wall|QID|36460|M|45.67,70.59|NC|N|Use Penny's Plunger.|
@@ -320,31 +325,36 @@ C Mossy Fate|QID|35399|NC|M|48.24,73.82|QO|2|N|You need to inspect the guy lying
 A Super Seeds|QID|35406|NC|M|49.48,70.98|N|From Primal Seeds.|ACTIVE|35399|
 C The Voice of Iyu|QID|35402|M|49.35,71.51|
 C The Infested|QID|35400|M|47.35,73.38|US|
-T The Infested|QID|35400|M|46.58,71.47|N|To Draka.|
-A Bushwhacker|QID|35432|M|46.58,71.47|N|From Draka.|PRE|35400|
+;change order fix PRE on Bushwhacker
 T Mossy Fate|QID|35399|M|46.59,71.52|N|To Kaz the Shrieker.|
 T The Voice of Iyu|QID|35402|M|46.59,71.52|N|To Kaz the Shrieker.|
 T Super Seeds|QID|35406|M|46.59,71.52|N|To Kaz the Shrieker.|
-A Cutter|QID|35430|M|46.59,71.52|N|From Kaz the Shrieker.|PRE|35406|
-A Pollen Power|QID|35429|M|46.58,71.52|N|From Kaz the Shrieker.|PRE|35406|
-l Hardened Thornvine|QID|36714|ACTIVE|35707|M|47.66,76.78|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;21 - Deeproot
-
+A Cutter|QID|35430|M|46.59,71.52|N|From Kaz the Shrieker.|PRE|35406;35400;35402;35399|
+A Pollen Power|QID|35429|M|46.58,71.52|N|From Kaz the Shrieker.|PRE|35406;35402|
+T The Infested|QID|35400|M|46.58,71.47|N|To Draka.|
+A Bushwhacker|QID|35432|M|46.58,71.47|N|From Draka.|PRE|35402;35406|
+;Change step type to $
+$ Hardened Thornvine|QID|36714|ACTIVE|35707|M|47.66,76.78|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;21 - Deeproot
+; Pollen power into sticky]
+C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|S
 R Evermorn Springs|QID|35430;36037|M|44.95,79.09|
-l Hardened Thornvine|QID|35981|ACTIVE|35707|M|45.31,81.99|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;20.1 - Deeproot
-C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|
+; to $ step
+$ Hardened Thornvine|QID|35981|ACTIVE|35707|M|45.31,81.99|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;20.1 - Deeproot
+C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|US
 T Cutter|QID|35430|M|43.72,84.00|N|To Cutter. You can jump over the wall of his hut in the back.|
 A A Green Ogron?|QID|36482|M|43.72,84.00|N|From Cutter.|PRE|35430|
 A We Burn the Dead|QID|35487|M|43.72,84.00|N|From Cutter.|PRE|35430|
 C Bushwhacker|QID|35432|M|43.18,83.21|S|
 C We Burn the Dead|QID|35487|M|43.84,81.04|S|N|These are 'mulching bodies' lying around on the ground (both in the grass and in the huts).|
-B Discarded Pack |QID|36625|M|42.4,83.5|QO|1|N|Pick up for gold and a random green item.|RANK|3|
+$ Discarded Pack |QID|36625|M|42.4,83.5|QO|1|N|Pick up for gold and a random green item.|RANK|3|
+$ Hardened Thornvine|QID|35982|ACTIVE|35707|M|41.98,81.55|N|Use Shredder (click on the vines) to expose the Botani Essence Seed|RANK|3|;22 - Evermorn Rise
 C A Green Ogron?|QID|36482|M|42.92,80.71|T|Infested Ogron|N|Kill the Infested Ogron.|
-B Evermorn Supply Cache|QID|36658|M|41.85,78.72;41.83,77.91|CS|QO|1|N|Go in the building here and out the back door. Loot the Evermorn Supply Cache for garrison resources.|RANK|3|ITEM|$824|
-l Hardened Thornvine|QID|35980|ACTIVE|35707|M|41.13,77.26|N|Climb up the small hill, the thornvine is just below you. Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;22.1 - go in building @ 41.81,78.05 out back door up hillock out of Evermorn Rise, then go K Berthora
-B Explorer Canister|QID|36621|M|40.4,76.6|L|118710|N|Loot for an item you click for 50 Garrison Resources.|RANK|3|ITEM|118710|;evernsprings
+$ Evermorn Supply Cache|QID|36658|M|41.85,78.72;41.83,77.91|CS|QO|1|N|Go in the building here and out the back door. Loot the Evermorn Supply Cache for garrison resources.|RANK|3|ITEM|$824|
+$ Hardened Thornvine|QID|35980|ACTIVE|35707|M|41.13,77.26|N|Climb up the small hill, the thornvine is just below you. Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;22.1 - go in building @ 41.81,78.05 out back door up hillock out of Evermorn Rise, then go K Berthora
+$ Explorer Canister|QID|36621|M|40.4,76.6|L|118710|N|Loot for an item you click for 50 Garrison Resources.|RANK|3|ITEM|118710|;evernsprings
 K Berthora|QID|36597|M|39.74,76.31|L|118232|N|Kill and loot for an ilvl 532 Mail Shoulder Item.|RANK|3|ITEM|118232|
 C We Burn the Dead|QID|35487|M|43.84,81.04|US|N|Go back to Evermorn and finish up burning the bodies.|
-T A Green Ogron?|QID|36482|M|0,0|N|To Cutter.|
+T A Green Ogron?|QID|36482|M|0,0|N|To Cutter who is following you around.|
 T We Burn the Dead|QID|35487|M|0,0|N|To Cutter.|
 A Secrets of the Botani|QID|35536|M|0,0|N|From Cutter.|PRE|36487|
 C Bushwhacker|QID|35432|M|41.87,82.98|US|
@@ -353,7 +363,6 @@ T Pollen Power|QID|35429|M|42.05,85.89|N|To Kaz the Shrieker.|
 T Bushwhacker|QID|35432|M|42.05,85.85|N|To Draka.|
 A Cut Them Down|QID|35433|M|42.05,85.85|N|From Draka.|PRE|35432|
 A The Life Spring|QID|35434|M|42.06,85.90|N|From Kaz the Shrieker.|PRE|35536|
-l Hardened Thornvine|QID|35982|ACTIVE|35707|M|41.98,81.55|N|Use Shredder (click on the vines) to expose the Botani Essence Seed|RANK|3|;22 - Evermorn Rise
 
 R Evermorn Rise|QID|35434;36037|M|40.06,83.27|
 C Cut Them Down|QID|35433|M|39.81,80.80|S|
@@ -367,27 +376,31 @@ A Thieving Dwarves|QID|36488|M|42.06,85.91|N|From Kaz the Shrieker.|PRE|35434|
 f Evermorn Springs|QID|35468;36037|M|41.32,87.16|N|At Chucklespine.|
 R The Destroyed Expedition|QID|36037|M|44.86,86.72|N|This is to pick up a follower, if followers don't interest you following the road east to Bastion Rise is more direct.|RANK|2|
 A A Centurian Without a Cause|QID|36037|M|44.86,86.72|RANK|2|N|Assist Centurian Tormark with the waves of mobs. The final mob is Woodfist.  When they are defeated, wait a few seconds and he will offer to be your follower. Its safer to run back to Evermorn Rise (where you just got the flight path) and run on to Bastion Rise from there, but you can go from here, just more mobs in the way.|
-l Hardened Thornvine|QID|36019|ACTIVE|35707|M|45.8,89.27|N|Use Shredder (click on the vines) to expose the Forgotten Skull Cache|RANK|3|;25.1 - Tailthrasher Basin
+A Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Auto Accepted when you enter area.|RANK|3|
+C Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Kill Saberon, free Axebeak, and kill Skull Thrash who resides in back of the big cave.|RANK|3|S|
+$ Hardened Thornvine|QID|36019|ACTIVE|35707|M|45.8,89.27|N|Use Shredder (click on the vines) to expose the Forgotten Skull Cache|RANK|3|;25.1 - Tailthrasher Basin
 K Sunclaw|QID|36656|M|44.6,92.2|T|Sunclaw|L|118223|N|There are ropes you can click on to climb up the rock formation. Kill and loot for an ilvl 533 agi fist weapon.|RANK|3|ITEM|118223|;just before blook
 
 R Deeproot|QID|34279;34279|RANK|2|M|42.74,90.76|CC|N|Take the trail up here to find another follower.|
 R Blook's Overlook|QID|34279|RANK|2|M|42.30,92.16|N|Continue up the winding trail.|
 N Blook|QID|34279|RANK|2|CHAT|M|41.27,91.44|N|Chat with him to challenge him.  When you win, he will offer to be your follower. He despawns in about 15 seconds and you will have to wait to fight him again if you don't accept quick enough.|
 A I am Blook|QID|34279|RANK|2|M|41.27,91.44|N|If he despawns before you accecpt the quest you will have to fight him again when he respawns.|
-B Ockbar's Pack |QID|34241|M|43.1,92.9|L|118227|N|Pick up for a bit of treasure.|RANK|3|ITEM|118227|
-l Hardened Thornvine|QID|35975|ACTIVE|35707|M|45.97,93.56|N|Use Shredder (click on the vines) to expose the Remains of Explorer Engineer Toldirk Ashlamp|RANK|3|;25 - Tailthrasher Basin/Bastian Rise
+$ Ockbar's Pack |QID|34241|M|43.1,92.9|L|118227|N|Pick up for a bit of treasure.|RANK|3|ITEM|118227|
+C Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Kill Saberon, free Axebeak, and kill Skull Thrash who resides in back of the big cave.|RANK|3|US|
+t Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Auto turned in when complete.|RANK|3|
+$ Hardened Thornvine|QID|35975|ACTIVE|35707|M|45.97,93.56|N|Use Shredder (click on the vines) to expose the Remains of Explorer Engineer Toldirk Ashlamp|RANK|3|;25 - Tailthrasher Basin/Bastian Rise
 
-R Bastion Rise|QID|36488;35667|M|46.49,93.57|
+;R Bastion Rise|QID|36488;35667|M|46.49,93.57|
 T Thieving Dwarves|QID|36488|M|46.49,93.57|N|To Cutter.|
 A Will of the Genesaur|QID|35509|M|46.49,93.57|N|From Cutter.|PRE|36488|
 A Down the Goren Hole|QID|35507|M|46.49,93.57|N|From Cutter.|PRE|36488|
 C Down the Goren Hole|QID|35507|S|M|47.65,94.11|N|Head inside the bastian, killing Goren as you go.|
-B Stashed Emergency Rucksack |QID|36604|M|48.1,93.4|QO|1|N|Jump from block to block and then to the hanging platform. You can reach it from the hanging platform. Pick up for a bit of gold and a random green item. (If you want, use the shredder's flight ability to get up there quicker.)|RANK|3|
+$ Stashed Emergency Rucksack |QID|36604|M|48.1,93.4|QO|1|N|Jump from block to block and then to the hanging platform. You can reach it from the hanging platform. Pick up for a bit of gold and a random green item. (If you want, use the shredder's flight ability to get up there quicker.)|RANK|3|
 A Doomshot|QID|35501|M|47.96,94.35|N|From Doomshot.|ACTIVE|35507|
 C Doomshot|QID|35501|M|48.30,94.18|N|Pick up the shells.|
 C Down the Goren Hole|QID|35507|US|M|48.30,94.18|N|Finish killing Gorens.|
-T Doomshot|QID|35501|M|47.90,94.25|N|To Weapon Loader.|
 C Will of the Genesaur|QID|35509|M|48.31,94.25|N|Loot the chest.|
+T Doomshot|QID|35501|M|47.90,94.25|N|To Weapon Loader.|
 T Will of the Genesaur|QID|35509|M|48.05,94.16|N|To Cutter. Appears behind you.|
 T Down the Goren Hole|QID|35507|M|48.05,94.163||N|To Cutter.|
 A Iyu|QID|35510|M|48.05,94.16|N|From Cutter.|PRE|35507|
