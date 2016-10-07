@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-10-07 03:10
+-- Who: tubera
+-- Log: Add class tag to From Within (DH has it's own QID)
+
+-- URL: http://wow-pro.com/node/3657/revisions/27871/view
 -- Date: 2016-10-04 21:16
 -- Who: Emmaleah
 -- Log: C Nar'thalas still suffers should be rank 1.
@@ -118,9 +123,12 @@ C The Scythe of Souls|QID|37660|QO|7|M|44.40,44.69|N|Fight Arev'naal.|T|Question
 C The Scythe of Souls|QID|37660|QO|8|M|44.26,44.14|N|Click on the crystal to leave.|NC|
 C The Scythe of Souls|QID|37660|QO|9|M|43.38,43.36|N|Meet back up with Allari|NC|
 T The Scythe of Souls|QID|37660|M|43.29,43.16|N|To Allari the Souleater.|
-A From Within|QID|36920|M|43.56,43.46|N|From Kayn Sunfury.|
+;add class tag
+A From Within|QID|36920|M|43.56,43.46|N|From Kayn Sunfury.|C|Death Knight,Hunter,Mage,Monk,Paladin,Priest,Roque,Shaman,Warrior,Warlock
+A From Within|QID|44140|M|43.56,43.46|N|From Kayn Sunfury.|C|Demon Hunter|
 
-T From Within|QID|36920|M|41.24,50.50|N|To Kor'vas Bloodthorn.|
+T From Within|QID|36920|M|41.24,50.50|N|To Kor'vas Bloodthorn.|C|Death Knight,Hunter,Mage,Monk,Paladin,Priest,Roque,Shaman,Warrior,Warlock
+T From Within|QID|44140|M|43.56,43.46|N|From Kayn Sunfury.|C|Demon Hunter|
 A Fel Machinations|QID|37656|M|40.05,48.80|N|From Kor'vas Bloodthorn who will show up and follow you around.|
 A Saving Stellagosa|QID|37450|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
 A Retake Faronaar-Bonus Objective|QID|36811|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|LVL|-109|

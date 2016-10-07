@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-07 03:35
+-- Who: Blanckaert
+-- Log: Hit revered, added turnin for that quest, and get the 'exalted' quest. No other new quests yet.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27884/view
 -- Date: 2016-10-06 08:10
 -- Who: Emmaleah
 -- Log: Changed two R steps to P, added missed coord for P Falanaar, fixed missing |CS| in R Irongrove Retreat
@@ -861,6 +866,13 @@ T Friends With Benefits|QID|44053|M|36.56,46.77|N|To First Arcanist Thalyssra.|
 A Opening the Arcway|QID|42490|PRE|44053|M|36.56,46.77|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest*|
 A Beware the Fury of a Patient Elf|QID|43314|PRE|44053;43313|M|36.56,46.77|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest*|
 A Long Buried Knowledge|QID|42491|PRE|44053;43313|M|37.02,46.21|N|From Arcanist Valtrois. *Mythic Dungeon Quest*|
+
+; At Revered with The Nightfallen (1859)
+
+C Growing Strong|QID|44562|M|36.28,45.02|Z|Suramar|QO|1|N|Revered / Revered The Nightfallen|
+T Growing Strong|QID|44562|M|36.54,46.77|Z|Suramar|N|To Valewalker Farodin.|
+A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|Z|Suramar|N|From Valewalker Farodin.|
+
 ]]
 
 end)
