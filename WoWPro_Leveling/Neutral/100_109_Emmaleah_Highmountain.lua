@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-10-08 02:05
+-- Who: tubera
+-- Log: Fix US on shiny, but deadly, fix coordinates of treasure 40494
+
+-- URL: http://wow-pro.com/node/3678/revisions/27874/view
 -- Date: 2016-10-05 02:20
 -- Who: Ludovicus
 -- Log: *Someone* chopped off the header to the guide, so it failed to update after 2016-09-19 20:19.
@@ -349,13 +354,13 @@ A Shiny, But Deadly|QID|39764|M|51.86,81.25|Z|1024/16|N|From Apprentice Rosalyn.
 A The Soulkeeper's Fate|QID|39773|M|51.86,81.25|Z|1024/16|N|From Apprentice Rosalyn.|RANK|2|
 C Shiny, But Deadly|QID|39764|M|51.49,15.02|Z|1024/16|S|N|Kill kobolds to sometimes collect Soul Chambers.|RANK|2|
 C The Soulkeeper's Fate|QID|39773|M|30.90,62.25|Z|1024/16|NC|N|Find Soulkeeper Uriah.|RANK|2|
-C Shiny, But Deadly|QID|39764|M|51.49,15.02|Z|1024/16|S|N|Kill kobolds to sometimes collect Soul Chambers.|RANK|2|
+C Shiny, But Deadly|QID|39764|M|51.49,15.02|Z|1024/16|US|N|Kill kobolds to sometimes collect Soul Chambers.|RANK|2|
 T Shiny, But Deadly|QID|39764|M|30.65,62.80|Z|1024/16|N|To Apprentice Rosalyn.|RANK|2|
 T The Soulkeeper's Fate|QID|39773|M|30.65,62.80|Z|1024/16|N|To Apprentice Rosalyn.|RANK|2|
 A Demon Detainment|QID|39774|M|30.65,62.80|Z|1024/16|N|From Apprentice Rosalyn.|RANK|2|PRE|39764+39773|
 C Demon Detainment|QID|39774|M|42.26,41.24|Z|1024/16|QO|3|T|Xorias|N|Xorias detained.|RANK|2|
 C Demon Detainment|QID|39774|M|55.69,13.48|Z|1024/16|QO|1|T|Ezerak|N|Ezerak detained.|RANK|2|
-$ Treasure Chest|QID|40494|M|60.63,48.07|Z|1024/16|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure Chest|QID|40494|M|60.81,25.14|Z|1024/16|N|Loot for a bit of treasure and resources.|RANK|2|
 C Demon Detainment|QID|39774|M|30.16,83.06|Z|1024/16|QO|2|T|Lozar|N|Lozar detained.|RANK|2|
 T Demon Detainment|QID|39774|M|30.39,82.66|Z|1024/16|N|To Apprentice Rosalyn who is with you.|RANK|2|
 

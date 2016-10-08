@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-10-08 02:25
+-- Who: tubera
+-- Log: Move treasure 38680 1 back for better flow.
+
+-- URL: http://wow-pro.com/node/3680/revisions/27835/view
 -- Date: 2016-09-25 19:44
 -- Who: Emmaleah
 -- Log: changes per Tubera's post 9/25/16
@@ -135,8 +140,8 @@ $ Small Treasure Chest|QID|43208|M|36.00,39.22;37.21,38.66|CS|N|Loot for a bit o
 R Weeping Bluffs|QID|38680|M|36.67,51.79|N|Continue up the hill then down through Stony Highlands and to Weeping Bluffs for some treasure and silver mobs.|RANK|3|
 K Kill Whitewater Typhoon|QID|38472|M|36.67,51.79|QO|1|ITEM|138418|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
 $ Treasure Chest|QID|38677|M|35.73,54.15|N|On the lowest level of the crashed alliance ship, be careful you don't fall over the waterfall. Loot for a bit of treasure and resources.|RANK|3|
-$ Small Treasure Chest|QID|38676|M|32.62,51.76;31.09,56.00|CS|N|On the other half of the alliance ship. Loot for a bit of treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|38680|M|35.92,47.92|N|Loot for a bit of treasure and resources.|RANK|3|
+$ Small Treasure Chest|QID|38676|M|32.62,51.76;31.09,56.00|CS|N|On the other half of the alliance ship. Loot for a bit of treasure and resources.|RANK|3|
 $ Treasure Chest|QID|38529|M|80.89,48.83;20.03,41.23|Z|1017/9|CS|N|Inside the drake cave that the alliance ship has crashed into. Loot for a bit of treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|43196|M|32.93,48.10;32.06,47.20|CS|N|You don't have to wake the sleeping drakes. Loot for a bit of treasure and resources.|RANK|3|
 R Stony Highlands|QID|38626|M|34.36,43.06|N|Back from our treasure hunting sidetrip.|RANK|3|
