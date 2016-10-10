@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-10-09 18:08
+-- Who: tubera
+-- Log: Fix PRE tags from 39831 to 39381
+
+-- URL: http://wow-pro.com/node/3678/revisions/27888/view
 -- Date: 2016-10-08 02:05
 -- Who: tubera
 -- Log: Fix US on shiny, but deadly, fix coordinates of treasure 40494
@@ -399,9 +404,9 @@ T Rite of Blood|QID|39860|M|41.16,85.62|Z|1024/8|N|To Navarrogg.|
 A Rock Troll in a Hard Place|QID|39381|M|41.16,85.62|Z|1024/8|N|From Navarrogg.|PRE|39860|
 C Rock Troll in a Hard Place|QID|39381|M|40.14,84.23|Z|1024/8|CHAT|QO|1|N|Speak with Navarrogg.|
 T Rock Troll in a Hard Place|QID|39381|M|45.20,32.49|N|To Navarrogg.|
-A Pet Rocks|QID|39391|M|45.20,32.49|N|From Navarrogg.|PRE|39831|
-A Stonedark Crystal|QID|39425|M|45.20,32.49|N|From Navarrogg.|PRE|39831|
-A They Will Pay With Blood|QID|39588|M|45.20,32.49|N|From Navarrogg.|PRE|39831|
+A Pet Rocks|QID|39391|M|45.20,32.49|N|From Navarrogg.|PRE|39381|
+A Stonedark Crystal|QID|39425|M|45.20,32.49|N|From Navarrogg.|PRE|39381|
+A They Will Pay With Blood|QID|39588|M|45.20,32.49|N|From Navarrogg.|PRE|39381|
 $ Small Treasure Chest|QID|40481|M|44.75,31.86;45.54,34.59|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 C Pet Rocks|QID|39391|M|43.54,33.66|QO|2|NC|N|Lying by the mountain trail.|
 C Stonedark Crystal|QID|39425|M|44.31,27.89|S|N|It will drop from the feltotem mobs you are killing.|

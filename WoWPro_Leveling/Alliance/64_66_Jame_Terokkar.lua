@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2016-10-09 16:04
+-- Who: tubera
+-- Log: Fix QOs, add coordinates. On Aldor/Neutral quests.
+
+-- URL: http://wow-pro.com/node/3277/revisions/27858/view
 -- Date: 2016-10-01 03:43
 -- Who: tubera
 -- Log: Fix QO/Zone (1st part)
@@ -295,9 +300,9 @@ T Fel Orc Plans |QID|10012|M|58.3,54.8|N|To Bertelm.|
 T Magical Disturbances |QID|10026|M|58.5,53.6|N|To Andarl.|
 T Olemba Seeds|QID|9992|M|57.4,55.4|N|To Ros'eleth.|
 A Vessels of Power|QID|10028|M|57.4,55.4|N|From Ros'eleth.|
-l Vessels of Power |N|Loot the vessels you need from the ground, you will not always get a vessel.|QID|10028|M|54.1,32.1|L|25841 8|S|
+l Vessels of Power |N|Loot the vessels you need from the ground, you will not always get a vessel.|QID|10028|QO|1|M|54.1,32.1|S|
 C Investigate Tuurem |N|Kill the Firewing Courier and loot the box.|QID|9990|M|54.00,30.00|
-l Vessels of Power |N|Loot the vessels you need from the ground, you will not always get a vessel.|QID|10028|M|54.1,32.1|L|25841 8|US|
+l Vessels of Power |N|Loot the vessels you need from the ground, you will not always get a vessel.|QID|10028|QO|1|M|54.1,32.1|US|
 T Investigate Tuurem |QID|9990|M|44.3,26.3|N|To Eartbinder Tavgren.|
 A What Are These Things? |QID|9994|M|44.3,26.3|N|From Earthbinder Tavgren.|
 L Level 65 or 75,000 xp|QID|9994|N|Kill mobs until you are level 65 or get 75,000 xp, whichever takes longer.|M|70.00,40.00|LVL|65|
@@ -319,12 +324,12 @@ A Attack on Firewing Point|QID|9996|M|69.7,44.2|N|From Lieutenant Meridian.|
 l Firewing Signets|QID|10412|M|70.00,39.00|N|Kill the mobs until you get 10 Firewing Signets.|L|29426 10|REP|Scryers;934|S|
 C Attack on Firewing Point|N|Kill mobs until you finish this quest.|QID|9996|M|70.00,39.00|
 C The Elusive Ironjaw|T|Ironjaw|N|Kill Ironjaw (wandering mob) and loot his pelt.|QID|10022|M|66.3,34.7|
-N Stonegazer|QID|10020|T|Stonegazer|N|Look for Stonegazer here, if you can't solo it find someone to help you.|M|64.00,31.00|L|25815|REP|Aldor;932|
+C A Cure for Zahlia|QID|10020|T|Stonegazer|N|Kill and loot Stonegazer.|M|64.00,31.00|REP|Aldor;932|
 T Attack on Firewing Point|QID|9996|M|69.7,44.2|N|To Lieutenant Meridian.|
 A The Final Code|QID|10446|M|69.7,44.2|N|From Lieutenant Meridian.|
 l The Final Code|QID|10446|N|Go to the top of the tower and kill Sharth Voldoun and loot the Final Code. If you are about to die, jump off the tower or else you will not be able to get your corpse.|L|29912|M|74.00,36.00|
 C The Final Code|N|Right-click the mana bomb in the center of town.|QID|10446|M|71.20,37.40|
-A Escape from Firewing Point!|QID|10051|M|73.9,35.2|N|From Isla Starmane.|
+A Escape from Firewing Point!|QID|10051|M|73.9,35.2|N|From Isla Starmane, wait a bit for her to respawn if she's not there.|
 C Escape from Firewing Point!|N|Do this escort quest.|QID|10051|M|73.9,35.2|
 l Firewing Signets|QID|10412|M|70.00,39.00|N|Kill the mobs until you get 10 Firewing Signets.|L|29426 10|REP|Scryers;934|US|
 T The Final Code|QID|10446|M|57.0,53.5|N|To Jenai Starwhisper.|
@@ -336,14 +341,14 @@ N Sell junk, Repair, restock |QID|10896|M|56.51,54.94|
 
 C Recover the Bones |N|Loot the bones needed for this quest.|QID|10030|S|M|52.00,58.00|
 C The Infested Protectors|N|Kill treant mobs and then the spawned wood mites until you finish this quest.|QID|10896|M|52.00,58.00|
-l Trachela's Carcass|QID|10035|N|Kill Trachela and loot the carcass.|L|30618|M|43.00,51.00|
+l Trachela's Carcass|QID|10035|N|Kill Trachela and loot the carcass.|L|30618|M|43.00,51.00|T|Trachela
 T The Infested Protectors |QID|10896|M|37.9,51.7|N|To Lakotae.|
 C Veil Rhaze: Unliving Evil |N|Kill the mobs needed for this quest here.|QID|10848|M|28.00,56.00|
 C Torgos!|N|Use Trachela's Carcass here and then kill and loot Torgos.|QID|10035|M|27.00,55.60|U|30618|
 R Shadow Tomb|QID|10887|N|Go to the Shadow Tomb.|M|32.00,53.00|
-l Gavel of K'alen |QID|10881|N|Loot the Gavel from the chest here.|L|31710|M|29.70,51.70|
-l Drape of Arunen |QID|10881|N|Loot the Drape from the chest here.|L|31709|M|32.10,51.20|
-C The Shadow Tomb |QID|10881|N|Loot the scroll from the chest here, then accept the escort quest.|M|31.20,46.70|
+l Gavel of K'alen |QID|10881|QO|2|N|Loot the Gavel from the chest here.|M|29.70,51.70|
+l Drape of Arunen |QID|10881|QO|1|N|Loot the Drape from the chest here.|M|32.10,51.20|
+C The Shadow Tomb |QID|10881|QO|3|N|Loot the scroll from the chest here, then accept the escort quest.|M|31.20,46.70|
 A Escaping the Tomb|QID|10887|M|30.60,49.00|N|From Akuno.|
 C Escaping the Tomb|N|Do this escort quest.|QID|10887|M|33.92,51.47|
 T Veil Rhaze: Unliving Evil |QID|10848|M|37.4,51.5|N|To Kirrik the Awakened.|
@@ -353,7 +358,7 @@ T Escaping the Tomb |QID|10887|N|To Mekeda.|
 r Sell junk, Repair, restock.|QID|10922|M|37.71,51.43|
 C Veil Lithic: Preemptive Strike |N|Loot Cursed Eggs here until you finish this quest.|QID|10861|M|26.00,71.00|
 A An Improper Burial |QID|10913|M|31.0,76.1|N|From Commander Ra'vaj.|
-A The Dread Relic |QID|10877|N|From Oakun.|
+A The Dread Relic |QID|10877|N|From Oakun.|M|31.08,76.46|
 A Taken in the Night |QID|10873|N|From Scout Navrin.|M|31.4,75.6|
 A Digging Through Bones |QID|10922|M|31.0,76.1|N|From Chief Archaelogist Letoll.|
 C Digging Through Bones |N|Do this escort quest.|QID|10922|M|31.0,76.1|
@@ -362,12 +367,12 @@ A Fumping |QID|10929|N|From Dwarfowitz.|
 C Recover the Bones |N|Loot the rest of the bones needed for this quest.|QID|10030|US|M|52.00,58.00|
 
 R Auchindoun |QID|10227|N|Enter Auchindoun from this location on the inside of the ring. |M|37.38,65.62|
-A I See Dead Draenei|QID|10227|N|From Ha'lei.|
-T I See Dead Draenei|QID|10227|N|To Ramdor the Mad.|
-A Ezekiel |QID|10228|N|From Ramdor the Mad.|
-T Recover the Bones |QID|10030|N|To Ramdor the Mad.|
-A Helping the Lost Find Their Way|QID|10031|N|From Ramdor the Mad.|
-T Can't Stay Away |QID|10180|N|To Isfar.|
+A I See Dead Draenei|QID|10227|N|From Ha'lei.|M|35.11,65.09|
+T I See Dead Draenei|QID|10227|N|To Ramdor the Mad.|M|35.16,66.18|
+A Ezekiel |QID|10228|N|From Ramdor the Mad.|M|35.16,66.18|
+T Recover the Bones |QID|10030|N|To Ramdor the Mad.|M|35.16,66.18|
+A Helping the Lost Find Their Way|QID|10031|N|From Ramdor the Mad.|M|35.16,66.18|
+T Can't Stay Away |QID|10180|N|To Isfar just inside Sehekk Halls.|M|44.79,65.6|
 
 H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10020|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
@@ -386,7 +391,7 @@ A The Master's Grand Design? |QID|10251|Z|Shattrath City|M|43.58,29.36|N|From "D
 T Letting Earthbinder Tavgren Know |QID|10005|M|44.3,26.3|N|To Earthbinder Tavgren.|
 T Veil Lithic: Preemptive Strike |QID|10861|M|37.4,51.5|N|To Kirrik the Awakened.|
 A Veil Shalas: Signal Fires |QID|10874|M|37.4,51.5|N|From Kirrik the Awakened.|
-C Fumping|N|Go here (make sure the map says "The Bone Wastes"), use the fumper to possibly spawn a sifter. Kill and loot sifters this way until you get all the items for this quest. Do not be too close to the caravan as the level 85 guards will kill it too quick.|QID|10929|M|35.05,51.5|
+C Fumping|N|Go here (make sure the map says "The Bone Wastes"), use the fumper to possibly spawn a sifter. Kill and loot sifters this way until you get all the items for this quest. Do not be too close to the caravan as the level 85 guards will kill it too quick.|QID|10929|M|35.05,51.5|U|31810|
 C Helping the Lost Find Their Way |N|Kill Lost Spirits and Broken Skeletons for this quest.|QID|10031|M|40.00,78.00|S|
 T Fumping|QID|10929|N|To Dwarfowitz.|
 A The Big Bone Worm|QID|10930|N|From Dwarfowitx.|
@@ -397,7 +402,7 @@ C A Hero Is Needed |N|Kill the mobs for this quest.|QID|10914|M|36.00,74.00|
 C The Dread Relic|N|Go here and loot the relic from the chest. A bunch of weak undead will spawn, but if you are quick enough, you can get away.|QID|10877|M|44.00,76.00|
 C Helping the Lost Find Their Way |N|Kill the rest of the mobs for this quest.|QID|10031|M|40.00,78.00|US|
 
-N The Big Bone Worm|N|For those used to the old way, Blizz has changed it to where, Hai'shulud will follow you into the tunnels.|
+N The Big Bone Worm|N|For those used to the old way, Blizz has changed it to where, Hai'shulud will follow you into the tunnels.|QID|10930|
 C The Big Bone Worm |N|Kill a Decrepit Clefthoof and then use the Fumper on it. Keep trying the fumper until Hai'shulud spawns, then kill and loot it.|QID|10930|M|44.00,73.00|U|31825|
 A For the Fallen |QID|10920|N|From Vindicator Haylen.|M|49.71,76.18|
 C Taken in the Night|N|Free Netherweb Victims until you finish this quest.|QID|10873|M|52.00,77.00|S|
@@ -410,24 +415,24 @@ T Terokkarantula|QID|10921|N|To Vindicator Haylen.|M|49.71,76.18|
 A Return to Sha'tari Base Camp |QID|10926|N|From Vindicator Haylen.|M|49.71,76.18|
 A Skywing|QID|10898|M|54.00,72.00|N|From Skywing.|
 C Skywing|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge. Turn off the fires when you get near them for the other quest.|QID|10898|S|
-N Bloodstone Signel Fire|QID|10874|M|56.12,72.49|QO|Bloodstone Fire Extinguished: 1/1|N|Keep following Skywing, click on the Bloodstone Signel Fire to extinguish it.|
-N Violet Signel Fire|QID|10874|M|56.63,69.19|QO|Violet Fire Extinguished: 1/1|N|Keep following Skywing, click on the Violet Signel Fire to extinguish it.|
-N Emerald Signel Fire|QID|10874|M|55.47,69.8|QO|Emerald Fire Extinguished: 1/1|N|Keep following Skywing, click on the Emerald Signel Fire to extinguish it.|
-C Veil Shalas: Signal Fires |N|After getting all of the signal fires except sapphire, mount and fly to the next treehouse where the Sapphire Signal Fire is, then extinguish it.|QID|10874|M|55.2,67.1|
+N Bloodstone Signel Fire|QID|10874|M|56.12,72.49|QO|4|N|Keep following Skywing, click on the Bloodstone Signel Fire to extinguish it.|
+N Violet Signel Fire|QID|10874|M|56.63,69.19|QO|3|N|Keep following Skywing, click on the Violet Signel Fire to extinguish it.|
+N Emerald Signel Fire|QID|10874|M|55.47,69.8|QO|2|N|Keep following Skywing, click on the Emerald Signel Fire to extinguish it.|
+C Veil Shalas: Signal Fires |N|After getting all of the signal fires except sapphire, mount and fly to the next treehouse where the Sapphire Signal Fire is, then extinguish it.|QID|10874|QO|1|M|55.2,67.1|
 C Skywing|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge. Turn off the fires when you get near them for the other quest.|QID|10898|US|
 T Torgos!|QID|10035|N|To Taela Everstride.|M|58.1,53.42|
 
-T Helping the Lost Find Their Way |QID|10031|N|To Soolaveen.|
+T Helping the Lost Find Their Way |QID|10031|N|To Soolaveen.|M|37.09,49.53|
 T Veil Shalas: Signal Fires |QID|10874|M|37.4,51.5|N|To Kirrik the Awakened.|
 A Return to Shattrath |QID|10889|M|37.4,51.5|N|From Kirrik the Awakened.|
-T Taken in the Night |QID|10873|N|To Scout Navrin.|
-T Return to Sha'tari Base Camp |QID|10926|N|To Scout Navrin.|
-T A Hero Is Needed |QID|10914|M|31.0,76.1|N|To Commander Ra'vaj.|
-A The Fallen Exarch |QID|10915|M|31.0,76.1|N|From Commander Ra'vaj.|
-T The Big Bone Worm |QID|10930|N|To Dwarfowitz.|
-T The Dread Relic |QID|10877|N|To Oakun.|
+T Taken in the Night |QID|10873|N|To Scout Navrin.|M|31.4,75.69|
+T Return to Sha'tari Base Camp |QID|10926|N|To Scout Navrin.|M|31.4,75.69|
+T A Hero Is Needed |QID|10914|M|31.0,76.1|N|To Commander Ra'vaj.|M|30.99,76.09|
+A The Fallen Exarch |QID|10915|M|31.0,76.1|N|From Commander Ra'vaj.|M|30.99,76.09|
+T The Big Bone Worm |QID|10930|N|To Dwarfowitz.|M|30.97,76.18|
+T The Dread Relic |QID|10877|N|To Oakun.|M|31.07,76.5|
+A Evil Draws Near|QID|10923|M|31.1,76.5|N|From Oakun.|
 C The Fallen Exarch |N|Go here from the west gate and use the coffin at this location, then kill the mob that spawns. | |QID|10915|M|36.00,65.50|
-A Evil Draws Near|QID|10923|M|31.1,76.5|N|From Oakun. This quest is optional, do it if you wish, or skip if you don't.|
 l Evil Draws Near|QID|10923|M|48.9,66.47|N|Kill Auchenai Death-Speakers and Auchenai Doomsayers to collect 20 Doom Skulls.|L|31812 20|O|
 C Evil Draws Near|QID|10923|M|48.65,67.16|N|Use the Dread Relic and the glowing purple spot and kill Teribus. He flies down from the west.|U|31811|O|
 T Evil Draws Near|QID|10923|M|31.1,76.5|N|To Oakun.|O|
