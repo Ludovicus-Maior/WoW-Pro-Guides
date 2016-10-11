@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
+-- Date: 2016-10-11 04:33
+-- Who: tubera
+-- Log: Clean up;Fix QOs
+
+-- URL: http://wow-pro.com/node/3278/revisions/26917/view
 -- Date: 2014-11-08 05:48
 -- Who: Emmaleah
 -- Log: Delete Dup QID and fix Dup N per list o' errors
@@ -85,7 +90,7 @@ A Ishanah |Z|Shattrath City|QID|10554|M|54.8,44.3|N|From Khadgar.|REP|Aldor;932|
 T Ishanah|N|You must take the elevator up to this area to find Ishanah and turn in the quest.|Z|Shattrath City|QID|10554|M|24.0,29.7|REP|Aldor;932|
 A Restoring the Light|Z|Shattrath City|QID|10021|M|24.0,29.7|N|From Ishanah.|REP|Aldor;932|
 h Shattrath City|QID|10021|Z|Shattrath City|N|Make Shattrath City (Aldor Rise) your home location.|M|28.00,49.00|REP|Aldor;932|
-r Sell junk, Repair, restock, train skills|QID|10021|N|Sell junk, Repair, restock, train skills.|M|27.92,47.45|REP|Aldor;932|
+r Sell junk, Repair, restock, train skills|QID|10021|N|Sell junk, Repair, restock, train skills.|M|27.92,47.45|REP|Aldor;932|Z|Shattrath City| ; add zone
 
 A Voren'thal the Seer|Z|Shattrath City|QID|10553|M|54.8,44.3|N|From Khadgar.|REP|Scryers;934|
 T Voren'thal the Seer|Z|Shattrath City|N|You must take the elevator up to this area.|QID|10553|M|43.5,91.8|REP|Scryers;934|
@@ -101,47 +106,48 @@ C Rather Be Fishin'|N|Kill and loot eels until you finish this quest.|QID|10037|
 T What's Wrong at Cenarion Thicket? |QID|9957|M|44.3,26.3|N|To Earthbinder Tavgren.|
 A Clues in the Thicket |QID|9971|M|44.3,26.3|N|From Earthbinder Tavgren.|
 A Strange Energy |QID|9968|M|44.3,26.3|N|From Earthbinder Tavgren.|
-l Vicious Teromoth Sample|QID|9968|S|N|Kill Vicious Teromoths to get 4 Vicious Teromoth Samples.|L|24279 4|M|44.00,20.00|
+l Vicious Teromoth Sample|QID|9968|S|N|Kill Vicious Teromoths to get 4 Vicious Teromoth Samples.|QO|2|M|44.00,20.00|
 A It's Watching You!|QID|9951|M|45.0,22.5|N|From Warden Treelos.|
 C Clues in the Thicket|N|Examine the Strange Object here.|QID|9971|M|45.10,21.80|
 C It's Watching You!|N|Kill Naphthal'ar at the top of the tower.|QID|9951|M|43.50,22.00|
 T It's Watching You!|QID|9951|M|45.0,22.5|N|To Warden Treelos.|
-l Vicious Teromoth Sample|QID|9968|US|N|Kill Vicious Teromoths to get 4 Vicious Teromoth Samples.|L|24279 4|M|44.00,20.00|
+l Vicious Teromoth Sample|QID|9968|US|N|Kill Vicious Teromoths to get 4 Vicious Teromoth Samples.|QO|2|M|44.00,20.00|
 T Clues in the Thicket|QID|9971|M|44.3,26.3|N|To Earthbinder Tavgren.|
-C Strange Energy|N|Kill teromoths until you get the items for this quest.|QID|9968|M|44.00,28.00|
+C Strange Energy|N|Kill teromoths until you get the items for this quest.|QID|9968|M|44.00,28.00|QO|1|
 T Strange Energy|QID|9968|M|44.3,26.3|N|To Earthbinder Tavgren.|
 A By Any Means Necessary|QID|9978|M|44.3,26.3|N|From Earthbinder Tavgren.|
 T By Any Means Necessary|QID|9978|M|47.1,27.0|N|Find Empoor on the road between Shattrath City and Tuurem. Talk to him and then fight him to low health. Turn this quest in right after this.|
 A Wind Trader Lathrai|QID|9979|M|47.1,27.0|N|From Empoor.|
 
 T News from Zangarmarsh |QID|9796|M|49.71,43.32|N|To Mokasa.|
+f Stonebreaker Hold|QID|10018|M|49.21,43.46|N|At Kerna.|
 A Stymying the Arakkoa |QID|9987|M|48.97,44.64|N|From Rokag.|
 A Speak with Scout Neftis |QID|10039|M|48.93,44.59|N|From Advisor Faila.|
 A Arakkoa War Path |QID|10868|M|48.93,44.59|N|From Advisor Faila.|
 A An Unwelcome Presence |QID|10000|M|48.77,45.69|N|From Kurgatok.|
 A Magical Disturbances |QID|10027|M|48.77,45.69|N|From Kurgatok.|
 A Wanted: Bonelashers Dead! |QID|10034|M|49.82,45.27|N|From the Wanted Poster.|
+T News for Rakoria|QID|10105|M|50.13,44.88|N|To Rakoria.| ;Quest gotten in Zangarmarsh
 A Olemba Seed Oil |QID|9993|M|50.13,44.88|N|From Rakoria.|
 A Vestments of the Wolf Spirit |QID|10018|M|50.17,46.44|N|From Malukaz.|
 
 C Vestments of the Wolf Spirit |QID|10018|M|56.5,41.4|N|Kill Timber Worg (Alpha)s|S|
 C Magical Disturbances |QID|10027|M|56.5,41.4|N|Kill Warp Stalkers|S|
-C Olemba Seed Oil |QID|9993|M|56.5,41.4|N|Grab Olemba Seeds|S|
-C Olemba Seed Oil |QID|9993|M|56.5,41.4|N|Grab Olemba Seeds|US|
+C Olemba Seed Oil |QID|9993|M|56.5,41.4|N|Grab Olemba Seeds|
 C Magical Disturbances |QID|10027|M|56.5,41.4|N|Kill Warp Stalkers|US|
 C Vestments of the Wolf Spirit |QID|10018|M|56.5,41.4|N|Kill Timber Worg (Alpha)s|US|
 
 R Veil Shienor|QID|10847|N|Head northeast to Veil Shienor.|M|59,27|
 C Arakkoa War Path |QID|10868|N|Kill Arakkoa until you complete the quest.|S|
 C The Outcast's Plight |N|Kill Arakkoa to get their feathers.|QID|10917|S|
-l Steal the Eye of Shienor |QID|10847|L|25642|N|The Eye can be found by heading to the eastern tree, going up, and crossing the bridge.|M|59.7,25.4|
-K Ayit |QID|9987|QO|Ayit slain: 1/1|N|He's down in a small hut between two trees.|M|59.4,23.5|
+l Steal the Eye of Shienor |QID|10847|QO|2|N|The Eye can be found by heading to the eastern tree, going up, and crossing the bridge.|M|59.7,25.4|
+K Ayit |QID|9987|QO|2|N|He's down in a small hut between two trees.|M|59.4,23.5|
 R Veil Reskk|QID|9987|N|Head northeast to Veil Reskk|M|49.3,20.2|
-N Eastern Altar|QID|10021|N|Right-click the Eastern Altar here.|M|49.20,20.30|QO|Eastern Altar: 1/1|REP|Aldor;932|
-K Ashkaz |QID|9987|QO|Ashkaz slain: 1/1|N|He's on the tree house that can be accessed by a wooden bridge from the ground. Careful, he can knock you off the platform.|M|49.9,16.5|
-C The Eyes of Skettis |QID|10847|N|Cross the bridge to the next house, the Eye is there. |M|50.1,19.4|
-N Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|Northern Altar: 1/1|REP|Aldor;932|
-C Restoring the Light|N|Right-click the Altar here to complete the quest.|QID|10021|M|48.10,14.50|REP|Aldor;932|
+N Eastern Altar|QID|10021|N|Right-click the Eastern Altar here.|M|49.20,20.30|QO|2|REP|Aldor;932|
+K Ashkaz |QID|9987|QO|1|N|He's on the tree house that can be accessed by a wooden bridge from the ground. Careful, he can knock you off the platform.|M|49.9,16.5|
+C The Eyes of Skettis |QID|10847|N|Cross the bridge to the next house, the Eye is there. |M|50.1,19.4|QO|1|
+N Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|1|REP|Aldor;932|
+C Restoring the Light|N|Right-click the Altar here to complete the quest.|QID|10021|M|48.10,14.50|REP|Aldor;932|QO|3|
 C Arakkoa War Path |QID|10868|N|Kill Arakkoa until you complete the quest.|US|
 C The Outcast's Plight|N|Kill Arakkoa to get their feathers.|QID|10917|US|
 
@@ -162,9 +168,9 @@ T Speak with Scout Neftis |QID|10039|N|To Scout Neftis.|M|39.03,43.74|
 N Dismount |QID|10041|N|You can't be on your mount for the next quest.|
 A Who Are They? |QID|10041|M|39.0,43.7|N|From Scout Neftis.|
 
-N Shadowy Initiate |QID|10041|QO|Shadowy Initiate Spoken To: 1/1|N|Enter the village north of here. STAY AWAY from Shadowy Hunters, they see through the disguise. There's an Initiate by the pond .|M|39.0,39.7|
-N Shadowy Advisor |QID|10041|QO|Shadowy Advisor Spoken To: 1/1|N|The Advisor is inside the large building.|M|40.3,39.0|
-C Who Are They? |QID|10041|N|The Laborer wanders all over the place.|T|Shadowy Laborer|
+N Shadowy Initiate |QID|10041|QO|1|N|Enter the village north of here. STAY AWAY from Shadowy Hunters, they see through the disguise. There's an Initiate by the pond .|M|39.0,39.7|
+N Shadowy Advisor |QID|10041|QO|3|N|The Advisor is inside the large building.|M|40.3,39.0|
+C Who Are They? |QID|10041|N|The Laborer wanders all over the place.|T|Shadowy Laborer|QO|2|
 T Who Are They? |QID|10041|M|39.03,43.74|N|To Scout Neftis.|
 A Kill the Shadow Council! |QID|10043|M|39.0,43.7|N|From Scout Neftis.|
 C Kill the Shadow Council! |QID|10043|N|Head back to the village. This time, slaughter them. Shadowmaster Grieve is inside the big building where you found the Shadowy Advisor .|M|40.3,39.0|
@@ -179,7 +185,7 @@ A Veil Skith: Darkstone of Terokk|QID|10839|M|37.4,51.5|N|From Kirrik the Awaken
 A Before Darkness Falls|QID|10878|M|37.4,51.2|N|From Mekeda. He tends to wander around.|
 C Missing Friends |N|Kill bird mobs and get Prison Keys. Use the keys on the cages until you finish this quest.|QID|10852|M|32.3,41.7|S|
 C A Personal Favor |N|Kill bird mobs until you finish this quest.|QID|10112|M|32.3,41.7|S|
-C Veil Skith: Darkstone of Terokk |N|Use the Rod of Purification here.|QID|10839|M|30.80,42.00|
+C Veil Skith: Darkstone of Terokk |N|Use the Rod of Purification here.|QID|10839|M|30.80,42.00|U|31610
 C Stymying the Arakkoa|N|Kill Urdak in the trees.|QID|9987|M|31.00,43.00|
 C Missing Friends |N|Kill bird mobs and get Prison Keys. Use the keys on the cages until you finish this quest.|QID|10852|M|32.3,41.7|US|
 C A Personal Favor |N|Kill bird mobs until you finish this quest.|QID|10112|M|32.3,41.7|US|
@@ -190,10 +196,11 @@ A The Tomb of Lights |QID|10840|M|37.45,50.77|N|From High Priest Orglum.|
 A Vengeful Souls|QID|10842|M|37.45,50.77|N|From Hight Priest Orglum.|
 
 C Wanted: Bonelashers Dead!|N|Kill Bonelashers until you finish this quest.|QID|10034|M|42.64,50.40|S|
-l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor;932|
+l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor;932|S
+A Cabal Orders |N|Right-click the orders to start the quest.|QID|10880|M|32.2,52.8|U|31707|O
 C Before Darkness Falls |N|Kill Orcs until you finish this quest.|QID|10878|M|40.00,56.00|
 l Cabal Orders |QID|10880|N|Kill Orcs until you get the Cabal Orders.|L|31707|M|40.00,56.00|
-A Cabal Orders |N|Right-click the orders to start the quest.|QID|10880|M|32.2,52.8|U|31707|
+l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor;932|US
 C The Tomb of Lights|N|Kill the Ethereal Nethermancers and Plunderers needed for this quest.|QID|10840|S|
 C Vengeful Souls|N|Kill the 5 Vengeful Draenei you need to finish this quest.|QID|10842|M|47.00,55.00|
 C The Tomb of Lights|N|Kill the rest of the mobs needed for this quest.|QID|10840|US|
@@ -218,36 +225,31 @@ F Stonebreaker Hold|QID|10043|Z|Shattrath City|M|64.1,41.1|N|Fly to Stonebreaker
 T Kill the Shadow Council! |QID|10043|M|48.93,44.59|N|To Advisor Faila.|
 T Arakkoa War Path |QID|10868|M|48.93,44.59|N|To Advisor Faila.|
 T Stymying the Arakkoa |QID|9987|M|48.97,44.64|N|To Rokag.|
+T Magical Disturbances |QID|10027|M|48.77,45.69|N|To Kurgatok.|
 T Wanted: Bonelashers Dead! |QID|10034|M|49.25,45.88|N|To Mawg Grimshot.|
 A Torgos! |QID|10036|M|49.25,45.88|N|From Mawg Grimshot.|
-T Magical Disturbances |QID|10027|M|48.77,45.69|N|To Kurgatok.|
-C Olemba Seed Oil |QID|9993|N|Collect any olemba seeds.|M|34.9,42.8|S|
-C Magical Disturbances |QID|10027|N|Kill warp stalkers.|M|34.9,42.8|S|
-C Vestments of the Wolf Spirit |QID|10018|N|Collect wolf pelts.|M|34.9,42.8|S|
+T Vestments of the Wolf Spirit |QID|10018|M|50.17,46.44|N|To Malukaz.|
+A Patriarch Ironjaw |QID|10023|M|50.17,46.44|N|From Malukaz.|
+
+T Olemba Seed Oil |QID|9993|M|50.13,44.88|N|To Rakoria.|
+A And Now, the Moment of Truth |QID|10201|M|50.13,44.88|N|From Rakoria.|
+C And Now, the Moment of Truth |QID|10201|N|Talk to Grek, he stands in front of the wanted poster. Ask him to try the oil and wait until you get the complete message. |M|49.9,45.3|
+T And Now, the Moment of Truth |QID|10201|M|50.13,44.88|N|To Rakoria.|
+
 C An Unwelcome Presence |QID|10000|M|67,52|N|Kill Warped Peons.|
 T An Unwelcome Presence |QID|10000|M|63.38,42.73|N|To Shadowstalker Kaide.|
 A The Firewing Liaison |QID|10003|M|63.38,42.73|N|From Shadowstalker Kaide.|
 A What Happens in Terokkar Stays in Terokkar |QID|10008|M|63.38,42.73|N|From Shadowstalker Kaide.|
 
-R Bonechewer Ruins |QID|10013|N|Fight your way back over again. |M|67,52|
 C What Happens in Terokkar Stays in Terokkar |QID|10008|S|N|Kill Bonechewer Devastators and Backbreakers.|
 C The Firewing Liaison |QID|10003|N|Lisaile Fireweaver is in the main building. |M|67.8,53.3|
 A An Unseen Hand|QID|10013|N|Right-click the plans on the floor next to Lisaile. |M|67.9,53.6|
 C What Happens in Terokkar Stays in Terokkar |QID|10008|US|N|Kill Bonechewer Devastators and Backbreakers.|
 T The Firewing Liaison |QID|10003|M|63.38,42.73|N|To Shadowstalker Kaide.|
 T What Happens in Terokkar Stays in Terokkar |QID|10008|M|63.38,42.73|N|To Shadowstalker Kaide.|
-C Olemba Seed Oil |QID|9993|N|Collect any olemba seeds you still need.|M|34.9,42.8|US|
-C Magical Disturbances |QID|10027|N|Kill any warp stalker kills you still need.|M|34.9,42.8|US|
-C Vestments of the Wolf Spirit |QID|10018|N|Collect any wolf pelts you still need.|M|34.9,42.8|US|
 
-T Olemba Seed Oil |QID|9993|M|50.13,44.88|N|To Rakoria.|
-A And Now, the Moment of Truth |QID|10201|M|50.13,44.88|N|From Rakoria.|
-C And Now, the Moment of Truth |QID|10201|N|Talk to Grek, he stands in front of the wanted poster. Ask him to try the oil and wait until you get the complete message. |M|49.9,45.3|
-T And Now, the Moment of Truth |QID|10201|M|50.13,44.88|N|To Rakoria.|
 T An Unseen Hand |QID|10013|M|48.97,44.64|N|To Rokag.|
 T Magical Disturbances |QID|10027|M|48.77,45.69|N|To Kurgatok.|
-T Vestments of the Wolf Spirit |QID|10018|M|50.17,46.44|N|To Malukaz.|
-A Patriarch Ironjaw |QID|10023|M|50.17,46.44|N|From Malukaz.|
 C Investigate Tuurem |QID|9990|N|Head northwest into Tuurem, the sealed box is next to the Firewing Courier on the northeastern island.|M|54,30|
 T Investigate Tuurem |QID|9990|M|44,26|N|To Earthbinder Tavgren.|
 A What Are These Things? |QID|9995|M|44.3,26.3|N|From Earthbinder Tavgren.|
@@ -259,7 +261,7 @@ A Attack on Firewing Point |QID|9997|M|63.3,42.4|N|From Sergeant Chawni.|
 l Firewing Signets|QID|10412|M|70.00,39.00|N|Kill the mobs until you get 10 Firewing Signets.|L|29426 10|REP|Scryers;934|S|
 C Attack on Firewing Point |QID|9997|N|Kill the Firewing Defenders, Bloodwarders and Warlocks.|M|71.32,38.11|
 C Patriarch Ironjaw |QID|10023|N|Ironjaw roams east and west of here.|M|69,32|T|Ironjaw|
-C A Cure for Zahlia |QID|10020|N|Stonegazer patrols along the edge of Terokkar just north of you.|REP|Aldor;932|T|Stonegazer|
+C A Cure for Zahlia |QID|10020|N|Stonegazer patrols along the edge of Terokkar just north of you.|REP|Aldor;932|T|Stonegazer|M|63.97,29.71|
 T Attack on Firewing Point |QID|9997|M|63,43|N|To Sergeant Chawni.|
 A The Final Code |QID|10447|M|63.3,42.4|N|From Sergeant Chawni.|
 N Obtain the Final Code |QID|10447|L|29912|N|He's on top of the northeastern building. It has the highest tower. Fight (or fly) your way up the ramp and translocate up. Sharth Voldoun has a lot of HP and heals on low HP, so be careful.|M|73.8,35.7|
@@ -284,9 +286,9 @@ C Veil Rhaze: Unliving Evil |N|Kill the mobs needed for this quest here.|QID|108
 C Torgos! |QID|10036|N|To kill Torgos, head to the scarecrow called Torgos' Bane, and use Trachela's Carcass.|U|30618|M|27,56|
 
 R Shadow Tomb|QID|10887|N|Go to the Shadow Tomb.|M|32.00,53.00|
-l Gavel of K'alen |QID|10881|N|Loot the Gavel from the chest here.|L|31710|M|29.70,51.70|
-l Drape of Arunen |QID|10881|N|Loot the Drape from the chest here.|L|31709|M|32.10,51.20|
-C The Shadow Tomb |QID|10881|N|Loot the scroll from the chest here, then accept the escort quest.|M|31.20,46.70|
+l Gavel of K'alen |QID|10881|N|Loot the Gavel from the chest here.|QO|2|M|29.70,51.70|
+l Drape of Arunen |QID|10881|N|Loot the Drape from the chest here.|QO|1|M|32.10,51.20|
+C The Shadow Tomb |QID|10881|N|Loot the scroll from the chest here, then accept the escort quest.|M|31.20,46.70|QO|3|
 A Escaping the Tomb|QID|10887|M|30.60,49.00|N|From Akuno.|
 C Escaping the Tomb|N|Do this escort quest.|QID|10887|M|33.92,51.47|
 T Veil Rhaze: Unliving Evil |QID|10848|M|37.4,51.5|N|To Kirrik the Awakened.|
@@ -305,11 +307,11 @@ A Fumping |QID|10929|M|30.98,76.19|N|From Dwarfowitz.|
 C Recover the Bones |N|Loot the rest of the bones needed for this quest.|QID|10030|US|M|52.00,58.00|
 
 R Auchindoun |QID|10227|N|Enter Auchindoun from this location. |M|33.00,66.00|
-A I See Dead Draenei|QID|10227|N|From Ha'lei.|
-T I See Dead Draenei|QID|10227|N|To Ramdor the Mad.|
-A Ezekiel |QID|10228|N|From Ramdor the Mad.|
-T Recover the Bones |QID|10030|N|To Ramdor the Mad.|
-A Helping the Lost Find Their Way|QID|10031|N|From Ramdor the Mad.|
+A I See Dead Draenei|QID|10227|N|From Ha'lei.|M|35.12,65.13|
+T I See Dead Draenei|QID|10227|N|To Ramdor the Mad.|M|35.12,66.23|
+A Ezekiel |QID|10228|N|From Ramdor the Mad.|M|35.12,66.23|
+T Recover the Bones |QID|10030|N|To Ramdor the Mad.|M|35.12,66.23|
+A Helping the Lost Find Their Way|QID|10031|N|From Ramdor the Mad.|M|35.12,66.23|
 
 H Shattrath City |QID|10228|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10228|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
@@ -323,22 +325,18 @@ T Ezekiel|QID|10228|Z|Shattrath City|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,5
 A What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|From Ezekiel.|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|
 C What Book? I Don't See Any Book.|Z|Shattrath City|N|Talk to "Dirty" Larry in Lower City and then get him down to 1% health.|QID|10231|M|43.58,29.36|
 T What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|To "Dirty" Larry.|M|43.58,29.36|
-A The Master's Grand Design? |QID|10251|Z|Shattrath City|M|43.58,29.36|N|From "Dirty" Larry.|
+A The Master's Grand Design? |QID|10251|Z|Shattrath City|M|43.58,29.36|N|From "Dirty" Larry, this leads into Nagrand.|
 
 T Letting Earthbinder Tavgren Know |QID|10006|M|44.3,26.3|N|To Earthbinder Tavgren.|
 T Veil Lithic: Preemptive Strike |QID|10861|M|37.4,51.5|N|To Kirrik the Awakened.|
 A Veil Shalas: Signal Fires |QID|10874|M|37.4,51.5|N|From Kirrik the Awakened.|
-C Fumping|N|Go here (make sure the map says "The Bone Wastes"), use the fumper to possibly spawn a sifter. Kill and loot sifters this way until you get all the items for this quest. Do not be too close to the caravan as the level 85 guards will kill it too quick, but you can use them to help kill the Gnomes.|QID|10929|M|35.05,51.5|
+C Fumping|N|Go here (make sure the map says "The Bone Wastes"), use the fumper to possibly spawn a sifter. Kill and loot sifters this way until you get all the items for this quest. Do not be too close to the caravan as the level 85 guards will kill it too quick, but you can use them to help kill the Gnomes.|QID|10929|M|35.05,51.5|U|31810|
 C Helping the Lost Find Their Way |QID|10031|N|Kill Lost spirits, and Broken skeletons.|S|
 T Fumping|QID|10929|M|30.98,76.19|N|To Dwarfowitz.|
 A The Big Bone Worm|QID|10930|M|30.98,76.19|N|From Dwarfowitz.|
 C An Improper Burial |QID|10913|U|31769|N|Head east and use your Sha'tari Torch on the corpses.|M|35.0,76.5|
 C The Dread Relic|N|Go here and loot the relic from the chest. A bunch of weak undead will spawn, but if you are quick enough, you can get away.|QID|10877|M|44.00,76.00|
-T An Improper Burial|QID|10913|M|31.01,76.12|N|To Commander Ra'vaj.|
-A A Hero Is Needed|QID|10914|M|31.01,76.12|N|From Commander Ra'vaj.|
-T The Dread Relic |QID|10877|M|31.06,76.54|N|To Oakun.|
 
-A Evil Draws Near|QID|10923|M|31.1,76.5|N|From Oakun.|
 C The Big Bone Worm |QID|10930|N|Kill a Decrepit Clefthoof. Use the Fumper on it's corpse, run if you get Bone Worms, kill Gnomes. Eventually, you'll get Hai'shulud, kill it.|U|31825|M|44,73|
 A For the Fallen |QID|10920|N|From Vindicator Haylen.|M|49.71,76.18|
 C Taken in the Night|N|Free Netherweb Victims until you finish this quest. Can be an aggressive mob.|QID|10873|M|52.00,77.00|S|
@@ -353,30 +351,35 @@ A Return to Sha'tari Base Camp |QID|10926|N|From Vindicator Haylen.|
 N READ THIS |QID|10898|N|Time for an escort quest. Let Skywing go first, he can take a beating and give you time to eat and drink. Don't ever fight with your back facing off the edge, because you can and will get punted. You can disable three of the Signal Fires during the escort, in order, they are: Bloodstone, Violet, Emerald. After the second fire, Skywing jumps down to a lower platform and an elite spawns, who doesn't hit hard but has a nasty Chain Lightning. Interrupt it if you can. The final fire is just next to him.|
 A Skywing|QID|10898|M|53.8,72.20|N|From Skywing.|
 C Skywing|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge. Turn off the fires when you get near them for the other quest.|QID|10898|S|
-N Bloodstone Signal Fire|QID|10874|M|56.12,72.49|QO|Bloodstone Fire Extinguished: 1/1|N|Keep following Skywing, click on the Bloodstone Signal Fire to extinguish it.|
-N Violet Signal Fire|QID|10874|M|56.63,69.19|QO|Violet Fire Extinguished: 1/1|N|Keep following Skywing, click on the Violet Signal Fire to extinguish it.|
-N Emerald Signal Fire|QID|10874|M|55.47,69.8|QO|Emerald Fire Extinguished: 1/1|N|Keep following Skywing, click on the Emerald Signal Fire to extinguish it.|
-C Veil Shalas: Signal Fires |N|After getting all of the signal fires except sapphire, mount and fly to the next treehouse where the Sapphire Signal Fire is, then extinguish it.|QID|10874|M|55.2,67.1|
+N Bloodstone Signal Fire|QID|10874|M|56.12,72.49|QO|4|N|Keep following Skywing, click on the Bloodstone Signal Fire to extinguish it.|
+N Violet Signal Fire|QID|10874|M|56.63,69.19|QO|3|N|Keep following Skywing, click on the Violet Signal Fire to extinguish it.|
+N Emerald Signal Fire|QID|10874|M|55.47,69.8|QO|2|N|Keep following Skywing, click on the Emerald Signal Fire to extinguish it.|
+C Veil Shalas: Signal Fires |N|After getting all of the signal fires except sapphire, mount and fly to the next treehouse where the Sapphire Signal Fire is, then extinguish it.|QID|10874|M|55.2,67.1|QO|1|
 C Skywing|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge. Turn off the fires when you get near them for the other quest.|QID|10898|US|
-l Doom Skulls |QID|10923|L|31812 20|N|Kill Auchenai mobs until you have 20 Doom Skulls. |M|48,67|
-C Evil Draws Near |QID|10923|U|31811|N|Go to the rune in the middle and use the Dread Relic. This will summon Teribus the Cursed. |M|58.8,79.4|
-C Helping the Lost Find Their Way |QID|10031|N|Kill Lost spirits, and Broken skeletons.|US|
-C A Hero is Needed |QID|10914|M|36.04,74.78|N|Kill Auchenai Initiates and Doomsayers.|
-
-T Return to Sha'tari Base Camp |QID|10926|M|31.44,75.66|N|To Scout Navrin.|
 T Taken in the Night |QID|10873|M|31.44,75.66|N|To Scout Navrin.|
+T Return to Sha'tari Base Camp |QID|10926|M|31.44,75.66|N|To Scout Navrin.|
+T An Improper Burial|QID|10913|M|31.01,76.12|N|To Commander Ra'vaj.|
+T The Big Bone Worm |QID|10930|N|To Dwarfowitz.|
+A A Hero Is Needed|QID|10914|M|31.01,76.12|N|From Commander Ra'vaj.|
+T The Dread Relic |QID|10877|M|31.06,76.54|N|To Oakun.|
+
+A Evil Draws Near|QID|10923|M|31.1,76.5|N|From Oakun.|
+C A Hero is Needed |QID|10914|M|36.04,74.78|N|Kill Auchenai Initiates and Doomsayers.|
 T A Hero Is Needed |QID|10914|M|31.0,76.1|N|To Commander Ra'vaj.|
 A The Fallen Exarch |QID|10915|M|31.0,76.1|N|From Commander Ra'vaj.|
-T The Big Bone Worm |QID|10930|N|To Dwarfowitz.|
-T Evil Draws Near|QID|10923|M|31.1,76.5|N|To Oakun.|
 C The Fallen Exarch |N|Go here from the west gate and use the coffin at this location, then kill the mob that spawns.|QID|10915|M|36.00,65.50|
+l Doom Skulls |QID|10923|L|31812 20|N|Kill Auchenai mobs until you have 20 Doom Skulls. |M|48,67|
+C Evil Draws Near |QID|10923|U|31811|N|Go to the rune in the middle and use the Dread Relic. This will summon Teribus the Cursed. |M|58.8,79.4|
+T Evil Draws Near|QID|10923|M|31.1,76.5|N|To Oakun.|
 T The Fallen Exarch|QID|10915|M|31.0,76.1|N|To Commander Ra'vaj.|
 
+C Helping the Lost Find Their Way |QID|10031|N|Kill Lost spirits, and Broken skeletons.|US|
 T Veil Shalas: Signal Fires |QID|10874|M|37.4,51.5|N|To Kirrik the Awakened.|
 A Return to Shattrath |QID|10889|M|37.4,51.5|N|From Kirrik the Awakened.|
 T Helping the Lost Find Their Way |QID|10031|M|37.05,49.52|N|To Soolaveen.|
 T Torgos! |QID|10036|M|49.25,45.88|N|To Mawg Grimshot.|
-F Shattrath|QID|10889|N|Fly to Shattrath City|M|49.2,43.4|
+
+H Shattrath|QID|10889|N|Hearth to Shattrath City|M|49.2,43.4|
 T Return to Shattrath|QID|10889|M|52.6,21.0|Z|Shattrath City|N|To Rilak the Redeemed.|
 T Skywing|QID|10898|Z|Shattrath City|N|To Rilak the Redeemed.|
 A The Skettis Offensive|QID|10879|Z|Shattrath City|M|51.76,20.78|N|From Defender Grashna.|
