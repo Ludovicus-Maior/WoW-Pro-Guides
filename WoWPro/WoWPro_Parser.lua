@@ -541,7 +541,7 @@ end
 function WoWPro.SemiMatch(big,little)
 	local possible = select("#", string.split(",", big))
 	for j=1,possible do
-		local jpossible = select(possible-j+1, string.split(";", big))
+		local jpossible = select(possible-j+1, string.split(",", big))
 		if jpossible == little then
 			return true
 		end
