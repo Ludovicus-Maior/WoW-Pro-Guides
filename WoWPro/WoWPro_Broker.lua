@@ -698,7 +698,7 @@ function WoWPro.NextStep(k,i)
     	end
     	
     	-- Complete "f" steps if we know the flight point already
-    	if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi[WoWPro.step[k]] then
+        if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi and WoWProCharDB.Taxi[WoWPro.step[k]] then
 	        WoWPro.CompleteStep(k, "Taxi point known")
 	        skip = true
 	        break
@@ -1546,15 +1546,15 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
         local quids = select("#", string.split(";", qid))
         if (not quids) or quids == 1 then 
             WoWPro:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
-            return false;
+            return nil;
         else
             -- Yup, return true if any are complete
     		for j=1,quids do
     			local jquid = select(quids-j+1, string.split(";", qid))
                 jquid = tonumber(jquid)
                 if not jquid then
-                    WoWPro:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
-                    return false;
+                    WoWPro:Warning("Guide %s has a bad sub QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
+                    return nil
                 end
                 if WoWPro:IsQuestFlaggedCompleted(jquid,force) then
                     return true
