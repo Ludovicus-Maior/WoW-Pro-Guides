@@ -282,19 +282,18 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	local atext = text:gsub("|", "¦")
 	if text == "" then
 	    -- empty lines ignored
-	    return
+	    return nil
 	end
 
     -- Handle comment lines specially
-    if WoWPro.DebugLevel > 0 then
-        if string.sub(text,1,1) == ";" then
+    if string.sub(text,1,1) == ";" then
+        if WoWPro.DebugLevel > 0 then
             WoWPro.action[i] = string.sub(atext,1,1)
             WoWPro.step[i] = string.sub(atext,2)
             WoWPro.step[i] = WoWPro.step[i]:trim()
-            return
+            return i
         end
-    else
-        return
+        return nil
     end
 
     -- Split the line up on the pipes
@@ -302,7 +301,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	if #tags < 3 then
 	    -- Two pipes are needed for a valid line
 	    WoWPro:Error("Line %d in guide %s has only %d sections.", i, GID, #tags)
-	    return
+	    return nil
 	end
 	
 	-- The first tag is is the Action followed by the Step name
@@ -310,12 +309,12 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	if string.len(primo) < 3 then
 	    -- Too short to be valid
 	    WoWPro:Error("Line %d in guide %s has too short a preamble.  Only %d characters. '%s'",i,GID, string.len(primo), primo)
-	    return
+	    return nil
 	end
 	if string.sub(primo,2,2) ~= " " then
 	    -- Second needs to be a blank
 	    WoWPro:Error("Line %d in guide %s must have a blank as the 2nd character: '%s' is not right.",i,GID, primo)
-	    return
+	    return nil
 	end
     
     -- Now extract the action and step
@@ -326,7 +325,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     -- Now make sure it is a valid action!
     if not WoWPro.actionlabels[WoWPro.action[i]] then
 	    WoWPro:Error("Line %d in guide %s has an invalid action: '%s'",i,GID,WoWPro.action[i])
-	    return    
+	    return i
     end
 
 	local idx = 2
@@ -492,6 +491,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	   WoWPro[WoWPro.Guides[WoWProDB.char.currentguide].guidetype].ParseQuestLine then
 	    WoWPro[WoWPro.Guides[WoWProDB.char.currentguide].guidetype]:ParseQuestLine(text,i)
 	end
+	return i
 end
 
 function WoWPro.RecordStuff(i)
@@ -605,9 +605,10 @@ function WoWPro.ParseSteps(steps)
 			   (race == nil or WoWPro.SemiMatch(race, myrace))  and
 			   (gender == nil or gender == UnitSex("player")) and
 			   (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
-				WoWPro.ParseQuestLine(faction, zone, i, text)
-				WoWPro.RecordStuff(i)
-				i = i + 1
+				if WoWPro.ParseQuestLine(faction, zone, i, text) then
+				    WoWPro.RecordStuff(i)
+				    i = i + 1
+				end
 			end
 		end
 	end
