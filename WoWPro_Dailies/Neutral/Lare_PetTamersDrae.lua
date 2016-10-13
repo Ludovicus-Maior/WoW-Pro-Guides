@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_tamers_draenor
+-- Date: 2016-10-13 23:08
+-- Who: Ludovicus
+-- Log: Legion Tweaks.
+
+-- URL: http://wow-pro.com/node/3643/revisions/27470/view
 -- Date: 2016-07-19 18:56
 -- Who: Ludovicus
 -- Log: Major rewrite
@@ -55,10 +60,10 @@ C Darkwing|QID|37207|STRATEGY|Sybreedx@wowhead.com|N|1) Breath until death.|SELE
 T Vesharr|QID|37207|M|46.2,45.4|Z|Spires of Arak|N|To Vesharr|
 
 F Retribution Point|AVAILABLE|37208|N|Fly to Retribution Point.|M|46.2,44|Z|Spires of Arak|
-N Taralune|AVAILABLE|37208|PET1|Chrominius;68662;2+2+2|PET2|Leveling;;;H>600F|PET3|Nexus Whelpling;68845;1+2+2|STRATEGY|Taralune|
+N Taralune|AVAILABLE|37208|PET1|Chrominius;68662;2+2+2|PET2|Leveling;;;|PET3|Nexus Whelpling;68845;1+2+2|STRATEGY|Taralune|
 A Taralune|QID|37208|M|49.0,80.4|Z|Talador|N|From Taralune|
 C Serendipity|QID|37208|STRATEGY|Taralune|N|1) Arcane Explosion\n2) Ancient Blessing (from now on, use it on cooldown)\n3) Spam Arcane Explosion\n4) Surge of Power when Serendipity can be killed by it.\n5) When Chrominius dies switch in the level pet.|SELECT|1|DEAD|1,1|SWITCH|2|
-C Leveling Pet|QID|37208|STRATEGY|Taralune|N|1) Strike Serendipity\n2) Switch in the Whelpling.|SELECT|2|SWITCH|3|
+C Leveling Pet|QID|37208|STRATEGY|Taralune|N|1) Switch in the Whelpling.|SELECT|2|SWITCH|3|
 N Mana Surge Purge|QID|37208|STRATEGY|Taralune|N|1) Arcane Storm\n2) Mana Surge\n3) Victory!|SELECT|3|DEAD|2,3|
 T Taralune|QID|37208|M|49.0,80.4|Z|Talador|N|To Taralune|
 
@@ -74,7 +79,7 @@ T Tarr the Terrible|QID|37206|M|56.2,9.8|Z|Nagrand@Draenor|N|To Tarr|
 
 F Deeproot|AVAILABLE|37201|N|Fly to Deeproot.|M|50.6,30.6|Z|Nagrand@Draenor|
 R The way to Cymre|AVAILABLE|37201||M|49.83,75.08;51.51,71.35|CS|Z|Gorgrond|ACH|10018|N|Follow these waypoints to Cymre.|
-N Cymre Winter|AVAILABLE|37201|PET1|Leveling;;;H>500U|PET2|Winter Reindeer;15706;1+2+1|PET3|Infinite Whelpling;68820;1+1+1|STRATEGY|CymreWinter|
+N Cymre Winter|AVAILABLE|37201|PET1|Leveling;;;H>500U|PET2|Winter Reindeer;15706;1+2+1|PET3|Infinite Whelpling;68820;1+1+1;P>340|STRATEGY|CymreWinter|
 N Cymre Idol|AVAILABLE|37201|PET1|Leveling;;;H>500U|PET2|Anubisath Idol;68659;1+1+1|PET3|Mechanical Pandaren Dragonling;64899;1+2+2|STRATEGY|CymreIdol|
 A Cymre Brightblade|QID|37201|M|51.0,70.6|Z|Gorgrond|N|From Cymre|
 C Leveling|QID|37201|STRATEGY|CymreIdol|N|1) Hit\n2) Switch to Anubisath Idol.|SELECT|1|SWITCH|2|
@@ -91,7 +96,7 @@ T Cymre Brightblade|QID|37201|M|51.0,70.6|Z|Gorgrond|N|To Cymre|
 
 F Iron Siegeworks|AVAILABLE|37205|N|Fly to Iron Siegeworks.|M|46.4,76.6|Z|Gorgrond|
 R The way through the rockfall|AVAILABLE|37205|M|84.7,59.83;79.36,56.65;79.30,55.64;78.94,55.46;78.62,55.51;78.33,54.83;71.9,57.64|CS|Z|Frostfire Ridge|ACH|10018|N|Go through the rockfall by following these waypoints.|
-N Gargra|AVAILABLE|37205|PET1|Cogblade Raptor;68841;2+1+1;S>259|PET2|Leveling;;;|PET3|Darkmoon Zepplin;55367;1+1+2|STRATEGY|Gargra|
+N Gargra|AVAILABLE|37205|PET1|Cogblade Raptor;68841;2+1+1;S>259|PET2|Leveling;;;H>300B|PET3|Darkmoon Zepplin;55367;1+1+2|STRATEGY|Gargra|
 A Gargra|QID|37205|M|68.6,64.6|Z|Frostfire Ridge|N|From Gargra|
 C Wolfus|QID|37205|STRATEGY|Gargra|N|1) Exposed Wounds\n2) 2x Batter until Wolfus is dead.\nIf your Raptor dies here, restart.|SELECT|1|DEAD|2,1|
 C Fangra|QID|37205|STRATEGY|Gargra|N|1) Overtune\n2) Exposed Wounds\n3) Repeat:\n A) Overtune\n B) Batter\n until Fangra is dead.\nIt's OK if your Raptor dies and comes back here as long as Fangra dies.|SELECT|1|DEAD|2,2|

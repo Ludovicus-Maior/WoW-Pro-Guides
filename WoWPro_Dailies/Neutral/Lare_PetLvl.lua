@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_levelup_125
+-- Date: 2016-10-13 23:15
+-- Who: Ludovicus
+-- Log: 500F
+
+-- URL: http://wow-pro.com/node/3642/revisions/27554/view
 -- Date: 2016-08-15 22:22
 -- Who: Ludovicus
 -- Log: Use Rank2 for the extra trainers.  Use Rank3 for the hard strategies.
@@ -121,7 +126,7 @@ C Sludgy .vs. MPD|QID|32441|STRATEGY|Ludovicus/Thundering|N|1) Breath\n|SELECT|3
 C Tunneler|QID|32441|STRATEGY|Ludovicus/Thundering|N|1) Bombing Run\n2) Breath\n3) Decoy\n 4) Breath *|SELECT|3|DEAD|2,3|
 T Thundering Pandaren Spirit|QID|32441|M|64.95,93.80|Z|Kun-Lai Summit|N|From Thundering Pandaren Spirit|
 
-N Whispering Pandaren Spirit|AVAILABLE|32440|PET1|Leveling;;;|PET2|Nether Faerie Dragon;62395;2+2+1|PET3|Nexus Whelpling;68845;1+2+2|STRATEGY|Ludovicus/Whispering|
+N Whispering Pandaren Spirit|AVAILABLE|32440|PET1|Leveling;;;H>500F|PET2|Nether Faerie Dragon;62395;2+2+1|PET3|Nexus Whelpling;68845;1+2+2|STRATEGY|Ludovicus/Whispering|
 A Whispering Pandaren Spirit|QID|32440|M|28.89,36.03|Z|The Jade Forest|N|From Whispering Pandaren Spirit|RANK|2|
 C Dusty .vs. Leveling|QID|32440|STRATEGY|Ludovicus/Whispering|N|1) Level Pet attack\n2) Swap Nether Faerie Dragon.|SELECT|1|SWITCH|2|
 C Dusty .vs. Dragon|QID|32440|STRATEGY|Ludovicus/Whispering|N|1) Moonfire\n2) Arcane Blast*|SELECT|2|DEAD|2,1|
