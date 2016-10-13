@@ -88,7 +88,7 @@ function WoWPro.PetMeetsLimits(petID, limits)
     return true
 end
 
-function WoWPro.GetPetByNameOrID(name, id, limits)
+function WoWPro.GetPetByNameOrID(name, id, limits, pet1, pet2)
     local numPets, numOwned = C_PetJournal.GetNumPets();
     local pids = nil
 
@@ -116,6 +116,9 @@ function WoWPro.GetPetByNameOrID(name, id, limits)
                     ok = true
                 end
             end
+            if (petID == pet1) or (petID == pet2) then
+                ok = false
+            end
             if ok then
                 WoWPro:dbp("WoWPro.GetPetByNameOrID: Found Candidate %s aka %s/%d", petID, speciesName, companionID)
                 pids = pids or {}
@@ -127,7 +130,7 @@ function WoWPro.GetPetByNameOrID(name, id, limits)
 end
 
 
-function WoWPro.GetLevelingPet(limits)
+function WoWPro.GetLevelingPet(limits, pet1, pet2)
     local numPets, numOwned = C_PetJournal.GetNumPets();
     local pids = nil
     local petID_worst = nil
@@ -139,7 +142,7 @@ function WoWPro.GetLevelingPet(limits)
         return nil
     end
 
-    WoWPro:dbp("GetLevelingPet(): Searching out of %d/%d",numPets, numOwned)
+    WoWPro:dbp("GetLevelingPet(): Searching out of %d/%d limit %s",numPets, numOwned, tostring(limits))
     for i = 1,numPets do
         -- petID="BattlePet-0-0000027C0B08", speciesID=244, isOwned=true, customName=nil, level=1, favorite=false, isRevoked=false
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
@@ -154,6 +157,9 @@ function WoWPro.GetLevelingPet(limits)
             else
                 ok = true
             end
+        end
+        if (petID == pet1) or (petID == pet2) then
+            ok = false
         end
         if ok then
             -- The pet called Leveling has priority if it meets the limits.
@@ -186,7 +192,7 @@ function WoWPro.GetLevelingPet(limits)
     end
 end
 
-function WoWPro.GetPetByAbilities(abilities, limits)
+function WoWPro.GetPetByAbilities(abilities, limits, pet1, pet2)
     local numPets, numOwned = C_PetJournal.GetNumPets();
     local pids = nil
     local slots = {}
@@ -224,6 +230,9 @@ function WoWPro.GetPetByAbilities(abilities, limits)
             else
                 ok = true
             end
+        end
+        if (petID == pet1) or (petID == pet2) then
+            ok = false
         end
         -- Possible candidate?
         if ok then
@@ -377,7 +386,7 @@ function WoWPro.SetPetAbilities(slot, abilities)
     end
 end
 
-function WoWPro.PetLoadAndPick(slot, name, id, pick, limits)
+function WoWPro.PetLoadAndPick(slot, name, id, pick, limits, pet1, pet2)
     local pet
     local pets
 
@@ -385,12 +394,12 @@ function WoWPro.PetLoadAndPick(slot, name, id, pick, limits)
         if limits == "" or limits == nil then
             limits = "L>0"
         end
-        pets = WoWPro.GetLevelingPet(limits)
+        pets = WoWPro.GetLevelingPet(limits, pet1, pet2)
     elseif pick[0] > 2 then
         -- OK a pick spec overrides a Name/ID spec
-        pets = WoWPro.GetPetByAbilities(pick, limits)
+        pets = WoWPro.GetPetByAbilities(pick, limits, pet1, pet2)
     else
-        pets = WoWPro.GetPetByNameOrID(name, id, limits)
+        pets = WoWPro.GetPetByNameOrID(name, id, limits, pet1, pet2)
     end
     pet = WoWPro.PickBestPet(pets)
     if not pet then return nil; end
@@ -407,7 +416,7 @@ function WoWPro.PetLoadAndPick(slot, name, id, pick, limits)
     return pet
 end
 
-function WoWPro.PetLoadBySpec(slot, spec)
+function WoWPro.PetLoadBySpec(slot, spec, pet1, pet2)
     -- |Iron Starlette;77221;1+1+1|
     local name,id,pick_spec,limits  = string.split(";",spec)
     local pick = { string.split("+",pick_spec) }
@@ -416,7 +425,7 @@ function WoWPro.PetLoadBySpec(slot, spec)
         pick[i] = tonumber(pick[i]) or 0
         pick[0] = math.max(pick[0], pick[i])
     end
-    return WoWPro.PetLoadAndPick(slot, name, tonumber(id) , pick, limits or "")
+    return WoWPro.PetLoadAndPick(slot, name, tonumber(id) , pick, limits or "", pet1, pet2)
 end
 
 function WoWPro.PetSelectStep(k)
@@ -424,13 +433,13 @@ function WoWPro.PetSelectStep(k)
     local pet2 = true
     local pet3 = true
     if WoWPro.pet1[k] then
-        pet1 = WoWPro.PetLoadBySpec(1, WoWPro.pet1[k])
+        pet1 = WoWPro.PetLoadBySpec(1, WoWPro.pet1[k],nil,nil)
     end
     if WoWPro.pet2[k] then
-        pet2 = WoWPro.PetLoadBySpec(2, WoWPro.pet2[k])
+        pet2 = WoWPro.PetLoadBySpec(2, WoWPro.pet2[k],pet1,nil)
     end
     if WoWPro.pet3[k] then
-        pet3 = WoWPro.PetLoadBySpec(3, WoWPro.pet3[k])
+        pet3 = WoWPro.PetLoadBySpec(3, WoWPro.pet3[k],pet1,pet2)
     end
     return pet1 and pet2 and pet3     
 end
@@ -475,7 +484,7 @@ function WoWPro.ProcessFinalRound(winner, qidx)
                 WoWPro.CompleteStep(i,"Pet battle WON!")
             end
         end
-        WoWPro.current_strategy = nil
+        WoWPro.current_strategy = false
     else
         -- We lost. Mark all completed pet steps that share the same QID AND strategy as uncompleted so we can restart cleanly
         WoWPro:dbp("ProcessFinalRound: We lost.  Restarting strategy %s.", tostring(WoWPro.current_strategy))
