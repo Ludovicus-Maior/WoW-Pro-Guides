@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2016-10-13 18:57
+-- Who: tubera
+-- Log: Fix a few coordinates; QOs and a typo
+
+-- URL: http://wow-pro.com/node/3671/revisions/27878/view
 -- Date: 2016-10-05 08:11
 -- Who: Emmaleah
 -- Log: Remove dup |N| on F Ravencrest's Legacy
@@ -123,18 +128,18 @@ A Prepare to Be Assimilated|QID|42435|M|64.9,37.8|Z|Azsuna|N|From Ravandwyr.|PRE
 C Prepare to Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|S|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
 C Prepare to Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|Azsuna|N|Kill Spitespeaker Lir'kess
 C Prepare to Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|US|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
-T Prepare to Be Assimilated|QID|42435|M|66,32.4|Z|Azsuna|N|To Ravandwyr.|
+T Prepare to Be Assimilated|QID|42435|M|64.35,31.35|Z|Azsuna|N|To Ravandwyr.| ;fix coordinate
 A What is Going On Here|QID|42166|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42435|
 C What is Going On Here|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|S|N|Talk to Empyrean Society Members.|
-C What is Going On Here|QID|42166|QO|2|M|64.3,31.4|Z|Azsuna|N|Investigate the Brazier.|
+C What is Going On Here|QID|42166|QO|2|M|64.92,32.81|Z|Azsuna|N|Investigate the Brazier.| ;coordinate
 C What is Going On Here|QID|42166|QO|3|M|65.8,32.5|Z|Azsuna|N|Investigate Building.|
 C What is Going On Here|QID|42166|QO|4|M|66.4,33.7|Z|Azsuna|N|Investigate Rotunda.|
 C What is Going On Here|QID|42166|QO|5|M|66.4,33.6|Z|Azsuna|N|Examine the Exotic Book.|
 C What is Going On Here|QID|42166|QO|6|M|66.4,33.4|Z|Azsuna|N|Kill Marlan Blackfire.|
 C What is Going On Here|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|US|N|Talk to Empyrean Society Members.|
-T What is Going On Here|QID|42166|M|66,32.4|Z|Azsuna|N|To Ravandwyr.|
-A Some Knowledge Shouldn't be Shared|QID|42149|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42166|
-A The Next Level Has Arrived|QID|42206|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42166|
+T What is Going On Here|QID|42166|M|66.45,33.54|Z|Azsuna|N|To Ravandwyr, who is following you around.| ;N
+A Some Knowledge Shouldn't be Shared|QID|42149|M|66.45,33.54|Z|Azsuna|N|From Ravandwyr.|PRE|42166|
+A The Next Level Has Arrived|QID|42206|M|66.45,33.54|Z|Azsuna|N|From Ravandwyr.|PRE|42166|
 C The Next Level Has Arrived|QID|42206|S|M|65.9,33.8|Z|Azsuna|N|Kill Empyrean Society Members.|
 C Some Knowledge Shouldn't be Shared|QID|42149|M|65.9,33.8|Z|Azsuna|N|Pick up scrolls from the ground.|
 C The Next Level Has Arrived|QID|42206|M|65.9,33.8|Z|Azsuna|US|N|Kill Empyrean Society Members.|
@@ -152,14 +157,15 @@ A Champion: Esara Varrinde|QID|42706|N|From/To Esara Varrinde.|PRE|42222|
 A Champion: Ravandwyr|QID|42705|M|70.6,55.4|Z|Hall of the Guardian@MageClassShrine|N|From/To Ravamdwyr.|PRE|42222|
 A The Council Is In Session|QID|42416|M|71,55.4|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Khadgar.|PRE|42222|
 T The Council Is In Session|QID|42416|M|28.8,49.2|Z|Dalaran@Dalaran70|N|To Archmage Ansirem Runeweaver located in the Violet Citadel.|
-A Archamge Vargoth's Retreat|QID|42423|M|28.8,49.2|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|PRE|42416|
-C Archamge Vargoth's Retreat|QID|42423|M|21.3,53.2|Z|Dalaran@Dalaran70|QO|3|N|Take the portal to enter Vargoth's quarters.|
-C Archamge Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|8|N|Examine well-worn scroll.|
-C Archamge Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|4|N|Examine the journal.|
-C Archamge Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|7|N|Examine the magical tome.|
-C Archamge Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|6|N|Examine the frosted doughnut.|
-C Archamge Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|5|N|Examine the crystal ball.|
-T Archamge Vargoth's Retreat|QID|42423|M|22.2,54.68|Z|Dalaran@Dalaran70|N|To Archmage Kalec (who is following you around and commenting).|
+A Archmage Vargoth's Retreat|QID|42423|M|28.8,49.2|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|PRE|42416|
+C Archmage Vargoth's Retreat|QID|42423|M|21.3,53.2|Z|Dalaran@Dalaran70|QO|1|N|Take the portal to enter Vargoth's quarters.| ;change QO's; quest name
+C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|2|N|Enter Vargoth's Retreat.|
+C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|7|N|Examine well-worn scroll.|
+C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|3|N|Examine the journal.|
+C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|6|N|Examine the magical tome.|
+C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|5|N|Examine the frosted doughnut.|
+C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|4|N|Examine the crystal ball.|
+T Archmage Vargoth's Retreat|QID|42423|M|22.2,54.68|Z|Dalaran@Dalaran70|N|To Archmage Kalec (who is following you around and commenting).|
 A Following In His Footsteps|QID|42424|M|22.2,54.68|Z|Dalaran@Dalaran70|N|From Archmage Kalec, at Violet Citadel|PRE|42423|
 C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian@MageClassShrine|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
 t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|

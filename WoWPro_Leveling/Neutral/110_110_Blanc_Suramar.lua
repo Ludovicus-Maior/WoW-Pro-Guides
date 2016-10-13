@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-12 18:21
+-- Who: Emmaleah
+-- Log: added moonguard quest lines.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27894/view
 -- Date: 2016-10-10 11:02
 -- Who: Emmaleah
 -- Log: added PRE and RANK Tags following the Suramar Comprehensive guide by Voxxel on WoWhead thru just before 'The Waning Crescent' story arc (line 521) 
@@ -398,7 +403,7 @@ C Moonshade Holdout|QID|42226|M|17.26,38.03|QO|2|N|Kill Fal'dorei Broodcaller.|
 C Moonshade Holdout|QID|42226|M|17.31,38.05|QO|3|N|Kill Fal'dorei Widowmaker.|
 T Moonshade Holdout|QID|42226|M|17.38,37.98|N|To Valewalker Farodin.|
 A Into the Crevasse|QID|42227|M|17.38,37.98|N|From Valewalker Farodin.|PRE|42226|
-C Into the Crevasse|QID|42227|M|20.43,41.96|QO|1|NC|N|Follow Valewalker Farodin. Make sure you jump INTO the water (Don't be mounted or you will overshoot the water), the fall will kill you if you don't land in water.|
+C Into the Crevasse|QID|42227|M|20.43,41.96|QO|1|NC|N|Follow Valewalker Farodin. Make sure you jump INTO the water (Don't be mounted or you will overshoot the water), the fall will kill you otherwise.|
 C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Falanaar Tunnels@Suramar|QO|2|N|Enter Falanaar Tunnels.|
 T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|To Valewalker Farodin.|
 A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|From Valewalker Farodin.|PRE|42227|
@@ -465,8 +470,6 @@ C Not Here, Not Now, Not Ever|QID|41464|M|18.42,21.27|US|N|Destroy Darkfiend Tot
 T Not Here, Not Now, Not Ever|QID|41464|M|19.58,22.38|N|To Kalendros Irongrove.|
 A The Only Choice We Can Make|QID|41467|M|19.58,22.38|N|From Kalendros Irongrove.|PRE|41464|
 C The Only Choice We Can Make|QID|41467|M|19.84,22.36|NC|N|Incinerate Shaladrassil Root.|U|135534|
-K Kill Rauren|QID|43484|M|24.03,25.48|QO|1|ITEM|121759|N|Silver - Kill and loot for a bit of treasure and resources.|T|Rauren|RANK|2|
-
 A Redhoof the Ancient|QID|41473|M|25.69,30.92|N|From Mayruna Moonwing.|PRE|41464;41197|;actually requires 41467 completed, but doesnt require turned in
 T The Only Choice We Can Make|QID|41467|M|25.69,30.92|N|To Mayruna Moonwing.|
 T Redhoof the Ancient|QID|41473|M|28.31,29.71|N|To Mythandros Irongrove.|
@@ -487,23 +490,97 @@ A Moonwhisper Rescue|QID|41485|M|30.31,30.71|N|From Solendra Featherdown.|PRE|41
 C Natural Adversaries|QID|41479|M|30.90,26.30|S|N|Kill Manascale Basilisk.|
 C Moonwhisper Rescue|QID|41485|M|31.55,27.74|S|U|136605|NC|N|Cleanse Petrified Nightsabers.|
 C Managazer|QID|41480|M|33.21,24.51|QO|1|N|Kill Managazer (Inside Cave).|
+A Leyline Feed: Ley Station Moonfall|QID|43590|M|36.07,19.56|N|From Leyline Feed.|RANK|2|
+C Leyline Feed: Ley Station Moonfall|QID|43590|M|34.91,29.48|QO|1|N|Kill Thudchop Trunksmasher (Ettin) wandering around across the river and loot the Broken Leydar Dish.|RANK|2|
+T Leyline Feed: Ley Station Moonfall|QID|43590|M|36.03,19.59|N|To Leyline Feed.|RANK|2|
 C Moonwhisper Rescue|QID|41485|M|31.55,27.74|US|NC|U|136605|N|Finish cleansing Petrified Nightsabers.|
 C Natural Adversaries|QID|41479|M|30.90,26.30|US|N|Kill Manascale Basilisk.|
 T Natural Adversaries|QID|41479|M|30.37,30.79|N|To Solendra Featherdown.|
 T Managazer|QID|41480|M|30.37,30.79|N|To Solendra Featherdown.|
 T Moonwhisper Rescue|QID|41485|M|30.37,30.79|N|To Solendra Featherdown.|
 A Return to Irongrove Retreat|QID|41469|M|30.37,30.79|N|From Solendra Featherdown.|PRE|41479;41480;41485|
+
+K Kill Rauren|QID|43484|M|24.03,25.48|QO|1|ITEM|121759|N|Silver - Kill and loot for a bit of treasure and resources.|T|Rauren|RANK|2|
 T Return to Irongrove Retreat|QID|41469|M|26.18,31.32|N|To Mythandros Irongrove.|
 A Eminent Grow-main|QID|41494|M|26.18,31.32|N|From Mythandros Irongrove.|PRE|41469|
 C Eminent Grow-main|QID|41494|M|26.18,31.18|NC|N|Click on the bowl to imbue the Inert Waters and wait a bit for the ritual to complete.|
 T Eminent Grow-main|QID|41494|M|26.07,31.31|N|To Mayruna Moonwing.|
 A Scouting the Crimson Thicket|QID|42223|M|26.22,31.32|N|From Solendra Featherdown.|PRE|41494|RANK|2|
 
-H Shal'Aran|QID|42223|M|36.56,46.93|N|Return to Shal'Aran.|
-A Leyline Apprentice|QID|44492|M|37.01,46.39|N|From/To Arcanist Valtrois.|PRE|41138|
+;need R step here
+A Leyline Feed: Ley Station Aethenar|QID|43591|M|22.52,15.64|N|From Leyline Feed.|RANK|2|
+C Leyline Feed: Ley Station Aethenar|QID|43591|M|22.39,15.69|QO|1|N|Kill wraiths to collect the Leyline Feed Fragments.|RANK|2|
+T Leyline Feed: Ley Station Aethenar|QID|43591|M|22.50,15.52|N|To Leyline Feed.|RANK|2|
+A Fate of the Guard|QID|40883|M|27.83,21.17|N|From Thalrenus Rivertree.|PRE|42229|
+A Sigil Reclamation|QID|41030|M|26.68,17.20|O|U|133968|N|From Moonguard Sigil you just looted.|PRE|42229|
+C Sigil Reclamation|QID|41030|M|26.68,17.20|S|N|Kill Nightborne to loot more Sigils.|
+$ Small Treasure Chest|QID|43847|M|26.82,16.96|N|Loot for a bit of treasure and resources.|
+C Fate of the Guard|QID|40883|M|27.45,17.33|QO|1|NC|N|Find and click on Nyellus Starweaver.|
+A Not Their Last Stand|QID|40949|M|29.69,18.64|N|From Ivanel Meadowsong.|PRE|42229|
+C Not Their Last Stand|QID|40949|M|30.34,17.49|NC|N|Click on the Hippogryphs to send them away.|
+C Fate of the Guard|QID|40883|M|30.79,17.91|QO|2|NC|N|Find and click on Galar'thus Rivertree.|
+C Sigil Reclamation|QID|41030|M|28.49,18.19|N|Finish collecting Moon Guard Sigils.|
+C Fate of the Guard|QID|40883|M|32.0,18.00;33.70,18.14|CS|QO|3|NC|N|Into this tunnel and Click on Kailea Windfeather.|
+A Take Them in Claw|QID|40963|M|33.71,18.02|N|Go up the stairs to get a quest from Lyrea Windfeather.|AVAILABLE|40883|
+T Fate of the Guard|QID|40883|M|33.73,18.09|N|To Lyrea Windfeather.|
+T Sigil Reclamation|QID|41030|M|33.73,18.09|N|To Lyrea Windfeather.|
+T Not Their Last Stand|QID|40949|M|33.71,18.02|N|To UI Alert.|
+C Take Them in Claw|QID|40963|M|31.81,22.60|U|139882|N|Go up two flights of stairs, using the vial as you go. Target the Nightborne and use vial to attract the wild hippogryphs.|
+T Take Them in Claw|QID|40963|M|31.43,23.20|N|To Serena Windfeather.|
+A The Rift Between|QID|40964|M|31.43,23.20|N|From Serena Windfeather.|PRE|40963|
+A Recovering Stolen Power|QID|40968|M|31.43,23.20|N|From Serena Windfeather.|PRE|40963|
+C The Rift Between|QID|40964|M|31.52,23.10|NC|N|Ride Beakbuck into the Athenaeum.|
+T The Rift Between|QID|40964|M|36.44,22.40|N|To Lothrius Mooncaller.|
+A Precious Little Left|QID|40967|M|36.44,22.40|N|From Lothrius Mooncaller.|PRE|40964|
+A Lay Waste, Lay Mines|QID|40965|M|36.44,22.40|N|From Lothrius Mooncaller.|PRE|40964|
+A Stop the Spell Seekers|QID|41032|M|36.44,22.40|N|From Lothrius Mooncaller.|PRE|40964|
+C Stop the Spell Seekers|QID|41032|M|36.45,17.00|S|NC|N|Click on the purple portals to close them.|
+C Lay Waste, Lay Mines|QID|40965|M|34.64,20.10|S|U|133882|N|Use the trap rune to kill multiple Nightborne at a time.|
+C Precious Little Left|QID|40967|M|36.36,16.75|QO|1|NC|N|Up the stairs to find 'Anthology of the Guard' on a table.|
+K Kill Artificer Lothaire|QID|43717|QO|1|M|34.27,15.38|ITEM|140372|N|Silver - Up more stairs to kill this rare for treasure and resources. The Trap Rune doesn't affect the Artificer or his companions. Agro the Articicer and then the Constructs will attack, first one, then two.  Then the Artificer will attack.|RANK|2|
+C Precious Little Left|QID|40967|M|34.07,17.89|QO|3|NC|N|Back down the stairs and 'Aftermath of the Well' is against the wall inside this room.|
+K Kill Commander Domitille|QID|40762|T|Commander Domitille|L|136851|N|Kill and loot for an optional quest.|ITEM|141672|
+A Zealot's Dues|QID|40762|O|U|136851|N|Accepted from Commander Domitille's helm which you just picked up.|
+C Lay Waste, Lay Mines|QID|40965|M|34.64,20.10|US|U|133882|N|Down more stairs and finish up killing the Nightborne.|
+C Precious Little Left|QID|40967|M|34.80,22.53|QO|2|NC|N|'Magical Manifest of the Moon' in on the table in the covered patio.|
+C Stop the Spell Seekers|QID|41032|M|36.45,17.00|US|NC|N|Finish closing the purple portals.|
+T Precious Little Left|QID|40967|M|36.44,22.40|N|To Lothrius Mooncaller.|
+T Lay Waste, Lay Mines|QID|40965|M|36.44,22.40|N|To Lothrius Mooncaller.|
+T Stop the Spell Seekers|QID|41032|M|36.44,22.40|N|To Lothrius Mooncaller.|
+A Starweaver's Fate|QID|40969|M|36.44,22.40|N|From Lothrius Mooncaller.|PRE|40967;40965;41032|
+l Recovering Stolen Power|QID|40968|L|133957 10|S|N|Continue killing Nightborne until you have 10 spell focus fragments.|
+T Starweaver's Fate|QID|40969|M|32.20,12.73|N|Click on the Elemental Summoners, Follow the summoned elementals, they will wipe out the mobs for you. follow all the way into the room at the top of the stairs (dispite the last elemental not going that way) Turn quest in to Syrana Starweaver..|
+A The Orchestrator of Our Demise|QID|40970|M|32.20,12.73|N|From Syrana Starweaver.|PRE|40969|
+A Overwhelming Distraction|QID|40971|M|32.20,12.73|N|From Syrana Starweaver.|PRE|40969|
+l Recovering Stolen Power|QID|40968|L|133957 10|US|N|Continue killing Nightborne until you have 10 spell focus fragments.|
+C Recovering Stolen Power|QID|40968|U|133957|NC|N|Combine the fragments to reform the volatile spell focus.|
+T Recovering Stolen Power|QID|40968|M|32.02,13.39|N|To UI Alert.|
+A Waiting for Revenge|QID|41109;41110|M|32.02,13.39|N|From UI Alert.|PRE|40968|
+C Waiting for Revenge|QID|41109;41110|M|32.03,13.38|QO|1|N|Hop on the Hippogryph|
+T Waiting for Revenge|QID|41109;41110|M|31.95,14.47|N|To UI Alert.|
+A Rain Death Upon Them|QID|41108;41111|M|31.50,16.47|N|From UI Alert.|PRE|41109+41110|
+C Rain Death Upon Them|QID|41108;41111|M|35.41,19.46|N|This is a standard bombing run EXCEPT, ONLY use the "1" key. If you accidently use the "2" key, you will return to the starting point, where you will need to farm up another 10 shards to make a new volatile crystal, to then be able to ride the hippogryph again.|
+T Rain Death Upon Them|QID|41108;41111|M|31.95,13.38|N|To UI Alert.|
+C Overwhelming Distraction|QID|40971|M|30.78,15.42|S|U|133999|N|Stand on the purple runes, target a nightborne, use the crystal. When you get the message, run to the next rune, repeat (you may want to drag this to your hotkeys to keep using after the required three for the quest).|
+$ Small Treasure Chest|QID|43848|M|29.27,16.22|N|In the room at the top of the stairs. Loot for treasure and resources.|RANK|2|
+C Overwhelming Distraction|QID|40971|M|30.78,15.42|US|U|133999|N|Stand on the purple runes, target a Nightborne, use the crystal. When you get the message, run to the next rune, repeat (you may want to drag this to your hotkeys to keep using after the required three for the quest).|
+C The Orchestrator of Our Demise|QID|40970|M|28.84,12.74|N|Kill Conjurer Thalerian and loot the Astromancer's Keystone.|
+;go up the stairs and thru the bubble
+;to activate the teleporter beyond.
+A Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|From Unpowered Telemancy Beacon.|PRE|40956|
+T Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|To Unpowered Telemancy Beacon.|
+$ Arcane Power Unit|QID|43989|M|35.58,12.04|U|140329|N|Continue up the stairs for an item that raises your mana cap by 100.|
+$ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|N|Keep running along the path for more storable mana.|RANK|3|ITEM|139786|
+$ Glimmering Treasure Chest|QID|43849|M|42.05,19.69|N|Loot for some treasure and resources.|RANK|3|
+T The Orchestrator of Our Demise|QID|40970|M|30.10,10.37|N|And back down to turn in the quests to Syrana Starweaver.|
+T Overwhelming Distraction|QID|40971|M|30.10,10.37|N|To Syrana Starweaver.|
+T Zealot's Dues|QID|40762|M|30.10,10.37|N|To Thalrenus Rivertree.|
+A Last Stand of the Moon Guard|QID|40972|M|30.10,10.37|N|From Thalrenus Rivertree.|PRE|40970;40972|
+C Last Stand of the Moon Guard|QID|40972|M|29.71,10.66|CHAT|N|Tell Thalrenus you are ready to go. Wait a minute or so, then he ports you.|
+T Last Stand of the Moon Guard|QID|40972|M|36.89,46.60|N|To First Arcanist Thalyssra.|
+A Leyline Profeciency|QID|44493|M|37.00,46.35|N|From/To Arcanish Valtrois. You will now get more ancient mana from kills. Requires 5 leylines restored.|RANK|2|PRE|44492|
 
 ; Crimson Thicket Area
-
 P Sanctum of Order|QID|40798|M|36.69,44.65|N|Take the portal to Sanctum of Order.|
 T Cling to Hope|QID|40798|M|41.59,56.16|N|To Noressa.|RANK|2|
 R Crimson Thicket|QID|42223|M|61.86,49.11|N|Run to the Crimson Thicket.|
@@ -614,7 +691,7 @@ T Shatter the Sashj'tar|QID|41001|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
 H Shal'Aran|QID|40401|M|36.56,46.93|N|Return to Shal'Aran.|
-A Leyline Profeciency|QID|44493|M|37.00,46.35|N|From/To Arcanish Valtrois. You will now get more ancient mana from kills. Requires 5 leylines restored.|RANK|2|PRE|44492|
+A Leyline Mastery|QID|44495|M|37.00,46.35|N|From/To Arcanish Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|RANK|2|PRE|44493|
 
 R Meredil|QID|40401|M|34.36,49.95|N|Run outside Shal'Aran and take the road Southeast.|RANK|2|
 A A Way Back In|QID|40401|M|34.36,56.14|N|From Iadreth.|PRE|42229|RANK|2|
@@ -731,9 +808,9 @@ C Search and Rescue!|QID|41140|M|27.54,88.97|QO|4|N|Felsoul Cage Key (downstairs
 C Search and Rescue!|QID|41140|M|27.09,86.06|QO|5|N|Nightfallen Prisoner released|
 T Search and Rescue!|QID|41140|M|27.09,86.06|N|To Selthaes Starsong.|
 
-A Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|N|From Leyline - this should be in this area.|
-C Leyline Feed: Halls of the Eclipse|QID|43594|M|29.19,84.73|QO|1|N|254/250 Ancient Mana|
-T Leyline Feed: Halls of the Eclipse|QID|43594|M|27.26,86.38|N|To Leyline.|
+A Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|N|From Leyline Feed.|
+C Leyline Feed: Halls of the Eclipse|QID|43594|M|29.19,84.73|N|Uses up 250 Ancient Mana.|
+T Leyline Feed: Halls of the Eclipse|QID|43594|M|27.26,86.38|N|To Leyline Feed.|
 
 A Into The Pit!|QID|41222|M|27.12,86.16|N|From Angus Stormbrew.|
 C Into The Pit!|QID|41222|CS|M|30.51,80.60;33.40,74.96;34.31,74.04|QO|1|N|Escort Angus to Felmaw Cavern|
