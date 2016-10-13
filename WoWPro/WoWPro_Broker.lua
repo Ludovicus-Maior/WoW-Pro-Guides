@@ -1740,9 +1740,24 @@ StaticPopupDialogs["WOWPRO_PICKQUEST"] = {
     OnShow = function (self, data) self.editBox:SetText("quest id #") end
 }
 
+StaticPopupDialogs["WOWPRO_CONFIRMPICK"] = {
+    text = "Please enter the quest ID to select and then click GO!",
+    button1 = "Go!",
+    button2 = "Never Mind",
+    OnAccept = function(self,data,data2) local qid = self.editBox:GetText() ; WoWPro:Questline(tonumber(qid)) end,
+    hideOnEscape = true,
+    preferredIndex = 3,
+    hasEditBox = false,
+}
 
-function WoWPro.PickQuestline()
-    StaticPopup_Show("WOWPRO_PICKQUEST")
+
+function WoWPro.PickQuestline(qid, step)
+    if qid then
+        StaticPopupDialogs["WOWPRO_CONFIRMPICK"].text = string.format("Select quest [%s] (QID %s) and all prerequisites?",step,tostring(qid))
+        StaticPopup_Show("WOWPRO_CONFIRMPICK")
+    else
+        StaticPopup_Show("WOWPRO_PICKQUEST")
+    end
 end
 
 function WoWPro:GrailQuestPrereq(qid)
