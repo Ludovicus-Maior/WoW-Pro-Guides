@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-10-13 23:11
+-- Who: Ludovicus
+-- Log: [Archdruid of Lore] has two QIDs: 38381;44106
+
+-- URL: http://wow-pro.com/node/3665/revisions/27868/view
 -- Date: 2016-10-04 09:52
 -- Who: Emmaleah
 -- Log: added LVL|103| to the Hunter quests
@@ -137,7 +142,7 @@ A Nature's Call|QID|38384|M|51.90,64.10|N|From Malfurion Stormrage.|
 T Nature's Call|QID|38384|M|53.33,63.93;54.65,65.92;54.38,73.58|CS|N|To Aranelle.|
 A Archdruid of the Vale|QID|38382|M|54.38,73.58|N|From Aranelle.|
 A Archdruid of the Claw|QID|38142|M|54.38,73.58|N|From Aranelle.|
-A Archdruid of Lore|QID|38381|M|54.38,73.58|N|From Aranelle.|
+A Archdruid of Lore|QID|38381;44106|M|54.38,73.58|N|From Aranelle.|
 $ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39093|M|54.19,70.59|N|Up the stream on a rock. Loot for a bit of treasure and resources.|RANK|2|
 
@@ -281,7 +286,7 @@ C Entangled Dreams|QID|38147|M|59.84,83.58|Z|1018/14|T|Morphael|N|Kill Morphael|
 T Entangled Dreams|QID|38147|M|48.85,81.52|N|To Koda Steelclaw.|
 
 $ Treasure|QID|38366|M|48.69,73.79|N|Surrounded by a circle of tree trunks. Loot for a bit of treasure and resources.|RANK|2|
-T Archdruid of Lore|QID|38381|M|48.87,70.18|N|To Elothir.|
+T Archdruid of Lore|QID|38381;44106|M|48.87,70.18|N|To Elothir.|
 A Solid as a Rock|QID|38235|M|48.87,70.18|N|From Elothir.|
 A Death to the Witchmother|QID|38225|M|48.87,70.18|N|From Elothir.|
 A Wretched Sisters-Bonus Objective|QID|38372|M|48.32,68.86;47.25,69.79|CS|N|Auto Accepted when you enter the area.|RANK|2|LVL|-109|

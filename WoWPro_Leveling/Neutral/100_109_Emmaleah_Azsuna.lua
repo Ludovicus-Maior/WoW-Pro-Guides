@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-10-13 23:06
+-- Who: Ludovicus
+-- Log: Changed QID on [Illidari Stand] flight point get.
+
+-- URL: http://wow-pro.com/node/3657/revisions/27885/view
 -- Date: 2016-10-07 03:10
 -- Who: tubera
 -- Log: Add class tag to From Within (DH has it's own QID)
@@ -92,7 +97,7 @@ A Down to Azsuna|QID|41220|M|72.51,45.66|Z|Dalaran@Dalaran70|N|From Archmage Kha
 C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|Dalaran@Dalaran70|NC|N|Fly down with Khadgar.|
 T Down to Azsuna|QID|41220|M|45.11,42.92|N|To Archmage Khadgar.|
 A Into the Fray|QID|38834|M|45.11,42.92|N|From Archmage Khadgar.|
-f Illidari Stand|QID|41220|M|44.59,43.85|N|At Izal Whitemoon.|
+f Illidari Stand|QID|38834|M|44.59,43.85|N|At Izal Whitemoon.|
 T Into the Fray|QID|38834|M|43.55,43.45|N|To Kayn Sunfury.|
 T Our New Allies|QID|39934|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|LVL|102|
 A The Price of Power|QID|39935|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39934|
