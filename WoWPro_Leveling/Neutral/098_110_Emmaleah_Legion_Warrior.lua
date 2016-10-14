@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2016-10-14 03:24
+-- Who: Emmaleah
+-- Log: lvl 101 quests (partial) per Blanckaert 
+
+-- URL: http://wow-pro.com/node/3677/revisions/27795/view
 -- Date: 2016-09-15 03:15
 -- Who: Emmaleah
 -- Log: changes noted. per Blankaert. (except I used name instead of #.
@@ -63,6 +68,20 @@ A Artifact Specific Quest|QID|41105;40043;39191|M|58.43,85.13|N|From Odyn.|PRE|4
 ;Insert the stuff that happens after you finish first zone here
 
 ;insert order hall progression quests here
+A Odyn's Summons|QID|42597|M|60.71,45.05|Z|Dalaran@Dalaran70|N|From Danica the Reclaimer.|LVL|101| ; Popup when I came back to Dal after hitting 101
+T Odyn's Summons|QID|42597|M|58.30,82.79|Z|ValhallasWarriorOrderHome/1|N|To Odyn.|
+A Champions of Skyhold|QID|42598|PRE|42597|M|58.30,82.79|Z|ValhallasWarriorOrderHome/1|N|From Odyn.|
+C Champions of Skyhold|QID|42598|M|61.68,33.81|Z|ValhallasWarriorOrderHome/1|QO|1|N|Recruit Ragnvald Drakeborn|
+C Champions of Skyhold|QID|42598|M|61.68,33.81|Z|ValhallasWarriorOrderHome/1|QO|2|N|Recruit Finna Bjornsdottir|
+R Champions of Skyhold|QID|42598|M|59.52,13.60|Z|ValhallasWarriorOrderHome/1|N|Run over to the Eye of Odyn|
+T Champions of Skyhold|QID|42598|M|59.52,13.60|Z|ValhallasWarriorOrderHome/1|N|To Skyseer Ghrent.|
+A Captain Stahlstrom|QID|42607|PRE|42598|M|59.52,13.60|Z|ValhallasWarriorOrderHome/1|N|From Skyseer Ghrent. Click on the Eye, and send Ragnvald on a Mission.|
+C Captain Stahlstrom|QID|42607|M|59.52,13.60|Z|ValhallasWarriorOrderHome/1|QO|1|N|Wait for "Captain Stahlstrom" mission completed to popup, then finish off mission.|
+T Captain Stahlstrom|QID|42607|M|59.52,13.60|Z|ValhallasWarriorOrderHome/1|N|To Skyseer Ghrent.|
+A Recruiting the Troops|QID|42609|PRE|42607|M|59.52,13.60|Z|ValhallasWarriorOrderHome/1|N|From Skyseer Ghrent.|
+C Recruiting the Troops|QID|42609|M|62.16,15.25|Z|ValhallasWarriorOrderHome/1|QO|1|N|Talk to Capt Hjalmar, he's to your right, then Recruit Valarjar Aspirants, wait 5 secs and click banner|
+T Recruiting the Troops|QID|42609|M|59.88,13.56|Z|ValhallasWarriorOrderHome/1|N|To Skyseer Ghrent.|
+A Troops in the Field|QID|42610|PRE|42609|M|59.88,13.56|Z|ValhallasWarriorOrderHome/1|N|From Skyseer Ghrent.|
 
 ;ARMS
 ;A The Sword of Kings|QID|41105|M|58.43,85.13|N|From Odyn.|

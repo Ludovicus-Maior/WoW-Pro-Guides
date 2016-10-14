@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-10-14 03:41
+-- Who: tubera
+-- Log: Move right foot before grappling up
+
+-- URL: http://wow-pro.com/node/3683/revisions/27912/view
+-- Date: 2016-10-14 03:23
+-- Who: tubera
+-- Log: Change coordinates for Havi's Test.
+
+-- URL: http://wow-pro.com/node/3683/revisions/27859/view
 -- Date: 2016-10-02 02:29
 -- Who: tubera
 -- Log: Remove QO without objective from C Singed Feathers
@@ -184,13 +194,13 @@ T Stormforged Grapple Launcher|QID|39775|M|33.80,45.79|N|From Stormforged Grappl
 $ Small Treasure Chest|QID|38680|M|35.92,47.92|N|On a lake on the Weeping Bluffs, loot for a bit of treasure and resources.|RANK|3|
 K Kill Bloodstalker Alpha|QID|38626|M|38.42,42.80|ITEM|129101|T|Bloodstalker Alpha|N|He roams this part of the valley. Silver - Kill and loot for a bit of treasure and resources.||RANK|3|
 T The Ancient Trials|QID|38459|M|38.13,40.88;41.17,40.59;41.83,43.06|CS|N|To Havi.|
-A Havi's Test|QID|38331|M|41.83,43.06|N|From Havi.|
-C Havi's Test|QID|38331|M|41.68,42.83|QO|1|NC|N|Click on the vegetables, face the stewpot, adjust angle if needed and press "4".|
-C Havi's Test|QID|38331|M|41.60,42.61|QO|2|NC|N|Click on the crabs, face the stewpot, adjust angle if needed and press "4".|
-C Havi's Test|QID|38331|M|41.82,42.75|QO|3|NC|N|Click on the hearty grains, face the stewpot, adjust angle if needed and press "4".|
-T Havi's Test|QID|38331|M|41.83,43.06|N|To Havi.|
+A Havi's Test|QID|38331|M|43.14,49.21|N|From Havi.|
+C Havi's Test|QID|38331|M|42.91,49.12|QO|1|NC|N|Click on the vegetables, face the stewpot, adjust angle if needed and press "4".|
+C Havi's Test|QID|38331|M|42.91,49.41|QO|2|NC|N|Click on the crabs, face the stewpot, adjust angle if needed and press "4".|
+C Havi's Test|QID|38331|M|43.06,49.45|QO|3|NC|N|Click on the hearty grains, face the stewpot, adjust angle if needed and press "4".|
+T Havi's Test|QID|38331|M|43.14,49.21|N|To Havi.|
 
-A Ahead of the Game|QID|39590|M|41.83,43.06|N|From Havi.|
+A Ahead of the Game|QID|39590|M|43.14,49.21|N|From Havi.|
 A A Worthy Challenger-Bonus Objective|QID|38442|LVL|-109|M|41.83,43.06|N|Auto Accepted upon entering the area.|
 C A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|S|N|Kill Bloodtotems, Mightstones and Felskorn and destroy totems and banners to advance the objective.|
 A Blood and Gold|QID|39595|M|42.54,43.08|N|From Challengers Tribute, you just looted.|
@@ -211,9 +221,9 @@ C A Trial of Will|QID|39592|M|48.73,47.59|QO|1|NC|N|You can use the grapple poin
 C The Shattered Watcher|QID|39593|M|48.02,47.58|QO|1|NC|N|Yotnar's Left Arm.|
 C A Trial of Valor|QID|39591|M|50.49,44.78|QO|1|NC|N|Learn about the Trial of Valor.|
 $ Treasure Chest|QID|38483|M|50.13,42.10;50.32,41.00|CS|N|Loot for a bit of treasure and resources.|
+C The Shattered Watcher|QID|39593|M|48.69,41.71|QO|4|NC|N|Yotnar's Right Foot.|
 $ Treasure Chest|QID|43246|M|48.48,41.28;50.55,41.24|CS|N|Standing at the first coordinate, look up and northeast.  Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.| ; Emma
 
-C The Shattered Watcher|QID|39593|M|48.69,41.71|QO|4|NC|N|Yotnar's Right Foot.|
 T A Trial of Valor|QID|39591|M|46.75,44.42|N|To Yotnar's Head.|
 T A Trial of Will|QID|39592|M|46.75,44.42|N|To Yotnar's Head.|
 T The Shattered Watcher|QID|39593|M|46.75,44.42|N|To Yotnar's Head.|
