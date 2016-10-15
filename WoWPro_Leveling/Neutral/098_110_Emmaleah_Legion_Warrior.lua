@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2016-10-15 00:20
+-- Who: Emmaleah
+-- Log: more quests - thanks B.
+
+-- URL: http://wow-pro.com/node/3677/revisions/27913/view
 -- Date: 2016-10-14 03:24
 -- Who: Emmaleah
 -- Log: lvl 101 quests (partial) per Blanckaert 
@@ -82,7 +87,15 @@ A Recruiting the Troops|QID|42609|PRE|42607|M|59.52,13.60|Z|ValhallasWarriorOrde
 C Recruiting the Troops|QID|42609|M|62.16,15.25|Z|ValhallasWarriorOrderHome/1|QO|1|N|Talk to Capt Hjalmar, he's to your right, then Recruit Valarjar Aspirants, wait 5 secs and click banner|
 T Recruiting the Troops|QID|42609|M|59.88,13.56|Z|ValhallasWarriorOrderHome/1|N|To Skyseer Ghrent.|
 A Troops in the Field|QID|42610|PRE|42609|M|59.88,13.56|Z|ValhallasWarriorOrderHome/1|N|From Skyseer Ghrent.|
-
+C Troops in the Field|QID|42610|M|59.54,13.25|Z|ValhallasWarriorOrderHome/1|QO|1|N|Complete the mission, "Troops in the Field"|
+t Troops in the Field|QID|42610|M|59.34,13.49|Z|ValhallasWarriorOrderHome/1|N|To Skyseer Ghrent.|
+A Einar the Runecaster|QID|42611|PRE|42610|M|59.34,13.49|Z|ValhallasWarriorOrderHome/1|N|From Skyseer Ghrent.|
+R Einar the Runecaster|QID|42611|M|46.17,29.20|Z|ValhallasWarriorOrderHome/1|N|Select a Class Hall Upgrade|
+C Einar the Runecaster|QID|42611|M|46.17,29.20|Z|ValhallasWarriorOrderHome/1|QO|1|N|1/1 Class hall upgrade chosen|
+T Einar the Runecaster|QID|42611|M|59.85,13.52|Z|ValhallasWarriorOrderHome/1|N|To Skyseer Ghrent.|
+A The Call of Battle|QID|43750|PRE|42611|M|59.85,13.52|Z|ValhallasWarriorOrderHome/1|N|From Skyseer Ghrent.|
+T The Call of Battle|QID|43750|M|55.94,83.69|Z|ValhallasWarriorOrderHome/1|N|To Hymdall.|
+A The Gjallarhorn|QID|42193|PRE|43750|M|55.94,83.69|Z|ValhallasWarriorOrderHome/1|N|From Hymdall.|
 ;ARMS
 ;A The Sword of Kings|QID|41105|M|58.43,85.13|N|From Odyn.|
 C The Sword of Kings|QID|41105|NC|QO|1|M|58.39,24.69|N|(Optional) Speak with Aerylia to go to Dalaran|

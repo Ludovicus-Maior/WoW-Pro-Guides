@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-15 01:13
+-- Who: Emmaleah
+-- Log: added in the missing runsteps in moonguard
+
+-- URL: http://wow-pro.com/node/3687/revisions/27899/view
 -- Date: 2016-10-12 18:21
 -- Who: Emmaleah
 -- Log: added moonguard quest lines.
@@ -435,8 +440,7 @@ P Telemancer Beacon|QID|43988|M|22.69,36.69|N|Return to Shal'Aran and talk to Th
 P Falanaar Portal|QID|43988|M|35.89,45.55|N|Return to Falanaar, to get a treasure and raise your ancient mana cap.|
 $ Volotile Leyline Crystal|QID|43988|M|42.69,30.93;35.52,52.77|CS|Z|Temple of Fal'adora@Suramar|ITEM|140328|U|140328|N|Down the stairs and in the center of the room. Loot and use to increase the amount of Ancient Mana you can hold.|PRE|42229|
 $ Small Treasure Chest|QID|43838|M|38.25,53.96|Z|Temple of Fal'adora@Suramar|N|Loot for a bit of treasure and resources.|RANK|2|
-
-;need a run step to guide you outside
+R Temple of Fal'adora|QID|41452|M|45.81,31.22;38.49,42.14;54.27,41.53;50.31,63.07|CS|Z|Temple of Fal'adora@Suramar|N|Back up the stairs and head outside.|
 
 R Irongrove Retreat|QID|41452|M|22.48,39.90;22.48,30.26|CS|N|Run out of the temple, across the river and through Feathermane Hunting Grounds.|
 f Irongrove Retreat|QID|41452|M|25.47,31.76|N|At Alyndra Stormgazer.|
@@ -489,7 +493,9 @@ A Managazer|QID|41480|M|30.31,30.71|N|From Solendra Featherdown.|PRE|41478|
 A Moonwhisper Rescue|QID|41485|M|30.31,30.71|N|From Solendra Featherdown.|PRE|41478|
 C Natural Adversaries|QID|41479|M|30.90,26.30|S|N|Kill Manascale Basilisk.|
 C Moonwhisper Rescue|QID|41485|M|31.55,27.74|S|U|136605|NC|N|Cleanse Petrified Nightsabers.|
-C Managazer|QID|41480|M|33.21,24.51|QO|1|N|Kill Managazer (Inside Cave).|
+C Managazer|QID|41480|M|31.45,26.11;33.21,24.51|CS|QO|1|N|Kill Managazer (Inside Cave).|
+
+R Ley Station Moonfall|QID|43590|M|30.74,29.46;36.68,27.16;36.11,25.73|CS|N|Run through Moonwhisper Gulch to activate another waystation, you will need 200 ancient mana.|RANK|2|
 A Leyline Feed: Ley Station Moonfall|QID|43590|M|36.07,19.56|N|From Leyline Feed.|RANK|2|
 C Leyline Feed: Ley Station Moonfall|QID|43590|M|34.91,29.48|QO|1|N|Kill Thudchop Trunksmasher (Ettin) wandering around across the river and loot the Broken Leydar Dish.|RANK|2|
 T Leyline Feed: Ley Station Moonfall|QID|43590|M|36.03,19.59|N|To Leyline Feed.|RANK|2|
@@ -507,7 +513,7 @@ C Eminent Grow-main|QID|41494|M|26.18,31.18|NC|N|Click on the bowl to imbue the 
 T Eminent Grow-main|QID|41494|M|26.07,31.31|N|To Mayruna Moonwing.|
 A Scouting the Crimson Thicket|QID|42223|M|26.22,31.32|N|From Solendra Featherdown.|PRE|41494|RANK|2|
 
-;need R step here
+R Ley Station Aethenar|QID|43591|M|27.36,22.05;24.32,19.35|CS|N|Run thru Moonfall Approach to find and restore another leyline feed. This one also costs 200 ancient mana and killing the mobs in the cavern.|
 A Leyline Feed: Ley Station Aethenar|QID|43591|M|22.52,15.64|N|From Leyline Feed.|RANK|2|
 C Leyline Feed: Ley Station Aethenar|QID|43591|M|22.39,15.69|QO|1|N|Kill wraiths to collect the Leyline Feed Fragments.|RANK|2|
 T Leyline Feed: Ley Station Aethenar|QID|43591|M|22.50,15.52|N|To Leyline Feed.|RANK|2|
@@ -521,7 +527,7 @@ C Not Their Last Stand|QID|40949|M|30.34,17.49|NC|N|Click on the Hippogryphs to 
 C Fate of the Guard|QID|40883|M|30.79,17.91|QO|2|NC|N|Find and click on Galar'thus Rivertree.|
 C Sigil Reclamation|QID|41030|M|28.49,18.19|N|Finish collecting Moon Guard Sigils.|
 C Fate of the Guard|QID|40883|M|32.0,18.00;33.70,18.14|CS|QO|3|NC|N|Into this tunnel and Click on Kailea Windfeather.|
-A Take Them in Claw|QID|40963|M|33.71,18.02|N|Go up the stairs to get a quest from Lyrea Windfeather.|AVAILABLE|40883|
+A Take Them in Claw|QID|40963|M|33.71,18.02|N|Go up the stairs to get a quest from Lyrea Windfeather.|ACTIVE|40883|
 T Fate of the Guard|QID|40883|M|33.73,18.09|N|To Lyrea Windfeather.|
 T Sigil Reclamation|QID|41030|M|33.73,18.09|N|To Lyrea Windfeather.|
 T Not Their Last Stand|QID|40949|M|33.71,18.02|N|To UI Alert.|
@@ -565,8 +571,7 @@ C Overwhelming Distraction|QID|40971|M|30.78,15.42|S|U|133999|N|Stand on the pur
 $ Small Treasure Chest|QID|43848|M|29.27,16.22|N|In the room at the top of the stairs. Loot for treasure and resources.|RANK|2|
 C Overwhelming Distraction|QID|40971|M|30.78,15.42|US|U|133999|N|Stand on the purple runes, target a Nightborne, use the crystal. When you get the message, run to the next rune, repeat (you may want to drag this to your hotkeys to keep using after the required three for the quest).|
 C The Orchestrator of Our Demise|QID|40970|M|28.84,12.74|N|Kill Conjurer Thalerian and loot the Astromancer's Keystone.|
-;go up the stairs and thru the bubble
-;to activate the teleporter beyond.
+R Moonfall Overlook|QID|43808|M|29.01,13.11;28.61,14.31;29.61,10.69|CS|N|Run up the stairs and pass through the bubble at the top.|
 A Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|From Unpowered Telemancy Beacon.|PRE|40956|
 T Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|To Unpowered Telemancy Beacon.|
 $ Arcane Power Unit|QID|43989|M|35.58,12.04|U|140329|N|Continue up the stairs for an item that raises your mana cap by 100.|
@@ -690,7 +695,7 @@ $ Small Treasure Chest|QID|43863|M|83.12,69.33|N|Run over to the next island and
 T Shatter the Sashj'tar|QID|41001|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
-H Shal'Aran|QID|40401|M|36.56,46.93|N|Return to Shal'Aran.|
+H Shal'Aran|QID|44495|M|36.56,46.93|N|Return to Shal'Aran.|
 A Leyline Mastery|QID|44495|M|37.00,46.35|N|From/To Arcanish Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|RANK|2|PRE|44493|
 
 R Meredil|QID|40401|M|34.36,49.95|N|Run outside Shal'Aran and take the road Southeast.|RANK|2|
