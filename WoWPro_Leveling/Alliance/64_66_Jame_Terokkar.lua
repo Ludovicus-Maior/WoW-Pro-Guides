@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2016-10-16 00:22
+-- Who: Ludovicus
+-- Log: Removed extra coords from [T A Hero Is Needed] and [A The Fallen Exarch]
+
+-- URL: http://wow-pro.com/node/3277/revisions/27891/view
 -- Date: 2016-10-09 16:04
 -- Who: tubera
 -- Log: Fix QOs, add coordinates. On Aldor/Neutral quests.
@@ -427,8 +432,8 @@ T Veil Shalas: Signal Fires |QID|10874|M|37.4,51.5|N|To Kirrik the Awakened.|
 A Return to Shattrath |QID|10889|M|37.4,51.5|N|From Kirrik the Awakened.|
 T Taken in the Night |QID|10873|N|To Scout Navrin.|M|31.4,75.69|
 T Return to Sha'tari Base Camp |QID|10926|N|To Scout Navrin.|M|31.4,75.69|
-T A Hero Is Needed |QID|10914|M|31.0,76.1|N|To Commander Ra'vaj.|M|30.99,76.09|
-A The Fallen Exarch |QID|10915|M|31.0,76.1|N|From Commander Ra'vaj.|M|30.99,76.09|
+T A Hero Is Needed |QID|10914|N|To Commander Ra'vaj.|M|30.99,76.09|
+A The Fallen Exarch |QID|10915|N|From Commander Ra'vaj.|M|30.99,76.09|
 T The Big Bone Worm |QID|10930|N|To Dwarfowitz.|M|30.97,76.18|
 T The Dread Relic |QID|10877|N|To Oakun.|M|31.07,76.5|
 A Evil Draws Near|QID|10923|M|31.1,76.5|N|From Oakun.|

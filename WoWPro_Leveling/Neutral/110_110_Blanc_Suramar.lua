@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-16 00:18
+-- Who: Ludovicus
+-- Log: Removed stray |1| from C All Along the Waterways¦QID¦40727
+
+-- URL: http://wow-pro.com/node/3687/revisions/27921/view
 -- Date: 2016-10-15 13:29
 -- Who: Emmaleah
 -- Log: added Waning Crescent Story Arc
@@ -772,7 +777,7 @@ C Redistribution|QID|40730|M|47.95,77.98|NC|S|N|Gather Bottles of Arcwine Delive
 C Special Delivery|QID|40947|M|48.69,77.18|U|137299|NC|N|Click on the couriours as they go running past you. loot the Stack of Letters.|
 C Redistribution|QID|40730|M|47.95,77.98|NC|US|N|Finish gathering the bottles and take them to Deline.|
 T Redistribution|QID|40730|M|51.19,76.14|N|To Deline.|
-C All Along the Waterways|QID|40727|M|47.24,70.83|US|1|N|Kill Duskwatch Orbitists. Pick your spots to fight carefully, as combat drops your illusion.|
+C All Along the Waterways|QID|40727|M|47.24,70.83|US|N|Kill Duskwatch Orbitists. Pick your spots to fight carefully, as combat drops your illusion.|
 T All Along the Waterways|QID|40727|M|48.41,83.30|N|To Vanthir.|
 T Special Delivery|QID|40947|M|48.31,83.23|N|To Silgryn.|
 A Shift Change|QID|40745|M|48.31,83.23|N|From Silgryn.|
