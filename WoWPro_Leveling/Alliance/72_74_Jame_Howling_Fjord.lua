@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2016-10-17 02:23
+-- Who: tubera
+-- Log: Fix QO, Coordinates; Add start note how to get there. Remove loot step for vrykul scoll, drop change seems 100% now and Quest accept item id is not equal to dropped item id.
+
+-- URL: http://wow-pro.com/node/3287/revisions/26629/view
 -- Date: 2014-07-25 22:23
 -- Who: Ludovicus
 -- Log: Add mean
@@ -78,10 +83,11 @@ WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
+N Howling Fjord|QID|11228|N|Get to Howling Fjord with the boat from Menethil Harbor|
 A Hell Has Frozen Over... |QID|11228|M|61.1,62.7|N|From Macalroy.|
 T Hell Has Frozen Over... |QID|11228|M|60.5,61.1|N|To Vice Admiral Keller.|
 A If Valgarde Falls... |QID|11243|M|60.5,61.1|N|From Vice Admiral Keller.|
-f Valgarde |QID|11243|N|Get the flight path for Valgarde Keep.|M|59.79,63.24|
+f Valgarde Port|QID|11243|N|Get the flight path for Valgarde Keep.|M|59.79,63.24|
 h Valgarde |QID|11243|N|Set your hearthstone to Valgarde Keep.|M|58.39,62.46|
 C If Valgarde Falls... |QID|11243|N|Go to the north side of the village and kill the mobs for this quest. |M|58.89,59.51|
 T If Valgarde Falls... |QID|11243|M|60.5,61.1|N|To Vice Admiral Keller.|
@@ -95,12 +101,12 @@ A Prisoners of Wyrmskull |QID|11255|M|60.5,61.1|N|From Vice Admiral Keller.|
 A The Human League |QID|11273|M|60.2,61.0|N|From Beltrand McSorf.|
 A Into the World of Spirits |QID|11333|M|59.8,61.5|N|From Thoralius the Wise.|
 A The Path to Payback |QID|11420|M|60.1,62.4|N|From Guard Captain Zorek.|
-A Daggercap Divin' |QID|11443|M|63.0,60.0|N|From Harold Lagras.|
+A Daggercap Divin' |QID|11443|M|63.0,60.0|N|From Harold Lagras wandering on the bottom of the Fjord.|
 C Daggercap Divin' |QID|11443|N|Collecting Valgarde Supply Crates until you finish this quest. |M|62.16,59.09|S|
-C Into the World of Spirits |QID|11333|N|Equip the Diving Helm and look for a Reagent Pouch on the deck of a wrecked ship and loot it.|M|62.06,57.64|
+C Into the World of Spirits |QID|11333|N|Equip the Diving Helm and look for a Reagent Pouch on the deck of a wrecked ship and loot it.|M|62.06,57.64|U|34082|
 C Daggercap Divin' |QID|11443|N|Finish collecting Valgarde Supply Crates until you finish this quest. |M|62.16,59.09|US|
-T Daggercap Divin' |QID|11443|M|63.0,60.0|N|To Harold Lagras.|
-T Into the World of Spirits |QID|11333|M|59.8,61.5|N|To Thoralius the Wise.|
+T Daggercap Divin' |QID|11443|M|63.0,60.0|N|To Harold Lagras wandering on the bottom of the Fjord..|
+T Into the World of Spirits |QID|11333|M|59.8,61.5|N|To Thoralius the Wise, don't forget to re-equip your helmet.|
 
 A The Echo of Ymiron |QID|11343|M|59.8,61.5|N|From Thoralius the Wise.|
 T The Human League |QID|11273|M|59.2,54.6|N|To Pulroy the Archaeologist.|
@@ -171,29 +177,31 @@ C Out of My Element? |S|QID|11477|N|Kill what you need for this quest. |M|77.45,
 C Tools to Get the Job Done |QID|11475|N|Look for Building Tools down in the pit and loot them. |M|79.00,47.54|
 C Out of My Element? |US|QID|11477|N|Finish killing what you need for this quest. |M|77.45,46.35|
 T Out of My Element? |QID|11477|M|78.8,48.9|N|To Donny.|
-R Vengeance Lift |QID|11475|N|This step is to help get the Exploration Achievement .|M|72.38,37.07|
+R Vengeance Lift |QID|11475|N|This step is to help get the Exploration Achievement.|M|72.38,37.07|RANK|3|
 T Tools to Get the Job Done |QID|11475|M|75.1,65.5|N|To Walt.|
 
 A We Have the Technology |QID|11484|M|75.1,65.5|N|From Walt.|
 A We Can Rebuild It |QID|11483|M|75.1,65.5|N|From Walt.|
-l Pristine Shoveltusk Hide|QID|11484|N|Kill Shoveltusks until this drops.|M|72.6,64|S|L|34136|
+C Pristine Shoveltusk Hide|QID|11484|QO|1|N|Kill Shoveltusks until this drops.|M|72.6,64|S|
 C The Ransacked Caravan |QID|11465|U|34111|N|Go here to the Fjord Turkeys and use your Trained Rock Falcon on them until the quest completes. If you have a pet, either dismiss it or put it on passive.|M|69.25,64.60|
 T Harpoon Master Yavus |QID|11430|M|64.4,47.0|N|To Lieutenant Icehammer.|
 A It Goes to 11... |QID|11421|M|64.4,47.0|N|From Lieutenant Icehammer.|
-l Industrial Strength Rope |QID|11483|QO|Industrial Strength Rope: 1/1|N|Loot the Industrial Strength Rope here. |M|64.75,40.96|
+l Industrial Strength Rope |QID|11483|QO|2|N|Loot the Industrial Strength Rope here. |M|64.75,40.96|
 C We Have the Technology |S|QID|11484|N|Kill Dragonflayer Warriors and Rune-Seers until you find a Steel Ribbing.|M|68.63,54.41|
-l Large Barrel |QID|11483|QO|Large Barrel: 1/1|N|Loot the Large Barrel here. |M|67.58,52.25|
-C It Goes to 11... |QID|11421|U|34032|N|Use the Harpoon Control Mechanism here to control the Harpoon Gun. Use the first ability to destroy buildings and the second to kill Flying Defenders. Destroy the 3 buildings on the other side of the water and the Flying Defenders that spawn from doing so. If you need more Flying Defenders by the time the 3 buildings are destroyed, shoot one of the buildings again to spawn more. |M|64.80,52.68|
+l Large Barrel |QID|11483|QO|1|N|Loot the Large Barrel here. |M|67.58,52.25|
+C It Goes to 11... |QID|11421|U|34032|N|Use the Harpoon Control Mechanism here to control the Harpoon Gun. Use the first ability to destroy buildings and the second to kill Flying Defenders. Destroy the 3 buildings on the other side of the water and the Flying Defenders that spawn from doing so. If you need more Flying Defenders by the time the 3 buildings are destroyed, shoot one of the buildings again to spawn more. |M|64.57,54.31|
 T It Goes to 11... |QID|11421|M|64.4,47.0|N|To Lieutenant Icehammer.|
 
 A Let's Go Surfing Now |QID|11436|M|64.4,47.0|N|From Lieutenant Icehammer.|
-C We Have the Technology |US|QID|11484|N|Kill Dragonflayer Warriors and Rune-Seers until you find a Steel Ribbing.|M|68.63,54.41|
-l Pristine Shoveltusk Hide|QID|11484|N|Kill Shoveltusks until this drops.|M|72.6,64|US|L|34136|
+C We Have the Technology |US|QID|11484|QO|2|N|Kill Dragonflayer Warriors and Rune-Seers until you find a Steel Ribbing.|M|68.63,54.41|
+C Pristine Shoveltusk Hide|QID|11484|QO|1|N|Kill Shoveltusks until this drops.|M|72.6,64|US|
 C Let's Go Surfing Now |QID|11436|N|Click the Large Harpoon Lever here to Harpoon Surf back to Valgarde. |M|65.24,57.23|
 T Anguish of Nifflevar |QID|11344|M|59.8,61.5|N|To Thoralius the Wise.|
 T Let's Go Surfing Now |QID|11436|M|60.1,62.4|N|To Guard Captain Zorek.|
-r Sell junk and repair |QID|11483|M|60.10,61.31|
-C We Can Rebuild It |QID|11483|N|Dismount, then talk to McGoyver and choose the Dark Iron Ingots option, then "Yarp" to be flown back to the Explorer's League Outpost with the Dark Iron Ingots you need. |M|60.77,61.57|
+r Sell junk and repair |QID|11483|M|59.48,63.81|
+C We Can Rebuild It |QID|11483|QO|3|N|Dismount, then talk to McGoyver and choose the Dark Iron Ingots option.|M|60.77,61.57|
+F Explorers' Leage Outpost|QID|11483|N|Choose "Yarp" to be flown back to the Explorers' League Outpost with the Dark Iron Ingots you need. Or fly back there yourself, it's a lot faster.|M|60.77,61.57|
+
 T We Can Rebuild It |QID|11483|M|75.1,65.5|N|To Walt.|
 T We Have the Technology |QID|11484|M|75.1,65.5|N|To Walt.|
 
@@ -201,7 +209,7 @@ A Iron Rune Constructs and You: Rocket Jumping |QID|11485|M|75.1,65.5|N|From Wal
 T The Ransacked Caravan |QID|11465|M|75.3,65.0|N|To Hidalgo the Master Falconer.|
 A Falcon Versus Hawk |QID|11468|M|75.3,65.0|N|From Hidalgo the Master Falconer.|
 C Iron Rune Constructs and You: Rocket Jumping |QID|11485|N|Click the Work Bench next to Walt and click the chat bubble, then stand on the Teleport Rune and use the Rock Jump ability. |M|75.17,65.44|
-T Iron Rune Constructs and You: Rocket Jumping |QID|11485|M|75.1,65.5|N|To Walt.|
+T Iron Rune Constructs and You: Rocket Jumping |QID|11485|M|75.1,65.5|N|Leave the contruct to turn in to Walt.|
 A Iron Rune Constructs and You: Collecting Data |QID|11489|M|75.1,65.5|N|From Walt.|
 C Iron Rune Constructs and You: Collecting Data |QID|11489|N|Go to the Work Bench again, then go to the blue crystal near Gwendolyn and use the Collect Data ability. |M|74.82,65.73|
 T Iron Rune Constructs and You: Collecting Data |QID|11489|M|75.1,65.5|N|To Walt.|
@@ -212,13 +220,13 @@ T Iron Rune Constructs and You: The Bluff |QID|11491|M|75.1,65.5|N|To Walt.|
 A Lightning Infused Relics |QID|11494|M|75.1,65.5|N|From Walt.|
 A The Delicate Sound of Thunder |QID|11495|N|From Walt.|
 C Lightning Infused Relics |S|QID|11494|N|Click the work bench again, then go down to the bottom of the pit here to collect 15 Iron Rune Data using the Collect Data ability. You take no damage from falling while in the suit, and if an Iron Rune Dwarf questions you, use the Bluff ability. Stay away from Rampaging Earth Elementals; run away from them if you aggro. |M|72.78,74.70|
-C The Delicate Sound of Thunder |QID|11495|N|Go to the teleport rune called "Golem Transport - Top Level" and use the Rocket Jump ability while standing on it. Go to the middle Teleport rune here and Rocket Jump again. Go into the cave until you see a big statue, then wait for the quest complete message.  (72.12,70.40) (71.59,69.83)|M|73.19,73.38|
+C The Delicate Sound of Thunder |QID|11495|N|Go to the teleport rune called "Golem Transport - Level 2" and use the Rocket Jump ability while standing on it. Go to the middle Teleport rune here and Rocket Jump again. Go into the cave until you see a big statue, then wait for the quest complete message.|M|72.67,67.3;71.95,69.86;72.12,70.4|CS|
 C Lightning Infused Relics |US|QID|11494|N|Click the work bench again, then go down to the bottom of the pit here to collect 15 Iron Rune Data using the Collect Data ability. You take no damage from falling while in the suit, and if an Iron Rune Dwarf questions you, use the Bluff ability. Stay away from Rampaging Earth Elementals; run away from them if you aggro. |M|72.78,74.70|
 T Lightning Infused Relics |QID|11494|N|To leave, take the left to the east outside the cave to get to the top. Turn quest into Walt.|M|75.1,65.5|
 T The Delicate Sound of Thunder |QID|11495|N|To Walt.|
 A News From the East |QID|11501|N|From Walt.|
 l 10 Fjord Grub |QID|11468|L|34102 10|N|Loot 10 Fjord Grub from the Loose Rock nearby. |M|74.47,64.62|
-C Falcon Versus Hawk |QID|11468|U|34121|N|Find pairs of hawks to capture, then use the Trained Rock Falcon on one and run away from the other until you lose aggro. Capture 10 of these to finish the quest.|M|74.43,65.95;74.42,59.58;71.10,63.41;68.20,63.77|CN|
+C Falcon Versus Hawk |QID|11468|U|34121|N|Find pairs of hawks to capture, then use the Trained Rock Falcon on one and run away from the other until you lose aggro. Capture 10 of these to finish the quest.|M|74.43,65.95;74.42,59.58;71.10,63.41;68.20,63.77|CN|T|Fjord Hawk|
 T Falcon Versus Hawk |QID|11468|M|75.3,65.0|N|To Hidalgo the Master Falconer.|
 A There Exists No Honor Among Birds |QID|11470|M|75.3,65.0|N|From Hidalgo the Master Falconer.|
 C There Exists No Honor Among Birds |QID|11470|U|34124|N|Go to the Vrykul Hawk Roost and use your Trained Rock Falcon. Use the first ability to pick up eggs, the second for a speed boost, and the third to stun Hawk Matriarchs if they attack you. Collect 8 eggs, then cancel the buff. |M|76.60,67.60|
@@ -240,8 +248,8 @@ C One Size Does Not Fit All |S|QID|11190|N|Collect 10 Westguard Cannonballs whil
 C Shoveltusk Soup Again? |S|QID|11155|N|Kill Shoveltusks until you get 6 Shoveltusk Meat. |M|35.58,45.60|
 C The Clutches of Evil |S|QID|11157|N|Kill Proto-Whelps and Proto-Drake Eggs until you complete this quest. |M|37.34,50.14|
 A Root Causes |QID|11182|N|From Ember Clutch Ancient.|M|37.4,51.9|
-K Skeld Drakeson |QID|11182|QO|Skeld Drakeson slain: 1/1|N|Killing Proto-Whelp and Proto-Drake Eggs on your way, find Skeld Drakeson in this building and kill him. |M|41.48,52.34|
-C Root Causes |QID|11182|N|Kill Dragonflayer Handlers around here to complete this quest. |M|41.12,53.18|
+K Skeld Drakeson |QID|11182|QO|2|N|Killing Proto-Whelp and Proto-Drake Eggs on your way, find Skeld Drakeson in this building and kill him. |M|41.48,52.34|
+C Root Causes |QID|11182|QO|1|N|Kill Dragonflayer Handlers around here to complete this quest. |M|41.12,53.18|
 T Root Causes |QID|11182|M|37.4,51.9|N|To Ember Clutch Ancient.|
 C The Clutches of Evil |US|QID|11157|N|Finish killing Proto-Whelps and Proto-Drake Eggs until you complete this quest. |M|37.34,50.14|
 C One Size Does Not Fit All |US|QID|11190|N|Collect 10 Westguard Cannonballs.|M|35.58,45.60|
@@ -261,10 +269,10 @@ r Sell junk, repair, re-stock food/drink. |QID|11199|M|29.83,42.60|
 A Orfus of Kamagua |QID|11573|N|From Lunk-tusk. If you can't get this quest, it's because you have "The Dead Rise!", abandon it.|M|32.3,46.8|
 T Report to Scout Knowles |QID|11199|M|44.5,57.6|N|To Scout Knowles.|
 A Mission: Eternal Flame |QID|11202|M|44.5,57.6|N|From Scout Knowles.|
-U Southwest Plague Tank |QID|11202|QO|Southwest Plague Tank Destroyed: 1/1|U|33164|N|Use the Ever-burning Torches on the Plague Tank here. |M|48.39,55.92|
-U Northwest Plague Tank |QID|11202|QO|Northwest Plague Tank Destroyed: 1/1|U|33164|N|Use the Ever-burning Torches on the Plague Tank here. |M|48.06,52.86|
-U Northeast Plague Tank |QID|11202|QO|Northeast Plague Tank Destroyed: 1/1|U|33164|N|Use the Ever-burning Torches on the Plague Tank here. |M|51.20,50.19|
-C Mission: Eternal Flame |QID|11202|U|33164|N|Use the Ever-burning Torches on the Plague Tank here. |M|51.54,57.74|
+U Southwest Plague Tank |QID|11202|QO|1|U|33164|N|Use the Ever-burning Torches on the Plague Tank here. |M|48.39,55.92|
+U Northwest Plague Tank |QID|11202|QO|2|U|33164|N|Use the Ever-burning Torches on the Plague Tank here. |M|48.06,52.86|
+U Northeast Plague Tank |QID|11202|QO|3|U|33164|N|Use the Ever-burning Torches on the Plague Tank here. |M|51.20,50.19|
+C Mission: Eternal Flame |QID|11202|QO|4|U|33164|N|Use the Ever-burning Torches on the Plague Tank here. |M|51.54,57.74|
 T Mission: Eternal Flame |QID|11202|M|44.5,57.6|N|To Scout Knowles.|
 A Mission: Package Retrieval |QID|11327|M|44.5,57.6|N|From Scout Knowles.|
 C Mission: Package Retrieval |QID|11327|N|Loot the Apothecary's Package here. |M|50.76,53.89|
@@ -273,16 +281,17 @@ A Mission: Forsaken Intel |QID|11328|M|44.5,57.6|N|From Scout Knowles.|
 T Orfus of Kamagua |QID|11573|N|To Orfus of Kamagua.|M|40.3,60.2|
 
 A The Dead Rise! |QID|11504|M|40.3,60.3|N|From Orfus of Kamagua.|
-l Fengir's Clue |QID|11504|QO|Fengir's Clue: 1/1|N|Loot Fengir's Clue here. |M|57.67,77.62|
-l Rodin's Clue |QID|11504|QO|Rodin's Clue: 1/1|N|Loot Rodin's Clue here. |M|59.27,77.00|
-l Isuldof's Clue |QID|11504|QO|Isuldof's Clue: 1/1| |N|Loot Isuldof's Clue here. |M|59.79,79.39|
-C The Dead Rise! |QID|11504|N|Loot Windan's Clue here. |M|61.97,80.06|
+l Fengir's Clue |QID|11504|QO|1|N|Loot Fengir's Clue here. |M|57.67,77.62|
+l Rodin's Clue |QID|11504|QO|2|N|Loot Rodin's Clue here. |M|59.27,77.00|
+l Isuldof's Clue |QID|11504|QO|3|N|Loot Isuldof's Clue here. |M|59.79,79.39|
+C The Dead Rise! |QID|11504|QO|4|N|Loot Windan's Clue here. |M|61.97,80.06|
 T The Dead Rise! |QID|11504|N|To Orfus of Kamagua.|M|40.3,60.3|
 A Elder Atuik and Kamagua |QID|11507|M|40.3,60.3|N|From Orfus of Kamagua.|
 R Kamagua |QID|11507|N|Go to the Ancient Lift and take it across to the island. When the lift stops, ride north to Kamagua. |M|25.12,57.98|
 T Elder Atuik and Kamagua |QID|11507|M|25.0,57.0|N|To Elder Atuik.|
 A Grezzix Spindlesnap |QID|11508|M|25.0,57.0|N|From Elder Atuik.|
 A Feeding the Survivors |QID|11456|M|25.0,57.0|N|From Elder Atuik.|
+f Kamagua|QID|11508|N|Get the flight point at Kip trawlskip|M|24.66,57.75|
 C Feeding the Survivors |QID|11456|N|Kill Island Shoveltusks until you get 6 Island Shoveltusk Meat. Kill the Spearfang Worgs too because if you don't, they will kill the Shoveltusks. |M|30.28,60.26|
 T Feeding the Survivors |QID|11456|M|25.0,57.0|N|To Elder Atuik.|
 A Arming Kamagua |QID|11457|M|25.0,57.0|N|From Elder Atuik.|
@@ -297,8 +306,8 @@ T Street "Cred" |QID|11509|M|35.1,80.9|N|To "Silvermoon" Harry.|
 A "Scoodles" |QID|11510|M|35.1,80.9|N|From "Silvermoon" Harry.|
 A Forgotten Treasure |QID|11434|M|35.6,80.2|N|From Handsome Terry.|
 C "Scoodles" |QID|11510|N|Find and kill "Scoodles" and loot his Sin'dorei Scrying Crystal. |M|36.40,85.27|
-l Eagle Figurine |QID|11434|QO|Eagle Figurine: 1/1|U|34076|N|Use the Fish Bladder for underwater breathing, then dive down and loot the Eagle Figurine inside the ship here. |M|37.77,84.62|
-C Forgotten Treasure |QID|11434|N|Swim to the other ship here and loot the Amani Vase. |M|37.14,85.53|
+l Eagle Figurine |QID|11434|QO|2|U|34076|N|Use the Fish Bladder for underwater breathing, then dive down and loot the Eagle Figurine inside the ship here. |M|37.77,84.62|
+C Forgotten Treasure |QID|11434|QO|1|N|Swim to the other ship here and loot the Amani Vase. |M|37.14,85.53|
 T Forgotten Treasure |QID|11434|M|35.6,80.2|N|To Handsome Terry.|
 A The Fragrance of Money |QID|11455|M|35.6,80.2|N|From Handsome Terry.|
 T "Scoodles" |QID|11510|M|35.1,80.9|N|To "Silvermoon" Harry.|
@@ -337,8 +346,8 @@ T A Traitor Among Us |QID|11473|M|35.6,80.6|N|To Zeh'gehn.|
 A Zeh'gehn Sez |QID|11459|M|35.6,80.6|N|From Zeh'gehn.|
 T Zeh'gehn Sez |QID|11459|M|35.6,80.2|N|To Handsome Terry.|
 A A Carver and a Croaker |QID|11476|M|35.6,80.2|N|From Handsome Terry.|
-l Scalawag Frog |QID|11476|QO|Scalawag Frog: 1/1|N|Click on a Scalawag Frog nearby. |M|35.90,80.62|
-C A Carver and a Croaker |QID|11476|N|Buy a Shiny Knife from "Silvermoon" Harry here. |M|35.10,80.94|
+l Scalawag Frog |QID|11476|QO|1|N|Click on a Scalawag Frog nearby. |M|35.90,80.62|
+C A Carver and a Croaker|QID|11476|QO|2|N|Buy a Shiny Knife from "Silvermoon" Harry here. |M|35.10,80.94|
 T A Carver and a Croaker |QID|11476|M|35.6,80.6|N|To Zeh'gehn.|
 A "Crowleg" Dan |QID|11479|M|35.6,80.6|N|From Zeh'gehn.|
 C "Crowleg" Dan |QID|11479|N|Defeat "Crowleg" Dan on the ship here. |M|35.95,83.60|
@@ -348,9 +357,9 @@ T Meet Number Two |QID|11480|M|35.4,79.4|N|To Annie Bonn.|
 
 A The Jig is Up |QID|11471|N|From Annie Bonn.|
 C Swabbin' Soap |QID|11469|N|Kill Big Roy here and loot Big Roy's Blubber. |M|31.33,78.68|
-C The Jig is Up |QID|11471|N|Beat "Mad" Jonah Sterling down to ~30%, then kill Hozzer when he awakens, and loot Jonah Sterling's Spyglass from Hozzer. |M|33.60,78.18|
+C The Jig is Up |QID|11471|N|Beat "Mad" Jonah Sterling, inside the cave, down to ~30%, then kill Hozzer when he awakens, and loot Jonah Sterling's Spyglass from Hozzer. |M|33.47,75.09;33.60,78.18|CS|
 C The Frozen Heart of Isuldof |QID|11512|N|Loot The Frozen Heart of Isuldof from the ground here. |M|32.33,78.67|
-T The Jig is Up |QID|11471|N|To Annie Bonn.|
+T The Jig is Up |QID|11471|N|To Annie Bonn.|M|35.4,79.4|
 C The Ancient Armor of the Kvaldir |QID|11567|N|Talk to Alanya on the docks outside and click her chat bubble to be flown here. Go into the ship's hold and loot The Ancient Armor of the Kvaldir.|M|36.08,81.60;81.77,73.90|CC|
 F Scalawag Point |QID|11469|N|Fly back to Scalawag Isle using the flying machine. |M|80.91,75.13|
 T Swabbin' Soap |QID|11469|M|37.8,79.6|N|To Scuttle Frostprow.|
@@ -362,10 +371,10 @@ T The Shield of the Aesirites |QID|11530|M|40.3,60.3|N|To Orfus of Kamagua.|
 T The Staff of Storm's Fury |QID|11511|M|40.3,60.3|N|To Orfus of Kamagua.|
 
 A A Return to Resting |QID|11568|M|40.3,60.3|N|From Orfus of Kamagua.|
-N Shield of the Aesirites |QID|11568|QO|Shield of the Aesirites Returned: 1/1|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|57.67,77.62|
-N Staff of Storm's Fury |QID|11568|QO|Staff of Storm's Fury Returned: 1/1|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.27,77.00|
-N Frozen Heart of Isuldof |QID|11568|QO|Frozen Heart of Isuldof Returned: 1/1|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.79,79.39|
-C A Return to Resting |QID|11568|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|61.97,80.06|
+N Shield of the Aesirites |QID|11568|QO|1|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|57.67,77.62|
+N Staff of Storm's Fury |QID|11568|QO|2|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.27,77.00|
+N Frozen Heart of Isuldof |QID|11568|QO|3|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.79,79.39|
+C A Return to Resting |QID|11568|QO|4|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|61.97,80.06|
 T A Return to Resting |QID|11568|M|40.3,60.3|N|To Orfus of Kamagua.|
 A Return to Atuik |QID|11572|M|40.3,60.3|N|From Orfus of Kamagua.|
 T Return to Atuik |QID|11572|M|25.0,57.0|N|To Elder Atuik.|
@@ -431,7 +440,7 @@ T March of the Giants |QID|11355|N|To Researcher Aderan.|
 A The Lodestone |QID|11358|N|From Researcher Aderan.|
 C The Lodestone |QID|11358|U|33819|N|Use the Rune Sample at the Broken Tablet here and wait for the quest complete message. |M|71.63,17.61|
 C Mastering the Runes |QID|11349|N|Look for Iron Rune Carving Tools under the canopies in this area and loot them. |M|67.51,23.29|
-R Lake Cauldros |QID|11314|N|This is an optional step needed for the Exploration Achievement |M|61.11,35.18|
+R Lake Cauldros |QID|11314|N|This is an optional step needed for the Exploration Achievement |M|61.11,35.18|RANK|3|
 C Wild Vines |QID|11315|N|Kill Scarlet Ivy mobs until you complete this quest. |M|51.14,26.57|S|
 C The Fallen Sisters |QID|11314|U|33606|N|Use Lurielle's Pendant on Chill Nymphs until you complete the quest.|M|51.14,26.57|
 C Wild Vines |QID|11315|N|Kill Scarlet Ivy mobs until you complete this quest. |M|51.14,26.57|US|
@@ -443,12 +452,12 @@ C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest
 C Seeds of the Blacksouled Keepers |QID|11319|U|33607|N|Kill Spores here and use the Enchanted Ice Core on their remains until you complete this quest.|M|53.71,18.56|
 C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest. |M|53.71,18.56|US|
 
-R Camp Winterhoof |QID|11349|N|Another optional step to get the Exploration Achievement.  Be careful, this is Horde territory .|M|47.99,11.78|
+R Camp Winterhoof |QID|11349|N|Another optional step to get the Exploration Achievement.  Be careful, this is Horde territory .|M|47.99,11.78|RANK|3|
 C The Cleansing |QID|11322|N|Go northeast to the road, then follow it northwest to the crossroad.  Take the small frozen path going up into the mountains until you find the Frostblade Shrine here. Click on it and kill Your Inner Turmoil. |M|61.09,1.98|
 T Mastering the Runes |QID|11349|N|You now have a 3 minute levitation buff, so mount up and aim for Fort Wildervar. Drop the buff when you're over the lake. Turn the quest into Prospector Belvar.|M|62.3,17.2|
 A The Rune of Command |QID|11348|M|62.3,17.2|N|From Prospector Belvar.|
-T The Lodestone |QID|11358|N|To Researcher Aderan.|
-A Demolishing Megalith |QID|11359|N|From Researcher Aderan.|
+T The Lodestone |QID|11358|N|To Researcher Aderan.|M|62.57,16.54|
+A Demolishing Megalith |QID|11359|N|From Researcher Aderan.|M|62.57,16.54|
 C The Yeti Next Door |QID|11284|U|33477|N|Use the Giant Yeti Meal, then kill Shatterhorn in the mine here. |M|60.48,11.90|
 T The Yeti Next Door |QID|11284|M|60.2,15.6|N|To Foreman Colbey.|
 T The One That Got Away |QID|11410|M|60.3,18.7|N|To Christopher Sloan.|
@@ -460,10 +469,10 @@ C Keeper Witherleaf |QID|11428|N|Kill Keeper Witherleaf in the area.|M|53.82,17.
 T Keeper Witherleaf |QID|11428|M|61.5,22.8|N|To Lurielle.|
 C Down to the Wire |QID|11269|N|Finish collecting Spotted Hippogryph Downs and Trapped Animals. |M|51.96,20.11|US|
 C Preying Upon the Weak |QID|11292|N|Finish collecting Trapped Animals. |M|51.96,20.11|US|
-K Binder Murdis |QID|11348|QO|Binder Murdis slain: 1/1|N|Kill Binder Murdis here. |M|71.85,24.56|
-C The Rune of Command |QID|11348|U|33796|N|Use the Rune of Command on a Stone Giant nearby. |M|71.96,23.16|
+K Binder Murdis |QID|11348|QO|2|N|Kill Binder Murdis here. |M|71.85,24.56|
+C The Rune of Command |QID|11348|QO|1|U|33796|N|Use the Rune of Command on a Stone Giant nearby. |M|71.96,23.16|
 C Demolishing Megalith |QID|11359|N|Mount up and find Megalith up here. Kill Megalith. |M|67.94,10.64|
-T Demolishing Megalith |QID|11359|N|To Researcher Aderan.|
+T Demolishing Megalith |QID|11359|N|To Researcher Aderan.|M|62.57,16.54|
 T The Rune of Command |QID|11348|M|62.3,17.2|N|To Prospector Belvar.|
 T Preying Upon the Weak |QID|11292|M|62.6,16.8|N|To Trapper Jethan.|
 T Down to the Wire |QID|11269|M|62.6,16.8|N|To Gil Grisert.|
@@ -478,10 +487,10 @@ A In Worg's Clothing |QID|11325|M|30.2,28.7|N|From Watcher Moonleaf.|
 C Scare the Guano Out of Them! |S|QID|11154|U|33129|N|Collecting Darkclaw Guano by using Feknut's Firecrackers at the bottoms of trees with Darkclaw Bats nearby. Kill the bat, then loot the Darkclaw Guano off the ground. |M|30.10,18.63|
 T In Worg's Clothing |QID|11325|U|33618|N|Use the Worg Disguise once you're near the quest turn in.|M|29.7,5.7|
 A Brother Betrayers |QID|11414|M|29.7,5.7|N|From Ulfang.|
-K Bjomolf |QID|11414|QO|Bjomolf slain: 1/1|T|Bjomolf|N|Look for Bjomolf and kill him. Use the Worg Disguise again to make searching for him easier. |M|27.11,20.31|U|33618|
+K Bjomolf |QID|11414|QO|1|T|Bjomolf|N|Look for Bjomolf and kill him. Use the Worg Disguise again to make searching for him easier. |M|27.11,20.31|U|33618|
 C Scare the Guano Out of Them! |US|QID|11154|U|33129|N|Finish collecting Darkclaw Guano by using Feknut's Firecrackers at the bottoms of trees with Darkclaw Bats nearby. Kill the bat, then loot the Darkclaw Guano off the ground. |M|30.10,18.63|
 T Scare the Guano Out of Them! |QID|11154|M|30.2,28.7|N|To Engineer Feknut.|
-C Brother Betrayers |QID|11414|T|Varg|N|Look for Varg and kill him. Use the Worg Disguise again to make searching for him easier. |M|34.51,31.15|U|33618|
+C Brother Betrayers |QID|11414|QO|2|T|Varg|N|Look for Varg and kill him. Use the Worg Disguise again to make searching for him easier. |M|34.51,31.15|U|33618|
 T Brother Betrayers |QID|11414|U|33618|M|29.7,5.7|N|To Ulfang.|
 A Eyes of the Eagle |QID|11416|M|29.7,5.7|N|From Ulfang.|
 R Skorn |QID|11248|N|Ride to Skorn, then use your Westguard Command Insignia to summon a quest giver. |M|44.34,26.21|
@@ -490,18 +499,18 @@ T Operation: Skornful Wrath |QID|11248|U|33311|N|Use the Westguard Command Insig
 A Towers of Certain Doom |QID|11245|M|44.4,26.4|N|From Westguard Sergeant.|
 A Gruesome, But Necessary |QID|11246|M|44.4,26.4|N|From Westguard Sergeant.|
 A Burn Skorn, Burn! |QID|11247|M|44.4,26.4|N|From Westguard Sergeant.|
+A Stop the Ascension! |QID|11249|U|33314|N|From UI Alert.|M|45.3,27.0|O|
 C Gruesome, But Necessary |S|QID|11246|U|33310|N|Dismember Vrykul corpses by using The Sergeant's Machete on them. |M|44.92,34.36|
-l Vrykul Scroll of Ascension |S|QID|11249|L|33314|N|Kill and loot Vrykul mobs until you have the Vrykul Scroll of Ascension. |M|44.92,34.36|
-U Northwest Longhouse |QID|11247|QO|Northwest Longhouse Set Ablaze: 1/1|U|33321|N|Go inside the longhouse here and use the Sergeant's Torch. |M|43.62,28.69|
-U Northwest Tower |QID|11245|QO|Northwest Tower Targeted: 1/1|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare. |M|43.61,29.91|
-U Northeast Longhouse |QID|11247|QO|Northeast Longhouse Set Ablaze: 1/1|U|33321|N|Go inside the longhouse here and use the Sergeant's Torch. |M|46.38,28.16|
-C Burn Skorn, Burn! |QID|11247|U|33321|N|Go inside the Barracks here and use the Sergeant's Torch. |M|45.80,30.45|
-U East Tower |QID|11245|QO|East Tower Targeted: 1/1|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare. |M|46.70,32.85|
-U Southeast Tower |QID|11245|QO|Southeast Tower Targeted: 1/1|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare. |M|47.10,36.87|
-l Vrykul Scroll of Ascension |US|QID|11249|L|33314|N|Kill Vrykul mobs until you have the Vrykul Scroll of Ascension. |M|44.92,34.36|
-A Stop the Ascension! |QID|11249|U|33314|N|Use the Vrykul Scroll of Ascension to get this quest.|M|45.3,27.0|
+U Northwest Longhouse |QID|11247|QO|1|U|33321|N|Go inside the longhouse here and use the Sergeant's Torch. |M|43.62,28.69|
+U Northwest Tower |QID|11245|QO|1|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare. |M|43.61,29.91|
+U Northeast Longhouse |QID|11247|QO|2|U|33321|N|Go inside the longhouse here and use the Sergeant's Torch. |M|46.38,28.16|
+C Burn Skorn, Burn! |QID|11247|QO|3|U|33321|N|Go inside the Barracks here and use the Sergeant's Torch. |M|45.80,30.45|
+U East Tower |QID|11245|QO|2|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare. |M|46.70,32.85|
+U Southeast Tower |QID|11245|QO|3|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare. |M|47.10,36.87|
+;removed next step, because likely now a 100% drop rate and item id changes after accepting the quest
+;l Vrykul Scroll of Ascension |QID|11249|L|33314|N|Kill Vrykul mobs until you have the Vrykul Scroll of Ascension. |M|44.92,34.36|
 C Stop the Ascension! |QID|11249|U|33339|N|Use the Vrykul Scroll of Ascension at Thane's Pyre to summon Halfdan the Ice-Hearted, then kill him. |M|44.83,34.93|
-C Towers of Certain Doom |QID|11245|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare. |M|43.18,36.11|
+C Towers of Certain Doom |QID|11245|QO|4|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare. |M|43.18,36.11|
 C Gruesome, But Necessary |US|QID|11246|U|33310|N|Finish dismembering Vrykul corpses by using The Sergeant's Machete on them. |M|44.92,34.36|
 T Towers of Certain Doom |QID|11245|U|33311|N|Use the Westguard Command Insignia to summon Westguard Sergeant again if he's not still around.|
 T Gruesome, But Necessary |QID|11246|N|To Westguard Sergeant.|
@@ -547,7 +556,7 @@ l Gjalerbron Attack Plans |US|QID|11237|L|33289|N|Kill Vrykul here until you get
 A Gjalerbron Attack Plans |QID|11237|U|33289|M|35.1,16.0|N|From the Gjalerbron Attack Plans.|
 T Eyes of the Eagle |QID|11416|U|33618|M|29.7,5.7|N|To Ulfang.|
 A Alpha Worg |QID|11326|U|33618|M|29.7,5.7|N|From Ulfang.|
-C Alpha Worg |QID|11326|U|33618|N|Look for Garwal and kill him. Use the Worg Disguise again to make searching for him easier. |M|27.11,14.88|T|Garwal|
+C Alpha Worg |QID|11326|QO|1|U|33618|N|Look for Garwal and kill him. Use the Worg Disguise again to make searching for him easier. |M|27.11,14.88|T|Garwal|
 T Alpha Worg |QID|11326|M|30.2,28.7|N|To Watcher Moonleaf.|
 C Leader of the Deranged |QID|11240|N|Drop off the cliff above the cave here and go inside to kill Squeeg Idolhunter.|M|30.69,34.48|
 T Leader of the Deranged |QID|11240|M|29.0,41.9|N|To Sapper Steelring.|
@@ -560,19 +569,19 @@ T Gjalerbron Attack Plans |QID|11237|M|28.9,44.2|N|To Mage-Lieutenant Malister.|
 A The Frost Wyrm and its Master |QID|11238|N|From Mage-Lieutenant Malister.|
 A Sleeping Giants |QID|11432|M|28.9,44.2|N|From Mage-Lieutenant Malister.|
 r Sell junk, repair, re-stock food/drink. |QID|11239|M|29.83,42.60|
-K Deathless Watchers|S|QID|11239|QO|Deathless Watcher slain: 10/10|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
-K Putrid Wights|S|QID|11239|QO|Putrid Wight slain: 2/2|N|Kill the Putrid Wights you need for this quest.|M|33.91,9.91|
+K Deathless Watchers|S|QID|11239|QO|1|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
+K Putrid Wights|S|QID|11239|QO|3|N|Kill the Putrid Wights you need for this quest.|M|33.91,9.91|
 l Awakening Rods|QID|11432|L|34083 5|S|N|Kill Necrolords until you have 5 Awakening Rods.|M|33.91,9.91|
 l Mezhen's Writings |QID|11452|L|34090|N|Kill Necro Overlord Mezhen here and loot Mezhen's Writings.|M|38.80,13.09|
 A The Slumbering King |QID|11452|U|34090|M|38.8,13.0|N|From Mezhen's Writings.|
 C The Slumbering King |QID|11452|N|Kill Queen Angerboda here. |M|40.89,6.47|
 C The Frost Wyrm and its Master |QID|11238|U|33282|N|Kill Wyrmcaller Vile here last and loot the Wyrmcaller's Horn. Use it and kill Glacion when he arrives. |M|36.43,7.33|
 
-K Deathless Watchers|US|QID|11239|QO|Deathless Watcher slain: 10/10|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
-K Putrid Wights|US|QID|11239|QO|Putrid Wight slain: 2/2|N|Kill the Putrid Wights you need for this quest.|M|33.91,9.91|
+K Deathless Watchers|US|QID|11239|QO|1|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
+K Putrid Wights|US|QID|11239|QO|3|N|Kill the Putrid Wights you need for this quest.|M|33.91,9.91|
 l Awakening Rods|QID|11432|L|34083 5|US|N|Kill Necrolords until you have 5 Awakening Rods.|M|33.91,9.91|
 C Sleeping Giants |S|QID|11432|U|34083|N|Head into the cave area. Use the Awakening Rods on Dormant Vrykul until you finish this quest. If you need more Awakening Rods, kill Necrolords in the area. |M|35.81,12.69|
-C In Service to the Light |QID|11239|N|Kill Fearsome Horrors until you complete this quest. |M|35.33,12.21|
+C In Service to the Light |QID|11239|QO|2|N|Kill Fearsome Horrors until you complete this quest. |M|35.33,12.21|
 C Sleeping Giants |US|QID|11432|U|34083|N|Head into the cave area. Use the Awakening Rods on Dormant Vrykul until you finish this quest. If you need more Awakening Rods, kill Necrolords in the area. |M|35.81,12.69|
 H Westguard Inn |QID|11239|N|Hearth back to Westguard Keep.|
 T In Service to the Light |QID|11239|M|28.9,44.0|N|To Father Levariol.|
@@ -582,8 +591,7 @@ T Sleeping Giants |QID|11432|M|28.9,44.2|N|To Mage-Lieutenant Malister.|
 T The Frost Wyrm and its Master |QID|11238|N|To Mage-Lieutenant Malister.|
 r Sell junk, repair, re-stock food/drink. |QID|12297|M|29.83,42.60|
 T Of Traitors and Treason |QID|12297|N|To Greer Orehammer.|
-A High Commander Halford Wyrmbane |QID|12298|N|From Greer Orehammer.|
+A High Commander Halford Wyrmbane |QID|12298|N|From Greer Orehammer, this quest leads into Dragonblight.|
 F Wintergarde Keep |QID|12298|N|Talk to Greer Orehammer and choose to fly to Wintergarde Keep.|
-
 ]]
 end)

@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-16 00:18
+-- Who: Ludovicus
+-- Log: Removed stray |1| from C All Along the Waterways¦QID¦40727
+
+-- URL: http://wow-pro.com/node/3687/revisions/27921/view
+-- Date: 2016-10-15 13:29
+-- Who: Emmaleah
+-- Log: added Waning Crescent Story Arc
+
+-- URL: http://wow-pro.com/node/3687/revisions/27920/view
+-- Date: 2016-10-15 01:13
+-- Who: Emmaleah
+-- Log: added in the missing runsteps in moonguard
+
+-- URL: http://wow-pro.com/node/3687/revisions/27899/view
 -- Date: 2016-10-12 18:21
 -- Who: Emmaleah
 -- Log: added moonguard quest lines.
@@ -435,8 +450,7 @@ P Telemancer Beacon|QID|43988|M|22.69,36.69|N|Return to Shal'Aran and talk to Th
 P Falanaar Portal|QID|43988|M|35.89,45.55|N|Return to Falanaar, to get a treasure and raise your ancient mana cap.|
 $ Volotile Leyline Crystal|QID|43988|M|42.69,30.93;35.52,52.77|CS|Z|Temple of Fal'adora@Suramar|ITEM|140328|U|140328|N|Down the stairs and in the center of the room. Loot and use to increase the amount of Ancient Mana you can hold.|PRE|42229|
 $ Small Treasure Chest|QID|43838|M|38.25,53.96|Z|Temple of Fal'adora@Suramar|N|Loot for a bit of treasure and resources.|RANK|2|
-
-;need a run step to guide you outside
+R Temple of Fal'adora|QID|41452|M|45.81,31.22;38.49,42.14;54.27,41.53;50.31,63.07|CS|Z|Temple of Fal'adora@Suramar|N|Back up the stairs and head outside.|
 
 R Irongrove Retreat|QID|41452|M|22.48,39.90;22.48,30.26|CS|N|Run out of the temple, across the river and through Feathermane Hunting Grounds.|
 f Irongrove Retreat|QID|41452|M|25.47,31.76|N|At Alyndra Stormgazer.|
@@ -489,7 +503,9 @@ A Managazer|QID|41480|M|30.31,30.71|N|From Solendra Featherdown.|PRE|41478|
 A Moonwhisper Rescue|QID|41485|M|30.31,30.71|N|From Solendra Featherdown.|PRE|41478|
 C Natural Adversaries|QID|41479|M|30.90,26.30|S|N|Kill Manascale Basilisk.|
 C Moonwhisper Rescue|QID|41485|M|31.55,27.74|S|U|136605|NC|N|Cleanse Petrified Nightsabers.|
-C Managazer|QID|41480|M|33.21,24.51|QO|1|N|Kill Managazer (Inside Cave).|
+C Managazer|QID|41480|M|31.45,26.11;33.21,24.51|CS|QO|1|N|Kill Managazer (Inside Cave).|
+
+R Ley Station Moonfall|QID|43590|M|30.74,29.46;36.68,27.16;36.11,25.73|CS|N|Run through Moonwhisper Gulch to activate another waystation, you will need 200 ancient mana.|RANK|2|
 A Leyline Feed: Ley Station Moonfall|QID|43590|M|36.07,19.56|N|From Leyline Feed.|RANK|2|
 C Leyline Feed: Ley Station Moonfall|QID|43590|M|34.91,29.48|QO|1|N|Kill Thudchop Trunksmasher (Ettin) wandering around across the river and loot the Broken Leydar Dish.|RANK|2|
 T Leyline Feed: Ley Station Moonfall|QID|43590|M|36.03,19.59|N|To Leyline Feed.|RANK|2|
@@ -507,7 +523,7 @@ C Eminent Grow-main|QID|41494|M|26.18,31.18|NC|N|Click on the bowl to imbue the 
 T Eminent Grow-main|QID|41494|M|26.07,31.31|N|To Mayruna Moonwing.|
 A Scouting the Crimson Thicket|QID|42223|M|26.22,31.32|N|From Solendra Featherdown.|PRE|41494|RANK|2|
 
-;need R step here
+R Ley Station Aethenar|QID|43591|M|27.36,22.05;24.32,19.35|CS|N|Run thru Moonfall Approach to find and restore another leyline feed. This one also costs 200 ancient mana and killing the mobs in the cavern.|
 A Leyline Feed: Ley Station Aethenar|QID|43591|M|22.52,15.64|N|From Leyline Feed.|RANK|2|
 C Leyline Feed: Ley Station Aethenar|QID|43591|M|22.39,15.69|QO|1|N|Kill wraiths to collect the Leyline Feed Fragments.|RANK|2|
 T Leyline Feed: Ley Station Aethenar|QID|43591|M|22.50,15.52|N|To Leyline Feed.|RANK|2|
@@ -521,7 +537,7 @@ C Not Their Last Stand|QID|40949|M|30.34,17.49|NC|N|Click on the Hippogryphs to 
 C Fate of the Guard|QID|40883|M|30.79,17.91|QO|2|NC|N|Find and click on Galar'thus Rivertree.|
 C Sigil Reclamation|QID|41030|M|28.49,18.19|N|Finish collecting Moon Guard Sigils.|
 C Fate of the Guard|QID|40883|M|32.0,18.00;33.70,18.14|CS|QO|3|NC|N|Into this tunnel and Click on Kailea Windfeather.|
-A Take Them in Claw|QID|40963|M|33.71,18.02|N|Go up the stairs to get a quest from Lyrea Windfeather.|AVAILABLE|40883|
+A Take Them in Claw|QID|40963|M|33.71,18.02|N|Go up the stairs to get a quest from Lyrea Windfeather.|ACTIVE|40883|
 T Fate of the Guard|QID|40883|M|33.73,18.09|N|To Lyrea Windfeather.|
 T Sigil Reclamation|QID|41030|M|33.73,18.09|N|To Lyrea Windfeather.|
 T Not Their Last Stand|QID|40949|M|33.71,18.02|N|To UI Alert.|
@@ -565,8 +581,7 @@ C Overwhelming Distraction|QID|40971|M|30.78,15.42|S|U|133999|N|Stand on the pur
 $ Small Treasure Chest|QID|43848|M|29.27,16.22|N|In the room at the top of the stairs. Loot for treasure and resources.|RANK|2|
 C Overwhelming Distraction|QID|40971|M|30.78,15.42|US|U|133999|N|Stand on the purple runes, target a Nightborne, use the crystal. When you get the message, run to the next rune, repeat (you may want to drag this to your hotkeys to keep using after the required three for the quest).|
 C The Orchestrator of Our Demise|QID|40970|M|28.84,12.74|N|Kill Conjurer Thalerian and loot the Astromancer's Keystone.|
-;go up the stairs and thru the bubble
-;to activate the teleporter beyond.
+R Moonfall Overlook|QID|43808|M|29.01,13.11;28.61,14.31;29.61,10.69|CS|N|Run up the stairs and pass through the bubble at the top.|
 A Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|From Unpowered Telemancy Beacon.|PRE|40956|
 T Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|To Unpowered Telemancy Beacon.|
 $ Arcane Power Unit|QID|43989|M|35.58,12.04|U|140329|N|Continue up the stairs for an item that raises your mana cap by 100.|
@@ -602,7 +617,6 @@ $ Small Treasure Chest|QID|43857|M|63.65,49.11|N|Inside a small alcove on the hi
 f Crimson Thicket|QID|40617|M|64.23,41.98|N|At Ancient Cloudwing.|
 A Leyline Feed: Elor'shan|QID|43587|M|65.87,41.89;64.7,37.7|CS|N|Into this cave to activate another Leyline, make sure you have 250 ancient mana on hand.|RANK|2|PRE|41138|
 $ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Loot for a bit of storable ancient mana.|ITEM|141655|RANK|2|
-$ Treasure Chest|QID|43858|M|67.31,55.11|N|Back out of the Elor'shan cavern to find this next chest. Loot for some treasure and resources.|RANK|2|
 
 ; Jandvik's Jarl Side Storyline
 R Jandvik|QID|40907|M|64.86,51.05|N|Run to Jandvik for some sideline quests.|
@@ -690,7 +704,7 @@ $ Small Treasure Chest|QID|43863|M|83.12,69.33|N|Run over to the next island and
 T Shatter the Sashj'tar|QID|41001|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
-H Shal'Aran|QID|40401|M|36.56,46.93|N|Return to Shal'Aran.|
+H Shal'Aran|QID|44495|M|36.56,46.93|N|Return to Shal'Aran.|
 A Leyline Mastery|QID|44495|M|37.00,46.35|N|From/To Arcanish Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|RANK|2|PRE|44493|
 
 R Meredil|QID|40401|M|34.36,49.95|N|Run outside Shal'Aran and take the road Southeast.|RANK|2|
@@ -740,9 +754,67 @@ C The Master's Legacy|QID|41915|M|36.23,60.31;35.28,61.57|CC|QO|1|NC|N|Open Cres
 C The Master's Legacy|QID|41915|M|35.62,61.23|QO|2|N|Slay Lespin and Company.|RANK|2|
 T The Master's Legacy|QID|41915|M|41.66,71.07|N|To Apprentice Ardrias.|RANK|2|
 
-;insert The Waning Crescent Here
-; Quests in Felsoul Hold Breaking The Lightbreaker Story Line.
+;Waning Crescent Story Arc
+R Suramar City|QID|41877|M|44.09,57.69;45.97,59.04|CS|N|Run through the Grand Promanade to the center stairs, go down one tier to find Ly'leth Lunastre.|
+C Lady Lunastre|QID|41877|M|47.05,61.97|CHAT|N|Talk with Lady Lunastre.|
+T Lady Lunastre|QID|41877|M|47.05,61.97|N|To Lady Lunastre.|
+A One of the People|QID|40746|M|47.05,61.97|N|From Lady Lunastre.|
+C One of the People|QID|40746|
+R Waning Crescent|QID|40746|M|48.03,68.13;46.66,72.75;47.10,75.57;45.61,77.10;49.00,83.26|CS|N|Run down the Concourse of Destiny, thru Evermoon Commons, Artisan's Gallary, Starcaller's Retreat and finally to the Waning Crescent.|
+T One of the People|QID|40746|M|48.41,83.28|N|To Vanthir.|
+A Dispensing Compassion|QID|41148|M|48.41,83.28|N|From Vanthir.|
+C Dispensing Compassion|QID|41148|M|48.16,84.96;46.64,82.53;48.00,80.11;48.93,82.21|CS|NC|N|Offer wine to the Citizens lying on the ground at each of the 4 locations.|
+T Dispensing Compassion|QID|41148|M|48.40,83.28|N|To Vanthir.|
+A The Gondolier|QID|41878|M|48.40,83.28|N|From Vanthir.|
+A Special Delivery|QID|40947|M|48.28,83.22|N|From Silgryn.|
+A Small Treasure Chest|QID|43866|M|48.40,82.21;48.28,82.62|CS|N|Look up from first coordinate for grapple point. Loot chest in top of tower for some treasure and resources.|
+C The Gondolier|QID|41878|M|51.18,76.15|QO|1|N|Make Contact with the Gondolier.|
+T The Gondolier|QID|41878|M|51.18,76.15|N|To Deline.|
+A All Along the Waterways|QID|40727|M|51.18,76.15|N|From Deline.|
+A Redistribution|QID|40730|M|51.18,76.15|N|From Deline.|
+C All Along the Waterways|QID|40727|M|47.24,70.83|S|N|Kill Duskwatch Orbitists. Pick your spots to fight carefully, as combat drops your illusion.|
+C Redistribution|QID|40730|M|47.95,77.98|NC|S|N|Gather Bottles of Arcwine Delivered to Deline|
+C Special Delivery|QID|40947|M|48.69,77.18|U|137299|NC|N|Click on the couriours as they go running past you. loot the Stack of Letters.|
+C Redistribution|QID|40730|M|47.95,77.98|NC|US|N|Finish gathering the bottles and take them to Deline.|
+T Redistribution|QID|40730|M|51.19,76.14|N|To Deline.|
+C All Along the Waterways|QID|40727|M|47.24,70.83|US|N|Kill Duskwatch Orbitists. Pick your spots to fight carefully, as combat drops your illusion.|
+T All Along the Waterways|QID|40727|M|48.41,83.30|N|To Vanthir.|
+T Special Delivery|QID|40947|M|48.31,83.23|N|To Silgryn.|
+A Shift Change|QID|40745|M|48.31,83.23|N|From Silgryn.|
+C Shift Change|QID|40745|M|46.33,78.81|QO|1|N|Wait for the Guard to Appear.|
+C Shift Change|QID|40745|M|44.72,72.93|QO|2|N|Follow the Guard, staying just out of her see illusion range.|
+C Shift Change|QID|40745|M|44.25,73.03|QO|3|N|Kill the guard to get the control chip you need to open Korine's Cage.|
+T Shift Change|QID|40745|M|44.20,73.05|N|To Korine.|
+A Friends in Cages|QID|42722|M|44.20,73.05|N|From Korine.|
+C Friends in Cages|QID|42722|M|47.95,67.57|QO|1|N|Kill the guards to get the control chips, the chips allow you to unlock the prisoner's cages.|
+T Friends in Cages|QID|42722|M|44.23,73.03|N|To Korine.|
+A Little One Lost|QID|42486|M|44.23,73.03|N|From Korine.|
+C Little One Lost|QID|42486|M|44.23,73.03|CHAT|N|Chat with Korine to get started.|
+C Little One Lost|QID|42486|M|46.59,80.01|QO|1|N|Standard escort, some preset ambushes.|
+T Little One Lost|QID|42486|M|48.29,83.25|N|To Verene.|
+A Friends On the Outside|QID|42487|M|48.40,83.28|N|From Vanthir.|
+$ Small Treasure Chest|QID|43864|M|50.07,83.85;49.99,84.93|CS|N|Look up from first coordinate to upper floor of tower for grapple point. Loot chest for treasure and resources.|RANK|2|
+A Wasted Potential|QID|44051|M|47.85,81.52|N|From/To Rosaine|
+C Friends On the Outside|QID|42487|M|47.74,81.39|N|Activate Telemancy Beacon.|
+R Portal to Shal'Aran|QID|42487|M|47.74,81.39|N|Take the portal to Shal'Aran.|
+C Friends On the Outside|QID|42487|M|36.88,46.60|QO|2|N|Deliver Vanthir's Gift to Thalyssra|
+T Friends On the Outside|QID|42487|M|36.88,46.60|N|To First Arcanist Thalyssra.|
+A Thalyssra's Abode|QID|42488|M|36.88,46.60|N|From First Arcanist Thalyssra.|
+F Crimson Thicket|QID|42488|M|34.38,49.43|N|Fly to Crimson Thicket at xxx the flightmaster in Meridil.|
+$ Treasure Chest|QID|43858|M|67.31,55.11|N|Loot for some treasure and resources.|RANK|2|
+R Estate of the First Arcanist|QID|42489|M|65.06,51.12;67.11,57.28;68.14,62.93|CS|N|Run down to Thalyssra's Estate.|
+K Kill Magisterial Sleuths|QID|42488|L|138392 3|S|N|Kill the Sleuth's until you have 3 amplifer fragments.|
+A Thalyssra's Drawers|QID|42489|M|65.70,62.73|N|From Magisterial Sleuth.|
+C Thalyssra's Drawers|QID|42489|M|66.42,63.37|QO|2|NC|N|Pick up Thalyssra's Favorite Robe.|
+C Thalyssra's Drawers|QID|42489|M|65.83,64.83|QO|3|NC|N|Pick up Thalyssra's Favorite Books.|
+C Thalyssra's Drawers|QID|42489|M|64.64,61.57|QO|1|NC|N|Pick up her Private Correspondence.|
+K Kill Magisterial Sleuths|QID|42488|L|138392 3|US|N|Kill the Sleuth's until you have 3 amplifer fragments.|
+C Thalyssra's Abode|QID|42488|M|64.64,61.57|U|138392|NC|N|Combine the fragments to create an Arcane Amplifier.|
+H Shal'Aran|QID|42489|N|Return to Shal'Aran.|
+T Thalyssra's Abode|QID|42488|M|36.88,46.61|N|To First Arcanist Thalyssra.|
+T Thalyssra's Drawers|QID|42489|M|36.88,46.61|N|To First Arcanist Thalyssra.|
 
+; Quests in Felsoul Hold Breaking The Lightbreaker Story Line.
 A A Different Source|QID|40625|M|26.78,70.82|N|From Kyrtos.|
 C A Different Source|QID|40625|M|32.50,66.74|QO|1|N|Kill Abhorrent Artificers in the area for Fel Deconstructor|
 T A Different Source|QID|40625|M|26.78,70.83|N|To Kyrtos.|
