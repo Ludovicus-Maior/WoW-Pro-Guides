@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-10-17 16:23
+-- Who: tubera
+-- Log:  void
+
+-- URL: http://wow-pro.com/node/3674/revisions/27880/view
 -- Date: 2016-10-05 22:52
 -- Who: Ludovicus
 -- Log: The PRE tag for [A The Third Legend] had spurious + signs!
@@ -116,13 +121,13 @@ T Whispers in the Void|QID|43372|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
 A The Best and Brightest|QID|43373|M|47.65,47.33|N|From Prophet Velen.|PRE|43372|LVL|101|
 
 R Dalaran Portal|QID|99999|N|Back to the outside world to continue leveling.|PRE|44100|ACTIVE|39718;39864;39731;39733;39735;43372|
-A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|
+A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|LVL|101| ;add lvl requirement
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
 C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
-U Dalaran Hearthstone|QID|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
-R Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|
+U Dalaran Hearthstone|QID|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|ACTIVE|44009| ;should only pop up during falling star
+R Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
 T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
 A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar. Take his portal to enter a scenario.|PRE|42457|
 C The Prophet and the Butcher|QID|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
@@ -199,7 +204,7 @@ C A Will of Fire|QID|41631|SO|6|N|Step thru the portal and then go claim Light's
 C Claim Light's Wrath|QID|41631|SO|7;1|NC|N|Claim Light's Wrath.|;no coordinates. Its not on a map
 C Leave the Nexus Vault|QID|41631|SO|7;2|M|59.22,20.41|Z|TheBeyond/1|NC|N|Leave the Nexus Vault via the Portal Azuregos creates for you.|
 T The Nexus Vault|QID|41631|M|28.60,49.89|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
-A A Gift of Time|QID|41632|M|28.60,49.89|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|40631|
+A A Gift of Time|QID|41632|M|28.60,49.89|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|41631|
 C A Gift of Time|QID|41632|M|51.61,47.81|CHAT|N|Talk to Alonsus Faol in Netherlight Temple.|LVL|102|
 T A Gift of Time|QID|41632|M|46.37,20.96|Z|Dalaran@Dalaran70|N|To Alonsus Faol.|
 
@@ -249,7 +254,7 @@ C Blade in Twilight|QID|40710|QO|3|M|46.25,20.92|Z|Dalaran@Dalaran70|NC|N|You wi
 T Blade in Twilight|QID|40710|M|46.15,21.32|Z|Dalaran@Dalaran70|N|To Moira Thaurissan.|
 
 ;Priest Class Hall
-A The Light and the Void|QID|40938|M|46.26,20.50|Z|Dalaran@Dalaran70|N|From Prophet Velen.|PRE|40710;40631|
+A The Light and the Void|QID|40938|M|46.26,20.50|Z|Dalaran@Dalaran70|N|From Prophet Velen.|PRE|40710+41632+42074|
 C The Light and the Void|QID|40938|QO|1|M|45.69,56.14|Z|Aegwynn's Gallery@Dalaran70|NC|N|Follow Velen to the portal.|
 C The Light and the Void|QID|40938|QO|2|M|34.66,77.57|Z|Aegwynn's Gallery@Dalaran70|NC|N|Take the portal to Netherlight Temple.|
 C The Light and the Void|QID|40938|QO|3|M|49.66,49.16|NC|N|Listen to Alonsus Faol.|

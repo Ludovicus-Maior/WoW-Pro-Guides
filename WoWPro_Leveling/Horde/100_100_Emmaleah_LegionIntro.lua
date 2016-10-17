@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3667
+-- Date: 2016-10-17 15:28
+-- Who: tubera
+-- Log: Fix spelling error;Add U tag to second step
+
+-- URL: http://wow-pro.com/node/3667/revisions/27928/view
+-- Date: 2016-10-17 15:27
+-- Who: tubera
+-- Log: Fix spelling error;Add U tag to second step
+
+-- URL: http://wow-pro.com/node/3667/revisions/27588/view
 -- Date: 2016-09-14 08:57
 -- Who: Emmaleah
 -- Log: Added Icon to registration; Added Jump to DH guide. changed C In the blink of an eye to Dalaran@DeadwindPass
@@ -21,12 +31,12 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A The Legion Returns|QID|43926|M|49.68,76.69|Z|Orgrimmar|N|From UI Alert.|
-C Travel to Orgrimmar|QID|43926|NC|N|A clickable portal has been provided or travel by whatever means you choose.|
+C Travel to Orgrimmar|QID|43926|NC|N|A clickable portal has been provided or travel by whatever means you choose.|U|132119|
 T The Legion Returns|QID|43926|M|46.01,13.94|Z|Durotar|N|To Holgar Stormaxe.|
 A To Be Prepared|QID|44281|M|46.01,13.94|Z|Durotar|N|From Holgar Stormaxe.|PRE|43926|
 C To Be Prepared|QID|44281|NC|QO|3|M|47.76,13.46|Z|Durotar|N|Click on the food to eat your last meal.|
 C To Be Prepared|QID|44281|NC|QO|1|M|49.65,14.20|Z|Durotar|N|Click on the keg to polish your armor.|
-l Optional - consumables|QID|44281|NC|M|50.11,13.77|Z|Durotar|N|Click on the cauldren to pick up 10 +food/+mana/+fdamage items. (optional).|L|141295|ACTIVE|44281|
+l Optional - consumables|QID|44281|NC|M|50.11,13.77|Z|Durotar|N|Click on the cauldron to pick up 10 +food/+mana/+fdamage items. (optional).|L|141295|ACTIVE|44281|
 C To Be Prepared|QID|44281|NC|QO|2|M|51.37,12.26|Z|Durotar|N|Click on the sun sphere to empower your weapon.|
 C To Be Prepared|QID|44281|CHAT|QO|4|M|52.50,11.04|Z|Durotar|N|Challenge on of the NPC's standing around here to a duel.|
 T To Be Prepared|QID|44281|M|55.66,11.05|Z|Durotar|N|To Stone Guard Mukar.|
