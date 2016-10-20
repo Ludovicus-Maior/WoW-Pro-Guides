@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-10-19 20:57
+-- Who: tubera
+-- Log: fix US and spelling on Vengeance for the Stonedark
+
+-- URL: http://wow-pro.com/node/3678/revisions/27933/view
+-- Date: 2016-10-19 01:06
+-- Who: Ludovicus
+-- Log: Level tweak
+
+-- URL: http://wow-pro.com/node/3678/revisions/27892/view
 -- Date: 2016-10-09 18:08
 -- Who: tubera
 -- Log: Fix PRE tags from 39831 to 39381
@@ -81,7 +91,7 @@
 -- Who: Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide, 100, 109, 100.1)
+WoWPro:GuideLevels(guide, 100, 109, 98.3541)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Highmountain")
 WoWPro:GuideSteps(guide, function()
@@ -422,15 +432,15 @@ T Pet Rocks|QID|39391|M|45.21,32.51|N|To Navarrogg.|
 T Stonedark Crystal|QID|39425|M|45.21,32.51|N|To Navarrogg.|
 T They Will Pay With Blood|QID|39588|M|45.21,32.51|N|To Navarrogg.|
 A Blood Debt|QID|39426|M|45.21,32.51|N|From Navarrogg.|PRE|39391+39425+39588|
-A Vengence for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto-accepted as you enter the area.|LVL|-109|RANK|2|
-C Vengence for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|S|N|Click on weapon racks and kill Feltotems to advance the objective.|RANK|2|
+A Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto-accepted as you enter the area.|LVL|-109|RANK|2|
+C Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|S|N|Click on weapon racks and kill Feltotems to advance the objective.|RANK|2|
 $ Glimmering Treasure Chest|QID|40482|M|48.05,27.31;46.67,28.11|CS|N|Up the hill. then walk on top of the building/statue and drop down onto the statue's nose to find a tresure chest.  Loot for a bit of resources and treasure.|RANK|3|
 K Kill Mellok, Son of Torok|QID|40242|M|49.20,27.11|ITEM|131808|QO|1|T|Mellok, Son of Torok|N|Kill this silver for a bit of loot and treasure.|RANK|2|
 C Blood Debt|QID|39426|M|49.17,23.82|N|Torok Bloodtotem slain|
 T Blood Debt|QID|39426|M|49.20,23.81|N|To Navarrogg.|
 A Step into the Dark|QID|40229|M|49.20,23.81|N|From Navarrogg.|PRE|39426|
-C Vengence for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|S|N|Stay and finish or click off manually.|RANK|2|
-t Vengence for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto turned in upon completion.|RANK|2|
+C Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|US|N|Stay and finish or click off manually.|RANK|2|
+t Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto turned in upon completion.|RANK|2|
 
 $ Small Treasure Chest|QID|44280|M|44.72,25.00;42.79,23.58;46.36,21.63|CS|N|Run up the mountain trail for a great view and to find this chest which contains a bit of loot and treasure. If you don't have a kite/glider, run back down.|RANK|3|
 R Stonedark Grotto|QID|40229|M|44.39,26.84;42.61,25.54|CS|N|Run to Navarrogg's new hang-out. (Stonedark Grotto).|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-10-19 01:05
+-- Who: Ludovicus
+-- Log: Level Tweak
+
+-- URL: http://wow-pro.com/node/3680/revisions/27889/view
 -- Date: 2016-10-08 02:25
 -- Who: tubera
 -- Log: Move treasure 38680 1 back for better flow.
@@ -68,7 +73,7 @@
 -- Who: Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmStormheim', 'Leveling', 'Stormheim', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,100, 109)
+WoWPro:GuideLevels(guide,100, 109, 98.6039)
 WoWPro:GuideNextGuide(guide,'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Stormheim")

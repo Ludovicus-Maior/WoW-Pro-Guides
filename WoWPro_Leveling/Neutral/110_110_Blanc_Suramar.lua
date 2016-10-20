@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-20 20:31
+-- Who: tubera
+-- Log: Fix US on Beach Bonfire
+
+-- URL: http://wow-pro.com/node/3687/revisions/27943/view
+-- Date: 2016-10-20 15:11
+-- Who: tubera
+-- Log: Fix US on: You've Got to Be Kitten Me Right Meow
+
+-- URL: http://wow-pro.com/node/3687/revisions/27923/view
 -- Date: 2016-10-16 00:18
 -- Who: Ludovicus
 -- Log: Removed stray |1| from C All Along the Waterways¦QID¦40727
@@ -471,7 +481,7 @@ A You've Got to Be Kitten Me Right Meow|QID|41197|M|21.41,30.63|N|From Mardranel
 C You've Got to Be Kitten Me Right Meow|QID|41197|M|21.44,30.55|S|N|Herding cats! stand behind them facing the way you want them to run, and they may go that way.|
 K Kill Starving Ettin|QID|41462|M|21.75,29.42|L|137179|U|137179|N|Kill and loot the Starving Ettin who wanders thru this area, for an item that starts a quest.|RANK|2|
 A Trouble Has Huge Feet|QID|41462|M|21.75,29.42|N|From Grotesque Ettin Leather.|RANK|2|
-C You've Got to Be Kitten Me Right Meow|QID|41197|M|21.44,30.55|N|Finish Herding Lost Feathermane Kittens.|
+C You've Got to Be Kitten Me Right Meow|QID|41197|M|21.44,30.55|N|Finish Herding Lost Feathermane Kittens.|US|
 T Trouble Has Huge Feet|QID|41462|M|21.40,30.63|N|To Mardranel Forestheart.|RANK|2|
 T You've Got to Be Kitten Me Right Meow|QID|41197|M|21.40,30.63|N|To Mardranel Forestheart.|
 T Missing Along the Way|QID|41463|M|19.58,22.38|N|To Kalendros Irongrove.|
@@ -635,7 +645,7 @@ K Kill Cora'kar|QID|41135|M|69.85,56.74|QO|1|ITEM|139952|N|Silver - Cora'kar is 
 C Band of Blood Brothers|QID|40320|M|68.06,58.33|QO|3|N|Rescue Stokalfr.|
 C Band of Blood Brothers|QID|40320|M|69.25,57.77|QO|1|N|Rescue Katarine.|
 C Band of Blood Brothers|QID|40320|M|68.98,59.85|QO|2|N|Rescue Fjolrik.|
-C Beach Bonfire|QID|40332|M|70.74,57.26|QO|1|S|NC|N|Pick Driftwood up from the ground. (there is no wood in the cave.)|
+C Beach Bonfire|QID|40332|M|70.74,57.26|QO|1|US|NC|N|Pick Driftwood up from the ground. (there is no wood in the cave.)|
 C Bite of the Sashj'tar|QID|40331|M|69.53,60.50|US|N|Finish collecting the Sashj'tar Fangs.|
 C Beach Bonfire|QID|40332|M|72.37,59.33|QO|2|NC|N|Build Jarl Throndyr's Pyre.|
 T Beach Bonfire|QID|40332|M|72.23,59.14|N|To Brandolf.|

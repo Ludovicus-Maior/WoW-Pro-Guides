@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2016-10-19 16:58
+-- Who: Blanckaert
+-- Log: NR: Moa'ki Harbor, needs just Moa'ki.
+
+-- URL: http://wow-pro.com/node/3441/revisions/27938/view
+-- Date: 2016-10-19 16:15
+-- Who: Blanckaert
+-- Log: fixed the VoEB locations to Horde instead of (Gasp!) Alliance info. Add QID for Mistfall... No FP at Mistfall changed to closest one.
+
+-- URL: http://wow-pro.com/node/3441/revisions/27937/view
+-- Date: 2016-10-19 15:46
+-- Who: Blanckaert
+-- Log: Changed Westwind to Eastwind (missed on last edit)
+
+-- URL: http://wow-pro.com/node/3441/revisions/27936/view
+-- Date: 2016-10-19 15:42
+-- Who: Blanckaert
+-- Log: fixed QID for Eastwind Rest from -4 to 32040
+
+-- URL: http://wow-pro.com/node/3441/revisions/27774/view
 -- Date: 2016-09-14 17:40
 -- Who: Ludovicus
 -- Log: Dalaran City@Dalaran

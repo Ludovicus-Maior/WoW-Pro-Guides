@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-10-19 01:10
+-- Who: Ludovicus
+-- Log: Level Tweak
+
+-- URL: http://wow-pro.com/node/3683/revisions/27914/view
 -- Date: 2016-10-14 03:41
 -- Who: tubera
 -- Log: Move right foot before grappling up
@@ -114,7 +119,7 @@
 -- Log: So far
 
 local guide = WoWPro:RegisterGuide('LudoStormheim', 'Leveling', 'Stormheim', 'Ludovicus', 'Alliance')
-WoWPro:GuideLevels(guide, 100, 109)
+WoWPro:GuideLevels(guide, 100, 109, 98.4408)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Stormheim")
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()

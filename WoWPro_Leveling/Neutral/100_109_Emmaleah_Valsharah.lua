@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-10-19 01:08
+-- Who: Ludovicus
+-- Log: Level Tweak
+
+-- URL: http://wow-pro.com/node/3665/revisions/27908/view
 -- Date: 2016-10-13 23:11
 -- Who: Ludovicus
 -- Log: [Archdruid of Lore] has two QIDs: 38381;44106
@@ -120,7 +125,7 @@
 -- Log: First Public Draft
 
 local guide = WoWPro:RegisterGuide('EmmValsharah', 'Leveling', "Val'sharah", 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,100, 109, 100.1)
+WoWPro:GuideLevels(guide,100, 109, 98.7365)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_ValSharah")
