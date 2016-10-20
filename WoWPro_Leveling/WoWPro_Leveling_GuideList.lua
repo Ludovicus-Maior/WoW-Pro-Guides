@@ -14,14 +14,16 @@ for guidID,guide in pairs(WoWPro.Guides) do
 	        return ""
 	    end
 	    WoWPro:ResolveIcon(guide)
+	    local qstart = math.max(guide.startlevel-WoWProDB.profile.Selector.QuestHard,math.floor(guide.level))
+	    guide.qstart = qstart
 		table.insert(guides, {
 			GID = guidID,
 			guide = guide,
 			Zone = WoWPro:GetGuideName(guidID),
 			Author = guide.author,
-			Range = "("..tostring(guide.startlevel).."-"..tostring(guide.endlevel)..")",
+			Range = "("..tostring(qstart).."-"..tostring(guide.endlevel)..")",
 			Progress = progress, 
-			startlevel = guide.startlevel,
+			startlevel = qstart,
 		})
 	end
 end
@@ -79,7 +81,7 @@ function WoWPro.Leveling.GuideTooltipInfo(row, tooltip, guide)
     else
         GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
     end
-    GameTooltip:AddDoubleLine("Start Level:",tostring(guide.startlevel),1,1,1,unpack(WoWPro.LevelColor(guide.startlevel)))
+    GameTooltip:AddDoubleLine("Start Level:",tostring(guide.qstart),1,1,1,unpack(WoWPro.LevelColor(guide.qstart)))
     GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide)))
     GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
 end

@@ -359,6 +359,7 @@ function WoWPro:OnInitialize()
     WoWPro.GuideLoaded = false
     WoWPro.EnableGrail = WoWProCharDB.EnableGrail or True
     WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
+    WoWProDB.profile.Selector.QuestHard = WoWProDB.profile.Selector.QuestHard or 0
     WoWPro.inhibit_oldQuests_update = false
 end
 
@@ -846,6 +847,7 @@ function WoWPro.LevelColor(guide)
     end
     if type(guide) == "table" then
 --         WoWPro:dbp("WoWPro.LevelColor(%s)",guide.GID)
+        playerLevel = playerLevel + WoWProDB.profile.Selector.QuestHard
         if (playerLevel < guide['startlevel']) then
             return {WoWPro:QuestColor(guide['level'] or guide['endlevel'])}
         end

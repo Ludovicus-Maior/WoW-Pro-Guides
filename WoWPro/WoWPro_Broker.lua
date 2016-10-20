@@ -717,7 +717,7 @@ function WoWPro.NextStep(k,i)
         -- Checking level based completion --
         if WoWPro.level and WoWPro.level[k] then
             local level = tonumber(WoWPro.level[k])
-            if WoWPro.action[k] == "L" and level <= UnitLevel("player") then
+            if WoWPro.action[k] == "L" and (level - WoWProDB.profile.Selector.QuestHard) <= UnitLevel("player") then
                 skip = true
                 WoWPro.CompleteStep(k, "NextStep(): Completed L step because player level is high enough.")
                 break
