@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-10-22 23:10
+-- Who: Ludovicus
+-- Log: Zone updates and play through tweaks.
+
+-- URL: http://wow-pro.com/node/3678/revisions/27945/view
 -- Date: 2016-10-21 12:36
 -- Who: Ludovicus
 -- Log: Play-though tweaks
@@ -157,17 +162,17 @@ $ Treasure Chest|QID|39812|M|39.53,57.44|N|Loot for a bit of treasure and resour
 T Lifespring Cavern|QID|39661|M|38.40,61.20|N|To Jale Rivermane.|
 A Balance of Elements|QID|39488|M|38.40,61.20|N|From Jale Rivermane.|PRE|39661|
 A Invading Spelunkers|QID|39489|M|38.40,61.20|N|From Jale Rivermane.|PRE|39661|
-C Invading Spelunkers|QID|39489|M|36.76,59.16|Z|1024/20|S|N|Kill Drogbar or Earth Furies.|
-C Balance of Elements|QID|39488|M|49.08,48.14|Z|1024/21|NC|N|Pick up the crystals off of the ground and they also drop from the Drogbar.|
-C Invading Spelunkers|QID|39489|M|49.08,48.14|Z|1024/21|US|N|Finish killing Drogbar or Earth Furies.|
-T Invading Spelunkers|QID|39489|M|49.08,48.14|Z|1024/21|N|To Jale Rivermane who is following you around.|
-T Balance of Elements|QID|39488|M|49.08,48.14|Z|1024/21|N|To Jale Rivermane.|
-A Crystal Fury|QID|39487|M|49.08,48.14|Z|1024/21|N|From Jale Rivermane.|PRE|39488+39489|
-C Crystal Fury|QID|39487|M|43.84,27.29|Z|1024/21|T|Gelmogg|N|Gelmogg slain|
-T Crystal Fury|QID|39487|M|43.84,27.29|Z|1024/21|N|To Jale Rivermane.|
-A High Water|QID|39498|M|43.84,27.29|Z|1024/21|N|From Jale Rivermane.|PRE|39487|
-$ Glimmering Treasure Chest|QID|40476|M|72.79,55.81|CS|Z|1024/21|N|Go down these stairs for a Glimmering Treasure chest and a shortcut out of the caverns.|RANK|2|
-R Whitewater Wash|QID|39498|M|60.75,18.07;73.25,81.73|CS|Z|1024/20|N|Go down these stairs for a shortcut out of the caverns.|RANK|-1|
+C Invading Spelunkers|QID|39489|M|36.76,59.16|Z|Highmountain/20|S|N|Kill Drogbar or Earth Furies.|
+C Balance of Elements|QID|39488|M|49.08,48.14|Z|Highmountain/21|NC|N|Pick up the crystals off of the ground and they also drop from the Drogbar.|
+C Invading Spelunkers|QID|39489|M|49.08,48.14|Z|Highmountain/21|US|N|Finish killing Drogbar or Earth Furies.|
+T Invading Spelunkers|QID|39489|M|49.08,48.14|Z|Highmountain/21|N|To Jale Rivermane who is following you around.|
+T Balance of Elements|QID|39488|M|49.08,48.14|Z|Highmountain/21|N|To Jale Rivermane.|
+A Crystal Fury|QID|39487|M|49.08,48.14|Z|Highmountain/21|N|From Jale Rivermane.|PRE|39488+39489|
+C Crystal Fury|QID|39487|M|43.84,27.29|Z|Highmountain/21|T|Gelmogg|N|Gelmogg slain|
+T Crystal Fury|QID|39487|M|43.84,27.29|Z|Highmountain/21|N|To Jale Rivermane.|
+A High Water|QID|39498|M|43.84,27.29|Z|Highmountain/21|N|From Jale Rivermane.|PRE|39487|
+$ Glimmering Treasure Chest|QID|40476|M|72.79,55.81|CS|Z|Highmountain/21|N|Go down these stairs for a Glimmering Treasure chest and a shortcut out of the caverns.|RANK|2|
+R Whitewater Wash|QID|39498|M|60.75,18.07;73.25,81.73|CS|Z|Highmountain/20|N|Go down these stairs for a shortcut out of the caverns.|RANK|-1|
 R Riverbend|QID|39498|M|41.97,66.70|N|Continue on the road until you get to Riverbend.|
 T High Water|QID|39498|M|40.36,71.70|N|To Jale Rivermane.|
 A The Underking Comes|QID|42104|M|40.36,71.70|N|From Jale Rivermane.|PRE|39498|
@@ -185,11 +190,11 @@ C The Drogbar|QID|39026|M|41.26,70.97|US|N|Drogbar in Riverbend defeated.|
 T Grasp of the Underking|QID|39025|M|41.29,72.60|N|To Warbrave Oro.|
 T The Drogbar|QID|39026|M|41.29,72.60|N|To Warbrave Oro.|
 A Bitestone Enclave|QID|39043|M|41.29,72.60|N|From Warbrave Oro.|PRE|39026|
-C Bitestone Enclave|QID|39043|M|84.05,46.57|Z|1024/5|N|Kill Basalisks and Drogbar.|
-T Bitestone Enclave|QID|39043|M|47.32,44.53|Z|1024/5|N|To Warbrave Oro.|
-A Dargrul and the Hammer|QID|39027|M|47.32,44.53|Z|1024/5|N|From Warbrave Oro.|PRE|39043|
-C Dargrul and the Hammer|QID|39027|M|66.48,49.66|QO|1|Z|1024/5|NC|N|Follow Warbrave Oro to confront Dargrul. When he encases you in rock, click on it to break free.|
-C Dargrul and the Hammer|QID|39027|M|15.25,26.78|QO|2|Z|1024/5|NC|N|There is a Treasure chest up where Dargrul was.  You will have to kill 15-20 mobs to get it, so I'm not sure its worth it.  Run out of the cavern.|
+C Bitestone Enclave|QID|39043|M|84.05,46.57|Z|Highmountain/5|N|Kill Basalisks and Drogbar.|
+T Bitestone Enclave|QID|39043|M|47.32,44.53|Z|Highmountain/5|N|To Warbrave Oro.|
+A Dargrul and the Hammer|QID|39027|M|47.32,44.53|Z|Highmountain/5|N|From Warbrave Oro.|PRE|39043|
+C Dargrul and the Hammer|QID|39027|M|66.48,49.66|QO|1|Z|Highmountain/5|NC|N|Follow Warbrave Oro to confront Dargrul. When he encases you in rock, click on it to break free.|
+C Dargrul and the Hammer|QID|39027|M|15.25,26.78|QO|2|Z|Highmountain/5|NC|N|There is a Treasure chest up where Dargrul was.  You will have to kill 15-20 mobs to get it, so I'm not sure its worth it.  Run out of the cavern.|
 f Sylvan Falls|QID|39025|M|35.88,65.93|N|Run past the turn in because it goes to an escort quest. Get the flightpath at Roren Longshadow.|
 $ Treasure Chest|QID|40488|M|36.61,62.13|N|Loot for a bit of treasure and resources.|RANK|2|
 T Dargrul and the Hammer|QID|39027|M|38.60,68.44|N|To Spiritwalker Ebonhorn.|
@@ -201,16 +206,16 @@ T Get to High Ground|QID|38909|M|54.67,63.02|Z|Highmountain/6|N|To Mayla Highmou
 A The Bloodtotem Tribe|QID|38912|M|54.67,63.02|Z|Highmountain/6|N|From Mayla Highmountain.|PRE|38909|
 A The Skyhorn Tribe|QID|38913|M|54.67,63.02|Z|Highmountain/6|N|From Mayla Highmountain.|PRE|38909|
 A A Walk With the Spirits|QID|40515|M|54.67,63.02|Z|Highmountain/6|N|From Mayla Highmountain.|PRE|38909|
-$ Treasure Chest|QID|40471|M|62.99,67.86|Z|ThunderTotem|N|Jump in the water and loot for a bit of treasure and resources.|RANK|2|
+$ Treasure Chest|QID|40471|M|62.04,67.25|Z|ThunderTotem|N|Jump in the water and loot for a bit of treasure and resources.|RANK|2|
 T A Walk With the Spirits|QID|40515|M|74.73,74.63|Z|Highmountain/6|N|To Spiritwalker Ebonhorn.|
 A The Story of Huln|QID|40167|M|74.73,74.63|Z|Highmountain/6|N|From Spiritwalker Ebonhorn.|PRE|40515|
 C The Story of Huln|QID|40167|M|74.73,74.63|Z|Highmountain/6|CHAT|N|The Story of Huln witnessed.|
 T The Story of Huln|QID|40167|M|74.73,74.63|Z|Highmountain/6|N|To Spiritwalker Ebonhorn.|
 A To See the Past|QID|40520|M|74.73,74.63|Z|Highmountain/6|N|From Spiritwalker Ebonhorn.|PRE|40167|
-R Path of Sky|QID|40520|M|50.50,38.94|Z|Highmountain/6|N|Run out this doorway.|
+R Path of Sky|QID|40520|M|50.50,38.94|CC|Z|Highmountain/6|N|Run out this doorway.|
 C To See the Past|QID|40520|M|35.31,23.53|Z|ThunderTotem|QO|1|NC|N|Buy the bottle of Airspark from Lanna Skyspark.|
 C To See the Past|QID|40520|M|57.76,10.92|Z|ThunderTotem|QO|2|NC|N|Click on the sparkling place at the base of the falls.|
-K Kill Sekhan|QID|40681|M|45.15,56.30|T|Sekhan|N|Rare to kill for treasure and resources.|RANK|2|
+K Kill Sekhan|QID|40681|QO|1|M|45.15,56.30|T|Sekhan|N|Rare to kill for treasure and resources.|RANK|2|
 C To See the Past|QID|40520|M|45.17,53.42|QO|3|N|Click on the crystal here and then fight the Darkshard Crystal that appears.|
 T To See the Past|QID|40520|M|74.92,75.00|Z|Highmountain/6|N|To Spiritwalker Ebonhorn.|
 
@@ -238,41 +243,42 @@ A Mountainstrider Round-Up|QID|42596|M|53.92,45.84|Z|ThunderTotem|N|From Liza Ga
 A Moozy's Reunion|QID|42590|M|51.89,55.00;45.86,54.99|CS|Z|ThunderTotem|N|From Sella Waterwise.|RANK|2|PRE|39572|
 C Moozy's Reunion|QID|42590|QO|1|M|53.37,20.63|Z|ThunderTotem|N|Ethel can be found in a hut.|RANK|2|
 C Mountainstrider Round-Up|QID|42596|M|53.37,20.63;53.58,47.28|CN|Z|ThunderTotem|NC|N|Ride a mountainstrider back to the stablemaster. Then do it again two more times.|RANK|2|
-C Moozy's Reunion|QID|42590|QO|2|M|53.98,45.76|Z|ThunderTotem|N|By the time you have all the mountainstriders safely back to the stables, Ethel made it home.|RANK|2|
 T Mountainstrider Round-Up|QID|42596|M|53.98,45.76|Z|ThunderTotem|N|To Liza Galestride.|RANK|2|
+C Moozy's Reunion|QID|42590|QO|2|M|53.98,45.76|Z|ThunderTotem|N|Now go back and bring Ethel to Moozy. Slowly or she will get cranky!|RANK|2|
 T Moozy's Reunion|QID|42590|M|45.93,54.93|Z|ThunderTotem|N|To Sella Waterwise.|RANK|2|
+
 C Ceremonial Drums|QID|42622|M|52.99,57.83|Z|ThunderTotem|QO|3|N|Kill the drumtakers to get the  Small Ceremonial Drums|RANK|2|
 C Ceremonial Drums|QID|42622|M|45.10,65.09|Z|ThunderTotem|US|N|Finish collecting drums.|RANK|2|
 T Secrets of Highmountain|QID|38916|M|44.87,65.72|N|To Spiritwalker Ebonhorn.|
 
 A The Path of Huln|QID|39575|M|44.87,65.72|N|From Spiritwalker Ebonhorn.|PRE|38916|
 $ Treasure Chest|QID|40510|M|43.78,72.72|N|Loot for a bit of treasure and resources.|RANK|2|
-C The Path of Huln|QID|39575|M|45.63,71.15|Z|1024/29|NC|QO|1|N|Escort Spiritwalker Ebonhorn to the Path of Huln.|
-C The Path of Huln|QID|39575|M|46.50,70.98|Z|1024/29|NC|QO|2|N|Jump in to the Vault.|
-T The Path of Huln|QID|39575|M|47.35,70.26|Z|1024/29|N|To Spiritwalker Ebonhorn.|
-A Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|1024/29|N|Auto accepted when you enter the area.|LVL|-109|RANK|2|
-C Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|1024/29|S|N|Kill stuff, (like you have a choice).Note, you can ride your mount in here!|RANK|2|
-A In Defiance of Deathwing|QID|40219|M|47.35,70.26|Z|1024/29|N|From Spiritwalker Ebonhorn.|PRE|39575|
-C In Defiance of Deathwing|QID|40219|M|38.71,47.66|Z|1024/29|QO|1|NC|N|Click on brazier to recieve Vision of Scales.|
-C In Defiance of Deathwing|QID|40219|M|51.50,30.62|Z|1024/29|QO|2|NC|N|Click on the brazier to see Vision of the Hammer.|
-$ Glimmering Treasure Chest|QID|39606|M|52.04,28.79|Z|1024/29|N|Step on the Titan Waygate, to be teleported above, where you will see another brazier, Click on it to see a short vignette. After that, a chest appears in front of the Waygate before you leave the upper area. Loot for treasure and resources.|RANK|2|
-$ Small Treaure Chest|QID|40508|M|49.52,40.08;60.82,54.91|CS|Z|1024/29|N|Loot for a bit of treasure and resources.|RANK|2|
-C In Defiance of Deathwing|QID|40219|M|49.37,54.76|Z|1024/29|QO|3|NC|N|Click on the brazier to see Vision of Hope.|
-T In Defiance of Deathwing|QID|40219|M|49.90,55.10|Z|1024/29|N|To Spiritwalker Ebonhorn who is following you.|
-A Titanic Showdown|QID|39578|M|49.90,55.10|Z|1024/29|N|From Spiritwalker Ebonhorn.|PRE|40219|
-C Titanic Showdown|QID|39578|QO|1|M|53.91,63.14;48.04,70.53|CS|Z|1024/29|NC|N|Click on the brazier to see Vision of Deathwing.|
-C Titanic Showdown|QID|39578|QO|2|M|48.04,70.53|Z|1024/29|N|Fight Vision of Deathwing.|
-T Titanic Showdown|QID|39578|M|48.50,71.21|Z|1024/29|N|To Spiritwalker Ebonhorn.|
-A An Ancient Secret|QID|39577|M|48.50,71.12|Z|1024/29|N|From Spiritwalker Ebonhorn.|PRE|39578|
-C An Ancient Secret|QID|39577|M|59.67,77.13|Z|1024/29|QO|1|NC|N|Light this brazier to witness Vision of Ebon Wings.|
-C An Ancient Secret|QID|39577|M|61.52,72.74|Z|1024/29|QO|2|N|Defend Huln|
-C An Ancient Secret|QID|39577|M|61.52,72.74|Z|1024/29|QO|3|NC|N|Listen to Ebonhorn|
-T An Ancient Secret|QID|39577|M|61.52,72.74|Z|1024/29|N|To Ebyssian.|
-A The Backdoor|QID|39579|M|61.52,72.74|Z|1024/29|N|From Ebyssian.|PRE|39577|
-$ Treasure Chest|QID|40509|M|40.26,50.09|Z|1024/29|N|Backtrack a little ways to pick up this chest for treasure and resources.|RANK|2|
-R The Backdoor|QID|39579|M|49.71,86.94|CC|Z|1024/29|N|The backdoor is this way. Mount up and ride out.|
-C Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|1024/29|US|N|If you somehow managed to not finish this, kill a few more.|RANK|2|
-t Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|1024/29|N|Auto turned in upon completion.|RANK|2|
+C The Path of Huln|QID|39575|M|45.63,71.15|Z|Highmountain/29|NC|QO|1|N|Escort Spiritwalker Ebonhorn to the Path of Huln.|
+C The Path of Huln|QID|39575|M|46.50,70.98|Z|Highmountain/29|NC|QO|2|N|Jump in to the Vault.|
+T The Path of Huln|QID|39575|M|43.20,28.14|Z|Highmountain/29|N|To Spiritwalker Ebonhorn.|
+A Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|Highmountain/29|N|Auto accepted when you enter the area.|LVL|-109|RANK|2|
+C Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|Highmountain/29|S|N|Kill stuff, (like you have a choice).Note, you can ride your mount in here!|RANK|2|
+A In Defiance of Deathwing|QID|40219|M|47.35,70.26|Z|Highmountain/29|N|From Spiritwalker Ebonhorn.|PRE|39575|
+C In Defiance of Deathwing|QID|40219|M|38.71,47.66|Z|Highmountain/29|QO|1|NC|N|Click on brazier to recieve Vision of Scales.|
+C In Defiance of Deathwing|QID|40219|M|51.50,30.62|Z|Highmountain/29|QO|2|NC|N|Click on the brazier to see Vision of the Hammer.|
+$ Glimmering Treasure Chest|QID|39606|M|59.30,41.53|Z|Highmountain/29|N|Step on the Titan Waygate, to be teleported above, where you will see another brazier, Click on it to see a short vignette. After that, a chest appears in front of the Waygate before you leave the upper area. Loot for treasure and resources.|RANK|2|
+$ Small Treaure Chest|QID|40508|M|49.52,40.08;60.82,54.91|CS|Z|Highmountain/29|N|Loot for a bit of treasure and resources.|RANK|2|
+C In Defiance of Deathwing|QID|40219|M|49.37,54.76|Z|Highmountain/29|QO|3|NC|N|Click on the brazier to see Vision of Hope.|
+T In Defiance of Deathwing|QID|40219|M|49.90,55.10|Z|Highmountain/29|N|To Spiritwalker Ebonhorn who is following you.|
+A Titanic Showdown|QID|39578|M|49.90,55.10|Z|Highmountain/29|N|From Spiritwalker Ebonhorn.|PRE|40219|
+C Titanic Showdown|QID|39578|QO|1|M|53.91,63.14;48.04,70.53|CS|Z|Highmountain/29|NC|N|Click on the brazier to see Vision of Deathwing.|
+C Titanic Showdown|QID|39578|QO|2|M|48.04,70.53|Z|Highmountain/29|N|Fight Vision of Deathwing.|
+T Titanic Showdown|QID|39578|M|49.17,72.27|Z|Highmountain/29|N|To Spiritwalker Ebonhorn.|
+A An Ancient Secret|QID|39577|M|49.17,72.27|Z|Highmountain/29|N|From Spiritwalker Ebonhorn.|PRE|39578|
+C An Ancient Secret|QID|39577|M|59.67,77.13|Z|Highmountain/29|QO|1|NC|N|Light this brazier to witness Vision of Ebon Wings.|
+C An Ancient Secret|QID|39577|M|61.52,72.74|Z|Highmountain/29|QO|2|N|Defend Huln|
+C An Ancient Secret|QID|39577|M|61.52,72.74|Z|Highmountain/29|QO|3|NC|N|Listen to Ebonhorn|
+T An Ancient Secret|QID|39577|M|61.52,72.74|Z|Highmountain/29|N|To Ebyssian.|
+A The Backdoor|QID|39579|M|61.52,72.74|Z|Highmountain/29|N|From Ebyssian.|PRE|39577|
+$ Treasure Chest|QID|40509|M|40.26,50.09|Z|Highmountain/29|N|Backtrack a little ways to pick up this chest for treasure and resources.|RANK|2|
+R The Backdoor|QID|39579|M|49.71,86.94|CC|Z|Highmountain/29|N|The backdoor is this way. Mount up and ride out.|
+C Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|Highmountain/29|US|N|If you somehow managed to not finish this, kill a few more.|RANK|2|
+t Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|Highmountain/29|N|Auto turned in upon completion.|RANK|2|
 T The Backdoor|QID|39579|M|47.48,84.74|N|To Mayla Highmountain.|
 A The High Chieftain|QID|39580|M|47.47,84.73|N|From Mayla Highmountain.|PRE|39579|
 f Obsidian Overlook|QID|39579|M|47.26,84.64|N|At Chofa Nighthoof.|
@@ -370,21 +376,21 @@ T Oh, the Clawdacity!|QID|40230|M|49.57,15.96|N|To King Mrgl-Mrgl.|RANK|3|
 
 F Nesingwary|QID|38912|M|41.91,10.40|N|At Steven Nelson. Fly back to Nesingwary to continue on our way to Cliff's Edge.|RANK|3|
 R Mucksnout Den|QID|39764|M|41.48,46.76|N|Run to Mucksnout Den. (you can be mounted in the cave)|RANK|2|
-A Shiny, But Deadly|QID|39764|M|51.86,81.25|Z|1024/16|N|From Apprentice Rosalyn.|RANK|2|
-A The Soulkeeper's Fate|QID|39773|M|51.86,81.25|Z|1024/16|N|From Apprentice Rosalyn.|RANK|2|
-C Shiny, But Deadly|QID|39764|M|51.49,15.02|Z|1024/16|S|N|Kill kobolds to sometimes collect Soul Chambers.|RANK|2|
-C The Soulkeeper's Fate|QID|39773|M|30.90,62.25|Z|1024/16|NC|N|Find Soulkeeper Uriah.|RANK|2|
-C Shiny, But Deadly|QID|39764|M|51.49,15.02|Z|1024/16|US|N|Kill kobolds to sometimes collect Soul Chambers.|RANK|2|
-T Shiny, But Deadly|QID|39764|M|30.65,62.80|Z|1024/16|N|To Apprentice Rosalyn.|RANK|2|
-T The Soulkeeper's Fate|QID|39773|M|30.65,62.80|Z|1024/16|N|To Apprentice Rosalyn.|RANK|2|
-A Demon Detainment|QID|39774|M|30.65,62.80|Z|1024/16|N|From Apprentice Rosalyn.|RANK|2|PRE|39764+39773|
-C Demon Detainment|QID|39774|M|42.26,41.24|Z|1024/16|QO|3|T|Xorias|N|Xorias detained.|RANK|2|
-C Demon Detainment|QID|39774|M|55.69,13.48|Z|1024/16|QO|1|T|Ezerak|N|Ezerak detained.|RANK|2|
-$ Treasure Chest|QID|40494|M|60.81,25.14|Z|1024/16|N|Loot for a bit of treasure and resources.|RANK|2|
-C Demon Detainment|QID|39774|M|30.16,83.06|Z|1024/16|QO|2|T|Lozar|N|Lozar detained.|RANK|2|
-T Demon Detainment|QID|39774|M|30.39,82.66|Z|1024/16|N|To Apprentice Rosalyn who is with you.|RANK|2|
+A Shiny, But Deadly|QID|39764|M|51.86,81.25|Z|Highmountain/16|N|From Apprentice Rosalyn.|RANK|2|
+A The Soulkeeper's Fate|QID|39773|M|51.86,81.25|Z|Highmountain/16|N|From Apprentice Rosalyn.|RANK|2|
+C Shiny, But Deadly|QID|39764|M|51.49,15.02|Z|Highmountain/16|S|N|Kill kobolds to sometimes collect Soul Chambers.|RANK|2|
+C The Soulkeeper's Fate|QID|39773|M|30.90,62.25|Z|Highmountain/16|NC|N|Find Soulkeeper Uriah.|RANK|2|
+C Shiny, But Deadly|QID|39764|M|51.49,15.02|Z|Highmountain/16|US|N|Kill kobolds to sometimes collect Soul Chambers.|RANK|2|
+T Shiny, But Deadly|QID|39764|M|30.65,62.80|Z|Highmountain/16|N|To Apprentice Rosalyn.|RANK|2|
+T The Soulkeeper's Fate|QID|39773|M|30.65,62.80|Z|Highmountain/16|N|To Apprentice Rosalyn.|RANK|2|
+A Demon Detainment|QID|39774|M|30.65,62.80|Z|Highmountain/16|N|From Apprentice Rosalyn.|RANK|2|PRE|39764+39773|
+C Demon Detainment|QID|39774|M|42.26,41.24|Z|Highmountain/16|QO|3|T|Xorias|N|Xorias detained.|RANK|2|
+C Demon Detainment|QID|39774|M|55.69,13.48|Z|Highmountain/16|QO|1|T|Ezerak|N|Ezerak detained.|RANK|2|
+$ Treasure Chest|QID|40494|M|60.81,25.14|Z|Highmountain/16|N|Loot for a bit of treasure and resources.|RANK|2|
+C Demon Detainment|QID|39774|M|30.16,83.06|Z|Highmountain/16|QO|2|T|Lozar|N|Lozar detained.|RANK|2|
+T Demon Detainment|QID|39774|M|30.39,82.66|Z|Highmountain/16|N|To Apprentice Rosalyn who is with you.|RANK|2|
 
-R Fields of An'she|QID|38912|M|45.30,83.99;32.66,60.58|CS|Z|1024/16|N|Run thru and out the other side of Mucksnout Den to the Fields of An'she.|
+R Fields of An'she|QID|38912|M|45.30,83.99;32.66,60.58|CS|Z|Highmountain/16|N|Run thru and out the other side of Mucksnout Den to the Fields of An'she.|
 A Witches of the Sky-Bonus Objective|QID|39371|M|38.87,39.33|LVL|-109|RANK|2|
 f The Witchwood|QID|38912|M|38.34,39.23|N|At Rafat Smokehoof.|
 T The Bloodtotem Tribe|QID|38912|M|39.42,36.96|N|To Oakin Ironbull.|
@@ -409,15 +415,15 @@ A An Audience with Torok|QID|39374|M|39.41,36.96|N|From Oakin Ironbull.|PRE|3937
 T An Audience with Torok|QID|39374|M|39.18,34.53|N|To Oakin Ironbull.|
 A Cave of the Blood Trial|QID|39455|M|39.18,34.53|N|From Oakin Ironbull.|PRE|39374|
 $ Small Treasure Chest|QID|40477|M|37.35,33.80|N|Loot for a bit of treasure and resources.|RANK|2|
-C Cave of the Blood Trial|QID|39455|M|54.43,28.76|Z|1024/8|QO|1|NC|N|Click on the alter.|
-C Cave of the Blood Trial|QID|39455|M|58.19,28.68|Z|1024/8|QO|2|N|Kill the Bloodtotem Warmonger that shows up.|
-T Cave of the Blood Trial|QID|39455|M|59.79,32.82|Z|1024/8|N|To Torok Bloodtotem.|
-A Rite of Blood|QID|39860|M|59.79,32.82|Z|1024/8|N|From Torok Bloodtotem.|PRE|39455|
-C Rite of Blood|QID|39860|M|41.08,80.86|Z|1024/8|QO|1|NC|N|Approach Navarrogg to Begin the Ritual.|
-C Rite of Blood|QID|39860|M|40.21,82.36|Z|1024/8|QO|2|N|Periodically, Navarrogg will tell you to stand on a rune on the floor.  Do it.|
-T Rite of Blood|QID|39860|M|41.16,85.62|Z|1024/8|N|To Navarrogg.|
-A Rock Troll in a Hard Place|QID|39381|M|41.16,85.62|Z|1024/8|N|From Navarrogg.|PRE|39860|
-C Rock Troll in a Hard Place|QID|39381|M|40.14,84.23|Z|1024/8|CHAT|QO|1|N|Speak with Navarrogg.|
+C Cave of the Blood Trial|QID|39455|M|54.43,28.76|Z|Highmountain/8|QO|1|NC|N|Click on the alter.|
+C Cave of the Blood Trial|QID|39455|M|58.19,28.68|Z|Highmountain/8|QO|2|N|Kill the Bloodtotem Warmonger that shows up.|
+T Cave of the Blood Trial|QID|39455|M|59.79,32.82|Z|Highmountain/8|N|To Torok Bloodtotem.|
+A Rite of Blood|QID|39860|M|59.79,32.82|Z|Highmountain/8|N|From Torok Bloodtotem.|PRE|39455|
+C Rite of Blood|QID|39860|M|41.08,80.86|Z|Highmountain/8|QO|1|NC|N|Approach Navarrogg to Begin the Ritual.|
+C Rite of Blood|QID|39860|M|40.21,82.36|Z|Highmountain/8|QO|2|N|Periodically, Navarrogg will tell you to stand on a rune on the floor.  Do it.|
+T Rite of Blood|QID|39860|M|41.16,85.62|Z|Highmountain/8|N|To Navarrogg.|
+A Rock Troll in a Hard Place|QID|39381|M|41.16,85.62|Z|Highmountain/8|N|From Navarrogg.|PRE|39860|
+C Rock Troll in a Hard Place|QID|39381|M|40.14,84.23|Z|Highmountain/8|CHAT|QO|1|N|Speak with Navarrogg.|
 T Rock Troll in a Hard Place|QID|39381|M|45.20,32.49|N|To Navarrogg.|
 A Pet Rocks|QID|39391|M|45.20,32.49|N|From Navarrogg.|PRE|39381|
 A Stonedark Crystal|QID|39425|M|45.20,32.49|N|From Navarrogg.|PRE|39381|
@@ -449,26 +455,26 @@ t Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto tur
 
 $ Small Treasure Chest|QID|44280|M|44.72,25.00;42.79,23.58;46.36,21.63|CS|N|Run up the mountain trail for a great view and to find this chest which contains a bit of loot and treasure. If you don't have a kite/glider, run back down.|RANK|3|
 R Stonedark Grotto|QID|40229|M|44.39,26.84;42.61,25.54|CS|N|Run to Navarrogg's new hang-out. (Stonedark Grotto).|
-T Step into the Dark|QID|40229|M|40.32,52.21|Z|1024/31|N|To Navarrogg.|
-A Unexpected Allies|QID|39456|M|40.32,52.21|Z|1024/31|N|From Navarrogg.|PRE|40229|
-A You Lift, Brul?|QID|39440|M|52.50,62.81|Z|1024/31|N|From Damrul the Stronk.|PRE|40229|
-C You Lift, Brul?|QID|39440|M|52.40,51.63|Z|1024/31|QO|1|NC|N|Carry Weights to Statue.|
-C You Lift, Brul?|QID|39440|M|52.47,61.09|Z|1024/31|QO|2|NC|N|Return Weights to Damrul.|
-T You Lift, Brul?|QID|39440|M|52.39,62.72|Z|1024/31|N|To Damrul the Stronk.|
-A Stonedark Relics|QID|39439|M|52.39,62.72|Z|1024/31|N|From Damrul the Stronk.|PRE|39440|
-A Guhruhlruhlruh|QID|39438|M|52.39,62.72|Z|1024/31|N|From Damrul the Stronk.|PRE|39440|
-A Deep in the Cavern|QID|39437|M|52.39,62.72|Z|1024/31|N|From Damrul the Stronk.|PRE|39440|
-C Deep in the Cavern|QID|39437|M|75.90,57.93|Z|1024/31|S|N|Kill Deepcavern Murlocs as you go.|
-C Stonedark Relics|QID|39439|M|76.83,53.43|Z|1024/31|QO|1|NC|N|Pick up the Chains of Resistance.|
-$ Achievement/Pet Opportunity|ACH|10626|M|67.31,66.32|Z|1024/31|NC|N|STAND (still) in front of the snails that are NOT "Zoom" to help Zoom win the race. Race recurs every few minutes.|RANK|2|
-C Stonedark Relics|QID|39439|M|73.58,75.99|Z|1024/31|QO|2|NC|N|Pick up the Wheel of Fortitude.|
-C Stonedark Relics|QID|39439|M|54.20,73.10|Z|1024/31|QO|3|N|Pick up the Rod of Bearing.|
-C Guhruhlruhlruh|QID|39438|M|47.09,84.53|Z|1024/31|T|Guhruhlruhlruh slain|N|Kill Guhruhlruhlruh.|
-$ Treasure Chest|QID|40478|M|36.09,72.37|Z|1024/31|N|Continue past Gurh... to find this treasure chest. Loot for a bit of treasure and resources.|RANK|2|
-C Deep in the Cavern|QID|39437|M|75.90,57.93|Z|1024/31|US|N|Finish killing the Deepcavern Murlocs.|
-T Stonedark Relics|QID|39439|M|52.50,62.81|Z|1024/31|N|To Damrul the Stronk.|
-T Guhruhlruhlruh|QID|39438|M|52.50,62.81|Z|1024/31|N|To Damrul the Stronk.|
-T Deep in the Cavern|QID|39437|M|52.50,62.81|Z|1024/31|N|To Damrul the Stronk.|
+T Step into the Dark|QID|40229|M|40.32,52.21|Z|Highmountain/31|N|To Navarrogg.|
+A Unexpected Allies|QID|39456|M|40.32,52.21|Z|Highmountain/31|N|From Navarrogg.|PRE|40229|
+A You Lift, Brul?|QID|39440|M|52.50,62.81|Z|Highmountain/31|N|From Damrul the Stronk.|PRE|40229|
+C You Lift, Brul?|QID|39440|M|52.40,51.63|Z|Highmountain/31|QO|1|NC|N|Carry Weights to Statue.|
+C You Lift, Brul?|QID|39440|M|52.47,61.09|Z|Highmountain/31|QO|2|NC|N|Return Weights to Damrul.|
+T You Lift, Brul?|QID|39440|M|52.39,62.72|Z|Highmountain/31|N|To Damrul the Stronk.|
+A Stonedark Relics|QID|39439|M|52.39,62.72|Z|Highmountain/31|N|From Damrul the Stronk.|PRE|39440|
+A Guhruhlruhlruh|QID|39438|M|52.39,62.72|Z|Highmountain/31|N|From Damrul the Stronk.|PRE|39440|
+A Deep in the Cavern|QID|39437|M|52.39,62.72|Z|Highmountain/31|N|From Damrul the Stronk.|PRE|39440|
+C Deep in the Cavern|QID|39437|M|75.90,57.93|Z|Highmountain/31|S|N|Kill Deepcavern Murlocs as you go.|
+C Stonedark Relics|QID|39439|M|76.83,53.43|Z|Highmountain/31|QO|1|NC|N|Pick up the Chains of Resistance.|
+$ Achievement/Pet Opportunity|ACH|10626|M|67.31,66.32|Z|Highmountain/31|NC|N|STAND (still) in front of the snails that are NOT "Zoom" to help Zoom win the race. Race recurs every few minutes.|RANK|2|
+C Stonedark Relics|QID|39439|M|73.58,75.99|Z|Highmountain/31|QO|2|NC|N|Pick up the Wheel of Fortitude.|
+C Stonedark Relics|QID|39439|M|54.20,73.10|Z|Highmountain/31|QO|3|N|Pick up the Rod of Bearing.|
+C Guhruhlruhlruh|QID|39438|M|47.09,84.53|Z|Highmountain/31|T|Guhruhlruhlruh slain|N|Kill Guhruhlruhlruh.|
+$ Treasure Chest|QID|40478|M|36.09,72.37|Z|Highmountain/31|N|Continue past Gurh... to find this treasure chest. Loot for a bit of treasure and resources.|RANK|2|
+C Deep in the Cavern|QID|39437|M|75.90,57.93|Z|Highmountain/31|US|N|Finish killing the Deepcavern Murlocs.|
+T Stonedark Relics|QID|39439|M|52.50,62.81|Z|Highmountain/31|N|To Damrul the Stronk.|
+T Guhruhlruhlruh|QID|39438|M|52.50,62.81|Z|Highmountain/31|N|To Damrul the Stronk.|
+T Deep in the Cavern|QID|39437|M|52.50,62.81|Z|Highmountain/31|N|To Damrul the Stronk.|
 
 R Rockcrawler Chasm|QID|38913|M|48.11,33.86|N|Out of Stonedark Grotto, thru Bloodhunt Highland and into Rockcrawler Chasm.|
 A Fledgling Worm Guts|QID|40069|M|50.89,36.58|N|From Oren Windstrider.|RANK|2|
