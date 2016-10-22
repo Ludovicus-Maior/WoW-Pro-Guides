@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2016-10-22 06:58
+-- Who: Emmaleah
+-- Log: Add next two Quests from Lights Heart (In my father's house/Destiny Unfulfilled)
+
+-- URL: http://wow-pro.com/node/3673/revisions/27917/view
 -- Date: 2016-10-15 01:02
 -- Who: Emmaleah
 -- Log: Improvements in the Light's Heart questline - particularly in Black Rook Hold Scenario.
@@ -295,7 +300,7 @@ C A Falling Star|QID|44257|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill 
 U Dalaran Hearthstone|QID|44257|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
 R Chamber of the Guardian|QID|44257|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|
 T A Falling Star|QID|44257|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
-A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar. Take his portal to enter a scenario.|PRE|42457|
+A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar.|PRE|42457|
 P The Exodar|QID|44004|M|28.69,33.55|Z|Aegwynn's Gallery@Dalaran70|N|Take Khadgar's portal to enter a scenario.|ACTIVE|44004|
 C The Prophet and the Butcher|QID|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
 C In Defense of The Exodar|QID|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
@@ -345,8 +350,21 @@ C True Sacrifice|QID|44479|SO|5|M|42.7,53.03|Z|BlackRookHoldScenario|N|You have 
 C When Good Men Do Nothing|QID|44479|SO|6;1|M|42.8,48.4|Z|BlackRookHoldScenario|N|Destroy the portal and Kill Balaadur.|;coords are wrong
 C When Good Men Do Nothing|QID|44479|SO|6;2|M|42.8,48.4|Z|BlackRookHoldScenario|N|Defeat the Colossal Siegebreaker. During the middle of the fight, you get one more button, use it to win.|
 C Ravencrest's Legacy|QID|44479|M|42.8,48.4|Z|BlackRookHoldScenario|US|
-
 T Ravencrest's Legacy|QID|44479|M|52.46,69.29|N|To Light's Heart, back in your order hall.|
+A In My Father's House|QID|44480|M|52.46,69.29|N|From Light's Heart. Requires Artifact Knowledge >=5. (no way for guide to determine if you are eligible).|PRE|44479|
+P Dalaran|QID|44480|M|38.11,63.38|N|Click on the portal to Dalaran.|
+P Orgrimar|QID|44480|M|38.11,63.38|Z|Dalaran@Dalaran70|N|Click on the portal to Orgrimar.|FACTION|HORDE|
+P Stormwind|QID|44480|M|0,0|Z|Dalaran@Dalaran70|N|Click on the portal to Stormwind.|FACTION|ALLIANCE|
+P Mt Hyjal|QID|44480|M|0,0|Z|Stormwind|N|Click on the portal to Mt Hyjal.|FACTION|ALLIANCE|
+R Temple of Zin-Malor - Azshara|QID|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|
+C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
+T In My Father's House|QID|44480|M|52.46,69.29|N|Return to Light's Heart in your order hall.|
+A Destiny Unfulfilled|QID|44481;44496;44497|M|52.46,69.29|N|From Light's Heart.|PRE|44480|
+P Dalaran|QID|44481;44496;44497|M|38.11,63.38|N|Click on the portal to Dalaran.|
+P Shattrath|QID|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|
+R Shadowmoon Valley|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
+C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+T Destiny Unfulfilled|QID|44481;44496;44497|M|52.46,69.29|N|Return to Light's Heart in your order hall.|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|

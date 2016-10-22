@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-10-22 06:52
+-- Who: Emmaleah
+-- Log: found QID for "the blightcaller" (Makrura Wave Event 38422)
+
+-- URL: http://wow-pro.com/node/3680/revisions/27932/view
 -- Date: 2016-10-19 01:05
 -- Who: Ludovicus
 -- Log: Level Tweak
@@ -115,7 +120,7 @@ T The Ranger Lord|QID|38332|M|37.91,21.52|N|To Nathanos Blightcaller.|
 A The Windrunner's Fate|QID|38360|M|37.91,21.52|N|From Nathanos Blightcaller.|
 A Wrath of the Blightcaller|QID|38361|M|37.91,21.52|N|From Nathanos Blightcaller.|
 C Wrath of the Blightcaller|QID|38361|M|39.47,19.51|S|N|Kill alliance forces.|RANK|2|
-$ Captain Tomas of the Blightcaller|QID|38498|M|35.53,18.67|QO|1|ITEM|129040|N|Talk to Captain Tomas to start the vignette. You will need to check this off manually.|RANK|2|;havent yet found correct QID
+$ Captain Tomas of the Blightcaller|QID|38422|M|35.53,18.67|QO|1|ITEM|129040|N|Talk to Captain Tomas to start the vignette.|RANK|2|
 C The Windrunner's Fate|QID|38360|M|39.47,19.51|QO|1|NC|N|Investigate the dagger in the door of the Windrunner.|
 $ Small Treasure Chest|QID|38498|M|39.58,19.35|N|Loot for a bit of treasure and resources.|RANK|2|
 C The Windrunner's Fate|QID|38360|M|41.72,19.73|QO|2|NC|N|Find Dread-Captain Tattersail.|

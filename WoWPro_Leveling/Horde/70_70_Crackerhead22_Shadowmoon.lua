@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2016-10-22 02:28
+-- Who: tubera
+-- Log: Fix QOs; Move LVL 68 quests further in.
+
+-- URL: http://wow-pro.com/node/3286/revisions/26914/view
 -- Date: 2014-11-08 05:36
 -- Who: Emmaleah
 -- Log: Delete Dup REP tag
@@ -76,7 +81,7 @@ WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 67 |QID|11048|N|You need to be Level 67 to work this guide.|
+L Level 67|QID|11048|N|You need to be Level 67 to work this guide.|LVL|67| ;add lvl tag
 
 A Kroghan's Report|QID|11048|M|55.37,37.47|Z|Nagrand|N|From Captain Kroghan in Nagrand.|
 F Shadowmoon Village|QID|11048|M|57.19,35.28|Z|Nagrand|N|Fly to Shadowmoon Village, Shadowmoon Valley.|
@@ -92,9 +97,7 @@ f Shadowmoon Village|QID|10760|M|30.32,29.14|N|At Drek'Gol.|
 
 A What Strange Creatures...|QID|10660|M|30.00,28.35|N|From Researcher Tiorus.|
 A A Haunted History|QID|10624|M|29.91,27.71|N|From Chief Apothecary Hildagard.|
-A The Hand of Gul'dan|QID|10681|M|28.47,26.48|N|From Earthmender Splinthoof.|
 A A Grunt's Work...|QID|10702|M|28.47,26.48|N|From Overlord Or'barokh.|
-A The Path of Conquest|QID|10750|M|28.47,26.48|N|From Overlord Or'barokh.|
 C To Legion Hold|QID|10596|U|30638|M|23.62,36.88|N|Go next to the Legion Communication Device and use the disguise.|
 C A Grunt's Work...|QID|10702|S|M|33.35,41.95|N|Kill Felboars, Chimeras or Scorpions until you complete this quest.|
 C A Haunted History|QID|10624|S|M|30.29,37.23|N|Loot Ever-Burning Ash from the ground. They can mostly found by the lava pool.|
@@ -113,11 +116,11 @@ A Spectrecles|QID|10625|M|29.91,27.75|N|From Chief Apothecary Hildagard.|
 C Spectrecles|QID|10625|U|30719|M|30.34,30.64|N|Put on the Spectrecles, then run around Shadowmoon Village and kill 12 Shadowmoon Zealots.|
 T Spectrecles|QID|10625|M|29.92,27.72|N|To Chief Apothecary Hildagard.|
 A Teron Gorefiend - Lore and Legend|QID|10633|M|29.92,27.72|N|From Chief Apothecary Hildagard.|
-l Fel Reaver Armor Plate|QID|10597|L|30631|M|22.18,35.53|N|Loot the Fel Reaver Armor Plate off the ground. It looks like the head of a Fel Reaver.|
-K Overseer Ripsaw|QID|10623|L|30759 |T|Overseer Ripsaw|N|Find and kill Overseer Ripsaw, then loot the item he drops.|
+l Fel Reaver Armor Plate|QID|10597|QO|2||M|22.18,35.53|N|Loot the Fel Reaver Armor Plate off the ground. It looks like the head of a Fel Reaver.|
+K Overseer Ripsaw|QID|10623|L|30579|T|Overseer Ripsaw|N|Find and kill Overseer Ripsaw, then loot the item he drops.|
 A Illidari-Bane Shard|QID|10623|U|30759|M|22.49,35.97|N|Accept the quest from the shard.|
 
-C Setting Up the Bomb|QID|10597|M|26.29,41.26|N|Head down into the water and loot the Fel Reaver Power Core from the bottom of the pond.|
+C Setting Up the Bomb|QID|10597|QO|1|M|26.29,41.26|N|Head down into the water and loot the Fel Reaver Power Core from the bottom of the pond.|
 T Find the Deserter|QID|10761|M|35.19,40.35|N|To Parshah. He wanders up and down the path where the waypoint is.|
 A Asghar's Totem|QID|10777|M|35.19,40.35|N|From Parshah. He wanders up and down the path where the waypoint is.|
 C Asghar's Totem|QID|10777|M|39.94,29.36|N|Kill and loot Ashgar to get the Sketh'lon War Totem.|
@@ -128,17 +131,9 @@ A Capture the Weapons|QID|10627|M|29.8,31.2|N|From Grokom Deatheye.|
 C Blast the Infernals!|QID|10598|U|30614|M|22.64,39.90|N|Stand on the green rune and use the bomb.|
 T Asghar's Totem|QID|10777|M|35.24,41.27|N|To Parshah. He wanders up and down the path where the waypoint is.|
 A The Rod of Lianthe|QID|10778|M|35.24,41.27|N|From Parshah. He wanders up and down the path where the waypoint is.|
-T The Hand of Gul'dan|QID|10681|M|42.22,45.03|N|To Earthmender Torlok.|
-A Enraged Spirits of Fire and Earth|QID|10458|M|42.22,45.03|N|From Earthmender Torlok.|
-K Enraged Earth Spirit|QID|10458|U|30094|QO|Earthen Soul Captured: 8/8|M|42.73,47.86;46.59,52.15|CN|N|Use the totem and kill Enraged Earth Spirits between these points.|
-C Enraged Spirits of Fire and Earth|QID|10458|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits. Warning: Yes, the green stuff is lava and yes, it  will hurt you.|
-T Enraged Spirits of Fire and Earth|QID|10458|M|42.18,45.05|N|To Earthmender Torlok.|
-A Enraged Spirits of Water|QID|10480|M|42.18,45.05|N|From Earthmender Torlok.|
-C A Grunt's Work...|QID|10702|US|M|38.26,43.69|N|Finish getting the kills needed.|
 
 T Blast the Infernals!|QID|10598|M|30.47,32.49|N|To Blood Guard Gulmok.|
 A The Deathforge|QID|10599|M|30.47,32.49|N|From Blood Guard Gulmok.|
-T A Grunt's Work...|QID|10702|M|28.49,26.47|N|To Overlord Or'barokh.|
 T The Deathforge|QID|10599|M|38.55,38.18|N|To Scout Zagran.|
 A Minions of the Shadow Council|QID|10600|M|38.57,38.18|N|From Scout Zagran.|
 C Minions of the Shadow Council|QID|10600|M|40.55,37.7|N|Kill the mobs needed.|
@@ -147,33 +142,57 @@ A The Fate of Kagrosh|QID|10601|M|38.59,38.18|N|From Scout Zagran.|
 A The Summoning Chamber|QID|10602|M|38.59,38.18|N|From Scout Zagran.|
 l The Summoning Chamber|QID|10602|L|30672|M|40.16,38.18;37.44,41.64|CS|N|Head inside and kill, then loot Deathforge Smiths and Tinkerers until and Elemental Displacer.|
 C The Fate of Kagrosh|QID|10601|M|35.19,40.16|N|Head further inside, the loot the pack off Kargrosh's corpse.|
-C The Summoning Chamber|QID|10602|U|30672|M|37.81,38.79|N|As you head back out, drop off the side of the North side of the bridge. Use the Elemental Displacer.|
+C The Summoning Chamber|QID|10602|U|30672|M|37.81,38.79|N|As you head back out, drop off the side of the North side of the bridge. Use the Elemental Displacer.|QO|1|
 T The Fate of Kagrosh|QID|10601|M|38.62,38.18|N|To Scout Zagran.|
 T The Summoning Chamber|QID|10602|M|38.62,38.18|N|To Scout Zagran.|
 
 A Bring Down the Warbringer!|QID|10603|M|38.62,38.33|N|From Scout Zagran.|
 C Bring Down the Warbringer!|QID|10603|U|30688|M|38.90,46.75|N|Head inside to where the Deathforge Tinkerers and Smiths. Click on the Heavy Iron Portcullis, head back to the head, kill and loot Warbringer Razuun.|
+
 l Lianthe's Key|QID|10778|L|31316|M|45.53,67.64|N|Kill Blood Elves until the key drops.|
-C The Rod of Lianthe|QID|10778|M|47.49,71.65|N|Click on the chest to get the rod.|
-C The Path of Conquest|QID|10750|NC|U|31108|M|53.07,59.46|N|Fly over top of The Path of Conquest to get the quest completion message.|
-T The Path of Conquest|QID|10750|M|51.00,58.77|N|To Kor'kron Wind Rider.|
-A Breaching the Path|QID|10751|M|51.00,58.87|N|From Kor'kron Wind Rider. This will be done near the end of the guide.|
+C The Rod of Lianthe|QID|10778|QO|2|M|47.49,71.65|N|Click on the chest to get the rod.|
+T The Rod of Lianthe|QID|10778|M|35.41,41.73|N|To Parshah.|
+A Sketh'lon Feathers|QID|10780|M|35.41,41.73|N|From Parshah.|
+C A Grunt's Work...|QID|10702|US|M|38.26,43.69|N|Finish getting the kills needed.|
+
+T Bring Down the Warbringer!|QID|10603|M|30.44,32.44|N|To Blood Guard Gulmok.|
+A Gaining Access|QID|10604|M|30.58,32.33|N|From Blood Guard Gulmok.|
+C Gaining Access|QID|10604|M|23.93,32.97|N|Kill Mo'arg Weaponsmiths until the Legion Teleporter Control drops.|
+T Gaining Access|QID|10604|M|30.38,32.46|N|To Blood Guard Gulmok.|
+T A Grunt's Work...|QID|10702|M|28.49,26.47|N|To Overlord Or'barokh.|
+
+L Level 68|LVL|68|QID|10778|N|You should be around level 68 now|
+
+A The Path of Conquest|QID|10750|M|28.47,26.48|N|From Overlord Or'barokh.|LVL|68|
+A The Hand of Gul'dan|QID|10681|M|28.47,26.48|N|From Earthmender Splinthoof.|LVL|68|
+T The Hand of Gul'dan|QID|10681|M|42.22,45.03|N|To Earthmender Torlok.|
+A Enraged Spirits of Fire and Earth|QID|10458|M|42.22,45.03|N|From Earthmender Torlok.|LVL|68|
+K Enraged Earth Spirit|QID|10458|U|30094|QO|1|M|42.73,47.86;46.59,52.15|CN|N|Use the totem and kill Enraged Earth Spirits between these points.|
+C Enraged Spirits of Fire and Earth|QID|10458|QO|2|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits.|
+T Enraged Spirits of Fire and Earth|QID|10458|M|42.18,45.05|N|To Earthmender Torlok.|
+A Enraged Spirits of Water|QID|10480|M|42.18,45.05|N|From Earthmender Torlok.|
+
 T Teron Gorefiend - Lore and Legend|QID|10633|M|58.23,70.75|N|To Ancient Shadowmoon Spirit.|
 A Divination: Gorefiend's Cloak|QID|10635|M|58.23,70.75|N|From Ancient Shadowmoon Spirit.|
 A Divination: Gorefiend's Truncheon|QID|10636|M|58.23,70.75|N|From Ancient Shadowmoon Spirit.|
 A Divination: Gorefiend's Armor|QID|10634|M|58.23,70.75|N|From Ancient Shadowmoon Spirit.|
+
+C The Path of Conquest|QID|10750|NC|M|53.07,59.46|N|Fly over top of The Path of Conquest to get the quest completion message.|
+T The Path of Conquest|QID|10750|M|51.00,58.77|N|To Kor'kron Wind Rider.|U|31108|
+A Breaching the Path|QID|10751|M|51.00,58.87|N|From Kor'kron Wind Rider. This will be done near the end of the guide.|
 
 f Sanctum of the Stars|QID|10687|M|56.32,57.81|N|At Alieshor.|REP|Scryers;934|
 A Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|From Arcanist Thelis|REP|Scryers;934|
 A The Ashtongue Broken|QID|10807|M|54.73,58.19|N|From Varen the Reclaimer|REP|Scryers;934|
 A Karabor Training Grounds|QID|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934|
 
-T The Rod of Lianthe|QID|10778|M|35.41,41.73|N|To Parshah.|
-A Sketh'lon Feathers|QID|10780|M|35.41,41.73|N|From Parshah.|
-T Bring Down the Warbringer!|QID|10603|M|30.44,32.44|N|To Blood Guard Gulmok.|
-A Gaining Access|QID|10604|M|30.58,32.33|N|From Blood Guard Gulmok.|
-C Gaining Access|QID|10604|M|23.93,32.97|N|Kill Mo'arg Weaponsmiths until the Legion Teleporter Control drops.|
-T Gaining Access|QID|10604|M|30.38,32.46|N|To Blood Guard Gulmok.|
+C Sketh'lon Feathers|QID|10780|M|43.70,56.33|N|Loot 8 feathers off the ground.|
+T Sketh'lon Feathers|QID|10780|M|35.22,39.15|N|To Parshah.|
+A Imbuing the Headpiece|QID|10782|M|35.22,39.15|N|From Parshah.|
+C Imbuing the Headpiece|QID|10782|U|31360|M|42.69,44.98|N|Equip the trinket then head to the Altar of Damnation. Once there you may be attacked. Use the item while at the Altar of Damnation.|
+T Imbuing the Headpiece|QID|10782|M|35.18,39.79|N|To Parshah. Don't forget to equip your normal trinket.|
+A Thwart the Dark Conclave|QID|10808|M|35.18,39.79|N|From Parshah.|
+
 A Invasion Point: Cataclysm|QID|10767|M|30.42,32.44|N|From Blood Guard Gulmok.|
 R Invasion Point: Cataclysm|QID|10767|M|27.27,21.63|N|Head to the waypoint.|
 T Invasion Point: Cataclysm|QID|10767|M|27.46,21.21|N|To Nakansi.|
@@ -191,13 +210,13 @@ A The Ashtongue Tribe|QID|10619|M|61.24,29.18|N|From Vindicator Aluumen.|REP|Ald
 A Karabor Training Grounds|QID|10587|M|61.24,29.18|N|From Exarch Onaala.|REP|Aldor;932|
 A Tablets of Baa'ri|QID|10568|M|62.54,28.46|N|From Anchorite Ceyla.|REP|Aldor;932|
 f Altar of Sha'tar|QID|10568|M|63.25,30.36|N|At Maddix.|REP|Aldor;932|
-l Tablets of Baa'ri|QID|10568|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
+l Tablets of Baa'ri|QID|10568|QO|1|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
 C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor;932|
-l Tablets of Baa'ri|QID|10568|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
+l Tablets of Baa'ri|QID|10568|QO|1|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
 
-l Tablets of Baa'ri|QID|10683|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934|
+l Tablets of Baa'ri|QID|10683|QO|1|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934|
 C The Ashtongue Broken|QID|10807|M|56.91,36.41|N|Kill the mobs needed for this quest.|REP|Scryers;934|
-l Tablets of Baa'ri|QID|10683|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934|
+l Tablets of Baa'ri|QID|10683|QO|1|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934|
 
 C Frankly, It Makes No Sense...|QID|10672|M|61.97,40.17|N|Click on the Arcano Control Unit, then run around the lava river tagging Greater Felfire Diemetradon.|
 C Divination: Gorefiend's Cloak|QID|10635|U|30721|M|64.47,39.73|N|Put on the Spectrecles and kill Clerics of Karabor until the cloak drops.|
@@ -232,35 +251,29 @@ C The Great Retribution|QID|10817|M|66.56,42.17|N|Make your way up Ata'mal Terra
 l Scroll of Demonic Unbanishing|QID|10688|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Scryers;934|
 C A Necessary Distraction|QID|10688|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Scryers;934|
 
-K Lakaan|QID|10685|M|49.79,23.28|QO|Lakaan's Medallion Fragment: 1/1|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Scryers;934|
-K Lakaan|QID|10574|M|49.79,23.28|QO|Lakaan's Medallion Fragment: 1/1|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Aldor;932|
-K Uylaru|QID|10574|QO|Uylaru's Medallion Fragment: 1/1|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Aldor;932|
-K Uylaru|QID|10685|QO|Uylaru's Medallion Fragment: 1/1|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Scryers;934|
+K Lakaan|QID|10685|M|49.79,23.28|QO|3|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Scryers;934|
+K Lakaan|QID|10574|M|49.79,23.28|QO|3|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Aldor;932|
+K Uylaru|QID|10574|QO|4|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Aldor;932|
+K Uylaru|QID|10685|QO|4|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Scryers;934|
 
 T Enraged Spirits of Water|QID|10480|M|42.22,45.06|N|To Earthmender Torlok.|
 A Enraged Spirits of Air|QID|10481|M|42.19,45.06|N|From Earthmender Torlok.|
 
-K Eykene|QID|10574|QO|Eykenen's Medallion Fragment: 1/1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Aldor;932|
-K Eykene|QID|10685|QO|Eykenen's Medallion Fragment: 1/1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Scryers;934|
+K Eykene|QID|10574|QO|1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Aldor;932|
+K Eykene|QID|10685|QO|1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Scryers;934|
 T A Necessary Distraction|QID|10688|M|55.74,58.18|N|To Larissa Sunstrike. The follow up she gives takes you back to Nagrand.|REP|Scryers;934|
 T The Great Retribution|QID|10817|M|54.7,58.2|N|To Varen the Reclaimer.|REP|Scryers;934|
 
 C Enraged Spirits of Air|QID|10481|U|30094|M|59.85,69.71|N|Use the totem and kill the Enraged Air Spirit. They tend to be a bit spread out.|
 T Divination: Gorefiend's Cloak|QID|10635|M|58.30,70.82|N|To Ancient Shadowmoon Spirit.|
 
-C The Ashtongue Corruptors|QID|10574|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Aldor;932|
-C The Ashtongue Corruptors|QID|10685|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Scryers;934|
+C The Ashtongue Corruptors|QID|10574|QO|2|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Aldor;932|
+C The Ashtongue Corruptors|QID|10685|QO|2|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Scryers;934|
 T The Ashtongue Corruptors|QID|10685|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
 A The Warden's Cage|QID|10686|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934|
 
-C Sketh'lon Feathers|QID|10780|M|43.70,56.33|N|Loot 8 feathers off the ground.|
-T Sketh'lon Feathers|QID|10780|M|35.22,39.15|N|To Parshah.|
-A Imbuing the Headpiece|QID|10782|M|35.22,39.15|N|From Parshah.|
-C Imbuing the Headpiece|QID|10782|U|31360|M|42.69,44.98|N|Equip the trinket then head to the Altar of Damnation. Once there you may be attacked. Use the item while at the Altar of Damnation.|
 T Enraged Spirits of Air|QID|10481|M|42.21,45.04|N|To Earthmender Torlok.|
 A Oronok Torn-heart|QID|10513|M|42.18,45.04|N|From Earthmender Torlok.|
-T Imbuing the Headpiece|QID|10782|M|35.18,39.79|N|To Parshah. Don't forget to equip your normal trinket.|
-A Thwart the Dark Conclave|QID|10808|M|35.18,39.79|N|From Parshah.|
 T Frankly, It Makes No Sense...|QID|10672|M|30.05,28.34|N|To Researcher Tiorus.|
 A Felspine the Greater|QID|10673|M|30.05,28.34|N|From Researcher Tiorus.|
 
@@ -328,13 +341,13 @@ F Shadowmoon Village|QID|10550|M|63.8,41.6|Z|Shattrath City|N|Fly back to Shadow
 
 T The Bundle of Bloodthistle|QID|10550|M|47.52,57.28|N|To Borak, Son of Oronok.|
 A To Catch A Thistlehead|QID|10570|M|47.54,57.27|N|From Borak, Son of Oronok.|
-C To Catch A Thistlehead|QID|10570|M|48.91,57.34|N|Plant the Bloodthistle then hide. Once he is alone and runs towards the bundle, kill him and loot the missive.|
+C To Catch A Thistlehead|QID|10570|M|48.91,57.34|N|Plant the Bloodthistle then hide. Once he is alone and runs towards the bundle, kill him and loot the missive.|U|30616|
 T To Catch A Thistlehead|QID|10570|M|47.63,57.26|N|To Borak, Son of Oronok.|
 A The Shadowmoon Shuffle|QID|10576|M|47.62,57.25|N|From Borak, Son of Oronok.|
 C The Shadowmoon Shuffle|QID|10576|M|47.95,63.95|N|Kill the Blood Elves at Eclipse Point until you get 6 pieces of armor.|
 T The Shadowmoon Shuffle|QID|10576|M|47.53,57.24|N|To Borak, Son of Oronok.|
 A What Illidan Wants, Illidan Gets...|QID|10577|M|47.53,57.24|N|From Borak, Son of Oronok.|
-C What Illidan Wants, Illidan Gets...|QID|10577|NC|M|46.45,71.75|N|Once in Eclipse Point put on the disguise, it can be used while mounted. Be careful not to get to close to the Dragonhawks.|
+C What Illidan Wants, Illidan Gets...|QID|10577|NC|M|46.45,71.75|N|Once in Eclipse Point put on the disguise, it can be used while mounted. Be careful not to get to close to the Dragonhawks.|U|30639|
 T What Illidan Wants, Illidan Gets...|QID|10577|M|47.54,57.27|N|To Borak, Son of Oronok.|
 A The Cipher of Damnation - Borak's Charge|QID|10578|M|47.54,57.27|N|From Borak, Son of Oronok.|
 
@@ -360,8 +373,8 @@ T The Force of Neltharaku|QID|10854|M|66.92,57.86|N|To Neltharaku.|
 A Karynaku|QID|10858|M|66.92,57.86|N|From Neltharaku.|
 
 N Group Quests|N|The following steps are all the group quests we skipped before. Time to get help, since they can be somewhat nasty.|
-K Morgroron|QID|10627|L|30785 |M|23.3,38.3|N|Kill Morgroron and loot his corpse for his glaive.|
-C Capture the Weapons|QID|10627|M|24.9,37.2|N|Kill Makazradon and loot his corpse for his glaive.|
+K Morgroron|QID|10627|QO|2|23.3,38.3|N|Kill Morgroron and loot his corpse for his glaive.|
+C Capture the Weapons|QID|10627|QO|1|M|24.9,37.2|N|Kill Makazradon and loot his corpse for his glaive.|
 T Capture the Weapons|QID|10627|M|29.8,31.2|N|To Grokom Deatheye.|
 A The Hermit Smith|QID|10663|M|29.8,31.2|N|From Grokom Deatheye.|
 C Breaching the Path|QID|10751|M|51.00,58.75|N|Kill everything that is needed in the path.|
