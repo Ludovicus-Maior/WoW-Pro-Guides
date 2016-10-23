@@ -395,7 +395,8 @@ function WoWPro.UpdateGuideReal(From)
 end	
 
 local Rep2IdAndClass
-Rep2IdAndClass = {  ["hated"] = {1,false},
+Rep2IdAndClass = {  ["unknown"] = {0,false},
+                    ["hated"] = {1,false},
                     ["hostile"] = {2,false},
                     ["unfriendly"] = {3,false},
                     ["neutral"] = {4,false},
