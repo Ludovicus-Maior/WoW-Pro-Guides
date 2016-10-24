@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-24 03:35
+-- Who: Emmaleah
+-- Log: Fix syntax on N Rep Gated lines, (now works as I envisioned); Pre tags in Waning Crescent, 
+
+-- URL: http://wow-pro.com/node/3687/revisions/27957/view
+-- Date: 2016-10-24 00:55
+-- Who: Blanckaert
+-- Log:  minor change, added map coord for Domitille
+
+-- URL: http://wow-pro.com/node/3687/revisions/27956/view
+-- Date: 2016-10-23 22:38
+-- Who: Blanckaert
+-- Log: Added Quest chain for Growing Crisis. (7K Revered)
+
+-- URL: http://wow-pro.com/node/3687/revisions/27950/view
 -- Date: 2016-10-22 09:49
 -- Who: Emmaleah
 -- Log: Add Murlock side quests. finish tweaking through Revered. 
@@ -195,13 +210,10 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-; Want to let user know EACH time they come to the guide that it is incomplete, not sure if this is the right way to make that Note.
-
 L This guide (and the Suramar zone) requires level 110|LVL|110|
-N Suramar|N|This is INCOMPLETE, and done as a Horde Toon. There ARE errors, Use at your own risk.|
+N Suramar|N|This guide is still a work in progress. *Untested for alliance, may be some quest differances*. There will be errors, Flow may be wrong. Use at your own risk.|
 
 ; Main Storyline, Opening of Suramar
-
 A Khadgar's Discovery|QID|44555;39985|N|Auto Accepted from UI upon entering Dalaran.|
 T Khadgar's Discovery|QID|44555;39985|M|28.47,48.31|Z|Dalaran@Dalaran70|N|To Archmage Khadgar in the Violet Citadel.|
 A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44555;39985|
@@ -237,7 +249,6 @@ f Meredil|QID|40012|M|34.34,49.38|N|At Ancient Cloudwing.|
 C Ancient Mana|QID|44672|M|34.81,55.09|S|N|Pick up the ancient mana as you travel towards Oculeth. Continue gathering it as you go along, you will have other uses for it also.|;check this coord is in line to the workshop
 
 ; Arcanist Kel'Danath Story Line.
-
 R Ambervale|QID|40012|M|34.73,48.20;33.20,47.92;31.40,45.25|CS|N|Run out of the cave and around to your right following the coordinate trail.|
 A Lingering on the Edge|QID|40796|M|30.39,47.78|N|From/To Absolon.|PRE|42229|RANK|2|
 T An Old Ally|QID|40012|M|30.24,39.66|N|To an Enchanted Scroll.|
@@ -283,7 +294,6 @@ C Mglrgrs Of Our Grmlgrlr|QID|41143|M|17.96,48.31|N|Find Mr. Mrglglrm by killing
 T Mglrgrs Of Our Grmlgrlr|QID|41143|M|15.24,51.73|N|To Mr. Mrglglrm.|RANK|2|
 H Shal'Aran|QID|40956|M|36.56,46.92|N|Run to Shal'Aran if your hearthstone isn't available.|
 C Subject 16|QID|41704|M|36.29,47.11|NC|N|Deliver Theryn to Thalyssra.|
-;R add murlock quest and treasure here. 4 quests starting with Do the Thing(42396)/$43844
 T Subject 16|QID|41704|M|36.55,46.91|N|To First Arcanist Thalyssra.|
 A Kel'danath's Legacy|QID|41760|PRE|41704|M|36.55,46.91|N|From First Arcanist Thalyssra.|
 C Kel'danath's Legacy|QID|41760|M|34.81,51.69|N|Use your extra action button to charm Withered.|
@@ -291,7 +301,6 @@ T Kel'danath's Legacy|QID|41760|M|36.56,46.93|N|To First Arcanist Thalyssra.|
 A Sympathizers Among the Shal'dorei|QID|41762|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|41760|
 
 ; Chief Temelancer Oculeth Story Line.
-
 C Oculeth's Workshop|QID|40011|M|49.31,48.18|NC|U|132883|N|Use Extra Action button to show Token to Oculeth.|
 T Oculeth's Workshop|QID|40011|M|49.66,48.13|N|To Chief Telemancer Oculeth.|
 A The Delicate Art of Telemancy|QID|40747|M|49.66,48.13|N|From Chief Telemancer Oculeth.|PRE|40011|
@@ -322,7 +331,6 @@ T Survey Says...|QID|40956|M|36.10,47.24|N|To the Telemetry Beacon. After turn i
 A Tapping the Leylines|QID|40010|M|36.54,46.87|N|From First Arcanist Thalyssra.|PRE|40956|
 
 ; Feeding Shal'aran Storyline (opening of, and finishes when you get back from Tidying
-
 R Anora Hollow|QID|40368|M|36.33,44.93;38.18,44.83;43.38,41.72|CS|N|Take the teleporter to Ruins of Elune'eth and follow the path to Anora Hollow.|
 A Turtle Powered|QID|40368|M|43.38,41.72|N|From Morhun Rivertamer.|PRE|42229|RANK|2|
 C Turtle Powered|QID|40368|M|37.11,38.20|S|N|Kill turtles to collect the Shimmering Snapper Scales.|RANK|2|
@@ -346,7 +354,6 @@ T Something in the Water|QID|40348|M|43.41,41.68|N|To Morhun Rivertamer.|RANK|2|
 T Purge the Unclean|QID|40370|M|43.41,41.68|N|To Morhun Rivertamer.|RANK|2|
 
 ; Tidying Tel'Anor Side Story Line, Activation of Tel'anor Teleporter
-
 R Tel'anor|QID|40266|M|41.83,41.39;41.12,42.37;44.75,42.94|CS|N|Take the path here, back up to the city level.|
 A The Lost Advisor|QID|40266|M|45.59,40.75|N|From Thaedris Feathersong.|PRE|42229|
 A An Ancient Recipe|QID|40744|M|45.59,40.75|N|From Thaedris Feathersong.|PRE|42229|
@@ -398,8 +405,7 @@ A Feeding Shal'Aran|QID|41138|M|36.56,46.93|N|From Arcanist Valtrois.|PRE|41028|
 C Feeding Shal'Aran|QID|41138|M|36.97,46.21|NC|N|Follow her downstairs and examine the Leyline Feed.|
 T Feeding Shal'Aran|QID|41138|M|36.97,46.21|N|To Arcanist Valtrois.|
 
-; Masquerade Story Line (Jump back to city), and Activating Sanctum of Order Teleporter
-
+; Masquerade Story Line
 P Elune'eth|QID|41762|M|36.34,44.89|N|Take the Elune'eth portal out.|
 R The Grand Promenade|QID|41762|M|37.19,46.32;41.63,54.04|CS|N|Follow the road Southeast, then turn left on the road encircling the port.|
 K Kill Apothecary Faldren|QID|43580|QO|1|M|42.37,56.33|ITEM|121754|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
@@ -443,7 +449,6 @@ A Cloaked in Moonshade|QID|42224|M|37.06,46.23|N|From First Arcanist Thalyssra.|
 A Cling to Hope|QID|40798|M|37.71,47.80|N|From Absolon.|PRE|40796|RANK|2|
 
 ;Falanaar story arc
-
 R Moonshade Sanctum|QID|42224|M|36.34,44.89;36.58,45.54;30.51,42.21|CS|N|Take the Elune'eth portal out and then follow the road West towards Moonshade Sanctum.|
 C Cloaked in Moonshade|QID|42224|M|18.30,38.50|NC|N|Explore Moonshade Sanctum.|
 T Cloaked in Moonshade|QID|42224|M|17.37,37.85|N|To Moonshade Relic.|
@@ -550,8 +555,8 @@ C Natural Adversaries|QID|41479|M|30.90,26.30|US|N|Kill Manascale Basilisk.|
 T Natural Adversaries|QID|41479|M|30.37,30.79|N|To Solendra Featherdown.|
 T Managazer|QID|41480|M|30.37,30.79|N|To Solendra Featherdown.|
 T Moonwhisper Rescue|QID|41485|M|30.37,30.79|N|To Solendra Featherdown.|
-A Return to Irongrove Retreat|QID|41469|M|30.37,30.79|N|From Solendra Featherdown.|PRE|41479;41480;41485|
 
+A Return to Irongrove Retreat|QID|41469|M|30.37,30.79|N|From Solendra Featherdown.|PRE|41479;41480;41485|
 K Kill Rauren|QID|43484|M|24.03,25.48|QO|1|ITEM|121759|N|Silver - Kill and loot for a bit of treasure and resources.|T|Rauren|RANK|2|
 T Return to Irongrove Retreat|QID|41469|M|26.18,31.32|N|To Mythandros Irongrove.|
 A Eminent Grow-main|QID|41494|M|26.18,31.32|N|From Mythandros Irongrove.|PRE|41469|
@@ -591,7 +596,7 @@ C Lay Waste, Lay Mines|QID|40965|M|34.64,20.10|S|U|133882|N|Use the trap rune to
 C Precious Little Left|QID|40967|M|36.36,16.75|QO|1|NC|N|Up the stairs to find 'Anthology of the Guard' on a table.|
 K Kill Artificer Lothaire|QID|43717|QO|1|M|34.27,15.38|ITEM|140372|N|Silver - Up more stairs to kill this rare for treasure and resources. The Trap Rune doesn't affect the Artificer or his companions. Agro the Articicer and then the Constructs will attack, first one, then two.  Then the Artificer will attack.|RANK|2|
 C Precious Little Left|QID|40967|M|34.07,17.89|QO|3|NC|N|Back down the stairs and 'Aftermath of the Well' is against the wall inside this room.|
-K Kill Commander Domitille|QID|40762|T|Commander Domitille|L|136851|N|Kill and loot for an optional quest.|ITEM|141672|
+K Kill Commander Domitille|QID|40762|M|36.14,18.56|T|Commander Domitille|L|136851|N|Kill and loot for an optional quest.|ITEM|141672|
 A Zealot's Dues|QID|40762|O|U|136851|N|Accepted from Commander Domitille's helm which you just picked up.|
 C Lay Waste, Lay Mines|QID|40965|M|34.64,20.10|US|U|133882|N|Down more stairs and finish up killing the Nightborne.|
 C Precious Little Left|QID|40967|M|34.80,22.53|QO|2|NC|N|'Magical Manifest of the Moon' in on the table in the covered patio.|
@@ -750,6 +755,7 @@ T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
 H Shal'Aran|QID|44495|M|36.56,46.93|N|Return to Shal'Aran.|
 A Leyline Mastery|QID|44495|M|37.00,46.35|N|From/To Arcanish Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|RANK|2|PRE|44493|
 
+;optional quests
 R Meredil|QID|40401|M|34.36,49.95|N|Run outside Shal'Aran and take the road Southeast.|RANK|2|
 A A Way Back In|QID|40401|M|34.36,56.14|N|From Iadreth.|PRE|42229|RANK|2|
 C A Way Back In|QID|40401|M|41.36,60.68|CHAT|N|Don't forget your mask while wandering around the city. Find and Chat with Astoril.|RANK|2|
@@ -868,7 +874,7 @@ H Shal'Aran|QID|42488|N|Return to Shal'Aran.|
 T Thalyssra's Abode|QID|42488|M|36.88,46.61|N|To First Arcanist Thalyssra.|
 T Thalyssra's Drawers|QID|42489|M|36.88,46.61|N|To First Arcanist Thalyssra.|RANK|2|
 
-; Quests in Felsoul Hold Breaking The Lightbreaker Story Line.
+; Breaking The Lightbreaker (Felsoul Hold) Story Line.
 R Felsoul Hold|QID|40297|M|32.69,58.83|N|Run towards Felsoul Hold.|
 A Lyana Darksorrow|QID|40297|M|30.18,60.60;30.87,59.17|CS|N|From Lyana Darksorrow.|PRE|42229|
 C Lyana Darksorrow|QID|40297|M|30.87,59.17|NC|N|Click to destroy Soul Harvester.|
@@ -978,6 +984,7 @@ H Shal'Aran|QID|42366|M|36.87,46.60|N|Return to Shal'Aran, Hearth or use Portal 
 T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|N|To First Arcanist Thalyssra.|RANK|2|
 
 ; Blood and Wine storyline. Requires Honored
+N You are Rep Gated|QID|44152|REP|The Nightfallen;1859;unknown-friendly;5999|N|Next Chain requires Honored, so off to do World Quests.|
 t Seed of Hope|QID|44561|M|36.83,46.54|N|To Valewalker Farodin.|
 A Moths to a Flame|QID|42828|REP|The Nightfallen;1859;Honored-Exalted|M|36.83,46.54|N|From Valewalker Farodin.|PRE|42488|
 A Growing Strong|QID|44562|PRE|44561|M|36.83,46.54|N|From Valewalker Farodin.|
@@ -1057,7 +1064,7 @@ C Shalassic Park|QID|43582|M|56.05,56.49|QO|3|N|Adversaries slain - trample or e
 T Shalassic Park|QID|43582|M|50.71,56.60|N|To Nighteyes, back in the water.|RANK|2|
 
 ; need R Vineyard
-C A Big Score|QID|42841|M|53.43,54.41|QO|1|N|Pick up the Thousand-Year Arcwine. Be stealthy or slaughter everything in your path.|
+C A Big Score|QID|42841|M|53.43,54.41|NC|N|Pick up the Thousand-Year Arcwine. Be stealthy or slaughter everything in your path.|
 T Asset Security|QID|43352|M|48.95,73.44|N|To Arluin.|
 T A Big Score|QID|42841|M|48.95,73.44|N|To Arluin.|
 A Make Your Mark|QID|42792|PRE|42841+43352|M|48.95,73.44|N|From Arluin.|
@@ -1070,6 +1077,7 @@ A And They Will Tremble|QID|44052|PRE|42792|M|48.37,83.33|N|From Vanthir.|
 P Shal'Aran|QID|44052|M|47.74,81.39|N|Use the portal or hearth.|
 T And They Will Tremble|QID|44052|M|36.91,46.58|N|To First Arcanist Thalyssra.|
 
+;need R step
 C Bad Apples|QID|41107|M|38.35,57.15|S|N|Look for the bushes.|RANK|2|
 C Blast of Spice Fish|QID|41256|M|38.35,57.15|N|Kill frogs|RANK|2|
 C Bad Apples|QID|41107|M|38.35,57.15||US|N|Look for the bushes.|RANK|2|
@@ -1080,9 +1088,9 @@ C Fruit of the Doom|QID|41258|M|47.2,56.6|N|Loot for the fruit baskets, Poison 3
 T Fruit of the Doom|QID|41258|M|47.2,56.6|N|To Keelay Moongrow|RANK|2|
 
 ; Statecraft Story line - Quest chain at 8,000 Honoured.
-N Rep Gated|QID|43309|REP|The Nightfallen;1859;Honored-Exalted;8000|M|36.87,46.57|N|The next questline requires 8K into Honored. So, do world quests and otherwise get your faction.|
+N You are Rep Gated|QID|43309|REP|The Nightfallen;1859;Unknown-Honored;7999|M|36.87,46.57|N|The next questline requires 8K into Honored. So, do world quests and otherwise get your faction.|
 A The Perfect Opportunity|QID|43309|REP|The Nightfallen;1859;Honored-Exalted;8000|M|36.87,46.57|N|From First Arcanist Thalyssra.|
-P Waning Crescent|QID|43309|M|36.48,44.72|N|Take the portal to the Waning Crescent. This next step requires you to have 1200 Ancient Mana.|
+P Waning Crescent|QID|43309|M|36.48,44.72|N|Take the portal to the Waning Crescent. This next step requires you to have 1200 Ancient Mana.|ACTIVE|43309|
 C The Perfect Opportunity|QID|43309|M|47.85,83.06|N|Meet Ly'leth at the Waning Crescent|
 T The Perfect Opportunity|QID|43309|M|47.85,83.06|N|To Ly'leth Lunastre.|
 A Either With Us|QID|43310|PRE|43309|M|47.85,83.06|N|From Ly'leth Lunastre.|
@@ -1090,47 +1098,68 @@ A Or Against Us|QID|43311|PRE|43309|M|47.85,83.06|N|From Vanthir.|
 C Or Against Us|QID|43311|CC|M|46.64,80.07;45.69,76.41;48.23,74.91;48.56,73.47;48.95,73.45|NC|N|Run to Arluin, Watch out for Sentries. Ask Arluin for Help, Need 1200 Ancient Mana.|QO|1|
 C Or Against Us|QID|43311|M|48.95,73.41|QO|2|CHAT|N|Arluin Paid 1,200 Ancient Mana|
 T Or Against Us|QID|43311|M|48.95,73.41|N|To Arluin.|
-A Death Becomes Him|QID|43315|M|48.95,73.41|N|From Arluin.|
+A Death Becomes Him|QID|43315|M|48.95,73.41|N|From Arluin.|PRE|43311|
 $ Treasure Chest|QID|43875|M|54.34,60.32|N|Loot for a bit of treasure and resources.|
-K Death Becomes Him|QID|43315|M|56.64,60.73|N|Kill Ruven, down at canal level.|T|Ruven|
+C Death Becomes Him|QID|43315|M|56.64,60.73|N|Kill Ruven, down at canal level.|T|Ruven|
 T Death Becomes Him|QID|43315|M|57.13,60.76|N|To Arluin.|
-A Rumor Has It|QID|43313|M|57.13,60.76|N|From Arluin.|
+A Rumor Has It|QID|43313|M|57.13,60.76|N|From Arluin.|PRE|43315|
 T Either With Us|QID|43310|M|57.54,57.63|N|To Aurore.|
-A Thinly Veiled Threats|QID|43312|M|57.54,57.63|N|From Aurore.|
+A Thinly Veiled Threats|QID|43312|M|57.54,57.63|N|From Aurore.|PRE|43310|
 C Rumor Has It|QID|43313|M|59.21,58.13|CHAT|N|Talk to a Distraught Noble.|
 C Rumor Has It|QID|43313|M|61.90,62.39|CHAT|N|Talk to a Disgruntled Servant.|
 C Rumor Has It|QID|43313|M|58.72,65.45|CHAT|N|Talk to a Shamed Noble.|
-C Thinly Veiled Threats|QID|43312|M|57.98,68.69|CHAT |N|Rescue Ailen.|
+C Thinly Veiled Threats|QID|43312|M|57.98,68.69|CHAT|N|Rescue Ailen.|
 T Thinly Veiled Threats|QID|43312|M|57.51,57.61|N|To Aurore.|
-A Vote of Confidence|QID|44040|M|57.51,57.61|N|From Aurore.|
+A Vote of Confidence|QID|44040|M|57.51,57.61|N|From Aurore.|PRE|43312|
 T Rumor Has It|QID|43313|M|47.89,82.99|N|To Ly'leth Lunastre.|
 T Vote of Confidence|QID|44040|M|47.89,82.99|N|To Ly'leth Lunastre.|
-A In the Bag|QID|43317|PRE|44040|M|47.89,82.99|N|From Ly'leth Lunastre.|
-C In the Bag|QID|43317|M|43.48,62.43|QO|1|N|Witness Ly'leth's Ascension|
+A In the Bag|QID|43317|M|47.89,82.99|N|From Ly'leth Lunastre.|PRE|44040|
+C In the Bag|QID|43317|M|43.48,62.43|N|Witness Ly'leth's Ascension|
 T In the Bag|QID|43317|M|43.26,62.20|N|To Ly'leth Lunastre.|
-A Ly'leth's Champion|QID|43318|PRE|43317|M|43.26,62.20|N|From Ly'leth Lunastre.|
+A Ly'leth's Champion|QID|43318|M|43.26,62.20|N|From Ly'leth Lunastre.|PRE|43317|
 C Ly'leth's Champion|QID|43318|M|43.26,62.20|CHAT|N|With Ly'leth Lunastre.|
 C Ly'leth's Champion|QID|43318|M|44.69,63.48|N|Special Actions: 1 - Force Blast, 2 - Spiral Slice, 3 - Spellbreak, 4 - Rewind|
-K Ly'leth's Champion|QID|43318|M|44.18,63.12|QO|2|N|Coryn slain|
+C Ly'leth's Champion|QID|43318|M|44.18,63.12|QO|2|N|Coryn slain|
 T Ly'leth's Champion|QID|43318|M|47.93,83.02|N|To Ly'leth Lunastre.|
 A Friends With Benefits|QID|44053|PRE|43318|M|47.84,82.91|N|From Lunastre Attendant.|
 T Friends With Benefits|QID|44053|M|36.56,46.77|N|To First Arcanist Thalyssra.|
 
 ;Mythic Dungeon Quests now available
-
 A Opening the Arcway|QID|42490|PRE|44053|M|36.56,46.77|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest*|
 A Beware the Fury of a Patient Elf|QID|43314|PRE|44053;43313|M|36.56,46.77|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest*|
 A Long Buried Knowledge|QID|42491|PRE|44053;43313|M|37.02,46.21|NA|N|From Arcanist Valtrois. *Mythic Dungeon Quest*|
 
 ;Revered with The Nightfallen (1859)
-
 C Growing Strong|QID|44562|M|36.28,45.02|N|Requires Revered with The Nightfallen.  Go do World Quests and such so you can progress in this guide.|
 t Growing Strong|QID|44562|M|36.54,46.77|N|To Valewalker Farodin.|
 A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|N|From Valewalker Farodin.|
-;statecraft chain
+
+;A Growing Crisis Story Arc
+N You are Rep Gated|QID|44152|REP|The Nightfallen;1859;unknown-revered;6999|N|Next Chain requires 7K into Revered, so off to do World Quests.|
 A A Growing Crisis|QID|44152|REP|The Nightfallen;1859;revered;7000|PRE|44053|M|36.54,46.77|N|From Valewalker Farodin.|
-N You are Rep Gated|QID|44152|REP|The Nightfallen;1859;revered;7000|N|Next Chain requires 7K into Revered, so off to do World Quests.|
+P Portal to Fal'adora|QID|44152|M|35.94,45.55|N|Take the Portal to Fal'adora|
+A Skittering Subjects|QID|42090|M|21.95,29.23|N|UI Alert: World Quest|
+T A Growing Crisis|QID|44152|M|22.05,29.22|N|To Valewalker Farodin.|
+A Fragments of Disaster|QID|43361|M|22.05,29.22|N|From Valewalker Farodin.|
+A The Shardmaidens|QID|43360|M|22.05,29.22|N|From Valewalker Farodin.|
+C Fragments of Disaster|QID|43361|QO|1|N|Collect Crystallized Bough (Crystallized Bark)|
+C The Shardmaidens|QID|43360|M|20.70,33.59|QO|1|N|6/6 Shardmaiden slain|
+T Skittering Subjects|QID|42090|N|UI Alert: Auto turn-in|
+T Fragments of Disaster|QID|43361|M|22.02,29.22|N|To Valewalker Farodin, back at the portal you came in.|
+T The Shardmaidens|QID|43360|M|22.02,29.22|N|To Valewalker Farodin.|
+A Another Arcan'dor Closes...|QID|44156|M|22.02,29.22|N|From Valewalker Farodin.|
+P Portal to Shal'Aran|QID|44156|M|22.02,29.22|N|Take the portal back to Shal'Aran|
+T Another Arcan'dor Closes...|QID|44156|M|36.53,46.77|N|To Valewalker Farodin.|
+A The Stuff of Dreams|QID|43362|M|36.53,46.77|N|From Valewalker Farodin. *Raid Quest*|
+A Branch of the Arcan'dor|QID|40125|PRE|44156|M|36.53,46.77|N|From First Arcanist Thalyssra.|
+T Branch of the Arcan'dor|QID|40125|M|36.53,46.77|N|To First Arcanist Thalyssra.|
+C The Stuff of Dreams|QID|43362|M|36.51,46.75|QO|1|N|Xavius slain - LFR Rift of Aln|
+C The Stuff of Dreams|QID|43362|M|36.51,46.75|QO|2|N|Purified Life Essence LFR Rift of Aln, After leaving the dream, near Cenarius|
+T The Stuff of Dreams|QID|43362|M|36.51,46.75|N|To Valewalker Farodin.|
+
 ;change of seasons 20/21K revered
+N You are Rep Gated|QID|44563|REP|The Nightfallen;1859;unknown-Revered;19999|N|Next Chain requires 20K into Revered (and killing Xavius in The Emerald Nightmare Raid), Continue doing World Quests.|
+
 ]]
 
 end)
