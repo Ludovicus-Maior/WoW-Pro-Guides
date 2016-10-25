@@ -89,6 +89,9 @@ function WoWPro:Error(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffff7d0a%s|r: "..message, self.name or "Wow-Pro",...)
         WoWPro:Add2Log(0,msg)
+        if WoWPro.DebugLevel > 0 then
+            error(msg)
+        end
 	end
 end
 WoWPro:Export("Error")

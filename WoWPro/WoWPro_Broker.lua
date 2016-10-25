@@ -11,12 +11,22 @@ WoWPro.Scenario = nil
 
 local function QidMapReduce(list,default,or_string,and_string,func)
     if not list then return default end
-    local do_or = string.find(list,or_string)
     local split_string
-    if do_or then
-        split_string = or_string
+    if or_string and and_string then
+        local do_or = string.find(list,or_string)
+        if do_or then
+            split_string = or_string
+        else
+            split_string = and_string
+        end
     else
-        split_string = and_string
+        if or_string then
+            split_string = or_string
+            do_or = true
+        else
+            split_string = and_string
+            do_or = false
+        end
     end
 --    WoWPro:dbp("QidMapReduce: Splitting %s on '%s'",list,split_string)
     local numList = select("#", string.split(split_string, list))
@@ -24,7 +34,7 @@ local function QidMapReduce(list,default,or_string,and_string,func)
         local QID = select(numList-i+1, string.split(split_string, list))
         QID = tonumber(QID)
 		if not QID then
-		    error(string.format("Malformed QID [%s] in Guide %s",list,WoWProDB.char.currentguide))
+		    WoWPro:Error("Malformed QID [%s] in Guide %s",list,WoWProDB.char.currentguide)
 		    QID=0
 		end
 	    local val = func(math.abs(QID))
@@ -75,34 +85,34 @@ end
 -- See if any of the list of QIDs are in the indicated table.
 function WoWPro:QIDsInTable(QIDs,tabla)
 --    WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",QIDs,tostring(tabla))
-    return QidMapReduce(QIDs,false,";","&",function (qid) return tabla[qid] end)
+    return QidMapReduce(QIDs,false,";","+",function (qid) return tabla[qid] end)
 end
 
 -- See if any of the list of QIDs are in the indicated table and return the first
 function WoWPro:QIDInTable(QIDs,tabla)
 --    WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",QIDs,tostring(tabla))
-    return QidMapReduce(QIDs,false,";","&",function (qid) return tabla[qid] and qid end)
+    return QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and qid end)
 end
 
 -- See if any of the list of QIDs are in the indicated table, return a subkey
 function WoWPro:QIDsInTableKey(QIDs,tabla,key)
 --    WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",QIDs,tostring(tabla))
-    return QidMapReduce(QIDs,false,";","&",function (qid) return tabla[qid] and tabla[qid][key] end)
+    return QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and tabla[qid][key] end)
 end
 
 -- See if all of the list of QIDs are in the indicated table.
 function WoWPro:AllIDsInTable(IDs,tabla)
-    return QidMapReduce(IDs,false,"&",";",function (qid) return tabla[qid] end)
+    return QidMapReduce(IDs,false,"+",";",function (qid) return tabla[qid] end)
 end
 
 -- Wipe out all the QIDs in the table.
 function WoWPro:WipeQIDsInTable(IDs,tabla)
-    return QidMapReduce(IDs,false,"&",";",function (qid) tabla[qid] = nil; return true; end)
+    return QidMapReduce(IDs,false,nil,";+",function (qid) tabla[qid] = nil; return true; end)
 end
 
 -- Set all the QIDs in the table.
 function WoWPro:SetQIDsInTable(IDs,tabla)
-    return QidMapReduce(IDs,false,"&",";",function (qid) tabla[qid] = true; return true; end)
+    return QidMapReduce(IDs,false,nil,";+",function (qid) tabla[qid] = true; return true; end)
 end
 
 
