@@ -24,7 +24,7 @@ local function QidMapReduce(list,default,or_string,and_string,func)
         local QID = select(numList-i+1, string.split(split_string, list))
         QID = tonumber(QID)
 		if not QID then
-		    WoWPro:Error("Malformed QID [%s] in Guide %s",list,WoWProDB.char.currentguide)
+		    error(string.format("Malformed QID [%s] in Guide %s",list,WoWProDB.char.currentguide))
 		    QID=0
 		end
 	    local val = func(math.abs(QID))
