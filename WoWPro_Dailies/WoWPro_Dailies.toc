@@ -1,4 +1,4 @@
-## Interface: 70000
+## Interface: 70100
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
