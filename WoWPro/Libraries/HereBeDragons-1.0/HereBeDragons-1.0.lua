@@ -1,6 +1,6 @@
 -- HereBeDragons is a data API for the World of Warcraft mapping system
 
-local MAJOR, MINOR = "HereBeDragons-1.0", 26
+local MAJOR, MINOR = "HereBeDragons-1.0", 27
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -17,8 +17,6 @@ HereBeDragons.microDungeons    = HereBeDragons.microDungeons or {}
 HereBeDragons.transforms       = HereBeDragons.transforms or {}
 
 HereBeDragons.callbacks        = CBH:New(HereBeDragons, nil, nil, false)
-
-local IsLegion = select(4, GetBuildInfo()) >= 70000
 
 -- constants
 local TERRAIN_MATCH = "_terrain%d+$"
@@ -61,9 +59,11 @@ local instanceIDOverrides = {
     [1465] = 1116, -- Tanaan
     -- Legion
     [1478] = 1220, -- Temple of Elune Scenario (Val'Sharah)
+    [1495] = 1220, -- Protection Paladin Artifact Scenario (Stormheim)
     [1502] = 1220, -- Dalaran Underbelly
     [1533] = 0,    -- Karazhan Artifact Scenario
     [1612] = 1220, -- Feral Druid Artifact Scenario (Suramar)
+    [1626] = 1220, -- Suramar Withered Scenario
 }
 
 -- unregister and store all WORLD_MAP_UPDATE registrants, to avoid excess processing when
@@ -204,22 +204,17 @@ if not oldversion or oldversion < 26 then
             end
         end
 
-        local floors
-        if IsLegion then
-            floors = { GetNumDungeonMapLevels() }
+        -- retrieve floors
+        local floors = { GetNumDungeonMapLevels() }
 
-            -- offset floors for terrain map
-            if DungeonUsesTerrainMap() then
-                for i = 1, #floors do
-                    floors[i] = floors[i] + 1
-                end
-            end
-        else
-            floors = {}
-            for f = 1, GetNumDungeonMapLevels() do
-                floors[f] = f
+        -- offset floors for terrain map
+        if DungeonUsesTerrainMap() then
+            for i = 1, #floors do
+                floors[i] = floors[i] + 1
             end
         end
+
+        -- check for fake floors
         if #floors == 0 and GetCurrentMapDungeonLevel() > 0 then
             floors[1] = GetCurrentMapDungeonLevel()
             mapData[id].fakefloor = GetCurrentMapDungeonLevel()
@@ -307,16 +302,6 @@ if not oldversion or oldversion < 26 then
         mapData[WORLDMAP_AZEROTH_ID].C = 0
         mapData[WORLDMAP_AZEROTH_ID].Z = 0
         mapData[WORLDMAP_AZEROTH_ID].name = WORLD_MAP
-
-        -- we only have data for legion clients, zeroing the coordinates
-        -- and niling out the floors temporarily disables the logic on live
-        if not IsLegion then
-            mapData[WORLDMAP_AZEROTH_ID][1] = 0
-            mapData[WORLDMAP_AZEROTH_ID][2] = 0
-            mapData[WORLDMAP_AZEROTH_ID][3] = 0
-            mapData[WORLDMAP_AZEROTH_ID][4] = 0
-            mapData[WORLDMAP_AZEROTH_ID].floors = {}
-        end
 
         -- alliance draenor garrison
         if mapData[971] then
