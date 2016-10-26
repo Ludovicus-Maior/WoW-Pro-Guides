@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-26 10:10
+-- Who: Emmaleah
+-- Log: Minor changes and adding treasure chest to Statecraft Storyline (44 treasures in the guide)
+
+-- URL: http://wow-pro.com/node/3687/revisions/27958/view
 -- Date: 2016-10-24 03:35
 -- Who: Emmaleah
 -- Log: Fix syntax on N Rep Gated lines, (now works as I envisioned); Pre tags in Waning Crescent, 
@@ -984,7 +989,7 @@ H Shal'Aran|QID|42366|M|36.87,46.60|N|Return to Shal'Aran, Hearth or use Portal 
 T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|N|To First Arcanist Thalyssra.|RANK|2|
 
 ; Blood and Wine storyline. Requires Honored
-N You are Rep Gated|QID|44152|REP|The Nightfallen;1859;unknown-friendly;5999|N|Next Chain requires Honored, so off to do World Quests.|
+N You are Rep Gated|QID|44561|REP|The Nightfallen;1859;unknown-friendly;5999|N|Next Chain requires Honored, so off to do World Quests.|
 t Seed of Hope|QID|44561|M|36.83,46.54|N|To Valewalker Farodin.|
 A Moths to a Flame|QID|42828|REP|The Nightfallen;1859;Honored-Exalted|M|36.83,46.54|N|From Valewalker Farodin.|PRE|42488|
 A Growing Strong|QID|44562|PRE|44561|M|36.83,46.54|N|From Valewalker Farodin.|
@@ -1103,25 +1108,26 @@ $ Treasure Chest|QID|43875|M|54.34,60.32|N|Loot for a bit of treasure and resour
 C Death Becomes Him|QID|43315|M|56.64,60.73|N|Kill Ruven, down at canal level.|T|Ruven|
 T Death Becomes Him|QID|43315|M|57.13,60.76|N|To Arluin.|
 A Rumor Has It|QID|43313|M|57.13,60.76|N|From Arluin.|PRE|43315|
-T Either With Us|QID|43310|M|57.54,57.63|N|To Aurore.|
-A Thinly Veiled Threats|QID|43312|M|57.54,57.63|N|From Aurore.|PRE|43310|
-C Rumor Has It|QID|43313|M|59.21,58.13|CHAT|N|Talk to a Distraught Noble.|
+C Rumor Has It|QID|43313|M|58.80,61.86;59.21,58.13|CS|CHAT|N|Up the stairs and across the bridge to see the Distraught Noble.|
 C Rumor Has It|QID|43313|M|61.90,62.39|CHAT|N|Talk to a Disgruntled Servant.|
 C Rumor Has It|QID|43313|M|58.72,65.45|CHAT|N|Talk to a Shamed Noble.|
-C Thinly Veiled Threats|QID|43312|M|57.98,68.69|CHAT|N|Rescue Ailen.|
+T Either With Us|QID|43310|M|53.41,59.21;57.54,57.63|CS|N|Back down and around to find Aurore.|
+A Thinly Veiled Threats|QID|43312|M|57.54,57.63|N|From Aurore.|PRE|43310|
 T Thinly Veiled Threats|QID|43312|M|57.51,57.61|N|To Aurore.|
 A Vote of Confidence|QID|44040|M|57.51,57.61|N|From Aurore.|PRE|43312|
+C Thinly Veiled Threats|QID|43312|M|57.98,68.69|CHAT|N|Rescue Ailen.|
+$ Glimmering Treasure Chest|QID|43876|M|60.33,68.52|N|There is a see illusion NPC with a buddy guarding this chest.|
 T Rumor Has It|QID|43313|M|47.89,82.99|N|To Ly'leth Lunastre.|
 T Vote of Confidence|QID|44040|M|47.89,82.99|N|To Ly'leth Lunastre.|
 A In the Bag|QID|43317|M|47.89,82.99|N|From Ly'leth Lunastre.|PRE|44040|
-C In the Bag|QID|43317|M|43.48,62.43|N|Witness Ly'leth's Ascension|
+C In the Bag|QID|43317|M|43.48,62.43|NC|N|Run to the Sanctum of Order and Witness Ly'leth's Ascension|
 T In the Bag|QID|43317|M|43.26,62.20|N|To Ly'leth Lunastre.|
 A Ly'leth's Champion|QID|43318|M|43.26,62.20|N|From Ly'leth Lunastre.|PRE|43317|
 C Ly'leth's Champion|QID|43318|M|43.26,62.20|CHAT|N|With Ly'leth Lunastre.|
-C Ly'leth's Champion|QID|43318|M|44.69,63.48|N|Special Actions: 1 - Force Blast, 2 - Spiral Slice, 3 - Spellbreak, 4 - Rewind|
-C Ly'leth's Champion|QID|43318|M|44.18,63.12|QO|2|N|Coryn slain|
+C Ly'leth's Champion|QID|43318|M|44.69,63.48|QO|2|N|Special Actions: 1 - Force Blast, 2 - Spiral Slice, 3 - Spellbreak, 4 - Rewind|
 T Ly'leth's Champion|QID|43318|M|47.93,83.02|N|To Ly'leth Lunastre.|
 A Friends With Benefits|QID|44053|PRE|43318|M|47.84,82.91|N|From Lunastre Attendant.|
+H Shal'Aran|QID|44053|M|47.75,81.38|N|Hearth or use the portal to return to Shal'Aran.|
 T Friends With Benefits|QID|44053|M|36.56,46.77|N|To First Arcanist Thalyssra.|
 
 ;Mythic Dungeon Quests now available
