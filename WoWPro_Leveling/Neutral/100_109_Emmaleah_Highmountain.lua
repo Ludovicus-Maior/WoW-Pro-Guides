@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-10-30 01:19
+-- Who: Emmaleah
+-- Log: Added Treasure chest during evacuating snowmane $42453 but I dont know its not phased out then, need to verify
+
+-- URL: http://wow-pro.com/node/3678/revisions/27952/view
 -- Date: 2016-10-22 23:10
 -- Who: Ludovicus
 -- Log: Zone updates and play through tweaks.
@@ -609,6 +614,7 @@ T Buy Us Time|QID|39777|M|53.35,64.00|N|To Jale Rivermane.|
 T Battle Worms|QID|39776|M|53.27,64.05|N|To Mayla Highmountain.|
 A Evacuate Snowmane|QID|42088|M|53.27,64.05|N|From Mayla Highmountain.|PRE|39862+39777+39776|
 C Evacuate Snowmane|QID|42088|M|52.00,66.66|QO|1|CHAT|N|Red Skymane evacuated.|
+$ Treasure Chest|QID|42453|M|52.54,66.37|N|Loot for some treasure and resources.|RANK|2|;may be phased out here?
 C Evacuate Snowmane|QID|42088|M|53.32,67.10|QO|2|CHAT|N|Tarvim Daywalker evacuated.|
 C Evacuate Snowmane|QID|42088|M|53.32,69.49|QO|3|CHAT|N|Old Nefu evacuated.|
 T Evacuate Snowmane|QID|42088|M|52.29,65.92|N|To Mayla Highmountain.|

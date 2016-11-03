@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-10-28 01:31
+-- Who: Blanckaert
+-- Log: Ooops... forgot |N| tag, I feel 'sheepish' I put |N| in wrong spot... and then put another in... It's fixed now.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27965/view
+-- Date: 2016-10-28 01:30
+-- Who: Blanckaert
+-- Log: Ooops... forgot |N| tag
+
+-- URL: http://wow-pro.com/node/3687/revisions/27964/view
+-- Date: 2016-10-28 01:22
+-- Who: Blanckaert
+-- Log: Added note on Shimmering Ancient Mana Cluster -  Does NOT stack. 
+
+-- URL: http://wow-pro.com/node/3687/revisions/27963/view
+-- Date: 2016-10-28 01:19
+-- Who: Blanckaert
+-- Log: Add Kill King Morgalash, and added 'area' names on a few Treasures in case you missed when in those areas.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27959/view
 -- Date: 2016-10-26 10:10
 -- Who: Emmaleah
 -- Log: Minor changes and adding treasure chest to Statecraft Storyline (44 treasures in the guide)
@@ -399,7 +419,7 @@ $ Enchanted Burial Urn|QID|43986|M|44.83,31.00|U|140326|ITEM|140326|N|Pick this 
 C The Final Ingredient|QID|40319|M|47.85,29.56|N|Kill Latara and retrieve her bow.|
 T The Final Ingredient|QID|40319|M|45.09,30.92|N|To Thaedris Feathersong.|
 A Feathersong's Redemption|QID|40321|M|45.09,30.92|N|From Thaedris Feathersong.|PRE|40319|
-$ Shimmering Ancient Mana Cluster|QID|43744|M|46.50,26.03|N|Underwater, Loot for storable ancient mana.|ITEM|141655|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43744|M|46.50,26.03|N|Underwater, Loot for storable ancient mana. Does NOT stack|ITEM|141655|RANK|2|
 C Feathersong's Redemption|QID|40321|M|44.69,22.91|U|130260|N|Use the poison to weaken her, then kill Cliffclutch Matriarch. |
 $ Treasure Chest|QID|43850|M|44.27,22.86|N|Loot for a bit of treasure.|RANK|2|
 T Feathersong's Redemption|QID|40321|M|44.98,23.84|N|To Thaedris Feathersong.|
@@ -470,7 +490,7 @@ C Into the Crevasse|QID|42227|M|20.43,41.96|QO|1|NC|N|Follow Valewalker Farodin.
 C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Falanaar Tunnels@Suramar|QO|2|N|Enter Falanaar Tunnels.|
 T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|To Valewalker Farodin.|
 A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|From Valewalker Farodin.|PRE|42227|
-$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for some storeable ancient mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for some storeable ancient mana.  Does NOT stack. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
 R Falanaar South Leyline|QID|43593|M|40.99,45.47;45.03,54.61;41.80,66.64|CC|Z|Falanaar Tunnels@Suramar|N|Increases your ancient mana cap and faction is handy|RANK|2|
 A Leyline Feed Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|From/To Leyline Feed.|RANK|2|PRE|41138|
 $ Small Treasure Chest|QID|43840|M|58.33,70.00|Z|Falanaar Tunnels@Suramar|N|Loot for treasure and resources.|RANK|2|
@@ -631,7 +651,7 @@ R Moonfall Overlook|QID|43808|M|29.01,13.11;28.61,14.31;29.61,10.69|CS|N|Run up 
 A Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|From Unpowered Telemancy Beacon.|PRE|40956|
 T Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|To Unpowered Telemancy Beacon.|
 $ Arcane Power Unit|QID|43989|M|35.58,12.04|U|140329|N|Continue up the stairs for an item that raises your mana cap by 100.|
-$ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|N|Keep running along the path for more storable mana.|RANK|3|ITEM|139786|
+$ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|N|Keep running along the path for more storable mana.  Does NOT stack.|RANK|3|ITEM|139786|
 $ Glimmering Treasure Chest|QID|43849|M|42.05,19.69|N|Loot for some treasure and resources.|RANK|3|
 T The Orchestrator of Our Demise|QID|40970|M|30.10,10.37|N|And back down to turn in the quests to Syrana Starweaver.|
 T Overwhelming Distraction|QID|40971|M|30.10,10.37|N|To Syrana Starweaver.|
@@ -666,7 +686,7 @@ $ Small Treasure Chest|QID|43857|M|63.95,48.05;63.65,49.11|CS|N|Inside a small a
 f Crimson Thicket|QID|43587|M|64.23,41.98|N|At Ancient Cloudwing.|
 R Elor'shan|QID|43587|M|65.87,41.89;65.88,42.04|CS|N|Into this cave to activate another Leyline, make sure you have 250 ancient mana on hand.|RANK|2|
 A Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|Suramar/34|N|To Leyline Feed.|RANK|2|PRE|41138|
-$ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Loot for a bit of storable ancient mana.|ITEM|141655|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Loot for a bit of storable ancient mana. Elor'shan Tunnels.  Does NOT stack.|ITEM|141655|RANK|2|
 
 ; Jandvik's Jarl Side Storyline
 R Jandvik|QID|40907|M|64.86,51.05|N|Run to Jandvik for some sideline quests.|
@@ -701,7 +721,7 @@ C Fisherman's Tonic|QID|40334|M|68.89,70.75|QO|1|US|N|Kill Basilisk and loot Axe
 T Fisherman's Tonic|QID|40334|M|73.00,67.60|N|If you like Brandolf's buff, wait to turn in until you are out of the cave, To Brandolf, who is following you.|
 A Testing the Waters|QID|41034|M|73.00,67.60|N|From Brandolf.|PRE|40334|
 C Testing the Waters|QID|41034|M|77.40,69.30;75.89,72.29|CS|QO|2|N|Commander Malt'his is in an underwater cave, find and kill him.|
-$ Shimmering Ancient Mana Cluster|QID|43741|M|79.66,72.88|N|Loot for a storable bit of ancient mana.|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43741|M|79.66,72.88|N|Loot for a storable bit of ancient mana.  Does NOT stack.|RANK|2|
 K Kill Rok'nash|QID|40680|QO|1|M|80.15,70.65|ITEM|140019|T|Rok'nash|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Testing the Waters|QID|41034|M|80.19,64.00|QO|1|N|Kill Commander Raz'jira who is on the seafloor.|
 $ Small Treasure Chest|QID|43860|M|76.87,61.49|N|Inside the hold of a sunken ship, loot for treasure and resources.|RANK|2|
@@ -722,7 +742,7 @@ C Sunken Foes|QID|41425|M|76.46,60.86|S|N|Kill Trenchwalker Scavenger and Sashj'
 C Dry Powder|QID|41410|M|76.14,59.62|S|NC|N|Collect Sealed Powder Kegs.|RANK|2|
 C Breaking Down the Big Guns|QID|41709|M|77.79,60.86|N|Kill Sashj'tar Harpooners to collect Harpoon Parts.|
 C Dry Powder|QID|41410|M|76.14,59.62|US|NC|N|Finish collecting Sealed Powder Kegs.|RANK|2|
-$ Small Treasure Chest|QID|43861|M|81.96,57.46|N|Loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|43861|M|81.96,57.46|N|Loot for a bit of treasure and resources. In Forgalash's Den (underwater cave)|
 C Sunken Foes|QID|41425|M|76.46,60.86|US|N|Finish killing Trenchwalker Scavenger and Sashj'tar Overseers.|RANK|2|
 C Against Their Will|QID|41426|M|76.49,58.03|NC|US|N|Save Possessed Vrykul.|
 T Dry Powder|QID|41410|M|77.52,59.80|N|To Fjolrik.|RANK|2|
@@ -750,10 +770,12 @@ C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|S|N|Kill Sashj'tar naga.|RANK|2|
 C Squid Out of Water|QID|41499|M|80.86,56.94|S|NC|N|Destroy Willbreaker Incubators.|RANK|2|
 C Turning the Tidemistress|QID|40336|M|82.39,58.27|QO|1|NC|N|Build Makeshift Ballista.|RANK|2|
 C Turning the Tidemistress|QID|40336|M|82.64,57.77|QO|2|N|Hop in the Ballista and fire at Tidemistress Sashj'tar. When it falls apart, fight her normally.|RANK|2|
-$ Small Treasure Chest|QID|43862|M|83.98,57.64|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43862|M|83.95,57.62|N|Loot for a bit of treasure and resources. In ruins.|RANK|2|
 C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|US|N|Finish up killing Sashj'tar naga.|RANK|2|
 C Squid Out of Water|QID|41499|M|80.86,56.94|US|NC|N|Destroy Willbreaker Incubators.|RANK|2|
 $ Small Treasure Chest|QID|43863|M|83.12,69.33|N|Run over to the next island and into this small cave for another chest. Loot for a bit of treasure and resources.|RANK|2|
+K Kill King Morgalash|QID|41786|M|87.42,62.35|ITEM|140384|N|Click on the Jandvik Banner, Three waves of mobs till Morg comes out, Can use the Balistas to kill Waves and Boss|RANK|2|
+
 T Shatter the Sashj'tar|QID|41001|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
