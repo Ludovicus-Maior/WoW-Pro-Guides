@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-11-04 15:01
+-- Who: tubera
+-- Log: Move Back From the Dead QO 4 2 steps further for better flow.
+
+-- URL: http://wow-pro.com/node/3657/revisions/27977/view
+-- Date: 2016-11-04 14:04
+-- Who: tubera
+-- Log: Fix Coordinates on Crumbled Palace
+
+-- URL: http://wow-pro.com/node/3657/revisions/27968/view
 -- Date: 2016-10-29 22:09
 -- Who: tubera
 -- Log: Fix QID on "Hard Times"
@@ -309,7 +319,7 @@ $ Small Treasuer Chest|QID|37713|M|44.48,39.47|N|Loot for a bit of treasure and 
 C They Came From the Sea|QID|37256|QO|2|M|47.30,35.41|N|Finish killing naga.|US|
 T They Came From the Sea|QID|37256|M|48.39,34.54|N|To Nightwatcher Idri.|
 A Prince Farondis|QID|37733|M|48.39,34.54|N|From Nightwatcher Idri.|
-R Crumbled Palace|QID|37733|M|41.77,35.80;46.58,39.26|CS|N|Ride over to the Crumbled Palace.|
+R Crumbled Palace|QID|37733|M|46.48,36.53;46.98,41.11|CS|N|Ride over to the Crumbled Palace.|
 T Prince Farondis|QID|37733|M|46.97,41.25|N|To Nightwatcher Idri.|
 A Our Very Bones|QID|37257|M|47.00,41.36|N|From Prince Farondis.|
 A A Rather Long Walk|QID|37492|M|47.06,41.47|N|From Lady Irisse.|
@@ -359,9 +369,9 @@ $ Small Treasure Chest|QID|42287|M|54.40,36.33|N|Loot for a bit of treasure and 
 $ Small Treasure Chest|QID|37596|M|53.03,37.27|N|Loot for a bit of treasure and resources.|RANK|2|
 C Back from the Dead|QID|42694|QO|3|M|55.92,42.47;56.21,42.24|CS|NC|N|Search the eastern colonnade.|RANK|2|
 $ Glimmering Treasure Chest|QID|37830|M|58.36,43.78|ITEM|131795|N|Loot for a bit of treasure and resources.|RANK|2|
-C Back from the Dead|QID|42694|QO|4|M|54.47,45.56|NC|N|Search near the plaza fountain.|RANK|2|
 C Nar'thalas Still Suffers|QID|37486|QO|1|M|55.58,48.10|T|Athissa|N|Defeat Athissa.|
 K Kill Brawlgoth|QID|42450|QO|1|M|55.23,43.95|T|Brawlgoth|N|Silver - Kill and loot for a bit of treasure and resources.|ITEM|129086|RANK|2|
+C Back from the Dead|QID|42694|QO|4|M|54.47,45.56|NC|N|Search near the plaza fountain.|RANK|2|
 T Back from the Dead|QID|42694|M|53.30,45.43|N|To Olothil Starlance.|RANK|2|
 T Nar'thalas Still Suffers|QID|37486|M|51.80,44.31|N|To Prince Farondis.|
 A The Walk of Shame|QID|37467|M|51.80,44.31|N|From Prince Farondis.|
