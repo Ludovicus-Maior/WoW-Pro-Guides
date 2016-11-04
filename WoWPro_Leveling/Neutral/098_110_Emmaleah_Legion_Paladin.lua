@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2016-11-04 05:43
+-- Who: Emmaleah
+-- Log: Add a missing |M| in A 43785
+
+-- URL: http://wow-pro.com/node/3673/revisions/27971/view
 -- Date: 2016-11-01 09:40
 -- Who: Emmaleah
 -- Log: Next step in Light's Heart (go do 80 dungeons) and finish up class hall campaign.
@@ -235,7 +240,7 @@ A A Hero's Weapon|QID|43424|M|72.75,25.66|N|From Lord Maxwell Tyrosus.|PRE|43697
 C A Hero's Weapon|QID|43424|M|71.84,25.06|N|Stand on the dot and use your extra action button.|
 T A Hero's Weapon|QID|43424|M|72.75,25.66|N|To Lord Maxwell Tyrosus.|
 A Champion Lothraxion|QID|43701|M|49.25,74.28|N|From/To Lothraxion. If you didnt pick up these followers by the alter, they have moved to near your command board.|PRE|43424|
-A Champion: Arator the Redeemer|QID|43785|48.81,73.47|N|From/To Arator the Redeemer.|PRE|43424|
+A Champion: Arator the Redeemer|QID|43785|M|48.81,73.47|N|From/To Arator the Redeemer.|PRE|43424|
 
 ;HOLY
 ;A The Mysterious Paladin|QID|42231|M|74.92,48.19|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|

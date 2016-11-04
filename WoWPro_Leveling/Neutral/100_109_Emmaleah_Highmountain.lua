@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-11-04 05:44
+-- Who: Emmaleah
+-- Log: correct spelling of murloc
+
+-- URL: http://wow-pro.com/node/3678/revisions/27969/view
 -- Date: 2016-10-30 01:19
 -- Who: Emmaleah
 -- Log: Added Treasure chest during evacuating snowmane $42453 but I dont know its not phased out then, need to verify
@@ -353,7 +358,7 @@ A Procuring a Prototype|QID|39386|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|
 C That Guy in the Costume|QID|40244|M|40.22,52.69|CHAT|N|Ask Tamara for a ride.|RANK|3|
 f Shipwreck Cove|QID|40050|M|41.91,10.40|N|At Steven Nelson.|RANK|3|
 A Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|N|Auto accepted when you enter the area.|RANK|3|LVL|-109|
-C Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|S|N|Kill the adult Murlocks and click on the boxes of supplies to advance the objective.|RANK|3|
+C Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|S|N|Kill the adult Murlocs and click on the boxes of supplies to advance the objective.|RANK|3|
 T That Guy in the Costume|QID|40244|M|42.74,10.94|N|To King Mrgl-Mrgl.|RANK|3|
 A Nature vs. Nurture|QID|40045|M|42.73,10.94|N|From King Mrgl-Mrgl.|RANK|3|
 A I'll Huff, I'll Puff...|QID|40047|M|42.73,10.94|N|From King Mrgl-Mrgl.|RANK|3|
