@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-11-04 23:27
+-- Who: Blanckaert
+-- Log: moved Grassroots Effort|QID|42884|S|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles, from the All Grell Broke Loose|QID|42883|.  Use item on wrong quest.
+
+-- URL: http://wow-pro.com/node/3665/revisions/27934/view
 -- Date: 2016-10-19 01:08
 -- Who: Ludovicus
 -- Log: Level Tweak
@@ -187,14 +192,14 @@ A All Grell Broke Loose|QID|42883|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Grassroots Effort|QID|42884|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Grell to Pay|QID|42865|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Moist Around the Hedges|QID|42857|M|66.82,75.66|N|From Moist Grizzlecrumb.|RANK|2|
-C Grassroots Effort|QID|42884|S|N|Kill Grell as you search for brambles to untangle.|RANK|2|
+C Grassroots Effort|QID|42884|S|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
 C Moist Around the Hedges|QID|42857|NC|S|N|These are scattered around and drop from the Grell.|RANK|2|
-C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|S|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
+C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|S|N|Kill Grell while going around clearing doorways.|RANK|2|
 $ Undergrell Attack|QID|43176|M|67.12,69.57|ITEM|130133|N|Help an embattled druid out for some treasure and resources.|RANK|2|
 C Grell to Pay|QID|42865|M|68.13,71.58|N|Kill Enderkind|T|Enderkind|RANK|2|
-C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|US|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
+C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|US|N|Kill Grell.|RANK|2|
 C Moist Around the Hedges|QID|42857|M|68.68,73.84|NC|US|N|These are scattered around and drop from the Grell.|RANK|2|
-C Grassroots Effort|QID|42884|M|68.68,73.84|US|N|Kill Grell as you search for brambles to untangle.|RANK|2|
+C Grassroots Effort|QID|42884|M|68.68,73.84|US|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
 T Grell to Pay|QID|42865|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T All Grell Broke Loose|QID|42883|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T Grassroots Effort|QID|42884|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
