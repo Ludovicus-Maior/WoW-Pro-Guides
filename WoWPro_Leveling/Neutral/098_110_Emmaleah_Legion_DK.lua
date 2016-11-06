@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-11-06 21:24
+-- Who: Emmaleah
+-- Log: fixing a few other misformatted lines
+
+-- URL: http://wow-pro.com/node/3668/revisions/27989/view
 -- Date: 2016-11-06 06:52
 -- Who: Emmaleah
 -- Log: Apparently the place is called Acherus... :P
@@ -315,8 +320,8 @@ T Destiny Unfulfilled|QID|44481;44496;44497|M|54.22,74.67|Z|The Heart of Acherus
 A The Hunt for Illidan Stormrage|QID|45174|M|54.13,74.77|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart. Requires Artifact Knowledge >=7.|
 F Illidari Stand|QID|45174|M|25.55,28.86|N|At Grimwing.|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
-A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater.|
-C Soul Prism of the Illidari|QID|45175|N|Run Dungeons until you collect the needed shards.(max 10 shards/week)|
+A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|
+t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|;guessing on turn in
 
 ;lvl 110 DK Campaign
 A The Scarlet Assault|QID|42818|M|50.98,50.74|NA|N|From Highlord Darion Mograine. This is a completed a special instance of the Scarlet Monestary.|PRE|43572|LVL|110|
@@ -362,10 +367,10 @@ A The Fourth Horseman|QID|43686|M|51.06,50.59|N|From Highlord Darion Mograine.|P
 P Dalaran|QID|43686|M|24.91,33.65|N|Use the Dalaran Portal.|ACTIVE|43686|
 P Undercity|QID|43686|M|55.89,22.88|Z|Dalaran@Dalaran70|N|Take the Undercity Portal.|FACTION|HORDE|ACTIVE|43686|
 P Stormwind|QID|43686|M||Z|Dalaran@Dalaran70|N|Take the Stormwind Portal.|FACTION|ALLIANCE|ACTIVE|43686|
-F Light's Hope Chapel|QID|43686|QO|1|71.34,48.14|Z|Eastern Plaguelands|N|Fly over to Light's Hope Chapel.|ACTIVE|43686|
-C |QID|43686|SO|1|M|71.34,48.14|Z|Eastern Plaguelands|NC|N|Land and talk to Darion (or just wait a few seconds)|
-C |QID|43686|SO|2|M|71.34,48.14|Z|Eastern Plaguelands|NC|N|Listen to dialog.|
-C Upon the Hill of No Return|QID|43686|S0|3|M|71.34,48.14|Z|Eastern Plaguelands|CHAT|N|Talk to Darion Mograine to start things off.|
+F Light's Hope Chapel|QID|43686|QO|1|M|71.34,48.14|Z|Eastern Plaguelands|N|Fly over to Light's Hope Chapel.|ACTIVE|43686|
+C Meet up with Darion|QID|43686|SO|1|M|71.34,48.14|Z|Eastern Plaguelands|NC|N|Land and talk to Darion (or just wait a few seconds)|;missed the proper title feel free to change
+C Prepare to attack|QID|43686|SO|2|M|71.34,48.14|Z|Eastern Plaguelands|NC|N|Listen to dialog.|;missed the proper title feel free to change
+C Upon the Hill of No Return|QID|43686|SO|3|M|71.34,48.14|Z|Eastern Plaguelands|CHAT|N|Talk to Darion Mograine to start things off.|
 C The Dead Shall Rise|QID|43686|SO|4|M|77.85,51.41|Z|Eastern Plaguelands|NC|N|Ride into the crypt at Light's Hope Chapel and use the extra action button to raise ghouls at each of the four rooms in the crypt.|
 C The Highlord Awaits|QID|43686|SO|5|M|75.81,52.04|Z|Eastern Plaguelands|NC|N|Exit the crypt and go into the chapel to meet Highlord Morgraine.|
 C The Sanctum of Light|QID|43686|SO|6|M|77.13,48.04|Z|Eastern Plaguelands|N|Now you get to fight. Head down the stairs into the Sanctum of Light.|
@@ -374,7 +379,7 @@ C An Unholy Fate|QID|43686|SO|8|M|78.90,45.28|Z|Eastern Plaguelands|NC|N|Stand o
 C The Fourth Horseman|QID|43686|M|30.36,32.98|NC|N|Watch the vignette and then click on Darion.|
 T The Fourth Horseman|QID|43686|M|30.36,32.98|N|To Highlord Darion Morgraine.|
 t The Frozen Soul|QID|44282|M|58.27,30.86|N|To Amal'thazad.|
-A Champion: Amal'Thazad|QID|44247|M|58.20,31.00|From/To Amal'thazad.|PRE|44482|
+A Champion: Amal'Thazad|QID|44247|M|58.20,31.00|N|From/To Amal'thazad.|PRE|44482|
 A Champion: Darion Mograine|QID|44248|M|26.90,28.78|Z|The Heart of Acherus@BrokenShore|N|From/To Highlord Darion Morgraine, who is on the lower level balcony.|
 A A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Morgraine, who is now by your Soul Forge.|
 C A Hero's Weapon|QID|43407|M|58.50,58.54|Z|The Heart of Acherus@BrokenShore|NC|N|Stand in the designated spot and use your extra action button.|

@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-11-06 15:23
+-- Who: tubera
+-- Log: Change order Zarkhenar Ruins for better flow; adjust a few coordinates.
+--	Move heal Emmigosa step.
+
+-- URL: http://wow-pro.com/node/3657/revisions/27978/view
 -- Date: 2016-11-04 15:01
 -- Who: tubera
 -- Log: Move Back From the Dead QO 4 2 steps further for better flow.
@@ -250,18 +256,24 @@ $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and 
 C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773|LVL|102|
 C The Hunger Returns|QID|37959|M|55.62,17.50|S|N|Kill and loot the nightfallen for their charged mana jewels.|
 
+$ Treasure chest|QID|40711|M|55.56,18.65|N|Click on this ley portal to be teleported to the top of the building where you will find a treasure chest containing an item and some resources.|RANK|2|
 C Leyline Abuse|QID|37960|QO|2|M|56.68,17.60|T|Ishkaneth|
 C Leyline Abuse|QID|37960|QO|1|M|57.68,15.94|T|Tyndrissen|
-$ Treasure chest|QID|40711|M|55.56,18.65|N|Click on this ley portal to be teleported to the top of the building where you will find a treasure chest containing an item and some resources.|RANK|2|
+$ Treasure Chest|QID|37980|M|58.28,16.07;58.38,15.24;58.69,14.14|CS|N|Take the stairs here, follow the path up, then take the ley portal to find a treasure chest. Loot for treaure and resources.|RANK|2|
+
+$ Treasure Chest|QID|37832|M|63.23,15.21|N|WAY out of the way, but this is as close as you get to it. Loot for a bit of treasure and resources.|RANK|3|
+$ Unbound Rift|QID|37932|M|59.74,12.29|QO|1|N|Silver - This vignette is located down in the cravasse. Kill and loot for a bit of resources and treasure.|RANK|2|
+
 C The Hunger Returns|QID|37959|QO|1|M|55.62,17.50|N|Finish up collecting the charged mana jewels.|US|
 T The Hunger Returns|QID|37959|M|53.78,16.80|N|To Runas the Shamed.|
 T Leyline Abuse|QID|37960|M|53.37,16.24|N|To Projection of Senegos.|
 A The Nightborne Prince|QID|37861|M|53.37,16.24|N|From Projection of Senegos.|
 A You Scratch My Back...|QID|37860|M|53.77,16.81|N|From Runas the Shamed.|
-C You Scratch My Back...|QID|37860|QO|3|M|55.49,13.64|NC|N|Click on your special action button to send in the whelplings to disable the northern mana pylon.|
-C You Scratch My Back...|QID|37860|QO|2|M|55.84,14.57|NC|N|Click on your special action button to send in the whelplings to disable the central mana pylon.|
 C You Scratch My Back...|QID|37860|QO|1|M|56.40,15.22|NC|N|Click on your special action button to send in the whelplings to disable the southern mana pylon.|
+C You Scratch My Back...|QID|37860|QO|2|M|55.93,14.3|NC|N|Click on your special action button to send in the whelplings to disable the central mana pylon.|
 C You Scratch My Back...|QID|37860|QO|4|M|57.17,13.86|NC|N|Click on your special action button to send in the whelplings to disable the eastern mana pylon.|
+$ Treasure chest|QID|37958|M|57.89,12.23|N|Treasure chest containing items and resources.|RANK|2|
+C You Scratch My Back...|QID|37860|QO|3|M|55.66,13.01|NC|N|Click on your special action button to send in the whelplings to disable the northern mana pylon.|
 T You Scratch My Back...|QID|37860|M|56.90,14.01|N|To UI Alert.|
 $ Treasure chest|QID|37958|M|57.89,12.23|N|Treasure chest containing items and resources.|RANK|2|
 $ Unbound Rift|QID|37932|M|59.74,12.29|QO|1|N|Silver - This vignette is located down in the cravasse. Kill and loot for a bit of resources and treasure.|RANK|2|
@@ -285,9 +297,9 @@ T Still Alive|QID|37862|M|49.92,26.55|N|To Stellagosa after she lands.|
 A On the Brink|QID|38015|M|49.92,26.55|N|From Stellagosa.|
 A Feasting on the Dragon|QID|38014|M|49.65,26.80|N|From Archmage Khadgar.|
 C Feasting on the Dragon|QID|38014|QO|1|M|48.53,27.61|N|Kill Withered as you find the dragons that need healing.|S|
+C On the Brink|QID|38015|U|138146|QO|3|M|47.99,27.14|NC|N|Use the crystal to heal Emmigosa.|
 C On the Brink|QID|38015|U|138146|QO|2|M|47.24,26.42|NC|N|Use the crystal to heal Kharmeera.|
 C On the Brink|QID|38015|U|138146|QO|1|M|48.65,27.92|NC|N|Use the crystal to heal Cedonu.|
-C On the Brink|QID|38015|U|138146|QO|3|M|47.99,27.14|NC|N|Use the crystal to heal Emmigosa.|
 C On the Brink|QID|38015|U|138146|QO|4|M|49.65,25.07|NC|N|Use the crystal to heal Berazus.|
 C Feasting on the Dragon|QID|38014|QO|1|M|48.53,27.61|N|Finish killing Withered.|US|
 T Feasting on the Dragon|QID|38014|M|49.65,26.83|N|To Archmage Khadgar.|
