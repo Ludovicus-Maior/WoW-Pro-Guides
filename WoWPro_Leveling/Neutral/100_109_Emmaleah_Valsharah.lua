@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-11-05 10:17
+-- Who: Emmaleah
+-- Log: Added talking to Antydas for the Adventurer of Val'sharah ach.
+
+-- URL: http://wow-pro.com/node/3665/revisions/27981/view
 -- Date: 2016-11-04 23:27
 -- Who: Blanckaert
 -- Log: moved Grassroots Effort|QID|42884|S|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles, from the All Grell Broke Loose|QID|42883|.  Use item on wrong quest.
@@ -206,6 +211,7 @@ T Grassroots Effort|QID|42884|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T Moist Around the Hedges|QID|42857|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 
 R Whispering Bluffs|QID|38900|M|64.69,81.13|N|Continuing on our way towards Steelclaw Vale.|RANK|2|
+$ Antydas Nightcaller|QID|38903|M|64.36,84.67|CHAT|N|Upstairs, asleep on a bed, click to try to wake.  He won't wake up, but does mumble about where the treasure is (which is next treasure).This is for adventurer of Val'sharah achievement - no actual reward.|RANK|2|
 $ Treasure|QID|38900|M|64.55,85.46|N|Upstairs, under slanting roof. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39089|M|61.01,79.17|N|Small alcove at the base of the cliff. Loot for a bit of treasure and resources.|RANK|3|
 

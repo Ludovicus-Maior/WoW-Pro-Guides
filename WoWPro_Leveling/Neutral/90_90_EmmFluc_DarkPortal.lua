@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2016-11-06 03:50
+-- Who: Emmaleah
+-- Log: Changed Guide registered zone to TanaanJungleIntro
+--	Added GuideName to registration
+--	because the guide checker throws an error with the alternatively acceptable guide name in the guide zone location the way some older guides have it (before guidename existed)
+
+-- URL: http://wow-pro.com/node/3600/revisions/27323/view
 -- Date: 2015-07-05 18:14
 -- Who: Ludovicus
 -- Log: Not enough slash
@@ -149,7 +156,8 @@
 -- Date: 2014-09-19 18:17
 -- Who: Fluclo
 
-local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'Assault on the Dark Portal', 'Emm+Fluc', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'TanaanJungleIntro', 'Emm+Fluc', 'Neutral')
+WoWPro:GuideName(guide, 'Assault on the Dark Portal')
 WoWPro:GuideLevels(guide,90,90,90)
 WoWPro:GuideIcon(guide,"ICON","Inferface\\ICONS\\Achievement_Dungeon_Outland_DungeonMaster")
 WoWPro:GuideNextGuide(guide, 'ShadowDraenor|EmmFrostfire')

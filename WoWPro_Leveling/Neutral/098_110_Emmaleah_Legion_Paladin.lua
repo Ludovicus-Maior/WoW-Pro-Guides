@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2016-11-05 10:19
+-- Who: Emmaleah
+-- Log: Add The Power within.
+
+-- URL: http://wow-pro.com/node/3673/revisions/27975/view
 -- Date: 2016-11-04 05:43
 -- Who: Emmaleah
 -- Log: Add a missing |M| in A 43785
@@ -241,6 +246,12 @@ C A Hero's Weapon|QID|43424|M|71.84,25.06|N|Stand on the dot and use your extra 
 T A Hero's Weapon|QID|43424|M|72.75,25.66|N|To Lord Maxwell Tyrosus.|
 A Champion Lothraxion|QID|43701|M|49.25,74.28|N|From/To Lothraxion. If you didnt pick up these followers by the alter, they have moved to near your command board.|PRE|43424|
 A Champion: Arator the Redeemer|QID|43785|M|48.81,73.47|N|From/To Arator the Redeemer.|PRE|43424|
+
+A The Power Within|QID|43496|M|37.76,54.82|N|From Image of Kalec. prereq either AK>=10 or finishing paladin campaign.|
+P Dalaran|QID|43496|M|37.53,64.07|N|Take the portal to Dalaran from your order hall.|
+F Azurewing Repose|QID|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
 ;HOLY
 ;A The Mysterious Paladin|QID|42231|M|74.92,48.19|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|
