@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2016-11-06 22:19
+-- Who: Ludovicus
+-- Log: Dont set bogus 666 faction on Icecrown Dailies.
+
+-- URL: http://wow-pro.com/node/3405/revisions/26605/view
 -- Date: 2014-07-25 21:44
 -- Who: Ludovicus
 -- Log: Adj mean
@@ -74,7 +79,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoIceDaily",'Dailies', "Icecrown", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,77,77,77)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Money"
+WoWPro.Dailies:GuideNameAndCategory(guide,"Icecrown Dailies","Money")
 WoWPro:GuideSteps(guide, function()
 return [[
 

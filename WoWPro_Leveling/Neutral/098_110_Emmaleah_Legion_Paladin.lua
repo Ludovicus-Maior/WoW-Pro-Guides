@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2016-11-06 22:20
+-- Who: Ludovicus
+-- Log: Z|Stormwind City| !
+
+-- URL: http://wow-pro.com/node/3673/revisions/27983/view
 -- Date: 2016-11-05 10:19
 -- Who: Emmaleah
 -- Log: Add The Power within.
@@ -442,7 +447,7 @@ A In My Father's House|QID|44480|M|52.46,69.29|N|From Light's Heart. Requires Ar
 P Dalaran|QID|44480|M|38.11,63.38|N|Click on the portal to Dalaran.|
 P Orgrimar|QID|44480|M|38.11,63.38|Z|Dalaran@Dalaran70|N|Click on the portal to Orgrimar.|FACTION|HORDE|
 P Stormwind|QID|44480|M|0,0|Z|Dalaran@Dalaran70|N|Click on the portal to Stormwind.|FACTION|ALLIANCE|
-P Mt Hyjal|QID|44480|M|0,0|Z|Stormwind|N|Click on the portal to Mt Hyjal.|FACTION|ALLIANCE|
+P Mt Hyjal|QID|44480|M|0,0|Z|Stormwind City|N|Click on the portal to Mt Hyjal.|FACTION|ALLIANCE|
 R Temple of Zin-Malor - Azshara|QID|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
 T In My Father's House|QID|44480|M|52.46,69.29|N|Return to Light's Heart in your order hall.|

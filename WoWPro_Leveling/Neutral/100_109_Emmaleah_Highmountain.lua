@@ -4,6 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-11-07 06:17
+-- Who: Emmaleah
+-- Log: Changed first Fly to Thunder Totem to an "F" Step.
+
+-- URL: http://wow-pro.com/node/3678/revisions/27994/view
+-- Date: 2016-11-07 06:11
+-- Who: Emmaleah
+-- Log: added line for treasure in Dargul's cavern ($43489)
+--	updated zone name for $40471
+--	eliminated |CC| on R Path of Sky
+
+-- URL: http://wow-pro.com/node/3678/revisions/27976/view
 -- Date: 2016-11-04 05:44
 -- Who: Emmaleah
 -- Log: correct spelling of murloc
@@ -118,12 +130,12 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Starting in Dalaran|QID|39733|U|140192|N|This guide assumes you are starting in Dalaran. |
-N Treasure|QID|39733|N|All the treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 1.|
+N Treasure|QID|39733|N|All the treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3.|
 N Rares (Silver Elite)|QID|39733|N|A significant number,(21/25) of the Silver mobs are listed.  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|QID|39733|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure in the zone.*no treasures, rares or bonus objectives are included on rank 1*|
 T The Lone Mountain|QID|39733|M|71.13,43.96|Z|Dalaran@Dalaran70|N|To Warbrave Oro.|
 A Keepers of the Hammer|QID|38907|M|71.13,43.96|Z|Dalaran@Dalaran70|N|From Warbrave Oro.|PRE|39733|
-C Keepers of the Hammer|QID|38907|M|69.95,51.20|Z|Dalaran@Dalaran70|QO|1|NC|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|
+F Thunder Totem|QID|38907|M|69.95,51.20|Z|Dalaran@Dalaran70|QO|1|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|
 C Keepers of the Hammer|QID|38907|M|45.70,38.88|Z|ThunderTotem|QO|2|NC|N|Meet Warbrave Oro at Thunder Totem.|
 R Elevator Down|QID|38907|M|49.33,45.94|CC|Z|ThunderTotem|N|Run over to the elevator and down below to find Mayla.|
 T Keepers of the Hammer|QID|38907|M|54.91,63.23|Z|Highmountain/6|CS|N|To Mayla Highmountain.|
@@ -204,8 +216,9 @@ C Bitestone Enclave|QID|39043|M|84.05,46.57|Z|Highmountain/5|N|Kill Basalisks an
 T Bitestone Enclave|QID|39043|M|47.32,44.53|Z|Highmountain/5|N|To Warbrave Oro.|
 A Dargrul and the Hammer|QID|39027|M|47.32,44.53|Z|Highmountain/5|N|From Warbrave Oro.|PRE|39043|
 C Dargrul and the Hammer|QID|39027|M|66.48,49.66|QO|1|Z|Highmountain/5|NC|N|Follow Warbrave Oro to confront Dargrul. When he encases you in rock, click on it to break free.|
-C Dargrul and the Hammer|QID|39027|M|15.25,26.78|QO|2|Z|Highmountain/5|NC|N|There is a Treasure chest up where Dargrul was.  You will have to kill 15-20 mobs to get it, so I'm not sure its worth it.  Run out of the cavern.|
-f Sylvan Falls|QID|39025|M|35.88,65.93|N|Run past the turn in because it goes to an escort quest. Get the flightpath at Roren Longshadow.|
+$ Treasure Chest|QID|40489|M|85.62,38.38|N|There is a Treasure chest up where Dargrul was.  You will have to kill 15-20 mobs to get it, so I'm not sure its worth it. Check off manually if you don't want to go up there.|RANK|3|
+C Dargrul and the Hammer|QID|39027|M|15.25,26.78|QO|2|Z|Highmountain/5|NC|N|Run out of the cavern.|
+f Sylvan Falls|QID|40488|M|35.88,65.93|N|Run past the turn in because it goes to an escort quest. Get the flightpath at Roren Longshadow.|
 $ Treasure Chest|QID|40488|M|36.61,62.13|N|Loot for a bit of treasure and resources.|RANK|2|
 T Dargrul and the Hammer|QID|39027|M|38.60,68.44|N|To Spiritwalker Ebonhorn.|
 A Get to High Ground|QID|38909|M|38.60,68.44|N|From Spiritwalker Ebonhorn.|PRE|39027|
@@ -216,13 +229,13 @@ T Get to High Ground|QID|38909|M|54.67,63.02|Z|Highmountain/6|N|To Mayla Highmou
 A The Bloodtotem Tribe|QID|38912|M|54.67,63.02|Z|Highmountain/6|N|From Mayla Highmountain.|PRE|38909|
 A The Skyhorn Tribe|QID|38913|M|54.67,63.02|Z|Highmountain/6|N|From Mayla Highmountain.|PRE|38909|
 A A Walk With the Spirits|QID|40515|M|54.67,63.02|Z|Highmountain/6|N|From Mayla Highmountain.|PRE|38909|
-$ Treasure Chest|QID|40471|M|62.04,67.25|Z|ThunderTotem|N|Jump in the water and loot for a bit of treasure and resources.|RANK|2|
+$ Treasure Chest|QID|40471|M|62.04,67.25|Z|Highmountain/6|N|Jump in the water and loot for a bit of treasure and resources.|RANK|2|
 T A Walk With the Spirits|QID|40515|M|74.73,74.63|Z|Highmountain/6|N|To Spiritwalker Ebonhorn.|
 A The Story of Huln|QID|40167|M|74.73,74.63|Z|Highmountain/6|N|From Spiritwalker Ebonhorn.|PRE|40515|
 C The Story of Huln|QID|40167|M|74.73,74.63|Z|Highmountain/6|CHAT|N|The Story of Huln witnessed.|
 T The Story of Huln|QID|40167|M|74.73,74.63|Z|Highmountain/6|N|To Spiritwalker Ebonhorn.|
 A To See the Past|QID|40520|M|74.73,74.63|Z|Highmountain/6|N|From Spiritwalker Ebonhorn.|PRE|40167|
-R Path of Sky|QID|40520|M|50.50,38.94|CC|Z|Highmountain/6|N|Run out this doorway.|
+R Path of Sky|QID|40520|M|50.50,38.94|Z|Highmountain/6|N|Run out this doorway.|
 C To See the Past|QID|40520|M|35.31,23.53|Z|ThunderTotem|QO|1|NC|N|Buy the bottle of Airspark from Lanna Skyspark.|
 C To See the Past|QID|40520|M|57.76,10.92|Z|ThunderTotem|QO|2|NC|N|Click on the sparkling place at the base of the falls.|
 K Kill Sekhan|QID|40681|QO|1|M|45.15,56.30|T|Sekhan|N|Rare to kill for treasure and resources.|RANK|2|

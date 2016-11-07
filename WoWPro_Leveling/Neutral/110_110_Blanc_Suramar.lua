@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-07 02:26
+-- Who: Emmaleah
+-- Log: added my edits to change of seasons, lockdown and missing persons storyarcs, mainly rearranged Bringing Home the Beacon, Flow Control and EMP.  Simplified All In (not sure on zone for this, green dots not in correct places, but /wp where said it was arcwayscenario/1 as recorded) Finished adding treasure... 46 in guide.  Took WIP message from beginning and added RANKS and Treasures notes.
+
+-- URL: http://wow-pro.com/node/3687/revisions/27980/view
 -- Date: 2016-11-04 19:57
 -- Who: Blanckaert
 -- Log: Storyline Lockdown and Missing person Quests added.
@@ -243,11 +248,12 @@ WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
 WoWPro:GuideSteps(guide, function()
+
 return [[
 
 L This guide (and the Suramar zone) requires level 110|LVL|110|
-N Suramar|N|This guide is still a work in progress. *Untested for alliance, may be some quest differances*. There will be errors, Flow may be wrong. Use at your own risk.|
-
+N Use of Ranks|QID|39987|N|If you would rather do the optional quests on your own, as you come across them on world quests set your quide to rank 2.|
+N Treasures and Rares|QID|39987|N|As with other guides all treasures and rares are set to rank 2 - or for the really out of the way ones, rank 3.|
 ; Main Storyline, Opening of Suramar
 A Khadgar's Discovery|QID|44555;39985|N|Auto Accepted from UI upon entering Dalaran.|
 T Khadgar's Discovery|QID|44555;39985|M|28.47,48.31|Z|Dalaran@Dalaran70|N|To Archmage Khadgar in the Violet Citadel.|
@@ -335,7 +341,7 @@ C Kel'danath's Legacy|QID|41760|M|34.81,51.69|N|Use your extra action button to 
 T Kel'danath's Legacy|QID|41760|M|36.56,46.93|N|To First Arcanist Thalyssra.|
 A Sympathizers Among the Shal'dorei|QID|41762|M|36.56,46.93|N|From First Arcanist Thalyssra.|PRE|41760|
 
-; Chief Temelancer Oculeth Story Line.
+; Chief Telelancer Oculeth Story Line.
 C Oculeth's Workshop|QID|40011|M|49.31,48.18|NC|U|132883|N|Use Extra Action button to show Token to Oculeth.|
 T Oculeth's Workshop|QID|40011|M|49.66,48.13|N|To Chief Telemancer Oculeth.|
 A The Delicate Art of Telemancy|QID|40747|M|49.66,48.13|N|From Chief Telemancer Oculeth.|PRE|40011|
@@ -425,12 +431,12 @@ A End of the Line|QID|40315|M|45.07,30.89|N|From Thaedris Feathersong.|PRE|40306
 C End of the Line|QID|40315|M|45.07,30.89|CHAT|N|Speak with Thaedris.|
 T End of the Line|QID|40315|M|45.07,30.89|N|To Thaedris Feathersong.|
 A The Final Ingredient|QID|40319|M|45.07,30.89|N|From Thaedris Feathersong.|PRE|40315|
-$ Enchanted Burial Urn|QID|43986|M|44.83,31.00|U|140326|ITEM|140326|N|Pick this up and click it to add 100 to your ancient mana cap. |
+$ Enchanted Burial Urn|QID|43986|M|44.83,31.00|U|140326|ITEM|140326|N|Pick this up and click it to add 100 to your ancient mana cap.|
 C The Final Ingredient|QID|40319|M|47.85,29.56|N|Kill Latara and retrieve her bow.|
 T The Final Ingredient|QID|40319|M|45.09,30.92|N|To Thaedris Feathersong.|
 A Feathersong's Redemption|QID|40321|M|45.09,30.92|N|From Thaedris Feathersong.|PRE|40319|
-$ Shimmering Ancient Mana Cluster|QID|43744|M|46.50,26.03|N|Underwater, Loot for storable ancient mana. Does NOT stack|ITEM|141655|RANK|2|
-C Feathersong's Redemption|QID|40321|M|44.69,22.91|U|130260|N|Use the poison to weaken her, then kill Cliffclutch Matriarch. |
+$ Shimmering Ancient Mana Cluster|QID|43744|M|46.50,26.03|N|Underwater, Loot for storable NON stacking ancient mana.|ITEM|141655|RANK|2|
+C Feathersong's Redemption|QID|40321|M|44.69,22.91|U|130260|N|Use the poison to weaken her, then kill Cliffclutch Matriarch.|
 $ Treasure Chest|QID|43850|M|44.27,22.86|N|Loot for a bit of treasure.|RANK|2|
 T Feathersong's Redemption|QID|40321|M|44.98,23.84|N|To Thaedris Feathersong.|
 A Tel'anor'eporter Online!|QID|43809|M|45.01,30.27;45.17,32.19;42.02,35.25|CS|N|Run back to where Theadris was, down the spiral stairs, towards an Unpowered Telemancy Beacon.|PRE|40956|
@@ -500,7 +506,7 @@ C Into the Crevasse|QID|42227|M|20.43,41.96|QO|1|NC|N|Follow Valewalker Farodin.
 C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Falanaar Tunnels@Suramar|QO|2|N|Enter Falanaar Tunnels.|
 T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|To Valewalker Farodin.|
 A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|From Valewalker Farodin.|PRE|42227|
-$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for some storeable ancient mana.  Does NOT stack. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for storable NON stacking ancient mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
 R Falanaar South Leyline|QID|43593|M|40.99,45.47;45.03,54.61;41.80,66.64|CC|Z|Falanaar Tunnels@Suramar|N|Increases your ancient mana cap and faction is handy|RANK|2|
 A Leyline Feed Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|From/To Leyline Feed.|RANK|2|PRE|41138|
 $ Small Treasure Chest|QID|43840|M|58.33,70.00|Z|Falanaar Tunnels@Suramar|N|Loot for treasure and resources.|RANK|2|
@@ -606,7 +612,7 @@ T Leyline Feed: Ley Station Aethenar|QID|43591|M|22.50,15.52|N|To Leyline Feed.|
 A Fate of the Guard|QID|40883|M|27.83,21.17|N|From Thalrenus Rivertree.|PRE|42229|
 A Sigil Reclamation|QID|41030|M|26.68,17.20|O|U|133968|N|From Moonguard Sigil you just looted.|PRE|42229|
 C Sigil Reclamation|QID|41030|M|26.68,17.20|S|N|Kill Nightborne to loot more Sigils.|
-$ Small Treasure Chest|QID|43847|M|26.82,16.96|N|Loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|43847|M|26.82,16.96|N|Loot for a bit of treasure and resources.|RANK|2|
 C Fate of the Guard|QID|40883|M|27.45,17.33|QO|1|NC|N|Find and click on Nyellus Starweaver.|
 A Not Their Last Stand|QID|40949|M|29.69,18.64|N|From Ivanel Meadowsong.|PRE|42229|
 C Not Their Last Stand|QID|40949|M|30.34,17.49|NC|N|Click on the Hippogryphs to send them away.|
@@ -661,7 +667,7 @@ R Moonfall Overlook|QID|43808|M|29.01,13.11;28.61,14.31;29.61,10.69|CS|N|Run up 
 A Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|From Unpowered Telemancy Beacon.|PRE|40956|
 T Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|To Unpowered Telemancy Beacon.|
 $ Arcane Power Unit|QID|43989|M|35.58,12.04|U|140329|N|Continue up the stairs for an item that raises your mana cap by 100.|
-$ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|N|Keep running along the path for more storable mana.  Does NOT stack.|RANK|3|ITEM|139786|
+$ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|N|Keep running along the path for storable NON stacking ancient mana.|RANK|3|ITEM|139786|
 $ Glimmering Treasure Chest|QID|43849|M|42.05,19.69|N|Loot for some treasure and resources.|RANK|3|
 T The Orchestrator of Our Demise|QID|40970|M|30.10,10.37|N|And back down to turn in the quests to Syrana Starweaver.|
 T Overwhelming Distraction|QID|40971|M|30.10,10.37|N|To Syrana Starweaver.|
@@ -696,7 +702,7 @@ $ Small Treasure Chest|QID|43857|M|63.95,48.05;63.65,49.11|CS|N|Inside a small a
 f Crimson Thicket|QID|43587|M|64.23,41.98|N|At Ancient Cloudwing.|
 R Elor'shan|QID|43587|M|65.87,41.89;65.88,42.04|CS|N|Into this cave to activate another Leyline, make sure you have 250 ancient mana on hand.|RANK|2|
 A Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|Suramar/34|N|To Leyline Feed.|RANK|2|PRE|41138|
-$ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Loot for a bit of storable ancient mana. Elor'shan Tunnels.  Does NOT stack.|ITEM|141655|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Before you leave Elor'shan Tunnels, loot for storable NON stacking ancient mana.|ITEM|141655|RANK|2|
 
 ; Jandvik's Jarl Side Storyline
 R Jandvik|QID|40907|M|64.86,51.05|N|Run to Jandvik for some sideline quests.|
@@ -705,7 +711,7 @@ C Removing Obstacles|QID|40907|M|68.92,52.32|QO|1|N|Kill Calder.|
 C Removing Obstacles|QID|40907|M|69.07,47.26|QO|2|N|Kill Eynar.|
 T Removing Obstacles|QID|40907|M|70.57,48.85|N|To Toryl.|
 A Jarl Come Back Now|QID|40908|M|70.62,48.85|N|From Toryl.|PRE|40907|
-$ Small Treasure Chest|QID|43859|M|71.46,49.77|N|At the top of the tower in front of Toryl.|
+$ Small Treasure Chest|QID|43859|M|71.46,49.77|N|At the top of the tower in front of Toryl.|RANK|2|
 T Jarl Come Back Now|QID|40908|M|68.91,54.05|N|To Jarl Throndyr.|
 A Beach Bonfire|QID|40332|M|68.91,54.05|N|From Jarl Throndyr.|PRE|40908|
 A Band of Blood Brothers|QID|40320|M|68.98,54.12|N|From Brandolf.|PRE|40908|
@@ -731,7 +737,7 @@ C Fisherman's Tonic|QID|40334|M|68.89,70.75|QO|1|US|N|Kill Basilisk and loot Axe
 T Fisherman's Tonic|QID|40334|M|73.00,67.60|N|If you like Brandolf's buff, wait to turn in until you are out of the cave, To Brandolf, who is following you.|
 A Testing the Waters|QID|41034|M|73.00,67.60|N|From Brandolf.|PRE|40334|
 C Testing the Waters|QID|41034|M|77.40,69.30;75.89,72.29|CS|QO|2|N|Commander Malt'his is in an underwater cave, find and kill him.|
-$ Shimmering Ancient Mana Cluster|QID|43741|M|79.66,72.88|N|Loot for a storable bit of ancient mana.  Does NOT stack.|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43741|M|79.66,72.88|N|Loot for storable NON stacking ancient mana.|RANK|2|
 K Kill Rok'nash|QID|40680|QO|1|M|80.15,70.65|ITEM|140019|T|Rok'nash|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Testing the Waters|QID|41034|M|80.19,64.00|QO|1|N|Kill Commander Raz'jira who is on the seafloor.|
 $ Small Treasure Chest|QID|43860|M|76.87,61.49|N|Inside the hold of a sunken ship, loot for treasure and resources.|RANK|2|
@@ -752,7 +758,7 @@ C Sunken Foes|QID|41425|M|76.46,60.86|S|N|Kill Trenchwalker Scavenger and Sashj'
 C Dry Powder|QID|41410|M|76.14,59.62|S|NC|N|Collect Sealed Powder Kegs.|RANK|2|
 C Breaking Down the Big Guns|QID|41709|M|77.79,60.86|N|Kill Sashj'tar Harpooners to collect Harpoon Parts.|
 C Dry Powder|QID|41410|M|76.14,59.62|US|NC|N|Finish collecting Sealed Powder Kegs.|RANK|2|
-$ Small Treasure Chest|QID|43861|M|81.96,57.46|N|Loot for a bit of treasure and resources. In Forgalash's Den (underwater cave)|
+$ Small Treasure Chest|QID|43861|M|81.96,57.46|N|Loot for a bit of treasure and resources.|RANK|2|
 C Sunken Foes|QID|41425|M|76.46,60.86|US|N|Finish killing Trenchwalker Scavenger and Sashj'tar Overseers.|RANK|2|
 C Against Their Will|QID|41426|M|76.49,58.03|NC|US|N|Save Possessed Vrykul.|
 T Dry Powder|QID|41410|M|77.52,59.80|N|To Fjolrik.|RANK|2|
@@ -780,12 +786,11 @@ C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|S|N|Kill Sashj'tar naga.|RANK|2|
 C Squid Out of Water|QID|41499|M|80.86,56.94|S|NC|N|Destroy Willbreaker Incubators.|RANK|2|
 C Turning the Tidemistress|QID|40336|M|82.39,58.27|QO|1|NC|N|Build Makeshift Ballista.|RANK|2|
 C Turning the Tidemistress|QID|40336|M|82.64,57.77|QO|2|N|Hop in the Ballista and fire at Tidemistress Sashj'tar. When it falls apart, fight her normally.|RANK|2|
-$ Small Treasure Chest|QID|43862|M|83.95,57.62|N|Loot for a bit of treasure and resources. In ruins.|RANK|2|
+$ Small Treasure Chest|QID|43862|M|83.98,57.64|N|Loot for a bit of treasure and resources.|RANK|2|
 C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|US|N|Finish up killing Sashj'tar naga.|RANK|2|
 C Squid Out of Water|QID|41499|M|80.86,56.94|US|NC|N|Destroy Willbreaker Incubators.|RANK|2|
 $ Small Treasure Chest|QID|43863|M|83.12,69.33|N|Run over to the next island and into this small cave for another chest. Loot for a bit of treasure and resources.|RANK|2|
 K Kill King Morgalash|QID|41786|M|87.42,62.35|ITEM|140384|N|Click on the Jandvik Banner, Three waves of mobs till Morg comes out, Can use the Balistas to kill Waves and Boss|RANK|2|
-
 T Shatter the Sashj'tar|QID|41001|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
@@ -1040,6 +1045,7 @@ C The Fruit of Our Efforts|QID|42832|M|56.01,51.93|QO|2|NC|N|Click on Supple Nec
 C The Fruit of Our Efforts|QID|42832|M|56.01,51.93|QO|3|NC|N|Click on Unctuous Draught Sample.|
 T The Fruit of Our Efforts|QID|42832|M|56.01,51.93|N|To Margaux.|
 A How It's Made: Arcwine|QID|42833|M|56.01,51.93|N|From Margaux.|PRE|42832|
+$ Small Treasure Chest|QID|43871|M|55.68,54.82|N|Behind the aging chamber, Loot chest for a bit of treasure and resources.|RANK|2|
 C How It's Made: Arcwine|QID|42833|M|55.95,53.45|QO|1|CHAT|N|Chat with Margaux, at Aging Chamber|
 C How It's Made: Arcwine|QID|42833|M|57.24,54.20|QO|2|CHAT|N|Chat with Margaux, at Small Orchard|
 C How It's Made: Arcwine|QID|42833|M|58.13,55.59|QO|3|CHAT|N|Wait for short vignette, then chat with Margaux, at Distribution Center|
@@ -1136,7 +1142,7 @@ C Or Against Us|QID|43311|CC|M|46.64,80.07;45.69,76.41;48.23,74.91;48.56,73.47;4
 C Or Against Us|QID|43311|M|48.95,73.41|QO|2|CHAT|N|Arluin Paid 1,200 Ancient Mana|
 T Or Against Us|QID|43311|M|48.95,73.41|N|To Arluin.|
 A Death Becomes Him|QID|43315|M|48.95,73.41|N|From Arluin.|PRE|43311|
-$ Treasure Chest|QID|43875|M|54.34,60.32|N|Loot for a bit of treasure and resources.|
+$ Treasure Chest|QID|43875|M|54.34,60.32|N|Loot for a bit of treasure and resources.|RANK|2|
 C Death Becomes Him|QID|43315|M|56.64,60.73|N|Kill Ruven, down at canal level.|T|Ruven|
 T Death Becomes Him|QID|43315|M|57.13,60.76|N|To Arluin.|
 A Rumor Has It|QID|43313|M|57.13,60.76|N|From Arluin.|PRE|43315|
@@ -1147,12 +1153,13 @@ T Either With Us|QID|43310|M|53.41,59.21;57.54,57.63|CS|N|Back down and around t
 A Thinly Veiled Threats|QID|43312|M|57.54,57.63|N|From Aurore.|PRE|43310|
 T Thinly Veiled Threats|QID|43312|M|57.51,57.61|N|To Aurore.|
 A Vote of Confidence|QID|44040|M|57.51,57.61|N|From Aurore.|PRE|43312|
+$ Treasure Chest|QID|43873|M|57.32,60.39|N|There is a see illusion NPC with some buddies guarding this chest.|RANK|2|
 C Thinly Veiled Threats|QID|43312|M|57.98,68.69|CHAT|N|Rescue Ailen.|
-$ Glimmering Treasure Chest|QID|43876|M|60.33,68.52|N|There is a see illusion NPC with a buddy guarding this chest.|
+$ Glimmering Treasure Chest|QID|43876|M|60.33,68.52|N|There is a see illusion NPC with a buddy guarding this chest.|RANK|2|
 T Rumor Has It|QID|43313|M|47.89,82.99|N|To Ly'leth Lunastre.|
 T Vote of Confidence|QID|44040|M|47.89,82.99|N|To Ly'leth Lunastre.|
 A In the Bag|QID|43317|M|47.89,82.99|N|From Ly'leth Lunastre.|PRE|44040|
-C In the Bag|QID|43317|M|43.48,62.43|NC|N|Run to the Sanctum of Order and Witness Ly'leth's Ascension|
+C In the Bag|QID|43317|M|43.48,62.43|NC|N|Run to the Sanctum of Order and Witness Ly'leth's Ascension.|
 T In the Bag|QID|43317|M|43.26,62.20|N|To Ly'leth Lunastre.|
 A Ly'leth's Champion|QID|43318|M|43.26,62.20|N|From Ly'leth Lunastre.|PRE|43317|
 C Ly'leth's Champion|QID|43318|M|43.26,62.20|CHAT|N|With Ly'leth Lunastre.|
@@ -1175,18 +1182,17 @@ A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|N|From Valewalker 
 ;A Growing Crisis Story Arc
 N You are Rep Gated|QID|44152|REP|The Nightfallen;1859;unknown-revered;6999|N|Next Chain requires 7K into Revered, so off to do World Quests.|
 A A Growing Crisis|QID|44152|REP|The Nightfallen;1859;revered;7000|PRE|44053|M|36.54,46.77|N|From Valewalker Farodin.|
-P Portal to Fal'adora|QID|44152|M|35.94,45.55|N|Take the Portal to Fal'adora|
-A Skittering Subjects|QID|42090|M|21.95,29.23|N|UI Alert: World Quest|
-T A Growing Crisis|QID|44152|M|22.05,29.22|N|To Valewalker Farodin.|
-A Fragments of Disaster|QID|43361|M|22.05,29.22|N|From Valewalker Farodin.|
-A The Shardmaidens|QID|43360|M|22.05,29.22|N|From Valewalker Farodin.|
-C Fragments of Disaster|QID|43361|QO|1|N|Collect Crystallized Bough (Crystallized Bark)|
-C The Shardmaidens|QID|43360|M|20.70,33.59|QO|1|N|6/6 Shardmaiden slain|
-T Skittering Subjects|QID|42090|N|UI Alert: Auto turn-in|
-T Fragments of Disaster|QID|43361|M|22.02,29.22|N|To Valewalker Farodin, back at the portal you came in.|
-T The Shardmaidens|QID|43360|M|22.02,29.22|N|To Valewalker Farodin.|
-A Another Arcan'dor Closes...|QID|44156|M|22.02,29.22|N|From Valewalker Farodin.|
-P Portal to Shal'Aran|QID|44156|M|22.02,29.22|N|Take the portal back to Shal'Aran|
+P Portal to Falanaar|QID|44152|M|35.94,45.55|N|Take the Portal to Fal'adora|
+T A Growing Crisis|QID|44152|M|22.05,29.22|Z|Suramar/32|N|To Valewalker Farodin.|
+A Fragments of Disaster|QID|43361|M|22.05,29.22|Z|Suramar/32|N|From Valewalker Farodin.|
+A The Shardmaidens|QID|43360|M|22.05,29.22|Z|Suramar/32|N|From Valewalker Farodin.|
+C Fragments of Disaster|QID|43361|QO|1|M|21.73,32.49|Z|Suramar/32|S|NC|N|Collect Crystallized Bough (Crystallized Bark)|
+C The Shardmaidens|QID|43360|M|20.70,33.59|Z|Suramar/32|QO|1|N|6/6 Shardmaiden slain|
+C Fragments of Disaster|QID|43361|QO|1|M|21.73,32.49|Z|Suramar/32|US|NC|N|Collect Crystallized Bough (Crystallized Bark)|
+T Fragments of Disaster|QID|43361|M|22.02,29.22|Z|Suramar/32|N|To Valewalker Farodin, back at the portal you came in.|
+T The Shardmaidens|QID|43360|M|22.02,29.22|Z|Suramar/32|N|To Valewalker Farodin.|
+A Another Arcan'dor Closes...|QID|44156|M|22.02,29.22|Z|Suramar/32|N|From Valewalker Farodin.|
+P Shal'Aran|QID|44156|M|22.02,29.22|Z|Suramar/32|N|Take the portal back to Shal'Aran|
 T Another Arcan'dor Closes...|QID|44156|M|36.53,46.77|N|To Valewalker Farodin.|
 A The Stuff of Dreams|QID|43362|M|36.53,46.77|N|From Valewalker Farodin. *Raid Quest*|
 A Branch of the Arcan'dor|QID|40125|PRE|44156|M|36.53,46.77|N|From First Arcanist Thalyssra.|
@@ -1197,133 +1203,124 @@ T The Stuff of Dreams|QID|43362|M|36.51,46.75|N|To Valewalker Farodin.|
 
 ;change of seasons 20/21K revered
 N You are Rep Gated|QID|44563|REP|The Nightfallen;1859;unknown-Revered;19999|N|Next Chain requires 20K into Revered (and killing Xavius in The Emerald Nightmare Raid), Continue doing World Quests.|
-
-; Change of Seasons Storyline Quests
-
 A A Change of Seasons|QID|43502|REP|The Nightfallen;1859;Revered-Exalted;20000|PRE|43362|M|36.84,46.56|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|N|To Arcanist Valtrois|
 A Giving It All We've Got|QID|43562|PRE|43502|M|37.02,43.24|N|From Arcanist Valtrois|
-C Giving It All We've Got|QID|43562|M|37.2,46.24|CHAT|N|Talk to Arcanist Valtrois. Hopefully you activated all the leylines before now.  Don't worry about the one still dark.| ; not sure if we should PRE check this with all the Leyline QIDs|
+C Giving It All We've Got|QID|43562|M|37.2,46.24|CHAT|N|Talk to Arcanist Valtrois. Hopefully you activated all the leylines before now. Don't worry about the one still dark.| ; not sure if we should PRE check this with all the Leyline QIDs
 T Give It All We've Got|QID|43562|M|37.09,46.56|N|To Arcanist Valtrois. She's moved!|
-A Ephemeral Manastorm Projector|QID|43563|PRE|43562|M|37.08,46.56|N|From Arcanist Valtrois. Group Quest|
+A Ephemeral Manastorm Projector|QID|43563|PRE|43562|M|37.08,46.56|N|From Arcanist Valtrois. Group Quest.|
 A Flow Control|QID|43564|PRE|43562|M|37.08,46.56|N|From Arcanist Valtrois.|
 A Bring Home the Beacon|QID|43565|PRE|43562|M|37.13,46.63|N|From Chief Telemancer Oculeth.|
-P The Waning Crescent|QID|43565|M|36.50,44.74|N|Take Portal to The Waning Crescent|
-C Bring Home the Beacon|QID|43565|M|47.68,71.10|QO|1|U|140257|N|This spot I got the most scans done, Watch out for Seeing Guards. Evermoon Commons surveyed|
-C Bring Home the Beacon|QID|43565|M|49.78,76.97|QO|2|U|140257|N|This spot I got the most scans done, Watch out for Seeing Guards. Evermoon Bazaar surveyed|
-C Bring Home the Beacon|QID|43565|M|50.18,86.75|QO|3|U|140257|N|This spot I got the most scans done, Watch out for Seeing Guards. Siren's Vigil surveyed|
-C Flow Control|QID|43564|M|45.69,76.03|QO|1|N|Seal Lunastre Lane outlet, Looks like a manhole cover.|
-C Flow Control|QID|43564|M|49.70,62.66|QO|2|N|Seal Parade Grounds outlet, run along the canal, easy to get to.|
-C Flow Control|QID|43564|M|59.89,59.21|QO|3|N|Seal Midnight Court outlet, Up in the area where you talked to Distraught Noble. Same area as WQ for Collaborators.|
-C Ephemeral Manastorm Projector|QID|43563|M|52.60,64.02|QO|1|N|Kill Chronarch Defenders for Warp-Resistant Plating.  Soloed, pulling them into the water in the Marina. It's slow, but do able.|
+P The Waning Crescent|QID|43565|M|36.50,44.74|N|Take Portal to The Waning Crescent.|
+C Survey Siren's Vigil|QID|43565|M|50.36,83.91|QO|3|NC|U|140257|N|Use the 'Advanced Telemancy Beacon' 5-6 times. (until you get 100 scans) Watch out for Seeing Guards.|
+C Flow Control-Lunestre Lane|QID|43564|M|45.69,76.03|QO|1|NC|N|Click on the manhole cover.|
+C Survey Evermoon Commons|QID|43565|M|48.06,72.32|QO|1|NC|U|140257|N|Use the 'Advanced Telemancy Beacon' 5-6 times. (until you get 100 scans) Watch out for Seeing Guards.|
+C Survey Evermoon Bazaar|QID|43565|M|49.28,76.13|QO|2|NC|U|140257|N|Use the 'Advanced Telemancy Beacon' 5-6 times. (until you get 100 scans)  Watch out for Seeing Guards.|
+R Concourse of Destiny|QID|43564|M|46.76,70.99;48.42,64.21|CS|N|Follow along the canal, and go underneath the stairs for the Concourse of Destiny.|
+C Flow Control-Parade Grounds|QID|43564|M|49.70,62.66|QO|2|NC|N|Click on the manhole cover.|
+R Midnight Court|QID|43563|M|58.26,61.72|N|Across the water, pause at Sunset park and kill the Chronarh Defender there if it's convenient.|
+C Ephemeral Manastorm Projector|QID|43563|M|57.73,62.64|QO|1|S|N|Kill Chronarch Defenders for Warp-Resistant Plating. Soloed, pulling them into the water in the Marina. It's slow, but do able.|
+$ Treasure Chest|QID|43874|M|57.68,61.97|N|Yes, there is a see illusion mob beside the chest and you may want to wait until you have the WQ to kill her (Leleyna). But if not, there is a chest here to loot for a bit of treasure and resources.|RANK|3|
+C Flow Control-Midnight Court|QID|43564|M|59.89,59.21|QO|3|NC|N|Click on the manhole cover, Up in the area where you talked to Distraught Noble. Same area as WQ for Collaborators.|
+C Ephemeral Manastorm Projector|QID|43563|M|52.60,64.02|QO|1|US|N|Kill Chronarch Defenders for Warp-Resistant Plating. Soloed, pulling them into the water in the Marina. It's slow, but do able.|
+H Shal'Aran|QID|43565|M|47.74,81.39|N|Hearth or run back to the Waning Crescent Portal.|
 T Bring Home the Beacon|QID|43565|M|37.14,46.64|N|To Chief Telemancer Oculeth.|
 T Flow Control|QID|43564|M|37.11,46.55|N|To Arcanist Valtrois.|
-T Ephemeral Manastorm Projector|QID|43563|M|37.09,46.55|N|To Arcanist Valtrois|
-A All In|QID|43567|M|37.13,46.56|N|From First Arcanist Thalyssra. You get teleported in without talking the Chief|
-C Hitting the Books|Z|ArcwayScenario/1|SO|1|S|N|Slay the 3 Duskwatch Archivists to escape the Forgotten Library. ** Kill all, dont skip, or you won't hit 100% complete **|
-C Duskwatch Archivist slain|M|27.95,66.22|Z|ArcwayScenario/1|SO|1;1|N|Duskwatch Archivist slain|
-C Hitting the Books|Z|ArcwayScenario/1|SO|1|US|N|Slay the Duskwatch Archivists to escape the Forgotten Library.|
-C The Nightflow Conduit|Z|ArcwayScenario/1|SO|2|S|N|Reach the door to the Nightflow Conduit.|
-C Reach the door to the Nightflow Conduit.|M|36.73,64.30|Z|ArcwayScenario/1|SO|2;1|N|Reach the door to the Nightflow Conduit.|
-C The Nightflow Conduit|Z|ArcwayScenario/1|SO|2|US|N|Reach the door to the Nightflow Conduit.|
-C Knock Knock|Z|ArcwayScenario/1|SO|3|S|N|Defend Arluin while he opens the door to the Nightflow Conduit.|
-C Knock Knock|M|36.72,63.61|Z|ArcwayScenario/1|SO|3;2|N|Slay the 5 or 6 waves that come at you.|
-C Knock Knock|Z|ArcwayScenario/1|SO|3|US|N|Defend Arluin while he opens the door to the Nightflow Conduit.|
-C Knock Knock|M|36.56,63.72|Z|ArcwayScenario/1|SO|3;1|N|Door opened|
-C E.M.P.|Z|ArcwayScenario/1|SO|4|S|N|Place the Ephemeral Manastorm Projector in the Nightflow Conduit.|
-C Place the E.M.P.|M|39.11,77.66|Z|ArcwayScenario/1|SO|4;1|N|Place the E.M.P.|
-C E.M.P.|Z|ArcwayScenario/1|SO|4|US|N|Place the Ephemeral Manastorm Projector in the Nightflow Conduit.|
-C Weather the Storm|Z|ArcwayScenario/1|SO|5|S|N|Survive the manastorm.|
-C All In|QID|43567|M|40.28,74.27|Z|ArcwayScenario/1|QO|1|N|1/1 Nightflow Conduit sabotaged|
-C Weather the Storm|Z|ArcwayScenario/1|SO|5|US|N|Survive the manastorm.|
-C Check on Arluin|QID|43567|M|34.57,47.84|N|Lost recorder at this point. Follow on screen dialog|
-C Enter Shal'Aran|QID|43567|M|35.03,47.67|N|Enter Shal'Aran, cut sceen|
-T All In|QID|43567|M|36.83,46.54|N|To Valewalker Farodin|
-A Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.83,46.54|N|From Valewalker Farodin|
-C Arcan'dor|QID|43568|N|Pick three fruits|
-C Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.51,46.77|QO|1|CHAT|N|Share Fruit with Oculeth|
-C Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.55,46.78|QO|2|CHAT|N|Share Fruit with Valtrois|
-C Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.54,46.78|QO|3|CHAT|N|Share Fruit with Thalyssra|
-T Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.54,46.78|N|To First Arcanist Thalyssra|
-T Redemption for the Fallen|QID|44569|M|36.83,46.57|N|To Valewalker Farodin|
-
-; Insurrectoin - Lockdown Storyline Quests.
-
-A Arluin's Request|QID|43569|PRE|43567|M|36.46,46.62|N|From Vanthir.|
-C Arluin's Request|QID|43569|M|47.55,66.37;48.24,66.84|CS|QO|1|N|Locate Arluelle, in a room, in the area for freeing Prisoners.|
-C Arluin's Request|QID|43569|M|48.24,66.84|QO|2|CHAT|N|Share Arcan'dor Fruit with Arluelle|
+T Ephemeral Manastorm Projector|QID|43563|M|37.09,46.55|N|To Arcanist Valtrois.|
+A All In|QID|43567|M|37.13,46.56|N|From First Arcanist Thalyssra. You get teleported in without talking the Chief.|PRE|43565+43564+43563|
+C Hitting the Books|QID|43567|M|27.95,66.22|Z|ArcwayScenario/1|SO|1|N|Duskwatch Archivist slain. ** Kill all, dont skip, or you won't hit 100% complete **|
+C The Nightflow Conduit|QID|43567|M|36.73,64.30|Z|ArcwayScenario/1|SO|2|N|Reach the door to the Nightflow Conduit.|
+C Knock Knock|QID|43567|M|36.72,63.61|Z|ArcwayScenario/1|SO|3;2|N|Defend Arluin while he opens the door. Slay the 5 waves that come at you.|
+C Knock Knock|QID|43567|M|36.56,63.72|Z|ArcwayScenario/1|SO|3;1|NC|N|Door opened.|
+C Place the E.M.P.|QID|43567|M|39.11,77.66|Z|ArcwayScenario/1|SO|4|NC|N|Place the E.M.P.|
+C Weather the Storm|QID|43567|M|40.28,74.27|Z|ArcwayScenario/1|SO|5|N|Survive the manastorm. (Kill stuff until the bar gets to 100%)|
+C All In|QID|43567|QO|2|M|34.60,47.89|NC|N|Check on Arluin.|
+C All In|QID|43567|QO|3|M|35.99,47.32|N|Enter Shal'Aran, cut scene.|
+T All In|QID|43567|M|36.83,46.54|N|To Valewalker Farodin.|
+A Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.83,46.54|N|From Valewalker Farodin.|
+l Arcan'dor Fruit|QID|43568|L|140315 3|N|Pick three arcfruits. You will need to manually check this step off.|
+C Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.51,46.77|QO|1|CHAT|N|Share Fruit with Oculeth. Takes a few seconds for him to eat it.|
+C Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.55,46.78|QO|2|CHAT|N|Share Fruit with Valtrois. Takes a few seconds for her to eat it.|
+C Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.54,46.78|QO|3|CHAT|N|Share Fruit with Thalyssra. Takes a few seconds for her to eat it.|
+T Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.54,46.78|N|To First Arcanist Thalyssra.|
+T Redemption for the Fallen|QID|44569|M|36.83,46.57|N|To Valewalker Farodin.|
+A Arluin's Request|QID|43569|M|36.46,46.62|N|From Vanthir.|
+P Waning Crescent||QID|43569|M|36.50,44.78|N|Take the Waning Crescent portal into Suramar (closest to Arluelle).|
+C Arluin's Request|QID|43569|M|47.55,66.37;48.24,66.84|CS|QO|1|N|Locate Arluelle, in a room near the WQ for freeing Prisoners (not up any stairs).|
+C Arluin's Request|QID|43569|M|48.24,66.84|QO|2|CHAT|N|Share Arcan'dor Fruit with Arluelle.|
 T Arluin's Request|QID|43569|M|48.24,66.84|N|To Arluelle.|
-P Shal'Aran|QID|45260|M|36.51,46.80|N|Portal or Hearth your way back to Shal'Aran|
-A One Day at a Time|QID|45260|PRE|43569|M|36.51,46.80|N|From First Arcanist Thalyssra|
-C One Day at a Time|QID|45260|M|37.90,45.65|QO|1|U|143597|N|Click on a Suramar Refugee|
+H Shal'Aran|QID|45260|M|36.51,46.80|N|Portal or Hearth your way back to Shal'Aran.|
+
+;insurrection - Lockdown
+A Insurrection|QID|45271|LEAD|45260|PRE|43568|N|Accepted from your adventurer's journal (ALT J by default).|
+T Insurrection|QID|45271|M|36.51,46.80|N|To First Arcanist Thalyssra.|
+A One Day at a Time|QID|45260|PRE|43569|M|36.51,46.80|N|From First Arcanist Thalyssra.|
+C One Day at a Time|QID|45260|M|37.90,45.65|QO|1|NC|U|143597|N|Click on a Suramar Refugee.|
 T One Day at a Time|QID|45260|M|36.50,46.75|N|To First Arcanist Thalyssra.|
 A Silence in the City|QID|38649|PRE|45260|M|36.50,46.75|N|From First Arcanist Thalyssra.|
 T Silence in the City|QID|38649|M|36.59,45.08|N|To Chief Telemancer Oculeth.|
 A Crackdown|QID|38695|PRE|38649|M|36.59,45.08|N|From Chief Telemancer Oculeth.|
-C Crackdown|QID|38695|M|36.49,44.75;46.05,79.85|CS|QO|1|N|Step on the pad, to get Oculeth to Teleport You|
-C Crackdown|QID|38695|M|47.65,81.32|QO|2|N|Examine the Broken Telemancy Beacon. Watch out for seeing Demon.|
-C Crackdown|QID|38695|M|48.39,83.59|QO|3|N|Search the Waning Crescent|
-C Crackdown|QID|38695|M|47.91,82.92|QO|4|N|Reunite with Silgryn|
+C Crackdown|QID|38695|M|36.49,44.75;46.05,79.85|CS|QO|1|NC|N|Step on the pad, to get Oculeth to teleport you.|
+C Crackdown|QID|38695|M|47.65,81.32|QO|2|NC|N|Examine the Broken Telemancy Beacon. Watch out for seeing Demon.|
+C Crackdown|QID|38695|M|48.39,83.59|QO|3|NC|N|Search the Waning Crescent.|
+C Crackdown|QID|38695|M|47.91,82.92|QO|4|NC|N|Reunite with Silgryn.|
 T Crackdown|QID|38695|M|47.89,82.92|N|To Silgryn.|
 A Answering Aggression|QID|38692|PRE|38695|M|47.89,82.92|N|From Silgryn.|
 A No Reason to Stay|QID|38720|PRE|38695|M|47.89,82.92|N|From Silgryn.|
-C Answering Aggression|QID|38692|M|47.80,81.53|S|N|Slay Elisande's Forces (Any mob gives credit)|
-C No Reason to Stay|QID|38720|M|49.11,83.85|CHAT|N|Talk to Eneas.  Find his kids upstairs.|
-C No Reason to Stay|QID|38720|M|48.94,81.71|QO|2|N|Thorvos and Valanth Evacuated|
-C Answering Aggression|QID|38692|M|47.80,81.53|US|QO|1|N|Elisande's Forces Slain|
+C Answering Aggression|QID|38692|M|47.80,81.53|S|N|Slay Elisande's Forces (Any mob gives credit).|
+C No Reason to Stay|QID|38720|M|49.11,83.85|QO|1|CHAT|N|Talk to Eneas. Find his kids upstairs.|
+C No Reason to Stay|QID|38720|M|48.94,81.71|QO|2|N|Thorvos and Valanth Evacuated.|
 C No Reason to Stay|QID|38720|M|47.98,80.19|QO|3|N|Scarleth's Girls Evacuated|
 C No Reason to Stay|QID|38720|M|50.55,84.99|QO|4|N|Master Devlyn Evacuated, click his vase, in this spot.|
+C Answering Aggression|QID|38692|M|47.80,81.53|US|N|Finish killing Elisande's Forces.|
 T Answering Aggression|QID|38692|M|49.74,85.35|N|To Silgryn.|
 T No Reason to Stay|QID|38720|M|49.74,85.35|N|To Silgryn.|
 A Regroup|QID|38694|PRE|38720|M|49.74,85.35|N|From Silgryn.|
-C Regroup|QID|38694|M|51.01,87.05|QO|1|N|Follow Silgryn|
-C Regroup|QID|38694|M|52.52,80.42|QO|2|N|Ride on Deline's Gondola|
-C Regroup|QID|38694|M|51.55,78.97|QO|3|N|Teleport to the Top of the Terrace|
+C Regroup|QID|38694|M|51.01,87.05|QO|1|NC|N|Follow Silgryn|
+C Regroup|QID|38694|M|51.07,87.09|QO|2|NC|N|Ride on Deline's Gondola.|
+C Regroup|QID|38694|M|51.55,78.97|QO|3|NC|N|Teleport to the Top of the Terrace.|
 T Regroup|QID|38694|M|52.09,79.12|N|To Silgryn.|
-A The Way Back Home|QID|42889|PRE|38694|M|52.00,78.81|N|From Silgryn.|
-C The Way Back Home|QID|42889|M|52.00,78.84|QO|1|N|Active Beacon|
+A The Way Back Home|QID|42889|PRE|38694|M|52.00,78.81|N|From Telemancy Beacon.|
+C The Way Back Home|QID|42889|M|52.00,78.84|NC|N|Activate Beacon|
+P Shal'Aran|QID|42889|M|52.00,78.84|N|Use the newly placed beacon to return to Shal'Aran.|
 T The Way Back Home|QID|42889|M|36.48,46.72|N|To First Arcanist Thalyssra.|
 A Visitor in Shal'Aran|QID|44955|PRE|42889|M|36.48,46.72|N|From First Arcanist Thalyssra.|
-C Visitor in Shal'Aran|QID|44955|M|34.60,47.99|QO|1|N|1/1 Meet the Stranger|
-C Visitor in Shal'Aran|QID|44955|M|36.18,47.14|QO|2|N|1/1 Introduce Arluelle to Thalyssra|
+C Visitor in Shal'Aran|QID|44955|M|34.60,47.99|QO|1|CHAT|N|Go outside to meet the Stranger.|
+C Visitor in Shal'Aran|QID|44955|M|36.18,47.14|QO|2|CHAT|N|Talk to Arluelle then lead her inside.|
 T Visitor in Shal'Aran|QID|44955|M|36.50,46.78|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - Missing Persons Storyline Quests.
-
 A Continuing the Cure|QID|45261|PRE|44955|M|36.50,46.78|N|From First Arcanist Thalyssra.|
-C Continuing the Cure|QID|45261|M|37.71,47.69|QO|1|U|143597|N|Pick any Suramar Refugee to cure|
+C Continuing the Cure|QID|45261|M|37.71,47.69|NC|U|143597|N|Pick any Suramar Refugee to cure.|
 T Continuing the Cure|QID|45261|M|36.49,46.78|N|To First Arcanist Thalyssra.|
 A Disillusioned Defector|QID|44722|M|36.49,46.78|N|From First Arcanist Thalyssra.|
-P Evermoon Terrace|QID|44722|M|36.51,44.83|N|Take Portal to Evermoon Terrace (where Waning Crescent portal was)|
-A Safe Keeping|QID|44799|M|52.09,79.12|N|UI Alert - World Quest|
+P Evermoon Terrace|QID|44722|M|36.51,44.83|N|Take Portal to Evermoon Terrace (where Waning Crescent portal was).|
 T Disillusioned Defector|QID|44722|M|52.09,79.12|N|To Silgryn.|
 A Missing Persons|QID|44724|PRE|44799|M|52.09,79.12|N|From Silgryn.|
 A More Like Me|QID|44723|PRE|44799|M|52.07,79.17|N|From Victoire.|
-C Safe Keeping|QID|44799|M|50.73,77.87|N|WQ: Find Deperate Refugees - Guarded by Duskwatch Highblades.  Then take to 'safe house'|
-T Safe Keeping|QID|44799|M|50.73,77.87|N|WQ: UI Alert - Auto Turnin|
-C More Like Me|QID|44723|M|54.46,69.90|S|U|142065|N|Identify Deserters with Lily. Randomly turn Hostile|
-C More Like Me|QID|44723|M|54.46,69.90|US|QO|1|U|142065|N|Deserters Identified|
-C Missing Persons|QID|44724|M|53.65,71.48|S|N|Kill Legion Demons till you find Communicator|
-C Missing Persons|QID|44724|M|53.65,71.48|US|QO|1|N|Legion Communicator Found|
+C More Like Me|QID|44723|M|54.46,69.90|S|NC|U|142065|N|Click on purple rune for a boost across the water. Identify Deserters with Lily. Randomly turn Hostile.|
+C Missing Persons|QID|44724|M|53.65,71.48|N|Kill Legion Demons till you find Communicator.|
+C More Like Me|QID|44723|M|54.46,69.90|US|NC|U|142065|N|Deserters Identified.|
 T More Like Me|QID|44723|M|52.05,79.13|N|To Victoire.|
 T Missing Persons|QID|44724|M|52.05,79.13|N|To Silgryn.|
 A Hostage Situation|QID|44725|M|52.05,79.13|N|From Silgryn.|
-C Hostage Situation|QID|44725|M|52.62,74.56|QO|1|N|Cross the  Harbour and join Group of Captives|
-C Hostage Situation|QID|44725|M|24.88,88.90|QO|2|N|Find the Staging Area, just enjoy the boat ride.|
+C Hostage Situation|QID|44725|M|52.62,74.56|QO|1|NC|N|You can again use the rune if you want. Cross the Harbour and join Group of Captives|
+C Hostage Situation|QID|44725|M|24.88,88.90|QO|2|NC|N|Find the Staging Area, just enjoy the boat ride.|
 T Hostage Situation|QID|44725|M|24.86,88.74|N|To Silgryn.|
 A In the Business of Souls|QID|44726|M|24.86,88.74|N|From Silgryn.|
 A Smuggled!|QID|44727|M|25.80,88.53|N|From Maribeth.|
 C Smuggled!|QID|44727|M|25.80,88.53|QO|1|N|Release Maribeth|
-C Smuggled!|QID|44727|M|25.79,87.07|S|N|Release Citizens from Cages|
-C In the Business of Souls|QID|44726|M|26.65,89.07|QO|1|N|Slay Aargoss|
-C Smuggled!|QID|44727|M|25.79,87.07|US|QO|2|N|Citizens Released from Cages|
+C Smuggled!|QID|44727|M|25.79,87.07|QO|2|S|N|Release Citizens from Cages.|
+C In the Business of Souls|QID|44726|M|26.65,89.07|N|Slay Aargoss|
+C Smuggled!|QID|44727|M|25.79,87.07|US|QO|2|N|Finish releasing citizens from Cages.|
 T Smuggled!|QID|44727|M|24.74,88.89|N|To Maribeth.|
 T In the Business of Souls|QID|44726|M|24.86,88.72|N|To Silgryn.|
 A Waning Refuge|QID|44814|M|24.86,88.72|N|From Silgryn.|
-C Waning Refuge|QID|44814|M|24.62,88.90|QO|1|N|Ride Deline's Gondola|
+C Waning Refuge|QID|44814|M|24.62,88.90|NC|N|Hop on Deline's Gondola.|
 T Waning Refuge|QID|44814|M|52.41,80.18|N|To Silgryn.|
-P Shal'Aran|QID|99999|M|52.00,78.74|N|Take Portal back to Shal'Aran|
-N Shal'Aran|N|Unknown Quest chain to follow, at this time, I've got no more quests.  I haven't completed the Mythic Dungeons yet so that might be an issue.|
+P Shal'Aran|QID|99999|M|52.00,78.74|N|Take Portal back to Shal'Aran.|
+
+N Shal'Aran|N|Unknown Quest chain to follow, at this time, (Available 11/9/16).|
 
 ]]
 
