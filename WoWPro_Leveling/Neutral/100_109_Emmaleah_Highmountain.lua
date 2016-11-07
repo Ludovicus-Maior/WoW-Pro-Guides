@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-11-07 10:22
+-- Who: Emmaleah
+-- Log: minor tweaks from a fresh play thru. (part 1)
+
+-- URL: http://wow-pro.com/node/3678/revisions/27996/view
 -- Date: 2016-11-07 06:17
 -- Who: Emmaleah
 -- Log: Changed first Fly to Thunder Totem to an "F" Step.
@@ -166,11 +171,11 @@ C Fish Out of Water|QID|39614|M|39.96,62.63|S|NC|N|Kick the carp towards the riv
 C Spray and Prey|QID|39277|M|38.39,64.26|S|NC|U|127988|N|Use the sprayer on them before they die.|
 A Moozy's Sojourn|QID|39323|M|40.25,64.05|N|From Rordan Waterwise.|RANK|2|
 C Trapped Tauren|QID|39316|M|42.82,63.16|NC|N|Click on the gate to release the tauren.|
-C Fish Out of Water|QID|39614|M|39.96,62.63|US|NC|N|Kick the carp towards the river.|
-C Spray and Prey|QID|39277|M|38.39,64.26|US|NC|U|127988|N|Use the sprayer on them before they die.|
 T Moozy's Sojourn|QID|39323|M|37.46,64.29|N|To Moozy.|RANK|2|
 A Moozy's Adventure|QID|39572|M|37.46,64.29|N|From Moozy.|RANK|2|
 $ Treasure Chest|QID|40474|M|39.38,62.28|N|Loot for a bit of Treasure and Resources.|RANK|2|
+C Fish Out of Water|QID|39614|M|39.96,62.63|US|NC|N|Kick the carp towards the river.|
+C Spray and Prey|QID|39277|M|38.39,64.26|US|NC|U|127988|N|Use the sprayer on them before they die.|
 C Defend the Riverlands-Bonus Objective|QID|39274|M|39.38,64.13|US|N|Keep it up, if you want to stay and finish this.|RANK|2|
 t Defend the Riverlands-Bonus Objective|QID|39274|M|39.38,64.13|N|Auto Turned in when completed.|RANK|2|
 T Spray and Prey|QID|39277|M|41.17,61.48|N|To Jale Rivermane.|
@@ -178,8 +183,8 @@ T Trapped Tauren|QID|39316|M|41.13,61.56|N|To Angler Creel.|
 T Fish Out of Water|QID|39614|M|41.13,61.56|N|To Angler Creel.|
 A Lifespring Cavern|QID|39661|M|41.18,61.49|N|From Jale Rivermane.|PRE|39277+39316+39614|
 T Moozy's Adventure|QID|39572|M|40.00,57.93|N|To Sella Waterwise.|RANK|2|
-K Kill Flamescale|QID|39963|QO|1|M|40.97,57.72|T|Flamescale|N|Click on the abandoned fishing pole to summon up Flamescale, a rare mob you can kill for treasure and resources.|ITEM|131773|RANK|2|
 $ Treasure Chest|QID|39812|M|39.53,57.44|N|Loot for a bit of treasure and resources.|RANK|2|
+K Kill Flamescale|QID|39963|QO|1|M|40.97,57.72|T|Flamescale|N|Click on the abandoned fishing pole to summon up Flamescale, a rare mob you can kill for treasure and resources.|ITEM|131773|RANK|2|
 
 T Lifespring Cavern|QID|39661|M|38.40,61.20|N|To Jale Rivermane.|
 A Balance of Elements|QID|39488|M|38.40,61.20|N|From Jale Rivermane.|PRE|39661|
@@ -216,7 +221,7 @@ C Bitestone Enclave|QID|39043|M|84.05,46.57|Z|Highmountain/5|N|Kill Basalisks an
 T Bitestone Enclave|QID|39043|M|47.32,44.53|Z|Highmountain/5|N|To Warbrave Oro.|
 A Dargrul and the Hammer|QID|39027|M|47.32,44.53|Z|Highmountain/5|N|From Warbrave Oro.|PRE|39043|
 C Dargrul and the Hammer|QID|39027|M|66.48,49.66|QO|1|Z|Highmountain/5|NC|N|Follow Warbrave Oro to confront Dargrul. When he encases you in rock, click on it to break free.|
-$ Treasure Chest|QID|40489|M|85.62,38.38|N|There is a Treasure chest up where Dargrul was.  You will have to kill 15-20 mobs to get it, so I'm not sure its worth it. Check off manually if you don't want to go up there.|RANK|3|
+$ Treasure Chest|QID|40489|M|85.62,38.38|N|There is a Treasure chest up where Dargrul was.  You may have to kill 15-20 mobs to get it, so I'm not sure its worth it. Check off manually if you don't want to go up there.|RANK|3|
 C Dargrul and the Hammer|QID|39027|M|15.25,26.78|QO|2|Z|Highmountain/5|NC|N|Run out of the cavern.|
 f Sylvan Falls|QID|40488|M|35.88,65.93|N|Run past the turn in because it goes to an escort quest. Get the flightpath at Roren Longshadow.|
 $ Treasure Chest|QID|40488|M|36.61,62.13|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -264,7 +269,7 @@ C Ceremonial Drums|QID|42622|M|39.51,74.70|Z|Highmountain/6|S|NC|N|Pick up the m
 R Thunder Totem|QID|38916|M|58.75,86.77|Z|Highmountain/6|N|Take the elevator up to join with Spiritwalker Ebonhorn.|RANK|-1|
 A Mountainstrider Round-Up|QID|42596|M|53.92,45.84|Z|ThunderTotem|N|From Liza Galestride.|RANK|2|
 A Moozy's Reunion|QID|42590|M|51.89,55.00;45.86,54.99|CS|Z|ThunderTotem|N|From Sella Waterwise.|RANK|2|PRE|39572|
-C Moozy's Reunion|QID|42590|QO|1|M|53.37,20.63|Z|ThunderTotem|N|Ethel can be found in a hut.|RANK|2|
+C Moozy's Reunion|QID|42590|NC|M|53.37,20.63|Z|ThunderTotem|N|Ethel can be found in a hut.|RANK|2|
 C Mountainstrider Round-Up|QID|42596|M|53.37,20.63;53.58,47.28|CN|Z|ThunderTotem|NC|N|Ride a mountainstrider back to the stablemaster. Then do it again two more times.|RANK|2|
 T Mountainstrider Round-Up|QID|42596|M|53.98,45.76|Z|ThunderTotem|N|To Liza Galestride.|RANK|2|
 C Moozy's Reunion|QID|42590|QO|2|M|53.98,45.76|Z|ThunderTotem|N|Now go back and bring Ethel to Moozy. Slowly or she will get cranky!|RANK|2|
@@ -309,7 +314,7 @@ F Thunder Totem|QID|39580|M|47.26,84.64|N|Fly back to Thunder Totem at Chofa Nig
 T The High Chieftain|QID|39580|M|54.85,63.11|Z|Highmountain/6|N|Take the elevator down to find Mayla Highmountain.|
 T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 
-A Wrathshard|QID|39134|M|49.02,55.26|N|From Warbrave Nava.|RANK|2|
+A Wrathshard|QID|39134|M|49.02,55.26|N|From Warbrave Nava who is back up the elevator and across the bridges.|RANK|2|
 A No Time to Talk|QID|39133|M|49.02,55.26|N|From Warbrave Nava|RANK|2|
 C No Time to Talk|QID|39133|M|52.56,54.71|S|N|Kill Enraged Ambershards as you travel towards their boss.|RANK|2|
 C Wrathshard|QID|39134|M|54.01,54.47|T|Wrathshard|N|Kill Wrathshard.|RANK|2|
