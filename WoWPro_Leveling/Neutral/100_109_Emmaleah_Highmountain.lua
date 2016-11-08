@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-11-08 06:18
+-- Who: Emmaleah
+-- Log: part 2 of 3 Play thru tweaks. 
+
+-- URL: http://wow-pro.com/node/3678/revisions/27997/view
 -- Date: 2016-11-07 10:22
 -- Who: Emmaleah
 -- Log: minor tweaks from a fresh play thru. (part 1)
@@ -516,6 +521,8 @@ C Eagle Egg Recovery|QID|40070|M|50.82,35.32|NC|US|N|Finish collecting Eagle Egg
 C Fledgling Worm Guts|QID|40069|M|50.29,34.88|US|N|Finish collecting worm guts.|RANK|2|
 $ Small Treasure Chest|QID|40497|M|49.39,38.02;49.85,40.31;50.25,38.63|CS|N|Run up the ramp (just before the bridge where you turn in the quest) for a small treasure chest.  Loot for a bit of treasure and resources.|RANK|2|
 C Tamer Takedown|QID|40071|M|49.12,42.20|N|Kill Tamer Korgrul.|T|Tamer Korgrul.|RANK|2|
+C Fledgling Worm Guts|QID|40069|M|49.12,42.20|US|N|Finish collecting worm guts.|RANK|2|
+$ Small Treasure Chest|QID|40497|M|49.39,38.02;49.85,40.31;50.25,38.63|CS|N|Run up the ramp (just before the bridge where you turn in the quest) for a small treasure chest.  Loot for a bit of treasure and resources.|RANK|2|
 T Tamer Takedown|QID|40071|M|49.45,39.24|N|To Oren Windstrider.|RANK|2|
 T Fledgling Worm Guts|QID|40069|M|49.45,39.24|N|To Oren Windstrider.|RANK|2|
 A Going Down, Going Up|QID|42425|M|49.45,39.24|N|From Oren Windstrider.|PRE|40071+40069|RANK|2|
@@ -607,13 +614,13 @@ A The Skies of Highmountain|QID|39387|M|45.69,39.15|N|From Lasan Skyhorn.|PRE|39
 F The Skies of Highmountain|QID|39387|QO|1|M|45.64,39.06|NC|N|Optional-Hop on Aviash for a quick ride back to Thunder Totem. (check this off manually)|
 
 C The Skies of Highmountain|QID|39387|QO|1|M|42.17,32.99|Z|Highmountain/6|CHAT|N|Meet Lasan at Thunder Totem. If you didnt come in by Aviash, he is standing in front of the Path of Sky doorway.|
-C Unexpected Allies|QID|39456|M|35.07,43.55|Z|Highmountain/6|QO|1|CHAT|N|Meet Navarrogg just outside the Path of Earth doorway.|
+C Unexpected Allies|QID|39456|M|35.07,43.55|Z|ThunderTotem|QO|1|CHAT|N|Meet Navarrogg just outside the Path of Earth doorway.|
 C The Skies of Highmountain|QID|39387|M|46.68,60.82|Z|Highmountain/6|QO|2|NC|N|Witness the Skyhorn Ritual.|
 C Unexpected Allies|QID|39456|M|54.80,63.04|Z|Highmountain/6|QO|2|NC|N|Wait/watch the ritual.|
 T The Skies of Highmountain|QID|39387|M|54.81,63.03|Z|Highmountain/6|N|To Mayla Highmountain.|
 T Unexpected Allies|QID|39456|M|54.80,63.04|Z|Highmountain/6|N|To Mayla Hightmountain.|
 A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|Highmountain/6|N|To Mayla Hightmountain.|PRE|39387+39456|
-R Up the elevator|QID|42630|M|58.97,87.46|Z|Highmountain/6|CC|N|Take the elevator above for a few more quests.|
+R Thunder Totem (Up the elevator)|QID|42630|M|58.97,87.46|Z|Highmountain/6|CC|N|Take the elevator above for a few more quests. (manually check this step off)|
 A Bolas Bastion|QID|42630|M|42.86,38.79|Z|ThunderTotem|N|From Bolas Skyfeather.|AVAILABLE|38915|RANK|2|
 C Bolas Bastion|QID|42630|M|43.38,37.81|Z|ThunderTotem|NC|N|Hop in the Bolos Launcher and shoot at the Coven Attackers.|RANK|2|
 T Bolas Bastion|QID|42630|M|42.94,38.76|Z|ThunderTotem|N|To Bolas Skyfeather.|RANK|2|
@@ -637,7 +644,6 @@ T Buy Us Time|QID|39777|M|53.35,64.00|N|To Jale Rivermane.|
 T Battle Worms|QID|39776|M|53.27,64.05|N|To Mayla Highmountain.|
 A Evacuate Snowmane|QID|42088|M|53.27,64.05|N|From Mayla Highmountain.|PRE|39862+39777+39776|
 C Evacuate Snowmane|QID|42088|M|52.00,66.66|QO|1|CHAT|N|Red Skymane evacuated.|
-$ Treasure Chest|QID|42453|M|52.54,66.37|N|Loot for some treasure and resources.|RANK|2|;may be phased out here?
 C Evacuate Snowmane|QID|42088|M|53.32,67.10|QO|2|CHAT|N|Tarvim Daywalker evacuated.|
 C Evacuate Snowmane|QID|42088|M|53.32,69.49|QO|3|CHAT|N|Old Nefu evacuated.|
 T Evacuate Snowmane|QID|42088|M|52.29,65.92|N|To Mayla Highmountain.|
@@ -653,6 +659,7 @@ C The Underking|QID|39780|M|53.20,70.02|QO|1|NC|N|Meet with Mayla Highmountain.|
 C The Underking|QID|39780|M|53.06,70.56|QO|2|N|Kill Wrath of Dargrul.|
 T The Underking|QID|39780|M|53.19,70.04|N|To Mayla Highmountain.|
 A Neltharion's Lair|QID|39781|M|53.19,70.04|N|From Mayla Highmountain. This is a dungeon quest that you will need a group to complete.|PRE|39780|
+$ Treasure Chest|QID|42453|M|52.54,66.37|N|Loot for some treasure and resources.|RANK|2|
 
 R Howling Hills|QID|39386|M|56.06,57.75|N|Just a couple of optional quests left.|RANK|2|
 T Procuring a Prototype|QID|39386|M|57.64,56.61|N|To Razik Gazbolt.|RANK|2|
