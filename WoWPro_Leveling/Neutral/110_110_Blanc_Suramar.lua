@@ -4,6 +4,17 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-09 05:28
+-- Who: Emmaleah
+-- Log: added theoretical turn in of last quest.
+--	changed final note to reflect new date
+
+-- URL: http://wow-pro.com/node/3687/revisions/27999/view
+-- Date: 2016-11-09 00:04
+-- Who: Blanckaert
+-- Log: added quests available today 11/08/2016
+
+-- URL: http://wow-pro.com/node/3687/revisions/27995/view
 -- Date: 2016-11-07 02:26
 -- Who: Emmaleah
 -- Log: added my edits to change of seasons, lockdown and missing persons storyarcs, mainly rearranged Bringing Home the Beacon, Flow Control and EMP.  Simplified All In (not sure on zone for this, green dots not in correct places, but /wp where said it was arcwayscenario/1 as recorded) Finished adding treasure... 46 in guide.  Took WIP message from beginning and added RANKS and Treasures notes.
@@ -245,7 +256,6 @@
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
-WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
 WoWPro:GuideSteps(guide, function()
 
@@ -1180,6 +1190,7 @@ t Growing Strong|QID|44562|M|36.54,46.77|N|To Valewalker Farodin.|
 A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|N|From Valewalker Farodin.|
 
 ;A Growing Crisis Story Arc
+
 N You are Rep Gated|QID|44152|REP|The Nightfallen;1859;unknown-revered;6999|N|Next Chain requires 7K into Revered, so off to do World Quests.|
 A A Growing Crisis|QID|44152|REP|The Nightfallen;1859;revered;7000|PRE|44053|M|36.54,46.77|N|From Valewalker Farodin.|
 P Portal to Falanaar|QID|44152|M|35.94,45.55|N|Take the Portal to Fal'adora|
@@ -1202,6 +1213,7 @@ C The Stuff of Dreams|QID|43362|M|36.51,46.75|QO|2|N|Purified Life Essence LFR R
 T The Stuff of Dreams|QID|43362|M|36.51,46.75|N|To Valewalker Farodin.|
 
 ;change of seasons 20/21K revered
+
 N You are Rep Gated|QID|44563|REP|The Nightfallen;1859;unknown-Revered;19999|N|Next Chain requires 20K into Revered (and killing Xavius in The Emerald Nightmare Raid), Continue doing World Quests.|
 A A Change of Seasons|QID|43502|REP|The Nightfallen;1859;Revered-Exalted;20000|PRE|43362|M|36.84,46.56|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|N|To Arcanist Valtrois|
@@ -1251,7 +1263,8 @@ C Arluin's Request|QID|43569|M|48.24,66.84|QO|2|CHAT|N|Share Arcan'dor Fruit wit
 T Arluin's Request|QID|43569|M|48.24,66.84|N|To Arluelle.|
 H Shal'Aran|QID|45260|M|36.51,46.80|N|Portal or Hearth your way back to Shal'Aran.|
 
-;insurrection - Lockdown
+; Insurrection - Lockdown Storyline.
+
 A Insurrection|QID|45271|LEAD|45260|PRE|43568|N|Accepted from your adventurer's journal (ALT J by default).|
 T Insurrection|QID|45271|M|36.51,46.80|N|To First Arcanist Thalyssra.|
 A One Day at a Time|QID|45260|PRE|43569|M|36.51,46.80|N|From First Arcanist Thalyssra.|
@@ -1290,6 +1303,7 @@ C Visitor in Shal'Aran|QID|44955|M|36.18,47.14|QO|2|CHAT|N|Talk to Arluelle then
 T Visitor in Shal'Aran|QID|44955|M|36.50,46.78|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - Missing Persons Storyline Quests.
+
 A Continuing the Cure|QID|45261|PRE|44955|M|36.50,46.78|N|From First Arcanist Thalyssra.|
 C Continuing the Cure|QID|45261|M|37.71,47.69|NC|U|143597|N|Pick any Suramar Refugee to cure.|
 T Continuing the Cure|QID|45261|M|36.49,46.78|N|To First Arcanist Thalyssra.|
@@ -1318,9 +1332,41 @@ T In the Business of Souls|QID|44726|M|24.86,88.72|N|To Silgryn.|
 A Waning Refuge|QID|44814|M|24.86,88.72|N|From Silgryn.|
 C Waning Refuge|QID|44814|M|24.62,88.90|NC|N|Hop on Deline's Gondola.|
 T Waning Refuge|QID|44814|M|52.41,80.18|N|To Silgryn.|
-P Shal'Aran|QID|99999|M|52.00,78.74|N|Take Portal back to Shal'Aran.|
+P Shal'Aran|QID|45262|M|52.00,78.74|N|Take Portal back to Shal'Aran.|
 
-N Shal'Aran|N|Unknown Quest chain to follow, at this time, (Available 11/9/16).|
+; Insurrection - Waxing Crescent Storyline.
+
+A A Message From Ly'leth|QID|45262|PRE|44814|M|36.50,46.73|N|From First Arcanist Thalyssra.|
+C A Message From Ly'leth|QID|45262|M|37.49,47.51|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
+T A Message From Ly'leth|QID|45262|M|36.50,46.76|N|To First Arcanist Thalyssra.|
+A Tavernkeeper's Fate|QID|44742|PRE|45262|M|36.50,46.76|N|From First Arcanist Thalyssra.|
+P Lunastre Estate|QID|44742|M|36.18,45.10|QO|1|N|Take Portal to Lunastre Estates. (You dont need to wait for Thalyssra)|
+C Tavernkeeper's Fate|QID|44742|M|43.33,78.74|QO|2|N|1/1 Learn of Vanthir's Fate|
+T Tavernkeeper's Fate|QID|44742|M|43.26,78.75|N|To Ly'leth Lunastre.|
+A Essence Triangulation|QID|44752|PRE|44742|M|43.30,78.78|N|From First Arcanist Thalyssra.|
+C Essence Triangulation|QID|44752|M|41.82,69.68|QO|1|N|Promenade Essence, inside a house.|
+C Essence Triangulation|QID|44752|M|45.52,72.23|QO|2|N|Shimmershade Garden Essence|
+C Essence Triangulation|QID|44752|M|50.89,79.12|QO|3|N|Evermoon Bazaar Essence, inside a house.|
+T Essence Triangulation|QID|44752|M|52.07,79.14|N|To First Arcanist Thalyssra. (Evermoon Terrace)|
+A On Public Display|QID|44753|PRE|44752|M|52.07,79.14|N|From First Arcanist Thalyssra.|
+C On Public Display|QID|44753|M|52.22,78.99|QO|1|CHAT|N|Talk to Thalyssra, to tell her you're ready.|
+C On Public Display|QID|44753|M|52.44,79.14|QO|2|N|Click the echoes that come up, until you complete Tracking Vanthir's Location.|
+T On Public Display|QID|44753|M|52.28,79.04|N|To First Arcanist Thalyssra.|
+A Waxing Crescent|QID|44754|PRE|44753|M|52.28,79.04|N|From First Arcanist Thalyssra.|
+C Waxing Crescent|QID|44754|M|47.39,65.85|QO|1|N|Kill Thoramir, to get His Control Orb|
+C Waxing Crescent|QID|44754|M|48.88,67.11|QO|2|N|Click on Vanthir, to free him.|
+T Waxing Crescent|QID|44754|M|48.88,67.11|N|To Vanthir.|
+A Sign of the Dusk Lily|QID|44756|PRE|44754|M|48.84,67.06|N|From Vanthir.|
+C Sign of the Dusk Lily|QID|44756|M|48.89,67.10|QO|1|N|Click the prison, to place the Dusk Lily Sigil.|
+T Sign of the Dusk Lily|QID|44756|M|36.48,46.73|N|To First Arcanist Thalyssra.|
+
+; after above quests, not sure if it starts the next storyline
+
+A Stabilizing Suramar|QID|45316|PRE|44756|M|36.48,46.73|N|From First Arcanist Thalyssra.|
+C Stabilizing Suramar|QID|45316|M|36.48,46.73|N|Complete 10 World Quests, IN Suramar.|
+t Stabilizing Suramar|QID|45316|M|36.48,46.73|N|To First Arcanist Thalyssra.|;guessing on the turn in
+
+N Shal'Aran|N|Unknown Quest chain to follow, not available at this time, Guide completed until 11/15/2016|
 
 ]]
 
