@@ -1222,7 +1222,8 @@ function WoWPro.CompleteStep(step, why)
 	if WoWProDB.profile.checksound then	
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
-	WoWPro:dbp("WoWPro.CompleteStep(%d,%s[%s],'%s')",step,WoWPro.action[step], WoWPro.step[step], why)
+	why = tostring(why)
+	WoWPro:dbp("WoWPro.CompleteStep(%d,%s[%s],'%s')",step, totring(WoWPro.action[step]), tostring(WoWPro.step[step]), why)
 	WoWPro.why[step] = why
 	WoWProCharDB.Guide[GID].completion[step] = why
 	for i,row in ipairs(WoWPro.rows) do
@@ -1245,20 +1246,22 @@ function WoWPro.CompleteStep(step, why)
 	    WoWPro:print(line)
 	end
 	if WoWPro.action[step] == "D" then
+	    local nGID = WoWPro.guide[step]
 	    WoWProCharDB.Guide[GID].done = true
-	    if WoWPro.guide[step] then
-            local nGID = WoWPro.guide[step]
-	        WoWPro:dbp("WoWPro.CompleteStep: %s will be the next guide.", nGID)
-	        WoWPro:LoadGuide(nGID)
-	    end
 	    WoWPro:dbp("WoWPro.CompleteStep: %s guide is done.",GID)
-	    return
+	    if nGID then
+	        WoWPro:dbp("WoWPro.CompleteStep: moving from %s to %s.",GID, nGID)
+	        WoWPro:LoadGuide(nGID)
+	        return true
+	    end
 	end
 	if WoWPro.action[step] == "J" then
 	    local nGID = WoWPro.guide[step]
-	    WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",GID, nGID)
-	    WoWPro:LoadGuide(nGID)
-	    return
+	    if nGID then
+	        WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",GID, nGID)
+	        WoWPro:LoadGuide(nGID)
+	        return true
+	    end
 	end
 	WoWPro.why[step] = why
 	WoWPro:UpdateGuide("WoWPro.CompleteStep")
