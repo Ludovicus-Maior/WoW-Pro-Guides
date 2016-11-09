@@ -1223,7 +1223,7 @@ function WoWPro.CompleteStep(step, why)
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
 	why = tostring(why)
-	WoWPro:dbp("WoWPro.CompleteStep(%d,%s[%s],'%s')",step, totring(WoWPro.action[step]), tostring(WoWPro.step[step]), why)
+	WoWPro:dbp("WoWPro.CompleteStep(%d,%s[%s],'%s')",step, tostring(WoWPro.action[step]), tostring(WoWPro.step[step]), why)
 	WoWPro.why[step] = why
 	WoWProCharDB.Guide[GID].completion[step] = why
 	for i,row in ipairs(WoWPro.rows) do
