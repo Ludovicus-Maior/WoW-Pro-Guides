@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-11-10 06:06
+-- Who: Emmaleah
+-- Log: Marius and Tehd vs a Felbat path and treasure updated
+
+-- URL: http://wow-pro.com/node/3657/revisions/27990/view
 -- Date: 2016-11-06 15:23
 -- Who: tubera
 -- Log: Change order Zarkhenar Ruins for better flow; adjust a few coordinates.
@@ -315,8 +320,8 @@ T Hunger's End|QID|42756|M|47.86,26.12|N|To Senegos.|
 $ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|ITEM|138352|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
 R Nor'Danil Wellspring|QID|42505|M|40.30,34.35|N|Another optional sidetrip for the completioinists amongst us.  WAY OUT OF THE WAY.|RANK|3|
 K Kill Arcanist Shal'iman|QID|42505|QO|1|M|40.92,35.03;35.22,34.54|CS|ITEM|141868|T|Arcanist Shal'iman|N|Silver - He paths around this circle. Kill and loot for a bit of treasure and resources.|RANK|3|
-$ Marius & Tehd vs a Felbat|QID|42069|M|45.6,24.4|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd. Talk to Tehd to assist in thier adventurers by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
-$ Glimmering Treasure Chest|QID|42297|M|45.6,24.4|N|In the gazebo near where the felbat was, guarded by two same level elite mobs.  Loot for a bit of treasure and resources.|RANK|3|
+$ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.74; 39.63, 31.65; 36.84, 31.24; 37.40, 29.57; 39.08, 26.55; 40.23, 24.74; 41.63, 23.91; 42.31, 22.72; 43.43, 23.83|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
+$ Glimmering Treasure Chest|QID|42297|M|43.37, 22.43|N|Guarded by two same level elite slow-running mobs.  Loot for a bit of treasure and resources.|RANK|3|
 
 R Llothien Highlands|QID|37690|M|49.32,29.27|N|Run to Llothien Highlands.|
 A Felblaze Ingress|QID|42372|M|50.46,30.73|N|From Marius Felbane.|RANK|3|
