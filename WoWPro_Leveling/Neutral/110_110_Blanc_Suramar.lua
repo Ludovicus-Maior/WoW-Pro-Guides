@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-12 04:57
+-- Who: Blanckaert
+-- Log: adjusted WRONG item to stackable...  re-refixed what I changed.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28009/view
+-- Date: 2016-11-12 01:40
+-- Who: Blanckaert
+-- Log: change QID 41216 to have a PRE of 42223 instead of 44052, just hope you dont NEED to have done both first. Also Change the Shimmering Anicent Mana NON stack to: Loot for storable ancient mana (Stacks of 5)
+
+-- URL: http://wow-pro.com/node/3687/revisions/28000/view
 -- Date: 2016-11-09 05:28
 -- Who: Emmaleah
 -- Log: added theoretical turn in of last quest.
@@ -245,15 +255,6 @@
 -- Date: 2016-09-14 22:41
 -- Who: Blanckaert
 
--- URL: http://wow-pro.com/node/3687/revisions/27792/view
--- Date: 2016-09-14 22:03
--- Who: Blanckaert
-
--- URL: http://wow-pro.com/node/3687/revisions/27790/view
--- Date: 2016-09-14 21:59
--- Who: Blanckaert
--- Log: First steps of the guide, Incomplete.
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
@@ -308,7 +309,7 @@ A A Re-Warding Effort|QID|41149|M|30.62,40.06|N|From an Arcane Ward.|PRE|42229|
 C Scattered Memories|QID|40326|M|26.42,44.52|S|NC|N|Read Kel'danath's Notes.|
 C A Re-Warding Effort|QID|41149|M|24.97,44.24|S|N|Activate the Arcane Wards.|
 K Kill Shal'an|QID|42831|QO|1|M|26.24,41.16|N|Silver - Kill Shal'an for a bit of treasure and resources.|ITEM|139926|T|Shal'an|RANK|2|
-$ Ancient Mana Chunk|QID|42827|M|26.35,41.27|N|Loot for an Ancient Mana item.|ITEM|139890|
+$ Ancient Mana Chunk|QID|42827|M|26.35,41.27|N|Loot for an Ancient Mana Gem (Stackable to 5).|ITEM|139890|
 K Kill Oreth the Vile|QID|43449|QO|1|M|24.61,47.25|N|Silver - Kill Oreth the Vile for a bit of treasure and resources.|T|Oreth the Vile|RANK|2|
 $ Treasure Chest|QID|43842|M|23.40,48.77|N|Loot for a bit of treasure and resources.|RANK|2|
 C Scattered Memories|QID|40326|M|26.42,44.52|US|NC|N|Read Kel'danath's Notes.|
@@ -445,7 +446,7 @@ $ Enchanted Burial Urn|QID|43986|M|44.83,31.00|U|140326|ITEM|140326|N|Pick this 
 C The Final Ingredient|QID|40319|M|47.85,29.56|N|Kill Latara and retrieve her bow.|
 T The Final Ingredient|QID|40319|M|45.09,30.92|N|To Thaedris Feathersong.|
 A Feathersong's Redemption|QID|40321|M|45.09,30.92|N|From Thaedris Feathersong.|PRE|40319|
-$ Shimmering Ancient Mana Cluster|QID|43744|M|46.50,26.03|N|Underwater, Loot for storable NON stacking ancient mana.|ITEM|141655|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43744|M|46.50,26.03|N|Underwater, Loot for storable, NON-STACKABLE Ancient Mana.|ITEM|141655|RANK|2|
 C Feathersong's Redemption|QID|40321|M|44.69,22.91|U|130260|N|Use the poison to weaken her, then kill Cliffclutch Matriarch.|
 $ Treasure Chest|QID|43850|M|44.27,22.86|N|Loot for a bit of treasure.|RANK|2|
 T Feathersong's Redemption|QID|40321|M|44.98,23.84|N|To Thaedris Feathersong.|
@@ -516,7 +517,7 @@ C Into the Crevasse|QID|42227|M|20.43,41.96|QO|1|NC|N|Follow Valewalker Farodin.
 C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Falanaar Tunnels@Suramar|QO|2|N|Enter Falanaar Tunnels.|
 T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|To Valewalker Farodin.|
 A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|From Valewalker Farodin.|PRE|42227|
-$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for storable NON stacking ancient mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for storable, NON-STACKABLE Ancient Mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
 R Falanaar South Leyline|QID|43593|M|40.99,45.47;45.03,54.61;41.80,66.64|CC|Z|Falanaar Tunnels@Suramar|N|Increases your ancient mana cap and faction is handy|RANK|2|
 A Leyline Feed Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|From/To Leyline Feed.|RANK|2|PRE|41138|
 $ Small Treasure Chest|QID|43840|M|58.33,70.00|Z|Falanaar Tunnels@Suramar|N|Loot for treasure and resources.|RANK|2|
@@ -677,7 +678,7 @@ R Moonfall Overlook|QID|43808|M|29.01,13.11;28.61,14.31;29.61,10.69|CS|N|Run up 
 A Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|From Unpowered Telemancy Beacon.|PRE|40956|
 T Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|To Unpowered Telemancy Beacon.|
 $ Arcane Power Unit|QID|43989|M|35.58,12.04|U|140329|N|Continue up the stairs for an item that raises your mana cap by 100.|
-$ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|N|Keep running along the path for storable NON stacking ancient mana.|RANK|3|ITEM|139786|
+$ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|N|Keep running along the path for Loot for storable, NON-STACKABLE Ancient Mana.|RANK|3|ITEM|141655|
 $ Glimmering Treasure Chest|QID|43849|M|42.05,19.69|N|Loot for some treasure and resources.|RANK|3|
 T The Orchestrator of Our Demise|QID|40970|M|30.10,10.37|N|And back down to turn in the quests to Syrana Starweaver.|
 T Overwhelming Distraction|QID|40971|M|30.10,10.37|N|To Syrana Starweaver.|
@@ -712,7 +713,7 @@ $ Small Treasure Chest|QID|43857|M|63.95,48.05;63.65,49.11|CS|N|Inside a small a
 f Crimson Thicket|QID|43587|M|64.23,41.98|N|At Ancient Cloudwing.|
 R Elor'shan|QID|43587|M|65.87,41.89;65.88,42.04|CS|N|Into this cave to activate another Leyline, make sure you have 250 ancient mana on hand.|RANK|2|
 A Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|Suramar/34|N|To Leyline Feed.|RANK|2|PRE|41138|
-$ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Before you leave Elor'shan Tunnels, loot for storable NON stacking ancient mana.|ITEM|141655|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Before you leave Elor'shan Tunnels, Loot for storable, NON-STACKABLE Ancient Mana.|ITEM|141655|RANK|2|
 
 ; Jandvik's Jarl Side Storyline
 R Jandvik|QID|40907|M|64.86,51.05|N|Run to Jandvik for some sideline quests.|
@@ -747,7 +748,7 @@ C Fisherman's Tonic|QID|40334|M|68.89,70.75|QO|1|US|N|Kill Basilisk and loot Axe
 T Fisherman's Tonic|QID|40334|M|73.00,67.60|N|If you like Brandolf's buff, wait to turn in until you are out of the cave, To Brandolf, who is following you.|
 A Testing the Waters|QID|41034|M|73.00,67.60|N|From Brandolf.|PRE|40334|
 C Testing the Waters|QID|41034|M|77.40,69.30;75.89,72.29|CS|QO|2|N|Commander Malt'his is in an underwater cave, find and kill him.|
-$ Shimmering Ancient Mana Cluster|QID|43741|M|79.66,72.88|N|Loot for storable NON stacking ancient mana.|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43741|M|79.66,72.88|N|Loot for storable, NON-STACKABLE Ancient Mana.|RANK|2|
 K Kill Rok'nash|QID|40680|QO|1|M|80.15,70.65|ITEM|140019|T|Rok'nash|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Testing the Waters|QID|41034|M|80.19,64.00|QO|1|N|Kill Commander Raz'jira who is on the seafloor.|
 $ Small Treasure Chest|QID|43860|M|76.87,61.49|N|Inside the hold of a sunken ship, loot for treasure and resources.|RANK|2|
@@ -990,7 +991,7 @@ C Search and Rescue!|QID|41140|M|27.19,86.06|QO|3|NC|N|Find Brambley's Cage|RANK
 C Shard of Kozak|QID|41098|M|26.09,85.79|N|Kill Kozak and loot the shard.|RANK|2|
 $ Small Treasure Chest|QID|43831|M|25.97,85.46|N|Loot for some treasure and resources.|RANK|2|
 C Search and Rescue!|QID|41140|M|27.54,88.97|QO|4|NC|N|Felsoul Cage Key (downstairs).|RANK|2|
-$ Shimmering Mana Cluster|QID|43748|M|29.75,88.00|ITEM|141655|N|Continue on down to find some storable mana.|RANK|2|
+$ Shimmering Mana Cluster|QID|43748|M|29.75,88.00|ITEM|141655|N|Continue on down to Loot for storable, NON-STACKABLE Ancient Mana.|RANK|2|
 C Search and Rescue!|QID|41140|M|27.09,86.06|QO|5|NC|N|Back up to release the nightfallen prisoner.|RANK|2|
 T Search and Rescue!|QID|41140|M|27.09,86.06|N|To Selthaes Starsong.|RANK|2|
 A Into The Pit!|QID|41222|M|27.12,86.16|N|From Angus Stormbrew.|PRE|41140|RANK|2|
@@ -1104,7 +1105,7 @@ C Asset Security|QID|43352|M|44.51,74.43|QO|2|N|Kill Auditor Yvenne.|
 A Bad Apples|QID|41107|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
 A Blast of Spice Fish|QID|41256|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
 
-A Survival of the Fittest|QID|41216|PRE|44052|M|50.70,56.56|N|From Nighteyes, Down in the water.|RANK|2|
+A Survival of the Fittest|QID|41216|PRE|42223|M|50.70,56.56|N|From Nighteyes, Down in the water.|RANK|2|  ; had 44052 as pre, need to see if BOTH are needed.
 C Survival of the Fittest|QID|41216|M|50.99,54.33|QO|1|U|134119|N|Creatures Freed, some will attack you.|RANK|2|
 T Survival of the Fittest|QID|41216|M|47.97,52.22|N|To Nighteyes.|RANK|2|
 A Apex Predator|QID|41231|M|47.97,52.22|N|From Nighteyes.|RANK|2|

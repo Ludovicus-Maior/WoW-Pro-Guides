@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2016-11-12 02:30
+-- Who: tubera
+-- Log: Fix  coordinate on My old enemy
+
+-- URL: http://wow-pro.com/node/3291/revisions/27967/view
 -- Date: 2016-10-28 03:48
 -- Who: tubera
 -- Log: Fix QOs; Fix Coordinates; Clean up a few overabundant notes;
@@ -356,7 +361,7 @@ T The Plume of Alystros |QID|12456|O|N|Go back to Nishera the Garden Keeper.|M|6
 
 R Venomspite |QID|12458|N|This is an optional step, but will help you get the Exploration Achievement.|M|77.11,62.09|RANK|3|
 R New Hearthglen |QID|12458|N|This is an optional step to help you get the Exploration Achievement also.|M|72.93,68.11|RANK|3|
-C My Old Enemy |QID|12464|N|She can be found in the big cathedral in New Hearthglen. There's a level 80 elite next to her but he doesn't add if you pull Abbendis, so don't worry about it.|M|70.86,75.71;71.09;77.89|CS
+C My Old Enemy |QID|12464|N|She can be found in the big cathedral in New Hearthglen. There's a level 80 elite next to her but he doesn't add if you pull Abbendis, so don't worry about it.|M|70.86,75.71;71.09,77.89|CS
 
 T Seeds of the Lashers |QID|12458|N|Ask Tariolastrasz to send you to the top floor. To Lord Itharius.|M|59.60,54.50|
 A That Which Creates Can Also Destroy |QID|12459|M|59.6,54.4|N|From To Lord Itharius.|
