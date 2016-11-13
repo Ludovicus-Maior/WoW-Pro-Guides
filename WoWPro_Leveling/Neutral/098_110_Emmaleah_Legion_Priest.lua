@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-11-13 04:26
+-- Who: Emmaleah
+-- Log: Change LVL requirement on A Whispers in the Void|QID|43372|
+
+-- URL: http://wow-pro.com/node/3674/revisions/27930/view
 -- Date: 2016-10-17 16:23
 -- Who: tubera
 -- Log:  void
@@ -115,13 +120,12 @@ T Tech it up a Notch|QID|43277|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
 A Relieving the Front Lines|QID|43371|M|51.61,47.81|N|From Alonsus Faol.|PRE|43277|LVL|101|
 C Relieving the Front Lines|QID|43371|M|50.64,47.85|NC|N|Use the scouting map to send yourfollowers on the next mission, "Relieving the Front Lines". This mission is 1 hour.|LVL|101|
 t Relieving the Front Lines|QID|43371|M|51.61,47.81|N|To Alonsus Faol Whenever you exhaust an acolyte, you can (and should) recruit more over at Grand Anchorite Gesslar.|LVL|101|
-A Whispers in the Void|QID|43372|M|51.61,47.81|N|From Alonsus Faol.|PRE|43371|LVL|101|
-C Whispers in the Void|QID|43372|M|20.01,41.77|CHAT|N|Talk to Gilner Greymoss.|LVL|101|
-T Whispers in the Void|QID|43372|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
-A The Best and Brightest|QID|43373|M|47.65,47.33|N|From Prophet Velen.|PRE|43372|LVL|101|
-
+A Whispers in the Void|QID|43372|M|51.39,47.97|N|From Alonsus Faol.|PRE|43371|LVL|103|
+C Whispers in the Void|QID|43372|M|20.01,41.77|CHAT|N|Talk to Gilner Greymoss.|LVL|103|
+T Whispers in the Void|QID|43372|M|51.39,47.97|N|To Alonsus Faol.|LVL|103|
+A The Best and Brightest|QID|43373|M|47.86,47.55|N|From Prophet Velen.|PRE|43372|LVL|103|
 R Dalaran Portal|QID|99999|N|Back to the outside world to continue leveling.|PRE|44100|ACTIVE|39718;39864;39731;39733;39735;43372|
-A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|LVL|101| ;add lvl requirement
+A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|LVL|101|
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
