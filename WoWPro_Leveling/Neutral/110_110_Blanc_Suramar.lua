@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-15 03:07
+-- Who: Blanckaert
+-- Log: adjusted T step for 43312, flow might need adjusting again, had A then T then C, instead of A, c, T.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28012/view
 -- Date: 2016-11-12 04:57
 -- Who: Blanckaert
 -- Log: adjusted WRONG item to stackable...  re-refixed what I changed.
@@ -250,10 +255,6 @@
 -- Date: 2016-09-15 04:10
 -- Who: Blanckaert
 -- Log: Oops.. Spelled the Zone wrong, and missed a few |Z| tags
-
--- URL: http://wow-pro.com/node/3687/revisions/27793/view
--- Date: 2016-09-14 22:41
--- Who: Blanckaert
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1162,11 +1163,11 @@ C Rumor Has It|QID|43313|M|61.90,62.39|CHAT|N|Talk to a Disgruntled Servant.|
 C Rumor Has It|QID|43313|M|58.72,65.45|CHAT|N|Talk to a Shamed Noble.|
 T Either With Us|QID|43310|M|53.41,59.21;57.54,57.63|CS|N|Back down and around to find Aurore.|
 A Thinly Veiled Threats|QID|43312|M|57.54,57.63|N|From Aurore.|PRE|43310|
-T Thinly Veiled Threats|QID|43312|M|57.51,57.61|N|To Aurore.|
-A Vote of Confidence|QID|44040|M|57.51,57.61|N|From Aurore.|PRE|43312|
 $ Treasure Chest|QID|43873|M|57.32,60.39|N|There is a see illusion NPC with some buddies guarding this chest.|RANK|2|
 C Thinly Veiled Threats|QID|43312|M|57.98,68.69|CHAT|N|Rescue Ailen.|
 $ Glimmering Treasure Chest|QID|43876|M|60.33,68.52|N|There is a see illusion NPC with a buddy guarding this chest.|RANK|2|
+T Thinly Veiled Threats|QID|43312|M|57.51,57.61|N|To Aurore.|
+A Vote of Confidence|QID|44040|M|57.51,57.61|N|From Aurore.|PRE|43312|
 T Rumor Has It|QID|43313|M|47.89,82.99|N|To Ly'leth Lunastre.|
 T Vote of Confidence|QID|44040|M|47.89,82.99|N|To Ly'leth Lunastre.|
 A In the Bag|QID|43317|M|47.89,82.99|N|From Ly'leth Lunastre.|PRE|44040|
