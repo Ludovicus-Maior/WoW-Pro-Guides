@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-11-15 19:54
+-- Who: Ludovicus
+-- Log: ; Fix Me Emmaleah (Bad M tag arguments)
+
+-- URL: http://wow-pro.com/node/3668/revisions/28018/view
+-- Date: 2016-11-15 10:20
+-- Who: Emmaleah
+-- Log: Add Awakenings (first Light's Heart quest) correct coord on 2nd lignts heart quest.
+
+-- URL: http://wow-pro.com/node/3668/revisions/27991/view
 -- Date: 2016-11-06 21:24
 -- Who: Emmaleah
 -- Log: fixing a few other misformatted lines
@@ -271,11 +281,17 @@ C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or crea
 t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.
 
+;lights heart - post 110
+A Awakenings|QID|44464|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart|PRE|44448|LVL|110|
+F Lorlathil|QID|44464|M|25.73,28.78|N|At Grimwing.|ACTIVE|44464|
+C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
+T Awakenings|QID|44464|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|To Light's Heart back in your order hall.|
+
 ;lights heart - post 110,requires AK>=2
 A An Unclear Path|QID|44466|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44153|LVL|110|;no way to limit this showing until you get AK=2
 F Garden of the Moon|QID|44466|M|25.73,28.78|N|At Grimwing.|
 R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|
-C An Unclear Path|QID|44466|M|52.46,69.29|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
+C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|To Light's Heart, back in your order hall.|
 A Ravemcrest's Legacy|QID|44479|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|PRE|44466|
 F Garden of the Moon|QID|44414|M|25.73,28.78|N|At Grimwing.|
@@ -327,7 +343,8 @@ t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the So
 A The Scarlet Assault|QID|42818|M|50.98,50.74|NA|N|From Highlord Darion Mograine. This is a completed a special instance of the Scarlet Monestary.|PRE|43572|LVL|110|
 P Dalaran|QID|42818|M|24.91,33.65|N|Use the Dalaran Portal.|ACTIVE|42818|
 P Undercity|QID|42818|M|55.89,22.88|Z|Dalaran@Dalaran70|N|Take the Undercity Portal.|FACTION|HORDE|ACTIVE|42818|
-P Stormwind|QID|42818|M||Z|Dalaran@Dalaran70|N|Take the Stormwind Portal.|FACTION|ALLIANCE|ACTIVE|42818|
+; Fix Me Emmaleah
+P Stormwind|QID|42818|Z|Dalaran@Dalaran70|N|Take the Stormwind Portal.|FACTION|ALLIANCE|ACTIVE|42818|
 F Scarlet Monestary|QID|42818|M|82.49,33.19|Z|Scarlet Monastery Entrance@Tirisfal|N|Fly to Scarlet Monestary.|ACTIVE|42818|
 C The Scarlet Assault|QID|42818|M|69.06,24.51|Z|Scarlet Monastery Entrance@Tirisfal|N|Zone into this instance of the Scarlet Monestary.|
 T The Scarlet Assault|QID|42818|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
@@ -366,7 +383,8 @@ t Maul of the Dead|QID|43574|M|36.19,56.14|Z|The Heart of Acherus@BrokenShore|N|
 A The Fourth Horseman|QID|43686|M|51.06,50.59|N|From Highlord Darion Mograine.|PRE|43574|
 P Dalaran|QID|43686|M|24.91,33.65|N|Use the Dalaran Portal.|ACTIVE|43686|
 P Undercity|QID|43686|M|55.89,22.88|Z|Dalaran@Dalaran70|N|Take the Undercity Portal.|FACTION|HORDE|ACTIVE|43686|
-P Stormwind|QID|43686|M||Z|Dalaran@Dalaran70|N|Take the Stormwind Portal.|FACTION|ALLIANCE|ACTIVE|43686|
+; Fix Me Emmaleah
+P Stormwind|QID|43686|Z|Dalaran@Dalaran70|N|Take the Stormwind Portal.|FACTION|ALLIANCE|ACTIVE|43686|
 F Light's Hope Chapel|QID|43686|QO|1|M|71.34,48.14|Z|Eastern Plaguelands|N|Fly over to Light's Hope Chapel.|ACTIVE|43686|
 C Meet up with Darion|QID|43686|SO|1|M|71.34,48.14|Z|Eastern Plaguelands|NC|N|Land and talk to Darion (or just wait a few seconds)|;missed the proper title feel free to change
 C Prepare to attack|QID|43686|SO|2|M|71.34,48.14|Z|Eastern Plaguelands|NC|N|Listen to dialog.|;missed the proper title feel free to change

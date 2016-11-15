@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2016-11-15 10:25
+-- Who: Emmaleah
+-- Log: Add Awakenings (first 110 Light's Heart Quest), correct coords on C An unseen path (2nd 110 Light's Heart Quest)
+
+-- URL: http://wow-pro.com/node/3673/revisions/27993/view
 -- Date: 2016-11-06 22:20
 -- Who: Ludovicus
 -- Log: Z|Stormwind City| !
@@ -414,11 +419,18 @@ U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use Khadgar's
 T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage Kadgar.|
 A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
 T Light's Charge|QID|44153|M|52.37,69.37|N|Return to your order hall and return to Light's Heart (table in alcove adjacent scouting map).|
+;lights heart - post 110
+A Awakenings|QID|44464|M|52.37,69.37|N|From Light's Heart|PRE|44448|LVL|110|
+P Dalaran|QID|44464|M|38.11,63.38|N|Take the portal to Dalaran.|ACTIVE|44464|
+R Krasus' Landing|QID|44464|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44464|
+F Lorlathil|QID|44464|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44464|
+C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
+T Awakenings|QID|44464|M|52.37,69.37|N|To Light's Heart|
 
 A An Unclear Path|QID|44466|M|52.46,69.29|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44153|;no way to limit this showing until you get AK=2
 F Garden of the Moon|QID|44466|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
 R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|
-C An Unclear Path|QID|44466|M|52.46,69.29|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
+C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|52.46,69.29|N|To Light's Heart, back in your order hall.|
 A Ravemcrest's Legacy|QID|44479|M|52.46,69.29|N|From Light's Heart.|PRE|44466|
 F Garden of the Moon|QID|44414|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
