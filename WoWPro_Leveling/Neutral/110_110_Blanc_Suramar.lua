@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-16 00:42
+-- Who: Blanckaert
+-- Log: Added Quests as of 11/15
+
+-- URL: http://wow-pro.com/node/3687/revisions/28017/view
 -- Date: 2016-11-15 03:07
 -- Who: Blanckaert
 -- Log: adjusted T step for 43312, flow might need adjusting again, had A then T then C, instead of A, c, T.
@@ -250,11 +255,6 @@
 -- Date: 2016-09-15 04:17
 -- Who: Blanckaert
 -- Log: removed a quest that was from Undercity
-
--- URL: http://wow-pro.com/node/3687/revisions/27796/view
--- Date: 2016-09-15 04:10
--- Who: Blanckaert
--- Log: Oops.. Spelled the Zone wrong, and missed a few |Z| tags
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1366,9 +1366,45 @@ T Sign of the Dusk Lily|QID|44756|M|36.48,46.73|N|To First Arcanist Thalyssra.|
 
 A Stabilizing Suramar|QID|45316|PRE|44756|M|36.48,46.73|N|From First Arcanist Thalyssra.|
 C Stabilizing Suramar|QID|45316|M|36.48,46.73|N|Complete 10 World Quests, IN Suramar.|
-t Stabilizing Suramar|QID|45316|M|36.48,46.73|N|To First Arcanist Thalyssra.|;guessing on the turn in
+t Stabilizing Suramar|QID|45316|M|36.48,46.73|N|To First Arcanist Thalyssra.|
 
-N Shal'Aran|N|Unknown Quest chain to follow, not available at this time, Guide completed until 11/15/2016|
+; Insurrection - An Elven Problem - Storyline - Quests from 11/15/2016|
+
+A Eating Before the Meeting|QID|45263|PRE|45316|M|36.49,46.72|N|From First Arcanist Thalyssra.|
+C Eating Before the Meeting|QID|45263|M|37.45,47.42|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
+T Eating Before the Meeting|QID|45263|M|36.50,46.77|N|To First Arcanist Thalyssra.|
+N Horde / Alliance Split?|QID|40632|N|Note: Guide made using horde toon, the next quest may split Factions, please let us know if it does!|
+A Take Me To Your Leader|QID|40632|M|36.50,46.77|N|From First Arcanist Thalyssra.|
+R Take Me To Your Leader|QID|40632|M|34.84,47.97;35.95,51.11;39.51,49.70|CS|N|Run to Khadgar, Thalyssra is already there. |
+T Take Me To Your Leader|QID|40632|M|40.54,53.09|N|To Archmage Khadgar.|
+A Taking a Promenade|QID|41607|M|40.54,53.09|N|From Grand Magister Rommath.|
+A Down to Business|QID|43812|M|40.54,53.09|N|From Lady Liadrin.|
+A A Better Future|QID|41916|M|40.54,53.09|N|From First Arcanist Thalyssra.|
+C Down to Business|QID|43812|M|40.56,63.94|QO|1|N|Slay Suramar Defenders as you go.|
+C A Better Future|QID|41916|M|41.45,61.20|QO|1|N|Rally Shal'dorei Insurgents, as you go.|
+C Taking a Promenade|QID|41607|M|45.24,55.78;46.35,57.85|CS|QO|1|N|1/1 Magus Sendath found|
+A Nullified|QID|44834|M|46.44,58.16|N|From Magus Sendath.|
+C Nullified|QID|44834|M|45.90,53.53;45.51,52.42|CS|QO|2|N|Click on Charged Arcshaper Staff|
+C Nullified|QID|44834|M|44.51,53.73|QO|1|N|Kill Oldus for the Volatile Construct Core.|
+T Nullified|QID|44834|M|46.46,58.13|N|To Magus Sendath.|
+A Shield, Meet Spell|QID|44842|M|46.46,58.13|N|From Magus Sendath.|
+C Shield, Meet Spell|QID|44842|M|45.21,54.65;44.64,53.85|CS|QO|1|U|142260|N|Use the orb on Him, then Slay Arcshaper Thorendis.|
+T Shield, Meet Spell|QID|44842|M|46.48,58.13|N|To Magus Sendath.|
+C Taking a Promenade|QID|41607|M|40.54,64.03|QO|2|N|1/1 Sentinel Moonshade found|
+A Crystal Clearing|QID|44843|M|40.56,64.41|N|From Sentinel Moonshade.|
+A Powering Down the Portal|QID|44844|M|40.56,64.41|N|From Sentinel Moonshade.|
+C Crystal Clearing|QID|44843|M|41.76,66.58|QO|1|N|Destroy the Portal Crystals, around Ingra|
+C Powering Down the Portal|QID|44844|M|40.99,65.66|QO|1|N|Slay Overseer Ingra.|
+T Crystal Clearing|QID|44843|M|40.61,64.46|N|To Sentinel Moonshade.|
+T Powering Down the Portal|QID|44844|M|40.61,64.46|N|To Sentinel Moonshade.|
+T A Better Future|QID|41916|M|40.51,53.09|N|To First Arcanist Thalyssra.|
+T Down to Business|QID|43812|M|40.51,53.09|N|To Lady Liadrin.|
+T Taking a Promenade|QID|41607|M|40.51,53.09|N|To Grand Magister Rommath.|
+A Break An Arm|QID|44845|PRE|41916;41607;43812|M|40.51,53.09|N|From First Arcanist Thalyssra.|
+C Break An Arm|QID|44845|M|46.98,50.35;57.11,48.79|CS|QO|1|N|Slay the Arm of the Magistrix.|
+T Break An Arm|QID|44845|M|40.55,53.08|N|To First Arcanist Thalyssra.|
+
+N Shal'Aran|N|Unknown Quest chain to follow, not available at this time, Guide completed until 11/22/2016|
 
 ]]
 
