@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2016-11-18 03:51
+-- Who: tubera
+-- Log: Fix QOs
+
+-- URL: http://wow-pro.com/node/3294/revisions/26936/view
 -- Date: 2014-11-08 12:58
 -- Who: Ludovicus
 -- Log: Double U
@@ -96,7 +101,7 @@ WoWPro:GuideSteps(guide, function()
 --Addon Version: Last Modified 7/14/2010
 return [[
 
-F Conquest Hold|QID|12487|N|Fly to Conquest Hold.|M|43.85,16.93|Z|Dragonblight|
+F Conquest Hold|QID|12468|N|Fly to Conquest Hold.|M|43.85,16.93|Z|Dragonblight|
 T To Conquest Hold, But Be Careful!|QID|12487|M|20.8,64.2|N|To Conqueror Krenna.|
 A The Conqueror's Task|QID|12468|M|20.8,64.2|N|From Conqueror Krenna.|
 h Conquest Hold|QID|12468|M|20.8,64.5|N|At Barracks Master Rhekku.|
@@ -190,14 +195,14 @@ T Scourgekabob|QID|12484|N|To Mack Fearson.|M|15.77,46.76|
 A Seared Scourge|QID|12029|M|16.7,48.3|N|From Mack Fearson, after his song.|
 A Shimmercap Stew|QID|12483|M|15.7,46.7|N|From Prigmon.|
 
-l Ice Serpent Eyes|QID|12483|L|35798 5|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|S|
-l Get 5 Shimmering Snowcaps|QID|12483|L|35782 5|N|From the Shimmering Snowcaps, to the west, near the river.|S|
+l Ice Serpent Eyes|QID|12483|QO|1|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|S|
+l Get 5 Shimmering Snowcaps|QID|12483|QO|2|N|From the Shimmering Snowcaps, to the west, near the river.|S|
 l Frozen Mojos|QID|11991|L|35799 5|N|Drop from Krakkari Warriors and Shamans, you need 5 mojos.|M|12.9,59.2|
 T Subject to Interpretation|QID|11991|M|13.2,60.9|U|35797|N|Use the [Drakuru's Elixir] near the Drakuru's Brazier. Turn the quest into the Image of Drakuru.|
 A Sacrifices Must be Made|QID|12007|M|13.2,60.9|N|From the Image of Drakuru.|
 
-l Ice Serpent Eyes|QID|12483|L|35798 5|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|US|
-l Get 5 Shimmering Snowcaps|QID|12483|L|35782 5|N|From the Shimmering Snowcaps, to the west, near the river.|US|
+l Get 5 Shimmering Snowcaps|QID|12483|QO|2|N|From the Shimmering Snowcaps, to the west, near the river.|US|
+l Ice Serpent Eyes|QID|12483|QO|1|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|US|
 C Shimmercap Stew|QID|12483|N|Loot Sweetroots from the ground.|M|16.1,34.8|S|
 K Warlord Zim'bo|L|35836|QID|12007|N|Kill and loot Warlord Zim'bo.|M|15,37|
 C Sacrifices Must be Made|QID|12007|N|Get the "Eye of the Prophets" from the Seer of Zeb'Halak (statue), up the stairs.|M|17.92,36.51|
@@ -244,9 +249,9 @@ T Seared Scourge |QID|12029|N|To Mack Fearsen. Don't worry about the follow-up.|
 T Shimmercap Stew |QID|12483|N|To Prigmon.|M|15.76,46.77|
 A Say Hello to My Little Friend |QID|12190|M|15.7,46.7|N|From Prigmon.|
 C Vordrassil's Fall|QID|12207|N|Kill and loot the Entropic Oozes in any of the caves to get the samples.|S|
-N Vordrassil's Tears|QID|12213|QO|Orb used beneath Vordrassil's Tears.: 1/1|U|37173|N|Fight your way down to the bottom of the cave to the area with black smoke. Use the orb here.|M|28,45|
-N Vordrassil's Limb|QID|12213|QO|Orb used beneath Vordrassil's Limb.: 1/1|U|37173|N|Use the orb down the bottom of the cave in the smoke.|M|33,49|
-C The Darkness Beneath|QID|12213|U|37173|N|Again, the orb must be used in the smoke at the bottom of the cave.|M|40,52|
+N Vordrassil's Tears|QID|12213|QO|3|U|37173|N|Fight your way down to the bottom of the cave to the area with black smoke. Use the orb here.|M|28,45|
+N Vordrassil's Limb|QID|12213|QO|2|U|37173|N|Use the orb down the bottom of the cave in the smoke.|M|33,49|
+C The Darkness Beneath|QID|12213|QO|1|U|37173|N|Again, the orb must be used in the smoke at the bottom of the cave.|M|40,52|
 C Vordrassil's Fall|QID|12207|N|Kill and loot the Entropic Oozes in any of the caves to get the samples.|US|
 
 T Ruuna the Blind|QID|12425|M|44.1,48.0|N|To Ruuna the Blind.|
@@ -263,6 +268,7 @@ T Onward to Camp Oneqwah|QID|12451|N|To Scout Vor'takh.|M|65.1,47.7|
 A An Expedient Ally|QID|12074|M|65.1,47.7|N|From Scout Vor'takh.|
 A The Horse Hollerer|QID|12415|M|65.0,47.8|N|From Soulok Stormfury.|
 A The Unexpected 'Guest'|QID|12195|M|65.2,47.5|N|From Tormak the Scarred.|
+f Camp Oneqwah|QID|12195|M|64.93,46.92|N|Get the flight point at Makki Wintergale.
 
 C The Unexpected 'Guest'|QID|12195|N|Kill and loot Silvercoat Stags.|M|67.61,43.32|
 A A Bear of an Appetite|QID|12279|M|69.1,40.1|N|From Hugh Glass.|
@@ -286,9 +292,9 @@ A Deciphering the Journal|QID|12054|M|65.2,47.8|N|From Sage Paluna.|
 
 C A Possible Link|QID|12229|N|Kill furbolg for 8 Crazed Furbolg Blood.|S|
 C Deciphering the Journal|QID|12054|N|Kill Grumbald One-Eye and loot a Spiritsbreath.|M|66.5,58.9|
-N Get Kodian's Story|QID|12231|QO|Kodian's Story: 1/1|N|Talk to Kodian, go through her text.|M|66.9,62.5|
+N Get Kodian's Story|QID|12231|QO|2|N|Talk to Kodian, go through her text.|M|66.9,62.5|
 
-C The Bear God's Offspring|QID|12231|N|Talk to Orsonn, go through his text.|M|48.1,58.8|
+C The Bear God's Offspring|QID|12231|QO|1|N|Talk to Orsonn, go through his text.|M|48.1,58.8|
 C A Possible Link|QID|12229|N|Kill the Frostpaw Shaman/Warriors around here.|US|M|53,55|
 T A Possible Link|QID|12229|N|To Windseer Grayhorn.|M|22.5,63.0|
 T The Bear God's Offspring|QID|12231|M|22.5,63.0|N|To Windseer Grayhorn.|
@@ -312,9 +318,9 @@ A Into the Breach|QID|11985|M|65.7,17.8|N|From Kurun.|
 
 C Pounding the Iron|QID|12073|N|Kill Iron Dwarves.|S|
 C Into the Breach|QID|11985|N|To take a shortcut, run around the edge of the trench until you're nearly where he spawns (but up the top) and above the bridge-like structure with blue runes on it. Then you can jump onto this, then drop onto the top of the door above the Thane, then jump down and finish him. (Or just fly down if you have a flying mount.)|M|70.5,12.9|
-N Second Rune Plate|QID|12058|QO|Second Prophecy Deciphered: 1/1|N|Cross the small bridge, go a few paces south and you'll find the Second Rune Plate.|M|70.17,14.68|
-N First Rune Plate|QID|12058|QO|First Prophecy Deciphered: 1/1|N|Go a few paces southwest to the other side of the bridge, you'll find the First Rune Plate.|M|68.99,14.43|
-C The Runic Prophecies|QID|12058|N|Cross the small bridge south and you should find the Third Rune Plate.|M|68.51,16.22|
+N Second Rune Plate|QID|12058|QO|2|N|Cross the small bridge, go a few paces south and you'll find the Second Rune Plate.|M|70.17,14.68|
+N First Rune Plate|QID|12058|QO|1|N|Go a few paces southwest to the other side of the bridge, you'll find the First Rune Plate.|M|68.99,14.43|
+C The Runic Prophecies|QID|12058|QO|3|N|Cross the small bridge south and you should find the Third Rune Plate.|M|68.51,16.22|
 C Pounding the Iron|QID|12073|N|Kill Iron Dwarves.|US|
 T Into the Breach |QID|11985|N|To Kurun.|M|65.65,17.79|
 A Gavrock |QID|12081|M|65.8,17.8|N|From Kurun.|
@@ -355,17 +361,17 @@ C Ursoc, the Bear God|QID|12236|O|N|This group quest *is* soloable, especially i
 
 T A Sister's Pledge |QID|12411|N|To Anya in Duskhowl Den.|M|64.87,43.43|
 A Hour of the Worg |QID|12164|N|From Sasha.|M|57.53,41.27|
-N Find out what Hugh Glass knows of Loken|QID|12204|QO|Hugh Glass Questioned: 1/1|N|Talk to Hugh Glass, click on the text and let him speak until you get the quest update.|M|69.1,40.1|
+N Find out what Hugh Glass knows of Loken|QID|12204|QO|1|N|Talk to Hugh Glass, click on the text and let him speak until you get the quest update.|M|69.1,40.1|
 
 N Detour|QID|12236|O|N|We're going to take a little detour here to turn in Ursoc, the Bear God. There just isn't a better time to do in than now.|
 F Conquest Hold|QID|12236|O|N|Go back to Camp Oneqwah and take the Flight Path.|M|64.9,46.9|
 T Ursoc, the Bear God|QID|12236|O|M|22.5,63.0|N|To Windseer Grayhorn.|
 F Camp Oneqwah|QID|12068|M|22.0,64.5|N|Fly to Camp Oneqwah.|PRE|12236|
 
-K Overseer Brunon|QID|12093|QO|Overseer Brunon slain: 1/1|N|Go east/southeast to a summoning circle with 4 dwarves Iron Rune-Weavers channeling. Kill the 4 Dwarves. Overseer Brunon will spawn. Kill him.|M|78.8,43.4|
-K Overseer Lochli|QID|12093|QO|Overseer Lochli slain: 1/1|N|Go northwest to another summoning circle. Kill the 4 Dwarves. Overseer Lochli will spawn. Kill him.|M|75.2,37.1|
-K Overseer Korgan|QID|12093|QO|Overseer Korgan slain: 1/1|N|Go northwest to another summoning circle. Kill the 4 Dwarves. Overseer Korgan will spawn. Kill him.|M|71.7,34.5|
-C Runes of Compulsion|QID|12093|N|Go northwest to another summoning circle. Kill the 4 Dwarves. Overseer Druval will spawn. Kill him.|M|67.6,29.6|
+K Overseer Brunon|QID|12093|QO|4|N|Go east/southeast to a summoning circle with 4 dwarves Iron Rune-Weavers channeling. Kill the 4 Dwarves. Overseer Brunon will spawn. Kill him.|M|78.8,43.4|
+K Overseer Lochli|QID|12093|QO|3|N|Go northwest to another summoning circle. Kill the 4 Dwarves. Overseer Lochli will spawn. Kill him.|M|75.2,37.1|
+K Overseer Korgan|QID|12093|QO|2|N|Go northwest to another summoning circle. Kill the 4 Dwarves. Overseer Korgan will spawn. Kill him.|M|71.7,34.5|
+C Runes of Compulsion|QID|12093|QO|1|N|Go northwest to another summoning circle. Kill the 4 Dwarves. Overseer Druval will spawn. Kill him.|M|67.6,29.6|
 
 C Therapy|QID|12114|N|Kill Drakkari Protectors and Drakkari Oracles on your way.|S|
 C It Takes Guts....|QID|12116|N|Further north you'll find an entrance to the catacombs. Look for Drakkari Canopic Jars. Loot 5 of them.|M|71.5,23.0|
@@ -410,9 +416,9 @@ T Runes of Compulsion |QID|12093|N|To Gavrock.|M|79.78,33.66|
 A Latent Power |QID|12094|M|79.8,33.6|N|From Gavrock.|
 C In the Name of Loken|QID|12204|N|Talk to Gavrock and click on the text, wait until you get the quest update.|M|79.7,33.6|
 
-N Latent Power|QID|12094|QO|Power Drawn from Second Ancient Stone: 1/1|N|Go south/southwest to an isle with a stone surrounded by a blue glow. Use the Shard of Gavrok.|U|36787|M|79,40|
-N Latent Power|QID|12094|QO|Power Drawn from Third Ancient Stone: 1/1|N|Go southwest to another of those blue glow stones. Use the Shard of Gavrock.|U|36787|M|74,44|
-C Latent Power|QID|12094|N|Go northwest to another of those blue glow stones. Use the Shard of Gavrock.|U|36787|M|71,39.5|
+N Latent Power|QID|12094|QO|2|N|Go south/southwest to an isle with a stone surrounded by a blue glow. Use the Shard of Gavrok.|U|36787|M|79,40|
+N Latent Power|QID|12094|QO|3|N|Go southwest to another of those blue glow stones. Use the Shard of Gavrock.|U|36787|M|74,44|
+C Latent Power|QID|12094|QO|1|N|Go northwest to another of those blue glow stones. Use the Shard of Gavrock.|U|36787|M|71,39.5|
 T In the Name of Loken|QID|12204|N|To Scout Vor'takh.|M|65.1,47.7|
 A The Overseer's Shadow|QID|12201|M|65.1,47.7|N|From Scout Vor'takh.|
 
@@ -433,8 +439,8 @@ T From the Ground Up|QID|12196|M|65.1,47.3|N|To Prospector Rokar.|
 A We Have the Power |QID|12197|M|65.1,47.3|N|From Prospector Rokar.|
 
 R Dun Argol|QID|12198|U|37071|N|Mount up and ride back to Dun'Argol. Use the disguise (can not be used while mounted anymore).|M|75,55|
-l Durar's Power Cell|QID|12203|L|36857|U|37071|N|Head up to the next tier, it has two buildings. Go to the building on your left, Durar is inside. Drop the buff and kill him. Loot the power cell off his body.|M|75.0,57.1|
-C We Have the Power|QID|12203|U|37071|N|He's inside the next building.|M|76.8,59.1|
+l Durar's Power Cell|QID|12203|QO|1|U|37071|N|Head up to the next tier, it has two buildings. Go to the building on your left, Durar is inside. Drop the buff and kill him. Loot the power cell off his body.|M|75.0,57.1|
+C We Have the Power|QID|12203|QO|2|U|37071|N|He's inside the next building.|M|76.8,59.1|
 C Loken's Orders|QID|12203|U|37071|N|Head north and take the path east. Follow it to the building. Go inside and right click the Loken's Pedestal, wait till you get a quest update.|M|81.6,60.5|
 N READ THIS|QID|12197|U|37071|N|Do NOT turn in Loken's Orders, the disguise comes in handy shortly.|M|65.1,47.3|
 T We Have the Power|QID|12197|N|To Prospector Rokar.|M|65.1,47.3|
