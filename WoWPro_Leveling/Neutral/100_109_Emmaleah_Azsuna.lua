@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-11-18 17:18
+-- Who: tubera
+-- Log: *sigh* and fix the rogue on the T step
+
+-- URL: http://wow-pro.com/node/3657/revisions/28028/view
+-- Date: 2016-11-18 17:15
+-- Who: tubera
+-- Log: Fix spelling on Rogue it's not with a q
+
+-- URL: http://wow-pro.com/node/3657/revisions/28014/view
 -- Date: 2016-11-12 22:22
 -- Who: tubera
 -- Log: Need to add the Druid twice...
@@ -165,10 +175,10 @@ C The Scythe of Souls|QID|37660|QO|8|M|44.26,44.14|N|Click on the crystal to lea
 C The Scythe of Souls|QID|37660|QO|9|M|43.38,43.36|N|Meet back up with Allari|NC|
 T The Scythe of Souls|QID|37660|M|43.29,43.16|N|To Allari the Souleater.|
 ;add class tag
-A From Within|QID|36920|M|43.56,43.46|N|From Kayn Sunfury.|C|Death Knight,Hunter,Mage,Monk,Paladin,Priest,Roque,Shaman,Warrior,Warlock,Druid
+A From Within|QID|36920|M|43.56,43.46|N|From Kayn Sunfury.|C|Death Knight,Hunter,Mage,Monk,Paladin,Priest,Rogue,Shaman,Warrior,Warlock,Druid
 A From Within|QID|44140|M|43.56,43.46|N|From Kayn Sunfury.|C|Demon Hunter|
 
-T From Within|QID|36920|M|41.24,50.50|N|To Kor'vas Bloodthorn.|C|Death Knight,Hunter,Mage,Monk,Paladin,Priest,Roque,Shaman,Warrior,Warlock,Druid
+T From Within|QID|36920|M|41.24,50.50|N|To Kor'vas Bloodthorn.|C|Death Knight,Hunter,Mage,Monk,Paladin,Priest,Rogue,Shaman,Warrior,Warlock,Druid
 T From Within|QID|44140|M|43.56,43.46|N|From Kayn Sunfury.|C|Demon Hunter|
 A Fel Machinations|QID|37656|M|40.05,48.80|N|From Kor'vas Bloodthorn who will show up and follow you around.|
 A Saving Stellagosa|QID|37450|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
