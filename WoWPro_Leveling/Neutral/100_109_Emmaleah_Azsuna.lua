@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-11-19 21:40
+-- Who: tubera
+-- Log: Fix US on Runes of Power
+
+-- URL: http://wow-pro.com/node/3657/revisions/28029/view
 -- Date: 2016-11-18 17:18
 -- Who: tubera
 -- Log: *sigh* and fix the rogue on the T step
@@ -498,7 +503,7 @@ C Quantity Over Quality|QID|42368|M|67.83,26.99|N|Kill demons as you go along.|S
 $ Small Treasure Chest|QID|42958|M|65.47,29.56|N|Loot for a bit of treasure and resources.|RANK|3|
 C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|The runes are here on the ground on each side of the portal.|P|Inscription;773|LVL|102|
 C They're Doing it Wrong|QID|42369|NC|M|67.85,28.07|N|Two stabilizers need sabatoged on each side of the portal.|RANK|3|
-C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|Finish examining the runes.|P|Inscription;773|LVL|102|
+C Runes of Power|QID|39940|M|67.85,28.07|US|NC|N|Finish examining the runes.|P|Inscription;773|LVL|102|
 C Control is Key|QID|39941|M|68.46,26.17|T|Overseer Felorax|NC|N|Click on the fel totem to summon Overseer Felorax.|P|Inscription;773|LVL|102|
 $ Small Treasure Chest|QID|44103|M|69.16,25.93;69.77,29.57;68.87,29.73|CS|N|In an underwater cave. Loot for a bit of treasure and resources.|RANK|3|
 C Arkethrax|QID|42367|QO|1|M|67.32,30.70|N|Kill Arkethrax|T|Arkethrax|RANK|3|
