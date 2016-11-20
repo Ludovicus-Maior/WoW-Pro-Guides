@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-11-19 23:04
+-- Who: tubera
+-- Log: Tweak Faronaar for slightly better flow.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28030/view
 -- Date: 2016-11-19 21:40
 -- Who: tubera
 -- Log: Fix US on Runes of Power
@@ -184,37 +189,36 @@ A From Within|QID|36920|M|43.56,43.46|N|From Kayn Sunfury.|C|Death Knight,Hunter
 A From Within|QID|44140|M|43.56,43.46|N|From Kayn Sunfury.|C|Demon Hunter|
 
 T From Within|QID|36920|M|41.24,50.50|N|To Kor'vas Bloodthorn.|C|Death Knight,Hunter,Mage,Monk,Paladin,Priest,Rogue,Shaman,Warrior,Warlock,Druid
-T From Within|QID|44140|M|43.56,43.46|N|From Kayn Sunfury.|C|Demon Hunter|
+T From Within|QID|44140|M|41.24,50.50|N|To Kor'vas Bloodthorn.|C|Demon Hunter|
 A Fel Machinations|QID|37656|M|40.05,48.80|N|From Kor'vas Bloodthorn who will show up and follow you around.|
 A Saving Stellagosa|QID|37450|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
 A Retake Faronaar-Bonus Objective|QID|36811|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|LVL|-109|
 C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|N|Kill demons and click on the glowing items as you accomplish the other objectives.|S|RANK|2|
-C Fel Machinations|QID|37656|M|40.05,48.80|N|Free the prisoners as you go.|S|
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
-C Fel Machinations|QID|37656|M|40.05,48.80|N|Free the prisoners as you go.|US|
 C Saving Stellagosa|QID|37450|QO|2|M|40.48,56.36|N|Kill and Loot Lykill to get the key to Stellagosa's bonds.|T|Overseer Lykill|
 $ Treasure Chest|QID|38316|M|40.57,57.66|N|Loot for a bit of treasure and resources.|RANK|2|
 C Saving Stellagosa|QID|37450|QO|3|M|38.23,57.60;38.01,58.35;37.69,57.62|CN|NC|N|Click on the locks to free Stellagosa.|
-C Fel Machinations|QID|37656|M|40.05,48.80|N|Free the prisoners as you go.|US|
-T Saving Stellagosa|QID|37450|M|36.27,49.03|N|To Kor'vas Bloodthorn.|
-T Fel Machinations|QID|37656|M|36.27,49.03|N|To Kor'vas Bloodthorn.|
-A Dark Revelations|QID|37449|M|36.27,49.03|N|From Kor'vas Bloodthorn.|
+C Fel Machinations|QID|37656|M|40.05,48.80|N|Free the prisoners as you go.|
 $ Cache of Infernals|QID|38037|M|35.38,50.37|N|Silver - Click on the pile of rocks to start spawning infernals, 3rd wave is the silver.|RANK|2|
 K Kill Ragemaw|QID|44108|QO|1|M|32.57,48.74|ITEM|129075|T|Ragemaw|N|Silver - Kill and loot for some treasure and resources.|RANK|2|
-R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|
+C Retake Faronaar-Bonus Objective|QID|36811|M|36.07,50.12|N|If you havent already, finish this up.|US|RANK|2|
+t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|Auto turned in upon completion.|RANK|2|
+T Saving Stellagosa|QID|37450|M|36.27,49.03|N|To Kor'vas Bloodthorn following you around.|
+T Fel Machinations|QID|37656|M|36.27,49.03|N|To Kor'vas Bloodthorn.|
+A Dark Revelations|QID|37449|M|36.27,49.03|N|From Kor'vas Bloodthorn.|
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S
+K Kill Vorthax|QID|42280|QO|1|M|37.14,43.35|ITEM|141875|T|Vorthax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US
 f Illidari Perch|QID|42286|M|31.81,46.27|N|At Jena Moonrath.|RANK|3|
-K Kill Houndmaster Stroxis|QID|42286|QO|1|M|30.82,47.61|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
+K Kill Houndmaster Stroxis|QID|42286|QO|1|M|30.82,47.61|N|Silver - Kill and loot for some treasure and resources. Pull him into Illidari perch to get help from the Illidari|RANK|3|
 $ Treasure Chest|QID|44105|M|26.25,47.14|N|Loot for a bit of treasure and resources.|RANK|3|
 K Kill Inquistitor Tivos|QID|42376|QO|1|M|26.83,49.07;28.30,51.94|CS|ITEM|141874|T|Inquistitor Tivos|N|Silver - Use the portal located at the first coordinate, to port up to the Soulrender above, he is in the lower level. Kill and loot for some treasure and resources.|RANK|3|
 K Kill Broodmother Lizax|QID|44670|QO|1|M|33.26,42.21|ITEM|141869|T|Broodmother Lizax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
-K Kill Vorthax|QID|42280|QO|1|M|37.14,43.35|ITEM|141875|T|Vorthax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
 R Grey Shoals|QID|38238|M|32.43,28.61|N|If you have a glider, gliding across from outside Vorthax's spot is nice. Otherwise run down and swim across.|RANK|3|
 K Kill Beacher|QID|38238|QO|1|M|32.43,28.61|ITEM|129067|T|Beacher|N|Silver - Paths up and down the beach. Kill and loot for a bit of treasure and resources.|RANK|3|;probably need a run step in here
 $ Small Treasure Chest|QID|44102|M|34.58,35.55|N|In a alcove under a rocky outcropping. Loot for a bit of treasure and resources.|RANK|3|
 
 R Traitor's Overlook|QID|37449|M|35.54,52.50|N|And back to the questline. Yes, its a bit of a run, you can use a glider if you have it to save a bit of pain.|RANK|3|
-C Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|If you havent already, finish this up.|US|RANK|2|
-t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|Auto turned in upon completion,|RANK|2|
 C Dark Revelations|QID|37449|QO|1|M|35.54,52.50|N|Kill Nightglaive the Traitor.|T|Nightglaive the Traitor|
 C Dark Revelations|QID|37449|QO|2|M|35.11,52.90|NC|N|Click on Stellagosa for a ride back to Illidari Stand (Optional).|
 C Dark Revelations|QID|37449|QO|3|M|43.57,43.28|NC|N|Meet back at Illidari Stand.|
