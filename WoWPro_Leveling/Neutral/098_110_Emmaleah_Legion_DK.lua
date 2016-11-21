@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2016-11-21 01:43
+-- Who: Blanckaert
+-- Log: Fixed Ludo's 'Fix Me Emma' bad Ms, added ACTIVE and LVL to quite a few steps, as they were showing up on my lvl 100 DK
+
+-- URL: http://wow-pro.com/node/3668/revisions/28020/view
 -- Date: 2016-11-15 19:54
 -- Who: Ludovicus
 -- Log: ; Fix Me Emmaleah (Bad M tag arguments)
@@ -130,14 +135,14 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
-C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
-
 A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
-C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
+
+P In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
+P In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
+
 ;both
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Dalaran70|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
-
 A The Call To War|QID|40714|M|57.67,45.71|Z|Dalaran@Dalaran70|N|From UI Alert a minute or so after you turn in the previous quest.|
 T The Call To War|QID|40714|M|73.11,46.85|Z|Dalaran@Dalaran70|N|To Duke Lankral up on Krasus Landing.|
 A A Pact of Necessity|QID|40715|M|73.11,46.85|Z|Dalaran@Dalaran70|N|From Duke Lankral.|PRE|40714|
@@ -180,7 +185,7 @@ C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
 C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
 U Dalaran Hearthstone|ACTIVE|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
-R Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|
+P Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
 T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
 A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar.|PRE|42457|
 P The Exodar|QID|44004|M|28.69,33.55|Z|Aegwynn's Gallery@Dalaran70|N|Take Khadgar's portal to enter a scenario.|ACTIVE|44004|
@@ -289,25 +294,25 @@ T Awakenings|QID|44464|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|To Lig
 
 ;lights heart - post 110,requires AK>=2
 A An Unclear Path|QID|44466|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44153|LVL|110|;no way to limit this showing until you get AK=2
-F Garden of the Moon|QID|44466|M|25.73,28.78|N|At Grimwing.|
-R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|
+F Garden of the Moon|QID|44466|M|25.73,28.78|N|At Grimwing.|ACTIVE|44466|
+R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|To Light's Heart, back in your order hall.|
 A Ravemcrest's Legacy|QID|44479|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|PRE|44466|
-F Garden of the Moon|QID|44414|M|25.73,28.78|N|At Grimwing.|
-R Black Rook Hold|QID|44414|M|51.42,50.67;45.82,50.34|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|
+F Garden of the Moon|QID|44414|M|25.73,28.78|N|At Grimwing.|ACTIVE|44479|
+R Black Rook Hold|QID|44414|M|51.42,50.67;45.82,50.34|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|ACTIVE|44479|
 C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|Val'sharah|NC|S|N|Run to the alcove behind Araxxas (not in the instance). Use your extra action button to watch a vignette about Illidan traveling the wrong path.|
 C Report to Kur'talos|QID|44479|SO|1|M|42.4,46.56|Z|BlackRookHoldScenario|NC|N|Listen/watch the dialog.|
 C Repair the Portal|QID|44479|SO|2|M|42.0,46.2|Z|BlackRookHoldScenario|NC|N|Click on the portal to restore it.|
 C The Road to Fel|QID|44479|SO|3|M|44.3,49.57|Z|BlackRookHoldScenario|N|Rt Click to autoattack Xalian Felblaze. After a bit, you will a "6" button will allow you to sacrifice one of the mages, once you do, "1" will appear, use it to damage Xalian.|
 C No Man An Island|QID|44479|SO|4|S|M|44.5,51.23;41.0,51.44|CS|Z|BlackRookHoldScenario|N|Activate the remaining portals.|
-A Felspawns of Lothros|QID|44414|M|40.4,53.03|Z|BlackRookHoldScenario|N|From Jared Shadowsong.|
+A Felspawns of Lothros|QID|44414|M|40.4,53.03|Z|BlackRookHoldScenario|N|From Jared Shadowsong.|ACTIVE|44479|
 C Felspawns of Lothros|QID|44414|M|40.4,53.03|Z|BlackRookHoldScenario|N|Help Jared kill Lothros.|
 T Felspawns of Lothros|QID|44414|M|40.4,53.03|Z|BlackRookHoldScenario|N|To Jared Shadowsong.|
-A The Red Axe|QID|44415|M|40.4,53.03|Z|BlackRookHoldScenario|N|From Jared Shadowsong.|
+A The Red Axe|QID|44415|M|40.4,53.03|Z|BlackRookHoldScenario|N|From Jared Shadowsong.|ACTIVE|44479|
 C The Red Axe|QID|44415|M|39.0,51.30;40.6,50.93;41.4,49.87|CS|Z|BlackRookHoldScenario|N|Click on the unstable portals to close them.|
-T The Red Axe|QID|44415|M|43.85,50.34|Z|BlackRookHoldScenario|N|To Broxigar the Red.|
-A Hunter of Night|QID|44416|M|43.85,50.34|Z|BlackRookHoldScenario|N|From Broxigar the Red.|
+T The Red Axe|QID|44415|M|43.85,50.34|Z|BlackRookHoldScenario|N|To Broxigar the Red.|ACTIVE|44479|
+A Hunter of Night|QID|44416|M|43.85,50.34|Z|BlackRookHoldScenario|N|From Broxigar the Red.|ACTIVE|44479|
 C Hunter of Night|QID|44416|M|43.0,50.29|Z|BlackRookHoldScenario|N|Kill the demon.|
 T Hunter of Night|QID|44416|M|41.6,50.56|Z|BlackRookHoldScenario|N|To Broxigar the Red .|
 C No Man An Island|QID|44479|SO|4|US|M|44.53,51.23;40.98,51.44;43.71,50.88|CS|Z|BlackRookHoldScenario|N|Click the last portals.|
@@ -322,29 +327,28 @@ A In My Father's House|QID|44480|M|54.22,74.67|Z|The Heart of Acherus@BrokenShor
 P Dalaran|QID|44480|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|44480|
 R Graymane Enclave|QID|44480|M|47.2,17.8|Z|Dalaran@Dalaran70|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|44480|
 R Windrunner's Sanctuary|QID|44480|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|44480|
-R Temple of Zin-Malor - Azshara|QID|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|
+R Temple of Zin-Malor - Azshara|QID|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|ACTIVE|44480|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
 T In My Father's House|QID|44480|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to Light's Heart in your order hall.|
 A Destiny Unfulfilled|QID|44481;44496;44497|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|PRE|44480|
-P Dalaran|QID|44481;44496;44497|M|24.67,33.69|N|Click on the portal to Dalaran.|
-P Shattrath|QID|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|
-R Shadowmoon Valley|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
+P Dalaran|QID|44481;44496;44497|M|24.67,33.69|N|Click on the portal to Dalaran.|ACTIVE|44481;44496;44497|
+P Shattrath|QID|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481;44496;44497|
+R Shadowmoon Valley|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481;44496;44497|
 C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
 T Destiny Unfulfilled|QID|44481;44496;44497|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|54.13,74.77|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart. Requires Artifact Knowledge >=7.|
-F Illidari Stand|QID|45174|M|25.55,28.86|N|At Grimwing.|
+A The Hunt for Illidan Stormrage|QID|45174|M|54.13,74.77|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart. Requires Artifact Knowledge >=7.|LVL|110|
+F Illidari Stand|QID|45174|M|25.55,28.86|N|At Grimwing.|ACTIVE|45174|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
-A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|
+A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|LVL|110|
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|;guessing on turn in
 
 ;lvl 110 DK Campaign
 A The Scarlet Assault|QID|42818|M|50.98,50.74|NA|N|From Highlord Darion Mograine. This is a completed a special instance of the Scarlet Monestary.|PRE|43572|LVL|110|
 P Dalaran|QID|42818|M|24.91,33.65|N|Use the Dalaran Portal.|ACTIVE|42818|
 P Undercity|QID|42818|M|55.89,22.88|Z|Dalaran@Dalaran70|N|Take the Undercity Portal.|FACTION|HORDE|ACTIVE|42818|
-; Fix Me Emmaleah
-P Stormwind|QID|42818|Z|Dalaran@Dalaran70|N|Take the Stormwind Portal.|FACTION|ALLIANCE|ACTIVE|42818|
+P Stormwind|QID|42818|M|39.48,63.07|Z|Dalaran@Dalaran70|N|Take the Stormwind Portal.|FACTION|ALLIANCE|ACTIVE|42818|
 F Scarlet Monestary|QID|42818|M|82.49,33.19|Z|Scarlet Monastery Entrance@Tirisfal|N|Fly to Scarlet Monestary.|ACTIVE|42818|
 C The Scarlet Assault|QID|42818|M|69.06,24.51|Z|Scarlet Monastery Entrance@Tirisfal|N|Zone into this instance of the Scarlet Monestary.|
 T The Scarlet Assault|QID|42818|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
@@ -358,7 +362,7 @@ T The Scarlet Massacre|QID|42882|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|To 
 A The Scarlet Commander|QID|42823|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|PRE|42882+42821|
 C The Scarlet Commander|QID|42823|M|48.99,75.25|Z|Floor1@ScarletMonestaryDK|N|Kill High Commander Goodchilde.|
 T The Scarlet Commander|QID|42823|M|48.99,75.25|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
-A The Zealot Rises|QID|42824|M|48.99,75.25|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|
+A The Zealot Rises|QID|42824|PRE|42823|M|48.99,75.25|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|
 C The Zealot Rises|QID|42824|M|49.08,88.83|Z|Floor1@ScarletMonestaryDK|N|Stand in front of the Coffin and use your extra action button. Follow her thru the death gate.|
 T The Zealot Rises|QID|42824|M|50.92,50.67|N|To Highlord Darion Mograine.|
 A Advancing the War Effort|QID|43573|M|49.68,51.30|N|From Siouxsie the Banshee.|PRE|42824|
@@ -374,7 +378,7 @@ C Advancing the War Effort|QID|43573|US|N|Go do world quests.|
 C Aggregates of Anguish|QID|43928|M|49.95,51.48|US|NC|N|Send your followers on "Unholy Attainment" missions at your command table.|
 t Advancing the War Effort|QID|43573|M|49.68,51.30|N|To Siouxsie the Banshee.|
 A A Thirst for Blood|QID|44690|M|63.17,69.42|N|From Lord Thorval.|PRE|43573|
-B Blood of Sargeras|QID|44690|M|63.17,69.42|N|Acquire Blood of Sargeras if you don't already have them.|L|124124 5|
+B Blood of Sargeras|QID|44690|M|63.17,69.42|N|Acquire Blood of Sargeras if you don't already have them.|L|124124|ACTIVE|44690|
 T A Thirst for Blood|QID|44690|M|63.17,69.42|N|To Lord Thorval.|
 A Maul of the Dead|QID|43574|M|36.19,56.14|NA|Z|The Heart of Acherus@BrokenShore|N|From Salanar the Horseman. This quest is completed in the Maw of Souls dungeon instance.|PRE|43573|
 t Aggregates of Anguish|QID|43928|M|49.68,51.30|N|To Siouxsie the Banshee.|
@@ -383,8 +387,7 @@ t Maul of the Dead|QID|43574|M|36.19,56.14|Z|The Heart of Acherus@BrokenShore|N|
 A The Fourth Horseman|QID|43686|M|51.06,50.59|N|From Highlord Darion Mograine.|PRE|43574|
 P Dalaran|QID|43686|M|24.91,33.65|N|Use the Dalaran Portal.|ACTIVE|43686|
 P Undercity|QID|43686|M|55.89,22.88|Z|Dalaran@Dalaran70|N|Take the Undercity Portal.|FACTION|HORDE|ACTIVE|43686|
-; Fix Me Emmaleah
-P Stormwind|QID|43686|Z|Dalaran@Dalaran70|N|Take the Stormwind Portal.|FACTION|ALLIANCE|ACTIVE|43686|
+P Stormwind|QID|43686|M|39.48,63.07|Z|Dalaran@Dalaran70|N|Take the Stormwind Portal.|FACTION|ALLIANCE|ACTIVE|43686|
 F Light's Hope Chapel|QID|43686|QO|1|M|71.34,48.14|Z|Eastern Plaguelands|N|Fly over to Light's Hope Chapel.|ACTIVE|43686|
 C Meet up with Darion|QID|43686|SO|1|M|71.34,48.14|Z|Eastern Plaguelands|NC|N|Land and talk to Darion (or just wait a few seconds)|;missed the proper title feel free to change
 C Prepare to attack|QID|43686|SO|2|M|71.34,48.14|Z|Eastern Plaguelands|NC|N|Listen to dialog.|;missed the proper title feel free to change
@@ -398,8 +401,8 @@ C The Fourth Horseman|QID|43686|M|30.36,32.98|NC|N|Watch the vignette and then c
 T The Fourth Horseman|QID|43686|M|30.36,32.98|N|To Highlord Darion Morgraine.|
 t The Frozen Soul|QID|44282|M|58.27,30.86|N|To Amal'thazad.|
 A Champion: Amal'Thazad|QID|44247|M|58.20,31.00|N|From/To Amal'thazad.|PRE|44482|
-A Champion: Darion Mograine|QID|44248|M|26.90,28.78|Z|The Heart of Acherus@BrokenShore|N|From/To Highlord Darion Morgraine, who is on the lower level balcony.|
-A A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Morgraine, who is now by your Soul Forge.|
+A Champion: Darion Mograine|QID|44248|M|26.90,28.78|Z|The Heart of Acherus@BrokenShore|N|From/To Highlord Darion Morgraine, who is on the lower level balcony.|PRE|43686|
+A A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Morgraine, who is now by your Soul Forge.|PRE|43686|
 C A Hero's Weapon|QID|43407|M|58.50,58.54|Z|The Heart of Acherus@BrokenShore|NC|N|Stand in the designated spot and use your extra action button.|
 T A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Morgraine. You have now unlocked the third relic slot, contratulations!|
 
@@ -415,20 +418,21 @@ C A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@Br
 T A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|
 
 ;BLOOD
+
 ;A The Dead and the Damned|QID|40740|M|73.03,46.79|Z|Dalaran@Dalaran70|N|From UI (Lich King).|PRE|40715|
 C The Dead and the Damned|QID|40740|NC|QO|1|M|73.35,47.90|Z|Dalaran@Dalaran70|N|Optional: Ride Zeomus from Krasus' Landing to the Broken Shore|
-C The Dead and the Damned|QID|40740|NC|QO|2|M|32.00,31.96|Z|Broken Shore|N|Enter into the Legion Portal|
+P The Dead and the Damned|QID|40740|NC|QO|2|M|32.00,31.96|Z|Broken Shore|N|Enter into the Legion Portal|
 C Hunting the Hunters|SO|1|M|17.59,47.85|Z|Niskara|NC|N|Run forward until you see Baron Sliver.|QID|40740|
-C Follow Baron Silver|SO|2|M|22.25,51.03|Z|Niskara|N|Follow Baron Silver|QID|40740|
+C Follow Baron Sliver|SO|2|M|22.25,51.03|Z|Niskara|N|Follow Baron Sliver|QID|40740|
 C Protect Baron Sliver while he disables the Fel Barrier|SO|3|M|23.82,48.23|Z|Niskara|N|Protect Baron Sliver while he disables the Fel Barrier|QID|40740|
-C Search the Legion camp.|SO|4|M|37.08,48.31|Z|Niskara|N|Follow Barron Silver and search the Legion camp.|QID|40740|
+C Search the Legion camp.|SO|4|M|37.08,48.31|Z|Niskara|N|Follow Barron Sliver and search the Legion camp.|QID|40740|
 C Hunt down Inquisitor Zalinor and obtain his key.|SO|5|M|43.12,38.05|Z|Niskara|N|Hunt down Inquisitor Zalinor and obtain his key.|QID|40740|
 C Release your ally|SO|6|M|38.01,47.06|Z|Niskara|NC|N|Release your ally|QID|40740|
 C Citadel Barrier Disabled|SO|7|M|40.38,52.19|Z|Niskara|N|As you travel to the citadel, they will stop, use Anti-Magic Shell to avoid the fel ground, continue towards the citadel and assist Baron Sliver as he disables it's barrier.|QID|40740|
 C Search within the citadel for Margrave|SO|8|M|64.14,60.24|Z|Niskara|NC|N|As you approach Margrave, a scene will occur.|QID|40740|
 C The Fleshripper|SO|9|M|64.14,60.24|Z|Niskara|N|Gorelix has slain Margrave! Destroy the demon!|QID|40740|
 C The Dead and the Damned|QID|40740|QO|3|M|64.20,60.04|Z|Niskara|N|Obtain the Maw of the Damned|
-R Use Baron Sliver's Death Gate|SO|11|M|63.13,61.37|CC|Z|Niskara|N|Use Baron Sliver's Death Gate|QID|40740|ACTIVE|40740|
+P Use Baron Sliver's Death Gate|QID|40740|SO|11|M|63.13,61.37|CC|Z|Niskara|N|Use Baron Sliver's Death Gate|ACTIVE|40740|
 T The Dead and the Damned|QID|40740|M|50.99,50.74|N|To Highlord Darion Mograine.|
 
 ;FROST
@@ -493,14 +497,14 @@ A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|49.66,51.25|N|From the 
 T Our Next Move|QID|39799|M|49.66,51.25|N|To Siouxsie the Banshee.|
 A Return of the Four Horseman|QID|42449|M|50.85,50.52|N|From Highlord Darion Mograine.(Wait a minute or so for dialog to finish and then this becomes available.)|
 f Acherus Hold|QID|42449|M|25.61,28.81|N|At Grimwing.|
-R Dalaran|QID|42449|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|42449|
-R Graymane Enclave|QID|42449|M|47.2,17.8|Z|Dalaran@Dalaran70|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|42449|
-R Windrunner's Sanctuary|QID|42449|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|42449|
+P Dalaran|QID|42449|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|42449|
+P Graymane Enclave|QID|42449|M|47.2,17.8|Z|Dalaran@Dalaran70|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|42449|
+P Windrunner's Sanctuary|QID|42449|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|42449|
 R Durotar|QID|42449|M|47.32,17.67|Z|Durotar|N|Hop on your mount and fly to Thassarian in Durotar.|ACTIVE|42449|
 T Return of the Four Horseman|QID|42449|M|47.32,17.67|Z|Durotar|N|To Thassarian.|
 A The Firstborn Rises|QID|42484|M|47.32,17.67|Z|Durotar|N|From Thassarian.|PRE|42449|
 C The Firstborn Rises|QID|42484|M|47.32,17.84|Z|Durotar|NC|N|Stand in the middle of the stones and use your extra action button to raise Nazgrim to Death Knighthood.|
-R Death Gate|QID|42484|M|47.33,17.83|CC|Z|Durotar|N|Use the provided Death-Gate to return to your class hall.|ACTIVE|42484|
+P Death Gate|QID|42484|M|47.33,17.83|CC|Z|Durotar|N|Use the provided Death-Gate to return to your class hall.|ACTIVE|42484|
 T The Firstborn Rises|QID|42484|M|50.85,50.52|N|To Highlord Darion Mograine.|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
