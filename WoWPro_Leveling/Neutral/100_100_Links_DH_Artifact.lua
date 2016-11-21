@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_artifact_and_class_hall
+-- Date: 2016-11-21 15:40
+-- Who: Blanckaert
+-- Log: Adjusted end lvl to 109, added Hall quests to end of guide -- INCOMPLETE, need some testing with Kayn chosen (I chose Altruis)
+
+-- URL: http://wow-pro.com/node/3685/revisions/27853/view
 -- Date: 2016-09-28 22:15
 -- Who: Ludovicus
 -- Log: More Altruis quids.
@@ -25,7 +30,7 @@
 -- Log: Transplant
 
 local guide = WoWPro:RegisterGuide('LinksDHArtCH100100', 'Leveling', 'DemonHunterOrderHallTerrain', 'Linkslegend5', 'Neutral')
-WoWPro:GuideLevels(guide,100, 100)
+WoWPro:GuideLevels(guide,100, 109)
 WoWPro:GuideName(guide, 'Demon Hunter Order Hall')
 WoWPro:GuideClassSpecific(guide,"DemonHunter")
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_DemonHunter")
@@ -145,6 +150,86 @@ T Time is of the Essence|QID|41096;41067|M|58.65,57.95|Z|Upper Command Center@De
 
 A Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41096+41067|
 T Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer or Kayn Sunfury.|
+
+; Adding Quests via wholly info, forgot to record with recorder.
+
+A Rise, Champions|QID|42671|PRE|41069+40374|LVL|101|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kor'vas Bloodthorn.|
+t Rise, Champions|QID|42671|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Kor'vas Bloodthorn.|
+A Rise, Champions|QID|42670|PRE|41099+40375|LVL|101|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kor'vas Bloodthorn.|
+t Rise, Champions|QID|42670|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Kor'vas Bloodthorn.|
+A Things Gaardoun Needs|QID|44161;42677|PRE|42670;42671|LVL|101|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kor'vas Bloodthorn.|
+C Things Gaardoun Needs|QID|44161;42677|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Use Scouting Map to complete Mission 'Thing Gaardoun Needs'|
+t Things Gaardoun Needs|QID|44161;42677|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Kor'vas Bloodthorn.|
+A Additional Accoutrements|QID|42682|LVL|101|PRE|42683|M|59.93,48.92|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Matron Mother Malevolence.|
+C Additional Accoutrements|QID|42682|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Use Scouting Map to complete Mission 'Additional Accoutrements'|
+t Additional Accoutrements|QID|42682|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Kor'vas Bloodthorn.|
+A The Blood of Demons|QID|37447|PRE|42682|LVL|103|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kor'vas Bloodthorn|
+C The Blood of Demons|QID|37447|QO|1|N|Collect 100 Fel Bloods, from killing any demons|
+t The Blood of Demons|QID|37447|M|58.41,51.62|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer|
+A Immortal Soul|QID|42510|PRE|37447|LVL|103|M|58.41,51.62|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Alturis the Sufferer.|
+C Immortal Soul|QID|42510|M|58.41,51.62|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|Click special Action button, to make offering.|
+T Immortal Soul|QID|42510|M|58.41,51.62|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer|
+A Leader of the Illidari|QID|42522|PRE|42510|LVL|103|M|58.41,51.62|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Altruis the Sufferer|
+T Leader of the Illidari|QID|42522|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer|
+
+; end quests added, typed from wholly info. Following Quests added with Recorder / type info.
+
+A The Arcane Way|QID|42593|PRE|42522|LVL|103|M|60.15,49.71|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Matron Mother Malevolence.|
+P Dalaran|QID|42593|M|59.23,90.25|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|Take Portal to Dalaran|
+T The Arcane Way|QID|42593|M|25.99,52.01|Z|Dalaran@Dalaran70|N|To Archmage Lan'dalock|
+A Move Like No Other|QID|42594|PRE|42593|M|25.99,52.01|Z|Dalaran@Dalaran70|N|From Archmage Lan'dalock|
+C Move Like No Other|QID|42594|M|29.83,49.56|Z|Dalaran@Dalaran70|QO|1|N|Chase the imp.|
+C Move Like No Other|QID|42594|M|36.97,49.19|Z|Dalaran@Dalaran70|QO|2|N|Stop the portal|
+C Move Like No Other|QID|42594|M|43.56,46.89|Z|Dalaran@Dalaran70|QO|3|N|Click on crate|
+C Move Like No Other|QID|42594|M|43.85,38.53|Z|Dalaran@Dalaran70|QO|4|N|Imp found, hiding as a book|
+C Move Like No Other|QID|42594|M|48.09,36.94|Z|Dalaran@Dalaran70|QO|5|N|Escape stopped, upper balcony|
+C Move Like No Other|QID|42594|M|52.30,38.05|Z|Dalaran@Dalaran70|QO|6|N|Invisible imp spotted|
+C Move Like No Other|QID|42594|M|58.93,46.64|Z|Dalaran@Dalaran70|QO|7|N|Imp followed|
+C Move Like No Other|QID|42594|M|59.63,48.79|Z|Dalaran@Dalaran70|QO|8|N|Imp foiled - jump up along archway|
+C Move Like No Other|QID|42594|M|59.83,49.21|Z|Dalaran@Dalaran70|QO|9|N|Pick up Grimoire of Arcane Ways|
+P Fel Hammer|QID|42594|M|97.91,69.03|Z|Dalaran@Dalaran70|N|Take Portal to the Fel Hammer|
+T Move Like No Other|QID|42594|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Belath Dawnblade.|
+A Back in Black|QID|42801|PRE|42594|LVL|103|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Belath Dawnblade.|
+C Back in Black|QID|42801|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Use Scouting Map to complete Mission 'Back in Black'|
+t Back in Black|QID|42801|M|59.93,48.92|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Matron Mother Malevolence.|
+
+A Confrontation at the Black Temple|QID|42634;42921|PRE|42801|LVL|103|M|59.93,48.92|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Matron Mother Malevolence.|
+C Confrontation at the Black Temple|QID|42634;42921|M|62.46,50.04|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Gateway Summoned.|
+P Confrontation at the Black Temple|QID|42634;42921|M|62.46,50.04|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|2|N|Click on Gateway.|
+C You CAN Go Home|Z|BlackTemple|SO|1|CHAT|N|You have successfully pierced the holy barriers protecting the Black Temple. Confer with Altruis the Sufferer / Kayn Sunfury and prepare to confront Akama.|
+C Nothing Will Bar Our Way|Z|BlackTemple|SO|2|N|The gates to the Temple Summit proper are closed. Akama is on the other side. Have your Illidari force a way in.|
+C Ascend the steps and await the opening of the gate|M|71.12,35.88|Z|70BlackTempleLegion/1|SO|2;1|N|Ascend the steps and await the opening of the gate|
+C Confronting an Old Foe|Z|Black Temple|SO|3|CHAT|N|Talk to Altruis / Kayn to Enter the Temple Summit and confront Akama. Convince him to join you in taking the fight to the Burning Legion's worlds.|
+C Speak with Altruis and then confront Akama|M|55.45,57.91|Z|70BlackTempleLegion/1|SO|3;1|N|Speak with Altruis and then confront Akama|
+C If He Will Not Listen to Reason...|Z|Black Temple|SO|4|N|Akama will not be persuaded by words. Perhaps force will do the trick. But, how to win and not lose in doing so?|
+C Defeat Akama|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|4;1|N|Defeat Akama|
+C A Final Attempt at Diplomacy|Z|Black Temple|SO|5|N|Akama is defeated. Speak with him and convince him to join you.|
+C Speak with Akama|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|5;1|CHAT|N|Speak with Akama|
+C Confrontation at the Black Temple|QID|42634|M|51.02,83.66|Z|70BlackTempleLegion/1|QO|3|N|1/1 Akama confronted|
+P Confrontation at the Black Temple|QID|42634|M|33.94,69.73|Z|70BlackTempleLegion/1|N|Clcik the Portal back to the Fel Hammer.|
+T Confrontation at the Black Temple|QID|42634;42921|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis te Sufferer / Kayn Sunfury|
+A Into Our Ranks|QID|39741;42665|PRE|42634|M|58.57,57.63|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Altruis the Sufferer / Kayn Sunfury.|
+C Into Our Ranks|QID|39741;42665|M|59.29,57.58|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|2|N|Kor'vas recruited|
+C Into Our Ranks|QID|39741;42665|M|57.88,57.78|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Akama recruited / Akama's Shade recruited.|
+T Into Our Ranks|QID|39741;42665|M|59.93,48.92|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Matron Mother Malevolence.|
+A Securing Mardum|QID|42802|PRE|39741+42665|M|59.90,48.92|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Matron Mother Malevolence.|
+A Unexpected Visitors|QID|42131|PRE|39741+42665|M|59.90,48.92|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Matron Mother Malevolence.|
+C Unexpected Visitors|QID|42131|M|56.85,49.09|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|1/1 Unexpected visitors heard|
+T Unexpected Visitors|QID|42131|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Belath Dawnblade.|
+A Working With the Wardens|QID|42731|PRE|42131|M|57.52,52.08|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Belath Dawnblade.|
+C Securing Mardum|QID|42802|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Use Scouting Map to complete Mission 'Securing Mardum'|
+t Securing Mardum|QID|42802|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Belath Dawnblade.|
+C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Use Scouting Map to complete Mission 'WWtW: Isle of the Watchers'|
+C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|2|N|Use Scouting Map to complete Mission 'WWtW: Skul'vrax'|
+C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|3|N|Use Scouting Map to complete Mission 'WWtW: Mellok, Son of Torok'|
+C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|4|N|Use Scouting Map to complete Mission 'WWtW: Fathnyr'|
+C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|5|N|Use Scouting Map to complete Mission 'WWtW: Mal'Dreth the Corruptor'|
+t Working With the Wardens|QID|42731|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Belath Dawnblade.|
+A Green Adepts|QID|42808|PRE|42802|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Belath Dawnblade.|
+C Green Adepts|QID|42808|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|CHAT|N|Talk to Ariana Fireheart.|
+T Green Adepts|QID|42808|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Belath Dawnblade.|
+
+; end of quests Blanckaert added
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
