@@ -42,7 +42,7 @@ for toc in ${TOCS} ; do
   echo '#' Moving $toc to ${toc}~
   mv ${toc} ${toc}~
   echo "#" Editing  ${toc}
-  sed "s/${crelease}/${nrelease}/" < ${toc}~ > ${toc}
+  sed "s/## Version: ${crelease}/## Version: ${nrelease}/" < ${toc}~ > ${toc}
 done
 
 echo "# OK, the current version numbers are:"
