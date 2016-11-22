@@ -10,7 +10,10 @@ local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 WoWPro.Scenario = nil
 
 local function QidMapReduce(list,default,or_string,and_string,func, why, debug)
-    if not list then return default end
+    if not list then
+        WoWPro:dbp("QidMapReduce(nil) default %s", tostring(default))
+        return default
+    end
     local split_string
     local do_or
     if or_string and and_string then
@@ -94,71 +97,82 @@ function WoWPro.QidVerify(list,empty_ok,or_string,and_string)
     return true
 end
                     
+local quids_debug = false
+
+
+function WoWPro.stack(level)
+    local stack = debugstack(2)
+    if not level then
+        return stack
+    else
+        return select(level, string.split('\n', stack))
+    end
+end
 
 -- See if any of the list of QIDs are in the indicated table.
-function WoWPro:QIDsInTable(QIDs,tabla, debug)
-    if debug then
+function WoWPro:QIDsInTable(QIDs,tabla, debug, why)
+    if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,";","+",function (qid) return tabla[qid] end, "QIDsInTable", debug)
-    if debug then
+    local value = QidMapReduce(QIDs,false,";","+",function (qid) return tabla[qid] end, why or "QIDsInTable", debug or quids_debug)
+    if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
 end
 
 -- See if any of the list of QIDs are in the indicated table and return the first
-function WoWPro:QIDInTable(QIDs,tabla, debug)
-    if debug then
+function WoWPro:QIDInTable(QIDs,tabla, debug, why)
+    if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and qid end, "QIDInTable", debug)
-    if debug then
+    local value = QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and qid end, why or "QIDInTable", debug or quids_debug)
+    if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
 end
 
 -- See if any of the list of QIDs are in the indicated table, return a subkey
-function WoWPro:QIDsInTableKey(QIDs,tabla,key, debug)
-    if debug then
+function WoWPro:QIDsInTableKey(QIDs,tabla,key, debug, why)
+    if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTableKey(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
     end
-    local value = QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and tabla[qid][key] end,"QIDsInTableKey", debug)
-    if debug then
+    local value = QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and tabla[qid][key] end, why or "QIDsInTableKey", debug or quids_debug)
+    if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTableKey(%s) return %s",tostring(QIDs),tostring(value))
     end
 end
 
 -- See if all of the list of QIDs are in the indicated table.
-function WoWPro:AllIDsInTable(IDs,tabla, debug)
-    if debug then
+function WoWPro:AllIDsInTable(QIDs,tabla, debug, why)
+    if debug or quids_debug then
         WoWPro:dbp("WoWPro:AllIDsInTable(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
     end
-    local value = QidMapReduce(IDs,false,"+",";",function (qid) return tabla[qid] end,"AllIDsInTable", debug)
-    if debug then
+    local value = QidMapReduce(QIDs,false,"+",";",function (qid) return tabla[qid] end, why or "AllIDsInTable", debug or quids_debug)
+    if debug or quids_debug then
         WoWPro:dbp("WoWPro:AllIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
 end
 
 -- Wipe out all the QIDs in the table.
-function WoWPro:WipeQIDsInTable(QIDs,tabla, debug)
-    if debug then
+function WoWPro:WipeQIDsInTable(QIDs,tabla, debug, why)
+    if debug or quids_debug then
         WoWPro:dbp("WoWPro:WipeQIDsInTable(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
     end
-    local value = QidMapReduce(QIDs,false,nil,";+",function (qid) tabla[qid] = nil; return true; end,"WipeQIDsInTable", debug)
-    if debug then
+    local value = QidMapReduce(QIDs,false,nil,";+",function (qid) tabla[qid] = nil; return true; end, why or "WipeQIDsInTable", debug or quids_debug)
+    if debug or quids_debug then
         WoWPro:dbp("WoWPro:WipeQIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
 end
 
 -- Set all the QIDs in the table.
-function WoWPro:WipeQIDsInTable(QIDs,tabla, debug)
-    if debug then
-        WoWPro:dbp("WoWPro:WipeQIDsInTable(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
+function WoWPro:SetQIDsInTable(QIDs,tabla, debug, why)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:SetQIDsInTable(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
     end
-    local value = QidMapReduce(QIDs,false,nil,";+",function (qid) tabla[qid] = true; return true; end,"WipeQIDsInTable", debug)
-    if debug then
-        WoWPro:dbp("WoWPro:WipeQIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
+    local value = QidMapReduce(QIDs,false,nil,";+",function (qid) tabla[qid] = true; return true; end, why or "SetQIDsInTable", debug or quids_debug)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:SetQIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
 end
 
@@ -740,7 +754,7 @@ function WoWPro.NextStep(k,i)
 	    -- Skip C or T steps if not in QuestLog
            if (WoWPro.action[k] == "C" or WoWPro.action[k] == "T") and QID then
 --	        WoWPro:Print("LFO: %s [%s] step %s",WoWPro.action[k],WoWPro.step[k],k)
-	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then 
+	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog, true, "IsInQuestLog") then
     			skip = true -- If the quest is not in the quest log, the step is skipped --
     			WoWPro:dbp("Step %s [%s/%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],tostring(QID))
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
