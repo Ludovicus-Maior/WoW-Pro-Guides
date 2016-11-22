@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2016-11-21 00:40
+-- Who: tubera
+-- Log: Add M/N/S/US; Fix QO; Part 1 until "? Blackwatch"
+
+-- URL: http://wow-pro.com/node/3302/revisions/27785/view
 -- Date: 2016-09-14 18:34
 -- Who: Ludovicus
 -- Log: Dalaran City@Dalaran
@@ -65,159 +70,170 @@ WoWPro:GuideNextGuide(guide, "AriVasH8082")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-N Icecrown: The Final Goal |QID|13164|N|This is the hardest Zone Achievement to get in Northrend. You will have to do 12 group quests to complete it and finding groups for them is almost impossible, since the Tournament came out. Get help form your Guild or other friends. Depending on your class, gear and skill level you may be able to solo some or all of them. It is optional to pick up the first quest in each chain when they become available (I suggest you do), but at least you will know where they are. You can wait until the end to do them if you want. The turn in steps are at the end. Read Lightheaded for strategies.|
-N Dalaran |QID|13419|N|Krasus' Landing in Dalaran. Get there however you want.|Z|Dalaran City@Dalaran|
+N Icecrown: The Final Goal|QID|13419|N|This is the hardest Zone Achievement to get in Northrend. You will have to do 12 group quests to complete it and finding groups for them is almost impossible, since the Tournament came out. Get help form your Guild or other friends. Depending on your class, gear and skill level you may be able to solo some or all of them. It is optional to pick up the first quest in each chain when they become available (I suggest you do), but at least you will know where they are. You can wait until the end to do them if you want. The turn in steps are at the end. Read Lightheaded for strategies.|
+N Krasus' Landing|QID|13419|N|Krasus' Landing in Dalaran. Get there however you want.|Z|Dalaran City@Dalaran|M|69.55,40.87|
 
-A Preparations for War |QID|13419|
-N Orgrim's Hammer |QID|13419|N|Talk to Sky Reaver Klum again to get the flight.|
-T Preparations for War |QID|13419|N|Sky-Reaver Korm Blackscar.|
-N Knights of the Ebon Blade |QID|12892|N|We're going to start on the Knights of the Ebon Blade quests so you can begin to build reputation with them as quickly as possible.|
+A Preparations for War|QID|13419|N|From Sky-Reaver Klum|M|69.55,40.87|Z|Dalaran City@Dalaran|
+N Orgrim's Hammer|QID|13419|N|Talk to Sky Reaver Klum again to get the flight.|M|69.55,40.87|Z|Dalaran City@Dalaran|
+T Preparations for War|QID|13419|N|To Sky-Reaver Korm Blackscar.|
+N Knights of the Ebon Blade|QID|12892|N|We're going to start on the Knights of the Ebon Blade quests so you can begin to build reputation with them as quickly as possible.|
 
-A It's All Fun and Games |QID|12892|N|Koltira Deathweaver|
-C It's All Fun and Games |QID|12892|N|Fly to the very top of The Shadow Vault . Stay at maximum range (80 yards) and use the Eyesore Blaster. It can't attack you from this range. When you get The Ocular down to 12.6k or less, fly in to its range, let it hit you once (or you won't get credit), and deliver the final blow with the Eyesore Blaster.|M|44.40,21.85|
-T It's All Fun and Games |QID|12892|N|He's at the base of The Shadow Vault in the corner .|M|44.09,24.74|
+A It's All Fun and Games|QID|12892|N|Koltira Deathweaver|
+C It's All Fun and Games|QID|12892|N|Fly to the very top of The Shadow Vault. Stay at maximum range (80 yards) and use the Eyesore Blaster. It can't attack you from this range. When you get The Ocular down to 12.6k or less, fly in to its range, let it hit you once (or you won't get credit), and deliver the final blow with the Eyesore Blaster.|M|44.40,21.85|U|41265|
+T It's All Fun and Games|QID|12892|N|From Baron Sliver. He's at the base of The Shadow Vault in the corner.|M|44.09,24.74|
 
-A I Have an Idea, But First... |QID|12891|
-C I Have an Idea, But First... |QID|12891|N|You know the plan by now, kill the mobs in the area for the items.|
-T I Have an Idea, But First... |QID|12891|N|Back to Baron Sliver at |M|44.06,24.74|
+A I Have an Idea, But First...|QID|12891|N|From Baron Sliver|M|44.09,24.74|
+C I Have an Idea, But First...|QID|12891|N|You know the plan by now, kill the mobs in the area for the items.|M|43.24,24.97|
+T I Have an Idea, But First...|QID|12891|N|Back to Baron Sliver at|M|44.06,24.74|
 
-A Free Your Mind |QID|12893|
-K Vile |N|He is on the ledge Above Baron Silver. On the right, if you're facing the Shadow Vault .|QID|12893|QO|Vile turned|U|41366|M|44.44,27.02|
-K Lady Nightswood |N|She is on the ledge on the other side of the courtyard. On the left, if you're facing the Shadow Vault at .|QID|12893|QO|Lady Nightswood turned|U|41366|M|41.76,24.51|
-C Free Your Mind |QID|12893|N|The Leaper patrols around the ledge above the entrance.|U|41366|
-T Free Your Mind |QID|12893|N|Back to Baron Sliver at |M|44.09,24.74|
+A Free Your Mind|QID|12893|N|From Baron Sliver|M|44.09,24.74|
+K Vile|N|He is on the ledge Above Baron Silver. On the right, if you're facing the Shadow Vault. Kill him then use the wand.|QID|12893|QO|1|U|41366|M|44.44,27.02|
+K Lady Nightswood|N|She is on the ledge on the other side of the courtyard. On the left, if you're facing the Shadow Vault at.|QID|12893|QO|2|U|41366|M|41.76,24.51|
+C Free Your Mind|QID|12893|QO|3|N|The Leaper patrols around the ledge above the entrance.|U|41366|
+T Free Your Mind|QID|12893|N|Back to Baron Sliver.|M|44.09,24.74|
 
-A If He Cannot Be Turned |QID|12897|
-C If He Cannot Be Turned |QID|12897|N|Straight to the back of the Shadow Vault . Right click on the General's Weapon Rack next to the Runeforge to summon him. Vile, The Leaper, and Lady Nightswood will help you out.|M|44.82,19.97|
-T If He Cannot Be Turned |QID|12897|N|Back to Orgrim's Hammer. It moves around, so look for it on the horizion.|
+A If He Cannot Be Turned|QID|12897|N|From Baron Sliver|M|44.09,24.74|
+C If He Cannot Be Turned|QID|12897|N|Straight to the back of the Shadow Vault. Right click on the General's Weapon Rack next to the Runeforge to summon him. Vile, The Leaper, and Lady Nightswood will help you out.|M|44.82,19.97|
+T If He Cannot Be Turned|QID|12897|N|To Koltira Deathweaver back to Orgrim's Hammer. It moves around, so look for it on your map.|
 
-A The Shadow Vault |QID|12899|
-T The Shadow Vault |QID|12899|N|Back to Baron Sliver. He has moved to .|M|42.86,24.99|
+A The Shadow Vault|QID|12899|N|From Koltira Deathweaver
+T The Shadow Vault|QID|12899|N|Back to Baron Sliver.|M|42.86,24.99|
 
-A The Duke |QID|12938|
-A Blackwatch |QID|13106|
-f Shadow Vault |QID|12938|N|Get the Flight Path. |M|43.74,24.30|
-T The Duke |QID|12938|N|At the back of the Shadow Vault .|M|44.66,20.41|
+A The Duke|QID|12938|N|From Baron Sliver.|M|42.86,24.99|
+A Blackwatch|QID|13106|N|From Baron Sliver.|M|42.86,24.99|
+f Shadow Vault|QID|12938|N|Get the Flight Path.|M|43.74,24.30|
+T The Duke|QID|12938|N|To Duka Lankral at the back of the Shadow Vault.|M|44.66,20.41|
 
-A Honor Challenge |QID|12939|
+A Honor Challenge|QID|12939|N|From Duka Lankral at the back of the Shadow Vault.|M|44.66,20.41|
 
-A Eliminate the Competition |QID|12955|N|Talk to the Leaper. He's in the courtyard out front.|
-F Savage Ledge |QID|12951|N|Over the mountains to the west .|M|37,23|
-N Honor Challenge |QID|12939|N|While you're defeating the named NPCs, use the Challenge Flag on the Mjordin Combatants and kill them. You don't have to use the flag on the named guys, just talk to them.|
-N Vrykul Bones |QID|13093|N|From now on keep any Vrykul Bones you get. They will be used later in a repeatable quest for Ebon Blade reputation.|
-K Efrem the Faithful |QID|12955|QO|Efrem the Faithful defeated|U|41372|M|37.89,25.18|
-K Onu'zun |QID|12955|QO|Onu'zun defeated|U|41372|M|37.78,22.94|
-K Sigrid Iceborn |QID|12955|QO|Sigrid Iceborn defeated|U|41372|M|37.11,22.46|
-C Eliminate the Competition |QID|12955|N|Tinky Wickwhistle |U|41372|M|36.20,23.59|
-C Honor Challenge |QID|12939|N|Challenge any more Combatants you need.|U|41372|
-T Eliminate the Competition |QID|12955|N|Back to The Leaper.|
+A Eliminate the Competition|QID|12955|N|From the Leaper.|M|43.59,25.11|
+F Savage Ledge|QID|12951|N|Over the mountains to the west.|M|37.89,25.18|
+N Vrykul Bones|QID|13092|N|From now on keep any Vrykul Bones you get. They will be used later in a repeatable quest for Ebon Blade reputation.|
+C Honor Challenge|QID|12939|N|Challenge Combatants.|U|41372|S
+K Efrem the Faithful|QID|12955|QO|2|M|37.89,25.18|
+K Onu'zun|QID|12955|QO|3|M|37.78,22.94|
+K Sigrid Iceborn|QID|12955|QO|1|M|37.11,22.46|
+C Eliminate the Competition|QID|12955|QO|4|N|Tinky Wickwhistle|M|36.20,23.59|
+C Honor Challenge|QID|12939|N|Challenge any more Combatants you need.|U|41372|US
+T Eliminate the Competition|QID|12955|N|Back to The Leaper.|M|43.59,25.11|
 
-A The Bone Witch |QID|12999|
-T Honor Challenge |QID|12939|
+A The Bone Witch|QID|12999|N|From the Leaper.|M|43.59,25.11|
+T Honor Challenge|QID|12939|N|To Duka Lankral.|M|44.66,20.41|
 
-A Shadow Vault Decree |QID|12943|
+A Shadow Vault Decree|QID|12943|N|From Duka Lankral.|M|44.66,20.41|
 
-A Get the Key |QID|12949|N|Go back to the Savage Ledge . Vaelen the Flayed is chained to the wall at the back of the hall.|M|37,23|
-C Shadow Vault Decree |QID|12943|N|Find Thane Ufrang the Mighty on his throne and read the Shadow Vault Decree to him. Then kill him.|
-C Get the Key |QID|12949|N|Instructor Hroegar is outside, kill him and get the key.|
-T Get the Key |QID|12949|N|Back to Vaelen.|
+F Savage Ledge|QID|12951|N|Back to the Savage Ledge.|M|38.68,24.01|
+A Get the Key|QID|12949|N|From Vaelen the Flayed who is chained to the wall at the back of the Ufrang's Hall.|M|41.02,23.9|
+C Shadow Vault Decree|QID|12943|N|Find Thane Ufrang the Mighty on his throne and read the Shadow Vault Decree to him. Then kill him.|U|41776|
+C Get the Key|QID|12949|N|Instructor Hroegar is outside, kill him and get the key.|M|37.37,24.09|
+T Get the Key|QID|12949|N|To Vaelen the Flayed.|M|41.02,23.9|
 
-A Let the Baron Know |QID|12951|
-T Let the Baron Know |QID|12951|N|Back to The Shadow Vault and Baron Sliver .|M|42.86,24.99|
+A Let the Baron Know|QID|12951|N|From Vaelen the Flayed.|M|41.02,23.9|
+T Let the Baron Know|QID|12951|N|To Baron Sliver at the Shadow Vault.|M|42.86,24.99|
 
-A Leave Our Mark |QID|12995|
-A Vaelen Has Returned |QID|13085|
+A Leave Our Mark|QID|12995|N|From Baron Sliver.|M|42.86,24.99|
+A Vaelen Has Returned|QID|13085|N|From Baron Sliver.|M|42.86,24.99|
 
-A Crush Dem Vrykuls! |QID|12992|N|He's patrolling the courtyard.|
-T Shadow Vault Decree |QID|12943|N|Back to the Duke .|M|44.66,20.41|
+A Crush Dem Vrykuls!|QID|12992|N|From Vile, patrolling the courtyard.|
+T Shadow Vault Decree|QID|12943|N|To Duke Lankral.|M|44.66,20.41|
 
-A Vandalizing Jotunheim |QID|13084|
-T Vaelen Has Returned |QID|13085|N|Inside the Shadow Vault at .|M|43.16,21.04|
+A Vandalizing Jotunheim|QID|13084|N|From Duke Lankral.|M|44.66,20.41|
+T Vaelen Has Returned|QID|13085|N|To Vaelen the Flayed.|M|43.16,21.04|
 
-A Ebon Blade Prisoners |QID|12982|
-T The Bone Witch |QID|12999|N|She's in a cave in Njorndar Village .|M|32.34,42.69|
+A Ebon Blade Prisoners|QID|12982|N|From Vaelen the Flayed.|M|43.16,21.04|
+T The Bone Witch|QID|12999|N|She's in a cave in Njorndar Village.|M|32.49,42.92|
 
-A Reading the Bones |QID|13093|
-T Reading the Bones |QID|13093|N|It takes 15 Vrykul Bones, you should have enough. The quest is repeatable after this. Remember to turn them in everytime you can.|
+A Reading the Bones|QID|13092|N|From The Bone Witch.|M|32.49,42.92|
+T Reading the Bones|QID|13092|N|It takes 15 Vrykul Bones, you should have enough. The quest is repeatable after this. Remember to turn them in everytime you can.|M|32.49,42.92|
 
-A Deep in the Bowels of The Underhalls |QID|13042|
-N Multiple Quests |QID|13084|N|You're getting ready to do several quests at a time. Kill anything you see and plant the Ebon Blade Banner on the corpse, burn Vrykul banners and get keys to rescue prisoners. Keep the bones you collect too.|
-C Ebon Blade Prisoners |QID|12982|N|Head to the SW around . Kill Vrykul and look for keys to the cages. DO NOT get on your flying mount while the Ebon Blade Prisoners are following you, they will get aggro anyway and you will have to deal with it when you land. Don't forget to plant banners in the bodies. Burn any Vrykul Banners you see.|U|42480|M|22,57|
-C Crush Dem Vrykuls! |QID|12992|N|Kill any more Vrykul you need and plant the banner.|U|42480|
-C Leave Our Mark |QID|12995|N|You should be done by now, but if you're not continue until you are.|U|42480|
-C Vandalizing Jotunheim |QID|13084|N|Burn any more banners you still need.|
-F The Underhalls |QID|13043|N|Fly over to the Underhalls .|M|32.56,32.26|
+A Deep in the Bowels of The Underhalls|QID|13042|N|From The Bone Witch.|M|32.49,42.92|
+C Vandalizing Jotunheim|QID|13084|N|Burn Vrykul banners|M|29.77,38.7|S|
+C Ebon Blade Prisoners|QID|12982|N|Kill Vrykul and loot for keys to the cages|M|22,57|S
+C Leave Our Mark|QID|12995|N|Plant the banner near Vrykul corpses.|U|42480|S
+C Crush Dem Vrykuls!|QID|12992|N|Kill Vrykul.|
+C Leave Our Mark|QID|12995|N|Plant the banner near Vrykul corpses.|U|42480|US
+C Ebon Blade Prisoners|QID|12982|N|Kill Vrykul and loot for keys to the cages|M|22,57|US
+C Vandalizing Jotunheim|QID|13084|N|Burn Vrykul banners|M|29.77,38.7|US|
 
-A Revenge for the Vargul |QID|13059|N|Inside the Underhalls, go straight back the take a left.|
-C Revenge for the Vargul |QID|13059|N|Turn around, go straight ahead, down the stairs into the first room. Throw out the sword to challenge. You'll fight three guys here. First from the left, then the right, then the main guy.|U|42928|
-C Deep in the Bowels of The Underhalls |QID|13042|N|Go out of the room and down the stairs. He's to the left under the landing. Loot the book.|
+F The Underhalls|QID|13043|N|Fly over to the Underhalls.|M|32.56,32.26|
 
-A The Sum is Greater than the Parts |QID|13043|N|Click on the book.|U|42772|
-C The Sum is Greater than the Parts |QID|13043|N|Go left from the Apprentice Osterkilgr into the Hall of Horrors. Mount Nergeld. You have to survive several waves of mob before Dr. Terrible will spawn. Keep the mobs off of you with  Roar and (3) Stomp until Dr. Terrible spawns. Chain (4) him and (1) Punch him to death. When he tries to heal, interrupt with (3) Stomp. If Nergeld dies, you can finish him on your own. The mobs will go away when Dr. Terrible is dead.|M|33.4,33.2|
-T Revenge for the Vargul |QID|13059|N|Go back to Bethod Feigr on your way out.|
-T Leave Our Mark |QID|12995|N|Head back to Baron Sliver at the Shadow Vault .|M|42.86,24.99|
-T Crush Dem Vrykuls! |QID|12992|
+A Revenge for the Vargul|QID|13059|N|To Bethod Feigr inside the Underhalls. Go straight back the take a left.|M|36.13,33.13|
+C Revenge for the Vargul|QID|13059|QO|1|N|Turn around, go straight ahead, down the stairs into the first room. Throw out the sword to challenge. You'll fight three guys here. First from the left, then the right, then the main guy.|U|42928|M|33.17,37.61|
+C Revenge for the Vargul|QID|13059|QO|2|M|33.17,37.61|
+C Deep in the Bowels of The Underhalls|QID|13042|N|Go out of the room and down the stairs. He's to the left under the landing. Don't kill him too fast. Loot the book.|M|33.96,36.37|
 
-T Ebon Blade Prisoners |QID|12982|
-T Vandalizing Jotunheim |QID|13084|
+A The Sum is Greater than the Parts|QID|13043|N|Click on the book.|U|42772|
+C The Sum is Greater than the Parts|QID|13043|N|Go left from the Apprentice Osterkilgr into the Hall of Horrors. Mount Nergeld. You have to survive several waves of mob before Dr. Terrible will spawn. Keep the mobs off of you with  Roar and (3) Stomp until Dr. Terrible spawns. Chain (4) him and (1) Punch him to death. When he tries to heal, interrupt with (3) Stomp. If Nergeld dies, you can finish him on your own. The mobs will go away when Dr. Terrible is dead.|M|33.4,33.2|
+T Revenge for the Vargul|QID|13059|N|To Bethod Feigr upstairs.|M|36.13,33.13|
+T Leave Our Mark|QID|12995|N|Head back to Baron Sliver at the Shadow Vault.|M|42.86,24.99|
+T Crush Dem Vrykuls!|QID|12992|N| To Vile, patrolling the courtyard.|M|43.1,25.23|
 
-A To the Rise with all Due Haste! |QID|12806|N|Baron Sliver .|M|42.86,24.99|
-T Deep in the Bowels of The Underhalls |QID|13042|N|Back to the Bone Witch's cave . Remember to turn in the bones.|M|32.34,42.69|
-T The Sum is Greater than the Parts |QID|13043|
+T Ebon Blade Prisoners|QID|12982|N|To Vaelen the Flayed.|M|43.16,21.19|
+T Vandalizing Jotunheim|QID|13084|N|To Duke Lankral.|M|44.66,20.41|
 
-A The Art of Being a Water Terror |QID|13091|
-C The Art of Being a Water Terror |QID|13091|N|Unlock the gate at  and use a Water Terror to kill 10 Vrykul.|M|31.36,41.13|
-T The Art of Being a Water Terror |QID|13091|N|Back to The Bone Witch.|
+A To the Rise with all Due Haste!|QID|12806|N|Baron Sliver.|M|42.86,24.99|
+T Deep in the Bowels of The Underhalls|QID|13042|N|Back to the Bone Witch's cave. Remember to turn in the bones.|M|32.34,42.69|
+T The Sum is Greater than the Parts|QID|13043|N|To The Bone Witch.|M|32.49,42.92|
 
-A Through the Eye |QID|13121|
-C Through the Eye |QID|13121|N|Fly over to Kul'galar Keep  and get to the Eye of the Lich King. Hang out until you get the complete message.|M|24.97,61.05|
-T Through the Eye |QID|13121|N|Back to The Bone Witch.|
+A The Art of Being a Water Terror|QID|13091|N|From The Bone Witch.|M|32.49,42.92|
+C The Art of Being a Water Terror|QID|13091|N|Unlock the gate at  and use a Water Terror to kill 10 Vrykul.|M|31.36,41.13|
+T The Art of Being a Water Terror|QID|13091|N|To The Bone Witch.|M|32.49,42.92|
 
-A Find the Ancient Hero |QID|13133|
-C Find the Ancient Hero |QID|13133|N|Go into the Halls of the Ancestors at , start waking up the Slumbering Mjordins. Eventually you will wake up Iskaldar. When you get him, use the amulet.|U|43166|M|28.04,47.06|
-T Find the Ancient Hero |QID|13133|N|Back to The Bone Witch. Iskaldar will follow you.|
-N Group Quests |QID|13213|N|The next 3 quests from the Bone Witch are group quests. You can look for a group while questing, but do them all when you find one. Turn them in as you finish them. They lead to a 6 quest chain in the arena at Valhalas.|
+A Through the Eye|QID|13121|N|From The Bone Witch.|M|32.49,42.92|
+C Through the Eye|QID|13121|N|Fly over to Kul'galar Keep  and get to the Eye of the Lich King. Hang out until you get the complete message.|M|24.97,61.05;26.21,62.31|CS|
+T Through the Eye|QID|13121|N|To The Bone Witch.|M|32.49,42.92|
 
-A Not-So-Honorable Combat |QID|13137|O|
+A Find the Ancient Hero|QID|13133|N|From The Bone Witch.|M|32.49,42.92|
+C Find the Ancient Hero|QID|13133|N|Go into the Halls of the Ancestors at , start waking up the Slumbering Mjordins. Eventually you will wake up Iskaldar. When you get him, use the amulet.|U|43166|M|28.04,47.06;32.49,42.92|CS|
+T Find the Ancient Hero|QID|13133|N|To The Bone Witch.|
+N Group Quests|QID|13213|N|The next 3 quests from the Bone Witch are group quests. You can look for a group while questing, but do them all when you find one. Turn them in as you finish them. They lead to a 6 quest chain in the arena at Valhalas.|
 
-F Death's Rise |QID|12806|N|To the SW |M|19.88,48.05|
-T To the Rise with all Due Haste! |QID|12806|
+A Not-So-Honorable Combat|QID|13137|O|
 
-A The Story Thus Far... |QID|12807|
-T The Story Thus Far... |QID|12807|N|Talk to him to get the story. Turn it in when you're done.|
-f Death's Rise |QID|12810|N|Get the flight path .|M|19.42,47.78|
+F Death's Rise|QID|12806|N|To the SW|M|19.88,48.05|
+T To the Rise with all Due Haste!|QID|12806|N|To Lord-Commander Arete|M|19.59,48.1|
 
-A Blood in the Water |QID|12810|
-C Blood in the Water |QID|12810|N|Go to Onslaught Harbor , jump in the water and kill the sharks. They are all around the Harbor, except on the South. Collect their blood in the Gore Bladder.|M|9.28,40.77|
-T Blood in the Water |QID|12810|N|Back to Lord-Commander Arete .|M|19.58,48.18|
+A The Story Thus Far...|QID|12807|N|From Lord-Commander Arete|M|19.59,48.1|
+C The Story Thus Far...|QID|12807|N|Talk to him to get the story.|CHAT|M|19.59,48.1|
+T The Story Thus Far...|QID|12807|N|To Lord-Commander Arete|M|19.59,48.1|
 
-A You'll Need a Gryphon |QID|12814|
-C You'll Need a Gryphon |QID|12814|N|Head back to Onslaught Harbor and kill a Gryphon Rider. Use the Onslaught Gryphon Reigns and fly to Uzo Deathcaller at Death's Rise .|M|19.64,47.87|
-T You'll Need a Gryphon |QID|12814|
-N Daily Quests |QID|12838|N|Now you've opened all of the Knights of the Ebon Blade daily quests, here and at The Shadow Vault.|
+A Blood in the Water|QID|12810|N|From Lord-Commander Arete|M|19.59,48.1|
+f Death's Rise|QID|12810|N|Get the flight path at Dreadwind.|M|19.42,47.78|
 
-A No Fly Zone |QID|12815|N|Uzo Deathcaller |M|19.64,47.87|
+C Blood in the Water|QID|12810|N|Go to Onslaught Harbor , jump in the water and kill the sharks. They are all around the Harbor, except on the South. Collect their blood in the Gore Bladder.|M|9.28,40.77|U|40551|
+T Blood in the Water|QID|12810|N|To Lord-Commander Arete.|M|19.58,48.18|
 
-A From Their Corpses, Rise! |QID|12813|N|Setaal Darkmender .|M|19.68,48.31|
+A You'll Need a Gryphon|QID|12814|N|From Lord-Commander Arete|M|19.59,48.1|
+C You'll Need a Gryphon|QID|12814|N|Head back to Onslaught Harbor and kill a Gryphon Rider. Use the Onslaught Gryphon Reigns and fly to Uzo Deathcaller at Death's Rise.|M|19.64,47.87|U|40970|
+T You'll Need a Gryphon|QID|12814|N|To Lord-Commander Arete.|M|19.58,48.18|
+N Daily Quests|QID|12815|N|Now you've opened all of the Knights of the Ebon Blade daily quests, here and at The Shadow Vault.|
 
-A Intelligence Gathering |QID|12838|N|Aurochs Grimbane patrols around Death's Rise.|
-C From Their Corpses, Rise! |QID|12813|N|Go to the beaches in Onslaught Harbor, kill guards and loot them for keys to the chests lying around. Use Darkmender's Tincture on the bodies.|U|40587|
-C Intelligence Gathering |QID|12838|N|Keep getting keys and opening chests until you complete this.|
-C No Fly Zone |QID|12815|N|Kill 10 Gryphon Riders. You don't have to use the Bone Gryphon, but if you do here's how.  Put up your Bone Armor, pull with Icy Breath, put the Disease on when they get to melee range, spam Icy Breath until dead. Watch out for the patrols, they will aggro and you can find yourself fighting 4 or 5 of them. I suggest running away if that happens.|U|40600|
+A No Fly Zone|QID|12815|N|From Uzo Deathcaller|M|19.64,47.87|
 
-A The Grand (Admiral's) Plan |QID|12839|N|Click on the note. If you don't have it yet, keep opening chests.|U|40666|
-T No Fly Zone |QID|12815|N|Back to Death's Rise. Uzo Deathcaller .|M|19.64,47.87|
-T From Their Corpses, Rise! |QID|12813|
-T Intelligence Gathering |QID|12838|
-T The Grand (Admiral's) Plan |QID|12839|
+A From Their Corpses, Rise!|QID|12813|N|From Setaal Darkmender.|M|19.68,48.31|
 
-A In Strict Confidence |QID|12840|
-N Captain Welsington |QID|12840|QO|Captain Welsington beaten for information and killed: 1/1|N|On the boat farthest away in the Harbor, by the wheel.|M|5.7,41.9|
-N Captain Hartford |QID|12840|QO|Captain Hartford beaten for information and killed: 1/1|N|By the wheel on the other boat. |M|7.0,41.9|
-T In Strict Confidence |QID|12840|
-N Group Quests |QID|12852|N|The last 2 quests here are group quests. Look for groups while you quest.|
+A The Grand (Admiral's) Plan|QID|12839|N|From UI Alert.|U|40666|O
 
-A Second Chances |QID|12847|O|
+A Intelligence Gathering|QID|12838|N|From Aurochs Grimbane patrolling around.|M|19.79,47.87|
+C From Their Corpses, Rise!|QID|12813|N|Go to the beaches in Onslaught Harbor, kill guards and loot them for keys to the chests lying around. Use Darkmender's Tincture on the bodies.|U|40587|S|M|10.82,44.37|
+C Intelligence Gathering|QID|12838|N|Keep getting keys and opening chests until you complete this.|S|M|10.82,44.37|
+C No Fly Zone|QID|12815|N|Kill 10 Gryphon Riders. You don't have to use the Bone Gryphon, but if you do here's how.  Put up your Bone Armor, pull with Icy Breath, put the Disease on when they get to melee range, spam Icy Breath until dead. Watch out for the patrols, they will aggro and you can find yourself fighting 4 or 5 of them. I suggest running away if that happens.|U|40600|M|10.82,44.37|
+C Intelligence Gathering|QID|12838|N|Keep getting keys and opening chests until you complete this.|US|M|10.82,44.37|
+C From Their Corpses, Rise!|QID|12813|N|Go to the beaches in Onslaught Harbor, kill guards and loot them for keys to the chests lying around. Use Darkmender's Tincture on the bodies.|U|40587|US|M|10.82,44.37|
+
+l The Grand (Admiral's) Plan|QID|12839|N|Keep opening chests until you have the note.|L|40666|
+T No Fly Zone|QID|12815|N|To Uzo Deathcaller at Death's Rise.|M|19.64,47.87|
+T From Their Corpses, Rise!|QID|12813|N|To Setaal Darkmender.|M|19.69,48.34|
+T Intelligence Gathering|QID|12838|N|To Aurochs Grimbane patrolling around.|M|19.79,47.87|
+T The Grand (Admiral's) Plan|QID|12839|N|To Lord-Commander Arete.|M|19.58,48.18|
+
+A In Strict Confidence|QID|12840|N|From Lord-Commander Arete|M|19.59,48.1|
+K Captain Welsington|QID|12840|QO|1|N|On the boat farthest away in the Harbor, by the wheel.|M|5.7,41.9|
+C Captain Hartford|QID|12840|QO|2|N|By the wheel on the other boat.|M|7.0,41.9|
+T In Strict Confidence|QID|12840|N|To Lord-Commander Arete.|M|19.58,48.18|
+N Group Quests|QID|12852|N|The last 2 quests here are group quests. Look for groups while you quest.|
+
+A Second Chances|QID|12847|O|
 
 T Blackwatch |QID|13106|N|Above the Fleshworks at .|M|35.46,66.49|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2016-11-16 22:56
+-- Who: Ludovicus
+-- Log: Corrected ¦Z¦The Temple of Atal Hakkar¦
+
+-- URL: http://wow-pro.com/node/3452/revisions/27718/view
 -- Date: 2016-09-07 14:35
 -- Who: Ludovicus
 -- Log: Use The Nexus@TheNexus
@@ -171,7 +176,7 @@ N Optional - Zidormi|QID|8713|N|Chat with Zidormi to turn the area return post-W
 R The Temple of Atal'Hakkar|N|Head North to Swamp of Sworrows and into the Temple of Atal'Hakkar.|QID|8713|M|69.37,53.07|Z|Swamp of Sorrows|RANK|2|
 R Hall of Masks|N|Head inside the Temple down into the Hall of Masks|QID|8713|Z|Swamp of Sorrows|M|75.99,45.22|RANK|2|
 A Starsong the Elder|N|From Elder Starsong from inside the instance.|QID|8713|M|62.90,34.47|Z|The Temple of Atal' Hakkar|RANK|2|
-R The Temple of Atal'Hakkar|N|Get back out of the instance.|QID|8675|M|49.9,18.4|Z|The Temple of Atal Hakkar|RANK|2|
+R The Temple of Atal'Hakkar|N|Get back out of the instance.|QID|8675|M|49.9,18.4|Z|The Temple of Atal' Hakkar|RANK|2|
 R Westfall|N|Head to Westfall.|QID|8675|M|56.6,47|Z|Westfall|LVL|60|
 A Skychaser the Elder|N|From Elder Skychaser.|QID|8675|M|56.64,47.09|Z|Westfall|T|Elder Skychaser|LVL|60|
 R Elwynn Forest|N|Run North to Elwynn Forest.|QID|8649|M|39.6,63.5|Z|Elwynn Forest|

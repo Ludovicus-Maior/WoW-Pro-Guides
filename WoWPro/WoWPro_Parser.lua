@@ -87,26 +87,35 @@ function WoWPro.InsertActionDescriptions(tabla, order)
     return tabla
 end
 
--- Skip a step -- 
-function WoWPro.SkipStep(index)
+-- Skip a step --
+
+function WoWPro.SkipStep(index, list_only)
 	local GID = WoWProDB.char.currentguide
-	WoWPro:dbp("SkipStep(%s) Action is %s QID is %s ",tostring(index),  tostring(WoWPro.action[index]), tostring(WoWPro.QID[index]))
-	
+	local skippedQIDs = {}
+	local skipped = {}
+	WoWPro:dbp("SkipStep(%s) Action is %s QID is %s. list_only=%s",tostring(index),  tostring(WoWPro.action[index]), tostring(WoWPro.QID[index]), tostring(list_only))
+
 	if WoWPro.action[index] == "D" then return "" end -- No skipping this type
-	if WoWPro.QID[index] then 
+	if WoWPro.QID[index] then
 	    local numqids = select("#", string.split(";", WoWPro.QID[index]))
 	    for k=1,numqids do
 	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[index]))
 	        if tonumber(kqid) then
-	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = true
-	            WoWPro:dbp("Skipping QID %d",tonumber(kqid))
+	            if list_only then
+	                skippedQIDs[tonumber(kqid)] = true
+	            else
+	                WoWProCharDB.skippedQIDs[tonumber(kqid)] = true
+	                WoWPro:dbp("Skipping QID %d",tonumber(kqid))
+	            end
 	        end
 	    end
+	end
+
+    if list_only then
+		skipped[index] = true
+    else
 		WoWProCharDB.Guide[GID].skipped[index] = true
 		WoWPro:dbp("Skipping step %d", index)
-	else 
-		WoWProCharDB.Guide[GID].skipped[index] = true
-		WoWPro:dbp("Just skipping step %d", index)
 	end
 
 	local steplist = ""
@@ -114,12 +123,17 @@ function WoWPro.SkipStep(index)
     -- Deep recursion can kill!
 	while index do
 	    index = nil
-		for j = 1,WoWPro.stepcount do 
-			if WoWPro.prereq[j] and not WoWProCharDB.Guide[GID].skipped[j] then
-			    if WoWPro:QIDsInTable(WoWPro.prereq[j],WoWProCharDB.skippedQIDs) then
-				    WoWPro:SetQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
-				    WoWProCharDB.Guide[GID].skipped[j] = true
-					WoWPro:dbp("Skipping QID %s as well.", WoWPro.QID[j])
+		for j = 1,WoWPro.stepcount do
+			if WoWPro.prereq[j] and not (WoWProCharDB.Guide[GID].skipped[j] or skipped[j]) then
+			    if WoWPro:QIDsInTable(WoWPro.prereq[j],WoWProCharDB.skippedQIDs) or WoWPro:QIDsInTable(WoWPro.prereq[j],skippedQIDs) then
+                    if list_only then
+                        WoWPro:SetQIDsInTable(WoWPro.QID[j],skippedQIDs)
+                        skipped[j] = true
+                    else
+                        WoWPro:SetQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
+                        WoWProCharDB.Guide[GID].skipped[j] = true
+                        WoWPro:dbp("Skipping QID %s as well.", WoWPro.QID[j])
+                    end
 					steplist = steplist.."- "..WoWPro.step[j].."\n"
 					index = j
 				end
@@ -831,7 +845,7 @@ function WoWPro:CheckFunction(row, button, down)
     WoWPro:dbp("WoWPro:CheckFunction: row %d button %s UD %s rowChecked %s",row.index, button, tostring(down), tostring(row.check:GetChecked()))
 	if button == "LeftButton" and row.check:GetChecked() then
 	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as skipped.", row.index)
-		local steplist = WoWPro.SkipStep(row.index)
+		local steplist = WoWPro.SkipStep(row.index, true)
 		row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 		if steplist ~= "" then 
 			WoWPro:SkipStepDialogCall(row.index, steplist)
@@ -839,13 +853,12 @@ function WoWPro:CheckFunction(row, button, down)
 	elseif button == "RightButton" and row.check:GetChecked() then
 	    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as complete.", row.index)
-		WoWPro.CompleteStep(row.index,"Right-Click")
-		if WoWProDB.profile.checksound then	
+		if WoWProDB.profile.checksound then
 			PlaySoundFile(WoWProDB.profile.checksoundfile)
 		end
-		if WoWPro.action[row.index] == "D" then
-	        WoWProCharDB.Guide[GID].done = true
-	        WoWPro:dbp("WoWPro:CheckFunction: %s guide is done.",GID)
+		-- if CompleteStep() did a LoadGuide, skip out.
+	    if WoWPro.CompleteStep(row.index,"Right-Click") then
+	        return
 	    end
 	elseif not row.check:GetChecked() then
 	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as UNskipped.", row.index)

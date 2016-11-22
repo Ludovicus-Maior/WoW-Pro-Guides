@@ -687,18 +687,19 @@ function WoWPro:CreateSkipStepsDialog()
 	button2:SetScript("OnClick", function(self, button)
 		WoWPro.SkipStepsDialog:Hide()
 	end)
-	
+
 	WoWPro.SkipStepsDialog = frame
 	WoWPro.SkipStepsDialogText = explanation
+	WoWPro.SkipStepsOkayButton = button1
 	WoWPro.SkipStepsCancelButton = button2
-	
+
 	function WoWPro:SkipStepDialogCall(index, steplist)
 		WoWPro.SkipStepsDialogText:SetText("Skipping the step "..WoWPro.step[index].." will also cause the following steps to skip: \n\n"
 			..strtrim(steplist))
 		WoWPro.SkipStepsDialog:SetHeight(120+WoWPro.SkipStepsDialogText:GetHeight())
-		WoWPro.SkipStepsCancelButton:SetScript("OnClick", function(self, button)
+		WoWPro.SkipStepsOkayButton:SetScript("OnClick", function(self, button)
 			WoWPro.SkipStepsDialog:Hide()
-			WoWPro.UnSkipStep(index)
+			WoWPro.SkipStep(index, false)
 		end)
 		WoWPro.SkipStepsDialog:Show()
 	end

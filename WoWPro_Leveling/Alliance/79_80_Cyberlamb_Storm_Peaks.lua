@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2016-11-12 02:49
+-- Who: tubera
+-- Log: Fix QOs; And some minor fixes
+
+-- URL: http://wow-pro.com/node/3299/revisions/26871/view
 -- Date: 2014-11-07 22:59
 -- Who: Ludovicus
 -- Log: Split the [C Rare Earth] step.
@@ -102,9 +107,9 @@ C Reclaimed Rations|QID|12827|N|Finish collecting the Dried Gnoll Rations from e
 
 F Sifreldar Village |QID|12844|N|Fly up to Sifreldar Village.|M|40.1,75.1|
 
-C Equipment Recovery|QID|12844|N|Click on the boxes in this area and loot 8 K3 Equipment.|L|40726 8|S|
+C Equipment Recovery|QID|12844|N|Click on the boxes in this area and loot 8 K3 Equipment.|S|
 C They Took Our Men!|QID|12843|N|Kill Sifreldar mobs, loot cage keys and release 5 Goblin Prisoners.|M|40.7,72.6|
-C Equipment Recovery|QID|12844|N|Click on the boxes in this area and loot 8 K3 Equipment.|L|40726 8|US|
+C Equipment Recovery|QID|12844|N|Click on the boxes in this area and loot 8 K3 Equipment.|US|
 T Clean Up|QID|12818|N|To Jeer Sparksocket.|M|41.0,86.4|
 
 A Just Around the Corner|QID|12819|N|From Jeer Sparksocket.|M|41.0,86.4|
@@ -120,7 +125,7 @@ C Just Around the Corner|QID|12819|N|Enter the minefield and work your way to th
 A Moving In|QID|12829|N|From Tore Rumblewrench.|M|41.6,80|
 A Ore Repossession|QID|12830|N|From Tore Rumblewrench.|M|41.6,80|
 l Grab a U.D.E.D.|QID|12828|N|Use the U.D.E.D. Dispenser and get a bomb.\n\nOn collecting the bomb you will have 48 seconds to complete the next step.|M|41.6,80|L|40686|
-C Ample Inspiration|QID|12828|N|Target an Ice Mammoth and throw the bomb at it. Note you will have just 48 seconds from collecting the bomb to use the bomb.\n\nWait a few seconds after blowing up the mammoth for the meat to appear on the ground. Once they appear, loot them until you have 8 Hearty Mammoth Meat. The "big piece" in the middle will give you multiple quantities.|M|43.7,78.8|U|40686|L|40728 8|NC|
+C Ample Inspiration|QID|12828|N|Target an Ice Mammoth and throw the bomb at it. Note you will have just 48 seconds from collecting the bomb to use the bomb.\n\nWait a few seconds after blowing up the mammoth for the meat to appear on the ground. Once they appear, loot them until you have 8 Hearty Mammoth Meat. The "big piece" in the middle will give you multiple quantities.|M|43.7,78.8|U|40686|NC|
 T Just Around the Corner|QID|12819|N|To Jeer Sparksocket.|M|41.0,86.4|
 A Slightly Unstable|QID|12826|N|From Jeer Sparksocket.|M|41.0,86.4|
 T Slightly Unstable|QID|12826|N|To Ricket.|M|40.9,85.3|
@@ -132,10 +137,10 @@ C A Delicate Touch|QID|12820|N|Lay down land mines to kill 12 Snowblind Follower
 R Crystalweb Cavern|QID|12829|N|Head into the Crystalweb Cavern|M|40.75,78.80|
 
 C Moving In|QID|12829|N|Kill 12 Crystalweb Spitters as you progress through the cave.|S|
-C Ore Repossession|QID|12830|N|Kill and loot the Snowblind Diggers for their Impure Saronite Ore.|M|43.9,75.5|L|40744 5|S|
+C Ore Repossession|QID|12830|N|Kill and loot the Snowblind Diggers for their Impure Saronite Ore.|M|43.9,75.5|S|
 A Only Partly Forgotten|QID|12831|N|Enter the cave and find an Injured Goblin Miner to get this quest.|M|40.43,78.04|
 C Only Partly Forgotten|QID|12831|N|Go further into the cave and kill Icetip Crawlers until you loot an Icetip Venom Sac.|M|47.0,72.0|
-C Ore Repossession|QID|12830|N|Finish killing and looting the Snowblind Diggers.|M|43.9,75.5|L|40744 5|US|
+C Ore Repossession|QID|12830|N|Finish killing and looting the Snowblind Diggers.|M|43.9,75.5|US|
 T Only Partly Forgotten|QID|12831|N|Return to the Injured Goblin Miner.|M|43.48,75.25|
 A Bitter Departure|QID|12832|N|Injured Goblin Miner.|M|43.48,75.25|
 C Bitter Departure|QID|12832|N|Escort the Injured Goblin Miner out of the cave.|M|40.43,78.04|
@@ -209,7 +214,7 @@ T Cold Hearted|QID|12856|N|To Brijana.|M|53.2,65.7|
 A Deemed Worthy|QID|13063|N|From Brijana.|M|53.2,65.7|
 T Deemed Worthy|QID|13063|N|To Astrid Bjornrittar.|M|49.7,71.7|
 A Making a Harness|QID|12900|N|From Astrid Bjornrittar.|M|49.7,71.7|
-C Making a Harness|QID|12900|N|Kill Icemane Yetis and loot 3 Icemane Yeti Hides.|M|47,75|L|41424 3|
+C Making a Harness|QID|12900|N|Kill Icemane Yetis and loot 3 Icemane Yeti Hides.|M|47,75|
 T Making a Harness|QID|12900|N|To Astrid Bjornrittar.|M|49.7,71.7|
 A The Last of Her Kind|QID|12983|N|From Astrid Bjornrittar.|M|49.7,71.7|
 A The Slithering Darkness|QID|12989|N|From Astrid Bjornrittar.|M|49.7,71.7|
@@ -260,7 +265,10 @@ C Stemming the Aggressors|QID|12866|N|Kill 8 Frostfeather Screechers and 8 Frost
 C Baby Stealers|QID|12867|N|Loot 15 Stormcrest Eagle Eggs.|M|33,66|L|41341 15|
 C Stemming the Aggressors|QID|12866|N|Kill 8 Frostfeather Screechers and 8 Frostfeather Witches.|M|36.9,73.5|US|
 T Stemming the Aggressors|QID|12866|N|To Glorthal Stiffbeard.|M|29.14,74.87|
+A Sirana Iceshriek|QID|12868|M|29.2,74.9|N|From Glorthal Stiffbeard. This is a 3 person group quest.|RANK|3|PRE|12866|
 T Baby Stealers|QID|12867|N|To Fjorlin Frostbrow.|M|29.8,75.7|
+C Sirana Iceshriek|QID|12868|M|25.03,66.97|N|Kill Sirana Iceshriek.|
+T Sirana Iceshriek|QID|12868|M|29.2,74.9|N|To Glorthal Stiffbeard.|
 T Off With Their Black Wings|QID|12942|N|To Iva the Vengeful.|M|48.3,72.1|
 T Valkyrion Must Burn|QID|12953|N|To Iva the Vengeful.|M|48.3,72.1|
 T Yulda's Folly|QID|12968|N|To Iva the Vengeful.|M|48.3,72.1|
@@ -268,14 +276,14 @@ T Aberrations|QID|12925|N|To Thyra Kvinnshal.|M|48.4,72.1|
 C Sniffing Out the Perpetrator|QID|12855|N|Use the Frosthound Collar to summon a Frosthound, survive the ride, kill Thulin and loot Brann's Communicator.|M|36.4,64.1|U|41430|L|40971|
 T Sniffing Out the Perpetrator|QID|12855|N|Use Brann's Communicator to turn in this quest.|U|40971|
 A Pieces to the Puzzle|QID|12858|N|From Brann Bronzebeard.|
-K Stormforged Iron Giants|QID|12915|QO|Stormforged Iron Giants slain: 5/5|S|N|Pick up boulders and use Thorim's Charm of Earth to throw them at Stormforged Iron Giants, then assist in killing them and loot at least 1 Slag Covered Metal.|M|69,59|U|41505|
+K Stormforged Iron Giants|QID|12915|QO|2|S|N|Pick up boulders and use Thorim's Charm of Earth to throw them at Stormforged Iron Giants, then assist in killing them and loot at least 1 Slag Covered Metal.|M|69,59|U|41505|
+A The Refiner's Fire|QID|12922|N|From the Slag Covered Metal.|U|41556|O|
 l Slag Covered Metal|QID|12922|N|Loot Stormforged Iron Giants until this drops.|L|41556|M|69,59|
-A The Refiner's Fire|QID|12922|N|From the Slag Covered Metal.|U|41556|
 C The Refiner's Fire|QID|12922|N|Kill Seething Revanents in the area and loot 10 Furious Sparks.|S|
-C Mending Fences|QID|12915|QO|Fjorn slain: 1/1|N|Pick up a boulder and use Thorim's Charm of Earth to throw it at Fjorn and then kill him.|M|77,64|U|41505|
+C Mending Fences|QID|12915|QO|1|N|Pick up a boulder and use Thorim's Charm of Earth to throw it at Fjorn and then kill him.|M|77,64|U|41505|
 
 C The Refiner's Fire|QID|12922|N|Kill Seething Revanents in the area and loot 10 Furious Sparks.|US|
-K Stormforged Iron Giants|QID|12915|QO|Stormforged Iron Giants slain: 5/5|US|N|Pick up boulders and use Thorim's Charm of Earth to throw them at Stormforged Iron Giants, then assist in killing them and loot at least 1 Slag Covered Metal.|M|69,59|U|41505|
+K Stormforged Iron Giants|QID|12915|QO|2|US|N|Pick up boulders and use Thorim's Charm of Earth to throw them at Stormforged Iron Giants, then assist in killing them and loot at least 1 Slag Covered Metal.|M|69,59|U|41505|
 T The Refiner's Fire|QID|12922|N|At Fjorn's Anvil.|M|77.1,62.8|
 A A Spark of Hope|QID|12956|N|From Fjorn's Anvil.|M|77.1,62.8|
 T Mending Fences|QID|12915|N|To Thorim.|M|33.42,57.93|
@@ -314,10 +322,10 @@ C Unwelcome Guests|QID|12876|US|N|Kill 10 Stormforged Pillager in the tunnel.|M|
 T Unwelcome Guests|QID|12876|N|To Fjorlin Frostbrow.|M|29.8,75.7|
 T The Lonesome Watcher|QID|12877|N|To Creteus.|M|39.6,59.9|
 A Fate of the Titans|QID|12986|N|From Creteus.|M|39.6,59.9|
-N Temple of Invention|QID|12986|QO|Temple of Invention Investigated: 1/1|N|Use Creteus's Mobile Databank at the Temple of Invention.|M|45.5,49.2|U|42679|
-N Temple of Winter|QID|12986|QO|Temple of Winter Investigated: 1/1|N|Use Creteus's Mobile Databank at the Temple of Winter.|M|52,56|U|42679|
-N Temple of Life|QID|12986|QO|Temple of Life Investigated: 1/1|N|Use Creteus's Mobile Databank at the Temple of Life.|M|64.3,46.7|U|42679|
-C Fate of the Titans|QID|12986|N|Use Creteus's Mobile Databank at the Temple of Order.|M|53.4,42.2|U|42679|
+N Temple of Invention|QID|12986|QO|1|N|Use Creteus's Mobile Databank at the Temple of Invention.|M|45.5,49.2|U|42679|
+N Temple of Winter|QID|12986|QO|2|N|Use Creteus's Mobile Databank at the Temple of Winter.|M|52,56|U|42679|
+N Temple of Life|QID|12986|QO|3|N|Use Creteus's Mobile Databank at the Temple of Life.|M|64.3,46.7|U|42679|
+C Fate of the Titans|QID|12986|QO|4|N|Use Creteus's Mobile Databank at the Temple of Order.|M|53.4,42.2|U|42679|
 T Fate of the Titans|QID|12986|N|To Creteus.|M|39.6,59.9|
 A The Hidden Relic|QID|12878|N|From Creteus.|M|39.6,59.9|
 T The Hidden Relic|QID|12878|N|To the Guardian's Charge inside the cave next to Creteus.|M|44,64|
@@ -348,10 +356,10 @@ A Veranus|QID|13050|N|From Thorim.|M|33.4,58.0|
 C Veranus|QID|13050|N|Loot 5 Small Proto-Drake Egg.|M|43.7,67.3;52.4,75.1|CN|L|42784 5|
 T Veranus|QID|13050|N|To Thorim.|M|33.4,58.0|
 A Territorial Trespass|QID|13051|N|From Thorim.|M|33.4,58.0|
-C Territorial Trespass|QID|13051|N|Use the Stolen Proto-Dragon Eggs to lure Veranus so that Thorim can mount her.|M|38.75,65.5|
+C Territorial Trespass|QID|13051|N|Use the Stolen Proto-Dragon Eggs to lure Veranus so that Thorim can mount her.|M|38.75,65.5|U|42797|
 T Territorial Trespass|QID|13051|N|To Thorim.|M|33.4,58.0|
 A Krolmir, Hammer of Storms|QID|13010|N|From Thorim.|M|33.4,58.0|
-l Stoic Mammoth Hides|QID|13001|M|55.69,65.21|N|Kill and loot Stoic Mammoths until you have 3 hide.|L|42542 3|
+l Stoic Mammoth Hides|QID|13001|QO|2|M|55.69,65.21|N|Kill and loot Stoic Mammoths until you have 3 hide.|
 l Icemaw Bear Flank|QID|13011|N|Use the Everfrost Razor on a Dead Icemaw Bears until you get the flank.|U|42732|L|42733|M|54.65,60.77|
 C Jormuttar is Soo Fat...|QID|13011|N|Use the Icemaw Bear Flank to lure Jormuttar, then kill him.|M|54.65,60.77|U|42733|
 C Raising Hodir's Spear|QID|13001|N|Collect 3 Everfrost Shards.|M|54.65,60.77|
@@ -361,8 +369,8 @@ C Krolmir, Hammer of Storms|QID|13010|N|Step through the dialogue with King Jokk
 T Krolmir, Hammer of Storms|QID|13010|N|To Thorim.|M|71.3,48.7|
 
 A The Terrace of the Makers|QID|13057|N|From Thorim.|M|71.3,48.7|
-C In Memoriam|QID|12975|N|Loot 8 Horn Fragments.|M|72,52|L|42162 8|
-C Forging a Head|QID|12985|N|Use the Diamond Tipped Pick on Dead Iron Giants, (then kill and loot the Ambushers if they appear) until you get 8 Stormforged Eyes.|M|70,60|U|42424|L|42423 8|
+C In Memoriam|QID|12975|N|Loot 8 Horn Fragments.|M|72,52|
+C Forging a Head|QID|12985|N|Use the Diamond Tipped Pick on Dead Iron Giants, (then kill and loot the Ambushers if they appear) until you get 8 Stormforged Eyes.|M|70,60|U|42424|
 T In Memoriam|QID|12975|N|To King Jokkum.|M|65.4,60.1|
 A A Monument to the Fallen|QID|12976|N|From King Jokkum.|M|65.4,60.1|
 T A Monument to the Fallen|QID|12976|N|To Njormeld.|M|63.2,63.2|
@@ -376,9 +384,9 @@ T The Terrace of the Makers|QID|13057|N|To Thorim.|M|56.2,51.3|
 A The Earthen Oath|QID|13005|N|From Thorim.|M|56.2,51.3|
 A Loken's Lackeys|QID|13035|N|From Thorim.|M|56.2,51.3|
 C The Earthen Oath|QID|13005|N|Use the Horn of the Peaks and use your summoned companions to kill 20 Iron Dwarves and 7 Iron Sentinels.|M|52.21,50.86|U|42840|
-K Halefnir|QID|13035|QO|Halefnir the Windborn slain: 1/1|N|Use the Horn of the Peaks and use your summoned companions to kill Halefnir the Windborn.|M|49,46|U|42840|
-K Duronn the Runewrought|QID|13035|QO|Duronn the Runewrought slain: 1/1|N|Use the Horn of the Peaks and use your summoned companions to kill Duronn the Runeforged inside the building.|M|44.94,38.05|U|42840|
-C Loken's Lackeys|QID|13035|N|Use the Horn of the Peaks and use your summoned companions to kill Eisenfaust.|M|57,44|U|42840|
+K Halefnir|QID|13035|QO|2|N|Use the Horn of the Peaks and use your summoned companions to kill Halefnir the Windborn.|M|49,46|U|42840|
+K Duronn the Runewrought|QID|13035|QO|3|N|Use the Horn of the Peaks and use your summoned companions to kill Duronn the Runeforged inside the building.|M|44.94,38.05|U|42840|
+C Loken's Lackeys|QID|13035|QO|1|N|Use the Horn of the Peaks and use your summoned companions to kill Eisenfaust.|M|57,44|U|42840|
 T The Earthen Oath|QID|13005|N|To Thorim.|M|56.2,51.3|
 T Loken's Lackeys|QID|13035|N|To Thorim.|M|56.2,51.3|
 A The Reckoning|QID|13047|N|From Thorim.|M|56.2,51.3|
@@ -387,7 +395,7 @@ T The Reckoning|QID|13047|N|To King Jokkum.|M|65.4,60.1|
 T The Exiles of Ulduar|QID|12885|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 A Rare Earth|QID|12930|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
 f Bouldercrag's Refuge|QID|12937|N|At Breck Rockbrow.|M|30.6,36.3|
-C Rare Earth|QID|12930|N|Mine 7 Enchanted Earth from the cliffs.|M|27,34|L|41614 7|
+C Rare Earth|QID|12930|N|Mine 7 Enchanted Earth from the cliffs.|M|27,34|
 B Frostweave Cloth|QID|12930|L|33470 5|N|Make sure that you have 5 Frostweave Cloth, if you dont have it, buy it or kill for it!|
 T Rare Earth|QID|12930|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 
@@ -407,15 +415,13 @@ T Slaves of the Stormforged|QID|12957|N|To Bouldercrag the Rockshaper.|M|31.4,38
 T The Dark Ore|QID|12964|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 A The Gifts of Loken|QID|12965|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
 A Facing the Storm|QID|12978|N|From Bruor Ironbane.|M|31.2,38.1|
-l Dark Armor Plate|QID|12979|N|Kill Stormforged War Golems in the area until you loot a Dark Armor Plate.|L|42203|S|
+A Armor of Darkness|QID|12979|N|Dark Armor Plate.|U|42203|O|
 C Facing the Storm|QID|12978|S|N|Kill 10 Nidavelir Stormforged Champions, Stormforged Magi, or Stormforged War Golems.|M|25,46|
-N Destroy Loken's Fury|QID|12965|QO|Loken's Fury destroyed: 1/1|N|Destroy Loken's Fury, right-click on it.|M|24,42.7|
-N Destroy Loken's Power|QID|12965|QO|Loken's Power destroyed: 1/1|N|Destroy Loken's Power, right-click on it.|M|26.1,47.5|
-C The Gifts of Loken|QID|12965|N|Destroy Loken's Favor, right-click on it.|M|24.5,48.4|
+N Destroy Loken's Fury|QID|12965|QO|1|N|Destroy Loken's Fury, right-click on it.|M|24,42.7|
+N Destroy Loken's Power|QID|12965|QO|2|N|Destroy Loken's Power, right-click on it.|M|26.1,47.5|
+C The Gifts of Loken|QID|12965|QO|3|N|Destroy Loken's Favor, right-click on it.|M|24.5,48.4|
 C Facing the Storm|QID|12978|US|N|Kill 10 Nidavelir Stormforged Champions, Stormforged Magi, or Stormforged War Golems.|M|25,46|
-l Dark Armor Plate|QID|12979|N|Kill Stormforged War Golems in the area until you loot a Dark Armor Plate.|L|42203|US|
 
-A Armor of Darkness|QID|12979|N|Dark Armor Plate.|U|42203|
 C Armor of Darkness|QID|12979|N|Kill Stormforged War Golems and loot 4 Dark Armor Samples.|L|42204 4|
 T Facing the Storm|QID|12978|N|To Bruor Ironbane.|M|31.2,38.1|
 T Armor of Darkness|QID|12979|N|To Bruor Ironbane.|M|31.2,38.1|
@@ -429,16 +435,16 @@ T Valduran the Stormborn|QID|12984|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 A Destroy the Forges!|QID|12988|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
 A Hit Them Where it Hurts|QID|12991|N|From Bruor Ironbane.|M|31.2,38.1|
 C Hit Them Where it Hurts|QID|12991|N|Kill 10 Stormforged Artificers in this area.|M|29,46|S|
-N Destroy North Lightning Forge|QID|12988|QO|North Lightning Forge damaged: 1/1|N|Use Bouldercrag's Bomb and damage the North Lightning Forge.|M|29.02,45.86|U|42441|
-N Destroy Central Lightning Forge|QID|12988|QO|Central Lightning Forge damaged: 1/1|N|Use Bouldercrag's Bomb and damage the Central Lightning Forge.|M|29.55,45.86|U|42441|
-C Destroy the Forges|QID|12988|N|Use Bouldercrag's Bomb and damage the South Lightning Forge.|M|30.23,46.14|U|42441|
+N Destroy North Lightning Forge|QID|12988|QO|1|N|Use Bouldercrag's Bomb and damage the North Lightning Forge.|M|29.02,45.86|U|42441|
+N Destroy Central Lightning Forge|QID|12988|QO|2|N|Use Bouldercrag's Bomb and damage the Central Lightning Forge.|M|29.55,45.86|U|42441|
+C Destroy the Forges|QID|12988|QO|3|N|Use Bouldercrag's Bomb and damage the South Lightning Forge.|M|30.23,46.14|U|42441|
 C Hit Them Where it Hurts|QID|12991|N|Kill 10 Stormforged Artificers in this area.|M|29,46|US|
 T Hit Them Where it Hurts|QID|12991|N|To Bruor Ironbane.|M|31.2,38.1|
 T Destroy the Forges!|QID|12988|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 
 A A Colossal Threat|QID|12993|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
-l Attack Specs|QID|12993|N|Loot the Colossus Attack Specs.|M|28.9,44.1 |L|42475|
-C A Colossal Threat - Defense Specs|QID|12993|N|Loot the Colossus Defense Specs.|M|29.9,45.8|
+C Attack Specs|QID|12993|QO|1|N|Loot the Colossus Attack Specs.|M|28.9,44.1|
+C A Colossal Threat - Defense Specs|QID|12993|QO|2|N|Loot the Colossus Defense Specs.|M|29.9,45.8|
 T A Colossal Threat|QID|12993|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 A The Heart of the Storm|QID|12998|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
 C The Heart of the Storm|QID|12998|N|Through side of the mountain and click on the Heart of the Storm to try to prevent Overseer Narvir from obtaining the Heart of the Storm.|M|32.4,63.6;32.40,60.92;36.1,60.9|CC|

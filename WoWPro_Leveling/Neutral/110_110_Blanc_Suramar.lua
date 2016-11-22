@@ -4,6 +4,37 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-16 00:42
+-- Who: Blanckaert
+-- Log: Added Quests as of 11/15
+
+-- URL: http://wow-pro.com/node/3687/revisions/28017/view
+-- Date: 2016-11-15 03:07
+-- Who: Blanckaert
+-- Log: adjusted T step for 43312, flow might need adjusting again, had A then T then C, instead of A, c, T.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28012/view
+-- Date: 2016-11-12 04:57
+-- Who: Blanckaert
+-- Log: adjusted WRONG item to stackable...  re-refixed what I changed.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28009/view
+-- Date: 2016-11-12 01:40
+-- Who: Blanckaert
+-- Log: change QID 41216 to have a PRE of 42223 instead of 44052, just hope you dont NEED to have done both first. Also Change the Shimmering Anicent Mana NON stack to: Loot for storable ancient mana (Stacks of 5)
+
+-- URL: http://wow-pro.com/node/3687/revisions/28000/view
+-- Date: 2016-11-09 05:28
+-- Who: Emmaleah
+-- Log: added theoretical turn in of last quest.
+--	changed final note to reflect new date
+
+-- URL: http://wow-pro.com/node/3687/revisions/27999/view
+-- Date: 2016-11-09 00:04
+-- Who: Blanckaert
+-- Log: added quests available today 11/08/2016
+
+-- URL: http://wow-pro.com/node/3687/revisions/27995/view
 -- Date: 2016-11-07 02:26
 -- Who: Emmaleah
 -- Log: added my edits to change of seasons, lockdown and missing persons storyarcs, mainly rearranged Bringing Home the Beacon, Flow Control and EMP.  Simplified All In (not sure on zone for this, green dots not in correct places, but /wp where said it was arcwayscenario/1 as recorded) Finished adding treasure... 46 in guide.  Took WIP message from beginning and added RANKS and Treasures notes.
@@ -225,27 +256,8 @@
 -- Who: Blanckaert
 -- Log: removed a quest that was from Undercity
 
--- URL: http://wow-pro.com/node/3687/revisions/27796/view
--- Date: 2016-09-15 04:10
--- Who: Blanckaert
--- Log: Oops.. Spelled the Zone wrong, and missed a few |Z| tags
-
--- URL: http://wow-pro.com/node/3687/revisions/27793/view
--- Date: 2016-09-14 22:41
--- Who: Blanckaert
-
--- URL: http://wow-pro.com/node/3687/revisions/27792/view
--- Date: 2016-09-14 22:03
--- Who: Blanckaert
-
--- URL: http://wow-pro.com/node/3687/revisions/27790/view
--- Date: 2016-09-14 21:59
--- Who: Blanckaert
--- Log: First steps of the guide, Incomplete.
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
-WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
 WoWPro:GuideSteps(guide, function()
 
@@ -298,7 +310,7 @@ A A Re-Warding Effort|QID|41149|M|30.62,40.06|N|From an Arcane Ward.|PRE|42229|
 C Scattered Memories|QID|40326|M|26.42,44.52|S|NC|N|Read Kel'danath's Notes.|
 C A Re-Warding Effort|QID|41149|M|24.97,44.24|S|N|Activate the Arcane Wards.|
 K Kill Shal'an|QID|42831|QO|1|M|26.24,41.16|N|Silver - Kill Shal'an for a bit of treasure and resources.|ITEM|139926|T|Shal'an|RANK|2|
-$ Ancient Mana Chunk|QID|42827|M|26.35,41.27|N|Loot for an Ancient Mana item.|ITEM|139890|
+$ Ancient Mana Chunk|QID|42827|M|26.35,41.27|N|Loot for an Ancient Mana Gem (Stackable to 5).|ITEM|139890|
 K Kill Oreth the Vile|QID|43449|QO|1|M|24.61,47.25|N|Silver - Kill Oreth the Vile for a bit of treasure and resources.|T|Oreth the Vile|RANK|2|
 $ Treasure Chest|QID|43842|M|23.40,48.77|N|Loot for a bit of treasure and resources.|RANK|2|
 C Scattered Memories|QID|40326|M|26.42,44.52|US|NC|N|Read Kel'danath's Notes.|
@@ -435,7 +447,7 @@ $ Enchanted Burial Urn|QID|43986|M|44.83,31.00|U|140326|ITEM|140326|N|Pick this 
 C The Final Ingredient|QID|40319|M|47.85,29.56|N|Kill Latara and retrieve her bow.|
 T The Final Ingredient|QID|40319|M|45.09,30.92|N|To Thaedris Feathersong.|
 A Feathersong's Redemption|QID|40321|M|45.09,30.92|N|From Thaedris Feathersong.|PRE|40319|
-$ Shimmering Ancient Mana Cluster|QID|43744|M|46.50,26.03|N|Underwater, Loot for storable NON stacking ancient mana.|ITEM|141655|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43744|M|46.50,26.03|N|Underwater, Loot for storable, NON-STACKABLE Ancient Mana.|ITEM|141655|RANK|2|
 C Feathersong's Redemption|QID|40321|M|44.69,22.91|U|130260|N|Use the poison to weaken her, then kill Cliffclutch Matriarch.|
 $ Treasure Chest|QID|43850|M|44.27,22.86|N|Loot for a bit of treasure.|RANK|2|
 T Feathersong's Redemption|QID|40321|M|44.98,23.84|N|To Thaedris Feathersong.|
@@ -506,7 +518,7 @@ C Into the Crevasse|QID|42227|M|20.43,41.96|QO|1|NC|N|Follow Valewalker Farodin.
 C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Falanaar Tunnels@Suramar|QO|2|N|Enter Falanaar Tunnels.|
 T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|To Valewalker Farodin.|
 A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|From Valewalker Farodin.|PRE|42227|
-$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for storable NON stacking ancient mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for storable, NON-STACKABLE Ancient Mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
 R Falanaar South Leyline|QID|43593|M|40.99,45.47;45.03,54.61;41.80,66.64|CC|Z|Falanaar Tunnels@Suramar|N|Increases your ancient mana cap and faction is handy|RANK|2|
 A Leyline Feed Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|From/To Leyline Feed.|RANK|2|PRE|41138|
 $ Small Treasure Chest|QID|43840|M|58.33,70.00|Z|Falanaar Tunnels@Suramar|N|Loot for treasure and resources.|RANK|2|
@@ -667,7 +679,7 @@ R Moonfall Overlook|QID|43808|M|29.01,13.11;28.61,14.31;29.61,10.69|CS|N|Run up 
 A Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|From Unpowered Telemancy Beacon.|PRE|40956|
 T Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|To Unpowered Telemancy Beacon.|
 $ Arcane Power Unit|QID|43989|M|35.58,12.04|U|140329|N|Continue up the stairs for an item that raises your mana cap by 100.|
-$ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|N|Keep running along the path for storable NON stacking ancient mana.|RANK|3|ITEM|139786|
+$ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|N|Keep running along the path for Loot for storable, NON-STACKABLE Ancient Mana.|RANK|3|ITEM|141655|
 $ Glimmering Treasure Chest|QID|43849|M|42.05,19.69|N|Loot for some treasure and resources.|RANK|3|
 T The Orchestrator of Our Demise|QID|40970|M|30.10,10.37|N|And back down to turn in the quests to Syrana Starweaver.|
 T Overwhelming Distraction|QID|40971|M|30.10,10.37|N|To Syrana Starweaver.|
@@ -702,7 +714,7 @@ $ Small Treasure Chest|QID|43857|M|63.95,48.05;63.65,49.11|CS|N|Inside a small a
 f Crimson Thicket|QID|43587|M|64.23,41.98|N|At Ancient Cloudwing.|
 R Elor'shan|QID|43587|M|65.87,41.89;65.88,42.04|CS|N|Into this cave to activate another Leyline, make sure you have 250 ancient mana on hand.|RANK|2|
 A Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|Suramar/34|N|To Leyline Feed.|RANK|2|PRE|41138|
-$ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Before you leave Elor'shan Tunnels, loot for storable NON stacking ancient mana.|ITEM|141655|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Before you leave Elor'shan Tunnels, Loot for storable, NON-STACKABLE Ancient Mana.|ITEM|141655|RANK|2|
 
 ; Jandvik's Jarl Side Storyline
 R Jandvik|QID|40907|M|64.86,51.05|N|Run to Jandvik for some sideline quests.|
@@ -737,7 +749,7 @@ C Fisherman's Tonic|QID|40334|M|68.89,70.75|QO|1|US|N|Kill Basilisk and loot Axe
 T Fisherman's Tonic|QID|40334|M|73.00,67.60|N|If you like Brandolf's buff, wait to turn in until you are out of the cave, To Brandolf, who is following you.|
 A Testing the Waters|QID|41034|M|73.00,67.60|N|From Brandolf.|PRE|40334|
 C Testing the Waters|QID|41034|M|77.40,69.30;75.89,72.29|CS|QO|2|N|Commander Malt'his is in an underwater cave, find and kill him.|
-$ Shimmering Ancient Mana Cluster|QID|43741|M|79.66,72.88|N|Loot for storable NON stacking ancient mana.|RANK|2|
+$ Shimmering Ancient Mana Cluster|QID|43741|M|79.66,72.88|N|Loot for storable, NON-STACKABLE Ancient Mana.|RANK|2|
 K Kill Rok'nash|QID|40680|QO|1|M|80.15,70.65|ITEM|140019|T|Rok'nash|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Testing the Waters|QID|41034|M|80.19,64.00|QO|1|N|Kill Commander Raz'jira who is on the seafloor.|
 $ Small Treasure Chest|QID|43860|M|76.87,61.49|N|Inside the hold of a sunken ship, loot for treasure and resources.|RANK|2|
@@ -980,7 +992,7 @@ C Search and Rescue!|QID|41140|M|27.19,86.06|QO|3|NC|N|Find Brambley's Cage|RANK
 C Shard of Kozak|QID|41098|M|26.09,85.79|N|Kill Kozak and loot the shard.|RANK|2|
 $ Small Treasure Chest|QID|43831|M|25.97,85.46|N|Loot for some treasure and resources.|RANK|2|
 C Search and Rescue!|QID|41140|M|27.54,88.97|QO|4|NC|N|Felsoul Cage Key (downstairs).|RANK|2|
-$ Shimmering Mana Cluster|QID|43748|M|29.75,88.00|ITEM|141655|N|Continue on down to find some storable mana.|RANK|2|
+$ Shimmering Mana Cluster|QID|43748|M|29.75,88.00|ITEM|141655|N|Continue on down to Loot for storable, NON-STACKABLE Ancient Mana.|RANK|2|
 C Search and Rescue!|QID|41140|M|27.09,86.06|QO|5|NC|N|Back up to release the nightfallen prisoner.|RANK|2|
 T Search and Rescue!|QID|41140|M|27.09,86.06|N|To Selthaes Starsong.|RANK|2|
 A Into The Pit!|QID|41222|M|27.12,86.16|N|From Angus Stormbrew.|PRE|41140|RANK|2|
@@ -1094,7 +1106,7 @@ C Asset Security|QID|43352|M|44.51,74.43|QO|2|N|Kill Auditor Yvenne.|
 A Bad Apples|QID|41107|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
 A Blast of Spice Fish|QID|41256|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
 
-A Survival of the Fittest|QID|41216|PRE|44052|M|50.70,56.56|N|From Nighteyes, Down in the water.|RANK|2|
+A Survival of the Fittest|QID|41216|PRE|42223|M|50.70,56.56|N|From Nighteyes, Down in the water.|RANK|2|  ; had 44052 as pre, need to see if BOTH are needed.
 C Survival of the Fittest|QID|41216|M|50.99,54.33|QO|1|U|134119|N|Creatures Freed, some will attack you.|RANK|2|
 T Survival of the Fittest|QID|41216|M|47.97,52.22|N|To Nighteyes.|RANK|2|
 A Apex Predator|QID|41231|M|47.97,52.22|N|From Nighteyes.|RANK|2|
@@ -1151,11 +1163,11 @@ C Rumor Has It|QID|43313|M|61.90,62.39|CHAT|N|Talk to a Disgruntled Servant.|
 C Rumor Has It|QID|43313|M|58.72,65.45|CHAT|N|Talk to a Shamed Noble.|
 T Either With Us|QID|43310|M|53.41,59.21;57.54,57.63|CS|N|Back down and around to find Aurore.|
 A Thinly Veiled Threats|QID|43312|M|57.54,57.63|N|From Aurore.|PRE|43310|
-T Thinly Veiled Threats|QID|43312|M|57.51,57.61|N|To Aurore.|
-A Vote of Confidence|QID|44040|M|57.51,57.61|N|From Aurore.|PRE|43312|
 $ Treasure Chest|QID|43873|M|57.32,60.39|N|There is a see illusion NPC with some buddies guarding this chest.|RANK|2|
 C Thinly Veiled Threats|QID|43312|M|57.98,68.69|CHAT|N|Rescue Ailen.|
 $ Glimmering Treasure Chest|QID|43876|M|60.33,68.52|N|There is a see illusion NPC with a buddy guarding this chest.|RANK|2|
+T Thinly Veiled Threats|QID|43312|M|57.51,57.61|N|To Aurore.|
+A Vote of Confidence|QID|44040|M|57.51,57.61|N|From Aurore.|PRE|43312|
 T Rumor Has It|QID|43313|M|47.89,82.99|N|To Ly'leth Lunastre.|
 T Vote of Confidence|QID|44040|M|47.89,82.99|N|To Ly'leth Lunastre.|
 A In the Bag|QID|43317|M|47.89,82.99|N|From Ly'leth Lunastre.|PRE|44040|
@@ -1180,6 +1192,7 @@ t Growing Strong|QID|44562|M|36.54,46.77|N|To Valewalker Farodin.|
 A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|N|From Valewalker Farodin.|
 
 ;A Growing Crisis Story Arc
+
 N You are Rep Gated|QID|44152|REP|The Nightfallen;1859;unknown-revered;6999|N|Next Chain requires 7K into Revered, so off to do World Quests.|
 A A Growing Crisis|QID|44152|REP|The Nightfallen;1859;revered;7000|PRE|44053|M|36.54,46.77|N|From Valewalker Farodin.|
 P Portal to Falanaar|QID|44152|M|35.94,45.55|N|Take the Portal to Fal'adora|
@@ -1202,6 +1215,7 @@ C The Stuff of Dreams|QID|43362|M|36.51,46.75|QO|2|N|Purified Life Essence LFR R
 T The Stuff of Dreams|QID|43362|M|36.51,46.75|N|To Valewalker Farodin.|
 
 ;change of seasons 20/21K revered
+
 N You are Rep Gated|QID|44563|REP|The Nightfallen;1859;unknown-Revered;19999|N|Next Chain requires 20K into Revered (and killing Xavius in The Emerald Nightmare Raid), Continue doing World Quests.|
 A A Change of Seasons|QID|43502|REP|The Nightfallen;1859;Revered-Exalted;20000|PRE|43362|M|36.84,46.56|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|N|To Arcanist Valtrois|
@@ -1251,7 +1265,8 @@ C Arluin's Request|QID|43569|M|48.24,66.84|QO|2|CHAT|N|Share Arcan'dor Fruit wit
 T Arluin's Request|QID|43569|M|48.24,66.84|N|To Arluelle.|
 H Shal'Aran|QID|45260|M|36.51,46.80|N|Portal or Hearth your way back to Shal'Aran.|
 
-;insurrection - Lockdown
+; Insurrection - Lockdown Storyline.
+
 A Insurrection|QID|45271|LEAD|45260|PRE|43568|N|Accepted from your adventurer's journal (ALT J by default).|
 T Insurrection|QID|45271|M|36.51,46.80|N|To First Arcanist Thalyssra.|
 A One Day at a Time|QID|45260|PRE|43569|M|36.51,46.80|N|From First Arcanist Thalyssra.|
@@ -1290,6 +1305,7 @@ C Visitor in Shal'Aran|QID|44955|M|36.18,47.14|QO|2|CHAT|N|Talk to Arluelle then
 T Visitor in Shal'Aran|QID|44955|M|36.50,46.78|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - Missing Persons Storyline Quests.
+
 A Continuing the Cure|QID|45261|PRE|44955|M|36.50,46.78|N|From First Arcanist Thalyssra.|
 C Continuing the Cure|QID|45261|M|37.71,47.69|NC|U|143597|N|Pick any Suramar Refugee to cure.|
 T Continuing the Cure|QID|45261|M|36.49,46.78|N|To First Arcanist Thalyssra.|
@@ -1318,9 +1334,77 @@ T In the Business of Souls|QID|44726|M|24.86,88.72|N|To Silgryn.|
 A Waning Refuge|QID|44814|M|24.86,88.72|N|From Silgryn.|
 C Waning Refuge|QID|44814|M|24.62,88.90|NC|N|Hop on Deline's Gondola.|
 T Waning Refuge|QID|44814|M|52.41,80.18|N|To Silgryn.|
-P Shal'Aran|QID|99999|M|52.00,78.74|N|Take Portal back to Shal'Aran.|
+P Shal'Aran|QID|45262|M|52.00,78.74|N|Take Portal back to Shal'Aran.|
 
-N Shal'Aran|N|Unknown Quest chain to follow, at this time, (Available 11/9/16).|
+; Insurrection - Waxing Crescent Storyline.
+
+A A Message From Ly'leth|QID|45262|PRE|44814|M|36.50,46.73|N|From First Arcanist Thalyssra.|
+C A Message From Ly'leth|QID|45262|M|37.49,47.51|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
+T A Message From Ly'leth|QID|45262|M|36.50,46.76|N|To First Arcanist Thalyssra.|
+A Tavernkeeper's Fate|QID|44742|PRE|45262|M|36.50,46.76|N|From First Arcanist Thalyssra.|
+P Lunastre Estate|QID|44742|M|36.18,45.10|QO|1|N|Take Portal to Lunastre Estates. (You dont need to wait for Thalyssra)|
+C Tavernkeeper's Fate|QID|44742|M|43.33,78.74|QO|2|N|1/1 Learn of Vanthir's Fate|
+T Tavernkeeper's Fate|QID|44742|M|43.26,78.75|N|To Ly'leth Lunastre.|
+A Essence Triangulation|QID|44752|PRE|44742|M|43.30,78.78|N|From First Arcanist Thalyssra.|
+C Essence Triangulation|QID|44752|M|41.82,69.68|QO|1|N|Promenade Essence, inside a house.|
+C Essence Triangulation|QID|44752|M|45.52,72.23|QO|2|N|Shimmershade Garden Essence|
+C Essence Triangulation|QID|44752|M|50.89,79.12|QO|3|N|Evermoon Bazaar Essence, inside a house.|
+T Essence Triangulation|QID|44752|M|52.07,79.14|N|To First Arcanist Thalyssra. (Evermoon Terrace)|
+A On Public Display|QID|44753|PRE|44752|M|52.07,79.14|N|From First Arcanist Thalyssra.|
+C On Public Display|QID|44753|M|52.22,78.99|QO|1|CHAT|N|Talk to Thalyssra, to tell her you're ready.|
+C On Public Display|QID|44753|M|52.44,79.14|QO|2|N|Click the echoes that come up, until you complete Tracking Vanthir's Location.|
+T On Public Display|QID|44753|M|52.28,79.04|N|To First Arcanist Thalyssra.|
+A Waxing Crescent|QID|44754|PRE|44753|M|52.28,79.04|N|From First Arcanist Thalyssra.|
+C Waxing Crescent|QID|44754|M|47.39,65.85|QO|1|N|Kill Thoramir, to get His Control Orb|
+C Waxing Crescent|QID|44754|M|48.88,67.11|QO|2|N|Click on Vanthir, to free him.|
+T Waxing Crescent|QID|44754|M|48.88,67.11|N|To Vanthir.|
+A Sign of the Dusk Lily|QID|44756|PRE|44754|M|48.84,67.06|N|From Vanthir.|
+C Sign of the Dusk Lily|QID|44756|M|48.89,67.10|QO|1|N|Click the prison, to place the Dusk Lily Sigil.|
+T Sign of the Dusk Lily|QID|44756|M|36.48,46.73|N|To First Arcanist Thalyssra.|
+
+; after above quests, not sure if it starts the next storyline
+
+A Stabilizing Suramar|QID|45316|PRE|44756|M|36.48,46.73|N|From First Arcanist Thalyssra.|
+C Stabilizing Suramar|QID|45316|M|36.48,46.73|N|Complete 10 World Quests, IN Suramar.|
+t Stabilizing Suramar|QID|45316|M|36.48,46.73|N|To First Arcanist Thalyssra.|
+
+; Insurrection - An Elven Problem - Storyline - Quests from 11/15/2016|
+
+A Eating Before the Meeting|QID|45263|PRE|45316|M|36.49,46.72|N|From First Arcanist Thalyssra.|
+C Eating Before the Meeting|QID|45263|M|37.45,47.42|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
+T Eating Before the Meeting|QID|45263|M|36.50,46.77|N|To First Arcanist Thalyssra.|
+N Horde / Alliance Split?|QID|40632|N|Note: Guide made using horde toon, the next quest may split Factions, please let us know if it does!|
+A Take Me To Your Leader|QID|40632|M|36.50,46.77|N|From First Arcanist Thalyssra.|
+R Take Me To Your Leader|QID|40632|M|34.84,47.97;35.95,51.11;39.51,49.70|CS|N|Run to Khadgar, Thalyssra is already there. |
+T Take Me To Your Leader|QID|40632|M|40.54,53.09|N|To Archmage Khadgar.|
+A Taking a Promenade|QID|41607|M|40.54,53.09|N|From Grand Magister Rommath.|
+A Down to Business|QID|43812|M|40.54,53.09|N|From Lady Liadrin.|
+A A Better Future|QID|41916|M|40.54,53.09|N|From First Arcanist Thalyssra.|
+C Down to Business|QID|43812|M|40.56,63.94|QO|1|N|Slay Suramar Defenders as you go.|
+C A Better Future|QID|41916|M|41.45,61.20|QO|1|N|Rally Shal'dorei Insurgents, as you go.|
+C Taking a Promenade|QID|41607|M|45.24,55.78;46.35,57.85|CS|QO|1|N|1/1 Magus Sendath found|
+A Nullified|QID|44834|M|46.44,58.16|N|From Magus Sendath.|
+C Nullified|QID|44834|M|45.90,53.53;45.51,52.42|CS|QO|2|N|Click on Charged Arcshaper Staff|
+C Nullified|QID|44834|M|44.51,53.73|QO|1|N|Kill Oldus for the Volatile Construct Core.|
+T Nullified|QID|44834|M|46.46,58.13|N|To Magus Sendath.|
+A Shield, Meet Spell|QID|44842|M|46.46,58.13|N|From Magus Sendath.|
+C Shield, Meet Spell|QID|44842|M|45.21,54.65;44.64,53.85|CS|QO|1|U|142260|N|Use the orb on Him, then Slay Arcshaper Thorendis.|
+T Shield, Meet Spell|QID|44842|M|46.48,58.13|N|To Magus Sendath.|
+C Taking a Promenade|QID|41607|M|40.54,64.03|QO|2|N|1/1 Sentinel Moonshade found|
+A Crystal Clearing|QID|44843|M|40.56,64.41|N|From Sentinel Moonshade.|
+A Powering Down the Portal|QID|44844|M|40.56,64.41|N|From Sentinel Moonshade.|
+C Crystal Clearing|QID|44843|M|41.76,66.58|QO|1|N|Destroy the Portal Crystals, around Ingra|
+C Powering Down the Portal|QID|44844|M|40.99,65.66|QO|1|N|Slay Overseer Ingra.|
+T Crystal Clearing|QID|44843|M|40.61,64.46|N|To Sentinel Moonshade.|
+T Powering Down the Portal|QID|44844|M|40.61,64.46|N|To Sentinel Moonshade.|
+T A Better Future|QID|41916|M|40.51,53.09|N|To First Arcanist Thalyssra.|
+T Down to Business|QID|43812|M|40.51,53.09|N|To Lady Liadrin.|
+T Taking a Promenade|QID|41607|M|40.51,53.09|N|To Grand Magister Rommath.|
+A Break An Arm|QID|44845|PRE|41916;41607;43812|M|40.51,53.09|N|From First Arcanist Thalyssra.|
+C Break An Arm|QID|44845|M|46.98,50.35;57.11,48.79|CS|QO|1|N|Slay the Arm of the Magistrix.|
+T Break An Arm|QID|44845|M|40.55,53.08|N|To First Arcanist Thalyssra.|
+
+N Shal'Aran|N|Unknown Quest chain to follow, not available at this time, Guide completed until 11/22/2016|
 
 ]]
 

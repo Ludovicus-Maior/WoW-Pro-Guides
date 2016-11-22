@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-11-10 02:52
+-- Who: Blanckaert
+-- Log: add Target for a Treasure / Pet QID 39130
+
+-- URL: http://wow-pro.com/node/3665/revisions/27982/view
 -- Date: 2016-11-05 10:17
 -- Who: Emmaleah
 -- Log: Added talking to Antydas for the Adventurer of Val'sharah ach.
@@ -479,7 +484,7 @@ C Heart of the Nightmare|QID|38675;41724|M|68.49,49.68;69.57,49.46|CS|NC|N|Splas
 T Heart of the Nightmare|QID|38675;41724|M|66.22,44.79|N|To Tyrande Whisperwind.|
 A Reading the Leaves|QID|38684|M|66.21,44.53|N|From Elothir.|
 A Given to Corruption|QID|41893;41749|M|66.21,44.53|N|From Elothir.|
-$ Purging the river|QID|39130|M|67.50,45.07|N|Kill the elemental for treasure and resources.|RANK|2|;on beta (when it wasnt broken) Talk to Flandras Mistcaller to start the vignette. Flandras now MIA
+$ Purging the River|QID|39130|M|67.50,45.07|T|Pollous the Fetid|N|Kill the elemental for treasure and resources.|RANK|2|;on beta (when it wasnt broken) Talk to Flandras Mistcaller to start the vignette. Flandras now MIA
 C Reading the Leaves|QID|38684|M|68.10,35.48|S|N|Kill 'Twisted' mobs to collect corrupted petals|
 $ Treasure|QID|39108|M|66.60,42.77;66.56,40.91|CS|N|Follow the path up to an outcropping overlooking the waterfall. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39073|M|67.16,41.71;68.33,40.61|CS|N|Follow the path down, Chest is in house at base of falls. Loot for a bit of treasure and resources.|RANK|2|

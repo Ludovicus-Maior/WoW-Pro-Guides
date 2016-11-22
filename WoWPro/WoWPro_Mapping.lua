@@ -456,7 +456,7 @@ function WoWPro:MapPoint(row)
 	    coords = nil
 	end
 	local desc = WoWPro.step[i]
-	local floor = 0
+	local floor = nil
 	local zone
 	zone = WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
 	autoarrival = WoWPro.waypcomplete[i]
@@ -525,7 +525,7 @@ function WoWPro:MapPoint(row)
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
 	        zm = WoWPro.Zone2MapID[zone].mapID
-	        zf = WoWPro.Zone2MapID[zone].floor or floor
+	        zf = floor or WoWPro.Zone2MapID[zone].floor
 	        zc = WoWPro.Zone2MapID[zone].cont
 	        zi = WoWPro.Zone2MapID[zone].zonei
 	        WoWPro:dbp("MapPoint: zone [%s] mapped to %d/%d", zone, zm, zf)

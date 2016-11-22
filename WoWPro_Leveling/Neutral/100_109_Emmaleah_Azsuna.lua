@@ -4,6 +4,56 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-11-22 04:24
+-- Who: Blanckaert
+-- Log: LVL 102 put on wrong quest, moved up one line
+
+-- URL: http://wow-pro.com/node/3657/revisions/28042/view
+-- Date: 2016-11-22 04:17
+-- Who: Blanckaert
+-- Log: Changed the quest turn-ins to be separate, and broke out the A steps with From Within ((Until the logic can be fixed))
+
+-- URL: http://wow-pro.com/node/3657/revisions/28032/view
+-- Date: 2016-11-20 22:33
+-- Who: Blanckaert
+-- Log: adjusted the DH quest QIDs, with Ludo's suggestion. Also removed the Class tag.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28031/view
+-- Date: 2016-11-19 23:04
+-- Who: tubera
+-- Log: Tweak Faronaar for slightly better flow.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28030/view
+-- Date: 2016-11-19 21:40
+-- Who: tubera
+-- Log: Fix US on Runes of Power
+
+-- URL: http://wow-pro.com/node/3657/revisions/28029/view
+-- Date: 2016-11-18 17:18
+-- Who: tubera
+-- Log: *sigh* and fix the rogue on the T step
+
+-- URL: http://wow-pro.com/node/3657/revisions/28028/view
+-- Date: 2016-11-18 17:15
+-- Who: tubera
+-- Log: Fix spelling on Rogue it's not with a q
+
+-- URL: http://wow-pro.com/node/3657/revisions/28014/view
+-- Date: 2016-11-12 22:22
+-- Who: tubera
+-- Log: Need to add the Druid twice...
+
+-- URL: http://wow-pro.com/node/3657/revisions/28013/view
+-- Date: 2016-11-12 22:19
+-- Who: tubera
+-- Log: Add Druid to class tag on From Within
+
+-- URL: http://wow-pro.com/node/3657/revisions/28006/view
+-- Date: 2016-11-10 06:06
+-- Who: Emmaleah
+-- Log: Marius and Tehd vs a Felbat path and treasure updated
+
+-- URL: http://wow-pro.com/node/3657/revisions/27990/view
 -- Date: 2016-11-06 15:23
 -- Who: tubera
 -- Log: Change order Zarkhenar Ruins for better flow; adjust a few coordinates.
@@ -117,9 +167,10 @@ T Paradise Lost|QID|39718|M|72.51,45.66|Z|Dalaran@Dalaran70|N|To Archmage Khadga
 A Down to Azsuna|QID|41220|M|72.51,45.66|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
 C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|Dalaran@Dalaran70|NC|N|Fly down with Khadgar.|
 T Down to Azsuna|QID|41220|M|45.11,42.92|N|To Archmage Khadgar.|
-A Into the Fray|QID|38834|M|45.11,42.92|N|From Archmage Khadgar.|
+A Into the Fray|QID|38834;44137|M|45.11,42.92|N|From Archmage Khadgar.|
 f Illidari Stand|QID|38834|M|44.59,43.85|N|At Izal Whitemoon.|
 T Into the Fray|QID|38834|M|43.55,43.45|N|To Kayn Sunfury.|
+T Into the Fray|QID|44137|M|43.55,43.45|N|To Altruis the Sufferer.|
 T Our New Allies|QID|39934|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|LVL|102|
 A The Price of Power|QID|39935|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39934|
 A Demon Souls|QID|37653|M|43.29,43.16|N|From Allari the Souleater.|
@@ -134,8 +185,8 @@ C Reignite the Wards|QID|37658|QO|1|M|42.24,46.42|NC|N|Click the South Ward to r
 C The Price of Power|QID|39935|M|41.58,44.85|US|N|And kill more demons to learn the glyph.|P|Inscription;773|
 C Demon Souls|QID|37653|U|122100|QO|1|M|42.24,46.42|N|Finish up killing demons and use the gem to trap their souls.|US|
 T Reignite the Wards|QID|37658|M|43.14,43.60|N|To Jace Darkweaver.|
-T The Price of Power|QID|39935|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|
-T Demon Souls|QID|37653|M|43.28,43.16|N|To Allari the Souleater.|LVL|102|
+T The Price of Power|QID|39935|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|LVL|102|
+T Demon Souls|QID|37653|M|43.28,43.16|N|To Allari the Souleater.|
 A Scribal Knowledge|QID|39939|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39935|
 A Inscription of the Body|QID|39936|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39935|
 A The Scythe of Souls|QID|37660|M|43.28,43.16|N|From Allari the Souleater.|
@@ -149,42 +200,44 @@ C The Scythe of Souls|QID|37660|QO|7|M|44.40,44.69|N|Fight Arev'naal.|T|Question
 C The Scythe of Souls|QID|37660|QO|8|M|44.26,44.14|N|Click on the crystal to leave.|NC|
 C The Scythe of Souls|QID|37660|QO|9|M|43.38,43.36|N|Meet back up with Allari|NC|
 T The Scythe of Souls|QID|37660|M|43.29,43.16|N|To Allari the Souleater.|
-;add class tag
-A From Within|QID|36920|M|43.56,43.46|N|From Kayn Sunfury.|C|Death Knight,Hunter,Mage,Monk,Paladin,Priest,Roque,Shaman,Warrior,Warlock
-A From Within|QID|44140|M|43.56,43.46|N|From Kayn Sunfury.|C|Demon Hunter|
 
-T From Within|QID|36920|M|41.24,50.50|N|To Kor'vas Bloodthorn.|C|Death Knight,Hunter,Mage,Monk,Paladin,Priest,Roque,Shaman,Warrior,Warlock
-T From Within|QID|44140|M|43.56,43.46|N|From Kayn Sunfury.|C|Demon Hunter|
+A From Within|QID|36920|M|43.56,43.46|N|From Kayn Sunfury.|
+A From Within|QID|44140|PRE|40374|M|43.56,43.46|N|From Kayn Sunfury.|
+A From Within|QID|40815|PRE|40375|M|43.56,43.46|N|From Altruis the Sufferer.|
+
+T From Within|QID|36920|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
+T From Within|QID|44140|PRE|40374|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
+T From Within|QID|40815|PRE|40375|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
+
 A Fel Machinations|QID|37656|M|40.05,48.80|N|From Kor'vas Bloodthorn who will show up and follow you around.|
 A Saving Stellagosa|QID|37450|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
 A Retake Faronaar-Bonus Objective|QID|36811|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|LVL|-109|
 C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|N|Kill demons and click on the glowing items as you accomplish the other objectives.|S|RANK|2|
-C Fel Machinations|QID|37656|M|40.05,48.80|N|Free the prisoners as you go.|S|
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
-C Fel Machinations|QID|37656|M|40.05,48.80|N|Free the prisoners as you go.|US|
 C Saving Stellagosa|QID|37450|QO|2|M|40.48,56.36|N|Kill and Loot Lykill to get the key to Stellagosa's bonds.|T|Overseer Lykill|
 $ Treasure Chest|QID|38316|M|40.57,57.66|N|Loot for a bit of treasure and resources.|RANK|2|
 C Saving Stellagosa|QID|37450|QO|3|M|38.23,57.60;38.01,58.35;37.69,57.62|CN|NC|N|Click on the locks to free Stellagosa.|
-C Fel Machinations|QID|37656|M|40.05,48.80|N|Free the prisoners as you go.|US|
-T Saving Stellagosa|QID|37450|M|36.27,49.03|N|To Kor'vas Bloodthorn.|
-T Fel Machinations|QID|37656|M|36.27,49.03|N|To Kor'vas Bloodthorn.|
-A Dark Revelations|QID|37449|M|36.27,49.03|N|From Kor'vas Bloodthorn.|
+C Fel Machinations|QID|37656|M|40.05,48.80|N|Free the prisoners as you go.|
 $ Cache of Infernals|QID|38037|M|35.38,50.37|N|Silver - Click on the pile of rocks to start spawning infernals, 3rd wave is the silver.|RANK|2|
 K Kill Ragemaw|QID|44108|QO|1|M|32.57,48.74|ITEM|129075|T|Ragemaw|N|Silver - Kill and loot for some treasure and resources.|RANK|2|
-R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|
+C Retake Faronaar-Bonus Objective|QID|36811|M|36.07,50.12|N|If you havent already, finish this up.|US|RANK|2|
+t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|Auto turned in upon completion.|RANK|2|
+T Saving Stellagosa|QID|37450|M|36.27,49.03|N|To Kor'vas Bloodthorn following you around.|
+T Fel Machinations|QID|37656|M|36.27,49.03|N|To Kor'vas Bloodthorn.|
+A Dark Revelations|QID|37449|M|36.27,49.03|N|From Kor'vas Bloodthorn.|
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S
+K Kill Vorthax|QID|42280|QO|1|M|37.14,43.35|ITEM|141875|T|Vorthax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US
 f Illidari Perch|QID|42286|M|31.81,46.27|N|At Jena Moonrath.|RANK|3|
-K Kill Houndmaster Stroxis|QID|42286|QO|1|M|30.82,47.61|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
+K Kill Houndmaster Stroxis|QID|42286|QO|1|M|30.82,47.61|N|Silver - Kill and loot for some treasure and resources. Pull him into Illidari perch to get help from the Illidari|RANK|3|
 $ Treasure Chest|QID|44105|M|26.25,47.14|N|Loot for a bit of treasure and resources.|RANK|3|
 K Kill Inquistitor Tivos|QID|42376|QO|1|M|26.83,49.07;28.30,51.94|CS|ITEM|141874|T|Inquistitor Tivos|N|Silver - Use the portal located at the first coordinate, to port up to the Soulrender above, he is in the lower level. Kill and loot for some treasure and resources.|RANK|3|
 K Kill Broodmother Lizax|QID|44670|QO|1|M|33.26,42.21|ITEM|141869|T|Broodmother Lizax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
-K Kill Vorthax|QID|42280|QO|1|M|37.14,43.35|ITEM|141875|T|Vorthax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
 R Grey Shoals|QID|38238|M|32.43,28.61|N|If you have a glider, gliding across from outside Vorthax's spot is nice. Otherwise run down and swim across.|RANK|3|
 K Kill Beacher|QID|38238|QO|1|M|32.43,28.61|ITEM|129067|T|Beacher|N|Silver - Paths up and down the beach. Kill and loot for a bit of treasure and resources.|RANK|3|;probably need a run step in here
 $ Small Treasure Chest|QID|44102|M|34.58,35.55|N|In a alcove under a rocky outcropping. Loot for a bit of treasure and resources.|RANK|3|
 
 R Traitor's Overlook|QID|37449|M|35.54,52.50|N|And back to the questline. Yes, its a bit of a run, you can use a glider if you have it to save a bit of pain.|RANK|3|
-C Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|If you havent already, finish this up.|US|RANK|2|
-t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|Auto turned in upon completion,|RANK|2|
 C Dark Revelations|QID|37449|QO|1|M|35.54,52.50|N|Kill Nightglaive the Traitor.|T|Nightglaive the Traitor|
 C Dark Revelations|QID|37449|QO|2|M|35.11,52.90|NC|N|Click on Stellagosa for a ride back to Illidari Stand (Optional).|
 C Dark Revelations|QID|37449|QO|3|M|43.57,43.28|NC|N|Meet back at Illidari Stand.|
@@ -315,8 +368,8 @@ T Hunger's End|QID|42756|M|47.86,26.12|N|To Senegos.|
 $ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|ITEM|138352|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
 R Nor'Danil Wellspring|QID|42505|M|40.30,34.35|N|Another optional sidetrip for the completioinists amongst us.  WAY OUT OF THE WAY.|RANK|3|
 K Kill Arcanist Shal'iman|QID|42505|QO|1|M|40.92,35.03;35.22,34.54|CS|ITEM|141868|T|Arcanist Shal'iman|N|Silver - He paths around this circle. Kill and loot for a bit of treasure and resources.|RANK|3|
-$ Marius & Tehd vs a Felbat|QID|42069|M|45.6,24.4|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd. Talk to Tehd to assist in thier adventurers by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
-$ Glimmering Treasure Chest|QID|42297|M|45.6,24.4|N|In the gazebo near where the felbat was, guarded by two same level elite mobs.  Loot for a bit of treasure and resources.|RANK|3|
+$ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.74; 39.63, 31.65; 36.84, 31.24; 37.40, 29.57; 39.08, 26.55; 40.23, 24.74; 41.63, 23.91; 42.31, 22.72; 43.43, 23.83|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
+$ Glimmering Treasure Chest|QID|42297|M|43.37, 22.43|N|Guarded by two same level elite slow-running mobs.  Loot for a bit of treasure and resources.|RANK|3|
 
 R Llothien Highlands|QID|37690|M|49.32,29.27|N|Run to Llothien Highlands.|
 A Felblaze Ingress|QID|42372|M|50.46,30.73|N|From Marius Felbane.|RANK|3|
@@ -473,7 +526,7 @@ C Quantity Over Quality|QID|42368|M|67.83,26.99|N|Kill demons as you go along.|S
 $ Small Treasure Chest|QID|42958|M|65.47,29.56|N|Loot for a bit of treasure and resources.|RANK|3|
 C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|The runes are here on the ground on each side of the portal.|P|Inscription;773|LVL|102|
 C They're Doing it Wrong|QID|42369|NC|M|67.85,28.07|N|Two stabilizers need sabatoged on each side of the portal.|RANK|3|
-C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|Finish examining the runes.|P|Inscription;773|LVL|102|
+C Runes of Power|QID|39940|M|67.85,28.07|US|NC|N|Finish examining the runes.|P|Inscription;773|LVL|102|
 C Control is Key|QID|39941|M|68.46,26.17|T|Overseer Felorax|NC|N|Click on the fel totem to summon Overseer Felorax.|P|Inscription;773|LVL|102|
 $ Small Treasure Chest|QID|44103|M|69.16,25.93;69.77,29.57;68.87,29.73|CS|N|In an underwater cave. Loot for a bit of treasure and resources.|RANK|3|
 C Arkethrax|QID|42367|QO|1|M|67.32,30.70|N|Kill Arkethrax|T|Arkethrax|RANK|3|

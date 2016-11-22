@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/cooking_recipies
+-- Date: 2016-11-15 19:56
+-- Who: Ludovicus
+-- Log: Get rid of no sections error.
+
+-- URL: http://wow-pro.com/node/3567/revisions/27781/view
 -- Date: 2016-09-14 18:27
 -- Who: Ludovicus
 -- Log: Dalaran City@Dalaran
@@ -497,6 +502,6 @@ B Succulent Pork Ribs|QID|990002548|RECIPE|2548|M|76.60,52.80|Z|Stormwind City|F
 B Bread of the Dead|QID|990065454|RECIPE|65454|M|68.10,11.20|Z|Undercity|FACTION|Horde|P|Cooking;185;45|N|Sold by Chapman in Undercity.|
 B Blackened Sporefish|QID|990033292|RECIPE|33292|M|78.00,66.10|Z|Zangarmarsh|P|Cooking;185;310|N|Sold by Juno Dufrain in Zangarmarsh.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)

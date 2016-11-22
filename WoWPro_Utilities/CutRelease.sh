@@ -32,3 +32,4 @@ git commit -m V${nrelease} -a
 git tag ${nrelease}
 git push origin
 git push --tags
+s3cmd put -P -M "WoWPro v${nrelease}.zip" s3://WoW-Pro/

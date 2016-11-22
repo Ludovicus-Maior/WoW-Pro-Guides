@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2016-11-16 22:53
+-- Who: Ludovicus
+-- Log: Added missing M tag to [K Morgroron]
+
+-- URL: http://wow-pro.com/node/3286/revisions/27946/view
 -- Date: 2016-10-22 02:28
 -- Who: tubera
 -- Log: Fix QOs; Move LVL 68 quests further in.
@@ -373,7 +378,7 @@ T The Force of Neltharaku|QID|10854|M|66.92,57.86|N|To Neltharaku.|
 A Karynaku|QID|10858|M|66.92,57.86|N|From Neltharaku.|
 
 N Group Quests|N|The following steps are all the group quests we skipped before. Time to get help, since they can be somewhat nasty.|
-K Morgroron|QID|10627|QO|2|23.3,38.3|N|Kill Morgroron and loot his corpse for his glaive.|
+K Morgroron|QID|10627|QO|2|M|23.3,38.3|N|Kill Morgroron and loot his corpse for his glaive.|
 C Capture the Weapons|QID|10627|QO|1|M|24.9,37.2|N|Kill Makazradon and loot his corpse for his glaive.|
 T Capture the Weapons|QID|10627|M|29.8,31.2|N|To Grokom Deatheye.|
 A The Hermit Smith|QID|10663|M|29.8,31.2|N|From Grokom Deatheye.|

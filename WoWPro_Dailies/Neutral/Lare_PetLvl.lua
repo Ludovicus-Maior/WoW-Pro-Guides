@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_levelup_125
+-- Date: 2016-11-09 21:55
+-- Who: Ludovicus
+-- Log: Add missing |STRATEGY|Elfuego/Burning| from [Burning Pandaren Spirit]
+
+-- URL: http://wow-pro.com/node/3642/revisions/27909/view
 -- Date: 2016-10-13 23:15
 -- Who: Ludovicus
 -- Log: 500F
@@ -99,11 +104,11 @@ T Grand Master Zusshi|QID|31991|M|36.32,52.21|Z|Townlong Steppes|N|To Master Zus
 
 N Burning Pandaren Spirit|AVAILABLE|32434|PET1|Anubisath Idol;68659;1+1+1|PET2|Strand Crab;61312;2+2+1|PET3|Leveling;;;H>200C|STRATEGY|Elfuego/Burning|
 A Burning Pandaren Spirit|QID|32434|M|57.0,42.2|Z|Townlong Steppes|N|From Burning Pandaren Spirit|
-C Crimson|QID|32434|N|1) Use Crush.\n2) Sandstorm.\n3) Use Deflection next.\n4) Now just lay into him with Crush till he’s dead.|SELECT|1|DEAD|2,1|
-C Pandaren Fire Spirit|QID|32434|N|1) Starts off with Immolate, so your Deflection should be up. \n2) Either way, either Deflect or Crush for the start of round 2.\n3) Her next move is Cauterize, followed by Immolate then she stands there for 2 turns.\nSo here's where you just keep wailing away with Crush and Sandstorm, using Deflect after every third attack, as that's her cool down process.\n It will always be an attack, cauterize, attack, cd, cd. Crush spam till she’s dead.|SELECT|1|DEAD|2,2|
-C Glowy|QID|32434|N|1) Start off with Sandstorm. then Deflect the toxin.\n2) When she goes into her Swarm, switch to the pet you’re going to level.|SELECT|1|SWITCH|3|
-C Leveling|QID|32434|N|1) Sandstorm should negates most incoming damage from the swarm.\n2) Switch back Anubisath|SELECT|3|SWITCH|1|
-C Glowy|QID|32434|N|1) Just Sandstorm - Crush spam till she’s dead.\nCrab is for safety.|SELECT|1|DEAD|2,3|
+C Crimson|QID|32434|STRATEGY|Elfuego/Burning|N|1) Use Crush.\n2) Sandstorm.\n3) Use Deflection next.\n4) Now just lay into him with Crush till he’s dead.|SELECT|1|DEAD|2,1|
+C Pandaren Fire Spirit|QID|32434|STRATEGY|Elfuego/Burning|N|1) Starts off with Immolate, so your Deflection should be up. \n2) Either way, either Deflect or Crush for the start of round 2.\n3) Her next move is Cauterize, followed by Immolate then she stands there for 2 turns.\nSo here's where you just keep wailing away with Crush and Sandstorm, using Deflect after every third attack, as that's her cool down process.\n It will always be an attack, cauterize, attack, cd, cd. Crush spam till she’s dead.|SELECT|1|DEAD|2,2|
+C Glowy|QID|32434|STRATEGY|Elfuego/Burning|N|1) Start off with Sandstorm. then Deflect the toxin.\n2) When she goes into her Swarm, switch to the pet you’re going to level.|SELECT|1|SWITCH|3|
+C Leveling|QID|32434|STRATEGY|Elfuego/Burning|N|1) Sandstorm should negates most incoming damage from the swarm.\n2) Switch back Anubisath|SELECT|3|SWITCH|1|
+C Glowy|QID|32434|STRATEGY|Elfuego/Burning|N|1) Just Sandstorm - Crush spam till she’s dead.\nCrab is for safety.|SELECT|1|DEAD|2,3|
 T Burning Pandaren Spirit|QID|32434|M|57.0,42.2|Z|Townlong Steppes|N|To Burning Pandaren Spirit|
 
 N Grand Master Yon|AVAILABLE|31956|PET1|Anubisath Idol;68659;1+1+1|PET2|Leveling;;;|PET3|Leveling;;;|STRATEGY|jjanchan/Yon|
