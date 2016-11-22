@@ -9,11 +9,12 @@ local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 -- Is a table when a scenario is ongoing
 WoWPro.Scenario = nil
 
-local function QidMapReduce(list,default,or_string,and_string,func)
+local function QidMapReduce(list,default,or_string,and_string,func, why, debug)
     if not list then return default end
     local split_string
+    local do_or
     if or_string and and_string then
-        local do_or = string.find(list,or_string)
+        do_or = string.find(list,or_string)
         if do_or then
             split_string = or_string
         else
@@ -28,7 +29,9 @@ local function QidMapReduce(list,default,or_string,and_string,func)
             do_or = false
         end
     end
---    WoWPro:dbp("QidMapReduce: Splitting %s on '%s'",list,split_string)
+    if debug then
+        WoWPro:dbp("QidMapReduce(%s): Splitting %s on '%s', do_or=%s",why,list,split_string, tostring(do_or))
+    end
     local numList = select("#", string.split(split_string, list))
     for i=1,numList do
         local QID = select(numList-i+1, string.split(split_string, list))
@@ -38,25 +41,35 @@ local function QidMapReduce(list,default,or_string,and_string,func)
 		    QID=0
 		end
 	    local val = func(math.abs(QID))
---	    WoWPro:dbp("QidMapReduce: calling func on %d and got %s",QID,tostring(val))
+	    if debug then
+	        WoWPro:dbp("QidMapReduce(%s): calling func on %d and got %s",why,QID,tostring(val))
+        end
 	    if QID < 0 then
 	        val = not val
 	    end
 	    if numList == 1 then
---	        WoWPro:dbp("QidMapReduce: singleton return %s",tostring(val))
+	        if debug then
+	            WoWPro:dbp("QidMapReduce(%s): singleton return %s",why,tostring(val))
+	        end
 	        return val
 	    end
         if do_or and val then
---          WoWPro:dbp("QidMapReduce: do_or return true")
+            if debug then
+                WoWPro:dbp("QidMapReduce(%s): do_or return true",why)
+            end
             return val
         end
         
         if do_and and not val then
---            WoWPro:dbp("QidMapReduce: do_and return false")
+            if debug then
+                WoWPro:dbp("QidMapReduce(%s): do_and return false",why)
+            end
             return false
         end
     end
---    WoWPro:dbp("QidMapReduce: default return %s",tostring(default))
+    if debug then
+        WoWPro:dbp("QidMapReduce9%s): default return %s",why,tostring(default))
+    end
     return default
 end
 
@@ -83,36 +96,70 @@ end
                     
 
 -- See if any of the list of QIDs are in the indicated table.
-function WoWPro:QIDsInTable(QIDs,tabla)
---    WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",QIDs,tostring(tabla))
-    return QidMapReduce(QIDs,false,";","+",function (qid) return tabla[qid] end)
+function WoWPro:QIDsInTable(QIDs,tabla, debug)
+    if debug then
+        WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
+    end
+    local value = QidMapReduce(QIDs,false,";","+",function (qid) return tabla[qid] end, "QIDsInTable", debug)
+    if debug then
+        WoWPro:dbp("WoWPro:QIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
+    end
+    return value
 end
 
 -- See if any of the list of QIDs are in the indicated table and return the first
-function WoWPro:QIDInTable(QIDs,tabla)
---    WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",QIDs,tostring(tabla))
-    return QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and qid end)
+function WoWPro:QIDInTable(QIDs,tabla, debug)
+    if debug then
+        WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
+    end
+    local value = QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and qid end, "QIDInTable", debug)
+    if debug then
+        WoWPro:dbp("WoWPro:QIDInTable(%s) return %s",tostring(QIDs),tostring(value))
+    end
 end
 
 -- See if any of the list of QIDs are in the indicated table, return a subkey
-function WoWPro:QIDsInTableKey(QIDs,tabla,key)
---    WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",QIDs,tostring(tabla))
-    return QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and tabla[qid][key] end)
+function WoWPro:QIDsInTableKey(QIDs,tabla,key, debug)
+    if debug then
+        WoWPro:dbp("WoWPro:QIDsInTableKey(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
+    end
+    local value = QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and tabla[qid][key] end,"QIDsInTableKey", debug)
+    if debug then
+        WoWPro:dbp("WoWPro:QIDsInTableKey(%s) return %s",tostring(QIDs),tostring(value))
+    end
 end
 
 -- See if all of the list of QIDs are in the indicated table.
-function WoWPro:AllIDsInTable(IDs,tabla)
-    return QidMapReduce(IDs,false,"+",";",function (qid) return tabla[qid] end)
+function WoWPro:AllIDsInTable(IDs,tabla, debug)
+    if debug then
+        WoWPro:dbp("WoWPro:AllIDsInTable(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
+    end
+    local value = QidMapReduce(IDs,false,"+",";",function (qid) return tabla[qid] end,"AllIDsInTable", debug)
+    if debug then
+        WoWPro:dbp("WoWPro:AllIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
+    end
 end
 
 -- Wipe out all the QIDs in the table.
-function WoWPro:WipeQIDsInTable(IDs,tabla)
-    return QidMapReduce(IDs,false,nil,";+",function (qid) tabla[qid] = nil; return true; end)
+function WoWPro:WipeQIDsInTable(QIDs,tabla, debug)
+    if debug then
+        WoWPro:dbp("WoWPro:WipeQIDsInTable(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
+    end
+    local value = QidMapReduce(QIDs,false,nil,";+",function (qid) tabla[qid] = nil; return true; end,"WipeQIDsInTable", debug)
+    if debug then
+        WoWPro:dbp("WoWPro:WipeQIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
+    end
 end
 
 -- Set all the QIDs in the table.
-function WoWPro:SetQIDsInTable(IDs,tabla)
-    return QidMapReduce(IDs,false,nil,";+",function (qid) tabla[qid] = true; return true; end)
+function WoWPro:WipeQIDsInTable(QIDs,tabla, debug)
+    if debug then
+        WoWPro:dbp("WoWPro:WipeQIDsInTable(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
+    end
+    local value = QidMapReduce(QIDs,false,nil,";+",function (qid) tabla[qid] = true; return true; end,"WipeQIDsInTable", debug)
+    if debug then
+        WoWPro:dbp("WoWPro:WipeQIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
+    end
 end
 
 
