@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-11-22 04:24
+-- Who: Blanckaert
+-- Log: LVL 102 put on wrong quest, moved up one line
+
+-- URL: http://wow-pro.com/node/3657/revisions/28042/view
+-- Date: 2016-11-22 04:17
+-- Who: Blanckaert
+-- Log: Changed the quest turn-ins to be separate, and broke out the A steps with From Within ((Until the logic can be fixed))
+
+-- URL: http://wow-pro.com/node/3657/revisions/28032/view
 -- Date: 2016-11-20 22:33
 -- Who: Blanckaert
 -- Log: adjusted the DH quest QIDs, with Ludo's suggestion. Also removed the Class tag.
@@ -159,7 +169,8 @@ C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|Dalaran@Dalaran70|NC|N|Fly down 
 T Down to Azsuna|QID|41220|M|45.11,42.92|N|To Archmage Khadgar.|
 A Into the Fray|QID|38834;44137|M|45.11,42.92|N|From Archmage Khadgar.|
 f Illidari Stand|QID|38834|M|44.59,43.85|N|At Izal Whitemoon.|
-T Into the Fray|QID|38834;44137|M|43.55,43.45|N|To Kayn Sunfury (OR Altruis the Sufferer).|
+T Into the Fray|QID|38834|M|43.55,43.45|N|To Kayn Sunfury.|
+T Into the Fray|QID|44137|M|43.55,43.45|N|To Altruis the Sufferer.|
 T Our New Allies|QID|39934|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|LVL|102|
 A The Price of Power|QID|39935|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39934|
 A Demon Souls|QID|37653|M|43.29,43.16|N|From Allari the Souleater.|
@@ -174,8 +185,8 @@ C Reignite the Wards|QID|37658|QO|1|M|42.24,46.42|NC|N|Click the South Ward to r
 C The Price of Power|QID|39935|M|41.58,44.85|US|N|And kill more demons to learn the glyph.|P|Inscription;773|
 C Demon Souls|QID|37653|U|122100|QO|1|M|42.24,46.42|N|Finish up killing demons and use the gem to trap their souls.|US|
 T Reignite the Wards|QID|37658|M|43.14,43.60|N|To Jace Darkweaver.|
-T The Price of Power|QID|39935|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|
-T Demon Souls|QID|37653|M|43.28,43.16|N|To Allari the Souleater.|LVL|102|
+T The Price of Power|QID|39935|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|LVL|102|
+T Demon Souls|QID|37653|M|43.28,43.16|N|To Allari the Souleater.|
 A Scribal Knowledge|QID|39939|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39935|
 A Inscription of the Body|QID|39936|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39935|
 A The Scythe of Souls|QID|37660|M|43.28,43.16|N|From Allari the Souleater.|
@@ -190,8 +201,13 @@ C The Scythe of Souls|QID|37660|QO|8|M|44.26,44.14|N|Click on the crystal to lea
 C The Scythe of Souls|QID|37660|QO|9|M|43.38,43.36|N|Meet back up with Allari|NC|
 T The Scythe of Souls|QID|37660|M|43.29,43.16|N|To Allari the Souleater.|
 
-A From Within|QID|36920;44140;40815|PRE|37660|M|43.56,43.46|N|From Kayn Sunfury (OR Altruis the Sufferer).|
-T From Within|QID|36920;44140;40815|M|41.24,50.50|N|To Kor'vas Bloodthorn.|
+A From Within|QID|36920|M|43.56,43.46|N|From Kayn Sunfury.|
+A From Within|QID|44140|PRE|40374|M|43.56,43.46|N|From Kayn Sunfury.|
+A From Within|QID|40815|PRE|40375|M|43.56,43.46|N|From Altruis the Sufferer.|
+
+T From Within|QID|36920|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
+T From Within|QID|44140|PRE|40374|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
+T From Within|QID|40815|PRE|40375|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
 
 A Fel Machinations|QID|37656|M|40.05,48.80|N|From Kor'vas Bloodthorn who will show up and follow you around.|
 A Saving Stellagosa|QID|37450|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
