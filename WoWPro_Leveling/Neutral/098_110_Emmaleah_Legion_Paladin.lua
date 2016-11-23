@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2016-11-23 08:40
+-- Who: Emmaleah
+-- Log: added wall of text Note to beginning.
+
+-- URL: http://wow-pro.com/node/3673/revisions/28019/view
 -- Date: 2016-11-15 10:25
 -- Who: Emmaleah
 -- Log: Add Awakenings (first 110 Light's Heart Quest), correct coords on C An unseen path (2nd 110 Light's Heart Quest)
@@ -76,6 +81,8 @@ WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Paladin")
 WoWPro:GuideSteps(guide, function()
 return [[
+
+N Guide Progression|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
 
 A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
