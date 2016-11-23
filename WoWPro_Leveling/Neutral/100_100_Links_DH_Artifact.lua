@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_artifact_and_class_hall
+-- Date: 2016-11-23 04:25
+-- Who: Blanckaert
+-- Log: condensed to just one C step, per Emma suggestion. QID 42731
+
+-- URL: http://wow-pro.com/node/3685/revisions/28035/view
 -- Date: 2016-11-21 15:40
 -- Who: Blanckaert
 -- Log: Adjusted end lvl to 109, added Hall quests to end of guide -- INCOMPLETE, need some testing with Kayn chosen (I chose Altruis)
@@ -219,11 +224,7 @@ T Unexpected Visitors|QID|42131|M|57.59,52.31|Z|Upper Command Center@DemonHunter
 A Working With the Wardens|QID|42731|PRE|42131|M|57.52,52.08|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Belath Dawnblade.|
 C Securing Mardum|QID|42802|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Use Scouting Map to complete Mission 'Securing Mardum'|
 t Securing Mardum|QID|42802|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Belath Dawnblade.|
-C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Use Scouting Map to complete Mission 'WWtW: Isle of the Watchers'|
-C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|2|N|Use Scouting Map to complete Mission 'WWtW: Skul'vrax'|
-C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|3|N|Use Scouting Map to complete Mission 'WWtW: Mellok, Son of Torok'|
-C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|4|N|Use Scouting Map to complete Mission 'WWtW: Fathnyr'|
-C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|5|N|Use Scouting Map to complete Mission 'WWtW: Mal'Dreth the Corruptor'|
+C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|Use Scouting Map to complete WWtW Missions listed.|
 t Working With the Wardens|QID|42731|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Belath Dawnblade.|
 A Green Adepts|QID|42808|PRE|42802|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Belath Dawnblade.|
 C Green Adepts|QID|42808|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHallTerrain|CHAT|N|Talk to Ariana Fireheart.|

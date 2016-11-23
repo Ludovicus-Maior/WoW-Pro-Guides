@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-23 03:53
+-- Who: Blanckaert
+-- Log: Added quest available on 11/22/2016.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28022/view
 -- Date: 2016-11-16 00:42
 -- Who: Blanckaert
 -- Log: Added Quests as of 11/15
@@ -250,11 +255,6 @@
 -- Date: 2016-09-16 19:40
 -- Who: Emmaleah
 -- Log: Added L step and first 2 quests. PRE tags on Nightfall arc, Icon to registration and the guide header to this page.
-
--- URL: http://wow-pro.com/node/3687/revisions/27797/view
--- Date: 2016-09-15 04:17
--- Who: Blanckaert
--- Log: removed a quest that was from Undercity
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -687,7 +687,7 @@ T Zealot's Dues|QID|40762|M|30.10,10.37|N|To Thalrenus Rivertree.|
 A Last Stand of the Moon Guard|QID|40972|M|30.10,10.37|N|From Thalrenus Rivertree.|PRE|40970;40972|
 C Last Stand of the Moon Guard|QID|40972|M|29.71,10.66|CHAT|N|Tell Thalrenus you are ready to go. Wait a minute or so, then he ports you.|
 T Last Stand of the Moon Guard|QID|40972|M|36.89,46.60|N|To First Arcanist Thalyssra.|
-A Leyline Profeciency|QID|44493|M|37.00,46.35|N|From/To Arcanish Valtrois. You will now get more ancient mana from kills. Requires 5 leylines restored.|RANK|2|PRE|44492|
+A Leyline Profeciency|QID|44493|M|37.00,46.35|N|From/To Arcanist Valtrois. You will now get more ancient mana from kills. Requires 5 leylines restored.|RANK|2|PRE|44492|
 
 ; Crimson Thicket Area
 P Sanctum of Order|QID|40798|M|36.69,44.65|N|Take the portal to Sanctum of Order.|
@@ -807,7 +807,7 @@ T Shatter the Sashj'tar|QID|41001|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
 H Shal'Aran|QID|44495|M|36.56,46.93|N|Return to Shal'Aran.|
-A Leyline Mastery|QID|44495|M|37.00,46.35|N|From/To Arcanish Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|RANK|2|PRE|44493|
+A Leyline Mastery|QID|44495|M|37.00,46.35|N|From/To Arcanist Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|RANK|2|PRE|44493|
 
 ;optional quests
 R Meredil|QID|40401|M|34.36,49.95|N|Run outside Shal'Aran and take the road Southeast.|RANK|2|
@@ -1404,8 +1404,38 @@ A Break An Arm|QID|44845|PRE|41916;41607;43812|M|40.51,53.09|N|From First Arcani
 C Break An Arm|QID|44845|M|46.98,50.35;57.11,48.79|CS|QO|1|N|Slay the Arm of the Magistrix.|
 T Break An Arm|QID|44845|M|40.55,53.08|N|To First Arcanist Thalyssra.|
 
-N Shal'Aran|N|Unknown Quest chain to follow, not available at this time, Guide completed until 11/22/2016|
+; Quests from 11/22/2016
 
+A Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.74|N|From First Arcanist Thalyssra.|
+C Feeding the Rebellion|QID|45265|M|37.45,47.42|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
+T Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.74|N|To First Arcanist Thalyssra.|
+
+A Liadrin's Command|QID|44859|PRE|45265|M|36.49,46.74|N|From First Arcanist Thalyssra.|
+A Mouths to Feed|QID|44870|PRE|45265|M|36.49,46.74|N|From First Arcanist Thalyssra.|
+T Mouths to Feed|QID|44870|M|37.07,46.58|N|Go downstairs to Arcanist Valtrois.|
+A Oculeth Ex Machina|QID|44873|PRE|44870|M|37.07,46.58|N|From Arcanist Valtrois.|
+C Oculeth Ex Machina|QID|44873|M|37.12,46.64|QO|1|CHAT|N|Talk to Oculeth, and tell him, Let's Go!.|
+T Oculeth Ex Machina|QID|44873|M|59.81,14.06|Z|Azsuna|N|To Arcanist Valtrois. Stellagosa shows up as you turn it in. Wait a minute to grab the next one.|
+A Unbeleyvable|QID|44874|PRE|44847|M|59.81,14.05|Z|Azsuna|N|From Arcanist Valtrois.|
+C Unbeleyvable|QID|44874|M|59.90,14.35|Z|Azsuna|QO|1|N|Click on Ley Line Tap.|
+C Unbeleyvable|QID|44874|M|60.31,14.47|Z|Azsuna|QO|2|N|Follow Valtrois, to next spot.|
+C Unbeleyvable|QID|44874|M|60.24,14.45|Z|Azsuna|QO|3|N|Valtrois and Stellagosa argue over spot.|
+C Unbeleyvable|QID|44874|M|60.24,14.45|Z|Azsuna|QO|4|N|Valtrois and Stellagosa argue over spot.|
+C Unbeleyvable|QID|44874|M|60.24,14.45|Z|Azsuna|QO|5|N|Valtrois and Stellagosa argue over spot.|
+C Unbeleyvable|QID|44874|M|60.22,14.39|Z|Azsuna|QO|6|N|Click on Ley Line Tap.|
+C Unbeleyvable|QID|44874|M|60.15,14.08|Z|Azsuna|QO|7|N|Follow Valtrois, last spot.|
+C Unbeleyvable|QID|44874|M|60.15,13.94|Z|Azsuna|QO|8|N|Click on Ley Line Tap.|
+T Unbeleyvable|QID|44874|M|60.13,13.98|Z|Azsuna|N|To Arcanist Valtrois.|
+A The Art of Flow|QID|44875|PRE|44874|M|60.16,13.92|Z|Azsuna|N|From Arcanist Valtrois.|
+C The Art of Flow|QID|44875|M|60.11,13.94|Z|Azsuna|QO|1|CHAT|N|Tell Valtrois you are ready. Mobs attack.|
+C The Art of Flow|QID|44875|M|60.22,14.43|Z|Azsuna|QO|2|CHAT|N|Tell Valtrois you are ready. Mobs attack.|
+C The Art of Flow|QID|44875|M|59.92,14.34|Z|Azsuna|QO|3|CHAT|N|Tell Valtrois you are ready. Mobs attack.|
+T The Art of Flow|QID|44875|M|59.81,14.05|Z|Azsuna|N|To Arcanist Valtrois.|
+A A Dance With Dragons|QID|44876|PRE|44875|M|59.81,13.98|Z|Azsuna|N|From Stellagosa.|
+C A Dance With Dragons|QID|44876|M|59.19,12.92|Z|Azsuna|N|Run up out of cave, and just click on Stellagosa, she's fly you back to Shal'Aran.|
+T A Dance With Dragons|QID|44876|M|36.50,46.72|N|To First Arcanist Thalyssra.|
+
+N Shal'Aran|N|Unknown Quest chain to follow, not available at this time, Guide completed until 11/29/2016|
 ]]
 
 end)
