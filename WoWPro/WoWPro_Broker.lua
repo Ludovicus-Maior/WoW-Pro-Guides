@@ -130,6 +130,7 @@ function WoWPro:QIDInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
+    return value
 end
 
 -- See if any of the list of QIDs are in the indicated table, return a subkey
@@ -141,6 +142,7 @@ function WoWPro:QIDsInTableKey(QIDs,tabla,key, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTableKey(%s) return %s",tostring(QIDs),tostring(value))
     end
+    return value
 end
 
 -- See if all of the list of QIDs are in the indicated table.
@@ -152,6 +154,7 @@ function WoWPro:AllIDsInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:AllIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
+    return value
 end
 
 -- Wipe out all the QIDs in the table.
@@ -174,6 +177,7 @@ function WoWPro:SetQIDsInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:SetQIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
+    return value
 end
 
 
