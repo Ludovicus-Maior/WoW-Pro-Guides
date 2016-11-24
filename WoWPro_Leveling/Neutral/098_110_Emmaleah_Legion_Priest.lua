@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-11-24 03:16
+-- Who: Emmaleah
+-- Log: correct coords for image of Kalec
+
+-- URL: http://wow-pro.com/node/3674/revisions/28041/view
 -- Date: 2016-11-21 21:54
 -- Who: Emmaleah
 -- Log: Added The Power Within Questline, which caused me to notice a few other minor inconsistancies and fix them.
@@ -304,7 +309,7 @@ A A Hero's Weapon|QID|43420|M|48.50,20.22|N|From Alonsus Faol. I had to leave th
 C A Hero's Weapon|QID|43420|M|49.74,18.77|N|Stand in the circle of light and use the extra action button.|
 T A Hero's Weapon|QID|43420|M|48.50,20.22|N|To Alonsus Faol.|
 
-A The Power Within|QID|43496|M|49.71,59.40|N|From Image of Kalec. prereq seems to be AK>=10 and finishing class hall campaign. (maybe... much discussion on wowhead)|;guessing at location. I havent gotten the quest yet
+A The Power Within|QID|43496|M|49.68,16.98|N|From Image of Kalec. prereq seems to be AK>=10 and finishing class hall campaign. (maybe... much discussion on wowhead)|;guessing at location. I havent gotten the quest yet
 P Dalaran|QID|43496|M|49.72,80.67|N|Take the portal to Dalaran from your order hall.|
 F Azurewing Repose|QID|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
 T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
