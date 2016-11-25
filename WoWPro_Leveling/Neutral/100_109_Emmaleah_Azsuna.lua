@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-11-24 16:07
+-- Who: Blanckaert
+-- Log: Removed dupes of QID 37832, 37932, and 37932
+
+-- URL: http://wow-pro.com/node/3657/revisions/28045/view
 -- Date: 2016-11-23 04:22
 -- Who: Blanckaert
 -- Log: changes the A and T steps back to multiples, since logic fixed, Kayn Sunfury / Altruis the Sufferer quest giver fixes.
@@ -327,11 +332,8 @@ C You Scratch My Back...|QID|37860|QO|4|M|57.17,13.86|NC|N|Click on your special
 $ Treasure chest|QID|37958|M|57.89,12.23|N|Treasure chest containing items and resources.|RANK|2|
 C You Scratch My Back...|QID|37860|QO|3|M|55.66,13.01|NC|N|Click on your special action button to send in the whelplings to disable the northern mana pylon.|
 T You Scratch My Back...|QID|37860|M|56.90,14.01|N|To UI Alert.|
-$ Treasure chest|QID|37958|M|57.89,12.23|N|Treasure chest containing items and resources.|RANK|2|
-$ Unbound Rift|QID|37932|M|59.74,12.29|QO|1|N|Silver - This vignette is located down in the cravasse. Kill and loot for a bit of resources and treasure.|RANK|2|
 $ Treasure Chest|QID|37980|M|58.28,16.07;58.38,15.24;58.69,14.14|CS|N|Take the stairs here, follow the path up, then take the ley portal to find a treasure chest. Loot for treaure and resources.|RANK|2|
-$ Treasure Chest|QID|37832|M|63.23,15.21|N|WAY out of the way, but this is as close as you get to it. Loot for a bit of treasure and resources.|RANK|3|
-C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|US|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773|LVL|102|
+C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|US|N|Kill and loot the Nightfallen for their Ley Dust.|P|Inscription;773|LVL|102|
 C Opposites Repel|QID|39937|QO|2|M|54.00,15.31|N|Combine the ley dust into a pigment.|U|129105|P|Inscription;773|LVL|102|
 T Opposites Repel|QID|39937|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773|LVL|102|
 A Containing the Demon Within|QID|39938|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773|LVL|102|PRE|39937|

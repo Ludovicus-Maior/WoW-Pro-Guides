@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-11-24 14:58
+-- Who: Blanckaert
+-- Log: Fixed spelling error on QID 38479
+
+-- URL: http://wow-pro.com/node/3665/revisions/28005/view
 -- Date: 2016-11-10 02:52
 -- Who: Blanckaert
 -- Log: add Target for a Treasure / Pet QID 39130
@@ -315,7 +320,7 @@ C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Smash eggs, burn 
 C Solid as a Rock|QID|38235|M|43.84,70.19|QO|1|NC|N|Click Marnor to rescue him.|
 C Solid as a Rock|QID|38235|M|43.85,75.31|QO|3|NC|N|Click Del'thanar to rescue him.|
 $ Treasure|QID|38363|M|43.39,75.89|N|Loot for a bit of resources and treasure.|RANK|2|
-K Kill Seersei|QID|38479|QO|1|M|41.82,78.43|ITEM|130171|T|Seerseo|N|Kill and loot for a bit of resources and treasure.|RANK|2|
+K Kill Seersei|QID|38479|QO|1|M|41.82,78.43|ITEM|130171|T|Seersei|N|Kill and loot for a bit of resources and treasure.|RANK|2|
 C Death to the Witchmother|QID|38225|M|45.67,77.59|QO|1|N|Kill Magula.|T|Magula|
 C Solid as a Rock|QID|38235|M|46.58,76.53|QO|2|NC|N|Click Erwind to rescue him.|
 C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Finish or check this off manually.|RANK|2|

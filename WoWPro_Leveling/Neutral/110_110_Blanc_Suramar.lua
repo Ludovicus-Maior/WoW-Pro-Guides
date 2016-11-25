@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-25 00:49
+-- Who: Blanckaert
+-- Log: I'd a dolt, forgot the OTHER quest she gave. Now I think I'd caught up.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28044/view
 -- Date: 2016-11-23 03:53
 -- Who: Blanckaert
 -- Log: Added quest available on 11/22/2016.
@@ -250,11 +255,6 @@
 -- Date: 2016-09-17 08:25
 -- Who: Emmaleah
 -- Log: Edited N tags, added PRE tags and NC tags; (through C Survey Says...)
-
--- URL: http://wow-pro.com/node/3687/revisions/27799/view
--- Date: 2016-09-16 19:40
--- Who: Emmaleah
--- Log: Added L step and first 2 quests. PRE tags on Nightfall arc, Icon to registration and the guide header to this page.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1404,7 +1404,7 @@ A Break An Arm|QID|44845|PRE|41916;41607;43812|M|40.51,53.09|N|From First Arcani
 C Break An Arm|QID|44845|M|46.98,50.35;57.11,48.79|CS|QO|1|N|Slay the Arm of the Magistrix.|
 T Break An Arm|QID|44845|M|40.55,53.08|N|To First Arcanist Thalyssra.|
 
-; Quests from 11/22/2016
+; Insurrection - Crafting War - Storyline - Quests from 11/22/2016
 
 A Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.74|N|From First Arcanist Thalyssra.|
 C Feeding the Rebellion|QID|45265|M|37.45,47.42|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
@@ -1434,8 +1434,43 @@ T The Art of Flow|QID|44875|M|59.81,14.05|Z|Azsuna|N|To Arcanist Valtrois.|
 A A Dance With Dragons|QID|44876|PRE|44875|M|59.81,13.98|Z|Azsuna|N|From Stellagosa.|
 C A Dance With Dragons|QID|44876|M|59.19,12.92|Z|Azsuna|N|Run up out of cave, and just click on Stellagosa, she's fly you back to Shal'Aran.|
 T A Dance With Dragons|QID|44876|M|36.50,46.72|N|To First Arcanist Thalyssra.|
+R Meredil|QID|44859|M|34.84,47.97;35.95,51.11;40.49,53.07|CS|N|Run to Lady Liadrin.|ACTIVE|44859|
+T Liadrin's Command|QID|44859|M|40.49,53.07|N|To Lady Liadrin.|
+A Trolling Them|QID|44860|PRE|44859|M|40.49,53.07|N|From Lady Liadrin.|
+A Something's Not Quite Right...|QID|44928|PRE|44859|M|40.55,53.11|N|From Archmage Khadgar.|
+C Something's Not Quite Right...|QID|44928|M|41.94,51.42|S|QO|1|U|142375|N|Look for NPCs in a purple fire, use the item, and kill them.|
+C Trolling Them|QID|44860|M|42.55,51.30|S|QO|1|N|As you run around finding Infiltrators, click on the items laying around, Check both camps.|
+C Trolling Them|QID|44860|M|42.55,51.30|US|QO|1|N|5 insults removed.|
+C Something's Not Quite Right...|QID|44928|M|41.94,51.42|US|QO|1|U|142375|N|5 Shal'dorei Infiltrators found.|
+T Something's Not Quite Right...|QID|44928|M|40.55,53.11|N|To Archmage Khadgar.|
+T Trolling Them|QID|44860|M|40.49,53.07|N|To Lady Liadrin.|
+A Arming the Rebels|QID|44862|PRE|44860|M|40.49,53.08|N|
+A Noressa|QID|45056|PRE|44876|M|39.53,51.18|N|From Absolon.|
+T Arming the Rebels|QID|44862|M|39.80,51.18|N|To Victoire.|
+A Citizens' Army|QID|44827|PRE|44862|M|39.80,51.18|N|From Victoire.|
+A We Need Weapons|QID|44829|PRE|44862|M|39.90,51.39|N|From Chief Telemancer Oculeth.|
+A Learning From the Dead|QID|44830|PRE|44862|M|39.94,50.95|N|From Silgryn.|
+R Dusktalon|QID|44830|N|Click on Dusktalon for a ride to Black Rook.|ACTIVE|44830|
+C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|S|QO|1|N|Slay Black Rook forces as you find books, and set the Becaons.|
+C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|S|QO|1|N|Loot Books of Tactics that are laying around.|
+C We Need Weapons|QID||M|44.60,49.29|Z|Val'sharah|N|Click the beacon to set it.|
+C We Need Weapons|QID||M|41.57,49.54|Z|Val'sharah|N|Click the beacon to set it.|
+C We Need Weapons|QID|44829|M|40.02,53.92|Z|Val'sharah|QO|1|N|Click the beacon to set it.|
+C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|US|QO|1|N|Books of Tactics collected|
+C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|US|QO|1|N|Black Rook forces slain|
+R Meredil|QID|44830|39.94,50.95|N|Hearth back to Shal'Aran, or Fly back.|ACTIVE|44830|
+T We Need Weapons|QID|44829|M|39.90,51.36|N|To Chief Telemancer Oculeth.|
+T Citizens' Army|QID|44827|M|39.79,51.21|N|To Victoire.|
+T Learning From the Dead|QID|44830|M|39.96,50.97|N|To Silgryn.|
+A Trial by Demonfire|QID|44790|PRE|44830|M|39.92,50.95|N|From Silgryn.|
+C Trial by Demonfire|QID|44790|M|33.89,49.07|QO|1|N|Rozzeleth slain, back near the Flight Path for Shal'Aran.|
+T Trial by Demonfire|QID|44790|M|40.00,50.93|N|To Silgryn.|
+C Noressa|QID|45056|M|39.74,56.23;39.58,60.06;39.05,66.24;41.01,69.28|CC|N|Run into the City, She is protected by a Seeing Guard.|
+C Noressa|QID|45056|M|40.88,69.63|QO|1|N|Noressa found|
+T Noressa|QID|45056|M|39.05,66.24;39.58,60.06;39.74,56.23|CC|N|Run back to turn in to Absolon.|
 
 N Shal'Aran|N|Unknown Quest chain to follow, not available at this time, Guide completed until 11/29/2016|
+
 ]]
 
 end)
