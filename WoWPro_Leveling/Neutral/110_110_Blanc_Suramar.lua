@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-26 02:43
+-- Who: Blanckaert
+-- Log: Do not try to rush a guide, on a full Turkey Day stomach...  Fixed My N, QID, and M items I forgot.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28052/view
 -- Date: 2016-11-25 00:49
 -- Who: Blanckaert
 -- Log: I'd a dolt, forgot the OTHER quest she gave. Now I think I'd caught up.
@@ -250,11 +255,6 @@
 -- Date: 2016-09-18 05:20
 -- Who: Emmaleah
 -- Log: Edited many |N| tags, moved C/T Survey Says... to after the sequence that ends with killing Arcanist Kel'Danath. Added some R steps, etc.
-
--- URL: http://wow-pro.com/node/3687/revisions/27806/view
--- Date: 2016-09-17 08:25
--- Who: Emmaleah
--- Log: Edited N tags, added PRE tags and NC tags; (through C Survey Says...)
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1444,7 +1444,7 @@ C Trolling Them|QID|44860|M|42.55,51.30|US|QO|1|N|5 insults removed.|
 C Something's Not Quite Right...|QID|44928|M|41.94,51.42|US|QO|1|U|142375|N|5 Shal'dorei Infiltrators found.|
 T Something's Not Quite Right...|QID|44928|M|40.55,53.11|N|To Archmage Khadgar.|
 T Trolling Them|QID|44860|M|40.49,53.07|N|To Lady Liadrin.|
-A Arming the Rebels|QID|44862|PRE|44860|M|40.49,53.08|N|
+A Arming the Rebels|QID|44862|PRE|44860|M|40.49,53.08|N|From Lady Liadrin.|
 A Noressa|QID|45056|PRE|44876|M|39.53,51.18|N|From Absolon.|
 T Arming the Rebels|QID|44862|M|39.80,51.18|N|To Victoire.|
 A Citizens' Army|QID|44827|PRE|44862|M|39.80,51.18|N|From Victoire.|
@@ -1453,12 +1453,12 @@ A Learning From the Dead|QID|44830|PRE|44862|M|39.94,50.95|N|From Silgryn.|
 R Dusktalon|QID|44830|N|Click on Dusktalon for a ride to Black Rook.|ACTIVE|44830|
 C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|S|QO|1|N|Slay Black Rook forces as you find books, and set the Becaons.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|S|QO|1|N|Loot Books of Tactics that are laying around.|
-C We Need Weapons|QID||M|44.60,49.29|Z|Val'sharah|N|Click the beacon to set it.|
-C We Need Weapons|QID||M|41.57,49.54|Z|Val'sharah|N|Click the beacon to set it.|
+C We Need Weapons|QID|44829|M|44.60,49.29|Z|Val'sharah|N|Click the beacon to set it.|
+C We Need Weapons|QID|44829|M|41.57,49.54|Z|Val'sharah|N|Click the beacon to set it.|
 C We Need Weapons|QID|44829|M|40.02,53.92|Z|Val'sharah|QO|1|N|Click the beacon to set it.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|US|QO|1|N|Books of Tactics collected|
 C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|US|QO|1|N|Black Rook forces slain|
-R Meredil|QID|44830|39.94,50.95|N|Hearth back to Shal'Aran, or Fly back.|ACTIVE|44830|
+R Meredil|QID|44830|M|39.94,50.95|N|Hearth back to Shal'Aran, or Fly back.|ACTIVE|44830|
 T We Need Weapons|QID|44829|M|39.90,51.36|N|To Chief Telemancer Oculeth.|
 T Citizens' Army|QID|44827|M|39.79,51.21|N|To Victoire.|
 T Learning From the Dead|QID|44830|M|39.96,50.97|N|To Silgryn.|
