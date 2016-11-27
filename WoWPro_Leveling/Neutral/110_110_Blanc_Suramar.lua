@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-27 02:41
+-- Who: Blanckaert
+-- Log: Added guess at Alliance quests
+
+-- URL: http://wow-pro.com/node/3687/revisions/28054/view
+-- Date: 2016-11-27 00:57
+-- Who: Blanckaert
+-- Log: added a Silver mob. More to be added as pathing is figured out.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28053/view
 -- Date: 2016-11-26 02:43
 -- Who: Blanckaert
 -- Log: Do not try to rush a guide, on a full Turkey Day stomach...  Fixed My N, QID, and M items I forgot.
@@ -245,16 +255,6 @@
 -- Date: 2016-09-20 03:30
 -- Who: Blanckaert
 -- Log: finished off the quests in Jandvik. (Again just quick populated from the recorder.)
-
--- URL: http://wow-pro.com/node/3687/revisions/27824/view
--- Date: 2016-09-19 23:10
--- Who: Ludovicus
--- Log: Changed some duplicate QIDs into PREs
-
--- URL: http://wow-pro.com/node/3687/revisions/27812/view
--- Date: 2016-09-18 05:20
--- Who: Emmaleah
--- Log: Edited many |N| tags, moved C/T Survey Says... to after the sequence that ends with killing Arcanist Kel'Danath. Added some R steps, etc.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -631,6 +631,7 @@ C Not Their Last Stand|QID|40949|M|30.34,17.49|NC|N|Click on the Hippogryphs to 
 C Fate of the Guard|QID|40883|M|30.79,17.91|QO|2|NC|N|Find and click on Galar'thus Rivertree.|
 C Sigil Reclamation|QID|41030|M|28.49,18.19|N|Finish collecting Moon Guard Sigils.|
 C Fate of the Guard|QID|40883|M|32.0,18.00;33.70,18.14|CS|QO|3|NC|N|Into this tunnel and Click on Kailea Windfeather.|
+K Matron Hagatha|QID|43718|M|39.48,25.10;40.23,26.28;35.90,34.45|CS|ITEM|140390|N|Silver - Kill for treasure and resources. Routes to path to get to cave, watch your step!|RANK|2|
 A Take Them in Claw|QID|40963|M|33.71,18.02|N|Go up the stairs to get a quest from Lyrea Windfeather.|ACTIVE|40883|
 T Fate of the Guard|QID|40883|M|33.73,18.09|N|To Lyrea Windfeather.|
 T Sigil Reclamation|QID|41030|M|33.73,18.09|N|To Lyrea Windfeather.|
@@ -1373,44 +1374,56 @@ t Stabilizing Suramar|QID|45316|M|36.48,46.73|N|To First Arcanist Thalyssra.|
 A Eating Before the Meeting|QID|45263|PRE|45316|M|36.49,46.72|N|From First Arcanist Thalyssra.|
 C Eating Before the Meeting|QID|45263|M|37.45,47.42|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
 T Eating Before the Meeting|QID|45263|M|36.50,46.77|N|To First Arcanist Thalyssra.|
-N Horde / Alliance Split?|QID|40632|N|Note: Guide made using horde toon, the next quest may split Factions, please let us know if it does!|
-A Take Me To Your Leader|QID|40632|M|36.50,46.77|N|From First Arcanist Thalyssra.|
-R Take Me To Your Leader|QID|40632|M|34.84,47.97;35.95,51.11;39.51,49.70|CS|N|Run to Khadgar, Thalyssra is already there. |
-T Take Me To Your Leader|QID|40632|M|40.54,53.09|N|To Archmage Khadgar.|
-A Taking a Promenade|QID|41607|M|40.54,53.09|N|From Grand Magister Rommath.|
-A Down to Business|QID|43812|M|40.54,53.09|N|From Lady Liadrin.|
-A A Better Future|QID|41916|M|40.54,53.09|N|From First Arcanist Thalyssra.|
-C Down to Business|QID|43812|M|40.56,63.94|QO|1|N|Slay Suramar Defenders as you go.|
+N Horde / Alliance Split?|QID|40632|N|Note: Quests Faction split, attempted made for each side. If wrong  please let us know!|
+A Take Me To Your Leader|QID|40632|M|36.50,46.77|N|From First Arcanist Thalyssra.|FACTION|HORDE|
+A Take Me To Your Leader|QID|40391|M|36.50,46.77|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
+R Take Me To Your Leader|QID|40632|M|34.84,47.97;35.95,51.11;39.51,49.70|CS|N|Run to Khadgar, Thalyssra is already there.|ACTIVE|40632|
+R Take Me To Your Leader|QID|40391|M|34.84,47.97;35.95,51.11;41.6,51.6|CS|N|Run to Khadgar, Thalyssra is already there.|ACTIVE|40391|
+T Take Me To Your Leader|QID|40632|M|40.54,53.09|N|To Archmage Khadgar.|FACTION|HORDE|
+T Take Me To Your Leader|QID|40632|M|41.63,51.63|N|To Archmage Khadgar.|FACTION|ALLIANCE|
+A Taking a Promenade|QID|41607|M|40.54,53.09|N|From Grand Magister Rommath.|FACTION|HORDE|
+A Taking a Promenade|QID|44831|M|41.72,51.52|N|From Vereesa Windrunner.|FACTION|ALLIANCE|
+A Down to Business|QID|43812|M|40.54,53.09|N|From Lady Liadrin.|FACTION|HORDE|
+A Down to Business|QID|43810|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
+A A Better Future|QID|41916|M|40.54,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|
+A A Better Future|QID|41916|M|41.64,51.61|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
+C Down to Business|QID|43812;43810|M|40.56,63.94|QO|1|N|Slay Suramar Defenders as you go.|
 C A Better Future|QID|41916|M|41.45,61.20|QO|1|N|Rally Shal'dorei Insurgents, as you go.|
-C Taking a Promenade|QID|41607|M|45.24,55.78;46.35,57.85|CS|QO|1|N|1/1 Magus Sendath found|
+C Taking a Promenade|QID|41607;44831|M|45.24,55.78;46.35,57.85|CS|QO|1|N|Magus Sendath found.|
 A Nullified|QID|44834|M|46.44,58.16|N|From Magus Sendath.|
-C Nullified|QID|44834|M|45.90,53.53;45.51,52.42|CS|QO|2|N|Click on Charged Arcshaper Staff|
-C Nullified|QID|44834|M|44.51,53.73|QO|1|N|Kill Oldus for the Volatile Construct Core.|
+C Nullified|QID|44834|M|44.51,53.73|S|N|Kill Arcane Sentinels for the Volatile Construct Core.|
+C Nullified|QID|44834|M|45.90,53.53;45.51,52.42|CS|QO|2|N|Click on Charged Arcshaper Staff.|
+C Nullified|QID|44834|M|44.51,53.73|US|QO|1|N|Looted Volatile Construct Core.|
 T Nullified|QID|44834|M|46.46,58.13|N|To Magus Sendath.|
 A Shield, Meet Spell|QID|44842|M|46.46,58.13|N|From Magus Sendath.|
 C Shield, Meet Spell|QID|44842|M|45.21,54.65;44.64,53.85|CS|QO|1|U|142260|N|Use the orb on Him, then Slay Arcshaper Thorendis.|
 T Shield, Meet Spell|QID|44842|M|46.48,58.13|N|To Magus Sendath.|
-C Taking a Promenade|QID|41607|M|40.54,64.03|QO|2|N|1/1 Sentinel Moonshade found|
+C Taking a Promenade|QID|41607;44831|M|40.54,64.03|QO|2|N|Sentinel Moonshade found.|
 A Crystal Clearing|QID|44843|M|40.56,64.41|N|From Sentinel Moonshade.|
 A Powering Down the Portal|QID|44844|M|40.56,64.41|N|From Sentinel Moonshade.|
 C Crystal Clearing|QID|44843|M|41.76,66.58|QO|1|N|Destroy the Portal Crystals, around Ingra|
 C Powering Down the Portal|QID|44844|M|40.99,65.66|QO|1|N|Slay Overseer Ingra.|
 T Crystal Clearing|QID|44843|M|40.61,64.46|N|To Sentinel Moonshade.|
 T Powering Down the Portal|QID|44844|M|40.61,64.46|N|To Sentinel Moonshade.|
-T A Better Future|QID|41916|M|40.51,53.09|N|To First Arcanist Thalyssra.|
-T Down to Business|QID|43812|M|40.51,53.09|N|To Lady Liadrin.|
-T Taking a Promenade|QID|41607|M|40.51,53.09|N|To Grand Magister Rommath.|
-A Break An Arm|QID|44845|PRE|41916;41607;43812|M|40.51,53.09|N|From First Arcanist Thalyssra.|
+T A Better Future|QID|41916|M|40.51,53.09|N|To First Arcanist Thalyssra.|FACTION|HORDE|
+T A Better Future|QID|41916|M|41.64,51.61|N|To First Arcanist Thalyssra.|FACTION|ALLIANCE|
+T Down to Business|QID|43812|M|40.51,53.09|N|To Lady Liadrin.|FACTION|HORDE|
+T Down to Business|QID|43810|M|41.64,51.48|N|To Tyrande Whisperwind.|FACTION|ALLIANCE|
+T Taking a Promenade|QID|41607|M|40.51,53.09|N|To Grand Magister Rommath.|FACTION|HORDE|
+T Taking a Promenade|QID|44831|M|41.72,51.52|N|To Vereesa Windrunner.|FACTION|ALLIANCE|
+A Break An Arm|QID|44845|PRE|41916;41607;43812|M|40.51,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|
+A Break An Arm|QID|44845|PRE|41916;44831;43810|M|41.64,51.61|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
 C Break An Arm|QID|44845|M|46.98,50.35;57.11,48.79|CS|QO|1|N|Slay the Arm of the Magistrix.|
-T Break An Arm|QID|44845|M|40.55,53.08|N|To First Arcanist Thalyssra.|
+T Break An Arm|QID|44845|M|40.55,53.08|N|To First Arcanist Thalyssra.|FACTION|HORDE|
+T Break An Arm|QID|44845|M|41.64,51.61|N|To First Arcanist Thalyssra.|FACTION|ALLIANCE|
 
 ; Insurrection - Crafting War - Storyline - Quests from 11/22/2016
 
 A Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.74|N|From First Arcanist Thalyssra.|
 C Feeding the Rebellion|QID|45265|M|37.45,47.42|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
 T Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.74|N|To First Arcanist Thalyssra.|
-
-A Liadrin's Command|QID|44859|PRE|45265|M|36.49,46.74|N|From First Arcanist Thalyssra.|
+A Liadrin's Command|QID|44859|PRE|45265|M|36.49,46.74|N|From First Arcanist Thalyssra.|FACTION|HORDE|
+A Tyrande's Command|QID|44743|PRE|45265|M|36.49,46.74|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
 A Mouths to Feed|QID|44870|PRE|45265|M|36.49,46.74|N|From First Arcanist Thalyssra.|
 T Mouths to Feed|QID|44870|M|37.07,46.58|N|Go downstairs to Arcanist Valtrois.|
 A Oculeth Ex Machina|QID|44873|PRE|44870|M|37.07,46.58|N|From Arcanist Valtrois.|
@@ -1434,22 +1447,28 @@ T The Art of Flow|QID|44875|M|59.81,14.05|Z|Azsuna|N|To Arcanist Valtrois.|
 A A Dance With Dragons|QID|44876|PRE|44875|M|59.81,13.98|Z|Azsuna|N|From Stellagosa.|
 C A Dance With Dragons|QID|44876|M|59.19,12.92|Z|Azsuna|N|Run up out of cave, and just click on Stellagosa, she's fly you back to Shal'Aran.|
 T A Dance With Dragons|QID|44876|M|36.50,46.72|N|To First Arcanist Thalyssra.|
-R Meredil|QID|44859|M|34.84,47.97;35.95,51.11;40.49,53.07|CS|N|Run to Lady Liadrin.|ACTIVE|44859|
-T Liadrin's Command|QID|44859|M|40.49,53.07|N|To Lady Liadrin.|
-A Trolling Them|QID|44860|PRE|44859|M|40.49,53.07|N|From Lady Liadrin.|
-A Something's Not Quite Right...|QID|44928|PRE|44859|M|40.55,53.11|N|From Archmage Khadgar.|
-C Something's Not Quite Right...|QID|44928|M|41.94,51.42|S|QO|1|U|142375|N|Look for NPCs in a purple fire, use the item, and kill them.|
-C Trolling Them|QID|44860|M|42.55,51.30|S|QO|1|N|As you run around finding Infiltrators, click on the items laying around, Check both camps.|
-C Trolling Them|QID|44860|M|42.55,51.30|US|QO|1|N|5 insults removed.|
+R Meredil|QID|44859|M|34.84,47.97;35.95,51.11;39.28,49.30;40.49,53.07|CS|N|Run to Lady Liadrin.|ACTIVE|44859|
+R Meredil|QID|44743|M|34.84,47.97;35.95,51.11;39.28,49.30;41.64,51.48|CS|N|Run to Tyrande Whisperwind.|ACTIVE|44743|
+T Liadrin's Command|QID|44859|M|40.49,53.07|N|To Lady Liadrin.|FACTION|HORDE|
+T Tyrande's Command|QID|44743|M|41.64,51.48|N|To Tyrande Whisperwind.|FACTION|ALLIANCE|
+A Trolling Them|QID|44860|PRE|44859|M|40.49,53.07|N|From Lady Liadrin.|FACTION|HORDE|
+A Trolling Them|QID|44858|PRE|44743|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
+A Something's Not Quite Right...|QID|44928|PRE|44859|M|40.55,53.11|N|From Archmage Khadgar.|FACTION|HORDE|
+A Something's Not Quite Right...|QID|44928|PRE|44743|M|41.63,51.63|N|From Archmage Khadgar.|FACTION|ALLIANCE|
+C Something's Not Quite Right...|QID|44928|M|41.94,51.42|S|QO|1|U|142375|N|Look for NPCs in a purple fire, use the item, and kill them. Check both camps.|
+C Trolling Them|QID|44860;44858|M|42.55,51.30|S|QO|1|N|As you run around finding Infiltrators, click on the items laying around, Check both camps.|
+C Trolling Them|QID|44860;44858|M|42.55,51.30|US|QO|1|N|5 insults removed.|
 C Something's Not Quite Right...|QID|44928|M|41.94,51.42|US|QO|1|U|142375|N|5 Shal'dorei Infiltrators found.|
-T Something's Not Quite Right...|QID|44928|M|40.55,53.11|N|To Archmage Khadgar.|
-T Trolling Them|QID|44860|M|40.49,53.07|N|To Lady Liadrin.|
-A Arming the Rebels|QID|44862|PRE|44860|M|40.49,53.08|N|From Lady Liadrin.|
-A Noressa|QID|45056|PRE|44876|M|39.53,51.18|N|From Absolon.|
-T Arming the Rebels|QID|44862|M|39.80,51.18|N|To Victoire.|
-A Citizens' Army|QID|44827|PRE|44862|M|39.80,51.18|N|From Victoire.|
-A We Need Weapons|QID|44829|PRE|44862|M|39.90,51.39|N|From Chief Telemancer Oculeth.|
-A Learning From the Dead|QID|44830|PRE|44862|M|39.94,50.95|N|From Silgryn.|
+T Something's Not Quite Right...|QID|44928|M|40.55,53.11|N|To Archmage Khadgar.|FACTION|HORDE|
+T Something's Not Quite Right...|QID|44928|M|41.63,51.63|N|To Archmage Khadgar.|FACTION|ALLIANCE|
+T Trolling Them|QID|44860|M|40.49,53.07|N|To Lady Liadrin.|FACTION|HORDE|
+T Trolling Them|QID|44858|M|41.64,51.48|N|To Tyrande Whisperwind.|FACTION|ALLIANCE|
+A Arming the Rebels|QID|44862|PRE|44860|M|40.49,53.08|N|From Lady Liadrin.|FACTION|HORDE|
+A Arming the Rebels|QID|44861|PRE|44858|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
+T Arming the Rebels|QID|44862;44861|M|39.80,51.18|N|To Victoire.|
+A Citizens' Army|QID|44827|PRE|44862;44861|M|39.80,51.18|N|From Victoire.|
+A We Need Weapons|QID|44829|PRE|44862;44861|M|39.90,51.39|N|From Chief Telemancer Oculeth.|
+A Learning From the Dead|QID|44830|PRE|44862;44861|M|39.94,50.95|N|From Silgryn.|
 R Dusktalon|QID|44830|N|Click on Dusktalon for a ride to Black Rook.|ACTIVE|44830|
 C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|S|QO|1|N|Slay Black Rook forces as you find books, and set the Becaons.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|S|QO|1|N|Loot Books of Tactics that are laying around.|
@@ -1465,6 +1484,7 @@ T Learning From the Dead|QID|44830|M|39.96,50.97|N|To Silgryn.|
 A Trial by Demonfire|QID|44790|PRE|44830|M|39.92,50.95|N|From Silgryn.|
 C Trial by Demonfire|QID|44790|M|33.89,49.07|QO|1|N|Rozzeleth slain, back near the Flight Path for Shal'Aran.|
 T Trial by Demonfire|QID|44790|M|40.00,50.93|N|To Silgryn.|
+A Noressa|QID|45056|PRE|44876|M|39.53,51.18|N|From Absolon.|
 C Noressa|QID|45056|M|39.74,56.23;39.58,60.06;39.05,66.24;41.01,69.28|CC|N|Run into the City, She is protected by a Seeing Guard.|
 C Noressa|QID|45056|M|40.88,69.63|QO|1|N|Noressa found|
 T Noressa|QID|45056|M|39.05,66.24;39.58,60.06;39.74,56.23|CC|N|Run back to turn in to Absolon.|
