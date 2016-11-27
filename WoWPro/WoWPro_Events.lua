@@ -712,8 +712,8 @@ function WoWPro.EventHandler(frame, event, ...)
 	    end
 	end
 	    
-	if event == "TRADE_SKILL_SHOW" then
-	    WoWPro:ScanTrade()
+	if event == "TRADE_SKILL_LIST_UPDATE" then
+	    WoWPro.ScanTrade()
     end
 
 	-- Auto-Completion --
