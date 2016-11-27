@@ -6,13 +6,13 @@ function WoWPro.ScanTrade()
     -- local tradeskillName, rank, maxLevel = GetTradeSkillLine()
     local tradeSkillID, skillLineName, skillLineRank, skillLineMaxRank, skillLineModifier =  C_TradeSkillUI.GetTradeSkillLine();
     
-    WoWPro:Print("Opened %s window",skillLineName)
+    WoWPro:dbp("Opened %s window",skillLineName)
     WoWProCharDB.Trades = WoWProCharDB.Trades or {}
     local Trade = WoWProCharDB.Trades 
     
     -- Scan trade skills, saving state of headers
     local recipeIDs = C_TradeSkillUI.GetAllRecipeIDs({})
-    WoWPro:Print("Located %d recipeIDs",#recipeIDs)
+    WoWPro:dbp("Located %d recipeIDs",#recipeIDs)
     
     for i, recipeID in ipairs(recipeIDs) do
 		local recipeInfo = C_TradeSkillUI.GetRecipeInfo(recipeID)
@@ -28,7 +28,7 @@ function WoWPro.ScanTrade()
                 else
                     if not Trade[spellId] then
                         Trade[spellId] = true
-                        WoWPro:Print("Newly learned %s:%s",recipeInfo.name, spellId)
+                        WoWPro:dbp("Newly learned %s:%d",recipeInfo.name, spellId)
                     end
                 end
             end
@@ -36,4 +36,17 @@ function WoWPro.ScanTrade()
 	end
 
     WoWProCharDB.Trades  = Trade
+end
+
+function WoWPro.LearnRecipe(which)
+    local which = tonumber(which)
+    if which then
+        if WoWProCharDB.Trades[which] then
+            -- You managed to learn something you already knew?
+            WoWPro:Warning("Recipe %d was already recorded as learned.",which)
+        else
+            WoWProCharDB.Trades[which] = true
+            WoWPro:dbp("Newly learned %d", which)
+        end
+    end
 end
