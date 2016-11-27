@@ -6,6 +6,11 @@ function WoWPro.ScanTrade()
     -- local tradeskillName, rank, maxLevel = GetTradeSkillLine()
     local tradeSkillID, skillLineName, skillLineRank, skillLineMaxRank, skillLineModifier =  C_TradeSkillUI.GetTradeSkillLine();
     
+    if not skillLineName then
+        -- Got event when not in Trade window. Ignore
+        return
+    end
+
     WoWPro:dbp("Opened %s window",skillLineName)
     WoWProCharDB.Trades = WoWProCharDB.Trades or {}
     local Trade = WoWProCharDB.Trades 
