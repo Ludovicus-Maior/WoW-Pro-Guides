@@ -846,9 +846,11 @@ function WoWPro:CheckFunction(row, button, down)
 	if button == "LeftButton" and row.check:GetChecked() then
 	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as skipped.", row.index)
 		local steplist = WoWPro.SkipStep(row.index, true)
-		row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 		if steplist ~= "" then 
-			WoWPro:SkipStepDialogCall(row.index, steplist)
+			WoWPro:SkipStepDialogCall(row.index, steplist, row.check)
+		else
+		    WoWPro.SkipStep(index, false)
+		    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 		end
 	elseif button == "RightButton" and row.check:GetChecked() then
 	    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
@@ -860,11 +862,12 @@ function WoWPro:CheckFunction(row, button, down)
 	    if WoWPro.CompleteStep(row.index,"Right-Click") then
 	        return
 	    end
+	    WoWPro:UpdateGuide("CheckFunction:CompleteClick")
 	elseif not row.check:GetChecked() then
 	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as UNskipped.", row.index)
 		WoWPro.UnSkipStep(row.index)
+		WoWPro:UpdateGuide("CheckFunction:UnSkip")
 	end
-	WoWPro:UpdateGuide("CheckFunction")
 end
 
 
