@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2016-11-27 14:57
+-- Who: tubera
+-- Log: More fixes (part 2). Stopped at The Flesh Giant Champion. (It was bugged, but apparently not always is, so I'll continue another time)
+
+-- URL: http://wow-pro.com/node/3302/revisions/28033/view
 -- Date: 2016-11-21 00:40
 -- Who: tubera
 -- Log: Add M/N/S/US; Fix QO; Part 1 until "? Blackwatch"
@@ -235,60 +240,68 @@ N Group Quests|QID|12852|N|The last 2 quests here are group quests. Look for gro
 
 A Second Chances|QID|12847|O|
 
-T Blackwatch |QID|13106|N|Above the Fleshworks at .|M|35.46,66.49|
+T Blackwatch|QID|13106|N|To Darkrider Arly.|M|35.46,66.49|
 
-A Where Are They Coming From? |QID|13117|
-C Where Are They Coming From? |QID|13117|N|Go to . There are 4 altars, pick one and click on it.|M|37,71|
-T Where Are They Coming From? |QID|13117|N|Darkrider Arly .|M|35.46,66.49|
+A Where Are They Coming From?|QID|13117|N|From Darkrider Arly.|M|35.46,66.49|
+C Where Are They Coming From?|QID|13117|N|There are 4 altars, pick one and click on it.|M|37,71|
+T Where Are They Coming From?|QID|13117|N|Darkrider Arly.|M|35.46,66.49|
 
-A Destroying the Altars |QID|13119|
-A Death's Gaze |QID|13120|
-K Master Summoner Zarod |QID|13119|N|He wanders around the area . Loot the Rod.|L|43159 1|M|37,71|
-C A Destroying the Altars |QID|13119|N|Use the Rod on the 4 altars.|U|43159|
-C Death's Gaze |QID|13120|N|Click on the stands to place the Orb. Flesh Giant lab: , Abomination lab: (32.60,70.59), Cauldron area: (30.50,65.09).|M|34.60,69.59|
-T Destroying the Altars |QID|13119|N|Darkrider Arly .|M|35.46,66.49|
-T Death's Gaze |QID|13120|
+A Destroying the Altars|QID|13119|N|From Darkrider Arly.|M|35.46,66.49|
+A Death's Gaze|QID|13120|N|From Darkrider Arly.|M|35.46,66.49|
+K Master Summoner Zarod|QID|13119|N|He wanders around the area. Loot the Rod.|L|43159 1|M|37,71|
+C A Destroying the Altars|QID|13119|N|Use the Rod on the 4 altars.|U|43159|
+C Death's Gaze|QID|13120|QO|2|N|Click on the stands to place the Orb.|M|34.60,69.59|
+C Death's Gaze|QID|13120|QO|1|N|Click on the stands to place the Orb.|M|32.60,70.59|
+C Death's Gaze|QID|13120|QO|3|N|Click on the stands to place the Orb.|M|30.50,65.09|
 
-A Spill Their Blood |QID|13134|
-N Jagged Shard |QID|13136|N|Fleshwerks . Kill Spiked Ghouls until you get it. Destroy Embalming Fluid and Blood Orbs also.|L|43242 1|M|32,69|
+T Destroying the Altars|QID|13119|N|To Darkrider Arly.|M|35.46,66.49|
+T Death's Gaze|QID|13120|N|To Darkrider Arly.|M|35.46,66.49|
 
-A Jagged Shards |QID|13136|N|Click on the Shard to start a quest.|U|43242|
-C Spill Their Blood |QID|13134|N|More Embalming Fluid and Blood Orbs. Keep killing Spiked Ghouls for Shards.|
-C Jagged Shards |QID|13136|N|Kill more Spiked Ghouls until you have 10 Jagged Shards.|
-T Spill Their Blood |QID|13134|N|Darkrider Arly .|M|35.46,66.49|
-T Jagged Shards |QID|13136|N|Crusader Olakin Sainrith. |M|35.49,66.42|
+A Spill Their Blood|QID|13134|N|From Darkrider Arly.|M|35.46,66.49|
 
-A I'm Smelting... Smelting! |QID|13138|
-A The Runesmiths of Malykriss |QID|13140|
-C The Runesmiths of Malykriss |QID|13140|N| is a good place to land. There are 2 Runesmiths around the big furnace and a Brute that patrols up and down the ramp. The respawn rate is fairly fast, so you can just wait on it, to make it easy. Their aggro range is huge, so pull from range if you can. Kill the Brute when you have to, he doesn't drop any quest items.|M|56.91,74.76|
-C I'm Smelting... Smelting! |QID|13138|N|Stand near the furnace (almost on top of it) and use the item.|U|43289|
-T I'm Smelting... Smelting! |QID|13138|N|Crusader Olakin Sainrith. |M|35.49,66.42|
-T The Runesmiths of Malykriss |QID|13140|
+A Jagged Shards|QID|13136|N|From UI alert.|U|43242|O|M|32,69|
+C Jagged Shards|QID|13136|N|Kill more Spiked Ghouls until you have 10 Jagged Shards.|S|M|32,69|
+C Spill Their Blood|QID|13134|N|Destroy Embalming Fluid and Blood Orbs.|M|32,69|
+C Jagged Shards|QID|13136|N|Kill more Spiked Ghouls until you have 10 Jagged Shards.|US|M|32,69|
 
-A By Fire Be Purged |QID|13211|
+l Jagged Shard|QID|13136|N|Kill Spiked Ghouls until you get it.|L|43242 1|M|32,69|AVAILABLE|13136|
 
-A A Visit to the Doctor |QID|13152|N|Darkrider Arly .|M|35.46,66.49|
-C By Fire Be Purged |QID|13211|N|Head into the Sanctum of Reanimation . The bodies are on the ground.|U|43524|M|34.21,68.62|
-C A Visit to the Doctor |QID|13152|N|Patches is on the lower level. Free him from the stake, the doctor will show up and Patches will kill him.|
-T By Fire Be Purged |QID|13211|N|Crusader Olakin Sainrith. |M|35.49,66.42|
-T A Visit to the Doctor |QID|13152|N|Darkrider Arly .|M|35.46,66.49|
+T Spill Their Blood|QID|13134|N|To Darkrider Arly.|M|35.46,66.49|
+T Jagged Shards|QID|13136|N|To Crusader Olakin Sainrith.|M|35.49,66.42|
 
-A Killing Two Scourge With One Skeleton |QID|13144|
-C Killing Two Scourge With One Skeleton |QID|13144|N|Look for green arms reaching up through the ground in the Fleshwerks. Grab one, then go to the Abomination lab  and attack an Abomination. Repeat 2 more times.|M|31,70|
-T Killing Two Scourge With One Skeleton |QID|13144|N|Darkrider Arly .|M|35.46,66.49|
+A I'm Smelting... Smelting!|QID|13138|N|From Crusader Olakin Sainrith.|M|35.49,66.42|
+A The Runesmiths of Malykriss|QID|13140|N|From Crusader Olakin Sainrith.|M|35.49,66.42|
+C The Runesmiths of Malykriss|QID|13140|N|There are 2 Runesmiths around the big furnace and a Brute that patrols up and down the ramp. The respawn rate is fairly fast, so you can just wait on it, to make it easy. Their aggro range is huge, so pull from range if you can. Kill the Brute when you have to, he doesn't drop any quest items.|M|56.91,74.76|
+C I'm Smelting... Smelting!|QID|13138|N|Stand near the furnace (almost on top of it) and use the item.|U|43289|M|58.1,70.88|
+T I'm Smelting... Smelting!|QID|13138|N|To Crusader Olakin Sainrith.|M|35.49,66.42|
+T The Runesmiths of Malykriss|QID|13140|N|To Crusader Olakin Sainrith.|M|35.49,66.42|
 
-A He's Gone to Pieces |QID|13212|
-C He's Gone to Pieces |QID|13212|N|Back to the Fleshwerks. Kill the Corpulent Horrors for the parts. Be careful of the Giants on the top level, they are 80 Elites.|
-T He's Gone to Pieces |QID|13212|N|Darkrider Arly .|M|35.46,66.49|
+A By Fire Be Purged|QID|13211|N|From Crusader Olakin Sainrith.|M|35.49,66.42|
 
-A Putting Olakin Back Together Again |QID|13220|
-N Thread |QID|13220|N|Back to the Sanctum of Reanimation . The thread is in the room on the left.|L|43567 1|M|34.21,68.62|
-N Cleaver |QID|13220|N|Go past where Patches was and get the cleaver from one of the tables.|L|43568 1|
-C Putting Olakin Back Together Again |QID|13220|N|Reanimate Olakin at the slab above where Patches was.|U|43564|
-T Putting Olakin Back Together Again |QID|13220|N|Darkrider Arly .|M|35.46,66.49|
+A A Visit to the Doctor|QID|13152|N|From Darkrider Arly.|M|35.46,66.49|
+F Sanctum of Reanimation|QID|13211|N|Enter the Sanctum.|M|34.44,68.36|
+C By Fire Be Purged|QID|13211|N|Use the item to burn the bodies.|U|43524|M|34.21,68.62|S|
+C A Visit to the Doctor|QID|13152|N|Patches is on the lower level. Free him from the stake, the doctor will show up and Patches will kill him.|
+C By Fire Be Purged|QID|13211|N|Finish up burning bodies.|U|43524|M|34.21,68.62|US|
+T By Fire Be Purged|QID|13211|N|To Crusader Olakin Sainrith.|M|35.49,66.42|
+T A Visit to the Doctor|QID|13152|N|To Darkrider Arly.|M|35.46,66.49|
 
-A The Flesh Giant Champion |QID|13235|
-C The Flesh Giant Champion |QID|13235|N|Margrave Dhakar is at . Talk to him to start. Hopefully they will tank him, if not you might be on your own.|M|29.78,61.22|
+A Killing Two Scourge With One Skeleton|QID|13144|N|From Darkrider Arly.|M|35.46,66.49|
+C Killing Two Scourge With One Skeleton|QID|13144|N|Look for green arms reaching up through the ground in the Fleshwerks. Grab one, then go to the Abomination lab and attack an Abomination. Repeat 2 more times.|M|31,70|
+T Killing Two Scourge With One Skeleton|QID|13144|N|To Darkrider Arly.|M|35.46,66.49|
+
+A He's Gone to Pieces|QID|13212|N|From Darkrider Arly.|M|35.46,66.49|
+C He's Gone to Pieces|QID|13212|N|Back to the Fleshwerks. Kill the Corpulent Horrors for the parts. Be careful of the Giants on the top level, they are 80 Elites.|M|33.72,67.95|
+T He's Gone to Pieces|QID|13212|N|To Darkrider Arly.|M|35.46,66.49|
+
+A Putting Olakin Back Together Again|QID|13220|N|From Darkrider Arly.|M|35.46,66.49|
+l Thread|QID|13220|N|Back to the Sanctum of Reanimation. The thread is in the room on the left.|L|43567 1|M|34.21,68.62|
+l Cleaver|QID|13220|N|Go past where Patches was and get the cleaver from one of the tables.|L|43568 1|M|36.61,67.59|
+C Putting Olakin Back Together Again|QID|13220|N|Reanimate Olakin at the slab above where Patches was.|U|43564|M|35.6,66.74|
+T Putting Olakin Back Together Again|QID|13220|N|To Darkrider Arly.|M|35.46,66.49|
+
+A The Flesh Giant Champion|QID|13235|N|From Darkrider Arly.|M|35.46,66.49|
+C The Flesh Giant Champion|QID|13235|N|Talk to Margrave Dhakar to start. Hopefully they will tank him, if not you might be on your own. This quest may sometimes bug out making it impossible to talk to Margrave unavailable.|M|29.78,61.22|
 
 A Let's Get Out of Here! |QID|13481|N|Father Kamaros is at .|M|31.72,64.81|
 C Let's Get Out of Here! |QID|13481|N|Easy escort. Most of the mobs will be fighting someone else.|
