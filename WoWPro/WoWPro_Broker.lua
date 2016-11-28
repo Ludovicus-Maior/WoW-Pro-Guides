@@ -949,13 +949,13 @@ function WoWPro.NextStep(k,i)
 				WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
 			end
 			if type(replvl) == "number" and (replvl > 0) then
-				if (repID < standingId) then
-				    WoWPro:dbp("** [%s] Spec %s repID %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repID), tostring(standingId))
+				if (repmax < standingId) then
+				    WoWPro:dbp("** [%s] Spec %s repmax %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
 				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
 					skip = false 
 				end
-				if (repID == standingId) and (earnedValue >= replvl) then
-				    WoWPro:dbp("** [%s] Spec %s earnedValue %d >= replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
+				if (repmax == standingId) and (earnedValue <= replvl) then
+				    WoWPro:dbp("** [%s] Spec %s earnedValue %d <= replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
 				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
                     skip = false
 				end
