@@ -849,8 +849,9 @@ function WoWPro:CheckFunction(row, button, down)
 		if steplist ~= "" then 
 			WoWPro:SkipStepDialogCall(row.index, steplist, row.check)
 		else
-		    WoWPro.SkipStep(index, false)
+		    WoWPro.SkipStep(row.index, false)
 		    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
+		    WoWPro:UpdateGuide("CheckFunction:Skip1Step")
 		end
 	elseif button == "RightButton" and row.check:GetChecked() then
 	    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
