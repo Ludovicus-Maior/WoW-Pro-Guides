@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2016-11-29 00:27
+-- Who: Blanckaert
+-- Log: changes QID# 44098 to LVL 104, per comment from Discord:cameljon
+
+-- URL: http://wow-pro.com/node/3671/revisions/28061/view
+-- Date: 2016-11-29 00:22
+-- Who: Blanckaert
+-- Log: added an active tag to a treasure chest that is avail during a quest/scenario
+
+-- URL: http://wow-pro.com/node/3671/revisions/27904/view
 -- Date: 2016-10-13 18:57
 -- Who: tubera
 -- Log: Fix a few coordinates; QOs and a typo
@@ -115,9 +125,9 @@ A Ancient Magic|QID|42433|M|82.4,55.6|N|From Archmage Vargoth.|LVL|101|
 C Ancient Magic|QID|42433|M|82.4,55.6|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|
 t Ancient Magic|QID|42433|M|80.8,61.8|N|To Archmage Melis.|
 
-A Recruiting Apprentices|QID|44098|LVL|103|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Recruiting Apprentices|QID|44098|LVL|103|M|48,33.4|Z|MageClassShrine/2|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
-T Recruiting Apprentices|QID|44098|LVL|103|M|48,33.4|Z|MageClassShrine/2|N|To Grand Conjurer Mimic.|
+A Recruiting Apprentices|QID|44098|LVL|104|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
+C Recruiting Apprentices|QID|44098|LVL|104|M|48,33.4|Z|MageClassShrine/2|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
+T Recruiting Apprentices|QID|44098|LVL|104|M|48,33.4|Z|MageClassShrine/2|N|To Grand Conjurer Mimic.|
 
 A An Unexpected Visitor|QID|42418|M|80.8,61.8|N|From Archmage Melis.|PRE|42433|LVL|103|
 T An Unexpected Visitor|QID|42418|M|60.8,59.4|Z|MageClassShrine/2|N|To Ravandwyr.|
@@ -193,7 +203,7 @@ C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|3|N|Find Archmage
 C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|4|N|Slay Lady Kyranith.|
 T Impending Dooooooom!|QID|42493|M|41.81,60.31|Z|Suramar/24|N|To Image of Kalec.|
 A A Terrible Loss|QID|42520|M|41.81,60.31|Z|Suramar/24|N|From Image of Kalec.|PRE|42493|
-$ Treasure Chest|QID|99999|M|38.65,43.42|Z|Suramar/24|N|Loot Protected Treasure|
+$ Treasure Chest|QID|99999|M|38.65,43.42|Z|Suramar/24|N|Loot Protected Treasure|ACTIVE|42520|
 T A Terrible Loss|QID|42520|M|70.89,55.31|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar.|
 A A Magical Affliction|QID|42707|M|73.41,56.15|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42520|
 A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|

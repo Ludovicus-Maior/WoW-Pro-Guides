@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-11-29 08:05
+-- Who: Emmaleah
+-- Log: Change QID for f Sylvan Falls to the next quest instead of a treasure (skipped on RANK 1)
+
+-- URL: http://wow-pro.com/node/3678/revisions/27998/view
 -- Date: 2016-11-08 06:18
 -- Who: Emmaleah
 -- Log: part 2 of 3 Play thru tweaks. 
@@ -228,7 +233,7 @@ A Dargrul and the Hammer|QID|39027|M|47.32,44.53|Z|Highmountain/5|N|From Warbrav
 C Dargrul and the Hammer|QID|39027|M|66.48,49.66|QO|1|Z|Highmountain/5|NC|N|Follow Warbrave Oro to confront Dargrul. When he encases you in rock, click on it to break free.|
 $ Treasure Chest|QID|40489|M|85.62,38.38|N|There is a Treasure chest up where Dargrul was.  You may have to kill 15-20 mobs to get it, so I'm not sure its worth it. Check off manually if you don't want to go up there.|RANK|3|
 C Dargrul and the Hammer|QID|39027|M|15.25,26.78|QO|2|Z|Highmountain/5|NC|N|Run out of the cavern.|
-f Sylvan Falls|QID|40488|M|35.88,65.93|N|Run past the turn in because it goes to an escort quest. Get the flightpath at Roren Longshadow.|
+f Sylvan Falls|QID|39027|M|35.88,65.93|N|Run past the turn in because it goes to an escort quest. Get the flightpath at Roren Longshadow.|
 $ Treasure Chest|QID|40488|M|36.61,62.13|N|Loot for a bit of treasure and resources.|RANK|2|
 T Dargrul and the Hammer|QID|39027|M|38.60,68.44|N|To Spiritwalker Ebonhorn.|
 A Get to High Ground|QID|38909|M|38.60,68.44|N|From Spiritwalker Ebonhorn.|PRE|39027|

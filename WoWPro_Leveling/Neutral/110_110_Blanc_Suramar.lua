@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-29 06:10
+-- Who: Blanckaert
+-- Log: ~dummy~ removed a comment about having to click off, as Ludo had fixed the Skills thing.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28063/view
+-- Date: 2016-11-29 01:54
+-- Who: Blanckaert
+-- Log: added a buy of a cooking recipe while in Jandvik
+
+-- URL: http://wow-pro.com/node/3687/revisions/28060/view
 -- Date: 2016-11-28 20:25
 -- Who: Emmaleah
 -- Log: fix coords on R To Noressa
@@ -246,16 +256,6 @@
 -- Date: 2016-09-27 04:43
 -- Who: Blanckaert
 -- Log: Added Honoured opening quest, Blood and wine story line.
-
--- URL: http://wow-pro.com/node/3687/revisions/27840/view
--- Date: 2016-09-27 00:44
--- Who: Blanckaert
--- Log: Finished off the quest in Felsoul Hold, and added to guide.  Guide mostly complete to just before honoured level.
-
--- URL: http://wow-pro.com/node/3687/revisions/27839/view
--- Date: 2016-09-26 17:10
--- Who: Blanckaert
--- Log: finished the quests from the city area, no rep for these. Not sure if it progresses the story line
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -739,6 +739,7 @@ C Removing Obstacles|QID|40907|M|69.07,47.26|QO|2|N|Kill Eynar.|
 T Removing Obstacles|QID|40907|M|70.57,48.85|N|To Toryl.|
 A Jarl Come Back Now|QID|40908|M|70.62,48.85|N|From Toryl.|PRE|40907|
 $ Small Treasure Chest|QID|43859|M|71.46,49.77|N|At the top of the tower in front of Toryl.|RANK|2|
+B Recipe: Koi-Scented Stormray|M|71.61,48.87|P|Cooking;185|L|133819|N|From Markus Hjolbruk.|RECIPE|201503|
 T Jarl Come Back Now|QID|40908|M|68.91,54.05|N|To Jarl Throndyr.|
 A Beach Bonfire|QID|40332|M|68.91,54.05|N|From Jarl Throndyr.|PRE|40908|
 A Band of Blood Brothers|QID|40320|M|68.98,54.12|N|From Brandolf.|PRE|40908|
