@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-30 01:23
+-- Who: Blanckaert
+-- Log: date adjustment... moved note line
+
+-- URL: http://wow-pro.com/node/3687/revisions/28072/view
+-- Date: 2016-11-29 22:53
+-- Who: Blanckaert
+-- Log: run guide through game to make sure you have the error 'fixed' before posting.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28071/view
+-- Date: 2016-11-29 22:44
+-- Who: Blanckaert
+-- Log: darn M tag got lost.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28070/view
+-- Date: 2016-11-29 22:41
+-- Who: Blanckaert
+-- Log: ok.. moved that Buy recipe to a better spot (as you can't get it till done that quest chain) Add Pinchshank, and added ALL the quests through 12/21 - with minimal info from Wowhead.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28069/view
 -- Date: 2016-11-29 18:26
 -- Who: Blanckaert
 -- Log: note changes, and added quest from next week.
@@ -235,27 +255,6 @@
 -- Date: 2016-10-05 03:02
 -- Who: Blanckaert
 -- Log: moved quests around a bit, SPLIT Arcanist Kel and Chief Temelance story lines.  Just noticed that masquerade is now in guide twice, will fix next edit, as I combine the two Masquerade sections.
-
--- URL: http://wow-pro.com/node/3687/revisions/27867/view
--- Date: 2016-10-04 09:44
--- Who: Emmaleah
--- Log: Many Minor tweaks. added rares and treasure. Run steps, Leyline quests, etc thru  R Crimson Thicket.
---	Used new Step type "P" a couple of places (not everywhere), Hopefully I didn't overwrite anyone else's changes. 
-
--- URL: http://wow-pro.com/node/3687/revisions/27864/view
--- Date: 2016-10-03 18:16
--- Who: elidion
--- Log: Fixed the errors that would pop up on load of the guide, a few typos, added more detail on some notes, added some |S| tags where appropriate on some quests and shuffled a few quests around in a more appropriate manner. 
-
--- URL: http://wow-pro.com/node/3687/revisions/27861/view
--- Date: 2016-10-02 14:35
--- Who: Blanckaert
--- Log: added a quest group, forgot to add in previous edit.
-
--- URL: http://wow-pro.com/node/3687/revisions/27860/view
--- Date: 2016-10-02 14:31
--- Who: Blanckaert
--- Log: moved a quest group to change flow since you'd go to that area from another quest giver.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -749,7 +748,6 @@ C Removing Obstacles|QID|40907|M|69.07,47.26|QO|2|N|Kill Eynar.|
 T Removing Obstacles|QID|40907|M|70.57,48.85|N|To Toryl.|
 A Jarl Come Back Now|QID|40908|M|70.62,48.85|N|From Toryl.|PRE|40907|
 $ Small Treasure Chest|QID|43859|M|71.46,49.77|N|At the top of the tower in front of Toryl.|RANK|2|
-B Recipe: Koi-Scented Stormray|M|71.61,48.87|P|Cooking;185|L|133819|N|From Markus Hjolbruk.|RECIPE|201503|
 T Jarl Come Back Now|QID|40908|M|68.91,54.05|N|To Jarl Throndyr.|
 A Beach Bonfire|QID|40332|M|68.91,54.05|N|From Jarl Throndyr.|PRE|40908|
 A Band of Blood Brothers|QID|40320|M|68.98,54.12|N|From Brandolf.|PRE|40908|
@@ -820,14 +818,12 @@ T Timing Is Everything|QID|41409|M|70.55,49.12|N|To Brandolf.|RANK|2|
 T Sunken Foes|QID|41425|M|70.55,49.12|N|To Brandolf.|RANK|2|
 A Shatter the Sashj'tar|QID|41001|M|70.59,49.11|N|From Brandolf.|RANK|2|PRE|41409;41425|
 A Squid Out of Water|QID|41499|M|70.59,49.11|N|From Brandolf.|RANK|2|PRE|41409;41425|
-
 R Sashj'tar Ruins|QID|41001|M|81.39,54.08|N|Run over to the Sashj'tar Ruins.|
 C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|S|N|Kill Sashj'tar naga.|RANK|2|
 C Squid Out of Water|QID|41499|M|80.86,56.94|S|NC|N|Destroy Willbreaker Incubators.|RANK|2|
 C Turning the Tidemistress|QID|40336|M|82.39,58.27|QO|1|NC|N|Build Makeshift Ballista.|RANK|2|
 C Turning the Tidemistress|QID|40336|M|82.64,57.77|QO|2|N|Hop in the Ballista and fire at Tidemistress Sashj'tar. When it falls apart, fight her normally.|RANK|2|
 $ Small Treasure Chest|QID|43862|M|83.98,57.64|N|Loot for a bit of treasure and resources.|RANK|2|
-
 C Squid Out of Water|QID|41499|M|80.86,56.94|US|NC|N|Destroy Willbreaker Incubators.|RANK|2|
 C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|US|N|Finish up killing Sashj'tar naga.|RANK|2|
 $ Small Treasure Chest|QID|43863|M|83.12,69.33|N|Run over to the next island and into this small cave for another chest. Loot for a bit of treasure and resources.|RANK|2|
@@ -835,6 +831,7 @@ K Kill King Morgalash|QID|41786|M|87.42,62.35|ITEM|140384|N|Click on the Jandvik
 T Shatter the Sashj'tar|QID|41001|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
+B Recipe: Koi-Scented Stormray|M|71.61,48.87|P|Cooking;185|L|133819|N|From Markus Hjolbruk.|RECIPE|201503|
 H Shal'Aran|QID|44495|M|36.56,46.93|N|Return to Shal'Aran.|
 A Leyline Mastery|QID|44495|M|37.00,46.35|N|From/To Arcanist Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|RANK|2|PRE|44493|
 
@@ -946,9 +943,10 @@ P Portal to Shal'Aran|QID|42487|M|47.74,81.39|N|Take the portal to Shal'Aran.|
 C Friends On the Outside|QID|42487|M|36.88,46.60|CHAT|QO|2|N|Deliver Vanthir's Gift to Thalyssra|
 T Friends On the Outside|QID|42487|M|36.88,46.60|N|To First Arcanist Thalyssra.|
 A Thalyssra's Abode|QID|42488|M|36.88,46.60|N|From First Arcanist Thalyssra.|PRE|42487|
-F Crimson Thicket|QID|42488|M|34.38,49.43|N|Fly to Crimson Thicket at xxx the flightmaster in Meridil.|
+F Crimson Thicket|QID|42488|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
 $ Treasure Chest|QID|43858|M|67.31,55.11|N|Loot for some treasure and resources.|RANK|2|
 R Estate of the First Arcanist|QID|42488|M|65.06,51.12;67.11,57.28;68.14,62.93|CS|N|Run down to Thalyssra's Estate.|
+K Pinchshank|QID|43968|M|66.66,67.13|ITEM|1040402|T|Pinchshank|N|Silver - Kill and loot for treasure and resources, also drops a Hunter's Toy.|RANK|2|
 K Kill Magisterial Sleuths|QID|42488|L|138392 3|S|N|Kill the Sleuth's until you have 3 amplifer fragments.|
 A Thalyssra's Drawers|QID|42489|M|65.70,62.73|N|From Armoire.|RANK|2|
 C Thalyssra's Drawers|QID|42489|M|66.42,63.37|QO|1|NC|N|Pick up Thalyssra's Favorite Robe.|RANK|2|
@@ -1150,8 +1148,6 @@ C Shalassic Park|QID|43582|M|52.02,55.71|QO|2|N|Escape the Menagerie, run the 's
 C Shalassic Park|QID|43582|M|56.05,56.49|QO|3|N|Adversaries slain - trample or eat the demons till you get 50.|RANK|2|
 T Shalassic Park|QID|43582|M|50.71,56.60|N|To Nighteyes, back in the water.|RANK|2|
 R Sanctum of Enlightenment|QID|41216|M|52.06,56.36;49.87,60.16|CS|N|Out of the Managerie, back across the Moonbeam Causeway and into the Sanctum of Enlightenment. Use the teleport pad. and then avoiding Lt. Strathmar(or not) as you pass thru his building.|RANK|2|
-A Bad Apples|QID|41107|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
-A Blast of Spice Fish|QID|41256|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
 
 R Vineyard|QID|42841|M|47.50,50.83|N|From the Sanctum of Enlightenment, run along The Grand Promanade until you arrive at The Vineyard.|RANK|2|
 R Vineyard|QID|42841|M|46.71,73.25;48.05,65.37;49.87,60.16;47.50,50.83|CS|N|Run along the canal and then up a set of stairs, across the Concourse of Destiny and use the Teleport pad at the Sanctum of Enlightenment, continue on the outer ring of the city (Grand Promanade to the Vineyard.|RANK|-1|
@@ -1168,6 +1164,8 @@ A And They Will Tremble|QID|44052|PRE|42792|M|48.37,83.33|N|From Vanthir.|
 P Shal'Aran|QID|44052|M|47.74,81.39|N|Use the portal or hearth.|
 T And They Will Tremble|QID|44052|M|36.91,46.58|N|To First Arcanist Thalyssra.|
 
+A Bad Apples|QID|41107|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
+A Blast of Spice Fish|QID|41256|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
 R Meridil|QID|41107|M|34.39,49.95|N|The fruit and poison can be found out in the South part of Meridil.|RANK|2|
 C Bad Apples|QID|41107|M|38.35,57.15|S|NC|N|Look for the bushes.|RANK|2|
 C Blast of Spice Fish|QID|41256|M|38.35,57.15|N|Kill frogs|RANK|2|
@@ -1549,36 +1547,93 @@ A Fighting on All Fronts|QID|45317|M|54.88,72.87|N|From Archmage Khadgar.|
 C Fighting on All Fronts|QID|45317|N|Use your Class Order Hall Mission table to complete 5 Missions.|
 t Fighting on All Fronts|QID|45317|M|54.88,72.87|N|To Archmage Khadgar.|
 
-; Insurrection - Elisande's Retort - Storyline - Not available yet.
+N Shal'Aran|QID|45267|N|Unknown Quest chains to follow. Quest are in guide, and should show up when available. The info in any quest listed with a date [- 12/06] may or may not work properly.|
 
-A Before the Siege|QID|45267|PRE|45317|M|36.50,46.78|N|From First Arcanist Thalyssra. 12/06|
-C Before the Siege|QID|45267|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee. 12/06|
-T Before the Siege|QID|45267|M|36.50,46.72|N|To First Arcanist Thalyssra. 12/06|
-A Gates of the Nighthold|QID|44736|PRE|45267|M|36.50,46.72|N|From First Arcanist Thalyssra. 12/06|
-T Gates of the Nighthold|QID|44736|M|54.88,72.87|N|To Archmage Khadgar. Location a Guess! 12/06|
-A Temporal Investigations|QID|44822|PRE|44736|N|To Archmage Khadgar. Location a Guess! 12/06|
-C Temporal Investigations|QID|44822|N|Help Khadgar investigate the time Lock. 12/06|
-T Temporal Investigations|QID|44822|N|Unknown Giver/Turn in 12/06|
-A Those Scrying Eyes|QID|45209|PRE|45267|N|Unknown Giver/Turn in 12/06|
-C Those Scrying Eyes|QID|45209|N|Unknown locations. 12/06|
-T Those Scrying Eyes|QID|45209|N|Unknown Giver/Turn in 12/06|
-A Scouting the Breach|QID|44832|PRE|45209|N|Unknown Giver/Turn in 12/06|
-C Scouting the Breach|QID|44832|N|(Optional) Take the Sanctum of Order Teleporter. 12/06|
-C Scouting the Breach|QID|44832|N|Meet with Valtrois below the Sanctum of Order 12/06|
-C Scouting the Breach|QID|44832|N|Clear a path to the barrier beneath the Sanctum of Order 12/06|
-C Scouting the Breach|QID|44832|N|Wait with Valtrois while she examines the barrier. 12/06|
-T Scouting the Breach|QID|44832|N|To Valtrois. 12/06|
-A The Seal's Power|QID|44833|PRE|44832|N|From Valtrois 12/06|
-C The Seal's Power|QID|44833|N|Meet Valtrois in Kel'balor. 12/06|
-C The Seal's Power|QID|44833|N|Protect Valtrois while she investigates the ley line device. 12/06|
-C The Seal's Power|QID|44833|N|Portal to Shal'Aran - will she make one? 12/06|
-T The Seal's Power|QID|44833|N|Unknown Giver/Turn in 12/06|
+; Insurrection - Elisande's Retort - Storyline - 12/06 - Not available yet.
 
-; Insurrection - As Strong As Our Will - Storyline - Not available yet.
+A Before the Siege|QID|45267|PRE|45317|M|36.50,46.78|N|From First Arcanist Thalyssra. - 12/06|
+C Before the Siege|QID|45267|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee. - 12/06|
+T Before the Siege|QID|45267|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/06|
+A Gates of the Nighthold|QID|44736|PRE|45267|M|36.50,46.72|N|From First Arcanist Thalyssra. - 12/06|
+T Gates of the Nighthold|QID|44736|M|54.88,72.87|N|To Archmage Khadgar. Location a Guess! - 12/06|
+A Those Scrying Eyes|QID|45209|PRE|45267|N|Unknown Giver/Turn in - 12/06|
+C Those Scrying Eyes|QID|45209|N|Unknown locations. - 12/06|
+T Those Scrying Eyes|QID|45209|N|Unknown Giver/Turn in - 12/06|
+A Scouting the Breach|QID|44832|PRE|45209|N|Unknown Giver/Turn in - 12/06|
+C Scouting the Breach|QID|44832|N|(Optional) Take the Sanctum of Order Teleporter. - 12/06|
+C Scouting the Breach|QID|44832|N|Meet with Valtrois below the Sanctum of Order - 12/06|
+C Scouting the Breach|QID|44832|N|Clear a path to the barrier beneath the Sanctum of Order - 12/06|
+C Scouting the Breach|QID|44832|N|Wait with Valtrois while she examines the barrier. - 12/06|
+T Scouting the Breach|QID|44832|N|To Valtrois. - 12/06|
+A The Seal's Power|QID|44833|PRE|44832|N|From Valtrois - 12/06|
+C The Seal's Power|QID|44833|N|Meet Valtrois in Kel'balor. - 12/06|
+C The Seal's Power|QID|44833|N|Protect Valtrois while she investigates the ley line device. - 12/06|
+C The Seal's Power|QID|44833|N|Portal to Shal'Aran - will she make one? - 12/06|
+T The Seal's Power|QID|44833|N|Unknown Giver/Turn in - 12/06|
 
-; Insurrection - Breaking the Highthold - Storyline - Not available yet.
+; Insurrection - As Strong As Our Will - Storyline - 12/13 - Not available yet.
 
-N Shal'Aran|N|Unknown Quest chain to follow, not available at this time, Guide completed until 12/06/2016|
+A The Advisor and the Arcanist|QID|45268|PRE|44833|M|36.50,46.78|N|From First Arcanist Thalyssra. - 12/13|
+C The Advisor and the Arcanist|QID|45268|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee. - 12/13|
+T The Advisor and the Arcanist|QID|45268|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/13|
+A A Message From Our Enemies|QID|44918|PRE|45268|M|36.50,46.72|N|From First Arcanist Thalyssra. - 12/13|
+C A Message From Our Enemies|QID|44918|M|36.50,46.72|N|Listen to Andaris's Message. - 12/13|
+T A Message From Our Enemies|QID|44918|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/13|
+A A Challenge From Our Enemies|QID|44919|PRE|44918|M|36.50,46.72|N|From First Arcanist Thalyssra. - 12/13|
+P Lunastre Estate|QID|44919|ACTIVE|44919|M|36.17,45.06|N|Take portal to the Estate. - 12/13|
+C A Challenge From Our Enemies|QID|44919|M|36.50,46.72|S|N|Rescue the Terrified Citizens. - 12/13|
+C A Challenge From Our Enemies|QID|44919|M|43.23,76.33|N|Confront Andaris. - 12/13|
+C A Challenge From Our Enemies|QID|44919|M|36.50,46.72|US|N|Rescue the Terrified Citizens. - 12/13|
+T A Challenge From Our Enemies|QID|44919|M|36.50,46.72|N|To Unknown. - 12/13|
+A The Felsoul Experiments|QID|45063|PRE|44919|N|From Unknown. - 12/13|
+P Felsoul Hold|QID|45063|ACTIVE|45063|M|36.11,45.74|N|Take portal to Felsoul Hold. - 12/13|
+C The Felsoul Experiments|QID|45063|N|Shard 1 destroyed. - 12/13|
+C The Felsoul Experiments|QID|45063|N|Shard 2 destroyed. - 12/13|
+C The Felsoul Experiments|QID|45063|N|Shard 3 destroyed. - 12/13|
+C The Felsoul Experiments|QID|45063|N|Shards destroyed. - 12/13|
+T The Felsoul Experiments|QID|45063|N| Turn in??  - 12/13|
+A Resisting Arrest|QID|45062|PRE|44919|N|From Unknown - 12/13|
+C Resisting Arrest|QID|45062|N|Power sorce disabled - - 12/13|
+T Resisting Arrest|QID|45062|N|To Unknown - 12/13|
+A Telemantic Expanse|QID|45067|PRE|44919|N|From Unknown - 12/13|
+T Telemantic Expanse|QID|45067|M|36.63,45.08|N|To Chief Telemancer Oculeth. - 12/13|
+A Survey the City|QID|45065|PRE|45067|M|36.63,45.08|N|From Chief Telemancer Oculeth. - 12/13|
+P Evermoon Terrace|QID|45065|ACTIVE|45065|M|36.50,44.78|N|Take Portal to City - 12/13|
+C Survey the City|QID|45065|N|Survey Terrace of Order - 12/13|
+C Survey the City|QID|45065|N|Credit Check - 12/13|
+T Survey the City|QID|45065|N|TO Unknown Turn-in - 12/13|
+A Experimental Instability|QID|45066|PRE|45065|M|36.63,45.08|N|From Chief Telemancer Oculeth. - 12/13|
+P Experimental Instability|QID|45066|ACTIVE|45066|N|Take Portal to Oculeth's Test Chamber - 12/13|
+C Experimental Instability|QID|45066|N|Find Telemancy Notes - 12/13|
+C Experimental Instability|QID|45066|N|Find Discarded Orbs - 12/13|
+P Experimental Instability|QID|45066|ACTIVE|45066|N|Take portal back to Shal'Aran (Optional) - 12/13|
+T Experimental Instability|QID|45066|M|36.63,45.08|N|To Chief Telemancer Oculeth. - 12/13|
+A Felborne No More|QID|45064|PRE|45066|M|36.50,46.78|N|From First Arcanist Thalyssra. - 12/13|
+F Crimson Thicket|QID|45064|ACTIVE|45064|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing. - 12/13|
+C Felborne No More|QID|45064|N|Kill Felborne - 12/13|
+C Felborne No More|QID|45064|N|Kill Valthis Ama'ran - 12/13|
+T The Advisor and the Arcanist|QID|45064|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/13|
+
+; Insurrection - Breaking the Highthold - Storyline - 12/20 - Not available yet.
+
+A Insurrection: Breaking the Highthold|QID|45287|PRE|45064|N| UI Alert? Khadgar? - 12/20|
+T Insurrection: Breaking the Highthold|QID|45287|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/20|
+A A Taste of Freedom|QID|45269|PRE|45287|M|36.50,46.78|N|From First Arcanist Thalyssra. - 12/20|
+C A Taste of Freedom|QID|45269|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee. - 12/20|
+T A Taste of Freedom|QID|45269|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/20|
+A I'll Just Leave This Here|QID|44964|PRE|45269|M|36.50,46.72|N|From First Arcanist Thalyssra - 12/20|
+C I'll Just Leave This Here|QID|44964|N|Teloth'aran Disruptor Placed - 12/20|
+C I'll Just Leave This Here|QID|44964|N|Kel'balor Disruptor Placed - 12/20|
+C I'll Just Leave This Here|QID|44964|N|Elor'shan Disruptor Placed - 12/20|
+T I'll Just Leave This Here|QID|44964|N|Unknown turn-in - 12/20|
+A Breaching the Sanctun|QID|44719|PRE|44964|N| Unknown who gives - 12/20|
+C Breaching the Sanctun|QID|44719|N|Talk to Oculeth - 12/20|
+P Breaching the Sanctun|QID|44719|ACTIVE|44719|N|Take Portal to (wherever) - 12/20|
+C Breaching the Sanctun|QID|44719|N|Secure The Breach - 12/20|
+T Breaching the Sanctun|QID|44719|N| Unknown Turn-in - 12/20|
+A Lord of the Shadow Council|QID|45417|PRE|44719|N|Unknown Giver - 12/20|
+C Lord of the Shadow Council|QID|45417|N|Kill Gul'dan - 12/20|
+T Lord of the Shadow Council|QID|45417|N| Unknown Turnin - 12/20|
 
 ]]
 
