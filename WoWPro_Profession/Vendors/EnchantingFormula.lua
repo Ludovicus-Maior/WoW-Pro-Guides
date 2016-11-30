@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/enchanting_formulas
+-- Date: 2016-11-30 20:25
+-- Who: Ludovicus
+-- Log: Fix single section error.
+
+-- URL: http://wow-pro.com/node/3568/revisions/27780/view
 -- Date: 2016-09-14 18:18
 -- Who: Ludovicus
 -- Log: Dalaran City@Dalaran
@@ -288,6 +293,6 @@ B Enchant Cloak - Minor Agility|QID|990013419|RECIPE|13419|M|35.10,52.10|Z|Ashen
 B Enchant Cloak - Minor Agility|QID|990013419|RECIPE|13419|M|48.60,61.60|Z|Stonetalon Mountains|FACTION|Horde|P|Enchanting;333;110|N|Sold by Kulwia in Stonetalon Mountains.|
 B Enchant Cloak - Greater Speed|QID|990047898|RECIPE|47898|M|38.70,40.80|Z|Dalaran City@Dalaran|P|Enchanting;333;430|N|Sold by Vanessa Sellers in Dalaran.\nBind on Pickup.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)

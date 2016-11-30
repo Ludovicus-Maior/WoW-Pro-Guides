@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/jewelcrafting_designs
+-- Date: 2016-11-30 20:24
+-- Who: Ludovicus
+-- Log: Fix single section error.
+
+-- URL: http://wow-pro.com/node/3571/revisions/27778/view
 -- Date: 2016-09-14 18:13
 -- Who: Ludovicus
 -- Log: Dalaran City@Dalaran
@@ -1337,6 +1342,6 @@ B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|56.70,36.90|Z|Unde
 B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|45.90,24.90|Z|The Exodar|FACTION|Alliance|P|Jewelcrafting;755;490|N|Sold by Arred in The Exodar.\nBind on Pickup.|
 B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|54.40,30.70|Z|Darnassus|FACTION|Alliance|P|Jewelcrafting;755;490|N|Sold by Tarien Silverdew in Darnassus.\nBind on Pickup.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)

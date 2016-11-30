@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/engineering_schematics
+-- Date: 2016-11-30 20:24
+-- Who: Ludovicus
+-- Log: Fix single section error.
+
+-- URL: http://wow-pro.com/node/3569/revisions/25896/view
 -- Date: 2014-02-14 00:14
 -- Who: Ludovicus
 
@@ -88,6 +93,6 @@ B Extreme-Impact Hole Puncher|QID|990100687|RECIPE|100687|M|47.00,90.60|Z|Molten
 B Large Blue Rocket|QID|990026420|RECIPE|26420|M|54.00,35.40|Z|Moonglade|P|Engineering;202;175|N|Sold by Fariel Starsong in Moonglade.\nBind on Pickup.|
 B Small Blue Rocket|QID|990026416|RECIPE|26416|M|54.00,35.40|Z|Moonglade|P|Engineering;202;125|N|Sold by Fariel Starsong in Moonglade.\nBind on Pickup.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)

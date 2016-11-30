@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/leatherworking_patterns
+-- Date: 2016-11-30 20:24
+-- Who: Ludovicus
+-- Log: Fix single section error.
+
+-- URL: http://wow-pro.com/node/3572/revisions/27777/view
 -- Date: 2016-09-14 17:51
 -- Who: Ludovicus
 -- Log: Dalaran City@Dalaran
@@ -650,6 +655,6 @@ B Vicious Dragonscale Bracers|QID|990078450|RECIPE|78450|M|70.00,58.50|Z|Underci
 B Vicious Dragonscale Bracers|QID|990078450|RECIPE|78450|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Dragonscale Bracers|QID|990078450|RECIPE|78450|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Mak in Thunder Bluff|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)

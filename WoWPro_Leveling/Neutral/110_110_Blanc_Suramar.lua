@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-11-30 12:21
+-- Who: Blanckaert
+-- Log: added a P step, and changed note about the quests in log with a date.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28073/view
 -- Date: 2016-11-30 01:23
 -- Who: Blanckaert
 -- Log: date adjustment... moved note line
@@ -250,11 +255,6 @@
 -- Date: 2016-10-05 03:24
 -- Who: Blanckaert
 -- Log: ok I think I fixed the switch around (double) of quests. Also moved three quest around in the Felsoul area.
-
--- URL: http://wow-pro.com/node/3687/revisions/27875/view
--- Date: 2016-10-05 03:02
--- Who: Blanckaert
--- Log: moved quests around a bit, SPLIT Arcanist Kel and Chief Temelance story lines.  Just noticed that masquerade is now in guide twice, will fix next edit, as I combine the two Masquerade sections.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1545,9 +1545,10 @@ C Staging Point|QID|44740|M|54.47,69.43|QO|1|N|Click on Telemancy Beacon to acti
 T Staging Point|QID|44740|M|54.88,72.87|N|To Archmage Khadgar.|
 A Fighting on All Fronts|QID|45317|M|54.88,72.87|N|From Archmage Khadgar.|
 C Fighting on All Fronts|QID|45317|N|Use your Class Order Hall Mission table to complete 5 Missions.|
+P Astravar Harbor|QID|45317|ACTIVE|45317|M|36.76,45.04|N|Portal to the Harbor.|
 t Fighting on All Fronts|QID|45317|M|54.88,72.87|N|To Archmage Khadgar.|
 
-N Shal'Aran|QID|45267|N|Unknown Quest chains to follow. Quest are in guide, and should show up when available. The info in any quest listed with a date [- 12/06] may or may not work properly.|
+N Shal'Aran|QID|45267|N|Quests for the next three weeks are in guide. The info for any quest listed with a date [- 12/06] is incomplete, and may not work properly.|
 
 ; Insurrection - Elisande's Retort - Storyline - 12/06 - Not available yet.
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alchemy_recipies
+-- Date: 2016-11-30 20:25
+-- Who: Ludovicus
+-- Log: Fix single section error.
+
+-- URL: http://wow-pro.com/node/3565/revisions/27782/view
 -- Date: 2016-09-14 18:28
 -- Who: Ludovicus
 -- Log: Dalaran City@Dalaran
@@ -97,6 +102,6 @@ B Frost Protection Potion|QID|990007258|RECIPE|7258|M|42.60,74.90|Z|The Cape of 
 B Elixir of Major Frost Power|QID|990028549|RECIPE|28549|M|67.80,48.00|Z|Zangarmarsh|FACTION|Alliance|P|Alchemy;171;320|N|Limited quantity sold by Haalrun in Zangarmarsh.|
 B Elixir of Major Frost Power|QID|990028549|RECIPE|28549|M|32.40,51.90|Z|Zangarmarsh|FACTION|Horde|P|Alchemy;171;320|N|Limited quantity sold by Seer Janidi in Zangarmarsh.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/inscription_techniques
+-- Date: 2016-11-30 20:24
+-- Who: Ludovicus
+-- Log: Fix single section error.
+
+-- URL: http://wow-pro.com/node/3570/revisions/27788/view
 -- Date: 2016-09-14 19:29
 -- Who: Ludovicus
 -- Log: Missed one Dalaran City@Dalaran
@@ -31,6 +36,6 @@ B Glyph of Counterspell|QID|990071101|RECIPE|71101|M|42.30,37.50|Z|Dalaran City@
 B Glyph of Colossus Smash|QID|990089815|RECIPE|89815|M|78.60,76.20|Z|Twilight Highlands|FACTION|Alliance|P|Inscription;773;465|N|Sold by Casandra Downs in Twilight Highlands.|
 B Glyph of Colossus Smash|QID|990089815|RECIPE|89815|M|76.60,49.40|Z|Twilight Highlands|FACTION|Horde|P|Inscription;773;465|N|Sold by Una Kobuna in Twilight Highlands.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/blacksmithing_plans
+-- Date: 2016-11-30 20:25
+-- Who: Ludovicus
+-- Log: Fix single section error.
+
+-- URL: http://wow-pro.com/node/3566/revisions/26948/view
 -- Date: 2014-11-08 20:21
 -- Who: Ludovicus
 -- Log: Update the Shrines
@@ -538,6 +543,6 @@ B Adamantite Dagger|QID|990029569|RECIPE|29569|M|80.30,36.10|Z|Silvermoon City|F
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|60.00,89.50|Z|Thunder Bluff|FACTION|Alliance|P|Blacksmithing;164;330|N|Limited quantity sold by Arras in Thunder Bluff.|
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|63.10,71.10|Z|Shattrath City|P|Blacksmithing;164;330|N|Limited quantity sold by Aaron Hollman in Shattrath City.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
