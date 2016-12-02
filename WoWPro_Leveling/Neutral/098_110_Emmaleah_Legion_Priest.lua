@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-12-02 03:09
+-- Who: Blanckaert
+-- Log: added a few missing ACTIVE tags
+
+-- URL: http://wow-pro.com/node/3674/revisions/28049/view
 -- Date: 2016-11-24 03:16
 -- Who: Emmaleah
 -- Log: correct coords for image of Kalec
@@ -196,8 +201,8 @@ T Problem Salver|QID|43376|M|47.11,43.98|Z|Azsuna|N|To Yalia Sagewhisper.|LVL|10
 A Champion: Yalia Sagewhisper|QID|42137|M|47.11,43.98|Z|Azsuna|N|To/From Yalia Sagewhisper.|PRE|43376|LVL|103|
 A Champion: Zabra Hexx.|QID|42138|M|47.20,44.00|Z|Azsuna|N|To/From Zabra Hexx.|PRE|43376|LVL|103|
 A Looking Through the Lens|QID|43378|M|47.11,43.98|Z|Azsuna|N|From Yalia Sagewhisper. This is an instance/group quest.|PRE|42137|LVL|103|
-t Looking Through the Lens|QID|43378|M|47.78,47.62|N|To Prophet Velen.|
-A Velen's Vision|QID|43379|M|47.78,47.62|N|From Prophet Velen.|PRE|43376|
+t Looking Through the Lens|QID|43378|M|47.78,47.62|Z|NetherlightTemple/1|N|To Prophet Velen.|
+A Velen's Vision|QID|43379|M|47.78,47.62|N|From Prophet Velen.|PRE|43378|
 C Velen's Vision|QID|43379|QO|1|M|47.78,47.62|CHAT|N|Tell Prophet Velen you are ready to begin.|
 C Velen's Vision|QID|43379|QO|2|M|49.75,36.64|NC|N|Click on the lens of the tides (yellow orb).|
 T Velen's Vision|QID|43379|M|47.78,47.62|N|To Prophet Velen.|
@@ -310,8 +315,8 @@ C A Hero's Weapon|QID|43420|M|49.74,18.77|N|Stand in the circle of light and use
 T A Hero's Weapon|QID|43420|M|48.50,20.22|N|To Alonsus Faol.|
 
 A The Power Within|QID|43496|M|49.68,16.98|N|From Image of Kalec. prereq seems to be AK>=10 and finishing class hall campaign. (maybe... much discussion on wowhead)|;guessing at location. I havent gotten the quest yet
-P Dalaran|QID|43496|M|49.72,80.67|N|Take the portal to Dalaran from your order hall.|
-F Azurewing Repose|QID|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+P Dalaran|QID|43496|ACTIVE|43496|M|49.72,80.67|N|Take the portal to Dalaran from your order hall.|
+F Azurewing Repose|QID|43496|ACTIVE|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
 T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
 A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
@@ -394,7 +399,7 @@ A In My Father's House|QID|44480|M|49.64,26.41|N|From Light's Heart. Requires Ar
 P Dalaran|QID|44480|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44480|
 R Graymane Enclave|QID|44480|M|47.2,17.8|Z|Dalaran@Dalaran70|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|44480|
 R Windrunner's Sanctuary|QID|44480|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|44480|
-R Temple of Zin-Malor - Azshara|QID|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|
+R Temple of Zin-Malor - Azshara|QID|44480|ACTIVE|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
 T In My Father's House|QID|44480|M|49.64,26.41|N|Return to Light's Heart in your order hall.|
 A Destiny Unfulfilled|QID|44481;44496;44497|M|49.64,26.41|N|From Light's Heart.|PRE|44480|
