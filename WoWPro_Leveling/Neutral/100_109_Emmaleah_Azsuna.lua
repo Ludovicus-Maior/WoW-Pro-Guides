@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-12-03 16:19
+-- Who: Blanckaert
+-- Log: Fixed wrong QID for Hard times, had 39948 should've been 38948, fixed PRE tag too.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28051/view
 -- Date: 2016-11-24 16:07
 -- Who: Blanckaert
 -- Log: Removed dupes of QID 37832, 37932, and 37932
@@ -543,7 +548,7 @@ R The Empyrean Society Enclave|QID|38419|M|63.54,33.2|N|Take the road to the lef
 R The Greenway|QID|38419|M|62.56,34.56|N|Side jaunt for a Silver and 3 chests.|RANK|3|
 T Consult the Locals|QID|38946|M|60.00,34.48|N|To Lyndras.|P|Tailoring;197|LVL|102|
 A Runic Catgut|QID|38947|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197|LVL|102|PRE|38946|
-A Hard Times|QID|39948|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197|LVL|102|PRE|38948|
+A Hard Times|QID|38948|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197|LVL|102|PRE|38946|
 $ Treasure Chest|QID|38419|M|57.15,31.06|N|Loot for a bit of treasure and resources.|RANK|3|
 C Runic Catgut|QID|38947|M|57,31|S|N|Kill cats until you collect the catgut needed.|P|Tailoring;197|LVL|102|
 K Kill Pridelord Meowl|QID|38061|QO|1|M|56.05,28.91|T|Pridelord Meowl|ITEM|138395|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|3|
