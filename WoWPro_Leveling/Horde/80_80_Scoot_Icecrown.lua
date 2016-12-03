@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2016-12-02 23:16
+-- Who: tubera
+-- Log:  overall cleanup.
+
+-- URL: http://wow-pro.com/node/3302/revisions/28056/view
 -- Date: 2016-11-27 14:57
 -- Who: tubera
 -- Log: More fixes (part 2). Stopped at The Flesh Giant Champion. (It was bugged, but apparently not always is, so I'll continue another time)
@@ -301,184 +306,189 @@ C Putting Olakin Back Together Again|QID|13220|N|Reanimate Olakin at the slab ab
 T Putting Olakin Back Together Again|QID|13220|N|To Darkrider Arly.|M|35.46,66.49|
 
 A The Flesh Giant Champion|QID|13235|N|From Darkrider Arly.|M|35.46,66.49|
-C The Flesh Giant Champion|QID|13235|N|Talk to Margrave Dhakar to start. Hopefully they will tank him, if not you might be on your own. This quest may sometimes bug out making it impossible to talk to Margrave unavailable.|M|29.78,61.22|
+C The Flesh Giant Champion|QID|13235|N|Talk to Margrave Dhakar to start. Hopefully they will tank him, if not you might be on your own. This quest may sometimes bug out making it impossible to talk to Margrave.|M|29.78,61.22|
 
-A Let's Get Out of Here! |QID|13481|N|Father Kamaros is at .|M|31.72,64.81|
-C Let's Get Out of Here! |QID|13481|N|Easy escort. Most of the mobs will be fighting someone else.|
-T The Flesh Giant Champion |QID|13235|N|Darkrider Arly .|M|35.46,66.49|
-T Let's Get Out of Here! |QID|13481|N|Back to Orgrim's Hammer. Brother Keltan patrols around the upper and lower decks.|
+A Let's Get Out of Here!|QID|13481|N|Wacort quest from Father Kamaros.|M|31.72,64.81|
+C Let's Get Out of Here!|QID|13481|N|Easy escort. Most of the mobs will be fighting someone else.|
+T The Flesh Giant Champion|QID|13235|N|To Darkrider Arly.|M|35.46,66.49|
+T Let's Get Out of Here!|QID|13481|N|Back to Orgrim's Hammer. Brother Keltan patrols around the upper and lower decks.|
 
-A Judgment Day Comes! |QID|13227|N|Brother Keltan patrols around the upper and lower decks.|
-F The Argent Vanguard |QID|13227|N|.|M|86,76|
-T Judgment Day Comes! |QID|13227|N| Highlord Tirion Fordring at the Argent Vanguard. |M|87.48,75.86|
+A Judgment Day Comes!|QID|13227|N|Brother Keltan patrols around the upper and lower decks.|
+F The Argent Vanguard|QID|13227|N|Fly to the Argent Vanguard.|M|86,76|
+T Judgment Day Comes!|QID|13227|N|To Highlord Tirion Fordring at the Argent Vanguard.|M|87.48,75.86|
 
-A Honor Above All Else |QID|13036|
-T Honor Above All Else |QID|13036|N|Just below at |M|87.06,75.87|
+A Honor Above All Else|QID|13036|N|From Highlord Tirion Fordring.|M|87.48,75.86|
+T Honor Above All Else|QID|13036|N|To Crusade Commander Entari.|M|87.06,75.87|
 
-A Scourge Tactics |QID|13008|
+A Scourge Tactics|QID|13008|N|From Crusade Commander Entari.|M|87.06,75.87|
 
-A Curing The Incurable |QID|13040|N|Father Gustav patrols the infirmary .|M|86.7,76.6|
-f Argent Vanguard |QID|13008|N|Get the Flight Path in the SE corner .|M|87.76,78.02|
+A Curing The Incurable|QID|13040|N|From Father Gustav patrolling the infirmary.|M|86.7,76.6|
+f Argent Vanguard|QID|13008|N|Get the Flight Path from Aedan Moran in the SE corner.|M|87.76,78.02|
 
-A Defending The Vanguard |QID|13039|N|Near North front gate. Crusader Lord Dalfors |M|86.08,75.77|
-N Skinning |QID|13070|N|If you are a Skinner, this is a great place to farm Nerubian Leather, but the Spiders will phase out in a few quests.|
-C Curing The Incurable |QID|13040|N|Go to the Valley of Echoes . Kill spiders to get the Venom Sacs. Free guys from the webs while you're there.|M|84,75|
-C Defending The Vanguard |QID|13039|N|Kill any more you need.|
-C Scourge Tactics |QID|13008|N|Keep opening the webs until you're done.|
-T Defending The Vanguard |QID|13039|N|Crusader Lord Dalfors |M|86.08,75.77|
-T Curing The Incurable |QID|13040|N|Father Gustav .|M|86.7,76.6|
-T Scourge Tactics |QID|13008|N|Highlord Tirion Fordring |M|87.48,75.86|
+A Defending The Vanguard|QID|13039|N|From Crusader Lord Dalfors near North front gate.|M|86.08,75.77|
+N Skinning|QID|13070|N|This is a great place to farm Nerubian Leather, but the Spiders will phase out in a few quests.|P|Skinning;393|
 
-A If There Are Survivors... |QID|13044|
-T If There Are Survivors... |QID|13044|N|At the dragon stables.|
+C Defending The Vanguard|QID|13039|N|Kill Forgotten Depths Nerubians.|S|
+C Scourge Tactics|QID|13008|N|Open webs to free the Crusaders.|S|
+C Curing The Incurable|QID|13040|N|Go to the Valley of Echoes. Kill spiders to get the Venom Sacs. Free guys from the webs while you're there.|M|84,75|
+C Scourge Tactics|QID|13008|N|Keep opening the webs until you're done.|US|
+C Defending The Vanguard|QID|13039|N|Finish killing Forgotten Depths Nerubians.|US|
 
-A Into The Wild Green Yonder |QID|13045|
-C Into The Wild Green Yonder |QID|13045|N|Mount one of the drakes, fly to Scougeholme  and rescue a captive. Fly back to the bonfire in the infirmary and release him. Repeat 2 more times.|M|78,66|
-T Into The Wild Green Yonder |QID|13045|N|Highlord Tirion Fordring |M|87.48,75.86|
+T Defending The Vanguard|QID|13039|N|To Crusader Lord Dalfors.|M|86.08,75.77|
+T Curing The Incurable|QID|13040|N|To Father Gustav.|M|86.7,76.6|
+T Scourge Tactics|QID|13008|N|To Crusade Commander Entari.|M|87.48,75.86|
 
-A A Cold Front Approaches |QID|13070|
-N Skinning |QID|13070|N|When you turn in this quest the area will be in a battle. This is your last chance for easy Nerubian Leather. Turning in the next quest (The Last Line Of Defense) phases out the spiders.|
-T A Cold Front Approaches |QID|13070|N|He's in the building to the left of the gate.|
+A If There Are Survivors...|QID|13044|N|From Crusade Commander Entari.|M|87.06,75.87|
+T If There Are Survivors...|QID|13044|N|To Penumbrius at the dragon stables.|M|87.02,79.01|
 
-A The Last Line Of Defense |QID|13086|
-C The Last Line Of Defense |QID|13086|N|Fly up to the top of the towers and use the cannons to kill spiders. When you get the message, use the big bomb to kill the dragons.|
-T The Last Line Of Defense |QID|13086|
+A Into The Wild Green Yonder|QID|13045|N|From Penumbrius.|M|87.02,79.01|
+C Into The Wild Green Yonder|QID|13045|N|Mount one of the drakes, fly to Scougeholme  and rescue a captive. Fly back to the bonfire in the infirmary and release him. Repeat 2 more times.|M|78,66;86.71,76.64|CN|
+T Into The Wild Green Yonder|QID|13045|N|To Highlord Tirion Fordring.|M|87.48,75.86|
 
-A Once More Unto The Breach, Hero |QID|13105|
-T Once More Unto The Breach, Hero |QID|13105|N|He's just outside The Breach on the left. |M|83.06,72.91|
+A A Cold Front Approaches|QID|13070|N|From Highlord Tirion Fordring.|M|87.48,75.86|
+N Skinning|QID|13070|N|When you turn in this quest the area will be in a battle. This is your last chance for easy Nerubian Leather. Turning in the next quest (The Last Line Of Defense) phases out the spiders.|P|Skinning;393|
+T A Cold Front Approaches|QID|13070|N|To Siegemaster Fezzik in the building to the left of the gate.|M|85.62,76.01|
 
-A The Purging Of Scourgeholme |QID|13118|
-A The Scourgestone |QID|13122|
+A The Last Line Of Defense|QID|13086|N|From Siegemaster Fezzik.|M|85.62,76.01|
+C The Last Line Of Defense|QID|13086|N|Fly up to the top of the towers and use the cannons to kill spiders. When you get the message, use the big bomb to kill the dragons.|
+T The Last Line Of Defense|QID|13086|N|To Siegemaster Fezzik.|M|85.62,76.01|
 
-A It Could Kill Us All |QID|13135|
+A Once More Unto The Breach, Hero|QID|13104;13105|N|From Highlord Tirion Fordring who moved down.|M|85.98,75.82|
+T Once More Unto The Breach, Hero|QID|13104;13105|N|To The Ebon Watcher just outside The Breach on the left.|M|83.06,72.91|
 
-A The Stone That Started A Revolution |QID|13130|
+A The Purging Of Scourgeholme|QID|13118|N|From The Ebon Watcher.|M|83.06,72.91|
+A The Scourgestone|QID|13122|N|From The Ebon Watcher.|M|83.06,72.91|
+A It Could Kill Us All|QID|13135|N|From Crusade Engineer Spitzpatrick.|M|82.99,73.05|
+A The Stone That Started A Revolution|QID|13130|N|From Crusade Architect Silas|M|83.02,73.05|
+A The Restless Dead|QID|13110|N|From Father Gustav inside the building|M|82.89,72.79|
+C The Scourgestone|QID|13122|N|Loot scourgestones.|S|
+C The Restless Dead|QID|13110|N|Kill the Scourge Skeletons and use the Holy Water on their corpses.|S|U|43153|
+C The Purging Of Scourgeholme|QID|13118|N|Kill scourge. There are 2 High Priests near , you can find the other one ane the Underkings while wandering around.|M|70.80,60.17|
+C The Restless Dead|QID|13110|N|Kill the Scourge Skeletons and use the Holy Water on their corpses.|US|U|43153|
+C The Scourgestone|QID|13122|N|Keep killing mobs until you're done.|US|
+F Ruins of Shandaral|QID|13135|N|Head over to the Ruins of Shandaral in Crystalsong Forest.|Z|Crystalsong Forest|M|80,62|
+C It Could Kill Us All|QID|13135|N|Kill mobs for Crystalized Energy.|S|
+C The Stone That Started A Revolution|QID|13130|N|Collect Heartwood and Masonry.|
+C It Could Kill Us All|QID|13135|N|Kill mobs for Crystalized Energy.|US|
+f Sunreaver's Command|QID|13135|N|Get the Flight Path at Sunreaver's Command.|Z|Crystalsong Forest|M|78.48,50.24|
+T It Could Kill Us All|QID|13135|N|To Crusade Engineer Spitzpatrick in the Valley of Echoes.|M|83.06,72.91|
+T The Stone That Started A Revolution|QID|13130|N|To Crusade Architect Silas|M|83.02,73.05|
+T The Purging Of Scourgeholme|QID|13118|N|To The Ebon Watcher.|M|83.06,72.91|
+T The Scourgestone|QID|13122|N|To The Ebon Watcher.|M|83.06,72.91|
+A The Air Stands Still|QID|13125|N|From The Ebon Watcher.|M|83.06,72.91|
+T The Restless Dead|QID|13110|N|From Father Gustav.|M|82.89,72.79|
+K High Priest Yath'amon|N|He's in the building. Get close (10-15 yards) and blow the horn. The DK you summon will get aggro in a few seconds. Make sure you hit him first to get kill credit.  There are 4 mobs in the room with him, you may want to clear them, he casts fear.|QID|13125|QO|3|U|43206|M|80.07,61.16|
+K Salranax the Flesh Render|N|He's in the building. There is 1 mob with him that patrols in a circle. Same plan as before.|QID|13125|QO|1|U|43206|M|77.35,61.87|
+C The Air Stands Still|QID|13125|QO|2|N|Kill Underking Talonox.|U|43206|M|76.46,53.24|
+T The Air Stands Still|QID|13125|N|Use the gate to port back to the Valley of Echoes. To The Ebon Watcher.|
 
-A The Restless Dead |QID|13110|N|Inside the building|
-C The Restless Dead |QID|13110|N|Kill the Scourge Skeletons and use the Holy Water on their corpses. Loot them for Scourgestones also.|
-C The Purging Of Scourgeholme |QID|13118|N|Keep killing mobs until you're done. There are 2 High Priests near , you can find the other one ane the Underkings while wandering around.|M|70.80,60.17|
-C The Scourgestone |QID|13122|N|Keep killing mobs until you're done.|
-F Ruins of Shandaral |QID|13135|N|Head over to the Ruins of Shandaral in Crystalsong Forest .|Z|Crystalsong Forest|M|80,62|
-C It Could Kill Us All |QID|13135|N|Kill mobs for Crystalized Energy. Look around on the ground for Ancient Elven Masonry and Crystalized Heartwood.|
-C The Stone That Started A Revolution |QID|13130|N|Collect any more Heartwood and Masonry you need.|
-f Sunreaver's Command |QID|13135|N|Get the Flight Path at Sunreaver's Command. |Z|Crystalsong Forest|M|78.48,50.24|
-T It Could Kill Us All |QID|13135|N|Back to the Valley of Echoes. |M|83.06,72.91|
-T The Stone That Started A Revolution |QID|13130|
-T The Purging Of Scourgeholme |QID|13118|
-T The Scourgestone |QID|13122|
+A Into The Frozen Heart Of Northrend|QID|13139|N|From Father Gustav.|M|82.89,72.79|
+T Into The Frozen Heart Of Northrend|QID|13139|N|From Highlord Tirion Fordring.|M|86.08,75.77|
 
-A The Air Stands Still |QID|13125|
-T The Restless Dead |QID|13110|
-K High Priest Yath'amon |N|He's in the building at . Get close (10-15 yards) and blow the horn. The DK you summon will get aggro in a few seconds. Make sure you hit him first to get kill credit.  There are 4 mobs in the room with him, you may want to clear them, he casts fear.|QID|13125|QO|High Priest Yath'amon slain: 1/1|U|43206|M|80.07,61.16|
-K Salranax the Flesh Render |N|He's in the building at . There is 1 mob with him that patrols in a circle. Same plan as before.|QID|13125|QO|Salranax the Flesh Render slain: 1/1|U|43206|M|77.35,61.87|
-C The Air Stands Still |QID|13125|N|Underking Talonox is at .|  |U|43206|M|76.46,53.24|
-T The Air Stands Still |QID|13125|N|Use the gate to port back to the Valley of Echoes.|
+A The Battle For Crusaders' Pinnacle|QID|13141|N|To Highlord Tirion Fordring.|M|86.08,75.77|
+C The Battle For Crusaders' Pinnacle|QID|13141|N|The pile of skulls is at. Plant the banner and get ready to defend it. There will be several waves of mobs followed by an Elite. Kill them all.|U|43243|M|80.08,71.95|
+T The Battle For Crusaders' Pinnacle|QID|13141|N|Back to Father Gustav in the building at the camp in the Valley of Echoes.|M|82.89,72.79|
 
-A Into The Frozen Heart Of Northrend |QID|13139|N|Inside the building.|
-T Into The Frozen Heart Of Northrend |QID|13139|N|Highlord Tirion Fordring .|M|86.08,75.77|
+A The Crusaders' Pinnacle|QID|13157|N|From Father Gustav.|M|82.89,72.79|
+T The Crusaders' Pinnacle|QID|13157|N|To Highlord Tirion Fordring who moved to Crusaders Pinnacle.|M|79.83,71.79|
 
-A The Battle For Crusaders' Pinnacle |QID|13141|
-C The Battle For Crusaders' Pinnacle |QID|13141|N|The pile of skulls is at . Plant the banner and get ready to defend it. There will be several waves of mobs followed by an Elite. Kill them all.|U|43243|M|80.08,71.95|
-T The Battle For Crusaders' Pinnacle |QID|13141|N|Back to Father Gustav in the building at the camp in the Valley of Echoes.|
+A A Tale of Valor|QID|13068|N|From Highlord Tirion Fordring.|M|79.83,71.79|
+f Crusaders' Pinnacle|QID|13068|N|Get the flight path from Penumbrius.|M|79.46,72.30|
+T A Tale of Valor|QID|13068|N|To Crusader Bridenbrad|M|79.85,30.74|
 
-A The Crusaders' Pinnacle |QID|13157|
-T The Crusaders' Pinnacle |QID|13157|N|Highlord Tirion Fordring .|M|79.83,71.79|
+A A Hero Remains|QID|13072|N|From Crusader Bridenbrad|M|79.85,30.74|
+f Argent Tournament Grounds|QID|13072|N|You're close, might as well get the Flight Path from Helidan Lightwing.|M|72.63,22.63|
+T A Hero Remains|QID|13072|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle. Take the Flight Path if you want.|M|79.83,71.79|
 
-A A Tale of Valor |QID|13068|
-f Crusaders' Pinnacle |QID|13068|N|Get the Flight Path .|M|79.46,72.30|
-T A Tale of Valor |QID|13068|N|Crusader Bridenbrad |M|79.85,30.74|
+A The Keeper's Favor|QID|13073|N|From Highlord Tirion Fordring.|M|79.83,71.79|
+P Shrine of Remulos|QID|13073|N|To Arch Druid Lilliandra in the infermary at the Argent Vanguard. Talk to her to get the port to Moonglade.|M|87.04,76.98|
+T The Keeper's Favor|QID|13073|N|To Keeper Remulos is right in front of you.|Z|Moonglade|M|36.2,40.7|
 
-A A Hero Remains |QID|13072|
-f Argent Tournament Grounds |QID|13072|N|You're close, might as well get the Flight Path .|M|72.63,22.63|
-T A Hero Remains |QID|13072|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle . Take the Flight Path if you want.|M|79.83,71.79|
+A Hope Within the Emerald Nightmare|QID|13074|N|From Keeper Remulos.|Z|Moonglade|M|36.2,40.7|
+C Hope Within the Emerald Nightmare|QID|13074|N|The acorns are on the ground, but are hard to see. When you get three get far enough away from the shrine and you will leave the dream. Be careful of the Elites they are the boundary you need to get past.|
+T Hope Within the Emerald Nightmare|QID|13074|N|Exit the Emerald Nightmare by clicking the buff and to Keeper Remulos.|Z|Moonglade|M|36.2,40.7|
 
-A The Keeper's Favor |QID|13073|
-N Arch Druid Lilliandra |QID|13073|N|Arch Druid Lilliandra is in the Argent Vanguard at . Talk to her to get the port to Moonglade. Click off this step.|M|87.04,76.98|
-T The Keeper's Favor |QID|13073|N|Keeper Remulos is right in front of you. |Z|Moonglade|M|36.2,40.7|
+A The Boon of Remulos|QID|13075|N|From Keeper Remulos.|Z|Moonglade|M|36.2,40.7|
+T The Boon of Remulos|QID|13075|N|You must be right on top of him for the portal to open. If it doesn't open, abandon the quest, move closer and accept it again. After you port, fly back to Crusader Bridenbrad at.|M|79.85,30.74|
 
-A Hope Within the Emerald Nightmare |QID|13074|
-C Hope Within the Emerald Nightmare |QID|13074|N|The acorns are on the ground, but are hard to see. When you get three get far enough away from the shrine and you will leave the dream. Be careful of the Elites they are the boundary you need to get past.|
-T Hope Within the Emerald Nightmare |QID|13074|
+A Time Yet Remains|QID|13076|N|From Crusader Bridenbrad|M|79.85,30.74|
+T Time Yet Remains|QID|13076|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle.|M|79.83,71.79|
 
-A The Boon of Remulos |QID|13075|
-T The Boon of Remulos |QID|13075|N|You must be right on top of him for the portal to open. If it doesn't open, abandon the quest, move closer and accept it again. After you port, fly back to Crusader Bridenbrad at .|M|79.85,30.74|
+A The Touch of an Aspect|QID|13077|N|From Highlord Tirion Fordring.|M|79.83,71.79|
+T The Touch of an Aspect|QID|13077|N|To Alexstrasza the Life-Binder at the top of Wyrmrest Temple in Dragonblight.|Z|Dragonblight|M|59.87,54.61|
 
-A Time Yet Remains |QID|13076|
-T Time Yet Remains |QID|13076|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle .|M|79.83,71.79|
+A Dahlia's Tears|QID|13078|N|From Alexstrasza the Life-Binder.|Z|Dragonblight|M|59.87,54.61|
+C Dahlia's Tears|QID|13078|N|Head over to the Ruby Dragonshire. Look for the item on the ground around.|Z|Dragonblight|M|43.28,52.09|
+T Dahlia's Tears|QID|13078|N|To Alexstrasza the Life-Binder..|Z|Dragonblight|M|59.87,54.61|
 
-A The Touch of an Aspect |QID|13077|
-T The Touch of an Aspect |QID|13077|N|You know where she is. At the top of Wyrmrest Temple in Dragonblight.|
+A The Boon of Alexstrasza|QID|13079|N|From Alexstrasza the Life-Binder.|Z|Dragonblight|M|59.87,54.61|
+T The Boon of Alexstrasza|QID|13079|N|To Crusader Bridenbrad. Take the Flight Path to the Argent Tournament Grounds if you want.|M|79.85,30.74|
 
-A Dahlia's Tears |QID|13078|
-C Dahlia's Tears |QID|13078|N|Head over to the Ruby Dragonshire. Look for the item on the ground around .|Z|Dragonblight|M|43.28,52.09|
-T Dahlia's Tears |QID|13078|N|Back to the Dragon Queen.|
+A Hope Yet Remains|QID|13080|N|To Crusader Bridenbrad|M|79.85,30.74|
+T Hope Yet Remains|QID|13080|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle.|M|79.83,71.79|
 
-A The Boon of Alexstrasza |QID|13079|
-T The Boon of Alexstrasza |QID|13079|N|Crusader Bridenbrad . Take the Flight Path to the Argent Tournament Grounds if you want.|M|79.85,30.74|
+A The Will of the Naaru|QID|13081|N|From Highlord Tirion Fordring.|M|79.83,71.79|
+T The Will of the Naaru|QID|13081|N|To A'dal. Just wait and a mage will give you a port.|Z|Shattrath City|M|54.03,44.4|
 
-A Hope Yet Remains |QID|13080|
-T Hope Yet Remains |QID|13080|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle .|M|79.83,71.79|
+A The Boon of A'dal|QID|13082|N|From A'dal|M|54.03,44.4|
+T The Boon of A'dal|QID|13082|N|To Crusader Bridenbrad|M|79.85,30.74|
 
-A The Will of the Naaru |QID|13081|
-T The Will of the Naaru |QID|13081|N|Just wait and a mage will give you a port.|
+A Light Within the Darkness|QID|13083|N|From Bridenbrad's Possessions.|M|79.85,30.74|
+T Light Within the Darkness|QID|13083|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle.|M|79.83,71.79|
 
-A The Boon of A'dal |QID|13082|
-T The Boon of A'dal |QID|13082|N|Crusader Bridenbrad |M|79.85,30.74|
+A Orgrim's Hammer|QID|13224|N|From Warlord Hork Strongbrow inside the building on a bunk to the right.|M|79.48,72.73|
+T Orgrim's Hammer|QID|13224|N|To Sky-Reaver Korm Blackscar at Orgrim's Hammer.|
 
-A Light Within the Darkness |QID|13083|
-T Light Within the Darkness |QID|13083|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle .|M|79.83,71.79|
+A The Broken Front|QID|13228|N|From Sky-Reaver Korm Blackscar.|
 
-A Orgrim's Hammer |QID|13224|N|Inside the building on a bunk to the right .|M|79.48,72.73|
-T Orgrim's Hammer |QID|13224|N|Back to Orgrim's Hammer. Sky-Reaver Korm Blackscar.|
+A Opportunity|QID|13258|N|From Koltira Deathweaver.|
 
-A The Broken Front |QID|13228|
+A Blood of the Chosen|QID|13330|N|From Warbringer Davos Rioht patrols around the upper and lower decks.|
+A Joining the Assault|QID|13340|N|From Warbringer Davos|
 
-A Opportunity |QID|13258|N|Koltira Deathweaver|
+A Slaves to Saronite|QID|13302|N|Brother Keltan patrols around the upper and lower decks. This is a daily, but it goes with the other quests, so do it.|
 
-A Blood of the Chosen |QID|13330|N|Warbringer Davos Rioht patrols around the upper and lower decks.|
-A Joining the Assault |QID|13340|
+A Get to Ymirheim!|QID|13293|N|From Chief Engineer Copperclaw is in the bowels of the ship. Where else would the Engine Room be?|
+T Joining the Assault|QID|13340|N|To Ground Commander Xutjja is at the base of Ymirheim.|M|58.31,46.05|
 
-A Slaves to Saronite |QID|13302|N|Brother Keltan patrols around the upper and lower decks. This is a daily, but it goes with the other quests, so do it.|
+A Assault by Air|QID|13310|N|From Ground Commander Xutjja.|M|58.31,46.05|
 
-A Get to Ymirheim! |QID|13293|N|Chief Engineer Copperclaw is in the bowels of the ship. Where else would the Engine Room be?|
-T Joining the Assault |QID|13340|N|Ground Commander Xutjja is at the base of Ymirheim .|M|58.31,46.05|
+A Assault by Ground|QID|13301|N|From Kor'kron Squad Leader.|M|58.02,45.95|
+C Blood of the Chosen|QID|13330|N|Kill Ymirheim Vrykul.|S|
+C Assault by Ground|QID|13301|N|Follow the squad up the mountain. There are 4 ambushes before you get to the gate, 4 guys need to survive to get credit.|
+C Assault by Air|QID|13310|N|Fly back down to  near where you got the quests and mount the plane. When you get to Ymirheim, target the harpoon guns and smoke them out, the infiltrators will jump off on their own.|M|59.52,46.03|
+C Slaves to Saronite|QID|13302|N|Try to rescue the slaves. They will fight, run away or be rescued.|M|56.56,57.52|S|NC|
 
-A Assault by Air |QID|13310|
+A Mind Tricks|QID|13308|N|From Darkspeaker R'khem inside the Saronite Mine.|M|54.52,59.12|
+C Mind Tricks|QID|13308|N|Clear the area, then kill the foreman. He's an 80 Elite, but soloable. Burn him down toe to toe or kite.|
+T Mind Tricks|QID|13308|N|Darkspeaker R'khem.|M|54.52,59.12|
+C Slaves to Saronite|QID|13302|N|Keep rescueing slaves. They will fight, run away or be rescued.|M|56.56,57.52|US|NC|
 
-A Assault by Ground |QID|13301|N|He's close by.|
-C Assault by Ground |QID|13301|N|Follow the squad up the mountain. There are 4 ambushes before you get to the gate, 4 guys need to survive to get credit.|
-N Assault by Air |QID|13310|N|Fly back down to  near where you got the quests and mount the plane. When you get to Ymirheim, target the harpoon guns and smoke them out, the infiltrators will jump off on their own. If you don't complete this quest in one run, don't worry you will get another chance later. Click off this step when you've landed.|M|59.52,46.03|
-C Slaves to Saronite |QID|13302|N|Make your way to the Saronite Mine  killing any Vrykul on the way (keep the bones for the Bone Witch). Enter the mine and try to rescue the slaves. They will fight, run away or be rescued.|M|56.56,57.52|
+T Get to Ymirheim!|QID|13293|N|Make your way to Blast Thunderbomb at the waypoint.|M|51.95,57.54|
 
-A Mind Tricks |QID|13308|N|From Darkspeaker R'khem inside the mine .|M|54.52,59.12|
-C Mind Tricks |QID|13308|N|Clear the area, then kill the foreman. He's an 80 Elite, but soloable. Burn him down toe to toe or kite.|
-T Mind Tricks |QID|13308|N|Darkspeaker R'khem .|M|54.52,59.12|
-T Get to Ymirheim! |QID|13293|N|Make your way to Blast Thunderbomb at the waypoint. Keep killing Vrykuls on the way.|M|51.95,57.54|
+A King of the Mountain|QID|13283|N|From Blast Thunderbomb. this is a PvP Quest. |M|51.95,57.54|
+C King of the Mountain|QID|13283|N|Get in the robot and make your way up the mountain using the Jump Jets. When you get to the top , plant the banner. You can leave the robot and use your flying mount to get back down.|M|54.84,60.17|
+T King of the Mountain|QID|13283|N|Blast Thunderbomb.|M|51.95,57.54|
+C Blood of the Chosen|QID|13330|N|Kill any more Vrykul you need.|US|
+T Assault by Air|QID|13310|N|Fly back to Ground Commander Xutjja.|M|58.31,46.05|
+T Assault by Ground|QID|13301|N|To Ground Commander Xutjja.|M|58.31,46.05|
+C The Broken Front|QID|13228|N|Head to the Broken Front. Find a Dying Berserker and talk to him.|M|69,66|
 
-A King of the Mountain |QID|13283|
-C King of the Mountain |QID|13283|N|Get in the robot and make your way up the mountain using the Jump Jets. When you get to the top , plant the banner. You can leave the robot and use your flying mount to get back down.|M|54.84,60.17|
-T King of the Mountain |QID|13283|N|Blast Thunderbomb .|M|51.95,57.54|
-C Blood of the Chosen |QID|13330|N|Kill any more Vrykul you need.|
-C Assault by Air |QID|13310|N|Fly back down to the plane and complete this if you didn't the first time. You can dismount as soon as you get the complete message.|
-T Assault by Air |QID|13310|N|Fly back to Ground Commander Xutjja .|M|58.31,46.05|
-T Assault by Ground |QID|13301|
-C The Broken Front |QID|13228|N|Head to the Broken Front . Find a Dying Berserker and talk to him.|M|69,66|
+A Avenge Me!|QID|13230|N|From the Dying Berserker.|
+C Avenge Me!|QID|13230|N|The Dying Soldiers are lying all around on the ground. Don't feel bad about killing them while they're helpless, Alliance aren't really people anyway.|
+T Avenge Me!|QID|13230|N|To Sky-Reaver Korm Blackscar at Orgrim's Hammer.|
+T The Broken Front|QID|13228|N|To Sky-Reaver Korm Blackscar at Orgrim's Hammer.|
 
-A Avenge Me! |QID|13230|
-C Avenge Me! |QID|13230|N|The Dying Soldiers are lying all around on the ground. Don't feel bad about killing them while they're helpless, Alliance aren't really people anyway.|
-T Avenge Me! |QID|13230|N|Back to Orgrim's Hammer. Sky-Reaver Korm Blackscar.|
-T The Broken Front |QID|13228|
+A Good For Something?|QID|13238|N|From Sky-Reaver Korm Blackscar.|
+A Takes One to Know One|QID|13260|N|From Sky-Reaver Korm Blackscar.|
+T Takes One to Know One|QID|13260|N|To Koltira Deathweaver|
 
-A Good For Something? |QID|13238|
-A Takes One to Know One |QID|13260|
-T Takes One to Know One |QID|13260|N|Koltira Deathweaver|
+A Poke and Prod|QID|13237|N|From Koltira Deathweaver|
+T Slaves to Saronite|QID|13302|N|To Brother Keltan|
+T Blood of the Chosen|QID|13330|N|To Warbringer Davos Rioht|
+T Good For Something?|QID|13238|N|To Chief Engineer Copperclaw|
 
-A Poke and Prod |QID|13237|
-T Slaves to Saronite |QID|13302|N|Brother Keltan|
-T Blood of the Chosen |QID|13330|N|Warbringer Davos Rioht|
-T Good For Something? |QID|13238|N|Chief Engineer Copperclaw|
-
-A Volatility |QID|13239|
+A Volatility|QID|13239|N|From Chief Engineer Copperclaw|
 C Volatility |QID|13239|N|Go to the Broken Front. Collect 3 Piles of Bones, 3 Abondoned Helms, and 3 Abandoned Armor. Kill mobs while you're doing this.|S|
 C Poke and Prod|M|69,66|QID|13237|S|
 l Piles of Bones|L|43609 3|M|69,66|QID|13239|
