@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-04 16:55
+-- Who: cameljon
+-- Log: Treasure coord adjust
+
+-- URL: http://wow-pro.com/node/3687/revisions/28090/view
 -- Date: 2016-12-03 23:38
 -- Who: cameljon
 -- Log: Fixed "Mrgls of Endearment" objective coords. Probably from being so close to zone line?
@@ -251,11 +256,6 @@
 -- Who: Blanckaert
 -- Log: Add statecraft story line (at 8000+ Honoured Rep)
 
--- URL: http://wow-pro.com/node/3687/revisions/27879/view
--- Date: 2016-10-05 09:36
--- Who: Emmaleah
--- Log: Delete US/ take out S for C Kel'Danath's legacy (no need for sticky since steps in between were moved. Improve path R Irongrove Retreat(still needs better). Add some NCs in the Irongrove Retreat quest line. Add QO|1| and RANK|2| where needed on most of the silver (rare) lines.
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
@@ -436,7 +436,7 @@ $ Small Treasure Chest|QID|43855;43857|M|51.50,38.61|N|Loot for a bit of treasur
 A Fragments of Memory|QID|40308|M|49.09,34.35|N|From a Shattered Burial Urn.|PRE|42229|
 C Fragments of Memory|QID|40308|M|51.96,29.95|S|N|You have a chance of collecting Tel'anor Mementos from all the mobs in this cave.|
 C Tools of the Trade|QID|40300|M|52.50,31.39|QO|3|NC|N|Pick up the Chest of Shrouds|
-$ Treasure|QID|43854|M|52.27,28.89|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure|QID|43854|M|52.27,29.90|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Garvrulg|QID|40897|QO|1|M|53.03,30.24|ITEM|121755|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Dusty Treasure|QID|40767|M|52.72,31.30|N|Down the wooden stairs for this chest. Loot for a bit of treasure and resources.|RANK|2|
 C Fragments of Memory|QID|40308|M|51.96,29.95|US|N|Finish collecting Tel'anor Mementos.|
