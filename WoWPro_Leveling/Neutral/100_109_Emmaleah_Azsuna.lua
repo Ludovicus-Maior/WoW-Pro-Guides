@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-12-04 02:28
+-- Who: Blanckaert
+-- Log: corrected coord for QID 37649
+
+-- URL: http://wow-pro.com/node/3657/revisions/28091/view
+-- Date: 2016-12-04 01:57
+-- Who: Blanckaert
+-- Log: fixed map coord for a treasure
+
+-- URL: http://wow-pro.com/node/3657/revisions/28089/view
 -- Date: 2016-12-03 16:19
 -- Who: Blanckaert
 -- Log: Fixed wrong QID for Hard times, had 39948 should've been 38948, fixed PRE tag too.
@@ -578,7 +588,7 @@ K Kill The Oracle|QID|37822|QO|1|M|59.76,54.65;59.69,55.17|CS|N|Silver - Go up t
 $ Small Treasure Chest|QID|40752|M|58.64,53.38|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|44405|M|54.87,52.13|N|Loot for a bit of treasure and resources. Be aware. the NPCs in the alcove with you will take offense at you looting their treasure.|RANK|2|
 K Kill Warbringer Mox'na|QID|37909|ITEM|129069|M|51.34,56.19|T|Warbringer Mox'na|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|3|
-$ Small Treasure Chest|QID|38370|M|51.34,56.19|N|You always wanted to be a wedding crasher... right? Kill the Bride and Groom as they object to you stealing thier gifts. Loot for a bit of treasure and resources.|RANK|3|
+$ Small Treasure Chest|QID|38370|M|49.41,57.98|N|You always wanted to be a wedding crasher... right? Kill the Bride and Groom as they object to you stealing their gifts. Loot for a bit of treasure and resources.|RANK|3|
 
 R Shipwreck Arena|QID|37496|M|50.64,44.27|N|Run back past Narthalas Academy and to the Shipwreck Arena.|RANK|-1|
 R Shipwreck Arena|QID|37496|M|46.14,45.00;47.99,45.51|CS|N|Run Down the Old Coast Path and to the Shipwreck Arena.|RANK|2|
@@ -606,7 +616,7 @@ A Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|1015/18|N|Auto-acce
 A The Right Weapon for the Job|QID|37565|M|43.62,24.67|Z|1015/18|N|From Okuna's pack.|RANK|2|
 C Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|1015/18|S|N|Killing mobs, and clicking on the Skrog weapons advances the objective.|RANK|2|
 C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|Z|1015/18|S|N|Click on the quest item whenever you are near some prisoners.|
-$ Glimmering Treasure Chest|QID|37649|M|56.37,54.40|Z|1015/18|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Glimmering Treasure Chest|QID|37649|M|69.22,48.69|Z|1015/18|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42291|M|46.36,67.12|Z|1015/18|N|Loot for a bit of treasure and resources.|RANK|2|
 A A Favor for Mr. Shackle|QID|38857|M|50.35,60.98|N|From Seska Seafang.|
 C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|N|Grace the Green rescued|

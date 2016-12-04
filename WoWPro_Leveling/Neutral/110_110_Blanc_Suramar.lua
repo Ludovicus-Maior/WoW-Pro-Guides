@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-03 23:38
+-- Who: cameljon
+-- Log: Fixed "Mrgls of Endearment" objective coords. Probably from being so close to zone line?
+
+-- URL: http://wow-pro.com/node/3687/revisions/28074/view
 -- Date: 2016-11-30 12:21
 -- Who: Blanckaert
 -- Log: added a P step, and changed note about the quests in log with a date.
@@ -251,11 +256,6 @@
 -- Who: Emmaleah
 -- Log: Delete US/ take out S for C Kel'Danath's legacy (no need for sticky since steps in between were moved. Improve path R Irongrove Retreat(still needs better). Add some NCs in the Irongrove Retreat quest line. Add QO|1| and RANK|2| where needed on most of the silver (rare) lines.
 
--- URL: http://wow-pro.com/node/3687/revisions/27876/view
--- Date: 2016-10-05 03:24
--- Who: Blanckaert
--- Log: ok I think I fixed the switch around (double) of quests. Also moved three quest around in the Felsoul area.
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
@@ -335,10 +335,10 @@ A Do The Thing!|QID|42396|M|16.02,55.11|N|From Pearlhunter Phin.|RANK|2|
 C Do The Thing!|QID|42396|M|15.85,54.72|NC|N|Pick up the 'Specked Pearl' off of the ground here.|RANK|2|
 T Do The Thing!|QID|42396|M|15.85,55.12|N|To Pearlhunter Phin.|RANK|2|
 A Mrgls of Endearment|QID|42688|PRE|42396|M|15.85,55.12|N|From Pearlhunter Phin.|RANK|2|
-C Mrgls of Endearment|QID|42688|M|63.29,15.10|QO|1|S|N|Kill Leyscar Scuttlers to loot find something that interests Phin.|RANK|2|
+C Mrgls of Endearment|QID|42688|M|16.10,55.07|QO|1|S|N|Kill Leyscar Scuttlers to loot find something that interests Phin.|RANK|2|
 K Kill Tideclaw|QID|43542|QO|1|M|18.78,60.90|T|Tideclaw|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Forgotten Crab Trap|QID|37832|M|63.23,15.22|Z|Azsuna|N|This one is actually in Azsuna, but you are closer now. Loot chest for a bit of treasure and resources.|
-C Mrgls of Endearment|QID|42688|M|63.29,15.10|QO|1|US|N|Kill Leyscar Scuttlers to loot things to polish the pearl.|RANK|2|
+C Mrgls of Endearment|QID|42688|M|16.10,55.07|QO|1|US|N|Kill Leyscar Scuttlers to loot things to polish the pearl.|RANK|2|
 C Mrgls of Endearment|QID|42688|M|15.22,52.37|CHAT|QO|2|N|Show Items to Phin|RANK|2|
 T Mrgls of Endearment|QID|42688|M|15.22,52.37|N|To Pearlhunter Phin.|RANK|2|
 A A Mlrglrmg For Grlmrgl|QID|42728|M|15.22,52.35|N|From Pearlhunter Phin.|PRE|42688|RANK|2|
