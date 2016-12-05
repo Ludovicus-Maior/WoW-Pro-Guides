@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-12-05 17:47
+-- Who: Blanckaert
+-- Log: adding of PRE tags
+
+-- URL: http://wow-pro.com/node/3680/revisions/28098/view
 -- Date: 2016-12-05 07:09
 -- Who: Blanckaert
 -- Log: adding of PREs
@@ -341,34 +346,35 @@ A A Stack of Racks|QID|39792|PRE|39787;39793|M|51.36,57.28|N|From Rax Sixtrigger
 A A Stone Cold Gamble|QID|39786|PRE|39787;39793|M|51.32,56.95|N|From Snaggle Sixtrigger.|RANK|2|
 $ Small Treasure Chest|QID|38477|M|42.33,61.12|N|If you are careful, you can get without waking the Basilisk. Otherwise kill the basilisk curled around the treasure and then its yours. Kite him around to escape his AOE and interrupt his glare. Loot for treasure and resources.|RANK|2|
 C A Stone Cold Gamble|QID|39786|M|46.66,61.04|T|Stonefang|N|Keep moving around, the groundspikes put out serious damage. Loot Stonefang's Jaw.|RANK|2|
-
 $ Small Treasure Chest|QID|38681|M|48.18,65.20;46.60,64.96|CS|N|Inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|RANK|2|
 T A Stone Cold Gamble|QID|39786|M|51.97,64.66;51.31,56.99|CS|N|To Snaggle Sixtrigger.|RANK|2|
 
+; Back to business - The Trial of Valor
+
 R Valdisdall|QID|39803|M|51.31,54.64;57.87,50.47|CS|N|Off to Valdisdall|
 h Set Hearth to Valdisdall|QID|39804|M|60.54,50.26|N|At Riala the Hearthwatcher. If you are doing this on Rank 2 or 3.  It will save you a lot of time.|RANK|2|ACTIVE|39792|
 T The Trials Continue|QID|39803|M|60.14,50.73|N|To Havi.|
-A Speaking of Bones|QID|39804|M|60.14,50.73|N|From Havi.|
+A Speaking of Bones|QID|39804|PRE|39803|M|60.14,50.73|N|From Havi.|
 C Speaking of Bones|QID|39804|M|60.67,51.38|NC|N|Click on the buck to butcher.|
 f Valdisdall|QID|39804|M|60.73,50.87|N|At Garhal the Scalekeeper.|
 T Speaking of Bones|QID|39804|M|60.15,50.72|N|To Havi.|
-A To Haustvald|QID|39796|M|60.15,50.72|N|From Havi.|
+A To Haustvald|QID|39796|PRE|39804|M|60.15,50.72|N|From Havi.|
 R The Runewood|QID|39796|M|61.97,54.96;65.97,53.72|CS|N|Run to Runewood.|
 T To Haustvald|QID|39796|M|68.48,54.31|N|To Vydhar.|
-A Turn the Keys|QID|38778|M|68.48,54.31|N|From Vydhar.|
+A Turn the Keys|QID|38778|PRE|39796|M|68.48,54.31|N|From Vydhar.|
 A The Runewood's Revenge|QID|39788|M|68.48,54.31|N|From Vydhar.|
-C Turn the Keys|QID|38778|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|S|N|Click on the three runestones.|;I realize green dots don't show for sticky steps, but the other steps send you to the correct spots and this catches it if you miss one (at the US step).
+C Turn the Keys|QID|38778|PRE|39796|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|S|N|Click on the three runestones.|;I realize green dots don't show for sticky steps, but the other steps send you to the correct spots and this catches it if you miss one (at the US step).
 C The Runewood's Revenge|QID|39788|M|68.86,52.18|QO|2|N|Kill the Bonespeaker Carver in this area.|
 C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|S|N|The Bonespeaker Runeaxe are around both the remaining runestones.|
 K Kill Urgev the Flayer|QID|38847|M|64.88,51.82|QO|1|ITEM|129219|T|Urgev the Flayer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|40083|M|67.99,57.77|N|Loot fora bit of resources and treasure.|RANK|2|
 C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|N|Finish killing Bonespeaker Runeaxe.|
-C Turn the Keys|QID|38778|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|S|N|Click on the three runestones.|;I realize green dots don't show for sticky steps, but the other steps send you to the correct spots and this catches it if you miss one (at the US step).
+$ Small Treasure Chest|QID|40083|M|67.99,57.77|N|Loot fora bit of resources and treasure.|RANK|2|
+
 T Turn the Keys|QID|38778|M|68.47,54.28|N|To Vydhar.|
 T The Runewood's Revenge|QID|39788|M|68.47,54.28|N|To Vydhar.|
-A The Dreaming Fungus|QID|38810|M|68.47,54.28|N|From Vydhar.|
-A Bjornharta|QID|38808|M|68.47,54.28|N|From Vydhar.|
+A The Dreaming Fungus|QID|38810|PRE|38778;39788|M|68.47,54.28|N|From Vydhar.|
+A Bjornharta|QID|38808|PRE|38778;39788|M|68.47,54.28|N|From Vydhar.|
 C Bjornharta|QID|38808|M|70.39,53.00|S|N|Kill bears and loot the Engorged Bear Hearts.|
 C The Dreaming Fungus|QID|38810|M|69.93,52.64|S|NC|N|Gather Soulcaps|
 K Kill Mordvigbjorn|QID|38837|M|72.60,49.99|QO|1|ITEM|129035|T|Mordvigbjorn|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
@@ -376,38 +382,38 @@ C The Dreaming Fungus|QID|38810|US|M|69.93,52.64|NC|N|Finish gathering Soulcaps|
 C Bjornharta|QID|38808|M|70.39,53.00|US|N|Finish collecting the Engorged Bear Hearts.|
 T The Dreaming Fungus|QID|38810|M|68.51,54.27|N|To Vydhar.|
 T Bjornharta|QID|38808|M|68.51,54.27|N|To Vydhar.|
-A Judgment Day|QID|38811|M|68.51,54.27|N|From Vydhar.|
-A Lay Them to Rest|QID|39791|M|68.51,54.27|N|From Vydhar.|
-C Lay Them to Rest|QID|39791|M|64.71,45.39|U|128772|S|N|Weaken them (fight to 50%) and then use Runewood Branch to return the Restless Ancestors to the earth.|
+A Judgment Day|QID|38811|PRE|38808;38810|M|68.51,54.27|N|From Vydhar.|
+A Lay Them to Rest|QID|39791|PRE|38808;38810|M|68.51,54.27|N|From Vydhar.|
+C Lay Them to Rest|QID|39791|M|64.71,45.39|U|128772|S|N|Weaken them, below 75% and then use Runewood Branch to return the Restless Ancestors to the earth.|
 C Judgment Day|QID|38811|M|64.81,46.56|QO|2|N|Click on the offering bowl and be ready to fight.|T|Rythas the Oracle|
 $ Small Treasure Chest|QID|43205|M|65.37,43.12|N|Loot for a bit of treasure and resources.|RANK|2|
 C Judgment Day|QID|38811|M|67.56,43.00|QO|1|N|Judged by Heimir of the Black Fist.|T|Heimir of the Black Fist|
 A The Nameless King|QID|38685|M|67.26,39.93|QO|1|T|The Nameless King|N|Click on his offering shrine to start the vignette.  Kill him and earn treasure and resources.|RANK|2|
-C Judgment Day|QID|38811|M|66.87,45.77|QO|3|N|Judged by Oktel Dragonblood|T|Oktel Dragonblood
+C Judgment Day|QID|38811|M|66.87,45.77|QO|3|N|Judged by Oktel Dragonblood|T|Oktel Dragonblood|
 $ Small Treasure Chest|QID|43302|M|64.20,41.58;64.29,39.55|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 C Lay Them to Rest|QID|39791|M|64.71,45.39|U|128772|US|N|Finish returning the Restless Ancestors to the earth.|
 T Judgment Day|QID|38811|M|68.18,48.69|N|To Shieldmaiden Iounn.|
 
-A Regal Remains|QID|38817|M|68.18,48.69|N|From Shieldmaiden Iounn.|
+A Regal Remains|QID|38817|PRE|38811|M|68.18,48.69|N|From Shieldmaiden Iounn.|
 T Lay Them to Rest|QID|39791|M|68.18,48.69|N|To Shieldmaiden Iounn.|
-A Breaking the Bonespeakers|QID|38816|M|68.18,48.69|N|From Shieldmaiden Iounn.|
+A Breaking the Bonespeakers|QID|38816|PRE|38811|M|68.18,48.69|N|From Shieldmaiden Iounn.|
 C Breaking the Bonespeakers|QID|38816|M|71.58,45.40|S|N|Kill Bonespeaker allies.|
 A The Runes that Bind|QID|38823|M|69.80,45.73|N|From Rune Carved Tablet.|
 C Regal Remains|QID|38817|M|72.97,43.89|S|NC|N|Collect Ashildir's Bones.|
 $ Small Treasure Chest|QID|38637|M|69.35,44.97;69.13,44.77|CS|N|Use grapple point to reach chest. Loot for treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|40086|M|69.0,41.9|CS|N|In the room with the ritual stone. Loot for treasure and resources.|RANK|2|
-C The Runes that Bind|QID|38823|M|69.46,41.96;73.00,44.05;71.42,45.24|CN |N|Click on the ritual stones to destroy them.|
+C The Runes that Bind|QID|38823|M|69.46,41.96;73.00,44.05;71.42,45.24|CN|N|Click on the ritual stones to destroy them.|
 $ Small Treasure Chest|QID|43305|M|72.24,43.75;71.95,44.14|CS|N|Use your grappling hook to go up and get this chest. Loot for a bit of treasure and resources.|RANK|2|
 C Breaking the Bonespeakers|QID|38816|M|71.58,45.40|US|N|Finish killing Bonespeaker allies.|
 C Regal Remains|QID|38817|M|72.97,43.89|US|NC|N|Finish collecting Ashildir's Bones.|
 T Regal Remains|QID|38817|M|69.89,45.52|N|To Shieldmaiden Iounn.|
 T Breaking the Bonespeakers|QID|38816|M|69.89,45.52|N|To Shieldmaiden Iounn.|
 T The Runes that Bind|QID|38823|M|69.89,45.52|N|To Shieldmaiden Iounn.|
-A Waking the Shieldmaiden|QID|38815|M|69.89,45.52|N|From Shieldmaiden Iounn.|
+A Waking the Shieldmaiden|QID|38815|PRE|38817;38816;38823|M|69.89,45.52|N|From Shieldmaiden Iounn.|
 $ Small Treasure Chest|QID|43306|M|73.25,42.68;74.41,41.84|CS|N|Get this before you complete the next quest or you will have to run a long ways back to get it.  Use Hook to get up to alcove above. Loot for a bit of treasure and resources.|RANK|3|
 C Waking the Shieldmaiden|QID|38815|M|71.42,42.49|NC|N|Click on the Rune of Reformation to activate.|
 T Waking the Shieldmaiden|QID|38815|M|71.45,42.50|N|To Ashildir.|
-A The Final Judgment|QID|38818|M|71.45,42.50|N|From Ashildir.|
+A The Final Judgment|QID|38818|PRE|38815|M|71.45,42.50|N|From Ashildir.|
 $ Small Treasure Chest|QID|40085|M|73.33,41.51|N|Loot for treasure and resources.|RANK|2|
 C The Final Judgment|QID|38818|M|73.12,40.06|N|Confront Runeseer Faljar.|
 
