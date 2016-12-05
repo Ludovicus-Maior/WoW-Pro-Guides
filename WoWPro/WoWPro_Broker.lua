@@ -1839,27 +1839,41 @@ function WoWPro.PickQuestline(qid, step)
     end
 end
 
-function WoWPro:GrailQuestPrereq(qid)
-    if not Grail or not WoWPro.EnableGrail then return nil end
+function WoWPro.GrailQuestPrereqOneQid(qid, out)
     local preReq = Grail:QuestPrerequisites(qid)
-    local PREstr = nil
-    if not preReq then return nil end
+    if not preReq then return out end
     if type(preReq) ~= "table" then
         preReq = Grail:_FromPattern(preReq)
     end
+    out = out or {}
+    local i,p
     for i,p in ipairs(preReq) do
         if( string.sub(tostring(p),1,1) == "B" ) then
             p = string.sub(p,2);
         end
-        if tonumber(p) then
-            if PREstr then
-                PREstr =  PREstr .. ";" .. tostring(p)
-            else
-                PREstr = tostring(p)
-            end
+        out[tostring(p)] = true
+    end
+    return out
+end
+
+function WoWPro.GrailQuestPrereq(QID)
+    if not Grail or not WoWPro.EnableGrail then return nil end
+    if QID == "*" then return nil end
+    local numQIDs = select("#", string.split(";", QID))
+    local out = {}
+    for j=1,numQIDs do
+        local qid = select(numQIDs-j+1, string.split(";", QID))
+        out = WoWPro.GrailQuestPrereqOneQid(qid, out)
+    end
+    local q,_,pre
+    for q,_ in pairs(out) do
+        if pre then
+            pre = pre .. ";" .. q
+        else
+            pre = q
         end
     end
-    return PREstr
+    return pre
 end
 
 function WoWPro:GrailCheckQuestName(guide,QID,myname)
