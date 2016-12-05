@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-12-05 07:13
+-- Who: Emmaleah
+-- Log: correct spelling of Assassin (QID42387)
+
+-- URL: http://wow-pro.com/node/3665/revisions/28050/view
 -- Date: 2016-11-24 14:58
 -- Who: Blanckaert
 -- Log: Fixed spelling error on QID 38479
@@ -371,10 +376,10 @@ $ Treasure|QID|39077|M|42.66,58.02|N|Inside the house is a chest to loot for a b
 C Children of the Night|QID|38645|M|38.95,61.56|S|N|Kill the Black Rook enemies as you go about the other tasks.|
 C Lending a Helping Hand|QID|42385|M|41.69,60.00|N|To Hudson Crawford.|C|Hunter|LVL|103|
 A Rising Troubles|QID|42386|M|41.69,60.00|N|From Hudson Crawford.|C|Hunter|LVL|103|
-A Assassom Entrapment|QID|42387|M|41.69,60.00|N|From Hudson Crawford.|C|Hunter|LVL|103|
+A Assassin Entrapment|QID|42387|M|41.69,60.00|N|From Hudson Crawford.|C|Hunter|LVL|103|
 C Rising Troubles|QID|42386|M|41.69,60.00|S|N|When killing enemies prioritize the hounds to get this quest done also.|C|Hunter|LVL|103|
-C Assassom Entrapment|QID|42387|M|39.51,61.60|QO|1|U|137551|NC|N|Place the trap.|C|Hunter|LVL|103|
-C Assassom Entrapment|QID|42387|M|39.51,61.60|QO|2|T|Captain Tevaris|N|Kill Captain Tevaris.|C|Hunter|LVL|103|
+C Assassin Entrapment|QID|42387|M|39.51,61.60|QO|1|U|137551|NC|N|Place the trap.|C|Hunter|LVL|103|
+C Assassin Entrapment|QID|42387|M|39.51,61.60|QO|2|T|Captain Tevaris|N|Kill Captain Tevaris.|C|Hunter|LVL|103|
 C The Farmsteads|QID|38644|M|38.95,61.56|QO|2|NC|N|Check the Corn Fields.|
 A A Sight For Sore Eyes|QID|38646|M|38.89,61.44|N|From Granny Marl.|
 A For the Corn!|QID|38647|M|38.89,61.44|N|From Granny Marl.|
@@ -382,7 +387,7 @@ C For the Corn!|QID|38647|M|38.50,60.49|S|NC|N|Click on the barrels of corn to c
 C A Sight For Sore Eyes|QID|38646|M|38.47,60.58|T|Black Rook Falcon|NC|U|127030|N|Use the provided flares to mark the Black Rook Falcons.|
 C For the Corn!|QID|38647|M|38.50,60.49|US|NC|N|Click on the barrels of corn to collect them.|
 T Rising Troubles|QID|42386|M|41.69,60.00|N|To Hudson Crawford.|C|Hunter|
-T Assassom Entrapment|QID|42387|M|41.69,60.00|N|To Hudson Crawford.|C|Hunter|
+T Assassin Entrapment|QID|42387|M|41.69,60.00|N|To Hudson Crawford.|C|Hunter|
 A Urgent Summons|QID|42388|M|41.68,59.97|N|From Snowfeather.|C|Hunter|
 T For the Corn!|QID|38647|M|38.88,61.43|N|To Granny Marl.|
 T A Sight For Sore Eyes|QID|38646|M|38.88,61.43|N|To Granny Marl.|

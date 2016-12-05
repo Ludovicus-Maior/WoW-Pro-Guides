@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-12-05 07:07
+-- Who: Blanckaert
+-- Log: minor adjustments / adding of PRE tags, and some ranks
+
+-- URL: http://wow-pro.com/node/3683/revisions/28094/view
+-- Date: 2016-12-04 22:14
+-- Who: Blanckaert
+-- Log: Trial of Might section changes, adjusted T Qid 38210, as pointed to Horde one. Also added PRE, Rank on some Treasures.
+
+-- URL: http://wow-pro.com/node/3683/revisions/27935/view
 -- Date: 2016-10-19 01:10
 -- Who: Ludovicus
 -- Log: Level Tweak
@@ -193,69 +203,72 @@ C Signal Boost|QID|38060|M|32.22,49.90|QO|2|N|Defend the Transponder from fosake
 T Signal Boost|QID|38060|M|33.81,46.03|N|To Sky Admiral Rogers.|
 
 ; The Trial of Might
-A The Ancient Trials|QID|38210|M|33.74,45.80|QO|3|N|From Muninn.|
+A The Ancient Trials|QID|38210|PRE|38060|M|33.74,45.80|QO|3|N|From Muninn.|
 A Stormforged Grapple Launcher|QID|39775|M|33.80,45.79|N|From Stormforged Grapple Launcher.|
 T Stormforged Grapple Launcher|QID|39775|M|33.80,45.79|N|From Stormforged Grapple Launcher.|
 $ Small Treasure Chest|QID|38680|M|35.92,47.92|N|On a lake on the Weeping Bluffs, loot for a bit of treasure and resources.|RANK|3|
-K Kill Bloodstalker Alpha|QID|38626|M|38.42,42.80|ITEM|129101|T|Bloodstalker Alpha|N|He roams this part of the valley. Silver - Kill and loot for a bit of treasure and resources.||RANK|3|
-T The Ancient Trials|QID|38459|M|38.13,40.88;41.17,40.59;41.83,43.06|CS|N|To Havi.|
-A Havi's Test|QID|38331|M|43.14,49.21|N|From Havi.|
+K Kill Bloodstalker Alpha|QID|38626|M|38.42,42.80|ITEM|129101|T|Bloodstalker Alpha|N|He roams this part of the valley. Silver - Kill and loot for a bit of treasure and resources.|RANK|3|
+T The Ancient Trials|QID|38210|M|38.61,45.79;40.11,50.34;41.93,49.48|CS|N|To Havi.|
+A Havi's Test|QID|38331|PRE|38210|M|43.14,49.21|N|From Havi.|
 C Havi's Test|QID|38331|M|42.91,49.12|QO|1|NC|N|Click on the vegetables, face the stewpot, adjust angle if needed and press "4".|
 C Havi's Test|QID|38331|M|42.91,49.41|QO|2|NC|N|Click on the crabs, face the stewpot, adjust angle if needed and press "4".|
 C Havi's Test|QID|38331|M|43.06,49.45|QO|3|NC|N|Click on the hearty grains, face the stewpot, adjust angle if needed and press "4".|
 T Havi's Test|QID|38331|M|43.14,49.21|N|To Havi.|
 
-A Ahead of the Game|QID|39590|M|43.14,49.21|N|From Havi.|
-A A Worthy Challenger-Bonus Objective|QID|38442|LVL|-109|M|41.83,43.06|N|Auto Accepted upon entering the area.|
+A Ahead of the Game|QID|39590|PRE|38331|M|43.14,49.21|N|From Havi.|
+A A Worthy Challenger-Bonus Objective|QID|38442|LVL|-109|M|41.83,43.06|N|Auto Accepted upon entering the area.|RANK|2|
 C A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|S|N|Kill Bloodtotems, Mightstones and Felskorn and destroy totems and banners to advance the objective.|
 A Blood and Gold|QID|39595|M|42.54,43.08|N|From Challengers Tribute, you just looted.|
 C Blood and Gold|QID|39595|M|42.54,43.08|S|N|Kill the champion types to get the tributes.|
 C Ahead of the Game|QID|39590|M|42.07,45.97|T|Gro Rumblehoof|QO|2|N|Kill the Rumblehoof Champion and loot his Head.|
-$ Small Treasure Chest|QID|38488|M|41.75,46.03|N|Loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|38488|M|41.75,46.03|N|Loot for a bit of treasure and resources.|RANK|2|
 C Ahead of the Game|QID|39590|M|45.43,48.06|NC|QO|3|N|Check out his camp.|
 C Ahead of the Game|QID|39590|M|44.82,40.61|T|Slash Gutspill|QO|1|N|Kill and loot the Gutspill Champion's Head.|
 C Blood and Gold|QID|39595|M|42.90,46.53|US|N|Keep at it until you find enough Challenger's Tribute.|
 T Ahead of the Game|QID|39590|M|46.75,44.41|N|To Yotnar's Head.|
-A A Trial of Valor|QID|39591|M|46.75,44.41|N|From Yotnar's Head.|
+A A Trial of Valor|QID|39591|PRE|39590|M|46.75,44.41|N|From Yotnar's Head.|
 T Blood and Gold|QID|39595|M|46.75,44.41|N|To Yotnar's Head.|
-A A Trial of Will|QID|39592|M|46.75,44.41|N|From Yotnar's Head.|
-A The Shattered Watcher|QID|39593|M|46.75,44.41|N|From Yotnar's Head.|
+A A Trial of Will|QID|39592|PRE|39590|M|46.75,44.41|N|From Yotnar's Head.|
+A The Shattered Watcher|QID|39593|PRE|39590|M|46.75,44.41|N|From Yotnar's Head.|
 C The Shattered Watcher|QID|39593|M|48.76,46.12|QO|3|NC|N|Yotnar's Left Foot.|
 C The Shattered Watcher|QID|39593|M|49.21,45.59|QO|2|NC|N|Yotnar's Right Arm.|
 C A Trial of Will|QID|39592|M|48.73,47.59|QO|1|NC|N|You can use the grapple point to skip mobs or fight your way up. Learn about the Trial of Will.|
 C The Shattered Watcher|QID|39593|M|48.02,47.58|QO|1|NC|N|Yotnar's Left Arm.|
 C A Trial of Valor|QID|39591|M|50.49,44.78|QO|1|NC|N|Learn about the Trial of Valor.|
-$ Treasure Chest|QID|38483|M|50.13,42.10;50.32,41.00|CS|N|Loot for a bit of treasure and resources.|
+$ Treasure Chest|QID|38483|M|50.13,42.10;50.32,41.00|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 C The Shattered Watcher|QID|39593|M|48.69,41.71|QO|4|NC|N|Yotnar's Right Foot.|
-$ Treasure Chest|QID|43246|M|48.48,41.28;50.55,41.24|CS|N|Standing at the first coordinate, look up and northeast.  Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.| ; Emma
+$ Treasure Chest|QID|43246|M|48.48,41.28;48.89,40.92;49.52,40.96;50.14,40.77|CS|N|Standing at the first coordinate, look up and northeast.  Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.|RANK|2|
 
 T A Trial of Valor|QID|39591|M|46.75,44.42|N|To Yotnar's Head.|
 T A Trial of Will|QID|39592|M|46.75,44.42|N|To Yotnar's Head.|
 T The Shattered Watcher|QID|39593|M|46.75,44.42|N|To Yotnar's Head.|
-A A Trial of Might|QID|39594|M|46.75,44.42|N|From Yotnar.|
-C A Trial of Might|QID|39594|M|49.46,42.24|Z|AggramarsVault|QO|1|NC|N|Go into the Vault and learn about the Trial of Might. Click on the console to start the trial.| ; Emma
+A A Trial of Might|QID|39594|PRE|39591;39592;39593|M|46.75,44.42|N|From Yotnar.|
+C A Trial of Might|QID|39594|M|54.59,20.15|Z|AggramarsVault|QO|1|NC|N|Go into the Vault and learn about the Trial of Might. Click on the console to start the trial.| ; Emma
 C A Trial of Might|QID|39594|M|49.45,43.25|Z|AggramarsVault|QO|2|N|Now fight Yotnar.| ; Emma
 T A Trial of Might|QID|39594|M|46.33,44.79|N|To Yotnar.|
-A The Blessing of the Watchers|QID|39597|M|46.33,44.79|N|From Yotnar.|
-C The Blessing of the Watchers|QID|39597|M|46.33,44.79|QO|1|CHAT|N|Ask Yotnar for his blessing.| ; Emma
-C A Worthy Challenger-Bonus Objective|US|QID|38442|M|49.73,40.88|N|Finish this up or click it off manually.|
-t A Worthy Challenger-Bonus Objective|QID|38442|M|42.99,41.03|N|Auto turned in when complete.|
+A The Blessing of the Watchers|QID|39597|PRE|39594|M|46.33,44.79|N|From Yotnar.|
+C The Blessing of the Watchers|QID|39597|M|46.33,44.79|QO|1|CHAT|N|Ask Yotnar for his blessing, then listen (or just wait) for a bit to receive Yotnar's Blessing.| ; Emma
+C A Worthy Challenger-Bonus Objective|US|QID|38442|M|49.73,40.88|N|Finish this up or click it off manually.|RANK|2|
+t A Worthy Challenger-Bonus Objective|QID|38442|M|42.99,41.03|N|Auto turned in when complete.|RANK|2|
 T The Blessing of the Watchers|QID|39597|M|43.17,49.15|N|To Havi.|
-A Will of the Thorignir|QID|38473|M|43.17,49.15|N|From Havi.| ; Faction Specific
+A Will of the Thorignir|QID|38473|PRE|39597|M|43.17,49.15|N|From Havi.| ; Alliance 38473, Horde 38611
 
 ; The Trial of Will (Cry Thunder!)
+
 R Lorna's Watch|QID|38473|ACTIVE|38473|M|40.34,51.45;45.11,54.33;42.85,59.10;38.32,63.60|CS|N|Lets ride on to Hrydshal and then to the Watch.|
 f Lorna's Watch|QID|38473|M|37.41,63.99|N|At Donovan.|
 T Will of the Thorignir|QID|38473|M|37.38,63.85|N|To Commander Lorna Crowley.|
 A A Grapple a Day|QID|38312|PRE|38473|M|37.38,63.85|N|From Commander Lorna Crowley.|
 C A Grapple a Day|QID|38312|M|37.37,63.79|QO|1|N|Stormforged Grapple Launcher|
-$ Treasure Chest|QID|38486|M|39.47,65.17|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|;moved you walk right past it
+$ Treasure Chest|QID|38486|M|39.47,65.17|N|While you are running to the wall, get the chest under tent. Loot for a bit of treasure and resorces.|;moved you walk right past it
 T A Grapple a Day|QID|38312|M|42.02,64.48|N|To Commander Lorna Crowley.|
-A No Wings Required|QID|38318|M|42.02,64.48|QO|2|N|From Commander Lorna Crowley.|
-A To Weather the Storm|QID|38405|M|42.02,64.48|N|From Commander Lorna Crowley.|
+A No Wings Required|QID|38318|PRE|38312|M|42.02,64.48|QO|2|N|From Commander Lorna Crowley.|
+A To Weather the Storm|QID|38405|PRE|38312|M|42.02,64.48|N|From Commander Lorna Crowley.|
 C No Wings Required|QID|38318|M|42.88,64.85|QO|1|N|Click on the hook with the big Yellow Arrow and grapple over the wall|
+A Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto-accepted when you enter the area.|RANK|2|LVL|-109|
+C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|S|N|Go about your quests to advance this objective.|RANK|2|
+C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;164|S|N|Kill Vrykul to get the Bindings.|
 A Built to Scale|QID|38337|M|43.46,64.40|N|Kill a Stormwing Drake to get this quest from the UI.|
-A Assault the Drekirjar-Bonus Objective|QID|38374|LVL|-109|M|42.88,64.85|N|From UI upon entering Hrydshal.|
 C Built to Scale|QID|38337|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.| ;keep sticky while you're in the area
 C To Weather the Storm|QID|38405|M|45.68,66.64|QO|3|N|Loot Oiled Cloak|
 $ Treasure Chest|QID|38474|M|42.6,65.80|N|Loot for a bit of treasure and resources.|
@@ -265,70 +278,75 @@ C To Weather the Storm|QID|38405|M|41.86,68.40|QO|2|N|Loot Climbing Treads|
 T No Wings Required|QID|38318|M|43.79,68.21|N|To Commander Lorna Crowley.|
 T To Weather the Storm|QID|38405|M|43.79,68.21|N|To Commander Lorna Crowley.|
 A Impalement Insurance|QID|38410|PRE|38405|M|43.79,68.21|N|From Commander Lorna Crowley.|
+K Vestment Opportunity|QID|40178|M|45.6,67.2|Z|Stormheim|P|Leatherworking;164|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
 C Impalement Insurance|QID|38410|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
 $ Treasure Chest|QID|38489|M|44.16,69.98|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|; Emma!
 K Kill Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the others in the Mead Hall, then you can take on Thane. Kill and loot for some treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|  ; Emma
 C Impalement Insurance|QID|38410|M|46.09,70.99|US|NC|N|Finish up destroying Harpoon Launchers.|
 C Built to Scale|QID|38337|M|45.05,66.45|US|N|Kill drakes and loot the 'Storm Drake Scales'.|
+C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;164|US|QO|1|N|Kill Vrykul to get the Bindings.|
 T Impalement Insurance|QID|38410|M|46.25,70.37|N|To Commander Lorna Crowley.|
 T Built to Scale|QID|38337|M|46.25,70.36|N|To Commander Lorna Crowley.|
 A Another Way|QID|38342|PRE|38410|M|46.25,70.37|N|From Commander Lorna Crowley.|
-C Another Way|QID|38342|M|46.24,72.39|QO|1|N|Kill Gunnlaug Scaleheart|
-C Another Way|QID|38342|M|45.70,73.12|QO|2|N|Climb the Tower|
+C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|US|N|Stay and finish if you want, or manually click it off.|RANK|2|
+t Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto turned in when complete.|RANK|2|
+K Another Way|QID|38342|M|46.24,72.39|QO|1|T|Gunnlaug Scaleheart|N|Kill Gunnlaug Scaleheart|
+C Another Way|QID|38342|M|45.70,73.12|QO|2|N|Climb the Tower. Turn in at Top, BEFORE grappling across.|
 T Another Way|QID|38342|M|45.62,73.09|N|To Commander Lorna Crowley.|
 A Above the Winter Moonlight|QID|38412|PRE|38342|M|45.65,73.08|N|From Commander Lorna Crowley.|
+
 C Above the Winter Moonlight|QID|38412|M|46.36,74.37|QO|1|N|Grapple to the Mountain Path|
-$ Small Treasure Chest|QID|38476|M|48.13,74.22|N|Beside the waterfall, loot for a bit of treasure and resources.|
-K Kill Stormwing Matriarch|QID|38423|M|49.6,71.6|T|Stormwing Matriarch|QO|1|ITEM|129110|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|
-U Stormwing Whelpling|QID|38423|M|49.6,71.6|U|129208|N|Click to add pet to your collection.|
-C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Stay and finish if you want, or manually click it off.|
-t Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto turned in when complete.|
-$ Small Treasure Chest|QID|38485|M|49.24,76.99;49.76,77.99|CS|N|One grapple point off the trail, you will find a chest in this niche. Loot for treasure and resources, then back to traveling upwards on the trail.|
-K Kill Bladesquall|QID|38431|M|45.88,77.37|QO|1|ITEM|129048|T|Bladesquall|N|Grapple across the defunct bridge for this silver - Kill and loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|38476|M|48.13,74.22|N|Beside the waterfall, loot for a bit of treasure and resources.|RANK|2|
+K Kill Stormwing Matriarch|QID|38423|M|49.6,71.6|T|Stormwing Matriarch|QO|1|ITEM|129110|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|RANK|2|
+U Stormwing Whelpling|QID|38423|M|49.6,71.6|U|129208|N|Click to add pet to your collection.|RANK|2|
+$ Small Treasure Chest|QID|38485|M|49.24,76.99;49.76,77.99|CS|N|One grapple point off the trail, you will find a chest in this niche. Loot for treasure and resources, then back to traveling upwards on the trail.|RANK|2|
+K Kill Bladesquall|QID|38431|M|45.88,77.37|QO|1|ITEM|129048|T|Bladesquall|N|Grapple across the defunct bridge for this silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Above the Winter Moonlight|QID|38412|M|44.26,77.56|QO|2|N|Reach the Top of the Path|
 T Above the Winter Moonlight|QID|38412|M|44.82,77.41|N|To Vethir.|
-A Heart of a Dragon|QID|38414|M|44.79,77.40|N|From Vethir.|
-A Wings of Liberty|QID|38413|M|44.79,77.40|N|From Vethir.|
-A Fury of the Storm|QID|40568|M|44.79,77.40|N|From Vethir.|
-C Fury of the Storm|QID|40568|M|44.79,77.40|S|N|Kill vrykyl.|
+A Heart of a Dragon|QID|38414|PRE|38412|M|44.79,77.40|N|From Vethir.|
+A Wings of Liberty|QID|38413|PRE|38412|M|44.79,77.40|N|From Vethir.|
+A Fury of the Storm|QID|40568|PRE|38412|M|44.79,77.40|N|From Vethir.|
+C Fury of the Storm|QID|40568|M|44.79,77.40|S|N|Kill Drekirjar vrykyl.|
 C Wings of Liberty|QID|38413|M|45.86,78.75|QO|2|NC|N|Free Hrafsir.|
-$ Treasure Chest|QID|38481|M|46.77,80.40|N|Look South-Southeast from Hrafsir, Hook to the chest, loot for treasure and resources.|
+$ Treasure Chest|QID|38481|M|46.55,79.35;46.77,80.40|CS|N|First point is a hook point, hook to the chest, loot for treasure and resources.|RANK|2|
 C Wings of Liberty|QID|38413|M|49.07,81.07|QO|1|NC|N|Free Aleifir.|
-K Kill Fathnyr|QID|38425|M|46.67,83.68|QO|1|ITEM|129206|T|Fathnyr|N|Silver - In a small cave roughly above Hridmogir, easiert reached from hook points starting at the cave Aleifir was in. Loot for a bit of resources and treasure.|
+K Kill Fathnyr|QID|38425|M|46.67,83.68|QO|1|ITEM|129206|T|Fathnyr|N|Silver - In a small cave roughly above Hridmogir, easiert reached from hook points starting at the cave Aleifir was in. Loot for a bit of resources and treasure.|RANK|2|
 C Wings of Liberty|QID|38413|M|45.73,82.14|QO|4|NC|N|Free Hridmogir.|
 C Wings of Liberty|QID|38413|M|44.12,80.67|QO|3|NC|N|Free Erilar.|
-$ Small Treasure Chest|QID|43239|M|44.30,79.88;43.70,80.09|CS|N|On the top of the spire, hook you way up and loot for treasure and resources.|
-C Heart of a Dragon|QID|38414|M|42.31,81.89|Z|1217/25|QO|1|N|Find the Thorignir Mother.|
-C Heart of a Dragon|QID|38414|M|41.75,81.46|Z|1217/25|QO|2|T|Azariah|N|Kill Azariah.|
+$ Small Treasure Chest|QID|43239|M|44.30,79.88;43.70,80.09|CS|N|On the top of the spire, hook you way up and loot for treasure and resources.|RANK|2|
+C Heart of a Dragon|QID|38414|M|42.31,81.89|Z|Stormheim/25|QO|1|N|Find the Thorignir Mother.|
+C Heart of a Dragon|QID|38414|M|41.75,81.46|Z|Stormheim/25|QO|2|T|Azariah|N|Kill Azariah.|
 C Fury of the Storm|QID|40568|M|44.07,82.69|US|N|Finish killing the vrykul.|
 T Heart of a Dragon|QID|38414|M|42.75,82.73|N|To Vethir.|
 T Wings of Liberty|QID|38413|M|42.81,82.69|N|To Vethir.|
 T Fury of the Storm|QID|40568|M|42.75,82.73|N|To Vethir.|
-A Where Dragons Rule|QID|39652|M|42.75,82.73|N|From Vethir.|
+A Where Dragons Rule|QID|39652|PRE|38414;38413;40568|M|42.75,82.73|N|From Vethir.|
 C Where Dragons Rule|QID|39652|M|41.27,80.05|QO|1|CHAT|N|Hop on the dragon for a flight to the top of Thorim's Peak.|
 C Where Dragons Rule|QID|39652|M|40.87,80.94|QO|2|CHAT|N|Speak to Thrymjaris.|
 T Where Dragons Rule|QID|39652|M|40.87,80.94|N|To Thrymjaris.|
-A Cry Thunder!|QID|38624|M|40.87,80.94|N|From Thrymjaris.|
+A Cry Thunder!|QID|38624|PRE|39652|M|40.87,80.94|N|From Thrymjaris.|
 C Cry Thunder!|QID|38624|M|41.25,80.01|QO|1|NC|N|Hop on the Vethir to begin the Assault on Hrydshal.|
 C Cry Thunder!|QID|38624|M|43.60,70.78|QO|2|NC|N|Standard bombing run, if one of the vrykal gets on your dragon, use ability 2.|
-C Cry Thunder!|QID|38624|M|47.46,54.27|QO|3|NC|N|Your ride returns to near Cullen's post.|
+C Cry Thunder!|QID|38624|M|47.46,54.27|QO|3|NC|N|Your ride returns to near Amberfall Mesa.|
 T Cry Thunder!|QID|38624|M|48.07,54.58|N|To Huginn.|
-A The Trials Continue|QID|39803|M|47.91,54.63|N|From Huginn.
+A The Trials Continue|QID|39803|PRE|38624|M|47.91,54.63|N|From Huginn.
 
 ; Side Excursions
+
 K Kill Tiptog the Lost|QID|38774|M|46.29,50.01|T|Tiptog the Lost|QO|1|ITEM|129163|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Glimmering Treasure Chest|QID|38763|M|49.70,49.20;49.69,47.28|CS|N|Dodge the energy beams, open the chest, be ready to fight.  Loot for a bit of treasure and resources.|RANK|2|
+R Talonrest|QID|39789|M|50.01,53.91|N|Run to Talonrest, for some quests.|RANK|2|
 A Eating Into Our Business|QID|39789|M|51.46,56.95|N|From Ootasa Galehoof.|RANK|2|
 C Eating Into Our Business|QID|39789|M|48.54,56.93|S|N|Kill Duskpelt worg.|RANK|2|
 $ Small Treasure Chest|QID|43207|M|49.07,60.00|N|Loot for a bit of treasure and resources.|RANK|2|
 C Eating Into Our Business|QID|39789|M|48.54,56.93|US|N|Finish killing Duskpelt worg.|RANK|2|
 T Eating Into Our Business|QID|39789|M|51.46,57.06|N|To Rax Sixtrigger.|RANK|2|
-A Only the Finest|QID|39793|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|2|
-A Rigging the Wager|QID|39787|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
+A Only the Finest|QID|39793|PRE|39789|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|2|
+A Rigging the Wager|QID|39787|PRE|39789|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
 R Nastrondir|QID|39793|ACTIVE|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the Sword and into Nastrondir.|RANK|2| ; Emma
 A The Brood of Nithogg-Bonus Objective|QID|42431|LVL|-109|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|
-C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Kill the drakes and pick up eggs to advance the objective. Click off manually.|RANK|2| ; Emma
+C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|S|N|Kill the drakes and pick up eggs to advance the objective.|RANK|2| ; Emma
 C Only the Finest|QID|39793|M|44.14,37.51|S|N|Kill goats to collect the patches of goat hair.|RANK|2|
 $ Small Treasure Chest|QID|43238|M|43.14,39.01;43.17,40.49|CS|N|Hook out to find chest, loot for treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|43240|M|44.06,37.88;44.99,38.24|CS|N|Use grapple points to get to this treasure. Loot for a bit of treasure and resources.|RANK|2|
@@ -337,12 +355,12 @@ $ Glimmering Treasure Chest|QID|43189|M|42.12,35.72;42.46,34.08|CS|ITEM|141896|N
 K Kill Egyl the Enduring|QID|40068|M|41.77,34.11|QO|1|ITEM|132898|N|There is a cave under the statue. Go inside to find Egyl. Kill and loot for a bit of treasure and resources.|RANK|2|
 C Only the Finest|QID|39793|M|44.14,37.51|US|N|Finish collecting the patches of goat hair.|RANK|2|
 C Rigging the Wager|QID|39787|M|48.87,34.07;48.24,32.81|CS|QO|1|N|There is a grapple point to his nest above. Fight with your back to the wall, so you dont get thrown off. Kill and loot his beak.|RANK|2|
-C The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|N|Finish or click off manually.|RANK|2| ; Emma
+C The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|US|N|Finish or click off manually.|RANK|2| ; Emma
 t The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|N|Auto turned in upon completion.|RANK|2|
 A Plight of the Blackfeather|QID|42444|M|50.32,34.00|N|From Frightened Ravenbear.|RANK|2|
 T Plight of the Blackfeather|QID|42444|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
-A Singed Feathers|QID|42446|M|49.79,32.63|N|From Cukkaw.|RANK|2|
-A Nithogg's Tribute|QID|42445|M|49.97,32.65|N|From Intact Greatstag Antler.|RANK|2|
+A Singed Feathers|QID|42446|PRE|42444|M|49.79,32.63|N|From Cukkaw.|RANK|2|
+A Nithogg's Tribute|QID|42445|PRE|42444|M|49.97,32.65|N|From Intact Greatstag Antler.|RANK|2|
 C Singed Feathers|QID|42446|M|49.68,29.95|S|N|Kill Rampaging Squallhunters.|RANK|2|
 C Nithogg's Tribute|QID|42445|M|50.32,33.21|S|N|Kill (and loot) Greatstags and Eagles in this area.|RANK|2|
 K Kill Starbuck|QID|42437|M|54.70,29.21|QO|1|ITEM|130132|T|Starbuck|N|Kill and loot for a bit of treasure and resources.|RANK|2|
@@ -350,18 +368,19 @@ C Nithogg's Tribute|QID|42445|M|50.32,33.21|US|N|Finish collecting feathers and 
 C Singed Feathers|QID|42446|M|49.68,29.95|US|N|Finish killing Rampaging Squallhunters.|RANK|2|
 T Singed Feathers|QID|42446|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
 T Nithogg's Tribute|QID|42445|M|49.79,32.64|N|To Cukkaw.|RANK|2|
-A Dances With Ravenbears|QID|42447|M|49.79,32.64|N|From Cukkaw.|RANK|2|
+A Dances With Ravenbears|QID|42447|PRE|42445;42446|M|49.79,32.64|N|From Cukkaw.|RANK|2|
 C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (multiple times if needed). Mimic their motions 1-raise arms, 2-spin, 3-flap wings, |RANK|2|
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|QID|42447|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
 F Lorna's Watch|QID|39787|M|51.98,34.81|N|Fly back to Lorna's Watch at Hillevi the Scalekeepter.|RANK|2|
-K Hook & Sinker|QID|38625|M|42.09,57.66|ITEM|129109|N|A nice pair of Rares|RANK|2|
+K Hook & Sinker|QID|38625|M|42.05,57.84|QO|1|ITEM|129109|T|Hook|N|Silver - Kill and loot for a bit of loot and Treasure.|RANK|2|
 T Rigging the Wager|QID|39787|M|51.33,56.98|N|To Snaggle Sixtrigger.|RANK|2|
 T Only the Finest|QID|39793|M|51.36,57.28|N|To Rax Sixtrigger.|RANK|2|
-A A Stack of Racks|QID|39792|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
-A A Stone Cold Gamble|QID|39786|M|51.32,56.95|N|From Snaggle Sixtrigger.|RANK|2|
-$ Small Treasure Chest|QID|38477|M|42.33,61.12|N|Kill the basilisk curled around the treasure and then its yours. Kite him around to escape his AOE and interrupt his glare. Loot for treasure and resources.|RANK|2|
+A A Stack of Racks|QID|39792|PRE|39787;39793|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
+A A Stone Cold Gamble|QID|39786|PRE|39787;39793|M|51.32,56.95|N|From Snaggle Sixtrigger.|RANK|2|
+$ Small Treasure Chest|QID|38477|M|42.33,61.12|N|If you are careful, you can get without waking the Basilisk. Otherwise kill the basilisk curled around the treasure and then its yours. Kite him around to escape his AOE and interrupt his glare. Loot for treasure and resources.|RANK|2|
 C A Stone Cold Gamble|QID|39786|M|46.66,61.04|T|Stonefang|N|Keep moving around, the groundspikes put out serious damage. Loot Stonefang's Jaw.|RANK|2|
+
 $ Small Treasure Chest|QID|38681|M|47.25,61.72;47.63,63.29;48.19,64.19;48.18,65.20;46.60,64.96|CS|N|Across the waterfall, inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|
 T A Stone Cold Gamble|QID|39786|M|51.31,56.99|N|To Snaggle Sixtrigger.|RANK|2|

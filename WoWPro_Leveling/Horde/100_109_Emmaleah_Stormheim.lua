@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-12-05 07:09
+-- Who: Blanckaert
+-- Log: adding of PREs
+
+-- URL: http://wow-pro.com/node/3680/revisions/28095/view
+-- Date: 2016-12-04 22:17
+-- Who: Blanckaert
+-- Log: added PREs to the Trial of Might section.
+
+-- URL: http://wow-pro.com/node/3680/revisions/27947/view
 -- Date: 2016-10-22 06:52
 -- Who: Emmaleah
 -- Log: found QID for "the blightcaller" (Makrura Wave Event 38422)
@@ -156,15 +166,17 @@ $ Treasure Chest|QID|38529|M|80.89,48.83;20.03,41.23|Z|1017/9|CS|N|Inside the dr
 $ Small Treasure Chest|QID|43196|M|32.93,48.10;32.06,47.20|CS|N|You don't have to wake the sleeping drakes. Loot for a bit of treasure and resources.|RANK|3|
 R Stony Highlands|QID|38626|M|34.36,43.06|N|Back from our treasure hunting sidetrip.|RANK|3|
 
+; The Trial Of Might
+
 K Kill Bloodstalker Alpha|QID|38626|M|38.42,42.80|QO|1|ITEM|129101|T|Bloodstalker Alpha|N|He roams this part of the valley. Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 T The Ancient Trials|QID|38459|M|38.13,40.88;41.17,40.59;41.83,43.06|CS|N|To Havi.|
-A Havi's Test|QID|38331|M|41.83,43.06|N|From Havi.|
+A Havi's Test|QID|38331|PRE|38459|M|41.83,43.06|N|From Havi.|
 C Havi's Test|QID|38331|M|41.68,42.83|QO|1|NC|N|Click on the vegetables, face the stewpot, adjust angle if needed and press "4".|
 C Havi's Test|QID|38331|M|41.60,42.61|QO|2|NC|N|Click on the crabs, face the stewpot, adjust angle if needed and press "4".|
 C Havi's Test|QID|38331|M|41.82,42.75|QO|3|NC|N|Click on the hearty grains, face the stewpot, adjust angle if needed and press "4".|
 T Havi's Test|QID|38331|M|41.83,43.06|N|To Havi.|
 
-A Ahead of the Game|QID|39590|M|41.83,43.06|N|From Havi.|
+A Ahead of the Game|QID|39590|PRE|38331|M|41.83,43.06|N|From Havi.|
 A A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|N|Auto Accepted upon entering the area.|RANK|2|LVL|-109|
 C A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|S|N|Kill Bloodtotems, Mightstones and Felskorn and destroy totems and banners to advance the objective.|RANK|2|
 A Blood and Gold|QID|39595|M|42.54,43.08|N|From Challengers Tribute, you just looted.|
@@ -175,10 +187,10 @@ C Ahead of the Game|QID|39590|M|45.43,48.06|NC|QO|3|N|Check out his camp.|
 C Ahead of the Game|QID|39590|M|44.82,40.61|T|Slash Gutspill|QO|1|N|Kill and loot the Gutspill Champion's Head.|
 C Blood and Gold|QID|39595|M|42.90,46.53|US|N|Keep at it until you find enough Challenger's Tribute.|
 T Ahead of the Game|QID|39590|M|46.75,44.41|N|To Yotnar's Head.|
-A A Trial of Valor|QID|39591|M|46.75,44.41|N|From Yotnar's Head.|
+A A Trial of Valor|QID|39591|PRE|39590|M|46.75,44.41|N|From Yotnar's Head.|
 T Blood and Gold|QID|39595|M|46.75,44.41|N|To Yotnar's Head.|
-A A Trial of Will|QID|39592|M|46.75,44.41|N|From Yotnar's Head.|
-A The Shattered Watcher|QID|39593|M|46.75,44.41|N|From Yotnar's Head.|
+A A Trial of Will|QID|39592|PRE|39590|M|46.75,44.41|N|From Yotnar's Head.|
+A The Shattered Watcher|QID|39593|PRE|39590|M|46.75,44.41|N|From Yotnar's Head.|
 C The Shattered Watcher|QID|39593|M|48.76,46.12|QO|3|NC|N|Yotnar's Left Foot.|
 C The Shattered Watcher|QID|39593|M|49.21,45.59|QO|2|NC|N|Yotnar's Right Arm.|
 C A Trial of Will|QID|39592|M|48.73,47.59|QO|1|NC|N|You can use the grapple point to skip mobs or fight your way up. Learn about the Trial of Will.|
@@ -186,32 +198,36 @@ C The Shattered Watcher|QID|39593|M|48.02,47.58|QO|1|NC|N|Yotnar's Left Arm.|
 C A Trial of Valor|QID|39591|M|50.49,44.78|QO|1|NC|N|Learn about the Trial of Valor.|
 $ Treasure Chest|QID|38483|M|50.13,42.10;50.32,41.00|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 C The Shattered Watcher|QID|39593|M|48.69,41.71|QO|4|NC|N|Yotnar's Right Foot.|
-$ Treasure Chest|QID|43246|M|48.48,41.28;50.54,41.24|CS|N|Standing at the first coordinate, look up and northeast. Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure Chest|QID|43246|M|48.48,41.28;48.89,40.92;49.52,40.96;50.14,40.77|CS|N|Standing at the first coordinate, look up and northeast.  Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.|RANK|2|
+
 T A Trial of Valor|QID|39591|M|46.75,44.42|N|To Yotnar's Head.|
 T A Trial of Will|QID|39592|M|46.75,44.42|N|To Yotnar's Head.|
 T The Shattered Watcher|QID|39593|M|46.75,44.42|N|To Yotnar's Head.|
-A A Trial of Might|QID|39594|M|46.75,44.42|N|From Yotnar.|
-C A Trial of Might|QID|39594|M|49.45,42.18|Z|AggramarsVault|QO|1|NC|N|Go into the Vault and learn about the Trial of Might. Click on the console to start the trial.|
+A A Trial of Might|QID|39594|PRE|39591;39592;39593|M|46.75,44.42|N|From Yotnar.|
+C A Trial of Might|QID|39594|M|54.59,20.15|Z|AggramarsVault|QO|1|NC|N|Go into the Vault and learn about the Trial of Might. Click on the console to start the trial.|
 C A Trial of Might|QID|39594|M|49.45,43.25|Z|AggramarsVault|QO|2|N|Now fight Yotnar.|
 T A Trial of Might|QID|39594|M|46.33,44.79|N|To Yotnar.|
-A The Blessing of the Watchers|QID|39597|M|46.33,44.79|N|From Yotnar.|
+A The Blessing of the Watchers|QID|39597|PRE|39594|M|46.33,44.79|N|From Yotnar.|
 C The Blessing of the Watchers|QID|39597|M|46.33,44.79|CHAT|N|Ask Yotnar for his blessing, then listen (or just wait) for a bit to receive Yotnar's Blessing.|
 C A Worthy Challenger-Bonus Objective|US|QID|38442|M|49.73,40.88|N|Finish this up or click it off manually.|RANK|2|
 t A Worthy Challenger-Bonus Objective|QID|38442|M|42.99,41.03|N|Auto turned in when complete.|RANK|2|
 T The Blessing of the Watchers|QID|39597|M|41.84,43.07|N|To Havi.|
-A Will of the Thorignir|QID|38611|M|41.84,43.07|N|From Havi.|
+A Will of the Thorignir|QID|38611|PRE|39597|M|41.84,43.07|N|From Havi.| ; Alliance 38473, Horde 38611
 
-R Amberfall Mesa|QID|38611|M|45.07,50.26|N|Run back down through the Valley of Swords and towards Cullen's Post.|
+; The Trial of Will (Cry Thunder!)
+
+R Amberfall Mesa|QID|38611|ACTIVE|38611|M|45.07,50.26|N|Run back down through the Valley of Swords and towards Cullen's Post.|
 f Cullen's Post|QID|38611|M|44.87,59.12|N|At Duchess.|
 T Will of the Thorignir|QID|38611|M|44.81,59.36|N|To Dread-Rider Cullen.|
-A A Grapple a Day|QID|38612|M|44.81,59.36|N|From Dread-Rider Cullen.|
+A A Grapple a Day|QID|38612|PRE|38611|M|44.81,59.36|N|From Dread-Rider Cullen.|
 T A Grapple a Day|QID|38612|M|46.55,67.81|N|To Dread-Rider Cullen.|
-A No Wings Required|QID|38613|M|46.55,67.81|N|From Dread-Rider Cullen.|
-A To Weather the Storm|QID|38614|M|46.55,67.81|N|From Dread-Rider Cullen.|
+A No Wings Required|QID|38613|PRE|38612|M|46.55,67.81|N|From Dread-Rider Cullen.|
+A To Weather the Storm|QID|38614|PRE|38612|M|46.55,67.81|N|From Dread-Rider Cullen.|
 C No Wings Required|QID|38613|M|45.86,67.84|NC|N|Click on the grapple point on top of the wall.|
 
 A Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto-accepted when you enter the area.|RANK|2|LVL|-109|
 C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|S|N|Go about your quests to advance this objective.|RANK|2|
+C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;164|S|N|Kill Vrykul to get the Bindings.|
 A Built to Scale|QID|38616|M|45.05,66.45|N|From a scale you loot off the first Stormwing Drake you kill.|
 C Built to Scale|QID|38616|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.|
 C To Weather the Storm|QID|38614|M|45.67,66.61|QO|3|NC|N|Pick up the Oiled Cloak.|
@@ -221,70 +237,75 @@ C To Weather the Storm|QID|38614|M|41.91,68.34|QO|2|NC|N|Pick up the Climbing Tr
 C To Weather the Storm|QID|38614|M|43.99,66.97|QO|1|T|Stormbreaker Reykir|N|Kill Stormbreaker Reykir and loot the Enchanted Lodestone.|
 T No Wings Required|QID|38613|M|43.70,67.86|N|To Dread-Rider Cullen.|
 T To Weather the Storm|QID|38614|M|43.71,67.89|N|To Dread-Rider Cullen.|
-A Impalement Insurance|QID|38615|M|43.71,67.89|N|From Dread-Rider Cullen.|
+A Impalement Insurance|QID|38615|PRE|38614|M|43.71,67.89|N|From Dread-Rider Cullen.|
 C Impalement Insurance|QID|38615|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
 $ Treasure Chest|QID|38486|M|39.58,65.18|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|RANK|2|
+K Vestment Opportunity|QID|40178|M|45.6,67.2|Z|Stormheim|P|Leatherworking;164|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
 $ Treasure Chest|QID|38489|M|44.16,69.97|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|RANK|2|
 K Kill Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the others in the Mead Hall, then you can take on Thane. Kill and loot for some treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|RANK|2|
 C Impalement Insurance|QID|38615|M|46.09,70.99|US|NC|N|Finish up destroying Harpoon Launchers.|
 C Built to Scale|QID|38616|M|45.80,70.85|US|N|Finish collecting the scales.|
+C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;164|US|QO|1|N|Kill Vrykul to get the Bindings.|
 T Impalement Insurance|QID|38615|M|47.00,71.74|N|To Dread-Rider Cullen.|
-A Another Way|QID|38617|M|47.00,71.74|N|From Dread-Rider Cullen.|
+A Another Way|QID|38617|PRE|38615|M|47.00,71.74|N|From Dread-Rider Cullen.|
 T Built to Scale|QID|38616|M|47.00,71.74|N|To Dread-Rider Cullen.|
-C Another Way|QID|38617|M|46.13,72.47|QO|1|N|Kill Gunnlaug Scaleheart.|T|Gunnlaug Scaleheart|
-C Another Way|QID|38617|M|45.75,73.05|QO|2|NC|N|Climb the Tower.|
+C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|US|N|Stay and finish if you want, or manually click it off.|RANK|2|
+t Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto turned in when complete.|RANK|2|
+K Another Way|QID|38617|M|46.13,72.47|QO|1|N|Kill Gunnlaug Scaleheart.|T|Gunnlaug Scaleheart|
+C Another Way|QID|38617|M|45.75,73.05|QO|2|NC|N|Climb the Tower. Turn in at Top, BEFORE grappling across.|
 T Another Way|QID|38617|M|45.99,72.60|N|To Dread-Rider Cullen.|
-A Above the Winter Moonlight|QID|38618|M|45.99,72.60|N|From Dread-Rider Cullen.|
+A Above the Winter Moonlight|QID|38618|PRE|38617|M|45.99,72.60|N|From Dread-Rider Cullen.|
 
 C Above the Winter Moonlight|QID|38618|QO|1|M|46.36,74.37|NC|N|Click on the grapple point on the path.|
 $ Small Treasure Chest|QID|38476|M|48.13,74.22|N|Beside the waterfall, loot for a bit of treasure and resources.|RANK|2|
 K Kill Stormwing Matriarch|QID|38423|M|49.6,71.6|T|Stormwing Matriarch|QO|1|ITEM|129110|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|RANK|2|
 U Stormwing Whelpling|QID|38423|M|49.6,71.6|U|129208|N|Click to add pet to your collection.|RANK|2|
-C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|US|N|Stay and finish if you want, or manually click it off.|RANK|2|
-t Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto turned in when complete.|RANK|2|
 $ Small Treasure Chest|QID|38485|M|49.24,76.99;49.76,77.99|CS|N|One grapple point off the trail, you will find a chest in this niche. Loot for treasure and resources, then back to traveling upwards on the trail.|RANK|2|
 K Kill Bladesquall|QID|38431|M|45.88,77.37|QO|1|ITEM|129048|T|Bladesquall|N|Grapple across the defunct bridge for this silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Above the Winter Moonlight|QID|38618|M|44.22,77.53|QO|2|N|Reach the Top of the Path.|
 T Above the Winter Moonlight|QID|38618|M|44.79,77.40|N|To Vethir.|
-A Heart of a Dragon|QID|38414|M|44.79,77.40|N|From Vethir.|
-A Wings of Liberty|QID|38413|M|44.79,77.40|N|From Vethir.|
-A Fury of the Storm|QID|40568|M|44.79,77.40|N|From Vethir.|
-C Fury of the Storm|QID|40568|M|44.79,77.40|S|N|Kill vrykyl.|
+A Heart of a Dragon|QID|38414|PRE|38618|M|44.79,77.40|N|From Vethir.|
+A Wings of Liberty|QID|38413|PRE|38618|M|44.79,77.40|N|From Vethir.|
+A Fury of the Storm|QID|40568|PRE|38618|M|44.79,77.40|N|From Vethir.|
+C Fury of the Storm|QID|40568|M|44.79,77.40|S|N|Kill Drekirjar vrykyl.|
 C Wings of Liberty|QID|38413|M|45.86,78.75|QO|2|NC|N|Free Hrafsir.|
-$ Treasure Chest|QID|38481|M|46.77,80.40|N|Look South-Southeast from Hrafsir, Hook to the chest, loot for treasure and resources.|RANK|2|
+$ Treasure Chest|QID|38481|M|46.55,79.35;46.77,80.40|CS|N|First point is a hook point, Hook to the chest, loot for treasure and resources.|RANK|2|
 C Wings of Liberty|QID|38413|M|49.07,81.07|QO|1|NC|N|Free Aleifir.|
 K Kill Fathnyr|QID|38425|M|46.67,83.68|QO|1|ITEM|129206|T|Fathnyr|N|Silver - In a small cave roughly above Hridmogir, easiert reached from hook points starting at the cave Aleifir was in. Loot for a bit of resources and treasure.|RANK|2|
 C Wings of Liberty|QID|38413|M|45.73,82.14|QO|4|NC|N|Free Hridmogir.|
 C Wings of Liberty|QID|38413|M|44.12,80.67|QO|3|NC|N|Free Erilar.|
 $ Small Treasure Chest|QID|43239|M|44.30,79.88;43.70,80.09|CS|N|On the top of the spire, hook you way up and loot for treasure and resources.|RANK|2|
-C Heart of a Dragon|QID|38414|M|42.31,81.89|Z|1217/25|QO|1|N|Find the Thorignir Mother.|
-C Heart of a Dragon|QID|38414|M|41.75,81.46|Z|1217/25|QO|2|T|Azariah|N|Kill Azariah.|
+C Heart of a Dragon|QID|38414|M|42.31,81.89|Z|Stormheim/25|QO|1|N|Find the Thorignir Mother.|
+C Heart of a Dragon|QID|38414|M|41.75,81.46|Z|Stormheim/25|QO|2|T|Azariah|N|Kill Azariah.|
 C Fury of the Storm|QID|40568|M|44.07,82.69|US|N|finish killing the vrykul.|
 T Heart of a Dragon|QID|38414|M|42.75,82.73|N|To Vethir.|
 T Wings of Liberty|QID|38413|M|42.81,82.69|N|To Vethir.|
 T Fury of the Storm|QID|40568|M|42.75,82.73|N|To Vethir.|
-A Where Dragons Rule|QID|39652|M|42.75,82.73|N|From Vethir.|
+A Where Dragons Rule|QID|39652|PRE|38414;38413;40568|M|42.75,82.73|N|From Vethir.|
 C Where Dragons Rule|QID|39652|M|41.27,80.05|QO|1|CHAT|N|Hop on the dragon for a flight to the top of Thorim's Peak.|
 C Where Dragons Rule|QID|39652|M|40.87,80.94|QO|2|CHAT|N|Speak to Thrymjaris.|
 T Where Dragons Rule|QID|39652|M|40.87,80.94|N|To Thrymjaris.|
-A Cry Thunder!|QID|38624|M|40.87,80.94|N|From Thrymjaris.|
+A Cry Thunder!|QID|38624|PRE|39652|M|40.87,80.94|N|From Thrymjaris.|
 C Cry Thunder!|QID|38624|M|41.25,80.01|QO|1|NC|N|Hop on Vethir to begin the Assault on Hrydshal.|
 C Cry Thunder!|QID|38624|M|43.60,70.78|QO|2|NC|N|Standard bombing run, if one of the vrykal gets on your dragon, use ability 2.|
 C Cry Thunder!|QID|38624|M|47.46,54.27|QO|3|NC|N|Your ride returns to near Cullen's post.|
 T Cry Thunder!|QID|38624|M|48.07,54.58|N|To Huginn.|
-A The Trials Continue|QID|39803|M|48.07,54.58|N|From Huginn.|
+A The Trials Continue|QID|39803|PRE|38624|M|48.07,54.58|N|From Huginn.|
+
+; Side Excursions
 
 K Kill Tiptog the Lost|QID|38774|M|46.29,50.01|T|Tiptog the Lost|QO|1|ITEM|129163|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Glimmering Treasure Chest|QID|38763|M|49.70,49.20;49.69,47.28|CS|N|Dodge the energy beams, open the chest, be ready to fight.  Loot for a bit of treasure and resources.|RANK|2|
+R Talonrest|QID|39789|M|50.01,53.91|N|Run to Talonrest, for some quests.|RANK|2|
 A Eating Into Our Business|QID|39789|M|51.46,56.95|N|From Ootasa Galehoof.|RANK|2|
 C Eating Into Our Business|QID|39789|M|48.54,56.93|S|N|Kill Duskpelt worg.|RANK|2|
 $ Small Treasure Chest|QID|43207|M|49.07,60.00|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Houndmaster Ely|QID|38712|M|47.10,57.20|QO|1|ITEM|129037|T|Houndmaster Ely|N|Silver - Kill and loot for a bit of loot and Treasure.|RANK|2|
 C Eating Into Our Business|QID|39789|M|48.54,56.93|US|N|Finish killing Duskpelt worg.|RANK|2|
 T Eating Into Our Business|QID|39789|M|51.46,57.06|N|To Rax Sixtrigger.|RANK|2|
-A Only the Finest|QID|39793|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|2|
-A Rigging the Wager|QID|39787|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
+A Only the Finest|QID|39793|PRE|39789|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|2|
+A Rigging the Wager|QID|39787|PRE|39789|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
 R Nastrondir|QID|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the Sword and into Nastrondir.|RANK|2|
 A The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|LVL|-109|
 C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|S|N|Kill the drakes and pick up eggs to advance the objective.|RANK|2|
@@ -300,8 +321,8 @@ C The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|US|N|Finish or cl
 t The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|N|Auto turned in upon completion.|RANK|2|
 A Plight of the Blackfeather|QID|42444|M|50.32,34.00|N|From Frightened Ravenbear.|RANK|2|
 T Plight of the Blackfeather|QID|42444|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
-A Singed Feathers|QID|42446|M|49.79,32.63|N|From Cukkaw.|RANK|2|
-A Nithogg's Tribute|QID|42445|M|49.97,32.65|N|From Intact Greatstag Antler.|RANK|2|
+A Singed Feathers|QID|42446|PRE|42444|M|49.79,32.63|N|From Cukkaw.|RANK|2|
+A Nithogg's Tribute|QID|42445|PRE|42444|M|49.97,32.65|N|From Intact Greatstag Antler.|RANK|2|
 C Singed Feathers|QID|42446|M|49.68,29.95|S|N|Kill Rampaging Squallhunters.|RANK|2|
 C Nithogg's Tribute|QID|42445|M|50.32,33.21|S|N|Kill (and loot) Greatstags and Eagles in this area.|RANK|2|
 K Kill Starbuck|QID|42437|M|54.70,29.21|QO|1|ITEM|130132|T|Starbuck|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
@@ -309,17 +330,18 @@ C Nithogg's Tribute|QID|42445|M|50.32,33.21|US|N|Finish collecting feathers and 
 C Singed Feathers|QID|42446|M|49.68,29.95|US|N|Finish killing Rampaging Squallhunters.|RANK|2|
 T Singed Feathers|QID|42446|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
 T Nithogg's Tribute|QID|42445|M|49.79,32.64|N|To Cukkaw.|RANK|2|
-A Dances With Ravenbears|QID|42447|M|49.79,32.64|N|From Cukkaw.|RANK|2|
+A Dances With Ravenbears|QID|42447|PRE|42445;42446|M|49.79,32.64|N|From Cukkaw.|RANK|2|
 C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (multiple times if needed). Mimic thier motions 1-raise arms, 2-spin, 3-flap wings, |RANK|2|
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|QID|42447|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
 F Cullen's Post|QID|39787|M|51.98,34.81|N|Fly back to Cullen's Post at Hillevi the Scalekeepter.|RANK|2|
 T Rigging the Wager|QID|39787|M|51.33,56.98|N|To Snaggle Sixtrigger.|RANK|2|
 T Only the Finest|QID|39793|M|51.36,57.28|N|To Rax Sixtrigger.|RANK|2|
-A A Stack of Racks|QID|39792|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
-A A Stone Cold Gamble|QID|39786|M|51.32,56.95|N|From Snaggle Sixtrigger.|RANK|2|
-$ Small Treasure Chest|QID|38477|M|42.33,61.12|N|Kill the basilisk curled around the treasure and then its yours. Loot for treasure and resources.|RANK|2|
+A A Stack of Racks|QID|39792|PRE|39787;39793|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
+A A Stone Cold Gamble|QID|39786|PRE|39787;39793|M|51.32,56.95|N|From Snaggle Sixtrigger.|RANK|2|
+$ Small Treasure Chest|QID|38477|M|42.33,61.12|N|If you are careful, you can get without waking the Basilisk. Otherwise kill the basilisk curled around the treasure and then its yours. Kite him around to escape his AOE and interrupt his glare. Loot for treasure and resources.|RANK|2|
 C A Stone Cold Gamble|QID|39786|M|46.66,61.04|T|Stonefang|N|Keep moving around, the groundspikes put out serious damage. Loot Stonefang's Jaw.|RANK|2|
+
 $ Small Treasure Chest|QID|38681|M|48.18,65.20;46.60,64.96|CS|N|Inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|RANK|2|
 T A Stone Cold Gamble|QID|39786|M|51.97,64.66;51.31,56.99|CS|N|To Snaggle Sixtrigger.|RANK|2|

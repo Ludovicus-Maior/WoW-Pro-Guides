@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-12-05 07:09
+-- Who: Emmaleah
+-- Log: Added $ Glimmering Treasure Chest|QID|39471|; redid the 8 lines starting with C Skies of Highmountain to reflect zone name Thunder Totem instead of Highmountain/6 some coord changes.
+
+-- URL: http://wow-pro.com/node/3678/revisions/28066/view
 -- Date: 2016-11-29 08:05
 -- Who: Emmaleah
 -- Log: Change QID for f Sylvan Falls to the next quest instead of a treasure (skipped on RANK 1)
@@ -326,6 +331,7 @@ T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 
 A Wrathshard|QID|39134|M|49.02,55.26|N|From Warbrave Nava who is back up the elevator and across the bridges.|RANK|2|
 A No Time to Talk|QID|39133|M|49.02,55.26|N|From Warbrave Nava|RANK|2|
+$ Glimmering Treasure Chest|QID|39471|M|49.82,53.49;51.19,53.03|CS|N|Before you go in the cavern, take this path up for a treasure directly above the entrance. Loot for a bit of treasure and resources.|
 C No Time to Talk|QID|39133|M|52.56,54.71|S|N|Kill Enraged Ambershards as you travel towards their boss.|RANK|2|
 C Wrathshard|QID|39134|M|54.01,54.47|T|Wrathshard|N|Kill Wrathshard.|RANK|2|
 $ Small Treasure Chest|QID|40493|M|53.05,52.21|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -618,14 +624,15 @@ T The Witchqueen|QID|39322|M|45.69,39.15|N|To Lasan Skyhorn.|
 A The Skies of Highmountain|QID|39387|M|45.69,39.15|N|From Lasan Skyhorn.|PRE|39322|
 F The Skies of Highmountain|QID|39387|QO|1|M|45.64,39.06|NC|N|Optional-Hop on Aviash for a quick ride back to Thunder Totem. (check this off manually)|
 
-C The Skies of Highmountain|QID|39387|QO|1|M|42.17,32.99|Z|Highmountain/6|CHAT|N|Meet Lasan at Thunder Totem. If you didnt come in by Aviash, he is standing in front of the Path of Sky doorway.|
+C The Skies of Highmountain|QID|39387|QO|1|M|42.17,32.99|Z|ThunderTotem|CHAT|N|Meet Lasan at Thunder Totem. If you didnt come in by Aviash, he is standing in front of the Path of Sky doorway.|
 C Unexpected Allies|QID|39456|M|35.07,43.55|Z|ThunderTotem|QO|1|CHAT|N|Meet Navarrogg just outside the Path of Earth doorway.|
-C The Skies of Highmountain|QID|39387|M|46.68,60.82|Z|Highmountain/6|QO|2|NC|N|Witness the Skyhorn Ritual.|
-C Unexpected Allies|QID|39456|M|54.80,63.04|Z|Highmountain/6|QO|2|NC|N|Wait/watch the ritual.|
-T The Skies of Highmountain|QID|39387|M|54.81,63.03|Z|Highmountain/6|N|To Mayla Highmountain.|
-T Unexpected Allies|QID|39456|M|54.80,63.04|Z|Highmountain/6|N|To Mayla Hightmountain.|
-A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|Highmountain/6|N|To Mayla Hightmountain.|PRE|39387+39456|
-R Thunder Totem (Up the elevator)|QID|42630|M|58.97,87.46|Z|Highmountain/6|CC|N|Take the elevator above for a few more quests. (manually check this step off)|
+C The Skies of Highmountain|QID|39387|M|54.80,63.04|Z|ThunderTotem|QO|2|NC|N|Witness the Skyhorn Ritual.|
+C Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem|QO|2|NC|N|Wait/watch the ritual.|
+T The Skies of Highmountain|QID|39387|M|54.81,63.03|Z|ThunderTotem|N|To Mayla Highmountain.|
+T Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem|N|To Mayla Hightmountain.|
+A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|ThunderTotem|N|To Mayla Hightmountain.|PRE|39387+39456|
+R Thunder Totem (Up the elevator)|QID|38915|M|58.97,87.46|Z|ThunderTotem|CC|N|Take the elevator above for a few more quests. (manually check this step off)|
+
 A Bolas Bastion|QID|42630|M|42.86,38.79|Z|ThunderTotem|N|From Bolas Skyfeather.|AVAILABLE|38915|RANK|2|
 C Bolas Bastion|QID|42630|M|43.38,37.81|Z|ThunderTotem|NC|N|Hop in the Bolos Launcher and shoot at the Coven Attackers.|RANK|2|
 T Bolas Bastion|QID|42630|M|42.94,38.76|Z|ThunderTotem|N|To Bolas Skyfeather.|RANK|2|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-12-05 06:59
+-- Who: Emmaleah
+-- Log: Added another treasure (bear cave) and rare (Cailyn Paledoom)
+
+-- URL: http://wow-pro.com/node/3657/revisions/28092/view
 -- Date: 2016-12-04 02:28
 -- Who: Blanckaert
 -- Log: corrected coord for QID 37649
@@ -325,6 +330,8 @@ A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscriptio
 A Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|LVL|-109|
 C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|N|Click on the mana siphons and kill mobs in the area to advance the objective.|RANK|2|
 $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure Chest|QID|42339|M|56.66,20.60;56.94,21.88;55.70,20.89;54.84,22.05;52.84,20.58|CS|N|You can walk, avoiding the sleeping bears to get to this treasure. Loot for some resources and treasure.|RANK|3|
+K Kill Cailyn Paledoom|QID|38268|M|54.03,22.37;52.43,22.90|CS|ITEM|129063|T|Cailyn Paledoom|N|Silver-Kill and Loot for a bit of treasure and resources.|RANK|3|
 C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773|LVL|102|
 C The Hunger Returns|QID|37959|M|55.62,17.50|S|N|Kill and loot the nightfallen for their charged mana jewels.|
 

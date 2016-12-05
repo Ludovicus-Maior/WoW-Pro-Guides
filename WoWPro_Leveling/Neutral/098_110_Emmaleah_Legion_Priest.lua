@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-12-05 07:14
+-- Who: Blanckaert
+-- Log: =7
+
+-- URL: http://wow-pro.com/node/3674/revisions/28087/view
 -- Date: 2016-12-02 03:09
 -- Who: Blanckaert
 -- Log: added a few missing ACTIVE tags
@@ -314,12 +319,6 @@ A A Hero's Weapon|QID|43420|M|48.50,20.22|N|From Alonsus Faol. I had to leave th
 C A Hero's Weapon|QID|43420|M|49.74,18.77|N|Stand in the circle of light and use the extra action button.|
 T A Hero's Weapon|QID|43420|M|48.50,20.22|N|To Alonsus Faol.|
 
-A The Power Within|QID|43496|M|49.68,16.98|N|From Image of Kalec. prereq seems to be AK>=10 and finishing class hall campaign. (maybe... much discussion on wowhead)|;guessing at location. I havent gotten the quest yet
-P Dalaran|QID|43496|ACTIVE|43496|M|49.72,80.67|N|Take the portal to Dalaran from your order hall.|
-F Azurewing Repose|QID|43496|ACTIVE|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
-T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
-
 ;fresh lvl 110 quests
 A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|LVL|110|
 A Goddess Watch Over You|QID|44337|M|49.74,58.86|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110.|LVL|110|
@@ -417,6 +416,12 @@ F Illidari Stand|QID|45174|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitec
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
 A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|PRE|45174|
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|;guessing on turn in
+
+A The Power Within|QID|43496|PRE|45175|M|49.68,16.98|N|From Image of Kalec. prereq seems to be AK>=10 and finishing class hall campaign. (maybe... much discussion on wowhead)|;guessing at location. I havent gotten the quest yet
+P Dalaran|QID|43496|ACTIVE|43496|M|49.72,80.67|N|Take the portal to Dalaran from your order hall.|
+F Azurewing Repose|QID|43496|ACTIVE|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
 ;2nd spec artifact
 A A Second Legend|QID|43935|M|51.61,47.81|N|From Alonsus Faol.|PRE|43371|LVL|102|
