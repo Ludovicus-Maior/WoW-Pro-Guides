@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-12-06 20:14
+-- Who: Emmaleah
+-- Log: minor tweaks, replaces lost |US| step on Turn the keys. 
+
+-- URL: http://wow-pro.com/node/3680/revisions/28105/view
+-- Date: 2016-12-06 16:36
+-- Who: Blanckaert
+-- Log: Adding of PRE Tags
+
+-- URL: http://wow-pro.com/node/3680/revisions/28103/view
 -- Date: 2016-12-05 17:47
 -- Who: Blanckaert
 -- Log: adding of PRE tags
@@ -107,7 +117,7 @@ N Ranks|QID|39864|N|Setting the guide to Rank 1 will get you all of the essentia
 T Stormheim|QID|39864|M|29.10,46.86|Z|Dalaran@Dalaran70|N|To Nathanos Blightcaller who is in the Violet Citadel.|
 A The Warchief Beckons|QID|38307|M|29.10,46.86|Z|Dalaran@Dalaran70|N|From Nathanos Blightcaller.|
 C The Warchief Beckons|QID|38307|M|29.10,46.86|Z|Dalaran@Dalaran70|NC|QO|1|U|128692|N|Read the letter from Sylvanas.|
-R Portal to Bladefist Bay|QID|38307|M|26.43,45.04|Z|Dalaran@Dalaran70|QO|2|N|Click the portal to travel to Bladefist Bay.|
+P Bladefist Bay|QID|38307|M|26.43,45.04|Z|Dalaran@Dalaran70|QO|2|N|Click the portal to travel to Bladefist Bay.|
 T The Warchief Beckons|QID|38307|M|61.34,8.93|Z|Durotar|N|To Nathanos Blightcaller.|
 A Making the Rounds|QID|39698|M|61.38,8.85|Z|Durotar|N|From Lady Sylvanas Windrunner.|
 C Making the Rounds|QID|39698|M|61.40,9.90|Z|Durotar|QO|1|NC|N|Inspect the Catapult,|
@@ -117,7 +127,7 @@ T Making the Rounds|QID|39698|M|61.50,8.77|Z|Durotar|N|To Lady Sylvanas Windrunn
 A The Splintered Fleet|QID|39801|M|61.50,8.77|Z|Durotar|N|From Lady Sylvanas Windrunner.|
 C The Windrunner|QID|39801|SO|1|M|55.36,64.92|Z|AraukNashalIntroScenario|NC|N|Report to Sylvanas.|
 C The Windrunner|QID|39801|SO|2|M|53.83,64.92|Z|AraukNashalIntroScenario|NC|N|Ride with Nathanos then hop on the Catapult and shoot down the skyfire gryphons.|
-C The Blightcaller|QID|39801|SO|3|M|42.05,54.13|Z|AraukNashalIntroScenario|N|If the Ice blast didnt knock you to the next ship, ride with Nathanos and then slay all paratroopers on The Blightcaller.|
+C The Blightcaller|QID|39801|SO|3|M|42.05,54.13|Z|AraukNashalIntroScenario|N|Ride with Nathanos to 'The Blightcaller' and then slay all paratroopers there.|
 C The Black Rose|QID|39801|SO|4|M|47.01,50.10|Z|AraukNashalIntroScenario|N|Ride with Nathanos and then slay all worgen on The Black Rose.|
 C Boarding the Skyfire|QID|39801|SO|5|M|72.63,71.44|Z|AraukNashalIntroScenario|N|Place volatile flares (at the glowing bottles) on this level and then go up the stairs and do the rest.|
 C Queen Takes King|QID|39801|SO|6|M|69.53,79.62|Z|AraukNashalIntroScenario|N|Go to the top level and fight more soldiers until Genn shows, then defeat Genn Greymane.|
@@ -245,7 +255,7 @@ T To Weather the Storm|QID|38614|M|43.71,67.89|N|To Dread-Rider Cullen.|
 A Impalement Insurance|QID|38615|PRE|38614|M|43.71,67.89|N|From Dread-Rider Cullen.|
 C Impalement Insurance|QID|38615|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
 $ Treasure Chest|QID|38486|M|39.58,65.18|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|RANK|2|
-K Vestment Opportunity|QID|40178|M|45.6,67.2|Z|Stormheim|P|Leatherworking;164|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
+K Kill Jann Harnelor|QID|40178|QO|1|M|45.6,67.2|Z|Stormheim|P|Leatherworking;164|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
 $ Treasure Chest|QID|38489|M|44.16,69.97|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|RANK|2|
 K Kill Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the others in the Mead Hall, then you can take on Thane. Kill and loot for some treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|RANK|2|
@@ -257,7 +267,7 @@ A Another Way|QID|38617|PRE|38615|M|47.00,71.74|N|From Dread-Rider Cullen.|
 T Built to Scale|QID|38616|M|47.00,71.74|N|To Dread-Rider Cullen.|
 C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|US|N|Stay and finish if you want, or manually click it off.|RANK|2|
 t Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto turned in when complete.|RANK|2|
-K Another Way|QID|38617|M|46.13,72.47|QO|1|N|Kill Gunnlaug Scaleheart.|T|Gunnlaug Scaleheart|
+K Kill Gunnlaug Scaleheart|QID|38617|M|46.13,72.47|QO|1|N|Kill Gunnlaug Scaleheart.|T|Gunnlaug Scaleheart|
 C Another Way|QID|38617|M|45.75,73.05|QO|2|NC|N|Climb the Tower. Turn in at Top, BEFORE grappling across.|
 T Another Way|QID|38617|M|45.99,72.60|N|To Dread-Rider Cullen.|
 A Above the Winter Moonlight|QID|38618|PRE|38617|M|45.99,72.60|N|From Dread-Rider Cullen.|
@@ -370,7 +380,7 @@ C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|S|N|The Bonespeaker Runeax
 K Kill Urgev the Flayer|QID|38847|M|64.88,51.82|QO|1|ITEM|129219|T|Urgev the Flayer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|N|Finish killing Bonespeaker Runeaxe.|
 $ Small Treasure Chest|QID|40083|M|67.99,57.77|N|Loot fora bit of resources and treasure.|RANK|2|
-
+C Turn the Keys|QID|38778|PRE|39796|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|US|N|Finish turning the three runestones.|;I realize green dots don't show for sticky steps, but the other steps send you to the correct spots and this catches it if you miss one (at the US step).
 T Turn the Keys|QID|38778|M|68.47,54.28|N|To Vydhar.|
 T The Runewood's Revenge|QID|39788|M|68.47,54.28|N|To Vydhar.|
 A The Dreaming Fungus|QID|38810|PRE|38778;39788|M|68.47,54.28|N|From Vydhar.|
@@ -419,12 +429,12 @@ C The Final Judgment|QID|38818|M|73.12,40.06|N|Confront Runeseer Faljar.|
 
 T The Final Judgment|QID|38818|M|65.61,47.17|Z|Helheim|N|To Ashildir.|
 A Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|N|Auto-accepted when you enter the area.|RANK|2|LVL|-109|
-A An Unworthy Task|QID|39837|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
-C Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|S|N|Freeing captives and killing Kvaldir advance the objective.|RANK|2|
+A An Unworthy Task|QID|39837|PRE|39837|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
+C Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|S|N|Freeing captives and killing Kvaldir advance the objective.|
 C An Unworthy Task|QID|39837|M|60.77,43.72|Z|Helheim|NC|N|Find Cooperative spirit.|
 T An Unworthy Task|QID|39837|M|64.56,43.43|Z|Helheim|N|To Colborn the Unworthy. When you open the door, he shows the "?", but it's hard catch him to turn in until he runs to new location.|
-A A Little Kelp From My Foes|QID|38339|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
-A Accessories of the Cursed|QID|38324|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
+A A Little Kelp From My Foes|QID|38339|PRE|39837|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
+A Accessories of the Cursed|QID|38324|PRE|39837|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
 C A Little Kelp From My Foes|QID|38339|M|67.35,39.19|Z|Helheim|S|N|Kill Kvaldir and loot the Seaweed.|
 C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|S|NC|N|Collect the Cursed Bones as you go.|
 $ Treasure Chest|QID|38509;38510|M|79.88,24.72|Z|Helheim|N|Loot for treasure and resources.|RANK|2|
@@ -434,22 +444,22 @@ C A Little Kelp From My Foes|QID|38339|M|67.35,39.19|Z|Helheim|US|N|Finish colle
 C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|US|NC|N|Finish collecting the bones.|
 T A Little Kelp From My Foes|QID|38339|M|64.58,43.40|Z|Helheim|N|To Colborn the Unworthy.|
 T Accessories of the Cursed|QID|38324|M|64.58,43.40|Z|Helheim|N|To Colborn the Unworthy.|
-A Stealth by Seaweed|QID|38347|M|64.58,43.40|Z|Helheim|N|From Colborn the Unworthy.|
+A Stealth by Seaweed|QID|38347|PRE|38339;38324|M|64.58,43.40|Z|Helheim|N|From Colborn the Unworthy.|
 C Stealth by Seaweed|QID|38347|M|47.62,33.47|Z|Helheim|NC|N|Sneak past Guarm|
 T Stealth by Seaweed|QID|38347|M|47.24,35.09|Z|Helheim|N|To Ashildir.|
-A A Desperate Bargain|QID|39848|M|47.24,35.09|Z|Helheim|N|From Ashildir.|
+A A Desperate Bargain|QID|39848|PRE|38347|M|47.24,35.09|Z|Helheim|N|From Ashildir.|
 C A Desperate Bargain|QID|39848|M|34.15,28.01|Z|Helheim|NC|N|Follow Ashildir up to Helya's throne and click on the alter to speak with Helya.|
 T A Desperate Bargain|QID|39848|M|34.15,28.01|Z|Helheim|N|To Helya's alter.|
-A The Eternal Nemesis|QID|39857|M|34.15,28.01|Z|Helheim|N|From Helya's alter.|
+A The Eternal Nemesis|QID|39857|PRE|39848|M|34.15,28.01|Z|Helheim|N|From Helya's alter.|
 T The Eternal Nemesis|QID|39857|M|46.84,49.01|Z|Helheim|N|To Ashildir.|
-A To Light the Way|QID|39849|M|46.84,49.01|Z|Helheim|N|From Ashildir.|
+A To Light the Way|QID|39849|PRE|39857|M|46.84,49.01|Z|Helheim|N|From Ashildir.|
 K Kill Soulthirster|QID|39870|M|28.27,64.80|Z|Helheim|QO|1|ITEM|129188|T|Soulthirster|N|Silver - Kill for a pet and the usual resources.|RANK|2|
 U Bleakwater Jelly|QID|39870|M|28.27,64.80|Z|Helheim|U|129188|N|Click to add to your pet collection.|RANK|2|
 $ Treasure Chest|QID|38511;38516|M|19.62,46.98|Z|Helheim|N|Loot for treasure and resources.|RANK|2|
 C To Light the Way|QID|39849|M|21.69,61.68|Z|Helheim|T|Bloodbeard|N|Bloodbeard doesn't appear until after you go up to the top deck, kill him and take his Waylight.|
 T To Light the Way|QID|39849|M|46.80,49.07|Z|Helheim|N|To Ashildir.|
-A Sundered|QID|39850|M|46.80,49.07|Z|Helheim|N|From Ashildir.|
-A Allies in Death|QID|39851|M|46.80,49.07|Z|Helheim|N|From Ashildir.|
+A Sundered|QID|39850|PRE|39849|M|46.80,49.07|Z|Helheim|N|From Ashildir.|
+A Allies in Death|QID|39851|PRE|39849|M|46.80,49.07|Z|Helheim|N|From Ashildir.|
 C Allies in Death|QID|39851|M|52.29,70.86|Z|Helheim|NC|S|N|Click on the Bound Valkyra to release.|
 $ Small Treasure Chest|QID|38383|M|60.7,53.3|Z|Helheim|N|Loot for a bit of treasure and resources.|RANK|2|
 C Sundered|QID|39850|M|63.72,60.90|Z|Helheim|QO|1|NC|N|Release Fragment of Will.|
@@ -458,20 +468,20 @@ C Sundered|QID|39850|M|35.29,76.16|Z|Helheim|QO|3|NC|N|Release Fragment of Valor
 C Allies in Death|QID|39851|M|52.29,70.86|Z|Helheim|NC|US|N|Finish releasing the Bound Valkyra.|
 T Sundered|QID|39850|M|46.92,48.88|Z|Helheim|N|To Ashildir.|
 T Allies in Death|QID|39851|M|46.92,48.88|Z|Helheim|N|To Ashildir.|
-A Victory is Eternal|QID|39853|M|46.92,48.88|Z|Helheim|N|From Ashildir.|
+A Victory is Eternal|QID|39853|PRE|39850;39851|M|46.92,48.88|Z|Helheim|N|From Ashildir.|
 C Victory is Eternal|QID|39853|M|47.04,63.06|Z|Helheim|T|Geir|N|Kill Geir.|
-C Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|US|N|Stay and finish or click off manually.|RANK|2|
-t Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|N|Auto turned in when complete.|RANK|2|
+C Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|US|N|Stay and finish or click off manually.|
+t Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|N|Auto turned in when complete.|
 T Victory is Eternal|QID|39853|M|47.04,63.06|Z|Helheim|N|To Ashildir.|
-A Paid in Lifeblood|QID|39855|M|47.04,63.06|Z|Helheim|N|From Ashildir.|
+A Paid in Lifeblood|QID|39855|PRE|39853|M|47.04,63.06|Z|Helheim|N|From Ashildir.|
 C Paid in Lifeblood|QID|39855|M|34.15,28.07|Z|Helheim|CHAT|N|Click on the alter, select the chat option and wait for the scene to unfold.|
 T Paid in Lifeblood|QID|39855|M|60.14,50.74|N|To Havi.|
 A A Heavy Burden|QID|40078|M|60.14,50.74|N|From Havi.|
 C A Heavy Burden|QID|40078|M|59.97,50.62;60.53,51.22|CS|NC|N|Carry Havi's fish to the fire.|
 T A Heavy Burden|QID|40078|M|60.13,50.72|N|To Havi.|
-A Knocking on Valor's Door|QID|40001|M|60.13,50.72|N|From Havi.|
-A The Dark Lady's Bidding|QID|38872|M|59.97,51.36|N|From Dread-Rider Cullen.|
+A Knocking on Valor's Door|QID|40001|PRE|40078|M|60.13,50.72|N|From Havi.|
 
+A The Dark Lady's Bidding|QID|38872|M|59.97,51.36|N|From Dread-Rider Cullen.|
 C The Dark Lady's Bidding|QID|38872|M|59.97,51.36|QO|1|CHAT|N|Ask Dread-Rider Cullen for a ride to Dreadwake's Landing.|
 f Dreadwake's Landing|QID|38872|M|54.52,73.00|N|At Dread-Rider Barnes.|
 T The Dark Lady's Bidding|QID|38872|M|55.05,72.52|N|To Nathanos Blightcaller.|

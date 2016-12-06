@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-06 20:32
+-- Who: Blanckaert
+-- Log: adjusted the Quests that are avail 12/06.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28093/view
 -- Date: 2016-12-04 16:55
 -- Who: cameljon
 -- Log: Treasure coord adjust
@@ -250,11 +255,6 @@
 -- Date: 2016-10-06 03:11
 -- Who: Blanckaert
 -- Log: forgot a line to copy add 3rd dungeon quest
-
--- URL: http://wow-pro.com/node/3687/revisions/27881/view
--- Date: 2016-10-06 03:07
--- Who: Blanckaert
--- Log: Add statecraft story line (at 8000+ Honoured Rep)
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1548,29 +1548,37 @@ C Fighting on All Fronts|QID|45317|N|Use your Class Order Hall Mission table to 
 P Astravar Harbor|QID|45317|ACTIVE|45317|M|36.76,45.04|N|Portal to the Harbor.|
 t Fighting on All Fronts|QID|45317|M|54.88,72.87|N|To Archmage Khadgar.|
 
-N Shal'Aran|QID|45267|N|Quests for the next three weeks are in guide. The info for any quest listed with a date [- 12/06] is incomplete, and may not work properly.|
+; Insurrection - Elisande's Retort - Storyline.
 
-; Insurrection - Elisande's Retort - Storyline - 12/06 - Not available yet.
+A Before the Siege|QID|45267|PRE|45317|M|36.50,46.78|N|From First Arcanist Thalyssra.|
+C Before the Siege|QID|45267|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
+T Before the Siege|QID|45267|M|36.50,46.72|N|To First Arcanist Thalyssra.|
+A Gates of the Nighthold|QID|44736|PRE|45267|M|36.50,46.72|N|From First Arcanist Thalyssra.|
+P Astravar Harbor|QID|44736|ACTIVE|44736|M|36.76,45.05|N|Take Portal to Astravar Harbour.|
+C Gates of the Nighthold|QID|44736|M|54.88,72.87|CHAT|N|Tell Khadgar, "I'm ready for the siege." (Cut Scene).|
+T Gates of the Nighthold|QID|44736|M|54.88,72.87|N|To Archmage Khadgar.|
+A Temporal Investigations|QID|44822|PRE|44736|M|54.90,72.85|N|From Archmage Khadgar.|
+C Temporal Investigations|QID|44822|M|56.76,75.38|QO|1|N|Help Khadgar investigate the time lock. Attack mobs till you get to Liadrin.|
+T Temporal Investigations|QID|44822|M|54.90,72.85|N|To Archmage Khadgar.|
+A Those Scrying Eyes|QID|45209|PRE|44822|N|From First Arcanist Thalyssra.|
+R Terrace of Enlightenment|QID|45209|ACTIVE|45209|M|52.33,68.77;50.13,65.50;50.95,64.05|CS|N|Run to the Terrace, use teleporter or run down stairs.|
+C Those Scrying Eyes|QID|45209|M|50.40,63.16|QO|1|N|Click on Duskwatch Scrying Orbs, find any 4, carefully See-eyeing guards are at most of the ords.|
+P Shal'Aran|QID|45209|ACTIVE|45209|M|54.47,69.42|N|Take Portal back to Shal'Aran. (Or Hearth / Fly)|
+T Those Scrying Eyes|QID|45209|M|36.49,45.82|N|To First Arcanist Thalyssra.|
+A Scouting the Breach|QID|44832|PRE|45209|M|36.49,45.82|N|From First Arcanist Thalyssra.|
+P Sanctum of Order|QID|44832|ACTIVE|44832|M|36.69,44.66|QO|1|N|Take the Sanctum of Order Teleporter.|
+C Scouting the Breach|QID|44832|M|42.65,61.00|QO|2|N|Meet with Arcanist Valtrois below the Sanctum of Order.|
+C Scouting the Breach|QID|44832|M|42.06,60.46;42.93,58.93|CC|QO|3|N|Clear a path to the barrier beneath the Sanctum of Order.|
+C Scouting the Breach|QID|44832|M|43.82,59.77|QO|4|N|Wait with Arcanist Valtrois while she examines the barrier.|
+T Scouting the Breach|QID|44832|M|44.02,59.73|N|To Arcanist Valtrois.|
+A The Seal's Power|QID|44833|PRE|44832|M|44.02,59.73|N|From Arcanist Valtrois.|
+F Crimson Thicket|QID|44833|ACTIVE|44833|M|59.21,44.64|N|Run up outside and use Whistle, or Portal to Shal'Aran, then fly. Or Just run to the Thicket.|
+C The Seal's Power|QID|44833|M|43.22,56.33|Z|Suramar/35|QO|1|N|Meet Arcanist Valtrois in Kel'balor.|
+C The Seal's Power|QID|44833|M|50.40,44.93|Z|Suramar/35|QO|2|N|Protect Arcanist Valtrois while she investigates the ley line device.|
+R Shal'Aran|QID|44833|ACTIVE|44833|N|Return to Shal'Aran. (On your own)|
+T The Seal's Power|QID|44833|M|36.49,45.82|N|To First Arcanist Thalyssra.|
 
-A Before the Siege|QID|45267|PRE|45317|M|36.50,46.78|N|From First Arcanist Thalyssra. - 12/06|
-C Before the Siege|QID|45267|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee. - 12/06|
-T Before the Siege|QID|45267|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/06|
-A Gates of the Nighthold|QID|44736|PRE|45267|M|36.50,46.72|N|From First Arcanist Thalyssra. - 12/06|
-T Gates of the Nighthold|QID|44736|M|54.88,72.87|N|To Archmage Khadgar. Location a Guess! - 12/06|
-A Those Scrying Eyes|QID|45209|PRE|45267|N|Unknown Giver/Turn in - 12/06|
-C Those Scrying Eyes|QID|45209|N|Unknown locations. - 12/06|
-T Those Scrying Eyes|QID|45209|N|Unknown Giver/Turn in - 12/06|
-A Scouting the Breach|QID|44832|PRE|45209|N|Unknown Giver/Turn in - 12/06|
-C Scouting the Breach|QID|44832|N|(Optional) Take the Sanctum of Order Teleporter. - 12/06|
-C Scouting the Breach|QID|44832|N|Meet with Valtrois below the Sanctum of Order - 12/06|
-C Scouting the Breach|QID|44832|N|Clear a path to the barrier beneath the Sanctum of Order - 12/06|
-C Scouting the Breach|QID|44832|N|Wait with Valtrois while she examines the barrier. - 12/06|
-T Scouting the Breach|QID|44832|N|To Valtrois. - 12/06|
-A The Seal's Power|QID|44833|PRE|44832|N|From Valtrois - 12/06|
-C The Seal's Power|QID|44833|N|Meet Valtrois in Kel'balor. - 12/06|
-C The Seal's Power|QID|44833|N|Protect Valtrois while she investigates the ley line device. - 12/06|
-C The Seal's Power|QID|44833|N|Portal to Shal'Aran - will she make one? - 12/06|
-T The Seal's Power|QID|44833|N|Unknown Giver/Turn in - 12/06|
+N Shal'Aran|QID|45268|N|Quests for the next three weeks are in guide. The info for any quest listed with a date [- 12/13] is incomplete, and may not work properly.|
 
 ; Insurrection - As Strong As Our Will - Storyline - 12/13 - Not available yet.
 
