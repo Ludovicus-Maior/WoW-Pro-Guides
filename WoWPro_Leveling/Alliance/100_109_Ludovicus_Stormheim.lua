@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-12-06 16:35
+-- Who: Blanckaert
+-- Log: adding of PRE tags
+
+-- URL: http://wow-pro.com/node/3683/revisions/28102/view
 -- Date: 2016-12-05 17:46
 -- Who: Blanckaert
 -- Log: more PREs added. (and minor adjustments)
@@ -457,14 +462,13 @@ $ Small Treasure Chest|QID|40085|M|73.33,41.51|N|Loot for treasure and resources
 C The Final Judgment|QID|38818|M|73.12,40.06|N|Confront Runeseer Faljar.|
 
 T The Final Judgment|QID|38818|M|65.61,47.17|Z|Helheim|N|To Ashildir.|
-A Raze Hel-Bonus Objective|QID|38343|LVL|-109|M|65.61,47.17|Z|Helheim|N|Auto-accepted when you enter the area.|
-A An Unworthy Task|QID|39837|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
+A Raze Hel-Bonus Objective|QID|38343|LVL|-109|M|65.61,47.17|Z|Helheim|N|Auto-accepted when you enter the area.|RANK|2|
+A An Unworthy Task|QID|39837|PRE|39837|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
 C Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|S|N|Freeing captives and killing Kvaldir advance the objective.|
 C An Unworthy Task|QID|39837|M|60.77,43.72|Z|Helheim|NC|N|Find Cooperative spirit.|
 T An Unworthy Task|QID|39837|M|64.56,43.43|Z|Helheim|N|To Colborn the Unworthy. When you open the door, he shows the "?", but it's hard catch him to turn in until he runs to new location.|
-A A Little Kelp From My Foes|QID|38339|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
-A Accessories of the Cursed|QID|38324|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
-A An Unworthy Task|QID|39837|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
+A A Little Kelp From My Foes|QID|38339|PRE|39837|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
+A Accessories of the Cursed|QID|38324|PRE|39837|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
 C A Little Kelp From My Foes|QID|38339|M|67.35,39.19|Z|Helheim|S|N|Kill Kvaldir and loot the Seaweed.|
 C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|S|NC|N|Collect the Cursed Bones as you go.|
 $ Treasure Chest|QID|38509;38510|M|79.88,24.72|Z|Helheim|N|Loot for treasure and resources.|
@@ -474,22 +478,22 @@ C A Little Kelp From My Foes|QID|38339|M|67.35,39.19|Z|Helheim|US|N|Finish colle
 C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|US|NC|N|Finish collecting the bones.|
 T A Little Kelp From My Foes|QID|38339|M|64.58,43.40|Z|Helheim|N|To Colborn the Unworthy.|
 T Accessories of the Cursed|QID|38324|M|64.58,43.40|Z|Helheim|QO|1|N|To Colborn the Unworthy.|
-A Stealth by Seaweed|QID|38347|M|64.58,43.40|Z|Helheim|N|From Colborn the Unworthy.|
+A Stealth by Seaweed|QID|38347|PRE|38339;38324|M|64.58,43.40|Z|Helheim|N|From Colborn the Unworthy.|
 C Stealth by Seaweed|QID|38347|M|47.62,33.47|Z|Helheim|NC|N|Sneak past Guarm|
 T Stealth by Seaweed|QID|38347|M|47.24,35.09|Z|Helheim|N|To Ashildir.|
-A A Desperate Bargain|QID|39848|M|47.24,35.09|Z|Helheim|N|From Ashildir.|
+A A Desperate Bargain|QID|39848|PRE|38347|M|47.24,35.09|Z|Helheim|N|From Ashildir.|
 C A Desperate Bargain|QID|39848|M|34.15,28.01|Z|Helheim|NC|N|Follow Ashildir up to Helya's throne and click on the alter to speak with Helya.|
 T A Desperate Bargain|QID|39848|M|34.15,28.01|Z|Helheim|N|To Ashildir.|
-A The Eternal Nemesis|QID|39857|M|34.15,28.01|Z|Helheim|N|From Ashildir.|
+A The Eternal Nemesis|QID|39857|PRE|39848|M|34.15,28.01|Z|Helheim|N|From Ashildir.|
 T The Eternal Nemesis|QID|39857|M|46.84,49.01|Z|Helheim|N|To Ashildir.|
-A To Light the Way|QID|39849|M|46.84,49.01|Z|Helheim|N|From Ashildir.|
+A To Light the Way|QID|39849|PRE|39857|M|46.84,49.01|Z|Helheim|N|From Ashildir.|
 K Kill Soulthirster|QID|39870|M|28.27,64.80|Z|Helheim|QO|1|ITEM|129188|T|Soulthirster|N|Silver - Kill for a pet and the usual resources.|
 U Bleakwater Jelly|QID|39870|M|28.27,64.80|Z|Helheim|U|129188|N|Click to add to your pet collection.|
 $ Treasure Chest|QID|38511;38516|M|19.62,46.98|Z|Helheim|N|Loot for treasure and resources.|
 C To Light the Way|QID|39849|M|21.69,61.68|Z|Helheim|T|Bloodbeard|N|Bloodbeard doesn't appear until after you go up to the top deck, kill him and take his Waylight.|
 T To Light the Way|QID|39849|M|46.80,49.07|Z|Helheim|N|To Ashildir.|
-A Sundered|QID|39850|M|46.80,49.07|Z|Helheim|N|From Ashildir.|
-A Allies in Death|QID|39851|M|46.80,49.07|Z|Helheim|N|From Ashildir.|
+A Sundered|QID|39850|PRE|39849|M|46.80,49.07|Z|Helheim|N|From Ashildir.|
+A Allies in Death|QID|39851|PRE|39849|M|46.80,49.07|Z|Helheim|N|From Ashildir.|
 C Allies in Death|QID|39851|M|52.29,70.86|Z|Helheim|NC|S|N|Click on the Bound Valkyra to release.|
 $ Small Treasure Chest|QID|38383|M|60.7,53.3|Z|Helheim|N|Loot for a bit of treasure and resources.|
 C Sundered|QID|39850|M|63.72,60.90|Z|Helheim|QO|1|NC|N|Release Fragment of Will.|
@@ -498,18 +502,18 @@ C Sundered|QID|39850|M|35.29,76.16|Z|Helheim|QO|3|NC|N|Release Fragment of Valor
 C Allies in Death|QID|39851|M|52.29,70.86|Z|Helheim|NC|US|N|Finish releasing the Bound Valkyra.|
 T Sundered|QID|39850|M|46.92,48.88|Z|Helheim|N|To Ashildir.|
 T Allies in Death|QID|39851|M|46.92,48.88|Z|Helheim|N|To Ashildir.|
-A Victory is Eternal|QID|39853|M|46.92,48.88|Z|Helheim|N|From Ashildir.|
+A Victory is Eternal|QID|39853|PRE|39850;39851|M|46.92,48.88|Z|Helheim|N|From Ashildir.|
 C Victory is Eternal|QID|39853|M|47.04,63.06|Z|Helheim|T|Geir|N|Kill Geir.|
 C Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|US|N|Stay and finish or click off manually.|
 t Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|N|Auto turned in when complete.|
 T Victory is Eternal|QID|39853|M|47.04,63.06|Z|Helheim|N|To Ashildir.|
-A Paid in Lifeblood|QID|39855|M|47.04,63.06|Z|Helheim|N|From Ashildir.|
+A Paid in Lifeblood|QID|39855|PRE|39853|M|47.04,63.06|Z|Helheim|N|From Ashildir.|
 C Paid in Lifeblood|QID|39855|M|34.15,28.07|Z|Helheim|CHAT|N|Click on the altar, select the chat option and wait for the scene to unfold.|; Emma!
 T Paid in Lifeblood|QID|39855|M|60.14,50.74|N|To Havi.|
-A A Heavy Burden|QID|40078|M|60.14,50.74|N|From Havi.|
+A A Heavy Burden|QID|40078|PRE|39855|M|60.14,50.74|N|From Havi.|
 C A Heavy Burden|QID|40078|M|59.97,50.62;60.53,51.22|CS|NC|N|Carry Havi's fish to the fire.|
 T A Heavy Burden|QID|40078|M|60.13,50.72|N|To Havi.|
-A Knocking on Valor's Door|QID|40001|M|60.13,50.72|N|From Havi.|
+A Knocking on Valor's Door|QID|40001|PRE|40078|M|60.13,50.72|N|From Havi.|
 
 A To Catch a Banshee|QID|39059|M|59.97,51.36|N|From Ensign Ward.|
 C To Catch a Banshee|QID|39059|M|71.54,59.82|CHAT|N|Chat with Ensign Ward to get going.|
