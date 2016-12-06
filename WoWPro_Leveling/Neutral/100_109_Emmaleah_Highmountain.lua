@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-12-06 23:54
+-- Who: Blanckaert
+-- Log: added PRE Tags per Ludo's new changes.
+
+-- URL: http://wow-pro.com/node/3678/revisions/28099/view
 -- Date: 2016-12-05 07:09
 -- Who: Emmaleah
 -- Log: Added $ Glimmering Treasure Chest|QID|39471|; redid the 8 lines starting with C Skies of Highmountain to reflect zone name Thunder Totem instead of Highmountain/6 some coord changes.
@@ -177,17 +182,17 @@ T Ormgul the Pestilent|QID|39491|M|43.64,59.92|N|To Jale Rivermane.|
 A The Flow of the River|QID|39496|M|43.64,59.92|N|From Jale Rivermane.|PRE|39272+39490+39491|
 
 T The Flow of the River|QID|39496|M|42.10,59.34;41.13,61.57|CS|N|To Angler Creel.|
-A Defend the Riverlands-Bonus Objective|QID|39274|M|41.13,61.57|N|Auto Accepted when you enter the area.|LVL|-109|RANK|2|
+A Defend the Riverlands-Bonus Objective|QID|39274|PRE|39496|M|41.13,61.57|N|Auto Accepted when you enter the area.|LVL|-109|RANK|2|
 C Defend the Riverlands-Bonus Objective|QID|39274|M|41.13,61.57|S|N|You can do this as you do the other objectives in the area.|RANK|2|
 A Trapped Tauren|QID|39316|M|41.13,61.57|N|From Angler Creel.|PRE|39496|
 A Fish Out of Water|QID|39614|M|41.13,61.57|N|From Angler Creel.|PRE|39496|
 A Spray and Prey|QID|39277|M|41.18,61.48|N|From Jale Rivermane.|PRE|39496|
 C Fish Out of Water|QID|39614|M|39.96,62.63|S|NC|N|Kick the carp towards the river.|
 C Spray and Prey|QID|39277|M|38.39,64.26|S|NC|U|127988|N|Use the sprayer on them before they die.|
-A Moozy's Sojourn|QID|39323|M|40.25,64.05|N|From Rordan Waterwise.|RANK|2|
+A Moozy's Sojourn|QID|39323|PRE|39491;39490;39272|M|40.25,64.05|N|From Rordan Waterwise.|RANK|2|
 C Trapped Tauren|QID|39316|M|42.82,63.16|NC|N|Click on the gate to release the tauren.|
 T Moozy's Sojourn|QID|39323|M|37.46,64.29|N|To Moozy.|RANK|2|
-A Moozy's Adventure|QID|39572|M|37.46,64.29|N|From Moozy.|RANK|2|
+A Moozy's Adventure|QID|39572|PRE|39323|M|37.46,64.29|N|From Moozy.|RANK|2|
 $ Treasure Chest|QID|40474|M|39.38,62.28|N|Loot for a bit of Treasure and Resources.|RANK|2|
 C Fish Out of Water|QID|39614|M|39.96,62.63|US|NC|N|Kick the carp towards the river.|
 C Spray and Prey|QID|39277|M|38.39,64.26|US|NC|U|127988|N|Use the sprayer on them before they die.|
@@ -282,7 +287,7 @@ A Secrets of Highmountain|QID|38916|M|74.78,75.23|Z|Highmountain/6|N|From Spirit
 A Ceremonial Drums|QID|42622|M|54.89,77.98|Z|Highmountain/6|N|From Torv Dubstomp.|PRE|39992|RANK|2|
 C Ceremonial Drums|QID|42622|M|39.51,74.70|Z|Highmountain/6|S|NC|N|Pick up the medium and large Ceremonial Drum from where you get the quest and then take the elevator upstairs to find more.|RANK|2|
 R Thunder Totem|QID|38916|M|58.75,86.77|Z|Highmountain/6|N|Take the elevator up to join with Spiritwalker Ebonhorn.|RANK|-1|
-A Mountainstrider Round-Up|QID|42596|M|53.92,45.84|Z|ThunderTotem|N|From Liza Galestride.|RANK|2|
+A Mountainstrider Round-Up|QID|42596|PRE|38909|M|53.92,45.84|Z|ThunderTotem|N|From Liza Galestride.|RANK|2|
 A Moozy's Reunion|QID|42590|M|51.89,55.00;45.86,54.99|CS|Z|ThunderTotem|N|From Sella Waterwise.|RANK|2|PRE|39572|
 C Moozy's Reunion|QID|42590|NC|M|53.37,20.63|Z|ThunderTotem|N|Ethel can be found in a hut.|RANK|2|
 C Mountainstrider Round-Up|QID|42596|M|53.37,20.63;53.58,47.28|CN|Z|ThunderTotem|NC|N|Ride a mountainstrider back to the stablemaster. Then do it again two more times.|RANK|2|
@@ -329,8 +334,8 @@ F Thunder Totem|QID|39580|M|47.26,84.64|N|Fly back to Thunder Totem at Chofa Nig
 T The High Chieftain|QID|39580|M|54.85,63.11|Z|Highmountain/6|N|Take the elevator down to find Mayla Highmountain.|
 T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 
-A Wrathshard|QID|39134|M|49.02,55.26|N|From Warbrave Nava who is back up the elevator and across the bridges.|RANK|2|
-A No Time to Talk|QID|39133|M|49.02,55.26|N|From Warbrave Nava|RANK|2|
+A Wrathshard|QID|39134|PRE|38909|M|49.02,55.26|N|From Warbrave Nava who is back up the elevator and across the bridges.|RANK|2|
+A No Time to Talk|QID|39133|PRE|38909|M|49.02,55.26|N|From Warbrave Nava|RANK|2|
 $ Glimmering Treasure Chest|QID|39471|M|49.82,53.49;51.19,53.03|CS|N|Before you go in the cavern, take this path up for a treasure directly above the entrance. Loot for a bit of treasure and resources.|
 C No Time to Talk|QID|39133|M|52.56,54.71|S|N|Kill Enraged Ambershards as you travel towards their boss.|RANK|2|
 C Wrathshard|QID|39134|M|54.01,54.47|T|Wrathshard|N|Kill Wrathshard.|RANK|2|
@@ -387,7 +392,7 @@ T Moose on the Loose|QID|39178|M|40.00,52.31|N|To Laeni Silvershot.|RANK|2|
 T I'm Not Lion!|QID|39867|M|40.02,52.37|N|To Ellias.|RANK|2|
 T Scout It Out|QID|40228|M|40.04,52.25|N|To Hemet Nesingwary.|RANK|2|
 
-A That Guy in the Costume|QID|40244|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|
+A That Guy in the Costume|QID|40244|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|LEAD|40045;40047;40049|
 A Procuring a Prototype|QID|39386|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|
 C That Guy in the Costume|QID|40244|M|40.22,52.69|CHAT|N|Ask Tamara for a ride.|RANK|3|
 f Shipwreck Cove|QID|40050|M|41.91,10.40|N|At Steven Nelson.|RANK|3|
@@ -633,7 +638,7 @@ T Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem|N|To Mayla Hightmount
 A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|ThunderTotem|N|To Mayla Hightmountain.|PRE|39387+39456|
 R Thunder Totem (Up the elevator)|QID|38915|M|58.97,87.46|Z|ThunderTotem|CC|N|Take the elevator above for a few more quests. (manually check this step off)|
 
-A Bolas Bastion|QID|42630|M|42.86,38.79|Z|ThunderTotem|N|From Bolas Skyfeather.|AVAILABLE|38915|RANK|2|
+A Bolas Bastion|QID|42630|PRE|39387|M|42.86,38.79|Z|ThunderTotem|N|From Bolas Skyfeather.|AVAILABLE|38915|RANK|2|
 C Bolas Bastion|QID|42630|M|43.38,37.81|Z|ThunderTotem|NC|N|Hop in the Bolos Launcher and shoot at the Coven Attackers.|RANK|2|
 T Bolas Bastion|QID|42630|M|42.94,38.76|Z|ThunderTotem|N|To Bolas Skyfeather.|RANK|2|
 

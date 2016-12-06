@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-12-07 01:18
+-- Who: Blanckaert
+-- Log: added PREs from Ludo's new code
+
+-- URL: http://wow-pro.com/node/3665/revisions/28100/view
 -- Date: 2016-12-05 07:13
 -- Who: Emmaleah
 -- Log: correct spelling of Assassin (QID42387)
@@ -162,17 +167,17 @@ N Rares (Silver Elite)|QID|39731|N|All of the Silver mobs are listed on rank 2 o
 N Ranks|QID|39731|N|Setting the guide to Rank 1 will get you the minimum nesessary for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there as well as treasure chests and rares that are in the same areas. Rank 3 gets every quest, rare and nearly every treasure in the zone.|
 
 T The Tranquil Forest|QID|39731|M|70.65,43.80|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Tying Up Loose Ends|QID|39861|M|70.65,43.80|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
+A Tying Up Loose Ends|QID|39861|PRE|39731|M|70.65,43.80|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
 C Tying Up Loose Ends|QID|39861|M|69.83,51.21|Z|Dalaran@Dalaran70|QO|1|NC|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|
 T Tying Up Loose Ends|QID|39861|M|54.69,72.83|N|To Malfurion Stormrage.|
-A Cenarius, Keeper of the Grove|QID|40122|M|54.69,72.83|N|From Malfurion Stormrage.|
+A Cenarius, Keeper of the Grove|QID|40122|PRE|39861|M|54.69,72.83|N|From Malfurion Stormrage.|
 C Cenarius, Keeper of the Grove|QID|40122|M|54.69,72.83|N|Speak to Malfurion|CHAT|
 T Cenarius, Keeper of the Grove|QID|40122|M|51.90,64.10|N|To Malfurion Stormrage.|
-A Nature's Call|QID|38384|M|51.90,64.10|N|From Malfurion Stormrage.|
+A Nature's Call|QID|38384|PRE|40122|M|51.90,64.10|N|From Malfurion Stormrage.|
 T Nature's Call|QID|38384|M|53.33,63.93;54.65,65.92;54.38,73.58|CS|N|To Aranelle.|
-A Archdruid of the Vale|QID|38382|M|54.38,73.58|N|From Aranelle.|
-A Archdruid of the Claw|QID|38142|M|54.38,73.58|N|From Aranelle.|
-A Archdruid of Lore|QID|38381;44106|M|54.38,73.58|N|From Aranelle.|
+A Archdruid of the Vale|QID|38382|PRE|38384|M|54.38,73.58|N|From Aranelle.|
+A Archdruid of the Claw|QID|38142|PRE|38384|M|54.38,73.58|N|From Aranelle.|
+A Archdruid of Lore|QID|38381;44106|PRE|38384|M|54.38,73.58|N|From Aranelle.|
 $ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39093|M|54.19,70.59|N|Up the stream on a rock. Loot for a bit of treasure and resources.|RANK|2|
 
@@ -182,20 +187,20 @@ l Companion Pet|QID|38468|M|59.54,77.23|L|130154|N|Chat with Lorel Stagfeather t
 U Pygmy Owl|QID|38468|M|59.54,77.23|U|130154|N|Click to add the Pygmy Owl to your collection.|RANK|2|
 
 T Archdruid of the Vale|QID|38382|M|61.04,73.23|N|To Thaon Moonclaw.|
-A Dishonored|QID|39383|M|61.04,73.25|N|From Thaon Moonclaw.|
-A Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|N|Auto accepted by entering the area.|RANK|2|LVL|-109|
+A Dishonored|QID|39383|PRE|38382|M|61.04,73.25|N|From Thaon Moonclaw.|
+A Moonclaw Vale-Bonus Objective|QID|39393|PRE|38382|M|61.04,73.23|N|Auto accepted by entering the area.|RANK|2|LVL|-109|
 C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|S|N|Destroy Totems, rescue druids and in general cause meyhem to advance the objective.|RANK|2|
 $ Treasure|QID|38943|M|59.88,72.26|N|Inside the house, up the right staircase. Loot for a bit of resources and treasure.|RANK|2|
 K Kill Perrexx|QID|39596|QO|1|M|61.02,69.36|ITEM|130137|N|Kill for a chance at treasure and resources.|T|Perrexx|RANK|2|
 C Dishonored|QID|39383|M|62.90,70.99|N|Kill Xandris the Dishonored.|T|Xandris the Dishonored|
 $ Treasure|QID|39069|M|62.78,70.31|N|Located on second floor balcony. Loot for a bit of resources and treasure.|RANK|2|
 T Dishonored|QID|39383|M|62.78,71.66|N|To Thaon Moonclaw.|
-A The Corruptor|QID|39384|M|62.78,71.66|N|From Thaon Moonclaw.|
+A The Corruptor|QID|39384|PRE|39383|M|62.78,71.66|N|From Thaon Moonclaw.|
 $ Treasure|QID|39102|M|63.28,74.02|N|Loot for a bit of treasure and resources.|RANK|2|
 C The Corruptor|QID|39384|M|63.77,71.46;62.96,68.71|CS|QO|1|NC|N|Enter Moonclaw Cavern.|
 C The Corruptor|QID|39384|M|64.90,66.91|QO|2|N|Kagraxxis the Corruptor slain|T|Kagraxxis the Corruptor|
 T The Corruptor|QID|39384|M|65.18,67.03|N|To Evelle Nightwhisper.|
-A The Nightmare Lord|QID|40573|M|65.18,67.03|N|From Evelle Nightwhisper.|
+A The Nightmare Lord|QID|40573|PRE|39384|M|65.18,67.03|N|From Evelle Nightwhisper.|
 C The Nightmare Lord|QID|40573|QO|1|M|65.18,67.03|NC|N|Evelle released|
 $ Treasure|QID|39071|M|62.06,67.33|N|Out of the cavern and around the corner up the stream. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39087|M|61.63,73.69|N|Beside the pond, Loot for a bit of treasure and resources.|RANK|2|
@@ -284,11 +289,11 @@ R Field of Dreamers|QID|38142|M|52.77,78.98;51.82,75.21|CS|N|You can return to C
 $ Treasure|QID|38388|M|50.96,77.00;51.49,77.70|CS|N|Small cave, right beside the road. Loot chest for treasure and resources.|RANK|2|
 R Steelclaw Vale|QID|38142|M|49.19,81.06|N|Continue down the road.|
 T Archdruid of the Claw|QID|38142|M|49.09,82.33|N|To Rylissa Bearsong.|
-A Frenzied Furbolgs|QID|38455|M|49.09,82.33|N|From Rylissa Bearsong.|
-A Littlefur|QID|38922|M|48.40,84.64|N|From Elder Sookh.|;while it could be rank2, you may as well do it while killing the furbolgs.
+A Frenzied Furbolgs|QID|38455|PRE|38142|M|49.09,82.33|N|From Rylissa Bearsong.|
+A Littlefur|QID|38922|PRE|38142|M|48.40,84.64|N|From Elder Sookh.|;while it could be rank2, you may as well do it while killing the furbolgs.
 C Frenzied Furbolgs|QID|38455|M|46.95,84.40|S|N|Kill the Smolderhide furbolgs that get in your way as you do your other tasks.|
 T Littlefur|QID|38922|M|46.24,84.56|N|To Littlefur.|
-A Totemic Call|QID|38246|M|46.24,84.56|N|From Littlefur.|
+A Totemic Call|QID|38246|PRE|38142|M|46.24,84.56|N|From Littlefur.|
 $ Treasure|QID|38277|M|46.46,86.33|N|Loot for treasure and resources.|RANK|2|
 R Marrowden|QID|43446|M|46.02,87.22|N|Brief sidetrip for a couple of treasures and a silver.|RANK|3|;can not find the kel'delar treasure and the risk reward is terrible for the one in the hydra cave
 K Kill Bahagar|QID|43446|QO|1|M|45.61,88.84|ITEM|130135|N|Silver - Kill for loot and resources.|RANK|3|
@@ -302,24 +307,24 @@ C Frenzied Furbolgs|QID|38455|M|46.95,84.40|US|N|Finish killing the Smolderhide 
 T Totemic Call|QID|38246|M|48.39,84.63|N|To Elder Sookh.|
 T The Chieftain's Beads|QID|38146|M|48.39,84.63|N|To Elder Sookh.|
 T Frenzied Furbolgs|QID|38455|M|49.09,82.36|N|To Rylissa Bearsong.|
-A Awakening the Archdruid|QID|38143|M|49.09,82.36|N|From Rylissa Bearsong.|
+A Awakening the Archdruid|QID|38143|PRE|38146;38246;38455|M|49.09,82.36|N|From Rylissa Bearsong.|
 $ Treasure|QID|38886|M|49.44,85.21;48.99,86.14|CS|N|Loot for treasure and resources.|RANK|2|
 T Awakening the Archdruid|QID|38143|M|63.00,48.24;60.50,17.55|CS|Z|1018/14|N|To Koda Steelclaw.|
-A Out of the Dream|QID|38145|M|60.50,17.55|Z|1018/14|N|From Koda Steelclaw.|
-A The Demons Below|QID|38144|M|60.50,17.55|Z|1018/14|N|From Koda Steelclaw.|
+A Out of the Dream|QID|38145|PRE|38143|M|60.50,17.55|Z|1018/14|N|From Koda Steelclaw.|
+A The Demons Below|QID|38144|PRE|38143|M|60.50,17.55|Z|1018/14|N|From Koda Steelclaw.|
 C The Demons Below|QID|38144|M|48.99,69.91|Z|1018/14|S|N|Kill the Darkfiend Intruders.|
 C Out of the Dream|QID|38145|M|48.99,69.91|Z|1018/14|NC|N|Wake up the Druids.|
 C The Demons Below|QID|38144|M|48.99,69.91|Z|1018/14|US|N|Finish your demon quota.|
 T The Demons Below|QID|38144|M|62.53,48.82|Z|1018/14|N|To Koda Steelclaw.|
 T Out of the Dream|QID|38145|M|62.53,48.82|Z|1018/14|N|To Koda Steelclaw.|
-A Entangled Dreams|QID|38147|M|62.53,48.82|Z|1018/14|N|From Koda Steelclaw.|
+A Entangled Dreams|QID|38147|PRE|38145;38144|M|62.53,48.82|Z|1018/14|N|From Koda Steelclaw.|
 C Entangled Dreams|QID|38147|M|59.84,83.58|Z|1018/14|T|Morphael|N|Kill Morphael|
 T Entangled Dreams|QID|38147|M|48.85,81.52|N|To Koda Steelclaw.|
 
 $ Treasure|QID|38366|M|48.69,73.79|N|Surrounded by a circle of tree trunks. Loot for a bit of treasure and resources.|RANK|2|
 T Archdruid of Lore|QID|38381;44106|M|48.87,70.18|N|To Elothir.|
-A Solid as a Rock|QID|38235|M|48.87,70.18|N|From Elothir.|
-A Death to the Witchmother|QID|38225|M|48.87,70.18|N|From Elothir.|
+A Solid as a Rock|QID|38235|PRE|44106+38381|M|48.87,70.18|N|From Elothir.|
+A Death to the Witchmother|QID|38225|PRE|44106+38381|M|48.87,70.18|N|From Elothir.|
 A Wretched Sisters-Bonus Objective|QID|38372|M|48.32,68.86;47.25,69.79|CS|N|Auto Accepted when you enter the area.|RANK|2|LVL|-109|
 C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Smash eggs, burn nests, rouse acolytes and of course kill harpys to advance the objective.|RANK|2|
 C Solid as a Rock|QID|38235|M|43.84,70.19|QO|1|NC|N|Click Marnor to rescue him.|
@@ -332,26 +337,26 @@ C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Finish or check t
 t Wretched Sisters-Bonus Objective|QID|38372|M|45.31,73.90|N|Auto turned in when you complete it.|RANK|2|
 T Solid as a Rock|QID|38235|M|48.89,70.22|N|To Elothir.|
 T Death to the Witchmother|QID|38225|M|48.89,70.22|N|To Elothir.|
-A Return to the Grove|QID|38322|M|48.89,70.22|N|From Elothir.|
-A Wisp in the Willows|QID|39354|M|54.28,68.28|N|From Syndrelle.|RANK|2|
+A Return to the Grove|QID|38322|PRE|38147;40573;38235;38225|M|48.89,70.22|N|From Elothir.|
+A Wisp in the Willows|QID|39354|PRE|38384|M|54.28,68.28|N|From Syndrelle.|RANK|2|
 C Wisp in the Willows|QID|39354|M|54.31,68.22|QO|1|NC|N|Click on the wisp to bond.|RANK|2|
 C Wisp in the Willows|QID|39354|M|49.28,63.90|QO|2|NC|N|The wisp will go unerringly to the pools, and then try to get eaten by fish, you need to steer it away from the water circles, and stop at each seedling tree.  Press the "1" key to grow the trees.|RANK|2|
 T Wisp in the Willows|QID|39354|M|54.25,68.30|N|To Syndrelle.|RANK|2|
 
 R Grove of Cenarius|QID|38322|M|54.74,67.19|N|Follow the road on into the Grove.|
 T Return to the Grove|QID|38322|M|51.90,64.11|N|To Malfurion Stormrage.|
-A The Emerald Queen|QID|38377|M|51.90,64.11|N|From Malfurion Stormrage.|
+A The Emerald Queen|QID|38377|PRE|38322+38323+38148|M|51.90,64.11|N|From Malfurion Stormrage.|
 C The Emerald Queen|QID|38377|M|52.29,64.21|QO|1|N|Ysera Summoned|CHAT|
 T The Emerald Queen|QID|38377|M|52.54,64.15|N|To Malfurion Stormrage.|
-A The Temple of Elune|QID|38641|M|52.48,63.35|N|From Ysera.|
+A The Temple of Elune|QID|38641|PRE|38377|M|52.48,63.35|N|From Ysera.|
 $ Treasure|QID|39097|M|54.52,60.47|N|In a small cave, loot for a bit of treasure and resources.|RANK|2|
 R The Crescent Vale|QID|38641|M|53.70,63.74;56.59,62.13|CS|N|Follow this road towards the temple.|
 $ Treasure|QID|39072|M|56.22,57.30|N|Loot for a bit of treasure and resources.|RANK|2|
 f Garden of the Moon|QID|38641|M|56.74,57.72|N|At Brinlanya Moonstone.|
 T The Temple of Elune|QID|38641|M|51.44,57.01|N|To Lyanis Moonfall.|
-A Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|N|Auto Accepted when you enter the inner temple.|RANK|2|LVL|-109|
-A Tears for Fears|QID|38662|M|51.44,57.01|N|From Lyanis Moonfall.|
-A Root Cause|QID|38655|M|51.48,56.83|N|From Isoraen Nightstar.|
+A Defend The Temple-Bonus Objective|QID|39029|PRE|38641|M|51.44,57.01|N|Auto Accepted when you enter the inner temple.|RANK|2|LVL|-109|
+A Tears for Fears|QID|38662|PRE|38641|M|51.44,57.01|N|From Lyanis Moonfall.|
+A Root Cause|QID|38655|PRE|38641|M|51.48,56.83|N|From Isoraen Nightstar.|
 C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|S|N|Kill demons, chop down entangling roots as you go to complete the bonus objective.|RANK|2|
 C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to collect the corrupted root samples.|
 C Tears for Fears|QID|38662|M|59.19,54.03|NC|N|Listen to the dialog|
@@ -361,16 +366,16 @@ C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|US|N|Optional - Fini
 t Defend The Temple-Bonus Objective|QID|39029|M|58.17,57.83|N|Auto turned in when complete.|RANK|2|
 T Root Cause|QID|38655|M|51.49,56.85|N|To Isoraen Nightstar.|
 T Tears for Fears|QID|38662|M|51.43,57.01|N|To Lyanis Moonfall.|
-A The Die is Cast|QID|38663|M|51.43,57.01|N|From Lyanis Moonfall.|
+A The Die is Cast|QID|38663|PRE|38662|M|51.43,57.01|N|From Lyanis Moonfall.|
 
-A A Village in Peril|QID|38643|M|54.79,52.80|N|From Darcy Heathrow.|
+A A Village in Peril|QID|38643|M|54.79,52.80|N|From Darcy Heathrow.| ; this quest invalidates 39149, which is not including in guide.
 R Bradensbrook|QID|38643|M|53.44,50.25;42.35,59.01|CS|N|Follow the road into Bradensbrook.|RANK|-1|
 $ Share Marius and Tehd Adventures|QID|44070|M|50.66,49.72;48.94,47.21;49.15,49.54|CS|ITEM|132359|T|Gathenak|N|Follow this path down to find Marius and Tehd and share in their adventures. Silver-Kill for treasure and resources.|RANK|2|
 $ Old Bear Trap|QID|39357|M|48.10,47.18;47.09,58.04|CS|ITEM|130214|T|Mad Henryk|N|Follow the path back up and across the road. Get close to the trap to start the vignette.|RANK|2|
 $ Treasure|QID|39083|M|44.00,61.57;45.14,61.81;45.12,61.14|CS|N|Jump off the rocky outcropping into the tree to loot chest for treasure and resources.|RANK|2|
 T A Village in Peril|QID|38643|M|42.35,59.01|N|To Mayor Heathrow.|
-A Children of the Night|QID|38645|M|42.48,58.98|N|From Commander Jarod Shadowsong.|
-A The Farmsteads|QID|38644|M|42.13,59.06|N|From Emmeline.|
+A Children of the Night|QID|38645|PRE|38643+39149|M|42.48,58.98|N|From Commander Jarod Shadowsong.|
+A The Farmsteads|QID|38644|PRE|38643+39149|M|42.13,59.06|N|From Emmeline.|
 f Bradensbrook|QID|38644|M|42.24,58.45|N|At Douglas Carrington.|
 $ Treasure|QID|39077|M|42.66,58.02|N|Inside the house is a chest to loot for a bit of treasure and resources.|RANK|2|
 C Children of the Night|QID|38645|M|38.95,61.56|S|N|Kill the Black Rook enemies as you go about the other tasks.|
@@ -381,8 +386,8 @@ C Rising Troubles|QID|42386|M|41.69,60.00|S|N|When killing enemies prioritize th
 C Assassin Entrapment|QID|42387|M|39.51,61.60|QO|1|U|137551|NC|N|Place the trap.|C|Hunter|LVL|103|
 C Assassin Entrapment|QID|42387|M|39.51,61.60|QO|2|T|Captain Tevaris|N|Kill Captain Tevaris.|C|Hunter|LVL|103|
 C The Farmsteads|QID|38644|M|38.95,61.56|QO|2|NC|N|Check the Corn Fields.|
-A A Sight For Sore Eyes|QID|38646|M|38.89,61.44|N|From Granny Marl.|
-A For the Corn!|QID|38647|M|38.89,61.44|N|From Granny Marl.|
+A A Sight For Sore Eyes|QID|38646|PRE|38643+39149|M|38.89,61.44|N|From Granny Marl.|
+A For the Corn!|QID|38647|PRE|38643+39149|M|38.89,61.44|N|From Granny Marl.|
 C For the Corn!|QID|38647|M|38.50,60.49|S|NC|N|Click on the barrels of corn to collect them.|
 C A Sight For Sore Eyes|QID|38646|M|38.47,60.58|T|Black Rook Falcon|NC|U|127030|N|Use the provided flares to mark the Black Rook Falcons.|
 C For the Corn!|QID|38647|M|38.50,60.49|US|NC|N|Click on the barrels of corn to collect them.|
@@ -399,7 +404,7 @@ A The Warden's Signet|QID|38711|M|39.10,64.34|N|From the ring dropped by Lelyn.|
 $ Vibrating Arcane Trap|QID|39121|M|34.38,58.30|N|Click on the trap to attract Kiranys Duskwhisper, kill him for a bit of loot and treasure.|ITEM|141876|RANK|2|;unable to find correct QID
 $ Treasure|QID|39081|M|33.81,58.25|N|Loot for a bit of treasure and resources.|RANK|2|
 C The Farmsteads|QID|38644|M|37.06,58.50|QO|3|NC|N|Check the Fishing Dock|
-A Shriek No More|QID|39117|M|37.06,58.48|N|From Cecily Radcliffe.|
+A Shriek No More|QID|39117|PRE|38643+39149|M|37.06,58.48|N|From Cecily Radcliffe.|
 C Shriek No More|QID|39117|M|35.84,57.34|N|Kill Rotbeak and loot his head.|T|Rotbeak|
 T Shriek No More|QID|39117|M|37.09,58.52|N|To Cecily Radcliffe.There is a treasure in the boat, but it doesnt appear during this phase if you should happen to want to come back some other time.|;per map should be a treasure here (on the fishing boat?) I dant find it.
 C Rising Troubles|QID|42386|M|40.87,58.75|S|N|Finish up the hounds.|C|Hunter|
@@ -409,17 +414,17 @@ T The Farmsteads|QID|38644|M|42.36,59.02|N|To Mayor Heathrow.|
 T Children of the Night|QID|38645|M|42.47,58.99|N|To Commander Jarod Shadowsong.|
 T The Warden's Signet|QID|38711|M|42.47,58.99|N|To Commander Jarod Shadowsong.|
 
-A Jarod's Mission|QID|38691|M|42.48,58.96|N|From Commander Jarod Shadowsong.|
+A Jarod's Mission|QID|38691|PRE|38647;38646;38644;38645;38711;39117|M|42.48,58.96|N|From Commander Jarod Shadowsong.|
 C Jarod's Mission|QID|38691|M|42.47,58.93|N|Tell Jarod Shadowsong you are ready to ride.|CHAT|
 T Jarod's Mission|QID|38691|M|40.85,53.01|N|To Commander Jarod Shadowsong.|
-A Kur'talos Ravencrest|QID|38718|M|40.85,53.01|N|From Commander Jarod Shadowsong.|
+A Kur'talos Ravencrest|QID|38718|PRE|38691|M|40.85,53.01|N|From Commander Jarod Shadowsong.|
 C Kur'talos Ravencrest|QID|38718|M|40.89,53.00|QO|1|NC|N|Click on the banner to exame it.|
 T Kur'talos Ravencrest|QID|38718|M|40.74,53.01|N|To Commander Jarod Shadowsong.|
-A Maiev's Trail|QID|38714|M|40.74,53.01|N|From Commander Jarod Shadowsong. If he disappears, run out of the room and back in and he reappears.|
-A The Rooks Guard|QID|38715|M|40.74,53.01|N|From Commander Jarod Shadowsong.|
+A Maiev's Trail|QID|38714|PRE|38718|M|40.74,53.01|N|From Commander Jarod Shadowsong. If he disappears, run out of the room and back in and he reappears.|
+A The Rooks Guard|QID|38715|PRE|38718|M|40.74,53.01|N|From Commander Jarod Shadowsong.|
 R Ravencourt|QID|38715|M|39.06,53.03;38.96,52.44|CS|N|Run out of this chamber and up into the hold courtyard.|RANK|-1|
 U Inscription on tomb|QID|38772|QO|1|M|37.96,52.81|N|Silver - Click on the nameplate to summon Theryssia and put her to rest.|T|Theryssia|RANK|2|
-A Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|N|Auto accepted as you enter this area.|RANK|2|LVL|-109|
+A Black Rook Hold-Bonus Objective|QID|38716|PRE|38718|M|39.25,53.55|N|Auto accepted as you enter this area.|RANK|2|LVL|-109|
 C Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|S|N|Click on the Keldorei Tomes, weapon racks and kill the Black Rook mobs as you go about your other objectives.|RANK|2|
 C The Rook's Guard|QID|38715|M|39.92,52.07|QO|1|N|Kill Starlys Strongbow in the Ravencourt.|T|Starlys Strongbow|
 C Maiev's Trail|QID|38714|M|40.45,51.62|QO|1|NC|N|Click on the girl lying in the prison cages here.|
@@ -432,19 +437,19 @@ K Kill Darkshade|QID|38767|L|130166|M|43.30,53.88|T|Darkshade|N|Kill and loot fo
 U Risen Saber Kitten|QID|38767|U|130166|M|43.30,53.88|N|Click the kitten to add to your pet journal.|;unable to find correct QID
 T Maiev's Trail|QID|38714|M|43.82,50.29|N|To Commander Jarod Shadowsong.|
 T The Rook's Guard|QID|38715|M|43.82,50.29|N|To Commander Jarod Shadowsong.|
-A Black Rook Prison|QID|38717|M|43.82,50.29|N|From Commander Jarod Shadowsong.|
+A Black Rook Prison|QID|38717|PRE|38714;38715|M|43.82,50.29|N|From Commander Jarod Shadowsong.|
 $ Treasure|QID|39084|M|43.22,54.87|N|Slight detour while you are following Commander Shadowsong to loot this chest for a bit of treasure and resources.|RANK|2|
 C Black Rook Prison|QID|38717|M|42.22,46.43|N|Kill Araxxas and loot the Prison Keys.|T|Araxxas|
 C Black Rook Hold-Bonus Objective|QID|38716|M|43.35,53.18|US|N|Optional - Complete before you leave the area.|
 t Black Rook Hold-Bonus Objective|QID|38716|M|43.35,53.18|N|Auto turned in when complete.|RANK|2|
 T Black Rook Prison|QID|38717|M|40.56,44.27|N|Go thru the doorway behind Araxxas and down a long winding staircase to find Commander Shadowsong and turn in your quest.|
-A Brotherly Love|QID|38724|M|40.56,44.27|N|From Commander Jarod Shadowsong.|
-A Illidari Freedom|QID|38719|M|40.57,44.34|N|From Arduen Soulblade.|
+A Brotherly Love|QID|38724;44457|PRE|38717|M|40.56,44.27|N|From Commander Jarod Shadowsong.|
+A Illidari Freedom|QID|38719|PRE|38717|M|40.57,44.34|N|From Arduen Soulblade.|
 $ Treasure|QID|39085|M|40.51,44.68|N|In the water right beside where Arduen is lying. Loot for a bit of treasure and resources.|RANK|2|
 C Illidari Freedom|QID|38719|M|39.92,43.43|QO|1|CHAT|N|Find (and then fight) Sirius Ebonwing.|
 C Illidari Freedom|QID|38719|M|39.54,42.80|QO|3|CHAT|N|Find Asha Ravensong.|
-T Brotherly Love|QID|38724|M|39.48,42.10|N|To Maiev Shadowsong.|
-A Lieutenant of the Tower|QID|38721|M|39.48,42.10|N|From Malev Shadowsong.|
+T Brotherly Love|QID|38724;44457|M|39.48,42.10|N|To Maiev Shadowsong.|
+A Lieutenant of the Tower|QID|38721|PRE|38724+44457|M|39.48,42.10|N|From Malev Shadowsong.|
 C Illidari Freedom|QID|38719|M|40.38,42.37;41.56,42.58|CS|QO|2|CHAT|N|Go up the winding staircase and find Cassiel Nightthorn.|
 $ Treasure|QID|39086|M|41.00,42.68|N|Loot for a bit of treasure and resources.|RANK|2|
 C Lieutenant of the Tower|QID|38721|M|41.54,41.16|N|Kill Lieutenant Desdel Stareye.|T|Lieutenant Desdel Stareye|
@@ -454,32 +459,32 @@ T Illidari Freedom|QID|38719|M|39.13,51.05|N|To Asha Ravensong.|
 R Bradensbrook|QID|38663|M|38.27,54.75;42.23,58.50|CS|N|Ride back to Bradensbrook and there you can catch a flight path to Garden of the Moon or you can just continue on to Grove of Cenarius.|
 F Garden of the Moon|QID|38663|M|42.23,58.50|N|At Douglass Carrington.|
 T The Die is Cast|QID|38663|M|52.46,63.35|N|To Ysera.|
-A Malfurion's Fury|QID|38595|M|52.45,63.34|N|From Ysera.|
+A Malfurion's Fury|QID|38595|PRE|38663|M|52.45,63.34|N|From Ysera.|
 C Malfurion's Fury|QID|38595|M|52.45,63.34|CHAT|N|Tell Ysera you are ready.|
 T Malfurion's Fury|QID|38595|M|60.56,61.43|N|To Ysera.|
-A To Old Friends|QID|38582|M|60.56,61.43|N|From Ysera.|
+A To Old Friends|QID|38582|PRE|38595|M|60.56,61.43|N|From Ysera.|
 C To Old Friends|QID|38582|M|65.61,56.44|QO|1|S|N|Use extra action button to target corrupted plants.|
 $ Treasure|QID|38782|M|66.15,56.27;67.21,59.29|CS|N|Loot for a bit of treasure and resources. This is inside the cave, where you kill Botanist Darkgrove, currently bugged and not available during the phase you are killing Lyrathos, so get it now or after you turn in the quest.|RANK|2|;chest disappeared when i killed lyrathos. so loot it first...
 C To Old Friends|QID|38582|M|65.61,56.44|QO|1|US|N|Use extra action button to target corrupted plants.|;this step can be removed if phasing bug fixxed
 C To Old Friends|QID|38582|M|65.92,56.35|QO|2|N|Enter Darkgrove Cavern.|
 C To Old Friends|QID|38582|M|67.29,58.07|QO|3|N|Kill Botanist Darkgrove.|T|Lyrathos Darkgrove|
 T To Old Friends|QID|38582|M|64.88,61.36|N|To Ysera.|
-A The Demon's Trail|QID|38753|M|64.88,61.36|N|From Ysera.|
+A The Demon's Trail|QID|38753|PRE|38582|M|64.88,61.36|N|From Ysera.|
 C The Demon's Trail|QID|38753|M|67.36,56.45|NC|N|Andu'talah Searched|
 T The Demon's Trail|QID|38753|M|67.45,56.11|N|To Tyrande Whisperwind.|
-A Love Lost|QID|41054;41056|M|67.45,56.11|N|From Tyrande Whisperwind.|
+A Love Lost|QID|41054;41056|PRE|38753|M|67.45,56.11|N|From Tyrande Whisperwind.|
 $ Treasure|QID|38783|M|70.18,56.97|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|38781|M|67.39,57.41;67.81,58.86;68.94,60.64;69.67,61.08;69.44,59.95|CS|N|Run back here for a bit of treasure and resources. After you finish, you can drop down to the path below you to continue on to Starsong Refuge.|RANK|3|
 f Starsong Refuge|QID|41054;41056|M|69.02,50.83|N|At Landrius Ravenfall.|
 T Love Lost|QID|41054;41056|M|69.55,49.52|N|To Tyrande Whisperwind.|
-A Dark Side of the Moon|QID|41708;41890|M|69.55,49.52|N|From Tyrande Whisperwind.|
-A Wormtalon Wreckage|QID|41707|M|69.47,49.34|N|From Aldos Duskwing.|
-A Lost in Retreat|QID|38671|M|69.45,49.37|N|From Mender Onelle.|
+A Dark Side of the Moon|QID|41708;41890|PRE|41056|M|69.55,49.52|N|From Tyrande Whisperwind.|
+A Wormtalon Wreckage|QID|41707|PRE|41056|M|69.47,49.34|N|From Aldos Duskwing.|
+A Lost in Retreat|QID|38671|PRE|41056|M|69.45,49.37|N|From Mender Onelle.|
 C Wormtalon Wreckage|QID|41707|M|66.86,50.18|S|N|As you go about your other tasks, kill Wormtalon Harpy.|
 C Dark Side of the Moon|QID|41890;41708|M|67.14,50.45|QO|1|N|Meet Tyrande in Shadowfen.|
 C Dark Side of the Moon|QID|41890;41708|M|66.87,50.12|QO|2|N|Guard Tyrande During her Vigil.|
 T Dark Side of the Moon|QID|41890;41708|M|66.93,50.14|N|To Tyrande Whisperwind.|
-A Regroup at the Refuge|QID|43576|M|66.93,50.14|N|From Tyrande Whisperwind.|
+A Regroup at the Refuge|QID|43576|PRE|41890;41708|M|66.93,50.14|N|From Tyrande Whisperwind.|
 C Lost in Retreat|QID|38671|M|65.12,51.22|NC|S|N|Pick up the Shadowfen Heirlooms|
 $ Treasure|QID|38355|M|64.70,51.25|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Grelda the Hag|QID|40126|QO|1|M|65.8,53.45|ITEM|130122|T|Grelda the Hag|N|Kill and loot for a bit of treasure and resources|RANK|2|
@@ -489,11 +494,11 @@ C Wormtalon Wreckage|QID|41707|M|66.86,50.18|US|N|Finish up killing Wormtalons.|
 T Lost in Retreat|QID|38671|M|69.44,49.38|N|To Mender Onelle.|
 T Wormtalon Wreckage|QID|41707|M|69.47,49.33|N|To Aldos Duskwing.|
 T Regroup at the Refuge|QID|43576|M|69.55,49.53|N|To Tyrande Whisperwind.|
-A Heart of the Nightmare|QID|38675;41724|M|69.55,49.53|N|From Tyrande Whisperwind.|
+A Heart of the Nightmare|QID|38675;41724|PRE|41708;41890|M|69.55,49.53|N|From Tyrande Whisperwind.|
 C Heart of the Nightmare|QID|38675;41724|M|68.49,49.68;69.57,49.46|CS|NC|N|Splashes of Blood mark Malfurion's Trail.|
 T Heart of the Nightmare|QID|38675;41724|M|66.22,44.79|N|To Tyrande Whisperwind.|
-A Reading the Leaves|QID|38684|M|66.21,44.53|N|From Elothir.|
-A Given to Corruption|QID|41893;41749|M|66.21,44.53|N|From Elothir.|
+A Reading the Leaves|QID|38684|PRE|38675;41724|M|66.21,44.53|N|From Elothir.|
+A Given to Corruption|QID|41893;41749|PRE|38675;41724|M|66.21,44.53|N|From Elothir.|
 $ Purging the River|QID|39130|M|67.50,45.07|T|Pollous the Fetid|N|Kill the elemental for treasure and resources.|RANK|2|;on beta (when it wasnt broken) Talk to Flandras Mistcaller to start the vignette. Flandras now MIA
 C Reading the Leaves|QID|38684|M|68.10,35.48|S|N|Kill 'Twisted' mobs to collect corrupted petals|
 $ Treasure|QID|39108|M|66.60,42.77;66.56,40.91|CS|N|Follow the path up to an outcropping overlooking the waterfall. Loot for a bit of treasure and resources.|RANK|2|
@@ -511,12 +516,12 @@ t Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto-turned in
 T Reading the Leaves|QID|38684|M|66.20,44.52|N|To Elothir.|
 T Given to Corruption|QID|41749;41893|M|66.20,44.52|N|To Elothir.|
 
-A Softening the Target|QID|43702|M|66.20,44.76|N|From Tyrande Whisperwind.|
+A Softening the Target|QID|43702|PRE|38684;41893|M|66.20,44.76|N|From Tyrande Whisperwind.|
 C Softening the Target|QID|43702|M|66.34,44.85|N|Hop on the bat for a bombing run.|
-A Ruins of Shala'nir-Bonus Objective|QID|38748|M|63.28,42.07|N|Auto Accepted upon entering the area.|RANK|2|LVL|-109|
+A Ruins of Shala'nir-Bonus Objective|QID|38748|PRE|43702|M|63.28,42.07|N|Auto Accepted upon entering the area.|RANK|2|LVL|-109|
 C Ruins of Shala'nir-Bonus Objective|QID|38748|M|63.28,42.07|S|N|Kill mobs and destroy nightmare totems to complete the objective.|RANK|2|
 T Softening the Target|QID|43702|M|63.19,42.22|N|To Tyrande Whisperwind.|
-A Close Enough to Touch|QID|38687;41763|M|63.19,42.22|N|From Tyrande Whisperwind.|
+A Close Enough to Touch|QID|38687;41763|PRE|43702|M|63.19,42.22|N|From Tyrande Whisperwind.|
 C Close Enough to Touch|QID|38687;41763|M|62.48,38.89|NC|QO|1|N|Follow Tyrande into Shala'nir|
 C Close Enough to Touch|QID|38687;41763|M|63.03,36.89|NC|QO|2|N|Search for Malfurion at the Inn|
 $ Treasure|QID|39088|M|61.07,34.24|N|Nearly at the bottom of the pond, tangled in some roots. Loot for a bit of treasure and resources.|RANK|2|
@@ -529,15 +534,16 @@ C Close Enough to Touch|QID|38687;41763|M|58.47,37.71|NC|QO|5|N|Find Malfurion|
 C Ruins of Shala'nir-Bonus Objective|QID|38748|M|61.52,35.71|US|N|Stay and finish if you want to.|RANK|2|
 t Ruins of Shala'nir-Bonus Objective|QID|38748|M|61.52,35.71|N|Auto Turned in when completed.|RANK|2|
 T Close Enough to Touch|QID|38687;41763|M|57.81,38.58|N|To Tyrande Whisperwind.|
-A The Fate of Val'sharah|QID|38743|M|57.81,38.58|N|From Tyrande Whisperwind.|
+A The Fate of Val'sharah|QID|38743|PRE|38687;41763|M|57.81,38.58|N|From Tyrande Whisperwind.|
 C The Fate of Val'sharah|QID|38743|M|57.81,38.58|QO|1|N|Speak to Tyrande|CHAT|
 C The Fate of Val'sharah|QID|38743|M|57.81,38.58|QO|2|N|Fight Ysera to wake her from the nightmare.|
 T The Fate of Val'sharah|QID|38743|M|53.69,55.90|N|To Tyrande Whisperwind.|
-A Enter the Nightmare|QID|40567|M|53.69,55.90|N|From Tyrande Whisperwind. This is a group/instance quest and is not covered by this guide.|
-A The Tears of Elune|QID|40890|M|53.45,55.96|N|From The Tears of Elune.|
+A Enter the Nightmare|QID|40567|PRE|38743|M|53.69,55.90|N|From Tyrande Whisperwind. This is a group/instance quest and is not covered by this guide.|
+A The Tears of Elune|QID|40890|PRE|38743|M|53.45,55.96|N|From The Tears of Elune.|
 U Dalaran Hearthstone|QID|38743|M|56.74,57.72|N|Use your Dalaran Hearthstone or take the flight master back to Dalaran.|U|140192|
 
-A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran@Dalaran70|N|Someone will follow you around Dalaran until you accept this quest.|
+A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran@Dalaran70|N|Someone will follow you around Dalaran until you accept this quest.|PRE|40374+40375|
+
 ;44550 Death Knight - Called to Acherus
 ;44087/42666 Demon Hunter - Return to the Fel Hammer
 ;42516 Druid - Growing Power

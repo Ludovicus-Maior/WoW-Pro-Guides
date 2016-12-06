@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-12-06 22:27
+-- Who: Blanckaert
+-- Log: I missed one
+
+-- URL: http://wow-pro.com/node/3657/revisions/28108/view
 -- Date: 2016-12-06 22:00
 -- Who: Blanckaert
 -- Log: Added PREs that were missing according to Ludo's new changes.
@@ -239,7 +244,7 @@ A From Within|QID|36920;44140;40815|PRE|37660+40375+40374+37658|M|43.56,43.46|N|
 T From Within|QID|36920;44140;40815|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
 
 A Fel Machinations|QID|37656|PRE|36920+40815+44140|M|40.05,48.80|N|From Kor'vas Bloodthorn who will show up and follow you around.|
-A Saving Stellagosa|QID|37450|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
+A Saving Stellagosa|QID|37450|PRE|36920+40815+44140|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
 A Retake Faronaar-Bonus Objective|QID|36811|PRE|36920+40815+44140|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|LVL|-109|
 C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|N|Kill demons and click on the glowing items as you accomplish the other objectives.|S|RANK|2|
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
