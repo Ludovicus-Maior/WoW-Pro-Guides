@@ -1910,7 +1910,7 @@ function WoWPro.GrailBreadcrumbsFor(QID)
         qid = tonumber(qid)
         out = Grail:QuestBreadcrumbsFor(qid)
         if out then
-            for q,_ in pairs(out) do
+            for _,q in pairs(out) do
                 if tonumber(q) and tonumber(q) > 1 then
                     if lead then
                         lead = lead .. ";" .. q
