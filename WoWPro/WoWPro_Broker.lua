@@ -1840,18 +1840,33 @@ function WoWPro.PickQuestline(qid, step)
 end
 
 function WoWPro.GrailQuestPrereqOneQid(qid, out)
-    local preReq = Grail:QuestPrerequisites(qid)
-    if not preReq then return out end
-    if type(preReq) ~= "table" then
-        preReq = Grail:_FromPattern(preReq)
-    end
+    WoWPro:dbp("GrailQuestPrereqOneQid(%s,{.})",qid)
+    local data = Grail:QuestPrerequisites(qid, false)
     out = out or {}
     local i,p
-    for i,p in ipairs(preReq) do
-        if( string.sub(tostring(p),1,1) == "B" ) then
-            p = string.sub(p,2);
+    if not data then return out end
+    for i,p in ipairs(data) do
+        if type(p) ~= "table" then
+            if tonumber(p) and tonumber(p) > 1 then
+                out["sep"] = "+"
+                out[tostring(p)] = true
+                WoWPro:dbp("[+%s]=true)",tostring(p))
+            end
+        else
+            local j,q
+            for j,q in ipairs(p) do
+                if type(q) ~= "table" then
+                    if tonumber(q) and tonumber(q) > 1 then
+                        out["sep"] = ";"
+                        out[tostring(q)] = true
+                        WoWPro:dbp("[;%s]=true)",tostring(q))
+                    end
+                else
+                    WoWPro:dbp("GrailQuestPrereqOneQid(): Too complex.")
+                    return {}
+                end
+            end
         end
-        out[tostring(p)] = true
     end
     return out
 end
@@ -1861,20 +1876,54 @@ function WoWPro.GrailQuestPrereq(QID)
     if QID == "*" then return nil end
     local numQIDs = select("#", string.split(";", QID))
     local out = {}
+    WoWPro:dbp("GrailQuestPrereq(%s)",QID)
     for j=1,numQIDs do
         local qid = select(numQIDs-j+1, string.split(";", QID))
+        qid = tonumber(qid)
         out = WoWPro.GrailQuestPrereqOneQid(qid, out)
     end
-    local q,_,pre
-    for q,_ in pairs(out) do
-        if pre then
-            pre = pre .. ";" .. q
-        else
-            pre = q
+    local q,_,pre,sep
+    if out["sep"] then
+        sep =  out["sep"]
+        out["sep"] = nil
+        for q,_ in pairs(out) do
+            if pre then
+                pre = pre .. sep .. q
+            else
+                pre = q
+            end
         end
     end
+    WoWPro:dbp("GrailQuestPrereq(%s)=%s",QID,tostring(pre))
     return pre
 end
+
+function WoWPro.GrailBreadcrumbsFor(QID)
+    if not Grail or not WoWPro.EnableGrail then return nil end
+    if QID == "*" then return nil end
+    local numQIDs = select("#", string.split(";", QID))
+    local out = {}
+    WoWPro:dbp("GrailQuestPrereq(%s)",QID)
+    local j, lead
+    for j=1,numQIDs do
+        local qid = select(numQIDs-j+1, string.split(";", QID))
+        qid = tonumber(qid)
+        out = Grail:QuestBreadcrumbsFor(qid)
+        if out then
+            for q,_ in pairs(out) do
+                if tonumber(q) and tonumber(q) > 1 then
+                    if lead then
+                        lead = lead .. ";" .. q
+                    else
+                        lead = q
+                    end
+                end
+            end
+        end
+    end
+    return lead
+end
+
 
 function WoWPro:GrailCheckQuestName(guide,QID,myname)
     if not Grail or not WoWPro.EnableGrail then return nil end

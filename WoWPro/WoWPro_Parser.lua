@@ -312,11 +312,6 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 
     -- Split the line up on the pipes
     local tags = { strsplit("|", text) }
-	if #tags < 3 then
-	    -- Two pipes are needed for a valid line
-	    WoWPro:Error("Line %d in guide %s has only %d sections.", i, GID, #tags)
-	    return nil
-	end
 	
 	-- The first tag is is the Action followed by the Step name
 	local primo = tags[1]
@@ -433,9 +428,17 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	if not WoWPro.prereq[i] and WoWPro.action[i] == "A"  then
 	    local new_prereq = WoWPro.GrailQuestPrereq(WoWPro.QID[i])
 	    if WoWPro.DebugLevel > 0 and new_prereq then
-	        WoWPro:Warning("Grail says step %s [%s:%s] needs PRE¦%s¦.",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), new_prereq)
+	        WoWPro:Warning("Grail says step %s [%s:%s] in %s needs PRE¦%s¦.",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_prereq)
 	    end
 	    WoWPro.prereq[i] = new_prereq
+    end
+
+	if not WoWPro.leadin[i] and WoWPro.action[i] == "A"  then
+	    local new_leadin = WoWPro.GrailBreadcrumbsFor(WoWPro.QID[i])
+	    if WoWPro.DebugLevel > 0 and new_leadin then
+	        WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦.",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin)
+	    end
+	    WoWPro.leadin[i] = new_leadin
     end
 
 	if WoWPro.map[i] then
