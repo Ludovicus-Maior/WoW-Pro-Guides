@@ -425,7 +425,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    WoWPro.zone[i] = nil
 	end
 
-	if not WoWPro.prereq[i] and WoWPro.action[i] == "A"  then
+	if (not WoWPro.prereq[i]) and WoWPro.action[i] == "A"  then
 	    local new_prereq = WoWPro.GrailQuestPrereq(WoWPro.QID[i])
 	    if WoWPro.DebugLevel > 0 and new_prereq then
 	        WoWPro:Warning("Grail says step %s [%s:%s] in %s needs PRE¦%s¦.",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_prereq)
@@ -433,7 +433,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    WoWPro.prereq[i] = new_prereq
     end
 
-	if not WoWPro.leadin[i] and WoWPro.action[i] == "A"  then
+	if (not WoWPro.leadin[i]) and WoWPro.action[i] == "A"  then
 	    local new_leadin = WoWPro.GrailBreadcrumbsFor(WoWPro.QID[i])
 	    if WoWPro.DebugLevel > 0 and new_leadin then
 	        WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦.",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin)
