@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-12-07 05:15
+-- Who: Blanckaert
+-- Log: moved a quest or four around, changed the flow of one
+
+-- URL: http://wow-pro.com/node/3683/revisions/28111/view
 -- Date: 2016-12-07 01:07
 -- Who: Blanckaert
 -- Log: added PREs with Ludo's New code
@@ -516,11 +521,8 @@ A A Heavy Burden|QID|40078|PRE|39855|M|60.14,50.74|N|From Havi.|
 C A Heavy Burden|QID|40078|M|59.97,50.62;60.53,51.22|CS|NC|N|Carry Havi's fish to the fire.|
 T A Heavy Burden|QID|40078|M|60.13,50.72|N|To Havi.|
 A Knocking on Valor's Door|QID|40001|PRE|40078|M|60.13,50.72|N|From Havi.|
-
-; checked to here
-
 A To Catch a Banshee|QID|39059|PRE|39855|M|59.97,51.36|N|From Ensign Ward.|
-C To Catch a Banshee|QID|39059|M|71.54,59.82|CHAT|N|Chat with Ensign Ward to get going.|
+C To Catch a Banshee|QID|39059|M|71.54,59.82|CHAT|N|Chat with Ensign Ward to take you to Greywatch.|
 f Greywatch|QID|39059|M|72.18,59.85|N|At Gryphonp-Master Clifford.|
 T To Catch a Banshee|QID|39059|M|71.54,59.82|N|To Genn Greymane.|
 A Combustible Contagion|QID|39060|PRE|39059|M|71.54,59.82|N|From Genn Greymane.|
@@ -530,13 +532,13 @@ C Western Plague Cache|QID|39060|M|72.56, 60.81|QO|3|U|127295|N|Toss the toch on
 C Eastern Plague Cache|QID|39060|M|73.49, 63.18|QO|2|U|127295|N|Toss the toch on the banner.|
 C Northern Plague Cache|QID|39060|M|74.46,58.33|QO|1|U|127295|N|Toss the toch on the banner.|
 K Apothecary Curseheart|QID|39472|M|75.0,61.8|QO|1|T|Apothecary Curseheart|N|Beware the Festering Inquisitor (level 110)|
-C A Stack of Racks|QID|39792|M|51.97,75.72|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
+K Dread-Rider Cortis|QID|43343|M|74.22,61.44|T|Dread-Rider Cortis|N|Silver - Flies around, above this area.|
 T Combustible Contagion|QID|39060|M|71.54,59.82|N|To Genn Greymane.|
 T Whispers from the Dark|QID|39061|M|71.54,59.82|N|To Genn Greymane.|
 T Cut Out the Heart|QID|39472|M|71.54,59.82|N|To Genn Greymane.|
-A To Skold-Ashil|QID|39062|M|71.54,59.82|N|From Genn Greymane.|
+A To Skold-Ashil|QID|39062|PRE|39060;39061;39472|M|71.54,59.82|N|From Genn Greymane.|
 T To Skold-Ashil|QID|39062|M|63.56,61.73|N|To Commander Lorna Crowley|
-A Shielded Secrets|QID|39063|M|63.56,61.73|N|From Commander Lorna Crowley|
+A Shielded Secrets|QID|39063|PRE|39062|M|63.56,61.73|N|From Commander Lorna Crowley|
 A Assault on Skold-Ashil-Bonus Objective|QID|39119|LVL|-109|M|56.76,66.30|N|Auto-accepted when you enter the area.|
 C Assault on Skold-Ashil-Bonus Objective|QID|39119|M|56.76,66.30|S|N|Kill vrykal and destroy the weapon racks. There are also some shieldmaiden statues, you can click on the for a 10 minute buff Three differant buffs, so click all you see.|
 C Shielded Secrets|QID|39063|M|63.42,64.64|S|NC|N|Examine Engraved Shields, these are scattered all over the area.|
@@ -552,17 +554,20 @@ C Assault on Skold-Ashil|QID|39119|M|61.93,61.46|US|N|Finish this up or click it
 t Assault on Skold-Ashil|QID|39119|M|61.93,61.46|N|Auto turned in when completed.|
 T Stories of Battle|QID|39405|M|61.93,61.46|N|To UI Alert.|
 T Shielded Secrets|QID|39063|M|60.59,65.08|N|To Commander Lorna Crowley|
-A Becoming the Ascendant|QID|39092|M|60.59,65.08|N|From Commander Lorna Crowley|
+A Becoming the Ascendant|QID|39092|PRE|39063|M|60.59,65.08|N|From Commander Lorna Crowley|
 C Becoming the Ascendant|QID|39092|M|60.42,66.71|QO|3|NC|N|Recieve Blessing at Eyir's Shield.|
 K Kill Ivory Sentinel|QID|39031|M|59.86,68.07|QO|1|ITEM|132895|T|Ivory Sentinel|N|Silver - Kill and loot for a bit of treasure and resources.|
 C Becoming the Ascendant|QID|39092|M|60.49,69.52|QO|2|NC|N|Recieve Blessing at Eyir's Pauldron.|
 C Becoming the Ascendant|QID|39092|M|61.33,69.52|QO|1|NC|N|Recieve Blessing at Eyir's Helm.|
 C Becoming the Ascendant|QID|39092|M|61.36,66.75|QO|4|NC|N|Recieve Blessing at Eyir's Spear.|
 C Becoming the Ascendant|QID|39092|M|61.72,68.09|QO|5|CHAT|N|Commune with the statue.|
+R Jotunnwood|QID|39792|ACTIVE|39792|M|60.87,70.49;60.19,72.11;58.36,74.35;58.20,75.19|CC|N|Run across here, then grapple up to the top.|RANK|2|
+C A Stack of Racks|QID|39792|M|51.97,75.72|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
+R Skold-Ashil|QID|39792|ACTIVE|39092|M|58.20,75.19;63.00,48.61;60.19,72.11|CC|N|Run back to Skold-Ashil.|
 T Becoming the Ascendant|QID|39092|M|62.31,68.09|N|To Genn Greymane|
-A Ending the New Beginning|QID|39122|M|62.31,68.09|N|From Genn Greymane|
+A Ending the New Beginning|QID|39122|PRE|39092|M|62.31,68.09|N|From Genn Greymane.|
 C Banshee Queen|QID|39122|QO|1|N|Follow Greymane and see what the Banshee Queen is up to|
-T Ending the New Beginning|QID|39122|M|71.46,60.58|N|ToCommander Lorna Crowley|
+T Ending the New Beginning|QID|39122|M|71.46,60.58|N|To Commander Lorna Crowley|
 
 R Felskorn Warcamp|QID|40001|M|62.85,60.42|N|The best way I think is to use your grapple hook and go up the rooks at the back of Skol Ashil (near where Isel the Hammer was).  There is also a gate out the back of Skol Ashil then a path thru the Runewoods and finaly into the Felskorn Warcamp.|
 T Knocking on Valor's Door|QID|40001|M|65.91,59.53|N|To Vethir.|
@@ -592,18 +597,18 @@ C Stormheim's Salvation|QID|40005|M|70.22,69.50|CHAT|N|Ask Vethir for a ride to 
 C Stormheim's Salvation|QID|40005|M|70.94,70.16|N|God-King Skovald defeated.|
 T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|Ask Vethir for a ride back down so you can turn the quest in to Havi.|
 A Securing the Aegis|QID|40072|PRE|40005|M|70.25,69.24|N|From Havi. This is a dungeon quest, so queue, call friends over or check it off and move on.|
-H Return to Dalaran|QID|40072|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, hearth to Dalaran or your class hall and continue on your adventuring.|LEAD|39792|
+H Return to Dalaran|QID|40072|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, hearth to Dalaran or your class hall and continue on your adventuring.|LEAD|39792|RANK|-1|
 
 R Valdisdall|QID|39984|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|RANK|2|
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
 C Remnants of the Past|QID|39984|M|60.75,46.12|QO|1|NC|N|Find the first clue.|RANK|2|
-$ Small Treasure Chest|QID|40094|M|60.85,42.73|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|RANK|2|
-K Kill Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|QO|1|ITEM|129199|T|Tarben|N|Silver - From the roofbeam, Grapple to the loading dock above and then Kill Tarben for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|40093|M|61.41,44.41|N|Loot for treasure and resources.|RANK|2|
+K Kill Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|QO|1|ITEM|129199|T|Tarben|N|Silver - Kill Tarben for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|40094|M|60.85,42.73|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|RANK|2|
+C Remnants of the Past|QID|39984|M|60.43,42.95|QO|4|NC|N|Fourth Clue is on this rotting longboat.|RANK|2|
 $ Small Treasure Chest|QID|40082|M|58.04,47.51|N|Run up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|RANK|2|
 C Remnants of the Past|QID|39984|M|59.14,43.14|QO|2|NC|N|The second clue is back on the tideflats (ground level) on the crates here.|RANK|2|
 C Remnants of the Past|QID|39984|M|59.77,45.05|QO|3|NC|N|Find the third clue.|RANK|2|
-C Remnants of the Past|QID|39984|M|60.43,42.95|QO|4|NC|N|Fourth Clue is on this rotting longboat.|RANK|2|
 C Remnants of the Past|QID|39984|M|58.94,42.81|QO|5|NC|N|Enter the building with the red fog in the doorway.|RANK|2|
 T Remnants of the Past|QID|39984|M|58.94,42.81|N|To Havi.|RANK|2|
 A Scavenging the Shallows|QID|40046|PRE|39984|M|58.94,42.81|N|From Havi.|RANK|2|
