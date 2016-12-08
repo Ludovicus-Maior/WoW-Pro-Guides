@@ -298,7 +298,7 @@ end
 local FinalCoord
 function WoWPro:MapPointDelta()
     local x, y = GetPlayerMapPosition("player");
-    if FinalCoord then
+    if FinalCoord and x and y then
         local X,Y
         X=FinalCoord[1]
         Y=FinalCoord[2]
