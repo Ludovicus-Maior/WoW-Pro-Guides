@@ -1,6 +1,6 @@
 -- HereBeDragons is a data API for the World of Warcraft mapping system
 
-local MAJOR, MINOR = "HereBeDragons-1.0", 27
+local MAJOR, MINOR = "HereBeDragons-1.0", 31
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -64,6 +64,7 @@ local instanceIDOverrides = {
     [1533] = 0,    -- Karazhan Artifact Scenario
     [1612] = 1220, -- Feral Druid Artifact Scenario (Suramar)
     [1626] = 1220, -- Suramar Withered Scenario
+    [1662] = 1220, -- Suramar Invasion Scenario
 }
 
 -- unregister and store all WORLD_MAP_UPDATE registrants, to avoid excess processing when
@@ -86,7 +87,7 @@ local function RestoreWMU()
 end
 
 -- gather map info, but only if this isn't an upgrade (or the upgrade version forces a re-map)
-if not oldversion or oldversion < 26 then
+if not oldversion or oldversion < 30 then
     -- wipe old data, if required, otherwise the upgrade path isn't triggered
     if oldversion then
         wipe(mapData)
@@ -111,6 +112,10 @@ if not oldversion or oldversion < 26 then
         -- main draenor garrison maps
         [971] = true,
         [976] = true,
+
+        -- legion class halls
+        [1072] = { Z = 10 }, -- true shot lodge
+        [1077] = { Z = 7  }, -- dreamgrove
     }
 
     local function processTransforms()
@@ -191,6 +196,13 @@ if not oldversion or oldversion < 26 then
         end
 
         local C, Z = GetCurrentMapContinent(), GetCurrentMapZone()
+
+        -- maps that remap generally have wrong C/Z info, so allow the fixup table to override it
+        if REMAP_FIXUP_EXEMPT[id] and type(REMAP_FIXUP_EXEMPT[id]) == "table" then
+            C = REMAP_FIXUP_EXEMPT[id].C or C
+            Z = REMAP_FIXUP_EXEMPT[id].Z or Z
+        end
+
         mapData[id].C = C or -100
         mapData[id].Z = Z or -100
 
@@ -599,6 +611,7 @@ end
 function HereBeDragons:GetWorldCoordinatesFromZone(x, y, zone, level)
     local data = getMapDataTable(zone, level)
     if not data or data[0] == 0 or data[1] == 0 then return nil, nil, nil end
+    if not x or not y then return nil, nil, nil end
 
     local width, height, left, top = data[1], data[2], data[3], data[4]
     x, y = left - width * x, top - height * y
@@ -615,6 +628,7 @@ end
 function HereBeDragons:GetZoneCoordinatesFromWorld(x, y, zone, level, allowOutOfBounds)
     local data = getMapDataTable(zone, level)
     if not data or data[0] == 0 or data[1] == 0 then return nil, nil end
+    if not x or not y then return nil, nil end
 
     local width, height, left, top = data[1], data[2], data[3], data[4]
     x, y = (left - x) / width, (top - y) / height
@@ -651,6 +665,7 @@ end
 -- @param dY destination Y
 -- @return distance, deltaX, deltaY
 function HereBeDragons:GetWorldDistance(instanceID, oX, oY, dX, dY)
+    if not oX or not oY or not dX or not dY then return nil, nil, nil end
     local deltaX, deltaY = dX - oX, dY - oY
     return (deltaX * deltaX + deltaY * deltaY)^0.5, deltaX, deltaY
 end
@@ -711,7 +726,7 @@ end
 function HereBeDragons:GetUnitWorldPosition(unitId)
     -- get the current position
     local y, x, z, instanceID = UnitPosition(unitId)
-    if not x or not y then return nil, nil, nil end
+    if not x or not y then return nil, nil, instanceIDOverrides[instanceID] or instanceID end
 
     -- return transformed coordinates
     return applyCoordinateTransforms(x, y, instanceID)
@@ -723,7 +738,7 @@ end
 function HereBeDragons:GetPlayerWorldPosition()
     -- get the current position
     local y, x, z, instanceID = UnitPosition("player")
-    if not x or not y then return nil, nil, nil end
+    if not x or not y then return nil, nil, instanceIDOverrides[instanceID] or instanceID end
 
     -- return transformed coordinates
     return applyCoordinateTransforms(x, y, instanceID)
