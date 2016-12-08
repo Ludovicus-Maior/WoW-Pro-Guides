@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-07 18:52
+-- Who: cameljon
+-- Log: Moved Matron again!
+
+-- URL: http://wow-pro.com/node/3687/revisions/28116/view
+-- Date: 2016-12-07 18:47
+-- Who: cameljon
+-- Log: Reordered some quests for Moonguard. Also, Matron Hagatha moved to a closer quest.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28115/view
+-- Date: 2016-12-07 16:18
+-- Who: Blanckaert
+-- Log: Added a PRE to 42489, since Grail now reports to WP, that it needs one
+
+-- URL: http://wow-pro.com/node/3687/revisions/28107/view
 -- Date: 2016-12-06 20:32
 -- Who: Blanckaert
 -- Log: adjusted the Quests that are avail 12/06.
@@ -240,21 +255,6 @@
 -- Date: 2016-10-07 03:35
 -- Who: Blanckaert
 -- Log: Hit revered, added turnin for that quest, and get the 'exalted' quest. No other new quests yet.
-
--- URL: http://wow-pro.com/node/3687/revisions/27884/view
--- Date: 2016-10-06 08:10
--- Who: Emmaleah
--- Log: Changed two R steps to P, added missed coord for P Falanaar, fixed missing |CS| in R Irongrove Retreat
-
--- URL: http://wow-pro.com/node/3687/revisions/27883/view
--- Date: 2016-10-06 03:16
--- Who: Blanckaert
--- Log: added Mythic to the dungeon quest, as they are only able to be run as mythic...
-
--- URL: http://wow-pro.com/node/3687/revisions/27882/view
--- Date: 2016-10-06 03:11
--- Who: Blanckaert
--- Log: forgot a line to copy add 3rd dungeon quest
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -627,6 +627,7 @@ A Return to Irongrove Retreat|QID|41469|M|30.37,30.79|N|From Solendra Featherdow
 A Leyline Feed: Ley Station Moonfall|QID|43590|M|36.07,19.56|N|From Leyline Feed.|RANK|2|
 C Leyline Feed: Ley Station Moonfall|QID|43590|M|34.91,29.48|T|Thudchop Trunksmasher|N|Kill Thudchop Trunksmasher (Ettin) wandering around across the river and loot the Broken Leydar Dish.|RANK|2|
 T Leyline Feed: Ley Station Moonfall|QID|43590|M|36.03,19.59|N|To Leyline Feed.|RANK|2|
+K Matron Hagatha|QID|43718|M|39.48,25.10;40.23,26.28;35.90,34.45|CS|ITEM|140390|N|Silver - Kill for treasure and resources. Routes to path to get to cave, watch your step!|RANK|2|
 T Return to Irongrove Retreat|QID|41469|M|26.18,31.32|N|To Mythandros Irongrove.|
 A Eminent Grow-main|QID|41494|M|26.18,31.32|N|From Mythandros Irongrove.|PRE|41469|
 C Eminent Grow-main|QID|41494|M|26.18,31.18|NC|N|Click on the bowl to imbue the Inert Waters and wait a bit for the ritual to complete.|
@@ -648,11 +649,10 @@ C Not Their Last Stand|QID|40949|M|30.34,17.49|NC|N|Click on the Hippogryphs to 
 C Fate of the Guard|QID|40883|M|30.79,17.91|QO|2|NC|N|Find and click on Galar'thus Rivertree.|
 C Sigil Reclamation|QID|41030|M|28.49,18.19|US|N|Finish collecting Moon Guard Sigils.|
 C Fate of the Guard|QID|40883|M|32.0,18.00;33.70,18.14|CS|QO|3|NC|N|Into this tunnel and Click on Kailea Windfeather.|
-K Matron Hagatha|QID|43718|M|39.48,25.10;40.23,26.28;35.90,34.45|CS|ITEM|140390|N|Silver - Kill for treasure and resources. Routes to path to get to cave, watch your step!|RANK|2|
-A Take Them in Claw|QID|40963|M|33.71,18.02|N|Go up the stairs to get a quest from Lyrea Windfeather.|ACTIVE|40883|
 T Fate of the Guard|QID|40883|M|33.73,18.09|N|To Lyrea Windfeather.|
 T Sigil Reclamation|QID|41030|M|33.73,18.09|N|To Lyrea Windfeather.|
-T Not Their Last Stand|QID|40949|M|33.71,18.02|N|To UI Alert.|
+T Not Their Last Stand|QID|40949|M|33.71,18.02|N|To Wounded Moonfall Defender.|
+A Take Them in Claw|QID|40963|M|33.71,18.02|N|Go up the stairs to get a quest from Lyrea Windfeather.|PRE|40883|
 C Take Them in Claw|QID|40963|M|31.81,22.60|U|139882|N|Target the Nightborne and use vial to attract the wild hippogryphs.The nightborne can be found on this level and the next two.|
 T Take Them in Claw|QID|40963|M|31.43,23.20|N|To Serena Windfeather.|
 A The Rift Between|QID|40964|M|31.43,23.20|N|From Serena Windfeather.|PRE|40963|
@@ -948,7 +948,7 @@ $ Treasure Chest|QID|43858|M|67.31,55.11|N|Loot for some treasure and resources.
 R Estate of the First Arcanist|QID|42488|M|65.06,51.12;67.11,57.28;68.14,62.93|CS|N|Run down to Thalyssra's Estate.|
 K Pinchshank|QID|43968|M|66.66,67.13|ITEM|1040402|T|Pinchshank|N|Silver - Kill and loot for treasure and resources, also drops a Hunter's Toy.|RANK|2|
 K Kill Magisterial Sleuths|QID|42488|L|138392 3|S|N|Kill the Sleuth's until you have 3 amplifer fragments.|
-A Thalyssra's Drawers|QID|42489|M|65.70,62.73|N|From Armoire.|RANK|2|
+A Thalyssra's Drawers|QID|42489|PRE|42487|M|65.70,62.73|N|From Armoire.|RANK|2|
 C Thalyssra's Drawers|QID|42489|M|66.42,63.37|QO|1|NC|N|Pick up Thalyssra's Favorite Robe.|RANK|2|
 C Thalyssra's Drawers|QID|42489|M|65.83,64.83|QO|2|NC|N|Pick up Thalyssra's Favorite Books.|RANK|2|
 C Thalyssra's Drawers|QID|42489|M|64.64,61.57|QO|3|NC|N|Pick up her Private Correspondence.|RANK|2|

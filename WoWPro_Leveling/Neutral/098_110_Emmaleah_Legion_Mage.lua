@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2016-12-08 02:59
+-- Who: Blanckaert
+-- Log: added PRE according to Ludo's new code, plus notes about PRE told about but not put in place.
+
+-- URL: http://wow-pro.com/node/3671/revisions/28062/view
 -- Date: 2016-11-29 00:27
 -- Who: Blanckaert
 -- Log: changes QID# 44098 to LVL 104, per comment from Discord:cameljon
@@ -74,6 +79,9 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Mage")
 WoWPro:GuideSteps(guide, function()
 return [[
 N DRAFT|N|A great deal of the content from lvl 101 and on is gleaned from WoWhead and untested. Please post any corrections.|
+
+; For 44663 and 44184, Grail is reporting PRE of 44120+44473 - which are DH Quests
+
 A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
@@ -83,7 +91,7 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
-A Felstorm's Plea|QID|41035|M|57.57,45.77|Z|Dalaran@Dalaran70|N|From Auto Alert.|
+A Felstorm's Plea|QID|41035|PRE|43635|M|57.57,45.77|Z|Dalaran@Dalaran70|N|From Auto Alert.|
 T Felstorm's Plea|QID|41035|M|53.72,47.35|Z|Dalaran@Dalaran70|N|To Meryl Felstorm who is in The Violet Gate.|
 A The Dreadlord's Prize|QID|41036|M|53.72,47.35|Z|Dalaran@Dalaran70|N|From Meryl Felstorm.|PRE|41035|
 R The Violet Hold|QID|41036|M|67.50,69.80|QO|1|Z|Dalaran@Dalaran70|CC|ACTIVE|41036|
@@ -242,7 +250,7 @@ C A Personal Touch|QID|40562|QO|2|N|Port back to your Hall.|
 T Ravencrest's Legacy|QID|44479|M|83.63,33.20|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart {Xe'ra}.|
 
 N Available at AK 5|QID|44480|N|Some quests missing here. These next two become available after training artifact knowledge 5.|
-A In My Father's House|QID|44480|M|83.24,32.91|Z|Hall of the Guardian@MageClassShrine|N|From Light's Heart.|
+A In My Father's House|QID|44480|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian@MageClassShrine|N|From Light's Heart.|
 C In My Father's House|QID|44480|M|32.78,49.97|Z|Azshara|QO|1|N|Witness Illidan's Resilience|U|226968| ; will U accept a spellid?
 T In My Father's House|QID|44480|M|83.24,32.91|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart|
 A Destiny Unfulfilled|QID|44496|M|83.24,32.91|Z|Hall of the Guardian@MageClassShrine|N|From Light's Heart|
@@ -393,7 +401,7 @@ C The Mage Hunter|QID|42479|M|67.04,92.73|Z|AzsunaArtifact|QO|2|N|Pick up Ebonch
 T The Mage Hunter|QID|42479|M|56.57,33.95|N|To Meryl Felstorm.|
 
 ;Mage Class Hall
-A The Champion's Return|QID|41114|N|From UI Alert.|
+A The Champion's Return|QID|41114|N|From UI Alert.| ; Grail reports PRE of 11997 - which has been removed from WOW, According to Wowhead.
 C The Champion's Return|QID|41114|NC|N|Teleport to the Hall of the Guardian|
 T The Champion's Return|QID|41114|M|56.46,33.87|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm, in the library upstairs.|
 A Unlocked Potential|QID|41125|M|56.46,33.87|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|
