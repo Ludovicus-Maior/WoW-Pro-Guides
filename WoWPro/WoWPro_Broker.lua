@@ -124,7 +124,7 @@ end
 -- See if any of the list of QIDs are in the indicated table and return the first
 function WoWPro:QIDInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
+        WoWPro:dbp("WoWPro:QIDInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
     local value = QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and qid end, why or "QIDInTable", debug or quids_debug)
     if debug or quids_debug then
@@ -758,7 +758,7 @@ function WoWPro.NextStep(k,i)
 	    -- Skip C or T steps if not in QuestLog
            if (WoWPro.action[k] == "C" or WoWPro.action[k] == "T") and QID then
 --	        WoWPro:Print("LFO: %s [%s] step %s",WoWPro.action[k],WoWPro.step[k],k)
-	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog, true, "IsInQuestLog") then
+	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
     			skip = true -- If the quest is not in the quest log, the step is skipped --
     			WoWPro:dbp("Step %s [%s/%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],tostring(QID))
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
