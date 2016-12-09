@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-09 19:10
+-- Who: cameljon
+-- Log: Added a new waypoint for Quality of Life for the port to Felsoul Hold.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28117/view
 -- Date: 2016-12-07 18:52
 -- Who: cameljon
 -- Log: Moved Matron again!
@@ -250,11 +255,6 @@
 -- Date: 2016-10-09 11:53
 -- Who: Emmaleah
 -- Log: Edits to notes, add R Steps, Treasure, Leylines, Silver's,S|US tags, etc to Crimson Thicket and Jandvik.
-
--- URL: http://wow-pro.com/node/3687/revisions/27886/view
--- Date: 2016-10-07 03:35
--- Who: Blanckaert
--- Log: Hit revered, added turnin for that quest, and get the 'exalted' quest. No other new quests yet.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -856,7 +856,7 @@ C A Desperate Journey|QID|40424|CC|M|36.36,60.48|QO|2|N|Move towards cave, wait 
 C A Desperate Journey|QID|40424|M|37.82,61.68|QO|3|NC|N|Find Astoril.|RANK|2|
 T A Desperate Journey|QID|40424|M|37.82,61.68|N|To Astoril.|RANK|2|
 A Quality of Life|QID|40470|M|37.83,61.60|N|From Iadreth.|PRE|40424|RANK|2|
-C Quality of Life|QID|40470|M|38.29,76.45|QO|1|NC|N|Follow Iadreth.|RANK|2|
+C Quality of Life|QID|40470|M|37.92,60.74;38.29,76.45|QO|1|NC|N|Follow Iadreth by stepping on circle.|RANK|2|
 C Quality of Life|QID|40470|M|43.34,37.43|Z|Suramar/23|QO|2|N|Kill Astoril, once He's Hostile.|RANK|2|
 $ Small Treasure Chest|QID|43835|M|54.88,37.80|Z|Suramar/23|N|Loot chest for some treasure and resources.|RANK|2|
 A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|From Unpowered Telemancy Beacon.|RANK|2|

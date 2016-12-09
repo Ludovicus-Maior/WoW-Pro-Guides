@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-12-09 20:08
+-- Who: Blanckaert
+-- Log: added R to Shield's rest and f step...  I think that then makes this guide also give the Exploration achieve.
+
+-- URL: http://wow-pro.com/node/3680/revisions/28123/view
+-- Date: 2016-12-09 14:55
+-- Who: Blanckaert
+-- Log: added pre to 39405, adjusted top level and mean level
+
+-- URL: http://wow-pro.com/node/3680/revisions/28112/view
 -- Date: 2016-12-07 01:15
 -- Who: Blanckaert
 -- Log: added QIDs with Ludo's new code, hope I kept Emma's changes.
@@ -108,7 +118,7 @@
 -- Who: Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmStormheim', 'Leveling', 'Stormheim', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,100, 109, 98.6039)
+WoWPro:GuideLevels(guide,98, 110, 98.1628)
 WoWPro:GuideNextGuide(guide,'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Stormheim")
@@ -499,8 +509,8 @@ C A Stack of Racks|QID|39792|M|51.97,75.72|S|N|Kill the stout higlands runehorns
 K Kill Daniel "Boomer" Vorick|QID|39048|M|58.42,75.65|ITEM|129144|QO|1|T|Daniel "Boomer" Vorick|N|Silver - Kill and loot for a bit of treasure and resources and FOR THE HORDE!|RANK|2|
 C A Stack of Racks|QID|39792|M|56.77,78.87|US|N|Finish collectomg Meaty Rack of Musken Ribs.|RANK|2|
 K Kill Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|38480|M|51.4,76.7;52.03,80.56|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources.|RANK|3|
-f Hafr Fjall|QID|39792|M|55.66,87.46|N|Continue up this path to find a flightpath at Fluga the Scalekeeper. This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
+$ Small Treasure Chest|QID|38480|M|51.55,76.64;50.63,77.03;52.03,80.56|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources.|RANK|3|
+f Hafr Fjall|QID|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|N|Continue up this path to find a flightpath at Fluga the Scalekeeper. This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
 $ Small Treasure Chest|QID|43190|M|59.14,87.18;53.19,93.12|CS|N|This is WAY down the trail. Loot or a bit of treasure and resources. Run back up to the flightpath the way you came.|RANK|3|
 F Dreadwake's Landing|QID|39153|M|55.66,87.46|N|Fly back to Dreadwake's Landing.|RANK|3|
 C Dreadwake's Dilemma|QID|39153|M|57.08,73.64|N|Finish killing the Greywatch worgen.|
@@ -516,7 +526,7 @@ A Shielded Secrets|QID|38878|PRE|39154|M|56.76,66.30|N|From Lady Sylvanas Windru
 A Assault on Skold-Ashil-Bonus Objective|QID|38939|M|56.76,66.30|N|Auto-accepted when you enter the area.|LVL|-109|RANK|2|
 C Assault on Skold-Ashil-Bonus Objective|QID|38939|M|56.76,66.30|S|N|Kill vrykal and destroy the weapon racks. There are also some shieldmaiden statues, you can click on the for a 10 minute buff Three differant buffs, so click all you see.|RANK|2|
 C Shielded Secrets|QID|38878|M|63.42,64.64|S|NC|N|Examine Engraved Shields, these are scattered all over the area.|
-A Stories of Battle|QID|39405|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
+A Stories of Battle|QID|39405|PRE|39062|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
 C Stories of Battle|QID|39405|M|61.93,61.46|S|N|Kill pristesses of Eyir to loot Verses of Ashilvara.|
 $ Small Treasure Chest|QID|40090|M|57.95,63.35|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|40089|M|61.83,62.89|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -535,12 +545,12 @@ C Becoming the Ascendant|QID|39155|M|60.49,69.52|QO|2|NC|N|Recieve Blessing at E
 C Becoming the Ascendant|QID|39155|M|61.33,69.52|QO|1|NC|N|Recieve Blessing at Eyir's Helm.|
 C Becoming the Ascendant|QID|39155|M|61.36,66.75|QO|4|NC|N|Recieve Blessing at Eyir's Spear.|
 C Becoming the Ascendant|QID|39155|M|61.72,68.09|QO|5|CHAT|N|Commune with the statue.|
+$ Treasure Chest|QID|40091|M|61.82,70.38;62.12,71.26;62.15,72.48;62.59,73.64|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
+K Kill Inquisitor Ernstenbok|QID|37908|M|63.66,74.33|QO|1|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources. In cave under the tower.|RANK|2|
 T Becoming the Ascendant|QID|39155|M|62.56,68.06|N|To Lady Sylvanas Windrunner.|
 A A New Life for Undeath|QID|38882|PRE|39155|M|62.56,68.06|N|From Lady Sylvanas Windrunner.|
 C A New Life for Undeath|QID|38882|M|63.85,68.07|NC|N|Follow Sylvanas, you will be transported back to Dreadwake Landing.|
 T A New Life for Undeath|QID|38882|M|55.09,72.65|N|To Lady Sylvanas Windrunner.|
-K Kill Inquisitor Ernstenbok|QID|37908|M|63.66,74.33|QO|1|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
-$ Treasure Chest|QID|40091|M|60.33,72.30;60.89,71.80;62.6,73.6|CS|N|Run up this path and into the tower for a chest to loot for a bit of treasure and resources.|RANK|2|
 
 R Felskorn Warcamp|QID|40001|M|62.85,60.42|N|The easiest way is to fly to Valdisdall, the more adventurous way is to use your grapple hook and go up the rooks at the back of Skol Ashil (near where Isal the Hammer was).  There is also a gate out the back of Skol Ashil then a path thru the Runewoods and finaly into the Felskorn Warcamp.|
 T Knocking on Valor's Door|QID|40001|M|65.91,59.53|N|To Vethir.|

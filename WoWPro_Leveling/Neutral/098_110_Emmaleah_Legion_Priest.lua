@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-12-09 20:11
+-- Who: Blanckaert
+-- Log: adjust min/max/mean a couple PRE notes
+
+-- URL: http://wow-pro.com/node/3674/revisions/28101/view
 -- Date: 2016-12-05 07:14
 -- Who: Blanckaert
 -- Log: =7
@@ -93,7 +98,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmLegionPriest', 'Leveling', 'NetherlightTemple/1', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Priest Order Hall')
-WoWPro:GuideLevels(guide,98, 110, 98.0)
+WoWPro:GuideLevels(guide,98, 110, 103.889)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideClassSpecific(guide, 'Priest')
 WoWPro:GuideAutoSwitch(guide)
@@ -102,16 +107,19 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N Guide Progression|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
 
+; Grail reports QID 44663 and 44184 needs a PRE of 44120+44473 - one not avail, the other DH
+
 A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
 A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
+
 ;both
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardian) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
-A Priestly Matters|QID|40705|M|57.57,44.48|Z|Dalaran@Dalaran70|N|From Hooded Priestess.|
+A Priestly Matters|QID|40705|M|57.57,44.48|Z|Dalaran@Dalaran70|N|From Hooded Priestess.| ; Needs PRE of 43635, not sure if still avail
 R Chamber of the Guardian|QID|40705|M|49.44,47.54|CC|Z|Dalaran@Dalaran70|N|In the middle of Dalaran.|ACTIVE|40705|
 C Priestly Matters|QID|40705|QO|1|M|28.66,77.50|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional) Take the Portal to the Dalaran Crater, be ready with levitate or some other way to mitigate falling damage.|
 C Priestly Matters|QID|40705|QO|2|M|79.09,41.06|Z|Tirisfal Glades|CHAT|N|Meet with the priest at Faol's Rest in Tirisfal Glades.|

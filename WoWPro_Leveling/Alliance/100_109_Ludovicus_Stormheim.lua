@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-12-09 20:05
+-- Who: Blanckaert
+-- Log: Guide now if on Rank 3 will get all kill and treasures needed for achieves.
+
+-- URL: http://wow-pro.com/node/3683/revisions/28124/view
+-- Date: 2016-12-09 14:59
+-- Who: Blanckaert
+-- Log: removed the 5 K steps after end of guide, as they've been moved into guide at (approx) right areas, just forgot to remove the day before
+
+-- URL: http://wow-pro.com/node/3683/revisions/28122/view
+-- Date: 2016-12-09 14:53
+-- Who: Blanckaert
+-- Log: added pre to 39405, adjusted top level and meanlevel
+
+-- URL: http://wow-pro.com/node/3683/revisions/28121/view
 -- Date: 2016-12-09 04:04
 -- Who: Blanckaert
 -- Log: moved something, added a couple Kill silvers, that were not in guide.
@@ -154,17 +169,17 @@
 -- Log: So far
 
 local guide = WoWPro:RegisterGuide('LudoStormheim', 'Leveling', 'Stormheim', 'Ludovicus', 'Alliance')
-WoWPro:GuideLevels(guide, 100, 109, 98.4408)
+WoWPro:GuideLevels(guide, 98, 110, 98.1628)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Stormheim")
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 return [[
 
 N Starting in Dalaran|QID|39735|U|140192|N|This guide assumes you are starting in Dalaran. |
-N Warning!|QID|39735|N|This guide has had 1 playthrough. There may still be errors and there are certainly some missing treasures and silver kills.|
+N Warning!|N|This guide has had a few playthroughs. There may still be errors, but we feel it is as complete as possible.|
 N Treasure|QID|39735|N|All treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 1. If you are using handy notes treasures, there treasure symbol will show over the tomtom green dot, obscuring it, the arrow will still work fine.|
 N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The item displayed has a high chance to drop but not guarenteed. Blizzard has marked these mobs on the minimap with a star.|
-N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure and rare in the zone.|
+N Ranks|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure and rare in the zone.|
 
 ; Greymane's Gambit Leadin
 R The Violet Citadel|QID|39735|M|29.10,46.93|Z|Dalaran@Dalaran70|N|At Sky Admiral Rogers.|
@@ -380,6 +395,12 @@ $ Glimmering Treasure Chest|QID|43189|M|42.12,35.72;42.46,34.08|CS|ITEM|141896|N
 K Kill Egyl the Enduring|QID|40068|M|41.77,34.11|QO|1|ITEM|132898|N|There is a cave under the statue. Go inside to find Egyl. Kill and loot for a bit of treasure and resources.|RANK|2|
 K Kill Horde Kill Squad|QID|38630|M|44.50,22.80|ITEM|129266|T|Apothecary Perez|N|Kill All 4 mobs, if you get there during the 'event', still kill whats there you'll still complete it.|RANK|2|
 C Only the Finest|QID|39793|M|44.14,37.51|US|N|Finish collecting the patches of goat hair.|RANK|2|
+$ Treasure Chest|QID|43195|M|50.00,18.10|N|Loot for a bit of treasure and resources.|RANK|3|
+$ Small Treasure Chest|QID|38498|M|39.58,19.35|N|Loot for a bit of treasure and resources.|RANK|3|
+$ Small Treasure Chest|QID|38490|M|33.62,27.28;32.73,27.90|CS|N|Loot for a bit of treasure and resources. Horde Area.|RANK|3|
+$ Small Treasure Chest|QID|38487|M|37.00,27.38;39.82,29.75;36.68,32.52;36.31,34.43;35.03,36.60|CS|N|Loot for a bit of treasure and resources.|RANK|3|
+$ Small Treasure Chest|QID|38495|M|33.44,34.11;34.66,35.96;34.79,37.54;33.13,36.06|CS|N|Loot for a bit of treasure and resources.|RANK|3|
+$ Small Treasure Chest|QID|43208|M|36.00,39.22;37.21,38.66|CS|N|Loot for a bit of treasure and resources.|RANK|3|
 C Rigging the Wager|QID|39787|M|48.87,34.07;48.24,32.81|CS|QO|1|N|There is a grapple point to his nest above. Fight with your back to the wall, so you dont get thrown off. Kill and loot his beak.|RANK|2|
 C The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|US|N|Finish or click off manually.|RANK|2| ; Emma
 t The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|N|Auto turned in upon completion.|RANK|2|
@@ -540,7 +561,7 @@ $ Small Treasure Chest|QID|43237|M|73.98,58.59|N|Loot for treasure and resources
 C Northern Plague Cache|QID|39060|M|74.46,58.33|QO|1|U|127295|N|Toss the toch on the banner.|
 $ Small Treasure Chest|QID|43307|M|76.05,65.05;76.91,66.17;77.25,67.18;77.31,68.16;77.12,69.29;78.57,70.33;78.43,71.38|CS|N|Very time comsuming to get to. About 5 hook points and a couple of jump downs.  Loot for a bit of treasure and resources. (or decide you dont want to.)|RANK|3|
 K Apothecary Curseheart|QID|39472|M|75.0,61.8|QO|1|T|Apothecary Curseheart|N|Beware the Festering Inquisitor (level 110)|
-K Dread-Rider Cortis|QID|43343|M|74.22,61.44|T|Dread-Rider Cortis|N|Silver - Flies around, above this area.|
+K Dread-Rider Cortis|QID|43343|M|74.22,61.44|ITEM|130134|T|Dread-Rider Cortis|N|Silver - Flies around, above this area.|
 $ Small Treasure Chest|QID|43304|M|75.49,60.10;75.62,60.63|CS|N|Look up from first coord. Use Hook Point. Loot for treasure and resources.|RANK|3|
 T Combustible Contagion|QID|39060|M|71.54,59.82|N|To Genn Greymane.|
 T Whispers from the Dark|QID|39061|M|71.54,59.82|N|To Genn Greymane.|
@@ -551,7 +572,7 @@ A Shielded Secrets|QID|39063|PRE|39062|M|63.56,61.73|N|From Commander Lorna Crow
 A Assault on Skold-Ashil-Bonus Objective|QID|39119|LVL|-109|M|56.76,66.30|N|Auto-accepted when you enter the area.|
 C Assault on Skold-Ashil-Bonus Objective|QID|39119|M|56.76,66.30|S|N|Kill vrykal and destroy the weapon racks. There are also some shieldmaiden statues, you can click on the for a 10 minute buff Three differant buffs, so click all you see.|
 C Shielded Secrets|QID|39063|M|63.42,64.64|S|NC|N|Examine Engraved Shields, these are scattered all over the area.|
-A Stories of Battle|QID|39405|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
+A Stories of Battle|QID|39405|PRE|39062|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
 C Stories of Battle|QID|39405|M|61.93,61.46|S|N|Kill pristesses of Alir to loot Verses of Ashilvara.|
 $ Small Treasure Chest|QID|40090|M|57.95,63.35|N|Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|40089|M|61.83,62.89|N|Loot for a bit of treasure and resources.|
@@ -570,16 +591,21 @@ C Becoming the Ascendant|QID|39092|M|60.49,69.52|QO|2|NC|N|Recieve Blessing at E
 C Becoming the Ascendant|QID|39092|M|61.33,69.52|QO|1|NC|N|Recieve Blessing at Eyir's Helm.|
 C Becoming the Ascendant|QID|39092|M|61.36,66.75|QO|4|NC|N|Recieve Blessing at Eyir's Spear.|
 C Becoming the Ascendant|QID|39092|M|61.72,68.09|QO|5|CHAT|N|Commune with the statue.|
-R Jotunnwood|QID|39792|ACTIVE|39792|M|60.87,70.49;60.19,72.11;58.36,74.35;58.20,75.19|CC|N|Run across here, then grapple up to the top.|RANK|2|
-C A Stack of Racks|QID|39792|M|51.97,75.72|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
-K Kill Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|
+$ Treasure Chest|QID|40091|M|61.82,70.38;62.12,71.26;62.15,72.48;62.59,73.64|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
 K Inquistor Ernstenbok|QID|37908|M|63.69,74.31|QO|1|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+R Jotunnwood|QID|39792|ACTIVE|39792|M|58.94,73.97;58.36,74.35;58.20,75.19|CC|N|Run across here, then grapple up to the top.|RANK|2|
+C A Stack of Racks|QID|39792|M|51.97,75.72|S|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
+K Kill Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|
+C A Stack of Racks|QID|39792|M|51.97,75.72|US|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
+$ Small Treasure Chest|QID|38480|M|51.55,76.64;50.63,77.03;52.03,80.56|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources.|RANK|3|
+f Hafr Fjall|QID|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|CS|N|Continue up this path to find a flightpath at Fluga the Scalekeeper. This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
+$ Small Treasure Chest|QID|43190|M|59.14,87.18;53.19,93.12|CS|N|This is WAY down the trail. Loot or a bit of treasure and resources. Run back up to the flightpath the way you came.|RANK|3|
+F Greywatch|QID|39792|ACTIVE|39792|M|52.53,80.11|N|Fly to Greywatch then run back to Skold-Ashil, OR Click off this step and just run back down.|RANK|3|
 R Skold-Ashil|QID|39792|ACTIVE|39092|M|60.96,73.55;60.19,72.11|CC|N|Run back to Skold-Ashil.|
 T Becoming the Ascendant|QID|39092|M|62.31,68.09|N|To Genn Greymane|
 A Ending the New Beginning|QID|39122|PRE|39092|M|62.31,68.09|N|From Genn Greymane.|
 C Banshee Queen|QID|39122|QO|1|N|Follow Greymane and see what the Banshee Queen is up to|
 T Ending the New Beginning|QID|39122|M|71.46,60.58|N|To Commander Lorna Crowley|
-
 R Felskorn Warcamp|QID|40001|M|62.85,60.42|N|The best way I think is to use your grapple hook and go up the rooks at the back of Skol Ashil (near where Isel the Hammer was).  There is also a gate out the back of Skol Ashil then a path thru the Runewoods and finaly into the Felskorn Warcamp.|
 T Knocking on Valor's Door|QID|40001|M|65.91,59.53|N|To Vethir.|
 A A Familiar Fate|QID|40002|PRE|40001|M|65.91,59.53|N|From Vethir.|
@@ -684,6 +710,15 @@ $ Small Treasure Chest|QID|43191|M|82.40,54.51|N|Loot for a bit of treasure and 
 C Put It All on Red|QID|42483|M|81.58,52.56|T|Steelscale|N|This is difficult to solo for most classes. You may want to bring a friend. Kill Steelscale and loot his fin.|RANK|2|
 R Talonrest|QID|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|
 T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note. (Optional) Use your reward (magnifying glass) to determine the true value of the other quest rewards.|RANK|2|
+U Dalaran|QID|43331|U|140192|N|Return to Dalaran (via Hearthstone or however you choose).|RANK|2|
+A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran@Dalaran70|N|From Gazrix Gearlock beside the north bank.|RANK|3|LVL|110|
+F Valdisdall|QID|43331|M|69.84,51.17|Z|Dalaran@Dalaran70|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|LVL|110|
+R Loch Varmad|QID|43331|ACTIVE|43331|M|60.52,52.14;67.08,38.84;66.01,25.52|CS|N|Run down this path and across the water to avenge those Tauren and...treasure.|RANK|3|LVL|110|
+C Time to Collect|QID|43331|M|69.97,21.96;69,27.5|CS|N|Look straight up from first coordinate, Use Grappling Hook to get onto Island, continuing grappling upward until you are to the top. Kill them within a minute of each other, or else the first one dead may respawm. (If he does respawn, you can avoid him, but it adds difficulty).|RANK|3|LVL|110|
+$ Treasure Chest|QID|40108|M|68.42,29.60|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure.|RANK|3|LVL|110|;doesnt actually require 110, but this is way too remote to come out if you arent doing the sixtriggers quest.
+T Time to Collect|QID|43331|M|68.89,26.04|N|To the Sixtriggers' Premium Stash.|LVL|110|RANK|3|
+R Shield's Rest|QID|43331|M|71.93,16.84;76.45,10.28|CS|N|Runing to here will get you the Exploration Achievement.|RANK|3|
+f Shield's Rest|QID|43331|M|90.02,10.28|N|Run around the island - Level 110 Elites, to get this Flight path.|RANK|3|
 N End of Stormheim|QID|99999|U|140192|N|Return to your Class Order Hall to pick your next zone and tend to your missions.|
 
 ; Standard Class Halls redirect
@@ -700,11 +735,6 @@ D On to Class Halls|N|This ends Stormheim and the Shaman order hall guide will l
 D On to Class Halls|N|This ends Stormheim and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends Stormheim and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
 
-K Kill Apothecary Perez|M|44.2,22.8|ITEM|129266|
-K Kill Assassin Huwe|M|44.2,22.8|ITEM|129266|
-K Kill Dark Ranger Jess|M|44.2,22.8|ITEM|129266|
-K Kill Deathguard Adams|M|44.2,22.8|ITEM|129266|
-K Kill Deathguard Adams|M|77,62|ITEM|130134|
 ]]
 
 end)
