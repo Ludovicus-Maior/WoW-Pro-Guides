@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-12-09 04:04
+-- Who: Blanckaert
+-- Log: moved something, added a couple Kill silvers, that were not in guide.
+
+-- URL: http://wow-pro.com/node/3683/revisions/28114/view
 -- Date: 2016-12-07 05:15
 -- Who: Blanckaert
 -- Log: moved a quest or four around, changed the flow of one
@@ -373,6 +378,7 @@ $ Small Treasure Chest|QID|43240|M|44.06,37.88;44.99,38.24|CS|N|Use grapple poin
 $ Small Treasure Chest|QID|43255|M|45.68,32.90;46.29,33.12;46.49,34.09;47.45,34.10|CS|N|Use grapple points to get to this treasure. Loot for a bit of treasure and resources.|RANK|2|
 $ Glimmering Treasure Chest|QID|43189|M|42.12,35.72;42.46,34.08|CS|ITEM|141896|N|Long run up the steps At the top you get achievement and a chest to loot for treasure and resources.|RANK|3|
 K Kill Egyl the Enduring|QID|40068|M|41.77,34.11|QO|1|ITEM|132898|N|There is a cave under the statue. Go inside to find Egyl. Kill and loot for a bit of treasure and resources.|RANK|2|
+K Kill Horde Kill Squad|QID|38630|M|44.50,22.80|ITEM|129266|T|Apothecary Perez|N|Kill All 4 mobs, if you get there during the 'event', still kill whats there you'll still complete it.|RANK|2|
 C Only the Finest|QID|39793|M|44.14,37.51|US|N|Finish collecting the patches of goat hair.|RANK|2|
 C Rigging the Wager|QID|39787|M|48.87,34.07;48.24,32.81|CS|QO|1|N|There is a grapple point to his nest above. Fight with your back to the wall, so you dont get thrown off. Kill and loot his beak.|RANK|2|
 C The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|US|N|Finish or click off manually.|RANK|2| ; Emma
@@ -530,9 +536,12 @@ A Whispers from the Dark|QID|39061|PRE|39059|M|71.54,59.82|N|From Genn Greymane.
 A Cut Out the Heart|QID|39472|PRE|39855|M|72.4,61.1|N|From Forsaken Battle Plans. Make your way up the hill.|
 C Western Plague Cache|QID|39060|M|72.56, 60.81|QO|3|U|127295|N|Toss the toch on the banner.|
 C Eastern Plague Cache|QID|39060|M|73.49, 63.18|QO|2|U|127295|N|Toss the toch on the banner.|
+$ Small Treasure Chest|QID|43237|M|73.98,58.59|N|Loot for treasure and resources.|RANK|3|
 C Northern Plague Cache|QID|39060|M|74.46,58.33|QO|1|U|127295|N|Toss the toch on the banner.|
+$ Small Treasure Chest|QID|43307|M|76.05,65.05;76.91,66.17;77.25,67.18;77.31,68.16;77.12,69.29;78.57,70.33;78.43,71.38|CS|N|Very time comsuming to get to. About 5 hook points and a couple of jump downs.  Loot for a bit of treasure and resources. (or decide you dont want to.)|RANK|3|
 K Apothecary Curseheart|QID|39472|M|75.0,61.8|QO|1|T|Apothecary Curseheart|N|Beware the Festering Inquisitor (level 110)|
 K Dread-Rider Cortis|QID|43343|M|74.22,61.44|T|Dread-Rider Cortis|N|Silver - Flies around, above this area.|
+$ Small Treasure Chest|QID|43304|M|75.49,60.10;75.62,60.63|CS|N|Look up from first coord. Use Hook Point. Loot for treasure and resources.|RANK|3|
 T Combustible Contagion|QID|39060|M|71.54,59.82|N|To Genn Greymane.|
 T Whispers from the Dark|QID|39061|M|71.54,59.82|N|To Genn Greymane.|
 T Cut Out the Heart|QID|39472|M|71.54,59.82|N|To Genn Greymane.|
@@ -563,7 +572,9 @@ C Becoming the Ascendant|QID|39092|M|61.36,66.75|QO|4|NC|N|Recieve Blessing at E
 C Becoming the Ascendant|QID|39092|M|61.72,68.09|QO|5|CHAT|N|Commune with the statue.|
 R Jotunnwood|QID|39792|ACTIVE|39792|M|60.87,70.49;60.19,72.11;58.36,74.35;58.20,75.19|CC|N|Run across here, then grapple up to the top.|RANK|2|
 C A Stack of Racks|QID|39792|M|51.97,75.72|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
-R Skold-Ashil|QID|39792|ACTIVE|39092|M|58.20,75.19;63.00,48.61;60.19,72.11|CC|N|Run back to Skold-Ashil.|
+K Kill Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|
+K Inquistor Ernstenbok|QID|37908|M|63.69,74.31|QO|1|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+R Skold-Ashil|QID|39792|ACTIVE|39092|M|60.96,73.55;60.19,72.11|CC|N|Run back to Skold-Ashil.|
 T Becoming the Ascendant|QID|39092|M|62.31,68.09|N|To Genn Greymane|
 A Ending the New Beginning|QID|39122|PRE|39092|M|62.31,68.09|N|From Genn Greymane.|
 C Banshee Queen|QID|39122|QO|1|N|Follow Greymane and see what the Banshee Queen is up to|
@@ -642,7 +653,7 @@ R Dreygrot|QID|42635|M|72.15,47.45;72.47,51.58|CS|N|Run through Runewood to Drey
 A The Mystery of Dreyrgrot|QID|42635|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
 A A Stone of Blood|QID|42639|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
 C The Mystery of Dreyrgrot|QID|42635|M|75.44,48.96|S|NC|N|Use the hook point to get onto the nearest ship.  There are two 'Ancient Dreyrgrot Tab;ets' here, move on to the other two ships that have one each.|RANK|2|
-$ Small Treasure Chest|QID|42629|M|73.95,52.22|N|Hook from the ship to pillar.  Chest on top of pillar. Loot for a bit of treasure and resources.|RANK|2| ; Incorrect QID!
+$ Small Treasure Chest|QID|42632|M|73.95,52.22|N|Hook from the ship to pillar.  Chest on top of pillar. Loot for a bit of treasure and resources.|RANK|2|
 A The Value of Knowledge|QID|42640|M|75.52,50.78|N|From a crate of Ancient Relics floating in the bay.|RANK|2|
 C The Value of Knowledge|QID|42640|M|75.52,50.78|NC|N|Collect the ancient relics while you travel to the next ship.|RANK|2|
 C A Stone of Blood|QID|42639|M|76.21,49.38|QO|1|T|Captain Broketooth|N|Kill Captain Broketooth and take his Ruby Amulet|RANK|2|
@@ -654,7 +665,6 @@ T A Stone of Blood|QID|42639|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
 A What the Bonespeakers Buried|QID|42641|PRE|42639;42635|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
 A Spilling Bad Blood|QID|42645|PRE|42639;42635|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
 C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Kill Blood-Crazed Swashbuckler as you go.|RANK|2|
-$ Small Treasure Chest|QID|42632|M|73.9,52.2|N|Loot for a bit of treasure and resources.|RANK|2|
 C What the Bonespeakers Buried|QID|42641|M|72.31,51.59|N|You have to click on him to start the fight. Kill Blood-Thane Lucard.|RANK|2|
 C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Finish up the Blood-Crazed Swashbucklers.|RANK|2|
 T What the Bonespeakers Buried|QID|42641|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
@@ -670,13 +680,8 @@ C A Murky Fate|QID|40120|M|79.61,59.90|QO|1|U|129725|US|N|Finish up burning the 
 C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Stay and finish this up or click off manually and move on.|RANK|2|
 t Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|81.12,61.30|N|Auto turned in upon completion.|RANK|2|
 T A Murky Fate|QID|40120|M|78.24,58.64|N|To Morheim Ancestor.|RANK|2|
-$ Small Treasure Chest|QID|43191|M|52.37,54.51|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43191|M|82.40,54.51|N|Loot for a bit of treasure and resources.|RANK|2|
 C Put It All on Red|QID|42483|M|81.58,52.56|T|Steelscale|N|This is difficult to solo for most classes. You may want to bring a friend. Kill Steelscale and loot his fin.|RANK|2|
-
-R Bronzeleaf Thicket|QID|43304|M|79.51,62.85;77.31,63.72|CS|N|Three more treasure chests up here.|RANK|3|
-$ Small Treasure Chest|QID|43307|M|76.05,65.05;76.91,66.17;77.25,67.18;77.31,68.16;77.12,69.29;78.57,70.33;78.43,71.38|CS|N|Very time comsuming to get to. About 5 hook points and a couple of jump downs.  Loot for a bit of treasure and resources. (or decide you dont want to.)|RANK|3|
-$ Small Treasure Chest|QID|43304|M|75.49,60.10;75.62,60.63|CS|N|Look up from first coord. Use Hook Point. Loot for treasure and resources.|RANK|3|
-$ Small Treasure Chest|QID|43237|M|73.98,58.59|N|Loot for treasure and resources.|RANK|3|
 R Talonrest|QID|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|
 T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note. (Optional) Use your reward (magnifying glass) to determine the true value of the other quest rewards.|RANK|2|
 N End of Stormheim|QID|99999|U|140192|N|Return to your Class Order Hall to pick your next zone and tend to your missions.|
