@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-12-10 21:08
+-- Who: Blanckaert
+-- Log: added LW quest, put /6 back in for a turn ins, added a couple RANK 2
+
+-- URL: http://wow-pro.com/node/3678/revisions/28110/view
 -- Date: 2016-12-06 23:54
 -- Who: Blanckaert
 -- Log: added PRE Tags per Ludo's new changes.
@@ -148,7 +153,7 @@
 -- Who: Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide, 100, 109, 98.3541)
+WoWPro:GuideLevels(guide, 98, 110, 98.3541)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Highmountain")
 WoWPro:GuideSteps(guide, function()
@@ -162,6 +167,9 @@ T The Lone Mountain|QID|39733|M|71.13,43.96|Z|Dalaran@Dalaran70|N|To Warbrave Or
 A Keepers of the Hammer|QID|38907|M|71.13,43.96|Z|Dalaran@Dalaran70|N|From Warbrave Oro.|PRE|39733|
 F Thunder Totem|QID|38907|M|69.95,51.20|Z|Dalaran@Dalaran70|QO|1|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|
 C Keepers of the Hammer|QID|38907|M|45.70,38.88|Z|ThunderTotem|QO|2|NC|N|Meet Warbrave Oro at Thunder Totem.|
+T Tauren Tanning|QID|40184|LVL|102|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|To Hrul Sharphoof|
+A Drogbar Durability|QID|40186|PRE|40184|LVL|102|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|From Hrul Sharphoof.|
+A Shoulder the Burden|QID|40185|PRE|40184|LVL|102|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|From Hrul Sharphoof.|
 R Elevator Down|QID|38907|M|49.33,45.94|CC|Z|ThunderTotem|N|Run over to the elevator and down below to find Mayla.|
 T Keepers of the Hammer|QID|38907|M|54.91,63.23|Z|Highmountain/6|CS|N|To Mayla Highmountain.|
 A The Rivermane Tribe|QID|38911|M|54.91,63.23|Z|Highmountain/6|N|From Mayla Highmountain.|PRE|38907|
@@ -336,7 +344,7 @@ T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 
 A Wrathshard|QID|39134|PRE|38909|M|49.02,55.26|N|From Warbrave Nava who is back up the elevator and across the bridges.|RANK|2|
 A No Time to Talk|QID|39133|PRE|38909|M|49.02,55.26|N|From Warbrave Nava|RANK|2|
-$ Glimmering Treasure Chest|QID|39471|M|49.82,53.49;51.19,53.03|CS|N|Before you go in the cavern, take this path up for a treasure directly above the entrance. Loot for a bit of treasure and resources.|
+$ Glimmering Treasure Chest|QID|39471|M|49.82,53.49;51.19,53.03|CS|N|Before you go in the cavern, take this path up for a treasure directly above the entrance. Loot for a bit of treasure and resources.|RANK|2|
 C No Time to Talk|QID|39133|M|52.56,54.71|S|N|Kill Enraged Ambershards as you travel towards their boss.|RANK|2|
 C Wrathshard|QID|39134|M|54.01,54.47|T|Wrathshard|N|Kill Wrathshard.|RANK|2|
 $ Small Treasure Chest|QID|40493|M|53.05,52.21|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -503,10 +511,10 @@ C Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|US|N|Stay 
 t Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto turned in upon completion.|RANK|2|
 
 $ Small Treasure Chest|QID|44280|M|44.72,25.00;42.79,23.58;46.36,21.63|CS|N|Run up the mountain trail for a great view and to find this chest which contains a bit of loot and treasure. If you don't have a kite/glider, run back down.|RANK|3|
-R Stonedark Grotto|QID|40229|M|44.39,26.84;42.61,25.54|CS|N|Run to Navarrogg's new hang-out. (Stonedark Grotto).|
+R Stonedark Grotto|QID|40229|ACTIVE|40229|M|44.39,26.84;42.61,25.54|CS|N|Run to Navarrogg's new hang-out. (Stonedark Grotto).|
 T Step into the Dark|QID|40229|M|40.32,52.21|Z|Highmountain/31|N|To Navarrogg.|
 A Unexpected Allies|QID|39456|M|40.32,52.21|Z|Highmountain/31|N|From Navarrogg.|PRE|40229|
-A You Lift, Brul?|QID|39440|M|52.50,62.81|Z|Highmountain/31|N|From Damrul the Stronk.|PRE|40229|
+A You Lift, Brul?|QID|39440|M|52.50,62.81|Z|Highmountain/31|N|From Damrul the Stronk.|PRE|40229|RANK|2|
 C You Lift, Brul?|QID|39440|M|52.40,51.63|Z|Highmountain/31|QO|1|NC|N|Carry Weights to Statue.|
 C You Lift, Brul?|QID|39440|M|52.47,61.09|Z|Highmountain/31|QO|2|NC|N|Return Weights to Damrul.|
 T You Lift, Brul?|QID|39440|M|52.39,62.72|Z|Highmountain/31|N|To Damrul the Stronk.|
@@ -525,7 +533,7 @@ T Stonedark Relics|QID|39439|M|52.50,62.81|Z|Highmountain/31|N|To Damrul the Str
 T Guhruhlruhlruh|QID|39438|M|52.50,62.81|Z|Highmountain/31|N|To Damrul the Stronk.|
 T Deep in the Cavern|QID|39437|M|52.50,62.81|Z|Highmountain/31|N|To Damrul the Stronk.|
 
-R Rockcrawler Chasm|QID|38913|M|48.11,33.86|N|Out of Stonedark Grotto, thru Bloodhunt Highland and into Rockcrawler Chasm.|
+R Rockcrawler Chasm|QID|38913|ACTIVE|38913|M|48.11,33.86|N|Out of Stonedark Grotto, thru Bloodhunt Highland and into Rockcrawler Chasm.|
 A Fledgling Worm Guts|QID|40069|M|50.89,36.58|N|From Oren Windstrider.|RANK|2|
 A Eagle Egg Recovery|QID|40070|M|50.89,36.58|N|From Oren Windstrider.|RANK|2|
 A Tamer Takedown|QID|40071|M|50.89,36.58|N|From Oren Windstrider.|RANK|2|
@@ -631,11 +639,11 @@ F The Skies of Highmountain|QID|39387|QO|1|M|45.64,39.06|NC|N|Optional-Hop on Av
 
 C The Skies of Highmountain|QID|39387|QO|1|M|42.17,32.99|Z|ThunderTotem|CHAT|N|Meet Lasan at Thunder Totem. If you didnt come in by Aviash, he is standing in front of the Path of Sky doorway.|
 C Unexpected Allies|QID|39456|M|35.07,43.55|Z|ThunderTotem|QO|1|CHAT|N|Meet Navarrogg just outside the Path of Earth doorway.|
-C The Skies of Highmountain|QID|39387|M|54.80,63.04|Z|ThunderTotem|QO|2|NC|N|Witness the Skyhorn Ritual.|
-C Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem|QO|2|NC|N|Wait/watch the ritual.|
-T The Skies of Highmountain|QID|39387|M|54.81,63.03|Z|ThunderTotem|N|To Mayla Highmountain.|
-T Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem|N|To Mayla Hightmountain.|
-A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|ThunderTotem|N|To Mayla Hightmountain.|PRE|39387+39456|
+C The Skies of Highmountain|QID|39387|M|54.80,63.04|Z|ThunderTotem/6|QO|2|NC|N|Witness the Skyhorn Ritual.|
+C Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem/6|QO|2|NC|N|Wait/watch the ritual.|
+T The Skies of Highmountain|QID|39387|M|54.81,63.03|Z|ThunderTotem/6|N|To Mayla Highmountain.|
+T Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem/6|N|To Mayla Hightmountain.|
+A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|ThunderTotem/6|N|From Mayla Hightmountain.|PRE|39387+39456|
 R Thunder Totem (Up the elevator)|QID|38915|M|58.97,87.46|Z|ThunderTotem|CC|N|Take the elevator above for a few more quests. (manually check this step off)|
 
 A Bolas Bastion|QID|42630|PRE|39387|M|42.86,38.79|Z|ThunderTotem|N|From Bolas Skyfeather.|AVAILABLE|38915|RANK|2|

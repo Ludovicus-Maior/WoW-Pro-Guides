@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-10 20:09
+-- Who: Blanckaert
+-- Log: missed some PREs
+
+-- URL: http://wow-pro.com/node/3687/revisions/28125/view
 -- Date: 2016-12-09 19:10
 -- Who: cameljon
 -- Log: Added a new waypoint for Quality of Life for the port to Felsoul Hold.
@@ -250,11 +255,6 @@
 -- Date: 2016-10-10 02:28
 -- Who: Blanckaert
 -- Log: added a quest line, think it might be a rank 2 though...
-
--- URL: http://wow-pro.com/node/3687/revisions/27890/view
--- Date: 2016-10-09 11:53
--- Who: Emmaleah
--- Log: Edits to notes, add R Steps, Treasure, Leylines, Silver's,S|US tags, etc to Crimson Thicket and Jandvik.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1421,12 +1421,12 @@ A Take Me To Your Leader|QID|40632;40391|M|36.50,46.77|N|From First Arcanist Tha
 R Take Me To Your Leader|QID|40632|M|34.84,47.97;35.95,51.11|CS|N|Run to Khadgar, Thalyssra is already there.|ACTIVE|40632;40391|
 T Take Me To Your Leader|QID|40632|M|40.54,53.09|N|To Archmage Khadgar.|FACTION|HORDE|
 T Take Me To Your Leader|QID|40632|M|41.63,51.63|N|To Archmage Khadgar.|FACTION|ALLIANCE|
-A Taking a Promenade|QID|41607|M|40.54,53.09|N|From Grand Magister Rommath.|FACTION|HORDE|
-A Taking a Promenade|QID|44831|M|41.72,51.52|N|From Vereesa Windrunner.|FACTION|ALLIANCE|
-A Down to Business|QID|43812|M|40.54,53.09|N|From Lady Liadrin.|FACTION|HORDE|
-A Down to Business|QID|43810|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
-A A Better Future|QID|41916|M|40.54,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|
-A A Better Future|QID|41916|M|41.64,51.61|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
+A Taking a Promenade|QID|41607|PRE|40632|M|40.54,53.09|N|From Grand Magister Rommath.|FACTION|HORDE|
+A Taking a Promenade|QID|44831|PRE|40632|M|41.72,51.52|N|From Vereesa Windrunner.|FACTION|ALLIANCE|
+A Down to Business|QID|43812|PRE|40632|M|40.54,53.09|N|From Lady Liadrin.|FACTION|HORDE|
+A Down to Business|QID|43810|PRE|40632|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
+A A Better Future|QID|41916|PRE|40632|M|40.54,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|
+A A Better Future|QID|41916|PRE|40632|M|41.64,51.61|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
 C Down to Business|QID|43812;43810|M|40.56,63.94|S|N|Slay Suramar Defenders as you go.|
 C A Better Future|QID|41916|M|41.45,61.20|S|NC|N|Rally Shal'dorei Insurgents, as you go.|
 C Taking a Promenade|QID|41607;44831|M|45.24,55.78;46.35,57.85|CS|NC|QO|1|N|Locate Magus Sendath.|
@@ -1434,7 +1434,7 @@ A Nullified|QID|44834|M|46.44,58.16|N|From Magus Sendath.|
 C Nullified|QID|44834|M|45.90,53.53;45.51,52.42|CS|NC|QO|2|N|Click on Charged Arcshaper Staff|
 C Nullified|QID|44834|M|44.51,53.73|QO|1|N|Kill Oldus for the Volatile Construct Core.|
 T Nullified|QID|44834|M|46.46,58.13|N|To Magus Sendath.|
-A Shield, Meet Spell|QID|44842|M|46.46,58.13|N|From Magus Sendath.|
+A Shield, Meet Spell|QID|44842|PRE|44834|M|46.46,58.13|N|From Magus Sendath.|
 C Shield, Meet Spell|QID|44842|M|45.21,54.65;44.64,53.85|CS|U|142260|N|Use the orb on Him, then Slay Arcshaper Thorendis.|
 T Shield, Meet Spell|QID|44842|M|46.48,58.13|N|To Magus Sendath.|
 C Taking a Promenade|QID|41607;44831|M|40.54,64.03|QO|2|NC|N|Locate Sentinel Moonshade.|
@@ -1519,17 +1519,17 @@ A Trial by Demonfire|QID|44790|PRE|44830|M|39.92,50.95|N|From Silgryn.|
 C Trial by Demonfire|QID|44790|M|33.89,49.07|QO|1|N|Rozzeleth slain, back near the Flight Path for Shal'Aran.|
 T Trial by Demonfire|QID|44790|M|40.00,50.93|N|To Silgryn.|
 
-; Insurrection - March on Suramar - Storyline - Quests from 11/29/2016
+; Insurrection - March on Suramar - Storyline
 
-A A United Front|QID|45266|M|36.50,46.78|N|From First Arcanist Thalyssra.|
+A A United Front|QID|45266|PRE|44790;44876|M|36.50,46.78|N|From First Arcanist Thalyssra.|
 C A United Front|QID|45266|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
 T A United Front|QID|45266|M|36.50,46.72|N|To First Arcanist Thalyssra.|
-A Ready for Battle|QID|44739|M|36.50,46.72|N|From First Arcanist Thalyssra.|
+A Ready for Battle|QID|44739|PRE|45266|M|36.50,46.72|N|From First Arcanist Thalyssra.|
 C Ready for Battle|QID|44739|M|40.49,53.06|QO|3|CHAT|N|Speak to Lady Liadrin|
 C Ready for Battle|QID|44739|M|41.64,51.49|QO|2|CHAT|N|Speak to Tyrande Whisperwind|
 C Ready for Battle|QID|44739|M|42.96,51.41|QO|1|CHAT|N|Speak to Vereesa Windrunner|
 T Ready for Battle|QID|44739|M|41.07,51.80|N|To Archmage Khadgar.|
-A Full Might of the Elves|QID|44738|M|41.07,51.80|N|From Archmage Khadgar.|
+A Full Might of the Elves|QID|44738|PRE|44739|M|41.07,51.80|N|From Archmage Khadgar.|
 C Secure the Promenade|SO|1|S|N|Secure the Grand Promenade.|
 C Defeat the Promenade Vanguard|M|42.74,54.55|SO|1;2|N|Defeat the Promenade Vanguard|
 C Defeat the Promenade Defenders|M|43.40,55.75|SO|1;1|N|Defeat the Promenade Defenders|
@@ -1540,10 +1540,10 @@ C Secure the Concourse of Destiny|SO|3|US|N|Run and kill Guards as you go.|
 C Telemancy Trap Placed.|M|50.71,66.37|SO|4;1|N|Click on Telemancy Trap.|
 C Full Might of the Elves|QID|44738|M|50.71,66.37|QO|1|N|March on Suramar City.|
 T Full Might of the Elves|QID|44738|M|52.25,68.73|N|Run To Archmage Khadgar and turn-in.|
-A Staging Point|QID|44740|M|52.25,68.73|N|From Archmage Khadgar.|
+A Staging Point|QID|44740|PRE|44738|M|52.25,68.73|N|From Archmage Khadgar.|
 C Staging Point|QID|44740|M|54.47,69.43|QO|1|N|Click on Telemancy Beacon to activate.|
 T Staging Point|QID|44740|M|54.88,72.87|N|To Archmage Khadgar.|
-A Fighting on All Fronts|QID|45317|M|54.88,72.87|N|From Archmage Khadgar.|
+A Fighting on All Fronts|QID|45317|PRE|44740|M|54.88,72.87|N|From Archmage Khadgar.|
 C Fighting on All Fronts|QID|45317|N|Use your Class Order Hall Mission table to complete 5 Missions.|
 P Astravar Harbor|QID|45317|ACTIVE|45317|M|36.76,45.04|N|Portal to the Harbor.|
 t Fighting on All Fronts|QID|45317|M|54.88,72.87|N|To Archmage Khadgar.|
@@ -1578,7 +1578,7 @@ C The Seal's Power|QID|44833|M|50.40,44.93|Z|Suramar/35|QO|2|N|Protect Arcanist 
 R Shal'Aran|QID|44833|ACTIVE|44833|N|Return to Shal'Aran. (On your own)|
 T The Seal's Power|QID|44833|M|36.49,45.82|N|To First Arcanist Thalyssra.|
 
-N Shal'Aran|QID|45268|N|Quests for the next three weeks are in guide. The info for any quest listed with a date [- 12/13] is incomplete, and may not work properly.|
+N Shal'Aran|QID|45268|N|Quests for the next two weeks are in guide. The info for any quest listed with a date [- 12/13] is incomplete, and may not work properly.|
 
 ; Insurrection - As Strong As Our Will - Storyline - 12/13 - Not available yet.
 

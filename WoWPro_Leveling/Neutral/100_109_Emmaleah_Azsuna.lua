@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-12-10 21:43
+-- Who: Blanckaert
+-- Log: fix a typo 37713
+
+-- URL: http://wow-pro.com/node/3657/revisions/28109/view
 -- Date: 2016-12-06 22:27
 -- Who: Blanckaert
 -- Log: I missed one
@@ -413,7 +418,7 @@ A They Came From the Sea|QID|37256|PRE|37690|M|48.38,34.56|N|From Nightwatcher I
 C They Came From the Sea|QID|37256|QO|2|M|47.52,37.80|N|Kill naga as you accomplish the other objectives.|S|
 K Kill Valiyaka|QID|37726|QO|1|T|Valiyaka the Stormbringer|M|47.41, 34.37|N|Silver - Kill and loot for a bit of treasure and resources.|ITEM|129082|RANK|2|
 C They Came From the Sea|QID|37256|T|Fathom-Commander Zarrin|QO|1|M|45.00,36.89|N|Kill and loot the commander's head.|
-$ Small Treasuer Chest|QID|37713|M|44.48,39.47|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|37713|M|44.48,39.47|N|Loot for a bit of treasure and resources.|RANK|2|
 C They Came From the Sea|QID|37256|QO|2|M|47.30,35.41|N|Finish killing naga.|US|
 T They Came From the Sea|QID|37256|M|48.39,34.54|N|To Nightwatcher Idri.|
 A Prince Farondis|QID|37733|PRE|37256|M|48.39,34.54|N|From Nightwatcher Idri.|
