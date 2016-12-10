@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2016-12-10 05:05
+-- Who: Blanckaert
+-- Log: Changed Leatherworking;164 to 165
+
+-- URL: http://wow-pro.com/node/3680/revisions/28131/view
+-- Date: 2016-12-10 02:39
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3680/revisions/28130/view
+-- Date: 2016-12-10 02:14
+-- Who: Emmaleah
+-- Log: Add Hunter's quest for Champion Huntsman Blake
+
+-- URL: http://wow-pro.com/node/3680/revisions/28127/view
 -- Date: 2016-12-09 20:08
 -- Who: Blanckaert
 -- Log: added R to Shield's rest and f step...  I think that then makes this guide also give the Exploration achieve.
@@ -255,7 +269,7 @@ C No Wings Required|QID|38613|M|45.86,67.84|NC|N|Click on the grapple point on t
 
 A Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto-accepted when you enter the area.|RANK|2|LVL|-109|
 C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|S|N|Go about your quests to advance this objective.|RANK|2|
-C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;164|S|N|Kill Vrykul to get the Bindings.|
+C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;165|S|N|Kill Vrykul to get the Bindings.|
 A Built to Scale|QID|38616|M|45.05,66.45|N|From a scale you loot off the first Stormwing Drake you kill.|
 C Built to Scale|QID|38616|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.|
 C To Weather the Storm|QID|38614|M|45.67,66.61|QO|3|NC|N|Pick up the Oiled Cloak.|
@@ -268,13 +282,13 @@ T To Weather the Storm|QID|38614|M|43.71,67.89|N|To Dread-Rider Cullen.|
 A Impalement Insurance|QID|38615|PRE|38614|M|43.71,67.89|N|From Dread-Rider Cullen.|
 C Impalement Insurance|QID|38615|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
 $ Treasure Chest|QID|38486|M|39.58,65.18|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|RANK|2|
-K Kill Jann Harnelor|QID|40178|QO|1|M|45.6,67.2|Z|Stormheim|P|Leatherworking;164|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
+K Kill Jann Harnelor|QID|40178|QO|1|M|45.6,67.2|Z|Stormheim|P|Leatherworking;165|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
 $ Treasure Chest|QID|38489|M|44.16,69.97|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|RANK|2|
 K Kill Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the others in the Mead Hall, then you can take on Thane. Kill and loot for some treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|RANK|2|
 C Impalement Insurance|QID|38615|M|46.09,70.99|US|NC|N|Finish up destroying Harpoon Launchers.|
 C Built to Scale|QID|38616|M|45.80,70.85|US|N|Finish collecting the scales.|
-C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;164|US|QO|1|N|Kill Vrykul to get the Bindings.|
+C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;165|US|QO|1|N|Kill Vrykul to get the Bindings.|
 T Impalement Insurance|QID|38615|M|47.00,71.74|N|To Dread-Rider Cullen.|
 A Another Way|QID|38617|PRE|38615|M|47.00,71.74|N|From Dread-Rider Cullen.|
 T Built to Scale|QID|38616|M|47.00,71.74|N|To Dread-Rider Cullen.|
@@ -654,6 +668,12 @@ C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|US|N|Stay a
 t Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|81.12,61.30|N|Auto turned in upon completion.|RANK|2|
 T A Murky Fate|QID|40120|M|78.24,58.64|N|To Morheim Ancestor.|RANK|2|
 $ Small Treasure Chest|QID|43191|M|82.40,54.51|N|Loot for a bit of treasure and resources.|RANK|2|
+T Baron and the Huntsman|QID|42397|M|80.62,63.14;80.13,66.22|CS|C|HUNTER|N|To Huntsman Blake. This quest comes from Trueshot Lodge, it maybe a leadin and as such unrequired and you can go to Awakening the Senses without it.|LVL|110|
+A Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|LVL|110|
+C Awakening the Senses|QID|42398|M|80.80,65.63|C|HUNTER|N|Loot the small piles of bones scattered around. Rarely, looting one will cause a skeleton to spawn which will also drop a bone or two.|
+T Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|To Huntsman Blake.|
+A Champion: Huntsman Blake|QID|42412|M|80.13,66.22|C|HUNTER|N|From/To Huntsman Blake.|PRE|42398|
+A Ready to Work|QID|42399|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|
 C Put It All on Red|QID|42483|M|81.58,52.56|T|Steelscale|N|This is difficult to solo for most classes. You may want to bring a friend. Kill Steelscale and loot his fin.|RANK|2|
 
 R Bronzeleaf Thicket|QID|43304|M|79.51,62.85;77.31,63.72|CS|N|Three more treasure chests up here.|RANK|3|

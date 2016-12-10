@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2016-12-10 05:08
+-- Who: Blanckaert
+-- Log: Changed Leatherworking;164 to 165
+
+-- URL: http://wow-pro.com/node/3683/revisions/28129/view
+-- Date: 2016-12-10 02:41
+-- Who: Emmaleah
+-- Log: Added Hunter Quest for Champion Huntsman Blake
+
+-- URL: http://wow-pro.com/node/3683/revisions/28126/view
 -- Date: 2016-12-09 20:05
 -- Who: Blanckaert
 -- Log: Guide now if on Rank 3 will get all kill and treasures needed for achieves.
@@ -307,7 +317,7 @@ A To Weather the Storm|QID|38405|PRE|38312|M|42.02,64.48|N|From Commander Lorna 
 C No Wings Required|QID|38318|M|42.88,64.85|QO|1|N|Click on the hook with the big Yellow Arrow and grapple over the wall|
 A Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto-accepted when you enter the area.|RANK|2|LVL|-109|
 C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|S|N|Go about your quests to advance this objective.|RANK|2|
-C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;164|S|N|Kill Vrykul to get the Bindings.|
+C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;165|S|N|Kill Vrykul to get the Bindings.|
 A Built to Scale|QID|38337|M|43.46,64.40|N|Kill a Stormwing Drake to get this quest from the UI.|
 C Built to Scale|QID|38337|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.| ;keep sticky while you're in the area
 C To Weather the Storm|QID|38405|M|45.68,66.64|QO|3|N|Loot Oiled Cloak|
@@ -318,14 +328,14 @@ C To Weather the Storm|QID|38405|M|41.86,68.40|QO|2|N|Loot Climbing Treads|
 T No Wings Required|QID|38318|M|43.79,68.21|N|To Commander Lorna Crowley.|
 T To Weather the Storm|QID|38405|M|43.79,68.21|N|To Commander Lorna Crowley.|
 A Impalement Insurance|QID|38410|PRE|38405|M|43.79,68.21|N|From Commander Lorna Crowley.|
-K Vestment Opportunity|QID|40178|M|45.6,67.2|Z|Stormheim|P|Leatherworking;164|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
+K Vestment Opportunity|QID|40178|M|45.6,67.2|Z|Stormheim|P|Leatherworking;165|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
 C Impalement Insurance|QID|38410|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
 $ Treasure Chest|QID|38489|M|44.16,69.98|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|; Emma!
 K Kill Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the others in the Mead Hall, then you can take on Thane. Kill and loot for some treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|  ; Emma
 C Impalement Insurance|QID|38410|M|46.09,70.99|US|NC|N|Finish up destroying Harpoon Launchers.|
 C Built to Scale|QID|38337|M|45.05,66.45|US|N|Kill drakes and loot the 'Storm Drake Scales'.|
-C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;164|US|QO|1|N|Kill Vrykul to get the Bindings.|
+C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;165|US|QO|1|N|Kill Vrykul to get the Bindings.|
 T Impalement Insurance|QID|38410|M|46.25,70.37|N|To Commander Lorna Crowley.|
 T Built to Scale|QID|38337|M|46.25,70.36|N|To Commander Lorna Crowley.|
 A Another Way|QID|38342|PRE|38410|M|46.25,70.37|N|From Commander Lorna Crowley.|
@@ -661,7 +671,7 @@ K Kill Sigrid|QID|40044|M|54.43,35.12|QO|2|T|Sigrid|RANK|2|
 K Kill Kjell|QID|40044|M|57.00,34.81|QO|3|T|Kjell|RANK|2|
 K Kill Roteye|QID|43342|QO|1|M|57.73,34.77;58.37,33.96|CS|ITEM|139387|T|Roteye|N|Silver-Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38744|M|61.91,32.25|N|Loot for a bit of treasure and resources.|RANK|3|
-C Scavenging the Shallows|QID|40046|M|56.73,39.33|US|NC|N|This ships debris is the one you are looking for.|RANK|2|
+C Scavenging the Shallows|QID|40046|M|56.73,39.33|US|NC|N|Keep looking at ships debris until you find the one you are looking for.|RANK|2|
 C To Honor the Fallen|QID|43595|M|60,43|US|N|Finish collecting the weapons.|RANK|2|
 T Scavenging the Shallows|QID|40046|M|58.94,42.81|N|To Havi.|RANK|2|
 T To Honor the Fallen|QID|43595|M|58.94,42.81|N|To Havi.|RANK|2|
@@ -708,6 +718,13 @@ t Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|81.12,61.30|N|Auto turn
 T A Murky Fate|QID|40120|M|78.24,58.64|N|To Morheim Ancestor.|RANK|2|
 $ Small Treasure Chest|QID|43191|M|82.40,54.51|N|Loot for a bit of treasure and resources.|RANK|2|
 C Put It All on Red|QID|42483|M|81.58,52.56|T|Steelscale|N|This is difficult to solo for most classes. You may want to bring a friend. Kill Steelscale and loot his fin.|RANK|2|
+T Baron and the Huntsman|QID|42397|M|80.62,63.14;80.13,66.22|CS|C|HUNTER|N|To Huntsman Blake. This quest comes from Trueshot Lodge and may be only a lead-in, and you can start with Awakening the Senses.|LVL|101|
+A Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|LVL|101|
+C Awakening the Senses|QID|42398|M|80.80,65.63|C|HUNTER|N|Loot the small piles of bones scattered around.  Rarely, looting one will cause a skeleton to spawn which will also drop a bone or two.|
+T Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|To Huntsman Blake.|
+A Champion: Huntsman Blake|QID|42412|M|80.13,66.22|C|HUNTER|N|From/To Huntsman Blake.|PRE|42398|
+A Ready to Work|QID|42399|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|
+
 R Talonrest|QID|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|
 T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note. (Optional) Use your reward (magnifying glass) to determine the true value of the other quest rewards.|RANK|2|
 U Dalaran|QID|43331|U|140192|N|Return to Dalaran (via Hearthstone or however you choose).|RANK|2|
