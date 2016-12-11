@@ -950,18 +950,18 @@ function WoWPro.NextStep(k,i)
 			end
 			if type(replvl) == "number" and (replvl > 0) then
 				if (repmin == standingId) and (earnedValue > replvl) then
-				    WoWPro:dbp("** [%s] Spec %s earnedValue %d > replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
+				    WoWPro:dbp("!+ [%s] Spec %s earnedValue %d > replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
 				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
                     skip = false
                 else
-                    WoWPro:dbp("!! [%s] Spec %s earnedValue %d <= replvl %d: skip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
+                    WoWPro:dbp("!- [%s] Spec %s earnedValue %d <= replvl %d: skip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
 				end
-				if (repmax >= standingId) then
-				    WoWPro:dbp("** [%s] Spec %s repmax %s >= standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
+				if (repmin < standingId) and (repmax <= standingId) then
+				    WoWPro:dbp("!+ [%s] Spec %s repmax %s <= standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
 				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
 				    skip = false
 				else
-				    WoWPro:dbp("!! [%s] Spec %s repmax %s < standingId %s: skip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
+				    WoWPro:dbp("!- [%s] Spec %s repmax %s & standingId %s: skip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
 				end
 			end
 			-- Mark quests as skipped that we will assume will NEVER be done.
