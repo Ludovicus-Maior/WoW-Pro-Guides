@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-11 04:41
+-- Who: Blanckaert
+-- Log: minor adjustments, add floor to a few quests to make arrow behave
+
+-- URL: http://wow-pro.com/node/3687/revisions/28135/view
 -- Date: 2016-12-10 20:09
 -- Who: Blanckaert
 -- Log: missed some PREs
@@ -251,11 +256,6 @@
 -- Who: Emmaleah
 -- Log: added PRE and RANK Tags following the Suramar Comprehensive guide by Voxxel on WoWhead thru just before 'The Waning Crescent' story arc (line 521) 
 
--- URL: http://wow-pro.com/node/3687/revisions/27893/view
--- Date: 2016-10-10 02:28
--- Who: Blanckaert
--- Log: added a quest line, think it might be a rank 2 though...
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
@@ -302,13 +302,14 @@ A Oculeth's Workshop|QID|40011|PRE|42229|M|36.56,46.93|N|From First Arcanist Tha
 A An Old Ally|QID|40012|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.
 h Shal'Aran|QID|40012|M|36.56,46.93|N|At First Arcanist Thalyssra.|
 f Meredil|QID|40012|M|34.34,49.38|N|At Ancient Cloudwing.|
-C Ancient Mana|QID|44672|M|34.81,55.09|S|N|Pick up the ancient mana as you travel towards Oculeth. Continue gathering it as you go along, you will have other uses for it also.|;check this coord is in line to the workshop
+K Kill Anax|QID|43954|M|33.66,51.74|ITEM|140934|T|Anax|N|Silver - Kill Anax for a pet and resources|
+C Ancient Mana|QID|44672|M|34.81,55.09|S|N|Pick up the ancient mana as you travel towards Oculeth. Continue gathering it as you go along, you will have other uses for it also.|
 
 ; Nightfallen But Not Forgotten - Arcanist Kel'Danath Story Line.
 
 R Ambervale|QID|40012|M|33.20,47.92;31.40,45.25|CS|N|Take the road to the northwest under the rock arch towards Ambervale.|
 
-T An Old Ally|QID|40012|M|30.24,39.66|N|To an Enchanted Scroll.|
+T An Old Ally|QID|40012|M|30.24,39.66|N|To an Enchanted Scroll. *Watch out for Nighthuntress Syrenne, Level 110 Elite*|
 A Scattered Memories|QID|40326|M|30.24,39.66|N|From an Enchanted Scroll.|PRE|40012|
 A A Re-Warding Effort|QID|41149|M|30.62,40.06|N|From an Arcane Ward.|PRE|42229|
 C Scattered Memories|QID|40326|M|26.42,44.52|S|NC|N|Read Kel'danath's Notes.|
@@ -339,7 +340,7 @@ C Mrgls of Endearment|QID|42688|M|16.10,55.07|QO|1|S|N|Kill Leyscar Scuttlers to
 K Kill Tideclaw|QID|43542|QO|1|M|18.78,60.90|T|Tideclaw|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Forgotten Crab Trap|QID|37832|M|63.23,15.22|Z|Azsuna|N|This one is actually in Azsuna, but you are closer now. Loot chest for a bit of treasure and resources.|
 C Mrgls of Endearment|QID|42688|M|16.10,55.07|QO|1|US|N|Kill Leyscar Scuttlers to loot things to polish the pearl.|RANK|2|
-C Mrgls of Endearment|QID|42688|M|15.22,52.37|CHAT|QO|2|N|Show Items to Phin|RANK|2|
+C Mrgls of Endearment|QID|42688|M|15.22,52.37|CHAT|QO|2|N|Show Fine Sand to Phin|RANK|2|
 T Mrgls of Endearment|QID|42688|M|15.22,52.37|N|To Pearlhunter Phin.|RANK|2|
 A A Mlrglrmg For Grlmrgl|QID|42728|M|15.22,52.35|N|From Pearlhunter Phin.|PRE|42688|RANK|2|
 C A Mlrglrmg For Grlmrgl|QID|42728|M|12.29,48.31|S|N|Help Phin find whatever it is by taking him to Conspicuous Piles of Sand.|RANK|2|
@@ -350,7 +351,7 @@ A Mglrgrs Of Our Grmlgrlr|QID|41143|M|15.18,51.78|N|From Mrgrlilgrl.|RANK|2|PRE|
 C Mglrgrs Of Our Grmlgrlr|QID|41143|M|17.96,48.31|N|Find Mr. Mrglglrm by killing the spiders then opening the webs to reveal the victim.|RANK|2|
 T Mglrgrs Of Our Grmlgrlr|QID|41143|M|15.24,51.73|N|To Mr. Mrglglrm.|RANK|2|
 C Ancient Mana|QID|44672|M|34.81,55.09|US|N|Continue gathering ancient manu up whenever you are not capped, as you will always have uses for it.|
-H Shal'Aran|QID|40956|M|36.56,46.92|N|Run to Shal'Aran if your hearthstone isn't available.|
+H Shal'Aran|QID|41704|ACTIVE|41704|M|36.56,46.92|N|Run to Shal'Aran if your hearthstone isn't available.|
 C Subject 16|QID|41704|M|36.29,47.11|NC|N|Deliver Theryn to Thalyssra.|
 T Ancient Mana|QID|44672|M|36.54,46.94|N|To First Arcanist Thalyssra.|
 T Subject 16|QID|41704|M|36.55,46.91|N|To First Arcanist Thalyssra.|
@@ -386,26 +387,28 @@ C Hungry Work|QID|44691|M|36.58,46.97|NC|N|Chief Telemancer Oculeth fed.|
 T Hungry Work|QID|44691|M|36.58,46.97|N|To Chief Telemancer Oculeth.|
 A Survey Says...|QID|40956|M|36.58,46.97|N|From Chief Telemancer Oculeth.|PRE|44691|
 R Ambervale|QID|40956|M|33.96,48.99;32.70,46.26|CS|N|Out of the cave and around to your right.|
-A Lingering on the Edge|QID|40796|M|30.39,47.78|N|From/To Absolon.|PRE|42229|RANK|2|
+A Lingering on the Edge|QID|40796|M|30.39,47.78|N|From Absolon. Need 100 Ancient Mana.|PRE|42229|RANK|2|
+T Lingering on the Edge|QID|40796|M|30.39,47.78|N|To Absolon.|
 R Ruins of Elune'eth|QID|40956|M|34.77,43.83|N|Out of the cave and around to your right to find the Ruins of Elune'eth.|
 C Survey Says...|QID|40956|M|36.64,45.56|NC|U|133897|N|Use the Telemetry Beacon. Occasionaly some pesky anomaly will spawn and you will need to kill it (and possibly close the portal, to stop more).|
 T Survey Says...|QID|40956|M|36.10,47.24|N|To the Telemetry Beacon. After turn in, take the portal back to Shal'Aran.|
 A Tapping the Leylines|QID|40010|M|36.54,46.87|N|From First Arcanist Thalyssra.|PRE|40956|
 
 ; Nightfallen But Not Forgotten - Feeding Shal'Aran Storyline (opening of, and finishes when you get back from Tidying
+; Leyline Bling - Anora Hollow
 
-P Ruins of Elune'eth|QID|40368|M|36.33,44.93|N|Click on the newly active teleporter.|
-R Anora Hollow|QID|40368|M|38.18,44.83;41.38,40.90|CS|N|Follow the path to Anora Hollow.|
+P Ruins of Elune'eth|QID|40010|M|36.33,44.93|N|Click on the newly active teleporter.|
+R Anora Hollow|QID|40010|M|38.18,44.83;41.38,40.90|CS|N|Follow the path to Anora Hollow.|
 A Turtle Powered|QID|40368|M|43.38,41.72|N|From Morhun Rivertamer.|PRE|42229|RANK|2|
 C Turtle Powered|QID|40368|M|37.11,38.20|S|N|Kill turtles to collect the Shimmering Snapper Scales.|RANK|2|
 C Tapping the Leylines|QID|40010|M|41.30,39.41|QO|1|NC|N|Explore Anora Hollow.|
 C Tapping the Leylines|QID|40010|M|41.58,38.75|QO|2|NC|N|Step on Ancient Switch.|
 C Tapping the Leylines|QID|40010|M|41.62,39.10|QO|3|CHAT|N|Speak with Arcanist Valtrois.|
-T Tapping the Leylines|QID|40010|M|39.76,29.69|N|To Arcanist Valtrois.|
-A Power Grid|QID|41028|M|39.76,29.69|N|From Arcanist Valtrois.|PRE|40010|
-C Power Grid|QID|41028|M|52.93,55.83|NC|N|Valtrois leads you to a room with a 'high switch'. Follow the ley beam to the room with the 8 'low switches' and the 4 'seals'. Click on the switches to get the beams both pointed at the same seal. If you can't, follow the beam that isn't pointed where you want back to its 'high switch' and click it. Then run back to see if both beams are pointed at the same seal, if so, click on the seal. one down, 3 to go.  If not, click on the 'low switch' the beam goes through to point it at the seal, then click to lock it in. Rinse, repeat.|
-T Power Grid|QID|41028|M|39.52,29.08|N|To Arcanist Valtrois.|
-K Kill Myonix|QID|43358|QO|1|M|40.77,32.87|N|Silver - Kill for a bit of treasure and resources.|RANK|2|
+T Tapping the Leylines|QID|40010|M|39.76,29.69|Z|Suramar/36|N|To Arcanist Valtrois.|
+A Power Grid|QID|41028|M|39.76,29.69|Z|Suramar/36|N|From Arcanist Valtrois.|PRE|40010|
+C Power Grid|QID|41028|M|52.93,55.83|Z|Suramar/36|NC|N|Valtrois leads you to a room with a 'high switch'. Follow the ley beam to the room with the 8 'low switches' and the 4 'seals'. Click on the switches to get the beams both pointed at the same seal. If you can't, follow the beam that isn't pointed where you want back to its 'high switch' and click it. Then run back to see if both beams are pointed at the same seal, if so, click on the seal. one down, 3 to go.  If not, click on the 'low switch' the beam goes through to point it at the seal, then click to lock it in. Rinse, repeat.|
+T Power Grid|QID|41028|M|39.52,29.08|Z|Suramar/36|N|To Arcanist Valtrois.|
+K Kill Myonix|QID|43358|QO|1|M|40.77,32.87|ITEM|121739|T|Myonix|N|Silver - Kill Myonix for a bit of treasure and resources.|RANK|2|
 $ Glimmering Treasure Chest|QID|43856|M|42.32,29.99;44.04,31.93|CS|N|Go inside the cave behind the waterfall, The path is is across the river and up one tier from Myonix. Loot for treasure and resources.|RANK|2|
 C Turtle Powered|QID|40368|M|37.11,38.20|US|N|Finish collecting the Shimmering Snapper Scales.|RANK|2|
 T Turtle Powered|QID|40368|M|43.39,41.69|N|To Morhun Rivertamer.|RANK|2|
