@@ -875,13 +875,13 @@ function WoWPro.NextStep(k,i)
 			local rep, factionIndex, temprep, replvl = string.split(";",WoWPro.rep[k])
 			WoWPro:dbp("ConsiderRep(%d, %s [%s] %s)",k,WoWPro.action[k],WoWPro.step[k],WoWPro.rep[k]);
 			if temprep == nil then temprep = "neutral-exalted" end
-			local repID,repmax = string.split("-",temprep)
-			if repmax== nil then repmax = repID end
+			local repmin,repmax = string.split("-",temprep)
+			if repmax== nil then repmax = repmin end
 			local Friendship = false;
 			-- Canonicalize the case
 			rep = string.lower(rep)
 			factionIndex = tonumber(factionIndex)
-			repID = string.lower(repID)
+			repmin = string.lower(repmin)
 			repmax = string.lower(repmax)
 			if replvl and (not tonumber(replvl)) then
 			    replvl =  string.lower(replvl)
@@ -900,15 +900,15 @@ function WoWPro.NextStep(k,i)
 
 
             -- Extract lower bound rep
-            if not Rep2IdAndClass[repID] then
+            if not Rep2IdAndClass[repmin] then
                 WoWPro:Error("Bad lower REP value of [%s] found in [%s].  Defaulting to 1.",temprep,WoWPro.rep[k])
-                repID = 0
+                repmin = 0
             end                
-            Friendship = Rep2IdAndClass[repID][2]
-            repID = Rep2IdAndClass[repID][1]
-            if not repID then
+            Friendship = Rep2IdAndClass[repmin][2]
+            repmin = Rep2IdAndClass[repmin][1]
+            if not repmin then
                 WoWPro:Error("Bad lower REP value of [%s] found in [%s].  Defaulting to 1.",temprep,WoWPro.rep[k])
-                repID = 0
+                repmin = 0
             end
 
             -- Extract upper bound rep
@@ -944,24 +944,28 @@ function WoWPro.NextStep(k,i)
                 WoWPro:dbp("Special replvl %s vs hasBonusRepGain %s, skip is %s",tostring(replvl),tostring(hasBonusRepGain),tostring(skip))
             end 
 
-			if type(replvl) == "number" and (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
+			if type(replvl) == "number" and (repmin <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
 				WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
 			end
 			if type(replvl) == "number" and (replvl > 0) then
-				if (repmax < standingId) then
-				    WoWPro:dbp("** [%s] Spec %s repmax %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
-				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
-					skip = false 
-				end
-				if (repmax == standingId) and (earnedValue <= replvl) then
-				    WoWPro:dbp("** [%s] Spec %s earnedValue %d <= replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
+				if (repmin == standingId) and (earnedValue > replvl) then
+				    WoWPro:dbp("** [%s] Spec %s earnedValue %d > replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
 				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
                     skip = false
+                else
+                    WoWPro:dbp("!! [%s] Spec %s earnedValue %d <= replvl %d: skip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
+				end
+				if (repmax >= standingId) then
+				    WoWPro:dbp("** [%s] Spec %s repmax %s >= standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
+				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
+				    skip = false
+				else
+				    WoWPro:dbp("!! [%s] Spec %s repmax %s < standingId %s: skip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
 				end
 			end
 			-- Mark quests as skipped that we will assume will NEVER be done.
-			if WoWPro.action[k] == "A" and standingId < 3 and repID > 3 and skip then
+			if WoWPro.action[k] == "A" and standingId < 3 and repmin > 3 and skip then
 			    WoWProCharDB.Guide[GID].skipped[k] = true
 			    WoWPro:SetQIDsInTable(QID,WoWProCharDB.skippedQIDs)
 			end
