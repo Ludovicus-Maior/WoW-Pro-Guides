@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2016-12-12 04:13
+-- Who: Blanckaert
+-- Log: added a few of the leatherworking quests.... (hopefully in about the right areas)
+
+-- URL: http://wow-pro.com/node/3657/revisions/28137/view
 -- Date: 2016-12-10 21:43
 -- Who: Blanckaert
 -- Log: fix a typo 37713
@@ -196,7 +201,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,100, 109)
+WoWPro:GuideLevels(guide,98, 110, 98.2742)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Azsuna")
@@ -428,6 +433,9 @@ A Our Very Bones|QID|37257|PRE|37733|M|47.00,41.36|N|From Prince Farondis.|
 A A Rather Long Walk|QID|37492|PRE|37256|M|47.06,41.47|N|From Lady Irisse.|
 A The Magister of Mixology|QID|37727|PRE|37256|M|47.12,41.42|N|From Magister Garuhod.|
 A Presentation is Everything|QID|37728|PRE|37256|M|47.12,41.42|N|From Magister Garuhod.|
+T Links in the Chain|QID|40187|M|47.52,44.17|P|Leatherworking;165|N|To Celea|
+A Best Served Cold|QID|40188|PRE|40187|LVL|102|M|47.52,44.17|P|Leatherworking;165|N|From Celea.|
+A Naga Know-How|QID|40189|PRE|40187|LVL|102|M|47.52,44.17|P|Leatherworking;165|N|From Celea.|
 C Our Very Bones|QID|37257|QO|1|M|51.09,38.17|N|Kill murlocks to retrieve the pilfered bones.|S|
 A Bottled Up|QID|38407|M|49.65,39.32|N|from dropped item 'Okuna's Message'.|
 K Kill Mrrgrl the Tide Reaver|QID|37823|QO|1|M|50.09,34.54|ITEM|129072|T|Mrrgrl the Tide Reaver|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
@@ -454,6 +462,7 @@ A Nar'thalas Still Suffers|QID|37486|PRE|37497|M|51.80,44.28|N|From Prince Faron
 C The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|S|N|As you go killing the things you run into and freeing the bound citizens will advance this objective.|RANK|2|
 A You Never Know Until You Scry|QID|42693|M|53.38,45.43|N|From Olothil Starlance.|RANK|2|
 A Children of Nar'thalas|QID|42692|M|53.27,45.31|N|From Kallistia Starlance.|RANK|2
+C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|P|Leatherworking;165|QO|1|S|N|Kill the Naga for the Shoulderguards|
 C You Never Know Until You Scry|QID|42693|M|55.62,43.57|S|N|Kill the naga to collect the Glyptics.|RANK|2|
 C Children of Nar'thalas|QID|42692|QO|1|M|53.02,43.75|NC|N|The first tome is lying here.|RANK|2|
 $ Small Treasure Chest|QID|42282|M|53.61,44.15|N|Loot for a bit of treasure and resources. Its between the pillar and the wall.|RANK|2|
@@ -475,6 +484,8 @@ $ Glimmering Treasure Chest|QID|37830|M|58.36,43.78|ITEM|131795|N|Loot for a bit
 C Nar'thalas Still Suffers|QID|37486|QO|1|M|55.58,48.10|T|Athissa|N|Defeat Athissa.|
 K Kill Brawlgoth|QID|42450|QO|1|M|55.23,43.95|T|Brawlgoth|N|Silver - Kill and loot for a bit of treasure and resources.|ITEM|129086|RANK|2|
 C Back from the Dead|QID|42694|QO|4|M|54.47,45.56|NC|N|Search near the plaza fountain.|RANK|2|
+C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|P|Leatherworking;165|QO|1|US|N|Kill the Naga for the Shoulderguards|
+C Best Served Cold|QID|40188|M|57.39,40.47|P|Leatherworking;165|QO|1|N|Kill Ranaris.|
 T Back from the Dead|QID|42694|M|53.30,45.43|N|To Olothil Starlance.|RANK|2|
 T Nar'thalas Still Suffers|QID|37486|M|51.80,44.31|N|To Prince Farondis.|
 A The Walk of Shame|QID|37467|PRE|37486|M|51.80,44.31|N|From Prince Farondis.|
@@ -611,6 +622,10 @@ $ Small Treasure Chest|QID|40752|M|58.64,53.38|N|Loot for a bit of treasure and 
 $ Small Treasure Chest|QID|44405|M|54.87,52.13|N|Loot for a bit of treasure and resources. Be aware. the NPCs in the alcove with you will take offense at you looting their treasure.|RANK|2|
 K Kill Warbringer Mox'na|QID|37909|ITEM|129069|M|51.34,56.19|T|Warbringer Mox'na|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|38370|M|49.41,57.98|N|You always wanted to be a wedding crasher... right? Kill the Bride and Groom as they object to you stealing their gifts. Loot for a bit of treasure and resources.|RANK|3|
+T Best Served Cold|QID|40188|PRE|40187|LVL|102|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
+T Naga Know-How|QID|40189|PRE|40187|LVL|102|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
+A A Daring Rescue|QID|40195|PRE|40188;40189|LVL|104|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
+A Reclaimed Cargo|QID|40194|PRE|40188;40189|LVL|104|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
 
 R Shipwreck Arena|QID|37496|M|50.64,44.27|N|Run back past Narthalas Academy and to the Shipwreck Arena.|RANK|-1|
 R Shipwreck Arena|QID|37496|M|46.14,45.00;47.99,45.51|CS|N|Run Down the Old Coast Path and to the Shipwreck Arena.|RANK|2|
@@ -636,10 +651,15 @@ C Round 1, Fight!|QID|37538|M|47.93,48.67|N|Tell Sternfathom you are ready.|
 T Round 1, Fight!|QID|37538|M|43.62,24.67|Z|1015/18|N|To Okuna Longtusk's pack.|
 A Plunder the Cove-Bonus Objective|QID|37495|PRE|37538|M|43.62,24.67|Z|1015/18|N|Auto-accepted when you enter the area.|RANK|2|LVL|-109|
 A The Right Weapon for the Job|QID|37565|PRE|37538|M|43.62,24.67|Z|1015/18|N|From Okuna's pack.|RANK|2|
+C Reclaimed Cargo|QID|40194|M|46.48,59.32|Z|Azsuna/18|P|Leatherworking;165|QO|1|S|N|Find Crates scattered throughout.|
 C Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|1015/18|S|N|Killing mobs, and clicking on the Skrog weapons advances the objective.|RANK|2|
 C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|Z|1015/18|S|N|Click on the quest item whenever you are near some prisoners.|
 $ Glimmering Treasure Chest|QID|37649|M|69.22,48.69|Z|1015/18|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42291|M|46.36,67.12|Z|1015/18|N|Loot for a bit of treasure and resources.|RANK|2|
+C A Daring Rescue|QID|40195|M|82.66,85.18|Z|Azsuna/18|CHAT|N|Talk to Taldranis.|
+T A Daring Rescue|QID|40195|M|82.66,85.18|Z|Azsuna/18|N|To Taldranis.|
+A Testing the Metal|QID|40327|PRE|40195|M|82.66,85.18|Z|Azsuna/18|P|Leatherworking;165|N|From Taldranis.|
+C Testing the Metal|QID|40327|M|82.66,85.18|Z|Azsuna/18|CHAT|N|Talk to Taldranis. Escort him out.|
 A A Favor for Mr. Shackle|QID|38857|M|50.35,60.98|N|From Seska Seafang.|
 C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|N|Grace the Green rescued|
 C A Favor for Mr. Shackle|QID|38857|QO|1|M|48.94,63.02|N|Cleave Thunderhill rescued|
@@ -676,6 +696,9 @@ $ Disputed Treasure|QID|38365|M|55.87,56.87|N|Kill the npcs argueing over the tr
 C Shipwrecked Sailors|QID|42268;42220|QO|1|M|59.93,58.12|N|Finish up with the sailors.|US|
 T Shipwrecked Sailors|QID|42268;42220|M|59.93,58.12|N|To UI Alert.|
 T Making the World Safe for Profit|QID|37657|M|56.59,59.58|N|To Mr. Shackle.|
+F Illidari Stand|QID|40327|ACTIVE|40327|M|56.20,58.91|N|Fly to Illidari Stand, from Avaya Farwind.|
+T Testing the Metal|QID|40327|M|47.52,44.17|N|To Celea.|
+T Reclaimed Cargo|QID|40194|M|47.52,44.17|N|To Celea.|
 
 U Dalaran Hearthstone|QID|42244|U|140192|N|Hearth or fly to Dalaran to get the final zone quest completed and receive you zone achievement.|
 T Fate of the Queen's Reprisal|QID|42244|M|61.05,17.23|Z|Dalaran@Dalaran70|N|To Advisor Stillwater.|FACTION|Horde|

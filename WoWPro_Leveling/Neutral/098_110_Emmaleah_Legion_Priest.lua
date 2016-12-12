@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-12-12 02:35
+-- Who: Blanckaert
+-- Log: minor changes, added a F Step
+
+-- URL: http://wow-pro.com/node/3674/revisions/28128/view
 -- Date: 2016-12-09 20:11
 -- Who: Blanckaert
 -- Log: adjust min/max/mean a couple PRE notes
@@ -98,7 +103,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmLegionPriest', 'Leveling', 'NetherlightTemple/1', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Priest Order Hall')
-WoWPro:GuideLevels(guide,98, 110, 103.889)
+WoWPro:GuideLevels(guide,98, 110, 103.92)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideClassSpecific(guide, 'Priest')
 WoWPro:GuideAutoSwitch(guide)
@@ -366,8 +371,11 @@ P Dalaran|QID|44464|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44464|
 R Krasus' Landing|QID|44464|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44464|
 F Lorlathil|QID|44464|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44464|
 C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
+F Dalaran|QID|44464|ACTIVE|44464|M|54.97,72.49|Z|Val'sharah|N|At Elyssia Winterdusk.|
 T Awakenings|QID|44464|M|49.64,26.41|N|To Light's Heart|
+
 ;requires AK>=2
+
 A An Unclear Path|QID|44466|M|49.64,26.41|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44464|;no way to limit this showing until you get AK=2
 P Dalaran|QID|44466|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44466|
 R Krasus' Landing|QID|44466|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44466|
