@@ -359,10 +359,12 @@ function WoWPro.DistanceToStep(i)
     if WoWProCharDB.Guide[GID].skipped[i] then return 1e-5 end
     local icoord = select(1, string.split(";", WoWPro.map[i]))
 --    WoWPro:Print("Step %d is at %s/%s",i,tostring(icoord),tostring(WoWPro.zone[i]))
-    local ix = tonumber( select(1, string.split(",", icoord)) )/100
-    local iy = tonumber( select(2, string.split(",", icoord)) )/100
+    local ix = select(1, string.split(",", icoord))
+    local iy = select(2, string.split(",", icoord))
     local im
     local ifl
+    ix = tonumber(ix) / 100
+    iy = tonumber(iy) / 100
     im, ifl = WoWPro:ValidZone(WoWPro.zone[i])
 --    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
     local x, y = GetPlayerMapPosition("player")
