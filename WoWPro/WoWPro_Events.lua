@@ -577,141 +577,149 @@ function WoWPro.EventHandler(frame, event, ...)
 	if event == "UPDATE_BINDINGS" and not MaybeCombatLockdown() then
 		WoWPro:UpdateGuide(event) 
 	end
-
-	-- Lets see what quests the NPC has:
+    -- Lets see what quests the NPC has:
     if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
-        local npcQuests = {GetGossipAvailableQuests()};
-        local npcCount = GetNumGossipAvailableQuests();
-        local index = 0
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-        local myNPC = WoWPro:TargetNpcId()
-        for _,item in pairs(npcQuests) do
-            if type(item) == "string" then
-                index = index + 1
-                WoWPro:dbp("ZT: GOSSIP_SHOW index %d/%d, considering [%s]",index,npcCount,item)
-                if WoWPro.action[qidx] == "A" then
-    		        if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
-    		            WoWPro:dbp("ZZZT %d: GOSSIP_SHOW Inhale %s, prev qcount was %d, new is %d",qidx,item, WoWPro.qcount[qidx], npcCount)
-    	                WoWPro.qcount[qidx] = npcCount
-    		            SelectGossipAvailableQuest(index)
-    		            return
-    		        end
-    		        if WoWPro.action[qidx] == "A" and item == WoWPro.step[qidx] then
-    		            WoWPro:dbp("ZZZT %d: GOSSIP_SHOW Name matches [%s], selecting.",index,item)
-    		            SelectGossipAvailableQuest(index)
-    		        end
-    		    end
+        C_Timer.After(0.5, function()
+            local npcQuests = {GetGossipAvailableQuests()};
+            local npcCount = GetNumGossipAvailableQuests();
+            local index = 0
+            local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+            local myNPC = WoWPro:TargetNpcId()
+            for _,item in pairs(npcQuests) do
+                if type(item) == "string" then
+                    index = index + 1
+                    WoWPro:dbp("ZT: GOSSIP_SHOW index %d/%d, considering [%s]",index,npcCount,item)
+                    if WoWPro.action[qidx] == "A" then
+                        if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
+                            WoWPro:dbp("ZZZT %d: GOSSIP_SHOW Inhale %s, prev qcount was %d, new is %d",qidx,item, WoWPro.qcount[qidx], npcCount)
+                            WoWPro.qcount[qidx] = npcCount
+                            SelectGossipAvailableQuest(index)
+                            return
+                        end
+                        if WoWPro.action[qidx] == "A" and item == WoWPro.step[qidx] then
+                            WoWPro:dbp("ZZZT %d: GOSSIP_SHOW Name matches [%s], selecting.",index,item)
+                            SelectGossipAvailableQuest(index)
+                        end
+                    end
+                end
             end
-        end
-        npcQuests =  {GetGossipActiveQuests()};
-        index = 0 
-        for _,item in pairs(npcQuests) do
-            if type(item) == "string" then
-                index = index + 1       
-		        if WoWPro.action[qidx] == "T" and item == WoWPro.step[qidx] then
-		            SelectGossipActiveQuest(index)
-		            return
-		        end
+            npcQuests = {GetGossipActiveQuests()};
+            index = 0 
+            for _,item in pairs(npcQuests) do
+                if type(item) == "string" then
+                    index = index + 1       
+                    if WoWPro.action[qidx] == "T" and item == WoWPro.step[qidx] then
+                        SelectGossipActiveQuest(index)
+                        return
+                    end
+                end
             end
-        end
-    end
+        end)
+    end 
     
     if event == "QUEST_GREETING" and WoWProCharDB.AutoSelect == true then
-        local numAvailableQuests = GetNumAvailableQuests()
-        local numActiveQuests = GetNumActiveQuests()
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-        local myNPC = WoWPro:TargetNpcId()
-        for i=1, numActiveQuests do
-            if WoWPro.action[qidx] == "T" and GetActiveTitle(i) == WoWPro.step[qidx] then
-		        SelectActiveQuest(i)
-		        return
-		    end
-		end
-        for i=1, numAvailableQuests do
-            if WoWPro.action[qidx] == "A" then
-                if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
-                    WoWPro:dbp("ZZZT %d: QUEST_GREETING Inhale %s, prev qcount was %d, new is %d",qidx, GetAvailableTitle(i), WoWPro.qcount[qidx], -numAvailableQuests)
-	                WoWPro.qcount[qidx] = -numAvailableQuests
-		            SelectGossipAvailableQuest(i)
-		            return
+        C_Timer.After(0.5, function()
+            local numAvailableQuests = GetNumAvailableQuests()
+            local numActiveQuests = GetNumActiveQuests()
+            local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+            local myNPC = WoWPro:TargetNpcId()
+            for i=1, numActiveQuests do
+                if WoWPro.action[qidx] == "T" and GetActiveTitle(i) == WoWPro.step[qidx] then
+                    SelectActiveQuest(i)
+                    return
                 end
-                if GetAvailableTitle(i) == WoWPro.step[qidx] then
-                    WoWPro:dbp("ZZZT %d: QUEST_GREETING Name matches [%s], selecting.", i, WoWPro.step[qidx])
-		            SelectAvailableQuest(i)
-		            return
-		        end
-		    end
-		end
+            end
+            for i=1, numAvailableQuests do
+                if WoWPro.action[qidx] == "A" then
+                    if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
+                        WoWPro:dbp("ZZZT %d: QUEST_GREETING Inhale %s, prev qcount was %d, new is %d",qidx, GetAvailableTitle(i), WoWPro.qcount[qidx], -numAvailableQuests)
+                        WoWPro.qcount[qidx] = -numAvailableQuests
+                        SelectGossipAvailableQuest(i)
+                        return
+                    end
+                    if GetAvailableTitle(i) == WoWPro.step[qidx] then
+                        WoWPro:dbp("ZZZT %d: QUEST_GREETING Name matches [%s], selecting.", i, WoWPro.step[qidx])
+                        SelectAvailableQuest(i)
+                        return
+                    end
+                end
+            end
+        end)
     end
     
     if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-        local questtitle = GetTitleText();
-        local myNPC = WoWPro:TargetNpcId()
-        WoWPro:dbp("ZZZT %d: QUEST_DETAIL [%s], QID %s",qidx,questtitle,tostring(WoWPro.QID[qidx]))
-		if WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
-		    if  WoWPro.QID[qidx] == "*" then
-		        if WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
-    		        WoWPro:dbp("ZZZT %d: Auto Accept wildcard [%s], %d qcount",qidx,questtitle,WoWPro.qcount[qidx])
-    		        WoWPro.qcount[qidx] = WoWPro.qcount[qidx] or 0
-    		    else
-    		        WoWPro:dbp("ZZZT %d: Auto Accept wildcard [%s] REJECT! Expected NPC %s and found %d",qidx,questtitle,tostring(WoWPro.NPC[qidx]), myNPC)
-    		        return
-    		    end
-		    end
-		    AcceptQuest()
-		    if WoWPro.QID[qidx] == "*" and WoWProCharDB.AutoSelect then
-    		    -- OK, now get the next quest if qcount is set
-    		    if WoWPro.qcount[qidx] ~= 0  then
-    		        if  WoWPro.qcount[qidx] > 1 then
-        		        WoWPro:dbp("ZZZT %d Faking GOSSIP_SHOW, qcount is %d",qidx, WoWPro.qcount[qidx])
-        		        WoWPro.EventHandler(frame,"GOSSIP_SHOW")
-        		        return
-        		    end
-        		    if WoWPro.qcount[qidx] < 1 then
-        		        WoWPro:dbp("ZZZT %d Faking QUEST_GREETING, qcount is %d",qidx, WoWPro.qcount[qidx])
-        		        WoWPro.EventHandler(frame,"QUEST_GREETING")
-        		        return
-        		    end        		            		    
-                    -- We accepted the last quest.
-                    WoWPro:dbp("ZZZT: Suck done, finishing %d",qidx)
-                    WoWPro.CompleteStep(qidx, "QUEST_DETAIL: A*")
+        C_Timer.After(0.5, function()
+            local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+            local questtitle = GetTitleText();
+            local myNPC = WoWPro:TargetNpcId()
+            WoWPro:dbp("ZZZT %d: QUEST_DETAIL [%s], QID %s",qidx,questtitle,tostring(WoWPro.QID[qidx]))
+            if WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
+                if  WoWPro.QID[qidx] == "*" then
+                    if WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
+                        WoWPro:dbp("ZZZT %d: Auto Accept wildcard [%s], %d qcount",qidx,questtitle,WoWPro.qcount[qidx])
+                        WoWPro.qcount[qidx] = WoWPro.qcount[qidx] or 0
+                    else
+                        WoWPro:dbp("ZZZT %d: Auto Accept wildcard [%s] REJECT! Expected NPC %s and found %d",qidx,questtitle,tostring(WoWPro.NPC[qidx]), myNPC)
+                        return
+                    end
                 end
-    		end
-		end
+                AcceptQuest()
+                -- Complete step for quest accept.
+                WoWPro.CompleteStep(qidx, "QUEST_DETAIL: A*")
+                if WoWPro.QID[qidx] == "*" and WoWProCharDB.AutoSelect then
+                    -- OK, now get the next quest if qcount is set
+                    if WoWPro.qcount[qidx] ~= 0  then
+                        if  WoWPro.qcount[qidx] > 1 then
+                            WoWPro:dbp("ZZZT %d Faking GOSSIP_SHOW, qcount is %d",qidx, WoWPro.qcount[qidx])
+                            WoWPro.EventHandler(frame,"GOSSIP_SHOW")
+                            return
+                        end
+                        if WoWPro.qcount[qidx] < 1 then
+                            WoWPro:dbp("ZZZT %d Faking QUEST_GREETING, qcount is %d",qidx, WoWPro.qcount[qidx])
+                            WoWPro.EventHandler(frame,"QUEST_GREETING")
+                            return
+                        end                                     
+                        -- We accepted the last quest.
+                        WoWPro:dbp("ZZZT: Suck done, finishing %d",qidx)
+                        WoWPro.CompleteStep(qidx, "QUEST_DETAIL: A*")
+                    end
+                end
+            end
+        end)
     end
 
 
     if event == "QUEST_PROGRESS" and WoWProCharDB.AutoTurnin == true then
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-        local questtitle = GetTitleText();
-        WoWPro:dbp("Quest is [%s], matching [%s]",tostring(questtitle),tostring(WoWPro.step[qidx]))
-		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
-		    CompleteQuest()
-		end  
+        C_Timer.After(0.5, function()
+            local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+            local questtitle = GetTitleText();
+            WoWPro:dbp("Quest is [%s], matching [%s]",tostring(questtitle),tostring(WoWPro.step[qidx]))
+            if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
+                CompleteQuest()
+            end
+        end)
     end
 
     -- Noting that a quest is being completed for AutoTurnin --
-	if event == "QUEST_COMPLETE" then
-	    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if event == "QUEST_COMPLETE" then
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
-		if WoWProCharDB.AutoTurnin == true and (WoWPro.action[qidx] == "T" or WoWPro.action[qidx] == "A") and questtitle == WoWPro.step[qidx] then
-		    if (GetNumQuestChoices() <= 1) then
-		        GetQuestReward(1)
-		    end
+        if WoWProCharDB.AutoTurnin == true and (WoWPro.action[qidx] == "T" or WoWPro.action[qidx] == "A") and questtitle == WoWPro.step[qidx] then
+            if (GetNumQuestChoices() <= 1) then
+                GetQuestReward(1)
+            end
         end
-	end
-	
-	if event == "QUEST_TURNED_IN" or event == "QUEST_ACCEPTED" then
-	    local qlidx, qid = ...
-	    WoWPro:dbp("%s(%s,%s)",event,qlidx,qid)
-	    if event == "QUEST_TURNED_IN" then
-        	WoWPro.CompletingQuest = true
-        	WoWProCharDB.completedQIDs[qlidx] = true
-        	WoWPro:AutoCompleteQuestUpdate(qlidx)	    
-	    end
-	end
-	    
+    end
+    
+    if event == "QUEST_TURNED_IN" or event == "QUEST_ACCEPTED" then
+        local qlidx, qid = ...
+        WoWPro:dbp("%s(%s,%s)",event,qlidx,qid)
+        if event == "QUEST_TURNED_IN" then
+            WoWPro.CompletingQuest = true
+            WoWProCharDB.completedQIDs[qlidx] = true
+            WoWPro:AutoCompleteQuestUpdate(qlidx)       
+        end
+    end
 	if event == "NEW_RECIPE_LEARNED" then
 	    WoWPro.LearnRecipe(...)
     end
