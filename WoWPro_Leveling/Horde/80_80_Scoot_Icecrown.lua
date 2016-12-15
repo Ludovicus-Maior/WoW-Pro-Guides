@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2016-12-14 15:17
+-- Who: tubera
+-- Log:  N tags;Guide should be closer to today's standard again.
+
+-- URL: http://wow-pro.com/node/3302/revisions/28151/view
+-- Date: 2016-12-14 05:59
+-- Who: tubera
+-- Log: Almost done.
+
+-- URL: http://wow-pro.com/node/3302/revisions/28088/view
 -- Date: 2016-12-02 23:16
 -- Who: tubera
 -- Log:  overall cleanup.
@@ -196,9 +206,8 @@ T Through the Eye|QID|13121|N|To The Bone Witch.|M|32.49,42.92|
 A Find the Ancient Hero|QID|13133|N|From The Bone Witch.|M|32.49,42.92|
 C Find the Ancient Hero|QID|13133|N|Go into the Halls of the Ancestors at , start waking up the Slumbering Mjordins. Eventually you will wake up Iskaldar. When you get him, use the amulet.|U|43166|M|28.04,47.06;32.49,42.92|CS|
 T Find the Ancient Hero|QID|13133|N|To The Bone Witch.|
-N Group Quests|QID|13213|N|The next 3 quests from the Bone Witch are group quests. You can look for a group while questing, but do them all when you find one. Turn them in as you finish them. They lead to a 6 quest chain in the arena at Valhalas.|
 
-A Not-So-Honorable Combat|QID|13137|O|
+A Not-So-Honorable Combat|QID|13137|N|Group quest|RANK|3|
 
 F Death's Rise|QID|12806|N|To the SW|M|19.88,48.05|
 T To the Rise with all Due Haste!|QID|12806|N|To Lord-Commander Arete|M|19.59,48.1|
@@ -241,9 +250,8 @@ A In Strict Confidence|QID|12840|N|From Lord-Commander Arete|M|19.59,48.1|
 K Captain Welsington|QID|12840|QO|1|N|On the boat farthest away in the Harbor, by the wheel.|M|5.7,41.9|
 C Captain Hartford|QID|12840|QO|2|N|By the wheel on the other boat.|M|7.0,41.9|
 T In Strict Confidence|QID|12840|N|To Lord-Commander Arete.|M|19.58,48.18|
-N Group Quests|QID|12852|N|The last 2 quests here are group quests. Look for groups while you quest.|
 
-A Second Chances|QID|12847|O|
+A Second Chances|QID|12847|N|Group Quests.|RANK|3|
 
 T Blackwatch|QID|13106|N|To Darkrider Arly.|M|35.46,66.49|
 
@@ -466,7 +474,7 @@ C Slaves to Saronite|QID|13302|N|Keep rescueing slaves. They will fight, run awa
 
 T Get to Ymirheim!|QID|13293|N|Make your way to Blast Thunderbomb at the waypoint.|M|51.95,57.54|
 
-A King of the Mountain|QID|13283|N|From Blast Thunderbomb. this is a PvP Quest. |M|51.95,57.54|
+A King of the Mountain|QID|13283|N|From Blast Thunderbomb. this is a PvP Quest.|M|51.95,57.54|
 C King of the Mountain|QID|13283|N|Get in the robot and make your way up the mountain using the Jump Jets. When you get to the top , plant the banner. You can leave the robot and use your flying mount to get back down.|M|54.84,60.17|
 T King of the Mountain|QID|13283|N|Blast Thunderbomb.|M|51.95,57.54|
 C Blood of the Chosen|QID|13330|N|Kill any more Vrykul you need.|US|
@@ -489,235 +497,271 @@ T Blood of the Chosen|QID|13330|N|To Warbringer Davos Rioht|
 T Good For Something?|QID|13238|N|To Chief Engineer Copperclaw|
 
 A Volatility|QID|13239|N|From Chief Engineer Copperclaw|
-C Volatility |QID|13239|N|Go to the Broken Front. Collect 3 Piles of Bones, 3 Abondoned Helms, and 3 Abandoned Armor. Kill mobs while you're doing this.|S|
 C Poke and Prod|M|69,66|QID|13237|S|
-l Piles of Bones|L|43609 3|M|69,66|QID|13239|
-l Abandoned Helms|L|43610 3|M|69,66|QID|13239|
+l Piles of Bones|L|43609 3|M|69,66|QID|13239|S
+l Abandoned Helms|L|43610 3|M|69,66|QID|13239|S
 l Abandoned Armor|L|43616 3|M|69,66|QID|13239|
-C Volatility |QID|13239|N|Use Copperclaw's Volitile Oil to summon a dummy. Move away so you don't aggro the dragon that comes down. Repeat 2 more times.|U|43608|
-C Poke and Prod |QID|13237|M|69,66|N|Kill any more mobs you need.|US|
-T Poke and Prod |QID|13237|N|Back to Orgrim's Hammer. Koltira Deathweaver|
+l Abandoned Helms|L|43610 3|M|69,66|QID|13239|US
+l Piles of Bones|L|43609 3|M|69,66|QID|13239|US
+C Volatility|QID|13239|N|Use Copperclaw's Volitile Oil to summon a dummy. Move away so you don't aggro the dragon that comes down. Repeat 2 more times.|U|43608|
+C Poke and Prod|QID|13237|M|69,66|N|Kill any more mobs you need.|US|
+T Poke and Prod|QID|13237|N|Back to Koltira Deathweaver on Orgrim's Hammer.|
 
-A That's Abominable! |QID|13264|
-N Group Quest |QID|13279|N|Against the Giants is a group quest, and it leads to another one. Look for a group while you continue questing. The follow up is phased, so make sure you do both quests if you find a group, because anyone not on it can't help.|
+A That's Abominable!|QID|13264|
 
-A Against the Giants |QID|13277|O|
-T Volatility |QID|13239|N|Chief Engineer Copperclaw. This becomes a daily now.|
+A Against the Giants|QID|13277|N|Group quest|RANK|3|
+T Volatility|QID|13239|N|Chief Engineer Copperclaw. This becomes a daily now.|
 
-A Green Technology |QID|13379|
-C That's Abominable! |QID|13264|N|Go to back the Broken Front. Kill Abominations for their guts, use the Reanimation Kit on them , send them into the groups of mobs, and blow them up. Repeat until done.|M|68,61|
-T That's Abominable! |QID|13264|N|Back to Orgrim's Hammer. Koltira Deathweaver. This become a daily now.|
+C That's Abominable!|QID|13264|N|Go to back the Broken Front. Kill Abominations for their guts, use the Reanimation Kit on them , send them into the groups of mobs, and blow them up. Repeat until done.|M|68,61|U|43968|
+T That's Abominable!|QID|13264|N|To Koltira Deathweaver on Orgrim's Hammer. This become a daily now.|
 
-A Sneak Preview |QID|13351|
-N Aldur'thar South |QID|13351|QO|Aldur'thar South Visited|M|54,44|
-N Aldur'thar Central |QID|13351|QO|Aldur'thar Central Visited|M|54,40|
-N Aldur'thar North |QID|13351|QO|Aldur'thar North Visited|M|54,34|
-C Sneak Preview |QID|13351|N|Aldur'thar Northwest |M|51,33|
-T Green Technology |QID|13379|N|Fringe Engineer Tezzla |M|53.94,36.84|
+A Sneak Preview|QID|13351|
+F Aldur'thar South|QID|13351|QO|1|M|54,44|
+F Aldur'thar Central|QID|13351|QO|2|M|54,40|
+F Aldur'thar North|QID|13351|QO|3|M|54,34|
+F Sneak Preview|QID|13351|QO|4|M|51,33|
+T Sneak Preview|QID|13351|N|To Koltira Deathweaver on Orgrim's Hammer.|
 
-A Fringe Science Benefits |QID|13373|
-C Fringe Science Benefits |QID|13373|N|Talk to Rizzy Ratchwiggle nearby to start the quest. Read the tips in Lightheaded on how to do this. It's not hard, just a little complicated. If your plane get destroyed, you will be picked up and taken back to the starting point. Get another plane and keep going.|
-T Fringe Science Benefits |QID|13373|N|Fringe Engineer Tezzla |M|53.94,36.84|
-T Sneak Preview |QID|13351|N|Back to Orgrim's Hammer. Koltira Deathweaver|
+A Drag and Drop|QID|13352|
+A Chain of Command|QID|13354|
+A Cannot Reproduce|QID|13355|
+C Drag and Drop|QID|13352|N|Kill Bitter Initiates for Orbs of Illusion. Use the Orbs on Dark Subjugaters so the Gargoyles will drop them over the side.|U|44246|S
+K Overseer Faedris|N|Go to Aldur'thar: The Desolation Gate. Faedris is in a tent.|QID|13354|QO|1|M|53.89,46.83|
+K Overseer Jhaeqon|N|North at|QID|13354|QO|2|M|54.74,32.60|
+C Drag and Drop|QID|13352|N|Kill Bitter Initiates for Orbs of Illusion. Use the Orbs on Dark Subjugaters so the Gargoyles will drop them over the side.|U|44246|US
+K Overseer Veraj|N|Northeast at|QID|13354|QO|3|M|53.67,29.20|
+C Cannot Reproduce|QID|13355|N|Use the vial at the 3 cauldrons around|M|49,33|U|44251|
+C Chain of Command|QID|13354|QO|4|N|Overseer Savryn|M|49.39,31.19|
 
-A Drag and Drop |QID|13352|
-A Chain of Command |QID|13354|
-A Cannot Reproduce |QID|13355|
-K Overseer Faedris |N|Go to Aldur'thar: The Desolation Gate. He's in a tent at . Use any Orbs of Illusion you get on Dark Subjugaters.|QID|13354|QO|Overseer Faedris Killed: 1/1|U|44246|M|53.89,46.83|
-C Drag and Drop |QID|13352|N|Kill Bitter Initiates for Orbs of Illusion. Use the Orbs on Dark Subjugaters so the Gargoyles will drop them over the side.|U|44246|
-K Overseer Jhaeqon |N|North at |QID|13354|QO|Overseer Jhaeqon Killed: 1/1|M|54.74,32.60|
-K Overseer Veraj |N|Northeast at |QID|13354|QO|Overseer Veraj Killed: 1/1|M|53.67,29.20|
-C Cannot Reproduce |QID|13355|N|Use the vial at the 3 cauldrons around |M|49,33|
-C Chain of Command |QID|13354|N|Overseer Savryn |M|49.39,31.19|
-T Drag and Drop |QID|13352|N|Back to Orgrim's Hammer. Koltira Deathweaver|
-T Chain of Command |QID|13354|
+T Drag and Drop|QID|13352|N|To Koltira Deathweaver on Orgrim's Hammer.|
+T Chain of Command|QID|13354|N|To Koltira Deathweaver.|
 
-A Not a Bug |QID|13358|
-A Need More Info |QID|13366|
-T Cannot Reproduce |QID|13355|N|Chief Engineer Copperclaw|
+A Not a Bug|QID|13358|N|From Koltira Deathweaver
+A Need More Info|QID|13366|N|From Koltira Deathweaver
+T Cannot Reproduce|QID|13355|N|To Chief Engineer Copperclaw|
 
-A Retest Now |QID|13356|
-N Dark Matter |QID|13358|N| Around . Drink the Diluted Cult Tonic (it lasts 10 minutes). Kill the Void Summoners and their Minions. Use the Rod of Siphoning on the dead Voidwalker to get Dark Matter. You need 5.|U|44433|L|44434 5|M|54,30|
-C Not a Bug |QID|13358|N|Click on the Crystal floating at .|M|53.77,33.69|
-N Tainted Essence |QID|13356|N|Head towards . Keep killing mobs and collecting Tainted Essence until you have 10. Drink more Tonic if the buff runs out (10 minutes).|U|44307|L|44301 10|M|49,33|
-N Writhing Mass |QID|13356|N|Use the tainted essence to make a Writhing Mass.|U|44301|L|44304 1|
-C Retest Now |QID|13356|N|Back to the cauldrons at . Throw the Mass into a cauldron. You will get a buff for 2 hours. Dark (closest to the stairs) = 60 Spell Power, Green (middle) = 75 Stamania, Blue (farthest form the stairs) = 100 Attack Power.|U|43304|M|49,33|
-N Cult of the Damned Thesis |QID|13366|N|Go inside Aldur'thar and kill the Cult Researchers to get the 3 pages. They have a knockback that hits for about 2K and drains Mana (it's instant cast too, joy). You will end up pulling 2-3 at a time, so be prepared.|M|51.91,32.13|
-l Research page 1|QID|13366|M|51.91,32.33|S|L|44459|
-l Research page 2|QID|13366|M|51.91,32.33|S|L|44460|
+A Retest Now|QID|13356|N|From Chief Engineer Copperclaw|
+C Dark Matter|QID|13358|N|Drink the Diluted Cult Tonic (it lasts 10 minutes). Kill the Void Summoners and their Minions. Use the Rod of Siphoning on the dead Voidwalker to get Dark Matter. You need 5.|U|44433|L|44434 5|M|55.48,29.11|
+C Not a Bug|QID|13358|N|Click on the Crystal floating at.|M|53.77,33.69|
+N Tainted Essence|QID|13356|N|Head towards. Keep killing mobs and collecting Tainted Essence until you have 10. Drink more Tonic if the buff runs out (10 minutes).|U|44307|L|44301 10|M|49,33|
+N Writhing Mass|QID|13356|N|Use the tainted essence to make a Writhing Mass.|U|44301|L|44304 1|
+C Retest Now|QID|13356|N|Back to the cauldrons at. Throw the Mass into a cauldron. You will get a buff for 2 hours. Dark (closest to the stairs) = 60 Spell Power, Green (middle) = 75 Stamania, Blue (farthest form the stairs) = 100 Attack Power.|U|44304|M|49,33|
+N Cult of the Damned Thesis|QID|13366|N|Go inside Aldur'thar and kill the Cult Researchers to get the 3 pages. They have a knockback that hits for about 2K and drains Mana (it's instant cast too, joy). You will end up pulling 2-3 at a time, so be prepared.|M|51.91,32.13|
 l Research page 3|QID|13366|M|51.91,32.33|S|L|44461|
-C Need More Info |QID|13366|N|Combine the pages when you get them all. (not while flying, it will dismount you ahhhhhhhhh, splat!)|U|44461|
-T Not a Bug |QID|13358|N|Back to Orgrim's Hammer. Koltira Deathweaver|
-T Need More Info |QID|13366|
-N Group Quest |QID|13367|N|Another group quest next. Turn it in if you do it.|
+l Research page 2|QID|13366|M|51.91,32.33|S|L|44460|
+l Research page 1|QID|13366|M|51.91,32.33|L|44459|
+l Research page 2|QID|13366|M|51.91,32.33|US|L|44460|
+l Research page 3|QID|13366|M|51.91,32.33|US|L|44461|
+C Need More Info|QID|13366|N|Combine the pages when you get them all. (not while flying, it will dismount you ahhhhhhhhh, splat!)|U|44461|
+T Not a Bug|QID|13358|N|To Koltira Deathweaver on Orgrim's Hammer.|
+T Need More Info|QID|13366|N|To Koltira Deathweaver.|
 
-A No Rest For The Wicked |QID|13367|O|
+A No Rest For The Wicked|QID|13367|N|Another group quest next. Turn it in if you do it.|RANK|3|
 
-A Raise the Barricades |QID|13306|
-T Retest Now |QID|13356|N|Chief Engineer Copperclaw|
-C Raise the Barricades |QID|13306|N|Fly to the Valley of Fallen Heroes . Look for the Ebon Blade Markers, they are black whispy things that fade in and out. Create baricades.|U|44127|M|51,40|
-T Raise the Barricades |QID|13306|N|Back to Orgrim's Hammer. Koltira Deathweaver|
+A Raise the Barricades|QID|13306|N|From Koltira DeathWeaver.|
+T Retest Now|QID|13356|N|Chief Engineer Copperclaw|
+C Raise the Barricades|QID|13306|N|Fly to the Valley of Fallen Heroes. Look for the Ebon Blade Markers, they are black whispy things that fade in and out. Create baricades.|U|44127|M|51,40|
+T Raise the Barricades|QID|13306|N|To Koltira Deathweaver on Orgrim's Hammer.|
 
-A Bloodspattered Banners |QID|13307|
+A Bloodspattered Banners|QID|13307|N|From Koltira DeathWeaver.|
 
-A Blinding the Eyes in the Sky |QID|13313|N|Sky-Reaver Korm Blackscar.|
-C Blinding the Eyes in the Sky |QID|13313|N|Try around . Use the rocket launcher to shoot down the planes.|U|44212|M|47.13,43.00|
-N Scourge Converters |N|Converters are around .|QID|13307|QO|Scourge Converters slain: 5/5|M|48,40|
-C Bloodspattered Banners |QID|13307|N|Around . The groups of Converted Heroes can be pulled one at a time, if you work from the end of a line from range. Pulling more than 3 at a time is not recomended.|M|45,53|
-T Opportunity |QID|13258|N|Sergeant Kregga . There is a gap in the wall. He's just on the other side.|M|54.95,84.22|
+A Blinding the Eyes in the Sky|QID|13313|N|From Sky-Reaver Korm Blackscar.|
+C Blinding the Eyes in the Sky|QID|13313|N|Use the rocket launcher to shoot down the planes.|U|44212|M|47.13,43.00|S|T|Skybreaker Recon Fighter|
+C Scourge Converters|QID|13307|QO|3|M|48,40|
+C Blinding the Eyes in the Sky|QID|13313|N|Use the rocket launcher to shoot down the planes.|U|44212|M|47.13,43.00|US|T|Skybreaker Recon Fighter|
+C Bloodspattered Banners|QID|13307|N|The groups of Converted Heroes can be pulled one at a time, if you work from the end of a line from range. Pulling more than 3 at a time is not recomended.|M|45,53|
+T Opportunity|QID|13258|N|To Sergeant Kregga. There is a gap in the wall under the stairs. He's just on the other side.|M|54.95,84.22|
 
-A Establishing Superiority |QID|13259|
-C Establishing Superiority |QID|13259|N|They're around everywhere.|
-T Establishing Superiority |QID|13259|N|Sergeant Kregga .|M|54.95,84.22|
+A Establishing Superiority|QID|13259|N|From Sergeant Kregga.|M|54.95,84.22|
+C Establishing Superiority|QID|13259|N|They're around everywhere.|
+T Establishing Superiority|QID|13259|N|To Sergeant Kregga.|M|54.95,84.22|
 
-A Blow it Up! |QID|13262|
-T Blow it Up! |QID|13262|N|The pile of bombs is at .|M|54.33,86.30|
+A Blow it Up!|QID|13262|N|From Sergeant Kregga.|M|54.95,84.22|
+T Blow it Up!|QID|13262|M|54.33,86.30|N|To Pile of Bombs.|
 
-A A Short Fuse |QID|13263|N|This can't be good.|
-T A Short Fuse |QID|13263|N|You lived. Go to  to turn it in. It's under water.|M|53.94,87.25|
+A A Short Fuse|QID|13263|N|This can't be good. From Pile of Bombs.|M|54.33,86.30|
+T A Short Fuse|QID|13263|N|You lived. To Pulsin Crystal. It's under water.|M|53.94,87.25|
 
-A A Voice in the Dark |QID|13271|
-T A Voice in the Dark |QID|13271|N|Matthais Lehner at . He's a ghost.|M|53.80,86.96|
+A A Voice in the Dark|QID|13271|N|From Pulsin Crystal.
+T A Voice in the Dark|QID|13271|N|To Matthais Lehner.|M|53.80,86.96|
 
-A Time to Hide |QID|13275|
-C Time to Hide |QID|13275|N|Kill Faceless Ones for their blood.|
-T Time to Hide |QID|13275|N|Matthais Lehner .|M|53.80,86.96|
+A Time to Hide|QID|13275|N|From Matthais Lehner.|M|53.80,86.96|
+C Time to Hide|QID|13275|N|Kill Faceless Lurkers for their blood.|
+T Time to Hide|QID|13275|N|To Matthais Lehner.|M|53.80,86.96|
 
-A Return to the Surface |QID|13282|
-T Return to the Surface |QID|13282|N|Take the portal. Fly back to Orgrim's Hammer. Koltira Deathweaver|
+A Return to the Surface|QID|13282|N|From Matthais Lehner.|M|53.80,86.96|
+T Return to the Surface|QID|13282|N|Take the portal. Fly back to Orgrim's Hammer. To Koltira Deathweaver|
 
-A Field Repairs |QID|13304|
-T Bloodspattered Banners |QID|13307|
-T Blinding the Eyes in the Sky |QID|13313|N|Sky-Reaver Korm Blackscar.|
-C Field Repairs |QID|13304|N|Kill the Geists around .|M|66.41,53.92|
-T Field Repairs |QID|13304|N|Turn in at .|M|67.99,51.86|
+A Field Repairs|QID|13304|N|From Koltira Deathweaver.|
+T Bloodspattered Banners|QID|13307|N|To Koltira Deathweaver.|
+T Blinding the Eyes in the Sky|QID|13313|N|To Sky-Reaver Korm Blackscar.|
+C Field Repairs|QID|13304|N|Kill Geists for Demolisher parts.|M|66.41,53.92|
+T Field Repairs|QID|13304|N|To Wrecked Demolisher.|M|67.99,51.86|
 
-A Do Your Worst |QID|13305|N|Matthais Lehner is back. He's at , but you can barely see him.|M|68.01,51.63|
-C Do Your Worst |QID|13305|N|Mount up and kill mobs. The Giant Skeletons take 3-4 hits to kill.|
-T Do Your Worst |QID|13305|N|Matthais Lehner is in the First Legion Forward Camp at .|M|64.48,43.99|
+A Do Your Worst|QID|13305|N|From Matthais Lehner, you can barely see him.|M|68.01,51.63|
+C Do Your Worst|QID|13305|N|Mount up and kill mobs. The Giant Skeletons take 3-4 hits to kill.|
+T Do Your Worst|QID|13305|N|To Matthais Lehner is at the First Legion Forward Camp.|M|64.48,43.99|
 
-A Army of the Damned |QID|13236|
-C Army of the Damned |QID|13236|N|You get to be Arthas, cool huh. Start with 1, raise some ghouls with 3, use 2 to recharge some Mana. Then spam 2 (use 1 if you get a big group and you have the Mana), use 3 when it's up, use 4 if you need Health. Go back to Matthais if you die to start again.|
-T Army of the Damned |QID|13236|N|Dismount and turn in to Matthais Lehner .|M|64.48,43.99|
+A Army of the Damned|QID|13236|N|From Matthais Lehner.|M|64.48,43.99|
+C Army of the Damned|QID|13236|N|You get to be Arthas, cool huh. Start with 1, raise some ghouls with 3, use 2 to recharge some Mana. Then spam 2 (use 1 if you get a big group and you have the Mana), use 3 when it's up, use 4 if you need Health. Go back to Matthais if you die to start again.|
+T Army of the Damned|QID|13236|N|Dismount and turn in to Matthais Lehner.|M|64.48,43.99|
 
-A Futility |QID|13348|
-T Futility |QID|13348|N|Fly back to Orgrim's Hammer. Koltira Deathweaver|
+A Futility|QID|13348|N|From Matthais Lehner.|M|64.48,43.99|
+T Futility|QID|13348|N|To Koltira Deathweaver on Orgrim's Hammer.|
 
-A Cradle of the Frostbrood |QID|13349|
+A Cradle of the Frostbrood|QID|13349|N|From Koltira Deathweaver.|
 
-A Where Dragons Fell |QID|13359|N|Head to Sindragosa's Fall. Matthais Lehner is now at .|M|71.54,37.61|
-C Where Dragons Fell |QID|13359|N|Kill the Whelps for the Bone Dust. Kill anything else around too.|
-T Where Dragons Fell |QID|13359|N|Matthais Lehner .|M|71.54,37.61|
+A Where Dragons Fell|QID|13359|N|From Matthais Lehner at Sindragosa's Fall.|M|71.54,37.61|
+C Cradle of the Frostbrood|QID|13349|N|Kill mobs.|M|72,43|S
+C Where Dragons Fell|QID|13359|N|Kill the Whelps for the Bone Dust.|
+T Where Dragons Fell|QID|13359|N|To Matthais Lehner.|M|71.54,37.61|
 
-A Time for Answers |QID|13360|
-C Cradle of the Frostbrood |QID|13349|N|Kill any more mobs you need for the quest. Lots of Reanimators are around .|M|72,43|
-T Cradle of the Frostbrood |QID|13349|N|Fly back to Orgrim's Hammer. Koltira Deathweaver|
-T Time for Answers |QID|13360|N|The Court of Bones. Matthais Lehner .|M|49.17,73.17|
+A Time for Answers|QID|13360|N|From Matthais Lehner.|M|71.54,37.61|
+C Cradle of the Frostbrood|QID|13349|N|Kill any more mobs you need for the quest. Lots of Reanimators are around.|M|72,43|US
+T Cradle of the Frostbrood|QID|13349|N|To Koltira Deathweaver on Orgrim's Hammer.|
+T Time for Answers|QID|13360|N|To Matthais Lehner at The Court of Bones.|M|49.17,73.17|
 
-A The Hunter and the Prince |QID|13361|M|49.17,73.17|
-C The Hunter and the Prince |QID|13361|N|Use any Bloodstained Stone on the ground to start the battle. Stomp  and Annililate (4) to open, then spam Parry (1) and Deathstrike (2) until you have at least 75% Mana. Repeat until dead. If Arthas dies, use another stone to try again.|
-T The Hunter and the Prince |QID|13361|N|Matthais Lehner .|M|49.17,73.17|
+A The Hunter and the Prince|QID|13361|M|49.17,73.17|N|From Matthias Lehner.|
+C The Hunter and the Prince|QID|13361|N|Use any Bloodstained Stone on the ground to start the battle. Stomp  and Annililate (4) to open, then spam Parry (1) and Deathstrike (2) until you have at least 75% Mana. Repeat until dead. If Arthas dies, use another stone to try again.|
+T The Hunter and the Prince|QID|13361|N|To Matthais Lehner.|M|49.17,73.17|
 
-A Knowledge is a Terrible Burden |QID|13362|
-T Knowledge is a Terrible Burden |QID|13362|N|Fly back to Orgrim's Hammer. Koltira Deathweaver|
+A Knowledge is a Terrible Burden|QID|13362|N|From Matthias Lehner.|
+T Knowledge is a Terrible Burden|QID|13362|N|To Koltira Deathweaver on Orgrim's Hammer.|
 
-A Argent Aid |QID|13363|
-T Argent Aid |QID|13363|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle .|M|79.83,71.79|
+A Argent Aid|QID|13363|N|From Koltira Deathweaver.|
+T Argent Aid|QID|13363|N|To Highlord Tirion Fordring at Crusaders' Pinnacle.|M|79.83,71.79|
 
-A Tirion's Gambit |QID|13364|
-N Cathedral of Darkness |QID|13364|N|Fly to the Cathedral of Darkness  and kill a Cultist Acolyte for a hood.|L|44784 1|M|45,76|
-C Tirion's Gambit |QID|13364|N|Use the hood and meet Highlord Tirion Fordring at the fire around . Follow them into the Cathedral and watch the scene. Take the portal when it comes up.|U|44784|M|44.40,76.24|
-T Tirion's Gambit |QID|13364|N|Highlord Tirion Fordring .|M|79.83,71.79|
-F The Shadow Vault |QID|13168|N|Fly back to The Shadow Vault. |M|43,26|
+A Tirion's Gambit|QID|13364|N|From Highlord Tirion Fordring.|M|79.83,71.79|
+l Cathedral of Darkness|QID|13364|N|Fly to the Cathedral of Darkness  and kill a Cultist Acolyte for a hood.|L|44784 1|M|45,76|
+C Tirion's Gambit|QID|13364|N|Use the hood and meet Highlord Tirion Fordring at the fire around. Follow them into the Cathedral and watch the scene. Take the portal when it comes up.|U|44784|M|44.40,76.24|
+T Tirion's Gambit|QID|13364|N|To Highlord Tirion Fordring.|M|79.83,71.79|
+F The Shadow Vault|QID|13168|N|Fly back to The Shadow Vault.|M|43,26|
 
-A Parting Gifts |QID|13168|N|Keritose Bloodblade  to the right of the entrance.|M|44.05,24.56|
-C Parting Gifts |QID|13168|N|Use an Eye of Dominion to control an Eidolon Watcher.|
-T Parting Gifts |QID|13168|N|Keritose Bloodblade |M|44.05,24.56|
+A Parting Gifts|QID|13168|N|From Keritose Bloodblade to the right of the entrance.|M|44.05,24.56|
+C Parting Gifts|QID|13168|N|Use an Eye of Dominion to control an Eidolon Watcher.|
+T Parting Gifts|QID|13168|N|To Keritose Bloodblade|M|44.05,24.56|
 
-A From Whence They Came |QID|13171|
-A An Undead's Best Friend |QID|13169|
-A Honor is for the Weak |QID|13170|
-N Three Quests |QID|13171|N|Control a Watcher and do all three quests at the same time. Blink, (2)Heal, (3)Vanish, (4)Feed Hound, (5)Kill Lookout, (6)Destroy Crystal.|M|40,32||
-C From Whence They Came |QID|13171|N|Destroy the Crystals|
-C An Undead's Best Friend |QID|13169|N|Feed the Hounds|
-C Honor is for the Weak |QID|13170|N|Kill the Lookouts|
-T From Whence They Came |QID|13171|N|Leave the vehicle and you will be back at Keritose Bloodblade .|M|44.05,24.56|
-T An Undead's Best Friend |QID|13169|
-T Honor is for the Weak |QID|13170|
+A From Whence They Came|QID|13171|N|From Keritose Bloodblade.|M|44.05,24.56|
+A An Undead's Best Friend|QID|13169|N|From Keritose Bloodblade.|M|44.05,24.56|
+A Honor is for the Weak|QID|13170|N|From Keritose Bloodblade.|M|44.05,24.56|
+N Three Quests|QID|13171|N|Control a Watcher and do all three quests at the same time. Blink, (2)Heal, (3)Vanish, (4)Feed Hound, (5)Kill Lookout, (6)Destroy Crystal.|M|40,32|
+C From Whence They Came|QID|13171|N|Destroy the Crystals|S|M|40,32|
+C An Undead's Best Friend|QID|13169|N|Feed the Hounds|S|M|40,32|
+C Honor is for the Weak|QID|13170|N|Kill the Lookouts|M|40,32|
+C An Undead's Best Friend|QID|13169|N|Feed the Hounds|US|M|40,32|
+C From Whence They Came|QID|13171|N|Destroy the Crystals|US|M|40,32|
+T From Whence They Came|QID|13171|N|Leave the vehicle and you will be back at Keritose Bloodblade.|M|44.05,24.56|
+T An Undead's Best Friend|QID|13169|N|To Keritose Bloodblade.|M|44.05,24.56|
+T Honor is for the Weak|QID|13170|N|To Keritose Bloodblade.|M|44.05,24.56|
 
-A Seeds of Chaos |QID|13172|
-A Amidst the Confusion |QID|13174|
-C Seeds of Chaos |QID|13172|N|This is a normal bombing quest. Talk to him again to get a Gryphon. Dismount in the quarry when you are done.|
-N Weeping Quarry Document |QID|13174|L|43688 1|M|39.11,33.72|
-N Weeping Quarry Ledger |QID|13174|L|43689 1|M|39.17,36.71|
-N Weeping Quarry Map |QID|13174|L|43691 1|M|38.69,39.41|
-C Amidst the Confusion |QID|13174|N|Weeping Quarry Schedule |M|37.22,41.67|
-T Seeds of Chaos |QID|13172|N|Back to the Shadow Vault, Keritose Bloodblade .|M|44.05,24.56|
-T Amidst the Confusion |QID|13174|
+A Seeds of Chaos|QID|13172|N|From Keritose Bloodblade.|M|44.05,24.56|
+A Amidst the Confusion|QID|13174|N|From Keritose Bloodblade.|M|44.05,24.56|
+C Seeds of Chaos|QID|13172|N|This is a normal bombing quest. Talk to him again to get a Gryphon. Dismount in the quarry when you are done.|
+N Weeping Quarry Document|QID|13174|QO|1|M|39.11,33.72|
+N Weeping Quarry Ledger|QID|13174|QO|2|M|39.17,36.71|
+N Weeping Quarry Map|QID|13174|QO|3|M|38.69,39.41|
+C Amidst the Confusion|QID|13174|QO|4|N|Weeping Quarry Schedule|M|37.22,41.67|
+T Seeds of Chaos|QID|13172|N|To Keritose Bloodblade at The Shadow Vault.|M|44.05,24.56|
+T Amidst the Confusion|QID|13174|N|To Keritose Bloodblade.|M|44.05,24.56|
 
-A Vereth the Cunning |QID|13155|
-T Vereth the Cunning |QID|13155|N|Vereth the Cunning is on the Rise of Suffering .|M|53.91,71.42|
+A Vereth the Cunning|QID|13155|N|From Keritose Bloodblade.|M|44.05,24.56|
+T Vereth the Cunning|QID|13155|N|Vereth the Cunning is on the Rise of Suffering.|M|54.13,71.17|
 
-A New Recruit |QID|13143|
-C New Recruit |QID|13143|N|Attack a Lithe Stalker until you get the message it is weakened, the use the Sigil.|U|43315|
-T New Recruit |QID|13143|N|Vereth the Cunning .|M|53.91,71.42|
+A New Recruit|QID|13143|N|From Vereth the Cunning|M|54.13,71.17|
+C New Recruit|QID|13143|N|Attack a Lithe Stalker until you get the message it is weakened, the use the Sigil.|U|43315|
+T New Recruit|QID|13143|N|To Vereth the Cunning.|M|53.91,71.42|
 
-A The Vile Hold |QID|13145|
-C The Vile Hold |QID|13145|N|Take control of a Lithe Stalker. Altar of Sacrifice , Blood Forge (58.10,70.90), Icy Lookout (60.60,68.70), Runeworks (59.10,74.40). Dismount when done.|M|56.29,79.09|
-T The Vile Hold |QID|13145|N|Vereth the Cunning .|M|53.91,71.42|
+A The Vile Hold|QID|13145|N|From Vereth the Cunning|M|54.13,71.17|
+C The Vile Hold|QID|13145|QO|4|N|Take control of a Lithe Stalker. Get to the Runeworks.|M|59.10,74.40|
+C The Vile Hold|QID|13145|QO|1|N|Jump up the mountain to get to the Altar of Sacrifice.|M|56.29,79.09|
+C The Vile Hold|QID|13145|QO|3|N|Accross the bridge to your right to the Icy Lookout.|M|60.60,68.70|
+C The Vile Hold|QID|13145|QO|2|N|Jump down again to get to the Blood Forge. Dismount when done.|M|58.10,70.90|
+T The Vile Hold|QID|13145|N|To Vereth the Cunning.|M|54.13,71.17|
 
-A Generosity Abounds |QID|13146|
-A Matchmaker |QID|13147|
-A Stunning View |QID|13160|
-C Generosity Abounds |QID|13146|N|The bombs are at . Use (2) to drag a bomb to the front gate to the Abominations.|M|57.48,75.88|
-C Matchmaker |QID|13147|N|The Runeworks  is the best place to do this. Use (4) on the Brutes to start a fight.|M|59.10,74.40|
-C Stunning View |QID|13160|N|The Gargoyles are in the rocks around the rim. Use  on them. Dismount when done.|M|61,74|
-T Generosity Abounds |QID|13146|N|Vereth the Cunning .|M|53.91,71.42|
-T Matchmaker |QID|13147|
-T Stunning View |QID|13160|
-N Group Quests |QID|13164|N|The next 4 quests here are Group Quests. This is the last of them. Do any you need for the Achievement and turn them in as you do them.|
+A Generosity Abounds|QID|13146|N|From Vereth the Cunning|M|54.13,71.17|
+A Matchmaker|QID|13147|N|From Vereth the Cunning|M|54.13,71.17|
+A Stunning View|QID|13160|N|From Vereth the Cunning|M|54.13,71.17|
+C Generosity Abounds|QID|13146|N|Control a Stalker again. Use (2) to drag a bomb to the front gate to the Abominations.|M|57.48,75.88|
+C Matchmaker|QID|13147|N|The Runeworks  is the best place to do this. Use (4) on the Brutes to start a fight.|M|59.10,74.40|
+C Stunning View|QID|13160|N|The Gargoyles are in the rocks around the rim. Use  on them. Dismount when done.|M|61,74|
+T Generosity Abounds|QID|13146|N|To Vereth the Cunning.|M|54.13,71.17|
+T Matchmaker|QID|13147|N|To Vereth the Cunning.|M|54.13,71.17|
+T Stunning View|QID|13160|N|To Vereth the Cunning.|M|54.13,71.17|
+N Group Quests|QID|13164|N|The next 4 quests here are Group Quests. This is the last of them. Do any you need for the Achievement and turn them in as you do them.|
 
-A The Rider of the Unholy |QID|13161|O|
-A The Rider of Frost |QID|13162|O|
-A The Rider of Blood |QID|13163|O|
+A The Rider of the Unholy|QID|13161|O|N|From Vereth the Cunning|M|54.13,71.17|
+A The Rider of Frost|QID|13162|O|N|From Vereth the Cunning|M|54.13,71.17|
+A The Rider of Blood|QID|13163|O|N|From Vereth the Cunning|M|54.13,71.17|
 
-C Not-So-Honorable Combat |QID|13137|O|M|28.6,51.8|
-T Not-So-Honorable Combat |QID|13137|O|
+C Not-So-Honorable Combat|QID|13137|O|M|28.6,51.8|N|Click the bonfire to start the fight.|
+T Not-So-Honorable Combat|QID|13137|O|N|To The Bone Witch.|M|32.45,42.88|
 
-A Banshee's Revenge |QID|13142|PRE|13137|O|
-C Banshee's Revenge |QID|13142|O|M|17.5,56.1|
-T Banshee's Revenge |QID|13142|O|
+A Banshee's Revenge|QID|13142|PRE|13137|O|N|From The Bone Witch.|M|32.45,42.88|
+C Banshee's Revenge|QID|13142|O|M|17.5,56.1|N|Blow the War Horn to start combat.|
 
-A Battle at Valhalas |QID|13213|PRE|13142|O|
-T Battle at Valhalas |QID|13213|O|
-N Battles at Valhalas (Arena) |QID|13219|N|There are 6 quests in this arena-type chain. Some classes may be able to solo some or all of them. Turn them in as you complete them.|PRE|13213|
+C Second Chances|QID|12847|O|M|9.5,47.3|N|Enter the Cathedral and clear the area.
+T Second Chances|QID|12847|O|N|To Lord-Commander Arethe. It takes a while.|M|9.54,47.19|
+1s
+A The Admiral Revealed|QID|12852|PRE|12847|O|
+C The Admiral Revealed|QID|12852|O|M|9,49|N|Enter the cave, go down and turn right. Use the Nullifier when the admiral casts his bubble.|U|40917|
+T The Admiral Revealed|QID|12852|O|N|To Lord-Commander Arethe at Death's Rise.|M|19.61,48.13|
 
-C Second Chances |QID|12847|O|M|9.5,47.3|
-T Second Chances |QID|12847|O|
+T Banshee's Revenge|QID|13142|O|M|32.45,42.88|N|To The Bone Witch.|
 
-A The Admiral Revealed |QID|12852|PRE|12847|O|
-C The Admiral Revealed |QID|12852|O|M|9,49|
-T The Admiral Revealed |QID|12852|O|
+A Battle at Valhalas|QID|13213|PRE|13142|O|N|From The Bone Witch.|
+T Battle at Valhalas|QID|13213|O|
+N Battles at Valhalas (Arena)|QID|13219|N|There are 6 quests in this arena-type chain. Some classes may be able to solo some or all of them. Turn them in as you complete them.|PRE|13213|
 
-C Against the Giants |QID|13277|N| and (70,72)|O|M|65,59|
-T Against the Giants |QID|13277|O|
+C Against the Giants|QID|13277|N|Kill Pustulent Horrors for their Spines|O|M|65,59|
+T Against the Giants|QID|13277|O|N|To Koltira Deathweaver on Orgrim's Hammer.|
 
-A Basic Chemistry |QID|13279|PRE|13277|O|
-C Basic Chemistry |QID|13279|O|M|63,62|
-T Basic Chemistry |QID|13279|O|
+A Basic Chemistry|QID|13279|PRE|13277|O|N|From Koltira Deathweaver.|
+A Corprous the Defiled|QID|13278|PRE|13277|O|N|From Koltira Deathweaver.|
+C Corprous the Defiled|QID|13278|O|N|Kill Corprous.|M|60.86,62.16|
+C Basic Chemistry|QID|13279|O|M|61.48,63.73|U|44010|N|Follow the instructions|
 
-C No Rest For The Wicked |QID|13367|O|
-T No Rest For The Wicked |QID|13367|O|
+l Alumeth's Skull|QID|13367|L|44476 1|N|Pick up Alumeth's Skull|S|M|50.54,30.01|
+l Alumeth's Heart|QID|13367|L|44477 1|N|Pick up Alumeth's Heart|S|M|52.82,30.7|
+l Alumeth's Scepter|QID|13367|L|44478 1|N|Pick up Alumeth's Scepter|S|M|52.83,29.73|
+l Alumeth's Robes|QID|13367|L|44478 1|N|Pick up Alumeth's Robes, his parts are scattered in boxes in the area.|M|53.03,28.97|
+l Alumeth's Scepter|QID|13367|L|44479 1|N|Pick up Alumeth's Scepter|US|M|52.83,29.73|
+l Alumeth's Skull|QID|13367|L|44477 1|N|Pick up Alumeth's Heart|US|M|52.82,30.7|
+l Alumeth's Skull|QID|13367|L|44476 1|N|Pick up Alumeth's Skull|US|M|50.54,30.01|
+U Alumeth's Remains|QID|13367|L|44480 1|U|44476|N|Combine the parts to create Alumeth's Remains|M|51.93,29.01|
+C No Rest For The Wicked|QID|13367|U|44480|N|Use the remains near the crystal to summon Alumeth.|M|51.93,29.01|
+T No Rest For The Wicked|QID|13367|O|N|To Koltira Deathweaver on Orgrim's Hammer.|
+T Corprous the Defiled|QID|13278|O|N|To Koltira Deathweaver.|
+T Basic Chemistry|QID|13279|O|N|To Koltira Deathweaver.|
 
-C The Rider of the Unholy |QID|13161|O|M|56.2,80.2|
-C The Rider of Frost |QID|13162|O|M|61.9,68.6|
-C The Rider of Blood |QID|13163|O|M|59.3,71.8|
-T The Rider of the Unholy |QID|13161|O|
-T The Rider of Frost |QID|13162|O|
-T The Rider of Blood |QID|13163|O|
+A The Ironwall Rampart|QID|13312|O|N|From Koltira Deathweaver|PRE|13367|
+C The Ironwall Rampart|QID|13312|N|Use the Rune near Grimkor's Orb to summon Grimkor the Wicked|U|44186|M|45.49,46.54|
+T The Ironwall Rampart|QID|13312|N|To Koltira Deathweaver on Orgrim's Hammer.|
 
-A The Fate of Bloodbane |QID|13164|PRE|13163|O|
-C The Fate of Bloodbane |QID|13164|O|M|54,85|
-T The Fate of Bloodbane |QID|13164|O|
+A Before the Gate of Horror|QID|13329|N|From Koltira Deathweaver|PRE|13367|
+C Before the Gate of Horror|QID|13329|N|Kill Skeletal Reavers and use the Acid to dissolve their bones|U|44653|M|44.74,57.27|
+T Before the Gate of Horror|QID|13329|N|From Koltira Deathweaver on Orgrim's Hammer.|
+
+A The Guardians of Cop'rethar|QID|13316|PRE|13329|N|From Koltira Deathweaver|
+A Shatter the Shards|QID|13328|PRE|13329|N|From Koltira Deathweaver|
+C The Guardians of Cop'rethar|QID|13316|N|Kill Harbingers and Guardians|S|M|50.25,66.61|
+
+C Shatter the Shards|QID|13328|QO|2|N|Destroy the Shard of Dispair|M|49.83,66.74|
+C Shatter the Shards|QID|13328|QO|1|N|Destroy the Shard of Horror|M|47.83,66.11|
+C Shatter the Shards|QID|13328|QO|3|N|Destroy the Shard of Suffering|M|45.83,69.55|
+
+C The Guardians of Cop'rethar|QID|13316|N|Kill Harbingers and Guardians|US|M|50.25,66.61|
+T The Guardians of Cop'rethar|QID|13316|N|To Koltira Deathweaver|
+T Shatter the Shards|QID|13328|N|To Koltira Deathweaver|
+
+C The Rider of Frost|QID|13162|M|61.9,68.6|
+C The Rider of Blood|QID|13163|M|59.3,71.8|
+C The Rider of the Unholy|QID|13161|M|56.2,80.2|
+T The Rider of the Unholy|QID|13161|N|To Vereth the Cunning|M|54.13,71.15|
+T The Rider of Frost|QID|13162|N|To Vereth the Cunning|M|54.13,71.15|
+T The Rider of Blood|QID|13163|N|To Vereth the Cunning|M|54.13,71.15|
+
+A The Fate of Bloodbane|QID|13164|PRE|13163;13162;13161|N|From Vereth the Cunning|M|54.13,71.15|
+C The Fate of Bloodbane|QID|13164|O|M|54.42,86.17|N|In the area under the stairs|
+T The Fate of Bloodbane|QID|13164|O|N|To Vereth the Cunning|M|54.13,71.15|
 ]]
 end)
