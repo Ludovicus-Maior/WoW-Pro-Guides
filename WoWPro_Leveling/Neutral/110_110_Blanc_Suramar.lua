@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-15 15:37
+-- Who: Blanckaert
+-- Log: interrupts flow, but moved the Waning Crescent Arc up then go to Jandvik, and other side quests to fill time till Honoured.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28154/view
 -- Date: 2016-12-15 06:36
 -- Who: Emmaleah
 -- Log: Various adjustments.
@@ -250,11 +255,6 @@
 -- Date: 2016-10-20 20:31
 -- Who: tubera
 -- Log: Fix US on Beach Bonfire
-
--- URL: http://wow-pro.com/node/3687/revisions/27943/view
--- Date: 2016-10-20 15:11
--- Who: tubera
--- Log: Fix US on: You've Got to Be Kitten Me Right Meow
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -718,9 +718,8 @@ T The Orchestrator of Our Demise|QID|40970|M|30.10,10.37|N|And back down to turn
 T Overwhelming Distraction|QID|40971|M|30.10,10.37|N|To Syrana Starweaver.|
 A Last Stand of the Moon Guard|QID|40972|M|30.10,10.37|N|From Thalrenus Rivertree.|PRE|40970;40972|
 C Last Stand of the Moon Guard|QID|40972|M|29.71,10.66|CHAT|N|Tell Thalrenus you are ready to go. Wait a minute or so, then he ports you.|
-T Last Stand of the Moon Guard|QID|40972|M|36.89,46.60|N|To First Arcanist Thalyssra.|
-
 A Leyline Profeciency|QID|44493|M|37.00,46.35|N|From/To Arcanist Valtrois. You will now get more ancient mana from kills. Requires 5 leylines restored.|PRE|44492|
+T Last Stand of the Moon Guard|QID|40972|M|36.89,46.60|N|To First Arcanist Thalyssra.|
 A Lady Lunastre|QID|41877|M|36.88,46.60|N|From First Arcanist Thalyssra.|PRE|42230|REP|The Nightfallen;1859;Friendly-Exalted;1750|
 
 ; Crimson Thicket Area
@@ -755,9 +754,135 @@ R Elor'shan|QID|43587|M|65.87,41.89;65.88,42.04|CS|N|Into this cave to activate 
 A Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|Suramar/34|N|From Leyline Feed. (250 Ancient Mana)|PRE|41138|
 T Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|Suramar/34|N|To Leyline Feed.|
 $ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Before you leave Elor'shan Tunnels, loot for storable, but non-stackable ancient mana.|ITEM|141655|RANK|2|
+A Leyline Mastery|QID|44495|M|37.00,46.35|N|From/To Arcanist Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|PRE|44493|
+
+;optional quests
+
+R Meredil|QID|40401|M|34.36,49.95|N|Run outside Shal'Aran and take the road Southeast.|RANK|2|
+A A Way Back In|QID|40401|M|34.36,56.14|N|From Iadreth.|PRE|42229|RANK|2|
+K Kill Mal'Dreth the Corruptor|QID|43351|M|34.21,60.94|ITEM|140386|T|Mal'Dreth|N|Silver - Mal'Dreth the Corruptor, for a bit of treasure and resources.\nAttack Fel Crystals when active.|RANK|2|
+C A Way Back In|QID|40401|M|41.36,60.68|CHAT|N|Don't forget your mask while wandering around the city. Find and Chat with Astoril.|RANK|2|
+T A Way Back In|QID|40401|M|41.36,60.68|N|To Astoril.|RANK|2|
+A Final Preparations|QID|40469|M|41.36,60.68|N|From Astoril.|PRE|40401|RANK|2|
+A An Artisan's Mark|QID|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
+C Final Preparations|QID|40469|M|42.74,60.01|S|NC|N|Collect crates of Stashed Supplies.|RANK|2|
+C An Artisan's Mark|QID|41123|M|42.47,64.99|CHAT|N|Find Daelar Swiftmeadow and ask for the Signet Ring.|RANK|2|
+T An Artisan's Mark|QID|41123|M|41.54,71.17|N|To Lespin Silverleaf.|RANK|2|
+A All That Glitters|QID|41307|PRE|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
+A Pry It From Their Cold, Feral Claws|QID|41320|PRE|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
+C Final Preparations|QID|40469|M|42.74,60.01|US|NC|N|Finish collecting crates of Stashed Supplies.|RANK|2|
+T Final Preparations|QID|40469|M|34.32,56.13|N|To Iadreth.|RANK|2|
+A A Desperate Journey|QID|40424|M|34.32,56.13|N|From Iadreth.|PRE|40469|RANK|2|
+C A Desperate Journey|QID|40424|CC|M|35.11,58.95|QO|1|N|Move near lightpost, wait for attack.|RANK|2|
+C A Desperate Journey|QID|40424|CC|M|36.36,60.48|QO|2|N|Move towards cave, wait for attack.|RANK|2|
+C A Desperate Journey|QID|40424|M|37.82,61.68|QO|3|NC|N|Find Astoril.|RANK|2|
+T A Desperate Journey|QID|40424|M|37.82,61.68|N|To Astoril.|RANK|2|
+A Quality of Life|QID|40470|M|37.83,61.60|N|From Iadreth.|PRE|40424|RANK|2|
+C Quality of Life|QID|40470|M|38.29,76.45|QO|1|NC|N|Follow Iadreth, by stepping onto the circle.|RANK|2|
+C Quality of Life|QID|40470|M|43.34,37.43|Z|Suramar/23|QO|2|N|Kill Astoril, once He's Hostile.|RANK|2|
+$ Small Treasure Chest|QID|40902|M|40.48,28.80|Z|Suramar/23|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43835|M|54.88,37.80|Z|Suramar/23|N|Loot chest for some treasure and resources.|RANK|2|
+A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|RANK|2|
+T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|To Unpowered Telemancy Beacon.|RANK|2|
+P Shal'Aran|QID|40470|M|53.45,37.31|Z|Suramar/23|N|After Killing Astoril, use portal behind you. OR Hearth.|RANK|2|
+C Quality of Life|QID|40470|M|36.87,46.61|QO|3|NC|N|Chat with Thalyssra|RANK|2|
+T Quality of Life|QID|40470|M|36.87,46.61|N|To First Arcanist Thalyssra.|RANK|2|
+P Lunastre Estate|QID|41320|M|36.16,45.02|N|Take the portal to Lunastre Estate.|RANK|2|
+C Pry It From Their Cold, Feral Claws|QID|41320|M|40.54,79.66|S|N|Kill Harpies for the Necklaces.|RANK|2|
+C All That Glitters|QID|41307|M|39.05,83.50|S|NC|N|Loot Arcane Glowlamps off the ground.|RANK|2|
+$ Small Treasure Chest|QID|43830|M|38.15,87.11|N|Loot for some treasure and resources.|RANK|2|
+C All That Glitters|QID|41307|M|39.05,83.50|US|NC|N|Loot Arcane Glowlamps off the ground.|RANK|2|
+C Pry It From Their Cold, Feral Claws|QID|41320|M|40.54,79.66|US|N|Keep killing Harpies until you have all the necklaces you need.|RANK|2|
+T All That Glitters|QID|41307|M|41.53,71.22|N|To Lespin Silverleaf.|RANK|2|
+T Pry It From Their Cold, Feral Claws|QID|41320|M|41.53,71.22|N|To Lespin Silverleaf.|RANK|2|
+A Estate Jewelry: A Braggart's Brooch|QID|41465|M|41.53,71.22|N|From Lespin Silverleaf.|PRE|41307;41320|RANK|2|
+A Estate Jewelry: Haute Claw-ture|QID|41466|M|41.53,71.22|N|From Lespin Silverleaf.|PRE|41307;41320|RANK|2|
+C Estate Jewelry: Haute Claw-ture|QID|41466|M|42.48,76.69|CHAT|N|Chat with Mornath / Fight him.|RANK|2|
+C Estate Jewelry: Haute Claw-ture|QID|41466|M|42.39,76.84|NC|N|Open Mornath's Chest|RANK|2|
+C Estate Jewelry: A Braggart's Brooch|QID|41465|M|41.35,59.48|CHAT|QO|1|N|Chat with Naltethis.|RANK|2|
+C Estate Jewelry: A Braggart's Brooch|QID|41465|M|41.26,64.70|QO|2|N|Attack Venlis Swiftsea (He sees you).|RANK|2|
+T Estate Jewelry: A Braggart's Brooch|QID|41465|M|41.53,71.18|N|To Lespin Silverleaf.|RANK|2|
+T Estate Jewelry: Haute Claw-ture|QID|41466|M|41.53,71.18|N|To Lespin Silverleaf.|RANK|2|
+A Elegant Design|QID|41146|M|41.53,71.18|N|From Lespin Silverleaf.|PRE|41465;41466|RANK|2|
+C Elegant Design|QID|41146|M|41.59,59.89|CHAT|N|Chat with Lady Anastae.|RANK|2|
+T Elegant Design|QID|41146|M|41.58,59.93|N|To Lady Anastae.|RANK|2|
+A The Master's Legacy|QID|41915|M|41.58,59.93|N|From Lady Anastae.|PRE|41146|RANK|2|
+C The Master's Legacy|QID|41915|M|36.23,60.31;35.28,61.57|CS|QO|1|NC|N|Open Crest, Be Ready Lespin attacks with friends|RANK|2|
+C The Master's Legacy|QID|41915|M|35.62,61.23|QO|2|N|Slay Lespin and Company.|RANK|2|
+T The Master's Legacy|QID|41915|M|41.66,71.07|N|To Apprentice Ardrias.|RANK|2|
+
+; Good Suramaritan - Waning Crescent Story Arc
+
+R Suramar City|QID|41877|ACTIVE|41877|M|44.09,57.69;45.97,59.04|CS|N|(From Shal'Aran) Run through the Grand Promanade to the center stairs, go down one tier to find Ly'leth Lunastre.|
+C Lady Lunastre|QID|41877|M|47.05,61.97|CHAT|N|Talk with Lady Lunastre.|
+T Lady Lunastre|QID|41877|M|47.05,61.97|N|To Lady Lunastre.|
+A One of the People|QID|40746|M|47.05,61.97|N|From Lady Lunastre.|PRE|41877|
+R Waning Crescent|QID|40746|M|48.03,68.13;46.66,72.75;47.10,75.57;45.61,77.10;49.00,83.26|CS|N|Run down the Concourse of Destiny, thru Evermoon Commons, Artisan's Gallary, Starcaller's Retreat and finally to the Waning Crescent.|
+T One of the People|QID|40746|M|48.41,83.28|N|To Vanthir.|
+A Dispensing Compassion|QID|41148|M|48.41,83.28|N|From Vanthir.|PRE|40746|
+C Dispensing Compassion|QID|41148|M|48.16,84.96;46.64,82.53;48.00,80.11;48.93,82.21|CN|S|NC|N|Offer wine to the Citizens lying on the ground at each of the 4 locations.|
+C Dispensing Compassion|QID|41148|M|48.16,84.96;46.64,82.53;48.00,80.11;48.93,82.21|CN|US|NC|N|Offer wine to the Citizens lying on the ground at each of the 4 locations.|
+$ Small Treasure Chest|QID|43866|M|48.40,82.21;48.28,82.62|CS|N|Look up from first coordinate for grapple point. Loot chest in top of tower for some treasure and resources.|RANK|2|
+T Dispensing Compassion|QID|41148|M|48.40,83.28|N|To Vanthir.|
+A The Gondolier|QID|41878|M|48.40,83.28|N|From Vanthir.|RANK|2|PRE|41148|
+A Special Delivery|QID|40947|M|48.28,83.22|N|From Silgryn.|PRE|41148|
+$ Small Treasure Chest|QID|43864|M|50.07,83.85;49.99,84.93|CS|N|Look up from first coordinate to upper floor of tower for grapple point. Loot chest for treasure and resources.|RANK|2|
+C The Gondolier|QID|41878|M|51.18,76.15|NC|N|Make Contact with the Gondolier.|
+T The Gondolier|QID|41878|M|51.18,76.15|N|To Deline.|
+A All Along the Waterways|QID|40727|M|51.18,76.15|N|From Deline.|PRE|41878|
+A Redistribution|QID|40730|M|51.18,76.15|N|From Deline.|PRE|41878|
+C All Along the Waterways|QID|40727|M|47.24,70.83|S|T|Duskwatch Orbitist|N|Kill Duskwatch Orbitists. Pick your spots to fight carefully, as combat drops your illusion.|RANK|2|
+C Redistribution|QID|40730|M|47.95,77.98|NC|S|N|Gather Bottles of Arcwine Delivered to Deline. \n Kegs are worth 10 bottles, but SLOW you down.|
+C Special Delivery|QID|40947|M|48.69,77.18|S|NC|T|Nightborne Courier|U|137299|N|Click on the couriers as they go running past you. Loot the Stack of Letters.|
+$ Treasure Chest|QID|44325|M|50.32,80.19;50.06,80.61|CS|N|Upstairs in this house is a chest to loot for treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43868|M|51.90,82.15|N|Up near the helm (in the boat) is a chest to loot for treasure and resources.|RANK|2|
+C Special Delivery|QID|40947|M|48.69,77.18|US|NC|T|Nightborne Courier|U|137299|N|Click on the couriers as they go running past you. loot the Stack of Letters.|
+C Redistribution|QID|40730|M|47.95,77.98|NC|US|N|Finish gathering the bottles and take them to Deline.|
+T Redistribution|QID|40730|M|51.19,76.14|N|To Deline.|
+$ Small Treasure Chest|QID|43869|M|44.38,75.86|N|In the Pavilian behind the Doomguard is a chest to loot for treasure and resources.|RANK|2|
+K Kill Randril|QID|43603|QO|1|M|46.54,76.47;49.33,79.88|CS|ITEM|140396|T|Randril|N|Silver - Follow the stairs and skybridges starting at the first coordinate to get to Randril. Kill and loot for treasure and resources.\n\n Not Available if WQ: Magistrix Vilessa is up.|RANK|2|
+$ Small Treasure Chest|QID|43867|M|48.67,73.92;48.94,73.79|CS|N|Upstairs in this house is a chest to loot for treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|44323|M|48.21,72.19;48.58,72.16|CS|N|Upstairs in this house is a chest to loot for treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|44324|M|48.23,71.37;48.30,71.30|CS|N|Upstairs in this house is a chest to loot for treasure and resources.\n*Chest was moved from balcony.*|RANK|2|
+C All Along the Waterways|QID|40727|M|47.24,70.83|US|N|Kill Duskwatch Orbitists. Pick your spots to fight carefully, as combat drops your illusion.|
+T All Along the Waterways|QID|40727|M|48.41,83.30|N|To Vanthir.|
+T Special Delivery|QID|40947|M|48.31,83.23|N|To Silgryn.|
+A Shift Change|QID|40745|M|48.31,83.23|N|From Silgryn.|PRE|40947|
+C Shift Change|QID|40745|M|46.33,78.81|QO|1|NC|N|Hop in the 'Conveniently Placed Basket' and wait for the guard to appear.|
+C Shift Change|QID|40745|M|44.72,72.93|QO|2|NC|N|Use Exit Vehicle button to leave basket and follow the Guard, staying just out of her see illusion range.|
+C Shift Change|QID|40745|M|44.25,73.03|QO|3|N|Kill the guard to get the control chip you need to open Korine's Cage.|
+T Shift Change|QID|40745|M|44.20,73.05|N|To Korine.|
+A Friends in Cages|QID|42722|M|44.20,73.05|N|From Korine.|PRE|40745|
+C Friends in Cages|QID|42722|M|47.95,67.57|QO|1|N|Kill the guards to get the control chips, the chips allow you to unlock the prisoner's cages.|
+T Friends in Cages|QID|42722|M|44.23,73.03|N|To Korine.|
+A Little One Lost|QID|42486|M|44.23,73.03|N|From Korine.|PRE|42722|
+C Little One Lost|QID|42486|M|44.23,73.03|CHAT|N|Standard escort, two preset ambushes. Tell Korine you are ready to begin.\n\nWatch out for seeing guards, as Korine is considered part of your disguise.|
+T Little One Lost|QID|42486|M|48.29,83.25|N|To Verene.|
+A Friends On the Outside|QID|42487|M|48.40,83.28|N|From Vanthir.|PRE|42486|
+A Wasted Potential|QID|44051|M|47.85,81.52|N|From/To Rosaine|PRE|42486|RANK|2|
+C Friends On the Outside|QID|42487|QO|1|M|47.74,81.39|NC|N|Click to activate Telemancy Beacon.|
+P Shal'Aran|QID|42487|M|47.74,81.39|N|Take the portal to Shal'Aran.|
+C Friends On the Outside|QID|42487|M|36.88,46.60|CHAT|QO|2|N|Select - Open wrapped bottle of Arcwine.|
+T Friends On the Outside|QID|42487|M|36.88,46.60|N|To First Arcanist Thalyssra.|
+A Thalyssra's Abode|QID|42488|M|36.88,46.60|N|From First Arcanist Thalyssra.|PRE|42487|
+F Crimson Thicket|QID|42488|ACTIVE|42488|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
+$ Treasure Chest|QID|43858|M|67.31,55.11|N|Loot for some treasure and resources. Inside small building.|RANK|2|
+R Estate of the First Arcanist|QID|42488|ACTIVE|42488|M|65.06,51.12;67.11,57.28;68.14,62.93|CS|N|Run down to Thalyssra's Estate.\n\nFelborne Outpost was added after this guide was made, be careful running to the Estate.|
+K Pinchshank|QID|43968|M|66.66,67.13|ITEM|140402|T|Pinchshank|N|Silver - Kill and loot for treasure and resources, also drops a Hunter's Toy.|RANK|2|
+K Kill Magisterial Sleuths|QID|42488|L|138392 3|S|N|Kill the Sleuth's until you have 3 amplifer fragments.|
+A Thalyssra's Drawers|QID|42489|PRE|42487|M|65.70,62.73|N|From Armoire.|RANK|2|
+C Thalyssra's Drawers|QID|42489|M|66.42,63.37|QO|1|NC|N|Pick up Thalyssra's Favorite Robe.|RANK|2|
+C Thalyssra's Drawers|QID|42489|M|65.83,64.83|QO|2|NC|N|Pick up Thalyssra's Favorite Books.|RANK|2|
+C Thalyssra's Drawers|QID|42489|M|64.64,61.57|QO|3|NC|N|Pick up her Private Correspondence.|RANK|2|
+K Kill Magisterial Sleuths|QID|42488|L|138392 3|US|N|Kill the Sleuth's until you have 3 amplifer fragments.|
+C Thalyssra's Abode|QID|42488|M|64.64,61.57|U|138392|NC|N|Combine the fragments to create an Arcane Amplifier.|
+H Shal'Aran|QID|42488|N|Return to Shal'Aran.|
+T Thalyssra's Abode|QID|42488|M|36.88,46.61|N|To First Arcanist Thalyssra.|
+T Thalyssra's Drawers|QID|42489|M|36.88,46.61|N|To First Arcanist Thalyssra.|
 
 ; Good Suramaritan - Jandvik's Jarl Side Storyline
 
+F Crimson Thicket|QID|40907|AVAILABLE|40907|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
 R Jandvik|QID|40907|M|64.86,51.05|N|Run to Jandvik for some sideline quests.|
 A Removing Obstacles|QID|40907|M|65.71,51.15|N|From Toryl (who wanders along this path).|PRE|42229|
 C Removing Obstacles|QID|40907|M|68.92,52.32|QO|1|N|Kill Calder.|
@@ -851,131 +976,6 @@ T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
 B Recipe: Koi-Scented Stormray|M|71.61,48.87|P|Cooking;185|L|133819|N|From Markus Hjolbruk.|RECIPE|201503|
 H Shal'Aran|QID|44495|M|36.56,46.93|N|Return to Shal'Aran.|
 A Leyline Mastery|QID|44495|M|37.00,46.35|N|From/To Arcanist Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|RANK|2|PRE|44493|
-
-;optional quests
-
-R Meredil|QID|40401|M|34.36,49.95|N|Run outside Shal'Aran and take the road Southeast.|RANK|2|
-A A Way Back In|QID|40401|M|34.36,56.14|N|From Iadreth.|PRE|42229|RANK|2|
-K Kill Mal'Dreth the Corruptor|QID|43351|M|34.21,60.94|ITEM|140386|T|Mal'Dreth|N|Silver - Mal'Dreth the Corruptor, for a bit of treasure and resources.\nAttack Fel Crystals when active.|RANK|2|
-C A Way Back In|QID|40401|M|41.36,60.68|CHAT|N|Don't forget your mask while wandering around the city. Find and Chat with Astoril.|RANK|2|
-T A Way Back In|QID|40401|M|41.36,60.68|N|To Astoril.|RANK|2|
-A Final Preparations|QID|40469|M|41.36,60.68|N|From Astoril.|PRE|40401|RANK|2|
-A An Artisan's Mark|QID|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
-C Final Preparations|QID|40469|M|42.74,60.01|S|NC|N|Collect crates of Stashed Supplies.|RANK|2|
-C An Artisan's Mark|QID|41123|M|42.47,64.99|CHAT|N|Find Daelar Swiftmeadow and ask for the Signet Ring.|RANK|2|
-T An Artisan's Mark|QID|41123|M|41.54,71.17|N|To Lespin Silverleaf.|RANK|2|
-A All That Glitters|QID|41307|PRE|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
-A Pry It From Their Cold, Feral Claws|QID|41320|PRE|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
-C Final Preparations|QID|40469|M|42.74,60.01|US|NC|N|Finish collecting crates of Stashed Supplies.|RANK|2|
-T Final Preparations|QID|40469|M|34.32,56.13|N|To Iadreth.|RANK|2|
-A A Desperate Journey|QID|40424|M|34.32,56.13|N|From Iadreth.|PRE|40469|RANK|2|
-C A Desperate Journey|QID|40424|CC|M|35.11,58.95|QO|1|N|Move near lightpost, wait for attack.|RANK|2|
-C A Desperate Journey|QID|40424|CC|M|36.36,60.48|QO|2|N|Move towards cave, wait for attack.|RANK|2|
-C A Desperate Journey|QID|40424|M|37.82,61.68|QO|3|NC|N|Find Astoril.|RANK|2|
-T A Desperate Journey|QID|40424|M|37.82,61.68|N|To Astoril.|RANK|2|
-A Quality of Life|QID|40470|M|37.83,61.60|N|From Iadreth.|PRE|40424|RANK|2|
-C Quality of Life|QID|40470|M|37.92,60.74;38.29,76.45|QO|1|NC|N|Follow Iadreth by stepping on circle.|RANK|2|
-C Quality of Life|QID|40470|M|43.34,37.43|Z|Suramar/23|QO|2|N|Kill Astoril, once He's Hostile.|RANK|2|
-$ Small Treasure Chest|QID|40902|M|40.48,28.80|Z|Suramar/23|N|Loot for a bit of treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|43835|M|54.88,37.80|Z|Suramar/23|N|Loot chest for some treasure and resources.|RANK|2|
-A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|RANK|2|
-T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|To Unpowered Telemancy Beacon.|RANK|2|
-$ Small Treasure Chest|QID|40902|M|40.48,28.80|Z|Suramar/23|N|Loot for a bit of treasure and resources.|RANK|2|
-P Shal'Aran|QID|40470|M|53.45,37.31|Z|Suramar/23|N|After Killing Astoril, use portal behind you. OR Hearth.|RANK|2|
-C Quality of Life|QID|40470|M|36.87,46.61|QO|3|NC|N|Chat with Thalyssra|RANK|2|
-T Quality of Life|QID|40470|M|36.87,46.61|N|To First Arcanist Thalyssra.|RANK|2|
-P Lunastre Estate|QID|41320|M|36.16,45.02|N|Take the portal to Lunastre Estate.|RANK|2|
-C Pry It From Their Cold, Feral Claws|QID|41320|M|40.54,79.66|S|N|Kill Harpies for the Necklaces.|RANK|2|
-C All That Glitters|QID|41307|M|39.05,83.50|S|NC|N|Loot Arcane Glowlamps off the ground.|RANK|2|
-$ Small Treasure Chest|QID|43830|M|38.15,87.11|N|Loot for some treasure and resources.|RANK|2|
-C All That Glitters|QID|41307|M|39.05,83.50|US|NC|N|Loot Arcane Glowlamps off the ground.|RANK|2|
-C Pry It From Their Cold, Feral Claws|QID|41320|M|40.54,79.66|US|N|Keep killing Harpies until you have all the necklaces you need.|RANK|2|
-T All That Glitters|QID|41307|M|41.53,71.22|N|To Lespin Silverleaf.|RANK|2|
-T Pry It From Their Cold, Feral Claws|QID|41320|M|41.53,71.22|N|To Lespin Silverleaf.|RANK|2|
-A Estate Jewelry: A Braggart's Brooch|QID|41465|M|41.53,71.22|N|From Lespin Silverleaf.|PRE|41307;41320|RANK|2|
-A Estate Jewelry: Haute Claw-ture|QID|41466|M|41.53,71.22|N|From Lespin Silverleaf.|PRE|41307;41320|RANK|2|
-C Estate Jewelry: Haute Claw-ture|QID|41466|M|42.48,76.69|CHAT|N|Chat with Mornath / Fight him.|RANK|2|
-C Estate Jewelry: Haute Claw-ture|QID|41466|M|42.39,76.84|NC|N|Open Mornath's Chest|RANK|2|
-C Estate Jewelry: A Braggart's Brooch|QID|41465|M|41.35,59.48|CHAT|QO|1|N|Chat with Naltethis.|RANK|2|
-C Estate Jewelry: A Braggart's Brooch|QID|41465|M|41.26,64.70|QO|2|N|Attack Venlis Swiftsea (He sees you).|RANK|2|
-T Estate Jewelry: A Braggart's Brooch|QID|41465|M|41.53,71.18|N|To Lespin Silverleaf.|RANK|2|
-T Estate Jewelry: Haute Claw-ture|QID|41466|M|41.53,71.18|N|To Lespin Silverleaf.|RANK|2|
-A Elegant Design|QID|41146|M|41.53,71.18|N|From Lespin Silverleaf.|PRE|41465;41466|RANK|2|
-C Elegant Design|QID|41146|M|41.59,59.89|CHAT|N|Chat with Lady Anastae.|RANK|2|
-T Elegant Design|QID|41146|M|41.58,59.93|N|To Lady Anastae.|RANK|2|
-A The Master's Legacy|QID|41915|M|41.58,59.93|N|From Lady Anastae.|PRE|41146|RANK|2|
-C The Master's Legacy|QID|41915|M|36.23,60.31;35.28,61.57|CS|QO|1|NC|N|Open Crest, Be Ready Lespin attacks with friends|RANK|2|
-C The Master's Legacy|QID|41915|M|35.62,61.23|QO|2|N|Slay Lespin and Company.|RANK|2|
-T The Master's Legacy|QID|41915|M|41.66,71.07|N|To Apprentice Ardrias.|RANK|2|
-
-; Good Suramaritan - Waning Crescent Story Arc
-
-R Suramar City|QID|41877|M|44.09,57.69;45.97,59.04|CS|N|Run through the Grand Promanade to the center stairs, go down one tier to find Ly'leth Lunastre.|
-C Lady Lunastre|QID|41877|M|47.05,61.97|CHAT|N|Talk with Lady Lunastre.|
-T Lady Lunastre|QID|41877|M|47.05,61.97|N|To Lady Lunastre.|
-A One of the People|QID|40746|M|47.05,61.97|N|From Lady Lunastre.|PRE|41877|
-R Waning Crescent|QID|40746|M|48.03,68.13;46.66,72.75;47.10,75.57;45.61,77.10;49.00,83.26|CS|N|Run down the Concourse of Destiny, thru Evermoon Commons, Artisan's Gallary, Starcaller's Retreat and finally to the Waning Crescent.|
-T One of the People|QID|40746|M|48.41,83.28|N|To Vanthir.|
-A Dispensing Compassion|QID|41148|M|48.41,83.28|N|From Vanthir.|PRE|40746|
-C Dispensing Compassion|QID|41148|M|48.16,84.96;46.64,82.53;48.00,80.11;48.93,82.21|CN|S|NC|N|Offer wine to the Citizens lying on the ground at each of the 4 locations.|
-$ Small Treasure Chest|QID|43866|M|48.40,82.21;48.28,82.62|CS|N|Look up from first coordinate for grapple point. Loot chest in top of tower for some treasure and resources.|RANK|2|
-C Dispensing Compassion|QID|41148|M|48.16,84.96;46.64,82.53;48.00,80.11;48.93,82.21|CN|US|NC|N|Offer wine to the Citizens lying on the ground at each of the 4 locations.|
-T Dispensing Compassion|QID|41148|M|48.40,83.28|N|To Vanthir.|
-A The Gondolier|QID|41878|M|48.40,83.28|N|From Vanthir.|RANK|2|PRE|41148|
-A Special Delivery|QID|40947|M|48.28,83.22|N|From Silgryn.|PRE|41148|
-$ Small Treasure Chest|QID|43864|M|50.07,83.85;49.99,84.93|CS|N|Look up from first coordinate to upper floor of tower for grapple point. Loot chest for treasure and resources.|RANK|2|
-C The Gondolier|QID|41878|M|51.18,76.15|NC|N|Make Contact with the Gondolier.|RANK|2|
-T The Gondolier|QID|41878|M|51.18,76.15|N|To Deline.|RANK|2|
-A All Along the Waterways|QID|40727|M|51.18,76.15|N|From Deline.|RANK|2|PRE|41878|
-A Redistribution|QID|40730|M|51.18,76.15|N|From Deline.|RANK|2|PRE|41878|
-C All Along the Waterways|QID|40727|M|47.24,70.83|S|T|Duskwatch Orbitist|N|Kill Duskwatch Orbitists. Pick your spots to fight carefully, as combat drops your illusion.|RANK|2|
-C Redistribution|QID|40730|M|47.95,77.98|NC|S|N|Gather Bottles of Arcwine Delivered to Deline. \n Kegs are worth 10 bottles, but SLOW you down.|RANK|2|
-C Special Delivery|QID|40947|M|48.69,77.18|S|NC|T|Nightborne Courier|U|137299|N|Click on the couriers as they go running past you. Loot the Stack of Letters.|
-$ Small Treasure Chest|QID|44325|M|50.32,80.19;50.06,80.61|CS|N|Upstairs in this house is a chest to loot for treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|43868|M|51.90,82.15|N|Up near the helm (in the boat) is a chest to loot for treasure and resources.|RANK|2|
-C Special Delivery|QID|40947|M|48.69,77.18|US|NC|T|Nightborne Courier|U|137299|N|Click on the couriers as they go running past you. loot the Stack of Letters.|
-C Redistribution|QID|40730|M|47.95,77.98|NC|US|N|Finish gathering the bottles and take them to Deline.|RANK|2|
-T Redistribution|QID|40730|M|51.19,76.14|N|To Deline.|RANK|2|
-$ Small Treasure Chest|QID|43869|M|44.38,75.86|N|In the Pavilian behind the Doomguard is a chest to loot for treasure and resources.|RANK|2|
-K Kill Randril|QID|43603|QO|1|M|46.54,76.47;49.33,79.88|CS|ITEM|140396|T|Randril|N|Silver - Follow the stairs and skybridges starting at the first coordinate to get to Randril. Kill and loot for treasure and resources.\n\n Not Available if WQ: Magistrix Vilessa is up.|RANK|2|
-$ Small Treasure Chest|QID|43867|M|48.67,73.92;48.94,73.79|CS|N|Upstairs in this house is a chest to loot for treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|44323|M|48.21,72.19;48.58,72.16|CS|N|Upstairs in this house is a chest to loot for treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|44324|M|48.23,71.37;48.30,71.30|CS|N|Upstairs in this house is a chest to loot for treasure and resources.\n*Chest was moved from balcony.*|RANK|2|
-C All Along the Waterways|QID|40727|M|47.24,70.83|US|N|Kill Duskwatch Orbitists. Pick your spots to fight carefully, as combat drops your illusion.|RANK|2|
-T All Along the Waterways|QID|40727|M|48.41,83.30|N|To Vanthir.|RANK|2|
-T Special Delivery|QID|40947|M|48.31,83.23|N|To Silgryn.|
-A Shift Change|QID|40745|M|48.31,83.23|N|From Silgryn.|PRE|40947|
-C Shift Change|QID|40745|M|46.33,78.81|QO|1|NC|N|Hop in the 'Conveniently Placed Basket' and wait for the guard to appear.|
-C Shift Change|QID|40745|M|44.72,72.93|QO|2|NC|N|Use Exit Vehicle button to leave basket and follow the Guard, staying just out of her see illusion range.|
-C Shift Change|QID|40745|M|44.25,73.03|QO|3|N|Kill the guard to get the control chip you need to open Korine's Cage.|
-T Shift Change|QID|40745|M|44.20,73.05|N|To Korine.|
-A Friends in Cages|QID|42722|M|44.20,73.05|N|From Korine.|PRE|40745|
-C Friends in Cages|QID|42722|M|47.95,67.57|QO|1|N|Kill the guards to get the control chips, the chips allow you to unlock the prisoner's cages.|
-T Friends in Cages|QID|42722|M|44.23,73.03|N|To Korine.|
-A Little One Lost|QID|42486|M|44.23,73.03|N|From Korine.|PRE|42722|
-C Little One Lost|QID|42486|M|44.23,73.03|CHAT|N|Standard escort, two preset ambushes. Tell Korine you are ready to begin.\n\nWatch out for seeing guards, as Korine is considered part of your disguise.|
-T Little One Lost|QID|42486|M|48.29,83.25|N|To Verene.|
-A Friends On the Outside|QID|42487|M|48.40,83.28|N|From Vanthir.|PRE|42486|
-A Wasted Potential|QID|44051|M|47.85,81.52|N|From/To Rosaine|PRE|42486|RANK|2|
-C Friends On the Outside|QID|42487|QO|1|M|47.74,81.39|NC|N|Click to activate Telemancy Beacon.|
-P Shal'Aran|QID|42487|M|47.74,81.39|N|Take the portal to Shal'Aran.|
-C Friends On the Outside|QID|42487|M|36.88,46.60|CHAT|QO|2|N|Select - Open wrapped bottle of Arcwine.|
-T Friends On the Outside|QID|42487|M|36.88,46.60|N|To First Arcanist Thalyssra.|
-A Thalyssra's Abode|QID|42488|M|36.88,46.60|N|From First Arcanist Thalyssra.|PRE|42487|
-F Crimson Thicket|QID|42488|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
-$ Treasure Chest|QID|43858|M|67.31,55.11|N|Loot for some treasure and resources. Inside small building.|RANK|2|
-R Estate of the First Arcanist|QID|42488|ACTIVE|42488|M|65.06,51.12;67.11,57.28;68.14,62.93|CS|N|Run down to Thalyssra's Estate.\n\nFelborne Outpost was added after this guide was made, be careful running to the Estate.|
-K Pinchshank|QID|43968|M|66.66,67.13|ITEM|1040402|T|Pinchshank|N|Silver - Kill and loot for treasure and resources, also drops a Hunter's Toy.|RANK|2|
-K Kill Magisterial Sleuths|QID|42488|L|138392 3|S|N|Kill the Sleuth's until you have 3 amplifer fragments.|
-A Thalyssra's Drawers|QID|42489|PRE|42487|M|65.70,62.73|N|From Armoire.|RANK|2|
-C Thalyssra's Drawers|QID|42489|M|66.42,63.37|QO|1|NC|N|Pick up Thalyssra's Favorite Robe.|RANK|2|
-C Thalyssra's Drawers|QID|42489|M|65.83,64.83|QO|2|NC|N|Pick up Thalyssra's Favorite Books.|RANK|2|
-C Thalyssra's Drawers|QID|42489|M|64.64,61.57|QO|3|NC|N|Pick up her Private Correspondence.|RANK|2|
-K Kill Magisterial Sleuths|QID|42488|L|138392 3|US|N|Kill the Sleuth's until you have 3 amplifer fragments.|
-C Thalyssra's Abode|QID|42488|M|64.64,61.57|U|138392|NC|N|Combine the fragments to create an Arcane Amplifier.|
-H Shal'Aran|QID|42488|N|Return to Shal'Aran.|
-T Thalyssra's Abode|QID|42488|M|36.88,46.61|N|To First Arcanist Thalyssra.|
-T Thalyssra's Drawers|QID|42489|M|36.88,46.61|N|To First Arcanist Thalyssra.|RANK|2|
 
 ; Good Suramaritan - Breaking The Lightbreaker (Felsoul Hold) Story Line.
 
@@ -1607,7 +1607,7 @@ T A Message From Our Enemies|QID|44918|M|36.50,45.83|N|To First Arcanist Thalyss
 A A Challenge From Our Enemies|QID|44919|PRE|44918|M|36.50,45.83|N|From First Arcanist Thalyssra.|
 P Lunastre Estate|QID|44919|QO|1|ACTIVE|44919|M|36.17,45.06|N|Take portal to the Estate.|
 C A Challenge From Our Enemies|QID|44919|QO|3|M|42.17,75.06|NC|S|T|Terrified|N|Rescue the Terrified Citizens.|
-C A Challenge From Our Enemies|QID|44919||QO|2|M|43.23,76.33|NC|N|Stand near Andaris.|
+C A Challenge From Our Enemies|QID|44919|QO|2|M|43.23,76.33|NC|N|Stand near Andaris.|
 C A Challenge From Our Enemies|QID|44919|M|42.17,75.06|US|NC|N|Rescue the Terrified Citizens.|
 P Shal'Aran|QID|44919|ACTIVE|44919|M|43.70,79.25|N|Take portal back to Shal'Aran.|
 T A Challenge From Our Enemies|QID|44919|M|36.50,45.83|N|To First Arcanist Thalyssra.|
