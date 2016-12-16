@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-16 17:24
+-- Who: Blanckaert
+-- Log: fixed my 'MIA' which umm I didn't 'look up'.. ;) added a coords made with CS to help those that are a little veritcally challenged.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28159/view
 -- Date: 2016-12-16 02:12
 -- Who: Ludovicus
 -- Log: One tiny line feed.
@@ -249,12 +254,6 @@
 -- Date: 2016-10-23 22:38
 -- Who: Blanckaert
 -- Log: Added Quest chain for Growing Crisis. (7K Revered)
-
--- URL: http://wow-pro.com/node/3687/revisions/27950/view
--- Date: 2016-10-22 09:49
--- Who: Emmaleah
--- Log: Add Murlock side quests. finish tweaking through Revered. 
---	41/45 treasures found (and placed in guide) 
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -713,7 +712,7 @@ A Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|From Unpowered Teleman
 T Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|N|To Unpowered Telemancy Beacon.|
 $ Arcane Power Unit|QID|43989|M|35.58,12.04|U|140329|N|Continue up the stairs for an item that raises your mana cap by 100.|
 $ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|N|Keep running along the path for storable, but non-stackable ancient mana.|RANK|3|ITEM|139786|;for some reason -- this one isnt the epic 150 ancient mana
-$ Glimmering Treasure Chest|QID|43849|M|42.05,19.69|N|Loot for some treasure and resources. *Currently MIA!* If found please report on website.|RANK|3|;When did it go MIA<I have gathered it since 7.1 - EMMA
+$ Glimmering Treasure Chest|QID|43849|M|41.46,21.34;42.05,19.69|CS|ITEM|139786|N|Loot for some treasure and resources.|RANK|3|
 T The Orchestrator of Our Demise|QID|40970|M|30.10,10.37|N|And back down to turn in the quests to Syrana Starweaver.|
 T Overwhelming Distraction|QID|40971|M|30.10,10.37|N|To Syrana Starweaver.|
 A Last Stand of the Moon Guard|QID|40972|M|30.10,10.37|N|From Thalrenus Rivertree.|PRE|40970;40972|

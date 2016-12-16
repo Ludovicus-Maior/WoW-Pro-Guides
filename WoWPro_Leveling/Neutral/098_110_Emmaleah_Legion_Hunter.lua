@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2016-12-16 11:12
+-- Who: Emmaleah
+-- Log: update coord for Image of Kelec
+
+-- URL: http://wow-pro.com/node/3670/revisions/28155/view
 -- Date: 2016-12-15 06:38
 -- Who: Emmaleah
 -- Log: finishes class campaign/opening 3rd relic slot
@@ -336,10 +341,10 @@ A A Hero's Weapon|QID|43423|M|47.62,49.34|N|From Emmarel Shadewarden.|PRE|42659|
 C A Hero's Weapon|QID|43423|M|47.96,51.30|N|Go stand in the indicated spot and use the provided extra action button.|
 T A Hero's Weapon|QID|43423|M|47.62,49.34|N|To Emmarel Shadewarden.|
 ; post class campaign completion
-A The Power Within|QID|43496|M|49.68,16.98|N|From Image of Kalec. This appears up to 48 hours after you finish class order campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
+A The Power Within|QID|43496|M|47.88,53.34|N|From Image of Kalec. This appears up to 48 hours after you finish class order campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
 F Azurewing Repose|QID|43496|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|43496|
-T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
+T The Power Within|QID|43496|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
 ;lights heart - post 110
 A Awakenings|QID|44464|M|47.28,43.46|N|From Light's Heart|PRE|44448|LVL|110|
