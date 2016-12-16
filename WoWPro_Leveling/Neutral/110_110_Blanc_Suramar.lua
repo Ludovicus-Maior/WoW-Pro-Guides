@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-16 02:12
+-- Who: Ludovicus
+-- Log: One tiny line feed.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28156/view
 -- Date: 2016-12-15 15:37
 -- Who: Blanckaert
 -- Log: interrupts flow, but moved the Waning Crescent Arc up then go to Jandvik, and other side quests to fill time till Honoured.
@@ -250,11 +255,6 @@
 -- Who: Emmaleah
 -- Log: Add Murlock side quests. finish tweaking through Revered. 
 --	41/45 treasures found (and placed in guide) 
-
--- URL: http://wow-pro.com/node/3687/revisions/27944/view
--- Date: 2016-10-20 20:31
--- Who: tubera
--- Log: Fix US on Beach Bonfire
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1643,7 +1643,8 @@ N Shal'Aran|QID|45287|N|Quests for the next week are in guide. The info for any 
 
 ; Insurrection - Breaking the Highthold - Storyline - 12/20 - Not available yet.
 
-A Insurrection: Breaking the Highthold|QID|45287|PRE|45064|N|Not sure if given as UI Alert? Khadgar? - 12/20|T Insurrection: Breaking the Highthold|QID|45287|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/20|
+A Insurrection: Breaking the Highthold|QID|45287|PRE|45064|N|Not sure if given as UI Alert? Khadgar? - 12/20|
+T Insurrection: Breaking the Highthold|QID|45287|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/20|
 A A Taste of Freedom|QID|45269|PRE|45287|M|36.50,46.78|N|From First Arcanist Thalyssra. - 12/20|
 C A Taste of Freedom|QID|45269|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee. - 12/20|
 T A Taste of Freedom|QID|45269|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/20|
