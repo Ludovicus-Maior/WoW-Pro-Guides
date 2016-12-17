@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-17 17:53
+-- Who: Blanckaert
+-- Log: redo of Jandvik's Jarl storyline, removed 'dupe' quest (I moved in a pre revision, but didn't remove where was in guide.)
+
+-- URL: http://wow-pro.com/node/3687/revisions/28163/view
 -- Date: 2016-12-16 17:24
 -- Who: Blanckaert
 -- Log: fixed my 'MIA' which umm I didn't 'look up'.. ;) added a coords made with CS to help those that are a little veritcally challenged.
@@ -249,11 +254,6 @@
 -- Date: 2016-10-24 00:55
 -- Who: Blanckaert
 -- Log:  minor change, added map coord for Domitille
-
--- URL: http://wow-pro.com/node/3687/revisions/27956/view
--- Date: 2016-10-23 22:38
--- Who: Blanckaert
--- Log: Added Quest chain for Growing Crisis. (7K Revered)
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -883,32 +883,33 @@ T Thalyssra's Drawers|QID|42489|M|36.88,46.61|N|To First Arcanist Thalyssra.|
 
 F Crimson Thicket|QID|40907|AVAILABLE|40907|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
 R Jandvik|QID|40907|M|64.86,51.05|N|Run to Jandvik for some sideline quests.|
-A Removing Obstacles|QID|40907|M|65.71,51.15|N|From Toryl (who wanders along this path).|PRE|42229|
+A Removing Obstacles|QID|40907|PRE|42229|M|65.71,51.15|N|From Toryl (who wanders along this path).|
 C Removing Obstacles|QID|40907|M|68.92,52.32|QO|1|N|Kill Calder.|
 C Removing Obstacles|QID|40907|M|69.07,47.26|QO|2|N|Kill Eynar.|
 T Removing Obstacles|QID|40907|M|70.57,48.85|N|To Toryl.|
-A Jarl Come Back Now|QID|40908|M|70.62,48.85|N|From Toryl.|PRE|40907|
+A Jarl Come Back Now|QID|40908|PRE|40907|M|70.62,48.85|N|From Toryl.|
 $ Small Treasure Chest|QID|43859|M|71.46,49.77|N|At the top of the tower in front of Toryl.|RANK|2|
 T Jarl Come Back Now|QID|40908|M|68.91,54.05|N|To Jarl Throndyr.|
-A Beach Bonfire|QID|40332|M|68.91,54.05|N|From Jarl Throndyr.|PRE|40908|
-A Band of Blood Brothers|QID|40320|M|68.98,54.12|N|From Brandolf.|PRE|40908|
-A Bite of the Sashj'tar|QID|40331|M|68.98,54.12|N|From Brandolf.|PRE|40908|
-C Bite of the Sashj'tar|QID|40331|M|69.53,60.50|S|N|Kill and loot Naga for their fangs.|
+A Beach Bonfire|QID|40332|PRE|40908|M|68.91,54.05|N|From Jarl Throndyr.|
+A Band of Blood Brothers|QID|40320|PRE|40908|M|68.98,54.12|N|From Brandolf.|
+A Bite of the Sashj'tar|QID|40331|PRE|40908|M|68.98,54.12|N|From Brandolf.|
 C Beach Bonfire|QID|40332|M|70.74,57.26|QO|1|S|NC|N|Pick Driftwood up from the ground. (there is no wood in the cave.)|
-K Kill Cora'kar|QID|41135|M|69.85,56.74|QO|1|ITEM|139952|N|Silver - Cora'kar is just inside the cave and to the left.|RANK|2|
+C Bite of the Sashj'tar|QID|40331|M|69.53,60.50|S|N|Kill and loot Naga for their fangs.|
+K Kill Cora'kar|QID|41135|M|68.18,58.60|QO|1|ITEM|139952|T|Cora'kar|N|Silver - Cora'kar is just inside the cave and to the left.|RANK|2|
 C Band of Blood Brothers|QID|40320|M|68.06,58.33|QO|3|NC|N|All of the vrykyl that you rescue are on the lower level of the cave. Find and rescue Stokalfr.|
 C Band of Blood Brothers|QID|40320|M|69.25,57.77|QO|1|NC|N|Find and rescue Katarine.|
 C Band of Blood Brothers|QID|40320|M|68.98,59.85|QO|2|CHAT|N|Find and rescue Fjolrik.|
 C Beach Bonfire|QID|40332|M|70.74,57.26|QO|1|US|NC|N|Pick Driftwood up from the ground. (there is no wood in the cave.)|
 C Bite of the Sashj'tar|QID|40331|M|69.53,60.50|US|N|Finish collecting the Sashj'tar Fangs.|
-C Beach Bonfire|QID|40332|M|72.37,59.33|QO|2|NC|N|Build Jarl Throndyr's Pyre.|
+C Beach Bonfire|QID|40332|M|72.37,59.33|QO|2|NC|N|Click on Jarl Throndyr's Pyre.|
 T Beach Bonfire|QID|40332|M|72.23,59.14|N|To Brandolf.|
 T Band of Blood Brothers|QID|40320|M|72.23,59.14|N|To Brandolf.|
 T Bite of the Sashj'tar|QID|40331|M|72.23,59.14|N|To Brandolf.|
-A Fisherman's Tonic|QID|40334|M|72.23,59.14|N|From Brandolf.|PRE|40332;40320;40331|
-C Fisherman's Tonic|QID|40334|M|68.89,70.75|QO|1|S|N|Kill Basilisks and loot Axetail Eyeballs.|
+A Fisherman's Tonic|QID|40334|PRE|40332;40320;40331|M|72.23,59.14|N|From Brandolf.|
+C Fisherman's Tonic|QID|40334|M|68.89,70.75|QO|1|S|N|Kill Basilisks and loot Axetail Eyeballs. (In cave)|
 C Fisherman's Tonic|QID|40334|M|73.47,67.82|QO|2|S|N|Kill Naga to collect a Sashj'tar Air Bladder.|
-C Fisherman's Tonic|QID|40334|M|69.31,67.06|QO|3|N|Kill Siren Naz'jul and loot Siren Blood.|
+C Siren's Blood|QID|40334|M|69.31,67.06|QO|3|N|Kill Siren Naz'jul and loot Siren Blood.|
+K Kill Har'kess|QID|41136|M|67.65,71.01|T|Har'kess|ITEM|140381|N|Silver - Kill Har'kess the Insatiable, for a bit of treasure and resources.|RANK|2|
 C Fisherman's Tonic|QID|40334|M|73.47,67.82|QO|2|US|N|Kill Naga to collect a Sashj'tar Air Bladder.|
 C Fisherman's Tonic|QID|40334|M|68.89,70.75|QO|1|US|N|Kill Basilisk and loot Axetail Eyeballs.|
 T Fisherman's Tonic|QID|40334|M|73.00,67.60|N|If you like Brandolf's buff, wait to turn in until you are out of the cave, To Brandolf, who is following you.|
@@ -916,65 +917,66 @@ A Testing the Waters|QID|41034|M|73.00,67.60|N|From Brandolf.|PRE|40334|
 C Testing the Waters|QID|41034|M|77.40,69.30;75.89,72.29|CS|QO|2|N|Commander Malt'his is in an underwater cave, find and kill him.|
 $ Shimmering Ancient Mana Cluster|QID|43741|M|79.66,72.88|N|Loot for storable, but non-stackable ancient mana.|RANK|2|ITEM|141655|
 K Kill Rok'nash|QID|40680|QO|1|M|80.15,70.65|ITEM|140019|T|Rok'nash|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
-C Testing the Waters|QID|41034|M|80.19,64.00|QO|1|N|Kill Commander Raz'jira who is on the seafloor.|
+C Testing the Waters|QID|41034|M|80.19,64.00|QO|1|T|Commander Raz'jira|N|Kill Commander Raz'jira who is on the seafloor.|
 $ Small Treasure Chest|QID|43860|M|76.87,61.49|N|Inside the hold of a sunken ship, loot for treasure and resources.|RANK|2|
-C Testing the Waters|QID|41034|M|77.68,58.52|QO|3|N|Behind the other half of the sunken ship, Kill Commander Kel'tariss.|
+C Testing the Waters|QID|41034|M|77.91,58.10|QO|3|T|Commander Kel'tariss|N|Behind the other half of the sunken ship, Kill Commander Kel'tariss.|
+$ Small Treasure Chest|QID|43861|M|81.96,57.46|CS|N|Loot for a bit of treasure and resources. (Inside Cave)|RANK|2|
 T Testing the Waters|QID|41034|M|70.63,49.26|N|To Brandolf.|
-A Jandvik's Last Hope|QID|40927|M|70.59,48.86|N|From Toryl.|PRE|41034|
+A Jandvik's Last Hope|QID|40927|PRE|41034|M|70.59,48.86|N|From Toryl.|
 C Jandvik's Last Hope|QID|40927|M|76.83,56.16;75.89,52.76|CS|NC|QO|1|N|Meet with Toryl in an underwater cave.|
 C Jandvik's Last Hope|QID|40927|M|76.14,53.02|QO|2|N|Defeat Tidemistress Sashj'tar.|
 C Jandvik's Last Hope|QID|40927|M|75.97,52.65|NC|QO|3|N|Release Toryl.|
 T Jandvik's Last Hope|QID|40927|M|75.97,52.65|N|To Toryl.|
-A Against Their Will|QID|41426|M|75.97,52.65|N|From Toryl.|PRE|40927|
-A Breaking Down the Big Guns|QID|41709|M|75.97,52.61|N|From Toryl.|PRE|40927|
-A Finding Brytag|QID|41606|M|75.97,52.61|N|From Kell.|PRE|40927|RANK|2|
-A Sunken Foes|QID|41425|M|75.97,52.61|N|From Kell.|PRE|40927|RANK|2|
-A Dry Powder|QID|41410|M|77.50,59.83|N|From Fjolrik.|PRE|40927|RANK|2|
+A Against Their Will|QID|41426|PRE|40927|M|75.97,52.65|N|From Toryl.|
+A Breaking Down the Big Guns|QID|41709|PRE|40927|M|75.97,52.61|N|From Toryl.|
+A Finding Brytag|QID|41606|PRE|40927|M|75.97,52.61|N|From Kell.|RANK|2|
+A Sunken Foes|QID|41425|PRE|40927|M|75.97,52.61|N|From Kell.|RANK|2|
+K Kill Reef Lord Raj'his|QID|44003|QO|1|M|75.82,58.26|ITEM|121801|T|Reef Lord Raj'his|N|Silver - Kill and loot for a bit of treasure and resources. Roving mob. |RANK|2|
+C Breaking Down the Big Guns|QID|41709|M|77.79,60.86|S|N|Kill Sashj'tar Harpooners to collect Harpoon Parts.|
 C Against Their Will|QID|41426|M|76.49,58.03|NC|S|N|Save Possessed Vrykul.|
-C Sunken Foes|QID|41425|M|76.46,60.86|S|N|Kill Trenchwalker Scavenger and Sashj'tar Overseers.|RANK|2|
-C Dry Powder|QID|41410|M|76.14,59.62|S|NC|N|Collect Sealed Powder Kegs.|RANK|2|
-C Breaking Down the Big Guns|QID|41709|M|77.79,60.86|N|Kill Sashj'tar Harpooners to collect Harpoon Parts.|
-C Dry Powder|QID|41410|M|76.14,59.62|US|NC|N|Finish collecting Sealed Powder Kegs.|RANK|2|
-$ Small Treasure Chest|QID|43861|M|81.96,57.46|N|Loot for a bit of treasure and resources.|RANK|2|
-C Sunken Foes|QID|41425|M|76.46,60.86|US|N|Finish killing Trenchwalker Scavenger and Sashj'tar Overseers.|RANK|2|
-C Against Their Will|QID|41426|M|76.49,58.03|NC|US|N|Save Possessed Vrykul.|
-T Dry Powder|QID|41410|M|77.52,59.80|N|To Fjolrik.|RANK|2|
-A Timing Is Everything|QID|41409|M|77.52,59.80|N|From Fjolrik.|RANK|2|PRE|41410|
-C Timing Is Everything|QID|41409|M|77.75,58.95|QO|1|NC|N|Swim up towards the surface and hop on a turtle.|RANK|2|
-C Timing Is Everything|QID|41409|M|76.16,59.90|QO|2|NC|N|Basic bombing run, kill Naga.|RANK|2|
-T Finding Brytag|QID|41606|M|74.99,63.29|N|To Brytag.|RANK|2|
-A Bubble Trouble|QID|40364|M|74.99,63.29|N|From Brytag.|RANK|2|PRE|41606|
-A The Seawarden|QID|41618|M|74.99,63.29|N|From Brytag.|RANK|2|PRE|41606|
-C Bubble Trouble|QID|40364|M|75.11,61.85|QO|1|NC|N|Pick up a piece of Needle Coral.|RANK|2|
-C Bubble Trouble|QID|40364|M|75.58,63.89|QO|2|S|U|130944|N|Use the coral to puncture the bubbles and rescue Captured Vrykul.|RANK|2|
-C The Seawarden|QID|41618|M|75.36,67.30|QO|1|N|Kill Seawarden Largush.|RANK|2|
-C Bubble Trouble|QID|40364|M|75.58,63.89|QO|2|US|U|130944|N|Finish rescuing Captured Vrykul.|RANK|2|
-T Bubble Trouble|QID|40364|M|75.00,63.39|N|To Brytag.|RANK|2|
-T The Seawarden|QID|41618|M|75.00,63.39|N|To Brytag.|RANK|2|
-K Kill Reef Lord Raj'his|QID|44003|QO|1|M|75.82,58.26|ITEM|121801|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+C Sunken Foes|QID|41425|M|76.46,60.86|S|N|Kill Trenchwalker Scavenger and Sashj'tar Overseers.|
+A Dry Powder|QID|41410|PRE|40927|M|77.50,59.83|N|From Fjolrik.|RANK|2|
+C Dry Powder|QID|41410|M|76.14,59.62|S|NC|N|Collect Sealed Powder Kegs.|
+C Dry Powder|QID|41410|M|76.67,62.81|US|NC|N|Finish collecting Sealed Powder Kegs.|
+C Sunken Foes|QID|41425|M|76.46,60.86|US|N|Finish killing Trenchwalker Scavenger and Sashj'tar Overseers.|
+C Against Their Will|QID|41426|M|76.49,58.03|NC|US|N|Finish off saving Possessed Vrykul.|
+C Breaking Down the Big Guns|QID|41709|M|77.79,60.86|US|N|Finish off killing Sashj'tar Harpooners to collect Harpoon Parts.|
+T Dry Powder|QID|41410|M|77.52,59.80|N|To Fjolrik.|
+A Timing Is Everything|QID|41409|PRE|41410|M|77.52,59.80|N|From Fjolrik.|RANK|2|
+C Timing Is Everything|QID|41409|M|77.75,58.95|QO|1|NC|N|Swim up towards the surface and hop on a turtle.|
+C Timing Is Everything|QID|41409|M|76.16,59.90|QO|2|NC|N|Basic bombing run, kill Naga.|
+T Finding Brytag|QID|41606|M|74.99,63.29|N|To Brytag.|
+A Bubble Trouble|QID|40364|PRE|41606|M|74.99,63.29|N|From Brytag.|RANK|2|
+A The Seawarden|QID|41618|PRE|41606|M|74.99,63.29|N|From Brytag.|RANK|2|
+C Bubble Trouble|QID|40364|M|75.11,61.85|QO|1|NC|N|Pick up a piece of Needle Coral.|
+C Bubble Trouble|QID|40364|M|75.58,63.89|QO|2|S|U|130944|N|Use the coral to puncture the bubbles and rescue Captured Vrykul.|
+K The Seawarden|QID|41618|M|75.36,67.30|QO|1|T|Seawarden Largush|N|Kill Seawarden Largush. (Patrolling Mob)|
+C Bubble Trouble|QID|40364|M|75.58,63.89|QO|2|US|U|130944|N|Finish rescuing Captured Vrykul.|
+T Bubble Trouble|QID|40364|M|75.00,63.39|N|To Brytag.|
+T The Seawarden|QID|41618|M|75.00,63.39|N|To Brytag.|
 T Against Their Will|QID|41426|M|70.63,48.84|N|To Toryl.|
 T Breaking Down the Big Guns|QID|41709|M|70.63,48.84|N|To Toryl.|
-A Turning the Tidemistress|QID|40336|M|70.63,48.84|N|From Toryl.|PRE|41426;41709|
-T Timing Is Everything|QID|41409|M|70.55,49.12|N|To Brandolf.|RANK|2|
-T Sunken Foes|QID|41425|M|70.55,49.12|N|To Brandolf.|RANK|2|
-A Shatter the Sashj'tar|QID|41001|M|70.59,49.11|N|From Brandolf.|RANK|2|PRE|41409;41425|
-A Squid Out of Water|QID|41499|M|70.59,49.11|N|From Brandolf.|RANK|2|PRE|41409;41425|
+A Turning the Tidemistress|QID|40336|PRE|41426;41709|M|70.63,48.84|N|From Toryl.|
+T Timing Is Everything|QID|41409|M|70.55,49.12|N|To Brandolf.|
+T Sunken Foes|QID|41425|M|70.55,49.12|N|To Brandolf.|
+A Shatter the Sashj'tar|QID|41001|PRE|41425|M|70.59,49.11|N|From Brandolf.|RANK|2|
+A Squid Out of Water|QID|41499|PRE|41425|M|70.59,49.11|N|From Brandolf.|RANK|2|
+$ Small Treasure Chest|QID|43861|M|79.32,57.49;81.96,57.46|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 R Sashj'tar Ruins|QID|41001|M|81.39,54.08|N|Run over to the Sashj'tar Ruins.|
-C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|S|N|Kill Sashj'tar naga.|RANK|2|
-C Squid Out of Water|QID|41499|M|80.86,56.94|S|NC|N|Destroy Willbreaker Incubators.|RANK|2|
-C Turning the Tidemistress|QID|40336|M|82.39,58.27|QO|1|NC|N|Build Makeshift Ballista.|RANK|2|
-C Turning the Tidemistress|QID|40336|M|82.64,57.77|QO|2|N|Hop in the Ballista and fire at Tidemistress Sashj'tar. When it falls apart, fight her normally.|RANK|2|
+C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|S|N|Kill Sashj'tar naga.|
+C Squid Out of Water|QID|41499|M|80.86,56.94|S|NC|N|Destroy Willbreaker Incubators.|
+C Turning the Tidemistress|QID|40336|M|82.39,58.27|QO|1|NC|N|Click on Ballista outline.|
+C Turning the Tidemistress|QID|40336|M|82.64,57.77|QO|2|T|Tidemistress Sasj'tar|N|Hop in the Ballista and fire at Tidemistress Sashj'tar. When it falls apart, fight her normally.|
 $ Small Treasure Chest|QID|43862|M|83.98,57.64|N|Loot for a bit of treasure and resources.|RANK|2|
-C Squid Out of Water|QID|41499|M|80.86,56.94|US|NC|N|Destroy Willbreaker Incubators.|RANK|2|
-C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|US|N|Finish up killing Sashj'tar naga.|RANK|2|
+C Squid Out of Water|QID|41499|M|80.86,56.94|US|NC|N|Destroy Willbreaker Incubators.|
+C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|US|N|Finish up killing Sashj'tar naga.|
 $ Small Treasure Chest|QID|43863|M|83.12,69.33|N|Run over to the next island and into this small cave for another chest. Loot for a bit of treasure and resources.|RANK|2|
 K Kill King Morgalash|QID|41786|M|87.42,62.35|ITEM|140384|N|Click on the Jandvik Banner, Three waves of mobs till Morg comes out, Can use the Balistas to kill Waves and Boss|RANK|2|
 T Shatter the Sashj'tar|QID|41001|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
-B Recipe: Koi-Scented Stormray|M|71.61,48.87|P|Cooking;185|L|133819|N|From Markus Hjolbruk.|RECIPE|201503|
-H Shal'Aran|QID|44495|M|36.56,46.93|N|Return to Shal'Aran.|
-A Leyline Mastery|QID|44495|M|37.00,46.35|N|From/To Arcanist Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|RANK|2|PRE|44493|
+B Recipe: Koi-Scented Stormray|PRE|40336|M|71.61,48.87|P|Cooking;185|L|133819|N|From Markus Hjolbruk. (don't forget to learn it.)|RECIPE|201503|
+H Shal'Aran|QID|40297|M|36.56,46.93|N|Return to Shal'Aran.|
 
 ; Good Suramaritan - Breaking The Lightbreaker (Felsoul Hold) Story Line.
 
