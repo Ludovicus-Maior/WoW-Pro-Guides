@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-18 05:05
+-- Who: Blanckaert
+-- Log: added |T| to Kill of rares, put back a few rank 2's I cleared by mistake.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28164/view
 -- Date: 2016-12-17 17:53
 -- Who: Blanckaert
 -- Log: redo of Jandvik's Jarl storyline, removed 'dupe' quest (I moved in a pre revision, but didn't remove where was in guide.)
@@ -250,11 +255,6 @@
 -- Who: Emmaleah
 -- Log: Fix syntax on N Rep Gated lines, (now works as I envisioned); Pre tags in Waning Crescent, 
 
--- URL: http://wow-pro.com/node/3687/revisions/27957/view
--- Date: 2016-10-24 00:55
--- Who: Blanckaert
--- Log:  minor change, added map coord for Domitille
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideAutoSwitch(guide)
@@ -267,9 +267,11 @@ L This guide (and the Suramar zone) requires level 110|LVL|110|
 N Use of Ranks|QID|39987|N|If you would rather do the optional quests on your own, as you come across them on world quests set your quide to rank 2.|
 N Treasures and Rares|QID|39987|N|As with other guides all treasures and rares are set to rank 2 - or for the really out of the way ones, rank 3.|
 
+; Quests either REQUIRE lvl 110, AND/OR opening Suramar (QID#42229)
+
 ; Nightfallen But Not Forgotten - Nightfall
 
-A Khadgar's Discovery|QID|44555;39985|N|Auto Accepted from UI upon entering Dalaran.|
+A Khadgar's Discovery|QID|44555;39985|LVL|110|N|Auto Accepted from UI upon entering Dalaran.|
 T Khadgar's Discovery|QID|44555;39985|M|28.47,48.31|Z|Dalaran@Dalaran70|N|To Archmage Khadgar in the Violet Citadel.|
 A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44555;39985|
 C Magic Message|QID|39986|M|29.32,48.80|Z|Dalaran@Dalaran70|NC|N|Click on the Arcane Anomaly and watch the dialog.|
@@ -344,7 +346,7 @@ C Mrgls of Endearment|QID|42688|M|15.22,52.37|CHAT|QO|2|N|Show Fine Sand to Phin
 T Mrgls of Endearment|QID|42688|M|15.22,52.37|N|To Pearlhunter Phin.|RANK|2|
 A A Mlrglrmg For Grlmrgl|QID|42728|M|15.22,52.35|N|From Pearlhunter Phin.|PRE|42688|RANK|2|
 C A Mlrglrmg For Grlmrgl|QID|42728|M|12.29,48.31|S|N|Help Phin find whatever it is by taking him to Conspicuous Piles of Sand.|RANK|2|
-K Kill Mar'tura|QID|44124|QO|1|M|13.96,53.13|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+K Kill Mar'tura|QID|44124|QO|1|M|13.96,53.13|T|Mar'tura|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C A Mlrglrmg For Grlmrgl|QID|42728|M|12.29,48.31|US|N|Take Phin around to the piles of dirt.|RANK|2|
 T A Mlrglrmg For Grlmrgl|QID|42728|M|15.18,51.78|N|To Mrgrlilgrl.|RANK|2|
 A Mglrgrs Of Our Grmlgrlr|QID|41143|M|15.18,51.78|N|From Mrgrlilgrl.|RANK|2|PRE|42728|
@@ -446,7 +448,7 @@ A Fragments of Memory|QID|40308|M|49.09,34.35|N|From a Shattered Burial Urn.|PRE
 C Fragments of Memory|QID|40308|M|51.96,29.95|S|N|You have a chance of collecting Tel'anor Mementos from all the mobs in this cave.|
 C Tools of the Trade|QID|40300|M|52.50,31.39|QO|3|NC|N|Pick up the Chest of Shrouds|
 $ Treasure|QID|43854|M|52.27,29.90|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Garvrulg|QID|40897|QO|1|M|53.03,30.24|ITEM|121755|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+K Kill Garvrulg|QID|40897|QO|1|M|53.03,30.24|ITEM|121755|T|Garvrulg|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Dusty Treasure|QID|40767|M|52.72,31.30|N|Down the wooden stairs for this chest. Loot for a bit of treasure and resources.|RANK|2|
 C Fragments of Memory|QID|40308|M|51.96,29.95|US|N|Finish collecting Tel'anor Mementos.|
 C Tools of the Trade|QID|40300|M|47.79,34.45|QO|2|NC|N|Pick up the Bundle of Incense.|
@@ -483,9 +485,9 @@ T Feeding Shal'Aran|QID|41138|M|36.97,46.21|N|To Arcanist Valtrois.|
 
 P Elune'eth|QID|41762|M|36.34,44.89|N|Take the Elune'eth portal out.|
 R The Grand Promenade|QID|41762|M|37.19,46.32;41.63,54.04|CS|N|Follow the road Southeast, then turn left on the road encircling the port.|
-K Kill Apothecary Faldren|QID|43580|QO|1|M|42.37,56.33|ITEM|121754|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+K Kill Apothecary Faldren|QID|43580|QO|1|M|42.37,56.33|ITEM|121754|T|Apothecary Faldren|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 R Lunastre Estate|QID|41762|M|39.05,70.55|N|Continue on the Grand Promanade (encirling road) until you meet up with Silgryn.|
-K Kill Inquisitor Volitix|QID|44569|M|38.15,70.46|ITEM|136901|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+K Kill Inquisitor Volitix|QID|44569|M|38.15,70.46|ITEM|136901|T|Inquisitor Volitix|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Sympathizers Among the Shal'dorei|QID|41762|M|39.05,70.55|CHAT|N|Meet Silgryn.|
 T Sympathizers Among the Shal'dorei|QID|41762|M|40.17,70.79|N|Follow Silgryn down to beside the buildings and turn in.|
 A The Masks We Wear|QID|41834|M|40.17,70.79|N|From Silgryn.|PRE|41762|
@@ -507,7 +509,7 @@ T Masquerade|QID|42079|M|43.37,78.77|N|To Ly'leth Lunastre.|
 A First Contact|QID|42147|M|43.37,78.77|N|From Ly'leth Lunastre.|PRE|42079|
 A Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|N|From Unpowered Telemancy Beacon.|PRE|40956|
 T Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|N|To Unpowered Telemancy Beacon.|
-K Kill Magister Phaedris|QID|43348|QO|1|M|41.99,79.87|N|Silver - Kill and loot for treasure and resources.|ITEM|140405|RANK|2|
+K Kill Magister Phaedris|QID|43348|QO|1|M|41.99,79.87|T|Magister Phaedris|N|Silver - Kill and loot for treasure and resources.|ITEM|140405|RANK|2|
 R The Grand Promanade|QID|42147|M|42.81,60.35|CC|N|Reapply your mask via the Extra Action Button(and avoid the NPCs who see illusion) and ride over to see Vanthir.|
 C First Contact|QID|42147|M|42.78,60.26|CHAT|N|Speak with Vanthir.|
 R Sanctum of Order|QID|42147|M|42.93,61.97;44.27,62.95;44.59,62.12|CS|N|Into the building and down.|
@@ -548,7 +550,7 @@ A Leyline Feed Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Surama
 T Leyline Feed Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|To Leyline Feed.|
 $ Small Treasure Chest|QID|43840|M|58.33,70.00|Z|Falanaar Tunnels@Suramar|N|Loot for treasure and resources.|RANK|2|
 R Falanaar North Leyline|QID|43592|M|42.49,70.68;45.03,54.61;57.26,45.16|CC|Z|Falanaar Tunnels@Suramar|N|Run to the Falanarr Tunnels to get the other Falanaar leyline.|
-A Leyline Feed: Falanaar Arcway|QID|43592|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana) Dispite being Silver Elite, there is no quest/reward for killing Broodmother Shu'holis unless you have it as a world quest.|PRE|41138|
+A Leyline Feed: Falanaar Arcway|QID|43592|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana)\nDispite being Silver Elite, there is no quest/reward for killing Broodmother Shu'holis unless you have it as a World Quest.|PRE|41138|
 T Leyline Feed: Falanaar Arcway|QID|43592|PRE|41138|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|To Leyline Feed.|
 $ Small Treasure Chest|QID|43839|M|56.20,36.01;48.68,42.60|CS|Z|Falanaar Tunnels@Suramar|N|Run back out of this room, you will see Orathiss waiting for you. While following Orathiss, slight detour here for a chest. Loot for treasure and resources.|RANK|2|
 R Shattered Locus|QID|42228|M|57.76,43.87;53.10,26.23;47.95,14.07|CS|Z|Falanaar Tunnels@Suramar|N|Follow Orathiss to the Shattered Locus.|RANK|-1|
@@ -592,13 +594,13 @@ C Homeward Bounding|QID|41453|M|21.52,30.45|NC|QO|2|N|Follow the Lost Owlkitten 
 T Homeward Bounding|QID|41453|M|21.41,30.63|N|To Mardranel Forestheart.|
 A You've Got to Be Kitten Me Right Meow|QID|41197|M|21.41,30.63|N|From Mardranel Forestheart.|PRE|41453|
 C You've Got to Be Kitten Me Right Meow|QID|41197|M|21.44,30.55|S|NC|N|Herding cats! stand behind them facing the way you want them to run, and they may go that way.|
-K Kill Starving Ettin|QID|41462|M|21.75,29.42|L|137179|U|137179|N|Kill and loot the Starving Ettin who wanders thru this area, for an item that starts a quest.|RANK|2|
+K Kill Starving Ettin|QID|41462|M|21.75,29.42|L|137179|U|137179|T|Starving Ettin|N|Kill and loot the Starving Ettin who wanders thru this area, for an item that starts a quest.|RANK|2|
 A Trouble Has Huge Feet|QID|41462|M|21.75,29.42|N|From Grotesque Ettin Leather.|RANK|2|
 C You've Got to Be Kitten Me Right Meow|QID|41197|M|21.44,30.55|US|NC|N|Finish Herding Lost Feathermane Kittens.|
 T Trouble Has Huge Feet|QID|41462|M|21.40,30.63|N|To Mardranel Forestheart.|RANK|2|
 T You've Got to Be Kitten Me Right Meow|QID|41197|M|21.40,30.63|N|To Mardranel Forestheart.|
 $ Small Treasure Chest|QID|43846|M|16.60,29.74|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Shadowquill|QID|43996|QO|1|ITEM|140401|N|Kill and loot for a bit of treasure and resources.|RANK|2|
+K Kill Shadowquill|QID|43996|QO|1|ITEM|140401|T|Shadowquill|N|Kill and loot for a bit of treasure and resources.|RANK|2|
 T Missing Along the Way|QID|41463|M|19.58,22.38|N|To Kalendros Irongrove.|
 A Not Here, Not Now, Not Ever|QID|41464|M|19.58,22.38|N|From Kalendros Irongrove.|PRE|41463|
 C Not Here, Not Now, Not Ever|QID|41464|M|18.42,21.27|S|N|Destroy Darkfiend Totems. A satyr horn is required to destroy the totem.|U|137189|
@@ -639,7 +641,7 @@ R Ley Station Moonfall|QID|43590|M|30.74,29.46;36.68,27.16;36.11,25.73|CS|N|Run 
 A Leyline Feed: Ley Station Moonfall|QID|43590|M|36.07,19.56|N|From Leyline Feed. (200 Ancient Mana)|
 C Leyline Feed: Ley Station Moonfall|QID|43590|M|34.91,29.48|T|Thudchop Trunksmasher|N|Kill Thudchop Trunksmasher (Ettin) wandering around across the river and loot the Broken Leydar Dish.|
 T Leyline Feed: Ley Station Moonfall|QID|43590|M|36.03,19.59|N|To Leyline Feed.|
-K Matron Hagatha|QID|43718|M|39.48,25.10;40.23,26.28;35.90,34.45|CS|ITEM|140390|N|Silver - Kill for treasure and resources. Routes to path to get to cave, watch your step!|RANK|2|
+K Kill Matron Hagatha|QID|43718|M|39.48,25.10;40.23,26.28;35.90,34.45|CS|ITEM|140390|T|Matron Hagatha|N|Silver - Kill for treasure and resources. Routes to path to get to cave, watch your step!|RANK|2|
 T Return to Irongrove Retreat|QID|41469|M|26.18,31.32|N|To Mythandros Irongrove.|
 A Eminent Grow-main|QID|41494|M|26.18,31.32|N|From Mythandros Irongrove.|PRE|41469|
 C Eminent Grow-main|QID|41494|M|26.18,31.18|NC|N|Click on the bowl to imbue the Inert Waters and wait a bit for the ritual to complete.|
@@ -678,7 +680,7 @@ C Stop the Spell Seekers|QID|41032|M|36.45,17.00|S|NC|N|Click on the purple port
 C Lay Waste, Lay Mines|QID|40965|M|34.64,20.10|S|U|133882|N|Use the trap rune to kill multiple Nightborne at a time.|
 K Kill Siegemaster Aedrin|QID|43369|M|37.0,21.2|ITEM|140406|T|Siegemaster Aedrin|N|Silver - Siegemaster Aedrin, for a bit of treasure and resources.|RANK|2|
 C Precious Little Left|QID|40967|M|36.36,16.75|QO|1|NC|N|Up the stairs to find 'Anthology of the Guard' on a table.|
-K Kill Artificer Lothaire|QID|43717|QO|1|M|34.27,15.38|ITEM|140372|N|Silver - Up more stairs to kill this rare for treasure and resources. The Trap Rune doesn't affect the Artificer or his companions. Agro the Articicer and then the Constructs will attack, first one, then two.  Then the Artificer will attack.|RANK|2|
+K Kill Artificer Lothaire|QID|43717|QO|1|M|34.27,15.38|ITEM|140372|T|Artificer Lothaire|N|Silver - Up more stairs to kill this rare for treasure and resources. The Trap Rune doesn't affect the Artificer or his companions. Agro the Articicer and then the Constructs will attack, first one, then two.  Then the Artificer will attack.|RANK|2|
 C Precious Little Left|QID|40967|M|34.07,17.89|QO|3|NC|N|Back down the stairs and 'Aftermath of the Well' is against the wall inside this room.|
 K Kill Commander Domitille|QID|40762|M|36.14,18.56|T|Commander Domitille|L|136851|N|Kill and loot for an optional quest.|ITEM|141672|
 A Zealot's Dues|QID|40762|O|U|136851|N|Accepted from Commander Domitille's helm which you just picked up.|
@@ -730,22 +732,22 @@ K Kill Guardian Thor'el|QID|43597||M|56.08,50.30|ITEM|140404|T|Guardian Thor'el|
 R Crimson Thicket|QID|42223|M|60.75,52.29|N|Continue on the Grand Promenade until you get to the path to the Crimson Thicket.|
 T Scouting the Crimson Thicket|QID|42223|M|61.86,49.11|N|To Lilryia Dawnwind.|
 A Turn Around, Nighteyes|QID|40617|LEAD|42223|M|61.86,49.11|N|From Lilryia Dawnwind. *Unavailable, if you have done 'Survival of the Fittest' in the Menagerie.*|RANK|2|
-K Kill Cadraeus|QID|43495|M|62.52,46.53;62.50,48.37|CS|N|Silver - Up this hill for a bit of treasure and resources.|RANK|2|
+K Kill Cadraeus|QID|43495|M|62.52,46.53;62.50,48.37|CS|T|Cadraeus|N|Silver - Up this hill for a bit of treasure and resources.|RANK|2|
 C Turn Around, Nighteyes|QID|40617|M|64.48,46.36|NC|QO|1|N|Locate Nighteyes.|
 C Turn Around, Nighteyes|QID|40617|M|63.63,46.81|QO|2|N|Kill and loot Trapper Rodoon.|
 T Turn Around, Nighteyes|QID|40617|M|61.85,49.08|N|To Lilryia Dawnwind.|
-A Trapping Evolved|QID|41230|PRE|40617|M|61.85,49.08|N|From Lilryia Dawnwind.|
-A They Become The Hunted|QID|41215|PRE|40617|M|61.85,49.08|N|From Nighteyes.|
+A Trapping Evolved|QID|41230|PRE|40617|M|61.85,49.08|N|From Lilryia Dawnwind.|RANK|2|
+A They Become The Hunted|QID|41215|PRE|40617|M|61.85,49.08|N|From Nighteyes.|RANK|2|
 C They Become The Hunted|QID|41215|M|60.95,44.93|S|N|Kill Nightborne Trappers.|
 C Trapping Evolved|QID|41230|M|61.49,43.00|NC|S|N|Click on Arcane Traps.|
 R Kel'balor|QID|43588|M|59.2,44.7;59.31,42.93|CS|N|Run into this cavern to activate another Leyline, make sure you have 200 ancient mana on hand.|
 A Leyline Feed: Kel'Balor|QID|43588|PRE|41138|M|51.75,44.10|Z|Suramar/35|N|From Leyline Feed. (200 Ancient Mana)|
 C Leyline Feed: Kel'Balor|QID|43588|M|51.80,46.01|Z|Suramar/35|N|Click on the 'Leyline Feed Primer' and then kill the three waves of withered that come at you.|
 T Leyline Feed: Kel'Balor|QID|43588|M|51.75,44.10|Z|Suramar/35|N|To Leyline Feed.|
-C Trapping Evolved|QID|41230|M|61.49,43.00|NC|US|N|Back outside to finish collecting traps and killing trappers.|RANK|2|
-C They Become The Hunted|QID|41215|M|60.95,44.93|US|N|Finish killing Nightborne Trappers.|RANK|2|
-T They Become The Hunted|QID|41215|M|61.85,49.07|N|To Nighteyes.|RANK|2|
-T Trapping Evolved|QID|41230|M|61.85,49.07|N|To Lilryia Dawnwind.|RANK|2|
+C Trapping Evolved|QID|41230|M|61.49,43.00|NC|US|N|Back outside to finish collecting traps and killing trappers.|
+C They Become The Hunted|QID|41215|M|60.95,44.93|US|N|Finish killing Nightborne Trappers.|
+T They Become The Hunted|QID|41215|M|61.85,49.07|N|To Nighteyes.|
+T Trapping Evolved|QID|41230|M|61.85,49.07|N|To Lilryia Dawnwind.|
 $ Small Treasure Chest|QID|43857|M|63.95,48.05;63.65,49.11|CS|N|Inside a small alcove on the hillside, loot this chest for some resources and treasure.|RANK|2|
 f Crimson Thicket|QID|43587|M|64.23,41.98|N|At Ancient Cloudwing.|
 K Kill Hertha Grimdottir|QID|43993|M|61.30,39.70|T|Hertha Grimdottir|N|Silver - Kill Hertha Grimdottir, for a bit of treasure and resources.|RANK|2|
@@ -867,7 +869,7 @@ A Thalyssra's Abode|QID|42488|M|36.88,46.60|N|From First Arcanist Thalyssra.|PRE
 F Crimson Thicket|QID|42488|ACTIVE|42488|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
 $ Treasure Chest|QID|43858|M|67.31,55.11|N|Loot for some treasure and resources. Inside small building.|RANK|2|
 R Estate of the First Arcanist|QID|42488|ACTIVE|42488|M|65.06,51.12;67.11,57.28;68.14,62.93|CS|N|Run down to Thalyssra's Estate.\n\nFelborne Outpost was added after this guide was made, be careful running to the Estate.|
-K Pinchshank|QID|43968|M|66.66,67.13|ITEM|140402|T|Pinchshank|N|Silver - Kill and loot for treasure and resources, also drops a Hunter's Toy.|RANK|2|
+K Kill Pinchshank|QID|43968|M|66.66,67.13|ITEM|140402|T|Pinchshank|N|Silver - Kill and loot for treasure and resources, also drops a Hunter's Toy.|RANK|2|
 K Kill Magisterial Sleuths|QID|42488|L|138392 3|S|N|Kill the Sleuth's until you have 3 amplifer fragments.|
 A Thalyssra's Drawers|QID|42489|PRE|42487|M|65.70,62.73|N|From Armoire.|RANK|2|
 C Thalyssra's Drawers|QID|42489|M|66.42,63.37|QO|1|NC|N|Pick up Thalyssra's Favorite Robe.|RANK|2|
@@ -1279,7 +1281,7 @@ N You are Rep Gated|QID|44563|REP|The Nightfallen;1859;unknown-Revered;19999|N|N
 A A Change of Seasons|QID|43502|REP|The Nightfallen;1859;Revered-Exalted;20000|PRE|43362|M|36.84,46.56|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|N|To Arcanist Valtrois|
 A Giving It All We've Got|QID|43562|PRE|43502|M|37.02,43.24|N|From Arcanist Valtrois|
-C Giving It All We've Got|QID|43562|M|37.2,46.24|CHAT|N|Talk to Arcanist Valtrois. Hopefully you activated all the leylines before now. Don't worry about the one still dark.| ; not sure if we should PRE check this with all the Leyline QIDs
+C Giving It All We've Got|QID|43562|M|37.2,46.24|CHAT|N|Talk to Arcanist Valtrois. Don't worry about the one still dark.|
 T Give It All We've Got|QID|43562|M|37.09,46.56|N|To Arcanist Valtrois. She's moved!|
 A Ephemeral Manastorm Projector|QID|43563|PRE|43562|M|37.08,46.56|N|From Arcanist Valtrois. Group Quest.|
 A Flow Control|QID|43564|PRE|43562|M|37.08,46.56|N|From Arcanist Valtrois.|

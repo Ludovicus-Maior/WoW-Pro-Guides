@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2016-12-18 02:03
+-- Who: Blanckaert
+-- Log: added LVL|103| to some quests, changed a T to a t for QID 43385
+
+-- URL: http://wow-pro.com/node/3674/revisions/28141/view
 -- Date: 2016-12-12 02:35
 -- Who: Blanckaert
 -- Log: minor changes, added a F Step
@@ -220,24 +225,24 @@ A Champion: Yalia Sagewhisper|QID|42137|M|47.11,43.98|Z|Azsuna|N|To/From Yalia S
 A Champion: Zabra Hexx.|QID|42138|M|47.20,44.00|Z|Azsuna|N|To/From Zabra Hexx.|PRE|43376|LVL|103|
 A Looking Through the Lens|QID|43378|M|47.11,43.98|Z|Azsuna|N|From Yalia Sagewhisper. This is an instance/group quest.|PRE|42137|LVL|103|
 t Looking Through the Lens|QID|43378|M|47.78,47.62|Z|NetherlightTemple/1|N|To Prophet Velen.|
-A Velen's Vision|QID|43379|M|47.78,47.62|N|From Prophet Velen.|PRE|43378|
+A Velen's Vision|QID|43379|M|47.78,47.62|N|From Prophet Velen.|PRE|43378|LVL|103|
 C Velen's Vision|QID|43379|QO|1|M|47.78,47.62|CHAT|N|Tell Prophet Velen you are ready to begin.|
 C Velen's Vision|QID|43379|QO|2|M|49.75,36.64|NC|N|Click on the lens of the tides (yellow orb).|
 T Velen's Vision|QID|43379|M|47.78,47.62|N|To Prophet Velen.|
-A Recruiting More Troops|QID|43851|M|51.41,45.88|N|From Moira Thaurissan.|PRE|43379|
-A The Light Within|QID|43377|M|51.56,47.74|N|From Alonsus Faol. This is a dungeon quest.|PRE|43379|
-A Demonic Runes|QID|43384|M|48.48,49.53|N|From Delas Moonfang. These are random drops from demons in Legion.|PRE|43379|
+A Recruiting More Troops|QID|43851|M|51.41,45.88|N|From Moira Thaurissan.|PRE|43379|LVL|103|
+A The Light Within|QID|43377|M|51.56,47.74|N|From Alonsus Faol. This is a dungeon quest.|PRE|43379|LVL|103|
+A Demonic Runes|QID|43384|M|48.48,49.53|N|From Delas Moonfang. These are random drops from demons in Legion.|PRE|43379|LVL|103|
 T Recruiting More Troops|QID|43851|M|40.86,53.91|N|To Vicar Eliza. Also train your new types of troops.|
 C The Light Within|QID|43377|M|75.89,40.56|N|After you run the Halls of Valor dungeon, you can complete this quest by going to the Sanctuary of Light wing of Netherlight Temple and using the extra action button.|
 T The Light Within|QID|43377|M|75.89,40.56|N|To Spark of Light.|
-A Awakening the Light|QID|43383|M|75.89,40.56|N|From Spark of Light.|PRE|43377|
+A Awakening the Light|QID|43383|M|75.89,40.56|N|From Spark of Light.|PRE|43377|LVL|103|
 C Class Hall Missions|QID|43383|M|49.45,46.09|NC|N|At the Command Board. Send your followers on missions to collect Pure Light.|
 T Awakening the Light|QID|43383|M|75.89,40.56|N|To Spark of Light.|
-A Champion: Sol|QID|43380|M|74.04,40.70|N|From/To Sol.|PRE|43383|
+A Champion: Sol|QID|43380|M|74.04,40.70|N|From/To Sol.|PRE|43383|LVL|103|
 t Demonic Runes|QID|43384|M|48.48,49.53|N|To Delas Moonfang.|
 A Infiltrating Our Enemies|QID|43385|M|51.61,47.69|N|From Alonsus Faol.|PRE|43384|LVL|110|
 C Infiltrating Our Enemies|QID|43385|M|50.22,46.19|NC|N|Go to your command table and start the mission "Infiltrating Our Enemies."|
-T Infiltrating Our Enemies|QID|43385|M|51.61,47.69|N|To Alonsus Faol.|
+t Infiltrating Our Enemies|QID|43385|M|51.61,47.69|N|To Alonsus Faol.|
 A Onslaught Envoy|QID|43386|M|51.61,47.69|N|From Alonsus Faol.|PRE|43385|
 P Dalaran|QID|43386|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|43386|
 R Chamber of the Guardian|QID|43386|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43386|
