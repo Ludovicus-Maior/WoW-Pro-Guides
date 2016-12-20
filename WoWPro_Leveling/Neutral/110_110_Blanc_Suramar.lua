@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-20 06:34
+-- Who: Blanckaert
+-- Log: moved a couple of Quest blocks around, with have to check for the flow of other quests, after honoured and 8K Honoured.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28167/view
 -- Date: 2016-12-18 05:05
 -- Who: Blanckaert
 -- Log: added |T| to Kill of rares, put back a few rank 2's I cleared by mistake.
@@ -249,11 +254,6 @@
 -- Date: 2016-10-26 10:10
 -- Who: Emmaleah
 -- Log: Minor changes and adding treasure chest to Statecraft Storyline (44 treasures in the guide)
-
--- URL: http://wow-pro.com/node/3687/revisions/27958/view
--- Date: 2016-10-24 03:35
--- Who: Emmaleah
--- Log: Fix syntax on N Rep Gated lines, (now works as I envisioned); Pre tags in Waning Crescent, 
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -982,97 +982,96 @@ H Shal'Aran|QID|40297|M|36.56,46.93|N|Return to Shal'Aran.|
 
 ; Good Suramaritan - Breaking The Lightbreaker (Felsoul Hold) Story Line.
 
+K Feed Llorian|QID|44676|M|29.32,50.79;29.39,53.31|CS|T|Llorian|CHAT|N|Talk to Llorian, and give 25 Ancient Mana, 2 waves of mobs. Kill the waves, for a bit of treasure and resources.|RANK|2|
 R Felsoul Hold|QID|40297|M|32.69,58.83|N|Run towards Felsoul Hold.|
-A Lyana Darksorrow|QID|40297|M|30.18,60.60;30.87,59.17|CS|N|From Lyana Darksorrow.|PRE|42229|
-C Lyana Darksorrow|QID|40297|M|30.87,59.17|NC|N|Click to destroy Soul Harvester.|
-T Lyana Darksorrow|QID|40297|M|30.87,59.17|N|To Lyana Darksorrow.|
-A Glaive Circumstances|QID|40307|M|30.87,59.17|N|From Lyana Darksorrow.|PRE|40297|
-A Fresh Meat|QID|40898|M|30.87,59.17|N|From Lyana Darksorrow.|PRE|40297|
-C Fresh Meat|QID|40898|M|28.00,60.80|S|N|Kill and loot the basilisks you can't avoid, but be aware a quest you are headed towards also has you killing them.|
-
+A Lyana Darksorrow|QID|40297;44489|M|30.18,60.60;30.87,59.17|CS|N|From Lyana Darksorrow.|PRE|42229|
+C Lyana Darksorrow|QID|40297;44489|M|30.87,59.17|NC|N|Click to destroy Soul Harvester.|
+T Lyana Darksorrow|QID|40297;44489|M|30.87,59.17|N|To Lyana Darksorrow.|
+A Glaive Circumstances|QID|40307|PRE|40297+44489|M|30.87,59.17|N|From Lyana Darksorrow.|
+A Fresh Meat|QID|40898|PRE|40297+44489|M|30.87,59.17|N|From Lyana Darksorrow.|
+C Fresh Meat|QID|40898|M|28.00,60.80|S|N|Kill and loot the basilisks you can't avoid, but be aware a quest you are headed towards also has you killing them.|RANK|2|
+C Fresh Meat|QID|40898|M|28.00,60.80|S|N|Kill and loot the basilisks for the meat.|RANK|-1|
+$ Small Treasure Chest|QID|43831|M|31.96,62.48|N|Loot for some treasure and resources.|RANK|2|
 A A Different Source|QID|40625|M|29.38,71.78;27.34,72.89;26.78,70.82|CS|N|From Kyrtos.|RANK|2|
 $ Kyrtos's Research Notes|QID|43987|M|26.86,70.74|U|140327|ITEM|140327|N|Pick up and use Kyrtos's Research Notes to raise your ancient mana cap by 100.|
-C Glaive Circumstances|QID|40307|M|27.17,59.90|QO|2|N|Pick up Lyana's Vengeful Warglaive.|
-C Glaive Circumstances|QID|40307|M|25.56,62.43;24.64,64.46|CS|QO|1|N|Lyana's Wrathful Warglaive after killing mob.|
-C Different Source|QID|40625|M|32.50,66.74|N|Kill Abhorrent Artificers (or any wyrmtounge mob) in the area for Fel Deconstructor. Low droprate.|RANK|2|
-T A Different Source|QID|40625|M|26.78,70.83|N|To Kyrtos.|RANK|2|
+C Different Source|QID|40625|M|32.50,66.74|N|Kill Abhorrent Artificers (or any wyrmtounge mob) in the area for Fel Deconstructor. Low droprate.|
+T A Different Source|QID|40625|M|26.78,70.83|N|To Kyrtos.|
 A Discovery Requires Experimentation|QID|40683|PRE|40625|M|26.78,70.83|N|From Kyrtos.|RANK|2|
 A The Road to Fel|QID|40657|M|26.78,70.83|PRE|40625|N|From Kyrtos.|RANK|2|
-C Discovery Requires Experimentation|QID|40683|M|29.42,66.05;27.91,56.83|S|CN|N|Kill and loot basilisks.|RANK|2|
-C The Road to Fel|QID|40657|M|25.61,61.30|NC|S|N|Pick up Fel-Infused Plate particularly around the fel cannons.|RANK|2|
+C Discovery Requires Experimentation|QID|40683|M|29.42,66.05;27.91,56.83|S|CN|N|Kill and loot basilisks.|
+C The Road to Fel|QID|40657|M|25.61,61.30|NC|S|N|Pick up Fel-Infused Plate particularly around the fel cannons.|
+C Glaive Circumstances|QID|40307|M|27.17,59.90|QO|2|N|Pick up Lyana's Vengeful Warglaive.|
+C Glaive Circumstances|QID|40307|M|25.56,62.43;24.64,64.46|CS|QO|1|T|Baelbug|N|Lyana's Wrathful Warglaive after killing mob.|
 C Fresh Meat|QID|40898|M|28.00,60.80|US|N|Finish collecting the Fel-Flesh.|
 T Fresh Meat|QID|40898|M|30.86,59.17|N|To Lyana Darksorrow.|
 T Glaive Circumstances|QID|40307|M|30.86,59.17|N|To Lyana Darksorrow.|
-A Grimwing the Devourer|QID|40901|PRE|40898|M|30.86,59.17|N|From Lyana Darksorrow.|
-C Grimwing the Devourer|QID|40901|M|25.32,58.31|U|133756|N|Use the bait to lure Grimwing. Kill and Loot his head.|
-C Discovery Requires Experimentation|QID|40683|M|27.41,61.01|US|N|Finish collecting the Felfire Spines.|RANK|2|
-C The Road to Fel|QID|40657|M|25.61,61.30|US|NC|N|Finish collecting the Fel-Infused Plate.|RANK|2|
-T Grimwing the Devourer|QID|40901|M|30.00,69.41|N|To Lyana Darksorrow (she has moved down the hill).|
+A Grimwing the Devourer|QID|40901|PRE|40307;40898|M|30.86,59.17|N|From Lyana Darksorrow.|
+C Grimwing the Devourer|QID|40901|M|25.76,58.62|U|133756|N|Use the bait to lure Grimwing. Kill and Loot his head.|
+C Discovery Requires Experimentation|QID|40683|M|27.41,61.01|US|N|Finish collecting the Felfire Spines.|
+C The Road to Fel|QID|40657|M|25.61,61.30|US|NC|N|Finish collecting the Fel-Infused Plate.|
+T Grimwing the Devourer|QID|40901|M|30.00,69.41|N|To Lyana Darksorrow (She has moved down the hill, easy to spot, just look for a couple dead Demons).|
 A A Fate Worse Than Dying|QID|40328|PRE|40901|M|30.00,69.41|N|From Lyana Darksorrow.|
 A Symbols of Power|QID|40929|PRE|40901|M|30.00,69.41|N|From Lyana Darksorrow.|
 T The Road to Fel|QID|40657|M|26.77,70.86|N|To Kyrtos.|RANK|2|
-T Discovery Requires Experimentation|QID|40683|M|26.77,70.86|N|To Kyrtos.|RANK|2|
-A One Small Step for Magic|QID|40694|PRE|40683|M|26.77,70.86|N|From Kyrtos.|RANK|2|
-C One Small Step for Magic|QID|40694|M|26.70,70.93|N|Tell Kyrtos you are ready and then kill the mob he summons.|RANK|2|
-T One Small Step for Magic|QID|40694|M|26.76,70.81|N|To Kyrtos.|RANK|2|
+T Discovery Requires Experimentation|QID|40683|M|26.77,70.86|N|To Kyrtos.|
+A One Small Step for Magic|QID|40694|PRE|40657;40683|M|26.77,70.86|N|From Kyrtos.|RANK|2|
+C One Small Step for Magic|QID|40694|M|26.70,70.93|N|Tell Kyrtos you are ready and then kill the mob he summons.|
+T One Small Step for Magic|QID|40694|M|26.76,70.81|N|To Kyrtos.|
 A The Black Tome|QID|40713|PRE|40694|M|26.76,70.81|N|From Kyrtos.|RANK|2|
 A Fel Bent for Leather|QID|40919|PRE|40694|M|26.76,70.81|N|From Kyrtos.|RANK|2|
 A Power! Get The Power!|QID|40642|PRE|40694|M|26.76,70.81|N|From Kyrtos.|RANK|2|
-C Fel Bent for Leather|QID|40919|M|30.86,70.42|U|133925|N|Use item to pull Felbats down, kill and loot for Hide Scraps.|RANK|2|
-C Power! Get The Power!|QID|40642|M|33.85,66.80|S|N|Kill Demons for Fel Essence.|RANK|2|
+C Fel Bent for Leather|QID|40919|M|30.86,70.42|U|133925|N|Use item to pull Felbats down, kill and loot for Hide Scraps.|
+C Power! Get The Power!|QID|40642|M|33.85,66.80|S|N|Kill Demons for Fel Essence.|
 C Symbols of Power|QID|40929|M|33.85,66.80|S|N|Kill Demons for Legion Emblem.|
 C A Fate Worse Than Dying|QID|40328|M|33.85,66.80|NC|S|N|Free Felsoul Captives in the area.|
 K Kill Lady Rivantas|QID|44675|QO|1|M|35.61,67.30|N|Silver - Go upstairs to find more demons captives and this silver to kill for treasure and resources.|RANK|2|
 C A Fate Worse Than Dying|QID|40328|M|33.85,66.80|NC|US|N|Finish freeing Felsoul Captives in the area.|
 C Symbols of Power|QID|40929|M|28.18,64.37|US|QO|1|N|Finish collecting Legion Emblems.|
-C Power! Get The Power!|QID|40642|M|28.81,64.28|US|QO|1|N|Finish collecting Fel Essence.|RANK|2|
+C Power! Get The Power!|QID|40642|M|28.81,64.28|US|QO|1|N|Finish collecting Fel Essence.|
 T A Fate Worse Than Dying|QID|40328|M|30.02,69.39|N|To Lyana Darksorrow.|
 T Symbols of Power|QID|40929|M|30.02,69.39|N|To Lyana Darksorrow.|
 A Shard of Vorgos|QID|41097|PRE|40328;40329|M|30.02,69.39|N|From Lyana Darksorrow.|
 A Shard of Kozak|QID|41098|PRE|40328;40329|M|30.02,69.39|N|From Lyana Darksorrow.|
-R Halls of the Eclipse|QID|41139|M|29.05,84.58;27.71,84.93;26.87,86.28|CC|N|Run down to the SW Corner of the area. If you don't have 250 Ancient Mana on you be sure and gather it as you run down.|
-C The Black Tome|QID|40713|M|29.68,82.85|QO|1|N|Pick up the The Black Tome floating in front of the alter.|RANK|2|
-C The Black Tome|QID|40713|M|29.68,82.85|QO|2|N|Kill Grand Summoner Abraxeton.|T|Grand Summoner Abraxeton|RANK|2|
+C The Black Tome|QID|40713|M|29.68,82.85|QO|1|N|Run down to the SW Corner of Felsoul Hold.\nPick up the The Black Tome floating in front of the alter.|
+C The Black Tome|QID|40713|M|29.68,82.85|QO|2|N|Kill Grand Summoner Abraxeton.|T|Grand Summoner Abraxeton|
 A The Key Is Around Here Somewhere...|QID|41139|M|28.44,82.74|N|From Angus Stormbrew.|RANK|2|
-C The Key Is Around Here Somewhere...|QID|41139|M|28.64,81.29|NC|N|Loot Demonwaste Piles for Reinforced Cage Key.|RANK|2|
-T The Key Is Around Here Somewhere...|QID|41139|M|28.42,82.65|N|To Angus Stormbrew.|RANK|2|
+C The Key Is Around Here Somewhere...|QID|41139|M|28.64,81.29|NC|N|Loot Demonwaste Piles for Reinforced Cage Key.|
+T The Key Is Around Here Somewhere...|QID|41139|M|28.42,82.65|N|To Angus Stormbrew.|
 A Search and Rescue!|QID|41140|M|28.42,82.65|N|From Angus Stormbrew.|PRE|41139|RANK|2|
-C Search and Rescue!|QID|41140|M|28.42,82.65|QO|1|NC|N|Release Angus Stormbrew|RANK|2|
-C Search and Rescue!|QID|41140|M|28.98,84.65|QO|2|NC|N|Enter the Soul Vaults|RANK|2|
+C Search and Rescue!|QID|41140|M|28.42,82.65|QO|1|NC|N|Release Angus Stormbrew|
+R Halls of the Eclipse|QID|41140|M|29.05,84.58;27.71,84.93;26.87,86.28|CC|N|If you don't have 250 Ancient Mana on you be sure and gather it as you run down.|
+C Search and Rescue!|QID|41140|M|28.98,84.65|QO|2|NC|N|Enter the Halls of the Eclipse|
 A Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|N|From Leyline Feed. (250 Ancient Mana)|
 C Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|NC|N|Uses up 250 Ancient Mana.|
 T Leyline Feed: Halls of the Eclipse|QID|43594|M|27.28,86.52|N|To Leyline Feed.|
-C Search and Rescue!|QID|41140|M|27.19,86.06|QO|3|NC|N|Find Brambley's Cage|RANK|2|
-C Shard of Kozak|QID|41098|M|26.09,85.79|N|Kill Kozak and loot the shard.|RANK|2|
-$ Small Treasure Chest|QID|43831|M|25.97,85.46|N|Loot for some treasure and resources.|RANK|2|
-C Search and Rescue!|QID|41140|M|27.54,88.97|QO|4|NC|N|Felsoul Cage Key (downstairs).|RANK|2|
+C Search and Rescue!|QID|41140|M|27.19,86.06|QO|3|NC|N|Find Brambley's Cage|
+C Shard of Kozak|QID|41098|M|26.09,85.79|N|Kill Kozak and loot the shard.|
+C Search and Rescue!|QID|41140|M|27.54,88.97|QO|4|NC|N|Felsoul Cage Key (downstairs).|
 $ Shimmering Mana Cluster|QID|43748|M|29.75,88.00|ITEM|141655|N|Continue on down to find some storable, but non-stackable mana.|RANK|2|
-C Search and Rescue!|QID|41140|M|27.09,86.06|QO|5|NC|N|Back up to release the nightfallen prisoner.|RANK|2|
-T Search and Rescue!|QID|41140|M|27.09,86.06|N|To Selthaes Starsong.|RANK|2|
+C Search and Rescue!|QID|41140|M|27.09,86.06|QO|5|NC|N|Back up to release the nightfallen prisoner.|
+T Search and Rescue!|QID|41140|M|27.09,86.06|N|To Selthaes Starsong.|
 A Into The Pit!|QID|41222|M|27.12,86.16|N|From Angus Stormbrew.|PRE|41140|RANK|2|
-R Kyrtos's cave|QID|40713|M|26.74,70.80|N|Run back up to Kyrtos' cave and turn in/get follow up.|RANK|2|
-T The Black Tome|QID|40713|M|26.74,70.80|N|To Kyrtos.|RANK|2|
-T Fel Bent for Leather|QID|40919|M|26.74,70.80|N|To Kyrtos.|RANK|2|
-T Power! Get The Power!|QID|40642|M|26.74,70.80|N|To Kyrtos.|RANK|2|
-A The Bigger They Are, The Harder They Fel|QID|42366|M|26.74,70.80|PRE|40642|RANK|2|
-P The Bigger They Are, The Harder They Fel|QID|42366|M|26.33,71.00|N|Click portal to follow Kyrtos.|RANK|2|
-C The Bigger They Are, The Harder They Fel|QID|42366|M|32.71,74.84|QO|1|CHAT|N|Chat with Kyrtos to start the ritual, when he decides he wants your soul, kill him.|RANK|2|
-P The Bigger They Are, The Harder They Fel|QID|42366|M|32.71,74.84|N|Use portal to return to Kyrtos' cave.|RANK|2|
-C Into The Pit!|QID|41222|CS|M|30.51,80.60;33.33,74.22;34.27,74.04|NC|N|Escort Angus to Felmaw Cavern|RANK|2|
-T Into The Pit!|QID|41222|M|34.26,73.98|N|To Angus Stormbrew.|RANK|2|
+R Kyrtos's cave|QID|40713|ACTIVE|40713|M|26.74,70.80|N|Run back up to Kyrtos' cave and turn in/get follow up.|
+T The Black Tome|QID|40713|M|26.74,70.80|N|To Kyrtos.|
+T Fel Bent for Leather|QID|40919|M|26.74,70.80|N|To Kyrtos.|
+T Power! Get The Power!|QID|40642|M|26.74,70.80|N|To Kyrtos.|
+A The Bigger They Are, The Harder They Fel|QID|42366|M|26.74,70.80|PRE|40642|N|From Kyrtos.\nUse His portal that he makes.|RANK|2|
+C The Bigger They Are, The Harder They Fel|QID|42366|M|32.71,74.84|QO|1|CHAT|N|Chat with Kyrtos to start the ritual, when he decides he wants your soul, kill him.\nWhen Finished, a portal will appear to take you back to His cave.|
+C Into The Pit!|QID|41222|CS|M|30.51,80.60;33.33,74.22;34.27,74.04|NC|N|Escort Angus to Felmaw Cavern|
+T Into The Pit!|QID|41222|M|34.26,73.98|N|To Angus Stormbrew.|
 A Parts Unknown|QID|41214|M|34.26,73.98|N|From Angus Stormbrew.|PRE|41222|RANK|2|
-C Parts Unknown|QID|41214|M|34.31,74.04|QO|1|NC|N|Loot Skull, Standing on it.|RANK|2|
-C Parts Unknown|QID|41214|M|35.19,73.81|QO|2|NC|N|Pick up bone off of ground.|RANK|2|
-C Parts Unknown|QID|41214|M|35.73,72.51|QO|3|NC|N|Pick up bone off of ground.|RANK|2|
-C Parts Unknown|QID|41214|M|37.16,72.35|QO|4|NC|N|Pick up bone off of ground.|RANK|2|
-C Parts Unknown|QID|41214|M|36.48,71.28|QO|5|NC|N|Pick up bone off of ground.|RANK|2|
-C Parts Unknown|QID|41214|M|35.83,70.79|QO|6|NC|N|1Pick up dagger off of ground.|RANK|2|
-T Parts Unknown|QID|41214|M|35.85,70.82|N|To Angus Stormbrew.|RANK|2|
+C Parts Unknown|QID|41214|M|34.31,74.04|QO|1|NC|N|Loot Skull, Standing on it.|
+C Parts Unknown|QID|41214|M|35.19,73.81|QO|2|NC|N|Pick up bone off of ground.|
+C Parts Unknown|QID|41214|M|35.73,72.51|QO|3|NC|N|Pick up bone off of ground.|
+C Parts Unknown|QID|41214|M|37.16,72.35|QO|4|NC|N|Pick up bone off of ground.|
+C Parts Unknown|QID|41214|M|36.48,71.28|QO|5|NC|N|Pick up bone off of ground.|
+C Parts Unknown|QID|41214|M|35.83,70.79|QO|6|NC|N|1Pick up dagger off of ground.|
+T Parts Unknown|QID|41214|M|35.85,70.82|N|To Angus Stormbrew.|
 A Mangelrath|QID|41309|M|35.85,70.82|N|From Angus Stormbrew.|PRE|41214|RANK|2|
-C Mangelrath|QID|41309|M|35.39,71.01|QO|1|N|Kill Mangelrath.|RANK|2|
-C Mangelrath|QID|41309|M|35.13,70.73|QO|2|CHAT|N|Speak with Brambley Morrison.|RANK|2|
-C Mangelrath|QID|41309|M|35.46,71.30|QO|3|NC|N|Follow Brambley Morrison, down the fel lava.|RANK|2|
-T Mangelrath|QID|41309|M|35.80,72.44|N|To Brambley Morrison.|RANK|2|
+C Mangelrath|QID|41309|M|35.39,71.01|QO|1|N|Kill Mangelrath.|
+C Mangelrath|QID|41309|M|35.13,70.73|QO|2|CHAT|N|Speak with Brambley Morrison.|
+C Mangelrath|QID|41309|M|35.46,71.30|QO|3|NC|N|Follow Brambley Morrison, down the fel lava.|
+T Mangelrath|QID|41309|M|35.80,72.44|N|To Brambley Morrison.|
 R The Arcway|QID|41097|M|32.75,82.34;35.70,82.23|CC|N|Run east towards Felsoul Hold, The Arcway|
 R Towards Vorgos|QID|41097|M|61.43,84.82;51.20,57.65;50.24,18.33|Z|Suramar/23|CS|N|Run over to the East of the area. Felsoul Teleporter in same area.|
 C Shard of Vorgos|QID|41097|M|50.24,18.33|Z|Suramar/23|N|Kill Vorgos and loot his shard.|
@@ -1086,10 +1085,44 @@ T Shard of Vorgos|QID|41097|M|30.87,85.00|N|To Portal Activation Alter.|
 A Azoran Must Die|QID|40412|PRE|41097;41098|M|31.04,85.01|N|From Lyana Darksorrow.|
 C Azoran Must Die|QID|40412|M|32.27,75.68|N|Use the portal to enter The Lightbreaker. Go up any ramp, to get to Azoran, kill him.|
 $ Treasure Chest|QID|43834|M|32.28,77.09|N|Back down to the lower level of The Lightbreaker. Loot for a bit of treasure and resources.|RANK|2|
-P Felsoul Hold|QID|40412|M|33.08,75.14|N|Take the portal back down to the ground.|
+P Felsoul Hold|QID|40412|ACTIVE|40412|M|33.08,75.14|N|Take the portal back down to the ground.|
 T Azoran Must Die|QID|40412|M|31.15,84.61|N|To Lyana Darksorrow.|
 H Shal'Aran|QID|42366|M|36.87,46.60|N|Return to Shal'Aran, Hearth or use Portal in Arcway.|
-T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|N|To First Arcanist Thalyssra.|RANK|2|
+T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|N|To First Arcanist Thalyssra.|
+
+; Quests to fill in while waiting to hit Honoured.
+
+N You are Rep Gated|QID|41107|REP|The Nightfallen;1859;unknown-friendly;5999|N|Next Chain requires Honored, so here are some quests you can do between the World Quests to reach honoured.|RANK|2|
+N Bad Apples|QID|41107|N|Quest is near the Menagerie, either run that way, or use the Sanctum of Order Portal.|RANK|2|
+A Bad Apples|QID|41107|M|42.44,59.32;44.27,56.60;47.25,56.50|CS|N|From Keelay Moongrow|RANK|2|
+A Blast of Spice Fish|QID|41256|M|47.25,56.50|N|From Keelay Moongrow|RANK|2|
+R Meredil|QID|41107|M|34.39,49.95|N|The fruit and poison can be found out in the South part of Meridil.|RANK|2|
+A Noressa|QID|45056|PRE|40798|M|39.53,51.18|N|From Absolon.|RANK|2|
+C Bad Apples|QID|41107|M|38.35,57.15|S|NC|N|Look for the bushes.|RANK|2|
+C Blast of Spice Fish|QID|41256|M|38.35,57.15|N|Kill frogs|RANK|2|
+C Bad Apples|QID|41107|M|38.35,57.15|NC|US|N|Look for the bushes.|RANK|2|
+R To Noressa|QID|45056|ACTIVE|45056|M|39.58,60.06;39.05,66.24;41.01,69.28|CC|N|Run into the City, The guard in the house with her can see illusions.|RANK|2|
+C Noressa|QID|45056|M|40.88,69.63|N|Noressa found.|RANK|2|
+T Noressa|QID|45056|M|39.05,66.24;39.58,60.06;39.52,51.17|CS|N|Run back to turn in to Absolon.|RANK|2|
+T Blast of Spice Fish|QID|41256|M|47.25,56.50|CS|N|To Keelay Moongrow, back near the Sanctum of Enlightenment.|RANK|2|
+T Bad Apples|QID|41107|M|47.25,56.50|N|To Keelay Moongrow|RANK|2|
+A Fruit of the Doom|QID|41258|PRE|41256|M|47.25,56.50|N|From Keelay Moongrow|RANK|2|
+C Fruit of the Doom|QID|41258|M|47.2,56.6|NC|N|Click on the bowls of fruit scattered around.|RANK|2|
+T Fruit of the Doom|QID|41258|M|47.25,56.50|N|To Keelay Moongrow|RANK|2|
+K Kill Lieutenant Strathmar|QID|40905|M|48.03,55.38;48.55,56.71|CS|T|Lieutenant Strathmar|N|Silver - Lieutenant Strathmar, for a bit of treasure and resources.|RANK|2|
+R The Menagerie|QID|41216|M|44.27,56.60;45.23,57.72;48.95,62.18;51.61,58.71|CS|N|Head to The Menagerie|RANK|2|
+A Survival of the Fittest|QID|41216|PRE|41215|M|50.70,56.56|N|From Nighteyes, Down in the water.|RANK|2|
+C Survival of the Fittest|QID|41216|M|50.99,54.33;48.86,52.38|CS|U|134119|N|Target the Bound, Captive, or Confined creatures and use the overloaded coller to free them. As you move towards where you'll turn in the Quest. Some creatures will attack you.|RANK|2|
+T Survival of the Fittest|QID|41216|M|47.97,52.22|N|To Nighteyes.|RANK|2|
+A Apex Predator|QID|41231|M|47.97,52.22|N|From Nighteyes.|RANK|2|PRE|41216|
+C Apex Predator|QID|41231|M|46.70,53.26|QO|1|N|Graedis Oenthar slain, dont worry about the Devilsaur.|RANK|2|
+T Apex Predator|QID|41231|M|47.95,52.29|N|To Nighteyes.|RANK|2|
+A Shalassic Park|QID|43582|M|47.95,52.29|N|From Nighteyes.|RANK|2|PRE|41231|
+C Shalassic Park|QID|43582|M|47.01,53.04|NC|QO|1|N|Release Su'esh, by right clicking on her.|RANK|2|
+C Shalassic Park|QID|43582|M|52.02,55.71|QO|2|N|Escape the Menagerie, run the 'saur to this point|RANK|2|
+C Shalassic Park|QID|43582|M|56.05,56.49|QO|3|N|Adversaries slain - trample or eat the demons till you get 50.|RANK|2|
+T Shalassic Park|QID|43582|M|50.71,56.60|N|To Nighteyes, back in the water.|RANK|2|
+K Kill Degren|QID|43792|M|54.43,56.13|T|Degren|N|Silver - Noble Blademaster, for a bit of treasure and resources.|RANK|2|
 
 ; Good Suramaritan - Blood and Wine storyline. Requires Honored
 
@@ -1157,20 +1190,6 @@ $ Small Treasure Chest|QID|43865|M|48.13,73.20|N|Look up to see grapple point, g
 C Asset Security|QID|43352|M|45.80,75.43|NC|QO|1|N|From the ground, run to this point, look up, Grapple to the stash location0|
 C Asset Security|QID|43352|M|44.51,74.43|QO|2|N|Kill Auditor Yvenne.|
 
-R Menagerie|QID|41216|M|46.71,73.25;48.05,65.37;49.87,60.16;52.06,53.36|CS|N|Run along the canal and then up a set of stairs, across the Concourse of Destiny and the Moonbeam Causeway to the Menagerie.|RANK|2|
-A Survival of the Fittest|QID|41216|PRE|41215|M|50.70,56.56|N|From Nighteyes, Down in the water.|RANK|2|
-C Survival of the Fittest|QID|41216|M|50.99,54.33;48.86,52.38|CS|U|134119|N|Target the captive creature and use the overloaded coller to free them. Some will attack you.|RANK|2|
-T Survival of the Fittest|QID|41216|M|47.97,52.22|N|To Nighteyes.|RANK|2|
-A Apex Predator|QID|41231|M|47.97,52.22|N|From Nighteyes.|RANK|2|PRE|41216|
-C Apex Predator|QID|41231|M|46.70,53.26|QO|1|N|Graedis Oenthar slain, dont worry about the Devilsaur.|RANK|2|
-T Apex Predator|QID|41231|M|47.95,52.29|N|To Nighteyes.|RANK|2|
-A Shalassic Park|QID|43582|M|47.95,52.29|N|From Nighteyes.|RANK|2|PRE|41231|
-C Shalassic Park|QID|43582|M|47.01,53.04|NC|QO|1|N|Release Su'esh, by right clicking on her.|RANK|2|
-C Shalassic Park|QID|43582|M|52.02,55.71|QO|2|N|Escape the Menagerie, run the 'saur to this point|RANK|2|
-C Shalassic Park|QID|43582|M|56.05,56.49|QO|3|N|Adversaries slain - trample or eat the demons till you get 50.|RANK|2|
-T Shalassic Park|QID|43582|M|50.71,56.60|N|To Nighteyes, back in the water.|RANK|2|
-R Sanctum of Enlightenment|QID|41216|M|52.06,56.36;49.87,60.16|CS|N|Out of the Managerie, back across the Moonbeam Causeway and into the Sanctum of Enlightenment. Use the teleport pad. and then avoiding Lt. Strathmar(or not) as you pass thru his building.|RANK|2|
-
 R Vineyard|QID|42841|M|47.50,50.83|N|From the Sanctum of Enlightenment, run along The Grand Promanade until you arrive at The Vineyard.|RANK|2|
 R Vineyard|QID|42841|M|46.71,73.25;48.05,65.37;49.87,60.16;47.50,50.83|CS|N|Run along the canal and then up a set of stairs, across the Concourse of Destiny and use the Teleport pad at the Sanctum of Enlightenment, continue on the outer ring of the city (Grand Promanade to the Vineyard.|RANK|-1|
 C A Big Score|QID|42841|M|53.43,54.41|NC|N|Pick up the Thousand-Year Arcwine. Be stealthy or slaughter everything in your path.|
@@ -1185,22 +1204,6 @@ T Make Your Mark|QID|42792|M|48.37,83.33|N|To Vanthir.|
 A And They Will Tremble|QID|44052|PRE|42792|M|48.37,83.33|N|From Vanthir.|
 P Shal'Aran|QID|44052|M|47.74,81.39|N|Use the portal or hearth.|
 T And They Will Tremble|QID|44052|M|36.91,46.58|N|To First Arcanist Thalyssra.|
-
-A Bad Apples|QID|41107|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
-A Blast of Spice Fish|QID|41256|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
-R Meridil|QID|41107|M|34.39,49.95|N|The fruit and poison can be found out in the South part of Meridil.|RANK|2|
-C Bad Apples|QID|41107|M|38.35,57.15|S|NC|N|Look for the bushes.|RANK|2|
-C Blast of Spice Fish|QID|41256|M|38.35,57.15|N|Kill frogs|RANK|2|
-C Bad Apples|QID|41107|M|38.35,57.15|NC|US|N|Look for the bushes.|RANK|2|
-A Noressa|QID|45056|PRE|44876|M|39.53,51.18|N|From Absolon.|RANK|2|
-R To Noressa|QID|45056|M|39.58,60.06;39.05,66.24;41.01,69.28|CC|N|Run into the City, The guard in the house with her can see illusions.|RANK|2|
-C Noressa|QID|45056|M|40.88,69.63|N|Noressa found.|RANK|2|
-T Blast of Spice Fish|QID|41256|M|47.2,56.6|N|To Keelay Moongrow, back near the Sanctum of Enlightenment.|RANK|2|
-T Bad Apples|QID|41107|M|47.2,56.6|N|To Keelay Moongrow|RANK|2|
-A Fruit of the Doom|QID|41258|PRE|41256|M|47.2,56.6|N|From Keelay Moongrow|RANK|2|
-C Fruit of the Doom|QID|41258|M|47.2,56.6|NC|N|Click on the bowls of fruit scattered around.|RANK|2|
-T Fruit of the Doom|QID|41258|M|47.2,56.6|N|To Keelay Moongrow|RANK|2|
-T Noressa|QID|45056|M|39.05,66.24;39.58,60.06;39.52,51.17|CS|N|Run back to turn in to Absolon.|RANK|2|
 
 ; Good Suramaritan - Statecraft Story line - Quest chain at 8,000 Honoured.
 
