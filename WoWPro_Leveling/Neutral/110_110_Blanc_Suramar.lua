@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-20 20:31
+-- Who: Blanckaert
+-- Log: adjustment of the quest for today, Scenario quests objectives might need some work... 
+
+-- URL: http://wow-pro.com/node/3687/revisions/28168/view
 -- Date: 2016-12-20 06:34
 -- Who: Blanckaert
 -- Log: moved a couple of Quest blocks around, with have to check for the flow of other quests, after honoured and 8K Honoured.
@@ -249,11 +254,6 @@
 -- Date: 2016-10-28 01:19
 -- Who: Blanckaert
 -- Log: Add Kill King Morgalash, and added 'area' names on a few Treasures in case you missed when in those areas.
-
--- URL: http://wow-pro.com/node/3687/revisions/27959/view
--- Date: 2016-10-26 10:10
--- Who: Emmaleah
--- Log: Minor changes and adding treasure chest to Statecraft Storyline (44 treasures in the guide)
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1645,28 +1645,51 @@ C Felborne No More|QID|45064|M|65.53,54.42|QO|2|U|142491|N|Kill Felborne, Use Or
 C Felborne No More|QID|45064|M|66.06,56.00|QO|1|U|142491|T|Valthis Ama'ran|N|Kill Valthis Ama'ran|
 T Resisting Arrest|QID|45064|M|36.50,46.78|N|To First Arcanist Thalyssra.|
 
-N Shal'Aran|QID|45287|N|Quests for the next week are in guide. The info for any quest listed with a date [- 12/20] is incomplete, and may not work properly.|
+; Insurrection - Breaking the Nighthold - Storyline
 
-; Insurrection - Breaking the Highthold - Storyline - 12/20 - Not available yet.
+A Insurrection: Breaking the Nighthold|QID|45287|PRE|45064|N|From Khadgar in Dal?? - 12/20 - Breadcrumb quest?|
+t Insurrection: Breaking the Nighthold|QID|45287|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/20|
+A A Taste of Freedom|QID|45269|PRE|45064|M|36.49,45.83|N|From First Arcanist Thalyssra.|
+C A Taste of Freedom|QID|45269|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
+T A Taste of Freedom|QID|45269|M|36.49,45.83|N|To First Arcanist Thalyssra.|
+A I'll Just Leave This Here|QID|44964|PRE|45269|M|36.49,45.83|N|From First Arcanist Thalyssra.|
+R Teloth'aran|QID|44964|M|36.35,44.95;39.59,49.53;48.09,50.06;54.01,49.62;54.61,46.41|CS|QO|1|N|Portal to Elune'eth, then Run to Teloth'aran.|
+C I'll Just Leave This Here|QID|44964|M|57.50,80.12;62.42,49.43;55.19,33.46;49.34,48.01|Z|Suramar/22|CS|QO|1|N|Click on Energy Disruptor. (Why does it have to be spiders?)|
+R Kel'balor|QID|44964|M|55.45,47.46;57.89,46.64;59.39,43.10|CS|QO|2|N|Run to Kel'balor|
+C I'll Just Leave This Here|QID|44964|M|53.85,47.08;54.46,14.14|Z|Suramar/35|CS|QO|2|N|Click on Energy Disruptor. Watch out for the pinkish beam.|
+R Elor'shan|QID|44964|M|59.45,43.72;62.72,45.80;65.99,42.04|CS|QO|3|N|Run over to the Elor'shan Tunnel.|
+C I'll Just Leave This Here|QID|44964|M|47.94,49.58;46.26,16.33|Z|Suramar/34|CS|QO|3|N|Click on Engery Disruptor.|
+H Shal'Aran|QID|44964|ACTIVE|44964|M|46.26,16.33|Z|Suramar/34|N|Return to Shal'Aran, however you want.|
+T I'll Just Leave This Here|QID|44964|M|36.64,44.98|N|To First Arcanist Thalyssra, at THESE coords. (There are two in Shal'Aran)|
+A Breaching the Sanctum|QID|44719|M|36.62,45.08|N|From Chief Telemancer Oculeth.|
+C Breaching the Sanctum|QID|44719|M|36.63,45.02|QO|1|U|142118|N|1/1 Speak with Oculeth|
+C Breaching the Sanctum|QID|44719|M|44.89,67.44|QO|2|U|142118|N|1/1 Enter the portal|
+C The New Plan|QID|44719|SO|1|N|The teleport failed and you are outside the Sanctum. Find a way in.|
+C Magic Bars the Way|QID|44719|SO|2|S|N|A magical barrier bars the way. Find someway to break it.|
+C Find a weakness to the barrier.|QID|44719|M|46.89,66.02|SO|2;1|U|142118|N|Find a weakness to the barrier.|
+C Magic Bars the Way|QID|44719|SO|2|US|N|A magical barrier bars the way. Find someway to break it.|
+C Breaking the Barrier|QID|44719|SO|3|S|N|Kill the ritualists at each Mana Generator to take down the barrier.|
+C Shut down mana generators.|QID|44719|M|49.09,67.74|SO|3;1|U|142118|N|Shut down mana generators.|
+C Breaking the Barrier|QID|44719|SO|3|US|N|Kill the ritualists at each Mana Generator to take down the barrier.|
+C The Fall of Dalion|QID|44719|SO|4|S|N|Armsmaster Dalion stands guard at the entrance. Slay him to proceed.|
+C Kill Dalion.|QID|44719|M|45.91,65.73|SO|4;1|U|142118|N|Kill Dalion.|
+C The Fall of Dalion|QID|44719|SO|4|US|N|Armsmaster Dalion stands guard at the entrance. Slay him to proceed.|
+C Breaking Through|QID|44719|SO|5|S|N|Make your way deep into the Sanctum of Order and find the breach.|
+C Reach the bottom of the Sanctum of Order.|QID|44719|M|43.72,62.52|SO|5;1|N|Reach the bottom of the Sanctum of Order.|
+C Breaking Through|QID|44719|SO|5|US|N|Make your way deep into the Sanctum of Order and find the breach.|
+C Finally, Andaris|QID|44719|SO|6|S|U|142118|N|Use Withered to Drain Andaris's shield.|
+C Drain Andaris's shield.|QID|44719|M|43.69,62.33|SO|6;1|U|142118|N|Drain Andaris's shield.|
+C Finally, Andaris|QID|44719|SO|6|US|N|Use Withered to Drain Andaris's shield.|
+C Death to Andaris|QID|44719|SO|7|S|N|Andaris has fallen back to the breach. Slay her.|
+C Slay Andaris Narassin.|QID|44719|M|42.61,61.79|SO|7;1|U|142118|N|Slay Andaris Narassin.|
+C Death to Andaris|QID|44719|SO|7|US|N|Andaris has fallen back to the breach. Slay her.|
+C Reach the entrance to the Nighthold.|QID|44719|M|44.13,60.04|SO|8;1|N|Reach the entrance to the Nighthold.|
+C Breaching the Sanctum|QID|44719|M|44.13,60.04|QO|3|U|142118|N|1/1 Secure the breach|
+T Breaching the Sanctum|QID|44719|M|44.18,60.12|N|To Archmage Khadgar.|
+A Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|From Archmage Khadgar. *Raid Quest*|
 
-A Insurrection: Breaking the Highthold|QID|45287|PRE|45064|N|Not sure if given as UI Alert? Khadgar? - 12/20|
-T Insurrection: Breaking the Highthold|QID|45287|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/20|
-A A Taste of Freedom|QID|45269|PRE|45287|M|36.50,46.78|N|From First Arcanist Thalyssra. - 12/20|
-C A Taste of Freedom|QID|45269|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee. - 12/20|
-T A Taste of Freedom|QID|45269|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/20|
-A I'll Just Leave This Here|QID|44964|PRE|45269|M|36.50,46.72|N|From First Arcanist Thalyssra - 12/20|
-C I'll Just Leave This Here|QID|44964|N|Teloth'aran Disruptor Placed - 12/20|
-C I'll Just Leave This Here|QID|44964|N|Kel'balor Disruptor Placed - 12/20|
-C I'll Just Leave This Here|QID|44964|N|Elor'shan Disruptor Placed - 12/20|
-T I'll Just Leave This Here|QID|44964|N|Unknown turn-in - 12/20|
-A Breaching the Sanctun|QID|44719|PRE|44964|N| Unknown who gives - 12/20|
-C Breaching the Sanctun|QID|44719|N|Talk to Oculeth - 12/20|
-P Breaching the Sanctun|QID|44719|ACTIVE|44719|N|Take Portal to (wherever) - 12/20|
-C Breaching the Sanctun|QID|44719|N|Secure The Breach - 12/20|
-T Breaching the Sanctun|QID|44719|N| Unknown Turn-in - 12/20|
-A Lord of the Shadow Council|QID|45417|PRE|44719|N|Unknown Giver - 12/20|
-C Lord of the Shadow Council|QID|45417|N|Kill Gul'dan - 12/20|
-T Lord of the Shadow Council|QID|45417|N| Unknown Turnin - 12/20|
+N Suramar|QID|45417|N|That completes the Guide? I don't know yet, stay turned next week...|
+t Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|To Archmage Khadgar. (In Dal?)|
 
 ]]
 
