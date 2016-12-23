@@ -872,7 +872,7 @@ function WoWPro.NextStep(k,i)
         
 		-- Skipping reputation quests if their requirements are met --
 		if WoWPro.rep and WoWPro.rep[k] and not skip then
-			local rep, factionIndex, temprep, replvl = string.split(";",WoWPro.rep[k])
+			local rep, factionIndex, temprep, replvl, flip = string.split(";",WoWPro.rep[k])
 			WoWPro:dbp("ConsiderRep(%d, %s [%s] %s)",k,WoWPro.action[k],WoWPro.step[k],WoWPro.rep[k]);
 			if temprep == nil then temprep = "neutral-exalted" end
 			local repmin,repmax = string.split("-",temprep)
@@ -970,6 +970,11 @@ function WoWPro.NextStep(k,i)
 			if WoWPro.action[k] == "A" and standingId < 3 and repmin > 3 and skip then
 			    WoWProCharDB.Guide[GID].skipped[k] = true
 			    WoWPro:SetQIDsInTable(QID,WoWProCharDB.skippedQIDs)
+			end
+			-- OK Now for the FLIP!
+			if flip then
+			    skip = not flip
+			    WoWPro:dbp("!? Processed flip: skip=%s", tostring(skip))
 			end
         end
         
