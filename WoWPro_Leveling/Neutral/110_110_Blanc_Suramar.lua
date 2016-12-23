@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-23 11:52
+-- Who: Emmaleah
+-- Log: mostly changes to the scenario. other minor changes. in the 12/13 and 12/20 quest lines.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28169/view
 -- Date: 2016-12-20 20:31
 -- Who: Blanckaert
 -- Log: adjustment of the quest for today, Scenario quests objectives might need some work... 
@@ -250,11 +255,6 @@
 -- Who: Blanckaert
 -- Log: Added note on Shimmering Ancient Mana Cluster -  Does NOT stack. 
 
--- URL: http://wow-pro.com/node/3687/revisions/27963/view
--- Date: 2016-10-28 01:19
--- Who: Blanckaert
--- Log: Add Kill King Morgalash, and added 'area' names on a few Treasures in case you missed when in those areas.
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideAutoSwitch(guide)
@@ -267,7 +267,7 @@ L This guide (and the Suramar zone) requires level 110|LVL|110|
 N Use of Ranks|QID|39987|N|If you would rather do the optional quests on your own, as you come across them on world quests set your quide to rank 2.|
 N Treasures and Rares|QID|39987|N|As with other guides all treasures and rares are set to rank 2 - or for the really out of the way ones, rank 3.|
 
-; Quests either REQUIRE lvl 110, AND/OR opening Suramar (QID#42229)
+; Quests either REQUIRE lvl 110, AND opening Suramar (QID#42229)
 
 ; Nightfallen But Not Forgotten - Nightfall
 
@@ -1555,13 +1555,13 @@ C Ready for Battle|QID|44739|M|41.64,51.49|QO|2|CHAT|N|Speak to Tyrande Whisperw
 C Ready for Battle|QID|44739|M|42.96,51.41|QO|1|CHAT|N|Speak to Vereesa Windrunner|
 T Ready for Battle|QID|44739|M|41.07,51.80|N|To Archmage Khadgar.|
 A Full Might of the Elves|QID|44738|PRE|44739|M|41.07,51.80|N|From Archmage Khadgar.|
-C Secure the Promenade|SO|1|S|N|Secure the Grand Promenade.|
-C Defeat the Promenade Vanguard|M|42.74,54.55|SO|1;2|N|Defeat the Promenade Vanguard|
-C Defeat the Promenade Defenders|M|43.40,55.75|SO|1;1|N|Defeat the Promenade Defenders|
-C Secure the Promenade|SO|1|US|N|Secure the Grand Promenade.|
-C Defeat the Ancient Shieldguard|SO|2|S|N|Defeat the Ancient Shieldguard|
-C Secure the Concourse of Destiny|SO|3|S|N|Run and kill Guards as you go.|
-C Telemancy Trap Placed.|M|50.71,66.37|SO|4|NC|N|Click on Telemancy Trap.|
+C Secure the Promenade|QID|44738|SO|1|S|N|Secure the Grand Promenade.|
+C Defeat the Promenade Vanguard|QID|44738|M|42.74,54.55|SO|1;2|N|Defeat the Promenade Vanguard|
+C Defeat the Promenade Defenders|QID|44738|M|43.40,55.75|SO|1;1|N|Defeat the Promenade Defenders|
+C Secure the Promenade|QID|44738|SO|1|US|N|Secure the Grand Promenade.|
+C Defeat the Ancient Shieldguard|QID|44738|SO|2|S|N|Defeat the Ancient Shieldguard|
+C Secure the Concourse of Destiny|QID|44738|SO|3|S|N|Run and kill Guards as you go.|
+C Telemancy Trap Placed|QID|44738|M|50.71,66.37|SO|4|NC|N|Click on Telemancy Trap.|
 C Full Might of the Elves|QID|44738|M|50.71,66.37|N|March on Suramar City.|
 T Full Might of the Elves|QID|44738|M|52.25,68.73|N|Run To Archmage Khadgar and turn-in.|
 A Staging Point|QID|44740|PRE|44738|M|52.25,68.73|N|From Archmage Khadgar.|
@@ -1614,77 +1614,76 @@ A A Challenge From Our Enemies|QID|44919|PRE|44918|M|36.50,45.83|N|From First Ar
 P Lunastre Estate|QID|44919|QO|1|ACTIVE|44919|M|36.17,45.06|N|Take portal to the Estate.|
 C A Challenge From Our Enemies|QID|44919|QO|3|M|42.17,75.06|NC|S|T|Terrified|N|Rescue the Terrified Citizens.|
 C A Challenge From Our Enemies|QID|44919|QO|2|M|43.23,76.33|NC|N|Stand near Andaris.|
-C A Challenge From Our Enemies|QID|44919|M|42.17,75.06|US|NC|N|Rescue the Terrified Citizens.|
+C A Challenge From Our Enemies|QID|44919|QO|3|M|42.17,75.06|US|T|Terrified|NC|N|Rescue the Terrified Citizens.|
 P Shal'Aran|QID|44919|ACTIVE|44919|M|43.70,79.25|N|Take portal back to Shal'Aran.|
 T A Challenge From Our Enemies|QID|44919|M|36.50,45.83|N|To First Arcanist Thalyssra.|
 A The Felsoul Experiments|QID|45063|PRE|44919|M|36.50,46.72|N|From First Arcanist Thalyssra.|
 A Telemantic Expanse|QID|45067|PRE|44919|M|36.50,45.83|N|From First Arcanist Thalyssra.|
 T Telemantic Expanse|QID|45067|M|36.63,45.08|N|To Chief Telemancer Oculeth.|
 A Survey the City|QID|45065|PRE|45067|M|36.63,45.08|N|From Chief Telemancer Oculeth.|
-P Astravar Harbor|QID|45065|ACTIVE|45065|M|36.76,45.05|N|Take Portal to the Harbour.|
-R Terrace of Order|QID|45065|ACTIVE|45065|M|36.69,44.67;47.89,62.16;46.02,60.99|CS|N|Run to the Terrace.|
+P Astravar Harbor|QID|45065|ACTIVE|45065|M|36.76,45.05|N|Take Portal to the Harbor.|
+R Concourse of Destiny|QID|45065|ACTIVE|45065|M|47.73,63.90|CS|N|Take the teleporter down.|
 C Survey the City|QID|45065|M|47.73,63.90|QO|1|U|142405|N|Survey Terrace of Order \n Careful, disguise drops as you use it.|
-R Felsoul Hold|QID|45063|ACTIVE|45063|M|38.9,60.53;34.63,58.64;32.43,62.50|CS|N|Run to Felsooul Hold, Northern end. Using portal from Shal'Aran puts you in the southern end.|
+R Felsoul Hold|QID|45063|ACTIVE|45063|M|38.9,60.53;34.63,58.64;32.43,62.50|CS|N|Run to Felsoul Hold, Northern end. Using portal from Shal'Aran puts you in the southern end.|
 C The Felsoul Experiments|QID|45063|M|28.45,61.32;32.12,66.47;31.37,65.74|NC|CS|U|142399|N|Use Orb to have Withered attack it.|
 T The Felsoul Experiments|QID|45063|N|To First Arcanist Thalyssra, via UI Alert.|
 A Resisting Arrest|QID|45062|PRE|45063|N|From First Arcanist Thalyssra, via UI Alert.|
-C Resisting Arrest|QID|45062|M|34.63,67.49|QO|1|U|142400|N|Use Orb to disable the Power Source.|
-T Survey the City|QID|45065|N|To Chief Telemancer Oculeth.|
+C Resisting Arrest|QID|45062|M|34.63,67.49|U|142400|N|Use Orb to disable the Power Source.|
+H Shal'Aran|QID|45065|M|34.63,67.49|N|Use your hearthstone or flightmasters whistle or just run back to Shal'Aran.|
+T Resisting Arrest|QID|45064|M|36.50,45.82|N|To First Arcanist Thalyssra.|
+T Survey the City|QID|45065|M|36.63,45.08|N|To Chief Telemancer Oculeth.|
 A Experimental Instability|QID|45066|PRE|45065|M|36.63,45.08|N|From Chief Telemancer Oculeth.|
-R Oculeth's Workshop|QID|45066|ACTIVE|45066|M|34.28,49.82;39.45,49.60;45.17,50.28;48.49,49.24|CS|N|Run to Oculeth's Workshop.|
-C Experimental Instability|QID|45066|M|49.36,48.34|QO|1|N|Run onto teleporter in building.|
-C Experimental Instability|QID|45066|QO|2|N|Find Discarded Orbs, laying around on ground. You click the mini portals to stop mobs from spawning.|
-C Experimental Instability|QID|45066|M|58.51,35.74|QO|2|N|Find Telemancy Notes|
+P Ruins of Elune'eth|QID|45066|M|36.33,44.92|N|Take the portal to the Ruins of Elune'eth for a slightly shorter trip.|ACTIVE|45066|
+R Oculeth's Workshop|QID|45066|ACTIVE|45066|M|39.45,49.60;45.17,50.28;48.49,49.24|CS|N|Run to Oculeth's Workshop.|
+C Experimental Instability|QID|45066|M|49.36,48.34|NC|QO|1|N|Run onto teleporter in building.|
+C Experimental Instability|QID|45066|NC|QO|3|N|Find Discarded Orbs, laying around on ground. You click the mini portals to stop mobs from spawning.|
+C Experimental Instability|QID|45066|M|58.49,35.70|NC|QO|2|N|Find Telemancy Notes, lying in a box.|
 P Experimental Instability|QID|45066|ACTIVE|45066|M|59.06,36.15|N|Take portal back to Shal'Aran.|
 T Experimental Instability|QID|45066|M|36.63,45.08|N|To Chief Telemancer Oculeth.|
-T The Advisor and the Arcanist|QID|45064|M|36.50,46.72|N|To First Arcanist Thalyssra.|
-A Felborne No More|QID|45064|PRE|45063;45066|M|36.50,46.78|N|From First Arcanist Thalyssra.|
+
+A Felborne No More|QID|45064|PRE|45063;45066|M|36.49,45.83|N|From First Arcanist Thalyssra.|
 F Crimson Thicket|QID|45064|ACTIVE|45064|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
-R Felborne Outpost|QID|45065|ACTIVE|45064|M|64.48,46.78;65.06,53.28|CS|N|Run to Felborne Outpost.|
-C Felborne No More|QID|45064|M|65.53,54.42|QO|2|U|142491|N|Kill Felborne, Use Orb, or just kill outright.|
+R Felborne Outpost|QID|45064|ACTIVE|45064|M|64.48,46.78;65.06,53.28|CS|N|Run to Felborne Outpost.|
+C Felborne No More|QID|45064|M|65.53,54.42|QO|2|U|142491|S|N|Kill Felborne, Use Orb, or just kill outright.|
 C Felborne No More|QID|45064|M|66.06,56.00|QO|1|U|142491|T|Valthis Ama'ran|N|Kill Valthis Ama'ran|
-T Resisting Arrest|QID|45064|M|36.50,46.78|N|To First Arcanist Thalyssra.|
+C Felborne No More|QID|45064|M|65.53,54.42|QO|2|U|142491|US|N|Finish up killing Felborne.|
+H Shal'Aran|QID|45064|N|Hearth or otherwise make your way back to Shal'Aran.|ACTIVE|45064|
+T Felborne No More|QID|45064|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - Breaking the Nighthold - Storyline
 
-A Insurrection: Breaking the Nighthold|QID|45287|PRE|45064|N|From Khadgar in Dal?? - 12/20 - Breadcrumb quest?|
-t Insurrection: Breaking the Nighthold|QID|45287|M|36.50,46.72|N|To First Arcanist Thalyssra. - 12/20|
+A Insurrection: Breaking the Nighthold|QID|45287|PRE|45064|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+t Insurrection: Breaking the Nighthold|QID|45287|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A A Taste of Freedom|QID|45269|PRE|45064|M|36.49,45.83|N|From First Arcanist Thalyssra.|
 C A Taste of Freedom|QID|45269|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
 T A Taste of Freedom|QID|45269|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A I'll Just Leave This Here|QID|44964|PRE|45269|M|36.49,45.83|N|From First Arcanist Thalyssra.|
 R Teloth'aran|QID|44964|M|36.35,44.95;39.59,49.53;48.09,50.06;54.01,49.62;54.61,46.41|CS|QO|1|N|Portal to Elune'eth, then Run to Teloth'aran.|
-C I'll Just Leave This Here|QID|44964|M|57.50,80.12;62.42,49.43;55.19,33.46;49.34,48.01|Z|Suramar/22|CS|QO|1|N|Click on Energy Disruptor. (Why does it have to be spiders?)|
+C I'll Just Leave This Here|QID|44964|M|57.50,80.12;62.42,49.43;55.19,33.46;49.34,48.01|Z|Suramar/22|CS|NC|QO|1|N|Click on Energy Disruptor. (Why does it have to be spiders?)|
 R Kel'balor|QID|44964|M|55.45,47.46;57.89,46.64;59.39,43.10|CS|QO|2|N|Run to Kel'balor|
-C I'll Just Leave This Here|QID|44964|M|53.85,47.08;54.46,14.14|Z|Suramar/35|CS|QO|2|N|Click on Energy Disruptor. Watch out for the pinkish beam.|
+C I'll Just Leave This Here|QID|44964|M|53.85,47.08;54.46,14.14|Z|Suramar/35|CS|QO|2|NC|N|Click on Energy Disruptor. Watch out for the pinkish beam.|
 R Elor'shan|QID|44964|M|59.45,43.72;62.72,45.80;65.99,42.04|CS|QO|3|N|Run over to the Elor'shan Tunnel.|
-C I'll Just Leave This Here|QID|44964|M|47.94,49.58;46.26,16.33|Z|Suramar/34|CS|QO|3|N|Click on Engery Disruptor.|
+C I'll Just Leave This Here|QID|44964|M|47.94,49.58;46.26,16.33|Z|Suramar/34|CS|QO|3|NC|N|Click on Engery Disruptor.|
 H Shal'Aran|QID|44964|ACTIVE|44964|M|46.26,16.33|Z|Suramar/34|N|Return to Shal'Aran, however you want.|
 T I'll Just Leave This Here|QID|44964|M|36.64,44.98|N|To First Arcanist Thalyssra, at THESE coords. (There are two in Shal'Aran)|
 A Breaching the Sanctum|QID|44719|M|36.62,45.08|N|From Chief Telemancer Oculeth.|
-C Breaching the Sanctum|QID|44719|M|36.63,45.02|QO|1|U|142118|N|1/1 Speak with Oculeth|
-C Breaching the Sanctum|QID|44719|M|44.89,67.44|QO|2|U|142118|N|1/1 Enter the portal|
-C The New Plan|QID|44719|SO|1|N|The teleport failed and you are outside the Sanctum. Find a way in.|
-C Magic Bars the Way|QID|44719|SO|2|S|N|A magical barrier bars the way. Find someway to break it.|
-C Find a weakness to the barrier.|QID|44719|M|46.89,66.02|SO|2;1|U|142118|N|Find a weakness to the barrier.|
-C Magic Bars the Way|QID|44719|SO|2|US|N|A magical barrier bars the way. Find someway to break it.|
-C Breaking the Barrier|QID|44719|SO|3|S|N|Kill the ritualists at each Mana Generator to take down the barrier.|
-C Shut down mana generators.|QID|44719|M|49.09,67.74|SO|3;1|U|142118|N|Shut down mana generators.|
-C Breaking the Barrier|QID|44719|SO|3|US|N|Kill the ritualists at each Mana Generator to take down the barrier.|
-C The Fall of Dalion|QID|44719|SO|4|S|N|Armsmaster Dalion stands guard at the entrance. Slay him to proceed.|
-C Kill Dalion.|QID|44719|M|45.91,65.73|SO|4;1|U|142118|N|Kill Dalion.|
-C The Fall of Dalion|QID|44719|SO|4|US|N|Armsmaster Dalion stands guard at the entrance. Slay him to proceed.|
-C Breaking Through|QID|44719|SO|5|S|N|Make your way deep into the Sanctum of Order and find the breach.|
-C Reach the bottom of the Sanctum of Order.|QID|44719|M|43.72,62.52|SO|5;1|N|Reach the bottom of the Sanctum of Order.|
-C Breaking Through|QID|44719|SO|5|US|N|Make your way deep into the Sanctum of Order and find the breach.|
-C Finally, Andaris|QID|44719|SO|6|S|U|142118|N|Use Withered to Drain Andaris's shield.|
-C Drain Andaris's shield.|QID|44719|M|43.69,62.33|SO|6;1|U|142118|N|Drain Andaris's shield.|
-C Finally, Andaris|QID|44719|SO|6|US|N|Use Withered to Drain Andaris's shield.|
-C Death to Andaris|QID|44719|SO|7|S|N|Andaris has fallen back to the breach. Slay her.|
-C Slay Andaris Narassin.|QID|44719|M|42.61,61.79|SO|7;1|U|142118|N|Slay Andaris Narassin.|
-C Death to Andaris|QID|44719|SO|7|US|N|Andaris has fallen back to the breach. Slay her.|
-C Reach the entrance to the Nighthold.|QID|44719|M|44.13,60.04|SO|8;1|N|Reach the entrance to the Nighthold.|
-C Breaching the Sanctum|QID|44719|M|44.13,60.04|QO|3|U|142118|N|1/1 Secure the breach|
+C Breaching the Sanctum|QID|44719|M|36.63,45.02|QO|1|CHAT|N|Speak with Oculeth.|
+P Breaching the Sanctum|QID|44719|M|36.66,45.05|QO|2|N|Enter the portal.|
+C The New Plan|QID|44719|M|45.95,66.19|SO|1|U|142118|N|The teleport failed and you are outside the Sanctum. Up the stairs to find a way in.|
+
+C Magic Bars the Way|QID|44719|M|46.89,66.02|SO|2|U|142118|N|Find a weakness to the barrier.|
+
+C Breaking the Barrier|QID|44719|SO|3|M|47.15,65.70;48.05,68.09;49.26,67.51|CS|U|142118|N|Kill the ritualists at each Mana Generator to take down the barrier.|
+
+C The Fall of Dalion|QID|44719|SO|4|M|46.00,64.60|T|Dalion|N|Armsmaster Dalion stands guard at the entrance. Slay him to proceed.|
+
+C Breaking Through|QID|44719|SO|5|M|43.72,62.52|N|Make your way deep into the Sanctum of Order and find the breach.|
+
+C Finally, Andaris|QID|44719|SO|6|M|43.69,62.33|U|142118|N|Use Withered to Drain Andaris's shield.|
+
+C Death to Andaris|QID|44719|SO|7|M|42.61,61.79|U|142118|N|Andaris has fallen back to the breach. Slay her.|
+C Reach the entrance to the Nighthold|QID|44719|M|44.13,60.04|SO|8|N|Reach the entrance to the Nighthold (wait a minute or so after arriving for Khadgar to finish talking).|
+
 T Breaching the Sanctum|QID|44719|M|44.18,60.12|N|To Archmage Khadgar.|
 A Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|From Archmage Khadgar. *Raid Quest*|
 
