@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/guide/suramar_guide
+-- Date: 2016-12-23 21:16
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3687/revisions/28170/view
 -- Date: 2016-12-23 11:52
 -- Who: Emmaleah
 -- Log: mostly changes to the scenario. other minor changes. in the 12/13 and 12/20 quest lines.
@@ -249,11 +253,6 @@
 -- Date: 2016-10-28 01:30
 -- Who: Blanckaert
 -- Log: Ooops... forgot |N| tag
-
--- URL: http://wow-pro.com/node/3687/revisions/27964/view
--- Date: 2016-10-28 01:22
--- Who: Blanckaert
--- Log: Added note on Shimmering Ancient Mana Cluster -  Does NOT stack. 
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1092,7 +1091,7 @@ T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|N|To First Ar
 
 ; Quests to fill in while waiting to hit Honoured.
 
-N You are Rep Gated|QID|41107|REP|The Nightfallen;1859;unknown-friendly;5999|N|Next Chain requires Honored, so here are some quests you can do between the World Quests to reach honoured.|RANK|2|
+N You are Rep Gated|QID|41107|REP|The Nightfallen;1859;unknown-friendly|N|Next Chain requires Honored, so here are some quests you can do between the World Quests to reach honoured.|RANK|2|
 N Bad Apples|QID|41107|N|Quest is near the Menagerie, either run that way, or use the Sanctum of Order Portal.|RANK|2|
 A Bad Apples|QID|41107|M|42.44,59.32;44.27,56.60;47.25,56.50|CS|N|From Keelay Moongrow|RANK|2|
 A Blast of Spice Fish|QID|41256|M|47.25,56.50|N|From Keelay Moongrow|RANK|2|
@@ -1126,7 +1125,7 @@ K Kill Degren|QID|43792|M|54.43,56.13|T|Degren|N|Silver - Noble Blademaster, for
 
 ; Good Suramaritan - Blood and Wine storyline. Requires Honored
 
-N You are Rep Gated|QID|44561|REP|The Nightfallen;1859;unknown-friendly;5999|N|Next Chain requires Honored, so off to do World Quests.|
+N You are Rep Gated|QID|44561|REP|The Nightfallen;1859;unknown-friendly|N|Next Chain requires Honored, so off to do World Quests.|
 t Seed of Hope|QID|44561|M|36.83,46.54|N|To Valewalker Farodin.|
 A Moths to a Flame|QID|42828|REP|The Nightfallen;1859;Honored-Exalted|M|36.83,46.54|N|From Valewalker Farodin.|PRE|42488|
 A Growing Strong|QID|44562|PRE|44561|M|36.83,46.54|N|From Valewalker Farodin.|
@@ -1207,7 +1206,7 @@ T And They Will Tremble|QID|44052|M|36.91,46.58|N|To First Arcanist Thalyssra.|
 
 ; Good Suramaritan - Statecraft Story line - Quest chain at 8,000 Honoured.
 
-N You are Rep Gated|QID|43309|REP|The Nightfallen;1859;Unknown-Honored;7999|M|36.87,46.57|N|The next questline requires 8K into Honored. So, do world quests and otherwise get your faction.|
+N You are Rep Gated|QID|43309|REP|The Nightfallen;1859;Honored-Exalted;8000;true|M|36.87,46.57|N|The next questline requires 8K into Honored. So, do world quests and otherwise get your faction.|
 A The Perfect Opportunity|QID|43309|REP|The Nightfallen;1859;Honored-Exalted;8000|M|36.87,46.57|N|From First Arcanist Thalyssra.|
 P Waning Crescent|QID|43309|M|36.48,44.72|N|Take the portal to the Waning Crescent. This next step requires you to have 1200 Ancient Mana.|ACTIVE|43309|
 C The Perfect Opportunity|QID|43309|M|47.85,83.06|N|Meet Ly'leth at the Waning Crescent|
@@ -1257,8 +1256,8 @@ A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|N|From Valewalker 
 
 ; Good Suramaritan - A Growing Crisis Story Arc
 
-N You are Rep Gated|QID|44152|REP|The Nightfallen;1859;unknown-revered;6999|N|Next Chain requires 7K into Revered, so off to do World Quests.|
-A A Growing Crisis|QID|44152|REP|The Nightfallen;1859;revered;7000|PRE|44053|M|36.54,46.77|N|From Valewalker Farodin.|
+N You are Rep Gated|QID|44152|REP|The Nightfallen;1859;Revered-Exalted;7000;true|N|Next Chain requires 7K into Revered, so off to do World Quests.|
+A A Growing Crisis|QID|44152|REP|The Nightfallen;1859;Revered-Exalted;7000|PRE|44053|M|36.54,46.77|N|From Valewalker Farodin.|
 P Portal to Falanaar|QID|44152|M|35.94,45.55|N|Take the Portal to Fal'adora|
 T A Growing Crisis|QID|44152|M|42.38,15.05|Z|Temple of Fal'adora@Suramar|N|To Valewalker Farodin.|
 A Fragments of Disaster|QID|43361|M|42.38,15.05|Z|Temple of Fal'adora@Suramar|N|From Valewalker Farodin.|
@@ -1280,7 +1279,7 @@ T The Stuff of Dreams|QID|43362|M|36.51,46.75|NA|N|To Valewalker Farodin.|
 
 ; Good Suramaritan - change of seasons 20/21K revered
 
-N You are Rep Gated|QID|44563|REP|The Nightfallen;1859;unknown-Revered;19999|N|Next Chain requires 20K into Revered (and killing Xavius in The Emerald Nightmare Raid), Continue doing World Quests.|
+N You are Rep Gated|QID|44563|REP|The Nightfallen;1859;Revered-Exalted;20000;true|N|Next Chain requires 20K into Revered (and killing Xavius in The Emerald Nightmare Raid), Continue doing World Quests.|
 A A Change of Seasons|QID|43502|REP|The Nightfallen;1859;Revered-Exalted;20000|PRE|43362|M|36.84,46.56|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|N|To Arcanist Valtrois|
 A Giving It All We've Got|QID|43562|PRE|43502|M|37.02,43.24|N|From Arcanist Valtrois|
