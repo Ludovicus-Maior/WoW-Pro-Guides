@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_tamers_draenor
+-- Date: 2016-12-24 01:54
+-- Who: Ludovicus
+-- Log: Add Horde flight points.
+
+-- URL: http://wow-pro.com/node/3643/revisions/27907/view
 -- Date: 2016-10-13 23:08
 -- Who: Ludovicus
 -- Log: Legion Tweaks.
@@ -77,8 +82,9 @@ C Snail|QID|37206|STRATEGY|SnailMaggot|N|1) Shell Shield\n2) Spam Absorb and kee
 C Maggot|QID|37206|STRATEGY|SnailMaggot|N|Repeat the following:\nA) Leap\nB) Consume|SELECT|3|
 T Tarr the Terrible|QID|37206|M|56.2,9.8|Z|Nagrand@Draenor|N|To Tarr|
 
-F Deeproot|AVAILABLE|37201|N|Fly to Deeproot.|M|50.6,30.6|Z|Nagrand@Draenor|
-R The way to Cymre|AVAILABLE|37201||M|49.83,75.08;51.51,71.35|CS|Z|Gorgrond|ACH|10018|N|Follow these waypoints to Cymre.|
+F Deeproot|AVAILABLE|37201|N|Fly to Deeproot.|M|50.6,30.6|Z|Nagrand@Draenor|FACTION|Alliance|
+F Beastwatch|AVAILABLE|37201|N|Fly to Beastwatch.|M|50.6,30.6|Z|Nagrand@Draenor|FACTION|Horde|
+R The way to Cymre|AVAILABLE|37201||M|49.83,75.08;51.51,71.35|CS|Z|Gorgrond|ACH|10018|N|Follow these waypoints to Cymre.|FACTION|Alliance|
 N Cymre Winter|AVAILABLE|37201|PET1|Leveling;;;H>500U|PET2|Winter Reindeer;15706;1+2+1|PET3|Infinite Whelpling;68820;1+1+1;P>340|STRATEGY|CymreWinter|
 N Cymre Idol|AVAILABLE|37201|PET1|Leveling;;;H>500U|PET2|Anubisath Idol;68659;1+1+1|PET3|Mechanical Pandaren Dragonling;64899;1+2+2|STRATEGY|CymreIdol|
 A Cymre Brightblade|QID|37201|M|51.0,70.6|Z|Gorgrond|N|From Cymre|
@@ -94,8 +100,9 @@ C Gyrexle|QID|37201|N|1) 2x Tail Sweep\n2) Early Advantage\n3) Healing Flame\n4)
 
 T Cymre Brightblade|QID|37201|M|51.0,70.6|Z|Gorgrond|N|To Cymre|
 
-F Iron Siegeworks|AVAILABLE|37205|N|Fly to Iron Siegeworks.|M|46.4,76.6|Z|Gorgrond|
-R The way through the rockfall|AVAILABLE|37205|M|84.7,59.83;79.36,56.65;79.30,55.64;78.94,55.46;78.62,55.51;78.33,54.83;71.9,57.64|CS|Z|Frostfire Ridge|ACH|10018|N|Go through the rockfall by following these waypoints.|
+F Iron Siegeworks|AVAILABLE|37205|N|Fly to Iron Siegeworks.|M|46.4,76.6|Z|Gorgrond|FACTION|Alliance|
+F Wolf's Stand|AVAILABLE|37205|N|Fly to Iron Siegeworks.|M|46.0,69.2|Z|Gorgrond|FACTION|Horde|
+R The way through the rockfall|AVAILABLE|37205|M|84.7,59.83;79.36,56.65;79.30,55.64;78.94,55.46;78.62,55.51;78.33,54.83;71.9,57.64|CS|Z|Frostfire Ridge|ACH|10018|N|Go through the rockfall by following these waypoints.|FACTION|Alliance|
 N Gargra|AVAILABLE|37205|PET1|Cogblade Raptor;68841;2+1+1;S>259|PET2|Leveling;;;H>300B|PET3|Darkmoon Zepplin;55367;1+1+2|STRATEGY|Gargra|
 A Gargra|QID|37205|M|68.6,64.6|Z|Frostfire Ridge|N|From Gargra|
 C Wolfus|QID|37205|STRATEGY|Gargra|N|1) Exposed Wounds\n2) 2x Batter until Wolfus is dead.\nIf your Raptor dies here, restart.|SELECT|1|DEAD|2,1|

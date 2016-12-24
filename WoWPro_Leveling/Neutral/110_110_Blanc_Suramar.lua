@@ -3,7 +3,12 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/guide/suramar_guide
+-- URL: http://wow-pro.com/Blanckaert
+-- Date: 2016-12-24 01:48
+-- Who: Blanckaert
+-- Log: added tailoring quest (that are done so far), and adjusted parts of the Honoured quests.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28173/view
 -- Date: 2016-12-23 21:16
 -- Who: Ludovicus
 
@@ -248,11 +253,6 @@
 -- Date: 2016-10-28 01:31
 -- Who: Blanckaert
 -- Log: Ooops... forgot |N| tag, I feel 'sheepish' I put |N| in wrong spot... and then put another in... It's fixed now.
-
--- URL: http://wow-pro.com/node/3687/revisions/27965/view
--- Date: 2016-10-28 01:30
--- Who: Blanckaert
--- Log: Ooops... forgot |N| tag
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -524,6 +524,27 @@ C Scenes from a Memory|QID|40325|M|37.13,45.61|NC|N|Click on the memories to ban
 T Scenes from a Memory|QID|40325|M|37.06,46.23|N|To First Arcanist Thalyssra.|
 A Cloaked in Moonshade|QID|42224|M|37.06,46.23|N|From First Arcanist Thalyssra.|PRE|40325|
 A Cling to Hope|QID|40798|M|37.71,47.80|N|From Absolon.(Upstairs)|PRE|40796|RANK|2|
+
+; Adding Tailoring Quest chain here....
+
+t The Path to Suramar City|QID|38962|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|To Tanithria|
+A The Hightborne Connection|QID|38967|PRE|38962|LVL|110|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|From Tanithria|
+P Lunastre Estate|QID|38967|ACTIVE|38967|M|36.16,45.04|Z|Suramar|P|Tailoring;197|N|Take Portal to Lunastre Estate.|
+T The Hightborne Connection|QID|38967|M|40.64,69.54;40.34,69.47|Z|Suramar|CS|P|Tailoring;197|N|To Leyweaver Tytallo.|
+A Proof of Loyalty|QID|38968|PRE|38967|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|From Leyweaver Tytallo.|
+A Master of Silkweave|QID|38969|PRE|38967|M|40.32,69.73|Z|Suramar|P|Tailoring;197|N|From Leyweaver Inondra.|
+C Proof of Loyalty|QID|38968|M|35.76,55.65|Z|Suramar|QO|1|P|Tailoring;197|N|Kill Withered.|
+B Master of Silkweave|QID|38969|M|40.20,69.55|Z|Suramar|L|127266 1|P|Tailoring;197|N|Buy a Shal'dorei Mannequin from Leyweaver Mithrogane.|
+C Master of Silkweave|QID|38969|M|40.20,69.55|Z|Suramar|U|127266|QO|1|P|Tailoring;197|N|Create all 8 pieces of Silkweave Cloth Armor.\nYou will need:\nShal'dorei Silk x151,\nRunic Catgut x10,\nSharp Spritethorn x2.\n\nSilkweave Gloves\nSilkweave Hood\nSilkweave Pantaloons\nSilkweave Slippers\nSilkweave Bracers\nSilkweave Robe\nSilkweave Cinch\nSilkweave Epaulets.\n\n Once you've made them use the Mannequin to create Silkweave Set.|
+T Master of Silkweave|QID|38969|M|40.32,69.73|Z|Suramar|P|Tailoring;197|N|To Leyweaver Inondra.|
+T Proof of Loyalty|QID|38968|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|To Leyweaver Tytallo.|
+A The Queen's Grace Loom|QID|38970|PRE|38969;38968|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|From Leyweaver Tytallo.|
+C The Queen's Grace Loom|QID|38970|M|40.27,69.69|Z|Suramar|P|Tailoring;197|N|Use Teleportation Crystal|
+C The Queen's Grace Loom|QID|38970|M|40.39,69.61|Z|Suramar|P|Tailoring;197|CHAT|N|Ask Leyweaver Azayna to Tell you about the loom.|
+C The Queen's Grace Loom|QID|38970|M|40.43,69.51|Z|Suramar|P|Tailoring;197|N|Use Teleportation Crystal|
+T The Queen's Grace Loom|QID|38970|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|To Leyweaver Tytallo.|
+
+; not finished them yet...
 
 ; Falanaar story arc
 
@@ -1125,70 +1146,69 @@ K Kill Degren|QID|43792|M|54.43,56.13|T|Degren|N|Silver - Noble Blademaster, for
 
 ; Good Suramaritan - Blood and Wine storyline. Requires Honored
 
-N You are Rep Gated|QID|44561|REP|The Nightfallen;1859;unknown-friendly|N|Next Chain requires Honored, so off to do World Quests.|
+N You are Rep Gated|QID|44561|REP|The Nightfallen;1859;neutral-friendly|N|Next Chain requires Honored, so off to do World Quests.|
 t Seed of Hope|QID|44561|M|36.83,46.54|N|To Valewalker Farodin.|
-A Moths to a Flame|QID|42828|REP|The Nightfallen;1859;Honored-Exalted|M|36.83,46.54|N|From Valewalker Farodin.|PRE|42488|
+A Moths to a Flame|QID|42828|PRE|42488|REP|The Nightfallen;1859;Honored-Exalted|M|36.83,46.54|N|From Valewalker Farodin.|
 A Growing Strong|QID|44562|PRE|44561|M|36.83,46.54|N|From Valewalker Farodin.|
 C Moths to a Flame|QID|42828|M|36.53,46.74|QO|1|NC|N|Click on the Underglow Locusts to Collect them.|
 T Moths to a Flame|QID|42828|M|36.83,46.54|N|To Valewalker Farodin.|
 A Make an Entrance|QID|42829|PRE|42828|M|36.92,46.57|N|From First Arcanist Thalyssra.|
-P Sanctum of Order|QID|42829|M|36.70,44.64|N|Take the Sanctum of Order Portal, remember to apply your mask on the other side.|
-R The Menagerie|QID|42829|M|43.85,63.02;42.92,61.92;49.54,54.22;50.61,52.42|CS|N|Watch out for Sentries.|
+P Sanctum of Order|QID|42829|ACTIVE|42829|M|36.70,44.64|N|Take the Sanctum of Order Portal, remember to apply your mask on the other side.|
+R The Menagerie|QID|42829|ACTIVE|42829|M|43.85,63.02;42.92,61.92;49.54,54.22;50.61,52.42|CS|N|Run to the Bridge OVER the Menagerie. Watch out for Sentries.|
 C Make an Entrance|QID|42829|M|51.10,52.21|QO|1|CHAT|N|Chat with Ly'leth|
 C Make an Entrance|QID|42829|M|51.10,52.21|QO|2|NC|N|Click on Palanquin. Don't worry you wont be seen.|
-C Make an Entrance|QID|42829|M|54.50,52.20|QO|3|CHAT|N|Chat with Margaux, 'show sigil'.|
+C Make an Entrance|QID|42829|M|54.50,52.20|QO|3|CHAT|N|Chat with Margaux, 'Show your Sigil'.|
 T Make an Entrance|QID|42829|M|54.50,52.20|N|To Margaux.|
 A The Fruit of Our Efforts|QID|42832|PRE|42829|M|54.50,52.20|N|From Margaux.|
 C The Fruit of Our Efforts|QID|42832|M|56.01,51.93|QO|1|NC|N|Click on Honeyed Infusion Sample.|
 C The Fruit of Our Efforts|QID|42832|M|56.01,51.93|QO|2|NC|N|Click on Supple Nectar Sample.|
 C The Fruit of Our Efforts|QID|42832|M|56.01,51.93|QO|3|NC|N|Click on Unctuous Draught Sample.|
 T The Fruit of Our Efforts|QID|42832|M|56.01,51.93|N|To Margaux.|
-A How It's Made: Arcwine|QID|42833|M|56.01,51.93|N|From Margaux.|PRE|42832|
+A How It's Made: Arcwine|QID|42833|PRE|42832|M|56.01,51.93|N|From Margaux.|
 $ Small Treasure Chest|QID|43871|M|55.68,54.82|N|Behind the aging chamber, Loot chest for a bit of treasure and resources.|RANK|2|
-C How It's Made: Arcwine|QID|42833|M|55.95,53.45|QO|1|CHAT|N|Chat with Margaux, at Aging Chamber|
-C How It's Made: Arcwine|QID|42833|M|57.24,54.20|QO|2|CHAT|N|Chat with Margaux, at Small Orchard|
-C How It's Made: Arcwine|QID|42833|M|58.13,55.59|QO|3|CHAT|N|Wait for short vignette, then chat with Margaux, at Distribution Center|
+C How It's Made: Arcwine|QID|42833|M|55.95,53.45|QO|1|CHAT|N|Chat with Margaux, at Aging Chamber.|
+C How It's Made: Arcwine|QID|42833|M|57.24,54.20|QO|2|CHAT|N|Chat with Margaux, at Small Orchard.|
+C How It's Made: Arcwine|QID|42833|M|58.13,55.59|QO|3|CHAT|N|Wait for short vignette, then chat with Margaux, at Distribution Center.|
 T How It's Made: Arcwine|QID|42833|M|58.25,53.04|N|To Sylverin.|
-A Intense Concentration|QID|42834|M|58.25,53.04|N|From Sylverin.|PRE|42883|
+A Intense Concentration|QID|42834|PRE|42833|M|58.25,53.04|N|From Sylverin.|
 C Intense Concentration|QID|42834|M|58.21,52.89|QO|1|NC|N|Pick Up an Energy Vessel.|
 C Intense Concentration|QID|42834|M|57.89,53.45;57.32,54.09|CN|QO|2|NC|N|Go in the water, Stand in the swirls to collect the Nightwell Essence.|
 C Intense Concentration|QID|42834|M|58.17,52.73|QO|3|NC|N|Click on the cask of unfortified arcwine to infuse it.|
 T Intense Concentration|QID|42834|M|58.25,53.04|N|To Sylverin.|
-A The Old Fashioned Way|QID|42835|M|58.25,53.04|N|From Sylverin.|PRE|42884|
+A The Old Fashioned Way|QID|42835|PRE|42834|M|58.25,53.04|N|From Sylverin.|
+C The Old Fashioned Way|QID|42835|M|59.22,53.78;60.53,56.50|CS|CHAT|QO|1|N|Run to Margaux. Then select Chat Option, 'Yes I am ready'|
 C The Old Fashioned Way|QID|42835|M|60.53,56.50|CHAT|QO|2|N|Follow Margaux' instructions: \nBrightness - Silver Jasmine,\nSour Note - Shadefruit, \nLittle Moisture - Water, \nMassaging - Jump in the vat, jump up and down.|
 T The Old Fashioned Way|QID|42835|M|60.67,56.51|N|To Margaux.|
-A Balance to Spare|QID|42837|M|60.67,56.51|N|From Margaux.|PRE|42835|
+A Balance to Spare|QID|42837|PRE|42835|M|60.67,56.51|N|From Margaux.|
 $ Treasure Chest|QID|43872|M|61.35,55.47|N|Inside the house, loot for treasure and resources. (Get it now as it is not there when you have the quest to go in the house).|RANK|2|
-A Silkwing Sabotage|QID|42836|M|61.27,56.04|N|From Sylverin.|PRE|42835|
+A Silkwing Sabotage|QID|42836|PRE|42835|M|61.27,56.04|N|From Sylverin.|
 C Silkwing Sabotage|QID|42836|M|61.68,56.15|S|N|Kill Tattered Silkwings.|
 C Balance to Spare|QID|42837|M|63.40,58.03|NC|N|Click on Shadescale Flyeaters to collect.|
 C Silkwing Sabotage|QID|42836|M|61.68,56.15|US|N|Finish killing Tattered Silkwings.|
 T Balance to Spare|QID|42837|M|61.36,55.15|N|To Sylverin.|
 T Silkwing Sabotage|QID|42836|M|61.36,55.15|N|To Sylverin.|
-A Reversal|QID|42838|M|61.36,55.15|N|From Sylverin. Cut scene as soon as you accept.|PRE|42836+42837|
+A Reversal|QID|42838|PRE|42836;42837|M|61.36,55.15|N|From Sylverin. Cut scene as soon as you accept.|
 T Reversal|QID|42838|M|61.36,55.15|N|To Sylverin.|
-A Vengeance for Margaux|QID|44084|M|61.36,55.15|N|From Sylverin.|PRE|42838|
+A Vengeance for Margaux|QID|44084|PRE|42838|M|61.36,55.15|N|From Sylverin.|
 C Vengeance for Margaux|QID|44084|M|54.38,52.18;61.36,55.15;63.98,60.42|CS|N|Kill Vineyard Enforcers or Wardens|
 C Vengeance for Margaux|QID|44084|M|63.98,60.42|NC|QO|2|N|Just run on the portal.|
 T Vengeance for Margaux|QID|44084|M|36.90,46.63|N|To First Arcanist Thalyssra.|
 A Seek the Unsavory|QID|42839|PRE|44084|M|36.90,46.63|N|From First Arcanist Thalyssra.|
-P Waning Crescent Portal|QID|42839|M|36.50,44.78|N|Use Portal to The Waning Crescent. You will need 800 ancient mana in a few steps, so be on the lookout to gather some.|
+P Starcaller Retreat|QID|42839|ACTIVE|42839|M|36.50,44.78|N|Use Portal to The Waning Crescent. You will need 800 ancient mana in a few steps, so be on the lookout to gather some.|
 T Seek the Unsavory|QID|42839|M|48.39,83.31|N|To Vanthir.|
 A Hired Help|QID|43969|PRE|42839|M|48.39,83.31|N|From Vanthir.|
-R To Arluin|QID|43969|CC|M|48.04,81.04;48.08,78.37;49.36,76.42;49.03,74.47;48.56,73.47;48.95,73.45|N|Run to Arluin, Watch out for Sentries|
-C Hired Help|QID|43969|M|48.95,73.45|QO|1|CHAT|N|Show Arluin your Sigil.|
-C Hired Help|QID|43969|M|48.95,73.45|QO|2|CHAT|N|Tell Arluin, 'Vanthir and I need your help'.|
-C Hired Help|QID|43969|M|48.95,73.45|QO|3|NC|N|Wait a moment and then he agrees.|
+R To Arluin|QID|43969|ACTIVE|43969|CC|M|48.04,81.04;48.08,78.37;49.36,76.42;49.03,74.47;48.56,73.47;48.95,73.45|N|Run to Arluin, Watch out for Sentries|
+C Hired Help|QID|43969|M|48.95,73.45|QO|1|CHAT|N|Show Arluin your Sigil.\nWait a moment,\nChat again with Arluin that,\n'Vanthir and I need your help'.\nWait a moment and then he agrees.|
 T Hired Help|QID|43969|M|48.95,73.45|N|To Arluin.|
-A If Words Don't Work...|QID|42840|M|48.95,73.45|N|From Arluin.|PRE|43969|
+A If Words Don't Work...|QID|42840|PRE|43969|M|48.95,73.45|N|From Arluin.|
 C If Words Don't Work...|QID|42840|M|48.95,73.45|CHAT|N|Give Arluin 800 Ancient Mana|
 T If Words Don't Work...|QID|42840|M|48.95,73.45|N|To Arluin.|
 A A Big Score|QID|42841|M|48.95,73.45|N|From Arluin.|PRE|42840|
 A Asset Security|QID|43352|M|48.95,73.45|N|From Arluin.|PRE|42840|
 $ Small Treasure Chest|QID|43865|M|48.13,73.20|N|Look up to see grapple point, go up to find chest and loot for some treasure and resources.|RANK|2|
-C Asset Security|QID|43352|M|45.80,75.43|NC|QO|1|N|From the ground, run to this point, look up, Grapple to the stash location0|
+C Asset Security|QID|43352|M|45.80,75.43|NC|QO|1|N|From the ground, run to this point, look up, Grapple to the stash location.|
 C Asset Security|QID|43352|M|44.51,74.43|QO|2|N|Kill Auditor Yvenne.|
-
+R Sanctum of Enlightenment|QID|41216|M|52.06,56.36;49.87,60.16|CS|N|Out of the Managerie, back across the Moonbeam Causeway and into the Sanctum of Enlightenment. Use the teleport pad. and then avoiding Lt. Strathmar(or not) as you pass thru his building.|RANK|2|
 R Vineyard|QID|42841|M|47.50,50.83|N|From the Sanctum of Enlightenment, run along The Grand Promanade until you arrive at The Vineyard.|RANK|2|
 R Vineyard|QID|42841|M|46.71,73.25;48.05,65.37;49.87,60.16;47.50,50.83|CS|N|Run along the canal and then up a set of stairs, across the Concourse of Destiny and use the Teleport pad at the Sanctum of Enlightenment, continue on the outer ring of the city (Grand Promanade to the Vineyard.|RANK|-1|
 C A Big Score|QID|42841|M|53.43,54.41|NC|N|Pick up the Thousand-Year Arcwine. Be stealthy or slaughter everything in your path.|
@@ -1196,7 +1216,7 @@ T Asset Security|QID|43352|M|48.95,73.44|N|Return back to Evermoon Commons and A
 T A Big Score|QID|42841|M|48.95,73.44|N|To Arluin.|
 A Make Your Mark|QID|42792|PRE|42841+43352|M|48.95,73.44|N|From Arluin.|
 C Make Your Mark|QID|42792|M|49.80,77.68|QO|1|CHAT|N|Cyrille is in the Evermoon Bazaar.|
-C Make Your Mark|QID|42792|M|47.54,77.06|QO|3|CHAT|N|Sylessa Recruited, beside the Canal, in Evermoon Commens.|
+C Make Your Mark|QID|42792|M|48.28,78.19;47.54,77.06|CS|QO|3|CHAT|N|Sylessa Recruited, beside the Canal, in Evermoon Commens.|
 C Make Your Mark|QID|42792|M|47.48,70.60|QO|2|CHAT|N|Lorin Recruited. Careful, Mobs that see you all around.|
 C Make Your Mark|QID|42792|M|45.98,72.07|QO|4|CHAT|N|Assassinate Overseer Durant, Help does come.|
 T Make Your Mark|QID|42792|M|48.37,83.33|N|To Vanthir.|
