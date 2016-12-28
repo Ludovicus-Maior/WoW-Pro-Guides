@@ -9,9 +9,13 @@ local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 -- Is a table when a scenario is ongoing
 WoWPro.Scenario = nil
 
+local quids_debug = false
+
 local function QidMapReduce(list,default,or_string,and_string,func, why, debug)
     if not list then
-        WoWPro:dbp("QidMapReduce(nil) default %s", tostring(default))
+        if quids_debug then
+            WoWPro:dbp("QidMapReduce(nil) default %s", tostring(default))
+        end
         return default
     end
     local split_string
@@ -97,9 +101,6 @@ function WoWPro.QidVerify(list,empty_ok,or_string,and_string)
     return true
 end
                     
-local quids_debug = false
-
-
 function WoWPro.stack(level)
     local stack = debugstack(2)
     if not level then
