@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2016-12-28 23:56
+-- Who: Blanckaert
+-- Log: added K step for Gravax, plus the A and t step of the turnin of item he drops
+
+-- URL: http://wow-pro.com/node/3665/revisions/28144/view
 -- Date: 2016-12-12 04:47
 -- Who: Blanckaert
 -- Log: added tailoring quest of the needles 38950 - C step only
@@ -366,6 +371,8 @@ A Tears for Fears|QID|38662|PRE|38641|M|51.44,57.01|N|From Lyanis Moonfall.|
 A Root Cause|QID|38655|PRE|38641|M|51.48,56.83|N|From Isoraen Nightstar.|
 C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|S|N|Kill demons, chop down entangling roots as you go to complete the bonus objective.|RANK|2|
 C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to collect the corrupted root samples.|
+K Kill Gravax the Desecrator|QID|38656|M|56.40,55.58|T|Gravax|ITEM|124131|N|Group needed, unless you happen to have one of the druid artifacts that drop near Flight Point|RANK|2|
+A Mark of the Demon|QID|38656|ACTIVE|38656|M|56.40,55.58|U|124131|N|Auto Accepted from UI Alert|RANK|2|
 C Tears for Fears|QID|38662|M|59.19,54.03|NC|N|Listen to the dialog|
 C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to collect the corrupted root samples.|
 C Root Cause|QID|38655|M|59.11,54.33|US|NC|N|Finish collecting any needed samples on your way back to the inner temple.|
@@ -374,6 +381,7 @@ t Defend The Temple-Bonus Objective|QID|39029|M|58.17,57.83|N|Auto turned in whe
 T Root Cause|QID|38655|M|51.49,56.85|N|To Isoraen Nightstar.|
 T Tears for Fears|QID|38662|M|51.43,57.01|N|To Lyanis Moonfall.|
 A The Die is Cast|QID|38663|PRE|38662|M|51.43,57.01|N|From Lyanis Moonfall.|
+t Mark of the Demon|QID|38656|M|53.71,55.97|N|To Isorarn Nightstar. (If done AFTER turning in the Tears, He is at these coords)|
 
 A A Village in Peril|QID|38643|M|54.79,52.80|N|From Darcy Heathrow.| ; this quest invalidates 39149, which is not including in guide.
 R Bradensbrook|QID|38643|M|53.44,50.25;42.35,59.01|CS|N|Follow the road into Bradensbrook.|RANK|-1|
