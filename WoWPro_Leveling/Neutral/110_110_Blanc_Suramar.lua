@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/Blanckaert
+-- Date: 2017-01-02 01:38
+-- Who: Emmaleah
+-- Log: Correct QID on T Resisting Arrest, add |U|to two steps in Breaching the Sanctum scenario
+
+-- URL: http://wow-pro.com/node/3687/revisions/28178/view
 -- Date: 2016-12-25 20:26
 -- Who: Blanckaert
 -- Log: inserted Tailoring and Leatherworking quests into guide.
@@ -248,11 +253,6 @@
 -- Date: 2016-11-04 19:57
 -- Who: Blanckaert
 -- Log: Storyline Lockdown and Missing person Quests added.
-
--- URL: http://wow-pro.com/node/3687/revisions/27979/view
--- Date: 2016-11-04 16:04
--- Who: Blanckaert
--- Log: Added the next quest chain from 20K Revered to Exalted.  Still more quests after that, but will get to them later tonight.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1674,14 +1674,14 @@ T Telemantic Expanse|QID|45067|M|36.63,45.08|N|To Chief Telemancer Oculeth.|
 A Survey the City|QID|45065|PRE|45067|M|36.63,45.08|N|From Chief Telemancer Oculeth.|
 P Astravar Harbor|QID|45065|ACTIVE|45065|M|36.76,45.05|N|Take Portal to the Harbor.|
 R Concourse of Destiny|QID|45065|ACTIVE|45065|M|47.73,63.90|CS|N|Take the teleporter down.|
-C Survey the City|QID|45065|M|47.73,63.90|QO|1|U|142405|N|Survey Terrace of Order \n Careful, disguise drops as you use it.|
+C Survey the City|QID|45065|M|47.73,63.90|NC|U|142405|N|Survey Terrace of Order \n Careful, disguise drops as you use it.|
 R Felsoul Hold|QID|45063|ACTIVE|45063|M|38.9,60.53;34.63,58.64;32.43,62.50|CS|N|Run to Felsoul Hold, Northern end. Using portal from Shal'Aran puts you in the southern end.|
-C The Felsoul Experiments|QID|45063|M|28.45,61.32;32.12,66.47;31.37,65.74|NC|CS|U|142399|N|Use Orb to have Withered attack it.|
+C The Felsoul Experiments|QID|45063|M|28.45,61.32;32.12,66.47;31.37,65.74|NC|CS|U|142399|N|Use Orb to have Withered attack the felsoul shards.|
 T The Felsoul Experiments|QID|45063|N|To First Arcanist Thalyssra, via UI Alert.|
 A Resisting Arrest|QID|45062|PRE|45063|N|From First Arcanist Thalyssra, via UI Alert.|
 C Resisting Arrest|QID|45062|M|34.63,67.49|U|142400|N|Use Orb to disable the Power Source.|
 H Shal'Aran|QID|45065|M|34.63,67.49|N|Use your hearthstone or flightmasters whistle or just run back to Shal'Aran.|
-T Resisting Arrest|QID|45064|M|36.50,45.82|N|To First Arcanist Thalyssra.|
+T Resisting Arrest|QID|45062|M|36.50,45.82|N|To First Arcanist Thalyssra.|
 T Survey the City|QID|45065|M|36.63,45.08|N|To Chief Telemancer Oculeth.|
 A Experimental Instability|QID|45066|PRE|45065|M|36.63,45.08|N|From Chief Telemancer Oculeth.|
 P Ruins of Elune'eth|QID|45066|M|36.33,44.92|N|Take the portal to the Ruins of Elune'eth for a slightly shorter trip.|ACTIVE|45066|
@@ -1721,20 +1721,13 @@ A Breaching the Sanctum|QID|44719|M|36.62,45.08|N|From Chief Telemancer Oculeth.
 C Breaching the Sanctum|QID|44719|M|36.63,45.02|QO|1|CHAT|N|Speak with Oculeth.|
 P Breaching the Sanctum|QID|44719|M|36.66,45.05|QO|2|N|Enter the portal.|
 C The New Plan|QID|44719|M|45.95,66.19|SO|1|U|142118|N|The teleport failed and you are outside the Sanctum. Up the stairs to find a way in.|
-
 C Magic Bars the Way|QID|44719|M|46.89,66.02|SO|2|U|142118|N|Find a weakness to the barrier.|
-
 C Breaking the Barrier|QID|44719|SO|3|M|47.15,65.70;48.05,68.09;49.26,67.51|CS|U|142118|N|Kill the ritualists at each Mana Generator to take down the barrier.|
-
-C The Fall of Dalion|QID|44719|SO|4|M|46.00,64.60|T|Dalion|N|Armsmaster Dalion stands guard at the entrance. Slay him to proceed.|
-
-C Breaking Through|QID|44719|SO|5|M|43.72,62.52|N|Make your way deep into the Sanctum of Order and find the breach.|
-
+C The Fall of Dalion|QID|44719|SO|4|M|46.00,64.60|U|142118|T|Dalion|N|Armsmaster Dalion stands guard at the entrance. Slay him to proceed.|
+C Breaking Through|QID|44719|SO|5|M|43.72,62.52|U|142118|N|Make your way deep into the Sanctum of Order and find the breach.|
 C Finally, Andaris|QID|44719|SO|6|M|43.69,62.33|U|142118|N|Use Withered to Drain Andaris's shield.|
-
 C Death to Andaris|QID|44719|SO|7|M|42.61,61.79|U|142118|N|Andaris has fallen back to the breach. Slay her.|
 C Reach the entrance to the Nighthold|QID|44719|M|44.13,60.04|SO|8|N|Reach the entrance to the Nighthold (wait a minute or so after arriving for Khadgar to finish talking).|
-
 T Breaching the Sanctum|QID|44719|M|44.18,60.12|N|To Archmage Khadgar.|
 A Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|From Archmage Khadgar. *Raid Quest*|
 
