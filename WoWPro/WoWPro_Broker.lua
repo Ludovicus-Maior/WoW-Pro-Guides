@@ -956,7 +956,7 @@ function WoWPro.NextStep(k,i)
 				    WoWPro.why[k] = "NextStep(): RepStep earned starting reputation " .. WoWPro.rep[k]
                     skip = false
                 else
-                    WoWPro:dbp("!- [%s] Spec %s earnedValue %d <= replvl %d: skip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
+                    WoWPro:dbp("!- [%s] Spec %s earnedValue %d <= replvl %d: skip=%s", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl, tostring(skip))
 				end
 				-- If we are above the minimal reputation rank and less than or equal to the maximal reputation rank, activate
 				if (repmin > standingId) and (repmax <= standingId) then
@@ -964,7 +964,7 @@ function WoWPro.NextStep(k,i)
 				    WoWPro.why[k] = "NextStep(): RepStep within active reputation range " .. WoWPro.rep[k]
 				    skip = false
 				else
-				    WoWPro:dbp("!- [%s] Spec %s repmax %s & standingId %s: skip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
+				    WoWPro:dbp("!- [%s] Spec %s repmax %s & standingId %s: skip=%s", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId), tostring(skip))
 				end
 			end
 			-- Mark quests as skipped that we will assume will NEVER be done.
@@ -974,7 +974,7 @@ function WoWPro.NextStep(k,i)
 			end
 			-- OK Now for the FLIP!
 			if flip then
-			    skip = not flip
+			    skip = not skip
 			    WoWPro:dbp("!? Processed flip: skip=%s", tostring(skip))
 			end
         end
