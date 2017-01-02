@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/cooking_recipies
+-- Date: 2017-01-02 22:44
+-- Who: Ludovicus
+-- Log: New registration style
+
+-- URL: http://wow-pro.com/node/3567/revisions/28021/view
 -- Date: 2016-11-15 19:56
 -- Who: Ludovicus
 -- Log: Get rid of no sections error.
@@ -26,9 +31,13 @@
 -- Date: 2014-02-14 00:00
 -- Who: Ludovicus
 
-WoWPro.Profession:RegisterGuide('LudoShopCook', 'Cooking', 'Cooking Recipies', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopCook","Profession", "Cooking", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Cooking Recipies")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",185)
+WoWPro:GuideSteps(guide, function()
 return [[
-
 B Spiced Worm Burger|QID|990045557|RECIPE|45557|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
 B Spiced Worm Burger|QID|990045557|RECIPE|45557|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Spiced Worm Burger|QID|990045557|RECIPE|45557|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_leatherworking
+-- Date: 2017-01-02 22:39
+-- Who: Ludovicus
+-- Log: New style registration
+
+-- URL: http://wow-pro.com/node/3413/revisions/25663/view
 -- Date: 2013-05-16 01:16
 -- Who: Twists
 -- Log: Update to the new parser.
@@ -21,7 +26,10 @@
 -- Date: 2011-06-30 06:03
 -- Who: Crackerhead22
 
-WoWPro.Profession:RegisterGuide('TwiLeather', 'Leatherworking', 'Leatherworking', 'Twists', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("TwiLeather","Profession","Leatherworking", "Twists", "Neutral")
+WoWPro:GuideIcon(guide,"PRO",164)
+WoWPro:GuideName(guide, "Leatherworking")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Learn Apprentice Leatherworking|QID|901640000|P|Leatherworking;164;*;0;75|N|Learn from a Trainer in any major city. You must be level 5.|

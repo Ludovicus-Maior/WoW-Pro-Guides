@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/enchanting_formulas
+-- Date: 2017-01-02 22:45
+-- Who: Ludovicus
+-- Log: New registration style
+
+-- URL: http://wow-pro.com/node/3568/revisions/28082/view
 -- Date: 2016-11-30 20:25
 -- Who: Ludovicus
 -- Log: Fix single section error.
@@ -31,7 +36,12 @@
 -- Date: 2014-02-14 00:04
 -- Who: Ludovicus
 
-WoWPro.Profession:RegisterGuide('LudoShopEnchanting', 'Enchanting', 'Enchanting Formulas', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopEnchanting","Profession", "Enchanting", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Enchanting Formulas")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",333)
+WoWPro:GuideSteps(guide, function()
 return [[
 B Enchant Boots - Minor Agility|QID|990007867|RECIPE|7867|M|44.90,37.70|Z|Thunder Bluff|FACTION|Horde|P|Enchanting;333;125|N|Limited quantity sold by Nata Dawnstrider in Thunder Bluff.|
 B Enchant Boots - Minor Agility|QID|990007867|RECIPE|7867|M|49.80,60.80|Z|Hillsbrad Foothills|P|Enchanting;333;125|N|Limited quantity sold by Zixil in Hillsbrad Foothills.|

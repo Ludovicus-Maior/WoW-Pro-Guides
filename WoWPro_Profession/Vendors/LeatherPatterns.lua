@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/leatherworking_patterns
+-- Date: 2017-01-02 22:47
+-- Who: Ludovicus
+-- Log: New registration style
+
+-- URL: http://wow-pro.com/node/3572/revisions/28078/view
 -- Date: 2016-11-30 20:24
 -- Who: Ludovicus
 -- Log: Fix single section error.
@@ -36,7 +41,12 @@
 -- Date: 2014-02-14 00:09
 -- Who: Ludovicus
 
-WoWPro.Profession:RegisterGuide('LudoShopLeather', 'Leatherworking', 'Leatherworking Patterns', 'Ludovicus', '0', ' ', true, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopLeather","Profession", "Leatherworking", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Leatherworking Patterns")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",165)
+WoWPro:GuideSteps(guide, function()
 return [[
 B Polar Vest|QID|990060996|RECIPE|60996|M|37.60,29.50|Z|Dalaran City@Dalaran|FACTION|Neutral|P|Leatherworking;165;425|N|Sold by Braeg Stoutbeard in Dalaran|
 B Vicious Dragonscale Shoulders|QID|990078451|RECIPE|78451|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Haferet in The Exodar|

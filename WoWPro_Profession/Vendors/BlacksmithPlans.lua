@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/blacksmithing_plans
+-- Date: 2017-01-02 22:44
+-- Who: Ludovicus
+-- Log: New registration style
+
+-- URL: http://wow-pro.com/node/3566/revisions/28083/view
 -- Date: 2016-11-30 20:25
 -- Who: Ludovicus
 -- Log: Fix single section error.
@@ -26,7 +31,12 @@
 -- Date: 2014-02-13 23:59
 -- Who: Ludovicus
 
-WoWPro.Profession:RegisterGuide('LudoShopBlacksmithing', 'Blacksmithing', 'Blacksmithing Plans', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopBlacksmithing","Profession", "Blacksmithing", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Blacksmithing Plans")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",164)
+WoWPro:GuideSteps(guide, function()
 return [[
 N Dark Iron Mail|QID|990015293|RECIPE|15293|M|35.60,64.00;42.90,86.50;48.40,38.70;59.80,64.70;38.45,81.30;40.25,70.35|Z|Shadowforge City@BlackrockDepths|P|Blacksmithing;164;270|CN|N|Looted from West Garrison, Manufactory, and Mold Foundry.\nBind on Pickup.|
 N Dark Iron Shoulders|QID|990015295|RECIPE|15295|M|35.60,64.00;42.90,86.50;48.40,38.70;59.80,64.70;38.45,81.30;40.25,70.35|Z|Shadowforge City@BlackrockDepths|P|Blacksmithing;164;280|CN|N|Looted from \nBind on Pickup.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/engineering_schematics
+-- Date: 2017-01-02 22:45
+-- Who: Ludovicus
+-- Log: New registration style
+
+-- URL: http://wow-pro.com/node/3569/revisions/28081/view
 -- Date: 2016-11-30 20:24
 -- Who: Ludovicus
 -- Log: Fix single section error.
@@ -16,7 +21,12 @@
 -- Date: 2014-02-14 00:05
 -- Who: Ludovicus
 
-WoWPro.Profession:RegisterGuide('LudoShopEngineering', 'Engineering', 'Engineering Schematics', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopEngineering","Profession", "Engineering", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Engineering Schematics")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",202)
+WoWPro:GuideSteps(guide, function()
 return [[
 B Masterwork Target Dummy|QID|990019814|RECIPE|19814|M|59.20,50.90|Z|Winterspring|P|Engineering;202;275|N|Sold by Xizzer Fizzbolt in Winterspring.|
 B Delicate Arcanite Converter|QID|990019815|RECIPE|19815|M|59.20,50.90|Z|Winterspring|P|Engineering;202;285|N|Sold by Xizzer Fizzbolt in Winterspring.|
