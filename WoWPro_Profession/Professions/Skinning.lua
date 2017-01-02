@@ -3,7 +3,10 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-WoWPro.Profession:RegisterGuide('TwiSkinning', 'Skinning', 'Skinning', 'Twists', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("TwiSkinning","Profession","Skinning", "Twists", "Neutral")
+WoWPro:GuideIcon(guide,"PRO",393)
+WoWPro:GuideName(guide, "Skinning")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Learn Apprentice Skinning|QID|903930000|N|Learn from a trainer in any major city. You must be level 5.|P|Skinning;0;;75|
