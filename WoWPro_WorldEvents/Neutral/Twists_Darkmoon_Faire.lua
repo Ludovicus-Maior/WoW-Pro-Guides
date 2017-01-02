@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2017-01-02 22:49
+-- Who: Ludovicus
+-- Log: Add new style pet battle scripts and two strategies.
+
+-- URL: http://wow-pro.com/node/3459/revisions/27357/view
 -- Date: 2015-07-25 18:08
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -231,9 +236,27 @@ N Achievement|QID|29438|ACH|6022;1|N|Pick one target and fire when it lights up.
 C He Shoots, He Scores!|QID|29438|NC|N|Talk to Rinling again picking Let's shoot! Aim at a target and press 1 to fire. You can get 2 shots in per target.|RANK|2|
 T He Shoots, He Scores!|QID|29438|N|To Rinling.|RANK|2|
 
-A Darkmoon Pet Battle!|QID|32175|PRE|31951|SPELL|Battle Pet Training;119467;true|M|47.72,62.67|N|From Jeremy Feasel.\nHe has 3 epic level 25 pets on his team: Honky-Tonk (mechanical), Fezwick (beast), and Judgement (magical). Something with Arcane Storm is good against the monkey!|
-C Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;119467;true|QO|Defeat Jeremy Feasel: 1/1|
-T Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;119467;true|M|47.72,62.67|N|To Jeremy Feasel|
+A Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;119467;true|M|47.72,62.67|N|From Jeremy Feasel.|
+A Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;125610;true|M|47.72,62.67|N|From Jeremy Feasel.|
+; Judgement, Honky Tonk, Fezwick
+N Feasel|ACTIVE|32175|PET1|Mechanical Pandaren Dragonling;64899;1+2+2|PET2|Leveling;;;|PET3|Cogblade Raptor;68841;2+1+1;P>270|STRATEGY|LudoFeaselLevel|
+C MPD .vs. Judgement|QID|37207|STRATEGY|LudoFeaselLevel|N|1) [ability=779/Thunderbolt]\n2) Spam [ability=115/breath]|SELECT|1|DEAD|2,1|
+C MPD .vs. Tonk|QID|37207|STRATEGY|LudoFeaselLevel|N|1) [ability=334/Decoy]2) Spam [ability=115/breath]\n3) [ability=779/Thunderbolt] on cooldown\nTill MPD dies or Tonk dies.\nSwitch in leveling pet|SELECT|1|SWITCH|2|
+C Level to Raptor|QID|37207|STRATEGY|LudoFeaselLevel|N|1) Let the leveling pet stare in fright.\n2) Switch to the Raptor|SELECT|2|SWITCH|3|
+C Raptor .vs. Tonk|QID|37207|STRATEGY|LudoFeaselLevel|N|1) [ability=455/batter] to death|SELECT|3|DEAD|2,2|
+C Raptor .vs. Fezwick|QID|37207|STRATEGY|LudoFeaselLevel|N|1) [ability=455/batter] to death|SELECT|3|DEAD|2,3|
+T Darkmoon Pet Battle!|QID|32175|M|47.72,62.67|N|To Jeremy Feasel|
+
+A A New Darkmoon Challenger!|QID|36471|SPELL|Battle Pet Training;119467;true|M|47.4,62.2|N|From Christoph VonFeasel.|
+A A New Darkmoon Challenger!|QID|36471|SPELL|Battle Pet Training;125610;true|M|47.4,62.2|N|From Christoph VonFeasel.|
+; Syd, Pointy, Otto
+N VonFeasel|ACTIVE|32175|PET1|Bronze Whelpling;7546;2+1+1|PET2|Leveling;;;|PET3|Iron Starlette;77221;1+1+1;P>300|STRATEGY|LudoVonFeaselLevel|
+C Whelp .vs. Syd|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) Spam [ability=122/tail-sweep]\n2) [ability=170/lift-off] when 1 round left on [ability=513/whirlpool]|SELECT|1|DEAD|2,1|
+C Whelp .vs. Pointy|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=405/early-advantage]\n2) Die gracefully and switch in the leveling pet.|SELECT|1|DEAD|1,1|SWITCH|2|
+C Level to Starlette|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) Let the leveling pet stare in fright.\n2) Switch to the Starlette|SELECT|2|SWITCH|3|
+C Starlette .vs. Pointy|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=566/powerball]\n2) 2x [ability=459/wind-up]\n3) optional [ability=566/powerball]|SELECT|3|DEAD|2,2|
+C Starlette .vs. Otto|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=459/wind-up]\n2) [ability=208/supercharge]\n3) [ability=459/wind-up]|SELECT|3|DEAD|2,3|
+T A New Darkmoon Challenger!|QID|36471||M|47.4,62.2|N|To Christoph VonFeasel.|
 
 C Rearm, Reuse, Recycle|QID|29518|NC|N|Look for Tonk Scrap. Look between the tents.|S|
 C Talkin' Tonks|QID|29511|NC|N|Repair tonks.|U|72110|S|

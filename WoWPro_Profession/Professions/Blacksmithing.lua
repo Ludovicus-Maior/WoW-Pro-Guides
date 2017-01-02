@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_blacksmithing
+-- Date: 2017-01-02 22:36
+-- Who: Ludovicus
+-- Log: New style registration
+
+-- URL: http://wow-pro.com/node/3409/revisions/27721/view
 -- Date: 2016-09-07 14:39
 -- Who: Ludovicus
 -- Log: Use Hall of the Crescent Moon@Shrine of Two Moons
@@ -39,7 +44,10 @@
 -- Date: 2011-06-30 05:50
 -- Who: Crackerhead22
 
-WoWPro.Profession:RegisterGuide('TwiBlacksmithing', 'Blacksmithing', 'Blacksmithing', 'Twists', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("TwiBlacksmithing","Profession","Blacksmithing", "Twists", "Neutral")
+WoWPro:GuideIcon(guide,"PRO",164)
+WoWPro:GuideName(guide, "Blacksmithing")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Learn  Apprentice Blacksmithing|QID|901640000|P|Blacksmithing;164;*;0;75|N|Learn from a Trainer in any major city. Requires Level 5.|

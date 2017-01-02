@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/profession_skinning
+-- Date: 2017-01-02 22:42
+-- Who: Ludovicus
+-- Log: New style registration
+
+-- URL: http://wow-pro.com/node/3463/revisions/24908/view
+-- Date: 2012-01-19 00:31
+-- Who: Ludovicus
+-- Log: Sync to GIT
+
 local guide = WoWPro:RegisterGuide("TwiSkinning","Profession","Skinning", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",393)
 WoWPro:GuideName(guide, "Skinning")
