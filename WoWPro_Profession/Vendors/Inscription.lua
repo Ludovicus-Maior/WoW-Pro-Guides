@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/inscription_techniques
+-- Date: 2017-01-02 22:46
+-- Who: Ludovicus
+-- Log: New registration style
+
+-- URL: http://wow-pro.com/node/3570/revisions/28080/view
 -- Date: 2016-11-30 20:24
 -- Who: Ludovicus
 -- Log: Fix single section error.
@@ -26,7 +31,12 @@
 -- Date: 2014-02-14 00:07
 -- Who: Ludovicus
 
-WoWPro.Profession:RegisterGuide('LudoShopInscription', 'Inscription', 'Inscription Techniques', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopInscription","Profession", "Inscription", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Inscription Techniques")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",773)
+WoWPro:GuideSteps(guide, function()
 return [[
 B Glyph of Shifted Appearances|QID|990148277|RECIPE|148277|M|42.80,59.20|Z|Timeless Isle|P|Inscription;773;500|N|Sold by Whizzig in Timeless Isle.\nBind on Pickup.|
 B Glyph of Eternal Resolve|QID|990071102|RECIPE|71102|M|42.30,37.50|Z|Dalaran City@Dalaran|P|Inscription;773;375|N|Sold by Larana Drome in Dalaran.|

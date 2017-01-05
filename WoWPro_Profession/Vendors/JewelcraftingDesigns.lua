@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/jewelcrafting_designs
+-- Date: 2017-01-02 22:46
+-- Who: Ludovicus
+-- Log: New registration style
+
+-- URL: http://wow-pro.com/node/3571/revisions/28079/view
 -- Date: 2016-11-30 20:24
 -- Who: Ludovicus
 -- Log: Fix single section error.
@@ -21,7 +26,12 @@
 -- Date: 2014-02-14 00:08
 -- Who: Ludovicus
 
-WoWPro.Profession:RegisterGuide('LudoShopJewelcrafting', 'Jewelcrafting', 'Jewelcrafting Designs', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopJewelcrafting","Profession", "Jewelcrafting", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Jewelcrafting Designs")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",755)
+WoWPro:GuideSteps(guide, function()
 return [[
 B Lightning Eye of Zul|QID|990066439|RECIPE|66439|M|36.10,47.70|Z|Shattrath City|P|Jewelcrafting;755;450|N|Sold by Nemiha in Shattrath City.\nBind on Pickup.|
 B Lightning Eye of Zul|QID|990066439|RECIPE|66439|M|40.50,35.20|Z|Dalaran City@Dalaran|P|Jewelcrafting;755;450|N|Sold by Timothy Jones in Dalaran.\nBind on Pickup.|

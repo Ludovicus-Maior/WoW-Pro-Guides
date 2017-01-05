@@ -9,9 +9,13 @@ local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 -- Is a table when a scenario is ongoing
 WoWPro.Scenario = nil
 
+local quids_debug = false
+
 local function QidMapReduce(list,default,or_string,and_string,func, why, debug)
     if not list then
-        WoWPro:dbp("QidMapReduce(nil) default %s", tostring(default))
+        if quids_debug then
+            WoWPro:dbp("QidMapReduce(nil) default %s", tostring(default))
+        end
         return default
     end
     local split_string
@@ -97,9 +101,6 @@ function WoWPro.QidVerify(list,empty_ok,or_string,and_string)
     return true
 end
                     
-local quids_debug = false
-
-
 function WoWPro.stack(level)
     local stack = debugstack(2)
     if not level then
@@ -872,7 +873,7 @@ function WoWPro.NextStep(k,i)
         
 		-- Skipping reputation quests if their requirements are met --
 		if WoWPro.rep and WoWPro.rep[k] and not skip then
-			local rep, factionIndex, temprep, replvl = string.split(";",WoWPro.rep[k])
+			local rep, factionIndex, temprep, replvl, flip = string.split(";",WoWPro.rep[k])
 			WoWPro:dbp("ConsiderRep(%d, %s [%s] %s)",k,WoWPro.action[k],WoWPro.step[k],WoWPro.rep[k]);
 			if temprep == nil then temprep = "neutral-exalted" end
 			local repmin,repmax = string.split("-",temprep)
@@ -946,28 +947,35 @@ function WoWPro.NextStep(k,i)
 
 			if type(replvl) == "number" and (repmin <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
-				WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
+				WoWPro.why[k] = "NextStep(): RepStep within reputation range " .. WoWPro.rep[k]
 			end
 			if type(replvl) == "number" and (replvl > 0) then
+			    -- replvl modifies the minimal reputation rank to actviate
 				if (repmin == standingId) and (earnedValue > replvl) then
 				    WoWPro:dbp("!+ [%s] Spec %s earnedValue %d > replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
-				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
+				    WoWPro.why[k] = "NextStep(): RepStep earned starting reputation " .. WoWPro.rep[k]
                     skip = false
                 else
-                    WoWPro:dbp("!- [%s] Spec %s earnedValue %d <= replvl %d: skip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
+                    WoWPro:dbp("!- [%s] Spec %s earnedValue %d <= replvl %d: skip=%s", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl, tostring(skip))
 				end
-				if (repmin < standingId) and (repmax <= standingId) then
-				    WoWPro:dbp("!+ [%s] Spec %s repmax %s <= standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
-				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
+				-- If we are above the minimal reputation rank and less than or equal to the maximal reputation rank, activate
+				if (repmin > standingId) and (repmax <= standingId) then
+				    WoWPro:dbp("!+ [%s] Spec %s repmax %s <= standingId %s < repmin %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId),tostring(repmax))
+				    WoWPro.why[k] = "NextStep(): RepStep within active reputation range " .. WoWPro.rep[k]
 				    skip = false
 				else
-				    WoWPro:dbp("!- [%s] Spec %s repmax %s & standingId %s: skip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId))
+				    WoWPro:dbp("!- [%s] Spec %s repmax %s & standingId %s: skip=%s", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId), tostring(skip))
 				end
 			end
 			-- Mark quests as skipped that we will assume will NEVER be done.
 			if WoWPro.action[k] == "A" and standingId < 3 and repmin > 3 and skip then
 			    WoWProCharDB.Guide[GID].skipped[k] = true
 			    WoWPro:SetQIDsInTable(QID,WoWProCharDB.skippedQIDs)
+			end
+			-- OK Now for the FLIP!
+			if flip then
+			    skip = not skip
+			    WoWPro:dbp("!? Processed flip: skip=%s", tostring(skip))
 			end
         end
         

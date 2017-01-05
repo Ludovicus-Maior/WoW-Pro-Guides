@@ -56,30 +56,6 @@ function WoWPro.Achievements:OnDisable()
 	end
 end
 
--- Guide Registration Function --
-function WoWPro.Achievements:RegisterGuide(GIDvalue, zonename, guidename, categoryname, subname, authorname, factionname, sequencevalue)
-	
---[[ Purpose: 
-		Called by guides to register them to the WoWPro.Guide table. All members
-		of this table must have a quidetype parameter to let the addon know what 
-		module should handle that guide.]]
-		
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
-		-- If the guide is not of the correct faction, don't register it
-		
-	WoWPro.Guides[GIDvalue] = {
-		guidetype = "Achievements",
-		zone = zonename,
-		name = guidename,
-		category = categoryname,
-		sub = subname,
-		author = authorname,
-		sequence = sequencevalue,
-		faction = factionname,
-		GID = GIDvalue
-	}
-end
-
 function WoWPro.Achievements:GuideMisc(guide, name, categoryname, subname)
     if not name or not categoryname then
         WoWPro:Error("Achievements Guide %s is missing name or cat.",guide.GID)

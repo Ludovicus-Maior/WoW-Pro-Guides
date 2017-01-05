@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2016-12-28 23:52
+-- Who: Blanckaert
+-- Log: added some Warrior quests, QIDs 42110, 42202, 42204, 43585, 43975
+
+-- URL: http://wow-pro.com/node/3677/revisions/28160/view
 -- Date: 2016-12-16 08:59
 -- Who: Emmaleah
 -- Log: added Cameljon's changes and the Light's heart questlines (but did not update coords that are inside the order hall yet - just a note that they need updated)
@@ -126,6 +131,21 @@ A On the Trail of the Great Worm|QID|42107|M|55.94,83.69|Z|ValhallasWarriorOrder
 C On the Trail of the Great Worm|QID|42107|M|59.52,13.60|Z|ValhallasWarriorOrderHome/1|QO|1|NC|N|Complete the "Trail of the Great Worm" mission. (~1 hour)|
 T On the Trail of the Great Worm|QID|42107|M|55.94,83.69|Z|ValhallasWarriorOrderHome/1|N|From Hymdall.|
 A Champion: Svergan Stormcloak|QID|42614|M|52.33,82.44|Z|ValhallasWarriorOrderHome/1|N|Recruit Svergan Stormcloak.|
+t To The Summit!|QID|42110|M|53.86,87.85|Z|Highmountain|N|To Jarum Skymane.|
+A Revenge, Served Cold|QID|42202|PRE|42110|M|53.86,87.85|LVL|103|Z|Highmountain|N|From Jarum Skymane.|
+C Revenge, Served Cold|QID|42202|M|56.89,86.75|Z|Highmountain|S|N|Kill Drogbar as you head to Kill Dorgrub.|
+C Revenge, Served Cold|QID|42202|M|56.89,86.75|Z|Highmountain|T|Dorgrub the Cruel|QO|1|N|Kill Dorgrub.|
+C Revenge, Served Cold|QID|42202|M|56.95,91.96|Z|Highmountain|T|Ugrul Skullcleaver|QO|2|N|Kill Ugrul.|
+C Revenge, Served Cold|QID|42202|M|57.14,89.29|Z|Highmountain|US|QO|3|N|Finish killing the Drogbar.|
+T Revenge, Served Cold|QID|42202|M|53.86,87.85|Z|Highmountain|N|To Jarum Skymane.|
+A Jorhuttam|QID|42204|PRE|42202|M|53.86,87.85|Z|Highmountain|LVL|103|N|From Jarum Skymane.|
+C Jorhuttam|QID|42204|M|57.14,93.78|Z|Highmountain|U|139501|QO|1|N|Use Drums near Jorhuttam's Feeding Mound.|
+T Jorhuttam|QID|42204|M|55.93,84.45|Z|ValhallasWarriorOrderHome/1|N|To Hymdall|
+A Preparing for War|QID|43585|PRE|42204|M|58.08,83.91|Z|ValhallasWarriorOrderHome/1|LVL|103|N|From Odyn.|
+C Preparing for War|QID|43585|M|59.06,13.38|Z|ValhallasWarriorOrderHome/1|N|Use Misson Table to complete 3 Missions. *Click off to continue*|
+t Preparing for War|QID|43585|M|59.06,13.38|Z|ValhallasWarriorOrderHome/1|N|To Skyseer Ghrent.|
+A Recruiting Shieldmaidens|QID|43975|PRE|42204|M|59.06,13.38|Z|ValhallasWarriorOrderHome/1|LVL|103|N|From Skyseer Ghrent.|
+T Recruiting Shieldmaidens|QID|43975|M|55.96,15.00|Z|ValhallasWarriorOrderHome/1|N|To Savyn Valorborn.|
 
 ;lights heart intro questline
 P Dalaran|QID|44009|M|58.55,24.00|N|Back to the outside world to continue leveling.|ACTIVE|44009|

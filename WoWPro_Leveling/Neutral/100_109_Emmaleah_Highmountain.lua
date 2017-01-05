@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2016-12-28 22:05
+-- Who: Blanckaert
+-- Log: added a note about treasure 40489, and added a few steps of a Leatherworking Quest
+
+-- URL: http://wow-pro.com/node/3678/revisions/28136/view
 -- Date: 2016-12-10 21:08
 -- Who: Blanckaert
 -- Log: added LW quest, put /6 back in for a turn ins, added a couple RANK 2
@@ -249,7 +254,7 @@ C Bitestone Enclave|QID|39043|M|84.05,46.57|Z|Highmountain/5|N|Kill Basalisks an
 T Bitestone Enclave|QID|39043|M|47.32,44.53|Z|Highmountain/5|N|To Warbrave Oro.|
 A Dargrul and the Hammer|QID|39027|M|47.32,44.53|Z|Highmountain/5|N|From Warbrave Oro.|PRE|39043|
 C Dargrul and the Hammer|QID|39027|M|66.48,49.66|QO|1|Z|Highmountain/5|NC|N|Follow Warbrave Oro to confront Dargrul. When he encases you in rock, click on it to break free.|
-$ Treasure Chest|QID|40489|M|85.62,38.38|N|There is a Treasure chest up where Dargrul was.  You may have to kill 15-20 mobs to get it, so I'm not sure its worth it. Check off manually if you don't want to go up there.|RANK|3|
+$ Treasure Chest|QID|40489|M|85.62,38.38|N|There is a Treasure chest up where Dargrul was.  You may have to kill 15-20 mobs to get it, so I'm not sure its worth it. Check off manually if you don't want to go up there.\n You will return to this Cave for a World Quest, which will make it a lot easier to get.|RANK|3|
 C Dargrul and the Hammer|QID|39027|M|15.25,26.78|QO|2|Z|Highmountain/5|NC|N|Run out of the cavern.|
 f Sylvan Falls|QID|39027|M|35.88,65.93|N|Run past the turn in because it goes to an escort quest. Get the flightpath at Roren Longshadow.|
 $ Treasure Chest|QID|40488|M|36.61,62.13|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -345,6 +350,7 @@ T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 A Wrathshard|QID|39134|PRE|38909|M|49.02,55.26|N|From Warbrave Nava who is back up the elevator and across the bridges.|RANK|2|
 A No Time to Talk|QID|39133|PRE|38909|M|49.02,55.26|N|From Warbrave Nava|RANK|2|
 $ Glimmering Treasure Chest|QID|39471|M|49.82,53.49;51.19,53.03|CS|N|Before you go in the cavern, take this path up for a treasure directly above the entrance. Loot for a bit of treasure and resources.|RANK|2|
+K Kill Hartli the Snatcher|QID|39802|M|51.08,48.25|T|Hartli|N|Silver to kill for treasure and resources.|RANK|2|
 C No Time to Talk|QID|39133|M|52.56,54.71|S|N|Kill Enraged Ambershards as you travel towards their boss.|RANK|2|
 C Wrathshard|QID|39134|M|54.01,54.47|T|Wrathshard|N|Kill Wrathshard.|RANK|2|
 $ Small Treasure Chest|QID|40493|M|53.05,52.21|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -369,6 +375,7 @@ T Note-Eating Goats|QID|39859|M|40.04,52.25|N|To Hemet Nesingwary.|RANK|2|
 A A Hunter at Heart|QID|40216|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|2|PRE|39859|
 C A Hunter at Heart|QID|40216|M|39.93,52.23|QO|1|CHAT|N|Speak to Addie.|RANK|2|
 C A Hunter at Heart|QID|40216|M|39.55,49.01|NC|S|N|Every poorly set trap you click on and every beast you kill advances Addie's training.|RANK|2|
+C Claw of the Land|QID|40192|M|37.84,48.56|P|Leatherworking;165|S|N|Kill Pinerock Stalkers for claws.|
 C Lion Stalkin'|QID|39123|M|37.84,48.56|S|N|Kill Pinerock Stalkers.|RANK|2|
 C Moose Shootin'|QID|39124|M|42.08,48.33|S|N|The moose are mostly on the other side of the river.|RANK|2|
 $ Mara Swiftmane vs Sure Shot Arnie|QID|40612|M|43.47,47.31|N|Assist Mara and you can have the hunter's treasure. |RANK|2|
@@ -378,6 +385,7 @@ K Kill Bristlemaul|QID|40405|QO|1|M|38.11,45.68|T|Bristlemaul|N|Kill for a bit o
 C Bear Huntin'|QID|39392|M|37.00,45.78|US|N|Finish up collecting pelts before you leave Field of An'she.|RANK|2|
 C Moose Shootin'|QID|39124|M|40.72,50.79|US|N|Finish up any needed moose on your way back to Nesingwary.|RANK|2|
 C Lion Stalkin'|QID|39123|M|40.72,50.79|US|N|Finish up any needed Pinerock Stalkers on your way back to Nesingwary.|RANK|2|
+C Claw of the Land|QID|40192|M|40.72,50.79|P|Leatherworking;165|US|N|Kill Pinerock Stalkers for claws.|
 C A Hunter at Heart|QID|40216|M|40.72,50.79|NC|US|N|If Addie isn't fully trained, kill a few more until she is.|RANK|2|
 T Lion Stalkin'|QID|39123|M|40.03,52.25|N|To Hemet Nesingwary.|RANK|2|
 T A Hunter at Heart|QID|40216|M|40.04,52.25|N|To Hemet Nesingwary.|RANK|2|
@@ -649,6 +657,7 @@ R Thunder Totem (Up the elevator)|QID|38915|M|58.97,87.46|Z|ThunderTotem|CC|N|Ta
 A Bolas Bastion|QID|42630|PRE|39387|M|42.86,38.79|Z|ThunderTotem|N|From Bolas Skyfeather.|AVAILABLE|38915|RANK|2|
 C Bolas Bastion|QID|42630|M|43.38,37.81|Z|ThunderTotem|NC|N|Hop in the Bolos Launcher and shoot at the Coven Attackers.|RANK|2|
 T Bolas Bastion|QID|42630|M|42.94,38.76|Z|ThunderTotem|N|To Bolas Skyfeather.|RANK|2|
+t Claw of the Land|QID|40192|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|To Hrul Sharphoof.|
 
 $ Steamy Jewerly Box|QID|39531|M|63.49,59.41|Z|ThunderTotem|ITEM|141322 1|N|I'm somewhat uncomfortable stealing from sleeping ally's, but there it is.|RANK|2|
 $ Small Treasure Chest|QID|40472|M|50.64,75.37|Z|ThunderTotem|N|Loot for a bit of resources and treasure.|RANK|2|

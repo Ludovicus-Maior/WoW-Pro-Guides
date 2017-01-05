@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_alchemy
+-- Date: 2017-01-02 22:35
+-- Who: Ludovicus
+-- Log: New style registration
+
+-- URL: http://wow-pro.com/node/3408/revisions/26878/view
 -- Date: 2014-11-08 00:15
 -- Who: Ludovicus
 -- Log: FACTION
@@ -30,7 +35,10 @@
 -- Date: 2011-06-30 05:49
 -- Who: Crackerhead22
 
-WoWPro.Profession:RegisterGuide('TwiAlchemy', 'Alchemy', 'Alchemy', 'Twists', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("TwiAlchemy","Profession","Alchemy", "Twists", "Neutral")
+WoWPro:GuideIcon(guide,"PRO",171)
+WoWPro:GuideName(guide, "Alchemy")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Learn Apprentice Alchemy|QID|901710000|P|Alchemy;171;*;0;75|N|Learn from a Trainer in any major city. Requires Level 5.|
