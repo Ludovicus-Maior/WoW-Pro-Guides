@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2017-01-05 14:05
+-- Who: Ludovicus
+-- Log: Finish Pet battle updates and move Jubling to RANK|3
+
+-- URL: http://wow-pro.com/node/3459/revisions/28209/view
 -- Date: 2017-01-02 22:49
 -- Who: Ludovicus
 -- Log: Add new style pet battle scripts and two strategies.
@@ -149,12 +154,13 @@ local guide = WoWPro:RegisterGuide("TwiDarkmoon",'WorldEvents',"DarkmoonFaireIsl
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.WorldEvents:GuideHoliday(guide,"Darkmoon Faire")
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_MISC_Cape_DarkmoonFaire_C_01")
+WoWPro:GuidePetBattle(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
 B Fossil Archeology Fragments|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|LVL|90|RANK|3|
 
-B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Shadowforge City@BlackrockDepths|L|11325 10|U|37863|PET|14878;3|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there. (Note: Jubling isn't tradeable)|
+B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Shadowforge City@BlackrockDepths|L|11325 10|U|37863|PET|14878;3|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there. (Note: Jubling isn't tradeable)|RANK|3|
 B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|LVL|15|RANK|3|
 B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|LVL|15|RANK|3|
 B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|LVL|15|RANK|3|
@@ -236,27 +242,25 @@ N Achievement|QID|29438|ACH|6022;1|N|Pick one target and fire when it lights up.
 C He Shoots, He Scores!|QID|29438|NC|N|Talk to Rinling again picking Let's shoot! Aim at a target and press 1 to fire. You can get 2 shots in per target.|RANK|2|
 T He Shoots, He Scores!|QID|29438|N|To Rinling.|RANK|2|
 
-A Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;119467;true|M|47.72,62.67|N|From Jeremy Feasel.|
-A Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;125610;true|M|47.72,62.67|N|From Jeremy Feasel.|
-; Judgement, Honky Tonk, Fezwick
+A Darkmoon Pet Battle!|QID|32175|SPELL|Revive Battle Pets;125439;true|M|47.04,62.74|N|From Jeremy Feasel.|
+; Judgement (H1588, P329, S277), Honky Tonk(H1745, P294, S280), Fezwick (H1570, P312, S294)
 N Feasel|ACTIVE|32175|PET1|Mechanical Pandaren Dragonling;64899;1+2+2|PET2|Leveling;;;|PET3|Cogblade Raptor;68841;2+1+1;P>270|STRATEGY|LudoFeaselLevel|
-C MPD .vs. Judgement|QID|37207|STRATEGY|LudoFeaselLevel|N|1) [ability=779/Thunderbolt]\n2) Spam [ability=115/breath]|SELECT|1|DEAD|2,1|
-C MPD .vs. Tonk|QID|37207|STRATEGY|LudoFeaselLevel|N|1) [ability=334/Decoy]2) Spam [ability=115/breath]\n3) [ability=779/Thunderbolt] on cooldown\nTill MPD dies or Tonk dies.\nSwitch in leveling pet|SELECT|1|SWITCH|2|
-C Level to Raptor|QID|37207|STRATEGY|LudoFeaselLevel|N|1) Let the leveling pet stare in fright.\n2) Switch to the Raptor|SELECT|2|SWITCH|3|
-C Raptor .vs. Tonk|QID|37207|STRATEGY|LudoFeaselLevel|N|1) [ability=455/batter] to death|SELECT|3|DEAD|2,2|
-C Raptor .vs. Fezwick|QID|37207|STRATEGY|LudoFeaselLevel|N|1) [ability=455/batter] to death|SELECT|3|DEAD|2,3|
-T Darkmoon Pet Battle!|QID|32175|M|47.72,62.67|N|To Jeremy Feasel|
+C MPD .vs. Judgement|QID|32175|STRATEGY|LudoFeaselLevel|N|1) [ability=779/Thunderbolt]\n2) Spam [ability=115/breath]|SELECT|1|DEAD|2,1|
+C MPD .vs. Tonk|QID|32175|STRATEGY|LudoFeaselLevel|N|1) [ability=334/Decoy]\n2) Spam [ability=115/breath]\n3) [ability=779/Thunderbolt] on cooldown\nTill MPD dies or Tonk dies.\nSwitch in leveling pet|SELECT|1|SWITCH|2|
+C Level to Raptor|QID|32175|STRATEGY|LudoFeaselLevel|N|1) Let the leveling pet stare in fright.\n2) Switch to the Raptor|SELECT|2|SWITCH|3|
+C Raptor .vs. Tonk|QID|32175|STRATEGY|LudoFeaselLevel|N|1) [ability=455/batter] to death|SELECT|3|DEAD|2,2|
+C Raptor .vs. Fezwick|QID|32175|STRATEGY|LudoFeaselLevel|N|1) [ability=455/batter] to death|SELECT|3|DEAD|2,3|
+T Darkmoon Pet Battle!|QID|32175|M|47.04,62.74|N|To Jeremy Feasel|
 
-A A New Darkmoon Challenger!|QID|36471|SPELL|Battle Pet Training;119467;true|M|47.4,62.2|N|From Christoph VonFeasel.|
-A A New Darkmoon Challenger!|QID|36471|SPELL|Battle Pet Training;125610;true|M|47.4,62.2|N|From Christoph VonFeasel.|
-; Syd, Pointy, Otto
-N VonFeasel|ACTIVE|32175|PET1|Bronze Whelpling;7546;2+1+1|PET2|Leveling;;;|PET3|Iron Starlette;77221;1+1+1;P>300|STRATEGY|LudoVonFeaselLevel|
+A A New Darkmoon Challenger!|QID|36471|SPELL|Revive Battle Pets;125439;true|M|47.29,61.98|N|From Christoph VonFeasel.|
+; Syd (H1694, P319, S300), Pointy(H1694, P319, S300), Otto(H1694, P319, S300)
+N VonFeasel|ACTIVE|36471|PET1|Bronze Whelpling;7546;2+1+1;S>300|PET2|Leveling;;;|PET3|Iron Starlette;77221;1+1+1;H>1500|STRATEGY|LudoVonFeaselLevel|
 C Whelp .vs. Syd|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) Spam [ability=122/tail-sweep]\n2) [ability=170/lift-off] when 1 round left on [ability=513/whirlpool]|SELECT|1|DEAD|2,1|
 C Whelp .vs. Pointy|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=405/early-advantage]\n2) Die gracefully and switch in the leveling pet.|SELECT|1|DEAD|1,1|SWITCH|2|
 C Level to Starlette|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) Let the leveling pet stare in fright.\n2) Switch to the Starlette|SELECT|2|SWITCH|3|
 C Starlette .vs. Pointy|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=566/powerball]\n2) 2x [ability=459/wind-up]\n3) optional [ability=566/powerball]|SELECT|3|DEAD|2,2|
 C Starlette .vs. Otto|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=459/wind-up]\n2) [ability=208/supercharge]\n3) [ability=459/wind-up]|SELECT|3|DEAD|2,3|
-T A New Darkmoon Challenger!|QID|36471||M|47.4,62.2|N|To Christoph VonFeasel.|
+T A New Darkmoon Challenger!|QID|36471||M|47.29,61.98|N|To Christoph VonFeasel.|
 
 C Rearm, Reuse, Recycle|QID|29518|NC|N|Look for Tonk Scrap. Look between the tents.|S|
 C Talkin' Tonks|QID|29511|NC|N|Repair tonks.|U|72110|S|
@@ -313,9 +317,9 @@ C Herbs for Healing|QID|29514|US|NC|
 T Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|To Chronos.|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
 
-N Jubling|QID|7946|M|55.8,70.6|U|11325|PET|14878;3|N|Somewhere in the forest resonably close to Morja is her lost frog Jubjub. He is hooked on Dark Iron Ale. If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured Jubjub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|
-A Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;3|
-T Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;3|N|You will recieved an egg, in 7 days it will hatch into a jubling, that you will be able to put into your pet journal.|
+N Jubling|QID|7946|M|55.8,70.6|U|11325|PET|14878;3|N|Somewhere in the forest resonably close to Morja is her lost frog Jubjub. He is hooked on Dark Iron Ale. If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured Jubjub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|RANK|3|
+A Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;3|RANK|3|
+T Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;3|N|You will recieved an egg, in 7 days it will hatch into a jubling, that you will be able to put into your pet journal.|RANK|3|
 
 B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6030;1|L|74142 6|FACTION|Alliance|RANK|3|
 B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6031;1|L|74142 6|FACTION|Horde|RANK|3|
