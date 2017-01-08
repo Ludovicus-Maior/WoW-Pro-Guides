@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/Blanckaert
+-- Date: 2017-01-08 13:17
+-- Who: Emmaleah
+-- Log: moved tailoring stuff up one step. Corrected the spelling of Artificer. Removed a bunch of |Z|Suramar's and most importantly, reworded the |N|on Falanar leyline (because when I originally wrote that step, I thought leylines increased your ancient mana cap, and that note never was corrected when I figure out they didn't) Probably some other minor changes as well.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28212/view
 -- Date: 2017-01-03 04:55
 -- Who: Blanckaert
 -- Log: added purchases lines for tailoring recipes.
@@ -249,11 +254,6 @@
 -- Log: added theoretical turn in of last quest.
 --	changed final note to reflect new date
 
--- URL: http://wow-pro.com/node/3687/revisions/27999/view
--- Date: 2016-11-09 00:04
--- Who: Blanckaert
--- Log: added quests available today 11/08/2016
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideAutoSwitch(guide)
@@ -375,7 +375,7 @@ T Oculeth's Workshop|QID|40011|M|49.66,48.13|N|To Chief Telemancer Oculeth.|
 A The Delicate Art of Telemancy|QID|40747|M|49.66,48.13|N|From Chief Telemancer Oculeth.|PRE|40011|
 C The Delicate Art of Telemancy|QID|40747|QO|1|M|49.58,46.78|NC|N|To use Oculeth's teleporters you have to click on them and then stand on the square in the middle of the patio.|
 C The Delicate Art of Telemancy|QID|40747|QO|2|M|55.80,39.43;54.32,44.20;51.88,34.99|CS|NC|N|Travel to the Fountain and then the Telemetry Lab to collect the Weathered Telemancy Beacon.|
-C The Delicate Art of Telemancy|QID|40747|QO|3|M|53.01,37.08;54.41,44.57;55.82,39.98;53.16,46.84|CS|NC|N|Return to the Fountain, and then travel to the Breakfast Nook, which will actually return you to Warpwind Cliffs.  Use the Warp Lab teleporter and then collect the Cracked Warpsleeve.|
+C The Delicate Art of Telemancy|QID|40747|QO|3|M|53.01,37.08;54.41,44.57;55.82,39.98;53.16,46.84|CS|NC|N|Return to the Fountain, and then travel to the Breakfast Nook, which will actually return you to Warpwind Cliffs. Use the Warp Lab teleporter and then collect the Cracked Warpsleeve.|
 T The Delicate Art of Telemancy|QID|40747|M|52.13,44.83;49.29,47.10|CS|N|Use the Workshop teleporter and then turn in to Chief Telemancer Oculeth.|
 A Network Security|QID|40748|M|49.29,47.10|N|From Chief Telemancer Oculeth.|PRE|40747|
 C Network Security|QID|40748|M|59.73,36.67|QO|1|NC|N|Teleport to the Test Chamber.|
@@ -413,7 +413,7 @@ C Tapping the Leylines|QID|40010|M|41.58,38.75|QO|2|NC|N|Step on Ancient Switch.
 C Tapping the Leylines|QID|40010|M|41.62,39.10|QO|3|CHAT|N|Speak with Arcanist Valtrois.|
 T Tapping the Leylines|QID|40010|M|39.76,29.69|Z|Suramar/36|N|To Arcanist Valtrois.|
 A Power Grid|QID|41028|M|39.76,29.69|Z|Suramar/36|N|From Arcanist Valtrois.|PRE|40010|
-C Power Grid|QID|41028|M|52.93,55.83|Z|Suramar/36|NC|N|Valtrois leads you to a room with a 'high switch'. Follow the ley beam to the room with the 8 'low switches' and the 4 'seals'. Click on the switches to get the beams both pointed at the same seal. If you can't, follow the beam that isn't pointed where you want back to its 'high switch' and click it. Then run back to see if both beams are pointed at the same seal, if so, click on the seal. one down, 3 to go.  If not, click on the 'low switch' the beam goes through to point it at the seal, then click to lock it in. Rinse, repeat.|
+C Power Grid|QID|41028|M|52.93,55.83|Z|Suramar/36|NC|N|Valtrois leads you to a room with a 'high switch'. Follow the ley beam to the room with the 8 'low switches' and the 4 'seals'. Click on the switches to get the beams both pointed at the same seal. If you can't, follow the beam that isn't pointed where you want back to its 'high switch' and click it. Then run back to see if both beams are pointed at the same seal, if so, click on the seal. one down, 3 to go. If not, click on the 'low switch' the beam goes through to point it at the seal, then click to lock it in. Rinse, repeat.|
 T Power Grid|QID|41028|M|39.52,29.08|Z|Suramar/36|N|To Arcanist Valtrois.|
 K Kill Myonix|QID|43358|QO|1|M|40.77,32.87|ITEM|121739|T|Myonix|N|Silver - Kill Myonix for a bit of treasure and resources.|RANK|2|
 $ Glimmering Treasure Chest|QID|43856|M|42.32,29.99;44.04,31.93|CS|N|Go inside the cave behind the waterfall, The path is is across the river and up one tier from Myonix. Loot for treasure and resources.|RANK|2|
@@ -511,6 +511,39 @@ T Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|N|To Unpowered Tele
 K Kill Magister Phaedris|QID|43348|QO|1|M|41.99,79.87|T|Magister Phaedris|N|Silver - Kill and loot for treasure and resources.|ITEM|140405|RANK|2|
 R The Grand Promanade|QID|42147|M|42.81,60.35|CC|N|Reapply your mask via the Extra Action Button(and avoid the NPCs who see illusion) and ride over to see Vanthir.|
 C First Contact|QID|42147|M|42.78,60.26|CHAT|N|Speak with Vanthir.|
+
+; Adding (some) Tailoring Quest chain here....
+t The Path to Suramar City|QID|38962|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|To Tanithria|
+A The Hightborne Connection|QID|38967|PRE|38962|LVL|110|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|From Tanithria|
+P Lunastre Estate|QID|38967|ACTIVE|38967|M|36.16,45.04|P|Tailoring;197|N|Take Portal to Lunastre Estate.|
+t The Hightborne Connection|QID|38967|M|40.64,69.54;40.34,69.47|CS|P|Tailoring;197|N|To Leyweaver Tytallo.|
+A Proof of Loyalty|QID|38968|PRE|38967|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo.|
+A Master of Silkweave|QID|38969|PRE|38967|M|40.32,69.73|P|Tailoring;197|N|From Leyweaver Inondra.|
+C Proof of Loyalty|QID|38968|M|35.76,55.65|QO|1|P|Tailoring;197|N|Kill Withered.|
+B Master of Silkweave|QID|38969|M|40.20,69.55|L|127266 1|P|Tailoring;197|N|Buy a Shal'dorei Mannequin from Leyweaver Mithrogane.|
+C Master of Silkweave|QID|38969|M|40.20,69.55|U|127266|QO|1|P|Tailoring;197|N|Create all 8 pieces of Silkweave Cloth Armor.\nYou will need:\nShal'dorei Silk x151,\nRunic Catgut x10,\nSharp Spritethorn x2.\n\nSilkweave Gloves\nSilkweave Hood\nSilkweave Pantaloons\nSilkweave Slippers\nSilkweave Bracers\nSilkweave Robe\nSilkweave Cinch\nSilkweave Epaulets.\n\n Once you've made them use the Mannequin to create Silkweave Set.|
+t Master of Silkweave|QID|38969|M|40.32,69.73|P|Tailoring;197|N|To Leyweaver Inondra.|
+t Proof of Loyalty|QID|38968|M|40.34,69.47|P|Tailoring;197|N|To Leyweaver Tytallo.|
+A The Queen's Grace Loom|QID|38970|PRE|38969;38968|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo.|
+C The Queen's Grace Loom|QID|38970|M|40.27,69.69|P|Tailoring;197|N|Use Teleportation Crystal|
+C The Queen's Grace Loom|QID|38970|M|40.39,69.61|P|Tailoring;197|CHAT|N|Ask Leyweaver Azayna to Tell you about the loom.|
+C The Queen's Grace Loom|QID|38970|M|40.43,69.51|P|Tailoring;197|N|Use Teleportation Crystal|
+T The Queen's Grace Loom|QID|38970|M|40.34,69.47|P|Tailoring;197|N|To Leyweaver Tytallo.|
+A The Big Bag Theory|QID|44741|PRE|38970|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo. This quest is completed in the NEW Karazhan mythic dungeon.|
+B Pattern: Imbued Silkeweave Flourish|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127280|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186109|
+B Pattern: Imbued Silkeweave Shade|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127279|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186106|
+B Pattern: Imbued Silkeweave Drape|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127278|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186115|
+B Pattern: Imbued Silkeweave Cover|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127277|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186112|
+A Inspire Me!|QID|38975|PRE|38970|M|40.20,69.55|P|Tailoring;197|N|From Leyweaver Mithrogane.|
+B Pattern: Imbued Silkweave Hood|PRE|38970|M|49.4,75.8|LVL|110|P|Tailoring;197|L|127025|N|From Leyweaver Jorjana. (100 Shal'dorei Silk)|RECIPE|185930|
+C Inspire Me!|QID|38975|M|40.22,69.55|NC|P|Tailoring;197|QO|1|N|Craft Brown Linen Robe near Leyweaver Mithrogane|
+C Inspire Me!|QID|38975|M|40.22,69.55|NC|P|Tailoring;197|QO|2|N|Craft White Woolen Dress near Leyweaver Mithrogane|
+C Inspire Me!|QID|38975|M|40.22,69.55|NC|P|Tailoring;197|QO|3|N|Craft Simple Black Dress near Leyweaver Mithrogane|
+C Inspire Me!|QID|38975|M|40.22,69.55|NC|P|Tailoring;197|QO|4|N|Craft Frostwoven Robe near Leyweaver Mithrogane|
+C Inspire Me!|QID|38975|M|40.22,69.55|NC|P|Tailoring;197|QO|5|N|Craft Spiritmend Robe near Leyweaver Mithrogane|
+T Inspire Me!|QID|38975|M|40.22,69.55|P|Tailoring;197|N|To Leyweaver Mithrogane.|
+; might need to add more after big bag theory is done...
+
 R Sanctum of Order|QID|42147|M|42.93,61.97;44.27,62.95;44.59,62.12|CS|N|Into the building and down.|
 A Sanctum of Order Teleporter Online!|QID|43813|M|43.39,60.65|N|From Unpowered Telemancy Beacon.|PRE|40956|
 T Sanctum of Order Teleporter Online!|QID|43813|M|43.39,60.65|N|To Unpowered Telemancy Beacon.|
@@ -523,41 +556,7 @@ A Scenes from a Memory|QID|40325|M|37.08,46.27|N|Click the memories to clear the
 C Scenes from a Memory|QID|40325|M|37.13,45.61|NC|N|Click on the memories to banish them.|
 T Scenes from a Memory|QID|40325|M|37.06,46.23|N|To First Arcanist Thalyssra.|
 A Cloaked in Moonshade|QID|42224|M|37.06,46.23|N|From First Arcanist Thalyssra.|PRE|40325|
-A Cling to Hope|QID|40798|M|37.71,47.80|N|From Absolon.(Upstairs)|PRE|40796|RANK|2|
-
-; Adding (some) Tailoring Quest chain here....
-
-t The Path to Suramar City|QID|38962|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|To Tanithria|
-A The Hightborne Connection|QID|38967|PRE|38962|LVL|110|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|From Tanithria|
-P Lunastre Estate|QID|38967|ACTIVE|38967|M|36.16,45.04|Z|Suramar|P|Tailoring;197|N|Take Portal to Lunastre Estate.|
-t The Hightborne Connection|QID|38967|M|40.64,69.54;40.34,69.47|Z|Suramar|CS|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A Proof of Loyalty|QID|38968|PRE|38967|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|From Leyweaver Tytallo.|
-A Master of Silkweave|QID|38969|PRE|38967|M|40.32,69.73|Z|Suramar|P|Tailoring;197|N|From Leyweaver Inondra.|
-C Proof of Loyalty|QID|38968|M|35.76,55.65|Z|Suramar|QO|1|P|Tailoring;197|N|Kill Withered.|
-B Master of Silkweave|QID|38969|M|40.20,69.55|Z|Suramar|L|127266 1|P|Tailoring;197|N|Buy a Shal'dorei Mannequin from Leyweaver Mithrogane.|
-C Master of Silkweave|QID|38969|M|40.20,69.55|Z|Suramar|U|127266|QO|1|P|Tailoring;197|N|Create all 8 pieces of Silkweave Cloth Armor.\nYou will need:\nShal'dorei Silk x151,\nRunic Catgut x10,\nSharp Spritethorn x2.\n\nSilkweave Gloves\nSilkweave Hood\nSilkweave Pantaloons\nSilkweave Slippers\nSilkweave Bracers\nSilkweave Robe\nSilkweave Cinch\nSilkweave Epaulets.\n\n Once you've made them use the Mannequin to create Silkweave Set.|
-t Master of Silkweave|QID|38969|M|40.32,69.73|Z|Suramar|P|Tailoring;197|N|To Leyweaver Inondra.|
-t Proof of Loyalty|QID|38968|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A The Queen's Grace Loom|QID|38970|PRE|38969;38968|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|From Leyweaver Tytallo.|
-C The Queen's Grace Loom|QID|38970|M|40.27,69.69|Z|Suramar|P|Tailoring;197|N|Use Teleportation Crystal|
-C The Queen's Grace Loom|QID|38970|M|40.39,69.61|Z|Suramar|P|Tailoring;197|CHAT|N|Ask Leyweaver Azayna to Tell you about the loom.|
-C The Queen's Grace Loom|QID|38970|M|40.43,69.51|Z|Suramar|P|Tailoring;197|N|Use Teleportation Crystal|
-T The Queen's Grace Loom|QID|38970|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A The Big Bag Theory|QID|44741|PRE|38970|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|From Leyweaver Tytallo.|
-B Pattern: Imbued Silkeweave Flourish|PRE|38970|M|40.2,69.6|Z|Suramar|LVL|110|P|Tailoring;197|L|127280|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186109|
-B Pattern: Imbued Silkeweave Shade|PRE|38970|M|40.2,69.6|Z|Suramar|LVL|110|P|Tailoring;197|L|127279|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186106|
-B Pattern: Imbued Silkeweave Drape|PRE|38970|M|40.2,69.6|Z|Suramar|LVL|110|P|Tailoring;197|L|127278|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186115|
-B Pattern: Imbued Silkeweave Cover|PRE|38970|M|40.2,69.6|Z|Suramar|LVL|110|P|Tailoring;197|L|127277|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186112|
-A Inspire Me!|QID|38975|PRE|38970|M|40.20,69.55|Z|Suramar|P|Tailoring;197|N|From Leyweaver Mithrogane.|
-B Pattern: Imbued Silkweave Hood|PRE|38970|M|49.4,75.8|Z|Suramar|LVL|110|P|Tailoring;197|L|127025|N|From Leyweaver Jorjana. (100 Shal'dorei Silk)|RECIPE|185930|
-C Inspire Me!|QID|38975|M|40.22,69.55|Z|Suramar|P|Tailoring;197|QO|1|N|Craft Brown Linen Robe near Leyweaver Mithrogane|
-C Inspire Me!|QID|38975|M|40.22,69.55|Z|Suramar|P|Tailoring;197|QO|2|N|Craft White Woolen Dress near Leyweaver Mithrogane|
-C Inspire Me!|QID|38975|M|40.22,69.55|Z|Suramar|P|Tailoring;197|QO|3|N|Craft Simple Black Dress near Leyweaver Mithrogane|
-C Inspire Me!|QID|38975|M|40.22,69.55|Z|Suramar|P|Tailoring;197|QO|4|N|Craft Frostwoven Robe near Leyweaver Mithrogane|
-C Inspire Me!|QID|38975|M|40.22,69.55|Z|Suramar|P|Tailoring;197|QO|5|N|Craft Spiritmend Robe near Leyweaver Mithrogane|
-t Inspire Me!|QID|38975|M|40.22,69.55|Z|Suramar|P|Tailoring;197|N|To Leyweaver Mithrogane.|
-
-; might need to add more after big bag theory is done...
+A Cling to Hope|QID|40798|M|37.71,47.80|N|From Absolon.(Upstairs)|PRE|40796+40325|RANK|2|
 
 ; Falanaar story arc
 
@@ -578,7 +577,7 @@ C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Falanaar Tunnels@Suramar|QO|2|N|En
 T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|To Valewalker Farodin.|
 A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|From Valewalker Farodin.|PRE|42227|
 $ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for storable, but non-stackable ancient mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
-R Falanaar South Leyline|QID|43593|M|40.99,45.47;45.03,54.61;41.80,66.64|CC|Z|Falanaar Tunnels@Suramar|N|Increases your ancient mana cap and faction is handy|
+R Falanaar South Leyline|QID|43593|M|40.99,45.47;45.03,54.61;41.80,66.64|CC|Z|Falanaar Tunnels@Suramar|N|You have to do it sometime, and now you are closest, unless you want to wait till you have a world quest in the area|
 A Leyline Feed Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana)|PRE|41138|
 T Leyline Feed Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|To Leyline Feed.|
 $ Small Treasure Chest|QID|43840|M|58.33,70.00|Z|Falanaar Tunnels@Suramar|N|Loot for treasure and resources.|RANK|2|
@@ -713,7 +712,7 @@ C Stop the Spell Seekers|QID|41032|M|36.45,17.00|S|NC|N|Click on the purple port
 C Lay Waste, Lay Mines|QID|40965|M|34.64,20.10|S|U|133882|N|Use the trap rune to kill multiple Nightborne at a time.|
 K Kill Siegemaster Aedrin|QID|43369|M|37.0,21.2|ITEM|140406|T|Siegemaster Aedrin|N|Silver - Siegemaster Aedrin, for a bit of treasure and resources.|RANK|2|
 C Precious Little Left|QID|40967|M|36.36,16.75|QO|1|NC|N|Up the stairs to find 'Anthology of the Guard' on a table.|
-K Kill Artificer Lothaire|QID|43717|QO|1|M|34.27,15.38|ITEM|140372|T|Artificer Lothaire|N|Silver - Up more stairs to kill this rare for treasure and resources. The Trap Rune doesn't affect the Artificer or his companions. Agro the Articicer and then the Constructs will attack, first one, then two.  Then the Artificer will attack.|RANK|2|
+K Kill Artificer Lothaire|QID|43717|QO|1|M|34.27,15.38|ITEM|140372|T|Artificer Lothaire|N|Silver - Up more stairs to kill this rare for treasure and resources. The Trap Rune doesn't affect the Artificer or his companions. Agro the Artificer and then the Constructs will attack, first one, then two. Then the Artificer will attack.|RANK|2|
 C Precious Little Left|QID|40967|M|34.07,17.89|QO|3|NC|N|Back down the stairs and 'Aftermath of the Well' is against the wall inside this room.|
 K Kill Commander Domitille|QID|40762|M|36.14,18.56|T|Commander Domitille|L|136851|N|Kill and loot for an optional quest.|ITEM|141672|
 A Zealot's Dues|QID|40762|O|U|136851|N|Accepted from Commander Domitille's helm which you just picked up.|
@@ -1028,10 +1027,10 @@ $ Small Treasure Chest|QID|43831|M|31.96,62.48|N|Loot for some treasure and reso
 
 ; Insertting Leatherworking / Tailoring Quests.
 
-t Demon Flesh|QID|40211|M|26.53,71.61|Z|Suramar|LVL|110|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
-A Wrong End of the Knife|QID|40212|PRE|40211|M|26.53,71.61|Z|Suramar|LVL|110|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
-A Hounds Abound|QID|40213|PRE|40211|M|26.53,71.61|Z|Suramar|LVL|110|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
-A Exotic Textiles|QID|38971|PRE|38970|M|26.63,71.42|Z|Suramar|LVL|110|P|Tailoring;197|N|From Leyweaver Athystro.|
+t Demon Flesh|QID|40211|M|26.53,71.61|LVL|110|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
+A Wrong End of the Knife|QID|40212|PRE|40211|M|26.53,71.61|LVL|110|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
+A Hounds Abound|QID|40213|PRE|40211|M|26.53,71.61|LVL|110|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
+A Exotic Textiles|QID|38971|PRE|38970|M|26.63,71.42|LVL|110|P|Tailoring;197|N|From Leyweaver Athystro.|
 
 A A Different Source|QID|40625|M|29.38,71.78;27.34,72.89;26.78,70.82|CS|N|From Kyrtos.|RANK|2|
 $ Kyrtos's Research Notes|QID|43987|M|26.86,70.74|U|140327|ITEM|140327|N|Pick up and use Kyrtos's Research Notes to raise your ancient mana cap by 100.|
@@ -1098,7 +1097,7 @@ T Fel Bent for Leather|QID|40919|M|26.74,70.80|N|To Kyrtos.|
 T Power! Get The Power!|QID|40642|M|26.74,70.80|N|To Kyrtos.|
 A The Bigger They Are, The Harder They Fel|QID|42366|M|26.74,70.80|PRE|40642|N|From Kyrtos.\nUse His portal that he makes.|RANK|2|
 C The Bigger They Are, The Harder They Fel|QID|42366|M|32.71,74.84|QO|1|CHAT|N|Chat with Kyrtos to start the ritual, when he decides he wants your soul, kill him.\nWhen Finished, a portal will appear to take you back to His cave.|
-C Hounds Abound|QID|40213|M|36.67,73.20|Z|Suramar|LVL|110|P|Leatherworking;165|S|T|Felsoul Ravener|N|Kill Felsoul Raveners for their Corpses.|
+C Hounds Abound|QID|40213|M|36.67,73.20|LVL|110|P|Leatherworking;165|S|T|Felsoul Ravener|N|Kill Felsoul Raveners for their Corpses.|
 C Into The Pit!|QID|41222|CS|M|30.51,80.60;33.33,74.22;34.27,74.04|NC|N|Escort Angus to Felmaw Cavern|
 T Into The Pit!|QID|41222|M|34.26,73.98|N|To Angus Stormbrew.|
 A Parts Unknown|QID|41214|M|34.26,73.98|N|From Angus Stormbrew.|PRE|41222|RANK|2|
@@ -1114,7 +1113,7 @@ C Mangelrath|QID|41309|M|35.39,71.01|QO|1|N|Kill Mangelrath.|
 C Mangelrath|QID|41309|M|35.13,70.73|QO|2|CHAT|N|Speak with Brambley Morrison.|
 C Mangelrath|QID|41309|M|35.46,71.30|QO|3|NC|N|Follow Brambley Morrison, down the fel lava.|
 T Mangelrath|QID|41309|M|35.80,72.44|N|To Brambley Morrison.|
-C Hounds Abound|QID|40213|M|36.67,73.20|Z|Suramar|LVL|110|P|Leatherworking;165|US|T|Felsoul Ravener|N|Finish off killing the Felsoul Raveners for their Corpses.|
+C Hounds Abound|QID|40213|M|36.67,73.20|LVL|110|P|Leatherworking;165|US|T|Felsoul Ravener|N|Finish off killing the Felsoul Raveners for their Corpses.|
 R The Arcway|QID|41097|M|32.75,82.34;35.70,82.23|CC|N|Run east towards Felsoul Hold, The Arcway|
 R Towards Vorgos|QID|41097|M|61.43,84.82;51.20,57.65;50.24,18.33|Z|Suramar/23|CS|N|Run over to the East of the area. Felsoul Teleporter in same area.|
 C Shard of Vorgos|QID|41097|M|50.24,18.33|Z|Suramar/23|N|Kill Vorgos and loot his shard.|
@@ -1131,21 +1130,21 @@ C Azoran Must Die|QID|40412|M|32.27,75.68|N|Use the portal to enter The Lightbre
 $ Treasure Chest|QID|43834|M|32.28,77.09|N|Back down to the lower level of The Lightbreaker. Loot for a bit of treasure and resources.|RANK|2|
 P Felsoul Hold|QID|40412|ACTIVE|40412|M|33.08,75.14|N|Take the portal back down to the ground.|
 T Azoran Must Die|QID|40412|M|31.15,84.61|N|To Lyana Darksorrow.|
-t Hounds Abound|QID|40213|M|26.53,71.61|Z|Suramar|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
-t Exotic Textiles|QID|38971|M|26.63,71.42|Z|Suramar|P|Tailoring;197|N|To Leyweaver Athystro.|
+t Hounds Abound|QID|40213|M|26.53,71.61|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
+t Exotic Textiles|QID|38971|M|26.63,71.42|P|Tailoring;197|N|To Leyweaver Athystro.|
 H Shal'Aran|QID|42366|M|36.87,46.60|N|Return to Shal'Aran, Hearth or use Portal in Arcway.|
 T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|N|To First Arcanist Thalyssra.|
 
 ; More Leatherworking Quests, with having moved Waning Crescent ABOVE Felsoul Hold, need to put here.
 
-P Starcaller Retreat|QID|40212|ACTIVE|40212|M|36.49,44.75|Z|Suramar|LVL|110|P|Leatherworking;165|QO|1|N|Take Portal to Waning Crescent.|
-K Kill Tallian|QID|40212|M|47.33,76.33|Z|Suramar|P|Leatherworking;165|T|Tallian|QO|2|N|Kill Tallian, he's in the house.\nCAUTION: Seeing Demon SPAWNS in this house.|
-K Kill Feorias|QID|40212|M|46.15,77.14|Z|Suramar|P|Leatherworking;165|T|Feorias|QO|1|N|Kill Feorias, in the market, watch out for roving Seeing guards.|
-K Kill Syana|QID|40212|M|50.78,76.78|Z|Suramar|P|Leatherworking;165|T|Syana|QO|3|N|Kill Syana, he's over by Deline.|
-t Wrong End of the Knife|QID|40212|M|26.53,71.61|Z|Suramar|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
-A Fel Tanning|QID|40214|PRE|40212;40213|M|26.53,71.61|Z|Suramar|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
-C Fel Tanning|QID|40214|M|26.54,71.70|Z|Suramar|P|Leatherworking;165|N|Create, at the tanning rack:\nFel Leather Cuff x2\nFel Leather Strap x10 (you make 2 each time).\n Create Felhide Bracers.|
-t Fel Tanning|QID|40214|M|26.53,71.61|Z|Suramar|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
+P Starcaller Retreat|QID|40212|ACTIVE|40212|M|36.49,44.75|LVL|110|P|Leatherworking;165|QO|1|N|Take Portal to Waning Crescent.|
+K Kill Tallian|QID|40212|M|47.33,76.33|P|Leatherworking;165|T|Tallian|QO|2|N|Kill Tallian, he's in the house.\nCAUTION: Seeing Demon SPAWNS in this house.|
+K Kill Feorias|QID|40212|M|46.15,77.14|P|Leatherworking;165|T|Feorias|QO|1|N|Kill Feorias, in the market, watch out for roving Seeing guards.|
+K Kill Syana|QID|40212|M|50.78,76.78|P|Leatherworking;165|T|Syana|QO|3|N|Kill Syana, he's over by Deline.|
+t Wrong End of the Knife|QID|40212|M|26.53,71.61|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
+A Fel Tanning|QID|40214|PRE|40212;40213|M|26.53,71.61|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
+C Fel Tanning|QID|40214|M|26.54,71.70|P|Leatherworking;165|N|Create, at the tanning rack:\nFel Leather Cuff x2\nFel Leather Strap x10 (you make 2 each time).\n Create Felhide Bracers.|
+t Fel Tanning|QID|40214|M|26.53,71.61|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
 
 ; Quests to fill in while waiting to hit Honoured.
 
@@ -1345,7 +1344,7 @@ A Bring Home the Beacon|QID|43565|PRE|43562|M|37.13,46.63|N|From Chief Telemance
 P Starcaller Retreat|QID|43565|ACTIVE|43565|M|36.50,44.74|N|Take Portal to The Waning Crescent.|
 C Flow Control-Lunestre Lane|QID|43564|M|45.69,76.03|QO|1|NC|N|Click on the manhole cover.|
 C Survey Evermoon Commons|QID|43565|M|48.08,75.06|QO|1|NC|U|140257|N|Use the 'Advanced Telemancy Beacon' 5-6 times. (until you get 100 scans) Watch out for Seeing Guards.|
-C Survey Evermoon Bazaar|QID|43565|M|48.56,76.63|QO|2|NC|U|140257|N|Use the 'Advanced Telemancy Beacon' 5-6 times. (until you get 100 scans)  Watch out for Seeing Guards.|
+C Survey Evermoon Bazaar|QID|43565|M|48.56,76.63|QO|2|NC|U|140257|N|Use the 'Advanced Telemancy Beacon' 5-6 times. (until you get 100 scans) Watch out for Seeing Guards.|
 C Survey Siren's Vigil|QID|43565|M|50.36,83.91|QO|3|NC|U|140257|N|Use the 'Advanced Telemancy Beacon' 5-6 times. (until you get 100 scans) Watch out for Seeing Guards.|
 R Concourse of Destiny|QID|43564|ACTIVE|43564|M|50.26,82.43;48.42,64.21|CS|N|Follow along the canal, and go underneath the stairs for the Concourse of Destiny.|
 C Flow Control-Parade Grounds|QID|43564|M|49.70,62.66|QO|2|NC|N|Click on the manhole cover.|
@@ -1423,9 +1422,9 @@ T Visitor in Shal'Aran|QID|44955|M|36.50,46.78|N|To First Arcanist Thalyssra.|
 
 ; Tailoring Purchase of plans Need Exalted.
 
-B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|Z|Suramar|LVL|110|P|Tailoring;197|L|137973|N|To First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185954|REP|The Nightfallen;1859;Exalted|
-B Pattern: Imbued Silkweave Pantaloons|PRE|38970|M|36.50,46.78|Z|Suramar|LVL|110|P|Tailoring;197|L|137976|N|To First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185957|REP|The Nightfallen;1859;Exalted|
-B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|Z|Suramar|LVL|110|P|Tailoring;197|L|137979|N|To First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185960|REP|The Nightfallen;1859;Exalted|
+B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137973|N|To First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185954|REP|The Nightfallen;1859;Exalted|
+B Pattern: Imbued Silkweave Pantaloons|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137976|N|To First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185957|REP|The Nightfallen;1859;Exalted|
+B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137979|N|To First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185960|REP|The Nightfallen;1859;Exalted|
 
 ; Insurrection - Missing Persons Storyline Quests.
 
@@ -1503,8 +1502,11 @@ A Take Me To Your Leader|QID|40632;40391|M|36.50,46.77|N|From First Arcanist Tha
 R Take Me To Your Leader|QID|40632;40391|M|34.84,47.97;35.95,51.11|CS|N|Run to Khadgar, Thalyssra is already there.|ACTIVE|40632;40391|
 
 T Take Me To Your Leader|QID|40632|M|40.54,53.09|N|To Archmage Khadgar.|FACTION|HORDE|
+
 A Taking a Promenade|QID|41607|PRE|40632|M|40.54,53.09|N|From Grand Magister Rommath.|FACTION|HORDE|
+
 A Down to Business|QID|43812|PRE|40632|M|40.54,53.09|N|From Lady Liadrin.|FACTION|HORDE|
+
 A A Better Future|QID|41916|PRE|40632|M|40.54,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|
 
 T Take Me To Your Leader|QID|40391|M|41.63,51.63|N|To Archmage Khadgar.|FACTION|ALLIANCE|
@@ -1533,8 +1535,11 @@ T Crystal Clearing|QID|44843|M|40.61,64.46|N|To Sentinel Moonshade.|
 T Powering Down the Portal|QID|44844|M|40.61,64.46|N|To Sentinel Moonshade.|
 
 T A Better Future|QID|41916|M|40.51,53.09|N|To First Arcanist Thalyssra.|FACTION|HORDE|
+
 T Down to Business|QID|43812|M|40.51,53.09|N|To Lady Liadrin.|FACTION|HORDE|
+
 T Taking a Promenade|QID|41607|M|40.51,53.09|N|To Grand Magister Rommath.|FACTION|HORDE|
+
 A Break An Arm|QID|44845|PRE|41916;41607;43812|M|40.51,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|
 
 T A Better Future|QID|41916|M|41.64,51.61|N|To First Arcanist Thalyssra.|FACTION|ALLIANCE|
@@ -1578,7 +1583,9 @@ R Meredil|QID|44859|M|34.84,47.97;35.95,51.11;39.28,49.30;40.49,53.07|CS|N|Run t
 R Meredil|QID|44743|M|34.84,47.97;35.95,51.11;39.28,49.30;41.64,51.48|CS|N|Run to Tyrande Whisperwind.|ACTIVE|44743|FACTION|ALLIANCE|
 
 T Liadrin's Command|QID|44859|M|40.49,53.07|N|To Lady Liadrin.|FACTION|HORDE|
+
 A Trolling Them|QID|44860|PRE|44859|M|40.49,53.07|N|From Lady Liadrin.|FACTION|HORDE|
+
 A Something's Not Quite Right...|QID|44928|PRE|44859|M|40.55,53.11|N|From Archmage Khadgar.|FACTION|HORDE|
 
 T Tyrande's Command|QID|44743|M|41.64,51.48|N|To Tyrande Whisperwind.|FACTION|ALLIANCE|
@@ -1590,7 +1597,9 @@ C Trolling Them|QID|44860;44858|M|42.55,51.30|NC|N|As you run around finding Inf
 C Something's Not Quite Right...|QID|44928|M|41.94,51.42|US|U|142375|N|5 Shal'dorei Infiltrators found.|
 
 T Something's Not Quite Right...|QID|44928|M|40.55,53.11|N|To Archmage Khadgar.|FACTION|HORDE|
+
 T Trolling Them|QID|44860|M|40.49,53.07|N|To Lady Liadrin.|FACTION|HORDE|
+
 A Arming the Rebels|QID|44862|PRE|44860|M|40.49,53.08|N|From Lady Liadrin.|FACTION|HORDE|
 
 T Something's Not Quite Right...|QID|44928|M|41.63,51.63|N|To Archmage Khadgar.|FACTION|ALLIANCE|
@@ -1750,9 +1759,10 @@ C Death to Andaris|QID|44719|SO|7|M|42.61,61.79|U|142118|N|Andaris has fallen ba
 C Reach the entrance to the Nighthold|QID|44719|M|44.13,60.04|SO|8|N|Reach the entrance to the Nighthold (wait a minute or so after arriving for Khadgar to finish talking).|
 T Breaching the Sanctum|QID|44719|M|44.18,60.12|N|To Archmage Khadgar.|
 A Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|From Archmage Khadgar. *Raid Quest*|
+
 t Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|To Archmage Khadgar. (In Dal?)|
 
-N Suramar|QID|45417|N|We are under the assumption, that this completes all the Quests in Suramar, excluding the World Quests.  If you have found any not list in the guide, please either comment at wow-pro.com, or Join Us in Discord \n\nhttps://discord.gg/kCXYzdx\n |
+N Suramar|QID|45417|N|We are under the assumption, that this completes all the Quests in Suramar, excluding the World Quests. If you have found any not list in the guide, please either comment at wow-pro.com, or Join Us in Discord \n\nhttps://discord.gg/kCXYzdx\n |
 
 ]]
 
