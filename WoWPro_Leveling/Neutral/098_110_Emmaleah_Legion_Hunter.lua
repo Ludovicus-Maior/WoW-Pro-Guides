@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2017-01-09 02:41
+-- Who: Emmaleah
+-- Log: correct formatting on QID|42659|SO|4:1/2
+
+-- URL: http://wow-pro.com/node/3670/revisions/28162/view
 -- Date: 2016-12-16 11:12
 -- Who: Emmaleah
 -- Log: update coord for Image of Kelec
@@ -330,8 +335,8 @@ C In Defense of Dalaran|QID|42659|QO|2|M|43.10,26.17|NC|N|Take Khadgar's provide
 C Arcane Essense|QID|42659|SO|1|M|51.72,69.72|Z|TheVioletHoldAcquisition/1|CHAT|N|Tell Khadgar you are ready.|
 C Becoming the Bait|QID|42659|SO|2|M|51.72,69.72|Z|TheVioletHoldAcquisition/1|N|Wait a moment while they chat.|
 C Discovering Demons|QID|42659|SO|3|M|51.72,69.72|Z|TheVioletHoldAcquisition/1|N|Use you flare (hunter ability) to expose the demons.|
-C Defeat Czaadym|QID|42659|SO|4:1|M|51.08,52.70|Z|TheVioletHoldAcquisition/1|N|Kill Czaadym. You can ignore the other felhounds. (as long as you don't hit them with barrage)|
-C Defeat Kreenam|QID|42659|SO|4:2|M|51.08,52.70|Z|TheVioletHoldAcquisition/1|N|Kill Kreenam.|
+C Defeat Czaadym|QID|42659|SO|4;1|M|51.08,52.70|Z|TheVioletHoldAcquisition/1|N|Kill Czaadym. You can ignore the other felhounds. (as long as you don't hit them with barrage)|
+C Defeat Kreenam|QID|42659|SO|4;2|M|51.08,52.70|Z|TheVioletHoldAcquisition/1|N|Kill Kreenam.|
 C Defeat Hakkar|QID|42659|SO|5|M|45.56,49.83|Z|TheVioletHoldAcquisition/1|N|Kill Hakkar. If you are worried about adds you can take him down into the room under the hole in the floor, but as a beastmaster without barrage, that wasn't necessery.|
 C Final Stage|QID|42659|SO|6|M|50.83,66.58|Z|TheVioletHoldAcquisition/1|CHAT|N|Click on Khadgar and listen to his speech.|
 A Champion: Halduron Brightwing|QID|42415|M|49.65,65.51|Z|TheVioletHoldAcquisition/1|N|From/To Halduron Brightwing. If you miss him in the instance, you can find him on his watchtower.|PRE|42133|
