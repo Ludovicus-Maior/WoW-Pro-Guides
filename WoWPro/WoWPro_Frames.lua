@@ -762,6 +762,19 @@ function WoWPro:CreateNextGuideDialog()
 	WoWPro.NextGuideDialog = frame
 end
 
+
+function WoWPro.ResetCurrentGuide()
+    if not WoWProDB.char.currentguide then return end
+    local GID = WoWProDB.char.currentguide
+    WoWProCharDB.Guide[GID] = nil
+    for j = 1,WoWPro.stepcount do
+            if WoWPro.QID[j] then
+                 WoWPro:WipeQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
+            end
+    end
+    WoWPro:LoadGuide()
+end
+
 -- Dropdown Menu --
 function WoWPro:CreateDropdownMenu()
 	WoWPro.DropdownMenu = {
@@ -778,17 +791,7 @@ function WoWPro:CreateDropdownMenu()
 		{text = L["Current Guide"], func = function() 
 			InterfaceOptionsFrame_OpenToCategory("Current Guide") 
 		end},
-		{text = L["Reset Current Guide"], func = function() 
-			if not WoWProDB.char.currentguide then return end
-			local GID = WoWProDB.char.currentguide
-			WoWProCharDB.Guide[GID] = nil
-			for j = 1,WoWPro.stepcount do 
-				if WoWPro.QID[j] then
-				     WoWPro:WipeQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
-				end
-			end
-			WoWPro:LoadGuide()
-		end},
+		{text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
 		{text = "Proxymity Sort", func = function() WoWPro.OrderSteps(true); end }
 	}
 end
