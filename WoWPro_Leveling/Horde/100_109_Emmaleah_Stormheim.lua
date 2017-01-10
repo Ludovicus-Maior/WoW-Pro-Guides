@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2017-01-10 20:21
+-- Who: Ludovicus
+-- Log: Added missing CS tag at Hafr Fjall
+
+-- URL: http://wow-pro.com/node/3680/revisions/28133/view
 -- Date: 2016-12-10 05:05
 -- Who: Blanckaert
 -- Log: Changed Leatherworking;164 to 165
@@ -524,7 +529,7 @@ K Kill Daniel "Boomer" Vorick|QID|39048|M|58.42,75.65|ITEM|129144|QO|1|T|Daniel 
 C A Stack of Racks|QID|39792|M|56.77,78.87|US|N|Finish collectomg Meaty Rack of Musken Ribs.|RANK|2|
 K Kill Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|38480|M|51.55,76.64;50.63,77.03;52.03,80.56|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources.|RANK|3|
-f Hafr Fjall|QID|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|N|Continue up this path to find a flightpath at Fluga the Scalekeeper. This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
+f Hafr Fjall|QID|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|CS|N|Continue up this path to find a flightpath at Fluga the Scalekeeper. This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
 $ Small Treasure Chest|QID|43190|M|59.14,87.18;53.19,93.12|CS|N|This is WAY down the trail. Loot or a bit of treasure and resources. Run back up to the flightpath the way you came.|RANK|3|
 F Dreadwake's Landing|QID|39153|M|55.66,87.46|N|Fly back to Dreadwake's Landing.|RANK|3|
 C Dreadwake's Dilemma|QID|39153|M|57.08,73.64|N|Finish killing the Greywatch worgen.|

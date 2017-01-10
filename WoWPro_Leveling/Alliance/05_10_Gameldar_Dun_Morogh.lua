@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2017-01-10 20:27
+-- Who: Ludovicus
+-- Log: Deleted spurious Z tag in Hunter's [T Meet the High Tinker]
+
+-- URL: http://wow-pro.com/node/3200/revisions/27706/view
 -- Date: 2016-09-06 23:19
 -- Who: Fluclo
 -- Log: Dun Morogh quests can't be done below level 5, so changed GuideLevel
@@ -243,11 +248,6 @@
 -- Date: 2011-06-28 20:27
 -- Who: Fluclo
 -- Log: Added some NC tags to Non Combat quest lines
-
--- URL: http://wow-pro.com/node/3200/revisions/24622/view
--- Date: 2011-06-28 20:19
--- Who: Fluclo
--- Log: Add location note to Mathel's Flying Machine
 
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,5,10,5.74453)
