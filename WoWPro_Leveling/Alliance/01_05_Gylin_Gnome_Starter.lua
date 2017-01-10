@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2017-01-10 20:27
+-- Who: Ludovicus
+-- Log: Deleted spurious Z tag in Hunter's [T Meet the High Tinker]
+
+-- URL: http://wow-pro.com/node/3200/revisions/27706/view
 -- Date: 2016-09-06 23:19
 -- Who: Fluclo
 -- Log: Dun Morogh quests can't be done below level 5, so changed GuideLevel
@@ -244,11 +249,6 @@
 -- Who: Fluclo
 -- Log: Added some NC tags to Non Combat quest lines
 
--- URL: http://wow-pro.com/node/3200/revisions/24622/view
--- Date: 2011-06-28 20:19
--- Who: Fluclo
--- Log: Add location note to Mathel's Flying Machine
-
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1.81013)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -309,7 +309,7 @@ T Meet the High Tinker|QID|26422|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|P
 T Meet the High Tinker|QID|26423|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Rogue|
 T Meet the High Tinker|QID|26425|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Warrior|
 T Meet the High Tinker|QID|31137|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Monk|
-T Meet the High Tinker|QID|41218|M|38.68,32.94|Z|N|To High Tinker Mekkatorque.|C|Hunter|
+T Meet the High Tinker|QID|41218|M|38.68,32.94|N|To High Tinker Mekkatorque.|C|Hunter|
 
 A The Fight Continues|QID|26208|M|38.72,32.74|N|From High Tinker Mekkatorque.|PRE|26421;26422;26423;26424;26425;31137;41218|
 C The Fight Continues|QID|26208|M|38.72,32.74|N|Wait for High Tinker Mekkatorque to start the holo-table.|NC|

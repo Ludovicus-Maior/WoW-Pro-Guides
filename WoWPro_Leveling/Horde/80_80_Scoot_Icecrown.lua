@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2017-01-10 20:19
+-- Who: Ludovicus
+-- Log: Removed spurious '1s' 
+
+-- URL: http://wow-pro.com/node/3302/revisions/28152/view
 -- Date: 2016-12-14 15:17
 -- Who: tubera
 -- Log:  N tags;Guide should be closer to today's standard again.
@@ -701,7 +706,7 @@ C Banshee's Revenge|QID|13142|O|M|17.5,56.1|N|Blow the War Horn to start combat.
 
 C Second Chances|QID|12847|O|M|9.5,47.3|N|Enter the Cathedral and clear the area.
 T Second Chances|QID|12847|O|N|To Lord-Commander Arethe. It takes a while.|M|9.54,47.19|
-1s
+
 A The Admiral Revealed|QID|12852|PRE|12847|O|
 C The Admiral Revealed|QID|12852|O|M|9,49|N|Enter the cave, go down and turn right. Use the Nullifier when the admiral casts his bubble.|U|40917|
 T The Admiral Revealed|QID|12852|O|N|To Lord-Commander Arethe at Death's Rise.|M|19.61,48.13|
