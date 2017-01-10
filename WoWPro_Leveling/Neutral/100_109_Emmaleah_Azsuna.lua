@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2017-01-10 21:32
+-- Who: Blanckaert
+-- Log: minor adjustments to some quests
+
+-- URL: http://wow-pro.com/node/3657/revisions/28142/view
 -- Date: 2016-12-12 04:13
 -- Who: Blanckaert
 -- Log: added a few of the leatherworking quests.... (hopefully in about the right areas)
@@ -253,8 +258,8 @@ T The Scythe of Souls|QID|37660|M|43.29,43.16|N|To Allari the Souleater.|
 A From Within|QID|36920;44140;40815|PRE|37660+40375+40374+37658|M|43.56,43.46|N|From Kayn Sunfury / Altruis the Sufferer.|
 T From Within|QID|36920;44140;40815|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
 
-A Fel Machinations|QID|37656|PRE|36920+40815+44140|M|40.05,48.80|N|From Kor'vas Bloodthorn who will show up and follow you around.|
-A Saving Stellagosa|QID|37450|PRE|36920+40815+44140|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
+A Fel Machinations|QID|37656|PRE|36920+40815+44140|M|41.25,50.51|N|From Kor'vas Bloodthorn who will show up and follow you around.|
+A Saving Stellagosa|QID|37450|PRE|36920+40815+44140|M|41.25,50.51|N|From Kor'vas Bloodthorn.|
 A Retake Faronaar-Bonus Objective|QID|36811|PRE|36920+40815+44140|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|LVL|-109|
 C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|N|Kill demons and click on the glowing items as you accomplish the other objectives.|S|RANK|2|
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
@@ -451,7 +456,7 @@ T The Magister of Mixology|QID|37727|M|47.11,41.40|N|To Magister Garuhod.|
 T Presentation is Everything|QID|37728|M|47.11,41.40|N|To Magister Garuhod.|
 T A Rather Long Walk|QID|37492|M|47.06,41.45|N|To Lady Irisse.|
 T Bottled Up|QID|38407|M|47.06,41.45|N|To Lady Irisse.|
-A Infiltrating Shipwreck Arena|QID|37496|PRE|38407;37257|M|47.06,41.45|N|From Lady Irisse.|
+A Infiltrating Shipwreck Arena|QID|37496|PRE|38407|M|47.06,41.45|N|From Lady Irisse.|
 T Our Very Bones|QID|37257|M|47.00,41.34|N|To Prince Farondis.|
 A Trailing the Tidestone|QID|37497|PRE|37257|M|47.00,41.34|N|From Prince Farondis.|
 C Trailing the Tidestone|QID|37497|QO|1|M|47.00,41.34|N|Chat with the prince to start. As with all escort quests, there are a couple of ambushes.|CHAT|
@@ -665,7 +670,7 @@ C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|N|Grace the Green rescued
 C A Favor for Mr. Shackle|QID|38857|QO|1|M|48.94,63.02|N|Cleave Thunderhill rescued|
 C A Favor for Mr. Shackle|QID|38857|QO|2|M|46.16,59.08|N|Gentle Rosh rescued|
 C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|US|N|You can continue arming prisoners if you need help fighting the elites even after the quest in finished (until you turn it in.)|
-K Kill Flog the Captain Eater|QID|37824|QO|1|M|45.2,58.0|ITEM|129090|T|Flog the Captain Eater|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+K Kill Flog the Captain Eater|QID|37824|QO|1|M|45.2,58.0|ITEM|129090|T|Flog the Captain-Eater|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Plunder the Cove-Bonus Objective|QID|37495|M|46.54,58.96|US|N|Stay and finish or manually check it off.|RANK|2|
 t Plunder the Cove-Bonus Objective|QID|37495|M|46.54,58.96|N|Auto turned in when complete.|RANK|2|
 T The Right Weapon for the Job|QID|37565|M|53.41,62.95|N|To Okuna Longtusk.|

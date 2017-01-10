@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2017-01-10 21:36
+-- Who: Blanckaert
+-- Log: minor adjustments... 
+
+-- URL: http://wow-pro.com/node/3665/revisions/28186/view
 -- Date: 2016-12-28 23:56
 -- Who: Blanckaert
 -- Log: added K step for Gravax, plus the A and t step of the turnin of item he drops
@@ -264,7 +269,7 @@ T Dreamcatcher|QID|42750|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 A Moon Reaver|QID|42751|M|59.41,84.13|N|From Guviena Bladesong.|RANK|2|
 
 $ Elindya Featherlight|QID|38887|M|60.42,90.72;61.03,88.04|CS|N|Click on Elindya and then follow her and help her kill the demon Skul'vrax|RANK|3|
-R The Undergorge|QID|42751|M|60.98,85.13|N|There is a bramble barrior, that will fall down when you click on it.|RANK|2|
+R The Undergorge|QID|42751|M|60.98,85.13|QO|1|N|There is a bramble barrior, that will fall down when you click on it.|RANK|2|
 K Kill Boneflux|QID|42751|QO|1|M|60.40,82.50|T|Boneflux|N|Kill Boneflux.|RANK|2|
 C Moon Reaver|QID|42751|QO|2|CHAT|M|60.46,82.57|N|Let Remulos go free.|RANK|2|
 $ Treasure|QID|38893|M|60.48,82.14|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -274,7 +279,7 @@ $ Treasure|QID|39074|M|65.38,86.25|N|Small cave, below Whispering Bluff. Loot fo
 R Lightsong|QID|42786|M|61.46,87.9;59.52,85.90|CS|N|Back up the hill to turn the quests in.|RANK|2|
 T Moon Reaver|QID|42751|M|59.33,83.99|N|To Keeper Remulos.|RANK|2|
 
-R Lunarwing Shallows|QID|40220|M|57.76,86.68;56.14,78.26;53.77,79.87|CS|N|Some optional quests and a bonus objective are available in Lunarwing Shallows.|RANK|2|
+R Lunarwing Shallows|QID|40221|M|57.76,86.68;56.14,78.26;53.77,79.87|CS|QO|1|N|Some optional quests and a bonus objective are available in Lunarwing Shallows.|RANK|2|
 A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you enter the area.|RANK|2|LVL|-109|
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|S|N|Kill the thistleleafs and otherwise work towards the objective.|RANK|2|
 A Thorny Dancing|QID|40220|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
@@ -287,7 +292,7 @@ $ Treasure|QID|38861|M|56.05,83.75|N|In a small cave. Loot for a bit of treasure
 K Kill Jinkiki The Puncturer|QID|38889|QO|1|M|53,87|T|Jinkiki The Puncturer|N|Enter the cave and chat with the little bear to rescue him.|ITEM|128690|RANK|2|
 A Adopting the Adorable|QID|38889|M|53,87|N|From the Shivering Bear Cub upon killing Jinkiki.|RANK|2|
 $ Treasure|QID|38864|M|54.00,82.19;54.94,80.56|CS|N|Dive in and swim into an underwater cave.  Loot the treasure chest for a bit of treasure and resources.|RANK|2|;bugged 8/27 and quest doesnt actually loot or go away.
-C Thorny Dancing|QID|40220|M|53.75,79.82|N|Kill 3 Thorndancers, they are the taller Thistleleaf mobs.|RANK|2|
+C Thorny Dancing|QID|40220|M|53.75,79.82|T|Thistleleaf Thorndancer|N|Kill 3 Thorndancers, they are the taller Thistleleaf mobs.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|US|N|Finish collecting the eggs.|RANK|2|
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|Finish rescueing Lunarwings.|RANK|2|
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|US|N|Stay and finish up or click this off and leave.|RANK|2|
