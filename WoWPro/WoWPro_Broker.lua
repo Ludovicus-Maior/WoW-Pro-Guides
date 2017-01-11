@@ -666,7 +666,6 @@ function WoWPro.NextStep(k,i)
 
         -- Partial Completion --
         if WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and
-           WoWPro:QIDsInTable(QID,WoWPro.QuestLog,'leaderBoard') and
            WoWPro.questtext[k] and
            not WoWProCharDB.Guide[GID].completion[k] then
             local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
@@ -1402,6 +1401,7 @@ function WoWPro.PopulateQuestLog()
 	local entries, numQuests = GetNumQuestLogEntries()
 	local lastCollapsed = nil
 	local num = 0
+	local delta = 0
 	WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.",entries,numQuests)
 
     i=1
@@ -1415,18 +1415,18 @@ function WoWPro.PopulateQuestLog()
 		     WoWPro:Error("PopulateQuestLog: return value from GetQuestLogTitle(%d) is nil.",i)
 		end
 		if isHeader then
-		    WoWPro:dbp("PopulateQuestLog: Header %s  @ %d",tostring(questTitle),i)
+		    -- WoWPro:dbp("PopulateQuestLog: Header %s  @ %d",tostring(questTitle),i)
 			currentHeader = questTitle
 			if lastCollapsed then
 			    -- We just finished scanning a previously collapsed header and ran into the next
 			    -- We need to collapse it and then rewind to the next slot and restart, as the slot number for the header will have mutated on us.
 			    CollapseQuestHeader(lastCollapsed)
-			    WoWPro:dbp("PopulateQuestLog: Collapsing header at %d",lastCollapsed)
+			    -- WoWPro:dbp("PopulateQuestLog: Collapsing header at %d",lastCollapsed)
 			    i = lastCollapsed
 			    lastCollapsed = nil
 			elseif isCollapsed then
 			    lastCollapsed = i
-			    WoWPro:dbp("PopulateQuestLog: Expanding header at %d",lastCollapsed)
+			    -- WoWPro:dbp("PopulateQuestLog: Expanding header at %d",lastCollapsed)
 			    ExpandQuestHeader(i)
 			end	    
 		elseif questTitle and not WoWPro.QuestLog[questID] then
@@ -1451,7 +1451,7 @@ function WoWPro.PopulateQuestLog()
 			QuestPOIUpdateIcons()
 			local x, y = WoWPro:findBlizzCoords(questID)
 			if x and y then coords = string.format("%.2f",x)..","..string.format("%.2f",y) end
-			WoWPro:dbp("PopulateQuestLog: Quest %s [%s] @ %d",tostring(questID),questTitle,i)
+			-- WoWPro:dbp("PopulateQuestLog: Quest %s [%s] @ %d",tostring(questID),questTitle,i)
 			WoWPro.QuestLog[questID] = {
 				title = questTitle,
 				level = level,
@@ -1481,21 +1481,25 @@ function WoWPro.PopulateQuestLog()
 
 	WoWPro:print("Quest Log populated. "..num.." quests found.")
 	if numQuests > num then
-	    WoWPro:Error("Expected to find %d quests in QuestLog, but found %d.",numQuests, num)
+	    WoWPro:Warning("Expected to find %d quests in QuestLog, but found %d.",numQuests, num)
 	end
 
-	if WoWPro.oldQuests == {} then return end
+	if WoWPro.oldQuests == {} then
+	    return num
+	end
 
 	-- Generating table WoWPro.newQuest --
 	for QID, questInfo in pairs(WoWPro.QuestLog) do
 		if not WoWPro.oldQuests[QID] then 
 			WoWPro.newQuest = QID 
 			WoWPro:print("New Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
+			delta = delta + 1
 		end
 		-- Is this an auto-switch quest?
 		if WoWProDB.global.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProDB.global.QID2Guide[QID] then
 		    WoWPro:SelectGuide(WoWProDB.global.QID2Guide[QID], WoWPro.QuestLog[QID].title)
 		    WoWPro:print("AutoSwitch: [%s] => %s",WoWPro.QuestLog[QID].title, WoWProDB.global.QID2Guide[QID])
+		    delta = delta + 1
 		end
 	end
 	
@@ -1504,19 +1508,25 @@ function WoWPro.PopulateQuestLog()
 		if not WoWPro.QuestLog[QID] then 
 			WoWPro.missingQuest = QID 
 			WoWPro:print("Missing Quest: %d [%s]",QID, tostring(WoWPro.oldQuests[QID].title))
+			delta = delta + 1
 		end
 	end
 
 	-- Print updated objectives --
 	for QID, questInfo in pairs(WoWPro.oldQuests) do
 		if WoWPro.QuestLog[QID] then
-		    WoWPro:print("Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
+		    -- WoWPro:print("Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
             if WoWPro.oldQuests[QID].leaderBoard and WoWPro.QuestLog[QID].leaderBoard then
                 for idx, status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
                     -- Same Objective
-                    WoWPro:dbp("idx %d, status %s",idx,status)
+                    -- WoWPro:dbp("idx %d, status %s",idx,status)
                     if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
                         WoWPro:print("Completed objective #%d (%s) on quest [%s]", idx, WoWPro.QuestLog[QID].leaderBoard[idx], WoWPro.QuestLog[QID].title)
+                        delta = delta + 1
+                    end
+                    if WoWPro.oldQuests[QID].leaderBoard[idx] ~= WoWPro.QuestLog[QID].leaderBoard[idx] then
+                        WoWPro:print("Updated objective #%d (%s) on quest [%s]", idx, WoWPro.QuestLog[QID].leaderBoard[idx], WoWPro.QuestLog[QID].title)
+                        delta = delta + 1
                     end
                 end
             end
@@ -1526,7 +1536,7 @@ function WoWPro.PopulateQuestLog()
 	-- Stop Tracking the QuestLogs for debugging for Emmaleah
 	WoWProDB.char.Emmaleah = nil
 	WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
-	return num
+	return delta
 end
 
 function WoWPro.PostQuestLogUpdate()
@@ -1852,7 +1862,7 @@ function WoWPro.PickQuestline(qid, step)
 end
 
 function WoWPro.GrailQuestPrereqOneQid(qid, out)
-    WoWPro:dbp("GrailQuestPrereqOneQid(%s,{.})",qid)
+    -- WoWPro:dbp("GrailQuestPrereqOneQid(%s,{.})",qid)
     local data = Grail:QuestPrerequisites(qid, false)
     out = out or {}
     local i,p
@@ -1862,7 +1872,7 @@ function WoWPro.GrailQuestPrereqOneQid(qid, out)
             if tonumber(p) and tonumber(p) > 1 then
                 out["sep"] = "+"
                 out[tostring(p)] = true
-                WoWPro:dbp("[+%s]=true)",tostring(p))
+                -- WoWPro:dbp("[+%s]=true)",tostring(p))
             end
         else
             local j,q
@@ -1871,10 +1881,10 @@ function WoWPro.GrailQuestPrereqOneQid(qid, out)
                     if tonumber(q) and tonumber(q) > 1 then
                         out["sep"] = ";"
                         out[tostring(q)] = true
-                        WoWPro:dbp("[;%s]=true)",tostring(q))
+                        -- WoWPro:dbp("[;%s]=true)",tostring(q))
                     end
                 else
-                    WoWPro:dbp("GrailQuestPrereqOneQid(): Too complex.")
+                    WoWPro:Warning("GrailQuestPrereqOneQid(%d): Too complex.", qid)
                     return {}
                 end
             end
@@ -1888,7 +1898,7 @@ function WoWPro.GrailQuestPrereq(QID)
     if QID == "*" then return nil end
     local numQIDs = select("#", string.split(";", QID))
     local out = {}
-    WoWPro:dbp("GrailQuestPrereq(%s)",QID)
+    -- WoWPro:dbp("GrailQuestPrereq(%s)",QID)
     for j=1,numQIDs do
         local qid = select(numQIDs-j+1, string.split(";", QID))
         qid = tonumber(qid)
@@ -1906,7 +1916,7 @@ function WoWPro.GrailQuestPrereq(QID)
             end
         end
     end
-    WoWPro:dbp("GrailQuestPrereq(%s)=%s",QID,tostring(pre))
+    -- WoWPro:dbp("GrailQuestPrereq(%s)=%s",QID,tostring(pre))
     return pre
 end
 
@@ -1915,7 +1925,7 @@ function WoWPro.GrailBreadcrumbsFor(QID)
     if QID == "*" then return nil end
     local numQIDs = select("#", string.split(";", QID))
     local out = {}
-    WoWPro:dbp("GrailQuestPrereq(%s)",QID)
+    -- WoWPro:dbp("GrailBreadcrumbsFor(%s)",QID)
     local j, lead
     for j=1,numQIDs do
         local qid = select(numQIDs-j+1, string.split(";", QID))
