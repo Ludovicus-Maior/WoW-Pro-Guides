@@ -735,7 +735,11 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:AutoCompleteZone(...)
 	end
 	if event == "QUEST_LOG_UPDATE" then
-		WoWPro.PopulateQuestLog()
+		local delta = WoWPro.PopulateQuestLog()
+		WoWPro:dbp("QUEST_LOG_UPDATE: delta = %d", delta)
+		if delta == 0 then
+		    return
+		end
 		WoWPro:AutoCompleteQuestUpdate(nil)
 		WoWPro:UpdateQuestTracker()
 		WoWPro:UpdateGuide(event)
