@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2017-01-12 23:59
+-- Who: Linkslegend5
+-- Log: Removed the class training and related quests, as they were removed from the game.
+
+-- URL: http://wow-pro.com/node/3207/revisions/27461/view
 -- Date: 2016-07-01 04:43
 -- Who: Linkslegend5
 -- Log: *sigh* The actual updated guide, the last was incorrectly edited to the same guide as before. ~_~
@@ -257,56 +262,12 @@ T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|M|61.04,45.13|N|To Magistrix E
 L Level 2|LVL|2|N|Kill any mobs in the area you need to get Level 2.|QID|8326|
 
 A Unfortunate Measures|QID|8326|R|BloodElf|M|60.98,45.11|N|From Magistrix Erona.|
-A Warrior Training |QID|8329|R|BloodElf|M|61.04,45.13|C|Warrior|N|From Magistrix Erona.|
-A Hunter Training |QID|9393|R|BloodElf|M|61.04,45.13|C|Hunter|N|From Fagistrix Erona.|
-A Mage Training |QID|8328|R|BloodElf|M|61.04,45.13|C|Mage|N|From Magistrix Erona.|
-A Paladin Training |QID|9676|R|BloodElf|M|61.04,45.13|C|Paladin|N|From Magistrix Erona.|
-A Priest Training |QID|8564|R|BloodElf|M|61.04,45.13|C|Priest|N|From Magistrix Eron.|
-A Rogue Training |QID|9392|R|BloodElf|M|61.04,45.13|C|Rogue|N|From Magistrix Erona.|
-A Warlock Training |QID|8563|R|BloodElf|M|61.04,45.13|C|Warlock|N|From Magistrix Erona.|
-A Monk Training |QID|31170|R|BloodElf|M|61.04,45.13|C|Monk|N|From Magistrix Erona.|
-
-T Warrior Training |QID|8329|R|BloodElf|M|64.95,42.38|C|Warrior|N|To Delios Silverblade.|
-T Hunter Training |QID|9393|R|BloodElf|M|64.95,42.38|C|Hunter|N|To Ranger Sallina.|
-T Mage Training |QID|8328|R|BloodElf|M|64.77,46.52|C|Mage|N|To Julia Sunstriker.|
-T Paladin Training |QID|9676|R|BloodElf|M|65.52,43.74|C|Paladin|N|To Jesthenis Sunstriker.|
-T Priest Training |QID|8564|R|BloodElf|M|65.34,43.20|C|Priest|N|To Matron Arena.|
-T Rogue Training |QID|9392|R|BloodElf|M|63.85,42.08|C|Rogue|N|To Pathstalker Kariel.|
-T Warlock Training |QID|8563|R|BloodElf|M|63.86,46.49|C|Warlock|N|Summoner Teli'Larien.|
-T Monk Training |QID|31170|R|BloodElf|M|63.41,42.61|C|Monk|N|To Pao.|
-
-A Charge!|QID|27091|R|BloodElf|M|64.95,42.38|C|Warrior|N|From Delios Silverblade.|
-A Steady Shot|QID|10070|R|BloodElf|M|64.21,42.06|C|Hunter|N|From Ranger Sallina.|
-A Frost Nova|QID|10068|R|BloodElf|M|64.77,46.52|C|Mage|N|From Julia Sunstriker.|
-A Ways of the Light|QID|10069|R|BloodElf|M|65.52,43.74|C|Paladin|N|From Jesthenis Sunstriker.|
-A Learning the Word|QID|10072|R|BloodElf|M|65.34,43.20|C|Priest|N|From Matron Arena.|
-A Evisceration|QID|10071|R|BloodElf|M|63.85,42.08|C|Rogue|N|From Pathstalker Kariel.|
-A Corruption|QID|10073|R|BloodElf|M|63.86,46.49|C|Warlock|N|From Summoner Teli'Larien|
-A Tiger Palm |QID|31171|R|BloodElf|M|63.41,42.61|C|Monk|N|From Pao.|
-
 C Unfortunate Measures |QID|8326|R|BloodElf|M|67.15,38.94|N|Kill and loot Springpaw Lynxs and Cubs for the Lynx collars.|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|60.98,45.11|N|To Magistrix Erona.|
 
 L Level 3|LVL|3|N|You should be Level 3 to by this point, if not kill anything in the area until then.|QID|8327|R|BloodElf|
 
 A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|61.04,45.13|N|From Magistrix Erona.|
-C Charge!|QID|27091|R|BloodElf|M|62.00,44.00|C|Warrior|N|You automatically learn Charge. Use it on a Training Dummy nearby.|
-C Steady Shot|QID|10070|R|BloodElf|M|62.00,44.00|C|Hunter|N|You automatically learn Steady Shot. Use it on a Training Dummy five times.|
-C Frost Nova|QID|10068|R|BloodElf|M|62.00,44.00|C|Mage|N|You automatically learn Frost Nova. Stand between two Training Dummies and cast Frost Nova, it should hit both.|
-C Ways of the Light|QID|10069|R|BloodElf|M|62.00,44.00|C|Paladin|N|You automatically learn Seal of Command. Cast Seal of Command, then auto attack a Training Dummy nearby.|
-C Learning the Word|QID|10072|R|BloodElf|M|134.64,115.87|C|Priest|N|You automatically learn Shadow Word: Pain. Use it on a Training Dummy nearby five times.|
-C Evisceration|QID|10071|R|BloodElf|M|62.00,44.00|C|Rogue|N|You automatically learn Eviscerate. Use it on a Training Dummy nearby three times.|
-C Corruption|QID|10073|R|BloodElf|M|62.00,44.00|C|Warlock|N|You automatically learn Immolate. Use it on a Training Dummy nearby five times.|
-C Tiger Palm |QID|31171|R|BloodElf|M|62.00,44.00|C|Monk|N|You automatically learn Tiger Palm. Use it on a Training Dummy nearby.|
-
-T Charge!|QID|27091|R|BloodElf|M|64.95,42.38|C|Warrior|N|To Delios Silverblade.|
-T Steady Shot|QID|10070|R|BloodElf|M|64.21,42.06|C|Hunter|N|To Ranger Sallina.|
-T Frost Nova|QID|10068|R|BloodElf|M|64.77,46.52|C|Mage|N|To Julia Sunstriker.|
-T Ways of the Light|QID|10069|R|BloodElf|M|65.52,43.74|C|Paladin|N|To Jesthenis Sunstriker.|
-T Learning the Word|QID|10072|R|BloodElf|M|65.34,43.20|C|Priest|N|To Matron Arena|
-T Evisceration|QID|10071|R|BloodElf|M|63.85,42.08|C|Rogue|N|To Pathstalker Kariel.|
-T Corruption|QID|10073|R|BloodElf|M|63.86,46.49|C|Warlock|N|To Summoner Teli'Larien|
-T Tiger Palm |QID|31171|R|BloodElf|M|63.41,42.61|C|Monk|N|To Pao.|
 
 A The Shrine of Dath'Remar|QID|37442|R|BloodElf|M|63.97,42.83|N|From Well Watcher Solanian, inside the building and up the ramp.|
 A Solanian's Belongings|QID|37443|R|BloodElf|M|63.97,42.83|N|From Well Watcher Solanian.|

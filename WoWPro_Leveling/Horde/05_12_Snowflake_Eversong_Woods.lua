@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2017-01-12 23:59
+-- Who: Linkslegend5
+-- Log: Removed the class training and related quests, as they were removed from the game.
+
+-- URL: http://wow-pro.com/node/3207/revisions/27461/view
 -- Date: 2016-07-01 04:43
 -- Who: Linkslegend5
 -- Log: *sigh* The actual updated guide, the last was incorrectly edited to the same guide as before. ~_~
