@@ -132,7 +132,7 @@ function WoWPro.SkipStep(index, list_only)
                     else
                         WoWPro:SetQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
                         WoWProCharDB.Guide[GID].skipped[j] = true
-                        WoWPro:dbp("Skipping QID %s as well.", WoWPro.QID[j])
+                        WoWPro:dbp("Skipping QID %s as well.", tostring(WoWPro.QID[j]))
                     end
 					steplist = steplist.."- "..WoWPro.step[j].."\n"
 					index = j
