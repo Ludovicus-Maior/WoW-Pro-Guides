@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/Blanckaert
+-- Date: 2017-01-14 22:48
+-- Who: Blanckaert
+-- Log: added Blacksmithing Quests into guide.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28218/view
 -- Date: 2017-01-10 17:49
 -- Who: Blanckaert
 -- Log: I made different changes in my copy, forgot to mark them, so I just reposted the entire guide.  I did put in Emma's changes, and one little capital letter error....
@@ -247,11 +252,6 @@
 -- Date: 2016-11-12 04:57
 -- Who: Blanckaert
 -- Log: adjusted WRONG item to stackable...  re-refixed what I changed.
-
--- URL: http://wow-pro.com/node/3687/revisions/28009/view
--- Date: 2016-11-12 01:40
--- Who: Blanckaert
--- Log: change QID 41216 to have a PRE of 42223 instead of 44052, just hope you dont NEED to have done both first. Also Change the Shimmering Anicent Mana NON stack to: Loot for storable ancient mana (Stacks of 5)
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -588,7 +588,7 @@ T The Hidden City|QID|42228|M|35.21,54.35|Z|Temple of Fal'adora@Suramar|N|To Anc
 A The Valewalker's Burden|QID|42230|M|35.21,54.35|Z|Temple of Fal'adora@Suramar|N|From Ancient Seed.|PRE|42228|
 C The Valewalker's Burden|QID|42230|M|40.80,13.82|Z|Temple of Fal'adora@Suramar|NC|N|Follow Valewalker Farodin to find the beacon. Activate the Fal'adora Beacon.|
 T The Valewalker's Burden|QID|42230|M|36.86,46.49|N|To Seedholder.|
-A Seed of Hope|QID|44561|M|36.86,46.49|N|From Valewalker Farodin. This is completed by gaining faction (to Honored) with the nightfallen.|PRE|42230|
+A Seed of Hope|QID|44561|M|36.86,46.49|N|From Valewalker Farodin. This is completed by raising your  Faction rep to Honored with The Nightfallen.|PRE|42230|
 A Leyline Apprentice|QID|44492|PRE|41028;43593;43592|M|37.01,46.39|N|From Arcanist Valtrois. Requires 3 Leylines restored.|
 T Leyline Apprentice|QID|44492|M|37.01,46.39|N|To Arcanist Valtrois.|
 A Building an Army|QID|44636|M|36.88,46.60|N|From First Arcanist Thalyssra.|PRE|42230|
@@ -980,7 +980,7 @@ A Bubble Trouble|QID|40364|PRE|41606|M|74.99,63.29|N|From Brytag.|RANK|2|
 A The Seawarden|QID|41618|PRE|41606|M|74.99,63.29|N|From Brytag.|RANK|2|
 C Bubble Trouble|QID|40364|M|75.11,61.85|QO|1|NC|N|Pick up a piece of Needle Coral.|
 C Bubble Trouble|QID|40364|M|75.58,63.89|QO|2|S|U|130944|N|Use the coral to puncture the bubbles and rescue Captured Vrykul.|
-K The Seawarden|QID|41618|M|75.36,67.30|QO|1|T|Seawarden Largush|N|Kill Seawarden Largush. (Patrolling Mob)|
+K The Seawarden|QID|41618|M|75.36,67.30|QO|1|T|Seawarden Largush|N|Kill Seawarden Largush. (Patrolling Mob)|ACTIVE|41618|
 C Bubble Trouble|QID|40364|M|75.58,63.89|QO|2|US|U|130944|N|Finish rescuing Captured Vrykul.|
 T Bubble Trouble|QID|40364|M|75.00,63.39|N|To Brytag.|
 T The Seawarden|QID|41618|M|75.00,63.39|N|To Brytag.|
@@ -1043,6 +1043,23 @@ C Glaive Circumstances|QID|40307|M|27.17,59.90|QO|2|N|Pick up Lyana's Vengeful W
 C Glaive Circumstances|QID|40307|M|25.56,62.43;24.64,64.46|CS|QO|1|T|Baelbug|N|Lyana's Wrathful Warglaive after killing mob.|
 C Part of the Team|QID|38525|M|29.8,63.4|P|Blacksmithing;164|US|N|Finish killing Demons in Felsoul Hold.|
 C Fresh Meat|QID|40898|M|28.00,60.80|US|N|Finish collecting the Fel-Flesh.|
+
+; Blacksmithing Quests inserted here
+
+t Part of the Team|QID|38525|M|30.0,53.2|P|Blacksmithing;164|N|To Felsmith Nal'ryssa.|
+A Smith Under Fire|QID|38526|PRE|38525|M|30.0,53.2|LVL|110|P|Blacksmithing;164|N|From Felsmith Nal'ryssa.|
+C Smith Under Fire|QID|38526|M|29.90,53.27|P|Blacksmithing;164|N|Create Leystone Boots, following Nal'ryssa's Instructions.\n\nNOTE: Do not create more than 2 Red-Hot Leystone bar AT A TIME!\n\nCreate 2 Red-Hot Leystone Bars\nCreate 2 Leystone Footguards\nCreate 2 Red-Hot Leystone Bars\nCreate 2 Leystone Heelguards\nCreate 2 Red-Hot Leystone Bars\nCreate 2 Leystone Shinplate\nCreate 2 Red-Hot Leystone Bars\nCreate 2 Leystone Soleplate\n\nNow Create the Handmade Leystone Boots.|
+T Smith Under Fire|QID|38526|PRE|38525|M|30.0,53.2|P|Blacksmithing;164|N|To Felsmith Nal'ryssa.|
+A Nal'ryssa's Technique|QID|38527|PRE|38526|M|30.0,53.2|LVL|110|P|Blacksmithing;164|N|From Felsmith Nal'ryssa.|
+C Nal'ryssa's Technique|QID|38527|P|Blacksmithing;164|N|Collect Leystone Ore x60 and Felslate x60.|
+t Nal'ryssa's Technique|QID|38527|M|30.0,53.2|P|Blacksmithing;164|N|To Felsmith Nal'ryssa.|
+A Leystone's Potential|QID|38528|PRE|38527|M|30.0,53.2|LVL|110|P|Blacksmithing;164|N|From Felsmith Nal'ryssa.|
+C Leystone's Potential|QID|38528|M|30.0,53.2|P|Blacksmithing;164|N|Create Masterwork Leystone Armguards, following Nal'ryssa's Instructions.\n\nCreate: Engraved Leystone Armguards x1\nCreate: Molten Brimstone x2\nCreate: Brimstone-Covered Armguards x1\nCreate: Brimstone-Crusted Armguards x1\n\n Then Create: Masterwork Leystone Armguards.|
+T Leystone's Potential|QID|38528|M|30.0,53.2|P|Blacksmithing;164|N|To Felsmith Nal'ryssa.|
+A The Firmament Stone|QID|38530|PRE|38528|M|30.0,53.2|LVL|110|P|Blacksmithing;164|N|From Felsmith Nal'ryssa.|
+
+; back to fel soul questing
+
 T Fresh Meat|QID|40898|M|30.86,59.17|N|To Lyana Darksorrow.|
 T Glaive Circumstances|QID|40307|M|30.86,59.17|N|To Lyana Darksorrow.|
 A Grimwing the Devourer|QID|40901|PRE|40307;40898|M|30.86,59.17|N|From Lyana Darksorrow.|
