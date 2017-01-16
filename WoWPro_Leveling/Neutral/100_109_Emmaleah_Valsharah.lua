@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2017-01-15 22:49
+-- Who: Emmaleah
+-- Log: Edited section for treasure (38782) you get behind lyranthos darkgrove due to phasing now fixed. Added CHAT and changed the note on Dark Side of the Moon (41890;41708|QO2) to reflect you have to TALK to Tyrande to start the attack)
+
+-- URL: http://wow-pro.com/node/3665/revisions/28238/view
 -- Date: 2017-01-10 21:36
 -- Who: Blanckaert
 -- Log: minor adjustments... 
@@ -483,11 +488,10 @@ A Malfurion's Fury|QID|38595|PRE|38663|M|52.45,63.34|N|From Ysera.|
 C Malfurion's Fury|QID|38595|M|52.45,63.34|CHAT|N|Tell Ysera you are ready.|
 T Malfurion's Fury|QID|38595|M|60.56,61.43|N|To Ysera.|
 A To Old Friends|QID|38582|PRE|38595|M|60.56,61.43|N|From Ysera.|
-C To Old Friends|QID|38582|M|65.61,56.44|QO|1|S|N|Use extra action button to target corrupted plants.|
-$ Treasure|QID|38782|M|66.15,56.27;67.21,59.29|CS|N|Loot for a bit of treasure and resources. This is inside the cave, where you kill Botanist Darkgrove, currently bugged and not available during the phase you are killing Lyrathos, so get it now or after you turn in the quest.|RANK|2|;chest disappeared when i killed lyrathos. so loot it first...
-C To Old Friends|QID|38582|M|65.61,56.44|QO|1|US|N|Use extra action button to target corrupted plants.|;this step can be removed if phasing bug fixxed
+C To Old Friends|QID|38582|M|65.61,56.44|QO|1|N|Use extra action button to target corrupted plants.|
 C To Old Friends|QID|38582|M|65.92,56.35|QO|2|N|Enter Darkgrove Cavern.|
 C To Old Friends|QID|38582|M|67.29,58.07|QO|3|N|Kill Botanist Darkgrove.|T|Lyrathos Darkgrove|
+$ Treasure|QID|38782|M|66.15,56.27;67.21,59.29|CS|N|Loot for a bit of treasure and resources. This is inside the cave, where you kill Botanist Darkgrove.|RANK|2|;phasing seems fixed 1/12/17
 T To Old Friends|QID|38582|M|64.88,61.36|N|To Ysera.|
 A The Demon's Trail|QID|38753|PRE|38582|M|64.88,61.36|N|From Ysera.|
 C The Demon's Trail|QID|38753|M|67.36,56.45|NC|N|Andu'talah Searched|
@@ -502,7 +506,7 @@ A Wormtalon Wreckage|QID|41707|PRE|41056|M|69.47,49.34|N|From Aldos Duskwing.|
 A Lost in Retreat|QID|38671|PRE|41056|M|69.45,49.37|N|From Mender Onelle.|
 C Wormtalon Wreckage|QID|41707|M|66.86,50.18|S|N|As you go about your other tasks, kill Wormtalon Harpy.|
 C Dark Side of the Moon|QID|41890;41708|M|67.14,50.45|QO|1|N|Meet Tyrande in Shadowfen.|
-C Dark Side of the Moon|QID|41890;41708|M|66.87,50.12|QO|2|N|Guard Tyrande During her Vigil.|
+C Dark Side of the Moon|QID|41890;41708|M|66.87,50.12|QO|2|CHAT|N|Tell Tyrande that you are ready to guard her during her vigil, then kill the harpys that show up.|
 T Dark Side of the Moon|QID|41890;41708|M|66.93,50.14|N|To Tyrande Whisperwind.|
 A Regroup at the Refuge|QID|43576|PRE|41890;41708|M|66.93,50.14|N|From Tyrande Whisperwind.|
 C Lost in Retreat|QID|38671|M|65.12,51.22|NC|S|N|Pick up the Shadowfen Heirlooms|
