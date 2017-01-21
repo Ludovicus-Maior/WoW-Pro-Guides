@@ -265,8 +265,8 @@ function WoWPro.ComparePets(pet1,pet2)
     local health2, maxHealth2, power2, speed2, rarity2 = C_PetJournal.GetPetStats(pet2)
      
     -- Prefer higher stats
-    local stats1 = (maxHealth1/2) + power1 + speed1
-    local stats2 = (maxHealth2/2) + power2 + speed2
+    local stats1 = (maxHealth1/4) + power1 + speed1
+    local stats2 = (maxHealth2/4) + power2 + speed2
     if stats1 > stats2 then
         return pet1, pet2
     elseif stats2 > stats1 then
