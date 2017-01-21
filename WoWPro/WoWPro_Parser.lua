@@ -125,11 +125,12 @@ function WoWPro.SkipStep(index, list_only)
 	    index = nil
 		for j = 1,WoWPro.stepcount do
 			if WoWPro.prereq[j] and not (WoWProCharDB.Guide[GID].skipped[j] or skipped[j]) then
-			    if WoWPro:QIDsInTable(WoWPro.prereq[j],WoWProCharDB.skippedQIDs) or WoWPro:QIDsInTable(WoWPro.prereq[j],skippedQIDs) then
+			    if WoWPro:QIDsInTable(WoWPro.prereq[j],skippedQIDs, true) then
                     if list_only then
                         WoWPro:SetQIDsInTable(WoWPro.QID[j],skippedQIDs)
                         skipped[j] = true
                     else
+                        WoWPro:SetQIDsInTable(WoWPro.QID[j],skippedQIDs)
                         WoWPro:SetQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
                         WoWProCharDB.Guide[GID].skipped[j] = true
                         WoWPro:dbp("Skipping QID %s as well.", tostring(WoWPro.QID[j]))

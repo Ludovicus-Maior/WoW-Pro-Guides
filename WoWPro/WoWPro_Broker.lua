@@ -11,7 +11,7 @@ WoWPro.Scenario = nil
 
 local quids_debug = false
 
-local function QidMapReduce(list,default,or_string,and_string,func, why, debug)
+local function QidMapReduce(list,default,or_string,and_string,func, why, debug, abs_quid)
     if not list then
         if quids_debug then
             WoWPro:dbp("QidMapReduce(nil) default %s", tostring(default))
@@ -46,6 +46,9 @@ local function QidMapReduce(list,default,or_string,and_string,func, why, debug)
 		if not QID then
 		    WoWPro:Error("Malformed QID [%s] in Guide %s",list,WoWProDB.char.currentguide)
 		    QID=0
+		end
+		if abs_quid then
+		    QID = math.abs(QID)
 		end
 	    local val = func(math.abs(QID))
 	    if debug then
@@ -111,11 +114,11 @@ function WoWPro.stack(level)
 end
 
 -- See if any of the list of QIDs are in the indicated table.
-function WoWPro:QIDsInTable(QIDs,tabla, debug, why)
+function WoWPro:QIDsInTable(QIDs,tabla, abs_quid, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,";","+",function (qid) return tabla[qid] end, why or "QIDsInTable", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,";","+",function (qid) return tabla[qid] end, why or "QIDsInTable", debug or quids_debug, abs_quid)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
