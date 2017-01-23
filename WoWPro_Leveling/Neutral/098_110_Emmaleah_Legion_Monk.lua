@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2017-01-23 20:23
+-- Who: Emmaleah
+-- Log: completed all order hall progression steps pre 110. (per wowhead).  Will update further when my monk reaches 110. Also added in the known 110 quests that are for all classes.  Some locations/npcs may be incorrect at this time for those quests.
+
+-- URL: http://wow-pro.com/node/3672/revisions/28229/view
 -- Date: 2017-01-10 21:11
 -- Who: Blanckaert
 -- Log: Added: Obliterum Quest Chain
@@ -37,7 +42,7 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Monk")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120+44473|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
 A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
@@ -66,52 +71,76 @@ C Prepare To Strike|QID|40636|M|51.39,48.38|N|Choose which artifact path you wan
 T Prepare To Strike|QID|40636|M|51.39,48.38|N|To Iron-Body Ponshu.|
 A Artifact Specific Quest|QID|42762;41003;40569|M|51.39,48.36|N|From Iron-Body Ponshu.|PRE|40636|
 
-;when you come back after finishing your first zone
+;Class hall development lvl 101 to 109
+;after arriving in dalaran and achieving lvl 101
 C Growing Power|QID|42186|NC|N|Use Zen Pilgrimage to return to your class order hall.|
-A Two Paths, Two Weapons|QID|43973|M|51.39,48.38|N|From Iron-Body Ponshu.|ACTIVE|42186|
-C Two Paths, Two Weapons|QID|43973|M|51.39,48.38|NC|N|Choose a second artifact to pursue|
 T Growing Power|QID|42186|M|51.39,48.38|N|To Iron-Body Ponshu.|
 A Rise, Champions|QID|42187|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|42186|
-T Two Paths, Two Weapons|QID|43973|M|51.39,48.38|N|To Iron-Body Ponshu.|
-A Artifact Specific Quest|QID|42762;41003;40569|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|43973|
-;beginning of lost stuff. recreated from memory and wowhead-coordinates are copied from elsewhere or approximations of where I remember standing.
-N Use the Forge|QID|44424|M|51.44,48.25|N|You may want to save a few of your artifact empowerment items for your other specs, but don't forget to stop by the forge and make your weapon tougher. You will need to check this step off manually.|PRE|43973|
+N Use the Forge|QID|44424|M|51.44,48.25|N|You may want to save a few of your artifact empowerment items for your other specs, but don't forget to stop by the forge and make your weapon tougher. You will need to check this step off manually.|PRE|42186|
 C Rise, Champions|QID|42187|M|49.13,58.58|QO|2|NC|N|Recruit Li Li Stormstout.|
-C Rise, Champions|QID|42187|M|55.15,57.0|QO|1|NC|N|Recruit Chen Stormstout.|
-T Rise, Champions|QID|42187|M|52.75,59.69|N|To Master Hsu.|
-A Tianji of the Ox|QID|41945|M|52.75,59.69|N|From Master Hsu.|PRE|42187|
+A Champion: Li Li Stormstout|QID|40704|M|49.13,58.58|N|From/To Li Li Stormstout.|
+C Rise, Champions|QID|42187|M|55.28,57.06|QO|1|NC|N|Recruit Chen Stormstout.|
+A Champion: Chen Stormstout|QID|41115|M|55.28,57.06|N|From/To Chen Stormstout.|
+T Rise, Champions|QID|42187|M|52.75,59.79|N|To Master Hsu.|
+A Tianji of the Ox|QID|41945|M|52.75,59.79|N|From Master Hsu.|PRE|42187|
 C Tianji of the Ox|QID|41945|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send Chen on a mission. This first mission only takes 2 minutes. While you are waiting you can choose your next zone.|
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|52.96,60.19|N|From the Scouting Map (scouting map tab). Choose which zone you want to do next|PRE|42186|;*|NPC|99041
-T Tianji of the Ox|QID|41945|M|51.41,48.37|N|To Master Hsu.|
-A Building Our Troops|QID|41946|M|51.41,48.37|N|From Master Hsu.|PRE|41945|
+T Tianji of the Ox|QID|41945|M|52.75,59.79|N|To Master Hsu.|
+A Building Our Troops|QID|41946|M|52.75,59.79|N|From Master Hsu.|PRE|41945|
 C Building Our Troops|QID|41946|M|53.35,59.75|NC|N|Give Tianji a work order to train an initiate, the first one is near instant.  After it is done, click on the banner to retrieve the initiate, then train the other two initiates which will take 30 minutes each.|
-T Building Our Troops|QID|41946|M|51.41,48.37|N|To Master Hsu.|
-A Scrolls of Knowledge|QID|42210|M|51.41,48.37|N|From Master Hsu.|PRE|41946|
-C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours.|
-;go do 2nd artifact. come back turn in get quest for 3rd.
-;end lost stuff, game crashed. will get it on the next monk
-A Three Paths, Three Weapons|QID|44424|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|42765;41003;-40570|
-A Three Paths, Three Weapons|QID|44424|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|42765;40570;-41003|
-A Three Paths, Three Weapons|QID|44424|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|41003;40570;-42765|
-C Three Paths, Three Weapons|QID|44424|M|51.40,48.38|NC|N|Choose your third aftifact weapon. |
-T Three Paths, Three Weapons|QID|44424|M|51.40,48.38|N|To Iron-Body Ponshu.|
-A Artifact Specific Quest|QID|42762;41003;40569|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|44424|
+T Building Our Troops|QID|41946|M|52.75,59.79|N|To Master Hsu.|
+A Scrolls of Knowledge|QID|42210|M|52.75,59.79|N|From Master Hsu.|PRE|41946|
+C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|S|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours. Check it off manually to continue with the guide while mission completes.|
 
-T Scrolls of Knowledge|QID|42210|M|51.41,48.37|N|To Master Hsu.|
-A Tech It Up a Notch|QID|42191|M|51.41,48.37|N|From Master Hsu.|PRE|42210
-C Tech It Up a Notch|QID|42191|M|53.04,59.79|N|Click on Number Nine Jia to open a panel where you chose how you want to progress your order hall.|
+;lights heart intro questline
+P Dalaran|QID|44009|M|52.39,57.17|N|Back to the outside world to continue leveling.|ACTIVE|42210|
+A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|LVL|101|
+C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
+C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
+C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
+C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
+U Dalaran Hearthstone|QID|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|ACTIVE|44009|
+R Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
+T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
+A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar.|PRE|44009|
+P Khadgar's portal|QID|44004|M|28.77,33.28|Z|Aegwynn's Gallery@Dalaran70|N|Take his portal to enter a scenario.|ACTIVE|44004|
+C The Prophet and the Butcher|QID|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
+C In Defense of The Exodar|QID|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
+A Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Automatically accepted by entering the area.|RANK|2|ACTIVE|44004|LVL|-109|
+C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|S|N|Kill demons to achieve the objective.|RANK|2|
+A Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|From Farseer Nobundo|RANK|2|ACTIVE|44004|
+C Nobundo's Last Stand|QID|43705|QO|1|M|44.87,9.35|Z|TheExodar|CHAT|N|Tell him you are ready.|RANK|2|
+C Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|Kill 3 waves of mobs.|RANK|2|
+T Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|To Farseer Nobundo.|RANK|2|
+K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|ITEM|140533|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RANK|2|
+C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|US|N|Finish the objective or click it off manually.|RANK|2|
+t Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Auto turned in upon completion.|RANK|2|
+C In Defense of the Exodar|QID|44004|SO|2|US|M|44.87,9.35|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
+C Return to the Prophet|QID|44004|SO|3|M|33.95,66.25|Z|TheExodar|NC|N|Head back to Prophet Velen.|
+C The Light's Heart|QID|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to show him the object.|
+C A Long Way Down|QID|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
+C Revelations|QID|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When Velen says to STOP, ignore him and continue killing the fel annihilator *even though Prophet Velen is also fighting you now*.|
+U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use it and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|ACTIVE|44004|
+T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage Kadgar.|
+A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
+T Light's Charge|QID|44153|M|51.76,48.09|NC|N|Use Zen Pilgrimage to return to your order hall and return to Light's Heart (table in front of the Alter of Light and Shadow).|
+
+;back to order hall quests
+C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|US|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours. Check it off manually to continue with the guide while mission completes.|
+t Scrolls of Knowledge|QID|42210|M|52.78,59.77|N|To Master Hsu.|
+A Tech It Up a Notch|QID|42191|M|52.78,59.77|N|From Master Hsu.|PRE|42210
+C Tech It Up a Notch|QID|42191|M|53.04,59.79|NC|N|Click on Number Nine Jia to open a panel where you chose how you want to progress your order hall. Come back tomorrow when it completes.|
 T Tech It Up a Notch|QID|42191|M|51.41,48.36|N|To Iron-Body Ponshu.|
 A Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|PRE|42191|
 C Report from the Monastery|QID|41905|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send Chen on the mission. This step takes 1 hour (the length of the mission) to complete. Check it off manually, and don't forget to come back to your scouting map next time you are in the Order Hall.|
-N Train Ox initiates|QID|41905|M|53.35,59.75|NC|N|This mission exhausted your initiate, give Tianji a work order to train a new one. Check this step off manually.|ACTIVE|41905|
-T Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|
+t Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|
 
-A The Defense of Tian Monstery|QID|41728|M|51.41,48.36|N|To Iron-Body Ponshu.|PRE|41905|
+A The Defense of Tian Monstery|QID|41728|M|51.41,48.36|N|From Iron-Body Ponshu.|PRE|41905|LVL|103|
 C The Defense of Tian Monstery|QID|41728|QO|1|M|47.14,47.74|N|Talk to Tak Tak to take the flight to Tien Monestary.|CHAT|
-A Slowing the Spread|QID|41729|M|38.34,25.81|Z|The Jade Forest|N|From Instructor Myang.|PRE|41905|
+A Slowing the Spread|QID|41729|M|38.34,25.81|Z|The Jade Forest|N|From Instructor Myang.|PRE|41905|LVL|103|
 T The Defense of Tian Monstery|QID|41728|M|39.97,24.91|Z|The Jade Forest|N|To Taran Zhu.|
-A Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41730|
-A Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41730|
+A Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41728|
+A Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41728|
 C Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|S|N|Kill the demons as you go along.|
 C Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|NC|S|N|As you go along, click on the tainted brew and the fel spikes to destroy. For the fires, you stand inside the circle and then an extra action button appears that you use to put out the fire.|
 C Slowing the Spread|QID|41729|M|38.99,23.25;41.59,23.74;41.40,27.45|Z|The Jade Forest|CN|NC|N|Click on each of the Fel Spreader to destroy them.|
@@ -132,15 +161,176 @@ A The Way of the Tiger|QID|43319|M|51.41,48.36|N|From Iron-Body Ponshu.|PRE|4173
 A Further Training|QID|43062|M|52.54,57.80|N|From High Elder Cloudfall.|PRE|41733|
 A Appropriations|QID|41907|M|52.54,57.80|N|From High Elder Cloudfall.|PRE|41733|
 A Tracking the Tideskorn|QID|41909|M|52.54,57.80|N|From High Elder Cloudfall.|PRE|41733|
-C Tracking the Tideskorn|QID|41909|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send Li Li and some initiates on the mission. This step takes days to complete as there are 5 differant missions. Check it off manually and keep checking in with the mission board.|
+C Tracking the Tideskorn|QID|41909|M|52.96,60.19|NA|NC|N|Use the scouting map (missions tab) to send Li Li and some initiates on the mission. This step takes days to complete as there are 5 differant missions. Check it off manually and keep checking in with the mission board.|
 C The Way of the Tiger|QID|43319|M|54.43,57.16|CHAT|N|Talk to Gin Lei to recruit some Tiger troops.|
 T The Way of the Tiger|QID|43319|M|54.43,57.16|N|To Gin Lei.|
 T Appropriations|QID|41907|M|48.99,58.36|N|To Lao Shu.|
 A An Ample Stockpile|QID|43054|M|48.99,58.36|N|From Lao Shu.|PRE|41907|
-C An Ample Stockpile|QID|43054|N|He offers 3 repeatable quests for turning in (5 at a time) Highmountain Salmon, Spiced Rib Roast, and Silkweave Bandages. Acquire the items, (AH/crafting/friends, etc) and do any combination of the 3 quests 20 times.|
-C Further Training|QID|43062|M|52.54,57.80|N|Over the course of your adventuring, you should accomplish these tasks.|
-A Taram Zhu|QID|41734|M|51.15,49.64|N|Taran Zhu would like to be your follower.|PRE|41319|
-A The Monkey King|QID|41735|M|51.00,49.51|N|The Monkey King also wants to join up.|PRE|41319|
+C An Ample Stockpile|QID|43054|NA|S|N|Remember the stuff to acquire listed earlier? Here is where you use it. Go out and get it before all the "tracking the tideskorn missions are finished. He offers 3 repeatable quests for turning in (5 at a time) Highmountain Salmon, Spiced Rib Roast, and Silkweave Bandages. Acquire the items, (AH/crafting/friends, etc) and do any combination of the 3 quests 20 times.|
+C Further Training|QID|43062|M|49.70,51.25|S|NC|N|Practice Roll or Chi Torpedo on your way to pick up your next two followers.|
+A Champion: Taran Zhu|QID|41734|M|51.15,49.64|N|Taran Zhu would like to be your follower.|PRE|41907|
+A Champion: The Monkey King|QID|41735|M|51.00,49.51|N|The Monkey King also wants to join up.|PRE|41907|
+C Further Training|QID|43062|M|52.54,57.80|US|NC|N|Thank all the old Gods this is no longer 100 of each! Roll (or Chi Torpedo) over to the Training Dummy and cast Crackling Jade Lightning and Blackout Strike or Blackout Kick until complete.Finish Rolling around.|
+T Further Training|QID|43062|M|52.54,57.80|N|To High Elder Cloudfall. |
+C An Ample Stockpile|QID|43054|M|48.99,58.36|US|NA|N|Turn in your silkweave bandages, highmountain salmon and spiced ribs to Lao Shu in multiples of 5. You have a while to finish this as no other progress can be made on the order hall campaign until 110.|
+t An Ample Stockpile|QID|43054|M|48.88,58.36|N|To Lao Shu. With the exception of finishing up the "Tracking the Tideskorn" missions, the remainder of the order hall campaign requires level 110.|
+t Tracking the Tideskorn|QID|41909|M|52.54,57.80|N|To High Elder Cloudfall. The remainder of your order hall campaign requires lvl 110.|
+
+;post class campaign
+A The Power Within|QID|43496|M|49.68,16.98|N|From Image of Kalec. This appears up to 48 hours after you finish class order campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
+P Dalaran|QID|43496|M|52.4,57.10|N|Take the portal to Dalaran from your order hall.|ACTIVE|43496|
+F Azurewing Repose|QID|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496|
+T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
+
+;fresh lvl 110 quests
+A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|LVL|110|
+A Goddess Watch Over You|QID|44337|M|49.74,58.86|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110.|LVL|110|
+A Inner Sanctuary|QID|44249|M|50.4,59|N|From Caydori Brightstar. Your class hall has a gift for you.|LVL|110|
+T Inner Sanctuary|QID|44249|M|50.4,59|N|To Caydori Brightstar.|
+N Artifact Knowledge Catch-Up 7.1.5|QID|43881|ITEM|14435|N|Assuming you have the resources available, you should have sent An Artifact Research Compendium (BOA item purchased in order hall) from one of you other characters (with max or at least highest AK) on the account.  This will allow you to jumpstart your artifact research by as much as 20 levels. This is also the lowest resource cost option.|LVL|110|
+A Knowledge is Power|QID|46129|M|46.8,46.8|ITEM|144395|N|From Lorewalker Cho. Assuming you were unable to send a AK15 or 20 item, you can buy immediately up to AK 15 for 500 resources each (same cost as research).|LVL|110|
+T Knowledge is Power|QID|46129|M|46.8,46.8|ITEM|144395|N|To Lorewalker Cho.|
+A Hitting the Books|QID|43881|M|46.8,46.8|N|From Lorewalker Cho.|LVL|110|
+C Hitting the Books|QID|43881|M|46.8,46.8|N|After using the 'Artifact Research Compendium' (if available to you) and/or using Artifact Research Synopsis (if available to you), you can then begin the slow process of artifact research.|
+T Hitting the Books|QID|43881|M|46.8,46.8|N|To Lorewalker Cho.|
+A The Iron Fist|QID|41849|M|51.41,48.36|N|From Iron-Body Ponshu.|LVL|110|PRE|43054+43062|
+C Goddess Watch over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
+t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
+A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
+C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
+t Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+R Windrunner's Sanctuary|QID|44448|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Horde|LVL|110|
+R Graymane Enclave|QID|44448|M|39.2,57.2|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Alliance|LVL|110|
+C In the House of Light and Shadow|QID|44448|M|52.37,69.37|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
+
+;obliterum chain. not necessary in 7.2
+A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|NC|N|From Camille Kleister.|LVL|110|
+C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|Toss water on the fire.|
+T Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|To Camille Kleister.|
+A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious Dust (in the wagon).|PRE|39838|
+C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
+C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
+C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
+C Trial By Fel Fire|QID|39863|N|This quest (to create obliterum) will become unnecesary in 7.2, you may want to skip it. These are crafted items, buy, trade for, or create them. Manually check this step off (left click if you never want to do it, right click if you want to be reminded each time you reload the guide.)|
+t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
+A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|From Vanessa Sellers.|
+C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
+t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
+A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|S|QO|1|N|Loot Spellsludge from Powerful Creatures, that spawn when Gaurds are on duty.|
+C Cold Hard Coin|QID|39844|M|52.26,60.07|Z|The Underbelly@Dalaran70|S|QO|1|N|Loot Sightless Eyes from anything you kill.|
+C One Mage's Trash|QID|39842|M|57.38,37.92|Z|The Underbelly@Dalaran70|QO|3|N|Get Decommissioned Calefactor, when Guards are NOT on duty.|
+C One Mage's Trash|QID|39842|M|53.42,70.25|Z|The Underbelly@Dalaran70|QO|2|N|Get Spellbound Insulation, when Guards are NOT on duty.|
+C One Mage's Trash|QID|39842|M|80.03,85.00|Z|The Underbelly@Dalaran70|QO|1|N|Get Alchemical Flame, when Guards are NOT on duty.|
+C Cold Hard Coin|QID|39844|M|52.26,60.07|Z|The Underbelly@Dalaran70|US|QO|1|N|Loot Sightless Eyes from anything you kill.|
+C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|QO|1|US|N|Loot Spellsludge from Powerful Creatures, that spawn when Gaurds are on duty.|
+T One Mage's Trash|QID|39842|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+T The Muck Stops Here|QID|39843|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+T Cold Hard Coin|QID|39844|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A The Obliterum Forge|QID|39845|PRE|39842;39843;39844|M|67.46,18.13|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+C The Obliterum Forge|QID|39845|M|42.28,28.92|Z|Dalaran@Dalaran70|QO|1|N|1/1 Finalize Obliterum Forge|
+T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
+A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
+T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|F Valdisdall|QID|41849|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|41849|
+
+;class hall progression
+T The Iron Fist|QID|41849|M|63,58.4|Z|Stormheim|N|Travel to Stormheim and turn in to Angus Ironfist.|
+;2 more quests then back zen pilgrimage
+
+t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.
+A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
+T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+A Trail of Echos|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
+N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
+
+;lights heart - post 110
+A Awakenings|QID|44464|M|51.76,48.09|N|From Light's Heart|PRE|44448|LVL|110|
+P Dalaran|QID|44464|QO|1|M|52.4,57.10|N|Take the portal to Dalaran.|ACTIVE|44464|
+R Krasus' Landing|QID|44464|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44464|
+F Lorlathil|QID|44464|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44464|
+C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
+T Awakenings|QID|44464|M|51.76,48.09|N|To Light's Heart|
+
+;requires AK>=2
+A An Unclear Path|QID|44466|M|51.76,48.09|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44464|;no way to limit this showing until you get AK=2
+P Dalaran|QID|44466|QO|1|M|52.4,57.10|N|Take the portal to Dalaran.|ACTIVE|44466|
+R Krasus' Landing|QID|44466|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44466|
+F Garden of the Moon|QID|44466|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44466|
+R Emerald Bay|QID|44466|QO|1|M|54.76,51.73;53.17,49.45;51.35,43.52|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
+C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
+T An Unclear Path|QID|44466|M|49.64,26.41|N|To Light's Heart, back in your order hall.|
+A Ravemcrest's Legacy|QID|44479|M|49.64,26.41|N|From Light's Heart.|PRE|44466|
+P Dalaran|QID|44479|QO|1|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44479|
+R Krasus' Landing|QID|44479|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44479|
+F Bradensbrook|QID|44479|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44479|
+R Black Rook Hold|QID|44479|QO|1|M|38.80,58.06;39.34,53.45|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|ACTIVE|44479|
+R Ravencourt|QID|44479|QO|1|M|40.97,54.12;41.44,45.63|CS|Z|Val'sharah|N|Run to the alcove behind Araxxas (not in the instance).|ACTIVE|44479|
+C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan traveling the wrong path.|
+C Report to Kur'talos|QID|44479|SO|1|M|42.44,46.61|Z|BlackRookHoldScenario|NC|N|Listen/watch the dialog.|
+C Repair the Portal|QID|44479|SO|2|M|42.03,46.23|Z|BlackRookHoldScenario|NC|N|Click on the portal to restore it.|
+C The Road to Fel|QID|44479|SO|3|M|44.25,49.57|Z|BlackRookHoldScenario|N|Rt Click to autoattack Xalian Felblaze. After a bit, you will a "6" button will allow you to sacrifice one of the mages, once you do, "1" will appear, use it to damage Xalian.|
+C No Man An Island|QID|44479|SO|4|S|NC|M|44.54,51.23;40.98,51.44|CS|Z|BlackRookHoldScenario|N|Activate the remaining portals.|
+A Felspawns of Lothros|QID|44414|M|38.78,53.08|Z|BlackRookHoldScenario|N|From Jared Shadowsong.|ACTIVE|44479|
+C Felspawns of Lothros|QID|44414|M|40.54,53.03|Z|BlackRookHoldScenario|N|Help Jared kill Lothros.|
+T Felspawns of Lothros|QID|44414|M|40.40,53.03|Z|BlackRookHoldScenario|N|To Jared Shadowsong.|
+A The Red Axe|QID|44415|M|40.4,53.03|Z|BlackRookHoldScenario|N|From Jared Shadowsong.|PRE|44414|
+C The Red Axe|QID|44415|M|39.0,51.30;40.6,50.93;41.4,49.87|CS|Z|BlackRookHoldScenario|N|Go outside and into Hero's Rest Click on the unstable portal, up the stairs to find the other two.|
+T The Red Axe|QID|44415|M|43.85,50.34|Z|BlackRookHoldScenario|N|To Broxigar the Red.|
+A Hunter of Night|QID|44416|M|43.85,50.34|Z|BlackRookHoldScenario|N|From Broxigar the Red.|PRE|44415|
+C Hunter of Night|QID|44416|M|43.0,50.29|Z|BlackRookHoldScenario|N|Kill the demon.|
+T Hunter of Night|QID|44416|M|41.6,50.56|Z|BlackRookHoldScenario|N|To Broxigar the Red.|
+C No Man An Island|QID|44479|SO|4|NC|US|M|44.53,51.23;40.98,51.44;43.71,50.88|CS|Z|BlackRookHoldScenario|N|Click the last portals.|
+C True Sacrifice|QID|44479|SO|5|M|42.75,52.78|Z|BlackRookHoldScenario|N|You have one more button to use. Go destroy the Nihilam Portal and then kill Balaadur.|
+C When Good Men Do Nothing|QID|44479|SO|6;2|M|42.8,48.4|Z|BlackRookHoldScenario|N|Defeat the Colossal Siegebreaker. During the middle of the fight, you get one more button, use it to win.|
+C Ravencrest's Legacy|QID|44479|M|42.8,48.4|Z|BlackRookHoldScenario|NC|N|Watch and listen, this should complete soon.|
+T Ravencrest's Legacy|QID|44479|M|51.76,48.09|N|To Light's Heart, back in your order hall.|
+
+;light's heart, requires AK>=5
+A In My Father's House|QID|44480|M|51.76,48.09|N|From Light's Heart. Requires Artifact Knowledge >=5. (no way for guide to determine if you are eligible).|PRE|44479|
+P Dalaran|QID|44480|QO|1|M|52.4,57.10|N|Take the portal to Dalaran.|ACTIVE|44480|
+R Graymane Enclave|QID|44480|QO|1|M|47.2,17.8|Z|Dalaran@Dalaran70|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|44480|
+R Windrunner's Sanctuary|QID|44480|QO|1|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|44480|
+R Temple of Zin-Malor - Azshara|QID|44480|QO|1|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|ACTIVE|44480|
+C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
+T In My Father's House|QID|44480|M|49.64,26.41|N|Return to Light's Heart in your order hall.|
+A Destiny Unfulfilled|QID|44481;44496;44497|M|51.76,48.09|N|From Light's Heart.|PRE|44480|
+P Dalaran|QID|44481;44496;44497|QO|1|M|52.4,57.10|N|Click on the portal to Dalaran.|ACTIVE|44481;44496;44497|
+P Shattrath|QID|44481;44496;44497|QO|1|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481;44496;44497|
+R Shadowmoon Valley|QID|44481;44496;44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481;44496;44497|
+C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+T Destiny Unfulfilled|QID|44481;44496;44497|M|51.76,48.09|N|Return to Light's Heart in your order hall.|
+
+;light's heart, requires AK>=7
+A The Hunt for Illidan Stormrage|QID|45174|M|51.76,48.09|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481;44496;44497|
+P Dalaran|QID|45174|QO|1|M|52.4,57.10|N|Take the portal to Dalaran.|ACTIVE|45174|
+R Krasus' Landing|QID|45174|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45174|
+F Illidari Stand|QID|45174|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45174|
+T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
+A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|PRE|45174|
+t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|;guessing on turn in
+
+;2nd spec artifact
+A Two Paths, Two Weapons|QID|43973|M|51.39,48.38|N|From Iron-Body Ponshu.|LVL|101|
+C Two Paths, Two Weapons|QID|43973|M|51.39,48.38|NC|N|Choose a second artifact to pursue|
+T Two Paths, Two Weapons|QID|43973|M|51.39,48.38|N|To Iron-Body Ponshu.|
+A Artifact Specific Quest|QID|42762;41003;40569|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|43973|
+
+;3rd spec artifact
+A Three Paths, Three Weapons|QID|44424|M|51.39,48.38|N|From Iron-Body Ponshu.|ACH|11174;;true|
+C Three Paths, Three Weapons|QID|44424|M|51.40,48.38|NC|N|Choose your third aftifact weapon. |
+T Three Paths, Three Weapons|QID|44424|M|51.40,48.38|N|To Iron-Body Ponshu.|
+A Artifact Specific Quest|QID|42762;41003;40569|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|44424|
 
 ;BREWMASTER
 ;A The Wanderer's Companion|QID|42762|M|51.39,48.36|N|From Iron-Body Ponshu.|PRE|40636|
@@ -153,7 +343,7 @@ R Pools of Purity|QID|42767|M|63.3,26.04|Z|Valley of the Four Winds|N|Fly over t
 C The Riddle of Purity|QID|42768|M|63.3,26.04|Z|Valley of the Four Winds|N|Kill and loot the water elemental.|NC|
 R The Imperial Granary|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|Fly over to the Imperial Grainery|ACTIVE|42767|CN|
 C The Riddle of the Land|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|As you go, pick up the sacks of grain.|S|NC|
-C The Riddle of the Barrel|QID|42766|M|51.3,61.17|Z|Valley of the Four Winds|N|Kill and loot Vardis, who  is found upstairs in the grainery.|T|Vardis|
+C The Riddle of the Barrel|QID|42766|M|51.40,64.56|Z|Valley of the Four Winds|N|Kill and loot Vardis, who  is found upstairs in the grainery.|T|Vardis|
 C The Riddle of the Land|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|Pick up any sacks of grain you still need.|US|NC|
 T The Riddle of Purity|QID|42768|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King who appears beside you when you pick up the last sack of grai/8n.|
 T The Riddle of the Barrel|QID|42766|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King.|
@@ -166,28 +356,28 @@ C The Monkey King's Challenge|QID|42868|M|55.31,58.56|Z|The Jade Forest|N|Famili
 C The Monkey King's Challenge|QID|42868|M|55.31,58.56|Z|The Jade Forest|N|Follow his clues to put the ingrediants into the brew.|NC|
 T The Monkey King's Challenge|QID|42868|M|55.42,58.37|Z|The Jade Forest|N|To The Monkey King.|
 A The Trial at the Temple|QID|42765|M|55.42,58.37|Z|The Jade Forest|N|From The Monkey King.|PRE|42868|
-C The Trial at the Temple|QID|42765|M|55.42,58.37|Z|The Jade Forest|N|Talk to the Monkey King to start the solo scenario.|CHAT|
-C Crisis in the Temple|QID|42765|M|37.66,44.92|Z|ArtifactBrewmasterScenario|N|Listen to Master Windsong.|SO|1;1|NC|
-C Gate to the Scrollkeepers Sanctum opened|QID|42765|M|33.08,54.37|Z|ArtifactBrewmasterScenario|N|Click on the Gate.|SO|2;1|NC|
-C Scribes Rescued|QID|42765|M|47.8,70.17|Z|ArtifactBrewmasterScenario|N|Kill the demons to rescue the scribes.|SO|2;2|
-C Belphiar Slain|QID|42765|M|28.86,72.9|Z|ArtifactBrewmasterScenario|N|Kill Belphiar.|SO|3;1|T|Belphiar|
-C Priestess Summerpetal revived|QID|42765|M|31.03,73.75|Z|ArtifactBrewmasterScenario|N|Click on the priestess.|SO|4;1|NC|
-C Monkey King followed|QID|42765|M|54.79,85.32;54.41,74.08;47.44,68.53;49.13,60.38|CS|Z|ArtifactBrewmasterScenario|N|Follow the Monkey King outside and around/down to next fight.|SO|5;1|NC|
-C Legion Attackers Defeated|QID|42765|M|47.0,48.28|Z|ArtifactBrewmasterScenario|N|Kill more demons. Waves and Waves of demons.|SO|6;1|
-C Yu'lon Must Survive|QID|42765|M|47.0,48.28|Z|ArtifactBrewmasterScenario|N|Keep killing demons.|SO|6;2|
-C Lord Korithis Defeated|QID|42765|M|69.12,59.2|Z|ArtifactBrewmasterScenario|N|Kill Kord Korithis.|SO|7;1|T|Lord Korithis|
-C Fu Zan reclaimed|QID|42765|M|69.12,59.2|Z|ArtifactBrewmasterScenario|N|Pick up the weapon.|SO|8;1|NC|
-C The Wanderer Awakens|QID|42765|M|69.12,59.2|Z|ArtifactBrewmasterScenario|N|Chat with Yulon for a ride.|SO|9;1|CHAT|
+C The Trial at the Temple|QID|42765|QO|1|M|55.42,58.37|Z|The Jade Forest|N|Talk to the Monkey King to start the solo scenario.|CHAT|
+C Crisis in the Temple|QID|42765|M|37.66,44.92|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Listen to Master Windsong.|SO|1;1|NC|
+C Gate to the Scrollkeepers Sanctum opened|QID|42765|M|33.18,54.42|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Click on the Gate.|SO|2;1|NC|
+C Scribes Rescued|QID|42765|M|47.8,70.17|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill the demons to rescue the scribes.|SO|2;2|
+C Belphiar Slain|QID|42765|M|28.86,72.9|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill Belphiar.|SO|3;1|T|Belphiar|
+C Priestess Summerpetal revived|QID|42765|M|31.03,73.75|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Click on the priestess.|SO|4;1|NC|
+C Monkey King followed|QID|42765|M|54.79,85.32;54.41,74.08;47.44,68.53;49.13,60.38|CS|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Follow the Monkey King outside and around/down to next fight.|SO|5;1|NC|
+C Legion Attackers Defeated|QID|42765|M|47.0,48.28|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill more demons. Waves and Waves of demons.|SO|6;1|
+C Yu'lon Must Survive|QID|42765|M|47.0,48.28|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Keep killing demons.|SO|6;2|
+C Lord Korithis Defeated|QID|42765|M|69.12,59.2|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill Kord Korithis.|SO|7;1|T|Lord Korithis|
+C Fu Zan reclaimed|QID|42765|M|69.12,59.2|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Pick up the weapon.|SO|8;1|NC|
+C The Wanderer Awakens|QID|42765|M|69.12,59.2|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Chat with Yulon for a ride.|SO|9;1|CHAT|
 T The Trial at the Temple|QID|42765|M|51.41,48.37|N|To Iron-Body Ponshu.|
 
 ;MISTWEAVER
 ;A The Emperor's Gift|QID|41003|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|40636|
 C The Emperor's Gift|QID|41003|M|47.15,47.75|N|Talk to Tak Tak for flight to Terrace of Endless Spring.|QO|1|CHAT|
 C Heal Taran Zhu|QID|41003|M|92.05,55.91|Z|TerraceofEndlessSpringScenario|N|Heal Taran Zhu to full health,|SO|1;1|NC|
-C Free the Shado Pan|QID|41003|M|78.96,48.76|Z|TerraceofEndlessSpringScenario|N|If you want to you can free them during the fight, or when the fight ends they will be automatically freed.|SO|2|
-C Prepare To Strike|QID|41003|M|58.97,45.45|Z|TerraceofEndlessSpringScenario|N|Talk to each of them.|SO|3;1|NC|
-C Talk to Taran Zhu|QID|41003|M|58.97,45.45|Z|TerraceofEndlessSpringScenario|N|After you talk to Taran Zhu the fight starts.|SO|3;4|
-C Acquire Sheilun|QID|41003|M|39.15,48.83|Z|TerraceofEndlessSpringScenario|N|Pick up staff.|SO|4;1|NC|
+C Free the Shado Pan|QID|41003|M|78.96,48.76|Z|TerraceofEndlessSpringScenario|N|If you want, you can free them during the fight, or when the fight ends they will be automatically freed.|SO|2|
+C Prepare To Strike|QID|41003|M|58.97,45.45|Z|TerraceofEndlessSpringScenario|N|Talk to each of them, Taren Zhu last.|SO|3;1|NC|
+C Talk to Taran Zhu|QID|41003|M|58.97,45.45|Z|TerraceofEndlessSpringScenario|N|After you talk to Taran Zhu the fight starts.|SO|4;1|
+C Acquire Sheilun|QID|41003|M|39.15,48.83|Z|TerraceofEndlessSpringScenario|N|Pick up staff.|SO|5;1|NC|
 C The Emperor's Gift|QID|41003|M|44.11,53.7|Z|TerraceofEndlessSpringScenario|N|Talk to Tak Tak for ride home.|QO|3|CHAT|
 T The Emperor's Gift|QID|41003|M|51.41,48.39|N|To Iron-Body Ponshu.|
 
@@ -215,7 +405,7 @@ C Into The Heavens|QID|40570|QO|2|M|35.75,82.91|Z|1049/1|N|Pick up the weapon.|
 T Into The Heavens|QID|40570|M|50.54,58.61|N|To Li Li Stormstout.|
 R Temple of Five Dawns|QID|40698|M|51.41,48.37|N|Run up the hill to the Temple.|CC|
 
-;Monk Class Hall
+;Monk Class Hall (after finishing first artifact)
 A Purity of Form|QID|40698|M|51.41,48.37|N|From Iron-Body Ponshu.|PRE|42765;42636;40634|
 C Purity of Form|QID|40698|M|51.44,48.25|NC|N|Use the forge to empower your artifact.|
 T Purity of Form|QID|40698|M|51.41,48.37|N|To Iron-Body Ponshu.|
@@ -224,52 +414,7 @@ T A Matter of Planning|QID|40793|M|52.75,59.79|N|To Master Hsu.|
 A The Fight Begins|QID|40795|M|52.75,59.79|N|From Master Hsu.|PRE|40793|
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|52.96,60.19|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40795|
 T The Fight Begins|QID|40795|M|52.75,59.79|N|To Master Hsu.|
-
-; LVL 110 Quest, Activate Light's Heart and Obliterum Quest Chain
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
-C In the House of Light and Shadow|QID|44448|N|Location NOT included at this time.\nBefore you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|From Camille Kleister.|LVL|110|
-C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|Toss water on the fire.|
-T Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|To Camille Kleister.|
-A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious Dust (in the wagon).|PRE|39838|
-C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
-C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
-C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
-A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
-C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
-t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
-
-A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|From Vanessa Sellers.|
-C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
-t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
-A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
-A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
-A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
-C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|S|QO|1|N|Loot Spellsludge from Powerful Creatures, that spawn when Gaurds are on duty.|
-C Cold Hard Coin|QID|39844|M|52.26,60.07|Z|The Underbelly@Dalaran70|S|QO|1|N|Loot Sightless Eyes from anything you kill.|
-C One Mage's Trash|QID|39842|M|57.38,37.92|Z|The Underbelly@Dalaran70|QO|3|N|Get Decommissioned Calefactor, when Guards are NOT on duty.|
-C One Mage's Trash|QID|39842|M|53.42,70.25|Z|The Underbelly@Dalaran70|QO|2|N|Get Spellbound Insulation, when Guards are NOT on duty.|
-C One Mage's Trash|QID|39842|M|80.03,85.00|Z|The Underbelly@Dalaran70|QO|1|N|Get Alchemical Flame, when Guards are NOT on duty.|
-C Cold Hard Coin|QID|39844|M|52.26,60.07|Z|The Underbelly@Dalaran70|US|QO|1|N|Loot Sightless Eyes from anything you kill.|
-C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|QO|1|US|N|Loot Spellsludge from Powerful Creatures, that spawn when Gaurds are on duty.|
-T One Mage's Trash|QID|39842|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
-T The Muck Stops Here|QID|39843|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
-T Cold Hard Coin|QID|39844|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
-A The Obliterum Forge|QID|39845|PRE|39842;39843;39844|M|67.46,18.13|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
-C The Obliterum Forge|QID|39845|M|42.28,28.92|Z|Dalaran@Dalaran70|QO|1|N|1/1 Finalize Obliterum Forge|
-T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
-T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-
-;C Portal to Dalaran|QID|39718|M|52.4,57.10|N|Take the portal to Dalaran.|NC|ACTIVE|39718|
-;C Portal to Dalaran|QID|39864;39735|M|52.4,57.10|N|Take the portal to Dalaran.|NC|ACTIVE|39864;39735|
-;C Portal to Dalaran|QID|39731|M|52.4,57.10|N|Take the portal to Dalaran.|NC|ACTIVE|39731|
-;C Portal to Dalaran|QID|39733|M|52.4,57.10|N|Take the portal to Dalaran.|NC|ACTIVE|39733|
+N Items to acquire|QID|43054|N|When you are at least level 103, one of the last steps in your order hall to complete before 110 is a quest to gather supplies.  You will need to turn in a total of 100 items(5 at a time). Highmountain Salmon, Spiced Rib Roast, and Silkweave Bandages. If you want to get thru that quest quickly, acquire and store these items.|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
