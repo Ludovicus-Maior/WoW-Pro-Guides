@@ -900,14 +900,14 @@ function WoWPro:RowUpdate(offset)
 	ClearOverrideBindings(WoWPro.MainFrame)
 	WoWPro.RowDropdownMenu = {}
 	
+	local step_limit = WoWProDB.profile.numsteps + 5
 	for i=1,15 do
-		
 		-- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
 		if not WoWProDB.profile.guidescroll then
 			k = WoWPro.NextStep(k, i)
 		end
 
-				
+
 		--Setup row--
 		local row = WoWPro.rows[i]
 		row.index = k
@@ -917,7 +917,7 @@ function WoWPro:RowUpdate(offset)
 		if WoWPro[module:GetName()].PreRowUpdate then
 		    WoWPro[module:GetName()]:PreRowUpdate(row)
 		end
-		
+
 		--Loading Variables --
 		local step = WoWPro.step[k]
 		local action = WoWPro.action[k] 
@@ -967,7 +967,11 @@ function WoWPro:RowUpdate(offset)
 		if sticky and i == WoWPro.ActiveStickyCount+1 and not completion[k] then
 			WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount+1
 		end
-		
+
+		if i > step_limit and WoWPro.ActiveStickyCount == 0 then
+		    return false
+		end
+
 		-- Getting the image and text for the step --
 		row.step:SetText(step)
 		row.track:SetText("")

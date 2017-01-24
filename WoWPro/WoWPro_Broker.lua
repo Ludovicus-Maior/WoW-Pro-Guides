@@ -427,7 +427,9 @@ function WoWPro.UpdateGuideReal(From)
 	end
 	local reload = true
 	-- Reloading until all stickies that need to unsticky have done so --
-	while reload do reload = rowContentUpdate() end
+	while reload do
+	    reload = rowContentUpdate()
+	end
 	
 	-- Update content and formatting --
 	WoWPro:RowSet(); WoWPro:RowSet()
@@ -1502,7 +1504,6 @@ function WoWPro.PopulateQuestLog()
 		if WoWProDB.global.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProDB.global.QID2Guide[QID] then
 		    WoWPro:SelectGuide(WoWProDB.global.QID2Guide[QID], WoWPro.QuestLog[QID].title)
 		    WoWPro:print("AutoSwitch: [%s] => %s",WoWPro.QuestLog[QID].title, WoWProDB.global.QID2Guide[QID])
-		    delta = delta + 1
 		end
 	end
 	
