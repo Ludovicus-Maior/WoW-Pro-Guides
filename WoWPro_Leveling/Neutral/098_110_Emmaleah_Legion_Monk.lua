@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2017-01-24 03:19
+-- Who: Emmaleah
+-- Log: missed a return  just before F Valdidall
+
+-- URL: http://wow-pro.com/node/3672/revisions/28244/view
 -- Date: 2017-01-23 20:23
 -- Who: Emmaleah
 -- Log: completed all order hall progression steps pre 110. (per wowhead).  Will update further when my monk reaches 110. Also added in the known 110 quests that are for all classes.  Some locations/npcs may be incorrect at this time for those quests.
@@ -241,9 +246,10 @@ C The Obliterum Forge|QID|39845|M|42.28,28.92|Z|Dalaran@Dalaran70|QO|1|N|1/1 Fin
 T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
 C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
-T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|F Valdisdall|QID|41849|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|41849|
+T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 
 ;class hall progression
+F Valdisdall|QID|41849|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|41849|
 T The Iron Fist|QID|41849|M|63,58.4|Z|Stormheim|N|Travel to Stormheim and turn in to Angus Ironfist.|
 ;2 more quests then back zen pilgrimage
 
