@@ -1,3 +1,27 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/node/3707
+-- Date: 2017-01-03 00:03
+-- Who: Blanckaert
+-- Log: adjusted chest that where moved in suramar
+
+-- URL: http://wow-pro.com/node/3707/revisions/28150/view
+-- Date: 2016-12-14 00:58
+-- Who: Blanckaert
+
+-- URL: http://wow-pro.com/node/3707/revisions/28148/view
+-- Date: 2016-12-14 00:46
+-- Who: Blanckaert
+-- Log: remove -- from prox sort
+
+-- URL: http://wow-pro.com/node/3707/revisions/28138/view
+-- Date: 2016-12-10 21:48
+-- Who: Blanckaert
+-- Log: Start of a Treasures guide, for all the Broken Isle Zones, in one file.
+
 local guide = WoWPro:RegisterGuide('Blanc_BI_Treasures', "Achievements", 'Broken Isles', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,98, 110, 100)
 WoWPro:GuideIcon(guide,"ACH",11259)
@@ -29,7 +53,7 @@ $ Treasure chest|QID|37958|M|57.89,12.23|Z|Azsuna|N|Treasure chest containing it
 $ Treasure Chest|QID|37980|M|58.28,16.07;58.38,15.24;58.69,14.14|Z|Azsuna|CS|N|Take the stairs here, follow the path up, then take the ley portal to find a treasure chest. Loot for treaure and resources.|
 $ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|Z|Azsuna|CS|ITEM|138352|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|
 $ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.74; 39.63, 31.65; 36.84, 31.24; 37.40, 29.57; 39.08, 26.55; 40.23, 24.74; 41.63, 23.91; 42.31, 22.72; 43.43, 23.83|Z|Azsuna|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources.|
-$ Glimmering Treasure Chest|QID|42297|Z|Azsuna|M|43.37, 22.43|N|Guarded by two same level elite slow-running mobs. Loot for a bit of treasure and resources.|
+$ Glimmering Treasure Chest|QID|42297|Z|Azsuna|M|43.37, 22.43|N|Guarded by two same level elite slow-running mobs.  Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|37713|M|44.48,39.47|Z|Azsuna|N|Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|37831|M|49.65,34.47|Z|Azsuna|N|Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|38251|M|56.45,34.87|Z|Azsuna|N|Yes, its in the middle of those sleeping basilisks. Loot for a bit of treasure and resources.|
@@ -65,13 +89,13 @@ $ Disputed Treasure|QID|38365|M|55.87,56.87|Z|Azsuna|N|Kill the npcs argueing ov
 
 ; Highmountain Treasures
 
-$ Treasure Chest|QID|44352|M|32.16,38.35;31.98,38.35|Z|ThunderTotem|CS|N|Jump off the bridge and swim into an underwater cave to find the Treasure. Loot for a bit of resources and treasure.|
-$ Treasure Chest|QID|40475|M|32.05,41.93|Z|ThunderTotem|N|After you leave the cave, as you are swimming to shore, there is another treasure in the boat. Loot for a bit of resources and treasure.|
+$ Treasure Chest|QID|44352|M|32.16,38.35;31.98,38.35|Z|ThunderTotem|CS|N|Jump off the bridge and swim into an underwater cave to find the Treasure.  Loot for a bit of resources and treasure.|
+$ Treasure Chest|QID|40475|M|32.05,41.93|Z|ThunderTotem|N|After you leave the cave, as you are swimming to shore, there is another treasure in the boat.  Loot for a bit of resources and treasure.|
 $ Treasure Chest|QID|40474|M|39.38,62.28|Z|Highmountain|N|Loot for a bit of Treasure and Resources.|
 $ Treasure Chest|QID|39812|M|39.53,57.44|Z|Highmountain|N|Loot for a bit of treasure and resources.|
 $ Glimmering Treasure Chest|QID|40476|M|72.79,55.81|CS|Z|Highmountain/21|N|Go down these stairs for a Glimmering Treasure chest and a shortcut out of the caverns.|
 $ Treasure Chest|QID|40473|M|39.29,76.19|Z|Highmountain|N|Loot for a bit of treasure and resources.|
-$ Treasure Chest|QID|40489|M|85.62,38.38|Z|Highmountain|N|There is a Treasure chest up where Dargrul was. You may have to kill 15-20 mobs to get it, so I'm not sure its worth it. Check off manually if you don't want to go up there.|
+$ Treasure Chest|QID|40489|M|85.62,38.38|Z|Highmountain|N|There is a Treasure chest up where Dargrul was.  You may have to kill 15-20 mobs to get it, so I'm not sure its worth it. Check off manually if you don't want to go up there.|
 $ Treasure Chest|QID|40488|M|36.61,62.13|Z|Highmountain|N|Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|40491|M|13.67,55.40|Z|ThunderTotem|N|Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|40471|M|62.04,67.25|Z|Highmountain/6|N|Jump in the water and loot for a bit of treasure and resources.|
@@ -90,18 +114,18 @@ $ Small Treasure Chest|QID|40480|M|41.96,34.65;42.49,35.02|Z|Highmountain|CS|N|T
 $ Small Treasure Chest|QID|40479|M|42.21,27.32|Z|Highmountain|N|Loot for a bit of resources and treasure.|
 $ Small Treasure Chest|QID|40481|M|44.75,31.86;45.54,34.59|Z|Highmountain|CS|N|Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|44279|M|45.72,27.51;45.18,27.45|Z|Highmountain|CS|ITEM|138885|N|Jump in the water and swim down to an underwater cave. Loot for treasure and resources.|
-$ Glimmering Treasure Chest|QID|40482|M|48.05,27.31;46.67,28.11|Z|Highmountain|CS|N|Up the hill. then walk on top of the building/statue and drop down onto the statue's nose to find a tresure chest. Loot for a bit of resources and treasure.|
+$ Glimmering Treasure Chest|QID|40482|M|48.05,27.31;46.67,28.11|Z|Highmountain|CS|N|Up the hill. then walk on top of the building/statue and drop down onto the statue's nose to find a tresure chest.  Loot for a bit of resources and treasure.|
 $ Small Treasure Chest|QID|44280|M|44.72,25.00;42.79,23.58;46.36,21.63|Z|Highmountain|CS|N|Run up the mountain trail for a great view and to find this chest which contains a bit of loot and treasure. If you don't have a kite/glider, run back down.|
 $ Achievement/Pet Opportunity|ACH|10626|M|67.31,66.32|Z|Highmountain/31|NC|N|STAND (still) in front of the snails that are NOT "Zoom" to help Zoom win the race. Race recurs every few minutes.|
 $ Treasure Chest|QID|40478|M|36.09,72.37|Z|Highmountain/31|N|Continue past Gurh... to find this treasure chest. Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|40496|M|50.99,36.47|Z|Highmountain|N|Loot for a bit of treasure and resources.|
-$ Small Treasure Chest|QID|40497|M|49.39,38.02;49.85,40.31;50.25,38.63|Z|Highmountain|CS|N|Run up the ramp (just before the bridge where you turn in the quest) for a small treasure chest. Loot for a bit of treasure and resources.|
-$ Small Treasure Chest|QID|40497|M|49.39,38.02;49.85,40.31;50.25,38.63|Z|Highmountain|CS|N|Run up the ramp (just before the bridge where you turn in the quest) for a small treasure chest. Loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|40497|M|49.39,38.02;49.85,40.31;50.25,38.63|Z|Highmountain|CS|N|Run up the ramp (just before the bridge where you turn in the quest) for a small treasure chest.  Loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|40497|M|49.39,38.02;49.85,40.31;50.25,38.63|Z|Highmountain|CS|N|Run up the ramp (just before the bridge where you turn in the quest) for a small treasure chest.  Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|40500|M|53.40,48.68|Z|Highmountain|N|Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|40487|M|55.13,49.66|Z|Highmountain|N|Loot for a bit of treasure and resources.|
 $ The Beastly Boxer|QID|39872|M|55.48,47.21;53.69,51.30|Z|Highmountain|CS|N|Follow this path to get to the Beastly Boxer. Challenge him to a fight, there is a bit of treasure and resources as a reward.|
 $ Glimmering Treasure Chest|QID|40483|M|54.18,41.59|Z|Highmountain|N|Continue up the path to find another chest. Loot for a bit of treasure and resources.|
-$ Small Treasure Chest|QID|40484|M|53.46,43.56|Z|Highmountain|N|Run (or jump) down to the bottom of the cavern. Loot the chest for treasure and resources.|
+$ Small Treasure Chest|QID|40484|M|53.46,43.56|Z|Highmountain|N|Run (or jump) down to the bottom of the cavern.  Loot the chest for treasure and resources.|
 $ Treasure Chest|QID|39503|M|47.63,44.05|Z|Highmountain|N|Kick the runt off the cliff, then loot the chest for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|40498|M|50.98,38.80|Z|Highmountain|N|Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|40499|M|53.06,39.47|Z|Highmountain|N|Loot for a bit of treasure and resources.|
@@ -113,7 +137,7 @@ $ Treasure Chest|QID|40507|M|46.81,40.13|Z|Highmountain|N|Loot for a bit of trea
 $ Steamy Jewerly Box|QID|39531|M|63.49,59.41|Z|ThunderTotem|ITEM|141322 1|N|I'm somewhat uncomfortable stealing from sleeping ally's, but there it is.|
 $ Small Treasure Chest|QID|40472|M|50.64,75.37|Z|ThunderTotem|N|Loot for a bit of resources and treasure.|
 $ Seemingly Unguarded Treasure|QID|40423|M|52.42,58.48;52.75,58.15|Z|Highmountain|CS|ITEM|140681|N|What could go wrong? Click on the pile of gold and then fight for it.|
-$ Totally Safe Treasure Chest|QID|39766|M|53.04,55.56;52.32,51.39|Z|Highmountain|CS|N|The path starts at the first coordinate. It's a bit of a run, but with a beautiful view. What could go wrong. Find the chest and be prepared to fight for it. Loot for a bit of treasure and resources.|ITEM|131802|
+$ Totally Safe Treasure Chest|QID|39766|M|53.04,55.56;52.32,51.39|Z|Highmountain|CS|N|The path starts at the first coordinate.  It's a bit of a run, but with a beautiful view. What could go wrong.  Find the chest and be prepared to fight for it.  Loot for a bit of treasure and resources.|ITEM|131802|
 $ Treasure Chest|QID|42453|M|52.54,66.37|N|Loot for some treasure and resources.|
 $ Optional-Toy|QID|39824|M|55.7,53.2;53.61,51.04|Z|Highmountain|CS|ITEM|131811|U|131927|N|If you want to have this toy, there is one more treasure to pick up. After you get it click on the feather to combine and glide down from the branch. Then head to Thunder Totem. It's hard to explain and you may want to consult the internet for more info. Run/Fly back to Skyhorn village and then follow the arrow from there. The coordinates points to where the path starts leading to the tree that the chest is balanced on. Check this off manually if you don't want to do this. Check the next step off manually if you do.|
 ; Stormheim Treasures
@@ -131,7 +155,7 @@ $ Treasure Chest|QID|38529|M|80.89,48.83;20.03,41.23|Z|Stormheim/9|CS|N|Inside t
 $ Small Treasure Chest|QID|43196|M|32.93,48.10;32.06,47.20|Z|Stormheim|CS|N|You don't have to wake the sleeping drakes. Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|38488|M|41.75,46.03|Z|Stormheim|N|Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|38483|M|50.13,42.10;50.32,41.00|Z|Stormheim|CS|N|Loot for a bit of treasure and resources.|
-$ Treasure Chest|QID|43246|M|48.48,41.28;48.89,40.92;49.52,40.96;50.14,40.77|Z|Stormheim|CS|N|Standing at the first coordinate, look up and northeast. Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.|
+$ Treasure Chest|QID|43246|M|48.48,41.28;48.89,40.92;49.52,40.96;50.14,40.77|Z|Stormheim|CS|N|Standing at the first coordinate, look up and northeast.  Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|38474|M|42.6,65.80|Z|Stormheim|N|Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|38486|M|39.58,65.18|Z|Stormheim|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|
 $ Treasure Chest|QID|38489|M|44.16,69.97|Z|Stormheim|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|
@@ -140,14 +164,14 @@ $ Small Treasure Chest|QID|38476|M|48.13,74.22|Z|Stormheim|N|Beside the waterfal
 $ Small Treasure Chest|QID|38485|M|49.24,76.99;49.76,77.99|Z|Stormheim|CS|N|One grapple point off the trail, you will find a chest in this niche. Loot for treasure and resources, then back to traveling upwards on the trail.|
 $ Treasure Chest|QID|38481|M|46.55,79.35;46.77,80.40|Z|Stormheim|CS|N|First point is a hook point, Hook to the chest, loot for treasure and resources.|
 $ Small Treasure Chest|QID|43239|M|44.30,79.88;43.70,80.09|Z|Stormheim|CS|N|On the top of the spire, hook you way up and loot for treasure and resources.|
-$ Glimmering Treasure Chest|QID|38763|M|49.70,49.20;49.69,47.28|Z|Stormheim|CS|N|Dodge the energy beams, open the chest, be ready to fight. Loot for a bit of treasure and resources.|
+$ Glimmering Treasure Chest|QID|38763|M|49.70,49.20;49.69,47.28|Z|Stormheim|CS|N|Dodge the energy beams, open the chest, be ready to fight.  Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|43207|M|49.07,60.00|Z|Stormheim|N|Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|43238|M|43.14,39.01;43.17,40.49|Z|Stormheim|CS|N|Hook out to find chest, loot for treasure and resources.|
 $ Small Treasure Chest|QID|43240|M|44.06,37.88;44.99,38.24|Z|Stormheim|CS|N|Use grapple points to get to this treasure. Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|43255|M|45.68,32.90;46.29,33.12;46.49,34.09;47.45,34.10|Z|Stormheim|CS|N|Use grapple points to get to this treasure. Loot for a bit of treasure and resources.|
 $ Glimmering Treasure Chest|QID|43189|M|42.12,35.72;42.46,34.08|Z|Stormheim|CS|ITEM|141896|N|Long run up the steps At the top you get achievement and a chest to loot for treasure and resources.|
 $ Small Treasure Chest|QID|38477|M|42.33,61.12|Z|Stormheim|N|If you are careful, you can get without waking the Basilisk. Otherwise kill the basilisk curled around the treasure and then its yours. Kite him around to escape his AOE and interrupt his glare. Loot for treasure and resources.|
-$ Small Treasure Chest|QID|38681|M|48.18,65.20;46.60,64.96|Z|Stormheim|CS|N|Inside the cave. Loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|38681|M|48.18,65.20;46.60,64.96|Z|Stormheim|CS|N|Inside the cave.  Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|38738|M|47.97,62.37|Z|Stormheim|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|40083|M|67.99,57.77|Z|Stormheim|N|Loot fora bit of resources and treasure.|
 $ Small Treasure Chest|QID|43205|M|65.37,43.12|Z|Stormheim|N|Loot for a bit of treasure and resources.|
@@ -155,7 +179,7 @@ $ Small Treasure Chest|QID|43302|M|64.20,41.58;64.29,39.55|Z|Stormheim|CS|N|Loot
 $ Small Treasure Chest|QID|38637|M|69.35,44.97;69.13,44.77|Z|Stormheim|CS|N|Use grapple point to reach chest. Loot for treasure and resources.|
 $ Small Treasure Chest|QID|40086|M|69.0,41.9|Z|Stormheim|CS|N|In the room with the ritual stone. Loot for treasure and resources.|
 $ Small Treasure Chest|QID|43305|M|72.24,43.75;71.95,44.14|Z|Stormheim|CS|N|Use your grappling hook to go up and get this chest. Loot for a bit of treasure and resources.|
-$ Small Treasure Chest|QID|43306|M|73.25,42.68;74.41,41.84|Z|Stormheim|CS|N|Get this before you complete the next quest or you will have to run a long ways back to get it. Use Hook to get up to alcove above. Loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|43306|M|73.25,42.68;74.41,41.84|Z|Stormheim|CS|N|Get this before you complete the next quest or you will have to run a long ways back to get it.  Use Hook to get up to alcove above. Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|40085|M|73.33,41.51|Z|Stormheim|N|Loot for treasure and resources.|
 $ Treasure Chest|QID|38509;38510|M|79.88,24.72|Z|Helheim|N|Loot for treasure and resources.|
 $ Treasure Chest|QID|38503|M|83.3,24.6|Z|Helheim|N|You can find this chest underwater inside a sunken ship. Loot for treasure and resources.|
@@ -169,17 +193,17 @@ $ Treasure Chest|QID|40088|M|59.25,58.59|Z|Stormheim|N|Loot for a bit of treasur
 $ Treasure Chest|QID|40091|M|60.33,72.30;60.89,71.80;62.6,73.6|Z|Stormheim|CS|N|Run up this path and into the tower for a chest to loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|43187|M|65.58,57.36|Z|Stormheim|N|Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|43188|M|70.00,67.17|Z|Stormheim|N|Before you go back up the central stairs, Loot for a bit of treasure and resources.|
-$ Small Treasure Chest|QID|40094|M|60.85,42.73|Z|Stormheim|N|Use grapple to get on roof beam with chest. Loot for resources and treasure.|
+$ Small Treasure Chest|QID|40094|M|60.85,42.73|Z|Stormheim|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|
 $ Small Treasure Chest|QID|40093|M|61.41,44.41|Z|Stormheim|N|Loot for treasure and resources.|
 $ Small Treasure Chest|QID|40082|M|58.04,47.51|Z|Stormheim|N|Run up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|40095|M|54.98,47.14|Z|Stormheim|N|Underwater on the deck of sunken ship. Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|38744|M|61.91,32.25|Z|Stormheim|N|Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|43194|M|73.10,45.72|Z|Stormheim|N|Loot for a bit of treasure and resources.|
-$ Small Treasure Chest|QID|42632|M|75.37,52.11|Z|Stormheim|N|Hook from the ship to piller. Chest on top of piller. Loot for a bit of treasure and resources.|
+$ Small Treasure Chest|QID|42632|M|75.37,52.11|Z|Stormheim|N|Hook from the ship to piller.  Chest on top of piller. Loot for a bit of treasure and resources.|
 $ Treasure Chest|QID|42629|M|75.17,49.49|Z|Stormheim|N|Hook to the next ship and then up to the crows nest to find a chest. Loot for treasure and resources.|
 $ Treasure Chest|QID|40099|M|80.58,67.04;81.86,67.49|Z|Stormheim|CS|N|Loot for a bit of treasure and resources.|
 $ Small Treasure Chest|QID|43191|M|82.40,54.51|Z|Stormheim|N|Loot for a bit of treasure and resources.|
-$ Small Treasure Chest|QID|43307|M|76.05,65.05;76.91,66.17;77.25,67.18;77.31,68.16;77.12,69.29;78.57,70.33;78.43,71.38|Z|Stormheim|CS|N|Very time comsuming to get to. About 5 hook points and a couple of jump downs. Loot for a bit of treasure and resources. (or decide you dont want to.)|
+$ Small Treasure Chest|QID|43307|M|76.05,65.05;76.91,66.17;77.25,67.18;77.31,68.16;77.12,69.29;78.57,70.33;78.43,71.38|Z|Stormheim|CS|N|Very time comsuming to get to. About 5 hook points and a couple of jump downs.  Loot for a bit of treasure and resources. (or decide you dont want to.)|
 $ Small Treasure Chest|QID|43304|M|75.49,60.10;75.62,60.63|Z|Stormheim|CS|N|Look up from first coord. Use Hook Point. Loot for treasure and resources.|
 $ Small Treasure Chest|QID|43237|M|73.98,58.59|Z|Stormheim|N|Loot for treasure and resources.|
 $ Treasure Chest|QID|40108|M|68.42,29.60|Z|Stormheim|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure.|LVL|110|;doesnt actually require 110, but this is way too remote to come out if you arent doing the sixtriggers quest.
@@ -248,7 +272,7 @@ $ Treasure Chest|QID|43874|M|57.68,61.97|Z|Suramar|N|Yes, there is a see illusio
 
 $ Treasure|QID|38359|Z|Val'sharah|M|54.42,74.20|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|
 $ Treasure|QID|39093|M|54.19,70.59|Z|Val'sharah|N|Up the stream on a rock. Loot for a bit of treasure and resources.|
-$ Treasure|QID|38466|M|55.55,77.60|Z|Val'sharah|L|130147|N|Open this treasure chest to start a short event where several forest sprites attack. After they are dead, loot the chest again for your treasure|ITEM|130147|
+$ Treasure|QID|38466|M|55.55,77.60|Z|Val'sharah|L|130147|N|Open this treasure chest to start a short event where several forest sprites attack.  After they are dead, loot the chest again for your treasure|ITEM|130147|
 $ Treasure|QID|38943|M|59.88,72.26|Z|Val'sharah|N|Inside the house, up the right staircase. Loot for a bit of resources and treasure.|
 $ Treasure|QID|39069|M|62.78,70.31|Z|Val'sharah|N|Located on second floor balcony. Loot for a bit of resources and treasure.|
 $ Treasure|QID|39102|M|63.28,74.02|Z|Val'sharah|N|Loot for a bit of treasure and resources.|
@@ -256,7 +280,7 @@ $ Treasure|QID|39071|M|62.06,67.33|Z|Val'sharah|N|Out of the cavern and around t
 $ Treasure|QID|39087|M|61.63,73.69|Z|Val'sharah|N|Beside the pond, Loot for a bit of treasure and resources.|
 $ Treasure|QID|39070|M|63.03,76.98|Z|Val'sharah|N|loot for a bit of treasure and resources.|
 $ Undergrell Attack|QID|43176|M|67.12,69.57|Z|Val'sharah|ITEM|130133|N|Help an embattled druid out for some treasure and resources.|
-$ Antydas Nightcaller|QID|38903|M|64.36,84.67|Z|Val'sharah|CHAT|N|Upstairs, asleep on a bed, click to try to wake. He won't wake up, but does mumble about where the treasure is (which is next treasure).This is for adventurer of Val'sharah achievement - no actual reward.|
+$ Antydas Nightcaller|QID|38903|M|64.36,84.67|Z|Val'sharah|CHAT|N|Upstairs, asleep on a bed, click to try to wake.  He won't wake up, but does mumble about where the treasure is (which is next treasure).This is for adventurer of Val'sharah achievement - no actual reward.|
 $ Treasure|QID|38900|M|64.55,85.46|Z|Val'sharah|N|Upstairs, under slanting roof. Loot for a bit of treasure and resources.|
 $ Treasure|QID|39089|M|61.01,79.17|Z|Val'sharah|N|Small alcove at the base of the cliff. Loot for a bit of treasure and resources.|
 $ Elindya Featherlight|QID|38887|M|60.42,90.72;61.03,88.04|Z|Val'sharah|CS|N|Click on Elindya and then follow her and help her kill the demon Skul'vrax|
@@ -265,10 +289,10 @@ $ Treasure|QID|44136|M|62.17,86.23;62.70,85.26|Z|Val'sharah|CS|N|Loot for a bit 
 $ Treasure|QID|38389|M|63.38,88.39|Z|Val'sharah|N|Loot for a bit of treasure and resources.|
 $ Treasure|QID|39074|M|65.38,86.25|Z|Val'sharah|N|Small cave, below Whispering Bluff. Loot for a bit of treasure and resources.|
 $ Treasure|QID|38861|M|56.05,83.75|Z|Val'sharah|N|In a small cave. Loot for a bit of treasure and resources.|
-$ Treasure|QID|38864|M|54.00,82.19;54.94,80.56|Z|Val'sharah|CS|N|Dive in and swim into an underwater cave. Loot the treasure chest for a bit of treasure and resources.|;bugged 8/27 and quest doesnt actually loot or go away.
+$ Treasure|QID|38864|M|54.00,82.19;54.94,80.56|Z|Val'sharah|CS|N|Dive in and swim into an underwater cave.  Loot the treasure chest for a bit of treasure and resources.|;bugged 8/27 and quest doesnt actually loot or go away.
 $ Treasure|QID|38388|M|50.96,77.00;51.49,77.70|Z|Val'sharah|CS|N|Small cave, right beside the road. Loot chest for treasure and resources.|
 $ Treasure|QID|38277|M|46.46,86.33|Z|Val'sharah|N|Loot for treasure and resources.|
-$ Treasure|QID|44138|M|43.7,89.9;43.05,88.19|Z|Val'sharah|CS|N|In a cave with several unfriendly hydras. Loot for a bit of treasure and resources.|;if we had such a rank... this would qualify for rank 4
+$ Treasure|QID|44138|M|43.7,89.9;43.05,88.19|Z|Val'sharah|CS|N|In a cave with several unfriendly hydras.  Loot for a bit of treasure and resources.|;if we had such a rank... this would qualify for rank 4
 $ Treasure|QID|38387|M|44.87,79.23;44.35,82.58|Z|Val'sharah|CS|N|Run up this path and to a small cave behind and underneath the inn at Sabermaw Bluff for a bit of loot and treasure.|
 $ Treasure|QID|38366|M|48.69,73.79|Z|Val'sharah|N|Surrounded by a circle of tree trunks. Loot for a bit of treasure and resources.|
 $ Treasure|QID|38363|M|43.39,75.89|Z|Val'sharah|N|Loot for a bit of resources and treasure.|
@@ -295,10 +319,8 @@ $ Treasure|QID|39108|M|66.60,42.77;66.56,40.91|Z|Val'sharah|CS|N|Follow the path
 $ Treasure|QID|39073|M|67.16,41.71;68.33,40.61|Z|Val'sharah|CS|N|Follow the path down, Chest is in house at base of falls. Loot for a bit of treasure and resources.|
 $ Treasure|QID|44139|M|63.91,45.57|Z|Val'sharah|N|Loot for a bit of treasure and resources.|
 $ Treasure|QID|39088|M|61.07,34.24|Z|Val'sharah|N|Nearly at the bottom of the pond, tangled in some roots. Loot for a bit of treasure and resources.|
-$ Treasure|QID|38390|M|53.2,38;54,34.89|Z|Val'sharah|CS|ITEM|141891|N|Just check this off and save the repair bill if you can't stealth or are not in a group. That being said, there is a cave in the tangled cleft. In the middle of the cave is the treasure.|
+$ Treasure|QID|38390|M|53.2,38;54,34.89|Z|Val'sharah|CS|ITEM|141891|N|Just check this off and save the repair bill if you can't stealth or are not in a group. That being said, there is a cave in the tangled cleft.  In the middle of the cave is the treasure.|
 
 ]]
 
 end)
-
-
