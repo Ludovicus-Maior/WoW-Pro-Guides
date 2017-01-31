@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2017-01-31 01:12
+-- Who: Blanckaert
+-- Log: minor fixes, S / US not set, and dupe S
+
+-- URL: http://wow-pro.com/node/3665/revisions/28242/view
 -- Date: 2017-01-15 22:49
 -- Who: Emmaleah
 -- Log: Edited section for treasure (38782) you get behind lyranthos darkgrove due to phasing now fixed. Added CHAT and changed the note on Dark Side of the Moon (41890;41708|QO2) to reflect you have to TALK to Tyrande to start the attack)
@@ -299,7 +304,7 @@ A Adopting the Adorable|QID|38889|M|53,87|N|From the Shivering Bear Cub upon kil
 $ Treasure|QID|38864|M|54.00,82.19;54.94,80.56|CS|N|Dive in and swim into an underwater cave.  Loot the treasure chest for a bit of treasure and resources.|RANK|2|;bugged 8/27 and quest doesnt actually loot or go away.
 C Thorny Dancing|QID|40220|M|53.75,79.82|T|Thistleleaf Thorndancer|N|Kill 3 Thorndancers, they are the taller Thistleleaf mobs.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|US|N|Finish collecting the eggs.|RANK|2|
-C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|Finish rescueing Lunarwings.|RANK|2|
+C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|US|N|Finish rescueing Lunarwings.|RANK|2|
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|US|N|Stay and finish up or click this off and leave.|RANK|2|
 t Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto-Turned in when completed.|RANK|2|
 C A Needle Need|QID|38951|PRE|38950|M|53.75,79.82|P|Tailoring;197|US|N|Kill and Loot Thistleleafs for Spritethorn|
@@ -384,7 +389,6 @@ C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to c
 K Kill Gravax the Desecrator|QID|38656|M|56.40,55.58|T|Gravax|ITEM|124131|N|Group needed, unless you happen to have one of the druid artifacts that drop near Flight Point|RANK|2|
 A Mark of the Demon|QID|38656|ACTIVE|38656|M|56.40,55.58|U|124131|N|Auto Accepted from UI Alert|RANK|2|
 C Tears for Fears|QID|38662|M|59.19,54.03|NC|N|Listen to the dialog|
-C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to collect the corrupted root samples.|
 C Root Cause|QID|38655|M|59.11,54.33|US|NC|N|Finish collecting any needed samples on your way back to the inner temple.|
 C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|US|N|Optional - Finish up the bonus objective.|RANK|2|
 t Defend The Temple-Bonus Objective|QID|39029|M|58.17,57.83|N|Auto turned in when complete.|RANK|2|
@@ -396,7 +400,7 @@ t Mark of the Demon|QID|38656|M|53.71,55.97|N|To Isorarn Nightstar. (If done AFT
 A A Village in Peril|QID|38643|M|54.79,52.80|N|From Darcy Heathrow.| ; this quest invalidates 39149, which is not including in guide.
 R Bradensbrook|QID|38643|M|53.44,50.25;42.35,59.01|CS|N|Follow the road into Bradensbrook.|RANK|-1|
 $ Share Marius and Tehd Adventures|QID|44070|M|50.66,49.72;48.94,47.21;49.15,49.54|CS|ITEM|132359|T|Gathenak|N|Follow this path down to find Marius and Tehd and share in their adventures. Silver-Kill for treasure and resources.|RANK|2|
-$ Old Bear Trap|QID|39357|M|48.10,47.18;47.09,58.04|CS|ITEM|130214|T|Mad Henryk|N|Follow the path back up and across the road. Get close to the trap to start the vignette.|RANK|2|
+$ Old Bear Trap|QID|39357|M|47.20,57.99|ITEM|130214|T|Mad Henryk|N|Get close to the trap to start the vignette.|RANK|2|
 $ Treasure|QID|39083|M|44.00,61.57;45.14,61.81;45.12,61.14|CS|N|Jump off the rocky outcropping into the tree to loot chest for treasure and resources.|RANK|2|
 T A Village in Peril|QID|38643|M|42.35,59.01|N|To Mayor Heathrow.|
 A Children of the Night|QID|38645|PRE|38643+39149|M|42.48,58.98|N|From Commander Jarod Shadowsong.|

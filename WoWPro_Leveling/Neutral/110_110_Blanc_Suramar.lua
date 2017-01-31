@@ -4,9 +4,9 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/Blanckaert
--- Date: 2017-01-14 22:48
+-- Date: 2017-01-31 03:30
 -- Who: Blanckaert
--- Log: added Blacksmithing Quests into guide.
+-- Log: minor fixes
 
 -- URL: http://wow-pro.com/node/3687/revisions/28218/view
 -- Date: 2017-01-10 17:49
@@ -811,7 +811,7 @@ $ Small Treasure Chest|QID|40902|M|40.48,28.80|Z|Suramar/23|N|Loot for a bit of 
 $ Small Treasure Chest|QID|43835|M|54.88,37.80|Z|Suramar/23|N|Loot chest for some treasure and resources.|RANK|2|
 A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|RANK|2|
 T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|To Unpowered Telemancy Beacon.|RANK|2|
-P Shal'Aran|QID|40470|M|53.45,37.31|Z|Suramar/23|N|After Killing Astoril, use portal behind you. OR Hearth.|RANK|2|
+P Shal'Aran|QID|40470|ACTIVE|40470|M|53.45,37.31|Z|Suramar/23|N|After Killing Astoril, use portal behind you. OR Hearth.|RANK|2|
 C Quality of Life|QID|40470|M|36.87,46.61|QO|3|NC|N|Chat with Thalyssra|RANK|2|
 T Quality of Life|QID|40470|M|36.87,46.61|N|To First Arcanist Thalyssra.|RANK|2|
 P Lunastre Estate|QID|41320|M|36.16,45.02|N|Take the portal to Lunastre Estate.|RANK|2|
@@ -914,8 +914,8 @@ T Thalyssra's Drawers|QID|42489|M|36.88,46.61|N|To First Arcanist Thalyssra.|
 F Crimson Thicket|QID|40907|AVAILABLE|40907|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
 R Jandvik|QID|40907|M|64.86,51.05|N|Run to Jandvik for some sideline quests.|
 A Removing Obstacles|QID|40907|PRE|42229|M|65.71,51.15|N|From Toryl (who wanders along this path).|
-C Removing Obstacles|QID|40907|M|68.92,52.32|QO|1|N|Kill Calder.|
-C Removing Obstacles|QID|40907|M|69.07,47.26|QO|2|N|Kill Eynar.|
+C Removing Obstacles|QID|40907|M|68.92,52.32|QO|1|T|Calder|N|Kill Calder.|
+C Removing Obstacles|QID|40907|M|69.07,47.26|QO|2|T|Eynar|N|Kill Eynar.|
 T Removing Obstacles|QID|40907|M|70.57,48.85|N|To Toryl.|
 A Jarl Come Back Now|QID|40908|PRE|40907|M|70.62,48.85|N|From Toryl.|
 $ Small Treasure Chest|QID|43859|M|71.46,49.77|N|At the top of the tower in front of Toryl.|RANK|2|
@@ -996,7 +996,7 @@ R Sashj'tar Ruins|QID|41001|M|81.39,54.08|N|Run over to the Sashj'tar Ruins.|
 C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|S|N|Kill Sashj'tar naga.|
 C Squid Out of Water|QID|41499|M|80.86,56.94|S|NC|N|Destroy Willbreaker Incubators.|
 C Turning the Tidemistress|QID|40336|M|82.39,58.27|QO|1|NC|N|Click on Ballista outline.|
-C Turning the Tidemistress|QID|40336|M|82.64,57.77|QO|2|T|Tidemistress Sasj'tar|N|Hop in the Ballista and fire at Tidemistress Sashj'tar. When it falls apart, fight her normally.|
+C Turning the Tidemistress|QID|40336|M|82.64,57.77|QO|2|T|Tidemistress Sashj'tar|N|Hop in the Ballista and fire at Tidemistress Sashj'tar. When it falls apart, fight her normally.|
 $ Small Treasure Chest|QID|43862|M|83.98,57.64|N|Loot for a bit of treasure and resources.|RANK|2|
 C Squid Out of Water|QID|41499|M|80.86,56.94|US|NC|N|Destroy Willbreaker Incubators.|
 C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|US|N|Finish up killing Sashj'tar naga.|
@@ -1149,7 +1149,7 @@ P Felsoul Hold|QID|40412|ACTIVE|40412|M|33.08,75.14|N|Take the portal back down 
 T Azoran Must Die|QID|40412|M|31.15,84.61|N|To Lyana Darksorrow.|
 t Hounds Abound|QID|40213|M|26.53,71.61|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
 t Exotic Textiles|QID|38971|M|26.63,71.42|P|Tailoring;197|N|To Leyweaver Athystro.|
-H Shal'Aran|QID|42366|M|36.87,46.60|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
+H Shal'Aran|QID|42366|ACTIVE|42366|M|36.87,46.60|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|N|To First Arcanist Thalyssra.|
 
 ; More Leatherworking Quests, with having moved Waning Crescent ABOVE Felsoul Hold, need to put here.
