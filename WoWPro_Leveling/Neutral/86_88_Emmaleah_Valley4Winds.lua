@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2017-02-18 03:07
+-- Who: Blanckaert
+-- Log: fixed a wrong M, and changed a few QO words to Number.
+
+-- URL: http://wow-pro.com/node/3485/revisions/27307/view
 -- Date: 2015-06-30 18:58
 -- Who: Ludovicus
 -- Log: Min level to 86
@@ -253,9 +258,9 @@ A The Moth Rebellion|QID|30059|M|63.55,58.46|N|From Journeyman Chu. Avoid the mu
 C Li Li's Day Off|QID|29950|U|76350|QO|Bring Li Li to the Silken Fields: 1/1|M|62.4,59.2|N|If you lost her, summon her away from the waypoint.|
 A Where Silk Comes From|QID|30072|M|62.67,59.75|N|From Silkmaster Tsai.|
 C The Moth Rebellion|QID|30059|S|M|64.70,62.43|
-C Where Silk Comes From|QID|30072|NC|QO|Mulberry Leaves: 1/1|M|62.47,55.20|N|Pick up a bucket of leaves.|
-C Where Silk Comes From|QID|30072|NC|QO|Hungry Silkworm Fed: 5/5|M|62.4,56.5|N|Under the house.|
-C Where Silk Comes From|QID|30072|NC|M|62.37,62.48|N|Inside the building.|
+C Where Silk Comes From|QID|30072|NC|QO|1|M|62.47,55.20|N|Pick up a bucket of leaves.|
+C Where Silk Comes From|QID|30072|NC|QO|2|M|62.4,56.5|N|Under the house.|
+C Where Silk Comes From|QID|30072|NC|QO|3|M|62.37,62.48|N|Inside the building.|
 C The Moth Rebellion|QID|30059|US|M|64.70,62.43|N|The small moths roam in packs. The larger ones tend to be scarcer, so treat as a target of opportunity.|
 T Where Silk Comes From|QID|30072|M|62.67,59.75|N|To Silkmaster Tsai.|
 T The Moth Rebellion|QID|30059|M|63.55,58.46|N|To Journeyman Chu.|
@@ -327,10 +332,10 @@ r Repair/Restock|QID|30049|M|53.14,51.79|N|Now that we have the Quartermaster ta
 T Doesn't Hold Water|QID|30049|M|54.28,38.74|N|To Mudmug, on the northern exit of the ring road, pacing around his barrels.|
 A The Great Water Hunt|QID|30051|M|54.19,38.65|N|From Mudmug.|
 C The Great Water Hunt|QID|30051|S|NC||M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.|
-K Kill Kracor |QID|32045|T|Kracor|QO|Kracor slain: 1/1|M|55.9,33.9|; Gilded Fan
-K Kill Thundergill |QID|32045|T|Thundergill|QO|Thundergill slain: 1/1|M|55.1,25.9|; Gilded Fan
-K Kill Succula |QID|32045|T|Succula|QO|Succula slain: 1/1|M|51.4,26.9|; The Heartland
-K Kill Manglemaw|QID|30275|T|Manglemaw|M|54.49,25.81|L|79238|N|Killing the cute baby croc gets mom's attention, Kill her too and loot the quest item.|
+K Kill Kracor |QID|32045|T|Kracor|QO|1|M|55.9,33.9|; Gilded Fan
+K Kill Thundergill |QID|32045|T|Thundergill|QO|2|M|55.1,25.9|; Gilded Fan
+K Kill Succula |QID|32045|T|Succula|QO|3|M|51.4,26.9|; The Heartland
+K Kill Manglemaw|QID|30275|T|Manglemaw|M|57.47,25.77|L|79238|N|Killing the cute baby croc gets mom's attention, Kill her too and loot the quest item.|
 A A Crocolisk Tale|QID|30275|M|54.49,25.81|N|From Enormous Crocolisk Tail.|
 C The Great Water Hunt|QID|30051|US|NC|M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.|
 T The Great Water Hunt|QID|30051|M|53.32,32.16|N|To Mudmug, who is right next to you!|
