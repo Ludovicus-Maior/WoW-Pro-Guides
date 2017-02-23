@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/Blanckaert
+-- Date: 2017-02-23 20:54
+-- Who: Emmaleah
+-- Log: Various minor changes. Moved Estate of First Arcanist to middle of Jandvick story line because it is a MUCH easier route to get there if you are a fresh 110. Added PREs to Buy Patterns so it will quit bugging me before I can actually learn the patterns.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28240/view
 -- Date: 2017-01-31 03:30
 -- Who: Blanckaert
 -- Log: minor fixes
@@ -247,11 +252,6 @@
 -- Date: 2016-11-15 03:07
 -- Who: Blanckaert
 -- Log: adjusted T step for 43312, flow might need adjusting again, had A then T then C, instead of A, c, T.
-
--- URL: http://wow-pro.com/node/3687/revisions/28012/view
--- Date: 2016-11-12 04:57
--- Who: Blanckaert
--- Log: adjusted WRONG item to stackable...  re-refixed what I changed.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -749,8 +749,7 @@ T Last Stand of the Moon Guard|QID|40972|M|36.89,46.60|N|To First Arcanist Thaly
 
 ; Crimson Thicket Area
 
-P Sanctum of Order|QID|40798|M|36.69,44.65|N|Take the portal to Sanctum of Order.|
-R The Grand Promenade|QID|40798|M|43.46,61.60;43.85,64.02;43.31,62.30|CS|N|Use your mask (Extra action button) and leave the Sanctum of order to run along the road that encircles Suramar.|
+R The Grand Promenade|QID|40798|M|43.46,61.60;43.85,64.02;43.31,62.30|CS|N|Run along the road that encircles Suramar.|
 T Cling to Hope|QID|40798|M|41.59,56.16|N|To Noressa.|
 K Kill Guardian Thor'el|QID|43597|M|56.08,50.30|ITEM|140404|T|Guardian Thor'el|N|Silver - Guardian Thor'el, *Patrols Area* for a bit of treasure and resources.|RANK|2|
 R Crimson Thicket|QID|42223|M|60.75,52.29|N|Continue on the Grand Promenade until you get to the path to the Crimson Thicket.|
@@ -791,8 +790,8 @@ K Kill Mal'Dreth the Corruptor|QID|43351|M|34.21,60.94|ITEM|140386|T|Mal'Dreth|N
 C A Way Back In|QID|40401|M|41.36,60.68|CHAT|N|Don't forget your mask while wandering around the city. Find and Chat with Astoril.|RANK|2|
 T A Way Back In|QID|40401|M|41.36,60.68|N|To Astoril.|RANK|2|
 A Final Preparations|QID|40469|M|41.36,60.68|N|From Astoril.|PRE|40401|RANK|2|
-A An Artisan's Mark|QID|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
 C Final Preparations|QID|40469|M|42.74,60.01|S|NC|N|Collect crates of Stashed Supplies.|RANK|2|
+A An Artisan's Mark|QID|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
 C An Artisan's Mark|QID|41123|M|42.47,64.99|CHAT|N|Find Daelar Swiftmeadow and ask for the Signet Ring.|RANK|2|
 T An Artisan's Mark|QID|41123|M|41.54,71.17|N|To Lespin Silverleaf.|RANK|2|
 A All That Glitters|QID|41307|PRE|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
@@ -812,8 +811,6 @@ $ Small Treasure Chest|QID|43835|M|54.88,37.80|Z|Suramar/23|N|Loot chest for som
 A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|RANK|2|
 T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|To Unpowered Telemancy Beacon.|RANK|2|
 P Shal'Aran|QID|40470|ACTIVE|40470|M|53.45,37.31|Z|Suramar/23|N|After Killing Astoril, use portal behind you. OR Hearth.|RANK|2|
-C Quality of Life|QID|40470|M|36.87,46.61|QO|3|NC|N|Chat with Thalyssra|RANK|2|
-T Quality of Life|QID|40470|M|36.87,46.61|N|To First Arcanist Thalyssra.|RANK|2|
 P Lunastre Estate|QID|41320|M|36.16,45.02|N|Take the portal to Lunastre Estate.|RANK|2|
 C Pry It From Their Cold, Feral Claws|QID|41320|M|40.54,79.66|S|N|Kill Harpies for the Necklaces.|RANK|2|
 C All That Glitters|QID|41307|M|39.05,83.50|S|NC|N|Loot Arcane Glowlamps off the ground.|RANK|2|
@@ -855,7 +852,7 @@ T Dispensing Compassion|QID|41148|M|48.40,83.28|N|To Vanthir.|
 A The Gondolier|QID|41878|M|48.40,83.28|N|From Vanthir.|RANK|2|PRE|41148|
 A Special Delivery|QID|40947|M|48.28,83.22|N|From Silgryn.|PRE|41148|
 $ Small Treasure Chest|QID|43864|M|50.07,83.85;49.99,84.93|CS|N|Look up from first coordinate to upper floor of tower for grapple point. Loot chest for treasure and resources.|RANK|2|
-B Pattern: Imbued Silkweave Hood|PRE|38970|M|49.4,75.8|LVL|110|P|Tailoring;197|L|127025|N|From Leyweaver Jorjana. (100 Shal'dorei Silk)|RECIPE|185930|
+B Pattern: Imbued Silkweave Hood|PRE|38970|M|49.4,75.8|LVL|110|P|Tailoring;197|L|127025|N|From Leyweaver Jorjana. (100 Shal'dorei Silk)|RECIPE|185930|PRE|38970|
 C The Gondolier|QID|41878|M|51.18,76.15|NC|N|Make Contact with the Gondolier.|
 T The Gondolier|QID|41878|M|51.18,76.15|N|To Deline.|
 A All Along the Waterways|QID|40727|M|51.18,76.15|N|From Deline.|PRE|41878|
@@ -891,6 +888,8 @@ A Friends On the Outside|QID|42487|M|48.40,83.28|N|From Vanthir.|PRE|42486|
 A Wasted Potential|QID|44051|M|47.85,81.52|N|From/To Rosaine|PRE|42486|RANK|2|
 C Friends On the Outside|QID|42487|QO|1|M|47.74,81.39|NC|N|Click to activate Telemancy Beacon.|
 P Shal'Aran|QID|42487|M|47.74,81.39|N|Take the portal to Shal'Aran.|
+C Quality of Life|QID|40470|M|36.87,46.61|QO|3|NC|N|Chat with Thalyssra|RANK|2|
+T Quality of Life|QID|40470|M|36.87,46.61|N|To First Arcanist Thalyssra.|RANK|2|
 C Friends On the Outside|QID|42487|M|36.88,46.60|CHAT|QO|2|N|Select - Offer the Gift-Wrapped Arcwine Bottle.|
 T Friends On the Outside|QID|42487|M|36.88,46.60|N|To First Arcanist Thalyssra.|
 A Thalyssra's Abode|QID|42488|M|36.88,46.60|N|From First Arcanist Thalyssra.|PRE|42487|
@@ -930,6 +929,18 @@ C Band of Blood Brothers|QID|40320|M|68.06,58.33|QO|3|NC|N|All of the vrykyl tha
 C Band of Blood Brothers|QID|40320|M|69.25,57.77|QO|1|NC|N|Find and rescue Katarine.|
 C Band of Blood Brothers|QID|40320|M|68.98,59.85|QO|2|CHAT|N|Find and rescue Fjolrik.|
 C Beach Bonfire|QID|40332|M|70.74,57.26|QO|1|US|NC|N|Pick Driftwood up from the ground. (there is no wood in the cave.)|
+
+R Estate of the First Arcanist|QID|42488|ACTIVE|42488|M|72.20,63.71;71.65,65.61;70.13,64.02;68.14,62.93|CC|QO|1|N|Run down to Thalyssra's Estate.|;moved because of Felbourne outpost is difficult to get thru solo as a new lvl 110.
+K Kill Pinchshank|QID|43968|M|66.66,67.13|ITEM|140402|T|Pinchshank|N|Silver - Kill and loot for treasure and resources, also drops a Hunter's Toy.|RANK|2|
+K Kill Magisterial Sleuths|QID|42488|L|138392 3|S|QO|1|N|Kill the Sleuth's until you have 3 amplifer fragments.|
+A Thalyssra's Drawers|QID|42489|PRE|42487|M|65.70,62.73|N|From Armoire.|RANK|2|
+C Thalyssra's Drawers|QID|42489|M|66.42,63.37|QO|1|NC|N|Pick up Thalyssra's Favorite Robe.|
+C Thalyssra's Drawers|QID|42489|M|65.83,64.83|QO|2|NC|N|Pick up Thalyssra's Favorite Books.|
+C Thalyssra's Drawers|QID|42489|M|64.64,61.57|QO|3|NC|N|Pick up her Private Correspondence.|
+K Kill Magisterial Sleuths|QID|42488|L|138392 3|US|QO|1|N|Kill the Sleuth's until you have 3 amplifer fragments.|
+C Thalyssra's Abode|QID|42488|M|64.64,61.57|U|138392|NC|N|Combine the fragments to create an Arcane Amplifier.|
+
+R Azuregale Cove|QID|40331|M|68.14,62.93;70.13,64.02;71.65,65.61;72.20,63.71|N|Run back to Azuregale Cove to complete the Jandvick Jarl's storyarc.|
 C Bite of the Sashj'tar|QID|40331|M|69.53,60.50|US|N|Finish collecting the Sashj'tar Fangs.|
 C Beach Bonfire|QID|40332|M|72.37,59.33|QO|2|NC|N|Click on Jarl Throndyr's Pyre.|
 T Beach Bonfire|QID|40332|M|72.23,59.14|N|To Brandolf.|
@@ -1007,6 +1018,8 @@ T Squid Out of Water|QID|41499|M|70.57,49.17|N|To Brandolf.|RANK|2|
 T Turning the Tidemistress|QID|40336|M|70.70,48.82|N|To Toryl.|
 B Recipe: Koi-Scented Stormray|PRE|40336|M|71.61,48.87|P|Cooking;185|L|133819|N|From Markus Hjolbruk. (don't forget to learn it.)|RECIPE|201503|
 H Shal'Aran|QID|40297|M|36.56,46.93|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
+T Thalyssra's Abode|QID|42488|M|36.88,46.61|N|To First Arcanist Thalyssra.|
+T Thalyssra's Drawers|QID|42489|M|36.88,46.61|N|To First Arcanist Thalyssra.|
 
 ; Good Suramaritan - Breaking The Lightbreaker (Felsoul Hold) Story Line.
 
@@ -1165,7 +1178,7 @@ t Fel Tanning|QID|40214|M|26.53,71.61|P|Leatherworking;165|N|To Stalriss Dawnrun
 
 ; Quests to fill in while waiting to hit Honoured.
 
-N You are Rep Gated|QID|41107|REP|The Nightfallen;1859;unknown-friendly|N|Next Chain requires Honored, so here are some quests you can do between the World Quests to reach honoured.|RANK|2|
+N You are Rep Gated|QID|41107|REP|The Nightfallen;1859;unknown-friendly|N|Next Chain requires Honored, so here are some quests you can do between the World Quests to reach honoured. Manually check this step off.|RANK|2|
 N Bad Apples|QID|41107|N|Quest is near the Menagerie, either run that way, or use the Sanctum of Order Portal.|RANK|2|
 A Bad Apples|QID|41107|M|42.44,59.32;44.27,56.60;47.25,56.50|CS|N|From Keelay Moongrow|RANK|2|
 A Blast of Spice Fish|QID|41256|M|47.25,56.50|N|From Keelay Moongrow|RANK|2|
@@ -1195,7 +1208,6 @@ C Shalassic Park|QID|43582|M|47.01,53.04|NC|QO|1|N|Release Su'esh, by right clic
 C Shalassic Park|QID|43582|M|52.02,55.71|QO|2|N|Escape the Menagerie, run the 'saur to this point|RANK|2|
 C Shalassic Park|QID|43582|M|56.05,56.49|QO|3|N|Adversaries slain - trample or eat the demons till you get 50.|RANK|2|
 T Shalassic Park|QID|43582|M|50.71,56.60|N|To Nighteyes, back in the water.|RANK|2|
-K Kill Degren|QID|43792|M|54.43,56.13|T|Degren|N|Silver - Noble Blademaster, for a bit of treasure and resources.|RANK|2|
 
 ; Good Suramaritan - Blood and Wine storyline. Requires Honored
 
@@ -1295,6 +1307,7 @@ C Death Becomes Him|QID|43315|M|56.64,60.73|N|Kill Ruven, down at canal level.|T
 T Death Becomes Him|QID|43315|M|57.13,60.76|N|To Arluin.|
 A Rumor Has It|QID|43313|M|57.13,60.76|N|From Arluin.|PRE|43315|
 C Rumor Has It|QID|43313|M|58.80,61.86;59.21,58.13|CS|CHAT|N|Up the stairs and across the bridge to see the Distraught Noble.|
+K Kill Degren|QID|43792|M|54.43,56.13|T|Degren|N|Silver - Noble Blademaster, for a bit of treasure and resources.|RANK|2|
 C Rumor Has It|QID|43313|M|61.90,62.39|CHAT|N|Talk to a Disgruntled Servant.|
 C Rumor Has It|QID|43313|M|58.72,65.45|CHAT|N|Talk to a Shamed Noble.|
 T Either With Us|QID|43310|M|53.41,59.21;57.54,57.63|CS|N|Back down and around to find Aurore.|
@@ -1442,9 +1455,9 @@ T Visitor in Shal'Aran|QID|44955|M|36.50,46.78|N|To First Arcanist Thalyssra.|
 
 ; Tailoring Purchase of plans Need Exalted.
 
-B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137973|N|To First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185954|REP|The Nightfallen;1859;Exalted|
-B Pattern: Imbued Silkweave Pantaloons|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137976|N|To First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185957|REP|The Nightfallen;1859;Exalted|
-B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137979|N|To First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185960|REP|The Nightfallen;1859;Exalted|
+B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137973|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185954|REP|The Nightfallen;1859;Exalted|PRE|38970|
+B Pattern: Imbued Silkweave Pantaloons|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137976|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185957|REP|The Nightfallen;1859;Exalted|PRE|38974|
+B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137979|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185960|REP|The Nightfallen;1859;Exalted|PRE|38970|
 
 ; Insurrection - Missing Persons Storyline Quests.
 
