@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/Blanckaert
+-- Date: 2017-02-24 20:25
+-- Who: Emmaleah
+-- Log: Removed the duplicate PRE Tags. (My bad, didn't see them) B Pattern Panteloons now has corrected PRE tag
+
+-- URL: http://wow-pro.com/node/3687/revisions/28255/view
 -- Date: 2017-02-23 20:54
 -- Who: Emmaleah
 -- Log: Various minor changes. Moved Estate of First Arcanist to middle of Jandvick story line because it is a MUCH easier route to get there if you are a fresh 110. Added PREs to Buy Patterns so it will quit bugging me before I can actually learn the patterns.
@@ -247,11 +252,6 @@
 -- Date: 2016-11-16 00:42
 -- Who: Blanckaert
 -- Log: Added Quests as of 11/15
-
--- URL: http://wow-pro.com/node/3687/revisions/28017/view
--- Date: 2016-11-15 03:07
--- Who: Blanckaert
--- Log: adjusted T step for 43312, flow might need adjusting again, had A then T then C, instead of A, c, T.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -852,7 +852,7 @@ T Dispensing Compassion|QID|41148|M|48.40,83.28|N|To Vanthir.|
 A The Gondolier|QID|41878|M|48.40,83.28|N|From Vanthir.|RANK|2|PRE|41148|
 A Special Delivery|QID|40947|M|48.28,83.22|N|From Silgryn.|PRE|41148|
 $ Small Treasure Chest|QID|43864|M|50.07,83.85;49.99,84.93|CS|N|Look up from first coordinate to upper floor of tower for grapple point. Loot chest for treasure and resources.|RANK|2|
-B Pattern: Imbued Silkweave Hood|PRE|38970|M|49.4,75.8|LVL|110|P|Tailoring;197|L|127025|N|From Leyweaver Jorjana. (100 Shal'dorei Silk)|RECIPE|185930|PRE|38970|
+B Pattern: Imbued Silkweave Hood|PRE|38970|M|49.4,75.8|LVL|110|P|Tailoring;197|L|127025|N|From Leyweaver Jorjana. (100 Shal'dorei Silk)|RECIPE|185930|
 C The Gondolier|QID|41878|M|51.18,76.15|NC|N|Make Contact with the Gondolier.|
 T The Gondolier|QID|41878|M|51.18,76.15|N|To Deline.|
 A All Along the Waterways|QID|40727|M|51.18,76.15|N|From Deline.|PRE|41878|
@@ -1455,9 +1455,9 @@ T Visitor in Shal'Aran|QID|44955|M|36.50,46.78|N|To First Arcanist Thalyssra.|
 
 ; Tailoring Purchase of plans Need Exalted.
 
-B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137973|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185954|REP|The Nightfallen;1859;Exalted|PRE|38970|
-B Pattern: Imbued Silkweave Pantaloons|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137976|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185957|REP|The Nightfallen;1859;Exalted|PRE|38974|
-B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137979|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185960|REP|The Nightfallen;1859;Exalted|PRE|38970|
+B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137973|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185954|REP|The Nightfallen;1859;Exalted|
+B Pattern: Imbued Silkweave Pantaloons|PRE|38974|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137976|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185957|REP|The Nightfallen;1859;Exalted|
+B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137979|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185960|REP|The Nightfallen;1859;Exalted|
 
 ; Insurrection - Missing Persons Storyline Quests.
 
