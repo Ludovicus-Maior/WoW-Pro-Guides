@@ -3,38 +3,6 @@
 --------------------------------------
 	
 local L = WoWPro_Locale
-WoWPro.Profession.actiontypes = {
-	A = "Interface\\GossipFrame\\AvailableQuestIcon",
-	C = "Interface\\Icons\\Ability_DualWield",
-	T = "Interface\\GossipFrame\\ActiveQuestIcon",
-	K = "Interface\\Icons\\Ability_Creature_Cursed_02",
-	R = "Interface\\Icons\\Ability_Tracking",
-	H = "Interface\\Icons\\INV_Misc_Rune_01",
-	h = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
-	F = "Interface\\Icons\\Ability_Druid_FlightForm",
-	N = "Interface\\Icons\\INV_Misc_Note_01",
-	B = "Interface\\Icons\\INV_Misc_Coin_01",
-	b = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
-	U = "Interface\\Icons\\INV_Misc_Bag_08",
-	l = "Interface\\Icons\\INV_Misc_Bag_08",
-	r = "Interface\\Icons\\Ability_Repair"
-}
-WoWPro.Profession.actionlabels = {
-	A = "Accept",
-	C = "Complete",
-	T = "Turn in",
-	K = "Kill",
-	R = "Run to",
-	H = "Hearth to",
-	h = "Set hearth to",
-	F = "Fly to",
-	N = "Note:",
-	B = "Buy",
-	b = "Boat or Zeppelin",
-	U = "Use",
-	l = "Loot",
-	r = "Repair/Restock"
-}
 
 -- Determine Next Active Step (Profession Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
@@ -86,7 +54,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 	-- Break down the current step and re-create
 	if prof then
 		local profname, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",prof)
-		if proflvl == '*' then proflvl = 600 end -- Set to the maximum level obtainable in the expansion plus 1
+		if proflvl == '*' then proflvl = 801 end -- Set to the maximum level obtainable in the expansion plus 1
 		proflvl = tonumber(proflvl) or 1
 		profmaxlvl = tonumber(profmaxlvl) or 0
 		profmaxskill = tonumber(profmaxskill) or 0
@@ -95,10 +63,15 @@ function WoWPro.Profession:PreRowUpdate(row)
 			profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
 			for p=1,6 do
 				if profs[p] then
-					local skillName, skillLoc, skillRank, maxskill, _, _, skillnum = GetProfessionInfo(profs[p])
+					local skillName, skillLoc, skillRank, maxskill, _, _, skillnum, rankModifier = GetProfessionInfo(profs[p])
 					if (tonumber(skillnum) == tonumber(profnum)) then
+					    if WoWPro.action[k] == "M" then
+							proflvl = math.max(proflvl-rankModifier,1)
+							profmaxlvl = math.max(profmaxlvl-rankModifier,1)
+						end
 						local craft, skill = string.split(":",step)
 						row.targeticon:SetTexture(skillLoc)
+						-- How take racial bonuses into account using rankModifier
 						local numMATs = select("#", string.split(":", mat))
 						local m = {}
 						m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = string.split(":",mat)
@@ -112,8 +85,8 @@ function WoWPro.Profession:PreRowUpdate(row)
 								end
 								WoWPro.Profession:dbp("Qty %s, k=%d",tostring(Qty),k)
 								local skillpoints = (profmaxlvl - proflvl)/(Mats/Qty)
-								Mats = (((profmaxlvl - skillRank)/skillpoints) * Qty)
-								Tot = Tot - (((skillRank - proflvl)/skillpoints) * Qty)
+								Mats = Tot - ((( profmaxlvl - skillRank )/skillpoints) * Qty)
+								-- Tot = Tot - (((skillRank - proflvl)/skillpoints) * Qty)
 								if j == 1 then
 									WoWPro.step[k] = craft..': Craft these from '.. skillRank .. ' to '.. profmaxlvl
 									WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)
