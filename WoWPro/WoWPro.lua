@@ -654,19 +654,23 @@ RegisterClass("DEMONHUNTER")
 
 function WoWPro:GuideClassSpecific(guide,class)
     local locClass, engClass = UnitClass("player")
-    if WoWPro.DebugLevel > 0 then
-        return -- Allow developers to check everything
-    end
+
     class = strupper(class)
+    guide.icon = "Interface\Glues\CharacterCreate\UI-CharacterCreate-Classes"
+    guide.icon_offsets = CLASS_ICON_TCOORDS[class]
+    guide.class = class
+
     if not ValidClass[class] then
         WoWPro:Error("For guide %s, Invalid class of %s used in GuideClassSpecific()", guide.GID, class)
     end
     engClass = strupper(engClass)
+
+    if WoWPro.DebugLevel > 0 then
+        return -- Allow developers to check everything
+    end
     if engClass ~= class then
         WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't match", guide.GID)
     end
-    guide.icon = "Interface\Glues\CharacterCreate\UI-CharacterCreate-Classes"
-    guide.icon_offsets = CLASS_ICON_TCOORDS[class]
 end
 
 function WoWPro:GuidePetBattle(guide)
@@ -694,12 +698,23 @@ function WoWPro:GuideNextGuide(guide,nextGID)
 end
 
 function WoWPro:GuideAutoSwitch(guide)
+    local locClass, engClass = UnitClass("player")
+
+    if guide.class and engClass ~= guide.class then
+        -- Developers can peek, but should not AutoSwitch on the class specific guides if they are not for them
+        return
+    end
     guide['AutoSwitch'] = true
     if not WoWProDB.global.Guide2QIDs[guide.GID] or WoWPro.Version ~= WoWProDB.global.Guide2QIDs[guide.GID]  then
         WoWPro.Guides2Register = WoWPro.Guides2Register or {}
         table.insert(WoWPro.Guides2Register, guide.GID)
         WoWPro:dbp("Add %s to Guides2Register.", guide.GID)
     end 
+end
+
+function WoWPro.GuideAutoSwitchReset()
+    WoWProDB.global.Guide2QIDs = {}
+    WoWProDB.global.QID2Guide ={}
 end
 
 function WoWPro:GuideSteps(guide,steps)
