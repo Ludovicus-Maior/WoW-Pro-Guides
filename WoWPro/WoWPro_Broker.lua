@@ -829,7 +829,7 @@ function WoWPro.NextStep(k,i)
 		-- Skipping profession quests if their requirements aren't met --
 		if WoWPro.prof[k] and not skip then
 			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
-			if proflvl == '*' then proflvl = 700 end -- Set to the maximum level obtainable in the expansion plus 1
+			if proflvl == '*' then proflvl = 801 end -- Set to the maximum level obtainable in the expansion plus 1
 			proflvl = tonumber(proflvl) or 1
 			profmaxlvl = tonumber(profmaxlvl) or 0
 			profmaxskill = tonumber(profmaxskill) or 0
@@ -839,7 +839,6 @@ function WoWPro.NextStep(k,i)
                     proflvl = 1
                 end	    
 			end
-
 			if type(prof) == "string" and type(proflvl) == "number" then
 				local hasProf = false
 				skip = true --Profession steps skipped by default
@@ -847,12 +846,31 @@ function WoWPro.NextStep(k,i)
 				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
 				for p=1,6 do
 					if profs[p] then
-						local skillName, _, skillRank, maxskill, _, _, skillnum = GetProfessionInfo(profs[p])
+						local skillName, _, skillRank, maxskill, _, _, skillnum, rankModifier = GetProfessionInfo(profs[p])
 						if (tonumber(skillnum) == tonumber(profnum)) then
 							hasProf = true
-							if (profmaxlvl == 0) and (skillRank >= proflvl) then skip = false end
-							if (profmaxlvl > 0) and (skillRank < profmaxlvl) then skip = false end
-							if (profmaxskill > 0) and (profmaxskill > maxskill) then skip = false end
+							if WoWPro.action[k] == "M" then
+							    proflvl = math.max(proflvl-rankModifier,1)
+							    profmaxlvl = math.max(profmaxlvl-rankModifier,1)
+							end
+							WoWPro:dbp("Prof prof=%s,%d level=%d, max_level=%d, max_skill=%d",  prof, profnum, proflvl, profmaxlvl, profmaxskill)
+							WoWPro:dbp("GetProfessionInfo() = %s, skillRank=%d, maxskill=%d, skillnum=%d", skillName, skillRank, maxskill, skillnum)
+							if (profmaxlvl == 0) and (skillRank >= proflvl) then
+							    WoWPro.why[k] = "NextStep(): profmaxlvl == 0 and skillRank >= proflvl"
+							    WoWPro:dbp( WoWPro.why[k])
+							    skip = false
+							end
+							if (profmaxlvl > 0) and (skillRank < profmaxlvl) then
+							    WoWPro.why[k] = "NextStep(): profmaxlvl > 0 and skillRank < profmaxlvl"
+							    WoWPro:dbp( WoWPro.why[k])
+							    skip = false
+							end
+							if (profmaxskill > 0) and (profmaxskill < maxskill) then
+							    WoWPro.why[k] = "NextStep(): profmaxlvl > 0 and profmaxskill < maxskill"
+							    WoWPro:dbp( WoWPro.why[k])
+							    skip = true
+							end
+							WoWPro:dbp("prof skip = %s", tostring(skip))
 						end
 					end
 				end
@@ -1857,7 +1875,7 @@ StaticPopupDialogs["WOWPRO_CONFIRMPICK"] = {
 
 
 function WoWPro.PickQuestline(qid, step)
-    if qid then
+    if step then
         StaticPopupDialogs["WOWPRO_CONFIRMPICK"].text = string.format("Select quest [%s] (QID %s) and all prerequisites?",step,tostring(qid))
         StaticPopup_Show("WOWPRO_CONFIRMPICK")
     else
