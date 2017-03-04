@@ -29,4 +29,5 @@
   <Script file="Lare_PetLvl.lua"/>
   <Script file="Lare_PetTamersDrae.lua"/>
   <Script file="Lare_PetTinyTerrors.lua"/>
+  <Script file="Lare_PetWQ.lua"/>
 </Ui>

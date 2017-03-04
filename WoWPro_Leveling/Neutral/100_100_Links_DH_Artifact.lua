@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_artifact_and_class_hall
--- Date: 2017-01-10 20:57
+-- Date: 2017-02-18 03:16
 -- Who: Blanckaert
 -- Log: add the Obliterum forge chain, and the part about Light's heart, need DH coords for turnin.
 
@@ -239,7 +239,7 @@ T Green Adepts|QID|42808|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHa
 
 A Khadgar's Discovery|QID|39985|M|60.92,44.73|Z|Dalaran@Dalaran70|N|Upon arriving in Dalaran and being level 110 from a UI Alert.|LVL|110|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
-C In the House of Light and Shadow|QID|44448|M|47.28,43.46|NC|N|* Coords are WRONG, will update.\nBefore you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
+C In the House of Light and Shadow|QID|44448|M|58.70,43.02|NC|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
 A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|From Camille Kleister. First quest in chain to open up Obliterum Forge. Left Click to skip this if Trade Skills arent important to you.|LVL|110|
 C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|NC|N|Toss water on the fire.|
 T Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|To Camille Kleister.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2017-02-27 20:19
+-- Who: Emmaleah
+-- Log: Changed several PRE tags from "and" (;) to "or"(+) and a few vice versa.
+
+-- URL: http://wow-pro.com/node/3670/revisions/28225/view
 -- Date: 2017-01-10 21:04
 -- Who: Blanckaert
 -- Log: Added: Obliterum Chain
@@ -233,7 +238,7 @@ T Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To 
 A Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
 t Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 B Arkhana|QID|42408|L|124440 20|N|Acquire 20 arkhana from your nearby friendly enchanter, Action House, guild bank... somewhere, you will need it for a quest soon.|
 F Trueshot Lodge|QID|44448|M|72.93,41.13|Z|Dalaran@Dalaran70|N|Talk to Talua for a quick flight to Trueshot Lodge.|
 C In the House of Light and Shadow|QID|44448|M|47.28,43.46|NC|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
@@ -274,7 +279,7 @@ A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archma
 C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
 T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 
-A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Trail of Echos|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
@@ -341,13 +346,13 @@ C Ore Under the Sea|QID|42655|M|0,0|Z|Suramar|N|Go to Suramar and "mine" the ore
 C Nightmare Oak|QID|42654|NA|N|Hopefully you have run Darkheart Thicket.|
 T Ore Under the Sea|QID|42655|M|43.18,6.02|N|To Halduron Brightwing.|
 T Nightmare Oak|QID|42654|M|43.18,6.02|N|To Halduron Brightwing.|
-A Azure Weaponry|QID|42656|M|43.18,6.02|N|From Halduron Brightwing.|PRE|42654+42655|
+A Azure Weaponry|QID|42656|M|43.18,6.02|N|From Halduron Brightwing.|PRE|42654;42655|
 P Dalaran|QID|42656|M|48.62,43.48|N|Take the Dalaran portal to find Blacksmith Kyriel.|ACTIVE|42656|
 C Azure Weaponry|QID|42656|M|44.40,28.42|Z|Dalaran@Dalaran70|NC|N|Walk into the blacksmithing shop and hang out for a min or so.|
 B Arkhana|QID|42408|L|124440 20|N|Acquire 20 arkhana from your nearby friendly enchanter, Action House, guild bank... somewhere, you will need it for a quest soon.|
 T Required Reagents|QID|42408|M|46.35,34.97|N|Return to your lodge and turn this in to Shandris Feathermoon.|
 T Azure Weaponry|QID|42656|M|46.35,34.97|N|To Shandris Feathermoon.|
-A Meeting in Moonclaw Vale|QID|42657|M|46.35,34.97|N|From Shandris Feathermoon.|PRE|42656+42408|
+A Meeting in Moonclaw Vale|QID|42657|M|46.35,34.97|N|From Shandris Feathermoon.|PRE|42656;42408|
 F Lorlathil|QID|42657|QO|1|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|42657|
 R Moonclaw Vale|QID|42657|QO|1|M|55.04,74.59;59.69,74.83|CS|Z|Val'sharah|N|Follow the road to Moonclaw Vale.|ACTIVE|42657|
 T Meeting in Moonclaw Vale|QID|42657|M|61.30,71.27;60.12,72.22|CS|Z|Val'sharah|N|To Lyana Stardust.|
@@ -359,7 +364,7 @@ C Leading by Example|QID|44680|N|You progress on your order hall is held up unti
 T The Missing Vessel|QID|43182|M|42.85,25.65|N|If you haven't yet, pick up your rewards from the mission and then go to Khadgar to turn in.|
 T Same Day Delivery|QID|42133|M|43.37,26.33|N|To Emmarel Shadewarden.|
 T Leading by Example|QID|44680|M|43.37,26.33|N|To Emmarel Shadewarden.|
-A In Defense of Dalaran|QID|42659|M|43.37,26.33|N|From Emmarel Shadewarden.|PRE|43182+44680|;and maybe pre 42123?
+A In Defense of Dalaran|QID|42659|M|43.37,26.33|N|From Emmarel Shadewarden.|PRE|43182;44680|;and maybe pre 42133?
 C In Defense of Dalaran|QID|42659|QO|1|M|42.85,25.65|CHAT|N|Tell Khadgar you are ready to go.|
 C In Defense of Dalaran|QID|42659|QO|2|M|43.10,26.17|NC|N|Take Khadgar's provided portal to enter the scenario.|
 C Arcane Essense|QID|42659|SO|1|M|51.72,69.72|Z|TheVioletHoldAcquisition/1|CHAT|N|Tell Khadgar you are ready.|
@@ -432,7 +437,7 @@ C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|
 T Destiny Unfulfilled|QID|44481;44496;44497|M|47.28,43.46|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|47.28,43.46|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481;44496;44497|
+A The Hunt for Illidan Stormrage|QID|45174|M|47.28,43.46|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481+44496+44497|
 F Illidari Stand|QID|45174|QO|1|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|45174|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
 A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|PRE|45174|
@@ -476,7 +481,7 @@ T Call of the Marksman|QID|40392|M|32.27,32.41|Z|Broken Shore|N|To Vereesa Windr
 A Clandestine Operation|QID|40400;40402;40403|M|32.27,32.41|Z|Broken Shore|N|From Vereesa Windrunner.|PRE|40392|
 C Clandestine Operation|QID|40400;40402;40403|QO|1|M|32.27,32.41|Z|Broken Shore|N|Listen to Vereesa Windrunner.|CHAT|
 T Clandestine Operation|QID|40400;40402;40403|M|32.27,32.41|Z|Broken Shore|N|To Vereesa Windrunner.|
-A Rescue Mission|QID|40419|M|32.27,32.41|Z|Broken Shore|N|From Vereesa Windrunner.|PRE|40400;40402;40403|
+A Rescue Mission|QID|40419|M|32.27,32.41|Z|Broken Shore|N|From Vereesa Windrunner.|PRE|40400+40402+40403|
 C Rescue Mission|QID|40419|QO|1|M|32.27,32.41|Z|Broken Shore|N|Speak to Vereesa and begin the mission.|CHAT|
 C Rescue Mission|QID|40419|QO|2|M|16.20,52.47|Z|Broken Shore|N|Travel through the portal to Niskara.|NC|
 C The Rescue|QID|40419|SO|1|Z|Niskara|N|Survey the rise ahead and eliminate Legion patrols.|
