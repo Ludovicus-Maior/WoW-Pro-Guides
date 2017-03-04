@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2017-03-04 18:52
+-- Who: Blanckaert
+-- Log: fixed ; + switch on QID 44448
+
+-- URL: http://wow-pro.com/node/3671/revisions/28228/view
 -- Date: 2017-01-10 21:09
 -- Who: Blanckaert
 -- Log: Added: Obliterum Quest Chain
@@ -427,7 +432,7 @@ T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|Hall of the Guardian@MageClassShri
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|57.37,90.31|Z|Hall of the Guardian@MageClassShrine|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
 
 ; LVL 110 Quests
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Library@MageClassShrine|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
 A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|From Camille Kleister.|LVL|110|
 C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|Toss water on the fire.|

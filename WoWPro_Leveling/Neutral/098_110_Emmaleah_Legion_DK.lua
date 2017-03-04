@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2017-03-04 18:55
+-- Who: Blanckaert
+-- Log: Fix QID 44448 wrong modifier from ; to +
+
+-- URL: http://wow-pro.com/node/3668/revisions/28223/view
 -- Date: 2017-01-10 20:59
 -- Who: Blanckaert
 -- Log: Added Obliterum forge quests

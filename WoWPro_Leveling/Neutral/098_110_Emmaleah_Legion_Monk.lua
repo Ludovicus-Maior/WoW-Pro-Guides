@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2017-03-04 19:08
+-- Who: Blanckaert
+-- Log: Fix QID 44448 PRE ; + switch
+
+-- URL: http://wow-pro.com/node/3672/revisions/28245/view
 -- Date: 2017-01-24 03:19
 -- Who: Emmaleah
 -- Log: missed a return  just before F Valdidall
@@ -205,7 +210,7 @@ t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To 
 A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
 t Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 R Windrunner's Sanctuary|QID|44448|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Horde|LVL|110|
 R Graymane Enclave|QID|44448|M|39.2,57.2|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Alliance|LVL|110|
 C In the House of Light and Shadow|QID|44448|M|52.37,69.37|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|

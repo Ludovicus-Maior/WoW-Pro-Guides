@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2017-03-04 18:58
+-- Who: Blanckaert
+-- Log: fix the QID 44448 using ; instead of +, some other quests added for warrior...  (Cheated and cut and pasted whole guide again)
+
+-- URL: http://wow-pro.com/node/3677/revisions/28250/view
 -- Date: 2017-01-31 01:06
 -- Who: Blanckaert
 -- Log: I dont know what I edited etc.. so I just replaced whole guide. 
@@ -199,14 +204,18 @@ A Hitting the Books|QID|43888|M|45.13,28.18|N|From Fjornson Stonecarver.|LVL|110
 C Hitting the Books|QID|43888|M|45.13,28.18|N|At Fjornson Stonecarver. This is probably your highest priority to fund for a bit. Keep putting your order hall resources into Artifact research.  When you pick up the research, you need to "Use" the scroll to acquire the knowledge.|
 T Hitting the Books|QID|43888|M|45.13,28.18|N|To Juvess the Duskwhisperer.|
 A Message to Helya|QID|43586|M|58.32,82.86|N|From Odyn.|LVL|110|
-t Message to Helya|QID|43586|M|58.32,82.86|N|To Odyn.|
+A The Might of the Val'kyr|QID|44222|M|73.17,30.50|LVL|110|N|From Matilda Skoptidottir, IF you select the Val'kyr Call Order Advancement V, for your Order Hall.|
+C The Might of the Val'kyr|QID|44222|M|71.95,31.26|L|140147|N|Click on the Blessing of Mjolnir, to collect it.|
+C The Might of the Val'kyr|QID|44222|M|71.95,31.26|N|Open your World Map, and use the item to complete a World Quest.|
+t The Might of the Val'kyr|QID|44222|M|73.17,30.50|N|To Matilda Skoptidottir.|
+
 C Goddess Watch over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
 R Dalaran|QID|44337;44338|ACTIVE|44337;44338|M|58.58,25.35|CHAT|N|Ask Aerylia to sent you to Dalaran.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
 t Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 R Skyhold|QID|44448|M|75.19,47.20|Z|Dalaran@Dalaran70|QO|1|N|Jump to Skyhold|ACTIVE|44448|LVL|110|
 C In the House of Light and Shadow|QID|44448|M|45.40,30.03|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
 A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|NC|N|From Camille Kleister.|LVL|110|
@@ -247,9 +256,57 @@ C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of O
 T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 
 ;post 110 order hall progression
-A Champion Armaments|QID|44221|AVAILABLE|44221|M|61.95,26.00|N|From Haklang Ulfsson.|
+A Champion Armaments|QID|44221|AVAILABLE|44221|LVL|110|M|61.95,26.00|N|From Haklang Ulfsson.|
 C Champion Armaments|QID|44221|M|61.95,26.00|CHAT|N|Start work order.|
 T Champion Armaments|QID|44221|M|61.95,26.00|N|To Haklang Ulfsson.|
+t Message to Helya|QID|43586|M|58.32,82.86|N|To Odyn.|
+A Maw of Souls: Ymiron's Broken Blade|QID|43604|ACTIVE|43604|LVL|110|N|UI Alert, while in dungeon.|
+C Maw of Souls: Ymiron's Broken Blade|QID|43604|M|58.32,82.86|CHAT|N|Tell Odyn that:\n"King Ymiron has been defeated. He Fought fiercely."\n Then: "I want him to join our army."\nThen: "That may be, but..."\nThen: "Thank You."|
+t Maw of Souls: Ymiron's Broken Blade|QID|43604|M|58.32,82.86|N|To Odyn.|
+A Ulduar's Oath|QID|43090|M|58.32,82.86|LVL|110|N|From Odyn.|
+C Ulduar's Oath|QID|43090|M|58.32,82.86|QO|1|N|Just stand by.|
+P Ulduar|QID|43090|ACTIVE|43090|QO|2|M|58.59,24.98|CHAT|N|Speak with Aerylia, to go to Ulduar.|
+C Demons, Demons, Everywhere...|Z|Ulduar|SO|1|N|Fight your way to the Observation Ring|
+C Small But Mighty|Z|Ulduar|SO|2|N|Follow the Iron Dwarf|
+C Follow Dvalen Ironrune|M|71.93,63.78|Z|The Observation Ring@UlduarMagni|SO|2;1|N|Follow Dvalen Ironrune|
+C Use your strength to force Hodir's door to open|M|74.22,64.71|Z|The Observation Ring@UlduarMagni|SO|3;1|N|Grab a chain, and Use your strength to force Hodir's door to open|
+C Kill the demons attacking Hodir and talk to him|M|67.13,64.10|Z|The Observation Ring@UlduarMagni|SO|4;1|N|Kill the demons attacking Hodir and talk to him|
+C Speak to Hodir and then follow him to the Clash of Thunder|M|68.18,47.39|Z|The Observation Ring@UlduarMagni|SO|5;1|N|Speak to Hodir and then follow him to the Clash of Thunder|
+C Take the tunnel to the north to reach Thorim|M|80.57,38.12|Z|The Observation Ring@UlduarMagni|SO|6;1|N|Take the tunnel to the north to reach Thorim, spider attacks!|
+C Thorim Rescued|M|72.32,48.30|Z|The Observation Ring@UlduarMagni|SO|7;1|N|Thorim Rescued|
+C Speak with Thorim|M|72.03,48.31|Z|The Observation Ring@UlduarMagni|SO|8;1|N|Speak with Thorim|
+C Ulduar's Oath|QID|43090|M|72.03,48.31|Z|The Observation Ring@UlduarMagni|QO|3|N|The Defense of Ulduar|
+t Ulduar's Oath|QID|43090|M|58.32,82.86|N|To Odyn.|
+A Demonic Runes|QID|42918|PRE|43090|M|58.44,83.98|N|From Odyn.|
+A Will of the Valarjar|QID|44667|PRE|43090|M|58.44,83.98|N|From Odyn.|
+t Will of the Valarjar|QID|44667|M|58.44,83.98|N|To Odyn.|
+A Champion: Dvalen Ironrune|QID|42616|PRE|43090|M|57.33,75.13|N|From / To Dvalen Ironrune.|
+t Demonic Runes|QID|42918|M|58.44,83.98|N|To Odyn.|
+A Black Rook Hold: Greater Power|QID|43506|PRE|42918|M|58.44,83.98|N|From Odyn.|
+t Black Rook Hold: Greater Power|QID|43506|M|58.44,83.98|N|To Odyn.|
+A Capturing the Gateway|QID|43577|PRE|43506|M|58.44,83.98|N|From Odyn.|
+A Champion: Thorim|QID|42618|PRE|42616|M|59.49,75.74|N|From / To Thorim.|
+C Capturing the Gateway|QID|43577|M|58.93,13.30|N|Complete the required Missions.|
+t Capturing the Gateway|QID|43577|M|58.44,83.98|N|To Odyn.|
+A The Fate of Hodir|QID|42974|PRE|43577|M|58.44,83.98|N|From Odyn.|
+P Azsuna|QID|42974|ACTIVE|42974|M|58.59,24.98|QO|1|CHAT|N|Speak with Aerylia, to send you to Dalaran.|
+F Felblaze Ingress|QID|42974|ACTIVE|42974|M|69.84,51.14|Z|Dalaran@Dalaran70|QO|1|N|Fly to Felblaze Ingress, at Aludane Whitecloud.|
+C The Fate of Hodir|QID|42974|M|65.90,28.32|Z|Azsuna|QO|1|N|Join your forces at Felblaze Ingress|
+C The Fate of Hodir|QID|42974|M|65.90,28.32|Z|Azsuna|QO|2|CHAT|N|Speak to Hymdall|
+C The Final Battle|Z|Niskara|SO|1|N|Ascend into the gates of Niskara.|
+C Defeat the Felbat Riders|Z|Niskara|SO|2|N|Leap on Felbats and defeat their riders. Use Special Action Button.|
+C Eredar Warlocks defeated|M|31.10,48.26|Z|Niskara|SO|2;1|N|Eredar Warlocks defeated|
+C Dive near Thorim.|M|47.88,55.75|Z|Niskara|SO|3;1|N|Dive near Thorim. Use Special Action Button.|
+C Assist Thorim in combat.|M|47.90,55.54|Z|Niskara|SO|4;1|N|Assist Thorim in combat.|
+C Defeat the Hateful Corruptors.|M|63.80,62.18|Z|Niskara|SO|5;1|N|Defeat the Hateful Corruptors.|
+C Defeat Hodir.|M|63.70,60.51|Z|Niskara|SO|6;1|N|Defeat Hodir. Once Lady Ran'zara, shows up, Kill her instead.|
+C The Fate of Hodir|QID|42974|M|63.70,60.51|Z|Niskara|QO|3|N|Fate of Hodir. Use Portal to return to Hall, Portal *MIGHT* be under Hodir.|
+T The Fate of Hodir|QID|42974|M|58.44,83.98|N|To Odyn.|
+A Champion: Hodir|QID|42619|PRE|42974|M|59.57,78.71|N|From / To Hodir.|
+A A Hero's Weapon|QID|43425|PRE|42974|M|58.44,83.98|N|From Odyn.|
+C A Hero's Weapon|QID|43425|M|43.55,36.15|QO|1|N|Meet Odyn, by the Forge.|
+C A Hero's Weapon|QID|43425|M|41.35,35.82|QO|2|N|Artifact Reshaped, using Special Action Button.|
+T A Hero's Weapon|QID|43425|M|43.96,33.48|N|To Odyn.|
 
 ;lights heart - post 110
 A Awakenings|QID|44464|M|45.31,30.30|N|From Light's Heart|PRE|44448|LVL|110|
@@ -322,6 +379,11 @@ F Illidari Stand|QID|45174|QO|1|M|48.43,28.05|Z|Azsuna|N|At Dagrona.|ACTIVE|4517
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
 A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|PRE|45174|
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|;guessing on turn in
+
+A The Power Within|QID|43496|M|45.45,45.04|N|From Image of Kalec. This appears up to 48 hours after you finish class order campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
+F Azsuna|QID|43496|ACTIVE|43496|M|58.59,24.98|N|Speak with Aerylia to go to Azsuna.|
+T The Power Within|QID|43496|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
 ;2nd spec artifact
 ;3rd spec artifact

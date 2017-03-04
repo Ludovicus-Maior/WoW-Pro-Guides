@@ -3,7 +3,17 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/Blanckaert
+-- URL: http://wow-pro.com/wiki/suramar_guide
+-- Date: 2017-03-04 19:32
+-- Who: Blanckaert
+-- Log: added missing CS tag
+
+-- URL: http://wow-pro.com/node/3687/revisions/28258/view
+-- Date: 2017-03-04 18:49
+-- Who: Blanckaert
+-- Log: some minor changes, had more but cant remember which and didn't just want to cut and paste my whole guide.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28256/view
 -- Date: 2017-02-24 20:25
 -- Who: Emmaleah
 -- Log: Removed the duplicate PRE Tags. (My bad, didn't see them) B Pattern Panteloons now has corrected PRE tag
@@ -243,16 +253,6 @@
 -- Who: Blanckaert
 -- Log: I'd a dolt, forgot the OTHER quest she gave. Now I think I'd caught up.
 
--- URL: http://wow-pro.com/node/3687/revisions/28044/view
--- Date: 2016-11-23 03:53
--- Who: Blanckaert
--- Log: Added quest available on 11/22/2016.
-
--- URL: http://wow-pro.com/node/3687/revisions/28022/view
--- Date: 2016-11-16 00:42
--- Who: Blanckaert
--- Log: Added Quests as of 11/15
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideAutoSwitch(guide)
@@ -295,8 +295,7 @@ C Arcane Thirst|QID|40009|M|36.71,45.77|QO|2|N|Kill the Eternal Tethers first, s
 C Arcane Thirst|QID|40009|M|37.01,46.48|QO|3|US|NC|N|Finish collecting Crystallized Ancient Mana.|
 T Arcane Thirst|QID|40009|M|35.34,47.41|N|To First Arcanist Thalyssra.|
 A Shal'Aran|QID|42229|PRE|40009|M|35.34,47.41|N|From First Arcanist Thalyssra.|
-C Shal'Aran|QID|42229|M|36.54,46.94|NC|N|Follow her as she walks around Shal'aran|
-T Shal'Aran|QID|42229|M|36.56,46.93|N|To First Arcanist Thalyssra.|
+C Shal'Aran|QID|42229|M|36.54,46.94|NC|N|Stand here, as she walks around Shal'aran.  You won't need to follow her for credit.|T Shal'Aran|QID|42229|M|36.56,46.93|N|To First Arcanist Thalyssra.|
 A Ancient Mana|QID|44672|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.|
 A Oculeth's Workshop|QID|40011|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.
 A An Old Ally|QID|40012|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.
@@ -368,20 +367,20 @@ A Assisting the Archmage|QID|42404|M|33.14,57.01|N|From Archmage Khadgar.|C|HUNT
 
 ; Nightfallen But Not Forgotten - Chief Telemancer Oculeth Story Line.
 
-R Oculeth's Workshop|QID|40011|M|34.28,49.82;36.38,50.58;39.45,49.60;42.34,52.05;45.17,50.28;48.49,49.24|CS|N|Off to find Oculeth.|
-C Oculeth's Workshop|QID|40011|M|49.31,48.18|NC|U|132883|N|Use Extra Action button to show Token to Oculeth.|
+R Oculeth's Workshop|QID|40011|M|36.38,50.58;39.45,49.60;45.17,50.28;48.49,49.24|CS|N|Off to find Oculeth.|
+C Oculeth's Workshop|QID|40011|M|49.31,48.18|NC|U|132883|N|Use Extra Action button to show Token to Oculeth. Or be prepared to swim.|
 T Oculeth's Workshop|QID|40011|M|49.66,48.13|N|To Chief Telemancer Oculeth.|
 A The Delicate Art of Telemancy|QID|40747|M|49.66,48.13|N|From Chief Telemancer Oculeth.|PRE|40011|
-C The Delicate Art of Telemancy|QID|40747|QO|1|M|49.58,46.78|NC|N|To use Oculeth's teleporters you have to click on them and then stand on the square in the middle of the patio.|
-C The Delicate Art of Telemancy|QID|40747|QO|2|M|55.80,39.43;54.32,44.20;51.88,34.99|CS|NC|N|Travel to the Fountain and then the Telemetry Lab to collect the Weathered Telemancy Beacon.|
-C The Delicate Art of Telemancy|QID|40747|QO|3|M|53.01,37.08;54.41,44.57;55.82,39.98;53.16,46.84|CS|NC|N|Return to the Fountain, and then travel to the Breakfast Nook, which will actually return you to Warpwind Cliffs.  Use the Warp Lab teleporter and then collect the Cracked Warpsleeve.|
-T The Delicate Art of Telemancy|QID|40747|M|52.13,44.83;49.29,47.10|CS|N|Use the Workshop teleporter and then turn in to Chief Telemancer Oculeth.|
-A Network Security|QID|40748|M|49.29,47.10|N|From Chief Telemancer Oculeth.|PRE|40747|
+C The Delicate Art of Telemancy|QID|40747|QO|1|M|49.58,46.78|NC|N|To use Oculeth's teleporters you have to click on them and then stand on the square in the middle of the patio.\nClick the: Garden Teleporter.|
+C The Delicate Art of Telemancy|QID|40747|QO|2|M|55.80,39.43;54.32,44.20;51.88,34.99|CS|NC|N|Click the: Fountain Teleporter,\nClick the: Telemetry Lab Teleporter\nto collect the Weathered Telemancy Beacon.|
+C The Delicate Art of Telemancy|QID|40747|QO|3|M|53.01,37.08;54.41,44.57;55.82,39.98;53.16,46.84|CS|NC|N|Click the: Fountain Teleporter\nClick the: Breakfast Nook Teleporter, which will actually return you to Warpwind Cliffs.\nClick the Warp Lab Teleporter\nto collect the Cracked Warpsleeve.|
+T The Delicate Art of Telemancy|QID|40747|M|52.13,44.83;49.29,47.10|CS|N|Click the: Workshop Teleporter, then turn in to Chief Telemancer Oculeth.|
+A Network Security|QID|40748|PRE|40747|M|49.29,47.10|N|From Chief Telemancer Oculeth.|
 C Network Security|QID|40748|M|59.73,36.67|QO|1|NC|N|Teleport to the Test Chamber.|
 C Network Security|QID|40748|M|59.65,33.89|QO|2|NC|N|Click on the 'Arcane Coil' to overcharge it.|
 C Network Security|QID|40748|M|56.93,34.97|QO|3|NC|N|Click on the 4 Arcane Coils in this room.|
 C Network Security|QID|40748|M|56.05,30.22|QO|4|N|You will be transported to a cavern, then you can fight Warpcaster Thwen slain.|T|Warpcaster Thwen|
-C Network Security|QID|40748|M|56.11,30.21|QO|5|CHAT|N|Speak with Oculeth.|
+C Network Security|QID|40748|M|56.11,30.21|QO|5|CHAT|N|Speak with Oculeth, tell him that "Thalyssra is near Meredil."|
 T Network Security|QID|40748|M|34.48,48.70|N|To Chief Telemancer Oculeth.|
 A Close Enough|QID|40830|M|34.48,48.70|N|From Chief Telemancer Oculeth.|PRE|40748|
 C Close Enough|QID|40830|M|35.80,47.50|QO|1|NC|N|Pick up Oculeth and carry him into Shal'Aran.|
@@ -409,7 +408,7 @@ A Turtle Powered|QID|40368|M|43.38,41.72|N|From Morhun Rivertamer.|PRE|42229|RAN
 C Turtle Powered|QID|40368|M|37.11,38.20|S|N|Kill turtles to collect the Shimmering Snapper Scales.|RANK|2|
 C Tapping the Leylines|QID|40010|M|41.30,39.41|QO|1|NC|N|Explore Anora Hollow.|
 C Tapping the Leylines|QID|40010|M|41.58,38.75|QO|2|NC|N|Step on Ancient Switch.|
-C Tapping the Leylines|QID|40010|M|41.62,39.10|QO|3|CHAT|N|Speak with Arcanist Valtrois.|
+C Tapping the Leylines|QID|40010|M|41.62,39.10|QO|3|CHAT|N|Speak with Arcanist Valtrois, "Show Thalyssra's token to Valtrois".|
 T Tapping the Leylines|QID|40010|M|39.76,29.69|Z|Suramar/36|N|To Arcanist Valtrois.|
 A Power Grid|QID|41028|M|39.76,29.69|Z|Suramar/36|N|From Arcanist Valtrois.|PRE|40010|
 C Power Grid|QID|41028|M|52.93,55.83|Z|Suramar/36|NC|N|Valtrois leads you to a room with a 'high switch'. Follow the ley beam to the room with the 8 'low switches' and the 4 'seals'. Click on the switches to get the beams both pointed at the same seal. If you can't, follow the beam that isn't pointed where you want back to its 'high switch' and click it. Then run back to see if both beams are pointed at the same seal, if so, click on the seal. one down, 3 to go.  If not, click on the 'low switch' the beam goes through to point it at the seal, then click to lock it in. Rinse, repeat.|
@@ -940,7 +939,7 @@ C Thalyssra's Drawers|QID|42489|M|64.64,61.57|QO|3|NC|N|Pick up her Private Corr
 K Kill Magisterial Sleuths|QID|42488|L|138392 3|US|QO|1|N|Kill the Sleuth's until you have 3 amplifer fragments.|
 C Thalyssra's Abode|QID|42488|M|64.64,61.57|U|138392|NC|N|Combine the fragments to create an Arcane Amplifier.|
 
-R Azuregale Cove|QID|40331|M|68.14,62.93;70.13,64.02;71.65,65.61;72.20,63.71|N|Run back to Azuregale Cove to complete the Jandvick Jarl's storyarc.|
+R Azuregale Cove|QID|40331|M|68.14,62.93;70.13,64.02;71.65,65.61;72.20,63.71|CS|N|Run back to Azuregale Cove to complete the Jandvick Jarl's storyarc.|
 C Bite of the Sashj'tar|QID|40331|M|69.53,60.50|US|N|Finish collecting the Sashj'tar Fangs.|
 C Beach Bonfire|QID|40332|M|72.37,59.33|QO|2|NC|N|Click on Jarl Throndyr's Pyre.|
 T Beach Bonfire|QID|40332|M|72.23,59.14|N|To Brandolf.|
@@ -1337,12 +1336,13 @@ A Long Buried Knowledge|QID|42491|PRE|44053;43313|M|37.02,46.21|NA|N|From Arcani
 
 ; Good Suramaritan - A Growing Crisis Story Arc
 
-N You are Rep Gated|QID|44152|M|36.54,46.77|REP|The Nightfallen;1859;Revered-Exalted;7000;true|N|Next Chain requires 7K into Revered, so off to do World Quests.|
-
 t Growing Strong|QID|44562|M|36.54,46.77|N|To Valewalker Farodin.|
 A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|N|From Valewalker Farodin.|
+
+N You are Rep Gated|QID|44152|M|36.54,46.77|REP|The Nightfallen;1859;Revered-Exalted;7000;true|N|Next Chain requires 7K into Revered, so off to do World Quests.|
+
 A A Growing Crisis|QID|44152|PRE|44053;44562|M|36.54,46.77|N|From Valewalker Farodin.|
-P Portal to Falanaar|QID|44152|ACTIVE|44152|M|35.94,45.55|N|Take the Portal to Fal'adora|
+P Temple of Fal'adora|QID|44152|ACTIVE|44152|M|35.94,45.55|N|Take the Portal to Falanaar.|
 T A Growing Crisis|QID|44152|M|42.38,15.05|Z|Temple of Fal'adora@Suramar|N|To Valewalker Farodin.|
 A Fragments of Disaster|QID|43361|PRE|44152|M|42.38,15.05|Z|Temple of Fal'adora@Suramar|N|From Valewalker Farodin.|
 A The Shardmaidens|QID|43360|PRE|44152|M|42.38,15.05|Z|Temple of Fal'adora@Suramar|N|From Valewalker Farodin.|
@@ -1456,7 +1456,7 @@ T Visitor in Shal'Aran|QID|44955|M|36.50,46.78|N|To First Arcanist Thalyssra.|
 ; Tailoring Purchase of plans Need Exalted.
 
 B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137973|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185954|REP|The Nightfallen;1859;Exalted|
-B Pattern: Imbued Silkweave Pantaloons|PRE|38974|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137976|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185957|REP|The Nightfallen;1859;Exalted|
+B Pattern: Imbued Silkweave Pantaloons|PRE|38974|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137976|N|From First Arcanist Thalyssra. (2,700 Gold) |RECIPE|185957|REP|The Nightfallen;1859;Exalted|
 B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137979|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185960|REP|The Nightfallen;1859;Exalted|
 
 ; Insurrection - Missing Persons Storyline Quests.

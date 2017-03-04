@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2017-03-04 18:54
+-- Who: Blanckaert
+-- Log: Fix QID 44448 wrong modifier from ; to +
+
+-- URL: http://wow-pro.com/node/3674/revisions/28232/view
 -- Date: 2017-01-10 21:21
 -- Who: Blanckaert
 -- Log: Added: Obliterum Quest Chain
@@ -353,7 +358,7 @@ T Hitting the Books|QID|43884|M|59.86,28.11|N|To Juvess the Duskwhisperer.|
 C Goddess Watch over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 R Windrunner's Sanctuary|QID|44448|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Horde|LVL|110|
 R Graymane Enclave|QID|44448|M|39.2,57.2|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Alliance|LVL|110|
 C In the House of Light and Shadow|QID|44448|M|52.37,69.37|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|

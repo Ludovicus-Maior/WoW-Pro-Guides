@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3675
+-- Date: 2017-03-04 19:10
+-- Who: Blanckaert
+-- Log: Fix QID 44448 PRE ; + switch
+
+-- URL: http://wow-pro.com/node/3675/revisions/28233/view
 -- Date: 2017-01-10 21:23
 -- Who: Blanckaert
 -- Log: Added: Obliterum Quest Chain
@@ -170,7 +175,7 @@ T Lethal Efficiency|QID|40997|M|37.40,44.20|N|To Nikki the Gossip.|
 ;insert order hall progression quests here
 
 ; LVL 110 Quest - Obliterum Chain
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 C In the House of Light and Shadow|QID|44448|N|Location NOT included at this time.\nBefore you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
 A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|From Camille Kleister.|LVL|110|
 C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|Toss water on the fire.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2017-03-04 19:05
+-- Who: Blanckaert
+-- Log: minor change of an order.
+
+-- URL: http://wow-pro.com/node/3680/revisions/28220/view
 -- Date: 2017-01-10 20:21
 -- Who: Ludovicus
 -- Log: Added missing CS tag at Hafr Fjall
@@ -185,13 +190,14 @@ $ Small Treasure Chest|QID|38498|M|39.58,19.35|N|Loot for a bit of treasure and 
 C The Windrunner's Fate|QID|38360|M|41.72,19.73|QO|2|NC|N|Find Dread-Captain Tattersail.|
 C Wrath of the Blightcaller|QID|38361|M|43.22,18.06|US|N|Finish up killing alliance forces.|
 C The Windrunner's Fate|QID|38360|M|44.15,18.00|QO|3|N|Find the Dark Lady's landing.|
+A Stormforged Grapple Launcher|QID|39775|M|44.28,17.64|N|You will need this for the next few quests as well as to enable getting to some treasure chests.\nLocation Varies, this is one, if not here, RIGHT click this step.|
 $ Treasure Chest|QID|43195|M|50.00,18.10|N|Loot for a bit of treasure and resources.|RANK|3|
 T The Windrunner's Fate|QID|38360|M|44.12,18.20|N|To Nathanos Blightcaller.|
 T Wrath of the Blightcaller|QID|38361|M|44.12,18.20|N|To Nathanos Blightcaller.|
 A A Grim Trophy|QID|38362|PRE|38360;38361|M|44.12,18.20|N|From Nathanos Blightcaller.|
 C A Grim Trophy|QID|38362|M|42.14,21.34|T|Thane Wildsky|N|Loot his Head.|
-T Side Effects May Include Mild Undeath|QID|38357|M|36.10,27.35|N|To Apothecary Withers.|
 K Worgen Stalkers|QID|38627|M|44.32,22.91|QO|1|N|Help your forsaken buddies defeat the Worgen Stalkers.|RANK|2|;no item listed as dropping on WoWhead, I didnt get one either
+T Side Effects May Include Mild Undeath|QID|38357|M|36.10,27.35|N|To Apothecary Withers.|
 T A Grim Trophy|QID|38362|M|36.58,29.04;36.83,30.95|CS|N|Elevator up is at first coordinate. Turn in to Nathanos Blightcaller.|
 A The Ancient Trials|QID|38459|PRE|38362|M|36.80,31.04|N|From Huginn.|
 A Eyes in the Overlook|QID|38308|PRE|38362|M|36.74,31.12|N|From Cullen's Scouting Report.|
@@ -253,7 +259,7 @@ T The Shattered Watcher|QID|39593|M|46.75,44.42|N|To Yotnar's Head.|
 A A Trial of Might|QID|39594|PRE|39591;39592;39593|M|46.75,44.42|N|From Yotnar.|
 C A Trial of Might|QID|39594|M|54.59,20.15|Z|AggramarsVault|QO|1|NC|N|Go into the Vault and learn about the Trial of Might. Click on the console to start the trial.|
 C A Trial of Might|QID|39594|M|49.45,43.25|Z|AggramarsVault|QO|2|N|Now fight Yotnar.|
-T A Trial of Might|QID|39594|M|46.33,44.79|N|To Yotnar.|
+T A Trial of Might|QID|39594|M|46.33,44.79|N|To Yotnar, Outside.|
 A The Blessing of the Watchers|QID|39597|PRE|39594|M|46.33,44.79|N|From Yotnar.|
 C The Blessing of the Watchers|QID|39597|M|46.33,44.79|CHAT|N|Ask Yotnar for his blessing, then listen (or just wait) for a bit to receive Yotnar's Blessing.|
 C A Worthy Challenger-Bonus Objective|US|QID|38442|M|49.73,40.88|N|Finish this up or click it off manually.|RANK|2|

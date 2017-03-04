@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2017-03-04 19:23
+-- Who: Blanckaert
+-- Log: added PREs that were missing... (replaced whole guide)
+
+-- URL: http://wow-pro.com/node/3618/revisions/27551/view
 -- Date: 2016-08-12 22:11
 -- Who: tubera
 -- Log: Change QID of D step to 999999
@@ -141,8 +146,8 @@ return [[
 
 N Welcome to Nagrand|QID|36601;36606|N|If you want the rare elite and treasures included in this guide, please set your Rank to 3.|
 
-T News from Nagrand|QID|36601;36606|M|38.36,36.75|Z|Lunarfall|N|To Baros Alexston at your garrison.|U|110560|
-A Taking the Fight to Nagrand|QID|34674;37184|M|38.36,36.75|Z|Lunarfall|N|From Baros Alexston at your garrison.|U|110560|
+T News from Nagrand|QID|36601;36606|M|38.36,36.75|Z|Lunarfall|N|To Bodrick Grey at your Garrison.|U|110560|
+A Taking the Fight to Nagrand|QID|34674;37184|PRE|36601;36606|M|38.36,36.75|Z|Lunarfall|N|From Bodrick Grey at your G arrison.|U|110560|
 
 F Nagrand|QID|34674;37184|M|47.90,49.72|Z|Lunarfall|CHAT|N|Speak with Dungar Longdrink and tell him you need a flight to the border of Nagrand.|
 K Grizlemaw|QID|35784|M|89.46,72.93|N|*Rare Kill*\nOn the path to your left. Drops Grizzled Wolfskin Cloak worth 22g.|RANK|3|
@@ -154,19 +159,19 @@ K Redclaw the Feral |QID|35712|M|73.57,58.02|N|*Rare Kill*\nDrops Redclaw's Gutr
 f Telaari Station|QID|34675|M|63.64,61.55|N|From Gryphon Master John Shelby|
 T The Might of the Warsong|QID|34675|M|63.52,61.88|N|To Rangari D'kaan at Telaari Station.|
 
-A Up and Running |QID|34678|M|63.52,61.88|N|From Rangari D'kaan.|
+A Up and Running |QID|34678|PRE|34675|M|63.52,61.88|N|From Rangari D'kaan.|
 C Up and Running |QID|34678|NC|QO|3|N|Loot the Transmission Flywheel, inside the hut.|M|63.67,62.37|
 f Telari Station|QID|34678|M|63.62,61.56|N|With John Shelby.|
 C Up and Running |QID|34678|NC|QO|2|N|Loot the Prop Rotor, just behind Gryphon Master.|M|63.75,61.56|
 C Up and Running |QID|34678|QO|1|N|Loot Assorted Engineering Parts on the floor next to Captain Washburn.|M|62.09,62.12|
 T Up and Running |QID|34678|M|63.07,61.96|N|To Thaelin Darkanvil.|
 
-A Operation: Surprise Party |QID|34682|M|63.07,61.96|N|From Thaelin Darkanvil.|
+A Operation: Surprise Party |QID|34682|PRE|34678|M|63.07,61.96|N|From Thaelin Darkanvil.|
 C Operation: Surprise Party |QID|34682|N|Mount Thaelin's Copter.|M|63.02,61.97|
 T Operation: Surprise Party |QID|34682|N|To Rangari Ogir in Rangari Overlook.|M|65.88,68.62|
 
-A Mo'mor Might Know |QID|34716|N|From Rangari Ogir.|M|65.88,68.62|
-A Operation: Just Arrowhead |QID|34717|N|From Rangari Ogir.|M|65.88,68.62|
+A Mo'mor Might Know |QID|34716|PRE|34682|N|From Rangari Ogir.|M|65.88,68.62|
+A Operation: Just Arrowhead |QID|34717|PRE|34682|N|From Rangari Ogir.|M|65.88,68.62|
 R Telaar|QID|34716;34717|NC|N|Click on the Rappelling Rope to get down to Telaar.|M|65.91,68.56|ACTIVE|34716;34717|
 C Operation: Just Arrowhead |QID|34717|N|Kill Warsong forces at Telaar. |S|
 T Mo'mor Might Know |QID|34716|N|To Vindicator Mo'mor, chained up inside the building.|M|66.74,68.64|
@@ -240,8 +245,8 @@ T Ring of Trials: Roakk the Zealot|QID|34666|M|79.46,50.28|N|To Dexyl Deadblade.
 A Tastes Like Chicken |QID|34869|N|From Digrem Orebar|M|79.23,52.65|
 
 T The Missing Caravan |QID|34598|N|To Greezlex|M|79.01,58.92|
-A Gobnapped |QID|34515|N|From Greezlex|M|79.01,58.92|
-A They've Got The Goods! |QID|34514|N|From Greezlex|M|79.01,58.92|
+A Gobnapped |QID|34515|PRE|34598|N|From Greezlex|M|79.01,58.92|
+A They've Got The Goods! |QID|34514|PRE|34598|N|From Greezlex|M|79.01,58.92|
 
 A WANTED: Razorpaw! |QID|34513|N|From Bounty Board.|M|78.99,58.94|
 R Sabermaw |QID|34513|N|Run to Sabermaw|M|77.41,59.45|
@@ -289,11 +294,11 @@ l Trophy Signet of the Sabermaw |QID|36035|M|72.72,60.93|N|There is a flag here 
 
 ;Mar'gok's Overwatch
 T Trouble at the Overwatch |QID|35148|M|78.79,69.26|N|To Rangari Eleena at Mar'gok's Overwatch.|
-A Obtaining Ogre Offensive Orders |QID|34593|M|78.79,69.26|N|From Rangari Eleena|
-A Obliterating Ogres |QID|34572|M|78.79,69.26|N|From Rangari Eleena|
+A Obtaining Ogre Offensive Orders |QID|34593|PRE|35148|M|78.79,69.26|N|From Rangari Eleena|
+A Obliterating Ogres |QID|34572|PRE|35148|M|78.79,69.26|N|From Rangari Eleena|
 
 C Obliterating Ogres|QID|34572|S|M|83.38,74.85|N|Kill the Ogres.|
-A Removing the Paper Trail|QID|34597|M|81.34,70.38|N|From the Ogre Scrolls.|
+A Removing the Paper Trail|QID|34597|PRE|35148|M|81.34,70.38|N|From the Ogre Scrolls.|
 C Removing the Paper Trail|QID|34597|NC|M|82.01,73.68|S|N|Click the Boxes of Ogre Research to destroy them.|
 C Obtaining Ogre Offensive Orders|QID|34593|QO|2|M|83.20,70.39|T|Thulgork|N|Kill and loot Thurgork for the orders.|
 C Obtaining Ogre Offensive Orders|QID|34593|QO|1|M|84.05,73.42|T|Crulgorosh|N|Kill and loot Crulgorosh for the orders. He can be found in the building up the stairs and to the left.|
@@ -320,7 +325,7 @@ R Hallvalor |QID|34951|M|84.75,58.35|N|Head to Hallvalor.|
 C The Friend o' My Enemy|QID|34952|M|85.42,55.30|N|Kill the Burning Blade forces at Hallvalor.|S|
 
 T They Call Him Lantresor of the Blade|QID|34951|M|85.41,54.58|N|To Lantresor of the Blade.|
-A The Blade Itself|QID|34954|M|85.42,54.59|N|From Lantresor of the Blade.|
+A The Blade Itself|QID|34954|PRE|34951|M|85.42,54.59|N|From Lantresor of the Blade.|
 A Not Without My Honor|QID|34955|M|85.42,54.59|N|From Lantresor of the Blade.|
 
 C Not Without My Honor|QID|34955|S|NC|M|84.88,55.33|N|These treasure boxes are located inside many of the buildings. One of them will have his banner.|
@@ -331,11 +336,11 @@ C Not Without My Honor|QID|34955|US|NC|M|84.88,55.33;84.88,55.32;85.83,57.14;87.
 T The Blade Itself|QID|34954|M|85.44,54.60|N|To Lantresor of the Blade.|
 T Not Without My Honor|QID|34955|M|85.44,54.60|N|To Lantresor of the Blade.|
 
-A Meet Me in the Cavern|QID|34956|M|85.44,54.60|N|From Lantresor of the Blade.|
+A Meet Me in the Cavern|QID|34956|PRE|36797;34957|M|85.44,54.60|N|From Lantresor of the Blade.|
 C The Friend o' My Enemy|QID|34952|M|85.42,55.30|N|Finish this up before you go in the Cavern as the ones inside don't count and when you come out you will be neutral to them.|US|
 T Meet Me in the Cavern|QID|34956|M|89.99,55.94|N|To Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
 
-A Challenge of the Masters|QID|34957|M|89.99,55.94|N|From Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
+A Challenge of the Masters|QID|34957|PRE|34956|M|89.99,55.94|N|From Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
 C Challenge of the Masters|QID|34957|M|53.11,68.60|N|Kill the various challengers up to Warlord Dharl of the Thrice-Bloodied Blade.|Z|The Master's Cavern@NagrandDraenor|
 
 H Telaari Station |QID|34868|N|Use your hearthstone to return to Telaari Station.|ACTIVE|34596;34877;34957;34952|
@@ -343,11 +348,11 @@ H Telaari Station |QID|34868|N|Use your hearthstone to return to Telaari Station
 T Removing the Reinforcements|QID|34877|M|63.1,61.94|N|From Thaelin Darkanvil.|
 T Reglakk's Research|QID|34596|M|63.52,61.88|N|From Rangari D'kaan.|
 T Challenge of the Masters|QID|34957|M|63.52,61.88|N|From Rangari D'kaan.|
-A Along the Riverside |QID|35059|M|63.52,61.88|N|To Rangari D'kaan.|
-A Nobundo Sends Word |QID|35332|M|63.52,61.88|N|To Rangari D'kaan.|
+A Along the Riverside |QID|35059|PRE|34596|M|63.52,61.88|N|To Rangari D'kaan.|
+A Nobundo Sends Word |QID|35332|PRE|34596|M|63.52,61.88|N|To Rangari D'kaan.|
 
 T The Friend o' My Enemy|QID|34952|US|M|63.54,61.84|N|To Hansel Heavyhands|
-A The Honor of a Blademaster|QID|34747|N|From Lantresor of the Blade.|M|64.23,59.57|
+A The Honor of a Blademaster|QID|34747|PRE|36797;34957|N|From Lantresor of the Blade.|M|64.23,59.57|
 
 ;Show the two animal quests again until you get to the Ring of Trials.
 C Shooting the Breeze |QID|35338|N|Kill and loot the Breezestrider Colt, Talbuk and Stallion for their Horns|S|ACTIVE|34869|
@@ -392,7 +397,7 @@ T Queen of the Clefthoof|QID|35350|M|63.55,61.42|N|To Kia Herman|
 F The Ring of Trials|QID|34869|M|63.64,61.55|N|To John Shelby|
 C Fruitful Ventures |QID|34819|N|Loot the Nagrand Cherry just North of the ring of trials.|M|79.00,42.50|NC|
 T Fruitful Ventures |QID|34819|M|79.23,52.65|N|To Digrem Orebar|
-A New Babies |QID|34900|M|79.23,52.65|N|To Digrem Orebar|
+A New Babies |QID|34900|PRE|34819|M|79.23,52.65|N|To Digrem Orebar|
 C New Babies |QID|34900|M|44.00,49.40;48.20,60.60;50.20,46.20;50.60,61.20;58.20,55.40;60.00,50.40;60.80,47.20;63.00,49.80;64.00,38.00;65.60,45.60;67.20,36.40;67.80,61.20;69.80,65.80;70.00,16.60;71.00,52.40;73.00,36.00;75.60,46.20;77.80,60.80;78.20,33.40;82.80,48.80;84.60,60.00;85.40,50.80;61.50,45.00;79.20,52.50;65.50,39.90;71.00,58.30;60.60,66.75;75.33,57.45|CN|N|Find them near bodies of water. Only one per group. If you kill one, you can't keep it.|T|Tenderhoof Meadowstomper|
 T New Babies |QID|34900|M|79.23,52.65|N|To Digrem Orebar|
 
@@ -451,7 +456,7 @@ A If They Won't Surrender... |QID|35068|N|From Lieutenant K. K. Lee|M|55.46,42.1
 
 C Silence the War Machines |QID|35067|N|Destroy the War Machines|S|
 C If They Won't Surrender... |QID|35068|N|Kill the Lok-rath enemy forces.|S|
-A Terror of Nagrand |QID|35069|N|From Fallen Alliance Soldier|M|56.08,43.77|
+A Terror of Nagrand |QID|35069|PRE|35060|N|From Fallen Alliance Soldier|M|56.08,43.77|
 C Terror of Nagrand |QID|35069|N|Head into Terror's Cave, then kill and loot Shagor for his collar.|M|58.36,43.63|
 C The Pride of Lok-rath |QID|35061|N|Kill Uruk Foecleaver|M|55.64,47.75|
 C Silence the War Machines |QID|35067|N|Destroy the War Machines|US|M|55.77,46.53;54.57,44.89;55.97,43.02|CN|
@@ -485,8 +490,8 @@ C Called to the Throne |QID|35331|QO|1|N|Speak to Vindicator Nobundo, and tell h
 C Called to the Throne |QID|35331|QO|2|N|Commune with the furries|NC|M|71.40,18.12|
 T Called to the Throne |QID|35331|N|To Vindicator Nobundo|M|71.72,19.65|
 A Elemental Attunement |QID|35333|N|From Vindicator Nobundo|M|71.72,19.65|PRE|35331|
-A Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.86|N|From Inceneratus|
-A Guardians of the Plateau|QID|34893|M|71.34,17.86|N|From Inceneratus|
+A Earth, Wind and Fire...and Water|QID|34881|PRE|35331|M|71.34,17.86|N|From Inceneratus|
+A Guardians of the Plateau|QID|34893|PRE|35331|M|71.34,17.86|N|From Inceneratus|
 A An Old Friend |QID|34943|M|72.78,19.72|N|From Kalandrios|PRE|35331|
 
 R Skysong Lake |QID|34943|N|Head up the path through Skysong Lake and up the ledge.|M|73.85,16.50|
@@ -533,15 +538,15 @@ A The Ritual of Binding|QID|35330|PRE|35333;34881;34893|M|71.72,19.65|N|From Vin
 C The Ritual of Binding|QID|35330|M|72.6,19.6|CHAT|N|Chat with Kalandrios to start the ritual.|
 T The Ritual of Binding|QID|35330|M|71.72,19.65|N|To Vindicator Nobundo|
 
-A The Call of Oshu'gun|QID|35372|M|71.72,19.65|N|From Vindicator Nobundo|
+A The Call of Oshu'gun|QID|35372|PRE|35330|M|71.72,19.65|N|From Vindicator Nobundo|
 F Spirit Woods|QID|35372|M|73.70,26.65|CHAT|N|Ask Gixmo Moneycash for a ride.|
 T The Call of Oshu'gun|QID|35372|M|55.52,55.92|N|To Vindicator Nobundo|
 
 A Spiritual Matters|QID|35393|PRE|35372|M|55.52,55.92|N|From Vindicator Nobundo|
-A The Pale Threat|QID|35397|M|55.52,55.92|N|From Vindicator Nobundo|
-A Dark Binding|QID|35398|M|55.52,55.92|N|From Vindicator Nobundo|
-A Silence the Call|QID|35084|M|55.46,55.92|N|From Shamanstone|
-A Disrupt the Rituals|QID|35083|M|55.46,55.92|N|From Shamanstone|
+A The Pale Threat|QID|35397|PRE|35372|M|55.52,55.92|N|From Vindicator Nobundo|
+A Dark Binding|QID|35398|PRE|35372|M|55.52,55.92|N|From Vindicator Nobundo|
+A Silence the Call|QID|35084|PRE|35372|M|55.46,55.92|N|From Shamanstone|
+A Disrupt the Rituals|QID|35083|PRE|35372|M|55.46,55.92|N|From Shamanstone|
 
 C The Pale Threat|QID|35397|M|57.6,59.2|QO|2|N|Kill the Pale|S|
 K Enslaved Earth Spirit|QID|35398|M|52.6,61.2|T|Enslaved Earth Spirit|QO|1|S|
