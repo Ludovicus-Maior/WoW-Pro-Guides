@@ -14,6 +14,7 @@ WoWPro.actiontypes = {
 	h = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
 	F = "Interface\\Icons\\Ability_Druid_FlightForm",
 	f = "Interface\\Icons\\Ability_Hunter_EagleEye",
+	M = "Interface\\Icons\\Trade_engineering",
 	N = "Interface\\Icons\\INV_Misc_Note_01",
 	B = "Interface\\Icons\\INV_Misc_Coin_01",
 	b = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
@@ -25,6 +26,7 @@ WoWPro.actiontypes = {
 	J = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Red",
 	["!"] = "Interface\\GossipFrame\\DailyQuestIcon",
 	["$"] = "Interface\\Worldmap\\TreasureChest_64",
+	["="] = "Interface\\Icons\\Spell_lightning_lightningbolt01",
 	[";"] = "Interface\\Icons\\INV_Scroll_11",
 }
 if UnitFactionGroup("player") == 'Alliance' then
@@ -44,6 +46,7 @@ WoWPro.actionlabels = {
 	h = "Set hearth to",
 	F = "Fly to",
 	f = "Get flight path for",
+	M = "Make",
 	N = "Note",
 	B = "Buy",
 	b = "Take Boat or Zeppelin",
@@ -56,6 +59,7 @@ WoWPro.actionlabels = {
 	P = "Take portal",
 	["!"] = "Declare",
 	["$"] = "Treasure",
+	["="] = "Train",
 	[";"] = "Comment"
 }
 
