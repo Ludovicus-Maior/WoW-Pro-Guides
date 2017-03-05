@@ -477,11 +477,13 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         	    end
         	end
 	    end
-        if WoWPro.Guides[GID].startlevel and (GQL+2) < WoWPro.Guides[GID].startlevel then
-              WoWPro:Warning("Guide %s QID %s is level %d, but startlevel=%d!",GID,WoWPro.QID[i],GQL, WoWPro.Guides[GID].startlevel)
-        end
-        if WoWPro.Guides[GID].endlevel and GQL > WoWPro.Guides[GID].endlevel then
-              WoWPro:Warning("Guide %s QID %s is level %d, but endlevel=%d",GID,WoWPro.QID[i],GQL, WoWPro.Guides[GID].endlevel)
+	    if not WoWPro.Guides[GID].level_float then
+            if WoWPro.Guides[GID].startlevel and (GQL+2) < WoWPro.Guides[GID].startlevel then
+                  WoWPro:Warning("Guide %s QID %s is level %d, but startlevel=%d!",GID,WoWPro.QID[i],GQL, WoWPro.Guides[GID].startlevel)
+            end
+            if WoWPro.Guides[GID].endlevel and GQL > WoWPro.Guides[GID].endlevel then
+                  WoWPro:Warning("Guide %s QID %s is level %d, but endlevel=%d",GID,WoWPro.QID[i],GQL, WoWPro.Guides[GID].endlevel)
+            end
         end
         WoWPro.Guides[GID].amax_level = max(WoWPro.Guides[GID].amax_level,GQL)
         WoWPro.Guides[GID].amin_level = min(WoWPro.Guides[GID].amin_level,GQL)
@@ -677,7 +679,7 @@ function WoWPro.ParseSteps(steps)
 
 
 	if WoWPro.DebugLevel > 0 then
-	    if WoWPro.Guides[GID].acnt_level > 0 then
+	    if WoWPro.Guides[GID].acnt_level > 0 and not WoWPro.Guides[GID].level_float then
             if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel ~= WoWPro.Guides[GID].amin_level then
                 WoWPro:Warning("Guide %s startlevel=%s, but min_level=%s",GID, WoWPro.Guides[GID].startlevel, WoWPro.Guides[GID].amin_level)
         	end

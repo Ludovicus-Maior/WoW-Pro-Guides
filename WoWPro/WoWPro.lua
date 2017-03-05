@@ -611,12 +611,15 @@ function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
     -- Supply dynamic levels if not all the parameters are suppplied.
     if not lowerLevel then
         lowerLevel = math.max(playerLevel-1, 1)
+        guide['level_float'] = true
     end
     if not upperLevel then
         upperLevel = math.min(playerLevel+1, 110)
+        guide['level_float'] = true
     end
     if not meanLevel then
-        meanLevel = (upperLevel*3.0 + lowerLevel) / 4.0
+        meanLevel = (lowerLevel*3.0 + upperLevel) / 4.0
+        guide['level_float'] = true
     end
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
