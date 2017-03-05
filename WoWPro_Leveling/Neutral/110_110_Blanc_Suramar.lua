@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/suramar_guide
+-- Date: 2017-03-04 23:24
+-- Who: Emmaleah
+-- Log: Delete dup C Scattered memories|US| line; change wording and add a coordinate to R Ruins of Elune'eth|QID|40956
+
+-- URL: http://wow-pro.com/node/3687/revisions/28270/view
 -- Date: 2017-03-04 19:32
 -- Who: Blanckaert
 -- Log: added missing CS tag
@@ -248,11 +253,6 @@
 -- Who: Blanckaert
 -- Log: Do not try to rush a guide, on a full Turkey Day stomach...  Fixed My N, QID, and M items I forgot.
 
--- URL: http://wow-pro.com/node/3687/revisions/28052/view
--- Date: 2016-11-25 00:49
--- Who: Blanckaert
--- Log: I'd a dolt, forgot the OTHER quest she gave. Now I think I'd caught up.
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideAutoSwitch(guide)
@@ -317,7 +317,6 @@ K Kill Shal'an|QID|42831|QO|1|M|26.24,41.16|N|Silver - Kill Shal'an for a bit of
 $ Ancient Mana Chunk|QID|42827|M|26.35,41.27|N|Loot for an Ancient Mana item.|ITEM|139890|
 K Kill Oreth the Vile|QID|43449|QO|1|M|24.61,47.25|N|Silver - Kill Oreth the Vile for a bit of treasure and resources.|T|Oreth the Vile|RANK|2|
 $ Treasure Chest|QID|43842|M|23.40,48.77|N|Loot for a bit of treasure and resources.|RANK|2|
-C Scattered Memories|QID|40326|M|26.42,44.52|US|NC|N|Read Kel'danath's Notes.|
 C A Re-Warding Effort|QID|41149|M|24.97,44.24|US|NC|N|Activate the Arcane Wards.|
 T A Re-Warding Effort|QID|41149|M|24.97,44.22|N|To UI Alert.|
 C Scattered Memories|QID|40326|M|26.42,44.52|US|NC|N|Finish reading Kel'danath's Notes.|
@@ -394,7 +393,7 @@ A Survey Says...|QID|40956|M|36.58,46.97|N|From Chief Telemancer Oculeth.|PRE|44
 R Ambervale|QID|40956|M|33.96,48.99;32.70,46.26|CS|N|Out of the cave and around to your right.|
 A Lingering on the Edge|QID|40796|M|30.39,47.78|N|From Absolon. Need 100 Ancient Mana.|PRE|42229|RANK|2|
 T Lingering on the Edge|QID|40796|M|30.39,47.78|N|To Absolon.|
-R Ruins of Elune'eth|QID|40956|M|34.77,43.83|N|Out of the cave and around to your right to find the Ruins of Elune'eth.|
+R Ruins of Elune'eth|QID|40956|M|33.39,45.48;34.77,43.83|CS|N|Across the river and around to your right to find the Ruins of Elune'eth.|
 C Survey Says...|QID|40956|M|36.64,45.56|NC|U|133897|N|Use the Telemetry Beacon. Occasionaly some pesky anomaly will spawn and you will need to kill it (and possibly close the portal, to stop more).|
 T Survey Says...|QID|40956|M|36.10,47.24|N|To the Telemetry Beacon. After turn in, take the portal back to Shal'Aran.|
 A Tapping the Leylines|QID|40010|M|36.54,46.87|N|From First Arcanist Thalyssra.|PRE|40956|

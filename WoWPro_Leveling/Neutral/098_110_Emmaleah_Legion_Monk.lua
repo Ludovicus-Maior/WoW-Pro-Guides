@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2017-03-05 03:21
+-- Who: Emmaleah
+-- Log: Added the rest of the monk campaign. Guide complete until 7.2
+
+-- URL: http://wow-pro.com/node/3672/revisions/28264/view
 -- Date: 2017-03-04 19:08
 -- Who: Blanckaert
 -- Log: Fix QID 44448 PRE ; + switch
@@ -45,7 +50,7 @@
 local guide = WoWPro:RegisterGuide('EmmLegionMonk', 'Leveling', 'MonkOrderHallTheWanderingIsle', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Monk Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
-WoWPro:GuideNextGuide(guide, 'EmmAzsuna')
+WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideClassSpecific(guide, 'Monk')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Monk")
@@ -133,7 +138,7 @@ C Revelations|QID|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When 
 U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use it and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|ACTIVE|44004|
 T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage Kadgar.|
 A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
-T Light's Charge|QID|44153|M|51.76,48.09|NC|N|Use Zen Pilgrimage to return to your order hall and return to Light's Heart (table in front of the Alter of Light and Shadow).|
+T Light's Charge|QID|44153|M|51.76,48.09|NC|N|Use Zen Pilgrimage to return to your order hall and return to Light's Heart.|
 
 ;back to order hall quests
 C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|US|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours. Check it off manually to continue with the guide while mission completes.|
@@ -187,33 +192,36 @@ t An Ample Stockpile|QID|43054|M|48.88,58.36|N|To Lao Shu. With the exception of
 t Tracking the Tideskorn|QID|41909|M|52.54,57.80|N|To High Elder Cloudfall. The remainder of your order hall campaign requires lvl 110.|
 
 ;post class campaign
-A The Power Within|QID|43496|M|49.68,16.98|N|From Image of Kalec. This appears up to 48 hours after you finish class order campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
+A The Power Within|QID|43496|M|51.71,48.58|N|From Image of Kalec. This appears up to 48 hours after you finish class order campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
 P Dalaran|QID|43496|M|52.4,57.10|N|Take the portal to Dalaran from your order hall.|ACTIVE|43496|
 F Azurewing Repose|QID|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496|
-T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
+T The Power Within|QID|43496|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
 ;fresh lvl 110 quests
 A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|LVL|110|
-A Goddess Watch Over You|QID|44337|M|49.74,58.86|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110.|LVL|110|
-A Inner Sanctuary|QID|44249|M|50.4,59|N|From Caydori Brightstar. Your class hall has a gift for you.|LVL|110|
-T Inner Sanctuary|QID|44249|M|50.4,59|N|To Caydori Brightstar.|
-N Artifact Knowledge Catch-Up 7.1.5|QID|43881|ITEM|14435|N|Assuming you have the resources available, you should have sent An Artifact Research Compendium (BOA item purchased in order hall) from one of you other characters (with max or at least highest AK) on the account.  This will allow you to jumpstart your artifact research by as much as 20 levels. This is also the lowest resource cost option.|LVL|110|
-A Knowledge is Power|QID|46129|M|46.8,46.8|ITEM|144395|N|From Lorewalker Cho. Assuming you were unable to send a AK15 or 20 item, you can buy immediately up to AK 15 for 500 resources each (same cost as research).|LVL|110|
-T Knowledge is Power|QID|46129|M|46.8,46.8|ITEM|144395|N|To Lorewalker Cho.|
-A Hitting the Books|QID|43881|M|46.8,46.8|N|From Lorewalker Cho.|LVL|110|
-C Hitting the Books|QID|43881|M|46.8,46.8|N|After using the 'Artifact Research Compendium' (if available to you) and/or using Artifact Research Synopsis (if available to you), you can then begin the slow process of artifact research.|
-T Hitting the Books|QID|43881|M|46.8,46.8|N|To Lorewalker Cho.|
-A The Iron Fist|QID|41849|M|51.41,48.36|N|From Iron-Body Ponshu.|LVL|110|PRE|43054+43062|
+A Goddess Watch Over You|QID|44337|M|51.50,48.41|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110.|LVL|110|
+A The Iron Fist|QID|41849|M|51.41,48.39|NA|N|From Iron-Body Ponshu. This is a dungeon quest you will need to complete it before you can go much farther.|LVL|110|PRE|43054;43062|
+N Artifact Knowledge Catch-Up 7.1.5|QID|44249|ITEM|144435|N|Assuming you have the resources available, you should have sent an 'Artifact Research Compendium' (BOA item purchased in order hall) from one of you other characters (with max or at least highest AK) on the account.  This will allow you to jumpstart your artifact research by as much as 20 levels. This is also the lowest resource cost option.|LVL|110|
+A Knowledge is Power|QID|46129|M|46.71,46.69|ITEM|144395|N|From Lorewalker Cho. Assuming you were unable to send a AK15 or 20 item, you can buy immediately up to AK 15 for 500 resources each (same cost as research).|LVL|110|ACH|10852|
+T Knowledge is Power|QID|46129|M|46.71,46.69|ITEM|144395|N|To Lorewalker Cho.|
+N Artifact Research|QID|44249|M|46.71,46.69|N|Once you have used your Compendium and or any artifact knowledge synopsis available to you. You need to go to Lorewalker Cho and chose to Reaseach.  Keep doing this until you max out artifact research. Check this off manually.|
+A Hitting the Books|QID|43881|M|46.71,46.69|N|From Lorewalker Cho. Only shows up if you do not have another character with artifact research above lvl 15 on the account.|LVL|110|ACH|10852|
+C Hitting the Books|QID|43881|M|46.71,46.69|N|Talk to Lorewalkder Cho to begin the slow process of artifact research.|
+T Hitting the Books|QID|43881|M|46.71,46.69|N|To Lorewalker Cho.|
+A Inner Sanctuary|QID|44249|M|50.33,59.14|N|From Caydori Brightstar. Your class hall has a gift for you.|LVL|110|
+T Inner Sanctuary|QID|44249|M|50.33,59.14|N|To Caydori Brightstar.|
+P Krasus' Landing|QID|44338|M|52.39, 57.13|N|Take the portal to Dalaran.|ACTIVE|44348|
 C Goddess Watch over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
 t Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
-R Windrunner's Sanctuary|QID|44448|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Horde|LVL|110|
-R Graymane Enclave|QID|44448|M|39.2,57.2|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Alliance|LVL|110|
-C In the House of Light and Shadow|QID|44448|M|52.37,69.37|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
+T Khadgar's Discovery|QID|39985|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+P Hall of the Seasons|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|Use your monkly skill to travel to your class hall|ACTIVE|44448|LVL|110|
+A Awakenings|QID|44464|M|51.76,48.09|N|From Light's Heart|PRE|44448|LVL|110|
+C In the House of Light and Shadow|QID|44448|M|51.77,48.11|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Click on Light's Heart to deliver the Tears.|
 
 ;obliterum chain. not necessary in 7.2
 A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|NC|N|From Camille Kleister.|LVL|110|
@@ -247,31 +255,79 @@ T One Mage's Trash|QID|39842|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana
 T The Muck Stops Here|QID|39843|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 T Cold Hard Coin|QID|39844|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 A The Obliterum Forge|QID|39845|PRE|39842;39843;39844|M|67.46,18.13|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
-C The Obliterum Forge|QID|39845|M|42.28,28.92|Z|Dalaran@Dalaran70|QO|1|N|1/1 Finalize Obliterum Forge|
+C The Obliterum Forge|QID|39845|M|42.28,28.92|Z|Dalaran@Dalaran70|N|Finalize Obliterum Forge|
 T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
+C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|N|Handful of Obliterum Ash|
 T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 
 ;class hall progression
 F Valdisdall|QID|41849|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|41849|
-T The Iron Fist|QID|41849|M|63,58.4|Z|Stormheim|N|Travel to Stormheim and turn in to Angus Ironfist.|
-;2 more quests then back zen pilgrimage
-
+T The Iron Fist|QID|41849|M|62.95,59.53|Z|Stormheim|N|Travel to Stormheim and turn in to Angus Ironfist at the edge of the Felskorn Warcamp.|
+A The Master of Swords|QID|41850|M|62.95,59.53|Z|Stormheim|N|From Angus Ironfist.|PRE|41849|
+K Kill Dravax|QID|41850|M|65.41,57.59|Z|Stormheim|T|Dravax|N|Kill and loot the key from Dravax.|
+C Free Sylara|QID|41850|M|64.19,57.18|Z|Stormheim|NC|N|Click on the cage to free Sylara.|
+T The Master of Swords|QID|41850|M|64.19,57.18|Z|Stormheim|N|To Angus Ironfist (who is following you.)|
+A No Monk Left Behind|QID|41852|M|64.19,57.18|Z|Stormheim|N|From Angus Ironfist.|PRE|41850|
+A Zero to Hiro|QID|41853|M|64.19,57.18|Z|Stormheim|N|From Angus Ironfist.|PRE|41850|
+A Quelling the Tide|QID|41851|M|64.19,57.18|Z|Stormheim|N|From Sylara Steelsong.|PRE|41850|
+C No Monk Left Behind|QID|41852|M|67.16,64.03|Z|Stormheim|NC|S|N|Free Prisoners by clicking on the cages.|
+C Quelling the Tide|QID|41851|M|67.16,64.03|Z|Stormheim|S|N|Kill enemies at the Gates of Valor.|
+C Zero to Hiro|QID|41853|M|67.16,64.03|Z|Stormheim|NC|N|Pickup a keg of Stormbrew. Click on a 2nd one for a nice buff while you are here.|
+C Zero to Hiro|QID|41853|M|66.68,70.32|Z|Stormheim|NC|N|Free Hiro by clicking on his cage.|
+C Quelling the Tide|QID|41851|M|68.56,69.32|Z|Stormheim|US|N|Kill enemies at the Gates of Valor.|
+C No Monk Left Behind|QID|41852|M|68.56,69.32|Z|Stormheim|NC|US|N|Free Prisoners by clicking on the cages.|
+T No Monk Left Behind|QID|41852|M|68.56,69.32|Z|Stormheim|N|To Angus Ironfist.|
+T Quelling the Tide|QID|41851|M|68.56,69.32|Z|Stormheim|N|To Sylara Steelsong.|
+T Zero to Hiro|QID|41853|M|68.56,69.32|Z|Stormheim|N|To Hiro.|
+A Brick by Brick|QID|41854|M|68.56,69.32|Z|Stormheim|N|From Hiro.|PRE|41851;41852;41853|
+P Hall of the Seasons|QID|41854|M|68.56,69.32|Z|Stormheim|U|141605|N|Use your flight master's whistle and then Zen Pilgrimage to return to Iron-Body Ponshu. Use the whistle for the covenience of the followup quest.|
+T Brick by Brick|QID|41854|M|51.40,48.39|N|To Iron-Body Ponshu.|
+A Champion: Hiro|QID|41737|M|51.90,49.50|N|From/To Hiro.|PRE|41854|
+A Champion: Sylara Steelsong|QID|41738|M|51.97,49.66|N|From/To Sylara Steelsong.|PRE|41854|
+A Champion: Angus Ironfist|QID|41736|M|51.88,49.71|N|From/To Angus Ironfist.|PRE|41854|
+A The Mead Master|QID|41038|M|51.40,48.39|N|From Iron-Body Ponshu.|PRE|41736;41737;41738|
+P Stormheim|QID|41038|M|51.40,48.39|N|Assuming you used Zen Pilgrimage last from Stormheim to come to turn in these quests, you can use it again to return and finish this chain. (If not, go to Dalaran and fly to Valdisdal.)|
+R Aegira's Meadery|QID|41038|M|61.29,52.57;66.79,39.04;63.22,30.24;64.15,23.99|Z|Stormheim|CS|N|Run thru the Runewood, Field of Fallen Kings, Straits of Hydrannon (water), up the hill and thru the edge of Storm's Reach (pvp area) and finally down the path to Aegira's Meadery.|
+C The Mead Master|QID|41038|M|63.12,21.20|Z|Stormheim|CHAT|N|Talk to Aegira, then she walks away, follow her down the hill.|
+T The Mead Master|QID|41038|M|62.09,20.12|Z|Stormheim|N|To Aegira.|
+A Stolen Knowledge|QID|41039|M|62.09,20.12|Z|Stormheim|N|From Aegira.|PRE|41038|
+R Valdisdal|QID|41039|U|141605|N|Run to Valdisdal by reversing your path or use your flight master's whistle for a much quicker trip.|ACTIVE|41039|
+F Cullen's Post|QID|41039|N|At the flightmaster. (whistle takes you to Stormtorn foothills flightmaster)|ACTIVE|41039|
+C Grapple Hook|QID|41039|QO|1|M|44.93,59.43|Z|Stormheim|NC|N|If you don't currently have a grapple hook, grab this one here.|
+C Sour Brew|QID|41039|QO|2|M|44.14,65.91|Z|Stormheim|NC|N|Click on the barrel.|
+C Blazing Brew|QID|41039|QO|3|M|45.06,69.33|Z|Stormheim|NC|N|Click on the barrel.|
+C Weak Brew|QID|41039|QO|4|M|45.44,67.92|Z|Stormheim|NC|N|Hook over the wall to the last barrel and click on it.|
+K Kill Morjirn|QID|41039|QO|5|M|44.65,72.35|Z|Stormheim|T|Morjirn|N|Hook back over the wall and up to the next tier of Hrydshal to find and kill Morjirn.|
+T Stolen Knowledge|QID|41039|M|44.65,72.35|Z|Stormheim|N|To Aegira who is following you.|
+A Freya's Spring|QID|41910|M|44.65,72.35|Z|Stormheim|N|From Aegira.|PRE|41039|
+A Halls of Valor: The Brewmaster|QID|41040|M|44.65,72.35|Z|Stormheim|N|From Aegira.|PRE|41039|
+A Amaranthine Hops|QID|41911|M|44.65,72.35|Z|Stormheim|N|From Aegira.|PRE|41039|
+P Hall of the Seasons|QID|41910|M|44.65,72.35|Z|Stormheim|N|Use your monkly magic to return to your order hall.|ACTIVE|41910|
+C Freya's Spring|QID|41910|M|52.95,60.43|NC|S|N|Use your scouting map to do the 5 Freya's Spring missions. Also don't forget to queue for and do Halls of Valor.|
+A A Peaceful World|QID|41086|M|55.26,57.08|N|From Chen Stormstout.|PRE|41039|
+B Stonehide Leather|QID|41911|N|Beg, Buy or Trade... or skin them yourself. However you choose to aquire the Stonehide leather.|L|124113 20|
+C A Peaceful World|QID|41086|NA|S|N|Get out there and do World Quests.|
+T Halls of Valor: The Brewmaster|QID|41040|M|48.49,9.19|Z|HallsofValor|N|To Melba just inside the Halls of Valor instance.|
+A Halls of Valor: Odyn's Cauldron|QID|41059|M|48.49,9.19|Z|HallsofValor|N|From Melba.|PRE|41040|
+C Halls of Valor: Odyn's Cauldron|QID|41059|QO|1|M|41.13,68.01|Z|HallsofValor|N|Beside the table on the right (as you are heading to Fenyr-the third boss.)|
+C Halls of Valor: Odyn's Cauldron|QID|41059|QO|2|M|51.21,87.21|Z|HallsofValor|N|Defeat Odyn,(the final boss of the instance).|;not sure of proper Z tag
+R Valdisdal|QID|41911|U|141605|N|Run to the nearest flight path or use your flightmaster's whistle.|
+F Lorlathil|QID|41911|N|At the flightmaster.|ACTIVE|41911|
+C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
+A Making a Trade|QID|43151|M|55.12,73.08;56.33,73.89|CS|Z|Val'sharah|N|Down the ramp into the inn, to meet Fleuris Asterleaf.|ACTIVE|41911|
+T Making a Trade|QID|43151|M|56.33,73.89|Z|Val'sharah|N|To Fleuris Asterleaf.|
+P Hall of the Seasons|QID|43151|M|56.33,73.89|Z|Val'sharah|N|Use Zen Pilgrimage to return to your order hall.|
+T Halls of Valor: Odyn's Cauldron|QID|41059|M|51.40,48.39|N|To Iron-Body Ponshu.|
+T Amaranthine Hops|QID|41911|M|56.33,73.89|Z|Val'sharah|N|To Fleuris Asterleaf.|
+T Awakenings|QID|44464|M|51.76,48.09|N|To Light's Heart|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.
-A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Trail of Echos|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
-N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
 
 ;lights heart - post 110
-A Awakenings|QID|44464|M|51.76,48.09|N|From Light's Heart|PRE|44448|LVL|110|
-P Dalaran|QID|44464|QO|1|M|52.4,57.10|N|Take the portal to Dalaran.|ACTIVE|44464|
-R Krasus' Landing|QID|44464|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44464|
-F Lorlathil|QID|44464|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44464|
-C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
-T Awakenings|QID|44464|M|51.76,48.09|N|To Light's Heart|
 
 ;requires AK>=2
 A An Unclear Path|QID|44466|M|51.76,48.09|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44464|;no way to limit this showing until you get AK=2
@@ -280,11 +336,10 @@ R Krasus' Landing|QID|44466|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and
 F Garden of the Moon|QID|44466|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44466|
 R Emerald Bay|QID|44466|QO|1|M|54.76,51.73;53.17,49.45;51.35,43.52|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
-T An Unclear Path|QID|44466|M|49.64,26.41|N|To Light's Heart, back in your order hall.|
+P Hall of the Seasons|QID|44466|M|45.39,34.26|Z|Val'sharah|N|Zen Pilgrimage back to your order hall.|ACTIVE|44466|
+T An Unclear Path|QID|44466|M|49.64,26.41|N|To Light's Heart.|
 A Ravemcrest's Legacy|QID|44479|M|49.64,26.41|N|From Light's Heart.|PRE|44466|
-P Dalaran|QID|44479|QO|1|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44479|
-R Krasus' Landing|QID|44479|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44479|
-F Bradensbrook|QID|44479|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44479|
+P Emerald Bay|QID|44479|QO|1|M|49.64,26.41|N|Zen Pilgrimage Back to Val'sharah.|ACTIVE|44479|
 R Black Rook Hold|QID|44479|QO|1|M|38.80,58.06;39.34,53.45|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|ACTIVE|44479|
 R Ravencourt|QID|44479|QO|1|M|40.97,54.12;41.44,45.63|CS|Z|Val'sharah|N|Run to the alcove behind Araxxas (not in the instance).|ACTIVE|44479|
 C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan traveling the wrong path.|
@@ -323,13 +378,31 @@ C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|
 T Destiny Unfulfilled|QID|44481;44496;44497|M|51.76,48.09|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|51.76,48.09|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481;44496;44497|
-P Dalaran|QID|45174|QO|1|M|52.4,57.10|N|Take the portal to Dalaran.|ACTIVE|45174|
-R Krasus' Landing|QID|45174|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45174|
-F Illidari Stand|QID|45174|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45174|
+A The Hunt for Illidan Stormrage|QID|45174|M|51.76,48.09|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481+44496+44497|
+P Dalaran|QID|45174|M|52.4,57.10|N|Take the portal to Dalaran.|ACTIVE|45174|
+R Krasus' Landing|QID|45174|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45174|
+F Illidari Stand|QID|45174|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45174|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
 A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|PRE|45174|
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|;guessing on turn in
+
+C Freya's Spring|QID|41910|M|52.95,60.43|NC|US|N|Finish up those 5 Freya's Spring missions. Also don't forget to queue for and do Halls of Valor.|
+C A Peaceful World|QID|41086|US|N|Time to finish up all those World Quests.|
+t Freya's Spring|QID|41910|M|51.40,48.39|N|To Iron-Body Ponshu.|
+t A Peaceful World|QID|41086|M|51.40,48.39|N|To Iron-Body Ponshu.|
+A Impending Danger|QID|32442|M|51.40,48.39|N|From Iron-Body Ponshu.|PRE|41910;41086|
+C Impending Danger|QID|32442|M|52.95,60.43|NA|N|Go to your scouting table and do the Impending Danger mission.|
+t Impending Danger|QID|32442|M|51.40,48.39|N|To Iron-Body Ponshu.|
+A Storm Brew|QID|41087|M|51.40,48.39|N|From Iron-Body Ponshu.|PRE|32442|
+C Storm Brew|QID|41087|QO|1|M|47.14,47.82|CHAT|N|Talk to Tak Tak for a ride to the Legion Invasion. (optional, you can run over if you want.)|
+C Storm Brew|QID|41087|QO|3|M|25.91,68.06|CHAT|N|Talk to Chen Stormstout to start brewing (and of course fighting.)|
+C Storm Brew|QID|41087|QO|5|M|25.53,68.38|NC|N|Click on Odyn's cauldren to drink the brew.|
+C Storm Brew|QID|41087|QO|6|M|27.50,65.15|N|Kill Lady Kaletress.|T|Lady Kaletress.|
+T Storm Brew|QID|41087|M|31.36,40.60|N|To Chen Stormstout.|
+A Chammpion: Aegira|QID|41739|M|31.18,40.67|N|From/To Aegira.|PRE|41087|
+A A Hero's Weapon|QID|43359|M|51.40,48.37|N|From Iron-Body Ponshu. You can use Zen Pilgrimage twice to return to the Temple or run back.|PRE|41087|
+C A Hero's Weapon|QID|43359|M|51.47,48.86|NC|N|Stand in the green runed circle and use the provided special action button.|
+T A Hero's Weapon|QID|43359|M|51.40,48.37|N|To Iron-Body Ponshu.|
 
 ;2nd spec artifact
 A Two Paths, Two Weapons|QID|43973|M|51.39,48.38|N|From Iron-Body Ponshu.|LVL|101|
@@ -417,7 +490,7 @@ T Into The Heavens|QID|40570|M|50.54,58.61|N|To Li Li Stormstout.|
 R Temple of Five Dawns|QID|40698|M|51.41,48.37|N|Run up the hill to the Temple.|CC|
 
 ;Monk Class Hall (after finishing first artifact)
-A Purity of Form|QID|40698|M|51.41,48.37|N|From Iron-Body Ponshu.|PRE|42765;42636;40634|
+A Purity of Form|QID|40698|M|51.41,48.37|N|From Iron-Body Ponshu.|PRE|42765+42636+40634|
 C Purity of Form|QID|40698|M|51.44,48.25|NC|N|Use the forge to empower your artifact.|
 T Purity of Form|QID|40698|M|51.41,48.37|N|To Iron-Body Ponshu.|
 A A Matter of Planning|QID|40793|M|51.41,48.37|N|From Iron-Body Ponshu.|PRE|40698|
@@ -432,6 +505,7 @@ J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you wi
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
+J On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|GUIDE|Blanc_Suramar|
 
 ]]
 end)
