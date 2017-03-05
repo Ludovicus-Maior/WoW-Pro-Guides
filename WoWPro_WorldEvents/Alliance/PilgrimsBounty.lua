@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
+-- Date: 2017-03-05 18:53
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3443/revisions/27365/view
 -- Date: 2015-07-25 18:18
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -50,7 +55,7 @@
 -- Log: Added source code page.
 
 local guide = WoWPro:RegisterGuide("LudoPilBountyA",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,90,10)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
 WoWPro:GuideIcon(guide,"ACH",3478)
 WoWPro:GuideSteps(guide, function()

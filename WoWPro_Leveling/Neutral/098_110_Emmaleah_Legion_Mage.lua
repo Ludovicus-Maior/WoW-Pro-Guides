@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2017-03-05 18:32
+-- Who: Ludovicus
+-- Log: Coord corrections for [Rise, Champions] quests.
+
+-- URL: http://wow-pro.com/node/3671/revisions/28259/view
 -- Date: 2017-03-04 18:52
 -- Who: Blanckaert
 -- Log: fixed ; + switch on QID 44448
@@ -88,8 +93,6 @@ WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Mage")
 WoWPro:GuideSteps(guide, function()
 return [[
-N DRAFT|N|A great deal of the content from lvl 101 and on is gleaned from WoWhead and untested. Please post any corrections.|
-
 ; For 44663 and 44184, Grail is reporting PRE of 44120+44473 - which are DH Quests
 
 A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
@@ -126,30 +129,30 @@ A Champion: Archmage Modera|QID|42685|M|56,39|LVL|101|PRE|42663|N|From/To Archma
 A Champion: Archmage Kalec|QID|42662|M|55.8,38.8|LVL|101|PRE|42663|N|From/To Archmage Kalec.|
 T Rise, Champions|QID|42663|LVL|101|M|60.4,36|N|To Meryl Felstorm.|
 A Technical Wizardry|QID|42703|LVL|101|M|60.4,36|N|From Meryl Felstorm.|
-T Technical Wizardry|QID|42703|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-A Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
-T Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
-A Building Our Troops|QID|42127|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Building Our Troops|QID|42127|LVL|101|M|85.8,46.2|Z|MageClassShrine/2|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
-T Building Our Troops|QID|42127|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
-A Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
-t Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
-A Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
-t Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
-A Ancient Magic|QID|42433|M|82.4,55.6|N|From Archmage Vargoth.|LVL|101|
-C Ancient Magic|QID|42433|M|82.4,55.6|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|
-t Ancient Magic|QID|42433|M|80.8,61.8|N|To Archmage Melis.|
+T Technical Wizardry|QID|42703|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+A Archmage Omniara|QID|42126|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Archmage Omniara|QID|42126|LVL|101|M|81.37,60.86|Z|Hall of the Guardian@MageClassShrine|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
+T Archmage Omniara|QID|42126|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Building Our Troops|QID|42127|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Building Our Troops|QID|42127|LVL|101|M|87.88,47.50|Z|Hall of the Guardian@MageClassShrine|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
+T Building Our Troops|QID|42127|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Troops in the Field|QID|42687|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Troops in the Field|QID|42687|LVL|101|M|81.37,60.86|Z|Hall of the Guardian@MageClassShrine|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
+t Troops in the Field|QID|42687|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Tech It Up A Notch|QID|42696|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Tech It Up A Notch|QID|42696|LVL|101|M|74.88,28.88|Z|Hall of the Guardian@MageClassShrine|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
+t Tech It Up A Notch|QID|42696|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Ancient Magic|QID|42433|M|883.44,55.01|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Vargoth, who paces.|LVL|101|
+C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian@MageClassShrine|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
+t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
 
-A Recruiting Apprentices|QID|44098|LVL|104|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Recruiting Apprentices|QID|44098|LVL|104|M|48,33.4|Z|MageClassShrine/2|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
-T Recruiting Apprentices|QID|44098|LVL|104|M|48,33.4|Z|MageClassShrine/2|N|To Grand Conjurer Mimic.|
+A Recruiting Apprentices|QID|44098|LVL|104|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Recruiting Apprentices|QID|44098|LVL|104|M|48,33.4|Z|Hall of the Guardian@MageClassShrine|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
+T Recruiting Apprentices|QID|44098|LVL|104|M|48,33.4|Z|Hall of the Guardian@MageClassShrine|N|To Grand Conjurer Mimic.|
 
-A An Unexpected Visitor|QID|42418|M|80.8,61.8|N|From Archmage Melis.|PRE|42433|LVL|103|
-T An Unexpected Visitor|QID|42418|M|60.8,59.4|Z|MageClassShrine/2|N|To Ravandwyr.|
-A A Covert Operation|QID|42434|M|60.8,59.4|Z|MageClassShrine/2|N|From Ravandwyr.|PRE|42418|
+A An Unexpected Visitor|QID|42418|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|PRE|42433|LVL|103|
+T An Unexpected Visitor|QID|42418|M|61.82,60.00|Z|The Guardian's Library@MageClassShrine|N|To Ravandwyr.|
+A A Covert Operation|QID|42434|M|61.82,60.00|Z|The Guardian's Library@MageClassShrine|N|From Ravandwyr.|PRE|42418|
 C A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
 T A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|To Ravandwyr.|
 A Prepare to Be Assimilated|QID|42435|M|64.9,37.8|Z|Azsuna|N|From Ravandwyr.|PRE|42434|
@@ -232,9 +235,9 @@ R Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|Talk to Khadgar to start the sce
 t Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|To Archmage Khadgar.|
 A Champion: Meryl Felstorm|QID|42914|M|71.4,61.8|N|From/To Meryl Felstorm|LVL|110|PRE|42734|
 
-A Small Favor|QID|42954|M|37.8,49.8|Z|MageClassShrine/2|N|From Archmage Khadgar.|LVL|110|
-T Small Favor|QID|42954|M|37.8,49.8|Z|MageClassShrine/2|N|To Ari.|
-A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|MageClassShrine/2|N|From Ari.|PRE|42954|
+A Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Khadgar.|LVL|110|
+T Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|To Ari.|
+A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|From Ari.|PRE|42954|
 C The Proper Way of Things|QID|42955|M|46.11,73.75|Z|Suramar|U|138965|N|Collect Phials of Nightwell Energy.|
 T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian@MageClassShrine|N|To Ari.|
 A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian@MageClassShrine|N|From Ari.|PRE|42955|
@@ -291,7 +294,7 @@ T Destiny Unfulfilled|QID|44496|M|83.62,32.71|Z|Hall of the Guardian@MageClassSh
 A Orange is the New Purple|QID|44240|LVL|110|M|45.4,57.2|N|From Jackson Watkins.|
 A Champion: Millhouse Manastorm|QID|42702|LVL|110|M|56.2,57.8|N|From/To Millhouse Manastorm.|
 A Champion: Archmage Vargoth|QID|42917|LVL|110|M|70.2,60.4|N|From/To Archmage Vargoth.|
-A Champion: Arcane Destroyer|QID|42704|LVL|110|M|38.4,48.4|Z|MageClassShrine/2|N|From/To Arcane Destroyer.|
+A Champion: Arcane Destroyer|QID|42704|LVL|110|M|38.4,48.4|Z|Hall of the Guardian@MageClassShrine|N|From/To Arcane Destroyer.|
 
 ; if you pick the talent for Arcane Armements you get this one....
 A Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian@MageClassShrine/1|N|From Minuette.|

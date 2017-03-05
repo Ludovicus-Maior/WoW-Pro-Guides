@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2017-03-05 18:54
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3458/revisions/27363/view
 -- Date: 2015-07-25 18:17
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -59,7 +64,7 @@
 -- Log: Sync to GIT
 
 local guide = WoWPro:RegisterGuide("LudoWinterVeilA",'WorldEvents',"Winter Veil", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,80,19.2647)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"WinterVeil")
 WoWPro:GuideIcon(guide,"ACH",1691)
 WoWPro:GuideSteps(guide, function()

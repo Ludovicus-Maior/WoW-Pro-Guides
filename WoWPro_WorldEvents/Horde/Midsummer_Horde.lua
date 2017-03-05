@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2017-03-05 18:53
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3407/revisions/27717/view
 -- Date: 2016-09-07 14:34
 -- Who: Ludovicus
 -- Log: Use  The Slave Pens@TheSlavePens
@@ -67,7 +72,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmMidAch','WorldEvents','Orgrimmar', 'Emmaleah', 'Horde')
 WoWPro:GuideName(guide, 'Midsummer Fire Festival')
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer")
 WoWPro:GuideSteps(guide, function()
 return [[

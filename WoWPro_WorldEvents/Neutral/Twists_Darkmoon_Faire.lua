@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2017-03-05 18:51
+-- Who: Ludovicus
+-- Log: Darkmoon tweaks!
+
+-- URL: http://wow-pro.com/node/3459/revisions/28213/view
 -- Date: 2017-01-05 14:05
 -- Who: Ludovicus
 -- Log: Finish Pet battle updates and move Jubling to RANK|3
@@ -151,7 +156,7 @@
 -- Log: Sync to git
 
 local guide = WoWPro:RegisterGuide("TwiDarkmoon",'WorldEvents',"DarkmoonFaireIsland", "Twists", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"Darkmoon Faire")
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_MISC_Cape_DarkmoonFaire_C_01")
 WoWPro:GuidePetBattle(guide)
@@ -254,7 +259,7 @@ T Darkmoon Pet Battle!|QID|32175|M|47.04,62.74|N|To Jeremy Feasel|
 
 A A New Darkmoon Challenger!|QID|36471|SPELL|Revive Battle Pets;125439;true|M|47.29,61.98|N|From Christoph VonFeasel.|
 ; Syd (H1694, P319, S300), Pointy(H1694, P319, S300), Otto(H1694, P319, S300)
-N VonFeasel|ACTIVE|36471|PET1|Bronze Whelpling;7546;2+1+1;S>300|PET2|Leveling;;;|PET3|Iron Starlette;77221;1+1+1;H>1500|STRATEGY|LudoVonFeaselLevel|
+N VonFeasel|ACTIVE|36471|PET1|Bronze Whelpling;7546;2+1+1;P>300|PET2|Leveling;;;|PET3|Iron Starlette;77221;1+1+1;S>270|STRATEGY|LudoVonFeaselLevel|
 C Whelp .vs. Syd|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) Spam [ability=122/tail-sweep]\n2) [ability=170/lift-off] when 1 round left on [ability=513/whirlpool]|SELECT|1|DEAD|2,1|
 C Whelp .vs. Pointy|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=405/early-advantage]\n2) Die gracefully and switch in the leveling pet.|SELECT|1|DEAD|1,1|SWITCH|2|
 C Level to Starlette|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) Let the leveling pet stare in fright.\n2) Switch to the Starlette|SELECT|2|SWITCH|3|
@@ -308,12 +313,12 @@ A Keeping the Faire Sparkling|QID|29516|M|55.00,70.76|N|From Chronos.|P|Jewelcra
 A Herbs for Healing|QID|29514|M|55.00,70.76|N|From Chronos.|P|Herbalism;182;75|
 A Tan My Hide|QID|29519|M|55.00,70.7|N|From Chronos.|P|Skinning;393;75|
 
-N Collect 6 Darkblossom|QID|29514|L|72046 6|S|
+C Collect 6 Darkblossom|QID|29514|QO|1|S|NC|
 C Tan My Hide|QID|29519|NC|N|Found throughout the Island.|S|
 N Collect 5 Bits of Glass|QID|29516|N|Green sparkling Gems.|L|72052 5|S|
 
 C Putting the Carnies Back Together Again|QID|29512|NC|M|54.87,70.75;47.44,74.85|CN|N|Use the bandage on Carnies.|U|71978|T|Injured Carnie|
-C Herbs for Healing|QID|29514|US|NC|
+C Collect 6 Darkblossom|QID|29514|QO|1|US|NC|
 T Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|To Chronos.|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
 

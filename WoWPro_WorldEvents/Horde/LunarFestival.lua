@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2017-03-05 18:55
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3452/revisions/28024/view
 -- Date: 2016-11-16 22:56
 -- Who: Ludovicus
 -- Log: Corrected ¦Z¦The Temple of Atal Hakkar¦
@@ -93,7 +98,7 @@
 -- Log: Source page created.
 
 local guide = WoWPro:RegisterGuide("CraLunFesEldH",'WorldEvents',"Lunar Festival Elders Guide", "Crackerhead22", "Horde")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LunarFestival")
 WoWPro:GuideIcon(guide,"ACH",914)
 WoWPro:GuideSteps(guide, function()

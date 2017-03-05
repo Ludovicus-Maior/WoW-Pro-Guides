@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2017-03-05 18:28
+-- Who: Ludovicus
+-- Log: Tag Tweaks on playthough
+
+-- URL: http://wow-pro.com/node/3668/revisions/28261/view
 -- Date: 2017-03-04 18:55
 -- Who: Blanckaert
 -- Log: Fix QID 44448 wrong modifier from ; to +
@@ -276,7 +281,7 @@ A Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenSh
 t Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
 U Knights of the Ebon Blade|ACTIVE|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|At Korgaz Deadaxe. Click on him to train some better troops. Don't forget to come back and pick them up when training is completed.|
 T Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|To Korgaz Deadaxe.|
-A The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|NA|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|44082+43571|
+A The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|NA|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|44082;43571|
 t The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
 
 ;upon first hitting 110
@@ -447,7 +452,7 @@ A Champion: Darion Mograine|QID|44248|M|26.90,28.78|Z|The Heart of Acherus@Broke
 A A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Morgraine, who is now by your Soul Forge.|PRE|43686|
 C A Hero's Weapon|QID|43407|M|58.50,58.54|Z|The Heart of Acherus@BrokenShore|NC|N|Stand in the designated spot and use your extra action button.|
 T A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Morgraine. You have now unlocked the third relic slot, congratulations!|
-A The Power Within|QID|43496|M|44.24,45.64|N|From Image of Kalec. prereq seems to be AK>=10 and finishing class hall campaign.|
+A The Power Within|QID|43496|M|44.24,45.64|N|From Image of Kalec. prereq seems to be AK>=10 and finishing class hall campaign.|PRE|43407|
 F Azurewing Repose|QID|43496|M|25.55,28.86|N|At Grimwing.|
 T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
 A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
@@ -459,7 +464,7 @@ T Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N
 A Artifact specific quest|QID|40740;38990;40935|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|PRE|43935|LVL|102|
 
 ;3rd spec artifact
-A A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACH|11174;;true|
+A A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACH|11174;;true|ACTIVE|-38990+-40935+-40987|
 C A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the remaining artifact.|
 T A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|
 
@@ -513,16 +518,16 @@ C A Grisly Task|QID|40933|QO|1|M|52.05,70.37|Z|Deadwind Pass|N|Click on the pile
 T A Grisly Task|QID|40933|M|49.45,74.70|Z|Deadwind Pass|N|To Revil Kost.|
 A The Dark Riders|QID|40934;40986|M|49.45,74.70|Z|Deadwind Pass|N|From Revil Kost.|PRE|40933|
 R Catacombs|QID|40934;40986|M|46.63,69.10|Z|Deadwind Pass|CC|N|Make your way into the Dark Riders' catacombs beneath Karazhan.|ACTIVE|40934;40986|
-C Karazhan Catacombs infiltrated|SO|1|M|72.51,75.28|Z|32/1|N|Infiltrate Karazhan Catacombs.|QID|40934;40986|
-C Spirit Barrier crossed|SO|2|M|70.43,69.67|Z|32/1|N|Instead of crossing the Spirit Barrier, use Death Grip to bring the Conservator to you.|QID|40934;40986|
-C Conservator Defeated|SO|3|M|57.08,68.89|Z|32/1|N|Defeat the Conservator.|QID|40934;40986|
-C Apocalypse found|SO|4|M|47.14,67.69|Z|32/1|NC|N|Find Apocalypse.|QID|40934;40986|
-C Ariden followed|SO|5|M|55.31,55.90;68.17,43.97|CS|Z|32/1|N|Follow Ariden into the depths of the Karazhan catacombs.|QID|40934;40986|
-C Ariden defeated|SO|6|M|68.47,31.56|Z|32/1|N|Defeat Ariden, (quickly as he summons adds.)|QID|40934;40986|
-C The Dark Riders|QID|40934;40986|QO|2|M|68.16,24.72|Z|32/1|NC|N|Pick up Apocalypse.|
-T The Dark Riders|QID|40934;40986|M|68.24,27.11|Z|32/1|N|To Revil Kost.|
-A The Call of Vengeance|QID|40935;40987|M|68.24,27.11|Z|32/1|N|From Revil Kost.|PRE|40934;40986|
-C The Call of Vengeance|QID|40935;40987|QO|1|M|69.56,26.63|Z|32/1|NC|N|Take the Death Gate provided.|
+C Karazhan Catacombs infiltrated|SO|1|M|72.51,75.28|Z|32/27|N|Infiltrate Karazhan Catacombs.|QID|40934;40986|
+C Spirit Barrier crossed|SO|2|M|70.43,69.67|Z|32/27|N|Instead of crossing the Spirit Barrier, use Death Grip to bring the Conservator to you.|QID|40934;40986|
+C Conservator Defeated|SO|3|M|57.08,68.89|Z|32/27|N|Defeat the Conservator.|QID|40934;40986|
+C Apocalypse found|SO|4|M|47.14,67.69|Z|32/27|NC|N|Find Apocalypse.|QID|40934;40986|
+C Ariden followed|SO|5|M|55.31,55.90;68.17,43.97|CS|Z|32/27|N|Follow Ariden into the depths of the Karazhan catacombs.|QID|40934;40986|
+C Ariden defeated|SO|6|M|68.47,31.56|Z|32/27|N|Defeat Ariden, (quickly as he summons adds.)|QID|40934;40986|
+C The Dark Riders|QID|40934;40986|QO|2|M|68.16,24.72|Z|32/27|NC|N|Pick up Apocalypse.|
+T The Dark Riders|QID|40934;40986|M|68.24,27.11|Z|32/27|N|To Revil Kost.|
+A The Call of Vengeance|QID|40935;40987|M|68.24,27.11|Z|32/27|N|From Revil Kost.|PRE|40934;40986|
+C The Call of Vengeance|QID|40935;40987|QO|1|M|69.56,26.63|Z|32/27|NC|N|Take the Death Gate provided.|
 C The Call of Vengeance|QID|40935;40987|QO|2|M|49.08,90.73|Z|The Frozen Throne@IcecrownCitadelDeathKnight|NC|N|Stand by the throne a minute or so to obtain the Mark of the Lich King.|
 C The Call of Vengeance|QID|40935;40987|QO|3|M|63.38,69.31|Z|Dalaran@Dalaran70|NC|N|Take the Death Gate to Acherus|
 T The Call of Vengeance|QID|40935;40987|M|50.85,50.52|N|To Highlord Darion Mograine.|

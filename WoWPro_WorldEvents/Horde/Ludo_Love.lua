@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2017-03-05 18:55
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3467/revisions/27358/view
 -- Date: 2015-07-25 18:11
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -58,7 +63,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("LudoLoveH",'WorldEvents',"Love is in the Air", "Ludovicus", "Horde")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
 WoWPro:GuideIcon(guide,"ACH",1695)
 WoWPro:GuideSteps(guide, function()

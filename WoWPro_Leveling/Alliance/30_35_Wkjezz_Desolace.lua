@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2017-03-05 18:39
+-- Who: Ludovicus
+-- Log: QO Cleanups.
+
+-- URL: http://wow-pro.com/node/3313/revisions/27430/view
 -- Date: 2016-02-08 01:03
 -- Who: Ludovicus
 -- Log: Added [Hero's Call: Desolace!] support.
@@ -157,13 +162,13 @@ T Rerouted!|QID|14384|M|66.75,10.90|N|To Corporal Melkins.|
 A Lay of the Land|QID|14387|M|66.75,10.90|N|From Captain Pentigast.|
 T Lay of the Land|QID|14387|M|66.48,11.76|N|To Vahlarriel Demonslayer.|
 A Elune's Gifts|QID|14354|M|66.48,11.76|N|From Vahlarriel Demonslayer.|
-N Cup of Elune|QID|14354|M|77.00,18.25|N|Visit the Cup of Elune.|QO|Cup of Elune Visited: 1/1|
+N Cup of Elune|QID|14354|M|77.00,18.25|N|Visit the Cup of Elune.|QO|3|
 A Nothing a Couple of Melons Won't Fix|QID|14193|M|77.00,18.25|N|Started by the Cup of Elune.|
 l Melonfruit|QID|14193|L|48106 8|M|77.06,18.18|N|Gather 8 Melons from the ground.|S|
-N Elune's Brazier|QID|14354|M|78.77,22.98|N|Visit Elune's Brazier|QO|Elune's Brazier Visited: 1/1|
+N Elune's Brazier|QID|14354|M|78.77,22.98|N|Visit Elune's Brazier|QO|2|
 A Ten Pounds of Flesh|QID|14358|M|78.77,22.98|N|Started by Elune's Brazier.|
 l Ten Pounds of Flesh|QID|14358|S|L|48857 10|N|Kill and loot Satyrs for their flesh, you need 10 total.|
-C Elune's Gifts|QID|14354|M|75.97,26.57|N|Visit Handmaiden Of Elune.|
+C Elune's Gifts|QID|14354|M|75.97,26.57|N|Visit Handmaiden Of Elune.|QO|1|
 
 A To the Hilt!|QID|14357|M|75.97,26.57|N|Started by Elune's Handmaiden.|
 l Satyr Sabers|QID|14357|S|L|48943 20|N|From weapons racks and Satyr kills, you will need 20 total.|
@@ -198,7 +203,7 @@ A You'll Know It When You See It|QID|14363|M|53.40,33.34|N|(UI Alert)|
 C You'll Know It When You See It|QID|14363|M|52.94,28.96|N|Head up to the building, and loot the Demonic Chest.|
 T You'll Know It When You See It|QID|14363|M|52.94,28.96|N|(UI Alert)|
 A Putting Their Heads Together|QID|14364|M|52.94,28.96|N|(UI Alert)|
-l Bleached Skulls|QID|14364|L|48953 100|N|From piles around the compound.|
+l Bleached Skulls|QID|14364|ACTIVE|14364|L|48953 100|N|From piles around the compound.|
 C Putting Their Heads Together|QID|14364|U|48953|M|54.96,26.68|N|Use the skulls at the center of the building, and kill Nazargen.|
 C Ears Are Burning|QID|14362|M|53.20,27.48|US|N|Kill and loot Burning Blade mobs for their ears.|
 C Fletch Me Some Plumage!|QID|14253|US|M|46.33,34.99;49.68,25.62|CN|RANK|2|N|Finish collecting Dread Swoop Feathers.|
@@ -321,14 +326,14 @@ T My Word is My Bond|QID|14327|M|58.28,50.00|N|To Khan Leh'Prah.|
 
 A Three Princes|QID|14328|M|58.28,50.00|N|From Khan Leh'Prah.|
 A Thargad's Camp|QID|14372|M|57.43,47.73|N|From Karnum Marshweaver.|
-A Ghost-o-plasm Round Up|QID|6134|M|47.85,61.73|N|From Hornizz Brimbuzzle.|
+A Ghost-o-plasm Round Up|QID|6134|M|47.85,61.73|LVL|34|N|From Hornizz Brimbuzzle.|
 f Thargad's Camp|QID|14372|M|36.76,71.68|N|At Moira Steelwing.|
 T Thargad's Camp|QID|14372|M|36.65,71.31|N|To Thargad.|
 A Infernal Encroachment|QID|14373|M|36.65,71.31|N|From Thargad.|
 A Portals of the Legion|QID|14374|M|36.65,71.31|N|From Thargad.|
-K Sherik|QID|14328|QO|Sherik Defeated: 1/1|M|35.55,81.43|N|Kill Sherik.|
-K Rhoho|QID|14328|QO|Rhoho Defeated: 1/1|M|41.46,82.91|N|Kill Rhoho.|
-C Three Princes|QID|14328|M|35.66,91.21|N|Kill Joreth.|
+K Sherik|QID|14328|QO|2|M|35.55,81.43|N|Kill Sherik.|
+K Rhoho|QID|14328|QO|1|M|41.46,82.91|N|Kill Rhoho.|
+C Three Princes|QID|14328|QO|3|M|35.66,91.21|N|Kill Joreth.|
 
 R Bolgan's Hole|QID|14328|M|38.51,91.04|N|Go down into the crevice, then around and up to the bridge, cross the bridge and enter the cave.|
 T Three Princes|QID|14328|M|40.42,95.50|N|To Khan Shodo.|
@@ -367,6 +372,7 @@ T Death to Agogridon|QID|14394|M|82.41,80.80|N|To Khan Leh'Prah.|
 
 H Karnum's Glade|QID|6134|N|Or Run all the Way to Karnum's Glade camp. If you are running, manually close this step.|
 T Ghost-o-plasm Round Up|QID|6134|N|To Hornizz Brimbuzzle.|M|47.88,61.80|
+F Thargad's Camp|QID|14373|M|57.71,49.75|N|Ask Lastrea Greengale for a flight.|
 T Infernal Encroachment|QID|14373|M|36.65,71.29|N|To Thargad.|
 T Portals of the Legion|QID|14374|M|36.65,71.29|N|To Thargad.|
 A Hunting Brendol|QID|14378|M|36.65,71.29|N|From Thargad.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2017-03-05 18:41
+-- Who: Ludovicus
+-- Log: Add Horde PRE for [The Maelstrom]
+
+-- URL: http://wow-pro.com/node/3307/revisions/26900/view
 -- Date: 2014-11-08 03:05
 -- Who: Emmaleah
 -- Log: delete 2 dup M tags per list o' errors
@@ -195,7 +200,7 @@ T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|Stormwind City|N|If you have it
 A Warchief's Command: Deepholm!|QID|27722|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
 T Warchief's Command: Deepholm!|QID|27722|M|50.30,38.24|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
 
-A The Maelstrom|QID|27203|PRE|27727|Z|The Maelstrom|M|74.5,19.3|N|From Naraat the Earthspeaker.|
+A The Maelstrom|QID|27203|PRE|27722+27727|Z|The Maelstrom|M|74.5,19.3|N|From Naraat the Earthspeaker.|
 T The Maelstrom|QID|27203|M|33.2,50.2|Z|The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
 A Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|PRE|27203|M|33.2,50.2|N|From Thrall.|
 C Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|M|33.2,50.2|N|Hop on the Wyvern behind you.|

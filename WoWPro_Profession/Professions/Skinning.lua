@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_skinning
+-- Date: 2017-03-05 18:43
+-- Who: Ludovicus
+-- Log: Initial Skinning guide
+
+-- URL: http://wow-pro.com/node/3463/revisions/28200/view
 -- Date: 2017-01-02 22:42
 -- Who: Ludovicus
 -- Log: New style registration

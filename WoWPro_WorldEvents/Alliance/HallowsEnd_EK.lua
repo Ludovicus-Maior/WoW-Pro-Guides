@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2017-03-05 18:53
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3440/revisions/27166/view
 -- Date: 2015-03-09 17:40
 -- Who: Ludovicus
 -- Log: The Underbelly@Dalaran
@@ -143,7 +148,7 @@
 -- Who: Crackerhead22
 
 local guide = WoWPro:RegisterGuide("TwiHollEK",'WorldEvents',"Eastern Kingdoms", "Twists", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Eastern Kingdoms")
 WoWPro:GuideSteps(guide, function()
 return [[

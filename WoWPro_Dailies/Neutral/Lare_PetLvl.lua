@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_levelup_125
+-- Date: 2017-03-05 18:34
+-- Who: Ludovicus
+-- Log: Fix Shu's RANK setting
+
+-- URL: http://wow-pro.com/node/3642/revisions/28182/view
 -- Date: 2016-12-28 17:09
 -- Who: Ludovicus
 -- Log: Add Markup like [ability=112/peck] to guide.
@@ -93,10 +98,10 @@ T Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|To Flowing Pand
 
 N Grand Master Shu|AVAILABLE|31957|PET1|Leveling;;;H>800M|PET2|Szechuan Chicken;63585;1+1+2|PET3|Red Cricket;63370;1+2+1|STRATEGY|Ludovicus/Shu|RANK|3|
 A Grand Master Shu|QID|31957|M|55.10,37.56|Z|Dread Wastes|N|From Wastewalker Shu|RANK|3|STRATEGY|Ludovicus/Shu|
-C Leveling|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Start off with your level pet, do something and then switch to Chicken|RANK|2|SELECT|1|SWITCH|2|
-C [ability=406/crush]er|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Squawk\n2) Peck to death.\n3) Squawk when debuffed\n4) Swap to Cricket when [ability=406/crush]er is dead.|RANK|2|SELECT|2|DEAD|2,1|SWITCH|3|
-C Pounder|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Use Cocoon Strike for Rupture, which is cast 1st. \n2) Nature's Touch on cooldown, \n3) Skitter on fill.|RANK|2|SELECT|3|DEAD|2,2|
-C Mutilator|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Use Cocoon Strike and Nature's Touch on cooldown, \n3) Skitter on fill.|RANK|2|SELECT|3|DEAD|2,3|
+C Leveling|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Start off with your level pet, do something and then switch to Chicken|RANK|3|SELECT|1|SWITCH|2|
+C [ability=406/crush]er|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Squawk\n2) Peck to death.\n3) Squawk when debuffed\n4) Swap to Cricket when [ability=406/crush]er is dead.|RANK|3|SELECT|2|DEAD|2,1|SWITCH|3|
+C Pounder|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Use Cocoon Strike for Rupture, which is cast 1st. \n2) Nature's Touch on cooldown, \n3) Skitter on fill.|RANK|3|SELECT|3|DEAD|2,2|
+C Mutilator|QID|31957|STRATEGY|Ludovicus/Shu|N|1) Use Cocoon Strike and Nature's Touch on cooldown, \n3) Skitter on fill.|RANK|3|SELECT|3|DEAD|2,3|
 T Grand Master Shu|QID|31957|M|55.10,37.56|Z|Dread Wastes|N|To Wastewalker Shu|RANK|3|
 
 N Grand Master Zusshi|AVAILABLE|31991|PET1|Chuck;26056;1+1+2|PET2|Jade Owl;61877;2+1+1|PET3|Leveling;;;|STRATEGY|sirinad@Wowhead.com/Zusshi|
