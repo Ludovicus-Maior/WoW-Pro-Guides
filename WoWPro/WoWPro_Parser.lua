@@ -406,8 +406,11 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    else
 	        if not tag and idx <  #tags then
 	            WoWPro:Warning("%d:Empty tag in [%s].",i,atext)
-	        elseif tag and tag ~= "" and tag:sub(1,1) ~= ";" then
-	            -- empty tags and tags that are comments are permissible
+	        elseif tag and tag:sub(1,1) == ";" then
+	            -- Comment tags terminate the line parsing
+	            break
+	        elseif tag and tag ~= "" then
+	            -- terminal empty tags are permissible, complain about anything else
 	            WoWPro:Error("%i:Unknown tag ¦%s¦ in [%s].",i,tag, atext)
 	        end
 	    end
