@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_blacksmithing
+-- Date: 2017-03-06 03:10
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3409/revisions/28191/view
 -- Date: 2017-01-02 22:36
 -- Who: Ludovicus
 -- Log: New style registration
@@ -46,6 +51,7 @@
 
 local guide = WoWPro:RegisterGuide("TwiBlacksmithing","Profession","Blacksmithing", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",164)
+WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Blacksmithing")
 WoWPro:GuideSteps(guide, function()
 return [[

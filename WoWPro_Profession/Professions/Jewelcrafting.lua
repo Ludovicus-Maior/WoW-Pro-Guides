@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_jewelcrafting
+-- Date: 2017-03-06 03:12
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3427/revisions/28197/view
 -- Date: 2017-01-02 22:39
 -- Who: Ludovicus
 -- Log: New style registration
@@ -24,6 +29,7 @@
 
 local guide = WoWPro:RegisterGuide("TwiJewelcrafting","Profession","Jewelcrafting", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",755)
+WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Jewelcrafting")
 WoWPro:GuideSteps(guide, function()
 return [[

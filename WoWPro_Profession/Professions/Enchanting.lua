@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_enchanting
+-- Date: 2017-03-06 03:11
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3460/revisions/28192/view
 -- Date: 2017-01-02 22:36
 -- Who: Ludovicus
 -- Log: New style registration
@@ -18,6 +23,7 @@
 
 local guide = WoWPro:RegisterGuide("TwiEnchanting","Profession","Enchanting", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",333)
+WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Enchanting")
 WoWPro:GuideSteps(guide, function()
 return [[

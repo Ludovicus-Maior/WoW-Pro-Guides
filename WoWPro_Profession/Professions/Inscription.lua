@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_inscription
+-- Date: 2017-03-06 03:12
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3411/revisions/28196/view
 -- Date: 2017-01-02 22:38
 -- Who: Ludovicus
 -- Log: New style registration
@@ -28,6 +33,7 @@
 
 local guide = WoWPro:RegisterGuide("TwiInscription","Profession","Inscription", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",773)
+WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Inscription")
 WoWPro:GuideSteps(guide, function()
 return [[

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_herbalism
+-- Date: 2017-03-06 03:11
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3462/revisions/28195/view
 -- Date: 2017-01-02 22:38
 -- Who: Ludovicus
 -- Log: New style registration
@@ -24,6 +29,7 @@
 
 local guide = WoWPro:RegisterGuide("TwiHerbalism","Profession","Herbalism", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",182)
+WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Herbalism")
 WoWPro:GuideSteps(guide, function()
 return [[

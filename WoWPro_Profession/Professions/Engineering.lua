@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_engineering
+-- Date: 2017-03-06 03:11
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3461/revisions/28193/view
 -- Date: 2017-01-02 22:37
 -- Who: Ludovicus
 -- Log: New style registration
@@ -20,6 +25,7 @@
 
 local guide = WoWPro:RegisterGuide("TwiEngineering","Profession","Engineering", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",202)
+WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Engineering")
 WoWPro:GuideSteps(guide, function()
 return [[

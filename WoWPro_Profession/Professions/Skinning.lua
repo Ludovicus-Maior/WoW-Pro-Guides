@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_skinning
+-- Date: 2017-03-06 03:12
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3463/revisions/28280/view
 -- Date: 2017-03-05 18:43
 -- Who: Ludovicus
 -- Log: Initial Skinning guide
@@ -20,6 +25,7 @@
 
 local guide = WoWPro:RegisterGuide("TwiSkinning","Profession","Skinning", "Ludovicus", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",393)
+WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Skinning")
 WoWPro:GuideSteps(guide, function()
 return [[

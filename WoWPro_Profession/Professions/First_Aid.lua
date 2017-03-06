@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_first_aid
+-- Date: 2017-03-06 03:11
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3410/revisions/28194/view
 -- Date: 2017-01-02 22:37
 -- Who: Ludovicus
 -- Log: New style registration
@@ -28,6 +33,7 @@
 
 local guide = WoWPro:RegisterGuide("TwiFirstAid","Profession","First Aid", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",129)
+WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "First Aid")
 WoWPro:GuideSteps(guide, function()
 return [[

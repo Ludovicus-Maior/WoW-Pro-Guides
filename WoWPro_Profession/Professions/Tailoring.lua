@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_tailoring
+-- Date: 2017-03-06 03:13
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3412/revisions/28199/view
 -- Date: 2017-01-02 22:39
 -- Who: Ludovicus
 -- Log: New style registration
@@ -35,6 +40,7 @@
 
 local guide = WoWPro:RegisterGuide("TwiTailoring","Profession","Tailoring", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",197)
+WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Tailoring")
 WoWPro:GuideSteps(guide, function()
 return [[

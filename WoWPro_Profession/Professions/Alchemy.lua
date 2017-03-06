@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_alchemy
+-- Date: 2017-03-06 03:10
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3408/revisions/28190/view
 -- Date: 2017-01-02 22:35
 -- Who: Ludovicus
 -- Log: New style registration
@@ -38,6 +43,7 @@
 local guide = WoWPro:RegisterGuide("TwiAlchemy","Profession","Alchemy", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",171)
 WoWPro:GuideName(guide, "Alchemy")
+WoWPro:GuideLevels(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 

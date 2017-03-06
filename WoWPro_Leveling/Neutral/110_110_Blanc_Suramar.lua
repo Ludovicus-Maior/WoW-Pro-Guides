@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/suramar_guide
+-- Date: 2017-03-06 02:05
+-- Who: Blanckaert
+-- Log: fixed missing CR/EOL for quest 42229 - C step / T Step
+
+-- URL: http://wow-pro.com/node/3687/revisions/28272/view
 -- Date: 2017-03-04 23:24
 -- Who: Emmaleah
 -- Log: Delete dup C Scattered memories|US| line; change wording and add a coordinate to R Ruins of Elune'eth|QID|40956
@@ -248,11 +253,6 @@
 -- Who: Blanckaert
 -- Log: added a Silver mob. More to be added as pathing is figured out.
 
--- URL: http://wow-pro.com/node/3687/revisions/28053/view
--- Date: 2016-11-26 02:43
--- Who: Blanckaert
--- Log: Do not try to rush a guide, on a full Turkey Day stomach...  Fixed My N, QID, and M items I forgot.
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideAutoSwitch(guide)
@@ -295,7 +295,8 @@ C Arcane Thirst|QID|40009|M|36.71,45.77|QO|2|N|Kill the Eternal Tethers first, s
 C Arcane Thirst|QID|40009|M|37.01,46.48|QO|3|US|NC|N|Finish collecting Crystallized Ancient Mana.|
 T Arcane Thirst|QID|40009|M|35.34,47.41|N|To First Arcanist Thalyssra.|
 A Shal'Aran|QID|42229|PRE|40009|M|35.34,47.41|N|From First Arcanist Thalyssra.|
-C Shal'Aran|QID|42229|M|36.54,46.94|NC|N|Stand here, as she walks around Shal'aran.  You won't need to follow her for credit.|T Shal'Aran|QID|42229|M|36.56,46.93|N|To First Arcanist Thalyssra.|
+C Shal'Aran|QID|42229|M|36.54,46.94|NC|N|Stand here, as she walks around Shal'aran.  You won't need to follow her for credit.|
+T Shal'Aran|QID|42229|M|36.56,46.93|N|To First Arcanist Thalyssra.|
 A Ancient Mana|QID|44672|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.|
 A Oculeth's Workshop|QID|40011|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.
 A An Old Ally|QID|40012|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.

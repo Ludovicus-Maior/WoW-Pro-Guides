@@ -1,4 +1,43 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/legion_profession_quests
+-- Date: 2017-03-04 19:13
+-- Who: Blanckaert
+-- Log: added more quests....  just cheated and cut and pasted whole guide
+
+-- URL: http://wow-pro.com/node/3712/revisions/28253/view
+-- Date: 2017-02-18 03:14
+-- Who: Blanckaert
+-- Log: rewite, broke up guide into the Profs, and sorted alphabetically.  Still adding and adjusting.
+
+-- URL: http://wow-pro.com/node/3712/revisions/28249/view
+-- Date: 2017-01-31 00:56
+-- Who: Blanckaert
+-- Log: updates, added quests, got 'most' of some professions, sorry - jewelcrafting I forgot to record, going to be manualing adding that one
+
+-- URL: http://wow-pro.com/node/3712/revisions/28241/view
+-- Date: 2017-01-14 22:51
+-- Who: Blanckaert
+-- Log: multi updates
+
+-- URL: http://wow-pro.com/node/3712/revisions/28210/view
+-- Date: 2017-01-02 23:09
+-- Who: Ludovicus
+-- Log: Updated guide registration
+
+-- URL: http://wow-pro.com/node/3712/revisions/28183/view
+-- Date: 2016-12-28 19:46
+-- Who: Blanckaert
+-- Log: fixed header info for guides
+
+-- URL: http://wow-pro.com/node/3712/revisions/28179/view
+-- Date: 2016-12-28 02:19
+-- Who: Blanckaert
+-- Log: New Guide... Attempt at putting Professions into one guide.
+
 local guide = WoWPro:RegisterGuide("Blanc_BI_Profs","Profession", "Legion Profession", "Blanckaert", "Neutral")
 WoWPro:GuideLevels(guide,98, 110, 105.784)
 WoWPro:GuideName(guide, "Legion Profession")
@@ -30,7 +69,7 @@ A Pristine Stonewood Bow|QID|40358|ACTIVE|40358|P|Archaeology;794|N|From UI Aler
 C Pristine Stonewood Bow|QID|40358|ACTIVE|40358|M|40.62,25.98|Z|Dalaran@Dalaran70|QO|1|N|Put Artifact on Display.|
 t Pristine Stonewood Bow|QID|40358|M|40.62,25.98|Z|Dalaran@Dalaran70|N|To UI Alert.|
 
-N Archaeology Bi-Weekly Quests|QID|40857;41167;41192|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|Not sure WHICH bi-weekly Quest will be up, just click this step, and any following ones till you get the one that is up. NOT all quests are in here yet.|
+N Archaeology Bi-Weekly Quests|QID|40857;41167;41192|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|Not sure WHICH bi-weekly Quest will be up, just click this step, and any following ones till you get the one that is up.  NOT all quests are in here yet.|
 
 A Bits and Pieces|QID|40857|AVAILABLE|40857|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|From Dariness the Learned.|
 F Valdisdall|QID|40857|ACTIVE|40857|M|69.85,51.15|Z|Dalaran@Dalaran70|N|At Aludane Whitecloud.|
@@ -709,8 +748,8 @@ B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|Z|Suramar|LVL|110|P|
 B Pattern: Imbued Silkweave Pantaloons|PRE|38974|M|36.50,46.78|Z|Suramar|LVL|110|P|Tailoring;197|L|137976|N|To First Arcanist Thalyssra.|RECIPE|185957|REP|The Nightfallen;1859;Exalted|
 B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|Z|Suramar|LVL|110|P|Tailoring;197|L|137979|N|To First Arcanist Thalyssra.||RECIPE|185960|REP|The Nightfallen;1859;Exalted|
 
+
+
 ]]
 
 end)
-
-
