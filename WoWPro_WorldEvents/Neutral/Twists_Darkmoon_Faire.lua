@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2017-03-08 00:04
+-- Who: Ludovicus
+-- Log: Everything
+
+-- URL: http://wow-pro.com/node/3459/revisions/28281/view
 -- Date: 2017-03-05 18:51
 -- Who: Ludovicus
 -- Log: Darkmoon tweaks!
@@ -265,7 +270,7 @@ C Whelp .vs. Pointy|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=405/earl
 C Level to Starlette|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) Let the leveling pet stare in fright.\n2) Switch to the Starlette|SELECT|2|SWITCH|3|
 C Starlette .vs. Pointy|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=566/powerball]\n2) 2x [ability=459/wind-up]\n3) optional [ability=566/powerball]|SELECT|3|DEAD|2,2|
 C Starlette .vs. Otto|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=459/wind-up]\n2) [ability=208/supercharge]\n3) [ability=459/wind-up]|SELECT|3|DEAD|2,3|
-T A New Darkmoon Challenger!|QID|36471||M|47.29,61.98|N|To Christoph VonFeasel.|
+T A New Darkmoon Challenger!|QID|36471|M|47.29,61.98|N|To Christoph VonFeasel.|
 
 C Rearm, Reuse, Recycle|QID|29518|NC|N|Look for Tonk Scrap. Look between the tents.|S|
 C Talkin' Tonks|QID|29511|NC|N|Repair tonks.|U|72110|S|

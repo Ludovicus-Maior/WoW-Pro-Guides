@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2017-03-07 19:58
+-- Who: Emmaleah
+-- Log: Since Headmistress' is a Feminine title... probably should refer to 'her' ... amazing that stayed in there incorrect so long.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28237/view
 -- Date: 2017-01-10 21:32
 -- Who: Blanckaert
 -- Log: minor adjustments to some quests
@@ -534,7 +539,7 @@ C Pop Quiz: Advanced Rune Drawing|QID|37729|QO|2|M|34.13,43.72|Z|1015/17|NC|N|Ru
 C Pop Quiz: Advanced Rune Drawing|QID|37729|QO|3|M|33.92,41.48|Z|1015/17|NC|N|Run around between the lite blue lines on the floor to draw the frost rune.|
 T Pop Quiz: Advanced Rune Drawing|QID|37729|M|28.91,42.32|Z|1015/17|N|To Instructor Nidriel.|
 A The Headmistress' Keys|QID|37730|PRE|37729|M|28.91,42.32|Z|1015/17|N|From Instructor Nidriel.|
-C The Headmistress' Keys|QID|37730|QO|1|M|26.87,36.39|Z|1015/17|CHAT|N|When the headmaster becomes hostile, kill him and loot the key.|
+C The Headmistress' Keys|QID|37730|QO|1|M|26.87,36.39|Z|1015/17|CHAT|N|When the headmistress becomes hostile, kill her and loot the key.|
 T The Headmistress' Keys|QID|37730|M|53.27,47.69|Z|1015/17|N|To Thyrillion.|
 A The Tidestone: Shattered|QID|37469|PRE|37730|M|53.27,47.69|Z|1015/17|N|From Thyrillion.|
 C The Tidestone: Shattered|QID|37469|U|120960|S|M|69.41,21.94|Z|1015/17|NC|N|The shards are on the ground here.|
