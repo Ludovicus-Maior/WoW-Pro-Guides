@@ -821,7 +821,10 @@ function WoWPro:PlayerLevel()
     local UL = UnitLevel("player")
     local XP = UnitXP("player")
     local XPMax = UnitXPMax("player")
-    playerLevel = UL + (XP/XPMax)
+    if XPMax > 0 then
+        playerLevel = UL + (XP/XPMax)
+     else
+        playerLevel = UL
     return playerLevel
 end
 
