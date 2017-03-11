@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_alliance
+-- Date: 2017-03-10 23:11
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3537/revisions/26886/view
 -- Date: 2014-11-08 00:31
 -- Who: Ludovicus
 -- Log: BAtch fix
@@ -158,7 +163,7 @@ A The Residents of Ihgaluk|QID|32545|PRE|32732|M|0,0|N|From Lyalia|;wrong M
 
 ; Do this quest first!!!!
 C Skin of the Saurok|QID|32549|M|44.20,83.20;44.60,74.40;45.00,84.00;45.80,75.00;49.00,85.80;50.00,76.40;50.80,73.40;52.20,75.60;52.60,91.40;54.20,80.00;54.20,87.00;54.60,78.40;54.80,74.60;55.40,86.20;46.60,72.50;54.50,76.10;49.40,78.50;46.10,71.30;44.50,81.80;47.60,82.40;46.40,70.00|CN|N|Kill any Saurok.|
-T Skin of the Saurok|QID|32549||N|From Image of Archmage Vargoth via UI|
+T Skin of the Saurok|QID|32549|N|From Image of Archmage Vargoth via UI|
 
 ;
 C Roach Crush|QID|32547|QO|Ihgaluk Roach crushed: 150/150|N|Just walk or run over them.|
@@ -203,13 +208,13 @@ T Competing Magic|QID|32576|M|34.6,89.5|N|To Lady Jaina Proudmoore|
 K Nurkala|QID|32580|M|45.2,35.8|QO|Nurkala slain: 1/1|T|Zandalari Prophet|N|Target the prophet first as he heals the pack of trolls.  Then stay out of the AOEs as you burn down Nurkula.|
 T Encroaching Force|QID|32580|M|34.6,89.5|N|To Lady Jaina Proudmoore|
 
-K Horgak the Enslaver|QID|32581|M|45.4,59.4|N|When Horgak casts expanding or contracting circles, get 30 yards away before they blow.  Interrupt "Thermal Strike".
+K Horgak the Enslaver|QID|32581|M|45.4,59.4|N|When Horgak casts expanding or contracting circles, get 30 yards away before they blow.  Interrupt "Thermal Strike".|
 T Imposing Threat|QID|32581|M|34.6,89.5|N|To Lady Jaina Proudmoore|
 
 ; Quest line of some sort
 
 T Allies in the Shadows|QID|32706|M|51.4,46|N|To Taran Zhu|
-A Secrets in the Isle of Thunder|QID|32707|M|51.4,46|N|From Taran Zhu|
+A Secrets in the Isle of Thunder|QID|32707|PRE|32706|M|51.4,46|N|From Taran Zhu|
 C Shan'ze Ritual Stones|QID|32707|M|58.0,39.6;44.1,56.2;59.3,56.8;47.4,72.4;52.9,77.2;47.9,82.1;43.5,78.6|CN|L|94221 3|N|Go Get the from the treasure chests.|
 T Secrets in the Isle of Thunder|QID|32707|M|51.4,46|N|To Taran Zhu|
 

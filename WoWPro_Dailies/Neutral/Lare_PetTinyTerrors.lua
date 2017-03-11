@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiny_terrors_tanaan_dailies
+-- Date: 2017-03-10 23:34
+-- Who: Ludovicus
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3644/revisions/27411/view
 -- Date: 2016-01-08 23:22
 -- Who: Ludovicus
 -- Log: Use 3644
@@ -25,7 +30,7 @@ return
 N Disclaimer|QID|39173|N|Please note that I just did the coding of this guide, the actual strategies are the work of the awesome Hazelnuttygames from Youtube. Absolutely worth checking out her channel to satisfy your daily pet battle addiction needs...|
 N General Notes|QID|39173|N|We will do a grand tour of Tanaan Jungle and kill all the legendary pets. There are no quests for them, you just go up to them and beat them. You can kill each legendary pet once per day and each of them rewards you with a bag, which can contain battle pet bandages, pet level up stones and one of four new pets.|
 N General Notes|QID|39173|N|The way these battles are set up is that the legendary pet is always "fixed", but the two pets accompanying them are randomized each day. These two pets are buffed by the legendary pet, so they're not cakewalk either. If you find them hard to defeat, you can start the battle and check what exactly you have to deal with, forfeit the battle and revise your team by including strong counters specifically against them. This guide will include suggested setups of course.|
-N General Notes|QID|39173|N|Please note, most of the steps in this guide do not auto-complete, once you've read a step right-click on the checkbox next to it to go to the next step.
+N General Notes|QID|39173|N|Please note, most of the steps in this guide do not auto-complete, once you've read a step right-click on the checkbox next to it to go to the next step.|
 R To Corrupted Thundertail|M|53.1, 65.2|CC|Z|Tanaan Jungle|N|Our first target is Corrupted Thundertail.|
 N CT Strategy|QID|39160|N|Good counters against Absolutely Anything: Anubisath Idol (1 / 2 / 1); Chi-Chi, Hatchling of Chi-Ji (2 / 1 / 1)\nGood counters against Flying pets: Azure Whelpling (2 / 1 / 2); Nexus Whelpling (1 / 2 / 2); Emerald Proto-Whelp (2 / 1 / 1); Emerald Whelpling (2 / 1 / 1); Nether Faerie Dragon (2 / 2 / 1); Sprite Darter Hatchling (2 / 2 / 1)\nGood counters against Aquatic pets: Enchanted Broom (2 / 1 / 1); Jade Owl (1 / 2 / 1)\nGood counters against Beast pets: Dragon Kite (1 / 1 / 2); Darkmoon Tonk (1 / 1 / 2); Darkmoon Zeppelin (1 / 1 / 2)\nGood counters against Critter pets: Curious Wolvar Pup (2 / 1 / 2); Flayer Youngling (2 / 2 / 1); Harbinger of Flame (1 / 1 / 1); Kun-Lai Runt (1 / 1 / 1); Stunted Yeti (1 / 1 / 2)|S|
 N Pets needed|QID|39160|N|Zandalari Anklerender (2 / 2 / 2)\nCelestial Dragon (1 / 1 / 1)\nAnubisath Idol (1 / 2 / 1)\nFor the 2nd and 3rd pet slot you can also use any tanking pet with avoidance moves and self-healing.|

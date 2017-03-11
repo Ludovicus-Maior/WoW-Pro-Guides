@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_dominance_offensive_source_code
+-- Date: 2017-03-10 23:23
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3603/revisions/27170/view
 -- Date: 2015-03-09 18:09
 -- Who: Ludovicus
 -- Log: Z corrections
@@ -28,14 +33,14 @@ return [[
 A Meet the Scout|QID|32249|M|62.92,28.18|Z|Vale of Eternal Blossoms|N|From Sunwalker Dezco, outside the Shrine of Two Moons.|
 T Meet the Scout|QID|32249|M|8.74,64.37|N|To Scout Lynna.|
 
-A The Might of the Warchief|QID|32250|M|8.66,64.45|N|From Garrosh Hellscream|
+A The Might of the Warchief|QID|32250|PRE|32249|M|8.66,64.45|N|From Garrosh Hellscream|
 C Blood Guard Gro'tash|QID|32250|M|10.71,53.16|QO|2|N|Find Gro'tash, kill Alliance along the way.|
 C Grizzle Gearslip|QID|32250|M|15.6,57.8|QO|3|N|Find Grizzle Gearslip, kill Alliance along the way.|
 C Alliance Drones|QID|32250|M|8.6,64.4|QO|1|N|Kill Alliance to get your kill count.|
 T The Might of the Warchief|QID|32250|N|To Garrosh Hellscream, standing next to you.|
-A Domination Point|QID|32108|N|From Garrosh Hellscream, standing next to you.|
+A Domination Point|QID|32108|PRE|32250|N|From Garrosh Hellscream, standing next to you.|
 T Domination Point|QID|32108|M|8.42,64.06|N|To Signal Fire|
-A Dagger in the Dark|QID|32251|N|Scenario from UI after a *very* long speech.|
+A Dagger in the Dark|QID|32251|PRE|32108|N|Scenario from UI after a *very* long speech.|
 f Domination Point|M|9.69,52.51|N|Get your new flight point from Kromthar.|
 
 ; Daily Quest Hub selection
@@ -46,8 +51,8 @@ A Wanted: ???|QID|32222;32223|M|12.74,56.70|N|From Bounty Board for quests at Bi
 ; ;;;;;;;;;;;;;;;;;;;;;;
 ; Daily Quests - Domination Point
 ; A Flash! Aaaaaahhhh!|QID|32235|M|10.07,53.86|N|From Blood Guard Gro'tash|
-A Tear It Up|QID|32126|ACTIVE|32235|M|10.2,53.8|N|From Brolic|
-A Death on Two Legs|QID|32123|ACTIVE|32235|M|10.32,55.69|N|From Shokia|
+A Tear It Up|QID|32126|PRE|32108|ACTIVE|32235|M|10.2,53.8|N|From Brolic|
+A Death on Two Legs|QID|32123|PRE|32108|ACTIVE|32235|M|10.32,55.69|N|From Shokia|
 C Skyfire Gyrocopter X2|QID|32235|M|13.50,54.50;12.90,56.45;16.70,79.20;13.19,59.40;11.55,60.75;10.49,58.33|CN|QO|1|U|92019|N|Throw Molotovs at the copters while flying.|T|Skyfire Gyrocopter|
 C Alliance slain|QID|32123|M|11.40,59.00;16.40,67.20;16.60,69.40;11.30,67.65;7.35,67.50;18.60,70.05;8.05,59.64;18.45,67.80;8.74,65.49;8.15,62.25;13.60,68.12|CN|QO|1|N|Kill Marines!|S|
 C Alliance Supply Drops|QID|32126|M|8.26,66.88|QO|1|N|Look at the beaches and the docks.|
@@ -67,10 +72,10 @@ T Another One Bites the Dust|QID|32128|M|10.07,53.86|N|From Blood Guard Gro'tash
 ; ;;;;;;;;;;;;;;;;;;;;;;
 ; Daily Quests - Bilgewater Operations #1
 ; A Wanted: Lieutenant Ethan Jacobson|QID|32223|M|12.8,56.7|N|From Bounty Board|
-A Storming the Beach|QID|32221|ACTIVE|32223|M|13,56.2|N|From Rivett Clutchpop|
-A Krasarang Steampot|QID|32199|ACTIVE|32223|M|13.6,55.8|N|From Duke|
-A Work Order: Lumber|QID|32138|ACTIVE|32223|M|13.6,55.8|N|From Boss-Lady Trixel|
-A Universal Remote-Explode|QID|32238|ACTIVE|32223|M|20.6,58|N|From Bixy Buzzsaw|
+A Storming the Beach|QID|32221|PRE|32108|ACTIVE|32223|M|13,56.2|N|From Rivett Clutchpop|
+A Krasarang Steampot|QID|32199|PRE|32108|ACTIVE|32223|M|13.6,55.8|N|From Duke|
+A Work Order: Lumber|QID|32138|PRE|32108|ACTIVE|32223|M|13.6,55.8|N|From Boss-Lady Trixel|
+A Universal Remote-Explode|QID|32238|PRE|32108|ACTIVE|32223|M|20.6,58|N|From Bixy Buzzsaw|
 ;
 K Lieutenant Ethan Jacobson|QID|32223|M|19,70.8|QO|1|N|Kill!|
 C Shieldwall Forces|QID|32221|M|11.40,59.00;16.40,67.20;16.60,69.40;11.30,67.65;7.35,67.50;18.60,70.05;8.05,59.64;18.45,67.80;8.74,65.49;8.15,62.25;13.60,68.12|CN|N|Kill infiltrators!|
@@ -88,15 +93,15 @@ T Universal Remote-Explode|QID|32238|M|20.6,58|N|To Bixy Buzzsaw|
 ; ;;;;;;;;;;;;;;;;;;;;;;
 ; Daily Quests - Bilgewater Operations #2
 ; A Wanted: Chief Engineer Cogwrench|QID|32222|M|12.8,56.7|N|From Bounty Board|
-A Bilgewater Infiltrators|QID|32214|ACTIVE|32222|M|12.91,56.13|N|From Rivett Clutchpop|
-A Mystery Meatloaf|QID|32197|ACTIVE|32222|M|13.77,55.79|N|From Duke|
-A Work Order: Fuel|QID|32136|ACTIVE|32222|M|13.79,55.86|N|From Boss-Lady Trixel|
+A Bilgewater Infiltrators|QID|32214|PRE|32108|ACTIVE|32222|M|12.91,56.13|N|From Rivett Clutchpop|
+A Mystery Meatloaf|QID|32197|PRE|32108|ACTIVE|32222|M|13.77,55.79|N|From Duke|
+A Work Order: Fuel|QID|32136|PRE|32108|ACTIVE|32222|M|13.79,55.86|N|From Boss-Lady Trixel|
 K Chief Engineer Cogwrench|QID|32222|M|21.6,51.2|QO|1|N|Kill!|
 C SI:7 Saboteurs|QID|32214|M|18.00,56.50;26.55,61.65;15.40,57.75;19.55,59.00;25.88,58.77;21.50,54.75;19.68,62.16;12.53,60.45;11.40,64.94;23.68,55.95;9.88,62.35|CN|N|Kill SI7 if you can see them!|
 C Mystery Meat|QID|32197|M|16.60,71.60;19.60,52.80;27.80,57.60;15.60,67.50;20.60,55.50;17.60,54.80;25.52,67.67;20.80,68.25;24.20,70.47;23.00,67.70;21.70,65.75;26.45,63.35;21.34,70.89;18.50,65.70;24.10,64.35|CN|N|Kill wildlife to get the meat.  Do you really want it from polluted animals?|
 ;
 T Mystery Meatloaf|QID|32197|M|26.05,58.07|N|To Sezik Steampot|
-A Precious Resource|QID|32237|ACTIVE|32222|M|25.2,60.4|N|From Bixy Buzzsaw|
+A Precious Resource|QID|32237|PRE|32108|ACTIVE|32222|M|25.2,60.4|N|From Bixy Buzzsaw|
 C Leaky Valves|QID|32237|N|Fly around looking for leaky valves spray spraing oil. Just follow the pipes.|
 T Precious Resource|QID|32237|M|25.2,60.4|N|To Bixy Buzzsaw|
 T Work Order: Fuel|QID|32136|M|25.4,60.4|N|To Grizzle Gearslip|
@@ -124,7 +129,7 @@ A Ogudei Quests|QID|*|NPC|68274|PRE|32118|M|81.49,18.27|N|From Kaelis Sunsoar|
 C The Spirit Trap|QID|32342|M|70.60,41.40;70.80,44.40;71.80,13.60;43.50,14.60;73.40,28.80|Z|Krasarang Wilds/2|CN|N|Click and fight|
 C It Is A Mystery|QID|32344|M|64.25,26.90|Z|Krasarang Wilds/2|N|Walk around till the meter peaks at 100 and stand stil to you get credit.|
 C We're Not Monsters!|QID|32345|M|49.00,37.60;59.80,47.60;67.00,27.80;70.40,38.20;73.60,23.40;70.90,44.70;68.00,55.70|Z|Krasarang Wilds/2|CN|T|Troubled Slave Spirit|QO|Troubled Slave Spirits released: 14/14|
-C Legacy of Ogudei|QID|32120|M|62.80,22.20;73.00,28.80;55.70,51.90;70.90,35.70;58.10,47.40;51.30,41.80;66.90,59.20;49.20,37.60;50.10,20.00;71.25,32.90;51.60,22.50;58.35,50.45|Z|Krasarang Wilds/2|CN||QO|1|
+C Legacy of Ogudei|QID|32120|M|62.80,22.20;73.00,28.80;55.70,51.90;70.90,35.70;58.10,47.40;51.30,41.80;66.90,59.20;49.20,37.60;50.10,20.00;71.25,32.90;51.60,22.50;58.35,50.45|Z|Krasarang Wilds/2|CN|QO|1|
 ;
 R Ogudei's Lieutenants|QID|32343|M|72.27,41.57;79.16,49.86;76.75,63.46|CS|Z|Krasarang Wilds/2|N|Find this crack in the wall.|
 K Gen-li, Twister of Words|QID|32343|M|67.97,73.63|Z|Krasarang Wilds/2|QO|1|N|Gen-li and Meng-do are together. Loot their corpses.|
@@ -148,7 +153,7 @@ A Good Luck, Have Fun|QID|32130|PRE|32450|M|75.8,34.2|N|From Zazzix "Toasty" Spa
 A We Require More Minerals!|QID|32131|PRE|32450|M|75.8,34.2|N|From Zazzix "Toasty" Sparkrocket|
 K Thane Stonehearth|QID|32135|M|81,23.4|QO|1|N|Pull him onto the grass so he wont get help.|
 C Peasant Slaughter|QID|32132|M|4.00,27.70;83.10,19.60;84.60,21.10;81.90,22.18;79.84,19.73;85.09,24.49|CN|N|Kill em!|
-N Sentry Wards|ACTIVE|32133|N|This one is tricky.  You need to go to three places and click on sentry wards to activate them while avoiding MOBS.  Approach from the water and fly low to each destination.
+N Sentry Wards|ACTIVE|32133|N|This one is tricky.  You need to go to three places and click on sentry wards to activate them while avoiding MOBS.  Approach from the water and fly low to each destination.|
 C Docks|QID|32133|M|86.11,33.13|QO|2|N|Between the two docked ships.|
 C Barracks|QID|32133|M|87.75,32.71|QO|3|N|Fight your way to the second floor.|
 C Town Hall|QID|32133|M|86.27,25.56|QO|1|N|The lower floor, just as enter the building.|
@@ -229,7 +234,7 @@ A Echoes of Thunder|QID|32351|M|10.39,53.71|REP|Dominance Offensive;1375;honored
 R Vale of Eternal Blossoms|QID|32351|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T Echoes of Thunder|QID|32351|M|68.63,43.79|Z|The Imperial Mercantile@Shrine of Two Moons|N|To Baine Bloodhoof, in the Bank.|
 A A Gathering Storm|QID|32352|PRE|32351|M|68.63,43.79|Z|The Imperial Mercantile@Shrine of Two Moons|N|From Baine Bloodhoof.|
-C Sha-Touched Grunts|QID|32352|M|59.20,11.20;60.40,13.60;62.10,23.50;62.50,10.40;59.10,19.80;61.00,21.80;63.25,19.00|Z|The Imperial Mercantile@Shrine of Two Moons||CN|N|Interrogate the grunts.|QO|1|
+C Sha-Touched Grunts|QID|32352|M|59.20,11.20;60.40,13.60;62.10,23.50;62.50,10.40;59.10,19.80;61.00,21.80;63.25,19.00|Z|The Imperial Mercantile@Shrine of Two Moons|CN|N|Interrogate the grunts.|QO|1|
 T A Gathering Storm|QID|32352|M|65.42,46.41|Z|The Imperial Mercantile@Shrine of Two Moons|N|To Garrosh Hellscream|
 
 A Get My Results!|QID|32329|PRE|32352|M|10.39,53.71|REP|Dominance Offensive;1375;revered;2700|N|From General Nazgrim|
@@ -256,8 +261,8 @@ T Memory Wine|QID|32368|M|60.35,55.14|Z|Kun-Lai Summit|N|From Baine Bloodhoof|
 A The Ruins of Korune|QID|32391|M|10.39,53.71|REP|Dominance Offensive;1375;revered;10625|PRE|32330|N|From General Nazgrim|
 R Kun-Lai Summit|QID|32391|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T The Ruins of Korune|QID|32391|M|32.89,26.34|Z|Kun-Lai Summit|N|To Ishi|
-A The Divine Bell|QID|32392|M|32.8,26.2|Z|Kun-Lai Summit|N|From Ishi|
-K Sarannha Skyglaive|QID|32392|M|60.87,22.43|Z|Kun-Lai Summit/2|QO|1|N|Head in, clear the elites around the altar. Stick to the left in the falling rocks room. Run down steps quickly then go for Sarannha.
+A The Divine Bell|QID|32392|PRE|32391|M|32.8,26.2|Z|Kun-Lai Summit|N|From Ishi|
+K Sarannha Skyglaive|QID|32392|M|60.87,22.43|Z|Kun-Lai Summit/2|QO|1|N|Head in, clear the elites around the altar. Stick to the left in the falling rocks room. Run down steps quickly then go for Sarannha.|
 T The Divine Bell|QID|32392|M|61.73,25.40|Z|Kun-Lai Summit/2|N|To Ishi.  Get back to Dominance Offensive on your own.|
 
 A Insertion|QID|32326|M|10.39,53.71|REP|Dominance Offensive;1375;revered;10700|PRE|32448|N|From General Nazgrim|

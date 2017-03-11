@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2017-03-10 23:13
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3405/revisions/27992/view
 -- Date: 2016-11-06 22:19
 -- Who: Ludovicus
 -- Log: Dont set bogus 666 faction on Icecrown Dailies.

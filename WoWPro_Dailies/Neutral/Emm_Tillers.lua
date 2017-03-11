@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2017-03-10 23:25
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3508/revisions/26940/view
 -- Date: 2014-11-08 13:07
 -- Who: Ludovicus
 -- Log: Missing N
@@ -243,14 +248,14 @@ A A Dish for ??|QID|30386;30396;30402;30408;30414;30421;30427;30433|N|Two friend
 A Tina Mudclaw|QID|30433;30428;30323|ACTIVE|30470|M|53.0,51.6|N|Turn in food, treasure, accept daily. She prefers a Ruby Shard. Prefer Tina to Haohan for gifts.|
 A Haohan Mudclaw|QID|30414;30409;30319|ACTIVE|30477|M|53.0,51.6|N|Turn in food, treasure, accept daily. He prefers a Ruby Shard.|
 A Jogu the Drunk|QID|30439;30435;30321|M|53.59,52.51|REP|Jogu the Drunk;1273;Stranger-Good Friend|N|Turn in food, treasure, accept daily, if offered. He prefers a Lovely Apple.|
-A Weed War II|QID|30321|ACTIVE|30478|M|53.59,52.51|REP|Jogu the Drunk;1273;Best Friend|N|From Jogu the Drunk.|
+A Weed War II|QID|30321|PRE|30257|ACTIVE|30478|M|53.59,52.51|REP|Jogu the Drunk;1273;Best Friend|N|From Jogu the Drunk.|
 A Sho|QID|30408;30404;30325|ACTIVE|30472|M|53,52|N|Turn in food, treasure, accept daily. She prefers a Lovely Apple. Prefer Sho to Jogu for gifts.|
 A Ella|QID|30386;30381;30327|ACTIVE|30474|M|53.05,51.67|N|Turn in food, treasure, accept daily. She prefers a Jade Cat. Prefer Ella to Fish for gits.|
 A Fish Fellreed|QID|30427;30424;30326|ACTIVE|30473|M|52.77,51.88|N|Turn in food, treasure, accept daily. She prefers a Jade Cat.|
 A Old Hillpaw|QID|30396;30394;30318|ACTIVE|30476|M|53.0,51.8|N|Turn in food, treasure, accept daily. He prefers a Blue Feather. Prefer Hillpaw to Chee Chee for gifts.|
 A Chee Chee|QID|30402;30400;30324|ACH|6552;3|ACTIVE|30471|M|53.10,52.01|N|Turn in food, treasure, accept daily. He prefers a Blue Feather.|
 A Gina Mudclaw|QID|30390;30389;30322|M|53.17,51.86|REP|Gina Mudclaw;1281;Stranger-Good Friend|N|Turn in food, treasure, accept daily if offered. She prefers a Marsh Lily. No preference for gifts to Gina and Fung.|
-A Money Matters|QID|30322|ACTIVE|30479|M|53.17,51.86|REP|Gina Mudclaw;1281;Best Friend|N|From Gina Mudclaw.|
+A Money Matters|QID|30322|PRE|30257|ACTIVE|30479|M|53.17,51.86|REP|Gina Mudclaw;1281;Best Friend|N|From Gina Mudclaw.|
 A Farmer Fung|QID|30421;30420;30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, treasure, accept daily. He perfers a Marsh Lily.|
 
 ;buy seeds for farmer yoon's preferred crop
@@ -270,7 +275,7 @@ B Green Cabbage Seeds(Farmer Fung)|ACTIVE|31947|QID|31947|L|79102 3|M|52.8,52.0|
 B Witchberry Seeds(Nana)|ACTIVE|31949|QID|31949|L|89326 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|QO|Plant Witchberry Seeds: 3/3|
 B Striped Melon Seeds(Haohan)|ACTIVE|30527|QID|30527|L|89329 4|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
 T A Shabby New Face|QID|32189|M|53.36,51.42|N|To Barnaby Fletcher,|
-A One Magical, Flying Kingdom's Trash...|QID|32198|M|53.36,51.42|N|From Barnaby Fletcher. (Instant Accept/Turn In quest, you now have a shard to plant that will grow into a random portal shard.) After completing this quest, anytime Barnaby is at the market, you can buy more portal shards from him.|
+A One Magical, Flying Kingdom's Trash...|QID|32198|PRE|32189|M|53.36,51.42|N|From Barnaby Fletcher. (Instant Accept/Turn In quest, you now have a shard to plant that will grow into a random portal shard.) After completing this quest, anytime Barnaby is at the market, you can buy more portal shards from him.|
 
 ;plant for farmer yoon
 C A Pumpkin-y Perfume|QID|31672|M|51.98,48.31|U|80592|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
@@ -450,7 +455,7 @@ T Haohan's Vote I: Bungalow Break-In|QID|30521|M|44.6,34|N|To Haohan Mudclaw.|
 T Haohan's Vote II: The Real Culprits|QID|30522|M|52.20,48.86|N|To Farmer Yoon.|
 T Haohan's Vote III: Pure Poison|QID|30525|M|52.20,48.86|N|To Farmer Yoon.|
 T Haohan's Vote IV: Melons For Felons|QID|30527|M|52.20,48.86|N|To Farmer Yoon.|
-T Haohan's Vote V: Chief Yip-Yip|QID|30528||M|52.20,48.86|N|To Farmer Yoon. A dialog follows which includes a place where you you place your vote in the bowl on the shrine to actually join The Tillers Union.|
+T Haohan's Vote V: Chief Yip-Yip|QID|30528|M|52.20,48.86|N|To Farmer Yoon. A dialog follows which includes a place where you you place your vote in the bowl on the shrine to actually join The Tillers Union.|
 
 ;CLEAR THE WEEDS - 0 Honored
 A Growing the Farm I: The Weeds|QID|30260|PRE|31945|REP|The Tillers;1272;honored|M|52.25,48.79|N|From Farmer Yoon.|

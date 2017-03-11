@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_buildings_alliance
+-- Date: 2017-03-10 22:44
+-- Who: Ludovicus
+-- Log: Add PREs
+
+-- URL: http://wow-pro.com/node/3631/revisions/27434/view
 -- Date: 2016-03-22 20:39
 -- Who: Ludovicus
 -- Log: Add Salvage Yard 
@@ -157,7 +162,7 @@ T Lost in Transition|QID|37087|BUILDING|Storehouse;51|Z|Lunarfall|N|To Kyra Gold
 A Tricks of the Trade|QID|37062|M|57.76,27.75|BUILDING|Trading Post;111;144;145|N|From Fayla Fairfeather.|
 C Tricks of the Trade|QID|37062|U|118418|M|44.51,14.48|Z|Frostwall|N|He is sleeping just outside  the gates.|
 T Tricks of the Trade|QID|37062|M|57.88,27.83|N|To Fayla Fairfeather.|
-N Auctioning For Parts|QID|36948|BUILDING|Trading Post;144;145|M|57.88,27.83|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.
+N Auctioning For Parts|QID|36948|BUILDING|Trading Post;144;145|M|57.88,27.83|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.|
 
 ;tannery SMALL
 A Your First Leatherworking Work Order|QID|37574|M|53.00,41.32|BUILDING|Tannery;90;121;122|N|From Murne Greenhoof.|
@@ -171,14 +176,14 @@ A Your First Tailoring Work Order|QID|36643|M|48.22,32.51|Z|Frostwall|BUILDING|T
 B Sumptuous Fur|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|L|111557 5|N|Acquire from killing and looting humanoids (saborons a very good source) or the Auction House or some other method.|
 C Place order|QID|36643|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|CHAT|N|Talk to Turga to start a work order.|
 C Pick up order|QID|36643|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|NC|N|From the bundles, barrels and boxes beside the building, called 'Tailoring Work Order' .|
-T Your First Tailoring Work Order|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128||N|From Turga.|
+T Your First Tailoring Work Order|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|N|From Turga.|
 
 ;the forge SMALL
 A Your First Blacksmithing Work Order|QID|35168|M|48.22,32.51|Z|Frostwall|BUILDING|TheForge;60;117;118|N|From ??.|
 B True Iron Ore|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
 C Place order|QID|35168|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|CHAT|N|Talk to Kinja to start a work order.|
 C Pick up order|QID|35168|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|TheForge;60;117;118|NC|N|From the bundles, barrels and boxes beside the building, called 'Blacksmithing Work Order' .|
-T Your First Blacksmithing Work Order|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118||N|From Kinja.|
+T Your First Blacksmithing Work Order|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|N|From Kinja.|
 
 ;gem boutique SMALL
 A Your First Jewelcrafting Work Order|QID|37573|M|48.22,32.51|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|From Dorogarr.|
@@ -249,12 +254,12 @@ C Kill the Raccoons|QID|36404|M|57.6,59.6|Z|Lunarfall|QO|1|
 T Clearing the Garden |QID|36404|M|58.89, 53.45|Z|Lunarfall|N|To Naron Bloomthistle|
 
 ; Salvage Yard
-A Pinchwhistle Gearworks|QID|35619|LEAD|35077|M|39.63,60.62|Z|Spires of Arak|N|From Watchman Kovak. |FACTION|Alliance|LVL|96|
+A Pinchwhistle Gearworks|QID|35619|PRE|35286|LEAD|35077|M|39.63,60.62|Z|Spires of Arak|N|From Watchman Kovak. |FACTION|Alliance|LVL|96|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|Z|Spires of Arak|CHAT|N|Talk to Firn Swiftbreeze for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
-A Pinchwhistle Gearworks|QID|35620|LEAD|35077|M|40.01,43.97|N|From Scout Cel. |FACTION|Horde|LVL|96|
+A Pinchwhistle Gearworks|QID|35620|PRE|35277|LEAD|35077|M|40.01,43.97|N|From Scout Cel. |FACTION|Horde|LVL|96|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
-A Pinchwhistle Gearworks|QID|35619|LEAD|35077|M|45.8,46.0|Z|Lunarfall|N|From Pinchwhistle Gearworks. |FACTION|Alliance|LVL|96|
+A Pinchwhistle Gearworks|QID|35619|PRE|35286|LEAD|35077|M|45.8,46.0|Z|Lunarfall|N|From Pinchwhistle Gearworks. |FACTION|Alliance|LVL|96|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|Z|Lunarfall|CHAT|N|Talk to Dungar Longdrink for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
 A Pinchwhistle Gearworks|QID|36862|LEAD|35077|M|40.01,43.97|Z|Frostwall|N|From Murla Longeye. |FACTION|Horde|LVL|96|
 C Pinchwhistle Gearworks|QID|36862|M|39.50,43.38|Z|Frostwall|CHAT|N|Talk to Bron Skyhorn for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
@@ -318,7 +323,7 @@ C Unearthed Magic|QID|38241|M|65.69,42.54|Z|Lunarfall|N|It is in a cart outside 
 T Unearthed Magic|QID|38241|M|28.85,38.56|Z|Lunarfall|N|To Lio the Lioness|
 A Pets Versus Pests|QID|36423|PRE|38241|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|
 C Suggestions|QID|36423|N|Some pet suggestions follow.  However,  Pandaren Water Spirit+Chrominius Geyser+Whirlpool+Howl will work for all.|NC|
-C Gorefu|QID|36423|M|57.4,21.8|Z|Lunarfall|QO|2|T|Gorefu|N|Gorefu is near the Fishing Shack.\n
+C Gorefu|QID|36423|M|57.4,21.8|Z|Lunarfall|QO|2|T|Gorefu|N|Gorefu is near the Fishing Shack.\n|
 C Carrotus Maximus|QID|36423|M|57.76,60.10|Z|Lunarfall|QO|1|T|Carrotus|N|Carrotus is near the herb garden.\nAquatics like Frogs, Striders or Crabs.\nUse Kiss, Pump, Cleansing Rain, Whirlpool, Surge.|
 C Gnawface|QID|36423|M|60.14,77.82|Z|Lunarfall|QO|3|T|Gnawface|N|Outside your fort at the cooks camp.\nFoxes, Raptors, Mechanicals.\nUse Black Claw, Hunting Party, Howl, Bite.|
 T Pets Versus Pests|QID|36423|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|
