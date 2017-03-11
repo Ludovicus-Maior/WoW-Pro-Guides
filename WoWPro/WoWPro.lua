@@ -825,6 +825,7 @@ function WoWPro:PlayerLevel()
         playerLevel = UL + (XP/XPMax)
      else
         playerLevel = UL
+    end
     return playerLevel
 end
 
