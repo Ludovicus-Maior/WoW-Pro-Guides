@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2017-03-11 20:11
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3204/revisions/28343/view
+-- Date: 2017-03-11 18:42
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3204/revisions/27504/view
 -- Date: 2016-07-31 01:11
 -- Who: tubera
 -- Log:  Fell Moss Corruption. Fix note A Priestess of the Moon.
@@ -194,7 +204,7 @@ T Demonic Thieves|QID|28715|M|45.95,72.88|N|To Melithar Staghelm.|
 T Fel Moss Corruption|QID|28714|M|46.30,73.50|N|To Ilthalaine.|
 L Level 3|QID|28715|LVL|3|N|You should be around level 3 by this point.|
 
-A Priestess of the Moon|QID|28723|N|From Ilthalaine.|R|Night Elf|
+A Priestess of the Moon|QID|28723|PRE|28714|N|From Ilthalaine.|R|Night Elf|
 T Priestess of the Moon|QID|28723|M|42.50,50.49|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|R|Night Elf|
 
 A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|N|From Dentaria Silverglade.|R|Night Elf|

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
+-- Date: 2017-03-11 18:33
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3478/revisions/28335/view
+-- Date: 2017-03-11 18:22
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3478/revisions/26580/view
 -- Date: 2014-07-19 17:04
 -- Who: Ludovicus
 -- Log: adjusted LudoKaluak levels
@@ -44,10 +54,10 @@ WoWPro.Dailies:GuideFaction(guide,1119) --  "The Sons of Hodir"
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Hot and Cold|QID|12981|M|63.13,62.95|N|From Fjorn's Anvil|
-A Blowing Hodir's Horn|QID|12977|M|64.22,64.99|N|From Hordir's Horn|
-A Thrusting Hodir's Spear|QID|13003|M|64.99,60.98|N|From Hodir's Spear, hanging in the middle.|
-A Polishing the Helm|QID|13006|M|64.21,59.34|N|From Hodir's Helm, on the spike|
+A Hot and Cold|QID|12981|PRE|12967|M|63.13,62.95|N|From Fjorn's Anvil|
+A Blowing Hodir's Horn|QID|12977|PRE|12976|M|64.22,64.99|N|From Hordir's Horn|
+A Thrusting Hodir's Spear|QID|13003|PRE|13001|M|64.99,60.98|N|From Hodir's Spear, hanging in the middle.|
+A Polishing the Helm|QID|13006|PRE|12985|M|64.21,59.34|N|From Hodir's Helm, on the spike|
 A Spy Hunter|QID|12994|M|63.49,59.74|N|From Frostworg Denmother, down below|
 A Feeding Arngrim|QID|13046|M|67.57,59.94|N|From Arngrim the Insatiable, at the upper level|
 

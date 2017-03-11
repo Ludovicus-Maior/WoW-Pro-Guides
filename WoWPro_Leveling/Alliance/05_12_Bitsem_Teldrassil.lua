@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2017-03-11 20:11
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3204/revisions/28343/view
+-- Date: 2017-03-11 18:42
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3204/revisions/27504/view
 -- Date: 2016-07-31 01:11
 -- Who: tubera
 -- Log:  Fell Moss Corruption. Fix note A Priestess of the Moon.
@@ -182,7 +192,7 @@ A Zenn's Bidding|QID|488|M|59.55,49.20|N|From Zenn Foulhoof.|
 C Zenn's Bidding|QID|488|M|61.01,52.36|N|Kill Strigid Owls, Webwood Lurkers and Nightsabers.|
 T Zenn's Bidding|QID|488|M|59.46,49.19|N|To Zenn Foulhoof.|
 
-A Seek Redemption!|QID|489|M|55.83,50.40|N|From Syral Bladeleaf.|
+A Seek Redemption!|QID|489|PRE|488|M|55.83,50.40|N|From Syral Bladeleaf.|
 A The Emerald Dreamcatcher|QID|2438|M|55.58,50.06|N|From Tallonkai Swiftroot.|
 
 f Dolanaar|QID|2438|M|55.46,50.41|N|At Fidelio.|
@@ -195,7 +205,7 @@ h Dolanaar|QID|475|M|55.40,52.24|N|At Innkeeper Keldamyr.|
 A Reminders of Home|QID|6344|M|56.67,53.47|N|From Nyoma.|R|Night Elf|
 T Teldrassil: Passing Awareness|QID|28731|M|55.84,53.87|N|To Corithras Moonrage.|R|Night Elf|
 
-A Teldrassil: The Refusal of the Aspects|QID|929|M|55.84,53.87|N|From Corithras Moonrage.|R|Night Elf|
+A Teldrassil: The Refusal of the Aspects|QID|929|PRE|28731|M|55.84,53.87|N|From Corithras Moonrage.|R|Night Elf|
 
 C Seek Redemption!|QID|489|M|53.96,56.91|N|Collect Fel Cones from the ground. They sparkle.|
 
@@ -225,13 +235,13 @@ H Dolanaar|QID|2438|NC|M|55.55,49.99|N|Hearth to Dolanaar.|
 
 T Gnarlpine Corruption|QID|476|M|55.72,52.01|N|To Athridas Bearmantle.|
 A The Relics of Wakening|QID|483|PRE|476|M|55.72,52.01|N|From Athridas Bearmantle.|
-A Resident Danger|QID|13945|M|55.67,51.98|N|From Sentinel Kyra Starsong.|
-A Nature's Reprisal|QID|13946|M|55.77,50.50|N|From Syral Bladeleaf.|
+A Resident Danger|QID|13945|PRE|476|M|55.67,51.98|N|From Sentinel Kyra Starsong.|
+A Nature's Reprisal|QID|13946|PRE|489|M|55.77,50.50|N|From Syral Bladeleaf.|
 
 T The Emerald Dreamcatcher|QID|2438|M|55.57,50.02|N|To Tallonkai Swiftroot.|
 A Ferocitas the Dream Eater|QID|2459|PRE|2438|M|55.57,50.02|N|From Tallonkai Swiftroot.|
 
-A Twisted Hatred|QID|932|M|55.52,50.01|N|From Tallonkai Swiftroot.|
+A Twisted Hatred|QID|932|PRE|489|M|55.52,50.01|N|From Tallonkai Swiftroot.|
 T Teldrassil: The Refusal of the Aspects|QID|929|M|55.85,53.86|N|To Corithras Moonrage.|R|Night Elf|
 
 C Ferocitas the Dream Eater|QID|2459|M|67.09,46.03|N|Kill Gnarlpine Mystics on your way to Ferocitas the Dream Eater.|
@@ -265,13 +275,13 @@ L Level 8|QID|483|LVL|8|N|You should be around level 8 by this point.|
 H Dolanaar|QID|483|NC|M|55.65,50.04|N|Hearth to Dolanaar.|
 
 T The Relics of Wakening|QID|483|M|55.73,51.97|N|To Athridas Bearmantle.|
-A Ursal the Mauler|QID|486|M|55.73,51.97|N|From Athridas Bearmantle.|
+A Ursal the Mauler|QID|486|PRE|483|M|55.73,51.97|N|From Athridas Bearmantle.|
 
 T Resident Danger|QID|13945|M|55.71,51.99|N|To Sentinel Kyra Starsong.|
 T Nature's Reprisal|QID|13946|M|55.75,50.49|N|To Syral Bladeleaf.|
 T Twisted Hatred|QID|932|M|55.60,50.07|N|To Tallonkai Swiftroot.|
 
-A The Road to Darnassus|QID|487|M|49.41,44.66|N|From Moon Priestess Amara.|
+A The Road to Darnassus|QID|487|PRE|483|M|49.41,44.66|N|From Moon Priestess Amara.|
 
 C The Road to Darnassus|QID|487|M|50.80,36.67|N|Kill 8 Gnarlpine Ambushers.|
 C Ursal the Mauler|QID|486|M|51.66,38.74|N|Kill Ursal the Mauler.|
@@ -282,12 +292,12 @@ T Ursal the Mauler|QID|486|M|55.70,51.95|N|To Athridas Bearmantle.|
 
 L Level 9|QID|997|LVL|9|N|You should be around level 9 by this point.|
 
-A Denalan's Earth|QID|997|M|55.74,50.47|N|From Syral Bladeleaf.|
+A Denalan's Earth|QID|997|PRE|486|M|55.74,50.47|N|From Syral Bladeleaf.|
 
 T Denalan's Earth|QID|997|M|59.94,59.76|N|To Denalan.|
 
-A Timberling Seeds|QID|918|M|59.89,59.79|N|From Denalan.|
-A Timberling Sprouts|QID|919|M|59.89,59.79|N|From Denalan.|
+A Timberling Seeds|QID|918|PRE|997|M|59.89,59.79|N|From Denalan.|
+A Timberling Sprouts|QID|919|PRE|997|M|59.89,59.79|N|From Denalan.|
 C Timberling Seeds|QID|918|S|M|59.80,60.80|N|Kill and loot Timberlings to get the seeds.|
 C Timberling Sprouts|QID|919|M|58.89,62.14|N|Pick up Timberling Sprouts. They look like a ball of vines.|S|
 A The Glowing Fruit|QID|930|M|57.48,62.80|N|From the Strange Fruited Plant.|
@@ -300,10 +310,10 @@ A Rellian Greenspyre|QID|922|PRE|918|M|59.89,59.72|N|From Denalan.|
 T Timberling Sprouts|QID|919|M|59.89,59.72|N|To Denalan.|
 T The Glowing Fruit|QID|930|M|59.89,59.72|N|To Denalan.|
 T The Moss-twined Heart|QID|927|M|59.89,59.72|N|To Denalan.|
-A Planting the Heart|QID|941|M|59.89,59.72|N|From Denalan.|
+A Planting the Heart|QID|941|PRE|927|M|59.89,59.72|N|From Denalan.|
 T Planting the Heart|QID|941|M|59.89,59.72|N|To Denalan's Planter.|
 
-A Teldrassil: The Burden of the Kaldorei|QID|7383|M|55.83,53.90|N|From Corithras Moonrage.|
+A Teldrassil: The Burden of the Kaldorei|QID|7383|PRE|918;919|M|55.83,53.90|N|From Corithras Moonrage.|
 T Rellian Greenspyre|QID|922|M|44.00,44.18|N|To Rellian Greenspyre.|
 
 A Mossy Tumors|QID|923|PRE|922|M|44.00,44.18|N|From Rellian Greenspyre.|
@@ -325,7 +335,7 @@ C Mossy Tumors|QID|923|M|44.28,25.79|N|Kill and loot Timberlings until you get 5
 T Tears of the Moon|QID|2518|M|39.23,29.79|N|To Priestess A'moora.|
 T Mossy Tumors|QID|923|M|43.89,44.11|N|To Rellian Greenspyre.|
 
-A Oakenscowl|QID|2499|M|43.89,44.11|N|From Denalan.|
+A Oakenscowl|QID|2499|PRE|923|M|43.89,44.11|N|From Denalan.|
 C Oakenscowl|QID|2499|M|47.34,34.83|N|Kill and loot Oakenscowl to get the Gargantuan Tumor.|
 T Oakenscowl|QID|2499|M|43.93,44.22|N|To Denalan.|
 

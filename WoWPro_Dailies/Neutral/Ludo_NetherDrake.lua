@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
+-- Date: 2017-03-11 18:28
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3455/revisions/26858/view
 -- Date: 2014-11-07 20:48
 -- Who: Fluclo
 -- Log: Added missing |N| tags, removed blank |QO| tag
@@ -53,27 +58,27 @@ A Kindness|QID|10804|T|Mordenai|M|61.11,58.85|REP|Netherwing;1015;hated-neutral|
 l Rocknail Flayer Carcasses|QID|10804|U|31373|L|31372 8|M|61.84,56.82|REP|Netherwing;1015;hated-neutral|N|Kill Rocknail Flayers and Rippers until you have 8 carcasses. Flayers will drop the carcasses, while the Rippers drop giblets. When you have 5 giblets, use them to turn them into a carcass.|
 C Kindness|QID|10804|U|31372|M|61.89,58.41|REP|Netherwing;1015;hated-neutral|N|Use the carcasses. The Netherdrakes come down, feed then fly back off. You can just stand in one spot to get all of them fed.|
 T Kindness|QID|10804|M|59.69,59.14|REP|Netherwing;1015;hated-neutral|N|To Mordenai. Look for the ? on your minimap.|T|Mordenai|
-A Seek Out Neltharaku|QID|10811|M|59.69,59.14|REP|Netherwing;1015;hated-neutral|N|From Mordenai.|
+A Seek Out Neltharaku|QID|10811|PRE|10804|M|59.69,59.14|REP|Netherwing;1015;hated-neutral|N|From Mordenai.|
 T Seek Out Neltharaku|QID|10811|M|60.99,54.39|REP|Netherwing;1015;hated-neutral|N|To Neltharaku. Fly up and look around the Netherwing Fields and Dragonmaw Fortress. Look for the ? on your minimap.|T|Neltharaku|
-A Neltharaku's Tale|QID|10814|M|60.99,54.39|REP|Netherwing;1015;hated-neutral|N|From Neltharaku.|
+A Neltharaku's Tale|QID|10814|PRE|10811|M|60.99,54.39|REP|Netherwing;1015;hated-neutral|N|From Neltharaku.|
 C Neltharaku's Tale|QID|10814|NC|M|60.99,54.39|REP|Netherwing;1015;hated-neutral|N|Talk to Neltharaku and choose to listen to his tale.|
 T Neltharaku's Tale|QID|10814|M|60.99,54.39|REP|Netherwing;1015;hated-neutral|N|To Neltharaku.|
-A Infiltrating Dragonmaw Fortress|QID|10836|M|60.99,54.39|REP|Netherwing;1015;hated-neutral|N|From Neltharaku.|
+A Infiltrating Dragonmaw Fortress|QID|10836|PRE|10814|M|60.99,54.39|REP|Netherwing;1015;hated-neutral|N|From Neltharaku.|
 C Infiltrating Dragonmaw Fortress|QID|10836|M|68.04,60.74|REP|Netherwing;1015;hated-neutral|N|Kill any orc you see.|
 T Infiltrating Dragonmaw Fortress|QID|10836|M|66.17,57.80|REP|Netherwing;1015;hated-neutral|N|To Neltharaku.|T|Neltharaku|
-A To Netherwing Ledge!|QID|10837|M|66.17,57.80|REP|Netherwing;1015;hated-neutral|N|From Neltharaku.|
+A To Netherwing Ledge!|QID|10837|PRE|10836|M|66.17,57.80|REP|Netherwing;1015;hated-neutral|N|From Neltharaku.|
 C To Netherwing Ledge!|QID|10837|M|72.94,79.51|REP|Netherwing;1015;hated-neutral|N|The plants needed happen to be around the crystals. Peons will attack in groups of 2-3 usually, beware the wandering elites.|
 T To Netherwing Ledge!|QID|10837|M|64.42,60.84|REP|Netherwing;1015;hated-neutral|N|To Neltharaku.|T|Neltharaku|
-A The Force of Neltharaku|QID|10854|M|64.42,60.84|REP|Netherwing;1015;hated-neutral|N|From Neltharaku.|
+A The Force of Neltharaku|QID|10854|PRE|10837|M|64.42,60.84|REP|Netherwing;1015;hated-neutral|N|From Neltharaku.|
 C The Force of Neltharaku|QID|10854|NC|U|31652|M|68.19,58.70|REP|Netherwing;1015;hated-neutral|N|Use the crystal on the Enslaved Netherwing Drake, wait until it turns green then kill the Subjicator. The crystal can not be used in combat.|
 T The Force of Neltharaku|QID|10854|M|66.92,57.86|REP|Netherwing;1015;hated-neutral|N|To Neltharaku.|T|Neltharaku|
-A Karynaku|QID|10858|M|66.92,57.86|REP|Netherwing;1015;hated-neutral|N|From Neltharaku.|
+A Karynaku|QID|10858|PRE|10854|M|66.92,57.86|REP|Netherwing;1015;hated-neutral|N|From Neltharaku.|
 T Karynaku|QID|10858|M|69.83,61.36|REP|Netherwing;1015;hated-neutral|N|To Karynaku. This is a Group quest for 5, you can avoid the archers by running to tower to the right and going inside.|
-A Zuluhed the Whacked|QID|10866|M|69.81,61.28|REP|Netherwing;1015;hated-neutral|N|From Karynaku. Before you accept this quest, clear both rooms next to the waypoint. Reason being that when Zuluhed is summoned, so are Dragonmaw Elites that spawn on the parapet to peck you to death from range.|
+A Zuluhed the Whacked|QID|10866|PRE|10858|M|69.81,61.28|REP|Netherwing;1015;hated-neutral|N|From Karynaku. Before you accept this quest, clear both rooms next to the waypoint. Reason being that when Zuluhed is summoned, so are Dragonmaw Elites that spawn on the parapet to peck you to death from range.|
 K Zuluhed the Whacked|QID|10866|M|71.09,61.56|REP|Netherwing;1015;hated-neutral|N|Once he is summoned head into one of the two rooms, Kill then loot Zuluhed. Stay out of his rain of fire.|L|31664|
 C Zuluhed the Whacked|QID|10866|M|69.86,61.23|REP|Netherwing;1015;hated-neutral|N|Click on the ball and chain that is connected to Karynaku to free her.|
 T Zuluhed the Whacked|QID|10866|M|69.86,61.23|REP|Netherwing;1015;hated-neutral|N|To Karynaku.|
-A Ally of the Netherwing|QID|10870|M|69.86,61.23|REP|Netherwing;1015;hated-neutral|N|From Karynaku. Dismount/unshapeshift before accepting.|
+A Ally of the Netherwing|QID|10870|PRE|10866|M|69.86,61.23|REP|Netherwing;1015;hated-neutral|N|From Karynaku. Dismount/unshapeshift before accepting.|
 T Ally of the Netherwing|QID|10870|M|59.33,58.65|REP|Netherwing;1015;hated-neutral|N|To Mordenai.|
 A Blood Oath of the Netherwing|QID|11012|M|59.33,58.65|REP|Netherwing;1015;friendly|N|To Mordenai.|
 T Blood Oath of the Netherwing|QID|11012|M|59.33,58.65|REP|Netherwing;1015;friendly|N|To Mordenai.|

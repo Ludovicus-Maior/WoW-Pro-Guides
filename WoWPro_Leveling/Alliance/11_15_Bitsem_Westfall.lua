@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2017-03-11 20:44
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3213/revisions/27665/view
 -- Date: 2016-08-31 19:06
 -- Who: Fluclo
 -- Log: Added Rank 2 to the quests not needed for progression of the story. 
@@ -205,7 +210,7 @@ A Westfall Stew|QID|26241|PRE|26236|M|56.35,30.55|N|From Salma Saldean.|
 C Westfall Stew|QID|26241|S|M|56.50,28.46|N|Kill Goretusks, Fleshrippers, and collect Okra from the grounds of the farm.|
 C Times are Tough|QID|26237|M|55.18,36.90|N|Kill Harvest Watchers.|S|
 K Harvest Watcher |QID|26252|N|Kill and loot the Harvest Watchers until they drop the Harvest Watecher Heart.|L|57935|RANK|2|
-A Heart of the Watcher|QID|26252|RANK|2|M|55.23,34.87|N|Accept the quest from the Harvest Watcher Heart.|U|57935|
+A Heart of the Watcher|QID|26252|PRE|26236|RANK|2|M|55.23,34.87|N|Accept the quest from the Harvest Watcher Heart.|U|57935|
 
 T Heart of the Watcher|QID|26252|M|56.15,31.40|N|To Farmer Saldean.|
 A It's Alive!|QID|26257|PRE|26252|RANK|2|M|56.15,31.40|N|From Farmer Saldean.|
@@ -272,7 +277,7 @@ T To Moonbrook!|QID|26292|M|42.11,63.99|N|To Captain Alpert in Moonbrook.|
 A Propaganda|QID|26295|PRE|26292|M|42.11,63.99|N|From Captain Alpert.|
 
 K Moonbrook Thug|QID|26296|RANK|2|M|41.50,67.37|N|Kill Moonbrook Thugs until they drop a Red Bandana - the first building on the right usually has a couple in there.|L|58117|
-A Evidence Collection|QID|26296|RANK|2|M|43.69,67.90|N|Accept the quest from the Red Bandana dropped by the Moonbrook Thugs.|U|58117|
+A Evidence Collection|QID|26296|PRE|26292|RANK|2|M|43.69,67.90|N|Accept the quest from the Red Bandana dropped by the Moonbrook Thugs.|U|58117|
 
 C Evidence Collection|QID|26296|M|42.58,72.08|N|Kill and loot the Thugs outside the Defias Hideout entrance for the Red Bandana. There are none after the first staircase. Alternatively, drop this quest (you may have inadvertantly started this quest whilst looting a corpse on your way to the Deadmines)|ACTIVE|26320|
 C Evidence Collection|QID|26296|RANK|2|S|M|45.53,70.95|N|Kill thugs and loot their bandanas..|

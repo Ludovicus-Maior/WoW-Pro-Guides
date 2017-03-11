@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2017-03-11 20:09
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3197/revisions/27674/view
 -- Date: 2016-09-01 13:09
 -- Who: Fluclo
 -- Log: Corrected coords in They Sent Assassins (Human Warrior), changed Rest and Relaxation to Active instead of Rank.
@@ -239,10 +244,6 @@
 
 -- URL: http://wow-pro.com/node/3197/revisions/23242/view
 -- Date: 2010-12-02 09:46
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3197/revisions/23241/view
--- Date: 2010-12-02 09:42
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("KurNShire0105", "Leveling", "Northshire (Human)", "Kurich", "Alliance")

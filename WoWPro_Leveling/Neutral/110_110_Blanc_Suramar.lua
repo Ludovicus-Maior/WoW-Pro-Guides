@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/suramar_guide
+-- Date: 2017-03-11 16:36
+-- Who: Blanckaert
+-- Log: added:  a Note;K D'vwinn; Turn in for 44563 (which was missing); Note added to Plans needing prev rank to learn, but can buy without knowing.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28293/view
 -- Date: 2017-03-06 02:05
 -- Who: Blanckaert
 -- Log: fixed missing CR/EOL for quest 42229 - C step / T Step
@@ -247,11 +252,6 @@
 -- Date: 2016-11-27 02:41
 -- Who: Blanckaert
 -- Log: Added guess at Alliance quests
-
--- URL: http://wow-pro.com/node/3687/revisions/28054/view
--- Date: 2016-11-27 00:57
--- Who: Blanckaert
--- Log: added a Silver mob. More to be added as pathing is figured out.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1363,7 +1363,7 @@ T The Stuff of Dreams|QID|43362|M|36.51,46.75|NA|N|To Valewalker Farodin.|
 
 ; Good Suramaritan - change of seasons 20/21K revered
 
-N You are Rep Gated|QID|44563|PRE|43362|REP|The Nightfallen;1859;Revered-Exalted;20000;true|N|Next Chain requires 20K into Revered (and killing Xavius in The Emerald Nightmare Raid), Continue doing World Quests.|
+N You are Rep Gated|QID|43502|PRE|43362|REP|The Nightfallen;1859;Revered-Exalted;20000;true|N|Next Chain requires 20K into Revered (and killing Xavius in The Emerald Nightmare Raid), Continue doing World Quests.|
 A A Change of Seasons|QID|43502|REP|The Nightfallen;1859;Revered-Exalted;20000|PRE|43362|M|36.84,46.56|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|N|To Arcanist Valtrois|
 A Giving It All We've Got|QID|43562|PRE|43502|M|37.02,43.24|N|From Arcanist Valtrois|
@@ -1373,20 +1373,21 @@ A Ephemeral Manastorm Projector|QID|43563|PRE|43562|M|37.08,46.56|N|From Arcanis
 A Flow Control|QID|43564|PRE|43562|M|37.08,46.56|N|From Arcanist Valtrois.|
 A Bring Home the Beacon|QID|43565|PRE|43562|M|37.13,46.63|N|From Chief Telemancer Oculeth.|
 P Starcaller Retreat|QID|43565|ACTIVE|43565|M|36.50,44.74|N|Take Portal to The Waning Crescent.|
-
 C Flow Control-Lunestre Lane|QID|43564|M|45.69,76.03|QO|1|NC|N|Click on the manhole cover.|
+; Yes a better flow for QID 43565 is to do Vigil, Bazaar, then Commons, BUT blizz forces this route.
 C Survey Evermoon Commons|QID|43565|M|48.08,75.06|QO|1|NC|U|140257|N|Use the 'Advanced Telemancy Beacon' 5-6 times. (until you get 100 scans) Watch out for Seeing Guards.|
-
 C Survey Evermoon Bazaar|QID|43565|M|48.56,76.63|QO|2|NC|U|140257|N|Use the 'Advanced Telemancy Beacon' 5-6 times. (until you get 100 scans)  Watch out for Seeing Guards.|
 C Survey Siren's Vigil|QID|43565|M|50.36,83.91|QO|3|NC|U|140257|N|Use the 'Advanced Telemancy Beacon' 5-6 times. (until you get 100 scans) Watch out for Seeing Guards.|
 R Concourse of Destiny|QID|43564|ACTIVE|43564|M|50.26,82.43;48.42,64.21|CS|N|Follow along the canal, and go underneath the stairs for the Concourse of Destiny.|
 C Flow Control-Parade Grounds|QID|43564|M|49.70,62.66|QO|2|NC|N|Click on the manhole cover.|
+K Kill Ambassador D'vwinn|QID|43794|M|54.5,64.2|T|Ambassador D'vwinn|N|Silver - Ambassador D'vwinn, for a bit of treasure and resources.|RANK|2|
 R Midnight Court|QID|43563|ACTIVE|43563|M|58.26,61.72|N|Across the water, pause at Sunset park and kill the Chronarch Defender there if it's convenient.|
 C Ephemeral Manastorm Projector|QID|43563|M|57.73,62.64|QO|1|S|N|Kill Chronarch Defenders for Warp-Resistant Plating. Soloed, pulling them into the water in the Marina. It's slow, but do able.|
 $ Treasure Chest|QID|43874|M|57.68,61.97|N|Yes, there is a see illusion mob beside the chest and you may want to wait until you have the WQ to kill her (Leleyna). But if not, there is a chest here to loot for a bit of treasure and resources.|RANK|3|
 C Flow Control-Midnight Court|QID|43564|M|59.89,59.21|QO|3|NC|N|Click on the manhole cover, Up in the area where you talked to Distraught Noble. Same area as WQ for Collaborators.|
 C Ephemeral Manastorm Projector|QID|43563|M|52.60,64.02|QO|1|US|N|Kill Chronarch Defenders for Warp-Resistant Plating. Soloed, pulling them into the water in the Marina. It's slow, but do able.|
 H Shal'Aran|QID|43565|ACTIVE|43565|M|47.74,81.39|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
+t Redemption for the Fallen|QID|44563|M|36.84,46.51|N|To Valewalker Farodin.|
 T Bring Home the Beacon|QID|43565|M|37.14,46.64|N|To Chief Telemancer Oculeth.|
 T Flow Control|QID|43564|M|37.11,46.55|N|To Arcanist Valtrois.|
 T Ephemeral Manastorm Projector|QID|43563|M|37.09,46.55|N|To Arcanist Valtrois.|
@@ -1414,11 +1415,17 @@ C Arluin's Request|QID|43569|M|48.24,66.84|QO|2|CHAT|N|Share Arcan'dor Fruit wit
 T Arluin's Request|QID|43569|M|48.24,66.84|N|To Arluelle.|
 H Shal'Aran|QID|45260|M|36.51,46.80|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 
+; Tailoring Purchase of plans Need Exalted.
+
+B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137973|N|From First Arcanist Thalyssra. (2,700 Gold)\nYou can buy, but can't learn if you don't have previous Rank.|RECIPE|185954|REP|The Nightfallen;1859;Exalted|
+B Pattern: Imbued Silkweave Pantaloons|PRE|38974|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137976|N|From First Arcanist Thalyssra. (2,700 Gold)\nYou can buy, but can't learn if you don't have previous Rank.|RECIPE|185957|REP|The Nightfallen;1859;Exalted|
+B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137979|N|From First Arcanist Thalyssra. (2,700 Gold)\nYou can buy, but can't learn if you don't have previous Rank.|RECIPE|185960|REP|The Nightfallen;1859;Exalted|
+
 ; Insurrection - Lockdown Storyline Quests
 
 A Insurrection|QID|45271|LEAD|45260|PRE|43568|N|Accepted from your adventurer's journal (SHIFT-J by default).|
 T Insurrection|QID|45271|M|36.51,46.80|N|To First Arcanist Thalyssra.|
-A One Day at a Time|QID|45260|PRE|43569|M|36.51,46.80|N|From First Arcanist Thalyssra.|
+A One Day at a Time|QID|45260|PRE|43569|M|36.51,46.80|N|From First Arcanist Thalyssra.\n*Bread Crumb Quest: Check your Adventurer's Journal*|
 C One Day at a Time|QID|45260|M|37.90,45.65|QO|1|NC|U|143597|N|Click on a Suramar Refugee.|
 T One Day at a Time|QID|45260|M|36.50,46.75|N|To First Arcanist Thalyssra.|
 A Silence in the City|QID|38649|PRE|45260|M|36.50,46.75|N|From First Arcanist Thalyssra.|
@@ -1453,12 +1460,6 @@ C Visitor in Shal'Aran|QID|44955|M|34.60,47.99|QO|1|CHAT|N|Go outside to meet th
 C Visitor in Shal'Aran|QID|44955|M|36.18,47.14|QO|2|CHAT|N|Talk to Arluelle then lead her inside.|
 T Visitor in Shal'Aran|QID|44955|M|36.50,46.78|N|To First Arcanist Thalyssra.|
 
-; Tailoring Purchase of plans Need Exalted.
-
-B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137973|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185954|REP|The Nightfallen;1859;Exalted|
-B Pattern: Imbued Silkweave Pantaloons|PRE|38974|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137976|N|From First Arcanist Thalyssra. (2,700 Gold) |RECIPE|185957|REP|The Nightfallen;1859;Exalted|
-B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring;197|L|137979|N|From First Arcanist Thalyssra. (2,700 Gold)|RECIPE|185960|REP|The Nightfallen;1859;Exalted|
-
 ; Insurrection - Missing Persons Storyline Quests.
 
 A Continuing the Cure|QID|45261|PRE|44955|M|36.50,46.78|N|From First Arcanist Thalyssra.|
@@ -1489,7 +1490,7 @@ T In the Business of Souls|QID|44726|M|24.86,88.72|N|To Silgryn.|
 A Waning Refuge|QID|44814|PRE|44726|M|24.86,88.72|N|From Silgryn.|
 C Waning Refuge|QID|44814|M|24.62,88.90|NC|N|Hop on Deline's Gondola.|
 T Waning Refuge|QID|44814|M|52.41,80.18|N|To Silgryn.|
-P Shal'Aran|QID|45262|M|51.94,79.08;52.00,78.74|CS|N|Take Portal back to Shal'Aran.|
+P Shal'Aran|QID|45262|PRE|44814|M|51.94,79.08;52.00,78.74|CS|N|Take Portal back to Shal'Aran.\nOR: Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back.|
 
 ; Insurrection - Waxing Crescent Storyline.
 

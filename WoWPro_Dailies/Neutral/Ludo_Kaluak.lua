@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
+-- Date: 2017-03-11 18:33
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3478/revisions/28335/view
+-- Date: 2017-03-11 18:22
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3478/revisions/26580/view
 -- Date: 2014-07-19 17:04
 -- Who: Ludovicus
 -- Log: adjusted LudoKaluak levels

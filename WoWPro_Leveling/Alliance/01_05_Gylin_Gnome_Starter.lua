@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2017-03-11 20:02
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3200/revisions/28221/view
 -- Date: 2017-01-10 20:27
 -- Who: Ludovicus
 -- Log: Deleted spurious Z tag in Hunter's [T Meet the High Tinker]
@@ -243,11 +248,6 @@
 -- Date: 2011-06-28 20:37
 -- Who: Fluclo
 -- Log: Updated Grimaxe's Demise to auto-complete
-
--- URL: http://wow-pro.com/node/3200/revisions/24623/view
--- Date: 2011-06-28 20:27
--- Who: Fluclo
--- Log: Added some NC tags to Non Combat quest lines
 
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1.81013)

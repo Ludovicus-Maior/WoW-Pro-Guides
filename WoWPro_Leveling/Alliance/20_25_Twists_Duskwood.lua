@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2017-03-11 20:50
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3222/revisions/27672/view
 -- Date: 2016-08-31 23:52
 -- Who: Fluclo
 -- Log: Added Rank 2 to quests that don't need to be done for zone progression. Added PRE tags to quests that have another quest that needs to be done first. Added Active tags to steps that should only display when you're on the indicated quest. 
@@ -146,10 +151,10 @@ T Seasoned Wolf Kabobs|QID|26620|M|73.80,43.61|N|To Chef Grual.|
 T Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|To Chef Grual.|US|
 T Wolves at Our Heels|QID|26618|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
 
-A The Night Watch|QID|26645|M|73.72,46.89|N|From Commander Althea Ebonlocke.|S|RANK|2|
-A The Hermit|QID|26627|M|73.72,46.89|N|From Commander Althea Ebonlocke.|
-A The Night Watch|QID|26645|M|73.72,46.89|N|From Commander Althea Ebonlocke.|US|RANK|2|
-A Look To The Stars|QID|26683|M|79.53,47.41|N|From Viktori Prism'Antras.|
+A The Night Watch|QID|26645|PRE|26618|M|73.72,46.89|N|From Commander Althea Ebonlocke.|S|RANK|2|
+A The Hermit|QID|26627|PRE|26618|M|73.72,46.89|N|From Commander Althea Ebonlocke.|
+A The Night Watch|QID|26645|PRE|26618|M|73.72,46.89|N|From Commander Althea Ebonlocke.|US|RANK|2|
+A Look To The Stars|QID|26683|PRE|26618|M|79.53,47.41|N|From Viktori Prism'Antras.|
 
 T The Hermit|QID|26627|M|87.45,35.38|N|To Abercrombie.|
 A Supplies from Darkshire|QID|26653|M|87.45,35.38|N|From Abercrombie.|PRE|26653|
@@ -200,17 +205,17 @@ L Level 21 |QID|26666|N|You need to be level 21 to continue with this guide.|LVL
 A The Legend of Stalvan|QID|26666|M|79.04,44.23|N|From Tobias Mistmantle.|
 A Worgen in the Woods|QID|26688|M|75.28,47.95|N|From Calor.|
 T The Legend of Stalvan|QID|26666|M|72.50,46.87|N|To Clerk Daltry.|
-A The Stolen Letters|QID|26667|M|72.50,46.87|N|From Clerk Daltry.|
+A The Stolen Letters|QID|26667|PRE|26666|M|72.50,46.87|N|From Clerk Daltry.|
 
 C Worgen in the Woods|QID|26688|M|75.28,47.95|N|Kill Worgen as you go in Brightwood Grove.|S|
 C The Stolen Letters|QID|26667|M|61.24,40.39|N|Laying on the ground outside the tents.|NC|
 C Worgen in the Woods|QID|26688|M|75.28,47.95|N|Finish Killing Worgen.|US|
 
 T The Stolen Letters|QID|26667|M|72.50,46.87|N|To Clerk Daltry.|
-A In A Dark Corner|QID|26669|M|72.50,46.87|N|From Clerk Daltry.|
+A In A Dark Corner|QID|26669|PRE|26667|M|72.50,46.87|N|From Clerk Daltry.|
 
 T Worgen in the Woods|QID|26688|M|75.28,47.95|N|To Calor across.|
-A The Rotting Orchard|QID|26689|M|75.28,47.95|N|From Calor.|
+A The Rotting Orchard|QID|26689|PRE|26688|M|75.28,47.95|N|From Calor.|
 
 C The Rotting Orchard|QID|26689|N|Kill Nightbane Shadow Weavers. Beware of the hidden stalkers in this area.|S|
 C In A Dark Corner|QID|26669|M|66.5,76.5|N|Inside the barn, at the back.|NC|
@@ -238,7 +243,7 @@ C A Deadly Vine|QID|26707|M|49.57,76.46|N|Kill and loot the Corpseweeds.|US|
 T The Yorgen Worgen|QID|26717|M|44.81,67.32|N|To Apprentice Fess.|S|
 T A Deadly Vine|QID|26707|M|44.81,67.32|N|To Apprentice Fess.|
 T The Yorgen Worgen|QID|26717|M|44.81,67.32|N|To Apprentice Fess.|US|
-A Delivery to Master Harris|QID|26719|M|44.81,67.32|N|From Apprentice Fess.|
+A Delivery to Master Harris|QID|26719|PRE|26717|M|44.81,67.32|N|From Apprentice Fess.|
 
 H Scarlet Raven Tavern |QID|26669|N|Hearthstone to, or run back to Scarlet Raven Tavern in Darkshire.|ACTIVE|26669|
 
@@ -267,17 +272,17 @@ C Roland's Doom|QID|26670|M|73.63,79.19|N|In the back of the cave, pick up the M
 C Vile and Tainted|QID|26690|N|Finish killing Worgen.|US|
 
 T Vile and Tainted|QID|26690|M|75.28,47.95|N|To Calor.|
-A Worgen in the Woods|QID|26691|M|75.28,47.95|N|From Calor.|
+A Worgen in the Woods|QID|26691|PRE|26690|M|75.28,47.95|N|From Calor.|
 T Worgen in the Woods|QID|26691|M|75.35,48.93|N|To Jonathan Carevin.|
 
 T Roland's Doom|QID|26670|M|72.50,46.87|N|To Clerk Daltry.|
-A The Fate of Stalvan Mistmantle|QID|26671|M|72.50,46.87|N|From Clerk Daltry.|
+A The Fate of Stalvan Mistmantle|QID|26671|PRE|26670|M|72.50,46.87|N|From Clerk Daltry.|
 
 T The Fate of Stalvan Mistmantle|QID|26671|M|78.95,44.25|N|To Tobias Mistmantle.|
-A Clawing at the Truth|QID|26672|M|78.95,44.25|N|From Tobias Mistmantle.|
+A Clawing at the Truth|QID|26672|PRE|26671|M|78.95,44.25|N|From Tobias Mistmantle.|
 
 T Clawing at the Truth|QID|26672|M|75.76,45.28|N|To Madame Eva.|
-A Mistmantle's Revenge|QID|26674|M|75.76,45.28|N|From Madame Eva.|
+A Mistmantle's Revenge|QID|26674|PRE|26672|M|75.76,45.28|N|From Madame Eva.|
 
 C Mistmantle's Revenge|QID|26674|M|77.39,36.32|N|Use the ring at the manor house. Then kill Stalvan Mistmantle after the talking.|U|59363|
 T Mistmantle's Revenge|QID|26674|M|78.98,44.21|N|To Tobia Mismantle.|
@@ -285,7 +290,7 @@ T Mistmantle's Revenge|QID|26674|M|78.98,44.21|N|To Tobia Mismantle.|
 F Raven Hill |QID|26719|M|77.45,44.25|N|Fly to Raven Hill.|ACTIVE|26719|
 
 T Delivery to Master Harris|QID|26719|M|18.40,57.76|N|Deliver the message to Oliver Harris at Raven Hill.|
-A A Curse We Cannot Lift|QID|26720|M|18.40,57.76|N|From Oliver Harris.|
+A A Curse We Cannot Lift|QID|26720|PRE|26719|M|18.40,57.76|N|From Oliver Harris.|
 A Soothing Spirits|QID|26777|M|19.92,57.88|N|From Sister Eisington.|
 
 f Raven Hill|QID|26777|M|21.03,56.63|N|At John Shelby.|
@@ -296,7 +301,7 @@ C Soothing Spirits|QID|26777|N|Use the Holy Censer on Forlon Spirits.|U|60225|US
 
 T Soothing Spirits|QID|26777|M|19.92,57.88|N|To Sister Eisington.|
 T A Curse We Cannot Lift|QID|26720|M|18.40,57.76|N|To Oliver Harris.|
-A Cry For The Moon|QID|26760|M|18.40,57.76|N|From Oliver Harris.|
+A Cry For The Moon|QID|26760|PRE|26720|M|18.40,57.76|N|From Oliver Harris.|
 C Cry For The Moon|QID|26760|M|18.40,57.76|N|Just sit back and watch.|NC|
 T Cry For The Moon|QID|26760|M|18.40,57.76|N|To Oliver Harris.|
 
@@ -306,7 +311,7 @@ T The Jitters-Bugs|QID|26721|M|18.6,58.21|N|To Jitters.|
 A Bear In Mind|QID|26787|M|18.6,58.21|N|From Jitters.|PRE|26721|
 
 A The Fate of Morbent Fel|QID|26723|M|18.40,57.94|N|From Sven Yorgen.|
-A The Cries of the Dead|QID|26778|M|19.92,57.88|N|From Sister Eisington.|
+A The Cries of the Dead|QID|26778|PRE|26760|M|19.92,57.88|N|From Sister Eisington.|
 
 C Bear In Mind|QID|26787|N|Kill and loot Black Bears for their brains.|S|
 C The Cries of the Dead|QID|26778|N|Kill any type of Ghoul you see.|S|
@@ -347,7 +352,7 @@ T The Weathered Grave|QID|26793|M|72.62,47.64|N|To Sirra Von'lndi.|
 A Morgan Ladimore|QID|26794|M|72.62,47.64|N|From Sirra Von'lndi.|PRE|26793|
 
 T Morgan Ladimore|QID|26794|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
-A Mor'Ladim|QID|26795|M|73.72,46.89|N|From Commander Althea Ebonlocke.  Please note this quest involves flying back to Raven Hill, and taking out a level 25 elite.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|RANK|2|
+A Mor'Ladim|QID|26795|PRE|26794|M|73.72,46.89|N|From Commander Althea Ebonlocke.  Please note this quest involves flying back to Raven Hill, and taking out a level 25 elite.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|RANK|2|
 F Raven Hill|QID|26795|M|77.5,44.3|N|Fly to Raven Hill.|O|
 C Mor'Ladim|QID|26795|M|17.4,29.4|T|Mor'Ladim|N|Find, kill and loot Mor'Ladim, he wanders so use the targeting to find him easier. Don't forget to loot his skull.|O|
 F Darkshire|QID|26795|M|21.06,56.46|N|Fly to Darkshire.|O|

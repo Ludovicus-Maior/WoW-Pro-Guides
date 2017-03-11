@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2017-03-11 20:43
+-- Who: Ludovicus
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3683/revisions/28134/view
 -- Date: 2016-12-10 05:08
 -- Who: Blanckaert
 -- Log: Changed Leatherworking;164 to 165
@@ -208,13 +213,13 @@ A Greymane's Gambit|QID|39800|PRE|38206|M|18.67,51.12|Z|Stormwind City|N|From Ge
 ; Greymane's Gambit Scenario
 C Man the Deck Guns|QID|39800|M|31.94,8.43|Z|AraukNashalIntroScenario|SO|1;1|N|Click on a Deck gun and get going!|
 C Fire at Will!|QID|39800|M|53.65,21.84|Z|AraukNashalIntroScenario|SO|2;1|N|Use the Deck Guns to shoot down Forsaken Dreadwings|
-C Justice from Above|QID|39800||Z|AraukNashalIntroScenario|SO|3|S|N|Head below decks and use a Skyfire Parachute to board the Forsaken ships and defeat their captains.|NC|
+C Justice from Above|QID|39800|Z|AraukNashalIntroScenario|SO|3|S|N|Head below decks and use a Skyfire Parachute to board the Forsaken ships and defeat their captains.|NC|
 C Defeat the captain of The Banshee's Wail|QID|39800|M|53.78,43.52|Z|AraukNashalIntroScenario|SO|3;1|N|Defeat the captain of The Banshee's Wail|
 C Defeat the captain of The Black Rose|QID|39800|M|48.21,52.52|Z|AraukNashalIntroScenario|SO|3;2|N|Defeat the captain of The Black Rose|
 C Defeat the captain of The Windrunner|QID|39800|M|54.81,67.58|Z|AraukNashalIntroScenario|SO|3;3|N|Defeat the captain of The Windrunner|
 C Justice from Above|QID|39800|Z|AraukNashalIntroScenario|SO|3|US|N|Head below decks and use a Skyfire Parachute to board the Forsaken ships and defeat their captains.|NC|
-C Bats in the Bomb Bay|QID|39800||Z|AraukNashalIntroScenario|SO|4;1|N|Remove Volatile Flares from Skyfire bomb bay.|
-C Last Stand|QID|39800||M|69.14,74.70|Z|AraukNashalIntroScenario|SO|5;1|N|Defeat Nathanos Blightcaller on the deck of the Skyfire.|
+C Bats in the Bomb Bay|QID|39800|Z|AraukNashalIntroScenario|SO|4;1|N|Remove Volatile Flares from Skyfire bomb bay.|
+C Last Stand|QID|39800|M|69.14,74.70|Z|AraukNashalIntroScenario|SO|5;1|N|Defeat Nathanos Blightcaller on the deck of the Skyfire.|
 C Greymane's Gambit|QID|39800|M|69.14,74.70|QO|1|N|Greymane's mission complete|
 
 ; The Aftermath
@@ -242,7 +247,7 @@ A Pins and Needles|QID|38059|PRE|38057|M|31.19,57.96|QO|1|N|From Knight-Captain 
 C Lightning Rod|QID|38058|M|29.40,57.93|QO|1|N|Charge the Transponder, stand in the sparks!|S|
 C 7th Legion Dragoon|QID|38059|S|QO|1|N|Rescue Dragoons from the static fields.|
 $ Treasure Chest|QID|38529|M|80.89,48.83;20.03,41.23|Z|1017/9|CS|N|Go to the top floor of the Alliance ship and go waay inside the drake cave. Loot for a bit of treasure and resources.|RANK|3|
-C Lightning Rod|QID|38058|M|29.40,57.93|QO|1|N|Charge the Transponder, stand in the sparks!||US|
+C Lightning Rod|QID|38058|M|29.40,57.93|QO|1|N|Charge the Transponder, stand in the sparks!|US|
 C 7th Legion Dragoon|QID|38059|US|QO|1|N|Rescue Dragoons from the static fields.|
 T Lightning Rod|QID|38058|M|29.39,57.96|QO|2|N|To UI.|
 A Signal Boost|QID|38060|PRE|38058|M|29.39,57.96|N|From UI.|
@@ -380,7 +385,7 @@ C Cry Thunder!|QID|38624|M|41.25,80.01|QO|1|NC|N|Hop on the Vethir to begin the 
 C Cry Thunder!|QID|38624|M|43.60,70.78|QO|2|NC|N|Standard bombing run, if one of the vrykal gets on your dragon, use ability 2.|
 C Cry Thunder!|QID|38624|M|47.46,54.27|QO|3|NC|N|Your ride returns to near Amberfall Mesa.|
 T Cry Thunder!|QID|38624|M|48.07,54.58|N|To Huginn.|
-A The Trials Continue|QID|39803|PRE|38624|M|47.91,54.63|N|From Huginn.
+A The Trials Continue|QID|39803|PRE|38624|M|47.91,54.63|N|From Huginn.|
 
 ; Side Excursions
 
@@ -457,7 +462,7 @@ A Turn the Keys|QID|38778|PRE|39796|M|68.50,54.34|N|From Vydhar.|
 A The Runewood's Revenge|QID|39788|PRE|39796|M|68.50,54.34|N|From Vydhar.|
 C Turn the Keys|QID|38778|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|S|N|Click on the three runestones.|;I realize green dots don't show for sticky steps, but the other steps send you to the correct spots and this catches it if you miss one (at the US step).
 C The Runewood's Revenge|QID|39788|M|68.60,51.61|QO|2|N|Kill the Bonespeaker Carver in this area.|
-C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1||S|N|The Bonespeaker Runeaxe are around both the remaining runestones.|
+C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|S|N|The Bonespeaker Runeaxe are around both the remaining runestones.|
 K Kill Urgev the Flayer|QID|38847|M|64.88,51.82|QO|1|ITEM|129219|T|Urgev the Flayer|N|Silver - Kill and loot for a bit of treasure and resources.|
 C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|N|Finish killing Bonespeaker Runeaxe.|
 $ Small Treasure Chest|QID|40083|M|67.99,57.77|N|Loot fora bit of resources and treasure.|
@@ -488,13 +493,13 @@ T Lay Them to Rest|QID|39791|M|68.18,48.69|N|To Shieldmaiden Iounn.|
 A Breaking the Bonespeakers|QID|38816|PRE|38811|M|68.18,48.69|N|From Shieldmaiden Iounn.|
 C Breaking the Bonespeakers|QID|38816|M|71.58,45.40|S|N|Kill Bonespeaker allies.|
 A The Runes that Bind|QID|38823|M|69.80,45.73|N|From Rune Carved Tablet.|
-C Regal Remains|QID|38817|M|72.97,43.89||S|NC|N|Collect Ashildir's Bones.|
+C Regal Remains|QID|38817|M|72.97,43.89|S|NC|N|Collect Ashildir's Bones.|
 $ Small Treasure Chest|QID|38637|M|69.35,44.97;69.13,44.77|CS|N|Use grapple point to reach chest. Loot for treasure and resources.|
 $ Small Treasure Chest|QID|40086|M|69.0,41.9|CS|N|In the room with the ritual stone. Loot for treasure and resources.|
 C The Runes that Bind|QID|38823|M|69.46,41.96;73.00,44.05;71.42,45.24|CN|N|Click on the ritual stones to destroy them.|
 $ Small Treasure Chest|QID|43305|M|72.24,43.75;71.95,44.14|CS|N|Use your grappling hook to go up and get this chest. Loot for a bit of treasure and resources.|
 C Breaking the Bonespeakers|QID|38816|M|71.58,45.40|US|N|Finish killing Bonespeaker allies.|
-C Regal Remains|QID|38817|M|72.97,43.89||US|NC|N|Finish collecting Ashildir's Bones.|
+C Regal Remains|QID|38817|M|72.97,43.89|US|NC|N|Finish collecting Ashildir's Bones.|
 T Regal Remains|QID|38817|M|69.89,45.52|N|To Shieldmaiden Iounn.|
 T Breaking the Bonespeakers|QID|38816|M|69.89,45.52|N|To Shieldmaiden Iounn.|
 T The Runes that Bind|QID|38823|M|69.89,45.52|N|To Shieldmaiden Iounn.|

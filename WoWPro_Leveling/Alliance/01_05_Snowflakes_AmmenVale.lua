@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2017-03-11 20:14
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3206/revisions/27650/view
 -- Date: 2016-08-30 22:43
 -- Who: Ludovicus
 -- Log: Corrected a few typos.

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2017-03-11 18:31
+-- Who: Ludovicus
+-- Log: Added PREs; syntax changes.
+
+-- URL: http://wow-pro.com/node/3561/revisions/26881/view
 -- Date: 2014-11-08 00:21
 -- Who: Ludovicus
 -- Log: Removed rogue N tag
@@ -68,7 +73,7 @@ return [[
 ; Intro quests to Timeless Isle -- Alliance
 N Reccomendations|QID|33229|N|WoWPro is a great addon, but your Timeless Isle experience can be better with two other addons, RareCoordinator and _NPCScan.  Check them out.  This guide automatically sets up NPCScan if it is present.|
 T A Flash of Bronze...|QID|33229|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|To Chromie, at the Mogu'Shan Palace upper level.|
-A Journey to the Timeless Isle|QID|33231|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Chromie|
+A Journey to the Timeless Isle|QID|33231|PRE|33229|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Chromie|
 R Timeless Isle|QID|33231|M|23.27,70.84|U|104113|FACTION|Alliance|N|Use watch and get wisked away!|
 f Tushui Landing|QID|33231|M|23.07,71.04|FACTION|Alliance|N|Michi Windblossom is the flightmaster|
 T Journey to the Timeless Isle|QID|33231|M|23.12,71.65|FACTION|Alliance|N|To Watcher Lara.|
@@ -78,7 +83,7 @@ T Time Keeper Kairoz|QID|33160|M|34.54,53.63|FACTION|Alliance|N|To Kairoz.|
 ; Intro quests to Timeless Isle -- Horde
 N Reccomendations|QID|33230|N|WoWPro is a great addon, but your Timeless Isle experience can be better with two other addons, RareCoordinator and _NPCScan.  Check them out.  This guide automatically sets up NPCScan if it is present.|
 T A Flash of Bronze...|QID|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|To Chromie, at the Mogu'Shan Palace upper level.|
-A Journey to the Timeless Isle|QID|33232|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Chromie|
+A Journey to the Timeless Isle|QID|33232|PRE|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Chromie|
 R Timeless Isle|QID|33232|M|21.8,39.8|U|104110|FACTION|Horde|N|Use watch and get wisked away!|
 f Huojin Landing|QID|33232|M|21.92,39.75|FACTION|Horde|N|Chi-Ro the Skytamer is the flightmaster|
 T Journey to the Timeless Isle|QID|33232|M|22.01,40.93|FACTION|Horde|N|To Watcher Alundra.|
@@ -194,7 +199,7 @@ A Timeless Treasures|QID|33333|M|34.54,53.63|PRE|33332|N|From Kairoz.|
 C Timeless Treasures|QID|33333|M|24.8,53.04;22.15,49.27|CN|N|Two chests are marked on the map. If you already looted them, go to the Achievments module and select the "Treasure" guide for the rest.|
 T Timeless Treasures|QID|33333|M|34.54,53.63|N|To Kairoz.|
 A Strong Enough To Survive|QID|33334|M|34.54,53.63|PRE|33333|N|From Kairoz, weekly quest.|
-C Strong Enough To Survive|QID|33334||N|Kill 5 Rares or Rare Elites on the island this week. The addon NPCScan works great for spotting them.|S|
+C Strong Enough To Survive|QID|33334|N|Kill 5 Rares or Rare Elites on the island this week. The addon NPCScan works great for spotting them.|S|
 t Strong Enough To Survive|QID|33334|M|34.54,53.63|N|To Kairoz.|
 
 ; Shaohao Reputation
@@ -250,7 +255,7 @@ T Heavy Yak Flank|QID|33236|M|41.79,63.73|N|To Great Chef Woo.|L|104266|
 T Pristine Firestorm Egg|QID|33239|M|41.79,63.73|N|To Great Chef Woo.|L|104257|
 
 C Empowering the Hourglass|QID|33338|N|Kill and loot till you get 50 Epoch Stones.|US|
-C Strong Enough To Survive|QID|33334||N|Kill 5 Rares or Rare Elites on the island. The addon NPCScan works great for spotting them.|US|
+C Strong Enough To Survive|QID|33334|N|Kill 5 Rares or Rare Elites on the island. The addon NPCScan works great for spotting them.|US|
 
 ; Cooking Quests
 A Noodle Secrets Long Forgotten|QID|33018|M|52.08,46.13|PRE|31467+31471+31474+31476+31477+31480|N|From Old Sign Fragment, for those that are not Masters of the Way. You need to have started each of the ways at the Tillers.|

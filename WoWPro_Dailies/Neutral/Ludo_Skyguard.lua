@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/skyguard_dalies
+-- Date: 2017-03-11 18:29
+-- Who: Ludovicus
+-- Log: Added PREs; syntax changes.
+
+-- URL: http://wow-pro.com/node/3457/revisions/26563/view
 -- Date: 2014-07-06 15:48
 -- Who: Ludovicus
 -- Log: Aded levels and faction
@@ -62,17 +67,17 @@ T World of Shadows|QID|11004|PRE|11098|M|64,66.8|N|To Severin|
 T Escape from Skettis|QID|11085|PRE|11098|M|64.4,66.6|Z|Terokkar Forest|N|To Sky Sergeant Doryn|
 
 F Sylvanaar|N|Closest flightpoint to Ogri'la|
-A Wrangle More Aether Rays!|QID|11066|M|28.0,51.4|Z|Blade's Edge Mountains|N|From Skyguard Khatie|
+A Wrangle More Aether Rays!|QID|11066|PRE|11065|M|28.0,51.4|Z|Blade's Edge Mountains|N|From Skyguard Khatie|
 C Wrangle More Aether Rays!|QID|11066|M|28.80,57.60;27.80,52.15;31.80,56.50;31.50,52.55|Z|Blade's Edge Mountains|CN|
 T Wrangle More Aether Rays!|QID|11066|M|28.0,51.4|Z|Blade's Edge Mountains|N|From Skyguard Khatie|
-A Bomb Them Again!|QID|11023|M|27.6,52.8|Z|Blade's Edge Mountains|N|From Sky Sergeant Vanderlip|
+A Bomb Them Again!|QID|11023|PRE|11010;11102|M|27.6,52.8|Z|Blade's Edge Mountains|N|From Sky Sergeant Vanderlip|
 C Bomb Them Again!|QID|11023|M|27.6,52.8|Z|Blade's Edge Mountains|N|Destroy Fel Cannonball Stacks.  Acheivement for doing it in under 2 minutes, 15 seconds while not in a group.|
 T Bomb Them Again!|QID|11023|M|27.6,52.8|Z|Blade's Edge Mountains|N|To Sky Sergeant Vanderlip|
 
-N End of the Dailies|N|Start of the questline.
+N End of the Dailies|N|Start of the questline.|
 F Terokkar Forest|N|Get back to the Forest|
 
-A Secrets of the Talonpriests|QID|11005|M|64.0,66.8|N|From Sky Commander Adaris|
+A Secrets of the Talonpriests|QID|11005|PRE|11004|M|64.0,66.8|N|From Sky Commander Adaris|
 U Elixir of Shadows|QID|11005|M|69.2,78.2|U|32446|N|Gives you 20 minutes of the buff.  If you run out, farm more Shadowdust and get another Elixer from Severin.|
 K Talonpriest Ishaal|QID|11005|M|69.2,78.2|QO|Talonpriest Ishaal slain|N|Loot his Almanac.  |
 K Talonpriest Skizzik|QID|11005|M|69.88,82.29|QO|Talonpriest Skizzik slain|
