@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
+-- Date: 2017-03-10 23:32
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3419/revisions/26564/view
 -- Date: 2014-07-06 15:49
 -- Who: Ludovicus
 -- Log: Guide levels
@@ -52,14 +57,14 @@ N Deepholm Quests|QID|26709|N|You must have completed the quests in Deepholm in 
 
 R Therazane's Throne|M|49.27,50.33|N|Take the portal from your capital city to Deepholm, then take the portal from the center of Deepholm to Therazane's Throne.|
 
-A Fear of Boring|QID|27046|M|56.08,14.39|N|From Felsen the Enduring.|
-A Motes|QID|27047|M|56.08,14.39|N|From Felsen the Enduring.|
-A Beneath the Surface|QID|28488|M|56.08,14.39|N|From Felsen the Enduring. If he does not have it, right-click this step to skip it. Maybe you will get "Lost" or "Underground"|
-A Lost In The Deeps|QID|26710|M|55.35,14.17|N|From Pyrite Stonetender. If he does not have it, right-click this step to skip it, and you will get "Underground economy" in the Depths.|
+A Fear of Boring|QID|27046|PRE|26709|M|56.08,14.39|N|From Felsen the Enduring.|
+A Motes|QID|27047|PRE|26709|M|56.08,14.39|N|From Felsen the Enduring.|
+A Beneath the Surface|QID|28488|PRE|26709|M|56.08,14.39|N|From Felsen the Enduring. If he does not have it, right-click this step to skip it. Maybe you will get "Lost" or "Underground"|
+A Lost In The Deeps|QID|26710|PRE|26709|M|55.35,14.17|N|From Pyrite Stonetender. If he does not have it, right-click this step to skip it, and you will get "Underground economy" in the Depths.|
 A The Restless Brood|QID|28391;28390|M|55.07,13.61|REP|Therazane;1171;revered|N|From Terrath the Steady, he patrols around. If he doesn't have a quest for you, you'll get Glop, Son of Glop later on instead - right-click this step to skip it.|
-A Soft Rock|QID|27049|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
-A Fungal Fury|QID|27050|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
-A Through Persistence|QID|27051|M|59.60,14.05|N|From Ruberick.|
+A Soft Rock|QID|27049|PRE|26709|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
+A Fungal Fury|QID|27050|PRE|26709|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
+A Through Persistence|QID|27051|PRE|26709|M|59.60,14.05|N|From Ruberick.|
 A Glop, Son of Glop|QID|28391;28390|M|59.60,14.05|REP|Therazane;1171;revered|N|From Ruberick.|
 
 C The Restless Brood|QID|28391|U|60266|M|32.83,24.78|N|Use the mallet on the crystal. Click the rocks above you to hop from rock to rock. Move to a new rock when the Broodmother breathes fire on your rock. If you see a nearby rock with a glowing bubble on it, move there. If you complete this quest in under 90 seconds, you will get an achievement. The timer starts from when you hit the resonating crystal and ends when you actually turn the quest in.|

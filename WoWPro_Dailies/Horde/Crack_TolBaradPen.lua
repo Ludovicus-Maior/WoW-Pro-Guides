@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2017-03-10 23:19
+-- Who: Ludovicus
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3416/revisions/26838/view
 -- Date: 2014-11-06 18:24
 -- Who: Fluclo
 -- Log: Added missing |N| tag
@@ -91,7 +96,7 @@ C Bombs Away!|QID|28696|M|22,47.1|N|Click on a cannon, use Ability #1, aim with 
 
 C Leave No Weapon Behind|QID|28685|M|39.6,34.3|N|Loot 12 Rusty Rifles from the Racks of Rifles.|
 C Claiming The Keep|QID|28682|M|35.5,27.3|N|Head upstairs in the keep and kill Keep Lord Farson.|
-C Walk A Mile In Their Shoes|QID|28721|M|35.5,27.3|N|Head into the basement. Talk to one of the Alliance Farson Prisoners, and escort them out of the keep.
+C Walk A Mile In Their Shoes|QID|28721|M|35.5,27.3|N|Head into the basement. Talk to one of the Alliance Farson Prisoners, and escort them out of the keep.|
 
 C Rattling Their Cages|QID|28679|M|44.5,27.1|N|Kill 8 Shipwecked Sailors.|
 C Shark Tank|QID|28681|M|49.3,20.9|T|Tank|N|Find and kill Tank. He is a level 85 elite, so you may need help.|

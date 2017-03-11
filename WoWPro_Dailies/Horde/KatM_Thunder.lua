@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_horde
+-- Date: 2017-03-10 23:21
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3540/revisions/26943/view
 -- Date: 2014-11-08 13:16
 -- Who: Ludovicus
 -- Log: Acdd filler M and NPC's for later.
@@ -49,9 +54,9 @@ T The Storm Gathers|QID|32680|M|28.4,52.2|N|To Lor'themar Theron|
 A Allies in the Shadows|QID|32709|PRE|32680|M|28.4,52.2|N|From Lor'themar Theron|
 
 ; These are the dailies.
-A Ihgaluk Crag|QID|32730|M|28.6,52.4|N|From Magister Hathorel|
-A Za'Tual|QID|32729|M|28.4,52.2|N|From Lor'themar Theron.|
-A The Court of Bones|QID|32728|M|28.4,52.4|N|From Girana the Blooded|
+A Ihgaluk Crag|QID|32730|PRE|32259|M|28.6,52.4|N|From Magister Hathorel|
+A Za'Tual|QID|32729|PRE|32259|M|28.4,52.2|N|From Lor'themar Theron.|
+A The Court of Bones|QID|32728|PRE|32259|M|28.4,52.4|N|From Girana the Blooded|
 
 ; Dailies: Za'Tual
 T Za'Tual|QID|32729|M|38.6,64.8|N|To Halduron Brightwing.|
@@ -188,7 +193,7 @@ T Imposing Threat|QID|32522|M|28.4,52.4|N|To Lor'themar Theron|
 ; Quest line of some sort
 
 T Allies in the Shadows|QID|32709|M|51.4,46|N|To Taran Zhu|
-A Secrets in the Isle of Thunder|QID|32707|M|51.4,46|N|From Taran Zhu|
+A Secrets in the Isle of Thunder|QID|32707|PRE|32706|M|51.4,46|N|From Taran Zhu|
 C Shan'ze Ritual Stones|QID|32707|M|58.0,39.6;44.1,56.2;59.3,56.8;47.4,72.4;52.9,77.2;47.9,82.1;43.5,78.6|CN|L|94221 3|N|These are Trove of the Thunderking locations, shards drop from the treasure chests.|
 T Secrets in the Isle of Thunder|QID|32707|M|51.4,46|N|To Taran Zhu|
 
