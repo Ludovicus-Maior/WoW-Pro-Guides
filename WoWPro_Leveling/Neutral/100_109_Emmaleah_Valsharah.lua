@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2017-03-12 12:26
+-- Who: Emmaleah
+-- Log: Changed note for Scouring What Remains and Master of the Isles.
+
+-- URL: http://wow-pro.com/node/3665/revisions/28356/view
 -- Date: 2017-03-12 06:33
 -- Who: Emmaleah
 -- Log: correct coordinates for fighting Ysera(38743) and add the last two leadin quests for the next zone.
@@ -596,8 +601,8 @@ A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|
 A Master of the Isles|QID|44549|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213;44548|
 C Pressing the Assault|QID|44545|N|Go to your order hall and choose the next strike point at your scouting map.|
 C Isle Hopping|QID|44547|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Scouring What Remains|QID|44548|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Master of the Isles|QID|44549|N|Go to your order hall and choose the last strike point at your scouting map.|
+C Scouring What Remains|QID|44548|N|Go to your order hall and choose the last strike point at your scouting map.|
+C Master of the Isles|QID|44549|N|Congratulations. Only Suramar left.|
 T Pressing the Assault|QID|44545|N|To UI Alert.|
 T Isle Hopping|QID|44547|N|To UI Alert.|
 T Scouring What Remains|QID|44548|N|To UI Alert.|
