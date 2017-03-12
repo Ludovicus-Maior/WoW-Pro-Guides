@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2017-03-12 06:33
+-- Who: Emmaleah
+-- Log: correct coordinates for fighting Ysera(38743) and add the last two leadin quests for the next zone.
+
+-- URL: http://wow-pro.com/node/3665/revisions/28251/view
 -- Date: 2017-01-31 01:12
 -- Who: Blanckaert
 -- Log: minor fixes, S / US not set, and dupe S
@@ -564,14 +569,13 @@ t Ruins of Shala'nir-Bonus Objective|QID|38748|M|61.52,35.71|N|Auto Turned in wh
 T Close Enough to Touch|QID|38687;41763|M|57.81,38.58|N|To Tyrande Whisperwind.|
 A The Fate of Val'sharah|QID|38743|PRE|38687;41763|M|57.81,38.58|N|From Tyrande Whisperwind.|
 C The Fate of Val'sharah|QID|38743|M|57.81,38.58|QO|1|N|Speak to Tyrande|CHAT|
-C The Fate of Val'sharah|QID|38743|M|57.81,38.58|QO|2|N|Fight Ysera to wake her from the nightmare.|
+C The Fate of Val'sharah|QID|38743|M|53.67,55.90|QO|2|N|Fight Ysera to wake her from the nightmare.|
 T The Fate of Val'sharah|QID|38743|M|53.69,55.90|N|To Tyrande Whisperwind.|
-A Enter the Nightmare|QID|40567|PRE|38743|M|53.69,55.90|N|From Tyrande Whisperwind. This is a group/instance quest and is not covered by this guide.|
-A The Tears of Elune|QID|40890|PRE|38743|M|53.45,55.96|N|From The Tears of Elune.|
+A Enter the Nightmare|QID|40567|PRE|38743|M|53.69,55.90|N|From Tyrande Whisperwind. This is a group/instance quest and is not covered by this guide. If/when you complete it, you need to fly out to Garden of the Moon in Val'sharah to turn it in at the same place you picked it up.|
+A The Tears of Elune|QID|40890|PRE|38743|M|53.45,55.96|N|From The Tears of Elune. |
+
 U Dalaran Hearthstone|QID|38743|M|56.74,57.72|N|Use your Dalaran Hearthstone or take the flight master back to Dalaran.|U|140192|
-
 A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran@Dalaran70|N|Someone will follow you around Dalaran until you accept this quest.|PRE|40374+40375|
-
 ;44550 Death Knight - Called to Acherus
 ;44087/42666 Demon Hunter - Return to the Fel Hammer
 ;42516 Druid - Growing Power
@@ -586,8 +590,19 @@ A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844
 ;42597 Warrior - Odyn's Summons
 C The Tears of Elune|QID|40890|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used|
 T The Tears of Elune|QID|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Tears of Elune" on the wall.|
-A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|Auto Accepted from UI.|
-A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|Auto Accepted from UI.|
+A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|40890|
+A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213;44545|
+A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213;44547|
+A Master of the Isles|QID|44549|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213;44548|
+C Pressing the Assault|QID|44545|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Isle Hopping|QID|44547|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Scouring What Remains|QID|44548|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Master of the Isles|QID|44549|N|Go to your order hall and choose the last strike point at your scouting map.|
+T Pressing the Assault|QID|44545|N|To UI Alert.|
+T Isle Hopping|QID|44547|N|To UI Alert.|
+T Scouring What Remains|QID|44548|N|To UI Alert.|
+T Master of the Isles|QID|44549|N|To UI Alert.|
+
 D On to Class Halls|N|This ends Val'sharah and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Val'sharah and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
 D On to Class Halls|N|This ends Stormheim and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|
