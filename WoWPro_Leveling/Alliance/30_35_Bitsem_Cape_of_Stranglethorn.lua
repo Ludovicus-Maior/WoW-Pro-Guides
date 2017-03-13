@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2017-03-13 17:38
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3237/revisions/27625/view
 -- Date: 2016-08-29 22:56
 -- Who: Fluclo
 -- Log: Changed WoWPro:GuideLevels from 26 to 29, and removed redundant L step at beginning of guide.
@@ -250,7 +255,7 @@ H The Salty Sailor Tavern |QID|26609|N|Hearthstone to The Salty Sailor Tavern in
 
 A Scaring Shaky|QID|26593|M|40.97,74.32;42.05,73.46|CC|N|From "Sea Wolf" MacKinley.|
 A Stranglethorn Fever|QID|26597|M|41.88,72.81|N|From Fin Fizracket.|
-A The Bloodsail Buccaneers|QID|26609|M|42.66,71.96|N|From First Mate Crazz.|
+A The Bloodsail Buccaneers|QID|26609|PRE|26595;26601;26606|M|42.66,71.96|N|From First Mate Crazz.|
 A The Captain's Chest|QID|26599|M|40.33,67.87|N|From Captain Hecklebury Smotts.|
 
 ;f Booty Bay|QID|26593|NC|M|41.64,74.47|N|Get the Booty Bay flight path.|
@@ -278,14 +283,14 @@ A The Baron Must Be Told|QID|26611|PRE|26610|M|42.53,72.05|N|From First Mate Cra
 T The Baron Must Be Told|QID|26611|M|41.14,73.15|N|To Baron Revilgaz, he's on the top floor of the Salty Sailor Tavern, out on the balcony.|
 
 A Details of the Attack|QID|26612|PRE|26611|M|41.14,73.15|N|From Baron Revilgaz.|
-A Up to Snuff|QID|26613|M|40.74,73.72|N|From Deeg.|
+A Up to Snuff|QID|26613|PRE|26611|M|40.74,73.72|N|From Deeg.|
 T The Captain's Chest|QID|26599|M|40.37,67.76|N|To Captain Hecklebury Smotts.|
 
 A A Giant's Feast|QID|26600|PRE|26599|M|40.37,67.76|N|From Captain Hecklebury Smotts.|
 T Scaring Shaky|QID|26593|M|40.48,67.70|N|To "Shaky" Phillipe.|
 
 A Return to MacKinley|QID|26594|PRE|26593|M|40.48,67.70|N|From "Shaky" Phillipe.|
-A Keep An Eye Out|QID|26614|M|43.43,71.37|N|Up the ramp and around to Dizzy One-Eye.|
+A Keep An Eye Out|QID|26614|PRE|26611|M|43.43,71.37|N|Up the ramp and around to Dizzy One-Eye.|
 T Return to MacKinley|QID|26594|M|41.99,73.47|N|To "Sea Wolf" MacKinley.|
 A Kill-Collect|QID|26595|PRE|26594|M|41.99,73.47|N|From "Sea Wolf" MacKinley.|
 B Crate of Pupellyverbos Port|QID|26600|M|41.01,73.98|N|Buy a Crate of Pupillyverbos Port from Whiskey Slim inside the Tavern.|L|59037|
@@ -311,7 +316,7 @@ T Up to Snuff|QID|26613|M|40.75,73.78|N|To Deeg, on the top floor.|
 T Details of the Attack|QID|26612|M|41.12,73.13|N|To Baron Revilgaz.|
 
 A Getting In With the Bloodsail|QID|26624|PRE|26612|M|41.12,73.13|N|From Baron Revilgaz.|
-T Kill-Collect|QID|26595|M|42.04,73.47|N|To "Sea Wolf" MacKinley.
+T Kill-Collect|QID|26595|M|42.04,73.47|N|To "Sea Wolf" MacKinley.|
 T Keep An Eye Out|QID|26614|M|43.33,71.41|N|Up the ramp to Dizzy One-Eye.|
 T A Dish Best Served Huge|QID|26602|M|40.37,67.84|N|To Captain Hecklebury Smotts.|
 
@@ -333,10 +338,10 @@ A Your First Day as a Pirate|QID|26631|PRE|26629|M|43.85,56.34|N|From Yancey Gri
 
 T Your First Day as a Pirate|QID|26631|M|50,68;45.03,93.29;44.41,91.61|CC|N|To Captain Keelhaul, in the right-hand ship of Wild Shore.|
 A Swabbing Duty|QID|26633|PRE|26631|M|44.41,91.61|N|From Captain Keelhaul.|
-A Cannonball Swim|QID|26635|M|44.53,92.92|N|From "Pretty Boy" Duncan, back up on deck.|
+A Cannonball Swim|QID|26635|PRE|26631|M|44.53,92.92|N|From "Pretty Boy" Duncan, back up on deck.|
 C Swabbing Duty|QID|26633|M|44.73,92.84|N|Grab a mop up on deck and activate the globs of goo as they appear. Or if you're lazy, pay Duncan a gold to do it for you.|NC|
 
-A The Bane of Many A Pirate|QID|26634|M|44.50,92.03|N|Up by the helm from Garr Salthoof.|
+A The Bane of Many A Pirate|QID|26634|PRE|26631|M|44.50,92.03|N|Up by the helm from Garr Salthoof.|
 T Swabbing Duty|QID|26633|M|44.47,91.41|N|To Captain Keelhaul.|
 C Cannonball Swim|QID|26635|M|43.59,97.78|N|Dive off the ship and search the bottom for cannonballs.|
 T Cannonball Swim|QID|26635|M|44.62,93.47|N|To "Pretty Boy" Duncan.|
@@ -346,8 +351,8 @@ T The Bane of Many A Pirate|QID|26634|M|44.51,91.89|N|To Garr Salthoof.|
 A Attracting Attention|QID|26644|PRE|26633|M|44.43,91.69|N|From Captain Keelhaul.|
 T Attracting Attention|QID|26644|M|46.68,95.26|N|To Fleet Master Firallon.|
 
-A Ol' Blasty|QID|26647|M|46.68,94.97|N|From Ironpatch.|
-A Our Mortal Enemies|QID|26648|M|46.57,94.11|N|From "Dead-Eye" Drederick McGumm.|
+A Ol' Blasty|QID|26647|PRE|26644|M|46.68,94.97|N|From Ironpatch.|
+A Our Mortal Enemies|QID|26648|PRE|26644|M|46.57,94.11|N|From "Dead-Eye" Drederick McGumm.|
 C Ol' Blasty|QID|26647|M|46.90,93.91|N|Grab a cannon. Ability 1 is ready, 2 is Aim (locks target in place), aim ahead of the dummy. Ability 3 Fires the cannon.|
 T Ol' Blasty|QID|26647|M|46.69,94.95|N|To Ironpatch.|
 
