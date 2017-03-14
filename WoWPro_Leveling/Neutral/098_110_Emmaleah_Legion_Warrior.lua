@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2017-03-14 20:42
+-- Who: Blanckaert
+-- Log: added a few quests from 3/14
+
+-- URL: http://wow-pro.com/node/3677/revisions/28262/view
 -- Date: 2017-03-04 18:58
 -- Who: Blanckaert
 -- Log: fix the QID 44448 using ; instead of +, some other quests added for warrior...  (Cheated and cut and pasted whole guide again)
@@ -468,6 +473,16 @@ C Helya's Conquest|QID|44721|M|53.81,45.62;57.84,44.00|Z|Stormheim|US|CN|QO|2|T|
 C Helya's Conquest|QID|44721|M|60.15,50.75|Z|Stormheim|QO|4|CHAT|N|Speak with Havi, Heyla can corrupt the Stormforged!.|
 T Helya's Conquest|QID|44721|M|60.15,50.75|Z|Stormheim|N|To Havi.|
 A Trial of Valor: Odyn's Favor|QID|44729|PRE|44721|M|60.15,50.75|Z|Stormheim|N|From Havi. Raid: Trial of Valor.|
+
+; added 3/14/2017
+
+A An Urgent Warning|QID|45986|LVL|110|M|61.61,27.94|N|From Injured Shieldmaiden.|
+T An Urgent Warning|QID|45986|M|59.79,13.46|N|To Skyseer Ghrent.|
+A Investigate the Broken Shore|QID|45987|PRE|45986|M|59.79,13.46|N|From Skyseer Ghrent.|
+C Menace on the Broken Shore|QID|45987|M|59.05,13.38|N|Use Command Board to send on Mission.|
+t Investigate the Broken Shore|QID|45987|M|59.79,13.46|N|To Skyseer Ghrent.|
+
+; more to be added I'm sure
 
 ]]
 end)

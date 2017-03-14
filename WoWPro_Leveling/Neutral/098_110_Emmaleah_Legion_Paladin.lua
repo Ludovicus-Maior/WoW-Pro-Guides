@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2017-03-14 20:52
+-- Who: Blanckaert
+-- Log: added the quests that came out on 3/14, did a REPLACE of the guide, because I forgot which lines I changed.
+
+-- URL: http://wow-pro.com/node/3673/revisions/28265/view
 -- Date: 2017-03-04 19:09
 -- Who: Blanckaert
 -- Log: Fix QID 44448 PRE ; + switch
@@ -110,13 +115,33 @@ C Weapons of Legend|QID|40408|QO|1|M|74.91,48.23|Z|Dalaran@Dalaran70|N|Choose wh
 T Weapons of Legend|QID|40408|M|74.91,48.23|Z|Dalaran@Dalaran70|N|To Lord Maxwell Tyrosus.|
 A Artifact specific quest|QID|42000;42231;42770|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|40408|
 
+;Paladin class hall
+C We Meet at Light's Hope|QID|38576;42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|PRE|38576;42811|
+T We Meet at Light's Hope|QID|38576;42811|M|63.13,37.18|N|To Lord Maxwell Tyrosus.|
+A A United Force|QID|38566|M|63.13,37.18|N|Lord Maxwell Tyrosus.|PRE|38576;42811|
+C A United Force|QID|38566|NC|QO|1|M|74.54,20.33|N|Walk with Lord Maxwell Tyrosus|
+C A United Force|QID|38566|NC|QO|2;3|M|74.54,20.33|N|Inscribe your name in the Libram and then wait a minute for the dialog to finish.|
+T A United Force|QID|38566|M|73.83,19.61|N|To Lord Maxwell Tyrosus.|
+A Forging New Strength|QID|39722|M|73.83,19.61|N|From Lord Maxwell Tyrosus.|PRE|38566|
+C Forging New Strength|QID|39722|NC|M|72.63,23.58|N|Click on the alter and then on the icon in the articact window.|
+T Forging New Strength|QID|39722|M|73.79,19.70|N|To Lord Maxwell Tyrosus.|
+A Logistical Matters|QID|38933|M|73.79,19.70|N|From Lord Maxwell Tyrosus.|PRE|39722|
+T Logistical Matters|QID|38933|M|52.29,78.17|N|To Lord Grayson Shadowbreaker.|
+A A Sound Plan|QID|39756|M|52.29,78.17|N|From Lord Grayson Shadowbreaker. Choose which zone you want to do first.|PRE|38933|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|52.93,78.75|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|38933|
+T A Sound Plan|QID|39756|M|52.29,78.11|N|To Lord Grayson Shadowbreaker.|
+P Dalaran|QID|39718;39864;39731;39733;39735;42866|M|38.11,63.38|NC|N|Click on the portal to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
+
 ;stuff that happens after you finish first zone here
+
 A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran@Dalaran70|N|From Justicar Julia Celeste.|PRE|39780;38743;43595;42244;40794|;need to add stormheim alliance ending QID.
 R Graymane Enclave|QID|42844|M|32.64,69.99|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Alliance|
 R Windrunner's Sanctuary|QID|42844|M|61.81,13.70|CC|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Horde|
 T Growing Power|QID|42844|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
 A Rise Champions|QID|39696|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844|
+
 ;2nd artifact
+
 A Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844|LVL|102|
 C Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|Choose which artifact you want to pursue next.|
 T Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
@@ -125,160 +150,12 @@ t The Silver Hand|QID|42120|M|49.80,72.36|N|To Lord Maxwell Tyrosus in the class
 t Shrine of the Truthguard|QID|42017|M|49.80,72.36|N|To Lord Maxwell Tyrosus in the class hall.|PRE|42005;44063|;prot turn in loc for 2nd or 3rd artifact
 
 ;3rd artifact
+
 A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063;42120;42017;-42774|
 A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063;42774;42120;-42017|
 A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063;42017;42774;-42120|
 C Completing Your Arsenal|QID|44370|M|49.64,72.35|NC|N|Choose the remaining spec.|
 T Completing Your Arsenal|QID|44370|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
-
-;Chapter 1
-A The Blood Matriarch|QID|42846|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|39696|LVL|101|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|53.32,78.77|N|From Scouting Map. Note it now has 3 tabs, choose the one called scouting map.|PRE|42844|
-t Pressing the Assault|QID|44545|M|53.32,78.77|N|To UI Alert.|
-C The Blood Matriarch|QID|42846|M|38.19,64.62|NC|N|Enlist Lady Liadrin|
-A Champion: Lady Liadrin|QID|42881|M|38.19,64.62|N|From/To Lady Leadrin.|
-T The Blood Matriarch|QID|42846|M|52.33,78.08|N|To Lord Grayson Shadowbreaker.|
-A Dark Storms|QID|42847|M|52.33,78.08|N|From Lord Grayson Shadowbreaker.|PRE|42846|
-C Dark Storms|QID|42847|M|53.35,78.74|NC|N|Open the scouting map and choose the missions tab. It will take 2 minutes for the mission to complete.|
-T Dark Storms|QID|42847|M|52.31,78.05|N|To Lord Grayson Shadowbreaker.|
-A Recruiting the Troops|QID|42848|M|52.31,78.05|N|From Lord Grayson Shadowbreaker.|PRE|42847|
-A A Sign From The Sky|QID|42866|M|49.88,72.29|N|From Lord Maxwell Tyrosus.|PRE|42847|
-C Recruiting the Troops|QID|42848|M|53.24,56.15|NC|N|Go talk with Ansela, the first trainee is instant. The next two take 30 minutes each.|
-T Recruiting the Troops|QID|42848|M|52.29,78.22|N|To Lord Grayson Shadowbreaker.|
-A Wrath and Justice|QID|42849|M|52.29,78.22|N|From Lord Grayson Shadowbreaker.|PRE|42848|
-C Wrath and Justice|QID|42849|M|53.01,78.30|NC|N|"Wrath and Justice" is an 8 hour mission. Manually check it off before that and it will be unchecked next time you come to the order hall.|
-R Dalaran Portal|QID|42866|M|37.9,63.73|CC|ACTIVE|39718;39864;39731;39733;39735|
-
-t Wrath and Justice|QID|42849|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
-A Tech It Up a Notch|QID|42850|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42849|
-C Tech It Up a Notch|QID|42850|M|39.94,56.52|NC|N|Class hall upgrade chosen.|
-T Tech It Up a Notch|QID|42850|M|52.24,78.05|N|To Lord Grayson Shadowbreaker.|
-A Meeting of the Silver Hand|QID|42867|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42850+44153|
-R Light's Hope Chapel|QID|42867|QO|1|M|40.59,73.84;45.79,83.13;41.74,89.66|CS|N|Justicar Julia Celeste is found upstairs, just outside the gates.|ACTIVE|42867|
-C Meeting of the Silver Hand|QID|42867|QO|1|M|72.73,54.61|Z|Eastern Plaguelands|CHAT|N|Justicar Julia Celeste can be found outside the front gate of Light's Hope Chapel.|
-R Sanctum of Light|QID|42867|QO|2|M|75.68,52.24|Z|Eastern Plaguelands|N|Back inside your order hall.|ACTIVE|42867|
-C Meeting of the Silver Hand|QID|42867|QO|3|M|38.24,64.58|CHAT|N|Lady Liadrin can be found beside the Dalaran portal. NOTE: if she is out on a mission you will have to wait until the mission is finished. If she is your combat ally, you need to unassign her.|
-C Meeting of the Silver Hand|QID|42867|QO|2|M|52.40,60.49|CHAT|N|Vindicator Boros can be found near Commander Ansela (where you pick up recruits).|
-C Meeting of the Silver Hand|QID|42867|QO|4|M|49.50,51.77|CHAT|N|Aponi Brightmane can be found across the hall from Vindicator Boros.|
-C Meeting of the Silver Hand|QID|42867|QO|5|M|67.67,16.82|CHAT|N|Arator the Redeemed can be found at the front of the chapel on the left side.|
-T Meeting of the Silver Hand|QID|42867|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
-A The Scion's Legacy|QID|42919|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42867|
-C The Scion's Legacy|QID|42919|M|49.64,72.35|QO|1|NC|N|Listen to the dialog and then pick an option. All options lead to doing a particular mission which has the same rewards as the other three. (so it doesnt matter which you pick).|
-C The Scion's Legacy|QID|42919|M|50.91,70.87|QO|2|CHAT|N|Pick an option. All options lead to doing a particular mission which has the same rewards as the other three. (so it doesnt matter which you pick).|
-T The Scion's Legacy|QID|42919|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
-A The Highlord's Command|QID|42885;42966;42967;42968|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42919|
-C The Highlord's Command|QID|42885;42966;42967;42968|M|53.44,78.63|NC|N|Go to your mission board and choose The Highlords Command mission. This mission takes 1 hour to complete, manually check it off and when you come back to your hall you can complete the mission.|
-t The Highlord's Command|QID|42885;42966;42967;42968|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
-A To Faranaar|QID|42886|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42885;42966;42967;42968|LVL|103|
-F Illidari Stand|QID|42886|M|69.87,51.11|N|At Aladune Whitecloud.|ACTIVE|42886|
-T To Faronaar|QID|42886|M|45.91,51.60|Z|Azsuna|N|To Vindicator Boros.|
-A This is Retribution|QID|42887|M|45.91,51.60|Z|Azsuna|N|From Vindicator Boros.|
-C This is Retribution|QID|42887|M|42.79,44.47|Z|Azsuna|N|Run down to Faronaar Front and kill some demons.|
-T This is Retribution|QID|42887|M|28.08,59.12|Z|Azsuna|N|To Vindicator Boros who is now close to Illidari Perch. If you have the flightpath fly over, or just run.|
-A Communication Orbs|QID|42888|M|28.06,59.14|Z|Azsuna|N|From Justicar Julia Celeste.|PRE|42887|
-A Mother Ozram|QID|43462|M|28.07,59.16|Z|Azsuna|N|From Justicar Julia Celeste.|PRE|42887|
-C Mother Ozram|QID|43462|M|31.34,50.74|Z|Azsuna|T|Mother Ozram|N|Run up to Illidari Perch and out the other side to get to Mother Ozram.|
-C Communication Orbs|QID|42888|M|31.47,52.63;30.71,51.47;28.97,52.67|Z|Azsuna|CN|NC|N|Click on the Legion Orbs to disable them.|
-T Communication Orbs|QID|42888|M|28.97,52.67|Z|Azsuna|N|To Justicar Julia Celeste.|
-T Mother Ozram|QID|43462|M|28.97,52.67|Z|Azsuna|N|To Justicar Julia Celeste.|
-A The Codex of Command|QID|42890|M|28.97,52.67|Z|Azsuna|N|From Justicar Julia Celeste.|
-K Kill Bilebrain|QID|42417|QO|1|M|29.30,53.63|Z|Azsuna|ITEM|129079|T|Bilebrain|N|If you didn't get him while questing in Azsuna, there is a Silver to kill for treasure and resources.|RANK|2|
-C The Codex of Command|QID|42890|QO|1|M|26.36,52.17;26.11,53.57|CS|Z|Azsuna|T|Jarvox|N|Kill and loot to collect the Codex.|
-C The Codex of Command|QID|42890|QO|2|M|25.62,55.23|Z|Azsuna|N|Break the first lock.|
-C The Codex of Command|QID|42890|QO|3|M|25.68,55.65|Z|Azsuna|N|Break the second lock.|
-C The Codex of Command|QID|42890|QO|4|M|25.96,55.34|Z|Azsuna|N|Break the third lock.|
-U Dalaran Hearthstone|QID|42890|M|25.96,55.34|Z|Azsuna|U|140192|N|Return to your class hall to turn in the quest.|ACTIVE|42890|
-T The Codex of Command|QID|42890|M|57.79,32.50|N|To Vindicator Boros.|
-U Squire's Oath|QID|42851|U|140929|N|Use to get a free squire.|
-A Champion: Vindicator Boros|QID|42851|M|57.79,32.50|N|From/To Vindicator Boros.|PRE|42890|
-A Champion: Justicar Julia Celeste|QID|42852|M|57.80,32.51|N|From/To Justicar Julia Celeste.|PRE|42890|
-
-;Chapter 2
-A Cracking the Codex|QID|43486|M|57.78,32.51|N|From Aponi Brightmane|PRE|42851+42852|
-A Silver Hand Knights|QID|43494|M|52.35,78.03|N|From Lord Grayson Shadowbreaker.|PRE|42851+42852|
-C Silver Hand Knights|QID|43494|M|58.83,38.90|N|You have access to some tougher recruits. Train them. Don't forget to come back and pick them up.|
-T Silver Hand Knights|QID|43494|M|58.83,38.90|N|From Commander Born.|
-R Dalaran Portal|QID|43486|M|37.9,63.73|CC|N|Take the portal to Dalaran|ACTIVE|43486|
-T Cracking the Codex|QID|43486|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang beside the north bank.|
-A The Fel Lexicon|QID|43487|M|44.58,23.09|Z|Dalaran@Dalaran70|NA|N|From Delas Moonfang. This is a dungeon quest, so find friends or queue when ready.(Violet Hold requires minimum level 105)|
-A Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|
-t The Fel Lexicon|QID|43487|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang.|
-t Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang.|
-A Translation: Danger!|QID|43535|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|PRE|43488+43487|
-T Translation: Danger!|QID|43535|M|48.37,72.77|N|To Aponi Brightmane back in your order hall.|
-A Lord Ravencrest|QID|43493|M|52.31,78.22|NA|N|From Lord Grayson Shadowbreaker.|PRE|43535|
-C Lord Ravencrest|QID|43493|M|52.31,78.22|N|Run the Black Rook Hold Dungeon.|
-t Lord Ravencrest|QID|43493|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
-A To Felblaze Ingress|QID|43489|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43493|
-P Dalaran|M|38.11,63.38|NC|N|Click on the portal to Dalaran.|ACTIVE|43489|
-F Felblaze Ingress|QID|43489|M|69.81,51.06|Z|Dalaran@Dalaran70|CHAT|N|At Aladune Whitecloud.|ACTIVE|43489|
-T To Felblaze Ingress|QID|43489|M|66.17,26.07|Z|Azsuna|N|To Aponi's Libram, inside the end of the fallen tree.|
-A Aponi's Trail|QID|43490|M|66.17,26.07|Z|Azsuna|N|From Aponi's Libram.|PRE|43489|
-C Aponi's Trail|QID|43490|QO|1|M|67,27|Z|Azsuna|N|Kill demons in the area and loot the journal pages.|
-C Aponi's Trail|QID|43490|QO|2|M|67.12,27.74|Z|Azsuna|NC|N|When you have all the pages go thru the portal.|
-C Aponi's Trail|QID|43490|QO|3|M|47.72,52.72|Z|Niskara#1078|NC|N|Click on Aponi's cage.|
-T Aponi's Trail|QID|43490|M|47.72,52.72|Z|Niskara#1078|N|To Aponi Brightmane.|
-A Allies of the Light|QID|43491|M|48.62,63.90|Z|Niskara#1078|N|From Aponi Brightmane.|PRE|43490|
-A The Mind of the Enemy|QID|43540|M|48.62,63.90|Z|Niskara#1078|N|From Aponi Brightmane.|PRE|43490|
-C Allies of the Light|QID|43491|M|49.10,61.20|QO|1|Z|Niskara#1078|S|NC|N|Rescue the paladins and priests scattered thru the area. Diseased cast cleanse, Trapped cast Blessing of Freedom, injured cast a heal.|
-C The Mind of the Enemy|QID|43540|QO|3|M|42.82,46.52|Z|Niskara#1078|NC|N|Click on the projected image of Prophet Velen.|
-C The Mind of the Enemy|QID|43540|QO|2|M|40.25,40.99|Z|Niskara#1078|NC|N|Click on the star map.|
-C The Mind of the Enemy|QID|43540|QO|1|M|44.21,38.17|Z|Niskara#1078|NC|N|Click on the legion intelligence.|
-C Allies of the Light|QID|43491|M|42.77,21.20|QO|3|Z|Niskara#1078|NC|N|Click on Deles' cage to rescue her.|
-C Allies of the Light|QID|43491|M|43.64,17.75|QO|2|Z|Niskara#1078|NC|N|Click on Arator's cage to rescue him.|
-C Allies of the Light|QID|43491|M|49.10,61.20|QO|1|Z|Niskara#1078|US|NC|N|Finish rescuing the paladins and priests scattered thru the area. Diseased cast cleanse, Trapped cast Blessing of Freedom, injured cast a heal.|
-C The Mind of the Enemy|QID|43540|QO|4|M|24.16,46.23|Z|Niskara#1078|N|Kill Brood Queen Aramis.|
-C The Mind of the Enemy|QID|43540|QO|5|M|26.47,40.61|Z|Niskara#1078|NC|N|Click on the Mysterious Stranger.|
-H Dalaran|QID|43540|U|140192|M|26.47,40.61|Z|Niskara#1078|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
-T Allies of the Light|QID|43491|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
-T The Mind of the Enemy|QID|43540|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
-A United as One|QID|43541|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43540+43491|
-C United as One|QID|43541|M|52.31,78.22|QO|1|CHAT|N|Listen to Delas Moonfang's speech and the ensuing discussion.|
-C United as One|QID|43541|M|49.86,72.22|QO|2|CHAT|N|Tell Lord Tyrosus that we will fight.|
-T United as One|QID|43541|M|48.35,72.58|N|To Aponi Brightmane.|
-A Champion: Aponi Brightmane|QID|43492|M|48.35,72.58|N|From/To Aponi Brightmane.|PRE|43541|
-A A New Path|QID|43934|M|48.39,71.46|N|From Delas Moonfang.|PRE|43541|
-C A New Path|QID|43934|M|48.39,71.46|CHAT|N|Tell Delas yes.|
-C A New Path|QID|43934|M|64.99,35.50|CHAT|N|Instruct Delas.|
-C A New Path|QID|43934|M|72.25,24.23|NC|N|Go to the alter and use your extra action button to induct Delas.|
-T A New Path|QID|43934|M|71.97,24.82|N|To Delas Moonfang.|
-A Champion: Delas Moonfang|QID|43933|M|71.97,24.82|N|From/To Delas Moonfang.|
-A Defenders of the World|QID|43699|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43933|
-A Lumenstone|QID|43698|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43933|
-A Blood of Sargeras|QID|43534|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43933|
-B Blood of Sargeras|QID|43534|M|52.31,78.22|L|124124 5|N|If you don't have them, acquire 5 Blood of Sargaras.|
-T Blood of Sargeras|QID|43534|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
-C Lumenstone|QID|43698|M|53.51,78.49|S|NC|N|At your command board. Because you now have 6 followers, you will need to deactivate a follower (by right clicking on thier name in the follower tab) before you can send anyone on this mission. Continue going on missions until you have all the needed lumenstones.|
-C Defenders of the World|QID|43699|N|Go do world quests, come back when completed.|
-C Lumenstone|QID|43698|M|53.51,78.49|US|NC|N|At your command board.Continue going on missions until you have all the needed lumenstones.|
-T Lumenstone|QID|43698|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
-T Defenders of the World|QID|43699|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
-A A Light in the Darkness|QID|43700|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43534+43698+43699|
-P Dalaran|QID|43700|M|37.53,64.07|N|Take the portal to Dalaran from your order hall, when in Dalaran, Take the portal to Netherlight Temple to enter a solo scenario (right beside the portal back to Sanctum of Light).|
-C Join the Battle|QID|43700|SO|1|M|49.57,61.41|Z|NetherlightTemple/1|N|Walk forward to start the fighting.|
-C Defeat Balnazzar's Lieutenants|QID|43700|SO|2;1|M|75.91,40.93|Z|NetherlightTemple/1|T|Ogoroth|N|Kill Ogoroth.|
-C Defeat Balnazzar's Lieutenants|QID|43700|SO|2;2|M|31.52,41.22|Z|NetherlightTemple/1|T|Torenai the Souleater|N|Kill Torenai the Souleater.|
-C Destroy Legion Portals|QID|43700|SO|3;1|M|38.81,57.10|Z|NetherlightTemple/1|N|Click the Southwestern Portal.|
-C Destroy Legion Portals|QID|43700|SO|3;2|M|38.78,24.40|Z|NetherlightTemple/1|N|Click the Northwestern Portal.|
-C Destroy Legion Portals|QID|43700|SO|3;3|M|60.64,24.50|Z|NetherlightTemple/1|N|Click the Northeastern Portal.|
-C Destroy Legion Portals|QID|43700|SO|3;4|M|60.74,56.99|Z|NetherlightTemple/1|N|Click the Southeastern Portal.|
-C Defeat Balnazzar|QID|43700|M|49.09,40.58|Z|NetherlightTemple/1|T|Balnazzar|N|Go kill Balnazzar, after a little bit High Lord Lothraxion comes to help you.|
-P Dalaran|QID|43700|M|49.77,81.34|Z|NetherlightTemple/1|N|Take the portal out and then return to your order hall.|
-T A Light in the Darkness|QID|43700|M|72.75,25.66|N|To Lord Maxwell Tyrosus.|
-A Warriors of Light|QID|43697|M|72.75,25.66|N|From Lord Maxwell Tyrosus.|PRE|43700|
-C Warriors of Light|QID|43697|M|72.75,25.66|NC|N|Listen to Lord Tyrosus speech for a minute or so.|
-T Warriors of Light|QID|43697|M|72.75,25.66|N|To Lord Maxwell Tyrosus.|
-A A Hero's Weapon|QID|43424|M|72.75,25.66|N|From Lord Maxwell Tyrosus.|PRE|43697|
-C A Hero's Weapon|QID|43424|M|71.84,25.06|N|Stand on the dot and use your extra action button.|
-T A Hero's Weapon|QID|43424|M|72.75,25.66|N|To Lord Maxwell Tyrosus.|
-A Champion Lothraxion|QID|43701|M|49.25,74.28|N|From/To Lothraxion. If you didnt pick up these followers by the alter, they have moved to near your command board.|PRE|43424|
-A Champion: Arator the Redeemer|QID|43785|M|48.81,73.47|N|From/To Arator the Redeemer.|PRE|43424|
-
-A The Power Within|QID|43496|M|37.76,54.82|N|From Image of Kalec. prereq either AK>=10 or finishing paladin campaign.|
-P Dalaran|QID|43496|M|37.53,64.07|N|Take the portal to Dalaran from your order hall.|
-F Azurewing Repose|QID|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
-T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
 ;HOLY
 ;A The Mysterious Paladin|QID|42231|M|74.92,48.19|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|
@@ -388,22 +265,29 @@ F Light's Hope Chapel|QID|99999|M|19.74,60.59|Z|BrokenShorePaladin|N|Click on th
 ;C We Meet at Light's Hope|QID|42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Click on the floor to open the secret door.|
 ;T We Meet at Light's Hope|QID|42811|M|63.13,37.18|Z|Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
 
-;Paladin class hall
-C We Meet at Light's Hope|QID|38576;42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|PRE|38576;42811|
-T We Meet at Light's Hope|QID|38576;42811|M|63.13,37.18|N|To Lord Maxwell Tyrosus.|
-A A United Force|QID|38566|M|63.13,37.18|N|Lord Maxwell Tyrosus.|PRE|38576;42811|
-C A United Force|QID|38566|NC|QO|1|M|74.54,20.33|N|Walk with Lord Maxwell Tyrosus|
-C A United Force|QID|38566|NC|QO|2;3|M|74.54,20.33|N|Inscribe your name in the Libram and then wait a minute for the dialog to finish.|
-T A United Force|QID|38566|M|73.83,19.61|N|To Lord Maxwell Tyrosus.|
-A Forging New Strength|QID|39722|M|73.83,19.61|N|From Lord Maxwell Tyrosus.|PRE|38566|
-C Forging New Strength|QID|39722|NC|M|72.63,23.58|N|Click on the alter and then on the icon in the articact window.|
-T Forging New Strength|QID|39722|M|73.79,19.70|N|To Lord Maxwell Tyrosus.|
-A Logistical Matters|QID|38933|M|73.79,19.70|N|From Lord Maxwell Tyrosus.|PRE|39722|
-T Logistical Matters|QID|38933|M|52.29,78.17|N|To Lord Grayson Shadowbreaker.|
-A A Sound Plan|QID|39756|M|52.29,78.17|N|From Lord Grayson Shadowbreaker. Choose which zone you want to do first.|PRE|38933|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|52.93,78.75|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|38933|
-T A Sound Plan|QID|39756|M|52.29,78.11|N|To Lord Grayson Shadowbreaker.|
-P Dalaran|QID|39718;39864;39731;39733;39735;42866|M|38.11,63.38|NC|N|Click on the portal to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
+;Chapter 1
+A The Blood Matriarch|QID|42846|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|39696|LVL|101|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|53.32,78.77|N|From Scouting Map. Note it now has 3 tabs, choose the one called scouting map.|PRE|42844|
+t Pressing the Assault|QID|44545|M|53.32,78.77|N|To UI Alert.|
+C The Blood Matriarch|QID|42846|M|38.19,64.62|NC|N|Enlist Lady Liadrin|
+A Champion: Lady Liadrin|QID|42881|M|38.19,64.62|N|From/To Lady Leadrin.|
+T The Blood Matriarch|QID|42846|M|52.33,78.08|N|To Lord Grayson Shadowbreaker.|
+A Dark Storms|QID|42847|M|52.33,78.08|N|From Lord Grayson Shadowbreaker.|PRE|42846|
+C Dark Storms|QID|42847|M|53.35,78.74|NC|N|Open the scouting map and choose the missions tab. It will take 2 minutes for the mission to complete.|
+T Dark Storms|QID|42847|M|52.31,78.05|N|To Lord Grayson Shadowbreaker.|
+A Recruiting the Troops|QID|42848|M|52.31,78.05|N|From Lord Grayson Shadowbreaker.|PRE|42847|
+A A Sign From The Sky|QID|42866|M|49.88,72.29|N|From Lord Maxwell Tyrosus.|PRE|42847|
+C Recruiting the Troops|QID|42848|M|53.24,56.15|NC|N|Go talk with Ansela, the first trainee is instant. The next two take 30 minutes each.|
+T Recruiting the Troops|QID|42848|M|52.29,78.22|N|To Lord Grayson Shadowbreaker.|
+A Wrath and Justice|QID|42849|M|52.29,78.22|N|From Lord Grayson Shadowbreaker.|PRE|42848|
+C Wrath and Justice|QID|42849|M|53.01,78.30|NC|N|"Wrath and Justice" is an 8 hour mission. Manually check it off before that and it will be unchecked next time you come to the order hall.|
+R Dalaran Portal|QID|42866|M|37.9,63.73|CC|ACTIVE|39718;39864;39731;39733;39735|
+t Wrath and Justice|QID|42849|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
+A Tech It Up a Notch|QID|42850|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42849|
+C Tech It Up a Notch|QID|42850|M|39.94,56.52|NC|N|Class hall upgrade chosen.|
+T Tech It Up a Notch|QID|42850|M|52.24,78.05|N|To Lord Grayson Shadowbreaker.|
+
+; Light's Heart Intro
 
 T A Sign From The Sky|QID|42866|M|28.49,48.34|Z|Dalaran@Dalaran70|N|To Archmage Khadgar in The Violet Citadel.|
 A A Falling Star|QID|44257|M|28.49,48.34|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|42866|
@@ -411,7 +295,7 @@ C A Falling Star|QID|44257|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Fl
 C A Falling Star|QID|44257|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44257|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
 C A Falling Star|QID|44257|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
-U Dalaran Hearthstone|QID|44257|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
+U Dalaran|QID|44257|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
 R Chamber of the Guardian|QID|44257|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|
 T A Falling Star|QID|44257|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
 A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar.|PRE|42457|
@@ -432,10 +316,131 @@ C Return to the Prophet|QID|44004|SO|3|M|33.95,66.25|Z|TheExodar|NC|N|Head back 
 C The Light's Heart|QID|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to show him the object.|
 C A Long Way Down|QID|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
 C Revelations|QID|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When Velen says to STOP, ignore him and continue killing the fel annihilator *even though Prophet Velen is also fighting you now*.|
-U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use Khadgar's Beacon and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|
+U Return to Khadgar|QID|44004|ACTIVE|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use Khadgar's Beacon and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|
 T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage Kadgar.|
 A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
 T Light's Charge|QID|44153|M|52.37,69.37|N|Return to your order hall and return to Light's Heart (table in alcove adjacent scouting map).|
+
+A Meeting of the Silver Hand|QID|42867|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42850;44153|LVL|101|
+R Light's Hope Chapel|QID|42867|QO|1|M|40.59,73.84;45.79,83.13;41.74,89.66|CS|N|Justicar Julia Celeste is found upstairs, just outside the gates.|ACTIVE|42867|
+C Meeting of the Silver Hand|QID|42867|QO|1|M|72.73,54.61|Z|Eastern Plaguelands|CHAT|N|Justicar Julia Celeste can be found outside the front gate of Light's Hope Chapel.|
+R Sanctum of Light|QID|42867|QO|2|M|75.68,52.24|Z|Eastern Plaguelands|N|Back inside your order hall.|ACTIVE|42867|
+C Meeting of the Silver Hand|QID|42867|QO|3|M|38.24,64.58|CHAT|N|Lady Liadrin can be found beside the Dalaran portal. NOTE: if she is out on a mission you will have to wait until the mission is finished. If she is your combat ally, you need to unassign her.|
+C Meeting of the Silver Hand|QID|42867|QO|2|M|52.40,60.49|CHAT|N|Vindicator Boros can be found near Commander Ansela (where you pick up recruits).|
+C Meeting of the Silver Hand|QID|42867|QO|4|M|49.50,51.77|CHAT|N|Aponi Brightmane can be found across the hall from Vindicator Boros.|
+C Meeting of the Silver Hand|QID|42867|QO|5|M|67.67,16.82|CHAT|N|Arator the Redeemed can be found at the front of the chapel on the left side.|
+T Meeting of the Silver Hand|QID|42867|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
+A The Scion's Legacy|QID|42919|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42867|
+C The Scion's Legacy|QID|42919|M|49.64,72.35|QO|1|NC|N|Listen to the dialog and then pick an option. All options lead to doing a particular mission which has the same rewards as the other three. (so it doesnt matter which you pick).|
+C The Scion's Legacy|QID|42919|M|50.91,70.87|QO|2|CHAT|N|Pick an option. All options lead to doing a particular mission which has the same rewards as the other three. (so it doesnt matter which you pick).|
+T The Scion's Legacy|QID|42919|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
+A The Highlord's Command|QID|42885;42966;42967;42968|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42919|
+C The Highlord's Command|QID|42885;42966;42967;42968|M|53.44,78.63|NC|N|Go to your mission board and choose The Highlords Command mission. This mission takes 1 hour to complete, manually check it off and when you come back to your hall you can complete the mission.|
+t The Highlord's Command|QID|42885;42966;42967;42968|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
+A To Faranaar|QID|42886|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42885;42966;42967;42968|LVL|103|
+F Illidari Stand|QID|42886|M|69.87,51.11|N|At Aladune Whitecloud.|ACTIVE|42886|
+T To Faronaar|QID|42886|M|45.91,51.60|Z|Azsuna|N|To Vindicator Boros.|
+A This is Retribution|QID|42887|M|45.91,51.60|Z|Azsuna|N|From Vindicator Boros.|PRE|42886|
+C This is Retribution|QID|42887|M|42.79,44.47|Z|Azsuna|N|Run down to Faronaar Front and kill some demons.|
+T This is Retribution|QID|42887|M|28.08,59.12|Z|Azsuna|N|To Vindicator Boros who is now close to Illidari Perch. If you have the flightpath fly over, or just run.|
+A Communication Orbs|QID|42888|M|28.06,59.14|Z|Azsuna|N|From Justicar Julia Celeste.|PRE|42887|
+A Mother Ozram|QID|43462|M|28.07,59.16|Z|Azsuna|N|From Justicar Julia Celeste.|PRE|42887|
+C Mother Ozram|QID|43462|M|31.34,50.74|Z|Azsuna|T|Mother Ozram|N|Run up to Illidari Perch and out the other side to get to Mother Ozram.|
+C Communication Orbs|QID|42888|M|31.47,52.63;30.71,51.47;28.97,52.67|Z|Azsuna|CN|NC|N|Click on the Legion Orbs to disable them.|
+T Communication Orbs|QID|42888|M|28.97,52.67|Z|Azsuna|N|To Justicar Julia Celeste.|
+T Mother Ozram|QID|43462|M|28.97,52.67|Z|Azsuna|N|To Justicar Julia Celeste.|
+A The Codex of Command|QID|42890|M|28.97,52.67|Z|Azsuna|N|From Justicar Julia Celeste.|PRE|43462|
+K Kill Bilebrain|QID|42417|QO|1|M|29.30,53.63|Z|Azsuna|ITEM|129079|T|Bilebrain|N|If you didn't get him while questing in Azsuna, there is a Silver to kill for treasure and resources.|RANK|2|
+C The Codex of Command|QID|42890|QO|1|M|26.36,52.17;26.11,53.57|CS|Z|Azsuna|T|Jarvox|N|Kill and loot to collect the Codex.|
+C The Codex of Command|QID|42890|QO|2|M|25.62,55.23|Z|Azsuna|N|Break the first lock.|
+C The Codex of Command|QID|42890|QO|3|M|25.68,55.65|Z|Azsuna|N|Break the second lock.|
+C The Codex of Command|QID|42890|QO|4|M|25.96,55.34|Z|Azsuna|N|Break the third lock.|
+U Dalaran Hearthstone|QID|42890|M|25.96,55.34|Z|Azsuna|U|140192|N|Return to your class hall to turn in the quest.|ACTIVE|42890|
+T The Codex of Command|QID|42890|M|57.79,32.50|N|To Vindicator Boros.|
+U Squire's Oath|QID|42851|U|140929|N|Use to get a free squire.|PRE|42890|
+A Champion: Vindicator Boros|QID|42851|M|57.79,32.50|N|From/To Vindicator Boros.|PRE|42890|
+A Champion: Justicar Julia Celeste|QID|42852|M|57.80,32.51|N|From/To Justicar Julia Celeste.|PRE|42890|
+
+;Chapter 2
+A Cracking the Codex|QID|43486|M|57.78,32.51|N|From Aponi Brightmane|PRE|42851+42852|
+A Silver Hand Knights|QID|43494|M|52.35,78.03|N|From Lord Grayson Shadowbreaker.|PRE|42851+42852|
+C Silver Hand Knights|QID|43494|M|58.83,38.90|N|You have access to some tougher recruits. Train them. Don't forget to come back and pick them up.|
+T Silver Hand Knights|QID|43494|M|58.83,38.90|N|From Commander Born.|
+R Dalaran Portal|QID|43486|M|37.9,63.73|CC|N|Take the portal to Dalaran|ACTIVE|43486|
+T Cracking the Codex|QID|43486|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang beside the north bank.|
+A The Fel Lexicon|QID|43487|PRE|43486|M|44.58,23.09|Z|Dalaran@Dalaran70|NA|N|From Delas Moonfang. This is a dungeon quest, so find friends or queue when ready.(Violet Hold requires minimum level 105)|
+A Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|PRE|43486|
+t The Fel Lexicon|QID|43487|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang.|
+t Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang.|
+A Translation: Danger!|QID|43535|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|PRE|43488+43487|
+T Translation: Danger!|QID|43535|M|48.37,72.77|N|To Aponi Brightmane back in your order hall.|
+A Lord Ravencrest|QID|43493|M|52.31,78.22|NA|N|From Lord Grayson Shadowbreaker.|PRE|43535|
+C Lord Ravencrest|QID|43493|M|52.31,78.22|N|Run the Black Rook Hold Dungeon.|
+t Lord Ravencrest|QID|43493|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
+A To Felblaze Ingress|QID|43489|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43493|
+P Dalaran|M|38.11,63.38|NC|N|Click on the portal to Dalaran.|ACTIVE|43489|
+F Felblaze Ingress|QID|43489|M|69.81,51.06|Z|Dalaran@Dalaran70|CHAT|N|At Aladune Whitecloud.|ACTIVE|43489|
+T To Felblaze Ingress|QID|43489|M|66.17,26.07|Z|Azsuna|N|To Aponi's Libram, inside the end of the fallen tree.|
+A Aponi's Trail|QID|43490|M|66.17,26.07|Z|Azsuna|N|From Aponi's Libram.|PRE|43489|
+C Aponi's Trail|QID|43490|QO|1|M|67,27|Z|Azsuna|N|Kill demons in the area and loot the journal pages.|
+C Aponi's Trail|QID|43490|QO|2|M|67.12,27.74|Z|Azsuna|NC|N|When you have all the pages go thru the portal.|
+C Aponi's Trail|QID|43490|QO|3|M|47.72,52.72|Z|Niskara#1078|NC|N|Click on Aponi's cage.|
+T Aponi's Trail|QID|43490|M|47.72,52.72|Z|Niskara#1078|N|To Aponi Brightmane.|
+A Allies of the Light|QID|43491|M|48.62,63.90|Z|Niskara#1078|N|From Aponi Brightmane.|PRE|43490|
+A The Mind of the Enemy|QID|43540|M|48.62,63.90|Z|Niskara#1078|N|From Aponi Brightmane.|PRE|43490|
+C Allies of the Light|QID|43491|M|49.10,61.20|QO|1|Z|Niskara#1078|S|NC|N|Rescue the paladins and priests scattered thru the area. Diseased cast cleanse, Trapped cast Blessing of Freedom, injured cast a heal.|
+C The Mind of the Enemy|QID|43540|QO|3|M|42.82,46.52|Z|Niskara#1078|NC|N|Click on the projected image of Prophet Velen.|
+C The Mind of the Enemy|QID|43540|QO|2|M|40.25,40.99|Z|Niskara#1078|NC|N|Click on the star map.|
+C The Mind of the Enemy|QID|43540|QO|1|M|44.21,38.17|Z|Niskara#1078|NC|N|Click on the legion intelligence.|
+C Allies of the Light|QID|43491|M|42.77,21.20|QO|3|Z|Niskara#1078|NC|N|Click on Deles' cage to rescue her.|
+C Allies of the Light|QID|43491|M|43.64,17.75|QO|2|Z|Niskara#1078|NC|N|Click on Arator's cage to rescue him.|
+C Allies of the Light|QID|43491|M|49.10,61.20|QO|1|Z|Niskara#1078|US|NC|N|Finish rescuing the paladins and priests scattered thru the area. Diseased cast cleanse, Trapped cast Blessing of Freedom, injured cast a heal.|
+C The Mind of the Enemy|QID|43540|QO|4|M|24.16,46.23|Z|Niskara#1078|N|Kill Brood Queen Aramis.|
+C The Mind of the Enemy|QID|43540|QO|5|M|26.47,40.61|Z|Niskara#1078|NC|N|Click on the Mysterious Stranger.|
+H Dalaran|QID|43540|U|140192|M|26.47,40.61|Z|Niskara#1078|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
+T Allies of the Light|QID|43491|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
+T The Mind of the Enemy|QID|43540|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
+A United as One|QID|43541|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43540+43491|
+C United as One|QID|43541|M|52.31,78.22|QO|1|CHAT|N|Listen to Delas Moonfang's speech and the ensuing discussion.|
+C United as One|QID|43541|M|49.86,72.22|QO|2|CHAT|N|Tell Lord Tyrosus that we will fight.|
+T United as One|QID|43541|M|48.35,72.58|N|To Aponi Brightmane.|
+A Champion: Aponi Brightmane|QID|43492|M|48.35,72.58|N|From/To Aponi Brightmane.|PRE|43541|
+A A New Path|QID|43934|M|48.39,71.46|N|From Delas Moonfang.|PRE|43541|
+C A New Path|QID|43934|M|48.39,71.46|CHAT|N|Tell Delas yes.|
+C A New Path|QID|43934|M|64.99,35.50|CHAT|N|Instruct Delas.|
+C A New Path|QID|43934|M|72.25,24.23|NC|N|Go to the alter and use your extra action button to induct Delas.|
+T A New Path|QID|43934|M|71.97,24.82|N|To Delas Moonfang.|
+A Champion: Delas Moonfang|QID|43933|PRE|43934|M|71.97,24.82|N|From/To Delas Moonfang.|
+A Defenders of the World|QID|43699|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43933|
+A Lumenstone|QID|43698|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43933|
+A Blood of Sargeras|QID|43534|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43933|
+B Blood of Sargeras|QID|43534|ACTIVE|43534|M|52.31,78.22|L|124124 5|N|If you don't have them, acquire 5 Blood of Sargaras.|
+T Blood of Sargeras|QID|43534|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
+C Lumenstone|QID|43698|M|53.51,78.49|S|NC|N|At your command board. Because you now have 6 followers, you will need to deactivate a follower (by right clicking on thier name in the follower tab) before you can send anyone on this mission. Continue going on missions until you have all the needed lumenstones.|
+C Defenders of the World|QID|43699|N|Go do world quests, come back when completed.|
+C Lumenstone|QID|43698|M|53.51,78.49|US|NC|N|At your command board.Continue going on missions until you have all the needed lumenstones.|
+T Lumenstone|QID|43698|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
+T Defenders of the World|QID|43699|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
+A A Light in the Darkness|QID|43700|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43534+43698+43699|
+P Dalaran|QID|43700|ACTIVE|43700|M|37.53,64.07|N|Take the portal to Dalaran from your order hall, when in Dalaran, Take the portal to Netherlight Temple to enter a solo scenario (right beside the portal back to Sanctum of Light).|
+C Join the Battle|QID|43700|SO|1|M|49.57,61.41|Z|NetherlightTemple/1|N|Walk forward to start the fighting.|
+C Defeat Balnazzar's Lieutenants|QID|43700|SO|2;1|M|75.91,40.93|Z|NetherlightTemple/1|T|Ogoroth|N|Kill Ogoroth.|
+C Defeat Balnazzar's Lieutenants|QID|43700|SO|2;2|M|31.52,41.22|Z|NetherlightTemple/1|T|Torenai the Souleater|N|Kill Torenai the Souleater.|
+C Destroy Legion Portals|QID|43700|SO|3;1|M|38.81,57.10|Z|NetherlightTemple/1|N|Click the Southwestern Portal.|
+C Destroy Legion Portals|QID|43700|SO|3;2|M|38.78,24.40|Z|NetherlightTemple/1|N|Click the Northwestern Portal.|
+C Destroy Legion Portals|QID|43700|SO|3;3|M|60.64,24.50|Z|NetherlightTemple/1|N|Click the Northeastern Portal.|
+C Destroy Legion Portals|QID|43700|SO|3;4|M|60.74,56.99|Z|NetherlightTemple/1|N|Click the Southeastern Portal.|
+C Defeat Balnazzar|QID|43700|M|49.09,40.58|Z|NetherlightTemple/1|T|Balnazzar|N|Go kill Balnazzar, after a little bit High Lord Lothraxion comes to help you.|
+P Dalaran|QID|43700|ACTIVE|43700|M|49.77,81.34|Z|NetherlightTemple/1|N|Take the portal out and then return to your order hall.|
+T A Light in the Darkness|QID|43700|M|72.75,25.66|N|To Lord Maxwell Tyrosus.|
+A Warriors of Light|QID|43697|M|72.75,25.66|N|From Lord Maxwell Tyrosus.|PRE|43700|
+C Warriors of Light|QID|43697|M|72.75,25.66|NC|N|Listen to Lord Tyrosus speech for a minute or so.|
+T Warriors of Light|QID|43697|M|72.75,25.66|N|To Lord Maxwell Tyrosus.|
+A A Hero's Weapon|QID|43424|M|72.75,25.66|N|From Lord Maxwell Tyrosus.|PRE|43697|
+C A Hero's Weapon|QID|43424|M|71.84,25.06|N|Stand on the dot and use your extra action button.|
+T A Hero's Weapon|QID|43424|M|72.75,25.66|N|To Lord Maxwell Tyrosus.|
+A Champion Lothraxion|QID|43701|M|49.25,74.28|N|From/To Lothraxion. If you didnt pick up these followers by the alter, they have moved to near your command board.|PRE|43424|
+A Champion: Arator the Redeemer|QID|43785|M|48.81,73.47|N|From/To Arator the Redeemer.|PRE|43424|
 
 ; LVL 110 Quests, Obliterum / Tears to Light's Heart.
 
@@ -488,14 +493,14 @@ F Lorlathil|QID|44464|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.
 C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
 T Awakenings|QID|44464|M|52.37,69.37|N|To Light's Heart|
 
-A An Unclear Path|QID|44466|M|52.46,69.29|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44153|;no way to limit this showing until you get AK=2
-F Garden of the Moon|QID|44466|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
-R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|
+A An Unclear Path|QID|44466|M|52.46,69.29|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44464|
+F Garden of the Moon|QID|44466|ACTIVE|44466|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+R Emerald Bay|QID|44466|ACTIVE|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|52.46,69.29|N|To Light's Heart, back in your order hall.|
 A Ravemcrest's Legacy|QID|44479|M|52.46,69.29|N|From Light's Heart.|PRE|44466|
-F Garden of the Moon|QID|44414|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
-R Black Rook Hold|QID|44414|M|51.42,50.67;45.82,50.34|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|
+F Garden of the Moon|QID|44479|ACTIVE|44479|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+R Black Rook Hold|QID|44479|ACTIVE|44479|M|51.42,50.67;45.82,50.34|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|
 C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|Val'sharah|NC|S|N|Run to the alcove behind Araxxas (not in the instance). Use your extra action button to watch a vignette about Illidan traveling the wrong path.|
 C Report to Kur'talos|QID|44479|SO|1|M|42.4,46.56|Z|BlackRookHoldScenario|NC|N|Listen/watch the dialog.|
 C Repair the Portal|QID|44479|SO|2|M|42.0,46.2|Z|BlackRookHoldScenario|NC|N|Click on the portal to restore it.|
@@ -525,17 +530,30 @@ R Temple of Zin-Malor - Azshara|QID|44480|M|35.1,49.9|Z|Azshara|N|Mount up and f
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
 T In My Father's House|QID|44480|M|52.46,69.29|N|Return to Light's Heart in your order hall.|
 A Destiny Unfulfilled|QID|44481;44496;44497|M|52.46,69.29|N|From Light's Heart.|PRE|44480|
-P Dalaran|QID|44481;44496;44497|M|38.11,63.38|N|Click on the portal to Dalaran.|
-P Shattrath|QID|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|
+P Dalaran|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|38.11,63.38|N|Click on the portal to Dalaran.|
+P Shattrath|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|
 R Shadowmoon Valley|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
 C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
 T Destiny Unfulfilled|QID|44481;44496;44497|M|52.46,69.29|N|Return to Light's Heart in your order hall.|
+A The Power Within|QID|43496|M|37.76,54.82|N|From Image of Kalec. prereq either AK>=10 or finishing paladin campaign.|
+P Dalaran|QID|43496|M|37.53,64.07|N|Take the portal to Dalaran from your order hall.|
+F Azurewing Repose|QID|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
+
+; added 3/14/2017
+
+A An Urgent Warning|QID|45974|LVL|110|M|45.84,66.86|N|From Injured pally? (dont know coords).|
+T An Urgent Warning|QID|45974|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
+A Investigate the Broken Shore|QID|45975|PRE|45974|M|52.26,78.14|N|From Lord Maxwell Tyrosus.|
+C Menace on the Broken Shore|QID|45975|M|53.49,78.52|N|Use Command Board to send on Mission.|
+t Investigate the Broken Shore|QID|45975|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
 
 ]]
 end)

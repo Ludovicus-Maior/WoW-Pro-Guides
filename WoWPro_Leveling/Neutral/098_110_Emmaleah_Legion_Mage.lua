@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2017-03-14 20:40
+-- Who: Blanckaert
+-- Log: fixed a bad coord of 883. to 83., and added some quests added 3/14
+
+-- URL: http://wow-pro.com/node/3671/revisions/28276/view
 -- Date: 2017-03-05 18:32
 -- Who: Ludovicus
 -- Log: Coord corrections for [Rise, Champions] quests.

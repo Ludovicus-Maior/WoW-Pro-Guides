@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2017-03-14 21:06
+-- Who: Blanckaert
+-- Log: added a QID to starting note, first LVL 110, figuring you should know about it by now. Also added Quest from 3/14/17
+
+-- URL: http://wow-pro.com/node/3674/revisions/28260/view
 -- Date: 2017-03-04 18:54
 -- Who: Blanckaert
 -- Log: Fix QID 44448 wrong modifier from ; to +
@@ -125,7 +130,7 @@ WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Priest")
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Progression|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
+N Guide Progression|QID|43385|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
 
 ; Grail reports QID 44663 and 44184 needs a PRE of 44120+44473 - one not avail, the other DH
 
@@ -602,6 +607,14 @@ J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you wi
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
+
+; added 3/14/2017
+
+A An Urgent Warning|QID|46028|LVL|110|M|51.12,52.88|N|From Injured Acolyte.|
+T An Urgent Warning|QID|46028|M|51.41,45.88|N|To Moira Thaurissan.|
+A Investigate the Broken Shore|QID|46029|PRE|46028|M|51.41,45.88|N|From Moira Thaurissan.|
+C Menace on the Broken Shore|QID|46029|M|49.23,48.61|N|Use Command Board to send on Mission.|
+t Investigate the Broken Shore|QID|46029|M|51.41,45.88|N|To Moira Thaurissan.|
 
 ]]
 end)
