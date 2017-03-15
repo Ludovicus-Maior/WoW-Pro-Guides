@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2017-03-15 20:59
+-- Who: Ludovicus
+-- Log: Syntax
+
+-- URL: http://wow-pro.com/node/3520/revisions/27107/view
 -- Date: 2014-12-25 20:11
 -- Who: Ludovicus
 
@@ -101,6 +106,6 @@ F Emperor Crab|QID|963500006|M|54,82|Z|Dread Wastes|ACH|6350;6|T|Emperor Crab,lo
 F Mongoose|QID|963500013|M|62,67|Z|Townlong Steppes|ACH|6350;13|T|Mongoose,love|
 F Yakrat|QID|963500017|M|76,82|Z|Townlong Steppes|ACH|6350;17|T|Yakrat,love|
 
-N Congratulations!|N|If you skipped the Dancing Water Skimmer, now is the time to queue up for the Temple of Kotmogu.
+N Congratulations!|N|If you skipped the Dancing Water Skimmer, now is the time to queue up for the Temple of Kotmogu.|
 ]]
 end)

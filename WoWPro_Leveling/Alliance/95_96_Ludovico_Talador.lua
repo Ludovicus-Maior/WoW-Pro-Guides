@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2017-03-15 22:26
+-- Who: Ludovicus
+-- Log: Added |'s to LudoTalador
+
+-- URL: http://wow-pro.com/node/3614/revisions/28243/view
 -- Date: 2017-01-16 22:23
 -- Who: Blanckaert
 -- Log: added a bunch of PREs, a few LEADs, and changed last step to a J instead of D, so I hope that works.
@@ -460,7 +465,7 @@ C Annals of Aruuna|QID|33734|M|75.45,44.13|QO|3|N|Floating Book.|
 C Honed Crystal|QID|33761|M|76.17,44.26|QO|1|N|Glowing Red Spike|
 C Crystal-Shaper's Tools|QID|33734|M|77.54,41.24|QO|1|
 C Burning Sky|QID|33740|M|75.80,45.20;78.20,45.00;79.80,34.50;75.38,36.52;77.30,41.00;74.89,66.49;73.60,59.25;77.90,38.00;76.81,43.26;78.06,35.61;75.25,39.86;81.62,36.14;77.61,61.06;75.12,62.17|CN|N|Kill Wing-Guards, Squallbringers, and Sun-Callers.|US|
-R Aruuna Crystal Mine|QID|33579|M|77.76,41.23;78.39,35.49|CS||N|Go to the mine entrance.|
+R Aruuna Crystal Mine|QID|33579|M|77.76,41.23;78.39,35.49|CS|N|Go to the mine entrance.|
 C Ancient Prism|QID|33579|M|82.72,37.89|N|Go to the right of the tracks and cross the rock bridge to get to it.|
 T What the Draenei Found|QID|33579|M|82.64,37.78|N|To Raksi, who snunk in behind you.|
 T Pieces of Us|QID|33734|M|76.71,55.24|N|To Crystal-Shaper Barum, who moved a bit.|
@@ -524,7 +529,7 @@ K Blademaster Bralok|QID|33973|M|57.03,24.38|N|Loot heirloom|QO|1|
 T Dying Wish|QID|33973|M|56.90,25.97|N|To Ahm|
 C Vol. X Pages ?|QID|34094|M|54.2,22.2|N|Kill orcs at the Archenon Siegeyard to get the pages.|US|
 ; [aldavor] added QO|1 otherwise it remains after you kill him up to when you turn in the quest.
-K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|QO|1|N|Ra'tok the Hammer is down the path to the coastline.|ACTIVE|34105
+K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|QO|1|N|Ra'tok the Hammer is down the path to the coastline.|ACTIVE|34105|
 N Bonus Objective|QID|34095|M|54.2,22.2|N|There is a bonus objective there on the coast. Take the path to the coastline.|
 
 N Deceptia's Smoldering Boots|QID|34095|M|58.84,12.07|N|While doing the bonus, you can also get this for your toy box - the camp will explode, and you can find these (cog wheel) on the ground in the remains.|RANK|3|
@@ -561,7 +566,7 @@ A Every Bit Counts|QID|34709|M|55.98,68.29|N|From Aeun|; Leadin to Jorune Mine
 A The Heart of Auchindoun|QID|33920|PRE|34981+34711+34712+34971|M|56.51,67.13|N|From Soulbinder Nyami|
 A Disrupting the Flow|QID|33917|PRE|34981+34711+34712+34971|M|56.7,66.0|N|From Vindicator Nobundo|
 
-R Tomb of Lights|QID|34458|M|58.56,65.08;58.85,64.83|CS|N|Head in and go downstairs.
+R Tomb of Lights|QID|34458|M|58.56,65.08;58.85,64.83|CS|N|Head in and go downstairs.|
 T Powering the Defenses|QID|34458|M|68.43,19.27|Z|Tomb of Lights@Talador|N|To Soulbinder Tuulani|
 A We Must Construct Additional Pylons|QID|34351|PRE|34458+35249|M|68.43,19.27|Z|Tomb of Lights@Talador|N|From Soulbinder Tuulani|
 C Arkonite Crystals|QID|34351|M|50.98,32.56|Z|Tomb of Lights@Talador|QO|1|N|In the rooms, purple crystals on the ground.|

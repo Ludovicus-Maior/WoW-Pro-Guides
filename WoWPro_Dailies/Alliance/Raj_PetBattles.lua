@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2017-03-15 20:30
+-- Who: Ludovicus
+-- Log: Added PRE
+
+-- URL: http://wow-pro.com/node/3544/revisions/27773/view
 -- Date: 2016-09-14 17:32
 -- Who: Ludovicus
 -- Log: Updated to Dalaran City@Dalaran
@@ -87,7 +92,7 @@ A Brok|QID|31972|M|61.4,33|Z|Mount Hyjal|RANK|2|N|From Brok.|
 C Brok|QID|31972|M|61.4,33|Z|Mount Hyjal|RANK|2|N|Opponents are level 25 Beast, Critter and Magic. This means your best choices are Mechanical, Beast and Dragonkin.|
 T Brok|QID|31972|M|61.4,33|Z|Mount Hyjal|RANK|2|N|To Brok.|
 R Winterspring|QID|31909|M|65.63,64.52|Z|Winterspring|RANK|1|
-A Grand Master Trixxy|QID|31909|M|65.63,64.52|Z|Winterspring|RANK|1|N|From Grand Master Trixxy.|
+A Grand Master Trixxy|QID|31909|PRE|31897|M|65.63,64.52|Z|Winterspring|RANK|1|N|From Grand Master Trixxy.|
 C Grand Master Trixxy|QID|31909|M|65.63,64.52|Z|Winterspring|RANK|1|N|Opponents are level 19 Flying, Beast and Dragonkin. This means your best choices are Magic, Mechanical and Humanoid.|
 T Grand Master Trixxy|QID|31909|M|65.63,64.52|Z|Winterspring|RANK|1|N|To Grand Master Trixxy.|
 
@@ -113,7 +118,7 @@ A Everessa|QID|31913|M|76.82,41.5|Z|Swamp of Sorrows|RANK|3|N|From Everessa.|
 C Everessa|QID|31913|M|76.82,41.5|Z|Swamp of Sorrows|RANK|3|N|Opponents are level 16 Beast, Aquatic and Flying. This means your best choices are Mechanical, Flying and Magic.|
 T Everessa|QID|31913|M|76.82,41.5|Z|Swamp of Sorrows|RANK|3|N|To Everessa.|
 R Deadwind Pass|QID|31916|M|40.04,76.45|Z|Deadwind Pass|RANK|1|
-A Grand Master Lydia Accoste|QID|31916|M|40.04,76.45|Z|Deadwind Pass|RANK|1|N|From Grand Master Lydia Accoste.|
+A Grand Master Lydia Accoste|QID|31916|PRE|31915|M|40.04,76.45|Z|Deadwind Pass|RANK|1|N|From Grand Master Lydia Accoste.|
 C Grand Master Lydia Accoste|QID|31916|M|40.04,76.45|Z|Deadwind Pass|RANK|1|N|Opponents are level 19 Undead, Elemental and Undead. This means your best choices are Critter, Aquatic and Critter.|
 T Grand Master Lydia Accoste|QID|31916|M|40.04,76.45|Z|Deadwind Pass|RANK|1|N|To Grand Master Lydia Accoste.|
 R Duskwood|QID|31850|M|19.88,44.62|Z|Duskwood|RANK|3|U|89125|N|You can open your treasure bag while you are flying to the next spot.|
@@ -135,23 +140,23 @@ T Steven Lisbane|QID|31852|M|46,40.44|Z|Northern Stranglethorn|RANK|3|N|To Steve
 
 R Dark Portal|QID|31922|M|54.97,53.89|Z|Blasted Lands|RANK|1|N|And its off to Outlands, Dark Portal in any city or Portal to Shattrath from Valley of the Two Moons.|
 R Hellfire Peninsula|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|
-A Nicki Tinytech|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|N|From Nicki Tinytech.|
+A Nicki Tinytech|QID|31922|PRE|31920|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|N|From Nicki Tinytech.|
 C Nicki Tinytech|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|N|Opponents are level 20 Mechanical, Mechanical and Mechanical. This means your best choices are Elemental, Elemental and Elemental.|
 T Nicki Tinytech|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|N|To Nicki Tinytech.|
 R Zangarmarsh|QID|31923|M|17.24,50.53|Z|Zangarmarsh|RANK|2|
-A Ras'an|QID|31923|M|17.24,50.53|Z|Zangarmarsh|RANK|2|N|From Ras'an.|
+A Ras'an|QID|31923|PRE|31920|M|17.24,50.53|Z|Zangarmarsh|RANK|2|N|From Ras'an.|
 C Ras'an|QID|31923|M|17.24,50.53|Z|Zangarmarsh|RANK|2|N|Opponents are level 21 Humanoid, Flying and Magic. This means your best choices are Undead, Magic and Dragonkin.|
 T Ras'an|QID|31923|M|17.24,50.53|Z|Zangarmarsh|RANK|2|N|To Ras'an.|
 R Nagrand|QID|31924|M|60.98,49.43|Z|Nagrand|RANK|2|
-A Narrok|QID|31924|M|60.98,49.43|Z|Nagrand|RANK|2|N|From Narrok.|
+A Narrok|QID|31924|PRE|31920|M|60.98,49.43|Z|Nagrand|RANK|2|N|From Narrok.|
 C Narrok|QID|31924|M|60.98,49.43|Z|Nagrand|RANK|2|N|Opponents are level 22 Critter, Aquatic and Beast. This means your best choices are Beast, Flying and Mechanical.|
 T Narrok|QID|31924|M|60.98,49.43|Z|Nagrand|RANK|2|N|To Narrok.|
 R Shattrath City|QID|31925|M|58.7,70.1|Z|Shattrath City|RANK|2|
-A Morulu The Elder|QID|31925|M|58.7,70.1|Z|Shattrath City|RANK|2|N|From Morulu the Elder.|
+A Morulu The Elder|QID|31925|PRE|31920|M|58.7,70.1|Z|Shattrath City|RANK|2|N|From Morulu the Elder.|
 C Morulu The Elder|QID|31925|M|58.7,70.1|Z|Shattrath City|RANK|2|N|Opponents are level 23 Aquatic, Aquatic and Aquatic. This means your best choices are Flying, Flying and Flying.|
 T Morulu The Elder|QID|31925|M|58.7,70.1|Z|Shattrath City|RANK|2|N|To Morulu the Elder.|
 R Shadowmoon Valley|QID|31926|M|30.51,41.76|Z|Shadowmoon Valley|RANK|1|
-A Grand Master Antari|QID|31926|M|30.51,41.76|Z|Shadowmoon Valley|RANK|1|N|From Bloodknight Antari.|
+A Grand Master Antari|QID|31926|PRE|31920|M|30.51,41.76|Z|Shadowmoon Valley|RANK|1|N|From Bloodknight Antari.|
 C Grand Master Antari|QID|31926|M|30.51,41.76|Z|Shadowmoon Valley|RANK|1|N|Opponents are level 24 Epic (purple) Magic, Elemental and Dragonkin. This means your best choices are Dragonkin, Aquatic and Humanoid.|
 T Grand Master Antari|QID|31926|M|30.51,41.76|Z|Shadowmoon Valley|RANK|1|N|To Bloodknight Antari.|
 

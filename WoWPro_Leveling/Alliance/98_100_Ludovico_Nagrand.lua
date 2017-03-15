@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2017-03-15 22:27
+-- Who: Ludovicus
+-- Log: Added PREs to LudoNagrand
+
+-- URL: http://wow-pro.com/node/3618/revisions/28269/view
 -- Date: 2017-03-04 19:23
 -- Who: Blanckaert
 -- Log: added PREs that were missing... (replaced whole guide)
@@ -194,7 +199,7 @@ C Operation: Just Arrowhead |QID|34717|N|Finish killing Warsong forces at Telaar
 T Operation: Just Arrowhead |QID|34717|M|63.52,61.88|N|To Rangari D'kaan at Telaari Station.|
 T Shields Down! |QID|34746|M|63.07,61.96|N|To Thaelin Darkanvil.|
 
-A A Choice to Make |QID|34769|M|63.07,61.96|N|From Thaelin Darkanvil.|
+A A Choice to Make |QID|34769|PRE|34746|M|63.07,61.96|N|From Thaelin Darkanvil.|
 C A Choice to Make |QID|34769|M|63.07,61.96|N|Click on the Drafting Table and select your preferred outpost structure.\n\nRangari Corral: Provides a mount that you can fight and loot whilst mounted.\nTelaari Tank: Provides a siege engine to assist in battle.|NC|
 h Telaari Station |QID|34769|N|With Caregiver Felaani|M|63.57,62.46|
 T A Choice to Make |QID|34769|M|63.52,61.88|N|To Rangari D'kaan.|
@@ -326,7 +331,7 @@ C The Friend o' My Enemy|QID|34952|M|85.42,55.30|N|Kill the Burning Blade forces
 
 T They Call Him Lantresor of the Blade|QID|34951|M|85.41,54.58|N|To Lantresor of the Blade.|
 A The Blade Itself|QID|34954|PRE|34951|M|85.42,54.59|N|From Lantresor of the Blade.|
-A Not Without My Honor|QID|34955|M|85.42,54.59|N|From Lantresor of the Blade.|
+A Not Without My Honor|QID|34955|PRE|34951|M|85.42,54.59|N|From Lantresor of the Blade.|
 
 C Not Without My Honor|QID|34955|S|NC|M|84.88,55.33|N|These treasure boxes are located inside many of the buildings. One of them will have his banner.|
 C The Blade Itself|QID|34954|M|85.97,53.89|T|Instructor Luhk|N|Kill and loot Instructure Luhk for his blade.|
@@ -590,7 +595,7 @@ C Echoes of the Past|QID|35023|M|37.8,56.2|QO|1|N|Tormented Echos's and Void-Cra
 
 T Lighting The Darkness|QID|35022|M|40.43,56.79|N|To Gar'rok|
 T Echoes of the Past|QID|35023|M|40.4,56.6|N|To Dahaka|
-A Golmash Hellscream|QID|35024|PRE|35022;35023||M|40.43,56.79|N|From Gar'rok|
+A Golmash Hellscream|QID|35024|PRE|35022;35023|M|40.43,56.79|N|From Gar'rok|
 
 C Golmash Hellscream|QID|35024|M|37.4,55.6|N|Golmash Hellscream, on the third tier.|
 

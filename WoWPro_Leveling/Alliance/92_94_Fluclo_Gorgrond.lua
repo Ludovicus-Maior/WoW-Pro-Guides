@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2017-03-15 22:24
+-- Who: Ludovicus
+-- Log: Added PREs to FlucloGorgrond
+
+-- URL: http://wow-pro.com/node/3613/revisions/27489/view
 -- Date: 2016-07-30 19:02
 -- Who: Ludovicus
 -- Log: Added some @Gorgrond's
@@ -132,12 +137,12 @@ C Welcome to Gorgrond |QID|35033|N|Ride up the path|QO|1|M|63.50,52.78|NC|
 C Welcome to Gorgrond |QID|35033|N|Head into the cave at Naielle's Watch|QO|2|NC|M|64.19,51.76|
 T Welcome to Gorgrond |QID|35033|N|To Rangari D'kaan|M|64.21,51.94|
 
-A A Harvester Has Come |QID|35065|N|From Rangari D'kaan|M|64.21,51.94|
-A Wake of the Genesaur |QID|35834|N|From Rangari Kaalya|M|64.20,51.77|
+A A Harvester Has Come |QID|35065|PRE|35033|N|From Rangari D'kaan|M|64.21,51.94|
+A Wake of the Genesaur |QID|35834|PRE|35033|N|From Rangari Kaalya|M|64.20,51.77|
 
 C Wake of the Genesaur |QID|35834|N|Kill the Wild Overgrowth|S|
 C A Harvester Has Come |QID|35065|N|Kill Harvester Ommru|M|63.2,46.8|T|Harvester Ommru|
-A I Drew Aggro...culture |QID|35828|N|From Thaelin Darkanvil|M|64.99,48.53|
+A I Drew Aggro...culture |QID|35828|PRE|35033|N|From Thaelin Darkanvil|M|64.99,48.53|
 C Wake of the Genesaur |QID|35834|N|Finish Killing the Wild Overgrowth|US|
 
 T Wake of the Genesaur |QID|35834|N|To Rangari Kaalya who has moved to the road|M|63.14,52.29|
@@ -161,7 +166,7 @@ C Lost Mole Machines |QID|35055|N|Wait for Thaelin's Arrival|M|54,60|QO|2|NC|
 T Rescue Rangari |QID|35050|N|To Rangari D'kaan, who has relocated to the Highpass.|M|53.48,60.43|
 T Lost Mole Machines |QID|35055|N|To Thaelin Darkanvil|M|53.42,60.33|
 
-A We Need An Outpost |QID|35063|N|From Thaelin Darkanvil|M|53.42,60.33|
+A We Need An Outpost |QID|35063|PRE|35055;35050|N|From Thaelin Darkanvil|M|53.42,60.33|
 C We Need An Outpost |QID|35063|N|Use the Drafting Table and select one of the buildings|NC|M|53.44,60.31|
 h Highpass |QID|35063|N|Set your hearthstone with Trader Yula|M|53.23,59.79|
 T We Need An Outpost |QID|35063|N|To Thaelin Darkanvil who has moved further into the Highpass.|M|53.00,59.78|
@@ -170,7 +175,7 @@ A Next Quest |QID|35708;34704|N|If you built a Lumber Yard, get Tangleheart from
 
 ;The following quests are if you selected Lumber Yard
 f Highpass |QID|35708|N|With Rangari Rajess|M|52.83,59.33|ACTIVE|35708|
-A Deeproot |QID|35212|N|From Thaelin Darkanvil|M|53.00,59.78|ACTIVE|35708|
+A Deeproot |QID|35212|PRE|35063|N|From Thaelin Darkanvil|M|53.00,59.78|ACTIVE|35708|
 T Tangleheart |QID|35708|N|To Glirin, who has moved to Tangleheart|M|55.93,71.54|
 A Growing Wood |QID|35652|N|From Glirin|M|55.93,71.54|PRE|35708|
 A Lost Lumberjack |QID|36368|N|From Glirin|M|55.93,71.54|PRE|35708|
@@ -203,7 +208,7 @@ f Deeproot|QID|35213|N|From Rangari Nogo|M|46.46,76.60|ACTIVE|35213|
 C The Infested|QID|35214|N|Kill the Infested Orcs|S|
 C The Razorbloom|QID|35213|N|Inspect the corpse of Lera Ashtoes|QO|1|NC|M|47.38,73.41|
 C The Razorbloom|QID|35213|N|Inspect the corpse of Razzlebeard|QO|3|NC|M|47.60,72.78|
-A The Voice of Iyu |QID|35215|N|From Razzlebeard's Report|M|47.60,72.78|ACTIVE|35213|
+A The Voice of Iyu |QID|35215|PRE|35213|N|From Razzlebeard's Report|M|47.60,72.78|ACTIVE|35213|
 C The Razorbloom|QID|35213|N|Inspect the corpse of Nori Sootstash|QO|2|NC|M|48.13,73.56|
 C The Voice of Iyu |QID|35215|N|Slay the Voice of Iyu|T|Voice of Iyu|M|49.43,71.64|
 A Super Seeds |QID|35216|N|From Enriched Seeds|ACTIVE|35215|M|49.46,70.95|
@@ -274,7 +279,7 @@ H Highpass |QID|35255|N|Hearthstone to Highpass, or fly there if you didn't set 
 T Power of the Genesaur |QID|35255|N|To Vindicator Maraad|M|52.85,59.68|
 
 ;The following quests are if you selected Gladiator Sanctum
-A Rage and Wisdom |QID|35686|N|From Vindicator Maraad|M|52.85,59.68|ACTIVE|34704|
+A Rage and Wisdom |QID|35686|PRE|35063|N|From Vindicator Maraad|M|52.85,59.68|ACTIVE|34704|
 f Highpass |QID|35686|N|With Rangari Rajess|M|52.81,59.35|ACTIVE|34704|
 C Rage and Wisdom |QID|35686|N|Ask Rangari Rajess to fly you to Rangari Erdanii|NC|M|52.82,59.32|
 T Rage and Wisdom |QID|35686|N|To Rangari Erdanii|M|46.26,66.70|
@@ -416,7 +421,7 @@ f Iron Docks|QID|36575;36576|N|With Nisha|M|43.03,20.22|ACTIVE|36575;36576|
 F Highpass |QID|36575;36576|N|Fly to Highpass.|M|43.03,20.22|ACTIVE|36575;36576|
 T Strike While the Iron is Hot |QID|36575;36576|N|To Vindicator Maraad|M|52.85,59.68|
 
-A Rangari in the Red |QID|35666|N|From Rangari D'kaan|M|53.32,59.89|
+A Rangari in the Red |QID|35666|PRE|35063|N|From Rangari D'kaan|M|53.32,59.89|
 l Dark Iron Remains |QID|36605|RANK|3|N|Loot the Remains of Balldir Deeprock|M|57.79,55.95|L|118703|ACTIVE|35666|
 T Rangari in the Red |QID|35666|N|To Khaano in the Crimson Fen|M|59.33,56.37|
 
@@ -458,9 +463,9 @@ C Heart of the Fen |QID|35659|N|Head to the Heart of the Fen, then kill Khaano|M
 H Highpass |QID|35659|N|Hearthstone to Highpass, or run there if you didn't set your hearthstone/if your hearthstone is still on cooldown.|
 T Heart of the Fen |QID|35659|N|To Rangari D'kaan|M|53.32,59.89|
 
-A Seeking the Scout |QID|36432|N|From Rangari D'kaan|M|53.32,59.89|
+A Seeking the Scout |QID|36432|PRE|35063|N|From Rangari D'kaan|M|53.32,59.89|
 
-A News from Talador |QID|36495|N|From Vindicator Maraad, to get to Talador later.|M|52.85,59.68|
+A News from Talador |QID|36495|PRE|36576|N|From Vindicator Maraad, to get to Talador later.|M|52.85,59.68|
 
 R Cragplume Cauldron|QID|36432|N|Head up the Cragplume Cauldron|ACTIVE|36432|M|50.70,57.02|
 f Breaker's Crown |QID|36432|N|With Nisha|M|45.84,54.95|PRE|35212|
@@ -486,7 +491,7 @@ C Beatface vs. Boulder |QID|36438|N|Leave the cave and go left; there is a trail
 T Beatface vs. Boulder |QID|36438|N|To Altauur, who will spawn to your right as soon as you walk into the encampment.|M|52.04,49.50|PRE|36436;34704|
 
 A Saberon Population Reduction |QID|36440|N|From Altauur|M|52.04,49.50|PRE|36439|
-A Reclaiming Property|QID|36441|N|From Saberon Stash|M|51.85,50.02|
+A Reclaiming Property|QID|36441|PRE|36438;36439|N|From Saberon Stash|M|51.85,50.02|
 C Saberon Population Reduction |QID|36440|N|Slay Steamscar Saberon.|S|M|51.30,51.30|
 C Reclaiming Property|QID|36441|N|Collect Herb Bundles|NC|M|51.30,51.30|
 C Saberon Population Reduction |QID|36440|N|Slay Steamscar Saberon.|US|M|51.30,51.30|
@@ -497,7 +502,7 @@ A Taking the Death Bloom |QID|36442|N|From Altauur|M|52.88,51.80|PRE|36440|
 C Taking the Death Bloom |QID|36442|N|Kill and loot Smokemaster Snarl|T|Smokemaster Snarl|M|54.25,52.55|
 T Taking the Death Bloom |QID|36442|N|To Birchus|M|50.30,47.48|
 
-A Laying Dionor to Rest |QID|36443|N|From Birchus|M|50.30,47.48|
+A Laying Dionor to Rest |QID|36443|PRE|36442|N|From Birchus|M|50.30,47.48|
 T Laying Dionor to Rest |QID|36443|N|To Birchus|M|50.30,47.48|
 
 H Lunarfall |QID|33359|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|
@@ -506,8 +511,8 @@ A Meet Us at Starfall Outpost|QID|33359|N|From Cordana Felsong next to the Bulle
 N Shadowmoon Valley|QID|33359|N|The next dozen quests will be in Shadowmoon Valley.|ACTIVE|33359|S|
 A Bounty: Twisted Ancient|QID|33111|N|From the Bulletin Board. This is a 3-party group quest.|M|42.72,44.75|Z|Lunarfall|RANK|2|
 
-T Meet Us at Starfall Outpost|QID|33359|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72||Z|Shadowmoon Valley@Draenor|
-A Catching His Eye|QID|33062|N|From Archmage Khadgar|M|29.21,25.72|PRE|33359||Z|Shadowmoon Valley@Draenor|
+T Meet Us at Starfall Outpost|QID|33359|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
+A Catching His Eye|QID|33062|N|From Archmage Khadgar|M|29.21,25.72|PRE|33359|Z|Shadowmoon Valley@Draenor|
 
 A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|
 C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|Z|Shadowmoon Valley@Draenor|
@@ -521,9 +526,9 @@ A Shrouding Stones |QID|33115|N|From Archmage Khadgar|M|29.21,25.72|PRE|33062|Z|
 T Shadowmoonwell |QID|33113|N|To Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|
 A A Curse Upon the Woods |QID|33120|N|From Delas Moonfang|M|29.48,24.52|PRE|33113|Z|Shadowmoon Valley@Draenor|
 
-C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|S||Z|Shadowmoon Valley@Draenor|
+C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|S|Z|Shadowmoon Valley@Draenor|
 C Shrouding Stones |QID|33115|N|Southern Shrouding Stone destroyed by clicking it.|QO|3|NC|M|23.82,28.72|Z|Shadowmoon Valley@Draenor|
-C Shrouding Stones |QID|33115|N|Central Shrouding Stone destroyed by clicking it.|QO|1|NC|M|23.04,24.40||Z|Shadowmoon Valley@Draenor|
+C Shrouding Stones |QID|33115|N|Central Shrouding Stone destroyed by clicking it.|QO|1|NC|M|23.04,24.40|Z|Shadowmoon Valley@Draenor|
 C Shrouding Stones |QID|33115|N|Northern Shrouding Stone destroyed by clicking it.|QO|2|NC|M|26.00,15.92|Z|Shadowmoon Valley@Draenor|
 C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|US|Z|Shadowmoon Valley@Draenor|
 
@@ -563,7 +568,7 @@ T To Catch a Shadow |QID|33116|N|To Archmage Khadgar, and a cutscene.|M|29.21,25
 T Bounty: Twisted Ancient|QID|33111|M|28.94,15.91|Z|Lunarfall|N|To Baros Alexston.|
 
 ; Make use of the Outpost Building Assembly Notes
-A Resources in Ashran|QID|37288|N|From Baros Alexston|M|28.94,15.91|Z|Lunarfall|
+A Resources in Ashran|QID|37288|PRE|36575;36576|N|From Baros Alexston|M|28.94,15.91|Z|Lunarfall|
 F Stormshield |QID|37288|N|Fly to Stromshield using Dungar Longrink.|M|48.01,49.83|Z|Lunarfall|
 N Resources in Ashran|QID|37288|N|Kinkade Jakobs will sell you an upgrade to ANY building.  Be careful to pick one you have!|M|29.65,52.89|Z|Stormshield|
 T Resources in Ashran|QID|37288|N|To Kinkade Jakobs|M|29.65,52.89|Z|Stormshield|

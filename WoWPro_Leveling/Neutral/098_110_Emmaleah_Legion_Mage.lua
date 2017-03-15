@@ -147,7 +147,7 @@ t Troops in the Field|QID|42687|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@Mag
 A Tech It Up A Notch|QID|42696|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
 C Tech It Up A Notch|QID|42696|LVL|101|M|74.88,28.88|Z|Hall of the Guardian@MageClassShrine|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
 t Tech It Up A Notch|QID|42696|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
-A Ancient Magic|QID|42433|M|883.44,55.01|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Vargoth, who paces.|LVL|101|
+A Ancient Magic|QID|42433|M|83.44,55.01|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Vargoth, who paces.|LVL|101|
 C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian@MageClassShrine|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
 t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
 
@@ -479,6 +479,16 @@ T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|To Archmage 
 A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
 C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
 T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
+
+; Added on 3/14/2017
+
+A An Urgent Warning|QID|45997|LVL|110|M|61.61,27.94|N|From Injured Conjuror.|
+T An Urgent Warning|QID|45997|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Investigate the Broken Shore|QID|45998|PRE|45997|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Menace on the Broken Shore|QID|45998|M|80.82,60.64|Z|Hall of the Guardian@MageClassShrine/1|N|Use Command Board to send on Mission.|
+t Investigate the Broken Shore|QID|45998|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+
+; more quests, I'm sure.
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
