@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
+-- Date: 2017-03-15 23:14
+-- Who: Ludovicus
+-- Log: Added PREs to AyaHil2025
+
+-- URL: http://wow-pro.com/node/3223/revisions/27264/view
 -- Date: 2015-05-26 21:33
 -- Who: Fluclo
 -- Log: Clarity and extra steps added
@@ -113,7 +118,7 @@ T Muckgill's Flipper or Something...|QID|28154|M|33.29,73.54|N|To Captain Keyton
 
 A Human Infestation|QID|28138|M|33.29,73.54|N|From Captain Keyton.|PRE|28111|
 C Human Infestation|QID|28138|M|36.63,70.20|N|Bring the health of the Hillsbrad Sentry down to 35%, then use the Titanium Shackles on them.|U|63079|S|
-A Deep Mine Rescue|QID|28156|M|36.63,70.20|N|Work through the mine to the north until you find Dumass.|
+A Deep Mine Rescue|QID|28156|PRE|28096|M|36.63,70.20|N|Work through the mine to the north until you find Dumass.|
 C Deep Mine Rescue|QID|28156|M|33.29,73.54|N|Dumass will stay with you whilst you leave the mine.|NC|S|
 C Human Infestation|QID|28138|M|33.29,73.54|N|Bring the health of the Hillsbrad Sentry down to 35%, then use the Titanium Shackles on them.|U|63079|US|
 C Deep Mine Rescue|QID|28156|M|33.29,73.54|N|Leave the mine and head back to Captain Keyton|US|NC|
@@ -134,10 +139,10 @@ A Discretion is Key|QID|28197|M|36.18,61.14|N|From Warden Stillwater.|PRE|28192|
 A For Science!|QID|28199|M|36.34,60.25|N|From Flesh-Shaper Arnauld.|PRE|28192|
 C For Science!|QID|28199|M|39.10,63.63|N|Kill and loot the Risen Hillsbrad Peasants and Farmers.|S|
 C Discretion is Key: Clerk Horrace Whitesteed|QID|28197|QO|2|M|38.7,62.5|N|Kill and loot Clerk Horrace Whitesteed.|T|Clerk Horrace Whitesteed|
-A The Battle for Hillsbrad|QID|28196|U|63250|N|Start the quest from The Battle for Hillsbrad you looted from Clerk Horrace Whitesteed.|
+A The Battle for Hillsbrad|QID|28196|PRE|28192|U|63250|N|Start the quest from The Battle for Hillsbrad you looted from Clerk Horrace Whitesteed.|
 C Discretion is Key: Citizen Wilkes|QID|28197|QO|2|M|38.70,64.65|N|Kill Citizen Wilkes. Head to the sourthern part of the fields, and he will jump off the tower and attack you. |
 
-A Do the Right Thing|QID|28189|M|39.72,63.04|N|From the shovel in the spotlight under the arch.|
+A Do the Right Thing|QID|28189|PRE|28192|M|39.72,63.04|N|From the shovel in the spotlight under the arch.|
 C Do the Right Thing|QID|28189|U|63150|M|39.10,63.63|N|Click on the Human Seedlings in the ground.|NC|
 T Do the Right Thing|QID|28189|N|(UI Alert)|
 
@@ -333,7 +338,7 @@ C Silence of the Dwarves|QID|28636|M|62.85,85.11|
 C Extinction|QID|28634|M|64.83,68.88|N|Kill Owlbeasts as you go.|US|
 T Silence of the Dwarves|QID|28636|M|59.99,63.34|N|To Captain Jekyll.|
 T Extinction|QID|28634|M|60.00,63.73|N|To Nils Beerot.|
-A Warchief's Command: Arathi Highlands!|QID|28619|M|59.91,63.51|N|From the Warchief's Command Board. You're done with Hillsbrad, so take this if you intend to do Arathi Highlands next, or choose another guide if you'd prefer another zone!|
+A Warchief's Command: Arathi Highlands!|QID|28619|PRE|28572|M|59.91,63.51|N|From the Warchief's Command Board. You're done with Hillsbrad, so take this if you intend to do Arathi Highlands next, or choose another guide if you'd prefer another zone!|
 
 ]]
 

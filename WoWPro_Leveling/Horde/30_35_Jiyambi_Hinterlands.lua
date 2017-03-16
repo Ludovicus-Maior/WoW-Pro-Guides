@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
+-- Date: 2017-03-15 23:21
+-- Who: Ludovicus
+-- Log: Added PREs to JiyHin3035
+
+-- URL: http://wow-pro.com/node/3240/revisions/27282/view
 -- Date: 2015-06-09 16:21
 -- Who: Fluclo
 -- Log: Added minimum level information, added step to handle someone who hasn't worked on Arathi Guide before doing Hinterlands guide, removed the |O| tag on the A step as this makes the whole line redundant, reordered some quests as they are level locked, removed dungeon quest which has been removed from the game.
@@ -142,7 +147,7 @@ C Dark Vessels|QID|26309|S|NC|M|63.93,74.39|N|Loot the cauldrons scattered aroun
 C Death to the Vilebranch|QID|26307|M|63.56,70.34|N|Kill Berserkers and Shadowcasters on the third level of Jintha'Alor.|
 T Death to the Vilebranch|QID|26307|M|67.81,66.44|N|To Primal Torntusk, back at the entrance to Jintha'Alor.|
 A It's Ours Now|QID|26308|PRE|26307|M|67.81,66.44|N|From Primal Torntusk.|
-A Ongo'longo's Revenge|QID|26367|M|67.72,66.53|N|From Primal Torntusk.|
+A Ongo'longo's Revenge|QID|26367|PRE|26307|M|67.72,66.53|N|From Primal Torntusk.|
 C It's Ours Now|QID|26308|M|65.98,80.49|N|Kill Blood Drinkers and Soul Eaters on the fifth and sixth levels of Jintha'Alor.|
 C Ongo'longo's Revenge|QID|26367|M|62.28,75.49|N|On the fifth level of Jintha'Alor, fight the huge dire troll until it breaks free.|
 C Dark Vessels|QID|26309|US|NC|M|63.93,74.39|N|Loot the cauldrons scattered around Jintha'Alor.|
@@ -151,7 +156,7 @@ T Dark Vessels|QID|26309|M|67.72,66.53|N|To Eliza Darkgrin.|
 A Venomous Secrets|QID|26368|PRE|26309|M|67.72,66.53|N|From Eliza Darkgrin.|
 T It's Ours Now|QID|26308|M|67.72,66.53|N|To Primal Torntusk.|
 T Ongo'longo's Revenge|QID|26367|M|67.80,66.48|N|To Primal Torntusk.|
-A Summit of Fate|QID|26363|M|67.80,66.48|N|From Primal Torntusk.|
+A Summit of Fate|QID|26363|PRE|26308;26367|M|67.80,66.48|N|From Primal Torntusk.|
 T Faces of Evil|QID|26357|M|67.81,66.36|N|To Kotonga.|
 C Summit of Fate|QID|26363|NC|M|59.85,77.63|N|Loot the spider idols off the dead Vilebranch trolls.|
 T Summit of Fate|QID|26363|M|67.81,66.47|N|To Primal Torntusk.|
@@ -177,15 +182,15 @@ A Starvation Diet|QID|26387|PRE|26382|M|31.93,58.44|N|From Apothecary Surlis.|
 C The Fang of Shadra|QID|26406|NC|M|49.48,52.13|N|Loot the fang from the chest in The Creeping Ruin.|
 C Starvation Diet|QID|26387|M|49.25,51.49|N|Kill cocooned victims in the Creeping Ruin.|
 T The Fang of Shadra|QID|26406|M|31.90,58.38|N|To Darkcleric Marnal.|
-A The Shell of Shadra|QID|26418|M|31.90,58.38|N|From Darkcleric Marnal.|
+A The Shell of Shadra|QID|26418|PRE|26406|M|31.90,58.38|N|From Darkcleric Marnal.|
 T Starvation Diet|QID|26387|M|31.88,58.46|N|To Apothecary Surlis.|
 C The Shell of Shadra|QID|26418|M|48.44,67.75|N|Kill and loot Qiaga the Keeper.|
 H Hiri'watha Research Station|QID|26418|M|31.85,58.29|N|If you can't hearth there, ride back.|
 T The Shell of Shadra|QID|26418|M|31.85,58.29|N|To Darkcleric Marnal.|
-A Summoning Shadra|QID|26558|M|31.85,58.29|N|From Darkcleric Marnal.|
+A Summoning Shadra|QID|26558|PRE|26418|M|31.85,58.29|N|From Darkcleric Marnal.|
 C Summoning Shadra|QID|26558|U|58784|M|36.99,71.53;32.52,75.90;32.17,67.29|CS|N|Use the idol at each altar.|
 T Summoning Shadra|QID|26558|M|35.54,68.46|N|To Deathstalker Lookout.|
-A Shadra the Venom Queen|QID|26419|M|35.54,68.46|N|From Deathstalker Lookout.|
+A Shadra the Venom Queen|QID|26419|PRE|26558|M|35.54,68.46|N|From Deathstalker Lookout.|
 C Shadra the Venom Queen|QID|26419|M|34.59,69.70|N|Let the forsaken tank for you, and defeat the venom queen!|
 T Shadra the Venom Queen|QID|26419|M|31.96,58.33|N|To Darkcleric Marnal, back at the Hiri'Watha Research Station.|
 A The Battle for Andorhal|QID|28508|M|31.96,58.33|N|From Darkcleric Marnal. Pick this up if you'd like to do Western Plaguelands next.|

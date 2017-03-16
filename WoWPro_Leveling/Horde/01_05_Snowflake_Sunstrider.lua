@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2017-03-15 23:00
+-- Who: Ludovicus
+-- Log: Added PREs to SnoEve0512
+
+-- URL: http://wow-pro.com/node/3207/revisions/28411/view
+-- Date: 2017-03-15 22:54
+-- Who: Ludovicus
+-- Log: Added PREs to SnoSun0105
+
+-- URL: http://wow-pro.com/node/3207/revisions/28239/view
 -- Date: 2017-01-12 23:59
 -- Who: Linkslegend5
 -- Log: Removed the class training and related quests, as they were removed from the game.
@@ -261,13 +271,13 @@ T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|M|61.04,45.13|N|To Magistrix E
 
 L Level 2|LVL|2|N|Kill any mobs in the area you need to get Level 2.|QID|8326|
 
-A Unfortunate Measures|QID|8326|R|BloodElf|M|60.98,45.11|N|From Magistrix Erona.|
+A Unfortunate Measures|QID|8326|PRE|8325|R|BloodElf|M|60.98,45.11|N|From Magistrix Erona.|
 C Unfortunate Measures |QID|8326|R|BloodElf|M|67.15,38.94|N|Kill and loot Springpaw Lynxs and Cubs for the Lynx collars.|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|60.98,45.11|N|To Magistrix Erona.|
 
 L Level 3|LVL|3|N|You should be Level 3 to by this point, if not kill anything in the area until then.|QID|8327|R|BloodElf|
 
-A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|61.04,45.13|N|From Magistrix Erona.|
+A Report to Lanthan Perilon |QID|8327|PRE|8326|R|BloodElf|M|61.04,45.13|N|From Magistrix Erona.|
 
 A The Shrine of Dath'Remar|QID|37442|R|BloodElf|M|63.97,42.83|N|From Well Watcher Solanian, inside the building and up the ramp.|
 A Solanian's Belongings|QID|37443|R|BloodElf|M|63.97,42.83|N|From Well Watcher Solanian.|
@@ -284,7 +294,7 @@ T Thirst Unending |QID|37439|R|BloodElf|M|58.45,38.78|N|To Arcanist Helion.|
 r Repair/Sell |QID|8327|R|BloodElf|M|58.39,39.06|N|Sell any unwanted items and repair your gear with Jainthess Thelryn nearby. Close this step to continue.|
 
 T Report to Lanthan Perilon |QID|8327|R|BloodElf|M|52.88,49.80|N|To Lanthan Perilon.|
-A Aggression |QID|8334|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
+A Aggression |QID|8334|PRE|8326|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
 C Aggression |QID|8334|R|BloodElf|N|Kill any Tender and Feral Tender you see.|S|
 C Solanian's Scrying Orb |QID|37443|R|BloodElf|M|52.15,69.46|N|Get Solonaian's Scrying Orb from the lake's platform, to the south of Sunstrider Isle.|QO|1|
 C Solanian's Belongings|QID|37443|R|BloodElf|M|40.48,50.50|N|Get the Scroll of Scourge Magic, which is northwest.|QO|2|
@@ -295,7 +305,7 @@ T The Shrine of Dath'Remar |QID|37442|R|BloodElf|M|63.97,42.83|N|To Well Watcher
 T Solanian's Belongings |QID|37443|R|BloodElf|M|63.97,42.83|N|To Well Watcher Solanian.|
 T Aggression |QID|8334|R|BloodElf|M|52.88,49.80|N|To Lanthan Perilon.|
 
-A Felendren the Banished |QID|8335|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
+A Felendren the Banished |QID|8335|PRE|8334|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
 C Felendren the Banished |QID|8335|R|BloodElf|M|39.03,63.98|N|Kill Arcane Wraiths.|S|
 l Tainted Arcane Sliver|L|20483|R|BloodElf|N|Kill and loot a Tainted Arcane Wraith, it will drop a Tainted Arcane Sliver.|S|
 K Felendren the Banished |QID|8335|R|BloodElf|M|41.56,61.85;38.05,66.35|QO|3|CC|N|Go up the ramp and to the top of Falthrien Academy. At the first waypoint there will be two paths to choose, both will merge further on, so either can be taken. At the top, kill Felendren and loot his head.|
@@ -308,7 +318,7 @@ T Tainted Arcane Sliver |QID|8338|R|BloodElf|M|58.45,38.78|N|To Arcanist Helion.
 r Repair/Sell |QID|8335|R|BloodElf|M|58.39,39.06|N|Sell any unwanted items you may have, and repair your gear. Close step to continue.|
 T Felendren the Banished |QID|8335|R|BloodElf|M|52.88,49.80|N|To Lanthan Perilon.|
 
-A Aiding the Outrunners |QID|8347|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
+A Aiding the Outrunners |QID|8347|PRE|8335|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
 T Aiding the Outrunners |QID|8347|R|BloodElf|M|40.4,32.2|N|To Outrunner Alarion.|Z|Eversong Woods|
 A Slain by the Wretched |QID|9704|R|BloodElf|M|68.37,79.58|N|From Outrunner Alarion.|Z|Eversong Woods|
 

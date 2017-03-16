@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
+-- Date: 2017-03-15 23:28
+-- Who: Ludovicus
+-- Log: Added PREs to JiyWes3540
+
+-- URL: http://wow-pro.com/node/3246/revisions/26449/view
 -- Date: 2014-06-02 15:08
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -89,8 +94,8 @@ T Scourge First... Alliance Later|QID|26921|M|47.71,65.13|N|To Koltira Deathweav
 T War Machines|QID|26923|M|47.62,65.47|N|To Lindsay Ravensun.|
 C Araj the Summoner|QID|26925|U|60678|M|45.25,69.12|N|Aral is at the center of Andohal. Use the grenade on the skeletons he summons.|
 T Araj the Summoner|QID|26925|M|47.83,65.14|N|To Koltira Deathweaver.|
-A Scholomancer|QID|26924|M|47.73,65.17|N|From Koltira Deathweaver.|
-A Brute Strength|QID|27117|M|47.73,65.17|N|From Koltira Deathweaver.|
+A Scholomancer|QID|26924|PRE|26922;26923;26921|M|47.73,65.17|N|From Koltira Deathweaver.|
+A Brute Strength|QID|27117|PRE|26922|M|47.73,65.17|N|From Koltira Deathweaver.|
 C Brute Strength|QID|27117|M|46.64,71.53|N|He's inside the broken tower. He's elite, so be careful!|
 C Scholomancer|QID|26924|M|45.23,72.98|N|Your commander will come to help you when you get the Scholomancer to half health.|
 T Scholomancer|QID|26924|M|47.80,65.24|N|To Koltira Deathweaver, back at the Horde camp.|
@@ -128,7 +133,7 @@ T Strange New Faces|QID|26979|M|40.66,52.08|N|To Lindsay Ravensun.|
 A When Death is Not Enough|QID|26937|PRE|26979|M|40.65,52.03|N|From Lindsay Ravensun.|
 C When Death is Not Enough|QID|26937|M|38.48,56.75|N|Kill Alliance Laborers in Felstone Field and allow the valkyr to raise them.|
 T When Death is Not Enough|QID|26937|N|The turn-in should pop up automatically.|
-A Combat Training|QID|26938|N|The quest should pop up auto-matically.|
+A Combat Training|QID|26938|PRE|26937|N|The quest should pop up auto-matically.|
 C Combat Training|QID|26938|M|38.77,55.21|N|Use the valkyr's Call to Arms ability on 5 forsaken around the farm, then head into the barn and use your army to defeat the behemoth there.|
 T Combat Training|QID|26938|M|40.66,52.08|N|To Lindsay Ravensun.|
 R The Menders' Stead|QID|26952|M|49.31,54.80|N|Follow the road east.|
@@ -173,16 +178,16 @@ T An Audience with the Highlord|QID|27002|M|42.03,14.75|N|To Highlord Tirion For
 A Taelan Fordring's Legacy|QID|27151|PRE|27002|M|42.17,14.98|N|From Daria L'Rayne.|
 C It's About Time!|QID|27156|M|42.81,16.35|N|Talk to trainies outside the keep, and challenge them to duels.|
 T It's About Time!|QID|27156|M|43.19,15.95|N|To Lieutenant Myner.|
-A Drudges...|QID|27157|M|43.19,15.95|N|From Lieutenant Myner.|
+A Drudges...|QID|27157|PRE|27156|M|43.19,15.95|N|From Lieutenant Myner.|
 r Repair/Restock|QID|27157|M|44.85,12.51|N|At Outfitter Mendelev.|
 C Drudges...|QID|27157|M|45.83,11.89;45.47,9.36|CS|N|Head into the cave and kill the spider.|
 T Drudges...|QID|27157|M|43.25,15.93|N|To Lieutenant Myner.|
 C Taelan Fordring's Legacy|QID|27151|M|54.63,23.60|N|Kill gnolls south of Hearthglen.|
 T Taelan Fordring's Legacy|QID|27151|M|54.48,23.87|N|The turn-in should pop up automatically.|
-A Unusual Behavior... Even For Gnolls|QID|27152|M|54.48,23.87|N|The quest should pop up automatically.|
+A Unusual Behavior... Even For Gnolls|QID|27152|PRE|27151|M|54.48,23.87|N|The quest should pop up automatically.|
 C Unusual Behavior... Even For Gnolls|QID|27152|M|57.76,36.11|N|Head to the gnoll camp farther down the road and kill Moldfang.|
 T Unusual Behavior... Even For Gnolls|QID|27152|M|57.76,36.11|N|The turn-in should pop up automatically.|
-A The Good People of Hearthglen|QID|27153|M|57.76,36.11|N|The quest should pop up automatically.|
+A The Good People of Hearthglen|QID|27153|PRE|27152|M|57.76,36.11|N|The quest should pop up automatically.|
 C A Gnoll's Resolve|QID|27012|S|M|53.61,45.86|N|Kill and loot gnolls.|
 C Redpine Thievery|QID|27011|NC|M|53.81,43.66|N|Head farther south and loot wood from the piles in the area.|
 C A Gnoll's Resolve|QID|27012|US|M|53.61,45.86|N|Kill and loot gnolls.|
@@ -190,18 +195,18 @@ T Redpine Thievery|QID|27011|M|48.27,31.97|N|To Kelly Dumah.|
 T A Gnoll's Resolve|QID|27012|M|48.30,31.93|N|To Kelly Dumah.|
 C The Good People of Hearthglen|QID|27153|M|43.71,17.27;42.15,18.23;44.82,12.47;44.40,13.54|CS|N|Talk to each of the NPCs around Hearthglen.|
 T The Good People of Hearthglen|QID|27153|N|The turn-in should pop up automatically.|
-A Bagging Bisp|QID|27154|N|The quest should pop up automatically.|
+A Bagging Bisp|QID|27154|PRE|27153|N|The quest should pop up automatically.|
 C Bagging Bisp|QID|27154|M|45.89,18.44|N|Talk to the mage at the top of the tower.|
 T Bagging Bisp|QID|27154|M|45.82,18.44|N|The turn-in should pop up automatically.|
-A Turning Yourself In|QID|27155|M|45.82,18.44|N|The quest should pop up automatically.|
+A Turning Yourself In|QID|27155|PRE|27154|M|45.82,18.44|N|The quest should pop up automatically.|
 T Turning Yourself In|QID|27155|M|41.91,14.96|N|To Highlord Tirion Fordring, back at the second floor of the keep. You CAN safely jump off the tower.|
 F The Menders' Stead|QID|26957|M|44.65,18.43|
 T The Long Trip Home|QID|26957|M|50.60,52.56|N|To Del Gahrron.|
 A Memories from a Lost Past|QID|27017|PRE|26957|M|50.60,52.56|N|From Del Gahrron.|
-A Gahrron's Withering Cauldron|QID|27053|N|From Field Agent Kaartish.|M|49.27,54.81|
+A Gahrron's Withering Cauldron|QID|27053|PRE|27002|N|From Field Agent Kaartish.|M|49.27,54.81|
 C Gahrron's Withering Cauldron|QID|27053|M|62.52,58.96|N|Kill the cauldron lord at Gahrron's Withering to get the key.|
 T Gahrron's Withering Cauldron|QID|27053|M|62.52,58.96|N|To the cauldron.|
-A Return to the Stead|QID|27057|M|62.56,58.58|N|From the cauldron.|
+A Return to the Stead|QID|27057|PRE|27053|M|62.56,58.58|N|From the cauldron.|
 C Memories from a Lost Past|QID|27017|M|64.93,59.52|N|In the farmhouse. The painting is on the wall downstairs, the book is upstairs.|
 T Memories from a Lost Past|QID|27017|M|50.64,52.63|N|To Del Gahrron, back at The Menders' Stand.|
 T Return to the Stead|QID|27057|M|49.27,54.82|N|To Field Agent Kaartish.|
@@ -210,7 +215,7 @@ A Zen'Kiki and the Cultists|QID|26955|PRE|27057|M|48.97,54.71|N|From Adrine Towh
 C Zen'Kiki and the Cultists|QID|26955|S|NC|M|66.05,47.77|N|Release bears from their cages. Zen'Kiki will heal them.|
 C Desperate Acts|QID|27054|M|66.05,47.77|N|Kill and loot Instructor Malicia.|
 T Desperate Acts|QID|27054|M|67.04,45.24|N|The turn-in should pop up automatically.|
-A Students of Krastinov|QID|27055|M|67.04,45.24|N|The quest should pop up automatically.|
+A Students of Krastinov|QID|27055|PRE|27054|M|67.04,45.24|N|The quest should pop up automatically.|
 C Zen'Kiki and the Cultists|QID|26955|US|NC|M|67.04,45.24|N|Release bears from their cages. Zen'Kiki will heal them.|
 C Students of Krastinov|QID|27055|M|64.52,34.72|N|Head to the cave to the north and kill the various mobs there.|
 T Students of Krastinov|QID|27055|M|49.30,54.85|N|To Field Agent Kaartish, back at the Menders' Stead.|
@@ -222,20 +227,20 @@ A The Farmers' Militia|QID|27084|PRE|27083|M|46.97,63.90|N|From Koltira Deathwea
 A Ashes to Ashes|QID|27086|PRE|27083|M|46.97,63.90|N|From Koltira Deathweaver.|
 C The Farmers' Militia|QID|27084|U|60815|M|48.20,65.79|N|Use the collar and target the ground where the farmers are running.|
 T The Farmers' Militia|QID|27084|M|46.99,63.88|N|To Koltira Deathweaver.|
-A Supporting the Troops|QID|27085|M|46.86,63.55|N|From Jearl Donald.|
+A Supporting the Troops|QID|27085|PRE|27083|M|46.86,63.55|N|From Jearl Donald.|
 C Supporting the Troops|QID|27085|S|M|45.64,66.90|N|Kill Alliance in Andorhal.|
 C Ashes to Ashes|QID|27086|M|45.64,66.90|N|Kill force-commanders on the other side of Andorhal.|
 C Supporting the Troops|QID|27085|US|M|45.64,66.90|N|Kill Alliance in Andorhal.|
 T Ashes to Ashes|QID|27086|M|47.01,63.76|N|To Koltira Deathweaver, back at the Horde camp.|
 T Supporting the Troops|QID|27085|M|46.87,63.56|N|To Jearl Donald.|
-A Lindsay Ravensun, Revealed|QID|27087|M|46.96,63.76|N|From Koltira Deathweaver.|
+A Lindsay Ravensun, Revealed|QID|27087|PRE|27084;27086|M|46.96,63.76|N|From Koltira Deathweaver.|
 T Lindsay Ravensun, Revealed|QID|27087|M|49.01,63.70|N|To Lindsay Ravensun, inside the building.|
-A Ace in the Hole|QID|27089|M|49.04,63.76|N|From Lady Sylvanas Windrunner.|
+A Ace in the Hole|QID|27089|PRE|27087|M|49.04,63.76|N|From Lady Sylvanas Windrunner.|
 C Ace in the Hole|QID|27089|M|46.07,62.36;43.44,62.32;42.67,62.30;40.66,65.30;40.11,68.11;40.09,70.53|CS|N|Kill farmers near the valkyr to gather 5 undead warriors, then head over to the Alliance side of Andorhal. Go around everyone to the corpse of Lurid.|
 T Ace in the Hole|QID|27089|M|39.41,70.58|N|To Lurid.|
-A Andorhal, Once and For All|QID|27090|M|39.41,70.58|N|From Lurid.|
+A Andorhal, Once and For All|QID|27090|PRE|27089|M|39.41,70.58|N|From Lurid.|
 T Andorhal, Once and For All|QID|27090|M|49.03,63.76|N|To Lady Sylvanas Windrunner, back at the Horde camp.|
-A The Reckoning|QID|27144|M|49.08,63.69|
+A The Reckoning|QID|27144|PRE|27090|M|49.08,63.69|
 C The Reckoning|QID|27144|NC|M|48.89,63.58|N|Watch the scene.|
 T The Reckoning|QID|27144|M|48.97,63.70|N|To Lady Sylvanas Windrunner. Congrats on the nice piece of gear!|
 ]]

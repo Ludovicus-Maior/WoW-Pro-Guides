@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
+-- Date: 2017-03-15 23:27
+-- Who: Ludovicus
+-- Log: Added PREs to JiyFer3540
+
+-- URL: http://wow-pro.com/node/3245/revisions/27533/view
 -- Date: 2016-08-07 21:56
 -- Who: tubera
 -- Log: Several tweaks, since quest objects now give an UI popup. And added getting of flight points. Instead of using flight points that most likely won't exist yet. Added few quest levels. Added pre to "Wilds of Feralas" since you need to have done Desolace.
@@ -135,7 +140,7 @@ C Hippogryph Muisek|QID|25337|U|9619|M|53.80,72.02|N|Kill hippogryphs and use th
 C The Gordunni Threat|QID|25209|S|M|59.09,63.13|N|Kill ogres around the Ruins of Isildien.|
 C The Gordunni Orb|QID|25341|M|59.34,65.78|N|The Orb drops from ogre warlocks in the Ruins of Isildien.|
 C The Gordunni Threat|QID|25209|US|M|59.09,63.13|N|Kill ogres around the Ruins of Isildien.|
-A Perfect Yeti Hide|QID|25454|RANK|2|U|55167|M|53.47,55.53|N|Use the Perfect Yeti Hide to start a quest.|O|
+A Perfect Yeti Hide|QID|25454|PRE|25452|RANK|2|U|55167|M|53.47,55.53|N|Use the Perfect Yeti Hide to start a quest.|O|
 C Improved Quality|QID|25453|S|RANK|2|M|52.29,58.39|N|Kill and loot yetis at the Feral Scar Vale.|
 l Perfect Yeti Hide|QID|25454|RANK|2|L|55167|M|55.11,51.31|N|Kill yetis until you get a Perfect Yeti Hide.|S|
 l OOX-22/FE Distress Beacon|QID|25475|RANK|2|L|8705|M|55.52,55.81|N|Kill yetis until you find a distress beacon.|
@@ -143,7 +148,7 @@ l Perfect Yeti Hide|QID|25454|RANK|2|L|55167|M|53.47,55.53|N|Kill yetis until yo
 C Improved Quality|QID|25453|US|RANK|2|M|52.29,58.39|N|Kill and loot yetis at the Feral Scar Vale.|
 
 T Find OOX-22/FE!|QID|25475|RANK|2|M|53.37,55.71|N|To Homing Robot OOX-22/FE.|
-A Rescue OOX-22/FE!|QID|25476|RANK|3|M|53.37,55.71|N|From Homing Robot OOX-22/FE. This is optional as the turn-in is over in Booty Bay.|
+A Rescue OOX-22/FE!|QID|25476|PRE|25475|RANK|3|M|53.37,55.71|N|From Homing Robot OOX-22/FE. This is optional as the turn-in is over in Booty Bay.|
 C Rescue OOX-22/FE!|QID|25476|RANK|3|M|55.62,51.34|N|Follow the chicken. There will be one ambush of yetis when you get close to the road, so be ready.|
 C Even More Fuel for the Zapping|QID|25466|RANK|3|M|45.39,65.85|N|Kill and loot water elementals on the coast|S|
 C Still With The Zapped Giants|QID|25465|RANK|3|U|18904|M|53.69,51.96;50.27,51.41;45.39,65.85|CN|N|Use the zapper on the elite giants along the coastline  - they will shrink. Kill and loot them.|
@@ -201,7 +206,7 @@ A Woodpaw Investigation|QID|25365|PRE|25363|M|74.90,42.52|N|From Hadoken Swiftst
 A Alpha Strike|QID|25364|PRE|25363|M|74.90,42.52|N|From Hadoken Swiftstrider.|
 A A New Cloak's Sheen|QID|25361|PRE|25338|M|75.00,42.99|N|From Krueg Skullsplitter who wanders a bit.|
 T Ysondre's Call|QID|25378|M|81.55,42.45|N|To Ysondre, on top of the hill to the east.|
-A Taerar's Fall|QID|25379|M|81.55,42.45|N|From Ysondre.|
+A Taerar's Fall|QID|25379|PRE|25378;25437|M|81.55,42.45|N|From Ysondre.|
 C Taerar's Fall|QID|25379|M|81.53,42.49|N|Allow Ysondre to tank for you, be cautious and you should be fine.|
 T Taerar's Fall|QID|25379|M|81.54,42.46|N|To Ysondre.|
 

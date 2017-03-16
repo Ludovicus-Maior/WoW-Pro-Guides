@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2017-03-15 22:58
+-- Who: Ludovicus
+-- Log: Added PREs to JiyTir0512
+
+-- URL: http://wow-pro.com/node/3205/revisions/28409/view
+-- Date: 2017-03-15 22:52
+-- Who: Ludovicus
+-- Log: Added PREs to JiyDk0105
+
+-- URL: http://wow-pro.com/node/3205/revisions/27496/view
 -- Date: 2016-07-30 20:00
 -- Who: tubera
 -- Log: Remove removed class quests. Add Novice Elreth quest
@@ -202,7 +212,7 @@ A Johaan's Experiment|QID|24977|M|44.66,53.71|N|From Apothecary Johaan.|PRE|2497
 T Johaan's Experiment|QID|24977|M|44.68,52.65|N|To Captured Scarlet Zealot.|
 
 ;Gordo's Task has a |PRE|
-A Gordo's Task|QID|25038|M|44.35,53.20|N|From Gordo. Take this opportunity to sell and repair whilst you speak to Gordo.|
+A Gordo's Task|QID|25038|PRE|24976|M|44.35,53.20|N|From Gordo. Take this opportunity to sell and repair whilst you speak to Gordo.|
 C Gordo's Task|QID|25038|NC|M|47.07,58.93|N|Loot Gloom Weed to the east.|
 
 A A Putrid Task|QID|25090|M|52.48,54.86|N|From Deathguard Dillinger.|
@@ -230,16 +240,16 @@ T The New Forsaken|QID|24982|M|60.95,50.58|N|To Magistrate Sevren, upstairs at t
 A Forsaken Duties|QID|24983|M|60.95,50.58|N|From Magistrate Sevren.|PRE|24982|
 T Supplying Brill|QID|6321|M|58.87,51.96|R|Undead|N|To Anette Williams.|
 
-A Ride to the Undercity|QID|6323|M|58.87,51.96|R|Undead,Troll|N|From Anette Williams.|
+A Ride to the Undercity|QID|6323|PRE|6321|M|58.87,51.96|R|Undead,Troll|N|From Anette Williams.|
 
 F Undercity|QID|6323|M|58.87,51.96|R|Undead,Troll|N|Talk to Anette Williams.|
 
 T Ride to the Undercity|QID|6323|M|61.63,41.87|Z|Undercity|R|Undead,Troll|N|To Gordon Wendham.|
 
-A Michael Garrett|QID|6322|M|61.63,41.87|Z|Undercity|R|Undead|N|From Gordon Wendham.|
+A Michael Garrett|QID|6322|PRE|6323|M|61.63,41.87|Z|Undercity|R|Undead|N|From Gordon Wendham.|
 T Michael Garrett|QID|6322|M|63.21,48.30|Z|Undercity|R|Undead|N|To Michael Garrett.|
 
-A Return to Morris|QID|6324|M|63.21,48.30|Z|Undercity|R|Undead|N|From Michael Garrett.|
+A Return to Morris|QID|6324|PRE|6322|M|63.21,48.30|Z|Undercity|R|Undead|N|From Michael Garrett.|
 
 F Brill|QID|6324|M|63.21,48.30|Z|Undercity|R|Undead|N|Talk to Michael Garrett.|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2017-03-15 23:16
+-- Who: Ludovicus
+-- Log: Added PREs to JiySto2530
+
+-- URL: http://wow-pro.com/node/3234/revisions/27465/view
 -- Date: 2016-07-17 20:17
 -- Who: Ludovicus
 -- Log: L to Q0 conversions needed to play.
@@ -131,7 +136,7 @@ A Seek and Destroy|QID|26009|M|66.07,63.75|RANK|3|N|From Overlord Krom'gar. May 
 A Ashes to Ashes|QID|26010|PRE|26004|M|66.13,63.72|N|From Overlord Krom'gar.|
 
 A Dream of a Better Tomorrow|RANK|2|QID|26026|PRE|26004|M|66.13,64.23|N|From Clarissa.|
-A Might of the Krom'gar|QID|28084|M|65.85,64.12|N|From the Krom'gar Quartermaster. The quartermaster will sell you items depending on your rank in the army. Your current rank is listed up in your buffs.|
+A Might of the Krom'gar|QID|28084|PRE|26004|M|65.85,64.12|N|From the Krom'gar Quartermaster. The quartermaster will sell you items depending on your rank in the army. Your current rank is listed up in your buffs.|
 A Enemy of the Horde: Marshal Paltrow|QID|26011|PRE|26004|M|65.77,63.33|N|From Spy-Mistress Anara.|
 
 C Seek and Destroy|QID|26009|M|61.42,64.88|S|RANK|3|N|Kill Alliance soldiers.|
@@ -142,7 +147,7 @@ C Ashes to Ashes|NC|QID|26010|U|56473|M|61.42,64.88|US|N|Use the flamethrower on
 C Seek and Destroy|QID|26009|M|61.42,64.88|US|RANK|3|N|Kill Alliance soldiers.|
 C Mechanized Air|RANK|2|QID|26026|M|59.94,64.21|QO|4|N|Inside the goblin hut.|
 C Mechanized Fire|RANK|2|QID|26026|M|63.09,56.72|QO|2|N|On top of the huge logging machine.|
-C Mechanized Ice|RANK|2|QID|26026|M|66.18,50.05|QO|3||N|On top of the tower.|
+C Mechanized Ice|RANK|2|QID|26026|M|66.18,50.05|QO|3|N|On top of the tower.|
 A BEWARE OF CRAGJAW!|RANK|2|QID|26043|M|65.01,49.37|N|From the STAY OUT! poster.|
 C Dream of a Better Tomorrow|QO|1|NC|QID|26026|M|68.42,45.70;67.09,43.60;63.05,45.65|CS|N|At the end of the stretch of deck, guarded by Gerenzo Wrenchwhistle.|
 C BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.21,47.19|N|Jump off if you'd like to try to take on Cragjaw. He's at the center of the lake. Feel free to skip this quest if it's too hard and you can't find someone to help you.|
@@ -175,7 +180,7 @@ T I Got Your Parts Right Here...|QID|26045|M|67.15,64.49|N|To Sergeant Dontrag.|
 A Spare Parts Up In Here!|QID|26048|PRE|26045|M|67.15,64.49|N|From Sergeant Dontrag.|
 
 T Spare Parts Up In Here!|QID|26048|M|66.46,60.48;66.25,62.94|CC|N|To Chief Blastgineer Bombgutz, back on top of the hill at Krom'gar Fortress.|
-A In Defense of Krom'gar Fortress|QID|26058|M|66.25,62.94|N|From Chief Blastgineer Bombgutz.|
+A In Defense of Krom'gar Fortress|QID|26058|PRE|26048|M|66.25,62.94|N|From Chief Blastgineer Bombgutz.|
 C In Defense of Krom'gar Fortress|QID|26058|M|66.09,63.01|N|Right-click one of the guns to get in. Shoot down the flying machines and make sure to shoot the pilots after you destroy the machine. When you are done, you need to exit the gun manually.|
 T Mr. D's Wild Ride|RANK|2|QID|26028|M|66.13,63.69|N|When you are done, you need to exit the gun manually. Turn-in to Overlord Krom'gar.|
 T In Defense of Krom'gar Fortress|QID|26058|M|66.13,63.69|N|To Overlord Krom'gar.|
@@ -190,7 +195,7 @@ A Fight On Their Stomachs|RANK|2|QID|26064|PRE|26059|M|72.03,91.20|N|From Denni'
 
 C Da Voodoo: Stormer Heart|QID|26060|M|69.07,86.03|S|N|Keep an eye out for stormers.|
 C Da Voodoo: Ram Horns|QID|26061|M|65.80,84.27|S|N|Kill and loot rams.|
-C Fight On Their Stomachs|RANK|2||NC|QID|26064|M|64.17,89.53|N|The eggs come from nests on the ground.|
+C Fight On Their Stomachs|RANK|2|NC|QID|26064|M|64.17,89.53|N|The eggs come from nests on the ground.|
 C Da Voodoo: Ram Horns|QID|26061|M|65.80,84.27|US|N|Kill and loot rams.|
 C Da Voodoo: Stormer Heart|QID|26060|M|69.07,86.03|US|N|Kill and loot a stormer. They tend to be near the valley walls.|
 
@@ -220,25 +225,25 @@ C Jin'Zil's Blessing|NC|QID|26067|U|56798|M|79.67,83.49|US|N|Use the voodoo stic
 T Kobold Fury!|RANK|2|QID|26068|M|71.18,91.08|N|To Subjugator Devo, back in Malaka'jin.|
 T Jin'Zil's Blessing|QID|26067|M|71.11,91.19|N|To Witch Doctor Jin'Zil.|
 A All's Quiet on the Southern Front|QID|26073|PRE|26067|M|71.11,91.19|N|From Witch Doctor Jin'Zil.|
-A Nura Pathfinder|QID|26069|M|71.11,91.19||N|From Witch Doctor Jin'Zil. Take this quest if you plan on going to Southern Barrens.|
+A Nura Pathfinder|QID|26069|M|71.11,91.19|N|From Witch Doctor Jin'Zil. Take this quest if you plan on going to Southern Barrens.|
 H Krom'gar Fortress|QID|26073|M|66.54,62.80|N|FlyRun back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T All's Quiet on the Southern Front|QID|26073|M|66.14,63.75|N|To Overlord Krom'gar.|
-A Beginning of the End|QID|26074|M|66.20,63.64|N|From Overlord Krom'gar.|
+A Beginning of the End|QID|26074|PRE|26073|M|66.20,63.64|N|From Overlord Krom'gar.|
 B Quartermaster|QID|26074|M|65.85,64.12|N|You've gone up a rank in the Krom'gar army! Check and see if there's anything you want at the quartermaster before moving on.|
 
 C Beginning of the End|NC|QID|26074|M|66.65,63.62|N|Hop on the balloon and ride it to the Sludgeworks.|
 T Beginning of the End|QID|26074|M|52.93,39.18|N|To Jibbly Rakit.|
-A The Turd Problem|QID|26075|M|52.93,39.18|N|From Jibbly Rakit.|
+A The Turd Problem|QID|26075|PRE|26074|M|52.93,39.18|N|From Jibbly Rakit.|
 C The Turd Problem|QID|26075|M|55.65,45.93;56.04,44.01|CS|N|Kill wyverns.|
 T The Turd Problem|QID|26075|M|52.93,39.15|N|To Jibbly Rakit.|
-A Spy Infestation|QID|26076|M|52.93,39.15|N|From Jibbly Rakit.|
+A Spy Infestation|QID|26076|PRE|26075|M|52.93,39.15|N|From Jibbly Rakit.|
 C Spy Infestation|QID|26076|U|56800|M|52.57,44.01|N|When you see a sparkle, use the gas bomb on it. Then kill the spy.|
 T Spy Infestation|QID|26076|M|52.93,39.18|N|To Jibbly Rakit.|
-A Final Delivery|QID|26077|M|52.93,39.18|N|From Jibbly Rakit.|
+A Final Delivery|QID|26077|PRE|26076|M|52.93,39.18|N|From Jibbly Rakit.|
 
 C Final Delivery|QID|26077|M|51.20,45.51|N|Hop on the balloon and ride it to Cliffwalker Post.|
 T Final Delivery|QID|26077|M|45.11,32.75|N|To General Grebo.|
-A To Battlescar!|QID|26082|M|45.11,32.75|N|From General Grebo.|
+A To Battlescar!|QID|26082|PRE|26077|M|45.11,32.75|N|From General Grebo.|
 C To Battlescar!|QID|26082|M|46.04,36.01;41.23,38.49|CC|N|Take the lift down, then get into a demolisher. Ability 1 is ranged, Ability 2 melee. Kill alliance units and glaive throwers (ballista-like seige machines).|
 T To Battlescar!|QID|26082|M|45.11,32.82|N|To General Grebo, back up on Cliffwalker Post.|
 A Proof of Lies|QID|26097|PRE|26082|M|45.00,32.82|N|From High Chieftain Cliffwalker.|
