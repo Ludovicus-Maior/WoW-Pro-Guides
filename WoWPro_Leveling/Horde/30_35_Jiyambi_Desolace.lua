@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2017-03-16 16:15
+-- Who: Ludovicus
+-- Log: Add missing PRE
+
+-- URL: http://wow-pro.com/node/3314/revisions/28425/view
 -- Date: 2017-03-15 23:20
 -- Who: Ludovicus
 
@@ -103,7 +108,7 @@ return [[
 R Desolace|QID|14184|M|54.7,8.8|N|Run down into Desolace.|
 T Warchief's Command: Desolace!|O|QID|28548|M|54.7,8.8|N|To Furien at Tethris Aran in Desolace.|
 T Nothing Left for You Here|O|QID|26134|M|54.74,8.84|N|To Furien.|
-A My Time Has Passed|QID|14184|M|54.74,8.84|N|From Furien.| ; Grail PRE|28548;26134 cant be right
+A My Time Has Passed|QID|14184|PRE|28548;26134|M|54.74,8.84|N|From Furien.| ; Grail PRE|28548;26134 cant be right
 
 T My Time Has Passed|QID|14184|M|54.81,8.65;44.63,29.52|CC|N|Talk to the dragonhawk. When it lands, turn-in to Cerelia.|
 A Avenge Furien!|QID|14188|PRE|14184|M|44.63,29.52|N|From Cerelia.|

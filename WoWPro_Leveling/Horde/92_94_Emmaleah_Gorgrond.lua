@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2017-03-16 17:08
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3599/revisions/27919/view
 -- Date: 2016-10-15 01:12
 -- Who: tubera
 -- Log: Add more bonus objectives; Tweak order; Add missing Vine;
@@ -173,38 +178,38 @@ A Proof of Strength: Ravager Claw|QID|36097|O|U|114032|M|46.29,69.31|N|From 'Rav
 T The Secrets of Gorgrond|QID|35557|M|37.28,77.02|N|To Durotan.|
 A The Laughing Skull|QID|33543|M|37.28,77.02|N|From Durotan.|
 T The Laughing Skull|QID|33543|M|38.77,73.62|N|To Ripfist.|
-A Goren, Goren, Gone!|QID|33544|M|38.77,73.62|N|From Ripfist.|
+A Goren, Goren, Gone!|QID|33544|PRE|33543|M|38.77,73.62|N|From Ripfist.|
 C Goren, Goren, Gone!|QID|33544|M|40.96,73.87|S|
-A We Die Laughing!|QID|33548|M|39.3,71.97|N|From Kaz the Shreiker.|
+A We Die Laughing!|QID|33548|PRE|33543|M|39.3,71.97|N|From Kaz the Shreiker.|
 C We Die Laughing!|QID|33548|M|41.12,72.86|NC|S|N|Retrieve the masks from the fallen villagers.|
 B Femur of Improbability|QID|36170|L|118715|M|40.1,72.2|N|More treasure for the taking, ignore the sign, I'm sure its not that importan.... ahhhhh!|ITEM|118715|RANK|3|
-A Eye Candy|QID|33563|M|40.48,71.96|N|From Limbflayer.|
+A Eye Candy|QID|33563|PRE|33543|M|40.48,71.96|N|From Limbflayer.|
 C Eye Candy|QID|33563|M|41.42,72.75|T|Skothwa|
 C We Die Laughing!|QID|33548|M|41.12,72.86|NC|N|Retrieve the masks from the fallen villagers.|
 C Goren, Goren, Gone!|QID|33544|M|40.96,73.87|US|
 T Goren, Goren, Gone!|QID|33544|M|40.96,73.87|N|To UI Alert.|
 T We Die Laughing!|QID|33548|M|41.45,74.10|N|To Kaz the Shrieker.|
 T Eye Candy|QID|33563|M|41.48,74.14|N|To Limbflayer.|
-A A Flare for the Dramatic|QID|33593|M|41.49,74.08|N|From Durotan.|
+A A Flare for the Dramatic|QID|33593|PRE|33548;33544;33563|M|41.49,74.08|N|From Durotan.|
 C A Flare for the Dramatic|QID|33593|M|41.48,74.09|NC|N|Use the flare gun.|U|115534| ;add U tag
 T A Flare for the Dramatic|QID|33593|M|41.49,74.07|N|To Durotan.|
-A Penny From Heaven|QID|36434|M|41.49,74.07|N|From Durotan.|
+A Penny From Heaven|QID|36434|PRE|33593|M|41.49,74.07|N|From Durotan.|
 $ Laughing Skull Cache|QID|35709|M|44.36,73.58;44.20,74.27|CS|QO|1|N|Waypoint is at base of leaning tree, run up it to find the treasure.|ITEM|$824|
 T Penny From Heaven|QID|36434|M|45.68,70.60|N|To Penny Clobberbottom.|
-A Just Another Stick in the Wall|QID|36460|M|45.68,70.60|N|From Penny Clobberbottom.|
+A Just Another Stick in the Wall|QID|36460|PRE|36434|M|45.68,70.60|N|From Penny Clobberbottom.|
 C Just Another Stick in the Wall|QID|36460|M|45.67,70.59|NC|N|Use Penny's Plunger.|
 T Just Another Stick in the Wall|QID|36460|M|45.87,70.30|N|To Durotan.|
-A Your Base, Your Choice|QID|35151|M|45.87,70.30|N|From Durotan.|
+A Your Base, Your Choice|QID|35151|PRE|36460|M|45.87,70.30|N|From Durotan.|
 C Your Base, Your Choice|QID|35151|M|45.87,70.30|NC|N|Choose which building you want.|
 T Your Base, Your Choice|QID|35151|M|46.10,70.18|N|To Durotan.|
 
 A Durotan's quest|QID|36474;35880|M|46.10,70.18|N|From Durotan. This quest will vary depending on whether you chose the  Lumber Yard or the Sparring Arena in the previous step.|
 ;A The Razorbloom|QID|36474|M|46.10,70.20|N|From Durotan.| ; build lumber mill
 ;A Rage and Wisdom|QID|35880|M|46.10,70.18|N|From Durotan.| ; build sparring arena
-A Reagents from Rakthoth|QID|33694|M|46.29,69.98|N|From Marrow.|LVL|93|RANK|2|
-A Skulltakers in Crimson Fen|QID|35667|M|46.29,69.98|N|From Marrow.|RANK|2|
+A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow.|LVL|93|RANK|2|
+A Skulltakers in Crimson Fen|QID|35667|PRE|35151|M|46.29,69.98|N|From Marrow.|RANK|2|
 A Tangleheart|QID|35707|M|46.36,69.64|N|From Penny Clobberbottom.|ACTIVE|36474|
-A A Rediscovered Legend|QID|34697|M|46.33,69.69|N|From Limbflayer.|ACTIVE|35880|
+A A Rediscovered Legend|QID|34697|PRE|35151|M|46.33,69.69|N|From Limbflayer.|ACTIVE|35880|
 f Beastwatch|QID|36474;35880|M|45.98,69.23|N|At Grinslicer.|
 h Make Beastwatch your home|QID|36474;35880|M|45.98,69.72|N|At Licefeaster.|
 
@@ -254,7 +259,7 @@ $ Odd Boulder|QID|36730|M|48.11,55.16|N|Call Beatface (click on the rock) to exp
 C Xuk Me, Right?|QID|35202|M|45.34,52.26|S|N|Kill and loot the Goren running amok.|
 C What the Bony Xuk?|QID|35038|NC|M|44.03,53.02|S|N|From the Longtooth Gorger corpses lying around.|
 K Gronnslaver Raz|QID|35037|M|47.7,52|QO|2|T|Gronnslaver Raz|ACTIVE|35037|
-A The Gronn Strategy|QID|35925|M|47.73,52.07|N|From Weaponization Orders.|ACTIVE|35934|
+A The Gronn Strategy|QID|35925|PRE|35026;35870|M|47.73,52.07|N|From Weaponization Orders.|ACTIVE|35934|
 $ Suntouched Spear|QID|36610|PRE|35880|M|45.7,49.7|QO|1|N|Run out of Raz's camp and towards the waypoint, then drop down to the ledge about 15 feet below, Wait here for Charl Doomwing to fly overhead to get that one.|ITEM|118718|RANK|3|
 K Charl Doomwing|QID|35815|M|46.0,46.8|PRE|35880|T|Charl Doomwing|L|113456|N|This is an elite mob, it is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
 A Trophy of Glory: Charl Doomwing|QID|35815|M|46.0,46.8|O|U|113456|N|From 'Fang of the Doomwing' you just looted.|PRE|35880|
@@ -315,7 +320,7 @@ $ Warm Goren Egg|QID|36203|M|48.9,47.3|QO|1|N|In 7 days this will become a Goren
 C Chains of Iron|QID|35136|M|49.0,45.2;49.2,44.8|CS|QO|1|N|When you enter this valley, you first see Rexxar fighting some grunts, assist him, as he works his way towards Captain Brak. Eventually Nisha flys up and brings Capt. Brak to you. Kill her, then go over and loot the artifact.|
 C Chains of Iron|QID|35136|M|49.74,43.85;49.6,44.5|CS|QO|2|CHAT|N|After you have the artifact, optionally come back down and chat with Nisha for a ride back to your outpost.|
 
-A Reagents from Rakthoth|QID|33694|M|46.29,69.98|N|From Marrow. If you level, this quest will pop up, if you aren't in Beastwatch, just check it off manually, the guide will remind you to pick it up again later.|LVL|93|ACTIVE|35136|
+A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow. If you level, this quest will pop up, if you aren't in Beastwatch, just check it off manually, the guide will remind you to pick it up again later.|LVL|93|ACTIVE|35136|
 N Sparring Arena|QID|35880|ACTIVE|35880|N|What follows next is a running from flight path to flight path and getting a couple of followers.  If that doesn't interest you check these steps off until Run to Mistcreep Mire.  There are bonus objectives in these areas but no quests.|
 
 ;if lumber yard
@@ -341,11 +346,11 @@ A Bushwhacker|QID|35432|M|46.58,71.47|N|From Draka.|PRE|35402;35406|
 ;Change step type to $
 $ Hardened Thornvine|QID|36714|ACTIVE|35707|M|47.66,76.78|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;21 - Deeproot
 ; Pollen power into sticky]
-C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|S
+C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|S|
 R Evermorn Springs|QID|35430;36037|M|44.95,79.09|
 ; to $ step
 $ Hardened Thornvine|QID|35981|ACTIVE|35707|M|45.31,81.99|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;20.1 - Deeproot
-C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|US
+C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|US|
 T Cutter|QID|35430|M|43.72,84.00|N|To Cutter. You can jump over the wall of his hut in the back.|
 A A Green Ogron?|QID|36482|M|43.72,84.00|N|From Cutter.|PRE|35430|
 A We Burn the Dead|QID|35487|M|43.72,84.00|N|From Cutter.|PRE|35430|
@@ -401,13 +406,13 @@ A Will of the Genesaur|QID|35509|M|46.49,93.57|N|From Cutter.|PRE|36488|
 A Down the Goren Hole|QID|35507|M|46.49,93.57|N|From Cutter.|PRE|36488|
 C Down the Goren Hole|QID|35507|S|M|47.65,94.11|N|Head inside the bastian, killing Goren as you go.|
 $ Stashed Emergency Rucksack |QID|36604|M|48.1,93.4|QO|1|N|Jump from block to block and then to the hanging platform. You can reach it from the hanging platform. Pick up for a bit of gold and a random green item. (If you want, use the shredder's flight ability to get up there quicker.)|RANK|3|
-A Doomshot|QID|35501|M|47.96,94.35|N|From Doomshot.|ACTIVE|35507|
+A Doomshot|QID|35501|PRE|36488|M|47.96,94.35|N|From Doomshot.|ACTIVE|35507|
 C Doomshot|QID|35501|M|48.30,94.18|N|Pick up the shells.|
 C Down the Goren Hole|QID|35507|US|M|48.30,94.18|N|Finish killing Gorens.|
 C Will of the Genesaur|QID|35509|M|48.31,94.25|N|Loot the chest.|
 T Doomshot|QID|35501|M|47.90,94.25|N|To Weapon Loader.|
 T Will of the Genesaur|QID|35509|M|48.05,94.16|N|To Cutter. Appears behind you.|
-T Down the Goren Hole|QID|35507|M|48.05,94.163||N|To Cutter.|
+T Down the Goren Hole|QID|35507|M|48.05,94.163|N|To Cutter.|
 A Iyu|QID|35510|M|48.05,94.16|N|From Cutter.|PRE|35507|
 C Iyu|QID|35510|M|47.41,92.35|N|Run back outside of the Bastion and defeat Iyu.|T|Iyu|
 T Iyu|QID|35510|M|47.71,93.31|N|To Draka.|
@@ -419,14 +424,14 @@ A Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Auto acce
 C Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Kill podlings, grab jars and kill Malkor. Malkor can be found inside the building in the back of the area.|S|RANK|3|
 $ Hardened Thornvine|QID|35968|ACTIVE|35707|M|49.65,78.82|N|Use Shredder (click on the vines) to expose the Forgotten Ogre Cache|RANK|3|;28 - Ruins of the First Bastian
 C Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Kill podlings, grab jars and kill Malkor. Malkor can be found inside the building in the back of the area.|US|RANK|3|
-t Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Auto turn in.
+t Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Auto turn in.|
 A The Forgotten Caves-Bonus Objective|QID|34724|M|51.36,77.58|N|Auto accept when entering the area|RANK|3|
 C The Forgotten Caves-Bonus Objective|QID|34724|M|51.36,77.58|N|Kill pale, destroy egg sacks and kill Gorg the Host.|S|RANK|3|
 R The Forgotten Cave|QID|36713|M|51.37,77.75|N|Right after you leave Ruins of the First Bastion Rise, go up the hill to the Forgotten cave. You may as well do the bonus objective while you are getting to the vine and the dagger.|RANK|3|
 $ Hardened Thornvine|QID|36713|ACTIVE|35707|M|53.01,79.03|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;28.1 - The Forgotten Cave
 $ Strange Looking Dagger |QID|34940|M|53.0,80.0|QO|1|N|In the back of The Forgotten Cave, Pick up for a bit of treasure. You can jump up from the rock.|RANK|3|ITEM|118718|
 C The Forgotten Caves-Bonus Objective|QID|34724|M|51.36,77.58|N|Kill pale, destroy egg sacks and kill Gorg the Host.|US|RANK|3|
-t Ruins of the First Bastion-Bonus Objective|QID|34724|M|51.36,77.58|N|Auto turn in.
+t Ruins of the First Bastion-Bonus Objective|QID|34724|M|51.36,77.58|N|Auto turn in.|
 R Darksting Cave|QID|34726|M|52.16,76.81|N|Exit the Forgotten Cave and Right next to it is Darksting Cave.|RANK|3|
 K Mother Araneae|QID|34726|M|53.4,78.2|T|Mother Araneae|L|118208|N|Inside the Darksting Cave. Kill and loot for an ilvl 534 agi dagger.|RANK|3|ITEM|118208|;just past strange dagger's cave
 R Sulfurscale Cave|QID|36654|M|51.46,74.38;53.1,74.5|CN|N|And out of Darksting Cave to Sulfurscale Cave Cave. It has two entrances: run in the sloped entrance at the first waypoint or where you drop down (levitate) at the second.|RANK|3|
@@ -438,14 +443,14 @@ K Stompalupagus |QID|36837|M|55.2,71.2|T|Stompalupagus|L|118228|N|Kill and loot 
 ;for both
 L Level 93|QID|35667|LVL|93|N|If you aren't level 93 do some bonus quests (or something), because there is a quest back to Beastwatch which requires level 93.|RANK|2|
 H Beastwatch|QID|35667|M|47.44,90.79|N|Hearth or Fly back to Beastwatch.|RANK|2|
-A Reagents from Rakthoth|QID|33694|M|46.29,69.98|N|From Marrow.|LVL|93|RANK|2|
+A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow.|LVL|93|RANK|2|
 R Mistcreep Mire|QID|35667|M|54.45,66.65|N|There is really no nice straight path over there, so check your map and go towards the waypoint.|RANK|2|
 A Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Auto accept when entering the area|RANK|3|
 C Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Kill podlings, grab jars and kill Malkor. Malkor can be found inside the building in the back of the|S|RANK|3|
 $ Hardened Thornvine|QID|36715|ACTIVE|35707|M|51.76,69.13|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;31 - Mistcreep Mire
 $ Odd Boulder|QID|36738|M|50.32,66.57|N|Call Beatface (click on the rock) to expose the Ancient Titan Chest|RANK|3|PRE|35880|;30 - Mistcreep Mire
 K Khargax the Devourer|QID|35819|M|52.4,65.8|L|113460|N|This is an elite mob, it is meant to be killed in a group. Kill and loot item for a bonus quest.|T|Khargax the Devourer|RANK|3|
-A Trophly of Glory: Khargax the Devourer|QID|35819|O|U|113460|M|52.4,65.8|N|From 'Shimmering Scale' you just looted.|
+A Trophly of Glory: Khargax the Devourer|QID|35819|PRE|35151|O|U|113460|M|52.4,65.8|N|From 'Shimmering Scale' you just looted.|
 $ Odd Skull|QID|36509|M|52.5,66.9|QO|1|N|Pick up for a bit of treasure.|RANK|3|ITEM|118717|;mistcreep mire
 C Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Kill podlings, grab jars and kill Malkor. Malkor can be found inside the building in the back of the|US|RANK|3|
 t Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Auto turn in|US|RANK|3|
@@ -472,7 +477,7 @@ A A Heartfelt Search|QID|35031|M|57.21,61.95|N|From Grulkor.|PRE|35027;35029|RAN
 C A Grim Harvest|QID|35030|M|59.81,63.17|S|N|These are dropped by the Fungal Stompers. Kill them on the way to the strange fungus.|
 C A Heartfelt Search|QID|35031|M|58.93,62.57|NC|N|Inspect the Drained Fungal Heart.|
 K Fungal Praetorian|QID|35814|M|58.0,63.6|T|Fungal Praetorian|L|113454|N|This is an elite mob, it is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
-A Trophy of Glory: Fungal Praetorian|QID|35814|M|58.0,63.6|O|U|113454|N|From 'Precious Mushroom' you just looted.|
+A Trophy of Glory: Fungal Praetorian|QID|35814|PRE|35151|M|58.0,63.6|O|U|113454|N|From 'Precious Mushroom' you just looted.|
 C A Grim Harvest|QID|35030|M|59.81,63.17|US|N|These are dropped by the Fungal Stompers, finish gathering them.|
 T A Grim Harvest|QID|35030|M|58.91,62.53|N|To Grulkor. Wait a few seconds and he shows up for you to turn the quest in.|
 T A Heartfelt Search|QID|35031|M|58.91,62.53|N|To Grulkor.|
@@ -487,7 +492,7 @@ $ Odd Boulder|QID|36739|M|58.12,51.46|N|Call Beatface (click on the rock) to exp
 A Iyun Weald-Bonus Objective|QID|36571|M|60.36,52.44|N|Auto accept when entering the area|
 C Iyun Weald-Bonus Objective|QID|36571|M|60.36,52.44|N|Kill Thorny Stabbers and Weald Stingers, click thorny leaflings to kick them away|S|RANK|3|
 K Biolante|QID|36503|M|61.2,53.0|T|Biolante|L|116160|N|Biolante is an elite Mandragora who wonders this area, it is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
-A Trophy of Glory: Biolante|QID|36503|O|U|116160|M|61.2,53.0|N|From 'Writhing Green Tendril' you just looted.|
+A Trophy of Glory: Biolante|QID|36503|PRE|35151|O|U|116160|M|61.2,53.0|N|From 'Writhing Green Tendril' you just looted.|
 $ Odd Boulder|QID|36740|M|61.55,58.55|N|Call Beatface (click on the rock) to expose the Ancient Ogre Cache|RANK|3|PRE|35880|;34 - iyun Weald
 $ Hardened Thornvine|QID|36430|ACTIVE|35707|M|63.28,57.24|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;35 - iyun Weald
 C Iyun Weald-Bonus Objective|QID|36571|M|60.36,52.44|N|Kill Thorny Stabbers and Weald Stingers, click thorny leaflings to kick them away|US|RANK|3|
@@ -525,7 +530,7 @@ A Penny For Your Thoughts|QID|36812|M|46.36,69.68|N|From Penny Clobberbottom. Pi
 ;for all
 R Highpass|QID|33694|M|52.39,62.58|CC|N|You don't actually want to run IN TO Highpass as it is an alliance quest hub, but you are going very near it.|RANK|2|
 K Roardan the Sky Terror|QID|35818|M|53.0,63.2|T|Roardan the Sky Terror|L|113459|N|This is an elite mob, it is meant to be killed in a group. He flys all around the Crimson Fen/Tangleheart on about a 3 minute loop and roosts here for 20 seconds or so. Kill and loot item for a bonus quest.|RANK|3|
-A Trophy of Glory: Roardan the Sky Terror|QID|35818|M|51.2,63.6|O|U|113459|N|From 'Ebony Feather' you just looted.|
+A Trophy of Glory: Roardan the Sky Terror|QID|35818|PRE|35151|M|51.2,63.6|O|U|113459|N|From 'Ebony Feather' you just looted.|
 $ Hardened Thornvine|QID|35966|PRE|35707|M|51.79,61.49|N|Use Shredder (click on the vines) to expose the remains of Grimnir Ashpick|RANK|3|;32-Highpass GY
 K Crater Lord Igneous|QID|35811|PRE|35707|M|42.8,59.6|T|Crater Lord Igneous|L|113448|N|Crater Lord Igneous is a large elite earth elemental. It is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
 A Trophy of Glory: Crater Lord Igneous|QID|35811|PRE|35707|M|52.8,59.6|O|U|113448|N|From 'Chunk of Crater Lord' you just looted.|
@@ -537,7 +542,7 @@ C South Gronn Canyon-Bonus Objective|QID|36476|M|48.91,53.19|N|Kill Goren, Gronn
 $ Hardened Thornvine|QID|36718|PRE|35707|M|47.21,51.82|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;5
 $ Suntouched Spear|QID|36610|PRE|35707|M|45.7,49.7|QO|1|N|Run out of Raz's camp and towards the waypoint, then drop down to the ledge about 15 feet below, Wait here for Charl Doomwing to fly overhead to get that one.|ITEM|118718|RANK|3|
 K Charl Doomwing|QID|35815|PRE|35707|M|46.0,46.8|T|Charl Doomwing|L|113456|N|This is an elite mob, it is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
-A Trophy of Glory: Charl Doomwing|QID|35815|M|46.0,46.8|O|U|113456|N|From 'Fang of the Doomwing' you just looted.|
+A Trophy of Glory: Charl Doomwing|QID|35815|PRE|35151|M|46.0,46.8|O|U|113456|N|From 'Fang of the Doomwing' you just looted.|
 C South Gronn Canyon-Bonus Objective|QID|36476|M|48.91,53.19|N|Kill Goren, Gronnlings Grunts adn click Peons to execute them.|RANK|3|US|
 t South Gronn Canyon-Bonus Objective|QID|36476|M|48.91,53.19|N|Auto tuen in.|RANK|3|
 $ Harvestable Precious Crystal|QID|36651|PRE|35707|M|44.55,50.76;46.12,49.95|CS|QO|1|N|Enter Glut's Burrow and you will find the crystal in the back, feel free to kill the Glut (silver elite} while you are here.|RANK|3|ITEM|$824|
@@ -550,7 +555,7 @@ $ Iron Supply Chest|QID|36618|M|42.77,44.42;43.7,42.5|PRE|35707|CS|QO|1|N|Down i
 
 $ Sniper's Crossbow|QID|36634|M|45.0,42.6|PRE|35707|QO|1|N|Pick up an ilvl 539 crossbow.|RANK|3|ITEM|118713|;above/across from fissure of fury
 A Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Auto accept when entering the area.|RANK|3|
-C Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Kill Gronn and Goren and break their eggs.|RANK|3|S
+C Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Kill Gronn and Goren and break their eggs.|RANK|3|S|
 $ Petrified Rylak Egg |QID|36521|PRE|35707|M|46.25,42.93|L|118707|N|Pick up for a bit of treasure.|RANK|3|ITEM|118707|;gronn canyon
 K Rolkor|QID|36393|M|47.73,41.07|PRE|35707|L|118211|N|Kill and loot for an ilvl 539 str trinket.|RANK|3|ITEM|118211|
 K Greldrok the Cunning|QID|36186|PRE|35707|M|46.8,43.2|T|Greldrok the Cunning|L|118210|N|Inside a cave, Kill and loot for an ilvl 534 str 1H Mace.|RANK|3|ITEM|118210|
@@ -558,7 +563,7 @@ $ Hardened Thornvine|QID|36717|PRE|35707|M|47.48,43.61|N|Use Shredder (click on 
 
 $ Warm Goren Egg|QID|36203|PRE|35707|M|48.9,47.3|QO|1|N|In 7 days this will become a Goren Disguise (toy)|RANK|3|ACTIVE|35136;35807|ITEM|118716|
 
-C Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Kill Gronn and Goren and break their eggs.|RANK|3|US
+C Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Kill Gronn and Goren and break their eggs.|RANK|3|US|
 t Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Auto turn in.|RANK|3|
 
 R Dionor's Demise|QID|33694|M|49.36,49.70|N|If you picked up treasure as you went... you are practically there.|RANK|2|
@@ -571,7 +576,7 @@ $ Hardened Thornvine|QID|35952|PRE|35707|M|49.06,48.43|N|Use Shredder (click on 
 K Char the Burning|QID|35503|M|53.2,44.4|T|Char the Burning|L|118212|N|Kill and loot for an ilvl 536 int 2H Mace.|RANK|3|ITEM|118212|
 $ Odd Boulder|QID|36734|M|51.33,40.55|N|This is on the edge of the "hole" Erosian is in. Call Beatface (click on the rock) to expose the Aged Stone Container|RANK|3|PRE|35880|;13 - next to Erosian the Violent
 K Erosian the Violent|QID|35807|M|51.8,41.6|T|Erosian the Violent|L|113444|N|Erosian is a large elite steam elemental. It is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
-A Trophy of Glory: Erosian|QID|35807|M|51.8,41.6|O|U|113444|N|From 'Crystalized Steam' you just looted.|
+A Trophy of Glory: Erosian|QID|35807|PRE|35151|M|51.8,41.6|O|U|113444|N|From 'Crystalized Steam' you just looted.|
 $ Weapons Cache|QID|36596|M|49.28,43.62|QO|1|N|Loot for some Garrison Resources. This is the platform where Capt Brak was standing for the quest"Chains of Iron". However, it was phased and you couldn't see it then.|RANK|3|ITEM|$824|;Above where you do chains of iron - but can't be done then because it is phased out
 $ Odd Boulder|QID|36721|M|48.11,46.37|N|Call Beatface (click on the rock) to expose the Obsidian Crystal Formation|RANK|3|PRE|35880|;14 - Dionar's Demise
 C Plant Pruning|QID|33689|M|49.90,47.28|US|N|Finish killing Dionor defenders.|
@@ -586,7 +591,7 @@ C Shredder vs. Saberon|QID|33663|M|51.97,45.84;52.62,47.53;52.22,48.62|CS|NC|N|C
 T Beatface vs. Boulder|QID|33662|M|50.9,51.4|N|To Rakthoth.|
 T Shredder vs. Saberon|QID|33663|M|52.29,48.99|N|To Rakthoth.|
 A Steamscar "Reagents"|QID|33661|M|50.9,51.4;52.29,48.99|CN|N|From Rakthoth, at the nearer of the two dots.|PRE|33662;33663|RANK|2|
-A The Sacking of the Saberon|QID|33660|M|51.05,51.61;51.85,50.04|CN|N|From Saberon Stash available at either waypoint.|ACTIVE|33661|
+A The Sacking of the Saberon|QID|33660|PRE|33662;33663|M|51.05,51.61;51.85,50.04|CN|N|From Saberon Stash available at either waypoint.|ACTIVE|33661|
 C The Sacking of the Saberon|QID|33660|M|50.49,53.16|NC|S|N|Gather the herbs as you go about killing the mobs. Any movement, including panning your camera, causes the gather to fail.|
 C Steamscar "Reagents"|QID|33661|M|52.68,51.13|N|The reagents are looted from the saberon.|
 C The Sacking of the Saberon|QID|33660|M|52.68,51.13|NC|US|N|Gather the herbs as you go about killing the mobs. Any movement, including panning your camera, causes the gather to fail.|
@@ -665,7 +670,7 @@ t Proof of Strength: Gronn Eye|QID|36083|M|46.29,69.31|N|To Limbflayer.|
 t Proof of Strength: Ogron Horn|QID|36076|M|46.29,69.31|N|To Limbflayer.|
 t Proof of Strength: Ravager Claw|QID|36097|M|46.29,69.31|N|To Limbflayer.|
 C Strike While the Iron is Hot|QID|36573;36574|QO|1|M|46.0,69.2|CHAT|N|At Grinslicer (flightmaster}. This is the chat option, NOT an actual flightpath.|
-C Strike While the Iron is Hot|QID|36573;36574|QO|2|M|44.7,17.8|CHAT|N|Talk to Draka to begin. \nUse your extra action button to release the artifact, keep doing it as it comes off cooldown. \nKeep fighting until the scenario finishes.
+C Strike While the Iron is Hot|QID|36573;36574|QO|2|M|44.7,17.8|CHAT|N|Talk to Draka to begin. \nUse your extra action button to release the artifact, keep doing it as it comes off cooldown. \nKeep fighting until the scenario finishes.|
 f The Iron Approach|QID|36573;36574|M|43.02,20.22|N|At Nisha.|ACTIVE|36573;36574|
 F Beastwatch|QID|36573;36574|M|43.02,20.22|N|At Nisha. Fly back to Beastwatch to turn in. It's a little faster to hearth if you want.|ACTIVE|36573;36574|
 T Strike While the Iron is Hot|QID|36573;36574|M|46.09,70.19|N|To Durotan. Your reward is a book that allows the purchase of a level 2 small or medium garrison building plan in Ashran. There is a breadcrumb quest to lead you there in a few steps.|
@@ -676,7 +681,7 @@ N Gorgrond substantially done|QID|37290|N|This pretty much finishes Gorgrond. Ta
 H Town Hall|QID|37290|U|110560|M|46.09,70.19|ACTIVE|36494|N|Hearth to your Garrison.|
 
 A Upgrades in Ashran|QID|37290|M|42.18,55.57|Z|Frostwall|N|From Gazlowe.|
-A Thunderlord Invasion|QID|37291|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw. This is a solo scenario to defend your garrison. You can actually do it with two groupmates if you all go to the leaders garrison. It is optional when you do it, but is is believed that you need to do it before you upgrade your garrison to level 3. |
+A Thunderlord Invasion|QID|37291|PRE|32796|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw. This is a solo scenario to defend your garrison. You can actually do it with two groupmates if you all go to the leaders garrison. It is optional when you do it, but is is believed that you need to do it before you upgrade your garrison to level 3. |
 C Thunderlord Invasion|QID|37291|M|43.95,47.79|Z|Frostwall|CHAT|N|Talk to Sergeant Grimjaw to begin this solo scenario. Follow the scenario promts to complete.|
 T Thunderlord Invasion|QID|37291|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw.|
 A Looking For Help|QID|34758|M|37.91,72.31|Z|Frostwall|N|The fishing shack is now available in the lake behind your fort. Mak'jin starts the chain (and will give you fishing dailies later).|LVL|94|P|Fishing;356;1|RANK|2|
@@ -702,7 +707,7 @@ T Upgrades in Ashran|QID|37290|M|42.53,36.44|Z|Warspear|N|To Torgg Flexington, t
 B Treasure Map|QID|36494|M|74.6,31.8|Z|Warspear|L|118729|U|118729|N|You can buy treasure maps for all the zones you have completed (100g each). This will show the location of all unfound treasure on your full size and mini map. Check this off manually if you previously learned the map or choose not to buy it.|
 H Town Hall|QID|36494|U|110560|M|74.6,31.8|Z|Warspear|ACTIVE|36494|N|Hearth to your Garrison. Use the blueprint and upgrade you building if you so desire.|
 T News from Talador|QID|36494|M|6.14,72.96|N|To Rokhan.|Z|Frostwall|
-A It's a Matter of Strategy|QID|34681|NC|M|6.14,72.96|N|From Rokhan.|Z|Frostwall|
+A It's a Matter of Strategy|QID|34681|PRE|36573;36574|NC|M|6.14,72.96|N|From Rokhan.|Z|Frostwall|
 A Vouchsafe Our Arrival|QID|34209|M|49.49,36.39|N|From Cordana Felsong.|Z|Frostwall|RANK|3|
 
 R Frostwind Crag|QID|34209|M|31.4,16.2|Z|Frostfire Ridge|N|Bladespire Fortress is the closest flight path, (unless you went exploring on your own, then Throm'var is) then you have to run the rest of the way.|RANK|3|ACTIVE|34209|

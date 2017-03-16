@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2017-03-16 17:10
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3598/revisions/27483/view
 -- Date: 2016-07-30 16:18
 -- Who: Ludovicus
 -- Log: ¦Court of Souls¦ is now |Tomb of Souls@Talador|
@@ -177,11 +182,11 @@ T Next Steps|QID|34874|M|71.34,29.60|N|To Magister Krelas.|
 A The Foot of the Fortress|QID|34878|PRE|34874|M|71.34,29.60|N|From Magister Krelas.|
 
 ;for both
-A One Step Ahead|QID|34683|M|71.24,29.95|N|From Shadow Hunter Kajassa.|RANK|2|
-A Logistical Nightmare|QID|34766|M|71.19,29.42|N|From Provisioner Naya.|RANK|2|
-A Wanted: Kil'uun|QID|34108|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
-A Wanted: Hilaani|QID|34107|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
-A Wanted: Ra'tok the Hammer|QID|34106|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
+A One Step Ahead|QID|34683|PRE|34576;34577;34579|M|71.24,29.95|N|From Shadow Hunter Kajassa.|RANK|2|
+A Logistical Nightmare|QID|34766|PRE|34576;34577;34579|M|71.19,29.42|N|From Provisioner Naya.|RANK|2|
+A Wanted: Kil'uun|QID|34108|PRE|34576;34577;34579|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
+A Wanted: Hilaani|QID|34107|PRE|34576;34577;34579|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
+A Wanted: Ra'tok the Hammer|QID|34106|PRE|34576;34577;34579|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
 K Kil'uun|QID|34108|M|67.18,28.74|QO|1|S|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
 C Logistical Nightmare|QID|34766|M|68.06,31.38|RANK|2|
 K Kil'uun|QID|34108|M|67.18,28.74|QO|1|US|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
@@ -195,11 +200,11 @@ l Jug of Aged Ironwine|QID|34233|M|65.5,11.3|L|117568|ITEM|116768|N|This is in a
 A Gazlowe's Solution|QID|33721|M|62.06,10.40|N|From Gazlowe.|RANK|2|
 A In Short Supply|QID|33735|M|62.01,10.99|N|From Draka.|RANK|2|
 T One Step Ahead|QID|34683|M|61.52,10.95|N|To Durotan.|RANK|2|
-A Through the Looking Glass|QID|33754|M|61.52,10.95|N|From Durotan.|RANK|2|
+A Through the Looking Glass|QID|33754|PRE|34683|M|61.52,10.95|N|From Durotan.|RANK|2|
 C Through the Looking Glass|QID|33754|NC|M|61.56,11.05|N|Click on Durotan's contraption.|RANK|2|
 T Through the Looking Glass|QID|33754|M|61.50,10.96|N|To Durotan.|RANK|2|
-A Old Friends, New Enemies|QID|35226|M|61.50,10.96|N|From Durotan.|RANK|2|
-A Too Many Irons in the Fire|QID|33722|M|61.50,10.96|N|From Durotan.|RANK|2|
+A Old Friends, New Enemies|QID|35226|PRE|33754|M|61.50,10.96|N|From Durotan.|RANK|2|
+A Too Many Irons in the Fire|QID|33722|PRE|33754|M|61.50,10.96|N|From Durotan.|RANK|2|
 f Frostwolf Overlook|QID|33735|M|61.42,10.52|N|At Mok'ra.|RANK|2|;currently you auto learn this, but putting the step in... in case that changes.
 
 C Too Many Irons in the Fire|QID|33722|S|M|58.45,10.74|N|Kill the Iron Horde as you go along.|RANK|2|
@@ -210,18 +215,18 @@ C Thunderlord Cache|QID|33721|U|107899|QO|1|M|56.52,9.97|NC|N|Set down Gazlowe's
 C Munitions Landing|QID|33721|U|107899|QO|2|M|56.22,12.25|NC|N|Set down Gazlowe's solution and let it do its thing.|RANK|2|
 C In Short Supply|QID|33735|US|M|55.52,15.52|NC|RANK|2|
 C Blackrock Forge|QID|33721|U|107899|QO|3|M|57.68,15.46|NC|N|Set down Gazlowe's solution and let it do its thing.|RANK|2|
-A Decommissioned Mission|QID|33720|M|59.95,16.48|N|From Iron Shredder Decommision Codes, lying on a rock by the road.|RANK|2|
+A Decommissioned Mission|QID|33720|PRE|33754|M|59.95,16.48|N|From Iron Shredder Decommision Codes, lying on a rock by the road.|RANK|2|
 C Too Many Irons in the Fire|QID|33722|M|62.73,13.94|US|N|Finish this up before you go in the cave (there can be two guards in the cave, but they are usually dead).|RANK|2|
 C Decommissioned Mission|QID|33720|T|Engineer Draxen|QO|1|M|61.59,14.46;63.22,14.47|CS|N|Go into Draxxen's Workshop and kill him so you can take his shredder.|RANK|2|
 C Decommissioned Mission|QID|33720|QO|2|NC|M|60.07,20.15;59.22,20.35|CS|N|Hop in the shredder and return to Draka's Den.|RANK|2|
 T In Short Supply|QID|33735|M|58.92,20.15|N|To Draka.|RANK|2|
-A Iron Them Out|QID|33736|M|58.92,20.15|N|From Draka.|RANK|2|
+A Iron Them Out|QID|33736|PRE|33735;33720;33721|M|58.92,20.15|N|From Draka.|RANK|2|
 T Too Many Irons in the Fire|QID|33722|M|58.92,20.19|N|To Durotan.|RANK|2|
 T Old Friends, New Enemies|QID|35226|M|58.92,20.18|N|To Durotan.|RANK|2|
-A Dreadpiston|QID|34950|M|58.92,20.18|N|From Durotan.|RANK|2|
+A Dreadpiston|QID|34950|PRE|33722;35226|M|58.92,20.18|N|From Durotan.|RANK|2|
 T Decommissioned Mission|QID|33720|M|58.95,20.71|N|To Gazlowe.|RANK|2|
 T Gazlowe's Solution|QID|33721|M|58.95,20.71|N|To Gazlowe.|RANK|2|
-A Vol. X Pages ?|QID|33724|M|58.95,20.71|N|From Gazlowe.|RANK|2|
+A Vol. X Pages ?|QID|33724|PRE|33720;33721|M|58.95,20.71|N|From Gazlowe.|RANK|2|
 
 C Vol. X Pages ?|QID|33724|M|56.74,24.51|S|N|Drops from the Iron Horde mobs.|RANK|2|
 C Wanted: Ra'tok the Hammer|QID|34106|T|Ra'tok the Hammer|M|54.36,22.29|RANK|2|
@@ -242,26 +247,26 @@ f Durotan's Grasp|QID|34950|M|55.43,40.83|N|At Tega Skyblade.|RANK|2|
 T Dreadpiston|QID|34950|M|55.60,40.94|N|To Durotan.|RANK|2|
 T Iron Them Out|QID|33736|M|58.56,40.98|N|To Draka.|RANK|2|
 T Vol. X Pages ?|QID|33724|M|55.68,41.16|N|To Gazlowe.|RANK|2|
-A An Eye for a Spy|QID|33728|M|55.68,41.16|N|From Gazlowe.|RANK|2|
+A An Eye for a Spy|QID|33728|PRE|33724;34950|M|55.68,41.16|N|From Gazlowe.|RANK|2|
 C An Eye for a Spy|QID|33728|NC|M|55.76,41.07|N|Use Gazlowe's contraption again.|RANK|2|
 T An Eye for a Spy|QID|33728|M|55.68,41.16|N|To Gazlowe.|RANK|2|
-A Born to Shred|QID|33729|M|55.68,41.16|N|From Gazlowe.|RANK|2|
+A Born to Shred|QID|33729|PRE|33728|M|55.68,41.16|N|From Gazlowe.|RANK|2|
 
 C Born to Shred|QID|33729|M|55.4,41.13|NC|QO|1|N|Get in the shredder and run over to Tuurem.|RANK|2|
 C Born to Shred|QID|33729|M|56.06,37.75;58.54,38.09|CS|NC|QO|2|N|When you get there use the abilities (1) for single target and (2) a ranged damage that makes you jump on a group of them and smash them.|RANK|2|
 T Born to Shred|QID|33729|M|60.07,40.65|N|To your Iron Shredder Prototype.|RANK|2|
-A Engineering her Demise|QID|33730|M|60.07,40.65|N|From your Iron Shredder Prototype.|RANK|2|
+A Engineering her Demise|QID|33730|PRE|33729|M|60.07,40.65|N|From your Iron Shredder Prototype.|RANK|2|
 C Engineering her Demise|QID|33730|M|61.06,38.75|T|Ketya Shrediron|RANK|2|
 l Amethyl Crystal|QID|34236|M|62.05, 32.35|L|116131|ITEM|116131|N|Loot for a bit of treasure on your run back to Durotan's Grasp.|RANK|2|
 T Engineering her Demise|QID|33730|M|55.58,40.96|N|To Durotan.|RANK|2|
-A Khadgar's Plan|QID|34962|M|55.58,40.96|N|From Durotan.|RANK|2|
+A Khadgar's Plan|QID|34962|PRE|33730|M|55.58,40.96|N|From Durotan.|RANK|2|
 l Luminous Shell|QID|34235|M|52.56,29.54|L|116132|ITEM|116132|N|Turn, just before you get to Khadgar and run down the hill and across the stream for an Intellect Necklace.|RANK|2|
 T Khadgar's Plan|QID|34962|M|54.18,36.43|N|Follow Durotan down the road to where Khadgar is (and turn in to him).|RANK|2|
-A The Battle for Shattrath|QID|33731|M|54.18,36.43|N|From Archmage Khadgar.|RANK|2|
+A The Battle for Shattrath|QID|33731|PRE|34962|M|54.18,36.43|N|From Archmage Khadgar.|RANK|2|
 C The Battle for Shattrath|QID|33731|M|50.49,34.97|CHAT|N|Follow the scenario instructions, starting with a chat with Gazlowe.|RANK|2|
 T The Battle for Shattrath|QID|33731|M|71.44,29.60|N|Take Khadgar's portal back to Vol'jin's Pride where you can turn this quest in to Durotan.|RANK|2|
 T Logistical Nightmare|QID|34766|M|71.18,29.43|N|To Provisioner Naya.|RANK|2|
-A Send Them Running|QID|34803|M|71.18,29.43|N|From Provisioner Naya.|RANK|2|
+A Send Them Running|QID|34803|PRE|34766|M|71.18,29.43|N|From Provisioner Naya.|RANK|2|
 T Wanted: Kil'uun|QID|34108|M|70.81,29.64|N|To Beastmaster Tagh.|RANK|2|
 T Wanted: Ra'tok the Hammer|QID|34106|M|70.81,29.64|N|To Beastmaster Tagh.|RANK|2|
 C Send Them Running|QID|34803|M|70.51,27.64|T|Vicegnaw|RANK|2|N|Head over and kill Vicegnaw.|
@@ -279,7 +284,7 @@ C Pieces of Us|QID|33734|NC|QO|3|M|75.44,44.14|RANK|2|
 A Pyrophobia|QID|33578|M|77.71,43.93|N|From Raksi.|RANK|2|
 K Sun-Sage Kairyx|QID|33578|QO|1|M|78.54,45.34|T|Sun-Sage Kairyx|RANK|2|N|Enter the building and kill Sun-Sage Kairyx.|
 T Pyrophobia|QID|33578|M|77.75,43.96|N|To Raksi.|RANK|2|
-A What the Draenei Found|QID|33579|M|77.75,43.96|N|From Raksi.|RANK|2|
+A What the Draenei Found|QID|33579|PRE|33578|M|77.75,43.96|N|From Raksi.|RANK|2|
 C Pieces of Us|QID|33734|NC|QO|2|M|77.92,42.97|RANK|2|N|Pick up Melani's Doll.|
 C Pieces of Us|QID|33734|NC|QO|1|M|77.53,41.24|N|After you find this follow the mine cart tracks to the cave to see what the draenei found.|RANK|2|
 l Iron Scout|QID|33649|CHAT|M|75.06,36.08|L|$824|ITEM|$824|N|Before you go into the cave (because you will be teleported out), there is a scout lying on the ground over here that you can rifle the body for some garrison resources.|RANK|2|
@@ -288,7 +293,7 @@ C Barum's Notes|QID|33761|NC|US|M|78.13,36.50|RANK|2|N|Finish finding the crysta
 l Aruuna Mining Cart|QID|34260|L|109118|ITEM|109118|M|81.22,37.57;81.9,35|CS|N|Into the cave and thru the first small room.  Go to the right in the larger room and then drop down (or run down the fallen stone "ramp") to find the mining cart to loot for a bit of blackrock ore.|RANK|2|
 C What the Draenei Found|QID|33579|NC|M|82.69,37.87|N|Run back up the ramp and cross the stone bridge. (you can't walk on the mining cart tracks.)  Examine (click) the color changing crystal.|RANK|2|
 T What the Draenei Found|QID|33579|M|82.64,37.78|N|To Raksi.|RANK|2|
-A The Purge of Veil Shadar|QID|33580|M|70.50,56.85|N|From Shadow-Sage Iskar.|RANK|2|
+A The Purge of Veil Shadar|QID|33580|PRE|33579|M|70.50,56.85|N|From Shadow-Sage Iskar.|RANK|2|
 f Terokkar Refuge|QID|33580|M|70.34,57.10|N|At Skytalon Inuz.|RANK|2|
 A Forbidden Knowledge|QID|33581|M|70.52,57.35|N|From Darkscryer Raastok.|RANK|2|
 A Kura's Vengeance|QID|33582|M|70.77,56.79|N|From Kura the Blind.|RANK|2|
@@ -384,26 +389,26 @@ A Joining the Ranks|QID|34949|PRE|34712|M|71.16,29.89|N|From/To Magister Krelas 
 
 ;both
 A News from Spires of Arak|LVL|96|QID|35537|M|71.25,29.94|N|From Shadow Hunter Kajassa. This will pop up on the guide when you hit 96, check it off manually if you aren't in Vol'jin's Pride.|
-A The Lady of Light|QID|34696|M|71.83,29.75|N|From Knight-Lord Dranarus.|RANK|2|
+A The Lady of Light|QID|34696|PRE|34712;34971|M|71.83,29.75|N|From Knight-Lord Dranarus.|RANK|2|
 T Wanted: Hilaani|QID|34107|M|70.82,29.63|N|To Beastmaster Tagh.|RANK|2|
 
 K Wandering Vindicator|QID|34205|M|69.8,31.8|L|112261|ITEM|112261|N|Kill for a bit of treasrue.|RANK|2|T|Wandering Vindicator|
 K Steeltusk|QID|36858|M|68,35|L|117562|T|Steeltusk|ITEM|117562|N|Kill and loot for a bit of treasure.|RANK|2|
 K Hammertooth|QID|34185|M|64.6,45.4|L|116124|T|Hammertooth|ITEM|116124|N|Hammertooth is a larger riverbeast that swims around in this area. Kill and loot for a bit of treasure.|RANK|2|
-R Duskfall Island|QID|33872|M|65.41,50.20||RANK|2|
+R Duskfall Island|QID|33872|M|65.41,50.20|RANK|2|
 T Dust of the Dead|QID|33872|M|65.41,50.20|N|To Seer Malune.|RANK|2|
 T Cure of Aruunem|QID|33873|M|65.41,50.20|N|To Seer Malune.|RANK|2|
-A Aruumel's Rest|QID|33874|M|65.41,50.20|N|From Seer Malune.|RANK|2|
+A Aruumel's Rest|QID|33874|PRE|33872;33873|M|65.41,50.20|N|From Seer Malune.|RANK|2|
 C Aruumel's Rest|QID|33874|M|69.03,55.28|T|Aruumel|U|108749|N|Unless you want to fight your way there, wait to use the elixer until you arrive at the green dot.  Use it and then kill Aruumel.|RANK|2|
 T Aruumel's Rest|QID|33874|M|65.43,50.74|N|To Seer Malune.|RANK|2|
 T Clear!|QID|34751|M|64.20,47.72|N|To Ziz Fizziks.|RANK|2|
-A New Owner|QID|35238|M|64.24,47.80|N|From Pleasure Bot 8000. You may need to wait a min or so for this quest to show up.|RANK|2|
+A New Owner|QID|35238|PRE|34751|M|64.24,47.80|N|From Pleasure Bot 8000. You may need to wait a min or so for this quest to show up.|RANK|2|
 l Barrel of Fish|QID|34252|M|62.4,48|L|110506|ITEM|110506|N|Loot for a bit of treasure.|RANK|2|
 
 A A Pilgrimage Gone Awry|QID|34801|M|61.35,54.39|N|From Nadur.|RANK|3|
 C A Pilgrimage Gone Awry|QID|34801|QO|3|M|64.21,58.96|N|The frogs are along the water's edge.|RANK|3|
 C A Pilgrimage Gone Awry|QID|34801|M|59.55,54.78|S|N|The flowers are a ground spawn here and many of the tigers are stealthed in this area.|RANK|3|
-K Ra'kahn|QID|34196|M|60.1,57.5;59.4,59.6|CS||L|116112|T|Ra'kahn|ITEM|116112|N|This named tiger lives in a small cave around the other side of the hill. Kill and loot for a bit of treasure.|RANK|3|
+K Ra'kahn|QID|34196|M|60.1,57.5;59.4,59.6|CS|L|116112|T|Ra'kahn|ITEM|116112|N|This named tiger lives in a small cave around the other side of the hill. Kill and loot for a bit of treasure.|RANK|3|
 C A Pilgrimage Gone Awry|QID|34801|M|59.55,54.78|US|N|The flowers are a ground spawn here and many of the tigers are stealthed in this area.|RANK|3|
 T A Pilgrimage Gone Awry|QID|34801|M|61.35,54.40|N|To Nadur.|RANK|3|
 
@@ -411,18 +416,18 @@ A Gatekeepers of Auchindoun|QID|34776|M|58.10,53.05|N|From Aeda Brightdawn.|RANK
 C Gatekeepers of Auchindoun|QID|34776|QO|1|M|57.38,52.75|CHAT|N|Challenge Vidicator Dalu to a fight. You can challenge them simultaneously if you want.|T|Vindicator Dalu|RANK|3|
 C Gatekeepers of Auchindoun|QID|34776|QO|2|M|57.37,52.60|CHAT|N|Challenge Soulbinder Halaari|T|Soulbinder Halaari|RANK|3|
 T Gatekeepers of Auchindoun|QID|34776|M|58.10,53.06|N|To Aeda Brightdawn.|RANK|3|
-A The True Path|QID|36518|M|58.1,53.06|N|Accept Aeda as your follower.|RANK|3|
+A The True Path|QID|36518|PRE|34776|M|58.1,53.06|N|Accept Aeda as your follower.|RANK|3|
 
 R Auchindoun|QID|34696|M|51.67,62.82;54.76,66.46|CS|N|Up the stairs you just fought at, and follow the road untill you get to the road that encirles Auchindoun.|PRE|36158|RANK|3|
 R Auchindoun|QID|34696|M|51.67,62.82;54.76,66.46|CS|N|Run till you get to the road encircling Auchindoun, then take a left on that road.|LEAD|35158|RANK|2|
 f Exarch's Refuge|QID|34696|M|54.51,67.84|N|At Roka. There are actually two flight paths and I suspect the other is supposed to be for alliance, but you can pick it up.|RANK|2|
 A Every Bit Counts|QID|34710|M|55.37,66.75|N|From Ranger Belonis.|RANK|2|
-A Powering the Defenses|QID|35249|M|55.56,66.98|N|From Mehlar Dawnblade.|RANK|2|
+A Powering the Defenses|QID|35249|PRE|34971;34712|M|55.56,66.98|N|From Mehlar Dawnblade.|RANK|2|
 T The Lady of Light|QID|34696|M|55.49,67.68|N|To Lady Liadrin.|RANK|2|
-A Holding the Line|QID|34418|M|55.49,67.68|N|From Lady Liadrin.|RANK|2|
+A Holding the Line|QID|34418|PRE|34971;34981;34711;34712|M|55.49,67.68|N|From Lady Liadrin.|RANK|2|
 l Draenei Weapons|QID|34253|M|55.2,66.8|L|116118|ITEM|116118|N|Treasure, lying here for the taking.|RANK|2|
-A The Heart of Auchindoun|QID|33920|M|56.51,67.14|N|From Soulbinder Nyami.|RANK|2|
-A Disrupting the Flow|QID|33917|M|56.66,66.25|N|From Vindicator Nobundo.|RANK|2|
+A The Heart of Auchindoun|QID|33920|PRE|34971;34981;34711;34712|M|56.51,67.14|N|From Soulbinder Nyami.|RANK|2|
+A Disrupting the Flow|QID|33917|PRE|34971;34981;34711;34712|M|56.66,66.25|N|From Vindicator Nobundo.|RANK|2|
 C Holding the Line|QID|34418|S|M|57.27,65.57|RANK|2|N|Kill Demons as you go.|
 C The Heart of Auchindoun|QID|33920|M|56.68,62.50|T|O'mogg Blackheart|RANK|2|N|Kill O'mogg Blackheart then click on the Karab'uun.|
 K Skkthis, Maiden of Pain|QID|35219;35220;34483|M|56.8,63|N|One of 3 mobs that shares this spawn point, (others being Kharazos the Triumphant and Galzomar). Spawns right behind O'mogg and walkes around the area. There are actually 3 differant mobs, that all have the same loot. Only one will be up at a time.|ITEM|116122|RANK|2|
@@ -432,7 +437,7 @@ T Disrupting the Flow|QID|33917|M|56.66,66.25|N|To Vindicator Nobundo.|RANK|2|
 
 T Powering the Defenses|QID|35249|M|62.16,63.61|N|To Soulbinder Tuulani inside the Tomb of Lights.|RANK|2|
 C We Must Construct Additional Pylons|QID|34351|NC|S|M|60.61,64.87|QO|1|N|Pick up the large pinkish crystals lying around as you go.|RANK|2|
-A Nightmare in the Tomb|QID|33530|M|60.71,65.42|N|From Yuuri.|RANK|2|
+A Nightmare in the Tomb|QID|33530|PRE|34458;35249|M|60.71,65.42|N|From Yuuri.|RANK|2|
 C Nightmare in the Tomb|QID|33530|M|61.19,66.43|T|Tagar Spinebreaker|RANK|2|N|Head down to investigate the ritual, then kill Tagar Spinebreaker.|
 C We Must Construct Additional Pylons|QID|34351|NC|QO|2|M|58.93,66.27|RANK|2|N|Pick up the Arkonite Pylon.|
 C We Must Construct Additional Pylons|QID|34351|NC|US|M|60.61,64.87|QO|1|N|Pick up the large pinkish crystals lying around as you go.|RANK|2|
@@ -440,13 +445,13 @@ T The Heart of Auchindoun|QID|33920|M|56.51,67.12|N|To Soulbinder Nyami.|RANK|2|
 T We Must Construct Additional Pylons|QID|34351|M|55.11,67.40|N|To Soulbinder Tuulani.|RANK|2|
 T Holding the Line|QID|34418|M|55.47,67.68|N|To Lady Liadrin.|RANK|2|
 T Nightmare in the Tomb|QID|33530|M|55.47,67.68|N|To Lady Liadrin.|RANK|2|
-A Sunsworn Camp|QID|34451|M|55.50,67.68|N|From Lady Liadrin.|RANK|2|
+A Sunsworn Camp|QID|34451|PRE|33917;33920;34418|M|55.50,67.68|N|From Lady Liadrin.|RANK|2|
 
 R Sunsworn Camp|QID|34451|M|61.00,72.54|RANK|2|N|Run to the Sunsworn Camp.|
 T Sunsworn Camp|QID|34451|M|61.00,72.54|N|To Lady Liadrin.|RANK|2|
-A Antivenin|QID|33971|M|60.90,72.53|N|From Soulbinder Tuulani.|RANK|2|
-A Into the Hollow|QID|33970|M|60.92,72.46|N|From Soulbinder Nyami.|RANK|2|
-A Vile Defilers|QID|33972|M|60.51,72.40|N|From Mehlar Dawnblade.|RANK|2|
+A Antivenin|QID|33971|PRE|34451|M|60.90,72.53|N|From Soulbinder Tuulani.|RANK|2|
+A Into the Hollow|QID|33970|PRE|34451|M|60.92,72.46|N|From Soulbinder Nyami.|RANK|2|
+A Vile Defilers|QID|33972|PRE|34451|M|60.51,72.40|N|From Mehlar Dawnblade.|RANK|2|
 R Deathweb Hollow|QID|33972|M|59.29,77.60|N|If you jump twice, you can make it across the broken bridge without falling in the water. (edge of bridge/jump/land on wagon top/jump/land on other side of bridge)|RANK|2|
 C Vile Defilers|QID|33972|NC|M|59.13,80.85|S|N|If you open the webbed victims and find all four blood elf friends there is some treasure waiting for you back at sunsworn camp (agility necklace).|RANK|2|ITEM|117563|
 C Antivenin|QID|33971|S|M|58.05,83.34|N|These drop from the spiders in Deathweb Hollow (and not in the cave).|RANK|2|
@@ -463,17 +468,17 @@ l Norana's Cache|QID|34128|M|61,71.8|L|117563|ITEM|117563|N|If you found all the
 T Vile Defilers|QID|33972|M|60.52,72.40|N|To Mehlar Dawnblade.|RANK|2|
 T Antivenin|QID|33971|M|60.91,72.54|N|To Soulbinder Tuulani.|RANK|2|
 T Into the Hollow|QID|33970|M|60.92,72.45|N|To Soulbinder Nyami.|RANK|2|
-A Scheduled Pickup|QID|34242|M|61.01,72.54|N|From Lady Liadrin.|RANK|2|
+A Scheduled Pickup|QID|34242|PRE|33970;33971;33972|M|61.01,72.54|N|From Lady Liadrin.|RANK|2|
 
 R Telmor|QID|34242|M|50.42,87.50|RANK|2|N|Head over to Telmor.|
 K Felbark|QID|35018|M|50.8,83.8|L|112373|T|Felbark|ITEM|112373|N|Right behind you, Kill and loot for a bit of treasure.|RANK|2|
 K Talonpriest Zorkra|QID|34668|M|53.8,91|L|116110|T|Talonpriest Zorkra|ITEM|116110|N|Kill and loot for a bit of treasure.|RANK|3|
 T Scheduled Pickup|QID|34242|M|50.42,87.50|N|To Soulbinder Tuulani.|RANK|2|
-A Restalaan, Captain of the Guard|QID|34508|M|50.42,87.50|N|From Soulbinder Tuulani.|RANK|2|
-A Never Forget|QID|34013|M|50.52,87.55|N|From Defender Artaal.|RANK|2|
-A Payback|QID|34234|M|50.37,87.31|N|From Vindicator Kaluud.|RANK|2|
+A Restalaan, Captain of the Guard|QID|34508|PRE|34240;34242|M|50.42,87.50|N|From Soulbinder Tuulani.|RANK|2|
+A Never Forget|QID|34013|PRE|34240;34242|M|50.52,87.55|N|From Defender Artaal.|RANK|2|
+A Payback|QID|34234|PRE|34240;34242|M|50.37,87.31|N|From Vindicator Kaluud.|RANK|2|
 C Payback|QID|34234|M|48.17,89.79|S|RANK|2|N|Kill Telmor invaders as you go.|
-A Invasion of the Soul Eaters|QID|33988|M|49.19,88.05|N|From Hastily Written Note lying on the curb.|RANK|2|
+A Invasion of the Soul Eaters|QID|33988|PRE|34240;34242|M|49.19,88.05|N|From Hastily Written Note lying on the curb.|RANK|2|
 C Invasion of the Soul Eaters|QID|33988|QO|1|M|49.30,87.86|NC|N|Pick up a torch from the forge.|RANK|2|
 C Never Forget|QID|34013|NC|QO|1|M|49.25,87.85|N|Pick up the book lying open on the bundles.|RANK|2|
 C Invasion of the Soul Eaters|QID|33988|QO|2|M|48.46,88.66|S|U|108886|RANK|2|N|Purn body piles as you come across them.|
@@ -483,10 +488,10 @@ C Never Forget|QID|34013|NC|QO|3|M|47.52,88.93|RANK|2|N|Pick up the Leafshadow.|
 K Lo'marg Jawcrusher|QID|34208|M|49.2,92.3|L|116070|T|Lo'marg Jawcrusher|ITEM|116070|N|Take the elevator up and rescue the students and earn a bit of treasure in the process.|RANK|2|
 C Invasion of the Soul Eaters|QID|33988|QO|2|M|48.46,88.66|US|U|108886|RANK|2|N|Finish burning body piles.|
 T Restalaan, Captain of the Guard|QID|34508|M|44.86,90.48|N|To Restalaan.|RANK|2|
-A The Final Piece|QID|33976|M|44.86,90.48|N|From Restalaan.|RANK|2|
+A The Final Piece|QID|33976|PRE|34508|M|44.86,90.48|N|From Restalaan.|RANK|2|
 C The Final Piece|QID|33976|M|44.68,90.86|T|Vorpil Ribcleaver|RANK|2|N|Kill Vorpil then loot the Auch'naaru.|
 T The Final Piece|QID|33976|M|44.85,90.50|N|To Restalaan.|RANK|2|
-A Changing the Tide|QID|34326|M|44.85,90.50|N|From Restalaan.|RANK|2|
+A Changing the Tide|QID|34326|PRE|33976|M|44.85,90.50|N|From Restalaan.|RANK|2|
 T Invasion of the Soul Eaters|QID|33988|M|48.60,88.50|N|Auto Turn in to UI.|RANK|2|
 C Payback|QID|34234|M|48.17,89.79|US|RANK|2|N|Finish killing invaders.|
 T Payback|QID|34234|M|50.40,87.33|N|To Vindicator Kaluud.|RANK|2|
@@ -500,8 +505,8 @@ l Yuuri's Gift|QID|34140|ITEM|$824|M|40.7,89.5|PRE|33530|N|Yuuri is so greatful 
 R Retribution Point|QID|34326|M|43.44,75.92|RANK|2|N|Run to Retribution Point.|
 f Retribution Point|QID|34122|M|42.12,76.78|N|At Beldos.|RANK|2|
 T Changing the Tide|QID|34326|M|43.44,75.92|N|To Restalaan.|RANK|2|
-A Desperate Measures|QID|34092|M|43.43,75.94|N|From Restalaan.|RANK|2|
-A Ogre Diplomacy|QID|34122|M|42.97,76.23|N|From Lady Liadrin.|RANK|2|
+A Desperate Measures|QID|34092|PRE|34326|M|43.43,75.94|N|From Restalaan.|RANK|2|
+A Ogre Diplomacy|QID|34122|PRE|34326|M|42.97,76.23|N|From Lady Liadrin.|RANK|2|
 R Ango'rosh Ruins|QID|34122|M|41.26,79.83|RANK|2|N|Head to Ango'rosh Ruins.|
 C Ogre Diplomacy|QID|34122|M|39.61,83.68|S|RANK|2|N|Kill Ango'rosh as you go.|
 l Treasure of Ango'rosh|QID|34257|M|38.33,84.51|ITEM|116119|RANK|2|
@@ -511,8 +516,8 @@ C Desperate Measures|QID|34092|NC|QO|3|M|41.18,82.45|N|This is channeled, so sta
 C Ogre Diplomacy|QID|34122|M|39.61,83.68|US|RANK|2|N|Finish killing Ango'rosh.|
 T Desperate Measures|QID|34092|M|43.43,75.94|N|To Restalaan.|RANK|2|
 T Ogre Diplomacy|QID|34122|M|42.96,76.22|N|To Lady Liadrin.|RANK|2|
-A Retribution for the Light|QID|34144|M|42.95,76.27|N|From Lady Liadrin.|RANK|2|
-A Into the Heart of Madness|QID|34157|M|42.93,76.09|N|From Exarch Maladaar.|RANK|2|
+A Retribution for the Light|QID|34144|PRE|34092|M|42.95,76.27|N|From Lady Liadrin.|RANK|2|
+A Into the Heart of Madness|QID|34157|PRE|34092|M|42.93,76.09|N|From Exarch Maladaar.|RANK|2|
 
 l Teroclaw Nest|QID|35162|M|39,77|N|These nests are all over the zone, if you haven't yet come across one, here is one right in line with our route.|ITEM|112699|L|112699|RANK|2|
 R Gul'rok|QID|34164|M|34.48,78.57|N|No road takes you here, just ride across the countryside.|RANK|2|
@@ -520,7 +525,7 @@ C Retribution for the Light|QID|34144|M|35,79|S|N|Kill these as you accomplish t
 A Hiding in the Shadows|QID|34163|N|From Shadow Council Communicator. (The communicators are at several locations in Gul'rok.  Head for the nearest yellow '!')|RANK|2|
 C Hiding in the Shadows|QID|34163|M|37.78,77.34|QO|1|NC|N|The orb is at the top of the watchtower.|RANK|2|
 K Viperlash|QID|34148|M|37.6,74.9|L|112371|T|Viperlash|ITEM|112371|N|Viperlash is in a shallow cavern. Kill him and remove the spear from his side to retrieve someone's lost gloves.|RANK|2|
-A Book Burning|QID|34164|M|34.01,73.96|N|From Kor'thos Dawnfury.|RANK|2|
+A Book Burning|QID|34164|PRE|34092;35227|M|34.01,73.96|N|From Kor'thos Dawnfury.|RANK|2|
 C Loot 3 books|QID|34164|M|34,74|S|L|109259 3|N|From the caster type demons.|RANK|2|
 C Hiding in the Shadows|QID|34163|M|34.46,70.37|QO|3|NC|N|The orb is at the top of the watchtower.|RANK|2|
 C Hiding in the Shadows|QID|34163|M|35.62,79.83|QO|2|NC|N|The orb is at the top of the watchtower.|RANK|2|
@@ -531,12 +536,12 @@ T Burn the books|QID|34164|M|34.00,73.98|N|To Kor'thos Dawnfury.|RANK|2|
 l Bonechewer Remnants|QID|34259|M|33.3,76.8|L|$824|N|Chest in the back of the hut.|RANK|2|
 R Seat of Depravity|QID|34144|M|32.17,75.85;31.94,74.62|CS|N|Up the hill and into the cave.|RANK|2|
 C Retribution for the Light|QID|34144|M|32.17,75.79|US|N|Finish up the demons before you go into the cave.|RANK|2|
-A Destination Unknown|QID|34564|M|31.21,73.61|N|From Soulbinder Tuulani.|RANK|2|
+A Destination Unknown|QID|34564|PRE|34157|M|31.21,73.61|N|From Soulbinder Tuulani.|RANK|2|
 C Destination Unknown|QID|34564|M|30.89,73.12|T|Mongrethod|N|Click on the portal behind Tuulani and then fight Mongrethod. Return via the portal.|RANK|2|
 T Retribution for the Light|QID|34144|M|45.70,74.47|N|To Lady Liadrin.|RANK|2|
 T Destination: Unknown|QID|34564|M|46.32,74.09|N|To Soulbinder Tuulani.|RANK|2|
 A Together We are Strong|QID|36512|M|46.32,74.47|N|From Soulbinder Tuulani.|RANK|2|
-A Come Together|QID|34706|M|45.71,74.45|N|From Lady Liadrin.|RANK|2|
+A Come Together|QID|34706|PRE|34564|M|45.71,74.45|N|From Lady Liadrin.|RANK|2|
 
 R Northwest towards Nagrand|QID|34710|M|42.79,74.79;42.28,67.81|CC|RANK|3|N|Follow the road towards Nagrand.|
 K Cro Fleshrender|QID|34165|M|37.6,70.4|L|116123|T|Cro Fleshrender|ITEM|116123|N|Kill and loot for a bit of treasure.|RANK|3|
@@ -563,13 +568,13 @@ K Frenzied Golem|QID|34145|L|113287|M|46.6,55.6|T|Frenzied Golem|ITEM|113287|N|K
 
 R Jorune Mine|QID|34399|M|49.42,57.64|CS|N|Follow the road to Jorune Mine.|RANK|3|
 R Jorune Mine|QID|34399|M|42.79,74.44;43.40,67.02;49.42,57.64|CS|N|Follow the road (and the waypoints) to Jorune Mine.|LEAD|33884|RANK|2|
-A Trouble In The Mine|QID|34399|M|49.90,56.13|N|From Ageilaa.|RANK|2|
-A Frenzied Manafeeders|QID|34400|M|49.90,56.13|N|From Ageilaa.|RANK|2|
+A Trouble In The Mine|QID|34399|PRE|34776;34777|M|49.90,56.13|N|From Ageilaa.|RANK|2|
+A Frenzied Manafeeders|QID|34400|PRE|34776;34777|M|49.90,56.13|N|From Ageilaa.|RANK|2|
 T Every Bit Counts|QID|34710|M|49.90,56.13|N|To Ageilaa.|RANK|2|
 C Frenzied Manafeeders|QID|34400|U|110468|S|M|50.20,52.06|N|Fight the moths down to 35% (you will see an emote) then use the Dissapation Crystal(it has a very short range, so stand close).|RANK|2|
 T Trouble In The Mine|QID|34399|M|51.63,50.47|N|To Vindicator Doruu.|RANK|2|
-A Arcane Essence|QID|34401|M|51.65,50.51|N|From Manduil Skycaller.|RANK|2|
-A Crystals of Unusual Power|QID|34404|M|51.65,50.51|N|From Manduil Skycaller.|RANK|2|
+A Arcane Essence|QID|34401|PRE|34399|M|51.65,50.51|N|From Manduil Skycaller.|RANK|2|
+A Crystals of Unusual Power|QID|34404|PRE|34399|M|51.65,50.51|N|From Manduil Skycaller.|RANK|2|
 C Crystals of Unusual Power|QID|34404|M|52.34,47.89|S|NC|N|These can be found lying in piles on the ground as well as in carts and buckets.|RANK|2|
 C Arcane Essence|QID|34401|M|53.31,50.31|RANK|2|N|Kill and loot the various enemies to get the Arcane Essences.|
 C Crystals of Unusual Power|QID|34404|M|52.34,47.89|US|NC|N|These can be found lying in piles on the ground as well as in carts and buckets.|RANK|2|
@@ -577,7 +582,7 @@ T Arcane Essence|QID|34401|M|51.65,50.51|N|To Manduil Skycaller.|RANK|2|
 T Crystals of Unusual Power|QID|34404|M|51.65,50.51|N|To Manduil Skycaller.|RANK|2|
 C An'dure The Giant|QID|34414|M|54.31,49.90|T|An'dure the Awakened|RANK|2|N|Kill and loot An'dure.|
 T An'dure The Giant|QID|34414|M|51.65,50.50|N|To Manduil Skycaller.|RANK|2|
-A Kaelynara Sunchaser|QID|34447|M|51.65,50.50|N|From Manduil Skycaller.|RANK|2|
+A Kaelynara Sunchaser|QID|34447|PRE|34414|M|51.65,50.50|N|From Manduil Skycaller.|RANK|2|
 C Kaelynara Sunchaser|QID|34447|M|51.65,50.50|N|Chat with Maduill to begin.|CHAT|QO|1|RANK|2|
 C Kaelynara Sunchaser|QID|34447|T|Kaelynara Sunchaser|QO|2|M|52.15,47.64|N|After the fight, Maduil can port you back into the mine.|RANK|2|
 T Kaelynara Sunchaser|QID|34447|M|51.62,50.45|N|To Vindicator Doruu.|RANK|2|
@@ -589,7 +594,7 @@ T Come Together|QID|34706|M|71.84,29.75|N|To Knight-Lord Dranarus.|RANK|2|
 A News from Spires of Arak|LVL|96|QID|35537|M|71.25,29.94|N|From Shadow Hunter Kajassa.|
 H Town Hall|QID|35537|M|71.84,29.75|N|Back to your garrison, where the Spires of Arak guide will start.|U|110560|
 T News from Spires of Arak|QID|35537|M|45.93,42.86|Z|Frostwall|N|To Rokhan.|
-A Arakkoa Exodus|QID|34653|M|45.93,42.86|Z|Frostwall|N|From Rokhan.|LEAD|36951|
+A Arakkoa Exodus|QID|34653|PRE|35554|M|45.93,42.86|Z|Frostwall|N|From Rokhan.|LEAD|36951|
 A Solidarity in Death|QID|36522|M|50.40,15.80|Z|Frostwall|PRE|33973|N|To/From Ahm to accept him as your follower.|
 A Clearing the Garden|QID|34193|M|43.61,83.10|Z|Frostwall|N|From Tarnon.|
 C Clearing the Garden|QID|34193|M|48.11,89.25|Z|Frostwall|N|Kill the Frostwal Nibblers needed.|

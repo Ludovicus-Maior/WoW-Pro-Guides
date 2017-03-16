@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2017-03-16 17:12
+-- Who: Ludovicus
+-- Log: Added 1 PRE
+
+-- URL: http://wow-pro.com/node/3483/revisions/27367/view
 -- Date: 2015-07-25 18:36
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -297,7 +302,7 @@ T Stronger Than Reeds|QID|29662|M|63.47,41.97|N|To Jojo Ironbrow|
 T The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|To Aysa Cloudsinger|
 T The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|To Aysa Cloudsinger|
 
-A Finding an Old Friend|QID|29676|M|65.59,42.59|N|From Aysa Cloudsinger|
+A Finding an Old Friend|QID|29676|PRE|29662|M|65.59,42.59|N|From Aysa Cloudsinger|
 T Finding an Old Friend|QID|29676|M|70.61,38.75|N|To Old Man Liang in Liang's Retreat|
 
 A The Sun Pearl|QID|29677|M|70.61,38.75|N|From Old Man Liang|
