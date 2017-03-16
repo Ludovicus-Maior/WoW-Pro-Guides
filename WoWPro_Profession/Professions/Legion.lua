@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_profession_quests
+-- Date: 2017-03-17 00:37
+-- Who: Ludovicus
+-- Log: Syntax tweaks
+
+-- URL: http://wow-pro.com/node/3712/revisions/28268/view
 -- Date: 2017-03-04 19:13
 -- Who: Blanckaert
 -- Log: added more quests....  just cheated and cut and pasted whole guide
@@ -216,7 +221,7 @@ A Too Many Cooks|QID|40988|LVL|98|P|Cooking;185|N|From Nomi, when he shows up (u
 t Too Many Cooks|QID|40988|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|To Nomi.|
 t Too Many Cooks|QID|40988|M|69.90,38.50|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|To Nomi.|
 
-A The Prodigal Sous Chef|QID|40989|LVL|98|P|Cooking;185|AVAILABLE|31337|N|From Nomi, when he shows up (usually after you get your first Legion Cooking recipe.| ; Not using PRE 37727 from Grail, I think it's wrong.
+A The Prodigal Sous Chef|QID|40989|PRE|37727|LVL|98|P|Cooking;185|AVAILABLE|31337|N|From Nomi, when he shows up (usually after you get your first Legion Cooking recipe.| ; Not using PRE 37727 from Grail, I think it's wrong.
 t The Prodigal Sous Chef|QID|40989|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|To Nomi.|
 t The Prodigal Sous Chef|QID|40989|M|69.90,38.50|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|To Nomi.|
 
@@ -695,7 +700,7 @@ C Where's Lyndras: Sewer Sleuthing|QID|39602|M|67.11,68.06|Z|The Underbelly@Dala
 T Where's Lyndras: Sewer Sleuthing|QID|39602|M|67.11,68.06|Z|The Underbelly@Dalaran70|P|Tailoring;197|N|To UI Alert!|
 A Where's Lyndras: Downward Spiral|QID|39605|PRE|39602|M|67.11,68.06|Z|The Underbelly@Dalaran70|P|Tailoring;197|N|From UI Alert!|
 C Where's Lyndras: Downward Spiral|QID|39605|M|55.21,55.36|Z|Dalaran@Dalaran70|P|Tailoring;197|N|Get out of the Sewers, head to Violet Hold, click on the dust at the manhole cover.|
-T Where's Lyndras: Downward Spiral|QID|39605|M|55.99,68.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|In the corner, follow the dust.\n\nTo UI Alert!||
+T Where's Lyndras: Downward Spiral|QID|39605|M|55.99,68.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|In the corner, follow the dust.\n\nTo UI Alert!|
 A Where's Lyndras: Leyflame Larceny|QID|39667|M|55.99,68.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|From UI Alert!|
 C Where's Lyndras: Leyflame Larceny|QID|39667|M|65.30,67.61|Z|Dalaran@Dalaran70|P|Tailoring;197|QO|1|N|Ask About Lyndras, Guard in front of the Hold|
 T Where's Lyndras: Leyflame Larceny|QID|39667|M|65.30,67.61|Z|Dalaran@Dalaran70|P|Tailoring;197|N|To UI Alert!|
@@ -746,9 +751,7 @@ B Pattern: Imbued Silkweave Cinch|PRE|38970|M|65.8,80.6|Z|The Underbelly@Dalaran
 B Pattern: Imbued Silkweave Cinch|PRE|38970|M|65.8,80.6|Z|The Underbelly@Dalaran70|LVL|110|P|Tailoring;197|L|137974|N|From Strap Bucklebolt. (500 Sightless Eyes + 1500 gold)|RECIPE|185955|
 B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|Z|Suramar|LVL|110|P|Tailoring;197|L|137973|N|To First Arcanist Thalyssra.|RECIPE|185954|REP|The Nightfallen;1859;Exalted|
 B Pattern: Imbued Silkweave Pantaloons|PRE|38974|M|36.50,46.78|Z|Suramar|LVL|110|P|Tailoring;197|L|137976|N|To First Arcanist Thalyssra.|RECIPE|185957|REP|The Nightfallen;1859;Exalted|
-B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|Z|Suramar|LVL|110|P|Tailoring;197|L|137979|N|To First Arcanist Thalyssra.||RECIPE|185960|REP|The Nightfallen;1859;Exalted|
-
-
+B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|Z|Suramar|LVL|110|P|Tailoring;197|L|137979|N|To First Arcanist Thalyssra.|RECIPE|185960|REP|The Nightfallen;1859;Exalted|
 
 ]]
 

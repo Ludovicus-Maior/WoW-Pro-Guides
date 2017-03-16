@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2017-03-17 00:23
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3303/revisions/26468/view
 -- Date: 2014-06-02 16:30
 -- Who: Ludovicus
 -- Log: Set min level per quest requirement.
@@ -256,15 +261,15 @@ C Flames from Above|QID|25574|RANK|2|U|55122|M|55.80,15.33|N|Use Tholo's Horn in
 T Flames from Above|QID|25574|RANK|2|M|64.05,22.50|N|To Tholo Whitehoof.|
 T Protect the World Tree|QID|25317|M|47.68,35.51|N|To Malfurion Stormrage.|
 
-A War on the Twilight's Hammer|QID|25319|M|47.68,35.51|N|From Malfurion Stormrage.|
-A The Flameseer's Staff|QID|25472|M|47.68,35.51|N|From Windspeaker Tamila.|
+A War on the Twilight's Hammer|QID|25319|PRE|25317|M|47.68,35.51|N|From Malfurion Stormrage.|
+A The Flameseer's Staff|QID|25472|PRE|25317|M|47.68,35.51|N|From Windspeaker Tamila.|
 C War on the Twilight's Hammer|QID|25319|S|M|47.09,30.18|N|Kill Twilight Flamecallers and Vanquishers.|
 C The Flameseer's Staff|QID|25472|M|43.41,28.80;48.27,29.47|CC|N|Loot the Charred Staff Fragments off of the ground in the charred areas.|NC|
 C War on the Twilight's Hammer|QID|25319|US|M|47.09,30.18|N|Finish killing the Twilight Flamecallers and Vanquishers.|
 T War on the Twilight's Hammer|QID|25319|M|47.74,35.43|N|To Malfurion Stormrage.|
 T The Flameseer's Staff|QID|25472|M|47.74,35.43|N|To Malfurion Stormrage.|
 
-A Flamebreaker|QID|25323|M|47.74,35.43|N|From Malfurion Stormrage.|
+A Flamebreaker|QID|25323|PRE|25472|M|47.74,35.43|N|From Malfurion Stormrage.|
 C Flamebreaker|QID|25323|U|53107|M|43.99,33.22|N|Use the Flameseer's Staff on the Blazebound Elementals in the charred areas around The Verdant Thicket. This will break up the elementals into 8-10 smaller elementals. Kill these Unbound Flame Spirits.|
 T Flamebreaker|QID|25323|M|47.67,35.47|N|To Malfurion Stormrage.|
 A The Return of Baron Geddon|QID|25464|PRE|25323|M|47.67,35.47|N|From Malfurion Stormrage.|
@@ -314,12 +319,12 @@ A The Shrine Reclaimed|QID|25280|PRE|25273|M|29.63,29.36|N|From Spirit of Goldri
 T The Shrine Reclaimed|QID|25280|M|28.28,29.81|N|To Ian Duran.|FACTION|Alliance|
 A Cleaning House|QID|25278|PRE|25280|M|28.21,29.85|N|From Ian Duran.|FACTION|Alliance|
 
-A The Voice of Lo'Gosh|QID|25269|M|35.7,19.5|N|From Oomla Whitehorn.|FACTION|Horde|
+A The Voice of Lo'Gosh|QID|25269|PRE|25255|M|35.7,19.5|N|From Oomla Whitehorn.|FACTION|Horde|
 T The Voice of Lo'Gosh|QID|25269|M|30.1,31.7|N|If you don't have a flying mount. Follow the road west until it branches. Take the fork to the right, down to a valley. If you are following the road down, continue straight, past the wolf statue. In a cage at the edge of the small pond is Takrik Ragehowl.|FACTION|Horde|
-A Howling Mad|QID|25270|M|30.1,31.7|N|From Takrik Ragehowl.|FACTION|Horde|
+A Howling Mad|QID|25270|PRE|25269|M|30.1,31.7|N|From Takrik Ragehowl.|FACTION|Horde|
 C Howling Mad|QID|25270|N|Kill Lycanthoth Vandals for Polluted Incense.|FACTION|Horde|
 T Howling Mad|QID|25270|M|30.1,31.7|N|Back at Takrik Ragehowl.|FACTION|Horde|
-A Lycanthoth the Corruptor|QID|25272|M|30.1,31.7|N|From Takrik Ragehowl.|FACTION|Horde|
+A Lycanthoth the Corruptor|QID|25272|PRE|25270|M|30.1,31.7|N|From Takrik Ragehowl.|FACTION|Horde|
 C Lycanthoth the Corruptor|QID|25272|U|52682|M|32.0,36.6;32.4,37.2|CS|N|Use Lycanthoth's Incense near the altar inside the cave to summon Lycanthoth.|FACTION|Horde|
 T Lycanthoth the Corruptor|QID|25272|M|32.4,37.2|N|At Spirit of Lo'Gosh.|FACTION|Horde|
 A The Shrine Reclaimed|QID|25279|M|29.6,29.4|N|From Spirit of Lo'Gosh after you dismount.|FACTION|Horde|
@@ -352,7 +357,7 @@ C Cleaning House|QID|25278|US|N|Kill Hovel Brutes and Shadowcasters.|M|27.7,34.5
 C Cleaning House|QID|25277|US|N|Kill Hovel Brutes.|FACTION|Horde|
 
 T Gar'gol's Gotta Go|QID|25328|M|27.24,40.74|N|To Kristoff Manheim.|
-A Get Me Outta Here!|QID|25332|M|27.24,40.74|N|From Kristoff Manheim.|
+A Get Me Outta Here!|QID|25332|PRE|25328|M|27.24,40.74|N|From Kristoff Manheim.|
 C Get Me Outta Here!|QID|25332|M|27.19,35.79|N|Head to the cave entrance.|
 C Free Your Mind, the Rest Follows|QID|25298|RANK|2|US|N|Talk to Twilight Servitors.|
 T Get Me Outta Here!|QID|25332|M|28.33,30.00|N|To Royce Duskwhisper.|
@@ -404,18 +409,18 @@ A Return from the Firelands|QID|25611|PRE|25600|M|26.26,41.89|N|From Jordan Olaf
 T Sweeping the Shelf|QID|25352|RANK|2|M|28.19,29.83|N|To Ian Duran.|FACTION|Alliance|
 T Return from the Firelands|QID|25611|M|28.19,29.83|N|To Ian Duran.|FACTION|Alliance|
 
-A Return from the Firelands|QID|25612|M|26.2,41.9|N|From Jordan Olafson.|FACTION|Horde|
+A Return from the Firelands|QID|25612|PRE|25600|M|26.2,41.9|N|From Jordan Olafson.|FACTION|Horde|
 T Return from the Firelands|QID|25612|M|28.4,29.9|N|Enter the portal behind you. This will return you the Shrine of Goldrinn. Fly back to the camp to Takrik Ragehowl.|FACTION|Horde|
 T Sweeping the Shelf|QID|25354|M|28.4,29.9|N|At Takrik Ragehowl.|FACTION|Horde|
 
-A Aviana's Legacy|QID|27874|M|28.4,29.8|N|From the Vision of Ysera.\n\nIf this quest is not offered, DROP the quest Wings Over Mount Hyjal then try again.|LEAD|25663|
+A Aviana's Legacy|QID|27874|PRE|25611|M|28.4,29.8|N|From the Vision of Ysera.\n\nIf this quest is not offered, DROP the quest Wings Over Mount Hyjal then try again.|LEAD|25663|
 A The Fires of Mount Hyjal|QID|25630|PRE|25611|M|28.18,29.87|N|From Rio Duran.|
 f Shrine of Aviana|QID|25630|M|41.14,42.70|N|Fly to the Shrine of Aviana and get the flight point from Dinorae Swiftfeather.|
 T Aviana's Legacy|QID|27874|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|O|
 T Wings Over Mount Hyjal|QID|25985|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|O|
 A An Offering for Aviana|QID|25663|M|39,46.21|N|From Choluna.|
-A The Wormwing Problem|QID|25655|M|42.18,45.40|N|From Thisalee Crow.|
-A Scrambling for Eggs|QID|25656|M|42.18,45.40|N|From Thisalee Crow.|
+A The Wormwing Problem|QID|25655|PRE|25578|M|42.18,45.40|N|From Thisalee Crow.|
+A Scrambling for Eggs|QID|25656|PRE|25578|M|42.18,45.40|N|From Thisalee Crow.|
 C An Offering for Aviana|QID|25663|U|55208|M|40.38,44.31|N|Go to the small circle of stones just outside the shrine. Use the Sacred Nectar while standing near the basin in the center of the stone circle. The Spirit of Aviana will appear.|NC|
 T An Offering for Aviana|QID|25663|M|40.38,44.31|N|To the Mysterious Winged Spirit.|
 A A Plea From Beyond|QID|25665|PRE|25663|M|40.38,44.31|N|From the Mysterious Winged Spirit.|
@@ -469,7 +474,7 @@ C Black Heart of Flame|QID|25428|U|53464|M|12.37,44.26|N|Summon Thol'Embaar via 
 C Oh, Deer!|QID|25392|QO|Injured Fawn Escorted Home: 3/3|M|18.99,37.66|N|Click on an Injured Fawn to have it follow you, do this 3 times. Once you have 3, head back to Mylune. They can die from you fighting things.|NC|
 T Oh, Deer!|QID|25392|M|19.24,37.81|N|To Mylune.|
 T Black Heart of Flame|QID|25428|M|22.18,44.93|N|To Tyrus Blackhorn.|
-A Good News... and Bad News|QID|29066|M|19.08,37.03|N|Auto-accepted after turning in "Black Heart of Flame".|
+A Good News... and Bad News|QID|29066|PRE|25428|M|19.08,37.03|N|Auto-accepted after turning in "Black Heart of Flame".|
 T Good News... and Bad News|QID|29066|M|19.08,37.03|N|To Matoclaw.|
 A Last Stand at Whistling Grove|QID|25940|PRE|25428;25392|M|19.10,40.98|N|From Laina Nightsky.|
 T Last Stand at Whistling Grove|QID|25940|M|13.68,32.88|N|To Keeper Taldros.|
@@ -543,7 +548,7 @@ C An Ancient Reborn|QID|25807|NC|U|56016|M|44.34,47.89|N|Go up the ramp to your 
 T An Ancient Reborn|QID|25807|M|44.34,47.89|N|To Aviana.|
 
 A The Hatchery Must Burn|QID|25810|PRE|25807|RANK|2|M|44.09,46.01|N|From Morthis Whisperwing.|
-A The Last Living Lorekeeper|QID|25830|M|43.80,45.95|N|From Vision of Ysera.|
+A The Last Living Lorekeeper|QID|25830|PRE|25807|M|43.80,45.95|N|From Vision of Ysera.|
 F Firelands Hatchery|QID|25810|M|39.20,58.23|N|Fly down to The Flamewake. Enter the large portal in the center.|
 T The Hatchery Must Burn|QID|25810|RANK|2|M|37.23,56.22|N|To Farden Talonshrike.|
 A Flight in the Firelands|QID|25523|PRE|25810|RANK|2|M|37.23,56.22|N|From Farden Talonshrike.|
@@ -574,8 +579,8 @@ T Aessina's Miracle|QID|25372|M|19.51,37.83|N|To Arch Druid Hamuul Runetotem.|
 A Tortolla's Revenge|QID|25843|PRE|25372|M|19.60,37.83|N|From Arch Druid Hamuul Runetotem.|
 T Tortolla's Revenge|QID|25843|M|41.56,60.91|N|To Tortolla, who has now moved to The Regrowth.|
 A The Hammer and the Key|QID|25904|PRE|25843|M|41.56,60.91|N|From Tortolla.|
-A Lost Wardens|QID|25881|RANK|2|M|42.20,60.62|N|From Niden.|
-A Breakthrough|QID|25899|RANK|2|M|42.20,60.62|N|From Niden.|
+A Lost Wardens|QID|25881|PRE|25372|RANK|2|M|42.20,60.62|N|From Niden.|
+A Breakthrough|QID|25899|PRE|25843|RANK|2|M|42.20,60.62|N|From Niden.|
 C Breakthrough|QID|25899|RANK|2|S|M|49.47,51.54|N|Kill 10 Twilight Scorchlords.|
 C Lost Wardens|QID|25881|RANK|2|S|M|48.98,51.70|N|Talk to the Lost Wardens to rescue them.|CHAT|
 C The Hammer and the Key|QID|25904|M|60.42,58.91|N|Kill and loot the Twilight Field Captains until the Glyph of Opening drops.|T|Twilight Field Captain|
@@ -727,7 +732,7 @@ T The Firelord|QID|25551|M|72.09,74.07|N|To Commander Jarod Shadowsong.|
 
 A The Battle Is Won, The War Goes On|QID|27398|PRE|25551|M|72.09,74.07|N|From Commander Jarod Shadowsong.|FACTION|Alliance|
 
-A The Battle Is Won, The War Goes On|QID|27399|M|72.05,73.89|N|From Commander Jarod Shadowsong.|FACTION|Horde|
+A The Battle Is Won, The War Goes On|QID|27399|PRE|25551|M|72.05,73.89|N|From Commander Jarod Shadowsong.|FACTION|Horde|
 F Orgrimmar|QID|28790|M|71.67,75.24|N|Fly back to Orgrimmar.|FACTION|Horde|
 T The Battle Is Won, The War Goes On|QID|27399|M|50.38,38.23|Z|Orgrimmar|N|In Orgrimmar. To Farseer Krogar.|FACTION|Horde|
 

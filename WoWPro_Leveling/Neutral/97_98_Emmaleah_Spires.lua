@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2017-03-17 00:35
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3602/revisions/27401/view
 -- Date: 2015-12-31 23:37
 -- Who: Ludovicus
 
@@ -156,7 +161,7 @@ return [[
 N Beginnings|QID|34653;36951|N|This guide begins at your garrison to take the free flight to Spires.|
 N Bonus Objectives|QID|34653;36951|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.|
 N Jumping Games|QID|34653;36951|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle). They mostly reward archeology fragments. I leave these to you to figure out if you want to take the time.|
-N Nagrand|QID|34653;36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.
+N Nagrand|QID|34653;36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.|
 N Use of Rank Setting|QID|34653;36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|
 F Spires of Arak|QID|34653|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
 F Spires of Arak|QID|36951|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
@@ -203,7 +208,7 @@ A A Gathering of Shadows|QID|35671|M|48.59,44.48|N|From Reshad.|PRE|35668;34805|
 C A Gathering of Shadows|QID|35671|M|46.54,45.59|NC|N|Enter Veil Terokk.|
 T A Gathering of Shadows|QID|35671|M|46.51,45.60|N|To Shadow-Sage Iskar.|
 f Veil Terokk|QID|35272|M|46.18,44.13|N|At Skytalon Meshaal.|
-A One of Our Own|QID|35274|M|45.89,46.36|N|From Jasper Fel.|FACTION|Alliance|
+A One of Our Own|QID|35274|PRE|35671|M|45.89,46.36|N|From Jasper Fel.|FACTION|Alliance|
 A One of Our Own|QID|35272|M|45.90,46.35|N|From Shadow Hunter Ukambe.|FACTION|Horde|
 C One of Our Own|QID|35272;35274|CHAT|M|46.52,45.61|N|Talk to Iskar and get him to let your guy free.|
 T One of Our Own|QID|35274|M|45.89,46.37|N|To Jasper Fel.|FACTION|Alliance|
@@ -260,11 +265,11 @@ A Second in Command|QID|35380|M|37.55,50.76|N|From Alice Finn.|PRE|35353|RANK|2|
 T Second in Command|QID|35380|M|37.70,53.81|N|To Sir Harris.|RANK|2|
 A Punishable by Death|QID|35407|M|37.70,53.81|N|From Sir Harris.|PRE|35380|RANK|2|
 A Prime the Cannons|QID|35408|M|37.66,53.87|N|From Lady Claudia.|PRE|35380|RANK|2|
-C Punishable by Death|QID|35407||M|35.58,52.84|S|RANK|2|N|Kill any Traitorous mobs for this.|
+C Punishable by Death|QID|35407|M|35.58,52.84|S|RANK|2|N|Kill any Traitorous mobs for this.|
 C Prime the Cannons|QID|35408|NC|QO|1|M|37.01,52.45|S|RANK|2|N|Loot the cannonballs from the ground.|
 C Prime the Cannons|QID|35408|NC|QO|2|M|36.42,53.55|RANK|2|N|Loot the cannon.|
 C Prime the Cannons|QID|35408|NC|QO|1|M|37.01,52.45|US|RANK|2|N|Finish picking up cannonballs.|
-C Punishable by Death|QID|35407||M|35.58,52.84|US|RANK|2|N|Finish killing Traitors.|
+C Punishable by Death|QID|35407|M|35.58,52.84|US|RANK|2|N|Finish killing Traitors.|
 T Punishable by Death|QID|35407|M|37.70,53.81|N|To Sir Harris.|RANK|2|
 T Prime the Cannons|QID|35408|M|37.65,53.87|N|To Lady Claudia.|RANK|2|
 A Admiral Taylor|QID|35482;36183|M|37.65,53.89|N|From Lady Claudia.|PRE|35407;35408|RANK|2|
@@ -291,7 +296,7 @@ A Not Here, Not Now|QID|37328;37329;37330;37331|M|43.90,48.91|N|From Dusk-Seer I
 T Return to Veil Terokk|QID|35611|M|45.87,45.74|N|To Reshad.|RANK|2|
 A Talon Watch|QID|34998|M|45.87,45.74|N|From Reshad.|PRE|35611|RANK|2|
 A The Kaliri Whisperer|QID|34884|M|45.87,45.74|N|From Reshad.|PRE|35611|RANK|2|
-A Last of the Talonpriests|QID|34827|M|45.93,45.78|N|From Shadow-Sage Iskar.|RANK|2|
+A Last of the Talonpriests|QID|34827|PRE|35611|M|45.93,45.78|N|From Shadow-Sage Iskar.|RANK|2|
 
 R Shadowglade|QID|34886|M|45.42,36.32|N|Run to Shadowglade to find Skizzik.|RANK|2|
 C The Kaliri Whisperer|QID|34884|M|45.42,36.32|CHAT|RANK|2|N|Search Skizzik's corpse to get the gavel.|
@@ -312,7 +317,7 @@ T Last of the Talonpriests|QID|34827|M|48.01,34.76|N|To Talonpriest Ishaal.|RANK
 A Ishaal's Orb|QID|34828|M|48.01,34.76|N|From Talonpriest Ishaal.|PRE|34827|RANK|2|
 A New Neighbors|QID|34829|M|48.01,34.76|N|From Talonpriest Ishaal.|PRE|34827|RANK|2|
 C New Neighbors|QID|34829|S|M|45.43,29.96|RANK|2|N|Kill Shattered Hand orcs as you go.|
-A Egg Punt|QID|36425|M|47.13,31.65|N|From a Ravager Egg.|ACTIVE|34829|RANK|2|
+A Egg Punt|QID|36425|PRE|34827|M|47.13,31.65|N|From a Ravager Egg.|ACTIVE|34829|RANK|2|
 C Egg Punt|QID|36425|NC|S|M|47.92,28.52|RANK|2|N|Click on Ravager Eggs.|
 C Ishaal's Orb|QID|34828|NC|M|48.08,28.47|RANK|2|N|Click on the orb inside the hut.|
 C Egg Punt|QID|36425|NC|US|M|47.92,28.52|RANK|2|N|Finish punting Ravager Eggs.|
@@ -337,7 +342,7 @@ A Power Unearthed|QID|35257|M|44.40,23.99|N|From Darkscryer Raastok.|PRE|34882;3
 
 R Apexis Excavation|QID|35257|M|36.99,24.63|RANK|2|
 f Apexis Excavation|QID|35257|M|36.99,24.63|N|At Skytalon Kuris.|RANK|2|
-A Sol Sisters|QID|35259|M|36.95,24.45|N|From Kura the Blind.|RANK|2|
+A Sol Sisters|QID|35259|PRE|35611|M|36.95,24.45|N|From Kura the Blind.|RANK|2|
 T Power Unearthed|QID|35257|M|36.85,24.54|N|To Darkscryer Raastok.|RANK|2|
 A Hardly Working|QID|35260|M|36.85,24.54|N|From Darkscryer Raastok.|PRE|35257|RANK|2|
 A Legacy of the Apexis|QID|35258|M|36.85,24.54|N|From Darkscryer Raastok.|PRE|35257|RANK|2|
@@ -378,7 +383,7 @@ F Veil Terokk|QID|35634|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|RANK
 T Control is King|QID|35634|M|47.12,45.84|N|To Darkscryer Raastok.|RANK|2|
 T Back from Beyond|QID|34942|M|46.59,46.54|N|To Shadow-Sage Iskar.|RANK|2|
 T The Kaliri Whisperer|QID|34884|M|46.49,46.68|N|To Reshad.|RANK|2|
-A Rites of the Talonpriests|QID|35733|M|46.49,46.68|N|From Reshad.|RANK|2|
+A Rites of the Talonpriests|QID|35733|PRE|34942|M|46.49,46.68|N|From Reshad.|RANK|2|
 T Mother of Thorns|QID|34885|M|46.49,46.68|N|To Reshad.|RANK|2|
 T Rites of the Talonpriests|QID|35733|M|46.63,46.74|N|To Effigy of Terokk.|RANK|2|
 A The Talon King|QID|35734|M|46.63,46.74|N|From Effigy of Terokk.|PRE|35733|RANK|2|
@@ -441,7 +446,7 @@ T A Worthy Vessel|QID|36059|M|46.62,46.75|N|To Shade of Terokk.|RANK|2|
 A The Avatar of Terokk|QID|35896|M|46.62,46.75|PRE|36059|N|From Shade of Terokk.|RANK|2|
 C The Avatar of Terokk|QID|35896|M|30.40,27.07|CHAT|N|Tell Terokk you are ready to start. Use the "1" ability and everything in front of you dies, until you meet Kargath (who is a bit more of a challenge).|RANK|2|
 T The Avatar of Terokk|QID|35896|M|46.49,46.66|N|To Reshad.|RANK|2|
-A Cult of the Ravenspeakers|QID|34921|M|46.93,46.11|RANK|2|N|From Anzu.|
+A Cult of the Ravenspeakers|QID|34921|PRE|35634;35012|M|46.93,46.11|RANK|2|N|From Anzu.|
 
 C Cult of the Ravenspeakers|QID|34921|NC|M|48.93,48.90|RANK|2|N|Place the feather Anzu gave you in the 'Offering Basket'.|
 T Cult of the Ravenspeakers|QID|34921|M|48.97,48.97|N|To Iktis of the Flock.|RANK|2|
@@ -527,14 +532,14 @@ H Axefall|QID|35907|ACTIVE|35907|M|46.53,46.80|FACTION|Horde|RANK|2|
 A Wanted: Venombarb|QID|35672|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|RANK|3|
 T Wanted: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|RANK|3|
 T Wanted: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|RANK|3|
-C Attempted Murder|QID|35907||M|39.51,43.36|CHAT|N|Talk to Hutou Featherwind for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Horde|
+C Attempted Murder|QID|35907|M|39.51,43.36|CHAT|N|Talk to Hutou Featherwind for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Horde|
 T Attempted Murder|QID|35907|M|52.10,23.54|N|To Dark Ranger Velonara.|FACTION|Horde|
 A Assassin's Mark|QID|35924|M|52.10,23.54|PRE|35907|N|From Dark Ranger Velonara.|FACTION|Horde|
 C Assassin's Mark|QID|35924|M|55.49,23.22|N|Check the bodies of the 'Vigilant Outcasts' lying along the road.|FACTION|Horde|
 T Assassin's Mark|QID|35924|M|53.57,27.51|N|To (a stealthed) Dark Ranger Velonara.|FACTION|Horde|
 A The Power of Poison|QID|35947|M|53.57,27.51|PRE|35924|N|From (a stealthed) Dark Ranger Velonara.|FACTION|Horde|
 A Extrinsic Motivation|QID|36022|M|53.57,27.51|PRE|35924|N|From (a stealthed) Dark Ranger Velonara.|FACTION|Horde|
-C The Power of Poison|QID|35947||M|53.57,27.51|U|113587|N|Use the poison Velonara provided to enhance your weapons ability to convince the orcs to talk.|FACTION|Horde|
+C The Power of Poison|QID|35947|M|53.57,27.51|U|113587|N|Use the poison Velonara provided to enhance your weapons ability to convince the orcs to talk.|FACTION|Horde|
 C Extrinsic Motivation|QID|36022|M|56,33|FACTION|Horde|N|Finish killing whatever mobs you need.|
 T The Power of Poison|QID|35947|M|53.57,27.51|N|To (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
 T Extrinsic Motivation|QID|36022|M|53.57,27.51|N|To (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
@@ -599,7 +604,7 @@ C Wanted: Venombarb|QID|35676;35672|M|61.11,19.05|RANK|3|N|Kill and loot Venomba
 
 ;alliance
 H Southport|QID|35619|ACTIVE|35676;36165|FACTION|Alliance|
-A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here...or go back to your garrison if you prefer).|FACTION|Alliance|LVL|97|
+A Pinchwhistle Gearworks|QID|35619|PRE|35286|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here...or go back to your garrison if you prefer).|FACTION|Alliance|LVL|97|
 C No Time to Waste|QID|36165|M|39.66,60.86|CHAT|FACTION|Alliance|
 T No Time to Waste|QID|36165|M|39.66,61.86|N|To Kolrigg Stokton.|FACTION|Alliance|
 A Standing United|QID|37281|M|39.72,60.91|PRE|36165|N|To/From Hulda Shadowblade to accept her as a follower.|FACTION|Alliance|
@@ -616,7 +621,7 @@ A Standing United|QID|37276|M|40.04,43.33|PRE|36166|N|To/From Dark Ranger Velona
 A Not In Your Army|QID|37292|M|40.08,42.66|PRE|36166|N|From Lunzul.|FACTION|Horde|
 C Not In Your Army|QID|37292|M|39.45,41.72|CHAT|N|After you talk to her, she becomes hostile and you must kill her.|FACTION|Horde|
 T Not In Your Army|QID|37292|M|40.08,42.66|N|To Lunzul.|FACTION|Horde|
-A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here... or go back to your garrison if you prefer).|FACTION|Horde|LVL|97|
+A Pinchwhistle Gearworks|QID|35620|PRE|35277|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here... or go back to your garrison if you prefer).|FACTION|Horde|LVL|97|
 T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|3|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 

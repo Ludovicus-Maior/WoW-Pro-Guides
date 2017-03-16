@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2017-03-17 00:11
+-- Who: Ludovicus
+-- Log: added PREs
+
+-- URL: http://wow-pro.com/node/3255/revisions/27630/view
 -- Date: 2016-08-29 22:58
 -- Who: Fluclo
 
@@ -161,13 +166,13 @@ C The Fewer, the Better|QID|27960|US|M|61.90,59.92|N|Kill Dark Iron Geologists o
 C Lunk's Task|QID|27956|M|62.98,64.43|N|Finish getting the rest of the "Tempered Flywheel"s that you need.|US|
 T A New Master... But Who?|QID|27963|M|68.52,53.49|N|To Jack Rockleg.|
 
-A Dig-Boss Dinwhisker|QID|27964|M|68.52,53.49|N|From Jack Rockleg.|
+A Dig-Boss Dinwhisker|QID|27964|PRE|27963|M|68.52,53.49|N|From Jack Rockleg.|
 T The Fewer, the Better|QID|27960|M|68.52,53.49|N|To Burrian Coalpart.|
-A Out of Place|QID|27961|M|68.52,53.49|N|From Burrian Coalpart.|
-A A Lumbering Relic|QID|27962|M|68.52,53.49|N|From Burrian Coalpart.|
+A Out of Place|QID|27961|PRE|27960|M|68.52,53.49|N|From Burrian Coalpart.|
+A A Lumbering Relic|QID|27962|PRE|27960|M|68.52,53.49|N|From Burrian Coalpart.|
 T Lunk's Task|QID|27956|M|68.94,53.50|N|To Lunk.|
-A Lunk No Kill|QID|27957|M|68.94,53.5|N|From Lunk.|
-A A Proper Antivenom|QID|27958|M|68.61,53.38|N|From Prisanne Dustcropper.|
+A Lunk No Kill|QID|27957|PRE|27956|M|68.94,53.5|N|From Lunk.|
+A A Proper Antivenom|QID|27958|PRE|27957|M|68.61,53.38|N|From Prisanne Dustcropper.|
 A Lunk's Adventure: Spider Rider|QID|27959|M|60.27,55.13|N|Once you kill a spider, Lunk will appear out of nowhere. Get his quest.|
 C Out of Place|QID|27961|S|N|Grab the chickens as quickly as you can, they can be looted from on a mount.. The spiders will kill the chickens.|
 C Lunk's Adventure: Spider Rider|QID|27959|M|59.50,65.62|N|Get the spiders about halfway down, then Lunk will jump on them, laughs will be had. Make sure to click on Lunk to get the Glassweb Venom, after he is done riding the spider.|
@@ -183,17 +188,17 @@ r Sell junk, repair/restock.|QID|27964|M|68.41,53.43|N|At Burian Coalpart.|
 R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|CC|N|Head to The Cauldron.|
 C Dig-Boss Dinwhisker|QID|27964|M|54.93,45.64|N|Kill Dark Iron Excavators and Footmen until Dig-Boss Dinwhisker appears. After you kill him, loot the "Dark Ember" off the ground.|
 T Dig-Boss Dinwhisker|QID|27964|M|68.52,53.68|N|To Jack Rockleg.|
-A Thorium Point: The Seat of the Brotherhood|QID|27965|M|68.52,53.68|N|From Jack Rockleg.|
+A Thorium Point: The Seat of the Brotherhood|QID|27965|PRE|27957;27958;27961;27962;27964|M|68.52,53.68|N|From Jack Rockleg.|
 R Thorium Point|QID|27965|M|70.11,39.80;66.61,34.57;41.25,34.23|CC|N|Head to Thorium Point.|
 f Thorium Point|QID|27965|M|38.01,30.67|N|At Lanie Reed.|FACTION|Alliance|
 f Thorium Point|QID|27965|M|34.8,30.8|N|At Grisha.|FACTION|Horde|
 T Thorium Point: The Seat of the Brotherhood|QID|27965|M|38.21,26.83|N|To Overseer Oilfist.|
 
-A Rasha'krak|QID|28099|M|38.21,26.83|N|From Overseer Oilfist.|
+A Rasha'krak|QID|28099|PRE|27965|M|38.21,26.83|N|From Overseer Oilfist.|
 A The Spiders Have to Go|QID|27980|M|37.66,27.05|N|From Lookout Captain Lolo Longstriker.|
-A Curse These Fat Fingers|QID|27976|M|38.30,27.73|N|From Hansel Heavyhands.|
-A Heat That Just Don't Quit|QID|27981|M|38.30,27.73|N|From Hansel Heavyhands.|
-A Recon Essentials|QID|27977|M|36.56,27.78|N|From Taskmaster Scrange.|
+A Curse These Fat Fingers|QID|27976|PRE|27965|M|38.30,27.73|N|From Hansel Heavyhands.|
+A Heat That Just Don't Quit|QID|27981|PRE|27965|M|38.30,27.73|N|From Hansel Heavyhands.|
+A Recon Essentials|QID|27977|PRE|27965|M|36.56,27.78|N|From Taskmaster Scrange.|
 C Curse These Fat Fingers|QID|27976|M|39.22,41.08|N|Kill Heavy War Golems.|S|
 C Heat That Just Don't Quit|S|QID|27981|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CN|N|Use the Furnace Flasks on the Elementals at the start of the fight.|
 A Lunk's Adventure: Cranky Little Dwarfs|QID|27983|M|36.63,36.89|N|Kill a Dark Iron Steamsmith to have Lunk appear. Get his quest.|
@@ -211,15 +216,15 @@ T Heat That Just Don't Quit|QID|27981|M|38.32,28.04|N|To Hansel Heavyhands.|
 T Rasha'krak|QID|28099|M|38.09,26.66|N|To Overseer Oilfist.|
 T The Spiders Have to Go|QID|27980|M|37.64,26.73|N|To Lookout Captain Lolo Longstriker.|
 T Recon Essentials|QID|27977|M|36.65,28.25|N|To Taskmaster Scrange.|
-A Twilight Collars|QID|27982|M|36.75,28.25|N|From Taskmaster Scrange.|
-A Dark Ministry|QID|27979|M|38.33,27.99|N|From Hansel Heavyhands.|
+A Twilight Collars|QID|27982|PRE|27977|M|36.75,28.25|N|From Taskmaster Scrange.|
+A Dark Ministry|QID|27979|PRE|27976;27977;27982|M|38.33,27.99|N|From Hansel Heavyhands.|
 C Twilight Collars|QID|27982|S|M|38.68,28.71|N|Kill any Twilight mobs as you go along.|
 l Finister's Spherule|QID|27979|L|62824|M|24.68,26.29|N|Kill and loot Finister to get "Finister's Spherule".|
 
 A Lunthistle's Tale|QID|27984|M|29.43,26.46|N|From Zamael Lunthistle.|
 C Lunthistle's Tale|QID|27984|NC|M|29.43,26.46|N|Listen to his tale.|
 T Lunthistle's Tale|QID|27984|M|29.43,26.46|N|To Zamael Lunthistle.|
-A Prayer to Elune|QID|27985|M|29.43,26.46|N|From Zamael Lunthistle.|
+A Prayer to Elune|QID|27985|PRE|27984|M|29.43,26.46|N|From Zamael Lunthistle.|
 C Prayer to Elune|QID|27985|M|23.10,35.28|N|Head down the mountain to the waypoint and open the Twilight Hammer Crate.|
 T Prayer to Elune|QID|27985|M|23.10,35.28|N|(UI Alert).|
 l Kyuubi's Spherule|QID|27979|L|62825|M|17.49,42.58|N|Enter the cave. Kill and loot Kyuubi to get "Kyuubi's Spherule".|
@@ -227,7 +232,7 @@ l Letherio's Spherule|QID|27979|L|62823|M|14.49,37.25|N|Kill Letherio and loot t
 C Dark Ministry|QID|27979|U|62824|M|14.49,37.25|N|Use one of the Spherules to combine them.|
 C Twilight Collars|QID|27982|US|M|13.44,42.20|N|Kill Twilight mobs to get the rest of the "Twilight Necklace"s you need.|
 T Dark Ministry|QID|27979|M|38.25,28.00|N|To Hansel Heavyhands.|
-A In the Hall of the Mountain-Lord|QID|27986|M|38.28,28.04|N|From Hansel Heavyhands.|
+A In the Hall of the Mountain-Lord|QID|27986|PRE|27979;28099|M|38.28,28.04|N|From Hansel Heavyhands.|
 T Twilight Collars|QID|27982|M|38.48,28.65|N|To Master Smith Burninate.|
 
 r Sell junk, repair/restock.|QID|27986|M|38.48,28.65|N|At Master Smith Burninate.|
@@ -235,10 +240,10 @@ r Sell junk, repair/restock.|QID|27986|M|38.48,28.65|N|At Master Smith Burninate
 R Iron Summit|QID|27986|M|39.59,31.28;29.51,50.22;31.78,59.97;37.68,62.88|CC|N|Head to the Iron Summit.|
 f Iron Summit|QID|27986|M|40.95,68.58|N|At Doug Deepdown.|
 T In the Hall of the Mountain-Lord|QID|27986|M|39.26,67.78|N|To Mountain-Lord Rendan.|
-A Siege!|QID|28028|M|39.26,67.78|N|From Mountain-Lord Rendan.|
-A Set Them Ablaze!|QID|28029|M|39.26,67.78|N|From Mountain-Lord Rendan.|
-A They Build a Better Bullet|QID|28030|M|39.26,67.78|N|From Mountain-Lord Rendan.|
-A The Mysteries of the Fire-Gizzard|QID|28032|M|39.00,68.83|N|From Agnes Flimshale.|
+A Siege!|QID|28028|PRE|27986|M|39.26,67.78|N|From Mountain-Lord Rendan.|
+A Set Them Ablaze!|QID|28029|PRE|27986|M|39.26,67.78|N|From Mountain-Lord Rendan.|
+A They Build a Better Bullet|QID|28030|PRE|27986|M|39.26,67.78|N|From Mountain-Lord Rendan.|
+A The Mysteries of the Fire-Gizzard|QID|28032|PRE|27986|M|39.00,68.83|N|From Agnes Flimshale.|
 C They Build a Better Bullet|QID|28030|S|M|49.17,73.38|N|Pick up the Dark Iron Bullet crates, the bullets can also drop off of Dark Iron Marskmen and Lookouts.|
 C Siege!|QID|28028|M|48.59,66.16|N|Kill Dark Iron Marksman near the Iron Summit.|S|
 C The Mysteries of the Fire-Gizzard|QID|28032|M|34.85,67.89|S|N|Kill the Incendosaurs to get the items needed for this quest.|
@@ -256,23 +261,23 @@ T Siege!|QID|28028|M|39.32,67.71|N|To Mountain-Lord Rendan.|
 T Set Them Ablaze!|QID|28029|M|39.32,67.71|N|To Mountain-Lord Rendan.|
 T They Build a Better Bullet|QID|28030|M|39.32,67.71|N|To Mountain-Lord Rendan.|
 
-A Deceit|QID|28033|M|39.32,67.71|N|From Mountain-Lord Rendan.|
+A Deceit|QID|28033|PRE|28028;28029;28030|M|39.32,67.71|N|From Mountain-Lord Rendan.|
 T Deceit|QID|28033|M|39.74,67.93|N|Find Lunk at the base of the tower.|
-A Lunk's Adventure: Rendan's Weakness|QID|28034|M|39.74,67.93|N|Get from Lunk.|
+A Lunk's Adventure: Rendan's Weakness|QID|28034|PRE|28033|M|39.74,67.93|N|Get from Lunk.|
 C Lunk's Adventure: Rendan's Weakness|QID|28034|M|39.74,67.93|N|Speak with three Iron Summit Guards and ask them to join your dance. |
 T Lunk's Adventure: Rendan's Weakness|QID|28034|M|39.36,67.81|N|Go back up to Mountain-Lord Rendan to turn the quest in.|
-A The Mountain-Lord's Support|QID|28035|M|39.41,67.84|N|From Mountain-Lord Rendan.|
+A The Mountain-Lord's Support|QID|28035|PRE|28034|M|39.41,67.84|N|From Mountain-Lord Rendan.|
 h Iron Summit|M|39.21,66.02|N|Set your Hearth at Iron Summit at Velma Rockslide.|QID|28035|
 F Thorium Point|QID|28035|M|40.89,68.91|N|Fly to Thorium Point.|
 T The Mountain-Lord's Support|QID|28035|M|38.09,26.82|N|To Overseer Oilfist.|
-A Operation: Stir the Cauldron|QID|28052|M|38.09,26.82|N|From Overseer Oilfist.|
+A Operation: Stir the Cauldron|QID|28052|PRE|28035|M|38.09,26.82|N|From Overseer Oilfist.|
 C Operation: Stir the Cauldron|QID|28052|M|41.44,55.72|N|Talk to Lanie Reed, choose the option to take the flying machine. Hit the 1 button and aim where you want to fire and click to fire.|FACTION|Alliance|
 C Operation: Stir the Cauldron|QID|28052|M|34.84,30.89|N|Talk to Grisha, choose the option to take the flying machine. Hit the 1 button and aim where you want to fire and click to fire.|FACTION|Horde|
 T Operation: Stir the Cauldron|QID|28052|M|40.89,51.84|N|To Mountain-Lord Rendan.|
 
-A Slavery is Bad|QID|28054|M|40.89,51.84|N|From Mountain-Lord Rendan.|
-A Sweet, Horrible Freedom|QID|28055|M|40.89,51.84|N|From Mountain-Lord Rendan.|
-A Rise, Obsidion|QID|28056|M|40.74,51.71|N|From Mountain-Lord Rendan.|
+A Slavery is Bad|QID|28054|PRE|28052|M|40.89,51.84|N|From Mountain-Lord Rendan.|
+A Sweet, Horrible Freedom|QID|28055|PRE|28052|M|40.89,51.84|N|From Mountain-Lord Rendan.|
+A Rise, Obsidion|QID|28056|PRE|28052|M|40.74,51.71|N|From Mountain-Lord Rendan.|
 C Slavery is Bad|QID|28054|S|M|39.19,34.30|N|Kill the Dark Iron Taskmasters or Dark Iron Slavers as you go along.|
 C Sweet, Horrible Freedom|QID|28055|M|40.18,36.41|N|Attempt to free slaves, they may try to attack you.|S|
 C Rise, Obsidion|QID|28056|M|41.28,25.77|N|Follow the path down, through the iron gate, until you reach a big cave. Click on the "Altar of Suntara", then kill Obsidian and Lathoric the Black.|
@@ -281,7 +286,7 @@ C Slavery is Bad|QID|28054|US|M|39.19,34.30|N|Finish killing any Dark Iron Taskm
 T Slavery is Bad|QID|28054|M|43.72,28.46|N|Run up the ramp to Evonice Sootsmoker.|
 T Sweet, Horrible Freedom|QID|28055|M|43.72,28.46|N|To Evonice Sootsmoker.|
 T Rise, Obsidion|QID|28056|M|43.72,28.46|N|To Evonice Sootsmoker.|
-A Kill 'em With Sleep Deprivation|QID|28057|M|43.66,28.46|N|From Evonice Sootsmoker.|
+A Kill 'em With Sleep Deprivation|QID|28057|PRE|28054;28055;28056|M|43.66,28.46|N|From Evonice Sootsmoker.|
 
 N Warning: Wall of text on next step.|QID|28057|N|Close this step.|
 ;change this a bit.
@@ -292,18 +297,18 @@ l Chambermaid PillaClencher's Pillow|QID|28057|L|18950 1|N|After you kill Chambe
 A Look at the Size of It!|QID|28058|U|62933|M|45.21,30.66|N|(UI alert)|O|
 T Look at the Size of It!|QID|28058|M|43.73,28.58|N|To Evonice Sootsmoker.|
 T Kill 'em With Sleep Deprivation|QID|28057|M|42.38,34.34|N|To Taskmaster Scrange.|
-A Twisted Twilight Ties|QID|28060|M|42.47,34.22|N|From Taskmaster Scrange.|
+A Twisted Twilight Ties|QID|28060|PRE|28057|M|42.47,34.22|N|From Taskmaster Scrange.|
 C Twisted Twilight Ties|QID|28060|M|40.88,35.71|N|Speak with Hansel Heavyhands and help him assault Overseer Maltorius and Twilight-Lord Arkkus.|
 T Twisted Twilight Ties|QID|28060|M|47.69,41.96;49.96,39.28|CS|N|To Overseer Oilfist. Drop down at the first waypoint.|
 
-A From Whence He Came|QID|28062|M|49.96,39.28|N|From Overseer Oilfist.|
-A Minions of Calcinder|QID|28061|M|50.19,38.90|N|From Overseer Oilfist.|
+A From Whence He Came|QID|28062|PRE|28060|M|49.96,39.28|N|From Overseer Oilfist.|
+A Minions of Calcinder|QID|28061|PRE|28060|M|50.19,38.90|N|From Overseer Oilfist.|
 C Minions of Calcinder|QID|28061|M|43.78,27.65|N|Kill 6 Searing Flamewraiths.|S|
 t Minions of Calcinder|QID|28061|M|46.77,27.06|N|(UI Alert)|
 C From Whence He Came|QID|28062|U|62925|M|42.83,29.81|N|Take Archduke Calcinder down in health, once you see the UI Alert, use the Consecrated Tripetricine.|
 C Minions of Calcinder|QID|28061|M|43.78,27.65|N|Kill 6 Searing Flamewraiths.|US|
 T From Whence He Came|QID|28062|M|43.78,27.65|N|(UI Alert)|
-A Welcome to the Brotherhood|QID|28064|M|43.78,27.65|N|(UI Alert)|
+A Welcome to the Brotherhood|QID|28064|PRE|28061;28062|M|43.78,27.65|N|(UI Alert)|
 H Iron Summit|QID|28053|N|Hearth back to Iron Summit.|
 F Thorium Point|QID|28053|M|40.89,68.91|N|Fly to Thorium Point.|
 
@@ -311,9 +316,9 @@ A Lunk Like Your Style|QID|28053|M|39.02,25.97|N|Get from Lunk up the ramp of th
 T Welcome to the Brotherhood|QID|28064|M|38.08,26.70|N|To Overseer Oilfist.|
 
 ;move, split and add lvl
-L Level 49|QID|999999|LVL|49|N|You should be level 49 now.
-A Mouton Flamestar|QID|28514|LVL|49|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Alliance
-A Mouton Flamestar|QID|28515|LVL|49|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Horde
+L Level 49|QID|999999|LVL|49|N|You should be level 49 now.|
+A Mouton Flamestar|QID|28514|LVL|49|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Alliance|
+A Mouton Flamestar|QID|28515|LVL|49|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Horde|
 
 ;F Stormwind City|QID|28666|M|38.01,30.67|N|Fly to Stormwind to train, visit AH, etc.|FACTION|Alliance|
 ]]
