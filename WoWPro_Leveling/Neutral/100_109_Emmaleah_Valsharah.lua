@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2017-03-16 22:57
+-- Who: Ludovicus
+-- Log: Added PRE.
+
+-- URL: http://wow-pro.com/node/3665/revisions/28357/view
 -- Date: 2017-03-12 12:26
 -- Who: Emmaleah
 -- Log: Changed note for Scouring What Remains and Master of the Isles.
@@ -286,7 +291,7 @@ T Emerald Sisters|QID|42748|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 T Where the Wildkin Are|QID|42747|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 T Grotesque Remains|QID|42786|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 T Dreamcatcher|QID|42750|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
-A Moon Reaver|QID|42751|M|59.41,84.13|N|From Guviena Bladesong.|RANK|2|
+A Moon Reaver|QID|42751|PRE|42750|M|59.41,84.13|N|From Guviena Bladesong.|RANK|2|
 
 $ Elindya Featherlight|QID|38887|M|60.42,90.72;61.03,88.04|CS|N|Click on Elindya and then follow her and help her kill the demon Skul'vrax|RANK|3|
 R The Undergorge|QID|42751|M|60.98,85.13|QO|1|N|There is a bramble barrior, that will fall down when you click on it.|RANK|2|

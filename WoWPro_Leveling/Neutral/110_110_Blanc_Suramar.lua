@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/suramar_guide
+-- Date: 2017-03-16 23:04
+-- Who: Ludovicus
+-- Log: Syntax corrections; spacing correction.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28359/view
 -- Date: 2017-03-12 21:12
 -- Who: Blanckaert
 -- Log: minor revisions, through to Elisande's retort.
@@ -247,11 +252,6 @@
 -- Who: Blanckaert
 -- Log: added a buy of a cooking recipe while in Jandvik
 
--- URL: http://wow-pro.com/node/3687/revisions/28060/view
--- Date: 2016-11-28 20:25
--- Who: Emmaleah
--- Log: fix coords on R To Noressa
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideAutoSwitch(guide)
@@ -274,7 +274,7 @@ A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran@Dalaran70|N|From Archmage Khad
 C Magic Message|QID|39986|M|29.32,48.80|Z|Dalaran@Dalaran70|NC|N|Click on the Arcane Anomaly and watch the dialog.|
 T Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Trail of Echoes|QID|39987|M|28.47,48.31|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
-P Suramar||QID|39987|M|29.35,48.83|Z|Dalaran@Dalaran70|N|Click on the portal to be transported to Suramar.|ACTIVE|39987|
+P Suramar|QID|39987|M|29.35,48.83|Z|Dalaran@Dalaran70|N|Click on the portal to be transported to Suramar.|ACTIVE|39987|
 C Trail of Echoes|QID|39987|M|39.67,53.22|QO|1|U|131931|NC|N|Click the wand and then click the purple swirls to reveal Faint Arcane Echo.|
 C Trail of Echoes|QID|39987|M|39.59,55.73|QO|2|U|131931|NC|N|Click the wand and then click the purple swirls to reveal Blinking Arcane Echo.|
 C Trail of Echoes|QID|39987|M|35.87,55.05|QO|3|U|131931|NC|N|Click the wand and then click the purple swirls to reveal Pulsing Arcane Echo.|
@@ -297,8 +297,8 @@ A Shal'Aran|QID|42229|PRE|40009|M|35.34,47.41|N|From First Arcanist Thalyssra.|
 C Shal'Aran|QID|42229|M|36.54,46.94|NC|N|Stand here, as she walks around Shal'aran.  You won't need to follow her for credit.|
 T Shal'Aran|QID|42229|M|36.56,46.93|N|To First Arcanist Thalyssra.|
 A Ancient Mana|QID|44672|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.|
-A Oculeth's Workshop|QID|40011|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.
-A An Old Ally|QID|40012|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.
+A Oculeth's Workshop|QID|40011|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.|
+A An Old Ally|QID|40012|PRE|42229|M|36.56,46.93|N|From First Arcanist Thalyssra.|
 h Shal'Aran|QID|40012|M|36.56,46.93|N|At First Arcanist Thalyssra.|
 f Meredil|QID|40012|M|34.34,49.38|N|At Ancient Cloudwing.|
 K Kill Anax|QID|43954|M|33.66,51.74|ITEM|140934|T|Anax|N|Silver - Kill Anax for a pet and resources|
@@ -643,7 +643,7 @@ C Prongs and Fangs|QID|41475|M|28.89,36.54|QO|1|S|N|Kill Suramar Snarlers.|
 C Fertilizing the Future|QID|41474|M|27.90,32.82|S|NC|N|Plant Lush Grass Seeds.|
 C Prongs and Fangs|QID|41475|M|30.10,32.39|QO|2|N|Kill Gloomfang.|T|Gloomfang|
 C Fertilizing the Future|QID|41474|M|27.90,32.82|US|NC|N|Finish planting Lush Grass Seeds.|
-C Prongs and Fangs|QID|41475|M|28.89,36.54|QO|1||US|N|Finish killing Suramar Snarlers.|
+C Prongs and Fangs|QID|41475|M|28.89,36.54|QO|1|US|N|Finish killing Suramar Snarlers.|
 T Fertilizing the Future|QID|41474|M|28.25,29.67|N|To Mythandros Irongrove.|
 T Prongs and Fangs|QID|41475|M|28.25,29.67|N|To Mythandros Irongrove.|
 A The Final Blessing|QID|41478|M|28.25,29.67|N|From Mythandros Irongrove.|PRE|41474;41475|

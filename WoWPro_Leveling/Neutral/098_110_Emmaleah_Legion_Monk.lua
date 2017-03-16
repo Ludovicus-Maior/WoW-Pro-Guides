@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2017-03-16 22:33
+-- Who: Ludovicus
+-- Log: Syntax corrections.
+
+-- URL: http://wow-pro.com/node/3672/revisions/28273/view
 -- Date: 2017-03-05 03:21
 -- Who: Emmaleah
 -- Log: Added the rest of the monk campaign. Guide complete until 7.2
@@ -143,7 +148,7 @@ T Light's Charge|QID|44153|M|51.76,48.09|NC|N|Use Zen Pilgrimage to return to yo
 ;back to order hall quests
 C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|US|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours. Check it off manually to continue with the guide while mission completes.|
 t Scrolls of Knowledge|QID|42210|M|52.78,59.77|N|To Master Hsu.|
-A Tech It Up a Notch|QID|42191|M|52.78,59.77|N|From Master Hsu.|PRE|42210
+A Tech It Up a Notch|QID|42191|M|52.78,59.77|N|From Master Hsu.|PRE|42210|
 C Tech It Up a Notch|QID|42191|M|53.04,59.79|NC|N|Click on Number Nine Jia to open a panel where you chose how you want to progress your order hall. Come back tomorrow when it completes.|
 T Tech It Up a Notch|QID|42191|M|51.41,48.36|N|To Iron-Body Ponshu.|
 A Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|PRE|42191|
@@ -231,7 +236,7 @@ A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious 
 C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
 C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
 C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
 A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
 C Trial By Fel Fire|QID|39863|N|This quest (to create obliterum) will become unnecesary in 7.2, you may want to skip it. These are crafted items, buy, trade for, or create them. Manually check this step off (left click if you never want to do it, right click if you want to be reminded each time you reload the guide.)|
 t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
@@ -321,7 +326,7 @@ P Hall of the Seasons|QID|43151|M|56.33,73.89|Z|Val'sharah|N|Use Zen Pilgrimage 
 T Halls of Valor: Odyn's Cauldron|QID|41059|M|51.40,48.39|N|To Iron-Body Ponshu.|
 T Amaranthine Hops|QID|41911|M|56.33,73.89|Z|Val'sharah|N|To Fleuris Asterleaf.|
 T Awakenings|QID|44464|M|51.76,48.09|N|To Light's Heart|
-t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.
+t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|

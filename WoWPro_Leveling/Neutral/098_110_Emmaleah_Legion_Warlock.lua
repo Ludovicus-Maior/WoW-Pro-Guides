@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2017-03-16 22:44
+-- Who: Ludovicus
+-- Log: Syntax corrections.
+
+-- URL: http://wow-pro.com/node/3679/revisions/28235/view
 -- Date: 2017-01-10 21:24
 -- Who: Blanckaert
 -- Log: Added: Obliterum Quest Chain
@@ -149,7 +154,7 @@ C Finding the Scepter|QID|43100|QO|4|M|69.89,74.35|Z|Western Plaguelands|N|Take 
 C Finding the Scepter|QID|43100|QO|5|M|69.16,79.16|Z|Western Plaguelands|NC|N|Speak with Calydus|
 T Finding the Scepter|QID|43100|M|69.16,79.16|Z|Western Plaguelands|N|To Calydus.|
 A An Eye for a Scepter|QID|43153|M|69.16,79.16|Z|Western Plaguelands|N|From Calydus.|PRE|43100|
-C An Eye for a Scepter|QID|43153|NC|QO|1|M|0.00,0.00|Z|Western Plaguelands|N|Take the Portal to Tol Barad||
+C An Eye for a Scepter|QID|43153|NC|QO|1|M|0.00,0.00|Z|Western Plaguelands|N|Take the Portal to Tol Barad|
 C Where Are They?|SO|1|Z|TolBaradWarlockScenario|N|The Shadow Council is most likely looking for a prisoner. The cell blocks are a good choice to start.|QID|43153|
 C Speak with Allaris and Nagaz.|SO|2;1|M|0.00,0.00|Z|TolBaradWarlockScenario|N|Speak with Allaris and Nagaz.|QID|43153|
 C Find Tyranis in D-Block|SO|3;1|M|0.00,0.00|Z|TolBaradWarlockScenario|N|Find Tyranis in D-Block|QID|43153|
@@ -203,7 +208,7 @@ A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious 
 C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
 C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
 C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
 A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
 C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
 t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|

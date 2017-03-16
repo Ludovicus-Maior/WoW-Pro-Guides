@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2017-03-16 22:26
+-- Who: Ludovicus
+-- Log: Added a PRE; syntax change.
+
+-- URL: http://wow-pro.com/node/3670/revisions/28257/view
 -- Date: 2017-02-27 20:19
 -- Who: Emmaleah
 -- Log: Changed several PRE tags from "and" (;) to "or"(+) and a few vice versa.
@@ -71,7 +76,7 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
-A Needs of the Hunters|QID|40384|M|57.24,44.84|Z|Dalaran@Dalaran70|N|From Snowfeather. Wait a minute or so for him to fly over.|
+A Needs of the Hunters|QID|40384|PRE|43635|M|57.24,44.84|Z|Dalaran@Dalaran70|N|From Snowfeather. Wait a minute or so for him to fly over.|
 T Needs of the Hunters|QID|40384|M|60.04,53.47|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden.|
 A The Hunter's Call|QID|41415|M|60.04,53.47|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|40384|
 C The Hunter's Call|QID|41415|CHAT|QO|1|M|59.18,37.94|Z|Dalaran@Dalaran70|N|Speak to Grif Wildheart inside Magical Menagerie.|
@@ -249,7 +254,7 @@ A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious 
 C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
 C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
 C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
 A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
 C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them. Manually check this step off (left click if you never want to do it, right click if you want to be reminded each time you reload the guide.)|
 t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|

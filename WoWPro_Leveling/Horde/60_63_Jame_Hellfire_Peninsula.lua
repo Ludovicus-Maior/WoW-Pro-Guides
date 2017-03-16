@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2017-03-16 22:14
+-- Who: Ludovicus
+-- Log: Added a PRE.
+
+-- URL: http://wow-pro.com/node/3272/revisions/28439/view
 -- Date: 2017-03-15 23:42
 -- Who: Ludovicus
 -- Log: Added PREs to JamHel6063
@@ -107,7 +112,7 @@ return [[
 A Through the Dark Portal|QID|9407|LEAD|10120|M|54.42,50.56|Z|Blasted Lands|N|From Warlord Dar'toon.|
 R Hellfire Peninsula|N|Through the great big portal. Once you go through, you can not come back through it.  A portal back to Org is on the Hellfire side.|Z|Blasted Lands|QID|9407|M|55.04,54.19|
 T Through the Dark Portal |QID|9407|M|87.42,49.85|N|To Lieutenant General Orion.|
-A Arrival in Outland |QID|10120|M|87.42,49.85|N|From Lieutenant General Orion.| ; Grail PRE|9407;28705 is dodgy
+A Arrival in Outland |QID|10120|PRE|9407+28705|M|87.42,49.85|N|From Lieutenant General Orion.|
 T Arrival in Outland |QID|10120|M|87.33,48.17|N|To Vlagga Freyfeather.|
 A Journey to Thrallmar |QID|10289|PRE|10120|M|87.33,48.17|N|From Vlagga Freyfeather.|
 C Thrallmar|QID|10289|CHAT|N|Talk to Vlagga Freyfeather and have her send you to Thrallmar.|M|87.33,48.17|

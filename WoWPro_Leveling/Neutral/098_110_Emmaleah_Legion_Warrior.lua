@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2017-03-16 22:50
+-- Who: Ludovicus
+-- Log: Added a PRE; syntax corrections.
+
+-- URL: http://wow-pro.com/node/3677/revisions/28368/view
 -- Date: 2017-03-14 20:42
 -- Who: Blanckaert
 -- Log: added a few quests from 3/14
@@ -85,7 +90,7 @@ T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To 
 
 A A Desparate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Eitrigg.|
 T A Desparate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|Dalaran@Dalaran70|N|To Eitrigg.|
-A An Important Mission|QID|42814|FACTION|Alliance|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Sergeant Dalton.|
+A An Important Mission|QID|42814|PRE|43635|FACTION|Alliance|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Sergeant Dalton.|
 T An Important Mission|QID|42814|FACTION|Alliance|M|74.64,45.01|Z|Dalaran@Dalaran70|N|To Danath Trollbane.|
 
 C Chat with Saurfang|QID|41052|M|75.06,46.18|Z|Dalaran@Dalaran70|CHAT|N|Talk to him.|FACTION|Horde|
@@ -98,7 +103,7 @@ C Approach Danica|SO|3;1|M|50.90,29.94|Z|Broken Shore|N|Approach Danica|QID|3890
 C Defeat Bezzeredes and his allies.|SO|4;1|M|49.45,32.56|Z|Broken Shore|N|Defeat Bezzeredes and his allies.|QID|38904;42815|
 C Defeat Malgalor|SO|5;1|M|49.64,28.65|Z|Broken Shore|N|Defeat Malgalor.|QID|38904;42815|
 C Return to the Broken Shore|QID|38904;42815|QO|2|M|59.04,27.27|Z|Broken Shore|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|
-T Return to the Broken Shore|QID|38904;42815|M|59.00,29.68|N|To Danica the Reclaimer.
+T Return to the Broken Shore|QID|38904;42815|M|59.00,29.68|N|To Danica the Reclaimer.|
 A Odyn and the Valarjar|QID|39654|M|59.07,29.88|N|From Danica the Reclaimer.|PRE|38904+42815|
 C Odyn and the Valarjar|QID|39654|QO|1|M|59.23,45.46|NC|N|Follow Danica|
 C Odyn and the Valarjar|QID|39654|QO|2|M|58.55,68.39|NC|N|Go to the Great Mead Hall|
@@ -169,7 +174,7 @@ T Recruiting Shieldmaidens|QID|43975|M|55.96,15.00|N|To Savyn Valorborn.|
 
 ;lights heart intro questline
 P Dalaran|QID|44009|M|58.55,24.00|N|Back to the outside world to continue leveling.|ACTIVE|44009|
-A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|LVL|101|PRE|44100
+A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|LVL|101|PRE|44100|
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
@@ -230,7 +235,7 @@ A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious 
 C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
 C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
 C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
 A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
 C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them. Manually check this step off (left click if you never want to do it, right click if you want to be reminded each time you reload the guide.)|
 t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|

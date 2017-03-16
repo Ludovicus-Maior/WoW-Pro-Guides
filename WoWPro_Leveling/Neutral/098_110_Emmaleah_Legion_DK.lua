@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2017-03-16 22:24
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3668/revisions/28275/view
 -- Date: 2017-03-05 18:28
 -- Who: Ludovicus
 -- Log: Tag Tweaks on playthough
@@ -244,7 +249,7 @@ T The Ruined Kingdom|QID|42533|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Gale
 A Our Oldest Enemies|QID|42534|M|19.45,67.33|Z|Arathi Highlands|N|From Prince Galen Trollbane.|PRE|42533|
 A Death...and Decay|QID|42535|M|19.45,67.33|Z|Arathi Highlands|N|From Prince Galen Trollbane.|PRE|42533|
 C Death...and Decay|QID|42535|M|17.57,68.01|Z|Arathi Highlands|S|NC|N|Defile the Witherbark Supplies as you go.|
-C Our Oldest Enemies|QID|42534|QO|2|M|17.76,65.23|Z|Arathi Highlands|S||N|Kill the Witherbark Trolls as you go.|
+C Our Oldest Enemies|QID|42534|QO|2|M|17.76,65.23|Z|Arathi Highlands|S|N|Kill the Witherbark Trolls as you go.|
 C Our Oldest Enemies|QID|42534|QO|1|M|11.83,69.82|Z|Arathi Highlands|T|Ojin'ba|N|Kill Ojin'ba.|
 C Our Oldest Enemies|QID|42534|QO|2|M|17.57,68.01|Z|Arathi Highlands|US|N|Finish killing the Witherbark Trolls.|
 C Death...and Decay|QID|42535|M|17.57,68.01|Z|Arathi Highlands|US|NC|N|Finish defiling the Witherbark Supplies.|
@@ -303,13 +308,13 @@ A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious 
 C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
 C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
 C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
 A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
 C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
 t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
 A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|From Vanessa Sellers.|
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
-t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.
+t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
 T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
@@ -385,10 +390,10 @@ C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|
 T Destiny Unfulfilled|QID|44481;44496;44497|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|54.13,74.77|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart. Requires Artifact Knowledge >=7.|LVL|110|
+A The Hunt for Illidan Stormrage|QID|45174|PRE|44481|M|54.13,74.77|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart. Requires Artifact Knowledge >=7.|LVL|110|
 F Illidari Stand|QID|45174|M|25.55,28.86|N|At Grimwing.|ACTIVE|45174|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
-A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|LVL|110|
+A Soul Prism of the Illidari|QID|45175|PRE|45174|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|LVL|110|
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|;guessing on turn in
 
 ;lvl 110 DK Campaign

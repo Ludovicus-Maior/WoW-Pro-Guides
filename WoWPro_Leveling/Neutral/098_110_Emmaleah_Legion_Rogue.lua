@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3675
+-- Date: 2017-03-16 22:41
+-- Who: Ludovicus
+-- Log: Added PREs; syntax correction.
+
+-- URL: http://wow-pro.com/node/3675/revisions/28266/view
 -- Date: 2017-03-04 19:10
 -- Who: Blanckaert
 -- Log: Fix QID 44448 PRE ; + switch
@@ -47,7 +52,7 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
-A Call of The Uncrowned|QID|40832|M|57.06,44.98|Z|Dalaran@Dalaran70|N|From Ravenholdt Courier.|
+A Call of The Uncrowned|QID|40832|PRE|43635|M|57.06,44.98|Z|Dalaran@Dalaran70|N|From Ravenholdt Courier.|
 C Call of The Uncrowned|QID|40832|QO|1|M|55.23,55.60|Z|Dalaran@Dalaran70|N|Read the letter.|U|133558|NC|
 C Call of The Uncrowned|QID|40832|QO|2|M|53.11,70.93|Z|Dalaran@Dalaran70|N|Whispered to "Red" who can be found inside the shop 'Glorious Goods'.|CHAT|
 C Call of The Uncrowned|QID|40832|QO|3|M|53.16,69.96|Z|Dalaran@Dalaran70|N|Go thru the now opened door.|NC|
@@ -67,7 +72,7 @@ A Artifact Specific Quest|QID|41919;42501;40847|M|41.44,78.08|N|From one of the 
 
 ;ASSASINATION
 ;A Finishing the Job|QID|42501|M|42.40,76.02|N|From Princess Tess Greymane.|PRE|40840|
-A No Sanctuary|QID|42502|M|42.40,76.02|N|From Princess Tess Greymane.|ACTIVE|42502|
+A No Sanctuary|QID|42502|PRE|40840|M|42.40,76.02|N|From Princess Tess Greymane.|ACTIVE|42502|
 C Finishing the Job|QID|42501|QO|1|M|49.55,82.14|Z|Dalaran@Dalaran70|N|Enter the Chamber of the Guardian.|
 C Finishing the Job|QID|42501|QO|2|M|32.03,72.44|Z|Dalaran@Dalaran70|N|(Optional) Take the Portal to Karazhan.|
 C Finishing the Job|QID|42501|QO|3|M|35.38,25.32|Z|Blasted Lands|N|(Optional) Fly to Blasted Lands.|
@@ -184,7 +189,7 @@ A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious 
 C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
 C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
 C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
 A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
 C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
 t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|

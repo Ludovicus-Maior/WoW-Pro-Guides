@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2017-03-16 22:19
+-- Who: Ludovicus
+-- Log: Added a PRE.
+
+-- URL: http://wow-pro.com/node/3292/revisions/28448/view
 -- Date: 2017-03-16 16:53
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -95,7 +100,7 @@ WoWPro:GuideSteps(guide, function()
 --> Last modified by [Jiyambi] 19/6/2009
 return [[
 
-A Into the Fold |QID|11978|M|12.8,48.5|N|From Emissary Brighthoof.|; Grail PRE|11977;11979 is dodgy
+A Into the Fold |QID|11978|PRE|11977+11979|M|12.8,48.5|N|From Emissary Brighthoof.|
 A Pride of the Horde |QID|11980|M|14.2,49.8|N|From Blood Guard Roh'kill.|
 C Pride of the Horde |QID|11980|N|Kill Anub'ar Ambushers.|S|M|15.5,51.2|
 C Into the Fold |QID|11978|M|15.5,51.2|N|Loot Horde Armaments from the ground.|

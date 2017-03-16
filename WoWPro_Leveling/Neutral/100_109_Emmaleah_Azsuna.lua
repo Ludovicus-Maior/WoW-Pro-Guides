@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2017-03-16 22:54
+-- Who: Ludovicus
+-- Log: Syntax corrections.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28308/view
 -- Date: 2017-03-10 10:12
 -- Who: Emmaleah
 -- Log: Add final quest after doing Eye of Azshara.
@@ -284,9 +289,9 @@ t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|Auto turned in upon 
 T Saving Stellagosa|QID|37450|M|36.27,49.03|N|To Kor'vas Bloodthorn following you around.|
 T Fel Machinations|QID|37656|M|36.27,49.03|N|To Kor'vas Bloodthorn.|
 A Dark Revelations|QID|37449|PRE|37656;37450|M|36.27,49.03|N|From Kor'vas Bloodthorn.|
-R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S|
 K Kill Vorthax|QID|42280|QO|1|M|37.14,43.35|ITEM|141875|T|Vorthax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
-R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US|
 f Illidari Perch|QID|42286|M|31.81,46.27|N|At Jena Moonrath.|RANK|3|
 K Kill Houndmaster Stroxis|QID|42286|QO|1|M|30.82,47.61|N|Silver - Kill and loot for some treasure and resources. Pull him into Illidari perch to get help from the Illidari|RANK|3|
 $ Treasure Chest|QID|44105|M|26.25,47.14|N|Loot for a bit of treasure and resources.|RANK|3|
@@ -471,12 +476,12 @@ T Our Very Bones|QID|37257|M|47.00,41.34|N|To Prince Farondis.|
 A Trailing the Tidestone|QID|37497|PRE|37257|M|47.00,41.34|N|From Prince Farondis.|
 C Trailing the Tidestone|QID|37497|QO|1|M|47.00,41.34|N|Chat with the prince to start. As with all escort quests, there are a couple of ambushes.|CHAT|
 A The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|N|Auto-accepted as you enter the area.|RANK|2|LVL|-109|
-T Trailing the Tidestone|QID|37497|M|51.80,44.28|N|To Prince Farondis.
+T Trailing the Tidestone|QID|37497|M|51.80,44.28|N|To Prince Farondis.|
 
 A Nar'thalas Still Suffers|QID|37486|PRE|37497|M|51.80,44.28|N|From Prince Farondis.|
 C The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|S|N|As you go killing the things you run into and freeing the bound citizens will advance this objective.|RANK|2|
 A You Never Know Until You Scry|QID|42693|M|53.38,45.43|N|From Olothil Starlance.|RANK|2|
-A Children of Nar'thalas|QID|42692|M|53.27,45.31|N|From Kallistia Starlance.|RANK|2
+A Children of Nar'thalas|QID|42692|M|53.27,45.31|N|From Kallistia Starlance.|RANK|2|
 C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|P|Leatherworking;165|QO|1|S|N|Kill the Naga for the Shoulderguards|
 C You Never Know Until You Scry|QID|42693|M|55.62,43.57|S|N|Kill the naga to collect the Glyptics.|RANK|2|
 C Children of Nar'thalas|QID|42692|QO|1|M|53.02,43.75|NC|N|The first tome is lying here.|RANK|2|
@@ -600,7 +605,7 @@ T Arkethrax|QID|42367|M|63.88,28.88|N|To Marius Felbane.|RANK|3|
 T They're Doing it Wrong|QID|42369|M|63.86,28.94|N|To Tehd Shoemaker.|RANK|3|
 T Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|
 T Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|
-A The Burdens of Hunting|QID|39943||M|65.07,25.96|N|From Zarla Shadowheart.||P|Inscription;773|LVL|102|PRE|39941;39940||
+A The Burdens of Hunting|QID|39943|M|65.07,25.96|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|PRE|39941;39940|
 
 R The Empyrean Society Enclave|QID|38419|M|63.54,33.2|N|Take the road to the left if you want to get through without fighting. Continue on ths road towards Olivian Veil.|RANK|3|
 R The Greenway|QID|38419|M|62.56,34.56|N|Side jaunt for a Silver and 3 chests.|RANK|3|

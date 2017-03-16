@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2017-03-16 22:29
+-- Who: Ludovicus
+-- Log: Added PREs; syntax corrections.
+
+-- URL: http://wow-pro.com/node/3671/revisions/28367/view
 -- Date: 2017-03-14 20:40
 -- Who: Blanckaert
 -- Log: fixed a bad coord of 883. to 83., and added some quests added 3/14
@@ -162,7 +167,7 @@ C A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|Go to Azsuna and find him 
 T A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|To Ravandwyr.|
 A Prepare to Be Assimilated|QID|42435|M|64.9,37.8|Z|Azsuna|N|From Ravandwyr.|PRE|42434|
 C Prepare to Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|S|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
-C Prepare to Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|Azsuna|N|Kill Spitespeaker Lir'kess
+C Prepare to Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|Azsuna|N|Kill Spitespeaker Lir'kess|
 C Prepare to Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|US|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
 T Prepare to Be Assimilated|QID|42435|M|64.35,31.35|Z|Azsuna|N|To Ravandwyr.| ;fix coordinate
 A What is Going On Here|QID|42166|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42435|
@@ -419,10 +424,10 @@ C The Mage Hunter|QID|42479|M|67.04,92.73|Z|AzsunaArtifact|QO|2|N|Pick up Ebonch
 T The Mage Hunter|QID|42479|M|56.57,33.95|N|To Meryl Felstorm.|
 
 ;Mage Class Hall
-A The Champion's Return|QID|41114|N|From UI Alert.| ; Grail reports PRE of 11997 - which has been removed from WOW, According to Wowhead.
+A The Champion's Return|QID|41114|PRE|11997|N|From UI Alert.| ; Grail reports PRE of 11997 - which has been removed from WOW, According to Wowhead.
 C The Champion's Return|QID|41114|NC|N|Teleport to the Hall of the Guardian|
 T The Champion's Return|QID|41114|M|56.46,33.87|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm, in the library upstairs.|
-A Unlocked Potential|QID|41125|M|56.46,33.87|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|
+A Unlocked Potential|QID|41125|PRE|41114|M|56.46,33.87|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|
 C Unlocked Potential|QID|41125|M|59.38,42.79|Z|The Guardian's Library@MageClassShrine|NC|N|Use the Forge to empower your Artifact.|
 T Unlocked Potential|QID|41125|M|56.63,33.82|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm.|
 A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|42125|
@@ -449,7 +454,7 @@ A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious 
 C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
 C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
 C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
 A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
 C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
 t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|

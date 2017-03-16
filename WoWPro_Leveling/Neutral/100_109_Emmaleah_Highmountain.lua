@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2017-03-16 22:56
+-- Who: Ludovicus
+-- Log: Syntax correction.
+
+-- URL: http://wow-pro.com/node/3678/revisions/28184/view
 -- Date: 2016-12-28 22:05
 -- Who: Blanckaert
 -- Log: added a note about treasure 40489, and added a few steps of a Leatherworking Quest
@@ -365,7 +370,7 @@ f Nesingwary's Retreat|QID|40170|M|40.23,52.71|N|At Tamara Sigmund.|RANK|2|;yes,
 A Amateur Hour|QID|40170|M|40.03,52.24|N|From Hemet Nesingwary.|RANK|2|
 A Note-Eating Goats|QID|39859|M|39.93,52.22|N|From Addie Fizzlebog.|RANK|2|
 C Amateur Hour|QID|40170|M|40.54,53.89|S|N|Confront the amature hunters, some turn belligerant.|RANK|2|
-C Note-Eating Goats|QID|39859|M|40.84,54.36||N|Kill goats until you recover Addie's notes.|RANK|2|
+C Note-Eating Goats|QID|39859|M|40.84,54.36|N|Kill goats until you recover Addie's notes.|RANK|2|
 C Amateur Hour|QID|40170|M|40.54,53.89|US|N|Confront the amature hunters, some turn belligerant.|RANK|2|
 T Amateur Hour|QID|40170|M|40.04,52.25|N|To Hemet Nesingwary.|RANK|2|
 A Lion Stalkin'|QID|39123|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|2|PRE|40170|

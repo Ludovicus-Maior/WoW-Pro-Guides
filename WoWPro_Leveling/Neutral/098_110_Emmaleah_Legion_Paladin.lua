@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2017-03-16 22:38
+-- Who: Ludovicus
+-- Log: Added PRE; syntax correction.
+
+-- URL: http://wow-pro.com/node/3673/revisions/28369/view
 -- Date: 2017-03-14 20:52
 -- Who: Blanckaert
 -- Log: added the quests that came out on 3/14, did a REPLACE of the guide, because I forgot which lines I changed.
@@ -249,7 +254,7 @@ T The Light Reveals|QID|42773|M|52.11,83.19|Z|Western Plaguelands|N|To Lord Maxw
 A Hope Prevails|QID|42774|M|52.11,83.19|Z|Western Plaguelands|N|From Lord Maxwell Tyrosus.|PRE|42773|
 F Light's Hope Chapel|QID|42774|ACTIVE|42774|M|74.16,53.06|Z|Eastern Plaguelands|N|Make your way to Light's Hope Chapel.|
 T Hope Prevails|QID|42774|M|74.28,53.22|Z|Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
-A The Search for Highlord Tirion|QID|38376|M|74.28,53.22|Z|Eastern Plaguelands|N|From Lord Maxwell Tyrosus.|
+A The Search for Highlord Tirion|QID|38376|PRE|42774|M|74.28,53.22|Z|Eastern Plaguelands|N|From Lord Maxwell Tyrosus.|
 C The Search for Highlord Tirion|QID|38376|QO|1|M|74.16,53.06|Z|Eastern Plaguelands|NC|N|Hop on the Argent Hippogryph to be flown into a scenario.|
 C Sounding the Charge|QID|38376|SO|1|M|15.34,50.43|Z|BrokenShorePaladin|N|Lead the paladins of the Argent Crusade into battle.|
 C Crusaders' March|QID|38376|SO|2|M|15.34,50.43|Z|BrokenShorePaladin|N|Destroy the demon army.|
@@ -453,7 +458,7 @@ A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious 
 C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
 C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
 C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
 A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
 C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
 t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
