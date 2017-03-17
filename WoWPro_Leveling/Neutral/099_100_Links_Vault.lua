@@ -3,7 +3,12 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/wiki/mardum_shattered_abyss_source_code
+-- URL: http://wow-pro.com/wiki/demon_hunter_starter_source_code
+-- Date: 2017-03-17 01:23
+-- Who: Ludovicus
+-- Log: Added missing MardumtheShatteredAbyss
+
+-- URL: http://wow-pro.com/node/3656/revisions/28475/view
 -- Date: 2017-03-16 22:51
 -- Who: Ludovicus
 -- Log: Added PREs; syntax corrections.
