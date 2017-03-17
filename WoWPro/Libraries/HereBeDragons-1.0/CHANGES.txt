@@ -1,25 +1,20 @@
-tag 14169cebab0fff47eab4bc3f7d121335ec9493e1 1.16-release
+tag 340a6ae0111de490d635debf7b676387546ca4ae 1.17-release
 Author:	Hendrik Leppkes <h.leppkes@gmail.com>
-Date:	Fri Dec 2 17:52:43 2016 +0100
+Date:	Wed Feb 1 06:03:11 2017 +0100
 
-Tag as 1.16-release
+Tag as 1.17-release
 
-commit f3e90ea271e541384da6d9fe2add7cdf56644f3b
+commit 8e2d2847441595b0619a48d4a455e4c2b7e41aaa
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Fri Dec 2 17:51:52 2016 +0100
+Date:   Wed Feb 1 06:01:40 2017 +0100
 
-    Add instance id override for the suramar invasion scenario
+    Remove redundant condition
 
-commit 99818b5e5b3979435f01712c108738de6fb6ec21
+commit fbe39b4d4cde81a795fc16a13276ea158a32ba98
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Sun Nov 20 11:54:08 2016 +0100
+Date:   Wed Feb 1 06:01:12 2017 +0100
 
-    Fix map info for the dreamgrove and true shot lodge on first login
+    Fixup the mapFile for the Dreamgrove and TrueshotLodge maps
     
-    These maps can only be opened when you are on the appropriate class,
-    which unfortunately also means that right during login they are not
-    accessible yet until the game figures out which class you are.
-    
-    The only missing/wrong info in these cases is the C/Z information, so
-    exempt them from the remapping code and hardcode the correct Z.
+    Fixes issue #10
 
