@@ -705,6 +705,7 @@ function WoWPro:GuideAutoSwitch(guide)
 
     if guide.class and engClass ~= guide.class then
         -- Developers can peek, but should not AutoSwitch on the class specific guides if they are not for them
+        guide['AutoSwitch'] = false
         return
     end
     guide['AutoSwitch'] = true
