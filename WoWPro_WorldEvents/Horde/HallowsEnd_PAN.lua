@@ -4,6 +4,36 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2017-03-17 14:09
+-- Who: Ludovicus
+-- Log: Syntax and PRE for LudoHallowPanH
+
+-- URL: http://wow-pro.com/node/3441/revisions/28512/view
+-- Date: 2017-03-17 14:07
+-- Who: Ludovicus
+-- Log: Syntax for LudoHallowOUT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28511/view
+-- Date: 2017-03-17 14:05
+-- Who: Ludovicus
+-- Log: Syntax for LudoHallowNOR
+
+-- URL: http://wow-pro.com/node/3441/revisions/28510/view
+-- Date: 2017-03-17 14:03
+-- Who: Ludovicus
+-- Log: 1 Syntax fix for LudoHallowKAL
+
+-- URL: http://wow-pro.com/node/3441/revisions/28509/view
+-- Date: 2017-03-17 14:02
+-- Who: Ludovicus
+-- Log: 1 Syntax fix for LudoHallowEK
+
+-- URL: http://wow-pro.com/node/3441/revisions/28508/view
+-- Date: 2017-03-17 14:00
+-- Who: Ludovicus
+-- Log: PRE and syntax for LudoHallowCAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28285/view
 -- Date: 2017-03-05 18:53
 -- Who: Ludovicus
 -- Log: Float the level
@@ -184,7 +214,7 @@ WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Pandaria")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Wall of Text Part 1 of 2|QID|-1|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".
+N Wall of Text Part 1 of 2|QID|-1|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".|
 N Wall of Text Part 2 of 2|QID|-1|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
 
 R The Jade Forest|N|Take your portal to The Jade Forest|
@@ -229,7 +259,7 @@ A Candy Bucket|QID|32039|M|72.73,92.28|Z|Kun-Lai Summit|N|Puli the Even Handed, 
 N Eastwind Rest|QID|32040|N|If you have not quested in Kun-Lai Summit, you need to unlock it.|
 F Eastwind Rest|QID|32040|M|72.54,94.18|Z|Kun-Lai Summit|N|Ask Jo the Wind Watcher to go to Eastwind Rest|U|37586|
 
-A Candy Bucket|QID|32040|M|62.77,80.50|Z|Kun-Lai Summit|N|Mai the Sleepy, Eastwind Rest|FACTION|Horde|
+A Candy Bucket|QID|32040|PRE|30515|M|62.77,80.50|Z|Kun-Lai Summit|N|Mai the Sleepy, Eastwind Rest|FACTION|Horde|
 F Temple of the White Tiger|QID|32041|M|62.4,80.6|Z|Kun-Lai Summit|N|Ask Soaring Paw to go to Temple of the White Tiger|U|37586|
 
 A Candy Bucket|QID|32041|M|64.21,61.28|Z|Kun-Lai Summit|N|Li Goldendraft, The Grummle Bazaar|

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2017-03-17 13:50
+-- Who: Ludovicus
+-- Log: Add one PRE to LudoHallowPanA
+
+-- URL: http://wow-pro.com/node/3440/revisions/28502/view
+-- Date: 2017-03-17 13:49
+-- Who: Ludovicus
+-- Log: Added PREs to TwiHollEK
+
+-- URL: http://wow-pro.com/node/3440/revisions/28284/view
 -- Date: 2017-03-05 18:53
 -- Who: Ludovicus
 -- Log: Float the level
@@ -198,7 +208,7 @@ A Candy Bucket|QID|32039|M|72.73,92.28|Z|Kun-Lai Summit|N|Puli the Even Handed, 
 N Westwind Rest|N|If you have not quested in Kun-Lai Summit, you need to unlock it.|
 F Westwind Rest|QID|32042|M|72.54,94.18|Z|Kun-Lai Summit|N|Ask Jo the Wind Watcher to go to Westwind Rest|U|37586|
 
-A Candy Bucket|QID|32042|M|54.0,82.8|Z|Kun-Lai Summit|N|Kai the Restless, Westwind Rest (Phased)|FACTION|Alliance|
+A Candy Bucket|QID|32042|PRE|30514|M|54.0,82.8|Z|Kun-Lai Summit|N|Kai the Restless, Westwind Rest (Phased)|FACTION|Alliance|
 F Temple of the White Tiger|QID|32041|M|53.98,84.26|Z|Kun-Lai Summit|N|Ask Tabo the Flyer to go to Temple of the White Tiger|U|37586|
 
 A Candy Bucket|QID|32041|M|64.21,61.28|Z|Kun-Lai Summit|N|Li Goldendraft, The Grummle Bazaar|

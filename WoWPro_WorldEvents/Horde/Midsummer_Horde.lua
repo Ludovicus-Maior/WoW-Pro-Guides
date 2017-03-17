@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2017-03-17 14:13
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3407/revisions/28283/view
 -- Date: 2017-03-05 18:53
 -- Who: Ludovicus
 -- Log: Float the level
@@ -81,7 +86,7 @@ return [[
 
 N About this Guide|QID|9339|N|This guide assumes you are at least lvl 60 so you can fly or have all the relevant flight paths. Often using your own flying mount will be more efficient, but the flighpaths are left in so you can fly/afk if needed. BE SURE TO CHECK OFF the "fly" steps off if you want to fly on your own, or else the arrows point to the nearest flight master. Keep in mind that about half of this holiday requires you to perform actions which flag you as PvP, so even on a PvE realm you will probably see some PvP action. You may want to leave your gear in the bank, in case you need to rez at the spirit healer.|
 
-N Before you start...|QID|9339|N|Make sure you have your hearth set to Orgrimmar or Shrine of the Two Moons, as we will be using it to quickly get from place to place.
+N Before you start...|QID|9339|N|Make sure you have your hearth set to Orgrimmar or Shrine of the Two Moons, as we will be using it to quickly get from place to place.|
 
 N Ranks|QID|9339|N|Rank 2 will leave out the Alliance City Fires, setting to Rank 1 will only do the intro quests and Pandaria.|
 
@@ -93,16 +98,16 @@ A Unusual Activity|QID|11886|M|47.26,37.90|N|From the Earthern Ring Elder.|
 A Torch Tossing|QID|11922|M|46.60,37.27|N|From the Master Flame Eater.|RANK|2|
 C Torch Tossing|QID|11922|M|46.18,37.21|U|34862|N|Hotkey the torch and use it while standing next to the blue bonfire. Nearby there are a set of burning pedestals with a hunter's mark jumping between them. Throw torches at the pedestal that has the mark on it until you complete the quest.|
 T Torch Tossing|QID|11922|M|46.60,37.27|N|To the Master Flame Eater.|
-A Torch Catching|QID|11923|M|46.60,37.27|N|From the Master Flame Eater.|RANK|2|
+A Torch Catching|QID|11923|PRE|11922|M|46.60,37.27|N|From the Master Flame Eater.|RANK|2|
 C Torch Catching|QID|11923|M|46.18,37.21|U|34833|N|Use the unlit torch next to the fire and follow it's shadow. Stay under the shadow and you will automatically catch and throw the torch. Keep it up until you've done it 4 times in a row - this can be frustrating if there are lots of people around, but keep trying! If you have a lot of trouble, wait and do it in Thunder Bluff when we go there.|
 T Torch Catching|QID|11923|M|46.60,37.27|N|To the Master Flame Eater.|
 
 N Dailies|QID|11926|N|You've now unlocked two dailies, More Torch Tossing and More Torch Catching. If you want both the brazier (a toy) and the battle pet, you should do these every day of the fire festival in order to earn enough blossoms.|
-A More Torch Tossing|RANK|1|QID|11926|M|46.60,37.27|N|From the Master Flame Eater.|
+A More Torch Tossing|RANK|1|QID|11926|PRE|11923|M|46.60,37.27|N|From the Master Flame Eater.|
 C More Torch Tossing|RANK|1|QID|11926|M|46.18,37.21|U|34862|N|Hotkey the torch and use it while standing next to the blue bonfire. Nearby there are a set of burning pedestals with a hunter's mark jumping between them. Throw torches at the pedestal that has the mark on it until you complete the quest.|
 T More Torch Tossing|RANK|1|QID|11926|M|46.60,37.27|N|To the Master Flame Eater.|
 
-A More Torch Catching|RANK|2|QID|11925|M|46.60,37.27|N|From the Master Flame Eater.|
+A More Torch Catching|RANK|2|QID|11925|PRE|11923|M|46.60,37.27|N|From the Master Flame Eater.|
 C More Torch Catching|RANK|2|QID|11925|M|46.18,37.21|U|34833|N|Use the unlit torch next to the fire and follow it's shadow. Stay under the shadow and you will automatically catch and throw the torch. Keep it up until you've done it 10 times in a row - this can be frustrating if there are lots of people around, I personally find it more effort than its worth and usually skip it.|
 T More Torch Catching|RANK|2|QID|11925|M|46.60,37.27|N|To the Master Flame Eater.|
 
@@ -118,10 +123,10 @@ A Playing with Fire|RANK|2|QID|11915|M|51.63,66.24|Z|Ashenvale|N|From the Flame 
 F Zoram'gar Outpost|RANK|2|QID|11886|N|Flightpath to Zoram'gar Outpost.|M|49.3,65.3|Z|Ashenvale|
 C Unusual Activity|RANK|2|QID|11886|M|16,21|Z|Ashenvale|N|Kill Twilight's Hammer mobs around until a Twilight Correspondence drops.|
 T Unusual Activity|RANK|2|QID|11886|Z|Ashenvale|N|Use your Totemic Beacon, then turn the quest into the Earthen Ring Guide.|U|35828|
-A An Innocent Disguise|RANK|2|QID|11891|N|From the Earthen Ring Guide.|U|35828|
+A An Innocent Disguise|RANK|2|QID|11891|PRE|11886|N|From the Earthen Ring Guide.|U|35828|
 C An Innocent Disguise|RANK|2|QID|11891|N|Use the crab costume and head to the waypoint, listen to the conversation.|M|9.5,13.2|Z|Ashenvale|U|35237|
 T An Innocent Disguise|RANK|2|QID|11891|N|Use your Totemic Beacon, then turn the quest into the Earthen Ring Guide.|U|35828|
-A Inform the Elder|RANK|2|QID|12012|N|From the Earthen Ring Guide.|U|35828|
+A Inform the Elder|RANK|2|QID|12012|PRE|11891|N|From the Earthen Ring Guide.|U|35828|
 R Darkshore|RANK|2|QID|11740|M|28.8,13.3|Z|Ashenvale|N|Ride north to Darkshore. It may be faster to go back to Zoram'gar and take the flightpath to Wisperwind Grove in Felwood, if you don't fly you can jump down the waterfall at Bloodvenom Post, and if you are careful, you won't die. Click off this step if you are flying.|
 
 N PLAN OF ATTACK - DARNASSUS AND EXODAR|RANK|3|Z|Darkshore|M|53.25,27.15|N|Get ready, we are going to do a major chunk of the PvP section of the guide. It includes desecrating the Darnassus fire, and running (flying) straight through Darnassus, desecrating the Dolanaar fire, then flying down to the docks. Then we're getting on the boat to Azuremyst, hitting the two fires on the island, then braving the Exodar guards and grabbing the Exodar flame. It's likely that you may be killed, so be prepared.|
@@ -342,7 +347,7 @@ R Borean Tundra|RANK|2|QID|13493|N|Run to the Northrend Zeppelin to go to Borean
 A Honor the Flame|RANK|2|QID|13493|M|51.13,11.54|Z|Borean Tundra|N|From the Flame Keeper. (Borean Tundra)|
 A Desecrate this Fire!|RANK|2|QID|13440|M|55.23,20.25|Z|Borean Tundra|N|At the Alliance Bonfire. (Borean Tundra)|
 A Honor the Flame|RANK|2|QID|13494|M|47.06,61.55|Z|Sholazar Basin|N|From the Flame Keeper. (Sholazar Basin)|
-A Desecrate this Fire!|RANK|2|QID|13442|M|47.82,66.15|Z|Sholazar Basin|N|At the Alliance Bonfire. (Sholazar Basin)
+A Desecrate this Fire!|RANK|2|QID|13442|M|47.82,66.15|Z|Sholazar Basin|N|At the Alliance Bonfire. (Sholazar Basin)|
 R Dalaran - do torch juggling achievement|RANK|2|QID|902720001|ACH|272;1|M|30,42|N|Pick a low lag spot (such as violet palace) to do the torch juggling. If you are having a hard time, turn off addons or get the addon called "Jugglar".|Z|Crystalsong Forest|
 A Honor the Flame|RANK|2|QID|13498|M|40.28,85.35|Z|The Storm Peaks|N|From the Flame Keeper. (Storm Peaks)|
 A Desecrate this Fire!|RANK|2|QID|13446|M|41.40,87.03|Z|The Storm Peaks|N|At the Alliance Bonfire. (Storm Peaks)|

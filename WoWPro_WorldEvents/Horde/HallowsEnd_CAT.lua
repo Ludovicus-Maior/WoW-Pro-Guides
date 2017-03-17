@@ -4,6 +4,36 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2017-03-17 14:09
+-- Who: Ludovicus
+-- Log: Syntax and PRE for LudoHallowPanH
+
+-- URL: http://wow-pro.com/node/3441/revisions/28512/view
+-- Date: 2017-03-17 14:07
+-- Who: Ludovicus
+-- Log: Syntax for LudoHallowOUT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28511/view
+-- Date: 2017-03-17 14:05
+-- Who: Ludovicus
+-- Log: Syntax for LudoHallowNOR
+
+-- URL: http://wow-pro.com/node/3441/revisions/28510/view
+-- Date: 2017-03-17 14:03
+-- Who: Ludovicus
+-- Log: 1 Syntax fix for LudoHallowKAL
+
+-- URL: http://wow-pro.com/node/3441/revisions/28509/view
+-- Date: 2017-03-17 14:02
+-- Who: Ludovicus
+-- Log: 1 Syntax fix for LudoHallowEK
+
+-- URL: http://wow-pro.com/node/3441/revisions/28508/view
+-- Date: 2017-03-17 14:00
+-- Who: Ludovicus
+-- Log: PRE and syntax for LudoHallowCAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28285/view
 -- Date: 2017-03-05 18:53
 -- Who: Ludovicus
 -- Log: Float the level
@@ -191,7 +221,7 @@ A Candy Bucket|QID|208181|M|51.2,50.0|Z|Deepholm|N|Caretaker Nuunwa, Temple of E
 R Orgrimmar|M|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|
 
 R Nordrassil|QID|28999|M|50.97,38.13|Z|Orgrimmar|N|Take the portal to Mt. Hyjal.|
-A Candy Bucket|QID|28999|M|63.05,24.14|Z|Mount Hyjal|N|Sebelia, Nordrassil)
+A Candy Bucket|QID|28999|M|63.05,24.14|Z|Mount Hyjal|N|Sebelia, Nordrassil)|
 F Shrine of Aviana|QID|29001|M|62.14,21.58|Z|Mount Hyjal|U|37586|N|Fly to the Shrine of Aviana, Mt. Hyjal.|
 A Candy Bucket|QID|29001|M|42.67,45.70|Z|Mount Hyjal|N|Isara Riverstride, Shrine of Aviana|
 F Grove of Aessina|QID|29000|M|41.18,42.59|Z|Mount Hyjal|U|37586|N|Fly to the Shrine/Grove of Aessina, Mt. Hyjal.|
@@ -210,7 +240,7 @@ F The Krazzworks|M|68.17,33.40|QID|28976|Z|Arathi Highlands|U|37586|N|Fly to The
 
 A Candy Bucket|QID|28976|M|75.41,16.53|Z|Twilight Highlands|N|Inkeeper Geno, The Krazzworks|
 F Dragonmaw Port|M|75.33,17.79|QID|28975|Z|Twilight Highlands|U|37586|N|Fly to Dragonmaw Port, Twilight Highlands.|
-A Candy Bucket|QID|28975|M|75.4,54.9|Z|Twilight Highlands|N|Innkeeper Lutz, Dragonmaw Port. Not here if you have not done the quests.|
+A Candy Bucket|QID|28975|PRE|26830|M|75.4,54.9|Z|Twilight Highlands|N|Innkeeper Lutz, Dragonmaw Port. Not here if you have not done the quests.|
 F Bloodgulch|M|73.59,52.92|QID|28973|Z|Twilight Highlands|U|37586|N|Fly to Bloodgulch, Twilight Highlands.|
 A Candy Bucket|QID|28973|M|53.40,42.85|Z|Twilight Highlands|N|Inkeeper Turk, Bloodgulch|
 F Crushblow|M|54.15,42.23|QID|28974|Z|Twilight Highlands|U|37586|N|Fly to Crushblow, Twilight Highlands.|
@@ -219,8 +249,8 @@ A Candy Bucket|QID|28974|M|45.11,76.80|Z|Twilight Highlands|N|Inkeeper Krum, Cru
 R Uldum|QID|29016|M|28.98,38.49|Z|Orgrimmar|N|Take the portal to Uldum|
 F Oasis of Vir'sar|QID|29016|M|55.98,64.17|Z|Un'Goro Crater|U|37586|N|Fly to Oasis of Vir'sar, Uldum.|
 A Candy Bucket|QID|29016|M|26.58,7.25|Z|Uldum|N|Yasmin, Oasis of Vir'sar|
-F Ramkahen|QID|29017|M|26.61,8.35|Z|Uldum|U|37586||N|Fly to Ramkahen, Uldum.|
-A Candy Bucket|QID|29017|M|54.68,33.01|Z|Uldum||N| Kazemde, Ramkahen|
+F Ramkahen|QID|29017|M|26.61,8.35|Z|Uldum|U|37586|N|Fly to Ramkahen, Uldum.|
+A Candy Bucket|QID|29017|M|54.68,33.01|Z|Uldum|N| Kazemde, Ramkahen|
 
 ]]
 end)

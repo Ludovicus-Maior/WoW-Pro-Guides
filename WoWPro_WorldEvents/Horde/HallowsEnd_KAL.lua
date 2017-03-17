@@ -4,6 +4,36 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2017-03-17 14:09
+-- Who: Ludovicus
+-- Log: Syntax and PRE for LudoHallowPanH
+
+-- URL: http://wow-pro.com/node/3441/revisions/28512/view
+-- Date: 2017-03-17 14:07
+-- Who: Ludovicus
+-- Log: Syntax for LudoHallowOUT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28511/view
+-- Date: 2017-03-17 14:05
+-- Who: Ludovicus
+-- Log: Syntax for LudoHallowNOR
+
+-- URL: http://wow-pro.com/node/3441/revisions/28510/view
+-- Date: 2017-03-17 14:03
+-- Who: Ludovicus
+-- Log: 1 Syntax fix for LudoHallowKAL
+
+-- URL: http://wow-pro.com/node/3441/revisions/28509/view
+-- Date: 2017-03-17 14:02
+-- Who: Ludovicus
+-- Log: 1 Syntax fix for LudoHallowEK
+
+-- URL: http://wow-pro.com/node/3441/revisions/28508/view
+-- Date: 2017-03-17 14:00
+-- Who: Ludovicus
+-- Log: PRE and syntax for LudoHallowCAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28285/view
 -- Date: 2017-03-05 18:53
 -- Who: Ludovicus
 -- Log: Float the level
@@ -247,7 +277,7 @@ A Candy Bucket|QID|29018|M|55.27,62.12|Z|Un'Goro Crater|N|Innkeeper Dreedle, Mar
 F Bootlegger Outpost|QID|29014|M|55.98,64.17|Z|Un'Goro Crater|U|37586|N|Fly to Bootlegger Outpost, Tanaris.|
 A Candy Bucket|QID|29014|M|55.7,60.96|Z|Tanaris|N|Inkeeper Ibanozzel, Bootlegger Outpost.|
 
-F Gadgetzan|QID|12399|M|55.88,60.6|Z|Tanaris|U|37586||N|Fly to Gadgetzan.
+F Gadgetzan|QID|12399|M|55.88,60.6|Z|Tanaris|U|37586|N|Fly to Gadgetzan.|
 A Candy Bucket|QID|12399|M|52.55,27.09|Z|Tanaris|N|Innkeeper Fizzgrimble, Gadgetzan|
 
 F Mudsprocket|QID|12398|M|52.04,27.61|U|37586|Z|Tanaris|N|Fly to Mudsprocket, Dustwallow Marsh|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2017-03-17 09:58
+-- Who: Blanckaert
+-- Log: copied and replaced guide, forgot to mark where I made changes.  Added Ludo's correction, minor adds of active tags, corrections of Names for P or F steps, etc.
+
+-- URL: http://wow-pro.com/node/3673/revisions/28469/view
 -- Date: 2017-03-16 22:38
 -- Who: Ludovicus
 -- Log: Added PRE; syntax correction.
@@ -102,7 +107,7 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Paladin")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Guide Progression|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
+N Guide Progression|QID|44448|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
 
 A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
@@ -347,7 +352,7 @@ F Illidari Stand|QID|42886|M|69.87,51.11|N|At Aladune Whitecloud.|ACTIVE|42886|
 T To Faronaar|QID|42886|M|45.91,51.60|Z|Azsuna|N|To Vindicator Boros.|
 A This is Retribution|QID|42887|M|45.91,51.60|Z|Azsuna|N|From Vindicator Boros.|PRE|42886|
 C This is Retribution|QID|42887|M|42.79,44.47|Z|Azsuna|N|Run down to Faronaar Front and kill some demons.|
-T This is Retribution|QID|42887|M|28.08,59.12|Z|Azsuna|N|To Vindicator Boros who is now close to Illidari Perch. If you have the flightpath fly over, or just run.|
+T This is Retribution|QID|42887|M|30.67,44.82|Z|Azsuna|N|To Vindicator Boros who is now close to Illidari Perch. If you have the flightpath fly over, or just run.|
 A Communication Orbs|QID|42888|M|28.06,59.14|Z|Azsuna|N|From Justicar Julia Celeste.|PRE|42887|
 A Mother Ozram|QID|43462|M|28.07,59.16|Z|Azsuna|N|From Justicar Julia Celeste.|PRE|42887|
 C Mother Ozram|QID|43462|M|31.34,50.74|Z|Azsuna|T|Mother Ozram|N|Run up to Illidari Perch and out the other side to get to Mother Ozram.|
@@ -360,23 +365,26 @@ C The Codex of Command|QID|42890|QO|1|M|26.36,52.17;26.11,53.57|CS|Z|Azsuna|T|Ja
 C The Codex of Command|QID|42890|QO|2|M|25.62,55.23|Z|Azsuna|N|Break the first lock.|
 C The Codex of Command|QID|42890|QO|3|M|25.68,55.65|Z|Azsuna|N|Break the second lock.|
 C The Codex of Command|QID|42890|QO|4|M|25.96,55.34|Z|Azsuna|N|Break the third lock.|
-U Dalaran Hearthstone|QID|42890|M|25.96,55.34|Z|Azsuna|U|140192|N|Return to your class hall to turn in the quest.|ACTIVE|42890|
-T The Codex of Command|QID|42890|M|57.79,32.50|N|To Vindicator Boros.|
+H Dalaran|QID|42890|M|25.96,55.34|Z|Azsuna|U|140192|N|Return to your class hall to turn in the quest.|ACTIVE|42890|
+T The Codex of Command|QID|42890|M|49.34,71.59|N|To Vindicator Boros.|
 U Squire's Oath|QID|42851|U|140929|N|Use to get a free squire.|PRE|42890|
-A Champion: Vindicator Boros|QID|42851|M|57.79,32.50|N|From/To Vindicator Boros.|PRE|42890|
-A Champion: Justicar Julia Celeste|QID|42852|M|57.80,32.51|N|From/To Justicar Julia Celeste.|PRE|42890|
+A Champion: Vindicator Boros|QID|42851|M|49.34,71.59|N|From/To Vindicator Boros.|PRE|42890|
+A Champion: Justicar Julia Celeste|QID|42852|M|50.44,72.54|N|From/To Justicar Julia Celeste.|PRE|42890|
 
 ;Chapter 2
-A Cracking the Codex|QID|43486|M|57.78,32.51|N|From Aponi Brightmane|PRE|42851+42852|
+A Cracking the Codex|QID|43486|M|48.21,72.71|LVL|103|N|From Aponi Brightmane|PRE|42851+42852|
 A Silver Hand Knights|QID|43494|M|52.35,78.03|N|From Lord Grayson Shadowbreaker.|PRE|42851+42852|
 C Silver Hand Knights|QID|43494|M|58.83,38.90|N|You have access to some tougher recruits. Train them. Don't forget to come back and pick them up.|
 T Silver Hand Knights|QID|43494|M|58.83,38.90|N|From Commander Born.|
-R Dalaran Portal|QID|43486|M|37.9,63.73|CC|N|Take the portal to Dalaran|ACTIVE|43486|
+R Dalaran|QID|43486|M|37.9,63.73|CC|N|Take the portal to Dalaran|ACTIVE|43486|
 T Cracking the Codex|QID|43486|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang beside the north bank.|
 A The Fel Lexicon|QID|43487|PRE|43486|M|44.58,23.09|Z|Dalaran@Dalaran70|NA|N|From Delas Moonfang. This is a dungeon quest, so find friends or queue when ready.(Violet Hold requires minimum level 105)|
-A Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|PRE|43486|
+C The Fel Lexicon|QID|43487|LVL|105|N|Use Group finder to run the Violet Hold Dungeon.|
 t The Fel Lexicon|QID|43487|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang.|
+A Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|PRE|43486|LVL|103|
+C Blood of Our Enemy|QID|43488|M|53.49,78.52|N|Use Command Board: "Blood of Our Enemy" Missions.|
 t Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang.|
+
 A Translation: Danger!|QID|43535|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|PRE|43488+43487|
 T Translation: Danger!|QID|43535|M|48.37,72.77|N|To Aponi Brightmane back in your order hall.|
 A Lord Ravencrest|QID|43493|M|52.31,78.22|NA|N|From Lord Grayson Shadowbreaker.|PRE|43535|
@@ -402,7 +410,7 @@ C Allies of the Light|QID|43491|M|43.64,17.75|QO|2|Z|Niskara#1078|NC|N|Click on 
 C Allies of the Light|QID|43491|M|49.10,61.20|QO|1|Z|Niskara#1078|US|NC|N|Finish rescuing the paladins and priests scattered thru the area. Diseased cast cleanse, Trapped cast Blessing of Freedom, injured cast a heal.|
 C The Mind of the Enemy|QID|43540|QO|4|M|24.16,46.23|Z|Niskara#1078|N|Kill Brood Queen Aramis.|
 C The Mind of the Enemy|QID|43540|QO|5|M|26.47,40.61|Z|Niskara#1078|NC|N|Click on the Mysterious Stranger.|
-H Dalaran|QID|43540|U|140192|M|26.47,40.61|Z|Niskara#1078|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
+H Dalaran|QID|43540|ACTIVE|43540|U|140192|M|26.47,40.61|Z|Niskara#1078|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
 T Allies of the Light|QID|43491|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
 T The Mind of the Enemy|QID|43540|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
 A United as One|QID|43541|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43540+43491|
@@ -511,13 +519,13 @@ C Report to Kur'talos|QID|44479|SO|1|M|42.4,46.56|Z|BlackRookHoldScenario|NC|N|L
 C Repair the Portal|QID|44479|SO|2|M|42.0,46.2|Z|BlackRookHoldScenario|NC|N|Click on the portal to restore it.|
 C The Road to Fel|QID|44479|SO|3|M|44.3,49.57|Z|BlackRookHoldScenario|N|Rt Click to autoattack Xalian Felblaze. After a bit, you will a "6" button will allow you to sacrifice one of the mages, once you do, "1" will appear, use it to damage Xalian.|
 C No Man An Island|QID|44479|SO|4|S|M|44.5,51.23;41.0,51.44|CS|Z|BlackRookHoldScenario|N|Activate the remaining portals.|
-A Felspawns of Lothros|QID|44414|M|40.4,53.03|Z|BlackRookHoldScenario|N|From Jared Shadowsong.|
+A Felspawns of Lothros|QID|44414|PRE|44466|M|40.4,53.03|Z|BlackRookHoldScenario|N|From Jared Shadowsong.|
 C Felspawns of Lothros|QID|44414|M|40.4,53.03|Z|BlackRookHoldScenario|N|Help Jared kill Lothros.|
 T Felspawns of Lothros|QID|44414|M|40.4,53.03|Z|BlackRookHoldScenario|N|To Jared Shadowsong.|
-A The Red Axe|QID|44415|M|40.4,53.03|Z|BlackRookHoldScenario|N|From Jared Shadowsong.|
+A The Red Axe|QID|44415|PRE|44466|M|40.4,53.03|Z|BlackRookHoldScenario|N|From Jared Shadowsong.|
 C The Red Axe|QID|44415|M|39.0,51.30;40.6,50.93;41.4,49.87|CS|Z|BlackRookHoldScenario|N|Click on the unstable portals to close them.|
 T The Red Axe|QID|44415|M|43.85,50.34|Z|BlackRookHoldScenario|N|To Broxigar the Red.|
-A Hunter of Night|QID|44416|M|43.85,50.34|Z|BlackRookHoldScenario|N|From Broxigar the Red.|
+A Hunter of Night|QID|44416|PRE|44466|M|43.85,50.34|Z|BlackRookHoldScenario|N|From Broxigar the Red.|
 C Hunter of Night|QID|44416|M|43.0,50.29|Z|BlackRookHoldScenario|N|Kill the demon.|
 T Hunter of Night|QID|44416|M|41.6,50.56|Z|BlackRookHoldScenario|N|To Broxigar the Red .|
 C No Man An Island|QID|44479|SO|4|US|M|44.53,51.23;40.98,51.44;43.71,50.88|CS|Z|BlackRookHoldScenario|N|Click the last portals.|
@@ -527,22 +535,25 @@ C When Good Men Do Nothing|QID|44479|SO|6;2|M|42.8,48.4|Z|BlackRookHoldScenario|
 C Ravencrest's Legacy|QID|44479|M|42.8,48.4|Z|BlackRookHoldScenario|US|
 T Ravencrest's Legacy|QID|44479|M|52.46,69.29|N|To Light's Heart, back in your order hall.|
 A In My Father's House|QID|44480|M|52.46,69.29|N|From Light's Heart. Requires Artifact Knowledge >=5. (no way for guide to determine if you are eligible).|PRE|44479|
-P Dalaran|QID|44480|M|38.11,63.38|N|Click on the portal to Dalaran.|
-P Orgrimar|QID|44480|M|38.11,63.38|Z|Dalaran@Dalaran70|N|Click on the portal to Orgrimar.|FACTION|HORDE|
-P Stormwind|QID|44480|M|0,0|Z|Dalaran@Dalaran70|N|Click on the portal to Stormwind.|FACTION|ALLIANCE|
-P Mt Hyjal|QID|44480|M|0,0|Z|Stormwind City|N|Click on the portal to Mt Hyjal.|FACTION|ALLIANCE|
-R Temple of Zin-Malor - Azshara|QID|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|
+P Dalaran|QID|44480|ACTIVE|44480|M|38.11,63.38|N|Click on the portal to Dalaran.|
+P Orgrimar|QID|44480|ACTIVE|44480|M|38.11,63.38|Z|Dalaran@Dalaran70|N|Click on the portal to Orgrimar.|FACTION|HORDE|
+F Bilgewater Harbor|QID|44480|ACTIVE|44480|QO|1|M|49.43,59.20|Z|Orgrimmar|N|Talk to Doras to take the Flight Path. If you want to fly directly, or don't have this Flight path, click this step to skip it.|
+P Stormwind|QID|44480|ACTIVE|44480|M|0,0|Z|Dalaran@Dalaran70|N|Click on the portal to Stormwind.|FACTION|ALLIANCE|
+P Mount Hyjal|QID|44480|ACTIVE|44480|M|0,0|Z|Stormwind City|N|Click on the portal to Mount Hyjal.|FACTION|ALLIANCE|
+R Temple of Zin-Malor - Azshara|QID|44480|ACTIVE|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
+H Dalaran|QID|44480|ACTIVE|44480|M|35.13,49.90|Z|Azshara|U|140192|N|Return to your class hall to turn in the quest.|
 T In My Father's House|QID|44480|M|52.46,69.29|N|Return to Light's Heart in your order hall.|
 A Destiny Unfulfilled|QID|44481;44496;44497|M|52.46,69.29|N|From Light's Heart.|PRE|44480|
 P Dalaran|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|38.11,63.38|N|Click on the portal to Dalaran.|
 P Shattrath|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|
-R Shadowmoon Valley|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
+R Shadowmoon Valley|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
 C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+H Dalaran|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|U|140192|N|Return to your class hall to turn in the quest.|
 T Destiny Unfulfilled|QID|44481;44496;44497|M|52.46,69.29|N|Return to Light's Heart in your order hall.|
-A The Power Within|QID|43496|M|37.76,54.82|N|From Image of Kalec. prereq either AK>=10 or finishing paladin campaign.|
-P Dalaran|QID|43496|M|37.53,64.07|N|Take the portal to Dalaran from your order hall.|
-F Azurewing Repose|QID|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+A The Power Within|QID|43496|PRE|44480|M|37.76,54.82|N|From Image of Kalec. prereq either AK>=10 or finishing paladin campaign.|
+P Dalaran|QID|43496|ACTIVE|43496|M|37.53,64.07|N|Take the portal to Dalaran from your order hall.|
+F Azurewing Repose|QID|43496|ACTIVE|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
 T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
 A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 

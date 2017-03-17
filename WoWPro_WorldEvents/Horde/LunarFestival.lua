@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2017-03-17 14:11
+-- Who: Ludovicus
+-- Log: 1 Syntax fix
+
+-- URL: http://wow-pro.com/node/3452/revisions/28290/view
 -- Date: 2017-03-05 18:55
 -- Who: Ludovicus
 -- Log: Float the level
@@ -298,7 +303,7 @@ F Nordrassil|QID|29740|N|Take the portal to Mount Hyjal.|M|51.13,38.27|Z|Orgrimm
 A Evershade the Elder|QID|29740|M|62.54,22.82|Z|Mount Hyjal|N|From Elder Evershade|LVL|80|
 A Windsong the Elder|QID|29739|M|26.69,62.05|Z|Mount Hyjal|N|From Elder Windsong|LVL|80|
 
-F Thundermar|QID|29736||N|Take the portal to the Twilight Highlands.|M|50.21,39.44|Z|Orgrimmar@Orgrimmar|LVL|84|
+F Thundermar|QID|29736|N|Take the portal to the Twilight Highlands.|M|50.21,39.44|Z|Orgrimmar@Orgrimmar|LVL|84|
 A Darkfeather the Elder|QID|29736|M|51.87,33.07|Z|Twilight Highlands|N|From Elder Darkfeather|LVL|84|
 A Firebeard the Elder|QID|29737|M|50.91,70.45|Z|Twilight Highlands|N|From Elder Firebeard|LVL|84|
 R Dragonmaw Port|QID|29738|M|73.58,53.52|Z|Twilight Highlands|N|Take the portal back to Orgrimmar.|LVL|84|

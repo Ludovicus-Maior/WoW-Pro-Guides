@@ -34,9 +34,9 @@ C Strat by Hazelnuttygames@Youtube|QID|40298|STRATEGY|Hazel@YT|N|1) Use any move
 C Strat by Hazelnuttygames@Youtube|QID|40298|STRATEGY|Hazel@YT|N|1) Evanescence\n2) Arcane Blast\n3) Arcane Blast\n4) Wish\n5) Spam Arcane Blast until Coach dies|SELECT|2|DEAD|2,1|
 C Strat by Hazelnuttygames@Youtube|QID|40298|STRATEGY|Hazel@YT|N|1) Evanescence\n2) Spam Arcane Blast until your Hyjal Wisp dies.\n3) Switch in your Nightmare Bell|SELECT|2|SWITCH|3|
 C Strat by Hazelnuttygames@Youtube|QID|40298|STRATEGY|Hazel@YT|N|1a) If Sir Murkeston is around 600 - 700 health, use Call Darkness\n1b) If Sir Murkeston has more health than that, then first use Shadow Shock and then Call Darkness\n2) Spam Shadow Shock\n3) If you are down to around 400 health, use Dark Rebirth|SELECT|3|
-C Strat by Xu-Fu@wow-petguide.com|QID|40298|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Curse of Doom\n2) Haunt\n3) Switch in your Nexus Whelpling|SELECT|1|SWITCH|2|
-C Strat by Xu-Fu@wow-petguide.com|QID|40298|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Arcane Storm\n2) Mana Surge\n3) Arcane Storm and Tail Sweep until your Nexus Whelpling dies\n4) Switch back to your Unborn Val'kyr|SELECT|2|SWITCH|1|
-C Strat by Xu-Fu@wow-petguide.com|QID|40298|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Shadow Shock until all clear and nothing's moving.\n(If your Unborn Val'kyr dies too early, bring in your leveling pet and use standard attacks to kill Sir Murkeston)|SELECT|1|SWITCH|3|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|40298|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Curse of Doom\n2) Haunt\n3) Switch in your Nexus Whelpling|SELECT|1|SWITCH|2|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|40298|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Arcane Storm\n2) Mana Surge\n3) Arcane Storm and Tail Sweep until your Nexus Whelpling dies\n4) Switch back to your Unborn Val'kyr|SELECT|2|SWITCH|1|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|40298|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Shadow Shock until all clear and nothing's moving.\n(If your Unborn Val'kyr dies too early, bring in your leveling pet and use standard attacks to kill Sir Murkeston)|SELECT|1|SWITCH|3|
 
 ;Fight Night: Tiffany Nelson, nearest FP is Krasus' Landing - Dalaran
 ;UNTESTED
@@ -78,8 +78,8 @@ C Blottis|QID|42063|PET1|Unborn Val'kyr;71163;1+1+2|PET2|Ikky;86447;1+1+1|PET3|L
 C Blottis|QID|42063|PET1|Ikky;86447;1+1+1|PET2|Crow;67443;1+2+2|PET3|Leveling;;;|STRATEGY|Hazel@YT|
 C Strat by Hazelnuttygames@Youtube|QID|42063|STRATEGY|Hazel@YT|N|1) Black Claw\n2) Flock\n3) If needed, switch in your Crow after Ikky dies|SELECT|1|SWITCH|2|
 C Strat by Hazelnuttygames@Youtube|QID|42063|STRATEGY|Hazel@YT|N|1) Call Darkness\n2) Nocturnal Strike, GG|SELECT|2|
-C Strat by Xu-Fu@wow-petguide.com|QID|42063|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Unholy Ascension\n2) Switch in your Ikky|SELECT|1|SWITCH|2|
-C Strat by Xu-Fu@wow-petguide.com|QID|42063|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Black Claw\n2) Flock and GG|SELECT|2|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|42063|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Unholy Ascension\n2) Switch in your Ikky|SELECT|1|SWITCH|2|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|42063|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Black Claw\n2) Flock and GG|SELECT|2|
 
 ;The Wine's Gone Bad, nearest FP is Challiane's Terrace - Azsuna
 ;TESTED only once
@@ -159,7 +159,7 @@ F Sylvan Falls|AVAILABLE|41624|N|Fly to Sylvan Falls in Highmountain|
 A Rocko Needs a Shave|QID|41624|M|59.05, 44.99|Z|1024/20|N|Click on Rocko to start the battle.|
 C Rocko|QID|41624|PET1|Black Lamb;60649;1+2+1|PET2|Spring Rabbit;32791;1+2+1|PET3|Rabbit;61080;1+2+1|STRATEGY|Hazel@YT|
 C Strat by Hazelnuttygames@Youtube|QID|41624|STRATEGY|Hazel@YT|N|1) Soothe\n2) Bleat\n3) Pass the turns or Hoof until Soothe comes off CD\n4) Repeat 1 - 3\n5) Switch to your Spring Rabbit if Black Lamb dies|SELECT|1|SWITCH|2|
-C Strat by Hazelnuttygames@Youtube|QID|41624|STRATEGY|Hazel@YT|N|1) Dodge\n2) Pass\n3) Burrow\4) Pass until Dodge comes off CD\n5) Repeat 1 - 4
+C Strat by Hazelnuttygames@Youtube|QID|41624|STRATEGY|Hazel@YT|N|1) Dodge\n2) Pass\n3) Burrow\4) Pass until Dodge comes off CD\n5) Repeat 1 - 4|
 
 ;Tiny Poacher, Tiny Animals, nearest FP is The Witchwood - Highmountain
 ;TESTED only once
@@ -230,9 +230,9 @@ C Strat by Hazelnuttygames@Youtube|QID|41944|STRATEGY|Hazel@YT|N|1) Use any move
 C Strat by Hazelnuttygames@Youtube|QID|41944|STRATEGY|Hazel@YT|N|1) Burrow\n2) Dodge\n3) Spam Scratch and use Burrow on cooldown until Mist Wraith dies|SELECT|2|DEAD|2,1|
 C Strat by Hazelnuttygames@Youtube|QID|41944|STRATEGY|Hazel@YT|N|1) When Crawdead comes out, use Scratch, then Dodge\n2 Resume spamming Scratch while using Burrow and Dodge as they come up.\n3) Switch in your Toothy when your Rabbit dies.|SELECT|2|SWITCH|3|
 C Strat by Hazelnuttygames@Youtube|QID|41944|STRATEGY|Hazel@YT|N|1) Finish off Gnaw with your Toothy and GG|SELECT|3|
-C Strat by Xu-Fu@wow-petguide.com|QID|41944|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Hoof until Mist Wraith resurrects\n2) Consume Magic|SELECT|1|DEAD|2,1|
-C Strat by Xu-Fu@wow-petguide.com|QID|41944|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Hoof until your Ghastly Kid resurrects\n2) Ghostly Bite|SELECT|1|SWITCH|2|
-C Strat by Xu-Fu@wow-petguide.com|QID|41944|STRATEGY|Xu-Fu@WoWPetGuide|N|1) If Gnawdead is still alive, use Missile until it's dead\n2) Decoy\n3) Missile until Gnaw is below 618 health\n3) Explode - GG|SELECT|2|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|41944|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Hoof until Mist Wraith resurrects\n2) Consume Magic|SELECT|1|DEAD|2,1|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|41944|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Hoof until your Ghastly Kid resurrects\n2) Ghostly Bite|SELECT|1|SWITCH|2|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|41944|STRATEGY|Xu-Fu@WoWPetGuide|N|1) If Gnawdead is still alive, use Missile until it's dead\n2) Decoy\n3) Missile until Gnaw is below 618 health\n3) Explode - GG|SELECT|2|
 
 ;My Beasts's Bidding, nearest FP is Greywatch - Stormheim
 ;TESTED only once
@@ -240,10 +240,10 @@ N My Beasts's Bidding|QID|40278|
 F Greywatch|AVAILABLE|40278|N|Fly to Greywatch in Stormheim|
 A My Beasts's Bidding|QID|40278|M|78.41, 57.32|Z|Stormheim|N|Talk to Robert Craig to start the battle.|
 C Robert Craig|QID|40278|PET1|Cogblade Raptor;68841;2+1+1|PET2|Leveling;;;|PET3|Darkmoon Tonk;55356;1+1+2|STRATEGY|Xu-Fu@WoWHead|
-C Strat by Xu-Fu@wow-petguide.com|QID|40278|STRATEGY|Xu-Fu@WoWHead|N|Due to random factors this strategy sometimes fails in the beginning. Give it another try worst case.\n1) Exposed Wounds\n2) Batter until Thrugtusk is dead|SELECT|1|DEAD|2,1|
-C Strat by Xu-Fu@wow-petguide.com|QID|40278|STRATEGY|Xu-Fu@WoWHead|N|1) Batter\n2) Exposed Wounds\n3) Batter until Wumpas is dead\n4) Switch in your leveling pet|SELECT|1|SWITCH|2|
-C Strat by Xu-Fu@wow-petguide.com|QID|40278|STRATEGY|Xu-Fu@WoWHead|N|1) Switch in your Darkmoon Tonk|SELECT|2|SWITCH|3|
-C Strat by Xu-Fu@wow-petguide.com|QID|40278|STRATEGY|Xu-Fu@WoWHead|N|1) Shock and Awe\n2) Ion Cannon|SELECT|3|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|40278|STRATEGY|Xu-Fu@WoWHead|N|Due to random factors this strategy sometimes fails in the beginning. Give it another try worst case.\n1) Exposed Wounds\n2) Batter until Thrugtusk is dead|SELECT|1|DEAD|2,1|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|40278|STRATEGY|Xu-Fu@WoWHead|N|1) Batter\n2) Exposed Wounds\n3) Batter until Wumpas is dead\n4) Switch in your leveling pet|SELECT|1|SWITCH|2|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|40278|STRATEGY|Xu-Fu@WoWHead|N|1) Switch in your Darkmoon Tonk|SELECT|2|SWITCH|3|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|40278|STRATEGY|Xu-Fu@WoWHead|N|1) Shock and Awe\n2) Ion Cannon|SELECT|3|
 
 ;Oh, Ominitron, nearest FP is Stormtorn Foothills - Stormheim
 ;TESTED, working okay
@@ -274,7 +274,7 @@ N The Master of Pets|QID|41895|
 F Meredil|AVAILABLE|41895|N|Fly to Meredil in Suramar|
 A The Master of Pets|QID|41895|M|52.0, 55.0|Z|Suramar|N|Closest teleport location is the Sanctum of Order.\nTalk to Aulier to start the battle.|
 C The Master of Pets|QID|41895|PET1|Sprite Darter Hatchling;9662;2+1+1|STRATEGY|Xu-Fu@WoWPetGuide|
-C Strat by Xu-Fu@wow-petguide.com|QID|41895|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Moonfire\n2) Arcane Blast x3\n3) Evanescence\n4) Arcane Blast x5\n5) Evanescence\n6) Arcane Blast until Dignity is dead and GG|SELECT|1|
+C Strat byeval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%22%3e%58%75%2d%46%75%40%77%6f%77%2d%70%65%74%67%75%69%64%65%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))|QID|41895|STRATEGY|Xu-Fu@WoWPetGuide|N|1) Moonfire\n2) Arcane Blast x3\n3) Evanescence\n4) Arcane Blast x5\n5) Evanescence\n6) Arcane Blast until Dignity is dead and GG|SELECT|1|
 
 ]]
 end)

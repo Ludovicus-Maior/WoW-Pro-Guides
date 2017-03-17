@@ -4,6 +4,36 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2017-03-17 14:09
+-- Who: Ludovicus
+-- Log: Syntax and PRE for LudoHallowPanH
+
+-- URL: http://wow-pro.com/node/3441/revisions/28512/view
+-- Date: 2017-03-17 14:07
+-- Who: Ludovicus
+-- Log: Syntax for LudoHallowOUT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28511/view
+-- Date: 2017-03-17 14:05
+-- Who: Ludovicus
+-- Log: Syntax for LudoHallowNOR
+
+-- URL: http://wow-pro.com/node/3441/revisions/28510/view
+-- Date: 2017-03-17 14:03
+-- Who: Ludovicus
+-- Log: 1 Syntax fix for LudoHallowKAL
+
+-- URL: http://wow-pro.com/node/3441/revisions/28509/view
+-- Date: 2017-03-17 14:02
+-- Who: Ludovicus
+-- Log: 1 Syntax fix for LudoHallowEK
+
+-- URL: http://wow-pro.com/node/3441/revisions/28508/view
+-- Date: 2017-03-17 14:00
+-- Who: Ludovicus
+-- Log: PRE and syntax for LudoHallowCAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28285/view
 -- Date: 2017-03-05 18:53
 -- Who: Ludovicus
 -- Log: Float the level
@@ -184,7 +214,7 @@ WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Northrend")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Wall of Text Part 1 of 2|QID|12366|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".
+N Wall of Text Part 1 of 2|QID|12366|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".|
 N Wall of Text Part 2 of 2|QID|12366|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
 
 R Borean Tundra|QID|13468|N|Run to the Northrend Zeppelin to go to Borean Tundra.|M|44.6,62.6|Z|Orgrimmar|
@@ -231,7 +261,7 @@ A Candy Bucket|QID|13462|M|30.93,37.15|Z|The Storm Peaks|N|From the Candy Bucket
 F Dalaran|M|30.6,36.4|QID|13463|Z|The Storm Peaks|N|Fly to Dalaran.|U|37586|
 A Candy Bucket|QID|13463|M|48.16,41.25|Z|Dalaran City@Dalaran|N|Amisi Azuregaze, The Legerdemain Lounge)|
 A Candy Bucket|QID|13474|M|66.85,29.58|Z|Dalaran City@Dalaran|N|Uda the Beast, Sunreaver's Sanctuary|
-A Candy Bucket|QID|13472|M|38.24,59.61|Z|The Underbelly@Dalaran|U|37586||N|Head down into the Underbelly from the entrance next to the stairs of the Silver Enclave. From the Candy Bucket. (Dalaran, The Underbelly)|
+A Candy Bucket|QID|13472|M|38.24,59.61|Z|The Underbelly@Dalaran|U|37586|N|Head down into the Underbelly from the entrance next to the stairs of the Silver Enclave. From the Candy Bucket. (Dalaran, The Underbelly)|
 F Nessingwary Base Camp|M|72.8,45.6|QID|12950|Z|Dalaran City@Dalaran|N|Fly to Nessingwary Base Camp, Sholazar Basin.|U|37586|
 A Candy Bucket|QID|12950|M|26.61,59.20|Z|Sholazar Basin|N|Purser Boulian, Nessingwary Base Camp|
 

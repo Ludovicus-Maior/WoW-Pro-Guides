@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2017-03-17 13:50
+-- Who: Ludovicus
+-- Log: Add one PRE to LudoHallowPanA
+
+-- URL: http://wow-pro.com/node/3440/revisions/28502/view
+-- Date: 2017-03-17 13:49
+-- Who: Ludovicus
+-- Log: Added PREs to TwiHollEK
+
+-- URL: http://wow-pro.com/node/3440/revisions/28284/view
 -- Date: 2017-03-05 18:53
 -- Who: Ludovicus
 -- Log: Float the level
