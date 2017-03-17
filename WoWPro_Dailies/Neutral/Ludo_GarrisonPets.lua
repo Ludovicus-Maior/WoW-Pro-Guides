@@ -126,7 +126,7 @@ C Harbinger|QID|85682.1|STRATEGY|MagmaWave|N|1) Spam [ability=319/magma-wave] th
 
 ; Day 14: Stitches Jr.
 ! Stitches Jr.|NPC|85685|QID|85685.1|
-C Unborn Val'kyr/Sprite Darter Hatchling/Fjord Worg Pup|QID|85685.1|PET1|Iron Starlette;77221;1+1+1||PET2|Sprite Darter Hatchling;9662;1+2+1|PET3|Fjord Worg Pup;62669;2+2+2|STRATEGY|UV/Darter/Pup|
+C Unborn Val'kyr/Sprite Darter Hatchling/Fjord Worg Pup|QID|85685.1|PET1|Iron Starlette;77221;1+1+1|PET2|Sprite Darter Hatchling;9662;1+2+1|PET3|Fjord Worg Pup;62669;2+2+2|STRATEGY|UV/Darter/Pup|
 C Starlette|QID|85685.1|STRATEGY|UV/Darter/Pup|N|1) [ability=459/wind-up], [ability=208/supercharge], [ability=459/wind-up].\n2) [ability=459/wind-up], pass, [ability=208/supercharge], [ability=459/wind-up]!|SELECT|1|DEAD|1,1|SWITCH|2|
 C Sprite Darter Hatchling|QID|85685.1|STRATEGY|UV/Darter/Pup|N|3)Exchange Life|SELECT|2|SWITCH|3|
 C Fjord Worg Pup|QID|85685.1|STRATEGY|UV/Darter/Pup|N|4) Howl\n5) Flurry until dead|SELECT|3|DEAD|2,1|
