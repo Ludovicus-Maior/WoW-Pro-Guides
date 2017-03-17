@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2017-03-17 17:10
+-- Who: Ludovicus
+-- Log: Restore the lost CraToBarA guide
+
+-- URL: http://wow-pro.com/node/3414/revisions/28316/view
+-- Date: 2017-03-10 23:08
+-- Who: Ludovicus
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3414/revisions/27154/view
 -- Date: 2015-03-06 19:33
 -- Who: Ludovicus
 

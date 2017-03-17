@@ -1,4 +1,9 @@
-local guide = WoWPro:RegisterGuide("LudoGarrisonPets","Dailies","Draenor","Ludovicus","Neutral")
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+local guide = WoWPro:RegisterGuide("LudoGarrisonPets", "Dailies", "Draenor", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,100, 100, 100)
 WoWPro:GuideIcon(guide,"ACH",9463)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Garrison Daily Pet Battles","Pets")
@@ -24,14 +29,12 @@ C Strategy by Sepsis@Warcraftpets|QID|79180.1|STRATEGY|Sepsis@Warcraftpets|N|1) 
 C Strategy by Sepsis@Warcraftpets|QID|79180.1|STRATEGY|Sepsis@Warcraftpets|N|If Puzzle has the [ability=311/dodge] buff on him:\n  [ability=459/wind-up][ability=455/batter][ability=459/wind-up] ...\nIf not:\n  [ability=455/batter][ability=459/wind-up][ability=459/wind-up]... |SELECT|1|SWITCH|1|DEAD|2,3|
 C Strategy by Sepsis@Warcraftpets|QID|79180.1|STRATEGY|Sepsis@Warcraftpets|N|Sometimes Deebs makes trouble.\nJust use [ability=455/batter][ability=459/wind-up][ability=459/wind-up] to clean up.|
 
-
 ; Day 2: Brutus and Rukus
 ! Brutus, Ruckus|NPC|85561;85655|QID|85561.1|
 C Iron Starlette/Darkmoon Zepplin|QID|85561.1|PET1|Iron Starlette;77221;1+1+1|PET2|Darkmoon Zepplin;55367;1+1+2|PET3|Leveling;;;L>20|STRATEGY|IS/DZ|
 C Iron Starlette|QID|85561.1|STRATEGY|IS/DZ|N|Brutus:\n1: [ability=459/wind-up]\n2: Supercharge (kill Brutus)\n3:[ability=459/wind-up] (and die)|SELECT|1|DEAD|1,1|
 C Darkmoon Zepplin|QID|85561.1|STRATEGY|IS/DZ|N|Rukus:\n1: Bombing Run\m2: Missle\n3:Missle (and die)|SELECT|2|DEAD|1,2|
 C Leveling Pet|QID|85561.1|STRATEGY|IS/DZ|N|Leveling:\n1: Best Damage\n2: Best Damage\n3: Bomb Hits|SELECT|3|DEAD|2,3|
-
 
 ; Day 3: Mr. Terrible, Carroteye, and Sloppus
 ! Mr. Terrible, Carroteye, and Sloppus|NPC|85656;85657;85658|QID|85656.1|
@@ -59,7 +62,6 @@ C Pandaren Water Spirit|QID|85660.1|STRATEGY|KissPoolPump|N|1)Whirlpool\n2)Dive\
 
 C Strider|QID|85660.1|STRATEGY|KissPoolPump|N|1)Pump\n2)Pump\n3)Water Jet till won!|SELECT|3|
 
-
 ; Day 6: Kromli and Gromli
 ! Kromli and Gromli|NPC|85662;85663|QID|85662.1|
 C Unborn Val'kyr/Stitched Pup/Leveling|QID|85662.1|PET1|Unborn Val'kyr;71163;2+2+2|PET2|Stitched Pup;68654;1+2+2|PET3|Leveling;;;L>20|STRATEGY|UV/SP|
@@ -68,14 +70,12 @@ C Kromli|QID|85662.1|STRATEGY|UV/SP|N|1) Howl\n2) Diseased Bite\n3) Diseased Bit
 C Gromli|QID|85662.1|STRATEGY|UV/SP|N|1) Curse of Doom\n2) Unholy Ascension\n3) Switch to Pup|SELECT|1|SWITCH|2|
 C Gromli|QID|85662.1|STRATEGY|UV/SP|N|1) Howl\n2) Diseased Bite\n3) Diseased Bite|SELECT|2|DEAD|2,2|
 
-
 ; Day 7: Grubbles, Stings, and Scrags
 ! Grubbles, Scrags, and Stings|NPC|85664;85665;85666|QID|85664.1|
 C Lil' Bad Wolf/Iron Starlette|QID|85664.1|PET1|Lil' Bad Wolf;71014;1+2+1|PET2|Iron Starlette;77221;1+2+1|PET3|Leveling;;|STRATEGY|WolfStar|
 C Grubbles|QID|85664.1|STRATEGY|WolfStar|N|1) Dodge\n2) Howl\n3) Claw spam|SELECT|1|DEAD|2,1|SWITCH|2|
 C Scrags|QID|85664.1|STRATEGY|WolfStar|N|1) Wind-Up\n2) Toxic Smoke\n3) Wind-Up|SELECT|2|DEAD|2,2|
 C Stings|QID|85664.1|STRATEGY|WolfStar|N|1) Wind-Up\n2) Supercharge\n3) Wind-Up|SELECT|2|DEAD|2,3|
-
 
 ; Day 8: Jahan, Samm, and Archimedes
 ! Jahan, Samm, and Archimedes|NPC|85674;85675;85676|QID|85674.1|
@@ -98,8 +98,6 @@ C PWS .vs. Tirs|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n2)Dive\n
 C PWS .vs. Fiero|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n2)Dive\n3) (avoids massive damage attack)\n)4,5) Water Jet\n|SELECT|1|DEAD|1,1|
 C Crab .vs. Fiero|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n 2) Surge Spam!|DEAD|2,2|
 
-
-
 ; Day 11: Rockbiter, Stonechewer, and Acidtooth
 ! Acidtooth, Stonechewer, and Rockbiter|NPC|85679;85680;85681|QID|85679.1|
 C Pandaren Water Spirit/Fox/Unborn Val'kyr|QID|85679.1|PET1|Pandaren Water Spirit;66950;1+2+2|PET2|Fox;85561;110+362|PET3|Unborn Val'kyr;71163;2+2+2|STRATEGY|PWS+Howl|
@@ -109,7 +107,6 @@ C Pandaren Water Spirit|QID|85679.1|STRATEGY|PWS+Howl|N|1)Geyser\n2)Whirlpool\n3
 C Fox|QID|85679.1|STRATEGY|PWS+Howl|N|1)Howl\n2)Dance\n3)Switch to PWS|SELECT|2|DEAD|85680|
 C Pandaren Water Spirit|QID|85679.1|STRATEGY|PWS+Howl|N|1)Whirlpool\n2) Switch to Unborn Val'kyr.|SELECT|1|SWITCH|3|
 C Unborn Val'kyr|QID|85679.1|STRATEGY|PWS+Howl|N|1)Shadow Shock until you win!|DEAD|85681|
-
 
 ; Day 12: Quintessence of Light
 ! Quintessence of Light|NPC|85650|QID|85650.1|

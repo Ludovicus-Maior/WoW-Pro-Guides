@@ -3,6 +3,14 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/exploration_achievements_legion
+-- Date: 2017-03-17 15:31
+-- Who: Ludovicus
+-- Log: Change title to Exploration Achievements - Legion
+
+-- URL: http://wow-pro.com/node/3718/revisions/28521/view
+-- Date: 2017-03-17 15:29
+-- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("LudoExpBrokenIsles","Achievements","Broken Isles","Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,105,110,109)
@@ -84,9 +92,6 @@ F Moonwhisper Gulch|QID|1006690008|M|34.9,31.0|Z|Suramar|ACH|10669;8|
 F Ruins of Elun'eth|QID|1006690009|M|37.0,45.9|Z|Suramar|ACH|10669;9|
 F Suramar City|QID|1006690010|M|46.1,59.8|Z|Suramar|ACH|10669;10|
 F Tel'anor|QID|1006690011|M|42.2,35.5|Z|Suramar|ACH|10669;11|
-
-
-
 
 N Congratulations on exploring the Broken Isles!
 ]]

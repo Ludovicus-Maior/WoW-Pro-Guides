@@ -1,3 +1,8 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide("LudoGarrisonFollowers","Achievements","Draenor","Ludovicus","Neutral")
 WoWPro:GuideIcon(guide,"ACH",9109)
 WoWPro:GuideLevels(guide,90, 100, 95.5)
@@ -5,6 +10,7 @@ WoWPro:GuideSteps(guide, function()
 
 return
 [[
+N A Dozen Garrison Followers|N|This guide helps you get some Garrison Followers with short questlines. More to be added later!|
 A I Am Blook|QID|34279|M|41.27,91.45|Z|Gorgrond|N|Fight him and he will offer to follow you.|
 T I Am Blook|QID|34279|M|41.27,91.45|Z|Gorgrond|N|To Blook|
 
@@ -35,7 +41,6 @@ T Three Feet Under|QID|36864|M|35.8,52.2|Z|Spires of Arak|N|To Benjamin Gibb.|FA
 
 A Leorajh, the Enlightened|QID|37168|M|54.2, 63|Z|Spires of Arak|N|Kill the mobs around him and he will offer to follow.|
 T Leorajh, the Enlightened|QID|37168|M|54.2, 63|Z|Spires of Arak|N|To Leorajh|
-
 
 A Defungination|QID|35077|M|61.47,72.94|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|
 A Spore-be-Gone|QID|35079|M|61.46,72.96|Z|Spires of Arak|N|From Engineer Gazwitz.|
@@ -88,7 +93,6 @@ C Flame On|QID|35298|M|58.88,92.84|Z|Spires of Arak|QO|2|NC|N|Hop in Kimzee's fl
 T Flame On|QID|35298|M|61.47,72.94|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 A Kimzee Pinchwhistle|QID|36062|M|61.47,72.94|Z|Spires of Arak|N|To/From Kimzee Pinchwhistle.|PRE|35298|
 
-
 A Clear!|QID|34761|M|62.86,50.32|Z|Talador|N|From Torben Zapblast|FACTION|Alliance|
 C Clear!|QID|34761|M|61.39,44.41;72.54,53.57;66.89,59.55|Z|Talador|CN|N|Kill and loot the Lakebottom Zappers in the lake.|FACTION|Alliance|
 T Clear!|QID|34761|M|62.86,50.32|Z|Talador|N|To Torben Zapblast|FACTION|Alliance|
@@ -126,7 +130,7 @@ A Temporal Juxtaposition|QID|34472|PRE|34463;34464;34465;34466|M|85.02,31.06|Z|T
 T Temporal Juxtaposition|QID|34472|M|84.55, 31.69|Z|Talador|N|To Image of Archmage Vargoth|
 A The Staff of Archmage Vargoth|QID|36027|PRE|34472|M|84.55, 31.69|Z|Talador|N|From Image of Archmage Vargoth|
 
-; 
+;
 A Services of Dagg|QID|34733|M|61.4, 74.8|Z|Lunarfall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Alliance|
 T Services of Dagg|QID|34733|M|61.4, 74.8|Z|Lunarfall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Alliance|
 A Services of Dagg|QID|34733|M|57.28,15.63|Z|Frostwall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Horde|
