@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2017-03-18 01:16
+-- Who: Emmaleah
+-- Log: add final quests in dungeon and turning in after.
+
+-- URL: http://wow-pro.com/node/3680/revisions/28263/view
 -- Date: 2017-03-04 19:05
 -- Who: Blanckaert
 -- Log: minor change of an order.
@@ -695,6 +700,15 @@ R Talonrest|QID|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdis
 T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note. (Optional) Use your reward (magnifying glass) to determine the true value of the other quest rewards. There is a followup in Dalaran to take care of these goblins at level 110.|RANK|2|
 U Dalaran|QID|43331|U|140192|N|Return to Dalaran (via Hearthstone or however you choose).|RANK|2|
 
+C Halls of Valor: Securing the Aegis|QID|40072|N|If you havent yet done Halls of Valor, its a great time to queue for it and get your ilvl 800 legs (static ilvl even if you are lvl 100). Defeat Odyn (final boss in instance).|
+T Halls of Valor: Securing the Aegis|QID|40072|N|To the Aegis of Aggramar.|
+A Aegis of Aggramar|QID|43349|N|From the Aegis of Aggramar.|PRE|40072|
+C Aegis of Aggramar|QID|43349|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used.|
+T Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Aegis of Aggramar" on the wall.|
+A Pressing the Assault|QID|44545|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349|
+A Isle Hopping|QID|44547|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349;44545|
+A Scouring What Remains|QID|44548|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349;44547|
+
 A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran@Dalaran70|N|From Gazrix Gearlock beside the north bank.|RANK|3|LVL|110|
 F Valdisdall|QID|43331|M|69.84,51.17|Z|Dalaran@Dalaran70|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|LVL|110|
 R Loch Varmad|QID|43331|M|60.52,52.14;67.08,38.84;68.07,31.11|CS|N|Run down this path and across the water to avenge those Tauren and...treasure.|RANK|3|LVL|110|
@@ -703,6 +717,12 @@ $ Treasure Chest|QID|40108|M|68.42,29.60|CS|N|Chest is on the rock, path starts 
 T Time to Collect|QID|43331|M|68.89,26.04|N|To the Sixtriggers' Premium Stash.|LVL|110|RANK|3|
 
 N End of Stormheim|QID|99999|U|140192|N|Return to your Class Order Hall to pick your next zone and tend to your missions.|
+C Pressing the Assault|QID|44545|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Isle Hopping|QID|44547|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Scouring What Remains|QID|44548|N|Go to your order hall and choose the last strike point at your scouting map.|
+T Pressing the Assault|QID|44545|N|To UI Alert.|
+t Isle Hopping|QID|44547|N|To UI Alert.|
+t Scouring What Remains|QID|44548|N|To UI Alert.|
 
 D On to Class Halls|N|This ends Stormheim and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Stormheim and the Death Knight order hall guide will load.|C|DeathKnight|GUIDE|EmmLegionDK|
