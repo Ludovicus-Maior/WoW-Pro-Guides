@@ -56,6 +56,7 @@ function WoWPro.TakeTaxi_NewStyle(index,destination)
             return
         end
     end
+    WoWPro:Warning("Unable to find flight point to: [%s]",destination)
 end
 
 -- Auto-Complete: Get flight point --
@@ -723,6 +724,7 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:RecordTaxiLocations(...)
 		local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 		if WoWPro.action[qidx] == "F" and WoWProCharDB.AutoAccept == true then
+		    -- Shudder: https://github.com/tekkub/wow-ui-source/blob/322cb736a69669f0d8838558ce1960383f7041bc/FrameXML/TaxiFrame.lua#L38
 		    if TaxiFrame_ShouldShowOldStyle() then
 		        WoWPro.TakeTaxi_OldStyle(qidx,WoWPro.step[qidx])
 		    else
