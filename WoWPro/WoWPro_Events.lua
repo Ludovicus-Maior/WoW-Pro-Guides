@@ -487,9 +487,11 @@ function WoWPro.EventHandler(frame, event, ...)
     -- Scenario Tracking
     if event == "SCENARIO_UPDATE" then
         WoWPro.ProcessScenarioStage(...)
+        WoWPro:UpdateGuide(event)
     end
     if event == "SCENARIO_CRITERIA_UPDATE" or event == "CRITERIA_COMPLETE" then
         WoWPro.ProcessScenarioCriteria(false)
+        WoWPro:UpdateGuide(event)
     end
 
 	-- Noticing if we are doing a pet battle!
