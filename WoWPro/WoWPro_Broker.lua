@@ -706,6 +706,7 @@ function WoWPro.NextStep(k,i)
                  WoWPro.ProcessScenarioStage("NextStep(Sneak)")
                  if not WoWPro.Scenario then
                     skip = true
+                    WoWPro:dbp("Step %s [%s/%s] skipped as no Scenario active",WoWPro.action[k],WoWPro.step[k],tostring(QID))
                     break
                  end
             else
@@ -713,10 +714,12 @@ function WoWPro.NextStep(k,i)
                 -- Not in a scenario
                 if not name then
                     skip = true
+                    WoWPro:dbp("Step %s [%s/%s] skipped as Scenario de-activated (1)",WoWPro.action[k],WoWPro.step[k],tostring(QID))
                     break
                 end
                 if name ~= WoWPro.Scenario.name then
                      WoWPro.ProcessScenarioStage("NextStep(Started)")
+                     WoWPro:dbp("Step %s [%s/%s]  Scenario mismatch [%s] vs [%s] ",WoWPro.action[k],WoWPro.step[k],tostring(QID), name, WoWPro.Scenario.name)
                      if not WoWPro.Scenario then
                         skip = true
                         break
@@ -732,31 +735,32 @@ function WoWPro.NextStep(k,i)
             end
             objective = tonumber(objective) or 0
             if not WoWPro.Scenario then
+                WoWPro:dbp("Step %s [%s/%s] skipped as Scenario de-activated (2)",WoWPro.action[k],WoWPro.step[k],tostring(QID))
                 skip = true
                 break
             end
             if WoWPro.Scenario.currentStage > stage then
                 WoWPro.CompleteStep(k, "Stage completed: "..WoWPro.sobjective[k])
+                skip = true
+                break
+            end
+           if WoWPro.Scenario.currentStage < stage then
+               WoWPro.why[k] = "NextStep(): Stage is not active yet."
+               skip = true
+               break
+           end
+           if objective > 0 then
+               if objective > WoWPro.Scenario.numCriteria then
+                   WoWPro:dbp("Big scenario objective [%s] at step %s [%s]. objective=%d, numCriteria=%d", WoWPro.sobjective[k], WoWPro.action[k],WoWPro.step[k], objective, WoWPro.Scenario.numCriteria)
                    skip = true
                    break
                end
-               if WoWPro.Scenario.currentStage < stage then
-                   WoWPro.why[k] = "NextStep(): Stage is not active yet."
+               if WoWPro.Scenario.Criteria[objective].completed then
+                   WoWPro.CompleteStep(k, "Scenario objective completed:"..WoWPro.sobjective[k])
                    skip = true
                    break
-               end
-               if objective > 0 then
-                   if objective > WoWPro.Scenario.numCriteria then
-                       WoWPro:dbp("Big scenario objective [%s] at step %s [%s]. objective=%d, numCriteria=%d", WoWPro.sobjective[k], WoWPro.action[k],WoWPro.step[k], objective, WoWPro.Scenario.numCriteria)
-                       skip = true
-                       break
-                   end
-                   if WoWPro.Scenario.Criteria[objective].completed then
-                       WoWPro.CompleteStep(k, "Scenario objective completed:"..WoWPro.sobjective[k])
-                       skip = true
-                       break
-                   end
-               end
+               end 
+           end
         end
 
 
@@ -1600,8 +1604,6 @@ function WoWPro.ProcessScenarioStage(flag)
     if WoWPro.Recorder then
         if WoWPro.Recorder.ProcessScenarioStage then
             WoWPro.Recorder.ProcessScenarioStage(WoWPro.Scenario)
-        else
-            WoWPro:dbp("No WoWPro.Recorder.ProcessScenarioCriteria to call.")
         end
     end
 end
@@ -1648,8 +1650,6 @@ function WoWPro.ProcessScenarioCriteria(punt)
             else
                 WoWPro:dbp("No WoWPro.Recorder.ProcessScenarioCriteria to call.")
             end
-        else
-            WoWPro:dbp("WoWPro.ProcessScenarioCriteria(): No WoWPro.Recorder!")
         end
     else
         WoWPro:dbp("WoWPro.ProcessScenarioCriteria(): PUNT!")
