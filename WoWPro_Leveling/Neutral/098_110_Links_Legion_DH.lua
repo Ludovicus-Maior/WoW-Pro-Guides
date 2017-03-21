@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_artifact_and_class_hall
+-- Date: 2017-03-21 22:42
+-- Who: Ludovicus
+-- Log: Fixes to [Confrontation at the Black Temple]
+
+-- URL: http://wow-pro.com/node/3685/revisions/28530/view
 -- Date: 2017-03-17 22:41
 -- Who: Ludovicus
 -- Log: Prep for [Working With the Wardens]
@@ -227,19 +232,19 @@ t Back in Black|QID|42801|M|59.93,48.92|Z|Upper Command Center@DemonHunterOrderH
 A Confrontation at the Black Temple|QID|42634;42921|PRE|42801|LVL|103|M|59.93,48.92|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Matron Mother Malevolence.|
 C Confrontation at the Black Temple|QID|42634;42921|M|62.46,50.04|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Gateway Summoned.|
 P Confrontation at the Black Temple|QID|42634;42921|M|62.46,50.04|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|2|N|Click on Gateway.|
-C You CAN Go Home|Z|BlackTemple|SO|1|CHAT|N|You have successfully pierced the holy barriers protecting the Black Temple. Confer with Altruis the Sufferer / Kayn Sunfury and prepare to confront Akama.|
-C Nothing Will Bar Our Way|Z|BlackTemple|SO|2|N|The gates to the Temple Summit proper are closed. Akama is on the other side. Have your Illidari force a way in.|
-C Ascend the steps and await the opening of the gate|M|71.12,35.88|Z|70BlackTempleLegion/1|SO|2;1|N|Ascend the steps and await the opening of the gate|
-C Confronting an Old Foe|Z|Black Temple|SO|3|CHAT|N|Talk to Altruis / Kayn to Enter the Temple Summit and confront Akama. Convince him to join you in taking the fight to the Burning Legion's worlds.|
-C Speak with Altruis and then confront Akama|M|55.45,57.91|Z|70BlackTempleLegion/1|SO|3;1|N|Speak with Altruis and then confront Akama|
-C If He Will Not Listen to Reason...|Z|Black Temple|SO|4|N|Akama will not be persuaded by words. Perhaps force will do the trick. But, how to win and not lose in doing so?|
-C Defeat Akama|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|4;1|N|Defeat Akama|
-C A Final Attempt at Diplomacy|Z|Black Temple|SO|5|N|Akama is defeated. Speak with him and convince him to join you.|
-C Speak with Akama|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|5;1|CHAT|N|Speak with Akama|
-C Confrontation at the Black Temple|QID|42634|M|51.02,83.66|Z|70BlackTempleLegion/1|QO|3|N|1/1 Akama confronted|
-P Confrontation at the Black Temple|QID|42634|M|33.94,69.73|Z|70BlackTempleLegion/1|N|Click the Portal back to the Fel Hammer.|
+C You CAN Go Home|QID|42634;42921|Z|BlackTemple|SO|1|CHAT|N|You have successfully pierced the holy barriers protecting the Black Temple. Confer with Altruis the Sufferer / Kayn Sunfury and prepare to confront Akama.|
+C Nothing Will Bar Our Way|QID|42634;42921|Z|BlackTemple|SO|2|N|The gates to the Temple Summit proper are closed. Akama is on the other side. Have your Illidari force a way in.|
+C Ascend the steps and await the opening of the gate|QID|42634;42921|M|71.12,35.88|Z|70BlackTempleLegion/1|SO|2;1|N|Ascend the steps and await the opening of the gate|
+C Confronting an Old Foe|QID|42634;42921|Z|Black Temple|SO|3|CHAT|N|Talk to Altruis / Kayn to Enter the Temple Summit and confront Akama. Convince him to join you in taking the fight to the Burning Legion's worlds.|
+C Speak with Altruis and then confront Akama|QID|42634;42921|M|55.45,57.91|Z|70BlackTempleLegion/1|SO|3;1|N|Speak with Altruis and then confront Akama|
+C If He Will Not Listen to Reason...|QID|42634;42921|Z|Black Temple|SO|4|N|Akama will not be persuaded by words. Perhaps force will do the trick. But, how to win and not lose in doing so?|
+C Defeat Akama|QID|42634;42921|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|4;1|N|Defeat Akama|
+C A Final Attempt at Diplomacy|QID|42634;42921|Z|Black Temple|SO|5|N|Akama is defeated. Speak with him and convince him to join you.|
+C Speak with Akama|QID|42634;42921|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|5;1|CHAT|N|Speak with Akama|
+C Confrontation at the Black Temple|QID|42634;42921|M|51.02,83.66|Z|70BlackTempleLegion/1|QO|3|N|1/1 Akama confronted|
+P Confrontation at the Black Temple|QID|42634;42921|M|33.94,69.73|Z|70BlackTempleLegion/1|N|Click the Portal back to the Fel Hammer.|
 T Confrontation at the Black Temple|QID|42634;42921|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis te Sufferer / Kayn Sunfury|
-A Into Our Ranks|QID|39741;42665|PRE|42634|M|58.57,57.63|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Altruis the Sufferer / Kayn Sunfury.|
+A Into Our Ranks|QID|39741;42665|PRE|42634+42921|M|58.57,57.63|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Altruis the Sufferer / Kayn Sunfury.|
 C Into Our Ranks|QID|39741;42665|M|59.29,57.58|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|2|N|Kor'vas recruited|
 C Into Our Ranks|QID|39741;42665|M|57.88,57.78|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Akama recruited / Akama's Shade recruited.|
 T Into Our Ranks|QID|39741;42665|M|59.93,48.92|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Matron Mother Malevolence.|

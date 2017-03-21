@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2017-03-21 22:40
+-- Who: Ludovicus
+-- Log: Played [An Unexpected Visitor] through [Following In His Footsteps]. Changed level on [Recruiting Apprentices]
+
+-- URL: http://wow-pro.com/node/3671/revisions/28467/view
 -- Date: 2017-03-16 22:29
 -- Who: Ludovicus
 -- Log: Added PREs; syntax corrections.
@@ -156,58 +161,58 @@ A Ancient Magic|QID|42433|M|83.44,55.01|Z|Hall of the Guardian@MageClassShrine|N
 C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian@MageClassShrine|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
 t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
 
-A Recruiting Apprentices|QID|44098|LVL|104|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
-C Recruiting Apprentices|QID|44098|LVL|104|M|48,33.4|Z|Hall of the Guardian@MageClassShrine|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
-T Recruiting Apprentices|QID|44098|LVL|104|M|48,33.4|Z|Hall of the Guardian@MageClassShrine|N|To Grand Conjurer Mimic.|
+A Recruiting Apprentices|QID|44098|LVL|103|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Recruiting Apprentices|QID|44098|LVL|103|M|47.77,32.02|Z|Hall of the Guardian@MageClassShrine|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
+T Recruiting Apprentices|QID|44098|LVL|103|M|47.77,32.02|Z|Hall of the Guardian@MageClassShrine|N|To Grand Conjurer Mimic.|
 
 A An Unexpected Visitor|QID|42418|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|PRE|42433|LVL|103|
 T An Unexpected Visitor|QID|42418|M|61.82,60.00|Z|The Guardian's Library@MageClassShrine|N|To Ravandwyr.|
 A A Covert Operation|QID|42434|M|61.82,60.00|Z|The Guardian's Library@MageClassShrine|N|From Ravandwyr.|PRE|42418|
 C A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
 T A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|To Ravandwyr.|
-A Prepare to Be Assimilated|QID|42435|M|64.9,37.8|Z|Azsuna|N|From Ravandwyr.|PRE|42434|
-C Prepare to Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|S|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
-C Prepare to Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|Azsuna|N|Kill Spitespeaker Lir'kess|
-C Prepare to Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|US|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
-T Prepare to Be Assimilated|QID|42435|M|64.35,31.35|Z|Azsuna|N|To Ravandwyr.| ;fix coordinate
-A What is Going On Here|QID|42166|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42435|
-C What is Going On Here|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|S|N|Talk to Empyrean Society Members.|
-C What is Going On Here|QID|42166|QO|2|M|64.92,32.81|Z|Azsuna|N|Investigate the Brazier.| ;coordinate
-C What is Going On Here|QID|42166|QO|3|M|65.8,32.5|Z|Azsuna|N|Investigate Building.|
-C What is Going On Here|QID|42166|QO|4|M|66.4,33.7|Z|Azsuna|N|Investigate Rotunda.|
-C What is Going On Here|QID|42166|QO|5|M|66.4,33.6|Z|Azsuna|N|Examine the Exotic Book.|
-C What is Going On Here|QID|42166|QO|6|M|66.4,33.4|Z|Azsuna|N|Kill Marlan Blackfire.|
-C What is Going On Here|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|US|N|Talk to Empyrean Society Members.|
-T What is Going On Here|QID|42166|M|66.45,33.54|Z|Azsuna|N|To Ravandwyr, who is following you around.| ;N
-A Some Knowledge Shouldn't be Shared|QID|42149|M|66.45,33.54|Z|Azsuna|N|From Ravandwyr.|PRE|42166|
-A The Next Level Has Arrived|QID|42206|M|66.45,33.54|Z|Azsuna|N|From Ravandwyr.|PRE|42166|
+A Prepare To Be Assimilated|QID|42435|M|64.9,37.8|Z|Azsuna|N|From Ravandwyr.|PRE|42434|
+C Prepare To Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|S|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
+C Prepare To Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|Azsuna|N|Kill Spitespeaker Lir'kess|
+C Prepare To Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|US|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
+T Prepare To Be Assimilated|QID|42435|M|64.35,31.32|Z|Azsuna|N|To Ravandwyr.|
+A What Is Going On Here?|QID|42166|M|64.35,31.32|Z|Azsuna|N|From Ravandwyr.|PRE|42435|
+C What Is Going On Here?|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|S|N|Talk to Empyrean Society Members.|
+C What Is Going On Here?|QID|42166|QO|2|M|64.90,32.86|Z|Azsuna|N|Investigate the Brazier.|
+C What Is Going On Here?|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|US|N|Talk to Empyrean Society Members.|
+C What Is Going On Here?|QID|42166|QO|3|M|65.86,32.57|Z|Azsuna|N|Investigate Building.|
+C What Is Going On Here?|QID|42166|QO|4|M|66.47,33.58|Z|Azsuna|N|Investigate Rotunda.|
+C What Is Going On Here?|QID|42166|QO|5|M|66.53,33.74|Z|Azsuna|N|Examine the Exotic Book.|
+C What Is Going On Here?|QID|42166|QO|6|M|66.41,33.49|Z|Azsuna|N|Kill Marlan Blackfire.|
+T What Is Going On Here?|QID|42166|M|66.45,33.54|Z|Azsuna|N|To Ravandwyr, who is following you around.|
+A Some Knowledge Shouldn't Be Shared|QID|42149|M|66.45,33.54|Z|Azsuna|N|From Ravandwyr, who is following you around.|PRE|42166|
+A The Next Level Has Arrived|QID|42206|M|66.45,33.54|Z|Azsuna|N|From Ravandwyr, who is following you around.|PRE|42166|
 C The Next Level Has Arrived|QID|42206|S|M|65.9,33.8|Z|Azsuna|N|Kill Empyrean Society Members.|
-C Some Knowledge Shouldn't be Shared|QID|42149|M|65.9,33.8|Z|Azsuna|N|Pick up scrolls from the ground.|
+C Some Knowledge Shouldn't Be Shared|QID|42149|M|65.9,33.8|Z|Azsuna|N|Pick up scrolls from the ground.|
 C The Next Level Has Arrived|QID|42206|M|65.9,33.8|Z|Azsuna|US|N|Kill Empyrean Society Members.|
 T The Next Level Has Arrived|QID|42206|N|To Esara Verrinde, who is following you around.|
-T Some Knowledge Shouldn't be Shared|QID|42149|N|To Esara Verrinde.|
+T Some Knowledge Shouldn't Be Shared|QID|42149|N|To Esara Verrinde.|
 A Final Exit|QID|42171|PRE|42206+42149|
 C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|1|N|Use Rune of Opening to unlock the Empyrean Society Building.|
-C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|2|N|Kill Nora Blackfire.|
-C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|2|N|Loot Missive from Chest.|
-T Final Exit|QID|42171|M|66,32.4|Z|Azsuna|N|To Ravamdwyr.|
+C Final Exit|QID|42171|M|66.13,32.69|Z|Azsuna|QO|2|N|Kill Nora Blackfire.|
+C Final Exit|QID|42171|M|66.17,32.63|Z|Azsuna|QO|3|N|Loot Missive from Chest.|
+T Final Exit|QID|42171|M|66.08,32.32|Z|Azsuna|N|To Ravamdwyr.|
 A Empyrean Society Report|QID|42222|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42171|
-C Empyrean Society Report|QID|42222|M|66,32.4|Z|Azsuna|N|Use Teleport: Hall of the Guardian.|
-T Empyrean Society Report|QID|42222|M|71,55.4|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Khadgar.|
-A Champion: Esara Varrinde|QID|42706|N|From/To Esara Varrinde.|PRE|42222|
-A Champion: Ravandwyr|QID|42705|M|70.6,55.4|Z|Hall of the Guardian@MageClassShrine|N|From/To Ravamdwyr.|PRE|42222|
-A The Council Is In Session|QID|42416|M|71,55.4|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Khadgar.|PRE|42222|
-T The Council Is In Session|QID|42416|M|28.8,49.2|Z|Dalaran@Dalaran70|N|To Archmage Ansirem Runeweaver located in the Violet Citadel.|
-A Archmage Vargoth's Retreat|QID|42423|M|28.8,49.2|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|PRE|42416|
-C Archmage Vargoth's Retreat|QID|42423|M|21.3,53.2|Z|Dalaran@Dalaran70|QO|1|N|Take the portal to enter Vargoth's quarters.| ;change QO's; quest name
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|2|N|Enter Vargoth's Retreat.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|7|N|Examine well-worn scroll.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|3|N|Examine the journal.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|6|N|Examine the magical tome.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|5|N|Examine the frosted doughnut.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|4|N|Examine the crystal ball.|
-T Archmage Vargoth's Retreat|QID|42423|M|22.2,54.68|Z|Dalaran@Dalaran70|N|To Archmage Kalec (who is following you around and commenting).|
-A Following In His Footsteps|QID|42424|M|22.2,54.68|Z|Dalaran@Dalaran70|N|From Archmage Kalec, at Violet Citadel|PRE|42423|
+C Empyrean Society Report|QID|42222|N|Use Teleport: Hall of the Guardian.|
+T Empyrean Society Report|QID|42222|M|72.84,55.66|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar, who is moving about.|
+A Champion: Esara Varrinde|QID|42706|M|74.04,59.61|Z|The Guardian's Library@MageClassShrine|N|From/To Esara Varrinde.|PRE|42222|
+A Champion: Ravandwyr|QID|42705|M|70.36,53.24|Z|The Guardian's Library@MageClassShrine|N|From/To Ravamdwyr.|PRE|42222|
+A The Council is in Session|QID|42416|M|72.84,55.66|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar, who is moving about.|PRE|42222|
+T The Council is in Session|QID|42416|M|28.41,49.51|Z|Dalaran@Dalaran70|N|To Archmage Ansirem Runeweaver located in the Violet Citadel.|
+A Archmage Vargoth's Retreat|QID|42423|M|28.41,49.51|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|PRE|42416|
+C Archmage Vargoth's Retreat|QID|42423|M|28.96,49.67|Z|Dalaran@Dalaran70|QO|1|N|Take the portal to enter Vargoth's quarters.|
+C Archmage Vargoth's Retreat|QID|42423|M|24.28,55.94|Z|Dalaran@Dalaran70|QO|2|N|Enter Vargoth's Retreat, click on door.|
+C Archmage Vargoth's Retreat|QID|42423|M|22.89,52.68|Z|Dalaran@Dalaran70|QO|7|N|Examine well-worn scroll.|
+C Archmage Vargoth's Retreat|QID|42423|M|21.50,52.71|Z|Dalaran@Dalaran70|QO|3|N|Examine the journal.|
+C Archmage Vargoth's Retreat|QID|42423|M|20.73,54.02|Z|Dalaran@Dalaran70|QO|6|N|Examine the magical tome.|
+C Archmage Vargoth's Retreat|QID|42423|M|21.68,56.84|Z|Dalaran@Dalaran70|QO|5|N|Examine the frosted doughnut.|
+C Archmage Vargoth's Retreat|QID|42423|M|22.70,57.50.6|Z|Dalaran@Dalaran70|QO|4|N|Examine the crystal ball.|
+T Archmage Vargoth's Retreat|QID|42423|M|22.21,55.11|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
+A Following In His Footsteps|QID|42424|M|22.21,55.11|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|42423|
 C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian@MageClassShrine|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
 t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
 A Kalec's Plan|QID|42451|M|80.89,62.80|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|LVL|110|PRE|42424|
