@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2017-03-22 08:28
+-- Who: Emmaleah
+-- Log: change coords for poison vial in Secrets of the Daggerfen.
+
+-- URL: http://wow-pro.com/node/3273/revisions/28389/view
 -- Date: 2017-03-15 21:35
 -- Who: Ludovicus
 -- Log: Added PREs to JamZan6264
@@ -292,7 +297,7 @@ A Wanted: Chieftain Mummaki|QID|10116|M|41.7,27.3|N|From Wanted Poster.|
 N From now on..|QID|9808|N|From now on, loot Glowcaps (red glowing mushrooms) off the ground. You will need 10 of them.|
 C Ango'rosh Encroachment|N|Kill the Ogres needed for this quest.|M|36.00,28.0|QID|9835|S|
 C Daggerfen Deviance|N|Kill the Daggerfen needed for this quest.|QID|10115|M|24,27|S|
-l Secrets of the Daggerfen|N|Go in this area and loot the Daggerfen Poison Vial.|M|25.40,25.0|L|24500|QID|9848|QO|2|
+l Secrets of the Daggerfen|N|Go in this area and loot the Daggerfen Poison Vial.|M|23.75,22.79|L|24500|QID|9848|QO|2|
 C Secrets of the Daggerfen|N|Go up the tower, and loot the manual from the ground.|M|24.40,27.0|QID|9848|QO|1|
 C Wanted: Chieftain Mummaki|N|Kill Mummaki and loot the item from him.|QID|10116|M|23.8,26.8|
 C Daggerfen Deviance|N|Kill the Daggerfen needed for this quest.|QID|10115|US|M|24,27|

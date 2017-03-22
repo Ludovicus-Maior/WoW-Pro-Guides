@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2017-03-22 07:17
+-- Who: Emmaleah
+-- Log: moved repair step (that was after Nobody to blame but Myself) to above turn in step  (for Impatience) for less confusion.
+
+-- URL: http://wow-pro.com/node/3251/revisions/28481/view
 -- Date: 2017-03-17 00:10
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -422,10 +427,9 @@ T Ix'lar the Underlord|QID|27487|M|61.42,42.80|N|To Fiona.|
 
 A Impatience|QID|27488|PRE|27487|M|61.50,43.21|N|From Tarenar Sunstrike.|
 C Impatience|QID|27488|L|61318 1|M|65.45,24.49|N|Pick up "Gidwin's Prayer Book".|
+r Sell junk, repair/restock. At Patricia Marshall.|QID|27489|M|62.28,42.28|
 T Impatience|QID|27488|M|61.53,43.31|N|To Tarenar Sunstrike.|
 A Nobody to Blame but Myself|QID|27489|PRE|27488|M|61.53,43.31|N|From Tarenar Sunstrike.|
-r Sell junk, repair/restock. At Patricia Marshall.|QID|27489|M|62.28,42.28|
-
 C Nobody to Blame but Myself|QID|27489|M|50.52,20.45|N|Ride Fiona's Caravan to Northpass Tower.|
 T Nobody to Blame but Myself|QID|27489|M|50.46,20.27|N|To Tarenar Sunstrike.|
 A Beat it Out of Them|QID|27522|PRE|27489|M|50.46,20.27|N|From Tarenar Sunstrike.|

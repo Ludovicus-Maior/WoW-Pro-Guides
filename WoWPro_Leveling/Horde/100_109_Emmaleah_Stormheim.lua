@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2017-03-22 08:02
+-- Who: Emmaleah
+-- Log: added intended path to treasure just before Stormwing Matriarch. (rather than jumping off the waterfall)
+
+-- URL: http://wow-pro.com/node/3680/revisions/28532/view
 -- Date: 2017-03-18 01:16
 -- Who: Emmaleah
 -- Log: add final quests in dungeon and turning in after.
@@ -316,7 +321,7 @@ T Another Way|QID|38617|M|45.99,72.60|N|To Dread-Rider Cullen.|
 A Above the Winter Moonlight|QID|38618|PRE|38617|M|45.99,72.60|N|From Dread-Rider Cullen.|
 
 C Above the Winter Moonlight|QID|38618|QO|1|M|46.36,74.37|NC|N|Click on the grapple point on the path.|
-$ Small Treasure Chest|QID|38476|M|48.13,74.22|N|Beside the waterfall, loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|38476|M|48.09,75.79;49.89,73.72;48.93,72.75;48.13,74.22|CS|N|Beside the waterfall, loot for a bit of treasure and resources.|RANK|2|
 K Kill Stormwing Matriarch|QID|38423|M|49.6,71.6|T|Stormwing Matriarch|QO|1|ITEM|129110|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|RANK|2|
 U Stormwing Whelpling|QID|38423|M|49.6,71.6|U|129208|N|Click to add pet to your collection.|RANK|2|
 $ Small Treasure Chest|QID|38485|M|49.24,76.99;49.76,77.99|CS|N|One grapple point off the trail, you will find a chest in this niche. Loot for treasure and resources, then back to traveling upwards on the trail.|RANK|2|

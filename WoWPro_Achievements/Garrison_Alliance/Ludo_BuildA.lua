@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_buildings_alliance
+-- Date: 2017-03-22 07:07
+-- Who: Emmaleah
+-- Log: Updated Headhunters Harvest to use Alliance info.
+
+-- URL: http://wow-pro.com/node/3631/revisions/28310/view
 -- Date: 2017-03-10 22:44
 -- Who: Ludovicus
 -- Log: Add PREs
@@ -146,9 +151,9 @@ C Large Lumber|QID|36195|M|35.63,24.65;35.08,22.78;33.95,25.53|CS|N|Go to Glooms
 T Tree-i-cide|QID|36195|N|To Justin Timberlord.|BUILDING|LumberMill;138|Z|Lunarfall|
 
 ;if you chose the inn(tavern) MED
-A The Headhunter's Harvest|QID|37046|RANK|2|M|50.50,60.66|N|From Akanja.|BUILDING|Inn;34;35;36|
-C The Headhunter's Harvest|QID|37046|CHAT|RANK|2|M|50.50,60.53|N|Talk to Akanja and pick a follower.|
-T The Headhunter's Harvest|QID|37046|RANK|2|M|50.50,60.53|N|To Akanja.|
+A The Headhunter's Harvest|QID|37119|RANK|2|M|33.8,49.6|Z|Lunarfall|N|From Lysa Serion.|BUILDING|Inn;34;35;36|
+C The Headhunter's Harvest|QID|37119|CHAT|RANK|2|M|33.8,49.6|Z|Lunarfall|N|Talk to Lysa and pick a follower.|
+T The Headhunter's Harvest|QID|37119|RANK|2|M|33.8,49.6|Z|Lunarfall|N|To Lysa Serion.|
 
 ;gladiators sanctum MED
 A Warlord of Draenor|QID|36874|M|51.51,59.56|BUILDING|GladiatorsSantum;159;160;161|N|From Raza'kul.|
