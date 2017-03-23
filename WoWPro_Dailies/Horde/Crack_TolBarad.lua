@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2017-03-23 17:41
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3416/revisions/28322/view
 -- Date: 2017-03-10 23:19
 -- Who: Ludovicus
 -- Log: Syntax changes.

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3675
+-- Date: 2017-03-23 19:33
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3675/revisions/28535/view
 -- Date: 2017-03-21 19:20
 -- Who: Emmaleah
 -- Log: Guide finished! added all the missing order hall and rogue campaign quests.  (Other than the "power within" chain, which is post campaign.)
@@ -76,10 +81,10 @@ T A Worthy Blade|QID|40840|M|41.44,78.080|N|To Lord Jorach Ravenholdt.|
 A Artifact Specific Quest|QID|41919;42501;40847|M|41.44,78.08|N|From one of the NPCs in this room.|PRE|40840|
 
 ;Class hall development lvl 101 to 109
-A Rise Champions|QID|42139|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|LVL|101|
+A Rise, Champions|QID|42139|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|LVL|101|
 A Champion: Garona Halforcen|QID|43262|M|42.38,74.64|N|From/To Garona Halforcen|PRE|42139|
 A Champion: Vanessa VanCleef|QID|43261|M|42.41,68.22|N|From/To Vanessa VanCleef.|PRE|42139|
-T Rise Champions|QID|42139|M|37.92,45.26|N|To Nikki the Gossip.|
+T Rise, Champions|QID|42139|M|37.92,45.26|N|To Nikki the Gossip.|
 A A More Wretched Hive of Scum and Villainy|QID|42140|M|37.92,45.26|N|From Nikki the Gossip.|PRE|42139|
 C A More Wretched Hive of Scum and Villainy|QID|42140|M|37.92,45.26|NC|N|Send your followers on the required mission at your scouting map.|
 T A More Wretched Hive of Scum and Villainy|QID|42140|M|37.92,45.26|N|To Nikki the Gossip.|
@@ -106,7 +111,7 @@ A Mystery at Citrine Bay|QID|44116|M|41.41,78.21|N|From Lord Jorach Ravenholdt. 
 C Mystery at Citrine Bay|QID|44116|M|77.26,55.03|Z|Stormheim|NC|N|You can wait until you quest in Stormheim if you aren't in a rush.|
 T Mystery at Citrine Bay|QID|44116|M|77.26,55.03|Z|Stormheim|N|To Fleet Admiral Tethys.|
 A Searching For Clues|QID|44155|M|77.26,55.03|Z|Stormheim|N|From Fleet Admiral Tethys.|PRE|44116|
-A Time Flies When Yer Havin' Rum!|QID|44117|M|77.26,55.03|Z|Stormheim|N|From Fleet Admiral Tethys.|PRE|44116
+A Time Flies When Yer Havin' Rum!|QID|44117|M|77.26,55.03|Z|Stormheim|N|From Fleet Admiral Tethys.|PRE|44116|
 C Time Flies When Yer Havin' Rum!|QID|44117|M|74,54|Z|Stormheim|S|NC|N|While slaughtering pirates, also collect rum from the ground (water/ship/etc).|
 C Searching For Clues|QID|44155|M|74,54|Z|Stormheim|N|Kill and loot pirates until you find the order.|
 C Time Flies When Yer Havin' Rum!|QID|44117|M|74,54|Z|Stormheim|US|NC|N|Finish collecting rum.|
@@ -127,7 +132,7 @@ A Throwing SI:7 Off the Trail|QID|42684|M|40,76|N|From Valeera Sanguinar.|PRE|43
 A Blood for the Wolfe|QID|43468|M|40,76|N|From Valeera Sanguinar.|PRE|43852|
 A Noggenfogger's Reasonable Request|QID|42730|M|40,76|N|From Valeera Sanguinar.|PRE|43852|
 C Throwing SI:7 Off the Trail|QID|42684|M|37.92,45.26|S|NC|N|Use scouting map to do the 5 requested missions.|
-C Blood for the Wolfe|QID|43468|S|N|You have until lvl 110 to finish this, so I recommend right clicking this off manually and you can simply collect the blood as you go about normal stuff, if you get to 110 and this is still uncompleted, anywhere (other than outside Halls of Valor) where there is a concentration of demons is a good farm spot, especially Ilidari stand where the demon hunters almost kill them for you.
+C Blood for the Wolfe|QID|43468|S|N|You have until lvl 110 to finish this, so I recommend right clicking this off manually and you can simply collect the blood as you go about normal stuff, if you get to 110 and this is still uncompleted, anywhere (other than outside Halls of Valor) where there is a concentration of demons is a good farm spot, especially Ilidari stand where the demon hunters almost kill them for you.|
 B Aethril|QID|42730|L|124101 20|N|Buy, gather or otherwise acquire 20 Aethril herbs.|
 T Noggenfogger's Reasonable Request|QID|42730|M|30.69,70.18|N|To Marin Noggenfogger.|
 A A Particularly Potent Potion|QID|44178|M|30.69,70.18|N|From Marin Noggenfogger.|PRE|42730|
@@ -180,8 +185,8 @@ T Light's Charge|QID|44153|M|40.85,54.71|N|Return to your order hall and return 
 A An Urgent Warning|QID|45991|N|Auto accepted from UI Alert.|LVL|110|
 A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|LVL|110|
 A Goddess Watch Over You|QID|44337|M|52.93,33.77|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110. If you haven't done Val'sharah yet, you will get this quest in the Violet Citadel in Dalaran.|LVL|110|
-A A Sheath for Every Blade|QID|44252|M|26.91,36.82|N|From Kelsey Steelspark. Your class hall has a gift for you.|LVL|110|
-T A Sheath for Every Blade|QID|44252|M|26.91,36.82|N|To Kelsey Steelspark.|
+A A Sheath For Every Blade|QID|44252|M|26.91,36.82|N|From Kelsey Steelspark. Your class hall has a gift for you.|LVL|110|
+T A Sheath For Every Blade|QID|44252|M|26.91,36.82|N|To Kelsey Steelspark.|
 N Artifact Knowledge Catch-Up 7.1.5|QID|43885|M|37.85,70.06|ITEM|144435|U|144435|N|Assuming you have the resources available, you should have sent an 'Artifact Research Compendium' (BOA item purchased in order hall) from one of you other characters (with max or at least highest AK) on the account.  This will allow you to jumpstart your artifact research by as much as 20 levels. This is also the lowest resource cost option.|LVL|110|
 A Knowledge is Power|QID|46129|M|37.85,70.06|ITEM|144395|U|144395|N|From Filius Sparkstache. Assuming you were unable to send a AK15 or 20 item, you can buy immediately up to AK 15 for 500 resources each (same cost as research).|LVL|110|ACH|10852|
 T Knowledge is Power|QID|46129|M|37.85,70.06|U|144395|N|To Filius Sparkstache.|
@@ -192,7 +197,7 @@ N Artifact Research|QID|44338|M|37.85,70.06|N|Once you have used your Compendium
 T An Urgent Warning|QID|45991|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|
 A Investigate the Broken Shore|QID|45992|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|45991|
 A Maw of Souls: Ancient Vrykul Legends|QID|43253|M|40.86,75.45|N|From Valeera Sanguinar. This is a dungeon quest. Queue or gather up some friends.|LVL|110|PRE|42684;43468|
-C Goddess Watch over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
+C Goddess Watch Over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar. You may have received this as a pop-up UI Alert upon hitting 110.|LVL|110|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
@@ -231,8 +236,8 @@ A Champion: Valeera Sanguinar|QID|42800|M|40.86,75.45|N|From/To Valeera Sanguina
 C Where In the World is Mathias?|QID|43469|M|37.40,44.20|NC|S|NA|N|Sequentially do the 5 requested missions at the Scouting Map.|
 C Pruning the Garden|QID|43470|N|Go out and do World Quests. You will want to leave one "Danger" type WQ available if you want to immediately do the next step.|
 t Pruning the Garden|QID|43470|M|40.68,76.78|N|To Taoshi.|
-A The World is not Enough|QID|43479|M|40.68,76.78|N|From Taoshi.|PRE|43470|
-C The World is not Enough|QID|43479|N|Go out and do a "Danger" type World Quest.|
+A The World is Not Enough|QID|43479|M|40.68,76.78|N|From Taoshi.|PRE|43470|
+C The World is Not Enough|QID|43479|N|Go out and do a "Danger" type World Quest.|
 C Where In the World is Mathias?|QID|43469|M|37.40,44.20|NC|US|NA|N|Finish up the 5 requested missions at the Scouting Map.|
 t Where In the World is Mathias?|QID|43469|M|40.68,76.78|N|To Taoshi.|
 t The World is not Enough|QID|43479|M|40.68,76.78|N|To Taoshi.|
@@ -281,7 +286,7 @@ A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious 
 C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
 C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
 C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
 A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
 C Trial By Fel Fire|QID|39863|N|This quest (to create obliterum) will become unnecesary in 7.2, you may want to skip it. These are crafted items, buy, trade for, or create them. Manually check this step off (left click if you never want to do it, right click if you want to be reminded each time you reload the guide.)|
 t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
@@ -289,8 +294,8 @@ A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
@@ -310,11 +315,11 @@ T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|To Archmage 
 A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
 C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|N|Handful of Obliterum Ash|
 T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.
+t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Trail of Echos|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
+A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
 N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
 
 ;lights heart - post 110
@@ -331,7 +336,7 @@ F Garden of the Moon|QID|44466|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladu
 R Emerald Bay|QID|44466|QO|1|M|54.76,51.73;53.17,49.45;51.35,43.52|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|40.85,54.71|N|To Light's Heart, back in your order hall.|
-A Ravemcrest's Legacy|QID|44479|M|40.85,54.71|N|From Light's Heart.|PRE|44466|
+A Ravencrest's Legacy|QID|44479|M|40.85,54.71|N|From Light's Heart.|PRE|44466|
 R Krasus' Landing|QID|44479|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44479|
 F Bradensbrook|QID|44479|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44479|
 R Black Rook Hold|QID|44479|QO|1|M|38.80,58.06;39.34,53.45|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|ACTIVE|44479|

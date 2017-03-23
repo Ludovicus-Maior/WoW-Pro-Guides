@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2017-03-23 19:40
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3602/revisions/28498/view
 -- Date: 2017-03-17 00:35
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -280,7 +285,7 @@ A Surviving in a Savage Land|QID|35550|M|36.86,56.74|N|From Shadow Hunter Ukambe
 H Southport|QID|35549|M|36.8,56.8|FACTION|Alliance|PRE|35482|RANK|2|
 H Axefall|QID|35550|M|36.86,56.74|FACTION|Horde|PRE|36183|RANK|2|
 T Honoring a Hero|QID|35549|M|39.88,60.85|N|To Lieutenant Willem.|FACTION|Alliance|RANK|2|
-A For Old Times Sake|QID|36353|M|39.98,60.65|N|To/From Admiral Taylor who wants to come join your garrison forces.|FACTION|Alliance|PRE|35549|RANK|2|
+A For Old Times' Sake|QID|36353|M|39.98,60.65|N|To/From Admiral Taylor who wants to come join your garrison forces.|FACTION|Alliance|PRE|35549|RANK|2|
 T Surviving in a Savage Land|QID|35550|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|RANK|2|
 
 F Veil Terokk|QID|37296|M|39.78,61.87;39.08,61.79|CS|N|At Firn Swiftbreeze.|FACTION|Alliance|
@@ -543,7 +548,7 @@ C The Power of Poison|QID|35947|M|53.57,27.51|U|113587|N|Use the poison Velonara
 C Extrinsic Motivation|QID|36022|M|56,33|FACTION|Horde|N|Finish killing whatever mobs you need.|
 T The Power of Poison|QID|35947|M|53.57,27.51|N|To (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
 T Extrinsic Motivation|QID|36022|M|53.57,27.51|N|To (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
-A Gradual Venomshiv|QID|36028|PRE|36022;35947|M|53.57,27.51|N|From (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
+A Gardul Venomshiv|QID|36028|PRE|36022;35947|M|53.57,27.51|N|From (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
 C Gardul Venomshiv|QID|36028|T|Gardul Venomshiv|M|56.09,33.93|FACTION|Horde|N|Head over and attack Gardul.|
 T Gardul Venomshiv|QID|36028|M|57.14,34.49|N|To Dark Ranger Velonara.|FACTION|Horde|
 A We Have Him Now|QID|36047|M|57.14,34.49|PRE|36022|N|From Dark Ranger Velonara.|FACTION|Horde|
@@ -653,15 +658,15 @@ T Clearing Out Before Cleaning Up|QID|35081|M|59.09,79.23|N|To Engineer Gazwitz.
 A Follow that Hotrod!|QID|35285|M|59.09,79.21|N|From Engineer Gazwitz.|PRE|35081;35082|
 T Follow that Hotrod!|QID|35285|M|58.49,92.33|N|To Kimzee Pinchwhistle.|
 A The Right Parts for the Job|QID|35090|M|58.49,92.33|N|From Kimzee Pinchwhistle.|PRE|35285|
-A Skimming Off The Top|QID|35089|M|58.49,92.33|N|From Kimzee Pinchwhistle.|PRE|35285|
+A Skimming Off the Top|QID|35089|M|58.49,92.33|N|From Kimzee Pinchwhistle.|PRE|35285|
 A Field Trial|QID|36384|U|115475|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35285|
-C Skimming Off The Top|QID|35089|M|59.18,88.12|S|N|Kill the oily slimes in the area.|
+C Skimming Off the Top|QID|35089|M|59.18,88.12|S|N|Kill the oily slimes in the area.|
 C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|NC|S|N|Use your rocket to shoot at one of the shredders standing around.  It will break it and then you pick up the pieces.|
 C Field Trial|QID|36384|U|115475|M|59.18,88.12|N|When you encounter one of the infected, use the potion on him.|
 C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|NC|US|N|Use your rocket to shoot at one of the shredders standing around.  It will break it and then you pick up the pieces.|
-C Skimming Off The Top|QID|35089|M|59.18,88.12|US|N|Kill the oily slimes in the area.|
+C Skimming Off the Top|QID|35089|M|59.18,88.12|US|N|Kill the oily slimes in the area.|
 T The Right Parts for the Job|QID|35090|M|58.83,92.84|N|To Kimzee Pinchwhistle.|
-T Skimming Off The Top|QID|35089|M|58.83,92.84|N|To Kimzee Pinchwhistle.|
+T Skimming Off the Top|QID|35089|M|58.83,92.84|N|To Kimzee Pinchwhistle.|
 A Sporicide|QID|35091|M|58.83,92.84|N|From Kimzee Pinchwhistle.|PRE|35090;35089|
 T Field Trial|QID|36384|M|58.46,92.22|N|To Krixel Pinchwhistle.|
 A Preventing the Worst|QID|35211|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|36384|

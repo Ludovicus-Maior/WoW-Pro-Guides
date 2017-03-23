@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2017-03-23 19:12
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3306/revisions/28452/view
 -- Date: 2017-03-16 17:01
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -596,10 +601,10 @@ A At All Costs|QID|25860|PRE|25629;25896|RANK|1|M|33.1,77.7|Z|Shimmering Expanse
 C At All Costs|QID|25860|M|33,77.7|Z|Shimmering Expanse|N|Kill 20 Kvaldir as they try to enter the temple.|
 T At All Costs|QID|25860|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess.|
 
-A Final Judgement|QID|25951|PRE|25860|RANK|1|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
+A Final Judgment|QID|25951|PRE|25860|RANK|1|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
 N Final Judgement|QID|25951|QO|Hold the eastern end of Quel'Dormir Terrace: 1/1|M|38,78.50|Z|Shimmering Expanse|N|Swim out of the temple to the east, where you will find Lady Naz'jar. Stay with her and kill hold off the Kvaldirs until she moves.|
-C Final Judgement|QID|25951|QO|Push the Kvaldir back across the bridge: 1/1|M|42.9,78.4|Z|Shimmering Expanse|N|Kill Kvaldir until you get the quest complete message.|
-T Final Judgement|QID|25951|M|42.46,78.59|Z|Shimmering Expanse|N|To Lady Naz'jar.|
+C Final Judgment|QID|25951|QO|Push the Kvaldir back across the bridge: 1/1|M|42.9,78.4|Z|Shimmering Expanse|N|Kill Kvaldir until you get the quest complete message.|
+T Final Judgment|QID|25951|M|42.46,78.59|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 T Visions of the Past: Rise from the Deep|QID|26135|Z|Shimmering Expanse|N|To Wavespeaker Tulra.|M|51.6,62.74|
 
 A A Breath of Fresh Air|QID|26006|PRE|26135|RANK|1|Z|Shimmering Expanse|N|From Wavespeaker Tulra.|M|51.6,62.74|

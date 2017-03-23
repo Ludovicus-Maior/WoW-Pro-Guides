@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2017-03-23 19:35
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3677/revisions/28474/view
 -- Date: 2017-03-16 22:50
 -- Who: Ludovicus
 -- Log: Added a PRE; syntax corrections.
@@ -88,8 +93,8 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
-A A Desparate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Eitrigg.|
-T A Desparate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|Dalaran@Dalaran70|N|To Eitrigg.|
+A A Desperate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Eitrigg.|
+T A Desperate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|Dalaran@Dalaran70|N|To Eitrigg.|
 A An Important Mission|QID|42814|PRE|43635|FACTION|Alliance|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Sergeant Dalton.|
 T An Important Mission|QID|42814|FACTION|Alliance|M|74.64,45.01|Z|Dalaran@Dalaran70|N|To Danath Trollbane.|
 
@@ -166,8 +171,8 @@ T Revenge, Served Cold|QID|42202|M|53.86,87.85|Z|Highmountain|N|To Jarum Skymane
 A Jorhuttam|QID|42204|PRE|42202|M|53.86,87.85|Z|Highmountain|LVL|103|N|From Jarum Skymane.|
 C Jorhuttam|QID|42204|M|57.14,93.78|Z|Highmountain|U|139501|QO|1|N|Use Drums near Jorhuttam's Feeding Mound.|
 T Jorhuttam|QID|42204|M|55.93,84.45|N|To Hymdall|
-A Preparing for War|QID|43585|PRE|42204|M|58.08,83.91|LVL|103|N|From Odyn.|
-C Preparing for War|QID|43585|M|59.06,13.38|N|Use Misson Table to complete 3 Missions. *Click off to continue*|
+A Preparing For War|QID|43585|PRE|42204|M|58.08,83.91|LVL|103|N|From Odyn.|
+C Preparing For War|QID|43585|M|59.06,13.38|N|Use Misson Table to complete 3 Missions. *Click off to continue*|
 t Preparing for War|QID|43585|M|59.06,13.38|N|To Skyseer Ghrent.|
 A Recruiting Shieldmaidens|QID|43975|PRE|42204|M|59.06,13.38|LVL|103|N|From Skyseer Ghrent.|
 T Recruiting Shieldmaidens|QID|43975|M|55.96,15.00|N|To Savyn Valorborn.|
@@ -219,7 +224,7 @@ C The Might of the Val'kyr|QID|44222|M|71.95,31.26|L|140147|N|Click on the Bless
 C The Might of the Val'kyr|QID|44222|M|71.95,31.26|N|Open your World Map, and use the item to complete a World Quest.|
 t The Might of the Val'kyr|QID|44222|M|73.17,30.50|N|To Matilda Skoptidottir.|
 
-C Goddess Watch over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
+C Goddess Watch Over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
 R Dalaran|QID|44337;44338|ACTIVE|44337;44338|M|58.58,25.35|CHAT|N|Ask Aerylia to sent you to Dalaran.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
@@ -243,8 +248,8 @@ A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
 T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|

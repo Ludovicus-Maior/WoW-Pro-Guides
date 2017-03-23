@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2017-03-23 19:18
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3605/revisions/28459/view
 -- Date: 2017-03-16 17:11
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -210,12 +215,12 @@ C They've Got The Goods!|QID|34514|US|NC|M|73.33,60.15|N|Pick up the little bags
 C Gobnapped|QID|34515|M|73.78,60.62|NC|US|N|Open the cages to free the goblins.|RANK|2|
 
 T Gazmolf Futzwangler and the Highmaul Crusade|QID|34810|M|71.11,52.35|N|To Gazmolf Futzwangler.|RANK|2|
-A A Lesson in Minerology|QID|34809|PRE|34810|M|71.11,52.35|N|From Gazmolf Futzwangler.|RANK|2|
+A A Lesson in Mineralogy|QID|34809|PRE|34810|M|71.11,52.35|N|From Gazmolf Futzwangler.|RANK|2|
 A Good Help is Hard to Find|QID|34811|PRE|34810|M|71.11,52.35|N|From Gazmolf Futzwangler.|RANK|2|
 C Good Help is Hard to Find|QID|34811|S|NC|M|63.54,52.83|N|These are shovels sticking out of dirt piles with goblins standing beside them.|RANK|2|
-C A Lesson in Minerology|QID|34809|M|64.35,52.31|N|Kill the earth elementals and loot thier core.|RANK|2|
+C A Lesson in Mineralogy|QID|34809|M|64.35,52.31|N|Kill the earth elementals and loot thier core.|RANK|2|
 C Good Help is Hard to Find|QID|34811|US|NC|M|63.54,52.83|N|These are shovels sticking out of dirt piles with goblins standing beside them.|RANK|2|
-T A Lesson in Minerology|QID|34809|M|71.06,52.32|N|To the Gold-O-Matic 9000.|RANK|2|
+T A Lesson in Mineralogy|QID|34809|M|71.06,52.32|N|To the Gold-O-Matic 9000.|RANK|2|
 T Good Help is Hard to Find|QID|34811|M|71.12,52.43|N|To Trixi Leroux.|RANK|2|
 A A Lesson in Teamwork|QID|35663|PRE|34809;34811|M|71.13,52.35|N|From Gazmolf Futzwangler.|RANK|2|
 A A Lesson in Archaeology|QID|35632|PRE|34809;34811|M|71.13,52.35|N|From Gazmolf Futzwangler.|RANK|2|

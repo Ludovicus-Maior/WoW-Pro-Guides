@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2017-03-23 18:30
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3311/revisions/28401/view
 -- Date: 2017-03-15 22:07
 -- Who: Ludovicus
 -- Log: Added PREs to MagTwi8485
@@ -401,7 +406,7 @@ T Finding Beak|QID|27646|M|46.05,58.69|N|To Donnelly Dunwald.|
 A Home Again|QID|27650|PRE|27646|M|47.84,74.52|N|From Cayden Dunwald.|
 
 C Sifting Through The Wreckage|QID|27642|US|M|51.94,70.32|N|On the ground and in the buildings.|
-C Steady Supply|QID|27649|US|M|49.54,71.85|N|Kegs in the buildings.|
+C A Steady Supply|QID|27649|US|M|49.54,71.85|N|Kegs in the buildings.|
 C While Meeting The Family|QID|27641|M|49.80,71.20|N|Finish killing Twilight "guests".|US|
 
 T Home Again|QID|27650|M|45.97,65.53|N|To Keely Dunwald.|

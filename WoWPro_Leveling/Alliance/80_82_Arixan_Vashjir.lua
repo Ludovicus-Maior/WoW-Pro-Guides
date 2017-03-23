@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2017-03-23 18:29
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3305/revisions/28400/view
 -- Date: 2017-03-15 22:04
 -- Who: Ludovicus
 -- Log: Added PREs to AriVasA8082
@@ -222,10 +227,6 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/23874/view
 -- Date: 2010-12-31 09:30
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23873/view
--- Date: 2010-12-31 08:52
 -- Who: JamesL85
 
 local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
@@ -639,10 +640,10 @@ T Devout Assembly|QID|25896|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess
 A At All Costs|QID|25860|PRE|25896;25993|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
 C At All Costs|QID|25860|M|33.12,76.52|Z|Shimmering Expanse|N|Stay at the entrance and kill all new arriving Kvaldir until you get your 20 kills.|
 T At All Costs|QID|25860|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess.|
-A Final Judgement|QID|25951|PRE|25860|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
+A Final Judgment|QID|25951|PRE|25860|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
 N Hold the eastern end of Quel'Dormir Terrace|QID|25951|QO|Hold the eastern end of Quel'Dormir Terrace: 1/1|M|37.5,78.69|Z|Shimmering Expanse|N|Swim out of the temple to the east, where you will find Lady Naz'jar. Kill Kvaldir and stay alive, ends at about the 3-4 minute mark.|
-C Final Judgement|QID|25951|M|42.90,78.40|Z|Shimmering Expanse|N|Kill Kvaldir and stay alive until you get the quest complete message.|
-T Final Judgement|QID|25951|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
+C Final Judgment|QID|25951|M|42.90,78.40|Z|Shimmering Expanse|N|Kill Kvaldir and stay alive until you get the quest complete message.|
+T Final Judgment|QID|25951|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 T Visions of the Past: Rise from the Deep|QID|25626|M|46.69,57.53;49.45,57.57|CS|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
 A A Breath of Fresh Air|QID|26005|PRE|25626|M|49.45,57.57|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
 T A Breath of Fresh Air|QID|26005|M|69.61,75.34|Z|Vashj'ir|U|57412|N|Located on the surface. You can use the Boom Boots to get to the surface. Turn quest in to Captain Taylor.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2017-03-23 19:11
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3302/revisions/28451/view
 -- Date: 2017-03-16 16:59
 -- Who: Ludovicus
 -- Log: Add PREs
@@ -272,7 +277,7 @@ T Where Are They Coming From?|QID|13117|N|Darkrider Arly.|M|35.46,66.49|
 A Destroying the Altars|QID|13119|N|From Darkrider Arly.|M|35.46,66.49|
 A Death's Gaze|QID|13120|N|From Darkrider Arly.|M|35.46,66.49|
 K Master Summoner Zarod|QID|13119|N|He wanders around the area. Loot the Rod.|L|43159 1|M|37,71|
-C A Destroying the Altars|QID|13119|N|Use the Rod on the 4 altars.|U|43159|
+C Destroying the Altars|QID|13119|N|Use the Rod on the 4 altars.|U|43159|
 C Death's Gaze|QID|13120|QO|2|N|Click on the stands to place the Orb.|M|34.60,69.59|
 C Death's Gaze|QID|13120|QO|1|N|Click on the stands to place the Orb.|M|32.60,70.59|
 C Death's Gaze|QID|13120|QO|3|N|Click on the stands to place the Orb.|M|30.50,65.09|
@@ -726,8 +731,8 @@ C Against the Giants|QID|13277|N|Kill Pustulent Horrors for their Spines|O|M|65,
 T Against the Giants|QID|13277|O|N|To Koltira Deathweaver on Orgrim's Hammer.|
 
 A Basic Chemistry|QID|13279|PRE|13277|O|N|From Koltira Deathweaver.|
-A Corprous the Defiled|QID|13278|PRE|13277|O|N|From Koltira Deathweaver.|
-C Corprous the Defiled|QID|13278|O|N|Kill Corprous.|M|60.86,62.16|
+A Coprous the Defiled|QID|13278|PRE|13277|O|N|From Koltira Deathweaver.|
+C Coprous the Defiled|QID|13278|O|N|Kill Corprous.|M|60.86,62.16|
 C Basic Chemistry|QID|13279|O|M|61.48,63.73|U|44010|N|Follow the instructions|
 
 l Alumeth's Skull|QID|13367|L|44476 1|N|Pick up Alumeth's Skull|S|M|50.54,30.01|
@@ -740,7 +745,7 @@ l Alumeth's Skull|QID|13367|L|44476 1|N|Pick up Alumeth's Skull|US|M|50.54,30.01
 U Alumeth's Remains|QID|13367|L|44480 1|U|44476|N|Combine the parts to create Alumeth's Remains|M|51.93,29.01|
 C No Rest For The Wicked|QID|13367|U|44480|N|Use the remains near the crystal to summon Alumeth.|M|51.93,29.01|
 T No Rest For The Wicked|QID|13367|O|N|To Koltira Deathweaver on Orgrim's Hammer.|
-T Corprous the Defiled|QID|13278|O|N|To Koltira Deathweaver.|
+T Coprous the Defiled|QID|13278|O|N|To Koltira Deathweaver.|
 T Basic Chemistry|QID|13279|O|N|To Koltira Deathweaver.|
 
 A The Ironwall Rampart|QID|13312|O|N|From Koltira Deathweaver|PRE|13367|
@@ -751,16 +756,16 @@ A Before the Gate of Horror|QID|13329|N|From Koltira Deathweaver|PRE|13367|
 C Before the Gate of Horror|QID|13329|N|Kill Skeletal Reavers and use the Acid to dissolve their bones|U|44653|M|44.74,57.27|
 T Before the Gate of Horror|QID|13329|N|From Koltira Deathweaver on Orgrim's Hammer.|
 
-A The Guardians of Cop'rethar|QID|13316|PRE|13329|N|From Koltira Deathweaver|
+A The Guardians of Corp'rethar|QID|13316|PRE|13329|N|From Koltira Deathweaver|
 A Shatter the Shards|QID|13328|PRE|13329|N|From Koltira Deathweaver|
-C The Guardians of Cop'rethar|QID|13316|N|Kill Harbingers and Guardians|S|M|50.25,66.61|
+C The Guardians of Corp'rethar|QID|13316|N|Kill Harbingers and Guardians|S|M|50.25,66.61|
 
 C Shatter the Shards|QID|13328|QO|2|N|Destroy the Shard of Dispair|M|49.83,66.74|
 C Shatter the Shards|QID|13328|QO|1|N|Destroy the Shard of Horror|M|47.83,66.11|
 C Shatter the Shards|QID|13328|QO|3|N|Destroy the Shard of Suffering|M|45.83,69.55|
 
-C The Guardians of Cop'rethar|QID|13316|N|Kill Harbingers and Guardians|US|M|50.25,66.61|
-T The Guardians of Cop'rethar|QID|13316|N|To Koltira Deathweaver|
+C The Guardians of Corp'rethar|QID|13316|N|Kill Harbingers and Guardians|US|M|50.25,66.61|
+T The Guardians of Corp'rethar|QID|13316|N|To Koltira Deathweaver|
 T Shatter the Shards|QID|13328|N|To Koltira Deathweaver|
 
 C The Rider of Frost|QID|13162|M|61.9,68.6|

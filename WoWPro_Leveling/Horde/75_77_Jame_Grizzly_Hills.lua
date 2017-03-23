@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2017-03-23 19:09
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3294/revisions/28449/view
 -- Date: 2017-03-16 16:56
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -347,7 +352,7 @@ T Fate and Coincidence|QID|12329|N|To Sasha.|M|57.5,41.3|
 A Sasha's Hunt |QID|12134|PRE|12329|M|57.5,41.3|N|From Sasha.|
 A Anatoly Will Talk |QID|12330|PRE|12329|M|57.5,41.3|N|From Sasha.|
 
-C Sashsa's Hunt|QID|12134|N|Kill 12 Solstice Hunters.|M|60,40|
+C Sasha's Hunt|QID|12134|N|Kill 12 Solstice Hunters.|M|60,40|
 C Anatoly Will Talk|QID|12330|N|Head to the bonfire in the centre of the village and head a little south, you should find Tatjana. Use the Tranquilizer Dart on her (NOT her horse). Then right click the horse.|U|37665|M|62.4,42.4|T|Tatjana|
 T Sasha's Hunt |QID|12134|N|To Sasha.|M|57.52,41.35|
 T Anatoly Will Talk |QID|12330|M|57.5,41.3|N|To Sasha.|

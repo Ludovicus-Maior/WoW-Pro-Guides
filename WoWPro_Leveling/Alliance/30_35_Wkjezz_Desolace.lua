@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2017-03-23 17:54
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3313/revisions/28366/view
 -- Date: 2017-03-13 17:43
 -- Who: Ludovicus
 -- Log: Added PREs.
@@ -259,7 +264,7 @@ C New Beginnings|QID|14251|US|M|62.53,27.33;68.54,21.45|CN|RANK|2|N|Finish gathe
 T New Beginnings|QID|14251|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Good Gold For Bad Tail|QID|14252|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Fletch Me Some Plumage!|QID|14253|M|60.95,28.92|N|To Bizby.|RANK|2|
-C The Karnital Shipwreck|QID|1456|M|30.77,10.92|N|Kill and loot Slitherblade Tidehunters and Sea Witches until the satchel drops.|U|34130|RANK|3|
+C The Karnitol Shipwreck|QID|1456|M|30.77,10.92|N|Kill and loot Slitherblade Tidehunters and Sea Witches until the satchel drops.|U|34130|RANK|3|
 H Nijel's Point|QID|1456|N|Hearth back to Nijel's Point.|RANK|3|
 T The Karnitol Shipwreck |QID|1456|M|66.20,9.70|N|To Kreldig Ungor.|RANK|3|
 

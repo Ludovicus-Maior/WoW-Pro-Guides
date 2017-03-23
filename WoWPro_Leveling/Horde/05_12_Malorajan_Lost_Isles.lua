@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2017-03-23 18:59
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3212/revisions/28415/view
 -- Date: 2017-03-15 22:59
 -- Who: Ludovicus
 -- Log: Added 2 PREs to MalLos0512
@@ -210,7 +215,7 @@ return [[
 
 N Finish Kezan First|QID|14126|N|You will need to finish the Kezan zone before you can do the Lost Isles zone.|
 
-A Don't Go Into The Light |QID|14239|PRE|14126|N|Wait for the cinematic to finish, then get this quest from Doc Zapnozzle.|
+A Don't Go Into the Light!|QID|14239|PRE|14126|N|Wait for the cinematic to finish, then get this quest from Doc Zapnozzle.|
 ;T Don't Go Into The Light |QID|14239|N|To Doc Zapnozzle.|
 
 A Goblin Escape Pods|QID|14001;14474|M|24.63,77.96|N|From Geargrinder Gizmo.|PRE|14239|

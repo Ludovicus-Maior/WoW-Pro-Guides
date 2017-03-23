@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
+-- Date: 2017-03-23 19:04
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3278/revisions/28442/view
 -- Date: 2017-03-16 16:42
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -369,7 +374,7 @@ A A Hero Is Needed|QID|10914|PRE|10913|M|31.01,76.12|N|From Commander Ra'vaj.|
 T The Dread Relic |QID|10877|M|31.06,76.54|N|To Oakun.|
 
 A Evil Draws Near|QID|10923|PRE|10877|M|31.1,76.5|N|From Oakun.|
-C A Hero is Needed |QID|10914|M|36.04,74.78|N|Kill Auchenai Initiates and Doomsayers.|
+C A Hero Is Needed|QID|10914|M|36.04,74.78|N|Kill Auchenai Initiates and Doomsayers.|
 T A Hero Is Needed |QID|10914|M|31.0,76.1|N|To Commander Ra'vaj.|
 A The Fallen Exarch |QID|10915|PRE|10914|M|31.0,76.1|N|From Commander Ra'vaj.|
 C The Fallen Exarch |N|Go here from the west gate and use the coffin at this location, then kill the mob that spawns.|QID|10915|M|36.00,65.50|

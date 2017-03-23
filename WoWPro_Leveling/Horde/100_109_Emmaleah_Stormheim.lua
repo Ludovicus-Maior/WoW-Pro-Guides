@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2017-03-23 19:00
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3680/revisions/28543/view
 -- Date: 2017-03-22 08:02
 -- Who: Emmaleah
 -- Log: added intended path to treasure just before Stormwing Matriarch. (rather than jumping off the waterfall)
@@ -707,9 +712,9 @@ U Dalaran|QID|43331|U|140192|N|Return to Dalaran (via Hearthstone or however you
 
 C Halls of Valor: Securing the Aegis|QID|40072|N|If you havent yet done Halls of Valor, its a great time to queue for it and get your ilvl 800 legs (static ilvl even if you are lvl 100). Defeat Odyn (final boss in instance).|
 T Halls of Valor: Securing the Aegis|QID|40072|N|To the Aegis of Aggramar.|
-A Aegis of Aggramar|QID|43349|N|From the Aegis of Aggramar.|PRE|40072|
-C Aegis of Aggramar|QID|43349|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used.|
-T Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Aegis of Aggramar" on the wall.|
+A The Aegis of Aggramar|QID|43349|N|From the Aegis of Aggramar.|PRE|40072|
+C The Aegis of Aggramar|QID|43349|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used.|
+T The Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Aegis of Aggramar" on the wall.|
 A Pressing the Assault|QID|44545|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349|
 A Isle Hopping|QID|44547|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349;44545|
 A Scouring What Remains|QID|44548|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349;44547|

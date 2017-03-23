@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2017-03-23 17:51
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3220/revisions/28350/view
 -- Date: 2017-03-11 20:46
 -- Who: Ludovicus
 -- Log: Added PREs.
@@ -303,12 +308,12 @@ H Blood Watch |QID|9569|N|Hearth back to Blood Watch.|U|6948|
 T Containing the Threat|QID|9569|N|To Vindicator Aalesia.|M|55.05,58.01|
 T Don't Drink the Water|QID|9748|N|To Vindicator Aesom.|M|55.57,55.38|
 A Limits of Physical Exhaustion|QID|9746|PRE|9748|N|From Vindicator Aesom.|M|55.57,55.38|
-A What we Know...|R|Draenei|QID|9753|M|55.6,55.4|N|From Vindicator Aesom.|
+A What We Know...|R|Draenei|QID|9753|M|55.6,55.4|N|From Vindicator Aesom.|
 T The Final Sample|QID|9585|M|52.6,53.2|N|To Harbinger Mikolaas.|
-T What we Know...|R|Draenei|QID|9753|M|52.66,53.23|N|To Exarch Admetius.|
-A What we Don't Know...|R|Draenei|QID|9756|PRE|9753|N|From Exarch Admetius.|M|52.66,53.23|
-C What we Don't Know...|R|Draenei|QID|9756|M|54.4,54.3|N|Talk to the prisoner.|
-T What we Don't Know...|R|Draenei|QID|9756|N|To Exarch Admetius.|M|52.66,53.23|
+T What We Know...|R|Draenei|QID|9753|M|52.66,53.23|N|To Exarch Admetius.|
+A What We Don't Know...|R|Draenei|QID|9756|PRE|9753|N|From Exarch Admetius.|M|52.66,53.23|
+C What We Don't Know...|R|Draenei|QID|9756|M|54.4,54.3|N|Talk to the prisoner.|
+T What We Don't Know...|R|Draenei|QID|9756|N|To Exarch Admetius.|M|52.66,53.23|
 A Vindicator's Rest|R|Draenei|QID|9760|PRE|9756|N|From Exarch Admetius.|M|52.66,53.23|
 
 A The Missing Expedition|QID|9669|M|53.3,57.0|N|From Achelus.|

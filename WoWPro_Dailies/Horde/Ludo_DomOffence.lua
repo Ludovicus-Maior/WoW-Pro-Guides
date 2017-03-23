@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_dominance_offensive_source_code
+-- Date: 2017-03-23 17:42
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3603/revisions/28325/view
 -- Date: 2017-03-10 23:23
 -- Who: Ludovicus
 -- Log: Added PREs.
@@ -98,7 +103,7 @@ A Mystery Meatloaf|QID|32197|PRE|32108|ACTIVE|32222|M|13.77,55.79|N|From Duke|
 A Work Order: Fuel|QID|32136|PRE|32108|ACTIVE|32222|M|13.79,55.86|N|From Boss-Lady Trixel|
 K Chief Engineer Cogwrench|QID|32222|M|21.6,51.2|QO|1|N|Kill!|
 C SI:7 Saboteurs|QID|32214|M|18.00,56.50;26.55,61.65;15.40,57.75;19.55,59.00;25.88,58.77;21.50,54.75;19.68,62.16;12.53,60.45;11.40,64.94;23.68,55.95;9.88,62.35|CN|N|Kill SI7 if you can see them!|
-C Mystery Meat|QID|32197|M|16.60,71.60;19.60,52.80;27.80,57.60;15.60,67.50;20.60,55.50;17.60,54.80;25.52,67.67;20.80,68.25;24.20,70.47;23.00,67.70;21.70,65.75;26.45,63.35;21.34,70.89;18.50,65.70;24.10,64.35|CN|N|Kill wildlife to get the meat.  Do you really want it from polluted animals?|
+C Mystery Meatloaf|QID|32197|M|16.60,71.60;19.60,52.80;27.80,57.60;15.60,67.50;20.60,55.50;17.60,54.80;25.52,67.67;20.80,68.25;24.20,70.47;23.00,67.70;21.70,65.75;26.45,63.35;21.34,70.89;18.50,65.70;24.10,64.35|CN|N|Kill wildlife to get the meat.  Do you really want it from polluted animals?|
 ;
 T Mystery Meatloaf|QID|32197|M|26.05,58.07|N|To Sezik Steampot|
 A Precious Resource|QID|32237|PRE|32108|ACTIVE|32222|M|25.2,60.4|N|From Bixy Buzzsaw|
@@ -274,9 +279,9 @@ T The Darnassus Mission|QID|32327|M|40,50.4|N|To Fanlyr Silverthorn, using the e
 A Victorious Return|QID|32328|PRE|32327|M|40,50.4|N|From Fanlyr Silverthorn|
 T Victorious Return|QID|32328|M|10.4,53.8|N|To General Nazgrim|
 
-A The Situation in Dalaran|QID|32402|M|10.39,53.71|REP|Dominance Offensive;1375;revered;18500|PRE|32328|N|From General Nazgrim|
+A The Situation In Dalaran|QID|32402|M|10.39,53.71|REP|Dominance Offensive;1375;revered;18500|PRE|32328|N|From General Nazgrim|
 R Dalaran|M|9.69,52.51|QID|32402|N|Talk to Kromthar for a ride and fly to the sewers of Dalaran!|
-T The Situation in Dalaran|QID|32402|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|To Grand Magister Rommath|
+T The Situation In Dalaran|QID|32402|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|To Grand Magister Rommath|
 A It Starts in the Sewers|QID|32403|PRE|32402|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
 C Sunreaver Citizens|QID|32403|M|38.80,51.60;51.60,63.80;51.70,61.20;39.35,61.60;34.50,53.02;32.96,54.83;35.27,56.35;35.75,43.00;37.17,54.94;36.50,53.05;41.48,59.70;39.40,57.48;42.86,52.26;43.45,65.61;39.65,48.55|Z|The Underbelly@DalaranCity|CN|N|Tell the Citizens to flee the Underbelly.|
 T It Starts in the Sewers|QID|32403|PRE|32402|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|

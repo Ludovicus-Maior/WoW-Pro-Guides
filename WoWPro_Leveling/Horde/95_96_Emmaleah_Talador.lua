@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2017-03-23 19:17
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3598/revisions/28458/view
 -- Date: 2017-03-16 17:10
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -255,10 +260,10 @@ A Born to Shred|QID|33729|PRE|33728|M|55.68,41.16|N|From Gazlowe.|RANK|2|
 C Born to Shred|QID|33729|M|55.4,41.13|NC|QO|1|N|Get in the shredder and run over to Tuurem.|RANK|2|
 C Born to Shred|QID|33729|M|56.06,37.75;58.54,38.09|CS|NC|QO|2|N|When you get there use the abilities (1) for single target and (2) a ranged damage that makes you jump on a group of them and smash them.|RANK|2|
 T Born to Shred|QID|33729|M|60.07,40.65|N|To your Iron Shredder Prototype.|RANK|2|
-A Engineering her Demise|QID|33730|PRE|33729|M|60.07,40.65|N|From your Iron Shredder Prototype.|RANK|2|
-C Engineering her Demise|QID|33730|M|61.06,38.75|T|Ketya Shrediron|RANK|2|
+A Engineering Her Demise|QID|33730|PRE|33729|M|60.07,40.65|N|From your Iron Shredder Prototype.|RANK|2|
+C Engineering Her Demise|QID|33730|M|61.06,38.75|T|Ketya Shrediron|RANK|2|
 l Amethyl Crystal|QID|34236|M|62.05, 32.35|L|116131|ITEM|116131|N|Loot for a bit of treasure on your run back to Durotan's Grasp.|RANK|2|
-T Engineering her Demise|QID|33730|M|55.58,40.96|N|To Durotan.|RANK|2|
+T Engineering Her Demise|QID|33730|M|55.58,40.96|N|To Durotan.|RANK|2|
 A Khadgar's Plan|QID|34962|PRE|33730|M|55.58,40.96|N|From Durotan.|RANK|2|
 l Luminous Shell|QID|34235|M|52.56,29.54|L|116132|ITEM|116132|N|Turn, just before you get to Khadgar and run down the hill and across the stream for an Intellect Necklace.|RANK|2|
 T Khadgar's Plan|QID|34962|M|54.18,36.43|N|Follow Durotan down the road to where Khadgar is (and turn in to him).|RANK|2|
@@ -536,11 +541,11 @@ T Burn the books|QID|34164|M|34.00,73.98|N|To Kor'thos Dawnfury.|RANK|2|
 l Bonechewer Remnants|QID|34259|M|33.3,76.8|L|$824|N|Chest in the back of the hut.|RANK|2|
 R Seat of Depravity|QID|34144|M|32.17,75.85;31.94,74.62|CS|N|Up the hill and into the cave.|RANK|2|
 C Retribution for the Light|QID|34144|M|32.17,75.79|US|N|Finish up the demons before you go into the cave.|RANK|2|
-A Destination Unknown|QID|34564|PRE|34157|M|31.21,73.61|N|From Soulbinder Tuulani.|RANK|2|
-C Destination Unknown|QID|34564|M|30.89,73.12|T|Mongrethod|N|Click on the portal behind Tuulani and then fight Mongrethod. Return via the portal.|RANK|2|
+A Destination: Unknown|QID|34564|PRE|34157|M|31.21,73.61|N|From Soulbinder Tuulani.|RANK|2|
+C Destination: Unknown|QID|34564|M|30.89,73.12|T|Mongrethod|N|Click on the portal behind Tuulani and then fight Mongrethod. Return via the portal.|RANK|2|
 T Retribution for the Light|QID|34144|M|45.70,74.47|N|To Lady Liadrin.|RANK|2|
 T Destination: Unknown|QID|34564|M|46.32,74.09|N|To Soulbinder Tuulani.|RANK|2|
-A Together We are Strong|QID|36512|M|46.32,74.47|N|From Soulbinder Tuulani.|RANK|2|
+A Together We Are Strong|QID|36512|M|46.32,74.47|N|From Soulbinder Tuulani.|RANK|2|
 A Come Together|QID|34706|PRE|34564|M|45.71,74.45|N|From Lady Liadrin.|RANK|2|
 
 R Northwest towards Nagrand|QID|34710|M|42.79,74.79;42.28,67.81|CC|RANK|3|N|Follow the road towards Nagrand.|

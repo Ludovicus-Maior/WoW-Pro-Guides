@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2017-03-23 19:26
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3669/revisions/28465/view
 -- Date: 2017-03-16 22:25
 -- Who: Ludovicus
 -- Log: Added a PRE.
@@ -94,13 +99,13 @@ C The Dreamway|QID|40644|NC|QO|1|M|65.18,60.50|Z|Moonglade|N|Accompany Archdruid
 C The Dreamway|QID|40644|NC|QO|2|M|66.76,60.11|Z|Moonglade|N|Approach and listen to Malfurion|
 C The Dreamway|QID|40644|NC|QO|3|M|66.93,60.11|Z|Moonglade|N|Step into the circle and use your extra action button to complete the ritual.|
 T The Dreamway|QID|40644|M|66.73,60.54|Z|Moonglade|N|To Malfurion Stormrage.|
-A To TheDreamgrove|QID|40645|M|66.73,60.54|Z|Moonglade|N|From Malfurion Stormrage.|PRE|40644|
-C To TheDreamgrove|QID|40645|NC|QO|1|M|68.05,60.23|Z|Moonglade|N|Enter the Emerald Dreamway|
-C To TheDreamgrove|QID|40645|NC|QO|2|M|40.21,40.23|Z|EmeraldDreamway|N|Travel with Remulos|
-C To TheDreamgrove|QID|40645|QO|3|M|68.93,30.65|Z|EmeraldDreamway|N|Cleanse the Corruption|
-C To TheDreamgrove|QID|40645|NC|QO|4|M|45.70,24.08|Z|EmeraldDreamway|N|Travel to the Dreamgrove|
-C To TheDreamgrove|QID|40645|NC|QO|5|M|46.00,51.89|N|Meet the Archdruid|
-T To TheDreamgrove|QID|40645|M|44.55,51.02|N|To Rensar Greathoof.|
+A To The Dreamgrove|QID|40645|M|66.73,60.54|Z|Moonglade|N|From Malfurion Stormrage.|PRE|40644|
+C To The Dreamgrove|QID|40645|NC|QO|1|M|68.05,60.23|Z|Moonglade|N|Enter the Emerald Dreamway|
+C To The Dreamgrove|QID|40645|NC|QO|2|M|40.21,40.23|Z|EmeraldDreamway|N|Travel with Remulos|
+C To The Dreamgrove|QID|40645|QO|3|M|68.93,30.65|Z|EmeraldDreamway|N|Cleanse the Corruption|
+C To The Dreamgrove|QID|40645|NC|QO|4|M|45.70,24.08|Z|EmeraldDreamway|N|Travel to the Dreamgrove|
+C To The Dreamgrove|QID|40645|NC|QO|5|M|46.00,51.89|N|Meet the Archdruid|
+T To The Dreamgrove|QID|40645|M|44.55,51.02|N|To Rensar Greathoof.|
 A Weapons of Legend|QID|40646|M|44.55,51.02|N|From Rensar Greathoof.|PRE|40645|
 C Weapons of Legend|QID|40646|NC|QO|1|M|44.55,51.02|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T Weapons of Legend|QID|40646|M|44.55,51.02|N|To Rensar Greathoof.|
@@ -278,8 +283,8 @@ A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_horde
+-- Date: 2017-03-23 19:01
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3258/revisions/28434/view
 -- Date: 2017-03-15 23:32
 -- Who: Ludovicus
 -- Log: Add PREs  to JiyFel4550
@@ -190,7 +195,7 @@ A The Core of Kroshius|QID|28359|M|43.96,27.91|N|From Hurak Wildhorn.|
 h Whisperwind Grove|QID|28359|M|44.75,29.05|N|At Innkeeper Wylaria.|
 C Running Their Course|QID|28360|S|M|47.12,33.63|N|Kill the sickly looking deer in the area.|
 C Squirrely Clean|QID|28361|NC|M|45.97,35.53|N|Right-click squirrels to clean them.|
-C Running their Course|QID|28360|US|M|45.97,35.53|N|Kill the sickly looking deer in the area.|
+C Running Their Course|QID|28360|US|M|45.97,35.53|N|Kill the sickly looking deer in the area.|
 C Collecting Corruption|QID|28341|S|M|44.07,43.59|N|Kill and loot Entropic Horrors.|
 C Hunting the Damned|QID|28358|S|M|43.27,42.94|N|Kill infernals in the area. Make sure to loot them, since they can drop Infernal Debris.|
 C Fel To Pieces|QID|28342|S|NC|M|43.27,42.94|N|The infernal debris can be found on the ground, and also drops from infernals.|

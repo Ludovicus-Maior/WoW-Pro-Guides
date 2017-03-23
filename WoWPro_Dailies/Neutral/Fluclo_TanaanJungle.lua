@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3628
+-- Date: 2017-03-23 17:46
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3628/revisions/28329/view
 -- Date: 2017-03-10 23:32
 -- Who: Ludovicus
 -- Log: Added PREs.
@@ -201,13 +206,13 @@ T Following the Bloody Path |QID|38271|M|32.58,37.45|N|To Ariok|
 A The Bleeding Hollow |QID|38272|PRE|38271|M|32.58,37.45|N|From Ariok|
 A Spirits of the Bleeding Hollow |QID|38273|PRE|38271|ACTIVE|38272|M|32.42,37.40|N|From the Orc Skull|
 C Slay Enraged Blood Spirits |QID|38273|QO|1|S|
-C The Bottom of the Bleeding Hollow|QID|38273|N|Take the spiral path down to the bottom. Kill spirits along the way.|
+C Spirits of the Bleeding Hollow|QID|38273|N|Take the spiral path down to the bottom. Kill spirits along the way.|
 C Slay Enraged Blood Spirits |QID|38273|QO|1|US|
 T Spirits of the Bleeding Hollow |QID|38273|M|32.42,37.40|N|From the Orc Skull|
 T The Bleeding Hollow |QID|38272|M|32.44,37.32|N|Head down to the bottom and take the exit on the left.|
 A The Eye of Kilrogg |QID|38274|PRE|38273|M|32.44,37.32|N|Chieftains|
-C Eye of Kilrogg|QID|38274|QO|1|N|Click on the stones on the cave walls. Kill Mob, loot the eye. Rinse, repeat. The sixth eye should be the Eye of Kilrogg|
-C Eye of Kilrogg|QID|38274|M|32.53,36.86|QO|2|N|Click on the skull in the stone floor. Watch the scene and kill the eye.|
+C The Eye of Kilrogg|QID|38274|QO|1|N|Click on the stones on the cave walls. Kill Mob, loot the eye. Rinse, repeat. The sixth eye should be the Eye of Kilrogg|
+C The Eye of Kilrogg|QID|38274|M|32.53,36.86|QO|2|N|Click on the skull in the stone floor. Watch the scene and kill the eye.|
 T The Eye of Kilrogg |QID|38274|M|32.80,37.49|N|From Ariok|
 
 ;a Garrison Campaign: In the Shadows|QID|37687|FACTION|Alliance|

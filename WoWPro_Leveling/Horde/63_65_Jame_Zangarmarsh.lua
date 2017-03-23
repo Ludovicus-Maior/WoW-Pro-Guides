@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2017-03-23 19:03
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3274/revisions/28440/view
 -- Date: 2017-03-15 23:44
 -- Who: Ludovicus
 -- Log: Added PREs to JamZan6365
@@ -92,7 +97,7 @@ R Cenarion Refuge|QID|9747|M|78.5,62.9|N|Head over to the Cenarion Refuge.|
 T Warchief's Command: Zangarmarsh|QID|39180|N|To Ysiel Windsinger.|M|78.43,62.00|LVL|61|
 T Return to the Marsh|QID|9732|N|To Ysiel Windsinger.|M|78.43,62.00|LVL|60|
 h Cenarion Refuge|QID|9747|M|78.5,62.9|N|At Innkeeper Coryth Stoktron.|
-A The Dying balance|QID|9895|N|From Lethyn Moonfire|M|78.54,63.07|
+A The Dying Balance|QID|9895|N|From Lethyn Moonfire|M|78.54,63.07|
 
 A The Umbrafen Tribe|QID|9747|N|From Ikeyen.|M|80.38,64.21|
 A Plants of Zangarmarsh|QID|9802|M|80.4,64.2|N|From Lauranna Thar'well.|
@@ -272,7 +277,7 @@ T The Biggest of Them All |QID|9903|M|32.2,49.6|N|To Zurjaya.|
 T Have You Ever Seen One of These? |QID|9816|M|32.9,48.9|N|To Witch Doctor Tor'gash.|
 
 T Wanted: Chieftain Mummaki |QID|10117|M|30.7,50.9|N|To Shadow Hunter Denjai.|
-T Impmending Attack |QID|9822|M|30.7,50.9|N|To Shadow Hunter Denjai.|
+T Impending Attack|QID|9822|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 A Us or Them |QID|9823|PRE|9822|M|30.7,50.9|N|From Shadow Hunter Denjai.|
 A Message to the Daggerfen |QID|10118|M|30.7,50.9|N|From Shadow Hunter Denjai.|
 
@@ -292,9 +297,9 @@ N Disable the Marshlight Lake Controls |QID|9720|QO|2|U|24355|N|Use the Ironvine
 C Now That We're Friends... |QID|9726|US|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
 C Message to the Daggerfen |QID|10118|N|Kill Daggerfen Assassins and Muckdwellers.|M|25.05,25.97|
 C Stealing Back the Mushrooms |QID|9709|S|N|They can be looted off actual boxes on the ground and as drops off of the ogres. Spawns a Mauler if you pick one off the ground.|M|17.3,10.2|
-C Us of Them |QID|9823|N|Kill Ango'rosh Maulers and Souleaters.|S|
+C Us or Them|QID|9823|N|Kill Ango'rosh Maulers and Souleaters.|S|
 K Overlord Gorefist |QID|9823|QO|1|N|Kill Overlord Gorefist.|M|18.3,7.8|
-C Us of Them |QID|9823|N|Kill Ango'rosh Maulers and Souleaters.|US|
+C Us or Them|QID|9823|N|Kill Ango'rosh Maulers and Souleaters.|US|
 C Stealing Back the Mushrooms |QID|9709|US|N|They can be looted off actual boxes on the ground and as drops off of the ogres. Spawns a Mauler if you pick one off the ground.|M|17.3,10.2|
 T Now That We're Friends... |QID|9726|M|19.5,50.0|N|To Gzhun'tt.|
 
@@ -307,7 +312,7 @@ A News from Rakoria.|QID|9796|M|85.3,54.8|N|From Shadow Hunter Denjai. This lead
 H Cenarion Refuge|QID|9720|U|6948|N|Run back if your hearth isn't up.|M|33.0,51.1|
 
 T Balance Must Be Preserved |QID|9720|M|78.4,62.0|N|To Ysiel Windsinger.|
-A What's Wrong at Cenarion Thicket ?|QID|9957|M|78.5,63.1|N|From Lethyn Moonfire. This leads into Terokkar Forest, accept if you want to go there next.|
+A What's Wrong at Cenarion Thicket?|QID|9957|M|78.5,63.1|N|From Lethyn Moonfire. This leads into Terokkar Forest, accept if you want to go there next.|
 
 N Plant parts|QID|10118|N|Turn in any more plant parts you looted.|
 T Uncatalogued Species|QID|9875|M|80.4,64.2|N|To Lauranna Thar'well.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2017-03-23 19:27
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3670/revisions/28466/view
 -- Date: 2017-03-16 22:26
 -- Who: Ludovicus
 -- Log: Added a PRE; syntax change.
@@ -92,10 +97,10 @@ A Artifact specific quest|QID|41540;41541;41542|M|60.01,53.44|Z|Dalaran@Dalaran7
 A Pledge of Loyalty|QID|44090|M|40.02,30.16|Z|Dalaran@Dalaran70|N|From Snowfeather. This is a breadcrumb quest to remind you to go to your class hall, if you are already there... skip it.|LEAD|42519|LVL|101|
 R Trueshot Lodge|QID|44090|M|72.85,41.23|Z|Dalaran@Dalaran70|N|When you are done doing stuff in Dalaran, you can ask Talua for an eagle ride or travel any other way.|
 T Pledge of Loyalty|QID|44090|M|47.23,53.92|N|To Alter Keeper Biehn.|
-A Rise Champions|QID|42519|M|47.23,53.92|N|From Alter Keeper Biehn.|PRE|44090|
+A Rise, Champions|QID|42519|M|47.23,53.92|N|From Alter Keeper Biehn.|PRE|44090|
 A Champion: Loren Stormhoof|QID|42409|M|51.45,55.69|N|You will find Loren behind (outside) the lodge.|PRE|42519|
 A A Strong Right Hand|QID|40957|M|43.39,26.29|N|Emmarel is down by the bonfire where you last talked to her.|PRE|42519|
-T Rise Champions|QID|42519|M|42.80,46.93|N|To Tactician Tinderfell who is inside the building beside your scouting map.|
+T Rise, Champions|QID|42519|M|42.80,46.93|N|To Tactician Tinderfell who is inside the building beside your scouting map.|
 A Making Contact|QID|42523|M|42.80,46.93|N|From Tactician Tinderfell.|
 C Making Contact|QID|42523|M|42.47,46.72|NC|N|Send Loren on the mission Lenara Needs Help. It's a very short mission, so don't leave the lodge just yet.|
 T Making Contact|QID|42523|M|42.80,46.93|N|To Tactician Tinderfell.|
@@ -158,7 +163,7 @@ A Recruiting More Troops|QID|42134|M|42.76,46.92|N|From Tactician Tinderfell|PRE
 C Unseen Protection|QID|42394|M|42.58,46.66|NC|S|N|Send your followers on the "Unseen Protection" missions at the Scouting Map.|
 T Recruiting More Troops|QID|42134|M|57.66,32.45|N|To Sampson who is outside by the stables.|
 F Skyhorn|QID|42436|M|35.83,27.68|N|Fly to Skyhorn at Odan Battlebow to meet with Meliah. Take some combination of 100 (by multiples of 5) of Highmountain Salmon, Big Gamy Rabs and/or Silkweave Bandages.|ACTIVE|42436|
-C Aiding our Allies|QID|42436|M|53.03,44.47|Z|Highmountain|NC|N|Turn in (in multiples of 5) the supplies you brought her. (Big Gamy Ribs, Highmountain Salmon and Silkweave Bandages.)|
+C Aiding Our Allies|QID|42436|M|53.03,44.47|Z|Highmountain|NC|N|Turn in (in multiples of 5) the supplies you brought her. (Big Gamy Ribs, Highmountain Salmon and Silkweave Bandages.)|
 F Nesingwary|QID|40228|M|52.58,45.20|Z|Highmountain|N|At Farah Skybeak.|ACTIVE|42436|;not sure if this line will behave as i want. I want it only to show if you have NOT done the nesingwary chain. (40228)
 A Amateur Hour|QID|40170|M|40.03,52.24|Z|Highmountain|N|From Hemet Nesingwary.|
 A Note-Eating Goats|QID|39859|M|39.93,52.22|Z|Highmountain|N|From Addie Fizzlebog.|
@@ -238,8 +243,8 @@ A Goddess Watch Over You|QID|44337|M|36.95,28.21|N|Received from a glowing pink 
 A Hitting the Books|QID|43880|M|52.49,54.52|N|From Holt Thunderhorn.|LVL|110|
 C Hitting the Books|QID|43880|M|52.49,54.52|CHAT|N|At Holt Thunderhorn. Probably your highest priority to keep this queue full!|
 T Hitting the Books|QID|43880|M|52.49,54.52|N|To Holt Thunderhorn.|
-A Walk this Way|QID|44233|M|44.60,48.86|N|From/To Outfitter Reynolds inside the lodge.|LVL|110|
-T Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
+A Walk This Way|QID|44233|M|44.60,48.86|N|From/To Outfitter Reynolds inside the lodge.|LVL|110|
+T Goddess Watch Over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
 t Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
@@ -262,8 +267,8 @@ A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
@@ -287,7 +292,7 @@ T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Trail of Echos|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
+A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
 N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
 
 ;post 110 order hall progression
@@ -313,9 +318,9 @@ C The Scent of Magic|QID|42401|M|33.14,57.01|Z|Suramar|N|Follow Baron as he snif
 T The Scent of Magic|QID|42401|M|33.14,57.01|Z|Suramar|N|To Archmage Khadgar.|
 A Assisting the Archmage|QID|42404|M|33.14,57.01|Z|Suramar|N|From Archmage Khadgar.|PRE|42401|
 T Assisting the Archmage|QID|42404|M|43.39,26.40|N|To Emmarel Shadewarden, (back in Trueshot Lodge).|
-A Knowing our Enemy|QID|42689|M|43.39,26.40|N|From Emmarel Shadewarden.|PRE|42404|
+A Knowing Our Enemy|QID|42689|M|43.39,26.40|N|From Emmarel Shadewarden.|PRE|42404|
 F Felblaze Ingress|QID|42689|M|35.86,27.62|N|At Odan Battlebow. If you don't have Felblaze Ingress, Azurewing Repose is next closest.|ACTIVE|42689|
-T Knowing our Enemy|QID|42689|M|62.42,32.47;60.81,30.63|CS|Z|Azsuna|N|To Kira Iresoul.|
+T Knowing Our Enemy|QID|42689|M|62.42,32.47;60.81,30.63|CS|Z|Azsuna|N|To Kira Iresoul.|
 A Leyworm Lure|QID|42691|M|60.81,30.63|Z|Azsuna|N|From Kira Iresoul.|PRE|42689|
 F Azurewing Repose|QID|42691|M|61.50,31.74;63.84,28.47|CS|Z|Azsuna|N|At Adept Sunwing. (or just run over to Azurewing Repose)|
 C Leyworm Lure|QID|42691|M|47.91,22.64|Z|Azsuna|N|Run into the cave and kill Leyworms.|
@@ -402,7 +407,7 @@ F Garden of the Moon|QID|44466|QO|1|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|44
 R Emerald Bay|QID|44466|QO|1|M|54.76,51.73;53.17,49.45;51.35,43.52|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|47.28,43.46|N|To Light's Heart, back in your order hall.|
-A Ravemcrest's Legacy|QID|44479|M|47.28,43.46|N|From Light's Heart.|PRE|44466|
+A Ravencrest's Legacy|QID|44479|M|47.28,43.46|N|From Light's Heart.|PRE|44466|
 F Bradensbrook|QID|44479|QO|1|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|44479|
 R Black Rook Hold|QID|44479|QO|1|M|38.80,58.06;39.34,53.45|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|ACTIVE|44479|
 R Ravencourt|QID|44479|QO|1|M|40.97,54.12;41.44,45.63|CS|Z|Val'sharah|N|Run to the alcove behind Araxxas (not in the instance).|ACTIVE|44479|

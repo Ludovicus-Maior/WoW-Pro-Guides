@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2017-03-23 17:40
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3414/revisions/28528/view
 -- Date: 2017-03-17 17:10
 -- Who: Ludovicus
 -- Log: Restore the lost CraToBarA guide
@@ -93,7 +98,7 @@ C Ghostbuster|QID|27978|M|79,50|N|Kill 14 ghosts of any type.|
 C Cannonball!|QID|27987|M|79,50|N|Loot the piles of cannonballs on the ground.|
 C Taking the Overlook Back|QID|27991|M|77.8,42.6|N|Go up the tower and kill Commander Largo.|
 
-C Not The Friendlist Town|QID|28130|M|67.6,34.7|N|Kill 14 villagers in Rustberg Village.|
+C Not The Friendliest Town|QID|28130|M|67.6,34.7|N|Kill 14 villagers in Rustberg Village.|
 C Teach A Man To Fish.... Or Steal|QID|28137|M|68.2,23.3|N|You can loot the Seabass from the Rustberg Fisherman or from Strings of Fish.|
 
 C Captain P. Harris|QID|27970|M|48,7.9|N|Find and kill Captain P. Harris.|T|Captain P. Harris|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2017-03-23 17:34
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3648/revisions/28309/view
 -- Date: 2017-03-10 22:41
 -- Who: Ludovicus
 -- Log: Add PREs
@@ -224,7 +229,7 @@ C Dirty Rats|QID|34355|M|56.0,89.3|Z|Shadowmoon Valley@Draenor|QO|1|U|110268|N|U
 T Dirty Rats|QID|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Releasing Rylak|QID|34365|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 A Downsizing the Darktide|QID|34397|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
-A Free Their Minds|QID|34455|PRE|34355|M|59.8,94.52|Z|Shadowmoon Valley@Draenor|N|From the Goblin Mind Control Device|
+A Free their Minds|QID|34455|PRE|34355|M|59.8,94.52|Z|Shadowmoon Valley@Draenor|N|From the Goblin Mind Control Device|
 C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|S|Z|Shadowmoon Valley@Draenor|
 U Free their minds|QID|34455|M|59.33,95.69|N|Use the Rylak Mind controller on Controlled Darkwing.|QO|1|S|U|110447|Z|Shadowmoon Valley@Draenor|
 t Free their minds|QID|34455|M|59.33,95.69|N|UI turnin.|S|U|110447|Z|Shadowmoon Valley@Draenor|
@@ -373,7 +378,7 @@ A Reclaiming the City|QID|35683|PRE|35679|M|49.8,48.6|Z|Talador|N|From Exarch Ma
 C Sargerei Insignias|QID|35683|M|38,21|N|Head into the city of Shattrath and kill and loot Insignias.|QO|1|FACTION|Alliance|
 T Reclaiming the City|QID|35683|M|49.8,48.6|Z|Talador|N|To Exarch Maladaar.|FACTION|Alliance|
 A Socrethar's Demise|QID|35685|PRE|35683|M|49.8,48.6|Z|Talador|N|From Exarch Maladaar.|FACTION|Alliance|
-C Screthar's Demise|QID|35685|M|42.36,32.99|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Alliance|
+C Socrethar's Demise|QID|35685|M|42.36,32.99|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Alliance|
 K Socrethar|QID|35685|T|Socrethar|QO|2|FACTION|Alliance|
 T Socrethar's Demise|QID|35685|M|49.8,48.6|Z|Talador|N|To Exarch Maladaar.|FACTION|Alliance|
 ; A Garrison Campaign: The Fall of Shattrath|QID|35680|M|47.6,47.0|N|From Khadgar's Servant.|FACTION|Horde|
@@ -382,7 +387,7 @@ A Reclaiming the City|QID|35684|PRE|35680|M|50.0,48.6|Z|Talador|N|From Lady Liad
 C Sargerei Insignias|QID|35684|M|38,21|N|Head into the city of Shattrath and kill and loot Insignias.|QO|1|FACTION|Horde|
 T Reclaiming the City|QID|35684|M|50.0,48.6|Z|Talador|N|To Lady Liadrin.|FACTION|Horde|
 A Socrethar's Demise|QID|35687|PRE|35684|M|50.0,48.6|Z|Talador|N|From Lady Liadrin.|FACTION|Horde|
-C Screthar's Demise|QID|35687|M|41.6,32.4|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Horde|
+C Socrethar's Demise|QID|35687|M|41.6,32.4|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Horde|
 K Socrethar's Demise|QID|35687|T|Socrethar|QO|2|FACTION|Horde|
 T Socrethar's Demise|QID|35687|M|50.0,48.6|Z|Talador|N|To Lady Liadrin.|FACTION|Horde|
 

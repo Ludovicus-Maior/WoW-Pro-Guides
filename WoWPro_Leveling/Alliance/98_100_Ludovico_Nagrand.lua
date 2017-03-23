@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2017-03-23 18:32
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3618/revisions/28407/view
 -- Date: 2017-03-15 22:27
 -- Who: Ludovicus
 -- Log: Added PREs to LudoNagrand
@@ -364,16 +369,16 @@ C Shooting the Breeze |QID|35338|N|Kill and loot the Breezestrider Colt, Talbuk 
 C That Pounding Sound |QID|35337|N|Kill and loot the and looting the Leatherhide Calf, Clefthoof and Bull for their ears.|S|ACTIVE|34869|
 
 T Gazmolf Futzwangler and the Highmaul Crusade|QID|34810|N|To Gazmolf Futzwangler|M|71.13,52.35|
-A A Lesson in Minerology |QID|34809|N|From Gazmolf Futzwangler|M|71.13,52.35|PRE|34810|
+A A Lesson in Mineralogy|QID|34809|N|From Gazmolf Futzwangler|M|71.13,52.35|PRE|34810|
 A Good Help is Hard to Find |QID|34811|N|From Trixi Leroux|M|71.11,52.42|PRE|34810|
 
-C A Lesson in Minerology |QID|34809|N|Kill and loot the Raging Crusher for the Earthen Core.|S|
+C A Lesson in Mineralogy|QID|34809|N|Kill and loot the Raging Crusher for the Earthen Core.|S|
 C Good Help is Hard to Find |QID|34811|N|Loot the Loose Soil for the Nagrand Antiquity.|NC|M|68.50,53.50|S|
 K Greatfeather |QID|35714|M|66.75,51.25|N|*Rare Kill*\nDrops a cloth robe worth 30g. On the far side of Stonecrag Gorge.|RANK|3|
 C Good Help is Hard to Find |QID|34811|N|Loot the Loose Soil for the Nagrand Antiquity.|NC|M|68.50,53.50|US|
-C A Lesson in Minerology |QID|34809|N|Kill and loot the Raging Crusher for the Earthen Core.|US|M|68.50,53.50|
+C A Lesson in Mineralogy|QID|34809|N|Kill and loot the Raging Crusher for the Earthen Core.|US|M|68.50,53.50|
 
-T A Lesson in Minerology |QID|34809|N|To Gold-O-Matiuc 9000|M|71.05,52.32|
+T A Lesson in Mineralogy|QID|34809|N|To Gold-O-Matiuc 9000|M|71.05,52.32|
 T Good Help is Hard to Find |QID|34811|N|To Trixi Leroux|M|71.11,52.42|
 
 A A Lesson in Teamwork |QID|35663|N|From Gazmolf Futzwangler|M|71.13,52.35|PRE|34809;34811|

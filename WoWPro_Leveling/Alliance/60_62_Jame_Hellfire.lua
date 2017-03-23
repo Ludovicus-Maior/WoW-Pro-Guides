@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2017-03-23 17:56
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3271/revisions/28388/view
 -- Date: 2017-03-15 21:34
 -- Who: Ludovicus
 -- Log: Added PREs to JamHel6062
@@ -155,7 +160,7 @@ A Ill Omens |QID|10483|PRE|10482|M|50.9,60.2|N|From Lieutenant Amadi.|
 T The Legion Reborn |QID|10141|M|61.7,60.8|N|To Sergeant Altumus.|
 A The Path of Anguish |QID|10142|PRE|10141|M|61.7,60.8|N|From Sergeant Altumus.|
 ; The quest "Invading the Citadel" on the following line has wrong caps on 'The' so it does not auto-accept since it is optional.|
-A Invading The Citadel|QID|29543|M|61.7,60.8|N|From Sergeant Altumus. This quest leads into Hellfire Ramparts, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for Hellfire Ramparts if you wish.|
+A Invading the Citadel|QID|29543|M|61.7,60.8|N|From Sergeant Altumus. This quest leads into Hellfire Ramparts, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for Hellfire Ramparts if you wish.|
 C The Path of Anguish |N|Kill the mobs needed for this quest.|QID|10142|M|65.00,58.00|
 N Burn Catapult 1 |QID|10078|N|Burn the first thrower here with the Flaming Torch. |QO|Eastern Thrower Burned: 1/1|U|26002|M|58.50,46.80|
 N Burn Catapult 2 |QID|10078|N|Burn the second thrower here with the Flaming Torch. |QO|Central Eastern Thrower Burned: 1/1|U|26002|M|55.85,46.75|

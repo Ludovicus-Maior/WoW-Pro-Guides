@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2017-03-23 17:59
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3287/revisions/28395/view
 -- Date: 2017-03-15 21:46
 -- Who: Ludovicus
 -- Log: Added PREs to JamHow7274
@@ -134,8 +139,8 @@ T The Shining Light |QID|11288|M|59.3,55.4|N|To Ares the Oathbound.|
 A Guided by Honor |QID|11289|PRE|11288|M|59.3,55.4|N|From Ares the Oathbound.|
 C The Depths of Depravity |QID|11277|N|Finish picking up Wyrmskull Tablets. |M|57.35,56.38|US|
 T The Depths of Depravity |QID|11277|M|56.9,53.8|N|To Glorenfeld.|
-A The Ring of Judgement |QID|11299|PRE|11277|M|56.9,53.8|N|From Glorenfeld.|
-T The Ring of Judgement |QID|11299|M|55.7,57.4|N|To Daegarn.|
+A The Ring of Judgment|QID|11299|PRE|11277|M|56.9,53.8|N|From Glorenfeld.|
+T The Ring of Judgment|QID|11299|M|55.7,57.4|N|To Daegarn.|
 A Stunning Defeat at the Ring |QID|11300|PRE|11299|M|55.7,57.4|N|From Daegarn.|
 C Stunning Defeat at the Ring |QID|11300|N|Kill the mobs in the center of the ring until Oluf the Violent shows up. Kill him and loot the Ancient Cipher from the ground. |M|55.06,57.52|
 T Stunning Defeat at the Ring |QID|11300|M|56.9,53.8|N|To Glorenfeld.|

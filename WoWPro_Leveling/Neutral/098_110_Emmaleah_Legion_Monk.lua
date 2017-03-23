@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2017-03-23 19:30
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3672/revisions/28468/view
 -- Date: 2017-03-16 22:33
 -- Who: Ludovicus
 -- Log: Syntax corrections.
@@ -148,17 +153,17 @@ T Light's Charge|QID|44153|M|51.76,48.09|NC|N|Use Zen Pilgrimage to return to yo
 ;back to order hall quests
 C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|US|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours. Check it off manually to continue with the guide while mission completes.|
 t Scrolls of Knowledge|QID|42210|M|52.78,59.77|N|To Master Hsu.|
-A Tech It Up a Notch|QID|42191|M|52.78,59.77|N|From Master Hsu.|PRE|42210|
-C Tech It Up a Notch|QID|42191|M|53.04,59.79|NC|N|Click on Number Nine Jia to open a panel where you chose how you want to progress your order hall. Come back tomorrow when it completes.|
-T Tech It Up a Notch|QID|42191|M|51.41,48.36|N|To Iron-Body Ponshu.|
-A Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|PRE|42191|
-C Report from the Monastery|QID|41905|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send Chen on the mission. This step takes 1 hour (the length of the mission) to complete. Check it off manually, and don't forget to come back to your scouting map next time you are in the Order Hall.|
+A Tech It Up A Notch|QID|42191|M|52.78,59.77|N|From Master Hsu.|PRE|42210|
+C Tech It Up A Notch|QID|42191|M|53.04,59.79|NC|N|Click on Number Nine Jia to open a panel where you chose how you want to progress your order hall. Come back tomorrow when it completes.|
+T Tech It Up A Notch|QID|42191|M|51.41,48.36|N|To Iron-Body Ponshu.|
+A Report from Tian Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|PRE|42191|
+C Report from Tian Monastery|QID|41905|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send Chen on the mission. This step takes 1 hour (the length of the mission) to complete. Check it off manually, and don't forget to come back to your scouting map next time you are in the Order Hall.|
 t Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|
 
-A The Defense of Tian Monstery|QID|41728|M|51.41,48.36|N|From Iron-Body Ponshu.|PRE|41905|LVL|103|
-C The Defense of Tian Monstery|QID|41728|QO|1|M|47.14,47.74|N|Talk to Tak Tak to take the flight to Tien Monestary.|CHAT|
+A The Defense of Tian Monastery|QID|41728|M|51.41,48.36|N|From Iron-Body Ponshu.|PRE|41905|LVL|103|
+C The Defense of Tian Monastery|QID|41728|QO|1|M|47.14,47.74|N|Talk to Tak Tak to take the flight to Tien Monestary.|CHAT|
 A Slowing the Spread|QID|41729|M|38.34,25.81|Z|The Jade Forest|N|From Instructor Myang.|PRE|41905|LVL|103|
-T The Defense of Tian Monstery|QID|41728|M|39.97,24.91|Z|The Jade Forest|N|To Taran Zhu.|
+T The Defense of Tian Monastery|QID|41728|M|39.97,24.91|Z|The Jade Forest|N|To Taran Zhu.|
 A Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41728|
 A Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41728|
 C Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|S|N|Kill the demons as you go along.|
@@ -217,7 +222,7 @@ T Hitting the Books|QID|43881|M|46.71,46.69|N|To Lorewalker Cho.|
 A Inner Sanctuary|QID|44249|M|50.33,59.14|N|From Caydori Brightstar. Your class hall has a gift for you.|LVL|110|
 T Inner Sanctuary|QID|44249|M|50.33,59.14|N|To Caydori Brightstar.|
 P Krasus' Landing|QID|44338|M|52.39, 57.13|N|Take the portal to Dalaran.|ACTIVE|44348|
-C Goddess Watch over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
+C Goddess Watch Over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
@@ -244,8 +249,8 @@ A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
@@ -285,9 +290,9 @@ C No Monk Left Behind|QID|41852|M|68.56,69.32|Z|Stormheim|NC|US|N|Free Prisoners
 T No Monk Left Behind|QID|41852|M|68.56,69.32|Z|Stormheim|N|To Angus Ironfist.|
 T Quelling the Tide|QID|41851|M|68.56,69.32|Z|Stormheim|N|To Sylara Steelsong.|
 T Zero to Hiro|QID|41853|M|68.56,69.32|Z|Stormheim|N|To Hiro.|
-A Brick by Brick|QID|41854|M|68.56,69.32|Z|Stormheim|N|From Hiro.|PRE|41851;41852;41853|
+A Brick By Brick|QID|41854|M|68.56,69.32|Z|Stormheim|N|From Hiro.|PRE|41851;41852;41853|
 P Hall of the Seasons|QID|41854|M|68.56,69.32|Z|Stormheim|U|141605|N|Use your flight master's whistle and then Zen Pilgrimage to return to Iron-Body Ponshu. Use the whistle for the covenience of the followup quest.|
-T Brick by Brick|QID|41854|M|51.40,48.39|N|To Iron-Body Ponshu.|
+T Brick By Brick|QID|41854|M|51.40,48.39|N|To Iron-Body Ponshu.|
 A Champion: Hiro|QID|41737|M|51.90,49.50|N|From/To Hiro.|PRE|41854|
 A Champion: Sylara Steelsong|QID|41738|M|51.97,49.66|N|From/To Sylara Steelsong.|PRE|41854|
 A Champion: Angus Ironfist|QID|41736|M|51.88,49.71|N|From/To Angus Ironfist.|PRE|41854|
@@ -320,8 +325,8 @@ C Halls of Valor: Odyn's Cauldron|QID|41059|QO|2|M|51.21,87.21|Z|HallsofValor|N|
 R Valdisdal|QID|41911|U|141605|N|Run to the nearest flight path or use your flightmaster's whistle.|
 F Lorlathil|QID|41911|N|At the flightmaster.|ACTIVE|41911|
 C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
-A Making a Trade|QID|43151|M|55.12,73.08;56.33,73.89|CS|Z|Val'sharah|N|Down the ramp into the inn, to meet Fleuris Asterleaf.|ACTIVE|41911|
-T Making a Trade|QID|43151|M|56.33,73.89|Z|Val'sharah|N|To Fleuris Asterleaf.|
+A Making A Trade|QID|43151|M|55.12,73.08;56.33,73.89|CS|Z|Val'sharah|N|Down the ramp into the inn, to meet Fleuris Asterleaf.|ACTIVE|41911|
+T Making A Trade|QID|43151|M|56.33,73.89|Z|Val'sharah|N|To Fleuris Asterleaf.|
 P Hall of the Seasons|QID|43151|M|56.33,73.89|Z|Val'sharah|N|Use Zen Pilgrimage to return to your order hall.|
 T Halls of Valor: Odyn's Cauldron|QID|41059|M|51.40,48.39|N|To Iron-Body Ponshu.|
 T Amaranthine Hops|QID|41911|M|56.33,73.89|Z|Val'sharah|N|To Fleuris Asterleaf.|
@@ -330,7 +335,7 @@ t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N
 A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Trail of Echos|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
+A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
 
 ;lights heart - post 110
 
@@ -343,7 +348,7 @@ R Emerald Bay|QID|44466|QO|1|M|54.76,51.73;53.17,49.45;51.35,43.52|CS|Z|Val'shar
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 P Hall of the Seasons|QID|44466|M|45.39,34.26|Z|Val'sharah|N|Zen Pilgrimage back to your order hall.|ACTIVE|44466|
 T An Unclear Path|QID|44466|M|49.64,26.41|N|To Light's Heart.|
-A Ravemcrest's Legacy|QID|44479|M|49.64,26.41|N|From Light's Heart.|PRE|44466|
+A Ravencrest's Legacy|QID|44479|M|49.64,26.41|N|From Light's Heart.|PRE|44466|
 P Emerald Bay|QID|44479|QO|1|M|49.64,26.41|N|Zen Pilgrimage Back to Val'sharah.|ACTIVE|44479|
 R Black Rook Hold|QID|44479|QO|1|M|38.80,58.06;39.34,53.45|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|ACTIVE|44479|
 R Ravencourt|QID|44479|QO|1|M|40.97,54.12;41.44,45.63|CS|Z|Val'sharah|N|Run to the alcove behind Araxxas (not in the instance).|ACTIVE|44479|
@@ -404,7 +409,7 @@ C Storm Brew|QID|41087|QO|3|M|25.91,68.06|CHAT|N|Talk to Chen Stormstout to star
 C Storm Brew|QID|41087|QO|5|M|25.53,68.38|NC|N|Click on Odyn's cauldren to drink the brew.|
 C Storm Brew|QID|41087|QO|6|M|27.50,65.15|N|Kill Lady Kaletress.|T|Lady Kaletress.|
 T Storm Brew|QID|41087|M|31.36,40.60|N|To Chen Stormstout.|
-A Chammpion: Aegira|QID|41739|M|31.18,40.67|N|From/To Aegira.|PRE|41087|
+A Champion: Aegira|QID|41739|M|31.18,40.67|N|From/To Aegira.|PRE|41087|
 A A Hero's Weapon|QID|43359|M|51.40,48.37|N|From Iron-Body Ponshu. You can use Zen Pilgrimage twice to return to the Temple or run back.|PRE|41087|
 C A Hero's Weapon|QID|43359|M|51.47,48.86|NC|N|Stand in the green runed circle and use the provided special action button.|
 T A Hero's Weapon|QID|43359|M|51.40,48.37|N|To Iron-Body Ponshu.|
@@ -474,9 +479,9 @@ T The Emperor's Gift|QID|41003|M|51.41,48.39|N|To Iron-Body Ponshu.|
 ;A The Legend of the Sands|QID|40569|M|51.4,48.39|N|From Iron-Body Ponshu.|PRE|40636|
 C The Legend of the Sands|QID|40569|M|49.13,58.58|N|You can find Li Li in the Laughing Crane Inn.|CHAT|
 T The Legend of the Sands|QID|40569|M|49.13,58.58|N|To Li Li Stormstout.|
-A Off to Adventure!|QID|40633|M|49.13,58.58|N|From Li Li Stormstout.|PRE|40569|
-C Off to Adventure!|QID|40633|M|50.54,58.61|N|Hop on Li Li's kite for a ride to Uldam.|QO|1|NC|
-T Off to Adventure!|QID|40633|M|54.85,32.87|Z|Uldum|N|To Li Li Stormstout.|
+A Off To Adventure!|QID|40633|M|49.13,58.58|N|From Li Li Stormstout.|PRE|40569|
+C Off To Adventure!|QID|40633|M|50.54,58.61|N|Hop on Li Li's kite for a ride to Uldam.|QO|1|NC|
+T Off To Adventure!|QID|40633|M|54.85,32.87|Z|Uldum|N|To Li Li Stormstout.|
 A Thunder on the Sands|QID|40634|M|54.90,32.74|Z|Uldum|N|From King Phaoris.|PRE|40633|
 C Thunder on the Sands|QID|40634|M|45.62,14.32|Z|Uldum|N|Kill and loot Nader to find the clue.|QO|1|T|Nader|
 T Thunder on the Sands|QID|40634|M|54.91,32.74|Z|Uldum|N|To King Phaoris.|

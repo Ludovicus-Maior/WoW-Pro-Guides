@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2017-03-23 17:58
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3279/revisions/28391/view
 -- Date: 2017-03-15 21:38
 -- Who: Ludovicus
 -- Log: Added PREs to JamNag6668
@@ -314,7 +319,7 @@ A Ruthless Cunning |QID|9927|M|73.8,62.6|N|From Lantressor of the Blade.|
 C Ruthless Cunning |N|Plant the banners on the mob corpses for this quest.|QID|9927|M|71.4,79.4|S|
 C Armaments for Deception |N|Loot the boxes for this quest.|QID|9928|M|71.4,79.4|S|
 K Giselda the Crone |N|Kill Giselda the Crone in center the large building.|QID|9936|M|71.14,92.31|QO|Giselda the Crone slain: 1/1|
-C Wanted: Giseld the Crone|QID|9936|N|Kill the rest of the Kil'sorrow agents needed.|M|70.52,79.2|
+C Wanted: Giselda the Crone|QID|9936|N|Kill the rest of the Kil'sorrow agents needed.|M|70.52,79.2|
 C Ruthless Cunning |N|Plant the rest of the banners on the mob corpses for this quest.|QID|9927|M|71.4,79.4|US|
 C Armaments for Deception |N|Loot the rest of the boxes for this quest.|QID|9928|M|71.4,79.4|US|
 T Armaments for Deception |QID|9928|M|73.8,62.6|N|To Lantressor of the Blade.|

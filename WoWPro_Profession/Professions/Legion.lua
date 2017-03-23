@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_profession_quests
+-- Date: 2017-03-23 19:41
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3712/revisions/28499/view
 -- Date: 2017-03-17 00:37
 -- Who: Ludovicus
 -- Log: Syntax tweaks
@@ -183,7 +188,7 @@ B A Sweet Bargain|QID|38564|M|50.52,29.26|Z|Dalaran@Dalaran70|P|Blacksmithing;16
 C A Sweet Bargain|QID|38564|M|50.52,29.26|Z|Dalaran@Dalaran70|P|Blacksmithing;164|QO|3|CHAT|N|Give the Truffles to Glaciela Rimebang|
 T A Sweet Bargain|QID|38564|M|44.29,28.87|Z|Dalaran@Dalaran70|P|Blacksmithing;164|N|To Alard Schmied.|
 A Advanced Quenching|QID|44449|PRE|38564|M|44.29,28.87|Z|Dalaran@Dalaran70|LVL|108|P|Blacksmithing;164|N|From Alard Schmied.|
-C AdvancedQuenching|QID|44449|M|44.97,29.62|Z|Dalaran@Dalaran70|P|Blacksmithing;164|QO|1|N|Using Alard's Forge, Create:\n Leystone Slag x2\nTurn to the Quenching Trough and Create:\nHard Leystone Bar x2\nTurn back the Forge and Create:\nHeated Hard Leystone Bar\nTurn to the Anvil, and Create:\nDull Hard Leystone Armguards\nMove to the Whetstone and Create:\nHard Leystone Armguards.|
+C Advanced Quenching|QID|44449|M|44.97,29.62|Z|Dalaran@Dalaran70|P|Blacksmithing;164|QO|1|N|Using Alard's Forge, Create:\n Leystone Slag x2\nTurn to the Quenching Trough and Create:\nHard Leystone Bar x2\nTurn back the Forge and Create:\nHeated Hard Leystone Bar\nTurn to the Anvil, and Create:\nDull Hard Leystone Armguards\nMove to the Whetstone and Create:\nHard Leystone Armguards.|
 T Advanced Quenching|QID|44449|M|44.29,28.87|Z|Dalaran@Dalaran70|P|Blacksmithing;164|N|To Alard Schmied.|
 A Felsmith Nal'ryssa|QID|38524|M|44.29,28.87|Z|Dalaran@Dalaran70|LVL|110|P|Blacksmithing;164|N|From Alard Schmied.|
 C Part of the Team|QID|38525|M|29.8,63.4|Z|Suramar|P|Blacksmithing;164|S|N|Kill Demons in Felsoul Hold.|
@@ -204,7 +209,7 @@ A Leystone Mastery|QID|38531|PRE|38530|M|55.16,84.20|Z|Highmountain|LVL|110|P|Bl
 B Leystone Mastery|QID|38531|M|54.98,84.47|Z|Highmountain|LVL|110|P|Blacksmithing;164|QO|1|L|124024 1|N|Buy a Leystone Armor Stand, From Thala Steeltotem.|
 C Leystone Mastery|QID|38531|M|54.88,84.38|Z|Highmountain|N|Create all 8 of Leystone Armor.\n\nYou'll need:\nLeystone Ore x151,\nFoxflower Flux x8\n\nLeystone Armguards\nLeystone Boots\nLeystone Breastplate\nLeystone Gauntlets\nLeystone Greaves\nLeystone Helm\nLeystone Pauldrons\nLeystone Waistguard.\n\nOnce you've made them use the Armor Stand to create the Armor Set.|
 T Leystone Mastery|QID|38531|M|55.16,84.20|Z|Highmountain|N|To Barm Stonebreaker.|
-A Hammered by the Storm|QID|38532|PRE|38531|M|55.16,84.20|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Barm Stonebreaker. Dungeon: Maw of Souls.|
+A Hammered By The Storm|QID|38532|PRE|38531|M|55.16,84.20|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Barm Stonebreaker. Dungeon: Maw of Souls.|
 t Hammered by the Storm|QID|38532|M|55.16,84.20|Z|Highmountain|N|To Barm Stonebreaker, Ironhorn Enclave.|
 A Worthy of the Stone|QID|38559|PRE|38531;38532|M|55.16,84.20|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Barm Stonebreaker.|
 T Worthy of the Stone|QID|38559|M|54.6,84.0|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|To Muirn Ironhorn.|
@@ -454,8 +459,8 @@ C Mass Milling Techniques|QID|39954|M|40.71,37.60|Z|Dalaran@Dalaran70|P|Inscript
 C Mass Milling Techniques|QID|39954|M|40.81,36.42|Z|Dalaran@Dalaran70|P|Inscription;773|QO|1|N|Climb the Runed Ladder.|
 C Mass Milling Techniques|QID|39954|M|41.09,37.07|Z|Dalaran@Dalaran70|P|Inscription;773|QO|1|N|Grab The Masterful Miller's Manual. (When the ladder stops moving)|
 T Mass Milling Techniques|QID|39954|M|41.30,37.06|Z|Dalaran@Dalaran70|P|Inscription;773|N|To Professor Pallin.|
-A An Embarrassing Revelaton|QID|39961|M|41.46,37.61|Z|Dalaran@Dalaran70|LVL|108|P|Inscription;773|N|From Steamy Romance Novel.|
-T An Embarrassing Revelaton|QID|39961|M|41.30,37.06|Z|Dalaran@Dalaran70|P|Inscription;773|N|To Professor Pallin.|
+A An Embarrassing Revelation|QID|39961|M|41.46,37.61|Z|Dalaran@Dalaran70|LVL|108|P|Inscription;773|N|From Steamy Romance Novel.|
+T An Embarrassing Revelation|QID|39961|M|41.30,37.06|Z|Dalaran@Dalaran70|P|Inscription;773|N|To Professor Pallin.|
 A The Plot Thickens|QID|39955|PRE|39961|M|41.30,37.06|Z|Dalaran@Dalaran70|LVL|108|P|Inscription;773|N|From Professor Pallin.|
 P Hall of Mysteries|QID|39955|ACTIVE|39955|M|38.79,64.31|Z|Dalaran@Dalaran70|LVL|108|P|Inscription;773|N|Use Portal to Ironforge.|
 T The Plot Thickens|QID|39955|M|76.68,8.70|Z|Ironforge|P|Inscription;773|N|To Bill Spearshaker.|
@@ -527,7 +532,7 @@ A Evolution of the Past|QID|40204|PRE|40202|M|36.65,73.43|Z|ThunderTotem|P|Leath
 A Respect for the Past|QID|40205|PRE|40202|M|36.65,73.43|Z|ThunderTotem|P|Leatherworking;165|LVL|108|N|From Hrul Sharphoof.|
 C Neltharion's Vault|QID|40203|ACTIVE|40203|M|44.94,65.45;44.24,72.23|Z|Highmountain|CS|P|Leatherworking;165|LVL|108|QO|1|N|Run up to Neltharion's Vault.|
 C Scale of Deathwing|QID|40203|ACTIVE|40203|M|28.83,32.06;34.94,26.10|Z|Highmountain/29|CS|P|Leatherworking;165|LVL|108|QO|1|N|Follow this path to the scale.|
-C Stregth of the Past|QID|40203|ACTIVE|40203|M|42.36,62.95|Z|Highmountain/29|P|Leatherworking;165|LVL|108|QO|1|N|Get Deathwing's Scale here.|
+C Strength of the Past|QID|40203|ACTIVE|40203|M|42.36,62.95|Z|Highmountain/29|P|Leatherworking;165|LVL|108|QO|1|N|Get Deathwing's Scale here.|
 C Wisdom of Lohfal|QID|40205|ACTIVE|40205|M|58.03,95.64|Z|Highmountain|P|Leatherworking;165|LVL|108|QO|1|N|Click on Lohfal's Rack.|
 C Wisdom of Halewa|QID|40205|ACTIVE|40205|M|53.19,55.87|Z|Highmountain|P|Leatherworking;165|LVL|108|QO|2|N|Path starts here to get to top, same place as 'Totally Safe Treasure Chest'.|
 C Wisdom of Halewa|QID|40205|ACTIVE|40205|M|52.02,51.15|Z|Highmountain|P|Leatherworking;165|LVL|108|QO|2|N|Click on Halewa's Rack.|
@@ -712,9 +717,9 @@ C Secret Silkweaving Methods|QID|38966|M|35.13,34.35|Z|Dalaran@Dalaran70|P|Tailo
 T Secret Silkweaving Methods|QID|38966|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|To Tanithria|
 A The Path to Suramar City|QID|38962|PRE|38966|LVL|110|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|From Tanithria|
 t The Path to Suramar City|QID|38962|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|To Tanithria|
-A The Hightborne Connection|QID|38967|PRE|38962|LVL|110|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|From Tanithria|
+A The Nightborne Connection|QID|38967|PRE|38962|LVL|110|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|From Tanithria|
 P Lunastre Estate|QID|38967|ACTIVE|38967|M|36.16,45.04|Z|Suramar|P|Tailoring;197|N|Take Portal to Lunastre Estate.|
-T The Hightborne Connection|QID|38967|M|40.64,69.54;40.34,69.47|Z|Suramar|CS|P|Tailoring;197|N|To Leyweaver Tytallo.|
+T The Nightborne Connection|QID|38967|M|40.64,69.54;40.34,69.47|Z|Suramar|CS|P|Tailoring;197|N|To Leyweaver Tytallo.|
 A Proof of Loyalty|QID|38968|PRE|38967|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|From Leyweaver Tytallo.|
 A Master of Silkweave|QID|38969|PRE|38967|M|40.32,69.73|Z|Suramar|P|Tailoring;197|N|From Leyweaver Inondra.|
 C Proof of Loyalty|QID|38968|M|35.76,55.65|Z|Suramar|QO|1|P|Tailoring;197|N|Kill Withered.|

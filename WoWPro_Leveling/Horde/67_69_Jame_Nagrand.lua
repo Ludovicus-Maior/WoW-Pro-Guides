@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2017-03-23 19:05
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3280/revisions/28443/view
 -- Date: 2017-03-16 16:44
 -- Who: Ludovicus
 -- Log: Add PREs
@@ -214,13 +219,13 @@ T Missing Mag'hari Procession |QID|9944|M|32.5,36.0|N|To Elder Yorley.|
 A War on the Warmaul |QID|9945|PRE|9944|M|32.5,36.0|N|From Elder Yorley.|
 A Finding the Survivors |QID|9948|M|32.5,36.0|N|From Elder Ungriz.|
 N From now on... |N|From now on, kill Aged Clefthoofs and Greater Windrocs for the quest "Vision of the Dead" |ACTIVE|10252|
-C Talbuck Mastery|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|S|
+C Talbuk Mastery|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|S|
 C Windroc Mastery|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|CN|N|Kill Gutripper and loot his eye.|T|Gutripper|S|
 l Vision of the Dead|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|CN|L|28667|ACTIVE|10252|
 
 C Windroc Mastery|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|CN|N|Kill Gutripper and loot his eye. He wanders around where the waypoints are.|T|Gutripper|US|
 l Vision of the Dead|QID|10252|N|Kill the Mountain Gronn on this path and loot the eyeball.|L|28665|M|30.00,32.00|T|Mountain Gronn|ACTIVE|10252|
-C Talbuck Mastery|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof. He wanders between the waypoints.|T|Bach'lor|US|
+C Talbuk Mastery|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof. He wanders between the waypoints.|T|Bach'lor|US|
 
 C Once Were Warriors |QID|9865|N|Kill Murkblood Scavengers and Raiders.|S|M|32.85,44.66|
 C Murkblood Corrupters |QID|9862|N|Kill Murkblood Putrifiers.|S|M|32.85,44.66|

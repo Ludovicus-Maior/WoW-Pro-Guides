@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2017-03-23 19:16
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3599/revisions/28457/view
 -- Date: 2017-03-16 17:08
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -249,7 +254,7 @@ T Basilisk Butcher|QID|35870|M|45.86,54.91|N|To Nisha.|
 A Is This One of Yours?|QID|35036|M|46.04,54.74|N|From Rexxar.|PRE|35025|
 C Is This One of Yours?|QID|35036|M|46.04,54.74|CHAT|N|Let Rexxar know Bony Xuk is with you.|
 T Is This One of Yours?|QID|35036|M|46.20,55.09|N|To Bony Xuk.|
-A What the Bony Xuk|QID|35038|M|46.20,55.09|N|From Bony Xuk.|PRE|35036|
+A What the Bony Xuk?|QID|35038|M|46.20,55.09|N|From Bony Xuk.|PRE|35036|
 A Xuk Me, Right?|QID|35202|M|46.20,55.09|N|From Bony Xuk.|PRE|35036|
 A Bad at Breaking|QID|35037|M|46.03,54.75|N|From Rexxar.|PRE|35036|
 A Nisha's Vengeance|QID|35934|M|46.03,54.75|N|From Rexxar.|PRE|35036|
@@ -268,7 +273,7 @@ C Xuk Me, Right?|QID|35202|M|45.34,52.26|US|
 C What the Bony Xuk?|QID|35038|NC|M|44.03,53.02|US|N|From the Longtooth Gorger corpses lying around.|
 C Nisha's Vengeance|QID|35934|M|47.12,53.86|US|
 T What the Bony Xuk?|QID|35038|M|46.20,55.09|N|To Bony Xuk.|
-T Xuk me, Right?|QID|35202|M|46.20,55.09|N|To Bony Xuk.|
+T Xuk Me, Right?|QID|35202|M|46.20,55.09|N|To Bony Xuk.|
 T The Gronn Strategy|QID|35925|M|46.04,54.74|N|To Rexxar.|
 T Bad at Breaking|QID|35037|M|46.04,54.74|N|To Rexxar.|
 T Nisha's Vengeance|QID|35934|M|46.04,54.74|N|To Rexxar.|
@@ -282,9 +287,9 @@ T Xuk It!|QID|35041|M|46.03,54.75|N|To Rexxar.|
 A Leave Every Soldier Behind|QID|35129|M|46.03,54.75|N|From Rexxar.|PRE|35041|
 
 A Fair Warning|QID|35128|M|46.03,54.75|N|From Rexxar.|PRE|35041|
-A Zero Xuk's Given|QID|35247|M|44,48.8|N|From Bony Xuk. Nisha will give you a ride to the area (chat option, not flightpath) if you so desire.|PRE|35041|
-C Zero Xuk's Given|QID|35247|CHAT|M|44,48.8|N|Talk to Xuk and then watch the movie.|
-T Zero Xuk's Given|QID|35247|M|44,48.8|N|To Spirit of Bony Xuk.|
+A Zero Xuks Given|QID|35247|M|44,48.8|N|From Bony Xuk. Nisha will give you a ride to the area (chat option, not flightpath) if you so desire.|PRE|35041|
+C Zero Xuks Given|QID|35247|CHAT|M|44,48.8|N|Talk to Xuk and then watch the movie.|
+T Zero Xuks Given|QID|35247|M|44,48.8|N|To Spirit of Bony Xuk.|
 A Get the Xuk Out|QID|36832|M|44,48.8|N|From Spirit of Bony Xuk.|PRE|35247|
 
 $ Harvestable Precious Crystal|QID|36651|PRE|35880|M|44.55,50.76;46.12,49.95|CS|QO|1|N|Enter Glut's Burrow and you will find the crystal in the back, feel free to kill the Glut (silver elite} while you are here.|RANK|3|ITEM|$824|
@@ -385,7 +390,7 @@ T The Life Spring|QID|35434|M|42.06,85.93|N|To Kaz the Shrieker.|
 A Thieving Dwarves|QID|36488|M|42.06,85.91|N|From Kaz the Shrieker.|PRE|35434|
 f Evermorn Springs|QID|35468;36037|M|41.32,87.16|N|At Chucklespine.|
 R The Destroyed Expedition|QID|36037|M|44.86,86.72|N|This is to pick up a follower, if followers don't interest you following the road east to Bastion Rise is more direct.|RANK|2|
-A A Centurian Without a Cause|QID|36037|M|44.86,86.72|RANK|2|N|Assist Centurian Tormark with the waves of mobs. The final mob is Woodfist.  When they are defeated, wait a few seconds and he will offer to be your follower. Its safer to run back to Evermorn Rise (where you just got the flight path) and run on to Bastion Rise from there, but you can go from here, just more mobs in the way.|
+A A Centurion Without a Cause|QID|36037|M|44.86,86.72|RANK|2|N|Assist Centurian Tormark with the waves of mobs. The final mob is Woodfist.  When they are defeated, wait a few seconds and he will offer to be your follower. Its safer to run back to Evermorn Rise (where you just got the flight path) and run on to Bastion Rise from there, but you can go from here, just more mobs in the way.|
 A Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Auto Accepted when you enter area.|RANK|3|
 C Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Kill Saberon, free Axebeak, and kill Skull Thrash who resides in back of the big cave.|RANK|3|S|
 $ Hardened Thornvine|QID|36019|ACTIVE|35707|M|45.8,89.27|N|Use Shredder (click on the vines) to expose the Forgotten Skull Cache|RANK|3|;25.1 - Tailthrasher Basin
@@ -394,7 +399,7 @@ K Sunclaw|QID|36656|M|44.6,92.2|T|Sunclaw|L|118223|N|There are ropes you can cli
 R Deeproot|QID|34279;34279|RANK|2|M|42.74,90.76|CC|N|Take the trail up here to find another follower.|
 R Blook's Overlook|QID|34279|RANK|2|M|42.30,92.16|N|Continue up the winding trail.|
 N Blook|QID|34279|RANK|2|CHAT|M|41.27,91.44|N|Chat with him to challenge him.  When you win, he will offer to be your follower. He despawns in about 15 seconds and you will have to wait to fight him again if you don't accept quick enough.|
-A I am Blook|QID|34279|RANK|2|M|41.27,91.44|N|If he despawns before you accecpt the quest you will have to fight him again when he respawns.|
+A I Am Blook|QID|34279|RANK|2|M|41.27,91.44|N|If he despawns before you accecpt the quest you will have to fight him again when he respawns.|
 $ Ockbar's Pack |QID|34241|M|43.1,92.9|L|118227|N|Pick up for a bit of treasure.|RANK|3|ITEM|118227|
 C Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Kill Saberon, free Axebeak, and kill Skull Thrash who resides in back of the big cave.|RANK|3|US|
 t Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Auto turned in when complete.|RANK|3|
@@ -450,7 +455,7 @@ C Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Kill podlings, grab j
 $ Hardened Thornvine|QID|36715|ACTIVE|35707|M|51.76,69.13|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;31 - Mistcreep Mire
 $ Odd Boulder|QID|36738|M|50.32,66.57|N|Call Beatface (click on the rock) to expose the Ancient Titan Chest|RANK|3|PRE|35880|;30 - Mistcreep Mire
 K Khargax the Devourer|QID|35819|M|52.4,65.8|L|113460|N|This is an elite mob, it is meant to be killed in a group. Kill and loot item for a bonus quest.|T|Khargax the Devourer|RANK|3|
-A Trophly of Glory: Khargax the Devourer|QID|35819|PRE|35151|O|U|113460|M|52.4,65.8|N|From 'Shimmering Scale' you just looted.|
+A Trophy of Glory: Khargax the Devourer|QID|35819|PRE|35151|O|U|113460|M|52.4,65.8|N|From 'Shimmering Scale' you just looted.|
 $ Odd Skull|QID|36509|M|52.5,66.9|QO|1|N|Pick up for a bit of treasure.|RANK|3|ITEM|118717|;mistcreep mire
 C Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Kill podlings, grab jars and kill Malkor. Malkor can be found inside the building in the back of the|US|RANK|3|
 t Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Auto turn in|US|RANK|3|
@@ -631,7 +636,7 @@ C Nazgrel|QID|34700|NC|M|36.86,70.55|N|Go into the cave 'Kor'gall's Hovel'. He i
 K Stomper Kreego|QID|35910|ACTIVE|34698|M|38.2,66.2|T|Stomper Kreego|L|118224|N|Kill and loot for an ogre brewing kit.|RANK|3|ITEM|118224|
 C Need More Teeth|QID|34012|M|37.57,68.48|US|
 T Getting Gladiators|QID|34699|M|36.85,67.90|N|To Bruto.|
-A The Axe of Kmor'gall|QID|34703|M|36.85,67.90|N|From Bruto.|PRE|34699|
+A The Axe of Kor'gall|QID|34703|M|36.85,67.90|N|From Bruto.|PRE|34699|
 C The Axe of Kor'gall|QID|34703|T|Kor'gall|M|36.28,69.37|N|Click on the barricade so you can get to Kor'gall.|
 T Need More Teeth|QID|34012|M|41.41,66.11|N|To Prowler Sasha.|
 T Slave Hunters|QID|34698|M|42.75,63.06|N|To Kash'drakor.|
@@ -681,9 +686,9 @@ N Gorgrond substantially done|QID|37290|N|This pretty much finishes Gorgrond. Ta
 H Town Hall|QID|37290|U|110560|M|46.09,70.19|ACTIVE|36494|N|Hearth to your Garrison.|
 
 A Upgrades in Ashran|QID|37290|M|42.18,55.57|Z|Frostwall|N|From Gazlowe.|
-A Thunderlord Invasion|QID|37291|PRE|32796|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw. This is a solo scenario to defend your garrison. You can actually do it with two groupmates if you all go to the leaders garrison. It is optional when you do it, but is is believed that you need to do it before you upgrade your garrison to level 3. |
-C Thunderlord Invasion|QID|37291|M|43.95,47.79|Z|Frostwall|CHAT|N|Talk to Sergeant Grimjaw to begin this solo scenario. Follow the scenario promts to complete.|
-T Thunderlord Invasion|QID|37291|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw.|
+A Thunderlord Invasion!|QID|37291|PRE|32796|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw. This is a solo scenario to defend your garrison. You can actually do it with two groupmates if you all go to the leaders garrison. It is optional when you do it, but is is believed that you need to do it before you upgrade your garrison to level 3. |
+C Thunderlord Invasion!|QID|37291|M|43.95,47.79|Z|Frostwall|CHAT|N|Talk to Sergeant Grimjaw to begin this solo scenario. Follow the scenario promts to complete.|
+T Thunderlord Invasion!|QID|37291|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw.|
 A Looking For Help|QID|34758|M|37.91,72.31|Z|Frostwall|N|The fishing shack is now available in the lake behind your fort. Mak'jin starts the chain (and will give you fishing dailies later).|LVL|94|P|Fishing;356;1|RANK|2|
 R Shivering Trench|QID|34758|M|49.69,60.39;53.7,64.33|CS|Z|Frostfire Ridge|N|Out the north gate of your garrison, make a right in front of the lava and down into the shivering trench.|ACTIVE|34758|RANK|2|
 A The Land Provides|QID|34960|M|54.26,67.51|Z|Frostfire Ridge|ACTIVE|34758|RANK|2|N|From the Icevine. To note there is a rarespawn (Coldtusk) that runs nears it.|
@@ -748,12 +753,12 @@ R Ruins of Ata'gar|QID|34292|M|22.5,15.1|Z|Frostfire Ridge|ACTIVE|34292|RANK|3|
 C Eliminate the Shadow Council|QID|34292|M|22.2,12.1|Z|Frostfire Ridge|S|N|Kill shadow council as you do your other objectives.|
 C Have a Heart|QID|34291|M|22.2,12.1|Z|Frostfire Ridge|T|Furnus|
 T Have a Heart|QID|34291|M|21.8,14.7|Z|Frostfire Ridge|N|To Image of Archmage Khadgar.|
-A The Fel Crystal|QID|34294|M|21.8,14.7|Z|Frostfire Ridge|N|From Image of Archmage Khadgar.|PRE|34291|RANK|3|
+A The Fel Crystals|QID|34294|M|21.8,14.7|Z|Frostfire Ridge|N|From Image of Archmage Khadgar.|PRE|34291|RANK|3|
 C Central Fel Crystal|QID|34294|M|21.2,15.6|Z|Frostfire Ridge|NC|QO|2|N|Go across the rock bridge to the central crystal.|
 C Southern Fel Crystal|QID|34294|M|21.7,16.9|Z|Frostfire Ridge|NC|QO|1|N|Drop down towards the southern crystal.|
 C Northern Fel Crystal|QID|34294|M|20.9,14.0|Z|Frostfire Ridge|NC|QO|3|N|Run under the rock bridge to get to the northern crystal.|
 C Eliminate the Shadow Council|QID|34292|M|19.9,14.6|Z|Frostfire Ridge|US|N|Finish this up before you get to Archmage Khadgar's image at his new spot by the cave.|
-T The Fel Crystal|QID|34294|M|19.9,14.6|Z|Frostfire Ridge|N|To Image of Archmage Khadgar.|
+T The Fel Crystals|QID|34294|M|19.9,14.6|Z|Frostfire Ridge|N|To Image of Archmage Khadgar.|
 A To Capture Gul'dan|QID|34295|M|19.9,14.6|Z|Frostfire Ridge|N|From Image of Archmage Khadgar.|PRE|34294|RANK|3|
 C To Capture Gul'dan|QID|34295|M|18.8,12.6|Z|Frostfire Ridge|N|Confront Gul'dan, watch his speech and then deal with his beautiful assistant.|
 R Ruins of Ata'gar|QID|34295|M|19.9,14.8|CC|Z|Frostfire Ridge|N|Run out of the cave and use the portal Khadgar has prepared for you.|RANK|3|ACTIVE|34295|

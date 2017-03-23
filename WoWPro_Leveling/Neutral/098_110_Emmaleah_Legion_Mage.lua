@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2017-03-23 19:29
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3671/revisions/28538/view
 -- Date: 2017-03-21 22:40
 -- Who: Ludovicus
 -- Log: Played [An Unexpected Visitor] through [Following In His Footsteps]. Changed level on [Recruiting Apprentices]
@@ -199,7 +204,7 @@ T Final Exit|QID|42171|M|66.08,32.32|Z|Azsuna|N|To Ravamdwyr.|
 A Empyrean Society Report|QID|42222|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42171|
 C Empyrean Society Report|QID|42222|N|Use Teleport: Hall of the Guardian.|
 T Empyrean Society Report|QID|42222|M|72.84,55.66|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar, who is moving about.|
-A Champion: Esara Varrinde|QID|42706|M|74.04,59.61|Z|The Guardian's Library@MageClassShrine|N|From/To Esara Varrinde.|PRE|42222|
+A Champion: Esara Verrinde|QID|42706|M|74.04,59.61|Z|The Guardian's Library@MageClassShrine|N|From/To Esara Verrinde.|PRE|42222|
 A Champion: Ravandwyr|QID|42705|M|70.36,53.24|Z|The Guardian's Library@MageClassShrine|N|From/To Ravamdwyr.|PRE|42222|
 A The Council is in Session|QID|42416|M|72.84,55.66|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar, who is moving about.|PRE|42222|
 T The Council is in Session|QID|42416|M|28.41,49.51|Z|Dalaran@Dalaran70|N|To Archmage Ansirem Runeweaver located in the Violet Citadel.|
@@ -250,8 +255,8 @@ R Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|Talk to Khadgar to start the sce
 t Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|To Archmage Khadgar.|
 A Champion: Meryl Felstorm|QID|42914|M|71.4,61.8|N|From/To Meryl Felstorm|LVL|110|PRE|42734|
 
-A Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Khadgar.|LVL|110|
-T Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|To Ari.|
+A A Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Khadgar.|LVL|110|
+T A Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|To Ari.|
 A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|From Ari.|PRE|42954|
 C The Proper Way of Things|QID|42955|M|46.11,73.75|Z|Suramar|U|138965|N|Collect Phials of Nightwell Energy.|
 T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian@MageClassShrine|N|To Ari.|
@@ -380,7 +385,7 @@ C The Path of Atonement|QID|40270|M|28.76,37.32|Z|Hillsbrad Foothills|N|Listen t
 T The Path of Atonement|QID|40270|M|28.75,37.19|Z|Hillsbrad Foothills|N|To Aethas Sunreaver.|
 A The Frozen Flame|QID|11997|M|28.75,37.19|Z|Hillsbrad Foothills|N|From Aethas Sunreaver.|PRE|40270|
 C The Frozen Flame|QID|11997|M|28.77,37.25|Z|Hillsbrad Foothills|QO|1|NC|N|Mage Portal Taken|
-C The Frozen Halls|QID|11997|M|76.78,63.53|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|1|N|Defeat the Iceborn Conjurer.|
+C The Frozen Flame|QID|11997|M|76.78,63.53|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|1|N|Defeat the Iceborn Conjurer.|
 C Destroy Permafrost Walls|QID|11997|M|76.68,61.87;73.47,53.58;61.85,53.80;51.90,39.19|CS|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|2;1|N|Destroy Permafrost Walls|
 C Hot of the Trail|QID|11997|M|51.86,35.29|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|3;1|N|Survive the three waves of flaming undead.|
 C Playing with Fire|QID|11997|M|50.93,14.71|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|4;1|N|Slay Lyandra Sunstrider|T|Lyandra Sunstrider|
@@ -468,8 +473,8 @@ A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|

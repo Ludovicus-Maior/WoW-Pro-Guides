@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2017-03-23 19:25
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3668/revisions/28464/view
 -- Date: 2017-03-16 22:24
 -- Who: Ludovicus
 -- Log: Added PREs.
@@ -182,10 +187,10 @@ A Artifact Specific Quest|QID|40930;40740;38990|M|73.11,46.85|Z|Dalaran@Dalaran7
 ;44550-Called to Acherus
 R Acherus: The Ebon Hold|QID|44550|N|Use your Deathgate|ACTIVE|44550|LVL|101|
 T Called to Acherus|QID|44550|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|101|
-A Rise Champions|QID|43264|M|51.08,50.78|N|From Highlord Darion Mograine.|PRE|44550|LVL|101|
+A Rise, Champions|QID|43264|M|51.08,50.78|N|From Highlord Darion Mograine.|PRE|44550|LVL|101|
 A Champion: Nazgrim|QID|39818|M|39.49,68.31|N|Pick Up Nazgrim as a follower.|ACTIVE|43264|LVL|101|
 A Champion: Thassarian|QID|39816|M|56.20,30.86|N|Pick up Thassarian as a follower.|ACTIVE|43264|LVL|101|
-T Rise Champions|QID|43264|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|101|
+T Rise, Champions|QID|43264|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|101|
 A Spread the Word|QID|43265|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|43264|LVL|101|
 C Spread the Word|QID|43265|M|49.66,51.25|S|NC|N|Use the scouting map, Note it now has 3 tabs, Missions, followers, Scouting Map. Use the missions tab to send your followers on the mission "Spread the Word".|LVL|101|
 C Pressing the Assault|QID|44545|M|49.66,51.25|NC|N|Use Scouting Map tab to pick the next zone you want to adventure in.|LVL|101|
@@ -198,11 +203,11 @@ T Recruiting the Troops|QID|43266|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|1
 A Troops in the Field|QID|43267|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|43266|LVL|101|
 C Troops in the Field|QID|43267|M|49.66,51.25|NC|N|Use the scouting map to send your followers on the next mission. This is a 4 hour mission. You will need to manually check this step off to progress the guide before the mission is finished.|LVL|101|
 t Troops in the Field|QID|43267|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|101|
-A Tech it up a Notch|QID|43268|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|43267|LVL|101|
+A Tech It Up A Notch|QID|43268|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|43267|LVL|101|
 A Salanar the Horseman|QID|43539|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|43268|LVL|101|
 C Salanar the Horseman|QID|43539|M|49.66,51.25|NC|N|Use the scouting map to send your followers on the next mission, "Salanar the Horseman". This mission is 1 hour. You will need to manually check this step off to progress the guide before the mission is finished.|LVL|101|
-C Tech it up a Notch|QID|43268|M|47.73,53.89|NC|N|Go to Archivist Zubashi and select which class hall upgrade you want.|LVL|101|
-T Tech it up a Notch|QID|43268|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|101|
+C Tech It Up A Notch|QID|43268|M|47.73,53.89|NC|N|Go to Archivist Zubashi and select which class hall upgrade you want.|LVL|101|
+T Tech It Up A Notch|QID|43268|M|49.66,51.25|N|To Siouxsie the Banshee.|LVL|101|
 t Salanar the Horseman|QID|43539|M|49.66,51.25|N|To Siouxsie the Banshee Whenever you exhaust a ghoul, you can (and should) recruit more over at Dark Summoner Marogh.|LVL|101|
 R Travel to Dalaran|QID|44009|M|24.67,33.69|NC|N|The portal is out by the flightmaster.|PRE|43539|
 
@@ -247,14 +252,14 @@ R Windrunner's Sanctuary|QID|42533|M|55.92,22.73|Z|Dalaran@Dalaran70|N|Take the 
 R Stromgarde Keep (Arathi Highlands)|QID|42533|M|19.4,67.2|Z|Arathi Highlands|N|Mount up and fly over to Stormguarde Keep to get your other follower.|LVL|103|ACTIVE|43533|
 T The Ruined Kingdom|QID|42533|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane, who is upstairs in the traditional keep commander's room.|
 A Our Oldest Enemies|QID|42534|M|19.45,67.33|Z|Arathi Highlands|N|From Prince Galen Trollbane.|PRE|42533|
-A Death...and Decay|QID|42535|M|19.45,67.33|Z|Arathi Highlands|N|From Prince Galen Trollbane.|PRE|42533|
-C Death...and Decay|QID|42535|M|17.57,68.01|Z|Arathi Highlands|S|NC|N|Defile the Witherbark Supplies as you go.|
+A Death... and Decay|QID|42535|M|19.45,67.33|Z|Arathi Highlands|N|From Prince Galen Trollbane.|PRE|42533|
+C Death... and Decay|QID|42535|M|17.57,68.01|Z|Arathi Highlands|S|NC|N|Defile the Witherbark Supplies as you go.|
 C Our Oldest Enemies|QID|42534|QO|2|M|17.76,65.23|Z|Arathi Highlands|S|N|Kill the Witherbark Trolls as you go.|
 C Our Oldest Enemies|QID|42534|QO|1|M|11.83,69.82|Z|Arathi Highlands|T|Ojin'ba|N|Kill Ojin'ba.|
 C Our Oldest Enemies|QID|42534|QO|2|M|17.57,68.01|Z|Arathi Highlands|US|N|Finish killing the Witherbark Trolls.|
-C Death...and Decay|QID|42535|M|17.57,68.01|Z|Arathi Highlands|US|NC|N|Finish defiling the Witherbark Supplies.|
+C Death... and Decay|QID|42535|M|17.57,68.01|Z|Arathi Highlands|US|NC|N|Finish defiling the Witherbark Supplies.|
 T Our Oldest Enemies|QID|42534|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
-T Death...and Decay|QID|42535|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
+T Death... and Decay|QID|42535|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
 A Regicide|QID|42536|M|19.53,67.10|Z|Arathi Highlands|N|From Thassarian.|PRE|42534;42535|
 C Regicide|QID|42536|M|21.95,59.79|Z|Arathi Highlands|T|Prince Galen Trollbane|N|He decided to double cross us, Kill him.|
 T Regicide|QID|42536|M|23.4,61.39|Z|Arathi Highlands|N|To Thassarian, who is now down in the crypt.|
@@ -295,8 +300,8 @@ C Hitting the Books|QID|43877|M|49.75,55.89|N|Research your first artifact knowl
 t Hitting the Books|QID|43877|M|49.75,55.89|N|To Illanna Dreadmoore|LVL|110|
 A Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|From Quartermaster Ozorg.|LVL|110|
 T Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|To Quartermaster Ozorg.|LVL|110|
-A Goddess Watch over You|QID|44337;44338|M|49.75,55.89|NA|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
-C Goddess Watch over You|QID|44338|N|You need to do the main Val'sharah quest line to complete this quest.|
+A Goddess Watch Over You|QID|44337;44338|M|49.75,55.89|NA|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
+C Goddess Watch Over You|QID|44338|N|You need to do the main Val'sharah quest line to complete this quest.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 R Death Gate|QID|44448|M|28.43,40.38|Z|Dalaran@Dalaran70|N|Return to your order hall.|ACTIVE|44448|LVL|110|
@@ -316,8 +321,8 @@ A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
@@ -350,7 +355,7 @@ F Garden of the Moon|QID|44466|M|25.73,28.78|N|At Grimwing.|ACTIVE|44466|
 R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|To Light's Heart, back in your order hall.|
-A Ravemcrest's Legacy|QID|44479|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|PRE|44466|
+A Ravencrest's Legacy|QID|44479|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|PRE|44466|
 F Garden of the Moon|QID|44414|M|25.73,28.78|N|At Grimwing.|ACTIVE|44479|
 R Black Rook Hold|QID|44414|M|51.42,50.67;45.82,50.34|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|ACTIVE|44479|
 C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|Val'sharah|NC|S|N|Run to the alcove behind Araxxas (not in the instance). Use your extra action button to watch a vignette about Illidan traveling the wrong path.|
@@ -429,9 +434,9 @@ A Champion: Rottgut|QID|44246|M|64.09,69.21|N|From/To Rottgut.|PRE|44286|
 C Advancing the War Effort|QID|43573|US|N|Go do world quests.|
 C Aggregates of Anguish|QID|43928|M|49.95,51.48|US|NC|N|Send your followers on "Unholy Attainment" missions at your command table.|
 t Advancing the War Effort|QID|43573|M|49.68,51.30|N|To Siouxsie the Banshee.|
-A A Thirst for Blood|QID|44690|M|63.17,69.42|N|From Lord Thorval.|PRE|43573|
+A A Thirst For Blood|QID|44690|M|63.17,69.42|N|From Lord Thorval.|PRE|43573|
 B Blood of Sargeras|QID|44690|M|63.17,69.42|N|Acquire Blood of Sargeras if you don't already have them.|L|124124 5|ACTIVE|44690|
-T A Thirst for Blood|QID|44690|M|63.17,69.42|N|To Lord Thorval.|
+T A Thirst For Blood|QID|44690|M|63.17,69.42|N|To Lord Thorval.|
 A Maul of the Dead|QID|43574|M|36.19,56.14|NA|Z|The Heart of Acherus@BrokenShore|N|From Salanar the Horseman. This quest is completed in the Maw of Souls dungeon instance.|PRE|43573|
 t Aggregates of Anguish|QID|43928|M|49.68,51.30|N|To Siouxsie the Banshee.|
 A The Frozen Soul|QID|44282|M|58.27,30.86|NA|N|From Amal'thazad. This quest is completed in the Eye of Azshara dungeon instance.|PRE|43928|
@@ -452,7 +457,7 @@ C An Unholy Fate|QID|43686|SO|8|M|78.90,45.28|Z|Eastern Plaguelands|NC|N|Stand o
 C The Fourth Horseman|QID|43686|M|30.36,32.98|NC|N|Watch the vignette and then click on Darion.|
 T The Fourth Horseman|QID|43686|M|30.36,32.98|N|To Highlord Darion Morgraine.|
 t The Frozen Soul|QID|44282|M|58.27,30.86|N|To Amal'thazad.|
-A Champion: Amal'Thazad|QID|44247|M|58.20,31.00|N|From/To Amal'thazad.|PRE|44482|
+A Champion: Amal'thazad|QID|44247|M|58.20,31.00|N|From/To Amal'thazad.|PRE|44482|
 A Champion: Darion Mograine|QID|44248|M|26.90,28.78|Z|The Heart of Acherus@BrokenShore|N|From/To Highlord Darion Morgraine, who is on the lower level balcony.|PRE|43686|
 A A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Morgraine, who is now by your Soul Forge.|PRE|43686|
 C A Hero's Weapon|QID|43407|M|58.50,58.54|Z|The Heart of Acherus@BrokenShore|NC|N|Stand in the designated spot and use your extra action button.|
@@ -469,9 +474,9 @@ T Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N
 A Artifact specific quest|QID|40740;38990;40935|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|PRE|43935|LVL|102|
 
 ;3rd spec artifact
-A A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACH|11174;;true|ACTIVE|-38990+-40935+-40987|
-C A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the remaining artifact.|
-T A Weapon For Every Occassion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|
+A A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACH|11174;;true|ACTIVE|-38990+-40935+-40987|
+C A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the remaining artifact.|
+T A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|
 
 ;BLOOD
 
@@ -551,13 +556,13 @@ T Plans and Preparations|QID|39832|M|49.66,51.25|N|Back "downstairs" To Siouxsie
 A Our Next Move|QID|39799|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|39832|
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|49.66,51.25|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|39799|
 T Our Next Move|QID|39799|M|49.66,51.25|N|To Siouxsie the Banshee.|
-A Return of the Four Horseman|QID|42449|M|50.85,50.52|N|From Highlord Darion Mograine.(Wait a minute or so for dialog to finish and then this becomes available.)|
+A Return of the Four Horsemen|QID|42449|M|50.85,50.52|N|From Highlord Darion Mograine.(Wait a minute or so for dialog to finish and then this becomes available.)|
 f Acherus Hold|QID|42449|M|25.61,28.81|N|At Grimwing.|
 P Dalaran|QID|42449|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|42449|
 P Graymane Enclave|QID|42449|M|47.2,17.8|Z|Dalaran@Dalaran70|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|42449|
 P Windrunner's Sanctuary|QID|42449|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|42449|
 R Durotar|QID|42449|M|47.32,17.67|Z|Durotar|N|Hop on your mount and fly to Thassarian in Durotar.|ACTIVE|42449|
-T Return of the Four Horseman|QID|42449|M|47.32,17.67|Z|Durotar|N|To Thassarian.|
+T Return of the Four Horsemen|QID|42449|M|47.32,17.67|Z|Durotar|N|To Thassarian.|
 A The Firstborn Rises|QID|42484|M|47.32,17.67|Z|Durotar|N|From Thassarian.|PRE|42449|
 C The Firstborn Rises|QID|42484|M|47.32,17.84|Z|Durotar|NC|N|Stand in the middle of the stones and use your extra action button to raise Nazgrim to Death Knighthood.|
 P Death Gate|QID|42484|M|47.33,17.83|CC|Z|Durotar|N|Use the provided Death-Gate to return to your class hall.|ACTIVE|42484|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2017-03-23 19:32
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3674/revisions/28470/view
 -- Date: 2017-03-16 22:39
 -- Who: Ludovicus
 -- Log: Added PRE; syntax corrections.
@@ -165,11 +170,11 @@ A Accept artifact specific quest|QID|40710;41625;41957|M|78.96,41.00|Z|Tirisfal 
 R Windrunner's Sanctuary|QID|44100|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Horde|LVL|101|
 R Graymane Enclave|QID|44100|M|39.2,57.2|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Alliance|LVL|101|
 T Proper Introductions|QID|44100|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
-A Rise Champions|QID|43270|M|51.61,47.81|N|From Alonsus Faol.|PRE|44100|LVL|101|
+A Rise, Champions|QID|43270|M|51.61,47.81|N|From Alonsus Faol.|PRE|44100|LVL|101|
 A Champion: Calia Menethil|QID|43271|M|51.80,48.98|N|Pick Up Calia as a follower.|ACTIVE|43270|LVL|101|
 A Champion: High Priestess Ishanah|QID|43272|M|57.65,25.80|N|Pick up Ishanah as a follower.|ACTIVE|43270|LVL|101|
 r Upgrade your weapon|QID|44545|M|50.00,21.48|N|Use the alter of Light and Shadow to spend the artifact resources you have been gathering and to socket your artifact enhancements. Manually check this step off.|LVL|101|
-T Rise Champions|QID|43270|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
+T Rise, Champions|QID|43270|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
 A Spread the Word|QID|43273|M|51.61,47.81|N|From Alonsus Faol.|PRE|43270|LVL|101|
 C Spread the Word|QID|43273|M|50.64,47.85|S|N|Use the scouting map, Note it now has 3 tabs, Missions, followers, Scouting Map. Use the missions tab to send your followers on the mission "Spread the Word".|LVL|101|
 C Pressing the Assault|QID|44545|M|50.64,47.85|NC|N|Use Scouting Map tab to pick the next zone you want to adventure in.|LVL|101|
@@ -182,9 +187,9 @@ T Recruiting the Troops|QID|43275|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
 A Troops in the Field|QID|43276|M|51.61,47.81|N|From Alonsus Faol.|PRE|43275|LVL|101|
 C Troops in the Field|QID|43276|M|50.64,47.85|NC|N|Use the scouting map to send your followers on the next mission. This is a 4 hour mission.|LVL|101|
 t Troops in the Field|QID|43276|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
-A Tech it up a Notch|QID|43277|M|51.61,47.81|N|From Alonsus Faol.|PRE|43276|LVL|101|
-C Tech it up a Notch|QID|43277|M|56.01,40.64|NC|N|Go to Archon Torias and select which class hall upgrade you want.|LVL|101|
-T Tech it up a Notch|QID|43277|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
+A Tech It Up A Notch|QID|43277|M|51.61,47.81|N|From Alonsus Faol.|PRE|43276|LVL|101|
+C Tech It Up A Notch|QID|43277|M|56.01,40.64|NC|N|Go to Archon Torias and select which class hall upgrade you want.|LVL|101|
+T Tech It Up A Notch|QID|43277|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
 A Relieving the Front Lines|QID|43371|M|51.61,47.81|N|From Alonsus Faol.|PRE|43277|LVL|101|
 C Relieving the Front Lines|QID|43371|M|50.64,47.85|NC|N|Use the scouting map to send yourfollowers on the next mission, "Relieving the Front Lines". This mission is 1 hour.|LVL|101|
 t Relieving the Front Lines|QID|43371|M|51.61,47.81|N|To Alonsus Faol Whenever you exhaust an acolyte, you can (and should) recruit more over at Grand Anchorite Gesslar.|LVL|101|
@@ -242,7 +247,7 @@ R Illidari Stand|QID|43376|M|43.18,43.51|Z|Azsuna|N|Run back to Illidari Stand t
 C Problem Salver|QID|43376|M|42.34,44.19|Z|Azsuna|N|Apply salve to the demon hunters lying on the ground in this area.|LVL|103|
 T Problem Salver|QID|43376|M|47.11,43.98|Z|Azsuna|N|To Yalia Sagewhisper.|LVL|103|
 A Champion: Yalia Sagewhisper|QID|42137|M|47.11,43.98|Z|Azsuna|N|To/From Yalia Sagewhisper.|PRE|43376|LVL|103|
-A Champion: Zabra Hexx.|QID|42138|M|47.20,44.00|Z|Azsuna|N|To/From Zabra Hexx.|PRE|43376|LVL|103|
+A Champion: Zabra Hexx|QID|42138|M|47.20,44.00|Z|Azsuna|N|To/From Zabra Hexx.|PRE|43376|LVL|103|
 A Looking Through the Lens|QID|43378|M|47.11,43.98|Z|Azsuna|N|From Yalia Sagewhisper. This is an instance/group quest.|PRE|42137|LVL|103|
 t Looking Through the Lens|QID|43378|M|47.78,47.62|Z|NetherlightTemple/1|N|To Prophet Velen.|
 A Velen's Vision|QID|43379|M|47.78,47.62|N|From Prophet Velen.|PRE|43378|LVL|103|
@@ -316,17 +321,17 @@ C The Mind of the Enemy|QID|43396|QO|4|M|24.16,46.23|Z|Niskara#1078|N|Kill Brood
 H Dalaran|QID|43395|U|140192|M|49.99,45.45|Z|Niskara#1078|N|Use your Dalaran Hearthstone or use the portal and fly back. I would use the portal if you are going to do the next quest right away, you will want the Hearthstone then.|ACTIVE|43395|
 T Allies of the Light|QID|43395|M|51.58,47.77|N|To Alonsus Faol back in your order hall.|
 T The Mind of the Enemy|QID|43396|M|51.58,47.77|N|To Alonsus Faol.|
-A United as One|QID|43397|M|51.58,47.77|N|From Alonsus Faol.|PRE|43395+43396|
+A United As One|QID|43397|M|51.58,47.77|N|From Alonsus Faol.|PRE|43395+43396|
 P Dalaran|QID|43397|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|43397|
 R Chamber of the Guardian|QID|43397|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43397|
 P Dalaran Crater|QID|43397|M|28.77,77.36|Z|Aegwynn's Gallery@Dalaran70|N|Take the Dalaran portal to Dalaran Crater. Cast Lev (or don't your choice.)|ACTIVE|43397|
 R Light's Hope Chapel|QID|43397|M|75.75,52.22|Z|Eastern Plaguelands|N|Fly to Light's Hope Chapel in Eastern Plaguelands. Once you arrive, click on the floor in the middle of the chapel to enter the Paladin order hall.|ACTIVE|43397|
-C United as One|QID|43397|QO|2|M|50.45,74.33|Z|Eastern Plaguelands/20|CHAT|N|Continue down the stairs to find and talk to Lady Liadrin. Then, wait a minute or so for the war council to finish discussing.|
-T United as One|QID|43397|M|50.45,74.33|Z|Eastern Plaguelands/20|N|To Lady Liadrin.|
+C United As One|QID|43397|QO|2|M|50.45,74.33|Z|Eastern Plaguelands/20|CHAT|N|Continue down the stairs to find and talk to Lady Liadrin. Then, wait a minute or so for the war council to finish discussing.|
+T United As One|QID|43397|M|50.45,74.33|Z|Eastern Plaguelands/20|N|To Lady Liadrin.|
 A Aiding the Conclave|QID|43797|M|50.45,74.33|Z|Eastern Plaguelands/20|N|From Lady Liadrin.|PRE|43397|
 T Aiding the Conclave|QID|43797|M|51.58,47.77|N|From Alonsus Faol.|
 A Elixirs of Aid|QID|43832|M|51.58,47.77|N|From Alonsus Faol.|PRE|43797|
-A Fortfying the Temple|QID|43399|M|51.58,47.77|N|From Alonsus Faol.|PRE|43797|
+A Fortifying the Temple|QID|43399|M|51.58,47.77|N|From Alonsus Faol.|PRE|43797|
 A Lumenstone|QID|43400|M|54.46,45.84|N|From Moira Thaurissan.|PRE|43797|
 C Lumenstone|QID|43400|M|50.63,46.93|NC|S|N|Do Lumenstone Missions at your Command Table until you have collected the requisite number of lumenstones.|
 C Collect Supplies|QID|43832|M|51.58,47.77|NC|S|N|Collect(buy, gather, steal...)Runescale Koi, Starlight Roses and Leyblood. Turn in to Alonsus Faol by multiples of 5 for a total of 20 turn ins.|
@@ -365,7 +370,7 @@ T Power Word: Armor|QID|44251|M|38.70,23.93|N|To Meridelle Lightspark.|
 A Hitting the Books|QID|43884|M|59.86,28.11|N|From Juvess the Duskwhisperer.|LVL|110|
 C Hitting the Books|QID|43884|M|59.86,28.11|N|At Juvess the Duskwhisperer. This is probably your highest priority to fund for a bit. Keep putting your order hall resources into Artifact research.  When you pick up the research, you need to "Use" the scroll to acquire the knowledge.|
 T Hitting the Books|QID|43884|M|59.86,28.11|N|To Juvess the Duskwhisperer.|
-C Goddess Watch over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
+C Goddess Watch Over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
@@ -387,8 +392,8 @@ A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
@@ -412,7 +417,7 @@ T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Trail of Echos|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
+A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
 N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
 
 ;lights heart - post 110
@@ -433,7 +438,7 @@ F Garden of the Moon|QID|44466|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Wh
 R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|49.64,26.41|N|To Light's Heart, back in your order hall.|
-A Ravemcrest's Legacy|QID|44479|M|49.64,26.41|N|From Light's Heart.|PRE|44466|
+A Ravencrest's Legacy|QID|44479|M|49.64,26.41|N|From Light's Heart.|PRE|44466|
 P Dalaran|QID|44479|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44479|
 R Krasus' Landing|QID|44479|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44479|
 F Bradensbrook|QID|44479|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44479|

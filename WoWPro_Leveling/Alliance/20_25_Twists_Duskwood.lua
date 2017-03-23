@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2017-03-23 17:52
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3222/revisions/28354/view
 -- Date: 2017-03-11 20:50
 -- Who: Ludovicus
 -- Log: Added PREs.
@@ -223,10 +228,10 @@ C The Rotting Orchard|QID|26689|N|Finish Killing Nightbane Shadow Weavers. Bewar
 
 A Vulgar Vul'Gol|QID|25235|M|45.18,66.95|N|From Watcher Dodds, along the road to the west.|
 
-C Vlugar Vul'Gol|QID|25235|M|41.91,68.86|S|N|Kill any type Splinter Fist Ogres.|
+C Vulgar Vul'Gol|QID|25235|M|41.91,68.86|S|N|Kill any type Splinter Fist Ogres.|
 C Ogre Thieves|QID|26680|M|33.45,75.27|N|Just outside the cave, pickup Abercrombie's Crate.|NC|
 C Classy Glass|QID|26685|M|37.84,84.33|N|Head to the back of the cave, kill and loot Zzarc'Vul.|
-C Vlugar Vul'Gol|QID|25235|M|41.91,68.86|US|N|Finish killing Splinter Fist Ogres.|
+C Vulgar Vul'Gol|QID|25235|M|41.91,68.86|US|N|Finish killing Splinter Fist Ogres.|
 
 T Vulgar Vul'Gol|QID|25235|M|45.18,66.95|N|To Watcher Dodds.|
 

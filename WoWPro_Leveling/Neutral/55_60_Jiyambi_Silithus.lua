@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silithus_neutral
+-- Date: 2017-03-23 19:39
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3270/revisions/28486/view
 -- Date: 2017-03-17 00:16
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -171,7 +176,7 @@ C The Twilight Lexicon|QID|8279|M|24.75,77.23|QO|2|T|Twilight Keeper Exeter|N|Ki
 
 H Cenarion Hold|QID|9415|M|55.51,36.72|N|If your hearth isn't up or you didn't set it there, skip this step since it is near Cenarion Hold anyways.|
 
-C Twilight Lexicon|QID|8279|M|45.82,39.06|QO|3|T|Twilight Keeper Havunth|N|Kill and loot Twilight Keeper Havunth.|
+C The Twilight Lexicon|QID|8279|M|45.82,39.06|QO|3|T|Twilight Keeper Havunth|N|Kill and loot Twilight Keeper Havunth.|
 C The Twilight Lexicon|QID|8279|M|33.51,34.56|QO|1|T|Twilight Keeper Mayna|N|Kill and loot Twilight Keeper Mayna.|
 
 T Report to Marshal Bluewall|QID|9415|M|39.56,46.93|N|To Marshal Bluewall|FACTION|Alliance|

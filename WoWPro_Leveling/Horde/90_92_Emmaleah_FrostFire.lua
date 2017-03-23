@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2017-03-23 19:13
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3587/revisions/28456/view
 -- Date: 2017-03-16 17:07
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -244,11 +249,6 @@
 -- Date: 2014-10-12 10:54
 -- Who: Emmaleah
 -- Log: @build 19005 - added all building quests and all profession quests, other minor changes
-
--- URL: http://wow-pro.com/node/3587/revisions/26695/view
--- Date: 2014-09-27 23:38
--- Who: Ludovicus
--- Log: Coord and zone tweaks.
 
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,91, 92, 90.7)
@@ -515,11 +515,11 @@ A Ashran Appearance|QID|36706|M|52.45,53.35|N|From Gazlowe.|Z|Frostwall|
 A We Be Needin' Supplies|QID|34736|PRE|33527|M|51.33,51.44|N|From Rokhan.|Z|Frostwall|RANK|2|
 ;profession upgrade quests in garrison
 T Enchanted Highmaul Bracer|QID|36255|M|47.13,37.85|Z|Frostwall|P|Enchanting;333|N|To Yu'rina the Mystic.|
-A The Arakoan Enchanter|QID|36256|M|47.13,37.85|PRE|36255|Z|Frostwall|P|Enchanting;333|N|From Yu'rina the Mystic.|
+A The Arakkoan Enchanter|QID|36256|M|47.13,37.85|PRE|36255|Z|Frostwall|P|Enchanting;333|N|From Yu'rina the Mystic.|
 T The Intricate Pendant|QID|36314|M|60.91,40.12|Z|Frostwall|P|Jewelcrafting;755|N|To "Appraiser" Sazsel Stickyfingers.|
 A Locating the Lapidarist|QID|36352|M|60.91,40.12|Z|Frostwall|P|Jewelcrafting;755|PRE|36314|N|To "Appraiser" Sazsel Stickyfingers.|
 T Heavy Arms|QID|36589|M|60.14,38.79|Z|Frostwall|P|Engineering;202|N|To Blizthraz Blastcharge.|
-A Spare Parts|QID|36594|M|60.14,38.79|Z|Frostwall|PRE|36589|P|Engineering;202|N|From Blizthraz Blastcharge.|
+A "Spare" Parts|QID|36594|M|60.14,38.79|Z|Frostwall|PRE|36589|P|Engineering;202|N|From Blizthraz Blastcharge.|
 T The Mysterious Flask|QID|35058|M|45.16,51.00|Z|Frostwall|N|To Refugee Lo'nash.|P|Alchemy;171|
 A The Alchemist|QID|35103|M|45.16,51.00|PRE|35058|Z|Frostwall|N|From Refugee Lo'nash.|P|Alchemy;171|
 
@@ -530,9 +530,9 @@ A Bigger is Better|QID|36567|M|52.53,53.13|N|From Gazlowe.|Z|Frostwall|
 C Bigger is Better|QID|36567|M|52.40,53.49|Z|Frostwall|NC|N|At the Architect's Table in front of you. This is the quest to upgrade your garrison to level 2.|
 
 t Bigger is Better|QID|36567|M|42.16,55.58|Z|Frostwall|RANK|2|N|To Gazlowe in your new town hall. Now you can upgrade your garrison with a medium and another small building. If you are 92, you can move on to Gorgrond if desired.|
-A Building For Professions|QID|37669|M|42.16,55.58|N|From Gazlowe.|Z|Frostwall|PRE|35106+36238+36260+36627+36475+36380+36516+36419|RANK|2|
-C Building For Professions|QID|37669|M|42.16,55.58|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This quest doesn't complete if you build a non profession small building (such as storehouse). You can start a profession building, get the quest complete, then cancel the building getting your resources and gold back (assuming the building is cancelled before completing) then build whatever you want.|
-T Building For Professions|QID|37669|M|42.16,55.58|N|To Gazlowe.|Z|Frostwall|RANK|2|
+A Building for Professions|QID|37669|M|42.16,55.58|N|From Gazlowe.|Z|Frostwall|PRE|35106+36238+36260+36627+36475+36380+36516+36419|RANK|2|
+C Building for Professions|QID|37669|M|42.16,55.58|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This quest doesn't complete if you build a non profession small building (such as storehouse). You can start a profession building, get the quest complete, then cancel the building getting your resources and gold back (assuming the building is cancelled before completing) then build whatever you want.|
+T Building for Professions|QID|37669|M|42.16,55.58|N|To Gazlowe.|Z|Frostwall|RANK|2|
 
 N buildings|QID|36567|N|you just upgraded to lvl 2 garrison which means you have 1 large plat(Barracks-but you can build a differant building overtop it) 1 medium plot(your choice-Lumber Mill, Barn, Tavern, Gladiators Sanctum or Trading Post) and two small plots(all the primary crafting professions plus storehouse - no salvage yard available yet). Level 2 plans not available yet - must be finished with Gorgrond (specifically [92-Strike While the Iron is Hot]) to purchase first small/medium plan in ashran or build the Talador outpost.  Large buildings require lvl 98 or finishing core Spires of Arak questline to purchase for gold in your garrison.|
 
@@ -569,7 +569,7 @@ C Find Karg|QID|32990|M|41.4,52.8|QO|1|CHAT|N|Talk to the warrior in the doorway
 A Of Fire and Thunder|QID|33013|M|41.67,53.00|N|From Wounded Frostwolf Shaman.|RANK|2|
 C Ask Suma|QID|32990|CHAT|QO|2|M|41.4,52.8|RANK|2|
 T The Fractured Hammer|QID|36205|M|41.2,52.89|P|Blacksmithing;164|N|To Axe-Shaper Kurga.|RANK|2|
-A Waruk the Frostforged|QID|36207|M|41.2,52.89|PRE|36205|P|Blacksmithing;164|N|From Axe-Shaper Kurga.|RANK|2|
+A Waruk the Frostforger|QID|36207|M|41.2,52.89|PRE|36205|P|Blacksmithing;164|N|From Axe-Shaper Kurga.|RANK|2|
 C Ask Rota|QID|32990|CHAT|M|39.9,52.8|QO|3|RANK|2|
 C Ask Dungar|QID|32990|CHAT|M|39.18,52.46|QO|4|RANK|2|
 T They Who Held Fast|QID|32990|M|38.54,52.44|N|To Lokra.|RANK|2|
@@ -596,7 +596,7 @@ T Into the Boneslag|QID|32991|M|47.57,45.57|N|To Lokra.|RANK|2|
 A Moving Target|QID|32992|PRE|32991|M|47.57,45.57|N|From Lokra.|RANK|2|
 
 ;blacksmithing profession quest
-T Waruk the Frostforged|QID|36207|M|46.08,48.78|P|Blacksmithing;164|N|To Waruk the Frostforged.|
+T Waruk the Frostforger|QID|36207|M|46.08,48.78|P|Blacksmithing;164|N|To Waruk the Frostforged.|
 A The Restless Spirit|QID|36230|M|46.08,48.78|PRE|36207|P|Blacksmithing;164|N|From Waruk the Frostforged.|
 
 f Darkspear's Edge|QID|34736|M|51.70,41.12|N|At Ja'kana.|RANK|2|
@@ -652,14 +652,14 @@ H Frostwall|QID|36380|ACTIVE|36380|P|Jewelcrafting;755|M|21.57,56.15|LEAD|36207|
 F Stonefang Outpost|QID|36230|M|21.57,56.15|P|Blacksmithing;164|N|At Pul Windcarver.|PRE|36380|
 F Stonefang Outpost|QID|36230|M|51.70,41.12|P|Blacksmithing;164|N|At Ja'kana.|LEAD|36380|
 T The Restless Spirit|QID|36230|M|46.08,48.78|P|Blacksmithing;164|N|To Waruk the Frostforged.|
-A Mending a Broken Heart|QID|36238|M|46.08,48.78|PRE|36230|P|Blacksmithing;164|N|From Waruk the Frostforged.|
-T Mending a Broken Heart|QID|36238|M|41.21,52.89|P|Blacksmithing;164|N|To Axe-Shaper Kurga.|
+A Mending A Broken Heart|QID|36238|M|46.08,48.78|PRE|36230|P|Blacksmithing;164|N|From Waruk the Frostforged.|
+T Mending A Broken Heart|QID|36238|M|41.21,52.89|P|Blacksmithing;164|N|To Axe-Shaper Kurga.|
 U Learn Blacksmithing skill|QID|33918|U|115356|M|41.21,52.89|P|Blacksmithing;164|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Blacksmith Shop Blueprints|QID|33918|U|111813|M|41.21,52.89|P|Blacksmithing;164|N|After you learn check this step off manually.|
 
 R Icewind Drifts|QID|32992|M|54.17,51.86|RANK|2|
 ;enchanting profession quest
-T The Arakoan Enchanter|QID|36256|M|54.4,51.6|P|Enchanting;333|N|To Arcanist Delath.|
+T The Arakkoan Enchanter|QID|36256|M|54.4,51.6|P|Enchanting;333|N|To Arcanist Delath.|
 A Failed Apprentice|QID|36257|PRE|36256|M|54.4,51.6|P|Enchanting;333|N|From Arcanist Delath.|
 C Failed Apprentice|QID|36257|M|55.2,50|P|Enchanting;333|N|Break open all the iceblock's until you find Torag.|
 T Failed Apprentice|QID|36257|M|55.2,50|P|Enchanting;333|N|To Torag Stonefury.|
@@ -704,11 +704,11 @@ T Karg Unchained|QID|33785|M|63.21,60.07|N|To Karg Bloodfury.|RANK|2|
 T Enfilade|QID|32994|M|62.53,74.91|N|To Karg Bloodfury.|RANK|2|
 T The Master Siegesmith|QID|33828|M|62.53,74.91|N|To Lokra.|RANK|2|
 A Return to the Pack|QID|33493|PRE|32994|M|62.53,74.91|N|From Lokra.|RANK|2|
-C Spare Parts|QID|36594|M|56.74,71.82|P|Engineering;202|N|Kill and loot for the shells or pick them up from the ground. Use the provided bomb to blow up the siege cannons and pick up the parts. There is a treasure chest here also with some garrison resources, (and hopefully sometimes something better).|
+C "Spare" Parts|QID|36594|M|56.74,71.82|P|Engineering;202|N|Kill and loot for the shells or pick them up from the ground. Use the provided bomb to blow up the siege cannons and pick up the parts. There is a treasure chest here also with some garrison resources, (and hopefully sometimes something better).|
 H Town Hall (Frostwall)|QID|33918|M|41.58,53.06|U|110560|Z|Frostwall|CC|RANK|2|
 T Wanted: Grondo's Bounty|QID|33918|M|45.88,42.80|N|To Rokhan.|RANK|2|Z|Frostwall|
 
-T Spare Parts|QID|36594|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
+T "Spare" Parts|QID|36594|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
 A Big Frostfire Gun|QID|36627|M|50.03,68.90|PRE|36594|P|Engineering;202|N|From Blizthraz Blastcharge.|
 A Things Are Not Goren Our Way|QID|35154|M|61.99,73.88|N|From Gorsol.|LVL|92|Z|Frostwall|
 C Things Are Not Goren Our Way|QID|35154|M|61.39,84.40|N|After completing this quest you will be able to mine here, without the mining profession.|T|Stonetooth|Z|Frostwall|
@@ -804,18 +804,18 @@ C Pick up work order|QID|36645|QO|2|NC|N|At the bundles and boxes called 'Enchan
 T Your First Enchanting Work Order|QID|36645|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
 
 ;if you choose barn MED
-A Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|From Farmer Lok'lub|
+A Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|From Farmer Lok'lub|
 C Go trap an animal|QID|36345|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a wolf (in the shivering trench ~55,62) if you want fur (cloth) and a clefthoof (nearest concentration is outside of sootstained mines ~26,46) if you are interested in leather. You can trap more if you want, up to 7 can be turned in each day.|
 C Place a work order|QID|36345|QO|2|N|At Farmer Lok'lub, sometimes he gets bored and wanders around, I have found him as far away as my garrison's graveyard.|
-T Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|To Farmer Lok'lub|
+T Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|To Farmer Lok'lub|
 
 T Return to the Pack|QID|33493|M|50.17,37.82|N|To Durotan.|RANK|2|Z|Frostwall|
-A Thunderlord Invasion|QID|37291|PRE|32796|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
-C Thunderlord Invasion|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the scenario. You can take up to two groupmates with you if they come to your garrison. It will take around 10 min.|RANK|2|Z|Frostwall|
+A Thunderlord Invasion!|QID|37291|PRE|32796|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
+C Thunderlord Invasion!|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the scenario. You can take up to two groupmates with you if they come to your garrison. It will take around 10 min.|RANK|2|Z|Frostwall|
 t Thunderlord Invasion|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|RANK|2|Z|Frostwall|
 A The Iron Wolf|QID|33010|PRE|37291|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
 
-A Sevices of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654;34651|RANK|2|Z|Frostwall|
+A Services of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654;34651|RANK|2|Z|Frostwall|
 R Grimfrost Hill|QID|33125|M|65.14,49.45|RANK|3|
 A A Proper Parting|QID|33125|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
 A Gut Guttra|QID|33132|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
@@ -874,9 +874,9 @@ C Burn Them Down|QID|34073|NC|U|109164|QO|3|M|83.37,75.13|RANK|3|
 C The Mark of Defiance|QID|34102|U|109196|M|83.23,74.49|US|N|Use the banner on the corpses you kill.|RANK|3|
 T Burn Them Down|QID|34073|M|82.83,76.34|N|To Scout Ruk'Gan.|RANK|3|
 T The Mark of Defiance|QID|34102|M|82.83,76.34|N|To Scout Ruk'Gan.|RANK|3|
-A Vul'gaths End|QID|34075|PRE|34073;34102|M|82.83,76.34|N|From Scout Ruk'Gan.|RANK|3|
-C Vul'gaths End|QID|34075|M|83.83,74.96|T|General Vul'gath|N|Just across the rock bridge here.|RANK|3|
-T Vul'gaths End|QID|34075|M|82.82,76.33|N|To Scout Ruk'Gan.|RANK|3|
+A Vul'gath's End|QID|34075|PRE|34073;34102|M|82.83,76.34|N|From Scout Ruk'Gan.|RANK|3|
+C Vul'gath's End|QID|34075|M|83.83,74.96|T|General Vul'gath|N|Just across the rock bridge here.|RANK|3|
+T Vul'gath's End|QID|34075|M|82.82,76.33|N|To Scout Ruk'Gan.|RANK|3|
 
 D We're outa here!|N|This concludes Frostfire Ridge, check off this step and the next guide will open.|
 

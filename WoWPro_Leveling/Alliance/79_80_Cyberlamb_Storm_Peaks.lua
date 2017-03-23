@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2017-03-23 18:28
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3299/revisions/28398/view
 -- Date: 2017-03-15 21:51
 -- Who: Ludovicus
 -- Log: Added PREs to CybSto7980
@@ -229,10 +234,10 @@ A Yulda's Folly|QID|12968|PRE|12841|N|From Iva the Vengeful |M|48.3,72.1|
 C The Slithering Darkness|QID|12989|N|Enter the cave and kill 8 Ravenous Jormungar.|M|55.91,64.26|
 C The Last of Her Kind|QID|12983|N|Find the Injured Icemaw Matriarch toward the back of the cave, mount her and ride out.|M|54.75,60.25|U|42838|
 T The Last of Her Kind|QID|12983|N|To Astrid Bjornrittar.|M|49.7,71.7|
-A The Warm-Up|QID|12996|PRE|12983|N|To From Astrid Bjornrittar.|M|49.7,71.7|
+A The Warm-Up |QID|12996|PRE|12983|N|To From Astrid Bjornrittar.|M|49.7,71.7|
 T The Slithering Darkness|QID|12989|N|To Astrid Bjornrittar.|M|49.7,71.7|
-C The Warm-Up|QID|12996|N|Use the Reins of the Icemaw Matriarch to summon a bear and use the controls to defeat Kirgaraak.|M|50.6,67.6|U|42481|
-T The Warm-Up|QID|12996|N|To Astrid Bjornrittar.|M|49.7,71.7|
+C The Warm-Up |QID|12996|N|Use the Reins of the Icemaw Matriarch to summon a bear and use the controls to defeat Kirgaraak.|M|50.6,67.6|U|42481|
+T The Warm-Up |QID|12996|N|To Astrid Bjornrittar.|M|49.7,71.7|
 A Into the Pit|QID|12997|PRE|12996|N|From Astrid Bjornrittar.|M|49.7,71.7|
 C Into the Pit|QID|12997|N|Use the Reins of the Warbear Matriarch to summon a bear and use the controls to defeat 6 Hyldsmeet Warbear.|M|50,65|U|42499|
 T Into the Pit|QID|12997|N|To Astrid Bjornrittar.|M|49.7,71.7|
@@ -442,7 +447,7 @@ A Hit Them Where it Hurts|QID|12991|PRE|12984|N|From Bruor Ironbane.|M|31.2,38.1
 C Hit Them Where it Hurts|QID|12991|N|Kill 10 Stormforged Artificers in this area.|M|29,46|S|
 N Destroy North Lightning Forge|QID|12988|QO|1|N|Use Bouldercrag's Bomb and damage the North Lightning Forge.|M|29.02,45.86|U|42441|
 N Destroy Central Lightning Forge|QID|12988|QO|2|N|Use Bouldercrag's Bomb and damage the Central Lightning Forge.|M|29.55,45.86|U|42441|
-C Destroy the Forges|QID|12988|QO|3|N|Use Bouldercrag's Bomb and damage the South Lightning Forge.|M|30.23,46.14|U|42441|
+C Destroy the Forges!|QID|12988|QO|3|N|Use Bouldercrag's Bomb and damage the South Lightning Forge.|M|30.23,46.14|U|42441|
 C Hit Them Where it Hurts|QID|12991|N|Kill 10 Stormforged Artificers in this area.|M|29,46|US|
 T Hit Them Where it Hurts|QID|12991|N|To Bruor Ironbane.|M|31.2,38.1|
 T Destroy the Forges!|QID|12988|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|

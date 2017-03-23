@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2017-03-23 19:08
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3290/revisions/28447/view
 -- Date: 2017-03-16 16:51
 -- Who: Ludovicus
 -- Log: Added PREs
@@ -128,12 +133,12 @@ A Cutting Off the Source |QID|11602|PRE|11598|M|43.2,55.0|N|From Overlord Razgor
 A Untold Truths |QID|11614|PRE|11598|M|43.2,55.0|N|From Shadowstalker Barthus.|
 ;QO
 N Blast the Eastern Sinkhole |QID|11608|QO|2|U|34710|N|Go down to the left of the barricades, you'll find a hole blocked by webs. Stand on it and use your Depth Charge.|M|44.23,56.75|
-C Cutting off the Source |QID|11602|N|Head SW to a set of scaffolds. The Nerub'kar Egg Sacks are on then, they look like eggs in a cup. Go up the scaffold, destroying the eggs, then continue SW and head down the other scaffold, destroying eggs. Continue till you finish the quest.|M|43,59|
+C Cutting Off the Source|QID|11602|N|Head SW to a set of scaffolds. The Nerub'kar Egg Sacks are on then, they look like eggs in a cup. Go up the scaffold, destroying the eggs, then continue SW and head down the other scaffold, destroying eggs. Continue till you finish the quest.|M|43,59|
 N Blast the Southern Sinkhole |QID|11608|QO|1|U|34710|N|It's about 20 paces NW of the scaffolds.|M|41.6,58.3|
 N Blast the Western Sinkhole |QID|11608|QO|3|U|34710|N|Go NW, there's a narrow path.|M|39.8,52.5|
 T Untold Truths |QID|11614|N|To Shadowstalker Luther's corpse. He's just next to the sinkhole.|M|40.1,52.1|
 A Nerub'ar Secrets|QID|11615|PRE|11614|M|40.1,52.1|N|From Shadowstalker Luther's corpse.|
-C Bury Those Cockroaches |QID|11608|QO|4|U|34710|N|The final sinkhole is to the NE.|M|41.3,50.4|
+C Bury Those Cockroaches!|QID|11608|QO|4|U|34710|N|The final sinkhole is to the NE.|M|41.3,50.4|
 
 A What the Cold Wind Brings... |QID|11632|O|U|34777|N|From Ith'rix's Hardened Carapace.|
 T Bury Those Cockroaches! |QID|11608|M|43.3,55.4|N|To Quartermaster Holgoth..|
@@ -390,7 +395,7 @@ A Shatter the Orbs! |QID|11659|PRE|11654|M|87.6,20.0|N|From Snow Tracker Grumm.|
 C Shatter the Orbs! |QID|11659|N|There's a bunch on the first floor and one on the second.|
 K High Priest Andorath |QID|11640|QO|3|N|He's on the upper floor, loot the scroll off his body.|M|88.09,20.91|
 N Neutralize the Central Cauldron |QID|11647|QO|2|U|34806|N|Head a bit SW when you exit the Spire of Blood.|M|86,23|
-C Neutralize the Cauldrons |QID|11647|U|34806|QO|3|N|The final Cauldron is to the NW.|M|85,20|
+C Neutralizing the Cauldrons|QID|11647|U|34806|QO|3|N|The final Cauldron is to the NW.|M|85,20|
 C Words of Power |QID|11640|QO|1|N|He's in the Spire of Decay, upstairs. Head upstairs and kill the 3 necromancers and he'll attack. Do NOT kill the necromancers before he spawns or he will bug.|
 C A Courageous Strike |QID|11641|N|Kill En'kilah Ghouls and Necromancers.|US|M|85.76,26.79|
 T Shatter the Orbs! |QID|11659|M|76.7,37.9|N|To Snow Tracker Junek.|

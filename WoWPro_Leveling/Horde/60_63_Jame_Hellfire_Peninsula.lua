@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2017-03-23 19:02
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3272/revisions/28461/view
 -- Date: 2017-03-16 22:14
 -- Who: Ludovicus
 -- Log: Added a PRE.
@@ -414,7 +419,7 @@ C Arzeth's Demise |N|Use the Staff of the Dreghood Elders on Azreth to turn him 
 T Arzeth's Demise |QID|10369|M|16.3,65.1|N|To Naladu.|
 C Source of the Corruption |QID|9387|N|Kill the Taskmasters until you have enough essence. The Brutes will run once you kill the Taskmaster.|M|15.0,55.5|US|
 C Keep Thornfang Hill Clear! |QID|10159|N|Kill the Ravagers and Venomspitters needed for this quest.|M|12,50|
-T Keep Thornfang Hill Clear |QID|10159|M|15.66,52.15|N|To Mahuram Stouthoof.|
+T Keep Thornfang Hill Clear!|QID|10159|M|15.66,52.15|N|To Mahuram Stouthoof.|
 R Cenarion Refuge |QID|9747|N|Follow the road west, you'll come to Cenarion Refuge.  While you are here, this guide has you pick up quests so you can fly back next time instead of running.|Z|Zangarmarsh|M|80.5,64.0|
 
 A The Umbrafen Tribe |QID|9747|Z|Zangarmarsh|M|80.5,64.0|N|From Ikeyen.|

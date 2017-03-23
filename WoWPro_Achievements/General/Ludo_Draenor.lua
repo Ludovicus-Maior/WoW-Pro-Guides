@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/treasures_draenor_neutral
+-- Date: 2017-03-23 17:37
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3633/revisions/28315/view
 -- Date: 2017-03-10 23:02
 -- Who: Ludovicus
 -- Log: Added PREs.
@@ -171,7 +176,7 @@ A Sunclaw|QID|36656|M|44.60,92.20|Z|Gorgrond|N|i533 Agility Fistweapon|ITEM|1182
 A Vindicator's Hammer|QID|36628|M|59.40,63.70|Z|Gorgrond|N|i539 Strength 2H Mace|ITEM|118712|
 A Blademaster Ro'gor|QID|37368|M|46.00,33.60|Z|Gorgrond|N|unknown|RANK|3|LVL|100|
 A Mother Araneae|QID|34726|M|53.40,78.20|Z|Gorgrond|N|i534 Agility Dagger|ITEM|118208|RANK|2|
-A Fossilwood the Petrified|QID|36387|M|57.40,68.60|Z|Gorgrond|N|Toy|ITEM|118221|RANK|2|
+A Fossil the Petrified|QID|36387|M|57.40,68.60|Z|Gorgrond|N|Toy|ITEM|118221|RANK|2|
 A Harvestable Precious Crystal|QID|36651|M|46.10,50.00|Z|Gorgrond|N|Garrison Resources|ITEM|$824|
 A Durp the Hated|QID|37366|M|50.00,23.80|Z|Gorgrond|N|unknown|RANK|3|LVL|100|
 A Laughing Skull Cache|QID|35709|M|44.20,74.20|Z|Gorgrond|N|Garrison Resources|ITEM|$824|

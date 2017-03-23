@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2017-03-23 17:41
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3416/revisions/28322/view
 -- Date: 2017-03-10 23:19
 -- Who: Ludovicus
 -- Log: Syntax changes.
@@ -103,7 +108,7 @@ C Shark Tank|QID|28681|M|49.3,20.9|T|Tank|N|Find and kill Tank. He is a level 85
 C Boosting Morale|QID|28680|M|49.3,20.9|N|Loot 6 Barrels of Southsea Rum. Watch out for Tank, he is a level 85 elite.|
 C Captain P. Harris|QID|28678|M|48,7.9|N|Find and kill Captain P. Harris.|T|Captain P. Harris|
 
-C Not The Friendlist Town|QID|28686|M|67.6,34.7|N|Kill 14 villagers in Rustberg Village.|
+C Not The Friendliest Town|QID|28686|M|67.6,34.7|N|Kill 14 villagers in Rustberg Village.|
 C Teach A Man To Fish.... Or Steal|QID|28687|M|68.2,23.3|N|You can loot the Seabass from the Rustberg Fisherman or from Strings of Fish.|
 
 C Ghostbuster|QID|28697|M|79,50|N|Kill 14 ghosts of any type.|

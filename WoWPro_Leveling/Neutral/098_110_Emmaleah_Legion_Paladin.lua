@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2017-03-23 19:30
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3673/revisions/28501/view
 -- Date: 2017-03-17 09:58
 -- Who: Blanckaert
 -- Log: copied and replaced guide, forgot to mark where I made changes.  Added Ludo's correction, minor adds of active tags, corrections of Names for P or F steps, etc.
@@ -148,7 +153,7 @@ A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran@Dalaran70|N|From Justicar Juli
 R Graymane Enclave|QID|42844|M|32.64,69.99|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Alliance|
 R Windrunner's Sanctuary|QID|42844|M|61.81,13.70|CC|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Horde|
 T Growing Power|QID|42844|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
-A Rise Champions|QID|39696|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844|
+A Rise, Champions|QID|39696|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844|
 
 ;2nd artifact
 
@@ -347,12 +352,12 @@ T The Scion's Legacy|QID|42919|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
 A The Highlord's Command|QID|42885;42966;42967;42968|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42919|
 C The Highlord's Command|QID|42885;42966;42967;42968|M|53.44,78.63|NC|N|Go to your mission board and choose The Highlords Command mission. This mission takes 1 hour to complete, manually check it off and when you come back to your hall you can complete the mission.|
 t The Highlord's Command|QID|42885;42966;42967;42968|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
-A To Faranaar|QID|42886|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42885;42966;42967;42968|LVL|103|
+A To Faronaar|QID|42886|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42885;42966;42967;42968|LVL|103|
 F Illidari Stand|QID|42886|M|69.87,51.11|N|At Aladune Whitecloud.|ACTIVE|42886|
 T To Faronaar|QID|42886|M|45.91,51.60|Z|Azsuna|N|To Vindicator Boros.|
-A This is Retribution|QID|42887|M|45.91,51.60|Z|Azsuna|N|From Vindicator Boros.|PRE|42886|
-C This is Retribution|QID|42887|M|42.79,44.47|Z|Azsuna|N|Run down to Faronaar Front and kill some demons.|
-T This is Retribution|QID|42887|M|30.67,44.82|Z|Azsuna|N|To Vindicator Boros who is now close to Illidari Perch. If you have the flightpath fly over, or just run.|
+A This Is Retribution|QID|42887|M|45.91,51.60|Z|Azsuna|N|From Vindicator Boros.|PRE|42886|
+C This Is Retribution|QID|42887|M|42.79,44.47|Z|Azsuna|N|Run down to Faronaar Front and kill some demons.|
+T This Is Retribution|QID|42887|M|30.67,44.82|Z|Azsuna|N|To Vindicator Boros who is now close to Illidari Perch. If you have the flightpath fly over, or just run.|
 A Communication Orbs|QID|42888|M|28.06,59.14|Z|Azsuna|N|From Justicar Julia Celeste.|PRE|42887|
 A Mother Ozram|QID|43462|M|28.07,59.16|Z|Azsuna|N|From Justicar Julia Celeste.|PRE|42887|
 C Mother Ozram|QID|43462|M|31.34,50.74|Z|Azsuna|T|Mother Ozram|N|Run up to Illidari Perch and out the other side to get to Mother Ozram.|
@@ -413,10 +418,10 @@ C The Mind of the Enemy|QID|43540|QO|5|M|26.47,40.61|Z|Niskara#1078|NC|N|Click o
 H Dalaran|QID|43540|ACTIVE|43540|U|140192|M|26.47,40.61|Z|Niskara#1078|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
 T Allies of the Light|QID|43491|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
 T The Mind of the Enemy|QID|43540|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
-A United as One|QID|43541|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43540+43491|
-C United as One|QID|43541|M|52.31,78.22|QO|1|CHAT|N|Listen to Delas Moonfang's speech and the ensuing discussion.|
-C United as One|QID|43541|M|49.86,72.22|QO|2|CHAT|N|Tell Lord Tyrosus that we will fight.|
-T United as One|QID|43541|M|48.35,72.58|N|To Aponi Brightmane.|
+A United As One|QID|43541|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43540+43491|
+C United As One|QID|43541|M|52.31,78.22|QO|1|CHAT|N|Listen to Delas Moonfang's speech and the ensuing discussion.|
+C United As One|QID|43541|M|49.86,72.22|QO|2|CHAT|N|Tell Lord Tyrosus that we will fight.|
+T United As One|QID|43541|M|48.35,72.58|N|To Aponi Brightmane.|
 A Champion: Aponi Brightmane|QID|43492|M|48.35,72.58|N|From/To Aponi Brightmane.|PRE|43541|
 A A New Path|QID|43934|M|48.39,71.46|N|From Delas Moonfang.|PRE|43541|
 C A New Path|QID|43934|M|48.39,71.46|CHAT|N|Tell Delas yes.|
@@ -452,7 +457,7 @@ T Warriors of Light|QID|43697|M|72.75,25.66|N|To Lord Maxwell Tyrosus.|
 A A Hero's Weapon|QID|43424|M|72.75,25.66|N|From Lord Maxwell Tyrosus.|PRE|43697|
 C A Hero's Weapon|QID|43424|M|71.84,25.06|N|Stand on the dot and use your extra action button.|
 T A Hero's Weapon|QID|43424|M|72.75,25.66|N|To Lord Maxwell Tyrosus.|
-A Champion Lothraxion|QID|43701|M|49.25,74.28|N|From/To Lothraxion. If you didnt pick up these followers by the alter, they have moved to near your command board.|PRE|43424|
+A Champion: Lothraxion|QID|43701|M|49.25,74.28|N|From/To Lothraxion. If you didnt pick up these followers by the alter, they have moved to near your command board.|PRE|43424|
 A Champion: Arator the Redeemer|QID|43785|M|48.81,73.47|N|From/To Arator the Redeemer.|PRE|43424|
 
 ; LVL 110 Quests, Obliterum / Tears to Light's Heart.
@@ -475,8 +480,8 @@ A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Friends in Low Place|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-T Friends in Low Place|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
@@ -511,7 +516,7 @@ F Garden of the Moon|QID|44466|ACTIVE|44466|M|46.72,64.70|Z|Dalaran@Dalaran70|N|
 R Emerald Bay|QID|44466|ACTIVE|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|52.46,69.29|N|To Light's Heart, back in your order hall.|
-A Ravemcrest's Legacy|QID|44479|M|52.46,69.29|N|From Light's Heart.|PRE|44466|
+A Ravencrest's Legacy|QID|44479|M|52.46,69.29|N|From Light's Heart.|PRE|44466|
 F Garden of the Moon|QID|44479|ACTIVE|44479|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
 R Black Rook Hold|QID|44479|ACTIVE|44479|M|51.42,50.67;45.82,50.34|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|
 C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|Val'sharah|NC|S|N|Run to the alcove behind Araxxas (not in the instance). Use your extra action button to watch a vignette about Illidan traveling the wrong path.|

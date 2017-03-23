@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/Blanckaert
+-- Date: 2017-03-23 19:38
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3687/revisions/28546/view
 -- Date: 2017-03-23 01:31
 -- Who: Blanckaert
 -- Log: Replaced full guide, Fixed the Taking Promenade quests, as horde alliance have slightly different order, adjusted some F steps.  Adjusted some Grammar errors.
@@ -246,11 +251,6 @@
 -- Date: 2016-11-29 17:42
 -- Who: Blanckaert
 -- Log: Added Quest from today 11/29. 
-
--- URL: http://wow-pro.com/node/3687/revisions/28064/view
--- Date: 2016-11-29 06:10
--- Who: Blanckaert
--- Log: ~dummy~ removed a comment about having to click off, as Ludo had fixed the Skills thing.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1027,7 +1027,7 @@ A Exotic Textiles|QID|38971|PRE|38970|M|26.63,71.42|LVL|110|P|Tailoring;197|N|Fr
 
 A A Different Source|QID|40625|M|29.38,71.78;27.34,72.89;26.78,70.82|CS|N|From Kyrtos.|RANK|2|
 $ Kyrtos's Research Notes|QID|43987|M|26.86,70.74|U|140327|ITEM|140327|N|Pick up and use Kyrtos's Research Notes to raise your ancient mana cap by 100.|
-C Different Source|QID|40625|M|32.50,66.74|N|Kill Abhorrent Artificers (or any wyrmtounge mob) in the area for Fel Deconstructor. Low droprate.|
+C A Different Source|QID|40625|M|32.50,66.74|N|Kill Abhorrent Artificers (or any wyrmtounge mob) in the area for Fel Deconstructor. Low droprate.|
 T A Different Source|QID|40625|M|26.78,70.83|N|To Kyrtos.|
 A Discovery Requires Experimentation|QID|40683|PRE|40625|M|26.78,70.83|N|From Kyrtos.|RANK|2|
 A The Road to Fel|QID|40657|M|26.78,70.83|PRE|40625|N|From Kyrtos.|RANK|2|

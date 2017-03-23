@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bringing_bass
+-- Date: 2017-03-23 17:33
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3630/revisions/28518/view
 -- Date: 2017-03-17 14:43
 -- Who: Ludovicus
 -- Log: Add [The Assault Base] as PRE
@@ -49,7 +54,7 @@ H Lunarfall |QID|38356|N|Use your Garrison Hearthstone, or fly back to your garr
 T Bringing the Bass|QID|37961|M|40.93,47.77|Z|Frostwall|N|To Drix Bassbolter|
 T Bringing the Bass|QID|38356|M|33.77,36.33|Z|Lunarfall|N|To Fix "Smallie" Biggswrench|FACTION|Alliance|
 
-; The Guarenteed loots (
+; The Guarenteed loots (eight)
 ; Eastern
 l Music Roll: Lament of the Highborne|QID|38095|M|58.11,93.86|Z|Undercity|N|Looted from Sylvanas' room in Undercity - from a strongbox by a pillar to the player's right of Sylvanas|FACTION|Horde|
 l Music Roll: Lament of the Highborne|QID|38095|M|58.11,93.86|Z|Undercity|N|Looted from Sylvanas' room in Undercity - from a strongbox by a pillar to the player's right of Sylvanas. PVP!!!|FACTION|Alliance|
@@ -64,17 +69,17 @@ l Music Roll: Shalandis Isle|QID|38100|M|43.03,75.67|Z|Darnassus|N|Looted from H
 ; Outland
 l Music Roll: The Black Temple|QID|38091|M|57.36, 49.65; 57.22, 47.16|CS|Z|Shadowmoon Valley|N|Looted from Warden's Scroll Case in Shadowmoon Valley in Outland.|
 
-; Faction Specific (3)
+; Faction Specific (three)
 B Music Roll: War March|QID|38072|M|10.6,53.6|Z|Krasarang Wilds|N|Sold by Ongrom Black Tooth for 500 Lion's Landing Commission.|PRE|32399|FACTION|Horde|
 l Music Roll: Zul'Gurub Voodoo|QID|38080|Z|Zul'Gurub|N|Drop from Jin'do the Godbreaker in Zul'Gurub.|FACTION|Horde|
 l Music Roll: Mulgore Plains|QID|38076|M|26.30,19.59|Z|Thunder Bluff|N|Looted from Fishing in the Pools of Vision in Thunder Bluff.|FACTION|Horde|
 
-B Music Roll: High Seas|QID|38071||M|89.53,33.55|Z|Krasarang Wilds|N|Sold by Proveditor Grantley for 500  Domination Point Commission.|FACTION|Alliance|
+B Music Roll: High Seas|QID|38071|M|89.53,33.55|Z|Krasarang Wilds|N|Sold by Proveditor Grantley for 500  Domination Point Commission.|FACTION|Alliance|
 l Music Roll: Cold Mountain|QID|38075|M|47.15,14.35|Z|Ironforge|N|Looted from Fishing in the Forlorn Cavern in Ironforge.|FACTION|Alliance|
 l Music Roll: Tinkertown|QID|38081|M|75,46|Z|Gnomeregan|N|Go to Gnomeregan, kill mobs for  Grime-Encrusted Object. Turning them in for The Sparklematic 5200! grants  Sparklematic-Wrapped Box, which can contain the scroll|
 
-; Vendors (4)
-B Music Roll: Totems of the Grizzlemaw|QID|38097|M|44.20,46.60;32.40,72.20;28.60,69.80;17.50,56.60;60.20,51.70;44.80,39.70;56.40,31.50;44.65,49.45;61.70,45.75;54.60,29.70;38.70,57.10;18.45,54.00;26.30,52.00;49.30,33.00;16.25,62.25;27.90,50.50;45.00,51.80;39.42,62.00;38.03,65.17;60.50,39.20;38.60,59.20;23.60,69.60;30.65,70.95;20.40,52.75;47.08,32.67;63.62,44.35;16.65,64.65;57.70,35.00;26.65,68.85;17.27,67.65;23.55,52.90;51.62,31.98;40.95,56.30;19.55,69.60;43.78,54.25;35.65,67.10;44.10,42.70;60.80,48.85;34.62,70.38;61.00,42.30;59.80,36.90;46.25,36.40;16.05,58.95;30.77,51.38;33.70,53.95|Z|Grizzly Hills|CS|CHAT|T|Remington Brode|N|Given by Remington Brode in Grizzly Hills.Just follow the path until you find him.\n"", "I'm looking for a song", "A song about the Wilderness", "Yes, please."|
+; Vendors (four)
+B Music Roll: Totems of the Grizzlemaw|QID|38097|M|44.20,46.60;32.40,72.20;28.60,69.80;17.50,56.60;60.20,51.70;44.80,39.70;56.40,31.50;44.65,49.45;61.70,45.75;54.60,29.70;38.70,57.10;18.45,54.00;26.30,52.00;49.30,33.00;16.25,62.25;27.90,50.50;45.00,51.80;39.42,62.00;38.03,65.17;60.50,39.20;38.60,59.20;23.60,69.60;30.65,70.95;20.40,52.75;47.08,32.67;63.62,44.35;16.65,64.65;57.70,35.00;26.65,68.85;17.27,67.65;23.55,52.90;51.62,31.98;40.95,56.30;19.55,69.60;43.78,54.25;35.65,67.10;44.10,42.70;60.80,48.85;34.62,70.38;61.00,42.30;59.80,36.90;46.25,36.40;16.05,58.95;30.77,51.38;33.70,53.95|Z|Grizzly Hills|CS|CHAT|T|Remington Brode|N|Given by Remington Brode in Grizzly Hills.Just follow the path until you find him.\n"Breathe Deeply", "I'm looking for a song", "A song about the Wilderness", "Yes, please."|
 B Music Roll: The Argent Tournament|QID|38094|M|76.2,23.8|Z|Icecrown|N|Purchased for 25 Champion's Seal from Quartermasters in the Argent Tournament.|
 B Music Roll: Darkmoon Carousel|QID|38099|M|51.52,75.05|Z|DarkmoonFaireIsland|N|Purchased for 90 Darkmoon Prize Ticket from Chester at the Darkmoon Faire.|
 B Music Roll: Song of Liu Lang|QID|38102|M|82.22,29.28|Z|Vale of Eternal Blossoms|N|Purchased for 80 from Tan Shin Tiao if Revered with Lorewakers in the Vale of Eternal Blossoms.|
