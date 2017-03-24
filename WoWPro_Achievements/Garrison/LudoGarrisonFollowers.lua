@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/dozen_garrison_followers
+-- Date: 2017-03-23 19:58
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3720/revisions/28526/view
+-- Date: 2017-03-17 16:50
+-- Who: Ludovicus
+-- Log: Initial commit
+
 local guide = WoWPro:RegisterGuide("LudoGarrisonFollowers","Achievements","Draenor","Ludovicus","Neutral")
 WoWPro:GuideIcon(guide,"ACH",9109)
 WoWPro:GuideLevels(guide,90, 100, 95.5)
@@ -66,15 +76,15 @@ T Clearing Out Before Cleaning Up|QID|35081|M|59.09,79.23|Z|Spires of Arak|N|To 
 A Follow that Hotrod!|QID|35285|M|59.09,79.21|Z|Spires of Arak|N|From Engineer Gazwitz.|PRE|35081;35082|
 T Follow that Hotrod!|QID|35285|M|58.49,92.33|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 A The Right Parts for the Job|QID|35090|M|58.49,92.33|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35285|
-A Skimming Off The Top|QID|35089|M|58.49,92.33|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35285|
+A Skimming Off the Top|QID|35089|M|58.49,92.33|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35285|
 A Field Trial|QID|36384|U|115475|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35285|
-C Skimming Off The Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|S|N|Kill the oily slimes in the area.|
+C Skimming Off the Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|S|N|Kill the oily slimes in the area.|
 C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|Z|Spires of Arak|NC|S|N|Use your rocket to shoot at one of the shredders standing around.  It will break it and then you pick up the pieces.|
 C Field Trial|QID|36384|U|115475|M|59.18,88.12|Z|Spires of Arak|N|When you encounter one of the infected, use the potion on him.|
 C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|Z|Spires of Arak|NC|US|N|Use your rocket to shoot at one of the shredders standing around.  It will break it and then you pick up the pieces.|
-C Skimming Off The Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|US|N|Kill the oily slimes in the area.|
+C Skimming Off the Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|US|N|Kill the oily slimes in the area.|
 T The Right Parts for the Job|QID|35090|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
-T Skimming Off The Top|QID|35089|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
+T Skimming Off the Top|QID|35089|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 A Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35090;35089|
 T Field Trial|QID|36384|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
 A Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|36384|

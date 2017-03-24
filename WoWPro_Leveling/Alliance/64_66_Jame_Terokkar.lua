@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2017-03-24 00:15
+-- Who: Ludovicus
+-- Log: Added missing coords for Fumping
+
+-- URL: http://wow-pro.com/node/3277/revisions/28390/view
 -- Date: 2017-03-15 21:37
 -- Who: Ludovicus
 -- Log: Added PREs to JamTer6466
@@ -373,7 +378,7 @@ A Taken in the Night |QID|10873|N|From Scout Navrin.|M|31.4,75.6|
 A Digging Through Bones |QID|10922|M|31.0,76.1|N|From Chief Archaelogist Letoll.|
 C Digging Through Bones |N|Do this escort quest.|QID|10922|M|31.0,76.1|
 T Digging Through Bones |QID|10922|M|31.0,76.1|N|To Dwarfowitz.|
-A Fumping |QID|10929|PRE|10922|N|From Dwarfowitz.|
+A Fumping |QID|10929|PRE|10922|M|30.98,76.19|N|From Dwarfowitz.|
 C Recover the Bones |N|Loot the rest of the bones needed for this quest.|QID|10030|US|M|52.00,58.00|
 
 R Auchindoun |QID|10227|N|Enter Auchindoun from this location on the inside of the ring. |M|37.38,65.62|
@@ -403,8 +408,8 @@ T Veil Lithic: Preemptive Strike |QID|10861|M|37.4,51.5|N|To Kirrik the Awakened
 A Veil Shalas: Signal Fires |QID|10874|PRE|10861|M|37.4,51.5|N|From Kirrik the Awakened.|
 C Fumping|N|Go here (make sure the map says "The Bone Wastes"), use the fumper to possibly spawn a sifter. Kill and loot sifters this way until you get all the items for this quest. Do not be too close to the caravan as the level 85 guards will kill it too quick.|QID|10929|M|35.05,51.5|U|31810|
 C Helping the Lost Find Their Way |N|Kill Lost Spirits and Broken Skeletons for this quest.|QID|10031|M|40.00,78.00|S|
-T Fumping|QID|10929|N|To Dwarfowitz.|
-A The Big Bone Worm|QID|10930|PRE|10929|N|From Dwarfowitx.|
+T Fumping|QID|10929|M|30.98,76.19|N|To Dwarfowitz.|
+A The Big Bone Worm|QID|10930|PRE|10929|M|30.98,76.19|N|From Dwarfowitz.|
 C An Improper Burial|N|Use your Sha'tari Torch to burn Draenei Corpses for this quest.|QID|10913|M|33.30,76.10|U|31769|
 T An Improper Burial|QID|10913|M|31.0,76.1|N|To Commander Ra'vaj.|
 A A Hero Is Needed|QID|10914|PRE|10913|M|31.0,76.1|N|From Commander Ra'vaj.|
