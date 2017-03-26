@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2017-03-26 07:51
+-- Who: Emmaleah
+-- Log: Added turn in of final instance and the quests that pop up after that. Efficiency changes (Moved The High Chieftain, done several steps, move I have a strange feeling, changed wording on follow up. Move Glimmering chest to when leaving Torok's mesa.) and probably a few other things.
+
+-- URL: http://wow-pro.com/node/3678/revisions/28607/view
+-- Date: 2017-03-26 01:06
+-- Who: Emmaleah
+-- Log: Change QID on first Elevator down step so it doesnt autocomplete before you read it.
+
+-- URL: http://wow-pro.com/node/3678/revisions/28478/view
 -- Date: 2017-03-16 22:56
 -- Who: Ludovicus
 -- Log: Syntax correction.
@@ -163,7 +173,7 @@
 -- Who: Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide, 98, 110, 98.3541)
+WoWPro:GuideLevels(guide, 98, 110, 98.4096)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Highmountain")
 WoWPro:GuideSteps(guide, function()
@@ -180,7 +190,7 @@ C Keepers of the Hammer|QID|38907|M|45.70,38.88|Z|ThunderTotem|QO|2|NC|N|Meet Wa
 T Tauren Tanning|QID|40184|LVL|102|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|To Hrul Sharphoof|
 A Drogbar Durability|QID|40186|PRE|40184|LVL|102|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|From Hrul Sharphoof.|
 A Shoulder the Burden|QID|40185|PRE|40184|LVL|102|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|From Hrul Sharphoof.|
-R Elevator Down|QID|38907|M|49.33,45.94|CC|Z|ThunderTotem|N|Run over to the elevator and down below to find Mayla.|
+R Elevator Down|QID|38911|M|49.33,45.94|CC|Z|ThunderTotem|N|Run over to the elevator and down below to find Mayla.|
 T Keepers of the Hammer|QID|38907|M|54.91,63.23|Z|Highmountain/6|CS|N|To Mayla Highmountain.|
 A The Rivermane Tribe|QID|38911|M|54.91,63.23|Z|Highmountain/6|N|From Mayla Highmountain.|PRE|38907|
 $ Treasure Chest|QID|44352|M|32.16,38.35;31.98,38.35|Z|ThunderTotem|CS|N|Jump off the bridge and swim into an underwater cave to find the Treasure.  Loot for a bit of resources and treasure.|RANK|2|
@@ -256,10 +266,10 @@ T Grasp of the Underking|QID|39025|M|41.29,72.60|N|To Warbrave Oro.|
 T The Drogbar|QID|39026|M|41.29,72.60|N|To Warbrave Oro.|
 A Bitestone Enclave|QID|39043|M|41.29,72.60|N|From Warbrave Oro.|PRE|39026|
 C Bitestone Enclave|QID|39043|M|84.05,46.57|Z|Highmountain/5|N|Kill Basalisks and Drogbar.|
+$ Treasure Chest|QID|40489|M|85.62,38.38|N|There is a Treasure chest up on the ledge where Dargrul will show up. It will be phased out after he shows up so get it now (at the time cost of killing many extra mobs or check off manually if you don't want to go up there.\n You will return to this Cave for a World Quest, which will make it a lot easier to get.|RANK|3|
 T Bitestone Enclave|QID|39043|M|47.32,44.53|Z|Highmountain/5|N|To Warbrave Oro.|
 A Dargrul and the Hammer|QID|39027|M|47.32,44.53|Z|Highmountain/5|N|From Warbrave Oro.|PRE|39043|
 C Dargrul and the Hammer|QID|39027|M|66.48,49.66|QO|1|Z|Highmountain/5|NC|N|Follow Warbrave Oro to confront Dargrul. When he encases you in rock, click on it to break free.|
-$ Treasure Chest|QID|40489|M|85.62,38.38|N|There is a Treasure chest up where Dargrul was.  You may have to kill 15-20 mobs to get it, so I'm not sure its worth it. Check off manually if you don't want to go up there.\n You will return to this Cave for a World Quest, which will make it a lot easier to get.|RANK|3|
 C Dargrul and the Hammer|QID|39027|M|15.25,26.78|QO|2|Z|Highmountain/5|NC|N|Run out of the cavern.|
 f Sylvan Falls|QID|39027|M|35.88,65.93|N|Run past the turn in because it goes to an escort quest. Get the flightpath at Roren Longshadow.|
 $ Treasure Chest|QID|40488|M|36.61,62.13|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -414,7 +424,7 @@ T I'm Not Lion!|QID|39867|M|40.02,52.37|N|To Ellias.|RANK|2|
 T Scout It Out|QID|40228|M|40.04,52.25|N|To Hemet Nesingwary.|RANK|2|
 
 A That Guy in the Costume|QID|40244|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|LEAD|40045;40047;40049|
-A Procuring a Prototype|QID|39386|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|
+A Procuring a Prototype|QID|39386|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|LEAD|39386|
 C That Guy in the Costume|QID|40244|M|40.22,52.69|CHAT|N|Ask Tamara for a ride.|RANK|3|
 f Shipwreck Cove|QID|40050|M|41.91,10.40|N|At Steven Nelson.|RANK|3|
 A Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|N|Auto accepted when you enter the area.|RANK|3|LVL|-109|
@@ -468,7 +478,6 @@ A Witch of the Wood|QID|39372|M|39.42,36.96|N|From Oakin Ironbull.|PRE|38912|
 A Hags of a Feather|QID|39373|M|39.42,36.96|N|From Oakin Ironbull.|PRE|38912|
 A I Have a Bad Feeling About This|QID|39873|M|39.00,37.32|N|From Navarrogg.|PRE|38912|
 C I Have a Bad Feeling About This|QID|39873|M|39.00,34.83|NC|N|Investigate this cup.|
-T I Have a Bad Feeling About This|QID|39873|M|39.00,37.32|N|To Navarrogg's now empty cage.|
 C Witches of the Sky-Bonus Objective|QID|39371|M|41.96,34.65|S|N|Pick up the Harpy eggs and kill the harpies to advance this objective.|RANK|2|
 C Hags of a Feather|QID|39373|M|42.30,27.41|S|N|Kill the Harpies and loot feathers.|
 $ Small Treasure Chest|QID|40480|M|41.96,34.65;42.49,35.02|CS|N|This is on a tree that has fallen over (above) the road. Loot for a bit of treasure and resources.|RANK|2|
@@ -478,6 +487,7 @@ $ Small Treasure Chest|QID|40479|M|42.21,27.32|N|Loot for a bit of resources and
 C Hags of a Feather|QID|39373|M|40.46,29.61|US|N|Finish collecting the feathers.|
 C Witches of the Sky-Bonus Objective|QID|39371|M|40.22,34.93|US|N|Stay and finish this if you so choose, or manually check it off.|RANK|2|
 t Witches of the Sky-Bonus Objective|QID|39371|M|40.22,34.93|N|Auto Turned in when complete.|RANK|2|
+T I Have a Bad Feeling About This|QID|39873|M|39.00,37.32|N|To Navarrogg's now empty cage.|
 T Witch of the Wood|QID|39372|M|39.41,36.96|N|To Oakin Ironbull.|
 T Hags of a Feather|QID|39373|M|39.41,36.96|N|To Oakin Ironbull.|
 
@@ -490,7 +500,7 @@ C Cave of the Blood Trial|QID|39455|M|58.19,28.68|Z|Highmountain/8|QO|2|N|Kill t
 T Cave of the Blood Trial|QID|39455|M|59.79,32.82|Z|Highmountain/8|N|To Torok Bloodtotem.|
 A Rite of Blood|QID|39860|M|59.79,32.82|Z|Highmountain/8|N|From Torok Bloodtotem.|PRE|39455|
 C Rite of Blood|QID|39860|M|41.08,80.86|Z|Highmountain/8|QO|1|NC|N|Approach Navarrogg to Begin the Ritual.|
-C Rite of Blood|QID|39860|M|40.21,82.36|Z|Highmountain/8|QO|2|N|Periodically, Navarrogg will tell you to stand on a rune on the floor.  Do it.|
+C Rite of Blood|QID|39860|M|40.21,82.36|Z|Highmountain/8|QO|2|N|Periodically, Navarrogg will tell you to stand on a rune on the floor.  Do it for a 25% dps buff.|
 T Rite of Blood|QID|39860|M|41.16,85.62|Z|Highmountain/8|N|To Navarrogg.|
 A Rock Troll in a Hard Place|QID|39381|M|41.16,85.62|Z|Highmountain/8|N|From Navarrogg.|PRE|39860|
 C Rock Troll in a Hard Place|QID|39381|M|40.14,84.23|Z|Highmountain/8|CHAT|QO|1|N|Speak with Navarrogg.|
@@ -652,11 +662,13 @@ F The Skies of Highmountain|QID|39387|QO|1|M|45.64,39.06|NC|N|Optional-Hop on Av
 
 C The Skies of Highmountain|QID|39387|QO|1|M|42.17,32.99|Z|ThunderTotem|CHAT|N|Meet Lasan at Thunder Totem. If you didnt come in by Aviash, he is standing in front of the Path of Sky doorway.|
 C Unexpected Allies|QID|39456|M|35.07,43.55|Z|ThunderTotem|QO|1|CHAT|N|Meet Navarrogg just outside the Path of Earth doorway.|
+T The High Chieftain|QID|39580|M|54.85,63.11|Z|Highmountain/6|N|To Mayla Highmountain.|
 C The Skies of Highmountain|QID|39387|M|54.80,63.04|Z|ThunderTotem/6|QO|2|NC|N|Witness the Skyhorn Ritual.|
 C Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem/6|QO|2|NC|N|Wait/watch the ritual.|
 T The Skies of Highmountain|QID|39387|M|54.81,63.03|Z|ThunderTotem/6|N|To Mayla Highmountain.|
 T Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem/6|N|To Mayla Hightmountain.|
 A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|ThunderTotem/6|N|From Mayla Hightmountain.|PRE|39387+39456|
+T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 R Thunder Totem (Up the elevator)|QID|38915|M|58.97,87.46|Z|ThunderTotem|CC|N|Take the elevator above for a few more quests. (manually check this step off)|
 
 A Bolas Bastion|QID|42630|PRE|39387|M|42.86,38.79|Z|ThunderTotem|N|From Bolas Skyfeather.|AVAILABLE|38915|RANK|2|
@@ -699,6 +711,9 @@ C The Underking|QID|39780|M|53.06,70.56|QO|2|N|Kill Wrath of Dargrul.|
 T The Underking|QID|39780|M|53.19,70.04|N|To Mayla Highmountain.|
 A Neltharion's Lair|QID|39781|M|53.19,70.04|N|From Mayla Highmountain. This is a dungeon quest that you will need a group to complete.|PRE|39780|
 $ Treasure Chest|QID|42453|M|52.54,66.37|N|Loot for some treasure and resources.|RANK|2|
+C Neltharion's Lair|QID|39781|N|Queue or gather some friends if you wanna do this. The quest bit is dropped (on the ground) after killing the final boss in the instance.|
+T Neltharion's Lair|QID|39781|M|18.67,55.75|Z|NeltharionsLair|N|To Hammer of Khaz'goroth.|
+A Eye of Azshara: The Hammer of Khez'goroth|QID|42454|M|18.67,55.75|Z|NeltharionsLair|N|From Hammer of Khaz'goroth.|PRE|39781|
 
 R Howling Hills|QID|39386|M|56.06,57.75|N|Just a couple of optional quests left.|RANK|2|
 T Procuring a Prototype|QID|39386|M|57.64,56.61|N|To Razik Gazbolt.|RANK|2|
@@ -717,7 +732,19 @@ $ Optional-Toy|QID|39824|M|55.7,53.2;53.61,51.04|CS|ITEM|131811|U|131927|N|If yo
 C Wolf Pack Attack|QID|39656|M|56.14,55.43|US|U|128651|T|Icefang Packleader|N|Shoot the hand cannon towards a pack of wolves to distract them, then kill the Packleader.|RANK|2|
 T Wolf Pack Attack|QID|39656|M|57.64,56.61|N|To Razik Gazbolt.|RANK|2|
 
-N End of Highmountain|QID|39781|U|140192|N|Return to your Class Order Hall to pick your next zone and tend to your missions.|
+N End of Highmountain|QID|42454|U|140192|N|Return to your Dalaran and then Class Order Hall to pick your next zone and tend to your missions.|
+C Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used|
+T Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|41.17,52.45|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Hammer of Khaz'goroth" on the wall.|
+A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454|
+A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454;44545|
+A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454;44547|
+C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
+t Pressing the Assault|QID|44545|N|To UI Alert.|
+t Isle Hopping|QID|44547|N|To UI Alert.|
+t Scouring What Remains|QID|44548|N|To UI Alert.|
+
 D On to Class Halls|N|This ends Highmountain and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Highmountain and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
 D On to Class Halls|N|This ends Highmountain and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|

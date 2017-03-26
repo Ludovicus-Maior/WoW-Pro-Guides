@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3675
+-- Date: 2017-03-26 01:15
+-- Who: Emmaleah
+-- Log: missed ";" after 43501 ... 7 times... :(
+
+-- URL: http://wow-pro.com/node/3675/revisions/28593/view
 -- Date: 2017-03-23 19:33
 -- Who: Ludovicus
 -- Log: Spelling
@@ -502,12 +507,12 @@ A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|37.40,44.20|NA|N|From t
 T Lethal Efficiency|QID|40997|M|37.40,44.20|N|To Nikki the Gossip.|
 
 ; post class campaign
-A The Power Within|QID|43496;43501,43503;43505|M|31.50,63.45|N|From Image of Kalec. This appears up to 48 hours after you finish class order hall campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
-N The Power Within|QID|43496;43501,43503;43505|M|31.50,63.45|N|This chain of quests sends you through many (all?) mythic dungeons and several raids.  The end result is an artifact appearance.|
-F Azurewing Repose|QID|43496;43501,43503;43505|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496;43501,43503;43505|
+A The Power Within|QID|43496;43501;43503;43505|M|31.50,63.45|N|From Image of Kalec. This appears up to 48 hours after you finish class order hall campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
+N The Power Within|QID|43496;43501;43503;43505|M|31.50,63.45|N|This chain of quests sends you through many (all?) mythic dungeons and several raids.  The end result is an artifact appearance.|
+F Azurewing Repose|QID|43496;43501;43503;43505|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496;43501;43503;43505|
 C The Power Within|QID|43501;43505|N|Switch to the Azsuna guide (or not) and do the quests until you get the achievment "Defending Azurewing Repose". (you dont have to do the quests at the Ilidari camp.)|
-T The Power Within|QID|43496;43501,43503;43505|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496;43501,43503;43505|
+T The Power Within|QID|43496;43501;43503;43505|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496;43501;43503;43505|
 
 C Investigate the Broken Shore|QID|45992|M|37.92,45.26|NC|N|Use scouting map to do the requested mission. This mission requires ilvl 830 champions, so it may be awhile before you can complete it.|
 
