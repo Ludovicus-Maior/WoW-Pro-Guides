@@ -1,3 +1,8 @@
+Ace3 Release - Revision r1158 (March 28th, 2017)
+------------------------------------------------
+- AceGUI-3.0: Fire OnShow events from Frame and Windows containers (Ticket #396)
+- AceGUI-3.0: Add SetJustifyV/H API to the Label/InteractiveLabel widgets (Ticket #397)
+
 Ace3 Release - Revision r1151 (July 18th, 2016)
 -----------------------------------------------
 - AceConfig-3.0: Allow specifying images using the numeric fileID (Ticket #389)

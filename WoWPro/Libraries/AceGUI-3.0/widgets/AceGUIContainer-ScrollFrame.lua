@@ -6,8 +6,6 @@ local Type, Version = "ScrollFrame", 24
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
-local IsLegion = select(4, GetBuildInfo()) >= 70000
-
 -- Lua APIs
 local pairs, assert, type = pairs, assert, type
 local min, max, floor, abs = math.min, math.max, math.floor, math.abs
@@ -178,11 +176,7 @@ local function Constructor()
 
 	local scrollbg = scrollbar:CreateTexture(nil, "BACKGROUND")
 	scrollbg:SetAllPoints(scrollbar)
-	if IsLegion then
-		scrollbg:SetColorTexture(0, 0, 0, 0.4)
-	else
-		scrollbg:SetTexture(0, 0, 0, 0.4)
-	end
+	scrollbg:SetColorTexture(0, 0, 0, 0.4)
 
 	--Container Support
 	local content = CreateFrame("Frame", nil, scrollframe)
