@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2017-03-28 22:02
+-- Who: Ludovicus
+-- Log: Fix crystal ball cooords.
+
+-- URL: http://wow-pro.com/node/3671/revisions/28589/view
 -- Date: 2017-03-23 19:29
 -- Who: Ludovicus
 -- Log: Spelling
@@ -215,7 +220,7 @@ C Archmage Vargoth's Retreat|QID|42423|M|22.89,52.68|Z|Dalaran@Dalaran70|QO|7|N|
 C Archmage Vargoth's Retreat|QID|42423|M|21.50,52.71|Z|Dalaran@Dalaran70|QO|3|N|Examine the journal.|
 C Archmage Vargoth's Retreat|QID|42423|M|20.73,54.02|Z|Dalaran@Dalaran70|QO|6|N|Examine the magical tome.|
 C Archmage Vargoth's Retreat|QID|42423|M|21.68,56.84|Z|Dalaran@Dalaran70|QO|5|N|Examine the frosted doughnut.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.70,57.50.6|Z|Dalaran@Dalaran70|QO|4|N|Examine the crystal ball.|
+C Archmage Vargoth's Retreat|QID|42423|M|22.70,57.50|Z|Dalaran@Dalaran70|QO|4|N|Examine the crystal ball.|
 T Archmage Vargoth's Retreat|QID|42423|M|22.21,55.11|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
 A Following In His Footsteps|QID|42424|M|22.21,55.11|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|42423|
 C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian@MageClassShrine|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
