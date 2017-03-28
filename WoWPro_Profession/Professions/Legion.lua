@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_profession_quests
+-- Date: 2017-03-27 19:20
+-- Who: Blanckaert
+-- Log: replacing of guide, with some changes.
+
+-- URL: http://wow-pro.com/node/3712/revisions/28602/view
 -- Date: 2017-03-23 19:41
 -- Who: Ludovicus
 -- Log: Spelling
@@ -79,9 +84,9 @@ A Pristine Stonewood Bow|QID|40358|ACTIVE|40358|P|Archaeology;794|N|From UI Aler
 C Pristine Stonewood Bow|QID|40358|ACTIVE|40358|M|40.62,25.98|Z|Dalaran@Dalaran70|QO|1|N|Put Artifact on Display.|
 t Pristine Stonewood Bow|QID|40358|M|40.62,25.98|Z|Dalaran@Dalaran70|N|To UI Alert.|
 
-N Archaeology Bi-Weekly Quests|QID|40857;41167;41192|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|Not sure WHICH bi-weekly Quest will be up, just click this step, and any following ones till you get the one that is up.  NOT all quests are in here yet.|
+N Archaeology Bi-Weekly Quests|QID|40857;41167;411711;41192|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|Not sure WHICH bi-weekly Quest will be up, just click this step, and any following ones till you get the one that is up.  NOT all quests are in here yet.|
 
-A Bits and Pieces|QID|40857|AVAILABLE|40857|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|From Dariness the Learned.|
+A Bits and Pieces|QID|40857|AVAILABLE|40857|ACTIVE|-41167;-41171;-41192|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|From Dariness the Learned.|
 F Valdisdall|QID|40857|ACTIVE|40857|M|69.85,51.15|Z|Dalaran@Dalaran70|N|At Aludane Whitecloud.|
 T Bits and Pieces|QID|40857|M|52.23,52.92|Z|Stormheim|N|To Brann Bronzebeard.|
 
@@ -89,6 +94,13 @@ A Fel Fragments|QID|41167|AVAILABLE|41167|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|
 T Fel Fragments|QID|41167|M|61.90,87.82|Z|Val'sharah|N|To Brann Bronzebeard.|
 A The Purple Hills of Mac'Aree|QID|41168|PRE|41167|M|61.90,87.82|Z|Val'sharah|LVL|110|P|Archaeology;794|N|From Brann Bronzebeard.|
 t The Purple Hills of Mac'Aree|QID|41168|M|61.90,87.82|Z|Val'sharah|N|To Brann Bronzebeard.|
+
+A The Reliquary Calls|QID|41171|AVAILABLE|41171|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|From Dariness the Learned.|
+F Illidari Stand|QID|41171|ACTIVE|41171|M|69.83,50.65|Z|Dalaran@Dalaran70|N|At your closest, Flight Master, Fly to Illidari Stand. This step is mapped to Dalaran.|
+T The Reliquary Calls|QID|41171|M|47.43,42.57|Z|Azsuna|N|To Tae'thelan Bloodwatcher.|
+A Echoes of My Ancestors|QID|41172|PRE|41171|M|47.43,42.57|Z|Azsuna|N|From Tae'thelan Bloodwatcher.|
+C Echoes of My Ancestors|QID|41172|QO|1|N|Complete 25 Highborne Archaeology Projects.|
+t Echoes of My Ancestors|QID|41172|M|47.43,42.57|Z|Azsuna|N|To Tae'thelan Bloodwatcher.|
 
 A The Right Path|QID|41192|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|From Dariness the Learned.|
 T The Right Path|QID|41192|M|45.91,45.08|Z|ThunderTotem|N|To Lessah Moonwater.|
@@ -134,6 +146,9 @@ C Ley Hunting|QID|39330|M|55.90,16.76|Z|Azsuna|P|Alchemy;171|U|128329|QO|3|N|Col
 T Ley Hunting|QID|39330|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|100|P|Alchemy;171|N|To Deucus Valdera|
 A Eye of Azshara: Put a Cork in It|QID|39331|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|102|P|Alchemy;171|N|From Deucus Valdera|
 t Eye of Azshara: Put a Cork in It|QID|39331|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171|N|To Deucus Valdera|
+A Furbolg Firewater|QID|39332|PRE|39331|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|102|P|Alchemy;171|N|From Deucus Valdera|
+C Furbolg Firewater|QID|39332|M|46.99,86.48|Z|Val'sharah|LVL|102|P|Alchemy;171|QO|1|N|Kill Furbolg? Aquire Smolderhide Firewater.|
+t Furbolg Firewater|QID|39332|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171|N|To Deucus Valdera|
 
 ; Blacksmithing;164
 
@@ -209,8 +224,8 @@ A Leystone Mastery|QID|38531|PRE|38530|M|55.16,84.20|Z|Highmountain|LVL|110|P|Bl
 B Leystone Mastery|QID|38531|M|54.98,84.47|Z|Highmountain|LVL|110|P|Blacksmithing;164|QO|1|L|124024 1|N|Buy a Leystone Armor Stand, From Thala Steeltotem.|
 C Leystone Mastery|QID|38531|M|54.88,84.38|Z|Highmountain|N|Create all 8 of Leystone Armor.\n\nYou'll need:\nLeystone Ore x151,\nFoxflower Flux x8\n\nLeystone Armguards\nLeystone Boots\nLeystone Breastplate\nLeystone Gauntlets\nLeystone Greaves\nLeystone Helm\nLeystone Pauldrons\nLeystone Waistguard.\n\nOnce you've made them use the Armor Stand to create the Armor Set.|
 T Leystone Mastery|QID|38531|M|55.16,84.20|Z|Highmountain|N|To Barm Stonebreaker.|
-A Hammered By The Storm|QID|38532|PRE|38531|M|55.16,84.20|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Barm Stonebreaker. Dungeon: Maw of Souls.|
-t Hammered by the Storm|QID|38532|M|55.16,84.20|Z|Highmountain|N|To Barm Stonebreaker, Ironhorn Enclave.|
+A Hammered By the Storm|QID|38532|PRE|38531|M|55.16,84.20|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Barm Stonebreaker. Dungeon: Maw of Souls.|
+t Hammered By the Storm|QID|38532|M|55.16,84.20|Z|Highmountain|N|To Barm Stonebreaker, Ironhorn Enclave.|
 A Worthy of the Stone|QID|38559|PRE|38531;38532|M|55.16,84.20|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Barm Stonebreaker.|
 T Worthy of the Stone|QID|38559|M|54.6,84.0|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|To Muirn Ironhorn.|
 A The Art of Demonsteel|QID|38833|PRE|38559|M|54.6,84.0|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Muirn Ironhorn.|
@@ -230,10 +245,17 @@ A The Prodigal Sous Chef|QID|40989|PRE|37727|LVL|98|P|Cooking;185|AVAILABLE|3133
 t The Prodigal Sous Chef|QID|40989|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|To Nomi.|
 t The Prodigal Sous Chef|QID|40989|M|69.90,38.50|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|To Nomi.|
 
-A A Good Recipe List|QID|40990|PRE|40988|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|From Nomi.|
-A A Good Recipe List|QID|40990|PRE|40988|M|69.78,38.78|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|From Nomi.|
-t A Good Recipe List|QID|40990|PRE|40988|M|40.09,65.97|Z|Dalaran@Dalaran70|FACTION|Alliance|N|To Nomi.|
-t A Good Recipe List|QID|40990|PRE|40988|M|69.78,38.78|Z|Dalaran@Dalaran70|FACTION|Horde|N|To Nomi.|
+A A Good Recipe List|QID|40990|PRE|40988+40989|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|From Nomi.|
+A A Good Recipe List|QID|40990|PRE|40988+40989|M|69.78,38.78|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|From Nomi.|
+A Spicing Things Up|QID|44581|PRE|40988+40989|M|69.78,38.78|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|From Nomi.|
+T Spicing Things Up|QID|44581|M|69.78,38.78|Z|Dalaran@Dalaran70|FACTION|Horde|N|To Nomi.|
+A Spicing Things Up|QID|44581|PRE|40988+40989|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|From Nomi.|
+T Spicing Things Up|QID|44581|M|40.09,65.97|Z|Dalaran@Dalaran70|FACTION|Alliance|N|To Nomi.|
+
+C A Good Recipe List|QID|40990|N|Recipes are quest rewards for some kills, Unfortunately some of the Quests to get the ones you need have Pre-requirements that are covered with the Individual Zone Guides.|
+
+t A Good Recipe List|QID|40990|M|40.09,65.97|Z|Dalaran@Dalaran70|FACTION|Alliance|N|To Nomi.|
+t A Good Recipe List|QID|40990|M|69.78,38.78|Z|Dalaran@Dalaran70|FACTION|Horde|N|To Nomi.|
 
 A Opening the Test Kitchen|QID|40991|PRE|40990|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|From Nomi.|
 C Opening the Test Kitchen|QID|40991|M|40.09,65.97|Z|Dalaran@Dalaran70|FACTION|Alliance|N|(Wrong Coords) Click on Nomi's Silver Mackerel Barrel.|
@@ -602,7 +624,7 @@ A Living Felslate Sample|QID|38797|ACTIVE|38797|LVL|98|P|Mining;186|N|Auto Accep
 t Living Felslate Sample|QID|38797|M|46.21,26.63|Z|Dalaran@Dalaran70|P|Mining;186|N|To Mama Diggs|
 
 A The Felsmiths|QID|38901|PRE|38795;38796;38797|M|46.21,26.63|Z|Dalaran@Dalaran70|LVL|98|P|Mining;186|N|From Mama Diggs|
-F Fel Blaze Ingress|QID|38901|ACTIVE|38901|M|69.85,51.15|Z|Dalaran@Dalaran70|P|Mining;186|N|Fly to Fel Blaze, At Aludane Whitecloud.|
+F Felblaze Ingress|QID|38901|ACTIVE|38901|M|69.85,51.15|Z|Dalaran@Dalaran70|P|Mining;186|N|Fly to Felblaze Ingress, At Aludane Whitecloud.|
 R Nal'ryssa Encampment|QID|38901|ACTIVE|38901|M|21.36,63.70;25.62,55.00|Z|Suramar|CS|P|Mining;186|N|Run towards Suramar|
 T The Felsmiths|QID|38901|M|29.87,53.20|Z|Suramar|P|Mining;186|N|To Felsmith Nal'ryssa. She moves around.|
 A A Shred of Your Humanity|QID|38798|PRE|38901|M|30.0,53.2|Z|Suramar|P|Mining;186|N|From Felsmith Nal'ryssa|
@@ -668,10 +690,10 @@ C Advanced Needlework|QID|38953|M|35.26,33.98|Z|Dalaran@Dalaran70|P|Tailoring;19
 C Advanced Needlework|QID|38953|M|35.26,33.98|Z|Dalaran@Dalaran70|P|Tailoring;197|N|Stand in front of the Finishing Table, to create the robe|
 T Advanced Needlework|QID|38953|M|36.27,33.80|Z|Dalaran@Dalaran70|P|Tailoring;197|N|To Lyndras.|
 A Where's Lyndras?|QID|38954|PRE|38953|M|35.08,34.36|Z|Dalaran@Dalaran70|LVL|104|P|Tailoring;197|N|From Tanithria.|
-C Where's Lyndras?|QID|38954|M|78.00,88.55|Z|The Underbelly@Dalaran70|CHAT|P|Tailoring;197|N|Ask Lyndras, where are you here.|
+C Where's Lyndras?|QID|38954|M|78.00,88.55|Z|The Underbelly@Dalaran70|CHAT|P|Tailoring;197|N|Ask Lyndras, "Why are you here?"|
 T Where's Lyndras?|QID|38954|M|36.27,33.80|Z|Dalaran@Dalaran70|P|Tailoring;197|N|To Lyndras.|
 A Sew Far, Sew Good|QID|38955|PRE|38954|M|36.27,33.80|Z|Dalaran@Dalaran70|P|Tailoring;197|N|From Lyndras.|
-B Sew Far, Sew Good|QID|38955|M|36.07,33.05|Z|Dalaran@Dalaran70|L|127681|P|Tailoring;197|N|Buy a Sharp Spritethorn from Lalla. (you'll need to make patterns, buy a stack and leave in your Reagent Bank)|
+B Sew Far, Sew Good|QID|38955|M|36.07,33.05|Z|Dalaran@Dalaran70|L|127681|P|Tailoring;197|N|Buy a Sharp Spritethorn from Lalla. (You'll need them to make patterns, buy a stack and leave in your Reagent Bank)|
 C Sew Far, Sew Good|QID|38955|M|35.38,34.54|Z|Dalaran@Dalaran70|L|127290|P|Tailoring;197|N|Click on the Blue Dye|
 C Sew Far, Sew Good|QID|38955|M|35.38,34.54|Z|Dalaran@Dalaran70|P|Tailoring;197|N|Craft a Handcrafted Silkweave Bag, at the Finishing Table|
 T Sew Far, Sew Good|QID|38955|M|36.27,33.80|Z|Dalaran@Dalaran70|P|Tailoring;197|N|To Lyndras.|

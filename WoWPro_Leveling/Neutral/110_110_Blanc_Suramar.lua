@@ -3,7 +3,17 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/Blanckaert
+-- URL: http://wow-pro.com/node/3687
+-- Date: 2017-03-28 04:07
+-- Who: Blanckaert
+-- Log: more fixes to the ending of the Suramar guide, with the Insurrection portions.  Added the quest, approx turn ins for some in the Nighthold raid at the of guide.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28613/view
+-- Date: 2017-03-27 19:15
+-- Who: Blanckaert
+-- Log: On mythic required dungeons, added note that they we added to Heroic Group finder, might get credit in heroic.  Once this is confirmed will adjust note completely to Heroic, instead of Mythic.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28599/view
 -- Date: 2017-03-23 19:38
 -- Who: Ludovicus
 -- Log: Spelling
@@ -241,16 +251,6 @@
 -- Date: 2016-11-29 22:41
 -- Who: Blanckaert
 -- Log: ok.. moved that Buy recipe to a better spot (as you can't get it till done that quest chain) Add Pinchshank, and added ALL the quests through 12/21 - with minimal info from Wowhead.
-
--- URL: http://wow-pro.com/node/3687/revisions/28069/view
--- Date: 2016-11-29 18:26
--- Who: Blanckaert
--- Log: note changes, and added quest from next week.
-
--- URL: http://wow-pro.com/node/3687/revisions/28068/view
--- Date: 2016-11-29 17:42
--- Who: Blanckaert
--- Log: Added Quest from today 11/29. 
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -525,7 +525,7 @@ C The Queen's Grace Loom|QID|38970|M|40.27,69.69|P|Tailoring;197|N|Use Teleporta
 C The Queen's Grace Loom|QID|38970|M|40.39,69.61|P|Tailoring;197|CHAT|N|Ask Leyweaver Azayna to Tell you about the loom.|
 C The Queen's Grace Loom|QID|38970|M|40.43,69.51|P|Tailoring;197|N|Use Teleportation Crystal|
 t The Queen's Grace Loom|QID|38970|M|40.34,69.47|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A The Big Bag Theory|QID|44741|PRE|38970|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo. This quest is completed in the NEW Karazhan mythic dungeon.|
+A The Big Bag Theory|QID|44741|PRE|38970|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo. This quest is completed in the NEW Karazhan Mythic Dungeon. \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.|
 B Pattern: Imbued Silkeweave Flourish|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127280|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186109|
 B Pattern: Imbued Silkeweave Shade|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127279|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186106|
 B Pattern: Imbued Silkeweave Drape|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127278|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186115|
@@ -1312,9 +1312,9 @@ H Shal'Aran|QID|44053|M|47.75,81.38|N|Use your Hearthstone (If set to Shal'Aran)
 T Friends With Benefits|QID|44053|M|36.56,46.77|N|To First Arcanist Thalyssra.|
 
 ;Mythic Dungeon Quests now available
-A Opening the Arcway|QID|42490|PRE|44053|M|36.56,46.77|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest*|
-A Beware the Fury of a Patient Elf|QID|43314|PRE|44053;43313|M|36.56,46.77|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest*|
-A Long Buried Knowledge|QID|42491|PRE|44053;43313|M|37.02,46.21|NA|N|From Arcanist Valtrois. *Mythic Dungeon Quest*|
+A Opening the Arcway|QID|42490|PRE|44053|M|36.56,46.77|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.||
+A Beware the Fury of a Patient Elf|QID|43314|PRE|44053;43313|M|36.56,46.77|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.||
+A Long Buried Knowledge|QID|42491|PRE|44053;43313|M|37.02,46.21|NA|N|From Arcanist Valtrois. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.||
 
 ; Good Suramaritan - A Growing Crisis Story Arc
 
@@ -1509,6 +1509,8 @@ t Stabilizing Suramar|QID|45316|M|36.48,46.73|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - An Elven Problem - Storyline. (Horde (40362) / Alliance (40391) quest splits)
 
+A Insurrection: An Elven Problem|QID|45278|PRE|45316|AVAILABLE|45263|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+T Insurrection: An Elven Problem|QID|45278|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A Eating Before the Meeting|QID|45263|PRE|45316|M|36.49,46.72|N|From First Arcanist Thalyssra.|
 C Eating Before the Meeting|QID|45263|M|37.45,47.42|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T Eating Before the Meeting|QID|45263|M|36.50,46.77|N|To First Arcanist Thalyssra.|
@@ -1557,6 +1559,8 @@ T Break An Arm|QID|44845|M|41.64,51.61|N|To First Arcanist Thalyssra.|FACTION|AL
 
 ; Insurrection - Crafting War Storyline - (more Horde (44859) / Alliance (44743) Splits)
 
+A Insurrection: Crafting War|QID|45280|PRE|44845|AVAILABLE|45265|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+T Insurrection: Crafting War|QID|45280|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.74|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Feeding the Rebellion|QID|45265|M|37.45,47.42|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.74|N|To First Arcanist Thalyssra.|
@@ -1616,8 +1620,8 @@ T Trial by Demonfire|QID|44790|M|40.00,50.93|N|To Silgryn.|
 
 ; Insurrection - March on Suramar - Storyline
 
-A Insurrection: Breaking the Nighthold|QID|45281|PRE|44790|AVAILABLE|45266|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-t Insurrection: Breaking the Nighthold|QID|45281|M|36.49,45.83|N|To First Arcanist Thalyssra.|
+A Insurrection: March on Suramar|QID|45281|PRE|44790|AVAILABLE|45266|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+T Insurrection: March on Suramar|QID|45281|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A A United Front|QID|45266|PRE|44790;44876|LEAD|45281|M|36.50,46.78|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C A United Front|QID|45266|M|37.74,47.68|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T A United Front|QID|45266|M|36.50,46.72|N|To First Arcanist Thalyssra.|
@@ -1647,6 +1651,9 @@ t Fighting on All Fronts|QID|45317|M|54.88,72.87|N|To Archmage Khadgar.|
 
 ; Insurrection - Elisande's Retort - Storyline.
 
+A Insurrection: Elisandre's Retort|QID|45282|PRE|45317|AVAILABLE|45267|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+H Shal'Aran|QID|45267|PRE|45317|M|54.48,69.46|N|Use your Portal at this location, Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
+T Insurrection: Elisandre's Retort|QID|45282|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A Before the Siege|QID|45267|PRE|45317|M|36.50,46.78|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Before the Siege|QID|45267|M|37.74,47.68|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T Before the Siege|QID|45267|M|36.50,46.72|N|To First Arcanist Thalyssra.|
@@ -1660,7 +1667,7 @@ T Temporal Investigations|QID|44822|M|54.90,72.85|N|To Archmage Khadgar.|
 A Those Scrying Eyes|QID|45209|PRE|44822|N|From First Arcanist Thalyssra.|
 R Terrace of Enlightenment|QID|45209|ACTIVE|45209|M|52.33,68.77;50.13,65.50;50.95,64.05|CS|N|Run to the Terrace, use teleporter or run down stairs.|
 C Those Scrying Eyes|QID|45209|M|50.40,63.16|NC|N|Click on Duskwatch Scrying Orbs, find any 4, carefully, See-eyeing guards are at most of the orbs.|
-P Shal'Aran|QID|45209|ACTIVE|45209|M|54.47,69.42|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
+H Shal'Aran|QID|45209|ACTIVE|45209|M|54.47,69.42|N|Use your Portal at this location, Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T Those Scrying Eyes|QID|45209|M|36.49,45.82|N|To First Arcanist Thalyssra.|
 A Scouting the Breach|QID|44832|PRE|45209|M|36.49,45.82|N|From First Arcanist Thalyssra.|
 P Sanctum of Order|QID|44832|ACTIVE|44832|M|36.69,44.66|QO|1|N|Take the Sanctum of Order Teleporter.|
@@ -1669,7 +1676,7 @@ C Scouting the Breach|QID|44832|M|42.06,60.46;42.93,58.93|CC|QO|3|N|Clear a path
 C Scouting the Breach|QID|44832|M|43.82,59.77|QO|4|NC|N|Wait with Arcanist Valtrois while she examines the barrier.|
 T Scouting the Breach|QID|44832|M|44.02,59.73|N|To Arcanist Valtrois.|
 A The Seal's Power|QID|44833|PRE|44832|M|44.02,59.73|N|From Arcanist Valtrois.|
-F Crimson Thicket|QID|44833|ACTIVE|44833|M|59.21,44.64|N|Run up outside and use Whistle, or Portal to Shal'Aran, then fly. Or Just run to the Thicket.|
+F Crimson Thicket|QID|44833|ACTIVE|44833|M|59.21,44.64|N|Run up outside and use Whistle, or Portal to Shal'Aran, then fly.  If you are bored, just run to the Thicket.|
 C The Seal's Power|QID|44833|M|43.22,56.33|Z|Suramar/35|QO|1|NC|N|Meet Arcanist Valtrois in Kel'balor.|
 C The Seal's Power|QID|44833|M|50.40,44.93|Z|Suramar/35|QO|2|N|Protect Arcanist Valtrois while she investigates the ley line device.|
 R Shal'Aran|QID|44833|ACTIVE|44833|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
@@ -1677,6 +1684,8 @@ T The Seal's Power|QID|44833|M|36.49,45.82|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - As Strong As Our Will - Storyline
 
+A Insurrection: As Strong As Our Will|QID|45285|PRE|44833|AVAILABLE|45268|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+T Insurrection: As Strong As Our Will|QID|45285|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A The Advisor and the Arcanist|QID|45268|PRE|44833|M|36.50,45.83|N|From First Arcanist Thalyssra.|
 C The Advisor and the Arcanist|QID|45268|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
 T The Advisor and the Arcanist|QID|45268|M|36.50,45.83|N|To First Arcanist Thalyssra.|
@@ -1685,9 +1694,8 @@ C A Message From Our Enemies|QID|44918|M|36.46,45.77|NC|N|Click on the Mysteriou
 T A Message From Our Enemies|QID|44918|M|36.50,45.83|N|To First Arcanist Thalyssra.|
 A A Challenge From Our Enemies|QID|44919|PRE|44918|M|36.50,45.83|N|From First Arcanist Thalyssra.|
 P Lunastre Estate|QID|44919|QO|1|ACTIVE|44919|M|36.17,45.06|N|Take portal to the Estate.|
-C A Challenge From Our Enemies|QID|44919|QO|3|M|42.17,75.06|NC|S|T|Terrified|N|Rescue the Terrified Citizens.|
-C A Challenge From Our Enemies|QID|44919|QO|2|M|43.23,76.33|NC|N|Stand near Andaris.|
-C A Challenge From Our Enemies|QID|44919|QO|3|M|42.17,75.06|US|T|Terrified|NC|N|Rescue the Terrified Citizens.|
+C A Challenge From Our Enemies|QID|44919|QO|2|M|43.23,76.33|NC|N|Stand near Andaris Narassin.|
+C A Challenge From Our Enemies|QID|44919|QO|3|M|42.17,75.06|T|Terrified|NC|N|Rescue the Terrified Citizens.|
 P Shal'Aran|QID|44919|ACTIVE|44919|M|43.70,79.25|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T A Challenge From Our Enemies|QID|44919|M|36.50,45.83|N|To First Arcanist Thalyssra.|
 A The Felsoul Experiments|QID|45063|PRE|44919|M|36.50,46.72|N|From First Arcanist Thalyssra.|
@@ -1707,13 +1715,12 @@ T Resisting Arrest|QID|45062|M|36.50,45.82|N|To First Arcanist Thalyssra.|
 T Survey the City|QID|45065|M|36.63,45.08|N|To Chief Telemancer Oculeth.|
 A Experimental Instability|QID|45066|PRE|45065|M|36.63,45.08|N|From Chief Telemancer Oculeth.|
 P Ruins of Elune'eth|QID|45066|M|36.33,44.92|N|Take the portal to the Ruins of Elune'eth for a slightly shorter trip.|ACTIVE|45066|
-R Oculeth's Workshop|QID|45066|ACTIVE|45066|M|39.45,49.60;45.17,50.28;48.49,49.24|CS|N|Run to Oculeth's Workshop.|
+R Oculeth's Workshop|QID|45066|ACTIVE|45066|M|46.61,49.17;48.49,49.24|CS|N|Run to Oculeth's Workshop.|
 C Experimental Instability|QID|45066|M|49.36,48.34|NC|QO|1|N|Run onto teleporter in building.|
 C Experimental Instability|QID|45066|NC|QO|3|N|Find Discarded Orbs, laying around on ground. You click the mini portals to stop mobs from spawning.|
 C Experimental Instability|QID|45066|M|58.49,35.70|NC|QO|2|N|Find Telemancy Notes, lying in a box.|
-P Experimental Instability|QID|45066|ACTIVE|45066|M|59.06,36.15|N|Take portal back to Shal'Aran.|
+P Shal'Aran|QID|45066|ACTIVE|45066|M|59.06,36.15|N|Take portal back to Shal'Aran.|
 T Experimental Instability|QID|45066|M|36.63,45.08|N|To Chief Telemancer Oculeth.|
-
 A Felborne No More|QID|45064|PRE|45063;45066|M|36.49,45.83|N|From First Arcanist Thalyssra.|
 F Crimson Thicket|QID|45064|ACTIVE|45064|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
 R Felborne Outpost|QID|45064|ACTIVE|45064|M|64.48,46.78;65.06,53.28|CS|N|Run to Felborne Outpost.|
@@ -1725,8 +1732,8 @@ T Felborne No More|QID|45064|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - Breaking the Nighthold - Storyline
 
-A Insurrection: Breaking the Nighthold|QID|45287|PRE|45064|AVAILABLE|45269|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it. \n Please click off, if it keeps coming up for the guide.|
-t Insurrection: Breaking the Nighthold|QID|45287|M|36.49,45.83|N|To First Arcanist Thalyssra.|
+A Insurrection: Breaking the Nighthold|QID|45287|PRE|45064|AVAILABLE|45269|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+T Insurrection: Breaking the Nighthold|QID|45287|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A A Taste of Freedom|QID|45269|PRE|45064|LEAD|45287|M|36.49,45.83|N|From First Arcanist Thalyssra.|
 C A Taste of Freedom|QID|45269|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
 T A Taste of Freedom|QID|45269|M|36.49,45.83|N|To First Arcanist Thalyssra.|
@@ -1740,7 +1747,7 @@ C I'll Just Leave This Here|QID|44964|M|47.94,49.58;46.26,16.33|Z|Suramar/34|CS|
 H Shal'Aran|QID|44964|ACTIVE|44964|M|46.26,16.33|Z|Suramar/34|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T I'll Just Leave This Here|QID|44964|M|36.64,44.98|N|To First Arcanist Thalyssra, at THESE coords. (There are two in Shal'Aran)|
 A Breaching the Sanctum|QID|44719|PRE|44964|M|36.62,45.08|N|From Chief Telemancer Oculeth.|
-C Breaching the Sanctum|QID|44719|M|36.63,45.02|QO|1|CHAT|N|Speak with Oculeth.|
+C Breaching the Sanctum|QID|44719|M|36.63,45.02|QO|1|CHAT|N|Tell Oculeth, "I am ready to enter the Sanctum."|
 P Breaching the Sanctum|QID|44719|ACTIVE|44719|M|36.66,45.05|QO|2|N|Enter the portal.|
 C The New Plan|QID|44719|M|45.95,66.19|SO|1|U|142118|N|The teleport failed and you are outside the Sanctum. Up the stairs to find a way in.|
 C Magic Bars the Way|QID|44719|M|46.89,66.02|SO|2|U|142118|N|Find a weakness to the barrier.|
@@ -1752,9 +1759,15 @@ C Death to Andaris|QID|44719|SO|7|M|42.61,61.79|U|142118|N|Andaris has fallen ba
 C Reach the entrance to the Nighthold|QID|44719|M|44.13,60.04|SO|8|N|Reach the entrance to the Nighthold (wait a minute or so after arriving for Khadgar to finish talking).|
 T Breaching the Sanctum|QID|44719|M|44.18,60.12|N|To Archmage Khadgar.|
 A Lord of the Shadow Council|QID|45417|PRE|44719|M|44.18,60.12|N|From Archmage Khadgar. *Raid Quest*|
-t Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|To Archmage Khadgar. (In Dal?)|
+T Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|To Archmage Khadgar. (Inside Raid?)|
+A The Eye of Aman'thul|QID|45420|PRE|45417|N|From Archmage Khadgar. (Inside Raid?)|
+C The Eye of Aman'thul|QID|45420|CHAT|N|Talk to Khadgar.|
+T The Eye of Aman'thul|QID|45420|M|28.48,48.29|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+A Fate of the Nightborne|QID|45372|PRE|45420|M|36.62,45.08|N|From Chief Telemancer Oculeth.|
+C Fate of the Nightborne|QID|45372|M|36.62,45.08|CHAT|N|Tell Oculeth, that you are ready.|
+T Fate of the Nightborne|QID|45372|N|To First Arcanist Thalyssra. (Inside Nighthold Raid, make sure your Raid is set for Normal, or you might not see anyone)|
 
-N Suramar|QID|45417|N|We are under the assumption, that this completes all the Quests in Suramar, excluding the World Quests.  If you have found any not list in the guide, please either comment at wow-pro.com, or Join Us in Discord \n\nhttps://discord.gg/kCXYzdx\n|
+N Suramar|QID|45372|N|We are under the assumption, that this completes all the Quests in Suramar, excluding the World Quests.  If you have found any not list in the guide, please either comment at wow-pro.com, or Join Us in Discord \n\nhttps://discord.gg/kCXYzdx\n|
 
 ]]
 

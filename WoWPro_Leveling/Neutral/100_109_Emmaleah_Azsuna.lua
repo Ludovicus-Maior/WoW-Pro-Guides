@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2017-03-27 23:30
+-- Who: Emmaleah
+-- Log: correct spelling of murloc, put it two LEADs Grail is complaining about, adjust guide mean level, modify notes to Isle Hopping and Scouring the Isles.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28611/view
+-- Date: 2017-03-27 09:29
+-- Who: Emmaleah
+-- Log: Incorrect item link for Doomlord Kazrok. Delete Master of the Isles as I have never been offered it, no one on wowhead has commented on it... not sure that it exists.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28540/view
 -- Date: 2017-03-21 22:46
 -- Who: Ludovicus
 -- Log: Relocate treasure chest and Cailyn kill above Objective.
@@ -226,7 +236,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,98, 110, 98.2742)
+WoWPro:GuideLevels(guide,98, 110, 98.661)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Azsuna")
@@ -434,15 +444,15 @@ C Hunger's End|QID|42756|QO|1|M|48.39,26.79|N|Orbyth slain|
 C Hunger's End|QID|42756|QO|2|M|48.39,26.79|N|Ael'Yith slain|
 T Hunger's End|QID|42756|M|47.86,26.12|N|To Senegos.|
 
-$ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|ITEM|138352|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
+$ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|ITEM|129056|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
 R Nor'Danil Wellspring|QID|42505|M|40.30,34.35|N|Another optional sidetrip for the completioinists amongst us.  WAY OUT OF THE WAY.|RANK|3|
 K Kill Arcanist Shal'iman|QID|42505|QO|1|M|40.92,35.03;35.22,34.54|CS|ITEM|141868|T|Arcanist Shal'iman|N|Silver - He paths around this circle. Kill and loot for a bit of treasure and resources.|RANK|3|
 $ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.74; 39.63, 31.65; 36.84, 31.24; 37.40, 29.57; 39.08, 26.55; 40.23, 24.74; 41.63, 23.91; 42.31, 22.72; 43.43, 23.83|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
 $ Glimmering Treasure Chest|QID|42297|M|43.37, 22.43|N|Guarded by two same level elite slow-running mobs.  Loot for a bit of treasure and resources.|RANK|3|
 
 R Llothien Highlands|QID|37690|M|49.32,29.27|N|Run to Llothien Highlands.|
-A Felblaze Ingress|QID|42372|M|50.46,30.73|N|From Marius Felbane.|RANK|3|
-A Missing Demon|QID|42238|M|50.41,30.77|N|From Tehd Shoemaker.|RANK|2|
+A Felblaze Ingress|QID|42372|M|50.46,30.73|N|From Marius Felbane.|RANK|3|PRE|42375|
+A Missing Demon|QID|42238|M|50.41,30.77|N|From Tehd Shoemaker.|RANK|2|PRE|38460|
 K Kill Daggerbeak|QID|37869|QO|1|M|51.09,31.64|T|Daggerbeak|N|Silver - Kill and loot for a bit of loot and treasure.|RANK|2|
 T Those Who Remember|QID|37690|M|48.38,34.56|N|To Nightwatcher Idri.|
 A They Came From the Sea|QID|37256|PRE|37690|M|48.38,34.56|N|From Nightwatcher Idri.|
@@ -462,7 +472,7 @@ A Presentation is Everything|QID|37728|PRE|37256|M|47.12,41.42|N|From Magister G
 T Links in the Chain|QID|40187|M|47.52,44.17|P|Leatherworking;165|N|To Celea|
 A Best Served Cold|QID|40188|PRE|40187|LVL|102|M|47.52,44.17|P|Leatherworking;165|N|From Celea.|
 A Naga Know-How|QID|40189|PRE|40187|LVL|102|M|47.52,44.17|P|Leatherworking;165|N|From Celea.|
-C Our Very Bones|QID|37257|QO|1|M|51.09,38.17|N|Kill murlocks to retrieve the pilfered bones.|S|
+C Our Very Bones|QID|37257|QO|1|M|51.09,38.17|N|Kill murlocs to retrieve the pilfered bones.|S|
 A Bottled Up|QID|38407|M|49.65,39.32|N|from dropped item 'Okuna's Message'.|
 K Kill Mrrgrl the Tide Reaver|QID|37823|QO|1|M|50.09,34.54|ITEM|129072|T|Mrrgrl the Tide Reaver|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|37831|M|49.65,34.47|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -732,9 +742,8 @@ T Fate of the Queen's Reprisal|QID|40794|M|28.66,74.87|Z|Dalaran@Dalaran70|N|To 
 C Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|49.07,48.02|Z|Dalaran@Dalaran70|NC|N|Assuming you have completed the Eye of Azshara instance, you can run down and do the final turn in.  Into the Guardian's chamber and down to Aegwynn's Gallery.|
 T Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|To Tidestone of Golganneth (glowing blob on the wall in the Portrait Room).|
 A Pressing the Assault|QID|44545|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213|
-A Isle Hopping|QID|44547|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213;44545|
-A Scouring What Remains|QID|44548|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213;44547|
-A Master of the Isles|QID|44549|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213;44548|
+A Isle Hopping|QID|44547|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 2nd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213;44545|
+A Scouring What Remains|QID|44548|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 3rd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213;44547|
 
 D On to Class Halls|N|This ends Azsuna and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Azsuna and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
