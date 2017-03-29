@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2017-03-29 05:33
+-- Who: Emmaleah
+-- Log: Type LEAD, not PRE on the two I meant to change yesterday.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28615/view
 -- Date: 2017-03-27 23:30
 -- Who: Emmaleah
 -- Log: correct spelling of murloc, put it two LEADs Grail is complaining about, adjust guide mean level, modify notes to Isle Hopping and Scouring the Isles.
@@ -451,8 +456,8 @@ $ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.7
 $ Glimmering Treasure Chest|QID|42297|M|43.37, 22.43|N|Guarded by two same level elite slow-running mobs.  Loot for a bit of treasure and resources.|RANK|3|
 
 R Llothien Highlands|QID|37690|M|49.32,29.27|N|Run to Llothien Highlands.|
-A Felblaze Ingress|QID|42372|M|50.46,30.73|N|From Marius Felbane.|RANK|3|PRE|42375|
-A Missing Demon|QID|42238|M|50.41,30.77|N|From Tehd Shoemaker.|RANK|2|PRE|38460|
+A Felblaze Ingress|QID|42372|M|50.46,30.73|N|From Marius Felbane.|RANK|3|LEAD|42375|
+A Missing Demon|QID|42238|M|50.41,30.77|N|From Tehd Shoemaker.|RANK|2|LEAD|38460|
 K Kill Daggerbeak|QID|37869|QO|1|M|51.09,31.64|T|Daggerbeak|N|Silver - Kill and loot for a bit of loot and treasure.|RANK|2|
 T Those Who Remember|QID|37690|M|48.38,34.56|N|To Nightwatcher Idri.|
 A They Came From the Sea|QID|37256|PRE|37690|M|48.38,34.56|N|From Nightwatcher Idri.|
