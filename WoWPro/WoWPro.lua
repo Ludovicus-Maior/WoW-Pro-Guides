@@ -343,6 +343,10 @@ function WoWPro:OnInitialize()
 	end
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
+	WoWProCharDB.Guide2QIDs = WoWProCharDB.Guide2QIDs or {}
+    WoWProCharDB.QID2Guide = WoWProCharDB.QID2Guide or {}
+    WoWProDB.global.QID2Guide = nil
+    WoWProDB.global.Guide2QIDs = nil
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
 	end
@@ -717,8 +721,8 @@ function WoWPro:GuideAutoSwitch(guide)
 end
 
 function WoWPro.GuideAutoSwitchReset()
-    WoWProDB.global.Guide2QIDs = {}
-    WoWProDB.global.QID2Guide ={}
+    WoWProCharDB.Guide2QIDs = {}
+    WoWProCharDB.QID2Guide ={}
 end
 
 function WoWPro:GuideSteps(guide,steps)

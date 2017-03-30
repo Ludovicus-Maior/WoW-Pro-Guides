@@ -1523,9 +1523,9 @@ function WoWPro.PopulateQuestLog()
 			delta = delta + 1
 		end
 		-- Is this an auto-switch quest?
-		if WoWProDB.global.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProDB.global.QID2Guide[QID] then
-		    WoWPro:SelectGuide(WoWProDB.global.QID2Guide[QID], WoWPro.QuestLog[QID].title)
-		    WoWPro:print("AutoSwitch: [%s] => %s",WoWPro.QuestLog[QID].title, WoWProDB.global.QID2Guide[QID])
+		if WoWProCharDB.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProCharDB.QID2Guide[QID] then
+		    WoWPro:SelectGuide(WoWProCharDB.QID2Guide[QID], WoWPro.QuestLog[QID].title)
+		    WoWPro:print("AutoSwitch: [%s] => %s",WoWPro.QuestLog[QID].title, WoWProCharDB.QID2Guide)
 		end
 	end
 	

@@ -559,14 +559,16 @@ function WoWPro.RecordStuff(i)
     else
         -- Regular step declaration
         local numQIDs = select("#", string.split(";", QIDs))
-    	for j=1,numQIDs do
-    		local qid = select(numQIDs-j+1, string.split(";", QIDs))
-    		local QID = tonumber(qid)
-    		if QID then
---    		    WoWPro:Print("Recorded QID %s to GID %s",qid,GID)
-    			WoWProDB.global.QID2Guide[QID] = GID
-    			WoWProDB.global.QID2Guide[qid] = GID
-    		end
+        if WoWPro.action[i] == "T" or WoWPro.action[i] == "C" then
+    	    for j=1,numQIDs do
+    		    local qid = select(numQIDs-j+1, string.split(";", QIDs))
+    		    local QID = tonumber(qid)
+    		    if QID then
+--    		       WoWPro:Print("Recorded QID %s to GID %s",qid,GID)
+    			   WoWProCharDB.QID2Guide[QID] = GID
+    			    WoWProCharDB.QID2Guide[qid] = GID
+    		    end
+            end
         end
     end
 
