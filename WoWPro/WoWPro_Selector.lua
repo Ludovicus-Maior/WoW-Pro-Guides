@@ -212,7 +212,7 @@ function WoWPro:OfferGuideSwitch(nGID, quest)
 	}
 
 	if quest then
-	    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"].text = string.format("Would you like to switch to the guide for the quest [%s]?", quest)
+	    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"].text = string.format("Would you like to switch to the guide %s for the quest [%s]?", nGID, quest)
 	end
 	StaticPopup_Show("WOWPRO_SWITCH_GUIDE")
 end

@@ -713,6 +713,7 @@ function WoWPro:GuideAutoSwitch(guide)
         return
     end
     guide['AutoSwitch'] = true
+    WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs or {}
     if not WoWProDB.global.Guide2QIDs[guide.GID] or WoWPro.Version ~= WoWProDB.global.Guide2QIDs[guide.GID]  then
         WoWPro.Guides2Register = WoWPro.Guides2Register or {}
         table.insert(WoWPro.Guides2Register, guide.GID)
