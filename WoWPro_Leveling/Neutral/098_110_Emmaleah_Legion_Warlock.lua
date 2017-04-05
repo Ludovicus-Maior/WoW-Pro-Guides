@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2017-04-05 02:57
+-- Who: Blanckaert
+-- Log: finished playing through quests.. minor adjustments, added or corrected coords.
+
+-- URL: http://wow-pro.com/node/3679/revisions/28626/view
 -- Date: 2017-04-03 03:54
 -- Who: Blanckaert
 -- Log: Replaced Warlock Guide, some of class hall quest just typed from Wowhead, not played through, or forgotten to record when I played through.  PREs, Quest names might be wrong, Coords are guesses.
@@ -51,7 +56,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmLegionWarlock', 'Leveling', 'WarlockClassShrine', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Warlock Order Hall')
-WoWPro:GuideLevels(guide,98, 110, 98.0)
+WoWPro:GuideLevels(guide,98, 110, 103.702)
 WoWPro:GuideNextGuide(guide, 'EmmAzsuna')
 WoWPro:GuideClassSpecific(guide, 'Warlock')
 WoWPro:GuideAutoSwitch(guide)
@@ -59,10 +64,10 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Warlock")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120+44473|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
-A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|PRE|44120+44473|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
@@ -200,7 +205,7 @@ A Rebuilding the Council|QID|40823|M|37.64,31.18|N|From Calydus.|PRE|40821|
 C Rebuilding the Council|QID|40823|NC|QO|1|M|31.82,56.63|N|At least you can mount up and ride to where you need to resurrect Ritssyn. (if you are careful you can jump down).|
 T Rebuilding the Council|QID|40823|M|30.92,58.31|N|To Ritssyn Flamescowl.|
 A The Path of the Dreadscar|QID|40824|M|30.92,58.31|N|From Ritssyn Flamescowl.|PRE|40823|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|66.1,47.01|N|From Dreadscar Battle Plans. Choose which zone you want to do first. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40824|
+A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|66.1,47.01|N|From Dreadscar Battle Plans. Choose which zone you want to do first. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40824|LEAD|38907|
 T The Path of the Dreadscar|QID|40824|M|65.69,47.86|N|To Ritssyn Flamescowl.|
 A A Mutual Friend|QID|44099|LVL|101|N|From Black Harvest Acolyte.|
 T A Mutual Friend|QID|44099|M|56.4,64.6|Z|The Underbelly@Dalaran70|N|To Calydus.|
@@ -212,20 +217,20 @@ A Information at Any Cost|QID|42603|PRE|42608|LVL|101|M|67.00,46.42|N|From Gakin
 C Information at Any Cost|QID|42603|M|66.82,45.95|N|Use Battle Plans to complete mission, "Information at Any Cost".|
 t Information at Any Cost|QID|42603|M|67.00,46.42|N|To Gakin the Darkbinder.|
 A Recruiting The Troops|QID|41797|PRE|42603|LVL|101|M|67.00,46.42|N|From Gakin the Darkbinder.|
-C Recruiting The Troops|QID|41797|M|0,0|CHAT|N|Request Imp Mother Dyala to "Train a Pack of Imps".| ; need coords
+C Recruiting The Troops|QID|41797|M|66.21,31.61|CHAT|N|Request Imp Mother Dyala to "Train a Pack of Imps".|
 t Recruiting The Troops|QID|41797|M|67.00,46.42|N|To Gakin the Darkbinder.|
 A Troops in the Field|QID|42602|PRE|41797|LVL|101|M|67.00,46.42|N|From Gakin the Darkbinder.|
 C Troops in the Field|QID|42602|M|66.82,45.95|N|Use Battle Plans to complete mission, "Troops in Training".|
 t Troops in the Field|QID|42602|M|67.00,46.42|N|To Gakin the Darkbinder.|
 A Tech It Up A Notch|QID|42601|PRE|42602|LVL|101|M|67.00,46.42|N|From Gakin the Darkbinder.|
-C Tech It Up A Notch|QID|42601|M|0,0|CHAT|N|Upgrade Class Hall at Archivist Melinda.| ; need coords
+C Tech It Up A Notch|QID|42601|M|55.30,40.95|CHAT|N|Upgrade Class Hall at Archivist Melinda.|
 t Tech It Up A Notch|QID|42601|M|67.00,46.42|N|To Gakin the Darkbinder.|
 A Searching the Archives|QID|42097|LVL|101|M|65.66,47.46|N|From Ritssyn Flamescowl.|  ; PRE?
 C Searching the Archives|QID|42097|N|Use Battle Plans to complete mission, "Searching the Archives".|
 t Searching the Archives|QID|42097|M|65.66,47.46|N|To Ritssyn Flamescowl.|
 
 A An Unlikely Ally|QID|41759|PRE|42097|LVL|103|M|65.66,47.46|N|From Ritssyn Flamescowl.|
-P DalaranQID|41759|ACTIVE|41759|M|72.43,37.45|QO|1|N|Take the portal to Dalaran.|
+P Dalaran|QID|41759|ACTIVE|41759|M|72.43,37.45|QO|1|N|Take the portal to Dalaran.|
 R Krasus' Landing|QID|41759|ACTIVE|41759|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|
 F Felblaze Ingress|QID|41759|ACTIVE|41759|M|69.81,51.06|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
 T An Unlikely Ally|QID|41759|M|60.77,30.68|Z|Azsuna|N|To Kira Iresoul.|
@@ -248,7 +253,7 @@ C A Daring Rescue|QID|41767|M|31.62,44.26|Z|Niskara|N|Click on Zinnin's cage.|
 C A Daring Rescue|QID|41767|M|39.74,37.15|Z|Niskara|N|You'll find Shinfel's minion Golarb at this spot.|
 C A Daring Rescue|QID|41767|M|49.92,47.94|Z|Niskara|N|Click on Jubeka's cage.|
 P Felblaze Ingress|QID|41767|ACTIVE|41767|M|50.11,45.10|Z|Niskara|N|Clicking on this Portal will take you to Felblaze Ingress.|
-F Dalaran|QID|QID|41767|ACTIVE|41767|M|63.82,28.48|Z|Azsuna|N|At Adept Sunwing, then run back to your order hall to turn in.|
+F Dalaran|QID|41767|ACTIVE|41767|M|63.82,28.48|Z|Azsuna|N|At Adept Sunwing, then run back to your order hall to turn in.|
 T A Daring Rescue|QID|41767|M|55.23,37.05|N|To Ritssyn Flamescowl.|
 A Recruiting More Troops|QID|41798|PRE|41767|LVL|103|M|67.00,46.42|N|From Gakin the Darkbinder.|
 T Recruiting More Troops|QID|41798|M|61.04,51.84|N|To Jared.|
@@ -301,10 +306,10 @@ A One Who's Worthy|QID|42102|PRE|41784|LVL|110|M|55.23,37.05|N|From Ritssyn Flam
 C One Who's Worthy|QID|42102|QO|1|M|67.00,46.42|N|Complete five 'One Who's Worthy' Missions.|
 t One Who's Worthy|QID|42102|M|55.23,37.05|N|From Ritssyn Flamescowl.|
 A Unparalleled Power|QID|44682|PRE|41784|LVL|110|M|67.00,46.42|N|From Gakin the Darkbinder.|
-C Unparalleled Power|QID|44682|QO|1|N|Go out and complete your 20 World Quests.|
+C Unparalleled Power|QID|44682|QO|1|N|Go out and complete your 10 World Quests.| ; dropped to 10 in 7.2
 t Unparalleled Power|QID|44682|M|67.00,46.42|N|To Gakin the Darkbinder.|
 
-A Finding Fizzlebang|QID|41785|PRE|42102|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
+A Finding Fizzlebang|QID|41785|PRE|42102;44682|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
 P Dalaran|QID|41785|ACTIVE|41785|M|72.43,37.45|N|Take the portal to Dalaran.|
 R Krasus' Landing|QID|41785|ACTIVE|41785|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|
 F Valdisdall|QID|41785|ACTIVE|41785|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|FACTION|HORDE|
@@ -313,7 +318,7 @@ T Finding Fizzlebang|QID|41785|M|39.31,42.20|Z|Stormheim|N|To Lulubelle Fizzleba
 A Someone Else's Mess|QID|41787|PRE|41785|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
 A Coercing a Confession|QID|41788|PRE|41785|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
 R Felscale Cavern|ACTIVE|41787;41788|M|38.31,37.32|Z|Stormheim|N|Run to Felscale Cavern.|
-C Someone Else's Mess|QID|41787|M|37.85,38.80|Z|Stormheim|S|QO|1|N|Use Orb to banish demons|
+C Someone Else's Mess|QID|41787|M|37.85,38.80|Z|Stormheim|S|QO|1|U|141865|N|Use Orb to banish demons|
 C Coercing a Confession|QID|41788|M|36.38,38.50|Z|Stormheim|QO|1|CHAT|T|Galius Miremoore|N|Get Galius to "Confess your crimes!", yes, You'll have to beat him up a bit.|
 C Someone Else's Mess|QID|41787|M|37.85,38.80|Z|Stormheim|US|QO|1|N|Use Orb to banish demons|
 T Coercing a Confession|QID|41788|M|39.31,42.20|Z|Stormheim|N|To Lulubelle Fizzlebang.|
@@ -322,11 +327,11 @@ A Lulubelle on Loan|QID|41793|PRE|41787;41788|LVL|110|M|39.31,42.20|Z|Stormheim|
 H Dalaran|QID|41793|ACTIVE|41793|U|140192|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
 T Lulubelle on Loan|QID|41793|M|55.23,37.05|N|To Ritssyn Flamescowl.|
 A Champion: Lulubelle Fizzlebang|QID|41755|PRE|41793|LVL|110|M|54.67,39.04|N|Recruit Lulubelle Fizzlebang.|
-A Summoning the Sisters|QID|41795|PRE|41793|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
+A Summoning the Sisters|QID|41795|PRE|41755|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
 P Summoning the Sisters|QID|41795|ACTIVE|41795|M|52.41,22.28|QO|1|N|Use the Demon Gateway.|
 C Summoning the Sisters|QID|41795|QO|2|CHAT|N|Tell Ritssyn, "I am ready".|
-C Summoning the Sisters|QID|41795|QO|3|N|Fight the Sisters, you'll be prompted when yo use the bloodstone.|
-P Summoning the Sisters|QID|41795|ACTIVE|41795|N|Use Gateway portal to return to order hall.|
+C Summoning the Sisters|QID|41795|QO|3|N|Fight the Sisters, you'll be prompted when yo use the bloodstone. Special Action Button.|
+P Dreadscar Rift|QID|41795|ACTIVE|41795|N|Use Gateway portal to return to order hall.|
 T Summoning the Sisters|QID|41795|M|55.23,37.05|N|To Ritssyn Flamescowl.|
 A Champion: Eredar Twins|QID|41756|PRE|41795|LVL|110|M|58,40.2|N|Talk to Grand Warlock Alythess|
 A Selecting a Sixth|QID|41796|PRE|41795|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
@@ -449,8 +454,6 @@ T An Urgent Warning|QID|45989|M|67.00,46.42|N|To Gakin the Darkbinder.|
 A Investigate the Broken Shore|QID|45990|PRE|45989|M|67.00,46.42|N|From Gakin the Darkbinder.|
 C Menace on the Broken Shore|QID|45990|M|66.03,46.64|N|Use Command Board to send on Mission.|
 t Investigate the Broken Shore|QID|45990|M|67.00,46.42|N|To Gakin the Darkbinder.|
-
-; quest from broken shore to be added here soon....
 
 ]]
 end)
