@@ -517,14 +517,14 @@ function WoWPro.NextStep(k,i)
 
 		-- Quickly skip any manually skipped quests --
 		if WoWProCharDB.Guide[GID].skipped[k] then
-			WoWPro:dbp("SkippedStep(%d,%s [%s])",k,WoWPro.action[k],WoWPro.step[k])
+			WoWPro:dbp("SkippedStep(%d, %s [%s])" ,k , tostring(WoWPro.action[k]), tostring(WoWPro.step[k]))
 			WoWPro.why[k] = "NextStep(): SkippedStep."
 			skip = true
 			break
 		elseif WoWPro:QIDsInTable(QID,WoWProCharDB.skippedQIDs) then
 			WoWProCharDB.Guide[GID].skipped[k] = true
 			WoWPro.why[k] = "NextStep(): SkippedQID."
-			WoWPro:dbp("SkippedQID(%d, qid=%s, %s [%s])",k,QID,WoWPro.action[k],WoWPro.step[k]);
+			WoWPro:dbp("SkippedQID(%d, qid=%s, %s [%s])",k, QID, tostring(WoWPro.action[k]), tostring(WoWPro.step[k]))
 			skip = true
 			break
 		end
