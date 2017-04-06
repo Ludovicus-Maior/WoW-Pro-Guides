@@ -1,4 +1,38 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2017-04-05 20:03
+-- Who: Emmaleah
+-- Log: added today's WQs. Changed guide registration to achievement section
+
+-- URL: http://wow-pro.com/node/3724/revisions/28628/view
+-- Date: 2017-04-04 10:45
+-- Who: Emmaleah
+-- Log: added header info
+
+-- URL: http://wow-pro.com/node/3724/revisions/28627/view
+-- Date: 2017-04-04 10:43
+-- Who: Emmaleah
+-- Log: I have stolen your guide (no really, this one is all my work) hope you don't mind I overwrote it as this one is much more complete.  It is of course still missing some things.  Most of the artifact empowerment quest chains come from wowhead and youtube.
+
+-- URL: http://wow-pro.com/node/3724/revisions/28625/view
+-- Date: 2017-03-29 17:57
+-- Who: Blanckaert
+-- Log: updates... added C Steps for WQ (yes just replaced WHOLE guide... ;) 
+
+-- URL: http://wow-pro.com/node/3724/revisions/28624/view
+-- Date: 2017-03-29 16:06
+-- Who: Blanckaert
+-- Log: Just putting in a few slight changes, with the new guide.  Thanks Ludo for originally creating it for me. I'll get it right.. one of these years.
+
+-- URL: http://wow-pro.com/node/3724/revisions/28622/view
+-- Date: 2017-03-29 16:01
+-- Who: Ludovicus
+-- Log: Initial
+
 local guide = WoWPro:RegisterGuide('Emm_BrokenShore', 'Achievements', 'Broken Shore', 'Emmaleah', 'Neutral')
 WoWPro:GuideIcon(guide,"ACH",11796)
 WoWPro:GuideProximitySort(guide)
@@ -12,16 +46,16 @@ A Assault on Broken Shore|QID|46734|PRE|46730|M|69.35,43.97|Z|Dalaran@Dalaran70|
 C Assault on Broken Shore|QID|46734|M|69.37,43.97|Z|Dalaran@Dalaran70|CHAT|N|Speak to Khadgar.|
 C Into the Fray|QID|46734|M|55.08,66.80|Z|AssaultonBrokenShoreScenario|SO|1|NC|N|Reach the Broken Shore.|
 C Vanguard of the Assault|QID|46734|M|47.91,71.46|Z|AssaultonBrokenShoreScenario|SO|2|N|Secure the beach.|
-C Might of the Legion|QID|46734|M|43.52,72.09;40.11,70.53|CS|Z|AssaultonBrokenShoreScenario|SO|3|N|Follow the path up the hill to find and defeat Lord Kalgorath. (You may want to wait for your NPC helpers.)|
+C Might of the Legion|QID|46734|M|43.52,72.09;40.11,70.53|CS|Z|AssaultonBrokenShoreScenario|SO|3|N|Follow the path up the hill to find and defeat Lord Kalgorath.  (You may want to wait for your NPC helpers.)|
 C Rifts of Chaos|QID|46734|M|44.01,58.24;46.61,58.52|CS|Z|AssaultonBrokenShoreScenario|SO|4;1|S|N|Close the portals and defeat Dread Commander Arganoth's forces|
 C Rifts of Chaos|M|59.63,49.66|Z|AssaultonBrokenShoreScenario|SO|4;2|N|Arganoth's forces depleted|
 C Rifts of Chaos|M|60.57,48.37|Z|AssaultonBrokenShoreScenario|SO|4;1|US|N|Legion portals closed|
 C The Doomguard's Command|M|54.85,51.46|Z|AssaultonBrokenShoreScenario|SO|5|N|Kill Dread Commander Arganoth.|T|Dread Commander Arganoth|
 C Gateway to Ruin|M|53.32,50.41|Z|AssaultonBrokenShoreScenario|SO|6|NC|N|Take the Demonic Gateway to the base of the command ship.|
 C Pillar of Fire|M|49.45,48.25|Z|AssaultonBrokenShoreScenario|SO|7|N|Plant Arcane Bombs in the command ship.|
-C Mephistroth slain|M|50.05,45.86|Z|AssaultonBrokenShoreScenario|SO|8|N|Start fighting Mephistroth. Then when he has the sense to leave, Hang out a moment more, until Khadgar rescues you off of the exploding ship. Watch the cut scene and end up at Deliverance Point.|T|Mephistroth|
+C Mephistroth slain|M|50.05,45.86|Z|AssaultonBrokenShoreScenario|SO|8|N|Start fighting Mephistroth. Then when he has the sense to leave, Hang out a moment more, until Khadgar rescues you off of the exploding ship.  Watch the cut scene and end up at Deliverance Point.|T|Mephistroth|
 T Assault on Broken Shore|QID|46734|M|44.74,63.29|S|N|To Archmage Khadgar.|
-N World Quests, etc|QID|46940|N|This guide is still a rough draft. It includes all the WQs I have seen, + a very few others. I have attempted to group them by area of the map.|
+N World Quests, etc|QID|46940|N|This guide is still a rough draft.  It includes all the WQs I have seen, + a very few others. I have attempted to group them by area of the map.|
 A Seeking Lost Knowledge|QID|47067|M|44.74,63.29|N|From Archmage Khadgar. If you havent gotten your Artifact Knowledge to 25, this will not be available.|
 A Legionfall Supplies|QID|46286|M|44.56,63.15|N|From Commander Chambers.|
 A Aalgen Point|QID|46832|M|44.56,63.15|N|From Commander Chambers.|
@@ -43,6 +77,7 @@ A The Motherlode|QID|46666|M|39.54,71.66|N|From Excavator Karla.|PRE|46511;-4666
 C The Motherlode|QID|46666|M|47,67|QO|1|NC|N|Go to the marked spot and click on the 'peculiar rope' to enter the cave.|
 C The Motherlode|QID|46666|M|44,56|QO|2|NC|N|Iks'Reeged will be happy to trade Nethershards for keys, and you can open all the chests you feel you can afford...|
 t The Motherlode|QID|46666|M|39.54,71.66|N|To Excavator Karla. You can return to the cave anytime you are feeling a need to gamble away excess nethershards.|
+
 ;WQs south of Deliverance Point
 C Illidari Masters: Nameless Mystic|QID|46113|M|38.69,72.14|N|Pet Battle.|
 C Fowl Play|QID|45934|M|40.40,81.79|QO|3|NC|S|N|Click on the Saltwater Cranes to rescue them.|
@@ -220,7 +255,7 @@ T Away From Prying Eyes|QID|44782|M|22.08,38.99|Z|Dalaran@Dalaran70|N|To Archmag
 A In Dire Need|QID|44821|M|22.08,38.99|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|44782|
 C In Dire Need|QID|44821|M|22.08,38.99|Z|Dalaran@Dalaran70|NC|N|Listen to the Council's Plea.|
 T In Dire Need|QID|44821|M|22.26,39.65|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
-A Next Step|QID|45412;46314;47022;47023;47024;47025;44914;47046;47043;47048;47047;45482;47049;47050;47051;47052;46078;47003;47004;47005;47006;47108;45560;47020;47019;45123;47055;47056;47057;47058;47059;45182;47037;47039;47041;47042|M|22.47,40.53|Z|Dalaran@Dalaran70|N|The questgiver and quest you receive will vary based on your spec type. All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains.|PRE|44821|
+A Next Step|QID|45412;46314;47022;47023;47024;47025;44914;47046;47043;47048;47047;45482;47049;47050;47051;47052;46078;47003;47004;47005;47006;47108;45560;47020;47019;45123;47055;47056;47057;47058;47059;45182;47037;47039;47041;47042|M|22.47,40.53|Z|Dalaran@Dalaran70|N|The questgiver and quest you receive will vary based on your spec type.  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains.|PRE|44821|
 
 ;The Thieving Apprentice|QID|44914;47046;47043;47048;47047|
 P Stormwind|QID|44914;47046;47043;47048;47047|M|0,0|Z|Dalaran@Dalaran70|N|Portal to Stormwind.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
@@ -231,7 +266,7 @@ T The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.4,39.2|Z|Azshar
 A Professionally Good Looking|QID|44915|M|25.4,39.2|Z|Azshara|N|From Joanna.|PRE|44914+47046+47043+47048+47047|
 C Professionally Good Looking|QID|44915|M|45,19|Z|Azshara|QO|3|CHAT|N|Challenge Lobos to obtain the 'Fanciful Hat'.|
 C Professionally Good Looking|QID|44915|M|62,16|Z|Azshara|QO|2|CHAT|N|Challenge Raethas Dawnseer to obtain the Well-Tailored Robes.|
-C Professionally Good Looking|QID|44915|M|80,31|Z|Azshara|QO|1|CHAT|N|Challenge Phloem to obtain the Magnificant Mantle.| 
+C Professionally Good Looking|QID|44915|M|80,31|Z|Azshara|QO|1|CHAT|N|Challenge Phloem to obtain the Magnificant Mantle.|
 T Professionally Good Looking|QID|44915|M|25.4,39.2|Z|Azshara|N|To Joanna.|
 A Order of Incantations|QID|44920|M|25.4,39.2|Z|Azshara|N|From Joanna.|PRE|44915|
 C Order of Incantations|QID|44920|M|25.4,39.2|Z|Azshara|N|If you want to solve it for yourself, question the Apprentices. Some are more helpful than others. The correct order is Arcane (purple) Frost (white) Fire (red) Shadow (blue).|
@@ -314,7 +349,7 @@ T Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod 
 T Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
 A Source of the Corruption|QID|46107|M|39.2,61.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080;46106|
 C Source of the Corruption|QID|46107|QO|1|N|Travel to Hero's Rest (outside of Blackrook Hold).|
-C Source of the Corruption|QID|46107|QO|2|N|Jarod tries to reason with them. Kill the ones that can't be released.|
+C Source of the Corruption|QID|46107|QO|2|N|Jarod tries to reason with them.  Kill the ones that can't be released.|
 C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
 T Source of the Corruption|QID|46107|M|38.8,51.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
 A The Matter Resolved...For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080|
@@ -403,5 +438,3 @@ F Deliverance Point|QID|46501|N|Fly back to Deliverance Point, make your donatio
 ]]
 
 end)
-
-
