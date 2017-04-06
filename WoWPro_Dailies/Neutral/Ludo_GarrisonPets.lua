@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/garrison_daily_pet_battles
+-- Date: 2017-04-05 19:56
+-- Who: Emmaleah
+-- Log: typo (\m s/b \n)
+
+-- URL: http://wow-pro.com/node/3719/revisions/28524/view
+-- Date: 2017-03-17 16:43
+-- Who: Ludovicus
+-- Log: Initial Upload
+
 local guide = WoWPro:RegisterGuide("LudoGarrisonPets", "Dailies", "Draenor", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,100, 100, 100)
 WoWPro:GuideIcon(guide,"ACH",9463)
@@ -33,7 +43,7 @@ C Strategy by Sepsis@Warcraftpets|QID|79180.1|STRATEGY|Sepsis@Warcraftpets|N|Som
 ! Brutus, Ruckus|NPC|85561;85655|QID|85561.1|
 C Iron Starlette/Darkmoon Zepplin|QID|85561.1|PET1|Iron Starlette;77221;1+1+1|PET2|Darkmoon Zepplin;55367;1+1+2|PET3|Leveling;;;L>20|STRATEGY|IS/DZ|
 C Iron Starlette|QID|85561.1|STRATEGY|IS/DZ|N|Brutus:\n1: [ability=459/wind-up]\n2: Supercharge (kill Brutus)\n3:[ability=459/wind-up] (and die)|SELECT|1|DEAD|1,1|
-C Darkmoon Zepplin|QID|85561.1|STRATEGY|IS/DZ|N|Rukus:\n1: Bombing Run\m2: Missle\n3:Missle (and die)|SELECT|2|DEAD|1,2|
+C Darkmoon Zepplin|QID|85561.1|STRATEGY|IS/DZ|N|Rukus:\n1: Bombing Run\n2: Missle\n3:Missle (and die)|SELECT|2|DEAD|1,2|
 C Leveling Pet|QID|85561.1|STRATEGY|IS/DZ|N|Leveling:\n1: Best Damage\n2: Best Damage\n3: Bomb Hits|SELECT|3|DEAD|2,3|
 
 ; Day 3: Mr. Terrible, Carroteye, and Sloppus

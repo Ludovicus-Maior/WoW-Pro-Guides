@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2017-04-05 20:00
+-- Who: Emmaleah
+-- Log: Grammer, (slain is past tense. We are telling people what to do, rather than what they have done.)
+
+-- URL: http://wow-pro.com/node/3687/revisions/28616/view
 -- Date: 2017-03-28 04:07
 -- Who: Blanckaert
 -- Log: more fixes to the ending of the Suramar guide, with the Insurrection portions.  Added the quest, approx turn ins for some in the Nighthold raid at the of guide.
@@ -247,11 +252,6 @@
 -- Who: Blanckaert
 -- Log: darn M tag got lost.
 
--- URL: http://wow-pro.com/node/3687/revisions/28070/view
--- Date: 2016-11-29 22:41
--- Who: Blanckaert
--- Log: ok.. moved that Buy recipe to a better spot (as you can't get it till done that quest chain) Add Pinchshank, and added ALL the quests through 12/21 - with minimal info from Wowhead.
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideAutoSwitch(guide)
@@ -378,7 +378,7 @@ A Network Security|QID|40748|PRE|40747|M|49.29,47.10|N|From Chief Telemancer Ocu
 C Network Security|QID|40748|M|59.73,36.67|QO|1|NC|N|Teleport to the Test Chamber.|
 C Network Security|QID|40748|M|59.65,33.89|QO|2|NC|N|Click on the 'Arcane Coil' to overcharge it.|
 C Network Security|QID|40748|M|56.93,34.97|QO|3|NC|N|Click on the 4 Arcane Coils in this room.|
-C Network Security|QID|40748|M|56.05,30.22|QO|4|N|You will be transported to a cavern, then you can fight Warpcaster Thwen slain.|T|Warpcaster Thwen|
+C Network Security|QID|40748|M|56.05,30.22|QO|4|N|You will be transported to a cavern, then you can fight Warpcaster Thwen.|T|Warpcaster Thwen|
 C Network Security|QID|40748|M|56.11,30.21|QO|5|CHAT|N|Speak with Oculeth, tell him that "Thalyssra is near Meredil."|
 T Network Security|QID|40748|M|34.48,48.70|N|To Chief Telemancer Oculeth.|
 A Close Enough|QID|40830|M|34.48,48.70|N|From Chief Telemancer Oculeth.|PRE|40748|
@@ -1182,7 +1182,7 @@ A Survival of the Fittest|QID|41216|PRE|41215|M|50.70,56.56|N|From Nighteyes, Do
 C Survival of the Fittest|QID|41216|M|50.99,54.33;48.86,52.38|CS|U|134119|N|Target the Bound, Captive, or Confined creatures and use the overloaded coller to free them. As you move towards where you'll turn in the Quest. Some creatures will attack you.|RANK|2|
 T Survival of the Fittest|QID|41216|M|47.97,52.22|N|To Nighteyes.|RANK|2|
 A Apex Predator|QID|41231|M|47.97,52.22|N|From Nighteyes.|RANK|2|PRE|41216|
-C Apex Predator|QID|41231|M|46.70,53.26|QO|1|N|Graedis Oenthar slain, dont worry about the Devilsaur.|RANK|2|
+C Apex Predator|QID|41231|M|46.70,53.26|QO|1|N|Kill Graedis Oenthar, dont worry about the Devilsaur.|RANK|2|
 T Apex Predator|QID|41231|M|47.95,52.29|N|To Nighteyes.|RANK|2|
 A Shalassic Park|QID|43582|M|47.95,52.29|N|From Nighteyes.|RANK|2|PRE|41231|
 C Shalassic Park|QID|43582|M|47.01,53.04|NC|QO|1|N|Release Su'esh, by right clicking on her.|RANK|2|
@@ -1609,13 +1609,13 @@ C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|S|N|Slay Black Rook forces
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|S|NC|N|Loot Books of Tactics that are laying around.|
 C We Need Weapons|QID|44829|M|44.60,49.29;41.57,49.54;40.02,53.92|CS|Z|Val'sharah|N|Click the beacon at each marked location to set it.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|US|NC|N|Books of Tactics collected|
-C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|US|N|Black Rook forces slain|
+C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|US|N|Finish slaying Black Rook forces.|
 F Meredil|QID|44830|ACTIVE|44830|M|39.94,50.95|U|6948|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T We Need Weapons|QID|44829|M|39.90,51.36|N|To Chief Telemancer Oculeth.|
 T Citizens' Army|QID|44827|M|39.79,51.21|N|To Victoire.|
 T Learning From the Dead|QID|44830|M|39.96,50.97|N|To Silgryn.|
 A Trial by Demonfire|QID|44790|PRE|44830|M|39.92,50.95|N|From Silgryn.|
-C Trial by Demonfire|QID|44790|M|33.89,49.07|QO|1|N|Rozzeleth slain, back near the Flight Path for Shal'Aran.|
+C Trial by Demonfire|QID|44790|M|33.89,49.07|QO|1|N|Kill Rozzeleth, back near the Flight Path for Shal'Aran.|
 T Trial by Demonfire|QID|44790|M|40.00,50.93|N|To Silgryn.|
 
 ; Insurrection - March on Suramar - Storyline
