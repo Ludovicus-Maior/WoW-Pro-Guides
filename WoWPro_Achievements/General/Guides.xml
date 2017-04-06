@@ -1,5 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="Blanc_BI_Treasures.lua"/>
+	<Script file="Emmaleah_BrokenShore.lua"/>
 	<Script file="Emmaleah_LostFound.lua"/>
 	<Script file="Emmaleah_Lorewalkers.lua"/>
 	<Script file="Est_Glorious.lua"/>
