@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2017-04-07 21:58
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3669/revisions/28637/view
+-- Date: 2017-04-07 21:58
+-- Who: Emmaleah
+-- Log: Probably one ACTIVE tag per line is sufficient :). Also, the Zen'kiki quest is in the guide at the top. (right after first go use your mission board quest), which is when he shows up, changed PRE for it because I think I had it wrong.
+
+-- URL: http://wow-pro.com/node/3669/revisions/28636/view
 -- Date: 2017-04-06 23:26
 -- Who: Ludovicus
 -- Log: Tweaks
@@ -131,7 +140,7 @@ A Sister Lilith|QID|42584|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42583|
 C Sister Lilith|QID|42584|M|52.66,51.20|N|Use your scouting map to send one of your new followers on their first mission. (It only takes 2 minutes.}|
 T Sister Lilith|QID|42584|M|52.52,51.50|N|To Skylord Omnuron.|
 A Recruiting the Troops|QID|42585|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42584|
-A What Could Go Wrong|QID|41413|M|59.35,53.19|N|From/To Zen'kiki. Alas, no further interaction with Zen'kiki at this time.|PRE|42585|
+A What Could Go Wrong|QID|41413|M|59.35,53.19|N|From/To Zen'kiki. Alas, no further interaction with Zen'kiki at this time.|PRE|42584|
 C Recruiting the Troops|QID|42585|M|36.37,25.35|N|Sister Lilith can be found near the Moonwell. Find her and train your first troop.  When that was finishes (near instant), Pick it up from the Banner beside her and then you can train 2 more.|
 T Recruiting the Troops|QID|42585|M|52.52,51.50|N|To Skylord Omnuron.|
 A Glade Defense|QID|42586|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42585|
@@ -562,8 +571,8 @@ C Lyessa Must Survive|QID|41689|SO|4;2|M|61.21,26.36|Z|Mount Hyjal|N|Lyessa is i
 C Give Corrupted G'Hanir to Lyessa|QID|41689|SO|5;1|M|60.55,25.48|Z|Mount Hyjal|NC|N|Click on Lyessa to give Corrupted G'Hanir to Lyessa.|
 C Witness G'Hanir's rebirth|QID|41689|SO|5;2|M|61.19,26.08|Z|Mount Hyjal|N|Use the button provided in your questlog to witness G'Hanir's rebirth.|
 C G'Hanir Reborn|QID|41689|SO|6;1|Z|Mount Hyjal|N|Pick up the staff.|
-R Mt. Hygal Portal|QID|41689|ACTIVE|41689|M|55.74,29.9|Z|Mount Hyjal|N|Run back to the Emerald Dreamway|CC|ACTIVE|41689|
-R The Dreamway Portal|QID|41689|ACTIVE|41689|M|45.31,24.43|Z|EmeraldDreamway|N|Run through the portal.|CC|ACTIVE|41689|
+P Mt. Hygal Portal|QID|41689|M|55.74,29.9|Z|Mount Hyjal|N|Run back to the Emerald Dreamway|CC|ACTIVE|41689|
+P The Dreamway Portal|QID|41689|M|45.31,24.43|Z|EmeraldDreamway|N|Run through the portal.|CC|ACTIVE|41689|
 T Cleansing the Mother Tree|QID|41689|M|45.18,51.85|N|To Lyessa Bloomwatcher.|
 
 ;Druid Class Hall
@@ -622,8 +631,5 @@ J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you wi
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733;38907|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
 
-; Not clear where this should go.
-A What Could Go Wrong?|QID|41413|M|59.32,53.19|N|From Zen'kiki, who will offer the quest once you walk into the inn.|LVL|98|
-T What Could Go Wrong?|QID|41413|M|59.32,53.19|N|To Zen'kiki|
 ]]
 end)
