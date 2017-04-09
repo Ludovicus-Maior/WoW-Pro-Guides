@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2017-04-09 09:12
+-- Who: Emmaleah
+-- Log: updated from a new character running thru from start to finish on day 1 at broken shore. fixed some bad QIDs bad QOs etc.
+
+-- URL: http://wow-pro.com/node/3724/revisions/28641/view
+-- Date: 2017-04-08 23:20
+-- Who: Emmaleah
+-- Log: updated with 4/7 and 4/8 WQs.
+
+-- URL: http://wow-pro.com/node/3724/revisions/28633/view
 -- Date: 2017-04-05 20:03
 -- Who: Emmaleah
 -- Log: added today's WQs. Changed guide registration to achievement section
@@ -35,7 +45,6 @@
 
 local guide = WoWPro:RegisterGuide('Emm_BrokenShore', 'Achievements', 'Broken Shore', 'Emmaleah', 'Neutral')
 WoWPro:GuideIcon(guide,"ACH",11796)
-WoWPro:GuideProximitySort(guide)
 WoWPro.Achievements:GuideMisc(guide, "Armies of Legionfall", "Reputation", "Legion")
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideSteps(guide, function()
@@ -43,31 +52,34 @@ return [[
 C Armies of Legionfall|QID|46730|M|66.46,42.63|Z|Dalaran@Dalaran70|NC|N|Meet Khadgar at Krasus' Landing. If you are already at Krasus' Landing, walk to wards the stairs and then back to the marked location.|
 T Armies of Legionfall|QID|46730|M|69.35,43.97|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Assault on Broken Shore|QID|46734|PRE|46730|M|69.35,43.97|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
-C Assault on Broken Shore|QID|46734|M|69.37,43.97|Z|Dalaran@Dalaran70|CHAT|N|Speak to Khadgar.|
+C Assault on Broken Shore|QID|46734|QO|1|M|69.37,43.97|Z|Dalaran@Dalaran70|CHAT|N|Speak to Khadgar.|
 C Into the Fray|QID|46734|M|55.08,66.80|Z|AssaultonBrokenShoreScenario|SO|1|NC|N|Reach the Broken Shore.|
 C Vanguard of the Assault|QID|46734|M|47.91,71.46|Z|AssaultonBrokenShoreScenario|SO|2|N|Secure the beach.|
 C Might of the Legion|QID|46734|M|43.52,72.09;40.11,70.53|CS|Z|AssaultonBrokenShoreScenario|SO|3|N|Follow the path up the hill to find and defeat Lord Kalgorath.  (You may want to wait for your NPC helpers.)|
 C Rifts of Chaos|QID|46734|M|44.01,58.24;46.61,58.52|CS|Z|AssaultonBrokenShoreScenario|SO|4;1|S|N|Close the portals and defeat Dread Commander Arganoth's forces|
-C Rifts of Chaos|M|59.63,49.66|Z|AssaultonBrokenShoreScenario|SO|4;2|N|Arganoth's forces depleted|
-C Rifts of Chaos|M|60.57,48.37|Z|AssaultonBrokenShoreScenario|SO|4;1|US|N|Legion portals closed|
+C Rifts of Chaos|M|44.01,58.24;47.84,57.53;59.17,51.63|CS|Z|AssaultonBrokenShoreScenario|SO|4;2|N|Arganoth's forces depleted|
+C Rifts of Chaos|M|59.17,51.63|Z|AssaultonBrokenShoreScenario|SO|4;1|US|N|Legion portals closed|
 C The Doomguard's Command|M|54.85,51.46|Z|AssaultonBrokenShoreScenario|SO|5|N|Kill Dread Commander Arganoth.|T|Dread Commander Arganoth|
 C Gateway to Ruin|M|53.32,50.41|Z|AssaultonBrokenShoreScenario|SO|6|NC|N|Take the Demonic Gateway to the base of the command ship.|
 C Pillar of Fire|M|49.45,48.25|Z|AssaultonBrokenShoreScenario|SO|7|N|Plant Arcane Bombs in the command ship.|
 C Mephistroth slain|M|50.05,45.86|Z|AssaultonBrokenShoreScenario|SO|8|N|Start fighting Mephistroth. Then when he has the sense to leave, Hang out a moment more, until Khadgar rescues you off of the exploding ship.  Watch the cut scene and end up at Deliverance Point.|T|Mephistroth|
 T Assault on Broken Shore|QID|46734|M|44.74,63.29|S|N|To Archmage Khadgar.|
+
 N World Quests, etc|QID|46940|N|This guide is still a rough draft.  It includes all the WQs I have seen, + a very few others. I have attempted to group them by area of the map.|
 A Seeking Lost Knowledge|QID|47067|M|44.74,63.29|N|From Archmage Khadgar. If you havent gotten your Artifact Knowledge to 25, this will not be available.|
 A Legionfall Supplies|QID|46286|M|44.56,63.15|N|From Commander Chambers.|
 A Aalgen Point|QID|46832|M|44.56,63.15|N|From Commander Chambers.|
 A Greater Power for Greater Threats|QID|46744|M|44.74,63.28|N|From Archmage Khadgar. You will receive this quest if you have not unlocked all the traits on your artifact.|ACH|11144|
-A The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|From Archmage Khadgar. If your artifact does not have the Paragon trait empowered (35+) this quest will not be available. You will need to do this in each spec if you want to empower all your artifacts.|ACH|11144;;true|
+A The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|From Archmage Khadgar. If your artifact does not have the Paragon trait empowered (35+) this quest will not be available. You will need to do this in each spec if you want to empower all your artifacts.|ACH|11144;;true|PRE|46940|
 N The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|At some point this item will drop randomly while doing other quests/farming on the island. Unknown at this time how your 2nd or 3rd artifact empowering quest starts.|ACTIVE|46765|
 N The Shadow of the Sentinax|QID|46935|M|61.52,48.29|N|At some point you will find a 'Broken Sentianax Beacon' when you fight under the Sentinax (location varies, marked on your map). Turning in this quests enables you to loot items that will open portals and allow more nethershard farming.|
-A The Mage Tower|QID|46772|M|44.54,63.15|N|From Commander Chambers.|
-A Defending the Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|
+A The Mage Tower|QID|46772|M|44.54,63.15|N|From Commander Chambers. Available when the Mage tower is freshly built.|ACH|11546;3|
+A The Nether Disruptor|QID|46774|M|44.54,63.15|N|From Commander Chambers. Available when the Nether Disrupter is freshly built.|ACH|11546;3|
+A Defending the Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46286|
 C The Mage Tower|QID|46772|M|45.03,62.48|N|Click on the scroll floating in front of the building.|
-A The Highlord's Return|QID|45416|M|45.69,62.04|N|Only available if the Mage Tower is built.|
-T The Mage Tower|QID|46772|M|44.54,63.15|N|To Commander Chambers.|
+A The Highlord's Return|QID|45416|M|45.69,62.04|N|Only available if the Mage Tower is built.|PRE|45843|
+t The Mage Tower|QID|46772|M|44.54,63.15|N|To Commander Chambers.|
+C The Nether Disruptor|QID|46774|M|41.20,64.65|N|Click on the scroll floating at the base for the Nether Disruptor.|
 A Spiders, Huh?|QID|46499|M|39.54,71.66|N|From Excavator Karla.|PRE|46245|
 A Grave Robbin'|QID|46501|M|39.54,71.66|N|From Excavator Karla.|PRE|46499;-46665|
 A Tomb Raidering|QID|46509|M|39.54,71.66|N|From Excavator Karla.|PRE|46501;-46665|
@@ -77,6 +89,7 @@ A The Motherlode|QID|46666|M|39.54,71.66|N|From Excavator Karla.|PRE|46511;-4666
 C The Motherlode|QID|46666|M|47,67|QO|1|NC|N|Go to the marked spot and click on the 'peculiar rope' to enter the cave.|
 C The Motherlode|QID|46666|M|44,56|QO|2|NC|N|Iks'Reeged will be happy to trade Nethershards for keys, and you can open all the chests you feel you can afford...|
 t The Motherlode|QID|46666|M|39.54,71.66|N|To Excavator Karla. You can return to the cave anytime you are feeling a need to gamble away excess nethershards.|
+t The Nether Disruptor|QID|46774|M|44.54,63.15|N|To Commander Chambers.|
 
 ;WQs south of Deliverance Point
 C Illidari Masters: Nameless Mystic|QID|46113|M|38.69,72.14|N|Pet Battle.|
@@ -85,6 +98,9 @@ C Fowl Play|QID|45934|M|43.25,78.51|QO|2|NC|S|N|Pick up Saltwater Crane Eggs.|
 C Fowl Play|QID|45934|M|42.88,78.15|QO|1|N|Kill Seascale Crocolisks.|
 C Fowl Play|QID|45934|M|43.25,78.51|QO|2|NC|US|N|Finish picking up the Saltwater Crane Eggs.|
 C Fowl Play|QID|45934|M|40.40,81.79|QO|3|NC|US|N|Finish rescueing the Saltwater Cranes.|
+C Winged Terrors|QID|44748|M|48.44,70.61|QO|2|S|N|Pick up the shipwreaked supplies lying around.  They also drop from the Wyrmtongue mobs.|
+C Winged Terrors|QID|44748|M|48.44,70.61|QO|1|N|Picking up the 'salvaged spears' off the ground and using them via extra action button will kill them. (Spells will kill them also.)|
+C Winged Terrors|QID|44748|M|48.44,70.61|QO|2|US|N|Finish collecting shipwreaked supplies.|
 C A Tad More Corruption|QID|46932|M|38.28,58.76|QO|1|S|N|Destroy Corrupting Crystals.|
 C A Tad More Corruption|QID|46932|M|38.39,58.96|QO|2|N|Kill Legion forces.|
 C A Tad More Corruption|QID|46932|M|38.28,58.76|QO|1|US|N|Finish destroying Corrupting Crystals.|
@@ -101,6 +117,8 @@ C A Giant Problem|QID|45473|M|52.77,79.02|QO|1|US|N|Finish killing Sea Giant Pil
 C Minion! Kill That One Too!|QID|46707|M|43.76, 58.34|N|Click on the ball of fel energy to be transported inside the Lost Temple.|
 C Minion! Kill That One Too!|QID|46707|M|72.34,40.98|N|Kill Brethkaz the Dominator.|T|Brethkaz the Dominator|
 R The Hijacked Portal|QID|46832|M|43.45,58.51;47.13,58.15;49.41,55.85|CS|N|Run down the path to do some world quests and head towards Aalgen Point.|
+C Behind Enemy Portals|QID|45520|QO|1|M|48.93,55.32|N|Enter Demonic Portal.|
+C Behind Enemy Portals|QID|45520|QO|2|M|50.09,57.56|N|Start killing spiders and eventually their boss shows up. Kill Arachniarch Bybee to finish the quest.|T|Arachniarch Bybee.|
 C Behind Enemy Portals|QID|45559|QO|1|M|48.10,55.61|N|Enter Demonic Portal.|
 C Behind Enemy Portals|QID|45559|QO|2|M|50.74,55.69|N|Kill Pit Commander Galvinoth.|T|Pit Commander Galvinoth|
 C Hellish Scavengers|QID|45985|M|57.10,56.71|S|QO|1|N|Pick up Ravaged Supplies.|
@@ -122,11 +140,13 @@ C Mud Mucking|QID|46825|M|63.85,48.31|N|Click on the dirt mounds to find the coi
 C Grave Robbin'|QID|46501|M|49.73,46.83|NC|N|Loot the Soul Ruin treasure, it is under a clogged doorway of the crashed legion ship.|
 C The Wailing Dead|QID|46063|M|54.45,44.63|N|Kill the undead floating around in this valley.|
 C Break Their Garrison|QID|46073|M|51.70,52.82|N|Kill demons in the area. Clicking the books will grant you a 2 min buff.|
-C The Call of Battle|QID|45035|QO|1|M|66.35,47.06|S|NC|N|Use your special action button while targeting one of the floating crystals or book.|
-C The Call of Battle|QID|45035|QO|2|M|66.35,47.06|S|N|Kill stuff. The special action button does damage to them too.|
-C The Call of Battle|QID|45035|QO|3|M|66.35,47.06|T|Gor'lok Fleshgrinder|
-C The Call of Battle|QID|45035|QO|2|M|66.35,47.06|S|N|Finish killing the required number or legion forces.|
-C The Call of Battle|QID|45035|QO|1|M|66.35,47.06|S|NC|N|Finish destroying the defenses.|
+C By Water Be Purged|QID|46201|M|63.61,57.25|QO|1|CHAT|N|Talk to Champion Aquaclease to start join forces.|
+C By Water Be Purged|QID|46201|M|60.31,51.77|QO|2|N|Go up the hill and with the elementals (vehicle UI) abilities kill the demons to reach 100%.|
+C The Call of Battle|QID|45035|QO|2|M|66.35,47.06|S|NC|N|Use your special action button while targeting one of the floating crystals or book.|
+C The Call of Battle|QID|45035|QO|1|M|66.35,47.06|S|N|Kill stuff. The special action button does damage to them too.|
+C The Call of Battle|QID|45035|QO|3|M|66.35,47.06|N|Kill Gor'lok Fleshgrinder.|T|Gor'lok Fleshgrinder|
+C The Call of Battle|QID|45035|QO|1|M|66.35,47.06|US|N|Finish killing the required number or legion forces.|
+C The Call of Battle|QID|45035|QO|2|M|66.35,47.06|US|NC|N|Finish destroying the defenses.|
 
 C Illidari Masters: Sissix|QID|46111|M|69.06,47.14|N|Pet Battle.|
 
@@ -138,7 +158,7 @@ A Vengeance Point|QID|46845|M|70.79,47.60|N|From Heidirk the Scalekeeper.
 C Seeking Lost Knowledge|QID|47067|M|82.54,45.08|QO|1|NC|U|147449|N|Run around the waters edge from Aalgen point to the Beach at Felfire Pass. Stand near the purplish sparkly thing and click it to recover knowledge from Felfire Pass.|
 C War Materiel|QID|45791|M|86.10,55.20|N|The felslag drops from the mobs and is also lying on the ground.|
 C Seeking Lost Knowledge|QID|47067|M|79.83,44.42;75.60,36.34|CS|QO|3|U|147449|NC|N|Through Felfire Pass, up on top of the rocks, not inside is another "Remnant of Lost knowledge" to recover.|
-C Seeking Lost Knowledge|QID|47067|M|71.91,40.77|QO|2|U|147449|NC|N|This one is also on top of the rocks (not inside the Lost Temple)|
+C Seeking Lost Knowledge|QID|47067|M|71.91,40.77|QO|2|U|147449|NC|N|This one is also on top of the rocks (not inside the Lost Temple). Be careful crossing the rocks as there is a cravasse into the Lost Temple.|
 C Brute Wrangling|QID|46068|M|71,33|QO|1|N|Hop on a Subdued Punisher (Vehicle UI).|
 C Brute Wrangling|QID|46068|M|71,33|QO|2|N|Use the provided abilities to kill Deepsurge Naga all over Felrage Strand.|
 C The Cost of Power|QID|46942|M|81.71,26.80|Z|Broken Shore|S|QO|1|N|Kill Harrowing Corruptor.|
@@ -149,10 +169,12 @@ C The Cost of Power|QID|46942|M|74.34,27.84|QO|1|N|Finish up killing Harrowing C
 C We're Treasure Hunters|QID|46511|M|75,21|NC|N|This chest is just sitting on the beach waiting for you.|
 C Spiders, Huh?|QID|46499|M|43.44,31.39|NC|N|Loot the chest.|
 C Tomb Raidering|QID|46509|M|67,16|NC|N|This is up, inside the area around the raid entrance. Loot the chest.|
-R Vengeance Point|QID|46845|M|71.15,41.49;70.94,33.75;68.41,32.57;66.41,32.94;56.25,29.48;53.53,32.30;51.58,31.98|CS|N|Down the moonlight ascent and up the Path of Suffering.|
+C Malificus|QID|46948|M|59.74,28.26|N|This is a elite (raid) mob.|T|Malificus|
+R Vengeance Point|QID|46845|M|71.15,41.49;71.31,35.18;68.41,32.57;66.41,32.94;56.25,29.48;53.53,32.30;51.58,31.98|CS|N|Down the moonlight ascent and up the Path of Suffering.|
 C Duty's End|QID|45970|M|65.35,33.74|N|Kill stuff, pick up stuff off the ground. Get to 100%. Win!|
-C I Fel Bat For You|QID|46066|M|65.35,33.74|QO|2|N|Kill Feltalon Roostmothers|
-C I Fel Bat For You|QID|46066|M|66.87,30.51|QO|3|N|Run at the whelplings to scatter them.|
+C I Fel Bat For You|QID|46066|M|66.87,30.51|QO|2|S|N|Run at the whelplings to scatter them.|
+C I Fel Bat For You|QID|46066|M|65.35,33.74|QO|1|N|Kill Feltalon Roostmothers|
+C I Fel Bat For You|QID|46066|M|66.87,30.51|QO|2|US|N|Finish scattering the whelplings.|
 C Vengeance Point|QID|46845|M|51.21,23.18|N|Defend Vengeance Point (seems backwards that you get this one before you do anything).|
 C Vengeance Point|QID|46845|M|52.02,21.37|N|Kill Abhorrent Felwings.|
 C Vengeance Point|QID|46845|M|51.90,21.57|N|Kill Crazed Felblades slain.|
@@ -165,6 +187,7 @@ C Gems of Destruction|QID|46198|M|46.18,20.11|N|Kill Felborne Punishers and loot
 C Exterminating with Impunity|QID|45878|M|32.89,33.13|N|Slaughter many imps.|
 C Ancient Bones|QID|45988|QO|1|M|53.92,18.12|NC|N|Pick up ancient bones off of the ground in this general area.|
 C Ancient Bones|QID|45988|QO|2|M|51.6,17.2;50.92,17.07|CS|NC|N|Click on the shrine inside the cave to place the bones here.|
+
 F Deliverance Point|QID|47067|M|49.67,21.06|N|At Izal Whitemoon.|ACTIVE|47067|
 T The Shadow of the Sentinax|QID|46935|M|44.43,62.33|N|To Warmage Kath'leen. Once you turn this in, you can farm Nethershards under the Sentinax endlessly if desired. Several items will drop to extend the farming. The sentinax location varies and can be seen on your zone map.|
 T Legionfall Supplies|QID|46286|M|44.57,63.23|N|To Commander Chambers.|
@@ -174,6 +197,8 @@ T Begin Construction|QID|46245|M|44.56,63.07|N|To Commander Chambers.|
 T Seeking Lost Knowledge|QID|47067|M|44.73,63.29|N|To Archmage Khadgar.|
 A Delivering Lost Knowledge|QID|46809;47069;47070;47071;47072;47073;47074;47075;47076;47077;47078;47079|M|44.73,63.29|N|From Archmage Khadgar.|PRE|47067|
 A Altar of the Aegis|QID|46244|M|44.75,63.29|N|From Archmage Khadgar.|PRE|47067|
+t Defending the Broken Isles|QID|46247|M|44.54,63.55|N|To Maiev Shadowsong.|
+t The Nether Disruptor|QID|46774|M|44.56,63.07|N|To Commander Chambers.|
 
 ;each class turn in.
 T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|To Vahu the Weathered back in your order hall.|
@@ -236,7 +261,9 @@ A Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|War
 C Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|To Fjornson Stonecarver.|
 
-N Finished WQs?|QID|46501|N|When you have finished all your WQs, use your flight masters whistle.|U|141605|
+F Deliverance Point|QID|47000|N|Now that you have your artifact knowledge research restarted, you can now upgrade your artifact (assuming you have at least 35 ranks).|
+N Finish WQs|QID|99999|N|Look at the map and run around to the various world quests. The guide will show the quest when you are in the area for it (more accurately when it is in your quest log). Check this step off manually.|
+F Deliverance Point|QID|99999|N|Fly back to Deliverance Point, make your donation to the construction effort and turn in the archeology quest.|
 
 t Spiders, Huh?|QID|46499|M|39.54,71.66|N|To Excavator Karla.|
 t Grave Robbin'|QID|46501|M|39.54,71.66|N|To Excavator Karla.|
@@ -255,7 +282,7 @@ T Away From Prying Eyes|QID|44782|M|22.08,38.99|Z|Dalaran@Dalaran70|N|To Archmag
 A In Dire Need|QID|44821|M|22.08,38.99|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|44782|
 C In Dire Need|QID|44821|M|22.08,38.99|Z|Dalaran@Dalaran70|NC|N|Listen to the Council's Plea.|
 T In Dire Need|QID|44821|M|22.26,39.65|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
-A Next Step|QID|45412;46314;47022;47023;47024;47025;44914;47046;47043;47048;47047;45482;47049;47050;47051;47052;46078;47003;47004;47005;47006;47108;45560;47020;47019;45123;47055;47056;47057;47058;47059;45182;47037;47039;47041;47042|M|22.47,40.53|Z|Dalaran@Dalaran70|N|The questgiver and quest you receive will vary based on your spec type.  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains.|PRE|44821|
+A Next Step|QID|45412;46314;47022;47023;47024;47025;44914;47046;47043;47048;47047;45482;47049;47050;47051;47052;46078;47003;47004;47005;47006;45560;47018;47019;47020;45123;47055;47056;47057;47058;47059;45182;47037;47039;47041;47042|M|22.47,40.53|Z|Dalaran@Dalaran70|N|The questgiver and quest you receive will vary based on your spec type.  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains.|PRE|44821|
 
 ;The Thieving Apprentice|QID|44914;47046;47043;47048;47047|
 P Stormwind|QID|44914;47046;47043;47048;47047|M|0,0|Z|Dalaran@Dalaran70|N|Portal to Stormwind.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
@@ -356,30 +383,30 @@ A The Matter Resolved...For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Com
 P Dalaran|QID|46200|M|38.8,51.4|Z|Val'sharah|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46200|
 T The Matter Resolved...For Now...|QID|46200|M|22.47,40.53|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 
-;Rumblings Near Feltotem|QID|47108;45560;47020;47019
-F Witchwood|QID|47108;45560;47020;47019|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|47108;45560;47020;47019|
-T Rumblings Near Feltotem|QID|47108;45560;47020;47019|M|35.73,23.99|Z|Highmountain|N|Run down the path to find Navarrogg at the Misty Coast.|
-A The Burning Birds|QID|45564|M|35.73,23.99|Z|Highmountain|N|From Navarrogg.|PRE|47108+45560+47020+47019|
-C The Burning Birds|QID|45564|QO|1|M|35.73,23.99|Z|Highmountain|N|Click on the corpses to remove the fel infusing totems. Move quickly away to avoid the debuff. If you are squishy and get hit with the debuff, heal, eat, bandage, something... quickly.|
-T The Burning Birds|QID|45564|M|31.4,25|Z|Highmountain|N|To Navarrogg.|
-A The Tainted Marsh|QID|45726|M|31.4,25|Z|Highmountain|N|From Navarrogg.|PRE|45564|
-C The Tainted Marsh|QID|45726|M|31.4,25|Z|Highmountain|CHAT|N|Ask Navarrogg for a ride (or travel on your own.)|
-C The Tainted Marsh|QID|45726|M|31.4,25|Z|Highmountain|N|Kill the seabound ghosts and THEN use the item on their corpse.|U|143863|
-T The Tainted Marsh|QID|45726|M|31.4,25|Z|Highmountain|N|To Navarrogg.|
-A Village of the Corruptors|QID|45575|M|31.4,25|Z|Highmountain|N|From Navarrogg.|PRE|45726|
-C Village of the Corruptors|QID|45575|M|29,28|Z|Highmountain|N|Kill Feltotem Infusers.|
+;Rumblings Near Feltotem|QID|45560;47018;47019;47020
+F Witchwood|QID|45560;47018;47019;470209|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45560;47018;47019;47020|
+T Rumblings Near Feltotem|QID|45560;47018;47019;47020|M|35.73,23.99|Z|Highmountain|N|Run down the path to find Navarrogg on the Misty Coast.|
+A The Burning Birds|QID|45564|M|35.73,23.99|Z|Highmountain|N|From Navarrogg.|PRE|45560+47018+47019+47020|
+C The Burning Birds|QID|45564|QO|1|M|33.40,23.32|Z|Highmountain|N|Click on the corpses to remove the fel infusing totems. Move quickly away to avoid the debuff. If you are squishy and get hit with the debuff, heal, eat, bandage, something... quickly.|
+T The Burning Birds|QID|45564|M|31.31,25.15|Z|Highmountain|N|To Navarrogg.|
+A The Tainted Marsh|QID|45726|M|31.31,25.15|Z|Highmountain|N|From Navarrogg.|PRE|45564|
+C The Tainted Marsh|QID|45726|QO|1|M|31.31,25.15|Z|Highmountain|CHAT|N|Ask Navarrogg for a ride (or travel on your own.)|
+C The Tainted Marsh|QID|45726|QO|2|M|28.70,33.10|Z|Highmountain|N|Kill the seabound ghosts and THEN use the item on their corpse.|U|143863|
+T The Tainted Marsh|QID|45726|M|31.31,25.15|Z|Highmountain|N|To Navarrogg.|
+A Village of the Corruptors|QID|45575|M|31.31,25.15|Z|Highmountain|N|From Navarrogg.|PRE|45726|
+C Village of the Corruptors|QID|45575|M|29.76,27.82|Z|Highmountain|N|Kill Feltotem Infusers.|
 T Village of the Corruptors|QID|45575|M|29,28|Z|Highmountain|N|To Navarrogg who is following you around (annoying you when you try to loot).|
 A The Feltotem Menace|QID|45587|M|29,28|Z|Highmountain|N|To Navarrogg.|PRE|45575|
-C The Feltotem Menace|QID|45587|M|32,32|Z|Highmountain|N|Approach and fight Tugar.|
-T The Feltotem Menace|QID|45587|M|31.4,25|Z|Highmountain|N|To Navarrogg (if you died he is back where you originally met him.)|
-A Destroying the Nest|QID|45796|M|31.4,25|Z|Highmountain|N|From Navarrogg.|PRE|45587|
-C Destroying the Nest|QID|45796|QO|1|M|33,27|Z|Highmountain|N|Enter the cave. (don't kill the Fel Broodmaster until you are on that step, somewhat slow respawn.)|
-C Destroying the Nest|QID|45796|QO|2|M|34,31|Z|Highmountain|S|NC|N|Run over the eggs (or AE) to destroy them .|
-C Destroying the Nest|QID|45796|QO|3|M|34,31|Z|Highmountain|N|Kill Legion forces.|
-C Destroying the Nest|QID|45796|QO|2|M|34,34|Z|Highmountain|US|NC|N|Finish destoying eggs.|
-C Destroying the Nest|QID|45796|QO|2|M|34,34|Z|Highmountain|N|The Fel Broodmaster is on the lower level.|
-T Destroying the Nest|QID|45796|M|31.4,25|Z|Highmountain|N|To Navarrogg.|
-A Triumphant Report|QID|45841|M|31.4,25|Z|Highmountain|N|From Navarrogg.|PRE|45796|
+C The Feltotem Menace|QID|45587|M|32.18,32.45|Z|Highmountain|N|Approach and fight Tugar.|
+T The Feltotem Menace|QID|45587|M|31.31,25.15|Z|Highmountain|N|To Navarrogg (if you died he is back where you originally met him.)|
+A Destroying the Nest|QID|45796|M|31.31,25.15|Z|Highmountain|N|From Navarrogg.|PRE|45587|
+C Destroying the Nest|QID|45796|QO|1|M|33,27|Z|Highmountain|NC|N|Enter the cave. (don't kill the Fel Broodmaster until you are on that step, somewhat slow respawn.)|
+C Destroying the Nest|QID|45796|QO|3|M|34,31|Z|Highmountain|S|NC|N|Run over the eggs (or AE) to destroy them .|
+C Destroying the Nest|QID|45796|QO|2|M|34,31|Z|Highmountain|N|Kill Legion forces.|
+C Destroying the Nest|QID|45796|QO|3|M|34,34|Z|Highmountain|US|NC|N|Finish destoying eggs.|
+C Destroying the Nest|QID|45796|QO|4|M|34,34|Z|Highmountain|N|The Fel Broodmaster is to your right as you are leaving.|
+T Destroying the Nest|QID|45796|M|31.31,25.15|Z|Highmountain|N|To Navarrogg.|
+A Triumphant Report|QID|45841|M|31.31,25.15|Z|Highmountain|N|From Navarrogg.|PRE|45796|
 P Dalaran|QID|45841|M|31.4,25|Z|Highmountain|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45841|
 T Triumphant Report|QID|45841|M|28.8,48.8|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
 
@@ -430,11 +457,10 @@ A One Step Behind|QID|45193|M|59.7,27.4|N|From Karam Magespear.|PRE|45192|
 P Dalaran|QID|45193|M|59.7,27.4|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45193|
 T One Step Behind|QID|45193|M|28.48,48.30|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 
-A A Gift From the Six|QID|45863|M|28.35,48.93|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45843+46177+46340+46200+45841+45127+45193|
-C A Gift From the Six|QID|45863|M|30.43,48.95|Z|Dalaran@Dalaran70|NC|N|Stand in the center of the rug and use your extra action button to receive the Council's gift.|
-T A Gift From the Six|QID|45863|M|28.45,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
+A A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.35,48.93|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45843+46177+46340+46200+45841+45127+45193|
+C A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|30.43,48.95|Z|Dalaran@Dalaran70|NC|N|Stand in the center of the rug and use your extra action button to receive the Council's gift.|
+T A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.45,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera. After turning in the quest return to your order hall and spend your artifact power in your freshly empowered weapon.|
 
-F Deliverance Point|QID|46501|N|Fly back to Deliverance Point, make your donation to the construction effort and turn in the archeology quest.|
 ]]
 
 end)
