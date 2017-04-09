@@ -957,6 +957,7 @@ DefineDungeonArea( 971,23,"Lunarfall Excavation@Lunarfall","Lunarfall","Lunarfal
 DefineInstance( 976,0,"Frostwall")
 DefineInstance(1009,0,"Stormshield")
 DefineInstance(1011,0,"Warspear")
+DefineInstance(1072, 0,"TrueshotLodge","TrueshotLodge")
 DefineTerrain(2,50, 614,0,"Abyssal Depths")
 DefineTerrain(2,51, 615,0,"Shimmering Expanse")
 DefineTerrain(2,51, 610,0,"Kelp'thar Forest")
