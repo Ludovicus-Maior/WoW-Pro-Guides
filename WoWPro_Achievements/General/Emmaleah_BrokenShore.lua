@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2017-04-10 07:31
+-- Who: Emmaleah
+-- Log: 2 more WQs today 45542 Behind Enemy Portals (3rd variation) and 47132 Fel Fire and Ice (I could swear I had added this one before...)
+
+-- URL: http://wow-pro.com/node/3724/revisions/28643/view
+-- Date: 2017-04-09 09:58
+-- Who: Emmaleah
+-- Log: Fix coordinates in Twisted Twin quest chain.
+
+-- URL: http://wow-pro.com/node/3724/revisions/28642/view
 -- Date: 2017-04-09 09:12
 -- Who: Emmaleah
 -- Log: updated from a new character running thru from start to finish on day 1 at broken shore. fixed some bad QIDs bad QOs etc.
@@ -119,6 +129,9 @@ C Minion! Kill That One Too!|QID|46707|M|72.34,40.98|N|Kill Brethkaz the Dominat
 R The Hijacked Portal|QID|46832|M|43.45,58.51;47.13,58.15;49.41,55.85|CS|N|Run down the path to do some world quests and head towards Aalgen Point.|
 C Behind Enemy Portals|QID|45520|QO|1|M|48.93,55.32|N|Enter Demonic Portal.|
 C Behind Enemy Portals|QID|45520|QO|2|M|50.09,57.56|N|Start killing spiders and eventually their boss shows up. Kill Arachniarch Bybee to finish the quest.|T|Arachniarch Bybee.|
+C Behind Enemy Portals|QID|45542|QO|1|M|48.93,55.32|N|Enter Demonic Portal.|
+C Behind Enemy Portals|QID|45542|QO|2|M|45.19,56.11|CHAT|N|Talk to Tehd for a disguise.|
+C Behind Enemy Portals|QID|45542|QO|3|M|48.83,55.02|N|Loot the treasure chests, avoid the all-seeing eyes. If you get seen, your disguise will resume when you are out of combat.|
 C Behind Enemy Portals|QID|45559|QO|1|M|48.10,55.61|N|Enter Demonic Portal.|
 C Behind Enemy Portals|QID|45559|QO|2|M|50.74,55.69|N|Kill Pit Commander Galvinoth.|T|Pit Commander Galvinoth|
 C Hellish Scavengers|QID|45985|M|57.10,56.71|S|QO|1|N|Pick up Ravaged Supplies.|
@@ -140,6 +153,7 @@ C Mud Mucking|QID|46825|M|63.85,48.31|N|Click on the dirt mounds to find the coi
 C Grave Robbin'|QID|46501|M|49.73,46.83|NC|N|Loot the Soul Ruin treasure, it is under a clogged doorway of the crashed legion ship.|
 C The Wailing Dead|QID|46063|M|54.45,44.63|N|Kill the undead floating around in this valley.|
 C Break Their Garrison|QID|46073|M|51.70,52.82|N|Kill demons in the area. Clicking the books will grant you a 2 min buff.|
+C Fel Fire and Ice|QID|47132|M|53.65,65.60|N|The special action button does damage in a cone in front of you. Kill stuff (with or without using the button) until your bar reaches 100%.|
 C By Water Be Purged|QID|46201|M|63.61,57.25|QO|1|CHAT|N|Talk to Champion Aquaclease to start join forces.|
 C By Water Be Purged|QID|46201|M|60.31,51.77|QO|2|N|Go up the hill and with the elementals (vehicle UI) abilities kill the demons to reach 100%.|
 C The Call of Battle|QID|45035|QO|2|M|66.35,47.06|S|NC|N|Use your special action button while targeting one of the floating crystals or book.|
@@ -156,7 +170,7 @@ A Vengeance Point|QID|46845|M|70.79,47.60|N|From Heidirk the Scalekeeper.
 
 ;WQs beetween Aalgen Point and Vengeance Point.
 C Seeking Lost Knowledge|QID|47067|M|82.54,45.08|QO|1|NC|U|147449|N|Run around the waters edge from Aalgen point to the Beach at Felfire Pass. Stand near the purplish sparkly thing and click it to recover knowledge from Felfire Pass.|
-C War Materiel|QID|45791|M|86.10,55.20|N|The felslag drops from the mobs and is also lying on the ground.|
+C War Materiel|QID|45791|M|79.04,40.88|N|The felslag drops from the mobs and is also lying on the ground.|
 C Seeking Lost Knowledge|QID|47067|M|79.83,44.42;75.60,36.34|CS|QO|3|U|147449|NC|N|Through Felfire Pass, up on top of the rocks, not inside is another "Remnant of Lost knowledge" to recover.|
 C Seeking Lost Knowledge|QID|47067|M|71.91,40.77|QO|2|U|147449|NC|N|This one is also on top of the rocks (not inside the Lost Temple). Be careful crossing the rocks as there is a cravasse into the Lost Temple.|
 C Brute Wrangling|QID|46068|M|71,33|QO|1|N|Hop on a Subdued Punisher (Vehicle UI).|
@@ -437,29 +451,31 @@ P Dalaran|QID|45127|M|25.6,57.6|Z|Azsuna|N|Return to Dalaran and report your fin
 T Fel-Crossed Lovers|QID|45127|M|28.8,48.8|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
 
 ;Twisted Twin|QID|45182;47037;47039;47041;47042|
-T Twisted Twin|QID|45182;47037;47039;47041;47042|M|49,39|Z|Dalaran@Dalaran70|N|To Karam Magespear.|
-A Message from the Shadows|QID|45185|M|49,39|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45182+47037+47039+47041+47042|
-C Message from the Shadows|QID|45185|M|49,39|Z|Dalaran@Dalaran70|NC|N|Go upstairs and investigate Raest's stuff.|
-T Message from the Shadows|QID|45185|M|49,39|Z|Dalaran@Dalaran70|N|To Karam Magespear.|
-A Secrets in the Underbelly|QID|45187|M|49,39|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45185|
+T Twisted Twin|QID|45182;47037;47039;47041;47042|M|49.40,39.77|Z|Dalaran@Dalaran70|N|To Karam Magespear.|
+A Message from the Shadows|QID|45185|M|49.40,39.77|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45182+47037+47039+47041+47042|
+C Message from the Shadows|QID|45185|M|47.06,39.02|Z|Dalaran@Dalaran70|NC|N|Go upstairs and investigate Raest's stuff.|
+T Message from the Shadows|QID|45185|M|49.40,39.77|Z|Dalaran@Dalaran70|N|To Karam Magespear.|
+A Secrets in the Underbelly|QID|45187|M|49.40,39.77|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45185|
 C Secrets in the Underbelly|QID|45187|M|49,39|Z|Dalaran@Dalaran70|CHAT|N|Go down into Dalaran's Underbelly and Speak with (or kill) all the Nethersworn mobs until you get a 'Nethersworn Manifesto'. Hiring a body guard will make this go easier.|
-T Secrets in the Underbelly|QID|45187|M|49,39|Z|Dalaran@Dalaran70|N|To Sewer Guard.|
-A Wisdom of the Council|QID|45188|M|49,39|Z|Dalaran@Dalaran70|N|From Sewer Guard.|PRE|45187|
-T Wisdom of the Council|QID|45188|M|28.8,48.8|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-A Where it's Thinnest|QID|45190|M|28.8,48.8|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|PRE|45188|
+T Secrets in the Underbelly|QID|45187|M|49,39|Z|Dalaran@Dalaran70|N|To Karam Magespear.|
+A Wisdom of the Council|QID|45188|M|49,39|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45187|
+T Wisdom of the Council|QID|45188|M|28.61,47.74|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
+A Where it's Thinnest|QID|45190|M|28.61,47.74|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|PRE|45188|
 F Vengeance Point|QID|45190|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45190|
-T Where it's Thinnest|QID|45190|M|56.61,27.20|N|To Karam Magespear.|
-A Runes of Rending|QID|45192|M|56.61,27.20|N|From Karam Magespear.|PRE|45190|
+T Where it's Thinnest|QID|45190|M|56.45,27.35|N|To Karam Magespear.|
+A Runes of Rending|QID|45192|M|56.45,27.35|N|From Karam Magespear.|PRE|45190|
 C Runes of Rending|QID|45192|QO|1|M|56.61,27.20|NC|N|Go slowly, be sure of your steps, DO NOT try to go diaganally, Purple runes are leathal, light blue are good. Work your way thru the maze. There is a 28 step path on wowhead if you want to follow it.|
-C Runes of Rending|QID|45192|QO|2|M|56.1,27.1|N|Defeat Thar'kith.|T|Thar'kith|
-T Runes of Rending|QID|45192|M|59.7,27.4|N|To Karam Magespear.|
-A One Step Behind|QID|45193|M|59.7,27.4|N|From Karam Magespear.|PRE|45192|
+C Runes of Rending|QID|45192|QO|2|M|59.43,27.34|N|Defeat Thar'kith.|T|Thar'kith|
+T Runes of Rending|QID|45192|M|59.81,27.45|N|To Karam Magespear.|
+A One Step Behind|QID|45193|M|59.81,27.45|N|From Karam Magespear.|PRE|45192|
 P Dalaran|QID|45193|M|59.7,27.4|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45193|
 T One Step Behind|QID|45193|M|28.48,48.30|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 
 A A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.35,48.93|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45843+46177+46340+46200+45841+45127+45193|
 C A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|30.43,48.95|Z|Dalaran@Dalaran70|NC|N|Stand in the center of the rug and use your extra action button to receive the Council's gift.|
 T A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.45,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera. After turning in the quest return to your order hall and spend your artifact power in your freshly empowered weapon.|
+
+D Guide Reset|N|Be sure and come back tomorrow for more fun and games on the Broken Shore.|ACH|11796|
 
 ]]
 
