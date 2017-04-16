@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2017-04-13 05:07
+-- Who: Emmaleah
+-- Log: 2 more WQs No Soldier Left Behind, The United Front.  Champions of Legionfall quest chain needs to be added to the individual class guides.
+
+-- URL: http://wow-pro.com/node/3724/revisions/28644/view
 -- Date: 2017-04-10 07:31
 -- Who: Emmaleah
 -- Log: 2 more WQs today 45542 Behind Enemy Portals (3rd variation) and 47132 Fel Fire and Ice (I could swear I had added this one before...)
@@ -83,19 +88,20 @@ A Greater Power for Greater Threats|QID|46744|M|44.74,63.28|N|From Archmage Khad
 A The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|From Archmage Khadgar. If your artifact does not have the Paragon trait empowered (35+) this quest will not be available. You will need to do this in each spec if you want to empower all your artifacts.|ACH|11144;;true|PRE|46940|
 N The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|At some point this item will drop randomly while doing other quests/farming on the island. Unknown at this time how your 2nd or 3rd artifact empowering quest starts.|ACTIVE|46765|
 N The Shadow of the Sentinax|QID|46935|M|61.52,48.29|N|At some point you will find a 'Broken Sentianax Beacon' when you fight under the Sentinax (location varies, marked on your map). Turning in this quests enables you to loot items that will open portals and allow more nethershard farming.|
-A The Mage Tower|QID|46772|M|44.54,63.15|N|From Commander Chambers. Available when the Mage tower is freshly built.|ACH|11546;3|
+A The Mage Tower|QID|46772|M|44.54,63.15|N|From Commander Chambers. Available when the Mage tower is   built.|ACH|11546;3|
 A The Nether Disruptor|QID|46774|M|44.54,63.15|N|From Commander Chambers. Available when the Nether Disrupter is freshly built.|ACH|11546;3|
 A Defending the Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46286|
+A Champions of Legionfall|QID|47137|M|44.54,63.55|N|From Maiev Shadowsong. The completion guide for this will be in your class guides.|PRE|46247|
 C The Mage Tower|QID|46772|M|45.03,62.48|N|Click on the scroll floating in front of the building.|
 A The Highlord's Return|QID|45416|M|45.69,62.04|N|Only available if the Mage Tower is built.|PRE|45843|
 t The Mage Tower|QID|46772|M|44.54,63.15|N|To Commander Chambers.|
 C The Nether Disruptor|QID|46774|M|41.20,64.65|N|Click on the scroll floating at the base for the Nether Disruptor.|
 A Spiders, Huh?|QID|46499|M|39.54,71.66|N|From Excavator Karla.|PRE|46245|
-A Grave Robbin'|QID|46501|M|39.54,71.66|N|From Excavator Karla.|PRE|46499;-46665|
-A Tomb Raidering|QID|46509|M|39.54,71.66|N|From Excavator Karla.|PRE|46501;-46665|
-A Ship Graveyard|QID|46510|M|39.54,71.66|N|From Excavator Karla.|PRE|46509;-46665|
-A We're Treasure Hunters|QID|46511|M|39.54,71.66|N|From Excavator Karla.|PRE|46510;-46665|
-A The Motherlode|QID|46666|M|39.54,71.66|N|From Excavator Karla.|PRE|46511;-46665|
+A Grave Robbin'|QID|46501|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46499;-46665|
+A Tomb Raidering|QID|46509|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46501;-46665|
+A Ship Graveyard|QID|46510|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46509;-46665|
+A We're Treasure Hunters|QID|46511|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46510;-46665|
+A The Motherlode|QID|46666|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46511;-46665|
 C The Motherlode|QID|46666|M|47,67|QO|1|NC|N|Go to the marked spot and click on the 'peculiar rope' to enter the cave.|
 C The Motherlode|QID|46666|M|44,56|QO|2|NC|N|Iks'Reeged will be happy to trade Nethershards for keys, and you can open all the chests you feel you can afford...|
 t The Motherlode|QID|46666|M|39.54,71.66|N|To Excavator Karla. You can return to the cave anytime you are feeling a need to gamble away excess nethershards.|
@@ -108,6 +114,8 @@ C Fowl Play|QID|45934|M|43.25,78.51|QO|2|NC|S|N|Pick up Saltwater Crane Eggs.|
 C Fowl Play|QID|45934|M|42.88,78.15|QO|1|N|Kill Seascale Crocolisks.|
 C Fowl Play|QID|45934|M|43.25,78.51|QO|2|NC|US|N|Finish picking up the Saltwater Crane Eggs.|
 C Fowl Play|QID|45934|M|40.40,81.79|QO|3|NC|US|N|Finish rescueing the Saltwater Cranes.|
+C No Soldier Left Behind|QID|44751|M|45.66,67.15|QO|1|NC|N|Entrance to cave, you can get down to cave entrance from directly above via grappling hooks. go in and release prisoners from the cages.|
+C No Soldier Left Behind|QID|44751|M|42.09,66.53|QO|2|N|Azrok can be found at the highest level of the cave.|T|Azrok the Torturer|
 C Winged Terrors|QID|44748|M|48.44,70.61|QO|2|S|N|Pick up the shipwreaked supplies lying around.  They also drop from the Wyrmtongue mobs.|
 C Winged Terrors|QID|44748|M|48.44,70.61|QO|1|N|Picking up the 'salvaged spears' off the ground and using them via extra action button will kill them. (Spells will kill them also.)|
 C Winged Terrors|QID|44748|M|48.44,70.61|QO|2|US|N|Finish collecting shipwreaked supplies.|
@@ -184,6 +192,7 @@ C We're Treasure Hunters|QID|46511|M|75,21|NC|N|This chest is just sitting on th
 C Spiders, Huh?|QID|46499|M|43.44,31.39|NC|N|Loot the chest.|
 C Tomb Raidering|QID|46509|M|67,16|NC|N|This is up, inside the area around the raid entrance. Loot the chest.|
 C Malificus|QID|46948|M|59.74,28.26|N|This is a elite (raid) mob.|T|Malificus|
+C The United Front|QID|46325|M|58.56,28.81|N|Kill demons in the area.|
 R Vengeance Point|QID|46845|M|71.15,41.49;71.31,35.18;68.41,32.57;66.41,32.94;56.25,29.48;53.53,32.30;51.58,31.98|CS|N|Down the moonlight ascent and up the Path of Suffering.|
 C Duty's End|QID|45970|M|65.35,33.74|N|Kill stuff, pick up stuff off the ground. Get to 100%. Win!|
 C I Fel Bat For You|QID|46066|M|66.87,30.51|QO|2|S|N|Run at the whelplings to scatter them.|
@@ -476,7 +485,6 @@ C A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|30.43,48.9
 T A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.45,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera. After turning in the quest return to your order hall and spend your artifact power in your freshly empowered weapon.|
 
 D Guide Reset|N|Be sure and come back tomorrow for more fun and games on the Broken Shore.|ACH|11796|
-
 ]]
 
 end)

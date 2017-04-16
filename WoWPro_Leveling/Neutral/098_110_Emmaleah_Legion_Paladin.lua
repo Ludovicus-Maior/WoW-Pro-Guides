@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2017-04-13 11:24
+-- Who: Emmaleah
+-- Log: added champions of legionfall
+
+-- URL: http://wow-pro.com/node/3673/revisions/28591/view
 -- Date: 2017-03-23 19:30
 -- Who: Ludovicus
 -- Log: Spelling
@@ -575,6 +580,41 @@ T An Urgent Warning|QID|45974|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
 A Investigate the Broken Shore|QID|45975|PRE|45974|M|52.26,78.14|N|From Lord Maxwell Tyrosus.|
 C Menace on the Broken Shore|QID|45975|M|53.49,78.52|N|Use Command Board to send on Mission.|
 t Investigate the Broken Shore|QID|45975|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
+
+;champions of legionfall
+A Judgement Awaits|QID|45143|M|50.22,74.05|N|From Lady Leadrin.|ACTIVE|47137|
+C Judgement Awaits|QID|45143|M|75.69,53.86|Z|Eastern Plaguelands|NC|N|Go outside (to Lights Hope Chapel, not Dalaran) and use the provided extra action button to judge the troops.|
+T Judgement Awaits|QID|45143|M|59.35,32.42|N|To Delas Moonfang back in your order hall.|
+A Ancestors and Enemies|QID|45890|M|59.35,32.42|N|From Delas Moonfang.|PRE|45143|
+P Dalaran|QID|45890|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|45890|
+F Starsong Refuge|QID|45890|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45890|
+C Ancestors and Enemies|QID|45890|M|66.77.53.45|Z|Val'sharah|N|Go inside the house in Shadowfen.|
+T Ancestors and Enemies|QID|45890|M|66.77.53.45|Z|Val'sharah|N|To Erelyn Moonfang.|
+A Darkbinder Dilemma|QID|46259|M|66.77.53.45|Z|Val'sharah|N|From Erelyn Moonfang.|PRE|45890|
+C Darkbinder Dilemma|QID|46259|M|65.70,59.55|Z|Val'sharah|N|Kill Darkbinder Elissath in Moonrest.|T|Darkbinder Elissath|
+T Darkbinder Dilemma|QID|46259|M|66.77.53.45|Z|Val'sharah|N|To Erelyn Moonfang.|
+A Moonfang Family Relics|QID|45145|M|66.77.53.45|Z|Val'sharah|N|From Erelyn Moonfang.|PRE|46259|
+C Moonfang Family Relics|QID|45145|M|66.91,53.14;65.90,50.89;64.83,51.37|CN|Z|Val'sharah|NC|N|You are looking for 3 chests. One is upstairs in the Moonfang Home. one is located on the main floor of each of the other two houses in Shadowfen.|
+T Moonfang Family Relics|QID|45145|M|59.35,32.42|N|To Delas Moonfang back in your order hall.|
+A Runic Reading|QID|45146|M|59.35,32.42|N|From Delas Moonfang.|PRE|45145|
+C Runic Reading|QID|45146|N|Go wherever on the Broken Isles and kill demons to collect the Demon Blood.|
+t Runic Reading|QID|45146|M|59.35,32.42|N|To Delas Moonfang.|
+A Felstone Destruction|QID|45147|M|59.35,32.42|N|From Delas Moonfang.|PRE|45146|
+C Felstone Destruction|QID|45147|M|58.76,31.58|NC|N|Step forward and click on the pendant on the table.|
+T Felstone Destruction|QID|45147|M|58.85,31.72|N|To Nerus Moonfang.|
+A Oath Breaker|QID|45148|M|58.85,31.72|N|From Nerus Moonfang.|PRE|45147|
+A Ending the Crescent Curse|QID|45149|M|58.85,31.72|N|From Nerus Moonfang.|PRE|45147|
+P Dalaran|QID|45890|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|45147|
+F Vengeance Point|QID|45148|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45147|
+C Ending the Crescent Curse|QID|45149|M|55.33,18.02|Z|Broken Shore|S|N|Use the provided extra action button with the Felbound Spirits targetted.|T|Felbound Spirit|
+C Oath Breaker|QID|45148|M|55.33,18.02|Z|Broken Shore|N|Kill Oathbinder Zorak|T|Oathbinder Zorak|
+C Ending the Crescent Curse|QID|45149|M|55.33,18.02|Z|Broken Shore|US|N|Finish freeing the Felbound Spirits.|T|Felbound Spirit|
+T Oath Breaker|QID|45148|M|58.85,31.72|N|To Nerus Moonfang.|
+T Ending the Crescent Curse|QID|45149|M|58.85,31.72|N|To Nerus Moonfang.|
+A Champion: Nerus Moonfang|QID|46045|M|58.85,31.72|N|From/To Nerus Moonfang.|
+P Dalaran|QID|45890|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|47137|
+F Vengeance Point|QID|45148|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|47137|
+T Champions of Legionfall|QID|47137|M|44.53,63.53|Z|Broken Shore|N|To Maiev Shadowsong. You can now train the next order hall advancement.|
 
 ]]
 end)
