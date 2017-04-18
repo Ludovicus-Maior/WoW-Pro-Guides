@@ -430,7 +430,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	end
 	
 	if event == "PLAYER_ENTERING_BATTLEGROUND" then
-	    WoWPro:Print("|cff33ff33Battleground Auto Hide|r: %s Module",g uidetype)
+	    WoWPro:Print("|cff33ff33Battleground Auto Hide|r: %s Module",guidetype)
         WoWPro.MainFrame:Hide()
         WoWPro.Titlebar:Hide()
         WoWPro.Hidden = event
