@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2017-04-23 22:52
+-- Who: Ludovicus
+-- Log: Missing N tag for  Malorne's blessing
+
+-- URL: http://wow-pro.com/node/3669/revisions/28638/view
 -- Date: 2017-04-07 21:58
 -- Who: Emmaleah
 
@@ -321,7 +326,7 @@ C Archimonde, The Defiler|QID|42054|M|25.78,30.66|Z|MalornesNightmare|N|Defeat A
 T Archimonde, The Defiler|QID|42054|M|66.21,66.80|Z|MalornesNightmare|N|To Malorne.|
 A The Demi-God's Return|QID|42055|M|66.21,66.80|Z|MalornesNightmare|N|From Malorne.|PRE|42054|
 P Emerald Dreamway|QID|42055|M|63.16,70.21|Z|MalornesNightmare|N|Run through the portal back into the Emerald Dreamway (or use Dreamwalk.) and then into The Dreamgrove.|
-C The Demi-God's Return|QID|42055|M|65.70,33.18|NC|Run up to Malorne's statue and receive his blessing.|
+C The Demi-God's Return|QID|42055|M|65.70,33.18|NC|N|Run up to Malorne's statue and receive his blessing.|
 T The Demi-God's Return|QID|42055|M|44.57,50.12|N|To Keeper Remulos.|
 A Champion: Remulos|QID|42056|M|44.57,50.12|N|From/To Keeper Remulos.|
 A A Hero's Weapon|QID|43409|M|44.67,51.97|N|From Rensar Greathoof.|PRE|42055|

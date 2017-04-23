@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2017-04-23 22:50
+-- Who: Ludovicus
+-- Log: Correct bad coord 66.77.53.45
+
+-- URL: http://wow-pro.com/node/3673/revisions/28646/view
 -- Date: 2017-04-13 11:24
 -- Who: Emmaleah
 -- Log: added champions of legionfall
@@ -588,9 +593,9 @@ T Judgement Awaits|QID|45143|M|59.35,32.42|N|To Delas Moonfang back in your orde
 A Ancestors and Enemies|QID|45890|M|59.35,32.42|N|From Delas Moonfang.|PRE|45143|
 P Dalaran|QID|45890|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|45890|
 F Starsong Refuge|QID|45890|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45890|
-C Ancestors and Enemies|QID|45890|M|66.77.53.45|Z|Val'sharah|N|Go inside the house in Shadowfen.|
-T Ancestors and Enemies|QID|45890|M|66.77.53.45|Z|Val'sharah|N|To Erelyn Moonfang.|
-A Darkbinder Dilemma|QID|46259|M|66.77.53.45|Z|Val'sharah|N|From Erelyn Moonfang.|PRE|45890|
+C Ancestors and Enemies|QID|45890|M|66.77,53.45|Z|Val'sharah|N|Go inside the house in Shadowfen.|
+T Ancestors and Enemies|QID|45890|M|66.77,53.45|Z|Val'sharah|N|To Erelyn Moonfang.|
+A Darkbinder Dilemma|QID|46259|M|66.77,53.45|Z|Val'sharah|N|From Erelyn Moonfang.|PRE|45890|
 C Darkbinder Dilemma|QID|46259|M|65.70,59.55|Z|Val'sharah|N|Kill Darkbinder Elissath in Moonrest.|T|Darkbinder Elissath|
 T Darkbinder Dilemma|QID|46259|M|66.77.53.45|Z|Val'sharah|N|To Erelyn Moonfang.|
 A Moonfang Family Relics|QID|45145|M|66.77.53.45|Z|Val'sharah|N|From Erelyn Moonfang.|PRE|46259|
