@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2017-04-23 21:49
+-- Who: Ludovicus
+-- Log: Add STRATEGY|RikadeLevel| for Christoph VonFeasel
+
+-- URL: http://wow-pro.com/node/3459/revisions/28307/view
 -- Date: 2017-03-08 00:04
 -- Who: Ludovicus
 -- Log: Everything
@@ -264,6 +269,14 @@ T Darkmoon Pet Battle!|QID|32175|M|47.04,62.74|N|To Jeremy Feasel|
 
 A A New Darkmoon Challenger!|QID|36471|SPELL|Revive Battle Pets;125439;true|M|47.29,61.98|N|From Christoph VonFeasel.|
 ; Syd (H1694, P319, S300), Pointy(H1694, P319, S300), Otto(H1694, P319, S300)
+N VonFeasel|ACTIVE|36471|PET1|Enchanted Broom;33227;2+2+2|PET2|Iron Starlette;77221;1+2+1;S>270|PET3|Leveling;;;|STRATEGY|RikadeLevel|
+C Broom|QID|36471|STRATEGY|RikadeLevel|N|1) [ability=457/sweep] and Otto enters.\n2) [ability=459/wind-up]\n3) Switch to Starlette|SELECT|1|SWITCH|2|
+C Starlette .vs. Otto|QID|36471|STRATEGY|RikadeLevel|N|1) [ability=459/wind-up]\n2) [ability=208/supercharge]\n3) [ability=459/wind-up] and Syd enters.|SELECT|2|D
+C Starlette .vs. Syd|QID|36471|STRATEGY|RikadeLevel|N|1) [ability=640/toxic-smoke] x 3\n2) Switch to level pet|SELECT|2|SWITCH|3|
+C Level .vs. Syd|QID|36471|STRATEGY|RikadeLevel|N|1) Switch to Broom after round is done.|SELECT|3|SWITCH|1|
+C Broom .vs. Pointy|QID|36471|STRATEGY|RikadeLevel|N|1) [ability=457/sweep] and Mr. Pointy enters.\n2) [ability=459/wind-up] x3|SELECT|1|DEAD|2,2|
+C Broom .vs. Syd|QID|36471|STRATEGY|RikadeLevel|N|1) [ability=455/batter] to death.|SELECT|1|DEAD|2,1|
+
 N VonFeasel|ACTIVE|36471|PET1|Bronze Whelpling;7546;2+1+1;P>300|PET2|Leveling;;;|PET3|Iron Starlette;77221;1+1+1;S>270|STRATEGY|LudoVonFeaselLevel|
 C Whelp .vs. Syd|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) Spam [ability=122/tail-sweep]\n2) [ability=170/lift-off] when 1 round left on [ability=513/whirlpool]|SELECT|1|DEAD|2,1|
 C Whelp .vs. Pointy|QID|36471|STRATEGY|LudoVonFeaselLevel|N|1) [ability=405/early-advantage]\n2) Die gracefully and switch in the leveling pet.|SELECT|1|DEAD|1,1|SWITCH|2|

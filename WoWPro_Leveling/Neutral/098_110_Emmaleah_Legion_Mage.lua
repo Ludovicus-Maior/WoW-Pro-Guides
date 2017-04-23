@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2017-04-23 21:47
+-- Who: Ludovicus
+-- Log: Add missing ACTIVE|44479| on Ravencrest's Legacy
+
+-- URL: http://wow-pro.com/node/3671/revisions/28617/view
 -- Date: 2017-03-28 22:02
 -- Who: Ludovicus
 -- Log: Fix crystal ball cooords.
@@ -274,8 +279,8 @@ A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@MageClassShri
 C An Unclear Path|QID|44466|M|45.35,34.15|Z|Val'sharah|N|Witness Illidan's Resilience.|
 T An Unclear Path|QID|44466|M|83.40,32.72|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart {Xe'ra}|
 A Ravencrest's Legacy|QID|44479|M|83.40,32.72|Z|Hall of the Guardian@MageClassShrine|N|From Light's Heart {Xe'ra}|PRE|44466|
-F Ravencrest's Legacy|QID|44479|M|66.87,45.53|N|Experience Ravencrest's Legacy, Fly to Bradensbrook, or use your Teleportation Nexus: Val'sharah|
-R Ravencrest's Legacy|QID|44479|M|41.79,46.84|Z|Val'sharah|N|Upper level, of Ravencourt, Right side after you cross bridge.|
+F Ravencrest's Legacy|QID|44479|ACTIVE|44479|M|66.87,45.53|N|Experience Ravencrest's Legacy, Fly to Bradensbrook, or use your Teleportation Nexus: Val'sharah|
+R Ravencrest's Legacy|QID|44479|ACTIVE|44479|M|41.79,46.84|Z|Val'sharah|N|Upper level, of Ravencourt, Right side after you cross bridge.|
 C Surrounded by Darkness|QID|44479|Z|BlackRookHoldScenario|SO|1|N|Report to Kur'talos Ravencrest.|
 C Preparing for the Apocalypse|QID|44479|M|0.00,0.00|Z|BlackRookHoldScenario|SO|2;1|N|Repair the Deactivated Moon Guard Portal.|
 C The Road to Fel|QID|44479|M|44.28,49.40|Z|BlackRookHoldScenario|SO|3;1|N|Secure the rampart by defeating Xalian Felblaze.|
