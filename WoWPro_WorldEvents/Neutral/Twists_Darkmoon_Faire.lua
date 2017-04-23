@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2017-04-23 22:11
+-- Who: Ludovicus
+-- Log: Ooops, truncated line.
+
+-- URL: http://wow-pro.com/node/3459/revisions/28650/view
 -- Date: 2017-04-23 21:49
 -- Who: Ludovicus
 -- Log: Add STRATEGY|RikadeLevel| for Christoph VonFeasel
@@ -271,7 +276,7 @@ A A New Darkmoon Challenger!|QID|36471|SPELL|Revive Battle Pets;125439;true|M|47
 ; Syd (H1694, P319, S300), Pointy(H1694, P319, S300), Otto(H1694, P319, S300)
 N VonFeasel|ACTIVE|36471|PET1|Enchanted Broom;33227;2+2+2|PET2|Iron Starlette;77221;1+2+1;S>270|PET3|Leveling;;;|STRATEGY|RikadeLevel|
 C Broom|QID|36471|STRATEGY|RikadeLevel|N|1) [ability=457/sweep] and Otto enters.\n2) [ability=459/wind-up]\n3) Switch to Starlette|SELECT|1|SWITCH|2|
-C Starlette .vs. Otto|QID|36471|STRATEGY|RikadeLevel|N|1) [ability=459/wind-up]\n2) [ability=208/supercharge]\n3) [ability=459/wind-up] and Syd enters.|SELECT|2|D
+C Starlette .vs. Otto|QID|36471|STRATEGY|RikadeLevel|N|1) [ability=459/wind-up]\n2) [ability=208/supercharge]\n3) [ability=459/wind-up] and Syd enters.|SELECT|2|DEAD|2,3|
 C Starlette .vs. Syd|QID|36471|STRATEGY|RikadeLevel|N|1) [ability=640/toxic-smoke] x 3\n2) Switch to level pet|SELECT|2|SWITCH|3|
 C Level .vs. Syd|QID|36471|STRATEGY|RikadeLevel|N|1) Switch to Broom after round is done.|SELECT|3|SWITCH|1|
 C Broom .vs. Pointy|QID|36471|STRATEGY|RikadeLevel|N|1) [ability=457/sweep] and Mr. Pointy enters.\n2) [ability=459/wind-up] x3|SELECT|1|DEAD|2,2|
