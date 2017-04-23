@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2017-04-23 23:13
+-- Who: Ludovicus
+-- Log: Dup QO in P Orgrimmar¦QID¦44480¦
+
+-- URL: http://wow-pro.com/node/3679/revisions/28631/view
 -- Date: 2017-04-05 02:57
 -- Who: Blanckaert
 -- Log: finished playing through quests.. minor adjustments, added or corrected coords.
@@ -409,7 +414,7 @@ P Stormwind City|QID|44480|FACTION|ALLIANCE|ACTIVE|44480|M|39.20,63.20|Z|Dalaran
 P Mount Hyjal|QID|44480|ACTIVE|44480|PRE|25316|M|75.99,18.71|Z|Stormwind City|QO|1|N|Take the Portal to Mount Hyjal.|
 b Rut'theran Village|QID|44480|ACTIVE|44480|AVAILABLE|25316|M|22.69,55.96|Z|Stormwind City|QO|1|N|Take the boat to Rut'theran Village.|FACTION|ALLIANCE|
 F Forest Song|QID|44480|ACTIVE|44480|AVAILABLE|25316|M|55.44,88.48|Z|Teldrassil|QO|1|N|Fly to Forest Song, Ashenvale, at Vesprystus|FACTION|ALLIANCE|
-P Orgrimmar|QID|44480|QO|1|M|55.33,24.04|Z|Dalaran@Dalaran70|QO|1|N|Take the portal to Orgrimmar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|44480|
+P Orgrimmar|QID|44480|M|55.33,24.04|Z|Dalaran@Dalaran70|QO|1|N|Take the portal to Orgrimmar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|44480|
 F Bilgewater Harbor|QID|44480|QO|1|M|49.43,59.20|Z|Orgrimmar|N|Talk to Doras to take the Flight Path. If you want to fly directly, or don't have this Flight path, click this step to skip it.|FACTION|HORDE|ACTIVE|44480|
 R Temple of Zin-Malor - Azshara|QID|44480|ACTIVE|44480|M|35.1,49.9|Z|Azshara|QO|1|N|Mount up and fly to Azshara.|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|

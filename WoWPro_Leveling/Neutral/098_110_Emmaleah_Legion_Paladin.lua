@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2017-04-23 23:14
+-- Who: Ludovicus
+-- Log: Bad Coords 66.77.53.45
+
+-- URL: http://wow-pro.com/node/3673/revisions/28652/view
 -- Date: 2017-04-23 22:50
 -- Who: Ludovicus
 -- Log: Correct bad coord 66.77.53.45
@@ -597,8 +602,8 @@ C Ancestors and Enemies|QID|45890|M|66.77,53.45|Z|Val'sharah|N|Go inside the hou
 T Ancestors and Enemies|QID|45890|M|66.77,53.45|Z|Val'sharah|N|To Erelyn Moonfang.|
 A Darkbinder Dilemma|QID|46259|M|66.77,53.45|Z|Val'sharah|N|From Erelyn Moonfang.|PRE|45890|
 C Darkbinder Dilemma|QID|46259|M|65.70,59.55|Z|Val'sharah|N|Kill Darkbinder Elissath in Moonrest.|T|Darkbinder Elissath|
-T Darkbinder Dilemma|QID|46259|M|66.77.53.45|Z|Val'sharah|N|To Erelyn Moonfang.|
-A Moonfang Family Relics|QID|45145|M|66.77.53.45|Z|Val'sharah|N|From Erelyn Moonfang.|PRE|46259|
+T Darkbinder Dilemma|QID|46259|M|66.77,53.45|Z|Val'sharah|N|To Erelyn Moonfang.|
+A Moonfang Family Relics|QID|45145|M|66.77,53.45|Z|Val'sharah|N|From Erelyn Moonfang.|PRE|46259|
 C Moonfang Family Relics|QID|45145|M|66.91,53.14;65.90,50.89;64.83,51.37|CN|Z|Val'sharah|NC|N|You are looking for 3 chests. One is upstairs in the Moonfang Home. one is located on the main floor of each of the other two houses in Shadowfen.|
 T Moonfang Family Relics|QID|45145|M|59.35,32.42|N|To Delas Moonfang back in your order hall.|
 A Runic Reading|QID|45146|M|59.35,32.42|N|From Delas Moonfang.|PRE|45145|
