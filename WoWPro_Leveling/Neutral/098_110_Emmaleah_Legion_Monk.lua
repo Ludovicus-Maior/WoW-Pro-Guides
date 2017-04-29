@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2017-04-29 03:12
+-- Who: Emmaleah
+-- Log: added questchain for extra follower
+
+-- URL: http://wow-pro.com/node/3672/revisions/28590/view
 -- Date: 2017-03-23 19:30
 -- Who: Ludovicus
 -- Log: Spelling
@@ -517,5 +522,49 @@ J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you w
 J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
 J On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|GUIDE|Blanc_Suramar|
 
+A A Brewing Situation|QID|45440|M|51.55,48.41|N|From Brewmaster Blanche.|ACTIVE|47137|
+C A Brewing Situation|QID|45440|QO|1|M|51.00,55.81|NC|N|Click on the keg here.|
+C A Brewing Situation|QID|45440|QO|1|M|50.82,59.20|NC|N|Click on the keg here.|
+C A Brewing Situation|QID|45440|QO|1|M|54.00,58.33|NC|N|Click on the keg here.|
+T A Brewing Situation|QID|45440|M|51.40,48.39|N|To Iron-Body Ponshu.|
+A Panic at the Brewery|QID|45404|M|51.30,48.42|N|From Brewer Almai.|
+C Panic at the Brewery|QID|45404|QO|1|M|47.15,47.76|CHAT|N|Ask Tak-Tak for a ride.|
+C Panic at the Brewery|QID|45404|SO|1|M|30.59,49.12|Z|StormstoutBreweryScenario/2|NC|N|Click on the door.|
+C Detoxification|QID|45404|SO|2;1|M|20.05,54.91|Z|StormstoutBreweryScenario/2|S|NC|N|Use your Detox spell on the brewers.|
+C Detoxification|QID|45404|SO|2;2|M|20.05,54.91|Z|StormstoutBreweryScenario/2|NC|N|Click on the barrels of Storm Brew.|
+C Detoxification|QID|45404|SO|2;1|M|20.05,54.91|Z|StormstoutBreweryScenario/2|US|NC|N|Use your Detox spell on the brewers.|
+C Maniacal Laughter...|QID|45404|M|23.09,26.79;23.66,25.41|Z|StormstoutBreweryScenario/3|CS|SO|3||N|Break down to front doors to get outside.|
+C Chug It!|QID|45404|Z|Stormstout Brewery|M|23.66,25.41|Z|StormstoutBreweryScenario/3|SO|4|N|Drink the Storm Brew. You won't explode. Unless you are secretly a demon...|
+C Demon Overload|QID|45404|M|40.92,32.92;45.63,47.19;64.10,30.82|Z|StormstoutBreweryScenario/1|CS|SO|5|N|Close the legion portals to stop the attack on the brewery!|
+C Brewmasters Attack!|QID|45404|M|72.18,32.79|Z|StormstoutBreweryScenario/1|SO|6|S|N|Step on the blue circle for a quick jump to the porch Blanche is on.|
+C Panic at the Brewery|QID|45404|QO|2|M|72.18,32.79|Z|StormstoutBreweryScenario/1|CHAT|N|Talk to Brewer Almai to go report.|
+T Panic at the Brewery|QID|45404|M|51.53,48.41|N|To Spirit of Brewmaster Blanche.|
+A Storming the Legion|QID|45459|M|51.53,48.41|N|From Spirit of Brewmaster Blanche.|PRE|45404|
+C Storming the Legion|QID|45459|M|47.15,47.76|CHAT|QO|1|N|Ask Tak-Tak for a ride.|
+T Storming the Legion|QID|45459|M|53.62,53.44|Z|Broken Shore|N|To Brewer Almai.|
+A Fel Ingredients|QID|45574|M|53.62,53.44|Z|Broken Shore|N|From Brewer Almai.|PRE|45459|
+A Alchemist Korlya|QID|45449|M|53.62,53.44|Z|Broken Shore|N|From Brewer Almai.|PRE|45459|
+A Barrel Toss|QID|45545|M|53.62,53.44|Z|Broken Shore|N|From Brewer Almai.|PRE|45459|
+C Fel Ingredients|QID|45574|M|54.53,48.16|Z|Broken Shore|S|N|Kill Elementals for the Ash, and Felskorn for the Blood. The Felflame comes from cauldren's around the area.|
+C Barrel Toss|QID|45545|M|58.50,43.09|Z|Broken Shore|S|U|146308|N|Use the brew to blow up the fel spreaders.  Works on the other mobs too.|
+C Alchemist Korlya|QID|45449|M|61.55,42.55|Z|Broken Shore|T|Alchemist Korlya|N|Kill Alchemist Korlya.|
+C Barrel Toss|QID|45545|M|58.50,43.09|Z|Broken Shore|S|U|146308|N|Finish blowing up the fel spreaders.|
+C Fel Ingredients|QID|45574|M|54.53,48.16|Z|Broken Shore|S|N|Finish collecting the needed ingrediants.|
+T Fel Ingredients|QID|45574|M|53.59,53.46|Z|Broken Shore|N|To Brewer Almai.|
+T Alchemist Korlya|QID|45449|M|53.59,53.46|Z|Broken Shore|N|To Brewer Almai.|
+T Barrel Toss|QID|45545|M|53.59,53.46|Z|Broken Shore|N|To Brewer Almai.|
+A Hope For a Cure|QID|46320|M|53.59,53.46|Z|Broken Shore|N|From Brewer Almai.|PRE|45574;45449;45545|
+T Hope For a Cure|QID|46320|M|50.49,57.89|N|To Spirit of Brewmaster Blanche.|
+A Not Felling Well|QID|45442|M|50.49,57.89|N|From Spirit of Brewmaster Blanche.|PRE|46320|
+C Not Felling Well|QID|45442|M|50.44,57.91|QO|1|NC|N|Click on the still to produce the Curative Brew.|
+C Not Felling Well|QID|45442|M|52.87,57.88|QO|2|NC|N|Click on the Fel-Poisoned Initiates to cure them.|
+T Not Felling Well|QID|45442|M|50.48,57.88|N|To Spirit of Brewmaster Blanche.|
+A A Time for Everything|QID|45771|M|50.48,57.88|N|From Spirit of Brewmaster Blanche.|PRE|45771|
+C A Time for Everything|QID|45771|M|51.38,48.41|NC|N|Click on Iron-Body Ponshu to cure him.|
+T A Time for Everything|QID|45771|M|51.38,48.41|N|To Iron-Body Ponshu.|
+A Champion: Almai|QID|45790|M|51.58,48.47|N|From/To Brewer Almai.|PRE|45771|
+A Further Advancement|QID|46785|M|52.78,59.80|N|From Master Hsu.|PRE|45771|
+C Further Advancement|QID|46785|M|53.06,59.82|NC|N|Talk to Number Nine Jia and choose your next advancement.|
+T Further Advancement|QID|46785|M|52.78,59.76|N|To Master Hsu.|
 ]]
 end)

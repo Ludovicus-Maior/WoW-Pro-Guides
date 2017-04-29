@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2017-04-29 03:15
+-- Who: Emmaleah
+-- Log: legionfall quest chain for new follower.
+
+-- URL: http://wow-pro.com/node/3670/revisions/28588/view
 -- Date: 2017-03-23 19:27
 -- Who: Ludovicus
 -- Log: Spelling
@@ -581,6 +586,44 @@ J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you wi
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
 J On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically for other errends for you order hall.|GUIDE|Blanc_Suramar|
+
+;legionfall additions
+A Devastating Effects|QID|45551|M|46.41,34.91|N|From Shandris Feathermoon.|ACTIVE|47137|
+F Meridil|QID|45551|M|35.81,27.63|N|At Odan Battlebow...or travel to Suramar via your own methods.|ACTIVE|47137|
+T Devastating Effects|QID|45551|M|52.23,48.85|Z|Suramar|N|To D'Bynn.|PRE|45552|
+A Soothing Wounds|QID|45552|M|52.23,48.85|Z|Suramar|N|From D'Bynn.|PRE|45551|
+C Soothing Wounds|QID|45552|QO|1|M|54.60,48.74|Z|Suramar|NC|N|Move to one of the purplish/white sparkly leylines on the ground and use your extra action button. When that leyline is exhausted, move to the next until you have foraged all the manaroot needed.|
+C Soothing Wounds|QID|45552|QO|2|52.23,48.85|Z|Suramar|NC|N|Return to D'Bynn and click on him.|
+T Soothing Wounds|QID|45552|M|52.23,48.85|Z|Suramar|N|To D'Bynn.|
+A The Nighthuntress Beckons|QID|45553|M|52.23,48.85|Z|Suramar|N|From D'Bynn.|PRE|45552|
+C The Nighthuntress Beckons|QID|45553|M|52.23,48.85|Z|Suramar|NC|N|Click on D'Bynn for a right to Nighthuntress Syrenne.|
+T The Nighthuntress Beckons|QID|45553|M|57.48,44.79|Z|Suramar|N|To Nighthuntress Syrenne.|
+A Taking Control|QID|45554|M|57.48,44.79|Z|Suramar|N|From Nighthuntress Syrenne.|PRE|45553|
+C Taking Control|QID|45554|QO|1|M|60.87,49.95|Z|Suramar|N|Kill Torturer Relyn and loot his orb.|T|Torturer Relyn|
+C Taking Control|QID|45554|QO|2|M|57.48,44.79|Z|Suramar|NC|N|Back to the Nighthuntress' cage, click on it to free her.|
+T Taking Control|QID|45554|M|57.48,44.79|Z|Suramar|N|To Nighthuntress Syrenne.|
+A Felbound Beasts|QID|45555|M|57.48,44.79|Z|Suramar|N|From Nighthuntress Syrenne.|PRE|45554|
+C Felbound Beasts|QID|45555|QO|2|M|60.52,44.74|Z|Suramar|S|N|Kill Felbourne and Nightborne Trappers.|
+C Felbound Beasts|QID|45555|QO|1|M|60.52,44.74|Z|Suramar|NC|N|Click on the felbound beasts to free them.|
+C Felbound Beasts|QID|45555|QO|2|M|60.52,44.74|Z|Suramar|US|N|Finish off the Felbourne and Nightborne Trappers.|
+T Felbound Beasts|QID|45555|M|59.41,41.22;55.78,42.20|CS|Z|Suramar|N|To Nighthuntress Syrenne. (If you can fly you can ignore the first coordinate.)|
+A Ready to Strike|QID|45556|M|55.78,42.20|Z|Suramar|N|From Nighthuntress Syrenne.|PRE|45555|
+F Vengeance Point, Broken Shore|QID|45556|M|64.31,41.91|Z|Suramar|N|At Ancient Cloudwing. Hearth, Fly or otherwise travel to the Broken Shore.|
+T Ready to Strike|QID|45556|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
+A Unnatural Consequences|QID|45556|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45556|
+A Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45556|
+C Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|S|NC|N|As you are travelling to kill Nighthuntress Lexera, click on the fel infected animals you come across.|
+C Unnatural Consequences|QID|45556|M|42.63,36.47;41.83,34.14|CS|Z|Broken Shore|N|Kill Nighthuntress Lexera.|T|Nighthuntress Lexera.|
+C Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|US|NC|N|Finish applying the salve as you travel back to Syrenne.|
+T Unnatural Consequences|QID|45556|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
+T Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
+A Secured Surroundings|QID|46235|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45557;46060|
+F Delivererance Point|QID|46235|M|44.77,61.12|Z|Broken Shore|N|Travel to Deliverance Point to meet up with Nighthuntress Syrenne.|ACTIVE|46235|
+T Secured Surroundings|QID|46235|M|44.77,61.12|Z|Broken Shore|N|To Nighthuntress Syrenne.|
+A Champion: Nighthuntress Syrenne|QID|46048|M|44.77,61.12|Z|Broken Shore|N|From/To Nighthuntress Syrenne.|PRE|46235|
+A Further Advancement|QID|46783|M|41.46,21.72|N|From Tactician Tinderfell, next time you are in your order hall.|PRE|46235|
+C Further Advancement|QID|46783|M|58.64,51.10|N|Go see Survivalist Bahn and pick your next order hall advancement.|
+A Further Advancement|QID|46783|M|41.46,21.72|N|To Tactician Tinderfell.|
 
 ]]
 end)

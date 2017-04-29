@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2017-04-29 03:13
+-- Who: Emmaleah
+-- Log: added questchain for new follower in 7.2
+
+-- URL: http://wow-pro.com/node/3674/revisions/28592/view
 -- Date: 2017-03-23 19:32
 -- Who: Ludovicus
 -- Log: Spelling
@@ -625,6 +630,53 @@ T An Urgent Warning|QID|46028|M|51.41,45.88|N|To Moira Thaurissan.|
 A Investigate the Broken Shore|QID|46029|PRE|46028|M|51.41,45.88|N|From Moira Thaurissan.|
 C Menace on the Broken Shore|QID|46029|M|49.23,48.61|N|Use Command Board to send on Mission.|
 t Investigate the Broken Shore|QID|46029|M|51.41,45.88|N|To Moira Thaurissan.|
+
+A A Curious Contagion|QID|45343|M|51.58,47.79|N|From Alonsus Faol.|ACTIVE|47137|
+P Dalaran|QID|45343|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|45343|
+R Krasus' Landing|QID|45343|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45343|
+F Sylvan Falls, Highmountain|QID|45343|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45343|
+R Pass of An'she|QID|45343|M|35.48,63.56;29.66,56.32|CS|Z|Highmountain|N|Run to the Pass of An'she.|
+T A Curious Contagion|QID|45343|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
+A Sampling the Source|QID|45344|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45343|
+A Shambling Specimens|QID|45346|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45343|
+A Mischievous Sprites|QID|45345|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45343|
+C Mischievous Sprites|QID|45345|M|30.28,49.90|Z|Highmountain|N|While walking down the hill,  Cast Dispel Magic on the Soothoof Hillstriders to reveal the Mischievous Sprites, then kill the sprites to loot the Shimmering Dust.|
+C Shambling Specimens|QID|45346|M|26.14,37.90|Z|Highmountain|N|Target the shambling corpses and cast Shackle Undead, after they are shackled, you use the provided item to collect them.|
+C Sampling the Source|QID|45344|M|25.17,37.18|Z|Highmountain|NC|N|Click on a serpant idol to gain immunity from the poison, then collect the contaminated specimans from the ground.|
+T Sampling the Source|QID|45344|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
+T Shambling Specimens|QID|45346|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
+T Mischievous Sprites|QID|45345|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
+A Crafting a Cure|QID|45347|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45344;45345;45346|
+C Crafting a Cure|QID|45347|QO|1|NC|M|29.99,55.86|Z|Highmountain|N|Click on the potion (sitting on the table).|
+C Crafting a Cure|QID|45347|QO|2|NC|M|29.99,55.86|Z|Highmountain|N|Click on the potion (sitting on the table) and then target Roland Abernathy and use the extra action button.|
+C Crafting a Cure|QID|45347|QO|3|NC|M|29.99,55.86|Z|Highmountain|N|Click on the potion again(still sitting on the table).|
+C Crafting a Cure|QID|45347|QO|4|NC|M|29.99,55.86|Z|Highmountain|N|Click on the potion again(still sitting on the table) and then target Roland Abernathy and use the extra action button.|
+C Crafting a Cure|QID|45347|QO|5|NC|M|30.00,55.79|Z|Highmountain|N|Click on Roland to rez him.|
+T Crafting a Cure|QID|45347|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
+A Safekeeping|QID|45348|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45348|
+H Dalaran|QID|45348|U|140192|N|Use your Dalaran Hearthstone and return to Alonsus Faol in your order hall.|ACTIVE|45348|
+T Safekeeping|QID|45348|M|51.58,47.79|N|To Alonsus Faol.|
+A To the Broken Shore|QID|45349|M|51.58,47.79|N|From Alonsus Faol.|PRE|45348|
+P Dalaran|QID|45349|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|45349|
+R Krasus' Landing|QID|45349|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45349|
+F Deliverance Point, Broken Shore|QID|45349|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45349|
+T To the Broken Shore|QID|45349|M|33.65,49.68|Z|Broken Shore|N|To Aelthalyste.|
+A Administering Aid|QID|45342|M|33.65,49.68|Z|Broken Shore|N|From Aelhalyste.|PRE|45349|
+A Countering the Contagion|QID|45350|M|33.65,49.68|Z|Broken Shore|N|From Aelthalyste.|PRE|45349|
+C Administering Aid|QID|45342|M|33.65,49.68|Z|Broken Shore|NC|S|U|143773|N|Give the potion to the people lying on the ground.|
+C Countering the Contagion|QID|45350|QO|1|NC|M|33.65,49.68|Z|Broken Shore|S|N|Click on the fel spreaders to disable them.|
+C Countering the Contagion|QID|45350|QO|2|M|29.22,63.86|Z|Broken Shore|N|Kill Ouk the Corrupter.|T|Ozzuk the Corrupter.|
+C Countering the Contagion|QID|45350|QO|1|NC|M|33.65,49.68|Z|Broken Shore|US|N|Finish disabling the fel spreaders.|
+C Administering Aid|QID|45342|M|33.65,49.68|Z|Broken Shore|NC|US|U|143773|N|Finish giving antidotes to the people lying on the ground.|
+T Administering Aid|QID|45342|M|33.65,49.68|Z|Broken Shore|N|To Aelthalyste.|
+T Countering the Contagion|QID|45350|M|33.65,49.68|Z|Broken Shore|N|To Aelthalyste.|
+A Sterile Surroundings|QID|46145|M|33.65,49.68|Z|Broken Shore|N|From Aelthalyste.|PRE|45342;45350|
+H Dalaran|QID|46145|U|140192|N|Use your Dalaran Hearthstone and return to your order hall.|ACTIVE|46145|
+T Sterile Surroundings|QID|46145|M|24.25,43.64|N|To Aelthalyste.|
+A Champion: Aelthalyste|QID|46034|M|24.25,43.64|N|From/To Aelthalyste.|PRE|46145|
+A Further Advancement|QID|46788|M|51.46,45.84|N|From Moira Thaurissan.|PRE|46034|
+C Further Advancement|QID|46788|M|56.07,40.71|N|Go see Archon Torias and research the next order hall advancement. (cost 10K resources.)|
+T Further Advancement|QID|46788|M|51.46,45.84|N|To Moira Thaurissan.|
 
 ]]
 end)
