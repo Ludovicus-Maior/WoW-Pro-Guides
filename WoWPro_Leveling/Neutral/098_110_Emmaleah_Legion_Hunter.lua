@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2017-04-30 00:17
+-- Who: Emmaleah
+-- Log: missing |M|
+
+-- URL: http://wow-pro.com/node/3670/revisions/28660/view
 -- Date: 2017-04-29 03:15
 -- Who: Emmaleah
 -- Log: legionfall quest chain for new follower.
@@ -593,7 +598,7 @@ F Meridil|QID|45551|M|35.81,27.63|N|At Odan Battlebow...or travel to Suramar via
 T Devastating Effects|QID|45551|M|52.23,48.85|Z|Suramar|N|To D'Bynn.|PRE|45552|
 A Soothing Wounds|QID|45552|M|52.23,48.85|Z|Suramar|N|From D'Bynn.|PRE|45551|
 C Soothing Wounds|QID|45552|QO|1|M|54.60,48.74|Z|Suramar|NC|N|Move to one of the purplish/white sparkly leylines on the ground and use your extra action button. When that leyline is exhausted, move to the next until you have foraged all the manaroot needed.|
-C Soothing Wounds|QID|45552|QO|2|52.23,48.85|Z|Suramar|NC|N|Return to D'Bynn and click on him.|
+C Soothing Wounds|QID|45552|QO|2|M|52.23,48.85|Z|Suramar|NC|N|Return to D'Bynn and click on him.|
 T Soothing Wounds|QID|45552|M|52.23,48.85|Z|Suramar|N|To D'Bynn.|
 A The Nighthuntress Beckons|QID|45553|M|52.23,48.85|Z|Suramar|N|From D'Bynn.|PRE|45552|
 C The Nighthuntress Beckons|QID|45553|M|52.23,48.85|Z|Suramar|NC|N|Click on D'Bynn for a right to Nighthuntress Syrenne.|
