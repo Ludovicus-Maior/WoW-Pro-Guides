@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3675
+-- Date: 2017-05-02 05:57
+-- Who: Emmaleah
+-- Log: Added Legionfall Champion quest chain
+
+-- URL: http://wow-pro.com/node/3675/revisions/28609/view
 -- Date: 2017-03-26 01:15
 -- Who: Emmaleah
 -- Log: missed ";" after 43501 ... 7 times... :(
@@ -514,13 +519,65 @@ C The Power Within|QID|43501;43505|N|Switch to the Azsuna guide (or not) and do 
 T The Power Within|QID|43496;43501;43503;43505|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
 A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496;43501;43503;43505|
 
-C Investigate the Broken Shore|QID|45992|M|37.92,45.26|NC|N|Use scouting map to do the requested mission. This mission requires ilvl 830 champions, so it may be awhile before you can complete it.|
-
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
+
+;Legionfall
+C Investigate the Broken Shore|QID|45992|M|37.92,45.26|NC|N|Use scouting map to do the requested mission. This mission requires ilvl 830 champions, so it may be awhile before you can complete it.|
+
+;done on alliance char, coords may not be exact but should be close for Horde
+A The Pirate's Bay|QID|45833;46322|M|41.45,77.88|N|From Lord Jorach Ravenholdt.|ACTIVE|47137|
+R Krasus' Landing|QID|45833|M|65.18,42.73|Z|Dalaran@Dalaran70|N|Run to Krasus' Landing to take a flight (or travel to Black Rook Hold any other way)|ACTIVE|45833|
+F Shackle's Den|QID|45833|M|69.86,51.32|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45833|
+t The Pirate's Bay|QID|45833|M|57.66,63.47|Z|Azsuna|N|To Princess Tess Graymane, who can be found along the road to the Temple of a Thousand Lights.|
+t The Pirate's Bay|QID|46322|M|57.66,63.47|Z|Azsuna|N|To Lilian Voss, who can be found along the road to the Temple of a Thousand Lights.|
+A What's the Cache?|QID|44758|M|57.66,63.47|Z|Azsuna|N|From Princess Tess Graymane.|PRE|45833|FACTION|ALLIANCE|
+A False Orders|QID|45835|M|57.66,63.47|Z|Azsuna|N|From Princess Tess Graymane.|PRE|45833|FACTION|ALLIANCE|
+A What's the Cache?|QID|46323|M|57.66,63.47|Z|Azsuna|N|From Lilian Voss.|PRE|46322|FACTION|HORDE|
+A False Orders|QID|46324|M|57.66,63.47|Z|Azsuna|N|From Lilian Voss.|PRE|46322|FACTION|HORDE|
+A Loot and Plunder!|QID|45073|M|57.65,63.56|Z|Azsuna|N|From Fleet Admiral Tethys.|PRE|45833|
+C Loot and Plunder!|QID|45073|M|58.95,66.05|Z|Azsuna|S|N|Burn the pirates booty as you do the other objectives.|
+C False Orders|QID|45835;46324|QO|1|M|61.04,68.26|Z|Azsuna|N|Click on the orders.|
+C False Orders|QID|45835;46324|QO|2|M|59.45,72.57|Z|Azsuna|N|Click on the orders.|
+C What's the Cache?|QID|44758;46323|M|59.59,78.00|Z|Azsuna|N|Kill Master Gunner Prix and loot the Fel-Infused Gunpowder Cache.|
+C Loot and Plunder!|QID|45073|M|58.95,66.05|Z|Azsuna|S|N|Finish burning the chests as you head back to turn in.|
+T Loot and Plunder!|QID|45073|M|57.65,63.56|Z|Azsuna|N|To Fleet Admiral Tethys.|
+T What's the Cache?|QID|44758|M|57.66,63.47|Z|Azsuna|N|To Princess Tess Graymane.|FACTION|ALLIANCE|
+T False Orders|QID|45835|M|57.66,63.47|Z|Azsuna|N|To Princess Tess Graymane.|FACTION|ALLIANCE|
+T What's the Cache?|QID|44758|M|57.66,63.47|Z|Azsuna|N|To Lilian Voss.|FACTION|HORDE|
+T False Orders|QID|45835|M|57.66,63.47|Z|Azsuna|N|To Lilian Voss.|FACTION|HORDE|
+A Fit For a Pirate|QID|45848|M|57.65,65.53|Z|Azsuna|N|From Crackers.|PRE|45073|
+A Jorach's Calling|QID|45836|M|57.66,63.47|Z|Azsuna|N|From Princess Tess Graymane. You can also add Crackers to you collection if you so choose.|PRE|45848|U|143679|FACTION|ALLIANCE|
+A Jorach's Calling|QID|46326|M|57.66,63.47|Z|Azsuna|N|From Lilian Voss. You can also add Crackers to you collection if you so choose.|PRE|45848|U|143679|FACTION|HORDE|
+P Dalaran|QID|45836;46326|M|57.66,63.47|Z|Azsuna|N|Use your Dalaran Hearthstone and run into the order hall.|U|140192|ACTIVE|45836;46326|
+T Jorach's Calling|QID|45836;46326|M|41.45,77.88|N|To Lord Jorach Ravenholdt.|
+A A Bit of Espionage|QID|45571|M|41.45,77.88|N|From Lord Jorach Ravenholdt.|PRE|45836|
+R Krasus' Landing|QID|45571|M|65.18,42.73|Z|Dalaran@Dalaran70|N|Run to Krasus' Landing to take a flight (or travel to Black Rook Hold any other way)|ACTIVE|45833|
+C A Bit of Espionage|QID|45571|M|65.18,42.73|Z|Dalaran@Dalaran70|CHAT|N|Choose the chat option for the free flight to Broken Shore.|
+T A Bit of Espionage|QID|45571|M|70.14,47.00|Z|Broken Shore|N|To Lord Jorach Ravenholdt.|
+A Rise Up|QID|45573;45576|M|70.14,47.00|Z|Broken Shore|N|From Lord Jorach Ravenholdt.|PRE|45571|
+C Rise Up|QID|45573|M|71.61,41.93|Z|Broken Shore|N|Kill demons as you go up the mountain to the top.|
+t Rise Up|QID|45573|M|71.61,41.93|Z|Broken Shore|N|To Princess Tess Graymane.|
+t Rise Up|QID|45576|M|71.61,41.93|Z|Broken Shore|N|To Lilian Voss.|
+A This Time Leave a Trail|QID|45628|M|71.61,41.93|Z|Broken Shore|N|From Princess Tess Graymane.|PRE|45573|FACTION|ALLIANCE|
+A This Time Leave a Trail|QID|45629|M|71.61,41.93|Z|Broken Shore|N|From Princess Tess Graymane.|PRE|45576|FACTION|HORDE|
+C This Time Leave a Trail|QID|45628;45629|QO|1|M|72.00,42.21|Z|Broken Shore|NC|N|The rappel point lights up when you accept the quest, go use it.|
+C This Time Leave a Trail|QID|45628;45629|QO|2|M|72.03,42.08|Z|Broken Shore|NC|N|Pick up the gunpowder beside where you land.|
+C This Time Leave a Trail|QID|45628;45629|QO|3|M|75.34,39.39|Z|Broken Shore|NC|N|Click on the 4 bombs. Last one is at the exit of the cavern. FYI, felhounds can see thru stealth, so unless you want to fight the whole place, you may want to avoid them.|
+C This Time Leave a Trail|QID|45628;45629|QO|4|M|76.62,40.13|Z|Broken Shore|NC|N|Click on the torch to light the gunpowder.|
+T This Time Leave a Trail|QID|45628;45629|M|76.87,39.79|Z|Broken Shore|N|To Lord Jorach Ravenholdt.|
+A Meld Into the Shadows|QID|46260;46827|M|76.87,39.79|Z|Broken Shore|N|From Lord Jorach Ravenholdt.|PRE|45628+46827|
+P Dalaran|QID|46260;46827|M|76.87,39.79|Z|Broken Shore|N|Use your Dalaran Hearthstone and run into the order hall.|U|140192|ACTIVE|46260|
+T Meld Into the Shadows|QID|46260;46827|M|41.45,77.88|N|To Lord Jorach Ravenholdt.|
+A Champion: Tess Graymane|QID|46059|M|42.40,75.77|N|From/To Princess Tess Graymane.|PRE|46260|FACTION|ALLIANCE|
+A Champion: Lilian Voss|QID|46058|M|42.40,75.77|N|From/To Lilian Voss|PRE|46827|FACTION|HORDE|
+A Further Advancement|QID|46779|M|37.89,45.16|N|From Nikki the Gossip.|PRE|46260;46827|
+C Further Advancement|QID|46779|M|45.89,69.15|N|Go visit Winstone Wolfe(and pick your next order advancement if you have the resources).|
+T Further Advancement|QID|46779|M|37.89,45.16|N|To Nikki the Gossip.|
+T Champions of Legionfall|QID|47137|M|44.54,63.55|Z|Broken Shore|N|To Maiev Shadowsong.(Next time you are in Broken Shore.)|
 
 ]]
 end)
