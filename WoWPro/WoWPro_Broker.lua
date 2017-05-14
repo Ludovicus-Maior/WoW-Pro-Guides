@@ -1213,7 +1213,19 @@ function WoWPro.NextStep(k,i)
 	        WoWPro.CompleteStep(k, "Taxi point known")
 	        skip = true
 	        break
-	    end	
+	    end
+
+        -- Complete Travel steps if we are in the right zone already
+        if WoWPro.action[k] == "F" or WoWPro.action[k] == "H" or WoWPro.action[k] == "b" or WoWPro.action[k] == "P" or WoWPro.action[k] == "R" then
+            local step = WoWPro.step[k]
+            local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
+		    if (step == zonetext or step == subzonetext) and not WoWProCharDB.Guide[GID].completion[k] then
+			    WoWPro.CompleteStep(k,"AutoCompleteZoneBroker")
+			    skip = true
+			    break
+			end
+        end
+
 	    -- Check for must be active quests
         if WoWPro.active and WoWPro.active[k] then
     		if not WoWPro:QIDsInTable(WoWPro.active[k],WoWPro.QuestLog) then 
@@ -1702,6 +1714,13 @@ function WoWPro.NextStep(k,i)
                     skip = true
                     break
                 end
+            end
+            -- if the step is conditionalized by the NPC tag for the opponent, then skip if not opponent.
+            -- useful when Blizzard changes up the order of the NPCs in pet battles
+            if WoWPro.NPC[k] and C_PetBattles.GetActivePet(LE_BATTLE_PET_ENEMY) ~= WoWPro.NPC[k] then
+                WoWPro.why[k] = "NextStep(): not active enemy " ..  tostring(WoWPro.NPC[k])
+                skip = true
+                break
             end
             -- SWITCH handling is done by WoWPro:RowUpdate(), which sets the use button to the next pet          
         end
