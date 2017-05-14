@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2017-05-14 22:51
+-- Who: Ludovicus
+-- Log: You can only have one Jubling per account, I think.
+
+-- URL: http://wow-pro.com/node/3459/revisions/28651/view
 -- Date: 2017-04-23 22:11
 -- Who: Ludovicus
 -- Log: Ooops, truncated line.
@@ -180,7 +185,7 @@ return [[
 
 B Fossil Archeology Fragments|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|LVL|90|RANK|3|
 
-B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Shadowforge City@BlackrockDepths|L|11325 10|U|37863|PET|14878;3|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there. (Note: Jubling isn't tradeable)|RANK|3|
+B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Shadowforge City@BlackrockDepths|L|11325 10|U|37863|PET|14878;1|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there. (Note: Jubling isn't tradeable)|RANK|3|
 B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|LVL|15|RANK|3|
 B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|LVL|15|RANK|3|
 B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|LVL|15|RANK|3|
@@ -345,9 +350,9 @@ C Collect 6 Darkblossom|QID|29514|QO|1|US|NC|
 T Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|To Chronos.|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
 
-N Jubling|QID|7946|M|55.8,70.6|U|11325|PET|14878;3|N|Somewhere in the forest resonably close to Morja is her lost frog Jubjub. He is hooked on Dark Iron Ale. If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured Jubjub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|RANK|3|
-A Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;3|RANK|3|
-T Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;3|N|You will recieved an egg, in 7 days it will hatch into a jubling, that you will be able to put into your pet journal.|RANK|3|
+N Jubling|QID|7946|M|55.8,70.6|U|11325|PET|14878;1|N|Somewhere in the forest resonably close to Morja is her lost frog Jubjub. He is hooked on Dark Iron Ale. If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured Jubjub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|RANK|3|
+A Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;1|RANK|3|
+T Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;1|N|You will recieved an egg, in 7 days it will hatch into a jubling, that you will be able to put into your pet journal.|RANK|3|
 
 B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6030;1|L|74142 6|FACTION|Alliance|RANK|3|
 B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6031;1|L|74142 6|FACTION|Horde|RANK|3|
@@ -398,8 +403,8 @@ C Talkin' Tonks|QID|29511|U|72110|US|NC|
 T Rearm, Reuse, Recycle|QID|29518|M|49.41,60.83|N|From Rinling.|
 T Talkin' Tonks|QID|29511|M|49.41,60.83|N|From Rinling.|
 T Keeping the Faire Sparkling|QID|29516|M|54.84,70.66|N|From Chronos.|
-T Spoilin' for Salty Sea Dogs|QID|29513|M|52.88,67.92|N|To Stamp Thunderhorn.|
 T Putting Trash to Good Use|QID|29510|M|52.94,75.94|N|To Sayge.|
+T Spoilin' for Salty Sea Dogs|QID|29513|M|52.88,67.92|N|To Stamp Thunderhorn.|
 
 C Baby Needs Two Pair of Shoes|QID|29508|NC|M|50.87,81.80|N|Shoe Baby.|U|71967|
 T Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|

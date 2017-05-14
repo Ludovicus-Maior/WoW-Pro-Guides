@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_tamers_draenor
+-- Date: 2017-05-14 22:46
+-- Who: Ludovicus
+-- Log: Add icon for MPD with Ashlei
+
+-- URL: http://wow-pro.com/node/3643/revisions/28331/view
 -- Date: 2017-03-10 23:33
 -- Who: Ludovicus
 -- Log: Syntax changes.
@@ -61,7 +66,7 @@ A Ashlei|QID|37203|STRATEGY|LudoAshlei|M|50.0,31.2|Z|Shadowmoon Valley@Draenor|N
 C Pixiebell|QID|37203|STRATEGY|LudoAshlei|N|1) [ability=334/Decoy]\n2) [ability=115/breath] spam until Pixiebell dies.\n3) Switch to leveling pet.|SELECT|1|SWITCH|2|
 C Doodle|QID|37203|STRATEGY|LudoAshlei|N|1) Hit poor Doodle with anything\n2) Then switch to Zepplin|SELECT|2|SWITCH|3|
 C Tally|QID|37203|STRATEGY|LudoAshlei|N|1) [ability=647/BombingRun]\n2) [ability=777/Missile] spam until Tally dies.\n3) Switch to Dragonling for plushie|SELECT|3|DEAD|2,3|SWITCH|1|
-C Doodle|QID|37203|STRATEGY|LudoAshlei|N|1) Kill the poor, defenseless plushie, Doodle, with whatever you want. :-(|DEAD|2,2|SELECT|1|
+C Doodle|QID|37203|STRATEGY|LudoAshlei|N|1) Kill the poor, defenseless plushie, Doodle, with whatever you want. :-(|DEAD|2,2|SELECT|1|SWITCH|1|
 T Ashlei|QID|37203|M|50.0,31.2|Z|Shadowmoon Valley@Draenor|N|To Ashlei|
 
 F Veil Terokk|AVAILABLE|37207|N|Fly to Veil Terokk.|M|45.57,25.40|Z|Shadowmoon Valley@Draenor|
