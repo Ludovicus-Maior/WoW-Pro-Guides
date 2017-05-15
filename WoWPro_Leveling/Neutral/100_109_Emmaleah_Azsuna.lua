@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2017-05-14 22:49
+-- Who: Ludovicus
+-- Log: Change [Kill Golza the Iron Fin] to use ACH|11261;2| for completion.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28621/view
 -- Date: 2017-03-29 05:33
 -- Who: Emmaleah
 -- Log: Type LEAD, not PRE on the two I meant to change yesterday.
@@ -594,7 +599,7 @@ T The Head of the Snake|QID|37470|M|61.70,41.08|N|To Prince Farondis.|
 A Wrath of Azshara|QID|38286|PRE|37470|M|61.70,41.08|NA|N|From Prince Farondis. Thia ia a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
 $ Small Treasure Chest|QID|42294|M|62.81,44.79|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42293|M|63.64,39.18|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Golza the Iron Fin|QID|42372|QO|1|M|65.17,40.02|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|;can not find QID for this encounter
+K Kill Golza the Iron Fin|QID|42372|ACH|11261;2|M|65.17,40.02|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|; There are ACH's for all silvers in this zone.
 C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|US|N|Finish this up or check it off manually.|RANK|2|
 t Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|N|Auto turned in when complete.|RANK|2|
 

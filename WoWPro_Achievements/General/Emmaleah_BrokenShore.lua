@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2017-05-05 19:42
+-- Who: Emmaleah
+-- Log: add last 3 weeks "compelling new content"
+
+-- URL: http://wow-pro.com/node/3724/revisions/28662/view
 -- Date: 2017-05-02 03:00
 -- Who: Emmaleah
 -- Log: exact coords for The Thieving Apprentice Chain, Remove the two steps I had with QID|99999 because honestly they were more trouble than they were worth. (i.e. i was tired of manually checking them off)
@@ -111,6 +116,14 @@ C The Motherlode|QID|46666|M|47,67|QO|1|NC|N|Go to the marked spot and click on 
 C The Motherlode|QID|46666|M|44,56|QO|2|NC|N|Iks'Reeged will be happy to trade Nethershards for keys, and you can open all the chests you feel you can afford...|
 t The Motherlode|QID|46666|M|39.54,71.66|N|To Excavator Karla. You can return to the cave anytime you are feeling a need to gamble away excess nethershards.|
 t The Nether Disruptor|QID|46774|M|44.54,63.15|N|To Commander Chambers.|
+A Shard Times|QID|46251|M|44.74,63.29|N|From Archmage Khadgar.|PRE|46775|
+C Shard Times|QID|46251|M|44.74,63.29|N|Assuming you have 2500 shards, you can immediately turn this in.  You get almost all of them back.|
+t Shard Times|QID|46251|M|44.74,63.29|N|To Archmage Khadgar.|
+A Mark of the Sentinax|QID|47139|M|44.76,63.29|N|From Lord Illidan Stormrage.|PRE|46251|
+C Mark of the Sentinax|QID|47139|N|Go to wherever the Sentinax is and farm marks.|
+t Mark of the Sentinax|QID|47139|M|44.76,63.29|N|To Lord Illidan Stormrage.|
+A Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|From Prophet Velen.|PRE|47139|
+t Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|From Prophet Velen.|PRE|47139|
 
 ;WQs south of Deliverance Point
 C Illidari Masters: Nameless Mystic|QID|46113|M|38.69,72.14|N|Pet Battle.|

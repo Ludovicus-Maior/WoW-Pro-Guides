@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2017-05-05 19:35
+-- Who: Emmaleah
+-- Log: removed dup z tag in C Chug it
+
+-- URL: http://wow-pro.com/node/3672/revisions/28658/view
 -- Date: 2017-04-29 03:12
 -- Who: Emmaleah
 -- Log: added questchain for extra follower
@@ -534,7 +539,7 @@ C Detoxification|QID|45404|SO|2;1|M|20.05,54.91|Z|StormstoutBreweryScenario/2|S|
 C Detoxification|QID|45404|SO|2;2|M|20.05,54.91|Z|StormstoutBreweryScenario/2|NC|N|Click on the barrels of Storm Brew.|
 C Detoxification|QID|45404|SO|2;1|M|20.05,54.91|Z|StormstoutBreweryScenario/2|US|NC|N|Use your Detox spell on the brewers.|
 C Maniacal Laughter...|QID|45404|M|23.09,26.79;23.66,25.41|Z|StormstoutBreweryScenario/3|CS|SO|3||N|Break down to front doors to get outside.|
-C Chug It!|QID|45404|Z|Stormstout Brewery|M|23.66,25.41|Z|StormstoutBreweryScenario/3|SO|4|N|Drink the Storm Brew. You won't explode. Unless you are secretly a demon...|
+C Chug It!|QID|45404|M|23.66,25.41|Z|StormstoutBreweryScenario/3|SO|4|N|Drink the Storm Brew. You won't explode. Unless you are secretly a demon...|
 C Demon Overload|QID|45404|M|40.92,32.92;45.63,47.19;64.10,30.82|Z|StormstoutBreweryScenario/1|CS|SO|5|N|Close the legion portals to stop the attack on the brewery!|
 C Brewmasters Attack!|QID|45404|M|72.18,32.79|Z|StormstoutBreweryScenario/1|SO|6|S|N|Step on the blue circle for a quick jump to the porch Blanche is on.|
 C Panic at the Brewery|QID|45404|QO|2|M|72.18,32.79|Z|StormstoutBreweryScenario/1|CHAT|N|Talk to Brewer Almai to go report.|
