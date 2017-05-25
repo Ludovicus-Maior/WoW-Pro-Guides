@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2017-05-25 22:46
+-- Who: Ludovicus
+-- Log:  CS and use ACH tags for silver kills that dont have tracking quests.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28674/view
 -- Date: 2017-05-25 17:36
 -- Who: Emmaleah
 -- Log: minor tweaks; changed some AVAILABLE tags to LEAD, some NC tags added
@@ -247,11 +252,6 @@
 -- Who: Blanckaert
 -- Log: date adjustment... moved note line
 
--- URL: http://wow-pro.com/node/3687/revisions/28072/view
--- Date: 2016-11-29 22:53
--- Who: Blanckaert
--- Log: run guide through game to make sure you have the error 'fixed' before posting.
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideAutoSwitch(guide)
@@ -479,7 +479,7 @@ T Feeding Shal'Aran|QID|41138|M|36.97,46.21|N|To Arcanist Valtrois.|
 
 ; Nightfallen But Not Forgotten - Masquerade Story Line
 
-P Elune'eth|QID|41762|M|36.34,44.89|N|Take the Elune'eth portal out.|
+P Ruins of Elune'eth|QID|41762|M|36.34,44.89|N|Take the Elune'eth portal out.|
 R The Grand Promenade|QID|41762|M|37.19,46.32;41.63,54.04|CS|N|Follow the road Southeast, then turn left on the road encircling the port.|
 K Kill Apothecary Faldren|QID|43580|QO|1|M|42.37,56.33|ITEM|121754|T|Apothecary Faldren|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 R Lunastre Estate|QID|41762|M|39.05,70.55|N|Continue on the Grand Promanade (encirling road) until you meet up with Silgryn.|
@@ -505,7 +505,7 @@ T Masquerade|QID|42079|M|43.37,78.77|N|To Ly'leth Lunastre.|
 A First Contact|QID|42147|M|43.37,78.77|N|From Ly'leth Lunastre.|PRE|42079|
 A Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|PRE|40956|
 T Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|N|To Unpowered Telemancy Beacon.|
-K Kill Magister Phaedris|QID|43348|QO|1|M|41.99,79.87|T|Magister Phaedris|N|Silver - Kill and loot for treasure and resources.|ITEM|140405|RANK|2|
+K Kill Magister Phaedris|QID|43348|ACH|11265;13|M|41.99,79.87|T|Magister Phaedris|N|Silver - Kill and loot for treasure and resources.|ITEM|140405|RANK|2|
 R The Grand Promanade|QID|42147|M|39.26,71.41|CC|N|Reapply your mask via the Extra Action Button. While avoiding the NPCs who see illusion, ride over to see Vanthir.|
 
 ; Adding (some) Tailoring Quest chain here....
@@ -570,11 +570,11 @@ C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Falanaar Tunnels@Suramar|QO|2|N|En
 T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|To Valewalker Farodin.|
 A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|From Valewalker Farodin.|PRE|42227|
 $ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for storable, but non-stackable ancient mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
-R Falanaar South Leyline|QID|43593|M|40.99,45.47;45.03,54.61;41.80,66.64|CC|Z|Falanaar Tunnels@Suramar|N|You have to do it sometime, and now you are closest, unless you want to wait till you have a world quest in the area.|
+R Falanaar South Leyline|QID|43593|M|40.99,45.47;45.03,54.61;41.80,66.64|CS|Z|Falanaar Tunnels@Suramar|N|You have to do it sometime, and now you are closest, unless you want to wait till you have a world quest in the area.|
 A Leyline Feed: Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana)|PRE|41138|
 T Leyline Feed: Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|To Leyline Feed.|
 $ Small Treasure Chest|QID|43840|M|58.33,70.00|Z|Falanaar Tunnels@Suramar|N|Loot for treasure and resources.|RANK|2|
-R Falanaar North Leyline|QID|43592|M|42.49,70.68;45.03,54.61;57.26,45.16|CC|Z|Falanaar Tunnels@Suramar|N|Run to the Falanarr Tunnels to get the other Falanaar leyline.|
+R Falanaar North Leyline|QID|43592|M|42.49,70.68;45.03,54.61;57.26,45.16|CS|Z|Falanaar Tunnels@Suramar|N|Run to the Falanarr Tunnels to get the other Falanaar leyline.|
 A Leyline Feed: Falanaar Arcway|QID|43592|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana)\nDispite being Silver Elite, there is no quest/reward for killing Broodmother Shu'holis unless you have it as a World Quest.|PRE|41138|
 T Leyline Feed: Falanaar Arcway|QID|43592|PRE|41138|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|To Leyline Feed.|
 $ Small Treasure Chest|QID|43839|M|56.20,36.01;48.68,42.60|CS|Z|Falanaar Tunnels@Suramar|N|Run back out of this room, you will see Orathiss waiting for you. While following Orathiss, slight detour here for a chest. Loot for treasure and resources.|RANK|2|
