@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2017-05-25 17:33
+-- Who: Emmaleah
+-- Log: Add legionfall champion questline.
+
+-- URL: http://wow-pro.com/node/3668/revisions/28586/view
 -- Date: 2017-03-23 19:25
 -- Who: Ludovicus
 -- Log: Spelling
@@ -572,7 +577,51 @@ J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will 
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
-J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
+J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
+
+;Legionfall Champion questline
+A Making Preparations|QID|45240|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Mograine.|ACTIVE|47137|
+C Making Preparations|QID|45240|M|24.13,27.68|Z|The Heart of Acherus@BrokenShore|NC|N|Click on the Deathgate behind Darion.|
+T Making Preparations|QID|45240|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
+A Harnessing Power|QID|45398|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45240|
+A Severing the Sveldrek|QID|45399|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45240|
+C Severing the Sveldrek|QID|45399|M|43.62,21.96|Z|PitofSaronDK|S|N|Kill the Sveldrek mobs and after they die, click on them to raise them.|
+C Harnessing Power|QID|45398|M|48.22,18.93|Z|PitofSaronDK|N|Kill the Sveldrek Broodmother and when she dies, Andjor Dragontamer jumps off her back, kill him and loot the harness.|
+C Severing the Sveldrek|QID|45399|M|43.62,21.96|Z|PitofSaronDK|US|N|Finish raising the Sveldrek.|
+T Harnessing Power|QID|45398|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
+T Severing the Sveldrek|QID|45399|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
+A Return to Acherus|QID|45331|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45398;45399|
+P Death-gate|QID|45331|M|48.22,18.93|Z|PitofSaronDK|N|Take the provided Deathgate back to Acherus.|ACTIVE|45331|
+T Return to Acherus|QID|45331|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Mograine.|
+A The Peak of Bones|QID|44775|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Mograine.|PRE|45331|
+C The Peak of Bones|QID|44775|M|25.63,28.85|CHAT|N|Talk to Grimwing for a ride to Thorim's Peak.|
+T The Peak of Bones|QID|44775|M|51.28,84.31|Z|Stormheim|N|To Minerva Ravensorrow.|
+A From Bones They Rise|QID|44783|M|51.28,84.31|Z|Stormheim|N|From Minerva Ravensorrow.|PRE|44775|
+A Thorim's Flame|QID|46305|M|51.28,84.31|Z|Stormheim|N|From Minerva Ravensorrow.|PRE|44775|
+C From Bones They Rise|QID|44783|M|50.03,83.60; 50.03,82.77;49.96,82.11|CS|Z|Stormheim|NC|N|Use the Grapple Points or Fly up the mountain to get to the Thorignir. Click on them to revive.|
+C Thorim's Flame|QID|46305|QO|1|M|47.88,82.99|Z|Stormheim|CHAT|N|You can find the Shrine keeper all the way to the top. After you tell him your intentions, he becomes hostile. Kill him to convince him.|
+C Thorim's Flame|QID|46305|QO|2|M|47.99,83.08|Z|Stormheim|NC|N|Click on the flame to collect it.|
+T From Bones They Rise|QID|44783|M|47.99,83.08|Z|Stormheim|N|To Minerva Ravensorrow.|
+T Thorim's Flame|QID|46305|M|47.99,83.08|Z|Stormheim|N|To Minerva Ravensorrow.|
+A The Bonemother|QID|44787|M|47.99,83.08|Z|Stormheim|N|From Minerva Ravensorrow.|PRE|44783;46305|
+C The Bonemother|QID|44787|QO|1|M|51.26,84.38|Z|Stormheim|N|Back down the mountain to where you met Minerva. Click on Thorim's Beacon to light it.|
+C The Bonemother|QID|44787|QO|2|M|51.26,84.38|Z|Stormheim|N|Kill Daumyr.|
+C The Bonemother|QID|44787|QO|3|M|51.26,84.38|Z|Stormheim|N|Use your extra action button to raise Daumyr.|
+C The Bonemother|QID|44787|QO|4|M|51.26,84.38|Z|Stormheim|N|Hop on Daumyr for a ride back to your order hall. (vehicle arrow)|
+T The Bonemother|QID|44787|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Mograine.|
+A On Daumyr's Wings|QID|45243|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Mograine.|PRE|44787|
+C On Daumyr's Wings|QID|45243|M|21.53,31.86|Z|The Heart of Acherus@BrokenShore|CHAT|N|Ask Daumyr for a ride to Broken Shore.|
+T On Daumyr's Wings|QID|45243|M|51.63,21.80|Z|Broken Shore|N|To Highlord Darion Mograine.|
+A We Ride|QID|45103|M|51.63,21.80|Z|Broken Shore|CHAT|N|From Highlord Darion Mograine.|PRE|45243|
+C We Ride|QID|45103|QO|1|M|51.56,21.18|Z|Broken Shore|CHAT|N|Ask Daumyr for another ride.|
+C We Ride|QID|45103|QO|2|M|51.56,21.18|Z|Broken Shore|N|Starts standard bombing run.|
+T We Ride|QID|45103|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Mograine.|
+A Champion: Minerva Ravensorrow|QID|46050|M|25.51,34.38|Z|The Heart of Acherus@BrokenShore|N|From/To Minerva Ravensorrow.|PRE|45103|
+A Further Advancement|QID|46789|M|49.65,51.25|N|From Siouxsie the Banshee.|
+C Further Advancement|QID|46789|M|49.65,51.25|NC|N|At Archivist Zubashi. Talk to him even if you can't afford the next advancement.|
+T Further Advancement|QID|46789|M|49.65,51.25|N|To Siouxsie the Banshee.|
+F Deliverance Point|QID|47137|M|25.73,28.78|N|At Grimwing.|ACTIVE|47137|
+J Back to Broken Shore|QID|47137|N|Head back to Deliverance point to turn in Champions of Legionfall. The Broken Shore guide will auto load when you close this step.|GUIDE|Emm_BrokenShore|
 
 ]]
 end)

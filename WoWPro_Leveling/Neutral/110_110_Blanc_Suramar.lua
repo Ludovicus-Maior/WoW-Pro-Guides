@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2017-05-25 17:36
+-- Who: Emmaleah
+-- Log: minor tweaks; changed some AVAILABLE tags to LEAD, some NC tags added
+
+-- URL: http://wow-pro.com/node/3687/revisions/28635/view
 -- Date: 2017-04-05 20:00
 -- Who: Emmaleah
 -- Log: Grammer, (slain is past tense. We are telling people what to do, rather than what they have done.)
@@ -246,11 +251,6 @@
 -- Date: 2016-11-29 22:53
 -- Who: Blanckaert
 -- Log: run guide through game to make sure you have the error 'fixed' before posting.
-
--- URL: http://wow-pro.com/node/3687/revisions/28071/view
--- Date: 2016-11-29 22:44
--- Who: Blanckaert
--- Log: darn M tag got lost.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1507,9 +1507,9 @@ A Stabilizing Suramar|QID|45316|PRE|44756|M|36.48,46.73|N|From First Arcanist Th
 C Stabilizing Suramar|QID|45316|M|36.48,46.73|QO|1|N|Complete 10 World Quests, IN Suramar.|
 t Stabilizing Suramar|QID|45316|M|36.48,46.73|N|To First Arcanist Thalyssra.|
 
-; Insurrection - An Elven Problem - Storyline. (Horde (40362) / Alliance (40391) quest splits)
+; Insurrection - An Elven Problem - Storyline. (Horde (40362) / Alliance (40391) quest splits
 
-A Insurrection: An Elven Problem|QID|45278|PRE|45316|AVAILABLE|45263|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+A Insurrection: An Elven Problem|QID|45278|PRE|45316|LEAD|45263|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 T Insurrection: An Elven Problem|QID|45278|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A Eating Before the Meeting|QID|45263|PRE|45316|M|36.49,46.72|N|From First Arcanist Thalyssra.|
 C Eating Before the Meeting|QID|45263|M|37.45,47.42|NC|U|143597|N|Use fruit on a Suramar Refugee.|
@@ -1559,7 +1559,7 @@ T Break An Arm|QID|44845|M|41.64,51.61|N|To First Arcanist Thalyssra.|FACTION|AL
 
 ; Insurrection - Crafting War Storyline - (more Horde (44859) / Alliance (44743) Splits)
 
-A Insurrection: Crafting War|QID|45280|PRE|44845|AVAILABLE|45265|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+A Insurrection: Crafting War|QID|45280|PRE|44845|LEAD|45265|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 T Insurrection: Crafting War|QID|45280|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.74|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Feeding the Rebellion|QID|45265|M|37.45,47.42|NC|U|143597|N|Use fruit on a Suramar Refugee.|
@@ -1607,7 +1607,7 @@ A Learning From the Dead|QID|44830|PRE|44862;44861|M|39.94,50.95|N|From Silgryn.
 F Black Rook Hold|QID|44830|ACTIVE|44830|N|Click on Dusktalon for a ride to Black Rook Hold.|
 C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|S|N|Slay Black Rook forces as you find books, and set the Becaons.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|S|NC|N|Loot Books of Tactics that are laying around.|
-C We Need Weapons|QID|44829|M|44.60,49.29;41.57,49.54;40.02,53.92|CS|Z|Val'sharah|N|Click the beacon at each marked location to set it.|
+C We Need Weapons|QID|44829|M|44.60,49.29;41.57,49.54;40.02,53.92|CS|Z|Val'sharah|NC|N|Click the beacon at each marked location to set it.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|US|NC|N|Books of Tactics collected|
 C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|US|N|Finish slaying Black Rook forces.|
 F Meredil|QID|44830|ACTIVE|44830|M|39.94,50.95|U|6948|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
@@ -1620,8 +1620,8 @@ T Trial by Demonfire|QID|44790|M|40.00,50.93|N|To Silgryn.|
 
 ; Insurrection - March on Suramar - Storyline
 
-A Insurrection: March on Suramar|QID|45281|PRE|44790|AVAILABLE|45266|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-T Insurrection: March on Suramar|QID|45281|M|36.49,45.83|N|To First Arcanist Thalyssra.|
+A Insurrection: March on Suramar|QID|45281|PRE|44790|LEAD|45266|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+T Insurrection: March on Suramar|QID|45281|M|36.49,46.70|N|To First Arcanist Thalyssra.|
 A A United Front|QID|45266|PRE|44790;44876|LEAD|45281|M|36.50,46.78|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C A United Front|QID|45266|M|37.74,47.68|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T A United Front|QID|45266|M|36.50,46.72|N|To First Arcanist Thalyssra.|
@@ -1632,17 +1632,15 @@ C Ready for Battle|QID|44739|M|41.64,51.49|QO|2|CHAT|N|Speak to Tyrande Whisperw
 C Ready for Battle|QID|44739|M|40.49,53.06|QO|3|CHAT|N|Speak to Lady Liadrin|
 T Ready for Battle|QID|44739|M|41.07,51.80|N|To Archmage Khadgar.|
 A Full Might of the Elves|QID|44738|PRE|44739|M|41.07,51.80|N|From Archmage Khadgar.|
-C Secure the Promenade|QID|44738|SO|1|S|N|Secure the Grand Promenade.|
-C Defeat the Promenade Vanguard|QID|44738|M|42.74,54.55|SO|1;2|N|Defeat the Promenade Vanguard|
-C Defeat the Promenade Defenders|QID|44738|M|43.40,55.75|SO|1;1|N|Defeat the Promenade Defenders|
-C Secure the Promenade|QID|44738|SO|1|US|N|Secure the Grand Promenade.|
-C Defeat the Ancient Shieldguard|QID|44738|SO|2|S|N|Defeat the Ancient Shieldguard|
+C Defeat the Promenade Vanguard|QID|44738|M|42.74,54.55|SO|1;2|N|Defeat the Promenade Vanguard.|
+C Defeat the Promenade Defenders|QID|44738|M|43.40,55.75|SO|1;1|N|Defeat the Promenade Defenders.|
+C Defeat the Ancient Shieldguard|QID|44738|SO|2|S|N|Defeat the Ancient Shieldguard.|
 C Secure the Concourse of Destiny|QID|44738|SO|3|S|N|Run and kill Guards as you go.|
 C Telemancy Trap Placed|QID|44738|M|50.71,66.37|SO|4|NC|N|Click on Telemancy Trap.|
 C Full Might of the Elves|QID|44738|M|50.71,66.37|N|March on Suramar City.|
 T Full Might of the Elves|QID|44738|M|52.25,68.73|N|Run To Archmage Khadgar and turn-in.|
 A Staging Point|QID|44740|PRE|44738|M|52.25,68.73|N|From Archmage Khadgar.|
-C Staging Point|QID|44740|M|54.47,69.43|QO|1|N|Click on Telemancy Beacon to activate.|
+C Staging Point|QID|44740|M|54.47,69.43|NC                          |N|Click on Telemancy Beacon to activate.|
 T Staging Point|QID|44740|M|54.88,72.87|N|To Archmage Khadgar.|
 A Fighting on All Fronts|QID|45317|PRE|44740|M|54.88,72.87|N|From Archmage Khadgar.|
 C Fighting on All Fronts|QID|45317|NC|QO|1|N|Use your Class Order Hall Mission Map to complete 5 Missions.|

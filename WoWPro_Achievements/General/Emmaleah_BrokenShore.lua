@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2017-05-25 17:31
+-- Who: Emmaleah
+-- Log: Add 3 more weeks of new quests. Update precision on coordinates for Folly of Levia Laurence
+
+-- URL: http://wow-pro.com/node/3724/revisions/28665/view
 -- Date: 2017-05-05 19:42
 -- Who: Emmaleah
 -- Log: add last 3 weeks "compelling new content"
@@ -101,11 +106,30 @@ N The Shadow of the Sentinax|QID|46935|M|61.52,48.29|N|At some point you will fi
 A The Mage Tower|QID|46772|M|44.54,63.15|N|From Commander Chambers. Available when the Mage tower is   built.|ACH|11546;3|
 A The Nether Disruptor|QID|46774|M|44.54,63.15|N|From Commander Chambers. Available when the Nether Disrupter is freshly built.|ACH|11546;3|
 A Defending the Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46286|
-A Champions of Legionfall|QID|47137|M|44.54,63.55|N|From Maiev Shadowsong. The completion guide for this will be in your class guides.|PRE|46247|
+A Champions of Legionfall|QID|47137|M|44.54,63.55|N|From Maiev Shadowsong. The completion guide for this will be in your class guides.|PRE|46765|ACH|10994|
 C The Mage Tower|QID|46772|M|45.03,62.48|N|Click on the scroll floating in front of the building.|
 A The Highlord's Return|QID|45416|M|45.69,62.04|N|Only available if the Mage Tower is built.|PRE|45843|
 t The Mage Tower|QID|46772|M|44.54,63.15|N|To Commander Chambers.|
 C The Nether Disruptor|QID|46774|M|41.20,64.65|N|Click on the scroll floating at the base for the Nether Disruptor.|
+t The Nether Disruptor|QID|46774|M|44.54,63.15|N|To Commander Chambers.|
+A Shard Times|QID|46251|M|44.74,63.29|N|From Archmage Khadgar.|PRE|46775|
+C Shard Times|QID|46251|M|44.74,63.29|N|Assuming you have 2500 shards, you can immediately turn this in. You get almost all of them back.|
+t Shard Times|QID|46251|M|44.74,63.29|N|To Archmage Khadgar.|
+A Mark of the Sentinax|QID|47139|M|44.76,63.29|N|From Lord Illidan Stormrage.|PRE|46251|
+C Mark of the Sentinax|QID|47139|N|Go to wherever the Sentinax is and farm marks.|
+t Mark of the Sentinax|QID|47139|M|44.76,63.29|N|To Lord Illidan Stormrage.|
+A Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|From Prophet Velen.|PRE|47139|
+t Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|To Prophet Velen.|
+A Intolerable Infestation|QID|46252|M|44.54,63.53|N|From Maiev Shadowsong.|PRE|46248|
+C Intolerable Infestation|QID|46252|S|N|Go to Felsoul Hold in Suramar or Faronaar in Azsuna (fly to Illidari Perch) and kill demons, lots of demons.|
+t Intolerable Infestation|QID|46252|M|44.54,63.53|N|To Maiev Shadowsong.|
+A Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|PRE|46252|
+C Relieved of Their Valuables|QID|46769|S|N|While out and about doing WQs on the island keep an eye out for treasures and go loot them.|
+t Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|
+A Take Out the Head|QID|46250|M|44.54,63.53|N|From Maiev Shadowsong.|PRE|46769|
+C Take Out the Head|QID|46250|S|N|Be sure and kill some of the rare elite demons (marked with a demon head on map).|
+t Take Out the Head|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
+
 A Spiders, Huh?|QID|46499|M|39.54,71.66|N|From Excavator Karla.|PRE|46245|
 A Grave Robbin'|QID|46501|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46499;-46665|
 A Tomb Raidering|QID|46509|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46501;-46665|
@@ -115,15 +139,6 @@ A The Motherlode|QID|46666|M|39.54,71.66|N|From Excavator Karla. This quest has 
 C The Motherlode|QID|46666|M|47,67|QO|1|NC|N|Go to the marked spot and click on the 'peculiar rope' to enter the cave.|
 C The Motherlode|QID|46666|M|44,56|QO|2|NC|N|Iks'Reeged will be happy to trade Nethershards for keys, and you can open all the chests you feel you can afford...|
 t The Motherlode|QID|46666|M|39.54,71.66|N|To Excavator Karla. You can return to the cave anytime you are feeling a need to gamble away excess nethershards.|
-t The Nether Disruptor|QID|46774|M|44.54,63.15|N|To Commander Chambers.|
-A Shard Times|QID|46251|M|44.74,63.29|N|From Archmage Khadgar.|PRE|46775|
-C Shard Times|QID|46251|M|44.74,63.29|N|Assuming you have 2500 shards, you can immediately turn this in.  You get almost all of them back.|
-t Shard Times|QID|46251|M|44.74,63.29|N|To Archmage Khadgar.|
-A Mark of the Sentinax|QID|47139|M|44.76,63.29|N|From Lord Illidan Stormrage.|PRE|46251|
-C Mark of the Sentinax|QID|47139|N|Go to wherever the Sentinax is and farm marks.|
-t Mark of the Sentinax|QID|47139|M|44.76,63.29|N|To Lord Illidan Stormrage.|
-A Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|From Prophet Velen.|PRE|47139|
-t Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|From Prophet Velen.|PRE|47139|
 
 ;WQs south of Deliverance Point
 C Illidari Masters: Nameless Mystic|QID|46113|M|38.69,72.14|N|Pet Battle.|
@@ -142,6 +157,7 @@ C A Tad More Corruption|QID|46932|M|38.39,58.96|QO|2|N|Kill Legion forces.|
 C A Tad More Corruption|QID|46932|M|38.28,58.76|QO|1|US|N|Finish destroying Corrupting Crystals.|
 C Felrglrglrglrgl|QID|46933|M|38.39,60.02|N|Kill Felfin Murlocs.|
 C Torture Chamber|QID|46866|M|32.34,57.30|N|Kill demons and let prisoners out of cages.|
+C Fel-Corrupted Feathers|QID|46126|M|28.78,59.68|N|Kill Harpies and burn nests.|
 C Kraken Eggs|QID|45472|M|54.87,76.46|CHAT|QO|1|N|Speak with Zipp Fizzlebonk|
 C Kraken Eggs|QID|45472|M|52.77,79.02|QO|2|N|Run around clicking on Kraken Eggs to make them explode.|
 C A Giant Problem|QID|45473|M|52.77,79.02|QO|1|S|N|Kill Sea Giant Pillagers.|
@@ -238,8 +254,17 @@ T Begin Construction|QID|46245|M|44.56,63.07|N|To Commander Chambers.|
 T Seeking Lost Knowledge|QID|47067|M|44.73,63.29|N|To Archmage Khadgar.|
 A Delivering Lost Knowledge|QID|46809;47069;47070;47071;47072;47073;47074;47075;47076;47077;47078;47079|M|44.73,63.29|N|From Archmage Khadgar.|PRE|47067|
 A Altar of the Aegis|QID|46244|M|44.75,63.29|N|From Archmage Khadgar.|PRE|47067|
+t Altar of the Aegis|QID|46244|M|44.75,63.29|N|To Archmage Khadgar.|
 t Defending the Broken Isles|QID|46247|M|44.54,63.55|N|To Maiev Shadowsong.|
 t The Nether Disruptor|QID|46774|M|44.56,63.07|N|To Commander Chambers.|
+t Mark of the Sentinax|QID|47139|M|44.76,63.29|N|To Lord Illidan Stormrage.|
+t Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|To Prophet Velen.|
+C Intolerable Infestation|QID|46252|US|N|Go to Felsoul Hold in Suramar or Faronaar in Azsuna (fly to Illidari Perch) and kill demons, lots of demons.|
+t Intolerable Infestation|QID|46252|M|44.54,63.53|N|To Maiev Shadowsong.|
+C Relieved of Their Valuables|QID|46769|US|N|While out and about doing WQs on the island keep an eye out for treasures and go loot them.|
+t Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|
+C Take Out the Head|QID|46250|US|N|Be sure and kill some of the rare elite demons (marked with a demon head on map).|
+t Take Out the Head|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
 
 ;each class turn in.
 T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|To Vahu the Weathered back in your order hall.|
@@ -303,6 +328,8 @@ C Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|War
 T Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|To Fjornson Stonecarver.|
 
 F Deliverance Point|QID|47000|N|Now that you have your artifact knowledge research restarted, you can now upgrade your artifact (assuming you have at least 35 ranks).|
+N Finish WQs|QID|99999|N|Look at the map and run around to the various world quests. The guide will show the quest when you are in the area for it (more accurately when it is in your quest log). Check this step off manually.|
+F Deliverance Point|QID|99999|N|Fly back to Deliverance Point, make your donation to the construction effort and turn in the archeology quest.|
 
 t Spiders, Huh?|QID|46499|M|39.54,71.66|N|To Excavator Karla.|
 t Grave Robbin'|QID|46501|M|39.54,71.66|N|To Excavator Karla.|
@@ -324,25 +351,25 @@ T In Dire Need|QID|44821|M|22.26,39.65|Z|Dalaran@Dalaran70|N|To Archmage Modera.
 A Next Step|QID|45412;46314;47022;47023;47024;47025;44914;47046;47043;47048;47047;45482;47049;47050;47051;47052;46078;47003;47004;47005;47006;45560;47018;47019;47020;45123;47055;47056;47057;47058;47059;45182;47037;47039;47041;47042|M|22.47,40.53|Z|Dalaran@Dalaran70|N|The questgiver and quest you receive will vary based on your spec type.  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains.|PRE|44821|
 
 ;The Thieving Apprentice|QID|44914;47046;47043;47048;47047|
-P Stormwind|QID|44914;47046;47043;47048;47047|M|39.60,63.16|Z|Dalaran@Dalaran70|N|Portal to Stormwind.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
-P Mt Hyjal|QID|44914;47046;47043;47048;47047|M|76.17,18.67|Z|Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
-P Orgrimmar|QID|44914;47046;47043;47048;47047|M|55.29,24.00|Z|Orgrimmar|N|Portal to Orgrimmar.|ACTIVE|44914;47046;47043;47048;47047|FACTION|HORDE|
-C The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.01,38.52|Z|Azshara|NC|N|Fly over and investigate Xylem's tower.|
-T The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.01,38.52|Z|Azshara|N|To Joanna.|
-A Professionally Good Looking|QID|44915|M|25.01,38.52|Z|Azshara|N|From Joanna.|PRE|44914+47046+47043+47048+47047|
-C Professionally Good Looking|QID|44915|M|45.17,18.42|Z|Azshara|QO|3|CHAT|N|Challenge Lobos to obtain the 'Fanciful Hat'.|
-C Professionally Good Looking|QID|44915|M|62.43,16.04|Z|Azshara|QO|2|CHAT|N|Challenge Raethas Dawnseer to obtain the Well-Tailored Robes.|
-C Professionally Good Looking|QID|44915|M|80.85,32.06|Z|Azshara|QO|1|CHAT|N|Challenge Phloem to obtain the Magnificant Mantle.|
-T Professionally Good Looking|QID|44915|M|25.01,38.52|Z|Azshara|N|To Joanna.|
-A Order of Incantations|QID|44920|M|25.01,38.52|Z|Azshara|N|From Joanna.|PRE|44915|
-C Order of Incantations|QID|44920|M|25.01,38.52|Z|Azshara|NC|N|If you want to solve it for yourself, question the Apprentices. Some are more helpful than others. The correct order is Arcane (purple) Frost (white) Fire (red) Shadow (blue).|
-T Order of Incantations|QID|44920|M|25.01,38.52|Z|Azshara|N|To UI Alert.|
-A The Archmage Accosted|QID|44924|M|25.01,38.52|Z|Azshara|N|From UI Alert.|PRE|44920|
+P Stormwind|QID|44914;47046;47043;47048;47047|M|0,0|Z|Dalaran@Dalaran70|N|Portal to Stormwind.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
+P Mt Hyjal|QID|44914;47046;47043;47048;47047|M|0,0|Z|Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
+P Orgrimmar|QID|44914;47046;47043;47048;47047|M|0,0|Z|Orgrimmar|N|Portal to Orgrimmar.|ACTIVE|44914;47046;47043;47048;47047|FACTION|HORDE|
+C The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.4,39.2|Z|Azshara|N|Fly over and investigate Xylem's tower.|
+T The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.4,39.2|Z|Azshara|N|To Joanna.|
+A Professionally Good Looking|QID|44915|M|25.4,39.2|Z|Azshara|N|From Joanna.|PRE|44914+47046+47043+47048+47047|
+C Professionally Good Looking|QID|44915|M|45,19|Z|Azshara|QO|3|CHAT|N|Challenge Lobos to obtain the 'Fanciful Hat'.|
+C Professionally Good Looking|QID|44915|M|62,16|Z|Azshara|QO|2|CHAT|N|Challenge Raethas Dawnseer to obtain the Well-Tailored Robes.|
+C Professionally Good Looking|QID|44915|M|80,31|Z|Azshara|QO|1|CHAT|N|Challenge Phloem to obtain the Magnificant Mantle.|
+T Professionally Good Looking|QID|44915|M|25.4,39.2|Z|Azshara|N|To Joanna.|
+A Order of Incantations|QID|44920|M|25.4,39.2|Z|Azshara|N|From Joanna.|PRE|44915|
+C Order of Incantations|QID|44920|M|25.4,39.2|Z|Azshara|N|If you want to solve it for yourself, question the Apprentices. Some are more helpful than others. The correct order is Arcane (purple) Frost (white) Fire (red) Shadow (blue).|
+T Order of Incantations|QID|44920|M|25.4,39.2|Z|Azshara|N|To UI Alert.|
+A The Archmage Accosted|QID|44924|M|25.4,39.2|Z|Azshara|N|From UI Alert.|PRE|44920|
 C The Archmage Accosted|QID|44924|M|25.4,39.2|Z|Azshara|N|Follow Xylem up to the top of the tower and through his portal, defeating apprentices as necessary. You will probably want to save CDs so you can burst kill the final apprentice at the top.|
-T The Archmage Accosted|QID|44924|M|25.22,37.90|Z|Azshara|N|To Joanna.|
-A A Portal Away|QID|46177|M|25.22,37.90|Z|Azshara|N|From Joanna.|PRE|44924|
-P Dalaran|QID|46177|M|25.22,37.90|Z|Azshara|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46177|
-T A Portal Away|QID|46177|M|28.62,50.01|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
+T The Archmage Accosted|QID|44924|M|25.2,38|Z|Azshara|N|To Joanna.|
+A A Portal Away|QID|46177|M|25.4,39.2|Z|Azshara|N|From Joanna.|PRE|44924|
+P Dalaran|QID|46177|M|25.4,39.2|Z|Azshara|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46177|
+T A Portal Away|QID|46177|M|29,49.6|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
 
 ;A Aid of the Illidari|QID|45412;46314;47022;47023;47024;47025|M|22.47,40.53|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|
 C Aid of the Illidari|QID|45412;46314;47022;47023;47024;47025|M|47.81,29.79|Z|Dalaran@Dalaran70|N|Kor'vas Bloodthorn is just outside the North Bank.|
@@ -415,7 +442,7 @@ T Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod 
 T Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
 A Source of the Corruption|QID|46107|M|39.2,61.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080;46106|
 C Source of the Corruption|QID|46107|QO|1|N|Travel to Hero's Rest (outside of Blackrook Hold).|
-C Source of the Corruption|QID|46107|QO|2|N|Jarod tries to reason with them.  Kill the ones that can't be released.|
+C Source of the Corruption|QID|46107|QO|2|N|Jarod tries to reason with them. Kill the ones that can't be released.|
 C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
 T Source of the Corruption|QID|46107|M|38.8,51.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
 A The Matter Resolved...For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080|
@@ -450,30 +477,31 @@ P Dalaran|QID|45841|M|31.4,25|Z|Highmountain|N|Return to Dalaran and report your
 T Triumphant Report|QID|45841|M|28.8,48.8|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
 
 ;Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059
-C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|1|M|41,37|CHAT|N|Ask Professor Pallin if he has seen Levia.|
-C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|1|M|48,73|CHAT|N|Ask Icks if he has seen Levia.|
-C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|3|M|49,39|CHAT|N|Ask Amasi Azuregaze if she has seen Levia.|
-C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|4|M|46,40|NC|N|Go upstairs and investigate her stuff.|
-T Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|M|28.8,48.8|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
-A Bargaining with Shadows|QID|46327|M|28.8,48.8|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45123+47055+47056+47057+47058+47059|
+C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|1|M|41.27,37.02|CHAT|N|Ask Professor Pallin if he has seen Levia.|
+C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|2|M|49.45,73.10|CHAT|N|Ask Icks if he has seen Levia.|
+C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|3|M|49.78,40.15|CHAT|N|Ask Amasi Azuregaze if she has seen Levia.|
+C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|4|M|46.34,40.16|NC|N|Go upstairs and investigate her stuff. A skirmish will occur when you exit Levia's room.|
+T Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|M|28.46,48.92|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
+A Bargaining with Shadows|QID|46327|M|28.46,48.92|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45123+47055+47056+47057+47058+47059|
 R Chamber of the Guardian|QID|46327|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|46327|
-T Bargaining with Shadows|QID|46327|M|56.59,37.28;54.6,55.8|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your left to find Ritssyn and turn this quest in.|
-A The Acolyte Imperiled|QID|45916|M|54.6,55.8|Z|Aegwynn's Gallery@Dalaran70|N|From Rittssyn Flamescowl.|PRE|46327|
-C The Acolyte Imperiled|QID|45916|M|57.8,72.6|QO|1|Z|Aegwynn's Gallery@Dalaran70|N|Investigate the journal.|
-C The Acolyte Imperiled|QID|45916|M|57.8,72.6|QO|2|Z|Aegwynn's Gallery@Dalaran70|N|Kill the imps that come thru Ritssyn's portals.|
-T The Acolyte Imperiled|QID|45916|M|57.8,72.6|Z|Aegwynn's Gallery@Dalaran70|N|To Rittsyn Flamescowl.|
-A Dabbling in the Demonic|QID|45125|M|57.8,72.6|Z|Aegwynn's Gallery@Dalaran70|N|From Rittsyn Flamescowl.|PRE|45916|
-C Dabbling in the Demonic|QID|45125|M|57.8,72.6|Z|Aegwynn's Gallery@Dalaran70|N|Only activate the Dregla, Talar, and Taam runes. Talk to Ritssyn.|
-T Dabbling in the Demonic|QID|45125|M|57.8,72.6|Z|Aegwynn's Gallery@Dalaran70|N|To Rittsyn Flamescowl.|
-A Following the Scent|QID|45917|M|57.8,72.6|Z|Aegwynn's Gallery@Dalaran70|N|From Rittsyn Flamescowl.|PRE|45125|
-C Following the Scent|QID|45917|QO|1|M|29.9,51.9|Z|Azsuna|CHAT|N|Step thru the portal and then tell Fhambar to find Levia.|
-C Following the Scent|QID|45917|QO|2|NC|M|25.6,57.6|Z|Azsuna|N|Stay with Fhambar (while he wanders all over the place) and finally go into the cave.|
-A Unlikely Seduction|QID|45126|M|25.6,57.6|Z|Azsuna|N|From Levia Laurence|PRE|45917|
-C Unlikely Seduction|QID|45126|M|25.8,57.4|Z|Azsuna|N|Defeat Agatha.|T|Agatha|
-T Unlikely Seduction|QID|45126|M|25.6,57.6|Z|Azsuna|N|To Levia Laurence|
-A Fel-Crossed Lovers|QID|45127|M|25.6,57.6|Z|Azsuna|N|From Levia Laurence|PRE|45126|
-P Dalaran|QID|45127|M|25.6,57.6|Z|Azsuna|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45127|
-T Fel-Crossed Lovers|QID|45127|M|28.8,48.8|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
+T Bargaining with Shadows|QID|46327|M|56.59,37.28;54.62,59.63|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your left to find Ritssyn and turn this quest in.|
+A The Acolyte Imperiled|QID|45916|M|54.62,59.63|Z|Aegwynn's Gallery@Dalaran70|N|From Rittssyn Flamescowl.|PRE|46327|
+C The Acolyte Imperiled|QID|45916|M|57.86,72.85|QO|1|Z|Aegwynn's Gallery@Dalaran70|NC|N|Investigate the journal (just walk in the room).|
+C The Acolyte Imperiled|QID|45916|M|57.86,72.85|QO|2|Z|Aegwynn's Gallery@Dalaran70|N|Kill the imps that come thru Ritssyn's portals.|
+T The Acolyte Imperiled|QID|45916|M|57.86,72.85|Z|Aegwynn's Gallery@Dalaran70|N|To Rittsyn Flamescowl.|
+A Dabbling in the Demonic|QID|45125|M|57.86,72.85|Z|Aegwynn's Gallery@Dalaran70|N|From Rittsyn Flamescowl.|PRE|45916|
+C Dabbling in the Demonic|QID|45125|M|56.07,73.35|Z|Aegwynn's Gallery@Dalaran70|N|There are runes on the floor on each side of Rittsyn, only activate the Dregla, Talar, and Taam runes. Talk to Ritssyn.|
+T Dabbling in the Demonic|QID|45125|M|57.86,72.85|Z|Aegwynn's Gallery@Dalaran70|N|To Rittsyn Flamescowl.|
+A Following the Scent|QID|45917|M|57.86,72.85|Z|Aegwynn's Gallery@Dalaran70|N|From Rittsyn Flamescowl.|PRE|45125|
+C Following the Scent|QID|45917|QO|1|M|30.97,51.84|Z|Azsuna|CHAT|N|Step thru the portal and then tell Fhambar to find Levia.|
+C Following the Scent|QID|45917|QO|2|NC|M|27.64,56.27;25.92,57.25|CS|Z|Azsuna|N|Stay with Fhambar (while he wanders all over the place) and finally go into the cave.|
+T Following the Scent|QID|45917|M|25.67,57.74|Z|Azsuna|N|To Levia Laurence.|
+A Unlikely Seduction|QID|45126|M|25.67,57.74|Z|Azsuna|N|From Levia Laurence.|PRE|45917|
+C Unlikely Seduction|QID|45126|M|25.83,57.43|Z|Azsuna|N|Defeat Agatha.|T|Agatha|
+T Unlikely Seduction|QID|45126|M|25.67,57.74|Z|Azsuna|N|To Levia Laurence|
+A Fel-Crossed Lovers|QID|45127|M|25.67,57.74|Z|Azsuna|N|From Levia Laurence|PRE|45126|
+P Dalaran|QID|45127|M|25.67,57.74|Z|Azsuna|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45127|
+T Fel-Crossed Lovers|QID|45127|M|28.46,48.92|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
 
 ;Twisted Twin|QID|45182;47037;47039;47041;47042|
 T Twisted Twin|QID|45182;47037;47039;47041;47042|M|49.40,39.77|Z|Dalaran@Dalaran70|N|To Karam Magespear.|
@@ -498,7 +526,7 @@ T One Step Behind|QID|45193|M|28.48,48.30|Z|Dalaran@Dalaran70|N|To Archmage Khad
 
 A A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.35,48.93|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45843+46177+46340+46200+45841+45127+45193|
 C A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|30.43,48.95|Z|Dalaran@Dalaran70|NC|N|Stand in the center of the rug and use your extra action button to receive the Council's gift.|
-T A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.41,48.89|Z|Dalaran@Dalaran70|N|To Archmage Modera. After turning in the quest return to your order hall and spend your artifact power in your freshly empowered weapon.|
+T A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.45,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera. After turning in the quest return to your order hall and spend your artifact power in your freshly empowered weapon.|
 
 D Guide Reset|N|Be sure and come back tomorrow for more fun and games on the Broken Shore.|ACH|11796|
 ]]
