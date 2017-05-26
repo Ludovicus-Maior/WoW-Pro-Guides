@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/time_forgotten_hippogryph_mount
--- Date: 2017-05-19 07:07
+-- Date: 2017-05-26 18:27
 -- Who: Emmaleah
 -- Log: added missing CS tags, deleted extraneous |N| tag
 
