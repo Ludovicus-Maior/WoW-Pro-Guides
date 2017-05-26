@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2017-05-26 08:09
+-- Who: Emmaleah
+-- Log: replace thieving apprentice section I accidentally overwrote this morning.
+
+-- URL: http://wow-pro.com/node/3724/revisions/28672/view
 -- Date: 2017-05-25 17:31
 -- Who: Emmaleah
 -- Log: Add 3 more weeks of new quests. Update precision on coordinates for Folly of Levia Laurence
@@ -351,26 +356,25 @@ T In Dire Need|QID|44821|M|22.26,39.65|Z|Dalaran@Dalaran70|N|To Archmage Modera.
 A Next Step|QID|45412;46314;47022;47023;47024;47025;44914;47046;47043;47048;47047;45482;47049;47050;47051;47052;46078;47003;47004;47005;47006;45560;47018;47019;47020;45123;47055;47056;47057;47058;47059;45182;47037;47039;47041;47042|M|22.47,40.53|Z|Dalaran@Dalaran70|N|The questgiver and quest you receive will vary based on your spec type.  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains.|PRE|44821|
 
 ;The Thieving Apprentice|QID|44914;47046;47043;47048;47047|
-P Stormwind|QID|44914;47046;47043;47048;47047|M|0,0|Z|Dalaran@Dalaran70|N|Portal to Stormwind.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
-P Mt Hyjal|QID|44914;47046;47043;47048;47047|M|0,0|Z|Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
-P Orgrimmar|QID|44914;47046;47043;47048;47047|M|0,0|Z|Orgrimmar|N|Portal to Orgrimmar.|ACTIVE|44914;47046;47043;47048;47047|FACTION|HORDE|
-C The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.4,39.2|Z|Azshara|N|Fly over and investigate Xylem's tower.|
-T The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.4,39.2|Z|Azshara|N|To Joanna.|
-A Professionally Good Looking|QID|44915|M|25.4,39.2|Z|Azshara|N|From Joanna.|PRE|44914+47046+47043+47048+47047|
-C Professionally Good Looking|QID|44915|M|45,19|Z|Azshara|QO|3|CHAT|N|Challenge Lobos to obtain the 'Fanciful Hat'.|
-C Professionally Good Looking|QID|44915|M|62,16|Z|Azshara|QO|2|CHAT|N|Challenge Raethas Dawnseer to obtain the Well-Tailored Robes.|
-C Professionally Good Looking|QID|44915|M|80,31|Z|Azshara|QO|1|CHAT|N|Challenge Phloem to obtain the Magnificant Mantle.|
-T Professionally Good Looking|QID|44915|M|25.4,39.2|Z|Azshara|N|To Joanna.|
-A Order of Incantations|QID|44920|M|25.4,39.2|Z|Azshara|N|From Joanna.|PRE|44915|
-C Order of Incantations|QID|44920|M|25.4,39.2|Z|Azshara|N|If you want to solve it for yourself, question the Apprentices. Some are more helpful than others. The correct order is Arcane (purple) Frost (white) Fire (red) Shadow (blue).|
-T Order of Incantations|QID|44920|M|25.4,39.2|Z|Azshara|N|To UI Alert.|
-A The Archmage Accosted|QID|44924|M|25.4,39.2|Z|Azshara|N|From UI Alert.|PRE|44920|
+P Stormwind|QID|44914;47046;47043;47048;47047|M|39.60,63.16|Z|Dalaran@Dalaran70|N|Portal to Stormwind.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
+P Mt Hyjal|QID|44914;47046;47043;47048;47047|M|76.17,18.67|Z|Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
+P Orgrimmar|QID|44914;47046;47043;47048;47047|M|55.29,24.00|Z|Orgrimmar|N|Portal to Orgrimmar.|ACTIVE|44914;47046;47043;47048;47047|FACTION|HORDE|
+C The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.01,38.52|Z|Azshara|NC|N|Fly over and investigate Xylem's tower.|
+T The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.01,38.52|Z|Azshara|N|To Joanna.|
+A Professionally Good Looking|QID|44915|M|25.01,38.52|Z|Azshara|N|From Joanna.|PRE|44914+47046+47043+47048+47047|
+C Professionally Good Looking|QID|44915|M|45.17,18.42|Z|Azshara|QO|3|CHAT|N|Challenge Lobos to obtain the 'Fanciful Hat'.|
+C Professionally Good Looking|QID|44915|M|62.43,16.04|Z|Azshara|QO|2|CHAT|N|Challenge Raethas Dawnseer to obtain the Well-Tailored Robes.|
+C Professionally Good Looking|QID|44915|M|80.85,32.06|Z|Azshara|QO|1|CHAT|N|Challenge Phloem to obtain the Magnificant Mantle.|
+T Professionally Good Looking|QID|44915|M|25.01,38.52|Z|Azshara|N|To Joanna.|
+A Order of Incantations|QID|44920|M|25.01,38.52|Z|Azshara|N|From Joanna.|PRE|44915|
+C Order of Incantations|QID|44920|M|25.01,38.52|Z|Azshara|NC|N|If you want to solve it for yourself, question the Apprentices. Some are more helpful than others. The correct order is Arcane (purple) Frost (white) Fire (red) Shadow (blue).|
+T Order of Incantations|QID|44920|M|25.01,38.52|Z|Azshara|N|To UI Alert.|
+A The Archmage Accosted|QID|44924|M|25.01,38.52|Z|Azshara|N|From UI Alert.|PRE|44920|
 C The Archmage Accosted|QID|44924|M|25.4,39.2|Z|Azshara|N|Follow Xylem up to the top of the tower and through his portal, defeating apprentices as necessary. You will probably want to save CDs so you can burst kill the final apprentice at the top.|
-T The Archmage Accosted|QID|44924|M|25.2,38|Z|Azshara|N|To Joanna.|
-A A Portal Away|QID|46177|M|25.4,39.2|Z|Azshara|N|From Joanna.|PRE|44924|
-P Dalaran|QID|46177|M|25.4,39.2|Z|Azshara|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46177|
-T A Portal Away|QID|46177|M|29,49.6|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
-
+T The Archmage Accosted|QID|44924|M|25.22,37.90|Z|Azshara|N|To Joanna.|
+A A Portal Away|QID|46177|M|25.22,37.90|Z|Azshara|N|From Joanna.|PRE|44924|
+P Dalaran|QID|46177|M|25.22,37.90|Z|Azshara|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46177|
+T A Portal Away|QID|46177|M|28.62,50.01|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
 ;A Aid of the Illidari|QID|45412;46314;47022;47023;47024;47025|M|22.47,40.53|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|
 C Aid of the Illidari|QID|45412;46314;47022;47023;47024;47025|M|47.81,29.79|Z|Dalaran@Dalaran70|N|Kor'vas Bloodthorn is just outside the North Bank.|
 T Aid of the Illidari|QID|45412;46314;47022;47023;47024;47025|M|52.06,19.56|Z|Dalaran@Dalaran70|N|To Kor'vas Bloodthorn.|
