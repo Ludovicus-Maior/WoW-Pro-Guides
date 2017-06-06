@@ -927,6 +927,24 @@ function WoWPro:ResolveIcon(guide)
         guide.icon = icon
         return
     end
+    if guide['spell'] then
+        local name, rank, icon, castingTime, minRange, maxRange, spellID = GetSpellInfo(guide.spell)
+        guide.icon = icon
+        return
+    end
+    if guide['mount'] then
+        local mountIDs = C_MountJournal.GetMountIDs()
+        WoWPro:dbp("Mount enter")
+        for i, mountID in ipairs(mountIDs) do
+            local creatureName, spellID, icon, active, isUsable, sourceType = C_MountJournal.GetMountInfoByID(mountID)
+            WoWPro:dbp("Mount [%s] Spell %s==%s Icon %s", creatureName, tostring(spellID), tostring(guide.mount), tostring(icon))
+            if guide.mount == spellID then
+                guide.icon = icon
+                return
+            end
+        end
+        return
+    end
     if guide['pro'] then
         -- prof1, prof2, archaeology, fishing, cooking, firstAid
         local profs = {GetProfessions()}
@@ -948,6 +966,8 @@ function WoWPro:GuideIcon(guide,gtype,gsubtype)
         guide['ach'] = tonumber(gsubtype)
     elseif gtype == "PRO" then
         guide['pro'] = tonumber(gsubtype)
+    elseif gtype == "MOUNT" then
+        guide['mount'] = tonumber(gsubtype)
     elseif gtype == "ICON" then
         guide['icon'] = gsubtype
     else

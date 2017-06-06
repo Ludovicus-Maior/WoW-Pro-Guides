@@ -66,6 +66,8 @@ function WoWPro.Achievements:GuideMisc(guide, name, categoryname, subname)
     if subname then
         guide['sub']=subname
     end
+    -- Assume we have enough info to resolve icon by now
+    WoWPro:ResolveIcon(guide)
 end
 
 function WoWPro.Achievements:LoadAllGuides()
