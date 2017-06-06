@@ -273,12 +273,11 @@ function WoWPro:AutoCompleteSetHearth(...)
 end
 
 -- Auto-Complete: Zone based --
-function WoWPro:AutoCompleteZone()
+function WoWPro.AutoCompleteZone()
 	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
 	local currentindex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
-	local action = WoWPro.action[currentindex]
-	local step = WoWPro.step[currentindex]
-	local coord = WoWPro.map[currentindex]
+	local action = WoWPro.action[currentindex] or "?"
+	local step = WoWPro.step[currentindex] or "?"
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
 	WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]", zonetext, subzonetext, action, step)
 	if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
@@ -645,7 +644,7 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:AutoCompleteSetHearth(...)
 	end
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
-		WoWPro:AutoCompleteZone(...)
+		WoWPro.AutoCompleteZone(...)
 	end
 	if event == "QUEST_LOG_UPDATE" then
 		local delta = WoWPro.PopulateQuestLog()
