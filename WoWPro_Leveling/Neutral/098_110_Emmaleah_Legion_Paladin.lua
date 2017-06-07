@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2017-06-07 19:57
+-- Who: Emmaleah
+-- Log: added class mount quest.
+
+-- URL: http://wow-pro.com/node/3673/revisions/28655/view
 -- Date: 2017-04-23 23:14
 -- Who: Ludovicus
 -- Log: Bad Coords 66.77.53.45
@@ -368,7 +373,7 @@ A The Highlord's Command|QID|42885;42966;42967;42968|M|49.64,72.35|N|From Lord M
 C The Highlord's Command|QID|42885;42966;42967;42968|M|53.44,78.63|NC|N|Go to your mission board and choose The Highlords Command mission. This mission takes 1 hour to complete, manually check it off and when you come back to your hall you can complete the mission.|
 t The Highlord's Command|QID|42885;42966;42967;42968|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
 A To Faronaar|QID|42886|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42885;42966;42967;42968|LVL|103|
-F Illidari Stand|QID|42886|M|69.87,51.11|N|At Aladune Whitecloud.|ACTIVE|42886|
+F Illidari Stand|QID|42886|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|42886|
 T To Faronaar|QID|42886|M|45.91,51.60|Z|Azsuna|N|To Vindicator Boros.|
 A This Is Retribution|QID|42887|M|45.91,51.60|Z|Azsuna|N|From Vindicator Boros.|PRE|42886|
 C This Is Retribution|QID|42887|M|42.79,44.47|Z|Azsuna|N|Run down to Faronaar Front and kill some demons.|
@@ -479,17 +484,17 @@ A Champion: Arator the Redeemer|QID|43785|M|48.81,73.47|N|From/To Arator the Red
 
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
 C In the House of Light and Shadow|QID|44448|M|52.37,69.37|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|From Camille Kleister.|LVL|110|
-C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|Toss water on the fire.|
-T Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|To Camille Kleister.|
-A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious Dust (in the wagon).|PRE|39838|
-C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
-C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
-C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
-A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
-C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
-t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
+;A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|From Camille Kleister.|LVL|110|
+;C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|Toss water on the fire.|
+;T Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|To Camille Kleister.|
+;A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious Dust (in the wagon).|PRE|39838|
+;C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
+;C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
+;C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
+;T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
+;A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
+;C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
+;t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
 
 A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|From Vanessa Sellers.|
 C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
@@ -625,6 +630,44 @@ A Champion: Nerus Moonfang|QID|46045|M|58.85,31.72|N|From/To Nerus Moonfang.|
 P Dalaran|QID|45890|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|47137|
 F Vengeance Point|QID|45148|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|47137|
 T Champions of Legionfall|QID|47137|M|44.53,63.53|Z|Broken Shore|N|To Maiev Shadowsong. You can now train the next order hall advancement.|
+
+;legionfall mount quest
+B Stonehide Leather Barding|QID|46070|L|131746|N|Acquire from your friendly alt, guildee or auction house.|ITEM|131746|ACTIVE|46070;46069|
+t Worthy of the Title|QID|46069|M|52.26,78.13|N|To Lord Grayson Shadowbreaker.|
+A Preparations Underway|QID|46070|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|PRE|46069|
+T Preparations Underway|QID|46070|M|52.26,78.13|N|To Lord Grayson Shadowbreaker. Assuming you picked up the barding before coming to your order hall, you can immediately turn this in.|
+A The Hammer of Dalaran|QID|46071|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|PRE|46070|
+P Dalaran|QID|46071|N|Return to Dalaran and the Blacksmithing Shop.|
+T The Hammer of Dalaran|QID|46071|M|44.13,28.69|Z|Dalaran@Dalaran70|N|To Alard Schmied.|
+A A Few Things First|QID|46083|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|46071|
+B Leystone Ore|QID|46083|L|123918 25|ITEM|123918|N|Pick up 25 Leystone Ore from somewhere. (mine, AH, guild bank, etc.)|ACTIVE|46083|
+F Meredil|QID|46083|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|46083|
+P Evermoon Terrace|M|36.49,44.74|Z|Suramar|N|You must have progressed the Suramar quest line far enough to have a nightfallen disguise to buy the Suramarian Sapphire.|ACTIVE|46083|
+B Suramarian Sapphire|M|50.90,77.78|Z|Suramar|L|147768|ITEM|147768|N|At the Sundries Merchant in Evermoon Commons - Suramar City. Costs 500 Ancient Mana.|ACTIVE|46083|
+P Dalaran|M|50.90,77.78|Z|Suramar|U|140192|N|Return to Dalaran.|
+T A Few Things First|QID|46083|M|44.13,28.69|Z|Dalaran@Dalaran70|N|To Alard Schmied.|
+A Leather to Legendary|QID|46074|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|46083|
+C Leather to Legendary|QID|46074|QO|2|M|44.13,28.69|Z|Dalaran@Dalaran70|NC|N|Stand still and wait for Alard to create your barding, then pick it up off of the anvil.|
+T Leather to Legendary|QID|46074|M|52.26,78.13|N|Return to your order hall and to Lord Grayson Shadowbreaker.|
+A Stirring in the Shadows|QID|45770|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|
+R Eastwall Gate|QID|46074|M|43.44,19.56|Z|Eastern Plaguelands|N|Run up the stairs and out of the order hall into Eastern Plaguelands, Fly to the service entrance of Strathholme. DO NOT GO INSIDE YET.|ACTIVE|45770|
+C Stirring in the Shadows|QID|45770|M|43.44,19.56|Z|Eastern Plaguelands|CHAT|N|Talk to Defender Sterius to start the scenario. (check step off manually)If the guide does not appear inside the scenario, you can disable and then reenable via the wowpro addon in the addons menu. *does not require reload*.|
+C Choose Your Allies|QID|45770|SO|1|M|63.87,78.97|Z|StratholmePaladinClassMount/1|NC|N|Recruit 2 of the paladins to assist you.|
+C Search the City|QID|45770|SO|2|S|M|63.87,78.97|Z|StratholmePaladinClassMount/1|NC|N|Find the needed items.|
+C Search the City|QID|45770|SO|2;1|M|63.87,78.97|Z|StratholmePaladinClassMount/1|S|NC|N|Collect Holy Water scattered around in boxes.|
+C Search the City|QID|45770|SO|2;4|M|61.42,58.24;73.28,46.08|CS|Z|StratholmePaladinClassMount/1|T|Osseine|N|Kill things around the ziggurat until Osseine shows up and then kill him.|
+C Search the City|QID|45770|SO|2;2|M|73.28,46.08|Z|StratholmePaladinClassMount/1|S|NC|N|Click on the missing paladins to rescue them, they are in the ziggurats behind each of the named NPCs.|
+C Search the City|QID|45770|SO|2;3|M|66.86,22.63|Z|StratholmePaladinClassMount/1|T|Rotmouth|N|Kill things around the ziggurat until Rotmouth shows up and then kill him.|
+C Search the City|QID|45770|SO|2;5|M|55.83,45.25|Z|StratholmePaladinClassMount/1|T|Pestulon|N|Kill things around the ziggurat until Pestulon shows up and then kill him.|
+C Search the City|QID|45770|SO|2;2|M|53.54,49.16|Z|StratholmePaladinClassMount/1|US|NC|N|Rescue the last knight inside the ziggurat behind the named NPCs.|
+C Search the City|QID|45770|SO|2;1|M|56.16,42.50|Z|StratholmePaladinClassMount/1|US|NC|N|Finish collecting Holy Water scattered around in boxes on the ground.|
+C Search the City|QID|45770|SO|2|US|M|56.16,42.50|Z|StratholmePaladinClassMount/1|NC|N|Finish collecting the needed items.|
+C Return to Grayson|QID|45770|SO|3|M|66.64,52.40;61.73,59.02;63.32,72.10|CS|Z|StratholmePaladinClassMount/1|CHAT|N|Give Grasyson the Holy Water.|
+C Imbue the Barding|QID|45770|SO|4|M|63.20,74.53|Z|StratholmePaladinClassMount/1|NC|N|Move into the dome of light and click on the 'Blessed Mount Barding' to imbue it.|
+C Ride to Rivendare's Crypt|QID|45770|SO|5|M|63.78,56.34;63.69,48.89;55.46,19.15;38.63,20.37|CS|Z|StratholmePaladinClassMount/1|NC|N|Mount up and ride to Rivendare's Crypt.|
+C Defeat Raemien|QID|45770|SO|6|M|48.36,20.15|Z|StratholmePaladinClassMount/1|N|Back out of the crypt and fight Raemien and the other hordes of undead.|T|Raemien the Soultaker|
+C Speak with Grayson|QID|45770|SO|7|M|47.26,20.35|Z|StratholmePaladinClassMount/1|CHAT|N|Tell Grayson you are ready to leave.|
+T Stirring in the Shadows|QID|45770|M|52.26,78.13|N|To Lord Grayson Shadowbreaker.|
 
 ]]
 end)
