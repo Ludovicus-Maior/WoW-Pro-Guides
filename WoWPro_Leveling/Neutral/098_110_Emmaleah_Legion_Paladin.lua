@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2017-06-08 07:09
+-- Who: Emmaleah
+-- Log: Adding several missing "QID|46083|"
+
+-- URL: http://wow-pro.com/node/3673/revisions/28681/view
 -- Date: 2017-06-07 19:57
 -- Who: Emmaleah
 -- Log: added class mount quest.
@@ -642,9 +647,9 @@ T The Hammer of Dalaran|QID|46071|M|44.13,28.69|Z|Dalaran@Dalaran70|N|To Alard S
 A A Few Things First|QID|46083|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|46071|
 B Leystone Ore|QID|46083|L|123918 25|ITEM|123918|N|Pick up 25 Leystone Ore from somewhere. (mine, AH, guild bank, etc.)|ACTIVE|46083|
 F Meredil|QID|46083|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|46083|
-P Evermoon Terrace|M|36.49,44.74|Z|Suramar|N|You must have progressed the Suramar quest line far enough to have a nightfallen disguise to buy the Suramarian Sapphire.|ACTIVE|46083|
-B Suramarian Sapphire|M|50.90,77.78|Z|Suramar|L|147768|ITEM|147768|N|At the Sundries Merchant in Evermoon Commons - Suramar City. Costs 500 Ancient Mana.|ACTIVE|46083|
-P Dalaran|M|50.90,77.78|Z|Suramar|U|140192|N|Return to Dalaran.|
+P Evermoon Terrace|QID|46083|M|36.49,44.74|Z|Suramar|N|You must have progressed the Suramar quest line far enough to have a nightfallen disguise to buy the Suramarian Sapphire.|ACTIVE|46083|
+B Suramarian Sapphire|QID|46083|M|50.90,77.78|Z|Suramar|L|147768|ITEM|147768|N|At the Sundries Merchant in Evermoon Commons - Suramar City. Costs 500 Ancient Mana.|ACTIVE|46083|
+P Dalaran|QID|46083|M|50.90,77.78|Z|Suramar|U|140192|N|Return to Dalaran.|ACTIVE|46083|
 T A Few Things First|QID|46083|M|44.13,28.69|Z|Dalaran@Dalaran70|N|To Alard Schmied.|
 A Leather to Legendary|QID|46074|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|46083|
 C Leather to Legendary|QID|46074|QO|2|M|44.13,28.69|Z|Dalaran@Dalaran70|NC|N|Stand still and wait for Alard to create your barding, then pick it up off of the anvil.|
