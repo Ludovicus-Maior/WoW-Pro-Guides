@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2017-06-11 02:07
+-- Who: Emmaleah
+-- Log: add mount quest added 6/6/17
+
+-- URL: http://wow-pro.com/node/3674/revisions/28659/view
 -- Date: 2017-04-29 03:13
 -- Who: Emmaleah
 -- Log: added questchain for new follower in 7.2
@@ -677,6 +682,21 @@ A Champion: Aelthalyste|QID|46034|M|24.25,43.64|N|From/To Aelthalyste.|PRE|46145
 A Further Advancement|QID|46788|M|51.46,45.84|N|From Moira Thaurissan.|PRE|46034|
 C Further Advancement|QID|46788|M|56.07,40.71|N|Go see Archon Torias and research the next order hall advancement. (cost 10K resources.)|
 T Further Advancement|QID|46788|M|51.46,45.84|N|To Moira Thaurissan.|
+
+; mount quest added 6/6/17
+t The Speaker Awaits|QID|45788|M|48.78,22.93|N|To Betild Deepanvil.|
+A The Sunken Vault|QID|45789|M|48.78,22.93|N|From Betild Deepanvil.|PRE|45788|
+P Dalaran|QID|45789|M|49.76,80.57|N|Take the portal to Dalaran|ACTIVE|45789|
+F Illidari Stand|QID|45789|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45789|
+R The Sunken Vault|QID|45789|QO|1|M|44.26,51.23|Z|Azsuna|CHAT|N|Run over and Chat with Brann Bronzebeard to start the scenario.|
+C A Call from the Depths|QID|45789|SO|1|M|45.89,50.09|Z|PriestClassMountScenario|NC|N|Walk forward towards the door.|
+C The Lost Observatory|QID|45789|SO|2|M|68.83,62.96|Z|PriestClassMountScenario|NC|N|Walk thru the now open door, into the room.|
+C Custodial Matters|QID|45789|SO|3|M|72.95870.94|Z|PriestClassMountScenario|NC|N|Activate the console.|
+C The Seekers|QID|45789|SO|4|M|73.98,70.94|Z|PriestClassMountScenario|NC|N|Listen, watch, wait.|
+C Constructs Awaken|QID|45789|SO|5|M|73.90,65.12|Z|PriestClassMountScenario|N|Kill the constructs that attack.|
+R The Sunken Vault|QID|45789|M|69.73,63.66|Z|PriestClassMountScenario|CHAT|N|Talk to Brann for transport back to Dalaran.|
+T The Sunken Vault|QID|45789|M|49.71,20.57|N|To Betild Deepanvil back in your order hall.|
+
 
 ]]
 end)

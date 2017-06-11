@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2017-06-11 07:23
+-- Who: Emmaleah
+-- Log: ;mount quest added 6/6/17
+
+-- URL: http://wow-pro.com/node/3670/revisions/28661/view
 -- Date: 2017-04-30 00:17
 -- Who: Emmaleah
 -- Log: missing |M|
@@ -629,6 +634,20 @@ A Champion: Nighthuntress Syrenne|QID|46048|M|44.77,61.12|Z|Broken Shore|N|From/
 A Further Advancement|QID|46783|M|41.46,21.72|N|From Tactician Tinderfell, next time you are in your order hall.|PRE|46235|
 C Further Advancement|QID|46783|M|58.64,51.10|N|Go see Survivalist Bahn and pick your next order hall advancement.|
 A Further Advancement|QID|46783|M|41.46,21.72|N|To Tactician Tinderfell.|
+
+;mount quest added 6/6/17
+T A Golden Ticket|QID|46336|M|42.79,45.69|N|To the Golden Letter the letter lying on the table in your hunter lodge.|
+A Night of the Wilds|QID|46337|M|42.79,45.69|N|From the Golden Letter.|
+C Night of the Wilds|QID|46337|QO|1|M|49.76,36.46|CHAT|N|Talk to the Valkyra, Herald of Odyn, to start the scenario.|
+C The Hunt Begins|QID|46337|SO|1;4|M|24.00,45.80|Z|HallsofValor#1164|T|Habrok|N|Locate and kill the owl Habrok.|
+C The Hunt Begins|QID|46337|SO|1;3|M|33.38,60.19|Z|HallsofValor#1164|T|Ketlingr|N|Locate and kill the cat Ketlingr.|
+C The Hunt Begins|QID|46337|SO|1;2|M|32.91,67.05;61.02,64.53;62.93,65.96|CS|Z|HallsofValor#1164|T|Garos|N|Locate and kill the worm Garos in a cave.|
+C The Hunt Begins|QID|46337|SO|1;1|M|65.54,26.44|Z|HallsofValor#1164|T|Hyrtir|N|Locate and kill the stag Hyrstir.|
+C Night of Claw and Talon|QID|46337|SO|2;1|M|51.40,43.17|Z|HallsofValor#1164|T|Vetholnir|N|Locate and kill the hawk as he patrols around this area.|
+C Night of Claw and Talon|QID|46337|SO|2;2|M|29.47,70.38;28.3,77.6|CS|Z|HallsofValor#1164|T|Fereki|N|Locate and kill the wolf Fareki inside this cave.|
+C Haukenulfnir|QID|46337|SO|3;1|M|23.68,66.12|Z|HallsofValor#1164|T|Haukenulfnir|N|Attack the wolfhawk Haukeulfnir. Avoid the whirlwinds, and dodge his charges.|
+C Revel the Night Away|QID|46337|SO|4;1|M|30.57,45.44;35.5,41.2|CS|Z|HallsofValor#1164|N|Speak with Odyn to leave.|
+T Night of the Wilds|QID|46337|M|44.24,21.47|N|Turn quest into the empty saddle outside your lodge.|
 
 ]]
 end)
