@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2017-06-12 18:29
+-- Who: Emmaleah
+-- Log: Missing N|
+
+-- URL: http://wow-pro.com/node/3668/revisions/28685/view
+-- Date: 2017-06-12 06:24
+-- Who: Emmaleah
+-- Log: Added class mount quest
+
+-- URL: http://wow-pro.com/node/3668/revisions/28673/view
 -- Date: 2017-05-25 17:33
 -- Who: Emmaleah
 -- Log: Add legionfall champion questline.
@@ -622,6 +632,30 @@ C Further Advancement|QID|46789|M|49.65,51.25|NC|N|At Archivist Zubashi. Talk to
 T Further Advancement|QID|46789|M|49.65,51.25|N|To Siouxsie the Banshee.|
 F Deliverance Point|QID|47137|M|25.73,28.78|N|At Grimwing.|ACTIVE|47137|
 J Back to Broken Shore|QID|47137|N|Head back to Deliverance point to turn in Champions of Legionfall. The Broken Shore guide will auto load when you close this step.|GUIDE|Emm_BrokenShore|
+
+;class mount quest
+T Amal'thazad's Message|QID|46719|M|58.25,31.11|N|To Amal'thazad.|
+A Frozen Memories|QID|46720|M|58.25,31.11|Z|Hall of Command@BrokenShore|N|From Amal'thazad.|PRE|46719|
+C Frozen Memories|QID|46720|M|55.54,27.75|Z|Hall of Command@BrokenShore|QO|1|NC|N|Step onto the portal to Amal'thazod's right.|
+C Frozen Memories|QID|46720|M|47.58,52.03|Z|The Heart of Acherus@BrokenShore|QO|2|NC|N|Wait for the Lich King to tell his plan.|
+R Icecrown|QID|46720|N|Travel by your choice of methods to Northern Icecrown. Easiest is the Argent Tournament Tabard if you have it.  Lacking that, Go to Dalaran (Broken Shore) use the portal in Chamber of the Guardians to Wrymrest Temple. A third travel alternative is using the portal in your faction area of Dalaran(Broken Shore) to Pandaria where there is a portal to Dalaran(Northrend). Bribing a friendly mage is of course an option.|ACTIVE|46720|
+C Frozen Memories|QID|46720|M|44.70,4.40|Z|Icecrown|QO|3|NC|N|Land on an iceburg, north of The Shadow Vault and witness the Lich King's vision.|
+T Frozen Memories|QID|46720|M|44.70,4.40|Z|Icecrown|N|To UI Alert|
+A Draconic Secrets|QID|46812|M|44.70,4.40|Z|Icecrown|N|From UI Alert.|PRE|46720|
+F Wyrmrest Temple|QID|46812|M|59.56,51.76|Z|Dragonblight|N|Fly to the Wyrmrest Temple to follow the Lich King's plan.|ACTIVE|46812|
+C Draconic Secrets|QID|46812|M|60.31,54.84|Z|Dragonblight|QO|1|CHAT|N|Trizormu can be found on the ground floor inside Wyrmrest Temple.|
+C Draconic Secrets|QID|46812|M|57.91,54.16|Z|Dragonblight|QO|2|CHAT|N|Steward Tariolstrasz can be found at the top of the steps just outside Wyrmrest Temple.|
+C Draconic Secrets|QID|46812|M|59.54,50.69;61.27,52.68|Z|Dragonblight|CS|QO|3|NC|N|The Ruby Sanctum entrance is underneath the Wyrmrest Temple.|
+C Draconic Secrets|QID|46812|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|QO|4|NC|N|You can circle around the sleeping Vyrastrasza, to find the codex and read it.|
+T Draconic Secrets|QID|46812|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|N|To UI Alert.|
+A The Lost Glacier|QID|46813|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|N|From UI Alert.|PRE|46813|
+C The Lost Glacier|QID|46813|M|49.54,91.16|Z|Icecrown|QO|1|N|Run out of the Ruby Sanctum and fly out into the ocean north of The Shadow Vault where you saw the Lich King's Vision. You will enter the scenario from this spot.|
+C Uncharted Territory|QID|46813|SO|1|N|Find the Frozen Span before feral undead overwhelm you. There are no coordinates in this scenario, you will need to follow the arrows provided by Blizzard.|
+C The Frozen Span|QID|46813|SO|2|NC|N|Cross the span to Kyranastrasz' Rest. When you finally get out of combat, you can mount and run across the span.|
+C Essence of the Red|QID|46813|SO|3|N|Slay undead to collect the red dragon's essence.|
+C Life to Death|QID|46813|SO|4|NC|N|Use the extra action button to convert the life essence to unholy essence.|
+C Unholy Resurrection|QID|46813|SO|5|NC|N|Use the unholy essence to raise your dragon.|
+T The Lost Glacier|QID|46813|N|Turn in to "Deep Crack" in the snow.|
 
 ]]
 end)
