@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/time_forgotten_hippogryph_mount
+-- Date: 2017-06-12 23:30
+-- Who: Ludovicus
+-- Log: Change Icon to a MOUNT instead of spell.  
+
+-- URL: http://wow-pro.com/node/3728/revisions/28671/view
 -- Date: 2017-05-26 18:27
 -- Who: Emmaleah
 -- Log: added missing CS tags, deleted extraneous |N| tag
@@ -19,7 +24,7 @@
 -- Log: First public draft
 
 local guide = WoWPro:RegisterGuide('Emm_Hippogryph', 'Achievements', 'Azsuna', 'Emmaleah', 'Neutral')
-WoWPro:GuideIcon(guide,"SPELL",215159)
+WoWPro:GuideIcon(guide,"MOUNT",215159)
 WoWPro.Achievements:GuideMisc(guide, "Long Forgotten Hippogryph", "Mount", "Legion")
 WoWPro:GuideLevels(guide,100, 110)
 WoWPro:GuideSteps(guide, function()

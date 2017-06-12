@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2017-06-12 23:20
+-- Who: Ludovicus
+-- Log: [C Custodial Matters] had M|72.95870.94|  I guessed the right coord.
+
+-- URL: http://wow-pro.com/node/3674/revisions/28683/view
 -- Date: 2017-06-11 02:07
 -- Who: Emmaleah
 -- Log: add mount quest added 6/6/17
@@ -691,7 +696,7 @@ F Illidari Stand|QID|45789|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune W
 R The Sunken Vault|QID|45789|QO|1|M|44.26,51.23|Z|Azsuna|CHAT|N|Run over and Chat with Brann Bronzebeard to start the scenario.|
 C A Call from the Depths|QID|45789|SO|1|M|45.89,50.09|Z|PriestClassMountScenario|NC|N|Walk forward towards the door.|
 C The Lost Observatory|QID|45789|SO|2|M|68.83,62.96|Z|PriestClassMountScenario|NC|N|Walk thru the now open door, into the room.|
-C Custodial Matters|QID|45789|SO|3|M|72.95870.94|Z|PriestClassMountScenario|NC|N|Activate the console.|
+C Custodial Matters|QID|45789|SO|3|M|72.98,70.94|Z|PriestClassMountScenario|NC|N|Activate the console.|
 C The Seekers|QID|45789|SO|4|M|73.98,70.94|Z|PriestClassMountScenario|NC|N|Listen, watch, wait.|
 C Constructs Awaken|QID|45789|SO|5|M|73.90,65.12|Z|PriestClassMountScenario|N|Kill the constructs that attack.|
 R The Sunken Vault|QID|45789|M|69.73,63.66|Z|PriestClassMountScenario|CHAT|N|Talk to Brann for transport back to Dalaran.|

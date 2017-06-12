@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3675
+-- Date: 2017-06-12 21:27
+-- Who: Emmaleah
+-- Log: Added rogue mount quest. It is different for Horde vs Alliance. scouted horde locations, but did not test as my horde rogue is still lvl 100.
+
+-- URL: http://wow-pro.com/node/3675/revisions/28663/view
 -- Date: 2017-05-02 05:57
 -- Who: Emmaleah
 -- Log: Added Legionfall Champion quest chain
@@ -578,6 +583,47 @@ A Further Advancement|QID|46779|M|37.89,45.16|N|From Nikki the Gossip.|PRE|46260
 C Further Advancement|QID|46779|M|45.89,69.15|N|Go visit Winstone Wolfe(and pick your next order advancement if you have the resources).|
 T Further Advancement|QID|46779|M|37.89,45.16|N|To Nikki the Gossip.|
 T Champions of Legionfall|QID|47137|M|44.54,63.55|Z|Broken Shore|N|To Maiev Shadowsong.(Next time you are in Broken Shore.)|
+
+;mount quest - alliance
+T Dread Infiltrators|QID|46103|M|19.45,21.22|N|To Lilian Voss.|FACTION|ALLIANCE|
+A Hiding In Plain Sight|QID|46089|M|19.45,21.22|N|From Lilian Voss.|PRE|46103|FACTION|ALLIANCE|
+C Hiding In Plain Sight|QID|46089|M|19.45,21.22|QO|1|NC|N|Wait and listen to Lilian's plan.|FACTION|ALLIANCE|
+R Dalaran Crater|QID|46089|QO|1|N|Travel by your choice of method to Silvermoon. I think the most direct is the Portal in Dalaran's Chamber of the Guardian to the Dalaran Crater and then fly from there.|FACTION|ALLIANCE|ACTIVE|46089|
+R Thalassian Pass|QID|46089|QO|2|M|54.51,8.67|Z|Eastern Plaguelands|N|Fly across Western and Eastern Plaguelands to Thalassian Pass.|FACTION|ALLIANCE|ACTIVE|46089|
+R Walk of Elders|QID|46089|QO|2|M|73.89,80.31|Z|Silvermoon City|N|Run thru Ghostlands and Eversong Woods to Silvermoon City. Presumably you want to stealth once you get close to the city gates. The arcane guardian just inside the gates sees thru stealth.|FACTION|ALLIANCE|ACTIVE|46089|
+C Hiding In Plain Sight|QID|46089|M|75.63,74.47|Z|Silvermoon City|QO|2|T|Tercin Shivenllher|N|The Silvermoon Mark, Tercin Shivenllher, paths clockwise around the Walk of Elders, There is a star on you map where he currently is.  Blind the Arcane Demolisher to keep him occupied. Lacking blind, distract works, but not for as long. Tercin will call for help from nearby guards.|FACTION|ALLIANCE|
+P Krasus' Landing|QID|46089|QO|2|U|140192|N|Hearth to Dalaran and use Chamber of the Guardians portal back to Dalaran Crater and fly from there.|FACTION|ALLIANCE|ACTIVE|46089|
+R Sewers|QID|46089|QO|3|M|15.11,31.73|Z|Undercity|N|Fly in thru the nearly unguarded sewer.|ACTIVE|46089|FACTION|ALLIANCE|
+R Rogue's Quarter|QID|46089|QO|3|M|73.36,55.18|Z|Undercity|N|Find a convenient place to land near the balcony where she is having her party and stealth. Study the area and decide the best approach for you. The NPCs named Lord and Lady whoever do MASSIVE damage so fight her there when she path's away from them.|FACTION|ALLIANCE|ACTIVE|46089|
+C Hiding In Plain Sight|QID|46089|QO|3|M|72.71,55.28|Z|Undercity|T|Mistress Matilda|N|Don't fight Mistress Matilda when the Lords and Ladies (elite npcs) are close as they do MASSIVE damage. Sap the nearest elite, kill the mark and vanish if you want to live.|FACTION|ALLIANCE|
+b Orgrimmar|QID|46089|QO|4|M|60.44,58.90|Z|Tirisfal Glades|N|Outside Undercity, fly onto the zeppelin and head for Orgrimmar.|FACTION|ALLIANCE|ACTIVE|46089|
+F Thunder Bluff|QID|46089|QO|4|M|56.80,51.45|Z|Thunder Bluff|N|Watch out for/avoid the flying patrols in Orgrimmar and Thunder Bluff. They will stun and dismount you.|FACTION|ALLIANCE|ACTIVE|46089|
+C Hiding In Plain Sight|QID|46089|M|56.80,51.45|Z|Thunder Bluff|QO|4|T|Kroksy the Impregnable|N|Pick Pocket Kroksy and then use his key to remove his armor buff.|U|144296|FACTION|ALLIANCE|
+F Orgrimmar|QID|46089|QO|5|M|54.39,73.51|Z|Orgrimmar|N|Fly back to Orgrimmar. Lilian could use some lessons in efficient travel.|FACTION|ALLIANCE|ACTIVE|46089|
+C Hiding In Plain Sight|QID|46089|M|54.39,73.51|Z|Orgrimmar|QO|5|T|Auctioneer Xifa|N|The final mark, Auctioneer Xifa, can be found inside the main auction house.|FACTION|ALLIANCE|
+
+;mount quest - horde - not tested - scouted and taken from wowhead
+T Dread Infiltrators|QID|46103|M|19.45,21.22|N|To Lilian Voss.|FACTION|HORDE|
+A Hiding In Plain Sight|QID|46178|M|19.45,21.22|N|From Lilian Voss.|PRE|46103|FACTION|HORDE|
+C Hiding In Plain Sight|QID|46178|M|19.45,21.22|QO|1|NC|N|Wait and listen to Lilian's plan.|FACTION|HORDE|
+P Orgrimmar|QID|46178|M|55.28,23.99|Z|Dalaran@Dalaran70|QO|1|N|Use portal in Windrunner's Sanctuary to travel to Orgrimmar.|FACTION|HORDE|ACTIVE|46178|
+P Mt Hyjal|QID|46178|M|51.11,38.29|Z|Orgrimmar@Orgrimmar|QO|1|N|Use portal to Mt Hyjal in Orgrimmar.|FACTION|HORDE|ACTIVE|46178|
+R Teldrasil|QID|46178|QO|2|M|52.34,89.46|Z|Teldrassil|N|Fly to Teldrasil to catch a boat to Azuremyst Isle.|FACTION|HORDE|ACTIVE|46178|
+R The Exodar|QID|46178|QO|2|M|41.63,73.59|Z|The Exodar|N|Wind your way down into The Vault of Lights in The Exodar and find the mark, Ardann the Solemn.|FACTION|HORDE|ACTIVE|46178|
+C Hiding In Plain Sight|QID|46178|M|39.45,61.78|Z|The Exodar|QO|2|T|Ardann the Solemn|N|Look for the star on your map, he paths counter clockwise around the edge of the area marked on the map. It's a pretty long patrol, so you may need to wait a few minutes (or if impatient, go find him.) Find a good place to fight and blind (or distract) the Crystalforged Demolisher that is walking with Ardaan and then kill Ardaan. Vanish and run back outside.|FACTION|HORDE|
+R Azuremyst Isle|QID|46178|M|35.02,74.67|Z|The Exodar|QO|2|N|Run back up the tunnel and outside.|FACTION|HORDE|ACTIVE|46178|
+R The Veiled Sea|QID|46178|QO|2|M|21.59,54.10|Z|Azuremyst Isle|N|Catch the boat back to Darnassus.|FACTION|HORDE|ACTIVE|46178|
+C Hiding In Plain Sight|QID|46178|QO|3|M|68.38,45.63|Z|Darnassis|T|Taylenne Sweetsong|N|Take the portal into Darnassus or fly over the walls. Tylene is near the back gate. Don't fight Taylene when the elite npcs are close as they do MASSIVE damage. Remember Cry for Help is interruptible, Sap the nearest elite, kill the mark and vanish if you want to live.|FACTION|HORDE|
+P Krasus' Landing|QID|46178|QO|3|U|140192|N|Hearth to Dalaran and use Windrunner's Sanctuary portal back to Orgrimmar and fly up to the Cataclysm Portal circle.|FACTION|HORDE|ACTIVE|46178|
+P Orgrimmar|QID|46178|QO|3|M|55.28,23.99|Z|Dalaran@Dalaran70|N|Run to Windrunner's Sactuary and use the portal to Orgrimmar.|FACTION|HORDE|ACTIVE|46178|
+P Twilight Highlands|QID|46178|QO|3|M|50.22,39.47|Z|Orgrimmar@Orgrimmar|N|Use the Twilight Highlands portal and fly from there.|FACTION|HORDE|ACTIVE|46178|
+R Ironforge|QID|46178|QO|3|Z|Dun Morogh|M|60,33|N|The next Mark is in Ironforge.|FACTION|HORDE|ACTIVE|46178|
+C Hiding In Plain Sight|QID|46178|M|42.84,50.11|Z|Ironforge|QO|4|T|Corin Twinbellows|N|Stealth into 'The High Seat' area. Wait for Corin to be relatively alone, pick pocket Corin and use his key to remove his armor buff, then kill him.|U|144357|FACTION|HORDE|
+R Deeprun Tram|QID|46178|M|73.06,50.30|Z|Ironforge|N|Take the Deeprun Tram to Stormwind.|FACTION|HORDE|ACTIVE|46178|
+C Hiding In Plain Sight|QID|46178|QO|5|M|61.39,70.44|Z|Stormwind City|T|Auctioneer Jaxon|N|The final Mark, Auctioneer Jaxon can be found inside the auction house on the right side.|FACTION|HORDE|
+
+P P Krasus' Landing|QID|46178;46089|U|140192|N|Hearth to Dalaran and return to your guild hall.|ACTIVE|46178;46089|
+T Hiding In Plain Sight|QID|46178;46089|M|42.01,78.67|N|To Lilian Voss.|
 
 ]]
 end)
