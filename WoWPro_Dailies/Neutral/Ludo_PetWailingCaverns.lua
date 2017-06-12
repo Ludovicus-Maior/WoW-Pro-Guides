@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide("LudoPetWailingCaverns","Dailies","Wailign Caverns","Ludovicus","Neutral")
+local guide = WoWPro:RegisterGuide("LudoPetWailingCaverns","Dailies","Wailing Caverns@WailingCaverns","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
 WoWPro.Dailies:GuideNameAndCategory(guide,"Wailing Caverns Pet Dungeon","Pets")
