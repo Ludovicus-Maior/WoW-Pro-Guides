@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2017-06-12 18:29
+-- Who: Emmaleah
+-- Log: Missing N|
+
+-- URL: http://wow-pro.com/node/3668/revisions/28685/view
 -- Date: 2017-06-12 06:24
 -- Who: Emmaleah
 -- Log: Added class mount quest
@@ -644,7 +649,7 @@ C Draconic Secrets|QID|46812|M|59.54,50.69;61.27,52.68|Z|Dragonblight|CS|QO|3|NC
 C Draconic Secrets|QID|46812|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|QO|4|NC|N|You can circle around the sleeping Vyrastrasza, to find the codex and read it.|
 T Draconic Secrets|QID|46812|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|N|To UI Alert.|
 A The Lost Glacier|QID|46813|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|N|From UI Alert.|PRE|46813|
-C The Lost Glacier|QID|46813|M|49.54,91.16|Z|Icecrown|QO|1|Run out of the Ruby Sanctum and fly out into the ocean north of The Shadow Vault where you saw the Lich King's Vision. You will enter the scenario from this spot.|
+C The Lost Glacier|QID|46813|M|49.54,91.16|Z|Icecrown|QO|1|N|Run out of the Ruby Sanctum and fly out into the ocean north of The Shadow Vault where you saw the Lich King's Vision. You will enter the scenario from this spot.|
 C Uncharted Territory|QID|46813|SO|1|N|Find the Frozen Span before feral undead overwhelm you. There are no coordinates in this scenario, you will need to follow the arrows provided by Blizzard.|
 C The Frozen Span|QID|46813|SO|2|NC|N|Cross the span to Kyranastrasz' Rest. When you finally get out of combat, you can mount and run across the span.|
 C Essence of the Red|QID|46813|SO|3|N|Slay undead to collect the red dragon's essence.|
