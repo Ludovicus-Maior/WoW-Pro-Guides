@@ -1,3 +1,18 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/battle_pet_world_quests_broken_shore
+-- Date: 2017-06-13 20:05
+-- Who: rpotor
+-- Log: Fix edit and comment links
+
+-- URL: http://wow-pro.com/node/3732/revisions/28693/view
+-- Date: 2017-06-13 20:03
+-- Who: rpotor
+-- Log: Initial version
+
 local guide = WoWPro:RegisterGuide("LarePetWQBroken","Dailies","Legion","Larenon","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
