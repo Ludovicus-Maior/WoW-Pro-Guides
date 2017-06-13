@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2017-06-13 23:14
+-- Who: Ludovicus
+-- Log: Update PRE on [Building an Army]
+
+-- URL: http://wow-pro.com/node/3687/revisions/28675/view
 -- Date: 2017-05-25 22:46
 -- Who: Ludovicus
 -- Log:  CS and use ACH tags for silver kills that dont have tracking quests.
@@ -246,11 +251,6 @@
 -- Date: 2016-11-30 12:21
 -- Who: Blanckaert
 -- Log: added a P step, and changed note about the quests in log with a date.
-
--- URL: http://wow-pro.com/node/3687/revisions/28073/view
--- Date: 2016-11-30 01:23
--- Who: Blanckaert
--- Log: date adjustment... moved note line
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -589,7 +589,7 @@ T The Valewalker's Burden|QID|42230|M|36.86,46.49|N|To Seedholder.|
 A Seed of Hope|QID|44561|M|36.86,46.49|N|From Valewalker Farodin. This is completed by raising your  Faction rep to Honored with The Nightfallen.|PRE|42230|
 A Leyline Apprentice|QID|44492|PRE|41028;43593;43592|M|37.01,46.39|N|From Arcanist Valtrois. Requires 3 Leylines restored.|
 T Leyline Apprentice|QID|44492|M|37.01,46.39|N|To Arcanist Valtrois.|
-A Building an Army|QID|44636|M|36.88,46.60|N|From First Arcanist Thalyssra.|PRE|42230|
+A Building an Army|QID|44636|M|36.88,46.60|N|From First Arcanist Thalyssra. Requires [Uniting the Isles]|PRE|42230;43341|
 
 C Building an Army|QID|44636|M|36.88,46.60|CHAT|N|Talk to Thalyssra to start a solo scenario, good for building faction and other rewards. Manually check off if you don't want to do this now.|
 t Building an Army|QID|44636|M|22.69,36.69|N|To UI Alert.|
