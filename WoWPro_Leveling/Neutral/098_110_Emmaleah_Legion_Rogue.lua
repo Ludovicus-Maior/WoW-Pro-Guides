@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3675
+-- Date: 2017-06-13 22:53
+-- Who: Ludovicus
+-- Log:  Darnassus
+
+-- URL: http://wow-pro.com/node/3675/revisions/28687/view
 -- Date: 2017-06-12 21:27
 -- Who: Emmaleah
 -- Log: Added rogue mount quest. It is different for Horde vs Alliance. scouted horde locations, but did not test as my horde rogue is still lvl 100.
@@ -613,7 +618,7 @@ R The Exodar|QID|46178|QO|2|M|41.63,73.59|Z|The Exodar|N|Wind your way down into
 C Hiding In Plain Sight|QID|46178|M|39.45,61.78|Z|The Exodar|QO|2|T|Ardann the Solemn|N|Look for the star on your map, he paths counter clockwise around the edge of the area marked on the map. It's a pretty long patrol, so you may need to wait a few minutes (or if impatient, go find him.) Find a good place to fight and blind (or distract) the Crystalforged Demolisher that is walking with Ardaan and then kill Ardaan. Vanish and run back outside.|FACTION|HORDE|
 R Azuremyst Isle|QID|46178|M|35.02,74.67|Z|The Exodar|QO|2|N|Run back up the tunnel and outside.|FACTION|HORDE|ACTIVE|46178|
 R The Veiled Sea|QID|46178|QO|2|M|21.59,54.10|Z|Azuremyst Isle|N|Catch the boat back to Darnassus.|FACTION|HORDE|ACTIVE|46178|
-C Hiding In Plain Sight|QID|46178|QO|3|M|68.38,45.63|Z|Darnassis|T|Taylenne Sweetsong|N|Take the portal into Darnassus or fly over the walls. Tylene is near the back gate. Don't fight Taylene when the elite npcs are close as they do MASSIVE damage. Remember Cry for Help is interruptible, Sap the nearest elite, kill the mark and vanish if you want to live.|FACTION|HORDE|
+C Hiding In Plain Sight|QID|46178|QO|3|M|68.38,45.63|Z|Darnassus|T|Taylenne Sweetsong|N|Take the portal into Darnassus or fly over the walls. Tylene is near the back gate. Don't fight Taylene when the elite npcs are close as they do MASSIVE damage. Remember Cry for Help is interruptible, Sap the nearest elite, kill the mark and vanish if you want to live.|FACTION|HORDE|
 P Krasus' Landing|QID|46178|QO|3|U|140192|N|Hearth to Dalaran and use Windrunner's Sanctuary portal back to Orgrimmar and fly up to the Cataclysm Portal circle.|FACTION|HORDE|ACTIVE|46178|
 P Orgrimmar|QID|46178|QO|3|M|55.28,23.99|Z|Dalaran@Dalaran70|N|Run to Windrunner's Sactuary and use the portal to Orgrimmar.|FACTION|HORDE|ACTIVE|46178|
 P Twilight Highlands|QID|46178|QO|3|M|50.22,39.47|Z|Orgrimmar@Orgrimmar|N|Use the Twilight Highlands portal and fly from there.|FACTION|HORDE|ACTIVE|46178|
