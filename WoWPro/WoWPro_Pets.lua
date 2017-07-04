@@ -185,13 +185,6 @@ function WoWPro.GetLevelingPet(limits, pet1, pet2)
             ok = false
         end
         if ok then
-            -- The pet called Leveling has priority if it meets the limits.
-            if customName == "Leveling" then
-                petID_worst = petID
-                speciesName_worst = speciesID
-                companionID_worst = companionID
-                break
-            end
             if petID_worst == nil then
                 petID_worst = petID
                 speciesName_worst = speciesID
@@ -287,6 +280,16 @@ function WoWPro.ComparePets(pet1,pet2)
     local health1, maxHealth1, power1, speed1, rarity1 = C_PetJournal.GetPetStats(pet1)
     local health2, maxHealth2, power2, speed2, rarity2 = C_PetJournal.GetPetStats(pet2)
      
+    isFavorite1 = isFavorite1 or (name1 == "Leveling")
+    isFavorite2 = isFavorite2 or (name2 == "Leveling")
+
+    -- Pretend to not like favorites
+    if isFavorite1 and not isFavorite2 then
+        return pet2, pet1
+    elseif isFavorite2 and not isFavorite1 then
+        return pet1, pet2
+    end
+
     -- Prefer higher stats
     local stats1 = (maxHealth1/4) + power1 + speed1
     local stats2 = (maxHealth2/4) + power2 + speed2
