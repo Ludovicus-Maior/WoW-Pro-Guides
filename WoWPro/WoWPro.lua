@@ -359,6 +359,7 @@ function WoWPro:OnInitialize()
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
+    WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
     WoWPro.EnableGrail = WoWProCharDB.EnableGrail or True
@@ -672,8 +673,8 @@ function WoWPro:GuideClassSpecific(guide,class)
     end
     engClass = strupper(engClass)
 
-    if WoWPro.DebugLevel > 0 then
-        return -- Allow developers to check everything
+    if WoWPro.DebugClasses then
+        return -- Allow developers to check everything, if they want
     end
     if engClass ~= class then
         WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't match", guide.GID)

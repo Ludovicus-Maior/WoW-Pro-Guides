@@ -711,8 +711,23 @@ local function createBlizzOptions()
 						WoWProCharDB.DebugLevel = WoWPro.DebugLevel
 					end
 			},
+			debugClasses = {
+				order = 21,
+				type = "toggle",
+				name = L["Debug Classes"],
+				desc = L["Enables/Disables debugging other class guides"],
+				get = function(info) return (WoWPro.DebugLevel > 0) and WoWPro.DebugClasses end,
+				set = function(info,val)
+						if WoWPro.DebugClasses then
+						    WoWPro.DebugClasses = false
+						else
+						    WoWPro.DebugClasses = (WoWPro.DebugLevel > 0)
+						end
+						WoWProCharDB.DebugClasses = WoWPro.DebugClasses
+					end
+			},
 			resetGuide = {
-			    order = 21,
+			    order = 29,
 			    type = "execute",
 			    name = L["Reset WoWPro Addons"],
 			    desc = L["If an addon is behaving oddly, this wipes all saved state. Log out and back in again to complete the reset."],
