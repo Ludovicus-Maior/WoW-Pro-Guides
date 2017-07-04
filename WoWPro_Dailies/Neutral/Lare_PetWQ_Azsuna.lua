@@ -18,6 +18,7 @@ WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
 WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet World Quests Azsuna","Pets")
 WoWPro:GuidePetBattle(guide)
+WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 
 return
