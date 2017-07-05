@@ -3,11 +3,22 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/battle_pet_world_quests_val039sharah
+-- Date: 2017-07-05 21:11
+-- Who: Ludovicus
+-- Log: Add AS
+
+-- URL: http://wow-pro.com/node/3737/revisions/28699/view
+-- Date: 2017-06-13 20:16
+-- Who: rpotor
+-- Log: Initial version
+
 local guide = WoWPro:RegisterGuide("LarePetWQVal","Dailies","Legion","Larenon","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
 WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet World Quests Val'sharah","Pets")
 WoWPro:GuidePetBattle(guide)
+WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 
 return

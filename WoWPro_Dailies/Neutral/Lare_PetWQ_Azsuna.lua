@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_azsuna
+-- Date: 2017-07-05 21:08
+-- Who: Ludovicus
+-- Log: Add AS
+
+-- URL: http://wow-pro.com/node/3731/revisions/28692/view
 -- Date: 2017-06-13 19:58
 -- Who: rpotor
 -- Log: Fix edit and comment links

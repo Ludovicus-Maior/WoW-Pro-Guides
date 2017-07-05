@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2017-07-04 23:38
+-- Who: Ludovicus
+-- Log: Moved stuff around so the 110 DK Campaign worked right.
+
+-- URL: http://wow-pro.com/node/3668/revisions/28686/view
 -- Date: 2017-06-12 18:29
 -- Who: Emmaleah
 -- Log: Missing N|
@@ -179,13 +184,13 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_DeathKnight")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Guide Progression|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
+N Guide Progression|QID|43877|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
-A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663;44184|PRE|38907|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663;44184|PRE|38907|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 
-P In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
-P In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
+P In the Blink of an Eye|ACTIVE|44663;44184|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
+P In the Blink of an Eye|ACTIVE|44663;44184|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 
 ;both
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Dalaran70|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
@@ -306,7 +311,7 @@ A Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenSh
 t Braid of the Underking|QID|43571|M|36.15,56.20|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
 U Knights of the Ebon Blade|ACTIVE|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|At Korgaz Deadaxe. Click on him to train some better troops. Don't forget to come back and pick them up when training is completed.|
 T Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|To Korgaz Deadaxe.|
-A The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|NA|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|44082;43571|
+A The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|NA|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|44082|
 t The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
 
 ;upon first hitting 110
@@ -315,10 +320,41 @@ C Hitting the Books|QID|43877|M|49.75,55.89|N|Research your first artifact knowl
 t Hitting the Books|QID|43877|M|49.75,55.89|N|To Illanna Dreadmoore|LVL|110|
 A Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|From Quartermaster Ozorg.|LVL|110|
 T Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|To Quartermaster Ozorg.|LVL|110|
+
+;lvl 110 DK Campaign
+A The Scarlet Assault|QID|42818|M|50.98,50.74|NA|N|From Highlord Darion Mograine. This is a completed a special instance of the Scarlet Monestary.|PRE|43572|LVL|110|
+P Dalaran|QID|42818|M|24.91,33.65|N|Use the Dalaran Portal.|ACTIVE|42818|
+P Undercity|QID|42818|M|55.89,22.88|Z|Dalaran@Dalaran70|N|Take the Undercity Portal.|FACTION|HORDE|ACTIVE|42818|
+P Stormwind|QID|42818|M|39.48,63.07|Z|Dalaran@Dalaran70|N|Take the Stormwind Portal. The Dalaran Crater portal in Aegwynn's Gallery is also an option.|FACTION|ALLIANCE|ACTIVE|42818|
+F Scarlet Monestary|QID|42818|M|82.49,33.19|Z|Scarlet Monastery Entrance@Tirisfal|N|Fly to Scarlet Monestary.|ACTIVE|42818|
+C The Scarlet Assault|QID|42818|M|69.06,24.51|Z|Scarlet Monastery Entrance@Tirisfal|N|Zone into this instance of the Scarlet Monestary.|
+T The Scarlet Assault|QID|42818|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
+A The Scarlet Massacre|QID|42882|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|PRE|42818|
+A Raising an Army|QID|42821|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|PRE|42818|
+C The Scarlet Massacre|QID|42882|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|S|N|Kill whatever moves.|
+C Raising an Army|QID|42821|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|Click on the piles of bones to rez them.|
+C The Scarlet Massacre|QID|42882|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|US|N|Finish killing the required amount of scarlet crusaders.|
+T Raising an Army|QID|42821|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|To Thassarian, who is following you around.|
+T The Scarlet Massacre|QID|42882|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
+A The Scarlet Commander|QID|42823|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|PRE|42882+42821|
+C The Scarlet Commander|QID|42823|M|49.11,78.32|Z|Floor1@ScarletMonestaryDK|N|Kill High Commander Goodchilde.|
+T The Scarlet Commander|QID|42823|M|49.11,78.32|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
+A The Zealot Rises|QID|42824|PRE|42823|M|49.11,78.32|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|
+C The Zealot Rises|QID|42824|M|49.08,88.83|Z|Floor1@ScarletMonestaryDK|N|Stand in front of the Coffin and use your extra action button. Follow her thru the death gate.|
+T The Zealot Rises|QID|42824|M|50.92,50.67|N|To Highlord Darion Mograine.|
+A Advancing the War Effort|QID|43573|M|49.68,51.30|N|From Siouxsie the Banshee.|PRE|42824|
+A Aggregates of Anguish|QID|43928|M|49.68,51.30|N|From Siouxsie the Banshee.|PRE|42824|
+C Aggregates of Anguish|QID|43928|M|49.95,51.48|S|N|Send your followers on "Unholy Attainment" missions at your command table.|
+C Advancing the War Effort|QID|43573|S|N|Go do world quests.|
+A Vault of the Wardens: A Masterpiece of Flesh|QID|44286|M|63.17,69.42|N|From Lord Thorval.|PRE|42824|
+A Champion: High Inquisitor Whitemane|QID|44245|M|44.72,72.88|N|From/To High Inquisitor Whitemane.|PRE|42824|
+t Vault of the Wardens: A Masterpiece of Flesh|QID|44286|M|63.17,69.42|N|To Lord Thorval.|
+A Champion: Rottgut|QID|44246|M|64.09,69.21|N|From/To Rottgut.|PRE|44286|
+
 A Goddess Watch Over You|QID|44337;44338|M|49.75,55.89|NA|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
-C Goddess Watch Over You|QID|44338|N|You need to do the main Val'sharah quest line to complete this quest.|
+C Goddess Watch Over You|QID|44338;44338|N|You need to do the main Val'sharah quest line to complete this quest.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|40890|
 R Death Gate|QID|44448|M|28.43,40.38|Z|Dalaran@Dalaran70|N|Return to your order hall.|ACTIVE|44448|LVL|110|
 C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
 A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|From Camille Kleister.|LVL|110|
@@ -397,7 +433,7 @@ T Ravencrest's Legacy|QID|44479|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore
 ;light's heart, requires AK>=5
 A In My Father's House|QID|44480|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart. Requires Artifact Knowledge >=5. (no way for guide to determine if you are eligible).|PRE|44479|
 P Dalaran|QID|44480|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|44480|
-R Graymane Enclave|QID|44480|M|47.2,17.8|Z|Dalaran@Dalaran70|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|44480|
+R Graymane Enclave|QID|44480|M|47.2,17.8|Z|Dalaran@Dalaran70|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjal questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjal portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|44480|
 R Windrunner's Sanctuary|QID|44480|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|44480|
 R Temple of Zin-Malor - Azshara|QID|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|ACTIVE|44480|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
@@ -416,36 +452,6 @@ T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari th
 A Soul Prism of the Illidari|QID|45175|PRE|45174|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|LVL|110|
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|;guessing on turn in
 
-;lvl 110 DK Campaign
-A The Scarlet Assault|QID|42818|M|50.98,50.74|NA|N|From Highlord Darion Mograine. This is a completed a special instance of the Scarlet Monestary.|PRE|43572|LVL|110|
-P Dalaran|QID|42818|M|24.91,33.65|N|Use the Dalaran Portal.|ACTIVE|42818|
-P Undercity|QID|42818|M|55.89,22.88|Z|Dalaran@Dalaran70|N|Take the Undercity Portal.|FACTION|HORDE|ACTIVE|42818|
-P Stormwind|QID|42818|M|39.48,63.07|Z|Dalaran@Dalaran70|N|Take the Stormwind Portal. The Dalaran Crater portal in Aegwynn's Gallery is also an option.|FACTION|ALLIANCE|ACTIVE|42818|
-F Scarlet Monestary|QID|42818|M|82.49,33.19|Z|Scarlet Monastery Entrance@Tirisfal|N|Fly to Scarlet Monestary.|ACTIVE|42818|
-C The Scarlet Assault|QID|42818|M|69.06,24.51|Z|Scarlet Monastery Entrance@Tirisfal|N|Zone into this instance of the Scarlet Monestary.|
-T The Scarlet Assault|QID|42818|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
-A The Scarlet Massacre|QID|42882|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|PRE|42818|
-A Raising an Army|QID|42821|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|PRE|42818|
-C The Scarlet Massacre|QID|42882|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|S|N|Kill whatever moves.|
-C Raising an Army|QID|42821|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|Click on the piles of bones to rez them.|
-C The Scarlet Massacre|QID|42882|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|US|N|Finish killing the required amount of scarlet crusaders.|
-T Raising an Army|QID|42821|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|To Thassarian, who is following you around.|
-T The Scarlet Massacre|QID|42882|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
-A The Scarlet Commander|QID|42823|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|PRE|42882+42821|
-C The Scarlet Commander|QID|42823|M|48.99,75.25|Z|Floor1@ScarletMonestaryDK|N|Kill High Commander Goodchilde.|
-T The Scarlet Commander|QID|42823|M|48.99,75.25|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
-A The Zealot Rises|QID|42824|PRE|42823|M|48.99,75.25|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|
-C The Zealot Rises|QID|42824|M|49.08,88.83|Z|Floor1@ScarletMonestaryDK|N|Stand in front of the Coffin and use your extra action button. Follow her thru the death gate.|
-T The Zealot Rises|QID|42824|M|50.92,50.67|N|To Highlord Darion Mograine.|
-A Advancing the War Effort|QID|43573|M|49.68,51.30|N|From Siouxsie the Banshee.|PRE|42824|
-A Aggregates of Anguish|QID|43928|M|49.68,51.30|N|From Siouxsie the Banshee.|PRE|42824|
-C Aggregates of Anguish|QID|43928|M|49.95,51.48|S|N|Send your followers on "Unholy Attainment" missions at your command table.|
-C Advancing the War Effort|QID|43573|S|N|Go do world quests.|
-A A Masterpiece of Flesh|QID|44286|M|63.17,69.42|N|From Lord Thorval.|PRE|42824|
-A Champion: High Inquisitor Whitemane|QID|44245|N|From/To High Inquisitor Whitemane.|PRE|42824|
-t A Masterpiece of Flesh|QID|44286|M|63.17,69.42|N|To Lord Thorval.|
-A Champion: Rottgut|QID|44246|M|64.09,69.21|N|From/To Rottgut.|PRE|44286|
-
 C Advancing the War Effort|QID|43573|US|N|Go do world quests.|
 C Aggregates of Anguish|QID|43928|M|49.95,51.48|US|NC|N|Send your followers on "Unholy Attainment" missions at your command table.|
 t Advancing the War Effort|QID|43573|M|49.68,51.30|N|To Siouxsie the Banshee.|
@@ -454,7 +460,7 @@ B Blood of Sargeras|QID|44690|M|63.17,69.42|N|Acquire Blood of Sargeras if you d
 T A Thirst For Blood|QID|44690|M|63.17,69.42|N|To Lord Thorval.|
 A Maul of the Dead|QID|43574|M|36.19,56.14|NA|Z|The Heart of Acherus@BrokenShore|N|From Salanar the Horseman. This quest is completed in the Maw of Souls dungeon instance.|PRE|43573|
 t Aggregates of Anguish|QID|43928|M|49.68,51.30|N|To Siouxsie the Banshee.|
-A The Frozen Soul|QID|44282|M|58.27,30.86|NA|N|From Amal'thazad. This quest is completed in the Eye of Azshara dungeon instance.|PRE|43928|
+A Eye of Azshara: The Frozen Soul|QID|44282|M|58.27,30.86|NA|N|From Amal'thazad. This quest is completed in the Eye of Azshara dungeon instance.|PRE|43928|
 t Maul of the Dead|QID|43574|M|36.19,56.14|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
 A The Fourth Horseman|QID|43686|M|51.06,50.59|N|From Highlord Darion Mograine.|PRE|43574|
 P Dalaran|QID|43686|M|24.91,33.65|N|Use the Dalaran Portal.|ACTIVE|43686|
@@ -471,14 +477,14 @@ C Lady of the Light|QID|43686|SO|7|M|78.52,45.75|Z|Eastern Plaguelands|N|Fight y
 C An Unholy Fate|QID|43686|SO|8|M|78.90,45.28|Z|Eastern Plaguelands|NC|N|Stand of the steps before the coffin and use your extra action button then watch the vignette play out.|
 C The Fourth Horseman|QID|43686|M|30.36,32.98|NC|N|Watch the vignette and then click on Darion.|
 T The Fourth Horseman|QID|43686|M|30.36,32.98|N|To Highlord Darion Morgraine.|
-t The Frozen Soul|QID|44282|M|58.27,30.86|N|To Amal'thazad.|
+t Eye of Azshara: The Frozen Soul|QID|44282|M|58.27,30.86|N|To Amal'thazad.|
 A Champion: Amal'thazad|QID|44247|M|58.20,31.00|N|From/To Amal'thazad.|PRE|44482|
 A Champion: Darion Mograine|QID|44248|M|26.90,28.78|Z|The Heart of Acherus@BrokenShore|N|From/To Highlord Darion Morgraine, who is on the lower level balcony.|PRE|43686|
 A A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Morgraine, who is now by your Soul Forge.|PRE|43686|
 C A Hero's Weapon|QID|43407|M|58.50,58.54|Z|The Heart of Acherus@BrokenShore|NC|N|Stand in the designated spot and use your extra action button.|
 T A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Morgraine. You have now unlocked the third relic slot, congratulations!|
 A The Power Within|QID|43496|M|44.24,45.64|N|From Image of Kalec. prereq seems to be AK>=10 and finishing class hall campaign.|PRE|43407|
-F Azurewing Repose|QID|43496|M|25.55,28.86|N|At Grimwing.|
+F Azurewing Repose|ACTIVE|43496|M|25.55,28.86|N|At Grimwing.|
 T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
 A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
