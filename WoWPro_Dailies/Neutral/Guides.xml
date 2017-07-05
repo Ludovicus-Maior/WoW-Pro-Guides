@@ -23,11 +23,18 @@
   <Script file="Ludo_NetherDrake.lua"/>
   <Script file="Ludo_Skyguard.lua"/>
   <Script file="Ludo_Timeless.lua"/>
+  <Script file="Ludo_PetWailingCaverns.lua"/>
   <Script file="Ludo_Wyrmrest.lua"/>
   <Script file="Twists_ShattSun.lua"/>
   <Script file="Way2Hairy_Klaxxi.lua"/>
   <Script file="Lare_PetLvl.lua"/>
   <Script file="Lare_PetTamersDrae.lua"/>
   <Script file="Lare_PetTinyTerrors.lua"/>
-  <Script file="Lare_PetWQ.lua"/>
+  <Script file="Lare_PetWQ_Azsuna.lua"/>
+  <Script file="Lare_PetWQ_BrokenShore.lua"/>
+  <Script file="Lare_PetWQ_Dalaran.lua"/>
+  <Script file="Lare_PetWQ_Highmountain.lua"/>
+  <Script file="Lare_PetWQ_Stormheim.lua"/>
+  <Script file="Lare_PetWQ_Suramar.lua"/>
+  <Script file="Lare_PetWQ_Valsharah.lua"/>
 </Ui>
