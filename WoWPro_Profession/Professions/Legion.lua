@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_profession_quests
+-- Date: 2017-07-15 22:30
+-- Who: Ludovicus
+-- Log: Expanded Jewelcrafting.
+
+-- URL: http://wow-pro.com/node/3712/revisions/28711/view
 -- Date: 2017-07-04 23:42
 -- Who: Ludovicus
 -- Log: Expanded Inscription.  Moved secondary professions to the end.
@@ -350,79 +355,118 @@ A Truly Outrageous|QID|40529|PRE|40523|M|40.28,34.70|Z|Dalaran@Dalaran70|N|From 
 C Gem Chips|QID|40529|QO|1|N|Get the chips from prospecting Lyestone or Felslate ore|
 T Truly Outrageous|QID|40529|M|40.28,34.70|Z|Dalaran@Dalaran70|N|To Tiffany Cartier|
 A An Eye for Detail|QID|40530|PRE|40529|M|40.28,34.70|Z|Dalaran@Dalaran70|N|From Tiffany Cartier|
-C Catriona Macrae|QID|40530|QO|1|M|49.5, 32.3|Z|Dalaran@Dalaran70|CHAT|N|Catriona's at the Legerdemain Lounge second floor, right room.|
-C Catriona's Gem|QID|40530|QO|2|M|49.5, 32.3|Z|Dalaran@Dalaran70|N|Examine the gem on the bed pillow.|
-C Didi the Wrench|QID|40530|QO|3|M|38.7, 25.2|Z|Dalaran@Dalaran70|CHAT|N|Chat with Didi at Like Clockwork.|
-C Gem Chips|QID|40530|QO|4|M|38.7, 25.2|Z|Dalaran@Dalaran70|N|Examine the chips on the table behind Didi.|
-C Debbi Moore|QID|40530|QO|5|M|49.2, 55.8|Z|Dalaran@Dalaran70|CHAT|N|CHat with Debbi at Curiosities & Moore|
-C Bag of Jewels|QID|40530|QO|6|M|49.2, 55.8|Z|Dalaran@Dalaran70|N|Examine the Bag of Jewels on a stand in front of her.|
+C Catriona Macrae|QID|40530|QO|1|M|49.48, 32.27|Z|Dalaran@Dalaran70|CHAT|N|Catriona is at the Legerdemain Lounge second floor, right room.|
+C Catriona's Gem|QID|40530|QO|2|M|49.52, 38.15|Z|Dalaran@Dalaran70|N|Examine the gem on the pillow on the night stand.|
+C Didi the Wrench|QID|40530|QO|3|M|38.83, 24.71|Z|Dalaran@Dalaran70|CHAT|N|Chat with Didi at Like Clockwork.|
+C Gem Chips|QID|40530|QO|4|M|38.75, 24.42|Z|Dalaran@Dalaran70|N|Examine the chips on the table behind Didi.|
+C Debbi Moore|QID|40530|QO|5|M|49.36, 55.22|Z|Dalaran@Dalaran70|CHAT|N|Chat with Debbi at Curiosities & Moore|
+C Bag of Jewels|QID|40530|QO|6|M|49.49, 55.63|Z|Dalaran@Dalaran70|N|Examine the Bag of Jewels on a stand in front of her.|
 C Bring the Bag|QID|40530|QO|7|M|40.28,34.70|Z|Dalaran@Dalaran70|N|Bring them back to Tiffany|
 T An Eye for Detail|QID|40530|M|40.28,34.70|Z|Dalaran@Dalaran70|N|To Tiffany Cartier|
 A Swift Vengeance|QID|40531|PRE|40530|M|40.28,34.70|Z|Dalaran@Dalaran70|N|From Tiffany Cartier|
 C Harold Winston|QID|40531|QO|1|M|49.45,65.35|Z|The Underbelly@Dalaran70|N|If you HATE PvP, then buy a personal guard or go only when the [Sewer Guards] buff is active. You need to kill Harold.|
 T Swift Vengeance|QID|40531|M|40.28,34.70|Z|Dalaran@Dalaran70|N|To Tiffany Cartier|
 A Making the Cut|QID|40534|PRE|40531|M|40.28,34.70|Z|Dalaran@Dalaran70|N|From Tiffany Cartier|
+C Cut Queen's Opal|QID|40534|QO|1|M|40.00,34.36|Z|Dalaran@Dalaran70|N|Use the gemcutter next to Tiffany.  Click away all the jagged bits and use the arrows to rotate the gem to get the back.  Viola!|
 T Making the Cut|QID|40534|M|40.28,34.70|Z|Dalaran@Dalaran70|N|To Tiffany Cartier|
-A A Familiar Ring to It|QID|40524|PRE|40534|M|39.8,35|Z|Dalaran@Dalaran70|N|From Timothy Jones|
-T A Familiar Ring to It|QID|40524|M|46.67,41.37|Z|Azsuna|N|To Timothy Jones|
-A Getting the Band Back Together|QID|40524|PRE|40524|M|46.67,41.37|Z|Azsuna|N|From Timothy Jones|
-A Knocked for a Loop|QID|42214|PRE|40524|M|46.67,41.37|Z|Azsuna|N|From Timothy Jones|
+A A Familiar Ring to It|QID|40524|PRE|40534|M|39.8,35|Z|Dalaran@Dalaran70|N|From Timothy Jones, in Dalaran|
+T A Familiar Ring to It|QID|40524|M|46.67,41.37|Z|Azsuna|N|To Timothy Jones, in Azsuna|
+A Getting the Band Back Together|QID|40525|PRE|40524|M|46.67,41.37|Z|Azsuna|N|From Timothy Jones, in Azsuna|
+A Knocked for a Loop|QID|42214|PRE|40524|M|46.67,41.37|Z|Azsuna|N|From Timothy Jones, in Azsuna|
 C Salteye Bangle|QID|42214|QO|1|M|50,35|Z|Azsuna|S|N|Kill murlocs for their Bangles|
-C Third|QID|42214|QO|3|M|50.1,37.1|Z|Azsuna|N|Loot the 3rd piece from an Ancient Chest.|
-C Second|QID|42214|QO|2|M|50,35.4|Z|Azsuna|N|Loot the 2nd piece from an Ancient Chest.|
-C First|QID|42214|QO|1|M|50.7,32.8|Z|Azsuna|N|Loot the 1st piece from an Ancient Chest.|
+C Third|QID|40525|QO|3|M|50.13,37.18|Z|Azsuna|N|Loot the 3rd piece from an Ancient Chest.|
+C Second|QID|40525|QO|2|M|59.95,35.42|Z|Azsuna|N|Loot the 2nd piece from an Ancient Chest.|
+C First|QID|40525|QO|1|M|50.64,32.78|Z|Azsuna|N|Loot the 1st piece from an Ancient Chest.|
 C Salteye Bangle|QID|42214|QO|1|M|50,35|Z|Azsuna|US|N|Kill murlocs for their Bangles|
-T Getting the Band Back Together|QID|40524|M|46.67,41.37|Z|Azsuna|N|To Timothy Jones|
+T Getting the Band Back Together|QID|40525|M|46.67,41.37|Z|Azsuna|N|To Timothy Jones|
 T Knocked for a Loop|QID|42214|M|46.67,41.37|Z|Azsuna|N|To Timothy Jones|
 A Finishing Touches|QID|40526|PRE|42214|M|46.67,41.37|Z|Azsuna|N|From Timothy Jones (UI Auto-accept)|
-C Cut Skystone|QID|40526|QO|1|M|46.68,41.31|Z|Azsuna|N|Use the gemcutter next to Timothy.  Click away all the jagged bits and use the arrows to rotate the gem toget the back.  Viola!|
+C Cut Skystone|QID|40526|QO|1|M|46.68,41.31|Z|Azsuna|N|Use the gemcutter next to Timothy.  Click away all the jagged bits and use the arrows to rotate the gem to get the back.  Viola!|
 T Finishing Touches|QID|40526|M|46.67,41.37|Z|Azsuna|N|To Timothy Jones|
 
 ; Jewelcrafting Level 102
 A Raising the Drogbar|QID|40535|PRE|40526|M|40.28,34.70|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|102|N|From Tiffany Cartier|
-F Lor'lathil|ACTIVE|40535|M|69.85,51.15|Z|Dalaran@Dalaran70|N|Fly out to Lorlathil and take the north-west road.|
-C Lasune Starblade|QID|40535|QO|1|M|45.6,67.3|Z|Val'sharah|CHAT|N|Talk to Lasune at her house in Val'sharah|
-C Jabrul|QID|40535|QO|2|M|45.2,73.2|Z|Val'sharah|CHAT|N|Find Jabrul under the bridge.|
-C Jewels|QID|40535|QO|3|M|44.7,74.7|Z|Val'sharah|N|Go find his jewels.|
-T Raising the Drogbar|QID|40535|M|45.2,73.2|Z|Val'sharah|N|To Jabrul|
-A Bruls Before Jewels|QID|40536|M|45.2,73.2|Z|Val'sharah|N|From Jabrul. It helped to not be mounted for this quest not to bug in early versions.|
-C First stone|QID|40536|QO|1|M|41.5,76.5|Z|Val'sharah|N|Walk Jabrul to the 1st stone, kill the harpies that spawn.|
-C Second stone|QID|40536|QO|3|M|44.5,78.5|Z|Val'sharah|N|Walk Jabrul to the 2nd stone, kill the harpies that spawn.|
-C Night Elf Camp|QID|40536|QO|4|M|45.6,67.3|Z|Val'sharah|N|Walk Jabrul to the camp, defending him. Stick to the dirt path.|
-T Bruls Before Jewels|QID|40536|M|45.2,73.2|Z|Val'sharah|N|To Jabrul|
+F Lorlathil|ACTIVE|40535|M|69.85,51.15|Z|Dalaran@Dalaran70|N|Fly out to Lorlathil and take the north-west road.|
+C Lasune Starblade|QID|40535|QO|1|M|45.65,67.21|Z|Val'sharah|CHAT|N|Talk to Lasune at her house in Val'sharah|
+C Jabrul|QID|40535|QO|2|M|45.37,73.35|Z|Val'sharah|CHAT|N|Find Jabrul to the side of the bridge.|
+C Jewels|QID|40535|QO|3|M|44.72,74.78|Z|Val'sharah|N|Go find his jewels.|
+T Raising the Drogbar|QID|40535|M|45.37,73.35|Z|Val'sharah|N|To Jabrul|
+A Bruls Before Jewels|QID|40536|M|45.37,73.35|Z|Val'sharah|N|From Jabrul. It helped to not be mounted for this quest not to bug in early versions.|
+C First stone|QID|40536|QO|1|M|41.49,76.57|Z|Val'sharah|N|Walk Jabrul to the 1st stone, kill the harpies that spawn.|
+C Second stone|QID|40536|QO|2|M|44.54,78.54|Z|Val'sharah|N|Walk Jabrul to the 2nd stone, kill the harpies that spawn.|
+C Night Elf Camp|QID|40536|QO|3|M|45.44,67.37|Z|Val'sharah|N|Walk Jabrul to the camp, defending him. Stick to the dirt path.|
+T Bruls Before Jewels|QID|40536|M|45.44,67.37|Z|Val'sharah|N|To Jabrul|
 
 ; Jewelcrafting Level 104
 A Lapidary Lessons|QID|40538|PRE|40536|M|40.28,34.70|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|104|N|From Tiffany Cartier|
-C Cut Maelstrom Sapphire|QID|40526|QO|1|M|40.28,34.70|Z|Dalaran@Dalaran70|N|Use the gemcutter next to Tiffany.  Click away all the jagged bits and use the arrows to rotate the gem toget the back.  Viola!|
+C Cut Maelstrom Sapphire|QID|40538|QO|1|M|40.00,34.36|Z|Dalaran@Dalaran70|N|Use the gemcutter next to Tiffany.  Click away all the jagged bits and use the arrows to rotate the gem to get the back.  Viola!|
 T Lapidary Lessons|QID|40538|M|40.28,34.70|Z|Dalaran@Dalaran70|N|To Tiffany Cartier|
+A Hidden Intentions|QID|40539|PRE|40538|M|38.94, 35.82|Z|Dalaran@Dalaran70|N|From Clive Cozen|
+C Ask Tiffany Cartier|QID|40539|QO|1|M|40.28,34.70|Z|Dalaran@Dalaran70|CHAT|N|Ask Tiffany Cartier where to get diamonds.|
+C Ask Ms. Xiulan|QID|40539|QO|2|M|71.34, 19.67|Z|The Underbelly@Dalaran70|N|If you HATE PvP, then buy a personal guard or go only when the [Sewer Guards] buff is active. Either pay a fee (Fair-Agressive-Fair-Fair) or kill Inkrot.|
+K Inkrot|QID|40539|QO|3|T|Inkrot|M|59.6, 76.6|Z|The Underbelly@Dalaran70|
+C Ask for the diamond|QID|40539|QO|4|M|71.34, 19.67|Z|The Underbelly@Dalaran70|CHAT|N|Ask Xiulan for the diamond.|
+C Carve it up|QID|40539|QO|5|U|137624|N|Click on the diamond to carve.|
+T Hidden Intentions|QID|40539|M|38.94, 35.82|Z|Dalaran@Dalaran70|N|From Clive Cozen|
 
 ; Jewelcrafting Level 106
 A Come at Me, Brul|QID|40540|PRE|40538|M|40.28,34.70|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|106|N|From Tiffany Cartier|
-F Nashal's Watch|ACTIVE|40540|M|69.85,51.15|Z|Dalaran@Dalaran70|N|Fly out to Nashal's Watch and take the xxx road.|
-T Come at Me, Brul|QID|40540|M|42.2,35.0|Z|Stormheim|N|To Jabrul|
-A The Charge Within|QID|40541|M|42.2,35.0|Z|Stormheim|N|From Jabrul|
-T The Charge Within|QID|40541|M|42.2,35.0|Z|Stormheim|N|To Jabrul|
-A Mysteries of Nature|QID|40546|M|42.2,35.0|Z|Stormheim|N|From Jabrul|
-T Mysteries of Nature|QID|40546|M|42.2,35.0|Z|Stormheim|N|To Jabrul|
-A Eyes of Nashal|QID|40542|M|42.2,35.0|Z|Stormheim|N|From Jabrul|
-T Eyes of Nashal|QID|40542|M|42.2,35.0|Z|Stormheim|N|To Jabrul|
+F Stormtorn Foothills|ACTIVE|40540|M|69.85,51.15|Z|Dalaran@Dalaran70|N|Fly out to Stormtorn Foothills.|
+R Nashal's Watch|ACTIVE|40540|M|51.03,33.66;48.50,38.94;42.61,38.72;41.55,39.13;41.35,36.31|Z|Stormheim|CS|N|Head out along the cliffs to giant statue.|
+T Come at Me, Brul|QID|40540|M|42.25,34.99|Z|Stormheim|N|To Jabrul, at the base of the giant statue due west along the cliffs. |
+A The Charge Within|QID|40541|PRE|40540|M|42.25,34.99|Z|Stormheim|N|From Jabrul|
+A Mysteries of Nature|QID|40546|PRE|40540|M|42.25,34.99|Z|Stormheim|N|From Jabrul|
+C Storm Dragon Charges|QID|40541|QO|1|M|43.20,40.40;44.40,33.90;42.50,28.23;47.47,33.05;44.12,31.73;44.60,29.00;43.10,37.95;45.42,26.21;46.38,36.70|Z|Stormheim|S|CN|N|Use the Jewel on the drake corpses when it flashes on your screen.|T|Adult Squallhunter|
+C Dragon Glass|QID|40546|QO|1|M|46.67, 31.18|Z|Stormheim|N|Loot the gem here.|
+C Storm Dragon Charges|QID|40541|QO|1|M|43.20,40.40;44.40,33.90;42.50,28.23;47.47,33.05;44.12,31.73;44.60,29.00;43.10,37.95;45.42,26.21;46.38,36.70|Z|Stormheim|US|CN|N|Use the Jewel on the drake corpses when it flashes on your screen.|T|Adult Squallhunter|
+T The Charge Within|QID|40541|M|42.25,34.99|Z|Stormheim|N|To Jabrul|
+T Mysteries of Nature|QID|40546|M|42.25,34.99|Z|Stormheim|N|To Jabrul|
+A Eyes of Nashal|QID|40542;40543;40544|PRE|40541;40546|M|42.25,34.99|Z|Stormheim|N|From Jabrul|
+C Up to the Head|QID|40542;40543;40544|QO|1|M|42.46,34.05|Z|Stormheim|CS|NC|N|Loot the eyes of the giant statute. Go up the door behind Jabrul.|
+T Eyes of Nashal|QID|40542;40543;40544|M|42.25,34.99|Z|Stormheim|N|To Jabrul|
 
 ; Jewelcrafting Level 108
-A Jabrul Needs You|QID|40556|PRE|40542|M|39.8,34.3|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|108|N|From Letter From Jabrul. If you don't see the quest, leave Dalaran and then come back to the shop.|
-F Shackle's Den|ACTIVE|40556|M|69.85,51.15|Z|Dalaran@Dalaran70|N|Fly out to Shackle's Den and take the xxx road.|
-T Jabrul Needs You|QID|40556|M|56.4,59.6|Z|Azsuna|
-A To Dalaran, With Love|QID|40547|M|56.4,59.6|Z|Azsuna|
-T To Dalaran, With Love|QID|40547|M|39.8,34.4|Z|Dalaran@Dalaran70|
+A Jabrul Needs You|QID|40556|PRE|40542|M|39.97,34.03|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|108|N|From Letter From Jabrul. If you don't see the quest, leave Dalaran and then come back to the shop.|
+F Shackle's Den|ACTIVE|40556|M|69.85,51.15|Z|Dalaran@Dalaran70|N|Fly out to Shackle's Den and go to the cave entrance nearby.|
+T Jabrul Needs You|QID|40556|M|56.37,59.64|Z|Azsuna|N|To Jabrul|
+A To Dalaran, With Love|QID|40547|M|56.37,59.64|Z|Azsuna|N|From Jabrul|
+C Planks|QID|40547|QO|1|M|56.3,56.6|Z|Azsuna|N|Get the planks in the water near the derelict ship.|
+C Crate up Jabrul|QID|40547|QO|2|M|56.37,59.64|Z|Azsuna|CHAT|N|Tell Jabrul you are going to crate him up. Then tell him you are going to mail him.|
+H Dalaran|ACTIVE|40547|U|140192|N|Get Back to Dalaran|
+C Unpack Jabrul|QID|40547|QO|3|M|40.18,32.29|Z|Dalaran@Dalaran70|CHAT|N|Break open the crate!|
+T To Dalaran, With Love|QID|40547|M|39.82,33.96|Z|Dalaran@Dalaran70|
 
 ; Jewelcrafting Level 110
-A Socket to Me|QID|40558|PRE|40547|M|39.8,34.7|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|110|N|From a Broken Toy Box|
-T Socket to Me|QID|40558|M|40.28,34.70|Z|Dalaran@Dalaran70|N|To Tiffany Cartier|
-
 A A Personal Touch|QID|40562|M|39.60,35.46|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|110|N|From Sminx|
-C A Personal Touch|QID|40562|M|49.74,77.43|Z|Suramar|QO|2|N|Nightborne Jewelry Case|
-C A Personal Touch|QID|40562|M|50.01,76.06|Z|Suramar|QO|1|N|Custom Jewelry Order|
+F Meredil|ACTIVE|40562|M|69.85,51.15|Z|Dalaran@Dalaran70|N|Fly out to Meredil and head into Suramar City for the next bits.|
+N Masquerade|AVAILABLE|42079|N|If you have not completed the Suramar quest line [Masquerade], this is going to be tough.|
+C A Personal Touch|QID|40562|M|49.94,77.35|Z|Suramar|QO|2|N|Nightborne Jewelry Case, at Bazzar Vendor.|
+C A Personal Touch|QID|40562|M|50.03,75.96|Z|Suramar|QO|1|N|Custom Jewelry Order|
 C A Personal Touch|QID|40562|M|50.8,84.3;48.5,72.3;50,76.1|Z|Suramar|CN|QO|3|N|Nightborne Loupe, from:\n  Duskwatch Shroud or\n  Duskwatch Orbitist|
-T A Personal Touch|QID|40562|M|39.60,35.46|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|110|N|To Sminx, in the shop.  Don't pay attention to the mislocated ? on the map!|
+T A Personal Touch|QID|40562|M|39.60,35.46|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|110|N|To Sminx, in the shop.  Don't pay attention to the mislocated ? on the map! Check out Jabrul's new offerings.|
+
+A Socket to Me|QID|40558|PRE|40547|M|40.10,34.91|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|110|N|From a Broken Toy Box|
+P Karazhan|QID|40558|ACTIVE|40558|QO|1|M|31.92,71.37|Z|Aegwynn's Gallery@Dalaran70|N|Get the portal to Karazhan from the Gallery and then fly.|
+F Northern Stranglethorn|QID|40558|ACTIVE|40558|QO|1|M|35.7,55.85|Z|Northern Stranglethorn|N|Fly to a shipwreak in Northern Stranglethorn|
+C Crystal Shell|QID|40558|QO|1|M|35.72,55.87|Z|Northern Stranglethorn|N|Loot the Shell from the Adult Truesilver Crab near Grom'gol at the bottom of the wreak.|T|Adult Truesilver Crab|
+P Deepholm|QID|40558|ACTIVE|40558|QO|2|N|Take the portal to Deepholm from Stormwind.|M|73.19,19.64|Z|Stormwind City|FACTION|Alliance|
+B Orgrimmar|QID|40558|ACTIVE|40558|QO|2|N|Take the Blimp from Grom'gol back to Orgrimmar|M|38,50|Z|Northern Stranglethorn|FACTION|Horde|
+P Deepholm|QID|40558|ACTIVE|40558|QO|2|N|Take the portal to Deepholm from Orgrimmar.|M|50.85,36.30|Z|Orgrimmar|FACTION|Horde|
+C Crystal Core|QID|40558|QO|2|M|52.18,20.43|Z|Deepholm|N|Loot the Core from the Crimson Geode|T|Crimson Geode|
+P Twilight Highlands|QID|40558|ACTIVE|40558|QO|3|N|Take the portal to Twilight Highlands from Stormwind.|M|75.36,16.43|Z|Stormwind City|FACTION|Alliance|
+P Twilight Highlands|QID|40558|ACTIVE|40558|QO|3|N|Take the portal to Twilight Highlands from Orgrimmar.|M|50.23,39.43|Z|Orgrimmar|FACTION|Horde|
+C Crystal Scale|QID|40558|QO|3|M|25.86,69.63|Z|Twilight Highlands|N|Loot the Scale from the Lost Netherwhelp.|T|Lost Netherwhelp|
+P Vale of Eternal Blossoms|QID|40558|ACTIVE|40558|QO|4|N|Take the portal to the Vale from Dalaran.|M|36.49,67.15|Z|Dalaran@Dalaran70|FACTION|Alliance|
+P Vale of Eternal Blossoms|QID|40558|ACTIVE|40558|QO|4|N|Take the portal to the Vale from Dalaran.|M|54.90,25.54|Z|Dalaran@Dalaran70|FACTION|Horde|
+C Crystal Heart|QID|40558|QO|4|M|14.2,67.2|Z|Vale of Eternal Blossoms|N|Catch the Hare and cut the Heart out.|U|132976|T|Golden|
+F Stonehoof Watch|QID|40558|ACTIVE|40558|QO|5|N|Fly out to Stonehoof Watch to Greystone Enclave.|
+R Greystone Enclave|QID|40558|ACTIVE|40558|QO|5|M|59.26,68.48;58.24,71.30;58.42,73.91;56.96,71.81;54.57,72.31;54.56,75.36|Z|Highmountain|CS|N|Watch out for Frostshard, who patrols outside. You want the cave with the Snail race and Basiliks.|
+K Crystal Shard|QID|40558|QO|5|M|53.44,81.33|Z|Highmountain|T|Amberstone Earthrender|N|Kill Amberstone Earthrender behind the racetrack for the Shard.|
+P Nordrassil|QID|40558|ACTIVE|40558|QO|6|N|Take the portal to Hyjal from Stormwind and fly to Moonglade.|M|76.20,18.69|Z|Stormwind City|FACTION|Alliance|
+P Nordrassil|QID|40558|ACTIVE|40558|QO|6|N|Take the portal to Hyjal from Orgrimmar and fly to Moonglade.|M|51.13,38.29|Z|Orgrimmar|FACTION|Horde|
+F Moonglade|QID|40558|ACTIVE|40558|QO|6|N|Fly to Moonglade, pick your method.|
+C Crystal Plume|QID|40558|QO|6|M|31.05,47.62|Z|Moonglade|N|Nothing to kill, right on the ground in Moonglade.|
+T Socket to Me|QID|40558|M|40.28,34.70|Z|Dalaran@Dalaran70|N|To Tiffany Cartier|
 
 ; Leatherworking;165
 
