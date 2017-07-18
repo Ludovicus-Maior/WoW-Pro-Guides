@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2017-07-15 22:46
+-- Who: Ludovicus
+-- Log: Playthrough
+
+-- URL: http://wow-pro.com/node/3657/revisions/28667/view
 -- Date: 2017-05-14 22:49
 -- Who: Ludovicus
 -- Log: Change [Kill Golza the Iron Fin] to use ACH|11261;2| for completion.
@@ -253,10 +258,10 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Azsuna")
 
 return [[
 
-N Starting in Dalaran|QID|39718|U|140192|N|This guide assumes you are starting in Dalaran. |
-N Treasure|QID|39718|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3 *some are on rank 2, none are on rank 1*.|
-N Rares (Silver Elite)|QID|39718|N|All Rares are included if you do the guide on rank 3, *some are on rank 2, none are on 1*  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
-N Ranks|QID|39718|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the most of the rest of the quests in the zone, Rank 3, includes the difficult or out of the way optional quests, rares and treasures.|
+N Starting in Dalaran|AVAILABLE|38834;44137|U|140192|N|This guide assumes you are starting in Dalaran. |
+N Treasure|AVAILABLE|38834;44137|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3 *some are on rank 2, none are on rank 1*.|
+N Rares (Silver Elite)|AVAILABLE|38834;44137|N|All Rares are included if you do the guide on rank 3, *some are on rank 2, none are on 1*  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
+N Ranks|AVAILABLE|38834;44137|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the most of the rest of the quests in the zone, Rank 3, includes the difficult or out of the way optional quests, rares and treasures.|
 
 T Paradise Lost|QID|39718|M|72.51,45.66|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Down to Azsuna|QID|41220|PRE|39718|M|72.51,45.66|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
@@ -370,7 +375,7 @@ T The Consumed|QID|37859|M|49.12,16.54|N|To Projection of Senegos.|
 T Runas the Shamed|QID|37957|M|49.12,16.54|N|To Projection of Senegos.|
 A Runas Knows the Way|QID|37857|PRE|37856;37957;37859|M|49.22,16.08|N|From Runas the Shamed.|
 
-R The Lost Orchard|QID|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|
+R The Lost Orchard|AVAILABLE|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|
 A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-109|
 C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|S|N|Kill the hostiles, destroy the barrels of tainted barrels to advance the objective.|RANK|3|
 A Challiane Vineyards|QID|38203|M|47.40,12.44|N|From Cellarman Voodani who shows up when you enter the area and follows you.|RANK|3|
@@ -382,7 +387,7 @@ K Kill Grand Vintner Valiana|QID|38203|QO|3|M|42.91,8.55|T|Grand Vintner Valiana
 $ Glimmering Treasure Chest|QID|38367|M|42.63,8.08|N|Loot for a bit of treasure and resources.|RANK|3|
 C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|US|N|Stay and complete or check off.|RANK|3|
 t A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto turned in when complete.|RANK|3|
-f Challiane Vineyards|QID|38203|M|40.81,8.98|N|At Stagtamer Maliana.|RANK|3|
+f Challiane's Terrace|QID|38203|M|40.81,8.98|N|At Stagtamer Maliana.|RANK|3|
 T Challiane Vineyards|QID|38203|M|40.78,9.33|N|To Cellarman Voodani.|RANK|3|
 R Azurewing Whelplands|QID|37857|M|53.50,16.68|N|Back to the interupted quest line.|RANK|3|
 
@@ -596,7 +601,7 @@ A Tip the Scales-Bonus Objective|QID|37779|LVL|-109|M|58.67,41.22|N|Auto accepte
 C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|S|N|Kill Naga, loot the trident racks to activate an extra action button.|RANK|2|
 C The Head of the Snake|QID|37470|M|62.05,41.57|N|Kill Athissa.|T|Athissa|
 T The Head of the Snake|QID|37470|M|61.70,41.08|N|To Prince Farondis.|
-A Wrath of Azshara|QID|38286|PRE|37470|M|61.70,41.08|NA|N|From Prince Farondis. Thia ia a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
+A Wrath of Azshara|QID|38286|PRE|37470|M|61.70,41.08|NA|N|From Prince Farondis. This is a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
 $ Small Treasure Chest|QID|42294|M|62.81,44.79|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42293|M|63.64,39.18|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Golza the Iron Fin|QID|42372|ACH|11261;2|M|65.17,40.02|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|; There are ACH's for all silvers in this zone.
@@ -647,21 +652,21 @@ $ Small Treasure Chest|QID|42338|M|55.70,25.48;57.19,25.23|CS|N|Loot for a bit o
 R Olivian Veil|QID|40751|M|60.98,34.67;65.84,37.26;66.06,43.44|CS|N|Back to questing.|RANK|3|
 $ Small Treasure Chest|QID|40751|M|66.06,43.44|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Syphonus|QID|37989|QO|1|M|67.19,51.58|T|Syphonus|N|Silver - Kill and loot for a bit of treasure and resources.  Be wary of the lvl 110 mobs nearby.|RANK|2|ITEM|129064|
-T Missing Demon|QID|42238|M|61.22,50.74|N|To Daglop.|RANK|2|
-A Let's Make A Deal|QID|38460|PRE|42238|M|61.22,50.74|N|From Daglop.|RANK|2|
-C Let's Make A Deal|QID|38460|M|61.22,50.74|NC|N|Sign Daglop's Contract.|RANK|2|
-T Let's Make A Deal|QID|38460|M|61.22,50.74|N|To Daglop.|RANK|2|
-A Minion! Kill Them!|QID|38232|PRE|38460|M|61.22,50.74|N|From Daglop.|RANK|2|
+T Missing Demon|QID|42238|M|62.91,51.45|N|To Daglop.|RANK|2|
+A Let's Make A Deal|QID|38460|PRE|42238|M|62.91,51.45|N|From Daglop.|RANK|2|
+C Let's Make A Deal|QID|38460|M|62.91,51.45|NC|N|Sign Daglop's Contract.|RANK|2|
+T Let's Make A Deal|QID|38460|M|62.91,51.45|N|To Daglop.|RANK|2|
+A Minion! Kill Them!|QID|38232|PRE|38460|M|62.91,51.45|N|From Daglop.|RANK|2|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|S|N|The olives are on the ground, the birds and cats drop the feathers and the shadowrunners drop the horns.|RANK|2|
 K Kill Treacherous Stallions|QID|44081|QO|1|M|60.25,46.14|ITEM|140685|T|Devious Sunrunner|N|Silver - Click on the Ley Portal to be transported to a treasure. Kill the Stallions, then loot the chest for a bit of treasure and resources.|RANK|3|
 $ Marius & Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|CS|ITEM|129068|T|Brogozog|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources.|RANK|3|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|US|N|Finish gathering the things Daglop wants.|RANK|2|
-T Minion! Kill Them!|QID|38232|M|61.89,49.63|RANK|2|
-A This IS In My Contract.|QID|38237|PRE|38232|M|61.89,49.63|RANK|2|
+T Minion! Kill Them!|QID|38232|RANK|2|N|To Daglop, on your shoulders.|
+A This IS In My Contract.|QID|38237|PRE|38232||RANK|2|N|From Daglop, on your shoulders.|
 C This IS In My Contract.|QID|38237|QO|1|M|64.11,52.88|N|Run down to the beach, Daglop is standing in front of a cave, Speak with him to start the ritual|CHAT|RANK|2|
-C This IS In My Contract.|QID|38237|QO|2|M|63.52,53.24|T|Sharazaan|RANK|2|
+C This IS In My Contract.|QID|38237|QO|2|M|63.33,53.55|T|Sharazaan|RANK|2|
 $ Small Treasure Chest|QID|42278|M|62.99,54.17|N|Loot for a bit of treasure and resources.|RANK|2|
-T This IS In My Contract.|QID|38237|M|62.70,51.47|N|To Daglop.|RANK|2|
+T This IS In My Contract.|QID|38237|M|62.91,51.45|N|To Daglop.|RANK|2|
 
 K Kill The Oracle|QID|37822|QO|1|M|59.76,54.65;59.69,55.17|CS|N|Silver - Go up the stairs starting at the first marked spot.  Kill and loot for a bit of treasure and resources|T|The Oracle|ITEM|129065|RANK|2|
 $ Small Treasure Chest|QID|40752|M|58.64,53.38|N|Loot for a bit of treasure and resources.|RANK|2|
