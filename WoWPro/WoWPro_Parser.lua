@@ -218,7 +218,7 @@ end
 -- QID Tags first
 DefineTag("QID","QID","string",validate_list_of_qids,nil)
 DefineTag("PRE","prereq","string",validate_list_of_qids,nil)
-DefineTag("AVAILABLE","available","string",validate_list_of_qids,nil)
+DefineTag("AVAILABLE","available","string",validate_list_of_qids,function (value, i) WoWPro.available[i] = value; WoWPro.QID[i] = WoWPro.QID[i] or value; end)
 DefineTag("O","optional","boolean",nil,function (text,i)
     WoWPro.optional[i] = true;
     WoWPro.optionalcount = WoWPro.optionalcount + 1;
