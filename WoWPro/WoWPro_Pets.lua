@@ -153,7 +153,7 @@ function WoWPro.GetPetByNameOrID(name, id, limits, pet1, pet2)
 end
 
 
-function WoWPro.GetLevelingPet(limits, pet1, pet2)
+function WoWPro.GetLevelingPet(limits, pet1, pet2, max_level)
     local numPets, numOwned = C_PetJournal.GetNumPets();
     local pids = nil
     local petID_worst = nil
@@ -172,7 +172,7 @@ function WoWPro.GetLevelingPet(limits, pet1, pet2)
         -- companionID=36871, Source="Promotion...",
         local petID, speciesID, isOwned, customName, level, favorite, isRevoked, speciesName, icon, petType, companionID, tooltip, description, isWild, canBattle, isTradeable, isUnique, obtainable = C_PetJournal.GetPetInfoByIndex(i);
         local ok = false
-        if isOwned and canBattle and level < 25 then
+        if isOwned and canBattle and level < max_level then
             if limits then
                 if WoWPro.PetMeetsLimits(petID, limits) then
                     ok = true
@@ -204,7 +204,7 @@ function WoWPro.GetLevelingPet(limits, pet1, pet2)
         pids[petID_worst] = {speciesName_worst, companionID_worst}
         return pids
     else
-        return nil
+        return WoWPro.GetLevelingPet(limits, pet1, pet2, 26)
     end
 end
 
@@ -420,7 +420,7 @@ function WoWPro.PetLoadAndPick(slot, name, id, pick, limits, pet1, pet2)
         if limits == "" or limits == nil then
             limits = "L>0"
         end
-        pets = WoWPro.GetLevelingPet(limits, pet1, pet2)
+        pets = WoWPro.GetLevelingPet(limits, pet1, pet2, 25)
     elseif (pick[0] > 2) or name == "" then
         -- OK a pick spec overrides a Name/ID spec
         pets = WoWPro.GetPetByAbilities(pick, limits, pet1, pet2)
