@@ -246,7 +246,7 @@ function WoWPro.SelectGuideReal()
     local count, nGID , quest
     count = 0
     for guidID,value in pairs(WoWPro.QuestLogGuides) do
-        if WoWProCharDB.Guide[guidID] and not WoWProCharDB.Guide[guidID].NoSelect then
+        if WoWProCharDB.Guide[guidID] and (not WoWProCharDB.Guide[guidID].NoSelect) then
             count = count + 1
             quest = value
             nGID = guidID
@@ -254,21 +254,28 @@ function WoWPro.SelectGuideReal()
     end
     if count == 1 then
         WoWPro:OfferGuideSwitch(nGID, quest)
---    else
---        WoWPro:Selector()
+        WoWPro.QuestLogGuides =  {}
     end
 end
 
 -- Enqueue a guide selection for later
-function WoWPro:SelectGuide(GID, quest)
+function WoWPro:SelectGuide(GID, quest, QID)
     if GID then
         WoWPro.QuestLogGuides = WoWPro.QuestLogGuides or {}
+        if WoWPro.QuestLogGuides['locked'] then
+            return
+        end
         if not WoWPro.QuestLogGuides[GID] then
+            if WoWPro.newQuest == QID then
+                -- Wipe out any old data
+                WoWPro.QuestLogGuides =  {}
+                WoWPro.QuestLogGuides['locked']  = true
+            end
             WoWPro.QuestLogGuides[GID] = quest
             WoWPro:SendMessage("WoWPro_GuideSelect")
+            WoWPro:print("AutoSwitch: [%s] => %s", quest, GID)
         end
     end
-    
 end
 
 function WoWPro_Selector_OnShow()
