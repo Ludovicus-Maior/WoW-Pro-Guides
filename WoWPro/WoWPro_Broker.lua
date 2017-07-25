@@ -997,9 +997,9 @@ function WoWPro.NextStep(k,i)
 	    -- Availible quests: not complete  --
 	    if WoWPro.available[k] then
 	        local available = WoWPro.available[k]
-	        if WoWPro:IsQuestFlaggedCompleted(available) then
+	        if WoWPro:IsQuestFlaggedCompleted(available) or WoWPro:QIDsInTable(available,WoWPro.QuestLog) then
 	            skip = true
-	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently complete")
+	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently complete or active")
 	            break
 	        end 
 	    end 
@@ -1414,7 +1414,7 @@ function WoWPro.NextStep(k,i)
 				WoWPro.why[k] = "NextStep(): RepStep within reputation range " .. WoWPro.rep[k]
 			end
 			if type(replvl) == "number" and (replvl > 0) then
-			    -- replvl modifies the minimal reputation rank to actviate
+			    -- replvl modifies the minimal reputation rank to activate
 				if (repmin == standingId) and (earnedValue > replvl) then
 				    WoWPro:dbp("!+ [%s] Spec %s earnedValue %d > replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
 				    WoWPro.why[k] = "NextStep(): RepStep earned starting reputation " .. WoWPro.rep[k]
@@ -1423,12 +1423,12 @@ function WoWPro.NextStep(k,i)
                     WoWPro:dbp("!- [%s] Spec %s earnedValue %d <= replvl %d: skip=%s", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl, tostring(skip))
 				end
 				-- If we are above the minimal reputation rank and less than or equal to the maximal reputation rank, activate
-				if (repmin > standingId) and (repmax <= standingId) then
+				if (repmin < standingId) and (standingId  <= repmax) then
 				    WoWPro:dbp("!+ [%s] Spec %s repmax %s <= standingId %s < repmin %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId),tostring(repmax))
 				    WoWPro.why[k] = "NextStep(): RepStep within active reputation range " .. WoWPro.rep[k]
 				    skip = false
 				else
-				    WoWPro:dbp("!- [%s] Spec %s repmax %s & standingId %s: skip=%s", WoWPro.step[k],WoWPro.rep[k],tostring(repmax), tostring(standingId), tostring(skip))
+				    WoWPro:dbp("!- [%s] Spec %s repmin %s < standingId %s <= repmax %s: skip=%s", WoWPro.step[k],WoWPro.rep[k],tostring(repmin), tostring(standingId), tostring(repmax), tostring(skip))
 				end
 			end
 			-- Mark quests as skipped that we will assume will NEVER be done.
@@ -1969,7 +1969,7 @@ function WoWPro.PopulateQuestLog()
 		end
 		-- Is this an auto-switch quest?
 		if WoWProCharDB.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProCharDB.QID2Guide[QID] then
-		    WoWPro:SelectGuide(WoWProCharDB.QID2Guide[QID], WoWPro.QuestLog[QID].title)
+		    WoWPro:SelectGuide(WoWProCharDB.QID2Guide[QID], WoWPro.QuestLog[QID].title, QID)
 		    WoWPro:print("AutoSwitch: [%s] => %s",WoWPro.QuestLog[QID].title, WoWProCharDB.QID2Guide[QID])
 		end
 	end
