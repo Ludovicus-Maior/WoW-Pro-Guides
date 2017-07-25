@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2017-03-10 22:57
+-- Who: Ludovicus
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3514/revisions/27106/view
 -- Date: 2014-12-25 20:09
 -- Who: Ludovicus
 
@@ -155,7 +160,7 @@ A Sturdy Yaungol Spear|QID|31421|L|88723|RANK|1|M|71.2,62.6;70.06,63.88|Z|Kun-La
 A Stolen Sprite Treasure|QID|31415|RANK|2|M|56.8,48.9|Z|Kun-Lai Summit|N|End of Howlingwind Cavern.|
 A Sprite's Cloth Chest|QID|31412|RANK|1|M|74.7,74.9|Z|Kun-Lai Summit|N|End of sprite cave. Loot (ilvl 434 cloak) will be specific to your current spec (and BOP).|
 
-N Keep resetting|QID|972810001|N|until you find them all (or give up). In the end you should have earned the following eight achievements: Treasures of Pandaria; Fortune of Pandaria; Bounty of Pandaria: Riches of Pandaria; Lost and Found, Finders Keepers, One Man's Trash..., Is Another Man's Treasure.
+N Keep resetting|QID|972810001|N|until you find them all (or give up). In the end you should have earned the following eight achievements: Treasures of Pandaria; Fortune of Pandaria; Bounty of Pandaria: Riches of Pandaria; Lost and Found, Finders Keepers, One Man's Trash..., Is Another Man's Treasure.|
 
 ]]
 end)

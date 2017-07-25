@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2017-03-17 13:52
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3466/revisions/28291/view
+-- Date: 2017-03-05 18:55
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3466/revisions/27359/view
 -- Date: 2015-07-25 18:12
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -53,7 +63,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("LudoLoveA",'WorldEvents',"Love is in the Air", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,81,8.55102)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
 WoWPro:GuideIcon(guide,"ACH",1695)
 WoWPro:GuideSteps(guide, function()
@@ -71,20 +81,20 @@ A Something Stinks|QID|24655|M|61.50,75.29|Z|Stormwind City|N|From Inspector Sni
 C Heavily Perfumed Guards|QID|24655|Z|Stormwind City|U|50131|N|Find the guards with the clouds and use the analyzer|
 T Something Stinks|QID|24655|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
-A Pilfering Perfume|QID|24656|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|
+A Pilfering Perfume|QID|24656|PRE|24655|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|
 C Pilfering Perfume|QID|24656|M|34.16,47.31|Z|Elwynn Forest|N|Run outside of Stormwind City Gates|
 T Pilfering Perfume|QID|24656|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
-A Fireworks At The Gilded Rose|QID|24848|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|
+A Fireworks At The Gilded Rose|QID|24848|PRE|24656|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|
 T Fireworks At The Gilded Rose|QID|24848|M|60.62,76.38|Z|Stormwind City|N|To Marion Sutton|
 
-A Hot On The Trail|QID|24849|M|60.62,76.38|Z|Stormwind City|N|From Marion Sutton|
+A Hot On The Trail|QID|24849|PRE|24848|M|60.62,76.38|Z|Stormwind City|N|From Marion Sutton|
 C Hot On The Trail|QID|24849|M|62.9,78.4|Z|Stormwind City|N|Look for him at the Bank|QO|Stormwind Counting House searched: 1/1|
 C Hot On The Trail|QID|24849|M|61.4,71.4|Z|Stormwind City|N|Look for him at the Auction House|QO|Stormwind Auction House searched: 1/1|
 C Hot On The Trail|QID|24849|M|61.5,64.6|Z|Stormwind City|N|Look for him at the Barber Shop|QO|Stormwind Barber Shop House searched: 1/1|
 T Hot On The Trail|QID|24849|M|60.62,76.38|Z|Stormwind City|N|To Marion Sutton|
 
-A A Friendly Chat...|QID|24657|M|60.62,76.38|Z|Stormwind City|N|From Marion Sutton|
+A A Friendly Chat...|QID|24657|PRE|24849|M|60.62,76.38|Z|Stormwind City|N|From Marion Sutton|
 C A Friendly Chat...|QID|24657|M|27.42,34.82|Z|Stormwind City|N|Find Snivel Rustrocket at Stormwind Harbor and talk to him...|L|49915|
 T A Friendly Chat...|QID|24657|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 

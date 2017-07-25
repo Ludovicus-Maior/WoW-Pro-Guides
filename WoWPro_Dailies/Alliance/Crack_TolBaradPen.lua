@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2017-03-23 17:40
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3414/revisions/28528/view
+-- Date: 2017-03-17 17:10
+-- Who: Ludovicus
+-- Log: Restore the lost CraToBarA guide
+
+-- URL: http://wow-pro.com/node/3414/revisions/28316/view
+-- Date: 2017-03-10 23:08
+-- Who: Ludovicus
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3414/revisions/27154/view
 -- Date: 2015-03-06 19:33
 -- Who: Ludovicus
 
@@ -83,7 +98,7 @@ C Ghostbuster|QID|27978|M|79,50|N|Kill 14 ghosts of any type.|
 C Cannonball!|QID|27987|M|79,50|N|Loot the piles of cannonballs on the ground.|
 C Taking the Overlook Back|QID|27991|M|77.8,42.6|N|Go up the tower and kill Commander Largo.|
 
-C Not The Friendlist Town|QID|28130|M|67.6,34.7|N|Kill 14 villagers in Rustberg Village.|
+C Not The Friendliest Town|QID|28130|M|67.6,34.7|N|Kill 14 villagers in Rustberg Village.|
 C Teach A Man To Fish.... Or Steal|QID|28137|M|68.2,23.3|N|You can loot the Seabass from the Rustberg Fisherman or from Strings of Fish.|
 
 C Captain P. Harris|QID|27970|M|48,7.9|N|Find and kill Captain P. Harris.|T|Captain P. Harris|
@@ -93,7 +108,7 @@ C Rattling Their Cages|QID|27971|M|44.5,27.1|N|Kill 8 Shipwecked Sailors.|
 
 C Leave No Weapon Behind|QID|28063|M|39.6,34.3|N|Loot 12 Rusty Rifles from the Racks of Rifles.|
 C Claiming The Keep|QID|28059|M|35.5,27.3|N|Head upstairs in the keep and kill Keep Lord Farson.|
-C Walk A Mile In Their Shoes|QID|28065|M|35.5,27.3|N|Head into the basement. Talk to one of the Alliance Farson Prisoners, and escort them out of the keep.
+C Walk A Mile In Their Shoes|QID|28065|M|35.5,27.3|N|Head into the basement. Talk to one of the Alliance Farson Prisoners, and escort them out of the keep.|
 
 C WANTED: Foreman Wellson|QID|27975|M|29.9,44.2|N|Kill Foreman Wellson.|T|Foreman Wellson|
 C Watch Out For Splinters!|QID|27973|M|29.9,44.2|N|Loot 15 pieces of Shipyard Lumber. You can get the Lumber from on the ground or from the ghosts floating around Wellson Shipyard.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
+-- Date: 2017-03-11 18:20
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3479/revisions/26601/view
 -- Date: 2014-07-25 21:38
 -- Who: Ludovicus
 -- Log: adj mean
@@ -59,9 +64,9 @@ F Light's Hope Chapel|N|Fly to the chapel.|
 h Light's Hope Chapel|M|75.64,52.40|N|Set your hearth here to get out of the dungeons fast.|
 
 N Annals of the Silver Hand|N|This quest can be accepted more than once a day!  So if you reset the instance and just go back, you can get another turnin until you get sick of Stratholme.|
-A Annals of the Silver Hand|QID|28755|M|76,51|N|From Lord Raymond George. 1000 rep. Level 42 Dungeon.|
+A Annals of the Silver Hand|QID|28755|PRE|27464|M|76,51|N|From Lord Raymond George. 1000 rep. Level 42 Dungeon.|
 N Aberrations of Bone|N|This quest can also be repeated, you need to reset the instance.|
-A Aberrations of Bone|QID|28756|M|76,51|N|From Lord Raymond George. 1000 rep. Level 40 Dungeon.|
+A Aberrations of Bone|QID|28756|PRE|27464|M|76,51|N|From Lord Raymond George. 1000 rep. Level 40 Dungeon.|
 
 F Stratholme|QID|28755|M|26.9,11.8|Z|Eastern Plaguelands|N|Fly to Stratholme|
 C Annals of the Silver Hand|QID|28755|M|37.37,74.87|Z|Stratholme|N|At second to last boss.|

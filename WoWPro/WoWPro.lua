@@ -89,9 +89,6 @@ function WoWPro:Error(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffff7d0a%s|r: "..message, self.name or "Wow-Pro",...)
         WoWPro:Add2Log(0,msg)
-        if WoWPro.DebugLevel > 0 then
-            error(msg)
-        end
 	end
 end
 WoWPro:Export("Error")
@@ -346,6 +343,10 @@ function WoWPro:OnInitialize()
 	end
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
+	WoWProCharDB.Guide2QIDs = WoWProCharDB.Guide2QIDs or {}
+    WoWProCharDB.QID2Guide = WoWProCharDB.QID2Guide or {}
+    WoWProDB.global.QID2Guide = nil
+    WoWProDB.global.Guide2QIDs = nil
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
 	end
@@ -358,6 +359,7 @@ function WoWPro:OnInitialize()
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
+    WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
     WoWPro.EnableGrail = WoWProCharDB.EnableGrail or True
@@ -424,7 +426,7 @@ function WoWPro:OnEnable()
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
-		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_LIST_UPDATE", "NEW_RECIPE_LEARNED", "GOSSIP_SHOW",
+		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_ENTERING_BATTLEGROUND", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_LIST_UPDATE", "NEW_RECIPE_LEARNED", "GOSSIP_SHOW",
 		"QUEST_DETAIL", "QUEST_GREETING", "QUEST_TURNED_IN", "QUEST_ACCEPTED", "CINEMATIC_START", "CINEMATIC_STOP", "ZONE_CHANGED_NEW_AREA",
 		"PLAYER_TARGET_CHANGED",
 		"PET_BATTLE_OPENING_START", "PET_BATTLE_PET_ROUND_RESULTS", "CHAT_MSG_PET_BATTLE_COMBAT_LOG", "PET_BATTLE_FINAL_ROUND", "PET_BATTLE_CLOSE","PET_BATTLE_XP_CHANGED",
@@ -609,13 +611,20 @@ function WoWPro:UnRegisterGuide(guide,why)
     WoWPro.Guides[guide.GID] = nil
 end
 
-
 function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
-    if (not lowerLevel) or (not upperLevel) then
-        WoWPro:Error("Bad GuideLevels(%s,%s,%s,%s)",guide.GID,tostring(lowerLevel),tostring(upperLevel),tostring(meanLevel))
+    local playerLevel = WoWPro:PlayerLevel()
+    -- Supply dynamic levels if not all the parameters are suppplied.
+    if not lowerLevel then
+        lowerLevel = math.max(playerLevel-1, 1)
+        guide['level_float'] = true
+    end
+    if not upperLevel then
+        upperLevel = math.min(playerLevel+1, 110)
+        guide['level_float'] = true
     end
     if not meanLevel then
-        meanLevel = (upperLevel*3.0 + lowerLevel) / 4.0
+        meanLevel = (lowerLevel*3.0 + upperLevel) / 4.0
+        guide['level_float'] = true
     end
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
@@ -653,19 +662,23 @@ RegisterClass("DEMONHUNTER")
 
 function WoWPro:GuideClassSpecific(guide,class)
     local locClass, engClass = UnitClass("player")
-    if WoWPro.DebugLevel > 0 then
-        return -- Allow developers to check everything
-    end
+
     class = strupper(class)
+    guide.icon = "Interface\Glues\CharacterCreate\UI-CharacterCreate-Classes"
+    guide.icon_offsets = CLASS_ICON_TCOORDS[class]
+    guide.class = class
+
     if not ValidClass[class] then
         WoWPro:Error("For guide %s, Invalid class of %s used in GuideClassSpecific()", guide.GID, class)
     end
     engClass = strupper(engClass)
+
+    if WoWPro.DebugClasses then
+        return -- Allow developers to check everything, if they want
+    end
     if engClass ~= class then
         WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't match", guide.GID)
     end
-    guide.icon = "Interface\Glues\CharacterCreate\UI-CharacterCreate-Classes"
-    guide.icon_offsets = CLASS_ICON_TCOORDS[class]
 end
 
 function WoWPro:GuidePetBattle(guide)
@@ -693,12 +706,25 @@ function WoWPro:GuideNextGuide(guide,nextGID)
 end
 
 function WoWPro:GuideAutoSwitch(guide)
+    local locClass, engClass = UnitClass("player")
+
+    if guide.class and engClass ~= guide.class then
+        -- Developers can peek, but should not AutoSwitch on the class specific guides if they are not for them
+        guide['AutoSwitch'] = false
+        return
+    end
     guide['AutoSwitch'] = true
+    WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs or {}
     if not WoWProDB.global.Guide2QIDs[guide.GID] or WoWPro.Version ~= WoWProDB.global.Guide2QIDs[guide.GID]  then
         WoWPro.Guides2Register = WoWPro.Guides2Register or {}
         table.insert(WoWPro.Guides2Register, guide.GID)
         WoWPro:dbp("Add %s to Guides2Register.", guide.GID)
     end 
+end
+
+function WoWPro.GuideAutoSwitchReset()
+    WoWProCharDB.Guide2QIDs = {}
+    WoWProCharDB.QID2Guide ={}
 end
 
 function WoWPro:GuideSteps(guide,steps)
@@ -802,7 +828,11 @@ function WoWPro:PlayerLevel()
     local UL = UnitLevel("player")
     local XP = UnitXP("player")
     local XPMax = UnitXPMax("player")
-    playerLevel = UL + (XP/XPMax)
+    if XPMax > 0 then
+        playerLevel = UL + (XP/XPMax)
+     else
+        playerLevel = UL
+    end
     return playerLevel
 end
 
@@ -843,12 +873,12 @@ function WoWPro:TestQuestColor(a,b,c,d)
 end
 
 function WoWPro.LevelColor(guide)
-    
-    playerLevel = WoWPro:PlayerLevel()
+    local playerLevel = WoWPro:PlayerLevel()
     if type(guide) == "number" then
 --        WoWPro:dbp("WoWPro.LevelColor(%f)",guide)
         return {WoWPro:QuestColor(guide)}
     end
+
     if type(guide) == "table" then
 --         WoWPro:dbp("WoWPro.LevelColor(%s)",guide.GID)
         playerLevel = playerLevel + WoWProDB.profile.Selector.QuestHard
@@ -898,6 +928,24 @@ function WoWPro:ResolveIcon(guide)
         guide.icon = icon
         return
     end
+    if guide['spell'] then
+        local name, rank, icon, castingTime, minRange, maxRange, spellID = GetSpellInfo(guide.spell)
+        guide.icon = icon
+        return
+    end
+    if guide['mount'] then
+        local mountIDs = C_MountJournal.GetMountIDs()
+        WoWPro:dbp("Mount enter")
+        for i, mountID in ipairs(mountIDs) do
+            local creatureName, spellID, icon, active, isUsable, sourceType = C_MountJournal.GetMountInfoByID(mountID)
+            WoWPro:dbp("Mount [%s] Spell %s==%s Icon %s", creatureName, tostring(spellID), tostring(guide.mount), tostring(icon))
+            if guide.mount == spellID then
+                guide.icon = icon
+                return
+            end
+        end
+        return
+    end
     if guide['pro'] then
         -- prof1, prof2, archaeology, fishing, cooking, firstAid
         local profs = {GetProfessions()}
@@ -919,6 +967,8 @@ function WoWPro:GuideIcon(guide,gtype,gsubtype)
         guide['ach'] = tonumber(gsubtype)
     elseif gtype == "PRO" then
         guide['pro'] = tonumber(gsubtype)
+    elseif gtype == "MOUNT" then
+        guide['mount'] = tonumber(gsubtype)
     elseif gtype == "ICON" then
         guide['icon'] = gsubtype
     else
@@ -971,14 +1021,14 @@ local function TestGuideLoad(guidID)
     if WoWPro.Guides[guidID].zone then
         local zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
         if not WoWPro:ValidZone(zed) then
-	        WoWPro:Error("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
+	        WoWPro:Warning("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
 	    end
 	end
     if nextG and WoWPro.Guides[nextG] == nil then	    
         WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
     end
     if not WoWPro.Guides[guidID].icon then
-        WoWPro:Error("Guide %s has no icon.",guidID)
+        WoWPro:Warning("Guide %s has no icon.",guidID)
     end
     if WoWPro.Guides[guidID].faction then
         if WoWPro.Guides[guidID].faction == "Alliance" then WoWPro.LoadAll.aCount = WoWPro.LoadAll.aCount + 1 end

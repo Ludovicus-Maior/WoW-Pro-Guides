@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_enchanting
+-- Date: 2017-03-06 03:11
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3460/revisions/28192/view
+-- Date: 2017-01-02 22:36
+-- Who: Ludovicus
+-- Log: New style registration
+
+-- URL: http://wow-pro.com/node/3460/revisions/25658/view
 -- Date: 2013-05-16 01:02
 -- Who: Twists
 
@@ -11,7 +21,11 @@
 -- Date: 2012-01-19 00:16
 -- Who: Ludovicus
 
-WoWPro.Profession:RegisterGuide('TwiEnchanting', 'Enchanting', 'Enchanting', 'Twists', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("TwiEnchanting","Profession","Enchanting", "Twists", "Neutral")
+WoWPro:GuideIcon(guide,"PRO",333)
+WoWPro:GuideLevels(guide)
+WoWPro:GuideName(guide, "Enchanting")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Learn Apprentice Enchanting|QID|903330000|N|Learn from a trainer in any major city. You must be level 5.|P|Enchanting;333;0;;75|

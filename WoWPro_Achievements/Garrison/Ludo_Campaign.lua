@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2017-03-23 17:34
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3648/revisions/28309/view
+-- Date: 2017-03-10 22:41
+-- Who: Ludovicus
+-- Log: Add PREs
+
+-- URL: http://wow-pro.com/node/3648/revisions/27607/view
 -- Date: 2016-08-28 23:27
 -- Who: tubera
 -- Log: Add missing Zone
@@ -160,7 +170,7 @@ C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.6
 C Sargerei Slippers|QID|35187|M|49.65,73.40;45.33,74.53;49.74,76.49|Z|Shadowmoon Valley@Draenor|CN|QO|1|N|Kill Sargerei Initiate and others for shoes|US|
 C Sargerei Robe|QID|35187|M|51.00,75.50;49.40,73.10;48.05,80.25|Z|Shadowmoon Valley@Draenor|CN|QO|2|N|Kill Sargerei Demonlords and others for a robe|US|
 C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.60,72.85;45.85,80.75;51.20,76.70|Z|Shadowmoon Valley@Draenor|CN|QO|3|N|Kill Sargerei Workers for a cowl|US|
-l Sargerei Disguise|QID|35187|L|112904|U|112893|N|Click on the slippers to make the Disguise.
+l Sargerei Disguise|QID|35187|L|112904|U|112893|N|Click on the slippers to make the Disguise.|
 U Put on the Disguise|QID|35187|U|112904|QO|5|N|If you lose the disguise, you will need to get all 3 pieces and make a new one.|
 C Infiltrating the Sargerei|QID|35187|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|QO|5|N|Speak to Soulbinder Zamaya|
 C Infiltrating the Sargerei|QID|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|CHAT|QO|6|N|Tell him 'the rain falls on Shadowmoon.'|
@@ -175,7 +185,7 @@ C Shattering the Enemy|QID|35191|M|50.4,75.6|Z|Shadowmoon Valley@Draenor|N|Felst
 C The Word of Socrethar|QID|35189|M|50.6,79.6|Z|Shadowmoon Valley@Draenor|QO|3|N|The Promise of Eternity|
 C The Word of Socrethar|QID|35189|M|51.4,75.6|Z|Shadowmoon Valley@Draenor|QO|1|N|The Eredar Destiny|
 C The Word of Socrethar|QID|35189|M|50.0,72.4|Z|Shadowmoon Valley@Draenor|QO|2|N|The Purpose of Unity|
-C Shattering the Enemy|QID|35191|M|50.4,75.6|Z|Shadowmoon Valley@Draenor|N|Felstorm Crystal|US
+C Shattering the Enemy|QID|35191|M|50.4,75.6|Z|Shadowmoon Valley@Draenor|N|Felstorm Crystal|US|
 C An Ancient Threat|QID|35190|M|45.54,73.81|Z|Shadowmoon Valley@Draenor|N|Eldermoss|S|
 C Pesky Podlings|QID|35188|M|44.8,72.0|Z|Shadowmoon Valley@Draenor|N|Kill Podlings for their Wooden Spears|
 C An Ancient Threat|QID|35190|M|45.54,73.81|Z|Shadowmoon Valley@Draenor|N|Eldermoss|US|
@@ -193,18 +203,18 @@ A Socrethar's Fury|QID|35195|PRE|35194|M|50.01,81.22|Z|Shadowmoon Valley@Draenor
 C Socrethar's Fury|QID|35195|M|50.33,81.96|Z|Shadowmoon Valley@Draenor|QO|1|N|Click on the now closed door and wait in the vestible till you "confront".|
 C Socrethar's Fury|QID|35195|M|50.6,82.4|Z|Shadowmoon Valley@Draenor|N|Kill Soulbinder Zamaya|
 T Socrethar's Fury|QID|35195|M|50.58,82.30|Z|Shadowmoon Valley@Draenor|N|To Anchorite Laanda|
-A Forging Ahead|QID|35196|PRE|35195||M|50.58,82.30|N|From Anchorite Laanda|FACTION|Alliance|
+A Forging Ahead|QID|35196|PRE|35195|M|50.58,82.30|N|From Anchorite Laanda|FACTION|Alliance|
 T Forging Ahead|QID|35196|M|40.0,44.4|N|To Khadgar's Servant, wandering in your Garrison.|FACTION|Alliance|
-A Forging Ahead|QID|35197|PRE|35195||M|50.58,82.30|N|From Anchorite Laanda|FACTION|Horde|
+A Forging Ahead|QID|35197|PRE|35195|M|50.58,82.30|N|From Anchorite Laanda|FACTION|Horde|
 T Forging Ahead|QID|35197|M|40.0,44.4|N|To Khadgar's Servant, wandering in your Garrison.|FACTION|Horde|
 
 ; Garrison Campaign: Darktide Roost
 ; A Garrison Campaign: Darktide Roost|QID|35876|M|38.34,36.95|N|From Rokhan|
-F Darktide Roost|QID|35876|ACTIVE|35876|M|45.86,51.02|N|Ask Bron Skyhorn for a ride|FACTION|Horde
-F Darktide Roost|QID|35861|ACTIVE|35861|M|45.86,51.02|N|Ask Dungar Longdrink for a ride|FACTION|Alliance
+F Darktide Roost|QID|35876|ACTIVE|35876|M|45.86,51.02|N|Ask Bron Skyhorn for a ride|FACTION|Horde|
+F Darktide Roost|QID|35861|ACTIVE|35861|M|45.86,51.02|N|Ask Dungar Longdrink for a ride|FACTION|Alliance|
 f Darktide Roost|QID|34352|M|59.85,81.83|Z|Shadowmoon Valley@Draenor|N|Get the flight point from Beasttamer Ladaak.|
-T Garrison Campaign: Darktide Roost|QID|35876|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|FACTION|Horde
-T Garrison Campaign: Darktide Roost|QID|35861|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|FACTION|Alliance
+T Garrison Campaign: Darktide Roost|QID|35876|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|FACTION|Horde|
+T Garrison Campaign: Darktide Roost|QID|35861|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|FACTION|Alliance|
 A Shredder Suppressor|QID|34353|PRE|35876+35861|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|From Rexxar| ;Neutral from here
 A Darktide Defender|QID|34352|PRE|35861+35876|M|59.08,82.28|Z|Shadowmoon Valley@Draenor|N|Click on the dead defender.|
 C Engineers|QID|34352|M|63.20,84.50;55.45,90.38;61.50,82.00;58.80,88.60;61.08,84.75;63.75,87.17;58.17,85.7|CN|Z|Shadowmoon Valley@Draenor|QO|2|S|
@@ -219,7 +229,7 @@ C Dirty Rats|QID|34355|M|56.0,89.3|Z|Shadowmoon Valley@Draenor|QO|1|U|110268|N|U
 T Dirty Rats|QID|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Releasing Rylak|QID|34365|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 A Downsizing the Darktide|QID|34397|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
-A Free Their Minds|QID|34455|PRE|34355|M|59.8,94.52|Z|Shadowmoon Valley@Draenor|N|From the Goblin Mind Control Device|
+A Free their Minds|QID|34455|PRE|34355|M|59.8,94.52|Z|Shadowmoon Valley@Draenor|N|From the Goblin Mind Control Device|
 C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|S|Z|Shadowmoon Valley@Draenor|
 U Free their minds|QID|34455|M|59.33,95.69|N|Use the Rylak Mind controller on Controlled Darkwing.|QO|1|S|U|110447|Z|Shadowmoon Valley@Draenor|
 t Free their minds|QID|34455|M|59.33,95.69|N|UI turnin.|S|U|110447|Z|Shadowmoon Valley@Draenor|
@@ -231,7 +241,7 @@ C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They l
 T Releasing Rylak|QID|34365|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 T Downsizing the Darktide|QID|34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Rylak Rescue|QID|34450|PRE|34365;34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
-C Ride Nisha|QID|34450|QO|1|N|Click on Nisha to get a flight to the top of the mountain.
+C Ride Nisha|QID|34450|QO|1|N|Click on Nisha to get a flight to the top of the mountain.|
 K Razz Ricketroz|QID|34450|ACTIVE|34450|M|60.4,90.2|Z|Shadowmoon Valley@Draenor|QO|2|
 T Rylak Rescue|QID|34450|M|67.97,90.12|Z|Shadowmoon Valley@Draenor|N|Click on Nisha to get a ride to Rexxar|
 
@@ -302,17 +312,17 @@ A The Champion of Blood|QID|36222|PRE|36221|M|56.8,13.0|Z|Nagrand@Draenor|N|To W
 C Gurgthock|QID|36222|M|56.8,13.0|Z|Nagrand@Draenor|QO|1|N|Speak to Gurgthock to get thins started. If someone else if fighting, you may have to wait.|CHAT|
 C Fight!|QID|36222|QO|2|N|Kill Katsuo (0.5MH) and Azuka (0.8MH).  If you use a tank, kill Katsuo first, bu you *must* be out of the tank before Azuka surrenders @10% Health.|
 T The Champion of Blood|QID|36222|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|
-A Out of the Shadows|QID|36290|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|; Horde
+A Out of the Shadows|QID|36290|PRE|36222|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|; Horde
 T Out of the Shadows|QID|36290|M|38.34,36.95|N|To Rokhan|
 
 ; Heart of the Breakers -- Mostly Neutral
 ; A Garrison Campaign: Crows In The Field|QID|34409|M|47.0,88.8|N|From Morthis Whisperwing
 ; A Garrison Campaign: Crows In The Field|QID|34335|M|69.4,9.0|N|From Choluna|
-F Gorgrond|ACTIVE|34409;34335|N|Fly to your base in Gorgrond
+F Gorgrond|ACTIVE|34409;34335|N|Fly to your base in Gorgrond|
 T Garrison Campaign: Crows In The Field|QID|34409;34335|M|39.8,37.0|Z|Gorgrond|N|To Thisalee Crow|
 A Ambushing the Enemy|QID|34336|PRE|34409;34335|M|39.8,37.0|Z|Gorgrond|N|From Thisalee Crow|
 C Caravan Shipment|QID|34336|M|42.5,39.4|Z|Gorgrond|N|Caravan Shipment|QO|1|S|
-C Ambushing the Enemy|QID|34336|M|40.4,40.4|Z|Gorgrond|T|Lieutenant O'rok|QO|2|N|Kill and loot Lieutenant O'rok
+C Ambushing the Enemy|QID|34336|M|40.4,40.4|Z|Gorgrond|T|Lieutenant O'rok|QO|2|N|Kill and loot Lieutenant O'rok|
 A Bladefury's Orders|QID|34347|PRE|34409;34335|M|40.4,40.3|Z|Gorgrond|N|From Bladefury's Orders|
 C Caravan Shipment|QID|34336|M|42.5,39.4|Z|Gorgrond|N|Caravan Shipment|QO|1|US|
 T Ambushing the Enemy|QID|34336|M|39.8,37.0|Z|Gorgrond|N|To Thisalee Crow|
@@ -323,19 +333,19 @@ T The Giant Cauldron|QID|34337|M|54.2,56.0|Z|Gorgrond|N|To Thisalee Crow|
 A The Descent|QID|34338|PRE|34337|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|
 A A Goren's Feast|QID|34339|PRE|34337|M|54.2,55.8|Z|Gorgrond|N|From Choluna|
 A Heating Up|QID|34340|PRE|34337|M|54.2,56.0|Z|Gorgrond|N|From Aren Mistshade|
-C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|S|Z|Gorgrond
+C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|S|Z|Gorgrond|
 C Hissing Geyser|QID|34340|M|37.58, 75.06|Z|Cragplume Depths@Gorgrond|QO|1|U|110288|
 C The Descent|QID|34338|M|52.53, 53.76|Z|Gorgrond|N|Go all the way down, where you will see a small yellow arrow.|QO|1|
-C The Descent|QID|34338|QO|2|N|Kill the Earthwarden. He might take awhile to spawn, depending on when he was last killed.
-C The Descent|QID|34338|QO|3|N|Click the Heart of Gorgorek (The round thing behind the Earthwarden).
-C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|US|Z|Gorgrond
+C The Descent|QID|34338|QO|2|N|Kill the Earthwarden. He might take awhile to spawn, depending on when he was last killed.|
+C The Descent|QID|34338|QO|3|N|Click the Heart of Gorgorek (The round thing behind the Earthwarden).|
+C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|US|Z|Gorgrond|
 T The Descent|QID|34338|M|54.2,56.0|Z|Gorgrond|N|Go to the central chamber and watch the cutscene, step into the sparkly geyser to be thrown up. Hand in to Thisalee Crow|
 T A Goren's Feast|QID|34339|M|39.8,37.0|Z|Gorgrond|N|To Choluna|
 T Heating Up|QID|34340|M|40.0,37.0|Z|Gorgrond|N|To Aren Mistshade|
 A The Beating Heart|QID|34410|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Alliance|
-T The Beating Heart|QID|34410|M|47.0,88.4|N|To Morthis Whisperwing|FACTION|Alliance|Z|Lunarfall
+T The Beating Heart|QID|34410|M|47.0,88.4|N|To Morthis Whisperwing|FACTION|Alliance|Z|Lunarfall|
 A The Beating Heart|QID|34341|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Horde|
-T The Beating Heart|QID|34341|M|47.0,88.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall
+T The Beating Heart|QID|34341|M|47.0,88.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall|
 ; A Strike at the Heart -- Faction Specific
 ; A Garrison Campaign: Every Rose Has Its Thorn|QID|36160|M|29.25,33.13|N|From Baros Alexston|FACTION|Alliance|
 C Azerothian Rose|QID|36160|M|57.9,57.5|N|In your Garrison Garden.|FACTION|Alliance|
@@ -350,16 +360,16 @@ K Azuka Bladefury|ACTIVE|36162|T|Azuka|QO|1|FACTION|Alliance|; missing coords
 T A Stolen Heart|QID|36162|M|29.4,34.4|N|From Lieutenant Thorn|FACTION|Alliance|
 
 ; A Garrison Campaign: Missing Grunt|QID|36261|M|40,54.4|N|From Warmaster Zog|FACTION|Horde|
-C Dul'zak|QID|36261|M|63.4,44.4|QO|1|FACTION|Horde|Z|Frostwall
-T Garrison Campaign: Missing Grunt|QID|36261|M|40,54.4|N|To Bloody Blade|FACTION|Horde|Z|Frostwall
-A Where There Is Smoke...|QID|36242|PRE|36261|M|40,54.4|N|From Bloody Blade|FACTION|Horde|Z|Frostwall
-K Rag'sla Thunkblade slain|QID|36242|M|55.0,17.0|T|Rag'sla|QO|1|FACTION|Horde|Z|Frostwall
-K Akatha Blazeburn slain|QID|36242|M|73.0,49.4|T|Akatha|QO|2|FACTION|Horde|Z|Frostwall
-K Drek the Firecaller slain|QID|36242|M|46.0,84.0|T|Drek|QO|3|FACTION|Horde|Z|Frostwall
-T Where There Is Smoke...|QID|36242|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall
-A A Stolen Heart|QID|36248|M|40,54.4|N|From Warmaster Zog|FACTION|Horde|Z|Frostwall
+C Dul'zak|QID|36261|M|63.4,44.4|QO|1|FACTION|Horde|Z|Frostwall|
+T Garrison Campaign: Missing Grunt|QID|36261|M|40,54.4|N|To Bloody Blade|FACTION|Horde|Z|Frostwall|
+A Where There Is Smoke...|QID|36242|PRE|36261|M|40,54.4|N|From Bloody Blade|FACTION|Horde|Z|Frostwall|
+K Rag'sla Thunkblade slain|QID|36242|M|55.0,17.0|T|Rag'sla|QO|1|FACTION|Horde|Z|Frostwall|
+K Akatha Blazeburn slain|QID|36242|M|73.0,49.4|T|Akatha|QO|2|FACTION|Horde|Z|Frostwall|
+K Drek the Firecaller slain|QID|36242|M|46.0,84.0|T|Drek|QO|3|FACTION|Horde|Z|Frostwall|
+T Where There Is Smoke...|QID|36242|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall|
+A A Stolen Heart|QID|36248|PRE|36242|M|40,54.4|N|From Warmaster Zog|FACTION|Horde|Z|Frostwall|
 K Azuka Bladefury|QID|36248|T|Azuka|QO|1|FACTION|Horde|Z|Frostwall|M|52.24,35.55| ; added QID/ACTIVE Id value
-T A Stolen Heart|QID|36248|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall
+T A Stolen Heart|QID|36248|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall|
 
 ; Fall of Shattrath -- Faction Specific
 ; A Garrison Campaign: The Fall of Shattrath|QID|35679|M|40.0,44.4|N|From Khadgar's Servant.|FACTION|Alliance|
@@ -368,7 +378,7 @@ A Reclaiming the City|QID|35683|PRE|35679|M|49.8,48.6|Z|Talador|N|From Exarch Ma
 C Sargerei Insignias|QID|35683|M|38,21|N|Head into the city of Shattrath and kill and loot Insignias.|QO|1|FACTION|Alliance|
 T Reclaiming the City|QID|35683|M|49.8,48.6|Z|Talador|N|To Exarch Maladaar.|FACTION|Alliance|
 A Socrethar's Demise|QID|35685|PRE|35683|M|49.8,48.6|Z|Talador|N|From Exarch Maladaar.|FACTION|Alliance|
-C Screthar's Demise|QID|35685|M|42.36,32.99|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Alliance|
+C Socrethar's Demise|QID|35685|M|42.36,32.99|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Alliance|
 K Socrethar|QID|35685|T|Socrethar|QO|2|FACTION|Alliance|
 T Socrethar's Demise|QID|35685|M|49.8,48.6|Z|Talador|N|To Exarch Maladaar.|FACTION|Alliance|
 ; A Garrison Campaign: The Fall of Shattrath|QID|35680|M|47.6,47.0|N|From Khadgar's Servant.|FACTION|Horde|
@@ -377,7 +387,7 @@ A Reclaiming the City|QID|35684|PRE|35680|M|50.0,48.6|Z|Talador|N|From Lady Liad
 C Sargerei Insignias|QID|35684|M|38,21|N|Head into the city of Shattrath and kill and loot Insignias.|QO|1|FACTION|Horde|
 T Reclaiming the City|QID|35684|M|50.0,48.6|Z|Talador|N|To Lady Liadrin.|FACTION|Horde|
 A Socrethar's Demise|QID|35687|PRE|35684|M|50.0,48.6|Z|Talador|N|From Lady Liadrin.|FACTION|Horde|
-C Screthar's Demise|QID|35687|M|41.6,32.4|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Horde|
+C Socrethar's Demise|QID|35687|M|41.6,32.4|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Horde|
 K Socrethar's Demise|QID|35687|T|Socrethar|QO|2|FACTION|Horde|
 T Socrethar's Demise|QID|35687|M|50.0,48.6|Z|Talador|N|To Lady Liadrin.|FACTION|Horde|
 
@@ -438,8 +448,8 @@ T Soulgrinder Survivor|QID|34319|M|37.6,14.0|Z|Frostfire Ridge|N|To Shadow Hunte
 ; Broken Precipice -- Mostly Neutral
 ;A Garrison Campaign: The Broken Precipice|QID|35985|M|54.8,14.8|N|From Nixxie|FACTION|Alliance|
 ;A Garrison Campaign: The Broken Precipice|QID|36117|M|54.8,14.8|N|From Nixxie|FACTION|Horde|
-F Nagrand|QID|35985|ACTIVE|35985|Z|Lunarfall|M|45.76,50.8||N|Use the chat option to fly to the Broken Precipe|FACTION|Alliance
-F Nagrand|QID|36117|ACTIVE|36117|Z|Frostwall|M|45.76,50.8|N|Use the chat option to fly to the Broken Precipe|FACTION|Horde
+F Nagrand|QID|35985|ACTIVE|35985|Z|Lunarfall|M|45.76,50.8|N|Use the chat option to fly to the Broken Precipe|FACTION|Alliance|
+F Nagrand|QID|36117|ACTIVE|36117|Z|Frostwall|M|45.76,50.8|N|Use the chat option to fly to the Broken Precipe|FACTION|Horde|
 T Garrison Campaign: The Broken Precipice|QID|35985|M|39.6,24.6|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|FACTION|Alliance|
 T Garrison Campaign: The Broken Precipice|QID|36117|M|39.6,24.6|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|FACTION|Horde|
 ; Neutral
@@ -448,11 +458,11 @@ C Greblin Fastfizzle|QID|35945|M|39.6,24.6|Z|Nagrand@Draenor|N|Greblin Fastfizzl
 T Greblin Fastfizzle|QID|35945|M|39.6,24.4|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|
 A Preservation Capitalization|QID|35970|PRE|35945|M|39.6,24.4|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|
 A Ogre Onslaught|QID|35972|PRE|35945|M|39.6,24.4|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|
-C Ogre Onslaught|QID|35972|M|36.4,20.8|Z|Nagrand@Draenor|N|Kill Ogres and Ogron in the area|S
-C Preservation Capitalization|QID|35970|M|37.9,25.6|Z|Nagrand@Draenor|N|Redtooth Necklace|QO|1
-C Preservation Capitalization|QID|35970|M|36.7,21.2|Z|Nagrand@Draenor|N|Ogre Bust|QO|3
-C Preservation Capitalization|QID|35970|M|35.7,18.9|Z|Nagrand@Draenor|N|Purpletooth Necklace|QO|2
-C Ogre Onslaught|QID|35972|M|36.4,20.8|Z|Nagrand@Draenor|N|Finish killing Ogres and Ogron|US
+C Ogre Onslaught|QID|35972|M|36.4,20.8|Z|Nagrand@Draenor|N|Kill Ogres and Ogron in the area|S|
+C Preservation Capitalization|QID|35970|M|37.9,25.6|Z|Nagrand@Draenor|N|Redtooth Necklace|QO|1|
+C Preservation Capitalization|QID|35970|M|36.7,21.2|Z|Nagrand@Draenor|N|Ogre Bust|QO|3|
+C Preservation Capitalization|QID|35970|M|35.7,18.9|Z|Nagrand@Draenor|N|Purpletooth Necklace|QO|2|
+C Ogre Onslaught|QID|35972|M|36.4,20.8|Z|Nagrand@Draenor|N|Finish killing Ogres and Ogron|US|
 T Preservation Capitalization|QID|35970|M|39.6,24.4|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|
 T Ogre Onslaught|QID|35972|M|39.6,24.4|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|
 A Dizzy Sparkshift|QID|37511|PRE|35972;35970|M|39.6,24.4|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|; Neutral
@@ -468,7 +478,7 @@ A News for Nixxie|QID|37516|PRE|35973|M|40.75,12.96|Z|Nagrand@Draenor|N|From Diz
 T News for Nixxie|QID|37516|M|54.8,14.8|Z|Frostwall|N|To Nixxie|FACTION|Horde|; The Exarch's Call -- Alliance Only
 
 ; A Garrison Campaign: The Exarch's Call|QID|36163|M|33.0,34.6|N|From Deedree|
-F Elodor||QID|36163|M|48.00,49.83|N|Fly to Embaari Villiage on Air Longdrink.|
+F Elodor|QID|36163|M|48.00,49.83|N|Fly to Embaari Villiage on Air Longdrink.|
 T Garrison Campaign: The Exarch's Call|QID|36163|M|65.23,26.18|Z|Shadowmoon Valley@Draenor|N|To Yrel, at the Altar of the Sha'tar|
 A The Trial of Faith|QID|36168|PRE|36163|M|65.33,26.38|Z|Shadowmoon Valley@Draenor|N|From Exarch Maladaar|
 A The Trial of Heart|QID|36167|PRE|36163|M|65.40,26.17|Z|Shadowmoon Valley@Draenor|N|From Exarch Naielle|
@@ -499,46 +509,46 @@ T The Trial of Champions|QID|36169|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|N|T
 
 ; Ours is the Fury -- Horde Only
 ;A Garrison Campaign: Farseer's Rock|QID|32979|M|50.4,38.2|N|From Thrall|FACTION|Horde
-C Garrison Campaign: Farseer's Rock|QID|32979|M|57.12,41.48|N|Draka|Z|Frostfire Ridge|FACTION|Horde
-T Garrison Campaign: Farseer's Rock|QID|32979|M|57.12,41.48|N|To Draka|Z|Frostfire Ridge|FACTION|Horde
-A Eaters of the Elements|QID|32980|PRE|32979|M|57.12,41.48|N|From Draka|Z|Frostfire Ridge|FACTION|Horde
-C Eaters of the Elements|QID|32980|M|57.6,41.6|N|Flaming Goren|Z|Frostfire Ridge|FACTION|Horde
-T Eaters of the Elements|QID|32980|M|74.0,29.6|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
-A In the Shadow of Giants|QID|32983|PRE|32980|M|57.42,41.42|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
-A Eatercology|QID|33444|PRE|32980|M|57.42,41.42|N|From Draka|Z|Frostfire Ridge|FACTION|Horde
-C Eatercology|QID|33444|M|66.6,25.4|N|Kill and loot Goren|Z|Frostfire Ridge|S|FACTION|Horde
-C In the Shadow of Giants|QID|32983|M|70.0,27.4|N|Kindler|Z|Frostfire Ridge|QO|2|FACTION|Horde
-C In the Shadow of Giants|QID|32983|M|70.8,23.6|N|Flamrog|Z|Frostfire Ridge|QO|1|FACTION|Horde
-C Eatercology|QID|33444|M|66.6,25.4|N|Kill and loot Goren|Z|Frostfire Ridge|US|FACTION|Horde
-T Eatercology|QID|33444|M|74.0,29.6|N|To Draka|Z|Frostfire Ridge|FACTION|Horde
-T In the Shadow of Giants|QID|32983|M|74.0,29.6|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
-A The Ascent|QID|32984|PRE|32983;33444|M|74.0,29.6|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
-T The Ascent|QID|32984|M|70.0,38.2|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
-A Fury of Frostfire|QID|32985|PRE|32984|M|70.0,38.2|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
-C Fury of Frostfire|QID|32985|M|70.2,38.2|N|Kron|Z|Frostfire Ridge|FACTION|Horde
-T Fury of Frostfire|QID|32985|M|70.0,38.2|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde
-A Ours is the Fury|QID|33427|PRE|32985|M|70.0,38.2|N|From Thrall|Z|Frostfire Ridge|FACTION|Horde
-T Ours is the Fury|QID|33427|M|40.0,54.4|N|To Warmaster Zog|Z|Frostwall|FACTION|Horde
+C Garrison Campaign: Farseer's Rock|QID|32979|M|57.12,41.48|N|Draka|Z|Frostfire Ridge|FACTION|Horde|
+T Garrison Campaign: Farseer's Rock|QID|32979|M|57.12,41.48|N|To Draka|Z|Frostfire Ridge|FACTION|Horde|
+A Eaters of the Elements|QID|32980|PRE|32979|M|57.12,41.48|N|From Draka|Z|Frostfire Ridge|FACTION|Horde|
+C Eaters of the Elements|QID|32980|M|57.6,41.6|N|Flaming Goren|Z|Frostfire Ridge|FACTION|Horde|
+T Eaters of the Elements|QID|32980|M|74.0,29.6|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
+A In the Shadow of Giants|QID|32983|PRE|32980|M|57.42,41.42|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
+A Eatercology|QID|33444|PRE|32980|M|57.42,41.42|N|From Draka|Z|Frostfire Ridge|FACTION|Horde|
+C Eatercology|QID|33444|M|66.6,25.4|N|Kill and loot Goren|Z|Frostfire Ridge|S|FACTION|Horde|
+C In the Shadow of Giants|QID|32983|M|70.0,27.4|N|Kindler|Z|Frostfire Ridge|QO|2|FACTION|Horde|
+C In the Shadow of Giants|QID|32983|M|70.8,23.6|N|Flamrog|Z|Frostfire Ridge|QO|1|FACTION|Horde|
+C Eatercology|QID|33444|M|66.6,25.4|N|Kill and loot Goren|Z|Frostfire Ridge|US|FACTION|Horde|
+T Eatercology|QID|33444|M|74.0,29.6|N|To Draka|Z|Frostfire Ridge|FACTION|Horde|
+T In the Shadow of Giants|QID|32983|M|74.0,29.6|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
+A The Ascent|QID|32984|PRE|32983;33444|M|74.0,29.6|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
+T The Ascent|QID|32984|M|70.0,38.2|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
+A Fury of Frostfire|QID|32985|PRE|32984|M|70.0,38.2|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
+C Fury of Frostfire|QID|32985|M|70.2,38.2|N|Kron|Z|Frostfire Ridge|FACTION|Horde|
+T Fury of Frostfire|QID|32985|M|70.0,38.2|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
+A Ours is the Fury|QID|33427|PRE|32985|M|70.0,38.2|N|From Thrall|Z|Frostfire Ridge|FACTION|Horde|
+T Ours is the Fury|QID|33427|M|40.0,54.4|N|To Warmaster Zog|Z|Frostwall|FACTION|Horde|
 
 ; Primal Fury  -- Horde
 ;A Garrison Campaign: Awakening|QID|36136|M|45.6,43.2|N|From Rokhan|
-F Skysea Ridge|QID|36136|N|Make your way to Gorgrond|FACTION|Horde
-C Garrison Campaign: Awakening|QID|36136|QO|1|M|40.95,43.03|N|Speak to Choluna|Z|Gorgrond|FACTION|Horde
-C Garrison Campaign: Awakening|QID|36136|QO|2|M|37.8,44.6|N|Duurg|Z|Gorgrond|FACTION|Horde
-C Garrison Campaign: Awakening|QID|36136|M|41.0,43.0|N|Thisalee Crow|FACTION|Horde
-T Garrison Campaign: Awakening|QID|36136|M|40.95,43.03|N|To Choluna|Z|Gorgrond|FACTION|Horde
-A Primal Fury|QID|36342|PRE|36136|M|41.0,43.0|N|From Choluna|Z|Gorgrond|FACTION|Horde
-F Frostwolf Overlook|QID|36342|M|39.6,36.4|N|Fly to Talador|FACTION|Horde|Z|Gorgrond
-C Primal Fury|QID|36342|QO|1|M|66.8,9.2|N|To Rokhan|FACTION|Horde|Z|Talador
-C Primal Fury|QID|36342|QO|2|M|69.0,3.4|N|Kill Gorgorek|FACTION|Horde|Z|Talador
-C Primal Fury|QID|36342|QO|3|M|69.4,5.6|N|Kill Azuka Bladefury|FACTION|Horde|Z|Talador
-A Sanketsu, The Burning Blade|QID|37192|PRE|36136|M|69.45,5.74|Z|Talador|FACTION|Horde
-C Primal Fury|QID|36342|QO|4|M|67.51,7.59|Z|Talador|FACTION|Horde
-C Primal Fury|QID|36342|QO|5|M|69.42,9.22|Z|Talador|FACTION|Horde
-T Primal Fury|QID|36342|M|40.0,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall
-T Sanketsu, The Burning Blade|QID|37192|M|40.0,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall
+F Skysea Ridge|QID|36136|N|Make your way to Gorgrond|FACTION|Horde|
+C Garrison Campaign: Awakening|QID|36136|QO|1|M|40.95,43.03|N|Speak to Choluna|Z|Gorgrond|FACTION|Horde|
+C Garrison Campaign: Awakening|QID|36136|QO|2|M|37.8,44.6|N|Duurg|Z|Gorgrond|FACTION|Horde|
+C Garrison Campaign: Awakening|QID|36136|M|41.0,43.0|N|Thisalee Crow|FACTION|Horde|
+T Garrison Campaign: Awakening|QID|36136|M|40.95,43.03|N|To Choluna|Z|Gorgrond|FACTION|Horde|
+A Primal Fury|QID|36342|PRE|36136|M|41.0,43.0|N|From Choluna|Z|Gorgrond|FACTION|Horde|
+F Frostwolf Overlook|QID|36342|M|39.6,36.4|N|Fly to Talador|FACTION|Horde|Z|Gorgrond|
+C Primal Fury|QID|36342|QO|1|M|66.8,9.2|N|To Rokhan|FACTION|Horde|Z|Talador|
+C Primal Fury|QID|36342|QO|2|M|69.0,3.4|N|Kill Gorgorek|FACTION|Horde|Z|Talador|
+C Primal Fury|QID|36342|QO|3|M|69.4,5.6|N|Kill Azuka Bladefury|FACTION|Horde|Z|Talador|
+A Sanketsu, The Burning Blade|QID|37192|PRE|36136|M|69.45,5.74|Z|Talador|FACTION|Horde|
+C Primal Fury|QID|36342|QO|4|M|67.51,7.59|Z|Talador|FACTION|Horde|
+C Primal Fury|QID|36342|QO|5|M|69.42,9.22|Z|Talador|FACTION|Horde|
+T Primal Fury|QID|36342|M|40.0,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall|
+T Sanketsu, The Burning Blade|QID|37192|M|40.0,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall|
 ; Primal Fury  -- Alliance
-A Garrison Campaign: Awakening|QID|36134|M|37.8,36.8|N|From Bodrick Grey|
+A Garrison Campaign: Awakening|QID|36134|PRE|36162|M|37.8,36.8|N|From Bodrick Grey|
 C Garrison Campaign: Awakening|QID|36134|M|37.8,44.6|N|Duurg|
 C Garrison Campaign: Awakening|QID|36134|M|41.0,43.0|N|Thisalee Crow|
 T Garrison Campaign: Awakening|QID|36134|M|41.0,43.0|N|To Thisalee Crow|
@@ -549,7 +559,7 @@ C Primal Fury|QID|36341|M|69.4,9.0|N|Bodrick Grey|
 T Primal Fury|QID|36341|M|29.2,34.6|N|To Lieutenant Thorn|
 
 ; Warlord's Council -- Alliance
-A Garrison Campaign: Deep Recon|QID|35837|M|37.8,36.8|N|From Bodrick Grey|
+A Garrison Campaign: Deep Recon|QID|35837|PRE|34289;37517;34450;35685;34033;36290;35196;36169|M|37.8,36.8|N|From Bodrick Grey|
 T Garrison Campaign: Deep Recon|QID|35837|M|49.8,37.0|N|To Jeanine Amrell|
 A The Warlord's Council|QID|35838|PRE|35837|M|49.8,37.0|N|From Jeanine Amrell|
 T The Warlord's Council|QID|35838|M|41.8,37.0|N|To Flint Shadowmore|
@@ -595,14 +605,14 @@ T Intercepting the Orders|QID|35846|M|45.6,43.2|Z|Frostwall|N|To Rokhan|FACTION|
 T Putting Down the Packleader|QID|35842|M|45.6,43.2|Z|Frostwall|N|To Rokhan|FACTION|Horde|
 D Next!|N|Click to return to whatever guide you were doing before.|
 
-A A Good Death|QID|34354|M|0.0,0.0|N|From ?|; Neutral
+A A Good Death|QID|34354|PRE|35876|M|0.0,0.0|N|From ?|; Neutral
 C A Good Death|QID|34354|M|58.6,84.4|N|Injured Darkwing Glider|
 T A Good Death|QID|34354|M|59.22,82.24|N|To Rexxar|
 
-A Intercepting the Orders|QID|35840|M|0.0,0.0|N|From ?|
+A Intercepting the Orders|QID|35840|PRE|35838|M|0.0,0.0|N|From ?|
 T Intercepting the Orders|QID|35840|M|37.8,36.8|N|To Bodrick Grey|
 
-A Putting Down the Packleader|QID|35841|M|0.0,0.0|N|From ?|
+A Putting Down the Packleader|QID|35841|PRE|35838|M|0.0,0.0|N|From ?|
 C Putting Down the Packleader|QID|35841|M|44.6,38.0|N|Packleader Vor'gash|
 T Putting Down the Packleader|QID|35841|M|37.8,36.8|N|To Bodrick Grey|
 

@@ -4,6 +4,56 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2017-07-15 22:46
+-- Who: Ludovicus
+-- Log: Playthrough
+
+-- URL: http://wow-pro.com/node/3657/revisions/28667/view
+-- Date: 2017-05-14 22:49
+-- Who: Ludovicus
+-- Log: Change [Kill Golza the Iron Fin] to use ACH|11261;2| for completion.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28621/view
+-- Date: 2017-03-29 05:33
+-- Who: Emmaleah
+-- Log: Type LEAD, not PRE on the two I meant to change yesterday.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28615/view
+-- Date: 2017-03-27 23:30
+-- Who: Emmaleah
+-- Log: correct spelling of murloc, put it two LEADs Grail is complaining about, adjust guide mean level, modify notes to Isle Hopping and Scouring the Isles.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28611/view
+-- Date: 2017-03-27 09:29
+-- Who: Emmaleah
+-- Log: Incorrect item link for Doomlord Kazrok. Delete Master of the Isles as I have never been offered it, no one on wowhead has commented on it... not sure that it exists.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28540/view
+-- Date: 2017-03-21 22:46
+-- Who: Ludovicus
+-- Log: Relocate treasure chest and Cailyn kill above Objective.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28477/view
+-- Date: 2017-03-16 22:54
+-- Who: Ludovicus
+-- Log: Syntax corrections.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28308/view
+-- Date: 2017-03-10 10:12
+-- Who: Emmaleah
+-- Log: Add final quest after doing Eye of Azshara.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28306/view
+-- Date: 2017-03-07 19:58
+-- Who: Emmaleah
+-- Log: Since Headmistress' is a Feminine title... probably should refer to 'her' ... amazing that stayed in there incorrect so long.
+
+-- URL: http://wow-pro.com/node/3657/revisions/28237/view
+-- Date: 2017-01-10 21:32
+-- Who: Blanckaert
+-- Log: minor adjustments to some quests
+
+-- URL: http://wow-pro.com/node/3657/revisions/28142/view
 -- Date: 2016-12-12 04:13
 -- Who: Blanckaert
 -- Log: added a few of the leatherworking quests.... (hopefully in about the right areas)
@@ -201,17 +251,17 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,98, 110, 98.2742)
+WoWPro:GuideLevels(guide,98, 110, 98.661)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Azsuna")
 
 return [[
 
-N Starting in Dalaran|QID|39718|U|140192|N|This guide assumes you are starting in Dalaran. |
-N Treasure|QID|39718|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3 *some are on rank 2, none are on rank 1*.|
-N Rares (Silver Elite)|QID|39718|N|All Rares are included if you do the guide on rank 3, *some are on rank 2, none are on 1*  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
-N Ranks|QID|39718|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the most of the rest of the quests in the zone, Rank 3, includes the difficult or out of the way optional quests, rares and treasures.|
+N Starting in Dalaran|AVAILABLE|38834;44137|U|140192|N|This guide assumes you are starting in Dalaran. |
+N Treasure|AVAILABLE|38834;44137|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3 *some are on rank 2, none are on rank 1*.|
+N Rares (Silver Elite)|AVAILABLE|38834;44137|N|All Rares are included if you do the guide on rank 3, *some are on rank 2, none are on 1*  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
+N Ranks|AVAILABLE|38834;44137|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the most of the rest of the quests in the zone, Rank 3, includes the difficult or out of the way optional quests, rares and treasures.|
 
 T Paradise Lost|QID|39718|M|72.51,45.66|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Down to Azsuna|QID|41220|PRE|39718|M|72.51,45.66|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
@@ -253,8 +303,8 @@ T The Scythe of Souls|QID|37660|M|43.29,43.16|N|To Allari the Souleater.|
 A From Within|QID|36920;44140;40815|PRE|37660+40375+40374+37658|M|43.56,43.46|N|From Kayn Sunfury / Altruis the Sufferer.|
 T From Within|QID|36920;44140;40815|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
 
-A Fel Machinations|QID|37656|PRE|36920+40815+44140|M|40.05,48.80|N|From Kor'vas Bloodthorn who will show up and follow you around.|
-A Saving Stellagosa|QID|37450|PRE|36920+40815+44140|M|40.05,48.80|N|From Kor'vas Bloodthorn.|
+A Fel Machinations|QID|37656|PRE|36920+40815+44140|M|41.25,50.51|N|From Kor'vas Bloodthorn who will show up and follow you around.|
+A Saving Stellagosa|QID|37450|PRE|36920+40815+44140|M|41.25,50.51|N|From Kor'vas Bloodthorn.|
 A Retake Faronaar-Bonus Objective|QID|36811|PRE|36920+40815+44140|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|LVL|-109|
 C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|N|Kill demons and click on the glowing items as you accomplish the other objectives.|S|RANK|2|
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
@@ -269,9 +319,9 @@ t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|Auto turned in upon 
 T Saving Stellagosa|QID|37450|M|36.27,49.03|N|To Kor'vas Bloodthorn following you around.|
 T Fel Machinations|QID|37656|M|36.27,49.03|N|To Kor'vas Bloodthorn.|
 A Dark Revelations|QID|37449|PRE|37656;37450|M|36.27,49.03|N|From Kor'vas Bloodthorn.|
-R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S|
 K Kill Vorthax|QID|42280|QO|1|M|37.14,43.35|ITEM|141875|T|Vorthax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|
-R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US|
 f Illidari Perch|QID|42286|M|31.81,46.27|N|At Jena Moonrath.|RANK|3|
 K Kill Houndmaster Stroxis|QID|42286|QO|1|M|30.82,47.61|N|Silver - Kill and loot for some treasure and resources. Pull him into Illidari perch to get help from the Illidari|RANK|3|
 $ Treasure Chest|QID|44105|M|26.25,47.14|N|Loot for a bit of treasure and resources.|RANK|3|
@@ -325,7 +375,7 @@ T The Consumed|QID|37859|M|49.12,16.54|N|To Projection of Senegos.|
 T Runas the Shamed|QID|37957|M|49.12,16.54|N|To Projection of Senegos.|
 A Runas Knows the Way|QID|37857|PRE|37856;37957;37859|M|49.22,16.08|N|From Runas the Shamed.|
 
-R The Lost Orchard|QID|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|
+R The Lost Orchard|AVAILABLE|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|
 A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-109|
 C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|S|N|Kill the hostiles, destroy the barrels of tainted barrels to advance the objective.|RANK|3|
 A Challiane Vineyards|QID|38203|M|47.40,12.44|N|From Cellarman Voodani who shows up when you enter the area and follows you.|RANK|3|
@@ -337,7 +387,7 @@ K Kill Grand Vintner Valiana|QID|38203|QO|3|M|42.91,8.55|T|Grand Vintner Valiana
 $ Glimmering Treasure Chest|QID|38367|M|42.63,8.08|N|Loot for a bit of treasure and resources.|RANK|3|
 C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|US|N|Stay and complete or check off.|RANK|3|
 t A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto turned in when complete.|RANK|3|
-f Challiane Vineyards|QID|38203|M|40.81,8.98|N|At Stagtamer Maliana.|RANK|3|
+f Challiane's Terrace|QID|38203|M|40.81,8.98|N|At Stagtamer Maliana.|RANK|3|
 T Challiane Vineyards|QID|38203|M|40.78,9.33|N|To Cellarman Voodani.|RANK|3|
 R Azurewing Whelplands|QID|37857|M|53.50,16.68|N|Back to the interupted quest line.|RANK|3|
 
@@ -347,11 +397,12 @@ A Leyline Abuse|QID|37960|PRE|37857|M|53.38,16.21|N|From Projection of Senegos.|
 A The Hunger Returns|QID|37959|PRE|37857|M|53.78,16.82|N|From Runas the Shamed.|
 T Inscription of the Body|QID|39936|M|54.00,15.28|N|To Baric Stormrunner.|P|Inscription;773|LVL|102|
 A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscription;773|LVL|102|PRE|39936|
+$ Treasure Chest|QID|42339|M|51.75,17.36;52.82,20.04;54.03,22.42;52.84,20.58|CS|N|You can walk, avoiding the sleeping bears to get to this treasure. Loot for some resources and treasure.|RANK|3|
+K Kill Cailyn Paledoom|QID|38268|M|54.03,22.37;52.43,22.90|CS|ITEM|129063|T|Cailyn Paledoom|N|Silver-Kill and Loot for a bit of treasure and resources.|RANK|3|
 A Those Beyond Redemption-Bonus Objective|QID|37963|PRE|37857|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|LVL|-109|
 C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|N|Click on the mana siphons and kill mobs in the area to advance the objective.|RANK|2|
 $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and resources.|RANK|2|
-$ Treasure Chest|QID|42339|M|56.66,20.60;56.94,21.88;55.70,20.89;54.84,22.05;52.84,20.58|CS|N|You can walk, avoiding the sleeping bears to get to this treasure. Loot for some resources and treasure.|RANK|3|
-K Kill Cailyn Paledoom|QID|38268|M|54.03,22.37;52.43,22.90|CS|ITEM|129063|T|Cailyn Paledoom|N|Silver-Kill and Loot for a bit of treasure and resources.|RANK|3|
+
 C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773|LVL|102|
 C The Hunger Returns|QID|37959|M|55.62,17.50|S|N|Kill and loot the nightfallen for their charged mana jewels.|
 
@@ -408,15 +459,15 @@ C Hunger's End|QID|42756|QO|1|M|48.39,26.79|N|Orbyth slain|
 C Hunger's End|QID|42756|QO|2|M|48.39,26.79|N|Ael'Yith slain|
 T Hunger's End|QID|42756|M|47.86,26.12|N|To Senegos.|
 
-$ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|ITEM|138352|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
+$ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|ITEM|129056|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
 R Nor'Danil Wellspring|QID|42505|M|40.30,34.35|N|Another optional sidetrip for the completioinists amongst us.  WAY OUT OF THE WAY.|RANK|3|
 K Kill Arcanist Shal'iman|QID|42505|QO|1|M|40.92,35.03;35.22,34.54|CS|ITEM|141868|T|Arcanist Shal'iman|N|Silver - He paths around this circle. Kill and loot for a bit of treasure and resources.|RANK|3|
 $ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.74; 39.63, 31.65; 36.84, 31.24; 37.40, 29.57; 39.08, 26.55; 40.23, 24.74; 41.63, 23.91; 42.31, 22.72; 43.43, 23.83|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
 $ Glimmering Treasure Chest|QID|42297|M|43.37, 22.43|N|Guarded by two same level elite slow-running mobs.  Loot for a bit of treasure and resources.|RANK|3|
 
 R Llothien Highlands|QID|37690|M|49.32,29.27|N|Run to Llothien Highlands.|
-A Felblaze Ingress|QID|42372|M|50.46,30.73|N|From Marius Felbane.|RANK|3|
-A Missing Demon|QID|42238|M|50.41,30.77|N|From Tehd Shoemaker.|RANK|2|
+A Felblaze Ingress|QID|42372|M|50.46,30.73|N|From Marius Felbane.|RANK|3|LEAD|42375|
+A Missing Demon|QID|42238|M|50.41,30.77|N|From Tehd Shoemaker.|RANK|2|LEAD|38460|
 K Kill Daggerbeak|QID|37869|QO|1|M|51.09,31.64|T|Daggerbeak|N|Silver - Kill and loot for a bit of loot and treasure.|RANK|2|
 T Those Who Remember|QID|37690|M|48.38,34.56|N|To Nightwatcher Idri.|
 A They Came From the Sea|QID|37256|PRE|37690|M|48.38,34.56|N|From Nightwatcher Idri.|
@@ -436,7 +487,7 @@ A Presentation is Everything|QID|37728|PRE|37256|M|47.12,41.42|N|From Magister G
 T Links in the Chain|QID|40187|M|47.52,44.17|P|Leatherworking;165|N|To Celea|
 A Best Served Cold|QID|40188|PRE|40187|LVL|102|M|47.52,44.17|P|Leatherworking;165|N|From Celea.|
 A Naga Know-How|QID|40189|PRE|40187|LVL|102|M|47.52,44.17|P|Leatherworking;165|N|From Celea.|
-C Our Very Bones|QID|37257|QO|1|M|51.09,38.17|N|Kill murlocks to retrieve the pilfered bones.|S|
+C Our Very Bones|QID|37257|QO|1|M|51.09,38.17|N|Kill murlocs to retrieve the pilfered bones.|S|
 A Bottled Up|QID|38407|M|49.65,39.32|N|from dropped item 'Okuna's Message'.|
 K Kill Mrrgrl the Tide Reaver|QID|37823|QO|1|M|50.09,34.54|ITEM|129072|T|Mrrgrl the Tide Reaver|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|37831|M|49.65,34.47|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -451,17 +502,17 @@ T The Magister of Mixology|QID|37727|M|47.11,41.40|N|To Magister Garuhod.|
 T Presentation is Everything|QID|37728|M|47.11,41.40|N|To Magister Garuhod.|
 T A Rather Long Walk|QID|37492|M|47.06,41.45|N|To Lady Irisse.|
 T Bottled Up|QID|38407|M|47.06,41.45|N|To Lady Irisse.|
-A Infiltrating Shipwreck Arena|QID|37496|PRE|38407;37257|M|47.06,41.45|N|From Lady Irisse.|
+A Infiltrating Shipwreck Arena|QID|37496|PRE|38407|M|47.06,41.45|N|From Lady Irisse.|
 T Our Very Bones|QID|37257|M|47.00,41.34|N|To Prince Farondis.|
 A Trailing the Tidestone|QID|37497|PRE|37257|M|47.00,41.34|N|From Prince Farondis.|
 C Trailing the Tidestone|QID|37497|QO|1|M|47.00,41.34|N|Chat with the prince to start. As with all escort quests, there are a couple of ambushes.|CHAT|
 A The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|N|Auto-accepted as you enter the area.|RANK|2|LVL|-109|
-T Trailing the Tidestone|QID|37497|M|51.80,44.28|N|To Prince Farondis.
+T Trailing the Tidestone|QID|37497|M|51.80,44.28|N|To Prince Farondis.|
 
 A Nar'thalas Still Suffers|QID|37486|PRE|37497|M|51.80,44.28|N|From Prince Farondis.|
 C The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|S|N|As you go killing the things you run into and freeing the bound citizens will advance this objective.|RANK|2|
 A You Never Know Until You Scry|QID|42693|M|53.38,45.43|N|From Olothil Starlance.|RANK|2|
-A Children of Nar'thalas|QID|42692|M|53.27,45.31|N|From Kallistia Starlance.|RANK|2
+A Children of Nar'thalas|QID|42692|M|53.27,45.31|N|From Kallistia Starlance.|RANK|2|
 C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|P|Leatherworking;165|QO|1|S|N|Kill the Naga for the Shoulderguards|
 C You Never Know Until You Scry|QID|42693|M|55.62,43.57|S|N|Kill the naga to collect the Glyptics.|RANK|2|
 C Children of Nar'thalas|QID|42692|QO|1|M|53.02,43.75|NC|N|The first tome is lying here.|RANK|2|
@@ -529,7 +580,7 @@ C Pop Quiz: Advanced Rune Drawing|QID|37729|QO|2|M|34.13,43.72|Z|1015/17|NC|N|Ru
 C Pop Quiz: Advanced Rune Drawing|QID|37729|QO|3|M|33.92,41.48|Z|1015/17|NC|N|Run around between the lite blue lines on the floor to draw the frost rune.|
 T Pop Quiz: Advanced Rune Drawing|QID|37729|M|28.91,42.32|Z|1015/17|N|To Instructor Nidriel.|
 A The Headmistress' Keys|QID|37730|PRE|37729|M|28.91,42.32|Z|1015/17|N|From Instructor Nidriel.|
-C The Headmistress' Keys|QID|37730|QO|1|M|26.87,36.39|Z|1015/17|CHAT|N|When the headmaster becomes hostile, kill him and loot the key.|
+C The Headmistress' Keys|QID|37730|QO|1|M|26.87,36.39|Z|1015/17|CHAT|N|When the headmistress becomes hostile, kill her and loot the key.|
 T The Headmistress' Keys|QID|37730|M|53.27,47.69|Z|1015/17|N|To Thyrillion.|
 A The Tidestone: Shattered|QID|37469|PRE|37730|M|53.27,47.69|Z|1015/17|N|From Thyrillion.|
 C The Tidestone: Shattered|QID|37469|U|120960|S|M|69.41,21.94|Z|1015/17|NC|N|The shards are on the ground here.|
@@ -550,10 +601,10 @@ A Tip the Scales-Bonus Objective|QID|37779|LVL|-109|M|58.67,41.22|N|Auto accepte
 C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|S|N|Kill Naga, loot the trident racks to activate an extra action button.|RANK|2|
 C The Head of the Snake|QID|37470|M|62.05,41.57|N|Kill Athissa.|T|Athissa|
 T The Head of the Snake|QID|37470|M|61.70,41.08|N|To Prince Farondis.|
-A Wrath of Azshara|QID|38286|PRE|37470|M|61.70,41.08|NA|N|From Prince Farondis. Thia ia a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
+A Wrath of Azshara|QID|38286|PRE|37470|M|61.70,41.08|NA|N|From Prince Farondis. This is a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
 $ Small Treasure Chest|QID|42294|M|62.81,44.79|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42293|M|63.64,39.18|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Golza the Iron Fin|QID|42372|QO|1|M|65.17,40.02|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|;can not find QID for this encounter
+K Kill Golza the Iron Fin|QID|42372|ACH|11261;2|M|65.17,40.02|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|; There are ACH's for all silvers in this zone.
 C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|US|N|Finish this up or check it off manually.|RANK|2|
 t Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|N|Auto turned in when complete.|RANK|2|
 
@@ -585,7 +636,7 @@ T Arkethrax|QID|42367|M|63.88,28.88|N|To Marius Felbane.|RANK|3|
 T They're Doing it Wrong|QID|42369|M|63.86,28.94|N|To Tehd Shoemaker.|RANK|3|
 T Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|
 T Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|
-A The Burdens of Hunting|QID|39943||M|65.07,25.96|N|From Zarla Shadowheart.||P|Inscription;773|LVL|102|PRE|39941;39940||
+A The Burdens of Hunting|QID|39943|M|65.07,25.96|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|PRE|39941;39940|
 
 R The Empyrean Society Enclave|QID|38419|M|63.54,33.2|N|Take the road to the left if you want to get through without fighting. Continue on ths road towards Olivian Veil.|RANK|3|
 R The Greenway|QID|38419|M|62.56,34.56|N|Side jaunt for a Silver and 3 chests.|RANK|3|
@@ -601,21 +652,21 @@ $ Small Treasure Chest|QID|42338|M|55.70,25.48;57.19,25.23|CS|N|Loot for a bit o
 R Olivian Veil|QID|40751|M|60.98,34.67;65.84,37.26;66.06,43.44|CS|N|Back to questing.|RANK|3|
 $ Small Treasure Chest|QID|40751|M|66.06,43.44|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Syphonus|QID|37989|QO|1|M|67.19,51.58|T|Syphonus|N|Silver - Kill and loot for a bit of treasure and resources.  Be wary of the lvl 110 mobs nearby.|RANK|2|ITEM|129064|
-T Missing Demon|QID|42238|M|61.22,50.74|N|To Daglop.|RANK|2|
-A Let's Make A Deal|QID|38460|PRE|42238|M|61.22,50.74|N|From Daglop.|RANK|2|
-C Let's Make A Deal|QID|38460|M|61.22,50.74|NC|N|Sign Daglop's Contract.|RANK|2|
-T Let's Make A Deal|QID|38460|M|61.22,50.74|N|To Daglop.|RANK|2|
-A Minion! Kill Them!|QID|38232|PRE|38460|M|61.22,50.74|N|From Daglop.|RANK|2|
+T Missing Demon|QID|42238|M|62.91,51.45|N|To Daglop.|RANK|2|
+A Let's Make A Deal|QID|38460|PRE|42238|M|62.91,51.45|N|From Daglop.|RANK|2|
+C Let's Make A Deal|QID|38460|M|62.91,51.45|NC|N|Sign Daglop's Contract.|RANK|2|
+T Let's Make A Deal|QID|38460|M|62.91,51.45|N|To Daglop.|RANK|2|
+A Minion! Kill Them!|QID|38232|PRE|38460|M|62.91,51.45|N|From Daglop.|RANK|2|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|S|N|The olives are on the ground, the birds and cats drop the feathers and the shadowrunners drop the horns.|RANK|2|
 K Kill Treacherous Stallions|QID|44081|QO|1|M|60.25,46.14|ITEM|140685|T|Devious Sunrunner|N|Silver - Click on the Ley Portal to be transported to a treasure. Kill the Stallions, then loot the chest for a bit of treasure and resources.|RANK|3|
 $ Marius & Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|CS|ITEM|129068|T|Brogozog|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources.|RANK|3|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|US|N|Finish gathering the things Daglop wants.|RANK|2|
-T Minion! Kill Them!|QID|38232|M|61.89,49.63|RANK|2|
-A This IS In My Contract.|QID|38237|PRE|38232|M|61.89,49.63|RANK|2|
+T Minion! Kill Them!|QID|38232|RANK|2|N|To Daglop, on your shoulders.|
+A This IS In My Contract.|QID|38237|PRE|38232||RANK|2|N|From Daglop, on your shoulders.|
 C This IS In My Contract.|QID|38237|QO|1|M|64.11,52.88|N|Run down to the beach, Daglop is standing in front of a cave, Speak with him to start the ritual|CHAT|RANK|2|
-C This IS In My Contract.|QID|38237|QO|2|M|63.52,53.24|T|Sharazaan|RANK|2|
+C This IS In My Contract.|QID|38237|QO|2|M|63.33,53.55|T|Sharazaan|RANK|2|
 $ Small Treasure Chest|QID|42278|M|62.99,54.17|N|Loot for a bit of treasure and resources.|RANK|2|
-T This IS In My Contract.|QID|38237|M|62.70,51.47|N|To Daglop.|RANK|2|
+T This IS In My Contract.|QID|38237|M|62.91,51.45|N|To Daglop.|RANK|2|
 
 K Kill The Oracle|QID|37822|QO|1|M|59.76,54.65;59.69,55.17|CS|N|Silver - Go up the stairs starting at the first marked spot.  Kill and loot for a bit of treasure and resources|T|The Oracle|ITEM|129065|RANK|2|
 $ Small Treasure Chest|QID|40752|M|58.64,53.38|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -665,7 +716,7 @@ C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|N|Grace the Green rescued
 C A Favor for Mr. Shackle|QID|38857|QO|1|M|48.94,63.02|N|Cleave Thunderhill rescued|
 C A Favor for Mr. Shackle|QID|38857|QO|2|M|46.16,59.08|N|Gentle Rosh rescued|
 C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|US|N|You can continue arming prisoners if you need help fighting the elites even after the quest in finished (until you turn it in.)|
-K Kill Flog the Captain Eater|QID|37824|QO|1|M|45.2,58.0|ITEM|129090|T|Flog the Captain Eater|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
+K Kill Flog the Captain Eater|QID|37824|QO|1|M|45.2,58.0|ITEM|129090|T|Flog the Captain-Eater|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Plunder the Cove-Bonus Objective|QID|37495|M|46.54,58.96|US|N|Stay and finish or manually check it off.|RANK|2|
 t Plunder the Cove-Bonus Objective|QID|37495|M|46.54,58.96|N|Auto turned in when complete.|RANK|2|
 T The Right Weapon for the Job|QID|37565|M|53.41,62.95|N|To Okuna Longtusk.|
@@ -703,6 +754,11 @@ T Reclaimed Cargo|QID|40194|M|47.52,44.17|N|To Celea.|
 U Dalaran Hearthstone|QID|42244|U|140192|N|Hearth or fly to Dalaran to get the final zone quest completed and receive you zone achievement.|
 T Fate of the Queen's Reprisal|QID|42244|M|61.05,17.23|Z|Dalaran@Dalaran70|N|To Advisor Stillwater.|FACTION|Horde|
 T Fate of the Queen's Reprisal|QID|40794|M|28.66,74.87|Z|Dalaran@Dalaran70|N|To Lt. Surtees.|FACTION|Alliance|
+C Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|49.07,48.02|Z|Dalaran@Dalaran70|NC|N|Assuming you have completed the Eye of Azshara instance, you can run down and do the final turn in.  Into the Guardian's chamber and down to Aegwynn's Gallery.|
+T Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|To Tidestone of Golganneth (glowing blob on the wall in the Portrait Room).|
+A Pressing the Assault|QID|44545|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213|
+A Isle Hopping|QID|44547|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 2nd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213;44545|
+A Scouring What Remains|QID|44548|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 3rd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213;44547|
 
 D On to Class Halls|N|This ends Azsuna and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Azsuna and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|

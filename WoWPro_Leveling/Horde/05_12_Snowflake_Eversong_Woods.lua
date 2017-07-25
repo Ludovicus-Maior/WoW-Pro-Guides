@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2017-03-15 23:00
+-- Who: Ludovicus
+-- Log: Added PREs to SnoEve0512
+
+-- URL: http://wow-pro.com/node/3207/revisions/28411/view
+-- Date: 2017-03-15 22:54
+-- Who: Ludovicus
+-- Log: Added PREs to SnoSun0105
+
+-- URL: http://wow-pro.com/node/3207/revisions/28239/view
+-- Date: 2017-01-12 23:59
+-- Who: Linkslegend5
+-- Log: Removed the class training and related quests, as they were removed from the game.
+
+-- URL: http://wow-pro.com/node/3207/revisions/27461/view
 -- Date: 2016-07-01 04:43
 -- Who: Linkslegend5
 -- Log: *sigh* The actual updated guide, the last was incorrectly edited to the same guide as before. ~_~
@@ -256,10 +271,10 @@ A Slain by the Wretched |QID|9704|M|40.4,32.2|N|First quest after Sunstrider Isl
 F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 f Falconwing Square|QID|9704|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles|
 T Slain by the Wretched |QID|9704|N|To Slain Outrunner.|M|42.0,35.7|
-A Package Recovery |QID|9705|N|From Slain Outrunner.|M|42.0,35.7|
+A Package Recovery |QID|9705|PRE|9704|N|From Slain Outrunner.|M|42.0,35.7|
 T Package Recovery |QID|9705|N|To Outrunner Alarion.|M|40.4,32.2|
 
-A Completing the Delivery |QID|8350|N|From Outrunner Alarion.|M|40.4,32.2|
+A Completing the Delivery |QID|8350|PRE|9705|N|From Outrunner Alarion.|M|40.4,32.2|
 T Completing the Delivery |QID|8350|N|To Innkeeper Delaniel.|M|48.1,47.7|
 h Falconwing Inn |QID|8472|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|M|48.1,47.7|
 N Professions |QID|8472|N|If you plan on learning any professions, now's the time to learn it. Saren will teach all Primary and Secondary professions, he can be found on the first floor. You can also learn Cooking and First Aid on the first floor too.  \n\nClick this step to continue.|M|48.93,46.86|
@@ -274,14 +289,14 @@ C Major Malfunction |QID|8472|N|Finish killing and looting Arcane Patrollers for
 ; L Level 6|QID|8472|LVL|6|N|Target point to be Level 6.|
 T Major Malfunction |QID|8472|N|To Magister Jaronis.|M|47.3,46.3|
 
-A Delivery to the North Sanctum |QID|8895|N|From Magister Jaronis.|M|47.3,46.3|
+A Delivery to the North Sanctum |QID|8895|PRE|8472|N|From Magister Jaronis.|M|47.3,46.3|
 T Wanted: Thaelis the Hungerer |QID|8468|N|To Sergeant Kan'ren.|M|47.8,46.6|
 T Unstable Mana Crystals |QID|8463|N|To Aeldon Sunbrand.|M|48.2,46.0|
-A Darnassian Intrusions |QID|9352|N|From Aeldon Sunbrand.|M|48.2,46.0|
+A Darnassian Intrusions |QID|9352|PRE|8463|N|From Aeldon Sunbrand.|M|48.2,46.0|
 T Delivery to the North Sanctum |QID|8895|N|To Ley-Keeper Caidanis.|M|44.6,53.1|
-A Malfunction at the West Sanctum |QID|9119|N|From Ley-Keeper Caidanis.|M|44.6,53.1|
+A Malfunction at the West Sanctum |QID|9119|PRE|8895|N|From Ley-Keeper Caidanis.|M|44.6,53.1|
 T Malfunction at the West Sanctum |QID|9119|N|To Ley-Keeper Velania.|M|36.7,57.4|
-A Arcane Instability |QID|8486|N|From Ley-Keeper Velania|M|36.7,57.4|
+A Arcane Instability |QID|8486|PRE|9119|N|From Ley-Keeper Velania|M|36.7,57.4|
 C Arcane Instability |QID|8486|N|Kill the Manawraith and Mana Stalker located around the West Sanctum.|M|36,58|S|
 K Darnassian Scout |QID|9352|L|20765|N|Kill a Darnassian Scout and loot Incriminating Documents. |M|34.50,60.00|
 
@@ -295,21 +310,21 @@ C Fish Heads, Fish Heads... |QID|8884|N|Kill murlocs for the 8 fish heads. |M|27
 l Captain Kelisendra's Lost Rutters |QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|M|27,59.5|
 A Captain Kelisendra's Lost Rutters |QID|8887|U|21776|N|From Captain Kelisendra's Lost Rutters.|
 T Fish Heads, Fish Heads... |QID|8884|N|To Hathvelion Sungaze.|M|29.89,58.52|
-A The Ring of Mmmrrrggglll |QID|8885|N|From Hathvelion Sungaze.|M|29.89,58.52|
+A The Ring of Mmmrrrggglll |QID|8885|PRE|8884|N|From Hathvelion Sungaze.|M|29.89,58.52|
 H Falconwing Square|QID|8482|U|6948|N|Hearth to Falconwing Square.|
 T Incriminating Documents |QID|8482|N|To Aeldon Sunbrand.|M|48.2,46.0|
 
-A The Dwarven Spy |QID|8483|N|From Aeldon Sunbrand.|M|48.2,46.0|
+A The Dwarven Spy |QID|8483|PRE|8482|N|From Aeldon Sunbrand.|M|48.2,46.0|
 C The Dwarven Spy |QID|8483|L|20764|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|M|44.60,53.30|
 A Roadside Ambush |QID|9035|N|From Apprentice Ralen.|M|45.2,56.4|
 T Roadside Ambush |QID|9035|N|To Apprentice Meledor.|M|44.9,61.0|
 A Soaked Pages |QID|9062|N|From Apprentice Meledor.|M|44.9,61.0|
 C Soaked Pages |QID|9062|L|22414|N|Dive under the bridge just in front of you, the Soaked Pages are in the river. |M|44.40,61.90|NC|
 T Soaked Pages |QID|9062|N|To Apprentice Meledor.|M|44.9,61.0|
-A Taking the Fall |QID|9064|N|From Apprentice Meledor.|M|44.9,61.0|
+A Taking the Fall |QID|9064|PRE|9062|N|From Apprentice Meledor.|M|44.9,61.0|
 T Taking the Fall |QID|9064|N|To Instructor Antheol.|M|55.7,54.5|
 
-A Swift Discipline |QID|9066|N|From Instructor Antheol.|M|55.7,54.5|
+A Swift Discipline |QID|9066|PRE|9064|N|From Instructor Antheol.|M|55.7,54.5|
 A The Dead Scar |QID|8475|N|From Ranger Jaela.|M|50.3,50.8|
 C Swift Discipline - Apprentice Ralen |QID|9066|U|22473|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|M|45.20,56.40|QO|2|T|Apprentice Ralen|
 C Swift Discipline - Apprentice Meledor|QID|9066|U|22473|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|M|44.9,61.0|QO|1|T|Apprentice Meledor|
@@ -318,7 +333,7 @@ T The Dead Scar |QID|8475|N|To Ranger Jaela.|M|50.3,50.8|
 T Swift Discipline |QID|9066|N|To Instructor Antheol.|M|55.7,54.5|
 F Falconwing Square|QID|8483|M|54.37,50.73|N|Fly to Falconwing Square.|
 T The Dwarven Spy |QID|8483|N|To Aeldon Sunbrand.|M|48.2,46.0|
-A Fairbreeze Village |QID|9256|N|From Aeldon Sunbrand.|
+A Fairbreeze Village |QID|9256|PRE|8483|N|From Aeldon Sunbrand.|
 
 f Fairbreeze Village |QID|9256|M|43.94,69.98|N|Run to Fairbreeze Village and get the flight point from Skymaster Brightdawn.|
 A Pelt Collection |QID|8491|N|From Velan Brightoak.|M|44.7,69.6|
@@ -336,15 +351,15 @@ T Saltheril's Haven |QID|9395|N|To Lord Saltheril.|M|38.1,73.6|
 A The Party Never Ends |QID|9067|N|From Lord Saltheril.|M|38.1,73.6|
 B Bundle of Fireworks |QID|9067|QO|3|N|Buy a Bundle of fireworks from Halis Dawnstrider at Fairbreeze Village.|M|44.10,70.40|
 T Goods from Silvermoon City|QID|9130|R|BloodElf|N|To Skymaster Brightdawn.|M|44,70|
-A Fly to Silvermoon City|QID|9133|R|BloodElf|M|44,70|N|From Skymaster Brightdawn.|
+A Fly to Silvermoon City|QID|9133|PRE|9130|R|BloodElf|M|44,70|N|From Skymaster Brightdawn.|
 F Silvermoon City|QID|9133|M|44,70|N|Ask Skymaster Brightdawn to fly you to Silvermoon City.|
 R Silvermoon City|QID|9133|N|Run east to Silvermoon City.|M|72.37,90.93|Z|Silvermoon City|
 T Fly to Silvermoon City|QID|9133|R|BloodElf|Z|Silvermoon City|N|To Sathren Azuredawn.|M|69.26,77.04;68.28,74.08;66.50,73.43;54,71|CS|
-A Skymistress Gloaming|QID|9134|R|BloodElf|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn.|
-B Suntouched Special Reserve|QID|9067|QO|1||Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|M|79.70,58.40|
+A Skymistress Gloaming|QID|9134|PRE|9133|R|BloodElf|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn.|
+B Suntouched Special Reserve|QID|9067|QO|1|Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|M|79.70,58.40|
 T Skymistress Gloaming|QID|9134|R|BloodElf|M|54.38,50.79|N|To Skymistress Gloaming.|
 
-A Return to Sathiel|QID|9135|R|BloodElf|M|54.38,50.79|N|From Skymistress Gloaming.|
+A Return to Sathiel|QID|9135|PRE|9134|R|BloodElf|M|54.38,50.79|N|From Skymistress Gloaming.|
 F Fairbreeze Village|QID|9135|M|54.38,50.79|N|Fly to Fairbreeze Village, or just hearth.|
 T Return to Sathiel|QID|9135|R|BloodElf|M|43.69,71.51|N|To Sathiel.|
 T Captain Kelisendra's Lost Rutters |QID|8887|N|To Captain Kelisendra. Follow the road west until you reach Sunsail Anchorage.|M|36.4,66.7|
@@ -359,14 +374,14 @@ C Lost Armaments |QID|8480|N|Run around the big white gazeebo looting the Weapon
 T Grimscale Pirates! |QID|8886|N|To Captain Kelisendra. At Sunsail Anchorage.|M|36.4,66.7|
 T Lost Armaments |QID|8480|N|To Velendris Whitemorn.|M|36.4,66.7|
 
-A Wretched Ringleader |QID|9076|N|From Velendris Whitemorn.|M|36.4,66.7|
+A Wretched Ringleader |QID|9076|PRE|8480|N|From Velendris Whitemorn.|M|36.4,66.7|
 K Aldaron |QID|9076|QO|1|N|Go back to the big white tower-like building and fight your way up. At the top you'll find Aldaron the Reckless with two guards. If you are careful you can probably pull the guards solo before you kill Aldras. |M|32.70,68.4|
 C Situation at Sunsail Anchorage |QID|8892|S|N|Finish killing the Wretched Thugs and Hooligans.|
 T Wretched Ringleader |QID|9076|N|To Velendris Whitemorn.|M|36.4,66.7|
 C Pelt Collection |QID|8491|N|Kill springpaws. They're all around Fairbreeze. |M|46.00,67.00|US|
 T Pelt Collection |QID|8491|N|To Velan Brightoak.|M|44.7,69.6|
 T Situation at Sunsail Anchorage |QID|8892|N|To Ranger Degolien.|M|43.3,70.8|
-A Farstrider Retreat |QID|9359|N|From Ranger Degolien.|M|43.3,70.8|
+A Farstrider Retreat |QID|9359|PRE|8892|N|From Ranger Degolien.|M|43.3,70.8|
 r Repair/Sell Junk|QID|9358|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
 T Ranger Sareyn |QID|9358|N|To Ranger Sareyn.|M|46.9,71.8|
 
@@ -376,10 +391,10 @@ T The Wayward Apprentice |QID|9254|N|To Apprentice Mirveda. Go north along the D
 A Corrupted Soil |QID|8487|N|From Apprentice Mirveda.|M|54.3,71.0|
 C Corrupted Soil|QID|8487|N|Loot 8 Tainted Soil Samples, they are green looking.|M|52.60,68.40|
 T Corrupted Soil |QID|8487|N|To Apprentice Mirveda.|M|54.3,71.0|
-A Unexpected Results |QID|8488|N|From Apprentice Mirveda. Get to full HP/Mana and take the follow up. Protect Mivenda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|M|54.3,71.0|
+A Unexpected Results |QID|8488|PRE|8487|N|From Apprentice Mirveda. Get to full HP/Mana and take the follow up. Protect Mivenda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|M|54.3,71.0|
 C Unexpected Results |QID|8488|N|Protect Mirveda.|
 T Unexpected Results |QID|8488|N|To Apprentice Mirveda. You should now be level 10!|M|54.3,71.0|
-A Research Notes |QID|9255|N|From Apprentice Mirveda.|M|54.3,71.0|
+A Research Notes |QID|9255|PRE|8488|N|From Apprentice Mirveda.|M|54.3,71.0|
 T Farstrider Retreat |QID|9359|N|To Lieutenant Dawnrunner.|M|60.3,62.8|
 A Amani Encroachment |QID|8476|N|From Lieutenant Dawnrunner.|M|60.3,62.8|
 B Buy Springpaw Appetizers |QID|9067|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight at Farstrider Retreat.|M|60.40,62.46|
@@ -389,7 +404,7 @@ A The Magister's Apprentice |QID|8888|N|From Magister Duskwither. Up the right r
 A Fetch!|QID|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
 C Fetch!|QID|9402|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|M|54.87,56.38|
 T Fetch!|QID|9402|N|To Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
-A The Purest Water|QID|9403|N|From Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
+A The Purest Water|QID|9403|PRE|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
 R Thuron's Livery |QID|8888|N|If you want the explorer achievement, head to Thuron's Livery.\n\nIf you don't, just click this step.|M|62.00,53.00|
 T The Magister's Apprentice |QID|8888|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|M|67.8,56.5|Z|Eversong Woods|
 A Deactivating the Spire |QID|8889|N|From Apprentice Loralthalis.|M|67.8,56.5|
@@ -406,7 +421,7 @@ N Deactivating the Spire - Second Power Source |QID|8889|N|Head up the stairs, t
 A Abandoned Investigations |QID|8891|N|From Magister Duskwither's Journal on the table near the door.|M|69.2,52.1|
 C Deactivating the Spire|QID|8889|N|Head up the stairs again, then deactivate the Third Power Source.|M|69.20,52.10|QO|3|NC|
 T Deactivating the Spire |QID|8889|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|M|67.8,56.5|
-A Word from the Spire |QID|8890|N|From Apprentice Loralthalis.|M|67.8,56.5|
+A Word from the Spire |QID|8890|PRE|8889|N|From Apprentice Loralthalis.|M|67.8,56.5|
 ;N Visit your trainer if you want|QID|8890|N|since we are by Silvermoon City. Right-click the box to continue.|
 T Word from the Spire |QID|8890|N|To Magister Duskwither. Back at farstrider retreat, up the right ramp. |M|60.3,61.4|
 T Abandoned Investigations |QID|8891|N|To Magister Duskwither.|M|60.3,61.4|
@@ -421,7 +436,7 @@ C Amani Encroachment|QID|8476|US|M|69.00,72.00|N|Finish killing Trolls needed.|
 R Elrendar Falls |QID|9360|N|If you want the explorer achievement, head to Elrendar Falls.\n\nIf you don't, just click this step.|M|64.00,73.00|
 T Amani Encroachment |QID|8476|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|M|60.3,62.8|
 T Amani Invasion |QID|9360|N|To Lieutenant Dawnrunner.|M|60.3,62.8|
-A Warning Fairbreeze Village|QID|9363|M|60.32,62.76|N|From Lieutenant Dawnrunner.|
+A Warning Fairbreeze Village|QID|9363|PRE|9360|M|60.32,62.76|N|From Lieutenant Dawnrunner.|
 T The Spearcrafter's Hammer |QID|8477|N|To Arathel Sunforge.|M|59.5,62.6|
 C The Purest Water|QID|9403|R|BloodElf|C|Mage|M|64.21,72.66|U|23566|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|
 T The Purest Water|QID|9403|R|BloodElf|C|Mage|N|To Instructor Antheol.|M|55.7,54.5|
@@ -438,7 +453,7 @@ C A Somber Task|QID|8473|M|35.7,85.2|N|Kill 10 Withered Green Keepers.|S|
 K Old Whitebark|QID|8474|M|35.7,85.2|N|Look for Old Whitebark, kill him to loot his amulet.|L|23228|T|Old Whitebark|
 A Old Whitebark's Pendant|QID|8474|U|23228|N|From Old Whitebark's Pendant. Use the pendant, and accept the quest.|
 T Old Whitebark's Pendant|QID|8474|M|34,80|N|To Larianna Riverwind.|
-A Whitebark's Memory|QID|10166|M|34,80|N|From Larianna Riverwind.|
+A Whitebark's Memory|QID|10166|PRE|8474|M|34,80|N|From Larianna Riverwind.|
 T Whitebark's Memory|QID|10166|M|37.58,86.14|N|To Whitebark's Spirit. Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
 C A Somber Task|QID|8473|M|35.7,85.2|N|Kill 10 Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34,80|N|To Larianna Riverwind.|

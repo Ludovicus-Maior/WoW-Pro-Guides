@@ -22,12 +22,13 @@
 ---    8 - Beast
 ---    9 - Aquatic
 ---    10 - Mechanical
+
 WoWPro.PetDamageMap = {}
-WoWPro.PetMonitorMap = {}
+WoWPro.PetFamilyMap = {}
 local function RegisterPDM(pet_basic, pet_type, pet_strong, pet_weak)
     WoWPro.PetDamageMap[pet_basic*20+pet_strong] = 1.5
     WoWPro.PetDamageMap[pet_basic*20+pet_weak] = 0.66
-    WoWPro.PetMonitorMap[string.sub(pet_type, 1,1)] = pet_basic
+    WoWPro.PetFamilyMap[string.sub(pet_type, 1,1)] = pet_basic
 end
 RegisterPDM(9,"Aquatic",7,6)
 RegisterPDM(8,"Beast",5,3)
@@ -41,50 +42,72 @@ RegisterPDM(10,"Mechanical",8,7)
 RegisterPDM(4,"Undead",1,9)
 
 function WoWPro.LookupHealthModifier(opponent_key, defender_type)
-    local opponent_type = WoWPro.PetMonitorMap[opponent_key] or 0
+    local opponent_type = WoWPro.PetFamilyMap[opponent_key] or 0
     return WoWPro.PetDamageMap[opponent_type*20+defender_type] or 1.0
 end
 
-function WoWPro.PetMeetsLimits(petID, limits)
+function WoWPro.PetMeetsLimit(petID, limit)
     local speciesID, customName, level, xp, maxXp, displayID, isFavorite, name, icon, petType = C_PetJournal.GetPetInfoByPetID(petID);
     local health, maxHealth, power, speed, rarity = C_PetJournal.GetPetStats(petID)
 
-    if limits == "" or limits == nil then
+    if limit == "" or limit == nil then
         -- no limit implies L25
-        limits = "L>24"
+        limit = "L>24"
     end
 
-    limits = string.upper(limits)
-    local limit_type = string.sub(limits, 1, 2)
+    limit = string.upper(limit)
+    local limit_type = string.sub(limit, 1, 2)
 
     if limit_type == "L>" then
-        local min_level = tonumber(string.sub(limits, 3, -1))
---        WoWPro:dbp("PetMeetsLimits: Level %d > %d ?",level, min_level)
+        local min_level = tonumber(string.sub(limit, 3, -1))
+--        WoWPro:dbp("PetMeetsLimit: Level %d > %d ?",level, min_level)
         return level > min_level
     elseif limit_type == "H>" then
-        local min_health = tonumber(string.sub(limits, 3, -1))
+        local min_health = tonumber(string.sub(limit, 3, -1))
         if min_health == nil then
             -- perhaps we have a modifer?
-            min_health = tonumber(string.sub(limits, 3, -2))
+            min_health = tonumber(string.sub(limit, 3, -2))
             if min_health then
                 -- Yup!
-                local factor = WoWPro.LookupHealthModifier(string.sub(limits, -1, -1), petType)
---                WoWPro:dbp("PetMeetsLimits: Modified health from %g to %g enemy %s, pet %d",min_health,min_health*factor,string.sub(limits, -1, -1), petType)
+                local factor = WoWPro.LookupHealthModifier(string.sub(limit, -1, -1), petType)
+--                WoWPro:dbp("PetMeetslimit: Modified health from %g to %g enemy %s, pet %d",min_health,min_health*factor,string.sub(limit, -1, -1), petType)
                 min_health = min_health * factor
             else
-                WoWPro:dbp("WoWPro.PetMeetsLimits: Bad limits string [%s]", limits)
+                WoWPro:dbp("WoWPro.PetMeetsLimit: Bad limit string [%s]", limit)
                 return false
             end
         end
         return maxHealth > min_health
     elseif limit_type == "P>" then
-        local min_power = tonumber(string.sub(limits, 3, -1))
+        local min_power = tonumber(string.sub(limit, 3, -1))
         return power > min_power
     elseif limit_type == "S>" then
-        local min_speed = tonumber(string.sub(limits, 3, -1))
+        local min_speed = tonumber(string.sub(limit, 3, -1))
         return speed > min_speed
+    elseif limit_type == "I>" then
+        local min_injury = tonumber(string.sub(limit, 3, -1))
+        return min_injury > (maxHealth - health)
+    elseif limit_type == "F=" then
+        local family_key = string.sub(limit, 3, 1)
+        local family_id = WoWPro.PetFamilyMap[family_key]
+        return petType == family_id
+    elseif limit_type == "F~" then
+        local family_key = string.sub(limit, 3, 1)
+        local family_id = WoWPro.PetFamilyMap[family_key]
+        return petType ~= family_id
     end
-    WoWPro:dbp("PetMeetsLimits: Unknown limit: %s", limits)
+    WoWPro:dbp("PetMeetsLimit: Unknown limit: %s", limit)
+    return true
+end
+
+function WoWPro.PetMeetsLimits(petID, limits)
+    local numList = select("#", string.split("+", limits))
+    for i=1,numList do
+        local limit = select(numList-i+1, string.split("+", limits))
+        if not WoWPro.PetMeetsLimit(petID, limit) then
+            return false
+        end
+    end
     return true
 end
 
@@ -162,13 +185,6 @@ function WoWPro.GetLevelingPet(limits, pet1, pet2)
             ok = false
         end
         if ok then
-            -- The pet called Leveling has priority if it meets the limits.
-            if customName == "Leveling" then
-                petID_worst = petID
-                speciesName_worst = speciesID
-                companionID_worst = companionID
-                break
-            end
             if petID_worst == nil then
                 petID_worst = petID
                 speciesName_worst = speciesID
@@ -264,9 +280,19 @@ function WoWPro.ComparePets(pet1,pet2)
     local health1, maxHealth1, power1, speed1, rarity1 = C_PetJournal.GetPetStats(pet1)
     local health2, maxHealth2, power2, speed2, rarity2 = C_PetJournal.GetPetStats(pet2)
      
+    isFavorite1 = isFavorite1 or (name1 == "Leveling")
+    isFavorite2 = isFavorite2 or (name2 == "Leveling")
+
+    -- Pretend to not like favorites
+    if isFavorite1 and not isFavorite2 then
+        return pet2, pet1
+    elseif isFavorite2 and not isFavorite1 then
+        return pet1, pet2
+    end
+
     -- Prefer higher stats
-    local stats1 = maxHealth1 + power1 + speed1
-    local stats2 = maxHealth2 + power2 + speed2
+    local stats1 = (maxHealth1/4) + power1 + speed1
+    local stats2 = (maxHealth2/4) + power2 + speed2
     if stats1 > stats2 then
         return pet1, pet2
     elseif stats2 > stats1 then
@@ -395,7 +421,7 @@ function WoWPro.PetLoadAndPick(slot, name, id, pick, limits, pet1, pet2)
             limits = "L>0"
         end
         pets = WoWPro.GetLevelingPet(limits, pet1, pet2)
-    elseif pick[0] > 2 then
+    elseif (pick[0] > 2) or name == "" then
         -- OK a pick spec overrides a Name/ID spec
         pets = WoWPro.GetPetByAbilities(pick, limits, pet1, pet2)
     else

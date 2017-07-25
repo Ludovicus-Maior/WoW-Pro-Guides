@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2017-03-15 20:33
+-- Who: Ludovicus
+-- Log: LudoEbonBlade PRE tags
+
+-- URL: http://wow-pro.com/node/3405/revisions/28320/view
+-- Date: 2017-03-10 23:13
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3405/revisions/27992/view
 -- Date: 2016-11-06 22:19
 -- Who: Ludovicus
 -- Log: Dont set bogus 666 faction on Icecrown Dailies.
@@ -113,7 +123,7 @@ T Shredder Repair |QID|12244|N|To Synipus.|M|39.5,43.5|Z|Grizzly Hills|
 T Life or Death |QID|12296|N|To Rheanna.|M|40.5,42.6|Z|Grizzly Hills|
 
 N Valiance Expedition|N|The Icecrown Valiance Expedition Reputation Dailies.|
-A King of the Mountain|QID|13280|M|57.00,62.57|Z|Icecrown|N|From Frazzle Geargrinder|
+A King of the Mountain|QID|13280|PRE|13296|M|57.00,62.57|Z|Icecrown|N|From Frazzle Geargrinder|
 C King of the Mountain|QID|13280|M|54.87,60.10|Z|Icecrown|N|Right at the TOP.|
 T King of the Mountain|QID|13280|M|57.00,62.57|Z|Icecrown|N|To Frazzle Geargrinder|
 A Assault by Air|QID|13309|M|62.56,51.34|Z|Icecrown|N|From Ground Commander Koup|

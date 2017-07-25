@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2017-03-15 21:07
+-- Who: Ludovicus
+-- Log: Added PREs to SnoAmmen0105
+
+-- URL: http://wow-pro.com/node/3206/revisions/28347/view
+-- Date: 2017-03-11 20:14
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3206/revisions/27650/view
 -- Date: 2016-08-30 22:43
 -- Who: Ludovicus
 -- Log: Corrected a few typos.
@@ -224,7 +234,7 @@ A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|From Diktynna.|
 N Fishing Training|O|QID|9452|N|You could take this opportunity to learn fishing if you so desire... click to close.|M|61.1,54.2|
 C Red Snapper - Very Tasty!|N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore. Sometimes, an Angry Murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.|QID|9452|U|23654|M|62.31,55.11|
 T Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|To Diktynna.|
-A Find Acteon!|QID|9453|M|61.1,54.2|N|From Diktynna.|
+A Find Acteon!|QID|9453|PRE|9452|M|61.1,54.2|N|From Diktynna.|
 T Find Acteon!|QID|9453|M|49.8,51.9|N|To Acteon at Azure Watch.  Once there, learn any new skills that you need.|C|Hunter|
 T Find Acteon!|QID|9453|M|49.8,51.9|N|To Acteon at Azure Watch.|C|Shaman,Paladin,Priest,Mage,Warrior,Druid|
 A The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|From Acteon.|
@@ -241,21 +251,21 @@ N Note!|O|QID|9454|N|From now on if you see a Blood Elf Bandit on the way, kill 
 C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|L|23676 6|M|51,55|
 C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|US|R|Draenei|L|23685 8|M|51,55|
 T Medicinal Purpose|QID|9463|M|48.4,51.8|N|To Anchorite Fateema.|R|Draenei|
-A An Alternative Alternative|QID|9473|M|48.4,51.8|N|From Daedal.|R|Draenei|
+A An Alternative Alternative|QID|9473|PRE|9463|M|48.4,51.8|N|From Daedal.|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|To Acteon.|
-A The Great Moongraze Hunt|QID|10324|M|49.8,51.9|N|From Acteon.|
+A The Great Moongraze Hunt|QID|10324|PRE|9454|M|49.8,51.9|N|From Acteon.|
 C An Alternative Alternative|QID|9473|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|QO|1|M|48.5,55.1|
 T An Alternative Alternative|QID|9473|M|48.4,51.8|N|To Daedal.|R|Draenei|
-A The Prophecy of Velen|QID|9505|M|48.4,51.8|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
+A The Prophecy of Velen|QID|9505|PRE|9473|M|48.4,51.8|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
 
 T Beds, Bandages, and Beyond|QID|9603|N|Go to Zaldaan (the Flight Master).|R|Draenei|M|49.67,49.17|
-A On the Wings of a Hippogryph|QID|9604|N|From Zaldaan.|R|Draenei|M|49.67,49.17|
+A On the Wings of a Hippogryph|QID|9604|PRE|9603|N|From Zaldaan.|R|Draenei|M|49.67,49.17|
 F The Exodar|QID|9604|N|Fly to the Exodar.|R|Draenei|
 T On the Wings of a Hippogryph|QID|9604|M|57.03,50.14|Z|The Exodar|N|Go to Nurguni.|R|Draenei|
-A Hippogryph Master Stephanos|QID|9605|N|From Nurguni.|R|Draenei|
+A Hippogryph Master Stephanos|QID|9605|PRE|9604|N|From Nurguni.|R|Draenei|
 N Exodar|QID|9605|N|While you're here, you can visit your bank/AH or get supplies. Click to close and continue.|
 T Hippogryph Master Stephanos|QID|9605|Z|The Exodar|N|Go to Hippogryph Master Stephanos.|R|Draenei|
-A Return to Caregiver Chellan|QID|9606|Z|The Exodar|N|From Stephanos.|R|Draenei|
+A Return to Caregiver Chellan|QID|9606|PRE|9605|Z|The Exodar|N|From Stephanos.|R|Draenei|
 F Azure Watch|QID|9606|M|54.33,36.73|Z|The Exodar|N|Fly back to Azure Watch.|R|Draenei|
 T Return to Caregiver Chellan|QID|9606|M|48.39,49.25|N|To Caregiver Chellan.|R|Draenei|
 
@@ -268,9 +278,9 @@ C A Small Start|QID|9506|M|58.61,66.38|N|Find and right click the Nautical Map.|
 C A Small Start|QID|9506|M|59.55,67.66|N|Now find and right click the Nautical Compass.|QO|1|
 C Cookie's Jumbo Gumbo|QID|9512|US|N|Follow the shore back eastwards while killing crawlers for Skittering Crawler Meat.|M|58,67|
 T A Small Start|QID|9506|N|To Admiral Odesyus.|M|47.0,70.2|
-A I've Got a Plant|QID|9530|M|47.0,70.2|N|From Admiral Odesyus.|
-A Reclaiming the Ruins|QID|9513|M|47.0,70.2|N|From Priestess Kyleen Il'dinare.|
-A Precious and Fragile Things Need Special Handling|QID|9523|M|47.2,70.0|N|From Archaeologist Adamant Ironheart.|
+A I've Got a Plant|QID|9530|PRE|9506|M|47.0,70.2|N|From Admiral Odesyus.|
+A Reclaiming the Ruins|QID|9513|PRE|9506;9512|M|47.0,70.2|N|From Priestess Kyleen Il'dinare.|
+A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506;9512|M|47.2,70.0|N|From Archaeologist Adamant Ironheart.|
 T Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|To "Cookie" McWeaksauce.|
 
 r Sell junk and repair (click to close)|QID|9530|N|At Blacksmith Calypso|M|46.4,71.1|
@@ -282,11 +292,11 @@ A Rune Covered Tablet|QID|9514|N|The tablet should have dropped off the naga whi
 C Reclaiming the Ruins|QID|9513|N|Kill any Naga you still need for this quest.|US|
 C I've Got a Plant|QID|9530|US|N|Move towards Odesyus' Landing. There you will find hollow trees. Loot the remaining Piles of Leaves.|M|45.43,66.20|
 T I've Got a Plant|QID|9530|M|47.0,70.2|N|To Admiral Odesyus.|
-A Tree's Company|QID|9531|M|47.0,70.2|N|From Admiral Odesyus.|
+A Tree's Company|QID|9531|PRE|9530|M|47.0,70.2|N|From Admiral Odesyus.|
 T Precious and Fragile Things Need Special Handling|QID|9523|M|47.2,70.0|N|To Archaeologist Adamant Ironheart.|
 T Reclaiming the Ruins|QID|9513|M|47.0,70.2|N|To Priestess Kyleen Il'dinare.|
 T Rune Covered Tablet|QID|9514|M|47.0,70.2|N|To Priestess Kyleen Il'dinare.|
-A Warlord Sriss'tiz|QID|9515|N|Wait a moment until the dialog is finished. Then accept this quest from Priestess Kyleen Il'dinare.|M|47.0,70.2|
+A Warlord Sriss'tiz|QID|9515|PRE|9514|N|Wait a moment until the dialog is finished. Then accept this quest from Priestess Kyleen Il'dinare.|M|47.0,70.2|
 
 R Azure Watch|QID|9538|M|48,53|N|Run to Azure Watch.|
 A The Missing Fisherman|QID|10428|M|49.0,51.1|N|From Dulvi.|
@@ -296,24 +306,24 @@ A Strange Findings|QID|9455|N|Kill Infected Nightstalkers until one of them drop
 C The Great Moongraze Hunt|QID|10324|US|N|Kill and loot the needed Moongraze Stags for the Hides.|M|48.52,55.63|
 T The Great Moongraze Hunt|QID|10324|M|49.8,51.9|N|To Acteon.|
 T Strange Findings|QID|9455|M|47.1,50.6|N|To Exarch Menelaous.|
-A Nightstalker Clean Up, Isle 2...|QID|9456|M|47.1,50.6|N|From Exarch Menelaous.|
+A Nightstalker Clean Up, Isle 2...|QID|9456|PRE|9455|M|47.1,50.6|N|From Exarch Menelaous.|
 
 A Learning the Language|QID|9538|M|49.4,51.0|N|From Cryptographer Aurren.|
 C Learning the Language|N|Read the book.|QID|9538|U|23818|
 T Learning the Language|QID|9538|M|49.4,51.0|N|To the Totem of Akida.|
-A Totem of Coo|QID|9539|M|49.4,51.0|N|From the Totem of Akida.|
+A Totem of Coo|QID|9539|PRE|9538|M|49.4,51.0|N|From the Totem of Akida.|
 T Totem of Coo|N|Turn the quest into the Totem of Coo.|QID|9539|M|55.2,41.6|
-A Totem of Tikti|QID|9540|M|55.2,41.6|N|From the Totem of Coo.|
+A Totem of Tikti|QID|9540|PRE|9539|M|55.2,41.6|N|From the Totem of Coo.|
 T Totem of Tikti|N|Jump off the cliff to the east after you recieve the "Ghost Walk" buff, then keep running east until you cross the river. Turn the quest into the Totem of Tikti.|QID|9540|M|64.47,39.79|
-A Totem of Yor|QID|9541|M|64.47,39.79|N|From the Totem of Tikti.|
+A Totem of Yor|QID|9541|PRE|9540|M|64.47,39.79|N|From the Totem of Tikti.|
 T Totem of Yor|N|Wait until you recieve the "Embrace of the Serpent" buff, then walk into the water, and swim south to the southern estuary. Turn the quest into the Totem of Yor.|QID|9541|M|63.0,67.9|
-A Totem of Vark|QID|9542|M|63.0,67.9|N|From the Totem of Yor.|
+A Totem of Vark|QID|9542|PRE|9541|M|63.0,67.9|N|From the Totem of Yor.|
 R Run to this waypoint.|QID|9542|M|30.94,56.87|CC|N|Wait until the furbolg casts the "Shadow of the Forest" buff on you, then don't bother waiting and run straight to the waypoint. Right click your buff to return to the normal world.|
 C Nightstalker Clean Up, Isle 2...|N|Kill Infected Nightstalkers.|QID|9456|M|30.94,56.87|S|
 C The Great Moongraze Hunt|QID|10324|N|Kill and loot Moongraze Bucks.|M|30.94,56.87|
 C Nightstalker Clean Up, Isle 2...|N|Kill Infected Nightstalkers.|QID|9456|M|30.94,56.87|US|
 T Totem of Vark|QID|9542|M|28.11,62.44|N|To the Totem of Vark.|
-A The Prophecy of Akida|QID|9544|M|28.1,62.4|N|From the Totem of Vark.|
+A The Prophecy of Akida|QID|9544|PRE|9542|M|28.1,62.4|N|From the Totem of Vark.|
 C The Prophecy of Akida|N|Kill Bristlelimb Furbolgs in the camp and get the keys off them. Use them to unlock 8 cages.|QID|9544|M|28.5,66.4|
 C Warlord Sriss'tiz|QID|9515|N|Head to a cave in Wrathscale Point. Drop down the hole just inside the cave, then kill Warlord Sriss'Tiz.|M|27,77;26.34,73.90;25.12,74.19|CS|
 
@@ -328,38 +338,38 @@ T All That Remains|QID|9527|M|16.6,94.5|N|To Cowlen.|
 
 H Azure Watch|QID|9544|U|6948|N|Hearth back to Azure Watch.|
 T The Prophecy of Akida|QID|9544|M|49.4,51.0|N|To Arugoo of the Stillpine.|
-A Stillpine Hold|QID|9559|M|49.4,51.0|N|From Arugoo of the Stillpine.|
+A Stillpine Hold|QID|9559|PRE|9544|M|49.4,51.0|N|From Arugoo of the Stillpine.|
 T Nightstalker Clean Up, Isle 2...|QID|9456|M|47.1,50.6|N|To Exarch Menelaous.|
 R Odesyus' Landing|QID|9515|N|Head to Odesyus' Landing... again...|M|46.11,72.16|
 T Warlord Sriss'tiz|QID|9515|M|47.0,70.2|N|To Priestess Kyleen Il'dinare.|
 T Tree's Company|QID|9531|M|47.0,70.2|N|To Admiral Odesyus.|
-A Show Gnomercy|QID|9537|M|47.0,70.2|N|From Admiral Odesyus.|
+A Show Gnomercy|QID|9537|PRE|9531|M|47.0,70.2|N|From Admiral Odesyus.|
 C Show Gnomercy|QID|9537|T|Engineer "Spark" Overgrind|N|Search the beach for Engineer "Spark" Overgrind, talk to him, then kill and loot him.|M|48.28,72.22|
 T Show Gnomercy|QID|9537|M|47.0,70.2|N|To Admiral Odesyus.|
-A Deliver Them From Evil...|QID|9602|M|47.0,70.2|N|From Admiral Odesyus.|
+A Deliver Them From Evil...|QID|9602|PRE|9537|M|47.0,70.2|N|From Admiral Odesyus.|
 H Azure Watch|QID|9602|N|Or run if your Hearthstone is on cooldown.|U|6948|
 T Deliver Them From Evil...|QID|9602|M|47.1,50.6|N|To Exarch Menelaous.|
 A Coming of Age|QID|9623|M|47.1,50.6|N|From Exarch Menelaous.|
 r Sell junk and repair|QID|9559|N|At Kioni.|M|49.69,52.75|
 
 R Stillpine Hold|QID|9559|N|To the north of Azure Watch.|M|46,20|
-A Beasts of the Apocalypse!|QID|9560|M|44.8,23.9|N|From Moordo.|
-A Murlocs... Why Here? Why Now?|QID|9562|M|44.7,23.6|N|From Gurf.|
+A Beasts of the Apocalypse!|QID|9560|PRE|9544|M|44.8,23.9|N|From Moordo.|
+A Murlocs... Why Here? Why Now?|QID|9562|PRE|9544|M|44.7,23.6|N|From Gurf.|
 T Stillpine Hold|QID|9559|M|46.7,20.6|N|To High Chief Stillpine.|
 C Beasts of the Apocalypse!|QID|9560|N|Kill and loot Ravagers at the Menagerie Wreckage.|M|54.24,19.36|
 T Beasts of the Apocalypse!|QID|9560|M|44.8,23.9|N|To Moordo.|
-A Search Stillpine Hold|QID|9565|M|46.7,20.6|N|From High Chief Stillpine.|
-A Chieftain Oomooroo|QID|9573|M|46.9,21.2|N|From Stillpine the Younger.|
+A Search Stillpine Hold|QID|9565|PRE|9560;9562|M|46.7,20.6|N|From High Chief Stillpine.|
+A Chieftain Oomooroo|QID|9573|PRE|9560;9562|M|46.9,21.2|N|From Stillpine the Younger.|
 C Chieftain Oomooroo|QID|9573|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|M|45.39,18.06;47.43,14.18|CS|
 T Chieftain Oomooroo|QID|9573|M|46.9,21.2|N|To Stillpine the Younger.|
 A The Kurken is Lurkin'|QID|9570|M|47.0,22.3|N|From Kurz the Revelator.|
 C The Kurken is Lurkin'|QID|9570|N|Go back into Stillpine Hold, this time to the left. Kill the Kurken and loot its hide.|M|49.78,12.95|
 T Search Stillpine Hold|QID|9565|N|Turn in at the red crystal.|M|50.59,11.65|
-A Blood Crystals|QID|9566|M|50.5,11.5|N|From the Blood Crystal. Be at full health, as two owlkin will spawn behind you and attack.|
+A Blood Crystals|QID|9566|PRE|9565|M|50.5,11.5|N|From the Blood Crystal. Be at full health, as two owlkin will spawn behind you and attack.|
 T Blood Crystals|QID|9566|N|Get out of the cave. Turn the quest into High Chief Stillpine.|M|46.7,20.6|
 T The Kurken is Lurkin'|QID|9570|M|47.0,22.3|N|To Kurz the Revelator.|
-A The Kurken's Hide|QID|9571|M|47.0,22.3|N|From Kurz the Revelator.|
-A Warn Your People|QID|9622|N|From High Chief Stillpine.|M|46.7,20.6|
+A The Kurken's Hide|QID|9571|PRE|9570|M|47.0,22.3|N|From Kurz the Revelator.|
+A Warn Your People|QID|9622|PRE|9566;9570;9573|N|From High Chief Stillpine.|M|46.7,20.6|
 T The Kurken's Hide|QID|9571|M|44.8,23.9|N|To Moordo.|
 
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|M|35,13|S|
@@ -374,7 +384,7 @@ r Sell junk and repair|QID|9623|N|At Kioni.|M|49.69,52.75|
 F The Exodar|QID|9623|N|Fly to The Exodar. I would suggest visiting the AH and bank while you are there.|M|49.7,49.12|
 A Hero's Call: Bloodmyst Isle!|QID|28559|M|55.31,47.34|Z|The Exodar|N|Picked up from the Hero's Call Board. Will not be there if your level is too high.\n\nNOTE: If you take this, another quest "Elekks Are Serious Business" will NOT be available. The other one is better XP and reward, so I suggest you skip this one.|
 T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Head up and outside. Then turn this quest into Torallius the Pack Handler.|
-A Elekks Are Serious Business|QID|9625|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
+A Elekks Are Serious Business|QID|9625|PRE|9623|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
 R Kessel's Crossing|QID|9625|Z|Bloodmyst Isle|N|Go north to Kessel's Crossing on Bloodmyst Isle (it's a long run - just follow the path).|M|63.50,88.14|
 T Elekks Are Serious Business|QID|9625|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
 ]]

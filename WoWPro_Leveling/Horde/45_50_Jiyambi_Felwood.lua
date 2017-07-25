@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_horde
+-- Date: 2017-03-23 19:01
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3258/revisions/28434/view
+-- Date: 2017-03-15 23:32
+-- Who: Ludovicus
+-- Log: Add PREs  to JiyFel4550
+
+-- URL: http://wow-pro.com/node/3258/revisions/26460/view
 -- Date: 2014-06-02 15:27
 -- Who: Ludovicus
 
@@ -123,17 +133,17 @@ C Crying Violet|QID|28116|M|41.50,57.37|N|Can be hard to see, just keep your eye
 C Forces of Jaedenar|QID|28121|M|37,57|N|Kill Jaedenar Forces.|US|
 T Crying Violet|QID|28116|M|36.35,58.25|N|To Andalar Shadevale.|
 T Forces of Jaedenar|QID|28121|M|36.35,58.25|N|To Andalar Shadevale.|
-A Purity From Corruption|QID|28119|M|36.35,58.25|N|From Andalar Shadevale.|
+A Purity From Corruption|QID|28119|PRE|28116|M|36.35,58.25|N|From Andalar Shadevale.|
 C Purity From Corruption|QID|28119|M|35.93,59.52|N|Fill up at the moonwell.|
 T Purity From Corruption|QID|28119|M|36.35,58.25|N|To Andalar Shadevale.|
 
-A The Inner Circle|QID|28128|M|36.35,58.25|N|From Andalar Shadevale.|
-A The Demon Prince|QID|28129|M|36.35,58.25|N|From Andalar Shadevale.|
-A Dousing the Flames of Protection|QID|28126|M|36.35,58.25|N|From Andalar Shadevale.|
+A The Inner Circle|QID|28128|PRE|28119;28121|M|36.35,58.25|N|From Andalar Shadevale.|
+A The Demon Prince|QID|28129|PRE|28119;28121|M|36.35,58.25|N|From Andalar Shadevale.|
+A Dousing the Flames of Protection|QID|28126|PRE|28119;28121|M|36.35,58.25|N|From Andalar Shadevale.|
 C The Inner Circle|QID|28128|M|38.60,45.80|S|N|Kill Shadow Hold mobs.|
 C The Demon Prince|QID|28129|M|36.70,55.75|N|Kill Prince Xavalis.|
 T The Demon Prince|QID|28129|M|36.70,55.74|N|(UI Alert)|
-A Twin Temptresses|QID|28131|M|36.70,55.74|N|(UI Alert)|
+A Twin Temptresses|QID|28131|PRE|28129|M|36.70,55.74|N|(UI Alert)|
 N Extinguish the Brazier of Pain|QID|28126|QO|Extinguish the Brazier of Pain: 1/1|M|36.96,55.89|N|First Brazier is here, click on it to put it out.|
 N Extinguish the Brazier of Hatred|QID|28126|QO|Extinguish the Brazier of Hatred: 1/1|M|37.28,54.92|N|Second Brazier is here, click on it to put it out.|
 N Extinguish the Brazier of Suffering|QID|28126|QO|Extinguish the Brazier of Suffering: 1/1|M|37.38,53.16|N|This is on the level below the 2nd brazier. Third Brazier is here, click on it to put it out.|
@@ -141,10 +151,10 @@ C Dousing the Flames of Protection|QID|28126|M|38.21,52.54|N|Extinguish the last
 C Twin Temptresses|QID|28131|M|38.33,50.86|N|Kill Moora and Salia.|
 T Twin Temptresses|QID|28131|M|38.63,50.57|N|(UI Alert)|
 
-A Shadow Lord Fel'dan|QID|28153|M|38.63,50.57|N|(UI Alert)|
+A Shadow Lord Fel'dan|QID|28153|PRE|28131|M|38.63,50.57|N|(UI Alert)|
 C Shadow Lord Fel'dan|QID|28153|M|39.96,47.12|N|Time to kill Shadow Lord Fel'dan.|
 T Shadow Lord Fel'dan|QID|28153|M|39.81,47.10|N|(UI Alert)|
-A Lord Banehollow|QID|28155|M|39.81,47.10|N|(UI Alert)|
+A Lord Banehollow|QID|28155|PRE|28153|M|39.81,47.10|N|(UI Alert)|
 C Lord Banehollow|QID|28155|M|38.4,47.89|N|Head behind where you kill Fel'dan, then go up and around to Lord Banehollow and kill him.|
 C The Inner Circle|QID|28128|M|38.60,45.80|US|N|Kill Shadow Hold mobs.|
 R Wildheart Point|QID|28128|N|If finished with all quests for here you should now click the pinkish portal.|M|38.1,47.88|
@@ -185,7 +195,7 @@ A The Core of Kroshius|QID|28359|M|43.96,27.91|N|From Hurak Wildhorn.|
 h Whisperwind Grove|QID|28359|M|44.75,29.05|N|At Innkeeper Wylaria.|
 C Running Their Course|QID|28360|S|M|47.12,33.63|N|Kill the sickly looking deer in the area.|
 C Squirrely Clean|QID|28361|NC|M|45.97,35.53|N|Right-click squirrels to clean them.|
-C Running their Course|QID|28360|US|M|45.97,35.53|N|Kill the sickly looking deer in the area.|
+C Running Their Course|QID|28360|US|M|45.97,35.53|N|Kill the sickly looking deer in the area.|
 C Collecting Corruption|QID|28341|S|M|44.07,43.59|N|Kill and loot Entropic Horrors.|
 C Hunting the Damned|QID|28358|S|M|43.27,42.94|N|Kill infernals in the area. Make sure to loot them, since they can drop Infernal Debris.|
 C Fel To Pieces|QID|28342|S|NC|M|43.27,42.94|N|The infernal debris can be found on the ground, and also drops from infernals.|
@@ -211,7 +221,7 @@ C Nature and Nurture|QID|28229|U|63387|M|48.68,25.17|N|Use the moonwell water on
 T Nature and Nurture|QID|28229|M|48.68,25.17|N|The turn-in should pop up automatically.|
 
 A Seeking Soil|QID|28220|PRE|28229|M|48.68,25.17|N|The quest should pop up automatically.|
-A Buzzers for Baby|QID|28219|N|From Seedling Protector.|
+A Buzzers for Baby|QID|28219|PRE|28229|N|From Seedling Protector.|
 C Seeking Soil|QID|28220|M|48.33,29.19|N|Bring the seedling to patches of soil - they can be found to the south.|S|
 C Buzzers for Baby|QID|28219|M|50.51,31.50|N|Kill wasps and bring the seedling near their corpses. The wasps can be found all over the southern Irontree Woods.|
 C Seeking Soil|QID|28220|M|48.33,29.19|N|Bring the seedling to patches of soil - they can be found to the south.|US|
@@ -296,7 +306,7 @@ C Deadwood of the North|QID|28338|S|M|62.36,11.87|N|Kill Felpaw furbolgs in the 
 C Disarming Bears|QID|28366|S|NC|M|62.54,12.90|N|Right-click the piles of weapons around Felpaw village.|
 T Stupid Drizle!|QID|28362|M|60.63,9.57|N|To Drizle.|
 
-A The Chieftain's Key|QID|28364|M|60.60,9.55|N|From Drizle, in Felpaw Village to the west.|
+A The Chieftain's Key|QID|28364|PRE|28362|M|60.60,9.55|N|From Drizle, in Felpaw Village to the west.|
 C The Chieftain's Key|QID|28364|M|62.09,9.96|N|Kill and loot Chieftan Bloodmaw.|
 T The Chieftain's Key|QID|28364|M|60.61,9.53|N|To Drizle.|
 C Deadwood of the North|QID|28338|US|M|62.36,11.87|N|Kill Felpaw furbolgs in the area.|

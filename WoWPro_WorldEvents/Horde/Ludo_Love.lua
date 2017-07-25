@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2017-03-17 14:10
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3467/revisions/28292/view
+-- Date: 2017-03-05 18:55
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3467/revisions/27358/view
 -- Date: 2015-07-25 18:11
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -58,7 +68,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("LudoLoveH",'WorldEvents',"Love is in the Air", "Ludovicus", "Horde")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
 WoWPro:GuideIcon(guide,"ACH",1695)
 WoWPro:GuideSteps(guide, function()
@@ -71,24 +81,24 @@ A Uncommon Scents|QID|24805|LEAD|24536|M|64.30,37.55|Z|Undercity|N|From Junior D
 A Uncommon Scents|QID|24805|LEAD|24536|M|44.22,55.86|Z|Thunder Bluff|N|From Junior Detective, Thunder Bluff|
 T Uncommon Scents|QID|24805|LEAD|24536|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
-A Something Stinks|QID|24536||M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt, Orgrimmar|
+A Something Stinks|QID|24536|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt, Orgrimmar|
 C Heavily Perfumed Guards|QID|24536|Z|Orgrimmar|U|50131|N|Find the guards with the clouds and use the analyzer|
 T Something Stinks|QID|24536|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
-A Pilfering Perfume|QID|24541|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
+A Pilfering Perfume|QID|24541|PRE|24536|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
 C Pilfering Perfume|QID|24541|M|47.73,11.80|Z|Durotar|N|Run outside of Orgrimmar Gates|
 T Pilfering Perfume|QID|24541|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
-A Snivel's Sweetheart|QID|24850|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
+A Snivel's Sweetheart|QID|24850|PRE|24541|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
 T Snivel's Sweetheart|QID|24850|M|57.6,60.78|Z|Orgrimmar|N|To Roka, at the Bag Shop, in The Drag|
 
-A Hot On The Trail|QID|24851|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
+A Hot On The Trail|QID|24851|PRE|24850|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
 C Hot On The Trail|QID|24851|M|48.8,83.0|Z|Orgrimmar|N|Look for him at the Bank|QO|Orgrimmar Bank searched: 1/1|
 C Hot On The Trail|QID|24851|M|53.7,73.7|Z|Orgrimmar|N|Look for him at the Auction House|QO|Orgrimmar Auction House searched: 1/1|
 C Hot On The Trail|QID|24851|M|40.1,60.5|Z|Orgrimmar|N|Look for him at the Barber Shop|QO|Orgrimmar Barber Shop searched: 1/1|
 T Hot On The Trail|QID|24851|M|57.6,60.78|Z|Orgrimmar|N|To Roka|
 
-A A Friendly Chat...|QID|24576|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
+A A Friendly Chat...|QID|24576|PRE|24851|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
 C A Friendly Chat...|QID|24576|M|51.65,56.79|Z|Orgrimmar|N|Find Snivel Rustrocket at the Zepplin Tower|L|49915|
 T A Friendly Chat...|QID|24576|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
@@ -122,7 +132,7 @@ T A Gift for the Warchief|QID|24612|M|48.11,70.48|Z|Orgrimmar|N|To Garrosh Hells
 A A Gift for the High Chieftain|QID|24614|M|44.01,52.59|Z|Thunder Bluff|N|From Kwee Q. Peddlefeet, near the flight tower.|
 l Lovely Charm Bracelet|QID|24614|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the High Chieftain.|
 T A Gift for the High Chieftain|QID|24614|M|60.33,51.68|Z|Thunder Bluff|N|To Baine Bloodhoof.|
-A A Gift for the Banshee Queen|QID|24613|M|66.55,38.58|Z|Undercity|N|From Kwee Q. Peddlefeet, near the old throne.||
+A A Gift for the Banshee Queen|QID|24613|M|66.55,38.58|Z|Undercity|N|From Kwee Q. Peddlefeet, near the old throne.|
 l Lovely Charm Bracelet|QID|24613|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the Banshee Queen.|
 T A Gift for the Banshee Queen|QID|24613|M|58.05,91.81|Z|Undercity|N|To Lady Sylvanas Windrunner.|
 A A Gift for the Regent Lord of Quel'Thalas|QID|24615|M|64.43, 66.55|Z|Silvermoon City|N|From Kwee Q. Peddlefeet, near the Bazzar.|

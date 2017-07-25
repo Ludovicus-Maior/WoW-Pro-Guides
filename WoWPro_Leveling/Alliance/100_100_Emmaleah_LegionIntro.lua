@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_intro_guidealliance
+-- Date: 2017-04-08 16:55
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3662/revisions/28639/view
+-- Date: 2017-04-08 16:34
+-- Who: Fluclo
+-- Log: Added Non Combat tag and Chat icon where appropriate
+
+-- URL: http://wow-pro.com/node/3662/revisions/27764/view
 -- Date: 2016-09-14 08:52
 -- Who: Emmaleah
 -- Log: Added Jump to Demon Hunter Guide, added Icon File
@@ -84,33 +93,37 @@ C To Be Prepared|QID|42782|QO|2|M|29.97,34.11|Z|Stormwind City|NC|N|Click on the
 C To Be Prepared|QID|42782|QO|3|M|29.63,30.02|Z|Stormwind City|NC|N|Last meal eaten|
 C To Be Prepared|QID|42782|QO|4|M|33.74,33.27|Z|Stormwind City|N|Pick one of the NPC's in the area to duel with.|
 T To Be Prepared|QID|42782|M|18.93,26.51|Z|Stormwind City|N|To Knight Dameron.|
+
 A The Battle for Broken Shore|QID|42740|M|18.93,26.51|Z|Stormwind City|N|From Knight Dameron.|PRE|40782|
-C The Battle for Broken Shore|QID|42740|QO|1|M|19.94,29.45|Z|Stormwind City|N|Talk to Captain Angelica to take the ship to the Broken Shore|
-C The Broken Shore|QID|42740|SO|1|M|49.77,72.75|Z|Broken Shore|N|Travel to the Broken Shore.|
+C The Battle for Broken Shore|QID|42740|QO|1|M|19.94,29.45|Z|Stormwind City|N|Talk to Captain Angelica to take the ship to the Broken Shore|CHAT|
+C The Broken Shore|QID|42740|SO|1|M|49.77,72.75|Z|Broken Shore|N|Wait until you arrive on the Broken Shore.|NC|
 C Fel Lords slain|QID|42740|SO|2;2|M|47.87,68.71|Z|Broken Shore|N|Fel Lords slain|
 C Demons slain|QID|42740|SO|2;1|M|47.56,68.53|Z|Broken Shore|N|Demons slain|
 C Spires of Woe destroyed|QID|42740|SO|2;3|M|46.90,71.23|Z|Broken Shore|N|Spires of Woe destroyed|
 C Dread Commander Arganoth slain|QID|42740|SO|3;1|M|48.56,70.90|Z|Broken Shore|T|Dread Commander Arganoth|N|Dread Commander Arganoth slain|
-C Varian found|QID|42740|SO|4;1|M|38.35,47.05|Z|Broken Shore|N|Locate King Varian Wrynn.|
+C Varian found|QID|42740|SO|4;1|M|38.35,47.05|Z|Broken Shore|N|Locate King Varian Wrynn.|NC|
 C Shielded Anchors shattered.|QID|42740|SO|5;1|M|38.59,42.68|Z|Broken Shore|N|Destroy the demon portal to stop reinforcements.|
 C Raze the Black City|QID|42740|SO|6|Z|Broken Shore|N|Assault the demon city.|
-C Tirion found|QID|42740|SO|7;1|M|55.71,32.27|Z|Broken Shore|N|Find Tirion.|
+C Tirion found|QID|42740|SO|7;1|M|55.71,32.27|Z|Broken Shore|N|Find Tirion.|NC|
 C Krosus slain.|QID|42740|SO|8;1|M|55.04,32.21|Z|Broken Shore|N|Krosus slain.|T|Krosus|
 C Gul'dan confronted.|QID|42740|SO|9;1|M|58.34,27.36|Z|Broken Shore|N|Confrunt Gul'dan.|
 T The Battle for Broken Shore|QID|42740|M|20.10,34.92|Z|Stormwind City|N|To Genn Greymane.|
+
 A The Fallen Lion|QID|40517|M|20.10,34.92|Z|Stormwind City|N|From Genn Greymane.|PRE|42740|
-C The Fallen Lion|QID|40517|QO|1|M|85.56,31.82|Z|Stormwind City|NC|N|(Optional) Ride a gryphon to Stormwind Keep.|
-C The Fallen Lion|QID|40517|QO|2|M|85.90,31.60|Z|Stormwind City|CHAT|N|Deliver Varian's letter and listen to King Anduin.|
+C The Fallen Lion|QID|40517|QO|1|M|85.56,31.82|Z|Stormwind City|NC|N|Mount a Gryphon to take you to Stormwind Keep (or fly up on your own mount)|
+C The Fallen Lion|QID|40517|QO|2|M|85.90,31.60|Z|Stormwind City|CHAT|N|Speak to Anduin Wrynn and deliver the letter, then read the chat (or wait for the dialog to play out).|
 T The Fallen Lion|QID|40517|M|85.90,31.60|Z|Stormwind City|N|To Anduin Wrynn.|
+
 A Demons Among Us|QID|40593|M|85.30,32.30|Z|Stormwind City|N|From Jace Darkweaver.|PRE|40517|
+C Demons Among Us|QID|40593|QO|1|M|85.30,32.30|Z|Stormwind City|N|Speak to Jace Darkweaver and ask him for the proof.|CHAT|
 C Demons Among Us|QID|40593|QO|2|M|80.51,35.27|Z|Stormwind City|N|Kill infiltrators.|S|
-C Demons Among Us|QID|40593|QO|1|M|85.30,32.30|Z|Stormwind City|N|Learn what Jace Darkweaver knows about demons.|CHAT|
-C Demons Among Us|QID|40593|QO|4|M|80.59,33.38|Z|Stormwind City|NC|N|Destroy the Petitioner's Chamber Legion Portal.|
+C Demons Among Us|QID|40593|QO|4|M|80.59,33.38|Z|Stormwind City|NC|N|Destroy the Petitioner's Chamber Legion Portal (down the hall, then to the right).|
 C Demons Among Us|QID|40593|QO|3|M|82.40,28.03|Z|Stormwind City|NC|N|Destroy the Courtyard Legion Portal.|
-C Demons Among Us|QID|40593|QO|2|M|80.51,35.27|Z|Stormwind City|N|Kill infiltrators.|US|
+C Demons Among Us|QID|40593|QO|2|M|80.51,35.27|Z|Stormwind City|N|Finish killing the infiltrators.|US|
 T Demons Among Us|QID|40593|M|85.76,31.75|Z|Stormwind City|N|To Anduin Wrynn.|
+
 A Illidari Allies|QID|44120|M|85.76,31.75|Z|Stormwind City|N|From Anduin Wrynn.|PRE|40593|
-T Illidari Allies|QID|44120|M|40.26,77.70|Z|Stormwind City|N|To Elerion Bladedancer.|
+T Illidari Allies|QID|44120|M|40.26,77.70|Z|Stormwind City|N|To Elerion Bladedancer, located just outside the Mage Quarter.|
 A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|

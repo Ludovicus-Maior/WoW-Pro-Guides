@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3628
+-- Date: 2017-03-23 17:46
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3628/revisions/28329/view
+-- Date: 2017-03-10 23:32
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3628/revisions/27481/view
 -- Date: 2016-07-30 16:05
 -- Who: Ludovicus
 -- Log: Spell AVAILABLE right
@@ -155,8 +165,8 @@ T The Assault Base |QID|38445|N|To Exarch Yrel, inside The Lion's Den|M|58.5,60.
 T The Assault Base |QID|37935|N|To Draka, inside Vol'mar Hold|M|61.53,45.80|FACTION|Horde|
 
 ;; Now lets unlock the dailies
-A The Battle for the West |QID|38581|M|58.5,60.35|N|From Exarch Yrel|FACTION|Alliance|
-A The Battle for the West |QID|38577|M|61.53,45.80|N|From Draka|FACTION|Horde|
+A The Battle for the West |QID|38581|PRE|38445|M|58.5,60.35|N|From Exarch Yrel|FACTION|Alliance|
+A The Battle for the West |QID|38577|PRE|37935|M|61.53,45.80|N|From Draka|FACTION|Horde|
 C Skyguard Thann           |QID|38581|CHAT|QO|1|N|Ask Thann for a ride to the Iron Front.  |M|57.50,58.75|FACTION|Alliance|
 C Gargash the Flightmaster |QID|38577|CHAT|QO|1|N|Ask Gargash for a ride to the Iron Front.|M|60.40,46.45|FACTION|Horde|
 f The Iron Front |QID|38581|ACTIVE|38581|M|10.03, 53.06|N|Get the flight point from Skyguard Blann.|FACTION|Alliance|
@@ -196,13 +206,13 @@ T Following the Bloody Path |QID|38271|M|32.58,37.45|N|To Ariok|
 A The Bleeding Hollow |QID|38272|PRE|38271|M|32.58,37.45|N|From Ariok|
 A Spirits of the Bleeding Hollow |QID|38273|PRE|38271|ACTIVE|38272|M|32.42,37.40|N|From the Orc Skull|
 C Slay Enraged Blood Spirits |QID|38273|QO|1|S|
-C The Bottom of the Bleeding Hollow|QID|38273|N|Take the spiral path down to the bottom. Kill spirits along the way.|
+C Spirits of the Bleeding Hollow|QID|38273|N|Take the spiral path down to the bottom. Kill spirits along the way.|
 C Slay Enraged Blood Spirits |QID|38273|QO|1|US|
 T Spirits of the Bleeding Hollow |QID|38273|M|32.42,37.40|N|From the Orc Skull|
 T The Bleeding Hollow |QID|38272|M|32.44,37.32|N|Head down to the bottom and take the exit on the left.|
 A The Eye of Kilrogg |QID|38274|PRE|38273|M|32.44,37.32|N|Chieftains|
-C Eye of Kilrogg|QID|38274|QO|1|N|Click on the stones on the cave walls. Kill Mob, loot the eye. Rinse, repeat. The sixth eye should be the Eye of Kilrogg|
-C Eye of Kilrogg|QID|38274|M|32.53,36.86|QO|2|N|Click on the skull in the stone floor. Watch the scene and kill the eye.|
+C The Eye of Kilrogg|QID|38274|QO|1|N|Click on the stones on the cave walls. Kill Mob, loot the eye. Rinse, repeat. The sixth eye should be the Eye of Kilrogg|
+C The Eye of Kilrogg|QID|38274|M|32.53,36.86|QO|2|N|Click on the skull in the stone floor. Watch the scene and kill the eye.|
 T The Eye of Kilrogg |QID|38274|M|32.80,37.49|N|From Ariok|
 
 ;a Garrison Campaign: In the Shadows|QID|37687|FACTION|Alliance|
@@ -271,7 +281,7 @@ T Shipyard Report|QID|39422|N|To Merreck Vonder at your shipyard. Use your Garri
 T Shipyard Report|QID|39423|N|To Rolash Wavechaser at your shipyard. Use your Garrison Hearthstone (or fly back to your garrison)|M|41.60,72.30|Z|Frostfire Ridge|FACTION|Horde|U|110560|
 
 A Naval Commander|QID|39056|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
-A Naval Commander|QID|39243|N|From Rolash Wavechaser|M|41.60,72.30|FACTION|Horde|
+A Naval Commander|QID|39243|PRE|37889|N|From Rolash Wavechaser|M|41.60,72.30|FACTION|Horde|
 C Naval Commander|QID|39056|QO|1|N|Merreck Vonder has gone up the stairs. Head to him.|M|28.20,11.70|NC|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 C Naval Commander|QID|39243|QO|1|N|Rolash Wavechaser has gone up the path. Head to him.|M|42.08,71.03|NC|Z|Frostfire Ridge|FACTION|Horde|
 C Naval Commander|QID|39056|QO|2|N|Click on the Fleet Command Table and start the Supply Pickup mission.|M|28.20,11.70|NC|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
@@ -280,8 +290,8 @@ C Naval Commander|QID|39056;39243|QO|3|N|Wait one minute for the mission to comp
 T Naval Commander|QID|39056|N|To Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 T Naval Commander|QID|39243|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
-A Destroying the Competition |QID|39404|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
-A Destroying the Competition |QID|39401|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
+A Destroying the Competition |QID|39404|PRE|39056|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+A Destroying the Competition |QID|39401|PRE|39243|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 C Destroying the Competition |QID|39404;39401|QO|1|N|Learn Ship Blueprint: Destroyer from the plans in your inventory.|U|126900|NC|
 C Destroying the Competition |QID|39404|QO|2|N|Speak to Yanas Seastrike and ask to build a destroyer. Wait one minute, then collect it.|NC|M|29.83,10.70|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 C Destroying the Competition |QID|39401|QO|2|N|Speak to Solog Roark and ask to build a destroyer. Wait one minute, then collect it.|NC|M|40.72,70.25|Z|Frostfire Ridge|FACTION|Horde|
@@ -290,40 +300,40 @@ C Destroying the Competition |QID|39401|QO|3|N|Head back up to the Fleet Command
 T Destroying the Competition |QID|39404|N|To Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 T Destroying the Competition |QID|39401|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
-A If At First You Fail, Try Again! |QID|39655|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+A If At First You Fail, Try Again! |QID|39655|PRE|39404|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 C If At First You Fail, Try Again! |QID|39655|QO|1|N|Speak to Yanas Seastrike and ask to build a destroyer. Wait one minute, then collect it.|NC|M|29.83,10.70|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 C If At First You Fail, Try Again! |QID|39655|QO|2|N|Head back up to the Fleet Command Table, Click on it and start "The Second Time is the Charm".|M|28.20,11.70|NC|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 T If At First You Fail, Try Again! |QID|39655|N|To Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 
-A If At First You Fail, Try Again! |QID|39674|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
+A If At First You Fail, Try Again! |QID|39674|PRE|39401|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 C If At First You Fail, Try Again! |QID|39674|QO|1|N|Speak to Solog Roark and ask to build a destroyer. Wait one minute, then collect it.|NC|M|40.72,70.25|Z|Frostfire Ridge|FACTION|Horde|
 C If At First You Fail, Try Again! |QID|39674|QO|2|N|Head back up to the Fleet Command Table, Click on it and start "The Second Time is the Charm".|M|42.05,70.95|NC|Z|Frostfire Ridge|FACTION|Horde|
 T If At First You Fail, Try Again! |QID|39674|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
-A Equipping Our Fleet |QID|39666|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+A Equipping Our Fleet |QID|39666|PRE|39655|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 C Equipping Our Fleet |QID|39666|QO|1|N|Find Salty Jorren on the docks and chat with him.|NC|M|28.68,10.85|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 C Equipping Our Fleet |QID|39666|QO|2|N|Find the blueprints.|NC|M|28.91,9.60|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 T Equipping Our Fleet |QID|39666|N|To Salty Jorren|M|28.68,10.85|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 
-A Equipping Our Fleet |QID|39675|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
+A Equipping Our Fleet |QID|39675|PRE|39674|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 C Equipping Our Fleet |QID|39675|QO|1|N|Find Kronk Rustspark on the docks and chat with him.|NC|M|40.04,72.22|Z|Frostfire Ridge|FACTION|Horde|
 C Equipping Our Fleet |QID|39675|QO|2|N|Find the blueprints.|NC|M|38.43,72.74|Z|Frostfire Ridge|FACTION|Horde|
 T Equipping Our Fleet |QID|39675|N|To Kronk Rustspark|M|40.04,72.22|Z|Frostfire Ridge|FACTION|Horde|
 
-A A True Naval Commander |QID|39665|N|From Salty Jorren|M|28.68,10.85|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+A A True Naval Commander |QID|39665|PRE|39666|N|From Salty Jorren|M|28.68,10.85|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 C A True Naval Commander |QID|39665|QO|1|N|Head back up to the Fleet Command Table, Click on it and replace the Felsmoke Launcher with the Blast Furnace.|M|28.20,11.70|NC|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 C A True Naval Commander |QID|39665|QO|1|N|Head back up to the Fleet Command Table, Click on it and start "Naval Blockade Mission: South Sea".|M|28.20,11.70|NC|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 T A True Naval Commander |QID|39665|N|To Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 
-A A True Naval Commander |QID|39676|N|From Kronk Rustspark|M|40.04,72.22|Z|Frostfire Ridge|FACTION|Horde|
+A A True Naval Commander |QID|39676|PRE|39675|N|From Kronk Rustspark|M|40.04,72.22|Z|Frostfire Ridge|FACTION|Horde|
 C A True Naval Commander |QID|39676|QO|1|N|Head back up to the Fleet Command Table, Click on it and replace the Felsmoke Launcher with the Blast Furnace.|M|42.05,70.95|NC|Z|Frostfire Ridge|FACTION|Horde|
 C A True Naval Commander |QID|39676|QO|1|N|Head back up to the Fleet Command Table, Click on it and start "Naval Blockade Mission: South Sea".|M|42.05,70.95|NC|Z|Frostfire Ridge|FACTION|Horde|
 T A True Naval Commander |QID|39676|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
-A Upgrading The Fleet |QID|39067|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
-A Upgrading The Fleet |QID|39245|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
-A I Sunk Your Battleship |QID|39601|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
-A I Sunk Your Battleship |QID|39604|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
+A Upgrading The Fleet |QID|39067|PRE|39056|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+A Upgrading The Fleet |QID|39245|PRE|39676|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
+A I Sunk Your Battleship |QID|39601|PRE|39056|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+A I Sunk Your Battleship |QID|39604|PRE|39676|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
 A Gems of the Apexis |QID|39175|N|From Baros Alexston|M|29.23,33.12|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|P|Jewelcrafting;755|
 A Gems of the Apexis |QID|39175|N|From Gazlowe|M|42,55|Z|Shadowmoon Valley@Draenor|FACTION|Horde|P|Jewelcrafting;755|
@@ -343,8 +353,8 @@ C Upgrading The Fleet |QID|39067;39245|QO|3|N|You will need to collect 1,000 gol
 T Upgrading The Fleet |QID|39067|N|To Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 T Upgrading The Fleet |QID|39245|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
-A Naval Domination |QID|39068|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
-A Naval Domination |QID|39246|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
+A Naval Domination |QID|39068|PRE|39067|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+A Naval Domination |QID|39246|PRE|39245|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 C Naval Domination |QID|39068;39246|QO|1|N|You need to complete 25 Naval Treasure Missions.|NC|S|
 K Belgork|AVAILABLE|38932|M|34.9,47.1|N|Equipment Blueprint: Bilge Pump|T|Belgork|
 K Felsmith Damorka|AVAILABLE|39366|M|45.7,47.0|N|Equipment Blueprint: Felsmoke Launchers|T|Felsmith Damorka|

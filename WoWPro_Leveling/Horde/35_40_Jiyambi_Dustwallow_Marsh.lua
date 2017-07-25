@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2017-03-15 23:26
+-- Who: Ludovicus
+-- Log: Added PREs to JiyDus3540
+
+-- URL: http://wow-pro.com/node/3242/revisions/26451/view
 -- Date: 2014-06-02 15:13
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -94,11 +99,11 @@ A The Black Shield|RANK|1|QID|27255|PRE|27254|M|36.39,31.82|N|From Krog.|
 A A Shambling Threat|RANK|1|QID|26682|M|36.39,31.82|N|From Krog.|
 A Darkmist Extermination|RANK|1|QID|25051|M|36.39,31.82|N|From Krog.|
 A Inspecting the Ruins|RANK|3|QID|27253|M|36.39,31.82|N|From Krog.|
-A Talk to Ogron|RANK|1|QID|27306|M|36.39,31.82|N|From Krog.|
+A Talk to Ogron|RANK|1|QID|27306|PRE|27260|M|36.39,31.82|N|From Krog.|
 h Brackenwall Village|RANK|1|QID|27182|M|36.88,32.27|N|If you'd like, set your hearth at "Little" Logok.|
 A The Hermit of Witch Hill|RANK|1|QID|27182|M|37.11,33.01|N|From Draz'Zilb.|
 T The Black Shield|RANK|1|QID|27255|M|36.54,30.86|N|To Do'gol.|
-A The Black Shield|RANK|1|QID|27256|M|36.54,30.86|N|From Do'gol.|
+A The Black Shield|RANK|1|QID|27256|PRE|27255|M|36.54,30.86|N|From Do'gol.|
 
 C Theramore Spies|RANK|2|QID|1201|M|42.13,26.02|S|N|Kill Theramore Infiltators.|
 C A Shambling Threat|RANK|1|QID|26682|M|40.54,19.85|N|Kill the large elementals north-east of the village.|
@@ -106,7 +111,7 @@ C Twilight of the Dawn Runner|RANK|1|QID|9437|NC|M|46.63,24.50|N|Talk to the Blo
 T Talk to Ogron|RANK|1|QID|27306|M|41.02,36.68|N|To Ogron. He's a little ways out of the village.|
 A Questioning Reethe|RANK|1|QID|27261|PRE|27306|M|41.02,36.68|N|From Ogron.|
 C Questioning Reethe|RANK|1|QID|27261|M|42.63,38.10|N|Stay with the ogre. You'll end up fighting a group of three humans, so be prepared and pop cooldowns if you need them!|
-C Theramore Spies|RANK|2|QID|1201|M|42.13,26.02|US|N|They can be found north-east of the village.
+C Theramore Spies|RANK|2|QID|1201|M|42.13,26.02|US|N|They can be found north-east of the village.|
 
 T Questioning Reethe|RANK|1|QID|27261|M|36.48,31.83|N|To Krog.|
 T A Shambling Threat|RANK|1|QID|26682|M|36.48,31.84|N|To Krog.|
@@ -212,7 +217,7 @@ C The Grimtotem Weapon|RANK|1|QID|27336|U|33101|M|41.83,55.75|N|Use the totem ne
 C The Reagent Thief|RANK|1|QID|27339|M|43.59,54.22|US|N|From spiders and dragonhawks throughout the swamp.|
 
 T Raze Direhorn Post!|RANK|2|QID|27296|M|46.00,57.11|N|To Tabetha, back at Tabetha's house.|
-A Justice Dispensed|RANK|2|QID|27297|M|46.00,57.11|N|From Tabetha.|
+A Justice Dispensed|RANK|2|QID|27297|PRE|27296|M|46.00,57.11|N|From Tabetha.|
 T The Grimtotem Weapon|RANK|1|QID|27336|M|46.02,57.19|N|To Apprentice Garion.|
 T The Reagent Thief|RANK|1|QID|27339|M|46.02,57.19|N|To Apprentice Garion.|
 T Direhorn Raiders|RANK|1|QID|27340|M|46.10,57.45|N|To Apprentice Morlann.|

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_first_aid
+-- Date: 2017-03-06 03:11
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3410/revisions/28194/view
+-- Date: 2017-01-02 22:37
+-- Who: Ludovicus
+-- Log: New style registration
+
+-- URL: http://wow-pro.com/node/3410/revisions/27441/view
 -- Date: 2016-03-23 02:11
 -- Who: Ludovicus
 -- Log: Line 28 in guide TwiFirstAid has only 1 sections.
@@ -21,7 +31,11 @@
 -- Date: 2011-06-30 05:56
 -- Who: Crackerhead22
 
-WoWPro.Profession:RegisterGuide('TwiFirstAid', 'First Aid', 'First Aid', 'Twists', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("TwiFirstAid","Profession","First Aid", "Twists", "Neutral")
+WoWPro:GuideIcon(guide,"PRO",129)
+WoWPro:GuideLevels(guide)
+WoWPro:GuideName(guide, "First Aid")
+WoWPro:GuideSteps(guide, function()
 return [[
 N Learn Apprentice First Aid|QID|901290000|P|First Aid;129;*;0;75|N|Learn from a Trainer in any major city.|
 N Linen Bandage|QID|901290001|P|First Aid;129;1;40;|N|1;Linen Cloth;50;170|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2017-03-10 23:24
+-- Who: Ludovicus
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3501/revisions/27171/view
 -- Date: 2015-03-09 19:23
 -- Who: Ludovicus
 -- Log: Got rid of empty |N|| tags
@@ -135,7 +140,7 @@ C Spirit Dust|QID|31116|N|Continue killing and looting defiled spirits for their
 
 ;This doesn't appear when you follow the guide, probably because nothing dropped for me.
 C The Deadtalker Cipher|QID|31118|N|This should drop while you are killing the Deadtalkers for Assult Deadtaker's Plateau. Keep killing those mobs until it drops. Also drops off the silver elite Uruk.|
-T The Deadtalker Cipher|QID|31118|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.
+T The Deadtalker Cipher|QID|31118|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|
 
 C Assault Deadtalker's Plateau|QID|31114|M|51,53|US|N|Finish killing the Deadtalkers.|
 T Assault Deadtalker's Plateau|QID|31114|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|

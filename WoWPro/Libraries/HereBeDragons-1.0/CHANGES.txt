@@ -1,25 +1,18 @@
-tag 14169cebab0fff47eab4bc3f7d121335ec9493e1 1.16-release
+tag ee907dbe6b62a4b192ea237385dd5f411608e718 1.18-release
 Author:	Hendrik Leppkes <h.leppkes@gmail.com>
-Date:	Fri Dec 2 17:52:43 2016 +0100
+Date:	Tue Mar 28 17:21:16 2017 +0200
 
-Tag as 1.16-release
+Tag as 1.18-release
 
-commit f3e90ea271e541384da6d9fe2add7cdf56644f3b
+commit ac446f43eea7ebcda260b65752a8618e0393541a
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Fri Dec 2 17:51:52 2016 +0100
+Date:   Tue Mar 28 17:20:58 2017 +0200
 
-    Add instance id override for the suramar invasion scenario
+    Update TOC for 7.2
 
-commit 99818b5e5b3979435f01712c108738de6fb6ec21
+commit b4c0acc282afcc01b6ca626a55a322945356f37b
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Sun Nov 20 11:54:08 2016 +0100
+Date:   Mon Feb 27 08:51:01 2017 +0100
 
-    Fix map info for the dreamgrove and true shot lodge on first login
-    
-    These maps can only be opened when you are on the appropriate class,
-    which unfortunately also means that right during login they are not
-    accessible yet until the game figures out which class you are.
-    
-    The only missing/wrong info in these cases is the C/Z information, so
-    exempt them from the remapping code and hardcode the correct Z.
+    Add Havoc Demon Hunter artifact scenario mapping
 

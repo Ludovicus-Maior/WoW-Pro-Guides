@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2017-03-17 00:24
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3307/revisions/28279/view
+-- Date: 2017-03-05 18:41
+-- Who: Ludovicus
+-- Log: Add Horde PRE for [The Maelstrom]
+
+-- URL: http://wow-pro.com/node/3307/revisions/26900/view
 -- Date: 2014-11-08 03:05
 -- Who: Emmaleah
 -- Log: delete 2 dup M tags per list o' errors
@@ -195,11 +205,11 @@ T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|Stormwind City|N|If you have it
 A Warchief's Command: Deepholm!|QID|27722|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
 T Warchief's Command: Deepholm!|QID|27722|M|50.30,38.24|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
 
-A The Maelstrom|QID|27203|PRE|27727|Z|The Maelstrom|M|74.5,19.3|N|From Naraat the Earthspeaker.|
+A The Maelstrom|QID|27203|PRE|27722+27727|Z|The Maelstrom|M|74.5,19.3|N|From Naraat the Earthspeaker.|
 T The Maelstrom|QID|27203|M|33.2,50.2|Z|The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
 A Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|PRE|27203|M|33.2,50.2|N|From Thrall.|
 C Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|M|33.2,50.2|N|Hop on the Wyvern behind you.|
-T Deepholm, Realm of Earth|QID|27123|Z|Deepholm|M|49.6,53|N|To Maruut Stonebinder.
+T Deepholm, Realm of Earth|QID|27123|Z|Deepholm|M|49.6,53|N|To Maruut Stonebinder.|
 A Gunship Down|QID|26245|PRE|27123|M|49.6,53|N|From Maruut Stonebinder.|
 A Elemental Energy|QID|27136|PRE|27123|M|49.7,53|N|From Seer Kormo.|
 A The Earth Claims All|QID|26244|PRE|27123|M|49.7,53|N|From Seer Kormo.|
@@ -236,7 +246,7 @@ T Without a Captain or Crew|QID|26427|RANK|2|M|64,46.2|N|To First Mate Moody.|
 T Take No Prisoners|QID|26251|M|62.2,47|N|To Stormcaller Mylra.|
 T On Second Thought, Take One Prisoner|QID|26250|M|62.2,47|N|To Stormcaller Mylra.|
 A Some Spraining to Do|QID|26254|PRE|26250|M|62.2,47|N|From Stormcaller Mylra.|
-T Some Spraining to Do||QID|26254|M|62.2,47|N|Hop on Stormbeak the gryphon. After the event, turn in.|
+T Some Spraining to Do|QID|26254|M|62.2,47|N|Hop on Stormbeak the gryphon. After the event, turn in.|
 A Return to the Temple of Earth|QID|26255|PRE|26254|M|62.2,47|N|From Stormcaller Mylra.|
 T Return to the Temple of Earth|QID|26255|M|49.6,53|N|Fly back to the Temple of Earth. To Maruut Stonebinder.|
 A Deathwing's Fall|QID|26258|PRE|26255|M|49.6,53|N|From Maruut Stonebinder.|
@@ -273,9 +283,9 @@ C Maziel's Ascendancy|QID|27102|RANK|2|M|69.37,68.20;72.79,61.98|CS|N|Maziel is 
 T Maziel's Ascendancy|QID|27102|RANK|2|M|72.26,62.22|N|(UI Alert)|
 T The Twilight Overlook|QID|27061|M|64.47,82.23|N|To Stormcaller Mylra.|
 
-A Big Game, Big Bait|QID|26766|PRE|27061||M|64.47,82.23|N|From Stormcaller Mylra.|
+A Big Game, Big Bait|QID|26766|PRE|27061|M|64.47,82.23|N|From Stormcaller Mylra.|
 A To Catch a Dragon|QID|26768|PRE|27061|M|64.47,82.23|N|From Stormcaller Mylra.|
-A Into the Stonecore|QID|28866|M|64.47,82.23|N|From Stormcaller Mylra.|
+A Into the Stonecore|QID|28866|PRE|27061|M|64.47,82.23|N|From Stormcaller Mylra.|
 C Big Game, Big Bait|QID|26766|S|U|60382|M|56.30,85.57|N|Kill 5 Jadecrest Basilisk and use Mylra's Knife on their corpses.|
 C To Catch a Dragon|QID|26768|M|55.77,88.58|N|Find and kill Twilight Dragonstalkers until you get a Twilight Snare.|
 C Big Game, Big Bait|QID|26766|US|U|60382|M|56.30,85.57|N|Kill 5 Jadecrest Basilisk and use Mylra's Knife on their corpses.|
@@ -313,8 +323,8 @@ A To Stonehearth's Aid|QID|26484|PRE|26413|M|49.54,53.44|N|From Earthcaller Yeva
 T To Stonehearth's Aid|QID|26484|M|27.89,68.71|N|Fly to Stonehearth. Find Crag Rockcrusher.|
 A The Quaking Fields|QID|27931|PRE|26484|M|27.89,68.71|N|From Crag Rockcrusher, if this quest still exists.|
 T The Quaking Fields|QID|27931|M|30.71,77.75|N|To Slate Quicksand.|
-A The Axe of Earthly Sundering|QID|27932|M|30.71,77.75|N|From Slate Quicksand.|
-A Elemental Ore|QID|27933|M|30.71,77.75|N|From Slate Quicksand.|
+A The Axe of Earthly Sundering|QID|27932|PRE|27931|M|30.71,77.75|N|From Slate Quicksand.|
+A Elemental Ore|QID|27933|PRE|27931|M|30.71,77.75|N|From Slate Quicksand.|
 C Elemental Ore|QID|27933|S|M|35.41,79.06|N|Kill Jade Ragers in the area until you get 6 Elemental Ore.|
 C The Axe of Earthly Sundering|QID|27932|U|60490|M|38.96,85.86|N|Find an Emerald Colossus and use The Axe of Earthly Sundering. It will turn into a Sundered Emerald Colossus, which if far easier to kill.|
 C Elemental Ore|QID|27933|US|M|35.41,79.06|N|Kill Jade Ragers in the area until you get 6 Elemental Ore.|
@@ -356,7 +366,7 @@ T Shatter Them!|QID|26537|M|24.52,62.41|N|To Gravel Longslab.|
 A Troggzor the Earthinator|QID|26625|PRE|26537;26564;26591|M|24.52,62.41|N|From Gravel Longslab.|
 C Troggzor the Earthinator|QID|26625|M|22.51,56.74|N|Troggzor is located on a small rise. Kill him and loot The Earthinator's Cudgel.|
 T Troggzor the Earthinator|QID|26625|M|24.52,62.40|N|To Gravel Longslab.|
-A Rush Delivery|QID|27126|M|24.72,62.17|N|From Clay Mudaxle.|
+A Rush Delivery|QID|27126|PRE|26625|M|24.72,62.17|N|From Clay Mudaxle.|
 T Rush Delivery|QID|27126|M|20.77,61.56|N|To Peak Grindstone.|
 A Close Escort|QID|26632|PRE|27126|M|20.69,61.59|N|From Peak Grindstone.|
 C Close Escort|QID|26632|N|This is a standard escort quest. Just follow the catapult as it works its way to your destination.|
@@ -390,7 +400,7 @@ T The Hero Returns|QID|27937|M|28,68.6|N|To Stonefather Oremantle.|
 A The Middle Fragment|QID|27938|PRE|27937|M|28,68.6|N|From Stonefather Oremantle.|
 C The Middle Fragment|QID|27938|M|28,68.72|N|In The Stonefather's Safe, right behind Oremantle.|
 T The Middle Fragment|QID|27938|M|49.5,53.3|N|To Earthcaller Yevaa.|
-A The Very Earth Beneath Our Feet|QID|26326|RANK|1|M|49.6,53|N|From Maruut Stonebinder.|
+A The Very Earth Beneath Our Feet|QID|26326|PRE|27938;26876|RANK|1|M|49.6,53|N|From Maruut Stonebinder.|
 T The Very Earth Beneath Our Feet|QID|26326|M|46.1, 45.7|N|To Earthcaller Torunscar.|
 A Crumbling Defenses|QID|26312|PRE|26326|M|46.1,45.7|N|From Earthcaller Torunscar.|
 A On Even Ground|QID|26314|PRE|26326|M|46.1,45.7|N|From Earthcaller Torunscar.|
@@ -563,7 +573,7 @@ T The Wrong Sequence|QID|27058|PRE|27040|M|47.4,51.4|N|To Explorer Mowi.|FACTION
 A That's No Pyramid!|QID|28292|PRE|27058|M|47.4,51.4|N|From Explorer Mowi.|FACTION|Alliance|
 R Stormwind City|QID|28292|M|48.53,53.84|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Stormwind.|FACTION|Alliance|
 T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|Stormwind City|N|To Harrison Jones.|FACTION|Alliance|
-A Meetup with the Caravan|QID|28295|N|From Harrison Jones.|M|85.77,25.85|Z|Stormwind City|FACTION|Alliance|
+A Meetup with the Caravan|QID|28295|PRE|28292|N|From Harrison Jones.|M|85.77,25.85|Z|Stormwind City|FACTION|Alliance|
 F Booty Bay|QID|28295|Z|Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|FACTION|Alliance|
 b Ratchet|QID|28295|Z|The Cape of Stranglethorn|M|39,67|N|Take the boat to Ratchet.|FACTION|Alliance|
 F Southmoon Ruins|QID|28295|Z|Tanaris|M|69.13,70.70|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
@@ -575,23 +585,23 @@ C The Twilight Plot|QID|27005|M|41.00,69.00|N|Kill Twilight Cultist in the area 
 C Fly Over|QID|27008|M|39.10,73.90|N|Fly to the Titan Waygate.|FACTION|Horde|
 T The Twilight Plot|QID|27005|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
 T Fly Over|QID|27008|M|51.20,50.10|N|To Reliquary Jes'ca Darksun.|FACTION|Horde|
-A Fight Fire and Water and Air with...|QID|27043|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
-A Decryption Made Easy|QID|27041|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
+A Fight Fire and Water and Air with...|QID|27043|PRE|27005;27008|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
+A Decryption Made Easy|QID|27041|PRE|27005;27008|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 C Decryption Made Easy|S|QID|27041|N| Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Horde|
 N Water Ward|QID|27043|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental to get the Water Ward.|FACTION|Horde|
 N Fire Ward|QID|27043|M|36.10,67.40|QO|Fire Ward acquired: 1/1|N|Kill the Bound Fire Elemental to get the Fire Ward.|FACTION|Horde|
 N Air Ward|QID|27043|M|40.50,72.40|QO|Air Ward acquired: 1/1|N|Kill the Bound Air Elemental to get the Air Ward.|FACTION|Horde|
 C Decryption Made Easy|US|QID|27041|N| Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Horde|
 T Decryption Made Easy|QID|27041|N|When you finish a Quest Complete notification will appear. Click it.|FACTION|Horde|
-A The Wrong Sequence|QID|27059|N|You will be automatically offered the follow-up.|FACTION|Horde|
+A The Wrong Sequence|QID|27059|PRE|27041|N|You will be automatically offered the follow-up.|FACTION|Horde|
 C The Wrong Sequence|QID|27059|M|39.13,73.86|N|Go to the Waygate, use the Waygate Contoller located directly in front of the Waygate to destroy it.|FACTION|Horde|
 C Fight Fire and Water and Air with...|QID|27043|M|40.00,62.20|QO|Haethen Kaul slain: 1/1|N|Floating platform above the Twilight Terrace.|FACTION|Horde|
 T Fight Fire and Water and Air with...|QID|27043|N|To Reliquary Jes'ca Darksun.|FACTION|Horde|
 T The Wrong Sequence|QID|27059|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
-A That's No Pyramid!|QID|28293|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
+A That's No Pyramid!|QID|28293|PRE|27059|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 R Orgrimmar|QID|28293|M|50.94,53.1|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Orgimmar.|FACTION|Horde|
 T That's No Pyramid!|QID|28293|M|49.00,71.00|Z|Orgrimmar|N|To Belloc Brightblade.|FACTION|Horde|
-A Meetup with the Caravan|QID|28296|M|49.00,71.00|Z|Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
+A Meetup with the Caravan|QID|28296|PRE|28293|M|49.00,71.00|Z|Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
 T Warchief's Command: Uldum!|QID|28557|O|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|FACTION|Horde|
 T Meetup with the Caravan|QID|28296|O|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|FACTION|Horde|
 

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_horde
+-- Date: 2017-03-17 14:14
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3444/revisions/28287/view
+-- Date: 2017-03-05 18:54
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3444/revisions/27364/view
 -- Date: 2015-07-25 18:18
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -48,7 +58,7 @@
 -- Who: Crackerhead22
 
 local guide = WoWPro:RegisterGuide("LudoPilBountyH",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Horde")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
 WoWPro:GuideIcon(guide,"ACH",3478)
 WoWPro:GuideSteps(guide, function()
@@ -85,14 +95,14 @@ T Spice Bread Stuffing|QID|14037|M|65.24,14.22|Z|Undercity|N|To William Mullins,
 
 B Buy Ripe Tirisfal Pumpkin|QID|14037|L|46796 10|N|You need 10 Pumpkins|QO|Pumpkin Pie: 5/5|
 U Recipe: Pumpkin Pie|QID|14037|U|46804|N|Learn to cook Pie, close off when done.|
-A Pumpkin Pie|QID|14040|M|65.24,14.22|Z|Undercity|N|From William Mullins, Undercity.|
+A Pumpkin Pie|QID|14040|PRE|14037|M|65.24,14.22|Z|Undercity|N|From William Mullins, Undercity.|
 l Pumpkin Pie|QID|14040|N|Cook up some pie|QO|Pumpkin Pie: 5/5|
 
 ; Back to Durotar
 b Orgrimmar|QID|14040|M|60.71,58.74|Z|Tirisfal Glades|N|Take the zepplin to Orgrimmar|
 T Pumpkin Pie|QID|14040|M|46.58,13.79|Z|Durotar|N|To Francis Eaton, Durotar|
 U Recipe: Cranberry Chutney|QID|14037|U|46805|N|Lean to cook Chutney, close off when done.|
-A Cranberry Chutney|QID|14041|M|6.58,13.79|Z|Durotar|N|From Francis Eaton, Durotar|
+A Cranberry Chutney|QID|14041|PRE|14040|M|6.58,13.79|Z|Durotar|N|From Francis Eaton, Durotar|
 B Buy Tangy Southfury Cranberries|QID|14041|M|46.62,13.79|Z|Durotar|L|46793 10|N|Buy 10 Cranberries from the Dalni Tallgrass.|
 l Cranberry Chutney|QID|14041|N|Cook up some Chutney|QO|Cranberry Chutney: 5/5|
 
@@ -100,7 +110,7 @@ l Cranberry Chutney|QID|14041|N|Cook up some Chutney|QO|Cranberry Chutney: 5/5|
 b Thunder Bluff|QID|14041|M|43.04,65.00|Z|Orgrimmar|N|Take the zepplin to Thunder Bluff, or fly.|
 T Cranberry Chutney|QID|14041|M|30.86,63.69|Z|Thunder Bluff|N|To Dokin Farplain, Thunder Bluff|
 U Recipe: Candied Sweet Potato|QID|14037|U|46806|N|Learn to cook Yams, close off when done.|
-A Candied Sweet Potatoes|QID|14043|M|30.86,63.69|Z|Thunder Bluff|N|From Dokin Farplain, Thunder Bluff|
+A Candied Sweet Potatoes|QID|14043|PRE|14041|M|30.86,63.69|Z|Thunder Bluff|N|From Dokin Farplain, Thunder Bluff|
 B Buy Mulgore Sweet Potato|QID|14043|M|31.02,63.33|Z|Thunder Bluff|L|46797 5|N|Buy 5 Sweet Potatoes from the Laha Farplain|QO|Candied Sweet Potatoes: 5/5|
 N Sharing a Bountiful Feast|QID|935570003|ACH|3557;3|M|46.8,59.0|Z|Mulgore|N|Eat 5 of the 5 foods either by moving from chair to chair or passing them along.|
 l Candied Sweet Potatoes|QID|14043|N|Cook up some yams|QO|Candied Sweet Potatoes: 5/5|
@@ -108,7 +118,7 @@ l Candied Sweet Potatoes|QID|14043|N|Cook up some yams|QO|Candied Sweet Potatoes
 ; Back to Durotar
 b Orgrimmar|QID|14043|M|15.35,25.65|Z|Thunder Bluff|N|Take the zepplin to Orgrimmar|
 T Candied Sweet Potatoes|QID|14043|M|46.58,13.79|Z|Durotar|N|To Francis Eaton, Durotar|
-A Undersupplied in the Undercity|QID|14044|M|6.58,13.79|Z|Durotar|N|From Francis Eaton, Durotar|
+A Undersupplied in the Undercity|QID|14044|PRE|14043|M|6.58,13.79|Z|Durotar|N|From Francis Eaton, Durotar|
 l Spice Bread|QID|14044|L|30816 5|N|Cook up some Spice Bread|QO|Spice Bread Stuffing: 5/5|
 l Spice Bread Stuffing|QID|14044|N|Cook up some stuff'n|QO|Spice Bread Stuffing: 5/5|
 l Cranberry Chutney|QID|14044|N|Cook up some Chutney|QO|Cranberry Chutney: 5/5|
@@ -117,7 +127,7 @@ l Cranberry Chutney|QID|14044|N|Cook up some Chutney|QO|Cranberry Chutney: 5/5|
 b Tirisfal Glades|QID|14044|M|50.77,55.92|Z|Orgrimmar|N|Take the zepplin to Undercity|
 T Undersupplied in the Undercity|QID|14044|M|63.86,11.51|Z|Undercity|N|To Miles Standish, Undercity|
 U Recipe: Slow-Roasted Turkey|QID|14037|U|46807|N|Learn to cook Turkey, close off when done.|
-A Slow-roasted Turkey|QID|14047|M|63.86,11.51|Z|Undercity|N|From Miles Standish, Undercity|
+A Slow-roasted Turkey|QID|14047|PRE|14044|M|63.86,11.51|Z|Undercity|N|From Miles Standish, Undercity|
 K Wild Turkey|QID|14047|M|67.2,57.1|Z|Tirisfal Glades|T|Wild Turkey|L|44834 5|N|Get the raw turkeys, they are everywhere!|
 l Slow-Roasted Turkey|QID|14047|N|Cook up the turkeys|QO|Slow-Roasted Turkey: 5/5|
 

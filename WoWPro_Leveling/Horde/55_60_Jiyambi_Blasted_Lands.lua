@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2017-03-15 23:40
+-- Who: Ludovicus
+-- Log: Added PREs to JiyBla5560
+
+-- URL: http://wow-pro.com/node/3268/revisions/27747/view
 -- Date: 2016-09-13 03:35
 -- Who: tubera
 -- Log: Mostly QOs
@@ -83,7 +88,7 @@ T Call of the Warmatron|QID|28865|M|40.47,11.65|N|To Okrilla.|O|
 A Futile Pride|QID|25674|M|40.47,11.65|N|From Okrilla.|
 C Futile Pride|QID|25674|M|42.39,15.00|N|Kill one of the ogres that frequently run into the camp.|
 T Futile Pride|QID|25674|M|40.49,11.67|N|To Okrilla.|
-A Heartstrike|QID|25676|M|40.49,11.67|N|From Okrilla.|
+A Heartstrike|QID|25676|PRE|25674|M|40.49,11.67|N|From Okrilla.|
 h Dreadmaul Hold|QID|25676|M|40.44,11.39|N|Set your hearth at Innkeeper Grak, if you like.|
 A Ogre Combat|QID|25675|M|42.61,13.93|N|From Master Aitokk.|
 f Dreadmaul Hold|QID|25675|M|43.69,14.26|N|At Preda.|
@@ -135,7 +140,7 @@ T The First Step|QID|25685|M|39.25,36.22|N|To Bloodmage Lynnore.|
 A Blood Ritual|QID|25686|PRE|25685|M|39.25,36.22|N|From Bloodmage Lynnore.|
 C Blood Ritual|NC|QID|25686|M|39.20,36.28|N|Talk to the bloodmage.|
 T Blood Ritual|QID|25686|M|39.18,36.28|N|To Bloodmage Lynnore.|
-A Not Just Any Body|QID|25687|M|39.18,36.28|N|From Bloodmage Lynnore.|
+A Not Just Any Body|QID|25687|PRE|25686|M|39.18,36.28|N|From Bloodmage Lynnore.|
 l Loramus' Torso|QID|25687|M|39.99,37.16|N|Pick up Loramus' Torso.|QO|2|
 l Loramus' Head|QID|25687|M|46.72,26.95|N|Pick up Loramus' Head.|QO|1|
 C Not Just Any Body|NC|QID|25687|M|46.94,39.50|N|Finally loot his legs.|QO|3|
@@ -143,7 +148,7 @@ T Not Just Any Body|QID|25687|M|41.56,31.95;39.24,36.20|CS|N|To Bloodmage Lynnor
 A The Altar of Storms|QID|25688|PRE|25687|M|39.24,36.20|N|From Bloodmage Lynnore.|
 C The Altar of Storms|QID|25688|M|40.44,35.81;36.97,28.40|CS|N|Go up to the Altar of Storms, clear it out then click on the Altar of Blood. Protect Loramus as he is resurrected.|
 T The Altar of Storms|QID|25688|M|41.51,31.97;39.31,35.78|CS|N|To Loramus Thalipedes. Use the bloodstone.|
-A Time is Short|QID|25689|M|39.31,35.78|N|From Loramus Thalipedes.|
+A Time is Short|QID|25689|PRE|25688|M|39.31,35.78|N|From Loramus Thalipedes.|
 
 T Time is Short|QID|25689|M|54.30,50.03|N|To Watcher Wazzik at the Dark Portal.|
 A The Charred Granite of the Dark Portal|QID|25691|PRE|25689|M|54.30,50.03|N|From Watcher Wazzik.|
@@ -168,9 +173,9 @@ T Watching Our Back|QID|25695|M|54.44,50.48|N|To Warlord Dar'toon.|
 A The Sunveil Excursion|RANK|2|QID|25696|PRE|25695|M|54.44,50.48|N|From Warlord Dar'toon.|
 
 T Enhancing the Stone|QID|25693|M|41.56,31.95;39.32,35.76|CS|N|To Loramus Thalipedes. Remember to use the blood stone.|
-A The Amulet of Allistarj|QID|25697|M|39.32,35.76|N|From Loramus Thalipedes.|
-A The Amulet of Sevine|QID|25698|M|39.32,35.76|N|From Loramus Thalipedes.|
-A The Amulet of Grol|QID|25699|M|39.32,35.76|N|From Loramus Thalipedes.|
+A The Amulet of Allistarj|QID|25697|PRE|25693|M|39.32,35.76|N|From Loramus Thalipedes.|
+A The Amulet of Sevine|QID|25698|PRE|25693|M|39.32,35.76|N|From Loramus Thalipedes.|
+A The Amulet of Grol|QID|25699|PRE|25693|M|39.32,35.76|N|From Loramus Thalipedes.|
 C Ogre Combat|QID|25675|M|44.87,39.32|US|N|Finish killing any ogres you still need.|
 
 C The Amulet of Allistarj|NC|QID|25697|M|60.92,29.30;61.61,26.85|CS|N|Enter the cave, the amulet is in a chest not too far in.|
@@ -184,13 +189,13 @@ T Atrocities|QID|25703|M|71.00,59.89|N|To Neptool.|
 A False Idols|QID|25705|PRE|25703|M|71.00,59.89|N|From Neptool.|
 A Neptool's Revenge|QID|25706|PRE|25703|M|71.00,59.89|N|From Neptool.|
 C False Idols|QID|25705|M|60.87,64.00|S|N|Right-click the idols to destroy them.|
-K Bloodwash Gamblers|QID|25706|M|66.87,72.23|QO|3|N|Gamblers can be found around the Bloodwash Fighting Pits.
-K Bloodwash Idolaters|QID|25706|M|60.90,74.74|QO|4|N|Idolaters can be found around the Bloodwash Shrine.
-C Neptool's Revenge|QID|25706|QO|1|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|S
-C Neptool's Revenge|QID|25706|QO|2|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.
-C Neptool's Revenge|QID|25706|QO|1|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|US
+K Bloodwash Gamblers|QID|25706|M|66.87,72.23|QO|3|N|Gamblers can be found around the Bloodwash Fighting Pits.|
+K Bloodwash Idolaters|QID|25706|M|60.90,74.74|QO|4|N|Idolaters can be found around the Bloodwash Shrine.|
+C Neptool's Revenge|QID|25706|QO|1|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|S|
+C Neptool's Revenge|QID|25706|QO|2|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|
+C Neptool's Revenge|QID|25706|QO|1|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|US|
 C False Idols|QID|25705|M|60.87,64.00|US|N|Right-click the idols to destroy them.|
-A The Future of the Rockpool|QID|25707|M|61.54,63.02|N|From Abandoned Bloodwash Crate. Click it and choose to help the tadpoles.|
+A The Future of the Rockpool|QID|25707|PRE|25703|M|61.54,63.02|N|From Abandoned Bloodwash Crate. Click it and choose to help the tadpoles.|
 C The Future of the Rockpool|QID|25707|M|69.23,81.26|N|Drag the crate to the beach and swim a little ways out into the water.|
 T The Future of the Rockpool|QID|25707|M|69.21,81.26|N|The quest turn-in should pop up automatically.|
 T False Idols|QID|25705|M|71.04,59.96|N|Back to Neptool.|
@@ -230,10 +235,10 @@ T Ogre Combat|QID|25675|M|42.72,13.90|N|To Master Aitokk.|
 T The Amulet of Allistarj|QID|25697|M|41.56,31.95;39.22,36.19|CS|N|To Bloodmage Lynnore. Use the bloodstone to get in.|
 T The Amulet of Sevine|QID|25698|M|39.22,36.19|N|To Bloodmage Lynnore.|
 T The Amulet of Grol|QID|25699|M|39.22,36.19|N|To Bloodmage Lynnore.|
-A Loramus Thalipedes Awaits|QID|25700|M|39.22,36.19|N|From Bloodmage Lynnore.|
+A Loramus Thalipedes Awaits|QID|25700|PRE|25697;25698;25699|M|39.22,36.19|N|From Bloodmage Lynnore.|
 C Loramus Thalipedes Awaits|QID|25700|NC|M|39.20,36.24|N|Speak to the bloodmage.|
 T Loramus Thalipedes Awaits|QID|25700|M|39.33,35.81|N|To Loramus Thalipedes.|
-A You Are Rakh'likh, Demon|QID|25701|M|39.33,35.81|N|From Loramus Thalipedes.|
+A You Are Rakh'likh, Demon|QID|25701|PRE|25700|M|39.33,35.81|N|From Loramus Thalipedes.|
 C You Are Rakh'likh, Demon|QID|25701|U|56012|M|46.53,21.88;44.90,26.85|CS|N|Speak to the ghost to have him teleport you up to the mountain. Wait until Loramus summons the demon. Help him kill it (let him tank). When Loramus is possessed, defeat him, then use the knife.|
 T You Are Rakh'likh, Demon|QID|25701|M|41.57,32.04;54.29,50.00|CC|N|To Watcher Wazzik. Congrats on the excellent ring!|
 ;Not available anymore (possible bug)

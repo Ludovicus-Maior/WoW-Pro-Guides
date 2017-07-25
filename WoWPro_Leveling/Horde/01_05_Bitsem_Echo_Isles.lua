@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2017-03-15 22:56
+-- Who: Ludovicus
+-- Log: Added PRE to BitDur0512
+
+-- URL: http://wow-pro.com/node/3199/revisions/27658/view
 -- Date: 2016-08-31 00:25
 -- Who: Ludovicus
 -- Log: 0 is not valid
@@ -283,11 +288,6 @@
 -- Date: 2013-01-11 23:26
 -- Who: Ludovicus
 -- Log: Added CS tag
-
--- URL: http://wow-pro.com/node/3199/revisions/25126/view
--- Date: 2012-10-08 19:43
--- Who: Ludovicus
--- Log: Get rid of - in zone names.
 
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.05357)

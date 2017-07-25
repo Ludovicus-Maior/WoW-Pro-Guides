@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/treasures_draenor_neutral
+-- Date: 2017-03-23 17:37
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3633/revisions/28315/view
+-- Date: 2017-03-10 23:02
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3633/revisions/27356/view
 -- Date: 2015-07-24 03:35
 -- Who: Blanckaert
 -- Log: fixed a bad coord, added to last treasures I hadn't gotten yet, but still need to go back over with a fresh toon.
@@ -145,7 +155,7 @@ A Snow-Covered Strongbox|QID|34647|M|24.00,13.00|Z|Frostfire Ridge|N|Garrison Re
 
 ; Gorgrond
 
-A Khargax the Devourer|QID|35820|M|52.40,65.80|Z|Gorgrond|N|Quest Item for XP|ITEM|113461|RANK|2|; You must finish the quest before this element gets removed from the map
+A Khargax the Devourer|QID|35820|PRE|35063|M|52.40,65.80|Z|Gorgrond|N|Quest Item for XP|ITEM|113461|RANK|2|; You must finish the quest before this element gets removed from the map
 A Inventor Blammo|QID|37367|M|47.60,30.60|Z|Gorgrond|N|unknown|RANK|3|LVL|100|
 A Bashiok|QID|35335|M|40.00,79.00|Z|Gorgrond|N|Toy|ITEM|118222|RANK|2|
 A Grove Warden Yal|QID|37375|M|59.60,43.00|Z|Gorgrond|N|i620 Intellect Cloak|ITEM|119414|RANK|3|LVL|100|
@@ -166,7 +176,7 @@ A Sunclaw|QID|36656|M|44.60,92.20|Z|Gorgrond|N|i533 Agility Fistweapon|ITEM|1182
 A Vindicator's Hammer|QID|36628|M|59.40,63.70|Z|Gorgrond|N|i539 Strength 2H Mace|ITEM|118712|
 A Blademaster Ro'gor|QID|37368|M|46.00,33.60|Z|Gorgrond|N|unknown|RANK|3|LVL|100|
 A Mother Araneae|QID|34726|M|53.40,78.20|Z|Gorgrond|N|i534 Agility Dagger|ITEM|118208|RANK|2|
-A Fossilwood the Petrified|QID|36387|M|57.40,68.60|Z|Gorgrond|N|Toy|ITEM|118221|RANK|2|
+A Fossil the Petrified|QID|36387|M|57.40,68.60|Z|Gorgrond|N|Toy|ITEM|118221|RANK|2|
 A Harvestable Precious Crystal|QID|36651|M|46.10,50.00|Z|Gorgrond|N|Garrison Resources|ITEM|$824|
 A Durp the Hated|QID|37366|M|50.00,23.80|Z|Gorgrond|N|unknown|RANK|3|LVL|100|
 A Laughing Skull Cache|QID|35709|M|44.20,74.20|Z|Gorgrond|N|Garrison Resources|ITEM|$824|
@@ -174,24 +184,24 @@ A Greldrok the Cunning|QID|36186|M|46.80,43.20|Z|Gorgrond|N|i534 Strength 1H Mac
 A Remains of Balldir Deeprock|QID|36605|M|57.80,56.00|Z|Gorgrond|N|Trash Item|ITEM|118703|
 A Defector Dazgo|QID|37362|M|48.20,21.00|Z|Gorgrond|N|unknown|RANK|3|LVL|100|
 A Remains of Balik Orecrusher|QID|36654|M|53.10,74.40|Z|Gorgrond|N|Trash Item|ITEM|118714|
-A Dessicus of the Dead Pools|QID|35809|M|40.50,51.00|Z|Gorgrond|N|Quest Item for XP|ITEM|113446|RANK|2|; You must finish the quest before this element gets removed from the map
+A Dessicus of the Dead Pools|QID|35809|PRE|35063|M|40.50,51.00|Z|Gorgrond|N|Quest Item for XP|ITEM|113446|RANK|2|; You must finish the quest before this element gets removed from the map
 A Explorer Canister|QID|36621|M|40.40,76.60|Z|Gorgrond|N|50 Garrison Resources|ITEM|118710|
 A Sniper's Crossbow|QID|36634|M|45.00,42.60|Z|Gorgrond|N|i539 Crossbow|ITEM|118713|
 A Stashed Emergency Rucksack|QID|36604|M|48.10,93.40|Z|Gorgrond|N|Gold + Random Green|
 A Basten, Nultra or Valstil|QID|37369|M|69.20,44.60|Z|Gorgrond|N|Toy|ITEM|119432|RANK|3|LVL|100|
-A Biolante|QID|36502|M|60.80,54.00|Z|Gorgrond|N|Quest Item for XP|ITEM|116159|RANK|2|; You must finish the quest before this element gets removed from the map
-A Crater Lord Igneous|QID|35812|M|42.80,59.20|Z|Gorgrond|N|Quest Item for XP|ITEM|113449|RANK|2|; You must finish the quest before this element gets removed from the map
+A Biolante|QID|36502|PRE|35063|M|60.80,54.00|Z|Gorgrond|N|Quest Item for XP|ITEM|116159|RANK|2|; You must finish the quest before this element gets removed from the map
+A Crater Lord Igneous|QID|35812|PRE|35063|M|42.80,59.20|Z|Gorgrond|N|Quest Item for XP|ITEM|113449|RANK|2|; You must finish the quest before this element gets removed from the map
 A Odd Skull|QID|36509|M|52.50,66.90|Z|Gorgrond|N|i535 Offhand|ITEM|118717|
 A Maniacal Madgard|QID|37363|M|49.00,33.80|Z|Gorgrond|N|unknown|RANK|3|LVL|100|
 A Weapons Cache|QID|36596|M|49.30,43.60|Z|Gorgrond|N|100 Garrison Resources|ITEM|107645|
 A Riptar|QID|36600|M|37.60,81.40|Z|Gorgrond|N|i539 Caster Dagger|ITEM|118231|RANK|2|
 A Iron Supply Chest|QID|36618|M|43.70,42.40|Z|Gorgrond|N|Garrison Resources|ITEM|$824|
-A Charl Doomwing|QID|35816|M|46.00,46.80|Z|Gorgrond|N|Quest Item for XP|ITEM|113457|RANK|2|; You must finish the quest before this element gets removed from the map
-A Erosian the Violent|QID|35808|M|51.80,41.60|Z|Gorgrond|N|Quest Item for XP|ITEM|113445|RANK|2|; You must finish the quest before this element gets removed from the map
+A Charl Doomwing|QID|35816|PRE|35063|M|46.00,46.80|Z|Gorgrond|N|Quest Item for XP|ITEM|113457|RANK|2|; You must finish the quest before this element gets removed from the map
+A Erosian the Violent|QID|35808|PRE|35063|M|51.80,41.60|Z|Gorgrond|N|Quest Item for XP|ITEM|113445|RANK|2|; You must finish the quest before this element gets removed from the map
 A Sasha's Secret Stash|QID|36631|M|39.00,68.10|Z|Gorgrond|N|Gold + Random Green|
 A Mandrakor|QID|36178|M|50.60,53.20|Z|Gorgrond|N|Pet|ITEM|118709|RANK|2|
 A Petrified Rylak Egg|QID|36521|M|46.20,42.90|Z|Gorgrond|N|Trash Item|ITEM|118707|
-A Fungal Praetorian|QID|35813|M|58.00,63.60|Z|Gorgrond|N|Quest Item for XP|ITEM|113453|RANK|2|; You must finish the quest before this element gets removed from the map
+A Fungal Praetorian|QID|35813|PRE|35063|M|58.00,63.60|Z|Gorgrond|N|Quest Item for XP|ITEM|113453|RANK|2|; You must finish the quest before this element gets removed from the map
 A Discarded Pack|QID|36625|M|42.40,83.40|Z|Gorgrond|N|Gold + Random Green|
 A Brokor's Sack|QID|36506|M|41.70,53.00|Z|Gorgrond|N|i538 Caster Staff (without Spellpower)|ITEM|118702|; the missing Spellpower is most likely a bug
 A Stomper Kreego|QID|35910|M|38.20,66.20|Z|Gorgrond|N|Ogre Brewing Kit|ITEM|118224|RANK|2|; Can create Alcoholic Beverages every 7 days
@@ -199,7 +209,7 @@ A Sulfurious|QID|36394|M|40.20,59.60|Z|Gorgrond|N|Toy|ITEM|114227|RANK|2|
 A Hive Queen Skrikka|QID|35908|M|52.20,70.20|Z|Gorgrond|N|i534 Spellpower Axe|ITEM|118209|RANK|2|
 A Alkali|QID|37371|M|58.60,41.20|Z|Gorgrond|N|Apexis Crystals|ITEM|$823|RANK|3|LVL|100|
 A Femur of Improbability|QID|36170|M|40.00,72.30|Z|Gorgrond|N|Trash Item|ITEM|118715|
-A Roardan the Sky Terror|QID|35817|M|51.20,63.60|Z|Gorgrond|N|Quest Item for XP|ITEM|113458|RANK|2|; Flies around a lot, Coordinates are just somewhere on his route!You must finish the quest before this element gets removed from the map
+A Roardan the Sky Terror|QID|35817|PRE|35063|M|51.20,63.60|Z|Gorgrond|N|Quest Item for XP|ITEM|113458|RANK|2|; Flies around a lot, Coordinates are just somewhere on his route!You must finish the quest before this element gets removed from the map
 A Sylldross|QID|36794|M|64.00,61.80|Z|Gorgrond|N|i540 Agility/Intellect Leather Boots|ITEM|118213|RANK|2|
 A Strange Looking Dagger|QID|34940|M|53.00,80.00|Z|Gorgrond|N|i537 Agility Dagger|ITEM|118718|
 A Char the Burning|QID|35503|M|53.40,44.60|Z|Gorgrond|N|i536 2H Caster Mace|ITEM|118212|RANK|2|
@@ -358,7 +368,7 @@ A Morva Soultwister|QID|35523|M|38.60,70.20|Z|Shadowmoon Valley@Draenor|N|i520 1
 A Iron Horde Cargo Shipment|QID|33041|M|42.10,61.30|Z|Shadowmoon Valley@Draenor|N|Garrison Resources|ITEM|$824|
 A Astrologer's Box|QID|33867|M|49.30,37.50|Z|Shadowmoon Valley@Draenor|N|Toy|ITEM|109739|
 A Iron Horde Tribute|QID|33567|M|37.50,59.30|Z|Shadowmoon Valley@Draenor|N|Trinket Multistrike + DMG on use|ITEM|108903|
-A Enavra|QID|35688|M|67.80,63.80|Z|Shadowmoon Valley@Draenor|N|i523 Intellect Neck|ITEM|113556|RANK|2|
+A Enavra|QID|35688|PRE|35636|M|67.80,63.80|Z|Shadowmoon Valley@Draenor|N|i523 Intellect Neck|ITEM|113556|RANK|2|
 A False-Bottomed Jar|QID|33037|M|51.80,35.50|Z|Shadowmoon Valley@Draenor|N|Gold|ITEM|$824|; Often bugs out - Gold then gets delivered by Mail
 A Lunarfall Egg|QID|35530|M|30.30,19.90|Z|Shadowmoon Valley@Draenor|N|Garrison Resources|ITEM|$824|; Changes position to inside the garrison once it is built
 A Scaly Rylak Egg|QID|33565|M|67.10,84.30|Z|Shadowmoon Valley@Draenor|N|Onetime Food without Buff|ITEM|44722|; mostly just for the XP
@@ -600,10 +610,10 @@ A Ketya's Stash|QID|34290|M|54.00,27.60|Z|Talador|N|Pet|ITEM|116402|
 
 ; Tanaan Jungle (Still need to flesh out item type, name and ids) Added by Blanckaert
 
-A Axe of the Weeping Wolf||QID|38754|M|15.00,54.40|Z|Tanaan Jungle|N|i650 2H Axe, Axe of the Weeping Wolf|ITEM|127325|
+A Axe of the Weeping Wolf|QID|38754|M|15.00,54.40|Z|Tanaan Jungle|N|i650 2H Axe, Axe of the Weeping Wolf|ITEM|127325|
 A The Eye of Grannok|QID|38757|M|16.00,59.40|Z|Tanaan Jungle|N|i650 Int/Haste Trinket Grannok's Lidless Eye|ITEM|128220|
 A Weathered Axe|QID|38208|M|17.04,50.41;15.90,49.70|CS|Z|Tanaan Jungle|N|In Rainfern Grotto, i650 1H Agility Axe, Weathered Axe|ITEM|127324|   ; Cave Entrance 17.04, 50.41
-A Spoils of War|QID|38755|M|17.30,57.00|Z|Tanaan Jungle|N|Spoils of War, Gives Garrison Resources (x250?)|ITEM|$824||
+A Spoils of War|QID|38755|M|17.30,57.00|Z|Tanaan Jungle|N|Spoils of War, Gives Garrison Resources (x250?)|ITEM|$824|
 A Stolen Captain's Chest|QID|38283|M|17.00,52.90|Z|Tanaan Jungle|N|Stolen Captain's Chest, Gives some Gold|
 A Bleeding Hollow Warchest|QID|38678|M|20.00,47.80|Z|Tanaan Jungle|N|Bleeding Hollow Warchest, Gives Garrison Resources (x50?)|ITEM|$824|
 A Borrowed Enchanted Spyglass|QID|38735|M|24.68,49.81;25.30,50.20|CS|Z|Tanaan Jungle|N|i650 - Int/Crt Trinket - Borrowed Enchanted Spyglass - Top of Tower, Click the rope.|ITEM|128222|
@@ -631,7 +641,7 @@ A Snake Charmer's Flute|QID|38638|M|40.60,79.80|Z|Tanaan Jungle|N|i650 2H Mace S
 A Forgotten Champion's Blade|QID|38657|M|41.56,73.40|Z|Tanaan Jungle|N|i650 2H - Forgotten Champion's Blade|ITEM|127339|
 A The Perfect Blossom|QID|38639|M|40.80,75.50|Z|Tanaan Jungle|N|The Perfect Blossom - TOY|ITEM|127766|
 A Bleeding Hollow Mushroom Stash|QID|38809|M|44.50,77.53;49.90,76.80|CS|Z|Tanaan Jungle|N|Bleeding Hollow Mushroom Stash - Vine Climbing|ITEM|128223|
-A Looted Mystical Staff|QID|38814|M|48.60,75.30|Z|Tanaan Jungle|N|i650 - Int/SP Staff - Emanating Staff of Shadow - follow the vines.. jump carefully.|ITEM|127337
+A Looted Mystical Staff|QID|38814|M|48.60,75.30|Z|Tanaan Jungle|N|i650 - Int/SP Staff - Emanating Staff of Shadow - follow the vines.. jump carefully.|ITEM|127337|
 A Crystallized Essence of the Elements|QID|38705|M|48.00,70.40|Z|Tanaan Jungle|N|Crystallized Essence of the Elements|
 A Overgrown Relic|QID|38731|M|50.90,64.90|Z|Tanaan Jungle|N|Overgrown Relic|
 A Forgotten Sack|QID|38591|M|56.90,65.10|Z|Tanaan Jungle|N|Forgotten Sack|

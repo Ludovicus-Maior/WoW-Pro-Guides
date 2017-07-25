@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2017-03-15 20:59
+-- Who: Ludovicus
+-- Log: Syntax
+
+-- URL: http://wow-pro.com/node/3520/revisions/27107/view
 -- Date: 2014-12-25 20:11
 -- Who: Ludovicus
 

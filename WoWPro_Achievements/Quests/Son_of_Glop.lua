@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/glop_and_pebble_achievements
+-- Date: 2017-03-23 17:39
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3527/revisions/28371/view
+-- Date: 2017-03-15 20:27
+-- Who: Ludovicus
+-- Log: Add PRE
+
+-- URL: http://wow-pro.com/node/3527/revisions/27105/view
 -- Date: 2014-12-25 19:08
 -- Who: Ludovicus
 

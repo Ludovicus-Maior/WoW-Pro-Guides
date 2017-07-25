@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2017-03-15 21:11
+-- Who: Ludovicus
+-- Log: Added PREs to RpoGil0113, dumped changelog.
+
+-- URL: http://wow-pro.com/node/3211/revisions/27730/view
 -- Date: 2016-09-10 01:20
 -- Who: Fluclo
 -- Log: Added PRE quest tag to almost all quests. Added notes that quest skipping not possible. . Removed mailbox step (no longer needed for pets/BOA items). Completed names of NPCs where the notes only had partial names. Repositioned Professions Training note to first opportunity to learn them, and made it self-completing sticky. Added ACTIVE tags to the K steps to only show when you're holding the quest. Added Target tags on steps it would be helpful to be able to target the desired mob/NPC. Removed Level steps as the quests can be done with a lower level. Removed last couple steps which are for the next zone guide, and already in that guide. Added missing note to Something's Amiss, At Our Doorstep. Added NC tag to Evacuate the Merchant Square, The Hungry Ettin, Preparations, Laid to Rest, Patriarch's Blessing
@@ -247,13 +252,13 @@ T Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.80,22.23|N|To Princ
 A Royal Orders |QID|14099|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|PRE|14093;14098;14094|
 T Royal Orders |QID|14099|Z|GilneasCity|M|70.76,55.03|CC|N|To Gwen Armstead, who has now moved into the Military District.|
 
-A Your Instructor |QID|14265|Z|GilneasCity|M|70.7,54.7|C|Warrior|N|From Gwen Armstead.|
-A Someone's Looking for You |QID|14269|Z|GilneasCity|M|70.7,54.7|C|Rogue|N|From Gwen Armstead.|
-A Shady Associates |QID|14273|Z|GilneasCity|M|70.7,54.7|C|Warlock|N|From Gwen Armstead.|
-A Someone's Keeping Track of You |QID|14275|Z|GilneasCity|M|70.7,54.7|C|Hunter|N|From Gwen Armstead.|
-A Arcane Inquiries |QID|14277|Z|GilneasCity|M|70.7,54.7|C|Mage|N|From Gwen Armstead.|
-A Seek the Sister |QID|14278|Z|GilneasCity|M|70.7,54.7|C|Priest|N|From Gwen Armstead.|
-A The Winds Know Your Name... Apparently |QID|14280|Z|GilneasCity|M|70.7,54.7|C|Druid|N|From Gwen Armstead.|
+A Your Instructor |QID|14265|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Warrior|N|From Gwen Armstead.|
+A Someone's Looking for You |QID|14269|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Rogue|N|From Gwen Armstead.|
+A Shady Associates |QID|14273|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Warlock|N|From Gwen Armstead.|
+A Someone's Keeping Track of You |QID|14275|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Hunter|N|From Gwen Armstead.|
+A Arcane Inquiries |QID|14277|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Mage|N|From Gwen Armstead.|
+A Seek the Sister |QID|14278|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Priest|N|From Gwen Armstead.|
+A The Winds Know Your Name... Apparently |QID|14280|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Druid|N|From Gwen Armstead.|
 
 T Your Instructor |QID|14265|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|Go straight and then take your first right to Sergeant Cleese.|
 T Someone's Looking for You |QID|14269|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|Loren the Fence is hidden, but she appears when you approach.|
@@ -510,7 +515,7 @@ K Lord Walden|QID|24592|Z|Gilneas|M|82.07,66.63;80.34,63.97;77.97,66.20|CS|QO|2|
 T Betrayal at Tempest's Reach|QID|24592|Z|Gilneas|M|78.27,72.01|N|To King Genn Greymane.|U|50218|
 
 A Flank the Forsaken|QID|24677|Z|Gilneas|M|78.27,72.01|N|From King Genn Greymane.|PRE|24592|
-R Livery Outpost|QID|24677|Z|Gilneas|M|78.36,71.80;71.60,39.60|CS||N|Speak to Lord Hewell to get a horse which will take you to Livery Outpost.|CHAT|ACTIVE|24677|
+R Livery Outpost|QID|24677|Z|Gilneas|M|78.36,71.80;71.60,39.60|CS|N|Speak to Lord Hewell to get a horse which will take you to Livery Outpost.|CHAT|ACTIVE|24677|
 T Flank the Forsaken|QID|24677|Z|Gilneas|M|70.88,39.85|N|To Lorna Crowley.|
 
 A Liberation Day|QID|24575|Z|Gilneas|M|70.88,39.85|N|From Lorna Crowley.|PRE|24677|
@@ -575,10 +580,10 @@ R Rut'theran Village|QID|14434|Z|Gilneas|M|42.59,35.93|N|Speak to Admiral Nightw
 
 N Sequential Zone |QID|26706|N|Gilneas is a linear quest zone, it won't be possible for you to skip any quests. Please Reset Current Guide on the guide window, and work through all the quests.|
 
-A The Howling Oak|QID|28517|M|55.22,89.15|Z|Teldrassil|N|From Krennan Aranas.|
+A The Howling Oak|QID|28517|PRE|14434|M|55.22,89.15|Z|Teldrassil|N|From Krennan Aranas.|
 T The Howling Oak|QID|28517|M|41.88,48.25;46.04,34.73;49.10,19.00;47.97,14.16|Z|Darnassus|CS|N|Walk through the purple haze to the north. Once in Darnassus, to Genn Greymane in Howling Oak.|
 
-A Breaking Waves of Change|QID|26385|M|48.12,14.48|Z|Darnassus|N|From Genn Greymane.|
+A Breaking Waves of Change|QID|26385|PRE|28517|M|48.12,14.48|Z|Darnassus|N|From Genn Greymane.|
 ;f Darnassus|QID|26385|M|36.67,47.91|Z|Darnassus|N|Get the Darnassus Flight Point at Leora.|
 ;F Lor'danel|QID|26385|M|36.60,48.00|Z|Teldrassil|N|Take a Hippogryph from the Flight Master.|
 ;T Breaking Waves of Change|QID|26385|M|51.77,18.00|Z|Darkshore|N|To Dentaria Silverglade. You'll be taken to the next guide, which will cover Darkshore!|

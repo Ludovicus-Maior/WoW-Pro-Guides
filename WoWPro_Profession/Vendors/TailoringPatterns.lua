@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tailoring_patterns
+-- Date: 2017-01-02 22:47
+-- Who: Ludovicus
+-- Log: New registration style
+
+-- URL: http://wow-pro.com/node/3573/revisions/28077/view
 -- Date: 2016-11-30 20:24
 -- Who: Ludovicus
 -- Log: Fix single section error.
@@ -36,7 +41,12 @@
 -- Date: 2014-02-14 00:10
 -- Who: Ludovicus
 
-WoWPro.Profession:RegisterGuide('LudoShopTailoring', 'Tailoring', 'Tailoring Patterns', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopTailoring","Profession", "Tailoring", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Tailoring Patterns")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",165)
+WoWPro:GuideSteps(guide, function()
 return [[
 B Runecloth Robe|QID|990018406|RECIPE|18406|M|51.60,33.30|Z|Moonglade|P|Tailoring;197;260|N|Limited quantity sold by Darnall in Moonglade.|
 B Tuxedo Shirt|QID|990012085|RECIPE|12085|M|70.60,30.10|Z|Undercity|FACTION|Horde|P|Tailoring;197;240|N|Limited quantity sold by Millie Gregorian in Undercity.|

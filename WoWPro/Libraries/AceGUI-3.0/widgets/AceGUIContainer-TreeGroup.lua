@@ -6,8 +6,6 @@ local Type, Version = "TreeGroup", 40
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
-local IsLegion = select(4, GetBuildInfo()) >= 70000
-
 -- Lua APIs
 local next, pairs, ipairs, assert, type = next, pairs, ipairs, assert, type
 local math_min, math_max, floor = math.min, math.max, floor
@@ -672,12 +670,7 @@ local function Constructor()
 
 	local scrollbg = scrollbar:CreateTexture(nil, "BACKGROUND")
 	scrollbg:SetAllPoints(scrollbar)
-
-	if IsLegion then
-		scrollbg:SetColorTexture(0,0,0,0.4)
-	else
-		scrollbg:SetTexture(0,0,0,0.4)
-	end
+	scrollbg:SetColorTexture(0,0,0,0.4)
 
 	local border = CreateFrame("Frame",nil,frame)
 	border:SetPoint("TOPLEFT", treeframe, "TOPRIGHT")

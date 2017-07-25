@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2017-03-10 23:12
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3476/revisions/26592/view
 -- Date: 2014-07-25 20:43
 -- Who: Ludovicus
 -- Log: adj meanlevel
@@ -65,7 +70,7 @@ A Up To The Challenge|QID|13672|M|76.4,19.4|PRE|13667|N|From Arcanist Taelis.|
 
 ; Black Knight Quests
 A The Black Knight of Westfall?|QID|13633|M|69.43,23.02|FACTION|Alliance|N|Crusader Rhydalla|
-A The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|FACTION|Horde|N|Crusader Rhydalla|
+A The Black Knight of Silverpine?|QID|13634|PRE|13633|M|69.43,23.02|FACTION|Horde|N|Crusader Rhydalla|
 C The Black Knight of Westfall?|QID|13633|M|42.10,69.66|Z|Westfall|N|Get to Moonbrook in Westfall and look at the Dusty Journal.|
 C The Black Knight of Silverpine?|QID|13634|M|53.1,28.1|Z|Silverpine Forest|N|Get to just past the Forsaken Rear Guard in Silverpine Forest and read the Dusty Journal.|
 T The Black Knight of Westfall?|QID|13633|M|69.43,23.02|N|Crusader Rhydalla|
@@ -310,9 +315,9 @@ A A Champion Rises|QID|13734|PRE|13724|R|Draenei|M|76.10,19.10|N|From Colosos.|
 N A Champion Rises|QID|13702;13732;13733;13734;13735|N|At this point you can become a Valiant for another faction.  Walk up and take the quest and the guide should adjust.|
 T A Champion Rises|QID|13702;13732;13733;13734;13735|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
 
-A Eadric the Pure|QID|13794|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|From Justicar Mariel Trueheart, everybody but DKs|
+A Eadric the Pure|QID|13794|PRE|13702;13732;13733;13734;13735;13736;13737;13738;13739;13740|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|From Justicar Mariel Trueheart, everybody but DKs|
 T Eadric the Pure|QID|13794|M|69.96,23.44|N|To Eadric the Pure.|
-A The Scourgebane|QID|13795|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
+A The Scourgebane|QID|13795|PRE|13702;13732;13733;13734;13735;13736;13737;13738;13739;13740|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
 T The Scourgebane|QID|13795|M|73.80,20.06|N|From Crok Scourgebane.|
 
 ]]

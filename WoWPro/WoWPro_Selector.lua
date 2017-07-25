@@ -30,10 +30,10 @@ function WoWPro:SelectorOptionsTable()
 					any_questing = {
 						order = 2,
 						type = "toggle",
-						name = L["Enable Questing"],
-						desc = L["Enables the guide window to be moved by clicking anywhere on it and dragging"],
-						get = function(info) return WoWProDB.profile.Selector.AnyQuesting end,
-						set = function(info,val) WoWProDB.profile.Selector.AnyQuesting = val 
+						name = L["Enable Leveling"],
+						desc = L["Enables/Disables selecting Leveling guides"],
+						get = function(info) return WoWProDB.profile.Selector.DoLeveling end,
+						set = function(info,val) WoWProDB.profile.Selector.DoLeveling = val 
 							 end,
 					},
 					difficulty = {  type = "group",
@@ -81,7 +81,7 @@ function WoWPro:SelectorOptionsTable()
 					ach_nut = {
 						type = "toggle",
 						name = L["Achievment Nut"],
-						desc = L["Agressively pursue acheivments"],
+						desc = L["Agressively pursue achievments"],
 						get = function(info) return WoWProDB.profile.Selector.AchNut end,
 						set = function(info,val) WoWProDB.profile.Selector.AchNut = val 
 							end
@@ -212,7 +212,7 @@ function WoWPro:OfferGuideSwitch(nGID, quest)
 	}
 
 	if quest then
-	    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"].text = string.format("Would you like to switch to the guide for the quest [%s]?", quest)
+	    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"].text = string.format("Would you like to switch to the guide %s for the quest [%s]?", nGID, quest)
 	end
 	StaticPopup_Show("WOWPRO_SWITCH_GUIDE")
 end

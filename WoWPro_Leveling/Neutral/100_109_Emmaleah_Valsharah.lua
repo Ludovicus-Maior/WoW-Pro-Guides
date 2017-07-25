@@ -4,6 +4,56 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2017-06-13 01:43
+-- Who: Ludovicus
+-- Log: Located Reaverbeak totem more clearly and conditionalized [Jinikki The Puncturer]
+
+-- URL: http://wow-pro.com/node/3665/revisions/28608/view
+-- Date: 2017-03-26 01:11
+-- Who: Emmaleah
+-- Log: minor improvements to what I put in a week ago.
+
+-- URL: http://wow-pro.com/node/3665/revisions/28598/view
+-- Date: 2017-03-23 19:37
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3665/revisions/28479/view
+-- Date: 2017-03-16 22:57
+-- Who: Ludovicus
+-- Log: Added PRE.
+
+-- URL: http://wow-pro.com/node/3665/revisions/28357/view
+-- Date: 2017-03-12 12:26
+-- Who: Emmaleah
+-- Log: Changed note for Scouring What Remains and Master of the Isles.
+
+-- URL: http://wow-pro.com/node/3665/revisions/28356/view
+-- Date: 2017-03-12 06:33
+-- Who: Emmaleah
+-- Log: correct coordinates for fighting Ysera(38743) and add the last two leadin quests for the next zone.
+
+-- URL: http://wow-pro.com/node/3665/revisions/28251/view
+-- Date: 2017-01-31 01:12
+-- Who: Blanckaert
+-- Log: minor fixes, S / US not set, and dupe S
+
+-- URL: http://wow-pro.com/node/3665/revisions/28242/view
+-- Date: 2017-01-15 22:49
+-- Who: Emmaleah
+-- Log: Edited section for treasure (38782) you get behind lyranthos darkgrove due to phasing now fixed. Added CHAT and changed the note on Dark Side of the Moon (41890;41708|QO2) to reflect you have to TALK to Tyrande to start the attack)
+
+-- URL: http://wow-pro.com/node/3665/revisions/28238/view
+-- Date: 2017-01-10 21:36
+-- Who: Blanckaert
+-- Log: minor adjustments... 
+
+-- URL: http://wow-pro.com/node/3665/revisions/28186/view
+-- Date: 2016-12-28 23:56
+-- Who: Blanckaert
+-- Log: added K step for Gravax, plus the A and t step of the turnin of item he drops
+
+-- URL: http://wow-pro.com/node/3665/revisions/28144/view
 -- Date: 2016-12-12 04:47
 -- Who: Blanckaert
 -- Log: added tailoring quest of the needles 38950 - C step only
@@ -249,17 +299,17 @@ A Dreamcatcher|QID|42750|M|59.46,82.04|N|From Leirana.|RANK|2|
 A Grotesque Remains|QID|42786|U|138441|N|From an item that will randomly drop from the slimes.|RANK|2|
 C Dreamcatcher|QID|42750|M|59.22,81.87|QO|1|NC|N|Click the Shriektalon Totem to siphen.|RANK|2|
 C Dreamcatcher|QID|42750|M|56.30,81.14|QO|2|NC|N|Click the Fearfeather Totem to siphen.|RANK|2|
-C Dreamcatcher|QID|42750|M|61.03,80.70|QO|3|NC|N|Click the Reaverbeak Totem to siphen.|RANK|2|
+C Dreamcatcher|QID|42750|M|59.23,80.44;61.03,80.70|CS|QO|3|NC|N|Go inside the cave with the fish on the outside.\nClick the Reaverbeak Totem to siphen.|RANK|2|
 C Emerald Sisters|QID|42748|M|59.46,82.04|US|N|Finish rescuing Sisters as you leave the grotto.|RANK|2|
 C Where the Wildkin Are|QID|42747|M|59.46,82.04|US|N|Finish killing Wildkin and slimes as you leave the grotto.|RANK|2|
 T Emerald Sisters|QID|42748|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 T Where the Wildkin Are|QID|42747|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 T Grotesque Remains|QID|42786|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 T Dreamcatcher|QID|42750|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
-A Moon Reaver|QID|42751|M|59.41,84.13|N|From Guviena Bladesong.|RANK|2|
+A Moon Reaver|QID|42751|PRE|42750|M|59.41,84.13|N|From Guviena Bladesong.|RANK|2|
 
 $ Elindya Featherlight|QID|38887|M|60.42,90.72;61.03,88.04|CS|N|Click on Elindya and then follow her and help her kill the demon Skul'vrax|RANK|3|
-R The Undergorge|QID|42751|M|60.98,85.13|N|There is a bramble barrior, that will fall down when you click on it.|RANK|2|
+R The Undergorge|QID|42751|M|60.98,85.13|QO|1|N|There is a bramble barrior, that will fall down when you click on it.|RANK|2|
 K Kill Boneflux|QID|42751|QO|1|M|60.40,82.50|T|Boneflux|N|Kill Boneflux.|RANK|2|
 C Moon Reaver|QID|42751|QO|2|CHAT|M|60.46,82.57|N|Let Remulos go free.|RANK|2|
 $ Treasure|QID|38893|M|60.48,82.14|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -269,7 +319,7 @@ $ Treasure|QID|39074|M|65.38,86.25|N|Small cave, below Whispering Bluff. Loot fo
 R Lightsong|QID|42786|M|61.46,87.9;59.52,85.90|CS|N|Back up the hill to turn the quests in.|RANK|2|
 T Moon Reaver|QID|42751|M|59.33,83.99|N|To Keeper Remulos.|RANK|2|
 
-R Lunarwing Shallows|QID|40220|M|57.76,86.68;56.14,78.26;53.77,79.87|CS|N|Some optional quests and a bonus objective are available in Lunarwing Shallows.|RANK|2|
+R Lunarwing Shallows|QID|40221|M|57.76,86.68;56.14,78.26;53.77,79.87|CS|QO|1|N|Some optional quests and a bonus objective are available in Lunarwing Shallows.|RANK|2|
 A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you enter the area.|RANK|2|LVL|-109|
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|S|N|Kill the thistleleafs and otherwise work towards the objective.|RANK|2|
 A Thorny Dancing|QID|40220|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
@@ -279,12 +329,12 @@ C A Needle Need|QID|38951|PRE|38950|M|53.75,79.82|P|Tailoring;197|S|QO|1|N|Kill 
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|As you search for Thorndancers, free Lunarwings by untangleing the roots, or fighting the ones in the air.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|S|N|As you search for Thorndancers, kill Thistleleaf Ruffians to reclaim the eggs.|RANK|2|
 $ Treasure|QID|38861|M|56.05,83.75|N|In a small cave. Loot for a bit of treasure and resources.|RANK|2|
-K Kill Jinkiki The Puncturer|QID|38889|QO|1|M|53,87|T|Jinkiki The Puncturer|N|Enter the cave and chat with the little bear to rescue him.|ITEM|128690|RANK|2|
+K Kill Jinikki The Puncturer|AVAILABLE|38889|M|53,87|T|Jinikki The Puncturer|N|Enter the cave and chat with the little bear to rescue him.|ITEM|128690|RANK|2|
 A Adopting the Adorable|QID|38889|M|53,87|N|From the Shivering Bear Cub upon killing Jinkiki.|RANK|2|
 $ Treasure|QID|38864|M|54.00,82.19;54.94,80.56|CS|N|Dive in and swim into an underwater cave.  Loot the treasure chest for a bit of treasure and resources.|RANK|2|;bugged 8/27 and quest doesnt actually loot or go away.
-C Thorny Dancing|QID|40220|M|53.75,79.82|N|Kill 3 Thorndancers, they are the taller Thistleleaf mobs.|RANK|2|
+C Thorny Dancing|QID|40220|M|53.75,79.82|T|Thistleleaf Thorndancer|N|Kill 3 Thorndancers, they are the taller Thistleleaf mobs.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|US|N|Finish collecting the eggs.|RANK|2|
-C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|Finish rescueing Lunarwings.|RANK|2|
+C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|US|N|Finish rescueing Lunarwings.|RANK|2|
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|US|N|Stay and finish up or click this off and leave.|RANK|2|
 t Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto-Turned in when completed.|RANK|2|
 C A Needle Need|QID|38951|PRE|38950|M|53.75,79.82|P|Tailoring;197|US|N|Kill and Loot Thistleleafs for Spritethorn|
@@ -366,19 +416,21 @@ A Tears for Fears|QID|38662|PRE|38641|M|51.44,57.01|N|From Lyanis Moonfall.|
 A Root Cause|QID|38655|PRE|38641|M|51.48,56.83|N|From Isoraen Nightstar.|
 C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|S|N|Kill demons, chop down entangling roots as you go to complete the bonus objective.|RANK|2|
 C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to collect the corrupted root samples.|
+K Kill Gravax the Desecrator|QID|38656|M|56.40,55.58|T|Gravax|ITEM|124131|N|Group needed, unless you happen to have one of the druid artifacts that drop near Flight Point|RANK|2|
+A Mark of the Demon|QID|38656|ACTIVE|38656|M|56.40,55.58|U|124131|N|Auto Accepted from UI Alert|RANK|2|
 C Tears for Fears|QID|38662|M|59.19,54.03|NC|N|Listen to the dialog|
-C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to collect the corrupted root samples.|
 C Root Cause|QID|38655|M|59.11,54.33|US|NC|N|Finish collecting any needed samples on your way back to the inner temple.|
 C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|US|N|Optional - Finish up the bonus objective.|RANK|2|
 t Defend The Temple-Bonus Objective|QID|39029|M|58.17,57.83|N|Auto turned in when complete.|RANK|2|
 T Root Cause|QID|38655|M|51.49,56.85|N|To Isoraen Nightstar.|
 T Tears for Fears|QID|38662|M|51.43,57.01|N|To Lyanis Moonfall.|
 A The Die is Cast|QID|38663|PRE|38662|M|51.43,57.01|N|From Lyanis Moonfall.|
+t Mark of the Demon|QID|38656|M|53.71,55.97|N|To Isorarn Nightstar. (If done AFTER turning in the Tears, He is at these coords)|
 
 A A Village in Peril|QID|38643|M|54.79,52.80|N|From Darcy Heathrow.| ; this quest invalidates 39149, which is not including in guide.
 R Bradensbrook|QID|38643|M|53.44,50.25;42.35,59.01|CS|N|Follow the road into Bradensbrook.|RANK|-1|
 $ Share Marius and Tehd Adventures|QID|44070|M|50.66,49.72;48.94,47.21;49.15,49.54|CS|ITEM|132359|T|Gathenak|N|Follow this path down to find Marius and Tehd and share in their adventures. Silver-Kill for treasure and resources.|RANK|2|
-$ Old Bear Trap|QID|39357|M|48.10,47.18;47.09,58.04|CS|ITEM|130214|T|Mad Henryk|N|Follow the path back up and across the road. Get close to the trap to start the vignette.|RANK|2|
+$ Old Bear Trap|QID|39357|M|47.20,57.99|ITEM|130214|T|Mad Henryk|N|Get close to the trap to start the vignette.|RANK|2|
 $ Treasure|QID|39083|M|44.00,61.57;45.14,61.81;45.12,61.14|CS|N|Jump off the rocky outcropping into the tree to loot chest for treasure and resources.|RANK|2|
 T A Village in Peril|QID|38643|M|42.35,59.01|N|To Mayor Heathrow.|
 A Children of the Night|QID|38645|PRE|38643+39149|M|42.48,58.98|N|From Commander Jarod Shadowsong.|
@@ -428,7 +480,7 @@ A Kur'talos Ravencrest|QID|38718|PRE|38691|M|40.85,53.01|N|From Commander Jarod 
 C Kur'talos Ravencrest|QID|38718|M|40.89,53.00|QO|1|NC|N|Click on the banner to exame it.|
 T Kur'talos Ravencrest|QID|38718|M|40.74,53.01|N|To Commander Jarod Shadowsong.|
 A Maiev's Trail|QID|38714|PRE|38718|M|40.74,53.01|N|From Commander Jarod Shadowsong. If he disappears, run out of the room and back in and he reappears.|
-A The Rooks Guard|QID|38715|PRE|38718|M|40.74,53.01|N|From Commander Jarod Shadowsong.|
+A The Rook's Guard|QID|38715|PRE|38718|M|40.74,53.01|N|From Commander Jarod Shadowsong.|
 R Ravencourt|QID|38715|M|39.06,53.03;38.96,52.44|CS|N|Run out of this chamber and up into the hold courtyard.|RANK|-1|
 U Inscription on tomb|QID|38772|QO|1|M|37.96,52.81|N|Silver - Click on the nameplate to summon Theryssia and put her to rest.|T|Theryssia|RANK|2|
 A Black Rook Hold-Bonus Objective|QID|38716|PRE|38718|M|39.25,53.55|N|Auto accepted as you enter this area.|RANK|2|LVL|-109|
@@ -470,11 +522,10 @@ A Malfurion's Fury|QID|38595|PRE|38663|M|52.45,63.34|N|From Ysera.|
 C Malfurion's Fury|QID|38595|M|52.45,63.34|CHAT|N|Tell Ysera you are ready.|
 T Malfurion's Fury|QID|38595|M|60.56,61.43|N|To Ysera.|
 A To Old Friends|QID|38582|PRE|38595|M|60.56,61.43|N|From Ysera.|
-C To Old Friends|QID|38582|M|65.61,56.44|QO|1|S|N|Use extra action button to target corrupted plants.|
-$ Treasure|QID|38782|M|66.15,56.27;67.21,59.29|CS|N|Loot for a bit of treasure and resources. This is inside the cave, where you kill Botanist Darkgrove, currently bugged and not available during the phase you are killing Lyrathos, so get it now or after you turn in the quest.|RANK|2|;chest disappeared when i killed lyrathos. so loot it first...
-C To Old Friends|QID|38582|M|65.61,56.44|QO|1|US|N|Use extra action button to target corrupted plants.|;this step can be removed if phasing bug fixxed
+C To Old Friends|QID|38582|M|65.61,56.44|QO|1|N|Use extra action button to target corrupted plants.|
 C To Old Friends|QID|38582|M|65.92,56.35|QO|2|N|Enter Darkgrove Cavern.|
 C To Old Friends|QID|38582|M|67.29,58.07|QO|3|N|Kill Botanist Darkgrove.|T|Lyrathos Darkgrove|
+$ Treasure|QID|38782|M|66.15,56.27;67.21,59.29|CS|N|Loot for a bit of treasure and resources. This is inside the cave, where you kill Botanist Darkgrove.|RANK|2|;phasing seems fixed 1/12/17
 T To Old Friends|QID|38582|M|64.88,61.36|N|To Ysera.|
 A The Demon's Trail|QID|38753|PRE|38582|M|64.88,61.36|N|From Ysera.|
 C The Demon's Trail|QID|38753|M|67.36,56.45|NC|N|Andu'talah Searched|
@@ -489,7 +540,7 @@ A Wormtalon Wreckage|QID|41707|PRE|41056|M|69.47,49.34|N|From Aldos Duskwing.|
 A Lost in Retreat|QID|38671|PRE|41056|M|69.45,49.37|N|From Mender Onelle.|
 C Wormtalon Wreckage|QID|41707|M|66.86,50.18|S|N|As you go about your other tasks, kill Wormtalon Harpy.|
 C Dark Side of the Moon|QID|41890;41708|M|67.14,50.45|QO|1|N|Meet Tyrande in Shadowfen.|
-C Dark Side of the Moon|QID|41890;41708|M|66.87,50.12|QO|2|N|Guard Tyrande During her Vigil.|
+C Dark Side of the Moon|QID|41890;41708|M|66.87,50.12|QO|2|CHAT|N|Tell Tyrande that you are ready to guard her during her vigil, then kill the harpys that show up.|
 T Dark Side of the Moon|QID|41890;41708|M|66.93,50.14|N|To Tyrande Whisperwind.|
 A Regroup at the Refuge|QID|43576|PRE|41890;41708|M|66.93,50.14|N|From Tyrande Whisperwind.|
 C Lost in Retreat|QID|38671|M|65.12,51.22|NC|S|N|Pick up the Shadowfen Heirlooms|
@@ -543,14 +594,14 @@ t Ruins of Shala'nir-Bonus Objective|QID|38748|M|61.52,35.71|N|Auto Turned in wh
 T Close Enough to Touch|QID|38687;41763|M|57.81,38.58|N|To Tyrande Whisperwind.|
 A The Fate of Val'sharah|QID|38743|PRE|38687;41763|M|57.81,38.58|N|From Tyrande Whisperwind.|
 C The Fate of Val'sharah|QID|38743|M|57.81,38.58|QO|1|N|Speak to Tyrande|CHAT|
-C The Fate of Val'sharah|QID|38743|M|57.81,38.58|QO|2|N|Fight Ysera to wake her from the nightmare.|
+C The Fate of Val'sharah|QID|38743|M|53.67,55.90|QO|2|N|Fight Ysera to wake her from the nightmare.|
 T The Fate of Val'sharah|QID|38743|M|53.69,55.90|N|To Tyrande Whisperwind.|
-A Enter the Nightmare|QID|40567|PRE|38743|M|53.69,55.90|N|From Tyrande Whisperwind. This is a group/instance quest and is not covered by this guide.|
-A The Tears of Elune|QID|40890|PRE|38743|M|53.45,55.96|N|From The Tears of Elune.|
+A Enter the Nightmare|QID|40567|PRE|38743|M|53.69,55.90|N|From Tyrande Whisperwind. This is a group/instance quest and is not covered by this guide. If/when you complete it, you need to fly out to Garden of the Moon in Val'sharah to turn it in at the same place you picked it up.|
+A Enter the Nightmare|QID|40567|PRE|38743|M|53.69,55.90|NA|N|From Tyrande Whisperwind. This is a group/instance quest and is not covered by this guide. If/when you complete it, you need to fly out to Garden of the Moon in Val'sharah to turn it in at the same place you picked it up.|
+A The Tears of Elune|QID|40890|PRE|38743|M|53.45,55.96|N|From The Tears of Elune. |
+
 U Dalaran Hearthstone|QID|38743|M|56.74,57.72|N|Use your Dalaran Hearthstone or take the flight master back to Dalaran.|U|140192|
-
-A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran@Dalaran70|N|Someone will follow you around Dalaran until you accept this quest.|PRE|40374+40375|
-
+A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran@Dalaran70|N|Someone will follow you around Dalaran until you accept this quest.|;do not add the pre's grail tells you to. they are DH only!
 ;44550 Death Knight - Called to Acherus
 ;44087/42666 Demon Hunter - Return to the Fel Hammer
 ;42516 Druid - Growing Power
@@ -565,8 +616,16 @@ A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844
 ;42597 Warrior - Odyn's Summons
 C The Tears of Elune|QID|40890|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used|
 T The Tears of Elune|QID|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Tears of Elune" on the wall.|
-A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|Auto Accepted from UI.|
-A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|Auto Accepted from UI.|
+A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|40890|
+A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213;44545|
+A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213;44547|
+C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
+t Pressing the Assault|QID|44545|N|To UI Alert.|
+t Isle Hopping|QID|44547|N|To UI Alert.|
+t Scouring What Remains|QID|44548|N|To UI Alert.|
+
 D On to Class Halls|N|This ends Val'sharah and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Val'sharah and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
 D On to Class Halls|N|This ends Stormheim and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|

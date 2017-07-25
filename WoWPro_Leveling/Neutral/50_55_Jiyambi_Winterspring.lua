@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_neutral
+-- Date: 2017-03-17 00:13
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3264/revisions/26462/view
 -- Date: 2014-06-02 16:07
 -- Who: Ludovicus
 -- Log: Set guide level
@@ -96,7 +101,7 @@ A Delivery for Donova|QID|28524|M|21.07,46.25|N|From Salfa.|
 A Winterfall Activity|QID|28522|M|21.07,46.25|N|From Salfa.|
 R Snowden Chalet|QID|28524|M|25.15,58.52|N|Follow the road.|
 T Delivery for Donova|QID|28524|M|25.15,58.52|N|To Donova Snowden.|
-A Threat of the Winterfall|QID|28460|M|25.15,58.52|N|From Donova Snowden.|
+A Threat of the Winterfall|QID|28460|PRE|28524+28544+28545+28768|M|25.15,58.52|N|From Donova Snowden.|
 A Falling to Corruption|QID|28464|M|25.15,58.52|N|From Donova Snowden.|
 A Doin' De E'ko Magic|QID|28540|M|25.16,58.50|N|From Witch Doctor Mau'ari.|
 C Doin' De E'ko Magic|QID|28540|M|28.90,58.62|N|Kill and loot Rimepelt, on a hill to the east.|
@@ -106,18 +111,18 @@ C Winterfall Activity|QID|28522|S|M|24.80,49.13|N|Kill and loot furbolgs in the 
 
 A Strange Life Forces|QID|28656|M|24.45,47.67|N|Kill Winterfall Furbolgs. The quest will eventually appear automatically.|S|
 T Falling to Corruption|QID|28464|M|24.45,47.67|N|To the cauldron in the furbolg camp.|
-A Mystery Goo|QID|28467|M|24.45,47.67|N|From the cauldron in the furbolg camp.|
+A Mystery Goo|QID|28467|PRE|28464|M|24.45,47.67|N|From the cauldron in the furbolg camp.|
 A Strange Life Forces|QID|28656|M|24.45,47.67|N|Kill Winterfall Furbolgs. The quest will eventually appear automatically.|US|
 C Threat of the Winterfall|QID|28460|US|M|27.09,48.97|N|Kill furbolgs in the Frostfire Hot Springs area.|
 C Winterfall Activity|QID|28522|US|M|24.80,49.13|N|Kill and loot furbolgs in the Frostfire Hot Springs area.|
 T Strange Life Forces|QID|28656|M|25.18,58.53|N|To Witch Doctor Mau'ari.|
 T Threat of the Winterfall|QID|28460|M|25.11,58.51|N|To Donova Snowden.|
 T Mystery Goo|QID|28467|M|25.11,58.51|N|To Donova Snowden.|
-A Winterfall Runners|QID|28469|M|25.11,58.51|N|From Donova Snowden.|
+A Winterfall Runners|QID|28469|PRE|28467|M|25.11,58.51|N|From Donova Snowden.|
 C Winterfall Runners|QID|28469|M|25.01,55.44|N|The runners patrol the road to the north.|
 T Winterfall Runners|QID|28469|M|25.12,58.53|N|To Donova Snowden.|
-A High Chief Winterfall|QID|28470|M|25.12,58.53|N|From Donova Snowden.|
-A Scalding Signs|QID|28530|M|25.12,58.53|N|From Donova Snowden.|
+A High Chief Winterfall|QID|28470|PRE|28469|M|25.12,58.53|N|From Donova Snowden.|
+A Scalding Signs|QID|28530|PRE|28467|M|25.12,58.53|N|From Donova Snowden.|
 C High Chief Winterfall|QID|28470|M|36.91,55.61|N|Kill and loot the chief in the camp to the east.|
 
 A The Final Piece|QID|28471|U|12842|M|36.91,55.61|N|Use the Crudely Written Log you looted from the chief.|
@@ -131,27 +136,27 @@ R Lake Kel'Theril|QID|28472|M|46.85,53.86|N|Follow the road east.|
 T Words of the High Chief|QID|28472|M|46.85,53.86|N|To Kelek Skykeeper. Congrats on a very nice trinket!|
 A The Ruins of Kel'Theril|QID|28479|PRE|28472|M|46.85,53.86|N|From Kelek Skykeeper.|
 T The Ruins of Kel'Theril|QID|28479|M|50.67,54.87|N|To the Kaldorei Spirit.|
-A Pride of the Highborne|QID|28513|M|50.67,54.87|N|From the Kaldorei Spirit.|
+A Pride of the Highborne|QID|28513|PRE|28479|M|50.67,54.87|N|From the Kaldorei Spirit.|
 C Pride of the Highborne|QID|28513|M|52.73,52.91|N|Kill the spirits on the north side of the ruins.|
 T Pride of the Highborne|QID|28513|M|50.74,54.85|N|To the Kaldorei Spirit.|
 
-A Descendants of the Highborne|QID|28534|M|50.74,54.85|N|From the Kaldorei Spirit.|
+A Descendants of the Highborne|QID|28534|PRE|28513|M|50.74,54.85|N|From the Kaldorei Spirit.|
 T Descendants of the Highborne|QID|28534|M|50.81,54.94|N|To the Quel'dorei Spirit.|
-A Legacy of the High Elves|QID|28518|M|50.81,54.94|N|From the Quel'dorei Spirit.|
+A Legacy of the High Elves|QID|28518|PRE|28534|M|50.81,54.94|N|From the Quel'dorei Spirit.|
 C Legacy of the High Elves|QID|28518|M|53.96,57.83|N|Kill and loot Archmage Maenius in the ruins to the south.|
 T Legacy of the High Elves|QID|28518|M|50.82,55.03|N|To the Quel'dorei Spirit.|
-A Descendants of the High Elves|QID|28535|M|50.82,55.03|N|From the Quel'dorei Spirit.|
+A Descendants of the High Elves|QID|28535|PRE|28518|M|50.82,55.03|N|From the Quel'dorei Spirit.|
 T Descendants of the High Elves|QID|28535|M|50.68,55.10|N|To the Sin'dorei Spirit.|
-A Pain of the Blood Elves|QID|28519|M|50.68,55.10|N|From the Sin'dorei Spirit.|
+A Pain of the Blood Elves|QID|28519|PRE|28535|M|50.68,55.10|N|From the Sin'dorei Spirit.|
 C Pain of the Blood Elves|QID|28519|M|49.38,57.64|N|Kill wretched spirits to the south-west.|
 T Pain of the Blood Elves|QID|28519|M|50.64,55.05|N|To the Sin'dorei Spirit.|
-A The Curse of Zin-Malor|QID|28536|M|50.64,55.05|N|From the Sin'dorei Spirit.|
+A The Curse of Zin-Malor|QID|28536|PRE|28519|M|50.64,55.05|N|From the Sin'dorei Spirit.|
 T The Curse of Zin-Malor|QID|28536|M|46.87,53.83|N|To Kelek Skykeeper.|
-A In Pursuit of Shades|QID|28537|M|46.87,53.83|N|From Kelek Skykeeper.|
+A In Pursuit of Shades|QID|28537|PRE|28536|M|46.87,53.83|N|From Kelek Skykeeper.|
 C In Pursuit of Shades|QID|28537|M|50.71,63.60|N|Follow the frozen river to the south. There will be arcane "boulders" rolling down it - dodge them, they knock you back. You should eventually come to the Shade of the Spiritspeaker - kill and loot him.|
 T In Pursuit of Shades|QID|28537|M|46.82,53.89|N|To Kelek Skykeeper.|
 
-A Trailing the Spiritspeaker|QID|28848|M|46.82,53.89|N|From Kelek Skykeeper.|
+A Trailing the Spiritspeaker|QID|28848|PRE|28537|M|46.82,53.89|N|From Kelek Skykeeper.|
 R Everlook|QID|28848|M|59.65,50.46|N|Follow the road east.|
 T Trailing the Spiritspeaker|QID|28848|M|59.65,50.46|N|To Nymn.|
 A Hammer Time|QID|28609|M|59.85,49.17|N|From Lilith the Lithe.|
@@ -175,7 +180,7 @@ T Seril's Boast|QID|28627|M|59.79,49.61|N|To Deez Rocksnitch.|
 
 A Fresh From The Hills|QID|28632|PRE|28627|M|59.79,49.61|N|From Deez Rocksnitch.|
 A Are We There, Yeti?|QID|28629|PRE|28627|M|59.33,49.84|N|From Umi Rumplesnicker.|
-A The Perfect Horns|QID|28631|M|59.34,49.83|N|From Umi Rumplesnicker.|
+A The Perfect Horns|QID|28631|PRE|28627|M|59.34,49.83|N|From Umi Rumplesnicker.|
 A Echo Three|QID|28630|PRE|28627|M|59.33,49.84|N|From Umi Rumplesnicker.|
 C Are We There, Yeti?|QID|28629|S|M|71.73,51.91|N|Kill and loot yetis.|
 T Echo Three|QID|28630|M|67.03,55.11|N|To Echo Three, the box outside the yeti cave.|
@@ -185,7 +190,7 @@ C Are We There, Yeti?|QID|28629|US|M|71.73,51.91|N|Kill and loot yetis.|
 T Are We There, Yeti?|QID|28629|M|59.35,49.84|N|To Umi Rumplesnicker, back in Everlook.|
 T The Perfect Horns|QID|28631|M|59.31,49.79|N|To Umi Rumplesnicker.|
 
-A Yetiphobia|QID|28722|M|59.31,49.79|N|From Umi Rumplesnicker.|
+A Yetiphobia|QID|28722|PRE|28629+28631|M|59.31,49.79|N|From Umi Rumplesnicker.|
 C Yetiphobia|QID|28722|U|12928|M|60.04,50.87|N|Go over to Legacki, target her and use the yeti device.|T|Legacki|
 T Yetiphobia|QID|28722|M|59.30,49.81|N|To Umi Rumplesnicker.|
 T Fresh From The Hills|QID|28632|M|59.79,49.62|N|To Deez Rocksnitch.|
@@ -263,7 +268,7 @@ T The Pursuit of Umbranse|QID|28847|M|58.03,63.76|N|To Haleh.|
 A Altered Beasts|QID|28837|PRE|28847|M|55.24,67.70|N|From Haleh.|
 C Altered Beasts|QID|28837|N|Kill and loot altered beasts. They can be found all around Mazthoril.|
 T Altered Beasts|QID|28837|M|58.05,63.87|N|To Haleh, back at the Beryl Egress.|
-A The Owlbeasts' Defense|QID|28838|M|58.05,63.87|N|From Haleh.|
+A The Owlbeasts' Defense|QID|28838|PRE|28837|M|58.05,63.87|N|From Haleh.|
 C The Owlbeasts' Defense|QID|28838|NC|M|57.15,75.40|N|In a chest at the abandoned camp in Dun Mandarr, to the south.|
 T The Owlbeasts' Defense|QID|28838|N|(UI Alert)|
 A Magic Prehistoric|QID|28839|PRE|28838|N|(UI Alert)|

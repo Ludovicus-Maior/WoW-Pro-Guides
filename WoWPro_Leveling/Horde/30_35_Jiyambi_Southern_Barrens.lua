@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
+-- Date: 2017-03-15 23:22
+-- Who: Ludovicus
+-- Log: Added PREs to JiySou3035
+
+-- URL: http://wow-pro.com/node/3236/revisions/27457/view
 -- Date: 2016-06-28 07:33
 -- Who: Emmaleah
 -- Log: Updated QOs to new format for Honor the Dead
@@ -112,7 +117,7 @@ T Signals in the Sky|QID|24515|M|44.17,33.71|N|To Makaba Flathoof.|
 
 A Keeping the Dogs at Bay|QID|24525|M|44.17,33.71|N|From Makaba Flathoof.|
 A Bad to Worse|QID|24529|M|44.19,33.69|N|From Makaba Flathoof.|
-A When Plants Attack|QID|24539|M|44.33,33.38|N|From Lane Tallgrass.|
+A When Plants Attack|QID|24539|PRE|24515|M|44.33,33.38|N|From Lane Tallgrass.|
 C When Plants Attack|QID|24539|M|45.61,31.99|N|Free refugees from Overgrowth.|S|
 C Keeping the Dogs at Bay|QID|24525|M|43.12,42.74|N|Kill Hecklefang Scavengers.|S|
 C Bad to Worse|QID|24529|M|42.11,36.73|N|Kill 8 Quillboar and free 5 refugees.|
@@ -154,7 +159,7 @@ C The Nightmare Scar|QID|24601|M|48.17,38.72|N|Speak to Naralex when you are rea
 T The Nightmare Scar|QID|24601|M|48.18,38.70|N|To Naralex.|
 A Winnoa Pineforest|QID|24807|PRE|24601|M|48.18,38.70|N|From Naralex.|
 T A Family Divided|QID|24543|M|41.62,46.57|N|To Kirge Sternhorn.|
-A A Line in the Dirt|QID|24546|M|41.62,46.57|N|From Kirge Sternhorn.|
+A A Line in the Dirt|QID|24546|PRE|24543|M|41.62,46.57|N|From Kirge Sternhorn.|
 T Winnoa Pineforest|QID|24807|M|41.62,46.57|N|Winnoa Pineforest.|
 A Lion's Pride|QID|24552|M|41.56,47.13|N|From Jorn Skyseer.|
 A Meet the New Boss|QID|24551|M|41.70,46.71|N|From Tatternack Steelforge.|
@@ -232,18 +237,18 @@ C Don't Stop Bereavin'|QID|24603|M|40.73,80.85|N|Kill Razormane Seers, Warfrenzy
 T Don't Stop Bereavin'|QID|24603|M|44.46,88.03|N|To Mankrik.|
 A Mangletooth|QID|24608|PRE|24603|M|44.46,88.03|N|From Mankrik.|
 T Blood of the Barrens|QID|24606|M|45.15,85.41|N|To Mahka.|
-A Echoes of Agamaggan|QID|24653|M|45.15,85.41|N|From Mahka.|
+A Echoes of Agamaggan|QID|24653|PRE|24606|M|45.15,85.41|N|From Mahka.|
 C Echoes of Agamaggan|QID|24653|M|41.46,84.06|S|N|Loot Polished Boar Skulls from the ground.|
 C Mangletooth|QID|24608|M|37.96,81.81|N|Kill Mangletooth.|
 C Echoes of Agamaggan|QID|24653|M|41.46,84.06|US|N|Loot Polished Boar Skulls from the ground.|
 T Mangletooth|QID|24608|M|44.49,88.02|N|To Mankrik.|
 T Echoes of Agamaggan|QID|24653|M|45.15,85.41|N|To Mahka.|
-A Mahka's Plea|QID|24633|M|45.15,85.41|N|From Mahka.|
+A Mahka's Plea|QID|24633|PRE|24653|M|45.15,85.41|N|From Mahka.|
 T Mahka's Plea|QID|24633|M|44.49,88.02|N|To Mankrik.|
 C The Disturbed Earth|RANK|2|QID|24824|M|48.22,81.11|N|Kill elementals and loot them.|
 T The Disturbed Earth|RANK|2|QID|24824|M|45.06,85.36|N|To Tauna Skychaser.|
 T Tauren Vengeance|QID|24632|M|49.15,82.34|N|To Gann Stonespire.|
-A A Weezil in the Henhouse|QID|24684|M|49.19,82.36|N|From Gann Stonespire.|
+A A Weezil in the Henhouse|QID|24684|PRE|24632|M|49.19,82.36|N|From Gann Stonespire.|
 C A Weezil in the Henhouse|QID|24684|M|50.74,86.78|N|Kill dwarves on your way in.|
 T A Weezil in the Henhouse|QID|24684|M|50.74,86.78|N|To Weezil Slipshadow.|
 

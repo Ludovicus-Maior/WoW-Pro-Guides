@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2017-03-11 20:47
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3216/revisions/27619/view
 -- Date: 2016-08-29 22:50
 -- Who: Fluclo
 -- Log: WoWPro:GuideLevels changed from 8 to 10, and removing redundant L step from beginning of guide.
@@ -165,7 +170,7 @@ T Hero's Call: Loch Modan!|QID|28567|M|14,56.49|N|To Pilot Hammerfoot.|O|
 
 A The Lost Pilot|QID|26854|M|14,56.49|N|From Pilot Hammerfoot.|
 T The Lost Pilot|QID|26854|M|87.63,50.14|Z|Dun Morogh|N|To A Dwarven Corpse.|
-A A Pilot's Revenge|QID|26855|M|87.63,50.14|Z|Dun Morogh|N|From A Dwarven Corpse.|
+A A Pilot's Revenge|QID|26855|PRE|26854|M|87.63,50.14|Z|Dun Morogh|N|From A Dwarven Corpse.|
 C A Pilot's Revenge|QID|26855|M|87.46,50.02|Z|Dun Morogh|N|Kill and Mangeclaw. He appears after you accept the quest.|
 T A Pilot's Revenge|QID|26855|M|14,56.49|N|To Pilot Hammerfoot.|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
+-- Date: 2017-03-15 23:33
+-- Who: Ludovicus
+-- Log: Added PREs to JiyTan4550
+
+-- URL: http://wow-pro.com/node/3260/revisions/26446/view
 -- Date: 2014-06-02 15:04
 -- Who: Ludovicus
 -- Log: Level Setting
@@ -107,7 +112,7 @@ C Cutting Losses|QID|24932|S|M|55.69,62.41|N|Kill the silithid in the area.|
 C A Few Good Goblins|QID|25072|M|54.53,65.59|N|Attack the cocoons to release the goblins.|
 C Cutting Losses|QID|24932|US|M|55.69,62.41|N|Kill the silithid in the area.|
 T Cutting Losses|QID|24932|M|55.64,60.83|N|Back to Zeke Bootscuff.|
-A Chicken of the Desert|QID|24933|M|55.64,60.83|N|From Zeke Bootscuff.|
+A Chicken of the Desert|QID|24933|PRE|24932|M|55.64,60.83|N|From Zeke Bootscuff.|
 T A Few Good Goblins|QID|25072|M|55.64,60.83|N|To Zeke Bootscuff.|
 A Gazer Tag|QID|24931|RANK|2|PRE|24932|M|55.26,60.20|N|From Narain Soothfancy.|
 C Gazer Tag|QID|24931|RANK|2|S|M|52.51,54.90|N|From the basilisks spread out to the north of the camp.|
@@ -116,12 +121,12 @@ C Gazer Tag|QID|24931|RANK|2|US|M|52.51,54.90|N|From the basilisks spread out to
 T Gazer Tag|QID|24931|RANK|2|M|55.28,60.25|N|To Narain Soothfancy.|
 T Chicken of the Desert|QID|24933|M|55.63,60.79|N|To Zeke Bootscuff.|
 
-A A Great Idea|QID|24951|M|55.60,60.80|N|From Zeke Bootscuff.|
+A A Great Idea|QID|24951|PRE|24933|M|55.60,60.80|N|From Zeke Bootscuff.|
 T Gazer Tag|QID|24931|M|55.27,60.19|N|To Narain Soothfancy.|
 C A Great Idea|QID|24951|U|52031|M|54.48,64.19|N|Look for the big fat beetle, they are usually accompanied by a tiny little one. Throw the bait and WALK back. Do not mount, this will de-spawn your bug.|
 T A Great Idea|QID|24951|M|55.65,60.79|N|To Zeke Bootscuff.|
 
-A Just Trying to Kill Some Bugs|QID|24953|M|55.65,60.79|N|From Zeke Bootscuff.|
+A Just Trying to Kill Some Bugs|QID|24953|PRE|24951|M|55.65,60.79|N|From Zeke Bootscuff.|
 R Talk to Narain Soothfancy.|QID|24953|CC|M|55.25,60.26|N|All that meat grinding was worth it, now you get to pilot a silithid!|
 R Go here|QID|24953|CC|M|54.66,69.60|N|Go to the hole here; it's the first one you see on the way down the ramp and you will be heading south west as you enter.|
 R Then here...|QID|24593|CC|M|54.19,70.07|N|Go to the cave mouth here, and take the left fork.|
@@ -154,11 +159,11 @@ T Sandscraper's Treasure|QID|25014|M|44.58,52.65|N|To Megs Dreadshredder.|
 A Andoren Will Know|QID|25018|PRE|25014|M|44.58,52.65|N|From Megs Dreadshredder.|
 H Gadgetzan|QID|25111|RANK|2|M|52.25,28.04|N|Hearth if you set your hearth here, otherwise ride.|
 T Scavengers Scavenged|QID|25111|RANK|2|M|52.25,28.04|N|To Driz Plunkbow.|
-A Blisterpaw Butchery|QID|25115|RANK|2|M|52.25,28.04|N|From Driz Plunkbow.|
+A Blisterpaw Butchery|QID|25115|PRE|25111|RANK|2|M|52.25,28.04|N|From Driz Plunkbow.|
 C Blisterpaw Butchery|QID|25115|RANK|2|U|52715|M|46.97,28.61|N|Use the bot on hyena corpses - you can find hyenas west of Gadgetzan.|
 T Blisterpaw Butchery|QID|25115|RANK|2|M|52.25,28.05|N|To Driz Plunkbow.|
 
-A Sandsorrow Watch|QID|25091|RANK|2|M|52.25,28.05|N|From Driz Plunkbow.|
+A Sandsorrow Watch|QID|25091|PRE|25115|RANK|2|M|52.25,28.05|N|From Driz Plunkbow.|
 R Sandsorrow Watch|QID|25521|RANK|2|M|42.46,24.24|N|It's located in the north-western corner of the zone.|
 T Sandsorrow Watch|QID|25091|RANK|2|M|42.44,24.10|N|To Trenton Lighthammer.|
 A I'm With Scorpid|QID|25521|RANK|2|M|42.46,24.24|N|From Gus Rustflutter.|
@@ -168,9 +173,9 @@ C Blood to Thrive|QID|25021|RANK|2|M|36.42,24.46|N|Kill and loot trolls. Troll z
 C I'm With Scorpid|QID|25521|US|RANK|2|M|42.14,26.16|N|Kill and loot scorpids in the area.|
 T Blood to Thrive|QID|25021|RANK|2|M|42.29,23.94|N|Back to Mazoga.|
 
-A Sang'thraze the Deflector|QID|25025|RANK|2|M|42.29,23.94|N|From Mazoga.|
+A Sang'thraze the Deflector|QID|25025|PRE|25021|RANK|2|M|42.29,23.94|N|From Mazoga.|
 T I'm With Scorpid|QID|25521|RANK|2|M|42.47,24.24|N|To Gus Rustflutter.|
-A Gargantapid|QID|25522|RANK|2|M|42.46,24.24|N|From Gus Rustflutter.|
+A Gargantapid|QID|25522|PRE|25521|RANK|2|M|42.46,24.24|N|From Gus Rustflutter.|
 C Gargantapid|QID|25522|RANK|2|M|46.11,23.71|N|In a cave to the east.|
 C Sang'thraze the Deflector|QID|25025|RANK|2|M|44.98,44.68|N|In the center of the desert, you'll find a wind elemental. Kill and loot him.|
 T Andoren Will Know|QID|25018|M|33.32,77.00|N|To Examiner Andoren Dawnrise.|
@@ -186,15 +191,15 @@ T Laying Claim|QID|25019|M|33.30,76.99|N|To Examiner Andoren Dawnrise.|
 A Ancient Obstacles|QID|25017|PRE|25019|M|33.30,76.99|N|From Examiner Andoren Dawnrise.|
 C Ancient Obstacles|QID|25017|M|37.24,75.11|N|Kill golems outside of Uldum.|
 T Ancient Obstacles|QID|25017|M|33.29,77.01|N|To Examiner Andoren Dawnrise.|
-A The Crumbling Past|QID|25068|M|33.29,77.01|N|From Examiner Andoren Dawnrise.|
-A The Secrets of Uldum|QID|25069|M|33.29,77.01|N|From Examiner Andoren Dawnrise.|
+A The Crumbling Past|QID|25068|PRE|25017|M|33.29,77.01|N|From Examiner Andoren Dawnrise.|
+A The Secrets of Uldum|QID|25069|PRE|25017|M|33.29,77.01|N|From Examiner Andoren Dawnrise.|
 C The Crumbling Past|QID|25068|M|84.73,41.31|Z|Uldum|S|N|Kill Earthen and loot them.|
 T The Secrets of Uldum|QID|25069|M|84.48,43.25|Z|Uldum|N|To the Antediluvean Chest inside Uldum's antechamber.|
-A What Lies Within|QID|25070|M|84.48,43.25|Z|Uldum|N|From the Antediluvean Chest. Be prepared to defend yourself!|
+A What Lies Within|QID|25070|PRE|25069;25566|M|84.48,43.25|Z|Uldum|N|From the Antediluvean Chest. Be prepared to defend yourself!|
 C What Lies Within|QID|25070|M|84.47,43.12|Z|Uldum|N|Kill the guardian.|
 T What Lies Within|QID|25070|M|84.48,43.22|Z|Uldum|N|To the Antediluvean Chest.|
 
-A The Grand Tablet|QID|25107|M|84.45,43.24|Z|Uldum|N|From the Antediluvean Chest.|
+A The Grand Tablet|QID|25107|PRE|25070|M|84.45,43.24|Z|Uldum|N|From the Antediluvean Chest.|
 C The Crumbling Past|QID|25068|M|84.73,41.31|Z|Uldum|US|N|Kill Earthen and loot them.|
 T The Grand Tablet|QID|25107|M|33.28,77.02|N|To Examiner Andoren Dawnrise.|
 T The Crumbling Past|QID|25068|M|33.28,77.02|N|To Examiner Andoren Dawnrise.|
@@ -202,14 +207,14 @@ A Tropical Paradise Beckons|QID|24911|M|33.23,76.93|N|From Sherm. Pick this up i
 H Gadgetzan|QID|25522|M|52.25,28.04|N|Hearth if you set your hearth here, otherwise fly.|
 T Gargantapid|QID|25522|RANK|2|M|42.48,24.22|N|Back to Gus Rustflutter.|
 T Sang'thraze the Deflector|QID|25025|RANK|2|M|42.29,23.87|N|To Mazoga.|
-A Darkest Mojo|QID|25026|RANK|2|M|42.29,23.87|N|From Mazoga.|
+A Darkest Mojo|QID|25026|PRE|25025|RANK|2|M|42.29,23.87|N|From Mazoga.|
 C Darkest Mojo|QID|25026|RANK|2|M|38.29,23.41|N|From the zombies. You can right-click the graves to make a zombie spawn.|
 T Darkest Mojo|QID|25026|RANK|2|M|42.27,23.90|N|Back to Mazoga.|
 
-A Secrets in the Oasis|QID|25032|RANK|2|M|42.27,23.90|N|From Mazoga.|
+A Secrets in the Oasis|QID|25032|PRE|25026|RANK|2|M|42.27,23.90|N|From Mazoga.|
 C Secrets in the Oasis|QID|25032|RANK|2|M|39.13,35.06|N|Right-click the bit of muck in the bottom of the pool, then prepare to defend yourself!|
 T Secrets in the Oasis|QID|25032|RANK|2|M|42.45,24.04|N|To Trenton Lighthammer.|
-A Into Zul'Farrak|QID|25556|RANK|2|M|42.45,24.04|N|From Trenton Lighthammer. Pick this up if you plan to do Zul'Farrak.|
+A Into Zul'Farrak|QID|25556|PRE|25032|RANK|2|M|42.45,24.04|N|From Trenton Lighthammer. Pick this up if you plan to do Zul'Farrak.|
 T The Thunderdrome!|QID|26896|M|51.81,28.02|N|To Dr. Dealwell.|
 N Group Quest|QID|25591|N|The last few quests require a small group to complete. They are all very fast, don't require you to leave Gadgetzan, and result in a very nice blue quality reward, so I definitely recommend trying to finish them up before you head to the next zone. That said, they are completely optional and you can simply skip the next step to move on to the next guide.|
 

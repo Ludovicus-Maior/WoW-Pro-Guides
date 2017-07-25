@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
+-- Date: 2017-03-17 13:55
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3443/revisions/28286/view
+-- Date: 2017-03-05 18:53
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3443/revisions/27365/view
 -- Date: 2015-07-25 18:18
 -- Who: Ludovicus
 -- Log: Add Icon
@@ -50,7 +60,7 @@
 -- Log: Added source code page.
 
 local guide = WoWPro:RegisterGuide("LudoPilBountyA",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,90,10)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
 WoWPro:GuideIcon(guide,"ACH",3478)
 WoWPro:GuideSteps(guide, function()
@@ -65,7 +75,7 @@ N Sharing is Caring|QID|14022|N|Pass one of every dish at a Bountiful Table.|
 A Pilgrim's Bounty|QID|14022|M|61.62,74.21|Z|Stormwind City|N|From Human Commoner|
 l Bountiful Cookbook|QID|14022|M|34.15,51.52|Z|Elwynn Forest|L|46809|N|Sold by Wilmina Holbeck, near Stormwind gates.|
 U Open the Cookbook|QID|14022|U|46809|L|44860|N|Open the cookbook to get at the recipes.|
-U Recipe: Spice Bread Stuffing|QID|14022||U|44860|N|Learn to cook Stuffing, then click to complete.|
+U Recipe: Spice Bread Stuffing|QID|14022|U|44860|N|Learn to cook Stuffing, then click to complete.|
 U Recipe: Pumpkin Pie|QID|14022|U|44862|N|Learn to cook Pie, then click to complete.|
 U Recipe: Cranberry Chutney|QID|14022|U|44858|N|Lean to cook Chutney, then click to complete.|
 U Recipe: Candied Sweet Potato|QID|14022|U|44859|N|Learn to cook Yams, then click to complete.|
@@ -83,21 +93,21 @@ A Sharing a Bountiful Feast|QID|14064|M|34.17,51.08|Z|Elwynn Forest|N|From the S
 N Sharing a Bountiful Feast|QID|14064|N|Eat 5 of the 5 foods either by moving from chair to chair or passing them along|QO|Spirit of Sharing: 1/1|
 T Sharing a Bountiful Feast|QID|14064|M|34.17,51.08|Z|Elwynn Forest|N|To the Stormwind Bountiful Table Hostess.|
 T Spice Bread Stuffing|QID|14023|M|33.88,50.80|Z|Elwynn Forest|N|To Jasper Moore, Elwynn Forest.|
-A Pumpkin Pie|QID|14024|M|33.8,50.8|Z|Elwynn Forest|N|From Jasper Moore, Elwynn Forest.|
+A Pumpkin Pie|QID|14024|PRE|14023|M|33.8,50.8|Z|Elwynn Forest|N|From Jasper Moore, Elwynn Forest.|
 l Pumpkin Pie|QID|14024|L|44836 5|N|Cook up some pie|
 T Pumpkin Pie|QID|14024|M|59.81,34.34|Z|Dun Morogh|N|To Edward Winslow, near Ironforge gates. |
-A Cranberry Chutney|QID|14028|M|59.81,34.34|Z|Dun Morogh|N|From Edward Winslow, near Ironforge gates.|
+A Cranberry Chutney|QID|14028|PRE|14024|M|59.81,34.34|Z|Dun Morogh|N|From Edward Winslow, near Ironforge gates.|
 l Buy Tangy Wetland Cranberries|QID|14028|L|44854 5|N|Buy 5 Cranberries from the Pilgrim's Bounty vendor|
 l Cranberry Chutney|QID|14028|L|44840 5|N|Cook up some Chutney|
 N Sharing a Bountiful Feast|QID|14028|M|59.90,34.98|Z|Dun Morogh|N|At the Ironforge Bountiful Table, eat 5 of the 5 foods either by moving from chair to chair or passing them along.|
 T Cranberry Chutney|QID|14028|M|33.8,50.8|Z|Elwynn Forest|N|To Jasper Moore, near Stormwind gates.|
-A They're Ravenous In Darnassus|QID|14030|M|33.8,50.8|Z|Elwynn Forest|N|From Jasper Moore|
+A They're Ravenous In Darnassus|QID|14030|PRE|14028|M|33.8,50.8|Z|Elwynn Forest|N|From Jasper Moore|
 l Spice Bread|QID|14030|L|30816 5|N|Cook up some Spice Bread.|
 l Spice Bread Stuffing|QID|14030|L|44837 5|N|Cook up some stuff'n.|
 l Pumpkin Pie|QID|14030|L|44836 5|N|Cook up some pie.|
 b Teldrassil|QID|14030|M|22.79,55.94|Z|Stormwind City|N|Take the boat to Darnassus.|
 T They're Ravenous In Darnassus|QID|14030|M|61.48,49.11|Z|Darnassus|N|To Isaac Allerton, Darnassus, Warrior's Terrace.|
-A Candied Sweet Potatoes|QID|14033|M|61.4,49.2|Z|Darnassus|N|From Isaac Allerton|
+A Candied Sweet Potatoes|QID|14033|PRE|14030|M|61.4,49.2|Z|Darnassus|N|From Isaac Allerton|
 B Buy Teldrassil Sweet Potato|QID|14033|L|44855 5|N|Buy 5 Sweet Potatoes from the Pilgrim's Bounty vendor|
 l Candied Sweet Potatoes|QID|14033|L|44839 5|N|Cook up some Sweet Potatoes|
 N Sharing a Bountiful Feast|QID|14033|M|63.38,47.55|Z|Darnassus|N|Eat 5 of the 5 foods either by moving from chair to chair or passing them along, then click to complete.|
@@ -106,7 +116,7 @@ N Sharing a Bountiful Feast|QID|14033|M|76.54,52.03|Z|The Exodar|N|Eat 5 of the 
 b Darnassus|QID|14033|M|47.56,62.22|Z|The Exodar|N|Take the portal to Darnassus|
 b Stormwind City|QID|14033|M|55.05,93.43|Z|Teldrassil|N|Take the boat back to Stormwind City|
 T Candied Sweet Potatoes|QID|14033|M|34.10,51.44|Z|Elwynn Forest|N|To Gregory Tabor, |
-A Slow-roasted Turkey|QID|14035|M|34.10,51.44|Z|Elwynn Forest|N|From Gregory Tabor|
+A Slow-roasted Turkey|QID|14035|PRE|14033|M|34.10,51.44|Z|Elwynn Forest|N|From Gregory Tabor|
 K Wild Turkey|QID|14035|M|47.55,59.55|Z|Elwynn Forest|L|44834 5|N|Get the raw turkeys, anywhere in Elwynn Forest|
 l Slow-roasted Turkey|QID|14035|L|44838 5|N|Cook up the turkeys|
 b Teldrassil|QID|14035|M|22.79,55.94|Z|Stormwind City|N|Take the boat to Darnassus.|

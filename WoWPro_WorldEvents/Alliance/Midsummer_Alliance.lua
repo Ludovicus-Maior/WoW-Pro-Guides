@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2017-03-17 13:54
+-- Who: Ludovicus
+-- Log: Just 2 PREs
+
+-- URL: http://wow-pro.com/node/3406/revisions/28282/view
+-- Date: 2017-03-05 18:52
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3406/revisions/27775/view
 -- Date: 2016-09-14 17:41
 -- Who: Ludovicus
 -- Log: Dalaran City@Dalaran
@@ -95,7 +105,7 @@
 -- Log: Added source code to page.
 
 local guide = WoWPro:RegisterGuide("CraMidSumA",'WorldEvents',"Midsummer Fire Festival", "Crackerhead22", "Alliance")
-WoWPro:GuideLevels(guide,1,16,1.53571)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -111,14 +121,14 @@ A Unusual Activity |N|From the Earthen Ring Elder. |M|62.11,49.15|Z|Darnassus|QI
 A Torch Tossing |N|From the Master Fire Eater. |M|63.19,47.5|QID|11731|Z|Darnassus|
 C Torch Tossing |N|Throw the torch at the brazier with the red arrow over it 8 times.|U|34862|QID|11731|Z|Darnassus|
 T Torch Tossing |N|To the Master Fire Eater. |M|63.19,47.5|QID|11731|Z|Darnassus|
-A Torch Catching |N|From the Master Fire Eater. |M|63.19,47.5|QID|11657|Z|Darnassus|
+A Torch Catching |N|From the Master Fire Eater. |M|63.19,47.5|QID|11657|PRE|11731|Z|Darnassus|
 C Torch Catching |N|Throw the torch from the bonfire and catch it 4 times in a row. Easiest way is to follow its shadow, though this quest is still not that easy.|U|34833|QID|11657|Z|Darnassus|
 T Torch Catching |N|To the Master Fire Eater. |M|63.19,47.5|QID|11657|Z|Darnassus|
 
-A More Torch Tossing |N|From the Master Fire Eater. |M|63.19,47.5|QID|11921|Z|Darnassus|
+A More Torch Tossing |N|From the Master Fire Eater. |M|63.19,47.5|QID|11921|PRE|11657|Z|Darnassus|
 C More Torch Tossing |N|Throw the torch at the brazier with the red arrow over it 20 times. This is a daily and can be repeated tomorrow.|U|34862|Z|Darnassus|QID|11921|
 T More Torch Tossing |N|To the Master Fire Eater. |M|63.19,47.5|Z|Darnassus|QID|11921|
-A More Torch Catching |N|From the Master Fire Eater. |M|63.19,47.5|Z|Darnassus|QID|11924|
+A More Torch Catching |N|From the Master Fire Eater. |M|63.19,47.5|Z|Darnassus|QID|11924|PRE|11657|
 C More Torch Catching |N|Throw the torch from the bonfire and catch it 10 times in a row. This is a daily and can be repeated tomorrow.|U|34833|Z|Darnassus|QID|11924|
 T More Torch Catching |N|To the Master Fire Eater. |M|63.19,47.5|Z|Darnassus|QID|11924|
 
@@ -141,7 +151,7 @@ A Desecrate this Fire!|N|At the Horde Bonfire. (Ashenvale)|QID|11765|M|51.7,66.7
 
 C Unusual Activity |N|Kill Twilight mobs near Blackfathom Depths until the item drops.|M|16,19|QID|11886|Z|Ashenvale|
 T Unusual Activity |N|Use the Totemic Beacon to summon the Guide.|U|35828|QID|11886|
-A An Innocent Disguise |QID|11891|N|From the Earthen Ring Guide.|
+A An Innocent Disguise |QID|11891|PRE|11886|N|From the Earthen Ring Guide.|
 C An Innocent Disguise |N|Turn into a crab and wait for the naga to finish speaking. |M|9.5,12.6|U|35237|QID|11891|Z|Ashenvale|
 T An Innocent Disguise |N|Use the Totemic Beacon to summon the Guide.|U|35828|QID|11891|
 A Inform the Elder |QID|12012;29092|N|From the Earthen Ring Guide.|

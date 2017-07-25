@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2017-03-15 21:13
+-- Who: Ludovicus
+-- Log: Added PREs to BitWes3540
+
+-- URL: http://wow-pro.com/node/3244/revisions/27627/view
 -- Date: 2016-08-29 22:57
 -- Who: Fluclo
 -- Log: Removed redundant L step from beginning of guide
@@ -222,7 +227,7 @@ C Those That Couldn't Let Go|QID|27168|S|U|60861|T|Withdrawn Soul|M|49.84,80.79|
 C Uther's Blessing|QID|27169|NC|U|61920|M|51.94,82.64|N|Use the Chillwind Tribute at Uther's Tomb.|
 
 T Uther's Blessing|QID|27169|M|51.95,82.71|N|To High Priest Thel'danis.|
-A The Abandoned Crypt|QID|27170|M|51.95,82.71|N|From High Priest Thel'danis.|
+A The Abandoned Crypt|QID|27170|PRE|27169|M|51.95,82.71|N|From High Priest Thel'danis.|
 T The Abandoned Crypt|QID|27170|M|54.32,79.92;53.75,80.43|CS|N|Head into the Crypt, go all the way down. Then turn the quest into the Broken Weapons Crate.|
 A Ambushed!|QID|27171|PRE|27170|M|53.77,80.47|N|From the Broken Weapons Crate.|
 
@@ -231,7 +236,7 @@ C Ambushed!|QID|27171|M|54.82,79.75|N|Kill and loot the Skeletal Sorcerers, as y
 C Those That Couldn't Let Go|QID|27168|US|U|60861|M|49.84,80.79|T|Withdrawn Soul|N|Finish off using the Holy Thurible on Withdrawn Souls as you head back to Chillwind Camp.  Remember, they can turn hostile.|
 
 T Those That Couldn't Let Go|QID|27168|M|43.44,83.76|N|To High Priestess MacDonnell.|
-A The Menders' Stead|QID|27175|M|43.02,83.61|N|From Argent Officer Pureheart.|
+A The Menders' Stead|QID|27175|PRE|27168|M|43.02,83.61|N|From Argent Officer Pureheart.|
 T Ambushed!|QID|27171|M|42.74,83.97|N|To Commander Ashlam Valorfist.|
 A The Writhing Haunt|QID|27172|PRE|27171|M|42.74,83.97|N|From Commander Ashlam Valorfist.|
 
@@ -240,7 +245,7 @@ A This Is Our Army|QID|27173|PRE|27172|M|53.78,64.67|N|From Thurman Grant.|
 C This Is Our Army|QID|27173|M|52.53,65.78|N|Go outside and kill 10 Forsaken Outriders.|
 T This Is Our Army|QID|27173|M|53.78,64.67|N|To Thurman Grant.|
 
-A Combat Training|QID|27174|M|53.78,64.67|N|From Thurman Grant.|
+A Combat Training|QID|27174|PRE|27173|M|53.78,64.67|N|From Thurman Grant.|
 C Combat Training|QID|27174|M|53.91,65.70|N|Talk to Gory, then help the villagers defeat Gory.|
 T Combat Training|QID|27174|M|53.84,64.66|N|To Thurman Grant.|
 T The Menders' Stead|QID|27175|M|49.31,54.87|N|To Field Agent Kaartish.|
@@ -258,8 +263,8 @@ C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|45.19,53.40|CN|N|Click on the
 C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Kill with Zen'kiki with you. If Zen'kiki isn't with you, talk to Adrine Towhide at The Mender's Stead to get him back.|S|
 ;QO
 l Diseased Wolf Samples|QID|26999|M|46.98,46.34|QO|4|N|Kill and loot Diseased Wolves for their samples.|S|
-l Hulking Plaguebear Samples|QID|26999|M|46.98,46.34||QO|3|N|Kill and loot Hulking Plaguebears for their samples.|
-l Diseased Wolf Samples|QID|26999|M|46.98,46.34||QO|4|N|Kill and loot Diseased Wolves for their samples.|US|
+l Hulking Plaguebear Samples|QID|26999|M|46.98,46.34|QO|3|N|Kill and loot Hulking Plaguebears for their samples.|
+l Diseased Wolf Samples|QID|26999|M|46.98,46.34|QO|4|N|Kill and loot Diseased Wolves for their samples.|US|
 C A New Era for the Plaguelands|QID|26999|M|54.92,60.83|N|Kill and loot Plague Lurkers and Venom Mist Lurkers to get their samples.|
 C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Finish killing the wildlife with Zen'kiki. If Zen'kiki isn't with you, talk to Adrine Towhide at The Mender's Stead to get him back.|US|
 T A New Era for the Plaguelands|QID|26999|M|49.33,54.92|N|To Field Agent Kaartish.|
@@ -300,7 +305,7 @@ T Redpine Thievery|QID|27011|M|48.41,32.11|N|To Kelly Dumah.|US|
 
 T Learning the Ropes|QID|27000|M|48.13,32.44|N|To Nathaniel Dumah.|
 
-A This Means WAR (Wild Arachnid Roundup)|QID|27001|M|48.13,32.44|N|From Nathaniel Dumah.|
+A This Means WAR (Wild Arachnid Roundup)|QID|27001|PRE|27000|M|48.13,32.44|N|From Nathaniel Dumah.|
 C This Means WAR (Wild Arachnid Roundup)|QID|27001|M|47.95,33.53|N|Use the whinny to herd spiders back to the mill.|NC|
 T This Means WAR (Wild Arachnid Roundup)|QID|27001|M|48.11,32.47|N|To Nathaniel Dumah.|
 
@@ -311,12 +316,12 @@ f Hearthglen|QID|27002|M|47.67,31.80;44.67,18.58|CS|N|Hop on a Hearthglen Mustan
 A It's About Time!|QID|27156|M|43.24,16.02|N|From Lieutenant Myner.|
 T An Audience with the Highlord|QID|27002|M|42.04,14.64|N|To Highlord Tirion Fordring, upstairs in Mardenholde Keep.|
 
-A Taelan Fordring's Legacy|QID|27151|M|42.19,14.98|N|From Daria L'Rayne.|
+A Taelan Fordring's Legacy|QID|27151|PRE|27002|M|42.19,14.98|N|From Daria L'Rayne.|
 
 C It's About Time!|QID|27156|M|43.09,16.33|N|Head outside the keep, then talk to Trainees. Challenge and beat them.|
 T It's About Time!|QID|27156|M|43.28,15.96|N|To Lieutenant Myner.|
 
-A Drudges...|QID|27157|M|43.28,15.96|N|From Lieutenant Myner.|
+A Drudges...|QID|27157|PRE|27156|M|43.28,15.96|N|From Lieutenant Myner.|
 C Drudges...|QID|27157|M|45.86,12.31;45.37,9.73|CS|N|Enter the mine. Kill the *ew* huge spider.|
 T Drudges...|QID|27157|M|43.27,15.91|N|To Lieutenant Myner.|
 
@@ -350,7 +355,7 @@ F The Menders' Stead|QID|26957|NC|M|44.62,18.37|N|Fly to The Menders' Stead.|
 T The Long Trip Home|QID|26957|M|50.59,52.52|N|To Del Gahrron.|
 
 A Memories from a Lost Past|QID|27017|PRE|26957|M|50.59,52.52|N|From Del Gahrron.|
-A Gahrron's Withering Cauldron|QID|27053|M|49.30,54.84|N|From Field Agent Kaartish.|
+A Gahrron's Withering Cauldron|QID|27053|PRE|27002|M|49.30,54.84|N|From Field Agent Kaartish.|
 C Gahrron's Withering Cauldron|QID|27053|M|62.71,59.17|N|Kill the Cauldron Lord and loot his key.|
 T Gahrron's Withering Cauldron|QID|27053|M|62.58,58.62|N|At the Scourge Cauldron.|
 
@@ -360,11 +365,11 @@ C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43|CS|N|Collect the Prayer B
 
 T Return to the Stead|QID|27057|M|49.32,54.76|N|To Field Agent Kaartish.|
 A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
-A Zen'Kiki and the Cultists|QID|26955|M|48.93,54.76|N|From Adrine Towhide.|
+A Zen'Kiki and the Cultists|QID|26955|PRE|27057|M|48.93,54.76|N|From Adrine Towhide.|
 T Memories from a Lost Past|QID|27017|M|50.60,52.60|N|To Del Gahrron.|
 
 L Level 38 |QID|27197|N|You need to be Level 38 to continue with this guide.|LVL|38|
-A The Battle Resumes!|QID|27197|M|50.39,52.70|N|From Durnt Brightfalcon.|
+A The Battle Resumes!|QID|27197|PRE|27175;27233|M|50.39,52.70|N|From Durnt Brightfalcon.|
 
 C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|S|
 C Desperate Acts|QID|27054|M|66.04,47.75|N|Kill Instructor Malicia and loot the orders.|

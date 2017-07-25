@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2017-03-10 23:10
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3519/revisions/26833/view
 -- Date: 2014-11-06 18:14
 -- Who: Fluclo
 -- Log: Added missing |N| tag, removed duplicate |QID| tag.
@@ -155,7 +160,7 @@ C A King Among Men|QID|32247|M|78.70,19.85|QO|Horde slain: 25/25|N|Wander into t
 T A King Among Men|QID|32247|N|To King Varian Wynn, next to you.|; 300 Rep
 A Lion's Landing|QID|32109|PRE|32247|M|80.4,17.4|N|From 7th Legion Champion|
 T Lion's Landing|QID|32109|M|85.59,29.17|N|To Flare Launcher, and cutscene.|; 500 Rep
-A A Little Patience|QID|32248|N|Automatically offered after cutscene.|
+A A Little Patience|QID|32248|PRE|32109|N|Automatically offered after cutscene.|
 f Lion's Landing|QID|32248|M|88.33,34.69|N|At Daggin Windbeard|
 
 ; The Man With a Thousand Faces

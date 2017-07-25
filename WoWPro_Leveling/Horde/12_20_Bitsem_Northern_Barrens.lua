@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2017-03-15 23:10
+-- Who: Ludovicus
+-- Log: Added PREs to BitNor1220
+
+-- URL: http://wow-pro.com/node/3214/revisions/27476/view
 -- Date: 2016-07-29 15:27
 -- Who: tubera
 -- Log: Changed Buckland's coordinates to his spawn location
@@ -145,7 +150,7 @@ C Plainstrider Menace|QID|844|M|67.57,35.5|US|N|Kill and loot Plainstriders.|
 T In Defense of Far Watch|QID|871|M|67.64,39.46|N|To Kargal Battlescar.|
 A The Far Watch Offensive|QID|872|PRE|871|RANK|1|M|63.13,56.24|N|From Kargal Battlescar.|
 T Plainstrider Menace|QID|844|M|67.57,38.85|N|To Halga Bloodeye.|
-A Supplies for the Crossroads|QID|5041|RANK|1|M|67.57,38.85|N|From Halga Bloodeye.|
+A Supplies for the Crossroads|QID|5041|PRE|871|RANK|1|M|67.57,38.85|N|From Halga Bloodeye.|
 
 R Cave|QID|872;5041|M|65.92,52.50|CC|N|Head to the entrance of the Cave.|
 C Supplies for the Crossroads|QID|5041|NC|S|M|66.32,51.89;63.03,56.47|CN|N|Collect the Supply Crates from the floor in the cave.|
@@ -157,7 +162,7 @@ C The Far Watch Offensive|QID|872|M|65.92,52.50|N|Finish killing the Razormane T
 
 T The Far Watch Offensive|QID|872|M|67.69,39.50|N|To Kargal Battlescar.|
 T Supplies for the Crossroads|QID|5041|M|67.46,38.79|N|To Halga Bloodeye.|
-A Crossroads Caravan Pickup|QID|13949|RANK|1|M|67.41,38.83|N|From Halga Bloodeye.|
+A Crossroads Caravan Pickup|QID|13949|PRE|872;5041|RANK|1|M|67.41,38.83|N|From Halga Bloodeye.|
 C Crossroads Caravan Pickup|QID|13949|M|56.38,42.02|N|Speak to Halga, then mount the Lead Caravan Kodo that spawns on the road. The caravan will then take you to Grol'dom Farm. It is not necessary to shoot any Razormane Raiders.|NC|
 
 T Crossroads Caravan Pickup|QID|13949|M|56.38,40.41|N|To Kranal Fiss.|
@@ -167,7 +172,7 @@ h Grol'dom Farm|QID|13961|M|56.27,40.04|N|At Innkeeper Kerntis.|
 A Drag it Out of Them|QID|13961|RANK|1|M|56.55,40.32|N|From Togrik.|
 A Consumed by Hatred|QID|899|RANK|1|M|55.22,41.01|N|From Mankrik.|
 C Consumed by Hatred|QID|899|S|M|58.41,49.49|N|These drop from the Razormane, so if you kill any, don't forget to loot them!|
-A Crossroads Caravan Delivery|QID|13975|RANK|1|M|54.67,41.48|N|From Rocco Whipshank.|
+A Crossroads Caravan Delivery|QID|13975|PRE|13949|RANK|1|M|54.67,41.48|N|From Rocco Whipshank.|
 A The Grol'dom Militia|QID|13973|RANK|1|M|53.95,40.94|N|From Una Wolfclaw.|
 C Drag it Out of Them|QID|13961|NC|U|46722|M|56.55,40.41|N|Use the net on a Pillager, then speak to him and select "pound him". Then run back Togrik to deliver the prisoner.|
 
@@ -176,7 +181,7 @@ A By Hook Or By Crook|QID|13963|PRE|13961|RANK|1|M|56.56,40.38|N|From Togrik.|
 C By Hook Or By Crook|QID|13963|M|56.62,39.90|N|Go into the pen to the North and question the prisoner, after a while he'll let slip the name Tortusk, which will complete the interrogation.|CHAT|
 T By Hook Or By Crook|QID|13963|M|56.62,40.28|N|To Togrik.|
 A The Tortusk Takedown|QID|13968|PRE|13963|RANK|1|M|56.62,40.28|N|From Togrik.|
-A Grol'dom's Missing Kodo|QID|13969|RANK|1|M|56.40,40.37|N|From Kranal Fiss.|
+A Grol'dom's Missing Kodo|QID|13969|PRE|13963|RANK|1|M|56.40,40.37|N|From Kranal Fiss.|
 
 C The Grol'dom Militia|QID|13973|M|52.47,41.49|N|Kill 6 Pillagers.|
 T The Grol'dom Militia|QID|13973|M|53.98,41.15|N|To Una Wolfclaw.|
@@ -240,7 +245,7 @@ A A Growing Problem|QID|13988|PRE|870|RANK|1|M|49.43,58.64|N|From Tonga Runetote
 T The Zhevra|QID|845|M|49.97,59.79|N|To Sergra Darkthorn.|
 T Hunting the Huntress|QID|903|M|49.97,59.79|N|To Sergra Darkthorn.|
 
-A Echeyakee|QID|881|M|49.97,59.79|N|From Sergra Darkthorn.|
+A Echeyakee|QID|881|PRE|845;903|M|49.97,59.79|N|From Sergra Darkthorn.|
 C Echeyakee|QID|881|U|10327|M|47.48,44.01|N|Use the Horn of Echeyakee at his lair. Take the North road.|
 
 T Echeyakee|QID|881|M|49.98,59.82|N|To Sergra Darkthorn.|
@@ -258,7 +263,7 @@ C A Growing Problem|QID|13988|U|46782|M|58.77,81.07;60.73,85.38|CS|N|Use Tonga's
 T A Growing Problem|QID|13988|M|60.73,85.38|N|To Jerrik Highmountain.|
 
 A The Stagnant Oasis|QID|877|PRE|13988|RANK|1|M|60.73,85.38|N|From Jerrik Highmountain.|
-A Altered Beings|QID|880|RANK|1|M|60.60,85.34|N|From Jerrik Highmountain.|
+A Altered Beings|QID|880|PRE|13988|RANK|1|M|60.60,85.34|N|From Jerrik Highmountain.|
 
 C Altered Beings|QID|880|S|M|55.36,79.14|N|From now on kill Oasis Snapjaws for their shells.|
 C The Stagnant Oasis|QID|877|NC|U|5068|M|55.91,80.76|N|Use the Dried Seeds underwater at the fissure.|
@@ -357,7 +362,7 @@ C Guns. We Need Guns.|QID|14057|US|M|77.86,89.29|N|Inside the other cabin, up th
 C Southsea Freebooters|QID|887|US|M|77.61,89.48|N|Finish killing 8 Southsea Cutthroats or Privateers on Fray Island.|
 
 T Guns. We Need Guns.|QID|14057|M|77.25,91.34|N|To Tony Two-Tusk.|
-A Mutiny, Mon!|QID|14063|RANK|1|M|77.25,91.34|N|From Tony Two-Tusk.|
+A Mutiny, Mon!|QID|14063|PRE|14057|RANK|1|M|77.25,91.34|N|From Tony Two-Tusk.|
 
 C Mutiny, Mon!|QID|14063|U|46838|M|79.72,90.33|N|Use the Pirate Signal Horn once you're on the deck. Then help Two-Tusk's with the mutiny.|
 
@@ -391,7 +396,7 @@ T Ammo Kerblammo|QID|14042|M|68.42,69.11|N|To Gazlowe.|
 
 T A Most Unusual Map|QID|14049|M|68.42,69.11|N|To Gazlowe.|
 
-A Gazlowe's Fortune|QID|14050|RANK|1|M|68.42,69.11|N|From Gazlowe.|
+A Gazlowe's Fortune|QID|14050|PRE|14049|RANK|1|M|68.42,69.11|N|From Gazlowe.|
 C Gazlowe's Fortune|QID|14050|M|63.45,73.88;61.97,75.80;63.53,77.44;66.20,77.70|CS|N|Follow the waypoint trail, then click on the Curious Pirate Landmark. The Baron will make an appearance.|
 T Gazlowe's Fortune|QID|14050|M|68.36,69.09|N|To Gazlowe.|
 
@@ -410,7 +415,7 @@ A Ignition|QID|858|S|RANK|1|M|57.57,18.36|N|From Wizzlecrank's Shredder.|
 C Competition Schmompetition|QID|29086|M|59.13,18.49|RANK|1|N|Kill Drudgers, Mercenaries, or Peons.|S|
 C Sludge Investigation|QID|29087|M|59.13,18.49|N|Examine 5 tracks around the lake.|
 T Sludge Investigation|QID|29087|N|(UI Alert)|
-A Sludge Beast!|QID|29089|N|(UI Alert)|
+A Sludge Beast!|QID|29089|PRE|29087|N|(UI Alert)|
 C Sludge Beast!|QID|29089|M|58.18,19.34|N|Swim to the bottom of the lake and click on the glowing mud-thing.|
 A Ignition|QID|858|RANK|1|M|57.57,18.36|N|From Wizzlecrank's Shredder.|
 C Ignition|QID|858|T|Supervisor Lugwizzle|M|56.95,20.38|N|Kill Supervisor Lugwizzle and loot the key. He is on top of the tower.|
@@ -446,7 +451,7 @@ A Samophlange Repair|QID|14003|PRE|29024|RANK|1|M|62.29,17.43|N|From Sputtervalv
 T Samophlange Repair|QID|14003|M|62.62,17.00|N|To Brak Blusterpipe.|
 
 ; Wenikee Quests
-A Wenikee Boltbucket|QID|29026|RANK|1|M|62.62,17.00|N|From Brak Blusterpipe.|
+A Wenikee Boltbucket|QID|29026|PRE|14003|RANK|1|M|62.62,17.00|N|From Brak Blusterpipe.|
 T Wenikee Boltbucket|QID|29026|M|62.62,17.00;44.37,24.94|CC|N|Talk to Brak to teleport directly to her. To Wenikee Boltbucket.|
 A Nugget Slugs|QID|29027|PRE|29026|RANK|1|M|44.37,24.94|N|From Wenikee Boltbucket.|
 A A Burning Threat|QID|29090|RANK|1|M|44.34,25.10|N|From Brogor.|
@@ -455,13 +460,13 @@ C Nugget Slugs|QID|29027|NC|M|42,32|N|Collect Slugs from the Tool Buckets all ar
 C A Burning Threat|QID|29090|M|42,32|N|Kill 8 members of the Burning Blade.|US|
 T A Burning Threat|QID|29090|RANK|1|M|44.34,25.10|N|To Brogor.|
 T Nugget Slugs|QID|29027|M|44.34,24.90|N|To Wenikee Boltbucket.|
-A Return to Samophlanger|QID|14004|RANK|1|M|44.34,24.90|N|From Wenikee Boltbucket.|
+A Return to Samophlanger|QID|14004|PRE|29027|RANK|1|M|44.34,24.90|N|From Wenikee Boltbucket.|
 
 T Return to Samophlanger|QID|14004|M|62.21,17.50|N|Talk to Wenikee and have her teleport you to Nozzlepot's Outpost. To Sputtervalve.|
 
 ; Boulder Lode Mine Quests
 A Read the Manual|QID|14006|PRE|14004|RANK|1|M|62.21,17.50|N|From Sputtervalve.|
-A Miner's Fortune|QID|29015|RANK|1|M|62.61,17.01|N|From Brak Blusterpipe.|
+A Miner's Fortune|QID|29015|PRE|14004|RANK|1|M|62.61,17.01|N|From Brak Blusterpipe.|
 
 R Boulder Lode Mine|NC|M|63.00,18.00;65.02,19.13;67.00,20.09;66.39,15.71|CC|N|Follow the road.|QID|29015|
 l Samophlange Manual Page|QID|14006|M|63.71,10.81|N|Kill Venture Co. mobs until you have 5 pages.|L|11148 5|S|
@@ -490,23 +495,23 @@ C Serena Bloodfeather|QID|876|M|26.97,26.64|N|Slay Serena Bloodfeather and loot 
 C Harpy Raiders|QID|867|M|27.40,28.55|N|Kill any type of Witchwing Harpies for Witchwing Talons.|US|
 T Harpy Raiders|QID|867|M|30.61,46.02|N|(UI Alert)|
 T Serena Bloodfeather|QID|876|M|30.59,45.82|N|To Darsok Swiftdagger.|
-A Report to Thork|QID|29095|M|30.59,45.95|N|From Darsok Swiftdagger.|
+A Report to Thork|QID|29095|PRE|876|M|30.59,45.95|N|From Darsok Swiftdagger.|
 T Report to Thork|QID|29095|M|48.68,59.60|N|To Thork.|
-A Mor'shan Caravan Pick-Up|QID|29109|M|48.68,59.60|N|From Thork.|
+A Mor'shan Caravan Pick-Up|QID|29109|PRE|29095|M|48.68,59.60|N|From Thork.|
 C Mor'shan Caravan Pick-Up|QID|29109|M|50.33,57.20|N|Talk to Rocco Whipshank and get the ride.|
 T Mor'shan Caravan Pick-Up|QID|29109|M|47.53,39.58|N|To Nagala Whipshank.|
-A Mor'shan Caravan Rescue|QID|29110|M|47.53,39.58|N|From Nagala Whipshank.|
+A Mor'shan Caravan Rescue|QID|29110|PRE|29109|M|47.53,39.58|N|From Nagala Whipshank.|
 R Dreadmist Peak|QID|29110|M|47.16,38.07;45.28,36.76;43.73,37.28;41.83,37.07|CS|N|Up to Dreadmist Peak.|
 T Mor'shan Caravan Rescue|QID|29110|M|41.06,39.01|N|From Balgor Whipshank.|
-A Demon Seed|QID|29112|M|47.6,39.6|N|From Balgor Whipshank.|
+A Demon Seed|QID|29112|PRE|29110|M|47.6,39.6|N|From Balgor Whipshank.|
 C Demon Seed|QID|29112|M|41.96,39.00|N|Get the Demon Seed in the cave.|
 T Demon Seed|QID|29112|M|47.53,39.58|N|To Nagala Whipshank.|
-A Mor'shan Caravan Delivery|QID|29111|M|47.53,39.58|N|From Nagala Whipshank.|
+A Mor'shan Caravan Delivery|QID|29111|PRE|29112|M|47.53,39.58|N|From Nagala Whipshank.|
 C Mor'shan Caravan Delivery|QID|29111|M|47.53,39.58|N|Talk to Nagala and defend the caravan.|
 T Mor'shan Caravan Delivery|QID|29111|M|42.42,14.97|N|To Kadrak, who wanders.|
 
 F Orgrimmar|NC|O|N|If you plan on going to Stranglethorn next.|
-A Northern Stranglethorn: The Fallen Empire|QID|26417|RANK|1|O|M|51.78,56.49|Z|Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|RANK|1|O|M|51.78,56.49|Z|Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
 
 ]]
 end)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_neutral
+-- Date: 2017-03-17 00:11
+-- Who: Ludovicus
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3262/revisions/26470/view
 -- Date: 2014-06-02 16:33
 -- Who: Ludovicus
 -- Log: Added mean level
@@ -105,7 +110,7 @@ C The Bait for Lar'korwi|RANK|2|U|11570|QID|24733|M|70.04,40.87|N|Use the Preser
 C Bouquets of Death|QID|24687|M|74.41,39.87|US|N|Kill packs of lashers.|
 T Bouquets of Death|QID|24687|M|76.36,48.28|N|To Ithis Moonwarden.|
 
-A Aberrant Flora|QID|24855|M|76.36,48.28|N|From Ithis Moonwarden.|
+A Aberrant Flora|QID|24855|PRE|24687|M|76.36,48.28|N|From Ithis Moonwarden.|
 C Aberrant Flora|QID|24855|M|64.99,29.42|N|Kill Lashers.|S|
 A Is This Stuff Still Good?|QID|24865|M|68.59,36.41|N|From a crate at an abandoned camp.|
 C Aberrant Flora|QID|24855|M|64.99,29.42|N|Kill Lashers in the Roiling Gardens area.|US|
@@ -141,7 +146,7 @@ T Speak With Spraggle|QID|24794|M|55.01,62.62|N|To Spraggle Frock.|
 A Lost!|QID|24734|PRE|24794|M|55.01,62.62|N|From Spraggle Frock.|
 C Blazerunner|QID|24690|M|49.28,49.20|N|Run past the sack with the quest turn-in - we'll get it on the way down. Head to the top of the volcano and kill Blazerunner.|
 T Lost!|QID|24734|M|53.02,51.82|N|At the sack outside the cave on the south side of the mountain.|
-A A Little Help From My Friends|QID|24735|M|51.97,49.78|N|From Ringo, inside the cave.|
+A A Little Help From My Friends|QID|24735|PRE|24734|M|51.97,49.78|N|From Ringo, inside the cave.|
 C A Little Help From My Friends|QID|24735|NC|U|11804|M|54.89,62.29|N|Lead Ringo back to Marshal's Stand. Right-click him if he seems weak, use the canteen if he passes out. The game will prompt you if you aren't sure what to do.|
 T Blazerunner|QID|24690|M|55.09,62.21|N|To Williden Marshal.|
 T A Little Help From My Friends|QID|24735|M|55.06,62.60|N|To Spraggle Frock.|
@@ -158,9 +163,9 @@ T The Fledgling Colossus|QID|24692|M|55.00,62.16|N|To Hol'anyee Marshal.|
 F Mossy Pile|QID|24693|M|55.97,64.17|N|Fly to Mossy Pile.|
 T Mossy Pile|QID|24693|M|43.19,41.18|N|To Gremix.|
 
-A Marshal's Refuse|QID|24701|M|43.15,41.13|N|From Doreen.|
-A Super Sticky|QID|24737|M|43.15,41.13|N|From Tara.|
-A Hard to Harvest|QID|24700|M|43.15,41.13|N|From Tara.|
+A Marshal's Refuse|QID|24701|PRE|24693|M|43.15,41.13|N|From Doreen.|
+A Super Sticky|QID|24737|PRE|24693|M|43.15,41.13|N|From Tara.|
+A Hard to Harvest|QID|24700|PRE|24693|M|43.15,41.13|N|From Tara.|
 A Shizzle's Flyer|QID|24736|M|43.38,41.37|N|From Shizzle.|
 l Yellow Crystals|NC|S|QID|24720|M|37.04,29.06;44.79,17.53|CN|N|Loot 7 yellow crystals from the big crystal nodes in this part of the zone.|QO|Yellow Power Crystal: 7/7|
 C Shizzle's Flyer|QID|24736|M|37.04,29.06|N|Kill and loot Pterrorddaxes in the Screaming Reaches.|
@@ -182,12 +187,12 @@ l Green Crystals|NC|S|QID|24720|M|60.12,31.75|N|Loot 7 green crystals from the b
 C Gormashh the Glutinous|QID|24699|U|50746|M|60.12,31.75|N|Use the tar scraper on Gormash after you defeat him.|
 C The Apes of Un'Goro|QID|24717|M|67.57,16.84|N|Kill and loot 2 pelts from each gorilla type.|S|
 T Chasing A-Me 01|QID|24714|M|63.81,19.79|N|To A-Me 01, at Fungal Rock to the north.|
-A Repairing A-Me 01|QID|24715|M|63.81,19.79|N|From A-Me 01.|
+A Repairing A-Me 01|QID|24715|PRE|24714|M|63.81,19.79|N|From A-Me 01.|
 C Repairing A-Me 01|QID|24715|M|64.08,20.06|N|Pick up a nearby coconut, take it to the rock. Use it there to crack it, then use the cracked coconut.|
 T Repairing A-Me 01|QID|24715|M|63.82,19.77|N|To A-Me 01.|
 
-A Serving A-Me 01|QID|24926|M|63.82,19.77|N|From A-Me 01.|
-A The Mighty U'cha|QID|24718|M|63.82,16.48;65.06,16.54|CS|N|This quest should automatically pop up when entering the cave.|
+A Serving A-Me 01|QID|24926|PRE|24715|M|63.82,19.77|N|From A-Me 01.|
+A The Mighty U'cha|QID|24718|PRE|24737;24700;24701|M|63.82,16.48;65.06,16.54|CS|N|This quest should automatically pop up when entering the cave.|
 C The Mighty U'cha|QID|24718|M|68.06,15.94|N|U'cha patrols through the cave.|
 C The Apes of Un'Goro|QID|24717|M|67.57,16.84|N|Kill and loot 2 pelts from each gorilla type.|US|
 l Green Crystals|NC|US|QID|24720|M|60.12,31.75|N|Loot 7 green crystals from the big crystal nodes in this part of the zone.|QO|Green Power Crystal: 7/7|
@@ -207,8 +212,8 @@ A Roll the Bones|QID|24730|M|31.81,50.33|N|From Spark Nilminer.|
 A An Important Lesson|QID|24703|M|30.57,51.21|N|From Maximillian of Northshire.|
 C An Important Lesson|QID|24703|NC|M|30.57,51.21|N|Just talk to Maximillian until you complete the quest.|
 T An Important Lesson|QID|24703|M|30.57,51.21|N|To Maximillian of Northshire.|
-A The Evil Dragons of Un'Goro Crater|QID|24704|M|30.64,51.20|N|From Maximillian of Northshire.|
-A Damsels Were Made to be Saved|QID|24705|M|30.64,51.20|N|From Maximillian of Northshire.|
+A The Evil Dragons of Un'Goro Crater|QID|24704|PRE|24703|M|30.64,51.20|N|From Maximillian of Northshire.|
+A Damsels Were Made to be Saved|QID|24705|PRE|24703|M|30.64,51.20|N|From Maximillian of Northshire.|
 C The Evil Dragons of Un'Goro Crater|S|QID|24704|M|30.64,51.20|N|Killing Elder Diemetradon, Stegodons, Spiked Stegodons, and Frenzied Pterrordax in the area counts toward this quest.|
 C Roll the Bones|QID|24730|S|M|31.16,77.41|N|Bones can be harvested from Elder Diemetradons, as well as from the elite stegosauruses. They can also be found on the ground.|
 C Damsels Were Made to be Saved|NC|QID|24705|QO|Damsel by the Shore saved: 1/1|M|36.53,59.29|N|Collect the crate from the water, then talk to the "damsel".|
@@ -225,17 +230,17 @@ C The Spirits of Golakka Hot Springs|QID|24706|M|33.04,59.57|N|Stand there (don'
 T The Spirits of Golakka Hot Springs|QID|24706|N|The quest turn-in should pop up automatically.|
 T Roll the Bones|QID|24730|M|31.88,50.27|N|Back to Spark Nilminer.|
 
-A The Fossil-Finder 3000|QID|24708|M|31.88,50.27|N|From Spark Nilminer.|
-A The Ballad of Maximillian|QID|24707|M|30.65,51.22|N|From Maximillian of Northshire.|
+A The Fossil-Finder 3000|QID|24708|PRE|24730|M|31.88,50.27|N|From Spark Nilminer.|
+A The Ballad of Maximillian|QID|24707|PRE|24706|M|30.65,51.22|N|From Maximillian of Northshire.|
 C The Ballad of Maximillian|QID|24707|N|Immediately start using ability 1 on cooldown - it generates rocks. Once the actual fight starts, only use it when the devilsaur is within range for the stun. You can and should spam ability 2, the rock throw, as long as you have rocks (once the devilsaur fight starts). You should get pieces of armor to throw from Max now and then, which will be ability #3. Make sure to only start attacking the Devilsaur Queen after it starts chasing you, it may bug if you attack before hand and Max won't hand you armor (may still bug even then).|
 T The Ballad of Maximillian|QID|24707|N|The turn-in should pop up automatically. Congrats on an awesome piece of gear!|
 C The Fossil-Finder 3000|QID|24708|U|50405|M|32.99,74.51|N|This works a lot like archeology. Just keep using the fossil finder and following it's directions until you locate the fossil - once you are on top of the correct spot and use the finder, the fossil will appear.|
 T The Fossil-Finder 3000|QID|24708|M|31.86,50.30|N|Back to Spark Nilminer.|
 
-A A Tale of Two Shovels|QID|24709|M|31.86,50.30|N|From Spark Nilminer.|
+A A Tale of Two Shovels|QID|24709|PRE|24708|M|31.86,50.30|N|From Spark Nilminer.|
 C A Tale of Two Shovels|QID|24709|M|37.62,81.63|N|Durrin patrols the area on a raptor.|
 T A Tale of Two Shovels|QID|24709|M|31.89,50.39|N|Back to Spark Nilminer.|
-A The Western Pylon|QID|24723|M|31.89,50.39|N|From Spark Nilminer.|
+A The Western Pylon|QID|24723|PRE|24709|M|31.89,50.39|N|From Spark Nilminer.|
 C The Western Pylon|QID|24723|NC|M|23.48,49.98|N|Right-click the western pylon, at the crater wall to the west.|
 C Crystals of Power|NC|US|QID|24720|M|31.16,77.41|N|Loot 7 red crystals from the big crystal nodes in this part of the zone.|QO|Red Power Crystal: 7/7|
 H Marshal's Stand|QID|24722|M|54.79,63.90|N|Hearth back to Marshall's Stand. Or ride back if it is down, or if you didn't set your hearth there.|
@@ -245,7 +250,7 @@ T Crystals of Power|QID|24720|M|54.23,62.46|N|To J.D. Collie.|
 
 A The Shaper's Terrace|QID|24694|PRE|24720;24723|M|53.90,62.49|N|From Un'Goro Examinant.|
 T The Shaper's Terrace|QID|24694|M|53.90,62.49;83.38,46.01|CS|N|Speak with the Un'Goro Examinant to be teleported to the Shaper's Terrace. Turn-in to Nablya.|
-A Ever Watching From Above|QID|24695|M|83.38,46.01|N|From Nablya.|
+A Ever Watching From Above|QID|24695|PRE|24694|M|83.38,46.01|N|From Nablya.|
 C Ever Watching From Above|QID|24695|QO|Bloodpetal Observation: 1/1|M|83.54,45.27|N|Bloodpetal lever. Use your abilities to defeat another Bloodpetal.|
 C Ever Watching From Above|QID|24695|QO|Pterrordax Observation: 1/1|M|84.01,45.58|N|Pterrordax lever. Fly straight up, using ability 2 to increase your speed.|
 C Ever Watching From Above|QID|24695|QO|Gorilla Observation: 1/1|M|83.98,46.39|N|Gorilla lever. Talk to one of each type of gorillas.|

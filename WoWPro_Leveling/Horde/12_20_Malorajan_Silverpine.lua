@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silverpine_forest
+-- Date: 2017-03-15 23:11
+-- Who: Ludovicus
+-- Log: Add PREs to MalSil1220
+
+-- URL: http://wow-pro.com/node/3219/revisions/27304/view
 -- Date: 2015-06-28 23:55
 -- Who: Ludovicus
 -- Log: Lots of PRE tags
@@ -134,7 +139,7 @@ A Orcs are in Order|QID|27096|PRE|27093|M|44.01,21.36|N|From Admiral Hatchet.|
 
 F Forsaken High Command|QID|27096|M|45.93,21.83|N|Fly to the Forsaken High Command.|
 T Orcs are in Order|QID|27096|M|57.37,10.18|N|To Lady Sylvanas Windrunner.|
-A Rise, Forsaken|QID|27097|M|57.37,10.18|N|From Lady Sylvanas Windrunner.|
+A Rise, Forsaken|QID|27097|PRE|27096|M|57.37,10.18|N|From Lady Sylvanas Windrunner.|
 C Rise, Forsaken|QID|27097|M|65.12,25.64|N|Walk out to the island with Agatha, then kill any human you come across.|
 T Rise, Forsaken|QID|27097|M|65.10,25.59|N|(UI Alert)|
 A No Escape|QID|27099|PRE|27097|M|65.10,25.59|N|(UI Alert)|
@@ -143,11 +148,11 @@ T No Escape|QID|27099|M|57.37,10.18|N|To Lady Sylvanas Windrunner.|
 A Lordaeron|QID|27098|PRE|27099|M|57.37,10.18|N|From Lady Sylvanas Windrunner.|
 C Lordaeron|QID|27098|M|45.02,41.75|
 T Lordaeron|QID|27098|M|44.90,41.65|N|To Lady Sylvanas Windrunner.|
-A Honor the Dead|QID|27180|M|44.90,41.65|N|From Lady Sylvanas Windrunner.|
+A Honor the Dead|QID|27180|PRE|27098|M|44.90,41.65|N|From Lady Sylvanas Windrunner.|
 
 f The Sepulcher|QID|27180|M|45.41,42.49|N|At Karos Razok.|
-A Hair of the Dog|QID|27226|M|45.75,41.92|N|From Warlord Torok.|
-A Reinforcements from Fenris|QID|27231|M|45.81,41.94|N|From Admiral Hatchet.|
+A Hair of the Dog|QID|27226|PRE|27098|M|45.75,41.92|N|From Warlord Torok.|
+A Reinforcements from Fenris|QID|27231|PRE|27098|M|45.81,41.94|N|From Admiral Hatchet.|
 h The Sepulcher|QID|27231|M|46.42,42.70|N|At Innkeeper Bates.|
 
 A Excising the Taint|QID|27181|ACTIVE|27180|M|47.24,48.00|N|Kill a Bloodfang Stalker to get this quest.|
@@ -160,7 +165,7 @@ T Seek and Destroy|QID|27193|M|46.26,54.32|N|(UI Alert)|
 A Cornered and Crushed!|QID|27194|PRE|27193|M|46.26,54.32|N|(UI Alert)|
 C Honor the Dead|QID|27180|M|47.62,53.61|US|N|Loot any Vetern Forsaken Trooper you come across.|
 T Cornered and Crushed!|QID|27194|M|55.89,46.34|N|To Master Forteski.|
-A Nowhere to Run|QID|27195|M|55.89,46.34|N|From Master Forteski.|
+A Nowhere to Run|QID|27195|PRE|27194|M|55.89,46.34|N|From Master Forteski.|
 C Nowhere to Run|QID|27195|NC|N|Just follow Forteski.|
 
 C Reinforcements from Fenris|QID|27231|M|55.95,33.73|S|N|Kill any Hillsbrad Worgen you see.|
@@ -176,11 +181,11 @@ T The Waters Run Red...|QID|27232|M|45.81,41.94|N|To Admiral Hatchet.|
 T Hair of the Dog|QID|27226|M|45.75,41.92|N|To Warlord Torok.|
 T Honor the Dead|QID|27180|M|44.90,41.65|N|To Lady Sylvanas Windrunner.|
 T Nowhere to Run|QID|27195|M|44.90,41.65|N|To Lady Sylvanas Windrunner.|
-A To Forsaken Forward Command|QID|27290|M|44.90,41.65|N|From Lady Sylvanas Windrunner.|
+A To Forsaken Forward Command|QID|27290|PRE|27232;27180;27195;27226|M|44.90,41.65|N|From Lady Sylvanas Windrunner.|
 T To Forsaken Forward Command|QID|27290|M|57.40,18.91|Z|Ruins of Gilneas|N|To Deathstalker Commander Belmont.|
 A In Time, All Will Be Revealed|QID|27342|PRE|27290|M|57.40,18.91|Z|Ruins of Gilneas|N|From Deathstalker Commander Belmont.|
-A Losing Ground|QID|27333|M|57.53,18.24|Z|Ruins of Gilneas|N|From Forward Commander Onslaught.|
-A The F.C.D.|QID|27345|M|57.53,18.24|Z|Ruins of Gilneas|N|From Forward Commander Onslaught.|
+A Losing Ground|QID|27333|PRE|27290|M|57.53,18.24|Z|Ruins of Gilneas|N|From Forward Commander Onslaught.|
+A The F.C.D.|QID|27345|PRE|27290|M|57.53,18.24|Z|Ruins of Gilneas|N|From Forward Commander Onslaught.|
 f Forsaken Forward Command|QID|27345|M|57.28,17.75|Z|Ruins of Gilneas|N|At Bat Handler Doomair.|
 r Sell junk, repair/restock.|QID|27342|M|57.70,19.74|N|At Provisioner Angelus.|Z|Ruins of Gilneas|
 
@@ -199,7 +204,7 @@ T Break in Communications: Dreadwatch Outpost|QID|27349|M|51.83,32.24|Z|Ruins of
 A Break in Communications: Rutsak's Guard|QID|27350|PRE|27349|M|51.83,32.24|Z|Ruins of Gilneas|N|(UI Alert)|
 T Break in Communications: Rutsak's Guard|QID|27350|M|65.65,34.10|Z|Ruins of Gilneas|N|Try to time going across the road so your in between waves of the Worgen Rushers. Then once across, head to Captain Rutsak.|
 A Vengeance for Our Soldiers|QID|27360|PRE|27350|M|65.65,34.17|Z|Ruins of Gilneas|N|From Captain Rutsak.|
-A On Whose Orders?|QID|27364|M|65.67,34.31|Z|Ruins of Gilneas|N|From Captain Rutsak.|
+A On Whose Orders?|QID|27364|PRE|27350|M|65.67,34.31|Z|Ruins of Gilneas|N|From Captain Rutsak.|
 C Vengeance for Our Soldiers|QID|27360|PRE|27350|M|58.56,41.09|Z|Ruins of Gilneas|N|Kill any 7th Submariner you come across.|S|
 C On Whose Orders?|QID|27364|M|58.88,47.47|Z|Ruins of Gilneas|N|Head to the waypoint and kill Master Sergeant Pietro Zaren.|
 T On Whose Orders?|QID|27364|M|57.68,44.31|Z|Ruins of Gilneas|N|(UI Alert)|
@@ -225,7 +230,7 @@ A Rise, Godfrey|QID|27472|PRE|27438|M|51.78,66.09|N|From Lady Sylvanas Windrunne
 C Rise, Godfrey|QID|27472|M|51.90,64.92|N|Stand there and wait as Godfrey is risen. Follow her when she asks you to.|
 T Rise, Godfrey|QID|27472|M|51.90,65.02|N|To Lady Sylvanas Windrunner.|
 A Breaking the Barrier|QID|27474|PRE|27472|M|51.90,65.02|N|From Lady Sylvanas Windrunner.|
-A Unyielding Servitors|QID|27475|M|51.89,64.71|N|From Daschla.|
+A Unyielding Servitors|QID|27475|PRE|27472|M|51.89,64.71|N|From Daschla.|
 f The Forsaken Front|QID|27475|M|50.91,63.66|N|At Steven Stutzka.|
 
 C Unyielding Servitors|QID|27475|M|60.52,63.75|N|Kill and loot Elemental Servitors.|S|
@@ -239,7 +244,7 @@ H The Sepulcher|QID|27476|M|46.40,42.68|N|Hearth back to The Sepulcher, or fly t
 
 T Dalar Dawnweaver|QID|27476|M|47.04,43.20|N|To Dalar Dawnweaver.|
 A Relios the Relic Keeper|QID|27478|PRE|27476|M|47.04,43.20|N|From Dalar Dawnweaver.|
-A Practical Vengeance|QID|27483|M|47.11,43.26|N|From Dalar Dawnweaver.|
+A Practical Vengeance|QID|27483|PRE|27476|M|47.11,43.26|N|From Dalar Dawnweaver.|
 r Sell junk, repair/restock.|QID|27342|M|44.81,39.73|N|At Nadia Vernon.|
 
 R Hillsbrad Foothills|QID|27480|M|47.18,43.32|N|Head into the portal behind Dalar Dawnweaver.|
@@ -259,7 +264,7 @@ T Ley Energies|QID|27480|M|47.08,43.20|N|To Dalar Dawnweaver.|
 F The Forsaken Front|QID|27484|M|45.48,42.45|N|Fly to The Forsaken Front.|
 T Only One May Enter|QID|27484|M|51.87,65.00|N|To Lady Sylvanas Windrunner.|
 A Transdimensional Warfare: Chapter I|QID|27512|PRE|27484|M|51.90,65.02|N|From Lady Sylvanas Windrunner.|
-A A Wolf in Bear's Clothing|QID|27510|M|51.63,67.13|N|From High Warlord Cromush.|
+A A Wolf in Bear's Clothing|QID|27510|PRE|27484|M|51.63,67.13|N|From High Warlord Cromush.|
 C A Wolf in Bear's Clothing|QID|27510|M|58.17,78.03|N|Kill 10 Inconspicuous Bears.|
 T Transdimensional Warfare: Chapter I|QID|27512|M|58.03,69.91|N|Head inside to the back of the cave then, turn the quest into the Ambermill Dimensional Portal.|
 A Transdimensional Warfare: Chapter II|QID|27513|PRE|27512|M|58.01,69.88|N|From Ambermill Dimensional Portal.|
@@ -270,7 +275,7 @@ C Transdimensional Warfare: Chapter III|QID|27518|M|56.15,64.27|N|Kill the minio
 T A Wolf in Bear's Clothing|QID|27510|M|51.36,66.69|N|To High Warlord Cromush.|
 T Transdimensional Warfare: Chapter III|QID|27518|M|51.90,65.02|N|To Lady Sylvanas Windrunner.|
 
-A Taking the Battlefront|QID|27542|M|51.89,65.14|N|From Lady Sylvanas Windrunner. Close this step as this quests completes when you accept it.|
+A Taking the Battlefront|QID|27542|PRE|27518|M|51.89,65.14|N|From Lady Sylvanas Windrunner. Close this step as this quests completes when you accept it.|
 A Of No Consequence|QID|27547|PRE|27542|M|52.00,65.79|N|From Baron Ashbury, who is following you.|
 A Pyrewood's Fall|QID|27550|PRE|27542|M|52.00,65.79|N|From Lord Godfrey, who is following you.|
 A Lessons in Fear|QID|27548|PRE|27542|M|51.76,65.85|N|From Lord Walden, who is following you.|
@@ -287,7 +292,7 @@ T Of No Consequence|QID|27547|N|To Baron Ashbury, who is following you.|
 T Pyrewood's Fall|QID|27550|N|To Lord Godfrey, who is following you.|
 
 A Sowing Discord|QID|27580|PRE|27550|N|From Lord Godfrey, who is following you.|
-A 7th Legion Battle Plans|QID|27577|N|From Lord Walden, who is following you.|
+A 7th Legion Battle Plans|QID|27577|PRE|27547;27548;27550|N|From Lord Walden, who is following you.|
 C 7th Legion Battle Plans|QID|27577|N|Kill Infantry until the 7th Legion Battle Plans.|S|
 C Sowing Discord|QID|27580|M|41.77,77.67|N|Kill General Marstone.|
 C 7th Legion Battle Plans|QID|27577|M|44.67,81.01|N|Search Infantry until 7th Legion Battle Plans.|US|
@@ -295,7 +300,7 @@ T 7th Legion Battle Plans|QID|27577|M|44.67,81.01|N|To Lord Walden.|
 T Sowing Discord|QID|27580|M|41.87,78.04|N|To Lord Godfrey.|
 A On Her Majesty's Secret Service|QID|27594|PRE|27580|M|41.87,78.04|N|From Lord Godfrey.|
 l Partially Digested Head|ACTIVE|27594|M|46.9,84|N|Kill Marsh Crocolisks until this item drops.|L|61505|
-A I Never Forget a Face|QID|27574|M|46.9,84|N|Accept the quest from the head.|U|61505|
+A I Never Forget a Face|QID|27574|PRE|27547;27548;27550|M|46.9,84|N|Accept the quest from the head.|U|61505|
 T I Never Forget a Face|QID|27574|M|46.9,84|N|To Lord Godfrey.|
 A From the Belly of the Beast|QID|27575|PRE|27574|M|46.9,84|N|From Lord Godfrey.|
 C From the Belly of the Beast|QID|27575|M|46.9,84|N|Kill Crocolisks until you get all 3 body parts.|
@@ -303,10 +308,10 @@ T From the Belly of the Beast|QID|27575|M|46.9,84|N|To Lord Godfrey.|
 C On Her Majesty's Secret Service|QID|27594|M|50.55,88.95|N|Fight your way into the camp. Head for Lorna, watch the scen play out then attack her.|
 T On Her Majesty's Secret Service|QID|27594|M|51.89,65.01|N|To Lady Sylvanas Windrunner.|
 
-A Cities in Dust|QID|27601|M|51.89,65.03|N|From Lady Sylvanas Windrunner.|
+A Cities in Dust|QID|27601|PRE|27594|M|51.89,65.03|N|From Lady Sylvanas Windrunner.|
 C Cities in Dust|QID|27601|M|45.43,84.40|N|Follow Sylvanas. Watch the scene, then attack Godfrey when possible.|
 T Cities in Dust|QID|27601|M|45.37,84.43|N|To Lady Sylvanas Windrunner.|
-A Empire of Dirt|QID|27746|M|45.37,84.43|N|From Lady Sylvanas Windrunner. If you wish to continue on to Hillsbrad Foothills, you should pick up this quest.|
+A Empire of Dirt|QID|27746|PRE|27601|M|45.37,84.43|N|From Lady Sylvanas Windrunner. If you wish to continue on to Hillsbrad Foothills, you should pick up this quest.|
 ]]
 
 end)

@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2017-03-17 13:50
+-- Who: Ludovicus
+-- Log: Add one PRE to LudoHallowPanA
+
+-- URL: http://wow-pro.com/node/3440/revisions/28502/view
+-- Date: 2017-03-17 13:49
+-- Who: Ludovicus
+-- Log: Added PREs to TwiHollEK
+
+-- URL: http://wow-pro.com/node/3440/revisions/28284/view
+-- Date: 2017-03-05 18:53
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3440/revisions/27166/view
 -- Date: 2015-03-09 17:40
 -- Who: Ludovicus
 -- Log: The Underbelly@Dalaran
@@ -143,7 +158,7 @@
 -- Who: Crackerhead22
 
 local guide = WoWPro:RegisterGuide("TwiHollEK",'WorldEvents',"Eastern Kingdoms", "Twists", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Eastern Kingdoms")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -166,7 +181,7 @@ T Stink Bombs Away!|QID|29054|M|32.36,50.79|N|To Gretchen Fenlow.|Z|Elwynn Fores
 C Clean Up in Stormwind|QID|29144|M|49.12,50.83|N|Look for Orange clouds.|U|69191|Z|Stormwind City|S|
 C Missing Heirlooms|QID|29392|M|23.99,44.60|N|Head to harbor and search the ship.|Z|Stormwind City|
 T Missing Heirlooms|QID|29392|M|23.99,44.60|N|To Hired Courier.|Z|Stormwind City|
-A Fencing the Goods|QID|29398|M|23.99,44.60|N|To Hired Courier.|Z|Stormwind City|
+A Fencing the Goods|QID|29398|PRE|29392|M|23.99,44.60|N|To Hired Courier.|Z|Stormwind City|
 b Teldrassil|QID|8357|M|22.06,56.06|N|Take the boat to Teldrassil and enter the portal to Darnassus.|Z|Stormwind City|
 A Candy Bucket |QID|12334|M|62.25,33.17|Z|Darnassus|N|Darnassus|
 A Dancing for Marzipan|QID|8357|M|62.31,32.92|Z|Darnassus|U|37586|
@@ -178,23 +193,23 @@ R Portal to Teldrassil|QID|8311|M|36.99,50.38|N|Head back to the portal.|Z|Darna
 b Stormwind|QID|8311|M|55.02,93.68|N|Return to Stormwind.|Z|Teldrassil|
 C Fencing the Goods|QID|29398|M|61.19,70.84|N|Talk to Auctioneer Finch.|Z|Stormwind City|
 T Fencing the Goods|QID|29398|M|61.19,70.84|N|To Auctioneer Finch.|Z|Stormwind City|
-A Shopping Around|QID|29399|M|61.19,70.84|N|From Auctioneer Finch.|Z|Stormwind City|
+A Shopping Around|QID|29399|PRE|29398|M|61.19,70.84|N|From Auctioneer Finch.|Z|Stormwind City|
 C Shopping Around|QID|29399|M|63.62,47.42|N|Seach the Shady Lady. Takes a while.|Z|Stormwind City|
 T Shopping Around|QID|29399|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
-A Taking Precautions|QID|29402|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
+A Taking Precautions|QID|29402|PRE|29399|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
 C Taking Precautions|QID|29402|QO|Blood Nettle: 5/5|M|54.76,14.63|N|Around the pumpkin patch.|Z|Stormwind City|
 C Taking Precautions|QID|29402|M|62.8,74.8|N|Purchase From Keldric Boucher at the Pestle's Apothecary.|Z|Stormwind City|
 T Taking Precautions|QID|29402|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
 
-A The Collector's Agent|QID|29403|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
+A The Collector's Agent|QID|29403|PRE|29402|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
 C The Collector's Agent|QID|29403|M|51.23,44.63;53.16,42.52;55.26,43.54|N|In the catacombs in the Cathedral of Light.|Z|Stormwind City|CS|
 T The Collector's Agent|QID|29403|M|55.26,43.54|Z|Stormwind City|
-A What Now?|QID|29411|M|55.26,43.54|N|From the crate.|Z|Stormwind City|
+A What Now?|QID|29411|PRE|29403|M|55.26,43.54|N|From the crate.|Z|Stormwind City|
 A Flexing for Nougat|QID|8356|M|60.14,75.09|N|From Innkeeper Allison.|Z|Stormwind City|
 C Flexing for Nougat|QID|8356|T|/flex|N|click the button to flex.|Z|Stormwind City|
 T Flexing for Nougat|QID|8356|M|60.14,75.09|N|To Innkeeper Allison.|Z|Stormwind City|
 T What Now?|QID|29411|M|60.14,75.09|N|To Anson Hastings.|Z|Stormwind City|
-A The Creepy Crate|QID|29413|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
+A The Creepy Crate|QID|29413|PRE|529411;29411|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
 T The Creepy Crate|QID|29413|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
 
 C Clean Up in Stormwind|QID|29144|M|49.12,50.83|N|Look for Orange clouds.|U|69191|Z|Stormwind City|US|
@@ -226,7 +241,7 @@ A Candy Bucket |QID|12342|M|26.38,41.57|Z|Redridge Mountains|N|Lakeshire|
 F Iron Summit|QID|28965|M|40.95,68.78|N|In Searing Gorge.|Z|Searing Gorge|U|37586|
 A Candy Bucket |QID|28965|M|39.55,66.06|Z|Searing Gorge|N|Iron Summit|
 F Dragon's Mouth|QID|28956|M|21.79,57.73|N|In the Badlands.|Z|Badlands|U|37586|
-A Candy Bucket |QID|28956|M|20.92,56.28|Z|Badlands|N|Dragon's Mouth||
+A Candy Bucket |QID|28956|M|20.92,56.28|Z|Badlands|N|Dragon's Mouth|
 F Fuselight|QID|28955|M|64.35,35.24|Z|Badlands|U|37586|
 A Candy Bucket |QID|28955|M|65.86,35.72|Z|Badlands|N|Fuselight|
 F Farstrider Lodge|QID|28963|M|81.90,64.13|Z|Loch Modan|U|37586|

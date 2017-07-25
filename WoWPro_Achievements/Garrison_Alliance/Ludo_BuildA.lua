@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_buildings_alliance
+-- Date: 2017-03-23 17:35
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3631/revisions/28541/view
+-- Date: 2017-03-22 07:07
+-- Who: Emmaleah
+-- Log: Updated Headhunters Harvest to use Alliance info.
+
+-- URL: http://wow-pro.com/node/3631/revisions/28310/view
+-- Date: 2017-03-10 22:44
+-- Who: Ludovicus
+-- Log: Add PREs
+
+-- URL: http://wow-pro.com/node/3631/revisions/27434/view
 -- Date: 2016-03-22 20:39
 -- Who: Ludovicus
 -- Log: Add Salvage Yard 
@@ -141,9 +156,9 @@ C Large Lumber|QID|36195|M|35.63,24.65;35.08,22.78;33.95,25.53|CS|N|Go to Glooms
 T Tree-i-cide|QID|36195|N|To Justin Timberlord.|BUILDING|LumberMill;138|Z|Lunarfall|
 
 ;if you chose the inn(tavern) MED
-A The Headhunter's Harvest|QID|37046|RANK|2|M|50.50,60.66|N|From Akanja.|BUILDING|Inn;34;35;36|
-C The Headhunter's Harvest|QID|37046|CHAT|RANK|2|M|50.50,60.53|N|Talk to Akanja and pick a follower.|
-T The Headhunter's Harvest|QID|37046|RANK|2|M|50.50,60.53|N|To Akanja.|
+A The Headhunter's Harvest|QID|37119|RANK|2|M|33.8,49.6|Z|Lunarfall|N|From Lysa Serion.|BUILDING|Inn;34;35;36|
+C The Headhunter's Harvest|QID|37119|CHAT|RANK|2|M|33.8,49.6|Z|Lunarfall|N|Talk to Lysa and pick a follower.|
+T The Headhunter's Harvest|QID|37119|RANK|2|M|33.8,49.6|Z|Lunarfall|N|To Lysa Serion.|
 
 ;gladiators sanctum MED
 A Warlord of Draenor|QID|36874|M|51.51,59.56|BUILDING|GladiatorsSantum;159;160;161|N|From Raza'kul.|
@@ -157,7 +172,7 @@ T Lost in Transition|QID|37087|BUILDING|Storehouse;51|Z|Lunarfall|N|To Kyra Gold
 A Tricks of the Trade|QID|37062|M|57.76,27.75|BUILDING|Trading Post;111;144;145|N|From Fayla Fairfeather.|
 C Tricks of the Trade|QID|37062|U|118418|M|44.51,14.48|Z|Frostwall|N|He is sleeping just outside  the gates.|
 T Tricks of the Trade|QID|37062|M|57.88,27.83|N|To Fayla Fairfeather.|
-N Auctioning For Parts|QID|36948|BUILDING|Trading Post;144;145|M|57.88,27.83|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.
+N Auctioning For Parts|QID|36948|BUILDING|Trading Post;144;145|M|57.88,27.83|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.|
 
 ;tannery SMALL
 A Your First Leatherworking Work Order|QID|37574|M|53.00,41.32|BUILDING|Tannery;90;121;122|N|From Murne Greenhoof.|
@@ -171,14 +186,14 @@ A Your First Tailoring Work Order|QID|36643|M|48.22,32.51|Z|Frostwall|BUILDING|T
 B Sumptuous Fur|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|L|111557 5|N|Acquire from killing and looting humanoids (saborons a very good source) or the Auction House or some other method.|
 C Place order|QID|36643|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|CHAT|N|Talk to Turga to start a work order.|
 C Pick up order|QID|36643|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|NC|N|From the bundles, barrels and boxes beside the building, called 'Tailoring Work Order' .|
-T Your First Tailoring Work Order|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128||N|From Turga.|
+T Your First Tailoring Work Order|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|N|From Turga.|
 
 ;the forge SMALL
 A Your First Blacksmithing Work Order|QID|35168|M|48.22,32.51|Z|Frostwall|BUILDING|TheForge;60;117;118|N|From ??.|
 B True Iron Ore|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
 C Place order|QID|35168|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|CHAT|N|Talk to Kinja to start a work order.|
 C Pick up order|QID|35168|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|TheForge;60;117;118|NC|N|From the bundles, barrels and boxes beside the building, called 'Blacksmithing Work Order' .|
-T Your First Blacksmithing Work Order|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118||N|From Kinja.|
+T Your First Blacksmithing Work Order|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|N|From Kinja.|
 
 ;gem boutique SMALL
 A Your First Jewelcrafting Work Order|QID|37573|M|48.22,32.51|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|From Dorogarr.|
@@ -217,10 +232,10 @@ C Pick up work order|QID|36645|M|51.85,35.76|QO|2|NC|N|At the bundles and boxes 
 T Your First Enchanting Work Order|QID|36645|M|52.56,36.72|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
 
 ;if you choose barn MED
-A Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|From Farmer Lok'lub|
+A Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|From Farmer Lok'lub|
 C Go trap an animal|QID|36345|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a wolf (in the shivering trench ~55,62) if you want fur (cloth) and a clefthoof (nearest concentration is outside of sootstained mines ~26,46) if you are interested in leather. You can trap more if you want, up to 7 can be turned in each day.|
 C Place a work order|QID|36345|QO|2|M|51.71,58.32|Z|Frostwall|N|At Farmer Lok'lub, sometimes he gets bored and wanders around, I have found him as far away as my garrison's graveyard.|
-T Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|To Farmer Lok'lub|
+T Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|To Farmer Lok'lub|
 
 ;; Garrison Level Quesrs
 
@@ -249,12 +264,12 @@ C Kill the Raccoons|QID|36404|M|57.6,59.6|Z|Lunarfall|QO|1|
 T Clearing the Garden |QID|36404|M|58.89, 53.45|Z|Lunarfall|N|To Naron Bloomthistle|
 
 ; Salvage Yard
-A Pinchwhistle Gearworks|QID|35619|LEAD|35077|M|39.63,60.62|Z|Spires of Arak|N|From Watchman Kovak. |FACTION|Alliance|LVL|96|
+A Pinchwhistle Gearworks|QID|35619|PRE|35286|LEAD|35077|M|39.63,60.62|Z|Spires of Arak|N|From Watchman Kovak. |FACTION|Alliance|LVL|96|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|Z|Spires of Arak|CHAT|N|Talk to Firn Swiftbreeze for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
-A Pinchwhistle Gearworks|QID|35620|LEAD|35077|M|40.01,43.97|N|From Scout Cel. |FACTION|Horde|LVL|96|
+A Pinchwhistle Gearworks|QID|35620|PRE|35277|LEAD|35077|M|40.01,43.97|N|From Scout Cel. |FACTION|Horde|LVL|96|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
-A Pinchwhistle Gearworks|QID|35619|LEAD|35077|M|45.8,46.0|Z|Lunarfall|N|From Pinchwhistle Gearworks. |FACTION|Alliance|LVL|96|
+A Pinchwhistle Gearworks|QID|35619|PRE|35286|LEAD|35077|M|45.8,46.0|Z|Lunarfall|N|From Pinchwhistle Gearworks. |FACTION|Alliance|LVL|96|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|Z|Lunarfall|CHAT|N|Talk to Dungar Longdrink for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
 A Pinchwhistle Gearworks|QID|36862|LEAD|35077|M|40.01,43.97|Z|Frostwall|N|From Murla Longeye. |FACTION|Horde|LVL|96|
 C Pinchwhistle Gearworks|QID|36862|M|39.50,43.38|Z|Frostwall|CHAT|N|Talk to Bron Skyhorn for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
@@ -285,15 +300,15 @@ T Clearing Out Before Cleaning Up|QID|35081|M|59.09,79.23|Z|Spires of Arak|N|To 
 A Follow that Hotrod!|QID|35285|M|59.09,79.21|Z|Spires of Arak|N|From Engineer Gazwitz.|PRE|35081;35082|
 T Follow that Hotrod!|QID|35285|M|58.49,92.33|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 A The Right Parts for the Job|QID|35090|M|58.49,92.33|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35285|
-A Skimming Off The Top|QID|35089|M|58.49,92.33|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35285|
+A Skimming Off the Top|QID|35089|M|58.49,92.33|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35285|
 A Field Trial|QID|36384|U|115475|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35285|
-C Skimming Off The Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|S|N|Kill the oily slimes in the area.|
+C Skimming Off the Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|S|N|Kill the oily slimes in the area.|
 C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|Z|Spires of Arak|NC|S|N|Use your rocket to shoot at one of the shredders standing around.  It will break it and then you pick up the pieces.|
 C Field Trial|QID|36384|U|115475|M|59.18,88.12|Z|Spires of Arak|N|When you encounter one of the infected, use the potion on him.|
 C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|Z|Spires of Arak|NC|US|N|Use your rocket to shoot at one of the shredders standing around.  It will break it and then you pick up the pieces.|
-C Skimming Off The Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|US|N|Kill the oily slimes in the area.|
+C Skimming Off the Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|US|N|Kill the oily slimes in the area.|
 T The Right Parts for the Job|QID|35090|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
-T Skimming Off The Top|QID|35089|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
+T Skimming Off the Top|QID|35089|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 A Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35090;35089|
 T Field Trial|QID|36384|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
 A Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|36384|
@@ -318,7 +333,7 @@ C Unearthed Magic|QID|38241|M|65.69,42.54|Z|Lunarfall|N|It is in a cart outside 
 T Unearthed Magic|QID|38241|M|28.85,38.56|Z|Lunarfall|N|To Lio the Lioness|
 A Pets Versus Pests|QID|36423|PRE|38241|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|
 C Suggestions|QID|36423|N|Some pet suggestions follow.  However,  Pandaren Water Spirit+Chrominius Geyser+Whirlpool+Howl will work for all.|NC|
-C Gorefu|QID|36423|M|57.4,21.8|Z|Lunarfall|QO|2|T|Gorefu|N|Gorefu is near the Fishing Shack.\n
+C Gorefu|QID|36423|M|57.4,21.8|Z|Lunarfall|QO|2|T|Gorefu|N|Gorefu is near the Fishing Shack.\n|
 C Carrotus Maximus|QID|36423|M|57.76,60.10|Z|Lunarfall|QO|1|T|Carrotus|N|Carrotus is near the herb garden.\nAquatics like Frogs, Striders or Crabs.\nUse Kiss, Pump, Cleansing Rain, Whirlpool, Surge.|
 C Gnawface|QID|36423|M|60.14,77.82|Z|Lunarfall|QO|3|T|Gnawface|N|Outside your fort at the cooks camp.\nFoxes, Raptors, Mechanicals.\nUse Black Claw, Hunting Party, Howl, Bite.|
 T Pets Versus Pests|QID|36423|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2017-03-15 22:56
+-- Who: Ludovicus
+-- Log: Added PRE to BitDur0512
+
+-- URL: http://wow-pro.com/node/3199/revisions/27658/view
 -- Date: 2016-08-31 00:25
 -- Who: Ludovicus
 -- Log: 0 is not valid
@@ -284,11 +289,6 @@
 -- Who: Ludovicus
 -- Log: Added CS tag
 
--- URL: http://wow-pro.com/node/3199/revisions/25126/view
--- Date: 2012-10-08 19:43
--- Who: Ludovicus
--- Log: Get rid of - in zone names.
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
@@ -447,7 +447,7 @@ A Margoz|QID|25261|PRE|25260|M|44.98,14.76|N|From Gor the Enforcer.|
 T Thunder Down Under|QID|25236|M|44.98,14.76|N|To Gor the Enforcer.|
 T Ignoring the Warnings|QID|25206|M|44.98,14.76|N|To Gor the Enforcer.|
 
-A Beyond Durotar|QID|25648|M|44.98,14.76|N|*Azshara Quest*\n\nFrom Gor the Enforcer.\nAccept this quest if you plan on going to Azshara next. |ACTIVE|25261|
+A Beyond Durotar|QID|25648|PRE|25206;25236|M|44.98,14.76|N|*Azshara Quest*\n\nFrom Gor the Enforcer.\nAccept this quest if you plan on going to Azshara next. |ACTIVE|25261|
 T Margoz|QID|25261|M|56.39,20.17|N|To Margoz.|
 
 A Skull Rock|QID|25262|PRE|25261|M|56.39,20.17|N|From Margoz.|

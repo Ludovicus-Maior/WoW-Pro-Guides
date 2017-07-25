@@ -56,28 +56,6 @@ function WoWPro.Dailies:OnDisable()
 	end
 end
 
--- Guide Registration Function --
-function WoWPro.Dailies:RegisterGuide(GIDvalue, zonename, guidename, categoryname, authorname, factionname, sequencevalue)
-	
---[[ Purpose: 
-		Called by guides to register them to the WoWPro.Guide table. All members
-		of this table must have a quidetype parameter to let the addon know what 
-		module should handle that guide.]]
-		
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
-		-- If the guide is not of the correct faction, don't register it
-		
-	WoWPro.Guides[GIDvalue] = {
-		guidetype = "Dailies",
-		GID = GIDvalue,
-		zone = zonename,
-		name = guidename,
-		category = categoryname,
-		author = authorname,
-		sequence = sequencevalue,
-	}
-end
-
 function WoWPro.Dailies:GuideFaction(guide,faction)
     guide.faction = tonumber(faction)
 end

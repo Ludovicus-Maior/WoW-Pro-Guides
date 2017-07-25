@@ -97,27 +97,3 @@ function WoWPro.Leveling:OnDisable()
 	end
 end
 
--- Guide Registration Function --
-function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, 
-	endlevelvalue, nextGIDvalue, factionname, sequencevalue)
-	
---[[ Purpose: 
-		Called by guides to register them to the WoWPro.Guide table. All members
-		of this table must have a quidetype parameter to let the addon know what 
-		module should handle that guide.]]
-		
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
-		-- If the guide is not of the correct faction, don't register it
-		
-	WoWPro.Guides[GIDvalue] = {
-		guidetype = "Leveling",
-		zone = zonename,
-		author = authorname,
-		startlevel = tonumber(startlevelvalue),
-		endlevel = tonumber(endlevelvalue),
-		sequence = sequencevalue,
-		nextGID = nextGIDvalue,
-		faction = factionname
-	}
-end
-

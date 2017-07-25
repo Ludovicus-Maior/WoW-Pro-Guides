@@ -44,20 +44,7 @@ WoWPro.Dailies.actionlabels = {
 -- Determine Next Active Step (Dailies Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.Dailies:NextStep(k, SKIP)
-    local skip = SKIP
-	local GID = WoWProDB.char.currentguide
-    
-
-	-- All non-A and non-N and non-B steps are Optional Quests --
-	if WoWPro.action[k] ~= "A" and WoWPro.action[k] ~= "N" and WoWPro.action[k] ~= "B" and WoWPro.QID[k] then 
-		-- Checking Quest Log --
-		if not WoWPro:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then 
-			skip = true -- If the quest is not in the quest log, the step is skipped --
-		end		
-	end
-
-    WoWPro.Dailies:dbp("%s=NextStep(%d, %s)",tostring(skip),k,tostring(SKIP))
-	return skip
+	return SKIP
 end
 
 -- Left-Click Row Function --

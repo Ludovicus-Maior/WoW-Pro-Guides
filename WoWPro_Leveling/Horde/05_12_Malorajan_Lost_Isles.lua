@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2017-03-23 18:59
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3212/revisions/28415/view
+-- Date: 2017-03-15 22:59
+-- Who: Ludovicus
+-- Log: Added 2 PREs to MalLos0512
+
+-- URL: http://wow-pro.com/node/3212/revisions/28410/view
+-- Date: 2017-03-15 22:53
+-- Who: Ludovicus
+-- Log: Syntax fixes to MalKez0105
+
+-- URL: http://wow-pro.com/node/3212/revisions/27497/view
 -- Date: 2016-07-30 20:11
 -- Who: tubera
 -- Log: Remove class quests. Move quests around to make guide more efficient.
@@ -200,7 +215,7 @@ return [[
 
 N Finish Kezan First|QID|14126|N|You will need to finish the Kezan zone before you can do the Lost Isles zone.|
 
-A Don't Go Into The Light |QID|14239|N|Wait for the cinematic to finish, then get this quest from Doc Zapnozzle.|
+A Don't Go Into the Light!|QID|14239|PRE|14126|N|Wait for the cinematic to finish, then get this quest from Doc Zapnozzle.|
 ;T Don't Go Into The Light |QID|14239|N|To Doc Zapnozzle.|
 
 A Goblin Escape Pods|QID|14001;14474|M|24.63,77.96|N|From Geargrinder Gizmo.|PRE|14239|
@@ -509,7 +524,7 @@ T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|Durotar|N|To Korkron Loyalist.|
 A Message for Vol'jin|QID|25267|M|57.67,9.6|Z|Durotar|N|From Darkspear Loyalist. On accepting quest, you will be riden to Orgrimmar.|PRE|25265|
 T Message for Vol'jin|QID|25267|M|48.11,70.54|Z|Orgrimmar|N|To Vol'jin, inside Grommash Hold.|
 
-A Report to the Labor Captain|QID|25275|M|48.11,70.54|Z|Orgrimmar|N|From Vol'jin.|
+A Report to the Labor Captain|QID|25275|PRE|25267|M|48.11,70.54|Z|Orgrimmar|N|From Vol'jin.|
 A Missing Reports|QID|26803|M|49.0,72.2|Z|Orgrimmar|N|From Eitrigg.|RANK|2|
 T Missing Reports|QID|26803|M|49.4,59.2|Z|Orgrimmar|N|To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
 

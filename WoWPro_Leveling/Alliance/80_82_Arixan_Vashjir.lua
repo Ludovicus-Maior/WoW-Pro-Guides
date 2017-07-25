@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2017-03-23 18:29
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3305/revisions/28400/view
+-- Date: 2017-03-15 22:04
+-- Who: Ludovicus
+-- Log: Added PREs to AriVasA8082
+
+-- URL: http://wow-pro.com/node/3305/revisions/26825/view
 -- Date: 2014-11-06 14:18
 -- Who: Fluclo
 -- Log: Removed duplicate tags, added missing M tag
@@ -219,14 +229,6 @@
 -- Date: 2010-12-31 09:30
 -- Who: JamesL85
 
--- URL: http://wow-pro.com/node/3305/revisions/23873/view
--- Date: 2010-12-31 08:52
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23864/view
--- Date: 2010-12-30 08:25
--- Who: JamesL85
-
 local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
 WoWPro:GuideLevels(guide,80,80, 79.9802)
 WoWPro:GuideNextGuide(guide, 'AriDee8283')
@@ -267,7 +269,7 @@ T Pay It Forward|QID|25281|M|45.2,23.4|Z|Kelp'thar Forest|N|To Erunak Stonespeak
 A Rest For the Weary|QID|25405|PRE|25281|M|45.2,23.4|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 T Rest For the Weary|QID|25405|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 A Buy Us Some Time|QID|25357|PRE|25405|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
-A Traveling on Our Stomachs|QID|25546|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
+A Traveling on Our Stomachs|QID|25546|PRE|25405|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
 C Traveling on Our Stomachs|QID|25546|S|M|42,31.9;48.3,25.8;45.6,28.9|CN|L|54845 8|Z|Kelp'thar Forest|N|Kill and loot Splitclaw Skitterers for their Succulent Crab Meat. They are found on the ground.|
 C Buy Us Some Time|QID|25357|M|45.3,28.1;48,21.9;40.86,34.14|Z|Kelp'thar Forest|CN|N|Kill Zin'Jatari Raiders. They are found swimming around and above The Briny Cutter.|
 C Traveling on Our Stomachs|QID|25546|US|M|42,31.9;48.3,25.8;45.6,28.9|CN|L|54845 8|Z|Kelp'thar Forest|N|Kill and loot Splitclaw Skitterers for their Succulent Crab Meat. They are found on the ground.|
@@ -302,13 +304,13 @@ C The Abyssal Ride|QID|25371|M|43.7,47.5|Z|Kelp'thar Forest|N|A Seahorse will co
 T The Abyssal Ride|QID|25371|M|46.0,46.8|Z|Kelp'thar Forest|N|To Moanah Stormhoof.|
 A Good Deed Left Undone|QID|27685|PRE|25371|M|46.6,46.7|Z|Kelp'thar Forest|N|From Rendel Firetongue.|
 T Good Deed Left Undone|QID|27685|M|53.40,43.0|Z|Kelp'thar Forest|N|Find Adarrah on the east side of the Kelp Forest. Turn in Good Deed Left Undone.|
-A Gimme Shelter!|QID|25587|M|53.4,43.2|Z|Kelp'thar Forest|N|From Adarrah.|
+A Gimme Shelter!|QID|25587|PRE|25371|M|53.4,43.2|Z|Kelp'thar Forest|N|From Adarrah.|
 C Smuggler's Scar|QID|25587|M|53.63,34.55;57.00,29.50|CS|QO|Smuggler's Scar Scouted: 1/1|Z|Kelp'thar Forest|N|Swim toward Smuggler's Hole, a small cave just north of where you are. Go inside, until you reach the surface of the water. Get the flightpoint at the Swift Seahorse.|
 f Smuggler's Scar|QID|25587|Z|Kelp'thar Forest|M|56.14,31.1|N|Grab the flight point from the Swift Seahorse.|
 C Gimme Shelter!|QID|25587|M|53.67,34.32|Z|Kelp'thar Forest|N|Swim back out of the cave to signal Adarrah.|
 T Gimme Shelter!|QID|25587|M|57.1,28.8|Z|Kelp'thar Forest|N|Swim back into the cave and talk to Adarrah.|
-A Ain't Too Proud to Beg|QID|25598|M|57.09,28.87|Z|Kelp'thar Forest|N|From Adarrah.|
-A A Case of Crabs|QID|25388|RANK|2|M|49.70,40.89|Z|Kelp'thar Forest|N|Swim back out into the Kelp Forest and find a crate. Click on the crate to accept A Case of Crabs.|
+A Ain't Too Proud to Beg|QID|25598|PRE|25587|M|57.09,28.87|Z|Kelp'thar Forest|N|From Adarrah.|
+A A Case of Crabs|QID|25388|PRE|25587|RANK|2|M|49.70,40.89|Z|Kelp'thar Forest|N|Swim back out into the Kelp Forest and find a crate. Click on the crate to accept A Case of Crabs.|
 C Ain't Too Proud to Beg|QID|25598|M|48.2,39.4|Z|Kelp'thar Forest|N|Find Captain Samir and Mack Fearsen. Talk to Samir and tell him about Smuggler's Hole.|
 T Ain't Too Proud to Beg|QID|25598|M|57.1,28.8|Z|Kelp'thar Forest|N|To Adarrah.|
 T A Case of Crabs|QID|25388|RANK|2|M|57.1,28.8|Z|Kelp'thar Forest|N|To Adarrah.|
@@ -334,14 +336,14 @@ A Ophidophobia|QID|25459|PRE|25602|M|57.1,28.8|Z|Kelp'thar Forest|N|From Adarrah
 C Nerve Tonic|QID|25358|RANK|2|S|M|56.1,37.2;56.87,39.51|CN|L|52973 5|Z|Kelp'thar Forest|N|Collect the small crates floating all around the ship.|
 C Ophidophobia|QID|25459|M|57.7,39.5|Z|Kelp'thar Forest|N|Kill any Brinescale Serpents you see.|
 C Nerve Tonic|QID|25358|RANK|2|US|M|56.1,37.2;56.87,39.51|CN|L|52973 5|Z|Kelp'thar Forest|N|Finish collecting the small crates.|
-A An Opened Can of Whoop Gnash|QID|27687|Z|Kelp'thar Forest|RANK|2|M|52.83,46.24|U|62138|N|There is an elite giant wandering around called Gnash. If you are able to kill him via party or by yourself, loot his head and accept this quest.|
+A An Opened Can of Whoop Gnash|QID|27687|PRE|25598|Z|Kelp'thar Forest|RANK|2|M|52.83,46.24|U|62138|N|There is an elite giant wandering around called Gnash. If you are able to kill him via party or by yourself, loot his head and accept this quest.|
 T Ophidophobia|QID|25459|M|53.62,34.62;57.1,28.8|CS|Z|Kelp'thar Forest|N|To Adarrah.|
 T An Opened Can of Whoop Gnash|QID|27687|Z|Kelp'thar Forest|RANK|2|M|57.31,28.95|N|To Captain Samir.|O|
 T Nerve Tonic|QID|25358|RANK|2|M|57.3,29.1|Z|Kelp'thar Forest|N|To Mack Fearsen.|
-A A Desperate Plea|QID|25638|U|62137|M|56.48,29.99|Z|Kelp'thar Forest|N|From a Note in a Bottle.|
+A A Desperate Plea|QID|25638|PRE|25459|U|62137|M|56.48,29.99|Z|Kelp'thar Forest|N|From a Note in a Bottle.|
 A Oh, the Insanity!|QID|25651|PRE|25602|RANK|2|M|55.25,38.87|Z|Kelp'thar Forest|N|From Budd.|
 l Pilfered Cannballs|QID|25651|RANK|2|L|55185 50|S|M|50.2,49.7;54.9,58.8;52.75,50.21|Z|Kelp'thar Forest|CN|N|Kill Gilblin Hoarder's and collect cannonballs from stacks of cannonballs until you have 50 Pilfered Cannonballs.|
-A Lady La-La's Medallion|QID|25419|RANK|2|U|55186|M|50.62,48.43|Z|Kelp'thar Forest|N|Kill Gilblin Collector's until you get Lady La-La's Necklace.|
+A Lady La-La's Medallion|QID|25419|PRE|25459|RANK|2|U|55186|M|50.62,48.43|Z|Kelp'thar Forest|N|Kill Gilblin Collector's until you get Lady La-La's Necklace.|
 l Medallion Fragments|QID|25419|RANK|2|L|55188 5|M|49.3,48.7;53.6,54.6;55.7,58.7|Z|Kelp'thar Forest|CN|N|Kill Gilblin Collector's until you get 5 Medallion Fragments.|
 C Lady La-La's Medallion|QID|25419|M|49.3,48.7;53.6,54.6;55.7,58.7|Z|Kelp'thar Forest|CN|U|55188|N|Combine the 5 Medallion Fragments into Lady La-La's Medallion.|
 T Lady La-La's Medallion|QID|25419|M|49.3,48.7;53.6,54.6;55.7,58.7|Z|Kelp'thar Forest|CN|N|Complete the quest to get your reward.|
@@ -382,8 +384,8 @@ A Wake of Destruction|QID|25887|PRE|25824|M|63.8,59.7|Z|Kelp'thar Forest|N|From 
 N Wake of Destruction|QID|25887|M|58.2,64.4|Z|Kelp'thar Forest|U|56576|N|Swim out of the grotto and head just a bit west, where you will find the Famished Great Sharks. Target one of the sharks while staying far enough away that it doesn't attack you and use the Orb of Suggestion.|
 C Wake of Destruction|QID|25887|M|59,70|Z|Kelp'thar Forest|N|Swim near the Zin'Jatar Guardians and use the ability "Eat Naga". You don't actually have to target the naga, just swim near them.|
 T Wake of Destruction|QID|25887|M|63.8,59.7|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
-A Decompression|QID|25888|RANK|2|M|63.9,59.4|Z|Kelp'thar Forest|N|From Moanah Stormhoof.|
-A What? What? In My Gut...?|QID|25885|RANK|2|M|63.9,59.9|Z|Kelp'thar Forest|N|From Private Pollard.|
+A Decompression|QID|25888|PRE|25887|RANK|2|M|63.9,59.4|Z|Kelp'thar Forest|N|From Moanah Stormhoof.|
+A What? What? In My Gut...?|QID|25885|PRE|25887|RANK|2|M|63.9,59.9|Z|Kelp'thar Forest|N|From Private Pollard.|
 A Come Hell or High Water|QID|25884|PRE|25887|M|64.2,59.9|Z|Kelp'thar Forest|N|From Rendel Firetongue.|
 C Come Hell or High Water|QID|25884|M|56.4,70.6|S|Z|Kelp'thar Forest|N|Kill 12 Zin'Jatar Guardians, Overseers, or Pearlbinders. They can also drop the Wiggleweed Sprout you need for What? What? In My Gut...?.|
 C What? What? In My Gut...?|QID|25885|M|58.1,70.7|S|L|56167 7|Z|Kelp'thar Forest|N|Kill Shimmerspine Harvesters (Murlocs) which drop Wiggleweed Sprout.|
@@ -447,7 +449,7 @@ A Toshe's Vengeance|QID|25359|PRE|25456|RANK|1|M|49.6,42.1|Z|Shimmering Expanse|
 T Slippery Threat|QID|25220|M|49.2,42|Z|Shimmering Expanse|N|To Caretaker Movra.|
 T Don't be Shellfish|QID|25219|M|49.3,42.6|Z|Shimmering Expanse|N|To Earthmender Duarn.|
 T Toshe's Vengeance|QID|25359|M|64.1,42.3|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
-A Vengeful Heart|QID|25439|RANK|1|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
+A Vengeful Heart|QID|25439|PRE|25359|RANK|1|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
 A Vortex|QID|25441|PRE|25359|RANK|2|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
 C Vengeful Heart|QID|25439|PRE|25359|S|M|66.3,46.5|Z|Shimmering Expanse|N|Kill Zin'Jatar Ravagers. Make sure you use the Globes of Tumultuous Water after the Naga command the snakes to attack you.|
 C Vortex|QID|25441|M|64.7,45.7|RANK|2|U|54785|Z|Shimmering Expanse|N|Use the Globes of Tumultuous Water to suck up the swarming serpents. |
@@ -483,8 +485,8 @@ T Breaking Through|QID|25916|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender D
 A We Are Not Alone|QID|25917|PRE|25916|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
 T We Are Not Alone|QID|25917|M|62.6,49.8|Z|Shimmering Expanse|N|Take a left from where Duarn is. To Captain Taylor.|
 A Body Blows|QID|25919|PRE|25917|M|62.6,49.8|Z|Shimmering Expanse|N|From Captain Taylor.|
-A Hopelessly Gearless|QID|25918|M|62.7,49.9|Z|Shimmering Expanse|N|From Admiral Dvorek.|
-A Still Valuable|QID|25920|M|62.8,50.0|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
+A Hopelessly Gearless|QID|25918|PRE|25917|M|62.7,49.9|Z|Shimmering Expanse|N|From Admiral Dvorek.|
+A Still Valuable|QID|25920|PRE|25917|M|62.8,50.0|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
 C Still Valuable|QID|25920|S|M|61.1,50.7;59.4,61;63.2,60|Z|Shimmering Expanse|CN|N|Kill any naga in the area until you have looted 5 Mysterious Pearls.|
 C Hopelessly Gearless|QID|25918|S|Z|Shimmering Expanse|N|Find Idra'kess Weapon Racks and loot the Purloined Polearms from them.|
 C Body Blows|QID|25919|M|63.73,50.86;63.65,52.06;64.76,54.56;61.80,52.57;61.08,51.78;61.08,53.76;61.11,55.39|Z|Shimmering Expanse|CN|N|Find 7 Nespirah Abscesses and attack them. They are small redish nodes along the walls. They can be hard to spot, as they blend in with everything around them, Position Unknown.|
@@ -505,7 +507,7 @@ f Tranguil Wash|QID|25535|M|48.6,57.38|N|Grab the flight point from the Swift Se
 T A Powerful Need To Eat|QID|25535|M|48.9,49.2|Z|Shimmering Expanse|N|To Divemaster Birmingham.|
 A Clamming Up|QID|25539|PRE|25535|M|48.9,49.2|Z|Shimmering Expanse|N|From Divemaster Birmingham.|
 A Art of Attraction|QID|25537|PRE|25535|M|49,49.2|Z|Shimmering Expanse|N|From Engineer Hexascrub.|
-C Cold Welcome|QID|25536|S||M|43.2,49.9|Z|Shimmering Expanse|N|Kill Tidehunters.|
+C Cold Welcome|QID|25536|S|M|43.2,49.9|Z|Shimmering Expanse|N|Kill Tidehunters.|
 C Clamming Up|QID|25539|M|45.5,52.5;42.82,48.53;41.74,46.77|Z|Shimmering Expanse|CN|N|Collect Clams.|S|
 C Art of Attraction|QID|25537|U|54840|M|42.66,49.43;45.68,52.53;48.69,53.92;49.99,51.23|Z|Shimmering Expanse|CN|N|Swim up to the anemones on the cliff walls. When you are near one, use the Anemone Chemical Extraction Device.|
 C Clamming Up|QID|25539|M|45.5,52.5;42.82,48.53;41.74,46.77|Z|Shimmering Expanse|CN|N|Collect Clams.|US|
@@ -528,7 +530,7 @@ N Lestharia Vashj statue|QID|25581|QO|Lestharia Vashj statue: 1/1|M|39.66,58.96|
 N Queen Azshara statue|QID|25581|QO|Queen Azshara statue: 1/1|M|38.62,58.96|Z|Shimmering Expanse|N|Read the inscription at the Queen Azshara statue.|
 N High Priestess Siralen statue|QID|25581|QO|High Priestess Siralen statue: 1/1|M|38.46,66.05|Z|Shimmering Expanse|N|Read the inscription at the High Priestess Siralen statue.|
 C An Occupation of Time|QID|25581|RANK|2|M|39.73,67.70|Z|Shimmering Expanse|N|Read the inscription at the Ranger Valarian statue.|
-A Upon the Scene of Battle|QID|25583|M|40.52,75.42|Z|Shimmering Expanse|N|From the skull on the ground.|
+A Upon the Scene of Battle|QID|25583|PRE|27393|M|40.52,75.42|Z|Shimmering Expanse|N|From the skull on the ground.|
 N Structures south of Quel'Dormir Gardens scouted|QID|25582|M|40.49,74.95|Z|Shimmering Expanse|N|Head to the waypoint to scout the Structures south of Quel'Dormir Gardens.|QO|Structures south of Quel'Dormir Gardens scouted: 1/1|
 N Tunnel west of Quel'Dormir Gardens scouted|QID|25582|M|35.24,63.06|Z|Shimmering Expanse|N|Head to the waypoint to get the Tunnel west of Guel'Dormir Garderns scouted.|QO|Tunnel west of Quel'Dormir Gardens scouted: 1/1|
 C A Better Vantage|QID|25582|M|39.17,56.89|Z|Shimmering Expanse|N|Scout the area.|
@@ -541,7 +543,7 @@ T Swift Approach|QID|25580|RANK|1|M|49.2,57|Z|Shimmering Expanse|N|To Captain Ta
 T A Better Vantage|QID|25582|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
 T Caught Off-Guard|QID|25579|RANK|1|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
 T Upon the Scene of Battle|QID|25583|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
-A Visions of the Past: The Invasion of Vashj'ir|QID|25760|RANK|1|U|55171|M|49.3,57.0|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
+A Visions of the Past: The Invasion of Vashj'ir|QID|25760|PRE|25583|RANK|1|U|55171|M|49.3,57.0|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
 U Visions of the Past: The Invasion of Vashj'ir|QID|25619|RANK|1|U|55171|M|40.50,75.58|Z|Shimmering Expanse|N|Use the Blade of the Naz'jar Battlemaiden to start the vision. Close this step.|
 A Reoccupation|QID|25619|PRE|25760|M|40.5,75.4|Z|Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
 C Reoccupation|QID|25619|M|39.32,78.26;38.27,79.35;37.61,75.62;38.89,72.13|CN|Z|Shimmering Expanse|N|Kill Kvaldir Defenders.|
@@ -549,7 +551,7 @@ T Reoccupation|QID|25619|M|40.5,75.4|Z|Shimmering Expanse|N|To Fathom-Stalker Az
 A The Revered Lady|QID|25620|PRE|25619|M|40.5,75.4|Z|Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
 T The Revered Lady|QID|25620|M|39.4,59|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 A To the Fathom-Lord's Call|QID|25637|PRE|25620|M|39.4,59|Z|Shimmering Expanse|N|From Lady Naz'jar.|
-A Built to Last|QID|25658|RANK|1|M|39,58.6|Z|Shimmering Expanse|N|From Sira'kess Tide Priestess.|
+A Built to Last|QID|25658|PRE|25620|RANK|1|M|39,58.6|Z|Shimmering Expanse|N|From Sira'kess Tide Priestess.|
 C To the Fathom-Lord's Call|QID|25637|S|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|Shimmering Expanse|CN|N|Kill Kvaldir.|
 C Built to Last|QID|25658|RANK|1|M|34.6,65.4;33.97,68.18;32.27,67.22;31.67,64.89;30.23,64.38;31.69,58.88|CN|N|Activate the defenses which look like blue basins.|Z|Shimmering Expanse|
 C To the Fathom-Lord's Call|QID|25637|US|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|Shimmering Expanse|CN|N|Kill the remaining Kvaldir.|
@@ -638,10 +640,10 @@ T Devout Assembly|QID|25896|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess
 A At All Costs|QID|25860|PRE|25896;25993|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
 C At All Costs|QID|25860|M|33.12,76.52|Z|Shimmering Expanse|N|Stay at the entrance and kill all new arriving Kvaldir until you get your 20 kills.|
 T At All Costs|QID|25860|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess.|
-A Final Judgement|QID|25951|PRE|25860|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
+A Final Judgment|QID|25951|PRE|25860|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
 N Hold the eastern end of Quel'Dormir Terrace|QID|25951|QO|Hold the eastern end of Quel'Dormir Terrace: 1/1|M|37.5,78.69|Z|Shimmering Expanse|N|Swim out of the temple to the east, where you will find Lady Naz'jar. Kill Kvaldir and stay alive, ends at about the 3-4 minute mark.|
-C Final Judgement|QID|25951|M|42.90,78.40|Z|Shimmering Expanse|N|Kill Kvaldir and stay alive until you get the quest complete message.|
-T Final Judgement|QID|25951|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
+C Final Judgment|QID|25951|M|42.90,78.40|Z|Shimmering Expanse|N|Kill Kvaldir and stay alive until you get the quest complete message.|
+T Final Judgment|QID|25951|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 T Visions of the Past: Rise from the Deep|QID|25626|M|46.69,57.53;49.45,57.57|CS|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
 A A Breath of Fresh Air|QID|26005|PRE|25626|M|49.45,57.57|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
 T A Breath of Fresh Air|QID|26005|M|69.61,75.34|Z|Vashj'ir|U|57412|N|Located on the surface. You can use the Boom Boots to get to the surface. Turn quest in to Captain Taylor.|
@@ -701,7 +703,7 @@ T Put It On|QID|25987|M|55.5,72.9|Z|Abyssal Depths|N|To Engineer Hexascrub.|
 A Promontory Point|QID|25983|PRE|25987|M|55.5,72.9|Z|Abyssal Depths|N|From Engineer Hexascrub.|
 T Promontory Point|QID|25983|M|42.7,37.9|Z|Abyssal Depths|N|To Captain Taylor.|
 A The Wavespeaker|QID|26056|M|42.75,37.86|Z|Abyssal Depths|N|From Captain Taylor.|
-A Clearing the Defiled|QID|26070|RANK|2|M|42.75,37.86|Z|Abyssal Depths|N|From Captain Taylor.|
+A Clearing the Defiled|QID|26070|PRE|25983|RANK|2|M|42.75,37.86|Z|Abyssal Depths|N|From Captain Taylor.|
 A Scalding Shrooms|QID|26096|M|42.7,39.9|Z|Abyssal Depths|N|From Wavespeaker Tulra.|
 A Into the Totem|QID|26072|M|42.75,37.868|Z|Abyssal Depths|N|From Erunak Stonespeaker.|
 C Into the Totem|QID|26072|S|U|56801|N|Use the Totem and kill Corrupting Faceless.|
@@ -720,7 +722,7 @@ A ... It Will Come|QID|26111|PRE|26072|M|42.7,37.8|Z|Abyssal Depths|N|From Eruna
 C ... It Will Come|QID|26111|M|46.98,28.01|Z|Abyssal Depths|N|Swim to the Stonespeaker's Luring Totem. Use it to summon Ick'thys the Unfathomable. Kill him and loot his brain.|
 T ... It Will Come|QID|26111|M|42.7,37.8|Z|Abyssal Depths|N|To Erunak Stonespeaker.|
 A Unplug L'ghorek|QID|26130|PRE|26111|M|42.7,37.8|Z|Abyssal Depths|N|From Erunak Stonespeaker.|
-A Fiends from the Netherworld|QID|26132|RANK|2|M|42.7,37.9|Z|Abyssal Depths|N|From Captain Taylor.|
+A Fiends from the Netherworld|QID|26132|PRE|26111|RANK|2|M|42.7,37.9|Z|Abyssal Depths|N|From Captain Taylor.|
 C Fiends from the Netherworld|QID|26132|RANK|2|S|Z|Abyssal Depths|N|Kill Nether Fiends.|
 K Ur'Goz|QID|26130|QO|Ur'Goz slain: 1/1|M|36.33,47|Z|Abyssal Depths|N|Kill Ur'Goz.|
 K Sku'Bu|QID|26130|QO|Sku'Bu slain: 1/1|M|34.61,54.39|Z|Abyssal Depths|N|Kill Sku'Bu.|

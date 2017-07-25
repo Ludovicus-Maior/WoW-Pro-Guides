@@ -58,18 +58,6 @@ function WoWPro.Profession:OnDisable()
 	end
 end
 
--- Guide Registration Function --
-function WoWPro.Profession:RegisterGuide(GIDvalue, zonename, guidename, authorname, startlevelvalue, 
-	endlevelvalue, vendorP, factionname, sequencevalue)
-    
-    local guide = WoWPro:RegisterGuide(GIDvalue, "Profession", zonename, authorname, factionname)
-    WoWPro:GuideName(guide, guidename)
-    WoWPro:GuideLevels(guide,0,UnitLevel("player"),UnitLevel("player")/2.0)
-    WoWPro:GuideSteps(guide,sequencevalue)
-    WoWPro:BuyersGuide(guide)
-    return guide
-end
-
 function WoWPro.Profession:LoadAllGuides()
     self:Print("Test Load of Profession Guides")
     local aCount=0

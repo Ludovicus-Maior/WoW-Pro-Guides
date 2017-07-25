@@ -4,6 +4,51 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2017-04-23 21:47
+-- Who: Ludovicus
+-- Log: Add missing ACTIVE|44479| on Ravencrest's Legacy
+
+-- URL: http://wow-pro.com/node/3671/revisions/28617/view
+-- Date: 2017-03-28 22:02
+-- Who: Ludovicus
+-- Log: Fix crystal ball cooords.
+
+-- URL: http://wow-pro.com/node/3671/revisions/28589/view
+-- Date: 2017-03-23 19:29
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3671/revisions/28538/view
+-- Date: 2017-03-21 22:40
+-- Who: Ludovicus
+-- Log: Played [An Unexpected Visitor] through [Following In His Footsteps]. Changed level on [Recruiting Apprentices]
+
+-- URL: http://wow-pro.com/node/3671/revisions/28467/view
+-- Date: 2017-03-16 22:29
+-- Who: Ludovicus
+-- Log: Added PREs; syntax corrections.
+
+-- URL: http://wow-pro.com/node/3671/revisions/28367/view
+-- Date: 2017-03-14 20:40
+-- Who: Blanckaert
+-- Log: fixed a bad coord of 883. to 83., and added some quests added 3/14
+
+-- URL: http://wow-pro.com/node/3671/revisions/28276/view
+-- Date: 2017-03-05 18:32
+-- Who: Ludovicus
+-- Log: Coord corrections for [Rise, Champions] quests.
+
+-- URL: http://wow-pro.com/node/3671/revisions/28259/view
+-- Date: 2017-03-04 18:52
+-- Who: Blanckaert
+-- Log: fixed ; + switch on QID 44448
+
+-- URL: http://wow-pro.com/node/3671/revisions/28228/view
+-- Date: 2017-01-10 21:09
+-- Who: Blanckaert
+-- Log: Added: Obliterum Quest Chain
+
+-- URL: http://wow-pro.com/node/3671/revisions/28118/view
 -- Date: 2016-12-08 02:59
 -- Who: Blanckaert
 -- Log: added PRE according to Ludo's new code, plus notes about PRE told about but not put in place.
@@ -78,8 +123,6 @@ WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Mage")
 WoWPro:GuideSteps(guide, function()
 return [[
-N DRAFT|N|A great deal of the content from lvl 101 and on is gleaned from WoWhead and untested. Please post any corrections.|
-
 ; For 44663 and 44184, Grail is reporting PRE of 44120+44473 - which are DH Quests
 
 A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
@@ -116,75 +159,75 @@ A Champion: Archmage Modera|QID|42685|M|56,39|LVL|101|PRE|42663|N|From/To Archma
 A Champion: Archmage Kalec|QID|42662|M|55.8,38.8|LVL|101|PRE|42663|N|From/To Archmage Kalec.|
 T Rise, Champions|QID|42663|LVL|101|M|60.4,36|N|To Meryl Felstorm.|
 A Technical Wizardry|QID|42703|LVL|101|M|60.4,36|N|From Meryl Felstorm.|
-T Technical Wizardry|QID|42703|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-A Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
-T Archmage Omniara|QID|42126|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
-A Building Our Troops|QID|42127|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Building Our Troops|QID|42127|LVL|101|M|85.8,46.2|Z|MageClassShrine/2|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
-T Building Our Troops|QID|42127|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
-A Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
-t Troops in the Field|QID|42687|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
-A Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
-t Tech It Up A Notch|QID|42696|LVL|101|M|80.8,61.8|Z|MageClassShrine/2|N|To Archmage Melis.|
-A Ancient Magic|QID|42433|M|82.4,55.6|N|From Archmage Vargoth.|LVL|101|
-C Ancient Magic|QID|42433|M|82.4,55.6|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|
-t Ancient Magic|QID|42433|M|80.8,61.8|N|To Archmage Melis.|
+T Technical Wizardry|QID|42703|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+A Archmage Omniara|QID|42126|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Archmage Omniara|QID|42126|LVL|101|M|81.37,60.86|Z|Hall of the Guardian@MageClassShrine|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
+T Archmage Omniara|QID|42126|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Building Our Troops|QID|42127|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Building Our Troops|QID|42127|LVL|101|M|87.88,47.50|Z|Hall of the Guardian@MageClassShrine|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
+T Building Our Troops|QID|42127|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Troops in the Field|QID|42687|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Troops in the Field|QID|42687|LVL|101|M|81.37,60.86|Z|Hall of the Guardian@MageClassShrine|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
+t Troops in the Field|QID|42687|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Tech It Up A Notch|QID|42696|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Tech It Up A Notch|QID|42696|LVL|101|M|74.88,28.88|Z|Hall of the Guardian@MageClassShrine|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
+t Tech It Up A Notch|QID|42696|LVL|101|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Ancient Magic|QID|42433|M|83.44,55.01|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Vargoth, who paces.|LVL|101|
+C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian@MageClassShrine|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
+t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
 
-A Recruiting Apprentices|QID|44098|LVL|104|M|80.8,61.8|Z|MageClassShrine/2|N|From Archmage Melis.|
-C Recruiting Apprentices|QID|44098|LVL|104|M|48,33.4|Z|MageClassShrine/2|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
-T Recruiting Apprentices|QID|44098|LVL|104|M|48,33.4|Z|MageClassShrine/2|N|To Grand Conjurer Mimic.|
+A Recruiting Apprentices|QID|44098|LVL|103|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Recruiting Apprentices|QID|44098|LVL|103|M|47.77,32.02|Z|Hall of the Guardian@MageClassShrine|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
+T Recruiting Apprentices|QID|44098|LVL|103|M|47.77,32.02|Z|Hall of the Guardian@MageClassShrine|N|To Grand Conjurer Mimic.|
 
-A An Unexpected Visitor|QID|42418|M|80.8,61.8|N|From Archmage Melis.|PRE|42433|LVL|103|
-T An Unexpected Visitor|QID|42418|M|60.8,59.4|Z|MageClassShrine/2|N|To Ravandwyr.|
-A A Covert Operation|QID|42434|M|60.8,59.4|Z|MageClassShrine/2|N|From Ravandwyr.|PRE|42418|
+A An Unexpected Visitor|QID|42418|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|PRE|42433|LVL|103|
+T An Unexpected Visitor|QID|42418|M|61.82,60.00|Z|The Guardian's Library@MageClassShrine|N|To Ravandwyr.|
+A A Covert Operation|QID|42434|M|61.82,60.00|Z|The Guardian's Library@MageClassShrine|N|From Ravandwyr.|PRE|42418|
 C A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
 T A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|To Ravandwyr.|
-A Prepare to Be Assimilated|QID|42435|M|64.9,37.8|Z|Azsuna|N|From Ravandwyr.|PRE|42434|
-C Prepare to Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|S|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
-C Prepare to Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|Azsuna|N|Kill Spitespeaker Lir'kess
-C Prepare to Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|US|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
-T Prepare to Be Assimilated|QID|42435|M|64.35,31.35|Z|Azsuna|N|To Ravandwyr.| ;fix coordinate
-A What is Going On Here|QID|42166|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42435|
-C What is Going On Here|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|S|N|Talk to Empyrean Society Members.|
-C What is Going On Here|QID|42166|QO|2|M|64.92,32.81|Z|Azsuna|N|Investigate the Brazier.| ;coordinate
-C What is Going On Here|QID|42166|QO|3|M|65.8,32.5|Z|Azsuna|N|Investigate Building.|
-C What is Going On Here|QID|42166|QO|4|M|66.4,33.7|Z|Azsuna|N|Investigate Rotunda.|
-C What is Going On Here|QID|42166|QO|5|M|66.4,33.6|Z|Azsuna|N|Examine the Exotic Book.|
-C What is Going On Here|QID|42166|QO|6|M|66.4,33.4|Z|Azsuna|N|Kill Marlan Blackfire.|
-C What is Going On Here|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|US|N|Talk to Empyrean Society Members.|
-T What is Going On Here|QID|42166|M|66.45,33.54|Z|Azsuna|N|To Ravandwyr, who is following you around.| ;N
-A Some Knowledge Shouldn't be Shared|QID|42149|M|66.45,33.54|Z|Azsuna|N|From Ravandwyr.|PRE|42166|
-A The Next Level Has Arrived|QID|42206|M|66.45,33.54|Z|Azsuna|N|From Ravandwyr.|PRE|42166|
+A Prepare To Be Assimilated|QID|42435|M|64.9,37.8|Z|Azsuna|N|From Ravandwyr.|PRE|42434|
+C Prepare To Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|S|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
+C Prepare To Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|Azsuna|N|Kill Spitespeaker Lir'kess|
+C Prepare To Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|Azsuna|US|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
+T Prepare To Be Assimilated|QID|42435|M|64.35,31.32|Z|Azsuna|N|To Ravandwyr.|
+A What Is Going On Here?|QID|42166|M|64.35,31.32|Z|Azsuna|N|From Ravandwyr.|PRE|42435|
+C What Is Going On Here?|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|S|N|Talk to Empyrean Society Members.|
+C What Is Going On Here?|QID|42166|QO|2|M|64.90,32.86|Z|Azsuna|N|Investigate the Brazier.|
+C What Is Going On Here?|QID|42166|QO|1|M|64.3,31.4|Z|Azsuna|CHAT|US|N|Talk to Empyrean Society Members.|
+C What Is Going On Here?|QID|42166|QO|3|M|65.86,32.57|Z|Azsuna|N|Investigate Building.|
+C What Is Going On Here?|QID|42166|QO|4|M|66.47,33.58|Z|Azsuna|N|Investigate Rotunda.|
+C What Is Going On Here?|QID|42166|QO|5|M|66.53,33.74|Z|Azsuna|N|Examine the Exotic Book.|
+C What Is Going On Here?|QID|42166|QO|6|M|66.41,33.49|Z|Azsuna|N|Kill Marlan Blackfire.|
+T What Is Going On Here?|QID|42166|M|66.45,33.54|Z|Azsuna|N|To Ravandwyr, who is following you around.|
+A Some Knowledge Shouldn't Be Shared|QID|42149|M|66.45,33.54|Z|Azsuna|N|From Ravandwyr, who is following you around.|PRE|42166|
+A The Next Level Has Arrived|QID|42206|M|66.45,33.54|Z|Azsuna|N|From Ravandwyr, who is following you around.|PRE|42166|
 C The Next Level Has Arrived|QID|42206|S|M|65.9,33.8|Z|Azsuna|N|Kill Empyrean Society Members.|
-C Some Knowledge Shouldn't be Shared|QID|42149|M|65.9,33.8|Z|Azsuna|N|Pick up scrolls from the ground.|
+C Some Knowledge Shouldn't Be Shared|QID|42149|M|65.9,33.8|Z|Azsuna|N|Pick up scrolls from the ground.|
 C The Next Level Has Arrived|QID|42206|M|65.9,33.8|Z|Azsuna|US|N|Kill Empyrean Society Members.|
 T The Next Level Has Arrived|QID|42206|N|To Esara Verrinde, who is following you around.|
-T Some Knowledge Shouldn't be Shared|QID|42149|N|To Esara Verrinde.|
+T Some Knowledge Shouldn't Be Shared|QID|42149|N|To Esara Verrinde.|
 A Final Exit|QID|42171|PRE|42206+42149|
 C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|1|N|Use Rune of Opening to unlock the Empyrean Society Building.|
-C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|2|N|Kill Nora Blackfire.|
-C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|2|N|Loot Missive from Chest.|
-T Final Exit|QID|42171|M|66,32.4|Z|Azsuna|N|To Ravamdwyr.|
+C Final Exit|QID|42171|M|66.13,32.69|Z|Azsuna|QO|2|N|Kill Nora Blackfire.|
+C Final Exit|QID|42171|M|66.17,32.63|Z|Azsuna|QO|3|N|Loot Missive from Chest.|
+T Final Exit|QID|42171|M|66.08,32.32|Z|Azsuna|N|To Ravamdwyr.|
 A Empyrean Society Report|QID|42222|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42171|
-C Empyrean Society Report|QID|42222|M|66,32.4|Z|Azsuna|N|Use Teleport: Hall of the Guardian.|
-T Empyrean Society Report|QID|42222|M|71,55.4|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Khadgar.|
-A Champion: Esara Varrinde|QID|42706|N|From/To Esara Varrinde.|PRE|42222|
-A Champion: Ravandwyr|QID|42705|M|70.6,55.4|Z|Hall of the Guardian@MageClassShrine|N|From/To Ravamdwyr.|PRE|42222|
-A The Council Is In Session|QID|42416|M|71,55.4|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Khadgar.|PRE|42222|
-T The Council Is In Session|QID|42416|M|28.8,49.2|Z|Dalaran@Dalaran70|N|To Archmage Ansirem Runeweaver located in the Violet Citadel.|
-A Archmage Vargoth's Retreat|QID|42423|M|28.8,49.2|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|PRE|42416|
-C Archmage Vargoth's Retreat|QID|42423|M|21.3,53.2|Z|Dalaran@Dalaran70|QO|1|N|Take the portal to enter Vargoth's quarters.| ;change QO's; quest name
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|2|N|Enter Vargoth's Retreat.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|7|N|Examine well-worn scroll.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|3|N|Examine the journal.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|6|N|Examine the magical tome.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|5|N|Examine the frosted doughnut.|
-C Archmage Vargoth's Retreat|QID|42423|M|22.2,54.6|Z|Dalaran@Dalaran70|QO|4|N|Examine the crystal ball.|
-T Archmage Vargoth's Retreat|QID|42423|M|22.2,54.68|Z|Dalaran@Dalaran70|N|To Archmage Kalec (who is following you around and commenting).|
-A Following In His Footsteps|QID|42424|M|22.2,54.68|Z|Dalaran@Dalaran70|N|From Archmage Kalec, at Violet Citadel|PRE|42423|
+C Empyrean Society Report|QID|42222|N|Use Teleport: Hall of the Guardian.|
+T Empyrean Society Report|QID|42222|M|72.84,55.66|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar, who is moving about.|
+A Champion: Esara Verrinde|QID|42706|M|74.04,59.61|Z|The Guardian's Library@MageClassShrine|N|From/To Esara Verrinde.|PRE|42222|
+A Champion: Ravandwyr|QID|42705|M|70.36,53.24|Z|The Guardian's Library@MageClassShrine|N|From/To Ravamdwyr.|PRE|42222|
+A The Council is in Session|QID|42416|M|72.84,55.66|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar, who is moving about.|PRE|42222|
+T The Council is in Session|QID|42416|M|28.41,49.51|Z|Dalaran@Dalaran70|N|To Archmage Ansirem Runeweaver located in the Violet Citadel.|
+A Archmage Vargoth's Retreat|QID|42423|M|28.41,49.51|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|PRE|42416|
+C Archmage Vargoth's Retreat|QID|42423|M|28.96,49.67|Z|Dalaran@Dalaran70|QO|1|N|Take the portal to enter Vargoth's quarters.|
+C Archmage Vargoth's Retreat|QID|42423|M|24.28,55.94|Z|Dalaran@Dalaran70|QO|2|N|Enter Vargoth's Retreat, click on door.|
+C Archmage Vargoth's Retreat|QID|42423|M|22.89,52.68|Z|Dalaran@Dalaran70|QO|7|N|Examine well-worn scroll.|
+C Archmage Vargoth's Retreat|QID|42423|M|21.50,52.71|Z|Dalaran@Dalaran70|QO|3|N|Examine the journal.|
+C Archmage Vargoth's Retreat|QID|42423|M|20.73,54.02|Z|Dalaran@Dalaran70|QO|6|N|Examine the magical tome.|
+C Archmage Vargoth's Retreat|QID|42423|M|21.68,56.84|Z|Dalaran@Dalaran70|QO|5|N|Examine the frosted doughnut.|
+C Archmage Vargoth's Retreat|QID|42423|M|22.70,57.50|Z|Dalaran@Dalaran70|QO|4|N|Examine the crystal ball.|
+T Archmage Vargoth's Retreat|QID|42423|M|22.21,55.11|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
+A Following In His Footsteps|QID|42424|M|22.21,55.11|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|42423|
 C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian@MageClassShrine|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
 t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
 A Kalec's Plan|QID|42451|M|80.89,62.80|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|LVL|110|PRE|42424|
@@ -222,9 +265,9 @@ R Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|Talk to Khadgar to start the sce
 t Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|To Archmage Khadgar.|
 A Champion: Meryl Felstorm|QID|42914|M|71.4,61.8|N|From/To Meryl Felstorm|LVL|110|PRE|42734|
 
-A Small Favor|QID|42954|M|37.8,49.8|Z|MageClassShrine/2|N|From Archmage Khadgar.|LVL|110|
-T Small Favor|QID|42954|M|37.8,49.8|Z|MageClassShrine/2|N|To Ari.|
-A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|MageClassShrine/2|N|From Ari.|PRE|42954|
+A A Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Khadgar.|LVL|110|
+T A Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|To Ari.|
+A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|Hall of the Guardian@MageClassShrine|N|From Ari.|PRE|42954|
 C The Proper Way of Things|QID|42955|M|46.11,73.75|Z|Suramar|U|138965|N|Collect Phials of Nightwell Energy.|
 T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian@MageClassShrine|N|To Ari.|
 A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian@MageClassShrine|N|From Ari.|PRE|42955|
@@ -236,8 +279,8 @@ A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@MageClassShri
 C An Unclear Path|QID|44466|M|45.35,34.15|Z|Val'sharah|N|Witness Illidan's Resilience.|
 T An Unclear Path|QID|44466|M|83.40,32.72|Z|Hall of the Guardian@MageClassShrine|N|To Light's Heart {Xe'ra}|
 A Ravencrest's Legacy|QID|44479|M|83.40,32.72|Z|Hall of the Guardian@MageClassShrine|N|From Light's Heart {Xe'ra}|PRE|44466|
-F Ravencrest's Legacy|QID|44479|M|66.87,45.53|N|Experience Ravencrest's Legacy, Fly to Bradensbrook, or use your Teleportation Nexus: Val'sharah|
-R Ravencrest's Legacy|QID|44479|M|41.79,46.84|Z|Val'sharah|N|Upper level, of Ravencourt, Right side after you cross bridge.|
+F Ravencrest's Legacy|QID|44479|ACTIVE|44479|M|66.87,45.53|N|Experience Ravencrest's Legacy, Fly to Bradensbrook, or use your Teleportation Nexus: Val'sharah|
+R Ravencrest's Legacy|QID|44479|ACTIVE|44479|M|41.79,46.84|Z|Val'sharah|N|Upper level, of Ravencourt, Right side after you cross bridge.|
 C Surrounded by Darkness|QID|44479|Z|BlackRookHoldScenario|SO|1|N|Report to Kur'talos Ravencrest.|
 C Preparing for the Apocalypse|QID|44479|M|0.00,0.00|Z|BlackRookHoldScenario|SO|2;1|N|Repair the Deactivated Moon Guard Portal.|
 C The Road to Fel|QID|44479|M|44.28,49.40|Z|BlackRookHoldScenario|SO|3;1|N|Secure the rampart by defeating Xalian Felblaze.|
@@ -281,7 +324,7 @@ T Destiny Unfulfilled|QID|44496|M|83.62,32.71|Z|Hall of the Guardian@MageClassSh
 A Orange is the New Purple|QID|44240|LVL|110|M|45.4,57.2|N|From Jackson Watkins.|
 A Champion: Millhouse Manastorm|QID|42702|LVL|110|M|56.2,57.8|N|From/To Millhouse Manastorm.|
 A Champion: Archmage Vargoth|QID|42917|LVL|110|M|70.2,60.4|N|From/To Archmage Vargoth.|
-A Champion: Arcane Destroyer|QID|42704|LVL|110|M|38.4,48.4|Z|MageClassShrine/2|N|From/To Arcane Destroyer.|
+A Champion: Arcane Destroyer|QID|42704|LVL|110|M|38.4,48.4|Z|Hall of the Guardian@MageClassShrine|N|From/To Arcane Destroyer.|
 
 ; if you pick the talent for Arcane Armements you get this one....
 A Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian@MageClassShrine/1|N|From Minuette.|
@@ -352,7 +395,7 @@ C The Path of Atonement|QID|40270|M|28.76,37.32|Z|Hillsbrad Foothills|N|Listen t
 T The Path of Atonement|QID|40270|M|28.75,37.19|Z|Hillsbrad Foothills|N|To Aethas Sunreaver.|
 A The Frozen Flame|QID|11997|M|28.75,37.19|Z|Hillsbrad Foothills|N|From Aethas Sunreaver.|PRE|40270|
 C The Frozen Flame|QID|11997|M|28.77,37.25|Z|Hillsbrad Foothills|QO|1|NC|N|Mage Portal Taken|
-C The Frozen Halls|QID|11997|M|76.78,63.53|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|1|N|Defeat the Iceborn Conjurer.|
+C The Frozen Flame|QID|11997|M|76.78,63.53|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|1|N|Defeat the Iceborn Conjurer.|
 C Destroy Permafrost Walls|QID|11997|M|76.68,61.87;73.47,53.58;61.85,53.80;51.90,39.19|CS|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|2;1|N|Destroy Permafrost Walls|
 C Hot of the Trail|QID|11997|M|51.86,35.29|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|3;1|N|Survive the three waves of flaming undead.|
 C Playing with Fire|QID|11997|M|50.93,14.71|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|4;1|N|Slay Lyandra Sunstrider|T|Lyandra Sunstrider|
@@ -401,10 +444,10 @@ C The Mage Hunter|QID|42479|M|67.04,92.73|Z|AzsunaArtifact|QO|2|N|Pick up Ebonch
 T The Mage Hunter|QID|42479|M|56.57,33.95|N|To Meryl Felstorm.|
 
 ;Mage Class Hall
-A The Champion's Return|QID|41114|N|From UI Alert.| ; Grail reports PRE of 11997 - which has been removed from WOW, According to Wowhead.
+A The Champion's Return|QID|41114|PRE|11997|N|From UI Alert.| ; Grail reports PRE of 11997 - which has been removed from WOW, According to Wowhead.
 C The Champion's Return|QID|41114|NC|N|Teleport to the Hall of the Guardian|
 T The Champion's Return|QID|41114|M|56.46,33.87|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm, in the library upstairs.|
-A Unlocked Potential|QID|41125|M|56.46,33.87|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|
+A Unlocked Potential|QID|41125|PRE|41114|M|56.46,33.87|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|
 C Unlocked Potential|QID|41125|M|59.38,42.79|Z|The Guardian's Library@MageClassShrine|NC|N|Use the Forge to empower your Artifact.|
 T Unlocked Potential|QID|41125|M|56.63,33.82|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm.|
 A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|42125|
@@ -420,6 +463,57 @@ A A Conjuror's Duty|QID|41141|M|81.54,60.35|Z|Hall of the Guardian@MageClassShri
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|81.61,60.26|Z|Hall of the Guardian@MageClassShrine|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
 T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|Hall of the Guardian@MageClassShrine|N|To The Great Akazamzarak.|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|57.37,90.31|Z|Hall of the Guardian@MageClassShrine|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
+
+; LVL 110 Quests
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Library@MageClassShrine|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
+A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|From Camille Kleister.|LVL|110|
+C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|Toss water on the fire.|
+T Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|To Camille Kleister.|
+A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious Dust (in the wagon).|PRE|39838|
+C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
+C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
+C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
+T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
+A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|NA|N|From Vanessa Sellers.|PRE|39839|
+C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
+t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|To Vanessa Sellers.|
+
+A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran@Dalaran70|N|From Vanessa Sellers.|
+C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
+t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
+A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|S|QO|1|N|Loot Spellsludge from Powerful Creatures, that spawn when Gaurds are on duty.|
+C Cold Hard Coin|QID|39844|M|52.26,60.07|Z|The Underbelly@Dalaran70|S|QO|1|N|Loot Sightless Eyes from anything you kill.|
+C One Mage's Trash|QID|39842|M|57.38,37.92|Z|The Underbelly@Dalaran70|QO|3|N|Get Decommissioned Calefactor, when Guards are NOT on duty.|
+C One Mage's Trash|QID|39842|M|53.42,70.25|Z|The Underbelly@Dalaran70|QO|2|N|Get Spellbound Insulation, when Guards are NOT on duty.|
+C One Mage's Trash|QID|39842|M|80.03,85.00|Z|The Underbelly@Dalaran70|QO|1|N|Get Alchemical Flame, when Guards are NOT on duty.|
+C Cold Hard Coin|QID|39844|M|52.26,60.07|Z|The Underbelly@Dalaran70|US|QO|1|N|Loot Sightless Eyes from anything you kill.|
+C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|QO|1|US|N|Loot Spellsludge from Powerful Creatures, that spawn when Gaurds are on duty.|
+T One Mage's Trash|QID|39842|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+T The Muck Stops Here|QID|39843|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+T Cold Hard Coin|QID|39844|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+A The Obliterum Forge|QID|39845|PRE|39842;39843;39844|M|67.46,18.13|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+C The Obliterum Forge|QID|39845|M|42.28,28.92|Z|Dalaran@Dalaran70|QO|1|N|1/1 Finalize Obliterum Forge|
+T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
+A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
+T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
+
+; Added on 3/14/2017
+
+A An Urgent Warning|QID|45997|LVL|110|M|61.61,27.94|N|From Injured Conjuror.|
+T An Urgent Warning|QID|45997|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+A Investigate the Broken Shore|QID|45998|PRE|45997|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|From Archmage Melis.|
+C Menace on the Broken Shore|QID|45998|M|80.82,60.64|Z|Hall of the Guardian@MageClassShrine/1|N|Use Command Board to send on Mission.|
+t Investigate the Broken Shore|QID|45998|M|80.92,63.04|Z|Hall of the Guardian@MageClassShrine|N|To Archmage Melis.|
+
+; more quests, I'm sure.
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2017-03-11 20:49
+-- Who: Ludovicus
+-- Log: Added PREs; syntax changes.
+
+-- URL: http://wow-pro.com/node/3215/revisions/27671/view
 -- Date: 2016-08-31 23:11
 -- Who: Fluclo
 -- Log: Added Rank 2 to quests not needed for zone progression, Added PRE to quests that need previous quests to be completed first. Added LEAD to Shadowhide Extinction since you can't go back to it once Darnforth is killed in a later quest. Added NC to Bravo Company Camouflage quest. Moved Shalewind flight-path earlier in the guide. Some note updates for clarity.
@@ -155,16 +160,16 @@ A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|RANK|2|
 T Hero's Call: Redridge Mountains!|QID|28563|M|15.32,64.86|N|To Watch Captain Parker on top of the tower.|O|
 T Hero's Call: Redridge Mountains!|QID|26365|M|15.32,64.86|N|To Watch Captain Parker on top of the tower.|O|
 A Still Assessing the Threat|QID|26503|M|15.32,64.86|N|From Watch Captain Parker on top of the tower.|
-C Franks and Beans|QID|26506|S|M|20.46,64.70|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.
-C Wanted: Redridge Gnolls|QID|26504|S|M|28.21,73.94|N|Kill any Gnoll you come across.
+C Franks and Beans|QID|26506|S|M|20.46,64.70|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.|
+C Wanted: Redridge Gnolls|QID|26504|S|M|28.21,73.94|N|Kill any Gnoll you come across.|
 C Gnoll Battle Plans|QID|26503|NC|QO|1|M|16.19,55.25|N|Pick up the Gnoll Battle Plans here.|
 C Gnoll Orders|QID|26503|NC|QO|2|M|28.02,74.72|N|Pick up the Gnoll Orders at this waypoint.|
 C Gnoll Strategy Guide|QID|26503|QO|3|NC|M|30.57,62.7|N|Pick up the Gnoll Strategy Guide here.|
 C Wanted: Redridge Gnolls|QID|26504|US|M|28.21,73.94|N|Kill any Gnoll you come across.|
-C Franks and Beans|QID|26506|US|M|20.46,64.70|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.
+C Franks and Beans|QID|26506|US|M|20.46,64.70|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.|
 T Franks and Beans|QID|26506|M|15.71,65.27|N|To Darcy Parker.|
 T Still Assessing the Threat|QID|26503|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
-A Parker's Report|QID|26505|M|15.31,64.82|N|From Watch Captain Parker on top of the tower.|
+A Parker's Report|QID|26505|PRE|26503|M|15.31,64.82|N|From Watch Captain Parker on top of the tower.|
 T Wanted: Redridge Gnolls|QID|26504|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
 
 f Lakeshire|M|29.48,53.77|N|At Ariena Stormfeather.|QID|26761|
@@ -187,8 +192,8 @@ C Lake Everstill Clean Up|QID|26511|US|M|37.46,43.48|N|Kill any murloc you see.|
 T Nida's Necklace|QID|26508|M|28.30,48.73|N|To Nida.|
 T Lake Everstill Clean Up|QID|26511|M|28.62,41.01|N|To Bailiff Conacher inside the town hall.|
 T We Must Prepare!|QID|26510|M|28.74,41.10|N|To Magistrate Solomon.|
-A Tuning the Gnomecorder|QID|26512|M|28.74,41.10|N|From Magistrate Solomon.|
-A Like a Fart in the Wind|QID|26513|M|31.73,44.80|N|From Marshal Marris near the bridge.|RANK|2|
+A Tuning the Gnomecorder|QID|26512|PRE|26510|M|28.74,41.10|N|From Magistrate Solomon.|
+A Like a Fart in the Wind|QID|26513|PRE|26510|M|31.73,44.80|N|From Marshal Marris near the bridge.|RANK|2|
 C Tuning the Gnomecorder|QID|26512|NC|M|32.36,39.53|N|Head to the Lakeshire Graveyard.|
 T Tuning the Gnomecorder|QID|26512|M|32.31,39.51|N|(UI Alert)|
 
@@ -196,7 +201,7 @@ A Canyon Romp|QID|26514|M|32.31,39.51|N|(UI Alert)|PRE|26512|
 N Wandering Elite|QID|26514|ACTIVE|26514|N|Note: There is a wandering Level 18 elite called Canyon Ettin in this area. Until you get the orb later, you should avoid him. The ground will shake when he is near you.|S|
 C Like a Fart in the Wind|QID|26513|S|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|NC|
 C Canyon Romp|QID|26514|M|32.14,25.18|N|Kill and loot any Redridge Mystic and Bashers you see. Be careful of the elite Etin wandering around.|S|
-A He Who Controls the Ettins|QID|26519|M|32.14,25.18|N|Kill and loot Redridge Mystic and Bashers until one drops a Dirt-Stained Scroll. This quest will auto-start upon looting the scroll.|
+A He Who Controls the Ettins|QID|26519|PRE|26512|M|32.14,25.18|N|Kill and loot Redridge Mystic and Bashers until one drops a Dirt-Stained Scroll. This quest will auto-start upon looting the scroll.|
 C Canyon Romp|QID|26514|M|32.14,25.18|N|Finish killing and looting Redridge Mystic and Bashers|US|
 T Canyon Romp|QID|26514|M|32.57,25.13|N|(UI Alert)|
 A They've Wised Up...|QID|26544|M|32.57,25.13|N|(UI Alert)|PRE|26514|
@@ -205,7 +210,7 @@ T They've Wised Up...|QID|26544|M|20.22,23.77|N|(UI Alert)|
 A Yowler Must Die!|QID|26545|M|20.22,23.77|N|(UI Alert)|PRE|26544|
 C He Who Controls the Ettins|QID|26519|CC|M|20.55,23.70;22.45,21.15;21.18,15.15;19.95,16.22;18.05,18.48|N|Head to the back of the cavern (right passage when first entering caverns), find and kill Ardo Dirtpaw.|
 T He Who Controls the Ettins|QID|26519|M|17.93,18.53|N|Turn it in at the orb.|
-A Saving Foreman Oslow|QID|26520|M|17.93,18.53|N|From the Ettin Control Panel.|
+A Saving Foreman Oslow|QID|26520|PRE|26519|M|17.93,18.53|N|From the Ettin Control Panel.|
 K Yowler Must Die!|QID|26545|U|58895|L|58937|M|27.45,22.09|N|Leave the Caverns, and look for the Canyon Ettin. When you see him, use the orb to subdue him. Once subdued, head to Yowler (waypoint location), kill him and loot the plans. You can mount up whilst controlling the Ettin.|T|Canyon Ettin|
 C Like a Fart in the Wind|QID|26513|US|M|32.27,25.10|N|Finish collecting the supply crates.|NC|
 C Saving Foreman Oslow|QID|26520|U|58895|M|31.75,44.41|N|Run to the boulder at Lakeshire Bridge.  When you get to the boulder, use the orb again to get the rock off Oslow.|NC|
@@ -215,14 +220,14 @@ r Repair, Sell Junk|QID|26545|S|ACTIVE|26545|N|Take this opportunity to sell unw
 T Yowler Must Die!|QID|26545|M|28.76,41.12|N|To Magistrate Solomon inside the town hall.|
 T Saving Foreman Oslow|QID|26520|M|28.76,41.12|N|To Magistrate Solomon.|
 
-A John J. Keeshan|QID|26567|M|28.76,40.90|N|From Colonel Troteman.|
+A John J. Keeshan|QID|26567|PRE|26545|M|28.76,40.90|N|From Colonel Troteman.|
 T John J. Keeshan|QID|26567|M|26.20,39.86|N|Head to the basement of the Inn to find John J. Keeshan.|
 A This Ain't My War|QID|26568|M|26.20,39.90|N|From John J. Keeshan.|PRE|26567|
 T This Ain't My War|QID|26568|M|28.57,40.84|N|To Colonel Troteman in the town hall.|
 A Weapons of War|QID|26571|M|28.57,40.84|N|From Colonel Troteman.|PRE|26568|
-A In Search of Bravo Company|QID|26586|M|28.58,40.90|N|From Colonel Troteman.|
-A Surveying Equipment|QID|26569|M|29.63,44.41|N|From Foreman Oslow outside towards the bridge.|RANK|2|
-A Render's Army|QID|26570|M|29.63,44.41|N|From Marshal Marris.|RANK|2|
+A In Search of Bravo Company|QID|26586|PRE|26568|M|28.58,40.90|N|From Colonel Troteman.|
+A Surveying Equipment|QID|26569|PRE|26520;26568|M|29.63,44.41|N|From Foreman Oslow outside towards the bridge.|RANK|2|
+A Render's Army|QID|26570|PRE|26568|M|29.63,44.41|N|From Marshal Marris.|RANK|2|
 
 R Alther's Mill|QID|26586|M|41.25,35.60|N|Head along the road north-east to Alther's Mill.|
 C Render's Army|QID|26570|S|M|29.35,10.76|N|Kill any and all orcs for this quest.  Except for the elites.|

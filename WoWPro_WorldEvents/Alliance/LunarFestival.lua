@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
+-- Date: 2017-03-17 13:53
+-- Who: Ludovicus
+-- Log: Tiny syntax fix
+
+-- URL: http://wow-pro.com/node/3451/revisions/28289/view
+-- Date: 2017-03-05 18:54
+-- Who: Ludovicus
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3451/revisions/27714/view
 -- Date: 2016-09-07 04:34
 -- Who: Emmaleah
 -- Log: update |Z|TheTempleOf AtalHakkar| to |Z|The Temple of Atal' Hakkar|
@@ -93,7 +103,7 @@
 -- Log: Source page created.
 
 local guide = WoWPro:RegisterGuide("CraLunFesEldA",'WorldEvents',"Lunar Festival Elders Guide", "Crackerhead22", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LunarFestival")
 WoWPro:GuideIcon(guide,"ACH",915)
 WoWPro:GuideSteps(guide, function()
@@ -284,7 +294,7 @@ F Darkbreak Cove|QID|29738|N|Take the portal to Vashj'ir.|
 F Voldrin's Hold|QID|29738|M|57.34,15.80|Z|Shimmering Expanse|
 A Moonlance the Elder|QID|29738|M|57.25,86.14|Z|Shimmering Expanse|N|From Elder Moonlance, Near Biel'Aran Ridge|
 
-F Thundermar|QID|29736||N|Take the portal to the Twilight Highlands.|
+F Thundermar|QID|29736|N|Take the portal to the Twilight Highlands.|
 A Darkfeather the Elder|QID|29736|M|51.87,33.07|Z|Twilight Highlands|N|From Elder Darkfeather|
 A Firebeard the Elder|QID|29737|M|50.91,70.45|Z|Twilight Highlands|N|From Elder Firebeard|
 

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2017-03-15 20:33
+-- Who: Ludovicus
+-- Log: LudoEbonBlade PRE tags
+
+-- URL: http://wow-pro.com/node/3405/revisions/28320/view
+-- Date: 2017-03-10 23:13
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3405/revisions/27992/view
 -- Date: 2016-11-06 22:19
 -- Who: Ludovicus
 -- Log: Dont set bogus 666 faction on Icecrown Dailies.
@@ -84,7 +94,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Knights of the Ebon Blade|N|The Knights of the Ebon Blade Reputation Dalies.|
-A Reading the Bones|QID|13093|M|32.50,42.95|N|If you have 15 Vrykul Bones, give them to the The Bone Witch.|
+A Reading the Bones|QID|13093|PRE|13092|M|32.50,42.95|N|If you have 15 Vrykul Bones, give them to the The Bone Witch.|
 A From Their Corpses, Rise!|QID|12813|M|19.67,48.38|N|From Setaal Darkmender.|
 A Intelligence Gathering|QID|12838|M|19.80,47.60|N|From Aurochs Grimbane, circling on his horse.|
 A No Fly Zone|QID|12815|M|19.64,47.80|N|From Uzo Deathcaller|
@@ -99,7 +109,7 @@ T Intelligence Gathering|QID|12838|M|19.80,47.60|N|To Aurochs Grimbane.|
 
 A Leave Our Mark|QID|12995|M|42.86,25.00|N|From Baron Sliver in front of the Shadow Vault.|
 A Shoot 'Em Up|QID|13069|M|43.59,24.68|N|From The Leaper in front of the Shadow Vault.|
-A Vile Like Fire!|QID|13071|M|43.17,25.07|N|From Vile, who patrols.|
+A Vile Like Fire!|QID|13071|PRE|12992|M|43.17,25.07|N|From Vile, who patrols.|
 C Leave Our Mark|QID|12995|M|30.80,29.00|N|Kill and Impale the vrykul. Stand away from the corpse, so you do not get impaled!|U|42480|
 C Shoot 'Em Up|QID|13069|M|32, 24|N|Pick the first Turret, mount it, spam your harpoons and move on to the next turret for fast results.  Target just in front of the Drakes.|
 C Vile Like Fire!|QID|13071|M|27.2,38.4;27.2,39;27.4,40;27.8,37.6|CN|N|Mount up on a drake and set fire to both sides of roofs of the buildings. Then dismount and flyback on your own.|

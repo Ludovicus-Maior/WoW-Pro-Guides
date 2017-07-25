@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_tailoring
+-- Date: 2017-03-06 03:13
+-- Who: Ludovicus
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL: http://wow-pro.com/node/3412/revisions/28199/view
+-- Date: 2017-01-02 22:39
+-- Who: Ludovicus
+-- Log: New style registration
+
+-- URL: http://wow-pro.com/node/3412/revisions/25750/view
 -- Date: 2013-08-16 20:40
 -- Who: Ludovicus
 -- Log: Hopefully I corrected some errors right.
@@ -28,7 +38,11 @@
 -- Date: 2011-06-30 05:56
 -- Who: Crackerhead22
 
-WoWPro.Profession:RegisterGuide('TwiTailoring', 'Tailoring', 'Tailoring', 'Twists', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("TwiTailoring","Profession","Tailoring", "Twists", "Neutral")
+WoWPro:GuideIcon(guide,"PRO",197)
+WoWPro:GuideLevels(guide)
+WoWPro:GuideName(guide, "Tailoring")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Learn Apprentice Tailoring|QID|901970000|P|Tailoring;197;*;0;75|N|Learn from a Trainer in any major city. You must be level 5.|

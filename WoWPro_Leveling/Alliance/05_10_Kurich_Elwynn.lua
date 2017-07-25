@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2017-03-23 17:48
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3197/revisions/28345/view
+-- Date: 2017-03-11 20:09
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3197/revisions/27674/view
 -- Date: 2016-09-01 13:09
 -- Who: Fluclo
 -- Log: Corrected coords in They Sent Assassins (Human Warrior), changed Rest and Relaxation to Active instead of Rank.
@@ -237,14 +247,6 @@
 -- Date: 2010-12-02 09:47
 -- Who: Jiyambi
 
--- URL: http://wow-pro.com/node/3197/revisions/23242/view
--- Date: 2010-12-02 09:46
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3197/revisions/23241/view
--- Date: 2010-12-02 09:42
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("KurElw0511", "Leveling", "Elwynn Forest", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,4,9,5.79167)
 WoWPro:GuideNextGuide(guide, "BitWes1020")
@@ -297,7 +299,7 @@ C Gold Dust Exchange|N|Kill and loot Kobolds until you have 10 Gold Dust.|QID|47
 
 H Lion's Pride Inn |QID|60|N|Hearthstone to, or run back to Lion's Pride Inn in Goldshire.|M|43.75,65.75|
 T Note to William|QID|107|M|43.32,65.70|N|To William Pestle.|
-A Collecting Kelp|QID|112|M|43.32,65.70|N|From William Pestle.|
+A Collecting Kelp|QID|112|PRE|107|M|43.32,65.70|N|From William Pestle.|
 T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|
 
 T Gold Dust Exchange|QID|47|M|42.14,67.25|N|To Remy "Two Times".|
@@ -306,7 +308,7 @@ A A Fishy Peril|QID|40|M|42.14,67.25|N|From Remy "Two Times".|
 r Sell Junk, Restock, and Repair.|QID|62|M|42.11,65.93|ACTIVE|62|N|Take this opportunity to sell Junk, Restock, and Repair.|S|
 T A Fishy Peril|QID|40|M|42.11,65.93|N|To Marshal Dughan.|
 T The Fargodeep Mine|QID|62|M|42.11,65.93|N|To Marshal Dughan.|
-A The Jasperlode Mine|QID|76|M|42.11,65.93|N|From Marshal Dughan.|
+A The Jasperlode Mine|QID|76|PRE|62|M|42.11,65.93|N|From Marshal Dughan.|
 
 C Collecting Kelp|N|Kill Murlocs until you have 4 Crystal Kelp Fronds.|QID|112|M|50.93,66.47|
 R Jasperlode Mine|N|Go to the Jasperlode Mine.|QID|76|M|60.88,59.15|ACTIVE|76|
@@ -378,27 +380,27 @@ A Elmore's Task|QID|1097|M|41.71,65.55|N|From Smith Argus.|RANK|2|
 A A Swift Message|QID|26393|M|41.71,65.55|R|Human|N|From Smith Argus.|
 r Sell Junk, Restock, Train and Repair.|QID|26393|M|41.86,65.68|ACTIVE|26393|N|Take this opportunity to sell Junk, Restock, Train and Repair before you leave Goldshire.|S|
 T A Swift Message|QID|26393|M|41.72,64.64|R|Human|N|To Bartlett the Brave.|
-A Continue To Stormwind|QID|26394|M|41.72,64.64|R|Human|N|From Bartlett the Brave.|
+A Continue to Stormwind|QID|26394|PRE|26393|M|41.72,64.64|R|Human|N|From Bartlett the Brave.|
 F Stormwind City|QID|26394|M|41.72,64.64|N|Fly to Stormwind City.|
 
-T Continue To Stormwind|QID|26394|Z|Stormwind City|CC|M|68.32,74.63;64.25,66.59;77.17,60.98|R|Human|N|To Osric Strang.|
-A Dungar Longdrink|QID|26395|Z|Stormwind City|M|77.17,60.98|R|Human|N|From Osric Strang.|
+T Continue to Stormwind|QID|26394|Z|Stormwind City|CC|M|68.32,74.63;64.25,66.59;77.17,60.98|R|Human|N|To Osric Strang.|
+A Dungar Longdrink|QID|26395|PRE|26394|Z|Stormwind City|M|77.17,60.98|R|Human|N|From Osric Strang.|
 T Elmore's Task|QID|1097|Z|Stormwind City|CC|M|71.39,55.76;70.07,46.97;59.72,33.78|N|To Grimand Elmore.|
 T Dungar Longdrink|QID|26395|Z|Stormwind City|M|70.93,72.48|R|Human|N|To Dungar Longdrink back at the Gryphon Roost.|
-A Return To Argus|QID|26396|Z|Stormwind City|M|70.93,72.48|R|Human|N|From Dungar Longdrink.|
+A Return to Argus|QID|26396|PRE|26395|Z|Stormwind City|M|70.93,72.48|R|Human|N|From Dungar Longdrink.|
 F Goldshire|QID|26396|Z|Stormwind City|M|70.93,72.48|N|Fly back to Goldshire.|
-T Return To Argus|QID|26396|M|41.71,65.55|R|Human|N|To Smith Argus.|
-A Westbrook Garrison Needs Help!|QID|239|M|42.10,65.93|N|From Marshal Dughan.|
+T Return to Argus|QID|26396|M|41.71,65.55|R|Human|N|To Smith Argus.|
+A Westbrook Garrison Needs Help!|QID|239|PRE|76|M|42.10,65.93|N|From Marshal Dughan.|
 
 T Westbrook Garrison Needs Help!|QID|239|M|24.23,74.45|N|To Deputy Rainer.|
 A Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|N|From Deputy Rainer.|
-A Wanted: "Hogger"|QID|176|M|24.54,74.67|N|From the Wanted Poster.|
+A Wanted:  "Hogger"|QID|176|M|24.54,74.67|N|From the Wanted Poster.|
 C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|S|
-C Wanted: "Hogger"|N|Get Hogger down in health quickly, help will arrive and take him.|M|25.1,94.6|QID|176|
+C Wanted:  "Hogger"|N|Get Hogger down in health quickly, help will arrive and take him.|M|25.1,94.6|QID|176|
 A Furlbrow's Deed|N|If you're going to Westfall next, then grab this quest. It's a folded paper next to a dead man.|QID|184|M|24.78,95.26|
 C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|US|
 T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|N|To Deputy Rainer.|
-T Wanted: "Hogger"|QID|176|M|42.2,65.9|N|To Marshal Dughan.|
+T Wanted:  "Hogger"|QID|176|M|42.2,65.9|N|To Marshal Dughan.|
 A Hero's Call: Westfall!|QID|26378|M|42.2,65.9|N|If you're going to Westfall next, then grab this quest. From Marshal Dughan.|
 
 ]]

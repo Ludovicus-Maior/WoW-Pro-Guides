@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2017-03-13 17:33
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3229/revisions/27261/view
 -- Date: 2015-05-22 20:53
 -- Who: Ludovicus
 -- Log: Guide BitAra2025 QID 26024 is level 26, but endlevel=25
@@ -182,7 +187,7 @@ T Sunken Treasure|QID|26051|M|27.55,83.08|N|To Doctor Draxlegauge.|
 A Speak to Shakes|QID|26052|PRE|26051|RANK|1|M|27.55,83.08|N|From Doctor Draxlegauge.|
 T Speak to Shakes|QID|26052|M|26.05,83.84|N|To Shakes O'Breen.|
 
-A Death From Below|QID|26628|RANK|1|M|26.05,83.84|N|From Shakes O'Breen.|
+A Death From Below|QID|26628|PRE|26052|RANK|1|M|26.05,83.84|N|From Shakes O'Breen.|
 C Death From Below|QID|26628|NC|M|25.75,83.16|N|Go up onto the ship and use the cannon to kill incoming naga.|
 T Death From Below|QID|26628|M|25.86,83.95|N|To Shakes O'Breen.|
 
@@ -236,7 +241,7 @@ T The Princess Unleashed|QID|26049|M|57.26,34.61|N|To the Shard of Myzrael.|
 ;The following quest is offered up to Level 33 only.
 L Hero's Call: The Hinterlands!|QID|26542|RANK|1|M|40,48.8|N|If you intend to progress onto Hinterlands, accept this Breadcrumb Quest. From Captain Nials.|LVL|34|
 
-N The End |QID|26542|N|You have finished this guide. Click this step to move onto Hinterlands quest.
+N The End |QID|26542|N|You have finished this guide. Click this step to move onto Hinterlands quest.|
 
 ]]
 

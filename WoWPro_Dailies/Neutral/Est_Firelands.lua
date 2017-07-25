@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2017-03-23 17:44
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3469/revisions/28328/view
+-- Date: 2017-03-10 23:28
+-- Who: Ludovicus
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3469/revisions/26882/view
 -- Date: 2014-11-08 00:22
 -- Who: Ludovicus
 -- Log: Rogue Z tag
@@ -124,22 +134,22 @@ A Flight of the Storm Crows|QID|29182|PRE|29181|N|After the little event, accept
 
 T Guardians of Hyjal: Firelands Invasion!|QID|29388|FACTION|Horde|N|At Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
 T Guardians of Hyjal: Firelands Invasion!|QID|29387|FACTION|Alliance|N|At Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
-A Opening the Door|QID|29145|N|From Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
+A Opening the Door|QID|29145|PRE|25372|N|From Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
 T Opening the Door|QID|29145|N|At Arch Druid Hamuul Runetotem atop the cliff.|Z|Mount Hyjal|M|27.00,54.60|
-A A Ritual of Flame|QID|29195|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,54.60|
+A A Ritual of Flame|QID|29195|PRE|29145|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,54.60|
 C A Ritual of Flame|QID|29195|N|Assist in opening the portal.|Z|Mount Hyjal|M|27.00,54.60|
 T A Ritual of Flame|QID|29195|N|At Malfurion Stormrage.|Z|Mount Hyjal|M|27.40,55.20|
-A To the Sanctuary!|QID|29196|N|From Malfurion Stormrage.|Z|Mount Hyjal|M|27.40,55.20|
+A To the Sanctuary!|QID|29196|PRE|29195|N|From Malfurion Stormrage.|Z|Mount Hyjal|M|27.40,55.20|
 T To the Sanctuary!|QID|29196|N|Back at Matoclaw down below.|Z|Mount Hyjal|M|27.17,62.54|
-A Caught Unawares|QID|29197|N|From Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
+A Caught Unawares|QID|29197|PRE|29196|N|From Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
 C Caught Unawares|QID|29197|QO|Kill elementals near Thisalee: 6/6|N|Fly over to Thisalee Crow and help her against the Elementals.|Z|Mount Hyjal|M|24.40,55.80|
 C Caught Unawares|QID|29197|QO|Kill elementals near Elderlimb: 6/6|N|Next is the Ancient Elderlimb, help him fight off the Elementals.|Z|Mount Hyjal|M|33.95, 57.54|
 C Caught Unawares|QID|29197|QO|Kill elementals near Tholo and Anren: 6/6|N|Finally, help Tholo and Angren defend themselves.|Z|Mount Hyjal|M|41.40,56.40|
 T Caught Unawares|QID|29197|N|At Arch Druid Hamuul Runetotem at the Sanctuary of Malorne.|Z|Mount Hyjal|M|27.00,62.60|
-A The Sanctuary Must Not Fall|QID|29198|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
+A The Sanctuary Must Not Fall|QID|29198|PRE|29197|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
 C The Sanctuary Must Not Fall|QID|29198|N|You don't actually need to do anything for this quest. Just watch as the Ancient gets resurrected after a few moments.|Z|Mount Hyjal|
 T The Sanctuary Must Not Fall|QID|29198|N|At Malfurion Stormrage.|Z|Mount Hyjal|M|27.00,62.60|
-A Calling for Reinforcements|QID|29199|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
+A Calling for Reinforcements|QID|29199|PRE|29198|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
 C Achievement step available!|QID|29199|ACH|5870;2|N|Talk to Matoclaw and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|Mount Hyjal|M|27.00,62.60|
 
 A Well Armed|QID|29282|PRE|29281|N|After the little event, accept this quest from Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
@@ -155,15 +165,15 @@ C Achievement step available!|QID|29248;29246;29247|ACH|5870;4|N|Talk to Dorda'e
 
 C Call the Flock|QID|29147|ACH|5862|U|69234|N|Use the Quill to transform into a bird. Fly around in this area and use Ability #1 to collect nearby birds. Every time you do, you'll get a speed buff that stacks. If you gain enough stacks, you'll get the achievement 'Ludicrous Speed'.|Z|Mount Hyjal|M|12.24,35.44|
 C Call the Flock|QID|29147|U|69234|N|Use the Quill to transform into a bird. Fly around in this area and use Ability #1 to collect nearby birds.|Z|Mount Hyjal|M|12.24,35.44|
-C Those Bears up there|QID|29161|ACH|5868;2|N|You should remember how this works from leveling in Mount Hyjal. Climb a tree, grab one of the bears, climb up to the top and throw it onto the target. Climb down to get another bear and repeat until complete. If you want, you can toss a bear at one of the sleeping corehounds instead for a step in the achievement 'And the Meek Shall Inherit Kalimdor'.|Z|Mount Hyjal|M|13.66,33.02|
-C Those Bears up there|QID|29161|N|You should remember how this works from leveling in Mount Hyjal. Climb a tree, grab one of the bears, climb up to the top and throw it onto the target. Climb down to get another bear and repeat until complete.|Z|Mount Hyjal|M|13.66,33.02|
+C Those Bears Up There|QID|29161|ACH|5868;2|N|You should remember how this works from leveling in Mount Hyjal. Climb a tree, grab one of the bears, climb up to the top and throw it onto the target. Climb down to get another bear and repeat until complete. If you want, you can toss a bear at one of the sleeping corehounds instead for a step in the achievement 'And the Meek Shall Inherit Kalimdor'.|Z|Mount Hyjal|M|13.66,33.02|
+C Those Bears Up There|QID|29161|N|You should remember how this works from leveling in Mount Hyjal. Climb a tree, grab one of the bears, climb up to the top and throw it onto the target. Climb down to get another bear and repeat until complete.|Z|Mount Hyjal|M|13.66,33.02|
 C Punting Season|QID|29101|ACH|5868;4|N|Along the Shores of both lakes (top and bottom half), kill the flame elementals attacking the little tortoises. Pick up a tortoise and punt it into the lake using ablility #1. If you want, you can try to punt it at one of the fire elementals instead. If you aimed right, the elemental will die and you'll get credit for a step in the achievement 'And the Meek Shall Inherit Kalimdor'.|Z|Mount Hyjal|M|21.33,56.37|
 C Punting Season|QID|29101|N|Along the Shores of both lakes (top and bottom half), kill the flame elementals attacking the little tortoises. Pick up a tortoise and punt it into the lake using ablility #1.|Z|Mount Hyjal|M|21.33,56.37|
 C Releasing the Pressure|QID|29248|N|Kill and loot Charred Flamewalkers in the Regrowth.|Z|Mount Hyjal|S|
 C Supplies for the Other Side|QID|29166|N|Collect Blueroot Vines from all over the Regrowth. Herbalists can track these with the Find Herbs ability.|Z|Mount Hyjal|S|
 C Achievement step available!|QID|29125;29164;29166;29248|ACH|5868;1|N|Look closely at the trees in the Regrowth. If you see one where some squirrels are hiding, pull any enemy close to it, the squirrels will start throwing nuts at them and give credit for a step in the achievement 'And the Meek Shall Inherit Kalimdor'.|Z|Mount Hyjal|M|36.74,59.06|US|
 C Between the Trees|QID|29125|N|Look for the ghostly deers running around in this area. You have to stand in a place so they run right into you. You've done it right when they disappear, giving you the Presence of Malorne buff.|Z|Mount Hyjal|M|36.74,59.06|
-C Perfecting your Howl|QID|29164|U|69235|N|Kill anything that looks like it's coming from the Firelands and use the Fang on its corpse.|Z|Mount Hyjal|M|36.73,56.66|
+C Perfecting Your Howl|QID|29164|U|69235|N|Kill anything that looks like it's coming from the Firelands and use the Fang on its corpse.|Z|Mount Hyjal|M|36.73,56.66|
 
 A Next Random Daily in the line|QID|29126;29148;29165;29162;29122|N|Turn in the quest you just completed in your questlog and accept the follow-up.|Z|Mount Hyjal|
 
@@ -209,13 +219,13 @@ T Releasing the Pressure|QID|29248|N|At Dorda'en Nightweaver.|Z|Mount Hyjal|M|27
 T Relieving the Pain|QID|29246|N|At Dorda'en Nightweaver.|Z|Mount Hyjal|M|27.53,62.51|
 T Treating the Wounds|QID|29247|N|At Dorda'en Nightweaver.|Z|Mount Hyjal|M|27.53,62.51|
 T Calling for Reinforcements|QID|29199|N|At Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
-A Leyara|QID|29200|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
+A Leyara|QID|29200|PRE|29199|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
 C Leyara|QID|29200|N|Find Leyara at the edge of the zone and talk to her. After going through her dialogue, an event occurs which you are unfortunately powerless to stop.|Z|Mount Hyjal|M|06.60,33.80|
 T Leyara|QID|29200|N|At Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
-A Through the Gates of Hell|QID|29201|N|From Malfurion Stormrage.|Z|Mount Hyjal|M|27.00,62.60|
+A Through the Gates of Hell|QID|29201|PRE|29200|N|From Malfurion Stormrage.|Z|Mount Hyjal|M|27.00,62.60|
 C Through the Gates of Hell|QID|29201|N|Enter the Portal to the Molten Front on top of the cliff. Battle the huge Fire Elemental at the other side. Don't stand around in the fire pools he casts on the ground, they explode.|Z|Mount Hyjal|M|27.48,56.32|
 T Through the Gates of Hell|QID|29201|N|At Malfurion Stormrage in the small cave.|M|47.00,91.00|
-A The Fate of Runetotem|QID|29202|N|Before doing anything else at the Molten Front, head back to Hyjal through the portal and accept this quest from Matoclaw at the Sanctuary of Malorne.|Z|Mount Hyjal|M|27.17,62.54|
+A The Fate of Runetotem|QID|29202|PRE|29201|N|Before doing anything else at the Molten Front, head back to Hyjal through the portal and accept this quest from Matoclaw at the Sanctuary of Malorne.|Z|Mount Hyjal|M|27.17,62.54|
 T The Fate of Runetotem|QID|29202|N|At Dorda'en Nightweaver near the tent to the left.|Z|Mount Hyjal|M|27.17,62.54|
 
 R Molten Front|N|Enter the Portal to the Molten Front here.|Z|Mount Hyjal|M|27.48,56.32|
@@ -229,9 +239,9 @@ A The Shadow Wardens|QID|29214|N|From Malfurion Stormrage in the small cave.|Z|M
 A Druids of the Talon|QID|29181|N|From Malfurion Stormrage in the small cave.|Z|MoltenFront|M|47.00,91.00|
 C Achievement step available!|QID|29181|ACH|5870;1|N|Talk to Malfurion Stormrage and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|47.00,91.00|
 C Achievement step available!|QID|29181|ACH|5870;3|N|Talk to Commander Jarod Shadowsong who patrols around outside the cave and select the speech bubble option for another step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|47.00,91.00|
-A Burn Victims|QID|29138|N|From Captain Irontree.|Z|MoltenFront|M|45.64,86.19|
+A Burn Victims|QID|29138|PRE|29201|N|From Captain Irontree.|Z|MoltenFront|M|45.64,86.19|
 T The Protectors of Hyjal|QID|29128|N|At General Taldris Moonfall.|Z|MoltenFront|M|45.58,85.80|
-A Hostile Elements|QID|29179|N|From General Taldris Moonfall.|Z|MoltenFront|M|45.58,85.80|
+A Hostile Elements|QID|29179|PRE|29201|N|From General Taldris Moonfall.|Z|MoltenFront|M|45.58,85.80|
 A Random Daily Extermination Quest|QID|29137;29304;29141;29142|N|From General Taldris Moonfall.|Z|MoltenFront|M|45.58,85.80|
 C Achievement step available!|QID|29179|ACH|5870;8|N|Talk to General Taldris Moonfall and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|45.58,85.80|
 

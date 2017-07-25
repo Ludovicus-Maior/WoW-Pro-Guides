@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2017-03-23 18:59
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3212/revisions/28415/view
+-- Date: 2017-03-15 22:59
+-- Who: Ludovicus
+-- Log: Added 2 PREs to MalLos0512
+
+-- URL: http://wow-pro.com/node/3212/revisions/28410/view
+-- Date: 2017-03-15 22:53
+-- Who: Ludovicus
+-- Log: Syntax fixes to MalKez0105
+
+-- URL: http://wow-pro.com/node/3212/revisions/27497/view
 -- Date: 2016-07-30 20:11
 -- Who: tubera
 -- Log: Remove class quests. Move quests around to make guide more efficient.
@@ -232,13 +247,13 @@ A Do it Yourself|QID|14070|M|56.49,76.98|N|From Sassy Hardwrench.|PRE|14071|
 T Report for Tryouts|QID|24567|M|48.75,57.83|N|To Coach Crosscheck. You have no fall damage whilst mounted in your Hot-Rod.|U|46856|
 
 A The Replacements|QID|24488|M|48.75,57.83|N|From Coach Crosscheck.|PRE|24567|
-C The Replacements|QID|24488|M|43.05,62.79|N|Look around for Replacement Parts, they look like yellow crates. You can remain mounted in your Hot-Rod whilst you collect the crates.|U|46856|NC|S
+C The Replacements|QID|24488|M|43.05,62.79|N|Look around for Replacement Parts, they look like yellow crates. You can remain mounted in your Hot-Rod whilst you collect the crates.|U|46856|NC|S|
 R Drudgetown|QID|24520|M|43.50,70.25|N|Head to Drudgetown on your Hot Rod. Go under the ramp.|U|46856|ACTIVE|24488;14070|
 C Bruno Flameretardant|QID|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|1|U|46856|
 C Sudsy Magee|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|4|U|46856|
 C Jack the Hammer|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|3|U|46856|
 C Frankie Gearslip|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|QO|2|U|46856|
-C The Replacements|QID|24488|M|43.05,62.79|N|Finish picking up Replacement Parts|U|46856|NC|US
+C The Replacements|QID|24488|M|43.05,62.79|N|Finish picking up Replacement Parts|U|46856|NC|US|
 
 T Off to the Bank|QID|26711;26712|M|30.09,71.67|N|To FBoK Bank Teller.|U|46856|
 

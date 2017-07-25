@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2017-03-16 16:15
+-- Who: Ludovicus
+-- Log: Add missing PRE
+
+-- URL: http://wow-pro.com/node/3314/revisions/28425/view
+-- Date: 2017-03-15 23:20
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3314/revisions/27467/view
 -- Date: 2016-07-17 20:19
 -- Who: Ludovicus
 -- Log: Updated Q0 for [Three Princes]
@@ -99,7 +108,7 @@ return [[
 R Desolace|QID|14184|M|54.7,8.8|N|Run down into Desolace.|
 T Warchief's Command: Desolace!|O|QID|28548|M|54.7,8.8|N|To Furien at Tethris Aran in Desolace.|
 T Nothing Left for You Here|O|QID|26134|M|54.74,8.84|N|To Furien.|
-A My Time Has Passed|QID|14184|M|54.74,8.84|N|From Furien.|
+A My Time Has Passed|QID|14184|PRE|28548;26134|M|54.74,8.84|N|From Furien.| ; Grail PRE|28548;26134 cant be right
 
 T My Time Has Passed|QID|14184|M|54.81,8.65;44.63,29.52|CC|N|Talk to the dragonhawk. When it lands, turn-in to Cerelia.|
 A Avenge Furien!|QID|14188|PRE|14184|M|44.63,29.52|N|From Cerelia.|
@@ -258,7 +267,7 @@ A Delicate Negotiations|QID|14318|PRE|14314|M|58.32,50.00|N|From Khan Leh'Prah.|
 
 C Delicate Negotiations|QID|14318|M|71.26,45.80|N|Talk to the Khan to mount up. When he slows down next to the Fatherstone in the Magram Territory, use Ability 1. Help the Kolkar defeat the Magram Defenders.|
 T Delicate Negotiations|QID|14318|M|71.69,45.56|N|To Khan Kammah. Congrats on a very nice piece of gear!|
-A Will Work For Food|QID|14325|M|71.69,45.56|N|From Khan Kammah.|
+A Will Work For Food|QID|14325|PRE|14318|M|71.69,45.56|N|From Khan Kammah.|
 C Will Work For Food|QID|14325|S|M|63.61,36.84|N|The basilisks can be found to the west.|
 T Bone Collector|QID|5501|M|62.31,38.93|N|To Bibbly F'utzbuckle.|RANK|3|
 C Will Work For Food|QID|14325|US|M|63.61,36.84|N|The basilisks can be found to the west.|
@@ -302,14 +311,14 @@ K Rhoho|QID|14328|M|41.78,82.51|QO|1|N|At the Gelkis Village to the west, kill R
 K Sherik|QID|14328|M|35.40,81.40|QO|2|N|Kill Sherik.|
 K Jorreth|QID|14328|M|35.62,92.28|QO|3|N|Kill Jorreth.|
 T Three Princes|QID|14328|M|38.15,85.52;38.47,90.88;40.46,95.43|CS|N|To Khan Shodo, inside the cave.|
-A Not So Fast!|QID|14329|M|40.46,95.43|N|From Khan Shodo.|
+A Not So Fast!|QID|14329|PRE|14328|M|40.46,95.43|N|From Khan Shodo.|
 
 C Not So Fast!|QID|14329|M|32.94,54.73|N|To the north, in the Valley of Spears. Make sure you loot the centaurs, one will drop a quest starting item.|
 A Behind Closed Doors|QID|14330|PRE|14328|U|38567|N|From the Maraudine Prisoner Manifest.|
 T Not So Fast!|QID|14329|N|The turn-in should pop up automatically.|
 T Behind Closed Doors|QID|14330|M|29.91,62.43|N|Head inside Maraudon. Follow the tunnel - you should come to a centaur in a cage. Turn-in to Kherrah.|
-A Time For Change|QID|14332|N|From Kherrah.|
-A While You're Here|QID|14333|N|From the nearby artifact.|
+A Time For Change|QID|14332|PRE|14330|N|From Kherrah.|
+A While You're Here|QID|14333|PRE|14328|N|From the nearby artifact.|
 l Defiled Relics|QID|14333|M|30.71,52.67|N|Out in the Valley of Spears, look for Defiled Relics on the ground. Gather 6 of them.|L|49194 6|
 C While You're Here|NC|QID|14333|U|49194|N|Use the Defiled Relics.|
 T While You're Here|QID|14333|N|The turn-in should pop up automatically.|
@@ -340,10 +349,10 @@ T Time For Change|QID|14332|M|72.26,67.37|N|To Khan Leh'Prah.|
 A Into the Fray!|QID|14393|PRE|14332|M|72.26,67.37|N|From Khan Leh'Prah.|
 C Into the Fray!|QID|14393|M|69.54,76.70|N|Talk to the Khan to start the battle. You will get to ride a centaur, and get several centaur troops to command in battle. Ability 1 is a basic attack. Ability 2 sends the troops in. Ability 3 calls the troops back to you. Ability 4 requests healing. Ability 6 calls for reinforcements if yours die.|
 T Into the Fray!|QID|14393|M|72.26,67.41|N|To Khan Leh'Prah.|
-A Death to Agogridon|QID|14394|M|72.26,67.41|N|From Khan Leh'Prah.|
+A Death to Agogridon|QID|14394|PRE|14393|M|72.26,67.41|N|From Khan Leh'Prah.|
 C Death to Agogridon|QID|14394|M|77.45,76.04;79.77,77.76;79.32,82.16;81.71,80.71|CS|N|Make sure you are still on your centaur - talk to the Khan if you need to remount. Follow the arrows to the demon you need to defeat. The Khans will show up, so it's not difficult.|
 T Death to Agogridon|QID|14394|M|82.30,80.85|N|To Khan Leh'Prah. Congrats on a very nice weapon!|
-A The Wilds of Feralas|QID|26589|M|73.2,73|N|From Khan Shodo.|
+A The Wilds of Feralas|QID|26589|PRE|14346;14394|M|73.2,73|N|From Khan Shodo.|
 C Ghost-o-plasm Round Up|QID|6134|U|15848|M|63.91,91.78|N|Clear the area then use your gizmo. Kill the ghost centaurs. (They turn aggressive when they get to the gizmo so beware.)|
 T Ghost-o-plasm Round Up|QID|6134|N|To Hornizz Brimbuzzle.|M|47.88,61.80|
 

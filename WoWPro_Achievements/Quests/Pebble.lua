@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/glop_and_pebble_achievements
+-- Date: 2017-03-23 17:39
+-- Who: Ludovicus
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3527/revisions/28371/view
+-- Date: 2017-03-15 20:27
+-- Who: Ludovicus
+-- Log: Add PRE
+
+-- URL: http://wow-pro.com/node/3527/revisions/27105/view
 -- Date: 2014-12-25 19:08
 -- Who: Ludovicus
 
@@ -51,9 +61,9 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Achievement|QID|26710|ACH|5449;1|S|
-A Lost In the Deeps|QID|26710|M|55.4,14.0|N|From Pyrite Stonetender.|
-C Lost In the Deeps|QID|26710|M|58.26,25.12;63.07,20.88|CS|N|Follow the big worm to the center section, then take the second right. Follow that around and in a full circle. Reverse direction to get back out of the cave.|
-T Lost In the Deeps|QID|26710|M|55.4,14.0|N|To Pyrite Stonetender.|
+A Lost In The Deeps|QID|26710|PRE|26709|M|55.4,14.0|N|From Pyrite Stonetender.|
+C Lost In The Deeps|QID|26710|M|58.26,25.12;63.07,20.88|CS|N|Follow the big worm to the center section, then take the second right. Follow that around and in a full circle. Reverse direction to get back out of the cave.|
+T Lost In The Deeps|QID|26710|M|55.4,14.0|N|To Pyrite Stonetender.|
 
 ]]
 end)

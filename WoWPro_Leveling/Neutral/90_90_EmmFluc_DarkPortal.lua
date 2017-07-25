@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2017-03-17 00:34
+-- Who: Ludovicus
+-- Log: Added 2 PREs
+
+-- URL: http://wow-pro.com/node/3600/revisions/27988/view
 -- Date: 2016-11-06 03:50
 -- Who: Emmaleah
 -- Log: Changed Guide registered zone to TanaanJungleIntro
@@ -303,9 +308,9 @@ A The Home Stretch |QID|35884;34446|N|From Thaelin Darkanvil|PRE|34445|M|40.11,4
 C The Home Stretch |QID|35884;34446|N|Run through the Iron Bastion to the Docks.\n(Note: You cannot mount at this time)|M|44.41,80.12|Z|TanaanJungleIntro|NC|
 T The Home Stretch |QID|35884;34446|N|To Archmage Khadgar|M|44.41,80.70|Z|TanaanJungleIntro|
 
-A Step Three: Prophet! |QID|34575|N|Auto-Accepted when you arrive at Eventide Landing.|FACTION|Alliance|
+A Step Three: Prophet! |QID|34575|PRE|35884|N|Auto-Accepted when you arrive at Eventide Landing.|FACTION|Alliance|
 
-A The Home of the Frostwolves|QID|33868|N|Auto-Accepted when you arrive at Frostfire Ridge.|FACTION|Horde|
+A The Home of the Frostwolves|QID|33868|PRE|34446|N|Auto-Accepted when you arrive at Frostfire Ridge.|FACTION|Horde|
 
 ]]
 
