@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2017-07-25 21:24
+-- Who: Ludovicus
+-- Log: Play through with raw coords for LostGlacierDKMountScenario
+
+-- URL: http://wow-pro.com/node/3668/revisions/28710/view
 -- Date: 2017-07-04 23:38
 -- Who: Ludovicus
 -- Log: Moved stuff around so the 110 DK Campaign worked right.
@@ -483,10 +488,10 @@ A Champion: Darion Mograine|QID|44248|M|26.90,28.78|Z|The Heart of Acherus@Broke
 A A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Morgraine, who is now by your Soul Forge.|PRE|43686|
 C A Hero's Weapon|QID|43407|M|58.50,58.54|Z|The Heart of Acherus@BrokenShore|NC|N|Stand in the designated spot and use your extra action button.|
 T A Hero's Weapon|QID|43407|M|56.93,58.67|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Morgraine. You have now unlocked the third relic slot, congratulations!|
-A The Power Within|QID|43496|M|44.24,45.64|N|From Image of Kalec. prereq seems to be AK>=10 and finishing class hall campaign.|PRE|43407|
+A The Power Within|QID|43496|M|44.24,45.64|Z|The Heart of Acherus@BrokenShore|N|From Image of Kalec, the next day.|PRE|43407|
 F Azurewing Repose|ACTIVE|43496|M|25.55,28.86|N|At Grimwing.|
-T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
+T The Power Within|QID|43496|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
 ;2nd spec artifact
 A Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral, if you care about a secondary spec.|PRE|43539|LVL|102|
@@ -597,12 +602,12 @@ J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you
 
 ;Legionfall Champion questline
 A Making Preparations|QID|45240|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Mograine.|ACTIVE|47137|
-C Making Preparations|QID|45240|M|24.13,27.68|Z|The Heart of Acherus@BrokenShore|NC|N|Click on the Deathgate behind Darion.|
+C Meet with Minerva|QID|45240|M|24.13,27.68|Z|The Heart of Acherus@BrokenShore|NC|N|Click on the Deathgate behind Darion and meet with Minerva.|
 T Making Preparations|QID|45240|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
 A Harnessing Power|QID|45398|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45240|
 A Severing the Sveldrek|QID|45399|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45240|
 C Severing the Sveldrek|QID|45399|M|43.62,21.96|Z|PitofSaronDK|S|N|Kill the Sveldrek mobs and after they die, click on them to raise them.|
-C Harnessing Power|QID|45398|M|48.22,18.93|Z|PitofSaronDK|N|Kill the Sveldrek Broodmother and when she dies, Andjor Dragontamer jumps off her back, kill him and loot the harness.|
+C Harnessing Power|QID|45398|M|34.29,9.42|Z|PitofSaronDK|N|Kill the Sveldrek Broodmother and when she dies, Andjor Dragontamer jumps off her back, kill him and loot the harness.|
 C Severing the Sveldrek|QID|45399|M|43.62,21.96|Z|PitofSaronDK|US|N|Finish raising the Sveldrek.|
 T Harnessing Power|QID|45398|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
 T Severing the Sveldrek|QID|45399|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
@@ -614,7 +619,7 @@ C The Peak of Bones|QID|44775|M|25.63,28.85|CHAT|N|Talk to Grimwing for a ride t
 T The Peak of Bones|QID|44775|M|51.28,84.31|Z|Stormheim|N|To Minerva Ravensorrow.|
 A From Bones They Rise|QID|44783|M|51.28,84.31|Z|Stormheim|N|From Minerva Ravensorrow.|PRE|44775|
 A Thorim's Flame|QID|46305|M|51.28,84.31|Z|Stormheim|N|From Minerva Ravensorrow.|PRE|44775|
-C From Bones They Rise|QID|44783|M|50.03,83.60; 50.03,82.77;49.96,82.11|CS|Z|Stormheim|NC|N|Use the Grapple Points or Fly up the mountain to get to the Thorignir. Click on them to revive.|
+C From Bones They Rise|QID|44783|M|50.03,83.60; 50.03,82.77;49.96,82.11|CS|Z|Stormheim|NC|N|Use the Grapple Points or Fly up the mountain to get to the Thorignir. Click on the drake corpses to revive.|
 C Thorim's Flame|QID|46305|QO|1|M|47.88,82.99|Z|Stormheim|CHAT|N|You can find the Shrine keeper all the way to the top. After you tell him your intentions, he becomes hostile. Kill him to convince him.|
 C Thorim's Flame|QID|46305|QO|2|M|47.99,83.08|Z|Stormheim|NC|N|Click on the flame to collect it.|
 T From Bones They Rise|QID|44783|M|47.99,83.08|Z|Stormheim|N|To Minerva Ravensorrow.|
@@ -628,10 +633,10 @@ T The Bonemother|QID|44787|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To
 A On Daumyr's Wings|QID|45243|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Mograine.|PRE|44787|
 C On Daumyr's Wings|QID|45243|M|21.53,31.86|Z|The Heart of Acherus@BrokenShore|CHAT|N|Ask Daumyr for a ride to Broken Shore.|
 T On Daumyr's Wings|QID|45243|M|51.63,21.80|Z|Broken Shore|N|To Highlord Darion Mograine.|
-A We Ride|QID|45103|M|51.63,21.80|Z|Broken Shore|CHAT|N|From Highlord Darion Mograine.|PRE|45243|
-C We Ride|QID|45103|QO|1|M|51.56,21.18|Z|Broken Shore|CHAT|N|Ask Daumyr for another ride.|
-C We Ride|QID|45103|QO|2|M|51.56,21.18|Z|Broken Shore|N|Starts standard bombing run.|
-T We Ride|QID|45103|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Mograine.|
+A We Ride!|QID|45103|M|51.63,21.80|Z|Broken Shore|CHAT|N|From Highlord Darion Mograine.|PRE|45243|
+C We Ride!|QID|45103|QO|1|M|51.56,21.18|Z|Broken Shore|CHAT|N|Ask Daumyr for another ride.|
+C We Ride!|QID|45103|QO|2|M|51.56,21.18|Z|Broken Shore|N|Starts standard bombing run.|
+T We Ride!|QID|45103|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Mograine.|
 A Champion: Minerva Ravensorrow|QID|46050|M|25.51,34.38|Z|The Heart of Acherus@BrokenShore|N|From/To Minerva Ravensorrow.|PRE|45103|
 A Further Advancement|QID|46789|M|49.65,51.25|N|From Siouxsie the Banshee.|
 C Further Advancement|QID|46789|M|49.65,51.25|NC|N|At Archivist Zubashi. Talk to him even if you can't afford the next advancement.|
@@ -640,6 +645,7 @@ F Deliverance Point|QID|47137|M|25.73,28.78|N|At Grimwing.|ACTIVE|47137|
 J Back to Broken Shore|QID|47137|N|Head back to Deliverance point to turn in Champions of Legionfall. The Broken Shore guide will auto load when you close this step.|GUIDE|Emm_BrokenShore|
 
 ;class mount quest
+A Amal'thazad's Message|QID|46719|M|44.0,62.6|Z|Broken Shore|ACH|11546;;true|N|From Dread Commander Thalanor, after completing [Breaching the Tomb].|
 T Amal'thazad's Message|QID|46719|M|58.25,31.11|N|To Amal'thazad.|
 A Frozen Memories|QID|46720|M|58.25,31.11|Z|Hall of Command@BrokenShore|N|From Amal'thazad.|PRE|46719|
 C Frozen Memories|QID|46720|M|55.54,27.75|Z|Hall of Command@BrokenShore|QO|1|NC|N|Step onto the portal to Amal'thazod's right.|
@@ -655,13 +661,13 @@ C Draconic Secrets|QID|46812|M|59.54,50.69;61.27,52.68|Z|Dragonblight|CS|QO|3|NC
 C Draconic Secrets|QID|46812|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|QO|4|NC|N|You can circle around the sleeping Vyrastrasza, to find the codex and read it.|
 T Draconic Secrets|QID|46812|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|N|To UI Alert.|
 A The Lost Glacier|QID|46813|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|N|From UI Alert.|PRE|46813|
-C The Lost Glacier|QID|46813|M|49.54,91.16|Z|Icecrown|QO|1|N|Run out of the Ruby Sanctum and fly out into the ocean north of The Shadow Vault where you saw the Lich King's Vision. You will enter the scenario from this spot.|
-C Uncharted Territory|QID|46813|SO|1|N|Find the Frozen Span before feral undead overwhelm you. There are no coordinates in this scenario, you will need to follow the arrows provided by Blizzard.|
-C The Frozen Span|QID|46813|SO|2|NC|N|Cross the span to Kyranastrasz' Rest. When you finally get out of combat, you can mount and run across the span.|
-C Essence of the Red|QID|46813|SO|3|N|Slay undead to collect the red dragon's essence.|
-C Life to Death|QID|46813|SO|4|NC|N|Use the extra action button to convert the life essence to unholy essence.|
-C Unholy Resurrection|QID|46813|SO|5|NC|N|Use the unholy essence to raise your dragon.|
-T The Lost Glacier|QID|46813|N|Turn in to "Deep Crack" in the snow.|
+C The Lost Glacier|QID|46813|M|44.70,4.40|Z|Icecrown|QO|1|N|Run out of the Ruby Sanctum and fly out into the ocean north of The Shadow Vault where you saw the Lich King's Vision. You will enter the scenario from this spot.|
+C Uncharted Territory|QID|46813|SO|1|M|58.86,61.37|Z|LostGlacierDKMountScenario|N|Find the Frozen Span before feral undead overwhelm you.|
+C The Frozen Span|QID|46813|SO|2|Z|LostGlacierDKMountScenario|NC|N|Cross the span to Kyranastrasz' Rest. When you finally get out of combat, you can mount and run across the span.|
+C Essence of the Red|QID|46813|SO|3|M|49.43,40.19|Z|LostGlacierDKMountScenario|N|Slay undead to collect the red dragon's essence.|
+C Life to Death|QID|46813|SO|4|Z|LostGlacierDKMountScenario|NC|N|Use the extra action button to convert the life essence to unholy essence.|
+C Unholy Resurrection|QID|46813|SO|5|Z|LostGlacierDKMountScenario|NC|N|Use the unholy essence to raise your dragon.|
+T The Lost Glacier|QID|46813|M|49.92,43.16|Z|LostGlacierDKMountScenario|N|Turn in to "Deep Crack" in the snow.|
 
 ]]
 end)
