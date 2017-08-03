@@ -648,7 +648,7 @@ function WoWPro.EventHandler(frame, event, ...)
     end
     
     if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
-        C_Timer.After(0.3, function()
+        C_Timer.After(0.7, function()
             local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
             local questtitle = GetTitleText();
             local myNPC = WoWPro:TargetNpcId()
@@ -721,8 +721,8 @@ function WoWPro.EventHandler(frame, event, ...)
         if event == "QUEST_TURNED_IN" then
             WoWPro.CompletingQuest = true
             WoWProCharDB.completedQIDs[qlidx] = true
-            WoWPro:AutoCompleteQuestUpdate(qlidx)       
-        end
+            WoWPro:AutoCompleteQuestUpdate(qlidx)
+    end
     end
 
     if event == "NEW_RECIPE_LEARNED" then
