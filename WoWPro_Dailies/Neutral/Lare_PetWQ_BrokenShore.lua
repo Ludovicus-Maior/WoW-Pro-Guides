@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_broken_shore
+-- Date: 2017-08-03 21:56
+-- Who: Ludovicus
+-- Log: Use world QIDs
+
+-- URL: http://wow-pro.com/node/3732/revisions/28721/view
 -- Date: 2017-07-05 21:16
 -- Who: Ludovicus
 -- Log: Update text.
@@ -33,11 +38,11 @@ WoWPro:GuideSteps(guide, function()
 
 return
 [[
-N Legion Pet Battle World Quests|N|To use this guide, look on your world map for an active battle pet world quest. Once the quest is active, this guide should load automatically. Follow the guide steps from there. Pets for the strategy chosen by the addon are loaded automatically.\nIf the strategy can accommodate a leveling pet, it will also be auto-selected. If you want to level specific pets, name them "Leveling" or mark them as favorites and the addon will choose from them if possible.|
+N Legion Pet Battle World Quests|N|To use this guide, look on your world map for an active battle pet world quest and go there. When the quest pops up, the guide will load pets for the strategy chosen by the addon automatically. If the strategy can accommodate a leveling pet, it will also be auto-selected. If you want to level specific pets, name them "Leveling" or favorite them and the addon will choose from them if possible.|
 
 ;Illidari Masters: Sissix, nearest FP is Aalgen Point - Broken Shore
-F Aalgen Point|AVAILABLE|46111|N|Illidari Masters: Sissix\nFly to Aalgen Point in Broken Shore|
-A Illidari Masters: Sissix|QID|46111|M|69.3, 47.4|Z|Broken Shore|N|Talk to Sissix to start the battle.|
+; F Aalgen Point|AVAILABLE|46111|N|Illidari Masters: Sissix\nFly to Aalgen Point in Broken Shore|
+A Illidari Masters: Sissix|QID|46111|M|69.3, 47.4|Z|Broken Shore|N|Talk to Sissix to start the battle.|O|
 C Sissix|QID|46111|PET1|Zandalari Kneebiter;69796;2+2+2;P>300;|PET2|Iron Starlette;77221;1+1+1;P>300;|PET3|Leveling;;;H>760U|STRATEGY|SaltyGoldfish@WH|
 C Sissix|QID|46111|PET1|Leveling;;;H>1200|PET2|Emperor Crab;65203;2+2+1|PET3|Rabbit;61080;1+2+1;S>276|STRATEGY|Hazel@YT|
 C Strat by Hazelnuttygames@Youtube|QID|46111|STRATEGY|Hazel@YT|N|1) Use any move.\n2) Switch in your Emperor Crab|SELECT|1|SWITCH|2|
@@ -50,6 +55,23 @@ C Kneebiter .vs. Tia Mia and Larry|QID|46111|STRATEGY|SaltyGoldfish@WH|N|1) [abi
 C Starlette .vs. Tia Mia and Larry|QID|46111|STRATEGY|SaltyGoldfish@WH|N|1) [ability=459/wind-up]\n2) [ability=566/powerball]\n3) [ability=459/wind-up] for the win.|SELECT|2|DEAD|2,2|
 C Starlette .vs. Rock Lobster|QID|46111|STRATEGY|SaltyGoldfish@WH|N|1) [ability=459/wind-up]\n2) [ability=208/supercharge]\n3) [ability=459/wind-up]\nIf Starlette dies, switch to carry.|SELECT|2|DEAD|1,2|SWITCH|3|
 C Carry Pet .vs. Rock Lobster|QID|46111|STRATEGY|SaltyGoldfish@WH|N|1) Do anything with carry pet.|SELECT|3|SWITCH|3|DEAD|2,3|
+
+;Illidari Masters: Illidari Masters: Madam Viciosa - Vengance Point - Broken Shore
+A Illidari Masters: Madam Viciosa|QID|46112|M|46.41,20.66|Z|Broken Shore|N|Talk to Viciosa to start the battle.|O|
+C Viciosa|QID|46112|PET1|Leveling;;;H>500F|PET2|Unborn Val'kyr;71163;1+2+1|PET3|Mechanical Pandaren Dragonling;64899;1+2+2|STRATEGY|Aranesh@WH|
+C Level .vs. Imply|QID|46112|STRATEGY|Aranesh@WH|N|1) Do nothing and get swapped.|SELECT|1|
+C Val'kyr .vs. Imply|QID|46112|STRATEGY|Aranesh@WH|N|1) [ability=218/curse-of-doom]\n2) [ability=210/shadow-slash]\n3) [ability=210/shadow-slash]\n4) [ability=652/haunt]|SELECT|2|SWITCH|3|
+C Dragonling .vs. Imply|QID|46112|STRATEGY|Aranesh@WH|N|1) [ability=334/decoy]\n2) [ability=115/breath] until death.|SELECT|3|DEAD|2,1|
+C Dragonling .vs. Rover|QID|46112|STRATEGY|Aranesh@WH|N|1) [ability=334/decoy]\n2) [ability=115/breath] until death.|SELECT|3|DEAD|2,2|
+C Dragonling .vs. Seduction|QID|46112|STRATEGY|Aranesh@WH|N|1) [ability=779/thunderbolt]\n2) [ability=115/breath] until death.|SELECT|3|SWITCH|2|
+C Val'kyr .vs. Seduction|QID|46112|STRATEGY|Aranesh@WH|N|1) [ability=210/shadow-slash] for the win!|SELECT|2|SWITCH|2|
+
+;Illidari Masters: Nameless Mystic - Vengance Point - Broken Shore
+A Illidari Masters: Nameless Mystic|QID|46113|M|39.4, 72.0|Z|Broken Shore|N|Talk to the Mystic to start the battle.|O|
+C Mystic|QID|46113|PET1|Mechanical Pandaren Dragonling;64899;1+2+2|PET2|Darkmoon Zeppelin;55367;2+2+2|PET3|Leveling;;;|STRATEGY|Aranesh@WH|
+C Dragonling .vs. Fido|STRATEGY|Aranesh@WH|N|1) 3x [ability=115/breath]\n2) [ability=334/decoy]\n3) [ability=115/breath]\nFido dead!|SELECT|1|DEAD|2,1|
+C Dragonling .vs. Eye|STRATEGY|Aranesh@WH|N|1) [ability=779/thunderbolt]\n2) [ability=334/decoy] on cooldown\n3) [ability=115/breath] to fill till MPD dead.!|SELECT|1|SWITCH|2|
+C Zeppelin .vs. Fel||STRATEGY|Aranesh@WH|N|1) [ability=334/decoy] on cooldown\n2) [ability=515/flyby] on cooldown.\n3) When Fel<618 HP, [ability=282/explode]|SELECT|2|DEAD|2,3|
 
 ]]
 end)

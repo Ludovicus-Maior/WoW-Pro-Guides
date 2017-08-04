@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_profession_quests
+-- Date: 2017-08-03 21:47
+-- Who: Ludovicus
+-- Log: Started Enchanting, not done yet.
+
+-- URL: http://wow-pro.com/node/3712/revisions/28723/view
 -- Date: 2017-07-15 22:30
 -- Who: Ludovicus
 -- Log: Expanded Jewelcrafting.
@@ -199,6 +204,47 @@ F Meredil|QID|38533|ACTIVE|38533|M|56.81,83.84|Z|Highmountain|N|At Poca Firemant
 T Tribal Knowledge|QID|38533|M|30.0,53.2|Z|Suramar|P|Blacksmithing;164|N|To Felsmith Nal'ryssa, in Suramar.|
 
 ; Enchanting P|Enchanting;333|
+A Some Enchanted Evening|QID|39874|M|38.31,40.34|Z|Dalaran@Dalaran70|P|Enchanting;333|N|From Enchanter Nalthanis|
+T Some Enchanted Evening|QID|39874|M|38.26,41.76|Z|Dalaran@Dalaran70|N|To Ildine Sorrowspear|
+A The Last Few|QID|39875|PRE|39874|M|38.26,41.76|Z|Dalaran@Dalaran70|N|From Ildine Sorrowspear|
+C Word of Versatility|QID|39875|N|Make the two Enchant Ring - Word of Versatility vellums.|
+T The Last Few|QID|39875|M|38.26,41.76|Z|Dalaran@Dalaran70|N|To Ildine Sorrowspear|
+A Helping the Hunters|QID|39876|PRE|39875|M|38.26,41.76|Z|Dalaran@Dalaran70|N|From Ildine Sorrowspear|
+T Helping the Hunters|QID|39876|M|43.2,43.6|Z|Azsuna|N|To Jace Darkweaver|
+A In the Loop|QID|39877|PRE|39876|M|43.2,43.6|Z|Azsuna|N|From Jace Darkweaver|
+C Use the enchanting vellums|QID|39877|U|137120|N|Find 6 Demon Hunters and use the vellums|
+T In the Loop|QID|39877|M|43.2,43.6|Z|Azsuna|N|To Jace Darkweaver|
+A Strings of the Puppet Masters|QID|40048|PRE|39877|M|43.2,43.6|Z|Azsuna|N|From Jace Darkweaver|
+C Legion Camp: Chaos|QID|40048|M|38.60,49.35;40.50,48.35;38.69,46.61;37.62,51.25|Z|Azsuna|CN|N|Kill demons in Legion Camp Chaos. The item only drops there.|
+T Strings of the Puppet Masters|QID|40048|M|43.2,43.6|Z|Azsuna|N|To Jace Darkweaver|
+A Ringing True|QID|39905|PRE|40048|M|43.2,43.6|Z|Azsuna|N|From Jace Darkweaver|
+T Ringing True|QID|39905|M|38.31,40.34|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis, at Dalaran.|
+
+; Level 102 Enchanting Quest Chain
+A Thunder Struck|QID|39878|M|38.31,40.34|Z|Dalaran@Dalaran70|P|Enchanting;333|LVL|102|N|From Enchanter Nalthanis|
+T Thunder Struck|QID|39878|M|44.49,45.54|Z|ThunderTotem|N|To Guron Twaintail|
+A Strong Like the Earth|QID|39879|PRE|39878|M|44.49,45.54|Z|ThunderTotem|N|From Guron Twaintail|
+A Waste Not|QID|39880|PRE|39878|M|44.49,45.54|Z|ThunderTotem|N|From Guron Twaintail|
+C Strong Like the Earth|QID|39879|M|51.10,52.50;49.45,54.45;52.74,53.96|Z|Highmountain|CN|S|N|Kill Enraged Ambershards|T|Enraged Ambershards|
+C Highmountain Armor|QID|39880|Z|Highmountain|S|N|Collect armor from the ground and disenchant to [Thunder Dust]|
+C Strong Like the Earth|QID|39879|M|51.10,52.50;49.45,54.45;52.74,53.96|Z|Highmountain|CN|US|N|Kill Enraged Ambershards|T|Enraged Ambershards|
+C Highmountain Armor|QID|39880|Z|Highmountain|US|N|Collect armor from the ground and disenchant to [Thunder Dust]|
+T Strong Like the Earth|QID|39879|M|44.49,45.54|Z|ThunderTotem|N|To Guron Twaintail|
+T Waste Not|QID|39880|M|44.49,45.54|Z|ThunderTotem|N|To Guron Twaintail|
+A Cloaked in Tradition|QID|39883|PRE|39880|M|44.49,45.54|Z|ThunderTotem|N|From Guron Twaintail|
+T Cloaked in Tradition|QID|39883|M|38.31,40.34|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis, at Dalaran.|
+
+; Level 104 Enchanting Quest Chain
+A Fey Enchantments|QID|39881|M|38.31,40.34|Z|Dalaran@Dalaran70|P|Enchanting;333|LVL|104|N|From Enchanter Nalthanis|
+T Fey Enchantments|QID|39881|M|54.4,57.6|Z|Val'sharah|N|To Nalamya|
+A No Longer Worthy|QID|39884|PRE|39881|M|54.4,57.6|Z|Val'sharah|N|From Nalamya|
+T No Longer Worthy|QID|39884|M|54.4,57.6|Z|Val'sharah|N|To Nalamya|
+A Led Astray|QID|39889|PRE|39884|M|54.4,57.6|Z|Val'sharah|N|From Nalamya|
+T Led Astray|QID|39889|M|54.4,57.6|Z|Val'sharah|N|To Nalamya|
+A Darkheart Thicket: The Glamour Has Faded|QID|39882|PRE|39889|M|54.4,57.6|Z|Val'sharah|N|From Nalamya|
+T Darkheart Thicket: The Glamour Has Faded|QID|39882|M|54.4,57.6|Z|Val'sharah|N|To Nalamya|
+
+; Level 106  Enchanting Quest Chain
 
 T Revenge of the Enchantress|QID|39904|M|39.35,42.58|Z|Stormheim|P|Enchanting;333|N|To Tigrid the Charmer.|
 T Cursed, But Convenient|QID|39891|M|46.86,40.94|Z|Azsuna|P|Enchanting;333|N|To Enchantress Ilanya.|
@@ -304,9 +350,9 @@ F Valdisdall|QID|39944|ACTIVE|39944|M|69.85,51.15|Z|Dalaran@Dalaran70|N|At Aluda
 T Mysterious Messages|QID|39944|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|To Nicholo Swiftfuse.|
 A Runes Within the Ruins|QID|39945|PRE|39944|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|From Nicholo Swiftfuse in Stormheim near Valdisdall.|
 A Right Tool for the Job|QID|39946|PRE|39944|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|From Nicholo Swiftfuse in Stormheim near Valdisdall..|
-R Haustvald|QID|39946|M|68.38,47.17|Z|Stormheim|N|Mount up and go to Haustvald.|
+R Haustvald|ACTIVE|39946|M|68.38,47.17|Z|Stormheim|N|Mount up and go to Haustvald.|
 C Ancient Vrykul Rune Tablet|QID|39945|QO|1|M|70.15,42.24;71.82,38.86;70.16,44.61;73.12,42.90|Z|Stormheim|CN|S|N|Get Tablets from Haustvald walls and rooms.|
-K Bonespeaker Mystic|QID|39946|QO|1|M|70.17,42.05;71.97,44.45|Z|Stormheim|CN|T|Bonespeaker Mystic|N|Kill Mystics till you get the tool.|
+K Bonespeaker Mystic|ACTIVE|39946|QO|1|M|70.17,42.05;71.97,44.45|Z|Stormheim|CN|T|Bonespeaker Mystic|N|Kill Mystics till you get the tool.|
 C Ancient Vrykul Rune Tablet|QID|39945|QO|1|M|70.15,42.24;71.82,38.86;70.16,44.61;73.12,42.90|Z|Stormheim|CN|US|N|Get Tablets from Haustvald walls and rooms.|
 T Runes Within the Ruins|QID|39945|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|To Nicholo Swiftfuse.|
 T Right Tool for the Job|QID|39946|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|To Nicholo Swiftfuse.|
@@ -391,7 +437,7 @@ C Lasune Starblade|QID|40535|QO|1|M|45.65,67.21|Z|Val'sharah|CHAT|N|Talk to Lasu
 C Jabrul|QID|40535|QO|2|M|45.37,73.35|Z|Val'sharah|CHAT|N|Find Jabrul to the side of the bridge.|
 C Jewels|QID|40535|QO|3|M|44.72,74.78|Z|Val'sharah|N|Go find his jewels.|
 T Raising the Drogbar|QID|40535|M|45.37,73.35|Z|Val'sharah|N|To Jabrul|
-A Bruls Before Jewels|QID|40536|M|45.37,73.35|Z|Val'sharah|N|From Jabrul. It helped to not be mounted for this quest not to bug in early versions.|
+A Bruls Before Jewels|QID|40536|PRE|40535|M|45.37,73.35|Z|Val'sharah|N|From Jabrul. It helped to not be mounted for this quest not to bug in early versions.|
 C First stone|QID|40536|QO|1|M|41.49,76.57|Z|Val'sharah|N|Walk Jabrul to the 1st stone, kill the harpies that spawn.|
 C Second stone|QID|40536|QO|2|M|44.54,78.54|Z|Val'sharah|N|Walk Jabrul to the 2nd stone, kill the harpies that spawn.|
 C Night Elf Camp|QID|40536|QO|3|M|45.44,67.37|Z|Val'sharah|N|Walk Jabrul to the camp, defending him. Stick to the dirt path.|
@@ -404,7 +450,7 @@ T Lapidary Lessons|QID|40538|M|40.28,34.70|Z|Dalaran@Dalaran70|N|To Tiffany Cart
 A Hidden Intentions|QID|40539|PRE|40538|M|38.94, 35.82|Z|Dalaran@Dalaran70|N|From Clive Cozen|
 C Ask Tiffany Cartier|QID|40539|QO|1|M|40.28,34.70|Z|Dalaran@Dalaran70|CHAT|N|Ask Tiffany Cartier where to get diamonds.|
 C Ask Ms. Xiulan|QID|40539|QO|2|M|71.34, 19.67|Z|The Underbelly@Dalaran70|N|If you HATE PvP, then buy a personal guard or go only when the [Sewer Guards] buff is active. Either pay a fee (Fair-Agressive-Fair-Fair) or kill Inkrot.|
-K Inkrot|QID|40539|QO|3|T|Inkrot|M|59.6, 76.6|Z|The Underbelly@Dalaran70|
+K Inkrot|ACTIVE|40539|QO|3|T|Inkrot|M|59.6, 76.6|Z|The Underbelly@Dalaran70|
 C Ask for the diamond|QID|40539|QO|4|M|71.34, 19.67|Z|The Underbelly@Dalaran70|CHAT|N|Ask Xiulan for the diamond.|
 C Carve it up|QID|40539|QO|5|U|137624|N|Click on the diamond to carve.|
 T Hidden Intentions|QID|40539|M|38.94, 35.82|Z|Dalaran@Dalaran70|N|From Clive Cozen|
@@ -429,7 +475,7 @@ T Eyes of Nashal|QID|40542;40543;40544|M|42.25,34.99|Z|Stormheim|N|To Jabrul|
 A Jabrul Needs You|QID|40556|PRE|40542|M|39.97,34.03|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|108|N|From Letter From Jabrul. If you don't see the quest, leave Dalaran and then come back to the shop.|
 F Shackle's Den|ACTIVE|40556|M|69.85,51.15|Z|Dalaran@Dalaran70|N|Fly out to Shackle's Den and go to the cave entrance nearby.|
 T Jabrul Needs You|QID|40556|M|56.37,59.64|Z|Azsuna|N|To Jabrul|
-A To Dalaran, With Love|QID|40547|M|56.37,59.64|Z|Azsuna|N|From Jabrul|
+A To Dalaran, With Love|QID|40547|PRE|40556|M|56.37,59.64|Z|Azsuna|N|From Jabrul|
 C Planks|QID|40547|QO|1|M|56.3,56.6|Z|Azsuna|N|Get the planks in the water near the derelict ship.|
 C Crate up Jabrul|QID|40547|QO|2|M|56.37,59.64|Z|Azsuna|CHAT|N|Tell Jabrul you are going to crate him up. Then tell him you are going to mail him.|
 H Dalaran|ACTIVE|40547|U|140192|N|Get Back to Dalaran|
@@ -439,7 +485,7 @@ T To Dalaran, With Love|QID|40547|M|39.82,33.96|Z|Dalaran@Dalaran70|
 ; Jewelcrafting Level 110
 A A Personal Touch|QID|40562|M|39.60,35.46|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|110|N|From Sminx|
 F Meredil|ACTIVE|40562|M|69.85,51.15|Z|Dalaran@Dalaran70|N|Fly out to Meredil and head into Suramar City for the next bits.|
-N Masquerade|AVAILABLE|42079|N|If you have not completed the Suramar quest line [Masquerade], this is going to be tough.|
+N Masquerade|AVAILABLE|42079|ACTIVE|40562|N|If you have not completed the Suramar quest line [Masquerade], this is going to be tough.|
 C A Personal Touch|QID|40562|M|49.94,77.35|Z|Suramar|QO|2|N|Nightborne Jewelry Case, at Bazzar Vendor.|
 C A Personal Touch|QID|40562|M|50.03,75.96|Z|Suramar|QO|1|N|Custom Jewelry Order|
 C A Personal Touch|QID|40562|M|50.8,84.3;48.5,72.3;50,76.1|Z|Suramar|CN|QO|3|N|Nightborne Loupe, from:\n  Duskwatch Shroud or\n  Duskwatch Orbitist|
@@ -461,7 +507,7 @@ P Vale of Eternal Blossoms|QID|40558|ACTIVE|40558|QO|4|N|Take the portal to the 
 C Crystal Heart|QID|40558|QO|4|M|14.2,67.2|Z|Vale of Eternal Blossoms|N|Catch the Hare and cut the Heart out.|U|132976|T|Golden|
 F Stonehoof Watch|QID|40558|ACTIVE|40558|QO|5|N|Fly out to Stonehoof Watch to Greystone Enclave.|
 R Greystone Enclave|QID|40558|ACTIVE|40558|QO|5|M|59.26,68.48;58.24,71.30;58.42,73.91;56.96,71.81;54.57,72.31;54.56,75.36|Z|Highmountain|CS|N|Watch out for Frostshard, who patrols outside. You want the cave with the Snail race and Basiliks.|
-K Crystal Shard|QID|40558|QO|5|M|53.44,81.33|Z|Highmountain|T|Amberstone Earthrender|N|Kill Amberstone Earthrender behind the racetrack for the Shard.|
+K Crystal Shard|ACTIVE|40558|QO|5|M|53.44,81.33|Z|Highmountain|T|Amberstone Earthrender|N|Kill Amberstone Earthrender behind the racetrack for the Shard.|
 P Nordrassil|QID|40558|ACTIVE|40558|QO|6|N|Take the portal to Hyjal from Stormwind and fly to Moonglade.|M|76.20,18.69|Z|Stormwind City|FACTION|Alliance|
 P Nordrassil|QID|40558|ACTIVE|40558|QO|6|N|Take the portal to Hyjal from Orgrimmar and fly to Moonglade.|M|51.13,38.29|Z|Orgrimmar|FACTION|Horde|
 F Moonglade|QID|40558|ACTIVE|40558|QO|6|N|Fly to Moonglade, pick your method.|
