@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_stormheim
+-- Date: 2017-08-04 21:29
+-- Who: Ludovicus
+-- Log: Added alternate strategy for [All Howl, No Bite]
+
+-- URL: http://wow-pro.com/node/3735/revisions/28734/view
 -- Date: 2017-08-03 22:02
 -- Who: Ludovicus
 -- Log: Just work off of world QIDs
@@ -33,7 +38,10 @@ N Legion Pet Battle World Quests|N|To use this guide, look on your world map for
 ;All Howl, No Bite, nearest FP is Stonehoof Watch - Highmountain
 ;TESTED, working okay
 A All Howl, No Bite|QID|42067|M|38.4, 27.4|Z|Stormheim|N|Click on Chromadon to start the battle.|O|
+C Chromadon|QID|42067|PET1|Tranquil Mechanical Yeti;15699;1+1+1|PET2|Clockwork Gnome;48609;1+2+1|PET3|Leveling;;;L>23|STRATEGY|Rikade@WH|
 C Chromadon|QID|42067|PET1|Dragonbone Hatchling;62852;2+2+1|PET2|Chi-Chi, Hatchling of Chi-Ji;72462;1+2+1|PET3|Green Wing Macaw;7387;2+2+1|STRATEGY|Hazel@YT|
+C Yeti .vs. Chromadon|QID|42067|STRATEGY|Rikade@WH|N|1) [ability=204/call-lightning]\n2) Switch to Gnome|SELECT|1|SWITCH|2|
+C Gnome .vs. Chromadon|QID|42067|STRATEGY|Rikade@WH|N|1) [ability=710/build-turret]\n2) [ability=713/blitz] x2\nRepeat above cycle for the win!|SELECT|2|SWITCH|3|
 C Strat by Hazelnuttygames@Youtube|QID|42067|STRATEGY|Hazel@YT|N|1) [ability=202/Thrash]\n2) [ability=170/Lift-Off]\n3) Spam [ability=202/Thrash] until Chromadon uses [ability=362/Howl] on you.\n4) Switch to your Chi-Chi|SELECT|1|SWITCH|2|
 C Strat by Hazelnuttygames@Youtube|QID|42067|STRATEGY|Hazel@YT|N|1) [ability=998/Ethereal]\n2) Spam [ability=1027/FireQuills] until Chromadon uses [ability=362/Howl] on you.\n4) Switch to your Green Wing Macaw|SELECT|2|SWITCH|3|
 C Strat by Hazelnuttygames@Youtube|QID|42067|STRATEGY|Hazel@YT|N|1) [ability=170/Lift-Off]\n2) Spam [ability=202/Thrash] until Chromadon uses [ability=362/Howl] on you.\n4) Switch to your Dragonbone Hatchling|SELECT|3|SWITCH|1|

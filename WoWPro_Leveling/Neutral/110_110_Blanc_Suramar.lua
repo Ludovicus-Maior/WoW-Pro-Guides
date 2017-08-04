@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2017-08-04 23:22
+-- Who: Ludovicus
+-- Log: Alliance playthrough to [Fighting on All Fronts]
+
+-- URL: http://wow-pro.com/node/3687/revisions/28726/view
 -- Date: 2017-07-25 21:48
 -- Who: Ludovicus
 -- Log: Tweaks plauying through [Statecraft].
@@ -246,11 +251,6 @@
 -- Date: 2016-12-04 16:55
 -- Who: cameljon
 -- Log: Treasure coord adjust
-
--- URL: http://wow-pro.com/node/3687/revisions/28090/view
--- Date: 2016-12-03 23:38
--- Who: cameljon
--- Log: Fixed "Mrgls of Endearment" objective coords. Probably from being so close to zone line?
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1373,7 +1373,7 @@ t Redemption for the Fallen|QID|44563|M|36.84,46.51|N|To Valewalker Farodin.|
 T Bring Home the Beacon|QID|43565|M|37.14,46.64|N|To Chief Telemancer Oculeth.|
 T Flow Control|QID|43564|M|37.11,46.55|N|To Arcanist Valtrois.|
 T Ephemeral Manastorm Projector|QID|43563|M|37.09,46.55|N|To Arcanist Valtrois.|
-A All In|QID|43567|M|37.13,46.56|N|From First Arcanist Thalyssra. You get teleported in without talking the Chief.|PRE|43565+43564+43563|
+A All In|QID|43567|M|37.13,46.56|N|From First Arcanist Thalyssra. This kicks off the "All In" scenario, so be prepared *before* accepting the quest.|PRE|43565+43564+43563|
 C Hitting the Books|QID|43567|M|27.95,66.22|Z|ArcwayScenario/1|SO|1|N|Duskwatch Archivist slain. ** Kill all, dont skip, or you won't hit 100% complete **|
 C The Nightflow Conduit|QID|43567|M|36.73,64.30|Z|ArcwayScenario/1|SO|2|N|Reach the door to the Nightflow Conduit.|
 C Knock Knock|QID|43567|M|36.72,63.61|Z|ArcwayScenario/1|SO|3;2|N|Defend Arluin while he opens the door. Slay the 5 waves that come at you.|
@@ -1437,7 +1437,7 @@ C The Way Back Home|QID|42889|M|52.00,78.84|NC|N|Activate Beacon|
 P Shal'Aran|QID|42889|ACTIVE|42889|M|52.00,78.84|N|Use the newly placed beacon to return to Shal'Aran.|
 T The Way Back Home|QID|42889|M|36.48,46.72|N|To First Arcanist Thalyssra.|
 A Visitor in Shal'Aran|QID|44955|PRE|42889|M|36.48,46.72|N|From First Arcanist Thalyssra.|
-C Visitor in Shal'Aran|QID|44955|M|34.60,47.99|QO|1|CHAT|N|Go outside to meet the Stranger.|
+C Visitor in Shal'Aran|QID|44955|M|34.60,47.91|QO|1|CHAT|N|Go outside to meet the Stranger.|
 C Visitor in Shal'Aran|QID|44955|M|36.18,47.14|QO|2|CHAT|N|Talk to Arluelle then lead her inside.|
 T Visitor in Shal'Aran|QID|44955|M|36.50,46.78|N|To First Arcanist Thalyssra.|
 
@@ -1484,7 +1484,7 @@ C Tavernkeeper's Fate|QID|44742|M|43.33,78.74|QO|2|NC|N|Learn of Vanthir's Fate|
 T Tavernkeeper's Fate|QID|44742|M|43.26,78.75|N|To Ly'leth Lunastre.|
 A Essence Triangulation|QID|44752|PRE|44742|M|43.30,78.78|N|From First Arcanist Thalyssra.|
 C Essence Triangulation|QID|44752|M|41.82,69.68|QO|1|NC|N|Click on the Echo of Vanthir inside this house.|
-R Lunestre Estate|QID|44752|ACTIVE|44752|M|41.09,78.63|N|Run back to the Lunestre Estate and down the path behind Magister Phaedris' pavilian to get to the lower tier of the city.|
+R Lunastre Estate|QID|44752|ACTIVE|44752|M|41.09,78.63|N|Run back to the Lunastre Estate and down the path behind Magister Phaedris' pavilian to get to the lower tier of the city.|
 R Artisan's Gallery|QID|44752|ACTIVE|44752|M|41.94,82.34;44.87,81.48|CS|N|Down the path and into the lower city.|
 C Essence Triangulation|QID|44752|M|47.74,78.72;45.52,72.23|CS|QO|2|NC|N|Click on the Echo of Vanthir in Shimmershade Garden.|
 C Essence Triangulation|QID|44752|M|50.89,79.12|QO|3|NC|N|Click on the Echo of Vanthir in this house on the edge of the Evermoon Bazaar.|
@@ -1520,53 +1520,53 @@ T Take Me To Your Leader|QID|40632|M|40.54,53.09|N|To Archmage Khadgar.|FACTION|
 A Taking a Promenade|QID|41607|PRE|40632|M|40.54,53.09|N|From Grand Magister Rommath.|FACTION|HORDE|
 A Down to Business|QID|43812|PRE|40632|M|40.54,53.09|N|From Lady Liadrin.|FACTION|HORDE|
 A A Better Future|QID|41916|PRE|40632|M|40.54,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|
-T Take Me To Your Leader|QID|40391|M|41.63,51.63|N|To Archmage Khadgar.|FACTION|ALLIANCE|
-A Taking a Promenade|QID|44831|PRE|40391|M|41.72,51.52|N|From Vereesa Windrunner.|FACTION|ALLIANCE|
+T Take Me To Your Leader|QID|40391|M|41.66,51.64|N|To Archmage Khadgar.|FACTION|ALLIANCE|
+A Taking a Promenade|QID|44831|PRE|40391|M|41.70,51.54|N|From Vereesa Windrunner.|FACTION|ALLIANCE|
 A Down to Business|QID|43810|PRE|40391|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
-A A Better Future|QID|41916|PRE|40391|M|41.64,51.61|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
+A A Better Future|QID|41916|PRE|40391|M|41.60,51.65|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
 C Down to Business|QID|43812;43810|M|40.56,63.94|S|N|Slay Suramar Defenders as you go.|
 C A Better Future|QID|41916|M|41.45,61.20|S|NC|T|Shal'dorei Insurgent|N|Rally Shal'dorei Insurgents, as you go.|
 C Taking a Promenade|QID|41607|M|40.54,64.03|QO|2|NC|N|Locate Sentinel Moonshade.|FACTION|HORDE|
 C Taking a Promenade|QID|44831|M|40.54,64.03|QO|1|NC|N|Locate Sentinel Moonshade.|FACTION|ALLIANCE|
-A Crystal Clearing|QID|44843|ACTIVE|41607;44831|PRE|40391|M|40.56,64.41|N|From Sentinel Moonshade.|
-A Powering Down the Portal|QID|44844|ACTIVE|41607;44831|PRE|40391|M|40.56,64.41|N|From Sentinel Moonshade.|
+A Crystal Clearing|QID|44843|ACTIVE|41607;44831|PRE|40391|M|40.62,64.48|N|From Sentinel Moonshade.|
+A Powering Down the Portal|QID|44844|ACTIVE|41607;44831|PRE|40391|M|40.62,64.48|N|From Sentinel Moonshade.|
 C Crystal Clearing|QID|44843|M|41.76,66.58|NC|N|Destroy the Portal Crystals, around Ingra|
 C Powering Down the Portal|QID|44844|M|40.96,66.34|T|Overseet Ingra|N|Slay Overseer Ingra.|
-T Crystal Clearing|QID|44843|M|40.61,64.46|N|To Sentinel Moonshade.|
-T Powering Down the Portal|QID|44844|M|40.61,64.46|N|To Sentinel Moonshade.|
-C Taking a Promenade|QID|41607|M|45.24,55.78;46.35,57.85|CS|NC|QO|1|N|Locate Magus Sendath.|FACTION|HORDE|
-C Taking a Promenade|QID|44831|M|45.24,55.78;46.35,57.85|CS|NC|QO|2|N|Locate Magus Sendath.|FACTION|ALLIANCE|
-A Nullified|QID|44834|ACTIVE|41607;44831|PRE|40391|M|46.44,58.16|N|From Magus Sendath.|
+T Crystal Clearing|QID|44843|M|40.62,64.48|N|To Sentinel Moonshade.|
+T Powering Down the Portal|QID|44844|M|40.62,64.48|N|To Sentinel Moonshade.|
+C Taking a Promenade|QID|41607|M|45.24,55.78;46.45,58.18|CS|NC|QO|1|N|Locate Magus Sendath.|FACTION|HORDE|
+C Taking a Promenade|QID|44831|M|45.24,55.78;46.45,58.18|CS|NC|QO|2|N|Locate Magus Sendath.|FACTION|ALLIANCE|
+A Nullified|QID|44834|ACTIVE|41607;44831|PRE|40391|M|46.45,58.18|N|From Magus Sendath.|
 C Nullified|QID|44834|M|45.90,53.53;45.51,52.42|CS|NC|QO|2|N|Click on Charged Arcshaper Staff|
 C Nullified|QID|44834|M|44.51,53.73|QO|1|N|Kill any Arcane Sentinel (or Oldus) for the Volatile Construct Core.|
-T Nullified|QID|44834|M|46.46,58.13|N|To Magus Sendath.|
-A Shield, Meet Spell|QID|44842|PRE|44834|M|46.46,58.13|N|From Magus Sendath.|
+T Nullified|QID|44834|M|46.45,58.18|N|To Magus Sendath.|
+A Shield, Meet Spell|QID|44842|PRE|44834|M|46.45,58.18|N|From Magus Sendath.|
 C Shield, Meet Spell|QID|44842|M|45.21,54.65;44.64,53.85|CS|U|142260|N|Use the orb on Him, then Slay Arcshaper Thorendis.|
-T Shield, Meet Spell|QID|44842|M|46.48,58.13|N|To Magus Sendath.|
+T Shield, Meet Spell|QID|44842|M|46.45,58.18|N|To Magus Sendath.|
 C A Better Future|QID|41916|M|41.45,61.20|NC|US|T|Shal'dorei Insurgent|N|Finish rallying Shal'dorei Insurgents.|
 C Down to Business|QID|43812;43810|M|40.56,63.94|US|N|Finish your quota of slain Suramar Defenders.|
 T A Better Future|QID|41916|M|40.51,53.09|N|To First Arcanist Thalyssra.|FACTION|HORDE|
 T Down to Business|QID|43812|M|40.51,53.09|N|To Lady Liadrin.|FACTION|HORDE|
 T Taking a Promenade|QID|41607|M|40.51,53.09|N|To Grand Magister Rommath.|FACTION|HORDE|
 A Break An Arm|QID|44845|PRE|41916;41607;43812|M|40.51,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|
-T A Better Future|QID|41916|M|41.64,51.61|N|To First Arcanist Thalyssra.|FACTION|ALLIANCE|
+T A Better Future|QID|41916|M|41.60,51.65|N|To First Arcanist Thalyssra.|FACTION|ALLIANCE|
 T Down to Business|QID|43810|M|41.64,51.48|N|To Tyrande Whisperwind.|FACTION|ALLIANCE|
-T Taking a Promenade|QID|44831|M|41.72,51.52|N|To Vereesa Windrunner.|FACTION|ALLIANCE|
-A Break An Arm|QID|44845|PRE|41916;44831;43810|M|41.64,51.61|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
+T Taking a Promenade|QID|44831|M|41.70,51.54|N|To Vereesa Windrunner.|FACTION|ALLIANCE|
+A Break An Arm|QID|44845|PRE|41916;44831;43810|M|41.60,51.65|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
 C Break An Arm|QID|44845|M|46.98,50.35;57.11,48.79|CS|N|Slay the Arm of the Magistrix.|
 T Break An Arm|QID|44845|M|40.55,53.08|N|To First Arcanist Thalyssra.|FACTION|HORDE|
-T Break An Arm|QID|44845|M|41.64,51.61|N|To First Arcanist Thalyssra.|FACTION|ALLIANCE|
+T Break An Arm|QID|44845|M|41.60,51.65|N|To First Arcanist Thalyssra.|FACTION|ALLIANCE|
 
 ; Insurrection - Crafting War Storyline - (more Horde (44859) / Alliance (44743) Splits)
 
 A Insurrection: Crafting War|QID|45280|PRE|44845|LEAD|45265|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-T Insurrection: Crafting War|QID|45280|M|36.49,45.83|N|To First Arcanist Thalyssra.|
-A Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.74|N|From First Arcanist Thalyssra, in Shal'Aran.|
+T Insurrection: Crafting War|QID|45280|M|36.50,46.72|N|To First Arcanist Thalyssra.|
+A Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.72|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Feeding the Rebellion|QID|45265|M|37.45,47.42|NC|U|143597|N|Use fruit on a Suramar Refugee.|
-T Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.74|N|To First Arcanist Thalyssra.|
+T Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.72|N|To First Arcanist Thalyssra.|
 A Liadrin's Command|QID|44859|PRE|45265|M|36.49,46.74|N|From First Arcanist Thalyssra.|FACTION|HORDE|
 A Tyrande's Command|QID|44743|PRE|45265|M|36.49,46.74|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
-A Mouths to Feed|QID|44870|PRE|45265|M|36.49,46.74|N|From First Arcanist Thalyssra.|
+A Mouths to Feed|QID|44870|PRE|45265|M|36.50,46.72|N|From First Arcanist Thalyssra.|
 T Mouths to Feed|QID|44870|M|37.07,46.58|N|Go downstairs to Arcanist Valtrois.|
 A Oculeth Ex Machina|QID|44873|PRE|44870|M|37.07,46.58|N|From Arcanist Valtrois.|
 C Oculeth Ex Machina|QID|44873|M|37.12,46.64|CHAT|N|Talk to Oculeth, and tell him, "Let's go!".|
@@ -1590,39 +1590,39 @@ A Trolling Them|QID|44860|PRE|44859|M|40.49,53.07|N|From Lady Liadrin.|FACTION|H
 A Something's Not Quite Right...|QID|44928|PRE|44859|M|40.55,53.11|N|From Archmage Khadgar.|FACTION|HORDE|
 T Tyrande's Command|QID|44743|M|41.64,51.48|N|To Tyrande Whisperwind.|FACTION|ALLIANCE|
 A Trolling Them|QID|44858|PRE|44743|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
-A Something's Not Quite Right...|QID|44928|PRE|44743|M|41.63,51.63|N|From Archmage Khadgar.|FACTION|ALLIANCE|
+A Something's Not Quite Right...|QID|44928|PRE|44743|M|41.66,51.64|N|From Archmage Khadgar.|FACTION|ALLIANCE|
 C Something's Not Quite Right...|QID|44928|M|41.94,51.42|S|U|142375|N|Look for NPCs in a purple fire, use the item, and kill them. Check both camps.|
 C Trolling Them|QID|44860;44858|M|42.55,51.30|NC|N|As you run around finding Infiltrators, click on the items laying around, Check both camps.|
 C Something's Not Quite Right...|QID|44928|M|41.94,51.42|US|U|142375|N|5 Shal'dorei Infiltrators found.|
 T Something's Not Quite Right...|QID|44928|M|40.55,53.11|N|To Archmage Khadgar.|FACTION|HORDE|
 T Trolling Them|QID|44860|M|40.49,53.07|N|To Lady Liadrin.|FACTION|HORDE|
 A Arming the Rebels|QID|44862|PRE|44860|M|40.49,53.08|N|From Lady Liadrin.|FACTION|HORDE|
-T Something's Not Quite Right...|QID|44928|M|41.63,51.63|N|To Archmage Khadgar.|FACTION|ALLIANCE|
+T Something's Not Quite Right...|QID|44928|M|41.66,51.64|N|To Archmage Khadgar.|FACTION|ALLIANCE|
 T Trolling Them|QID|44858|M|41.64,51.48|N|To Tyrande Whisperwind.|FACTION|ALLIANCE|
 A Arming the Rebels|QID|44861|PRE|44858|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
 T Arming the Rebels|QID|44862;44861|M|39.80,51.18|N|To Victoire.|
 A Citizens' Army|QID|44827|PRE|44862;44861|M|39.80,51.18|N|From Victoire.|
 A We Need Weapons|QID|44829|PRE|44862;44861|M|39.90,51.39|N|From Chief Telemancer Oculeth.|
-A Learning From the Dead|QID|44830|PRE|44862;44861|M|39.94,50.95|N|From Silgryn.|
+A Learning From the Dead|QID|44830|PRE|44862;44861|M|39.93,50.96|N|From Silgryn.|
 F Black Rook Hold|QID|44830|ACTIVE|44830|N|Click on Dusktalon for a ride to Black Rook Hold.|
-C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|S|N|Slay Black Rook forces as you find books, and set the Becaons.|
+C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|S|N|Slay Black Rook forces.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|S|NC|N|Loot Books of Tactics that are laying around.|
 C We Need Weapons|QID|44829|M|44.60,49.29;41.57,49.54;40.02,53.92|CS|Z|Val'sharah|NC|N|Click the beacon at each marked location to set it.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|US|NC|N|Books of Tactics collected|
-C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|US|N|Finish slaying Black Rook forces.|
-F Meredil|QID|44830|ACTIVE|44830|M|39.94,50.95|U|6948|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
+C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|US|N|Slay Black Rook forces.|
+F Meredil|QID|44830|ACTIVE|44830|M|39.93,50.96|U|6948|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T We Need Weapons|QID|44829|M|39.90,51.36|N|To Chief Telemancer Oculeth.|
 T Citizens' Army|QID|44827|M|39.79,51.21|N|To Victoire.|
-T Learning From the Dead|QID|44830|M|39.96,50.97|N|To Silgryn.|
-A Trial by Demonfire|QID|44790|PRE|44830|M|39.92,50.95|N|From Silgryn.|
+T Learning From the Dead|QID|44830|M|39.93,50.96|N|To Silgryn.|
+A Trial by Demonfire|QID|44790|PRE|44830|M|39.93,50.96|N|From Silgryn.|
 C Trial by Demonfire|QID|44790|M|33.89,49.07|QO|1|N|Kill Rozzeleth, back near the Flight Path for Shal'Aran.|
-T Trial by Demonfire|QID|44790|M|40.00,50.93|N|To Silgryn.|
+T Trial by Demonfire|QID|44790|M|39.93,50.96|N|To Silgryn.|
 
 ; Insurrection - March on Suramar - Storyline
 
 A Insurrection: March on Suramar|QID|45281|PRE|44790|LEAD|45266|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-T Insurrection: March on Suramar|QID|45281|M|36.49,46.70|N|To First Arcanist Thalyssra.|
-A A United Front|QID|45266|PRE|44790;44876|LEAD|45281|M|36.50,46.78|N|From First Arcanist Thalyssra, in Shal'Aran.|
+T Insurrection: March on Suramar|QID|45281|M|36.50,46.72|N|To First Arcanist Thalyssra.|
+A A United Front|QID|45266|PRE|44790;44876|M|36.50,46.72|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C A United Front|QID|45266|M|37.74,47.68|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T A United Front|QID|45266|M|36.50,46.72|N|To First Arcanist Thalyssra.|
 A Ready for Battle|QID|44739|PRE|45266|M|36.50,46.72|N|From First Arcanist Thalyssra.|
@@ -1651,8 +1651,8 @@ t Fighting on All Fronts|QID|45317|M|54.88,72.87|N|To Archmage Khadgar.|
 
 A Insurrection: Elisandre's Retort|QID|45282|PRE|45317|AVAILABLE|45267|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 H Shal'Aran|QID|45267|PRE|45317|M|54.48,69.46|N|Use your Portal at this location, Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
-T Insurrection: Elisandre's Retort|QID|45282|M|36.49,45.83|N|To First Arcanist Thalyssra.|
-A Before the Siege|QID|45267|PRE|45317|M|36.50,46.78|N|From First Arcanist Thalyssra, in Shal'Aran.|
+T Insurrection: Elisandre's Retort|QID|45282|M|36.50,46.72|N|To First Arcanist Thalyssra.|
+A Before the Siege|QID|45267|PRE|45317|M|36.50,46.72|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Before the Siege|QID|45267|M|37.74,47.68|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T Before the Siege|QID|45267|M|36.50,46.72|N|To First Arcanist Thalyssra.|
 A Gates of the Nighthold|QID|44736|PRE|45267|M|36.50,46.72|N|From First Arcanist Thalyssra.|
@@ -1666,8 +1666,8 @@ A Those Scrying Eyes|QID|45209|PRE|44822|N|From First Arcanist Thalyssra.|
 R Terrace of Enlightenment|QID|45209|ACTIVE|45209|M|52.33,68.77;50.13,65.50;50.95,64.05|CS|N|Run to the Terrace, use teleporter or run down stairs.|
 C Those Scrying Eyes|QID|45209|M|50.40,63.16|NC|N|Click on Duskwatch Scrying Orbs, find any 4, carefully, See-eyeing guards are at most of the orbs.|
 H Shal'Aran|QID|45209|ACTIVE|45209|M|54.47,69.42|N|Use your Portal at this location, Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
-T Those Scrying Eyes|QID|45209|M|36.49,45.82|N|To First Arcanist Thalyssra.|
-A Scouting the Breach|QID|44832|PRE|45209|M|36.49,45.82|N|From First Arcanist Thalyssra.|
+T Those Scrying Eyes|QID|45209|M|36.50,46.72|N|To First Arcanist Thalyssra.|
+A Scouting the Breach|QID|44832|PRE|45209|M|36.50,46.72|N|From First Arcanist Thalyssra.|
 P Sanctum of Order|QID|44832|ACTIVE|44832|M|36.69,44.66|QO|1|N|Take the Sanctum of Order Teleporter.|
 C Scouting the Breach|QID|44832|M|42.65,61.00|QO|2|NC|N|Meet with Arcanist Valtrois below the Sanctum of Order.|
 C Scouting the Breach|QID|44832|M|42.06,60.46;42.93,58.93|CC|QO|3|N|Clear a path to the barrier beneath the Sanctum of Order.|
@@ -1678,7 +1678,7 @@ F Crimson Thicket|QID|44833|ACTIVE|44833|M|59.21,44.64|N|Run up outside and use 
 C The Seal's Power|QID|44833|M|43.22,56.33|Z|Suramar/35|QO|1|NC|N|Meet Arcanist Valtrois in Kel'balor.|
 C The Seal's Power|QID|44833|M|50.40,44.93|Z|Suramar/35|QO|2|N|Protect Arcanist Valtrois while she investigates the ley line device.|
 R Shal'Aran|QID|44833|ACTIVE|44833|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
-T The Seal's Power|QID|44833|M|36.49,45.82|N|To First Arcanist Thalyssra.|
+T The Seal's Power|QID|44833|M|36.50,46.72|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - As Strong As Our Will - Storyline
 
