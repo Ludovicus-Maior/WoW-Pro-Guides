@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2017-08-05 19:47
+-- Who: Ludovicus
+-- Log: Put QID before ACTIVE for [The Warlord's Ashes], [The Matriarch's Maw] and [Kypa'rak's Core]
+
+-- URL: http://wow-pro.com/node/3504/revisions/27069/view
 -- Date: 2014-12-02 03:15
 -- Who: Blanckaert
 -- Log: Added QID for Quest Seeds of Fear, QID#31603
@@ -294,7 +299,7 @@ C Putting An Eye Out|QID|31234|N|Drops from Mire Beasts.|S|
 
 K Summon and Kill Warlord Gurthan|QID|31233;31232;31231;31237;31235;31234|L|88715|M|66.20,31.80|N|Requires two players; one to /lay on Green Rune and another to /kneel on the Red Rune. Loot his corpse.|
 
-A The Warlord's Ashes|ACTIVE|31233;31232;31231;31237;31235;31234|QID|31677|O|U|88715|N|Accept the quest from the ashes.|
+A The Warlord's Ashes|QID|31677|ACTIVE|31233;31232;31231;31237;31235;31234|O|U|88715|N|Accept the quest from the ashes.|
 
 C Putting An Eye Out|QID|31234|US|M|67.20,36.00|N|Drops from Mire Beasts.|
 
@@ -330,7 +335,7 @@ C Wing Clip|QID|31502|N|Collect 24 Needler Wings from Shek'zeer Needlers.|US|M|3
 
 K Karanosh|QID|31109;31504;31502;31503;31599|M|41.80,33.60|L|87878|T|Karanosh|N|Kill Karanosh and Loot the Enormous Kunchong Mandibles.|
 
-A The Matriarch's Maw|ACTIVE|31109;31504;31502;31503;31599|QID|31599|U|87878|N|Accept the quest from the mandibles.|
+A The Matriarch's Maw|QID|31599|ACTIVE|31109;31504;31502;31503;31599|U|87878|N|Accept the quest from the mandibles.|
 
 C Sap Jar filled at North feeder|QID|31496|U|87400|QO|North Feeder: 1/1|M|36.00,32.00|
 
@@ -348,7 +353,7 @@ R The Briny Muck|QID|31111;31508;31509;31506;31505;31507;31510|N|Get your favori
 
 K Kypa'rak|QID|31111;31508;31509;31506;31505;31507;31510|M|34.20,59.80|T|Kypa'rak|L|87871 |N|Loot the Massive Kyparite Core.|
 
-A Kypa'rak's Core|ACTIVE|31111;31508;31509;31506;31505;31507;31510|QID|31598|O|U|87871|N|Accept the quest from the kyparite core.|
+A Kypa'rak's Core|QID|31598|ACTIVE|31111;31508;31509;31506;31505;31507;31510|O|U|87871|N|Accept the quest from the kyparite core.|
 
 C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik Manipulators.|S|
 

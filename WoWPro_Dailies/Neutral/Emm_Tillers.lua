@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2017-08-05 19:54
+-- Who: Ludovicus
+-- Log: Remove redundant QID tags where ACTIVE tag had same contents.
+
+-- URL: http://wow-pro.com/node/3508/revisions/28327/view
 -- Date: 2017-03-10 23:25
 -- Who: Ludovicus
 -- Log: Added PREs.
@@ -190,7 +195,7 @@ A Learn and Grow V: Halfhill Market|QID|30257|PRE|30256|M|52.25,48.79|N|From Far
 C Presentation is everything!|QID|30257|M|52.75,48.07|NC|N|Pick a flower for Gina and deliver your produce to market.|
 T Learn and Grow V: Halfhill Market|QID|30257|M|53.16,51.79|N|To Gina Mudclaw.|
 A Learn and Grow VI: Gina's Vote|QID|31945|PRE|30257|M|53.16,51.79|N|From Gina Mudclaw.|
-B Scallion Seeds|ACTIVE|31945|QID|31945|L|80591|M|52.8,52.0|N|Buy seeds from Merchant Greenfield. Plant and Harvest them too.|
+B Scallion Seeds|ACTIVE|31945|L|80591|M|52.8,52.0|N|Buy seeds from Merchant Greenfield. Plant and Harvest them too.|
 C Learn and Grow VI: Gina's Vote|QID|31945|N|The next day you can harvest and deliver them to Gina.|
 t Learn and Grow VI: Gina's Vote|QID|31945|N|To Gina Mudclaw.|
 
@@ -260,20 +265,20 @@ A Farmer Fung|QID|30421;30420;30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, t
 
 ;buy seeds for farmer yoon's preferred crop
 A A Shabby New Face|QID|32189|M|52.8,52.0|N|New for 5.1 From Merchant Greenfield.|
-B Mogu Pumpkin Seeds|QID|31672|ACTIVE|31672|L|80592|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Striped Melon Seeds|QID|31942|ACTIVE|31942|L|89329|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Red Blossom Leek Seeds|QID|31673|ACTIVE|31673|L|80593|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Jade Squash Seeds|QID|31941|ACTIVE|31941|L|89328|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Juicycrunch Carrot Seeds|QID|31670|ACTIVE|31670|L|80590|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Green Cabbage Seeds|QID|31669|ACTIVE|31669|L|79102|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Pink Turnip Seeds|QID|31674|ACTIVE|31674|L|80594|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B White Turnip Seeds|QID|31675|ACTIVE|31675|L|80595|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Witchberry Seeds|QID|31943|ACTIVE|31943|L|89326|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Scallion Seeds|QID|31671|ACTIVE|31671|L|80591|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Mogu Pumpkin Seeds|ACTIVE|31672|L|80592|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Striped Melon Seeds|ACTIVE|31942|L|89329|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Red Blossom Leek Seeds|ACTIVE|31673|L|80593|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Jade Squash Seeds|ACTIVE|31941|L|89328|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Juicycrunch Carrot Seeds|ACTIVE|31670|L|80590|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Green Cabbage Seeds|ACTIVE|31669|L|79102|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Pink Turnip Seeds|ACTIVE|31674|L|80594|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B White Turnip Seeds|ACTIVE|31675|L|80595|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Witchberry Seeds|ACTIVE|31943|L|89326|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Scallion Seeds|ACTIVE|31671|L|80591|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
 B Juicycrunch Carrot Seeds (Mung Mung)|QID|31946|L|80590 2|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
-B Green Cabbage Seeds(Farmer Fung)|ACTIVE|31947|QID|31947|L|79102 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
-B Witchberry Seeds(Nana)|ACTIVE|31949|QID|31949|L|89326 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|QO|Plant Witchberry Seeds: 3/3|
-B Striped Melon Seeds(Haohan)|ACTIVE|30527|QID|30527|L|89329 4|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
+B Green Cabbage Seeds(Farmer Fung)|ACTIVE|31947|L|79102 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
+B Witchberry Seeds(Nana)|ACTIVE|31949|L|89326 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|QO|Plant Witchberry Seeds: 3/3|
+B Striped Melon Seeds(Haohan)|ACTIVE|30527|L|89329 4|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
 T A Shabby New Face|QID|32189|M|53.36,51.42|N|To Barnaby Fletcher,|
 A One Magical, Flying Kingdom's Trash...|QID|32198|PRE|32189|M|53.36,51.42|N|From Barnaby Fletcher. (Instant Accept/Turn In quest, you now have a shard to plant that will grow into a random portal shard.) After completing this quest, anytime Barnaby is at the market, you can buy more portal shards from him.|
 
@@ -544,16 +549,16 @@ T The "Earth-Slasher" Master Plow|QID|31938|M|52.20,48.86|N|To Farmer Yoon who i
 
 ;Jogu's one time chain|REP|1273
 A Buy A Fish A Drink?|QID|31320|REP|Jogu;1273;Acquaintance|M|53.6,52.4|N|From Jogu the Drunk.|;8400rep
-B Buy Four Winds Soju|ACTIVE|31320|QID|31320|L|81407|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
+B Buy Four Winds Soju|ACTIVE|31320|L|81407|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
 T Buy A Fish A Drink?|QID|31320|M|53.6,52.4|N|To Jogu the Drunk.|
 A Buy A Fish A Round?|QID|31321|REP|Jogu;1273;Buddy|M|53.6,52.4|N|From Jogu the Drunk.|;16800 rep
-B Buy Plum Wine|ACTIVE|31321|QID|31321|L|81415 5|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
+B Buy Plum Wine|ACTIVE|31321|L|81415 5|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
 T Buy A Fish A Round?|QID|31321|M|53.6,52.4|N|To Jogu the Drunk.|
 A Buy A Fish A Keg?|QID|31322|REP|Jogu;1273;Friend|M|53.6,52.4|N|From Jogu the Drunk.|;25200 rep
-B Buy or Make Jade Witch Brew|ACTIVE|31322|QID|31322|L|75037 10|N|Make with cooking or buy from another player.|
+B Buy or Make Jade Witch Brew|ACTIVE|31322|L|75037 10|N|Make with cooking or buy from another player.|
 T Buy A Fish A Keg?|QID|31322|M|53.6,52.4|N|To Jogu the Drunk.|
 A Buy A Fish A Brewery?|QID|31323|REP|Jogu;1273;Good Friend|M|53.6,52.4|N|From Jogu the Drunk.|;33600 rep
-B Buy or Make Mad Brewer's Breakfast|ACTIVE|31323|QID|31323|L|75038 20|N|Make with cooking or buy from another player. I suspect this one is too expensive to be worth doing, only consequence of not doing it, is not gaining the faction/reward).|
+B Buy or Make Mad Brewer's Breakfast|ACTIVE|31323|L|75038 20|N|Make with cooking or buy from another player. I suspect this one is too expensive to be worth doing, only consequence of not doing it, is not gaining the faction/reward).|
 T Buy A Fish A Brewery?|QID|31323|M|53.6,52.4|N|To Jogu the Drunk.|
 
 ;an extra hand - totally wortless quest...
