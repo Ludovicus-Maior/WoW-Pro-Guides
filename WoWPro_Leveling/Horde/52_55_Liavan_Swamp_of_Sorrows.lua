@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
+-- Date: 2017-08-10 22:02
+-- Who: Linkslegend5
+-- Log: Fixed the Sunken Temple coordinate issue.
+--	Changed locations on several quests to better reflect the area the mobs/items are in.
+--	Added some additional notes for quests to help clarify.
+
+-- URL: http://wow-pro.com/node/3250/revisions/28437/view
 -- Date: 2017-03-15 23:35
 -- Who: Ludovicus
 -- Log: Added PREs to LiaSwa5255
@@ -110,33 +117,33 @@ A Slithering Signs|QID|27818|PRE|27757|M|69.07,76.57|N|From Baba Bogbrew.|
 C Slithering Signs|QID|27818|M|74.0,83.4;79.59,73.98|CN|
 T Slithering Signs|QID|27818|M|69.10,76.44|N|To Baba Bogbrew.|
 A The Dragon and the Temple|QID|27869|PRE|27818|M|69.10,76.44|N|From Baba Bogbrew.|
-T The Dragon and the Temple|QID|27869|M|53.99,79.65|N|To Lord Itharius.|
+T The Dragon and the Temple|QID|27869|M|69.47,54.53|N|To Lord Itharius.|
 A Pool of Tears|QID|27694|M|69.5,54.57|N|From Lord Itharius.|
 C Pool of Tears|QID|27694|M|65.95,48.22|
 T Pool of Tears|QID|27694|M|69.5,54.57|N|To Lord Itharius.|
 A Legends of the Sunken Temple|QID|27704|PRE|27694|M|69.5,54.57|N|From Lord Itharius.|
 C Legends of the Sunken Temple|QID|27704|NC|M|69.55,51.85;70.96,45.96;71.41,43.55;54.27,79.02|CN|
-C Legends of the Sunken Temple|QID|27704|NC|M|54.27,79.03|
+C Legends of the Sunken Temple|QID|27704|NC|M|74.26,44.52|
 T Legends of the Sunken Temple|QID|27704|M|54.29,79.03|
-A Step One: The Priestess|QID|27705|PRE|27704|M|54.29,79.03|
+A Step One: The Priestess|QID|27705|PRE|27704|M|74.26,44.52|
 C Step One: The Priestess|QID|27705|M|73.04,46.30;74.79,49.24|CN|
-T Step One: The Priestess|QID|27705|M|54.29,79.03|
+T Step One: The Priestess|QID|27705|M|74.66,49.19|
 A Step Two: The Bloodletter|QID|27768|PRE|27705|M|53.99,79.65|N|From Lord Itharius.|
 C Step Two: The Bloodletter|QID|27768|M|77.52,46.16|
-T Step Two: The Bloodletter|QID|27768|M|54.48,79.13|
+T Step Two: The Bloodletter|QID|27768|M|77.55,46.26|
 A Step Three: Prophet|QID|27773|PRE|27768|M|54.48,79.13|
 C Step Three: Prophet|QID|27773|M|76.72,41.57|
-T Step Three: Prophet|QID|27773|M|54.44,78.85|
-A Blessing of the Green Dragonflight|QID|27914|PRE|27773|M|53.99,79.66|
-T Blessing of the Green Dragonflight|QID|27914|M|53.99,79.66|N|To Lord Itharius.|
-A The Heart of the Temple|QID|27915|PRE|27914|M|53.99,79.66|N|From Lord Itharius.|
-A To Stonard|QID|27871|M|53.99,79.66|N|From Lord Itharius.|
+T Step Three: Prophet|QID|27773|M|76.64,41.48|
+A Blessing of the Green Dragonflight|QID|27914|PRE|27773|M|76.64,41.48|
+T Blessing of the Green Dragonflight|QID|27914|M|69.47,54.53|N|To Lord Itharius.|
+A The Heart of the Temple|QID|27915|PRE|27914|M|69.47,54.53|N|From Lord Itharius.|
+A To Stonard|QID|27871|M|69.47,54.53|N|From Lord Itharius.|
 T To Stonard|QID|27871|M|49.39,55.39|N|Top of the building.|
 A Orcs and Humans|QID|27852|M|49.39,55.39|N|From Dispatch Commander Ruag.|
 A Lumbering Oafs|QID|27853|M|49.39,55.39|N|From Dispatch Commander Ruag.|
-A Okrilla and the Blasted Lands|QID|28553|PRE|27196|M|49.39,55.39|N|From Dispatch Commander Ruag.|
-C Orcs and Humans|QID|27852|M|62.18,46.60|
-C Lumbering Oafs|QID|27853|M|64.40,33.78|
+A Okrilla and the Blasted Lands|QID|28553|M|49.39,55.39|N|From Dispatch Commander Ruag. Take this if you're going to Blasted Lands next.|
+C Orcs and Humans|QID|27852|M|60.08,43.83|
+C Lumbering Oafs|QID|27853|M|60.34,35.85|
 T Orcs and Humans|QID|27852|M|49.43,55.40|N|To Dispatch Commander Ruag.|
 T Lumbering Oafs|QID|27853|M|49.43,55.40|N|To Dispatch Commander Ruag.|
 A Tides of Darkness|QID|27854|M|49.43,55.40|N|From Dispatch Commander Ruag.|
@@ -149,20 +156,20 @@ T Tides of Darkness|QID|27854|M|49.41,55.40|N|To Dispatch Commander Ruag.|
 T Reinforcements Denied|QID|27855|M|49.41,55.40|N|To Dispatch Commander Ruag.|
 T Marking the Fallen|QID|27856|M|49.41,55.40|N|To Dispatch Commander Ruag.|
 A We're Under Attack!|QID|27857|M|49.41,55.40|N|From Dispatch Commander Ruag.|
-C We're Under Attack!|QID|27857|M|48.69,51.04|
+C We're Under Attack!|QID|27857|M|47.97,54.26|
 T We're Under Attack!|QID|27857|M|49.38,55.36|N|To Dispatch Commander Ruag.|
 A Neeka Bloodscar|QID|27906|M|49.38,55.36|N|From Dispatch Commander Ruag.|
-T Neeka Bloodscar|QID|27906|M|21.20,51.83|N|To Neeka Bloodscar.|
+T Neeka Bloodscar|QID|27906|M|21.20,51.83|N|To Neeka Bloodscar at the top of the tower in the hut.|
 A Prayerblossom|QID|27907|M|21.20,51.83|N|From Neeka Bloodscar.|
 A Secrets of the Mire|QID|27908|M|21.20,51.83|N|From Neeka Bloodscar.|
-C Secrets of the Mire|QID|27908|M|38.26,39.21|
-C Prayerblossom|QID|27907|M|42.15,45.66|
+C Secrets of the Mire|QID|27908|M|31.66,43.42|N|Kill the Shifting Mireblobs in the rivers for the Silt.|
+C Prayerblossom|QID|27907|M|31.66,43.42|Loot the flowers scattered across the area.|
 T Prayerblossom|QID|27907|M|21.22,51.78|N|To Neeka Bloodscar.|
 T Secrets of the Mire|QID|27908|M|21.22,51.78|N|To Neeka Bloodscar.|
 A The Purespring|QID|27909|M|21.22,51.78|N|From Neeka Bloodscar.|
 A Last Regrets|QID|27910|M|21.22,51.78|N|From Neeka Bloodscar.|
-C The Purespring|QID|27909|M|16.37,66.30|
-C Last Regrets|QID|27910|M|10.47,33.78|
+C The Purespring|QID|27909|M|18.69,60.44|N|Drops off the Elementals in the area.|
+C Last Regrets|QID|27910|M|10.47,33.78|N|Kill Duskfang in the cave up north.|
 T The Purespring|QID|27909|M|21.24,51.86|N|To Neeka Bloodscar.|
 T Last Regrets|QID|27910|M|21.22,51.87|N|To Neeka Bloodscar.|
 A With Dying Breath|QID|27911|M|21.22,51.87|N|From Neeka Bloodscar.|
