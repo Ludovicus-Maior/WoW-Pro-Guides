@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2017-08-12 21:07
+-- Who: Ludovicus
+-- Log: Obliterum
+
+-- URL: http://wow-pro.com/node/3679/revisions/28654/view
 -- Date: 2017-04-23 23:13
 -- Who: Ludovicus
 -- Log: Dup QO in P Orgrimmar¦QID¦44480¦
@@ -346,23 +351,11 @@ A A Hero's Weapon|QID|43414|PRE|41796|LVL|110|M|35.2,30.00|N|From Ritssyn Flames
 T A Hero's Weapon|QID|43414|M|35.2,30.00|N|From Ritssyn Flamescowl.|
 
 ; LVL 110 - Obliterum Quest Chain
-
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
 C In the House of Light and Shadow|QID|44448|N|Location NOT included at this time.\nBefore you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|From Camille Kleister.|LVL|110|
-C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|Toss water on the fire.|
-T Fire!|QID|39838|M|39.74,30.93|Z|Dalaran@Dalaran70|N|To Camille Kleister.|
-A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran@Dalaran70|N|From Mysterious Dust (in the wagon).|PRE|39838|
-C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran@Dalaran70|CHAT|N|Talk with Trader Caelen.|
-C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran@Dalaran70|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
-C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran@Dalaran70|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran@Dalaran70|N|To Enchanter Nalthanis (in the Enchanting Shop).|
-
-; Quest chain removed. QIDs 39863, 39840, 39841, 39842, 39843, 39844, 39845
-
-A Fire it Up|QID|41778|PRE|39839|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
-T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
+A Firing Up the Forge|QID|41778|LVL|110|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
+T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 
 ;lights heart - post 110
 A Awakenings|QID|44464|M|53.53,33.06|N|From Light's Heart|PRE|44448|LVL|110|
