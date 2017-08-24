@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2017-08-23 23:08
+-- Who: Linkslegend5
+-- Log: As of 6.2.4, the quest Spirits Be Praised was removed from the game.
+
+-- URL: http://wow-pro.com/node/3199/revisions/28412/view
 -- Date: 2017-03-15 22:56
 -- Who: Ludovicus
 -- Log: Added PRE to BitDur0512
@@ -284,11 +289,6 @@
 -- Who: Ludovicus
 -- Log: Added CS tag
 
--- URL: http://wow-pro.com/node/3199/revisions/25342/view
--- Date: 2013-01-11 23:26
--- Who: Ludovicus
--- Log: Added CS tag
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
@@ -383,10 +383,6 @@ C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass one 
 N Rank 2 Quests|QID|25187|N|After you hand in Lost in the Floods to Thonk, there will be nine quests which involves a lot of running, but has a good storyline and good rewards. Please ensure your difficulty/completeness (located in Display Settings > Guide Display) is set to 2 or 3 if you wish to do these quests.|ACTIVE|25187|S|
 T Lost in the Floods|QID|25187|M|49.56,40.22|N|To Thonk.|
 A Watershed Patrol|QID|25188|PRE|25187|RANK|2|M|49.56,40.22|N|From Thonk.|
-
-A Spirits Be Praised|QID|25189|RANK|2|M|40.49,35.37|N|From Grandmatron Tekla. If she's not there, wait a couple minutes (someone else is probably escorting her!)|ACTIVE|25188|
-C Spirits Be Praised|QID|25189|NC|M|42.65,49.92|N|Escort Grandmatron Tekla to Raggaran.|
-T Spirits Be Praised|QID|25189|M|42.65,49.92|N|To Raggaran.|
 
 A Raggaran's Rage|QID|25190|RANK|2|M|45.51,44.38;42.67,49.86|CS|N|From Raggaran. |ACTIVE|25188|
 C Raggaran's Rage|QID|25190|M|43.88,49.01|N|Kill the Razormane Quilboar and the Razormane Scouts.|
