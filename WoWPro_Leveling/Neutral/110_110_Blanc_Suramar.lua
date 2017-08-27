@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2017-08-27 18:53
+-- Who: Ludovicus
+-- Log: Finished zone on Alliance.
+
+-- URL: http://wow-pro.com/node/3687/revisions/28738/view
 -- Date: 2017-08-04 23:22
 -- Who: Ludovicus
 -- Log: Alliance playthrough to [Fighting on All Fronts]
@@ -246,11 +251,6 @@
 -- Date: 2016-12-06 20:32
 -- Who: Blanckaert
 -- Log: adjusted the Quests that are avail 12/06.
-
--- URL: http://wow-pro.com/node/3687/revisions/28093/view
--- Date: 2016-12-04 16:55
--- Who: cameljon
--- Log: Treasure coord adjust
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1666,8 +1666,8 @@ A Those Scrying Eyes|QID|45209|PRE|44822|N|From First Arcanist Thalyssra.|
 R Terrace of Enlightenment|QID|45209|ACTIVE|45209|M|52.33,68.77;50.13,65.50;50.95,64.05|CS|N|Run to the Terrace, use teleporter or run down stairs.|
 C Those Scrying Eyes|QID|45209|M|50.40,63.16|NC|N|Click on Duskwatch Scrying Orbs, find any 4, carefully, See-eyeing guards are at most of the orbs.|
 H Shal'Aran|QID|45209|ACTIVE|45209|M|54.47,69.42|N|Use your Portal at this location, Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
-T Those Scrying Eyes|QID|45209|M|36.50,46.72|N|To First Arcanist Thalyssra.|
-A Scouting the Breach|QID|44832|PRE|45209|M|36.50,46.72|N|From First Arcanist Thalyssra.|
+T Those Scrying Eyes|QID|45209|M|36.49,45.83|N|To First Arcanist Thalyssra.|
+A Scouting the Breach|QID|44832|PRE|45209|M|36.49,45.83|N|From First Arcanist Thalyssra.|
 P Sanctum of Order|QID|44832|ACTIVE|44832|M|36.69,44.66|QO|1|N|Take the Sanctum of Order Teleporter.|
 C Scouting the Breach|QID|44832|M|42.65,61.00|QO|2|NC|N|Meet with Arcanist Valtrois below the Sanctum of Order.|
 C Scouting the Breach|QID|44832|M|42.06,60.46;42.93,58.93|CC|QO|3|N|Clear a path to the barrier beneath the Sanctum of Order.|
@@ -1678,7 +1678,7 @@ F Crimson Thicket|QID|44833|ACTIVE|44833|M|59.21,44.64|N|Run up outside and use 
 C The Seal's Power|QID|44833|M|43.22,56.33|Z|Suramar/35|QO|1|NC|N|Meet Arcanist Valtrois in Kel'balor.|
 C The Seal's Power|QID|44833|M|50.40,44.93|Z|Suramar/35|QO|2|N|Protect Arcanist Valtrois while she investigates the ley line device.|
 R Shal'Aran|QID|44833|ACTIVE|44833|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
-T The Seal's Power|QID|44833|M|36.50,46.72|N|To First Arcanist Thalyssra.|
+T The Seal's Power|QID|44833|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - As Strong As Our Will - Storyline
 
@@ -1706,7 +1706,7 @@ C Survey the City|QID|45065|M|47.73,63.90|QO|1|U|142405|N|Survey Terrace of Orde
 R Felsoul Hold|QID|45063|ACTIVE|45063|M|38.9,60.53;34.63,58.64;32.43,62.50|CS|N|Run to Felsoul Hold, Northern end. Using portal from Shal'Aran puts you in the southern end.|
 C The Felsoul Experiments|QID|45063|M|28.45,61.32;32.12,66.47;31.37,65.74|NC|CS|U|142399|N|Use Orb to have Withered attack the Felsoul Shards.|
 T The Felsoul Experiments|QID|45063|N|To First Arcanist Thalyssra, via UI Alert.|
-A Resisting Arrest|QID|45062|PRE|45063|N|From First Arcanist Thalyssra, via UI Alert.|
+A Resisting Arrest|QID|45062|M|36.49,45.83|PRE|45063|N|From First Arcanist Thalyssra, via UI Alert.\nIf your bags are full, go back to Shal'Aran and get the quest there, after cleaning up!|
 C Resisting Arrest|QID|45062|M|34.63,67.49|U|142400|N|Use Orb to disable the Power Source.|
 H Shal'Aran|QID|45065|ACTIVE|45065|M|34.63,67.49|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T Resisting Arrest|QID|45062|M|36.50,45.82|N|To First Arcanist Thalyssra.|
@@ -1757,8 +1757,8 @@ C Death to Andaris|QID|44719|SO|7|M|42.61,61.79|U|142118|N|Andaris has fallen ba
 C Reach the entrance to the Nighthold|QID|44719|M|44.13,60.04|SO|8|N|Reach the entrance to the Nighthold (wait a minute or so after arriving for Khadgar to finish talking).|
 T Breaching the Sanctum|QID|44719|M|44.18,60.12|N|To Archmage Khadgar.|
 A Lord of the Shadow Council|QID|45417|PRE|44719|M|44.18,60.12|N|From Archmage Khadgar. *Raid Quest*|
-T Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|To Archmage Khadgar. (Inside Raid?)|
-A The Eye of Aman'thul|QID|45420|PRE|45417|N|From Archmage Khadgar. (Inside Raid?)|
+T Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|To Archmage Khadgar. *Inside Raid!!!|
+A The Eye of Aman'thul|QID|45420|PRE|45417|N|From Archmage Khadgar. *Inside Raid!!|
 C The Eye of Aman'thul|QID|45420|CHAT|N|Talk to Khadgar.|
 T The Eye of Aman'thul|QID|45420|M|28.48,48.29|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Fate of the Nightborne|QID|45372|PRE|45420|M|36.62,45.08|N|From Chief Telemancer Oculeth.|

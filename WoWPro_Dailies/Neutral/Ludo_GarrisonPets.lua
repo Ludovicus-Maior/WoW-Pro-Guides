@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_daily_pet_battles
+-- Date: 2017-08-27 18:47
+-- Who: Ludovicus
+-- Log: [Fiero and Tirs] tweak
+
+-- URL: http://wow-pro.com/node/3719/revisions/28634/view
 -- Date: 2017-04-05 19:56
 -- Who: Emmaleah
 -- Log: typo (\m s/b \n)
@@ -104,8 +109,8 @@ C Chrominius|QID|79751.1|STRATEGY|HowlBombClassic|N|6) Howl\n7) Bite *|DEAD|2,1|
 ; Day 10: Fiero and Tirs
 ! Fiero and Tirs|NPC|85677;85678|QID|85677.1|
 C Pandaren Water Spirit|QID|85677.1|PET1|Pandaren Water Spirit;66950;1+2+1|PET2|Spirebound Crab;63005;2+2+2;|PET3|Pumper;;297|STRATEGY|AeroKargath@WoWHead|
-C PWS .vs. Tirs|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n2)Dive\n3) (avoids massive damage attack)\n)4,5) Water Jet\n|SELECT|1|DEAD|2,1|
-C PWS .vs. Fiero|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n2)Dive\n3) (avoids massive damage attack)\n)4,5) Water Jet\n|SELECT|1|DEAD|1,1|
+C PWS .vs. Tirs|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n2)Dive\n3) (avoids massive damage attack)\n4,5) Water Jet\n|SELECT|1|DEAD|2,1|
+C PWS .vs. Fiero|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n2)Dive\n3) (avoids massive damage attack)\n4,5) Water Jet\n|SELECT|1|DEAD|1,1|
 C Crab .vs. Fiero|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n 2) Surge Spam!|DEAD|2,2|
 
 ; Day 11: Rockbiter, Stonechewer, and Acidtooth

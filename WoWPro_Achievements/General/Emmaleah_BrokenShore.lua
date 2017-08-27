@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2017-08-27 18:49
+-- Who: Ludovicus
+-- Log: Play through moved some quests around to be usable.
+
+-- URL: http://wow-pro.com/node/3724/revisions/28677/view
 -- Date: 2017-05-26 08:09
 -- Who: Emmaleah
 -- Log: replace thieving apprentice section I accidentally overwrote this morning.
@@ -332,10 +337,6 @@ A Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|War
 C Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|To Fjornson Stonecarver.|
 
-F Deliverance Point|QID|47000|N|Now that you have your artifact knowledge research restarted, you can now upgrade your artifact (assuming you have at least 35 ranks).|
-N Finish WQs|QID|99999|N|Look at the map and run around to the various world quests. The guide will show the quest when you are in the area for it (more accurately when it is in your quest log). Check this step off manually.|
-F Deliverance Point|QID|99999|N|Fly back to Deliverance Point, make your donation to the construction effort and turn in the archeology quest.|
-
 t Spiders, Huh?|QID|46499|M|39.54,71.66|N|To Excavator Karla.|
 t Grave Robbin'|QID|46501|M|39.54,71.66|N|To Excavator Karla.|
 t Tomb Raidering|QID|46509|M|39.54,71.66|N|To Excavator Karla.|
@@ -532,7 +533,11 @@ A A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.35,48.9
 C A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|30.43,48.95|Z|Dalaran@Dalaran70|NC|N|Stand in the center of the rug and use your extra action button to receive the Council's gift.|
 T A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.45,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera. After turning in the quest return to your order hall and spend your artifact power in your freshly empowered weapon.|
 
-D Guide Reset|N|Be sure and come back tomorrow for more fun and games on the Broken Shore.|ACH|11796|
+F Deliverance Point|QID|47000|N|Now that you have your artifact knowledge research restarted, you can now upgrade your artifact (assuming you have at least 35 ranks).|
+N Finish WQs|QID|99999|N|Look at the map and run around to the various world quests. The guide will show the quest when you are in the area for it (more accurately when it is in your quest log). Check this step off manually.|
+F Deliverance Point|QID|99999|N|Fly back to Deliverance Point, make your donation to the construction effort and turn in the archeology quest.|
+
+N Guide Reset|N|Be sure and come back tomorrow for more fun and games on the Broken Shore.|ACH|11796|
 ]]
 
 end)

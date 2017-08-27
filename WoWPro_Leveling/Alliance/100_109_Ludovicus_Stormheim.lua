@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2017-08-27 18:50
+-- Who: Ludovicus
+-- Log: Changed "Talonrest" coordinates
+
+-- URL: http://wow-pro.com/node/3683/revisions/28559/view
 -- Date: 2017-03-23 17:49
 -- Who: Ludovicus
 -- Log: Spelling
@@ -406,7 +411,7 @@ A The Trials Continue|QID|39803|PRE|38624|M|47.91,54.63|N|From Huginn.|
 
 K Kill Tiptog the Lost|QID|38774|M|46.29,50.01|T|Tiptog the Lost|QO|1|ITEM|129163|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Glimmering Treasure Chest|QID|38763|M|49.70,49.20;49.69,47.28|CS|N|Dodge the energy beams, open the chest, be ready to fight.  Loot for a bit of treasure and resources.|RANK|2|
-R Talonrest|QID|39789|M|50.01,53.91|N|Run to Talonrest, for some quests.|RANK|2|
+R Talonrest|QID|39789|M|50.40,56.45|N|Run to Talonrest, for some quests.|RANK|2|
 A Eating Into Our Business|QID|39789|M|51.46,56.95|N|From Ootasa Galehoof.|RANK|2|
 C Eating Into Our Business|QID|39789|M|48.54,56.93|S|N|Kill Duskpelt worg.|RANK|2|
 $ Small Treasure Chest|QID|43207|M|49.07,60.00|N|Loot for a bit of treasure and resources.|RANK|2|

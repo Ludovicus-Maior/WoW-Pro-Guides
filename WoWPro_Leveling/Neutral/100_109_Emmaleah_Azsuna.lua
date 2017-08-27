@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2017-08-27 18:51
+-- Who: Ludovicus
+-- Log: Moved [Felblaze Ingress] flight point
+
+-- URL: http://wow-pro.com/node/3657/revisions/28724/view
 -- Date: 2017-07-15 22:46
 -- Who: Ludovicus
 -- Log: Playthrough
@@ -612,6 +617,7 @@ R Felblaze Ingress|QID|42372|M|63.86,28.92|N|Ride to the Felblaxe Ingress.|RANK|
 T Scribal Knowledge|QID|39939|M|65.07,25.94|N|To Zarla Shadowheart.|P|Inscription;773|LVL|102|
 A Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|PRE|39939|
 A Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|PRE|39939|
+f Felblaze Ingress|QID|42372|M|63.82,28.48|N|At Adept Sunwing.|RANK|3|
 T Felblaze Ingress|QID|42372|M|63.86,28.92|N|To Tehd Shoemaker.|RANK|3|
 A Eye See You|QID|42375|M|63.86,28.92|N|From Tehd Shoemaker.|RANK|3|
 C Eye See You|QID|42375|QO|1|M|63.86,28.92;67.07,27.77|CS|NC|N|Click on the Eye of Kilrog and then use it to explore the requested areas. Avoid the NPC's with the eye symbol because they see invis for the radius shown by the light blue circle around them.|RANK|3|
@@ -621,7 +627,6 @@ T Eye See You|QID|42375|M|63.88,28.97|N|To Tehd Shoemaker.|RANK|3|
 A They're Doing it Wrong|QID|42369|PRE|42375|M|63.88,28.97|N|From Tehd Shoemaker.|RANK|3|
 A Quantity Over Quality|QID|42368|PRE|42375|M|63.88,28.88|N|From Marius Felbane.|RANK|3|
 A Arkethrax|QID|42367|PRE|42375|M|63.88,28.88|N|From Marius Felbane.|RANK|3|
-f Felblaze Ingress|QID|42372|M|63.82,28.48|N|At Adept Sunwing.|RANK|3|
 C Quantity Over Quality|QID|42368|M|67.83,26.99|N|Kill demons as you go along.|S|RANK|3|
 $ Small Treasure Chest|QID|42958|M|65.47,29.56|N|Loot for a bit of treasure and resources.|RANK|3|
 C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|The runes are here on the ground on each side of the portal.|P|Inscription;773|LVL|102|
