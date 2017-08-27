@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2017-08-23 23:08
+-- Who: Linkslegend5
+-- Log: As of 6.2.4, the quest Spirits Be Praised was removed from the game.
+
+-- URL: http://wow-pro.com/node/3199/revisions/28412/view
 -- Date: 2017-03-15 22:56
 -- Who: Ludovicus
 -- Log: Added PRE to BitDur0512
@@ -281,11 +286,6 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/25461/view
 -- Date: 2013-01-13 18:58
--- Who: Ludovicus
--- Log: Added CS tag
-
--- URL: http://wow-pro.com/node/3199/revisions/25342/view
--- Date: 2013-01-11 23:26
 -- Who: Ludovicus
 -- Log: Added CS tag
 
