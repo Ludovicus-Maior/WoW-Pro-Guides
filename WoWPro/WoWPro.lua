@@ -374,7 +374,7 @@ function MaybeCombatLockdown()
 end
 
 -- Setting up event handler
-
+WoWPro.EventTable = {}
 
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro:OnEnable()
@@ -424,16 +424,7 @@ function WoWPro:OnEnable()
 	-- Event Setup --
 	local bucket = LibStub("AceBucket-3.0")
 	WoWPro:dbp("Registering Events: Core Addon")
-	WoWPro:RegisterEvents( {															-- Setting up core events
-		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
-		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_ENTERING_BATTLEGROUND", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_LIST_UPDATE", "NEW_RECIPE_LEARNED", "GOSSIP_SHOW",
-		"QUEST_DETAIL", "QUEST_GREETING", "QUEST_TURNED_IN", "QUEST_ACCEPTED", "CINEMATIC_START", "CINEMATIC_STOP", "ZONE_CHANGED_NEW_AREA",
-		"PLAYER_TARGET_CHANGED",
-		"PET_BATTLE_OPENING_START", "PET_BATTLE_PET_ROUND_RESULTS", "CHAT_MSG_PET_BATTLE_COMBAT_LOG", "PET_BATTLE_FINAL_ROUND", "PET_BATTLE_CLOSE","PET_BATTLE_XP_CHANGED",
-		"SCENARIO_UPDATE", "SCENARIO_CRITERIA_UPDATE", "SCENARIO_SPELL_UPDATE", "SCENARIO_COMPLETED", "SCENARIO_CRITERIA_SHOW_STATE_UPDATE",
-		"CRITERIA_COMPLETE",
-		"ADDON_ACTION_FORBIDDEN", "ADDON_ACTION_BLOCKED"
-	})
+	WoWPro:RegisterEvents(nil)
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
 	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
 	bucket:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
@@ -502,8 +493,18 @@ function WoWPro:RegisterEvents(eventtable)
 --[[Purpose: Iterates through the supplied table of events, and registers each 
 event to the guide frame.
 ]]--
-	for _, event in ipairs(eventtable) do
-		WoWPro.EventFrame:RegisterEvent(event)
+    if not eventtable then
+        eventtable = WoWPro.EventTable
+    end
+	for key,value in pairs(eventtable) do
+	    if type(key) == "string" then
+		    WoWPro.EventFrame:RegisterEvent(key)
+		    WoWPro.EventTable[key]=true
+		end
+	    if type(value) == "string" then
+		    WoWPro.EventFrame:RegisterEvent(value)
+		    WoWPro.EventTable[value]=true
+		end
 	end
 end
 
@@ -512,10 +513,31 @@ function WoWPro:UnregisterEvents(eventtable)
 --[[Purpose: Iterates through the supplied table of events, and removes each 
 event from the guide frame.
 ]]--
-	for _, event in ipairs(eventtable) do
-		WoWPro.EventFrame:UnregisterEvent(event)
+    if not eventtable then
+        WoWPro.UnregisterAllEvents()
+        return
+    end
+	for key,value in pairs(eventtable) do
+	    if type(key) == "string" then
+		    WoWPro.EventFrame:UnregisterEvent(key)
+		    WoWPro.EventTable[value]=false
+		end
+	    if type(value) == "string" then
+		    WoWPro.EventFrame:UnregisterEvent(value)
+		    WoWPro.EventTable[value]=false
+		end
 	end
 end
+
+function WoWPro.RegisterAllEvents()
+    WoWPro.EventFrame:RegisterAllEvents()
+end
+
+function WoWPro.UnregisterAllEvents()
+    WoWPro.EventFrame:UnregisterAllEvents()
+    WoWPro:RegisterEvents(WoWPro.EventTable)
+end
+
 
 -- https://github.com/Rainrider/KlaxxiKillOrder/issues/1
 -- New syntax for UnitGUID() in WoD
@@ -935,10 +957,8 @@ function WoWPro:ResolveIcon(guide)
     end
     if guide['mount'] then
         local mountIDs = C_MountJournal.GetMountIDs()
-        WoWPro:dbp("Mount enter")
         for i, mountID in ipairs(mountIDs) do
             local creatureName, spellID, icon, active, isUsable, sourceType = C_MountJournal.GetMountInfoByID(mountID)
-            WoWPro:dbp("Mount [%s] Spell %s==%s Icon %s", creatureName, tostring(spellID), tostring(guide.mount), tostring(icon))
             if guide.mount == spellID then
                 guide.icon = icon
                 return
