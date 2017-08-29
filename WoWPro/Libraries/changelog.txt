@@ -1,3 +1,8 @@
+Ace3 Release - Revision r1166 (August 29th, 2017)
+-------------------------------------------------
+- Updated any use of PlaySound to the new numeric constants (Fix for WoW 7.3)
+- AceConfigDialog-3.0: implement fallback validation feedback in a StaticPopup (Ticket #2)
+
 Ace3 Release - Revision r1158 (March 28th, 2017)
 ------------------------------------------------
 - AceGUI-3.0: Fire OnShow events from Frame and Windows containers (Ticket #396)
