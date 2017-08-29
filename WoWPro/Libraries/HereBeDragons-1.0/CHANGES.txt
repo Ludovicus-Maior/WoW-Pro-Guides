@@ -1,18 +1,20 @@
-tag ee907dbe6b62a4b192ea237385dd5f411608e718 1.18-release
+tag 3b25af8f2f85351c4659a3eb83fa77bcd54b176a 1.19-release
 Author:	Hendrik Leppkes <h.leppkes@gmail.com>
-Date:	Tue Mar 28 17:21:16 2017 +0200
+Date:	Tue Aug 29 09:19:44 2017 +0200
 
-Tag as 1.18-release
+Tag as 1.19-release
 
-commit ac446f43eea7ebcda260b65752a8618e0393541a
+commit 6667710cf9b11f1b5147ada62fba64b2db3f7880
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Tue Mar 28 17:20:58 2017 +0200
+Date:   Tue Aug 29 09:19:32 2017 +0200
 
-    Update TOC for 7.2
+    Update TOC for 7.3
 
-commit b4c0acc282afcc01b6ca626a55a322945356f37b
+commit be930f1501ef643a0fba82427e94cf5ed42d98a3
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Mon Feb 27 08:51:01 2017 +0100
+Date:   Fri Aug 25 20:05:53 2017 +0200
 
-    Add Havoc Demon Hunter artifact scenario mapping
+    Exclude map transforms which only apply to the flight map
+    
+    Fixes coordinate translation in some areas of Argus
 

@@ -1,6 +1,6 @@
 -- HereBeDragons is a data API for the World of Warcraft mapping system
 
-local MAJOR, MINOR = "HereBeDragons-1.0", 32
+local MAJOR, MINOR = "HereBeDragons-1.0", 33
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -26,6 +26,7 @@ local PI2 = math.pi * 2
 local atan2 = math.atan2
 local pairs, ipairs = pairs, ipairs
 local type = type
+local band = bit.band
 
 -- WoW API upvalues
 local UnitPosition = UnitPosition
@@ -88,7 +89,7 @@ local function RestoreWMU()
 end
 
 -- gather map info, but only if this isn't an upgrade (or the upgrade version forces a re-map)
-if not oldversion or oldversion < 30 then
+if not oldversion or oldversion < 33 then
     -- wipe old data, if required, otherwise the upgrade path isn't triggered
     if oldversion then
         wipe(mapData)
@@ -122,8 +123,9 @@ if not oldversion or oldversion < 30 then
     local function processTransforms()
         wipe(transforms)
         for _, tID in ipairs(GetWorldMapTransforms()) do
-            local terrainMapID, newTerrainMapID, _, _, transformMinY, transformMaxY, transformMinX, transformMaxX, offsetY, offsetX = GetWorldMapTransformInfo(tID)
-            if offsetY ~= 0 or offsetX ~= 0 then
+            local terrainMapID, newTerrainMapID, _, _, transformMinY, transformMaxY, transformMinX, transformMaxX, offsetY, offsetX, flags = GetWorldMapTransformInfo(tID)
+            -- flag 4 indicates the transform is only for the flight map
+            if band(flags, 4) ~= 4 and (offsetY ~= 0 or offsetX ~= 0) then
                 local transform = {
                     instanceID = terrainMapID,
                     newInstanceID = newTerrainMapID,
