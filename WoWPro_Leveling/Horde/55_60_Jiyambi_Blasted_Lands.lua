@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2017-08-30 01:26
+-- Who: Linkslegend5
+-- Log: Added Okrilla and the Blasted Lands turn in step from the Swamp of Sorrows guide.
+
+-- URL: http://wow-pro.com/node/3268/revisions/28438/view
 -- Date: 2017-03-15 23:40
 -- Who: Ludovicus
 -- Log: Added PREs to JiyBla5560
@@ -85,6 +90,7 @@ return [[
 T Warchief's Command: Blasted Lands!|QID|28671|M|40.47,11.65|N|To Okrilla.|O|
 T Blasted Lands: The Other Side of the World|QID|28858|M|40.47,11.65|N|To Okrilla.|O|
 T Call of the Warmatron|QID|28865|M|40.47,11.65|N|To Okrilla.|O|
+T Okrilla and the Blasted Lands|QID|28553|M|40.47,11.65|N|To Okrilla.|O|
 A Futile Pride|QID|25674|M|40.47,11.65|N|From Okrilla.|
 C Futile Pride|QID|25674|M|42.39,15.00|N|Kill one of the ogres that frequently run into the camp.|
 T Futile Pride|QID|25674|M|40.49,11.67|N|To Okrilla.|

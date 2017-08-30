@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
+-- Date: 2017-08-30 01:20
+-- Who: Linkslegend5
+-- Log: Added breadcrumb quest at the end of the guide that leads to Blasted Lands.
+
+-- URL: http://wow-pro.com/node/3250/revisions/28764/view
+-- Date: 2017-08-30 00:30
+-- Who: Linkslegend5
+-- Log: Fixed a location error I missed last edit.
+
+-- URL: http://wow-pro.com/node/3250/revisions/28763/view
+-- Date: 2017-08-30 00:19
+-- Who: Linkslegend5
+-- Log: Forgot to put an |N| for the note in step 90 for Prayerblossom.
+
+-- URL: http://wow-pro.com/node/3250/revisions/28743/view
 -- Date: 2017-08-10 22:02
 -- Who: Linkslegend5
 -- Log: Fixed the Sunken Temple coordinate issue.
@@ -124,7 +139,7 @@ T Pool of Tears|QID|27694|M|69.5,54.57|N|To Lord Itharius.|
 A Legends of the Sunken Temple|QID|27704|PRE|27694|M|69.5,54.57|N|From Lord Itharius.|
 C Legends of the Sunken Temple|QID|27704|NC|M|69.55,51.85;70.96,45.96;71.41,43.55;54.27,79.02|CN|
 C Legends of the Sunken Temple|QID|27704|NC|M|74.26,44.52|
-T Legends of the Sunken Temple|QID|27704|M|54.29,79.03|
+T Legends of the Sunken Temple|QID|27704|M|74.26,44.52|
 A Step One: The Priestess|QID|27705|PRE|27704|M|74.26,44.52|
 C Step One: The Priestess|QID|27705|M|73.04,46.30;74.79,49.24|CN|
 T Step One: The Priestess|QID|27705|M|74.66,49.19|
@@ -141,7 +156,6 @@ A To Stonard|QID|27871|M|69.47,54.53|N|From Lord Itharius.|
 T To Stonard|QID|27871|M|49.39,55.39|N|Top of the building.|
 A Orcs and Humans|QID|27852|M|49.39,55.39|N|From Dispatch Commander Ruag.|
 A Lumbering Oafs|QID|27853|M|49.39,55.39|N|From Dispatch Commander Ruag.|
-A Okrilla and the Blasted Lands|QID|28553|M|49.39,55.39|N|From Dispatch Commander Ruag. Take this if you're going to Blasted Lands next.|
 C Orcs and Humans|QID|27852|M|60.08,43.83|
 C Lumbering Oafs|QID|27853|M|60.34,35.85|
 T Orcs and Humans|QID|27852|M|49.43,55.40|N|To Dispatch Commander Ruag.|
@@ -163,7 +177,7 @@ T Neeka Bloodscar|QID|27906|M|21.20,51.83|N|To Neeka Bloodscar at the top of the
 A Prayerblossom|QID|27907|M|21.20,51.83|N|From Neeka Bloodscar.|
 A Secrets of the Mire|QID|27908|M|21.20,51.83|N|From Neeka Bloodscar.|
 C Secrets of the Mire|QID|27908|M|31.66,43.42|N|Kill the Shifting Mireblobs in the rivers for the Silt.|
-C Prayerblossom|QID|27907|M|31.66,43.42|Loot the flowers scattered across the area.|
+C Prayerblossom|QID|27907|M|31.66,43.42|N|Loot the flowers scattered across the area.|
 T Prayerblossom|QID|27907|M|21.22,51.78|N|To Neeka Bloodscar.|
 T Secrets of the Mire|QID|27908|M|21.22,51.78|N|To Neeka Bloodscar.|
 A The Purespring|QID|27909|M|21.22,51.78|N|From Neeka Bloodscar.|
@@ -174,6 +188,34 @@ T The Purespring|QID|27909|M|21.24,51.86|N|To Neeka Bloodscar.|
 T Last Regrets|QID|27910|M|21.22,51.87|N|To Neeka Bloodscar.|
 A With Dying Breath|QID|27911|M|21.22,51.87|N|From Neeka Bloodscar.|
 T With Dying Breath|QID|27911|M|21.22,51.87|N|To Neeka Bloodscar.|
-]]
+A Ruag's Report|QID|27916|M|21.22,51.87|N|From Neeka Bloodscar.|
+T Ruag's Report|QID|27916|M|49.38,55.36|N|To Dispatch Commander Ruag.|
+A Okrilla and the Blasted Lands|QID|28553|M|49.39,55.39|N|From Dispatch Commander Ruag. Take this if you're going to Blasted Lands next.|
 
 end)
+
+[Back to List of Guides]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
