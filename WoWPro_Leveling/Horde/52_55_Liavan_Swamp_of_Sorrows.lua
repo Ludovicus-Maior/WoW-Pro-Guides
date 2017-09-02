@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
+-- Date: 2017-08-31 21:21
+-- Who: Ludovicus
+-- Log: Someone forgot a ]] at the end!
+
+-- URL: http://wow-pro.com/node/3250/revisions/28765/view
 -- Date: 2017-08-30 01:20
 -- Who: Linkslegend5
 -- Log: Added breadcrumb quest at the end of the guide that leads to Blasted Lands.
@@ -191,31 +196,5 @@ T With Dying Breath|QID|27911|M|21.22,51.87|N|To Neeka Bloodscar.|
 A Ruag's Report|QID|27916|M|21.22,51.87|N|From Neeka Bloodscar.|
 T Ruag's Report|QID|27916|M|49.38,55.36|N|To Dispatch Commander Ruag.|
 A Okrilla and the Blasted Lands|QID|28553|M|49.39,55.39|N|From Dispatch Commander Ruag. Take this if you're going to Blasted Lands next.|
-
+]]
 end)
-
-[Back to List of Guides]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
