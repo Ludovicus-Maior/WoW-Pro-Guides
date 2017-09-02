@@ -1,3 +1,32 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2017-09-02 18:18
+-- Who: Ludovicus
+-- Log: Added DARK AWAKENINGS
+
+-- URL: http://wow-pro.com/node/3741/revisions/28772/view
+-- Date: 2017-09-01 12:22
+-- Who: Ludovicus
+-- Log: Playthrough on real Realm
+
+-- URL: http://wow-pro.com/node/3741/revisions/28771/view
+-- Date: 2017-08-31 22:53
+-- Who: Ludovicus
+-- Log: Finished first week: [THE ASSAULT BEGINS]
+
+-- URL: http://wow-pro.com/node/3741/revisions/28769/view
+-- Date: 2017-08-31 20:56
+-- Who: Ludovicus
+-- Log: Cleanup, add CHAT, S and PRE tags.
+
+-- URL: http://wow-pro.com/node/3741/revisions/28767/view
+-- Date: 2017-08-30 21:39
+-- Who: Ludovicus
+
 local guide = WoWPro:RegisterGuide('Ludo_Argus', 'Achievements', 'ArgusSurface', 'Ludo', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro.Achievements:GuideMisc(guide, "Shadows of Argus", "Reputation", "Legion")
