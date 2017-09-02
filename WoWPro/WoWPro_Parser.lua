@@ -756,7 +756,7 @@ function WoWPro:PushCurrentGuide(GID)
     local guideType = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
     table.insert(WoWProCharDB.GuideStack,GID)
     local index = #WoWProCharDB.GuideStack - 1
-    # Remove any duplicates
+    -- Remove any duplicates
     while (index > 0) do
         if WoWProCharDB.GuideStack[index] == GID then
             table.remove(WoWProCharDB.GuideStack,index)
