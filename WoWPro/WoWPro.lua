@@ -727,6 +727,12 @@ function WoWPro:GuideNextGuide(guide,nextGID)
     guide['nextGID'] = nextGID
 end
 
+function WoWPro:GuideQuestTriggers(guide, ...)
+    for _,QID in ipairs({...}) do
+        WoWProCharDB.QID2Guide[QID] = guide['GID']
+    end
+end
+
 function WoWPro:GuideAutoSwitch(guide)
     local locClass, engClass = UnitClass("player")
 
