@@ -557,16 +557,15 @@ function WoWPro.RecordStuff(i)
     		end
     	end        
     else
-        -- Regular step declaration
+        -- Regular quest declaration
         local numQIDs = select("#", string.split(";", QIDs))
-        if WoWPro.action[i] == "T" or WoWPro.action[i] == "C" then
+        if WoWPro.action[i] == "A" or WoWPro.action[i] == "C" or WoWPro.action[i] == "T" then
     	    for j=1,numQIDs do
     		    local qid = select(numQIDs-j+1, string.split(";", QIDs))
     		    local QID = tonumber(qid)
     		    if QID then
 --    		       WoWPro:Print("Recorded QID %s to GID %s",qid,GID)
     			   WoWProCharDB.QID2Guide[QID] = GID
-    			    WoWProCharDB.QID2Guide[qid] = GID
     		    end
             end
         end
@@ -756,6 +755,14 @@ end
 function WoWPro:PushCurrentGuide(GID)
     local guideType = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
     table.insert(WoWProCharDB.GuideStack,GID)
+    local index = #WoWProCharDB.GuideStack - 1
+    # Remove any duplicates
+    while (index > 0) do
+        if WoWProCharDB.GuideStack[index] == GID then
+            table.remove(WoWProCharDB.GuideStack,index)
+        end
+        index = index - 1
+    end
     WoWPro[guideType]:dbp("Recorded load for guide %s",GID, when)
 end
 
@@ -830,8 +837,8 @@ function WoWPro.SetupGuideReal()
     	        
     	        -- Skipped quests --
     	        if WoWProCharDB.skippedQIDs[QID] then
-    			    WoWProCharDB.Guide[GID].completion[i] = QID
-    			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as skipped."
+                    WoWProCharDB.Guide[GID].completion[i] = -QID
+                    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as skipped."
                 end
                 	            
     		    -- Quest Accepts and Completions --
