@@ -1961,6 +1961,7 @@ function WoWPro.PopulateQuestLog()
 	end
 
 	-- Generating table WoWPro.newQuest --
+	WoWPro:SelectGuideStart()
 	for QID, questInfo in pairs(WoWPro.QuestLog) do
 		if not WoWPro.oldQuests[QID] then 
 			WoWPro.newQuest = QID 
@@ -1970,7 +1971,7 @@ function WoWPro.PopulateQuestLog()
 		-- Is this an auto-switch quest?
 		if WoWProCharDB.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProCharDB.QID2Guide[QID] then
 		    WoWPro:SelectGuide(WoWProCharDB.QID2Guide[QID], WoWPro.QuestLog[QID].title, QID)
-		    WoWPro:print("AutoSwitch: [%s] => %s",WoWPro.QuestLog[QID].title, WoWProCharDB.QID2Guide[QID])
+		    WoWPro:print("AutoSwitch?: [%s] => %s",WoWPro.QuestLog[QID].title, WoWProCharDB.QID2Guide[QID])
 		end
 	end
 	

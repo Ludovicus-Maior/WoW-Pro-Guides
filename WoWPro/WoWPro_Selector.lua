@@ -258,22 +258,27 @@ function WoWPro.SelectGuideReal()
     end
 end
 
+function WoWPro:SelectGuideStart()
+    WoWPro.QuestLogGuides = {}
+end
 -- Enqueue a guide selection for later
 function WoWPro:SelectGuide(GID, quest, QID)
     if GID then
         WoWPro.QuestLogGuides = WoWPro.QuestLogGuides or {}
         if WoWPro.QuestLogGuides['locked'] then
+            WoWPro:dbp("WoWPro:SelectGuide(%s,%s,%d) locked.",GID, quest, QID)
             return
         end
         if not WoWPro.QuestLogGuides[GID] then
             if WoWPro.newQuest == QID then
                 -- Wipe out any old data
+                WoWPro:dbp("WoWPro:SelectGuide(%s,%s,%d) wiping.",GID, quest, QID)
                 WoWPro.QuestLogGuides =  {}
                 WoWPro.QuestLogGuides['locked']  = true
             end
             WoWPro.QuestLogGuides[GID] = quest
             WoWPro:SendMessage("WoWPro_GuideSelect")
-            WoWPro:print("AutoSwitch: [%s] => %s", quest, GID)
+            WoWPro:dbp("AutoSwitch: [%s] %d => %s queued", quest, QID, GID)
         end
     end
 end
