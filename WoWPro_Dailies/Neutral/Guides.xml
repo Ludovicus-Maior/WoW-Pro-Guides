@@ -37,4 +37,7 @@
   <Script file="Lare_PetWQ_Stormheim.lua"/>
   <Script file="Lare_PetWQ_Suramar.lua"/>
   <Script file="Lare_PetWQ_Valsharah.lua"/>
+  <Script file="Ludo_PetWQ_Antoran.lua"/>
+  <Script file="Ludo_PetWQ_Krokuun.lua"/>
+  <Script file="Ludo_PetWQ_MacAree.lua"/>
 </Ui>
