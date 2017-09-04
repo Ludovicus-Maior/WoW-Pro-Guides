@@ -526,6 +526,11 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     local myNPC = WoWPro:TargetNpcId()
 
+    if not qidx then
+        WoWPro:print("%s: No active step.", event)
+        return
+    end
+
     local npcCount = GetNumGossipActiveQuests();
     local npcQuests =  {GetGossipActiveQuests()};
     WoWPro:print("%s: ActiveQuests npcCount=%d", event, npcCount)
@@ -601,6 +606,11 @@ function WoWPro.QUEST_GREETING_PUNTED(event,...)
     WoWPro:print("%s: numActiveQuests=%d, numAvailableQuests=%d", event, numActiveQuests, numAvailableQuests)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     local myNPC = WoWPro:TargetNpcId()
+
+    if not qidx then
+        WoWPro:print("%s: No active step.", event)
+        return
+    end
     
     if WoWProCharDB.AutoTurnin  then
         -- Match from the top down
@@ -658,6 +668,10 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
     
     if not qidx then
         qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+        if not qidx then
+            WoWPro:print("%s: No active step.", event)
+            return
+        end
         WoWPro:dbp("Searching for %s from %d",questtitle,qidx)
         for j=0,5 do
             if questtitle == WoWPro.step[qidx+j] then
