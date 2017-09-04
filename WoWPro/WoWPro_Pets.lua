@@ -28,7 +28,7 @@ WoWPro.PetFamilyMap = {}
 local function RegisterPDM(pet_basic, pet_type, pet_strong, pet_weak)
     WoWPro.PetDamageMap[pet_basic*20+pet_strong] = 1.5
     WoWPro.PetDamageMap[pet_basic*20+pet_weak] = 0.66
-    WoWPro.PetFamilyMap[string.sub(pet_type, 1,1)] = pet_basic
+    WoWPro.PetFamilyMap[pet_type] = pet_basic
 end
 RegisterPDM(9,"Aquatic",7,6)
 RegisterPDM(8,"Beast",5,3)
