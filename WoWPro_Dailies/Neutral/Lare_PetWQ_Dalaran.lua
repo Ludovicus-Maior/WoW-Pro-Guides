@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_dalaran
+-- Date: 2017-09-03 23:46
+-- Who: Ludovicus
+-- Log: Added alternate Tiffany Nelson pet lineup.
+
+-- URL: http://wow-pro.com/node/3733/revisions/28730/view
 -- Date: 2017-08-03 21:57
 -- Who: Ludovicus
 -- Log: Work of of world QIDs
@@ -87,6 +92,13 @@ C Strat by Hazelnuttygames@Youtube|QID|40277|STRATEGY|Hazel@YT|N|1) Decoy\n2) Da
 C Strat by Hazelnuttygames@Youtube|QID|40277|STRATEGY|Hazel@YT|N|1) Switch in your Nexus Whelpling.|SELECT|3|SWITCH|2|
 C Strat by Hazelnuttygames@Youtube|QID|40277|STRATEGY|Hazel@YT|N|1) Arcane Storm\n2) Mana Surge\n3) Tail Sweep Marshmallow until your Whelp dies\n4) Switch in your MiniZep|SELECT|2|SWITCH|1|
 C Strat by Hazelnuttygames@Youtube|QID|40277|STRATEGY|Hazel@YT|N|1) Decoy\n2) Spam Missile|SELECT|1|
+C Tiffany Nelson|QID|40277|PET1|Mechanical Axebeak;79410;1+2+1|PET2|Legs;53048;2+1+2;|PET3|Cannon;;209;|STRATEGY|albinoette@WH|
+C Jinx .vs. Axebeak|QID|40277|STRATEGY|albinoette@WH|N|1) [ability=334/decoy]\n2) [ability=916/haywire]\n3) [ability=504/alpha-strike] till Jinx is dead|SELECT|1|DEAD|2,1|
+C Switch to Legs|QID|40277|STRATEGY|albinoette@WH|N|1) Switch to Legs|SELECT|1|SWITCH|2|
+C Rocket .vs. Legs|QID|40277|STRATEGY|albinoette@WH|N|1) [ability=297/pump]\n2) [ability=513/whirlpool]\n3) [ability=593/surge-of-power]\n4) [ability=297/pump], if lucky|SELECT|2|DEAD|1,2|
+C Switch back to Jinx|QID|40277|STRATEGY|albinoette@WH|N|1) Switch to Jinx|SELECT|2|SWITCH|1|
+C Jinx .vs. Marshmallow|QID|40277|STRATEGY|albinoette@WH|N|1) [ability=334/decoy]\n2) [ability=916/haywire]\n3) [ability=504/alpha-strike] till Jinx is dead|SELECT|1|DEAD|1,1|
+C Cannon|QID|40277|STRATEGY|albinoette@WH|N|1) Attack till [ability=209/ion-cannon] can finish off|SELECT|3|SWITCH|3|
 
 ]]
 end)

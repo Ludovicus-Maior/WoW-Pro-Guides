@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2017-09-03 23:47
+-- Who: Ludovicus
+-- Log: Add [ WAR OF LIGHT AND SHADOW ] section.
+
+-- URL: http://wow-pro.com/node/3741/revisions/28773/view
 -- Date: 2017-09-02 18:18
 -- Who: Ludovicus
 -- Log: Added DARK AWAKENINGS
@@ -125,9 +130,9 @@ A A Grim Equation|QID|40238|PRE|47431|M|39.94,63.12|N|From Grand Vindicator Sorv
 C Crystals Not Included|QID|46213|M|35.27,68.52|QO|1|N|Argunite Crystal, on the ground|S|
 C The Best Prevention|QID|47541|M|33.95,69.38|QO|1|N|Attackers slain|S|
 N Fallen Soldier|ACTIVE|47541|BUFF|254210|N|Click on a fallen soldier to gain the buff [Blessing of the Righteous]. 10% haste for 10 minutes.|S|
-C A Grim Equation|QID|40238|M|40.27,70.68|QO|1|N|1/1 Eastern Soul Coffer destroyed|
-C A Grim Equation|QID|40238|M|37.81,68.98|QO|2|N|1/1 Southern Soul Coffer destroyed|
-C A Grim Equation|QID|40238|M|33.98,72.24|QO|3|N|1/1 Western Soul Coffer destroyed|
+C A Grim Equation|QID|40238|M|40.27,70.68|QO|1|N|Eastern Soul Coffer destroyed|
+C A Grim Equation|QID|40238|M|37.81,68.98|QO|2|N|Southern Soul Coffer destroyed|
+C A Grim Equation|QID|40238|M|33.98,72.24|QO|3|N|Western Soul Coffer destroyed|
 N Fallen Soldier|ACTIVE|47541|BUFF|254210|N|Click on a fallen soldier to gain the buff [Blessing of the Righteous]. 10% haste for 10 minutes.|US|
 C Crystals Not Included|QID|46213|M|35.27,68.52|QO|1|N|Argunite Crystal, on the ground|US|
 C The Best Prevention|QID|47541|M|33.95,69.38|QO|1|N|Attackers slain|US|
@@ -186,7 +191,7 @@ A Duskcloak Problem|QID|48455|M|64.44,62.61|N|From Lead Rider Jerek.|
 A An Argus Roper|QID|47967|M|64.44,62.61|N|From Lead Rider Jerek.|
 A Strike Back|QID|48542|M|66.95,67.90|
 C An Argus Roper|QID|47967|M|64.32,62.48|QO|1|N|3/3 Wild Cragscaler rescued|
-C Strike Back|QID|48542|M|68.09,59.85|QO|2|N|1/1 Lady Shahrazad slain|
+C Strike Back|QID|48542|M|68.09,59.85|QO|2|N|Lady Shahrazad slain|
 C Strike Back|QID|48542|M|71.05,63.73|QO|1|N|8/8 Eredar ritualists slain|
 C Duskcloak Problem|QID|48455|M|68.94,72.04|QO|1|N|10/10 Panthara slain|
 T Strike Back|QID|48542|M|64.44,62.63|N|To Lead Rider Jerek.|
@@ -195,7 +200,7 @@ T Duskcloak Problem|QID|48455|M|64.44,62.63|N|To Lead Rider Jerek.|
 A Woah, Nelly!|QID|48544|M|64.44,62.63|N|From Lead Rider Jerek.|
 T Woah, Nelly!|QID|48544|M|56.58,67.57|N|To Chieftain Hatuun.|
 A Remnants of Darkfall Ridge|QID|48441|M|56.58,67.57|N|From Chieftain Hatuun.|
-C Scouting Map|QID|48441|M|69.56,54.30|Z|LowerDeck@ArgusSurface|N|Head back to the Vindicaar and complete the mission, "Darkfall Ridge Supplies".  The Scouting Map is on the lower floor."|
+C Scouting Map|QID|48441|M|69.56,54.30|Z|Lower Deck@ArgusSurface|N|Head back to the Vindicaar and complete the mission, "Darkfall Ridge Supplies".  The Scouting Map is on the lower floor."|
 t Remnants of Darkfall Ridge|QID|48441|M|56.58,67.57|N|To Chieftain Hatuun.|
 
 ; DARK AWAKENINGS
@@ -213,10 +218,10 @@ C Storming the Citadel|QID|47892|M|62.69,49.13|QO|1|N|Lightforged Beacon called|
 T Storming the Citadel|QID|47892|M|60.83,47.25|N|To High Exarch Turalyon.|
 A Preventive Measures|QID|47987|PRE|47892|M|61.04,47.79|N|From Prophet Velen.|
 A Scars of the Past|QID|47986|PRE|47892|M|60.68,47.30|N|From Image of Grand Artificer Romuul.|
-A Chaos Theory|QID|47988|M|PRE|47892|60.61,43.97|N|From Illidan Stormrage.|
+A Chaos Theory|QID|47988|PRE|47892|M|60.61,43.97|N|From Illidan Stormrage.|
 C Preventive Measures|QID|47987|M|61.59,33.38|QO|1|U|152110|N|Warriors sanctified|S|
 C Chaos Theory|QID|47988|M|60.44,36.68|QO|1|N|Nath'raxxan forces slain|S|
-C Chaos Theory|QID|47988|M|61.27,41.91|QO|2|N|1/1 Nathrezim Banelord slain|
+C Chaos Theory|QID|47988|M|61.27,41.91|QO|2|N|Nathrezim Banelord slain|T|Nathrezim Banelord|
 C Scars of the Past|QID|47986|M|62.12,41.26|QO|2|N|Loot Vindicator Plating|
 C Scars of the Past|QID|47986|M|60.54,33.05|QO|1|N|Loot Invocation Array|
 C Scars of the Past|QID|47986|M|60.23,28.07|QO|3|N|Loot Judgment Core|
@@ -226,7 +231,7 @@ T Chaos Theory|QID|47988|M|60.62,43.99|N|To Illidan Stormrage.|
 T Preventive Measures|QID|47987|M|61.05,47.79|N|To Prophet Velen.|
 T Scars of the Past|QID|47986|M|60.67,47.30|N|To Image of Grand Artificer Romuul.|
 A A Touch of Fel|QID|47990|PRE|47986;47987;47988|M|60.66,47.30|N|From Image of Grand Artificer Romuul.|
-A Heralds of Apocalypse|QID|PRE|47986;47987;47988|47989|M|61.55,46.72|N|From Alleria Windrunner.|
+A Heralds of Apocalypse|QID|47989|PRE|47986;47987;47988|M|61.55,46.72|N|From Alleria Windrunner.|
 A Dark Machinations|QID|47991|PRE|47986;47987;47988|M|60.61,43.98|N|From Illidan Stormrage.|
 C A Touch of Fel|QID|47990|M|58.09,34.33|QO|1|N|Kill Demons to get the Immaculate Felcore|S|
 C Dark Machinations|QID|47991|M|55.53,35.42|QO|1|N|Dismantle Spires of Woe|S|
@@ -247,25 +252,25 @@ A Lord of the Spire|QID|47993|PRE|47992|M|52.59,24.73|N|From UI|
 K Lord Nath'raxas|QID|47993|M|44.33,7.00|QO|1|N|Kill Lord Nath'raxas|T|Lord Nath'raxas|
 C Lord of the Spire|QID|47993|M|50.53,17.64|QO|2|N|Rejoin your forces, outside the spire for a cutscene.|
 T Lord of the Spire|QID|47993|M|61.66,86.91|N|To High Exarch Turalyon.|
-A A Floating Ruin|QID|48081|M|61.77,86.82|PRE|47993|From Prophet Velen.|
-C A Floating Ruin|QID|48081|M|49.28,24.85|Z|Upper Deck@ArgusMacAree|QO|1|N|1/1 Use the Navigation Console to go to Mac'Aree|
+A A Floating Ruin|QID|48081|PRE|47993|M|61.77,86.82|N|From Prophet Velen.|
+C A Floating Ruin|QID|48081|M|49.28,24.85|Z|Upper Deck@ArgusMacAree|QO|1|N|Use the Navigation Console to go to Mac'Aree|
 T A Floating Ruin|QID|48081|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
 A Mac'Aree, Jewel of Argus|QID|46815|PRE|48081|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
-C Mac'Aree, Jewel of Argus|QID|46815|M|55.38,82.13|Z|ArgusMacAree|QO|1|N|1/1 Talk to Romuul|
-C Mac'Aree, Jewel of Argus|QID|46815|M|55.38,82.13|Z|ArgusMacAree|QO|2|N|1/1 Talk to Velen|
-C Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.87|Z|ArgusMacAree|QO|3|N|1/1 Follow Velen|
+C Mac'Aree, Jewel of Argus|QID|46815|M|55.38,82.13|Z|ArgusMacAree|QO|1|CHAT|N|Talk to Romuul|
+C Mac'Aree, Jewel of Argus|QID|46815|M|55.38,82.13|Z|ArgusMacAree|QO|2|CHAT|N|Talk to Velen|
+C Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.87|Z|ArgusMacAree|QO|3|CHAT|N|Follow Velen|
 T Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.92|Z|ArgusMacAree|N|To Prophet Velen.|
 A Defenseless and Afraid|QID|46818|PRE|46815|M|54.50,77.92|Z|ArgusMacAree|N|From Prophet Velen.|
 A Khazaduum, First of His Name|QID|46834|PRE|46815|M|54.50,77.92|Z|ArgusMacAree|N|From Prophet Velen.|
-C Defenseless and Afraid|QID|46818|M|54.22,73.45|Z|ArgusMacAree|QO|1|U|152408|N|3/3 Ancient Pylons activated|
-C Khazaduum, First of His Name|QID|46834|M|52.86,66.74|Z|ArgusMacAree|QO|1|N|1/1 Argunite Keystone|
+C Defenseless and Afraid|QID|46818|M|54.22,73.45|Z|ArgusMacAree|QO|1|U|152408|N|Ancient Pylons activated|
+C Khazaduum, First of His Name|QID|46834|M|52.86,66.74|Z|ArgusMacAree|QO|1|N|Argunite Keystone|
 T Khazaduum, First of His Name|QID|46834|M|54.50,77.91|Z|ArgusMacAree|N|To Prophet Velen.|
 T Defenseless and Afraid|QID|46818|M|54.50,77.91|Z|ArgusMacAree|N|To Prophet Velen.|
 A Consecrating Ground|QID|47066|PRE|46834;46818|M|54.50,77.91|Z|ArgusMacAree|N|From Prophet Velen.|
-C Consecrating Ground|QID|47066|M|52.80,80.24|Z|ArgusMacAree|QO|1|N|1/1 Argunite Matrix restored|
+C Consecrating Ground|QID|47066|M|52.80,80.24|Z|ArgusMacAree|QO|1|N|Argunite Matrix restored|
 T Consecrating Ground|QID|47066|M|52.86,75.87|Z|ArgusMacAree|N|To Prophet Velen.|
 A The Path Forward|QID|46941|PRE|47066|M|52.86,75.87|Z|ArgusMacAree|N|From Prophet Velen.|
-C The Path Forward|QID|46941|M|52.86,75.50|Z|ArgusMacAree|QO|1|N|1/1 Call Down a Lightforged Beacon|
+C The Path Forward|QID|46941|M|52.86,75.50|Z|ArgusMacAree|QO|1|N|Call Down a Lightforged Beacon|
 T The Path Forward|QID|46941|M|52.86,75.87|Z|ArgusMacAree|N|To Prophet Velen.|
 A Not-So-Humble Beginnings|QID|47686|M|52.86,75.87|Z|ArgusMacAree|N|From Prophet Velen.|
 T Not-So-Humble Beginnings|QID|47686|M|59.70,50.51|Z|ArgusMacAree|N|To Archmage Y'mera.|
@@ -278,8 +283,8 @@ C Invasive Species|QID|47688|M|65.96,54.07|Z|ArgusMacAree|QO|1|N|Kill Panthara f
 T Conservation of Magic|QID|47882|M|59.71,50.49|Z|ArgusMacAree|N|To Archmage Y'mera.|
 T Invasive Species|QID|47688|M|59.71,50.49|Z|ArgusMacAree|N|To Archmage Y'mera.|
 A The Longest Vigil|QID|47883|PRE|47882;47688|M|59.71,50.49|Z|ArgusMacAree|N|From Archmage Y'mera.|
-C The Longest Vigil|QID|47883|M|59.92,50.40|Z|ArgusMacAree|QO|1|N|1/1 Wake the Gatekeeper|
-C The Longest Vigil|QID|47883|M|59.92,50.40|Z|ArgusMacAree|QO|2|N|1/1 Speak to Vigilant Quoram|
+C The Longest Vigil|QID|47883|M|59.92,50.40|Z|ArgusMacAree|QO|1|N|Wake the Gatekeeper|
+C The Longest Vigil|QID|47883|M|59.92,50.40|Z|ArgusMacAree|QO|2|N|Speak to Vigilant Quoram|
 T The Longest Vigil|QID|47883|M|60.00,50.50|Z|ArgusMacAree|N|To Vigilant Quoram.|
 A Gatekeeper's Challenge: Tenacity|QID|47689|M|60.00,50.50|Z|ArgusMacAree|N|From Vigilant Quoram.|
 A Gatekeeper's Challenge: Cunning|QID|47685|M|60.00,50.50|Z|ArgusMacAree|N|From Vigilant Quoram.|
@@ -307,7 +312,97 @@ T The Sigil of Awakening|QID|48107|M|52.08,89.83|Z|ArgusMacAree|N|To Prophet Vel
 
 ; WAR OF LIGHT AND SHADOW
 ; We Have a Problem
-
+A We Have a Problem|QID|48344|M|62.12,86.73|N|From High Exarch Turalyon.|
+F Conservatory of the Arcane|ACTIVE|48344|N|Use the Navigation console to go to the Conservatory.|
+T We Have a Problem|QID|48344|M|62.64,39.41|Z|ArgusMacAree|N|To High Exarch Turalyon.|
+A Wrath of the High Exarch|QID|47854|PRE|48344|M|62.64,39.41|Z|ArgusMacAree|N|From High Exarch Turalyon.|
+A A Non-Prophet Organization|QID|47691|PRE|48344|M|62.64,39.41|Z|ArgusMacAree|N|From High Exarch Turalyon.|
+A Overt Ops|QID|47995|PRE|48344|M|62.69,39.29|Z|ArgusMacAree|N|From Captain Fareeya.|
+C Wrath of the High Exarch|QID|47854|M|54.91,26.59|Z|ArgusMacAree|QO|1|N|Disrupt Legion forces in Arinor Gardens|S|
+C Overt Ops|QID|47995|M|54.86,35.32|Z|ArgusMacAree|QO|1|N|Orders given to Baraat|
+C Overt Ops|QID|47995|M|53.59,26.52|Z|ArgusMacAree|QO|2|N|Orders given to Sorvos|
+C Overt Ops|QID|47995|M|62.15,25.20|Z|ArgusMacAree|QO|3|N|Orders given to Telaamon|
+C A Non-Prophet Organization|QID|47691|M|59.20,21.15|Z|ArgusMacAree|QO|1|N|Find Velen|
+C Wrath of the High Exarch|QID|47854|M|54.91,26.59|Z|ArgusMacAree|QO|1|N|Disrupt Legion forces in Arinor Gardens|US|
+T A Non-Prophet Organization|QID|47691|M|59.09,20.06|Z|ArgusMacAree|N|To Prophet Velen.|
+T Overt Ops|QID|47995|M|59.14,20.20|Z|ArgusMacAree|N|To High Exarch Turalyon.|
+T Wrath of the High Exarch|QID|47854|M|59.14,20.20|Z|ArgusMacAree|N|To High Exarch Turalyon.|
+A Flanking Maneuvers|QID|47853|PRE|47854;47691;47995|M|59.14,20.20|Z|ArgusMacAree|N|From High Exarch Turalyon.|
+A Talgath's Forces|QID|48345|PRE|47854;47691;47995|M|59.08,20.07|Z|ArgusMacAree|N|From Prophet Velen.|
+C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|ArgusMacAree|QO|1|N|Legion portals closed|S|
+C Talgath's Forces|QID|48345|M|50.84,9.18|Z|ArgusMacAree|QO|1|N|Talgath's forces slain|S|
+C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|ArgusMacAree|QO|1|N|Legion portals closed|US|
+C Talgath's Forces|QID|48345|M|50.84,9.18|Z|ArgusMacAree|QO|1|N|Talgath's forces slain|US|
+T Talgath's Forces|QID|48345|M|48.80,19.73|Z|ArgusMacAree|N|To Prophet Velen.|
+T Flanking Maneuvers|QID|47853|M|48.80,19.73|Z|ArgusMacAree|N|To Prophet Velen.|
+A What Might Have Been|QID|47855|PRE|47853;48345|M|48.80,19.73|Z|ArgusMacAree|N|From Prophet Velen.|
+C What Might Have Been|QID|47855|M|48.80,19.73|Z|ArgusMacAree|QO|1|N|Talk to Velen|
+T What Might Have Been|QID|47855|M|48.81,19.71|Z|ArgusMacAree|N|To Prophet Velen.|
+A Across the Universe|QID|47856|PRE|47855|M|48.81,19.71|Z|ArgusMacAree|N|From Prophet Velen.|
+C Across the Universe|QID|47856|M|49.39,18.94|Z|ArgusMacAree|QO|1|N|Talk to Velen|
+C Across the Universe|QID|47856|M|50.15,17.50|Z|ArgusMacAree|QO|2|N|Talgath defeated|
+T Across the Universe|QID|47856|M|50.13,17.91|Z|ArgusMacAree|N|To Prophet Velen.|
+A Shadow of the Triumvirate|QID|47416|M|50.13,17.91|Z|ArgusMacAree|N|From Prophet Velen.|
+F Vindicaar|QID|47416|M|52.60,93.05|Z|ArgusMacAree|QO|1|N|Return to the Vindicaar|
+T Shadow of the Triumvirate|QID|47416|M|52.48,90.88|Z|ArgusMacAree|N|To Prophet Velen.|
+A The Seat of the Triumvirate|QID|47238|M|52.48,90.88|Z|ArgusMacAree|N|From Prophet Velen.|
+C The Seat of the Triumvirate|QID|47238|M|52.48,90.88|Z|ArgusMacAree|QO|1|N|Go with Velen|
+C The Seat of the Triumvirate|QID|47238|M|52.58,90.79|Z|ArgusMacAree|QO|2|N|Listen to Alleria's Tale|
+T The Seat of the Triumvirate|QID|47238|M|52.48,90.89|Z|ArgusMacAree|N|To Prophet Velen.|
+A Whispers from Oronaar|QID|40761|M|52.60,90.81|Z|ArgusMacAree|N|From Alleria Windrunner.|
+C Whispers from Oronaar|QID|40761|M|48.35,69.34|Z|ArgusMacAree|QO|1|N|Investigate the Ruins of Oronaar|
+A Arkhaan's Prayers|QID|47101|M|46.74,69.09|Z|ArgusMacAree|
+C Whispers from Oronaar|QID|40761|M|48.32,66.26|Z|ArgusMacAree|QO|4|N|Wall scrawlings inspected|
+C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|ArgusMacAree|QO|1|N|5/5 Fragmented Prayers|
+C Whispers from Oronaar|QID|40761|M|46.52,72.47|Z|ArgusMacAree|QO|3|N|Abandoned altar inspected|
+C Whispers from Oronaar|QID|40761|M|47.95,60.76|Z|ArgusMacAree|QO|2|N|Naaru figurine inspected|
+T Arkhaan's Prayers|QID|47101|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
+T Whispers from Oronaar|QID|40761|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
+A The Pulsing Madness|QID|47180|M|43.41,67.61|Z|ArgusMacAree|N|From Alleria Windrunner.|
+A Arkhaan's Pain|QID|47100|M|43.41,67.61|Z|ArgusMacAree|N|From Arkhaan.|
+C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|ArgusMacAree|QO|1|N|12/12 Broken slain|
+C The Pulsing Madness|QID|47180|M|42.14,71.10|Z|ArgusMacAree|QO|1|U|151563|N|5/5 Void Manifestations cleansed|
+T The Pulsing Madness|QID|47180|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
+T Arkhaan's Pain|QID|47100|M|43.48,67.72|Z|ArgusMacAree|N|To Arkhaan.|
+A Arkhaan's Plan|QID|47183|M|43.48,67.72|Z|ArgusMacAree|N|From Arkhaan.|
+C Arkhaan's Plan|QID|47183|M|40.60,62.67|Z|ArgusMacAree|QO|1|N|Follow Arkhaan|
+C Arkhaan's Plan|QID|47183|M|40.42,61.98|Z|ArgusMacAree|QO|2|N|Talk to Arkhaan|
+C Arkhaan's Plan|QID|47183|M|35.46,59.69|Z|ArgusMacAree|QO|3|N|Escort Arkhaan to Isolon|
+T Arkhaan's Plan|QID|47183|M|35.34,59.54|Z|ArgusMacAree|N|To Alleria Windrunner.|
+A Arkhaan's Peril|QID|47184|M|35.34,59.54|Z|ArgusMacAree|N|From Alleria Windrunner.|
+C Arkhaan's Peril|QID|47184|M|35.48,59.40|Z|ArgusMacAree|QO|1|N|Cross into the Void|
+C Arkhaan's Peril|QID|47184|M|35.92,58.22|Z|ArgusMacAree|QO|2|N|Deal with Arkhaan|
+T Arkhaan's Peril|QID|47184|M|35.34,59.53|Z|ArgusMacAree|N|To Alleria Windrunner.|
+A Throwing Shade|QID|47203|M|35.33,59.54|Z|ArgusMacAree|N|From Alleria Windrunner.|
+C Throwing Shade|QID|47203|M|36.21,53.99|Z|ArgusMacAree|QO|1|N|Meet Alleria in Umbra Hollows|
+C Throwing Shade|QID|47203|M|37.10,52.35|Z|ArgusMacAree|QO|2|N|Enter the Void Tear|
+C Throwing Shade|QID|47203|M|39.61,48.31|Z|ArgusMacAree|QO|3|N|Dismantled Portal examined|
+C Throwing Shade|QID|47203|M|35.53,43.69|Z|ArgusMacAree|QO|4|N|Image of Saprish examined|
+C Throwing Shade|QID|47203|M|36.04,38.75|Z|ArgusMacAree|QO|5|N|Voidforge examined|
+C Throwing Shade|QID|47203|M|32.15,37.78|Z|ArgusMacAree|QO|6|N|Meet Alleria and Locus-Walker|
+T Throwing Shade|QID|47203|M|31.87,37.47|Z|ArgusMacAree|N|To Alleria Windrunner.|
+A Sources of Darkness|QID|47217|M|31.87,37.47|Z|ArgusMacAree|N|From Alleria Windrunner.|
+A The Shadowguard Incursion|QID|47218|M|31.94,37.31|Z|ArgusMacAree|N|From Locus-Walker.|
+C The Shadowguard Incursion|QID|47218|M|26.28,32.91|Z|ArgusMacAree|QO|1|N|15/15 Shadowguard Ethereals slain|
+C Sources of Darkness|QID|47217|M|25.62,32.46|Z|ArgusMacAree|QO|1|N|5/5 Void Harvesters deactivated|
+T Sources of Darkness|QID|47217|M|31.88,37.45|Z|ArgusMacAree|N|To Alleria Windrunner.|
+T The Shadowguard Incursion|QID|47218|M|31.93,37.34|Z|ArgusMacAree|N|To Locus-Walker.|
+A A Vessel Made Ready|QID|47219|M|31.93,37.34|Z|ArgusMacAree|N|From Locus-Walker.|
+C A Vessel Made Ready|QID|47219|M|28.29,44.95|Z|ArgusMacAree|QO|1|N|Enter the Void Tear|
+C A Vessel Made Ready|QID|47219|M|26.62,45.21|Z|ArgusMacAree|QO|2|N|Defeat Nhal'athoth|
+C A Vessel Made Ready|QID|47219|M|26.62,45.21|Z|ArgusMacAree|QO|3|N|Heart of Nhal'athoth|
+T A Vessel Made Ready|QID|47219|M|28.45,47.19|Z|ArgusMacAree|N|To Alleria Windrunner.|
+f The Umbral Locus|QID|47219|M|28.44,47.21|Z|ArgusMacAree|N|At Alleria Windrunner.|
+A A Beacon in the Dark|QID|47220|M|28.44,47.21|Z|ArgusMacAree|N|From Alleria Windrunner.|
+C A Beacon in the Dark|QID|47220|M|52.60,93.05|Z|ArgusMacAree|QO|1|N|Return to the Vindicaar|
+T A Beacon in the Dark|QID|47220|M|52.09,89.83|Z|ArgusMacAree|N|To Prophet Velen.|
+A An Offering of Shadow|QID|48560|M|52.09,89.83|Z|ArgusMacAree|N|From Prophet Velen.|
+A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|M|52.09,89.83|Z|ArgusMacAree|N|From Prophet Velen.|
+C An Offering of Shadow|QID|48560|M|52.38,91.71|Z|ArgusMacAree|QO|1|U|152594|N|Netherlight Crucible infused with the Essence of Shadow|
+T An Offering of Shadow|QID|48560|M|52.50,91.73|Z|ArgusMacAree|N|To Artificer Shela'na.|
+A The Netherlight Crucible|QID|49224|M|52.50,91.73|Z|ArgusMacAree|N|From Artificer Shela'na.|
+C The Netherlight Crucible|QID|49224|M|52.50,91.73|Z|ArgusMacAree|QO|1|N|Imbue a relic with Netherlight Fortification|
+T The Netherlight Crucible|QID|49224|M|52.50,91.73|Z|ArgusMacAree|N|To Artificer Shela'na.|
 ]]
 
 end)
