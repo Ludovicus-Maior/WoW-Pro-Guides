@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2017-09-04 16:48
+-- Who: Ludovicus
+-- Log: Swapped around QID and ACTIVE tags to conform to new standard.
+
+-- URL: http://wow-pro.com/node/3407/revisions/28722/view
 -- Date: 2017-07-07 18:33
 -- Who: Emmaleah
 -- Log: oops. that's embarrassing, ending put back.
@@ -140,18 +145,18 @@ T An Innocent Disguise|RANK|2|QID|11891|N|Use your Totemic Beacon, then turn the
 A Inform the Elder|RANK|2|QID|12012|PRE|11891|N|From the Earthen Ring Guide.|U|35828|
 R Darkshore|RANK|2|QID|11740|M|28.8,13.3|Z|Ashenvale|N|Ride north to Darkshore. It may be faster to go back to Zoram'gar and take the flightpath to Wisperwind Grove in Felwood, if you don't fly you can jump down the waterfall at Bloodvenom Post, and if you are careful, you won't die. Click off this step if you are flying.|
 
-N PLAN OF ATTACK - DARNASSUS AND EXODAR|QID|9332|RANK|3|Z|Darkshore|M|53.25,27.15|N|Get ready, we are going to do a major chunk of the PvP section of the guide. You can fly straight thru the portal and it won't dismount you. (assuming the flying guards don't hit you with dismounting shot). The guide goes to Dolonar and desecrates that fire and then back into Darnassus to stealing their fire, and running (flying) straight through Darnassus, then flying down to the docks. Then we're getting on the boat to Azuremyst, hitting the two fires on the island, then braving the Exodar guards and grabbing the Exodar flame. It's likely that you may be killed, so be prepared.|ACTIVE|-9332|
+N PLAN OF ATTACK - DARNASSUS AND EXODAR|AVAILABLE|9332|RANK|3|Z|Darkshore|M|53.25,27.15|N|Get ready, we are going to do a major chunk of the PvP section of the guide. You can fly straight thru the portal and it won't dismount you. (assuming the flying guards don't hit you with dismounting shot). The guide goes to Dolonar and desecrates that fire and then back into Darnassus to stealing their fire, and running (flying) straight through Darnassus, then flying down to the docks. Then we're getting on the boat to Azuremyst, hitting the two fires on the island, then braving the Exodar guards and grabbing the Exodar flame. It's likely that you may be killed, so be prepared.|
 A Desecrate this Fire!|RANK|2|QID|11740|M|48.91,22.53|Z|Darkshore|N|At the Alliance Bonfire. (Darkshore)|
 R Dolanaar|RANK|2|QID|11753|N|Fly over to (and UP UP UP UP UP or use the portal) to Teldrassil, be careful to avoid the lvl 110 guards.|M|54.73,52.79|Z|Teldrassil|
 A Desecrate this Fire!|RANK|2|QID|11753|M|54.73,52.79|Z|Teldrassil|N|At the Alliance Bonfire. (Teldrassil)|
 R Darnassus|RANK|3|QID|11753|N|Be aware of the sentinals (guards) in the air too.|M|56,90|Z|Teldrassil|
 l Flame of Darnassus|RANK|3|QID|9332|M|63.84,46.98|Z|Darnassus|N|Click the fire to loot an item that starts the quest.|L|23184|
 
-b Azuremyst Isle|RANK|2|QID|11735|N|Take the boat at the end of the dock to Azuremyst Isle. The npc's on the boat will not attack unless provoked.|M|52.31,89.45|Z|Teldrassil|ACTIVE|-11735|
+b Azuremyst Isle|RANK|2|AVAILABLE|11735|N|Take the boat at the end of the dock to Azuremyst Isle. The npc's on the boat will not attack unless provoked.|M|52.31,89.45|Z|Teldrassil|
 A Desecrate this Fire!|RANK|2|QID|11735|M|44.62,52.74|Z|Azuremyst Isle|N|At the Alliance Bonfire. (Azuremyst Isle)|
-R Bloodmyst Isle|RANK|2|QID|11738|N|Ride north to Bloodmyst Isle|M|41.9,0.3|Z|Azuremyst Isle|ACTIVE|-11735|
+R Bloodmyst Isle|RANK|2|AVAILABLE|11738|N|Ride north to Bloodmyst Isle|M|41.9,0.3|Z|Azuremyst Isle|
 A Desecrate this Fire!|RANK|2|QID|11738|M|55.83,68.55|Z|Bloodmyst Isle|N|At the Alliance Bonfire. (Bloodmyst Isle)|
-R Azuremyst Isle|RANK|2|QID|9332|N|Ride back to Azuremyst Isle|M|65.0,95.5|Z|Bloodmyst Isle|ACTIVE|-11735|
+R Azuremyst Isle|RANK|2|AVAILABLE|9332|N|Ride back to Azuremyst Isle|M|65.0,95.5|Z|Bloodmyst Isle|
 R The Exodar|RANK|3|QID|9332|N|Head into the Exodar.|M|33.8,44.6|Z|Azuremyst Isle|ACTIVE|-11735|
 l Flame of the Exodar|RANK|3|QID|11933|L|35569|M|40,25|Z|The Exodar|N|Click on Exodar's Fire to loot the flame.|
 
@@ -164,9 +169,9 @@ T Playing with Fire|RANK|2|QID|11915|M|47.6,38.2|N|To the Master Flame Eater.|PR
 T Inform the Elder|RANK|2|QID|12012|M|47.6,38.2|N|To the Earthen Ring Elder.|
 
 A Striking Back|RANK|2|QID|11917;11947;11948;11952;11953;11954|M|47.6,38.2|N|From the Earthern Rint Elder. This is a daily ... if you need more flowers.|PRE|29092+12012|
-F Zoram'gar Strand|ACTIVE|11917|RANK|2|QID|11917|M|49.5,59.1|N|Fly to Zoram'gar Strand.|
-C Striking Back|ACTIVE|11917|RANK|2|QID|11917|M|9,12|Z|Ashenvale|N|Click on the Ice Stone to summon the Frostweave Lieutenant.|
-H Orgrimmar|ACTIVE|11917|RANK|2|QID|11917|N|Back to Orgimmar to continue thru the guide.|Z|Ashenvale|
+F Zoram'gar Strand|ACTIVE|11917|RANK|2|M|49.5,59.1|N|Fly to Zoram'gar Strand.|
+C Striking Back|ACTIVE|11917|RANK|2|M|9,12|Z|Ashenvale|N|Click on the Ice Stone to summon the Frostweave Lieutenant.|
+H Orgrimmar|ACTIVE|11917|RANK|2|N|Back to Orgimmar to continue thru the guide.|Z|Ashenvale|
 
 R Mount Hyjal|N|Click the portal to Mt Hyjal.|M|50.83,38.02|RANK|2|QID|29030|
 A Honor the Flame|RANK|2|QID|29030|M|62.83,22.72|Z|Mount Hyjal|N|From the Flame Guardian. (Nordrassil)|
@@ -185,7 +190,7 @@ A Desecrate this Fire!|RANK|2|QID|28915|M|49.47,51.18|Z|Stonetalon Mountains|N|A
 
 R Desolace|RANK|2|QID|11741|N|Ride south to Desolace.|M|35.5,80.5|Z|Stonetalon Mountains|
 A Desecrate this Fire!|RANK|2|QID|11741|M|65.92,16.96|Z|Desolace|N|At the Alliance Bonfire. (Desolace)|
-C Striking Back|ACTIVE|11947|RANK|2|QID|11947|M|40,30|Z|Desolace|N|On the road to the tower at Ethel Rethor, click on one of the ice stones to summon the Hailstone Lieutenant.|
+C Striking Back|ACTIVE|11947|RANK|2|M|40,30|Z|Desolace|N|On the road to the tower at Ethel Rethor, click on one of the ice stones to summon the Hailstone Lieutenant.|
 F Shadowprey Village|RANK|2|QID|11845|M|70.6,32.8|Z|Desolace|N|Fly from Thunk's abode to Shadowprey Village.|
 A Honor the Flame|RANK|2|QID|11845|M|26.14,76.91|Z|Desolace|N|From the Flame Keeper. (Desolace)|
 F Stonemaul Hold|RANK|2|QID|11746|M|21.56,74.11|Z|Desolace|
@@ -214,8 +219,8 @@ F Cenarion Hold|RANK|2|QID|11836|N|Fly to Cenarion Hold in Silithus|M|56.19,33.6
 A Honor the Flame|RANK|2|QID|11836|M|50.86,41.31|Z|Silithus|N|From the Flame Keeper. (Silithus)|
 A Desecrate this Fire!|RANK|2|QID|11760|M|60.59,33.10|Z|Silithus|N|At the Alliance Bonfire. (Silithus)|
 
-C Striking Back|ACTIVE|11953|RANK|2|QID|11953|M|67,21|Z|Silithus|N|In front of a cave in northern Silithus, click on one of the ice stones to summon the Glacial Lieutenant.|
-F Bloodhoof Village|ACTIVE|11953|RANK|2|QID|11953|N|Fly to Bloodhoof Village.|M|52.77,34.63|Z|Silithus|
+C Striking Back|ACTIVE|11953|RANK|2|M|67,21|Z|Silithus|N|In front of a cave in northern Silithus, click on one of the ice stones to summon the Glacial Lieutenant.|
+F Bloodhoof Village|ACTIVE|11953|RANK|2|N|Fly to Bloodhoof Village.|M|52.77,34.63|Z|Silithus|
 
 F Bloodhoof Village|RANK|2|QID|11852|LEAD|11953|N|Fly to Bloodhoof Village.|M|52.8,34.5|Z|Silithus|
 A Honor the Flame|RANK|2|QID|11852|M|51.82,59.26|Z|Mulgore|N|From the Flame Keeper. (Mulgore)|
@@ -300,14 +305,14 @@ R Darkshire|RANK|2|QID|11743|M|73.69,54.52|Z|Duskwood|N|Head to Darkshire.|
 A Desecrate this Fire!|RANK|2|QID|11743|M|73.26,55.06|Z|Duskwood|N|At the Alliance Bonfire. (Duskwood)|
 R Goldshire|RANK|2|QID|11745|M|43.47,62.63|Z|Elwynn Forest|N|Run to Goldshire in Elwynn Forest.|
 A Desecrate this Fire!|RANK|2|QID|11745|M|43.47,62.63|Z|Elwynn Forest|N|At the Alliance Bonfire. (Elwynn Forest)|
-N PLAN OF ATTACK - STORMWIND|RANK|3|QID|9330|N|Next, we're heading to Stormwind. The flame is located near the entrance to the stockades. You can either swim the canals or run along the paths to get there. Again, this is a pretty crowded area, and you may be corpse-hopping to get there. After you grab the flame, we're heading out of the city into the forest.|ACTIVE|-9330|
+N PLAN OF ATTACK - STORMWIND|RANK|3|ACTIVE|-9330|N|Next, we're heading to Stormwind. The flame is located near the entrance to the stockades. You can either swim the canals or run along the paths to get there. Again, this is a pretty crowded area, and you may be corpse-hopping to get there. After you grab the flame, we're heading out of the city into the forest.|
 l Flame of Stormwind|RANK|3|QID|9330|N|Fly higher than the guards and drop straight down for best chance of survival, then click on the fire to get the Flame.|M|49,72|Z|Stormwind City|L|23182|
 
 R Moonbrook|RANK|2|QID|11581|N|If you make it...otherwise just rez at the angel.|M|44.76,62.06|Z|Westfall|
 A Stealing Ironforge's Flame|N|Accept the quest from the Flame of Ironforge.|U|23183|RANK|3|QID|9331|Z|Ironforge|
 A Stealing Stormwind's Flame|RANK|3|QID|9330|N|Accept the quest from the Flame of Stormwind.|Z|Westfall|U|23182|
 A Desecrate this Fire!|RANK|2|QID|11581|M|45.10,62.56|Z|Westfall|N|At the Alliance Bonfire. (Westfall)|
-C Striking Back|ACTIVE|11948|RANK|2|QID|11948|M|21,23|Z|Northern Stranglethorn|N|On an island just North of Grom'gol, click on the ice stone to summon the Chillwind Lieutenant.|
+C Striking Back|ACTIVE|11948|RANK|2|M|21,23|Z|Northern Stranglethorn|N|On an island just North of Grom'gol, click on the ice stone to summon the Chillwind Lieutenant.|
 R Grom'gol Base Camp|RANK|2|QID|28924|M|40.59,50.94|Z|Northern Stranglethorn|N|Head over to Grom'gol Base Gamp.|
 
 A Honor the Flame|RANK|2|QID|28924|M|40.59,50.94|Z|Northern Stranglethorn|N|From the Flame Keeper. (Northern Stranglethorn)|
