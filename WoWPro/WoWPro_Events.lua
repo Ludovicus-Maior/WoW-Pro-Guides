@@ -735,16 +735,16 @@ WoWPro.RegisterEventHandler("QUEST_COMPLETE", function (event,...)
     end)
 
 WoWPro.RegisterEventHandler("QUEST_TURNED_IN", function (event,...)
-    local qlidx, qid = ...
-    WoWPro:dbp("%s(%s,%s)",event,qlidx,qid)
+    local qid, exp, money = ...
+    WoWPro:dbp("%s(qid=%d,exp=%d,money=%d)",event,qid, exp, money)
 	WoWPro.CompletingQuest = true
-	WoWProCharDB.completedQIDs[qlidx] = true
-	WoWPro:AutoCompleteQuestUpdate(nil)
+	WoWProCharDB.completedQIDs[qid] = true
+	WoWPro:AutoCompleteQuestUpdate(qid)
     end)
 
 WoWPro.RegisterEventHandler("QUEST_ACCEPTED", function (event,...)
     local qlidx, qid = ...
-    WoWPro:dbp("%s(%s,%s)",event,qlidx,qid)
+    WoWPro:dbp("%s(qidx=%d,qid=%d)",event,qlidx,qid)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     local questtitle = GetTitleText();
 	if WoWProCharDB.AutoTurnin == true and

@@ -1771,7 +1771,7 @@ function WoWPro.CompleteStep(step, why)
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
 	why = tostring(why)
-	WoWPro:dbp("WoWPro.CompleteStep(%d,%s[%s],'%s')",step, tostring(WoWPro.action[step]), tostring(WoWPro.step[step]), why)
+	WoWPro:print("WoWPro.CompleteStep(%d,%s[%s],'%s')",step, tostring(WoWPro.action[step]), tostring(WoWPro.step[step]), why)
 	WoWPro.why[step] = why
 	WoWProCharDB.Guide[GID].completion[step] = why
 	for i,row in ipairs(WoWPro.rows) do
@@ -1791,7 +1791,7 @@ function WoWPro.CompleteStep(step, why)
 	    local line = string.format("Action=%s|Step=%s|M0=%.2f,%.2f|M1=%.2f,%.2f|Error=%.2f|QID=%s|Vers=%s|Guide=%s",WoWPro.action[step],WoWPro.step[step],Delta[2],Delta[3],Delta[4],Delta[5],Delta[1],qid,WoWPro.Version,GID)
         WoWProDB.global.Deltas = WoWProDB.global.Deltas or {}
 	    table.insert(WoWProDB.global.Deltas, line)
-	    WoWPro:print(line)
+	    WoWPro:dbp(line)
 	end
 	if WoWPro.action[step] == "D" then
 	    local nGID = WoWPro.guide[step]
@@ -1977,9 +1977,14 @@ function WoWPro.PopulateQuestLog()
 	
 	-- Finding WoWPro.missingQuest --
 	for QID, questInfo in pairs(WoWPro.oldQuests) do
-		if not WoWPro.QuestLog[QID] then 
-			WoWPro.missingQuest = QID 
-			WoWPro:print("Missing Quest: %d [%s]",QID, tostring(WoWPro.oldQuests[QID].title))
+		if not WoWPro.QuestLog[QID] then
+		    if WoWPro:IsQuestFlaggedCompleted(QID) then
+                WoWPro.missingQuest = QID
+                WoWPro:print("Completed Quest: %d [%s]",QID, tostring(WoWPro.oldQuests[QID].title))
+		    else
+                WoWPro.missingQuest = QID
+                WoWPro:print("Missing Quest: %d [%s]",QID, tostring(WoWPro.oldQuests[QID].title))
+			end
 			delta = delta + 1
 		end
 	end
