@@ -265,6 +265,10 @@ end
 function WoWPro:SelectGuide(GID, quest, QID)
     if GID then
         WoWPro.QuestLogGuides = WoWPro.QuestLogGuides or {}
+        if WoWProDB.char.currentguide == GID then
+            -- If we are already in that guide, don't bother.
+            return
+        end
         if WoWPro.QuestLogGuides['locked'] then
             WoWPro:dbp("WoWPro:SelectGuide(%s,%s,%d) locked.",GID, quest, QID)
             return
