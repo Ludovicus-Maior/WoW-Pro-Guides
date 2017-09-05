@@ -1,3 +1,8 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide("LudoPetWQAntoran","Dailies","ArgusCore","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON",1715032)
@@ -13,7 +18,7 @@ WoWPro:GuideSteps(guide, function()
 /way 64.1 66.0 Pilfer
 /way 51.6 41.4 Watcher
 
- --]]
+--]]
 return
 [[
 N Legion Pet Battle World Quests|N|To use this guide, look on your world map for an active battle pet world quest and go there. When the quest pops up, the guide will load pets for the strategy chosen by the addon automatically. If the strategy can accommodate a leveling pet, it will also be auto-selected. If you want to level specific pets, name them "Leveling" or favorite them and the addon will choose from them if possible.|
@@ -28,7 +33,6 @@ C Bird2|QID|49054|STRATEGY|Janathema@WH|N|1) [ability=170/lift-off] to dodge [ab
 C Switch to Bird3|QID|49054|STRATEGY|Janathema@WH|N|1) Switch to Bird3|SELECT|2|SWITCH|3|
 C Bird3|QID|49054|STRATEGY|Janathema@WH|N|1) [ability=170/lift-off] to dodge [ability=1968/antaen-cannon]\n2) Spam [ability=202/thrash] till time to dodge [ability=1968/antaen-cannon]|SELECT|1|DEAD|2,1|
 
-
 ; Earseeker - Untested
 ! Earseeker|NPC|128021|QID|49055|
 ;A Earseeker|QID|49055|
@@ -38,7 +42,6 @@ C Switch to Bird2|QID|49054|STRATEGY|LudovicusArcaneSurge|N|1) Switch to Arcane2
 C Arcane2|QID|49054|STRATEGY|LudovicusArcaneSurge|N|1) [ability=589/arcane-storm]\n2) [ability=489/mana-surge]\n3)[ability=589/arcane-storm]|SELECT|2|DEAD|1,2|
 C Switch to Bird3|QID|49054|STRATEGY|LudovicusArcaneSurge|N|1) Switch to Arcane3|SELECT|2|SWITCH|3|
 C Arcane3|QID|49054|STRATEGY|LudovicusArcaneSurge|N|1) [ability=589/arcane-storm]\n2) [ability=489/mana-surge]\n3)[ability=589/arcane-storm]\n4) Use [ability=440/evanescence] to avoid [ability=1968/antaen-cannon]|SELECT|1|DEAD|2,1|
-
 
 ; Minixis - Tested (Brew-Pup)
 ! Minixis|NPC|128023|QID|49057|
@@ -65,8 +68,6 @@ C Bunny1|QID|49058|STRATEGY|LudovicusBunny|N|1) [ability=312/dodge]\n2) [ability
 C Switch to Bunny3|QID|49054|STRATEGY|LudovicusBunny|N|1) Switch to Bunny3|SELECT|1|SWITCH|3|
 C Bunny3|QID|49058|STRATEGY|LudovicusBunny|N|1) [ability=312/dodge]\n2) [ability=163/stampede]\n3) Spam [ability=119/scratch]\n3) Use [ability=312/dodge] to avoid [ability=1968/antaen-cannon]|SELECT|3|DEAD|2,1|
 
-
-
 ; Pilfer - Tested
 ! Pilfer|NPC|128022|QID|49056|
 ;A Pilfer|QID|49056|
@@ -83,7 +84,6 @@ C Mechanical Melee|QID|49053|PET1|Iron Starlette;77221;1+1+2;H>1500|PET2|Mechani
 C Starlette|QID|49053|STRATEGY|XuFu_Watcher|N|1) [ability=459/wind-up]\n2) [ability=459/wind-up]\n3) [ability=282/explode]\n4) Switch to Dragonling|SELECT|1|SWITCH|2|
 C Dragonling|QID|49053|STRATEGY|XuFu_Watcher|N|1) [ability=115/breath]\n2) [ability=115/breath]\n3) [ability=282/explode]\n4) Switch to last Mechanical|SELECT|2|SWITCH|3|
 C Mechanical|QID|49053|STRATEGY|XuFu_Watcher|N|1) Do whatever for the last bit|SELECT|3|DEAD|2,1|
-
 
 ]]
 end)

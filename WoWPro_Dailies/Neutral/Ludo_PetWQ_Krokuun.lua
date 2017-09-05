@@ -1,3 +1,8 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide("LudoPetWQKrokuun","Dailies","ArgusSurface","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON",1715032)
@@ -20,7 +25,6 @@ C Arcane2|QID|49045|STRATEGY|LudovicusArcaneSurge|N|1) [ability=589/arcane-storm
 C Switch to Bird3|QID|49045|STRATEGY|LudovicusArcaneSurge|N|1) Switch to Arcane3|SELECT|2|SWITCH|3|
 C Arcane3|QID|49045|STRATEGY|LudovicusArcaneSurge|N|1) [ability=589/arcane-storm]\n2) [ability=489/mana-surge]\n3)[ability=589/arcane-storm]|SELECT|1|DEAD|2,1|
 
-
 ; Foulclaw - Untested
 ! Foulclaw|NPC|128008|QID|49042|
 ;A Foulclaw|QID|49042|
@@ -28,7 +32,6 @@ C Mechanical Melee|QID|49042|PET1|Iron Starlette;77221;1+1+2;H>1500|PET2|Mechani
 C Starlette|QID|49042|STRATEGY|Chidsuey_WH|N|1) [ability=459/wind-up]\n2) [ability=459/wind-up]\n3) [ability=282/explode]\n4) Switch to Dragonling|SELECT|1|SWITCH|2|
 C Dragonling|QID|49042|STRATEGY|Chidsuey_WH|N|1) [ability=115/breath]\n2) [ability=334/decoy]\n3) [ability=282/explode]\n4) Switch to last Mechanical|SELECT|2|SWITCH|3|
 C Mechanical|QID|49042|STRATEGY|Chidsuey_WH|N|1) Pass\n2) [ability=209/ion-cannon]|SELECT|3|DEAD|2,1|
-
 
 ; Gnasher - Untested
 ! Gnasher|NPC|128012|QID|49046|

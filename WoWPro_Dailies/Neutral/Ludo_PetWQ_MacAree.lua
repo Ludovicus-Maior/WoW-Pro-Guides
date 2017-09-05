@@ -1,3 +1,8 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide("LudoPetWQMacAree","Dailies","ArgusMacAree","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON",1715032)
@@ -9,7 +14,6 @@ WoWPro:GuideSteps(guide, function()
 return
 [[
 N Legion Pet Battle World Quests|N|To use this guide, look on your world map for an active battle pet world quest and go there. When the quest pops up, the guide will load pets for the strategy chosen by the addon automatically. If the strategy can accommodate a leveling pet, it will also be auto-selected. If you want to level specific pets, name them "Leveling" or favorite them and the addon will choose from them if possible.|
-
 
 ; Corrupted Blood of Argus - Untested
 ! Corrupted Blood of Argus|NPC|128007|QID|49051|
@@ -29,7 +33,6 @@ C Whelpling1|QID|49049|STRATEGY|LudovicusGloamwing|N|1) [ability=589/arcane-stor
 C Whelpling2|QID|49049|STRATEGY|LudovicusGloamwing|N|1) [ability=489/mana-surge]\n2) Emmigosa will be swapped in.\nRight Click to proceed.|
 C Emmigosa|QID|49049|STRATEGY|LudovicusGloamwing|N|1) [ability=593/surge-of-power] for the win.|DEAD|2,1|
 
-
 ; Mar'cuus - Untested
 ! Mar'cuus|NPC|128018|QID|49052|
 ;A Mar'cuus|QID|49052|
@@ -38,7 +41,6 @@ C Random|QID|49051|STRATEGY|wow-petguide-Marcuus|N|0) Select your abilities befo
 C Val'kyr|QID|49051|STRATEGY|wow-petguide-Marcuus|N|1) [ability=217/curse-of-doom]\n2) [ability=210/shadow-slash]\n3) [ability=210/shadow-slash]\n4) Ikky is forced in.|SELECT|2|SWITCH|3|
 C Ikky|QID|49051|STRATEGY|wow-petguide-Marcuus|N|1) [ability=918/black-claw]\n2) [ability=581/flock]|SELECT|3|SWITCH|1|
 C Random|QID|49051|STRATEGY|wow-petguide-Marcuus|N|1) Go for the kill|SELECT|1|DEAD|2,1|
-
 
 ; Shadeflicker - Untested
 ! Shadeflicker|NPC|128016|QID|49050|
@@ -49,8 +51,8 @@ C Val'kyr|QID|49051|STRATEGY|wow-petguide-Shadeflicker|N|1) [ability=210/shadow-
 C Ikky|QID|49051|STRATEGY|wow-petguide-Shadeflicker|N|1) [ability=918/black-claw]\n2) [ability=581/flock]\n3) Val'kyr is forced in.|SELECT|3|SWITCH|2|
 C Val'kyr|QID|49051|STRATEGY|wow-petguide-Shadeflicker|N|1) [ability=210/shadow-slash] for the win|SELECT|2|DEAD|2,1|
 
-; The following were mentioned on https://en.wow-petguide.com/index.php?Strategy=1295
-; and not on http://www.wowhead.com/macaree-quests/type:115
+; The following were mentioned onhttps://en.wow-petguide.com/index.php?Strategy=1295
+; and not onhttp://www.wowhead.com/macaree-quests/type:115
 
 ; Bucky  - Untested
 ! Bucky|NPC|128013|QID|49047|
