@@ -42,7 +42,7 @@ function WoWPro.TakeTaxi_OldStyle(index,destination)
         local nomen = TaxiNodeName(i)
         local location,zone = string.split(",",nomen)
         -- We do a loose match and ignore Blizzards faction suffixes
-        if strfind(location, destination,1,true) then
+        if strfind(location, destination,1,true) or (nomen == destination) then
             WoWPro:Print("Taking flight to: [%s]",location)
             if IsMounted() then
                 Dismount()
@@ -61,7 +61,7 @@ function WoWPro.TakeTaxi_NewStyle(index,destination)
     for i, taxiNodeData in ipairs(taxiNodes) do
         -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
         local location,zone = string.split(",", taxiNodeData.name)
-        if strfind(location, destination,1,true) then
+        if strfind(location, destination,1,true) or (taxiNodeData.name == destination) then
             WoWPro:Print("Taking flight to: [%s]",location)
             if IsMounted() then
                 Dismount()
