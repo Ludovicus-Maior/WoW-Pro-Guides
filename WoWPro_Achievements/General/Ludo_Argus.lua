@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2017-09-06 02:05
+-- Who: Ludovicus
+-- Log: Corrections for week two in live realm.
+
+-- URL: http://wow-pro.com/node/3741/revisions/28777/view
 -- Date: 2017-09-04 16:49
 -- Who: Ludovicus
 -- Log: Tag Edits.
@@ -209,16 +214,19 @@ C Scouting Map|QID|48441|M|69.56,54.30|Z|Lower Deck@ArgusSurface|N|Head back to 
 t Remnants of Darkfall Ridge|QID|48441|M|56.58,67.57|N|To Chieftain Hatuun.|
 
 ; DARK AWAKENINGS
-A The Speaker Calls|QID|47889|PRE|48929|M|75.89,37.52|Z|ArgusCore|N|From High Exarch Turalyon.|
-F Krokuun|QID|47889|N|Use to console to go to Krokuun.|
+A The Speaker Calls|QID|47889|PRE|48929|M|39.01,24.77|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon.\n(Week 2)|
+F Krokul Hovel|ACTIVE|47889|N|Use to console to go to Krokul.|
 T The Speaker Calls|QID|47889|M|56.76,67.49|NC|N|To Magni Bronzebeard.|
 A Visions of Torment|QID|47890|PRE|47889|M|56.76,67.49|N|From Magni Bronzebeard.|
 C Visions of Torment|QID|47890|M|56.98,65.74|QO|1|NC|N|Join Magni by the Sacred Stone|
 C Visions of Torment|QID|47890|M|57.08,65.59|QO|2|NC|N|Click on the stone to witness the Vision.|
 T Visions of Torment|QID|47890|M|56.98,65.66|N|To Magni Bronzebeard.|
 A Dire News|QID|47891|PRE|47890|M|56.98,65.66|N|From Magni Bronzebeard.|
-T Dire News|QID|47891|M|61.66,86.91|N|To High Exarch Turalyon.|
-A Storming the Citadel|QID|47892|PRE|47891|M|61.66,86.91|N|From High Exarch Turalyon.|
+F Vindicaar, Krokuun|ACTIVE|47891|M|55.49,67.33|N|Take the portal to the Vindicaar.|
+T Dire News|QID|47891|M|39.01,24.77|Z|Upper Deck@ArgusSurface|N|To High Exarch Turalyon.|
+A Storming the Citadel|QID|47892|PRE|47891|M|39.01,24.77|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon.|
+F Krokul Hovel|ACTIVE|47892|N|Use to console to go to Krokul.|
+R Destiny Point|ACTIVE|47892|M|59.02,68.14;59.96,61.92;60.40,54.18;61.42,49.27|CS|N|Mount up and ride to Destiny Point|
 C Storming the Citadel|QID|47892|M|62.69,49.13|QO|1|N|Lightforged Beacon called|
 T Storming the Citadel|QID|47892|M|60.83,47.25|N|To High Exarch Turalyon.|
 A Preventive Measures|QID|47987|PRE|47892|M|61.04,47.79|N|From Prophet Velen.|
@@ -256,23 +264,26 @@ T Dawn of Justice|QID|47992|M|52.59,24.73|N|To UI|
 A Lord of the Spire|QID|47993|PRE|47992|M|52.59,24.73|N|From UI|
 K Lord Nath'raxas|ACTIVE|47993|M|44.33,7.00|QO|1|N|Kill Lord Nath'raxas|T|Lord Nath'raxas|
 C Lord of the Spire|QID|47993|M|50.53,17.64|QO|2|N|Rejoin your forces, outside the spire for a cutscene.|
-T Lord of the Spire|QID|47993|M|61.66,86.91|N|To High Exarch Turalyon.|
-A A Floating Ruin|QID|48081|PRE|47993|M|61.77,86.82|N|From Prophet Velen.|
-C A Floating Ruin|QID|48081|M|49.28,24.85|Z|Upper Deck@ArgusMacAree|QO|1|N|Use the Navigation Console to go to Mac'Aree|
+T Lord of the Spire|QID|47993|M|39.01,24.77|Z|Upper Deck@ArgusSurface|N|To High Exarch Turalyon.|
+A Forming a Bond|QID|47994|PRE|47993|M|43.43,23.21|Z|Upper Deck@ArgusSurface|N|From Grand Artificer Romuul.|
+T Forming a Bond|QID|47994|M|43.43,23.21|Z|Upper Deck@ArgusSurface|N|To Grand Artificer Romuul.|
+; The following quest depends on 47994, which never is flagged as completed.
+A A Floating Ruin|QID|48081|PRE|47993|M|40.25,23.49|Z|Upper Deck@ArgusSurface|N|From Prophet Velen.|
+F Vindicaar, Mac'Aree|QID|48081|M|49.28,24.85|Z|Upper Deck@ArgusMacAree|QO|1|N|Use the Navigation Console to go to Mac'Aree|
 T A Floating Ruin|QID|48081|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
 A Mac'Aree, Jewel of Argus|QID|46815|PRE|48081|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
-C Mac'Aree, Jewel of Argus|QID|46815|M|55.38,82.13|Z|ArgusMacAree|QO|1|CHAT|N|Talk to Romuul|
+C Mac'Aree, Jewel of Argus|QID|46815|M|49.63,23.70|Z|Upper Deck@ArgusMacAree|QO|1|CHAT|N|Talk to Romuul|
 C Mac'Aree, Jewel of Argus|QID|46815|M|55.38,82.13|Z|ArgusMacAree|QO|2|CHAT|N|Talk to Velen|
 C Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.87|Z|ArgusMacAree|QO|3|CHAT|N|Follow Velen|
 T Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.92|Z|ArgusMacAree|N|To Prophet Velen.|
 A Defenseless and Afraid|QID|46818|PRE|46815|M|54.50,77.92|Z|ArgusMacAree|N|From Prophet Velen.|
 A Khazaduum, First of His Name|QID|46834|PRE|46815|M|54.50,77.92|Z|ArgusMacAree|N|From Prophet Velen.|
-C Defenseless and Afraid|QID|46818|M|54.22,73.45|Z|ArgusMacAree|QO|1|U|152408|N|Ancient Pylons activated|
-C Khazaduum, First of His Name|QID|46834|M|52.86,66.74|Z|ArgusMacAree|QO|1|N|Argunite Keystone|
+C Defenseless and Afraid|QID|46818|M|54.22,73.45|Z|ArgusMacAree|QO|1|U|152408|N|Activate each Ancient Pylons using 3 Pylon Cores, looted from killing ghosts.|
+K Echo of Khazaduum|ACTIVE|46834|M|52.86,66.74|Z|ArgusMacAree|QO|1|N|Kill Khazaduum for the Argunite Keystone|
 T Khazaduum, First of His Name|QID|46834|M|54.50,77.91|Z|ArgusMacAree|N|To Prophet Velen.|
 T Defenseless and Afraid|QID|46818|M|54.50,77.91|Z|ArgusMacAree|N|To Prophet Velen.|
 A Consecrating Ground|QID|47066|PRE|46834;46818|M|54.50,77.91|Z|ArgusMacAree|N|From Prophet Velen.|
-C Consecrating Ground|QID|47066|M|52.80,80.24|Z|ArgusMacAree|QO|1|N|Argunite Matrix restored|
+C Consecrating Ground|QID|47066|M|52.80,80.24|Z|ArgusMacAree|QO|1|N|Argunite Matrix restored, in a undergound bunker.|
 T Consecrating Ground|QID|47066|M|52.86,75.87|Z|ArgusMacAree|N|To Prophet Velen.|
 A The Path Forward|QID|46941|PRE|47066|M|52.86,75.87|Z|ArgusMacAree|N|From Prophet Velen.|
 C The Path Forward|QID|46941|M|52.86,75.50|Z|ArgusMacAree|QO|1|NC|N|Call Down a Lightforged Beacon|
@@ -282,14 +293,14 @@ T Not-So-Humble Beginnings|QID|47686|M|59.70,50.51|Z|ArgusMacAree|N|To Archmage 
 A Invasive Species|QID|47688|PRE|47686|M|59.70,50.51|Z|ArgusMacAree|N|From Archmage Y'mera.|
 A Conservation of Magic|QID|47882|PRE|47686|M|59.70,50.51|Z|ArgusMacAree|N|From Archmage Y'mera.|
 C Conservation of Magic|QID|47882|M|67.09,51.21|Z|ArgusMacAree|QO|1|U|151624|N|Stabilize Power Conduits|S|
-C Invasive Species|QID|47688|M|65.96,54.07|Z|ArgusMacAree|QO|1|N|Kill Panthara for the partially Digested Arcana|T|Panthara|S|
+C Invasive Species|QID|47688|M|65.96,54.07|Z|ArgusMacAree|QO|1|N|Kill Panthara for the partially Digested Arcana|T|Manafeeder|S|
 C Conservation of Magic|QID|47882|M|67.09,51.21|Z|ArgusMacAree|QO|1|U|151624|N|Stabilize Power Conduits|US|
-C Invasive Species|QID|47688|M|65.96,54.07|Z|ArgusMacAree|QO|1|N|Kill Panthara for the partially Digested Arcana|T|Panthara|US|
+C Invasive Species|QID|47688|M|65.96,54.07|Z|ArgusMacAree|QO|1|N|Kill Panthara for the partially Digested Arcana|T|Manafeeder|US|
 T Conservation of Magic|QID|47882|M|59.71,50.49|Z|ArgusMacAree|N|To Archmage Y'mera.|
 T Invasive Species|QID|47688|M|59.71,50.49|Z|ArgusMacAree|N|To Archmage Y'mera.|
 A The Longest Vigil|QID|47883|PRE|47882;47688|M|59.71,50.49|Z|ArgusMacAree|N|From Archmage Y'mera.|
 C The Longest Vigil|QID|47883|M|59.92,50.40|Z|ArgusMacAree|QO|1|NC|N|Wake the Gatekeeper|
-C The Longest Vigil|QID|47883|M|59.92,50.40|Z|ArgusMacAree|QO|2|NC|N|Speak to Vigilant Quoram|
+C The Longest Vigil|QID|47883|M|59.92,50.40|Z|ArgusMacAree|QO|2|CHAT|N|Speak to Vigilant Quoram|
 T The Longest Vigil|QID|47883|M|60.00,50.50|Z|ArgusMacAree|N|To Vigilant Quoram.|
 A Gatekeeper's Challenge: Tenacity|QID|47689|PRE|47883|M|60.00,50.50|Z|ArgusMacAree|N|From Vigilant Quoram.|
 A Gatekeeper's Challenge: Cunning|QID|47685|PRE|47883|M|60.00,50.50|Z|ArgusMacAree|N|From Vigilant Quoram.|
@@ -307,17 +318,17 @@ T Gatekeeper's Challenge: Mastery|QID|47687|M|60.00,50.49|Z|ArgusMacAree|N|To Vi
 T Gatekeeper's Challenge: Cunning|QID|47685|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
 T Gatekeeper's Challenge: Tenacity|QID|47689|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
 A The Defiler's Legacy|QID|47690|PRE|47685;47687;47689|M|60.00,50.49|Z|ArgusMacAree|N|From Vigilant Quoram.|
-K Archimonde|QID|47690|M|68.92,33.08|Z|ArgusMacAree|QO|1|N|Kill Archimonde|T|Archimonde|
+K Archimonde|ACTIVE|47690|M|68.92,33.08|Z|ArgusMacAree|QO|1|N|Kill Archimonde|T|Archimonde|
 C The Defiler's Legacy|QID|47690|M|68.18,33.53|Z|ArgusMacAree|QO|2|N|Loot the Sigil of Awakening|
 T The Defiler's Legacy|QID|47690|M|63.28,39.72|Z|ArgusMacAree|N|To Archmage Y'mera.|
 A The Sigil of Awakening|QID|48107|PRE|47690|M|63.28,39.72|Z|ArgusMacAree|N|From Archmage Y'mera.|
-F Vindicaar|QID|48107|M|52.60,93.05|Z|ArgusMacAree|QO|1|N|Use the portal to return to the Vindicaar|
+F Vindicaar, Mac'Aree|QID|48107|M|62.99,39.48|Z|ArgusMacAree|QO|1|N|Use the portal to return to the Vindicaar|
 C The Sigil of Awakening|QID|48107|M|52.18,90.43|Z|ArgusMacAree|QO|2|N|Place the Sigil of Awakening on the matching alcove in front of Velen.|
 T The Sigil of Awakening|QID|48107|M|52.08,89.83|Z|ArgusMacAree|N|To Prophet Velen.|
 
 ; WAR OF LIGHT AND SHADOW
 ; We Have a Problem
-A We Have a Problem|QID|48344|M|62.12,86.73|N|From High Exarch Turalyon.|
+A We Have a Problem|QID|48344|M|62.12,86.73|N|From High Exarch Turalyon.\n(Week 3)|
 F Conservatory of the Arcane|ACTIVE|48344|N|Use the Navigation console to go to the Conservatory.|
 T We Have a Problem|QID|48344|M|62.64,39.41|Z|ArgusMacAree|N|To High Exarch Turalyon.|
 A Wrath of the High Exarch|QID|47854|PRE|48344|M|62.64,39.41|Z|ArgusMacAree|N|From High Exarch Turalyon.|
@@ -399,7 +410,7 @@ T Sources of Darkness|QID|47217|M|31.88,37.45|Z|ArgusMacAree|N|To Alleria Windru
 T The Shadowguard Incursion|QID|47218|M|31.93,37.34|Z|ArgusMacAree|N|To Locus-Walker.|
 A A Vessel Made Ready|QID|47219|PRE|47217;47218|M|31.93,37.34|Z|ArgusMacAree|N|From Locus-Walker.|
 C A Vessel Made Ready|QID|47219|M|28.29,44.95|Z|ArgusMacAree|QO|1|NC|N|Enter the Void Tear|
-K A Nhal'athoth|QID|47219|M|26.62,45.21|Z|ArgusMacAree|QO|2|N|Defeat Nhal'athoth|
+K A Nhal'athoth|ACTIVE|47219|M|26.62,45.21|Z|ArgusMacAree|QO|2|N|Defeat Nhal'athoth|
 C A Vessel Made Ready|QID|47219|M|26.62,45.21|Z|ArgusMacAree|QO|3|NC|N|Loot the Heart of Nhal'athoth|
 T A Vessel Made Ready|QID|47219|M|28.45,47.19|Z|ArgusMacAree|N|To Alleria Windrunner.|
 A A Beacon in the Dark|QID|47220|PRE|47219|M|28.44,47.21|Z|ArgusMacAree|N|From Alleria Windrunner.|
