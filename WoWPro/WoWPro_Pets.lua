@@ -127,7 +127,11 @@ function WoWPro.GetPetByNameOrID(name, id, limits, pet1, pet2)
         -- companionID=36871, Source="Promotion...",
         local ok = false 
         local petID, speciesID, isOwned, customName, level, favorite, isRevoked, speciesName, icon, petType, companionID, tooltip, description, isWild, canBattle, isTradeable, isUnique, obtainable = C_PetJournal.GetPetInfoByIndex(i);
-        if (companionID == id) or (speciesName == name) then
+        if (companionID == id) or (speciesName == name) or (id == nil) or (name == "") then
+            if ((id == nil) or (name == "")) and (82464 == companionID) then
+                -- No Elekk Plushie on wildcard slotting
+                canBattle = false
+            end
             if isOwned and canBattle then
                 if limits then
                     if WoWPro.PetMeetsLimits(petID, limits) then
@@ -421,7 +425,7 @@ function WoWPro.PetLoadAndPick(slot, name, id, pick, limits, pet1, pet2)
             limits = "L>0"
         end
         pets = WoWPro.GetLevelingPet(limits, pet1, pet2, 25)
-    elseif (pick[0] > 2) or name == "" then
+    elseif (pick[0] > 2) then
         -- OK a pick spec overrides a Name/ID spec
         pets = WoWPro.GetPetByAbilities(pick, limits, pet1, pet2)
     else
@@ -445,13 +449,13 @@ end
 function WoWPro.PetLoadBySpec(slot, spec, pet1, pet2)
     -- |Iron Starlette;77221;1+1+1|
     local name,id,pick_spec,limits  = string.split(";",spec)
-    local pick = { string.split("+",pick_spec) }
+    local pick = { string.split("+",(pick_spec or "")) }
     pick[0] = -1
     for i = 1,3 do
         pick[i] = tonumber(pick[i]) or 0
         pick[0] = math.max(pick[0], pick[i])
     end
-    return WoWPro.PetLoadAndPick(slot, name, tonumber(id) , pick, limits or "", pet1, pet2)
+    return WoWPro.PetLoadAndPick(slot, name, tonumber(id) , pick, limits, pet1, pet2)
 end
 
 function WoWPro.PetSelectStep(k)
