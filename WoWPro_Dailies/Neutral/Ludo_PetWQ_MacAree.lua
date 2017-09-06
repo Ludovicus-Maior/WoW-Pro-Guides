@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3745
+-- Date: 2017-09-06 22:30
+-- Who: Ludovicus
+-- Log: Fixed Bucky STRATEGY tags.
+
+-- URL: http://wow-pro.com/node/3745/revisions/28782/view
+-- Date: 2017-09-05 23:02
+-- Who: Ludovicus
+-- Log: Initial Cut
+
 local guide = WoWPro:RegisterGuide("LudoPetWQMacAree","Dailies","ArgusMacAree","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON",1715032)

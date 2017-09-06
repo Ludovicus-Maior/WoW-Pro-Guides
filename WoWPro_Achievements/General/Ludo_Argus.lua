@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2017-09-06 22:27
+-- Who: Ludovicus
+-- Log: Added R step to the Praetorium
+
+-- URL: http://wow-pro.com/node/3741/revisions/28784/view
 -- Date: 2017-09-06 02:05
 -- Who: Ludovicus
 -- Log: Corrections for week two in live realm.
@@ -317,7 +322,8 @@ C Gatekeeper's Challenge: Tenacity|QID|47689|M|70.91,49.99|Z|ArgusMacAree|QO|2|N
 T Gatekeeper's Challenge: Mastery|QID|47687|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
 T Gatekeeper's Challenge: Cunning|QID|47685|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
 T Gatekeeper's Challenge: Tenacity|QID|47689|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
-A The Defiler's Legacy|QID|47690|PRE|47685;47687;47689|M|60.00,50.49|Z|ArgusMacAree|N|From Vigilant Quoram.|
+A The Defiler's Legacy|QID|47690|PRE|47685;47687;47689|M|60.00,50.49|Z|ArgusMacAree|N|From Vigilant Quoram, next to Archmage Y'mera at the entrance.|
+R Praetorium|ACTIVE|47690|M|65.98,44.42;66.45,41.38;66.45,41.38;67.11,37.32|Z|ArgusMacAree|CS|N|Mount up and head to the Praetorium.|
 K Archimonde|ACTIVE|47690|M|68.92,33.08|Z|ArgusMacAree|QO|1|N|Kill Archimonde|T|Archimonde|
 C The Defiler's Legacy|QID|47690|M|68.18,33.53|Z|ArgusMacAree|QO|2|N|Loot the Sigil of Awakening|
 T The Defiler's Legacy|QID|47690|M|63.28,39.72|Z|ArgusMacAree|N|To Archmage Y'mera.|
