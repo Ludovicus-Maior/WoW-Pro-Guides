@@ -61,17 +61,19 @@ C Val'kyr|QID|49051|STRATEGY|wow-petguide-Shadeflicker|N|1) [ability=210/shadow-
 C Ikky|QID|49051|STRATEGY|wow-petguide-Shadeflicker|N|1) [ability=918/black-claw]\n2) [ability=581/flock]\n3) Val'kyr is forced in.|SELECT|3|SWITCH|2|
 C Val'kyr|QID|49051|STRATEGY|wow-petguide-Shadeflicker|N|1) [ability=210/shadow-slash] for the win|SELECT|2|DEAD|2,1|
 
-; The following were mentioned onhttps://en.wow-petguide.com/index.php?Strategy=1295
-; and not onhttp://www.wowhead.com/macaree-quests/type:115
+; The following were mentioned on
+;https://en.wow-petguide.com/index.php?Strategy=1295
+; and not on
+;http://www.wowhead.com/macaree-quests/type:115
 
 ; Bucky  - Untested
 ! Bucky|NPC|128013|QID|49047|
 ;A Bucky|QID|49047|
 C Wow-Petguide.com|QID|49047|PET1|;|PET2|Chrominius;68662;1+1+2|PET3|Ikky;86447;1+1+1|STRATEGY|wow-petguide-Bucky|
-C Random|QID|49047|STRATEGY|wow-petguide-Marcuus|N|0) Select your abilities before battle, if you can.\n1) Whatever\n2) Chrominius is forced in.|SELECT|1|SWITCH|2|
-C Chrominius|QID|49047|STRATEGY|wow-petguide-Marcuus|N|1) [ability=362/howl]\n2) [ability=593/surge-of-power]\n3) Switch to Ikky|SELECT|2|SWITCH|3|
-C Ikky|QID|49047|STRATEGY|wow-petguide-Marcuus|N|1) [ability=918/black-claw]\n2) [ability=581/flock]\n3) Switch to Random.|SELECT|3|SWITCH|1|
-C Random|QID|49047|STRATEGY|wow-petguide-Marcuus|N|1) Go for the kill|SELECT|1|DEAD|2,1|
+C Random|QID|49047|STRATEGY|wow-petguide-Bucky|N|0) Select your abilities before battle, if you can.\n1) Whatever\n2) Chrominius is forced in.|SELECT|1|SWITCH|2|
+C Chrominius|QID|49047|STRATEGY|wow-petguide-Bucky|N|1) [ability=362/howl]\n2) [ability=593/surge-of-power]\n3) Switch to Ikky|SELECT|2|SWITCH|3|
+C Ikky|QID|49047|STRATEGY|wow-petguide-Bucky|N|1) [ability=918/black-claw]\n2) [ability=581/flock]\n3) Switch to Random.|SELECT|3|SWITCH|1|
+C Random|QID|49047|STRATEGY|wow-petguide-Bucky|N|1) Go for the kill|SELECT|1|DEAD|2,1|
 
 ; Snozz  - Untested
 ! Snozz|NPC|128014|QID|49048|
