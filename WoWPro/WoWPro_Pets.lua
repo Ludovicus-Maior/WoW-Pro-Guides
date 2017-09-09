@@ -28,7 +28,7 @@ WoWPro.PetFamilyMap = {}
 local function RegisterPDM(pet_basic, pet_type, pet_strong, pet_weak)
     WoWPro.PetDamageMap[pet_basic*20+pet_strong] = 1.5
     WoWPro.PetDamageMap[pet_basic*20+pet_weak] = 0.66
-    WoWPro.PetFamilyMap[pet_type] = pet_basic
+    WoWPro.PetFamilyMap[string.upper(pet_type)] = pet_basic
 end
 RegisterPDM(9,"Aquatic",7,6)
 RegisterPDM(8,"Beast",5,3)
@@ -73,7 +73,7 @@ function WoWPro.PetMeetsLimit(petID, limit)
 --                WoWPro:dbp("PetMeetslimit: Modified health from %g to %g enemy %s, pet %d",min_health,min_health*factor,string.sub(limit, -1, -1), petType)
                 min_health = min_health * factor
             else
-                WoWPro:dbp("WoWPro.PetMeetsLimit: Bad limit string [%s]", limit)
+                WoWPro:Error("WoWPro.PetMeetsLimit: Bad limit string [%s]", limit)
                 return false
             end
         end
@@ -88,11 +88,19 @@ function WoWPro.PetMeetsLimit(petID, limit)
         local min_injury = tonumber(string.sub(limit, 3, -1))
         return min_injury > (maxHealth - health)
     elseif limit_type == "F=" then
-        local family_key = string.sub(limit, 3, 1)
+        local family_key = string.sub(limit, 3, -1)
+        if not WoWPro.PetFamilyMap[family_key] then
+                WoWPro:Error("WoWPro.PetMeetsLimit: Bad limit string [%s]", limit)
+                return false
+        end
         local family_id = WoWPro.PetFamilyMap[family_key]
         return petType == family_id
     elseif limit_type == "F~" then
-        local family_key = string.sub(limit, 3, 1)
+        local family_key = string.sub(limit, 3, -1)
+        if not WoWPro.PetFamilyMap[family_key] then
+                WoWPro:Error("WoWPro.PetMeetsLimit: Bad limit string [%s]", limit)
+                return false
+        end
         local family_id = WoWPro.PetFamilyMap[family_key]
         return petType ~= family_id
     end
