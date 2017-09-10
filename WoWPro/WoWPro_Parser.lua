@@ -555,7 +555,8 @@ function WoWPro.RecordStuff(i)
     			WoWProDB.global.NpcFauxQuests[NPC] = {qid = tonumber(QIDs), title = WoWPro.step[i]}
 --    			WoWPro:Print("Recorded NPC %d => QID %s",NPC, QIDs)
     		end
-    	end        
+        end
+        WoWProCharDB.Guide[GID].completion[i] = true
     else
         -- Regular quest declaration
         local numQIDs = select("#", string.split(";", QIDs))
@@ -570,7 +571,9 @@ function WoWPro.RecordStuff(i)
             end
         end
     end
-
+    if WoWPro.action[i] == ";" then
+        WoWProCharDB.Guide[GID].completion[i] = true
+    end
 end
 
 function WoWPro.SemiMatch(big,little)
@@ -827,7 +830,7 @@ function WoWPro.SetupGuideReal()
 				qid = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(qid)
 			end
- 
+
             if QID then
     		    -- Turned in quests --
     			if WoWPro:IsQuestFlaggedCompleted(qid,true) then
