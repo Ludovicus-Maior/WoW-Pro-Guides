@@ -343,7 +343,8 @@ function WoWPro:OnInitialize()
 	end
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
-	WoWProCharDB.Guide2QIDs = WoWProCharDB.Guide2QIDs or {}
+	WoWProCharDB.GuideVersion = WoWProCharDB.GuideVersion or {}
+	WoWProCharDB.Guide2QIDs = nil -- wipe it.
     WoWProCharDB.QID2Guide = WoWProCharDB.QID2Guide or {}
     WoWProDB.global.QID2Guide = nil
     WoWProDB.global.Guide2QIDs = nil
@@ -743,16 +744,12 @@ function WoWPro:GuideAutoSwitch(guide)
         return
     end
     guide['AutoSwitch'] = true
-    WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs or {}
-    if not WoWProDB.global.Guide2QIDs[guide.GID] or WoWPro.Version ~= WoWProDB.global.Guide2QIDs[guide.GID]  then
-        WoWPro.Guides2Register = WoWPro.Guides2Register or {}
-        table.insert(WoWPro.Guides2Register, guide.GID)
-        WoWPro:dbp("Add %s to Guides2Register.", guide.GID)
-    end 
+    WoWPro.Guides2Register = WoWPro.Guides2Register or {}
+    table.insert(WoWPro.Guides2Register, guide.GID)
 end
 
 function WoWPro.GuideAutoSwitchReset()
-    WoWProCharDB.Guide2QIDs = {}
+    WoWProCharDB.GuideVersion = {}
     WoWProCharDB.QID2Guide ={}
 end
 

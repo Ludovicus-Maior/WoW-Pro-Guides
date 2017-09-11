@@ -219,6 +219,7 @@ end
 
 function WoWPro.LoadGuideReal()
     local GID = WoWProDB.char.currentguide
+    WoWPro:dbp("LoadGuideReal(%s)",tostring(GID))
     -- If currently in startup lockdown, punt
     if WoWPro.LockdownTimer ~= nil then
         WoWPro:dbp("Suppresssed guide load:  In lockdown.")
@@ -230,21 +231,37 @@ function WoWPro.LoadGuideReal()
     if WoWPro.Guides2Register then
         -- Save the original guide to load
         WoWPro.PuntedGuide = WoWPro.PuntedGuide or GID
-        -- pop off the next guide to load
-        GID = table.remove(WoWPro.Guides2Register)
-        while GID and not WoWPro.Guides[GID] do
+        -- pop off the next guide to maybe load
+        repeat
             GID = table.remove(WoWPro.Guides2Register)
-        end
-        if not GID then
-            WoWPro.Guides2Register = nil
-            GID = WoWPro.PuntedGuide
-            WoWPro.PuntedGuide = nil
-            WoWPro:dbp("Finished processing Guides2Register, back to loading normally.")
-        end
+            if not GID then
+                WoWPro.Guides2Register = nil
+                GID = WoWPro.PuntedGuide
+                WoWPro.PuntedGuide = nil
+                WoWPro:dbp("Finished processing Guides2Register, back to loading normally.")
+                break
+            end
+            -- Was the guide registered?
+            if WoWProCharDB.GuideVersion[GID] then
+                if WoWPro.Version ~= WoWProCharDB.GuideVersion[GID] then
+                    WoWPro:print("Guide %s is out of date.  Have %s need %s", GID, WoWProCharDB.GuideVersion[GID], WoWPro.Version)
+                else
+                    WoWPro:dbp("Guide %s is up to date.  Check next guide.", GID)
+                    GID = nil
+                end
+            else
+                if WoWPro.Guides[GID]then
+                    WoWPro:print("Guide %s is not registered. Loading.", tostring(GID))
+                else
+                    WoWPro:dbp("Guide %s was not loaded, skipping.", tostring(GID))
+                    GID = nil
+                end
+            end
+        until GID
         WoWProDB.char.currentguide = GID
     end
     
-    WoWPro:dbp("WoWPro_LoadGuide: starting guide cleanup:  %s",tostring(GID))
+    WoWPro:print("WoWPro.LoadGuideReal(): starting guide cleanup:  %s",tostring(GID))
     
 	--Checking the GID and loading the guide --
 	if not GID then 

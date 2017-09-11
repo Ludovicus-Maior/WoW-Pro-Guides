@@ -556,7 +556,6 @@ function WoWPro.RecordStuff(i)
 --    			WoWPro:Print("Recorded NPC %d => QID %s",NPC, QIDs)
     		end
         end
-        WoWProCharDB.Guide[GID].completion[i] = true
     else
         -- Regular quest declaration
         local numQIDs = select("#", string.split(";", QIDs))
@@ -570,9 +569,6 @@ function WoWPro.RecordStuff(i)
     		    end
             end
         end
-    end
-    if WoWPro.action[i] == ";" then
-        WoWProCharDB.Guide[GID].completion[i] = true
     end
 end
 
@@ -744,7 +740,7 @@ function WoWPro.LoadGuideStepsReal()
 	
 	-- May need to go the the next guide to register	
 	if WoWPro.Guides2Register then
-	    WoWProDB.global.Guide2QIDs[GID] = WoWPro.Version
+	    WoWProCharDB.GuideVersion[GID] = WoWPro.Version
 	    WoWPro:dbp("Recorded %s, time to load next Guides2Register.", GID)
         WoWPro:SendMessage("WoWPro_LoadGuide")
         return
@@ -821,8 +817,15 @@ function WoWPro.SetupGuideReal()
 	    if WoWProCharDB.Guide[GID].skipped[i] then
 	        WoWPro.why[i] = "Previously marked as skipped"
 	        WoWProCharDB.Guide[GID].completion[i] = WoWPro.why[i]
+	        numQIDs = 0
 	    end
-	    
+
+        if (action == ";") or (action == '!') then
+            WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() as processed already."
+            WoWProCharDB.Guide[GID].completion[i] = WoWPro.why[i]
+            numQIDs = 0
+        end
+
 		for j=1,numQIDs do
 			local QID = nil
 			local qid
