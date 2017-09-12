@@ -562,7 +562,7 @@ function WoWPro:MapPoint(row)
 			local x = tonumber(jcoord:match("([^|]*),"))
 			local y = tonumber(jcoord:match(",([^|]*)"))
 			if not x or x > 100 or not y or y > 100 then
-			    WoWPro:Error("Bad coordiate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
+			    WoWPro:Error("Bad coordinate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
 			    return
 			end
 			if TomTom or Nx then
