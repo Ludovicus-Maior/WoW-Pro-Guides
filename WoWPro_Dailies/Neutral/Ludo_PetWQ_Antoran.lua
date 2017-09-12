@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3743
+-- Date: 2017-09-12 21:29
+-- Who: Ludovicus
+-- Log: Revised Earseeker
+
+-- URL: http://wow-pro.com/node/3743/revisions/28780/view
+-- Date: 2017-09-05 22:57
+-- Who: Ludovicus
+-- Log: Initial Cut
+
 local guide = WoWPro:RegisterGuide("LudoPetWQAntoran","Dailies","ArgusCore","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON",1715032)
@@ -33,15 +43,15 @@ C Bird2|QID|49054|STRATEGY|Janathema@WH|N|1) [ability=170/lift-off] to dodge [ab
 C Switch to Bird3|QID|49054|STRATEGY|Janathema@WH|N|1) Switch to Bird3|SELECT|2|SWITCH|3|
 C Bird3|QID|49054|STRATEGY|Janathema@WH|N|1) [ability=170/lift-off] to dodge [ability=1968/antaen-cannon]\n2) Spam [ability=202/thrash] till time to dodge [ability=1968/antaen-cannon]|SELECT|1|DEAD|2,1|
 
-; Earseeker - Untested
+; Earseeker - Tested
 ! Earseeker|NPC|128021|QID|49055|
 ;A Earseeker|QID|49055|
-C Arcane Surge|QID|49054|PET1|Arcane1;;589+489;S>268|PET2|Arcane2;;170+202;S>278|PET3|Arcane3;;170+202+440;|STRATEGY|LudovicusArcaneSurge|
-C Arcane1|QID|49054|STRATEGY|LudovicusArcaneSurge|N|1) [ability=589/arcane-storm]\n2) [ability=489/mana-surge]\n3)[ability=589/arcane-storm]|SELECT|1|DEAD|1,1|
-C Switch to Bird2|QID|49054|STRATEGY|LudovicusArcaneSurge|N|1) Switch to Arcane2|SELECT|1|SWITCH|2|
-C Arcane2|QID|49054|STRATEGY|LudovicusArcaneSurge|N|1) [ability=589/arcane-storm]\n2) [ability=489/mana-surge]\n3)[ability=589/arcane-storm]|SELECT|2|DEAD|1,2|
-C Switch to Bird3|QID|49054|STRATEGY|LudovicusArcaneSurge|N|1) Switch to Arcane3|SELECT|2|SWITCH|3|
-C Arcane3|QID|49054|STRATEGY|LudovicusArcaneSurge|N|1) [ability=589/arcane-storm]\n2) [ability=489/mana-surge]\n3)[ability=589/arcane-storm]\n4) Use [ability=440/evanescence] to avoid [ability=1968/antaen-cannon]|SELECT|1|DEAD|2,1|
+C Arcane Surge|QID|49055|PET1|Arcane1;;589+489;|PET2|Arcane2;;589+489;|PET3|Arcane3;;421+440;|STRATEGY|LudovicusArcaneSurge|
+C Arcane1|QID|49055|STRATEGY|LudovicusArcaneSurge|N|1) [ability=589/arcane-storm]\n2) [ability=489/mana-surge]\n3)[ability=589/arcane-storm]|SELECT|1|DEAD|1,1|
+C Switch to Bird2|QID|49055|STRATEGY|LudovicusArcaneSurge|N|1) Switch to Arcane2|SELECT|1|SWITCH|2|
+C Arcane2|QID|49055|STRATEGY|LudovicusArcaneSurge|N|1) [ability=589/arcane-storm]\n2) [ability=489/mana-surge]\n3)[ability=589/arcane-storm]|SELECT|2|DEAD|1,2|
+C Switch to Bird3|QID|49055|STRATEGY|LudovicusArcaneSurge|N|1) Switch to Arcane3|SELECT|2|SWITCH|3|
+C Arcane3|QID|49055|STRATEGY|LudovicusArcaneSurge|N|1) [ability=421/arcane-blast]\n2) Use [ability=440/evanescence] to avoid [ability=1968/antaen-cannon]|SELECT|1|DEAD|2,1|
 
 ; Minixis - Tested (Brew-Pup)
 ! Minixis|NPC|128023|QID|49057|

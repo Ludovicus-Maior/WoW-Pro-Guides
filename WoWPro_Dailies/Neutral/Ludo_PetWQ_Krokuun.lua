@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/node/3744
+-- Date: 2017-09-12 21:30
+-- Who: Ludovicus
+-- Log: Revised Gnasher
+
+-- URL: http://wow-pro.com/node/3744/revisions/28781/view
+-- Date: 2017-09-05 23:00
+-- Who: Ludovicus
+-- Log: First Cut
+
 local guide = WoWPro:RegisterGuide("LudoPetWQKrokuun","Dailies","ArgusSurface","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON",1715032)
@@ -33,10 +43,10 @@ C Starlette|QID|49042|STRATEGY|Chidsuey_WH|N|1) [ability=459/wind-up]\n2) [abili
 C Dragonling|QID|49042|STRATEGY|Chidsuey_WH|N|1) [ability=115/breath]\n2) [ability=334/decoy]\n3) [ability=282/explode]\n4) Switch to last Mechanical|SELECT|2|SWITCH|3|
 C Mechanical|QID|49042|STRATEGY|Chidsuey_WH|N|1) Pass\n2) [ability=209/ion-cannon]|SELECT|3|DEAD|2,1|
 
-; Gnasher - Untested
+; Gnasher - Tested
 ! Gnasher|NPC|128012|QID|49046|
 ;A Gnasher|QID|49046|
-C Claw Party|QID|49046|PET1|Beast1;;919+921;P>300+F=Beast|PET2|Beast2;;919+921;P>300+F=Beast|PET3|Beast3;;919+921;P>300+F=Beast|STRATEGY|Alfa_WH|
+C Claw Party|QID|49046|PET1|Beast1;;919+921;P>300|PET2|Beast2;;919+921;P>300+F=Beast|PET3|Beast3;;919+921;P>300+F=Beast|STRATEGY|Alfa_WH|
 C Beast1|QID|49046|STRATEGY|Alfa_WH|N|1) [ability=919/black-claw]\n2) [ability=921/hunting-party]\n 3) Repeat till dead|SELECT|1|SWITCH|2|
 C Beast2|QID|49046|STRATEGY|Alfa_WH|N|1) [ability=919/black-claw]\n2) [ability=921/hunting-party]\n 3) Repeat till dead|SELECT|2|SWITCH|3|
 C Beast3|QID|49046|STRATEGY|Alfa_WH|N|1) [ability=919/black-claw]\n2) [ability=921/hunting-party]\n 3) Repeat till dead|SELECT|3|DEAD|2,1|
@@ -58,7 +68,7 @@ C Exploding Undead|QID|49041|STRATEGY|spitfire7c_WH|N|1) [ability=499/diseased-b
 C Ice Tomb Undead|QID|49041|STRATEGY|spitfire7c_WH|N|1) [ability=624/ice-tomb]\n2) Use the other ice ability\n3) Die|SELECT|2|DEAD|1,3|
 C Val'kyr|QID|49041|STRATEGY|spitfire7c_WH|N|1) Spam [ability=422/shadow-shock]|SELECT|3|DEAD|2,1|
 
-; Baneglow - Untested
+; Baneglow - Tested
 ! Baneglow|NPC|128009|QID|49043|
 ;A Baneglow|QID|49043|
 C Wow-Petguide.com|QID|49043|PET1|Unborn Val'kyr;71163;1+2+1|PET2|Ikky;86447;1+1+1|PET3|;|STRATEGY|wow-petguide-Baneglow|

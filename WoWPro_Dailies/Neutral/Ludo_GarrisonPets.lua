@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_daily_pet_battles
+-- Date: 2017-09-12 21:28
+-- Who: Ludovicus
+-- Log: Replaced strategy for Rockbiter, Stonechewer, and Acidtooth 
+
+-- URL: http://wow-pro.com/node/3719/revisions/28756/view
 -- Date: 2017-08-27 18:47
 -- Who: Ludovicus
 -- Log: [Fiero and Tirs] tweak
@@ -115,13 +120,10 @@ C Crab .vs. Fiero|QID|85677.1|STRATEGY|AeroKargath@WoWHead|N|1)Whirlpool\n 2) Su
 
 ; Day 11: Rockbiter, Stonechewer, and Acidtooth
 ! Acidtooth, Stonechewer, and Rockbiter|NPC|85679;85680;85681|QID|85679.1|
-C Pandaren Water Spirit/Fox/Unborn Val'kyr|QID|85679.1|PET1|Pandaren Water Spirit;66950;1+2+2|PET2|Fox;85561;110+362|PET3|Unborn Val'kyr;71163;2+2+2|STRATEGY|PWS+Howl|
-C Pandaren Water Spirit|QID|85679.1|STRATEGY|PWS+Howl|N|1)Geyser\n2)Whirlpool\n3) Switch to fox.|SELECT|1|SWITCH|2|
-C Fox|QID|85679.1|STRATEGY|PWS+Howl|N|1)Howl\n2)Dance\n3)Switch to PWS|SELECT|2|DEAD|85679|
-C Pandaren Water Spirit|QID|85679.1|STRATEGY|PWS+Howl|N|1)Geyser\n2)Whirlpool\n3) Switch to fox.|SELECT|1|SWITCH|2|
-C Fox|QID|85679.1|STRATEGY|PWS+Howl|N|1)Howl\n2)Dance\n3)Switch to PWS|SELECT|2|DEAD|85680|
-C Pandaren Water Spirit|QID|85679.1|STRATEGY|PWS+Howl|N|1)Whirlpool\n2) Switch to Unborn Val'kyr.|SELECT|1|SWITCH|3|
-C Unborn Val'kyr|QID|85679.1|STRATEGY|PWS+Howl|N|1)Shadow Shock until you win!|DEAD|85681|
+C Hydraling|QID|85679.1|PET1|Hydraling;86879;1+2+1|PET2|;|PET3|;|STRATEGY|Hydraling|
+C Hydraling .vs. Rockbiter|QID|85679.1|STRATEGY|Hydraling|N|1,2) [ability=1372/deep-bite]\n3) [ability=1380/shell-armor]\n4) [ability=1372/deep-bite]/[ability=276/swallow-you-whole] until Rockbiter dies.|SELECT|1|DEAD|2,1|
+C Hydraling .vs. Stonechewer|QID|85679.1|STRATEGY|Hydraling|N|1) [ability=1372/deep-bite]\n2) [ability=1380/shell-armor]\3) [ability=1372/deep-bite]/[ability=276/swallow-you-whole] until Stonechewer dies.|SELECT|1|DEAD|2,2|
+C Hydraling .vs. Acidtooth|QID|85679.1|STRATEGY|Hydraling|N|1) [ability=1380/shell-armor] when up\n2) [ability=1372/deep-bite]/[ability=276/swallow-you-whole] until Acidtooth dies.|SELECT|1|DEAD|2,3|
 
 ; Day 12: Quintessence of Light
 ! Quintessence of Light|NPC|85650|QID|85650.1|

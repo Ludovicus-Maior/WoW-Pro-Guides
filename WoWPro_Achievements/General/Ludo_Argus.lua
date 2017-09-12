@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2017-09-12 23:24
+-- Who: Ludovicus
+-- Log: Clean up week3, add F steps and a few R steps.
+
+-- URL: http://wow-pro.com/node/3741/revisions/28789/view
+-- Date: 2017-09-12 21:26
+-- Who: Ludovicus
+-- Log: Added Fel Heart of Argus quest line
+
+-- URL: http://wow-pro.com/node/3741/revisions/28785/view
 -- Date: 2017-09-06 22:27
 -- Who: Ludovicus
 -- Log: Added R step to the Praetorium
@@ -332,6 +342,31 @@ F Vindicaar, Mac'Aree|QID|48107|M|62.99,39.48|Z|ArgusMacAree|QO|1|N|Use the port
 C The Sigil of Awakening|QID|48107|M|52.18,90.43|Z|ArgusMacAree|QO|2|N|Place the Sigil of Awakening on the matching alcove in front of Velen.|
 T The Sigil of Awakening|QID|48107|M|52.08,89.83|Z|ArgusMacAree|N|To Prophet Velen.|
 
+; Fel Heart of Argus
+A The Mysterious Missive|QID|47102|M|40.6,70.0|N|From Lightforged Courier, near Shattered Fields.|
+T The Mysterious Missive|QID|47102|M|40.4,63.6|N|To Captain Fareeya|
+A Intercepting the Legion's Plans|QID|47554|PRE|47102|M|40.4,63.6|N|From Captain Fareeya|
+C Enigmatic Legion Orders|QID|47554|QO|1|N|Kill demons in near Shattered Fields.|
+C Army of the Light Code Book|QID|47554|QO|2|M|31.0,57.7|N|Loot the corpse of Codebreaker Brae|
+T Intercepting the Legion's Plans|QID|47554|M|40.4,63.6|N|To Captain Fareeya|
+A Imprisoned Inquisitor|QID|47104|PRE|47554|M|40.4,63.6|N|From Captain Fareeya|
+C Speak with Romuul|QID|47104|QO|1|CHAT|N|Go back to the Vindicaar and chat with Romuul|
+T Imprisoned Inquisitor|QID|47104|M|43.46,23.14|Z|Upper Deck@ArgusSurface|N|To Grand Artificer Romuul|
+A Foiling the Legion's Jailbreak|QID|47134|PRE|47104|M|43.46,23.14|Z|Upper Deck@ArgusSurface|N|From Grand Artificer Romuul|
+C Travel to the Arcatraz|QID|47134|QO|1|M|43.46,23.14|Z|Upper Deck@ArgusSurface|CHAT|N|Ask Grand Artificer Romuul to do the scenario|
+C Search the Arcatraz|QID|47134|QO|2|N|Make your way through Arcatraz till you see a Legion Portal.|
+C Close 2 Legion Portals|QID|47134|QO|3|N|Close the portals. The second is in the round room.|
+C High Inquisitor Raalgar found|QID|47134|QO|4|N|Take the ramp to the second level. and go to the back.|
+K Lah'zaruun|ACTIVE|47134|QO|5|N|Kill Lah'zaruun. Dont bother going after Raalgar.|
+C Escape from the Arcatraz|QID|47134|QO|6|NC|N|Take the "Escape from Arcatraz" portal back to the Vindicaar.|
+T Foiling the Legion's Jailbreak|QID|47134|M|43.46,23.14|Z|Upper Deck@ArgusSurface|N|From Grand Artificer Romuul|
+A Long Overdue|QID|47182|M|43.46,23.14|Z|Upper Deck@ArgusSurface|N|From Grand Artificer Romuul|
+C Demon Garrison|QID|47182|QO|1|N|Slay the demons in the Garrison|S|
+C Hearthwells|QID|47182|QO|2|M|64.0,24.8;66.7,25.4;65.1,26.0|CN|N|Mark each of the heartwells.\nYou must finish killing demons before going after Raalgar.|
+C Demon Garrison|QID|47182|QO|1|N|Slay the demons in the Garrison|US|
+K High Inquisitor Raalgar|ACTIVE|47182|QO|3|M|67.6,22.8|N|Go for Raalgar|T|High Inquisitor Raalgar|
+T Long Overdue|QID|47182|M|43.46,23.14|Z|Upper Deck@ArgusSurface|N|From Grand Artificer Romuul|
+
 ; WAR OF LIGHT AND SHADOW
 ; We Have a Problem
 A We Have a Problem|QID|48344|M|62.12,86.73|N|From High Exarch Turalyon.\n(Week 3)|
@@ -344,7 +379,7 @@ C Wrath of the High Exarch|QID|47854|M|54.91,26.59|Z|ArgusMacAree|QO|1|N|Disrupt
 C Overt Ops|QID|47995|M|54.86,35.32|Z|ArgusMacAree|QO|1|NC|N|Orders given to Baraat|
 C Overt Ops|QID|47995|M|53.59,26.52|Z|ArgusMacAree|QO|2|NC|N|Orders given to Sorvos|
 C Overt Ops|QID|47995|M|62.15,25.20|Z|ArgusMacAree|QO|3|NC|N|Orders given to Telaamon|
-C A Non-Prophet Organization|QID|47691|M|59.20,21.15|Z|ArgusMacAree|QO|1|NC|N|Find Velen|
+C A Non-Prophet Organization|QID|47691|M|59.20,21.15|Z|ArgusMacAree|QO|1|NC|N|Find Velen. Finish Disrupting first!|
 C Wrath of the High Exarch|QID|47854|M|54.91,26.59|Z|ArgusMacAree|QO|1|N|Disrupt Legion forces in Arinor Gardens|US|
 T A Non-Prophet Organization|QID|47691|M|59.09,20.06|Z|ArgusMacAree|N|To Prophet Velen.|
 T Overt Ops|QID|47995|M|59.14,20.20|Z|ArgusMacAree|N|To High Exarch Turalyon.|
@@ -355,6 +390,7 @@ C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|ArgusMacAree|QO|1|NC|N|Legion port
 C Talgath's Forces|QID|48345|M|50.84,9.18|Z|ArgusMacAree|QO|1|N|Talgath's forces slain|S|
 C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|ArgusMacAree|QO|1|NC|N|Legion portals closed|US|
 C Talgath's Forces|QID|48345|M|50.84,9.18|Z|ArgusMacAree|QO|1|N|Talgath's forces slain|US|
+R Upper Terrace|ACTIVE|48345|M|53.87,12.69;52.26,14.86;53.43,17.75;52.31,20.36|Z|ArgusMacAree|CS|N|Go here to meet Velen.|
 T Talgath's Forces|QID|48345|M|48.80,19.73|Z|ArgusMacAree|N|To Prophet Velen.|
 T Flanking Maneuvers|QID|47853|M|48.80,19.73|Z|ArgusMacAree|N|To Prophet Velen.|
 A What Might Have Been|QID|47855|PRE|47853;48345|M|48.80,19.73|Z|ArgusMacAree|N|From Prophet Velen.|
@@ -365,28 +401,29 @@ C Across the Universe|QID|47856|M|49.39,18.94|Z|ArgusMacAree|QO|1|CHAT|N|Talk to
 K Talgath|ACTIVE|47856|M|50.15,17.50|Z|ArgusMacAree|QO|2|N|Talgath defeated|T|Talgath|
 T Across the Universe|QID|47856|M|50.13,17.91|Z|ArgusMacAree|N|To Prophet Velen.|
 A Shadow of the Triumvirate|QID|47416|PRE|47856|M|50.13,17.91|Z|ArgusMacAree|N|From Prophet Velen.|
-F Vindicaar|QID|47416|M|52.60,93.05|Z|ArgusMacAree|QO|1|N|Return to the Vindicaar|
+F Vindicaar|QID|47416|M|43.87,14.52|Z|ArgusMacAree|QO|1|N|Return to the Vindicaar|
 T Shadow of the Triumvirate|QID|47416|M|52.48,90.88|Z|ArgusMacAree|N|To Prophet Velen.|
 A The Seat of the Triumvirate|QID|47238|PRE|47416|M|52.48,90.88|Z|ArgusMacAree|N|From Prophet Velen.|
 C The Seat of the Triumvirate|QID|47238|M|52.48,90.88|Z|ArgusMacAree|QO|1|N|Go with Velen|
-C The Seat of the Triumvirate|QID|47238|M|52.58,90.79|Z|ArgusMacAree|QO|2|CHAT|N|Listen to Alleria's Tale|
+C The Seat of the Triumvirate|QID|47238|M|52.58,90.79|Z|ArgusMacAree|QO|2|CHAT|N|Ask Alleria for her Tale.|
 T The Seat of the Triumvirate|QID|47238|M|52.48,90.89|Z|ArgusMacAree|N|To Prophet Velen.|
 A Whispers from Oronaar|QID|40761|PRE|47238|M|52.60,90.81|Z|ArgusMacAree|N|From Alleria Windrunner.|
+F Triumvirate's End|ACTIVE|40761|M|48.95,23.18|Z|Upper Deck@ArgusMacAree|N|Go to the console and go!|
 C Whispers from Oronaar|QID|40761|M|48.35,69.34|Z|ArgusMacAree|QO|1|NC|N|Investigate the Ruins of Oronaar|
 A Arkhaan's Prayers|QID|47101|ACTIVE|40761|M|46.74,69.09|Z|ArgusMacAree|
-C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|ArgusMacAree|QO|1|N|Fragmented Prayers|S|
+C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|ArgusMacAree|QO|1|N|Fragmented Prayers, from killing the Krokul in the area.|S|
 C Whispers from Oronaar|QID|40761|M|48.32,66.26|Z|ArgusMacAree|QO|4|NC|N|Wall scrawlings inspected|
 C Whispers from Oronaar|QID|40761|M|46.52,72.47|Z|ArgusMacAree|QO|3|NC|N|Abandoned altar inspected|
 C Whispers from Oronaar|QID|40761|M|47.95,60.76|Z|ArgusMacAree|QO|2|NC|N|Naaru figurine inspected|
-C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|ArgusMacAree|QO|1|N|Fragmented Prayers|US|
+C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|ArgusMacAree|QO|1|N|Fragmented Prayers, from killing the Krokul in the area.|US|
 T Arkhaan's Prayers|QID|47101|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
 T Whispers from Oronaar|QID|40761|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
 A The Pulsing Madness|QID|47180|PRE|47101;40761|M|43.41,67.61|Z|ArgusMacAree|N|From Alleria Windrunner.|
-A Arkhaan's Pain|QID|47100|PRE|47101;40761|M|43.41,67.61|Z|ArgusMacAree|N|From Arkhaan.|
+A Arkhaan's Pain|QID|47100|PRE|47101;40761|M|43.47,67.71|Z|ArgusMacAree|N|From Arkhaan.|
 C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|ArgusMacAree|QO|1|N|Broken slain|S|
-C The Pulsing Madness|QID|47180|M|42.14,71.10|Z|ArgusMacAree|QO|1|U|151563|N|Void Manifestations cleansed|S|
+C The Pulsing Madness|QID|47180|M|42.14,71.10|Z|ArgusMacAree|QO|1|U|151563|N|Void Manifestations cleansed, click on them.|S|
 C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|ArgusMacAree|QO|1|N|Broken slain|US|
-C The Pulsing Madness|QID|47180|M|42.14,71.10|Z|ArgusMacAree|QO|1|U|151563|N|Void Manifestations cleansed|US|
+C The Pulsing Madness|QID|47180|M|42.14,71.10|Z|ArgusMacAree|QO|1|U|151563|N|Void Manifestations cleansed, click on them.|US|
 T The Pulsing Madness|QID|47180|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
 T Arkhaan's Pain|QID|47100|M|43.48,67.72|Z|ArgusMacAree|N|To Arkhaan.|
 A Arkhaan's Plan|QID|47183|PRE|47100;47180|M|43.48,67.72|Z|ArgusMacAree|N|From Arkhaan.|
@@ -415,16 +452,16 @@ C Sources of Darkness|QID|47217|M|25.62,32.46|Z|ArgusMacAree|QO|1|N|Void Harvest
 T Sources of Darkness|QID|47217|M|31.88,37.45|Z|ArgusMacAree|N|To Alleria Windrunner.|
 T The Shadowguard Incursion|QID|47218|M|31.93,37.34|Z|ArgusMacAree|N|To Locus-Walker.|
 A A Vessel Made Ready|QID|47219|PRE|47217;47218|M|31.93,37.34|Z|ArgusMacAree|N|From Locus-Walker.|
-C A Vessel Made Ready|QID|47219|M|28.29,44.95|Z|ArgusMacAree|QO|1|NC|N|Enter the Void Tear|
-K A Nhal'athoth|ACTIVE|47219|M|26.62,45.21|Z|ArgusMacAree|QO|2|N|Defeat Nhal'athoth|
-C A Vessel Made Ready|QID|47219|M|26.62,45.21|Z|ArgusMacAree|QO|3|NC|N|Loot the Heart of Nhal'athoth|
+C A Vessel Made Ready|QID|47219|M|31.95,37.02|Z|ArgusMacAree|QO|1|NC|N|Enter the Void Tear|
+K A Nhal'athoth|ACTIVE|47219|M|26.62,45.21|Z|ArgusMacAree|QO|2|N|Defeat Nhal'athoth, after killing the 3 Shadowcallers.|
+C A Vessel Made Ready|QID|47219|M|26.60,44.99|Z|ArgusMacAree|QO|3|NC|N|Loot the Heart of Nhal'athoth|
 T A Vessel Made Ready|QID|47219|M|28.45,47.19|Z|ArgusMacAree|N|To Alleria Windrunner.|
 A A Beacon in the Dark|QID|47220|PRE|47219|M|28.44,47.21|Z|ArgusMacAree|N|From Alleria Windrunner.|
-C A Beacon in the Dark|QID|47220|M|52.60,93.05|Z|ArgusMacAree|QO|1|NC|N|Return to the Vindicaar|
+F Vindicaar, Mac'Aree|QID|47220|M|30.16,49.56|Z|ArgusMacAree|QO|1|NC|N|Return to the Vindicaar.|
 T A Beacon in the Dark|QID|47220|M|52.09,89.83|Z|ArgusMacAree|N|To Prophet Velen.|
 A An Offering of Shadow|QID|48560|PRE|47220|M|52.09,89.83|Z|ArgusMacAree|N|From Prophet Velen.|
 A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|PRE|47220|M|52.09,89.83|Z|ArgusMacAree|N|From Prophet Velen. Seat of the Triumvirate Dungeon.|
-C An Offering of Shadow|QID|48560|M|52.38,91.71|Z|ArgusMacAree|QO|1|U|152594|NC|N|Netherlight Crucible infused with the Essence of Shadow|
+C An Offering of Shadow|QID|48560|M|56.20,68.40|Z|Lower Deck@ArgusMacAree|QO|1|U|152594|NC|N|Go downstairs to the Netherlight Crucible and infuse it with the Essence of Shadow.\nClick on it.|
 T An Offering of Shadow|QID|48560|M|52.50,91.73|Z|ArgusMacAree|N|To Artificer Shela'na.|
 A The Netherlight Crucible|QID|49224|M|52.50,91.73|Z|ArgusMacAree|N|From Artificer Shela'na.|
 C The Netherlight Crucible|QID|49224|M|52.50,91.73|Z|ArgusMacAree|QO|1|NC|N|Imbue a relic with Netherlight Fortification|
