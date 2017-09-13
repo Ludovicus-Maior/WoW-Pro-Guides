@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2017-09-13 00:15
+-- Who: Ludovicus
+-- Log: Removed redundant QID tags where ACTIVE was good enough!
+
+-- URL: http://wow-pro.com/node/3407/revisions/28776/view
 -- Date: 2017-09-04 16:48
 -- Who: Ludovicus
 -- Log: Swapped around QID and ACTIVE tags to conform to new standard.
@@ -284,9 +289,9 @@ R New Kargath|RANK|2|QID|11842|M|23.09,37.44|Z|Badlands|N|Run to New Kargath.|
 A Honor the Flame|RANK|2|QID|11842|M|23.09,37.44|Z|Badlands|N|From the Flame Keeper.(Badlands)|
 A Desecrate this Fire!|RANK|2|QID|28912|M|19.00,56.18|Z|Badlands|N|At the Alliance Bonfire. (Badlands)|
 
-F Thorium Point|ACTIVE|11952|RANK|2|QID|11952|M|17.17,39.98|Z|Badlands|N|Fly to Thorium Point.|
-C Striking Back|ACTIVE|11952|RANK|2|QID|11952|M|21,37|Z|Searing Gorge|N|In a cave near Firewatch Ridge in Searing Gorge, click on one of the ice stones to summon the Frigid Lieutenant.|
-F Flame Crest|ACTIVE|11952|RANK|2|QID|11952|M|37,33|Z|Searing Gorge|N|Fly to Flame Crest.|
+F Thorium Point|ACTIVE|11952|RANK|2|M|17.17,39.98|Z|Badlands|N|Fly to Thorium Point.|
+C Striking Back|ACTIVE|11952|RANK|2|M|21,37|Z|Searing Gorge|N|In a cave near Firewatch Ridge in Searing Gorge, click on one of the ice stones to summon the Frigid Lieutenant.|
+F Flame Crest|ACTIVE|11952|RANK|2|M|37,33|Z|Searing Gorge|N|Fly to Flame Crest.|
 
 F Flame Crest|RANK|2|QID|11844|LEAD|11952|M|17.17,39.98|Z|Badlands|N|Fly to Flame Crest.|
 A Honor the Flame|RANK|2|QID|11844|M|51.11,29.21|Z|Burning Steppes|N|From the Flame Keeper. (Burning Steppes)|
