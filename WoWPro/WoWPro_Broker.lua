@@ -241,16 +241,21 @@ function WoWPro.LoadGuideReal()
                 WoWPro:dbp("Finished processing Guides2Register, back to loading normally.")
                 break
             end
+            -- Is the guide within 10 levels of us?
+            if WoWPro.Guides[GID] and (WoWPro.Guides[GID].startlevel > (WoWPro:PlayerLevel()+10)) then
+                WoWPro:dbp("Guide %s is too high level.  Check next guide.", GID)
+                GID = nil
+            end
             -- Was the guide registered?
-            if WoWProCharDB.GuideVersion[GID] then
+            if GID and WoWProCharDB.GuideVersion[GID] then
                 if WoWPro.Version ~= WoWProCharDB.GuideVersion[GID] then
                     WoWPro:print("Guide %s is out of date.  Have %s need %s", GID, WoWProCharDB.GuideVersion[GID], WoWPro.Version)
                 else
                     WoWPro:dbp("Guide %s is up to date.  Check next guide.", GID)
                     GID = nil
                 end
-            else
-                if WoWPro.Guides[GID]then
+            elseif GID then
+                if WoWPro.Guides[GID] then
                     WoWPro:print("Guide %s is not registered. Loading.", tostring(GID))
                 else
                     WoWPro:dbp("Guide %s was not loaded, skipping.", tostring(GID))
@@ -1710,6 +1715,12 @@ function WoWPro.NextStep(k,i)
                 skip = true
                 break 
             end
+        end
+        -- If we have an active strategy, skip over any N steps for now.
+        if WoWPro.current_strategy and WoWPro.action[k] == "N" then
+            WoWPro.why[k] = "NextStep(): active strategy " ..  WoWPro.current_strategy .. ". Skip note."
+            skip = true
+            break
         end
         -- So we are in an active strategy step
         if WoWPro.PetBattleActive and WoWPro.strategy[k] and WoWPro.current_strategy and WoWPro.strategy[k] == WoWPro.current_strategy then
