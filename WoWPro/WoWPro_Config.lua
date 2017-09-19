@@ -199,7 +199,9 @@ local function CreateDisplayConfig()
 						min = 1, max = 3, step = 1,
 						get = function(info) return WoWProDB.profile.rank end,
 						set = function(info,val) WoWProDB.profile.rank = val
-                            WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
+						    if WoWProDB.char.currentguide and WoWProCharDB.Guide[WoWProDB.char.currentguide] then
+                                WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
+                            end
                             WoWPro.UpdateGuide("Config: Rank") end,
 						width = "double"
 					}, 
