@@ -1841,7 +1841,6 @@ function WoWPro.CompleteStep(step, why)
 	end
 	WoWPro.why[step] = why
 	WoWPro:UpdateGuide("WoWPro.CompleteStep")
-	WoWPro:RemoveMapPoint()
 	WoWPro:MapPoint()
 end
 
@@ -1984,7 +1983,14 @@ function WoWPro.PopulateQuestLog()
 	    WoWPro:Warning("Expected to find %d quests in QuestLog, but found %d.",numQuests, num)
 	end
 
-	if WoWPro.oldQuests == {} then
+    -- If there are no old Quests, then we are starting up.  No new or missing quest processing.
+    local oldQuestCount = 0
+    for QID, questInfo in pairs(WoWPro.oldQuests) do
+        oldQuestCount = oldQuestCount + 1
+    end
+	if oldQuestCount == 0 then
+	    WoWPro:print("Empty old Quest log, all done for now.")
+	    WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
 	    return num
 	end
 
@@ -1995,11 +2001,11 @@ function WoWPro.PopulateQuestLog()
 			WoWPro.newQuest = QID 
 			WoWPro:print("New Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
 			delta = delta + 1
-		end
-		-- Is this an auto-switch quest?
-		if WoWProCharDB.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProCharDB.QID2Guide[QID] then
-		    WoWPro:SelectGuide(WoWProCharDB.QID2Guide[QID], WoWPro.QuestLog[QID].title, QID)
-		    WoWPro:print("AutoSwitch?: [%s] => %s",WoWPro.QuestLog[QID].title, WoWProCharDB.QID2Guide[QID])
+		    -- Is this an auto-switch quest?
+		    if WoWProCharDB.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProCharDB.QID2Guide[QID] then
+		        WoWPro:SelectGuide(WoWProCharDB.QID2Guide[QID], WoWPro.QuestLog[QID].title, QID)
+		        WoWPro:print("AutoSwitch?: [%s] => %s",WoWPro.QuestLog[QID].title, WoWProCharDB.QID2Guide[QID])
+		    end
 		end
 	end
 	
