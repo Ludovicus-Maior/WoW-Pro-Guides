@@ -2493,7 +2493,6 @@ end
 
 function WoWPro:GrailIsQuestObsolete(guide, QID, name)
     if not Grail or not WoWPro.EnableGrail then return nil end
-    return Grail:IsQuestObsolete(qid)
     local numQIDs = select("#", string.split(";", QID))
     for j=1,numQIDs do
         local qid = select(numQIDs-j+1, string.split(";", QID))
