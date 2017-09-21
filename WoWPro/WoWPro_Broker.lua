@@ -2295,7 +2295,7 @@ function WoWPro.OrderSteps(update)
 end
 
 
--- Experimental Interface to Grail
+-- Interface to Grail
 function WoWPro:SkipAll()
     WoWPro:Print("Marking All Quests as skipped")
     local GID = WoWProDB.char.currentguide
@@ -2491,6 +2491,18 @@ function WoWPro:GrailQuestLevel(qid)
     end
 end
 
+function WoWPro:GrailIsQuestObsolete(guide, QID, name)
+    if not Grail or not WoWPro.EnableGrail then return nil end
+    return Grail:IsQuestObsolete(qid)
+    local numQIDs = select("#", string.split(";", QID))
+    for j=1,numQIDs do
+        local qid = select(numQIDs-j+1, string.split(";", QID))
+        local obsolete = Grail:IsQuestObsolete(qid)
+        if obsolete then
+            WoWPro:Error("In guide %s, qid %s [%s] is obsolete",guide,tostring(qid),name)
+        end
+    end
+end
 
 -- /run WoWPro:Questline("14282")
 -- /run WoWPro:Questline("10006")

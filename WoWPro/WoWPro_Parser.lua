@@ -423,6 +423,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 	if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
 	    WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
+	    WoWPro:GrailIsQuestObsolete(GID,WoWPro.QID[i],WoWPro.step[i])
 	end
 	if WoWPro.map[i] then
 	    WoWPro:ValidateMapCoords(GID,WoWPro.action[i],WoWPro.step[i],WoWPro.map[i])
