@@ -799,7 +799,11 @@ function WoWPro:RowLeftClick(i)
 end
 
 function WoWPro.UpdateGuideReal(From)
-    WoWPro:dbp("UpdateGuideReal(): Running")
+    local why = ""
+    for who, count in pairs(From) do
+        why = why .. string.format("[%s]=%s ", tostring(who), tostring(count))
+    end
+    WoWPro:dbp("UpdateGuideReal(%s): Running", why)
 	if not WoWPro.GuideFrame:IsVisible() then
 	    -- Cinematic hides things ...
 	    WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
@@ -1840,8 +1844,7 @@ function WoWPro.CompleteStep(step, why)
 	    end
 	end
 	WoWPro.why[step] = why
-	WoWPro:UpdateGuide("WoWPro.CompleteStep")
-	WoWPro:MapPoint()
+	WoWPro.UpdateGuideReal({["WoWPro.CompleteStep"]=1})
 end
 
 WoWPro.QuestLog = {}
@@ -2403,6 +2406,7 @@ end
 function WoWPro.GrailQuestPrereq(QID)
     if not Grail or not WoWPro.EnableGrail then return nil end
     if QID == "*" then return nil end
+    if not QID then return nil end
     local numQIDs = select("#", string.split(";", QID))
     local out = {}
     -- WoWPro:dbp("GrailQuestPrereq(%s)",QID)
@@ -2430,6 +2434,7 @@ end
 function WoWPro.GrailBreadcrumbsFor(QID)
     if not Grail or not WoWPro.EnableGrail then return nil end
     if QID == "*" then return nil end
+    if not QID then return nil end
     local numQIDs = select("#", string.split(";", QID))
     local out = {}
     -- WoWPro:dbp("GrailBreadcrumbsFor(%s)",QID)
@@ -2493,9 +2498,11 @@ end
 
 function WoWPro:GrailIsQuestObsolete(guide, QID, name)
     if not Grail or not WoWPro.EnableGrail then return nil end
+    if not QID then return nil end
     local numQIDs = select("#", string.split(";", QID))
     for j=1,numQIDs do
         local qid = select(numQIDs-j+1, string.split(";", QID))
+        qid = tonumber(qid)
         local obsolete = Grail:IsQuestObsolete(qid)
         if obsolete then
             WoWPro:Error("In guide %s, qid %s [%s] is obsolete",guide,tostring(qid),name)
