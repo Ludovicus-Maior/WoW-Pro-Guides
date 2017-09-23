@@ -1,0 +1,10 @@
+## Interface: 70300
+## LoadOnDemand: 1
+## Title: Lib: LibPetJournal-2.0
+## Notes: Provide a list of mini pets without filter interference.
+## Author: End
+## X-Email: end@cornhooves.org
+## X-Category: Library
+LibStub.lua
+CallbackHandler-1.0.lua
+LibPetJournal-2.0.lua
