@@ -22,9 +22,8 @@
 ---    8 - Beast
 ---    9 - Aquatic
 ---    10 - Mechanical
-
 local LibPetJournal = LibStub("LibPetJournal-2.0")
-
+WoWPro.LibPetJournal = LibPetJournal
 WoWPro.PetDamageMap = {}
 WoWPro.PetFamilyMap = {}
 local function RegisterPDM(pet_basic, pet_type, pet_strong, pet_weak)
@@ -131,18 +130,18 @@ function WoWPro.GetPetByNameOrID(name, id, limits, pet1, pet2)
     end
 
     WoWPro:dbp("GetPetByNameOrID(): Searching for %s/%s out of %d/%d",tostring(name), tostring(id),numPets, numOwned)
-    for _,petid in LibPetJournal:IteratePetIDs() do
+    for _,petID in LibPetJournal:IteratePetIDs() do
         -- petID="BattlePet-0-0000027C0B08", speciesID=244, isOwned=true, customName=nil, level=1, favorite=false, isRevoked=false
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
         -- companionID=36871, Source="Promotion...",
         local ok = false 
-        local petID, speciesID, isOwned, customName, level, favorite, isRevoked, speciesName, icon, petType, companionID, tooltip, description, isWild, canBattle, isTradeable, isUnique, obtainable = C_PetJournal.GetPetInfoByPetID(petid)
-        if (companionID == id) or (speciesName == name) or (id == nil) or (name == "") then
+        local speciesID, customName, level, xp, maxXp, displayID, isFavorite, petName, petIcon, petType, creatureID, sourceText, description, isWild, canBattle, tradable, unique = C_PetJournal.GetPetInfoByPetID(petID);
+        if (creatureID == id) or (petName == name) or (id == nil) or (name == "") then
             if ((id == nil) or (name == "")) and (82464 == companionID) then
                 -- No Elekk Plushie on wildcard slotting
                 canBattle = false
             end
-            if isOwned and canBattle then
+            if canBattle then
                 if limits then
                     if WoWPro.PetMeetsLimits(petID, limits) then
                         ok = true
@@ -157,7 +156,7 @@ function WoWPro.GetPetByNameOrID(name, id, limits, pet1, pet2)
                 ok = false
             end
             if ok then
-                WoWPro:dbp("WoWPro.GetPetByNameOrID: Found Candidate %s aka %s/%d", petID, speciesName, companionID)
+                WoWPro:dbp("WoWPro.GetPetByNameOrID: Found Candidate %s aka %s/%d", petID, petName, creatureID)
                 pids = pids or {}
                 pids[petID] = {speciesName, companionID}
             end
@@ -180,13 +179,13 @@ function WoWPro.GetLevelingPet(limits, pet1, pet2, max_level)
     end
 
     WoWPro:dbp("GetLevelingPet(): Searching out of %d/%d limit %s",numPets, numOwned, tostring(limits))
-    for _,petid in LibPetJournal:IteratePetIDs() do
+    for _,petID in LibPetJournal:IteratePetIDs() do
         -- petID="BattlePet-0-0000027C0B08", speciesID=244, isOwned=true, customName=nil, level=1, favorite=false, isRevoked=false
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
         -- companionID=36871, Source="Promotion...",
-        local petID, speciesID, isOwned, customName, level, favorite, isRevoked, speciesName, icon, petType, companionID, tooltip, description, isWild, canBattle, isTradeable, isUnique, obtainable = C_PetJournal.GetPetInfoByPetID(petid);
+        local speciesID, customName, level, xp, maxXp, displayID, isFavorite, petName, petIcon, petType, creatureID, sourceText, description, isWild, canBattle, tradable, unique = C_PetJournal.GetPetInfoByPetID(petID);
         local ok = false
-        if isOwned and canBattle and level < max_level then
+        if canBattle and level < max_level then
             if limits then
                 if WoWPro.PetMeetsLimits(petID, limits) then
                     ok = true
@@ -243,16 +242,16 @@ function WoWPro.GetPetByAbilities(abilities, limits, pet1, pet2)
         end
     end
     WoWPro:dbp("GetPetByAbilities(): Searching out of %d/%d, target_score is %d",numPets, numOwned, target_score)
-    for _,petid in LibPetJournal:IteratePetIDs() do
+    for _,petID in LibPetJournal:IteratePetIDs() do
         -- petID="BattlePet-0-0000027C0B08", speciesID=244, isOwned=true, customName=nil, level=1, favorite=false, isRevoked=false
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
         -- companionID=36871, Source="Promotion...", 
-        local petID, speciesID, isOwned, customName, level, favorite, isRevoked, speciesName, icon, petType, companionID, tooltip, description, isWild, canBattle, isTradeable, isUnique, obtainable = C_PetJournal.GetPetInfoByPetID(petid);
+        local speciesID, customName, level, xp, maxXp, displayID, isFavorite, petName, petIcon, petType, creatureID, sourceText, description, isWild, canBattle, tradable, unique = C_PetJournal.GetPetInfoByPetID(petID);
         idTable, levelTable = C_PetJournal.GetPetAbilityList(speciesID)
         local score = 0
         local ok = false
         slots = {}
-        if isOwned and canBattle then
+        if canBattle then
             if limits then
                 if WoWPro.PetMeetsLimits(petID, limits) then
                     ok = true
@@ -266,7 +265,7 @@ function WoWPro.GetPetByAbilities(abilities, limits, pet1, pet2)
         end
         -- Possible candidate?
         if ok then
---            WoWPro:dbp("WoWPro.GetPetByAbilities: Considering Candidate %s aka %s/%d", petID, speciesName, companionID)
+--            WoWPro:dbp("WoWPro.GetPetByAbilities: Considering Candidate %s aka %s/%d", petID, petName, creatureID)
             for j = 1,6 do
 --                WoWPro:dbp("WoWPro.GetPetByAbilities: idTable[j] = %s, levelTable[j] = %s",tostring(idTable[j]), tostring(levelTable[j]))
                 if spells[idTable[j]] and levelTable[j] <= level  and not slots[j] then
@@ -274,7 +273,7 @@ function WoWPro.GetPetByAbilities(abilities, limits, pet1, pet2)
                     slots[j+3] = true
                     score = score + 1
                     if score >= target_score then
-                        WoWPro:dbp("WoWPro.GetPetByAbilities: Found Candidate %s aka %s/%d", petID, speciesName, companionID)
+                        WoWPro:dbp("WoWPro.GetPetByAbilities: Found Candidate %s aka %s/%d", petID, petName, creatureID)
                         pids[petID] = {speciesName, companionID}
                     end
                 end
