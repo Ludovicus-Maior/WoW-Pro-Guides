@@ -709,7 +709,7 @@ function WoWPro:RowUpdate(offset)
 				end
 				itemkb = true
 			end
-		elseif WoWPro.switch[k] then
+		elseif WoWPro.switch[k] and WoWPro.switch[k] > 0 then
 		    row.itembutton:Show()
 		    row.itemicon:SetTexture(WoWPro.PetIcon(WoWPro.switch[k]))
 		    row.itembutton:SetAttribute("type", "SwitchPet")
@@ -1880,6 +1880,7 @@ end
 
 function WoWPro:DelFauxQuest(questID)
     if not questID then return; end
+    WoWPro:dbp("DelFauxQuest(%s)",tostring(questID))
     WoWPro.FauxQuestLog[questID] = nil
     WoWPro.QuestLog[questID] = nil
     WoWPro:SendMessage("WoWPro_PuntedQLU")

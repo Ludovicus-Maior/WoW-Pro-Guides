@@ -455,17 +455,25 @@ WoWPro.RegisterEventHandler("PET_BATTLE_OPENING_START", function (event,...)
         WoWPro.Hidden = event
     end
 	WoWPro.PetBattleActive = true
+--	WoWPro.RegisterAllEvents()
     end)
 
 WoWPro.RegisterEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function (event,...)
     WoWPro:UpdateGuide(event)
     end)
 
+WoWPro.RegisterEventHandler("PET_BATTLE_PET_CHANGED", function (event,team)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if team == 1 and WoWPro.switch and WoWPro.switch[qidx] == 0 then
+        -- Waiting for forced swap.
+        WoWPro.CompleteStep(qidx,"Forced Swap")
+    end
+    end)
+
 
 WoWPro.RegisterEventHandler("PET_BATTLE_FINAL_ROUND", function (event,...)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     local winner = ...
-    WoWPro:DelFauxQuest(WoWPro.QID[qidx])
     WoWPro.ProcessFinalRound(winner, qidx)
     end)
 
@@ -490,6 +498,8 @@ WoWPro.RegisterEventHandler("PET_BATTLE_CLOSE", function (event,...)
 	    WoWPro:dbp("WoWPro.current_strategy = nil")
 	end
 	WoWPro:UpdateGuide(event)
+--	WoWPro.UnregisterAllEvents()
+--	WoWPro:RegisterEvents()
     end)
 
 
@@ -583,6 +593,7 @@ WoWPro.RegisterEventHandler("GOSSIP_CLOSED" ,function (event,...)
     WoWPro.GossipText = nil
     WoWPro.QuestDialogActive = nil
     WoWPro.UnregisterAllEvents()
+    WoWPro:RegisterEvents()
     end)
 
 WoWPro.RegisterEventHandler("QUEST_GREETING", function (event,...)
@@ -597,7 +608,8 @@ WoWPro.RegisterEventHandler("QUEST_FINISHED", function (event,...)
     WoWPro.QuestDialogActive = nil
     WoWPro.QuestCount = nil
     WoWPro.QuestStep = nil
-    WoWPro.RegisterAllEvents()
+    WoWPro.UnregisterAllEvents()
+    WoWPro.RegisterEvents()
     end)
 
 function WoWPro.QUEST_GREETING_PUNTED(event,...)
