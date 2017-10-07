@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_val039sharah
+-- Date: 2017-10-07 20:00
+-- Who: Ludovicus
+-- Log: [Meet The Maw] update
+
+-- URL: http://wow-pro.com/node/3737/revisions/28736/view
 -- Date: 2017-08-03 22:04
 -- Who: Ludovicus
 -- Log: Work off of just World QIDs
@@ -42,10 +47,10 @@ C Strat by Hazelnuttygames@Youtube|QID|41860|STRATEGY|Hazel@YT|N|1) Life Exchang
 ;Meet The Maw, nearest FP is Starsong Refuge - Val'sharah
 ;UNTESTED
 A Meet The Maw|QID|41861|M|66.0, 39.0|Z|Val'sharah|N|Click on The Maw to start the battle|O|
-C The Maw|QID|41861|PET1|Emerald Proto-Whelp;68850;1+2+1|PET2|Emerald Whelpling;7545;1+2+2|PET3|Yu'la, Broodling of Yu'lon;72463;1+1+1|STRATEGY|Hazel@YT|
-C Strat by Hazelnuttygames@Youtube|QID|41861|STRATEGY|Hazel@YT|N|1) Emerald Presence (keep it refreshed on you)\n2) Proto-Strike\n3) Spam Breath\n4) Try to time Proto-Strike to avoid Devour if you are low on health\n5) Switch in your Emerald Whelpling if your Proto-Whelp dies|SELECT|1|SWITCH|2|
-C Strat by Hazelnuttygames@Youtube|QID|41861|STRATEGY|Hazel@YT|N|1) Emerald Presence (keep it refreshed on you)\n2) Spam Breath\n3) Switch in your Yu'la, Broodling of Yu'lon if your Whelpling dies|SELECT|2|SWITCH|3|
-C Strat by Hazelnuttygames@Youtube|QID|41861|STRATEGY|Hazel@YT|N|1) Emerald Presence (keep it refreshed on you)\n2) Spam Breath\n3) Try to use Lift-off to avoid Devour if you are low on health|SELECT|3|
+C The Maw|QID|41861|PET1|Emerald Proto-Whelp;68850;1+2+1|PET2|Emerald Whelpling;7545;1+2+2|PET3|;;170+115|STRATEGY|Hazel@YT|
+C Strat by Hazelnuttygames@Youtube|QID|41861|STRATEGY|Hazel@YT|N|1) [ability=597/emerald-presence] (keep it refreshed on you)\n2) [ability=612/proto-strike]\n3) Spam [ability=115/breath]\n4) Try to time Proto-Strike to avoid Devour if you are low on health\n5) Switch in your Emerald Whelpling if your Proto-Whelp dies|SELECT|1|SWITCH|2|
+C Strat by Hazelnuttygames@Youtube|QID|41861|STRATEGY|Hazel@YT|N|1) [ability=597/emerald-presence] (keep it refreshed on you)\n2) Spam [ability=115/breath]\n3) Switch in your last pet if your Whelpling dies|SELECT|2|SWITCH|3|
+C Strat by Hazelnuttygames@Youtube|QID|41861|STRATEGY|Hazel@YT|N|1) Spam [ability=115/breath]\n2) Try to use [ability=170/lift-off] to avoid Devour if you are low on health|SELECT|3|
 
 ;Only Pets Can Prevent Forest Fires, nearest FP is Lorlathil - Val'sharah
 ;TESTED once

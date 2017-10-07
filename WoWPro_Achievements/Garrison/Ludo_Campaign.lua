@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2017-10-07 19:56
+-- Who: Ludovicus
+-- Log: Cleanup for Horde
+
+-- URL: http://wow-pro.com/node/3648/revisions/28548/view
 -- Date: 2017-03-23 17:34
 -- Who: Ludovicus
 -- Log: Spelling
@@ -159,7 +164,7 @@ return [[
 ; Primal Fury|QID|994920011|M|0.00,0.00|ACH|9492;11| -- Skel
 ; The Warlord's Council|QID|994920012|M|0.00,0.00|ACH|9492;12|
 
-N Garrison Campaign|N|This guide is supposed to trigger when you accept the garrison campaign quests in your garrison. It is not yet complete.|
+N Garrison Campaign|AVAILABLE|35185;35186|N|This guide is supposed to trigger when you accept the garrison campaign quests in your garrison. It is not yet complete.|
 
 ; A Garrison Campaign: The Sargerei|QID|35185;35186|M|40.0,44.4|N|From Khadgar's Servant|
 T Garrison Campaign: The Sargerei|QID|35185;35186|M|43.56,77.29|Z|Shadowmoon Valley@Draenor|N|To Archmage Modera|
@@ -210,9 +215,9 @@ T Forging Ahead|QID|35197|M|40.0,44.4|N|To Khadgar's Servant, wandering in your 
 
 ; Garrison Campaign: Darktide Roost
 ; A Garrison Campaign: Darktide Roost|QID|35876|M|38.34,36.95|N|From Rokhan|
-F Darktide Roost|QID|35876|ACTIVE|35876|M|45.86,51.02|N|Ask Bron Skyhorn for a ride|FACTION|Horde|
-F Darktide Roost|QID|35861|ACTIVE|35861|M|45.86,51.02|N|Ask Dungar Longdrink for a ride|FACTION|Alliance|
-f Darktide Roost|QID|34352|M|59.85,81.83|Z|Shadowmoon Valley@Draenor|N|Get the flight point from Beasttamer Ladaak.|
+F Darktide Roost|ACTIVE|35876|M|45.86,51.02|N|Ask Bron Skyhorn for a ride|FACTION|Horde|
+F Darktide Roost|ACTIVE|35861|M|45.86,51.02|N|Ask Dungar Longdrink for a ride|FACTION|Alliance|
+f Darktide Roost|ACTIVE|35861;35876|M|59.85,81.83|Z|Shadowmoon Valley@Draenor|N|Get the flight point from Beasttamer Ladaak.|
 T Garrison Campaign: Darktide Roost|QID|35876|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|FACTION|Horde|
 T Garrison Campaign: Darktide Roost|QID|35861|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|FACTION|Alliance|
 A Shredder Suppressor|QID|34353|PRE|35876+35861|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|From Rexxar| ;Neutral from here
@@ -231,12 +236,11 @@ A Releasing Rylak|QID|34365|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|
 A Downsizing the Darktide|QID|34397|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 A Free their Minds|QID|34455|PRE|34355|M|59.8,94.52|Z|Shadowmoon Valley@Draenor|N|From the Goblin Mind Control Device|
 C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|S|Z|Shadowmoon Valley@Draenor|
-U Free their minds|QID|34455|M|59.33,95.69|N|Use the Rylak Mind controller on Controlled Darkwing.|QO|1|S|U|110447|Z|Shadowmoon Valley@Draenor|
-t Free their minds|QID|34455|M|59.33,95.69|N|UI turnin.|S|U|110447|Z|Shadowmoon Valley@Draenor|
+U Free their minds|ACTIVE|34455|M|59.33,95.69|N|Use the Rylak Mind controller on Controlled Darkwing.|QO|1|S|U|110447|Z|Shadowmoon Valley@Draenor|
 K Assistant Fexfuse|QID|34397|ACTIVE|34397|M|60.6,93.0|Z|Shadowmoon Valley@Draenor|QO|1|
 K Captain Killrath|QID|34397|ACTIVE|34397|M|62.2,94.0|Z|Shadowmoon Valley@Draenor|QO|2|
 K Ra'ka Bloodspear|QID|34397|ACTIVE|34397|M|59.4,99.0|Z|Shadowmoon Valley@Draenor|QO|3|
-U Free their minds|QID|34455|M|59.33,95.69|N|Use the Rylak Mind controller on Controlled Darkwing.|QO|1|US|U|110447|Z|Shadowmoon Valley@Draenor|
+U Free their minds|ACTIVE|34455|M|59.33,95.69|N|Use the Rylak Mind controller on Controlled Darkwing.|QO|1|US|U|110447|Z|Shadowmoon Valley@Draenor|
 C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|US|
 T Releasing Rylak|QID|34365|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 T Downsizing the Darktide|QID|34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
@@ -283,8 +287,8 @@ T And The Mole You Rode In On|QID|34033|M|64.69,67.35|Z|Lunarfall|N|To Thaelin D
 T Garrison Campaign: Grinding Gears|QID|34034|M|80.0,56.2|Z|Frostfire Ridge|N|To Gazlowe, dismount before accepting the next quest.|FACTION|Horde|
 A I Know The Drill!|QID|34035|PRE|34034|M|80.0,56.2|Z|Frostfire Ridge|N|To Gazlowe|FACTION|Horde|
 C Drill Clutch|QID|34035|M|80.0,56.3|Z|Frostfire Ridge|QO|1|FACTION|Horde|
-K Kruk Ironjaw|QID|34035|M|80.2,56.8|Z|Frostfire Ridge|QO|2|FACTION|Horde|
-K Nakeeta Coldtalon|QID|34035|M|80.2,56.6|Z|Frostfire Ridge|QO|3|FACTION|Horde|
+K Kruk Ironjaw|ACTIVE|34035|M|80.2,56.8|Z|Frostfire Ridge|QO|2|FACTION|Horde|
+K Nakeeta Coldtalon|ACTIVE|34035|M|80.2,56.6|Z|Frostfire Ridge|QO|3|FACTION|Horde|
 T I Know The Drill!|QID|34035|M|80.0,56.2|Z|Frostfire Ridge|N|To Gazlowe|FACTION|Horde|
 A Maker's Mark|QID|34040|PRE|34035|M|80.0,56.2|Z|Frostfire Ridge|N|To Gazlowe|FACTION|Horde|
 A Four Finger Discount|QID|34041|PRE|34035|M|80.0,56.2|Z|Frostfire Ridge|N|To Gazlowe|FACTION|Horde|
@@ -346,6 +350,7 @@ A The Beating Heart|QID|34410|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|Fro
 T The Beating Heart|QID|34410|M|47.0,88.4|N|To Morthis Whisperwing|FACTION|Alliance|Z|Lunarfall|
 A The Beating Heart|QID|34341|PRE|34338;34339;34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Horde|
 T The Beating Heart|QID|34341|M|47.0,88.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall|
+
 ; A Strike at the Heart -- Faction Specific
 ; A Garrison Campaign: Every Rose Has Its Thorn|QID|36160|M|29.25,33.13|N|From Baros Alexston|FACTION|Alliance|
 C Azerothian Rose|QID|36160|M|57.9,57.5|N|In your Garrison Garden.|FACTION|Alliance|
@@ -363,12 +368,12 @@ T A Stolen Heart|QID|36162|M|29.4,34.4|N|From Lieutenant Thorn|FACTION|Alliance|
 C Dul'zak|QID|36261|M|63.4,44.4|QO|1|FACTION|Horde|Z|Frostwall|
 T Garrison Campaign: Missing Grunt|QID|36261|M|40,54.4|N|To Bloody Blade|FACTION|Horde|Z|Frostwall|
 A Where There Is Smoke...|QID|36242|PRE|36261|M|40,54.4|N|From Bloody Blade|FACTION|Horde|Z|Frostwall|
-K Rag'sla Thunkblade slain|QID|36242|M|55.0,17.0|T|Rag'sla|QO|1|FACTION|Horde|Z|Frostwall|
-K Akatha Blazeburn slain|QID|36242|M|73.0,49.4|T|Akatha|QO|2|FACTION|Horde|Z|Frostwall|
-K Drek the Firecaller slain|QID|36242|M|46.0,84.0|T|Drek|QO|3|FACTION|Horde|Z|Frostwall|
+K Rag'sla Thunkblade slain|ACTIVE|36242|M|55.0,17.0|T|Rag'sla|QO|1|FACTION|Horde|Z|Frostwall|
+K Akatha Blazeburn slain|ACTIVE|36242|M|73.0,49.4|T|Akatha|QO|2|FACTION|Horde|Z|Frostwall|
+K Drek the Firecaller slain|ACTIVE|36242|M|46.0,84.0|T|Drek|QO|3|FACTION|Horde|Z|Frostwall|
 T Where There Is Smoke...|QID|36242|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall|
 A A Stolen Heart|QID|36248|PRE|36242|M|40,54.4|N|From Warmaster Zog|FACTION|Horde|Z|Frostwall|
-K Azuka Bladefury|QID|36248|T|Azuka|QO|1|FACTION|Horde|Z|Frostwall|M|52.24,35.55| ; added QID/ACTIVE Id value
+K Azuka Bladefury|ACTIVE|36248|T|Azuka|QO|1|FACTION|Horde|Z|Frostwall|M|52.24,35.55| ; added QID/ACTIVE Id value
 T A Stolen Heart|QID|36248|M|40,54.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall|
 
 ; Fall of Shattrath -- Faction Specific
@@ -379,8 +384,9 @@ C Sargerei Insignias|QID|35683|M|38,21|N|Head into the city of Shattrath and kil
 T Reclaiming the City|QID|35683|M|49.8,48.6|Z|Talador|N|To Exarch Maladaar.|FACTION|Alliance|
 A Socrethar's Demise|QID|35685|PRE|35683|M|49.8,48.6|Z|Talador|N|From Exarch Maladaar.|FACTION|Alliance|
 C Socrethar's Demise|QID|35685|M|42.36,32.99|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Alliance|
-K Socrethar|QID|35685|T|Socrethar|QO|2|FACTION|Alliance|
+K Socrethar|ACTIVE|35685|T|Socrethar|QO|2|FACTION|Alliance|
 T Socrethar's Demise|QID|35685|M|49.8,48.6|Z|Talador|N|To Exarch Maladaar.|FACTION|Alliance|
+
 ; A Garrison Campaign: The Fall of Shattrath|QID|35680|M|47.6,47.0|N|From Khadgar's Servant.|FACTION|Horde|
 T Garrison Campaign: The Fall of Shattrath|QID|35680|M|50.0,48.6|Z|Talador|N|To Lady Liadrin, at the Spire of Light in Talador. Bring a follower.|FACTION|Horde|
 A Reclaiming the City|QID|35684|PRE|35680|M|50.0,48.6|Z|Talador|N|From Lady Liadrin.|FACTION|Horde|
@@ -388,7 +394,7 @@ C Sargerei Insignias|QID|35684|M|38,21|N|Head into the city of Shattrath and kil
 T Reclaiming the City|QID|35684|M|50.0,48.6|Z|Talador|N|To Lady Liadrin.|FACTION|Horde|
 A Socrethar's Demise|QID|35687|PRE|35684|M|50.0,48.6|Z|Talador|N|From Lady Liadrin.|FACTION|Horde|
 C Socrethar's Demise|QID|35687|M|41.6,32.4|Z|Talador|NC|QO|1|N|Click on the banner to issue the challenge.|FACTION|Horde|
-K Socrethar's Demise|QID|35687|T|Socrethar|QO|2|FACTION|Horde|
+K Socrethar|ACTIVE|35687|T|Socrethar|QO|2|FACTION|Horde|
 T Socrethar's Demise|QID|35687|M|50.0,48.6|Z|Talador|N|To Lady Liadrin.|FACTION|Horde|
 
 ; Bloodmaul Compound
@@ -471,6 +477,7 @@ A Brokyo Beatdown|QID|35973|PRE|37511|M|40.75,12.96|Z|Nagrand@Draenor|N|From Diz
 C Brokyo Beatdown|QID|35973|M|41.8,14.4|Z|Nagrand@Draenor|N|Brokyo|QO|1|
 C Brokyo Beatdown|QID|35973|M|41.0,14.2|Z|Nagrand@Draenor|N|Brokyo's Prized Possession|QO|2|
 T Brokyo Beatdown|QID|35973|M|40.6,13.0|Z|Nagrand@Draenor|N|To Dizzy Sparkshift|
+
 ; /neutral
 A News for Nixxie|QID|37517|PRE|35973|M|40.75,12.96|Z|Nagrand@Draenor|N|From Dizzy Sparkshift|FACTION|Alliance|
 T News for Nixxie|QID|37517|M|61.07,79.28|Z|Lunarfall|N|To Nixxie|FACTION|Alliance|
@@ -478,20 +485,20 @@ A News for Nixxie|QID|37516|PRE|35973|M|40.75,12.96|Z|Nagrand@Draenor|N|From Diz
 T News for Nixxie|QID|37516|M|54.8,14.8|Z|Frostwall|N|To Nixxie|FACTION|Horde|; The Exarch's Call -- Alliance Only
 
 ; A Garrison Campaign: The Exarch's Call|QID|36163|M|33.0,34.6|N|From Deedree|
-F Elodor|QID|36163|M|48.00,49.83|N|Fly to Embaari Villiage on Air Longdrink.|
+F Elodor|ACTIVE|36163|M|48.00,49.83|N|Fly to Embaari Villiage on Air Longdrink.|
 T Garrison Campaign: The Exarch's Call|QID|36163|M|65.23,26.18|Z|Shadowmoon Valley@Draenor|N|To Yrel, at the Altar of the Sha'tar|
 A The Trial of Faith|QID|36168|PRE|36163|M|65.33,26.38|Z|Shadowmoon Valley@Draenor|N|From Exarch Maladaar|
 A The Trial of Heart|QID|36167|PRE|36163|M|65.40,26.17|Z|Shadowmoon Valley@Draenor|N|From Exarch Naielle|
 A The Trial of Courage|QID|36164|PRE|36163|M|65.33,25.97|Z|Shadowmoon Valley@Draenor|N|From Exarch Akama|
-F Retribution Point|QID|36168|M|58.6,31.8|Z|Shadowmoon Valley@Draenor|QO|1|N|Fly to Auchindoun on Air Vamuun.|
+F Retribution Point|ACTIVE|36168|M|58.6,31.8|Z|Shadowmoon Valley@Draenor|QO|1|N|Fly to Auchindoun on Air Vamuun.|
 C The Trial of Faith|QID|36168|M|46.32,74.09|Z|Talador|CHAT|QO|1|N|Speak to Soulbinder Tuulani to start the solo scenario in the Auchindoun dungeon. Just go straight ahead and follow Yrel.|
 K Hataaru|ACTIVE|36168|M|46.2,74.0|Z|DraenorAuchindoun|QO|2|N|Go straight through the dungeon until you get to Hataaru.  Try to avoid the moving glowing X's.|
 K Maraad|ACTIVE|36168|M|46.2,74.0|Z|DraenorAuchindoun|QO|3|N|Clear all the trash mobs and get to the central platform and click on the urn to summon Maraad. At the end of the fight you need to click on the hammer Yrel throws.|
-F Rilzit's Holdfast|QID|36167|M|42.11,76.79|Z|Talador|QO|1|N|Air Beldos to Nagrand.|
+F Rilzit's Holdfast|ACTIVE|36167|M|42.11,76.79|Z|Talador|QO|1|N|Air Beldos to Nagrand.|
 C The Trial of Heart|QID|36167|M|46.53,16.64|Z|Nagrand@Draenor|QO|1|CHAT|N|Speak with Yrel to start|
 A An Act of Kindness|QID|36193|M|49.42,16.59|Z|Nagrand@Draenor|N|From Rangari Saardar|RANK|2|
 C Revive Fallen Rangari|QID|36193|QO|1|S|U|114926|N|The goldcaps heal you as well as the rangers|
-K Plaguebloom|QID|36167|M|46.4,10.4|Z|Nagrand@Draenor|QO|2|
+K Plaguebloom|ACTIVE|36167|M|46.4,10.4|Z|Nagrand@Draenor|QO|2|
 C Revive Fallen Rangari|QID|36193|QO|1|US|U|114926|N|The goldcaps heal you as well as the rangers|
 T An Act of Kindness|QID|36193|M|49.42,16.59|Z|Nagrand@Draenor|N|From Rangari Saardar|
 F Bloodmaul Slag Mines|QID|36164|M|50.75,30.64|Z|Nagrand@Draenor|QO|1|N|Go to the Iron Siegeworks.|

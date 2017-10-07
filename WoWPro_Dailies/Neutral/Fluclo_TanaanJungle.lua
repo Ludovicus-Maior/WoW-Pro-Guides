@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3628
+-- Date: 2017-10-07 19:54
+-- Who: Ludovicus
+-- Log: Updated [Garrison Campaign: Onslaught at Auchindoun] for horde
+
+-- URL: http://wow-pro.com/node/3628/revisions/28557/view
 -- Date: 2017-03-23 17:46
 -- Who: Ludovicus
 -- Log: Spelling
@@ -236,24 +241,25 @@ T Dark Ascension|QID|38223|M|16.12, 44.38|N|To Reshad|
 
 ;a Garrison Campaign: Onslaught at Auchindoun|QID|38415|FACTION|Horde|
 ;a Garrison Campaign: Onslaught at Auchindoun|QID|38421|FACTION|Alliance|
-F Retribution Point|QID|38421|ACTIVE|38421|M|57.51,58.76|N|To Skyguard Thann|
-T Garrison Campaign: Onslaught at Auchindoun|QID|38415|FACTION|Horde|
+F Retribution Point|ACTIVE|38421|M|57.51,58.76|N|To Skyguard Thann|FACTION|Alliance|
+F Retribution Point|ACTIVE|38415|M|60.43,46.44|N|To Garhash the Diver|FACTION|Horde|
+T Garrison Campaign: Onslaught at Auchindoun|QID|38415|M|44.33,65.34|Z|Talador|N|To Lady Liadrin|FACTION|Horde|
 T Garrison Campaign: Onslaught at Auchindoun|QID|38421|M|44.30,65.39|Z|Talador|N|To Yrel|FACTION|Alliance|
-A Secrets of the Sargerei|QID|38416|PRE|38415|FACTION|Horde|
+A Secrets of the Sargerei|QID|38416|PRE|38415|M|44.33,65.34|Z|Talador|N|From Lady Liadrin|FACTION|Horde|
 A Secrets of the Sargerei|QID|38562|PRE|38421|M|44.30,65.39|Z|Talador|N|From Yrel|FACTION|Alliance|
 A The Sargerei Menace|QID|38565|PRE|38421|M|44.30,65.39|Z|Talador|N|From Yrel|FACTION|Alliance|
-A The Sargerei Menace|QID|38417|PRE|38415|FACTION|Horde|
-K Sargerei|QID|38565;38417|M|46.15,62.62|Z|Talador|QO|1|N|Kill Sargerei and make your way to the hole in the middle.|
+A The Sargerei Menace|QID|38417|PRE|38415|M|44.33,65.34|Z|Talador|N|From Lady Liadrin|FACTION|Horde|
+K Sargerei|ACTIVE|38565;38417|M|46.15,62.62|Z|Talador|QO|1|N|Kill Sargerei and make your way to the hole in the middle.|
 T The Sargerei Menace|QID|38565|FACTION|Alliance|
 T The Sargerei Menace|QID|38417|FACTION|Horde|
 C Breached Ossuary|QID|38416;38562|M|46.75,63.53|Z|Talador|QO|1|N|Down the rabbit hole ...|
 C Destroy West Fel Soul Drainer|QID|38416;38562|M|24.14,44.60|Z|Talador/30|QO|2|
 C Destroy East Fel Soul Drainer|QID|38416;38562|M|63.52,17.51|Z|Talador/30|QO|3|
 C Investigate the Lower Chamber|QID|38416;38562|M|49.95,50.92|Z|Talador/30|QO|4|
-C Destroy the Corrupted Soul Foci|QID|38416;38562|M|58,78|Z|Talador|QO|5|
-C Defeat Gorefiend|QID|38416;38562|M|60,86|Z|Talador|QO|6|
-T Secrets of the Sargerei|QID|38416|FACTION|Horde|
-T Secrets of the Sargerei|QID|38562|FACTION|Alliance|M|56.77,66.58|Z|Talador|QO|5|N|To Yrel|
+C Destroy the Corrupted Soul Foci|QID|38416;38562|M|59,80|Z|Talador/30|QO|5|
+C Defeat Gorefiend|QID|38416;38562|M|59,80|Z|Talador/30|QO|6|
+T Secrets of the Sargerei|QID|38416|FACTION|Horde|M|53.57,68.99|Z|Talador/30|N|To Lady Liadrin|
+T Secrets of the Sargerei|QID|38562|FACTION|Alliance|M|53.57,68.99|Z|Talador/30|Z|Talador|N|To Yrel|
 
 ;a Garrison Campaign: The Warlock|QID|38561|FACTION|Alliance|
 ;a Garrison Campaign: The Warlock|QID|38458|FACTION|Horde|
@@ -335,7 +341,7 @@ A Upgrading The Fleet |QID|39245|PRE|39676|N|From Rolash Wavechaser|M|42.08,71.0
 A I Sunk Your Battleship |QID|39601|PRE|39056|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 A I Sunk Your Battleship |QID|39604|PRE|39676|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
-A Gems of the Apexis |QID|39175|N|From Baros Alexston|M|29.23,33.12|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|P|Jewelcrafting;755|
+A Gems of the Apexis |QID|39175|PRE||N|From Baros Alexston|M|29.23,33.12|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|P|Jewelcrafting;755|
 A Gems of the Apexis |QID|39175|N|From Gazlowe|M|42,55|Z|Shadowmoon Valley@Draenor|FACTION|Horde|P|Jewelcrafting;755|
 
 F Lion's Watch |QID|39601|M|48.00,49.80|Z|Lunarfall|N|Now fly back to Tanaan Jungle|FACTION|Alliance|
@@ -356,7 +362,7 @@ T Upgrading The Fleet |QID|39245|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfir
 A Naval Domination |QID|39068|PRE|39067|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 A Naval Domination |QID|39246|PRE|39245|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 C Naval Domination |QID|39068;39246|QO|1|N|You need to complete 25 Naval Treasure Missions.|NC|S|
-K Belgork|AVAILABLE|38932|M|34.9,47.1|N|Equipment Blueprint: Bilge Pump|T|Belgork|
+K Belgork|AVAILABLE|38932|M|32.17,49.04;34.9,47.1|CS|N|Equipment Blueprint: Bilge Pump|T|Belgork|
 K Felsmith Damorka|AVAILABLE|39366|M|45.7,47.0|N|Equipment Blueprint: Felsmoke Launchers|T|Felsmith Damorka|
 K Captain Ironbeard|AVAILABLE|39365|M|36.2,79.0|N|Equipment Blueprint: Ghostly Spyglass|T|Captain Ironbeard|
 K Xanzith the Everlasting|AVAILABLE|39356|M|60.0,21.6|N|Equipment Blueprint: High Intensity Fog Lights|T|Xanzith the Everlasting|

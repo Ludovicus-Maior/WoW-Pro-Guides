@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2017-10-07 19:58
+-- Who: Ludovicus
+-- Log: Tag fix for ACTIVE/QID
+
+-- URL: http://wow-pro.com/node/3679/revisions/28750/view
 -- Date: 2017-08-12 21:07
 -- Who: Ludovicus
 -- Log: Obliterum
@@ -220,6 +225,7 @@ T The Path of the Dreadscar|QID|40824|M|65.69,47.86|N|To Ritssyn Flamescowl.|
 A A Mutual Friend|QID|44099|LVL|101|N|From Black Harvest Acolyte.|
 T A Mutual Friend|QID|44099|M|56.4,64.6|Z|The Underbelly@Dalaran70|N|To Calydus.|
 
+L Blocked till 101|QID|42608|LVL|101|N|The next quest in the class hall requires level 101.|
 A Rise, Champions|QID|42608|PRE|44099|LVL|101|M|37.47,31.72|N|From Calydus.|
 C Rise, Champions|QID|42608|M|65.66,47.46|N|Recruit Ritssyn Flamescowl.|
 T Rise, Champions|QID|42608|M|66.82,45.95|N|To Gakin the Darkbinder.|
@@ -245,7 +251,7 @@ R Krasus' Landing|QID|41759|ACTIVE|41759|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run
 F Felblaze Ingress|QID|41759|ACTIVE|41759|M|69.81,51.06|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
 T An Unlikely Ally|QID|41759|M|60.77,30.68|Z|Azsuna|N|To Kira Iresoul.|
 A Bloodstone Bandit|QID|39179|PRE|41759|LVL|103|M|60.77,30.68|Z|Azsuna|N|From Kira Iresoul.|
-K Bloodstone Bandit|QID|39179|M|63.60,44.35|Z|Azsuna|T|Narashi Spitescale|N|Kill Narashi Spitescale for the bloodstone.|
+K Bloodstone Bandit|ACTIVE|39179|M|63.60,44.35|Z|Azsuna|T|Narashi Spitescale|N|Kill Narashi Spitescale for the bloodstone.|
 T Bloodstone Bandit|QID|39179|M|60.77,30.68|Z|Azsuna|N|To Kira Iresoul.|
 A It Hungers for Blood|QID|39389|PRE|39179|LVL|103|M|60.77,30.68|Z|Azsuna|N|From Kira Iresoul.|
 K It Hungers for Blood|QID|39389|M|65,28|Z|Azsuna|N|Kill Demons around Felblaze Ingress, about 10-12 demons killed should complete it.|
