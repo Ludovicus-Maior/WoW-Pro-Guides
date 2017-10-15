@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_artifact_and_class_hall
+-- Date: 2017-10-15 20:16
+-- Who: Ludovicus
+-- Log: Added a draft of the level 110 order hall quests.  No scenario info yet.
+
+-- URL: http://wow-pro.com/node/3685/revisions/28753/view
 -- Date: 2017-08-12 21:10
 -- Who: Ludovicus
 -- Log: Obliterum
@@ -189,6 +194,7 @@ A Time is of the Essence|QID|41096;41067|M|59.39,51.34|Z|Lower Command Center@De
 T Time is of the Essence|QID|41096;41067|M|58.65,57.95|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer or Kayn Sunfury.|
 
 A Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41096+41067|
+C Direct Our Wrath|QID|41099;41069|QO|1|N|Select the first questing zone. Val'sharah is highly recommmended|
 T Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer or Kayn Sunfury.|
 
 A Rise, Champions|QID|42671|PRE|41069+40374|LVL|101|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kor'vas Bloodthorn.|
@@ -211,6 +217,41 @@ T Demonic Improvements|QID|42683|M|59.93,48.92|Z|Upper Command Center@DemonHunte
 A Additional Accoutrements|QID|42682|LVL|101|PRE|42683|M|59.93,48.92|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Matron Mother Malevolence.|
 C Additional Accoutrements|QID|42682|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|QO|1|N|Use Scouting Map to complete the 1 hour Mission 'Additional Accoutrements'|
 t Additional Accoutrements|QID|42682|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Kor'vas Bloodthorn.|
+
+;light's heart intro questline
+A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|PRE|42522|
+C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
+C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
+C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
+C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
+U Dalaran Hearthstone|ACTIVE|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
+P Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
+T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
+A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar.|PRE|42457|
+P The Exodar|QID|44004|M|28.69,33.55|Z|Aegwynn's Gallery@Dalaran70|N|Take Khadgar's portal to enter a scenario.|ACTIVE|44004|
+C The Prophet and the Butcher|QID|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
+C In Defense of The Exodar|QID|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
+A Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Automatically accepted by entering the area.|RANK|2|ACTIVE|44004|
+C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|S|N|Kill demons to achieve the objective.|RANK|2|
+A Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|From Farseer Nobundo|RANK|2|ACTIVE|44004|
+C Nobundo's Last Stand|QID|43705|QO|1|M|44.87,9.35|Z|TheExodar|CHAT|N|Tell him you are ready.|RANK|2|
+C Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|Kill 3 waves of mobs.|RANK|2|
+T Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|To Farseer Nobundo.|RANK|2|
+K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|ITEM|140533|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RANK|2|
+C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|US|N|Finish the objective or click it off manually.|RANK|2|
+t Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Auto turned in upon completion.|RANK|2|
+C In Defense of the Exodar|QID|44004|SO|2|US|M|44.87,9.35|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
+C Return to the Prophet|QID|44004|SO|3|M|33.95,66.25|Z|TheExodar|NC|N|Head back to Prophet Velen.|
+C The Light's Heart|QID|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to show him the object.|
+C A Long Way Down|QID|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
+C Revelations|QID|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When Velen says to STOP, ignore him and continue killing the fel annihilator *even though Prophet Velen is also fighting you now*.|
+U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use Khadgar's Beacon and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|ACTIVE|44004|
+T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage Kadgar.|
+A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
+T Light's Charge|QID|44153|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to your order hall and return to Light's Heart (table in alcove adjacent Soul Forge on the upper level).|
+
+a In Pursuit of Power|QID|44379;44383|LVL|102|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer or Kayn Sunfury.\nTo get the second artifact weapon.|
+
 A The Blood of Demons|QID|37447|PRE|42682|LVL|103|M|59.30,57.60|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Kor'vas Bloodthorn|
 C The Blood of Demons|QID|37447|M|42.84,43.56|Z|Azsuna|QO|1|N|Collect 100 Fel Bloods, from killing any demons. The coords are for a farming spot in Azsuna near a turret at Illidari Stand.|
 T The Blood of Demons|QID|37447|M|58.41,51.62|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer or Kayn Sunfury.|
@@ -273,14 +314,94 @@ T Green Adepts|QID|42808|M|57.59,52.31|Z|Upper Command Center@DemonHunterOrderHa
 
 ; LVL 110 Quests, or part thereof...
 
-A Khadgar's Discovery|QID|39985|M|60.92,44.73|Z|Dalaran@Dalaran70|N|Upon arriving in Dalaran and being level 110 from a UI Alert.|LVL|110|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
-C In the House of Light and Shadow|QID|44448|M|58.70,43.02|NC|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
+A Goddess Watch Over You|QID|44337;44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
+C Goddess Watch Over You|QID|44338;44338|N|You need to do the main Val'sharah quest line to complete this quest.|
+t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|40890|
+R Death Gate|QID|44448|M|28.43,40.38|Z|Dalaran@Dalaran70|N|Return to your order hall.|ACTIVE|44448|LVL|110|
+C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
+
 A Firing Up the Forge|QID|41778|LVL|110|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 
-; end of quests Blanckaert added
+A You Will Be Prepared!|QID|44213|LVL|110|M|57.8,44.2|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Belath Dawnblade.|
+T You Will Be Prepared!|QID|44213|LVL|110|M|57.8,44.2|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Belath Dawnblade.|
+A Deal With It Personally|QID|42787|PRE|44213|M|57.8,44.2|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Belath Dawnblade.|
+K Devouring Darkness|ACTIVE|42787|QO|1|M|54.4,41.2|Z|Highmountain|N|Extinguish the flames of the kobold candles to summon forth the Devouring Darkness.|T|Devouring|
+K Hertha Grimdottir|ACTIVE|42787|QO|2|M|61.4,39.6|Z|Suramar|T|Hertha|
+K Theryssia|ACTIVE|42787|QO|3|M|38.0,52.8|Z|Val'sharah|T|Theryssia|
+T Deal With It Personally|QID|42787|PRE|44213|M|57.8,44.2|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Belath Dawnblade.|
+A Malace in Vrykul Land|QID|42735|PRE|42787|M|57.8,44.2|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Belath Dawnblade.|
+F Valdisdall|ACTIVE|42735|M|72.8,45.6|Z|Dalaran@Dalaran70|N|Take the quick flight to Valdisdal or take the scenic route from Aludane Whitecloud in Dalaran|
+T Malace in Vrykul Land|QID|42735|M|64.8,59.0|Z|Stormheim|N|To Malace Shade|
+A Rune Ruination|QID|42736|PRE|42735|M|64.8,59.0|Z|Stormheim|N|From Malace Shade|
+A Rune Ruination: Runeskeld Rollo|QID|42737|M|64.9,59.1|Z|Stormheim|N|From Rollo's Runestone|
+A Rune Ruination: Runelord Ragnar|QID|42738|M|64.9,59.0|Z|Stormheim|N|From Ragnar's Runestone|
+A Rune Ruination: Runesage Floki|QID|42739|M|65.0,59.0|Z|Stormheim|N|From Floki's Runestone|
+R Rollo's Hideout|ACTIVE|42737|QO|1|M|71.4,39.0|Z|Stormheim|N|Mount up and head to the entrance to Rollo's chamber.|
+K Runeskeld Rollo|ACTIVE|42737|QO|1|M|71.2,38.2|Z|Stormheim|N|Take his rune.|T|Runeskeld Rollo|
+K Runesage Floki|ACTIVE|42739|QO|1|M|60.8,46.0|Z|Stormheim|N|Mount up and head to Floki's House.\nLoot his rune.|T|Runesage Floki|
+K Runelord Ragnar|ACTIVE|42738|QO|1|M|45.6,69.2|Z|Stormheim|N|Mount up and head to Floki's place in Hrydshal.\nLoot his rune.|T|Runelord Ragnar|
+T Rune Ruination: Runeskeld Rollo|QID|42737|M|64.9,59.1|Z|Stormheim|N|From Rollo's Runestone|
+T Rune Ruination: Runelord Ragnar|QID|42738|M|64.9,59.0|Z|Stormheim|N|From Ragnar's Runestone|
+T Rune Ruination: Runesage Floki|QID|42739|M|65.0,59.0|Z|Stormheim|N|From Floki's Runestone|
+T Rune Ruination|QID|42736|M|64.8,59.0|Z|Stormheim|N|From Malace Shade|
+A Strange Bedfellows|QID|42749|M|64.8,59.0|Z|Stormheim|N|From Malace Shade|
+C Malace Shade|QID|42749|QO|1|M|66.4,63.7|Z|Stormheim|NC|CHAT|N|Meet Malace at the end of the bridge to the Halls of Valor.\nAsk her to Taunt Lochaber|
+K Lochaber|ACTIVE|42749|QO|2|M|66.4,63.8|Z|Stormheim|N|Slay Lochaber|
+T Strange Bedfellows|QID|42749|N|Turn in quest to UI|
+A Vault of the Wardens: Vault Break-In|QID|42752;42753|N|From the UI.|
+C Sargerite Keystone|QID|42752;42753|N|This is a Dungeon Quest in "Vault of the Wardens".\nThe drop is from the last boss.|
+T Vault of the Wardens: Vault Break-In|QID|42752;42753|M|57.8,44.2|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Belath Dawnblade.|
+A The Crux of the Plan|QID|42775|PRE|42752+42753|M|57.8,44.2|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Belath Dawnblade.|
+C Sargerite Keystone|QID|42775|QO|1|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|Go the command table and click on the key above.|
+T The Crux of the Plan|QID|42775|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer / Kayn Sunfury.\nUse Spectal Sight if they are hiding.|
+A Two Worthies|QID|42776|PRE|42775|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Altruis the Sufferer / Kayn Sunfury.\nUse Spectal Sight if they are hiding.|
+C Belath Dawnblade|QID|42776|QO|1|M|57.8,44.2|Z|Upper Command Center@DemonHunterOrderHallTerrain|CHAT|N|Recruit Belath Dawnblade.|
+C Malevolence|QID|42776|QO|2|M|59.90,48.92|Z|Upper Command Center@DemonHunterOrderHallTerrain|CHAT|N|Recruit Matron Mother Malevolence.|
+T Two Worthies|QID|42776|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Allari the Souleater, downstairs.|
+A Preparations for Invasion|QID|42669|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Allari the Souleater, downstairs.|
+A One Battle at a Time|QID|44694|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Jace Darkweaver, downstairs.|
+C World Quests|QID|44694|QO|1|N|Go out into the world and do 10 World Quests. Be sure to return command table when missions are ready.|S|
+C Missions|QID|42669|M|58.12,54.02|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|Go the command table and do the 5 "Preparations for Invasion" missions.\nThey take an hour each.|
+C World Quests|QID|44694|QO|1|N|Go out into the world and do 10 World Quests. Be sure to return command table when missions are ready.|US|
+T Preparations for Invasion|QID|42669|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Allari the Souleater, downstairs.|
+T One Battle at a Time|QID|44694|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Allari the Souleater, downstairs.|
+A Deadlier Warglaives|QID|42732|PRE|42669;44694|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Allari the Souleater, downstairs.|
+A A Very Special Kind of Fuel|QID|42733|PRE|42669;44694|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Allari the Souleater, downstairs.|
+C Sovereign Souls|QID|42733|QO|1|N|Do some Legion Dungeons and collect Souls.\nVault of the Wardens, Halls of Valor, Eye of Azshara have 5 bosses each.|S|
+C Obliterum|QID|42732|QO|1|N|Collect 1 Obliterum, which can be obtained either the Forge of Fate in Dalaran or from the Auction House.|
+C Sovereign Souls|QID|42733|QO|1|N|Do some Legion Dungeons and collect Souls.\nVault of the Wardens, Halls of Valor, Eye of Azshara have 5 bosses each.|US|
+T Deadlier Warglaives|QID|42732|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Jace Darkweaver, downstairs.|
+T A Very Special Kind of Fuel|QID|42733|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Jace Darkweaver, downstairs.|
+A Jump-Capable|QID|42754|PRE|42732;42733|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Jace Darkweaver, downstairs.|
+P Portal in Felsoul Hold|QID|42754|QO|1|M|31.4,83.6;26.8,49.1|Z|Azsuna|N|Head to this building in Felsoul Hold and take the portal inside.|
+C Fel Engine Ignition|QID|42754|QO|2|M|28.5,52.2|Z|Azsuna|N|Run downstairs and find Inquisitor Tivos. The item is behind his altar.|
+C Vile Spirit Converter|QID|42754|QO|3|M|32.5,53.8|Z|Azsuna|N|Head outside and to the "Soul Engine: Apocalypse" building.  The item is near the central reactor.|
+P Portal at Faronaar|QID|42754|QO|4|M|31.3,84.0|Z|Suramar|N|Head to Suramar and take the portal in the building.|
+C Fel Engine Injector|QID|42754|QO|5|33.7,73.5|Z|Suramar|N|Head to the North-east chamber and get your Injector.|
+C Soul Configuration Matrix|QID|42754|QO|6|M|34.7,67.7|Z|Suramar|N|Head out and go to the central reactor to get your Matrix.|
+T Jump-Capable|QID|42754|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Jace Darkweaver, downstairs.|
+A A Final Offer|QID|42810|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Jace Darkweaver, downstairs.|
+C Fel Hammer Balcony|QID|42810|QO|1|M|50,50|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|Go the South balcony upstairs.|
+C The Offer|QID|42810|QO|2|M|50,50|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|Click on the extra action button to reject his offer.|
+T A Final Offer|QID|42810|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|To Jace Darkweaver, downstairs.|
+A The Invasion of Niskara|QID|42809;42920|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|N|From Jace Darkweaver, downstairs.|
+N Missing Scenario|ACTIVE|42809;42920|N|This has not been filled in yet. Sorry!|
+T The Invasion of Niskara|QID|42809;42920|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer / Kayn Sunfury.|
+A Last, But Not Least|QID|42132|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Altruis the Sufferer / Kayn Sunfury.|
+C Allari the Souleater|QID|42132|QO|1|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|CHAT|N|Recruit Allari the Souleater, downstairs.|
+C Jace Darkweaver|QID|42132|QO|2|M|59.39,51.34|Z|Lower Command Center@DemonHunterOrderHallTerrain|CHAT|N|Recruit Jace Darkweaver, downstairs.|
+T Last, But Not Least|QID|42132|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer / Kayn Sunfury.|
+A I Am the Slayer!|QID|43186|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Altruis the Sufferer / Kayn Sunfury.|
+C Slayer!|QID|43186|QO|1|N|Listen as you are honored by the Illidari.|
+T I Am the Slayer!|QID|43186|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|To Altruis the Sufferer / Kayn Sunfury.|
+A One More Thing...|QID|44214|M|58.63,57.85|Z|Upper Command Center@DemonHunterOrderHallTerrain|N|From Altruis the Sufferer / Kayn Sunfury.|
+T One More Thing...|QID|44214|M|57.7,34.0|Z|Lower Command Center@DemonHunterOrderHallTerrain|To Altruis the Sufferer / Kayn Sunfury, downstairs.|
+A A Hero's Weapon|QID|43412|M|57.7,34.0|Z|Lower Command Center@DemonHunterOrderHallTerrain|To Altruis the Sufferer / Kayn Sunfury, downstairs.|
+C Before the Forge|QID|43412|QO|1|NC|N|Stand in the marked spot and click on the extra action button.|
+T A Hero's Weapon|QID|43412|M|57.7,34.0|Z|Lower Command Center@DemonHunterOrderHallTerrain|To Altruis the Sufferer / Kayn Sunfury, downstairs.|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
