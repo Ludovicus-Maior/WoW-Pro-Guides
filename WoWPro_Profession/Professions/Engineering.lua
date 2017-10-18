@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/profession_engineering
 -- Date: 2017-03-06 03:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
 -- URL: http://wow-pro.com/node/3461/revisions/28193/view
 -- Date: 2017-01-02 22:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New style registration
 
 -- URL: http://wow-pro.com/node/3461/revisions/25657/view
@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3461/revisions/24906/view
 -- Date: 2012-01-19 00:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to GIT
 
 local guide = WoWPro:RegisterGuide("TwiEngineering","Profession","Engineering", "Twists", "Neutral")

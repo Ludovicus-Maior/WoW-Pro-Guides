@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/profession_herbalism
 -- Date: 2017-03-06 03:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
 -- URL: http://wow-pro.com/node/3462/revisions/28195/view
 -- Date: 2017-01-02 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New style registration
 
 -- URL: http://wow-pro.com/node/3462/revisions/25660/view
@@ -24,7 +24,7 @@
 
 -- URL: http://wow-pro.com/node/3462/revisions/24907/view
 -- Date: 2012-01-19 00:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to GIT
 
 local guide = WoWPro:RegisterGuide("TwiHerbalism","Profession","Herbalism", "Twists", "Neutral")

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
 -- Date: 2017-03-17 00:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: added PREs
 
 -- URL: http://wow-pro.com/node/3255/revisions/27630/view
@@ -24,41 +24,41 @@
 
 -- URL: http://wow-pro.com/node/3255/revisions/26603/view
 -- Date: 2014-07-25 21:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: adj mean
 
 -- URL: http://wow-pro.com/node/3255/revisions/26464/view
 -- Date: 2014-06-02 16:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add guide level
 
 -- URL: http://wow-pro.com/node/3255/revisions/26356/view
 -- Date: 2014-05-27 20:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "48,50" to "46,49".
 
 -- URL: http://wow-pro.com/node/3255/revisions/26253/view
 -- Date: 2014-05-25 23:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3255/revisions/26127/view
 -- Date: 2014-05-20 11:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3255/revisions/26102/view
 -- Date: 2014-05-18 22:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3255/revisions/26062/view
 -- Date: 2014-05-17 20:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3255/revisions/25909/view
 -- Date: 2014-03-06 23:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dont send Hordies to the ALLIANCE flightmaster!
 
 -- URL: http://wow-pro.com/node/3255/revisions/25803/view
@@ -83,7 +83,7 @@
 
 -- URL: http://wow-pro.com/node/3255/revisions/25397/view
 -- Date: 2013-01-12 22:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3255/revisions/24570/view
@@ -92,7 +92,7 @@
 
 -- URL: http://wow-pro.com/node/3255/revisions/24558/view
 -- Date: 2011-06-18 17:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 66, for step T non-decimal QID: [T A New Master... But Who?|QID||M|68.52,53.49|N|To Jack Rockleg.|]
 
 -- URL: http://wow-pro.com/node/3255/revisions/24555/view
@@ -112,15 +112,15 @@
 
 -- URL: http://wow-pro.com/node/3255/revisions/24402/view
 -- Date: 2011-05-17 01:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3255/revisions/24394/view
 -- Date: 2011-05-17 01:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3255/revisions/24303/view
 -- Date: 2011-04-29 14:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 46 for step A has unknown tag [68.94,53.5], Line 111 for step R has 1 M coords, Line 167 for step C has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3255/revisions/23929/view

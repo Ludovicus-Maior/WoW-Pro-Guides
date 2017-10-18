@@ -5,37 +5,37 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
 -- Date: 2017-03-15 21:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JamBor6872
 
 -- URL: http://wow-pro.com/node/3289/revisions/26408/view
 -- Date: 2014-05-30 15:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Adjust
 
 -- URL: http://wow-pro.com/node/3289/revisions/26281/view
 -- Date: 2014-05-26 01:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3289/revisions/26167/view
 -- Date: 2014-05-20 19:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3289/revisions/25987/view
 -- Date: 2014-05-14 22:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3289/revisions/25626/view
 -- Date: 2013-05-14 15:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected name of [Military?  What Military?]
 
 -- URL: http://wow-pro.com/node/3289/revisions/25366/view
 -- Date: 2013-01-12 18:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN and CC tags
 
 -- URL: http://wow-pro.com/node/3289/revisions/25038/view
@@ -45,12 +45,12 @@
 
 -- URL: http://wow-pro.com/node/3289/revisions/25002/view
 -- Date: 2012-06-08 14:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct P tag for cooking quest note.
 
 -- URL: http://wow-pro.com/node/3289/revisions/24938/view
 -- Date: 2012-02-05 14:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Quest name corrections
 
 -- URL: http://wow-pro.com/node/3289/revisions/24856/view

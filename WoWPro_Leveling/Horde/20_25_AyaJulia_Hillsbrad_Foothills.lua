@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
 -- Date: 2017-03-15 23:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to AyaHil2025
 
 -- URL: http://wow-pro.com/node/3223/revisions/27264/view
@@ -15,27 +15,27 @@
 
 -- URL: http://wow-pro.com/node/3223/revisions/26434/view
 -- Date: 2014-06-02 14:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels.
 
 -- URL: http://wow-pro.com/node/3223/revisions/26224/view
 -- Date: 2014-05-25 22:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3223/revisions/26129/view
 -- Date: 2014-05-20 17:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3223/revisions/26035/view
 -- Date: 2014-05-17 17:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3223/revisions/25614/view
 -- Date: 2013-05-09 22:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixed [*Gurgle* HELP! *Gurgle*]
 
 -- URL: http://wow-pro.com/node/3223/revisions/24601/view
@@ -47,7 +47,7 @@
 
 -- URL: http://wow-pro.com/node/3223/revisions/24084/view
 -- Date: 2011-01-30 19:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected RegisterGuide to match GIT.
 
 -- URL: http://wow-pro.com/node/3223/revisions/23831/view

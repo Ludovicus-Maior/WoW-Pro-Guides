@@ -5,26 +5,26 @@
 
 -- URL: http://wow-pro.com/wiki/jewelcrafting_designs
 -- Date: 2017-01-02 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration style
 
 -- URL: http://wow-pro.com/node/3571/revisions/28079/view
 -- Date: 2016-11-30 20:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fix single section error.
 
 -- URL: http://wow-pro.com/node/3571/revisions/27778/view
 -- Date: 2016-09-14 18:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dalaran City@Dalaran
 
 -- URL: http://wow-pro.com/node/3571/revisions/25894/view
 -- Date: 2014-02-14 00:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3571/revisions/25889/view
 -- Date: 2014-02-14 00:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoShopJewelcrafting","Profession", "Jewelcrafting", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Jewelcrafting Designs")

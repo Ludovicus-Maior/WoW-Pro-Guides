@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
 -- Date: 2017-03-15 21:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to CraBur5052
 
 -- URL: http://wow-pro.com/node/3265/revisions/27690/view
@@ -20,37 +20,37 @@
 
 -- URL: http://wow-pro.com/node/3265/revisions/26623/view
 -- Date: 2014-07-25 22:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: add mean
 
 -- URL: http://wow-pro.com/node/3265/revisions/26340/view
 -- Date: 2014-05-27 20:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "49,51".
 
 -- URL: http://wow-pro.com/node/3265/revisions/26261/view
 -- Date: 2014-05-26 00:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3265/revisions/26260/view
 -- Date: 2014-05-26 00:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3265/revisions/26093/view
 -- Date: 2014-05-18 22:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3265/revisions/25979/view
 -- Date: 2014-05-14 22:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3265/revisions/25743/view
 -- Date: 2013-08-15 23:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: added panda support for [A Perfect Costume].
 
 -- URL: http://wow-pro.com/node/3265/revisions/25387/view
@@ -70,7 +70,7 @@
 
 -- URL: http://wow-pro.com/node/3265/revisions/24304/view
 -- Date: 2011-04-29 14:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 121 for step C has 1 M coords, Line 123 for step C has 1 M coords, Line 127 for step C has 1 M coords, Line 179 for step K has 3 M coords.
 
 -- URL: http://wow-pro.com/node/3265/revisions/23930/view

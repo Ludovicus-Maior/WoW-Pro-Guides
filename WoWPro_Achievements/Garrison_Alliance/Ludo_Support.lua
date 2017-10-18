@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/garrisson_support
 -- Date: 2017-03-10 22:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax fixes.
 
 -- URL: http://wow-pro.com/node/3649/revisions/27424/view
 -- Date: 2016-01-09 00:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 3649
 
 -- URL: http://wow-pro.com/node/3649/revisions/27423/view
 -- Date: 2016-01-09 00:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide('LudoGarrissonSupport', 'Achievements', 'Lunarfall', 'Ludovicus', 'Alliance')

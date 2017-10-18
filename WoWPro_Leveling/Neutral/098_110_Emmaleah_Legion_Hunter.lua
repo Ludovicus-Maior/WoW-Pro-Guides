@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/node/3670
 -- Date: 2017-08-12 21:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3670/revisions/28684/view
@@ -25,12 +25,12 @@
 
 -- URL: http://wow-pro.com/node/3670/revisions/28588/view
 -- Date: 2017-03-23 19:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3670/revisions/28466/view
 -- Date: 2017-03-16 22:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a PRE; syntax change.
 
 -- URL: http://wow-pro.com/node/3670/revisions/28257/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3670/revisions/27857/view
 -- Date: 2016-09-29 17:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add missing trailing |
 
 -- URL: http://wow-pro.com/node/3670/revisions/27766/view
@@ -70,12 +70,12 @@
 
 -- URL: http://wow-pro.com/node/3670/revisions/27652/view
 -- Date: 2016-08-30 22:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: BrokenShore zone correction
 
 -- URL: http://wow-pro.com/node/3670/revisions/27651/view
 -- Date: 2016-08-30 22:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Default zone was wrong.
 
 -- URL: http://wow-pro.com/node/3670/revisions/27567/view

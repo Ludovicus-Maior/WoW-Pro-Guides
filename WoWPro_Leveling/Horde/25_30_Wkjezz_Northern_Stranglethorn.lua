@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
 -- Date: 2017-03-15 23:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to WkjNor2530
 
 -- URL: http://wow-pro.com/node/3232/revisions/27523/view
@@ -15,58 +15,58 @@
 
 -- URL: http://wow-pro.com/node/3232/revisions/27512/view
 -- Date: 2016-08-01 01:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3232/revisions/27466/view
 -- Date: 2016-07-17 20:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of the use of fake QIDs
 
 -- URL: http://wow-pro.com/node/3232/revisions/26459/view
 -- Date: 2014-06-02 15:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3232/revisions/26231/view
 -- Date: 2014-05-25 22:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3232/revisions/26101/view
 -- Date: 2014-05-18 22:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3232/revisions/26030/view
 -- Date: 2014-05-17 17:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3232/revisions/25827/view
 -- Date: 2013-12-01 00:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Just a few tweaks
 
 -- URL: http://wow-pro.com/node/3232/revisions/25714/view
 -- Date: 2013-06-18 00:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing coordinate, 1/1 in guide WkjNor2530, line [C Raptor Mastery].
 
 -- URL: http://wow-pro.com/node/3232/revisions/25502/view
 -- Date: 2013-01-22 18:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cleaned up guide start to account for Ashenvale.
 --	Corrected flight point names.
 --	Coord Tweaks.
 
 -- URL: http://wow-pro.com/node/3232/revisions/25478/view
 -- Date: 2013-01-13 19:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3232/revisions/25284/view
 -- Date: 2013-01-09 00:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Tethis spawn points.
 
 -- URL: http://wow-pro.com/node/3232/revisions/24477/view
@@ -76,17 +76,17 @@
 
 -- URL: http://wow-pro.com/node/3232/revisions/24096/view
 -- Date: 2011-02-04 22:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed WWoWPro.Leveling to WoWPro.Leveling
 
 -- URL: http://wow-pro.com/node/3232/revisions/24089/view
 -- Date: 2011-01-30 19:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3232/revisions/24088/view
 -- Date: 2011-01-30 19:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Reformatted to eliminate rich text formatting.
 --	No other changes were made.
 

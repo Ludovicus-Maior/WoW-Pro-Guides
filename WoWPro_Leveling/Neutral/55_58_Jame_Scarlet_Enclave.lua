@@ -5,41 +5,41 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
 -- Date: 2017-03-17 00:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3369/revisions/27587/view
 -- Date: 2016-08-22 20:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: A few QO tweaks and a change in the horde guide exit quest.
 
 -- URL: http://wow-pro.com/node/3369/revisions/27366/view
 -- Date: 2015-07-25 18:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3369/revisions/27245/view
 -- Date: 2015-05-16 15:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: You dont have Cinderglacier at the start now, just Razorice.
 
 -- URL: http://wow-pro.com/node/3369/revisions/26590/view
 -- Date: 2014-07-25 19:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed class specifiers.
 
 -- URL: http://wow-pro.com/node/3369/revisions/26202/view
 -- Date: 2014-05-25 22:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3369/revisions/26201/view
 -- Date: 2014-05-25 20:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3369/revisions/26059/view
 -- Date: 2014-05-17 20:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3369/revisions/25848/view
@@ -58,7 +58,7 @@
 
 -- URL: http://wow-pro.com/node/3369/revisions/24469/view
 -- Date: 2011-05-31 21:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ScarletEnclave is the zone name!
 
 -- URL: http://wow-pro.com/node/3369/revisions/24118/view
@@ -67,7 +67,7 @@
 
 -- URL: http://wow-pro.com/node/3369/revisions/24104/view
 -- Date: 2011-02-08 03:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3369/revisions/24102/view
 -- Date: 2011-02-07 11:53
@@ -76,7 +76,7 @@
 
 -- URL: http://wow-pro.com/node/3369/revisions/24101/view
 -- Date: 2011-02-05 21:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Create
 
 local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "ScarletEnclave", "Jame", "Neutral")

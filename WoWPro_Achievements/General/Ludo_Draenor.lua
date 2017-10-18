@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/treasures_draenor_neutral
 -- Date: 2017-03-23 17:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3633/revisions/28315/view
 -- Date: 2017-03-10 23:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3633/revisions/27356/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3633/revisions/27347/view
 -- Date: 2015-07-20 22:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of QID|xxx placeholders and either filled them in or deleted.
 
 -- URL: http://wow-pro.com/node/3633/revisions/27346/view
@@ -70,7 +70,7 @@
 
 -- URL: http://wow-pro.com/node/3633/revisions/27298/view
 -- Date: 2015-06-23 12:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide('LudoDraenorLoots',"Achievements",'Draenor', 'Ludovicus','Neutral')

@@ -5,35 +5,35 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_horde
 -- Date: 2017-03-23 19:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3258/revisions/28434/view
 -- Date: 2017-03-15 23:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add PREs  to JiyFel4550
 
 -- URL: http://wow-pro.com/node/3258/revisions/26460/view
 -- Date: 2014-06-02 15:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3258/revisions/26255/view
 -- Date: 2014-05-25 23:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3258/revisions/26084/view
 -- Date: 2014-05-18 21:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3258/revisions/26018/view
 -- Date: 2014-05-16 22:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3258/revisions/25480/view
 -- Date: 2013-01-13 19:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3258/revisions/24955/view

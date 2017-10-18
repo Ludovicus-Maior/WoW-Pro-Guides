@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/node/3668
 -- Date: 2017-08-12 20:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3668/revisions/28725/view
 -- Date: 2017-07-25 21:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through with raw coords for LostGlacierDKMountScenario
 
 -- URL: http://wow-pro.com/node/3668/revisions/28710/view
 -- Date: 2017-07-04 23:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Moved stuff around so the 110 DK Campaign worked right.
 
 -- URL: http://wow-pro.com/node/3668/revisions/28686/view
@@ -35,17 +35,17 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/28586/view
 -- Date: 2017-03-23 19:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3668/revisions/28464/view
 -- Date: 2017-03-16 22:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3668/revisions/28275/view
 -- Date: 2017-03-05 18:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tag Tweaks on playthough
 
 -- URL: http://wow-pro.com/node/3668/revisions/28261/view
@@ -70,7 +70,7 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/28020/view
 -- Date: 2016-11-15 19:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ; Fix Me Emmaleah (Bad M tag arguments)
 
 -- URL: http://wow-pro.com/node/3668/revisions/28018/view
@@ -110,7 +110,7 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/27873/view
 -- Date: 2016-10-05 02:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Just a few tweaks as I started to give my Blood DK a second specialization.
 
 -- URL: http://wow-pro.com/node/3668/revisions/27869/view
@@ -121,12 +121,12 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/27820/view
 -- Date: 2016-09-19 22:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed duplicate LVL|105
 
 -- URL: http://wow-pro.com/node/3668/revisions/27817/view
 -- Date: 2016-09-19 22:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Join broken line.
 
 -- URL: http://wow-pro.com/node/3668/revisions/27808/view
@@ -136,7 +136,7 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/27798/view
 -- Date: 2016-09-16 20:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Details of how to get Thoras and Koltira added. Other changes between info on Wowhead and actually doing the quests.
 
 -- URL: http://wow-pro.com/node/3668/revisions/27755/view
@@ -146,7 +146,7 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/27681/view
 -- Date: 2016-09-03 02:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: A few typos, a split line and some better zone info.
 
 -- URL: http://wow-pro.com/node/3668/revisions/27661/view
@@ -156,27 +156,27 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/27656/view
 -- Date: 2016-08-31 00:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Leftover ¦Z¦Acherus: The Ebon Hold¦'s
 
 -- URL: http://wow-pro.com/node/3668/revisions/27644/view
 -- Date: 2016-08-30 22:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone Fixes
 
 -- URL: http://wow-pro.com/node/3668/revisions/27594/view
 -- Date: 2016-08-22 23:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected class name
 
 -- URL: http://wow-pro.com/node/3668/revisions/27591/view
 -- Date: 2016-08-22 23:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 'nil' vs nil
 
 -- URL: http://wow-pro.com/node/3668/revisions/27589/view
 -- Date: 2016-08-22 22:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added DK to the guide name.
 
 -- URL: http://wow-pro.com/node/3668/revisions/27565/view

@@ -5,27 +5,27 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
 -- Date: 2017-03-15 23:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JiyWes3540
 
 -- URL: http://wow-pro.com/node/3246/revisions/26449/view
 -- Date: 2014-06-02 15:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3246/revisions/26245/view
 -- Date: 2014-05-25 22:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3246/revisions/26090/view
 -- Date: 2014-05-18 22:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3246/revisions/26022/view
 -- Date: 2014-05-17 16:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3246/revisions/25792/view
@@ -35,22 +35,22 @@
 
 -- URL: http://wow-pro.com/node/3246/revisions/25747/view
 -- Date: 2013-08-16 19:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cleaned up some QUIDs and added a hint for [Ace in the Hole].
 
 -- URL: http://wow-pro.com/node/3246/revisions/25563/view
 -- Date: 2013-03-23 18:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 27157's name [Drudges...] does not match Grail's database [Drudges... ].
 
 -- URL: http://wow-pro.com/node/3246/revisions/25446/view
 -- Date: 2013-01-13 17:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3246/revisions/24389/view
 -- Date: 2011-05-17 00:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3246/revisions/23832/view
 -- Date: 2010-12-27 09:04

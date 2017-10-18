@@ -5,36 +5,36 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_neutral
 -- Date: 2017-03-17 00:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3264/revisions/26462/view
 -- Date: 2014-06-02 16:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set guide level
 
 -- URL: http://wow-pro.com/node/3264/revisions/26352/view
 -- Date: 2014-05-27 20:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "50,55" to "49,54".
 
 -- URL: http://wow-pro.com/node/3264/revisions/26259/view
 -- Date: 2014-05-26 00:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3264/revisions/26128/view
 -- Date: 2014-05-20 11:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3264/revisions/26070/view
 -- Date: 2014-05-18 21:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3264/revisions/26060/view
 -- Date: 2014-05-17 20:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3264/revisions/24962/view
@@ -63,20 +63,20 @@
 
 -- URL: http://wow-pro.com/node/3264/revisions/24404/view
 -- Date: 2011-05-17 02:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3264/revisions/24396/view
 -- Date: 2011-05-17 01:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3264/revisions/24140/view
 -- Date: 2011-02-28 23:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add [Yetiphobia].
 
 -- URL: http://wow-pro.com/node/3264/revisions/24139/view
 -- Date: 2011-02-28 23:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added [Perfect Horns] to the Horde Winterfall guide.
 --	The Alliance side had it.  Discovered by Josral.
 

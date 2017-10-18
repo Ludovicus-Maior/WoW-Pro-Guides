@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/tiny_terrors_tanaan_dailies
 -- Date: 2017-03-10 23:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax changes.
 
 -- URL: http://wow-pro.com/node/3644/revisions/27411/view
 -- Date: 2016-01-08 23:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Use 3644
 
 -- URL: http://wow-pro.com/node/3644/revisions/27410/view
 -- Date: 2016-01-08 23:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Cut
 
 local guide = WoWPro:RegisterGuide("LarePetTinyTerrors","Dailies","Draenor","Larenon","Neutral")

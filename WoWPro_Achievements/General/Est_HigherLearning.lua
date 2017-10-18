@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/node/3538
 -- Date: 2014-12-25 18:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Moved Author to the right slot!
 
 -- URL: http://wow-pro.com/node/3538/revisions/26313/view
 -- Date: 2014-05-26 18:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3538/revisions/26199/view
 -- Date: 2014-05-22 22:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Registration guide
 
 -- URL: http://wow-pro.com/node/3538/revisions/25546/view
 -- Date: 2013-03-23 16:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide('EstAchHiLe',"Achievements",'Dalaran', 'Estelyen','Neutral')
 WoWPro:GuideLevels(guide,70, 85, 82.5)

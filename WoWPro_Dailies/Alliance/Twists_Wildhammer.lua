@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/alliance_wildhammer_dalies_twilight_highlands
 -- Date: 2017-03-10 23:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3415/revisions/27579/view
@@ -15,7 +15,7 @@
 
 -- URL: http://wow-pro.com/node/3415/revisions/26887/view
 -- Date: 2014-11-08 00:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing M
 
 -- URL: http://wow-pro.com/node/3415/revisions/26837/view
@@ -25,22 +25,22 @@
 
 -- URL: http://wow-pro.com/node/3415/revisions/26550/view
 -- Date: 2014-07-06 15:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide level and faction
 
 -- URL: http://wow-pro.com/node/3415/revisions/26510/view
 -- Date: 2014-06-10 23:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3415/revisions/24672/view
 -- Date: 2011-07-11 22:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add a flight point home.
 
 -- URL: http://wow-pro.com/node/3415/revisions/24647/view
 -- Date: 2011-06-30 19:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("TwiTwiWil",'Dailies', "Twilight Highlands", "Twists", "Alliance")
 WoWPro:GuideLevels(guide,84,84,84)

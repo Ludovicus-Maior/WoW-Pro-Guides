@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
 -- Date: 2017-03-15 23:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to BitNor1220
 
 -- URL: http://wow-pro.com/node/3214/revisions/27476/view
@@ -20,11 +20,11 @@
 
 -- URL: http://wow-pro.com/node/3214/revisions/27371/view
 -- Date: 2015-07-27 01:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3214/revisions/27292/view
 -- Date: 2015-06-22 16:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played through on a Level 14 Pally.  Lost of QO changes.
 
 -- URL: http://wow-pro.com/node/3214/revisions/26927/view
@@ -34,22 +34,22 @@
 
 -- URL: http://wow-pro.com/node/3214/revisions/26432/view
 -- Date: 2014-06-02 14:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3214/revisions/26215/view
 -- Date: 2014-05-25 22:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3214/revisions/26141/view
 -- Date: 2014-05-20 19:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3214/revisions/26042/view
 -- Date: 2014-05-17 17:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3214/revisions/25923/view
@@ -58,23 +58,23 @@
 
 -- URL: http://wow-pro.com/node/3214/revisions/25857/view
 -- Date: 2013-12-26 21:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some mean hordie put a slaughterhouse on poor Echeyakee's den.
 --	Minor playthrough tweaks.
 
 -- URL: http://wow-pro.com/node/3214/revisions/25570/view
 -- Date: 2013-03-23 18:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: qust name correction on [Through Fire and Flames]
 
 -- URL: http://wow-pro.com/node/3214/revisions/25498/view
 -- Date: 2013-01-22 17:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord Tweaks
 
 -- URL: http://wow-pro.com/node/3214/revisions/25462/view
 -- Date: 2013-01-13 19:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3214/revisions/24949/view
@@ -108,13 +108,13 @@
 
 -- URL: http://wow-pro.com/node/3214/revisions/24454/view
 -- Date: 2011-05-30 16:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Whoa!  Blizzard changed alot of the quest IDs and added new ordering requirements.
 --	This edit tried to get all the new quests, shuffle things in the right order and get the right coords.  Mistakes will no doubt have been made.
 
 -- URL: http://wow-pro.com/node/3214/revisions/24322/view
 -- Date: 2011-04-29 15:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 123 for step C has unknown tag [Collect Centaur ...], Line 128 for step C has unknown tag [Use the Fungal ...], Line 158 for step C has unknown tag [.], Line 241 for step C has unknown tag [n].
 
 -- URL: http://wow-pro.com/node/3214/revisions/23297/view

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
 -- Date: 2017-03-15 21:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to CraBad4548
 
 -- URL: http://wow-pro.com/node/3247/revisions/27628/view
@@ -20,27 +20,27 @@
 
 -- URL: http://wow-pro.com/node/3247/revisions/26624/view
 -- Date: 2014-07-25 22:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean
 
 -- URL: http://wow-pro.com/node/3247/revisions/26342/view
 -- Date: 2014-05-27 20:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "44,46".
 
 -- URL: http://wow-pro.com/node/3247/revisions/26246/view
 -- Date: 2014-05-25 22:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3247/revisions/26106/view
 -- Date: 2014-05-18 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3247/revisions/25976/view
 -- Date: 2014-05-14 22:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3247/revisions/25924/view

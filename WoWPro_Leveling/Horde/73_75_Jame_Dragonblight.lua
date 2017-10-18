@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
 -- Date: 2017-03-16 22:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a PRE.
 
 -- URL: http://wow-pro.com/node/3292/revisions/28448/view
 -- Date: 2017-03-16 16:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3292/revisions/27207/view
 -- Date: 2015-04-25 15:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Iceshatter QO's
 
 -- URL: http://wow-pro.com/node/3292/revisions/26770/view
@@ -25,36 +25,36 @@
 
 -- URL: http://wow-pro.com/node/3292/revisions/26438/view
 -- Date: 2014-06-02 14:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set levels
 
 -- URL: http://wow-pro.com/node/3292/revisions/26284/view
 -- Date: 2014-05-26 01:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: added guide type.
 
 -- URL: http://wow-pro.com/node/3292/revisions/26158/view
 -- Date: 2014-05-20 19:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3292/revisions/26005/view
 -- Date: 2014-05-16 20:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3292/revisions/25572/view
 -- Date: 2013-03-23 18:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: A freq quest name corrections.
 
 -- URL: http://wow-pro.com/node/3292/revisions/25470/view
 -- Date: 2013-01-13 19:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3292/revisions/25317/view
 -- Date: 2013-01-09 22:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added some CS tags
 
 -- URL: http://wow-pro.com/node/3292/revisions/24917/view
@@ -74,7 +74,7 @@
 
 -- URL: http://wow-pro.com/node/3292/revisions/24165/view
 -- Date: 2011-03-12 18:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Grizz changed ID.
 
 -- URL: http://wow-pro.com/node/3292/revisions/23981/view

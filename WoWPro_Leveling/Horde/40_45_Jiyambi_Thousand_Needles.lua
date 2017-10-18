@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
 -- Date: 2017-03-15 23:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JiyTho4045
 
 -- URL: http://wow-pro.com/node/3254/revisions/27675/view
 -- Date: 2016-09-01 15:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: luisb reports that [Bar Fight] is needed for [Pirate Accuracy Increasing]
 
 -- URL: http://wow-pro.com/node/3254/revisions/27556/view
@@ -20,31 +20,31 @@
 
 -- URL: http://wow-pro.com/node/3254/revisions/26448/view
 -- Date: 2014-06-02 15:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3254/revisions/26252/view
 -- Date: 2014-05-25 23:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3254/revisions/26080/view
 -- Date: 2014-05-18 21:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3254/revisions/26020/view
 -- Date: 2014-05-16 22:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3254/revisions/25748/view
 -- Date: 2013-08-16 19:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Minor QID fixes.
 
 -- URL: http://wow-pro.com/node/3254/revisions/25468/view
 -- Date: 2013-01-13 19:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3254/revisions/24944/view
@@ -54,7 +54,7 @@
 
 -- URL: http://wow-pro.com/node/3254/revisions/24333/view
 -- Date: 2011-04-29 16:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 48 for step A has unknown tag [From Razzeric.], Line 163 for step A has 1 M coords, Line 199 for step A has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3254/revisions/23672/view

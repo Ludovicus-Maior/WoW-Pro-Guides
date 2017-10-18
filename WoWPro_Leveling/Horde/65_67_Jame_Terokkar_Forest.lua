@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
 -- Date: 2017-03-23 19:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3278/revisions/28442/view
 -- Date: 2017-03-16 16:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3278/revisions/27895/view
@@ -25,31 +25,31 @@
 
 -- URL: http://wow-pro.com/node/3278/revisions/26443/view
 -- Date: 2014-06-02 14:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3278/revisions/26271/view
 -- Date: 2014-05-26 00:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3278/revisions/26149/view
 -- Date: 2014-05-20 19:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3278/revisions/26011/view
 -- Date: 2014-05-16 21:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3278/revisions/25933/view
 -- Date: 2014-04-14 19:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord tweaks, more C steps, quid updates.
 
 -- URL: http://wow-pro.com/node/3278/revisions/25464/view
 -- Date: 2013-01-13 19:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3278/revisions/24881/view
@@ -64,12 +64,12 @@
 
 -- URL: http://wow-pro.com/node/3278/revisions/24143/view
 -- Date: 2011-03-05 23:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Duplicated for the other faction [Vengeful Souls]
 
 -- URL: http://wow-pro.com/node/3278/revisions/24142/view
 -- Date: 2011-03-05 23:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected [Vengeful Souls] as per Josral and added some coords.
 
 -- URL: http://wow-pro.com/node/3278/revisions/23444/view

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
 -- Date: 2017-03-15 23:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JiyFer3540
 
 -- URL: http://wow-pro.com/node/3245/revisions/27533/view
@@ -15,7 +15,7 @@
 
 -- URL: http://wow-pro.com/node/3245/revisions/27468/view
 -- Date: 2016-07-17 20:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Moved [A Signs of Change] to a better location.
 
 -- URL: http://wow-pro.com/node/3245/revisions/26921/view
@@ -25,27 +25,27 @@
 
 -- URL: http://wow-pro.com/node/3245/revisions/26450/view
 -- Date: 2014-06-02 15:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3245/revisions/26243/view
 -- Date: 2014-05-25 22:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3245/revisions/26067/view
 -- Date: 2014-05-18 21:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon.
 
 -- URL: http://wow-pro.com/node/3245/revisions/26023/view
 -- Date: 2014-05-17 16:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3245/revisions/25456/view
 -- Date: 2013-01-13 18:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3245/revisions/24943/view

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
 -- Date: 2017-03-15 21:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to BitWes3540
 
 -- URL: http://wow-pro.com/node/3244/revisions/27627/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3244/revisions/27464/view
 -- Date: 2016-07-17 20:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Andorhal flight point capture
 
 -- URL: http://wow-pro.com/node/3244/revisions/27262/view
 -- Date: 2015-05-22 20:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3244/revisions/26814/view
 -- Date: 2014-11-06 13:31
@@ -34,26 +34,26 @@
 
 -- URL: http://wow-pro.com/node/3244/revisions/26635/view
 -- Date: 2014-07-26 00:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3244/revisions/26355/view
 -- Date: 2014-05-27 20:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "34,39".
 
 -- URL: http://wow-pro.com/node/3244/revisions/26244/view
 -- Date: 2014-05-25 22:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3244/revisions/26089/view
 -- Date: 2014-05-18 22:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3244/revisions/25972/view
 -- Date: 2014-05-14 22:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3244/revisions/25905/view
@@ -83,12 +83,12 @@
 
 -- URL: http://wow-pro.com/node/3244/revisions/25590/view
 -- Date: 2013-03-23 20:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: name tweaks
 
 -- URL: http://wow-pro.com/node/3244/revisions/25395/view
 -- Date: 2013-01-12 22:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3244/revisions/24870/view

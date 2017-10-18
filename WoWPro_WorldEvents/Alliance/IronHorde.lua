@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/alliance_iron_horde_invasion_source_code
 -- Date: 2015-07-05 18:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3607/revisions/27132/view
 -- Date: 2015-02-01 22:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaks.
 
 -- URL: http://wow-pro.com/node/3607/revisions/26875/view
@@ -30,12 +30,12 @@
 
 -- URL: http://wow-pro.com/node/3607/revisions/26762/view
 -- Date: 2014-10-25 21:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some coord tweaks and got rid of a death-trap typo!
 
 -- URL: http://wow-pro.com/node/3607/revisions/26732/view
 -- Date: 2014-10-17 00:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord tweaks and changed to a WE guide.
 
 -- URL: http://wow-pro.com/node/3607/revisions/26729/view

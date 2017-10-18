@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
 -- Date: 2017-03-23 17:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3279/revisions/28391/view
 -- Date: 2017-03-15 21:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JamNag6668
 
 -- URL: http://wow-pro.com/node/3279/revisions/26820/view
@@ -20,27 +20,27 @@
 
 -- URL: http://wow-pro.com/node/3279/revisions/26609/view
 -- Date: 2014-07-25 21:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: add mean
 
 -- URL: http://wow-pro.com/node/3279/revisions/26359/view
 -- Date: 2014-05-27 20:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Min Level corrected from 66 to 64.
 
 -- URL: http://wow-pro.com/node/3279/revisions/26272/view
 -- Date: 2014-05-26 00:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3279/revisions/26155/view
 -- Date: 2014-05-20 19:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3279/revisions/25985/view
 -- Date: 2014-05-14 22:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3279/revisions/25610/view
@@ -49,12 +49,12 @@
 
 -- URL: http://wow-pro.com/node/3279/revisions/25592/view
 -- Date: 2013-03-23 20:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Quest name cleanups
 
 -- URL: http://wow-pro.com/node/3279/revisions/25403/view
 -- Date: 2013-01-13 01:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Lots of CN tags and a CS tag
 
 -- URL: http://wow-pro.com/node/3279/revisions/25335/view
@@ -97,7 +97,7 @@
 
 -- URL: http://wow-pro.com/node/3279/revisions/24307/view
 -- Date: 2011-04-29 14:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 133 for step N has too short a title, Line 174 for step N has too short a title, Line 239 for step A has unknown tag [From Corki.], Line 305 for step C has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3279/revisions/24229/view

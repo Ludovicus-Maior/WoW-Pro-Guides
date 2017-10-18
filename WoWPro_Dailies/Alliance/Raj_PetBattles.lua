@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
 -- Date: 2017-03-15 20:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PRE
 
 -- URL: http://wow-pro.com/node/3544/revisions/27773/view
 -- Date: 2016-09-14 17:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated to Dalaran City@Dalaran
 
 -- URL: http://wow-pro.com/node/3544/revisions/27119/view
 -- Date: 2015-01-04 23:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected faction line.
 
 -- URL: http://wow-pro.com/node/3544/revisions/26952/view
@@ -25,12 +25,12 @@
 
 -- URL: http://wow-pro.com/node/3544/revisions/26946/view
 -- Date: 2014-11-08 14:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed lone '['
 
 -- URL: http://wow-pro.com/node/3544/revisions/26942/view
 -- Date: 2014-11-08 13:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Extra N and M gads brought to you by the letter X
 
 -- URL: http://wow-pro.com/node/3544/revisions/26866/view
@@ -45,7 +45,7 @@
 
 -- URL: http://wow-pro.com/node/3544/revisions/26515/view
 -- Date: 2014-06-10 23:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3544/revisions/25764/view
@@ -65,11 +65,11 @@
 
 -- URL: http://wow-pro.com/node/3544/revisions/25603/view
 -- Date: 2013-03-24 00:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3544/revisions/25559/view
 -- Date: 2013-03-23 16:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial clone from http://wow-pro.com/node/3542
 
 local guide = WoWPro:RegisterGuide("RajiPetBattles",'Dailies', "Vale of Eternal Blossoms", "Rajitazi", "Alliance")

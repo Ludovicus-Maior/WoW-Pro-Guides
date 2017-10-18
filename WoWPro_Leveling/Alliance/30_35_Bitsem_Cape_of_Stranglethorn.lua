@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
 -- Date: 2017-03-13 17:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3237/revisions/27625/view
@@ -25,27 +25,27 @@
 
 -- URL: http://wow-pro.com/node/3237/revisions/26628/view
 -- Date: 2014-07-25 22:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean
 
 -- URL: http://wow-pro.com/node/3237/revisions/26343/view
 -- Date: 2014-05-27 20:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "26,34".
 
 -- URL: http://wow-pro.com/node/3237/revisions/26236/view
 -- Date: 2014-05-25 22:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3237/revisions/26095/view
 -- Date: 2014-05-18 22:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3237/revisions/25968/view
 -- Date: 2014-05-14 22:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3237/revisions/25904/view
@@ -56,17 +56,17 @@
 
 -- URL: http://wow-pro.com/node/3237/revisions/25721/view
 -- Date: 2013-06-18 01:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 26805's name [To the Cape] does not match Grail's database [To the Cape!].
 
 -- URL: http://wow-pro.com/node/3237/revisions/25596/view
 -- Date: 2013-03-23 20:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest name corrections.
 
 -- URL: http://wow-pro.com/node/3237/revisions/25438/view
 -- Date: 2013-01-13 15:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3237/revisions/24866/view
@@ -87,7 +87,7 @@
 
 -- URL: http://wow-pro.com/node/3237/revisions/24519/view
 -- Date: 2011-06-07 23:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 72 for step C has unknown tag [Pick up Naga Icons.]: [C If They're Just Going to Leave Them Lying Around...|QID|26820|M|37.31,52.82|Pick up Naga Icons.|]
 --	! Line 155 for step C has unknown tag [Hand over the Gorilla Fang to Witch Doctor Unbagwam who will summon Mokk for you. Kill him and loot his heart.]: [C Stranglethorn Fever|QID|26597|L|2797|Hand over the Gorilla Fang to Witch Doctor Unbagwam who will summon Mokk for you. Kill him and loot his heart.|]
 
@@ -101,27 +101,27 @@
 
 -- URL: http://wow-pro.com/node/3237/revisions/24465/view
 -- Date: 2011-05-31 20:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: "The Cape of Stranglethorn" is the zone name.  The "The" matters!
 
 -- URL: http://wow-pro.com/node/3237/revisions/24298/view
 -- Date: 2011-04-29 14:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 131 for step T has unknown tag [Turns in at a barrel near the water.]
 
 -- URL: http://wow-pro.com/node/3237/revisions/24218/view
 -- Date: 2011-04-05 23:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3237/revisions/24145/view
 -- Date: 2011-03-06 19:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed references to [The Curse of the Tides] which is obsolete.
 --	Besides, they were all A steps and no C and T's.  Wierd.
 
 -- URL: http://wow-pro.com/node/3237/revisions/24126/view
 -- Date: 2011-02-23 01:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected Coordinates on [A Good-Fer-Nothin' Slither-Dogs], [Zanzil's Secret] and [Backdoor Dealings].
 --	Removed PRE tag on [Dask "The Flask" Gobfizzle] as it did not seem to be required for me.
 

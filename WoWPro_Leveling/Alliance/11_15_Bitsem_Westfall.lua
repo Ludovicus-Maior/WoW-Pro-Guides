@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
 -- Date: 2017-03-11 20:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3213/revisions/27665/view
@@ -35,22 +35,22 @@
 
 -- URL: http://wow-pro.com/node/3213/revisions/26399/view
 -- Date: 2014-05-30 12:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level setting
 
 -- URL: http://wow-pro.com/node/3213/revisions/26214/view
 -- Date: 2014-05-25 22:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3213/revisions/26133/view
 -- Date: 2014-05-20 18:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3213/revisions/25956/view
 -- Date: 2014-05-14 22:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3213/revisions/25805/view
@@ -60,12 +60,12 @@
 
 -- URL: http://wow-pro.com/node/3213/revisions/25670/view
 -- Date: 2013-05-17 19:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad coord for T CLUCK!.
 
 -- URL: http://wow-pro.com/node/3213/revisions/25600/view
 -- Date: 2013-03-23 20:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Quest name cleanups
 
 -- URL: http://wow-pro.com/node/3213/revisions/25388/view
@@ -75,7 +75,7 @@
 
 -- URL: http://wow-pro.com/node/3213/revisions/25283/view
 -- Date: 2013-01-09 00:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Multicoord corrections.
 
 -- URL: http://wow-pro.com/node/3213/revisions/25043/view
@@ -108,7 +108,7 @@
 
 -- URL: http://wow-pro.com/node/3213/revisions/24455/view
 -- Date: 2011-05-30 17:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 189 for step A has unknown tag [From Marshal Gryan Stoutmantle.]: [A Rise of the Brotherhood|QID|26322|PRE|26320|RANK|1|M|56.27,47.45|From Marshal Gryan Stoutmantle.|]
 
 -- URL: http://wow-pro.com/node/3213/revisions/24442/view
@@ -118,7 +118,7 @@
 
 -- URL: http://wow-pro.com/node/3213/revisions/24291/view
 -- Date: 2011-04-29 14:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3213/revisions/23935/view
 -- Date: 2011-01-06 15:32

@@ -5,16 +5,16 @@
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
 -- Date: 2017-03-10 22:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax changes.
 
 -- URL: http://wow-pro.com/node/3514/revisions/27106/view
 -- Date: 2014-12-25 20:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3514/revisions/27103/view
 -- Date: 2014-12-25 18:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3514/revisions/26841/view
 -- Date: 2014-11-07 20:18
@@ -27,22 +27,22 @@
 
 -- URL: http://wow-pro.com/node/3514/revisions/26312/view
 -- Date: 2014-05-26 18:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type. Typographical corrections.
 
 -- URL: http://wow-pro.com/node/3514/revisions/26200/view
 -- Date: 2014-05-22 23:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Registration guide; typographical corrections
 
 -- URL: http://wow-pro.com/node/3514/revisions/25824/view
 -- Date: 2013-11-27 21:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a CS tag to A [Hozen Warrior Spear:31413]
 
 -- URL: http://wow-pro.com/node/3514/revisions/25758/view
 -- Date: 2013-09-10 23:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord tweaks and spelling fixes.
 
 -- URL: http://wow-pro.com/node/3514/revisions/25506/view
@@ -52,12 +52,12 @@
 
 -- URL: http://wow-pro.com/node/3514/revisions/25436/view
 -- Date: 2013-01-13 15:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3514/revisions/25289/view
 -- Date: 2013-01-09 01:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN and CS tags.
 
 -- URL: http://wow-pro.com/node/3514/revisions/25277/view
@@ -77,12 +77,12 @@
 
 -- URL: http://wow-pro.com/node/3514/revisions/25206/view
 -- Date: 2012-11-13 02:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated to latest from Emmaleah
 
 -- URL: http://wow-pro.com/node/3514/revisions/25205/view
 -- Date: 2012-11-13 02:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Close of Blog Page
 
 local guide = WoWPro:RegisterGuide('EmmAchLost', "Achievements", 'Pandaria', 'Emmaleah', 'Neutral')

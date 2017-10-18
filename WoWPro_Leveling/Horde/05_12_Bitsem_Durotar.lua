@@ -10,12 +10,12 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/28412/view
 -- Date: 2017-03-15 22:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PRE to BitDur0512
 
 -- URL: http://wow-pro.com/node/3199/revisions/27658/view
 -- Date: 2016-08-31 00:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 0 is not valid
 
 -- URL: http://wow-pro.com/node/3199/revisions/27494/view
@@ -35,27 +35,27 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/27369/view
 -- Date: 2015-07-25 18:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3199/revisions/27324/view
 -- Date: 2015-07-05 21:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed DK and Paladin warnings to D steps to mark the zone as completed.
 
 -- URL: http://wow-pro.com/node/3199/revisions/27291/view
 -- Date: 2015-06-22 16:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Typo cleanup.
 
 -- URL: http://wow-pro.com/node/3199/revisions/27290/view
 -- Date: 2015-06-22 16:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: No quests for Paladins in Echo Isles.
 
 -- URL: http://wow-pro.com/node/3199/revisions/27286/view
 -- Date: 2015-06-19 20:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Rogue typo
 
 -- URL: http://wow-pro.com/node/3199/revisions/27284/view
@@ -74,22 +74,22 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/27240/view
 -- Date: 2015-05-10 20:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Touched up Echo Isles.
 
 -- URL: http://wow-pro.com/node/3199/revisions/27216/view
 -- Date: 2015-04-28 00:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone fix for ValleyofTrials
 
 -- URL: http://wow-pro.com/node/3199/revisions/27209/view
 -- Date: 2015-04-25 20:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change zone for Troll starter
 
 -- URL: http://wow-pro.com/node/3199/revisions/27208/view
 -- Date: 2015-04-25 17:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Shift zone
 
 -- URL: http://wow-pro.com/node/3199/revisions/26967/view
@@ -131,7 +131,7 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/26937/view
 -- Date: 2014-11-08 13:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of duplicate S and PRE tags
 
 -- URL: http://wow-pro.com/node/3199/revisions/26933/view
@@ -203,50 +203,50 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/26583/view
 -- Date: 2014-07-19 17:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Levels.
 
 -- URL: http://wow-pro.com/node/3199/revisions/26480/view
 -- Date: 2014-06-02 22:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icons
 
 -- URL: http://wow-pro.com/node/3199/revisions/26461/view
 -- Date: 2014-06-02 15:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax correction
 
 -- URL: http://wow-pro.com/node/3199/revisions/26431/view
 -- Date: 2014-06-02 13:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set levels
 
 -- URL: http://wow-pro.com/node/3199/revisions/26321/view
 -- Date: 2014-05-26 19:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added more guide types.
 
 -- URL: http://wow-pro.com/node/3199/revisions/26208/view
 -- Date: 2014-05-25 22:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3199/revisions/26139/view
 -- Date: 2014-05-20 19:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3199/revisions/26046/view
 -- Date: 2014-05-17 17:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3199/revisions/26045/view
 -- Date: 2014-05-17 17:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3199/revisions/26039/view
 -- Date: 2014-05-17 17:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3199/revisions/25945/view
@@ -266,7 +266,7 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/25855/view
 -- Date: 2013-12-26 21:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed some CN to CS so they clean up right.  Made things safe for goblins.
 
 -- URL: http://wow-pro.com/node/3199/revisions/25515/view
@@ -281,12 +281,12 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/25463/view
 -- Date: 2013-01-13 19:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"
 
 -- URL: http://wow-pro.com/node/3199/revisions/25461/view
 -- Date: 2013-01-13 18:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tag
 
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')

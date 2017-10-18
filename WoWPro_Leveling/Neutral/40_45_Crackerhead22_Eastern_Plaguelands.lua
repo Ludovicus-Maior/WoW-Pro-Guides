@@ -10,7 +10,7 @@
 
 -- URL: http://wow-pro.com/node/3251/revisions/28481/view
 -- Date: 2017-03-17 00:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3251/revisions/27629/view
@@ -25,32 +25,32 @@
 
 -- URL: http://wow-pro.com/node/3251/revisions/26619/view
 -- Date: 2014-07-25 22:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: adj mean
 
 -- URL: http://wow-pro.com/node/3251/revisions/26471/view
 -- Date: 2014-06-02 16:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add level
 
 -- URL: http://wow-pro.com/node/3251/revisions/26333/view
 -- Date: 2014-05-27 19:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "40,45" to "39,44".
 
 -- URL: http://wow-pro.com/node/3251/revisions/26250/view
 -- Date: 2014-05-25 23:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3251/revisions/26103/view
 -- Date: 2014-05-18 22:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ICON
 
 -- URL: http://wow-pro.com/node/3251/revisions/26063/view
 -- Date: 2014-05-17 20:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3251/revisions/25918/view
@@ -81,7 +81,7 @@
 
 -- URL: http://wow-pro.com/node/3251/revisions/25361/view
 -- Date: 2013-01-12 18:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3251/revisions/24874/view
@@ -129,15 +129,15 @@
 
 -- URL: http://wow-pro.com/node/3251/revisions/24401/view
 -- Date: 2011-05-17 01:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3251/revisions/24393/view
 -- Date: 2011-05-17 01:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3251/revisions/24301/view
 -- Date: 2011-04-29 14:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 33 for step T has unknown tag [To Fiona.], Line 169 for step A has unknown tag [From the Crusader's Flare.], Line 170 for step A has unknown tag [From the Cursader's Flare.], Line 208 for step C has 1 M coords, Line 214 for step R has unknown tag [Run to Eastwall Tower.], Line 272 for step C has unknown tag [Kill Cursed Mages and Scourge Soldiers to get their skulls.], Line 281, for step T non-decimal QID.
 
 -- URL: http://wow-pro.com/node/3251/revisions/24253/view

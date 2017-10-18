@@ -5,21 +5,21 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
 -- Date: 2017-03-16 16:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add missing PRE
 
 -- URL: http://wow-pro.com/node/3314/revisions/28425/view
 -- Date: 2017-03-15 23:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3314/revisions/27467/view
 -- Date: 2016-07-17 20:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated Q0 for [Three Princes]
 
 -- URL: http://wow-pro.com/node/3314/revisions/27431/view
 -- Date: 2016-02-08 01:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add T|Dying Kodo| and a PRE correction.
 
 -- URL: http://wow-pro.com/node/3314/revisions/26923/view
@@ -29,32 +29,32 @@
 
 -- URL: http://wow-pro.com/node/3314/revisions/26422/view
 -- Date: 2014-06-02 13:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3314/revisions/26239/view
 -- Date: 2014-05-25 22:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3314/revisions/26077/view
 -- Date: 2014-05-18 21:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3314/revisions/26029/view
 -- Date: 2014-05-17 17:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3314/revisions/25455/view
 -- Date: 2013-01-13 18:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3314/revisions/25285/view
 -- Date: 2013-01-09 01:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Multicoord
 
 -- URL: http://wow-pro.com/node/3314/revisions/24942/view
@@ -64,7 +64,7 @@
 
 -- URL: http://wow-pro.com/node/3314/revisions/24330/view
 -- Date: 2011-04-29 16:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 36 for step R has 1 M coords: , Line 37 for step T has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3314/revisions/23544/view

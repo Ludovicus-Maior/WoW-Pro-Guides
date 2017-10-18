@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/valsharah%20neutral
 -- Date: 2017-06-13 01:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Located Reaverbeak totem more clearly and conditionalized [Jinikki The Puncturer]
 
 -- URL: http://wow-pro.com/node/3665/revisions/28608/view
@@ -15,12 +15,12 @@
 
 -- URL: http://wow-pro.com/node/3665/revisions/28598/view
 -- Date: 2017-03-23 19:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3665/revisions/28479/view
 -- Date: 2017-03-16 22:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PRE.
 
 -- URL: http://wow-pro.com/node/3665/revisions/28357/view
@@ -90,12 +90,12 @@
 
 -- URL: http://wow-pro.com/node/3665/revisions/27934/view
 -- Date: 2016-10-19 01:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Tweak
 
 -- URL: http://wow-pro.com/node/3665/revisions/27908/view
 -- Date: 2016-10-13 23:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: [Archdruid of Lore] has two QIDs: 38381;44106
 
 -- URL: http://wow-pro.com/node/3665/revisions/27868/view
@@ -122,7 +122,7 @@
 
 -- URL: http://wow-pro.com/node/3665/revisions/27821/view
 -- Date: 2016-09-19 22:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some O tags should have been U's by my guess.
 
 -- URL: http://wow-pro.com/node/3665/revisions/27805/view
@@ -187,7 +187,7 @@
 
 -- URL: http://wow-pro.com/node/3665/revisions/27648/view
 -- Date: 2016-08-30 22:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Step $ [Treasire:38390] in EmmValsharah is missing a CS¦CC¦CN tag.
 
 -- URL: http://wow-pro.com/node/3665/revisions/27635/view
@@ -197,7 +197,7 @@
 
 -- URL: http://wow-pro.com/node/3665/revisions/27590/view
 -- Date: 2016-08-22 23:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Converted to BBCODE
 
 -- URL: http://wow-pro.com/node/3665/revisions/27563/view

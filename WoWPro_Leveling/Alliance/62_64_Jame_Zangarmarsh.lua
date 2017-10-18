@@ -10,7 +10,7 @@
 
 -- URL: http://wow-pro.com/node/3273/revisions/28389/view
 -- Date: 2017-03-15 21:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JamZan6264
 
 -- URL: http://wow-pro.com/node/3273/revisions/27832/view
@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3273/revisions/27161/view
 -- Date: 2015-03-09 17:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing |N| value.
 
 -- URL: http://wow-pro.com/node/3273/revisions/26818/view
@@ -30,32 +30,32 @@
 
 -- URL: http://wow-pro.com/node/3273/revisions/26398/view
 -- Date: 2014-05-30 12:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Adjust
 
 -- URL: http://wow-pro.com/node/3273/revisions/26367/view
 -- Date: 2014-05-27 21:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Start Level corrected from 62 to 0.
 
 -- URL: http://wow-pro.com/node/3273/revisions/26268/view
 -- Date: 2014-05-26 00:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3273/revisions/26144/view
 -- Date: 2014-05-20 19:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3273/revisions/25983/view
 -- Date: 2014-05-14 22:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3273/revisions/25425/view
 -- Date: 2013-01-13 15:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3273/revisions/25334/view
@@ -65,7 +65,7 @@
 
 -- URL: http://wow-pro.com/node/3273/revisions/24889/view
 -- Date: 2012-01-18 21:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed Fertile Spores from a N step to an l step.
 
 -- URL: http://wow-pro.com/node/3273/revisions/24865/view
@@ -84,7 +84,7 @@
 
 -- URL: http://wow-pro.com/node/3273/revisions/24223/view
 -- Date: 2011-04-05 23:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3273/revisions/24206/view
 -- Date: 2011-04-04 15:00
@@ -93,7 +93,7 @@
 
 -- URL: http://wow-pro.com/node/3273/revisions/24103/view
 -- Date: 2011-02-08 01:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Submitted by andyarnolduk on Mon, 2011-02-07 15:20.
 --	
 --	The waypoint for step 10 is a little off... it should be:

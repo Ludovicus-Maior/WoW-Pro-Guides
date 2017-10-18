@@ -5,37 +5,37 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
 -- Date: 2017-03-16 17:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3489/revisions/26435/view
 -- Date: 2014-06-02 14:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3489/revisions/26304/view
 -- Date: 2014-05-26 01:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3489/revisions/26112/view
 -- Date: 2014-05-18 22:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3489/revisions/25998/view
 -- Date: 2014-05-16 20:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Register Update
 
 -- URL: http://wow-pro.com/node/3489/revisions/25823/view
 -- Date: 2013-11-27 21:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing CN tag
 
 -- URL: http://wow-pro.com/node/3489/revisions/25819/view
 -- Date: 2013-11-27 17:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added the missing end) and got rid of the extra Change Log section.
 
 -- URL: http://wow-pro.com/node/3489/revisions/25812/view
@@ -70,18 +70,18 @@
 
 -- URL: http://wow-pro.com/node/3489/revisions/25709/view
 -- Date: 2013-06-18 00:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad X coordinate S, 1/1 in guide EmmKra8788, line [C Materia Medica].
 --	Bad X coordinate US, 1/1 in guide EmmKra8788, line [C Materia Medica].
 
 -- URL: http://wow-pro.com/node/3489/revisions/25465/view
 -- Date: 2013-01-13 19:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3489/revisions/25313/view
 -- Date: 2013-01-09 22:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS and CN tag
 
 -- URL: http://wow-pro.com/node/3489/revisions/25199/view
@@ -96,17 +96,17 @@
 
 -- URL: http://wow-pro.com/node/3489/revisions/25123/view
 -- Date: 2012-10-07 23:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Horde/87_88_Emmaleah_KrasarangWilds.lua and tweaks by Ludo
 
 -- URL: http://wow-pro.com/node/3489/revisions/25056/view
 -- Date: 2012-08-28 19:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct URLS
 
 -- URL: http://wow-pro.com/node/3489/revisions/25055/view
 -- Date: 2012-08-28 19:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 local guide = WoWPro:RegisterGuide('EmmKra8788', "Leveling", 'Krasarang Wilds', 'Emmaleah', 'Horde')

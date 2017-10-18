@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
 -- Date: 2017-03-23 19:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3302/revisions/28451/view
 -- Date: 2017-03-16 16:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add PREs
 
 -- URL: http://wow-pro.com/node/3302/revisions/28219/view
 -- Date: 2017-01-10 20:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed spurious '1s' 
 
 -- URL: http://wow-pro.com/node/3302/revisions/28152/view
@@ -45,12 +45,12 @@
 
 -- URL: http://wow-pro.com/node/3302/revisions/27785/view
 -- Date: 2016-09-14 18:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dalaran City@Dalaran
 
 -- URL: http://wow-pro.com/node/3302/revisions/27168/view
 -- Date: 2015-03-09 17:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of empty tags and empty |N|'s
 
 -- URL: http://wow-pro.com/node/3302/revisions/26910/view
@@ -60,36 +60,36 @@
 
 -- URL: http://wow-pro.com/node/3302/revisions/26436/view
 -- Date: 2014-06-02 14:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3302/revisions/26292/view
 -- Date: 2014-05-26 01:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3302/revisions/26164/view
 -- Date: 2014-05-20 19:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3302/revisions/26002/view
 -- Date: 2014-05-16 20:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3302/revisions/25571/view
 -- Date: 2013-03-23 18:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Many quest name corrections, a 2 QID corrections.
 
 -- URL: http://wow-pro.com/node/3302/revisions/24347/view
 -- Date: 2011-04-29 17:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 103 for step C Bad coord , Line 315 for step T has 3 M coords, Line 412 for step C Bad coord 1 at a ti, Line 519 for step C Bad coord  .....
 
 -- URL: http://wow-pro.com/node/3302/revisions/24209/view
 -- Date: 2011-04-05 23:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3302/revisions/23496/view
 -- Date: 2010-12-03 22:43

@@ -5,42 +5,42 @@
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_artifact_and_class_hall
 -- Date: 2017-10-16 11:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: play through on 108 DH.
 
 -- URL: http://wow-pro.com/node/3685/revisions/28805/view
 -- Date: 2017-10-15 20:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a draft of the level 110 order hall quests.  No scenario info yet.
 
 -- URL: http://wow-pro.com/node/3685/revisions/28753/view
 -- Date: 2017-08-12 21:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3685/revisions/28597/view
 -- Date: 2017-03-23 19:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3685/revisions/28539/view
 -- Date: 2017-03-21 22:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixes to [Confrontation at the Black Temple]
 
 -- URL: http://wow-pro.com/node/3685/revisions/28530/view
 -- Date: 2017-03-17 22:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Prep for [Working With the Wardens]
 
 -- URL: http://wow-pro.com/node/3685/revisions/28529/view
 -- Date: 2017-03-17 18:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fill in [Leader of the Illidari] questline.
 
 -- URL: http://wow-pro.com/node/3685/revisions/28476/view
 -- Date: 2017-03-16 22:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3685/revisions/28222/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3685/revisions/27853/view
 -- Date: 2016-09-28 22:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: More Altruis quids.
 
 -- URL: http://wow-pro.com/node/3685/revisions/27765/view
@@ -72,11 +72,11 @@
 
 -- URL: http://wow-pro.com/node/3685/revisions/27761/view
 -- Date: 2016-09-14 02:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3685/revisions/27760/view
 -- Date: 2016-09-14 02:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Transplant
 
 local guide = WoWPro:RegisterGuide('LinksDHArtCH100100', 'Leveling', 'DemonHunterOrderHallTerrain', 'Linkslegend5', 'Neutral')

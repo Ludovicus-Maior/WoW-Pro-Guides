@@ -15,42 +15,42 @@
 
 -- URL: http://wow-pro.com/node/3477/revisions/26555/view
 -- Date: 2014-07-06 15:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added name/faction.
 
 -- URL: http://wow-pro.com/node/3477/revisions/26522/view
 -- Date: 2014-06-11 19:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3477/revisions/25641/view
 -- Date: 2013-05-14 19:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad coord
 
 -- URL: http://wow-pro.com/node/3477/revisions/25640/view
 -- Date: 2013-05-14 19:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: More @DalaranCity
 
 -- URL: http://wow-pro.com/node/3477/revisions/25622/view
 -- Date: 2013-05-14 15:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated to The Underbelly@DalaranCity
 
 -- URL: http://wow-pro.com/node/3477/revisions/25424/view
 -- Date: 2013-01-13 15:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3477/revisions/25362/view
 -- Date: 2013-01-12 18:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Lots of CN tags
 
 -- URL: http://wow-pro.com/node/3477/revisions/24995/view
 -- Date: 2012-05-27 19:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide("LudoDalFish",'Dailies', "Dalaran", "Ludovicus", "Neutral")

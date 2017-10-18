@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
 -- Date: 2017-03-23 19:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3599/revisions/28457/view
 -- Date: 2017-03-16 17:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3599/revisions/27919/view
@@ -25,12 +25,12 @@
 
 -- URL: http://wow-pro.com/node/3599/revisions/27486/view
 -- Date: 2016-07-30 18:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add some @Gorgrond
 
 -- URL: http://wow-pro.com/node/3599/revisions/27404/view
 -- Date: 2015-12-31 23:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3599/revisions/27387/view
 -- Date: 2015-09-07 19:27
@@ -38,7 +38,7 @@
 
 -- URL: http://wow-pro.com/node/3599/revisions/27317/view
 -- Date: 2015-07-05 17:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Icon
 
 -- URL: http://wow-pro.com/node/3599/revisions/27238/view
@@ -48,22 +48,22 @@
 
 -- URL: http://wow-pro.com/node/3599/revisions/27236/view
 -- Date: 2015-05-02 23:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Converted some --'s in the guide to ; to get rid of parsing errrors.
 
 -- URL: http://wow-pro.com/node/3599/revisions/27235/view
 -- Date: 2015-05-02 22:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quid correction
 
 -- URL: http://wow-pro.com/node/3599/revisions/27234/view
 -- Date: 2015-05-02 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: QID for [Proof of Strength: Goren Tooth] was wrong.
 
 -- URL: http://wow-pro.com/node/3599/revisions/27233/view
 -- Date: 2015-05-02 22:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed reference to QID 36290, which is for Nagrand and level 100!
 
 -- URL: http://wow-pro.com/node/3599/revisions/27190/view
@@ -73,12 +73,12 @@
 
 -- URL: http://wow-pro.com/node/3599/revisions/27176/view
 -- Date: 2015-03-09 19:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tag twiddles
 
 -- URL: http://wow-pro.com/node/3599/revisions/27136/view
 -- Date: 2015-02-01 22:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played through and corrected coords and things.
 
 -- URL: http://wow-pro.com/node/3599/revisions/27113/view
@@ -118,12 +118,12 @@
 
 -- URL: http://wow-pro.com/node/3599/revisions/27034/view
 -- Date: 2014-11-22 13:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Rid of a stutter ||
 
 -- URL: http://wow-pro.com/node/3599/revisions/27032/view
 -- Date: 2014-11-22 12:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tag Fixes
 
 -- URL: http://wow-pro.com/node/3599/revisions/27027/view
@@ -153,7 +153,7 @@
 
 -- URL: http://wow-pro.com/node/3599/revisions/26671/view
 -- Date: 2014-09-18 23:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Copy from Emmaleah's blog
 
 local guide = WoWPro:RegisterGuide('EmmGorgrond', 'Leveling', 'Gorgrond', 'Emmaleah', 'Horde')

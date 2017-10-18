@@ -5,42 +5,42 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
 -- Date: 2017-03-15 21:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to WkjFel4550
 
 -- URL: http://wow-pro.com/node/3257/revisions/26416/view
 -- Date: 2014-05-30 16:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected syntax error
 
 -- URL: http://wow-pro.com/node/3257/revisions/26388/view
 -- Date: 2014-05-29 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide Levels corrected. Added Mean Level.
 
 -- URL: http://wow-pro.com/node/3257/revisions/26254/view
 -- Date: 2014-05-25 23:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3257/revisions/26083/view
 -- Date: 2014-05-18 21:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3257/revisions/25977/view
 -- Date: 2014-05-14 22:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3257/revisions/25582/view
 -- Date: 2013-03-23 20:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest name tweak
 
 -- URL: http://wow-pro.com/node/3257/revisions/24460/view
 -- Date: 2011-05-30 17:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 39 for step R has 1 M coords: [R Emerald Sanctuary|QID|28100|M|51.41.79.79|N|Run to Emerald Sanctuary.|]
 
 -- URL: http://wow-pro.com/node/3257/revisions/24432/view
@@ -50,16 +50,16 @@
 
 -- URL: http://wow-pro.com/node/3257/revisions/24391/view
 -- Date: 2011-05-17 01:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3257/revisions/24186/view
 -- Date: 2011-03-20 20:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrections around [Crying Violet] and quests shifted to "Andalar Shadevale".  Speling corrections and addition comments.
 
 -- URL: http://wow-pro.com/node/3257/revisions/24082/view
 -- Date: 2011-01-30 19:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected Register guide to match GIT.
 
 -- URL: http://wow-pro.com/node/3257/revisions/23618/view

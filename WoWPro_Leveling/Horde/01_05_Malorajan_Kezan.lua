@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
 -- Date: 2017-03-23 18:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3212/revisions/28415/view
 -- Date: 2017-03-15 22:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added 2 PREs to MalLos0512
 
 -- URL: http://wow-pro.com/node/3212/revisions/28410/view
 -- Date: 2017-03-15 22:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax fixes to MalKez0105
 
 -- URL: http://wow-pro.com/node/3212/revisions/27497/view
@@ -25,12 +25,12 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/27368/view
 -- Date: 2015-07-25 18:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3212/revisions/26938/view
 -- Date: 2014-11-08 13:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Extra NC
 
 -- URL: http://wow-pro.com/node/3212/revisions/26932/view
@@ -55,22 +55,22 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/26483/view
 -- Date: 2014-06-02 22:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Icons
 
 -- URL: http://wow-pro.com/node/3212/revisions/26475/view
 -- Date: 2014-06-02 20:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Remove step level race restriction
 
 -- URL: http://wow-pro.com/node/3212/revisions/26322/view
 -- Date: 2014-05-26 19:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing guide type.
 
 -- URL: http://wow-pro.com/node/3212/revisions/26212/view
 -- Date: 2014-05-25 22:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3212/revisions/26126/view
@@ -85,12 +85,12 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/26041/view
 -- Date: 2014-05-17 17:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3212/revisions/26038/view
 -- Date: 2014-05-17 17:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3212/revisions/25926/view
@@ -103,12 +103,12 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/25858/view
 -- Date: 2013-12-27 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through tweaks + new goblin only quests for Razor Hill.
 
 -- URL: http://wow-pro.com/node/3212/revisions/25852/view
 -- Date: 2013-12-26 21:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: A few tweaks as I ran my goblin priest through.
 
 -- URL: http://wow-pro.com/node/3212/revisions/25847/view
@@ -122,17 +122,17 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/25481/view
 -- Date: 2013-01-13 19:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3212/revisions/25450/view
 -- Date: 2013-01-13 17:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3212/revisions/25127/view
 -- Date: 2012-10-08 19:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Get rid of - in zone
 
 -- URL: http://wow-pro.com/node/3212/revisions/25063/view
@@ -152,7 +152,7 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/24320/view
 -- Date: 2011-04-29 15:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 213 for step A has unknown tag [From Sassy Hardwrench.]
 
 -- URL: http://wow-pro.com/node/3212/revisions/24268/view
@@ -180,7 +180,7 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/24000/view
 -- Date: 2011-01-16 17:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added help text around [Trouble in the Mines] and [Trouble in the Mines].  Added separate completion steps for each of the homies in [Rolling with my Homies].  Added help text [The Replacements].  Added help text to [Do it Yourself]. Added the female quest lines for [Off to the Bank] and [The New You] and labled them as (For [Males|Females]). Add quest objectives for [Life of the Party] and [Pirate Party Crashers] and [Liberate the Kaja'mite].  Added help note for [Waltz Right In] and intermediate completion steps.  Added turn in notes for [The Great Bank Heist], [Robbing Hoods].  Added a completion step for [Life Savings].
 
 -- URL: http://wow-pro.com/node/3212/revisions/23991/view

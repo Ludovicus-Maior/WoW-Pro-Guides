@@ -5,27 +5,27 @@
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_starter_source_code
 -- Date: 2017-03-17 01:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing MardumtheShatteredAbyss
 
 -- URL: http://wow-pro.com/node/3656/revisions/28475/view
 -- Date: 2017-03-16 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs; syntax corrections.
 
 -- URL: http://wow-pro.com/node/3656/revisions/28463/view
 -- Date: 2017-03-16 22:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3656/revisions/27763/view
 -- Date: 2016-09-14 02:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Deleted duplicate CH
 
 -- URL: http://wow-pro.com/node/3656/revisions/27752/view
 -- Date: 2016-09-13 18:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add proper name to LinksDHArtCH100100
 
 -- URL: http://wow-pro.com/node/3656/revisions/27547/view
@@ -44,23 +44,23 @@
 
 -- URL: http://wow-pro.com/node/3656/revisions/27543/view
 -- Date: 2016-08-10 04:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Blue items and tweaked for Live instead of Beta.
 --	Added support for Vengance DH.
 
 -- URL: http://wow-pro.com/node/3656/revisions/27480/view
 -- Date: 2016-07-30 16:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone tweaks
 
 -- URL: http://wow-pro.com/node/3656/revisions/27459/view
 -- Date: 2016-07-01 02:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Just the usual tweaks.
 
 -- URL: http://wow-pro.com/node/3656/revisions/27458/view
 -- Date: 2016-06-30 23:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add class restriction and icons.
 
 -- URL: http://wow-pro.com/node/3656/revisions/27456/view
@@ -70,7 +70,7 @@
 
 -- URL: http://wow-pro.com/node/3656/revisions/27455/view
 -- Date: 2016-06-28 02:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaks
 
 -- URL: http://wow-pro.com/node/3656/revisions/27454/view
@@ -85,7 +85,7 @@
 
 -- URL: http://wow-pro.com/node/3656/revisions/27449/view
 -- Date: 2016-06-28 00:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial blank
 
 local guide = WoWPro:RegisterGuide('LinksVault099100', 'Leveling', 'VaultOfTheWardensDH', 'Linkslegend5', 'Neutral')

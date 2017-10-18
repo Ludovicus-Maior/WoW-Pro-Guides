@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
 -- Date: 2017-03-13 17:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3239/revisions/27626/view
@@ -15,27 +15,27 @@
 
 -- URL: http://wow-pro.com/node/3239/revisions/26610/view
 -- Date: 2014-07-25 21:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean
 
 -- URL: http://wow-pro.com/node/3239/revisions/26361/view
 -- Date: 2014-05-27 21:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "29,34".
 
 -- URL: http://wow-pro.com/node/3239/revisions/26320/view
 -- Date: 2014-05-26 19:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Guide Type.
 
 -- URL: http://wow-pro.com/node/3239/revisions/26091/view
 -- Date: 2014-05-18 22:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3239/revisions/25969/view
 -- Date: 2014-05-14 22:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3239/revisions/25850/view
@@ -55,7 +55,7 @@
 
 -- URL: http://wow-pro.com/node/3239/revisions/25415/view
 -- Date: 2013-01-13 14:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3239/revisions/24535/view
@@ -65,12 +65,12 @@
 
 -- URL: http://wow-pro.com/node/3239/revisions/24299/view
 -- Date: 2011-04-29 14:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 169, for step F non-decimal QID
 
 -- URL: http://wow-pro.com/node/3239/revisions/24149/view
 -- Date: 2011-03-08 12:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord corrections for [Northwestern Temple].
 
 -- URL: http://wow-pro.com/node/3239/revisions/23611/view

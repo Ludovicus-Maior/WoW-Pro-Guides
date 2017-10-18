@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
 -- Date: 2017-03-23 19:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3587/revisions/28456/view
 -- Date: 2017-03-16 17:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3587/revisions/27855/view
@@ -35,21 +35,21 @@
 
 -- URL: http://wow-pro.com/node/3587/revisions/27479/view
 -- Date: 2016-07-30 15:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Ah, Hunter's Hall changed to Grom'gar@FrostfireRidge
 
 -- URL: http://wow-pro.com/node/3587/revisions/27478/view
 -- Date: 2016-07-30 15:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Stick @FrostfireRidge on a bunch of Z tags. [Hunter's Hall] comes up as undefined.
 
 -- URL: http://wow-pro.com/node/3587/revisions/27405/view
 -- Date: 2015-12-31 23:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3587/revisions/27391/view
 -- Date: 2015-10-03 00:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: PLaythrough on Faction Changed toon
 
 -- URL: http://wow-pro.com/node/3587/revisions/27389/view
@@ -78,7 +78,7 @@
 
 -- URL: http://wow-pro.com/node/3587/revisions/27319/view
 -- Date: 2015-07-05 17:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3587/revisions/27205/view
@@ -93,11 +93,11 @@
 
 -- URL: http://wow-pro.com/node/3587/revisions/27177/view
 -- Date: 2015-03-09 19:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3587/revisions/27135/view
 -- Date: 2015-02-01 22:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Small tweaks.
 
 -- URL: http://wow-pro.com/node/3587/revisions/27096/view
@@ -157,7 +157,7 @@
 
 -- URL: http://wow-pro.com/node/3587/revisions/27043/view
 -- Date: 2014-11-24 20:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Turn in [We Need An Army] before doing [Winds of Change]
 
 -- URL: http://wow-pro.com/node/3587/revisions/27042/view
@@ -177,7 +177,7 @@
 
 -- URL: http://wow-pro.com/node/3587/revisions/27031/view
 -- Date: 2014-11-22 12:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some tag fixes.
 
 -- URL: http://wow-pro.com/node/3587/revisions/27025/view

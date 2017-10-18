@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/node/3657
 -- Date: 2017-08-27 18:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Moved [Felblaze Ingress] flight point
 
 -- URL: http://wow-pro.com/node/3657/revisions/28724/view
 -- Date: 2017-07-15 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Playthrough
 
 -- URL: http://wow-pro.com/node/3657/revisions/28667/view
 -- Date: 2017-05-14 22:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change [Kill Golza the Iron Fin] to use ACH|11261;2| for completion.
 
 -- URL: http://wow-pro.com/node/3657/revisions/28621/view
@@ -35,12 +35,12 @@
 
 -- URL: http://wow-pro.com/node/3657/revisions/28540/view
 -- Date: 2017-03-21 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Relocate treasure chest and Cailyn kill above Objective.
 
 -- URL: http://wow-pro.com/node/3657/revisions/28477/view
 -- Date: 2017-03-16 22:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax corrections.
 
 -- URL: http://wow-pro.com/node/3657/revisions/28308/view
@@ -181,7 +181,7 @@
 
 -- URL: http://wow-pro.com/node/3657/revisions/27906/view
 -- Date: 2016-10-13 23:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed QID on [Illidari Stand] flight point get.
 
 -- URL: http://wow-pro.com/node/3657/revisions/27885/view
@@ -253,7 +253,7 @@
 
 -- URL: http://wow-pro.com/node/3657/revisions/27463/view
 -- Date: 2016-07-30 20:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,98, 110, 98.661)

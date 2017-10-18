@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
 -- Date: 2017-03-15 23:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JiySto2530
 
 -- URL: http://wow-pro.com/node/3234/revisions/27465/view
 -- Date: 2016-07-17 20:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: L to Q0 conversions needed to play.
 
 -- URL: http://wow-pro.com/node/3234/revisions/26924/view
@@ -20,42 +20,42 @@
 
 -- URL: http://wow-pro.com/node/3234/revisions/26458/view
 -- Date: 2014-06-02 15:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3234/revisions/26233/view
 -- Date: 2014-05-25 22:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3234/revisions/26069/view
 -- Date: 2014-05-18 21:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3234/revisions/26031/view
 -- Date: 2014-05-17 17:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3234/revisions/25932/view
 -- Date: 2014-04-14 19:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: CS tag
 
 -- URL: http://wow-pro.com/node/3234/revisions/25908/view
 -- Date: 2014-03-06 23:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed some incorrect LVL tags.
 
 -- URL: http://wow-pro.com/node/3234/revisions/25501/view
 -- Date: 2013-01-22 18:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: "Orders from Base Camp" may be gone.   Corrected CN tag to CS tag.  Coord Tweaks.
 
 -- URL: http://wow-pro.com/node/3234/revisions/25473/view
 -- Date: 2013-01-13 19:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3234/revisions/24927/view
@@ -64,7 +64,7 @@
 
 -- URL: http://wow-pro.com/node/3234/revisions/24329/view
 -- Date: 2011-04-29 16:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 45 for step C has 3 M coords:, Line 77 for step A has unknown tag [GRP]:
 
 -- URL: http://wow-pro.com/node/3234/revisions/23972/view

@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/neutral_ramkahen_reputation_dalies_uldum
 -- Date: 2017-03-11 18:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3420/revisions/26561/view
 -- Date: 2014-07-06 15:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels and faction
 
 -- URL: http://wow-pro.com/node/3420/revisions/26528/view
 -- Date: 2014-06-11 19:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3420/revisions/24652/view
 -- Date: 2011-06-30 19:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("TwiUldRam",'Dailies', "Uldum", "Twists", "Neutral")
 WoWPro:GuideLevels(guide,81,83,82)

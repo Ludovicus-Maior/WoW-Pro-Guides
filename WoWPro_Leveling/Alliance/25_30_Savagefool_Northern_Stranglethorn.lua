@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
 -- Date: 2017-03-13 17:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3231/revisions/27623/view
@@ -20,32 +20,32 @@
 
 -- URL: http://wow-pro.com/node/3231/revisions/26626/view
 -- Date: 2014-07-25 22:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean
 
 -- URL: http://wow-pro.com/node/3231/revisions/26329/view
 -- Date: 2014-05-27 19:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide Levels corrected from "0,0" to "19,29".
 
 -- URL: http://wow-pro.com/node/3231/revisions/26230/view
 -- Date: 2014-05-25 22:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3231/revisions/26100/view
 -- Date: 2014-05-18 22:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3231/revisions/25966/view
 -- Date: 2014-05-14 22:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3231/revisions/25435/view
 -- Date: 2013-01-13 15:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3231/revisions/24830/view
@@ -59,18 +59,18 @@
 
 -- URL: http://wow-pro.com/node/3231/revisions/24297/view
 -- Date: 2011-04-29 14:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 55 for step C has unknown tag [These are all over the place in Kurzen's Compound.]
 
 -- URL: http://wow-pro.com/node/3231/revisions/24125/view
 -- Date: 2011-02-23 01:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Link this guide to BitCap3035.
 --	Small spelling corrections.
 
 -- URL: http://wow-pro.com/node/3231/revisions/24121/view
 -- Date: 2011-02-21 00:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling error correction and added note to Leadin quest.
 
 -- URL: http://wow-pro.com/node/3231/revisions/23339/view

@@ -5,47 +5,47 @@
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
 -- Date: 2015-04-13 18:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Converted to continent guide with proximity sort.
 
 -- URL: http://wow-pro.com/node/3474/revisions/27100/view
 -- Date: 2014-12-25 17:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected prologues
 
 -- URL: http://wow-pro.com/node/3474/revisions/26384/view
 -- Date: 2014-05-28 22:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Dragonblight
 
 -- URL: http://wow-pro.com/node/3474/revisions/26381/view
 -- Date: 2014-05-28 21:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: AAdded missing guides.
 
 -- URL: http://wow-pro.com/node/3474/revisions/26377/view
 -- Date: 2014-05-28 20:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Conveted
 
 -- URL: http://wow-pro.com/node/3474/revisions/26311/view
 -- Date: 2014-05-26 17:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3474/revisions/25710/view
 -- Date: 2013-06-18 00:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad X coordinate 49 21, 1/1 in guide TwiExpBT, line [F Steeljaw's Caravan].
 
 -- URL: http://wow-pro.com/node/3474/revisions/24997/view
 -- Date: 2012-05-27 21:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change guide nick for Exploring Howling Fjord to TwiExpHFj
 
 -- URL: http://wow-pro.com/node/3474/revisions/24980/view
 -- Date: 2012-05-27 17:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("TwiExpBT","Achievements","Borean Tundra","Kaboca+Twists", "Neutral")
 WoWPro:GuideLevels(guide,20,90)

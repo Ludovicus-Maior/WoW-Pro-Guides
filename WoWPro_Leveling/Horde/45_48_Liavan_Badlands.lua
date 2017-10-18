@@ -5,36 +5,36 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
 -- Date: 2017-03-15 23:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to LiaBad4548
 
 -- URL: http://wow-pro.com/node/3248/revisions/26447/view
 -- Date: 2014-06-02 15:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3248/revisions/26247/view
 -- Date: 2014-05-25 23:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3248/revisions/26107/view
 -- Date: 2014-05-18 22:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3248/revisions/26019/view
 -- Date: 2014-05-16 22:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3248/revisions/25475/view
 -- Date: 2013-01-13 19:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3248/revisions/25345/view
 -- Date: 2013-01-11 23:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3248/revisions/24887/view
@@ -44,11 +44,11 @@
 
 -- URL: http://wow-pro.com/node/3248/revisions/24390/view
 -- Date: 2011-05-17 00:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3248/revisions/24334/view
 -- Date: 2011-04-29 16:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 22 for step A has 3 M coords, Line 124 for step A has unknown tag [From Gargal]
 
 -- URL: http://wow-pro.com/node/3248/revisions/24047/view

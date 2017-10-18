@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
 -- Date: 2017-03-23 19:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3274/revisions/28440/view
 -- Date: 2017-03-15 23:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JamZan6365
 
 -- URL: http://wow-pro.com/node/3274/revisions/27872/view
@@ -25,31 +25,31 @@
 
 -- URL: http://wow-pro.com/node/3274/revisions/26454/view
 -- Date: 2014-06-02 15:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3274/revisions/26269/view
 -- Date: 2014-05-26 00:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3274/revisions/26145/view
 -- Date: 2014-05-20 19:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3274/revisions/26012/view
 -- Date: 2014-05-16 21:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3274/revisions/25573/view
 -- Date: 2013-03-23 18:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected name of [Keep Thornfang Hill Clear!]
 
 -- URL: http://wow-pro.com/node/3274/revisions/25467/view
 -- Date: 2013-01-13 19:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3274/revisions/24867/view
@@ -64,7 +64,7 @@
 
 -- URL: http://wow-pro.com/node/3274/revisions/24241/view
 -- Date: 2011-04-20 18:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3274/revisions/23430/view
 -- Date: 2010-12-03 12:13

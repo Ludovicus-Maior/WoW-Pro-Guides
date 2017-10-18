@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/node/3673
 -- Date: 2017-08-12 21:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3673/revisions/28682/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3673/revisions/28655/view
 -- Date: 2017-04-23 23:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad Coords 66.77.53.45
 
 -- URL: http://wow-pro.com/node/3673/revisions/28652/view
 -- Date: 2017-04-23 22:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct bad coord 66.77.53.45
 
 -- URL: http://wow-pro.com/node/3673/revisions/28646/view
@@ -35,7 +35,7 @@
 
 -- URL: http://wow-pro.com/node/3673/revisions/28591/view
 -- Date: 2017-03-23 19:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3673/revisions/28501/view
@@ -45,7 +45,7 @@
 
 -- URL: http://wow-pro.com/node/3673/revisions/28469/view
 -- Date: 2017-03-16 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PRE; syntax correction.
 
 -- URL: http://wow-pro.com/node/3673/revisions/28369/view
@@ -75,7 +75,7 @@
 
 -- URL: http://wow-pro.com/node/3673/revisions/27993/view
 -- Date: 2016-11-06 22:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Z|Stormwind City| !
 
 -- URL: http://wow-pro.com/node/3673/revisions/27983/view

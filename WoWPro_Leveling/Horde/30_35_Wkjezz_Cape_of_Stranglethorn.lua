@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
 -- Date: 2017-03-15 23:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to WkjCap3035
 
 -- URL: http://wow-pro.com/node/3238/revisions/27265/view
@@ -19,37 +19,37 @@
 
 -- URL: http://wow-pro.com/node/3238/revisions/26487/view
 -- Date: 2014-06-04 20:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj maxlevel
 
 -- URL: http://wow-pro.com/node/3238/revisions/26452/view
 -- Date: 2014-06-02 15:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3238/revisions/26237/view
 -- Date: 2014-05-25 22:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3238/revisions/26096/view
 -- Date: 2014-05-18 22:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3238/revisions/26025/view
 -- Date: 2014-05-17 16:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3238/revisions/25577/view
 -- Date: 2013-03-23 19:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cleaned up [The Holy Water of Clarity]
 
 -- URL: http://wow-pro.com/node/3238/revisions/25286/view
 -- Date: 2013-01-09 01:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Two different QIDs for [The Holy Water of Clarity]
 
 -- URL: http://wow-pro.com/node/3238/revisions/24716/view
@@ -64,12 +64,12 @@
 
 -- URL: http://wow-pro.com/node/3238/revisions/24331/view
 -- Date: 2011-04-29 16:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 216 for step R has unknown tag [Nalk to Keebok ..]
 
 -- URL: http://wow-pro.com/node/3238/revisions/24080/view
 -- Date: 2011-01-30 19:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3238/revisions/23580/view

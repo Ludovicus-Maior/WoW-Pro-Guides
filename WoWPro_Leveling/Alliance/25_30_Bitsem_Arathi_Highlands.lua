@@ -5,42 +5,42 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
 -- Date: 2017-03-13 17:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3229/revisions/27261/view
 -- Date: 2015-05-22 20:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide BitAra2025 QID 26024 is level 26, but endlevel=25
 
 -- URL: http://wow-pro.com/node/3229/revisions/26599/view
 -- Date: 2014-07-25 21:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj Mean Level
 
 -- URL: http://wow-pro.com/node/3229/revisions/26596/view
 -- Date: 2014-07-25 21:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj. mean level.
 
 -- URL: http://wow-pro.com/node/3229/revisions/26353/view
 -- Date: 2014-05-27 20:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "23,29".
 
 -- URL: http://wow-pro.com/node/3229/revisions/26228/view
 -- Date: 2014-05-25 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3229/revisions/26104/view
 -- Date: 2014-05-18 22:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3229/revisions/25965/view
 -- Date: 2014-05-14 22:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3229/revisions/25829/view
@@ -54,12 +54,12 @@
 
 -- URL: http://wow-pro.com/node/3229/revisions/25634/view
 -- Date: 2013-05-14 17:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: The [Wanted! XXX] quests are really [Wanted!  XXX]
 
 -- URL: http://wow-pro.com/node/3229/revisions/25393/view
 -- Date: 2013-01-12 22:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3229/revisions/25330/view
@@ -69,7 +69,7 @@
 
 -- URL: http://wow-pro.com/node/3229/revisions/25042/view
 -- Date: 2012-08-08 16:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zardok points out that Quae and Kinelory|QID|26113 requires lvl 26 to accept and The Stone Shards|QID|26341 requires lvl 27
 
 -- URL: http://wow-pro.com/node/3229/revisions/24534/view
@@ -79,7 +79,7 @@
 
 -- URL: http://wow-pro.com/node/3229/revisions/24296/view
 -- Date: 2011-04-29 14:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 116 for step T has unknown tag [A Attack on the Tower]: [T Trelane's Defenses|QID|26037|M|12.95,69.32|N|To Apprentice Kryten.|A Attack on the Tower|QID|26038|PRE|26037|M|12.95,69.32|N|From Apprentice Kryten.|]
 
 -- URL: http://wow-pro.com/node/3229/revisions/23827/view

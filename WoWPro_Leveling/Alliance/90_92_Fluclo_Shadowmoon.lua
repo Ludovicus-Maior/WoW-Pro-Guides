@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
 -- Date: 2017-03-15 22:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adding PREs to ShadowDraenor
 
 -- URL: http://wow-pro.com/node/3604/revisions/27599/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3604/revisions/27343/view
 -- Date: 2015-07-20 00:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Remove repliated garrison buildings section.  Allow [Meet Us at Starfall Outpost] to autoswitch.
 
 -- URL: http://wow-pro.com/node/3604/revisions/27318/view
 -- Date: 2015-07-05 17:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Icon
 
 -- URL: http://wow-pro.com/node/3604/revisions/27306/view
@@ -43,37 +43,37 @@
 
 -- URL: http://wow-pro.com/node/3604/revisions/27270/view
 -- Date: 2015-05-29 00:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add LEAD to [The Southern Wilds]
 
 -- URL: http://wow-pro.com/node/3604/revisions/27188/view
 -- Date: 2015-03-29 22:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: QID correction for chest.
 
 -- URL: http://wow-pro.com/node/3604/revisions/27153/view
 -- Date: 2015-03-04 22:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through tweaks.
 
 -- URL: http://wow-pro.com/node/3604/revisions/27148/view
 -- Date: 2015-02-25 00:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaks as I played through.
 
 -- URL: http://wow-pro.com/node/3604/revisions/27140/view
 -- Date: 2015-02-08 20:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Edited [Pippers' Buried Supplies] as per Aldavor https://github.com/Jiyambi/WoW-Pro-Guides/issues/406
 
 -- URL: http://wow-pro.com/node/3604/revisions/27131/view
 -- Date: 2015-02-01 17:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correcting quest name and flight point name.
 
 -- URL: http://wow-pro.com/node/3604/revisions/27130/view
 -- Date: 2015-01-25 05:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Aldavor:  Incorrect QID; the line (615) in Shadowmoon levelling guide should be changed from:
 --	
 --	l Mushroom-Covered Chest |QID|33869|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
@@ -85,12 +85,12 @@
 
 -- URL: http://wow-pro.com/node/3604/revisions/27117/view
 -- Date: 2015-01-04 23:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: PLaying tweaks.
 
 -- URL: http://wow-pro.com/node/3604/revisions/27078/view
 -- Date: 2014-12-05 22:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Eleminated double |N|N| from Bahameye
 
 -- URL: http://wow-pro.com/node/3604/revisions/27076/view
@@ -158,12 +158,12 @@
 
 -- URL: http://wow-pro.com/node/3604/revisions/27002/view
 -- Date: 2014-11-15 20:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed map name to have @Draenor suffix.
 
 -- URL: http://wow-pro.com/node/3604/revisions/26998/view
 -- Date: 2014-11-14 21:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add the final D step
 
 -- URL: http://wow-pro.com/node/3604/revisions/26991/view
@@ -172,20 +172,20 @@
 
 -- URL: http://wow-pro.com/node/3604/revisions/26987/view
 -- Date: 2014-11-14 12:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3604/revisions/26983/view
 -- Date: 2014-11-14 11:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: guide transition message
 
 -- URL: http://wow-pro.com/node/3604/revisions/26982/view
 -- Date: 2014-11-14 11:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3604/revisions/26978/view
 -- Date: 2014-11-14 04:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played through and tweaked as usual.
 
 -- URL: http://wow-pro.com/node/3604/revisions/26973/view
@@ -218,7 +218,7 @@
 
 -- URL: http://wow-pro.com/node/3604/revisions/26895/view
 -- Date: 2014-11-08 01:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrections
 
 -- URL: http://wow-pro.com/node/3604/revisions/26781/view

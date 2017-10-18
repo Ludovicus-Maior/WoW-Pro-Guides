@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
 -- Date: 2017-03-11 20:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3225/revisions/27622/view
@@ -15,32 +15,32 @@
 
 -- URL: http://wow-pro.com/node/3225/revisions/26615/view
 -- Date: 2014-07-25 22:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: add mean
 
 -- URL: http://wow-pro.com/node/3225/revisions/26368/view
 -- Date: 2014-05-27 21:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "17,24".
 
 -- URL: http://wow-pro.com/node/3225/revisions/26226/view
 -- Date: 2014-05-25 22:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3225/revisions/26071/view
 -- Date: 2014-05-18 21:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3225/revisions/25963/view
 -- Date: 2014-05-14 22:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3225/revisions/25426/view
 -- Date: 2013-01-13 15:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3225/revisions/24801/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3225/revisions/24458/view
 -- Date: 2011-05-30 17:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 243 for step R has unknown tag [211]: [R Path to the heart|QID|26472|M|77.87,73.54;77.04,74.20;75.86,73.56;75.99,74.05|CC|211]
 
 -- URL: http://wow-pro.com/node/3225/revisions/24411/view

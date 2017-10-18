@@ -5,41 +5,41 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
 -- Date: 2017-03-15 22:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to RajKra8788
 
 -- URL: http://wow-pro.com/node/3488/revisions/26894/view
 -- Date: 2014-11-08 01:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrections
 
 -- URL: http://wow-pro.com/node/3488/revisions/26414/view
 -- Date: 2014-05-30 15:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3488/revisions/26402/view
 -- Date: 2014-05-30 12:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Adjustment
 
 -- URL: http://wow-pro.com/node/3488/revisions/26339/view
 -- Date: 2014-05-27 20:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: End Level corrected from 0 to 87.
 
 -- URL: http://wow-pro.com/node/3488/revisions/26303/view
 -- Date: 2014-05-26 01:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3488/revisions/26111/view
 -- Date: 2014-05-18 22:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3488/revisions/25997/view
 -- Date: 2014-05-14 22:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3488/revisions/25763/view
@@ -49,12 +49,12 @@
 
 -- URL: http://wow-pro.com/node/3488/revisions/25722/view
 -- Date: 2013-06-18 01:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 31410's name [Booties] does not match Grail's database [Equipment Locker].
 
 -- URL: http://wow-pro.com/node/3488/revisions/25671/view
 -- Date: 2013-05-17 19:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Misplaced |M| on Materia Medica.
 
 -- URL: http://wow-pro.com/node/3488/revisions/25391/view
@@ -84,7 +84,7 @@
 
 -- URL: http://wow-pro.com/node/3488/revisions/25214/view
 -- Date: 2012-11-24 21:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played through and tweaked all over.  One toon found the bugs, the second tested the fixes!
 
 -- URL: http://wow-pro.com/node/3488/revisions/25200/view
@@ -94,22 +94,22 @@
 
 -- URL: http://wow-pro.com/node/3488/revisions/25172/view
 -- Date: 2012-10-27 20:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: OK, next set of coordinate corrections, text mods, et al
 
 -- URL: http://wow-pro.com/node/3488/revisions/25171/view
 -- Date: 2012-10-27 16:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord fine tuning and occasional syntax fixes and duplicate step removals.
 
 -- URL: http://wow-pro.com/node/3488/revisions/25122/view
 -- Date: 2012-10-07 23:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Alliance/87_88_Rajitazi_KrasarangWilds.lua with minor tweaks by ludo
 
 -- URL: http://wow-pro.com/node/3488/revisions/25079/view
 -- Date: 2012-09-24 22:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/f25104bceccdf3d7adfe58ec2beaffdbabe4af07/WoWPro_Leveling/Alliance/87_88_Rajitazi_KrasarangWilds.lua 
 
 -- URL: http://wow-pro.com/node/3488/revisions/25062/view
@@ -119,12 +119,12 @@
 
 -- URL: http://wow-pro.com/node/3488/revisions/25054/view
 -- Date: 2012-08-28 19:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: update urls
 
 -- URL: http://wow-pro.com/node/3488/revisions/25053/view
 -- Date: 2012-08-28 19:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 local guide = WoWPro:RegisterGuide('RajKra8788', "Leveling", 'Krasarang Wilds', 'Rajitazi', 'Alliance')

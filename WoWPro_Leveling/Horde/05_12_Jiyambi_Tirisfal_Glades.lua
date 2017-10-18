@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
 -- Date: 2017-03-15 22:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JiyTir0512
 
 -- URL: http://wow-pro.com/node/3205/revisions/28409/view
 -- Date: 2017-03-15 22:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JiyDk0105
 
 -- URL: http://wow-pro.com/node/3205/revisions/27496/view
@@ -20,22 +20,22 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/27303/view
 -- Date: 2015-06-28 23:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: PLaythrough with QO and M adjustments
 
 -- URL: http://wow-pro.com/node/3205/revisions/27272/view
 -- Date: 2015-05-29 00:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New starter zone.
 
 -- URL: http://wow-pro.com/node/3205/revisions/27230/view
 -- Date: 2015-04-30 20:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: remap
 
 -- URL: http://wow-pro.com/node/3205/revisions/27213/view
 -- Date: 2015-04-28 00:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Split
 
 -- URL: http://wow-pro.com/node/3205/revisions/26956/view
@@ -51,27 +51,27 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/26481/view
 -- Date: 2014-06-02 22:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Icons
 
 -- URL: http://wow-pro.com/node/3205/revisions/26427/view
 -- Date: 2014-06-02 13:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3205/revisions/26210/view
 -- Date: 2014-05-25 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3205/revisions/26136/view
 -- Date: 2014-05-20 19:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3205/revisions/26044/view
 -- Date: 2014-05-17 17:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3205/revisions/25948/view
 -- Date: 2014-05-09 19:15
@@ -96,17 +96,17 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/25854/view
 -- Date: 2013-12-26 21:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: QID corrections and fixups for goblins in the zone.
 
 -- URL: http://wow-pro.com/node/3205/revisions/25133/view
 -- Date: 2012-10-09 00:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added undead monk quests.
 
 -- URL: http://wow-pro.com/node/3205/revisions/25128/view
 -- Date: 2012-10-08 19:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3205/revisions/24730/view
 -- Date: 2011-08-13 21:23
@@ -120,7 +120,7 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/24511/view
 -- Date: 2011-06-07 10:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweak Coords on C [Assault on the Rotbrain Encampment]
 
 -- URL: http://wow-pro.com/node/3205/revisions/24473/view
@@ -130,21 +130,21 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/24437/view
 -- Date: 2011-05-28 11:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Race tags needed updates.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24316/view
 -- Date: 2011-04-29 15:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3205/revisions/24070/view
 -- Date: 2011-01-29 17:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing QID to Level 4 step.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24036/view
 -- Date: 2011-01-22 14:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a bunch of |R|Undead,Troll| and |R|Undead| tags where appropriate.
 
 -- URL: http://wow-pro.com/node/3205/revisions/23828/view

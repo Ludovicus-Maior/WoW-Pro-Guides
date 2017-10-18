@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
 -- Date: 2017-03-17 00:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added 2 PREs
 
 -- URL: http://wow-pro.com/node/3600/revisions/27988/view
@@ -17,22 +17,22 @@
 
 -- URL: http://wow-pro.com/node/3600/revisions/27323/view
 -- Date: 2015-07-05 18:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Not enough slash
 
 -- URL: http://wow-pro.com/node/3600/revisions/27320/view
 -- Date: 2015-07-05 18:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3600/revisions/27134/view
 -- Date: 2015-02-01 22:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Put the run to the cave in TanaanJungleIntro instead of Umbral Halls.
 
 -- URL: http://wow-pro.com/node/3600/revisions/27116/view
 -- Date: 2015-01-04 23:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Flipped the Southern/Eastern cage QO's.
 
 -- URL: http://wow-pro.com/node/3600/revisions/27011/view
@@ -42,7 +42,7 @@
 
 -- URL: http://wow-pro.com/node/3600/revisions/26979/view
 -- Date: 2014-11-14 04:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 206 for step A has unknown tag [From Yrel]: [A Yrel|QID|34434;34740|From Yrel|M|45.15,15.98|N|From Yrel.|Z|Umbral Halls|PRE|34429|]
 --	! Line 207 for step C has unknown tag [Head back down the corridor.]: [C Yrel|QID|34434;34740|Head back down the corridor.|M|58.28,38.31|NC|N|Lead Yrel out to the main corridor, she can find her way from there.|Z|Umbral Halls|]
 
@@ -58,7 +58,7 @@
 
 -- URL: http://wow-pro.com/node/3600/revisions/26975/view
 -- Date: 2014-11-13 14:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Reveting Umbral halls coordinates, slight text corrections on cages and note improvements.
 
 -- URL: http://wow-pro.com/node/3600/revisions/26891/view
@@ -91,12 +91,12 @@
 
 -- URL: http://wow-pro.com/node/3600/revisions/26766/view
 -- Date: 2014-10-26 23:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: More coordinate corrections and threw in a few /1's for the cave later.
 
 -- URL: http://wow-pro.com/node/3600/revisions/26763/view
 -- Date: 2014-10-25 22:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad coord for T [Onslaught's End]
 
 -- URL: http://wow-pro.com/node/3600/revisions/26756/view
@@ -111,7 +111,7 @@
 
 -- URL: http://wow-pro.com/node/3600/revisions/26749/view
 -- Date: 2014-10-22 01:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone transform.  Coord tweaks.  Stopped at cave till I figure out what to do.
 
 -- URL: http://wow-pro.com/node/3600/revisions/26713/view
@@ -125,7 +125,7 @@
 
 -- URL: http://wow-pro.com/node/3600/revisions/26693/view
 -- Date: 2014-09-27 22:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide Name Change
 
 -- URL: http://wow-pro.com/node/3600/revisions/26684/view

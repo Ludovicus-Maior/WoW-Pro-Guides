@@ -5,31 +5,31 @@
 
 -- URL: http://wow-pro.com/wiki/alchemy_recipies
 -- Date: 2016-11-30 20:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fix single section error.
 
 -- URL: http://wow-pro.com/node/3565/revisions/27782/view
 -- Date: 2016-09-14 18:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dalaran City@Dalaran
 
 -- URL: http://wow-pro.com/node/3565/revisions/27427/view
 -- Date: 2016-01-09 01:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Orgrimmar@Orgrimmar
 
 -- URL: http://wow-pro.com/node/3565/revisions/25910/view
 -- Date: 2014-03-06 23:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct coords for [Transmute: Fire to Earth]
 
 -- URL: http://wow-pro.com/node/3565/revisions/25900/view
 -- Date: 2014-02-14 00:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3565/revisions/25883/view
 -- Date: 2014-02-13 23:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoShopAlchemy","Profession", "Alchemy", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Alchemy Recipies")

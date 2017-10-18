@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
 -- Date: 2017-03-10 22:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax changes.
 
 -- URL: http://wow-pro.com/node/3506/revisions/26947/view
@@ -20,17 +20,17 @@
 
 -- URL: http://wow-pro.com/node/3506/revisions/26571/view
 -- Date: 2014-07-06 15:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added artificial levels line
 
 -- URL: http://wow-pro.com/node/3506/revisions/26539/view
 -- Date: 2014-06-11 22:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Converted
 
 -- URL: http://wow-pro.com/node/3506/revisions/25759/view
 -- Date: 2013-09-10 23:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Interleave the last turnins to avoid client crash if you turn in more than one quest before "Storytime" starts.   You could pile up X copies of Lorewalker Cho telling stories at the same time and then BOOOM!
 
 -- URL: http://wow-pro.com/node/3506/revisions/25512/view
@@ -94,16 +94,16 @@
 
 -- URL: http://wow-pro.com/node/3506/revisions/25138/view
 -- Date: 2012-10-10 11:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added credits
 
 -- URL: http://wow-pro.com/node/3506/revisions/25137/view
 -- Date: 2012-10-10 11:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3506/revisions/25117/view
 -- Date: 2012-10-07 22:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide('Lorewalkers',"Achievements",'Pandaria', 'Lockslap','Neutral')
 WoWPro:GuideIcon(guide,"ACH",6548)

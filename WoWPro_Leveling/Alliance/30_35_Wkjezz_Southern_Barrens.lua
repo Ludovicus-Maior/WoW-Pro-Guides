@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
 -- Date: 2017-03-15 21:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to WkjSotBar3035
 
 -- URL: http://wow-pro.com/node/3235/revisions/26870/view
 -- Date: 2014-11-07 22:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dup tags
 
 -- URL: http://wow-pro.com/node/3235/revisions/26812/view
@@ -20,36 +20,36 @@
 
 -- URL: http://wow-pro.com/node/3235/revisions/26612/view
 -- Date: 2014-07-25 21:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3235/revisions/26415/view
 -- Date: 2014-05-30 15:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level tweak
 
 -- URL: http://wow-pro.com/node/3235/revisions/26365/view
 -- Date: 2014-05-27 21:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: End Level corrected from 0 to 33.
 
 -- URL: http://wow-pro.com/node/3235/revisions/26234/view
 -- Date: 2014-05-25 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3235/revisions/26081/view
 -- Date: 2014-05-18 21:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3235/revisions/25971/view
 -- Date: 2014-05-14 22:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3235/revisions/25421/view
 -- Date: 2013-01-13 14:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3235/revisions/24550/view
@@ -69,12 +69,12 @@
 
 -- URL: http://wow-pro.com/node/3235/revisions/24300/view
 -- Date: 2011-04-29 14:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 44 for step T has unknown tag [To Commander Walpole.], Line 243 for step C has unknown tag [Take out the grunts.].
 
 -- URL: http://wow-pro.com/node/3235/revisions/24151/view
 -- Date: 2011-03-08 12:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sequence changes around [A Line in the Dirt], [A Report to Twinbraid], and [Echoes of Agamaggan] for more optimal play.
 
 -- URL: http://wow-pro.com/node/3235/revisions/23927/view

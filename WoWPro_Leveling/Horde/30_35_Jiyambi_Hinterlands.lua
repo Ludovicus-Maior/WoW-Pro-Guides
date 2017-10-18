@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
 -- Date: 2017-03-15 23:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JiyHin3035
 
 -- URL: http://wow-pro.com/node/3240/revisions/27282/view
@@ -20,27 +20,27 @@
 
 -- URL: http://wow-pro.com/node/3240/revisions/26453/view
 -- Date: 2014-06-02 15:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3240/revisions/26323/view
 -- Date: 2014-05-26 19:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing guide type.
 
 -- URL: http://wow-pro.com/node/3240/revisions/26092/view
 -- Date: 2014-05-18 22:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3240/revisions/26028/view
 -- Date: 2014-05-17 17:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3240/revisions/25477/view
 -- Date: 2013-01-13 19:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3240/revisions/23361/view

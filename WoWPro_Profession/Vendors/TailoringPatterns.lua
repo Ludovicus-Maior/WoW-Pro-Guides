@@ -5,41 +5,41 @@
 
 -- URL: http://wow-pro.com/wiki/tailoring_patterns
 -- Date: 2017-01-02 22:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration style
 
 -- URL: http://wow-pro.com/node/3573/revisions/28077/view
 -- Date: 2016-11-30 20:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fix single section error.
 
 -- URL: http://wow-pro.com/node/3573/revisions/27787/view
 -- Date: 2016-09-14 19:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: missed one Dalaran City@Dalaran
 
 -- URL: http://wow-pro.com/node/3573/revisions/27776/view
 -- Date: 2016-09-14 17:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dalaran City@Dalaran
 
 -- URL: http://wow-pro.com/node/3573/revisions/26949/view
 -- Date: 2014-11-08 20:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Chnage Shrine Z
 
 -- URL: http://wow-pro.com/node/3573/revisions/25913/view
 -- Date: 2014-03-06 23:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone tag corrections.
 
 -- URL: http://wow-pro.com/node/3573/revisions/25892/view
 -- Date: 2014-02-14 00:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3573/revisions/25891/view
 -- Date: 2014-02-14 00:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoShopTailoring","Profession", "Tailoring", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Tailoring Patterns")

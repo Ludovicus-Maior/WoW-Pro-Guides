@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
 -- Date: 2017-03-11 20:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3200/revisions/28221/view
 -- Date: 2017-01-10 20:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Deleted spurious Z tag in Hunter's [T Meet the High Tinker]
 
 -- URL: http://wow-pro.com/node/3200/revisions/27706/view
@@ -56,12 +56,12 @@
 
 -- URL: http://wow-pro.com/node/3200/revisions/27442/view
 -- Date: 2016-03-23 12:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixing step merge.
 
 -- URL: http://wow-pro.com/node/3200/revisions/27392/view
 -- Date: 2015-10-05 14:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct coords for [Wayward Fire Elemental] and [Grik'nir the Cold]
 
 -- URL: http://wow-pro.com/node/3200/revisions/27335/view
@@ -80,22 +80,22 @@
 
 -- URL: http://wow-pro.com/node/3200/revisions/27259/view
 -- Date: 2015-05-18 00:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Wow, that [code] block thing was a bad idea.
 
 -- URL: http://wow-pro.com/node/3200/revisions/27254/view
 -- Date: 2015-05-16 21:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Need a blank line before the [/code] directive.
 
 -- URL: http://wow-pro.com/node/3200/revisions/27253/view
 -- Date: 2015-05-16 21:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated Dwarf guide levels.
 
 -- URL: http://wow-pro.com/node/3200/revisions/27251/view
 -- Date: 2015-05-16 18:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Amend coords for Gnome starter zone.
 
 -- URL: http://wow-pro.com/node/3200/revisions/27248/view
@@ -105,22 +105,22 @@
 
 -- URL: http://wow-pro.com/node/3200/revisions/27247/view
 -- Date: 2015-05-16 15:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Revert to get the dwarf zone back, re-add the zone changes for gnomes.
 
 -- URL: http://wow-pro.com/node/3200/revisions/27246/view
 -- Date: 2015-05-16 15:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: .
 
 -- URL: http://wow-pro.com/node/3200/revisions/27228/view
 -- Date: 2015-04-30 20:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: remap
 
 -- URL: http://wow-pro.com/node/3200/revisions/27217/view
 -- Date: 2015-04-28 00:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone name fixes
 
 -- URL: http://wow-pro.com/node/3200/revisions/27204/view
@@ -145,84 +145,84 @@
 
 -- URL: http://wow-pro.com/node/3200/revisions/26634/view
 -- Date: 2014-07-26 00:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3200/revisions/26593/view
 -- Date: 2014-07-25 20:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3200/revisions/26403/view
 -- Date: 2014-05-30 12:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level setting
 
 -- URL: http://wow-pro.com/node/3200/revisions/26386/view
 -- Date: 2014-05-29 22:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean level
 
 -- URL: http://wow-pro.com/node/3200/revisions/26319/view
 -- Date: 2014-05-26 19:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Guide type.
 
 -- URL: http://wow-pro.com/node/3200/revisions/26204/view
 -- Date: 2014-05-25 22:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3200/revisions/26021/view
 -- Date: 2014-05-17 16:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3200/revisions/25955/view
 -- Date: 2014-05-14 22:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3200/revisions/25951/view
 -- Date: 2014-05-14 21:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New register guide.
 
 -- URL: http://wow-pro.com/node/3200/revisions/25950/view
 -- Date: 2014-05-14 21:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New Guide Registration
 
 -- URL: http://wow-pro.com/node/3200/revisions/25638/view
 -- Date: 2013-05-14 18:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
 
 -- URL: http://wow-pro.com/node/3200/revisions/25591/view
 -- Date: 2013-03-23 20:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Name tweaks
 
 -- URL: http://wow-pro.com/node/3200/revisions/25496/view
 -- Date: 2013-01-22 17:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed "Lambs on the Lam" to use special target macro!
 
 -- URL: http://wow-pro.com/node/3200/revisions/25412/view
 -- Date: 2013-01-13 14:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a CS tag
 
 -- URL: http://wow-pro.com/node/3200/revisions/25359/view
 -- Date: 2013-01-12 18:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added some CS and CN tags
 
 -- URL: http://wow-pro.com/node/3200/revisions/25136/view
 -- Date: 2012-10-09 23:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Monk quests and got rid of extra spaces and spell corrections.
 
 -- URL: http://wow-pro.com/node/3200/revisions/25131/view
 -- Date: 2012-10-08 22:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Dwarf Monk starter quests.
 
 -- URL: http://wow-pro.com/node/3200/revisions/24869/view

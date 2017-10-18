@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
 -- Date: 2017-03-15 23:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JiySou3035
 
 -- URL: http://wow-pro.com/node/3236/revisions/27457/view
@@ -15,42 +15,42 @@
 
 -- URL: http://wow-pro.com/node/3236/revisions/26424/view
 -- Date: 2014-06-02 13:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels.
 
 -- URL: http://wow-pro.com/node/3236/revisions/26235/view
 -- Date: 2014-05-25 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3236/revisions/26082/view
 -- Date: 2014-05-18 21:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3236/revisions/26027/view
 -- Date: 2014-05-17 16:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3236/revisions/26026/view
 -- Date: 2014-05-17 16:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3236/revisions/25705/view
 -- Date: 2013-06-18 00:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Step C [Stalling the Survey:24519] in JiySou3035 is missing a CS|CC|CN tag.
 
 -- URL: http://wow-pro.com/node/3236/revisions/25677/view
 -- Date: 2013-05-17 20:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad coord for [Stalling the Survey]
 
 -- URL: http://wow-pro.com/node/3236/revisions/25490/view
 -- Date: 2013-01-13 23:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3236/revisions/24928/view

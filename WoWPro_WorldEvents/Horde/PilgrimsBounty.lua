@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_horde
 -- Date: 2017-03-17 14:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3444/revisions/28287/view
 -- Date: 2017-03-05 18:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Float the level
 
 -- URL: http://wow-pro.com/node/3444/revisions/27364/view
 -- Date: 2015-07-25 18:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3444/revisions/26843/view
@@ -25,29 +25,29 @@
 
 -- URL: http://wow-pro.com/node/3444/revisions/26497/view
 -- Date: 2014-06-10 21:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3444/revisions/25828/view
 -- Date: 2013-12-01 00:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added ACH tags to steps.
 
 -- URL: http://wow-pro.com/node/3444/revisions/24818/view
 -- Date: 2011-11-20 23:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3444/revisions/24815/view
 -- Date: 2011-11-20 19:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3444/revisions/24809/view
 -- Date: 2011-11-17 00:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3444/revisions/24805/view
 -- Date: 2011-11-16 02:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3444/revisions/24789/view
 -- Date: 2011-10-30 19:10

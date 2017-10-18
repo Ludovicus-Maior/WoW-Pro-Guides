@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
 -- Date: 2017-03-23 19:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3294/revisions/28449/view
 -- Date: 2017-03-16 16:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3294/revisions/28027/view
@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3294/revisions/26936/view
 -- Date: 2014-11-08 12:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Double U
 
 -- URL: http://wow-pro.com/node/3294/revisions/26911/view
@@ -30,22 +30,22 @@
 
 -- URL: http://wow-pro.com/node/3294/revisions/26437/view
 -- Date: 2014-06-02 14:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3294/revisions/26286/view
 -- Date: 2014-05-26 01:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3294/revisions/26162/view
 -- Date: 2014-05-20 19:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3294/revisions/26004/view
 -- Date: 2014-05-16 20:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3294/revisions/25724/view
 -- Date: 2013-06-18 08:35
@@ -54,7 +54,7 @@
 
 -- URL: http://wow-pro.com/node/3294/revisions/25316/view
 -- Date: 2013-01-09 22:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3294/revisions/24921/view
@@ -82,16 +82,16 @@
 
 -- URL: http://wow-pro.com/node/3294/revisions/24344/view
 -- Date: 2011-04-29 16:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 285 for step C has unknown tag [NGo northwest to ...]
 
 -- URL: http://wow-pro.com/node/3294/revisions/24211/view
 -- Date: 2011-04-05 23:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3294/revisions/24163/view
 -- Date: 2011-03-12 18:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Make Guide ID unique
 
 -- URL: http://wow-pro.com/node/3294/revisions/23480/view

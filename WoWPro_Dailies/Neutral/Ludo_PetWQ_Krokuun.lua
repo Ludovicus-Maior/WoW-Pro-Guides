@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/node/3744
 -- Date: 2017-09-12 21:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Revised Gnasher
 
 -- URL: http://wow-pro.com/node/3744/revisions/28781/view
 -- Date: 2017-09-05 23:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: First Cut
 
 local guide = WoWPro:RegisterGuide("LudoPetWQKrokuun","Dailies","ArgusSurface","Ludovicus","Neutral")

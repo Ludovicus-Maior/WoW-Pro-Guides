@@ -5,32 +5,32 @@
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
 -- Date: 2017-03-17 13:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Just 2 PREs
 
 -- URL: http://wow-pro.com/node/3406/revisions/28282/view
 -- Date: 2017-03-05 18:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Float the level
 
 -- URL: http://wow-pro.com/node/3406/revisions/27775/view
 -- Date: 2016-09-14 17:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dalaran City@Dalaran
 
 -- URL: http://wow-pro.com/node/3406/revisions/27159/view
 -- Date: 2015-03-09 17:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing Z tag
 
 -- URL: http://wow-pro.com/node/3406/revisions/26608/view
 -- Date: 2014-07-25 21:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: adj levels
 
 -- URL: http://wow-pro.com/node/3406/revisions/26502/view
 -- Date: 2014-06-10 22:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25734/view
@@ -45,32 +45,32 @@
 
 -- URL: http://wow-pro.com/node/3406/revisions/25025/view
 -- Date: 2012-07-01 20:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Optimize ordering for Northrend.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25024/view
 -- Date: 2012-07-01 20:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected coords for flight to Shattrath in Netherstorm
 
 -- URL: http://wow-pro.com/node/3406/revisions/25023/view
 -- Date: 2012-07-01 20:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change R step from Vashjir to Darkbreak Cove
 
 -- URL: http://wow-pro.com/node/3406/revisions/25022/view
 -- Date: 2012-07-01 17:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Remove silly comment about setting hearth to stormwind for trip to Deepholm.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25021/view
 -- Date: 2012-07-01 16:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Trim incorrect comment about Cata zones not counting.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25009/view
 -- Date: 2012-06-26 18:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Three way merge of my, Twists and Laotseu's updates.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25008/view
@@ -88,12 +88,12 @@
 
 -- URL: http://wow-pro.com/node/3406/revisions/24680/view
 -- Date: 2011-07-12 23:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: The )end must be on a line by itself.
 
 -- URL: http://wow-pro.com/node/3406/revisions/24653/view
 -- Date: 2011-06-30 22:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3406/revisions/24631/view
 -- Date: 2011-06-30 05:42

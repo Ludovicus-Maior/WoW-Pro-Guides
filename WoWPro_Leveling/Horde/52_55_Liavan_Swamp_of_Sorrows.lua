@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
 -- Date: 2017-08-31 21:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Someone forgot a ]] at the end!
 
 -- URL: http://wow-pro.com/node/3250/revisions/28765/view
@@ -32,36 +32,36 @@
 
 -- URL: http://wow-pro.com/node/3250/revisions/28437/view
 -- Date: 2017-03-15 23:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to LiaSwa5255
 
 -- URL: http://wow-pro.com/node/3250/revisions/26417/view
 -- Date: 2014-06-02 13:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adjusted Levels
 
 -- URL: http://wow-pro.com/node/3250/revisions/26249/view
 -- Date: 2014-05-25 23:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3250/revisions/26109/view
 -- Date: 2014-05-18 22:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3250/revisions/26015/view
 -- Date: 2014-05-16 22:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3250/revisions/25447/view
 -- Date: 2013-01-13 17:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3250/revisions/25320/view
 -- Date: 2013-01-09 22:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS steps
 
 -- URL: http://wow-pro.com/node/3250/revisions/24603/view
@@ -72,7 +72,7 @@
 
 -- URL: http://wow-pro.com/node/3250/revisions/24337/view
 -- Date: 2011-04-29 16:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 69 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3250/revisions/23626/view

@@ -10,17 +10,17 @@
 
 -- URL: http://wow-pro.com/node/3417/revisions/26579/view
 -- Date: 2014-07-19 17:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adjust mean level
 
 -- URL: http://wow-pro.com/node/3417/revisions/26557/view
 -- Date: 2014-07-06 15:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels and faction
 
 -- URL: http://wow-pro.com/node/3417/revisions/26524/view
 -- Date: 2014-06-11 19:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3417/revisions/25251/view
@@ -30,7 +30,7 @@
 
 -- URL: http://wow-pro.com/node/3417/revisions/24649/view
 -- Date: 2011-06-30 19:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("CraShoFre",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral")
 WoWPro:GuideLevels(guide,74,77,76.5)

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
 -- Date: 2017-08-27 18:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through moved some quests around to be usable.
 
 -- URL: http://wow-pro.com/node/3724/revisions/28677/view
@@ -80,7 +80,7 @@
 
 -- URL: http://wow-pro.com/node/3724/revisions/28622/view
 -- Date: 2017-03-29 16:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide('Emm_BrokenShore', 'Achievements', 'Broken Shore', 'Emmaleah', 'Neutral')

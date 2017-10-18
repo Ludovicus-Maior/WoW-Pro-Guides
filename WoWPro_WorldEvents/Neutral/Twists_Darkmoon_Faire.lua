@@ -5,67 +5,67 @@
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
 -- Date: 2017-05-14 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: You can only have one Jubling per account, I think.
 
 -- URL: http://wow-pro.com/node/3459/revisions/28651/view
 -- Date: 2017-04-23 22:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Ooops, truncated line.
 
 -- URL: http://wow-pro.com/node/3459/revisions/28650/view
 -- Date: 2017-04-23 21:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add STRATEGY|RikadeLevel| for Christoph VonFeasel
 
 -- URL: http://wow-pro.com/node/3459/revisions/28307/view
 -- Date: 2017-03-08 00:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Everything
 
 -- URL: http://wow-pro.com/node/3459/revisions/28281/view
 -- Date: 2017-03-05 18:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Darkmoon tweaks!
 
 -- URL: http://wow-pro.com/node/3459/revisions/28213/view
 -- Date: 2017-01-05 14:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Finish Pet battle updates and move Jubling to RANK|3
 
 -- URL: http://wow-pro.com/node/3459/revisions/28209/view
 -- Date: 2017-01-02 22:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add new style pet battle scripts and two strategies.
 
 -- URL: http://wow-pro.com/node/3459/revisions/27357/view
 -- Date: 2015-07-25 18:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3459/revisions/26645/view
 -- Date: 2014-08-29 19:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change zone
 
 -- URL: http://wow-pro.com/node/3459/revisions/26491/view
 -- Date: 2014-06-09 23:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add new guide syntax and RANK
 
 -- URL: http://wow-pro.com/node/3459/revisions/25907/view
 -- Date: 2014-03-06 23:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add PET tags for the Jubling series and a missing Alchemy tag.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25611/view
 -- Date: 2013-05-09 22:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Minor tweaks.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25552/view
 -- Date: 2013-03-16 19:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: zone updates and spelling correction for Jubjub.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25526/view
@@ -75,32 +75,32 @@
 
 -- URL: http://wow-pro.com/node/3459/revisions/25525/view
 -- Date: 2013-02-08 02:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bearzerker's suggestions, according to me :-)
 
 -- URL: http://wow-pro.com/node/3459/revisions/25522/view
 -- Date: 2013-02-06 20:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Darkmoon tweaks
 
 -- URL: http://wow-pro.com/node/3459/revisions/25429/view
 -- Date: 2013-01-13 15:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3459/revisions/25347/view
 -- Date: 2013-01-12 00:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tag, QID for the jubling and made the purchase of Fossil Archeology Fragments level 90.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25324/view
 -- Date: 2013-01-10 16:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Rearrange eating and drinking as per  Bearzerker 
 
 -- URL: http://wow-pro.com/node/3459/revisions/25323/view
 -- Date: 2013-01-10 14:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3459/revisions/25303/view
 -- Date: 2013-01-09 21:57
@@ -114,12 +114,12 @@
 
 -- URL: http://wow-pro.com/node/3459/revisions/25298/view
 -- Date: 2013-01-09 16:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added U|72110| to Talkin' Tonks as per  Bearzerker
 
 -- URL: http://wow-pro.com/node/3459/revisions/25287/view
 -- Date: 2013-01-09 01:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Attempt at a manual merger of my changes.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25282/view
@@ -129,26 +129,26 @@
 
 -- URL: http://wow-pro.com/node/3459/revisions/25249/view
 -- Date: 2012-12-16 00:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: You need 5X Fizzy Faire Drink.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25235/view
 -- Date: 2012-12-03 00:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added some missing M tags.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25233/view
 -- Date: 2012-12-02 21:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: STamp
 
 -- URL: http://wow-pro.com/node/3459/revisions/25232/view
 -- Date: 2012-12-02 21:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3459/revisions/25209/view
 -- Date: 2012-11-17 21:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed the name of the zone.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25202/view
@@ -158,21 +158,21 @@
 
 -- URL: http://wow-pro.com/node/3459/revisions/25003/view
 -- Date: 2012-06-08 14:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add LVL tweaks so it wont bother you to try to eat food you can't!
 
 -- URL: http://wow-pro.com/node/3459/revisions/24904/view
 -- Date: 2012-01-19 00:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3459/revisions/24903/view
 -- Date: 2012-01-19 00:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct node number
 
 -- URL: http://wow-pro.com/node/3459/revisions/24902/view
 -- Date: 2012-01-19 00:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to git
 
 local guide = WoWPro:RegisterGuide("TwiDarkmoon",'WorldEvents',"DarkmoonFaireIsland", "Twists", "Neutral")

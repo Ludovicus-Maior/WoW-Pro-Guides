@@ -10,22 +10,22 @@
 
 -- URL: http://wow-pro.com/node/3505/revisions/26570/view
 -- Date: 2014-07-06 15:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels
 
 -- URL: http://wow-pro.com/node/3505/revisions/26537/view
 -- Date: 2014-06-11 19:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3505/revisions/25618/view
 -- Date: 2013-05-09 22:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added [Riding the Skies].
 
 -- URL: http://wow-pro.com/node/3505/revisions/25604/view
 -- Date: 2013-03-25 23:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed the now gone leadin quests, fixed some names, and a few other tweaks.
 
 -- URL: http://wow-pro.com/node/3505/revisions/25533/view
@@ -35,7 +35,7 @@
 
 -- URL: http://wow-pro.com/node/3505/revisions/25398/view
 -- Date: 2013-01-12 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added 2 CN tags
 
 -- URL: http://wow-pro.com/node/3505/revisions/25257/view
@@ -55,11 +55,11 @@
 
 -- URL: http://wow-pro.com/node/3505/revisions/25160/view
 -- Date: 2012-10-24 11:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3505/revisions/25116/view
 -- Date: 2012-10-07 22:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("EmmCloud",'Dailies', "The Jade Forest", "Emmaleah", "Neutral")
 WoWPro:GuideLevels(guide,90,90,90)

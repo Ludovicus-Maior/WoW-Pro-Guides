@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_draenor
 -- Date: 2016-01-08 23:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 3646
 
 -- URL: http://wow-pro.com/node/3646/revisions/27415/view
 -- Date: 2016-01-08 23:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide("LudoExpDraenor","Achievements","Draenor","Ludovicus", "Neutral")

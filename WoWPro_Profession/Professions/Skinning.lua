@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/profession_skinning
 -- Date: 2017-03-06 03:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
 -- URL: http://wow-pro.com/node/3463/revisions/28280/view
 -- Date: 2017-03-05 18:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Skinning guide
 
 -- URL: http://wow-pro.com/node/3463/revisions/28200/view
 -- Date: 2017-01-02 22:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New style registration
 
 -- URL: http://wow-pro.com/node/3463/revisions/24908/view
 -- Date: 2012-01-19 00:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to GIT
 
 local guide = WoWPro:RegisterGuide("TwiSkinning","Profession","Skinning", "Ludovicus", "Neutral")

@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/bringing_bass
 -- Date: 2017-03-23 17:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3630/revisions/28518/view
 -- Date: 2017-03-17 14:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add [The Assault Base] as PRE
 
 -- URL: http://wow-pro.com/node/3630/revisions/27295/view
 -- Date: 2015-06-23 12:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial version
 
 local guide = WoWPro:RegisterGuide('LudoBringingBass', 'Achievements', 'Draenor', 'Ludovicus', 'Neutral')

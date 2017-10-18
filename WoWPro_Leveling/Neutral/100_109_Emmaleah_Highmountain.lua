@@ -15,7 +15,7 @@
 
 -- URL: http://wow-pro.com/node/3678/revisions/28478/view
 -- Date: 2017-03-16 22:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax correction.
 
 -- URL: http://wow-pro.com/node/3678/revisions/28184/view
@@ -77,12 +77,12 @@
 
 -- URL: http://wow-pro.com/node/3678/revisions/27952/view
 -- Date: 2016-10-22 23:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone updates and play through tweaks.
 
 -- URL: http://wow-pro.com/node/3678/revisions/27945/view
 -- Date: 2016-10-21 12:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play-though tweaks
 
 -- URL: http://wow-pro.com/node/3678/revisions/27940/view
@@ -92,7 +92,7 @@
 
 -- URL: http://wow-pro.com/node/3678/revisions/27933/view
 -- Date: 2016-10-19 01:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level tweak
 
 -- URL: http://wow-pro.com/node/3678/revisions/27892/view
@@ -107,7 +107,7 @@
 
 -- URL: http://wow-pro.com/node/3678/revisions/27874/view
 -- Date: 2016-10-05 02:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: *Someone* chopped off the header to the guide, so it failed to update after 2016-09-19 20:19.
 
 -- URL: http://wow-pro.com/node/3678/revisions/27834/view
@@ -122,12 +122,12 @@
 
 -- URL: http://wow-pro.com/node/3678/revisions/27810/view
 -- Date: 2016-09-17 21:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing '
 
 -- URL: http://wow-pro.com/node/3678/revisions/27807/view
 -- Date: 2016-09-17 20:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: added missing ","
 
 -- URL: http://wow-pro.com/node/3678/revisions/27803/view
@@ -165,7 +165,7 @@
 
 -- URL: http://wow-pro.com/node/3678/revisions/27640/view
 -- Date: 2016-08-30 20:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Restored Header.
 
 -- URL: http://wow-pro.com/node/3678/revisions/27576/view

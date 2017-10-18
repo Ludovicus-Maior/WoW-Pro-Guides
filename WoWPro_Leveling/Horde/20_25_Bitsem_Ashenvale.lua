@@ -5,18 +5,18 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
 -- Date: 2017-03-15 23:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to BitAsh2025
 
 -- URL: http://wow-pro.com/node/3228/revisions/27344/view
 -- Date: 2015-07-20 00:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  Vol'jin
 --	Then some Z tag corrections.
 
 -- URL: http://wow-pro.com/node/3228/revisions/27331/view
 -- Date: 2015-07-12 20:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through on Belf Pally
 
 -- URL: http://wow-pro.com/node/3228/revisions/26925/view
@@ -26,47 +26,47 @@
 
 -- URL: http://wow-pro.com/node/3228/revisions/26426/view
 -- Date: 2014-06-02 13:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3228/revisions/26227/view
 -- Date: 2014-05-25 22:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3228/revisions/26072/view
 -- Date: 2014-05-18 21:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3228/revisions/26034/view
 -- Date: 2014-05-17 17:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3228/revisions/26033/view
 -- Date: 2014-05-17 17:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3228/revisions/25826/view
 -- Date: 2013-12-01 00:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  CS
 
 -- URL: http://wow-pro.com/node/3228/revisions/25567/view
 -- Date: 2013-03-23 18:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Quest [Ursangous' Paw] name correction
 
 -- URL: http://wow-pro.com/node/3228/revisions/25445/view
 -- Date: 2013-01-13 17:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3228/revisions/25344/view
 -- Date: 2013-01-11 23:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3228/revisions/24926/view
@@ -76,7 +76,7 @@
 
 -- URL: http://wow-pro.com/node/3228/revisions/24718/view
 -- Date: 2011-08-07 23:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixes for [Gorat's Vengeance], [Ashenvale Outrunners], [Ursangous's Paw], and [The Befouled Element].
 
 -- URL: http://wow-pro.com/node/3228/revisions/24480/view
@@ -86,7 +86,7 @@
 
 -- URL: http://wow-pro.com/node/3228/revisions/24328/view
 -- Date: 2011-04-29 16:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 175 for step F has unknown tag [73.21,61.54], Line 202 for step C has unknown tag [Escort quest.], Line 296 for step A has unknown tag [RANK2M]
 
 -- URL: http://wow-pro.com/node/3228/revisions/23976/view

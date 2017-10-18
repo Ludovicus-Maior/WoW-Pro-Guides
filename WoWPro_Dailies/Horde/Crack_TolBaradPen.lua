@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
 -- Date: 2017-03-23 17:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3416/revisions/28322/view
 -- Date: 2017-03-10 23:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax changes.
 
 -- URL: http://wow-pro.com/node/3416/revisions/26838/view
@@ -20,47 +20,47 @@
 
 -- URL: http://wow-pro.com/node/3416/revisions/26633/view
 -- Date: 2014-07-26 00:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: OOps, wrong faction
 
 -- URL: http://wow-pro.com/node/3416/revisions/26589/view
 -- Date: 2014-07-25 19:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Whoops!   Copied over the alliance version by accident.
 
 -- URL: http://wow-pro.com/node/3416/revisions/26511/view
 -- Date: 2014-06-10 23:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3416/revisions/25717/view
 -- Date: 2013-06-18 00:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 28665's name [Cursed Shackels] does not match Grail's database [Cursed Shackles].
 
 -- URL: http://wow-pro.com/node/3416/revisions/25675/view
 -- Date: 2013-05-17 20:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Watch Out For Splinters!
 
 -- URL: http://wow-pro.com/node/3416/revisions/25484/view
 -- Date: 2013-01-13 19:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spell Orgrimmar right again.
 
 -- URL: http://wow-pro.com/node/3416/revisions/25452/view
 -- Date: 2013-01-13 17:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spell Orgrimmar right and use ,'s to separate coords instead of ;'s!
 
 -- URL: http://wow-pro.com/node/3416/revisions/25451/view
 -- Date: 2013-01-13 17:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Malformed coords!
 
 -- URL: http://wow-pro.com/node/3416/revisions/25293/view
 -- Date: 2013-01-09 01:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3416/revisions/24879/view
@@ -74,7 +74,7 @@
 
 -- URL: http://wow-pro.com/node/3416/revisions/24648/view
 -- Date: 2011-06-30 19:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("CraToBarPH",'Dailies', "Tol Barad Peninsula", "Crackerhead22", "Horde")
 WoWPro:GuideLevels(guide,1,85,90)

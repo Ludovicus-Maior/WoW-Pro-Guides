@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_silverpine_forest
 -- Date: 2017-03-15 23:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add PREs to MalSil1220
 
 -- URL: http://wow-pro.com/node/3219/revisions/27304/view
 -- Date: 2015-06-28 23:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Lots of PRE tags
 
 -- URL: http://wow-pro.com/node/3219/revisions/26926/view
@@ -20,32 +20,32 @@
 
 -- URL: http://wow-pro.com/node/3219/revisions/26444/view
 -- Date: 2014-06-02 15:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3219/revisions/26220/view
 -- Date: 2014-05-25 22:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3219/revisions/26137/view
 -- Date: 2014-05-20 19:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3219/revisions/26043/view
 -- Date: 2014-05-17 17:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3219/revisions/25499/view
 -- Date: 2013-01-22 18:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord tweaks, added Korok quest, and a sticky step.
 
 -- URL: http://wow-pro.com/node/3219/revisions/24323/view
 -- Date: 2011-04-29 15:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 74 for step C has unknown tag [Find a Forest Ettin ...], Line 169 for step C has unknown tag [Kill Worgens  ...].
 
 -- URL: http://wow-pro.com/node/3219/revisions/23830/view

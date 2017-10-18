@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/node/3675
 -- Date: 2017-08-12 21:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3675/revisions/28706/view
 -- Date: 2017-06-13 22:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  Darnassus
 
 -- URL: http://wow-pro.com/node/3675/revisions/28687/view
@@ -30,7 +30,7 @@
 
 -- URL: http://wow-pro.com/node/3675/revisions/28593/view
 -- Date: 2017-03-23 19:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3675/revisions/28535/view
@@ -40,7 +40,7 @@
 
 -- URL: http://wow-pro.com/node/3675/revisions/28471/view
 -- Date: 2017-03-16 22:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs; syntax correction.
 
 -- URL: http://wow-pro.com/node/3675/revisions/28266/view
@@ -61,7 +61,7 @@
 
 -- URL: http://wow-pro.com/node/3675/revisions/27641/view
 -- Date: 2016-08-30 21:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change default zone to The Hall of Shadows@Dalaran70
 
 -- URL: http://wow-pro.com/node/3675/revisions/27573/view

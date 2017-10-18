@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_horde
 -- Date: 2017-03-10 23:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3540/revisions/26943/view
 -- Date: 2014-11-08 13:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Acdd filler M and NPC's for later.
 
 -- URL: http://wow-pro.com/node/3540/revisions/26584/view
 -- Date: 2014-07-20 19:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Right faction
 
 -- URL: http://wow-pro.com/node/3540/revisions/26512/view
 -- Date: 2014-06-10 23:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3540/revisions/25607/view
@@ -30,11 +30,11 @@
 
 -- URL: http://wow-pro.com/node/3540/revisions/25550/view
 -- Date: 2013-03-16 18:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3540/revisions/25549/view
 -- Date: 2013-03-16 18:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial version with some edits by Ludo from KatM
 
 local guide = WoWPro:RegisterGuide("KatMThunderKing",'Dailies', "Isle of Thunder", "KatM", "Horde")

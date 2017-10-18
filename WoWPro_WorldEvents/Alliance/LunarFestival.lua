@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
 -- Date: 2017-03-17 13:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tiny syntax fix
 
 -- URL: http://wow-pro.com/node/3451/revisions/28289/view
 -- Date: 2017-03-05 18:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Float the level
 
 -- URL: http://wow-pro.com/node/3451/revisions/27714/view
@@ -20,72 +20,72 @@
 
 -- URL: http://wow-pro.com/node/3451/revisions/27361/view
 -- Date: 2015-07-25 18:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3451/revisions/26496/view
 -- Date: 2014-06-10 21:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3451/revisions/25881/view
 -- Date: 2014-02-13 16:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adjusted Ranks
 
 -- URL: http://wow-pro.com/node/3451/revisions/25644/view
 -- Date: 2013-05-14 19:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Z tags for dungeon zone corrections
 
 -- URL: http://wow-pro.com/node/3451/revisions/25523/view
 -- Date: 2013-02-06 20:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Checked every coords, qid, and added ranks like the horde guide.
 
 -- URL: http://wow-pro.com/node/3451/revisions/25513/view
 -- Date: 2013-01-28 12:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updates for this year!
 
 -- URL: http://wow-pro.com/node/3451/revisions/25431/view
 -- Date: 2013-01-13 15:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS and CC tag
 
 -- URL: http://wow-pro.com/node/3451/revisions/25083/view
 -- Date: 2012-09-24 23:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spell Njorndir Preparation right!
 
 -- URL: http://wow-pro.com/node/3451/revisions/25018/view
 -- Date: 2012-06-30 23:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct Zone in TheNexus
 
 -- URL: http://wow-pro.com/node/3451/revisions/24931/view
 -- Date: 2012-02-04 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Elders of Cata
 
 -- URL: http://wow-pro.com/node/3451/revisions/24924/view
 -- Date: 2012-01-25 22:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Two zone name errors: Z|The Nexus and Z|Halls of Stone.
 
 -- URL: http://wow-pro.com/node/3451/revisions/24922/view
 -- Date: 2012-01-25 12:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Rumblerrock is Rumblerock
 
 -- URL: http://wow-pro.com/node/3451/revisions/24920/view
 -- Date: 2012-01-24 12:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Hendo72's Corrections.
 
 -- URL: http://wow-pro.com/node/3451/revisions/24919/view
 -- Date: 2012-01-24 12:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 1,$s/|T|\([A-Za-z ]*\) the Elder|/|T|Elder \1|/
 
 -- URL: http://wow-pro.com/node/3451/revisions/24854/view

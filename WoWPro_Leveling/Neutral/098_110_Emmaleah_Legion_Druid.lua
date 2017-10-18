@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/node/3669
 -- Date: 2017-08-12 21:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3669/revisions/28653/view
 -- Date: 2017-04-23 22:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing N tag for  Malorne's blessing
 
 -- URL: http://wow-pro.com/node/3669/revisions/28638/view
@@ -24,7 +24,7 @@
 
 -- URL: http://wow-pro.com/node/3669/revisions/28636/view
 -- Date: 2017-04-06 23:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaks
 
 -- URL: http://wow-pro.com/node/3669/revisions/28629/view
@@ -34,12 +34,12 @@
 
 -- URL: http://wow-pro.com/node/3669/revisions/28587/view
 -- Date: 2017-03-23 19:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3669/revisions/28465/view
 -- Date: 2017-03-16 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a PRE.
 
 -- URL: http://wow-pro.com/node/3669/revisions/28224/view
@@ -49,27 +49,27 @@
 
 -- URL: http://wow-pro.com/node/3669/revisions/27849/view
 -- Date: 2016-09-28 21:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guardian edits
 
 -- URL: http://wow-pro.com/node/3669/revisions/27827/view
 -- Date: 2016-09-20 03:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: play-through as resto
 
 -- URL: http://wow-pro.com/node/3669/revisions/27818/view
 -- Date: 2016-09-19 22:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: EmeraldDreamway Cleanup on aisle 4!
 
 -- URL: http://wow-pro.com/node/3669/revisions/27815/view
 -- Date: 2016-09-18 16:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone changes
 
 -- URL: http://wow-pro.com/node/3669/revisions/27809/view
 -- Date: 2016-09-17 21:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixes for RESTORATION
 
 -- URL: http://wow-pro.com/node/3669/revisions/27744/view
@@ -80,17 +80,17 @@
 
 -- URL: http://wow-pro.com/node/3669/revisions/27654/view
 -- Date: 2016-08-30 23:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: |N| tag trouble
 
 -- URL: http://wow-pro.com/node/3669/revisions/27653/view
 -- Date: 2016-08-30 23:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone updates.
 
 -- URL: http://wow-pro.com/node/3669/revisions/27592/view
 -- Date: 2016-08-22 23:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 'nil' vs nil
 
 -- URL: http://wow-pro.com/node/3669/revisions/27566/view

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/garrison_buildings_alliance
 -- Date: 2017-03-23 17:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3631/revisions/28541/view
@@ -15,27 +15,27 @@
 
 -- URL: http://wow-pro.com/node/3631/revisions/28310/view
 -- Date: 2017-03-10 22:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add PREs
 
 -- URL: http://wow-pro.com/node/3631/revisions/27434/view
 -- Date: 2016-03-22 20:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Salvage Yard 
 
 -- URL: http://wow-pro.com/node/3631/revisions/27342/view
 -- Date: 2015-07-20 00:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Clean up lumber section and add pet battle station.
 
 -- URL: http://wow-pro.com/node/3631/revisions/27332/view
 -- Date: 2015-07-12 20:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaks and spell checks
 
 -- URL: http://wow-pro.com/node/3631/revisions/27296/view
 -- Date: 2015-06-23 12:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide('LudoBuildingsAlliance', 'Achievements', 'Shadowmoon Valley@Draenor', 'Ludovicus', 'Alliance')

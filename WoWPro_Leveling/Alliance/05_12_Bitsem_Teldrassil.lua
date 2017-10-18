@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
 -- Date: 2017-03-11 20:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3204/revisions/28343/view
 -- Date: 2017-03-11 18:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3204/revisions/27504/view
@@ -30,32 +30,32 @@
 
 -- URL: http://wow-pro.com/node/3204/revisions/27260/view
 -- Date: 2015-05-19 11:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Update Nelf Starter
 
 -- URL: http://wow-pro.com/node/3204/revisions/27256/view
 -- Date: 2015-05-16 21:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adjusted Teldrassil guide levels
 
 -- URL: http://wow-pro.com/node/3204/revisions/27252/view
 -- Date: 2015-05-16 21:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated Shadowglen Guide levels
 
 -- URL: http://wow-pro.com/node/3204/revisions/27241/view
 -- Date: 2015-05-10 23:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide name change BitSha0105
 
 -- URL: http://wow-pro.com/node/3204/revisions/27226/view
 -- Date: 2015-04-29 21:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Shifted coords to Shadowglen
 
 -- URL: http://wow-pro.com/node/3204/revisions/27211/view
 -- Date: 2015-04-25 21:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Break guide in 2
 
 -- URL: http://wow-pro.com/node/3204/revisions/26801/view
@@ -65,57 +65,57 @@
 
 -- URL: http://wow-pro.com/node/3204/revisions/26489/view
 -- Date: 2014-06-04 20:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level adj
 
 -- URL: http://wow-pro.com/node/3204/revisions/26478/view
 -- Date: 2014-06-02 22:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icons
 
 -- URL: http://wow-pro.com/node/3204/revisions/26350/view
 -- Date: 2014-05-27 20:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "1,9".
 
 -- URL: http://wow-pro.com/node/3204/revisions/26205/view
 -- Date: 2014-05-25 22:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3204/revisions/26140/view
 -- Date: 2014-05-20 19:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3204/revisions/25952/view
 -- Date: 2014-05-14 21:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3204/revisions/25588/view
 -- Date: 2013-03-23 20:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Name tweak on [The Moss-Twined Heart]
 
 -- URL: http://wow-pro.com/node/3204/revisions/25587/view
 -- Date: 2013-03-23 20:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Wrong QID in F step, bad zone name too.
 
 -- URL: http://wow-pro.com/node/3204/revisions/25586/view
 -- Date: 2013-03-23 20:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaked [Learning the Word]
 
 -- URL: http://wow-pro.com/node/3204/revisions/25376/view
 -- Date: 2013-01-12 19:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a CN tag
 
 -- URL: http://wow-pro.com/node/3204/revisions/25135/view
 -- Date: 2012-10-09 15:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added trial monk quests.  Coords are not correct.
 
 -- URL: http://wow-pro.com/node/3204/revisions/24688/view
@@ -142,7 +142,7 @@
 
 -- URL: http://wow-pro.com/node/3204/revisions/24516/view
 -- Date: 2011-06-07 23:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 247, for step l non-decimal QID: [l Moss-Twined Heart|QID||M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill and loot it for the .|]
 
 -- URL: http://wow-pro.com/node/3204/revisions/24503/view
@@ -152,21 +152,21 @@
 
 -- URL: http://wow-pro.com/node/3204/revisions/24273/view
 -- Date: 2011-04-26 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing N and PRE tags
 
 -- URL: http://wow-pro.com/node/3204/revisions/24220/view
 -- Date: 2011-04-05 23:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3204/revisions/24120/view
 -- Date: 2011-02-20 21:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change starting level from '1' to '01' like the rest.
 
 -- URL: http://wow-pro.com/node/3204/revisions/24073/view
 -- Date: 2011-01-29 17:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adding missing QID to Level 6 step.
 
 -- URL: http://wow-pro.com/node/3204/revisions/23274/view

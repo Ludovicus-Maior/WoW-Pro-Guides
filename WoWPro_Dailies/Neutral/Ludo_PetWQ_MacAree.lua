@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/node/3745
 -- Date: 2017-09-06 22:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixed Bucky STRATEGY tags.
 
 -- URL: http://wow-pro.com/node/3745/revisions/28782/view
 -- Date: 2017-09-05 23:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Cut
 
 local guide = WoWPro:RegisterGuide("LudoPetWQMacAree","Dailies","ArgusMacAree","Ludovicus","Neutral")

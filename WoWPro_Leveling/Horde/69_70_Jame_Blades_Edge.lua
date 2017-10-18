@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
 -- Date: 2017-03-16 16:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3282/revisions/26915/view
@@ -15,36 +15,36 @@
 
 -- URL: http://wow-pro.com/node/3282/revisions/26419/view
 -- Date: 2014-06-02 13:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3282/revisions/26275/view
 -- Date: 2014-05-26 00:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3282/revisions/26147/view
 -- Date: 2014-05-20 19:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3282/revisions/26009/view
 -- Date: 2014-05-16 21:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3282/revisions/25928/view
 -- Date: 2014-04-14 19:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coodinate cleanups.
 
 -- URL: http://wow-pro.com/node/3282/revisions/25749/view
 -- Date: 2013-08-16 19:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected the quests that Tor'chunk Twoclaws gives.  Added a few coords.
 
 -- URL: http://wow-pro.com/node/3282/revisions/25453/view
 -- Date: 2013-01-13 17:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3282/revisions/25046/view
@@ -64,7 +64,7 @@
 
 -- URL: http://wow-pro.com/node/3282/revisions/24341/view
 -- Date: 2011-04-29 16:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 301, for step A non-decimal PRE
 
 -- URL: http://wow-pro.com/node/3282/revisions/23453/view

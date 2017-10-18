@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
 -- Date: 2017-03-23 19:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3483/revisions/28460/view
 -- Date: 2017-03-16 17:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added 1 PRE
 
 -- URL: http://wow-pro.com/node/3483/revisions/27367/view
 -- Date: 2015-07-25 18:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3483/revisions/27201/view
@@ -25,27 +25,27 @@
 
 -- URL: http://wow-pro.com/node/3483/revisions/26591/view
 -- Date: 2014-07-25 19:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed race specifiers.
 
 -- URL: http://wow-pro.com/node/3483/revisions/26412/view
 -- Date: 2014-05-30 15:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels and race restriction.
 
 -- URL: http://wow-pro.com/node/3483/revisions/26335/view
 -- Date: 2014-05-27 20:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "1,12" to "0,0".
 
 -- URL: http://wow-pro.com/node/3483/revisions/26213/view
 -- Date: 2014-05-25 22:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3483/revisions/26057/view
 -- Date: 2014-05-17 20:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25876/view
@@ -102,22 +102,22 @@
 
 -- URL: http://wow-pro.com/node/3483/revisions/25711/view
 -- Date: 2013-06-18 00:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing coordinate, 1/1 in guide FlucloPanda, line [C Stronger Than Reeds].
 
 -- URL: http://wow-pro.com/node/3483/revisions/25355/view
 -- Date: 2013-01-12 18:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Get rid of extra M tag
 
 -- URL: http://wow-pro.com/node/3483/revisions/25354/view
 -- Date: 2013-01-12 18:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC, and CN tags.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25228/view
 -- Date: 2012-12-02 15:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Ask the user to log out or reload to get the faction specific guides loaded up.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25213/view
@@ -127,22 +127,22 @@
 
 -- URL: http://wow-pro.com/node/3483/revisions/25103/view
 -- Date: 2012-10-02 23:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add new faction specific quest ending!
 
 -- URL: http://wow-pro.com/node/3483/revisions/25082/view
 -- Date: 2012-09-24 23:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: It is Stormwind City, not Stormwind!
 
 -- URL: http://wow-pro.com/node/3483/revisions/25032/view
 -- Date: 2012-07-06 21:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Remove the faction tags at the end sequence.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25031/view
 -- Date: 2012-07-06 21:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Credited Fluclo with the guide, added successor zones.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25029/view
@@ -164,7 +164,7 @@
 
 -- URL: http://wow-pro.com/node/3483/revisions/25020/view
 -- Date: 2012-07-01 14:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide('FlucloPanda', "Leveling", 'TheWanderingIsle', 'Fluclo', 'Neutral')

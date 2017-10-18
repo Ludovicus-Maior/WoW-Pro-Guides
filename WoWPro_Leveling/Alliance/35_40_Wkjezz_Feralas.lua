@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
 -- Date: 2017-03-15 21:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to WkjFer3540
 
 -- URL: http://wow-pro.com/node/3243/revisions/27632/view
@@ -15,37 +15,37 @@
 
 -- URL: http://wow-pro.com/node/3243/revisions/26618/view
 -- Date: 2014-07-25 22:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: coor mean
 
 -- URL: http://wow-pro.com/node/3243/revisions/26617/view
 -- Date: 2014-07-25 22:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: add mean
 
 -- URL: http://wow-pro.com/node/3243/revisions/26369/view
 -- Date: 2014-05-27 21:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "31,38".
 
 -- URL: http://wow-pro.com/node/3243/revisions/26242/view
 -- Date: 2014-05-25 22:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3243/revisions/26066/view
 -- Date: 2014-05-18 21:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added icon.
 
 -- URL: http://wow-pro.com/node/3243/revisions/25974/view
 -- Date: 2014-05-14 22:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3243/revisions/25428/view
 -- Date: 2013-01-13 15:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3243/revisions/24549/view

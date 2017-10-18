@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_silithus_neutral
 -- Date: 2017-03-23 19:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3270/revisions/28486/view
 -- Date: 2017-03-17 00:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3270/revisions/27506/view
@@ -25,32 +25,32 @@
 
 -- URL: http://wow-pro.com/node/3270/revisions/26466/view
 -- Date: 2014-06-02 16:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: added mean level
 
 -- URL: http://wow-pro.com/node/3270/revisions/26330/view
 -- Date: 2014-05-27 19:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide Levels corrected from "55,60" to "54,54".
 
 -- URL: http://wow-pro.com/node/3270/revisions/26265/view
 -- Date: 2014-05-26 00:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3270/revisions/26078/view
 -- Date: 2014-05-18 21:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3270/revisions/26058/view
 -- Date: 2014-05-17 20:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3270/revisions/25401/view
 -- Date: 2013-01-13 01:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: A few CN and CS tags
 
 -- URL: http://wow-pro.com/node/3270/revisions/24964/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3270/revisions/24816/view
 -- Date: 2011-11-20 21:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Rutgar Glyphshaper. not Frankal Stonebridge for QID 8314 
 
 -- URL: http://wow-pro.com/node/3270/revisions/24572/view
@@ -69,7 +69,7 @@
 
 -- URL: http://wow-pro.com/node/3270/revisions/24462/view
 -- Date: 2011-05-30 18:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 55 for step C has unknown tag [Kill Dredge Strikers.]: [C Securing the Supply Lines|QID|8280|M|47.27,38.32|S|Kill Dredge Strikers.|]
 --	! Line 128 for step T has unknown tag [s]: [T Brann Bronzebeard's Lost Letter|QID|8308|O|M|46.37,79.08|N|To Rutgar Glyphshaper.|s]
 
@@ -80,20 +80,20 @@
 
 -- URL: http://wow-pro.com/node/3270/revisions/24422/view
 -- Date: 2011-05-25 21:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Submitted for Twists!
 
 -- URL: http://wow-pro.com/node/3270/revisions/24400/view
 -- Date: 2011-05-17 01:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3270/revisions/24397/view
 -- Date: 2011-05-17 01:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3270/revisions/24339/view
 -- Date: 2011-04-29 16:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line ** for step * has unknown tag [GRP], Line 27 for step C has unknown tag [From spiders and scorpions.]:
 
 -- URL: http://wow-pro.com/node/3270/revisions/23422/view

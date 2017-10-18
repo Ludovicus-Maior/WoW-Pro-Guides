@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_val039sharah
 -- Date: 2017-10-07 20:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: [Meet The Maw] update
 
 -- URL: http://wow-pro.com/node/3737/revisions/28736/view
 -- Date: 2017-08-03 22:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Work off of just World QIDs
 
 -- URL: http://wow-pro.com/node/3737/revisions/28720/view
 -- Date: 2017-07-05 21:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add AS
 
 -- URL: http://wow-pro.com/node/3737/revisions/28699/view
