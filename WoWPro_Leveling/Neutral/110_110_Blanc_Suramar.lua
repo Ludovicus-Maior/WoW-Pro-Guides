@@ -5,27 +5,27 @@
 
 -- URL: http://wow-pro.com/node/3687
 -- Date: 2017-08-27 18:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Finished zone on Alliance.
 
 -- URL: http://wow-pro.com/node/3687/revisions/28738/view
 -- Date: 2017-08-04 23:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Alliance playthrough to [Fighting on All Fronts]
 
 -- URL: http://wow-pro.com/node/3687/revisions/28726/view
 -- Date: 2017-07-25 21:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaks plauying through [Statecraft].
 
 -- URL: http://wow-pro.com/node/3687/revisions/28707/view
 -- Date: 2017-06-13 23:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Update PRE on [Building an Army]
 
 -- URL: http://wow-pro.com/node/3687/revisions/28675/view
 -- Date: 2017-05-25 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  CS and use ACH tags for silver kills that dont have tracking quests.
 
 -- URL: http://wow-pro.com/node/3687/revisions/28674/view
@@ -50,7 +50,7 @@
 
 -- URL: http://wow-pro.com/node/3687/revisions/28599/view
 -- Date: 2017-03-23 19:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3687/revisions/28546/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3687/revisions/28480/view
 -- Date: 2017-03-16 23:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax corrections; spacing correction.
 
 -- URL: http://wow-pro.com/node/3687/revisions/28359/view
@@ -150,7 +150,7 @@
 
 -- URL: http://wow-pro.com/node/3687/revisions/28173/view
 -- Date: 2016-12-23 21:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3687/revisions/28170/view
 -- Date: 2016-12-23 11:52
@@ -184,7 +184,7 @@
 
 -- URL: http://wow-pro.com/node/3687/revisions/28159/view
 -- Date: 2016-12-16 02:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: One tiny line feed.
 
 -- URL: http://wow-pro.com/node/3687/revisions/28156/view

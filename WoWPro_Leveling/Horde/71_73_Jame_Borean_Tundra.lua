@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
 -- Date: 2017-03-23 19:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3290/revisions/28447/view
 -- Date: 2017-03-16 16:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3290/revisions/27557/view
@@ -30,31 +30,31 @@
 
 -- URL: http://wow-pro.com/node/3290/revisions/26439/view
 -- Date: 2014-06-02 14:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Adjustments
 
 -- URL: http://wow-pro.com/node/3290/revisions/26282/view
 -- Date: 2014-05-26 01:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3290/revisions/26168/view
 -- Date: 2014-05-20 19:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3290/revisions/26006/view
 -- Date: 2014-05-16 20:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3290/revisions/25581/view
 -- Date: 2013-03-23 19:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest name tweaks
 
 -- URL: http://wow-pro.com/node/3290/revisions/25483/view
 -- Date: 2013-01-13 19:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3290/revisions/24915/view
@@ -84,7 +84,7 @@
 
 -- URL: http://wow-pro.com/node/3290/revisions/24343/view
 -- Date: 2011-04-29 16:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 62 for step f has unknown tag [40.4,51.4], Line 340, for step A non-decimal PRE.
 
 -- URL: http://wow-pro.com/node/3290/revisions/23472/view

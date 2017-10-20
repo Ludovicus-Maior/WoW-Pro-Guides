@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/node/3672
 -- Date: 2017-08-12 21:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3672/revisions/28664/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3672/revisions/28590/view
 -- Date: 2017-03-23 19:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3672/revisions/28468/view
 -- Date: 2017-03-16 22:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax corrections.
 
 -- URL: http://wow-pro.com/node/3672/revisions/28273/view

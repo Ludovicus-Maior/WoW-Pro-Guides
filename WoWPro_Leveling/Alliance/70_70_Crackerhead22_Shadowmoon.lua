@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
 -- Date: 2017-03-15 21:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to CraSha7070A
 
 -- URL: http://wow-pro.com/node/3285/revisions/27608/view
@@ -20,27 +20,27 @@
 
 -- URL: http://wow-pro.com/node/3285/revisions/26406/view
 -- Date: 2014-05-30 12:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level setting
 
 -- URL: http://wow-pro.com/node/3285/revisions/26348/view
 -- Date: 2014-05-27 20:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: End Level corrected from 0 to 70.
 
 -- URL: http://wow-pro.com/node/3285/revisions/26277/view
 -- Date: 2014-05-26 00:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3285/revisions/26153/view
 -- Date: 2014-05-20 19:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3285/revisions/25988/view
 -- Date: 2014-05-14 22:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3285/revisions/25382/view
@@ -55,16 +55,16 @@
 
 -- URL: http://wow-pro.com/node/3285/revisions/25088/view
 -- Date: 2012-09-25 00:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3285/revisions/24675/view
 -- Date: 2011-07-11 22:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cgange to Numeric REP tags
 
 -- URL: http://wow-pro.com/node/3285/revisions/24576/view
 -- Date: 2011-06-22 02:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: # Checking ../WoWPro_Leveling/Alliance/70_70_Crackerhead22_Shadowmoon.lua
 --	! Line 150 for step A has unknown tag [From Stormer Ewan Wildwing.]: [A Minions of the Shadow Council|QID|10582|M|40.43,41.36|From Stormer Ewan Wildwing.|]
 
@@ -74,7 +74,7 @@
 
 -- URL: http://wow-pro.com/node/3285/revisions/24386/view
 -- Date: 2011-05-15 18:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3285/revisions/24383/view
 -- Date: 2011-05-15 01:21
@@ -87,11 +87,11 @@
 
 -- URL: http://wow-pro.com/node/3285/revisions/24221/view
 -- Date: 2011-04-05 23:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3285/revisions/24190/view
 -- Date: 2011-03-20 20:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Major update; lots of coord updates, missing quests for scryers, missing 'C' lines, added waypoints.
 
 -- URL: http://wow-pro.com/node/3285/revisions/24027/view

@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/node/3552
 -- Date: 2015-01-04 23:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added target button!
 
 -- URL: http://wow-pro.com/node/3552/revisions/26316/view
 -- Date: 2014-12-25 22:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3552/revisions/26198/view
 -- Date: 2014-05-22 22:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Registration guide
 
 -- URL: http://wow-pro.com/node/3552/revisions/25793/view
 -- Date: 2013-11-10 17:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Converted to BBcode format.
 
 -- URL: http://wow-pro.com/node/3552/revisions/25737/view

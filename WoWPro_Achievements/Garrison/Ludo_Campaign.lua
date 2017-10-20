@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
 -- Date: 2017-10-07 19:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cleanup for Horde
 
 -- URL: http://wow-pro.com/node/3648/revisions/28548/view
 -- Date: 2017-03-23 17:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3648/revisions/28309/view
 -- Date: 2017-03-10 22:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add PREs
 
 -- URL: http://wow-pro.com/node/3648/revisions/27607/view
@@ -55,7 +55,7 @@
 
 -- URL: http://wow-pro.com/node/3648/revisions/27555/view
 -- Date: 2016-08-15 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct [Garrison Campaign: The Fall of Shattrath] for the alliance.
 
 -- URL: http://wow-pro.com/node/3648/revisions/27536/view
@@ -110,36 +110,36 @@
 
 -- URL: http://wow-pro.com/node/3648/revisions/27487/view
 -- Date: 2016-07-30 18:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing M tag
 
 -- URL: http://wow-pro.com/node/3648/revisions/27482/view
 -- Date: 2016-07-30 16:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Uploaded the new merged guide.
 
 -- URL: http://wow-pro.com/node/3648/revisions/27438/view
 -- Date: 2016-03-23 01:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3648/revisions/27437/view
 -- Date: 2016-03-23 01:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Horde Guide.
 
 -- URL: http://wow-pro.com/node/3648/revisions/27436/view
 -- Date: 2016-03-23 01:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Alliance switch
 
 -- URL: http://wow-pro.com/node/3648/revisions/27422/view
 -- Date: 2016-01-09 00:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 3648
 
 -- URL: http://wow-pro.com/node/3648/revisions/27421/view
 -- Date: 2016-01-09 00:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide('LudoGarrCampaign', 'Achievements', 'Draenor', 'Ludovicus', 'Neutral')

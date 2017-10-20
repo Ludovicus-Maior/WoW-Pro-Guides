@@ -5,37 +5,37 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
 -- Date: 2017-03-23 18:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3311/revisions/28401/view
 -- Date: 2017-03-15 22:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to MagTwi8485
 
 -- URL: http://wow-pro.com/node/3311/revisions/26872/view
 -- Date: 2014-11-07 23:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: dup NC
 
 -- URL: http://wow-pro.com/node/3311/revisions/26410/view
 -- Date: 2014-05-30 15:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: :Level setting
 
 -- URL: http://wow-pro.com/node/3311/revisions/26298/view
 -- Date: 2014-05-26 01:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3311/revisions/26119/view
 -- Date: 2014-05-18 23:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3311/revisions/25995/view
 -- Date: 2014-05-14 22:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3311/revisions/25535/view
@@ -45,12 +45,12 @@
 
 -- URL: http://wow-pro.com/node/3311/revisions/25369/view
 -- Date: 2013-01-12 19:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3311/revisions/24991/view
 -- Date: 2012-05-27 18:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad zone for quest turning to Jack Bauden.
 
 -- URL: http://wow-pro.com/node/3311/revisions/24973/view
@@ -110,17 +110,17 @@
 
 -- URL: http://wow-pro.com/node/3311/revisions/24314/view
 -- Date: 2011-04-29 15:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 65 for step A has unknown tag [From Anduin Wrynn], Line 70 for step T has unknown tag [Stormwind City], Line 180 for step C has 1 M coords, Line 471 for step C has unknown tag [If you catch them ...], Line 480 for step A has 1 M coords, Line 647 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3311/revisions/24098/view
 -- Date: 2011-02-05 05:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Re-sync from GitHub. Seems I picked up an earlier version of this guide.
 
 -- URL: http://wow-pro.com/node/3311/revisions/24095/view
 -- Date: 2011-02-04 22:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Synchronize with GitHub Alliance/84_85_Arixan_Twilight_Highlands.lua
 
 -- URL: http://wow-pro.com/node/3311/revisions/23734/view

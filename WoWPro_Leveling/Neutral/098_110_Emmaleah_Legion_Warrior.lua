@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/node/3677
 -- Date: 2017-08-12 21:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3677/revisions/28596/view
 -- Date: 2017-03-23 19:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3677/revisions/28474/view
 -- Date: 2017-03-16 22:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a PRE; syntax corrections.
 
 -- URL: http://wow-pro.com/node/3677/revisions/28368/view

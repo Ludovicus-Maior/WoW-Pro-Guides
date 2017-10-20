@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
 -- Date: 2017-03-15 22:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added |'s to LudoTalador
 
 -- URL: http://wow-pro.com/node/3614/revisions/28243/view
@@ -15,7 +15,7 @@
 
 -- URL: http://wow-pro.com/node/3614/revisions/27490/view
 -- Date: 2016-07-30 19:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added some @Talador's
 
 -- URL: http://wow-pro.com/node/3614/revisions/27377/view
@@ -72,17 +72,17 @@
 
 -- URL: http://wow-pro.com/node/3614/revisions/27314/view
 -- Date: 2015-07-05 17:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3614/revisions/27279/view
 -- Date: 2015-06-03 22:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tiny tweaks
 
 -- URL: http://wow-pro.com/node/3614/revisions/27276/view
 -- Date: 2015-05-31 19:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected [Dropping in], [Orbs of Power]. Order of Vizier Zulmork vs Cromaug.
 --	Coords for Magister Serena.  Just a play through to the "The Plight of the Arakkoa".
 
@@ -98,12 +98,12 @@
 
 -- URL: http://wow-pro.com/node/3614/revisions/27271/view
 -- Date: 2015-05-29 00:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Playthrough tweaks
 
 -- URL: http://wow-pro.com/node/3614/revisions/27244/view
 -- Date: 2015-05-16 14:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: PLaythrough tweaks
 
 -- URL: http://wow-pro.com/node/3614/revisions/27191/view
@@ -113,7 +113,7 @@
 
 -- URL: http://wow-pro.com/node/3614/revisions/27172/view
 -- Date: 2015-03-09 19:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing note.
 
 -- URL: http://wow-pro.com/node/3614/revisions/27143/view
@@ -123,7 +123,7 @@
 
 -- URL: http://wow-pro.com/node/3614/revisions/27139/view
 -- Date: 2015-02-08 20:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: As per Aldavor https://github.com/Jiyambi/WoW-Pro-Guides/issues/408
 
 -- URL: http://wow-pro.com/node/3614/revisions/27129/view
@@ -143,51 +143,51 @@
 
 -- URL: http://wow-pro.com/node/3614/revisions/27038/view
 -- Date: 2014-11-23 15:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Finished play-through, garrison branch.
 
 -- URL: http://wow-pro.com/node/3614/revisions/27035/view
 -- Date: 2014-11-22 17:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Draft of next section.
 
 -- URL: http://wow-pro.com/node/3614/revisions/27033/view
 -- Date: 2014-11-22 13:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Extra QO tag
 
 -- URL: http://wow-pro.com/node/3614/revisions/27029/view
 -- Date: 2014-11-22 11:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3614/revisions/27020/view
 -- Date: 2014-11-18 01:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Minor checkpoint for the end of the battle for Shattrath and the start of Auchindoun
 
 -- URL: http://wow-pro.com/node/3614/revisions/27015/view
 -- Date: 2014-11-17 01:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played up to [An Eye for a Spy]
 
 -- URL: http://wow-pro.com/node/3614/revisions/27012/view
 -- Date: 2014-11-16 19:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Finished [The Plight of the Arakkoa], starting [The Battle for Shattrath]
 
 -- URL: http://wow-pro.com/node/3614/revisions/27006/view
 -- Date: 2014-11-16 04:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Moved to [What the Draenei Found]
 
 -- URL: http://wow-pro.com/node/3614/revisions/27005/view
 -- Date: 2014-11-16 01:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Draft through [The Only Way to Travel]
 
 -- URL: http://wow-pro.com/node/3614/revisions/27004/view
 -- Date: 2014-11-16 00:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played through [Dropping Bombs]
 
 -- URL: http://wow-pro.com/node/3614/revisions/26996/view
@@ -197,34 +197,34 @@
 
 -- URL: http://wow-pro.com/node/3614/revisions/26995/view
 -- Date: 2014-11-14 18:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a bunch of C lines.
 
 -- URL: http://wow-pro.com/node/3614/revisions/26990/view
 -- Date: 2014-11-14 12:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3614/revisions/26989/view
 -- Date: 2014-11-14 12:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3614/revisions/26986/view
 -- Date: 2014-11-14 12:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3614/revisions/26985/view
 -- Date: 2014-11-14 12:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Draft Talador for Alliance.
 
 -- URL: http://wow-pro.com/node/3614/revisions/26779/view
 -- Date: 2014-11-02 21:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Init cut
 
 -- URL: http://wow-pro.com/node/3614/revisions/26777/view
 -- Date: 2014-11-02 20:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initil Notes.
 
 local guide = WoWPro:RegisterGuide('LudoTalador', 'Leveling', 'Talador', 'Ludovicus', 'Alliance')

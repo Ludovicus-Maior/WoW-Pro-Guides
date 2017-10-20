@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
 -- Date: 2017-03-23 19:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3602/revisions/28498/view
 -- Date: 2017-03-17 00:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3602/revisions/27401/view
 -- Date: 2015-12-31 23:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3602/revisions/27390/view
 -- Date: 2015-09-29 07:41
@@ -27,22 +27,22 @@
 
 -- URL: http://wow-pro.com/node/3602/revisions/27313/view
 -- Date: 2015-07-05 17:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3602/revisions/27288/view
 -- Date: 2015-06-19 21:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add the Garrison Pinchwhistle Gearworks leadins
 
 -- URL: http://wow-pro.com/node/3602/revisions/27174/view
 -- Date: 2015-03-09 19:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected double N on "h Axefall"
 
 -- URL: http://wow-pro.com/node/3602/revisions/27173/view
 -- Date: 2015-03-09 19:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: CHanged M step to N
 
 -- URL: http://wow-pro.com/node/3602/revisions/27155/view
@@ -52,7 +52,7 @@
 
 -- URL: http://wow-pro.com/node/3602/revisions/27137/view
 -- Date: 2015-02-01 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: QIDs and typos
 
 -- URL: http://wow-pro.com/node/3602/revisions/27121/view
@@ -108,17 +108,17 @@
 
 -- URL: http://wow-pro.com/node/3602/revisions/27057/view
 -- Date: 2014-11-27 14:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Finished up!
 
 -- URL: http://wow-pro.com/node/3602/revisions/27048/view
 -- Date: 2014-11-25 13:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: PLayed through [A Worthy Vessel]
 
 -- URL: http://wow-pro.com/node/3602/revisions/27044/view
 -- Date: 2014-11-24 20:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Playing through on Alliance
 
 -- URL: http://wow-pro.com/node/3602/revisions/27017/view
@@ -153,7 +153,7 @@
 
 -- URL: http://wow-pro.com/node/3602/revisions/26685/view
 -- Date: 2014-09-27 20:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial copy from Emmaleah's Blog.
 
 local guide = WoWPro:RegisterGuide('EmmSoArak', 'Leveling', 'Spires of Arak', 'Emmaleah', 'Neutral')

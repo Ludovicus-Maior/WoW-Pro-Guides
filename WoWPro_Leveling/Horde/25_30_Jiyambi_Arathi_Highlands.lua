@@ -24,31 +24,31 @@
 
 -- URL: http://wow-pro.com/node/3230/revisions/26442/view
 -- Date: 2014-06-02 14:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3230/revisions/26441/view
 -- Date: 2014-06-02 14:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Ste Levels
 
 -- URL: http://wow-pro.com/node/3230/revisions/26229/view
 -- Date: 2014-05-25 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3230/revisions/26105/view
 -- Date: 2014-05-18 22:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3230/revisions/26032/view
 -- Date: 2014-05-17 17:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3230/revisions/25449/view
 -- Date: 2013-01-13 17:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC and CS tags
 
 -- URL: http://wow-pro.com/node/3230/revisions/24479/view

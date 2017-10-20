@@ -10,7 +10,7 @@
 
 -- URL: http://wow-pro.com/node/3268/revisions/28438/view
 -- Date: 2017-03-15 23:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JiyBla5560
 
 -- URL: http://wow-pro.com/node/3268/revisions/27747/view
@@ -25,22 +25,22 @@
 
 -- URL: http://wow-pro.com/node/3268/revisions/26445/view
 -- Date: 2014-06-02 15:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3268/revisions/26264/view
 -- Date: 2014-05-26 00:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3268/revisions/26098/view
 -- Date: 2014-05-18 22:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3268/revisions/26014/view
 -- Date: 2014-05-16 22:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3268/revisions/25738/view
 -- Date: 2013-08-03 07:56
@@ -49,12 +49,12 @@
 
 -- URL: http://wow-pro.com/node/3268/revisions/25492/view
 -- Date: 2013-01-13 23:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3268/revisions/25472/view
 -- Date: 2013-01-13 19:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3268/revisions/24863/view
@@ -69,7 +69,7 @@
 
 -- URL: http://wow-pro.com/node/3268/revisions/24338/view
 -- Date: 2011-04-29 16:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line ** for step * has unknown tag [If you didn't
 
 -- URL: http://wow-pro.com/node/3268/revisions/23418/view

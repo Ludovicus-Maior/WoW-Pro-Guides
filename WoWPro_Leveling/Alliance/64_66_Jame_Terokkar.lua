@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
 -- Date: 2017-03-24 00:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing coords for Fumping
 
 -- URL: http://wow-pro.com/node/3277/revisions/28390/view
 -- Date: 2017-03-15 21:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JamTer6466
 
 -- URL: http://wow-pro.com/node/3277/revisions/27924/view
 -- Date: 2016-10-16 00:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed extra coords from [T A Hero Is Needed] and [A The Fallen Exarch]
 
 -- URL: http://wow-pro.com/node/3277/revisions/27891/view
@@ -30,7 +30,7 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/27165/view
 -- Date: 2015-03-09 17:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing N value.
 
 -- URL: http://wow-pro.com/node/3277/revisions/26819/view
@@ -40,42 +40,42 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/26607/view
 -- Date: 2014-07-25 21:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean
 
 -- URL: http://wow-pro.com/node/3277/revisions/26358/view
 -- Date: 2014-05-27 20:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "64,66" to "60,65".
 
 -- URL: http://wow-pro.com/node/3277/revisions/26270/view
 -- Date: 2014-05-26 00:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3277/revisions/26148/view
 -- Date: 2014-05-20 19:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3277/revisions/25984/view
 -- Date: 2014-05-14 22:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3277/revisions/25745/view
 -- Date: 2013-08-15 23:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add missing coords around [Terokkarantula] quests.
 
 -- URL: http://wow-pro.com/node/3277/revisions/25400/view
 -- Date: 2013-01-13 01:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some CN tags
 
 -- URL: http://wow-pro.com/node/3277/revisions/24890/view
 -- Date: 2012-01-18 22:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add coords for [ Taken in the Night], [Auchindoun] and [Skywing].
 
 -- URL: http://wow-pro.com/node/3277/revisions/24836/view
@@ -85,7 +85,7 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/24677/view
 -- Date: 2011-07-11 22:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add numeric REP tags
 
 -- URL: http://wow-pro.com/node/3277/revisions/24470/view
@@ -100,7 +100,7 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/24306/view
 -- Date: 2011-04-29 14:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 55 for step N has 3 M coords, Line 248 for step C has unknown tag [52.00,58.00], Line 273 for step C has unknown tag [52.00,58.00], Line 289 for step T has unknown tag [To Magistriz Fyalenn.].
 
 -- URL: http://wow-pro.com/node/3277/revisions/24208/view
@@ -115,7 +115,7 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/24119/view
 -- Date: 2011-02-20 17:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3277/revisions/24004/view
 -- Date: 2011-01-17 03:49

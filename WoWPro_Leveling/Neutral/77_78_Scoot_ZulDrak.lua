@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
 -- Date: 2017-03-17 00:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3295/revisions/27819/view
 -- Date: 2016-09-19 22:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed extra space in "The Underbelly" zone.
 
 -- URL: http://wow-pro.com/node/3295/revisions/27784/view
 -- Date: 2016-09-14 18:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Proper underbelly zone
 
 -- URL: http://wow-pro.com/node/3295/revisions/27584/view
@@ -30,37 +30,37 @@
 
 -- URL: http://wow-pro.com/node/3295/revisions/26474/view
 -- Date: 2014-06-02 16:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added mean level.
 
 -- URL: http://wow-pro.com/node/3295/revisions/26349/view
 -- Date: 2014-05-27 20:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "77,78" to "74,75".
 
 -- URL: http://wow-pro.com/node/3295/revisions/26287/view
 -- Date: 2014-05-26 01:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3295/revisions/26170/view
 -- Date: 2014-05-20 20:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3295/revisions/26055/view
 -- Date: 2014-05-17 20:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3295/revisions/25580/view
 -- Date: 2013-03-23 19:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest name tweaks
 
 -- URL: http://wow-pro.com/node/3295/revisions/25444/view
 -- Date: 2013-01-13 16:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3295/revisions/25381/view
@@ -70,17 +70,17 @@
 
 -- URL: http://wow-pro.com/node/3295/revisions/25311/view
 -- Date: 2013-01-09 22:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3295/revisions/24992/view
 -- Date: 2012-05-27 18:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing coord for Ha'wana.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24923/view
 -- Date: 2012-01-25 21:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Followon guide is now ScoSho7879 for both factions.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24850/view
@@ -104,17 +104,17 @@
 
 -- URL: http://wow-pro.com/node/3295/revisions/24327/view
 -- Date: 2011-04-29 16:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 40 for step A has 3 M coords, Line 182 for step A has unknown tag [12740].
 
 -- URL: http://wow-pro.com/node/3295/revisions/24203/view
 -- Date: 2011-04-02 19:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: OK, this is a HUGE update. Added From/To notes to most quests.   Added [The Amphitheater of Anguish] series.  Eliminated LightSpeed advice dependencies and added some notes and QO tags.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24166/view
 -- Date: 2011-03-12 18:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Make guide IDs unique
 
 -- URL: http://wow-pro.com/node/3295/revisions/23482/view

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
 -- Date: 2017-03-23 17:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3287/revisions/28395/view
 -- Date: 2017-03-15 21:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JamHow7274
 
 -- URL: http://wow-pro.com/node/3287/revisions/27927/view
@@ -20,42 +20,42 @@
 
 -- URL: http://wow-pro.com/node/3287/revisions/26629/view
 -- Date: 2014-07-25 22:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean
 
 -- URL: http://wow-pro.com/node/3287/revisions/26334/view
 -- Date: 2014-05-27 19:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "72,74" to "68,71".
 
 -- URL: http://wow-pro.com/node/3287/revisions/26279/view
 -- Date: 2014-05-26 00:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3287/revisions/26165/view
 -- Date: 2014-05-20 19:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3287/revisions/25989/view
 -- Date: 2014-05-14 22:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3287/revisions/25597/view
 -- Date: 2013-03-23 20:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest name tweaks
 
 -- URL: http://wow-pro.com/node/3287/revisions/25439/view
 -- Date: 2013-01-13 16:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3287/revisions/24989/view
 -- Date: 2012-05-27 18:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a few U and T tags, corrected quest name.
 
 -- URL: http://wow-pro.com/node/3287/revisions/24857/view

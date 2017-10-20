@@ -15,27 +15,27 @@
 
 -- URL: http://wow-pro.com/node/3224/revisions/26397/view
 -- Date: 2014-05-30 12:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level adjust
 
 -- URL: http://wow-pro.com/node/3224/revisions/26363/view
 -- Date: 2014-05-27 21:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: End Level corrected from 0 to 23.
 
 -- URL: http://wow-pro.com/node/3224/revisions/26225/view
 -- Date: 2014-05-25 22:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3224/revisions/26132/view
 -- Date: 2014-05-20 18:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3224/revisions/25964/view
 -- Date: 2014-05-14 22:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3224/revisions/25818/view
@@ -45,12 +45,12 @@
 
 -- URL: http://wow-pro.com/node/3224/revisions/25593/view
 -- Date: 2013-03-23 20:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest name correction
 
 -- URL: http://wow-pro.com/node/3224/revisions/25418/view
 -- Date: 2013-01-13 14:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC and CS tags
 
 -- URL: http://wow-pro.com/node/3224/revisions/24655/view
@@ -90,7 +90,7 @@
 
 -- URL: http://wow-pro.com/node/3224/revisions/24467/view
 -- Date: 2011-05-31 21:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Two Extra [A The Battle of Thandol Span|QID|26128|M|50.75,49.97|Z|] stuck at the end!
 
 -- URL: http://wow-pro.com/node/3224/revisions/23662/view

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/dozen_garrison_followers
 -- Date: 2017-03-23 19:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3720/revisions/28526/view
 -- Date: 2017-03-17 16:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial commit
 
 local guide = WoWPro:RegisterGuide("LudoGarrisonFollowers","Achievements","Draenor","Ludovicus","Neutral")

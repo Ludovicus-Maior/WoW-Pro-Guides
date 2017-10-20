@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
 -- Date: 2017-03-23 19:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3605/revisions/28459/view
 -- Date: 2017-03-16 17:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3605/revisions/27715/view
@@ -20,21 +20,21 @@
 
 -- URL: http://wow-pro.com/node/3605/revisions/27485/view
 -- Date: 2016-07-30 18:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added @NagrandDraenor to a few Z tags
 
 -- URL: http://wow-pro.com/node/3605/revisions/27400/view
 -- Date: 2015-12-31 23:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3605/revisions/27312/view
 -- Date: 2015-07-05 17:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3605/revisions/27308/view
 -- Date: 2015-06-30 22:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Remove bogus NextGuide call.
 
 -- URL: http://wow-pro.com/node/3605/revisions/27193/view
@@ -44,12 +44,12 @@
 
 -- URL: http://wow-pro.com/node/3605/revisions/27175/view
 -- Date: 2015-03-09 19:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Deduped some tags
 
 -- URL: http://wow-pro.com/node/3605/revisions/27149/view
 -- Date: 2015-02-25 00:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaks as I played through.
 
 -- URL: http://wow-pro.com/node/3605/revisions/27115/view
@@ -97,7 +97,7 @@
 
 -- URL: http://wow-pro.com/node/3605/revisions/27028/view
 -- Date: 2014-11-22 11:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Hey!  Needed @Draenor
 
 -- URL: http://wow-pro.com/node/3605/revisions/27023/view

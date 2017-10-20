@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
 -- Date: 2017-03-11 20:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3216/revisions/27619/view
@@ -20,22 +20,22 @@
 
 -- URL: http://wow-pro.com/node/3216/revisions/26394/view
 -- Date: 2014-05-30 12:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level setting
 
 -- URL: http://wow-pro.com/node/3216/revisions/26217/view
 -- Date: 2014-05-25 22:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3216/revisions/26135/view
 -- Date: 2014-05-20 19:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3216/revisions/25958/view
 -- Date: 2014-05-14 22:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3216/revisions/25902/view
@@ -62,12 +62,12 @@
 
 -- URL: http://wow-pro.com/node/3216/revisions/25374/view
 -- Date: 2013-01-12 19:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3216/revisions/24717/view
 -- Date: 2011-08-07 23:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected coords on [Stormpike's Orders]
 
 -- URL: http://wow-pro.com/node/3216/revisions/24590/view
@@ -93,17 +93,17 @@
 
 -- URL: http://wow-pro.com/node/3216/revisions/24325/view
 -- Date: 2011-04-29 15:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 96 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3216/revisions/24293/view
 -- Date: 2011-04-29 14:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 91 for step C has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3216/revisions/23969/view
 -- Date: 2011-01-09 20:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Verified previous changes.
 --	Added Notes and coords to [A Decisive Strike], [Bigger and Uglier] and made the Stick.
 --	Added a "R"un to the mountain trail to kill troggs.
@@ -113,33 +113,33 @@
 
 -- URL: http://wow-pro.com/node/3216/revisions/23968/view
 -- Date: 2011-01-09 17:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sequence tweak to avoid traveling after [Bigger and Uglier].  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35270 .
 
 -- URL: http://wow-pro.com/node/3216/revisions/23967/view
 -- Date: 2011-01-09 17:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Quest [WANTED: The Dark Iron Spy] is not from Innkeeper.  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35268 .
 
 -- URL: http://wow-pro.com/node/3216/revisions/23966/view
 -- Date: 2011-01-09 17:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sequence wrong after turning in [The Bearer of Gnoll-edge].  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35267 .
 
 -- URL: http://wow-pro.com/node/3216/revisions/23965/view
 -- Date: 2011-01-09 17:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sequence wrong around [A Nasty Exploit].  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35266 .
 
 -- URL: http://wow-pro.com/node/3216/revisions/23964/view
 -- Date: 2011-01-09 17:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sequence wrong around [A Who's In Charge Here?]
 --	http://wow-pro.com/wiki/source_code_loch_modan#comment-35265
 
 -- URL: http://wow-pro.com/node/3216/revisions/23963/view
 -- Date: 2011-01-09 17:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial checkin of guide as of release 2.1.1 of 11-Dec-2010
 
 -- URL: http://wow-pro.com/node/3216/revisions/23302/view

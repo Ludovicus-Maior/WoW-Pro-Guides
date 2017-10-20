@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
 -- Date: 2017-03-15 21:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to CraBla5458
 
 -- URL: http://wow-pro.com/node/3267/revisions/27811/view
@@ -15,27 +15,27 @@
 
 -- URL: http://wow-pro.com/node/3267/revisions/26621/view
 -- Date: 2014-07-25 22:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: add mean
 
 -- URL: http://wow-pro.com/node/3267/revisions/26373/view
 -- Date: 2014-05-27 21:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "54,58".
 
 -- URL: http://wow-pro.com/node/3267/revisions/26263/view
 -- Date: 2014-05-26 00:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3267/revisions/26097/view
 -- Date: 2014-05-18 22:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3267/revisions/25981/view
 -- Date: 2014-05-14 22:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3267/revisions/25946/view
@@ -59,7 +59,7 @@
 
 -- URL: http://wow-pro.com/node/3267/revisions/25433/view
 -- Date: 2013-01-13 15:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3267/revisions/24875/view
@@ -89,7 +89,7 @@
 
 -- URL: http://wow-pro.com/node/3267/revisions/24305/view
 -- Date: 2011-04-29 14:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 30 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3267/revisions/23791/view

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
 -- Date: 2017-03-23 19:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3280/revisions/28443/view
 -- Date: 2017-03-16 16:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add PREs
 
 -- URL: http://wow-pro.com/node/3280/revisions/27539/view
@@ -25,36 +25,36 @@
 
 -- URL: http://wow-pro.com/node/3280/revisions/26455/view
 -- Date: 2014-06-02 15:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Ste Levels
 
 -- URL: http://wow-pro.com/node/3280/revisions/26273/view
 -- Date: 2014-05-26 00:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3280/revisions/26156/view
 -- Date: 2014-05-20 19:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3280/revisions/26010/view
 -- Date: 2014-05-16 21:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3280/revisions/25936/view
 -- Date: 2014-04-14 19:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord tweaks as I played through.  Incomplete.
 
 -- URL: http://wow-pro.com/node/3280/revisions/25469/view
 -- Date: 2013-01-13 19:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3280/revisions/25319/view
 -- Date: 2013-01-09 22:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3280/revisions/24913/view
@@ -73,7 +73,7 @@
 
 -- URL: http://wow-pro.com/node/3280/revisions/24340/view
 -- Date: 2011-04-29 16:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 26 for step A has unknown tag [71.5,40.5]
 
 -- URL: http://wow-pro.com/node/3280/revisions/23449/view

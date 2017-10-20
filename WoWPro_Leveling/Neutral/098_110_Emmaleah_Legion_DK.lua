@@ -4,18 +4,23 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
--- Date: 2017-08-12 20:59
+-- Date: 2017-10-19 21:33
 -- Who: Ludovicus
+-- Log: Bad PRE tag on [Bringer of the Light]
+
+-- URL: http://wow-pro.com/node/3668/revisions/28744/view
+-- Date: 2017-08-12 20:59
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3668/revisions/28725/view
 -- Date: 2017-07-25 21:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through with raw coords for LostGlacierDKMountScenario
 
 -- URL: http://wow-pro.com/node/3668/revisions/28710/view
 -- Date: 2017-07-04 23:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Moved stuff around so the 110 DK Campaign worked right.
 
 -- URL: http://wow-pro.com/node/3668/revisions/28686/view
@@ -35,17 +40,17 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/28586/view
 -- Date: 2017-03-23 19:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3668/revisions/28464/view
 -- Date: 2017-03-16 22:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3668/revisions/28275/view
 -- Date: 2017-03-05 18:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tag Tweaks on playthough
 
 -- URL: http://wow-pro.com/node/3668/revisions/28261/view
@@ -70,7 +75,7 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/28020/view
 -- Date: 2016-11-15 19:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ; Fix Me Emmaleah (Bad M tag arguments)
 
 -- URL: http://wow-pro.com/node/3668/revisions/28018/view
@@ -110,7 +115,7 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/27873/view
 -- Date: 2016-10-05 02:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Just a few tweaks as I started to give my Blood DK a second specialization.
 
 -- URL: http://wow-pro.com/node/3668/revisions/27869/view
@@ -121,12 +126,12 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/27820/view
 -- Date: 2016-09-19 22:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed duplicate LVL|105
 
 -- URL: http://wow-pro.com/node/3668/revisions/27817/view
 -- Date: 2016-09-19 22:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Join broken line.
 
 -- URL: http://wow-pro.com/node/3668/revisions/27808/view
@@ -136,7 +141,7 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/27798/view
 -- Date: 2016-09-16 20:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Details of how to get Thoras and Koltira added. Other changes between info on Wowhead and actually doing the quests.
 
 -- URL: http://wow-pro.com/node/3668/revisions/27755/view
@@ -146,7 +151,7 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/27681/view
 -- Date: 2016-09-03 02:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: A few typos, a split line and some better zone info.
 
 -- URL: http://wow-pro.com/node/3668/revisions/27661/view
@@ -156,27 +161,27 @@
 
 -- URL: http://wow-pro.com/node/3668/revisions/27656/view
 -- Date: 2016-08-31 00:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Leftover ¦Z¦Acherus: The Ebon Hold¦'s
 
 -- URL: http://wow-pro.com/node/3668/revisions/27644/view
 -- Date: 2016-08-30 22:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone Fixes
 
 -- URL: http://wow-pro.com/node/3668/revisions/27594/view
 -- Date: 2016-08-22 23:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected class name
 
 -- URL: http://wow-pro.com/node/3668/revisions/27591/view
 -- Date: 2016-08-22 23:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 'nil' vs nil
 
 -- URL: http://wow-pro.com/node/3668/revisions/27589/view
 -- Date: 2016-08-22 22:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added DK to the guide name.
 
 -- URL: http://wow-pro.com/node/3668/revisions/27565/view
@@ -247,10 +252,10 @@ C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Fl
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
 C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
-U Dalaran Hearthstone|ACTIVE|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
+U Dalaran|ACTIVE|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
 P Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
 T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
-A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar.|PRE|42457|
+A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar.|PRE|44009|
 P The Exodar|QID|44004|M|28.69,33.55|Z|Aegwynn's Gallery@Dalaran70|N|Take Khadgar's portal to enter a scenario.|ACTIVE|44004|
 C The Prophet and the Butcher|QID|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
 C In Defense of The Exodar|QID|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
@@ -361,7 +366,7 @@ A Champion: High Inquisitor Whitemane|QID|44245|M|44.72,72.88|N|From/To High Inq
 t Vault of the Wardens: A Masterpiece of Flesh|QID|44286|M|63.17,69.42|N|To Lord Thorval.|
 A Champion: Rottgut|QID|44246|M|64.09,69.21|N|From/To Rottgut.|PRE|44286|
 
-A Goddess Watch Over You|QID|44337;44338|M|49.75,55.89|NA|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
+A Goddess Watch Over You|QID|44337;44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
 C Goddess Watch Over You|QID|44338;44338|N|You need to do the main Val'sharah quest line to complete this quest.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|40890|

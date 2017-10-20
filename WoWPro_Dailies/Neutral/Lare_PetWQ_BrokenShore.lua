@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_broken_shore
 -- Date: 2017-08-03 21:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Use world QIDs
 
 -- URL: http://wow-pro.com/node/3732/revisions/28721/view
 -- Date: 2017-07-05 21:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Update text.
 
 -- URL: http://wow-pro.com/node/3732/revisions/28714/view
 -- Date: 2017-07-05 21:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add AS
 
 -- URL: http://wow-pro.com/node/3732/revisions/28694/view

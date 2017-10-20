@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
 -- Date: 2017-03-16 17:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3312/revisions/27169/view
 -- Date: 2015-03-09 17:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: QO tweaks
 
 -- URL: http://wow-pro.com/node/3312/revisions/27146/view
@@ -25,22 +25,22 @@
 
 -- URL: http://wow-pro.com/node/3312/revisions/26418/view
 -- Date: 2014-06-02 13:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3312/revisions/26299/view
 -- Date: 2014-05-26 01:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3312/revisions/26120/view
 -- Date: 2014-05-18 23:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3312/revisions/26000/view
 -- Date: 2014-05-16 20:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3312/revisions/24471/view
 -- Date: 2011-06-01 00:16

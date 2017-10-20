@@ -5,31 +5,31 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
 -- Date: 2017-03-15 23:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JiyTan4550
 
 -- URL: http://wow-pro.com/node/3260/revisions/26446/view
 -- Date: 2014-06-02 15:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Setting
 
 -- URL: http://wow-pro.com/node/3260/revisions/26257/view
 -- Date: 2014-05-25 23:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3260/revisions/26086/view
 -- Date: 2014-05-18 21:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3260/revisions/26017/view
 -- Date: 2014-05-16 22:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3260/revisions/25448/view
 -- Date: 2013-01-13 17:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Copied [A Great Idea] sequence from Alliance guide.
 
 -- URL: http://wow-pro.com/node/3260/revisions/24945/view
@@ -39,7 +39,7 @@
 
 -- URL: http://wow-pro.com/node/3260/revisions/24352/view
 -- Date: 2011-04-29 18:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  Line 150 for step C Bad coord In the center of the desert:
 
 -- URL: http://wow-pro.com/node/3260/revisions/23402/view

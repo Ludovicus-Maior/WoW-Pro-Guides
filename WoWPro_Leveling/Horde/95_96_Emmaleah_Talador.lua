@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
 -- Date: 2017-03-23 19:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3598/revisions/28458/view
 -- Date: 2017-03-16 17:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3598/revisions/27483/view
 -- Date: 2016-07-30 16:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ¦Court of Souls¦ is now |Tomb of Souls@Talador|
 
 -- URL: http://wow-pro.com/node/3598/revisions/27402/view
 -- Date: 2015-12-31 23:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3598/revisions/27388/view
 -- Date: 2015-09-13 21:08
@@ -28,7 +28,7 @@
 
 -- URL: http://wow-pro.com/node/3598/revisions/27315/view
 -- Date: 2015-07-05 17:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3598/revisions/27237/view
@@ -58,7 +58,7 @@
 
 -- URL: http://wow-pro.com/node/3598/revisions/27158/view
 -- Date: 2015-03-08 21:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tag tweaks so it passes the checks.
 
 -- URL: http://wow-pro.com/node/3598/revisions/27145/view
@@ -73,7 +73,7 @@
 
 -- URL: http://wow-pro.com/node/3598/revisions/27082/view
 -- Date: 2014-12-06 21:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 265 for step C has unknown tag [Vizier Cromaug]: [C Punching Through|QID|34855|QO|3|M|66.26,80.97|Vizier Cromaug|]
 
 -- URL: http://wow-pro.com/node/3598/revisions/27077/view
@@ -109,11 +109,11 @@
 
 -- URL: http://wow-pro.com/node/3598/revisions/26668/view
 -- Date: 2014-09-18 23:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3598/revisions/26667/view
 -- Date: 2014-09-18 23:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Version from Emmaleah's blog
 
 local guide = WoWPro:RegisterGuide('EmmTalador', 'Leveling', 'Talador', 'Emmaleah', 'Horde')

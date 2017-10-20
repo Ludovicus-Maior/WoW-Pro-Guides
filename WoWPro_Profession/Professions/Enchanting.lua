@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/profession_enchanting
 -- Date: 2017-03-06 03:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
 -- URL: http://wow-pro.com/node/3460/revisions/28192/view
 -- Date: 2017-01-02 22:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New style registration
 
 -- URL: http://wow-pro.com/node/3460/revisions/25658/view
@@ -19,7 +19,7 @@
 
 -- URL: http://wow-pro.com/node/3460/revisions/24905/view
 -- Date: 2012-01-19 00:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("TwiEnchanting","Profession","Enchanting", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",333)

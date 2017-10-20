@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
 -- Date: 2017-03-17 13:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3443/revisions/28286/view
 -- Date: 2017-03-05 18:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Float the level
 
 -- URL: http://wow-pro.com/node/3443/revisions/27365/view
 -- Date: 2015-07-25 18:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3443/revisions/26862/view
@@ -25,30 +25,30 @@
 
 -- URL: http://wow-pro.com/node/3443/revisions/26600/view
 -- Date: 2014-07-25 21:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj Mean level
 
 -- URL: http://wow-pro.com/node/3443/revisions/26498/view
 -- Date: 2014-06-10 21:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3443/revisions/25633/view
 -- Date: 2013-05-14 17:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  roasted
 
 -- URL: http://wow-pro.com/node/3443/revisions/24817/view
 -- Date: 2011-11-20 23:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3443/revisions/24814/view
 -- Date: 2011-11-20 19:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3443/revisions/24804/view
 -- Date: 2011-11-16 02:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3443/revisions/24787/view
 -- Date: 2011-10-30 19:09

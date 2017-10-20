@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
 -- Date: 2017-03-23 19:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3272/revisions/28461/view
 -- Date: 2017-03-16 22:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a PRE.
 
 -- URL: http://wow-pro.com/node/3272/revisions/28439/view
 -- Date: 2017-03-15 23:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JamHel6063
 
 -- URL: http://wow-pro.com/node/3272/revisions/27837/view
@@ -40,26 +40,26 @@
 
 -- URL: http://wow-pro.com/node/3272/revisions/26421/view
 -- Date: 2014-06-02 13:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3272/revisions/26267/view
 -- Date: 2014-05-26 00:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3272/revisions/26152/view
 -- Date: 2014-05-20 19:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3272/revisions/26013/view
 -- Date: 2014-05-16 21:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3272/revisions/25935/view
 -- Date: 2014-04-14 19:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord and flight point tweaks.
 
 -- URL: http://wow-pro.com/node/3272/revisions/25729/view
@@ -69,7 +69,7 @@
 
 -- URL: http://wow-pro.com/node/3272/revisions/25288/view
 -- Date: 2013-01-09 01:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Touchups as I run my DK through.
 
 -- URL: http://wow-pro.com/node/3272/revisions/25045/view

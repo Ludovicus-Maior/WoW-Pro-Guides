@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_horde
 -- Date: 2017-03-16 16:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3300/revisions/27605/view
@@ -15,31 +15,31 @@
 
 -- URL: http://wow-pro.com/node/3300/revisions/27167/view
 -- Date: 2015-03-09 17:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of empty tags and blank |N||'s.
 
 -- URL: http://wow-pro.com/node/3300/revisions/26457/view
 -- Date: 2014-06-02 15:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3300/revisions/26290/view
 -- Date: 2014-05-26 01:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3300/revisions/26160/view
 -- Date: 2014-05-20 19:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3300/revisions/26003/view
 -- Date: 2014-05-16 20:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3300/revisions/25578/view
 -- Date: 2013-03-23 19:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest name tweak
 
 -- URL: http://wow-pro.com/node/3300/revisions/24609/view
@@ -50,7 +50,7 @@
 
 -- URL: http://wow-pro.com/node/3300/revisions/24353/view
 -- Date: 2011-04-29 18:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 187 for step A has unknown tag [To the left. (24.01, 61.74)]: [A Valkyrion Must Burn |QID|12953| To the left. (24.01, 61.74)|M|24.0,61.8|]
 --	! Line 223 for step C Bad coord : [C Battling the Elements |QID|12967| |N|Get on Snorri's Back.  Pick up the Snowdrifts  and throw Snowballs (2) at Seething Revenants.|M|1,|]
 --	! Line 226 for step T has unknown tag [(63.17,63.21)]: [T Forging an Alliance |QID|12924|(63.17,63.21)|M|63.2,63.2|]

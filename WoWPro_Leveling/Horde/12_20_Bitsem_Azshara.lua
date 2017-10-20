@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
 -- Date: 2017-03-15 23:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to BitAzs1220
 
 -- URL: http://wow-pro.com/node/3217/revisions/27330/view
 -- Date: 2015-07-12 20:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bitter Reaches Tweak.
 
 -- URL: http://wow-pro.com/node/3217/revisions/27300/view
 -- Date: 2015-06-23 22:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add flight points, lots of QO changes and a few coord tweaks
 
 -- URL: http://wow-pro.com/node/3217/revisions/26928/view
@@ -26,27 +26,27 @@
 
 -- URL: http://wow-pro.com/node/3217/revisions/26456/view
 -- Date: 2014-06-02 15:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3217/revisions/26218/view
 -- Date: 2014-05-25 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3217/revisions/26143/view
 -- Date: 2014-05-20 19:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3217/revisions/26037/view
 -- Date: 2014-05-17 17:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3217/revisions/25856/view
 -- Date: 2013-12-26 21:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tag cleanup after playinmg through.
 
 -- URL: http://wow-pro.com/node/3217/revisions/25840/view
@@ -61,12 +61,12 @@
 
 -- URL: http://wow-pro.com/node/3217/revisions/25497/view
 -- Date: 2013-01-22 17:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord Teaks
 
 -- URL: http://wow-pro.com/node/3217/revisions/25378/view
 -- Date: 2013-01-12 20:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3217/revisions/24954/view
@@ -76,7 +76,7 @@
 
 -- URL: http://wow-pro.com/node/3217/revisions/24673/view
 -- Date: 2011-07-11 22:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaks!
 
 -- URL: http://wow-pro.com/node/3217/revisions/24551/view
@@ -86,22 +86,22 @@
 
 -- URL: http://wow-pro.com/node/3217/revisions/24321/view
 -- Date: 2011-04-29 15:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 47 for step C has unknown tag [n], Line 47 for step C has unknown tag [Attack one of the ...], Line 379, for step A non-decimal PRE, Line 609 for step A has 1 M coords, Line 690 for step T has unknown tag [To Kadrak.].
 
 -- URL: http://wow-pro.com/node/3217/revisions/24068/view
 -- Date: 2011-01-29 17:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added QIDs to LVL 18,20 steps.
 
 -- URL: http://wow-pro.com/node/3217/revisions/24020/view
 -- Date: 2011-01-20 12:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Optimize quest acceptance for [Military Breakthrough].  Optimize quest ordering for [First Degree Mortar], [Hand-me-downs], and [Military Breakthrough] to minimize time in the minefield.
 
 -- URL: http://wow-pro.com/node/3217/revisions/24011/view
 -- Date: 2011-01-18 12:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added two leadin quests to Azshara.  One in the goblin line and another you can get from the quest boards.
 
 -- URL: http://wow-pro.com/node/3217/revisions/23324/view

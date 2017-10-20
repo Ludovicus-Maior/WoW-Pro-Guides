@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/profession_first_aid
 -- Date: 2017-03-06 03:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
 -- URL: http://wow-pro.com/node/3410/revisions/28194/view
 -- Date: 2017-01-02 22:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New style registration
 
 -- URL: http://wow-pro.com/node/3410/revisions/27441/view
 -- Date: 2016-03-23 02:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 28 in guide TwiFirstAid has only 1 sections.
 
 -- URL: http://wow-pro.com/node/3410/revisions/25655/view

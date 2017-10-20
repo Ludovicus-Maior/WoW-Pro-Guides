@@ -5,47 +5,47 @@
 
 -- URL: http://wow-pro.com/wiki/battle_pet_tamers_draenor
 -- Date: 2017-05-14 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add icon for MPD with Ashlei
 
 -- URL: http://wow-pro.com/node/3643/revisions/28331/view
 -- Date: 2017-03-10 23:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax changes.
 
 -- URL: http://wow-pro.com/node/3643/revisions/28181/view
 -- Date: 2016-12-28 17:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Update to use markup like [ability=168/healing-flame].
 
 -- URL: http://wow-pro.com/node/3643/revisions/28175/view
 -- Date: 2016-12-24 01:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Horde flight points.
 
 -- URL: http://wow-pro.com/node/3643/revisions/27907/view
 -- Date: 2016-10-13 23:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Legion Tweaks.
 
 -- URL: http://wow-pro.com/node/3643/revisions/27470/view
 -- Date: 2016-07-19 18:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Major rewrite
 
 -- URL: http://wow-pro.com/node/3643/revisions/27432/view
 -- Date: 2016-02-08 01:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tiny tweaks
 
 -- URL: http://wow-pro.com/node/3643/revisions/27409/view
 -- Date: 2016-01-08 23:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweak
 
 -- URL: http://wow-pro.com/node/3643/revisions/27408/view
 -- Date: 2016-01-08 23:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide("LarePetTamersDrae","Dailies","Draenor","Larenon","Neutral")

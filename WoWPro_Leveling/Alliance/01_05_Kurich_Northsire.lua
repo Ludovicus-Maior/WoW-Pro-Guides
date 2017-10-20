@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
 -- Date: 2017-03-23 17:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3197/revisions/28345/view
 -- Date: 2017-03-11 20:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3197/revisions/27674/view
@@ -50,7 +50,7 @@
 
 -- URL: http://wow-pro.com/node/3197/revisions/27501/view
 -- Date: 2016-07-30 21:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax Fix
 
 -- URL: http://wow-pro.com/node/3197/revisions/27492/view
@@ -60,17 +60,17 @@
 
 -- URL: http://wow-pro.com/node/3197/revisions/27269/view
 -- Date: 2015-05-29 00:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level adj
 
 -- URL: http://wow-pro.com/node/3197/revisions/27268/view
 -- Date: 2015-05-29 00:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Adj.
 
 -- URL: http://wow-pro.com/node/3197/revisions/27255/view
 -- Date: 2015-05-16 21:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adjusted Elwynn forest guide levels
 
 -- URL: http://wow-pro.com/node/3197/revisions/27250/view
@@ -90,12 +90,12 @@
 
 -- URL: http://wow-pro.com/node/3197/revisions/27227/view
 -- Date: 2015-04-30 20:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Remap
 
 -- URL: http://wow-pro.com/node/3197/revisions/27210/view
 -- Date: 2015-04-25 20:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Split in two
 
 -- URL: http://wow-pro.com/node/3197/revisions/27141/view
@@ -105,7 +105,7 @@
 
 -- URL: http://wow-pro.com/node/3197/revisions/26868/view
 -- Date: 2014-11-07 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed human stutter.
 
 -- URL: http://wow-pro.com/node/3197/revisions/26800/view
@@ -115,51 +115,51 @@
 
 -- URL: http://wow-pro.com/node/3197/revisions/26477/view
 -- Date: 2014-06-02 22:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icons
 
 -- URL: http://wow-pro.com/node/3197/revisions/26393/view
 -- Date: 2014-05-30 12:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Stetting levels
 
 -- URL: http://wow-pro.com/node/3197/revisions/26203/view
 -- Date: 2014-05-25 22:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type
 
 -- URL: http://wow-pro.com/node/3197/revisions/26130/view
 -- Date: 2014-05-20 18:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3197/revisions/25949/view
 -- Date: 2014-05-14 21:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3197/revisions/25628/view
 -- Date: 2013-05-14 15:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected coords for C [The Fargodeep Mine]
 
 -- URL: http://wow-pro.com/node/3197/revisions/25585/view
 -- Date: 2013-03-23 20:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Many quest name updates
 
 -- URL: http://wow-pro.com/node/3197/revisions/25517/view
 -- Date: 2013-02-06 20:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct quest names for autocomplete to work right!
 
 -- URL: http://wow-pro.com/node/3197/revisions/25371/view
 -- Date: 2013-01-12 19:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3197/revisions/25124/view
 -- Date: 2012-10-08 19:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Human Monk starter quests and get rid of - in zone name.
 
 -- URL: http://wow-pro.com/node/3197/revisions/25000/view
@@ -191,13 +191,13 @@
 
 -- URL: http://wow-pro.com/node/3197/revisions/24515/view
 -- Date: 2011-06-07 23:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 248 for step T has unknown tag [To Milly Osworth.]: [T Extinguishing Hope|QID|26391|M|48.15,42.52|To Milly Osworth.|]
 --	! Line 254 for step A has unknown tag [48.20,42.06]: [A Report To Goldshire|QID|54||48.20,42.06|N|From Marshal McBride.|]
 
 -- URL: http://wow-pro.com/node/3197/revisions/24464/view
 -- Date: 2011-05-31 20:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Z|Stormwind City| not city
 
 -- URL: http://wow-pro.com/node/3197/revisions/24443/view
@@ -212,17 +212,17 @@
 
 -- URL: http://wow-pro.com/node/3197/revisions/24289/view
 -- Date: 2011-04-29 14:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
 
 -- URL: http://wow-pro.com/node/3197/revisions/24272/view
 -- Date: 2011-04-26 22:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixed syntax errors.
 
 -- URL: http://wow-pro.com/node/3197/revisions/24201/view
 -- Date: 2011-04-02 19:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax error in quest [Fear No Evil] for Human Warlocks.
 
 -- URL: http://wow-pro.com/node/3197/revisions/24058/view

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
 -- Date: 2017-03-10 23:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax changes.
 
 -- URL: http://wow-pro.com/node/3501/revisions/27171/view
 -- Date: 2015-03-09 19:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of empty |N|| tags
 
 -- URL: http://wow-pro.com/node/3501/revisions/26853/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/26567/view
 -- Date: 2014-07-06 15:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels
 
 -- URL: http://wow-pro.com/node/3501/revisions/26534/view
 -- Date: 2014-06-11 19:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3501/revisions/25769/view
@@ -39,12 +39,12 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25756/view
 -- Date: 2013-09-10 23:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add a QID for finishing Townlong Steppes.
 
 -- URL: http://wow-pro.com/node/3501/revisions/25698/view
 -- Date: 2013-06-04 23:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cleanup around [A Morale Victory]
 
 -- URL: http://wow-pro.com/node/3501/revisions/25693/view
@@ -54,7 +54,7 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25617/view
 -- Date: 2013-05-09 22:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some horrid editors change ... into a proper ellipses (sp?) character and change ' into a proper quote.  
 
 -- URL: http://wow-pro.com/node/3501/revisions/25508/view
@@ -64,7 +64,7 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25488/view
 -- Date: 2013-01-13 23:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3501/revisions/25407/view
@@ -89,15 +89,15 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25158/view
 -- Date: 2012-10-24 11:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3501/revisions/25111/view
 -- Date: 2012-10-07 22:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3501/revisions/25110/view
 -- Date: 2012-10-07 22:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("EmmShadoPan",'Dailies', "Townlong Steppes", "Emmaleah", "Neutral")
 WoWPro:GuideLevels(guide,88,90,89)

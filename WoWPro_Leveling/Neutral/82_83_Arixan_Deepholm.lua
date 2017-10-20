@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
 -- Date: 2017-03-17 00:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3307/revisions/28279/view
 -- Date: 2017-03-05 18:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Horde PRE for [The Maelstrom]
 
 -- URL: http://wow-pro.com/node/3307/revisions/26900/view
@@ -20,72 +20,72 @@
 
 -- URL: http://wow-pro.com/node/3307/revisions/26613/view
 -- Date: 2014-07-25 21:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj mean
 
 -- URL: http://wow-pro.com/node/3307/revisions/26467/view
 -- Date: 2014-06-02 16:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added mean level
 
 -- URL: http://wow-pro.com/node/3307/revisions/26325/view
 -- Date: 2014-05-27 19:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: StartLevel corrected from 81 to 82.
 
 -- URL: http://wow-pro.com/node/3307/revisions/26296/view
 -- Date: 2014-05-26 01:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3307/revisions/26118/view
 -- Date: 2014-05-18 22:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3307/revisions/26052/view
 -- Date: 2014-05-17 20:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3307/revisions/25719/view
 -- Date: 2013-06-18 01:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 27398's name [The Battle is Won, The War Goes On] does not match Grail's database [The Battle Is Won, The War Goes On].
 
 -- URL: http://wow-pro.com/node/3307/revisions/25568/view
 -- Date: 2013-03-23 18:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Quest name correction [Fight Fire and Water and Air with...]
 
 -- URL: http://wow-pro.com/node/3307/revisions/25459/view
 -- Date: 2013-01-13 18:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3307/revisions/25440/view
 -- Date: 2013-01-13 16:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3307/revisions/25308/view
 -- Date: 2013-01-09 22:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3307/revisions/25307/view
 -- Date: 2013-01-09 22:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3307/revisions/25073/view
 -- Date: 2012-09-15 20:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change some rank 2 quests to rank 1 so that you can actually finish the guide.
 
 -- URL: http://wow-pro.com/node/3307/revisions/24993/view
 -- Date: 2012-05-27 19:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Relocated quest pickup of the Explorers to late in the guide.
 --	Fixed zone transition to Uldum guide.
 
@@ -104,12 +104,12 @@
 
 -- URL: http://wow-pro.com/node/3307/revisions/24529/view
 -- Date: 2011-06-08 03:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct followon Horde guide.
 
 -- URL: http://wow-pro.com/node/3307/revisions/24521/view
 -- Date: 2011-06-07 23:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 270 for step A has unknown tag [From Slate Quicksand.]: [A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|From Slate Quicksand.|]
 --	! Line 275 for step T has unknown tag [To Slate Quicksand.]: [T Sprout No More|QID|26791|M|27.6,44.9|To Slate Quicksand.|]
 --	! Line 320 for step A has 1 M coords: [A Violent Gale|QID|26426|PRE|26375;26376;26377|M|From Diamant the Patient.|]
@@ -118,11 +118,11 @@
 
 -- URL: http://wow-pro.com/node/3307/revisions/24407/view
 -- Date: 2011-05-18 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3307/revisions/24399/view
 -- Date: 2011-05-17 01:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Small N syntax fix
 
 -- URL: http://wow-pro.com/node/3307/revisions/24377/view
@@ -145,17 +145,17 @@
 
 -- URL: http://wow-pro.com/node/3307/revisions/24238/view
 -- Date: 2011-04-19 17:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: [A Slight Problem] had a  two 'A' steps and no 'T' step. Corrected coordinates for "Kor the Immovable" and removed the report his missing location text. Rerouted [Don't. Stop. Moving.] to reflect Kor's change of domicile. A dozen coordinate tweaks.
 
 -- URL: http://wow-pro.com/node/3307/revisions/24233/view
 -- Date: 2011-04-17 18:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dumped [We have a Situation], corrected syntax error around [A Slight Problem] and [Rescue the Stonefather...and Flint].
 
 -- URL: http://wow-pro.com/node/3307/revisions/24172/view
 -- Date: 2011-03-12 18:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Unique ID
 
 -- URL: http://wow-pro.com/node/3307/revisions/24067/view

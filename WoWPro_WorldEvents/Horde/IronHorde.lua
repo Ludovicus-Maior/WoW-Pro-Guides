@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/node/3584
 -- Date: 2015-07-05 18:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon add
 
 -- URL: http://wow-pro.com/node/3584/revisions/27133/view
 -- Date: 2015-02-01 22:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: TRweaks
 
 -- URL: http://wow-pro.com/node/3584/revisions/26736/view
@@ -21,18 +21,18 @@
 
 -- URL: http://wow-pro.com/node/3584/revisions/26734/view
 -- Date: 2014-10-17 22:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Orgrimmar zone tags were wrong, changed F step and changed a US into an S.
 --	Still Testing!
 
 -- URL: http://wow-pro.com/node/3584/revisions/26733/view
 -- Date: 2014-10-17 00:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Chnage to a WE guide.
 
 -- URL: http://wow-pro.com/node/3584/revisions/26726/view
 -- Date: 2014-10-15 00:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: CHanged guide name to IronHordeInvasionH and make names conform with Alliance version.
 
 -- URL: http://wow-pro.com/node/3584/revisions/26712/view
@@ -42,7 +42,7 @@
 
 -- URL: http://wow-pro.com/node/3584/revisions/26698/view
 -- Date: 2014-09-28 22:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3584/revisions/26642/view
 -- Date: 2014-08-28 03:37

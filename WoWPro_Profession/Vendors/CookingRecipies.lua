@@ -5,31 +5,31 @@
 
 -- URL: http://wow-pro.com/wiki/cooking_recipies
 -- Date: 2017-01-02 22:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration style
 
 -- URL: http://wow-pro.com/node/3567/revisions/28021/view
 -- Date: 2016-11-15 19:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Get rid of no sections error.
 
 -- URL: http://wow-pro.com/node/3567/revisions/27781/view
 -- Date: 2016-09-14 18:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dalaran City@Dalaran
 
 -- URL: http://wow-pro.com/node/3567/revisions/27162/view
 -- Date: 2015-03-09 17:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: The Imperial Exchange@Shrine of Seven Stars
 
 -- URL: http://wow-pro.com/node/3567/revisions/25898/view
 -- Date: 2014-02-14 00:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3567/revisions/25885/view
 -- Date: 2014-02-14 00:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoShopCook","Profession", "Cooking", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Cooking Recipies")

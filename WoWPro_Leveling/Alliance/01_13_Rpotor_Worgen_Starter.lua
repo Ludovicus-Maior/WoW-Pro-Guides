@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
 -- Date: 2017-03-15 21:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to RpoGil0113, dumped changelog.
 
 -- URL: http://wow-pro.com/node/3211/revisions/27730/view
@@ -20,52 +20,52 @@
 
 -- URL: http://wow-pro.com/node/3211/revisions/26869/view
 -- Date: 2014-11-07 22:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: got rid of extra coords.
 
 -- URL: http://wow-pro.com/node/3211/revisions/26631/view
 -- Date: 2014-07-25 22:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean
 
 -- URL: http://wow-pro.com/node/3211/revisions/26484/view
 -- Date: 2014-06-03 22:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing "
 
 -- URL: http://wow-pro.com/node/3211/revisions/26476/view
 -- Date: 2014-06-02 22:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icons
 
 -- URL: http://wow-pro.com/node/3211/revisions/26345/view
 -- Date: 2014-05-27 20:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Max Level corrected from 13 to 12.
 
 -- URL: http://wow-pro.com/node/3211/revisions/26207/view
 -- Date: 2014-05-25 22:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3211/revisions/25954/view
 -- Date: 2014-05-14 22:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3211/revisions/25627/view
 -- Date: 2013-05-14 15:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed name from [Arcane Missiles] to [Frost Nova]
 
 -- URL: http://wow-pro.com/node/3211/revisions/25584/view
 -- Date: 2013-03-23 20:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Quest name correction [Learning the Word]
 
 -- URL: http://wow-pro.com/node/3211/revisions/25370/view
 -- Date: 2013-01-12 19:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3211/revisions/25327/view
@@ -75,12 +75,12 @@
 
 -- URL: http://wow-pro.com/node/3211/revisions/25012/view
 -- Date: 2012-06-30 18:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Blizzard change zone names, AGAIN.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24988/view
 -- Date: 2012-05-27 18:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Another zone/map name shift.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24763/view
@@ -131,7 +131,7 @@
 
 -- URL: http://wow-pro.com/node/3211/revisions/24654/view
 -- Date: 2011-07-01 13:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: $2. shifted from Gilneas_terrain1 to Gilneas_terrain2
 
 -- URL: http://wow-pro.com/node/3211/revisions/24586/view
@@ -141,36 +141,36 @@
 
 -- URL: http://wow-pro.com/node/3211/revisions/24433/view
 -- Date: 2011-05-28 10:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord fix for [Lor'danel]
 
 -- URL: http://wow-pro.com/node/3211/revisions/24409/view
 -- Date: 2011-05-20 21:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3211/revisions/24398/view
 -- Date: 2011-05-17 01:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fix Syntax errors.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24388/view
 -- Date: 2011-05-15 19:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changes to accommodate new mapping system!
 
 -- URL: http://wow-pro.com/node/3211/revisions/24290/view
 -- Date: 2011-04-29 14:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 127 for step A has unknown tag [From Huntsman Blake.], Line 146 for step A has unknown tag [From Captain Broderick.], Line 159 for step T has unknown tag [Go southwest/west, ...], Line 187 for step T has unknown tag [To Tobias.], Line 204 for step T has unknown tag [To Crate of Mandrake Essence.], Line 239 for step C has 3 M coords, Line 408 for step f has too short a title.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24090/view
 -- Date: 2011-01-30 19:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected RegisterGuide line.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24076/view
 -- Date: 2011-01-30 17:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Quest giver/turnin information for many steps.
 --	Altered sequences of steps to allow you to use quest reward armor sooner.
 --	Corrected several coordinates. 
@@ -179,7 +179,7 @@
 
 -- URL: http://wow-pro.com/node/3211/revisions/24072/view
 -- Date: 2011-01-29 17:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing  QIDs to Level 7 and 9 steps.
 
 -- URL: http://wow-pro.com/node/3211/revisions/23733/view

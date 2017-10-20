@@ -5,47 +5,47 @@
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
 -- Date: 2017-03-10 23:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3476/revisions/26592/view
 -- Date: 2014-07-25 20:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: adj meanlevel
 
 -- URL: http://wow-pro.com/node/3476/revisions/26545/view
 -- Date: 2014-07-06 15:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: guide level
 
 -- URL: http://wow-pro.com/node/3476/revisions/26504/view
 -- Date: 2014-06-10 22:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coverted guide
 
 -- URL: http://wow-pro.com/node/3476/revisions/25621/view
 -- Date: 2013-05-14 15:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed extra M tag
 
 -- URL: http://wow-pro.com/node/3476/revisions/25411/view
 -- Date: 2013-01-13 14:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC and CN tag
 
 -- URL: http://wow-pro.com/node/3476/revisions/25358/view
 -- Date: 2013-01-12 18:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3476/revisions/25291/view
 -- Date: 2013-01-09 01:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3476/revisions/24983/view
 -- Date: 2012-05-27 18:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoArgTour",'Dailies', "Icecrown", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,77,78,77.0131)

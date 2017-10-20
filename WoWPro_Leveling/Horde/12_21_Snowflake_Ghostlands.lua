@@ -5,52 +5,52 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
 -- Date: 2017-03-15 23:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to SnoGho1221
 
 -- URL: http://wow-pro.com/node/3221/revisions/27310/view
 -- Date: 2015-07-01 18:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played through on a level locked 15 Belf Pally.
 
 -- URL: http://wow-pro.com/node/3221/revisions/26429/view
 -- Date: 2014-06-02 13:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3221/revisions/26222/view
 -- Date: 2014-05-25 22:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3221/revisions/26138/view
 -- Date: 2014-05-20 19:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3221/revisions/26036/view
 -- Date: 2014-05-17 17:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3221/revisions/25867/view
 -- Date: 2014-01-12 23:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Error pointed out by Taraca on the Pass.  I musta been high.
 
 -- URL: http://wow-pro.com/node/3221/revisions/25500/view
 -- Date: 2013-01-22 18:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord tweaks, a new CS tag, and moved up turnins for Suncrown.
 
 -- URL: http://wow-pro.com/node/3221/revisions/25479/view
 -- Date: 2013-01-13 19:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3221/revisions/25343/view
 -- Date: 2013-01-11 23:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3221/revisions/24966/view
@@ -71,12 +71,12 @@
 
 -- URL: http://wow-pro.com/node/3221/revisions/24520/view
 -- Date: 2011-06-07 23:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 61 for step A has unknown tag [To Vandril]: [A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|To Vandril|]
 
 -- URL: http://wow-pro.com/node/3221/revisions/24509/view
 -- Date: 2011-06-07 03:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Race tags and new race specific quests, where needed for my poor Orc.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24475/view
@@ -86,21 +86,21 @@
 
 -- URL: http://wow-pro.com/node/3221/revisions/24439/view
 -- Date: 2011-05-28 11:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord tweaks and added the explorer achievement step.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24324/view
 -- Date: 2011-04-29 15:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 218 for step K has 1 M coords, Line 221 for step K has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24212/view
 -- Date: 2011-04-05 23:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3221/revisions/24081/view
 -- Date: 2011-01-30 19:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3221/revisions/23624/view

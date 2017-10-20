@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/neutral_oracles_reputation_dalies_sholazar_basin
 -- Date: 2014-07-06 15:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels and faction
 
 -- URL: http://wow-pro.com/node/3418/revisions/26527/view
 -- Date: 2014-06-11 19:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3418/revisions/25250/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3418/revisions/24986/view
 -- Date: 2012-05-27 18:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixed some coordinates.
 
 -- URL: http://wow-pro.com/node/3418/revisions/24650/view
 -- Date: 2011-06-30 19:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("CraShoOra",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral")
 WoWPro:GuideLevels(guide,76,77,76.5)

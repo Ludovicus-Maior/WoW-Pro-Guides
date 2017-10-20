@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_suramar
 -- Date: 2017-08-03 22:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Work off just World QIDs
 
 -- URL: http://wow-pro.com/node/3736/revisions/28719/view
 -- Date: 2017-07-05 21:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add AS
 
 -- URL: http://wow-pro.com/node/3736/revisions/28698/view

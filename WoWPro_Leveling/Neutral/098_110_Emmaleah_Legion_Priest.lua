@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/node/3674
 -- Date: 2017-08-12 21:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3674/revisions/28688/view
 -- Date: 2017-06-12 23:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: [C Custodial Matters] had M|72.95870.94|  I guessed the right coord.
 
 -- URL: http://wow-pro.com/node/3674/revisions/28683/view
@@ -25,12 +25,12 @@
 
 -- URL: http://wow-pro.com/node/3674/revisions/28592/view
 -- Date: 2017-03-23 19:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3674/revisions/28470/view
 -- Date: 2017-03-16 22:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PRE; syntax corrections.
 
 -- URL: http://wow-pro.com/node/3674/revisions/28370/view
@@ -104,12 +104,12 @@
 
 -- URL: http://wow-pro.com/node/3674/revisions/27880/view
 -- Date: 2016-10-05 22:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: The PRE tag for [A The Third Legend] had spurious + signs!
 
 -- URL: http://wow-pro.com/node/3674/revisions/27823/view
 -- Date: 2016-09-19 22:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added coarse coords for Portal to Netherlight Temple
 
 -- URL: http://wow-pro.com/node/3674/revisions/27767/view
@@ -139,12 +139,12 @@
 
 -- URL: http://wow-pro.com/node/3674/revisions/27657/view
 -- Date: 2016-08-31 00:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone Typo
 
 -- URL: http://wow-pro.com/node/3674/revisions/27655/view
 -- Date: 2016-08-30 23:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Relocating priests to NetherlightTemple
 
 -- URL: http://wow-pro.com/node/3674/revisions/27572/view

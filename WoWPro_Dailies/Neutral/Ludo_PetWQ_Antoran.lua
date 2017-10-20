@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/node/3743
 -- Date: 2017-09-12 21:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Revised Earseeker
 
 -- URL: http://wow-pro.com/node/3743/revisions/28780/view
 -- Date: 2017-09-05 22:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Cut
 
 local guide = WoWPro:RegisterGuide("LudoPetWQAntoran","Dailies","ArgusCore","Ludovicus","Neutral")

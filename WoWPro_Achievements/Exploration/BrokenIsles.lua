@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_legion
 -- Date: 2017-03-17 15:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change title to Exploration Achievements - Legion
 
 -- URL: http://wow-pro.com/node/3718/revisions/28521/view
 -- Date: 2017-03-17 15:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoExpBrokenIsles","Achievements","Broken Isles","Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,105,110,109)

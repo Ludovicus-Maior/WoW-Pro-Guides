@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/legion_profession_quests
 -- Date: 2017-08-03 21:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Started Enchanting, not done yet.
 
 -- URL: http://wow-pro.com/node/3712/revisions/28723/view
 -- Date: 2017-07-15 22:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Expanded Jewelcrafting.
 
 -- URL: http://wow-pro.com/node/3712/revisions/28711/view
 -- Date: 2017-07-04 23:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Expanded Inscription.  Moved secondary professions to the end.
 
 -- URL: http://wow-pro.com/node/3712/revisions/28614/view
@@ -25,12 +25,12 @@
 
 -- URL: http://wow-pro.com/node/3712/revisions/28602/view
 -- Date: 2017-03-23 19:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3712/revisions/28499/view
 -- Date: 2017-03-17 00:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax tweaks
 
 -- URL: http://wow-pro.com/node/3712/revisions/28268/view
@@ -55,7 +55,7 @@
 
 -- URL: http://wow-pro.com/node/3712/revisions/28210/view
 -- Date: 2017-01-02 23:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated guide registration
 
 -- URL: http://wow-pro.com/node/3712/revisions/28183/view

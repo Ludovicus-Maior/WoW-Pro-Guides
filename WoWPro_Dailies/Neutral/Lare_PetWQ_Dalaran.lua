@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_dalaran
 -- Date: 2017-09-03 23:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added alternate Tiffany Nelson pet lineup.
 
 -- URL: http://wow-pro.com/node/3733/revisions/28730/view
 -- Date: 2017-08-03 21:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Work of of world QIDs
 
 -- URL: http://wow-pro.com/node/3733/revisions/28715/view
 -- Date: 2017-07-05 21:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add AS
 
 -- URL: http://wow-pro.com/node/3733/revisions/28695/view

@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_highmountain
 -- Date: 2017-08-03 22:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Work of just World QIDs
 
 -- URL: http://wow-pro.com/node/3734/revisions/28732/view
 -- Date: 2017-08-03 21:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: .
 
 -- URL: http://wow-pro.com/node/3734/revisions/28731/view
 -- Date: 2017-08-03 21:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Work off of World QIDs
 
 -- URL: http://wow-pro.com/node/3734/revisions/28717/view
 -- Date: 2017-07-05 21:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add AS
 
 -- URL: http://wow-pro.com/node/3734/revisions/28696/view

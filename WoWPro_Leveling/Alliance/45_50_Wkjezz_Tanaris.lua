@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
 -- Date: 2017-03-15 21:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to WkjTan4550
 
 -- URL: http://wow-pro.com/node/3259/revisions/27631/view
@@ -15,42 +15,42 @@
 
 -- URL: http://wow-pro.com/node/3259/revisions/26595/view
 -- Date: 2014-07-25 21:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj. mean level.
 
 -- URL: http://wow-pro.com/node/3259/revisions/26409/view
 -- Date: 2014-05-30 15:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Adj
 
 -- URL: http://wow-pro.com/node/3259/revisions/26392/view
 -- Date: 2014-05-30 11:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Adjust
 
 -- URL: http://wow-pro.com/node/3259/revisions/26256/view
 -- Date: 2014-05-25 23:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3259/revisions/26085/view
 -- Date: 2014-05-18 21:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3259/revisions/25978/view
 -- Date: 2014-05-14 22:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3259/revisions/25368/view
 -- Date: 2013-01-12 19:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3259/revisions/25030/view
 -- Date: 2012-07-06 21:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected quest [Tropical Paradise Beckons] to Flinn and his coords as per wowmanus, with more bits of coordinate accuracy from Ludo :-).
 
 -- URL: http://wow-pro.com/node/3259/revisions/24873/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3259/revisions/24461/view
 -- Date: 2011-05-30 18:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 84 for step C Bad coord 7288: [C To The Ground!|QID|25053|U|51547|M|7288,46.09|N|The last building to torch is here.|]
 
 -- URL: http://wow-pro.com/node/3259/revisions/24426/view
@@ -80,21 +80,21 @@
 
 -- URL: http://wow-pro.com/node/3259/revisions/24392/view
 -- Date: 2011-05-17 01:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3259/revisions/24188/view
 -- Date: 2011-03-20 20:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tepes had found duplicated A lines too!
 
 -- URL: http://wow-pro.com/node/3259/revisions/24187/view
 -- Date: 2011-03-20 20:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed spurious 'A'steps for [Rocket Rescue] and [Scavengers Scavenged] and another spelin error.
 
 -- URL: http://wow-pro.com/node/3259/revisions/24085/view
 -- Date: 2011-01-30 19:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected RegisterGuide line to match GIT
 
 -- URL: http://wow-pro.com/node/3259/revisions/23612/view

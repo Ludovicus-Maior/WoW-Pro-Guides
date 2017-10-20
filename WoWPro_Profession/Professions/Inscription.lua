@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/profession_inscription
 -- Date: 2017-03-06 03:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
 -- URL: http://wow-pro.com/node/3411/revisions/28196/view
 -- Date: 2017-01-02 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New style registration
 
 -- URL: http://wow-pro.com/node/3411/revisions/25661/view
@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3411/revisions/24683/view
 -- Date: 2011-07-13 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to GitHub
 
 -- URL: http://wow-pro.com/node/3411/revisions/24644/view

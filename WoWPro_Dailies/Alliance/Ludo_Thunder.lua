@@ -5,41 +5,41 @@
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_alliance
 -- Date: 2017-03-10 23:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3537/revisions/26886/view
 -- Date: 2014-11-08 00:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: BAtch fix
 
 -- URL: http://wow-pro.com/node/3537/revisions/26548/view
 -- Date: 2014-07-06 15:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide level and faction
 
 -- URL: http://wow-pro.com/node/3537/revisions/26508/view
 -- Date: 2014-06-10 23:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3537/revisions/25938/view
 -- Date: 2014-04-14 21:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3537/revisions/25929/view
 -- Date: 2014-04-14 19:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add solo scenarios; try to start using the guide!
 
 -- URL: http://wow-pro.com/node/3537/revisions/25547/view
 -- Date: 2013-03-07 23:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: First cut for first phase!
 
 -- URL: http://wow-pro.com/node/3537/revisions/25545/view
 -- Date: 2013-03-06 22:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Notes for guide
 
 local guide = WoWPro:RegisterGuide("LudoThunderKing",'Dailies', "Isle of Thunder", "Ludovicus", "Alliance")

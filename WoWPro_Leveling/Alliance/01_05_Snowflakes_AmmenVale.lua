@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
 -- Date: 2017-03-15 21:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to SnoAmmen0105
 
 -- URL: http://wow-pro.com/node/3206/revisions/28347/view
 -- Date: 2017-03-11 20:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3206/revisions/27650/view
 -- Date: 2016-08-30 22:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected a few typos.
 
 -- URL: http://wow-pro.com/node/3206/revisions/27511/view
@@ -25,36 +25,36 @@
 
 -- URL: http://wow-pro.com/node/3206/revisions/27394/view
 -- Date: 2015-10-05 14:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: R Odyseus' Landing was popping when it should not have.
 
 -- URL: http://wow-pro.com/node/3206/revisions/27393/view
 -- Date: 2015-10-05 14:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Small tweaks to AmmenVale
 
 -- URL: http://wow-pro.com/node/3206/revisions/27380/view
 -- Date: 2015-08-12 01:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3206/revisions/27263/view
 -- Date: 2015-05-22 20:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing N tag
 
 -- URL: http://wow-pro.com/node/3206/revisions/27257/view
 -- Date: 2015-05-16 21:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adjusted Azuremyst guide levels
 
 -- URL: http://wow-pro.com/node/3206/revisions/27242/view
 -- Date: 2015-05-10 23:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone tweaks for Ammen Vale.
 
 -- URL: http://wow-pro.com/node/3206/revisions/27215/view
 -- Date: 2015-04-28 00:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Split
 
 -- URL: http://wow-pro.com/node/3206/revisions/27183/view
@@ -79,47 +79,47 @@
 
 -- URL: http://wow-pro.com/node/3206/revisions/26479/view
 -- Date: 2014-06-02 22:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icons
 
 -- URL: http://wow-pro.com/node/3206/revisions/26404/view
 -- Date: 2014-05-30 12:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level setting
 
 -- URL: http://wow-pro.com/node/3206/revisions/26374/view
 -- Date: 2014-05-27 21:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "1,12" to "0,10
 
 -- URL: http://wow-pro.com/node/3206/revisions/26206/view
 -- Date: 2014-05-25 22:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3206/revisions/26142/view
 -- Date: 2014-05-20 19:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3206/revisions/25953/view
 -- Date: 2014-05-14 21:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3206/revisions/25931/view
 -- Date: 2014-04-14 19:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add missing Panda tags.
 
 -- URL: http://wow-pro.com/node/3206/revisions/25723/view
 -- Date: 2013-06-18 01:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 9616's name [Bandits] does not match Grail's database [Bandits!].
 
 -- URL: http://wow-pro.com/node/3206/revisions/25598/view
 -- Date: 2013-03-23 20:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Redid [Learning the Word]
 
 -- URL: http://wow-pro.com/node/3206/revisions/25379/view
@@ -129,22 +129,22 @@
 
 -- URL: http://wow-pro.com/node/3206/revisions/25134/view
 -- Date: 2012-10-09 00:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Monk Starter quests
 
 -- URL: http://wow-pro.com/node/3206/revisions/25125/view
 -- Date: 2012-10-08 19:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Get rid of - in zone.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24690/view
 -- Date: 2011-07-27 01:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected race tags on [Replenishing the Healing Crystals] and corrected QIDs for class training quests, which were odd horde ones.  Sabotage!
 
 -- URL: http://wow-pro.com/node/3206/revisions/24689/view
 -- Date: 2011-07-23 21:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played through and tweaked.  Needs to be tested by L1-5 to finish up.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24667/view
@@ -178,7 +178,7 @@
 
 -- URL: http://wow-pro.com/node/3206/revisions/24274/view
 -- Date: 2011-04-26 22:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing S tag and got rid of a rogue QID.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24123/view

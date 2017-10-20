@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
 -- Date: 2017-03-16 16:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3288/revisions/27970/view
@@ -20,31 +20,31 @@
 
 -- URL: http://wow-pro.com/node/3288/revisions/26430/view
 -- Date: 2014-06-02 13:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Set.
 
 -- URL: http://wow-pro.com/node/3288/revisions/26280/view
 -- Date: 2014-05-26 00:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3288/revisions/26166/view
 -- Date: 2014-05-20 19:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3288/revisions/26007/view
 -- Date: 2014-05-16 21:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3288/revisions/25569/view
 -- Date: 2013-03-23 18:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct quest name [The Offensive Begins]
 
 -- URL: http://wow-pro.com/node/3288/revisions/25460/view
 -- Date: 2013-01-13 18:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3288/revisions/24914/view
@@ -58,7 +58,7 @@
 
 -- URL: http://wow-pro.com/node/3288/revisions/24342/view
 -- Date: 2011-04-29 16:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line ** for step * has unknown tag [NOPOI], Line 367 for step C has 3 M coords, Line 552 for step T has 3 M coords.
 
 -- URL: http://wow-pro.com/node/3288/revisions/23954/view

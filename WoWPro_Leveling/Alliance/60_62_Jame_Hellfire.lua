@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
 -- Date: 2017-03-23 17:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3271/revisions/28388/view
 -- Date: 2017-03-15 21:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JamHel6062
 
 -- URL: http://wow-pro.com/node/3271/revisions/27381/view
 -- Date: 2015-08-28 01:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: CHnaged [Ravager Egg Roundup] from an l to C step with a QO.
 
 -- URL: http://wow-pro.com/node/3271/revisions/26817/view
@@ -25,32 +25,32 @@
 
 -- URL: http://wow-pro.com/node/3271/revisions/26622/view
 -- Date: 2014-07-25 22:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: add mean
 
 -- URL: http://wow-pro.com/node/3271/revisions/26337/view
 -- Date: 2014-05-27 20:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "60,62" to "55,61".
 
 -- URL: http://wow-pro.com/node/3271/revisions/26266/view
 -- Date: 2014-05-26 00:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3271/revisions/26151/view
 -- Date: 2014-05-20 19:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3271/revisions/25982/view
 -- Date: 2014-05-14 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3271/revisions/25744/view
 -- Date: 2013-08-15 23:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Use a better quest for the run to Temple of Telhamat.
 
 -- URL: http://wow-pro.com/node/3271/revisions/25389/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3271/revisions/24888/view
 -- Date: 2012-01-18 21:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord tweak for A Naladu|
 
 -- URL: http://wow-pro.com/node/3271/revisions/24823/view
@@ -93,7 +93,7 @@
 
 -- URL: http://wow-pro.com/node/3271/revisions/24326/view
 -- Date: 2011-04-29 16:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 59 for step A has unknown tag [From Sergeant Altumus.], Line * for step N has unknown tag [Q], Line 115 for step N has unknown tag [Disrupt Their Reinforcements], Line 284 for step N has unknown tag [M5].
 
 -- URL: http://wow-pro.com/node/3271/revisions/24205/view

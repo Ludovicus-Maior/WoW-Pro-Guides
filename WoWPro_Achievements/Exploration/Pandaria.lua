@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_pandaria
 -- Date: 2016-01-08 23:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 3645
 
 -- URL: http://wow-pro.com/node/3645/revisions/27413/view
 -- Date: 2016-01-08 23:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide("LudoExpPandaria","Achievements","Pandaria","Ludovicus", "Neutral")

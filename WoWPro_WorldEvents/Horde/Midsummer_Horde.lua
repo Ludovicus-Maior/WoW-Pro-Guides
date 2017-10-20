@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
 -- Date: 2017-09-13 00:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed redundant QID tags where ACTIVE was good enough!
 
 -- URL: http://wow-pro.com/node/3407/revisions/28776/view
 -- Date: 2017-09-04 16:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Swapped around QID and ACTIVE tags to conform to new standard.
 
 -- URL: http://wow-pro.com/node/3407/revisions/28722/view
@@ -26,17 +26,17 @@
 
 -- URL: http://wow-pro.com/node/3407/revisions/28516/view
 -- Date: 2017-03-17 14:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3407/revisions/28283/view
 -- Date: 2017-03-05 18:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Float the level
 
 -- URL: http://wow-pro.com/node/3407/revisions/27717/view
 -- Date: 2016-09-07 14:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Use  The Slave Pens@TheSlavePens
 
 -- URL: http://wow-pro.com/node/3407/revisions/27710/view
@@ -51,12 +51,12 @@
 
 -- URL: http://wow-pro.com/node/3407/revisions/26574/view
 -- Date: 2014-07-06 16:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Lots of coord updates
 
 -- URL: http://wow-pro.com/node/3407/revisions/26501/view
 -- Date: 2014-06-10 21:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3407/revisions/25736/view
@@ -71,17 +71,17 @@
 
 -- URL: http://wow-pro.com/node/3407/revisions/25678/view
 -- Date: 2013-05-17 20:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: QID 11761 had an extra ')'
 
 -- URL: http://wow-pro.com/node/3407/revisions/25019/view
 -- Date: 2012-06-30 23:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of extra spaces.
 
 -- URL: http://wow-pro.com/node/3407/revisions/25017/view
 -- Date: 2012-06-30 21:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3407/revisions/24780/view
 -- Date: 2011-10-29 18:09

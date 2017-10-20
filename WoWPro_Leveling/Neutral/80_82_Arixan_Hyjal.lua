@@ -5,32 +5,32 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
 -- Date: 2017-03-17 00:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3303/revisions/26468/view
 -- Date: 2014-06-02 16:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set min level per quest requirement.
 
 -- URL: http://wow-pro.com/node/3303/revisions/26326/view
 -- Date: 2014-05-27 19:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: StartLevel corrected from 80 to 78.
 
 -- URL: http://wow-pro.com/node/3303/revisions/26293/view
 -- Date: 2014-05-26 01:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3303/revisions/26124/view
 -- Date: 2014-05-18 23:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3303/revisions/26053/view
 -- Date: 2014-05-17 20:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3303/revisions/25831/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3303/revisions/25720/view
 -- Date: 2013-06-18 01:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 28826's name [Eye of the Storm] does not match Grail's database [The Eye of the Storm].
 
 -- URL: http://wow-pro.com/node/3303/revisions/25692/view
@@ -82,17 +82,17 @@
 
 -- URL: http://wow-pro.com/node/3303/revisions/25574/view
 -- Date: 2013-03-23 18:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest name tweaks
 
 -- URL: http://wow-pro.com/node/3303/revisions/25471/view
 -- Date: 2013-01-13 19:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3303/revisions/25309/view
 -- Date: 2013-01-09 22:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3303/revisions/25047/view
@@ -145,12 +145,12 @@
 
 -- URL: http://wow-pro.com/node/3303/revisions/24528/view
 -- Date: 2011-06-08 03:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct follow on guide for horde.
 
 -- URL: http://wow-pro.com/node/3303/revisions/24406/view
 -- Date: 2011-05-18 22:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3303/revisions/24275/view
 -- Date: 2011-04-26 23:12
@@ -164,13 +164,13 @@
 
 -- URL: http://wow-pro.com/node/3303/revisions/24237/view
 -- Date: 2011-04-19 17:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected the quests given by Ortell, in Outhouse Hideout.
 --	Added a note to [Mental Training: Speaking the Truth to Power] to alert you to the toolbar for answering questions, which I failed to notice and I got zapped to death.
 
 -- URL: http://wow-pro.com/node/3303/revisions/24176/view
 -- Date: 2011-03-12 20:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Unique IDS
 
 -- URL: http://wow-pro.com/node/3303/revisions/23820/view

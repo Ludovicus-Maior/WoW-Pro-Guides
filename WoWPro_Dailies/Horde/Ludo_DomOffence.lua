@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/horde_dominance_offensive_source_code
 -- Date: 2017-03-23 17:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3603/revisions/28325/view
 -- Date: 2017-03-10 23:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3603/revisions/27170/view
 -- Date: 2015-03-09 18:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Z corrections
 
 -- URL: http://wow-pro.com/node/3603/revisions/26848/view
@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3603/revisions/26690/view
 -- Date: 2014-09-27 22:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: INital Version
 
 local guide = WoWPro:RegisterGuide("LudoDomOffence",'Dailies', "Krasarang Wilds", "Ludovicus", "Horde")

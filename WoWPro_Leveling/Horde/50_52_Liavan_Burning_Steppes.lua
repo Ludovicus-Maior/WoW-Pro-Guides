@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
 -- Date: 2017-03-15 23:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to LiaBur5052
 
 -- URL: http://wow-pro.com/node/3266/revisions/27754/view
 -- Date: 2016-09-13 19:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing CS tag.
 
 -- URL: http://wow-pro.com/node/3266/revisions/27699/view
@@ -25,31 +25,31 @@
 
 -- URL: http://wow-pro.com/node/3266/revisions/26420/view
 -- Date: 2014-06-02 13:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3266/revisions/26262/view
 -- Date: 2014-05-26 00:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3266/revisions/26094/view
 -- Date: 2014-05-18 22:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3266/revisions/26016/view
 -- Date: 2014-05-16 22:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3266/revisions/25454/view
 -- Date: 2013-01-13 17:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3266/revisions/25346/view
 -- Date: 2013-01-11 23:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3266/revisions/24602/view

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
 -- Date: 2017-03-17 00:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3490/revisions/26897/view
@@ -25,32 +25,32 @@
 
 -- URL: http://wow-pro.com/node/3490/revisions/26428/view
 -- Date: 2014-06-02 13:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3490/revisions/26413/view
 -- Date: 2014-05-30 15:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: All panda guides have an 85 floor.
 
 -- URL: http://wow-pro.com/node/3490/revisions/26371/view
 -- Date: 2014-05-27 21:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Start Level corrected from 88 to 1.
 
 -- URL: http://wow-pro.com/node/3490/revisions/26305/view
 -- Date: 2014-05-26 01:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3490/revisions/26113/view
 -- Date: 2014-05-18 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3490/revisions/26049/view
 -- Date: 2014-05-17 19:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3490/revisions/25872/view
 -- Date: 2014-01-19 21:25
@@ -83,32 +83,32 @@
 
 -- URL: http://wow-pro.com/node/3490/revisions/25650/view
 -- Date: 2013-05-14 19:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of stray M tags
 
 -- URL: http://wow-pro.com/node/3490/revisions/25595/view
 -- Date: 2013-03-23 20:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad quest name
 
 -- URL: http://wow-pro.com/node/3490/revisions/25482/view
 -- Date: 2013-01-13 19:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3490/revisions/25305/view
 -- Date: 2013-01-09 22:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS/CN tags
 
 -- URL: http://wow-pro.com/node/3490/revisions/25254/view
 -- Date: 2012-12-18 17:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: OK, my last cleanup of Winter's Blossom, coords tweaks, and a few QO's.
 
 -- URL: http://wow-pro.com/node/3490/revisions/25252/view
 -- Date: 2012-12-16 19:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coordinate edits and a |S| step.
 
 -- URL: http://wow-pro.com/node/3490/revisions/25248/view
@@ -117,13 +117,13 @@
 
 -- URL: http://wow-pro.com/node/3490/revisions/25247/view
 -- Date: 2012-12-15 17:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Expanded [A Witness to History] for both Horde and Alliance.
 --	Coords are coarse for Horde.
 
 -- URL: http://wow-pro.com/node/3490/revisions/25230/view
 -- Date: 2012-12-02 15:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add S for "Unleash The Yeti!"
 
 -- URL: http://wow-pro.com/node/3490/revisions/25226/view
@@ -133,7 +133,7 @@
 
 -- URL: http://wow-pro.com/node/3490/revisions/25220/view
 -- Date: 2012-11-30 13:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added more QIDS to steps missing them so they do not show up again on guide reset.
 --	Coord update for Zouchin Strand, Burlap Trail, Knucklethump Hole, The Dooker Dome, and the start of the Burlap trail.  Need to add sticky steps for The Dooker Dome.
 
@@ -144,7 +144,7 @@
 
 -- URL: http://wow-pro.com/node/3490/revisions/25215/view
 -- Date: 2012-11-25 22:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Lots of tweaks up to Zouchin Village.   Played through on two toons.
 
 -- URL: http://wow-pro.com/node/3490/revisions/25178/view
@@ -166,7 +166,7 @@
 
 -- URL: http://wow-pro.com/node/3490/revisions/25173/view
 -- Date: 2012-10-28 01:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Inkgill Mere touchups
 
 -- URL: http://wow-pro.com/node/3490/revisions/25150/view
@@ -184,26 +184,26 @@
 
 -- URL: http://wow-pro.com/node/3490/revisions/25144/view
 -- Date: 2012-10-18 23:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Update from https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Neutral/88_89_Emmaleah_KunLaiSummit.lua as of 10/18 5PM
 
 -- URL: http://wow-pro.com/node/3490/revisions/25102/view
 -- Date: 2012-10-02 12:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Namour of Llane, Emmaleah : Move Knucklethump Hole
 
 -- URL: http://wow-pro.com/node/3490/revisions/25098/view
 -- Date: 2012-10-02 00:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Emmaleah: Made various changes per comments on Wow-pro.com, including quest order and changing several |N|step, especially not counting on the h to tell people to reset their hearthstone, but including it in the |N| 9/28
 
 -- URL: http://wow-pro.com/node/3490/revisions/25087/view
 -- Date: 2012-09-25 00:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3490/revisions/25067/view
 -- Date: 2012-09-15 19:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Applied https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Neutral/88_89_Emmaleah_KunLaiSummit.lua
 
 -- URL: http://wow-pro.com/node/3490/revisions/25065/view
@@ -217,7 +217,7 @@
 
 -- URL: http://wow-pro.com/node/3490/revisions/25057/view
 -- Date: 2012-08-28 19:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 local guide = WoWPro:RegisterGuide('EmmKun8889', "Leveling", 'Kun-Lai Summit', 'Emmaleah', 'Neutral')

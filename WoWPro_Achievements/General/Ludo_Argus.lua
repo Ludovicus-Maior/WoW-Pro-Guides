@@ -20,57 +20,57 @@
 
 -- URL: http://wow-pro.com/node/3741/revisions/28793/view
 -- Date: 2017-09-12 23:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Clean up week3, add F steps and a few R steps.
 
 -- URL: http://wow-pro.com/node/3741/revisions/28789/view
 -- Date: 2017-09-12 21:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Fel Heart of Argus quest line
 
 -- URL: http://wow-pro.com/node/3741/revisions/28785/view
 -- Date: 2017-09-06 22:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added R step to the Praetorium
 
 -- URL: http://wow-pro.com/node/3741/revisions/28784/view
 -- Date: 2017-09-06 02:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrections for week two in live realm.
 
 -- URL: http://wow-pro.com/node/3741/revisions/28777/view
 -- Date: 2017-09-04 16:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tag Edits.
 
 -- URL: http://wow-pro.com/node/3741/revisions/28775/view
 -- Date: 2017-09-03 23:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add [ WAR OF LIGHT AND SHADOW ] section.
 
 -- URL: http://wow-pro.com/node/3741/revisions/28773/view
 -- Date: 2017-09-02 18:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added DARK AWAKENINGS
 
 -- URL: http://wow-pro.com/node/3741/revisions/28772/view
 -- Date: 2017-09-01 12:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Playthrough on real Realm
 
 -- URL: http://wow-pro.com/node/3741/revisions/28771/view
 -- Date: 2017-08-31 22:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Finished first week: [THE ASSAULT BEGINS]
 
 -- URL: http://wow-pro.com/node/3741/revisions/28769/view
 -- Date: 2017-08-31 20:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cleanup, add CHAT, S and PRE tags.
 
 -- URL: http://wow-pro.com/node/3741/revisions/28767/view
 -- Date: 2017-08-30 21:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide('Ludo_Argus', 'Achievements', 'ArgusSurface', 'Ludo', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)

@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
 -- Date: 2017-03-17 14:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3467/revisions/28292/view
 -- Date: 2017-03-05 18:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Float the level
 
 -- URL: http://wow-pro.com/node/3467/revisions/27358/view
 -- Date: 2015-07-25 18:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3467/revisions/26850/view
@@ -25,47 +25,47 @@
 
 -- URL: http://wow-pro.com/node/3467/revisions/26492/view
 -- Date: 2014-06-10 21:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed  guide format
 
 -- URL: http://wow-pro.com/node/3467/revisions/25903/view
 -- Date: 2014-02-21 19:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing A in [T A Gift]
 
 -- URL: http://wow-pro.com/node/3467/revisions/25880/view
 -- Date: 2014-02-13 16:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Leaders dailies and shuffled flow.
 
 -- URL: http://wow-pro.com/node/3467/revisions/25704/view
 -- Date: 2013-06-18 00:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide errors
 
 -- URL: http://wow-pro.com/node/3467/revisions/25674/view
 -- Date: 2013-05-17 20:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrections
 
 -- URL: http://wow-pro.com/node/3467/revisions/25530/view
 -- Date: 2013-02-11 11:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Better coords for Uldum and Crystalsong
 
 -- URL: http://wow-pro.com/node/3467/revisions/25529/view
 -- Date: 2013-02-11 11:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Crushing the Crown and a random daily
 
 -- URL: http://wow-pro.com/node/3467/revisions/24937/view
 -- Date: 2012-02-05 13:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrections after runthrough.
 
 -- URL: http://wow-pro.com/node/3467/revisions/24935/view
 -- Date: 2012-02-04 23:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoLoveH",'WorldEvents',"Love is in the Air", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide)

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
 -- Date: 2017-03-15 21:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to JamGriA7577
 
 -- URL: http://wow-pro.com/node/3293/revisions/27488/view
 -- Date: 2016-07-30 19:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Stray ¦Korelock¦
 
 -- URL: http://wow-pro.com/node/3293/revisions/27472/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/27202/view
 -- Date: 2015-04-17 01:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Korelock's catches.
 
 -- URL: http://wow-pro.com/node/3293/revisions/27160/view
 -- Date: 2015-03-09 17:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Eliminated trailing |N|
 
 -- URL: http://wow-pro.com/node/3293/revisions/26823/view
@@ -35,27 +35,27 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/26620/view
 -- Date: 2014-07-25 22:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: add mean
 
 -- URL: http://wow-pro.com/node/3293/revisions/26372/view
 -- Date: 2014-05-27 21:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "75,77" to "72,74".
 
 -- URL: http://wow-pro.com/node/3293/revisions/26285/view
 -- Date: 2014-05-26 01:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3293/revisions/26161/view
 -- Date: 2014-05-20 19:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3293/revisions/25991/view
 -- Date: 2014-05-14 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3293/revisions/25666/view
@@ -70,7 +70,7 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/25649/view
 -- Date: 2013-05-14 19:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: MIssing QID on T Fate and Coincidence 
 
 -- URL: http://wow-pro.com/node/3293/revisions/25620/view
@@ -84,7 +84,7 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/25432/view
 -- Date: 2013-01-13 15:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3293/revisions/25337/view
@@ -126,12 +126,12 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/24202/view
 -- Date: 2011-04-02 19:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixed bad U/QID tag on [Vordrassil's Sapling], corrected location text for [Hour of the Worg ] and added a tip for killing Goremaw.
 
 -- URL: http://wow-pro.com/node/3293/revisions/24162/view
 -- Date: 2011-03-12 18:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Make guide id unique
 
 -- URL: http://wow-pro.com/node/3293/revisions/23750/view

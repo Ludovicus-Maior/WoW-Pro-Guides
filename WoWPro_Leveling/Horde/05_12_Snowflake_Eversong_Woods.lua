@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
 -- Date: 2017-03-15 23:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to SnoEve0512
 
 -- URL: http://wow-pro.com/node/3207/revisions/28411/view
 -- Date: 2017-03-15 22:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to SnoSun0105
 
 -- URL: http://wow-pro.com/node/3207/revisions/28239/view
@@ -30,32 +30,32 @@
 
 -- URL: http://wow-pro.com/node/3207/revisions/27439/view
 -- Date: 2016-03-23 01:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fix bad coords on rogue quests
 
 -- URL: http://wow-pro.com/node/3207/revisions/27293/view
 -- Date: 2015-06-22 16:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of stuttttter.
 
 -- URL: http://wow-pro.com/node/3207/revisions/27289/view
 -- Date: 2015-06-20 14:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: PLaythrough
 
 -- URL: http://wow-pro.com/node/3207/revisions/27287/view
 -- Date: 2015-06-19 21:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sunstrider corrections
 
 -- URL: http://wow-pro.com/node/3207/revisions/27231/view
 -- Date: 2015-04-30 20:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: remap
 
 -- URL: http://wow-pro.com/node/3207/revisions/27214/view
 -- Date: 2015-04-28 00:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Split
 
 -- URL: http://wow-pro.com/node/3207/revisions/26931/view
@@ -65,22 +65,22 @@
 
 -- URL: http://wow-pro.com/node/3207/revisions/26482/view
 -- Date: 2014-06-02 22:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added BloodElf icons
 
 -- URL: http://wow-pro.com/node/3207/revisions/26425/view
 -- Date: 2014-06-02 13:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3207/revisions/26211/view
 -- Date: 2014-05-25 22:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3207/revisions/26134/view
 -- Date: 2014-05-20 18:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3207/revisions/26064/view
@@ -96,7 +96,7 @@
 
 -- URL: http://wow-pro.com/node/3207/revisions/26040/view
 -- Date: 2014-05-17 17:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3207/revisions/25845/view
@@ -106,12 +106,12 @@
 
 -- URL: http://wow-pro.com/node/3207/revisions/25458/view
 -- Date: 2013-01-13 18:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3207/revisions/25132/view
 -- Date: 2012-10-08 23:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected QID and coords for monk starter quests.
 
 -- URL: http://wow-pro.com/node/3207/revisions/25061/view
@@ -198,36 +198,36 @@
 
 -- URL: http://wow-pro.com/node/3207/revisions/24513/view
 -- Date: 2011-06-07 10:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added R|BloodElf| to steps not available to my Orc.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24428/view
 -- Date: 2011-05-28 01:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Update Notes, Correct some coordinates that were WAAY off.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24317/view
 -- Date: 2011-04-29 15:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 148 for step L has unknown tag [If not level 6 yet, kill stuffs.], Line 202 for step T has unknown tag [9130], Line 281 for step C has 1 M coords, Line 299 for step T has unknown tag [To Larianna Riverwind.]
 
 -- URL: http://wow-pro.com/node/3207/revisions/24100/view
 -- Date: 2011-02-05 14:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Submitted by zoefed on Thu, 2011-01-20 09:13.
 --	
 --	Bug Report: Guide: Eversong Woods Bloodelf - Step: (89/157) Turning in the quest: The Ring Of Mmmrrrggglll. The waypoint arrow shows somewhere in the sea. The  quest NPC is located at these CORRECT coordinates: 30.2,58.5.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24099/view
 -- Date: 2011-02-05 14:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Submitted by Grramps on Sat, 2011-02-05 05:34.
 --	
 --	Step 26 in Eversong Woods lists Jainthess Thelryn as the turn in for the quest Thirst Unending, but it is Arcanist Helion you talk to to complete it. (Using version 2.1.2)
 
 -- URL: http://wow-pro.com/node/3207/revisions/24069/view
 -- Date: 2011-01-29 17:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing QIDs to L steps.
 
 -- URL: http://wow-pro.com/node/3207/revisions/23614/view

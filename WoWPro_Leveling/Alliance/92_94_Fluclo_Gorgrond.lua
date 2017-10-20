@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
 -- Date: 2017-03-15 22:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to FlucloGorgrond
 
 -- URL: http://wow-pro.com/node/3613/revisions/27489/view
 -- Date: 2016-07-30 19:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added some @Gorgrond's
 
 -- URL: http://wow-pro.com/node/3613/revisions/27403/view
 -- Date: 2015-12-31 23:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3613/revisions/27325/view
 -- Date: 2015-07-12 12:28
@@ -24,7 +24,7 @@
 
 -- URL: http://wow-pro.com/node/3613/revisions/27316/view
 -- Date: 2015-07-05 17:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3613/revisions/27189/view
@@ -34,7 +34,7 @@
 
 -- URL: http://wow-pro.com/node/3613/revisions/27187/view
 -- Date: 2015-03-29 22:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added N for [A Heavy Helping Hand]
 
 -- URL: http://wow-pro.com/node/3613/revisions/27151/view
@@ -53,12 +53,12 @@
 
 -- URL: http://wow-pro.com/node/3613/revisions/27001/view
 -- Date: 2014-11-15 20:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Finished playing through.  Edited Lunarfall section and converted to new map name.
 
 -- URL: http://wow-pro.com/node/3613/revisions/27000/view
 -- Date: 2014-11-15 01:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ## WoWPro_Leveling/Alliance/92_94_Fluclo_Gorgrond.lua @ http://wow-pro.com/wiki/alliance_gorgrond_source_code
 --	! Line 69, for step A non-integer LEAD: [A The Secrets of Gorgrond |QID|35556|N|Visit the Hero's Callboard in your Garrison, and accept this quest.|M|42.73,44.74|Z|Lunarfall|LEAD|33533,36632|]
 --	! Line 211 for step C has unknown tag [M47.50,92.62]: [C Iyu |QID|35235|N|Kill Iyu, who is at surface level.|T|Iyu|M47.50,92.62|]
@@ -66,21 +66,21 @@
 
 -- URL: http://wow-pro.com/node/3613/revisions/26999/view
 -- Date: 2014-11-15 00:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played through [Seeking the Scout]
 
 -- URL: http://wow-pro.com/node/3613/revisions/26988/view
 -- Date: 2014-11-14 12:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3613/revisions/26984/view
 -- Date: 2014-11-14 11:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add the Lunarfall 94 leftovers.
 
 -- URL: http://wow-pro.com/node/3613/revisions/26981/view
 -- Date: 2014-11-14 11:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fluclo did 90% of the work
 
 -- URL: http://wow-pro.com/node/3613/revisions/26972/view
@@ -102,15 +102,15 @@
 
 -- URL: http://wow-pro.com/node/3613/revisions/26776/view
 -- Date: 2014-11-02 20:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3613/revisions/26774/view
 -- Date: 2014-11-02 20:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3613/revisions/26773/view
 -- Date: 2014-11-02 20:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial zone flow
 
 local guide = WoWPro:RegisterGuide('FlucloGorgrond', 'Leveling', 'Gorgrond', 'Fluclo', 'Alliance')

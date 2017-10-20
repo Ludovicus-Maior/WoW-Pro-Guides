@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
 -- Date: 2017-03-23 18:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3305/revisions/28400/view
 -- Date: 2017-03-15 22:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to AriVasA8082
 
 -- URL: http://wow-pro.com/node/3305/revisions/26825/view
@@ -20,27 +20,27 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/26616/view
 -- Date: 2014-07-25 22:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Ad levels
 
 -- URL: http://wow-pro.com/node/3305/revisions/26336/view
 -- Date: 2014-05-27 20:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "78,80".
 
 -- URL: http://wow-pro.com/node/3305/revisions/26294/view
 -- Date: 2014-05-26 01:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3305/revisions/26121/view
 -- Date: 2014-05-18 23:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3305/revisions/25994/view
 -- Date: 2014-05-14 22:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3305/revisions/25776/view
@@ -49,7 +49,7 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/25599/view
 -- Date: 2013-03-23 20:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Quest name tweaks
 
 -- URL: http://wow-pro.com/node/3305/revisions/25538/view
@@ -59,7 +59,7 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/25442/view
 -- Date: 2013-01-13 16:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3305/revisions/25392/view
@@ -69,12 +69,12 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/25341/view
 -- Date: 2013-01-11 23:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS,CC and CN tags
 
 -- URL: http://wow-pro.com/node/3305/revisions/25074/view
 -- Date: 2012-09-15 20:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaked some RANK2's to 1's and corrected some prerequisites so that the guide could be played at RANK1.
 
 -- URL: http://wow-pro.com/node/3305/revisions/24774/view
@@ -94,7 +94,7 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/24532/view
 -- Date: 2011-06-08 03:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct Successor.
 
 -- URL: http://wow-pro.com/node/3305/revisions/24489/view
@@ -109,12 +109,12 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/24466/view
 -- Date: 2011-05-31 21:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spell Vashj'ir right!
 
 -- URL: http://wow-pro.com/node/3305/revisions/24434/view
 -- Date: 2011-05-28 11:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: PLayed the zone, fixed some text, coords and zones.
 
 -- URL: http://wow-pro.com/node/3305/revisions/24276/view
@@ -133,12 +133,12 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/24170/view
 -- Date: 2011-03-12 18:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Unique ID
 
 -- URL: http://wow-pro.com/node/3305/revisions/24144/view
 -- Date: 2011-03-06 16:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: A ton of tweaks from geri.
 
 -- URL: http://wow-pro.com/node/3305/revisions/24029/view

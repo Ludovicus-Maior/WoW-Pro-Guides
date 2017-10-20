@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
 -- Date: 2017-03-23 18:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3299/revisions/28398/view
 -- Date: 2017-03-15 21:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to CybSto7980
 
 -- URL: http://wow-pro.com/node/3299/revisions/28011/view
@@ -20,32 +20,32 @@
 
 -- URL: http://wow-pro.com/node/3299/revisions/26871/view
 -- Date: 2014-11-07 22:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Split the [C Rare Earth] step.
 
 -- URL: http://wow-pro.com/node/3299/revisions/26632/view
 -- Date: 2014-07-25 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: add mean
 
 -- URL: http://wow-pro.com/node/3299/revisions/26344/view
 -- Date: 2014-05-27 20:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "79,80" to "77,77".
 
 -- URL: http://wow-pro.com/node/3299/revisions/26289/view
 -- Date: 2014-05-26 01:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3299/revisions/26159/view
 -- Date: 2014-05-20 19:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3299/revisions/25992/view
 -- Date: 2014-05-14 22:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3299/revisions/25684/view
@@ -69,16 +69,16 @@
 
 -- URL: http://wow-pro.com/node/3299/revisions/24311/view
 -- Date: 2011-04-29 15:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 558, for step C non-decimal U
 
 -- URL: http://wow-pro.com/node/3299/revisions/24224/view
 -- Date: 2011-04-05 23:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3299/revisions/24207/view
 -- Date: 2011-04-05 00:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixed M, N, and U tag errors in guide.
 --	Improved some text hints. Does not have my precision M fixes.
 

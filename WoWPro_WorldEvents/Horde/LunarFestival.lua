@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
 -- Date: 2017-03-17 14:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 1 Syntax fix
 
 -- URL: http://wow-pro.com/node/3452/revisions/28290/view
 -- Date: 2017-03-05 18:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Float the level
 
 -- URL: http://wow-pro.com/node/3452/revisions/28024/view
 -- Date: 2016-11-16 22:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected ¦Z¦The Temple of Atal Hakkar¦
 
 -- URL: http://wow-pro.com/node/3452/revisions/27718/view
 -- Date: 2016-09-07 14:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Use The Nexus@TheNexus
 
 -- URL: http://wow-pro.com/node/3452/revisions/27711/view
@@ -30,7 +30,7 @@
 
 -- URL: http://wow-pro.com/node/3452/revisions/27360/view
 -- Date: 2015-07-25 18:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Icon
 
 -- URL: http://wow-pro.com/node/3452/revisions/27147/view
@@ -45,27 +45,27 @@
 
 -- URL: http://wow-pro.com/node/3452/revisions/26495/view
 -- Date: 2014-06-10 21:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3452/revisions/25874/view
 -- Date: 2014-01-23 00:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Z tags corrections
 
 -- URL: http://wow-pro.com/node/3452/revisions/25524/view
 -- Date: 2013-02-06 20:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord fixes and a few LVL tags
 
 -- URL: http://wow-pro.com/node/3452/revisions/25514/view
 -- Date: 2013-01-28 12:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated with new Alliance coord.  Horde cords not verified yet.
 
 -- URL: http://wow-pro.com/node/3452/revisions/25302/view
 -- Date: 2013-01-09 17:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3452/revisions/24941/view
@@ -75,17 +75,17 @@
 
 -- URL: http://wow-pro.com/node/3452/revisions/24940/view
 -- Date: 2012-02-05 23:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add in LaoTseu's changes
 
 -- URL: http://wow-pro.com/node/3452/revisions/24932/view
 -- Date: 2012-02-04 22:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Elders of Cata
 
 -- URL: http://wow-pro.com/node/3452/revisions/24918/view
 -- Date: 2012-01-23 23:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Merge in Laotseu's update.
 
 -- URL: http://wow-pro.com/node/3452/revisions/24853/view

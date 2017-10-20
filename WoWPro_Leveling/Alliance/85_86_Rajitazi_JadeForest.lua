@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
 -- Date: 2017-03-15 22:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to RajJad8586
 
 -- URL: http://wow-pro.com/node/3486/revisions/27186/view
@@ -20,47 +20,47 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/26939/view
 -- Date: 2014-11-08 13:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Extra 1/1
 
 -- URL: http://wow-pro.com/node/3486/revisions/26893/view
 -- Date: 2014-11-08 01:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrections
 
 -- URL: http://wow-pro.com/node/3486/revisions/26598/view
 -- Date: 2014-07-25 21:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: men adj
 
 -- URL: http://wow-pro.com/node/3486/revisions/26597/view
 -- Date: 2014-07-25 21:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj. mean level.
 
 -- URL: http://wow-pro.com/node/3486/revisions/26411/view
 -- Date: 2014-05-30 15:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level setting
 
 -- URL: http://wow-pro.com/node/3486/revisions/26354/view
 -- Date: 2014-05-27 20:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: End Level corrected from 0 to 86.
 
 -- URL: http://wow-pro.com/node/3486/revisions/26300/view
 -- Date: 2014-05-26 01:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3486/revisions/26116/view
 -- Date: 2014-05-18 22:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3486/revisions/25996/view
 -- Date: 2014-05-14 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25940/view
@@ -76,7 +76,7 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25770/view
 -- Date: 2013-10-02 12:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed glassfin village as per Blanckaert. 
 
 -- URL: http://wow-pro.com/node/3486/revisions/25726/view
@@ -86,7 +86,7 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25394/view
 -- Date: 2013-01-12 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3486/revisions/25339/view
@@ -96,7 +96,7 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25204/view
 -- Date: 2012-11-12 23:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweak Zhi-Zhi fight and turnin.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25197/view
@@ -111,12 +111,12 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25146/view
 -- Date: 2012-10-20 22:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: More coord tweaks, spelling corrections, more QO's and glitch warnings.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25141/view
 -- Date: 2012-10-13 21:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Lots of coord edits, paths to places and a few spell/quest corrections.
 --	Added more QO tags and corrected a few syntax errors.
 
@@ -142,18 +142,18 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25104/view
 -- Date: 2012-10-03 20:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change the start of the guide to add proper coords; tweak a few comments in the harbor; switch around the completions for Twinspire Towers to make it easier to complete.  Oh, and spelling errors.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25099/view
 -- Date: 2012-10-02 01:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Emmaleah: added quest A An error of worry, and lots of tweaks
 --	Ludovicus: edited corrections to eliminate syntax errors and odd spellings. Manual merge.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25097/view
 -- Date: 2012-10-02 00:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Ennakeah: Added quest per comments.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25095/view
@@ -171,26 +171,26 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25089/view
 -- Date: 2012-09-25 00:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3486/revisions/25084/view
 -- Date: 2012-09-24 23:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Twinspire Keep is not a valid zone. Green is not spelt gree!
 
 -- URL: http://wow-pro.com/node/3486/revisions/25058/view
 -- Date: 2012-08-28 19:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Laotseu 6 days ago Play testing the Alliance The Jade Forest guide. 
 
 -- URL: http://wow-pro.com/node/3486/revisions/25050/view
 -- Date: 2012-08-28 19:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fix url references.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25049/view
 -- Date: 2012-08-28 19:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'Rajitazi', 'Alliance')

@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
 -- Date: 2017-08-05 19:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Remove redundant QID tags where ACTIVE tag had same contents.
 
 -- URL: http://wow-pro.com/node/3508/revisions/28327/view
 -- Date: 2017-03-10 23:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3508/revisions/26940/view
 -- Date: 2014-11-08 13:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing N
 
 -- URL: http://wow-pro.com/node/3508/revisions/26883/view
 -- Date: 2014-11-08 00:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: More corrections.
 
 -- URL: http://wow-pro.com/node/3508/revisions/26845/view
@@ -30,27 +30,27 @@
 
 -- URL: http://wow-pro.com/node/3508/revisions/26636/view
 -- Date: 2014-07-26 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some minor corrections.
 
 -- URL: http://wow-pro.com/node/3508/revisions/26581/view
 -- Date: 2014-07-19 17:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj meanlevel
 
 -- URL: http://wow-pro.com/node/3508/revisions/26572/view
 -- Date: 2014-07-06 15:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels
 
 -- URL: http://wow-pro.com/node/3508/revisions/26538/view
 -- Date: 2014-06-11 19:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3508/revisions/25930/view
 -- Date: 2014-04-14 19:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Random corrections!
 
 -- URL: http://wow-pro.com/node/3508/revisions/25927/view
@@ -65,39 +65,39 @@
 
 -- URL: http://wow-pro.com/node/3508/revisions/25755/view
 -- Date: 2013-09-10 23:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Relocated Haohan's Vote quest T steps for better flow.
 --	A prototype for other changes for the other ones.
 
 -- URL: http://wow-pro.com/node/3508/revisions/25616/view
 -- Date: 2013-05-09 22:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaks and added the final "Bought the farm" questline.
 --	Need to think about the new dailies and quest flow around the vote quests for the next toon.
 
 -- URL: http://wow-pro.com/node/3508/revisions/25605/view
 -- Date: 2013-03-25 23:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Magic Pixie Dust:  |ACH|6552;;true|
 
 -- URL: http://wow-pro.com/node/3508/revisions/25602/view
 -- Date: 2013-03-24 00:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: OK, more quest name and qid corrections.
 
 -- URL: http://wow-pro.com/node/3508/revisions/25413/view
 -- Date: 2013-01-13 14:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Lots of CN tags
 
 -- URL: http://wow-pro.com/node/3508/revisions/25353/view
 -- Date: 2013-01-12 17:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: removed accidental line break
 
 -- URL: http://wow-pro.com/node/3508/revisions/25294/view
 -- Date: 2013-01-09 01:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3508/revisions/25272/view
@@ -125,7 +125,7 @@
 
 -- URL: http://wow-pro.com/node/3508/revisions/25241/view
 -- Date: 2012-12-07 02:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed }N} to |N| in two places
 
 -- URL: http://wow-pro.com/node/3508/revisions/25239/view
@@ -139,7 +139,7 @@
 
 -- URL: http://wow-pro.com/node/3508/revisions/25229/view
 -- Date: 2012-12-02 15:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing PRE tags
 
 -- URL: http://wow-pro.com/node/3508/revisions/25227/view
@@ -154,11 +154,11 @@
 
 -- URL: http://wow-pro.com/node/3508/revisions/25161/view
 -- Date: 2012-10-24 11:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3508/revisions/25119/view
 -- Date: 2012-10-07 22:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("EmmTillers",'Dailies', "Valley of the Four Winds", "Emmaleah", "Neutral")
 WoWPro:GuideLevels(guide,85,90,89.5338)

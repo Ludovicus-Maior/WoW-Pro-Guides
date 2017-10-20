@@ -19,7 +19,7 @@
 
 -- URL: http://wow-pro.com/node/3662/revisions/27676/view
 -- Date: 2016-09-01 23:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dalaran is in DeadwindPass!
 
 -- URL: http://wow-pro.com/node/3662/revisions/27642/view

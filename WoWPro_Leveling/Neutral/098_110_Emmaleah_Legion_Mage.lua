@@ -5,32 +5,32 @@
 
 -- URL: http://wow-pro.com/node/3671
 -- Date: 2017-08-12 21:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3671/revisions/28649/view
 -- Date: 2017-04-23 21:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add missing ACTIVE|44479| on Ravencrest's Legacy
 
 -- URL: http://wow-pro.com/node/3671/revisions/28617/view
 -- Date: 2017-03-28 22:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fix crystal ball cooords.
 
 -- URL: http://wow-pro.com/node/3671/revisions/28589/view
 -- Date: 2017-03-23 19:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3671/revisions/28538/view
 -- Date: 2017-03-21 22:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played [An Unexpected Visitor] through [Following In His Footsteps]. Changed level on [Recruiting Apprentices]
 
 -- URL: http://wow-pro.com/node/3671/revisions/28467/view
 -- Date: 2017-03-16 22:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs; syntax corrections.
 
 -- URL: http://wow-pro.com/node/3671/revisions/28367/view
@@ -40,7 +40,7 @@
 
 -- URL: http://wow-pro.com/node/3671/revisions/28276/view
 -- Date: 2017-03-05 18:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord corrections for [Rise, Champions] quests.
 
 -- URL: http://wow-pro.com/node/3671/revisions/28259/view
@@ -85,12 +85,12 @@
 
 -- URL: http://wow-pro.com/node/3671/revisions/27851/view
 -- Date: 2016-09-28 22:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  The Guardian's Library@MageClassShrine
 
 -- URL: http://wow-pro.com/node/3671/revisions/27850/view
 -- Date: 2016-09-28 22:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ARCANE playthrough.  Note updated zones, Emmaleah!
 
 -- URL: http://wow-pro.com/node/3671/revisions/27847/view
@@ -105,7 +105,7 @@
 
 -- URL: http://wow-pro.com/node/3671/revisions/27643/view
 -- Date: 2016-08-30 21:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 153958.0310 ~ WoWPro: Step C [Slay Balaadur.] has a bad ¦Z¦RAzsunaArtifact¦ tag.
 --	153958.0311 ~ WoWPro: 124:Unknown tag ¦To Meryl Felstorm.¦ in [T The Mage Hunter¦QID¦42479¦M¦56.57,33.95¦Z¦N¦To Meryl Felstorm.¦].
 --	153958.0312 ~ WoWPro: Step T [The Mage Hunter] has a bad ¦Z¦N¦ tag.

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
 -- Date: 2017-03-13 17:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3233/revisions/27624/view
 -- Date: 2016-08-29 22:55
@@ -14,37 +14,37 @@
 
 -- URL: http://wow-pro.com/node/3233/revisions/26490/view
 -- Date: 2014-06-04 20:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added mean
 
 -- URL: http://wow-pro.com/node/3233/revisions/26351/view
 -- Date: 2014-05-27 20:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "23,27".
 
 -- URL: http://wow-pro.com/node/3233/revisions/26232/view
 -- Date: 2014-05-25 22:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3233/revisions/26068/view
 -- Date: 2014-05-18 21:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3233/revisions/25967/view
 -- Date: 2014-05-14 22:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3233/revisions/25589/view
 -- Date: 2013-03-23 20:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: name cleanups
 
 -- URL: http://wow-pro.com/node/3233/revisions/25377/view
 -- Date: 2013-01-12 19:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3233/revisions/25331/view
@@ -69,7 +69,7 @@
 
 -- URL: http://wow-pro.com/node/3233/revisions/24087/view
 -- Date: 2011-01-30 19:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3233/revisions/23901/view

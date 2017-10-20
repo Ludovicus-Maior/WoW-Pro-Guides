@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/profession_jewelcrafting
 -- Date: 2017-03-06 03:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
 -- URL: http://wow-pro.com/node/3427/revisions/28197/view
 -- Date: 2017-01-02 22:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New style registration
 
 -- URL: http://wow-pro.com/node/3427/revisions/25664/view
@@ -24,7 +24,7 @@
 
 -- URL: http://wow-pro.com/node/3427/revisions/24686/view
 -- Date: 2011-07-13 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync from GitHub
 
 local guide = WoWPro:RegisterGuide("TwiJewelcrafting","Profession","Jewelcrafting", "Twists", "Neutral")

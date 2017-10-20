@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/node/3679
 -- Date: 2017-10-07 19:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tag fix for ACTIVE/QID
 
 -- URL: http://wow-pro.com/node/3679/revisions/28750/view
 -- Date: 2017-08-12 21:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Obliterum
 
 -- URL: http://wow-pro.com/node/3679/revisions/28654/view
 -- Date: 2017-04-23 23:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Dup QO in P Orgrimmar¦QID¦44480¦
 
 -- URL: http://wow-pro.com/node/3679/revisions/28631/view
@@ -30,12 +30,12 @@
 
 -- URL: http://wow-pro.com/node/3679/revisions/28595/view
 -- Date: 2017-03-23 19:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3679/revisions/28473/view
 -- Date: 2017-03-16 22:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax corrections.
 
 -- URL: http://wow-pro.com/node/3679/revisions/28235/view
@@ -45,7 +45,7 @@
 
 -- URL: http://wow-pro.com/node/3679/revisions/27854/view
 -- Date: 2016-09-28 22:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Playthrough on AFFLICTION and DEMONOLOGY
 
 -- URL: http://wow-pro.com/node/3679/revisions/27770/view
@@ -62,7 +62,7 @@
 
 -- URL: http://wow-pro.com/node/3679/revisions/27645/view
 -- Date: 2016-08-30 22:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected Zones
 
 -- URL: http://wow-pro.com/node/3679/revisions/27577/view

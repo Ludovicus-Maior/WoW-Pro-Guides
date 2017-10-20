@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
 -- Date: 2017-03-16 16:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3286/revisions/28023/view
 -- Date: 2016-11-16 22:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing M tag to [K Morgroron]
 
 -- URL: http://wow-pro.com/node/3286/revisions/27946/view
@@ -25,31 +25,31 @@
 
 -- URL: http://wow-pro.com/node/3286/revisions/26440/view
 -- Date: 2014-06-02 14:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3286/revisions/26278/view
 -- Date: 2014-05-26 00:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type,
 
 -- URL: http://wow-pro.com/node/3286/revisions/26154/view
 -- Date: 2014-05-20 19:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3286/revisions/26008/view
 -- Date: 2014-05-16 21:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3286/revisions/25466/view
 -- Date: 2013-01-13 19:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3286/revisions/25318/view
 -- Date: 2013-01-09 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3286/revisions/25155/view
@@ -59,7 +59,7 @@
 
 -- URL: http://wow-pro.com/node/3286/revisions/24676/view
 -- Date: 2011-07-11 22:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Numeric Rep Tags
 
 -- URL: http://wow-pro.com/node/3286/revisions/24604/view
@@ -69,7 +69,7 @@
 
 -- URL: http://wow-pro.com/node/3286/revisions/24387/view
 -- Date: 2011-05-15 18:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3286/revisions/24384/view
 -- Date: 2011-05-15 01:45

@@ -5,32 +5,32 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_neutral
 -- Date: 2017-03-17 00:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3262/revisions/26470/view
 -- Date: 2014-06-02 16:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added mean level
 
 -- URL: http://wow-pro.com/node/3262/revisions/26331/view
 -- Date: 2014-05-27 19:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "50,55" to "49,54".
 
 -- URL: http://wow-pro.com/node/3262/revisions/26258/view
 -- Date: 2014-05-25 23:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3262/revisions/26087/view
 -- Date: 2014-05-18 21:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3262/revisions/26061/view
 -- Date: 2014-05-17 20:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3262/revisions/25409/view
@@ -54,15 +54,15 @@
 
 -- URL: http://wow-pro.com/node/3262/revisions/24403/view
 -- Date: 2011-05-17 01:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3262/revisions/24395/view
 -- Date: 2011-05-17 01:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3262/revisions/24336/view
 -- Date: 2011-04-29 16:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 92 for step C has unknown tag [GRP]
 
 -- URL: http://wow-pro.com/node/3262/revisions/23406/view

@@ -5,37 +5,37 @@
 
 -- URL: http://wow-pro.com/wiki/skyguard_dalies
 -- Date: 2017-03-11 18:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs; syntax changes.
 
 -- URL: http://wow-pro.com/node/3457/revisions/26563/view
 -- Date: 2014-07-06 15:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Aded levels and faction
 
 -- URL: http://wow-pro.com/node/3457/revisions/26530/view
 -- Date: 2014-06-11 19:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3457/revisions/25629/view
 -- Date: 2013-05-14 15:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected coord for K Talonpriest Zellek
 
 -- URL: http://wow-pro.com/node/3457/revisions/25372/view
 -- Date: 2013-01-12 19:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added some CN tags
 
 -- URL: http://wow-pro.com/node/3457/revisions/24899/view
 -- Date: 2012-01-19 00:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct node numbers.
 
 -- URL: http://wow-pro.com/node/3457/revisions/24898/view
 -- Date: 2012-01-19 00:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to GIT
 
 local guide = WoWPro:RegisterGuide("LudoSkyguard",'Dailies', "Terokkar Forest", "Ludovicus", "Neutral")

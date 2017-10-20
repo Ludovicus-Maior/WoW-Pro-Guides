@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/node/3680
 -- Date: 2017-03-23 19:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3680/revisions/28543/view
@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3680/revisions/28220/view
 -- Date: 2017-01-10 20:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing CS tag at Hafr Fjall
 
 -- URL: http://wow-pro.com/node/3680/revisions/28133/view
@@ -89,7 +89,7 @@
 
 -- URL: http://wow-pro.com/node/3680/revisions/27932/view
 -- Date: 2016-10-19 01:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Tweak
 
 -- URL: http://wow-pro.com/node/3680/revisions/27889/view

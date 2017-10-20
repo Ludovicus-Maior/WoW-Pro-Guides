@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
 -- Date: 2017-03-23 19:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3306/revisions/28452/view
 -- Date: 2017-03-16 17:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3306/revisions/26909/view
@@ -20,51 +20,51 @@
 
 -- URL: http://wow-pro.com/node/3306/revisions/26463/view
 -- Date: 2014-06-02 16:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing Z tag to [Twilight Cage Key]
 
 -- URL: http://wow-pro.com/node/3306/revisions/26423/view
 -- Date: 2014-06-02 13:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3306/revisions/26295/view
 -- Date: 2014-05-26 01:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3306/revisions/26122/view
 -- Date: 2014-05-18 23:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3306/revisions/26001/view
 -- Date: 2014-05-16 20:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3306/revisions/25873/view
 -- Date: 2014-01-23 00:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected some Z tags
 
 -- URL: http://wow-pro.com/node/3306/revisions/25676/view
 -- Date: 2013-05-17 20:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Built to Last
 
 -- URL: http://wow-pro.com/node/3306/revisions/25566/view
 -- Date: 2013-03-23 18:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Lots of quest name corrections!
 
 -- URL: http://wow-pro.com/node/3306/revisions/25457/view
 -- Date: 2013-01-13 18:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add C* tags
 
 -- URL: http://wow-pro.com/node/3306/revisions/25315/view
 -- Date: 2013-01-09 22:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3306/revisions/24610/view
@@ -75,17 +75,17 @@
 
 -- URL: http://wow-pro.com/node/3306/revisions/24530/view
 -- Date: 2011-06-08 03:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct Successor.
 
 -- URL: http://wow-pro.com/node/3306/revisions/24349/view
 -- Date: 2011-04-29 17:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 147 for step C has unknown tag [rUS], Line 193 for step A Bad coord r63.92, Line 299 for step C has unknown tag [Shimmering Expanse], ...
 
 -- URL: http://wow-pro.com/node/3306/revisions/24171/view
 -- Date: 2011-03-12 18:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Unique IDs
 
 -- URL: http://wow-pro.com/node/3306/revisions/24019/view

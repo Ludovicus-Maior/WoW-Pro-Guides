@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
 -- Date: 2017-03-11 18:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3455/revisions/26858/view
@@ -15,36 +15,36 @@
 
 -- URL: http://wow-pro.com/node/3455/revisions/26559/view
 -- Date: 2014-07-06 15:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated levels
 
 -- URL: http://wow-pro.com/node/3455/revisions/26526/view
 -- Date: 2014-06-11 19:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3455/revisions/25639/view
 -- Date: 2013-05-14 18:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad quest names and coords
 
 -- URL: http://wow-pro.com/node/3455/revisions/25423/view
 -- Date: 2013-01-13 15:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3455/revisions/25299/view
 -- Date: 2013-01-09 17:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3455/revisions/24894/view
 -- Date: 2012-01-18 23:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3455/revisions/24893/view
 -- Date: 2012-01-18 23:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide("LudoDrake",'Dailies', "Shadowmoon Valley", "Ludovicus", "Neutral")

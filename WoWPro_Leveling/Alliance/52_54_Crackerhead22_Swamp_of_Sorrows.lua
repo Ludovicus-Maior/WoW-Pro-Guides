@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
 -- Date: 2017-03-15 21:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs to CraSwa5254
 
 -- URL: http://wow-pro.com/node/3249/revisions/27735/view
@@ -19,32 +19,32 @@
 
 -- URL: http://wow-pro.com/node/3249/revisions/26611/view
 -- Date: 2014-07-25 21:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean
 
 -- URL: http://wow-pro.com/node/3249/revisions/26362/view
 -- Date: 2014-05-27 21:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "51,54".
 
 -- URL: http://wow-pro.com/node/3249/revisions/26248/view
 -- Date: 2014-05-25 23:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3249/revisions/26108/view
 -- Date: 2014-05-18 22:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3249/revisions/25980/view
 -- Date: 2014-05-14 22:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3249/revisions/25416/view
 -- Date: 2013-01-13 14:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3249/revisions/25333/view
@@ -59,7 +59,7 @@
 
 -- URL: http://wow-pro.com/node/3249/revisions/24414/view
 -- Date: 2011-05-23 18:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3249/revisions/24231/view
 -- Date: 2011-04-14 14:41

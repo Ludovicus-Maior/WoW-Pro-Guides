@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/draenor_legendary_ring_and_follower_quests
 -- Date: 2015-10-05 14:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Moved [Blackhand's Secret]
 
 -- URL: http://wow-pro.com/node/3634/revisions/27299/view
 -- Date: 2015-06-23 12:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Start
 
 local guide = WoWPro:RegisterGuide('LudoEmpire', 'Achievements', 'Talador', 'Ludovicus', 'Neutral')

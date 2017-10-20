@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/treasure_treasure_everywhere
 -- Date: 2014-05-28 21:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Converted
 
 -- URL: http://wow-pro.com/node/3562/revisions/25878/view
 -- Date: 2014-02-13 16:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Tweaks!
 
 -- URL: http://wow-pro.com/node/3562/revisions/25868/view
 -- Date: 2014-01-13 22:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide('LudoTreasure',"Achievements",'Timeless Isle', 'Treasure, Treasure Everywhere','Neutral')

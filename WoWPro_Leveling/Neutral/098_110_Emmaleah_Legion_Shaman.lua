@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/node/3676
 -- Date: 2017-03-23 19:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3676/revisions/28472/view
 -- Date: 2017-03-16 22:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax correction.
 
 -- URL: http://wow-pro.com/node/3676/revisions/28267/view
@@ -31,7 +31,7 @@
 
 -- URL: http://wow-pro.com/node/3676/revisions/27649/view
 -- Date: 2016-08-30 22:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Zone tweaks
 
 -- URL: http://wow-pro.com/node/3676/revisions/27574/view

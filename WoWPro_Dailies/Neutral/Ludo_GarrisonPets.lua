@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/garrison_daily_pet_battles
 -- Date: 2017-09-12 21:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Replaced strategy for Rockbiter, Stonechewer, and Acidtooth 
 
 -- URL: http://wow-pro.com/node/3719/revisions/28756/view
 -- Date: 2017-08-27 18:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: [Fiero and Tirs] tweak
 
 -- URL: http://wow-pro.com/node/3719/revisions/28634/view
@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3719/revisions/28524/view
 -- Date: 2017-03-17 16:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Upload
 
 local guide = WoWPro:RegisterGuide("LudoGarrisonPets", "Dailies", "Draenor", "Ludovicus", "Neutral")

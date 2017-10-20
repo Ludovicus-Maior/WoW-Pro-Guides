@@ -5,57 +5,57 @@
 
 -- URL: http://wow-pro.com/node/3628
 -- Date: 2017-10-07 19:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated [Garrison Campaign: Onslaught at Auchindoun] for horde
 
 -- URL: http://wow-pro.com/node/3628/revisions/28557/view
 -- Date: 2017-03-23 17:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3628/revisions/28329/view
 -- Date: 2017-03-10 23:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3628/revisions/27481/view
 -- Date: 2016-07-30 16:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spell AVAILABLE right
 
 -- URL: http://wow-pro.com/node/3628/revisions/27426/view
 -- Date: 2016-01-09 01:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Weeklies
 
 -- URL: http://wow-pro.com/node/3628/revisions/27395/view
 -- Date: 2015-10-05 14:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: More unlocks!
 
 -- URL: http://wow-pro.com/node/3628/revisions/27379/view
 -- Date: 2015-08-09 23:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Playthrough  edits.
 
 -- URL: http://wow-pro.com/node/3628/revisions/27338/view
 -- Date: 2015-07-19 20:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: I need to spell Dailies right.
 
 -- URL: http://wow-pro.com/node/3628/revisions/27337/view
 -- Date: 2015-07-19 20:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: MAke it an WoWPro:GuideAutoSwitch guide
 
 -- URL: http://wow-pro.com/node/3628/revisions/27336/view
 -- Date: 2015-07-19 20:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Change name and guide type.
 
 -- URL: http://wow-pro.com/node/3628/revisions/27277/view
 -- Date: 2015-07-12 20:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide('FlucloTanaanJungle', "Dailies", 'Tanaan Jungle', 'Fluclo', 'Neutral')
 WoWPro:GuideLevels(guide,100,100,100)

@@ -5,52 +5,52 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
 -- Date: 2017-03-23 17:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3313/revisions/28366/view
 -- Date: 2017-03-13 17:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
 -- URL: http://wow-pro.com/node/3313/revisions/28278/view
 -- Date: 2017-03-05 18:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: QO Cleanups.
 
 -- URL: http://wow-pro.com/node/3313/revisions/27430/view
 -- Date: 2016-02-08 01:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added [Hero's Call: Desolace!] support.
 
 -- URL: http://wow-pro.com/node/3313/revisions/26606/view
 -- Date: 2014-07-25 21:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean
 
 -- URL: http://wow-pro.com/node/3313/revisions/26357/view
 -- Date: 2014-05-27 20:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "27,34".
 
 -- URL: http://wow-pro.com/node/3313/revisions/26238/view
 -- Date: 2014-05-25 22:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3313/revisions/26076/view
 -- Date: 2014-05-18 21:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3313/revisions/25970/view
 -- Date: 2014-05-14 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3313/revisions/25399/view
 -- Date: 2013-01-13 01:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: A few CS,CC and CN tags
 
 -- URL: http://wow-pro.com/node/3313/revisions/24548/view

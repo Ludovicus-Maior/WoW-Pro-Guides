@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
 -- Date: 2017-03-17 00:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added PREs
 
 -- URL: http://wow-pro.com/node/3493/revisions/26892/view
@@ -15,66 +15,66 @@
 
 -- URL: http://wow-pro.com/node/3493/revisions/26582/view
 -- Date: 2014-07-19 17:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj mean-level
 
 -- URL: http://wow-pro.com/node/3493/revisions/26407/view
 -- Date: 2014-05-30 15:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3493/revisions/26387/view
 -- Date: 2014-05-29 22:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added mean level. End Level corrected from 90 to 89.
 
 -- URL: http://wow-pro.com/node/3493/revisions/26307/view
 -- Date: 2014-05-26 01:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3493/revisions/26115/view
 -- Date: 2014-05-18 22:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3493/revisions/26048/view
 -- Date: 2014-05-17 18:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3493/revisions/25753/view
 -- Date: 2013-09-10 23:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Moved T [Relics of the Swarm] and corrected C to A for [Skeer the Bloodseeker].
 
 -- URL: http://wow-pro.com/node/3493/revisions/25697/view
 -- Date: 2013-06-04 23:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added redirects to the dalies at REP thresholds for special quests.
 --	Conditionalized special item steps, so you don't see them once you go past them.  Added |T| tags and jiggered the flow and coords as I played through.
 
 -- URL: http://wow-pro.com/node/3493/revisions/25688/view
 -- Date: 2013-05-28 12:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed extra CC that was preventing "R Soggy's Gamble|" from autocompleting.
 
 -- URL: http://wow-pro.com/node/3493/revisions/25613/view
 -- Date: 2013-05-09 22:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played through and corrected things!
 
 -- URL: http://wow-pro.com/node/3493/revisions/25562/view
 -- Date: 2013-03-23 18:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 31069's name [Bound with Shade] does not match Grail's database [Bound With Shade].
 
 -- URL: http://wow-pro.com/node/3493/revisions/25360/view
 -- Date: 2013-01-12 18:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a CS and CN tag
 
 -- URL: http://wow-pro.com/node/3493/revisions/25304/view
 -- Date: 2013-01-09 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3493/revisions/25216/view
@@ -91,12 +91,12 @@
 
 -- URL: http://wow-pro.com/node/3493/revisions/25072/view
 -- Date: 2012-09-15 20:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected URLs
 
 -- URL: http://wow-pro.com/node/3493/revisions/25071/view
 -- Date: 2012-09-15 20:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial version from Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmDre8990', "Leveling", 'Dread Wastes', 'Emmaleah', 'Neutral')

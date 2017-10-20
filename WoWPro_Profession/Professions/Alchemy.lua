@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/profession_alchemy
 -- Date: 2017-03-06 03:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
 -- URL: http://wow-pro.com/node/3408/revisions/28190/view
 -- Date: 2017-01-02 22:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New style registration
 
 -- URL: http://wow-pro.com/node/3408/revisions/26878/view
 -- Date: 2014-11-08 00:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: FACTION
 
 -- URL: http://wow-pro.com/node/3408/revisions/25822/view
 -- Date: 2013-11-27 20:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3408/revisions/25653/view
 -- Date: 2013-05-16 00:44
@@ -29,7 +29,7 @@
 
 -- URL: http://wow-pro.com/node/3408/revisions/24697/view
 -- Date: 2011-07-27 12:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Merge Twists Pull
 
 -- URL: http://wow-pro.com/node/3408/revisions/24641/view

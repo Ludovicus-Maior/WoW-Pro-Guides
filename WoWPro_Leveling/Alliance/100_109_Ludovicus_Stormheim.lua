@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
 -- Date: 2017-08-27 18:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed "Talonrest" coordinates
 
 -- URL: http://wow-pro.com/node/3683/revisions/28559/view
 -- Date: 2017-03-23 17:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling
 
 -- URL: http://wow-pro.com/node/3683/revisions/28544/view
@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3683/revisions/28348/view
 -- Date: 2017-03-11 20:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Syntax changes.
 
 -- URL: http://wow-pro.com/node/3683/revisions/28134/view
@@ -90,7 +90,7 @@
 
 -- URL: http://wow-pro.com/node/3683/revisions/27935/view
 -- Date: 2016-10-19 01:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level Tweak
 
 -- URL: http://wow-pro.com/node/3683/revisions/27914/view
@@ -110,12 +110,12 @@
 
 -- URL: http://wow-pro.com/node/3683/revisions/27852/view
 -- Date: 2016-09-28 22:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Where did that Loot come from?
 
 -- URL: http://wow-pro.com/node/3683/revisions/27822/view
 -- Date: 2016-09-19 22:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Someone did a fat-fingered edit!
 
 -- URL: http://wow-pro.com/node/3683/revisions/27813/view
@@ -130,7 +130,7 @@
 
 -- URL: http://wow-pro.com/node/3683/revisions/27753/view
 -- Date: 2016-09-13 18:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: A good V1.0
 
 -- URL: http://wow-pro.com/node/3683/revisions/27751/view
@@ -145,62 +145,62 @@
 
 -- URL: http://wow-pro.com/node/3683/revisions/27740/view
 -- Date: 2016-09-12 02:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through till T [A Stack of Racks]
 
 -- URL: http://wow-pro.com/node/3683/revisions/27738/view
 -- Date: 2016-09-11 21:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through to [Felskorn Warcamp]
 
 -- URL: http://wow-pro.com/node/3683/revisions/27734/view
 -- Date: 2016-09-10 21:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through to[Knocking on Valor's Door]. Added prototype for faction specific Skold-Ashil section.
 
 -- URL: http://wow-pro.com/node/3683/revisions/27731/view
 -- Date: 2016-09-10 02:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Played through to [A Little Kelp From My Foes]
 
 -- URL: http://wow-pro.com/node/3683/revisions/27707/view
 -- Date: 2016-09-07 01:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through to [Plight of the Blackfeather]
 
 -- URL: http://wow-pro.com/node/3683/revisions/27701/view
 -- Date: 2016-09-06 20:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add a warning!
 
 -- URL: http://wow-pro.com/node/3683/revisions/27694/view
 -- Date: 2016-09-06 02:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play-though to [Above the Winter Moonlight]
 
 -- URL: http://wow-pro.com/node/3683/revisions/27691/view
 -- Date: 2016-09-05 19:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Started Trial of might section.
 
 -- URL: http://wow-pro.com/node/3683/revisions/27686/view
 -- Date: 2016-09-04 00:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: First playthrough till just before The Trial of Might section.
 
 -- URL: http://wow-pro.com/node/3683/revisions/27678/view
 -- Date: 2016-09-02 00:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Partial cross with horde version.
 
 -- URL: http://wow-pro.com/node/3683/revisions/27668/view
 -- Date: 2016-08-31 22:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Make it load sans errors.
 
 -- URL: http://wow-pro.com/node/3683/revisions/27667/view
 -- Date: 2016-08-31 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: So far
 
 local guide = WoWPro:RegisterGuide('LudoStormheim', 'Leveling', 'Stormheim', 'Ludovicus', 'Alliance')
