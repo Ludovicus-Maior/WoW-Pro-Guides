@@ -587,6 +587,9 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
         WoWPro.QuestCount = 0
     end
 
+	if WoWPro.gossip and WoWPro.GossipText and WoWPro.gossip[qidx] then
+		WoWPro:UpdateGuide(event)
+	end
 end
 
 WoWPro.RegisterEventHandler("GOSSIP_CLOSED" ,function (event,...)
