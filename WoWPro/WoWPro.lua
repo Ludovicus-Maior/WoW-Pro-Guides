@@ -537,7 +537,6 @@ end
 
 function WoWPro.UnregisterAllEvents()
     WoWPro.EventFrame:UnregisterAllEvents()
-    WoWPro:RegisterEvents(WoWPro.EventTable)
 end
 
 
