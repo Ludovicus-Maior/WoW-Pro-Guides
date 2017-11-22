@@ -2432,6 +2432,63 @@ function WoWPro.GrailQuestPrereq(QID)
     return pre
 end
 
+function WoWPro.GrailQuestCheckPrereq(QID, PRE)
+    if not Grail or not WoWPro.EnableGrail then return nil, "NoGrail" end
+    if QID == "*" then return nil,"WildQid" end
+    if not QID then return nil,"NoQid" end
+    local grail_pre = WoWPro.GrailQuestPrereq(QID)
+    -- Both pre lists empty, AOK.
+    if (not grail_pre) and (not PRE) then return nil,"Empties" end
+    -- We may have a spurious PRE.
+    if (not grail_pre) and PRE then return "","Spurious" end
+    local grail_sep, pre_sep
+    grail_sep = "?"
+    pre_sep = "?"
+    if grail_pre:find(";") then
+        grail_sep = ';'
+    end
+    if grail_pre:find("+") then
+        grail_sep = '+'
+    end
+    if PRE:find(";") then
+        pre_sep = ';'
+    end
+    if PRE:find("+") then
+        pre_sep = '+'
+    end
+    -- Different separators, not good
+    if grail_sep ~= pre_sep then return grail_pre,("DiffSep"..grail_sep..pre_sep) end
+    -- Empty separators demand equality
+    if grail_sep == "?" and pre_sep == "?" then
+        if grail_pre == PRE then
+            return false,"AOK"
+        else
+            return grail_pre,"MismatchSingle"
+        end
+    end
+    -- OK, now we have the same separators
+    local grail_num = select("#", string.split(grail_sep, grail_pre))
+    local pre_num = select("#", string.split(pre_sep, PRE))
+    -- Different pre counts, bad
+    if grail_num ~= pre_num then return grail_pre,"DiffCounts" end
+    -- OK same count, now we need to compare the contents
+    local grail_qids={}
+    for j=1,grail_num do
+        local qid = select(grail_num-j+1, string.split(grail_sep, grail_pre))
+        qid = tonumber(qid)
+        grail_qids[qid] = true
+    end
+    for j=1,pre_num do
+        local qid = select(pre_num-j+1, string.split(pre_sep, PRE))
+        qid = tonumber(qid)
+        if not grail_qids[qid] then
+            return grail_pre,"DiffQids"
+        end
+    end
+    return nil,"EOF"
+end
+
+
 function WoWPro.GrailBreadcrumbsFor(QID)
     if not Grail or not WoWPro.EnableGrail then return nil end
     if QID == "*" then return nil end
