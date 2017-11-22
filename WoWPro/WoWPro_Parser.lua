@@ -465,6 +465,10 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 		end
 	end
 
+    if WoWPro.questtext[i] and (WoWPro.DebugLevel > 0) and not tonumber(WoWPro.questtext[i]) then
+        WoWPro:Warning("Step %s [%s:%s] in %s has an old style QO¦%s¦ tag.", WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide,WoWPro.questtext[i])
+    end
+
 	if faction then
 	    -- The parser may have set this already, but we allow the caller to override
 		WoWPro.faction[i] = faction
