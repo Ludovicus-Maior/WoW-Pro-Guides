@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2017-11-23 03:31
+-- Who: Ludovicus
+-- Log: Correct some QID tags that should have been ACTIVE tags.
+
+-- URL: http://wow-pro.com/node/3665/revisions/28690/view
 -- Date: 2017-06-13 01:43
 -- Who: Ludovicus_Maior
 -- Log: Located Reaverbeak totem more clearly and conditionalized [Jinikki The Puncturer]
@@ -237,7 +242,7 @@ $ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen
 $ Treasure|QID|39093|M|54.19,70.59|N|Up the stream on a rock. Loot for a bit of treasure and resources.|RANK|2|
 
 $ Treasure|QID|38466|M|55.55,77.60|L|130147|N|Open this treasure chest to start a short event where several forest sprites attack.  After they are dead, loot the chest again for your treasure|ITEM|130147|RANK|2|
-U Thistleleaf Branch|QID|38382|M|55.55,77.60|U|130147|N|Click to add the toy to your collection.|RANK|2|
+U Thistleleaf Branch|QID|38466|M|55.55,77.60|U|130147|N|Click to add the toy to your collection.|RANK|2|
 l Companion Pet|QID|38468|M|59.54,77.23|L|130154|N|Chat with Lorel Stagfeather to start a fight with Gorebeak.|ITEM|130154|RANK|2|T|Gorebeak|
 U Pygmy Owl|QID|38468|M|59.54,77.23|U|130154|N|Click to add the Pygmy Owl to your collection.|RANK|2|
 
@@ -407,7 +412,7 @@ C The Emerald Queen|QID|38377|M|52.29,64.21|QO|1|N|Ysera Summoned|CHAT|
 T The Emerald Queen|QID|38377|M|52.54,64.15|N|To Malfurion Stormrage.|
 A The Temple of Elune|QID|38641|PRE|38377|M|52.48,63.35|N|From Ysera.|
 $ Treasure|QID|39097|M|54.52,60.47|N|In a small cave, loot for a bit of treasure and resources.|RANK|2|
-R The Crescent Vale|QID|38641|M|53.70,63.74;56.59,62.13|CS|N|Follow this road towards the temple.|
+R The Crescent Vale|ACTIVE|38641|M|53.70,63.74;56.59,62.13|CS|N|Follow this road towards the temple.|
 $ Treasure|QID|39072|M|56.22,57.30|N|Loot for a bit of treasure and resources.|RANK|2|
 f Garden of the Moon|QID|38641|M|56.74,57.72|N|At Brinlanya Moonstone.|
 T The Temple of Elune|QID|38641|M|51.44,57.01|N|To Lyanis Moonfall.|
@@ -428,7 +433,7 @@ A The Die is Cast|QID|38663|PRE|38662|M|51.43,57.01|N|From Lyanis Moonfall.|
 t Mark of the Demon|QID|38656|M|53.71,55.97|N|To Isorarn Nightstar. (If done AFTER turning in the Tears, He is at these coords)|
 
 A A Village in Peril|QID|38643|M|54.79,52.80|N|From Darcy Heathrow.| ; this quest invalidates 39149, which is not including in guide.
-R Bradensbrook|QID|38643|M|53.44,50.25;42.35,59.01|CS|N|Follow the road into Bradensbrook.|RANK|-1|
+R Bradensbrook|ACTIVE|38643|M|53.44,50.25;42.35,59.01|CS|N|Follow the road into Bradensbrook.|RANK|-1|
 $ Share Marius and Tehd Adventures|QID|44070|M|50.66,49.72;48.94,47.21;49.15,49.54|CS|ITEM|132359|T|Gathenak|N|Follow this path down to find Marius and Tehd and share in their adventures. Silver-Kill for treasure and resources.|RANK|2|
 $ Old Bear Trap|QID|39357|M|47.20,57.99|ITEM|130214|T|Mad Henryk|N|Get close to the trap to start the vignette.|RANK|2|
 $ Treasure|QID|39083|M|44.00,61.57;45.14,61.81;45.12,61.14|CS|N|Jump off the rocky outcropping into the tree to loot chest for treasure and resources.|RANK|2|
@@ -597,10 +602,9 @@ C The Fate of Val'sharah|QID|38743|M|57.81,38.58|QO|1|N|Speak to Tyrande|CHAT|
 C The Fate of Val'sharah|QID|38743|M|53.67,55.90|QO|2|N|Fight Ysera to wake her from the nightmare.|
 T The Fate of Val'sharah|QID|38743|M|53.69,55.90|N|To Tyrande Whisperwind.|
 A Enter the Nightmare|QID|40567|PRE|38743|M|53.69,55.90|N|From Tyrande Whisperwind. This is a group/instance quest and is not covered by this guide. If/when you complete it, you need to fly out to Garden of the Moon in Val'sharah to turn it in at the same place you picked it up.|
-A Enter the Nightmare|QID|40567|PRE|38743|M|53.69,55.90|NA|N|From Tyrande Whisperwind. This is a group/instance quest and is not covered by this guide. If/when you complete it, you need to fly out to Garden of the Moon in Val'sharah to turn it in at the same place you picked it up.|
 A The Tears of Elune|QID|40890|PRE|38743|M|53.45,55.96|N|From The Tears of Elune. |
 
-U Dalaran Hearthstone|QID|38743|M|56.74,57.72|N|Use your Dalaran Hearthstone or take the flight master back to Dalaran.|U|140192|
+P Dalaran|QID|40890|M|56.74,57.72|N|Use your Dalaran Hearthstone or take the flight master back to Dalaran.|U|140192|
 A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran@Dalaran70|N|Someone will follow you around Dalaran until you accept this quest.|;do not add the pre's grail tells you to. they are DH only!
 ;44550 Death Knight - Called to Acherus
 ;44087/42666 Demon Hunter - Return to the Fel Hammer
