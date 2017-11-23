@@ -1,5 +1,19 @@
 
-local guide = WoWPro:RegisterGuide("LudoWowAnniversary",'WorldEvents',"Azeroth", "Ludo", "Neutral")
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/node/3748
+-- Date: 2017-11-23 05:07
+-- Who: Ludovicus
+-- Log: Add the [The Originals] quest.
+
+-- URL: http://wow-pro.com/node/3748/revisions/28814/view
+-- Date: 2017-11-22 00:01
+-- Who: Ludovicus
+-- Log: Initial Cut
+
+local guide = WoWPro:RegisterGuide("LudoWowAnniversary",'WorldEvents',"Azeroth", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"WOW Anniversary")
 WoWPro:GuideAutoSwitch(guide)
@@ -68,12 +82,24 @@ C A Time to Reflect|QID|43323;43461|NC|QO|1|N|Hmm.  The question lookup failed. 
 T A Time to Reflect|QID|43461|M|36.4,74.2|Z|Orgrimmar@Orgrimmar|N|To Ju'Pa|FACTION|Horde|
 T A Time to Reflect|QID|43323|M|86.4,25.0|Z|Stormwind City|N|To Llore|FACTION|Alliance|
 
-; A The Originals|QID|47254|M|36.4,74.2|Z|Orgrimmar@Orgrimmar|From Ju'Pa|FACTION|Horde|
-; A The Originals|QID|47253|M|86.4,25.0|Z|Stormwind City|FACTION|Alliance|
+N Tomorrow|LVL|-60|N|Come back tomorrow for the next question.|
+
+N The Originals|AVAILABLE|47254|FACTION|Horde|N|The next daily involves a bit of traveling.|
+N The Originals|AVAILABLE|47253|FACTION|Alliance|N|The next daily involves a bit of traveling.|
+A The Originals|QID|47254|M|36.4,74.2|Z|Orgrimmar@Orgrimmar|LVL|60|N|From Ju'Pa|FACTION|Horde|
+A The Originals|QID|47253|M|86.4,25.0|Z|Stormwind City|LVL|60|N|To Llore|FACTION|Alliance|
+K Lord Kazzak|ACTIVE|47253;47254|QO|1|M|32.4,49.6|Z|Blasted Lands|N|Careful.  These bosses scale from 60 to 110, so if you are low level, watch it!|
+K Azuregos|ACTIVE|47253;47254|QO|2|M|48.9,84.1|Z|Azshara|T|Azuregos|
+N Dragon of Nightmare|ACTIVE|47253;47254|QO|3|N|Look on your map to see which dragon is up. All 4 are listed after this step. Complete this step, don't skip!|
+K Emeriss|ACTIVE|47253;47254|M|47.6,41.0|Z|Duskwood|QO|3|T|Emeriss|
+K Ysondre|ACTIVE|47253;47254|M|50.4,12.4|Z|Feralas|QO|3|T|Ysondre|
+K Taerar|ACTIVE|47253;47254|M|93.8,41.2|Z|Ashenvale|QO|3|T|Taerar|
+K Seradane|ACTIVE|47253;47254|M|62.9, 26.0|Z|The Hinterlands|QO|3|T|Seradane|
+T The Originals|QID|47254|M|36.4,74.2|Z|Orgrimmar@Orgrimmar|LVL|60|N|To Ju'Pa|FACTION|Horde|
+T The Originals|QID|47253|M|86.4,25.0|Z|Stormwind City|LVL|60|N|To Llore|FACTION|Alliance|
 
 N Tomorrow|N|Come back tomorrow for another set of quests.|
 
 ]]
 
 end)
-
