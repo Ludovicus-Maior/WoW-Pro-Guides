@@ -434,12 +434,18 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    WoWPro.zone[i] = nil
 	end
 
-	if (not WoWPro.prereq[i]) and WoWPro.action[i] == "A"  then
+	if (not WoWPro.prereq[i]) and WoWPro.action[i] == "A" then
 	    local new_prereq = WoWPro.GrailQuestPrereq(WoWPro.QID[i])
 	    if WoWPro.DebugLevel > 0 and new_prereq then
 	        WoWPro:Warning("Grail says step %s [%s:%s] in %s needs PRE¦%s¦.",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_prereq)
 	    end
 	    WoWPro.prereq[i] = new_prereq
+    end
+    if WoWPro.prereq[i] and WoWPro.action[i] == "A" and WoWPro.DebugLevel > 0 then
+        local new_prereq, why = WoWPro.GrailQuestCheckPrereq(WoWPro.QID[i],WoWPro.prereq[i])
+        if new_prereq then
+            WoWPro:Warning("Grail says step %s [%s:%s] in %s needs PRE¦%s¦ but has PRE¦%s¦ (%s).",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_prereq, WoWPro.prereq[i], why)
+        end
     end
 
 	if (not WoWPro.leadin[i]) and WoWPro.action[i] == "A"  then
@@ -458,6 +464,10 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 		    end
 		end
 	end
+
+    if WoWPro.questtext[i] and (WoWPro.DebugLevel > 0) and not tonumber(WoWPro.questtext[i]) then
+        WoWPro:Warning("Step %s [%s:%s] in %s has an old style QO¦%s¦ tag.", WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide,WoWPro.questtext[i])
+    end
 
 	if faction then
 	    -- The parser may have set this already, but we allow the caller to override
