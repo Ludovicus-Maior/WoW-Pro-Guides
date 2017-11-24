@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2017-11-23 03:30
+-- Who: Ludovicus
+-- Log: Add a few LVL tags that will probably be useless in a few weeks.
+
+-- URL: http://wow-pro.com/node/3251/revisions/28542/view
 -- Date: 2017-03-22 07:17
 -- Who: Emmaleah
 -- Log: moved repair step (that was after Nobody to blame but Myself) to above turn in step  (for Impatience) for less confusion.
@@ -295,7 +300,7 @@ T Marauders of Darrowshire|QID|27389|M|35.15,68.05|N|To Chromie.|RANK|2|
 A The Battle of Darrowshire|QID|27390|PRE|27387;27388;27389|M|35.15,68.05|N|From Chromie.|RANK|2|
 r Sell Junk. Repair/restock.|QID|27390|NC|M|35.74,68.99|RANK|2|
 
-R Darrowshire|QID|27390|M|34.92,83.84|N|Go to the middle of Darrowshire, near the well.|RANK|2|
+R Darrowshire|ACTIVE|27390|M|34.92,83.84|N|Go to the middle of Darrowshire, near the well.|RANK|2|
 C The Battle of Darrowshire|QID|27390|U|15209|N|Defend Davil Lightfire and Captain Redpath (they do die at one point for event progression). Speak to Redpath when the event is done, and accept his forgiveness.|RANK|2|
 T The Battle of Darrowshire|QID|27390|M|32.52,83.78|N|To Pamela Redpath.\n\nOn completion of this quest, a new buff will be available at the caravan. Pamela's Doll: Summon the spirit of Pamela Redpath to accompany you through Eastern Plaguelands.|RANK|2|
 A Hidden Treasures|QID|27391|PRE|27390|M|32.19,83.41|N|From Pamela Redpath.|RANK|2|
@@ -414,8 +419,9 @@ A The Corpulent One|QID|27477|M|61.50,43.22|N|From Gamella Cracklefizz.|
 A Ix'lar the Underlord|QID|27487|PRE|27466|M|61.53,43.29|N|From Tarenar Sunstrike.|
 C Ix'lar the Underlord|QID|27487|M|60.88,34.20|N|Ix'lar wanders around, so look for the boss icon on the minimap to see where he is.|
 C The Corpulent One|QID|27477|M|57.66,28.27|N|Borelgore seems to wander in the scar, look for his boss icon on the minimap.|
+R Zul'Mashar|ACTIVE|27479|M|59.53,22.35|N|Mount up and go to Zul'Mashar|
 C Righteous Indignation|QID|27479|M|65.50,12.34|N|Kill Mossflayers as you go for their eyes, be careful not to step on the graves.|S|
-C Out of the Ziggurat|QID|27481|M|66.45,10.53|N|Go to the top of the ziggurat and kill Warlord Thresh'jin and loot his corpse.|
+C Out of the Ziggurat|QID|27481|M|66.45,10.53|N|Take the trail up to the top of the ziggurat and kill Warlord Thresh'jin and loot his corpse.|
 T Out of the Ziggurat|QID|27481|M|66.58,9.17|N|(UI Alert)|
 A Into the Flames|QID|27482|PRE|27465;27481|M|66.58,9.17|N|(UI Alert)|
 C Into the Flames|QID|27482|U|61316|M|67.29,9.11|N|Throw the corpse into the flame.|
@@ -435,7 +441,7 @@ T Nobody to Blame but Myself|QID|27489|M|50.46,20.27|N|To Tarenar Sunstrike.|
 A Beat it Out of Them|QID|27522|PRE|27489|M|50.46,20.27|N|From Tarenar Sunstrike.|
 A Wretched Hive of Scum and Villainy|QID|27521|M|50.10,19.57|N|From Kirkian Dawnshield.|
 f Northpass Tower|QID|27521|M|51.29,21.21|N|At Grayson Ironwing.|
-N A City Under Siege|QID|27422|M|51.55,21.36|N|From Argent Officer Irizarry. This is optional as it leads into Stratholme.|
+A A City Under Siege|QID|27422|LVL|44|M|51.55,21.36|N|From Argent Officer Irizarry. This is optional as it leads into Stratholme.|
 A Duskwing, Oh How I Hate Thee...|QID|27523|M|48.11,23.01|N|From Corpseburner Tim.|
 C Duskwing, Oh How I Hate Thee...|QID|27523|U|61334|M|46.90,30.69|N|He wanders around, so look for his boss icon on the minimap. Use the flare on him if he is out of range.|
 T Duskwing, Oh How I Hate Thee...|QID|27523|M|48.06,23.20|N|To Corpseburner Tim.|
@@ -444,8 +450,9 @@ T Wretched Hive of Scum and Villainy|QID|27521|M|50.12,19.60|N|To Kirkian Dawnsh
 C Beat it Out of Them|QID|27522|M|54.18,16.46|N|Beat the 6 Scourge Siege Engineers and the quest will complete.|
 T Beat it Out of Them|QID|27522|M|50.48,20.19|N|To Fiona.|
 A Blind Fury|QID|27524|PRE|27522|M|50.48,20.19|N|From Fiona.|
-A The Plaguewood Tower|QID|27532|PRE|27522|M|50.48,20.26|N|From Argus Highbeacon.|
+A The Plaguewood Tower|QID|27532|PRE|27522|LVL|41|M|50.48,20.26|N|From Argus Highbeacon.|
 
+R Plaguewood|ACTIVE|27524|M|48.97,29.94;42.31,27.54|CS|N|Mount up and head to Plaguewood|
 T Blind Fury|QID|27524|M|27.58,21.14|N|To Tarenar Sunstrike.|
 A Guardians of Stratholme|QID|27525|PRE|27524|M|27.58,21.14|N|From Tarenar Sunstrike.|
 A Scourged Mass|QID|27528|M|27.70,21.02|N|From Crusader Kevin Frost.|
@@ -453,7 +460,7 @@ A Defenders of Darrowshire|QID|27529|M|27.70,21.02|N|From Crusader Kevin Frost.|
 A Add 'em to the Pile|QID|27539|M|27.70,21.02|N|From Crusader Kevin Frost.|
 A The Baroness' Missive|QID|27551|U|61378|N|(UI Alert) Omasum Blighthoof or Karthis Darkrune should drop this.|O|
 C Guardians of Stratholme|QID|27525|M|24.94,20.41;29.37,20.00|CS|N|Kill Omasum Blighthoof and Karthis Darkrune.|
-N The Baroness' Missive|QID|27551|L|61378 1|N|Keep killing Omasum Blighthoof and Karthis Darkrune until it drops|
+N The Baroness' Missive|AVAILABLE|27551|N|Keep killing Omasum Blighthoof and Karthis Darkrune you get the quest.|
 T The Baroness' Missive|QID|27551|M|27.48,21.27|N|To Tarenar Sunstrike.|
 A Gidwin's Fate Revealed|QID|27526|PRE|27551|M|27.48,21.27|N|From Tarenar Sunstrike.|
 T Guardians of Stratholme|QID|27525|M|27.48,21.27|N|To Tarenar Sunstrike.|
@@ -477,8 +484,8 @@ T The Corpsebeasts|QID|27530|M|27.63,21.00|N|To Crusader Kevin Frost.|
 R Plaguewood Tower|QID|27530|M|18.51,27.32|N|Run to Plaguewood Tower.|
 f Plaguewood Tower|QID|27530|M|18.51,27.32|N|At William Kielar Jr..|
 T The Plaguewood Tower|QID|27532|M|17.67,27.74|N|To Argent Apothecary Judkins.|
-A Counter-Plague Research|QID|27531|M|17.67,27.74|N|From Argent Apothecary Judkins.|
-A Just a Little Touched|QID|27535|M|17.67,27.74|N|From Argent Apothecary Judkins.|
+A Counter-Plague Research|QID|27531|LVL|41|M|17.67,27.74|N|From Argent Apothecary Judkins.|
+A Just a Little Touched|QID|27535|LVL|41|M|17.67,27.74|N|From Argent Apothecary Judkins.|
 T Just a Little Touched|QID|27535|M|11.43,28.73|N|To Augustus the Touched.|
 A A Fate Worse Than Butchery|QID|27533|M|11.43,28.73|N|From Augustus the Touched.|
 A Augustus' Receipt Book|QID|27534|M|11.43,28.73|N|From Augustus the Touched.|

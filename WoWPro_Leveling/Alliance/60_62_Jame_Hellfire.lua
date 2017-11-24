@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2017-11-23 03:28
+-- Who: Ludovicus
+-- Log: Modernizing the guide.
+
+-- URL: http://wow-pro.com/node/3271/revisions/28563/view
 -- Date: 2017-03-23 17:56
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -129,11 +134,10 @@ WoWPro:GuideNextGuide(guide, "JamZan6264")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-R Portal to the Blasted Lands|QID|10119|N|By the Portal Trainer |Z|Stormwind City|M|50.3,86|
-B Nethergarde Bitter |QID|10119|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. |M|59.40,14.89|Z|Blasted Lands|
-
-A Through the Dark Portal |QID|10119|M|54.66,50.44|N|From Watch Commander Relthorn Netherwane.|Z|Blasted Lands|
-R Hellfire Peninsula |QID|10119|N|Go through the portal.|M|55.01,54.13|Z|Blasted Lands|
+R Dark Portal|AVAILABLE|10288|N|By the Mage Trainer. Once you start the quests, it becomes a portal to Outland.|Z|Stormwind City|M|49.94,87.00|
+B Nethergarde Bitter |AVAILABLE|9563|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. Yeah, I know, it is annoying to get now.|M|59.40,14.89|Z|Blasted Lands|
+A Through the Dark Portal |QID|10119|LEAD|10288|M|54.66,50.44|N|From Watch Commander Relthorn Netherwane.\nIf this quest is not availible to you, just go through the portal and get [Arrival in Outland] from Commander Duron.|Z|Blasted Lands|
+R Hellfire Peninsula |ACTIVE|10119|N|Go through the portal to outland.|M|55.01,54.13|Z|Blasted Lands|
 T Through the Dark Portal |QID|10119|M|87.3,50.7|N|To Commander Duron.|
 A Arrival in Outland |QID|10288|M|87.3,50.7|N|From Commander Duron.|
 T Arrival in Outland |QID|10288|M|87.4,52.4|N|To Amish Wildhammer.|
@@ -141,7 +145,7 @@ A Journey to Honor Hold |QID|10140|PRE|10288|M|87.4,52.4|N|From Amish Wildhammer
 F Honor Hold|QID|10140|N|Fly to Honor Hold.|M|87.4,52.4|
 T Journey to Honor Hold |QID|10140|M|54.5,62.8|N|To Marshal Isildor.|
 A Force Commander Danath |QID|10254|PRE|10140|M|54.5,62.8|N|From Marshal Isildor.|
-h Honor Hold |QID|10119|N|Set your hearthstone to Honor Hold. |M|54.20,63.60|
+h Honor Hold |ACTIVE|10254|N|Set your hearthstone to Honor Hold. |M|54.20,63.60|
 T Force Commander Danath |QID|10254|M|56.6,66.7|N|To Force Commander Danath Trollbane.|
 A The Legion Reborn |QID|10141|M|56.6,66.7|N|From Force Commander Danath Trollbane.|
 A Know your Enemy |QID|10160|M|56.6,66.7|N|From Force Commander Danath Trollbane.|
@@ -149,7 +153,7 @@ A Waste Not, Want Not |QID|10055|M|51.2,60.0|N|From Dumphry.|
 T Know your Enemy |QID|10160|M|50.9,60.2|N|To Lieutenant Amadi.|
 A Fel Orc Scavengers |QID|10482|M|50.9,60.2|N|From Lieutenant Amadi.|
 
-N Flying|QID|10482|N|If you are level 60, Expert Riding may be purchased for 250 gold, you will also need 50 gold for a mount. Trainer is Hargen Bronzewing.|M|54.3,62.6|
+N Flying|ACTIVE|10482|N|If you are level 60, Expert Riding may be purchased for 250 gold, you will also need 50 gold for a mount. Trainer is Hargen Bronzewing.|M|54.3,62.6|
 C Waste Not, Want Not|S|N|Loot Metal Cogs and Wooden Planks off the ground until you finish this quest. |QID|10055|M|60.4,52.1|
 C Fel Orc Scavengers |N|Kill Orcs until you finish this quest.|QID|10482|M|62.00,54.00|
 C Waste Not, Want Not |N|Loot Metal Cogs/Poles and Wooden Planks off the ground until you finish this quest. |QID|10055|M|60.4,52.1|US|
@@ -162,12 +166,12 @@ A The Path of Anguish |QID|10142|PRE|10141|M|61.7,60.8|N|From Sergeant Altumus.|
 ; The quest "Invading the Citadel" on the following line has wrong caps on 'The' so it does not auto-accept since it is optional.|
 A Invading the Citadel|QID|29543|M|61.7,60.8|N|From Sergeant Altumus. This quest leads into Hellfire Ramparts, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for Hellfire Ramparts if you wish.|
 C The Path of Anguish |N|Kill the mobs needed for this quest.|QID|10142|M|65.00,58.00|
-N Burn Catapult 1 |QID|10078|N|Burn the first thrower here with the Flaming Torch. |QO|Eastern Thrower Burned: 1/1|U|26002|M|58.50,46.80|
-N Burn Catapult 2 |QID|10078|N|Burn the second thrower here with the Flaming Torch. |QO|Central Eastern Thrower Burned: 1/1|U|26002|M|55.85,46.75|
-N Burn Catapult 3 |QID|10078|N|Burn the third thrower here with the Flaming Torch. |QO|Central Western Thrower Burned: 1/1|U|26002|M|53.50,47.20|
-C Laying Waste to the Unwanted |N|Burn the last thrower here.|QID|10078|U|26002|M|52.80,47.20|
+C Burn Catapult 1 |QID|10078|N|Burn the first thrower here with the Flaming Torch. |QO|1|U|26002|M|58.50,46.80|
+C Burn Catapult 2 |QID|10078|N|Burn the second thrower here with the Flaming Torch. |QO|2|U|26002|M|55.85,46.75|
+C Burn Catapult 3 |QID|10078|N|Burn the third thrower here with the Flaming Torch. |QO|3|U|26002|M|53.50,47.20|
+C Laying Waste to the Unwanted |N|Burn the last thrower here.|QO|4|QID|10078|U|26002|M|52.80,47.20|
 
-R Temple of Telhamat|QID|9390|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|CC|N|Run to the Temple of Telhamat.|
+R Temple of Telhamat|AVAILABLE|9390|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|CC|N|Run to the Temple of Telhamat.|
 A Deadly Predators |QID|9398|M|23.4,39.7|N|From Scout Vanura.|
 A In Search of Sedai |QID|9390|M|23.1,40.3|N|From Anchorite Obadei.|
 A Cruel Taskmasters |QID|9399|M|23.1,40.3|N|From Ikan.|
@@ -197,15 +201,15 @@ C Ill Omens |N|Kill orcs until you get a Cursed Talisman for this quest.|QID|104
 l Zeppelin Debris |QID|10161|N|Gather the rest of the Zeplin debris you need.|L|28116 30|M|62.42,70.70|US|
 T Ill Omens |QID|10483|M|71.0,63.4|N|To Corporal Ironridge.|
 A Cursed Talismans |QID|10484|PRE|10483|M|71.0,63.4|N|From Corparal Ironridge.|
-r Sell junk, repair|QID|10143|M|70.95,63.25|N|At Supply Officer Shandria.|
+r Sell junk, repair|ACTIVE|10143|M|70.95,63.25|N|At Supply Officer Shandria.|
 T Expedition Point |QID|10143|M|71.3,62.8|N|To Forward Commander Kingston.|
 A Disrupt Their Reinforcements |QID|10144|PRE|10143|M|71.3,62.8|N|From Forward Commander Kingston.|
 A Zeth'Gor Must Burn! |QID|10895|M|71.3,62.8|N|From Wing Commander Dabir'ee.|
 C Cursed Talismans |N|Kill Orcs until you get the talismans for this quest.|QID|10484|M|64.2,71.8|S|
-N Northern Tower |QID|10895|N|Use the Smoke Beacon here.|QO|Northern Tower Marked: 1/1|U|31739|M|68.00,67.10|
-N Forge Tower |QID|10895|N|Use the Smoke Beacon here.|QO|Forge Tower Marked: 1/1|U|31739|M|70.20,69.20|
-N Foothill Tower |QID|10895|N|Use the Smoke Beacon here.|QO|Foothill Tower Marked: 1/1|U|31739|M|70.70,71.35|
-C Zeth'Gor Must Burn! |N|Use the Smoke Beacon here.|QID|10895|U|31739|M|66.45,76.35|
+C Northern Tower |QID|10895|N|Use the Smoke Beacon here.|QO|1|U|31739|M|68.00,67.10|
+C Forge Tower |QID|10895|N|Use the Smoke Beacon here.|QO|3|U|31739|M|70.20,69.20|
+C Foothill Tower |QID|10895|N|Use the Smoke Beacon here.|QO|4|U|31739|M|70.93,71.40|
+C Zeth'Gor Must Burn! |N|Use the Smoke Beacon here.|QO|2|QID|10895|U|31739|M|66.45,76.35|
 C Cursed Talismans |N|Kill Orcs until you get the talismans for this quest.|QID|10484|M|64.2,71.8|US|
 T Cursed Talismans |QID|10484|M|71.0,63.4|N|To Corpral Ironridge.|
 A Warlord of the Bleeding Hollow |QID|10485|PRE|10484|M|71.0,63.4|N|From Corparal Ironridge.|
@@ -213,12 +217,12 @@ T Zeth'Gor Must Burn! |QID|10895|M|71.3,62.8|N|To Wing Commander Dabir'ee.|
 C Warlord of the Bleeding Hollow |N|Kill Warlord Morkh and take his armor.|QID|10485|M|70.15,76.90|
 T Warlord of the Bleeding Hollow |QID|10485|M|71.0,63.4|N|To Corporal Ironridge.|
 A Return to Honor Hold |QID|10903|PRE|10485|M|71.0,63.4|N|From Corparal Ironridge.|
-r Sell junk, repair|QID|10903|M|70.95,63.25|N|At Supply Officer Shandria.|
+r Sell junk, repair|ACTIVE|10144|M|70.95,63.25|N|At Supply Officer Shandria.|
 
 l Demonic Rune Stone |QID|10144|N|Kill Demons until you have 4 Demonic Rune Stones.|L|28513 4|M|71.20,58.75|
-N Portal Kaalez |QID|10144|N|Disrupt the portal here by clicking on it when inside.|QO|Disrupt Portal Kaalez: 1/1|M|72.70,58.95|
+C Portal Kaalez |QID|10144|N|Disrupt the portal here by clicking on it when inside.|QO|2|M|72.70,58.95|
 l Demonic Rune Stones |QID|10144|N|Kill Demons until you have 4 Demonic Rune Stones.|L|28513 4|M|71.50,55.15|
-C Disrupt Their Reinforcements |N|Disrupt the portal here.|QID|10144|M|71.50,55.15|
+C Disrupt Their Reinforcements |N|Disrupt the portal here.|QO|1|QID|10144|M|71.50,55.15|
 T Disrupt Their Reinforcements |QID|10144|M|71.3,62.8|N|To Forward Commander Kingston.|
 A Mission: The Murketh and Shaadraz Gateways |QID|10146|PRE|10144|M|71.3,62.8|N|Forward Commander Kingston.|
 N Seaforium PU-36 Explosive Nether Modulator |QID|10146|N|Hotkey this item, then right-click the box to continue.|M|71.40,62.50|
@@ -250,7 +254,7 @@ C Invasion Point: Annihilator |N|Use the key on the gate.|QID|10397|U|29795|M|53
 A The Dark Missive |N|Right-click the missive to start this quest. |QID|10395|U|29588|
 T Invasion Point: Annihilator |QID|10397|N|To Field Marshal Brock.|M|68.3,28.6|
 
-H Honor Hold |QID|10903|N|Hearth to Honor Hold. |U|6948|M|55.00,86.80|
+H Honor Hold |QID|10903|N|Hearth to Honor Hold. |U|6948|M|54.50,63.60|
 A An Old Gift |QID|10058|PRE|10143;10483|M|54.3,63.4|N|From Father Malgor Devidicus.|
 A The Longbeards |QID|9558|PRE|10143;10483|M|54.3,63.4|N|From Sid Limbardi.|
 T Return to Honor Hold |QID|10903|M|54.3,63.6|N|Upstairs to Assistant Klatu.|
