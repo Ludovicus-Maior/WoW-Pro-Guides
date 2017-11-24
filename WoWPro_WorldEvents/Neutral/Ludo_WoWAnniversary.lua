@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3748
+-- Date: 2017-11-24 18:23
+-- Who: Ludovicus
+-- Log: Tweaks
+
+-- URL: http://wow-pro.com/node/3748/revisions/28818/view
 -- Date: 2017-11-23 05:07
 -- Who: Ludovicus
 -- Log: Add the [The Originals] quest.
@@ -13,7 +18,7 @@
 -- Who: Ludovicus
 -- Log: Initial Cut
 
-local guide = WoWPro:RegisterGuide("LudoWowAnniversary",'WorldEvents',"Azeroth", "Ludovicus", "Neutral")
+local guide = WoWPro:RegisterGuide("LudoWowAnniversary",'WorldEvents',"Azeroth", "Ludo", "Neutral")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"WOW Anniversary")
 WoWPro:GuideAutoSwitch(guide)
@@ -91,7 +96,7 @@ A The Originals|QID|47253|M|86.4,25.0|Z|Stormwind City|LVL|60|N|To Llore|FACTION
 K Lord Kazzak|ACTIVE|47253;47254|QO|1|M|32.4,49.6|Z|Blasted Lands|N|Careful.  These bosses scale from 60 to 110, so if you are low level, watch it!|
 K Azuregos|ACTIVE|47253;47254|QO|2|M|48.9,84.1|Z|Azshara|T|Azuregos|
 N Dragon of Nightmare|ACTIVE|47253;47254|QO|3|N|Look on your map to see which dragon is up. All 4 are listed after this step. Complete this step, don't skip!|
-K Emeriss|ACTIVE|47253;47254|M|47.6,41.0|Z|Duskwood|QO|3|T|Emeriss|
+K Emeriss|ACTIVE|47253;47254|M|46.6,40.2|Z|Duskwood|QO|3|T|Emeriss|
 K Ysondre|ACTIVE|47253;47254|M|50.4,12.4|Z|Feralas|QO|3|T|Ysondre|
 K Taerar|ACTIVE|47253;47254|M|93.8,41.2|Z|Ashenvale|QO|3|T|Taerar|
 K Seradane|ACTIVE|47253;47254|M|62.9, 26.0|Z|The Hinterlands|QO|3|T|Seradane|
