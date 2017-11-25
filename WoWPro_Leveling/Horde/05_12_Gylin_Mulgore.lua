@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2017-11-24 19:04
+-- Who: Ludovicus
+-- Log: Race updates for quests in Mulgore.
+
+-- URL: http://wow-pro.com/node/3203/revisions/28413/view
 -- Date: 2017-03-15 22:57
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to GylMul0512
@@ -249,16 +254,16 @@ A Wildmane Totem|QID|24523|PRE|20441|M|49.37,17.49|R|Tauren|N|From Una Wildmane.
 A Rite of Wisdom|QID|773|PRE|20441|M|49.48,17.21|R|Tauren|N|From Lorekeeper Raintotem.|
 
 A A Sacred Burial|QID|833|M|49.48,17.21|N|From Lorekeeper Raintotem.|
-K Ghost Howl|QID|770|M|44.05,16.62|T|Ghost Howl|N|Go find Ghost Howl and whack him for the quest.|
-U Demon Scarred Cloak|QID|770|U|4854|N|Click to get the quest.|
+K Ghost Howl|AVAILABLE|770|M|44.05,16.62|T|Ghost Howl|N|Go find Ghost Howl parolling around the well and whack him for the quest.|
+U Demon Scarred Cloak|AVAILABLE|770|U|4854|N|Click to get the quest.|
 
 T The Demon Scarred Cloak|QID|770|M|49.63,17.22|N|To Skorn Whitecloud.|
 
-; I think this is Tauren only now ...
-A The Hunter's Way|QID|861|M|49.63,17.22|N|From Skorn Whitecloud.|R|Tauren|
+; I think this is Tauren only now ... Nope!  Orc too.
+A The Hunter's Way|QID|861|M|49.63,17.22|N|From Skorn Whitecloud.|R|Tauren,Troll,Blood Elf,Orc|
 A Preparation for Ceremony|QID|744|M|49.60,17.49|N|From Eyahn Eagletalon.|
-C The Hunter's Way|QID|861|S|M|51.25,21.86|N|Kill any Flatland Prowlers you see.|R|Tauren|
-C Wildmane Totem|QID|24523|S|M|47.87,21.86|R|Tauren|N|Kill any Prairie Wolf Alpha you see.|
+C The Hunter's Way|QID|861|S|M|51.25,21.86|N|Kill any Flatland Prowlers you see.|R|Tauren,Troll,Blood Elf,Orc|
+C Wildmane Totem|QID|24523|S|M|47.87,21.86|R|Tauren,Troll,Blood Elf,Orc|N|Kill any Prairie Wolf Alpha you see.|
 C Preparation for Ceremony|QID|744|M|54.73,12.95|N|Kill and loot the Windfury Sorceress for the Azure Feathers, and kill and loot Windfury Matriarch for the Bronze Feathers.|
 
 R Red Rocks|ACTIVE|773|M|59.62,22.42|N|Head to Red Rocks.|
@@ -271,7 +276,7 @@ L Level 10|QID|744|LVL|10|N|You should be around level 10 by this point.|
 
 C Wildmane Totem|QID|24523|US|M|47.87,21.86|R|Tauren|N|Finish killing any Prairie Wolf Alpha you see.|
 C The Hunter's Way|QID|861|US|M|51.25,21.86|N|Finish killing any Flatland Prowlers you see.|
-T The Hunter's Way|QID|861|M|49.66,17.41|N|To Skorn Whitecloud.|R|Tauren|
+T The Hunter's Way|QID|861|M|49.66,17.41|N|To Skorn Whitecloud.|R|Tauren,Troll,Blood Elf,Orc|
 T A Sacred Burial|QID|833|M|49.51,17.10|N|To Lorekeeper Raintotem.|
 T Wildmane Totem|QID|24523|M|49.45,17.31|R|Tauren|N|To Una Wildmane.|
 

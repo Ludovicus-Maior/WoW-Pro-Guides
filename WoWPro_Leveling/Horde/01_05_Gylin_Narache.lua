@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2017-11-24 19:04
+-- Who: Ludovicus
+-- Log: Race updates for quests in Mulgore.
+
+-- URL: http://wow-pro.com/node/3203/revisions/28413/view
 -- Date: 2017-03-15 22:57
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to GylMul0512
