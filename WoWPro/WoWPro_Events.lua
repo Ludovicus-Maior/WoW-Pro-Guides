@@ -519,14 +519,12 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
 
-local QUEST_ENGINE_DELAY = 0.25
-
 -- Lets see what quests the NPC has:
 WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function (event,...)
     WoWPro.QuestDialogActive = event
     WoWPro.RegisterAllEvents()
     WoWPro.QuestCount = 0
-    C_Timer.After(QUEST_ENGINE_DELAY, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
+    C_Timer.After(WoWProDB.global.QuestEngineDelay, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
     end)
 
 function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
@@ -602,7 +600,7 @@ WoWPro.RegisterEventHandler("GOSSIP_CLOSED" ,function (event,...)
 WoWPro.RegisterEventHandler("QUEST_GREETING", function (event,...)
     WoWPro.QuestDialogActive = event
     WoWPro.RegisterAllEvents()
-    C_Timer.After(QUEST_ENGINE_DELAY, function()
+    C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
         WoWPro.QUEST_GREETING_PUNTED(event.."_PUNTED")
         end)
     end)
@@ -669,7 +667,7 @@ function WoWPro.QUEST_GREETING_PUNTED(event,...)
 end
 
 WoWPro.RegisterEventHandler("QUEST_DETAIL", function (event,...)
-    C_Timer.After(QUEST_ENGINE_DELAY, function()
+    C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
         WoWPro.QUEST_DETAIL_PUNTED(event.."_PUNTED")
         end)
     end)
@@ -720,7 +718,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
 end
 
 WoWPro.RegisterEventHandler("QUEST_PROGRESS", function (event,...)
-    C_Timer.After(QUEST_ENGINE_DELAY, function()
+    C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
         WoWPro.QUEST_PROGRESS_PUNTED(event)
         end)
     end)
@@ -819,7 +817,7 @@ WoWPro.RegisterEventHandler("PLAYER_TARGET_CHANGED", function (event,...)
     end)
 
 function WoWPro.DelayedEventHandler(frame,event)
-    C_Timer.After(QUEST_ENGINE_DELAY, function ()
+    C_Timer.After(WoWProDB.global.QuestEngineDelay, function ()
         WoWPro.EventHandler(frame,event)
         end)
 end

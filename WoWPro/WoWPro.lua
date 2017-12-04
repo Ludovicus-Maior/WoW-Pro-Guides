@@ -337,6 +337,7 @@ function WoWPro:OnInitialize()
 	WoWProDB.global.RecklessCombat = false
 	WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
 	WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
+	WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
 
 	if WoWProCharDB.EnableGrail == nil then
 	    WoWProCharDB.EnableGrail = true

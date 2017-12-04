@@ -863,6 +863,37 @@ local function createBlizzOptions()
 			}, 		
 		},
 	})
+
+	local expert = {
+		name = L["WoW-Pro Expert"],
+		type = "group",
+		args = {
+			version = {
+				order = 1,
+				type = "description",
+				name = L["Version"]..": "..WoWPro.Version,
+			},
+			help = {
+				order = 2,
+				type = "description",
+				name = L["Expert settings for WoW-Pro's addons."],
+			},
+			blank = {
+				order = 3,
+				type = "description",
+				name = " ",
+			},
+			QuestEngineDelay = {
+				order = 4,
+				type = "range",
+				name = L["Quest Engine Delay"],
+				desc = L["The amount of time to wait for the WoW client to update it's state."],
+				min = 0.1, max = 0.75, step = .05,
+				get = function(info) return WoWProDB.global.QuestEngineDelay end,
+				set = function(info,val) WoWProDB.global.QuestEngineDelay = val end
+			},
+		},
+	}
 	
 	profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
 	
@@ -880,6 +911,10 @@ local function createBlizzOptions()
 	-- Profile Options
 	config:RegisterOptionsTable("WoWPro-Profile", profiles)
 	dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro")
+
+    -- Expert Options
+    config:RegisterOptionsTable("WoWPro-Expert", expert)
+    dialog:AddToBlizOptions("WoWPro-Expert", "WoW-Pro Expert", "WoW-Pro")
 
 	return blizzPanel
 end
