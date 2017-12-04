@@ -475,6 +475,9 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 
 	local GQL = tonumber(WoWPro:GrailQuestLevel(tonumber(WoWPro.QID[i])))
+	if GQL and GQL < 1 then
+	    GQL = nil
+	end
     WoWPro.level[i] = WoWPro.level[i] or GQL
 	
 	if GQL and GQL < 1 and tonumber(WoWPro.QID[i]) < 100000  then
