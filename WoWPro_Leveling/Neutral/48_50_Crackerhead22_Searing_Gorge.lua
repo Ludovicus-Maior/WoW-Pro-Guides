@@ -171,7 +171,7 @@ T The Fewer, the Better|QID|27960|M|68.52,53.49|N|To Burrian Coalpart.|
 A Out of Place|QID|27961|PRE|27960|M|68.52,53.49|N|From Burrian Coalpart.|
 A A Lumbering Relic|QID|27962|PRE|27960|M|68.52,53.49|N|From Burrian Coalpart.|
 T Lunk's Task|QID|27956|M|68.94,53.50|N|To Lunk.|
-A Lunk No Kill|QID|27957|PRE|27956|M|68.94,53.5|N|From Lunk.|
+A Lunk No Kill|QID|27957|PRE|27956|M|68.94,53.5|N|From Lunk. Manual Complete.|
 A A Proper Antivenom|QID|27958|PRE|27957|M|68.61,53.38|N|From Prisanne Dustcropper.|
 A Lunk's Adventure: Spider Rider|QID|27959|M|60.27,55.13|N|Once you kill a spider, Lunk will appear out of nowhere. Get his quest.|
 C Out of Place|QID|27961|S|N|Grab the chickens as quickly as you can, they can be looted from on a mount.. The spiders will kill the chickens.|
@@ -217,7 +217,7 @@ T Rasha'krak|QID|28099|M|38.09,26.66|N|To Overseer Oilfist.|
 T The Spiders Have to Go|QID|27980|M|37.64,26.73|N|To Lookout Captain Lolo Longstriker.|
 T Recon Essentials|QID|27977|M|36.65,28.25|N|To Taskmaster Scrange.|
 A Twilight Collars|QID|27982|PRE|27977|M|36.75,28.25|N|From Taskmaster Scrange.|
-A Dark Ministry|QID|27979|PRE|27976;27977;27982|M|38.33,27.99|N|From Hansel Heavyhands.|
+A Dark Ministry|QID|27979|PRE|27976;27977;27981|M|38.33,27.99|N|From Hansel Heavyhands.|
 C Twilight Collars|QID|27982|S|M|38.68,28.71|N|Kill any Twilight mobs as you go along.|
 l Finister's Spherule|QID|27979|L|62824|M|24.68,26.29|N|Kill and loot Finister to get "Finister's Spherule".|
 

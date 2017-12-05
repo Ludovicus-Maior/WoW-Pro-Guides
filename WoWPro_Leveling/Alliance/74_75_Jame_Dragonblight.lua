@@ -121,7 +121,8 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamDra7475", "Leveling", "Dragonblight", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,71,74,71.3502)
+WoWPro:GuideLevels(guide,61,80)
+WoWPro:NewGuideLevels(guide, 61, 80)
 WoWPro:GuideNextGuide(guide, "JamGriA7577")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
