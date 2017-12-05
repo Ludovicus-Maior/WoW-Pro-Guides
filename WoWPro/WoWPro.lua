@@ -655,6 +655,32 @@ function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
     guide['level'] = tonumber(meanLevel)
 end
 
+-- This function should be called AFTER WoWPro:GuideLevels() to override the settings from WoWPro:GuideLevels()
+function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel)
+    if not WoWPro.NewLevels then
+        return
+    end
+    local playerLevel = WoWPro:PlayerLevel()
+    -- Supply dynamic levels if not all the parameters are suppplied.
+    if not lowerLevel then
+        lowerLevel = math.max(playerLevel-1, 1)
+        guide['level_float'] = true
+    end
+    if not upperLevel then
+        upperLevel = math.min(playerLevel+1, 110)
+        guide['level_float'] = true
+    end
+
+    local meanLevel = (lowerLevel*3.0 + upperLevel) / 4.0
+    if meanLevel < playerLevel then
+        meanLevel = playerLevel
+    end
+
+    guide['startlevel'] = tonumber(lowerLevel)
+    guide['endlevel'] = tonumber(upperLevel)
+    guide['level'] = tonumber(meanLevel)
+end
+
 function WoWPro:GuideRaceSpecific(guide,race)
     local locRace, engRace = UnitRace("player")
     if WoWPro.DebugLevel > 0 then
@@ -1120,11 +1146,12 @@ end
 
 
 
---- MOP Function Compatability Section
+--- Release Function Compatability Section
 local wversion, wbuild, wdata, winterface = GetBuildInfo()
 WoWPro.MOP = (winterface >= 50000)
 WoWPro.WOD = (winterface >= 60000)
 WoWPro.WOL = (winterface >= 70000)
+WoWPro.NewLevels = (wversion == "7.3.5" or (winterface >= 70300))
 
 if WoWPro.MOP then
     WoWPro.GetNumPartyMembers = GetNumGroupMembers
