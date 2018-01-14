@@ -160,6 +160,8 @@ function WoWPro.AutoCompleteLoot()
     		end
     	end
 	end
+	-- Used to catch ACH updates.
+	WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
 end
 
 -- Save Garrison Building Locations for the BUILDING tag
