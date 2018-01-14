@@ -12,9 +12,13 @@ local function handler(msg, editbox)
     if ltoken == "where" then
         SetMapToCurrentZone()
         local X, Y = GetPlayerMapPosition("player")
-
-        local msg = string.format("Player at %.2f,%.2f@%s", X*100, Y*100, WoWPro.GetZoneText())
-        ChatFrame1:AddMessage(msg)
+        if (not X) or (not Y) then
+            local msg = string.format("Player at ?@%s", WoWPro.GetZoneText())
+            ChatFrame1:AddMessage(msg)
+        else
+            local msg = string.format("Player at %.2f,%.2f@%s", X*100, Y*100, WoWPro.GetZoneText())
+            ChatFrame1:AddMessage(msg)
+        end
     else
         local msg = string.format("%s or %s", SLASH_WOWPRO1, SLASH_WOWPRO2)
         ChatFrame1:AddMessage(msg)
