@@ -1030,6 +1030,16 @@ function WoWPro.NextStep(k,i)
 	        end 
 	    end 
 	    
+	    -- Check for must be active quests
+        if WoWPro.active and WoWPro.active[k] then
+    		if not WoWPro:QIDsInTable(WoWPro.active[k],WoWPro.QuestLog) then 
+    			skip = true -- If the quest is not in the quest log, the step is skipped --
+    			WoWPro.why[k] = "NextStep(): Skipping step necessary ACTIVE quest is not in QuestLog."
+    			break
+    		end
+    		WoWPro:dbp("Step %s [%s] ACTIVE %s, skip=%s",WoWPro.action[k],WoWPro.step[k],WoWPro.active[k],tostring(skip))
+        end
+
 	    -- Handle Jump/Done actions
 	    if (WoWPro.action[k] == "J" or WoWPro.action[k] == "D") and WoWPro.guide[k] then
 	        if i ~= 1 then
@@ -1218,7 +1228,7 @@ function WoWPro.NextStep(k,i)
 
 	    -- Skip C or T steps if not in QuestLog
            if (WoWPro.action[k] == "C" or WoWPro.action[k] == "T") and QID then
---	        WoWPro:Print("LFO: %s [%s] step %s",WoWPro.action[k],WoWPro.step[k],k)
+--	        WoWPro:Print("LFO: %s [%s/%s] step %s",WoWPro.action[k],WoWPro.step[k],QID,k)
 	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
     			skip = true -- If the quest is not in the quest log, the step is skipped --
     			WoWPro:dbp("Step %s [%s/%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],tostring(QID))
@@ -1250,16 +1260,6 @@ function WoWPro.NextStep(k,i)
 			    skip = true
 			    break
 			end
-        end
-
-	    -- Check for must be active quests
-        if WoWPro.active and WoWPro.active[k] then
-    		if not WoWPro:QIDsInTable(WoWPro.active[k],WoWPro.QuestLog) then 
-    			skip = true -- If the quest is not in the quest log, the step is skipped --
-    			WoWPro.why[k] = "NextStep(): Skipping step necessary ACTIVE quest is not in QuestLog."
-    			break
-    		end
-    		WoWPro:dbp("Step %s [%s] ACTIVE %s, skip=%s",WoWPro.action[k],WoWPro.step[k],WoWPro.active[k],tostring(skip))
         end
 
         -- WoWPro:dbp("Status(%d) skip=%s",k,tostring(skip))
@@ -1643,7 +1643,7 @@ function WoWPro.NextStep(k,i)
 		-- WoWPro:dbp("Checkpoint Daleth for step %d",k)
         -- Do we have enough loot in bags?
 		if (WoWPro.lootitem and WoWPro.lootitem[k]) then
-		    WoWPro:dbp("Checking step %d for loot %s",k, WoWPro.lootitem[k])
+		    WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s",WoWPro.action[k],WoWPro.step[k],tostring(QID),k, WoWPro.lootitem[k])
 		    if GetItemCount(WoWPro.lootitem[k]) >= (WoWPro.lootqty[k] or 1) then
 		        if WoWPro.action[k] == "T" then
 		            -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
