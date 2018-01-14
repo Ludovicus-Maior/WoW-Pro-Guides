@@ -1151,7 +1151,7 @@ local wversion, wbuild, wdata, winterface = GetBuildInfo()
 WoWPro.MOP = (winterface >= 50000)
 WoWPro.WOD = (winterface >= 60000)
 WoWPro.WOL = (winterface >= 70000)
-WoWPro.NewLevels = (wversion == "7.3.5" or (winterface >= 70300))
+WoWPro.NewLevels = (wversion == "7.3.5" or (winterface > 70300))
 
 if WoWPro.MOP then
     WoWPro.GetNumPartyMembers = GetNumGroupMembers
