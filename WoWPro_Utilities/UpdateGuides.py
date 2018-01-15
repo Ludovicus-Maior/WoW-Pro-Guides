@@ -27,7 +27,7 @@ import urlparse
 import urllib
 
 FORMAT = '%(asctime)-15s %(levelname)s %(message)s'
-logging.basicConfig(format=FORMAT)
+logging.basicConfig(format=FORMAT, level=logging.INFO)
 
 DEAFULT_ROOT=""
 if os.name == 'nt':
