@@ -9,6 +9,8 @@
 	<Script file="Est_UnbornValkyr.lua"/>
 	<Script file="Ludo_Argus.lua"/>
 	<Script file="Ludo_Draenor.lua"/>
+	<Script file="Ludo_FishFry.lua"/>
+	<Script file="Ludo_Lucid.lua"/>
 	<Script file="Ludo_Treasure.lua"/>
 	<Script file="Twists_Cared.lua"/>
 	<Script file="TwoToad_Caressed.lua"/>
