@@ -18,7 +18,7 @@ if ! git pull ; then
 fi
 
 echo "# Syncronizing to WoW-Pro.com"
-if ! python WoWPro_Utilities/UpdateGuides.py --root=. ; then 
+if ! ipython --pdb WoWPro_Utilities/UpdateGuides.py -- --root=. ; then 
     echo "! Error updating local repo: $?"
     exit 2 
 fi

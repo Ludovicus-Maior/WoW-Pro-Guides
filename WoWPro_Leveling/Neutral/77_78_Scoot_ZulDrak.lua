@@ -127,7 +127,6 @@
 
 local guide = WoWPro:RegisterGuide("ScoZul7778", "Leveling", "Zul'Drak", "Scoot", "Neutral")
 WoWPro:GuideLevels(guide,74,75, 74.0604)
-WoWPro:NewGuideLevels(guide, 64, 80)
 WoWPro:GuideNextGuide(guide, "ScoSho7879|ScoSho7879")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

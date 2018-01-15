@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2018-01-15 19:03
+-- Who: Ludovicus
+-- Log: Add tags according to Grail
+
+-- URL: http://wow-pro.com/node/3257/revisions/28383/view
 -- Date: 2017-03-15 21:23
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to WkjFel4550
@@ -81,11 +86,11 @@ WoWPro:GuideIcon(guide,"ACH",4931)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Note|QID|28100|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|
-A Hero's Call: Felwood!|QID|28543|M|45.19,50.01|Z|Darnassus|N|From the Hero's Call Board. Will not appear if your level is too high.|
+N Note|AVAILABLE|28100|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|
+A Hero's Call: Felwood!|QID|28543|LEAD|27997|M|45.19,50.01|Z|Darnassus|N|From the Hero's Call Board. Will not appear if your level is too high.|
 F Forrest Song|QID|28100|N|in Ashenvale. If you should happen to have Emerald Sanctuary go there instead and skip this and the next step.|
-R Felwood|QID|28100|M|54.77,98.29|N|Run into Felwood.|
-R Emerald Sanctuary|QID|28100|M|51.41,79.79|N|Run to Emerald Sanctuary.|
+R Felwood|AVAILABLE|28100|M|54.77,98.29|N|Run into Felwood.|
+R Emerald Sanctuary|AVAILABLE|28100|M|51.41,79.79|N|Run to Emerald Sanctuary.|
 T Hero's Call: Felwood!|QID|28543|O|M|51.20,80.49|N|To Tenell Leafrunner.|
 A The Corruption of the Jadefire|QID|27997|M|51.20,80.49|N|From Tenell Leafrunner.|
 A Culling the Corrupted|QID|28148|M|50.92,80.21|N|From Taronn Redfeather.|
@@ -110,7 +115,7 @@ T The Corruption of the Jadefire|QID|27997|M|51.17,80.52|N|To Tenell Leafrunner.
 
 A The Ruins of Kel'Theril|QID|28479|M|51.24,80.36|N|From Kelek Skykeeper. You may not be a high enough level to get this yet. If so skip this step and pick it up befrore you start Winterspring.|
 T Culling the Corrupted|QID|28148|M|50.93,80.15|N|To Taronn Redfeather.|
-A An Arcane Ally|QID|28150|PRE|27995;27997;28148|M|51.17,80.56|N|From Tenell Leafrunner.|
+A An Arcane Ally|QID|28150|LEAD|28000|PRE|27995;27997;28148|M|51.17,80.56|N|From Tenell Leafrunner.|
 T An Arcane Ally|QID|28150|M|41.92,72.00|N|To Arcanist Delaris.|
 A Do the Imp-Possible|QID|28000|M|41.92,72.00|N|From Arcanist Delaris.|
 C Do the Imp-Possible|QID|28000|U|62899|M|47.63,72.93|N|Time to bag an imp! Literally.|
@@ -128,7 +133,7 @@ A Fight the Power|QID|28102|PRE|28044|M|41.97,71.85|N|From Eridan Bluewind.|
 C Fight the Power|QID|28102|M|38.01,66.55|N|Kill Jadefire Rogues or Shadowstalkers.|S|
 R Break the Unbreakable|QID|28113|CC|U|63031|M|36.07,65.93|N|Run here and use the item.|
 C Break the Unbreakable|QID|28113|U|63031|M|34.28,65.89|N|Kill Xavathras.|
-R Break the Unbreakable|QID|28113|CC|U|63031|M|36.07,65.93|N|Run here and use the item.|
+R Break the Unbreakable|ACTIVE|28113|CC|U|63031|M|36.07,65.93|N|Run here and use the item.|
 C Fight the Power|QID|28102|M|38.01,66.55|N|Kill Jadefire Rogues or Shadowstalkers.|US|
 T Fight the Power|QID|28102|M|42.02,71.84|N|To Eridan Bluewind.|
 T Break the Unbreakable|QID|28113|M|41.96,72.03|N|To Arcanist Delaris.|
@@ -137,8 +142,8 @@ A Jaedenar Awaits|QID|28152|PRE|28113;28102|M|42.01,71.77|N|From Eridan Bluewind
 C Open Their Eyes|QID|28288|U|63395|M|42.19,79.05|N|Taste the Rainbow.|
 T Open Their Eyes|QID|28288|M|41.90,71.98|N|To Arcanist Delaris.|
 
-f Wildheart Point|QID|28152|M|44.29,61.89|N|At Chyella Hushglade.|
-h Wildheart Point|QID|28152|M|43.98,61.94|N|At Innkeeper Teenycaugh.|
+f Wildheart Point|ACTIVE|28152|M|44.29,61.89|N|At Chyella Hushglade.|
+h Wildheart Point|ACTIVE|28152|M|43.98,61.94|N|At Innkeeper Teenycaugh. You may really want this, as the exit portal from Jaedenar is often bugged.|
 T Jaedenar Awaits|QID|28152|M|43.96,61.90|N|To Greta Mosshoof.|
 A Crying Violet|QID|28116|M|43.96,61.90|N|From Greta Mosshoof.|
 A Forces of Jaedenar|QID|28121|M|44.09,61.93|N|From Jessir Moonbow.|
@@ -148,7 +153,7 @@ C Forces of Jaedenar|QID|28121|M|37,57|N|Kill Jaedenar Forces.|US|
 T Crying Violet|QID|28116|M|36.35,58.25|N|To Andalar Shadevale.|
 T Forces of Jaedenar|QID|28121|M|36.35,58.25|N|To Andalar Shadevale.|
 A Purity From Corruption|QID|28119|PRE|28116|M|36.35,58.25|N|From Andalar Shadevale.|
-C Purity From Corruption|QID|28119|M|35.93,59.52|N|Fill up at the moonwell.|
+C Purity From Corruption|QID|28119|M|35.93,59.52|U|12922|N|Fill up at the moonwell.|
 T Purity From Corruption|QID|28119|M|36.35,58.25|N|To Andalar Shadevale.|
 
 A The Inner Circle|QID|28128|PRE|28119;28121|M|36.35,58.25|N|From Andalar Shadevale.|
@@ -158,10 +163,10 @@ C The Inner Circle|QID|28128|M|38.60,45.80|S|N|Kill Shadow Hold mobs.|
 C The Demon Prince|QID|28129|M|36.70,55.75|N|Kill Prince Xavalis.|
 T The Demon Prince|QID|28129|M|36.70,55.74|N|(UI Alert)|
 A Twin Temptresses|QID|28131|PRE|28129|M|36.70,55.74|N|(UI Alert)|
-N Extinguish the Brazier of Pain|QID|28126|QO|Extinguish the Brazier of Pain: 1/1|M|36.96,55.89|N|First Brazier is here, click on it to put it out.|
-N Extinguish the Brazier of Hatred|QID|28126|QO|Extinguish the Brazier of Hatred: 1/1|M|37.28,54.92|N|Second Brazier is here, click on it to put it out.|
-N Extinguish the Brazier of Suffering|QID|28126|QO|Extinguish the Brazier of Suffering: 1/1|M|37.38,53.16|N|This is on the level below the 2nd brazier. Third Brazier is here, click on it to put it out.|
-C Dousing the Flames of Protection|QID|28126|M|38.21,52.54|N|Extinguish the last brazier.|
+C Extinguish the Brazier of Pain|QID|28126|QO|1|M|36.96,55.89|N|First Brazier is here, click on it to put it out.|
+C Extinguish the Brazier of Hatred|QID|28126|QO|4|M|37.28,54.92|N|Second Brazier is here, click on it to put it out.|
+C Extinguish the Brazier of Suffering|QID|28126|QO|3|M|37.38,53.16|N|This is on the level below the 2nd brazier. Third Brazier is here, click on it to put it out.|
+C Extinguish the Brazier of Malice|QID|28126|QO|2|M|38.21,52.54|N|Extinguish the last brazier.|
 C Twin Temptresses|QID|28131|M|38.33,50.86|N|Kill Moora and Salia.|
 T Twin Temptresses|QID|28131|M|38.63,50.57|N|(UI Alert)|
 
@@ -171,17 +176,18 @@ T Shadow Lord Fel'dan|QID|28153|M|39.81,47.10|N|(UI Alert)|
 A Lord Banehollow|QID|28155|PRE|28153|M|39.81,47.10|N|(UI Alert)|
 C Lord Banehollow|QID|28155|M|38.4,47.89|N|Head behind where you kill Fel'dan, then go up and around to Lord Banehollow and kill him.|
 C The Inner Circle|QID|28128|M|38.60,45.80|US|N|Kill Shadow Hold mobs.|
-R Wildheart Point|QID|28128|N|If finished with all quests for here you should now click the pinkish portal.|M|38.1,47.88|
+R Wildheart Point|QID|28128|N|If finished with all quests for here you should now click the pinkish portal.\nNo portal, use your hearthstone.\nOtherwise, run back.|M|38.1,47.88|
 T The Inner Circle|QID|28128|M|44.11,62.00|N|To Jessir Moonbow.|
 T Dousing the Flames of Protection|QID|28126|M|43.99,61.87|N|To Greta Mosshoof.|
 T Lord Banehollow|QID|28155|M|44.09,61.82|N|To Farlus Wildheart.|
 
-A The Fate of Bloodvenom Post|QID|28305|PRE|28126;28128;28155|M|44.09,61.82|N|From Farlus Wildheart.|
+A The Fate of Bloodvenom Post|QID|28305|LEAD|28207|PRE|28126;28128;28155|M|44.09,61.82|N|From Farlus Wildheart.|
 T The Fate of Bloodvenom Post|QID|28305|M|41.26,49.89|N|To Kelnir Leafsong.|
 A A Slimy Situation|QID|28207|M|41.26,49.89|N|From Kelnir Leafsong.|
 A The Tainted Ooze|QID|28190|M|41.26,49.89|N|From Altsoba Ragetotem.|
-C The Tainted Ooze|QID|28190|M|41.73,47.50|N|Kill 8 Tainted Oozes.|
+C The Tainted Ooze|QID|28190|M|41.73,47.50|N|Kill 8 Tainted Oozes.|S|
 C A Slimy Situation|QID|28207|M|41.73,47.50|N|Do a lap on the edge of the lake, the mushrooms are blue.|
+C The Tainted Ooze|QID|28190|M|41.73,47.50|N|Kill 8 Tainted Oozes.|US|
 C The Tainted Ooze|QID|28190|M|41.73,47.50|N|Finish killing Tainted Oozes.|
 T The Tainted Ooze|QID|28190|M|41.31,49.88|N|To Altsoba Ragetotem.|
 T A Slimy Situation|QID|28207|M|41.31,49.88|N|To Kelnir Leafsong.|
@@ -196,7 +202,7 @@ C Hazzard Disposal|QID|28213|U|63284|M|35.49,52.21|N|Use the item when near her 
 C Cleanup at Bloodvenom Post|QID|28214|M|36.17,50.46|N|Kill Bloodvenom Slimeslaves.|US|
 T Cleanup at Bloodvenom Post|QID|28214|M|41.27,49.98|N|To Altsoba Ragetotem.|
 T Hazzard Disposal|QID|28213|M|41.28,49.89|N|To Kelnir Leafsong.|
-A Whisperwind Grove|QID|28306|PRE|28213;28214|M|41.28,49.89|N|From Kelnir Leafsong.|
+A Whisperwind Grove|QID|28306|LEAD|28360|PRE|28213;28214|M|41.28,49.89|N|From Kelnir Leafsong.|
 T Whisperwind Grove|QID|28306|M|43.29,30.43|N|Follow the path north to Tender Puregrove.|
 A Running Their Course|QID|28360|M|43.29,30.43|N|From Tender Puregrove.|
 A Squirrely Clean|QID|28361|M|43.31,30.36|N|From Tender Puregrove.|
@@ -269,14 +275,14 @@ C The Fall of Tichondrius|QID|28257|NC|M|45.31,20.01|N|Again, help out.|
 T The Fall of Tichondrius|QID|28257|M|45.51,20.13|N|To Feronas Sindweller.|
 
 A Deceivers In Our Midst|QID|28261|PRE|28257|M|45.51,20.13|N|From Feronas Sindweller.|
-R Deceivers In Our Midst|QID|28261|CC|U|63419|M|43.61,18.54|N|Climb up the cliff to this point, then put on the mask. (click to continue)|
+R Deceivers In Our Midst|ACTIVE|28261|CC|U|63419|M|43.61,18.54|N|Climb up the cliff to this point, then put on the mask. (click to continue)|
 C Deceivers In Our Midst|QID|28261|U|63419|M|42.52,19.75|N|Kill Jadefire Shifters.|
 T Deceivers In Our Midst|QID|28261|M|45.53,20.09|N|(UI Alert)|
 A Navarax's Gambit|QID|28264|PRE|28261|M|45.53,20.09|N|From Feronas Sindweller.|
 C Navarax's Gambit|QID|28264|M|44.72,29.03|N|Talk to the Druid at the top of the Inn in Whisperwind Grove.|
 T Navarax's Gambit|QID|28264|M|43.46,28.23|N|To Huntress Selura.|
-r Repair/Restock|CC|M|43.07,28.65|N|At Ciana.|QID|28381|
-A The Denmother|QID|28381|PRE|28228;28264|M|44.34,28.11|N|From James Hallow.|
+r Repair/Restock|CC|M|43.07,28.65|N|At Ciana.|AVAILABLE|28381|
+A The Denmother|QID|28381|LEAD|28382|PRE|28228;28264|M|44.34,28.11|N|From James Hallow.|
 
 F Talonbranch Glade|QID|28381|N|Right click and talk to the Flightmaster. She will fly you there if you use the speech bubble option.|M|43.61,28.69|
 f Talonbranch Glade|QID|28381|M|60.57,25.32|N|At Mishellena.|
@@ -312,7 +318,7 @@ T Bloody Wages|QID|28388|M|56.78,18.50|N|To Alton Redding.|
 
 A Report to the Denmother|QID|28389|PRE|28387;28388|M|56.78,18.50|N|From Alton Redding.|
 T Report to the Denmother|QID|28389|M|61.82,26.67|N|To Denmother Ulrica.|
-A The Timbermaw Tribe|QID|28392|PRE|28389|M|61.82,26.67|N|From Denmother Ulrica.|
+A The Timbermaw Tribe|QID|28392|LEAD|28338|PRE|28389|M|61.82,26.67|N|From Denmother Ulrica.|
 T The Timbermaw Tribe|QID|28392|M|64.00,10.39|N|To Nafien.|
 A Deadwood of the North|QID|28338|M|64.00,10.39|N|From Nafien.|
 A Disarming Bears|QID|28366|M|64.04,10.38|N|From Nafien.|

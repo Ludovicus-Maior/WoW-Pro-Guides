@@ -8,7 +8,7 @@ WoWPro:GuideLevels(guide,100,110)
 WoWPro:GuideIcon(guide,"ACH",10596)
 WoWPro:GuideSteps(guide, function()
 return [[
-B Arcane Lure|M|6.2,20.0|Z|Broken Shore|N|Go to a floating island North of Dalaran and buy [Arcane Lure]'s from Conjurer Margoss using [Drowned Mana] as the currency. Or buy in the AH.  You need them to catch the rare fish. Drowned Mana raids are great for farming this. You will use around 24-36.|L|139175|
+B Arcane Lure|M|6.2,20.0|Z|Broken Shore|N|Go to a floating island North of Dalaran and buy [Arcane Lure]'s from Conjurer Margoss using [Drowned Mana] as the currency. Or buy in them the AH.  You need them to catch the rare fish. Drowned Mana raids are great for farming this. You will use around 24-36.|L|139175|
 
 ; Great Ocean/Suramar
 N Ancient Black Barracuda|M|24.50,85.90;25.20,84.00;25.50,90.90;30.30,94.10;38.30,92.90;52.50,81.80;53.50,63.20;56.00,68.30;57.00,66.10;60.20,69.60;64.80,63.80;72.90,53.20;74.60,76.40;78.60,72.20;84.60,56.00;84.80,65.80;52.00,77.40;56.75,70.50;50.23,74.42;81.83,68.08;54.35,65.65;74.40,66.03;84.48,60.14;73.50,51.15;53.08,79.83;75.90,51.41;72.60,57.12;79.02,52.65;66.55,65.00;24.60,88.10;50.54,72.17;73.61,61.34;83.75,62.76;44.25,82.10;81.18,53.79;83.80,53.23;77.18,76.83;42.26,87.41|CN|Z|Suramar|ACH|10596;1|N|Head out to the shores of Suramar. You must be in the "Great Sea" Zone. When you get [Decayed Whale Blubber], put on the ground and catch the [Ravenous Fly] to use as bait. Make sure to get to the ocean zone after baiting. |
@@ -55,7 +55,3 @@ T Fish Frenzy|QID|41010|M|52.81,65.59|Z|Dalaran@Dalaran70|N|Take the boat back t
 ]]
 
 end)
-
-
-
-

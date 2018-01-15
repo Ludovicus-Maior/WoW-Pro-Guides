@@ -15,15 +15,19 @@
 #
 #   Questions:   Ask Ludovicus aka <LuisOrtiz@Verizon.NET>
 
-import urllib
 from HTMLParser import HTMLParser
-import re
-import string
+import glob
+import logging
 import optparse
 import os.path
-import glob
 import os
-import urlparse 
+import re
+import string
+import urlparse
+import urllib
+
+FORMAT = '%(asctime)-15s %(levelname)s %(message)s'
+logging.basicConfig(format=FORMAT, level=logging.INFO)
 
 DEAFULT_ROOT=""
 if os.name == 'nt':
@@ -65,9 +69,9 @@ class FindGuides(HTMLParser):
         self._list = []
         try:
             self._rootHandle =urllib.urlopen(Root)
-            print "# Opened Root URL ",Root
+            logging.info("Opened Root URL "+Root)
         except IOError:
-            print "!! Failed to open Root URL:",Root
+            logging.error("Failed to open Root URL: "+Root)
             pass
 
 
@@ -104,8 +108,8 @@ class FindGuides(HTMLParser):
         while( self._lump != ""): 
             self.feed(self._lump)
             self._lump = self._rootHandle.read()
-        print "# URL yielded %d items" % len(self._list)
-        print "#", " ".join(self._list)
+        logging.info("URL yielded %d items" % len(self._list))
+        logging.debug(", ".join(self._list))
         return self._list
 
 Guides = {}
@@ -125,9 +129,9 @@ class FindSource(HTMLParser):
         self._data = None
         try:
             self._rootHandle =urllib.urlopen(self._page)
-            print "# Opened Source URL ",self._page
+            logging.info("Opened Source URL "+self._page)
         except IOError:
-            print "! Failed to open Source URL:",self._page
+            logging.error("Failed to open Source URL: "+self._page)
             pass
 
 
@@ -167,10 +171,10 @@ class FindSource(HTMLParser):
                 self._guideID = mo.group(1)
                 self._inGuide = True
                 self._sawBrackets = False
-                print "## Found Guide ", self._guideID, "inside", self._page
+                logging.info("Found Guide %s inside %s" % (self._guideID, self._page))
                 self._guideIDs.append(self._guideID)
                 if Guide2Web.has_key(self._guideID):
-                    print "!! Web page ",Guide2Web[self._guideID], " and ", self._page , " both reference ", self._guideID
+                    logging.warning( "Web page %s and %s both reference %s" % (Guide2Web[self._guideID], self._page , self._guideID))
                     GuideDuplicates.append(self._guideID)
                 Guide2Web[self._guideID] = self._page
                 Guides[self._guideID] = []
@@ -216,7 +220,7 @@ class FindRevisions(HTMLParser):
 	    self._Page = Page
             Page = Page + "/revisions"
             self._rootHandle =urllib.urlopen(Page)
-            print "# Opened Revision URL ",Page
+            logging.info("Opened Revision URL "+Page)
             self._inTable = False
             self._inThead = False
             self._inTbody = False
@@ -234,7 +238,7 @@ class FindRevisions(HTMLParser):
             self._RevisionWho = ""
             self._RevisionLog = ""
         except IOError:
-            print "! Failed to open Revision URL:",Page 
+            logging.error("Failed to open Revision URL: "+Page) 
             pass
 
     def dprint(self,*args):
@@ -258,7 +262,7 @@ class FindRevisions(HTMLParser):
             return
         if self._inRevisionTable and tag == "tbody":
             self._inTbody = True
-	    print "## Found Revision log body"
+	    logging.debug("Found Revision log body")
             return
         if self._inRevisionTable and self._inTbody and tag == "tr":
             self._inTr = True
@@ -338,18 +342,18 @@ class FindRevisions(HTMLParser):
 def ScrapeGuideFromWoWPro(RootSourceNode):
     fg=FindGuides(RootSourceNode)
     guides=fg.GuidesList()
-    print "# Found ",len(guides),"guides"
+    logging.info("Found %d guides" % len(guides))
     for guide in guides:
       fs=FindSource(guide)
       if not fs:
         continue
       src=fs.ReadGuide()
       if len(src) < 1:
-        print "!! No guide found in page.  Bad link, I think."
+        logging.warning("No guide found in page.  Bad link, I think.")
       fs=FindRevisions(guide)
       src=fs.ReadGuide()
       if len(src) < 1:
-        print "!! No log found in page.  Bad link, I think."
+        logging.warning("No log found in page.  Bad link, I think.")
 
 Guide2File={}
 GuideEOL={}
@@ -380,14 +384,14 @@ def ScrapeWoWProLua(lua):
         if mo:
             _guideID = mo.group(1)
             if Guide2File.has_key(_guideID):
-                print "!! Duplicate guide ID discoverd in ",Guide2File[_guideID]," and ", lua, " for ",_guideID
+                logging.warning("Duplicate guide ID discoverd in %s and %s for %s ", (Guide2File[_guideID], lua, _guideID))
                 GuideDups.append(_guideID)
             Guide2File[_guideID] = lua
     if _guideID == "":
-        print "!! No Guide found inside %s " % lua
+        logging.warning("No Guide found inside %s " % lua)
         return
     GuideEOL[_guideID] = file.newlines
-    print "# Found %s Guide %s inside %s " % ( NewlinesNick(file.newlines),_guideID, lua)
+    logging.info("Found %s Guide %s inside %s " % ( NewlinesNick(file.newlines),_guideID, lua))
     file.close()
     return
         
@@ -405,7 +409,7 @@ def CrossCheck():
     _guides.sort()
     for guide in _guides:
         if not Guides.has_key(guide):
-            print("!! Guide %s is inside file %s but is not in the web site" % ( guide, Guide2File[guide]))
+            logging.warning("Guide %s is inside file %s but is not in the web site" % ( guide, Guide2File[guide]))
             foundError = foundError + 1
         else:
             ValidGuides[guide] = 1
@@ -413,26 +417,26 @@ def CrossCheck():
     _guides.sort()
     for guide in _guides:
         if not Guide2File.has_key(guide):
-            print("!! Guide %s in on the web in %s, but is not on the local disk" % ( guide, Guide2Web[guide]))
+            logging.warning("Guide %s in on the web in %s, but is not on the local disk" % ( guide, Guide2Web[guide]))
             foundError = foundError + 1
         else:     
             if ValidGuides.get(guide,0) == 1:
                 ValidGuides[guide] = 2
     if len(GuideDuplicates) > 0 :
         for guide in GuideDuplicates:
-            print("!! Guide %s is duplicated on the web site" % guide)
+            logging.warning("Guide %s is duplicated on the web site" % guide)
             foundError = foundError + 1
     if len(GuideDups) > 0:
         for guide in GuideDups:
-            print("!! Guide %s is duplicated on disk" % guide)
+            logging.warning("Guide %s is duplicated on disk" % guide)
             foundError = foundError + 1
     if foundError > 0:
-        print "!! Failed cross Check, %d errors detected" % foundError
+        logging.warning("Failed cross Check, %d errors detected" % foundError)
     else:
-        print "# Cross Check Complete!"
+        logging.info("# Cross Check Complete!")
 
 def UpdateGuideFile(guide):
-    print "# Updating guide %s in File %s from %s" % (guide, Guide2File[guide], Guide2Web[guide])
+    logging.info("Updating guide %s in File %s from %s" % (guide, Guide2File[guide], Guide2Web[guide]))
     file=open(Guide2File[guide],"wb")
     eol = GuideEOL[guide]
     if not isinstance(eol,basestring):
@@ -468,11 +472,11 @@ def UpdateFiles():
 if __name__ == "__main__":
     pa=ParseArgs()
     if pa.noupdate == True:
-        print "# Not updating, just checking!"
+        logging.info("Not updating, just checking!")
     if os.access(pa.root,os.F_OK):
-        print "# Able to access %s alright." % pa.root
+        logging.info("Able to access %s alright." % pa.root)
     if pa.test == True:
-        print "## Running short test"
+        logging.info("Running short test")
         ScrapeWoWProLua("/Applications/World of Warcraft/Interface/Addons/WoWPro_Leveling/Alliance/40_45_Wkjezz_Thousand_Needles.lua")
         fs=FindSource("http://wow-pro.com/node/3253")
         src=fs.ReadGuide()
@@ -484,7 +488,7 @@ if __name__ == "__main__":
     ScrapeGuideFromWoWPro(pa.url)
     CrossCheck()
     if pa.noupdate == True:
-        print "# Skipping update"
+        logging.info("Skipping update")
     else:
         UpdateFiles()
 

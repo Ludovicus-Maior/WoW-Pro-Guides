@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2017-12-04 22:44
+-- Who: cameljon
+-- Log: Rep gating removed on Aug 29.
+--	
+--	https://worldofwarcraft.com/en-us/news/21025532/hotfixes-august-29
+
+-- URL: http://wow-pro.com/node/3687/revisions/28760/view
 -- Date: 2017-08-27 18:53
 -- Who: Ludovicus_Maior
 -- Log: Finished zone on Alliance.
@@ -246,11 +253,6 @@
 -- Date: 2016-12-07 16:18
 -- Who: Blanckaert
 -- Log: Added a PRE to 42489, since Grail now reports to WP, that it needs one
-
--- URL: http://wow-pro.com/node/3687/revisions/28107/view
--- Date: 2016-12-06 20:32
--- Who: Blanckaert
--- Log: adjusted the Quests that are avail 12/06.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -797,9 +799,7 @@ C The Master's Legacy|QID|41915|M|36.23,60.31;35.28,61.57|CS|QO|1|NC|N|Open Crat
 C The Master's Legacy|QID|41915|M|35.62,61.23|QO|2|N|Slay Lespin and Company.|RANK|2|
 T The Master's Legacy|QID|41915|M|41.66,71.07|N|To Apprentice Ardrias.|RANK|2|
 
-; Good Suramaritan - Waning Crescent Story Arc
-
-A Lady Lunastre|QID|41877|M|36.88,46.60|N|From First Arcanist Thalyssra.|PRE|42230|REP|The Nightfallen;1859;Friendly-Exalted;1750|
+A Lady Lunastre|QID|41877|M|36.88,46.60|N|From First Arcanist Thalyssra.|PRE|42230|
 P Sanctum of Order|QID|41877|ACTIVE|41877|M|36.69,44.65|N|Take the portal to Sanctum of Order.|
 R The Grand Promenade|QID|41877|ACTIVE|41877|M|44.65,63.44;46.32,63.06;47.04,61.28|CS|N|Use your mask (Extra action button) and leave the Sanctum of Order, Run to the Concourse of Destiny, and onto the portal to go up, and turn to your right, to find Ly'leth Lunastre.|
 C Lady Lunastre|QID|41877|M|47.05,61.97|CHAT|N|Talk with Lady Lunastre.|
@@ -1157,9 +1157,6 @@ A Fel Tanning|QID|40214|PRE|40212;40213|M|26.53,71.61|P|Leatherworking;165|N|Fro
 C Fel Tanning|QID|40214|M|26.54,71.70|P|Leatherworking;165|N|Create, at the tanning rack:\nFel Leather Cuff x2\nFel Leather Strap x10 (you make 2 each time).\n Create Felhide Bracers.|
 t Fel Tanning|QID|40214|M|26.53,71.61|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
 
-; Quests to fill in while waiting to hit Honoured.
-
-N You are Rep Gated|QID|41107|REP|The Nightfallen;1859;unknown-friendly|N|Next Chain requires Honored, so here are some quests you can do between the World Quests to reach honoured. Manually check this step off.|RANK|2|
 N Bad Apples|QID|41107|N|Quest is near the Menagerie, either run that way, or use the Sanctum of Order Portal.|RANK|2|
 A Bad Apples|QID|41107|M|42.44,59.32;44.27,56.60;47.25,56.50|CS|N|From Keelay Moongrow|RANK|2|
 A Blast of Spice Fish|QID|41256|M|47.25,56.50|N|From Keelay Moongrow|RANK|2|
@@ -1190,11 +1187,8 @@ C Shalassic Park|QID|43582|M|52.02,55.71|QO|2|N|Escape the Menagerie, run the 's
 C Shalassic Park|QID|43582|M|56.05,56.49|QO|3|N|Adversaries slain - trample or eat the demons till you get 50.|RANK|2|
 T Shalassic Park|QID|43582|M|50.71,56.60|N|To Nighteyes, back in the water.|RANK|2|
 
-; Good Suramaritan - Blood and Wine storyline. Requires Honored
-
-N You are Rep Gated|QID|44561|REP|The Nightfallen;1859;neutral-friendly|N|Next Chain requires Honored, so off to do World Quests.|
 t Seed of Hope|QID|44561|M|36.83,46.54|N|To Valewalker Farodin.|
-A Moths to a Flame|QID|42828|PRE|42488|REP|The Nightfallen;1859;Honored-Exalted|M|36.83,46.54|N|From Valewalker Farodin.|
+A Moths to a Flame|QID|42828|PRE|42488|M|36.83,46.54|N|From Valewalker Farodin.|
 A Growing Strong|QID|44562|PRE|44561|M|36.83,46.54|N|From Valewalker Farodin.|
 C Moths to a Flame|QID|42828|M|36.53,46.74|QO|1|NC|N|Click on the Underglow Locusts to Collect them.|
 T Moths to a Flame|QID|42828|M|36.83,46.54|N|To Valewalker Farodin.|
@@ -1270,10 +1264,7 @@ A And They Will Tremble|QID|44052|PRE|42792|M|48.37,83.33|N|From Vanthir.|
 P Shal'Aran|QID|44052|M|47.74,81.39|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T And They Will Tremble|QID|44052|M|36.91,46.58|N|To First Arcanist Thalyssra.|
 
-; Good Suramaritan - Statecraft Story line - Quest chain at 8,000 Honoured.
-
-N You are Rep Gated|QID|43309|REP|The Nightfallen;1859;Honored-Exalted;8000;true|M|36.87,46.57|N|The next questline requires 8K into Honored. So, do world quests and otherwise get your Faction Rep up.|
-A The Perfect Opportunity|QID|43309|REP|The Nightfallen;1859;Honored-Exalted;8000|M|36.87,46.57|N|From First Arcanist Thalyssra.|
+A The Perfect Opportunity|QID|43309|M|36.87,46.57|N|From First Arcanist Thalyssra.|
 P Starcaller Retreat|QID|43309|M|36.48,44.72|N|Take the portal to the Waning Crescent. This next step requires you to have 1200 Ancient Mana.|ACTIVE|43309|
 C The Perfect Opportunity|QID|43309|M|47.85,83.06|N|Meet Ly'leth at the Waning Crescent|
 T The Perfect Opportunity|QID|43309|M|47.85,83.06|N|To Ly'leth Lunastre.|
@@ -1321,8 +1312,6 @@ T Friends With Benefits|QID|44053|M|36.56,46.77|N|To First Arcanist Thalyssra.|
 t Growing Strong|QID|44562|M|36.54,46.77|N|To Valewalker Farodin.|
 A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|N|From Valewalker Farodin.|
 
-N You are Rep Gated|QID|44152|M|36.54,46.77|REP|The Nightfallen;1859;Revered-Exalted;7000;true|N|Next Chain requires 7K into Revered, so off to do World Quests.|
-
 A A Growing Crisis|QID|44152|PRE|44053;44562|M|36.54,46.77|N|From Valewalker Farodin.|
 P Temple of Fal'adora|QID|44152|ACTIVE|44152|M|35.94,45.55|N|Take the Portal to Falanaar.|
 T A Growing Crisis|QID|44152|M|42.38,15.05|Z|Temple of Fal'adora@Suramar|N|To Valewalker Farodin.|
@@ -1343,10 +1332,7 @@ C The Stuff of Dreams|QID|43362|M|36.51,46.75|QO|1|NA|N|Xavius slain - LFR Rift 
 C The Stuff of Dreams|QID|43362|M|36.51,46.75|QO|2|NA|NC|N|Purified Life Essence LFR Rift of Aln, After leaving the dream, near Cenarius|
 T The Stuff of Dreams|QID|43362|M|36.51,46.75|NA|N|To Valewalker Farodin.|
 
-; Good Suramaritan - change of seasons 20/21K revered
-
-N You are Rep Gated|QID|43502|PRE|43362|REP|The Nightfallen;1859;Revered-Exalted;20000;true|N|Next Chain requires 20K into Revered (and killing Xavius in The Emerald Nightmare Raid), Continue doing World Quests.|
-A A Change of Seasons|QID|43502|REP|The Nightfallen;1859;Revered-Exalted;20000|PRE|43362|M|36.84,46.56|N|From Valewalker Farodin|
+A A Change of Seasons|QID|43502|PRE|43362|M|36.84,46.56|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|N|To Arcanist Valtrois|
 A Giving It All We've Got|QID|43562|PRE|43502|M|37.02,43.24|N|From Arcanist Valtrois|
 C Giving It All We've Got|QID|43562|M|37.2,46.24|CHAT|N|Talk to Arcanist Valtrois. Don't worry about the one still dark.|

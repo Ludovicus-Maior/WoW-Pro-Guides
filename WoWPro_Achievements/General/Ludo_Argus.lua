@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2017-12-19 02:19
+-- Who: Emmaleah
+-- Log: more changes to make the debug list happy-6 errors remain - that are not actually errors.
+
+-- URL: http://wow-pro.com/node/3741/revisions/28829/view
+-- Date: 2017-12-18 11:01
+-- Who: Emmaleah
+-- Log: Made the |PRE| changes Grail integration is yelling about, also a couple of others it didn't want, but I did to make the guide flow better.
+
+-- URL: http://wow-pro.com/node/3741/revisions/28800/view
 -- Date: 2017-09-29 10:01
 -- Who: Emmaleah
 -- Log: added Light's Purchase, 2nd scouting map mission and a few other things.
@@ -86,6 +96,7 @@ T The Hand of Fate|QID|47221|M|21.36,30.46|Z|Stormwind City|N|To Vereesa Windrun
 A Two If By Sea|QID|47222|PRE|47221|M|21.36,30.46|Z|Stormwind City|N|From Vereesa Windrunner.|FACTION|Alliance|
 C Two If By Sea|QID|47222|M|21.36,30.46|Z|Stormwind City|QO|1|CHAT|N|Tell Vereesa you are ready!|FACTION|Alliance|
 T Two If By Sea|QID|47222|M|20.64,53.26|Z|Floor1@AzuremystScenario|N|To Vindicator Boros.|FACTION|Alliance|
+
 A The Hand of Fate|QID|47835|N|Accept from UI pop-up.|FACTION|Horde|
 P The Hand of Fate|QID|47835|M|55.29,24.00|Z|Dalaran@Dalaran70|QO|1|N|Take a portal to Orgrimmar.|FACTION|Horde|
 C The Hand of Fate|QID|47835|M|58.29,12.09|Z|Durotar|QO|2|NC|N|Meet escort at Bladefist Bay|FACTION|Horde|
@@ -95,7 +106,7 @@ C Two If By Sea|QID|47867|M|58.29,12.09|Z|Durotar|QO|1|CHAT|N|Tell Lady Liadrin 
 T Two If By Sea|QID|47867|M|21.38,55.04|Z|Floor1@AzuremystScenario|N|To Vindicator Boros.|FACTION|Horde|
 
 ; THE ASSAULT BEGINS
-A Light's Exodus|QID|47223|PRE|47222+47867|M|20.64,53.26|Z|Floor1@AzuremystScenario|N|From Vindicator Boros.|
+A Light's Exodus|QID|47223|PRE|47222+47867|M|20.64,53.26|Z|Floor1@AzuremystScenario|N|From Vindicator Boros.|;not spurious-ignore grail integration
 T Light's Exodus|QID|47223|M|33.79,65.57|Z|Floor2@AzuremystScenario|N|To Prophet Velen.|
 A The Vindicaar|QID|47224|PRE|47223|M|33.79,65.57|Z|Floor2@AzuremystScenario|N|From Prophet Velen.|
 C The Vindicaar|QID|47224|M|33.66,66.36|Z|Floor2@AzuremystScenario|QO|1|NC|N|Activate the Beacon by clicking on it.|
@@ -111,7 +122,7 @@ A Righteous Fury|QID|47589|PRE|46938|M|60.82,79.38|N|From Prophet Velen.|
 N Underwhelming Weapon|AVAILABLE|46297|N|Illidan will give you Relics for your current spec ~880 ilevel, switch specs before accepting and turning in if you need to.|
 A Overwhelming Power|QID|46297|PRE|46938|M|60.91,79.22|N|From Illidan Stormrage.|
 C Overwhelming Power|QID|46297|M|58.08,77.15|N|Slay Demons.|S|
-A A Stranger's Plea|QID|48483|PRE|46938|M|58.78,78.36|N|From Chieftain Hatuun.|
+A A Stranger's Plea|QID|48483|M|58.78,78.36|N|From Chieftain Hatuun.|
 C A Stranger's Plea|QID|48483|M|55.77,74.67|U|152472|N|Felbound Drudge healed.|S|
 C Righteous Fury|QID|47589|M|57.92,77.71|QO|1|NC|N|Click on the three crystals to destroy the Southern Devastator.|
 C Righteous Fury|QID|47589|M|59.20,74.31|QO|3|NC|N|Click on the three crystals to destroy the Eastern Devastator.|
@@ -128,11 +139,11 @@ T Vengeance|QID|47627|M|54.33,75.26|N|To Illidan Stormrage.|
 A Signs of Resistance|QID|47641|PRE|47627|M|54.24,75.42|N|From Prophet Velen.|
 C Signs of Resistance|QID|47641|M|60.07,69.66|QO|1|NC|N|Search for signs of resistance.|
 T Signs of Resistance|QID|47641|M|59.91,69.15|N|To Prophet Velen.|
-A The Prophet's Gambit|QID|46732|PRE|47641|M|59.91,69.15|N|From Prophet Velen.|
+A The Prophet's Gambit|QID|46732|M|59.91,69.15|N|From Prophet Velen.|
 C The Prophet's Gambit|QID|46732|M|56.73,67.67|QO|1|NC|N|Follow Velen.|
 C The Prophet's Gambit|QID|46732|M|56.75,67.67|QO|2|NC|N|Wait for the dialog to end.|
 T The Prophet's Gambit|QID|46732|M|56.75,67.67|N|To Prophet Velen.|
-A Rendezvous|QID|46816|M|56.64,67.42|PRE|46732|N|From High Exarch Turalyon.|
+A Rendezvous|QID|46816|PRE|47632|M|56.64,67.42|N|From High Exarch Turalyon.|
 C Rendezvous|QID|46816|M|55.48,67.35|N|Click on the Signal Crystal to activate.|
 T Rendezvous|QID|46816|M|56.65,67.43|N|To High Exarch Turalyon.|
 A From Darkness|QID|46839|PRE|46816|M|56.65,67.43|N|From High Exarch Turalyon.|
@@ -147,7 +158,7 @@ K Kill Kar'aaz|QID|46841|M|48.76,57.75|QO|1|T|Kar'aaz|
 C Prisoners No More|QID|46840|M|51.01,56.84|NC|N|Darkfallen Slaves rescued.|US|
 T Threat Reduction|QID|46841|M|50.40,53.82|N|To High Exarch Turalyon.|
 T Prisoners No More|QID|46840|M|50.40,53.82|N|To High Exarch Turalyon.|
-A A Strike at the Heart|QID|46842|PRE|46840|M|50.40,53.82|N|From High Exarch Turalyon.|
+A A Strike at the Heart|QID|46842|PRE|46840;46841|M|50.40,53.82|N|From High Exarch Turalyon.|
 C A Strike at the Heart|QID|46842|M|50.40,53.82|QO|1|CHAT|N|Speak with Turalyon to begin the fight.|
 K Kill Aggonar|QID|46842|M|52.01,52.66|QO|2|T|Aggonar|
 T A Strike at the Heart|QID|46842|M|51.56,52.80|N|To High Exarch Turalyon.|
@@ -209,26 +220,26 @@ C An Offering of Light|QID|48559|M|57.81,71.35|Z|Lower Deck@ArgusSurface|U|15259
 C The Vindicaar Matrix Core|QID|47287|M|50.01,46.35|Z|Lower Deck@ArgusSurface|NC|N|Link Light's Judgment by clicking on the Matrix Core.|
 T The Vindicaar Matrix Core|QID|47287|M|43.22,23.27|Z|Upper Deck@ArgusSurface|N|To Grand Artificer Romuul.|
 T An Offering of Light|QID|48559|M|40.21,23.49|Z|Upper Deck@ArgusSurface|N|To Prophet Velen.|
-A The Burning Heart|QID|48199|PRE|48559|M|40.21,23.49|Z|Upper Deck@ArgusSurface|N|From Prophet Velen.|
+A The Burning Heart|QID|48199|PRE|47743|M|40.21,23.49|Z|Upper Deck@ArgusSurface|N|From Prophet Velen.|
 F Vindicaar, Antoran Wastes|QID|48199|M|42.41,22.91|Z|Upper Deck@ArgusSurface|N|Use the Navigation Console to take the Vindicaar to the Antoran Wastes.|
 T The Burning Heart|QID|48199|M|32.44,59.52|Z|Upper Deck@ArgusCore|N|To Prophet Velen.|
 A Securing a Foothold|QID|48200|PRE|48199|M|33.55,58.32|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon.|
 C Securing a Foothold|QID|48200|M|32.66,55.65|Z|Upper Deck@ArgusCore|QO|1|CHAT|N|Speak with Romuul to reach the surface.|
 C Securing a Foothold|QID|48200|M|72.96,50.51|Z|ArgusCore|QO|2|NC|N|Place the Lightforged Beacon.|
 T Securing a Foothold|QID|48200|M|72.90,50.25|Z|ArgusCore|N|To High Exarch Turalyon.|
-A Turalyon's Quest|QID|48201;48202|PRE|48200|M|72.90,50.25|Z|ArgusCore|N|High Exarch Turalyon will offer you one of two quests here.|
+A Turalyon's Quest|QID|48201;48202|M|72.90,50.25|Z|ArgusCore|N|High Exarch Turalyon will offer you one of two quests here.|
 C Reinforce the Veiled Den|QID|48202|M|68.77,26.12|Z|ArgusCore|CHAT|N|Speak with Illidan at the Veiled Den.|
 t Reinforce the Veiled Den|QID|48202|M|68.78,26.13|Z|ArgusCore|N|To Illidan Stormrage.|
-A Sizing Up The Opposition|QID|48929|PRE|48202|M|68.78,26.10|Z|ArgusCore|N|From Illidan Stormrage.|
+A Sizing Up The Opposition|QID|48929|PRE|48202|M|68.78,26.10|Z|ArgusCore|N|From Illidan Stormrage.|;not spurious; can't be done before you find Illidan at Veiled Den, true you don't have to turn in reinforce veiled den, but you may as well.
 F Vindicaar, Antoran Wastes|QID|48929|M|70.59,25.46|Z|ArgusCore|N|Use the portal in the Veiled Den to return to the Vindicaar.|ACTIVE|48929|
 C Reinforce Light's Purchase|QID|48201|M|72.4,74.8|Z|ArgusCore|CHAT|N|Speak with Alleria Windrunner at Light's Purchase.|
 t C Reinforce Light's Purchase|QID|48201|M|72.4,74.8|Z|ArgusCore|N|To Alleria Windrunner.|
-A Sizing Up The Opposition|QID|47473|PRE|48201|M|72.4,74.8|Z|ArgusCore|N|From Alleria Windrunner.|
+A Sizing Up The Opposition|QID|47473|PRE|48201|M|72.4,74.8|Z|ArgusCore|N|From Alleria Windrunner.|;not spurious; can't be done before you find Illidan at Veiled Den, true you don't have to turn in reinforce light's purchase, but you may as well.
 F Vindicaar, Antoran Wastes|QID|47473|M|72.4,74.8|Z|ArgusCore|N|Use the portal to in Light's Purchase to return to the Vindicaar.|ACTIVE|47473|
 T Sizing Up The Opposition|QID|48929;47473|M|33.50,58.28|Z|Upper Deck@ArgusCore|N|To High Exarch Turalyon.|
 ; DARK AWAKENINGS
-A The Speaker Calls|QID|47889|PRE|48929+47473|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon.|
-A Fuel of a Doomed World|QID|48799|PRE|48929|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon. This becomes a weekly repeatable quest.|
+A The Speaker Calls|QID|47889|PRE|48559|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon.|
+A Fuel of a Doomed World|QID|48799|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon. This becomes a weekly repeatable quest.|
 t Fuel of a Doomed World|QID|48799|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|To High Exarch Turalyon.|
 F Krokul Hovel|ACTIVE|47889|N|Use to console to go to Krokul.|
 T The Speaker Calls|QID|47889|M|56.76,67.49|NC|N|To Magni Bronzebeard.|
@@ -264,12 +275,12 @@ T Dire News|QID|47891|M|39.01,24.77|Z|Upper Deck@ArgusSurface|N|To High Exarch T
 A Storming the Citadel|QID|47892|PRE|47891|M|39.01,24.77|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon.|
 C Scouting Map|QID|48441|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|Head downstairs to the Scouting map and complete the mission, "Darkfall Ridge Supplies". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
 t Remnants of Darkfall Ridge|QID|48441|M|56.58,67.57|N|To Chieftain Hatuun who is at Krokul Hovel.|
-A Nath'raxas Hold: Preparations|QID|48442|M|56.58,67.57|N|From Chieftain Hatuun.|
-A Supplying Krokuun|QID|48910|M|56.58,67.57|N|From Chieftain Hatuun. This is a weekly repeatable quest for an extra minion.|
-T Supplying Krokuun|QID|48910|M|56.58,67.57|N|To Chieftain Hatuun. Check off manually if you don't plan on doing the quest. There is a followup, but it is considerably more expensive.|
-C Nath'raxas Hold: Preparations|QID|48442|NC|N|If you don't have your champion's leveled up, you will need to manually check this off. Completing it opens up some missions that will earn you faction.|
+A Nath'raxas Hold: Preparations|QID|48442|M|56.58,67.57|N|From Chieftain Hatuun.|PRE|48441|;not spurious-ignore grail integration.
+A Supplying Krokuun|QID|48910|M|56.58,67.57|N|From Chieftain Hatuun. This is a weekly repeatable quest for an extra minion.|PRE|48441|;not spurious-ignore grail integration.
+T Supplying Krokuun|QID|48910|M|56.58,67.57|N|To Chieftain Hatuun. Check off manually if you don't plan on doing the quest. There is a followup, but it is considerably more expensive. Get the 2nd minion if resources are not in short supply for you!|
+C Nath'raxas Hold: Preparations|QID|48442|NC|N|If you don't have your champion's leveled up, you will need to manually check this off until then. Completing it opens up some missions that will earn you faction.|
 t Nath'raxas Hold: Preparations|QID|48442|M|56.58,67.57|N|To Chieftain Hatuun.|
-A Nath'raxas Hold: Rescue Missions|QID|48443|M|56.58,67.57|N|From Chieftain Hatuun.|
+A Nath'raxas Hold: Rescue Missions|QID|48443|M|56.58,67.57|N|From Chieftain Hatuun.|PRE|48441|;not spurious-ignore grail integration
 C Scouting Map|QID|48443|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the "Nath'raxas Breakout". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
 t Nath'raxas Hold: Rescue Mission|QID|48443|M|56.58,67.57|N|To Chieftain Hatuun.|
 
@@ -315,10 +326,10 @@ C Lord of the Spire|QID|47993|M|50.53,17.64|NC|QO|2|N|Rejoin your forces, outsid
 T Lord of the Spire|QID|47993|M|39.01,24.77|Z|Upper Deck@ArgusSurface|N|To High Exarch Turalyon.|
 A Forming a Bond|QID|47994|PRE|47993|M|43.43,23.21|Z|Upper Deck@ArgusSurface|N|From Grand Artificer Romuul.|
 T Forming a Bond|QID|47994|M|43.43,23.21|Z|Upper Deck@ArgusSurface|N|To Grand Artificer Romuul.|
-A A Floating Ruin|QID|48081|PRE|47994|M|40.25,23.49|Z|Upper Deck@ArgusSurface|N|From Prophet Velen.|
+A A Floating Ruin|QID|48081|PRE|47993|M|40.25,23.49|Z|Upper Deck@ArgusSurface|N|From Prophet Velen.|
 F Vindicaar, Mac'Aree|QID|48081|M|42.46,22.88|Z|Upper Deck@ArgusSurface|QO|1|N|Use the Navigation Console to go to Mac'Aree.|
 T A Floating Ruin|QID|48081|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
-A Mac'Aree, Jewel of Argus|QID|46815|PRE|48081|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
+A Mac'Aree, Jewel of Argus|QID|46815|PRE|48461|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
 C Mac'Aree, Jewel of Argus|QID|46815|M|49.63,23.70|Z|Upper Deck@ArgusMacAree|QO|1|CHAT|N|Tell Romuul you are ready.|
 C Mac'Aree, Jewel of Argus|QID|46815|M|55.32,82.17|Z|ArgusMacAree|QO|2|CHAT|N|Ask Velen to continue. Cutscene shows him remembering when he was here last.|
 C Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.87|Z|ArgusMacAree|QO|3|NC|N|Walk with Velen while he reminisces.|
@@ -376,13 +387,13 @@ T The Sigil of Awakening|QID|48107|M|53.29,50.00|Z|Upper Deck@ArgusMacAree|N|To 
 ;Opening up invasion points
 A Where They Least Expect It|QID|48461|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage.|PRE|47993|
 C Invasion Point|QID|48461|M|49.16,23.09|Z|Upper Deck@ArgusMacAree|NC|N|Open the Navigation Console and find an invasion point.  \nI recommend either the one closest to a lightforged beacon or the one with the least time remaining, (especially if there is one under half an hour). \nRun to the invasion point and thru the demonic portal and follow the instructions on your scenario tracker.|
-H Vindicaar, Mac'Aree|QID|48461|N|After it is finished return to Illidan for the follow up. If you set your hearthstone to the Vindicaar that is a easy way back.|
+H The Vindicaar, Mac'Aree|QID|48461|N|After it is finished return to Illidan for the follow up. If you set your hearthstone to the Vindicaar that is a easy way back.|
 t Where They Least Expect It|QID|48461|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|To Illidan Stormrage.|
-A Invasion Point Offensive|QID|48513|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage.|PRE|48461|
+A Invasion Point Offensive|QID|48513|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage.|
 C Invasion Points|QID|48513|M|49.16,23.09|Z|Upper Deck@ArgusMacAree|NC|N|This time you have to do 3 invasion points. A new one starts every 2 hours, so there are always 3 active, but obviously if you just finished one, only 2 are available right now. After you turn this quest in, Greater invasion points open up which are on on a weekly lockout. They require more people (and a group is recommended). You can do them once a week and earn better loot. Manually check this off if you want to progress to other parts of the guide.|
 H Vindicaar|QID|48461|N|After it is finished return to Illidan for the follow up. If you set your hearthstone to the Vindicaar that is a easy way back.|
 t Invasion Point Offensive|QID|48513|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|To Illidan Stormrage.|
-A Commander's Downfall|QID|48605|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage.|PRE|48513|
+A Commander's Downfall|QID|48605|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage.|
 C Greater Invasion Point|QID|48605|M|49.16,23.09|Z|Upper Deck@ArgusMacAree|NC|N|Open the Navigation Console and find the Greater Invasion Point. One is always available. Only one can be done per week.|
 H Vindicaar|QID|48605|N|After it is finished return to Illidan.|
 t Commander's Downfall|QID|48605|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|To Illidan Stormrage.|
@@ -391,16 +402,16 @@ t Commander's Downfall|QID|48605|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|To Il
 F Shattered Fields|QID|47102|M|42.64,22.76|Z|Upper Deck@ArgusSurface|N|Open the Navigation Console and go to the Shattered Fields in Krokuun.|
 A The Mysterious Missive|QID|47102|M|40.6,70.0|N|From Lightforged Courier, near Shattered Fields.|
 T The Mysterious Missive|QID|47102|M|40.4,63.6|N|To Captain Fareeya.|
-A Intercepting the Legion's Plans|QID|47554|PRE|47102|M|40.4,63.6|N|From Captain Fareeya.|
+A Intercepting the Legion's Plans|QID|47554|M|40.4,63.6|N|From Captain Fareeya.|
 C Enigmatic Legion Orders|QID|47554|QO|1|N|Kill and loot demons in the area.|S|
 C Army of the Light Code Book|QID|47554|QO|2|NC|M|31.0,57.7|N|Loot the corpse of Codebreaker Brae.|
 C Enigmatic Legion Orders|QID|47554|QO|1|N|Continue killing demons until you have 2 Enigmatic Legion Orders.|US|
 T Intercepting the Legion's Plans|QID|47554|M|40.4,63.6|N|To Captain Fareeya.|
-A Imprisoned Inquisitor|QID|47104|PRE|47554|M|40.4,63.6|N|From Captain Fareeya.|
+A Imprisoned Inquisitor|QID|47104|M|40.4,63.6|N|From Captain Fareeya.|
 F Vindicaar|QID|47104|M|40.32,63.50|N|Use the Lightforged Beacon to travel back to the Vindicaar.|
 C Speak with Romuul|QID|47104|QO|1|CHAT|N|Go back to the Vindicaar and chat with Romuul.|
 T Imprisoned Inquisitor|QID|47104|M|43.46,23.14|Z|Upper Deck@ArgusSurface|N|To Grand Artificer Romuul.|
-A Foiling the Legion's Jailbreak|QID|47134|PRE|47104|M|43.46,23.14|Z|Upper Deck@ArgusSurface|N|From Grand Artificer Romuul.|
+A Foiling the Legion's Jailbreak|QID|47134|M|43.46,23.14|Z|Upper Deck@ArgusSurface|N|From Grand Artificer Romuul.|
 C Travel to the Arcatraz|QID|47134|QO|1|M|43.46,23.14|Z|Upper Deck@ArgusSurface|CHAT|N|Ask Grand Artificer Romuul to do the scenario.|
 C Search the Arcatraz|QID|47134|QO|2|N|Make your way through Arcatraz till you see a Legion Portal.|M|39.12,39.47|Z|1173/1|
 C Close 2 Legion Portals|QID|47134|QO|3|N|Close the portals. The second is in the round room.|M|64.19,23.87|Z|1173/1|
@@ -423,9 +434,9 @@ T Long Overdue|QID|47182|M|43.46,23.14|Z|Upper Deck@ArgusSurface|N|To Grand Arti
 A We Have a Problem|QID|48344|M|44.73,22.21|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon.|PRE|48107|
 F Conservatory of the Arcane|ACTIVE|48344|M|42.59,22.80|Z|Upper Deck@ArgusSurface|N|Use the Navigation console to go to the Conservatory.|
 T We Have a Problem|QID|48344|M|62.64,39.41|Z|ArgusMacAree|N|To High Exarch Turalyon.|
-A Wrath of the High Exarch|QID|47854|PRE|48344|M|62.64,39.41|Z|ArgusMacAree|N|From High Exarch Turalyon.|
-A A Non-Prophet Organization|QID|47691|PRE|48344|M|62.64,39.41|Z|ArgusMacAree|N|From High Exarch Turalyon.|
-A Overt Ops|QID|47995|PRE|48344|M|62.69,39.29|Z|ArgusMacAree|N|From Captain Fareeya.|
+A Wrath of the High Exarch|QID|47854|M|62.64,39.41|Z|ArgusMacAree|N|From High Exarch Turalyon.|
+A A Non-Prophet Organization|QID|47691|M|62.64,39.41|Z|ArgusMacAree|N|From High Exarch Turalyon.|
+A Overt Ops|QID|47995|M|62.69,39.29|Z|ArgusMacAree|N|From Captain Fareeya.|
 C Wrath of the High Exarch|QID|47854|M|54.91,26.59|Z|ArgusMacAree|QO|1|N|Kill Legion forces and otherwise disrupt their operation.|S|
 C Overt Ops|QID|47995|M|54.86,35.32|Z|ArgusMacAree|QO|1|NC|N|Orders given to Baraat.|
 C Overt Ops|QID|47995|M|53.59,26.52|Z|ArgusMacAree|QO|2|NC|N|Orders given to Sorvos.|
@@ -435,29 +446,29 @@ C A Non-Prophet Organization|QID|47691|M|59.20,21.15|Z|ArgusMacAree|NC|N|Find Ve
 T A Non-Prophet Organization|QID|47691|M|59.09,20.06|Z|ArgusMacAree|N|To Prophet Velen.|
 T Overt Ops|QID|47995|M|59.14,20.20|Z|ArgusMacAree|N|To High Exarch Turalyon.|
 T Wrath of the High Exarch|QID|47854|M|59.14,20.20|Z|ArgusMacAree|N|To High Exarch Turalyon.|
-A Flanking Maneuvers|QID|47853|PRE|47854;47691;47995|M|59.14,20.20|Z|ArgusMacAree|N|From High Exarch Turalyon.|
-A Talgath's Forces|QID|48345|PRE|47854;47691;47995|M|59.08,20.07|Z|ArgusMacAree|N|From Prophet Velen.|
+A Flanking Maneuvers|QID|47853|M|59.14,20.20|Z|ArgusMacAree|N|From High Exarch Turalyon.|
+A Talgath's Forces|QID|48345|M|59.08,20.07|Z|ArgusMacAree|N|From Prophet Velen.|
 C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|ArgusMacAree|QO|1|NC|N|Legion portals closed.|S|
 C Talgath's Forces|QID|48345|M|50.84,9.18|Z|ArgusMacAree|QO|1|N|Talgath's forces slain.|
 C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|ArgusMacAree|QO|1|NC|N|Legion portals closed.|US|
 R Kil'jaeden's Terrace|ACTIVE|48345|M|53.87,12.69;52.26,14.86;53.43,17.75;52.31,20.36|Z|ArgusMacAree|CS|N|Go here to meet Velen.|
 T Talgath's Forces|QID|48345|M|48.80,19.73|Z|ArgusMacAree|N|To Prophet Velen.|
 T Flanking Maneuvers|QID|47853|M|48.80,19.73|Z|ArgusMacAree|N|To Prophet Velen.|
-A What Might Have Been|QID|47855|PRE|47853;48345|M|48.80,19.73|Z|ArgusMacAree|N|From Prophet Velen.|
+A What Might Have Been|QID|47855|M|48.80,19.73|Z|ArgusMacAree|N|From Prophet Velen.|
 C What Might Have Been|QID|47855|M|48.80,19.73|Z|ArgusMacAree|NC|CHAT|N|Ask Velen to show you.|
 T What Might Have Been|QID|47855|M|48.81,19.71|Z|ArgusMacAree|N|To Prophet Velen.|
-A Across the Universe|QID|47856|PRE|47855|M|48.81,19.71|Z|ArgusMacAree|N|From Prophet Velen.|
+A Across the Universe|QID|47856|M|48.81,19.71|Z|ArgusMacAree|N|From Prophet Velen.|
 C Across the Universe|QID|47856|M|49.39,18.94|Z|ArgusMacAree|QO|1|CHAT|N|Tell Velen you are ready.|
 K Talgath|ACTIVE|47856|M|50.15,17.50|Z|ArgusMacAree|QO|2|N|Talgath defeated.|T|Talgath|
 T Across the Universe|QID|47856|M|50.13,17.91|Z|ArgusMacAree|N|To Prophet Velen.|
-A Shadow of the Triumvirate|QID|47416|PRE|47856|M|50.13,17.91|Z|ArgusMacAree|N|From Prophet Velen.|
+A Shadow of the Triumvirate|QID|47416|M|50.13,17.91|Z|ArgusMacAree|N|From Prophet Velen.|
 F Vindicaar|QID|47416|M|43.87,14.52|Z|ArgusMacAree|QO|1|N|Return to the Vindicaar.|
 T Shadow of the Triumvirate|QID|47416|M|57.01,60.30|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
-A The Seat of the Triumvirate|QID|47238|PRE|47416|M|57.01,60.30|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
+A The Seat of the Triumvirate|QID|47238|M|57.01,60.30|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
 C The Seat of the Triumvirate|QID|47238|M|57.01,60.30|Z|Upper Deck@ArgusMacAree|NC|QO|1|N|Go with Velen.|
 C The Seat of the Triumvirate|QID|47238|M|58.29,59.61|Z|Upper Deck@ArgusMacAree|QO|2|CHAT|N|Listen to Alleria's Tale.|
 T The Seat of the Triumvirate|QID|47238|M|57.01,60.30|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
-A Whispers from Oronaar|QID|40761|PRE|47238|M|58.29,59.61|Z|Upper Deck@ArgusMacAree|N|From Alleria Windrunner.|
+A Whispers from Oronaar|QID|40761|M|58.29,59.61|Z|Upper Deck@ArgusMacAree|N|From Alleria Windrunner.|
 F Triumvirate's End|ACTIVE|40761|M|48.95,23.18|Z|Upper Deck@ArgusMacAree|N|Go to the console and go!|
 C Whispers from Oronaar|QID|40761|M|48.35,69.34|Z|ArgusMacAree|QO|1|NC|N|Investigate the Ruins of Oronaar.|
 A Arkhaan's Prayers|QID|47101|ACTIVE|40761|M|46.74,69.09|Z|ArgusMacAree|N|From Prayer Effigy (statue).|
@@ -468,23 +479,23 @@ C Whispers from Oronaar|QID|40761|M|46.52,72.47|Z|ArgusMacAree|QO|3|NC|N|Abandon
 C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|ArgusMacAree|N|Finish collecting the Fragmented Prayers.|US|
 T Arkhaan's Prayers|QID|47101|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
 T Whispers from Oronaar|QID|40761|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A The Pulsing Madness|QID|47180|PRE|47101;40761|M|43.41,67.61|Z|ArgusMacAree|N|From Alleria Windrunner.|
-A Arkhaan's Pain|QID|47100|PRE|47101;40761|M|43.47,67.71|Z|ArgusMacAree|N|From Arkhaan.|
+A The Pulsing Madness|QID|47180|M|43.41,67.61|Z|ArgusMacAree|N|From Alleria Windrunner.|
+A Arkhaan's Pain|QID|47100|M|43.47,67.71|Z|ArgusMacAree|N|From Arkhaan.|
 C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|ArgusMacAree|N|Broken slain.|S|
 C The Pulsing Madness|QID|47180|M|42.14,71.10|Z|ArgusMacAree|NC|U|151563|N|Void Manifestations cleansed.|
 C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|ArgusMacAree|N|Broken slain.|US|
 T The Pulsing Madness|QID|47180|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
 T Arkhaan's Pain|QID|47100|M|43.48,67.72|Z|ArgusMacAree|N|To Arkhaan.|
-A Arkhaan's Plan|QID|47183|PRE|47100;47180|M|43.48,67.72|Z|ArgusMacAree|N|From Arkhaan.|
+A Arkhaan's Plan|QID|47183|M|43.48,67.72|Z|ArgusMacAree|N|From Arkhaan.|
 C Arkhaan's Plan|QID|47183|M|40.60,62.67|Z|ArgusMacAree|QO|1|NC|N|Follow Arkhaan.|
 C Arkhaan's Plan|QID|47183|M|40.42,61.98|Z|ArgusMacAree|QO|2|CHAT|N|Tell Arkhaan we should keep going.|
 C Arkhaan's Plan|QID|47183|M|35.46,59.69|Z|ArgusMacAree|QO|3|N|Escort Arkhaan to Isolon.|
 T Arkhaan's Plan|QID|47183|M|35.34,59.54|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A Arkhaan's Peril|QID|47184|PRE|47183|M|35.34,59.54|Z|ArgusMacAree|N|From Alleria Windrunner.|
+A Arkhaan's Peril|QID|47184|M|35.34,59.54|Z|ArgusMacAree|N|From Alleria Windrunner.|
 C Arkhaan's Peril|QID|47184|M|35.48,59.40|Z|ArgusMacAree|QO|1|NC|N|Cross into the Void.|
 K Arkhaan|ACTIVE|47184|M|35.92,58.22|Z|ArgusMacAree|QO|2|N|Deal with Arkhaan.|T|Arkhaan|
 T Arkhaan's Peril|QID|47184|M|35.34,59.53|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A Throwing Shade|QID|47203|PRE|47184|M|35.33,59.54|Z|ArgusMacAree|N|From Alleria Windrunner.|
+A Throwing Shade|QID|47203|M|35.33,59.54|Z|ArgusMacAree|N|From Alleria Windrunner.|
 C Throwing Shade|QID|47203|M|36.21,53.99|Z|ArgusMacAree|QO|1|NC|N|Meet Alleria in Umbra Hollows.|
 C Throwing Shade|QID|47203|M|37.10,52.35|Z|ArgusMacAree|QO|2|NC|N|Enter the Void Tear. You will be stealthed and need to sneak around.|
 C Throwing Shade|QID|47203|M|39.61,48.31|Z|ArgusMacAree|QO|3|NC|N|Dismantled Portal examined.|
@@ -492,23 +503,23 @@ C Throwing Shade|QID|47203|M|35.53,43.69|Z|ArgusMacAree|QO|4|NC|N|Image of Sapri
 C Throwing Shade|QID|47203|M|36.04,38.75|Z|ArgusMacAree|QO|5|NC|N|Voidforge examined.|
 C Throwing Shade|QID|47203|M|32.15,37.78|Z|ArgusMacAree|QO|6|NC|N|Meet Alleria and Locus-Walker.|
 T Throwing Shade|QID|47203|M|31.87,37.47|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A Sources of Darkness|QID|47217|PRE|47203|M|31.87,37.47|Z|ArgusMacAree|N|From Alleria Windrunner.|
-A The Shadowguard Incursion|QID|47218|PRE|47203|M|31.94,37.31|Z|ArgusMacAree|N|From Locus-Walker.|
+A Sources of Darkness|QID|47217|M|31.87,37.47|Z|ArgusMacAree|N|From Alleria Windrunner.|
+A The Shadowguard Incursion|QID|47218|M|31.94,37.31|Z|ArgusMacAree|N|From Locus-Walker.|
 C The Shadowguard Incursion|QID|47218|M|26.28,32.91|Z|ArgusMacAree|N|Kill Shadowguard Ethereals.|S|
 C Sources of Darkness|QID|47217|M|25.62,32.46|Z|ArgusMacAree|NC|N|Deactivate Void Harvesters.|
 C The Shadowguard Incursion|QID|47218|M|26.28,32.91|Z|ArgusMacAree|N|Finish killing the Shadowguard Ethereals.|S|
 T Sources of Darkness|QID|47217|M|31.88,37.45|Z|ArgusMacAree|N|To Alleria Windrunner.|
 T The Shadowguard Incursion|QID|47218|M|31.93,37.34|Z|ArgusMacAree|N|To Locus-Walker.|
-A A Vessel Made Ready|QID|47219|PRE|47217;47218|M|31.93,37.34|Z|ArgusMacAree|N|From Locus-Walker.|
+A A Vessel Made Ready|QID|47219|M|31.93,37.34|Z|ArgusMacAree|N|From Locus-Walker.|
 C A Vessel Made Ready|QID|47219|M|31.95,37.02|Z|ArgusMacAree|QO|1|NC|N|Enter the Void Tear.|
 K Kill Nhal'athoth|ACTIVE|47219|M|26.62,45.21|Z|ArgusMacAree|QO|2|N|Defeat Nhal'athoth, after killing the 3 Shadowcallers.|T|Nhal'athoth|
 C A Vessel Made Ready|QID|47219|M|26.60,44.99|Z|ArgusMacAree|QO|3|NC|N|Loot the Heart of Nhal'athoth.|
 T A Vessel Made Ready|QID|47219|M|28.45,47.19|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A A Beacon in the Dark|QID|47220|PRE|47219|M|28.44,47.21|Z|ArgusMacAree|N|From Alleria Windrunner.|
+A A Beacon in the Dark|QID|47220|M|28.44,47.21|Z|ArgusMacAree|N|From Alleria Windrunner.|
 F Vindicaar, Mac'Aree|QID|47220|M|30.16,49.56|Z|ArgusMacAree|QO|1|NC|N|Return to the Vindicaar.|
 T A Beacon in the Dark|QID|47220|M|53.33,50.19|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
-A An Offering of Shadow|QID|48560|PRE|47220|M|53.33,50.19|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
-A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|PRE|47220|M|53.33,50.19|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen. Seat of the Triumvirate Dungeon.|
+A An Offering of Shadow|QID|48560|M|53.33,50.19|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
+A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|M|53.33,50.19|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen. Seat of the Triumvirate Dungeon.|
 C An Offering of Shadow|QID|48560|M|56.20,68.40|Z|Lower Deck@ArgusMacAree|QO|1|U|152594|NC|N|Go downstairs to the Netherlight Crucible and infuse it with the Essence of Shadow.\nClick on it.|
 T An Offering of Shadow|QID|48560|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|To Artificer Shela'na.|
 A The Netherlight Crucible|QID|49224|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|From Artificer Shela'na.|ACH|12184|
