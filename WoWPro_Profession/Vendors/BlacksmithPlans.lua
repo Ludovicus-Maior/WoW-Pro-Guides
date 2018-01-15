@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/blacksmithing_plans
+-- Date: 2018-01-15 19:09
+-- Who: Ludovicus
+-- Log: Correct source of [Adamantite Rapier] for Alliance from Thunder Bluff to The Exodar!
+
+-- URL: http://wow-pro.com/node/3566/revisions/28201/view
 -- Date: 2017-01-02 22:44
 -- Who: Ludovicus_Maior
 -- Log: New registration style
@@ -57,7 +62,7 @@ B Elementium Gutslicer|QID|990094718|RECIPE|94718|M|51.50,42.70|Z|Ironforge|FACT
 B Elementium Gutslicer|QID|990094718|RECIPE|94718|M|56.80,52.50|Z|Darnassus|FACTION|Alliance|P|Blacksmithing;164;515|N|Sold by Layna Karner in Darnassus.\nBind on Pickup.|
 B Elementium Gutslicer|QID|990094718|RECIPE|94718|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;515|N|Sold by Eriden in Silvermoon City.\nBind on Pickup.|
 B Adamantite Rapier|QID|990029571|RECIPE|29571|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;335|N|Limited quantity sold by Eriden in Silvermoon City.|
-B Adamantite Rapier|QID|990029571|RECIPE|29571|M|60.00,89.50|Z|Thunder Bluff|FACTION|Alliance|P|Blacksmithing;164;335|N|Limited quantity sold by Arras in Thunder Bluff.|
+B Adamantite Rapier|QID|990029571|RECIPE|29571|M|61.00,89.00|Z|The Exodar|FACTION|Alliance|P|Blacksmithing;164;335|N|Limited quantity sold by Arras in The Exodar.|
 B Adamantite Rapier|QID|990029571|RECIPE|29571|M|63.10,71.10|Z|Shattrath City|P|Blacksmithing;164;335|N|Limited quantity sold by Aaron Hollman in Shattrath City.|
 B Forged Elementium Mindcrusher|QID|990094732|RECIPE|94732|M|63.50,37.60|Z|Stormwind City|FACTION|Alliance|P|Blacksmithing;164;520|N|Sold by Kaita Deepforge in Stormwind City.\nBind on Pickup.|
 B Forged Elementium Mindcrusher|QID|990094732|RECIPE|94732|M|75.80,35.20|Z|Orgrimmar|FACTION|Horde|P|Blacksmithing;164;520|N|Sold by Sumi in Orgrimmar.\nBind on Pickup.|

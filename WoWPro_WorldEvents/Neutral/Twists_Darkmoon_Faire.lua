@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2018-01-15 19:07
+-- Who: Ludovicus
+-- Log: Update Cannon-Blast for new falling dynamics.
+
+-- URL: http://wow-pro.com/node/3459/revisions/28668/view
 -- Date: 2017-05-14 22:51
 -- Who: Ludovicus_Maior
 -- Log: You can only have one Jubling per account, I think.
@@ -242,7 +247,7 @@ T It's Hammer Time|QID|29463|N|To Mola.|RANK|2|
 
 A The Humanoid Cannonball|QID|29436|M|52.67,56.09|N|From Maxima Blastenheimer.|RANK|2|
 N Achievement|QID|29436|ACH|6021;0|N|Talk to Teleportologist Fozlebub for a return trip.|M|57.25,89.85|S|RANK|2|
-C The Humanoid Cannonball|QID|29436|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (1) right when you are about to go past the dock.|RANK|2|
+C The Humanoid Cannonball|QID|29436|M|55.6, 83.3|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (key 1) right when you are about to go past the waypoint.|RANK|2|
 T The Humanoid Cannonball|QID|29436|N|To Maxima Blastenheimer.|RANK|2|
 
 T The Enemy's Insignia|QID|29457|M|51.76,60.55|N|To Professor Thaddeus Paleo.|

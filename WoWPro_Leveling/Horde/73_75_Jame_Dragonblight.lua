@@ -92,7 +92,6 @@
 
 local guide = WoWPro:RegisterGuide("JamDra7375", "Leveling", "Dragonblight", "Jame", "Horde")
 WoWPro:GuideLevels(guide,71,74, 71.3291)
-WoWPro:NewGuideLevels(guide, 61, 80)
 WoWPro:GuideNextGuide(guide, "JamGriH7577")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
