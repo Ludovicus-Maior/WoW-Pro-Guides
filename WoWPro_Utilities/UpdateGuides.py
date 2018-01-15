@@ -109,7 +109,7 @@ class FindGuides(HTMLParser):
             self.feed(self._lump)
             self._lump = self._rootHandle.read()
         logging.info("URL yielded %d items" % len(self._list))
-        logging.debug(join(self._list))
+        logging.debug(", ".join(self._list))
         return self._list
 
 Guides = {}
