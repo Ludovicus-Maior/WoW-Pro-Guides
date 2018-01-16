@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2018-01-17 00:40
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3598/revisions/28583/view
 -- Date: 2017-03-23 19:17
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -118,6 +123,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmTalador', 'Leveling', 'Talador', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,94, 96, 94.7)
+WoWPro:NewGuideLevels(guide,94,100)
 WoWPro:GuideIcon(guide,"ACH",8940)
 WoWPro:GuideNextGuide(guide, 'EmmSoArak')
 WoWPro:GuideSteps(guide, function()

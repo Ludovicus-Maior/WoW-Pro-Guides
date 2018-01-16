@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2018-01-16 23:32
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3265/revisions/28385/view
 -- Date: 2017-03-15 21:26
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to CraBur5052
@@ -98,6 +103,7 @@
 
 local guide = WoWPro:RegisterGuide('CraBur5052', "Leveling", 'Burning Steppes', 'Crackerhead22', 'Alliance')
 WoWPro:GuideLevels(guide,49,51, 49.073)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'CraSwa5254')
 WoWPro:GuideIcon(guide,"ACH",4901)
 WoWPro:GuideSteps(guide, function()

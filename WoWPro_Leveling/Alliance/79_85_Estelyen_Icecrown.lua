@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2018-01-17 00:03
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3301/revisions/28399/view
 -- Date: 2017-03-15 21:53
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to EstIce7985
@@ -100,6 +105,7 @@
 
 local guide = WoWPro:RegisterGuide("EstIce7985", "Leveling", "Icecrown", "Estelyen", "Alliance")
 WoWPro:GuideLevels(guide,77,77,77)
+WoWPro:NewGuideLevels(guide,67,80)
 WoWPro:GuideNextGuide(guide, "Arihyj8082")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

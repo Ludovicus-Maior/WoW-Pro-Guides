@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2018-01-16 23:59
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3287/revisions/28565/view
 -- Date: 2017-03-23 17:59
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -88,6 +93,7 @@
 
 local guide = WoWPro:RegisterGuide("JamHow7274", "Leveling", "Howling Fjord", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,68,71, 68.3412)
+WoWPro:NewGuideLevels(guide,58,80)
 WoWPro:GuideNextGuide(guide, "JamDra7475")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2018-01-17 00:39
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3587/revisions/28581/view
 -- Date: 2017-03-23 19:13
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -245,13 +250,9 @@
 -- Who: Emmaleah
 -- Log: yet another edit, rearranged the order on some stuff, realized the building quests needed to be at the end since it takes an hour to build them.  - 2 quests have a bad turn in sequence that I need to fix next time through - which should be this week
 
--- URL: http://wow-pro.com/node/3587/revisions/26714/view
--- Date: 2014-10-12 10:54
--- Who: Emmaleah
--- Log: @build 19005 - added all building quests and all profession quests, other minor changes
-
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,91, 92, 90.7)
+WoWPro:NewGuideLevels(guide,90,100)
 WoWPro:GuideIcon(guide,"ACH",8937)
 WoWPro:GuideNextGuide(guide, 'EmmGorgrond')
 WoWPro:GuideSteps(guide, function()

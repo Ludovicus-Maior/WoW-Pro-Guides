@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2018-01-16 23:31
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3257/revisions/28835/view
 -- Date: 2018-01-15 19:03
 -- Who: Ludovicus
 -- Log: Add tags according to Grail
@@ -81,6 +86,7 @@
 
 local guide = WoWPro:RegisterGuide('WkjFel4550', "Leveling", 'Felwood', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,44,49,45.3277)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'JiyWin5055')
 WoWPro:GuideIcon(guide,"ACH",4931)
 WoWPro:GuideSteps(guide, function()

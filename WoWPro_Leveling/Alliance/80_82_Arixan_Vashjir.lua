@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2018-01-17 00:10
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3305/revisions/28567/view
 -- Date: 2017-03-23 18:29
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -225,12 +230,9 @@
 -- Date: 2011-01-02 02:35
 -- Who: JamesL85
 
--- URL: http://wow-pro.com/node/3305/revisions/23874/view
--- Date: 2010-12-31 09:30
--- Who: JamesL85
-
 local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
 WoWPro:GuideLevels(guide,80,80, 79.9802)
+WoWPro:NewGuideLevels(guide,80,90)
 WoWPro:GuideNextGuide(guide, 'AriDee8283')
 WoWPro:GuideIcon(guide,"ACH",4825)
 WoWPro:GuideSteps(guide, function()

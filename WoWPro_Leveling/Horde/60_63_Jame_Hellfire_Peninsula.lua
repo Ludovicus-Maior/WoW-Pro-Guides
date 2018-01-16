@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2018-01-16 23:56
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3272/revisions/28573/view
 -- Date: 2017-03-23 19:02
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -107,6 +112,7 @@
 
 local guide = WoWPro:RegisterGuide("JamHel6063", "Leveling", "Hellfire Peninsula", "Jame", "Horde")
 WoWPro:GuideLevels(guide,58,62,58.9286)
+WoWPro:NewGuideLevels(guide,58,80)
 WoWPro:GuideNextGuide(guide, "JamZan6365")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

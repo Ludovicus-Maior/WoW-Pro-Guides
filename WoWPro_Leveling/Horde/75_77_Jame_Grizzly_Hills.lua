@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2018-01-17 00:05
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3294/revisions/28578/view
 -- Date: 2017-03-23 19:09
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -104,6 +109,7 @@
 
 local guide = WoWPro:RegisterGuide("JamGriH7577", "Leveling", "Grizzly Hills", "Jame", "Horde")
 WoWPro:GuideLevels(guide,72,73, 72.8222)
+WoWPro:NewGuideLevels(guide,63,80)
 WoWPro:GuideNextGuide(guide, "ScoZul7778")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-01-16 23:35
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3203/revisions/28821/view
 -- Date: 2017-11-24 19:04
 -- Who: Ludovicus
 -- Log: Race updates for quests in Mulgore.

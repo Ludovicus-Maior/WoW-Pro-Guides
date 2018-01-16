@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2018-01-16 23:56
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3274/revisions/28574/view
 -- Date: 2017-03-23 19:03
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -76,6 +81,7 @@
 
 local guide = WoWPro:RegisterGuide("JamZan6365", "Leveling", "Zangarmarsh", "Jame", "Horde")
 WoWPro:GuideLevels(guide,59 ,62, 60.6108)
+WoWPro:NewGuideLevels(guide,60,80)
 WoWPro:GuideNextGuide(guide, "JamTer6567")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

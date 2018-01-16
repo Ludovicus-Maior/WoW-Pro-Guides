@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2018-01-17 00:11
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3309/revisions/28492/view
 -- Date: 2017-03-17 00:25
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -177,6 +182,7 @@
 
 local guide = WoWPro:RegisterGuide('AriUld8384', "Leveling", 'Uldum', 'Hezkezl', 'Neutral')
 WoWPro:GuideLevels(guide,82,83,82.995)
+WoWPro:NewGuideLevels(guide,83,90)
 WoWPro:GuideNextGuide(guide, 'MagTwi8485|LiaTwi8485')
 WoWPro:GuideIcon(guide,"ACH",4865)
 WoWPro:GuideSteps(guide, function()

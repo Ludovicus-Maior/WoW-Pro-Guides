@@ -3,10 +3,21 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/dailies_fishing_dailies_capitol_cities_shattrath_dalaran
+-- Date: 2018-01-15 18:52
+-- Who: Ludovicus
+-- Log: Enable WoWPro:GuideAutoSwitch(guide)
+
+-- URL: http://wow-pro.com/node/3752/revisions/28832/view
+-- Date: 2018-01-15 18:50
+-- Who: Ludovicus
+-- Log: Initial Version
+
 local guide = WoWPro:RegisterGuide("LudoFishing",'Dailies', "Azeroth", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,70,70,70)
 WoWPro:GuideName(guide, "Fishing Dailies")
 WoWPro:GuideIcon(guide,"PRO",9)
+WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Alliance Daily fishing guide
@@ -83,8 +94,8 @@ A Thunder Falls|QID|26536|M|55.0,69.6|Z|Stormwind City|N|From Catherine Leland|O
 C Violet Perch|QID|26536|M|22.10,57.10;18.52,60.70;17.65,67.90;20.70,59.56;17.67,64.33;22.97,58.91;25.92,59.76|CN|Z|Elwynn Forest|N|Head out to Elwynn Forest to Thunder Falls, north of Mirror lake on top of the hill.|FACTION|Alliance|
 T Thunder Falls|QID|26536|M|55.0,69.6|Z|Stormwind City|N|To Catherine Leland|FACTION|Alliance|
 
-; Horde Fishing Guide https://www.wowhead.com/quests/max-req-level:80/side:2?filter=48;356;0
-; Orgrimmar https://www.wowhead.com/npc=43239/razgar
+; Horde Fishing Guidehttps://www.wowhead.com/quests/max-req-level:80/side:2?filter=48;356;0
+; Orgrimmarhttps://www.wowhead.com/npc=43239/razgar
 A A Furious Catch|QID|26588|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|From Razgar|O|FACTION|Horde|
 C Giant Furious Pike|QID|26588|M|36.20,22.70;36.70,12.45;35.53,2.45;37.20,20.35;37.00,4.45;37.20,18.00;36.77,6.98;36.90,9.75;37.39,15.64|Z|Durotar|CN|N|Head out to the Southfury River on the Durotar or Northen Barrens banks to fish. Do not go to Ashenvale or Azshara!|FACTION|Horde|
 T A Furious Catch|QID|26588|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|To Razgar|FACTION|Horde|
@@ -103,13 +114,11 @@ A Clammy Hands|QID|26543|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|From Razgar|O|FACTI
 C Clam Meat|QID|26543|M|58.55,4.65;56.83,9.80;58.91,8.80;58.39,12.43;57.98,6.71|CN|Z|Durotar|N|Head out to the Orgrimmar docks, and click on the clams.|FACTION|Horde|
 T Clammy Hands|QID|26543|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|To Razgar|FACTION|Horde|
 
-
 A No Dumping Allowed|QID|26556|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|From Razgar|O|FACTION|Horde|
 C Toxic Puddlefish|QID|26556|M|36.42,82.70;39.00,83.12;35.83,79.95;37.53,84.48;38.24,80.28;35.62,77.46|CN|Z|Orgrimmar@Orgrimmar|N|Go to the Goblin Slums in Orgrimmar and fish them up.|FACTION|Horde|
 T No Dumping Allowed|QID|26556|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|To Razgar|FACTION|Horde|
 
-
-; Thunder Bluff https://www.wowhead.com/npc=3028/kah-mistrunner
+; Thunder Bluffhttps://www.wowhead.com/npc=3028/kah-mistrunner
 A Craving Crayfish|QID|29349|M|56,47|Z|Thunder Bluff|N|From Kah Mistrunner|O|FACTION|Horde|
 C Stonebull Crayfish|QID|29349|M|51.90,49.30;44.52,56.04;46.64,53.17;43.82,59.54;53.48,52.05;49.72,51.88;52.43,55.18;45.51,63.42|CN|Z|Mulgore|N|Head out to Stonebull Lake around Bloodhoof Villiage and click on the Crayfish.|T|Stonebull Crayfish|FACTION|Horde|
 T Craving Crayfish|QID|29349|M|56,47|Z|Thunder Bluff|N|To Kah Mistrunner|FACTION|Horde|
@@ -131,7 +140,7 @@ R Pools of Vision|ACTIVE|29346|M|30.67,31.53|Z|Thunder Bluff|N|Head over to the 
 C Blind Cavefish|QID|29346|M|28.59,20.83;26.36,17.25;21.95,17.55;27.64,23.98;24.61,21.02|CN|Z|Thunder Bluff|Now fish the pools in the cave.  Have at least 3 open bag slots when you try to fillet the fish to get the ring.|U|69956|FACTION|Horde|
 T The Ring's the Thing|QID|29346|M|28.8,20.6|Z|Thunder Bluff|N|To Poshken Hardbinder, |FACTION|Horde|
 
-; Undercity https://www.wowhead.com/npc=4573/armand-cromwell
+; Undercityhttps://www.wowhead.com/npc=4573/armand-cromwell
 A Fish Head|QID|29317|M|81,31.2|Z|Undercity|N|From Armand Cromwell|O|FACTION|Horde|
 C Abomination Head|QID|29317|N|Fish any of the waters in Undercity to recover the head.|FACTION|Horde|
 T Fish Head|QID|29317|M|48.4,69.4|Z|Undercity|N|To Master Apothecary Faranell|FACTION|Horde|
@@ -155,7 +164,7 @@ A Time for Slime|QID|29322|M|81,31.2|Z|Undercity|N|From Armand Cromwell|O|FACTIO
 C Squirming Slime Molds|QID|29322|M|49.60,55.00;50.50,30.40;52.00,52.60;52.30,35.80;63.70,39.70;64.70,66.90;67.00,71.00;67.90,40.30;68.40,47.00;71.70,65.20;79.50,33.50;80.00,57.10;81.40,43.00;81.70,56.00;80.40,59.30;52.80,31.55;56.60,62.60;73.10,68.45;55.00,60.65;79.62,27.30;58.65,68.30;81.24,31.71;51.00,41.55;66.42,47.58;50.75,45.20;80.85,29.12;79.92,36.08;65.78,40.55;73.59,24.24;67.60,21.80;65.78,17.60;64.65,70.90;82.20,34.03;63.88,47.27;81.03,45.27;48.20,44.35;65.18,21.34;83.68,40.88;76.65,26.75;77.20,23.40;57.34,21.40;78.42,30.85;53.20,25.35;78.74,60.89;56.35,64.60;75.25,65.70;83.70,44.20|CN|Z|Undercity|N|Fish any slime trough in Undercity for the Molds.|FACTION|Horde|
 T Time for Slime|QID|29322|M|81,31.2|Z|Undercity|N|From Armand Cromwell|FACTION|Horde|
 
-; Shattrath City https://www.wowhead.com/npc=25580/old-man-barlo#starts , Level 70
+; Shattrath Cityhttps://www.wowhead.com/npc=25580/old-man-barlo#starts, Level 70
 
 A Bait Bandits|QID|11666|M|38.6,12.8|Z|Terokkar Forest|N|From Old Man Barlo|O|
 C Blackfin Darter|QID|11666|M|55.60,51.30;59.80,34.90;59.80,54.20;51.80,35.50;51.65,33.40;55.35,29.40;52.33,27.57;59.90,38.25;52.51,37.68;58.95,29.32;52.61,30.94;55.45,44.55;51.67,40.65|Z|Terokkar Forest|CN|N|Fish rivers in the Terokkar Forest for your Blackfin Darter|
@@ -179,7 +188,7 @@ A The One That Got Away|QID|11667|M|38.6,12.8|Z|Terokkar Forest|N|From Old Man B
 C World's Largest Mudfish|QID|11667|M|37.40,43.80;60.50,31.60;61.00,26.80;62.90,32.10;34.45,44.40;33.25,54.80;57.50,24.08;34.25,46.92;35.90,50.80;31.07,55.08;58.09,33.06;59.30,25.25;37.45,46.33;54.53,30.07;61.06,34.49|CN|Z|Nagrand|N|Head out to Nagrand and fish the lakes for the Mudfish.|
 T The One That Got Away|QID|11667|M|38.6,12.8|Z|Terokkar Forest|N|To Old Man Barlo|
 
-; Dalaran https://www.wowhead.com/npc=28742, Level 70
+; Dalaranhttps://www.wowhead.com/npc=28742, Level 70
 A Jewel Of The Sewers|QID|13832|M|52.6,64.8|Z|Dalaran City@Dalaran|N|From Marcia Chase|O|
 C Jewel Of The Sewers|QID|13832|M|40.60,57.10;43.80,67.80;61.10,12.40;37.40,51.70;36.95,47.60;32.85,47.30;44.44,65.18|Z|The Underbelly@DalaranCity|CN|N|Go to the sewers and fish away.|L|45903|FACTION|Horde|
 T Jewel Of The Sewers|QID|13832|M|52.6,64.8|Z|Dalaran City@Dalaran|N|To Marcia Chase|
@@ -210,7 +219,3 @@ N Horde Fishing|N|This Horde Fishing guide uses the auto-switch functionality.  
 ]]
 
 end)
-
-
-
-

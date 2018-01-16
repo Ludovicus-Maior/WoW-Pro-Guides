@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2018-01-17 00:32
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3485/revisions/28493/view
 -- Date: 2017-03-17 00:27
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -148,6 +153,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmVal8688', "Leveling", 'Valley of the Four Winds', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,86,87, 85.9498)
+WoWPro:NewGuideLevels(guide,81,90)
 WoWPro:GuideNextGuide(guide, 'RajKra8788|EmmKra8788')
 WoWPro:GuideIcon(guide,"ACH",6969)
 WoWPro:GuideSteps(guide, function()

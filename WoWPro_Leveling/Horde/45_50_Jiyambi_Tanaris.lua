@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
+-- Date: 2018-01-16 23:45
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3260/revisions/28435/view
 -- Date: 2017-03-15 23:33
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to JiyTan4550
@@ -52,6 +57,7 @@
 
 local guide = WoWPro:RegisterGuide('JiyTan4550', "Leveling", 'Tanaris', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,43,49, 44.6667)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'JiyUng5055')
 WoWPro:GuideIcon(guide,"ACH",4935)
 WoWPro:GuideSteps(guide, function()

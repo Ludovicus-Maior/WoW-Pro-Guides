@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2018-01-16 23:33
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3267/revisions/28387/view
 -- Date: 2017-03-15 21:29
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to CraBla5458
@@ -115,6 +120,7 @@
 
 local guide = WoWPro:RegisterGuide('CraBla5458', "Leveling", 'Blasted Lands', 'Crackerhead22', 'Alliance')
 WoWPro:GuideLevels(guide,54,58, 54.2819)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'JamHel6062')
 WoWPro:GuideIcon(guide,"ACH",4909)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2018-01-17 00:01
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3295/revisions/28488/view
 -- Date: 2017-03-17 00:19
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -127,6 +132,7 @@
 
 local guide = WoWPro:RegisterGuide("ScoZul7778", "Leveling", "Zul'Drak", "Scoot", "Neutral")
 WoWPro:GuideLevels(guide,74,75, 74.0604)
+WoWPro:NewGuideLevels(guide,64,80)
 WoWPro:GuideNextGuide(guide, "ScoSho7879|ScoSho7879")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2018-01-16 23:14
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3233/revisions/28363/view
 -- Date: 2017-03-13 17:36
 -- Who: Ludovicus_Maior
 
@@ -92,6 +97,7 @@
 
 local guide = WoWPro:RegisterGuide('WkjSton2530', "Leveling", 'Stonetalon Mountains', 'WKjezz', 'Alliance')
 WoWPro:GuideLevels(guide,24,27, 25.2466)
+WoWPro:NewGuideLevels(guide,20,60)
 WoWPro:GuideNextGuide(guide, 'WkjDes3035')
 WoWPro:GuideIcon(guide,"ACH",4936)
 WoWPro:GuideSteps(guide, function()

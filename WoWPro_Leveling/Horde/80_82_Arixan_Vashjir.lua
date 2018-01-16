@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2018-01-17 00:14
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3306/revisions/28580/view
 -- Date: 2017-03-23 19:12
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -138,6 +143,7 @@
 
 local guide = WoWPro:RegisterGuide('AriVasH8082', "Leveling", "Vash'jir", 'Arixan', 'Horde')
 WoWPro:GuideLevels(guide,80,80, 79.988)
+WoWPro:NewGuideLevels(guide,80,90)
 WoWPro:GuideNextGuide(guide, 'AriDee8283')
 WoWPro:GuideIcon(guide,"ACH",4825)
 WoWPro:GuideSteps(guide, function()

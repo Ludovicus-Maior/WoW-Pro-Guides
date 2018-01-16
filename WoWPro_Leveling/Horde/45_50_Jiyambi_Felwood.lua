@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_horde
+-- Date: 2018-01-16 23:45
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3258/revisions/28572/view
 -- Date: 2017-03-23 19:01
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -71,6 +76,7 @@
 
 local guide = WoWPro:RegisterGuide('JiyFel4550', "Leveling", 'Felwood', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,44,49, 45.3600)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'JiyWin5055')
 WoWPro:GuideIcon(guide,"ACH",4931)
 WoWPro:GuideSteps(guide, function()

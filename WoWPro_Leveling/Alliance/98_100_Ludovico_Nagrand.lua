@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2018-01-17 00:38
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3618/revisions/28569/view
 -- Date: 2017-03-23 18:32
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -150,6 +155,7 @@
 
 local guide = WoWPro:RegisterGuide('LudoNagrand', 'Leveling', 'Nagrand@Draenor', 'Ludo+Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,98, 100, 98.7)
+WoWPro:NewGuideLevels(guide,98,100)
 WoWPro:GuideIcon(guide,"ACH",8942)
 WoWPro:GuideSteps(guide, function()
 return [[

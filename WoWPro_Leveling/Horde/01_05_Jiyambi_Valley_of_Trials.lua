@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-01-16 23:34
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3199/revisions/28755/view
 -- Date: 2017-08-23 23:08
 -- Who: Linkslegend5
 -- Log: As of 6.2.4, the quest Spirits Be Praised was removed from the game.
@@ -283,11 +288,6 @@
 -- Date: 2013-01-13 19:07
 -- Who: Ludovicus_Maior
 -- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"
-
--- URL: http://wow-pro.com/node/3199/revisions/25461/view
--- Date: 2013-01-13 18:58
--- Who: Ludovicus_Maior
--- Log: Added CS tag
 
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)

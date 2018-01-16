@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2018-01-16 23:17
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3237/revisions/28364/view
 -- Date: 2017-03-13 17:38
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
@@ -135,6 +140,7 @@
 
 local guide = WoWPro:RegisterGuide('BitCap3035', "Leveling", 'The Cape of Stranglethorn', 'Bitsem', 'Alliance')
 WoWPro:GuideLevels(guide,29,34, 30.1168)
+WoWPro:NewGuideLevels(guide,30,60)
 WoWPro:GuideNextGuide(guide, 'BitWes3540')
 WoWPro:GuideIcon(guide,"ACH",4905)
 WoWPro:GuideSteps(guide, function()

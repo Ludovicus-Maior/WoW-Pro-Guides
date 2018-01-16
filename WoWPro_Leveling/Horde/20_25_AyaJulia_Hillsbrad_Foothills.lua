@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
+-- Date: 2018-01-16 23:37
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3223/revisions/28421/view
 -- Date: 2017-03-15 23:14
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to AyaHil2025
@@ -69,6 +74,7 @@
 
 local guide = WoWPro:RegisterGuide('AyaHil2025', "Leveling", 'Hillsbrad Foothills', 'Shanyn', 'Horde')
 WoWPro:GuideLevels(guide,19,25,20.3378)
+WoWPro:NewGuideLevels(guide,15,60)
 WoWPro:GuideNextGuide(guide, 'JiyAra2530')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2018-01-16 23:46
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3266/revisions/28436/view
 -- Date: 2017-03-15 23:34
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to LiaBur5052
@@ -84,6 +89,7 @@
 
 local guide = WoWPro:RegisterGuide('LiaBur5052', "Leveling", 'Burning Steppes', 'Liavan', 'Horde')
 WoWPro:GuideLevels(guide,49,57,49.082)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'LiaSwa5255')
 WoWPro:GuideIcon(guide,"ACH",4901)
 WoWPro:GuideSteps(guide, function()

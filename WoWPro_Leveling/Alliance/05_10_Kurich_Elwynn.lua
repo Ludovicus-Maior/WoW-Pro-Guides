@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2018-01-16 23:20
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3197/revisions/28558/view
 -- Date: 2017-03-23 17:48
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -242,10 +247,6 @@
 -- URL: http://wow-pro.com/node/3197/revisions/23254/view
 -- Date: 2010-12-02 17:31
 -- Who: wkjezz
-
--- URL: http://wow-pro.com/node/3197/revisions/23243/view
--- Date: 2010-12-02 09:47
--- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("KurElw0511", "Leveling", "Elwynn Forest", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,4,9,5.79167)

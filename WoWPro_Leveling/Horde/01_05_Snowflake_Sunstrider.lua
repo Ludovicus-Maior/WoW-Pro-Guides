@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2018-01-16 23:54
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3207/revisions/28416/view
 -- Date: 2017-03-15 23:00
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to SnoEve0512
@@ -251,10 +256,6 @@
 
 -- URL: http://wow-pro.com/node/3207/revisions/23289/view
 -- Date: 2010-12-03 07:13
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3207/revisions/23279/view
--- Date: 2010-12-02 23:20
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("SnoSun0105", "Leveling", "Sunstrider Isle", "Snowflake", "Horde")

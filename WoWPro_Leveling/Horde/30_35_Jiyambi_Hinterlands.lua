@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
+-- Date: 2018-01-16 23:41
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3240/revisions/28426/view
 -- Date: 2017-03-15 23:21
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to JiyHin3035
@@ -53,6 +58,7 @@
 
 local guide = WoWPro:RegisterGuide('JiyHin3035', 'Leveling', 'The Hinterlands', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,29,34, 30.6218)
+WoWPro:NewGuideLevels(guide,30,60)
 WoWPro:GuideNextGuide(guide, 'JiyWes3540')
 WoWPro:GuideIcon(guide,"ACH",4897)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2018-01-17 00:39
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3599/revisions/28582/view
 -- Date: 2017-03-23 19:16
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -158,6 +163,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmGorgrond', 'Leveling', 'Gorgrond', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,92, 94,92.3228)
+WoWPro:NewGuideLevels(guide,92,100)
 WoWPro:GuideIcon(guide,"ACH",8939)
 WoWPro:GuideNextGuide(guide, 'EmmTalador')
 WoWPro:GuideSteps(guide, function()

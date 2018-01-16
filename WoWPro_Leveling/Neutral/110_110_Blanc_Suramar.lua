@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2018-01-17 00:44
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3687/revisions/28828/view
 -- Date: 2017-12-04 22:44
 -- Who: cameljon
 -- Log: Rep gating removed on Aug 29.
@@ -249,13 +254,9 @@
 -- Who: cameljon
 -- Log: Reordered some quests for Moonguard. Also, Matron Hagatha moved to a closer quest.
 
--- URL: http://wow-pro.com/node/3687/revisions/28115/view
--- Date: 2016-12-07 16:18
--- Who: Blanckaert
--- Log: Added a PRE to 42489, since Grail now reports to WP, that it needs one
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
+WoWPro:NewGuideLevels(guide,110,110)
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Suramar")
 WoWPro:GuideSteps(guide, function()

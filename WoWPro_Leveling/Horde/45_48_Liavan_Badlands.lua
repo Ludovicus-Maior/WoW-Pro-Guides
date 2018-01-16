@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
+-- Date: 2018-01-16 23:43
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3248/revisions/28433/view
 -- Date: 2017-03-15 23:30
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to LiaBad4548
@@ -71,6 +76,7 @@
 
 local guide = WoWPro:RegisterGuide('LiaBad4548', "Leveling", 'Badlands', 'Liavan', 'Horde')
 WoWPro:GuideLevels(guide,44,46, 44.016)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'CraSea4850')
 WoWPro:GuideIcon(guide,"ACH",4900)
 WoWPro:GuideSteps(guide, function()

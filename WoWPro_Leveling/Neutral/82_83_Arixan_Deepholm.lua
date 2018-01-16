@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2018-01-17 00:12
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3307/revisions/28491/view
 -- Date: 2017-03-17 00:24
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -192,6 +197,7 @@
 
 local guide = WoWPro:RegisterGuide('AriDee8283', "Leveling", 'Deepholm', 'Arixan', 'Neutral')
 WoWPro:GuideLevels(guide,81,83, 81.1907)
+WoWPro:NewGuideLevels(guide,82,90)
 WoWPro:GuideNextGuide(guide, 'AriUld8384|AriUld8384')
 WoWPro:GuideIcon(guide,"ACH",4864)
 WoWPro:GuideSteps(guide, function()

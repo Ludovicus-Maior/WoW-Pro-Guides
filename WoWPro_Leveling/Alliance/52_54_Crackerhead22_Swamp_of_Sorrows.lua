@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
+-- Date: 2018-01-16 23:28
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3249/revisions/28386/view
 -- Date: 2017-03-15 21:27
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to CraSwa5254
@@ -90,6 +95,7 @@
 
 local guide = WoWPro:RegisterGuide('CraSwa5254', "Leveling", 'Swamp of Sorrows', 'Crackerhead22', 'Alliance')
 WoWPro:GuideLevels(guide,51,54,51.782)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'CraBla5458')
 WoWPro:GuideIcon(guide,"ACH",4904)
 WoWPro:GuideSteps(guide, function()

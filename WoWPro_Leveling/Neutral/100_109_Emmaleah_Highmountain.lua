@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2018-01-17 00:42
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3678/revisions/28610/view
 -- Date: 2017-03-26 07:51
 -- Who: Emmaleah
 -- Log: Added turn in of final instance and the quests that pop up after that. Efficiency changes (Moved The High Chieftain, done several steps, move I have a strange feeling, changed wording on follow up. Move Glimmering chest to when leaving Torok's mesa.) and probably a few other things.
@@ -174,6 +179,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide, 98, 110, 98.4096)
+WoWPro:NewGuideLevels(guide,98,110)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Highmountain")
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2018-01-17 00:00
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3289/revisions/28393/view
 -- Date: 2017-03-15 21:41
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to JamBor6872
@@ -123,6 +128,7 @@
 
 local guide = WoWPro:RegisterGuide("JamBor6872", "Leveling", "Borean Tundra", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,65,70,68.4946)
+WoWPro:NewGuideLevels(guide,58,80)
 WoWPro:GuideNextGuide(guide, "JamHow7274")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

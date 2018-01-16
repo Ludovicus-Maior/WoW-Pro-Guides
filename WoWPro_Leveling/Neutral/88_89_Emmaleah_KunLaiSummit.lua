@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2018-01-17 00:33
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3490/revisions/28494/view
 -- Date: 2017-03-17 00:29
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -222,6 +227,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmKun8889', "Leveling", 'Kun-Lai Summit', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,87,89,87.007)
+WoWPro:NewGuideLevels(guide,82,90)
 WoWPro:GuideNextGuide(guide, 'EmmTow8990|EmmTow8990')
 WoWPro:GuideIcon(guide,"ACH",6976)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2018-01-16 23:29
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3251/revisions/28816/view
 -- Date: 2017-11-23 03:30
 -- Who: Ludovicus
 -- Log: Add a few LVL tags that will probably be useless in a few weeks.
@@ -170,6 +175,7 @@
 
 local guide = WoWPro:RegisterGuide('CraEas4045', "Leveling", 'Eastern Plaguelands', 'Crackerhead22', 'Neutral')
 WoWPro:GuideLevels(guide,39,44, 39.1372)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'CraBad4548|LiaBad4548')
 WoWPro:GuideIcon(guide,"ACH",4892)
 WoWPro:GuideSteps(guide, function()

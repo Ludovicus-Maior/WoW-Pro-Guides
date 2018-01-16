@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2018-01-17 00:34
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3493/revisions/28495/view
 -- Date: 2017-03-17 00:31
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -101,6 +106,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmDre8990', "Leveling", 'Dread Wastes', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,87,89,88.9643)
+WoWPro:NewGuideLevels(guide,84,90)
 WoWPro:GuideNextGuide(guide, 'WayKlaxxi')
 WoWPro:GuideIcon(guide,"ACH",6978)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2018-01-16 23:37
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3217/revisions/28417/view
 -- Date: 2017-03-15 23:09
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to BitAzs1220
@@ -118,6 +123,7 @@
 
 local guide = WoWPro:RegisterGuide('BitAzs1220', "Leveling", 'Azshara', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,9,18, 12.6716)
+WoWPro:NewGuideLevels(guide,10,60)
 WoWPro:GuideNextGuide(guide, 'BitAsh2025')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2018-01-16 23:51
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3279/revisions/28564/view
 -- Date: 2017-03-23 17:58
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -134,6 +139,7 @@
 
 local guide = WoWPro:RegisterGuide("JamNag6668", "Leveling", "Nagrand", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,64,68,64.5625)
+WoWPro:NewGuideLevels(guide,64,80)
 WoWPro:GuideNextGuide(guide, "JamBla6870")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

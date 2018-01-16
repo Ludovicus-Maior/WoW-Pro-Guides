@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2018-01-16 23:12
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3229/revisions/28361/view
 -- Date: 2017-03-13 17:33
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
@@ -110,6 +115,7 @@
 
 local guide = WoWPro:RegisterGuide('BitAra2025', "Leveling", 'Arathi Highlands', 'Bitsem', 'Alliance')
 WoWPro:GuideLevels(guide,23,26,25.6333)
+WoWPro:NewGuideLevels(guide,25,60)
 WoWPro:GuideNextGuide(guide, 'CraHin3035')
 WoWPro:GuideIcon(guide,"ACH",4896)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2018-01-16 23:53
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3285/revisions/28394/view
 -- Date: 2017-03-15 21:44
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to CraSha7070A
@@ -144,6 +149,7 @@
 
 local guide = WoWPro:RegisterGuide('CraSha7070A', "Leveling", 'Shadowmoon Valley', 'Crackerhead22', 'Alliance')
 WoWPro:GuideLevels(guide,67,70,67.7799)
+WoWPro:NewGuideLevels(guide,67,80)
 WoWPro:GuideNextGuide(guide, 'JamBor6872')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

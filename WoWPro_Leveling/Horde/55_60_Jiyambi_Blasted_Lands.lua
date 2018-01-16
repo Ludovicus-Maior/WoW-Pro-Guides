@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2018-01-16 23:46
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3268/revisions/28766/view
 -- Date: 2017-08-30 01:26
 -- Who: Linkslegend5
 -- Log: Added Okrilla and the Blasted Lands turn in step from the Swamp of Sorrows guide.
@@ -82,6 +87,7 @@
 
 local guide = WoWPro:RegisterGuide('JiyBla5560', "Leveling", 'Blasted Lands', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,54,58,54.2878)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'JamHel6063')
 WoWPro:GuideIcon(guide,"ACH",4909)
 WoWPro:GuideSteps(guide, function()

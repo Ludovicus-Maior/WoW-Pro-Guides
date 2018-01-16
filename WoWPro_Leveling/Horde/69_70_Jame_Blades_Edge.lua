@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2018-01-16 23:57
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3282/revisions/28444/view
 -- Date: 2017-03-16 16:46
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -77,6 +82,7 @@
 
 local guide = WoWPro:RegisterGuide("JamBla6970", "Leveling", "Blade's Edge Mountains", "Jame", "Horde")
 WoWPro:GuideLevels(guide,61,70, 65.6541)
+WoWPro:NewGuideLevels(guide,65,80)
 WoWPro:GuideNextGuide(guide, "JamHow7071")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

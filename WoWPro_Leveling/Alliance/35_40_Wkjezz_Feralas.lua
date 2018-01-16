@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2018-01-16 23:19
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3243/revisions/28380/view
 -- Date: 2017-03-15 21:16
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to WkjFer3540
@@ -73,6 +78,7 @@
 
 local guide = WoWPro:RegisterGuide('WkjFer3540', "Leveling", 'Feralas', 'WKjezz', 'Alliance')
 WoWPro:GuideLevels(guide,34,38, 35.1758)
+WoWPro:NewGuideLevels(guide,35,60)
 WoWPro:GuideNextGuide(guide, 'WkjTho4045')
 WoWPro:GuideIcon(guide,"ACH",4932)
 WoWPro:GuideSteps(guide, function()

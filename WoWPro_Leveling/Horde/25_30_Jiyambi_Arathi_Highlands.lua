@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2018-01-16 23:39
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3230/revisions/27278/view
 -- Date: 2015-06-02 15:28
 -- Who: Fluclo
 -- Log: Updated |QO| step for the Dabyrie's as it wasn't working properly
@@ -70,6 +75,7 @@
 
 local guide = WoWPro:RegisterGuide('JiyAra2530', "Leveling", 'Arathi Highlands', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,25,29, 25.800)
+WoWPro:NewGuideLevels(guide,25,60)
 WoWPro:GuideNextGuide(guide, 'JiyHin3035')
 WoWPro:GuideIcon(guide,"ACH",4896)
 WoWPro:GuideSteps(guide, function()

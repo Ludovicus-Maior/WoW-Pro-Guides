@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2018-01-17 00:37
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3604/revisions/28404/view
 -- Date: 2017-03-15 22:22
 -- Who: Ludovicus_Maior
 -- Log: Adding PREs to ShadowDraenor
@@ -250,6 +255,7 @@
 
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
+WoWPro:NewGuideLevels(guide,90,100)
 WoWPro:GuideIcon(guide,"ACH",8938)
 WoWPro:GuideNextGuide(guide, 'FlucloGorgrond')
 WoWPro:GuideSteps(guide, function()

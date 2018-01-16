@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-01-16 23:22
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3200/revisions/28344/view
 -- Date: 2017-03-11 20:02
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
@@ -243,11 +248,6 @@
 -- URL: http://wow-pro.com/node/3200/revisions/24625/view
 -- Date: 2011-06-28 20:42
 -- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3200/revisions/24624/view
--- Date: 2011-06-28 20:37
--- Who: Fluclo
--- Log: Updated Grimaxe's Demise to auto-complete
 
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1.1)

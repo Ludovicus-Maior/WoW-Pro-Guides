@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
+-- Date: 2018-01-16 23:44
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3250/revisions/28770/view
 -- Date: 2017-08-31 21:21
 -- Who: Ludovicus_Maior
 -- Log: Someone forgot a ]] at the end!
@@ -89,6 +94,7 @@
 
 local guide = WoWPro:RegisterGuide('LiaSwa5255', "Leveling", 'Swamp of Sorrows', 'Liavan', 'Horde')
 WoWPro:GuideLevels(guide,51,54,51.5657)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'JiyBla5560')
 WoWPro:GuideIcon(guide,"ACH",4904)
 WoWPro:GuideSteps(guide, function()

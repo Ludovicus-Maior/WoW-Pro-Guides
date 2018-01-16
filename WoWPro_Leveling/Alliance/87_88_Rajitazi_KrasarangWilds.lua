@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2018-01-17 00:33
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3488/revisions/28403/view
 -- Date: 2017-03-15 22:12
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to RajKra8788
@@ -129,6 +134,7 @@
 
 local guide = WoWPro:RegisterGuide('RajKra8788', "Leveling", 'Krasarang Wilds', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,86,87,84.5738)
+WoWPro:NewGuideLevels(guide,81,90)
 WoWPro:GuideNextGuide(guide, 'EmmKun8889')
 WoWPro:GuideIcon(guide,"ACH",6975)
 WoWPro:GuideSteps(guide, function()

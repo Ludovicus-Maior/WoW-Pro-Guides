@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2018-01-16 23:27
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3225/revisions/28355/view
 -- Date: 2017-03-11 20:51
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
@@ -146,6 +151,7 @@
 
 local guide = WoWPro:RegisterGuide('WkjAsh2025', "Leveling", 'Ashenvale', 'WKJezz', 'Alliance')
 WoWPro:GuideLevels(guide,19,24, 20.0346)
+WoWPro:NewGuideLevels(guide,15,60)
 WoWPro:GuideNextGuide(guide, 'WkjSton2530')
 WoWPro:GuideIcon(guide,"ACH",4925)
 WoWPro:GuideSteps(guide, function()

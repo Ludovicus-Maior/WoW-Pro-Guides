@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2018-01-16 23:24
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3215/revisions/28353/view
 -- Date: 2017-03-11 20:49
 -- Who: Ludovicus_Maior
 -- Log: Added PREs; syntax changes.
@@ -148,6 +153,7 @@
 
 local guide = WoWPro:RegisterGuide("KurRed1520", "Leveling", "Redridge Mountains", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,14,17, 15.1325)
+WoWPro:NewGuideLevels(guide,15,60)
 WoWPro:GuideNextGuide(guide, "TwiDus2025")
 WoWPro:GuideIcon(guide,"ACH",4902)
 WoWPro:GuideSteps(guide, function()

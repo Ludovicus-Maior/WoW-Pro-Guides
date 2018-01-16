@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2018-01-17 00:06
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3302/revisions/28579/view
 -- Date: 2017-03-23 19:11
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -101,6 +106,7 @@
 
 local guide = WoWPro:RegisterGuide("ScoIce8080", "Leveling", "Icecrown", "Scoot", "Horde")
 WoWPro:GuideLevels(guide,77,77,77)
+WoWPro:NewGuideLevels(guide,67,80)
 WoWPro:GuideNextGuide(guide, "AriVasH8082")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

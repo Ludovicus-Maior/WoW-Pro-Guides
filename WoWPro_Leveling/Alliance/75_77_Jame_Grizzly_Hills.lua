@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2018-01-17 00:01
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3293/revisions/28397/view
 -- Date: 2017-03-15 21:49
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to JamGriA7577
@@ -159,6 +164,7 @@
 
 local guide = WoWPro:RegisterGuide("JamGriA7577", "Leveling", "Grizzly Hills", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,72,74, 72.9076)
+WoWPro:NewGuideLevels(guide,63,80)
 WoWPro:GuideNextGuide(guide, "ScoZul7778")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

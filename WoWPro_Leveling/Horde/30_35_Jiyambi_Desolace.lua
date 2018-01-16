@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2018-01-16 23:41
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3314/revisions/28441/view
 -- Date: 2017-03-16 16:15
 -- Who: Ludovicus_Maior
 -- Log: Add missing PRE
@@ -100,6 +105,7 @@
 
 local guide = WoWPro:RegisterGuide('JiyDes3035', "Leveling", 'Desolace', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,27,34,28.5434)
+WoWPro:NewGuideLevels(guide,30,60)
 WoWPro:GuideNextGuide(guide, 'JiyFer3540')
 WoWPro:GuideIcon(guide,"ACH",4930)
 WoWPro:GuideSteps(guide, function()

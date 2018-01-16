@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2018-01-17 00:38
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3602/revisions/28601/view
 -- Date: 2017-03-23 19:40
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -158,6 +163,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmSoArak', 'Leveling', 'Spires of Arak', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,96, 98, 96.7)
+WoWPro:NewGuideLevels(guide,96,100)
 WoWPro:GuideIcon(guide,"ACH",8941)
 WoWPro:GuideNextGuide(guide, 'LudoNagrand|EmmNagrand')
 WoWPro:GuideSteps(guide, function()

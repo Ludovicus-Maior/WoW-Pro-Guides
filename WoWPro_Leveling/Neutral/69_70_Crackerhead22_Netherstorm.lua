@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2018-01-16 23:52
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3284/revisions/28487/view
 -- Date: 2017-03-17 00:17
 -- Who: Ludovicus_Maior
 -- Log: Add PREs
@@ -112,6 +117,7 @@
 
 local guide = WoWPro:RegisterGuide('CraNet6970', "Leveling", 'Netherstorm', 'Crackerhead22', 'Neutral')
 WoWPro:GuideLevels(guide,67,70, 67.2485)
+WoWPro:NewGuideLevels(guide,67,80)
 WoWPro:GuideNextGuide(guide, 'JamBor6872|JamHow7071')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

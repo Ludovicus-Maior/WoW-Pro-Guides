@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2018-01-16 23:40
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3238/revisions/28428/view
 -- Date: 2017-03-15 23:24
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to WkjCap3035
@@ -86,6 +91,7 @@
 
 local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', 'Wkjezz', 'Horde')
 WoWPro:GuideLevels(guide,29,34, 30.1269)
+WoWPro:NewGuideLevels(guide,30,60)
 WoWPro:GuideNextGuide(guide, 'JiyWes3540')
 WoWPro:GuideIcon(guide,"ACH",4905)
 WoWPro:GuideSteps(guide, function()

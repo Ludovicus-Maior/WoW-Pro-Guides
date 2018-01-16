@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2018-01-17 00:32
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3486/revisions/28402/view
 -- Date: 2017-03-15 22:10
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to RajJad8586
@@ -195,6 +200,7 @@
 
 local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,85,86,85.0021)
+WoWPro:NewGuideLevels(guide,80,90)
 WoWPro:GuideNextGuide(guide, 'EmmVal8688')
 WoWPro:GuideIcon(guide,"ACH",6351)
 WoWPro:GuideSteps(guide, function()

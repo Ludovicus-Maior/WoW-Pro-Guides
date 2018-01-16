@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
+-- Date: 2018-01-17 00:04
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3288/revisions/28446/view
 -- Date: 2017-03-16 16:49
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -84,6 +89,7 @@
 
 local guide = WoWPro:RegisterGuide("JamHow7071", "Leveling", "Howling Fjord", "Jame", "Horde")
 WoWPro:GuideLevels(guide,68,71, 68.4672)
+WoWPro:NewGuideLevels(guide,58,80)
 WoWPro:GuideNextGuide(guide, "JamBor7173")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

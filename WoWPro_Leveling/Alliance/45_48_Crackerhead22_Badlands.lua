@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2018-01-16 23:20
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3247/revisions/28382/view
 -- Date: 2017-03-15 21:22
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to CraBad4548
@@ -107,6 +112,7 @@
 
 local guide = WoWPro:RegisterGuide('CraBad4548', "Leveling", 'Badlands', 'Crackerhead22', 'Alliance')
 WoWPro:GuideLevels(guide,44,46, 44.0145)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'CraSea4850')
 WoWPro:GuideIcon(guide,"ACH",4900)
 WoWPro:GuideSteps(guide, function()

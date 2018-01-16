@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_horde
+-- Date: 2018-01-17 00:05
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3300/revisions/28450/view
 -- Date: 2017-03-16 16:57
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -65,6 +70,7 @@
 
 local guide = WoWPro:RegisterGuide("ScoSto7980", "Leveling", "The Storm Peaks", "Scoot", "Horde")
 WoWPro:GuideLevels(guide,77,77, 77)
+WoWPro:NewGuideLevels(guide,67,80)
 WoWPro:GuideNextGuide(guide, "ScoIce8080")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

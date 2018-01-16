@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2018-01-16 23:57
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3280/revisions/28576/view
 -- Date: 2017-03-23 19:05
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -86,6 +91,7 @@
 
 local guide = WoWPro:RegisterGuide("JamNag6769", "Leveling", "Nagrand", "Jame", "Horde")
 WoWPro:GuideLevels(guide,64 ,68, 64.5882)
+WoWPro:NewGuideLevels(guide,64,80)
 WoWPro:GuideNextGuide(guide, "JamBla6970")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

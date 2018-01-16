@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2018-01-17 00:00
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3291/revisions/28396/view
 -- Date: 2017-03-15 21:48
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to JamDra7475
@@ -122,6 +127,7 @@
 
 local guide = WoWPro:RegisterGuide("JamDra7475", "Leveling", "Dragonblight", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,71,74,71.3502)
+WoWPro:NewGuideLevels(guide,61,80)
 WoWPro:GuideNextGuide(guide, "JamGriA7577")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

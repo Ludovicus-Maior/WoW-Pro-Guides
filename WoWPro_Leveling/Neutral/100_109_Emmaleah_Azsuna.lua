@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2018-01-17 00:42
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3657/revisions/28759/view
 -- Date: 2017-08-27 18:51
 -- Who: Ludovicus_Maior
 -- Log: Moved [Felblaze Ingress] flight point
@@ -251,12 +255,9 @@
 -- Who: Emmaleah
 -- Log: Syntax fixes
 
--- URL: http://wow-pro.com/node/3657/revisions/27463/view
--- Date: 2016-07-30 20:51
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,98, 110, 98.661)
+WoWPro:NewGuideLevels(guide,98,110)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Azsuna")

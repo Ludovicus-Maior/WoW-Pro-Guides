@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-01-16 23:22
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3200/revisions/28344/view
 -- Date: 2017-03-11 20:02
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
@@ -244,13 +249,9 @@
 -- Date: 2011-06-28 20:42
 -- Who: Fluclo
 
--- URL: http://wow-pro.com/node/3200/revisions/24624/view
--- Date: 2011-06-28 20:37
--- Who: Fluclo
--- Log: Updated Grimaxe's Demise to auto-complete
-
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,5,10,5.74453)
+WoWPro:NewGuideLevels(guide,1,20)
 WoWPro:GuideNextGuide(guide, 'WkjLoc1220')
 WoWPro:GuideIcon(guide,"ACH",627)
 WoWPro:GuideSteps(guide, function()

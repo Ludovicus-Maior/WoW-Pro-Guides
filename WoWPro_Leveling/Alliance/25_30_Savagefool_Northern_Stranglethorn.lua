@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
+-- Date: 2018-01-16 23:13
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3231/revisions/28362/view
 -- Date: 2017-03-13 17:34
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
@@ -83,6 +88,7 @@
 
 local guide = WoWPro:RegisterGuide('SavNorStr2530', "Leveling", 'Northern Stranglethorn', 'Savagefool', 'Alliance')
 WoWPro:GuideLevels(guide,24,29, 24.4783)
+WoWPro:NewGuideLevels(guide,25,60)
 WoWPro:GuideNextGuide(guide, 'BitCap3035')
 WoWPro:GuideIcon(guide,"ACH",4906)
 WoWPro:GuideSteps(guide, function()

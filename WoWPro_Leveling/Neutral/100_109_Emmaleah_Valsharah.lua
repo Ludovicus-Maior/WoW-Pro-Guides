@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2018-01-17 00:43
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3665/revisions/28817/view
 -- Date: 2017-11-23 03:31
 -- Who: Ludovicus
 -- Log: Correct some QID tags that should have been ACTIVE tags.
@@ -216,6 +221,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmValsharah', 'Leveling', "Val'sharah", 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,100, 109, 98.7365)
+WoWPro:NewGuideLevels(guide,98,110)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_ValSharah")

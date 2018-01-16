@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2018-01-17 00:09
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3303/revisions/28490/view
 -- Date: 2017-03-17 00:23
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -216,6 +221,7 @@
 
 local guide = WoWPro:RegisterGuide('Arihyj8082', "Leveling", 'Mount Hyjal', 'Arixan', 'Neutral')
 WoWPro:GuideLevels(guide,80,82, 79.9019)
+WoWPro:NewGuideLevels(guide,80,90)
 WoWPro:GuideNextGuide(guide, 'AriDee8283|AriDee8283')
 WoWPro:GuideIcon(guide,"ACH",4863)
 WoWPro:GuideSteps(guide, function()

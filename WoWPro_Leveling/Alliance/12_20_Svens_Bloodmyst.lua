@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2018-01-16 23:49
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3220/revisions/28560/view
 -- Date: 2017-03-23 17:51
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -129,6 +134,7 @@
 
 local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Bloodmyst Isle", "Sven", "Alliance")
 WoWPro:GuideLevels(guide,10,19,12.9677)
+WoWPro:NewGuideLevels(guide,10,60)
 WoWPro:GuideNextGuide(guide, "WkjAsh2025")
 WoWPro:GuideIcon(guide,"ACH",4926)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2018-01-17 00:37
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3613/revisions/28405/view
 -- Date: 2017-03-15 22:24
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to FlucloGorgrond
@@ -115,6 +120,7 @@
 
 local guide = WoWPro:RegisterGuide('FlucloGorgrond', 'Leveling', 'Gorgrond', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,92, 94, 93)
+WoWPro:NewGuideLevels(guide,92,100)
 WoWPro:GuideIcon(guide,"ACH",8939)
 WoWPro:GuideNextGuide(guide, 'LudoTalador')
 WoWPro:GuideSteps(guide, function()

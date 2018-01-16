@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2018-01-17 00:43
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3683/revisions/28758/view
 -- Date: 2017-08-27 18:50
 -- Who: Ludovicus_Maior
 -- Log: Changed "Talonrest" coordinates
@@ -205,6 +210,7 @@
 
 local guide = WoWPro:RegisterGuide('LudoStormheim', 'Leveling', 'Stormheim', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide, 98, 110, 98.1628)
+WoWPro:NewGuideLevels(guide,98,110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Stormheim")
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()

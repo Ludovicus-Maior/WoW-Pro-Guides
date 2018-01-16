@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2018-01-16 23:23
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3204/revisions/28346/view
 -- Date: 2017-03-11 20:11
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-01-16 23:35
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3203/revisions/28821/view
 -- Date: 2017-11-24 19:04
 -- Who: Ludovicus
 -- Log: Race updates for quests in Mulgore.
@@ -169,6 +174,7 @@
 
 local guide = WoWPro:RegisterGuide('GylMul0512', "Leveling", 'Mulgore', 'Gylin', 'Horde')
 WoWPro:GuideLevels(guide,4,9,4.84868 )
+WoWPro:NewGuideLevels(guide,1,20)
 WoWPro:GuideNextGuide(guide, 'BitNor1220')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function()

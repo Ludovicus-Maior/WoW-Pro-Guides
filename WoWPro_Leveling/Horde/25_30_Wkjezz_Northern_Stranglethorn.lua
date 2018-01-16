@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2018-01-16 23:39
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3232/revisions/28424/view
 -- Date: 2017-03-15 23:17
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to WkjNor2530
@@ -108,6 +113,7 @@
 
 local guide = WoWPro:RegisterGuide('WkjNor2530', "Leveling", 'Northern Stranglethorn', 'Gloves', 'Horde')
 WoWPro:GuideLevels(guide,24,29, 24.4358)
+WoWPro:NewGuideLevels(guide,25,60)
 WoWPro:GuideNextGuide(guide, 'WkjCap3035')
 WoWPro:GuideIcon(guide,"ACH",4906)
 WoWPro:GuideSteps(guide, function()

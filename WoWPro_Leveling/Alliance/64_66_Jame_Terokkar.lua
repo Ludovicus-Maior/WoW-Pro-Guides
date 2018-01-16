@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2018-01-16 23:51
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3277/revisions/28604/view
 -- Date: 2017-03-24 00:15
 -- Who: Ludovicus_Maior
 -- Log: Added missing coords for Fumping
@@ -150,6 +155,7 @@
 
 local guide = WoWPro:RegisterGuide("JamTer6466", "Leveling", "Terokkar Forest", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,60,65,62.2064)
+WoWPro:NewGuideLevels(guide,62,80)
 WoWPro:GuideNextGuide(guide, "JamNag6668")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

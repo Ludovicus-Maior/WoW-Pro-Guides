@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_neutral
+-- Date: 2018-01-16 23:32
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3262/revisions/28483/view
 -- Date: 2017-03-17 00:11
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -75,6 +80,7 @@
 
 local guide = WoWPro:RegisterGuide('JiyUng5055', "Leveling", "Un'Goro Crater", 'Jiyambi', 'Neutral')
 WoWPro:GuideLevels(guide,49,54, 49.6358)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'JiySil5560|JiySil5560')
 WoWPro:GuideIcon(guide,"ACH",4939)
 WoWPro:GuideSteps(guide, function()

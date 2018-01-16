@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2018-01-16 23:26
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3224/revisions/27621/view
 -- Date: 2016-08-29 22:52
 -- Who: Fluclo
 -- Log: Removed redundant L step from beginning of guide
@@ -107,6 +112,7 @@
 
 local guide = WoWPro:RegisterGuide('WkjWet2025', "Leveling", 'Wetlands', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,18,23,20.0546)
+WoWPro:NewGuideLevels(guide,25,60)
 WoWPro:GuideNextGuide(guide, 'BitAra2025')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

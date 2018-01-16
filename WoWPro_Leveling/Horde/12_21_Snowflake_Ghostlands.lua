@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2018-01-16 23:55
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3221/revisions/28420/view
 -- Date: 2017-03-15 23:12
 -- Who: Ludovicus_Maior
 -- Log: Added PREs to SnoGho1221
@@ -118,6 +123,7 @@
 
 local guide = WoWPro:RegisterGuide("SnoGho1221", "Leveling", "Ghostlands", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,9,19, 12.4901)
+WoWPro:NewGuideLevels(guide,10,60)
 WoWPro:GuideNextGuide(guide, "AyaHil2025")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
