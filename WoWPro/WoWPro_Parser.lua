@@ -342,6 +342,13 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    return i
     end
 
+    if WoWPro.NewLevels and WoWPro.action[i] == "L" then
+        -- Comment out all L steps till we figure out what to do.
+        WoWPro.action[i] = ";"
+        WoWPro.step[i] = atext
+        WoWPro.step[i] = WoWPro.step[i]:trim()
+        return i
+    end
 	local idx = 2
 	
 	-- Parse the tags
