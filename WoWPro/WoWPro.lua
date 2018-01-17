@@ -671,9 +671,18 @@ function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel)
         guide['level_float'] = true
     end
 
-    local meanLevel = (lowerLevel*3.0 + upperLevel) / 4.0
-    if meanLevel < playerLevel then
-        meanLevel = playerLevel
+    local meanLevel = upperLevel
+    if upperLevel < playerLevel then
+        -- We are higher level than the guide
+        meanLevel = upperLevel
+    else
+        if lowerLevel <= playerLevel then
+            -- We are in the guide band
+            meanLevel = playerLevel
+        else
+            -- We are below the guide band
+            meanLevel = lowerLevel + 1.0
+        end
     end
 
     guide['startlevel'] = tonumber(lowerLevel)
