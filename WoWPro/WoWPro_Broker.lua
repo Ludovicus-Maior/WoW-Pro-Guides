@@ -18,6 +18,12 @@ local function QidMapReduce(list,default,or_string,and_string,func, why, debug, 
         end
         return default
     end
+    if list == "*" then
+        if quids_debug then
+            WoWPro:dbp("QidMapReduce(*) default %s", tostring(default))
+        end
+        return default
+    end
     local split_string
     local do_or
     if or_string and and_string then
