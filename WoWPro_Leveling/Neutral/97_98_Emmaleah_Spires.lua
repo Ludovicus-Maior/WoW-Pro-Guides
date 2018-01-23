@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2018-01-23 01:43
+-- Who: Ludovicus
+-- Log: The famous "Attempted Murder" fix.  Coordinates for Firn Swiftbreeze were VERY wrong.
+
+-- URL: http://wow-pro.com/node/3602/revisions/28945/view
 -- Date: 2018-01-17 00:38
 -- Who: Ludovicus
 -- Log: New Levels
@@ -518,7 +523,7 @@ H Southport|QID|35915|ACTIVE|35915|M|46.49,46.67|FACTION|Alliance|RANK|2|N|If yo
 A Wanted: Venombarb|QID|35676|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|RANK|3|
 T Wanted: Keeho's Severed Paw|QID|35674|M|39.89,60.85|N|To Lieutenant Willem.|FACTION|Alliance|RANK|3|
 T Wanted: Spineslicer's Husk|QID|35675|M|39.35,59.81|N|To Quartermaster Jolie.|FACTION|Alliance|RANK|3|
-C Attempted Murder|QID|35915|M|39.51,43.36|CHAT|N|Talk to Firn Swiftbreeze for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Alliance|
+C Attempted Murder|QID|35915|M|39.08, 61.81|CHAT|N|Talk to Firn Swiftbreeze for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Alliance|
 T Attempted Murder|QID|35915|M|52.10,23.54|N|To Hulda Shadowblade.|FACTION|Alliance|
 A Assassin's Mark|QID|35926|M|52.10,23.54|PRE|35915|N|From Hulda Shadowblade.|FACTION|Alliance|
 C Assassin's Mark|QID|35926|M|55.49,23.22|N|Check the bodies of the 'Vigilant Outcasts' lying along the road.|FACTION|Alliance|
