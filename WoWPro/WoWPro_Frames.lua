@@ -595,7 +595,7 @@ end
 function WoWPro:CreateMouseNotes()
 	WoWPro.mousenotes = {}
 	for i=1,15 do
-		local row = CreateFrame("Frame", "Mouseover Note Tooltip", WoWPro.GuideFrame)
+		local row = CreateFrame("Frame", nil, WoWPro.GuideFrame)
 		row:SetBackdrop( {
 			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 			edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
