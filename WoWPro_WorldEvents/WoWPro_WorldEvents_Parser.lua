@@ -46,13 +46,13 @@ function WoWPro.WorldEvents:NextStep(k, skip)
 	local GID = WoWProDB.char.currentguide
 
 	-- Optional Quests --
-	if WoWPro.optional[k] and WoWPro.QID[k] then 
+	if WoWPro.optional[k] and WoWPro.QID[k] then
 		-- Checking Quest Log --
-		if WoWPro.QuestLog[WoWPro.QID[k]] then 
+		if WoWPro.QuestLog[WoWPro.QID[k]] then
 			skip = false -- If the optional quest is in the quest log, it's NOT skipped --
 		end
 	end
-						
+
 	return skip
 end
 
@@ -66,16 +66,17 @@ end
 
 -- Event Response Logic --
 function WoWPro.WorldEvents:EventHandler(self, event, ...)
-	WoWPro:dbp("Running: WorldEvents Event Handler "..event)
-		
+    WoWPro:dbp("Running: WorldEvents Event Handler "..event)
+
     -- Lets see what quests the NPC has:
+    local index = 0
     if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
         local npcQuests = {GetGossipAvailableQuests()};
         local index = 0
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         for _,item in pairs(npcQuests) do
             if type(item) == "string" then
-                index = index + 1      
+                index = index + 1
 		        if WoWPro.action[qidx] == "A" and item == WoWPro.step[qidx] then
 		            SelectGossipAvailableQuest(index)
 		            return
@@ -83,10 +84,10 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
             end
         end
         npcQuests =  {GetGossipActiveQuests()};
-        index = 0 
+        index = 0
         for _,item in pairs(npcQuests) do
             if type(item) == "string" then
-                index = index + 1       
+                index = index + 1
 		        if WoWPro.action[qidx] == "T" and item == WoWPro.step[qidx] then
 		            SelectGossipActiveQuest(index)
 		            return
@@ -94,7 +95,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
             end
         end
     end
-    
+
     if event == "QUEST_GREETING" and WoWProCharDB.AutoSelect == true then
         local numAvailableQuests = GetNumAvailableQuests()
         local numActiveQuests = GetNumActiveQuests()
@@ -112,7 +113,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 		    end
 		end
     end
-    
+
     if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
@@ -122,7 +123,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 				WoWPro:Warning("Expected QID %d, found %d instead on quest [%s]",tonumber(WoWPro.QID[qidx]),questid,questtitle)
 			end
 		    AcceptQuest()
-		end 
+		end
     end
 
     if event == "QUEST_PROGRESS" and WoWProCharDB.AutoTurnin == true then
@@ -130,9 +131,9 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
         local questtitle = GetTitleText();
 		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
 		    CompleteQuest()
-		end         
+		end
     end
-    
+
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
 	    WoWPro.WorldEvents:dbp("Completing Quest "..tostring(GetQuestID()))
@@ -147,7 +148,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 		WoWPro.WorldEvents.CompletingQuest = true
 		WoWPro:AutoCompleteQuestUpdate(GetQuestID())
 	end
-	
+
 end
 
 
