@@ -431,7 +431,7 @@ end
 
 -- Title Bar --
 function WoWPro:CreateTitleBar()
-	local titlebar = CreateFrame("Button", "Titlebar", WoWPro.MainFrame)
+	local titlebar = CreateFrame("Button", nil, WoWPro.MainFrame)
 	titlebar:SetHeight(22)
 	titlebar:SetWidth(200)
 	titlebar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT")
