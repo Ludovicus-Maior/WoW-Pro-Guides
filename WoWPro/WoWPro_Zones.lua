@@ -3,14 +3,14 @@
 ----------------------------------
 
 -- Map information from 5.0.5 (16057) 9/15
-	
+
 WoWPro.Zone2MapID = {}
 WoWPro.MapID2Zone = {}
 WoWPro.Map2Zone = {}
 
 local function DupCheck(zone,who)
     if WoWPro.MapID2Zone[zone] then
-        WoWPro:Warning("DupCheck(): %s is overriding WoWPro.MapID2Zone['%s']", who, zone) 
+        WoWPro:Warning("DupCheck(): %s is overriding WoWPro.MapID2Zone['%s']", who, zone)
     end
 end
 
@@ -149,9 +149,9 @@ local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
                 Zone2MapID[floorinfo.zone]=floorinfo;
                 record.numFloors = floor -- Blizzard LIES! tell TRUTH
             end
-        end        
+        end
     end
-    
+ 
     -- Single floor instance
     if record.numFloors == 1 then
         if _G["DUNGEON_FLOOR_" .. strupper(record.mapName) .. "0"] then
@@ -188,7 +188,7 @@ local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
         WoWPro:Print("SMI: Recoding zone [%s]",record.zone)
         Zone2MapID[record.zone]=record;
         MapsSeen[record.mapID] = true
-    elseif record.mapName then             
+    elseif record.mapName then
         WoWPro:Print("SMI: Recoding mapName [%s]",record.mapName)
         Zone2MapID[record.mapName]=record;
         MapsSeen[record.mapID] = true
@@ -198,16 +198,16 @@ local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
 end
 
 function WoWPro:IsInstanceZone(zone)
-    nzone = WoWPro:ValidZone(zone)
+    local nzone = WoWPro:ValidZone(zone)
     if not nzone then
         WoWPro:Error("Zone [%s] is invalid.  Please report!",zone)
         return false
-    end      
+    end
     local mapID = WoWPro.Zone2MapID[nzone] or WoWPro.MapID2Zone[nzone]
     if not mapID then
         WoWPro:Error("Zone [%s] is not in Zone2MapID or MapID2Zone.  Please report!",nzone)
         return false
-    end  
+    end
     if mapID.cont or mapID.zone then
         return false
     end
@@ -251,7 +251,7 @@ local function ptable_inner(item)
         table.insert(ptable_buf, tostring(item))
         return
     end
-    if item == nil then            
+    if item == nil then
         table.insert(ptable_buf, "nil")
         return
     end
@@ -264,7 +264,7 @@ local function ptable_inner(item)
             last_i  = i
         end
         last_i = last_i + 1
-        
+
         local comma_p = last_i > 1
         for k,v in pairs(item) do
             local k_type = type(k)
@@ -293,7 +293,7 @@ local function ptable_inner(item)
         table.insert(ptable_buf, string.format("%q",tostring(t)))
         return
     end
-end           
+end
 
 local function ptable(item)
     ptable_buf = {}
@@ -365,7 +365,7 @@ end
 
 function WoWPro.GenerateMapCache()
     local here = GetCurrentMapAreaID()
-    
+
     Zone2MapID = {}
     MapsSeen = {}
     local contnames = pack_v(GetMapContinents())
@@ -385,7 +385,7 @@ function WoWPro.GenerateMapCache()
 			if isMicrodungeon then
 			    mapFileName = microDungeonMapName
 			end
-			WoWPro:Print("Getting info on %d [%s@%s]",zID, zname,contnames[ci]) 
+			WoWPro:Print("Getting info on %d [%s@%s]",zID, zname,contnames[ci])
 			ScrapeMapInfo(ci,zname, zidx, cont_name)
 			zidx = zidx + 1
 		end
