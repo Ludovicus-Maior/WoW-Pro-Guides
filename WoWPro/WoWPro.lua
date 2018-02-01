@@ -89,6 +89,7 @@ function WoWPro:Error(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffff7d0a%s|r: "..message, self.name or "Wow-Pro",...)
         WoWPro:Add2Log(0,msg)
+--        error(msg)
 	end
 end
 WoWPro:Export("Error")
@@ -341,6 +342,13 @@ function WoWPro:OnInitialize()
 
 	if WoWProCharDB.EnableGrail == nil then
 	    WoWProCharDB.EnableGrail = true
+	end
+	if WoWProCharDB.EnableGrail then
+	    if not Grail then
+	        WoWProCharDB.EnableGrail = nil
+	    elseif Grail.versionNumber < 093 then
+	        WoWProCharDB.EnableGrail = nil
+	    end
 	end
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
