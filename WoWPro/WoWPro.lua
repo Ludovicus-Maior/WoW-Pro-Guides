@@ -3,7 +3,7 @@
 --------------------------
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0", "AceBucket-3.0")
-WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
+WoWPro.Version = GetAddOnMetadata("WoWPro", "Version")
 WoWPro.DebugLevel = 0
 WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
@@ -22,7 +22,7 @@ end
 function WoWPro:Export(target)
     table.insert(WoWPro.mixins,target)
 end
-    
+
 -- WoWPro keybindings name descriptions --
 _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
 BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
@@ -225,7 +225,7 @@ local function LogGrow(frame, elapsed)
                                             end
                                         end
                                     end)
-        return                                                    
+        return
     end
     if Log then
         if coroutine.resume(LogCo) then return end
@@ -234,7 +234,6 @@ local function LogGrow(frame, elapsed)
         DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating window")
         LogCall(Log)
         Log = nil
-        
     end
 end
 
@@ -330,7 +329,7 @@ function WoWPro:OnInitialize()
 
 	-- Creating empty user settings if none exist --
 	WoWProCharDB = WoWProCharDB or {}
-	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
+	WoWProCharDB.Guide = WoWProCharDB.Guide or {}
 	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
 	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
 	WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
@@ -379,7 +378,7 @@ function WoWPro:OnInitialize()
 end
 
 
-function MaybeCombatLockdown()
+function WoWPro.MaybeCombatLockdown()
     return InCombatLockdown() and (not WoWProDB.global.RecklessCombat)
 end
 
@@ -401,27 +400,27 @@ function WoWPro:OnEnable()
 	else -- Addon was previously disabled, so no need to create frames, just turn them back on
 		WoWPro:AbleFrames()
 	end
-	
+
 	--Initiallizing base tags, before we enable each module or they might see missing tags or odd events! --
-	for i,tag in pairs(WoWPro.Tags) do 
+	for i,tag in pairs(WoWPro.Tags) do
 		WoWPro[tag] = WoWPro[tag] or {}
 	end
-	
+
 	-- Module Enabling --
 	for name, module in WoWPro:IterateModules() do
 		WoWPro:dbp("Enabling "..name.." module...")
 		module:Enable()
 	end
-	
+
 	WoWPro:CustomizeFrames()	-- Applies profile display settings
 
 	-- Keybindings Initial Setup --
 	local keys = GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
-	if not keys then	
+	if not keys then
 		SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
 	end
 	local keys = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
-	if not keys then	
+	if not keys then
 		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
 	end
     local keys = GetBindingKey("WOWPRO_SELECTOR")
@@ -429,7 +428,6 @@ function WoWPro:OnEnable()
 	    -- Do NOT release with this binding until it works!
 		SetBinding("ALT-G", "WOWPRO_SELECTOR")
 	end
-    
 
 	-- Event Setup --
 	WoWPro:dbp("Registering Events: Core Addon")
@@ -451,14 +449,14 @@ function WoWPro:OnEnable()
 	else
 	    WoWPro:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.PostQuestLogUpdate)
 	end
-	
+
 	WoWPro.LockdownTimer = nil
 	WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
 	WoWPro:dbp("Setting Timer OnEnable")
 	WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
-	    
+
 	WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
-	
+
 --	WoWPro:MapPoint()				-- Maps the active step
 	-- If the base addon was disabled by the user, put it to sleep now.
 	if not WoWProCharDB.Enabled then
@@ -466,7 +464,7 @@ function WoWPro:OnEnable()
 	    return
 	end
 
-end	
+end
 
 -- Called when the addon is disabled --
 function WoWPro:OnDisable()
@@ -490,18 +488,18 @@ WoWPro.Tags = { action=true, step=true, lootqty=true, why=true, qcount=true, con
 
 -- Tag Registration Function --
 function WoWPro:RegisterTags(tagtable)
---[[ Purpose: Can be called by modules to add tags to the WoWPro.Tags table. 
+--[[ Purpose: Can be called by modules to add tags to the WoWPro.Tags table.
 This table is iterated on in several key functions within the addon.
 ]]--
 	if not WoWPro.Tags then return end			-- If the table doesn't exist for some reason (function called too early), end.
 	for i=1,#tagtable do
-	    WoWPro.Tags[tagtable[i]]=true -- Insert each tag from the table supplied into the WoWPro.Tags table.	
+	    WoWPro.Tags[tagtable[i]]=true -- Insert each tag from the table supplied into the WoWPro.Tags table.
 	end
 end
 
 -- Event Registration Function --
 function WoWPro:RegisterEvents(eventtable)
---[[Purpose: Iterates through the supplied table of events, and registers each 
+--[[Purpose: Iterates through the supplied table of events, and registers each
 event to the guide frame.
 ]]--
     if not eventtable then
@@ -521,7 +519,7 @@ end
 
 -- Event Un-Registration Function --
 function WoWPro:UnregisterEvents(eventtable)
---[[Purpose: Iterates through the supplied table of events, and removes each 
+--[[Purpose: Iterates through the supplied table of events, and removes each
 event from the guide frame.
 ]]--
     if not eventtable then
@@ -556,8 +554,8 @@ function WoWPro:TargetNpcId()
     if not unitType then
         WoWPro:dbp("No target");
         return nil
-    end      
-    
+    end
+
     if unitType == "Player" then
         unitType, serverID, npcID = strsplit("-", UnitGUID("target"))
         WoWPro:dbp("Your target is a " .. unitType.. " ID %s",npcID);
@@ -578,37 +576,37 @@ function WoWPro:Timeless()
     _NPCScan.NPCAdd(73171,"Champion of the Black Flame",951)
     _NPCScan.NPCAdd(72045,"Chelon",951)
     _NPCScan.NPCAdd(73175,"Cinderfall",951)
-    
+
     _NPCScan.NPCAdd(73854,"Cranegnasher (spawned)",951)
     _NPCScan.NPCAdd(72049,"Cranegnasher (not spawned)",951)
     _NPCScan.NPCAdd(73281,"Dread Ship Vazuvius",951)
     _NPCScan.NPCAdd(73158,"Emerald Gander",951)
     _NPCScan.NPCAdd(73279,"Evermaw",951)
-    
+
     _NPCScan.NPCAdd(73172,"Flintlord Gairan",951)
     _NPCScan.NPCAdd(73282,"Garnia",951)
     _NPCScan.NPCAdd(72970,"Golganarr",951)
     _NPCScan.NPCAdd(73161,"Great Turtle-Furyshell",951)
     _NPCScan.NPCAdd(72909,"Gu'chi the Swarmbringer",951)
-    
+
     _NPCScan.NPCAdd(73167,"Huolon",951)
     _NPCScan.NPCAdd(73163,"Imperial Python",951)
     _NPCScan.NPCAdd(73160,"Ironfur Steelhorn",951)
     _NPCScan.NPCAdd(73169,"Jakur of Ordon",951)
     _NPCScan.NPCAdd(72193,"Karkanos",951)
-    
+
     _NPCScan.NPCAdd(73277,"Leafmender",951)
     _NPCScan.NPCAdd(73166,"Monstrous Spineclaw",951)
     _NPCScan.NPCAdd(72048,"Rattleskew",951)
     _NPCScan.NPCAdd(73157,"Rock Moss",951)
     _NPCScan.NPCAdd(71864,"Spelurk",951)
-    
+
     _NPCScan.NPCAdd(72769,"Spirit of Jadefire",951)
     _NPCScan.NPCAdd(73704,"Stinkbraid",951)
     _NPCScan.NPCAdd(72808,"Tsavo'ka",951)
     _NPCScan.NPCAdd(73173,"Urdur the Cauterizer",951)
     _NPCScan.NPCAdd(73170,"Watcher Osu",951)
-    
+
     _NPCScan.NPCAdd(72245,"Zesqua",951)
     _NPCScan.NPCAdd(71919,"Zhu-Gon the Sour",951)
 end
@@ -631,11 +629,10 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction)
 	if faction and faction ~= UnitFactionGroup("player") and faction ~= "Neutral" then
 	    -- If the guide is not of the correct side, don't register it
 	    return guide
-	end 
-			
+	end
+
 	WoWPro.Guides[GIDvalue] = guide
 	return guide
-	
 end
 
 function WoWPro:UnRegisterGuide(guide,why)
@@ -814,7 +811,7 @@ end
 
 -- http://en.wikipedia.org/wiki/HSL_color_space
 -- Inputs are [0..1], outputs in [0..1]
-function WoWPro:RGB2HSL(r,g,b)    
+function WoWPro:RGB2HSL(r,g,b)
     local cmax, cmin = math.max(r, g, b), math.min(r, g, b)
     local h, s, l
 
@@ -871,7 +868,7 @@ function WoWPro:HSL2RGB(h,s,l)
     g = hue2rgb(p, q, h)
     b = hue2rgb(p, q, h - 1/3)
   end
-  
+
   return r, g, b
 end
 
@@ -888,7 +885,7 @@ function WoWPro:InterpolateHSL(l,h,r)
     if (r < 0) then r = 0 end
     if (r > 1) then r = 1 end
     local ir = 1 - r
-    
+
     return { l[1]*ir + h[1]*r , l[2]*ir + h[2]*r, l[3]*ir + h[3]*r }
 end
 
@@ -897,10 +894,9 @@ function WoWPro:PlayerLevel()
     local UL = UnitLevel("player")
     local XP = UnitXP("player")
     local XPMax = UnitXPMax("player")
+    local playerLevel = UL
     if XPMax > 0 then
         playerLevel = UL + (XP/XPMax)
-     else
-        playerLevel = UL
     end
     return playerLevel
 end
@@ -910,7 +906,7 @@ function WoWPro:QuestColor(questLevel, playerLevel)
     if not playerLevel then
         playerLevel = WoWPro:PlayerLevel()
     end
-    
+
     local diff = questLevel - playerLevel
     local c
 --    WoWPro:dbp("WoWPro:QuestColor(%s,%s) diff %f",tostring(questLevel),tostring(playerLevel), diff)
@@ -932,7 +928,7 @@ function WoWPro:QuestColor(questLevel, playerLevel)
     end
     return  WoWPro:HSL2RGB(c[1], c[2], c[3])
 end
-   
+
 function WoWPro:TestQuestColor(a,b,c,d)
     for ql=a,b,c do
         local r, g, b =  WoWPro:QuestColor(ql, d)
@@ -963,7 +959,7 @@ function WoWPro.LevelColor(guide)
             return {WoWPro:QuestColor((guide['startlevel']+guide['endlevel'])/2.0)}
         end
     end
-    
+
 end
 
 -- Creating a Table of Guides for the Guide List and sorting based on level --
@@ -983,7 +979,7 @@ function WoWPro.AchievementsScrape()
         local numItems, numCompleted = GetCategoryNumAchievements(cid)
         for index = 1,numItems do
             local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(cid, index)
-            WoWProDB.global.Achievements.Achievement[id] = {['cid'] = cid, ['name'] = name, ['icon'] = icon } 
+            WoWProDB.global.Achievements.Achievement[id] = {['cid'] = cid, ['name'] = name, ['icon'] = icon }
         end
     end
 end
@@ -1076,7 +1072,7 @@ local function TestGuideLoad(guidID)
     WoWPro:Print("Test Loading " .. guidID)
     WoWProDB.char.currentguide = guidID
     --Re-initiallizing tags and counts--
-	for i,tag in pairs(WoWPro.Tags) do 
+	for i,tag in pairs(WoWPro.Tags) do
 		WoWPro[tag] = {}
 	end
 	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
@@ -1091,7 +1087,7 @@ local function TestGuideLoad(guidID)
 	        WoWPro:Warning("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
 	    end
 	end
-    if nextG and WoWPro.Guides[nextG] == nil then	    
+    if nextG and WoWPro.Guides[nextG] == nil then
         WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
     end
     if not WoWPro.Guides[guidID].icon then
@@ -1118,7 +1114,7 @@ local function LoadNext(frame, elapsed)
                                         WoWPro:Print("Exiting coroutine.")
                                     end)
         WoWPro.LoadAll.Load = true
-        return                                                    
+        return
     end
     if WoWPro.LoadAll.Load then
         if coroutine.resume(WoWPro.LoadAll.Co) then return end
@@ -1136,7 +1132,7 @@ function WoWPro:LoadTestAsync(callback)
         WoWPro.LoadAll.Frame = CreateFrame("Frame",nil,UIParent)
     end
     WoWPro.LoadAll.Load = nil
-    
+
     WoWPro.LoadAll.Call = callback
     WoWPro.LoadAll.Frame:SetScript("OnUpdate",LoadNext)
 end

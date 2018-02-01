@@ -31,7 +31,7 @@ function WoWPro:RecordTaxiLocations(...)
         end
         if WoWProCharDB.Taxi[location] and typo == "DISTANT" then
             WoWProCharDB.Taxi[location] = nil
-            WoWPro:Print("Removed Unlearned Flight Point: [%s]",location)            
+            WoWPro:Print("Removed Unlearned Flight Point: [%s]",location)
         end
     end
 end
@@ -126,7 +126,7 @@ function WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 	- tracked item's name
 	- how many the user has
 	- how many the user needs
-	- a complete symbol if the ammount the user has is equal to the ammount they need 
+	- a complete symbol if the ammount the user has is equal to the ammount they need
 ]]
 	if not GetItemInfo(lootitem) then return "" end
 	local track = "" 												--If the function did have a track string, adds a newline
@@ -360,7 +360,7 @@ end
 
 
 WoWPro.RegisterEventHandler("UNIT_AURA", function (event, ...)
-    if not MaybeCombatLockdown() then
+    if not WoWPro.MaybeCombatLockdown() then
         WoWPro.AutoCompleteBuff(...)
     end
     end)
@@ -450,7 +450,7 @@ WoWPro.RegisterEventHandler("PET_BATTLE_OPENING_START", function (event,...)
 	    guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
 	    battleHide = not WoWPro.Guides[WoWProDB.char.currentguide].PetBattle
 	end
-	
+
     WoWPro.LastPetBattleWinner = nil
     if (not WoWPro.Hidden) and battleHide then
         WoWPro.MainFrame:Hide()
@@ -514,7 +514,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_BATTLEGROUND", function (event,...)
     end)
 
 WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
-	if not MaybeCombatLockdown() then
+	if not WoWPro.MaybeCombatLockdown() then
 		WoWPro:UpdateGuide(event)
 	end
     end)
@@ -627,7 +627,7 @@ function WoWPro.QUEST_GREETING_PUNTED(event,...)
         WoWPro:print("%s: No active step.", event)
         return
     end
-    
+
     if WoWProCharDB.AutoTurnin  then
         -- Match from the top down
         for i=numActiveQuests,1,-1  do
@@ -681,7 +681,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
     local qidx = WoWPro.QuestStep
     local questtitle = GetTitleText();
     local myNPC = WoWPro:TargetNpcId()
-    
+
     if not qidx then
         qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         if not qidx then
@@ -696,7 +696,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
             end
         end
     end
-    
+
 	if WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
 	    WoWPro:dbp("Accepted %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
 	    if  WoWPro.QID[qidx] == "*" then
@@ -857,7 +857,7 @@ function WoWPro.EventHandler(frame, event, ...)
         local numActiveQuests = GetNumGossipActiveQuests()
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
-        
+
 	if WoWPro.InitLockdown and event == "QUEST_LOG_UPDATE" then
 	    WoWPro:SendMessage("WoWPro_PuntedQLU")
 	    return
@@ -879,10 +879,10 @@ function WoWPro.EventHandler(frame, event, ...)
 
 	-- Module Event Handlers --
 	for name, module in WoWPro:IterateModules() do
-		if WoWPro[name].EventHandler 
-		and WoWProDB.char.currentguide 
+		if WoWPro[name].EventHandler
+		and WoWProDB.char.currentguide
 		and WoWPro.Guides[WoWProDB.char.currentguide]
-		and guidetype == name 
+		and guidetype == name
 		then WoWPro[name]:EventHandler(frame, event, ...) end
 	end
 end

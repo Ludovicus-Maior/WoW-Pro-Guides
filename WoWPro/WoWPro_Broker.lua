@@ -512,7 +512,7 @@ end
 -- Row Content Update --
 function WoWPro:RowUpdate(offset)
 	local GID = WoWProDB.char.currentguide
-	if MaybeCombatLockdown() or not GID or not WoWPro.Guides[GID] then
+	if WoWPro.MaybeCombatLockdown() or not GID or not WoWPro.Guides[GID] then
 	    WoWPro:dbp("Punting: WoWPro:RowUpdate()")
 		return
 	end
@@ -787,7 +787,7 @@ function WoWPro:RowUpdate(offset)
 	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
 	WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
 
-	if not MaybeCombatLockdown() then
+	if not WoWPro.MaybeCombatLockdown() then
 	    WoWPro:RowSizeSet()
 	    WoWPro:PaddingSet()
 	end
