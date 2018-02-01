@@ -370,7 +370,7 @@ function WoWPro:OnInitialize()
 end
 
 
-function MaybeCombatLockdown()
+function WoWPro.MaybeCombatLockdown()
     return InCombatLockdown() and (not WoWProDB.global.RecklessCombat)
 end
 
