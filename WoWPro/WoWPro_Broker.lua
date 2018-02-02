@@ -825,7 +825,7 @@ function WoWPro.UpdateGuideReal(From)
 	WoWPro.GuideOffset = nil
 	
 	-- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
-	if MaybeCombatLockdown() then
+	if WoWPro.MaybeCombatLockdown() then
 	    WoWPro:print("Suppresssed guide update.  In Combat.")
 	    WoWPro:SendMessage("WoWPro_UpdateGuide","InCombat")
 	    return
