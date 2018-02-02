@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dailies_fishing_dailies_capitol_cities_shattrath_dalaran
+-- Date: 2018-02-02 20:53
+-- Who: Ludovicus
+-- Log:  added [Nat Pagle, Angler Extreme]
+
+-- URL: http://wow-pro.com/node/3752/revisions/28833/view
 -- Date: 2018-01-15 18:52
 -- Who: Ludovicus
 -- Log: Enable WoWPro:GuideAutoSwitch(guide)
@@ -14,7 +19,7 @@
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide("LudoFishing",'Dailies', "Azeroth", "Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,70,70,70)
+WoWPro:GuideLevels(guide,10,70,70)
 WoWPro:GuideName(guide, "Fishing Dailies")
 WoWPro:GuideIcon(guide,"PRO",9)
 WoWPro:GuideAutoSwitch(guide)
@@ -95,7 +100,7 @@ C Violet Perch|QID|26536|M|22.10,57.10;18.52,60.70;17.65,67.90;20.70,59.56;17.67
 T Thunder Falls|QID|26536|M|55.0,69.6|Z|Stormwind City|N|To Catherine Leland|FACTION|Alliance|
 
 ; Horde Fishing Guidehttps://www.wowhead.com/quests/max-req-level:80/side:2?filter=48;356;0
-; Orgrimmarhttps://www.wowhead.com/npc=43239/razgar
+;Orgrimmarhttps://www.wowhead.com/npc=43239/razgar
 A A Furious Catch|QID|26588|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|From Razgar|O|FACTION|Horde|
 C Giant Furious Pike|QID|26588|M|36.20,22.70;36.70,12.45;35.53,2.45;37.20,20.35;37.00,4.45;37.20,18.00;36.77,6.98;36.90,9.75;37.39,15.64|Z|Durotar|CN|N|Head out to the Southfury River on the Durotar or Northen Barrens banks to fish. Do not go to Ashenvale or Azshara!|FACTION|Horde|
 T A Furious Catch|QID|26588|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|To Razgar|FACTION|Horde|
@@ -107,7 +112,7 @@ T A Golden Opportunity|QID|26572|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|To Razgar|F
 
 A A Staggering Effort|QID|26557|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|From Razgar|O|FACTION|Horde|
 l Stag Eye|ACTIVE|26557|M|27.00,67.80;26.10,76.50;22.00,74.95;24.25,75.20;30.90,77.00;28.95,70.92;28.74,74.69;26.48,73.53|CN|Z|Azshara|L|58949|N|Head out the north gates of Orgrimmar and kill Weakened Mosshoof Stag for an eye.|T|Weakened Mosshoof Stag|FACTION|Horde|
-C Sandy Carp|QID|26557|M|43.33,45.01;45.77,44.00;47.80,45.85;47.54,48.33;47.24,50.64;44.64,46.89|Z|Orgrimmar@Orgrimmar|N|Now head back to the Valley of Wisdom to fish for carp.  Equip your pole and use the eye for bait.|U|58949|FACTION|Horde|
+C Sandy Carp|QID|26557|M|43.33,45.01;45.77,44.00;47.80,45.85;47.54,48.33;47.24,50.64;44.64,46.89|CN|Z|Orgrimmar@Orgrimmar|N|Now head back to the Valley of Wisdom to fish for carp.  Equip your pole and use the eye for bait.|U|58949|FACTION|Horde|
 T A Staggering Effort|QID|26557|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|To Razgar|FACTION|Horde|
 
 A Clammy Hands|QID|26543|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|From Razgar|O|FACTION|Horde|
@@ -118,7 +123,7 @@ A No Dumping Allowed|QID|26556|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|From Razgar|O
 C Toxic Puddlefish|QID|26556|M|36.42,82.70;39.00,83.12;35.83,79.95;37.53,84.48;38.24,80.28;35.62,77.46|CN|Z|Orgrimmar@Orgrimmar|N|Go to the Goblin Slums in Orgrimmar and fish them up.|FACTION|Horde|
 T No Dumping Allowed|QID|26556|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|To Razgar|FACTION|Horde|
 
-; Thunder Bluffhttps://www.wowhead.com/npc=3028/kah-mistrunner
+; ThunderBluffhttps://www.wowhead.com/npc=3028/kah-mistrunner
 A Craving Crayfish|QID|29349|M|56,47|Z|Thunder Bluff|N|From Kah Mistrunner|O|FACTION|Horde|
 C Stonebull Crayfish|QID|29349|M|51.90,49.30;44.52,56.04;46.64,53.17;43.82,59.54;53.48,52.05;49.72,51.88;52.43,55.18;45.51,63.42|CN|Z|Mulgore|N|Head out to Stonebull Lake around Bloodhoof Villiage and click on the Crayfish.|T|Stonebull Crayfish|FACTION|Horde|
 T Craving Crayfish|QID|29349|M|56,47|Z|Thunder Bluff|N|To Kah Mistrunner|FACTION|Horde|
@@ -137,16 +142,16 @@ T The Race to Restock|QID|29354|M|56,47|Z|Thunder Bluff|N|To Kah Mistrunner|FACT
 
 A The Ring's the Thing|QID|29346|M|56,47|Z|Thunder Bluff|N|From Kah Mistrunner|O|FACTION|Horde|
 R Pools of Vision|ACTIVE|29346|M|30.67,31.53|Z|Thunder Bluff|N|Head over to the Spirit Rise, but go to the cave on the left.|FACTION|Horde|
-C Blind Cavefish|QID|29346|M|28.59,20.83;26.36,17.25;21.95,17.55;27.64,23.98;24.61,21.02|CN|Z|Thunder Bluff|Now fish the pools in the cave.  Have at least 3 open bag slots when you try to fillet the fish to get the ring.|U|69956|FACTION|Horde|
+C Blind Cavefish|QID|29346|M|28.59,20.83;26.36,17.25;21.95,17.55;27.64,23.98;24.61,21.02|CN|Z|Thunder Bluff|N|Now fish the pools in the cave.  Have at least 3 open bag slots when you try to fillet the fish to get the ring.|U|69956|FACTION|Horde|
 T The Ring's the Thing|QID|29346|M|28.8,20.6|Z|Thunder Bluff|N|To Poshken Hardbinder, |FACTION|Horde|
 
-; Undercityhttps://www.wowhead.com/npc=4573/armand-cromwell
+;Undercityhttps://www.wowhead.com/npc=4573/armand-cromwell
 A Fish Head|QID|29317|M|81,31.2|Z|Undercity|N|From Armand Cromwell|O|FACTION|Horde|
 C Abomination Head|QID|29317|N|Fish any of the waters in Undercity to recover the head.|FACTION|Horde|
 T Fish Head|QID|29317|M|48.4,69.4|Z|Undercity|N|To Master Apothecary Faranell|FACTION|Horde|
 
 A Like Pike?|QID|29320|M|81,31.2|Z|Undercity|N|From Armand Cromwell|O|FACTION|Horde|
-l Corpse Worm|ACTIVE|M|61.75,68.40;64.40,15.18;67.80,15.11|Z|Tirisfal Glades|N|Head out to the enterance to Undercity and click on a Corpse Worm Mound to get the worm|L|69907|FACTION|Horde|
+l Corpse Worm|ACTIVE|29320|M|61.75,68.40;64.40,15.18;67.80,15.11|CN|Z|Tirisfal Glades|N|Head out to the enterance to Undercity and click on a Corpse Worm Mound to get the worm|L|69907|FACTION|Horde|
 C Corpse-Fed Pike|QID|29320|M|66.80,45.60;67.70,40.70;70.20,48.10;64.85,46.35;68.65,44.65;67.29,51.08;68.97,53.22;66.30,48.92|CN|Z|Tirisfal Glades|N|Head out to Brightwater Lake and fish up your pike.  Equip your fishing rod and then use the worm as a lure.|U|69907|FACTION|Horde|
 T Like Pike?|QID|29320|M|81,31.2|Z|Undercity|N|To Armand Cromwell|FACTION|Horde|
 
@@ -157,12 +162,23 @@ C Feed Me!|QID|29320|M|61.75,68.40|Z|Tirisfal Glades|N|Now feed the Monster her 
 T Moat Monster!|QID|29320|M|81,31.2|Z|Undercity|N|To Armand Cromwell|FACTION|Horde|
 
 A Tadpole Terror|QID|29319|M|81,31.2|Z|Undercity|N|From Armand Cromwell|O|FACTION|Horde|
-C Giant Flesh-Eating Tadpole|QID|29319|M|48.91,56.13;50.44,53.84;49.60,51.25|Z|Tirisfal Glades|N|Get out to Stillwater Pond and fish them up!|FACTION|Horde|
+C Giant Flesh-Eating Tadpole|QID|29319|M|48.91,56.13;50.44,53.84;49.60,51.25|CN|Z|Tirisfal Glades|N|Get out to Stillwater Pond and fish them up!|FACTION|Horde|
 T Tadpole Terror|QID|29319|M|81,31.2|Z|Undercity|N|To Armand Cromwell|FACTION|Horde|
 
 A Time for Slime|QID|29322|M|81,31.2|Z|Undercity|N|From Armand Cromwell|O|FACTION|Horde|
 C Squirming Slime Molds|QID|29322|M|49.60,55.00;50.50,30.40;52.00,52.60;52.30,35.80;63.70,39.70;64.70,66.90;67.00,71.00;67.90,40.30;68.40,47.00;71.70,65.20;79.50,33.50;80.00,57.10;81.40,43.00;81.70,56.00;80.40,59.30;52.80,31.55;56.60,62.60;73.10,68.45;55.00,60.65;79.62,27.30;58.65,68.30;81.24,31.71;51.00,41.55;66.42,47.58;50.75,45.20;80.85,29.12;79.92,36.08;65.78,40.55;73.59,24.24;67.60,21.80;65.78,17.60;64.65,70.90;82.20,34.03;63.88,47.27;81.03,45.27;48.20,44.35;65.18,21.34;83.68,40.88;76.65,26.75;77.20,23.40;57.34,21.40;78.42,30.85;53.20,25.35;78.74,60.89;56.35,64.60;75.25,65.70;83.70,44.20|CN|Z|Undercity|N|Fish any slime trough in Undercity for the Molds.|FACTION|Horde|
 T Time for Slime|QID|29322|M|81,31.2|Z|Undercity|N|From Armand Cromwell|FACTION|Horde|
+
+; Nat Page Quest
+A You Too Good.|QID|6608|LEAD|6607|M|66.44,41.93|Z|Orgrimmar@Orgrimmar|LVL|35|P|Fishing;356;225|N|From Lumak|FACTION|Horde|
+T You Too Good.|QID|6608|M|58.6,60.2|Z|Dustwallow Marsh|N|To Nat Pagle|FACTION|Horde|
+
+A Nat Pagle, Angler Extreme|QID|6607|M|58.6,60.2|Z|Dustwallow Marsh|N|From Nat Pagle|LVL|34|P|Fishing;356;225|
+C Feralas Ahi|QID|6607|QO|1|M|62.25,49.75;62.95,52.79|CN|Z|Feralas|N|Head on over to Feralas, near Dire Maul.|
+C Sar'theris Striker|QID|6607|QO|3|M|24.80,81.20;26.15,75.75;25.85,78.03|CN|Z|Desolace|N|Head on over to Desolace near Shadowprey Village. Alliance, caution!|
+C Savage Coast Blue Sailfin|QID|6607|QO|4|M|32.80,39.40;31.15,38.15;35.85,55.70;39.14,55.69;37.02,52.58|CN|Z|Northern Stranglethorn|N|Northern Stranglethorn, near Grom'gol Base camp.  Alliance, caution!|
+C Misty Reed Mahi Mahi|QID|6607|QO|2|M|72.60,5.00;78.10,92.50;78.70,12.90;84.60,88.00;86.40,22.10;87.40,77.00;88.90,80.20;89.50,45.70;90.80,37.70;91.80,40.10;84.40,85.60;84.85,83.25;81.45,15.40;88.05,72.60;84.30,18.60;85.73,78.88;89.45,29.30;73.35,8.65;78.84,9.74|CN|Z|Swamp of Sorrows|N|Head on over to the coast of the Swamp of Sorrows.|
+T Nat Pagle, Angler Extreme|QID|6607|M|58.6,60.2|Z|Dustwallow Marsh|N|To Nat Pagle|
 
 ; Shattrath Cityhttps://www.wowhead.com/npc=25580/old-man-barlo#starts, Level 70
 

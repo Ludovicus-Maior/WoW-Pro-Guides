@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3628
+-- Date: 2018-02-02 20:56
+-- Who: Ludovicus
+-- Log: Tag Tweaks
+
+-- URL: http://wow-pro.com/node/3628/revisions/28964/view
+-- Date: 2018-01-27 18:09
+-- Who: Ludovicus
+-- Log: Extra Z tags detected by PyroBurn
+
+-- URL: http://wow-pro.com/node/3628/revisions/28801/view
 -- Date: 2017-10-07 19:54
 -- Who: Ludovicus_Maior
 -- Log: Updated [Garrison Campaign: Onslaught at Auchindoun] for horde
@@ -259,7 +269,7 @@ C Investigate the Lower Chamber|QID|38416;38562|M|49.95,50.92|Z|Talador/30|QO|4|
 C Destroy the Corrupted Soul Foci|QID|38416;38562|M|59,80|Z|Talador/30|QO|5|
 C Defeat Gorefiend|QID|38416;38562|M|59,80|Z|Talador/30|QO|6|
 T Secrets of the Sargerei|QID|38416|FACTION|Horde|M|53.57,68.99|Z|Talador/30|N|To Lady Liadrin|
-T Secrets of the Sargerei|QID|38562|FACTION|Alliance|M|53.57,68.99|Z|Talador/30|Z|Talador|N|To Yrel|
+T Secrets of the Sargerei|QID|38562|FACTION|Alliance|M|53.57,68.99|Z|Talador/30|N|To Yrel|
 
 ;a Garrison Campaign: The Warlock|QID|38561|FACTION|Alliance|
 ;a Garrison Campaign: The Warlock|QID|38458|FACTION|Horde|
@@ -341,7 +351,7 @@ A Upgrading The Fleet |QID|39245|PRE|39676|N|From Rolash Wavechaser|M|42.08,71.0
 A I Sunk Your Battleship |QID|39601|PRE|39056|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 A I Sunk Your Battleship |QID|39604|PRE|39676|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
-A Gems of the Apexis |QID|39175|PRE||N|From Baros Alexston|M|29.23,33.12|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|P|Jewelcrafting;755|
+A Gems of the Apexis |QID|39175|N|From Baros Alexston|M|29.23,33.12|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|P|Jewelcrafting;755|
 A Gems of the Apexis |QID|39175|N|From Gazlowe|M|42,55|Z|Shadowmoon Valley@Draenor|FACTION|Horde|P|Jewelcrafting;755|
 
 F Lion's Watch |QID|39601|M|48.00,49.80|Z|Lunarfall|N|Now fly back to Tanaan Jungle|FACTION|Alliance|

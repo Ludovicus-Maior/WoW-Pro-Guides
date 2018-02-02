@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-01-25 21:51
+-- Who: Linkslegend5
+-- Log: Updated location of quest items to match description.
+
+-- URL: http://wow-pro.com/node/3205/revisions/28873/view
 -- Date: 2018-01-16 23:35
 -- Who: Ludovicus
 -- Log: New Levels
@@ -206,7 +211,7 @@ C A Scarlet Letter|QID|24979|NC|M|31.69,46.13|N|Go to the top of the tower and t
 C The Scarlet Palisade|QID|24980|US|M|31.92,46.00|N|Kill members of the Scarlet Crusade.|
 C Briny Sea Cucumber|QID|24976|NC|QO|3|M|33.19,43.14|N|Collect Sea Cucumbers from the ocean floor. Watch out for the rare level 10 murloc who roams the area - he's probably a bit too strong for you!|
 C Ever So Lonely|QID|24974|U|52059|QO|1|M|35.06,44.67|N|Use the murloc leash on a murloc after you beat it down to 25%. \nDon't wait too long to return. You only have 10 minutes before he dies.|
-C Xavren's Thorn|QID|24976|NC|QO|2|M|33.19,43.14|N|Collect Xavren's Thorn on the cliffs above the beach.|
+C Xavren's Thorn|QID|24976|NC|QO|2|M|39.32,38.12|N|Collect Xavren's Thorn on the cliffs above the beach.|
 C Ever So Lonely|QID|24974|NC|U|52059|M|44.72,53.68|N|Head back to the Carlston Estate and head upstairs to turn in the murloc to Carlston.|
 
 T Ever So Lonely|QID|24974|M|44.72,53.68|N|To Sedrick Calston.|

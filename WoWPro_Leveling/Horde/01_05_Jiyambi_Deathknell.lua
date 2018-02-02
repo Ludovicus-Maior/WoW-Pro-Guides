@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-01-25 21:51
+-- Who: Linkslegend5
+-- Log: Updated location of quest items to match description.
+
+-- URL: http://wow-pro.com/node/3205/revisions/28873/view
 -- Date: 2018-01-16 23:35
 -- Who: Ludovicus
 -- Log: New Levels
