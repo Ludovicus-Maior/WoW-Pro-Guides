@@ -31,7 +31,7 @@ fi
 
 if [ -s /tmp/AU$$.tmp ] ; then
     echo "# Ah, there was an update! Committing updates"
-    for f in `cat /tmp/AU$$.tmp` ; do
+    for f in ` awk '{ print $2 }' < /tmp/AU$$.tmp` ; do
         if ! git commit -m "Updated $f from WoW-Pro.COM" $f  ; then
             echo "! Error committing file: $?"
 	    exit 5
