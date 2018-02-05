@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2018-02-04 08:24
+-- Who: Emmaleah
+-- Log: finish up the champions questline.
+--	finish crest of knowledge quest
+--	add speaker's quests
+
+-- URL: http://wow-pro.com/node/3741/revisions/28830/view
 -- Date: 2017-12-19 02:19
 -- Who: Emmaleah
 -- Log: more changes to make the debug list happy-6 errors remain - that are not actually errors.
@@ -240,6 +247,7 @@ T Sizing Up The Opposition|QID|48929;47473|M|33.50,58.28|Z|Upper Deck@ArgusCore|
 ; DARK AWAKENINGS
 A The Speaker Calls|QID|47889|PRE|48559|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon.|
 A Fuel of a Doomed World|QID|48799|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon. This becomes a weekly repeatable quest.|
+A Invasion Onslaught|QID|49293|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage. This is now a weekly repeatable quest.|PRE|48605|;pre tag to make this step only show on the repeatable not initial time through
 t Fuel of a Doomed World|QID|48799|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|To High Exarch Turalyon.|
 F Krokul Hovel|ACTIVE|47889|N|Use to console to go to Krokul.|
 T The Speaker Calls|QID|47889|M|56.76,67.49|NC|N|To Magni Bronzebeard.|
@@ -276,13 +284,34 @@ A Storming the Citadel|QID|47892|PRE|47891|M|39.01,24.77|Z|Upper Deck@ArgusSurfa
 C Scouting Map|QID|48441|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|Head downstairs to the Scouting map and complete the mission, "Darkfall Ridge Supplies". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
 t Remnants of Darkfall Ridge|QID|48441|M|56.58,67.57|N|To Chieftain Hatuun who is at Krokul Hovel.|
 A Nath'raxas Hold: Preparations|QID|48442|M|56.58,67.57|N|From Chieftain Hatuun.|PRE|48441|;not spurious-ignore grail integration.
-A Supplying Krokuun|QID|48910|M|56.58,67.57|N|From Chieftain Hatuun. This is a weekly repeatable quest for an extra minion.|PRE|48441|;not spurious-ignore grail integration.
-T Supplying Krokuun|QID|48910|M|56.58,67.57|N|To Chieftain Hatuun. Check off manually if you don't plan on doing the quest. There is a followup, but it is considerably more expensive. Get the 2nd minion if resources are not in short supply for you!|
+A Supplying Krokuun|QID|48910|M|56.58,67.57|N|From Chieftain Hatuun. This is a weekly repeatable quest for an extra minion. Chieftain Hatuun is located at Krokul Hovel.|PRE|48441|;not spurious-ignore grail integration.
+T Supplying Krokuun|QID|48910|M|56.58,67.57|N|To Chieftain Hatuun. Check off manually if you don't plan on doing the quest. There is a followup, but it is considerably more expensive. Get the 2nd minion if you need it and/or resources are not in short supply for you!|
 C Nath'raxas Hold: Preparations|QID|48442|NC|N|If you don't have your champion's leveled up, you will need to manually check this off until then. Completing it opens up some missions that will earn you faction.|
 t Nath'raxas Hold: Preparations|QID|48442|M|56.58,67.57|N|To Chieftain Hatuun.|
 A Nath'raxas Hold: Rescue Missions|QID|48443|M|56.58,67.57|N|From Chieftain Hatuun.|PRE|48441|;not spurious-ignore grail integration
-C Scouting Map|QID|48443|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the "Nath'raxas Breakout". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
+C Scouting Map|QID|48443|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Nath'raxas Breakout". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
 t Nath'raxas Hold: Rescue Mission|QID|48443|M|56.58,67.57|N|To Chieftain Hatuun.|
+A The Ruins of Oronaar|QID|48445|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner.|PRE|48443|
+C Scouting Map|QID|48445|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Inches from Madness". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
+t The Ruins of Oronaar|QID|48445|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|To Alleria Windrunner.|
+A Relics of Ancient Eredar|QID|48446|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner. Missions will now appear for you to earn 925 ilvl armor for your champions.|PRE|48445|
+A Beneath Oronaar|QID|48654|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner.|PRE|48445|
+T Beneath Oronaar|QID|48654|M|42.65,65.39;43.98,60.92|CS|Z|ArgusMacAree|N|Use the Navigation Console to go to Mac'Aree City Center and find Nabiru who is located directly underneath the Ruins of Oronaar.|
+A Void Innoculation|QID|48911|M|43.98,60.92|Z|ArgusMacAree|N|From Nabiru. This is a weekly repeatable quest for an extra minion Nabiru is located near the MacAree City Center, beneath the ruins of Oronaar.|PRE|48654|;not spurious-ignore grail integration.
+T Void Innoculation|QID|48911|M|43.98,60.92|Z|ArgusMacAree|N|To Nabiru. Check off manually if you don't plan on doing the quest. There is a followup, but it is considerably more expensive. Get the 2nd minion if you need it and/or resources are not in short supply for you!|
+t Relics of Ancient Eredar|QID|48446|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|To Alleria Windrunner.|
+A Shadowguard Dispersion|QID|48447|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner.|PRE|48446|
+C Scouting Map|QID|48447|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Shadowguard Dispersion". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
+t Shadowguard Dispersion|QID|48447|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|To Alleria Windrunner.|
+A Hindering the Legion War Machine|QID|48448|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon.|PRE|48447|
+C Scouting Map|QID|48448|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Gambit in the Wastes". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
+t Hindering the Legion War Machine|QID|48448|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|To High Exarch Turalyon.|
+A Take the Edge Off|QID|48600|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon. This opens up missions for ilvl 950 champion equipment.|PRE|48448|
+A Supplying the Antoran Campaign|QID|48912|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon. This becomes a weekly quest, with a follow up if you have plentiful resources.|PRE|48448|
+t Take the Edge Off|QID|48600|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|To High Exarch Turalyon.|
+A Felfire Shattering|QID|48601|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon.|
+C Scouting Map|QID|48601|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Assault on Felfire Armory". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
+t Felfire Shattering|QID|48601|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|To High Exarch Turalyon.|
 
 F Krokul Hovel|ACTIVE|47892|N|Use to console to go to Krokul.|M|42.45,22.89|Z|Upper Deck@ArgusSurface|
 R Destiny Point|ACTIVE|47892|M|59.02,68.14;59.96,61.92;60.40,54.18;61.42,49.27|CS|N|Mount up and ride to Destiny Point.|
@@ -315,7 +344,7 @@ T Dark Machinations|QID|47991|M|60.61,43.98|N|To Illidan Stormrage.|
 T Heralds of Apocalypse|QID|47989|M|61.55,46.70|N|To Alleria Windrunner.|
 T A Touch of Fel|QID|47990|M|60.67,47.31|N|To Image of Grand Artificer Romuul.|
 A Dawn of Justice|QID|47992|PRE|47989;47990;47991|M|60.83,47.26|N|From High Exarch Turalyon.|
-C Dawn of Justice|QID|47992|M|60.71,47.56|QO|1|NC|N|Click on the suit of armour to take control of the Lightforged Warframe. You will be flown to the quest area.|
+C Dawn of Justice|QID|47992|M|60.71,47.56|QO|1|NC|N|Click on the suit of armor to take control of the Lightforged Warframe. You will be flown to the quest area.|
 C Dawn of Justice|QID|47992|M|51.92,25.62|QO|3|N|Click on the Nath'raxxan Rifts to close them.|S|
 C Dawn of Justice|QID|47992|M|55.00,21.10|QO|2|N|Kill Reinforcements, 60!|
 C Dawn of Justice|QID|47992|M|51.92,25.62|QO|3|N|Finish closing Nath'raxxan Rifts.|US|
@@ -330,6 +359,9 @@ A A Floating Ruin|QID|48081|PRE|47993|M|40.25,23.49|Z|Upper Deck@ArgusSurface|N|
 F Vindicaar, Mac'Aree|QID|48081|M|42.46,22.88|Z|Upper Deck@ArgusSurface|QO|1|N|Use the Navigation Console to go to Mac'Aree.|
 T A Floating Ruin|QID|48081|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
 A Mac'Aree, Jewel of Argus|QID|46815|PRE|48461|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
+A The Ruins of Oronaar|QID|48445|PRE|48443|M|45.54,24.54|Z|Upper Deck@ArgusMacAree|N|From Alleria Windrunner.|
+C Scouting Map|QID|48445|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the "Inches from Madness". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
+t The Ruins of Oronaar|QID|48445|M|45.54,24.54|Z|Upper Deck@ArgusMacAree|N|From Alleria Windrunner.|
 C Mac'Aree, Jewel of Argus|QID|46815|M|49.63,23.70|Z|Upper Deck@ArgusMacAree|QO|1|CHAT|N|Tell Romuul you are ready.|
 C Mac'Aree, Jewel of Argus|QID|46815|M|55.32,82.17|Z|ArgusMacAree|QO|2|CHAT|N|Ask Velen to continue. Cutscene shows him remembering when he was here last.|
 C Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.87|Z|ArgusMacAree|QO|3|NC|N|Walk with Velen while he reminisces.|
@@ -397,7 +429,8 @@ A Commander's Downfall|QID|48605|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From 
 C Greater Invasion Point|QID|48605|M|49.16,23.09|Z|Upper Deck@ArgusMacAree|NC|N|Open the Navigation Console and find the Greater Invasion Point. One is always available. Only one can be done per week.|
 H Vindicaar|QID|48605|N|After it is finished return to Illidan.|
 t Commander's Downfall|QID|48605|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|To Illidan Stormrage.|
-
+A Invasion Onslaught|QID|49293|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage. This is now a weekly repeatable quest.|
+t Invasion Onslaught|QID|49293|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|To Illidan Stormrage.|
 ; Fel Heart of Argus
 F Shattered Fields|QID|47102|M|42.64,22.76|Z|Upper Deck@ArgusSurface|N|Open the Navigation Console and go to the Shattered Fields in Krokuun.|
 A The Mysterious Missive|QID|47102|M|40.6,70.0|N|From Lightforged Courier, near Shattered Fields.|
@@ -518,12 +551,27 @@ T A Vessel Made Ready|QID|47219|M|28.45,47.19|Z|ArgusMacAree|N|To Alleria Windru
 A A Beacon in the Dark|QID|47220|M|28.44,47.21|Z|ArgusMacAree|N|From Alleria Windrunner.|
 F Vindicaar, Mac'Aree|QID|47220|M|30.16,49.56|Z|ArgusMacAree|QO|1|NC|N|Return to the Vindicaar.|
 T A Beacon in the Dark|QID|47220|M|53.33,50.19|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
-A An Offering of Shadow|QID|48560|M|53.33,50.19|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
-A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|M|53.33,50.19|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen. Seat of the Triumvirate Dungeon.|
+A An Offering of Shadow|QID|48560|M|54.33,50.19|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
+A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|M|53.36,50.33|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen. Seat of the Triumvirate Dungeon.|
+C The Crest of Knowledge|QID|47654|N|Run the Seat of the Triumvirate dungeon. be sure and loot the final boss, Lura.|QO|1|
+C The Crest of Knowledge|QID|47654|M|53.37,56.01|Z|Upper Deck@ArgusMacAree|N|If you aren't in MacAree, use the console to take the Vindicaar to MacAree, then click on the outline of the crest. Wait for the cutscene and Velen to finish talking, Don't leave the area until the quest is complete.|QO|2|
+t Seat of the Triumvirate: The Crest of Knowledge|QID|47654|M|53.36,50.33|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
+
 C An Offering of Shadow|QID|48560|M|56.20,68.40|Z|Lower Deck@ArgusMacAree|QO|1|U|152594|NC|N|Go downstairs to the Netherlight Crucible and infuse it with the Essence of Shadow.\nClick on it.|
 T An Offering of Shadow|QID|48560|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|To Artificer Shela'na.|
 A The Netherlight Crucible|QID|49224|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|From Artificer Shela'na.|ACH|12184|
 C The Netherlight Crucible|QID|49224|M|56.20,68.40|Z|Lower Deck@ArgusMacAree|QO|1|NC|N|Imbue a relic (or all your relics) with Netherlight Fortification.|
 T The Netherlight Crucible|QID|49224|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|To Artificer Shela'na.|
+
+A The Speaker Listens|QID|40273|M|45.66,23.86|Z|Upper Deck@ArgusMacAree|N|From High Exarch Turalyon.|PRE|49224|
+T The Speaker Listens|QID|40273|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
+A Visions of Fear|QID|40272|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|PRE|40273|
+C Visions of Fear|QID|40272|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
+T Visions of Fear|QID|40272|M|56.98,65.68|Z|ArgusSurface|N|To Magni Bronzebeard.|
+A The Speaker Seeks|QID|48277|M|45.66,23.86|Z|Upper Deck@ArgusMacAree|N|From High Exarch Turalyon.|
+T The Speaker Seeks|QID|48277|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
+A Visions of Another|QID|48280|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|PRE|48277|
+C Visions of Another|QID|48280|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
+T Visions of Another|QID|48280|M|56.98,65.68|Z|ArgusSurface|N|To Magni Bronzebeard.|
 ]]
 end)
