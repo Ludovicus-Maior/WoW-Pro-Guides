@@ -345,7 +345,7 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.EnableGrail then
 	    if not Grail then
 	        WoWProCharDB.EnableGrail = nil
-	    elseif Grail.versionNumber < 093 then
+	    elseif Grail.versionNumber < 095 then
 	        WoWProCharDB.EnableGrail = nil
 	    end
 	end
