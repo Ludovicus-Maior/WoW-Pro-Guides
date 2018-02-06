@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2018-02-04 18:05
+-- Who: Ludovicus_Maior
+-- Log: [Slavery and Strife] Coordinate correction from  Chuo!
+
+-- URL: http://wow-pro.com/node/3587/revisions/28947/view
 -- Date: 2018-01-17 00:39
 -- Who: Ludovicus
 -- Log: New Levels
@@ -245,11 +250,6 @@
 -- Who: Emmaleah
 -- Log: correct errors per list o' errors
 
--- URL: http://wow-pro.com/node/3587/revisions/26725/view
--- Date: 2014-10-15 00:12
--- Who: Emmaleah
--- Log: yet another edit, rearranged the order on some stuff, realized the building quests needed to be at the end since it takes an hour to build them.  - 2 quests have a bad turn in sequence that I need to fix next time through - which should be this week
-
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,91, 92, 90.7)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -373,7 +373,7 @@ A Save Wolf Home|QID|33468|PRE|33527|M|42.94,41.60|N|From Durotan.|Z|Bladespire 
 
 A Wanted: Gutsmash the Destroyer|QID|33919|PRE|33527|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
 A Mopping Up|QID|33412|PRE|33657|M|28.29,45.72|N|From Snowrunner Rolga.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
-A Slavery and Strife|QID|33119|PRE|33657|M|20.1,52.9|N|From Guse.|RANK|2|
+A Slavery and Strife|QID|33119|PRE|33657|M|24.36, 37.37|N|From Guse.|RANK|2|
 f Bladespire Citadel|QID|33412|M|19.9,51.8|N|At Roark the Airwolf.|
 F Wor'gol|QID|33468|M|24.33,37.24|N|At Roark the Airwolf.|
 

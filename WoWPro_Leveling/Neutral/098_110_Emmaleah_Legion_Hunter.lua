@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2018-02-04 17:52
+-- Who: Ludovicus
+-- Log: [Bite of the Beast] Waypoint correction by Jeremy Billones.
+
+-- URL: http://wow-pro.com/node/3670/revisions/28752/view
 -- Date: 2017-08-12 21:08
 -- Who: Ludovicus_Maior
 -- Log: Obliterum
@@ -170,7 +175,7 @@ T Calling Hilaire Home|QID|42389|M|34.71,41.63|Z|Stormheim|N|To Beastmaster Hila
 A Bite of the Beast|QID|42391|M|34.71,41.63|Z|Stormheim|N|From Beastmaster Hilaire.|
 C Bite of the Beast|QID|42391|QO|1|M|34.71,41.63;37.31,38.53|CS|Z|Stormheim|N|Follow the trail of Bloodspatters on the ground. You go down and around into a cave.|
 C Bite of the Beast|QID|42391|QO|2|M|37.31,38.53|Z|Stormheim|N|Kill Zoarg and loot his head.|
-C Bite of the Beast|QID|42391|QO|3|M|52.82,42.50;28.87,41.31;30.30,40.54|CS|Z|Stormheim|N|Back out of the cave and up the hill. Take Zoarg's head to Archmage Landon.|
+C Bite of the Beast|QID|42391|QO|3|M|32.82,42.50;28.87,41.31;30.30,40.54|CS|Z|Stormheim|N|Back out of the cave and up the hill. Take Zoarg's head to Archmage Landon.|
 T Bite of the Beast|QID|42391|M|34.71,41.63|Z|Stormheim|N|Return to Hilaire with the good news.|
 A Champion: Beastmaster Hilaire|QID|42411|M|34.71,41.63|Z|Stormheim|N|From/To Beastmaster Hilaire.|PRE|42391|
 A Homecoming|QID|42393|M|34.71,41.63|Z|Stormheim|N|From Beastmaster Hilaire.|PRE|42411|
