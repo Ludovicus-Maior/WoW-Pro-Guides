@@ -342,13 +342,6 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.EnableGrail == nil then
 	    WoWProCharDB.EnableGrail = true
 	end
-	if WoWProCharDB.EnableGrail then
-	    if not Grail then
-	        WoWProCharDB.EnableGrail = nil
-	    elseif Grail.versionNumber < 095 then
-	        WoWProCharDB.EnableGrail = nil
-	    end
-	end
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
 	WoWProCharDB.GuideVersion = WoWProCharDB.GuideVersion or {}

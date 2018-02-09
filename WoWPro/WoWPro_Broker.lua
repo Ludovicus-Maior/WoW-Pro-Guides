@@ -2550,8 +2550,24 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
     end
 end
 
+local GrailQuestLevelOK = nil
+
+function WoWPro.GrailQuestLevelOK()
+    if not Grail then return false end
+    if GrailQuestLevelOK ~= nil then return GrailQuestLevelOK end
+    local _,_,level = Grail:MeetsRequirementLevel(11641,nil)
+    if level < 60 then
+        GrailQuestLevelOK = true
+    else
+        WoWPro:Warning("Grail Quest Level integration disabled due to out of date quest data.")
+        GrailQuestLevelOK = false
+    end
+    return  GrailQuestLevelOK
+end
+
 function WoWPro:GrailQuestLevel(qid)
     if not Grail or not WoWPro.EnableGrail then return nil end
+    if not WoWPro.GrailQuestLevelOK() then return nil end
     local _,_,level = Grail:MeetsRequirementLevel(qid,nil)
     if level then
         return tostring(level)
