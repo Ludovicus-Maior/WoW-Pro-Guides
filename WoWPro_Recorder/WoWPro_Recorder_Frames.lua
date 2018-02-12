@@ -1232,7 +1232,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 							local infoTable = {}
 							for GID, guideInfo in pairs(WoWPro.Guides) do
 								infoTable[GID] = guideInfo.author.."'s "..guideInfo.zone.." "
-									..guideInfo.startlevel.."-"..guideInfo.endlevel
+									..GID
 							end
 							return infoTable
 						end,
