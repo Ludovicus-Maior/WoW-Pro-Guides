@@ -19,7 +19,13 @@ WoWPro.Leveling.StartGuides = {
 			Gnome = "GylGno0105",
 			Human = "KurNShire0105",
 			Worgen = "RpoGil0113",
-			Pandaren = "FlucloPanda",
+			Pandaren = "FlucloPanda"
+		}
+WoWPro.Leveling.AlliedStartGuides = {
+			VoidElf = "LudoTelogrus",
+			LightforgedDraenei = "LudoLightforged",
+			HighmountainTauren = "LudoHighmountain",
+			Nightborne = "LudoNightborne"
 		}
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -62,6 +68,10 @@ function WoWPro.Leveling:OnEnable()
 	elseif UnitLevel("player") == 98 and UnitXP("player") < 2000 and engClass == "DEMONHUNTER" then
 	    WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
 	    WoWPro:LoadGuide("LinksMardum098099")
+	elseif UnitLevel("player") == 20 and UnitXP("player") < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] then
+	    WoWPro.Leveling:dbp("Loading starter %s guide",engRace)
+	    WoWProDB.char.currentguide = WoWPro.Leveling.AlliedStartGuides[engRace]
+	    WoWPro:LoadGuide(WoWProDB.char.currentguide)
 	-- No current guide, but a guide was stored for later use --
 	elseif WoWProDB.char.lastlevelingguide and not WoWProDB.char.currentguide then
 	    WoWPro.Leveling:dbp("Loading last leveling guide.")
