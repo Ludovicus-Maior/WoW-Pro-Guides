@@ -78,7 +78,7 @@ end
 function WoWPro:AutoCompleteGetFP(...)
     local _event, _idx, msg = ...
 	local index = WoWPro.rows[1].index
-	WoWPro:dbp("AutoCompleteGetFP(%s,%s,%s): Step %s/%d [%s]?", tostring(_event), tostring(_idx), msg, WoWPro.action[index], index, WoWPro.step[index])
+	WoWPro:dbp("AutoCompleteGetFP(%s,%s,%s): Step %s/%d [%s]?", tostring(_event), tostring(_idx), msg, tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
 	if msg == ERR_NEWTAXIPATH and WoWPro.action[index] == "f"
 	and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
 		WoWPro.CompleteStep(index, "AutoCompleteGetFP")
@@ -550,7 +550,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
         for index=1,npcCount do
             -- name, level, isTrivial, isComplete, isLegendary, isIgnored
             local name = npcQuests[((index-1)*6)+1]
-            WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, name, WoWPro.step[qidx])
+            WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, name, tostring(WoWPro.step[qidx]))
 	        if WoWPro.action[qidx] == "T" and name == WoWPro.step[qidx] then
 	            WoWPro.QuestStep = qidx
 	            SelectGossipActiveQuest(index)
