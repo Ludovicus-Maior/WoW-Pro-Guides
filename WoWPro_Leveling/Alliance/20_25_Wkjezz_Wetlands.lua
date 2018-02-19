@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2018-02-19 23:27
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3224/revisions/28858/view
 -- Date: 2018-01-16 23:26
 -- Who: Ludovicus
 -- Log: New Levels
@@ -121,7 +126,7 @@ return [[
 R Algaz Station|QID|26137|M|25.45,17.97|Z|Loch Modan|N|Start by heading to Algaz Station, located to the north-west of Loch Modan.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 2: Loch Modan and Dun Algaz\nRank 1: Wetlands Only|LEAD|27116|
 
 N Drop the Hero's Call: Wetlands! quest|QID|28565|Z|Loch Modan|N|Your Quest log includes Hero's Call: Wetlands! quest, but you have not completed the quest Checking on the Boys. The Hero's call earns you just 155 experience and 10 reputation with Ironforge. Checking with the boys offers you 780 experience, 75 reputation with Ironforge and 6 silver - for exactly the same quest.|LEAD|28565|RANK|2|ACTIVE|28565|
-A Checking on the Boys|QID|26137|M|25.45,17.97|Z|Loch Modan|N|From Mountaineer Stormpike.|LEAD|28565|
+A Checking on the Boys|QID|26137|M|25.45,17.97|Z|Loch Modan|N|From Mountaineer Stormpike.|LEAD|25395|
 T Checking on the Boys|QID|26137|M|49.96,79.24|N|To Mountaineer Rharen.|
 T Hero's Call: Wetlands!|QID|28565|M|49.96,79.24|N|To Mountaineer Rharen.|O|
 A The Stolen Keg|QID|25395|M|49.96,79.24|N|From Mountaineer Rharen.|RANK|2|
@@ -132,7 +137,7 @@ C Cleaning Hovel|QID|25211|US|M|47.99,75.41|N|Kill 5 Dragonmaw Orcs.|RANK|2|
 T Cleaning Hovel|QID|25211|M|49.88,79.19|N|To Mountaineer Grugelm.|RANK|2|
 T The Stolen Keg|QID|25395|M|49.90,79.19|N|To Mountaineer Rharen.|RANK|2|
 
-A Keg Run|QID|25770|M|50.00,79.18|N|From Mountaineer Rharen.|RANK|2|PRE|25395|
+A Keg Run|QID|25770|LEAD|25721|M|50.00,79.18|N|From Mountaineer Rharen.|RANK|2|PRE|25395|
 R Wetlands|QID|257700|M|48.23,67.29;49.23,70.51;53.93,70.37|CC|N|Follow the path until you get to the Wetlands.|
 f Slabchisel's Survey|QID|25770|M|56.87,71.17|N|At Elgin Baelor.|
 T Keg Run|QID|25770|M|57.48,71.76|N|To Forba Slabchisel.|RANK|2|
@@ -181,7 +186,7 @@ T Incendicite Ore|QID|25735|M|57.83,71.63|N|To Dunlor Marblebeard.|
 T Get Out Of Here, Stalkers|QID|25733|M|57.46,71.81|N|To Forba Slabchisel.|
 T The Floodsurge Core|QID|25736|M|57.46,71.81|N|To Forba Slabchisel.|
 
-A Onwards to Menethil|QID|25777|M|57.47,71.79|N|From Forba Slabchisel.|PRE|25733|
+A Onwards to Menethil|QID|25777|LEAD|25780|M|57.47,71.79|N|From Forba Slabchisel.|PRE|25733;25734;25735;25736|
 r Repair/Restock|QID|25777|M|57.69,71.35|N|At Darvish Quickhammer.|
 R Menethil Harbor|QID|25777|M|57.07,71.67;10.53,55.66|CC|N|Click on Brisket, Slabchisel's Ram, to get a free ride to Menethil Harbor.|ACTIVE|25777|
 T Onwards to Menethil|QID|25777|M|10.53,55.66|N|To Captain Stoutfist.|
@@ -236,7 +241,7 @@ T Return the Statuette|QID|25805|M|11.14,57.76|N|To Karl Boran.|
 
 L Level 21 |QID|26980|LVL|21|N|You need to be Level 21 to be able to continue this guide.|
 
-A Swiftgear Station|QID|26980|M|10.47,55.70|N|From Captain Stoutfist.|PRE|25819|LEAD|25864|
+A Swiftgear Station|QID|26980|M|10.47,55.70|N|From Captain Stoutfist.|PRE|25801;25819|LEAD|25864|
 T Swiftgear Station|QID|26980|M|26.83,26.14|N|To Shilah Slabchisel.|
 
 A Dinosaur Crisis|QID|25864|M|26.83,26.14|N|From Shilah Slabchisel.|
@@ -264,17 +269,17 @@ T Hunting Horrorjaw|QID|25857|M|26.79,26.65|N|To James Halloran.|
 T The Mosshide Job|QID|25865|M|26.90,26.16|N|To Shilah Slabchisel.|
 T Gizmos and Gadgets|QID|25855|M|26.82,25.92|N|To Fradd Swiftgear.|
 
-A Dark Iron Trappers|QID|25866|M|26.94,26.15|N|From Shilah Slabchisel.|PRE|25855;25857;25865|
-A Gnoll Escape|QID|25867|M|26.94,26.15|N|From Shilah Slabchisel.|PRE|25855;25857;25865|
+A Dark Iron Trappers|QID|25866|M|26.94,26.15|N|From Shilah Slabchisel.|PRE|25865|
+A Gnoll Escape|QID|25867|M|26.94,26.15|N|From Shilah Slabchisel.|PRE|25865|
 C Gnoll Escape|QID|25867|M|45.38,34.90|S|N|Free Gnolls from the Gnoll Cages when you get keys from Dark Iron Trappers.|
 C Dark Iron Trappers|QID|25866|M|43.62,34.27|N|Kill Dark Iron Trappers and loot their keys.|
 C Gnoll Escape|QID|25867|M|45.38,34.90|US|N|Free Gnolls from the Gnoll Cages when you get keys from Dark Iron Trappers.|
 T Dark Iron Trappers|QID|25866|M|26.91,26.18|N|To Shilah Slabchisel.|
 T Gnoll Escape|QID|25867|M|26.91,26.18|N|To Shilah Slabchisel.|
-A Yorla Darksnare|QID|25868|M|26.91,26.18|N|From Shilah Slabchisel.|PRE|25866+25867|
+A Yorla Darksnare|QID|25868|M|26.91,26.18|N|From Shilah Slabchisel.|PRE|25866;25867|
 C Yorla Darksnare|QID|25868|M|41.25,22.00|N|Kill Yorla Darksnare.|
 T Yorla Darksnare|QID|25868|M|27.00,26.03|N|To Shilah Slabchisel.|
-A Whelgar's Retreat|QID|26981|M|27.00,26.03|N|From Shilah Slabchisel.|PRE|25868|
+A Whelgar's Retreat|QID|26981|LEAD|25849|M|27.00,26.03|N|From Shilah Slabchisel.|PRE|25868|
 f Whelgar's Retreat|QID|26981|M|38.77,39.03|N|At Damon Baelor.|
 T Whelgar's Retreat|QID|26981|M|38.84,39.30|N|To Prospector Whelgar.|
 
@@ -298,7 +303,7 @@ K Gorfax Angerfang|QID|26189|M|53.33,54.44|QO|Gorfax Angerfang slain: 1/1|N|Kill
 C The Angerfang Menace|QID|26189|QO|Angerfang Dragonmaw slain: 16/16|M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|US|
 T The Angerfang Menace|QID|26189|M|38.94,39.46|N|To Prospector Whelgar.|
 
-A Who Wards The Greenwarden|QID|26195|M|38.94,39.46|N|From Prospector Whelgar.|PRE|26189|
+A Who Wards The Greenwarden|QID|26195|M|38.94,39.46|N|From Prospector Whelgar.|PRE|25850;25853;26189|
 f Greenwarden's Grove|QID|26195|M|56.32,41.85|N|At Halana.|
 T Who Wards The Greenwarden|QID|26195|M|56.48,39.93|N|To Ferilon Leafborn.|
 
@@ -323,7 +328,7 @@ T For Peat's Sake|QID|25939|M|56.41,39.94|N|To Rethiel the Greenwarden.|
 A Longbraid the Grim|QID|26196|M|56.41,39.94|N|From Rethiel the Greenwarden.|PRE|25939|
 f Dun Modr|QID|26196|M|49.98,18.58|N|At Caleb Baelor.|
 T Longbraid the Grim|QID|26196|M|49.88,18.36|N|To Longbraid the Grim.|
-A Anvilmar the Hero|QID|26327|M|49.88,18.36|N|From Longbraid the Grim.|
+A Anvilmar the Hero|QID|26327|LEAD|26127|M|49.88,18.36|N|From Longbraid the Grim.|
 T Anvilmar the Hero|QID|26327|M|49.53,17.29|N|To Thargas Anvilmar.|
 A The Twilight's Hammer Revealed|QID|26127|M|49.53,17.29|N|From Thargas Anvilmar.|
 C The Twilight's Hammer Revealed|QID|26127|M|46.49,15.98|N|Kill 12 Twilight Converts.|
@@ -331,7 +336,7 @@ T The Twilight's Hammer Revealed|QID|26127|M|49.39,17.23|N|To Thargas Anvilmar.|
 A The Battle of Thandol Span|QID|26128|M|49.50,17.28|N|From Thargas Anvilmar.|PRE|26127|
 C The Battle of Thandol Span|QID|26128|M|51.11,9.04|N|Go onto the bridge, but not past the waypoint. Watch the little scene (pun intended), then kill Calamoth Ashbeard.|
 T The Battle of Thandol Span|QID|26128|M|49.53,17.25|N|(UI Alert) Or you can go and turn the quest into Thargas Anvilmar.|
-A Into Arathi|QID|26139|M|49.53,17.25|N|(UI Alert) Or you can get this quest from Thargas Anvilmar, accept if you intend to move onto Arathi Highlands for your next zone.|LEAD|28573|PRE|26128|
+A Into Arathi|QID|26139|M|49.53,17.25|N|(UI Alert) Or you can get this quest from Thargas Anvilmar, accept if you intend to move onto Arathi Highlands for your next zone.|LEAD|26093|PRE|26128|
 
 ]]
 
