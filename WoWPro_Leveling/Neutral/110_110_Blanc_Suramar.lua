@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2018-02-19 03:59
+-- Who: Emmaleah
+-- Log: Fighting on all Fronts removed in hotfix 2/2/18 (Good Riddence!)
+
+-- URL: http://wow-pro.com/node/3687/revisions/28956/view
 -- Date: 2018-01-17 00:44
 -- Who: Ludovicus
 -- Log: New Levels
@@ -248,11 +253,6 @@
 -- Date: 2016-12-07 18:52
 -- Who: cameljon
 -- Log: Moved Matron again!
-
--- URL: http://wow-pro.com/node/3687/revisions/28116/view
--- Date: 2016-12-07 18:47
--- Who: cameljon
--- Log: Reordered some quests for Moonguard. Also, Matron Hagatha moved to a closer quest.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -1629,17 +1629,13 @@ T Full Might of the Elves|QID|44738|M|52.25,68.73|N|Run To Archmage Khadgar and 
 A Staging Point|QID|44740|PRE|44738|M|52.25,68.73|N|From Archmage Khadgar.|
 C Staging Point|QID|44740|M|54.47,69.43|NC                          |N|Click on Telemancy Beacon to activate.|
 T Staging Point|QID|44740|M|54.88,72.87|N|To Archmage Khadgar.|
-A Fighting on All Fronts|QID|45317|PRE|44740|M|54.88,72.87|N|From Archmage Khadgar.|
-C Fighting on All Fronts|QID|45317|NC|QO|1|N|Use your Class Order Hall Mission Map to complete 5 Missions.|
-P Astravar Harbor|QID|45317|ACTIVE|45317|M|36.76,45.04|N|Portal to the Harbor.|
-t Fighting on All Fronts|QID|45317|M|54.88,72.87|N|To Archmage Khadgar.|
 
 ; Insurrection - Elisande's Retort - Storyline.
 
-A Insurrection: Elisandre's Retort|QID|45282|PRE|45317|AVAILABLE|45267|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+A Insurrection: Elisandre's Retort|QID|45282|PRE|44740|AVAILABLE|45267|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 H Shal'Aran|QID|45267|PRE|45317|M|54.48,69.46|N|Use your Portal at this location, Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T Insurrection: Elisandre's Retort|QID|45282|M|36.50,46.72|N|To First Arcanist Thalyssra.|
-A Before the Siege|QID|45267|PRE|45317|M|36.50,46.72|N|From First Arcanist Thalyssra, in Shal'Aran.|
+A Before the Siege|QID|45267|PRE|44740|M|36.50,46.72|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Before the Siege|QID|45267|M|37.74,47.68|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T Before the Siege|QID|45267|M|36.50,46.72|N|To First Arcanist Thalyssra.|
 A Gates of the Nighthold|QID|44736|PRE|45267|M|36.50,46.72|N|From First Arcanist Thalyssra.|
