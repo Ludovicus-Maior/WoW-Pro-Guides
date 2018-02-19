@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2018-02-19 23:30
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3233/revisions/28841/view
 -- Date: 2018-01-16 23:14
 -- Who: Ludovicus
 -- Log: New Levels
@@ -351,7 +356,7 @@ C Back to the Depths!|QID|25914|US|M|41.45,22.54|N|Finish kill the Invading Tent
 T Putting Them to Rest|QID|25913|M|39.62,30.72|N|To Sentinel Mistress Geleneth.|
 T Back to the Depths!|QID|25914|M|39.62,30.72|N|To Sentinel Mistress Geleneth.|
 T Seen Better Days|QID|25912|M|39.62,30.72|N|To Elder Sareth'na.|
-A Help for Desolace|QID|25938|M|33.11,59.64|N|From Hierophant Malyk. (If you do not plan to run Desolace abandon this quest and skip this step.)|
+A Help for Desolace|QID|25938|LEAD|14384|M|33.11,59.64|N|From Hierophant Malyk. (If you do not plan to run Desolace abandon this quest and skip this step.)|
 T Thal'darah's Vengeance|QID|25925|M|33.11,59.64|N|To Hierophant Malyk.|
 A Ascending the Vale|QID|25930|PRE|25925|M|33.12,59.69|N|From Hierophant Malyk.|
 A World First: Gnomegen|QID|25934|PRE|25925|M|33.03,59.58|N|From Salsbury the "Help".|
