@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bringing_bass
+-- Date: 2018-02-19 22:27
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3630/revisions/28547/view
 -- Date: 2017-03-23 17:33
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -28,7 +33,7 @@ return [[
 
 ; [The Assault Base] in Tanaan Jungle needed to start
 A Bringing the Bass|QID|37961|PRE|37935|M|40.93,47.77|Z|Frostwall|N|From Drix Bassbolter|FACTION|Horde|
-A Bringing the Bass|QID|38356|PRE|38445|M|33.77,36.33|Z|Lunarfall|N|From Fix "Smallie" Biggswrench|FACTION|Alliance|
+A Bringing the Bass|QID|38356|M|33.77,36.33|Z|Lunarfall|N|From Fix "Smallie" Biggswrench|FACTION|Alliance|
 
 F Joz's Rylaks|QID|37961|QO|1|M|45.79,51.04|N|Ask Bron to take you to Nagrand to get the blaster.|FACTION|Horde|
 F Joz's Rylaks|QID|38356|QO|1|M|45.79,51.04|N|Ask Bron to take you to Nagrand to get the blaster.|FACTION|Alliance|
