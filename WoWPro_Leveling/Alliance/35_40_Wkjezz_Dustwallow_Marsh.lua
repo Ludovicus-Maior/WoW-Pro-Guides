@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2018-02-19 23:36
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3241/revisions/28846/view
 -- Date: 2018-01-16 23:19
 -- Who: Ludovicus
 -- Log: New Levels
@@ -140,7 +145,7 @@ N This Guide|QID|27251|N|Picks up directly from where Southern Barrens leaves of
 R Dustwallow Marsh|QID|27251|M|56.61,78.35|Z|Southern Barrens|N|Head into Dustwallow Marsh.|
 R Theramore Isle |QID|27251|M|68.19,46.82|N|Follow the path all the way east to Theramore. It's populated by Alliance vehicles and banners.|
 
-A They Call Him Smiling Jim|QID|27251|M|66.05,45.91|N|From Guard Byron.|
+A They Call Him Smiling Jim|QID|27251|LEAD|27249|M|66.05,45.91|N|From Guard Byron.|
 h Theramore Isle|QID|27251|M|66.57,45.26|N|At Innkeeper Janene. Take this chance to sell your junk and restock also.|
 A Mudrock Soup and Bugs|QID|1204|M|68.23,48.79|N|From Morgan Stern.|
 T Reinforcements From Theramore|QID|26687|O|M|68.21,48.58|N|To Captain Garran Vimes.|
@@ -171,7 +176,7 @@ A Dastardly Denizens of the Deep|QID|27218|PRE|27217|M|72.10,47.07|N|From Babs F
 T Dastardly Denizens of the Deep|QID|27218|M|69.28,51.87|N|To "Dirty" Michael Crowe.|
 A Is it Real?|QID|27219|PRE|27218|M|69.23,51.95|N|From "Dirty" Michael Crowe.|
 T The End of the Deserters|QID|27213|M|68.37,51.11|N|To Calia Hastings.|
-A The Hermit of Swamplight Manor|QID|27215|PRE|27213;27222|M|68.21,51.87|N|From Sergeant Amelyn.|
+A The Hermit of Swamplight Manor|QID|27215|LEAD|27183|PRE|27213+27222|M|68.21,51.87|N|From Sergeant Amelyn.|
 T Is it Real?|QID|27219|M|58.74,60.15|N|To Nat Pagle.|
 A Nat's Bargain|QID|27220|PRE|27219|M|58.74,60.15|N|From Nat Pagle.|
 C Nat's Bargain|QID|27220|U|33166|M|56.26,62.75|N|Use Pagle's Fish Paste, then swim to this spot. A shark will attack you, so kill it.|
@@ -180,7 +185,7 @@ T Nat's Bargain|QID|27220|M|58.72,60.18|N|To Nat Pagle.|
 A Oh, It's Real|QID|27221|PRE|27220|M|58.72,60.18|N|From Nat Pagle.|
 H Theramore Isle|QID|27221|N|Hearth back to Theramore Isle, or run if your hearth is down.|M|66.41,45.27|
 A Tabetha's Farm|QID|11212|M|66.10,46.08|N|From Guard Byron.|
-A A Disturbing Development|QID|27214|PRE|27213;27222|M|65.18,46.87|N|From Lieutenant Aden.|
+A A Disturbing Development|QID|27214|LEAD|27234|PRE|27213+27222|M|65.18,46.87|N|From Lieutenant Aden.|
 A Mission to Mudsprocket|QID|27248|M|65.08,47.00|N|From Lieutenant Aden.|
 r Repair and Sell Junk|QID|27214|M|67.90,49.99|N|Jensen Farran.|
 T Oh, It's Real|QID|27221|M|69.59,51.72|N|To Major Mills.|
@@ -373,7 +378,7 @@ C Peace at Last|QID|27291|U|33082|M|63.64,42.86|N|Use the wreath on the sparklin
 T Peace at Last|QID|27291|M|68.21,48.54|N|To Captain Garran Vimes.|
 F Mudsprocket|QID|27411|N|Fly back to Mudsprocket.|M|67.50,51.23|
 T Challenge to the Black Flight|QID|27411|M|41.86,73.89|N|To Brogg.|
-A To New Thalanaar|QID|25479|M|41.86,73.89|N|From Thyssiana. (Optional, Do this if you wish to go to Thousand Needless, our next guide.)|
+A To New Thalanaar|QID|25479|LEAD|25486|M|41.86,73.89|N|From Thyssiana. (Optional, Do this if you wish to go to Thousand Needless, our next guide.)|
 C To New Thalanaar|QID|25479|O|M|42.84,72.42|N|Choose the speech bubble from the Mudsprocket Flight Master.|
 
 N The End|N|Well done on the achievment! Simply close this step and Thousand Needles will begin. You can also choose a new guide from out Guides List. WKjezz of Wow-pro.|
