@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/order_cloud_serpent_reputation
+-- Date: 2018-02-19 22:50
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3505/revisions/26852/view
 -- Date: 2014-11-07 20:39
 -- Who: Fluclo
 -- Log: Fixed duplicate N tag, and missing N and M tags
@@ -92,13 +97,13 @@ A Choosing the One|QID|30138|PRE|30135;30136;30137|M|65.2,31.6|N|From Instructor
 T Choosing the One|QID|30138|M|65.2,31.6|N|To Instructor Tong. This is the color of the mount you will end up with at exalted, so choose carefully. You can buy the others later, or get them with alts.|
 A The Rider's Journey|QID|30139;30140;30141|PRE|30138|M|65.2,31.6|N|From Instructor Tong.|
 T The Rider's Journey|QID|30139;30140;30141|M|57.56,45.07|N|To Instructor Skythorn.|
-A It's A...|QID|30142|M|57.56,45.07|PRE|30139;30140;30141|N|From Instructor Skythorn.|
+A It's A...|QID|30142|M|57.56,45.07|PRE|30139+30140+30141|N|From Instructor Skythorn.|
 C It's A...|QID|30142|M|57.56,45.07|N|Wait for it to hatch, it will then appear beside Instructor Skythorn, named 'Your Hatchling'|
 C It's A...|QID|30142|M|57.56,45.07|N|To Instructor Skythorn.|
 
 ;one time chain at revered
 B Grand Commendation|M|56.6,44.4|REP|Order of the Cloud Serpent;1271;revered|L|93229|N|If this is your first character to revered, dont forget to buy the Grand Commendation so that the rest of the rep grind will go faster. It is sold by San Redscale.|
-A They Grow Like Weeds|QID|30143|M|57.60,44.94|PRE|30142|REP|Order of the Cloud Serpent;1271;revered|N|From Elder Anli.|
+A They Grow Like Weeds|QID|30143|M|57.60,44.94|REP|Order of the Cloud Serpent;1271;revered|N|From Elder Anli.|
 C They Grow Like Weeds|QID|30143|M|58.6,43.6|N|Talk to Instructor Windblade and watch the cinematic.|QO|Speak to Instructor Windblade: 1/1|
 T They Grow Like Weeds|QID|30143|M|58.6,43.6|N|To Instructor Windblade.|
 A Flight Training: Ring Round-Up|QID|30144|PRE|30143|M|58.6,43.6|N|From Instructor Windblade.|
