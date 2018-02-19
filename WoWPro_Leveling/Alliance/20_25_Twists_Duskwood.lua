@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2018-02-19 23:25
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3222/revisions/28857/view
 -- Date: 2018-01-16 23:26
 -- Who: Ludovicus
 -- Log: New Levels
@@ -163,12 +168,12 @@ T Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|To Chef Grual.|US|
 T Wolves at Our Heels|QID|26618|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
 
 A The Night Watch|QID|26645|PRE|26618|M|73.72,46.89|N|From Commander Althea Ebonlocke.|S|RANK|2|
-A The Hermit|QID|26627|PRE|26618|M|73.72,46.89|N|From Commander Althea Ebonlocke.|
+A The Hermit|QID|26627|LEAD|26653|PRE|26618|M|73.72,46.89|N|From Commander Althea Ebonlocke.|
 A The Night Watch|QID|26645|PRE|26618|M|73.72,46.89|N|From Commander Althea Ebonlocke.|US|RANK|2|
 A Look To The Stars|QID|26683|PRE|26618|M|79.53,47.41|N|From Viktori Prism'Antras.|
 
 T The Hermit|QID|26627|M|87.45,35.38|N|To Abercrombie.|
-A Supplies from Darkshire|QID|26653|M|87.45,35.38|N|From Abercrombie.|PRE|26653|
+A Supplies from Darkshire|QID|26653|M|87.45,35.38|N|From Abercrombie.|
 
 T Supplies from Darkshire|QID|26653|M|75.75,45.33|N|To Madame Eva.|
 A Ghost Hair Thread|QID|26652|M|75.75,45.33|N|From Madame Eva.|PRE|26653|
@@ -355,7 +360,7 @@ C The Cries of the Dead|QID|26778|N|Leave the catacombs by following the stairs 
 T Morbent's Bane|QID|26754|M|18.40,57.94|N|To Sven Yorgen.|O|
 T The Cries of the Dead|QID|26778|M|19.92,57.88|N|To Sister Eisington.|
 
-A Rebels Without a Clue|QID|26838|M|19.92,57.88|N|If you intend on going onto Northern Stranglethorn next, then accept this quest from Sister Eisington. This quest will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!" or done the Hero's Call quest already.|
+A Rebels Without a Clue|QID|26838|LEAD|26735|M|19.92,57.88|N|If you intend on going onto Northern Stranglethorn next, then accept this quest from Sister Eisington. This quest will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!" or done the Hero's Call quest already.|
 
 F Darkshire|QID|26793|M|21.03,56.63|N|Fly back to, or hearthstone to Darkshire.|ACTIVE|26793|
 
