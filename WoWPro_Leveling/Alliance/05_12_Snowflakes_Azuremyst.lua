@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2018-02-19 23:16
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3206/revisions/29005/view
+-- Date: 2018-02-19 23:12
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Ammen Vale
+
+-- URL: http://wow-pro.com/node/3206/revisions/28896/view
 -- Date: 2018-01-16 23:49
 -- Who: Ludovicus
 -- Log: New Levels
@@ -262,7 +272,7 @@ T The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|To Acteon.|
 A The Great Moongraze Hunt|QID|10324|PRE|9454|M|49.8,51.9|N|From Acteon.|
 C An Alternative Alternative|QID|9473|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|QO|1|M|48.5,55.1|
 T An Alternative Alternative|QID|9473|M|48.4,51.8|N|To Daedal.|R|Draenei|
-A The Prophecy of Velen|QID|9505|PRE|9473|M|48.4,51.8|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
+A The Prophecy of Velen|QID|9505|LEAD|9506|PRE|9473|M|48.4,51.8|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
 
 T Beds, Bandages, and Beyond|QID|9603|N|Go to Zaldaan (the Flight Master).|R|Draenei|M|49.67,49.17|
 A On the Wings of a Hippogryph|QID|9604|PRE|9603|N|From Zaldaan.|R|Draenei|M|49.67,49.17|
@@ -285,8 +295,8 @@ C A Small Start|QID|9506|M|59.55,67.66|N|Now find and right click the Nautical C
 C Cookie's Jumbo Gumbo|QID|9512|US|N|Follow the shore back eastwards while killing crawlers for Skittering Crawler Meat.|M|58,67|
 T A Small Start|QID|9506|N|To Admiral Odesyus.|M|47.0,70.2|
 A I've Got a Plant|QID|9530|PRE|9506|M|47.0,70.2|N|From Admiral Odesyus.|
-A Reclaiming the Ruins|QID|9513|PRE|9506;9512|M|47.0,70.2|N|From Priestess Kyleen Il'dinare.|
-A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506;9512|M|47.2,70.0|N|From Archaeologist Adamant Ironheart.|
+A Reclaiming the Ruins|QID|9513|PRE|9506+9512|M|47.0,70.2|N|From Priestess Kyleen Il'dinare.|
+A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506+9512|M|47.2,70.0|N|From Archaeologist Adamant Ironheart.|
 T Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|To "Cookie" McWeaksauce.|
 
 r Sell junk and repair (click to close)|QID|9530|N|At Blacksmith Calypso|M|46.4,71.1|
@@ -305,7 +315,7 @@ T Rune Covered Tablet|QID|9514|M|47.0,70.2|N|To Priestess Kyleen Il'dinare.|
 A Warlord Sriss'tiz|QID|9515|PRE|9514|N|Wait a moment until the dialog is finished. Then accept this quest from Priestess Kyleen Il'dinare.|M|47.0,70.2|
 
 R Azure Watch|QID|9538|M|48,53|N|Run to Azure Watch.|
-A The Missing Fisherman|QID|10428|M|49.0,51.1|N|From Dulvi.|
+A The Missing Fisherman|QID|10428|LEAD|9527|M|49.0,51.1|N|From Dulvi.|
 
 C The Great Moongraze Hunt|QID|10324|S|N|Kill and loot the needed Moongraze Stags for the Hides.|M|48.52,55.63|
 A Strange Findings|QID|9455|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|M|48.26,41.43|
@@ -364,8 +374,8 @@ A Murlocs... Why Here? Why Now?|QID|9562|PRE|9544|M|44.7,23.6|N|From Gurf.|
 T Stillpine Hold|QID|9559|M|46.7,20.6|N|To High Chief Stillpine.|
 C Beasts of the Apocalypse!|QID|9560|N|Kill and loot Ravagers at the Menagerie Wreckage.|M|54.24,19.36|
 T Beasts of the Apocalypse!|QID|9560|M|44.8,23.9|N|To Moordo.|
-A Search Stillpine Hold|QID|9565|PRE|9560;9562|M|46.7,20.6|N|From High Chief Stillpine.|
-A Chieftain Oomooroo|QID|9573|PRE|9560;9562|M|46.9,21.2|N|From Stillpine the Younger.|
+A Search Stillpine Hold|QID|9565|PRE|9560+9562|M|46.7,20.6|N|From High Chief Stillpine.|
+A Chieftain Oomooroo|QID|9573|PRE|9560+9562|M|46.9,21.2|N|From Stillpine the Younger.|
 C Chieftain Oomooroo|QID|9573|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|M|45.39,18.06;47.43,14.18|CS|
 T Chieftain Oomooroo|QID|9573|M|46.9,21.2|N|To Stillpine the Younger.|
 A The Kurken is Lurkin'|QID|9570|M|47.0,22.3|N|From Kurz the Revelator.|
@@ -388,9 +398,9 @@ T Warn Your People|QID|9622|M|47.13,50.61|N|Run (or hearth if available) back to
 T Bandits!|QID|9616|M|47.13,50.61|N|To Exarch Menelaous.|O|
 r Sell junk and repair|QID|9623|N|At Kioni.|M|49.69,52.75|
 F The Exodar|QID|9623|N|Fly to The Exodar. I would suggest visiting the AH and bank while you are there.|M|49.7,49.12|
-A Hero's Call: Bloodmyst Isle!|QID|28559|M|55.31,47.34|Z|The Exodar|N|Picked up from the Hero's Call Board. Will not be there if your level is too high.\n\nNOTE: If you take this, another quest "Elekks Are Serious Business" will NOT be available. The other one is better XP and reward, so I suggest you skip this one.|
+A Hero's Call: Bloodmyst Isle!|QID|28559|LEAD|9634|M|55.31,47.34|Z|The Exodar|N|Picked up from the Hero's Call Board. Will not be there if your level is too high.\n\nNOTE: If you take this, another quest "Elekks Are Serious Business" will NOT be available. The other one is better XP and reward, so I suggest you skip this one.|
 T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Head up and outside. Then turn this quest into Torallius the Pack Handler.|
-A Elekks Are Serious Business|QID|9625|PRE|9623|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
+A Elekks Are Serious Business|QID|9625|LEAD|9634|PRE|9623|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
 R Kessel's Crossing|QID|9625|Z|Bloodmyst Isle|N|Go north to Kessel's Crossing on Bloodmyst Isle (it's a long run - just follow the path).|M|63.50,88.14|
 T Elekks Are Serious Business|QID|9625|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
 ]]
