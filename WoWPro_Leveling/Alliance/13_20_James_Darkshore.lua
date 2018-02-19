@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2018-02-19 23:24
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3218/revisions/28856/view
 -- Date: 2018-01-16 23:25
 -- Who: Ludovicus
 -- Log: New Levels
@@ -170,7 +175,7 @@ T The Last Wave of Survivors|QID|13518|M|51.75,18.05|N|To Dentaria Silverglade.|
 
 A The Boon of the Seas|QID|13520|PRE|13518;13522|M|51.75,18.05|N|From Serendia Oakwhisper.|
 A Buzzbox 413|QID|13521|PRE|13518;13522|M|51.17,19.61|N|From Wizbang Cranktoggle.|
-A A Taste for Grouper |QID|13537|PRE|13518;13522|M|52.38,17.7|P|Fishing;356|N|From Johnathan Staats, will lead to you fishing.|
+A A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|From Johnathan Staats, will lead to you fishing.|
 C A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|Catch 4 Grouper from the waters by fishing.|NC|
 T A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|To Johnathan Staats.|
 C The Boon of the Seas|QID|13520|M|49.56,18.48|N|Dive underwater and open Encrusted Clams.|S|NC|
@@ -408,7 +413,7 @@ A Mounting the Offensive|QID|13902|PRE|13588|M|43.63,53.41|N|From Malfurion Stor
 f Grove of the Ancients|QID|13902|M|44.39,75.39|N|At Delanea.|
 T Mounting the Offensive|QID|13902|M|45.25,75.12|N|To Balren of the Claw.|
 A Leave No Tracks|QID|13892|M|45.25,75.12|N|From Balren of the Claw.|
-A What's Happening to the Blackwood Furbolg?|QID|13525|M|45.19,75.16|N|From Foriel Broadleaf.|
+A What's Happening to the Blackwood Furbolg?|QID|13525|LEAD|13526|M|45.19,75.16|N|From Foriel Broadleaf.|
 A Consumed|QID|13881|M|45.19,74.70|N|From Kathrena Winterwisp.|
 C Consumed|QID|13881|M|45.03,79.2|N|Investigate the Watering Hole. Kill Consumed Thistle Bears.|
 T What's Happening to the Blackwood Furbolg?|QID|13525|M|43.54,80.94|N|To Elder Brolg.|
@@ -501,7 +506,7 @@ C The Tides Turn Against Us|QID|13898|M|31.19,84.20|N|Finish killing Nagas Myrmi
 C The Battle for Darkshore|QID|13897|U|58365|M|40.12,83.91|N|Head to The Master's Glave.  Target the Avatar of Soggoth, use the horn then help kill it.|
 T The Tides Turn Against Us|QID|13898|M|45.32,75.09|N|To Felros.|
 T The Battle for Darkshore|QID|13897|M|45.32,75.09|N|To Balren of the Claw.|
-A Ashes in Ashenvale|QID|26408|PRE|13897|M|45.32,75.09|N|From Balren of the Claw.|
+A Ashes in Ashenvale|QID|26408|LEAD|13594|PRE|13897|M|45.32,75.09|N|From Balren of the Claw.|
 N Fly to Lor'danel or Darnassus|N|To visit your trainers, AH, etc. Right click the box of this step to continue.|
 ]]
 end)
