@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
+-- Date: 2018-02-19 23:29
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3231/revisions/28840/view
 -- Date: 2018-01-16 23:13
 -- Who: Ludovicus
 -- Log: New Levels
@@ -193,7 +198,7 @@ C Deep Roots|QID|26744|M|33.61,36.74|U|58165|N|Pickup the Bloodscalp Lore Tablet
 A Favored Skull|QID|26745|PRE|26736;26739|M|33.61,36.74|N|From Lashtail Hatchling.|
 C Raptor Stalking|QID|195|M|38.44,43.24|N|Kill Lashtail Raptors until you are done this quest.|
 T Raptor Stalking|QID|195|M|38.46,43.58|N|(UI Alert)|
-A Raptor Prowess|QID|196|PRE|185|M|38.46,43.58|N|(UI Alert)|O|
+A Raptor Prowess|QID|196|PRE|195|M|38.46,43.58|N|(UI Alert)|O|
 
 R The Stockpile|QID|26737|M|60.08,17.91|N|The cave at Kurzen's Compound.|
 C The Source of the Madness|QID|26734|M|62.73,17.60|N|Drops off of Kurzen's men in the cave.|S|
