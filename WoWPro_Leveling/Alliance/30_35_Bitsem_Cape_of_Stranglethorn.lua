@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2018-02-19 23:31
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3237/revisions/28843/view
 -- Date: 2018-01-16 23:17
 -- Who: Ludovicus
 -- Log: New Levels
@@ -161,7 +166,7 @@ A Dask "The Flask" Gobfizzle|QID|26825|M|55.12,42.44|N|From Bronwyn Hewstrike.|L
 T Dask "The Flask" Gobfizzle|QID|26825|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|O|
 T Dask "The Flask" Gobfizzle|QID|26826|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|O|
 
-A Too Big For His Britches|QID|26823|PRE|26825|M|55.31,41.93|N|From Dask "The Flask" Gobfizzle.|
+A Too Big For His Britches|QID|26823|PRE|26825+26826|M|55.31,41.93|N|From Dask "The Flask" Gobfizzle.|
 A Good-Fer-Nothin' Slither-Dogs|QID|26822|RANK|2|M|54.76,41.86|N|From Goris.|
 
 C Good-Fer-Nothin' Slither-Dogs|QID|26822|S|M|44.50,19.02|N|Kill Stranglethorn Basilisks on your way to Ironjaw Behemoth.|
@@ -261,7 +266,7 @@ H The Salty Sailor Tavern |QID|26609|N|Hearthstone to The Salty Sailor Tavern in
 
 A Scaring Shaky|QID|26593|M|40.97,74.32;42.05,73.46|CC|N|From "Sea Wolf" MacKinley.|
 A Stranglethorn Fever|QID|26597|M|41.88,72.81|N|From Fin Fizracket.|
-A The Bloodsail Buccaneers|QID|26609|PRE|26595;26601;26606|M|42.66,71.96|N|From First Mate Crazz.|
+A The Bloodsail Buccaneers|QID|26609|PRE|26595+26601+26606|M|42.66,71.96|N|From First Mate Crazz.|
 A The Captain's Chest|QID|26599|M|40.33,67.87|N|From Captain Hecklebury Smotts.|
 
 ;f Booty Bay|QID|26593|NC|M|41.64,74.47|N|Get the Booty Bay flight path.|
@@ -354,7 +359,7 @@ T Cannonball Swim|QID|26635|M|44.62,93.47|N|To "Pretty Boy" Duncan.|
 C The Bane of Many A Pirate|QID|26634|M|45.97,80.36|N|Look for crates near trees and rowboats. Kill the theives that appear.|
 T The Bane of Many A Pirate|QID|26634|M|44.51,91.89|N|To Garr Salthoof.|
 
-A Attracting Attention|QID|26644|PRE|26633|M|44.43,91.69|N|From Captain Keelhaul.|
+A Attracting Attention|QID|26644|PRE|26633;26634;26635|M|44.43,91.69|N|From Captain Keelhaul.|
 T Attracting Attention|QID|26644|M|46.68,95.26|N|To Fleet Master Firallon.|
 
 A Ol' Blasty|QID|26647|PRE|26644|M|46.68,94.97|N|From Ironpatch.|
@@ -368,7 +373,7 @@ C Our Mortal Enemies|QID|26648|U|59226|M|63.34,83.65|N|When you get to the islan
 T Our Mortal Enemies|QID|26648|M|63.18,83.31|N|(UI Alert)|
 T Drive-By Piracy|QID|26649|M|46.68,94.99|N|To Ironpatch.|
 
-A The Damsel's Luck|QID|26650|PRE|26649|M|46.70,95.24|N|From Fleet Master Firallon.|
+A The Damsel's Luck|QID|26650|PRE|26648|M|46.70,95.24|N|From Fleet Master Firallon.|
 T The Damsel's Luck|QID|26650|M|50.30,91.46|N|To Captain Still Water's Charts.|
 
 A The Brashtide Crew|QID|26662|PRE|26650|M|50.30,91.46|N|From Captain Still Water's Charts.|
@@ -421,12 +426,12 @@ T Turning the Brashtide|QID|26699|M|41.12,73.09|N|To Baron Revilgaz.|
 C The Final Voyage of the Brashtide|QID|26697|M|40.47,73.38;34.06,53.27|CN|N|Speak to Kebok for a ride. Use Action 1 to bomb the ships and rowboats. Don't forget you need to get 6 of them too. Use Action 3 to return when finished.|
 T The Final Voyage of the Brashtide|QID|26697|M|41.12,73.12|N|To Baron Revilgaz.|
 
-A Bloodsail's End|QID|26703|PRE|26679|M|41.12,73.12|N|From Baron Revilgaz.|
+A Bloodsail's End|QID|26703|PRE|26697;26699;26700|M|41.12,73.12|N|From Baron Revilgaz.|
 C Bloodsail's End|QID|26703|M|40.47,73.38;36.05,66.51|CS|N|Speak to Kebok again. Once on the ship, go down to the Captain's room and kill him and his little parrot too.|
 T Bloodsail's End|QID|26703|M|41.17,73.15|N|To Baron Revilgaz.|
 
 A The Call of Kalimdor|QID|26596|M|40.56,68.20|N|If you're going to go to Dustwallow Marsh in Kalimdor next, skip this if you wish to do Western Plaguelands. From Corporal Jeyne.|
-A The Battle for Andorhal|QID|28749|M|41.55,74.35|N|If you are going to go to the Western Plaguelands next. Ask him for teleport. From War-Mage Erallier.|
+A The Battle for Andorhal|QID|28749|LEAD|27159|M|41.55,74.35|N|If you are going to go to the Western Plaguelands next. Ask him for teleport. From War-Mage Erallier.|
 
 R Western Plaguelands|QID|28749|O|M|41.55,74.34|N|To continue to Western Plaguelands, get a teleport from War-Mage Erallier below the Alliance Flight Master.|
 b Northern Barrens|QID|26596|O|M|39.10,67.05|N|To continue on to Dustwallow Marsh in Kalimdor, hop on the ship to Ratchet.|
