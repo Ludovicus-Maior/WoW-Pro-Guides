@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2018-02-19 23:34
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3235/revisions/28842/view
 -- Date: 2018-01-16 23:14
 -- Who: Ludovicus
 -- Log: New Levels
@@ -113,7 +118,6 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjSotBar3035', "Leveling", 'Southern Barrens', 'WKJezz', 'Alliance')
--- Yes, there are some L26 quests, but they are errors.
 WoWPro:GuideLevels(guide,28,33,30.0096)
 WoWPro:NewGuideLevels(guide,25,60)
 WoWPro:GuideNextGuide(guide, 'WkjDus3540')
@@ -139,7 +143,7 @@ A Survey the Destruction|QID|25191|M|39.04,11.48|N|From Nibb Spindlegear.|
 f Honor's Stand|QID|25191|M|38.94,10.90|N|At John Johnson.|
 C Survey the Destruction|QID|25191|NC|M|39.06,11.44|N|Go and speak to Nibb and tell her you are ready to fly.|
 T Survey the Destruction|QID|25191|M|68.68,49.29|N|To Horton Gimbleheart.|
-A The Admiral Won't Back Down|QID|25197|PRE|25191|M|68.68,49.29|N|From Horton Gimbleheart.|
+A The Admiral Won't Back Down|QID|25197|LEAD|24934|PRE|25191|M|68.68,49.29|N|From Horton Gimbleheart.|
 T The Admiral Won't Back Down|QID|25197|M|69.23,49.06|N|To Admiral Aubrey.|
 A Repel Boarders!|QID|24934|M|69.23,49.06|N|From Admiral Aubrey.|
 C Repel Boarders!|QID|24934|M|57.47,60.97|Z|Northern Barrens|N|Tell the Admiral you are ready to go.|
