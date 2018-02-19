@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2018-02-19 23:15
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3204/revisions/28852/view
 -- Date: 2018-01-16 23:23
 -- Who: Ludovicus
 -- Log: New Levels
@@ -361,7 +366,7 @@ T The Waters of Teldrassil|QID|935|M|41.02,45.77|N|To Corithras Moonrage.|
 
 A Home of the Kaldorei|QID|14039|PRE|935|M|41.02,45.77|N|From Corithras Moonrage.|
 T Home of the Kaldorei|QID|14039|M|43.15,77.90|Z|Darnassus|N|Take the ramp up, to Tyrande Whisperwind.|
-A Breaking Waves of Change|QID|26383|M|43.88,76.22|Z|Darnassus|N|From Sentinel Cordressa Briarbow.|
+A Breaking Waves of Change|QID|26383|LEAD|13518|M|43.88,76.22|Z|Darnassus|N|From Sentinel Cordressa Briarbow.|
 
 R Rut'theran Village|QID|26383|M|36.17,50.08|Z|Darnassus|N|Run through the pink glow near the Darnassus flight master.|
 f Rut'theran Village|QID|26383|M|55.36,88.51|N|At Vesprystus.|
