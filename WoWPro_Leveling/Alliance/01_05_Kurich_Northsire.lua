@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2018-02-19 23:15
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Elwynn
+
+-- URL: http://wow-pro.com/node/3197/revisions/29004/view
+-- Date: 2018-02-19 23:10
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Northshire
+
+-- URL: http://wow-pro.com/node/3197/revisions/28957/view
 -- Date: 2018-01-17 03:06
 -- Who: Ludovicus
 -- Log: Corrected Levels
@@ -240,15 +250,6 @@
 -- Who: Fluclo
 -- Log: Missing the A for Rest And Relaxation
 
--- URL: http://wow-pro.com/node/3197/revisions/23934/view
--- Date: 2011-01-06 15:28
--- Who: Crackerhead22
--- Log: Added missing turn in for "Wanted: Hogger", added in class quests and race tags noted by calmeira.
-
--- URL: http://wow-pro.com/node/3197/revisions/23323/view
--- Date: 2010-12-03 08:42
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("KurNShire0105", "Leveling", "Northshire (Human)", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.55556)
 WoWPro:GuideNextGuide(guide, "KurElw0511")
@@ -409,17 +410,17 @@ T They Sent Assassins|QID|31144|C|Monk|R|Human|M|35.74,39.81|N|To Sergeant Wille
 T Fear No Evil|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|34.59,39.02|N|To Brother Paxton.|
 T They Sent Assassins|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.74,39.81|N|To Sergeant Willem.|
 
-A The Rear is Clear|QID|28817|C|Hunter|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28806|
+A The Rear is Clear|QID|28817|C|Hunter|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28791|
 T The Rear is Clear|QID|28817|C|Hunter|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28818|C|Mage|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28808|
+A The Rear is Clear|QID|28818|C|Mage|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28792|
 T The Rear is Clear|QID|28818|C|Mage|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28823|C|Warrior|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28813|
+A The Rear is Clear|QID|28823|C|Warrior|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28797|
 T The Rear is Clear|QID|28823|C|Warrior|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28820|C|Priest|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28810|
+A The Rear is Clear|QID|28820|C|Priest|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28794|
 T The Rear is Clear|QID|28820|C|Priest|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28821|C|Rogue|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28811|
+A The Rear is Clear|QID|28821|C|Rogue|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28795|
 T The Rear is Clear|QID|28821|C|Rogue|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28819|C|Paladin|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28809|
+A The Rear is Clear|QID|28819|C|Paladin|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28793|
 T The Rear is Clear|QID|28819|C|Paladin|R|Human|M|33.55,53.00|N|To Marshal McBride.|
 A The Rear is Clear|QID|28822|C|Warlock|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28796|
 T The Rear is Clear|QID|28822|C|Warlock|R|Human|M|33.55,53.00|N|To Marshal McBride.|
