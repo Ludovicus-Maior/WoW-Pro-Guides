@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2018-02-19 23:13
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3211/revisions/28926/view
 -- Date: 2018-01-17 00:07
 -- Who: Ludovicus
 -- Log: New Levels
@@ -344,7 +349,7 @@ A Last Chance at Humanity|QID|14375|Z|Gilneas|M|36.48,61.38|NC|N|Wait for the di
 ; No Turn-in as this quest auto-completes
 
 ; Zone is now Ruins of Gilneas
-A Among Humans Again|QID|14313|Z|Gilneas|M|36.45,62.20|N|From Lord Godfrey.|PRE|14222|
+A Among Humans Again|QID|14313|Z|Gilneas|M|36.45,62.20|N|From Lord Godfrey.|PRE|14375|
 N Professions Training|QID|14313|Z|Gilneas|M|37.36,63.28|N|Talk to Jack "All-Trades" Derrington next to Krennan Aranas for training in professions."|S|ACTIVE|14313|T|Jack "All-Trades" Derrington|
 T Among Humans Again|QID|14313|Z|Gilneas|M|37.36,63.28|N|To Krennan Aranas.|
 
@@ -440,10 +445,10 @@ C Washed Up|QID|14412|Z|Gilneas|M|36.83,85.06|N|Kill the Forsaken Castaways.|US|
 T Not Quite Shipshape|QID|14404|Z|Gilneas|M|36.88,84.20|N|To Sebastian Hayward.|
 T Washed Up|QID|14412|Z|Gilneas|M|36.88,84.20|N|To Sebastian Hayward.|
 
-A Escape By Sea|QID|14405|Z|Gilneas|M|36.88,84.20|N|From Sebastian Hayward.|PRE|14404;14412|
+A Escape By Sea|QID|14405|Z|Gilneas|M|36.88,84.20|N|From Sebastian Hayward.|PRE|14401;14404;14412;14416|
 T Escape By Sea|QID|14405|Z|Gilneas|M|37.61,65.25|N|To Gwen Armstead.|
 
-A To Greymane Manor|QID|14465|Z|Gilneas|M|37.61,65.25|N|From Gwen Armstead.  On accepting this quest, you will be taken half way to Greymane Manor.|PRE|14405|
+A To Greymane Manor|QID|14465|Z|Gilneas|M|37.61,65.25|N|From Gwen Armstead.  On accepting this quest, you will be taken half way to Greymane Manor.|PRE|14402+14405+14463|
 T To Greymane Manor|QID|14465|Z|Gilneas|M|30.38,52.53;28.71,51.05;28.17,50.03|CC|N|Run the rest of the way. To Queen Mia Greymane.|
 
 A The King's Observatory|QID|14466|Z|Gilneas|M|28.17,50.03|N|From Queen Mia Greymane.|PRE|14465|
@@ -452,10 +457,10 @@ T The King's Observatory|QID|14466|Z|Gilneas|M|26.40,46.97|N|To King Genn Greyma
 A Alas, Gilneas!|QID|14467|Z|Gilneas|M|26.40,46.97|N|From King Genn Greymane.|PRE|14466|
 ; Automatically does the quest for you
 
-A Exodus|QID|24438|Z|Gilneas|M|26.40,46.97|N|From King Genn Greymane.|PRE|14466|
+A Exodus|QID|24438|Z|Gilneas|M|26.40,46.97|N|From King Genn Greymane.|PRE|14467|
 T Exodus|QID|24438|Z|Gilneas|M|28.84,54.18;51.80,80.50|CN|N|Head down the tower to the ground floor, then onto the Stagecoach Carriage. Board it. It will take you to Prince Liam Greymane.|
 
-A Stranded at the Marsh|QID|24468|Z|Gilneas|M|51.86,80.52|N|From Prince Liam Greymane.|PRE|14466|
+A Stranded at the Marsh|QID|24468|Z|Gilneas|M|51.86,80.52|N|From Prince Liam Greymane.|
 C Stranded at the Marsh|QID|24468|Z|Gilneas|M|53.24,71.99|N|Kill Swamp Crocolisks until you've rescued 5 Crash Survivors.|
 T Stranded at the Marsh|QID|24468|Z|Gilneas|M|51.86,80.52|N|To Prince Liam Greymane.|
 
@@ -481,7 +486,7 @@ T Pieces of the Past|QID|24495|Z|Gilneas|M|60.25,91.78|N|To Lorna Crowley.|
 C Queen-Sized Troubles|QID|24501|Z|Gilneas|M|67.95,81.90|N|Kill Rygna.|
 T Queen-Sized Troubles|QID|24501|Z|Gilneas|M|59.87,91.76|N|To Gwen Armstead.|
 
-A The Blackwald|QID|24578|Z|Gilneas|M|60.27,91.78|N|From Lorna Crowley.|PRE|24501|
+A The Blackwald|QID|24578|Z|Gilneas|M|60.27,91.78|N|From Lorna Crowley.|PRE|24495;24501|
 T The Blackwald|QID|24578|Z|Gilneas|M|63.36,82.92|N|To Belrysa Starbreeze.|
 
 A Losing Your Tail|QID|24616|Z|Gilneas|M|63.36,82.92|N|From Belrysa Starbreeze.|PRE|24578|
@@ -525,7 +530,7 @@ R Livery Outpost|QID|24677|Z|Gilneas|M|78.36,71.80;71.60,39.60|CS|N|Speak to Lor
 T Flank the Forsaken|QID|24677|Z|Gilneas|M|70.88,39.85|N|To Lorna Crowley.|
 
 A Liberation Day|QID|24575|Z|Gilneas|M|70.88,39.85|N|From Lorna Crowley.|PRE|24677|
-A Slaves to No One|QID|24674|Z|Gilneas|M|70.65,39.70|N|From Marcus.|PRE|24592|
+A Slaves to No One|QID|24674|Z|Gilneas|M|70.65,39.70|N|From Marcus.|PRE|24438|
 
 C Liberation Day|QID|24575|Z|Gilneas|M|76.86,29.47|N|Kill and loot the Forsaken Slavedrivers for keys, which are used to free the Enslaved Gilneans|S|
 C Slaves to No One|QID|24674|Z|Gilneas|M|76.39,31.27;80.03,25.72;80.30,32.28|CS|N|Kill Brothogg the Slavemaster. You can find him at the back of Emberstone Mine.|
@@ -534,7 +539,7 @@ C Liberation Day|QID|24575|Z|Gilneas|M|76.86,29.47|N|Kill and loot the Forsaken 
 T Slaves to No One|QID|24674|Z|Gilneas|M|71.06,39.77|N|To Marcus.|
 T Liberation Day|QID|24575|Z|Gilneas|M|70.92,39.89|N|To Lorna Crowley.|
 
-A Last Meal|QID|24675|Z|Gilneas|M|70.76,39.82|N|From Magda Whitewall.|PRE|24592|
+A Last Meal|QID|24675|Z|Gilneas|M|70.76,39.82|N|From Magda Whitewall.|PRE|24438|
 C Last Meal|QID|24675|Z|Gilneas|M|78.11,43.57|N|Kill and loot Brown Stags for the Side of Stag Meat.|
 T Last Meal|QID|24675|Z|Gilneas|M|70.69,39.74|N|To Magda Whitewall.|
 
@@ -553,7 +558,7 @@ A The Hunt For Sylvanas|QID|24902|M|38.59,60.17|Z|GilneasCity|N|From Lorna Crowl
 C The Hunt For Sylvanas|QID|24902|NC|M|38.59,60.17;44.44,51.54|CS|Z|GilneasCity|N|Follow Tobias Mistmantle carefully. You may want to set a Target Marker Icon to make it easier. If you lose him, go back to Lorna Crowley and ask to give it another try.|T|Tobias Mistmantle|
 T The Hunt For Sylvanas|QID|24902|M|38.53,60.37|Z|GilneasCity|N|To Lorna Crowley.|
 
-A Vengeance or Survival|QID|24903|M|38.53,60.37|Z|GilneasCity|N|From Lorna Crowley.|PRE|24903|
+A Vengeance or Survival|QID|24903|M|38.53,60.37|Z|GilneasCity|N|From Lorna Crowley.|PRE|24902|
 T Vengeance or Survival|QID|24903|M|32.39,56.66|Z|GilneasCity|N|To King Genn Greymane.|
 
 A Slowing the Inevitable|QID|24920|M|32.39,56.66|Z|GilneasCity|N|From King Genn Greymane.|PRE|24903|
@@ -589,7 +594,7 @@ N Sequential Zone |QID|26706|N|Gilneas is a linear quest zone, it won't be possi
 A The Howling Oak|QID|28517|PRE|14434|M|55.22,89.15|Z|Teldrassil|N|From Krennan Aranas.|
 T The Howling Oak|QID|28517|M|41.88,48.25;46.04,34.73;49.10,19.00;47.97,14.16|Z|Darnassus|CS|N|Walk through the purple haze to the north. Once in Darnassus, to Genn Greymane in Howling Oak.|
 
-A Breaking Waves of Change|QID|26385|PRE|28517|M|48.12,14.48|Z|Darnassus|N|From Genn Greymane.|
+A Breaking Waves of Change|QID|26385|LEAD|13518|PRE|28517|M|48.12,14.48|Z|Darnassus|N|From Genn Greymane.|
 ;f Darnassus|QID|26385|M|36.67,47.91|Z|Darnassus|N|Get the Darnassus Flight Point at Leora.|
 ;F Lor'danel|QID|26385|M|36.60,48.00|Z|Teldrassil|N|Take a Hippogryph from the Flight Master.|
 ;T Breaking Waves of Change|QID|26385|M|51.77,18.00|Z|Darkshore|N|To Dentaria Silverglade. You'll be taken to the next guide, which will cover Darkshore!|
