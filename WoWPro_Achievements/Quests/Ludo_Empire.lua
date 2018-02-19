@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/draenor_legendary_ring_and_follower_quests
+-- Date: 2018-02-19 22:45
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3634/revisions/27396/view
 -- Date: 2015-10-05 14:58
 -- Who: Ludovicus_Maior
 -- Log: Moved [Blackhand's Secret]
@@ -82,7 +87,7 @@ C Abrogator Stones|QID|35998|Z|HighmaulRaid|QO|1|US|N|Collect 125 stones in High
 T Empire's Fall|QID|35997|M|85.18,31.72|N|To Archmage Khadgar|
 T Legacy of the Sorcerer Kings|QID|35998|M|85.18,31.72|N|To Archmage Khadgar|
 
-A The Scrying Game|QID|36005|PRE|35997;35998|M|85.18,31.72|N|From Archmage Khadgar|
+A The Scrying Game|QID|36005|PRE|35998|M|85.18,31.72|N|From Archmage Khadgar|
 C The Scrying Game|QID|36005|CHAT|N|Tell Khadgar to get started.|
 T The Scrying Game|QID|36005|M|84.8,31.4|N|To Cordana Felsong|
 N Hunter: Hunted|QID|36006|N|This is a good time to get mounted up, buffed up. You can use a bodyguard or your outpost power for the fight! Don't attack Garona until you are in the cave.|
@@ -116,14 +121,14 @@ t Blackhand's Secret|QID|36014|M|85.18,31.72|N|To Archmage Khadgar|
 t Might of the Elemental Lords|QID|36013|M|85.18,31.72|N|To Archmage Khadgar|
 
 N Refresh|QID|36014|N|Click off this step.  It lets the client catch up with the server. You will now get your ring upgrade and get the Garona questline.|
-A The Unbroken Circle|QID|36016|M|85.18,31.72|PRE|36009;36010;36012;36013|N|From Archmage Khadgar|
+A The Unbroken Circle|QID|36016|M|85.18,31.72|PRE|36013;36014|N|From Archmage Khadgar|
 C The Unbroken Circle|QID|36016|CHAT|N|Ask Archmage Khadgar for your i715 upgrade|
 T The Unbroken Circle|QID|36016|M|85.18,31.72|N|To Archmage Khadgar|
-A Prisoner of the Mind|QID|36017|PRE|36014|M|85.18,31.72|N|From Archmage Khadgar|
+A Prisoner of the Mind|QID|36017|PRE|36016|M|85.18,31.72|N|From Archmage Khadgar|
 C Prisoner of the Mind|QID|36017|CHAT|N|Tell Archmage Khadgar to get going.|
 T Prisoner of the Mind|QID|36017|PRE|36014|M|85.18,31.72|N|To Archmage Khadgar|
 A Orb of Dominion|QID|37834|PRE|36017|M|85.18,31.72|N|From Archmage Khadgar|
-A The Shadow War|QID|37835|PRE|36017|M|55,18|N|From UI, as you approach |
+A The Shadow War|QID|37835|M|55,18|N|From UI, as you approach |
 C Shadow Council|QID|37835|M|56.92,16.81|Z|Shadowmoon Valley@Draenor|QO|1|S|
 C Orb of Dominion|QID|37834|M|55,18;56.3,18.4|Z|Shadowmoon Valley@Draenor|CS|QO|1|N|Make you way to the cave enterance and the grab the orb. Keep left.|
 C Shadow Council|QID|37835|M|56.92,16.81|Z|Shadowmoon Valley@Draenor|QO|1|US|N|A nasty rumor says you need your kills befoe looting the orb...|
