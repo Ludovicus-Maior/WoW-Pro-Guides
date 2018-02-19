@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2018-02-19 23:35
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3244/revisions/28848/view
 -- Date: 2018-01-16 23:20
 -- Who: Ludovicus
 -- Log: New Levels
@@ -242,7 +247,7 @@ C Ambushed!|QID|27171|M|54.82,79.75|N|Kill and loot the Skeletal Sorcerers, as y
 C Those That Couldn't Let Go|QID|27168|US|U|60861|M|49.84,80.79|T|Withdrawn Soul|N|Finish off using the Holy Thurible on Withdrawn Souls as you head back to Chillwind Camp.  Remember, they can turn hostile.|
 
 T Those That Couldn't Let Go|QID|27168|M|43.44,83.76|N|To High Priestess MacDonnell.|
-A The Menders' Stead|QID|27175|PRE|27168|M|43.02,83.61|N|From Argent Officer Pureheart.|
+A The Menders' Stead|QID|27175|LEAD|26999|PRE|27168|M|43.02,83.61|N|From Argent Officer Pureheart.|
 T Ambushed!|QID|27171|M|42.74,83.97|N|To Commander Ashlam Valorfist.|
 A The Writhing Haunt|QID|27172|PRE|27171|M|42.74,83.97|N|From Commander Ashlam Valorfist.|
 
@@ -275,7 +280,7 @@ C A New Era for the Plaguelands|QID|26999|M|54.92,60.83|N|Kill and loot Plague L
 C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Finish killing the wildlife with Zen'kiki. If Zen'kiki isn't with you, talk to Adrine Towhide at The Mender's Stead to get him back.|US|
 T A New Era for the Plaguelands|QID|26999|M|49.33,54.92|N|To Field Agent Kaartish.|
 
-A Northridge Lumber Mill|QID|26935|PRE|26999|M|49.33,54.92|N|From Field Agent Kaartish.|
+A Northridge Lumber Mill|QID|26935|LEAD|27000|PRE|26999|M|49.33,54.92|N|From Field Agent Kaartish.|
 T I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.58,54.89|N|To Selyria Groenveld.|
 
 T Zen'Kiki, the Druid|QID|26953|M|48.93,54.74|N|To Adrine Towhide.|
@@ -289,7 +294,7 @@ C A Different Approach|QID|26954|M|53.72,53.59|N|Head to the top of the hill (th
 T A Different Approach|QID|26954|M|49.00,54.72|N|To Adrine Towhide.|
 T Northridge Lumber Mill|QID|26935|M|48.12,32.45|N|To Nathaniel Dumah.|
 
-A Learning the Ropes|QID|27000|PRE|26935|M|48.12,32.45|N|From Nathaniel Dumah.|
+A Learning the Ropes|QID|27000|M|48.12,32.45|N|From Nathaniel Dumah.|
 A Too Close for Comfort|QID|27013|M|48.35,31.84|N|From Kelly Dumah.|
 
 C Too Close for Comfort|QID|27013|M|51.00,27.75|N|Hunt down those Rabid Foxes.|
@@ -375,7 +380,7 @@ A Zen'Kiki and the Cultists|QID|26955|PRE|27057|M|48.93,54.76|N|From Adrine Towh
 T Memories from a Lost Past|QID|27017|M|50.60,52.60|N|To Del Gahrron.|
 
 L Level 38 |QID|27197|N|You need to be Level 38 to continue with this guide.|LVL|38|
-A The Battle Resumes!|QID|27197|PRE|27175;27233|M|50.39,52.70|N|From Durnt Brightfalcon.|
+A The Battle Resumes!|QID|27197|PRE|27175+27233|M|50.39,52.70|N|From Durnt Brightfalcon.|
 
 C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|S|
 C Desperate Acts|QID|27054|M|66.04,47.75|N|Kill Instructor Malicia and loot the orders.|
@@ -390,7 +395,7 @@ F Andorhal|QID|27197|M|50.52,52.36|N|Fly to Andorhal.|
 
 T The Battle Resumes!|QID|27197|M|39.84,69.47|N|To Thassarian.|
 A Ashes to Ashes|QID|27199|PRE|27197|M|39.84,69.47|N|From Thassarian.|
-A Supporting the Troops|QID|27198|PRE|27199|M|40.11,69.17|N|From Lang Loosegrip.|
+A Supporting the Troops|QID|27198|PRE|27197|M|40.11,69.17|N|From Lang Loosegrip.|
 
 C Supporting the Troops|QID|27198|S|M|44.45,65.66|N|Kill Andorhal Deathguards.|
 C Ashes to Ashes|QID|27199|M|44.70,65.11|N|Kill three Deathguard War-Captains on their horses.|
@@ -398,7 +403,7 @@ C Supporting the Troops|QID|27198|US|M|44.45,65.66|N|Finish killing Deathguards.
 
 T Supporting the Troops|QID|27198|M|39.94,69.42|N|To Lang Loosegrip.|
 T Ashes to Ashes|QID|27199|M|39.94,69.42|N|To Thassarian.|
-A The Depravity of the Forsaken|QID|27205|PRE|27199|M|39.74,69.52|N|From Thassarian.|
+A The Depravity of the Forsaken|QID|27205|PRE|27198;27199|M|39.74,69.52|N|From Thassarian.|
 
 T The Depravity of the Forsaken|QID|27205|M|39.84,69.51|N|To Thassarian.|
 A Val'kyr Incursion|QID|27201|PRE|27205|M|39.84,69.51|N|From Thassarian.|
@@ -411,7 +416,7 @@ C Val'kyr Incursion|QID|27201|US|M|41.80,70.42|N|Finish killing those Lesser Val
 T Brother Against Brother|QID|27202|M|39.90,69.65|N|To Thurman Grant.|
 T Val'kyr Incursion|QID|27201|M|39.89,69.55|N|To Thassarian.|
 
-A Aradne|QID|27204|PRE|27201|M|39.89,69.55|N|From Thassarian.|
+A Aradne|QID|27204|PRE|27201;27202|M|39.89,69.55|N|From Thassarian.|
 C Aradne|QID|27204|M|40.37,72.24|N|Head up the tower and kill the elite Aradne.  Your companions will be there to help you.|
 T Aradne|QID|27204|M|39.97,69.58|N|To Thassarian.|
 
@@ -419,7 +424,7 @@ A Alas, Andorhal|QID|27206|PRE|27204|M|39.97,69.58|N|From Thassarian.|
 F Chillwind Camp|QID|27206|NC|N|Fly to Chillwind Camp.|M|39.43,69.55|
 T Alas, Andorhal|QID|27206|M|42.73,84.12|N|To Commander Ashlam Valorfist.|
 
-A Into the Woods|QID|27683|M|42.97,83.51|N|From Argent Officer Pureheart, if you intent to continue onto Eastern Plaguelands.|
+A Into the Woods|QID|27683|LEAD|27367|M|42.97,83.51|N|From Argent Officer Pureheart, if you intent to continue onto Eastern Plaguelands.|
 
 ]]
 end)
