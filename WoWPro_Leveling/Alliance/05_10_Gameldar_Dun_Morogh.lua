@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-02-19 23:14
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - DunM
+
+-- URL: http://wow-pro.com/node/3200/revisions/29003/view
+-- Date: 2018-02-19 23:09
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Gnome
+
+-- URL: http://wow-pro.com/node/3200/revisions/29002/view
+-- Date: 2018-02-19 23:08
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3200/revisions/28851/view
 -- Date: 2018-01-16 23:22
 -- Who: Ludovicus
 -- Log: New Levels
@@ -235,20 +250,6 @@
 -- Who: Fluclo
 -- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
 
--- URL: http://wow-pro.com/node/3200/revisions/24742/view
--- Date: 2011-08-24 00:49
--- Who: Jiyambi
--- Log: Took out two location based completion steps that weren't auto-completing, rolled them into other steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24626/view
--- Date: 2011-06-28 20:52
--- Who: Fluclo
--- Log: Minor tweaks to final couple of quests
-
--- URL: http://wow-pro.com/node/3200/revisions/24625/view
--- Date: 2011-06-28 20:42
--- Who: Fluclo
-
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,5,10,5.74453)
 WoWPro:NewGuideLevels(guide,1,20)
@@ -347,7 +348,7 @@ C The View from Down Here|QID|28868|U|67249|N|Use the Viewpoint Equalizer on Fro
 T The View from Down Here|QID|28868|M|62.54,53.72|N|To Snevik the Blade.|
 T Eliminate the Resistance|QID|25840|M|62.53,53.62|N|To Slamp Wobblecog.|
 T Strike From Above|QID|25841|M|62.53,53.62|N|To Slamp Wobblecog.|
-A A Hand at the Ranch|QID|25882|PRE|25840;25841|M|62.55,53.73|N|From Slamp Wobblecog.|
+A A Hand at the Ranch|QID|25882|LEAD|25932|PRE|25840;25841|M|62.55,53.73|N|From Slamp Wobblecog.|
 
 T A Hand at the Ranch|QID|25882|M|70.42,49.00|N|To Sergeant Flinthammer.|
 A It's Raid Night Every Night|QID|25932|M|70.42,49.00|N|From Sergeant Flinthammer.|
@@ -375,7 +376,7 @@ C Those Blasted Troggs!|QID|432|M|77.65,55.69|N|Finish off any Troggs you still 
 T Priceless Treasures|QID|25937|M|76.20,53.12|N|To Prospector Drugan.|
 T Those Blasted Troggs!|QID|432|M|76.30,54.60|N|To Foreman Stonebrow.|
 T The Public Servant|QID|433|M|75.84,54.34|N|To Senator Mehr Stonehallow.|
-A Trouble at the Lake|QID|25986|PRE|432;433;25937|M|75.91,54.26|N|From Senator Mehr Stonehallow.|
+A Trouble at the Lake|QID|25986|LEAD|25978|PRE|432;433;25937|M|75.91,54.26|N|From Senator Mehr Stonehallow.|
 
 T Trouble at the Lake|QID|25986|M|82.79,48.36|N|Head out eastwards to Sergeant Bahrum.|
 A Entombed in Ice|QID|25978|M|82.79,48.36|N|From Sergeant Bahrum.|
