@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2018-02-19 23:21
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3220/revisions/28897/view
 -- Date: 2018-01-16 23:49
 -- Who: Ludovicus
 -- Log: New Levels
@@ -187,7 +192,7 @@ T A Favorite Treat |QID|9624|M|63.43,88.78|N|To Aonar.|
 T Alien Predators |QID|9634|M|63.05,87.92|N|To Vorkhan the Elekk Herder.|
 T Declaration of Power |QID|9666|M|62.99,87.54|N|To Kessel.|
 
-A Report to Exarch Admetius|QID|9668|PRE|9666|M|62.99,87.54|N|From Kessel.|
+A Report to Exarch Admetius|QID|9668|LEAD|9693|PRE|9666|M|62.99,87.54|N|From Kessel.|
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Use the Murloc Tagger on 6 Blacksilt Scouts.|S|
 A Cruelfin's Necklace|QID|9576|L|23870|N|Find and kill cruelfin, then loot the Red Crystal Pendant and accept the quest it gives. He patrols along the south coast, spawning on the east side.|M|49.5,94.8;34.6,93.1|T|Cruelfin|CN|
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Continue to use the Murloc Tagger on 6 Blacksilt Scouts.|US|
@@ -254,7 +259,7 @@ A I Shoot Magic Into the Darkness|QID|9700|PRE|9699|N|From Vindicator Boros.|M|5
 r Repair/Restock |QID|10063|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 A Constrictor Vines|QID|9643|N|From Tracker Lyceon.|M|55.83,56.93|
 A The Bear Necessities|QID|9580|N|From Tracker Lyceon.|M|55.83,56.93|
-A Explorers' League, Is That Something for Gnomes?|QID|10063|M|56.3,54.2|N|From Prospector Nachlan.|
+A Explorers' League, Is That Something for Gnomes?|QID|10063|LEAD|9549|M|56.3,54.2|N|From Prospector Nachlan.|
 
 C Constrictor Vines|QID|9643|N|Kill Mutated Constrictors for 6 Thorny Constrictor Vines.|M|45.9,33.9|S|
 C The Bear Necessities|QID|9580|N|Kill Elder Brown Bears until you have 8 flanks.|M|45.9,33.9|S|
@@ -278,7 +283,7 @@ A Deciphering the Book|QID|9557|PRE|9550|N|From the Battered Ancient Book.|M|61.
 H Blood Watch |QID|9643|N|Hearth back to Blood Watch.|U|6948|
 T Constrictor Vines|QID|9643|N|To Tracker Lyceon.|M|55.83,56.93|
 T The Bear Necessities|QID|9580|N|To Tracker Lyceon.|M|55.83,56.93|
-A Culling the Flutterers|QID|9647|PRE|9580;9643|N|From Tracker Lyceon.|M|55.83,56.93|
+A Culling the Flutterers|QID|9647|PRE|9580+9643|N|From Tracker Lyceon.|M|55.83,56.93|
 T I Shoot Magic Into the Darkness|QID|9700|N|To Vindicator Boros.|M|55.42,55.25|
 A The Cryo-Core|QID|9703|PRE|9700|N|From Vindicator Kuros.|M|55.64,55.28|
 T Deciphering the Book|QID|9557|N|To Anchorite Paetheus.|M|54.69,54.01|
@@ -363,7 +368,7 @@ A Ysera's Tears|QID|9649|PRE|9648|M|56.4,56.8|N|From Jessera of Mac'Aree.|
 T Nolkai's Words|QID|9561|N|It's a pile of dirt.|M|61.2,49.7|
 A Restoring Sanctity|QID|9687|M|73.7,33.7|N|From Prince Toreth. He pats around the area.|
 T The Bloodcurse Legacy|QID|9672|N|To Captain Edward Hanes.|M|79.14,22.66|
-A The Bloodcursed Naga|QID|9674|PRE|9672;9751|N|From Captain Edward Hanes.|M|79.14,22.66|
+A The Bloodcursed Naga|QID|9674|PRE|9672+9751|N|From Captain Edward Hanes.|M|79.14,22.66|
 C The Bloodcursed Naga|QID|9674|N|Head into the water and kill Naga.|M|81.33,21.06|
 T The Bloodcursed Naga|QID|9674|N|To Captain Edward Hanes.|M|79.14,22.66|
 A The Hopeless Ones...|QID|9682|PRE|9674|N|From Captain Edward Hanes.|M|79.14,22.66|
@@ -409,7 +414,7 @@ A The Unwritten Prophecy|QID|9762|PRE|9759|N|From Prophet Velen. If Prophet Vele
 
 A Newfound Allies|QID|9632|M|54.69,54.01|N|From Anchorite Paetheus.|
 F The Exodar|QID|9632|N|Fly to The Exodar.|M|57.68,53.89|
-A Hero's Call: Ashenvale!|QID|28492|M|55.31,47.38|N|From the Hero's Call Board. Will not show up if your level is too high.|Z|The Exodar|
+A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|N|From the Hero's Call Board. Will not show up if your level is too high.|Z|The Exodar|
 T Newfound Allies|QID|9632|M|24.18,54.33|Z|Azuremyst Isle|N|Go up the ramp to the exit; once outside, follow the path to the right and down to Huntress Kella Nightbow.|
 
 N Thus ends Bloodmyst Isles.|N|Next stop Ashenvale. Take the boat or fly to Rutheran Village, then onto Ashenvale. Close this step.|
