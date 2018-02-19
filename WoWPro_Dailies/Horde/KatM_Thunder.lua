@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_horde
+-- Date: 2018-02-19 22:49
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3540/revisions/28324/view
 -- Date: 2017-03-10 23:21
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
@@ -45,9 +50,9 @@ return [[
 
 ; Stage 1!
 
-A Thunder Calls|QID|32678|M|64.16,58.75|Z|Vale of Eternal Blossoms|N|UI Popup when flying near Shrine of Two Moons:  Fly to Shadow Pan Garrison|
+A Thunder Calls|QID|32678|LEAD|32680|M|64.16,58.75|Z|Vale of Eternal Blossoms|N|UI Popup when flying near Shrine of Two Moons:  Fly to Shadow Pan Garrison|
 T Thunder Calls|QID|32678|M|50.8,73.2|Z|Townlong Steppes|N|To Scout Captain Elsia, at the Shado-Pan Garrison in Townlong Steppes.|
-A The Storm Gathers|QID|32680|PRE|32678|M|50,73|Z|Townlong Steppes|N|From Scout Captain Elsia|
+A The Storm Gathers|QID|32680|M|50,73|Z|Townlong Steppes|N|From Scout Captain Elsia|
 C The Storm Gathers|QID|32680|M|50.8,73.2|Z|Townlong Steppes|QO|Speak with Elsia: 1/1|N|Speak with Elsia to start.|
 T The Storm Gathers|QID|32680|M|28.4,52.2|N|To Lor'themar Theron|
 
@@ -56,7 +61,7 @@ A Allies in the Shadows|QID|32709|PRE|32680|M|28.4,52.2|N|From Lor'themar Theron
 ; These are the dailies.
 A Ihgaluk Crag|QID|32730|PRE|32259|M|28.6,52.4|N|From Magister Hathorel|
 A Za'Tual|QID|32729|PRE|32259|M|28.4,52.2|N|From Lor'themar Theron.|
-A The Court of Bones|QID|32728|PRE|32259|M|28.4,52.4|N|From Girana the Blooded|
+A The Court of Bones|QID|32728|LEAD|32201|PRE|32259|M|28.4,52.4|N|From Girana the Blooded|
 
 ; Dailies: Za'Tual
 T Za'Tual|QID|32729|M|38.6,64.8|N|To Halduron Brightwing.|
@@ -134,11 +139,11 @@ T The Conquest of Stone|QID|32517|M|33,52.6|N|To Ryshelle Brightlock|
 
 T Ihgaluk Crag|QID|32730|M|46.8,66.8|N|To Archmage Aethas Sunreaver|
 
-A Skin of the Saurok|QID|32507|PRE|32730|M|0,0|N|From ???|;Wrong M
+A Skin of the Saurok|QID|32507|M|0,0|N|From ???|;Wrong M
 
 A Sunreaver's Quests|QID|*|NPC|2|PRE|32730|M|46.8,66.8|N|From Archmage Aethas Sunreaver|; Wrong NPC
 A Amalia's Quests|QID|*|NPC|2|PRE|32730|M|0,0|N|From  Penshire|; Wrong NPC,M
-A The Residents of Ihgaluk|QID|32274|PRE|32730|M|0,0|N|From Sunwalker Dezco|; Wrong M
+A The Residents of Ihgaluk|QID|32274|PRE|32259|M|0,0|N|From Sunwalker Dezco|; Wrong M
 
 ; Do this quest first!!!!
 C Skin of the Saurok|QID|32507|M|44.20,83.20;44.60,74.40;45.00,84.00;45.80,75.00;49.00,85.80;50.00,76.40;50.80,73.40;52.20,75.60;52.60,91.40;54.20,80.00;54.20,87.00;54.60,78.40;54.80,74.60;55.40,86.20;46.60,72.50;54.50,76.10;49.40,78.50;46.10,71.30;44.50,81.80;47.60,82.40;46.40,70.00|CN|N|Kill any Saurok.|
