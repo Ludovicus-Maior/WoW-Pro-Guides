@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3743
+-- Date: 2018-02-19 22:59
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3743/revisions/28791/view
 -- Date: 2017-09-12 21:29
 -- Who: Ludovicus_Maior
 -- Log: Revised Earseeker
@@ -20,15 +25,6 @@ WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet World Quests Antoran Waste
 WoWPro:GuidePetBattle(guide)
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
---[[
-/way 56.6 54.2 Bloat
-/way 56.1 28.7 Earseeker
-/way 76.7 73.9 Minixis
-/way 59.8 40.3 One-of-Many
-/way 64.1 66.0 Pilfer
-/way 51.6 41.4 Watcher
-
---]]
 return
 [[
 N Legion Pet Battle World Quests|N|To use this guide, look on your world map for an active battle pet world quest and go there. When the quest pops up, the guide will load pets for the strategy chosen by the addon automatically. If the strategy can accommodate a leveling pet, it will also be auto-selected. If you want to level specific pets, name them "Leveling" or favorite them and the addon will choose from them if possible.|
@@ -58,11 +54,11 @@ C Arcane3|QID|49055|STRATEGY|LudovicusArcaneSurge|N|1) [ability=421/arcane-blast
 ;A Minixis|QID|49057|
 C Mayhem|QID|49057|PET1|Abyssius;90202;1+1+1|PET2|Netherspace Abyssal;71016;2+1+1|PET3|Alterac Brew-Pup;74402;1+2+1|STRATEGY|LudovicusMinixis|
 C Magical Mayhem|QID|49057|PET1|Abyssius;90202;1+1+1|PET2|Netherspace Abyssal;71016;2+1+1|PET3|Trunks;88830;2+1+2|STRATEGY|LudovicusMinixis|
-C Abyssius|QID|49057|STRATEGY|LudovicusMinixis||N|1) [ability=409/immolation]\n2) [ability=176/volcano]\n3) [ability=503/flamethrower]|SELECT|1|DEAD|1,1|
+C Abyssius|QID|49057|STRATEGY|LudovicusMinixis|N|1) [ability=409/immolation]\n2) [ability=176/volcano]\n3) [ability=503/flamethrower]|SELECT|1|DEAD|1,1|
 C Switch to Abyssal|QID|49054|STRATEGY|LudovicusMinixis|N|1) Switch to Abyssal|SELECT|1|SWITCH|2|
-C Abyssal|QID|49057|STRATEGY|LudovicusMinixis||N|1) [ability=409/immolation]\n2) Spam [ability=178/immolate]|SELECT|2|DEAD|1,2|
+C Abyssal|QID|49057|STRATEGY|LudovicusMinixis|N|1) [ability=409/immolation]\n2) Spam [ability=178/immolate]|SELECT|2|DEAD|1,2|
 C Switch to Avalanche Pet|QID|49054|STRATEGY|LudovicusMinixis|N|1) Switch to Pet with Avalanche|SELECT|2|SWITCH|3|
-C Avalanche|QID|49057|STRATEGY|LudovicusMinixis||N|1) [ability=1110/avalanche]\n2) Spam [ability=349/smash] or [ability=110/bite]|SELECT|2|DEAD|2,1|
+C Avalanche|QID|49057|STRATEGY|LudovicusMinixis|N|1) [ability=1110/avalanche]\n2) Spam [ability=349/smash] or [ability=110/bite]|SELECT|2|DEAD|2,1|
 
 ; One-of-Many - Untested
 ! One-of-Many|NPC|128024|QID|49058|
@@ -83,7 +79,7 @@ C Bunny3|QID|49058|STRATEGY|LudovicusBunny|N|1) [ability=312/dodge]\n2) [ability
 ;A Pilfer|QID|49056|
 C Mechanical Melee|QID|49056|PET1|Mechanical Pandaren Dragonling;64899;1+2+2|PET2|Sunreaver Micro-Sentry;69778;2+1+1|PET3|Lil' Bling;73011;2+1+1|STRATEGY|rawford_WH|
 C Dragonling|QID|49056|STRATEGY|rawford_WH|N|1) [ability=334/decoy]\n2) Swap to Micro-Sentry|SELECT|1|SWITCH|2|
-C Micro-Sentry|QID|49056|STRATEGY|rawford_WH|N|1) [ability=204/call-lightning]\n2) [ability=901/fel-immolate]\n3) Swap to Bling|SELECT|2||SWITCH|3|
+C Micro-Sentry|QID|49056|STRATEGY|rawford_WH|N|1) [ability=204/call-lightning]\n2) [ability=901/fel-immolate]\n3) Swap to Bling|SELECT|2|SWITCH|3|
 C Bling|QID|49056|STRATEGY|rawford_WH|N|1) [ability=1002/inflation]\n 2) Bling Dies, switch back to Dragonling.|SELECT|3|SWITCH|1|
 C Dragonling|QID|49056|STRATEGY|rawford_WH|N|1) [ability=779/thunderbolt]\n2) [ability=334/decoy]\n3) [ability=115/breath]|SELECT|1|DEAD|2,1|
 
