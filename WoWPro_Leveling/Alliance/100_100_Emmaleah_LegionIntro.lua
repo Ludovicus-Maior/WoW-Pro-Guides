@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_intro_guidealliance
+-- Date: 2018-02-19 23:17
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3662/revisions/28640/view
 -- Date: 2017-04-08 16:55
 -- Who: Fluclo
 
@@ -94,7 +99,7 @@ C To Be Prepared|QID|42782|QO|3|M|29.63,30.02|Z|Stormwind City|NC|N|Last meal ea
 C To Be Prepared|QID|42782|QO|4|M|33.74,33.27|Z|Stormwind City|N|Pick one of the NPC's in the area to duel with.|
 T To Be Prepared|QID|42782|M|18.93,26.51|Z|Stormwind City|N|To Knight Dameron.|
 
-A The Battle for Broken Shore|QID|42740|M|18.93,26.51|Z|Stormwind City|N|From Knight Dameron.|PRE|40782|
+A The Battle for Broken Shore|QID|42740|M|18.93,26.51|Z|Stormwind City|N|From Knight Dameron.|PRE|42782|
 C The Battle for Broken Shore|QID|42740|QO|1|M|19.94,29.45|Z|Stormwind City|N|Talk to Captain Angelica to take the ship to the Broken Shore|CHAT|
 C The Broken Shore|QID|42740|SO|1|M|49.77,72.75|Z|Broken Shore|N|Wait until you arrive on the Broken Shore.|NC|
 C Fel Lords slain|QID|42740|SO|2;2|M|47.87,68.71|Z|Broken Shore|N|Fel Lords slain|
@@ -109,7 +114,7 @@ C Krosus slain.|QID|42740|SO|8;1|M|55.04,32.21|Z|Broken Shore|N|Krosus slain.|T|
 C Gul'dan confronted.|QID|42740|SO|9;1|M|58.34,27.36|Z|Broken Shore|N|Confrunt Gul'dan.|
 T The Battle for Broken Shore|QID|42740|M|20.10,34.92|Z|Stormwind City|N|To Genn Greymane.|
 
-A The Fallen Lion|QID|40517|M|20.10,34.92|Z|Stormwind City|N|From Genn Greymane.|PRE|42740|
+A The Fallen Lion|QID|40517|M|20.10,34.92|Z|Stormwind City|N|From Genn Greymane.|PRE|42740+43806|
 C The Fallen Lion|QID|40517|QO|1|M|85.56,31.82|Z|Stormwind City|NC|N|Mount a Gryphon to take you to Stormwind Keep (or fly up on your own mount)|
 C The Fallen Lion|QID|40517|QO|2|M|85.90,31.60|Z|Stormwind City|CHAT|N|Speak to Anduin Wrynn and deliver the letter, then read the chat (or wait for the dialog to play out).|
 T The Fallen Lion|QID|40517|M|85.90,31.60|Z|Stormwind City|N|To Anduin Wrynn.|
@@ -122,7 +127,7 @@ C Demons Among Us|QID|40593|QO|3|M|82.40,28.03|Z|Stormwind City|NC|N|Destroy the
 C Demons Among Us|QID|40593|QO|2|M|80.51,35.27|Z|Stormwind City|N|Finish killing the infiltrators.|US|
 T Demons Among Us|QID|40593|M|85.76,31.75|Z|Stormwind City|N|To Anduin Wrynn.|
 
-A Illidari Allies|QID|44120|M|85.76,31.75|Z|Stormwind City|N|From Anduin Wrynn.|PRE|40593|
+A Illidari Allies|QID|44120|M|85.76,31.75|Z|Stormwind City|N|From Anduin Wrynn.|
 T Illidari Allies|QID|44120|M|40.26,77.70|Z|Stormwind City|N|To Elerion Bladedancer, located just outside the Mage Quarter.|
 A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|
