@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3628
+-- Date: 2018-02-19 22:55
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3628/revisions/28966/view
 -- Date: 2018-02-02 20:56
 -- Who: Ludovicus
 -- Log: Tag Tweaks
@@ -81,8 +86,8 @@ A Garrison Campaign: War Council |QID|38567|N|This quest is auto-accepted when y
 T Garrison Campaign: War Council |QID|38253|N|To King Varian Wrynn|FACTION|Alliance|M|32.0,32.0|Z|Lunarfall|
 T Garrison Campaign: War Council |QID|38567|N|To Warchief Vol'jin|FACTION|Horde|M|39.20,54.80|Z|Frostwall|
 
-A We Need a Shipwright |QID|38257|N|From King Varian Wrynn|FACTION|Alliance|M|32.0,32.0|Z|Lunarfall|PRE|38253|
-A We Need a Shipwright |QID|38568|N|From Warchief Vol'jin|FACTION|Horde|M|39.20,54.80|Z|Frostwall|PRE|38567|
+A We Need a Shipwright |QID|38257|N|From King Varian Wrynn|FACTION|Alliance|M|32.0,32.0|Z|Lunarfall|PRE|38253+40418|
+A We Need a Shipwright |QID|38568|N|From Warchief Vol'jin|FACTION|Horde|M|39.20,54.80|Z|Frostwall|PRE|38567+40417|
 F Gorgrond|QID|38257|N|Speak to Dungar Longdrink, your Flight Master, to get a flight to the Iron Docks.|CHAT|FACTION|Alliance|M|48.00,49.80|Z|Lunarfall|PRE|38253|
 F Gorgrond|QID|38568|N|Speak to Bron Skyhorn, your Flight Master, to get a flight to the Iron Docks.|CHAT|FACTION|Horde|M|45.85,50.80|Z|Frostwall|PRE|38567|
 T We Need a Shipwright |QID|38257|N|To Exarch Naielle|M|52.57,9.85|Z|Gorgrond|FACTION|Alliance|
@@ -225,7 +230,7 @@ C Spirits of the Bleeding Hollow|QID|38273|N|Take the spiral path down to the bo
 C Slay Enraged Blood Spirits |QID|38273|QO|1|US|
 T Spirits of the Bleeding Hollow |QID|38273|M|32.42,37.40|N|From the Orc Skull|
 T The Bleeding Hollow |QID|38272|M|32.44,37.32|N|Head down to the bottom and take the exit on the left.|
-A The Eye of Kilrogg |QID|38274|PRE|38273|M|32.44,37.32|N|Chieftains|
+A The Eye of Kilrogg |QID|38274|PRE|38272|M|32.44,37.32|N|Chieftains|
 C The Eye of Kilrogg|QID|38274|QO|1|N|Click on the stones on the cave walls. Kill Mob, loot the eye. Rinse, repeat. The sixth eye should be the Eye of Kilrogg|
 C The Eye of Kilrogg|QID|38274|M|32.53,36.86|QO|2|N|Click on the skull in the stone floor. Watch the scene and kill the eye.|
 T The Eye of Kilrogg |QID|38274|M|32.80,37.49|N|From Ariok|
@@ -280,7 +285,7 @@ A The Cipher of Damnation|QID|39394|PRE|38462|FACTION|Alliance|
 A The Cipher of Damnation|QID|38463|PRE|38462|FACTION|Horde|
 T The Cipher of Damnation|QID|39394|FACTION|Alliance|
 T The Cipher of Damnation|QID|38463|FACTION|Horde|
-A Oronok's Offer|QID|39395|PRE|38463|
+A Oronok's Offer|QID|39395|PRE|38463+39394|
 
 ;; Dailies go here
 ;a Assault on The Fel Forge|QID|38440|FACTION|Alliance|
@@ -289,7 +294,7 @@ T Assault on The Fel Forge|QID|38440|FACTION|Alliance|
 T Assault on The Fel Forge|QID|38441|FACTION|Horde|
 
 ;; Back to shipbuilding.
-A Shipyard Report|QID|39422|N|From Exarch Yrel|M|58.5,60.35|PRE|38445|FACTION|Alliance|LEAD|39056|
+A Shipyard Report|QID|39422|N|From Exarch Yrel|M|58.5,60.35|PRE|38445|FACTION|Alliance|
 A Shipyard Report|QID|39423|N|From Draka|M|61.53,45.80|PRE|37935|FACTION|Horde|LEAD|39243|
 f Lion's Watch |QID|39422|N|with Skyguard Thann|M|57.50,58.75|FACTION|Alliance|ACTIVE|39422|
 f Vol'mar |QID|39423|N|with Gargash the Diver|M|60.40,46.45|FACTION|Horde|ACTIVE|39423|
@@ -351,8 +356,8 @@ A Upgrading The Fleet |QID|39245|PRE|39676|N|From Rolash Wavechaser|M|42.08,71.0
 A I Sunk Your Battleship |QID|39601|PRE|39056|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 A I Sunk Your Battleship |QID|39604|PRE|39676|N|From Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
-A Gems of the Apexis |QID|39175|N|From Baros Alexston|M|29.23,33.12|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|P|Jewelcrafting;755|
-A Gems of the Apexis |QID|39175|N|From Gazlowe|M|42,55|Z|Shadowmoon Valley@Draenor|FACTION|Horde|P|Jewelcrafting;755|
+A Gems of the Apexis |QID|39175|LEAD|39176|N|From Baros Alexston|M|29.23,33.12|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|P|Jewelcrafting;755|
+A Gems of the Apexis |QID|39175|LEAD|39176|N|From Gazlowe|M|42,55|Z|Shadowmoon Valley@Draenor|FACTION|Horde|P|Jewelcrafting;755|
 
 F Lion's Watch |QID|39601|M|48.00,49.80|Z|Lunarfall|N|Now fly back to Tanaan Jungle|FACTION|Alliance|
 F Vol'mar |QID|39604|M|45.85,50.80|Z|Frostwall|N|Now fly back to Tanaan Jungle|FACTION|Horde|
