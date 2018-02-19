@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-02-19 23:14
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - DunM
+
+-- URL: http://wow-pro.com/node/3200/revisions/29003/view
+-- Date: 2018-02-19 23:09
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Gnome
+
+-- URL: http://wow-pro.com/node/3200/revisions/29002/view
+-- Date: 2018-02-19 23:08
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3200/revisions/28851/view
 -- Date: 2018-01-16 23:22
 -- Who: Ludovicus
 -- Log: New Levels
@@ -235,20 +250,6 @@
 -- Who: Fluclo
 -- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
 
--- URL: http://wow-pro.com/node/3200/revisions/24742/view
--- Date: 2011-08-24 00:49
--- Who: Jiyambi
--- Log: Took out two location based completion steps that weren't auto-completing, rolled them into other steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24626/view
--- Date: 2011-06-28 20:52
--- Who: Fluclo
--- Log: Minor tweaks to final couple of quests
-
--- URL: http://wow-pro.com/node/3200/revisions/24625/view
--- Date: 2011-06-28 20:42
--- Who: Fluclo
-
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1.1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -334,7 +335,7 @@ A Follow that Gyro-Copter! |PRE|24490|QID|24491|N|From Hands Springsprocket.|M|8
 T Follow that Gyro-Copter! |QID|24491|M|69.95,44.08|N|To Milo Geartwinge at the bottom of the hill.|
 A Pack Your Bags |PRE|24491|QID|24492|N|From Milo Geartwinge.|M|69.95,44.08|
 
-A Don't Forget About Us |PRE|24491|QID|24493|M|62.45,22.05|N|From Jona Ironstock.|RANK|2|
+A Don't Forget About Us |QID|24493|M|62.45,22.05|N|From Jona Ironstock.|RANK|2|
 r Repair and Sell Junk|QID|24492|S|ACTIVE|24492|N|Take this opportunity to sell your junk and repair with the sellers in Anvilmar.|T|Grundel Harkin|
 C Coldridge Beer Flagon|QID|24492|M|62.45,23.87|N|Go to near the entrance, and all the items are around a table. Pick up the barrel of Coldridge Beer from the floor.|QO|1|NC|
 C Ragged Wolf-Hide Cloak|QID|24492|M|62.45,23.87|N|Pick up the box of Wolf-Hide Cloaks.|QO|2|NC|
