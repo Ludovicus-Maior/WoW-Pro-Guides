@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2018-02-19 23:24
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3215/revisions/28854/view
 -- Date: 2018-01-16 23:24
 -- Who: Ludovicus
 -- Log: New Levels
@@ -281,7 +286,7 @@ C Bravo Company Field Kit: Chloroform|QID|26637|NC|M|42.75,53.87|N|Enter the lak
 C Hunting the Hunters|QID|26638|S|M|52.95,67.78|N|Kill any Blackrock Hunter you see. They are stealthed.|
 C Bravo Company Field Kit: Camouflage|QID|26636|S|M|50.40,65.50|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|NC|
 T Point of Contact: Brubaker|QID|26639|M|53.01,67.78|N|To Brubaker.|
-A Unspeakable Atrocities|QID|26640|M|53.01,67.78|N|From Brubaker.|PRE|26640|
+A Unspeakable Atrocities|QID|26640|M|53.01,67.78|N|From Brubaker.|PRE|26639|
 C Bravo Company Field Kit: Camouflage|QID|26636|US|M|50.40,65.50|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|NC|
 C Hunting the Hunters|QID|26638|US|M|52.95,67.78|N|Kill any Blackrock Hunter you see. They are stealthed.|
 T Bravo Company Field Kit: Camouflage|QID|26636|M|52.47,55.45|N|To Krakauer.|
@@ -306,7 +311,7 @@ C Detonation|QID|26668|NC|M|77.60,65.61|N|Enjoy the brief cut scene.|
 T Detonation|QID|26668|M|77.60,65.61|N|To John J. Keeshan.|
 
 A The Dark Tower|QID|26693|M|77.57,65.57|N|From John J. Keeshan.|PRE|26668|
-A Shadowhide Extinction|QID|26692|M|77.59,65.54|N|From Danforth.|PRE|26668|RANK|2|LEAD|26714|
+A Shadowhide Extinction|QID|26692|M|77.59,65.54|N|From Danforth.|PRE|26668|RANK|2|
 C Shadowhide Extinction|QID|26692|S|N|Kill any Gnoll you come across.|
 C The Dark Tower|QID|26693|M|67.58,29.61|N|Enter the cave and kill General Fangore. Loot his corpse to get the Key of Ilgalar.|
 T The Dark Tower|QID|26693|M|67.55,29.54|N|(UI Alert)|
