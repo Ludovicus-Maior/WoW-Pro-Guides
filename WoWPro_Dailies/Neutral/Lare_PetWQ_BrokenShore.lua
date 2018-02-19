@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_broken_shore
+-- Date: 2018-02-19 22:55
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3732/revisions/28729/view
 -- Date: 2017-08-03 21:56
 -- Who: Ludovicus_Maior
 -- Log: Use world QIDs
@@ -71,7 +76,7 @@ A Illidari Masters: Nameless Mystic|QID|46113|M|39.4, 72.0|Z|Broken Shore|N|Talk
 C Mystic|QID|46113|PET1|Mechanical Pandaren Dragonling;64899;1+2+2|PET2|Darkmoon Zeppelin;55367;2+2+2|PET3|Leveling;;;|STRATEGY|Aranesh@WH|
 C Dragonling .vs. Fido|STRATEGY|Aranesh@WH|N|1) 3x [ability=115/breath]\n2) [ability=334/decoy]\n3) [ability=115/breath]\nFido dead!|SELECT|1|DEAD|2,1|
 C Dragonling .vs. Eye|STRATEGY|Aranesh@WH|N|1) [ability=779/thunderbolt]\n2) [ability=334/decoy] on cooldown\n3) [ability=115/breath] to fill till MPD dead.!|SELECT|1|SWITCH|2|
-C Zeppelin .vs. Fel||STRATEGY|Aranesh@WH|N|1) [ability=334/decoy] on cooldown\n2) [ability=515/flyby] on cooldown.\n3) When Fel<618 HP, [ability=282/explode]|SELECT|2|DEAD|2,3|
+C Zeppelin .vs. Fel|STRATEGY|Aranesh@WH|N|1) [ability=334/decoy] on cooldown\n2) [ability=515/flyby] on cooldown.\n3) When Fel<618 HP, [ability=282/explode]|SELECT|2|DEAD|2,3|
 
 ]]
 end)
