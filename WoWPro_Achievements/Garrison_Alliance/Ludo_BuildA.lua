@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_buildings_alliance
+-- Date: 2018-02-19 22:31
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3631/revisions/28549/view
 -- Date: 2017-03-23 17:35
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -140,7 +145,7 @@ T Hexcloth|QID|36269|N|To Ameeka.|M|58.2,26.5|
 A Easing into Lumberjacking|QID|36189|N|From Justin Timberlord.|BUILDING|LumberMill;40|Z|Lunarfall|
 C Small Timber|QID|36189|M|31.29, 24.70|N|Ride and exit your garrison through the main gate and the tree will be on your right on the road.|NC|
 T Easing into Lumberjacking|QID|36189|N|To Justin Timberlord.|BUILDING|LumberMill;40|Z|Lunarfall|
-A Turning Timber into Profit|QID|36192|N|From Justin Timberlord.|PRE|36189|Z|Lunarfall|BUILDING|LumberMill;40;41;138|
+A Turning Timber into Profit|QID|36192|N|From Justin Timberlord.|Z|Lunarfall|BUILDING|LumberMill;40;41;138|
 F Embaari Village |QID|36192|M|48.05,49.86|Z|Lunarfall|N|Fly to Embaari Village to go to Arbor Glen for your wood.|ACTIVE|36192|
 C Turning Timber into Profit|QID|36192|M|46.60,34.50|N|As you are out and about don't forget to mark trees.|QO|1|
 C Weldon Barov|QID|36192|N|When chopping trees, one of them might be a fallen tree.  Weldon Barov will be beneath and will become a follower.|NC|
@@ -148,10 +153,10 @@ C Turning Timber into Profit|QID|36192|N|Now turn in your first order at the mil
 T Turning Timber into Profit|QID|36192|N|From Justin Timberlord.|Z|Lunarfall|BUILDING|LumberMill;40;41;138|
 K Alexi Barov|QID|36448|N|Go chop some small timber. Eventually Alexi will spawn.|ACTIVE|36448|
 T Reduction in Force|QID|36448|N|To Weldon Barov|Z|Lunarfall|BUILDING|LumberMill;40;41;138|
-A Sharper Blades, Bigger Timber|QID|36194|PRE|36192|N|From Justin Timberlord.|BUILDING|LumberMill;41;138|Z|Lunarfall|
+A Sharper Blades, Bigger Timber|QID|36194|N|From Justin Timberlord.|BUILDING|LumberMill;41;138|Z|Lunarfall|
 C Medium Timber|QID|36194|M|30.51,30.67|QO|1|N|Ride and exit your garrison through the main gate ride to near Anguish Fortress.|
 T Sharper Blades, Bigger Timber|QID|36194|N|To Justin Timberlord.|Z|Lunarfall|BUILDING|LumberMill;41;138|
-A Tree-i-cide|QID|36195|PRE|36194|N|From Justin Timberlord.|BUILDING|LumberMill;138|Z|Lunarfall|
+A Tree-i-cide|QID|36195|N|From Justin Timberlord.|BUILDING|LumberMill;138|Z|Lunarfall|
 C Large Lumber|QID|36195|M|35.63,24.65;35.08,22.78;33.95,25.53|CS|N|Go to Gloomshade Grove and then take the path up the side. To get up the final rise, the slope is a little to the left of the center.|
 T Tree-i-cide|QID|36195|N|To Justin Timberlord.|BUILDING|LumberMill;138|Z|Lunarfall|
 
@@ -239,14 +244,14 @@ T Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|
 
 ;; Garrison Level Quesrs
 
-A Things Are Not Goren Our Way |QID|34192|N|From Timothy Leens|M|65.46,41.79|Z|Lunarfall|PRE|36592|BUILDING|townhall;2|
+A Things Are Not Goren Our Way |QID|34192|N|From Timothy Leens|M|65.46,41.79|Z|Lunarfall|BUILDING|townhall;2|
 C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|S|QO|1|
 C Things Are Not Goren Our Way |QID|34192|N|Head to the back of the mine and kill Stonetooth.|M|58.81,78.85|Z|Lunarfall Excavation@Lunarfall|T|Stonetooth|QO|2|
 C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|US|QO|1|
 T Things Are Not Goren Our Way |QID|34192|N|To Timothy Leens|M|65.46,41.79|Z|Lunarfall|
 
 ; Fishing Shack
-A Looking For Help |QID|34194|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton, Fisherman|PRE|36592|BUILDING|townhall;2|LVL|94|
+A Looking For Help |QID|34194|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton, Fisherman|BUILDING|townhall;2|LVL|94|
 C Looking For Help |QID|34194|M|26.96, 6.65|CHAT|N|Ask for help from Maidari at Eventide Landing.  Fastest way to get there is to jump carefully down the back of your garrison.|
 T Looking For Help |QID|34194|M|26.97, 6.65|N|To Madari.|
 A Moonshell Claws |QID|36199|M|26.96, 6.65|N|From Madari.|PRE|34194|
@@ -259,19 +264,19 @@ A Anglin' In Our Garrison |QID|36202|M|26.96, 6.65|N|From Madari.|PRE|36201|
 T Anglin' In Our Garrison |QID|36202|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton|
 
 ; Garden
-A Clearing the Garden |QID|36404|M|58.89, 53.45|N|From Naron Bloomthistle|Z|Lunarfall|PRE|36592|BUILDING|townhall;2|LVL|96|
+A Clearing the Garden |QID|36404|M|58.89, 53.45|N|From Naron Bloomthistle|Z|Lunarfall|BUILDING|townhall;2|LVL|96|
 C Kill the Raccoons|QID|36404|M|57.6,59.6|Z|Lunarfall|QO|1|
 T Clearing the Garden |QID|36404|M|58.89, 53.45|Z|Lunarfall|N|To Naron Bloomthistle|
 
 ; Salvage Yard
-A Pinchwhistle Gearworks|QID|35619|PRE|35286|LEAD|35077|M|39.63,60.62|Z|Spires of Arak|N|From Watchman Kovak. |FACTION|Alliance|LVL|96|
+A Pinchwhistle Gearworks|QID|35619|PRE|35286|M|39.63,60.62|Z|Spires of Arak|N|From Watchman Kovak. |FACTION|Alliance|LVL|96|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|Z|Spires of Arak|CHAT|N|Talk to Firn Swiftbreeze for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
-A Pinchwhistle Gearworks|QID|35620|PRE|35277|LEAD|35077|M|40.01,43.97|N|From Scout Cel. |FACTION|Horde|LVL|96|
+A Pinchwhistle Gearworks|QID|35620|PRE|35277|M|40.01,43.97|N|From Scout Cel. |FACTION|Horde|LVL|96|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
-A Pinchwhistle Gearworks|QID|35619|PRE|35286|LEAD|35077|M|45.8,46.0|Z|Lunarfall|N|From Pinchwhistle Gearworks. |FACTION|Alliance|LVL|96|
+A Pinchwhistle Gearworks|QID|35619|PRE|35286|M|45.8,46.0|Z|Lunarfall|N|From Pinchwhistle Gearworks. |FACTION|Alliance|LVL|96|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|Z|Lunarfall|CHAT|N|Talk to Dungar Longdrink for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
-A Pinchwhistle Gearworks|QID|36862|LEAD|35077|M|40.01,43.97|Z|Frostwall|N|From Murla Longeye. |FACTION|Horde|LVL|96|
+A Pinchwhistle Gearworks|QID|36862|M|40.01,43.97|Z|Frostwall|N|From Murla Longeye. |FACTION|Horde|LVL|96|
 C Pinchwhistle Gearworks|QID|36862|M|39.50,43.38|Z|Frostwall|CHAT|N|Talk to Bron Skyhorn for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
 f Pinchwhistle Gearworks|QID|35077;35079|M|60.88,73.31|Z|Spires of Arak|N|At Kwiven Quickcog.|
@@ -309,10 +314,10 @@ C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|Z|Spires of Arak|
 C Skimming Off the Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|US|N|Kill the oily slimes in the area.|
 T The Right Parts for the Job|QID|35090|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 T Skimming Off the Top|QID|35089|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
-A Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35090;35089|
+A Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35089;35090;36384|
 T Field Trial|QID|36384|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
-A Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|36384|
-A Curing With Force|QID|36428|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|36384|
+A Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35089;35090;36384|
+A Curing With Force|QID|36428|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35089;35090;36384|
 C Curing With Force|QID|36428|M|58,92|U|115533|S|N|You have to beat them up before they will accept the potion, don't forget to give it to them (instead of killing them). Again, a garrison follower will kill them.  Send them home for a bit.|
 C Sporicide|QID|35091|M|58,92|Z|Spires of Arak|S|N|There are a few of these wandering in the village but most are behind it.|
 C Preventing the Worst|QID|35211|M|58,92|Z|Spires of Arak|NC|N|There is a translucent bomb inside of each of the buildings, click on it to activate. It is upstairs on the balcony of the 2 story building.|
@@ -321,7 +326,7 @@ C Sporicide|QID|35091|M|56.2,90.4|Z|Spires of Arak|US|N|There are a few of these
 T Sporicide|QID|35091|M|58.82,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 T Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
 T Curing With Force|QID|36428|M|58.46,92.22|N|To Krixel Pinchwhistle.|
-A Flame On|QID|35298|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35211;36428|
+A Flame On|QID|35298|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35091;35211;36428|
 C Flame On|QID|35298|M|58.44,92.24|Z|Spires of Arak|QO|1|NC|N|Click on the Plunger to set off the bombs.|
 C Flame On|QID|35298|M|58.88,92.84|Z|Spires of Arak|QO|2|NC|N|Hop in Kimzee's flying machine.|
 T Flame On|QID|35298|M|61.47,72.94|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
