@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2018-02-19 22:53
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3508/revisions/28740/view
 -- Date: 2017-08-05 19:54
 -- Who: Ludovicus_Maior
 -- Log: Remove redundant QID tags where ACTIVE tag had same contents.
@@ -208,7 +213,7 @@ A Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|PRE|30259|M|44.14,34.27
 t Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.17,34.21|N|This can't be completed  or turned in until the next day. If Mung-Mung is not at the market he will be back at the Mudclaw Farm, (where the green dot is.)|
 
 ;FARMER FUNG's VOTE - 4500 Revered
-A Farmer Fung's Vote I: Yak Attack|PRE|31946|QID|30517|REP|The Tillers;1272;revered;4500|M|52.20,48.86|N|From Farmer Yoon. This quest is offered after 4500 revered, you will have to manually check it off before then.|
+A Farmer Fung's Vote I: Yak Attack|QID|30517|REP|The Tillers;1272;revered;4500|M|52.20,48.86|N|From Farmer Yoon. This quest is offered after 4500 revered, you will have to manually check it off before then.|
 t Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.2,33.8|N|To Farmer Fung.|
 A Farmer Fung's Vote II: On the Loose|PRE|30517|QID|30518|M|48.2,33.8|N|From Farmer Fung.|
 t Farmer Fung's Vote II: On the Loose|QID|30518|M|48.2,33.8|N|To Farmer Fung.|
@@ -216,7 +221,7 @@ A Farmer Fung's Vote III: Crazy For Cabbage|PRE|30518|QID|31947|M|48.2,33.8|N|Fr
 t Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.2,33.8|N|If Farmer Fung is not at the market he is on his farm, (where the green dot is).|
 
 ;NANA'S VOTE - 8400 Revered - only in town as Nana is always in town
-A Nana's Vote I: Nana's Secret Recipe|QID|30519|REP|The Tillers;1272;revered;8400|PRE|31947|M|52.20,48.86|N|From Farmer Yoon.|
+A Nana's Vote I: Nana's Secret Recipe|QID|30519|REP|The Tillers;1272;revered;8400|M|52.20,48.86|N|From Farmer Yoon.|
 T Nana's Vote I: Nana's Secret Recipe|QID|30519|M|54.6,47|N|To Nana Mudclaw.|
 A Nana's Vote II: The Sacred Springs|QID|31948|PRE|30519|M|54.6,47|N|From Nana Mudclaw.|
 t Nana's Vote II: The Sacred Springs|QID|31948|M|54.6,47|N|To Nana Mudclaw.|
@@ -224,7 +229,7 @@ A Nana's Vote III: Witchberry Julep|QID|31949|PRE|31948|M|54.6,47|N|From Nana Mu
 t Nana's Vote III: Witchberry Julep|QID|31949|M|54.6,47|N|To Nana Mudclaw.|
 
 ;HAOHAN'S VOTE - 16800 Revered - only in town as its all (except the one step) done with farmer yoon (who is in town)
-A Haohan's Vote I: Bungalow Break-In|PRE|31949|QID|30521|REP|The Tillers;1272;revered;16800|M|52.20,48.86|N|From Farmer Yoon.|
+A Haohan's Vote I: Bungalow Break-In|QID|30521|REP|The Tillers;1272;revered;16800|M|52.20,48.86|N|From Farmer Yoon.|
 A Haohan's Vote II: The Real Culprits|PRE|30521|QID|30522|M|44.6,34|N|Go investigate the shed, if you find something maybe he will be happier.|
 A Haohan's Vote III: Pure Poison|QID|30525|PRE|30522|M|52.20,48.86|N|From Farmer Yoon.|
 A Haohan's Vote IV: Melons For Felons|QID|30527|PRE|30525|M|52.20,48.86|N|From Farmer Yoon.|
@@ -370,8 +375,8 @@ C Fatty Goatsteak|QID|30332|M|30.12,44.69|US|N|Kill goats, don't but your back t
 ;do quests - hozen area
 A A Dish for Sho|QID|30408|M|29.5,30.6|REP|Sho;1278;stranger-good friend|N|To Sho - Eternal Blossom Fish - Lovely Apple, Check this off manually if you have no food or treasure for her.|
 A Mission: Culling The Vermin|QID|31529|REP|Sho;1278;Acquaintance;4200|M|29.5,30.6|N|From Sho.|;12600
-A Mission: Aerial Threat|PRE|31529|QID|31531|REP|Sho;1278;Friend;4400|M|29.5,30.6|N|From Sho.|;friend+4400-4800?)
-A Mission: Predator of the Cliffs|PRE|31530|QID|31532|REP|Sho;1278;Good Friend;1700|M|29.5,30.6|N|From Sho.|;good friend +1700?
+A Mission: Aerial Threat|QID|31531|REP|Sho;1278;Friend;4400|M|29.5,30.6|N|From Sho.|;friend+4400-4800?)
+A Mission: Predator of the Cliffs|QID|31532|REP|Sho;1278;Good Friend;1700|M|29.5,30.6|N|From Sho.|;good friend +1700?
 C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|S|N|This can be a ground spawn or drop from the mobs.|
 C Authentic Valley Stir Fry|QID|30471|M|31.93,23.50|S|N|This can be a ground spawn or drop from the mobs.|
 C Yak Statuette|QID|30473|M|34,24|S|N|This can be a ground spawn or drop from the mobs.|
@@ -428,9 +433,9 @@ T A Worthy Brew|QID|31538|M|31.6,58|N|To Ella in the market or if she is not the
 
 ;accept quests from dropped items|REP|1280
 A A Very Nice Necklace|QID|31325|U|86433|N|From 'Nice Necklace' randomly dropped.|
-A Tina's Tasteful Tiara|QID|31326|U|86434|PRE|31325|REP|Tina Mudclaw;1280;Acquaintance-Best Friend|N|From 'Tasteful Tiara' randomly dropped.|;8400-16800
-A An Exquisite Earring|QID|31328|PRE|31326|U|86435|REP|Tina Mudclaw;1280;Buddy-Best Friend|N|From 'Exquisite Earring' randomly dropped.|;16800-25200
-A A Beautiful Brooch|QID|31329|PRE|31328|U|86436|REP|Tina Mudclaw;1280;Friend-Best Friend|N|From 'Beautiful Brooch' randomly dropped.|;25200-42999
+A Tina's Tasteful Tiara|QID|31326|U|86434|REP|Tina Mudclaw;1280;Acquaintance-Best Friend|N|From 'Tasteful Tiara' randomly dropped.|;8400-16800
+A An Exquisite Earring|QID|31328|U|86435|REP|Tina Mudclaw;1280;Buddy-Best Friend|N|From 'Exquisite Earring' randomly dropped.|;16800-25200
+A A Beautiful Brooch|QID|31329|U|86436|REP|Tina Mudclaw;1280;Friend-Best Friend|N|From 'Beautiful Brooch' randomly dropped.|;25200-42999
 T A Very Nice Necklace|QID|31325|M|45.1,33.8|N|If she is not at the market, Tina can be found on her family's farm.|
 T Tina's Tasteful Tiara|QID|31326|M|45.1,33.8|N|If she is not at the market, Tina can be found on her family's farm.|
 T An Exquisite Earring|QID|31328|M|45.1,33.8|N|If she is not at the market, Tina can be found on her family's farm.|
@@ -454,7 +459,7 @@ T The Lesser of Two Evils|QID|30333|M|52.21,48.82|N|To Farmer Yoon.|
 T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.21,48.82|N|To Farmer Yoon.|
 T The Kunzen Hunter-Chief|QID|30336|M|52.21,48.82|N|To Farmer Yoon.|
 T Simian Sabotage|QID|30337|M|52.21,48.82|N|To Farmer Yoon.|
-A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|PRE|31945|REP|The Tillers;1272;honored;5500|M|52.28,48.74|N|From Farmer Yoon.|
+A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|REP|The Tillers;1272;honored;5500|M|52.28,48.74|N|From Farmer Yoon.|
 
 T Haohan's Vote I: Bungalow Break-In|QID|30521|M|44.6,34|N|To Haohan Mudclaw.|
 T Haohan's Vote II: The Real Culprits|QID|30522|M|52.20,48.86|N|To Farmer Yoon.|
@@ -463,7 +468,7 @@ T Haohan's Vote IV: Melons For Felons|QID|30527|M|52.20,48.86|N|To Farmer Yoon.|
 T Haohan's Vote V: Chief Yip-Yip|QID|30528|M|52.20,48.86|N|To Farmer Yoon. A dialog follows which includes a place where you you place your vote in the bowl on the shrine to actually join The Tillers Union.|
 
 ;CLEAR THE WEEDS - 0 Honored
-A Growing the Farm I: The Weeds|QID|30260|PRE|31945|REP|The Tillers;1272;honored|M|52.25,48.79|N|From Farmer Yoon.|
+A Growing the Farm I: The Weeds|QID|30260|REP|The Tillers;1272;honored|M|52.25,48.79|N|From Farmer Yoon.|
 T Growing the Farm I: The Weeds|QID|30260|M|38.6,51.6|N|To Gsi Lan.|
 A Growing the Farm I: A Little Problem|QID|30516|PRE|30260|M|38.6,51.6|N|From Gsi Lan.|
 C Growing the Farm I: A Little Problem|QID|30516|M|36,50|N|Spiderroot is a sparkly ground spawn in the area.|
@@ -474,14 +479,14 @@ B Grand Commendation|PRE|30516|REP|The Tillers;1272;revered;nobonus|M|53.2,51.8|
 U Grand Commendation|PRE|30516|REP|The Tillers;1272;revered;nobonus|U|93226|N|Click on it, it does no good until you use it.|
 
 ;REMOVE THE CART - 0 Revered
-A Growing the Farm II: The Broken Wagon|QID|30523|PRE|30516|REP|The Tillers;1272;revered|M|52.20,48.86|N|From Farmer Yoon.|
+A Growing the Farm II: The Broken Wagon|QID|30523|REP|The Tillers;1272;revered|M|52.20,48.86|N|From Farmer Yoon.|
 T Growing the Farm II: The Broken Wagon|QID|30523|M|41.6,30|N|To Fish Fellreed.|
 A Growing the Farm II: Knock on Wood|QID|30524|PRE|30523|M|41.6,30|N|From Fish Fellreed.|
 C Growing the Farm II: Knock on Wood|QID|30524|M|43,29|N|The planks of wood are in the water surrounded by agro crabs. Be careful.|
 T Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|To Fish Fellreed. Check in with Fish to start a 15 minute timer (buff) for her to finish fixing the wagon, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|
 
 ;REMOVE THE ROCK - 0 Exalted
-A Growing the Farm III: The Mossy Boulder|QID|30529|PRE|30524|REP|The Tillers;1272;exalted|M|52.20,48.86|N|From Farmer Yoon.|
+A Growing the Farm III: The Mossy Boulder|QID|30529|REP|The Tillers;1272;exalted|M|52.20,48.86|N|From Farmer Yoon.|
 T Growing the Farm III: The Mossy Boulder|QID|30529|M|44.6,34|N|If Haohan is not at the market he can be found on his farm (where the green dot is). After you talk to him, he and Thundar will help, Check in with Haohan to start a 15 minute timer (buff) for Thundar to finish breaking the rock, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|
 
 C A Gift For Fung|QID|30475|M|52.8,51.6|NC|N|Talk to Kol Ironpaw - Master of the Grill to make the 'Grilled Plainshawk Leg'.|
@@ -534,17 +539,17 @@ T The Mile-High Grub|QID|30331|M|52.54,51.65|N|To Mei Mei Ironpaw.|
 
 ;WATERING SYSTEM - requires clear the weeds
 B The "Jinyu Princess" Irrigation System|LEAD|31936|PRE|30516|M|53.2,51.8|L|89812|N|Buy from Gina Mudclaw. Even if you like using inventory space for the watering can, its still 250 rep for 90g. Not available until after the weeds are removed (so, in 15 minutes, if Gao Lan just started.)|
-A The "Jinyu Princess" Irrigation System|QID|31936|PRE|30516|U|89812|N|From the item you just bought.|
+A The "Jinyu Princess" Irrigation System|QID|31936|U|89812|N|From the item you just bought.|
 T The "Jinyu Princess" Irrigation System|QID|31936|M|52.20,48.86|N|To Farmer Yoon who installs it for you.|
 
 ;BUY THE BUG SPRAYER - requires remove the cart
 B "Thunder King" Pest Repellers|LEAD|31937|PRE|30524|M|53.2,51.8|L|89813|N|Buy from Gina Mudclaw. Even if you like using inventory space for the bug sprayer, its still 250 rep for 80g. Not available until after the weeds are removed (so, in 15 minutes, if Fish just started.)|
-A "Thunder King" Pest Repellers|PRE|30524|QID|31937|M|53.2,51.8|U|89813|N|From the item you just bought.|
+A "Thunder King" Pest Repellers|QID|31937|M|53.2,51.8|U|89813|N|From the item you just bought.|
 T "Thunder King" Pest Repellers|QID|31937|M|52.20,48.86|N|To Farmer Yoon who installs it for you.|
 
 ;BUY THE PLOW
 B The "Earth-Slasher" Master Plow|LEAD|31938|PRE|30529|M|53.2,51.8|L|89814|N|Buy from Gina Mudclaw. Much faster as you can plow 4 plots with one click. Not available until after the weeds are removed (so, in 15 minutes, if Thundar just started.)|
-A The "Earth-Slasher" Master Plow|QID|31938|PRE|30529|U|89814|N|From the item you just bought.|
+A The "Earth-Slasher" Master Plow|QID|31938|U|89814|N|From the item you just bought.|
 T The "Earth-Slasher" Master Plow|QID|31938|M|52.20,48.86|N|To Farmer Yoon who installs it for you. This is unfortuantly an item that you will have to pick up and use from your inventory.|
 
 ;Jogu's one time chain|REP|1273
@@ -562,14 +567,14 @@ B Buy or Make Mad Brewer's Breakfast|ACTIVE|31323|L|75038 20|N|Make with cooking
 T Buy A Fish A Brewery?|QID|31323|M|53.6,52.4|N|To Jogu the Drunk.|
 
 ;an extra hand - totally wortless quest...
-A A Second Hand|QID|30534|PRE|30529|M|52,49|N|From Tillers Shrine.|
+A A Second Hand|QID|30534|M|52,49|N|From Tillers Shrine.|
 C A Second Hand|QID|30534|N|The only advantage to which friend to pick is so that you don't have to walk as far to see Gina (quartermaster) or Jogu (crop predictions-which incidently are now free since you are exalted). So take you pick.|
 T A Second Hand|QID|30534|M|52,49|N|To Tillers Shrine.|
 
 ;Fish's one time chain - requires exalted with tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)
 K Enormous Cattail Grouper|M|44.52, 22.76|T|Enormous Cattail Grouper|ACH|6552;;true|REP|The Tillers;1272;exalted|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|;what QID to use?
 U Old Map|QID|31312|ACH|6552;;true|REP|The Tillers;1272;exalted|U|86404|N|Click on the map to start a quest.|
-A The Old Map|QID|31312|PRE|30529|ACH|6552;;true|REP|The Tillers;1272;exalted|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm and are exalted with the Tillers.|
+A The Old Map|QID|31312|ACH|6552;;true|REP|The Tillers;1272;exalted|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm and are exalted with the Tillers.|
 T The Old Map|QID|31312|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
 A Just A Folk Story|QID|31313|PRE|31312|M|41.6,30|N|From Fish Fellreed.|
 C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|NC|QO|Speak to Stonecarver Mac: 1/1|
@@ -585,7 +590,7 @@ A The Heartland Legacy|QID|31315|PRE|31314|M|31.4,53.4|N|From Hidden Treasure. O
 T The Heartland Legacy|QID|31315|N|To Seedkeeper Shing Sing, inside a cave in Halfhill, (who knew there was a cave here...} Her seed vault is to the left of Stonecarver Mac's house, hidden behind some bushes.|
 
 ; He sold the farm
-A Inherit the Earth|QID|32682|PRE|30529|REP|The Tillers;1272;exalted|M|54.67,47.04|N|From Nana Mudclaw.  This will give you access to Farmer Yoon's new dailies.|
+A Inherit the Earth|QID|32682|REP|The Tillers;1272;exalted|M|54.67,47.04|N|From Nana Mudclaw.  This will give you access to Farmer Yoon's new dailies.|
 C Inherit the Earth|QID|32682|M|52.25,48.79|NC|N|To Farmer Yoon, Ask him to join the council.|
 T Inherit the Earth|QID|32682|M|54.67,47.04|N|To Nana Mudclaw. New dailies are from a post where he used to be, and now Yoon is in the Marketplace.|
 
