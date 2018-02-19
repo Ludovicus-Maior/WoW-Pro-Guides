@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2018-02-19 23:33
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3313/revisions/28845/view
 -- Date: 2018-01-16 23:18
 -- Who: Ludovicus
 -- Log: New Levels
@@ -200,7 +205,7 @@ T To the Hilt!|QID|14357|M|75.97,26.57|N|(UI Alert)|
 T Elune's Gifts|QID|14354|M|66.44,11.71|N|To Vahlarriel Demonslayer.|
 
 A Peace of Mind|QID|14361|PRE|14354|M|66.73,10.97|N|From Captain Pentigast.|
-A Ethel Rethor|QID|14365|PRE|14354|M|66.73,10.92|N|From Corporal Melkins.|
+A Ethel Rethor|QID|14365|LEAD|14256|PRE|14354|M|66.73,10.92|N|From Corporal Melkins.|
 A The Karnitol Shipwreck |QID|1454|PRE|14354|M|66.20,9.65|N|From Kreldig Ungor.|
 r Repair and Sell Junk|QID|14361|M|67.95,08.37|N|Maxton Strang|
 A New Beginnings|QID|14251|M|60.90,28.99|N|From Bizby.|RANK|2|
@@ -341,7 +346,7 @@ A My Word is My Bond|QID|14327|PRE|14325|M|73.34,41.6|N|From Khan Kammah.|
 T My Word is My Bond|QID|14327|M|58.28,50.00|N|To Khan Leh'Prah.|
 
 A Three Princes|QID|14328|PRE|14327|M|58.28,50.00|N|From Khan Leh'Prah.|
-A Thargad's Camp|QID|14372|PRE|14327|M|57.43,47.73|N|From Karnum Marshweaver.|
+A Thargad's Camp|QID|14372|LEAD|14373|PRE|14327|M|57.43,47.73|N|From Karnum Marshweaver.|
 A Ghost-o-plasm Round Up|QID|6134|M|47.85,61.73|LVL|34|N|From Hornizz Brimbuzzle.|
 f Thargad's Camp|QID|14372|M|36.76,71.68|N|At Moira Steelwing.|
 T Thargad's Camp|QID|14372|M|36.65,71.31|N|To Thargad.|
@@ -405,7 +410,7 @@ T An Impactful Discovery|QID|14380|M|57.50,47.76|N|To Karnum Marshweaver.|
 A Cleansing Our Crevasse|QID|14381|PRE|14380|M|57.50,47.76|N|From Karnum Marshweaver.|
 C Cleansing Our Crevasse|QID|14381|M|37.66,45.65|N|Jump on the Hippogryph directly behind the quest giver when you are ready. Drop lots of bombs, then fly home.|
 T Cleansing Our Crevasse|QID|14381|M|57.42,47.73|N|To Karnum Marshweaver.|
-A The Wilds of Feralas|QID|14410|PRE|14381;14394|M|73.2,73|N|From Khan Shodo.|
+A The Wilds of Feralas|QID|14410|LEAD|25447|PRE|14381;14394|M|73.2,73|N|From Khan Shodo.|
 
 N The end.|N|Thanks for doing Desolace with me and congrats on your zone achievement. We will be going to Ferelas next, so when you're ready click off of this step to continue. If you wish to quest somewhere else now, you can manually select a new guide by right clicking on the Addon frame. WKjezz|
 ]]
