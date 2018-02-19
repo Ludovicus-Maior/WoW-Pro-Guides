@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2018-02-19 22:48
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3476/revisions/28319/view
 -- Date: 2017-03-10 23:12
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
@@ -66,7 +71,7 @@ C Mastery Of The Shield-Breaker|QID|13835|M|73.20,19.24|PRE|13667|N|From Scout S
 T Mastery Of The Charge|QID|13837|M|76.4,19.4|PRE|13667|N|From Avareth Swiftstrike.|
 T Mastery Of The Shield-Breaker|QID|13835|M|76.4,19.4|PRE|13667|N|From Scout Shalyndria.|
 T Mastery Of Melee|QID|13828|M|76.4,19.4|PRE|13667|N|From Arcanist Taelis.|
-A Up To The Challenge|QID|13672|M|76.4,19.4|PRE|13667|N|From Arcanist Taelis.|
+A Up To The Challenge|QID|13672|M|76.4,19.4|PRE|13828;13835;13837|N|From Arcanist Taelis.|
 
 ; Black Knight Quests
 A The Black Knight of Westfall?|QID|13633|M|69.43,23.02|FACTION|Alliance|N|Crusader Rhydalla|
@@ -75,7 +80,7 @@ C The Black Knight of Westfall?|QID|13633|M|42.10,69.66|Z|Westfall|N|Get to Moon
 C The Black Knight of Silverpine?|QID|13634|M|53.1,28.1|Z|Silverpine Forest|N|Get to just past the Forsaken Rear Guard in Silverpine Forest and read the Dusty Journal.|
 T The Black Knight of Westfall?|QID|13633|M|69.43,23.02|N|Crusader Rhydalla|
 T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|FACTION|Horde|N|Crusader Rhydalla|
-A The Seer's Crystal|QID|13641|PRE|13633;13634|M|69.43,23.02|N|Crusader Rhydalla|
+A The Seer's Crystal|QID|13641|PRE|13633+13634|M|69.43,23.02|N|Crusader Rhydalla|
 C The Seer's Crystal|QID|13641|M|46, 42|Z|Crystalsong Forest|N|Kill Unbound Seer's to get the crystal.|
 T The Seer's Crystal|QID|13641|M|69.4,23.0|N|Crusader Rhydalla|
 A The Stories Dead Men Tell|QID|13643|PRE|13641|M|69.43,23.02|N|Crusader Rhydalla|
@@ -92,7 +97,7 @@ C The Black Knight's Orders|QID|13663|M|77.76,21.61|N|Go here and use the enchan
 C The Black Knight's Orders|QID|13663|M|54.11,8.63|QO|Stolen Tournament Invitation: 1/1|N|Get the Stolen Invite|
 C The Black Knight's Orders|QID|13663|M|54.07,8.66|QO|Black Knight's Orders: 1/1|N|Get the Orders|
 T The Black Knight's Orders|QID|13663|M|69.43,23.02|N|Crusader Rhydalla.|
-A The Black Knight's Fall|QID|13664|PRE|13663;13794|M|69.43,23.02|N|Crusader Rhydalla.|
+A The Black Knight's Fall|QID|13664|PRE|13663|M|69.43,23.02|N|Crusader Rhydalla.|
 C The Black Knight's Fall|QID|13664|M|72.27,22.55|N|Go to the ring of Champions. Equip your lance and mount up on a Stabled Argent Warhorse. Click when done.|
 C The Black Knight's Fall|QID|13664|M|71.36,23.4|N|Talk to Squire Cavin and have him summon the Black Knight. DISMOUNT when you see the BK DK on his gryphon, requip your regular weapon and ATTACK!|
 T The Black Knight's Fall|QID|13664|M|69.43,23.02|N|Crusader Rhydalla.|
@@ -105,8 +110,8 @@ T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|Crusader Rhydalla.|
 
 ; Aspirant Quests
 A One of Three|QID|13666;13669;13670|LEAD|13679|M|76.47,19.40|N|From Arcanist Taelis, one of three quests.|
-A Learning The Reins|QID|13625|LEAD|13679|M|76.47,19.46|N|From Scout Shalyndria.|
-A Training In The Field|QID|13671|LEAD|13679|M|76.44,19.35|N|From Avareth Swiftstrike.|
+A Learning The Reins|QID|13625|M|76.47,19.46|N|From Scout Shalyndria.|
+A Training In The Field|QID|13671|M|76.44,19.35|N|From Avareth Swiftstrike.|
 
 C Learning The Reins|QID|13625|N|Mount up and go practice on the fields.|U|46069|
 C Training In The Field|QID|13671|M|70, 62|N|Equil your regular weapon and go kill any Scourge|
@@ -315,9 +320,9 @@ A A Champion Rises|QID|13734|PRE|13724|R|Draenei|M|76.10,19.10|N|From Colosos.|
 N A Champion Rises|QID|13702;13732;13733;13734;13735|N|At this point you can become a Valiant for another faction.  Walk up and take the quest and the guide should adjust.|
 T A Champion Rises|QID|13702;13732;13733;13734;13735|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
 
-A Eadric the Pure|QID|13794|PRE|13702;13732;13733;13734;13735;13736;13737;13738;13739;13740|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|From Justicar Mariel Trueheart, everybody but DKs|
+A Eadric the Pure|QID|13794|PRE|13702+13732+13733+13734+13735+13736+13737+13738+13739+13740|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|From Justicar Mariel Trueheart, everybody but DKs|
 T Eadric the Pure|QID|13794|M|69.96,23.44|N|To Eadric the Pure.|
-A The Scourgebane|QID|13795|PRE|13702;13732;13733;13734;13735;13736;13737;13738;13739;13740|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
+A The Scourgebane|QID|13795|PRE|13702+13732+13733+13734+13735+13736+13737+13738+13739+13740|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
 T The Scourgebane|QID|13795|M|73.80,20.06|N|From Crok Scourgebane.|
 
 ]]
