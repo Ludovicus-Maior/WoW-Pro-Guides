@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2018-02-19 23:26
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3225/revisions/28859/view
 -- Date: 2018-01-16 23:27
 -- Who: Ludovicus
 -- Log: New Levels
@@ -177,7 +182,7 @@ C Bathran's Hair|QID|26473|US|M|31.36,22.80|N|They look like orange bushes..|
 T Of Their Own Design|QID|13595|M|29.08,24.30|N|To Bathran.|
 T Don't Forget the Horde|QID|13594|M|26.93,22.25|N|To Sentinel Shyela.|
 
-A West to the Strand|QID|13617|PRE|13594|M|26.93,22.25|N|From Sentinel Shyela.|
+A West to the Strand|QID|13617|LEAD|26465|PRE|13594|M|26.93,22.25|N|From Sentinel Shyela.|
 T Bathran's Hair|QID|26473|M|26.82,22.01|N|To Evenar Stillwhisper.|
 A Delivery for Orendil|QID|13623|PRE|26473|M|26.82,22.01|N|From Evenar Stillwhisper.|
 T West to the Strand|QID|13617|M|18.28,20.49|N|To Talen.|
@@ -248,7 +253,7 @@ h Astranaar|QID|13867|M|37.00,49.17|N|At Innkeeper Kimlya.|
 
 T Orendil's Cure|QID|26474|M|37.36,51.79|N|To Pelturas Whitemoon.|
 A Elune's Tear|QID|26475|PRE|26474|M|37.32,51.81|N|From Pelturas Whitemoon. You will need to wait (15 seconds) after handing in Orendil's Cure before Pelturas offers the quest.|
-A A Helping Hand|QID|26453|M|35.00,49.96|N|Here is where things may seem odd in our zone flow. This will reap the most XP doing the zone this way. Mob levels are lowest on the East and West of the zone, so we need to do those first for Maximum XP gain.|
+A A Helping Hand|QID|26453|LEAD|26454|M|35.00,49.96|N|Here is where things may seem odd in our zone flow. This will reap the most XP doing the zone this way. Mob levels are lowest on the East and West of the zone, so we need to do those first for Maximum XP gain.|
 R Forest Song|QID|26453|N| Talk to Vindicator Palanaar to ride the Elekk East to Forest Song.|M|34.98,49.92|
 
 T A Helping Hand|QID|26453|M|86.86,44.76|N|To Architect Nemos.|
@@ -349,8 +354,8 @@ R Remains of Iris Lake|QID|26475|M|43.05,45.83;46.82,46.76|CC|N|Run to the Remai
 C Elune's Tear|QID|26475|M|46.82,46.73|N|Loot an Elune's Tear off the ground.|
 T Go With The Flow|QID|13877|M|52.09,56.54|N|To Sabina Pilgrim.|
 
-A Hot Lava|QID|13880|PRE|13877;13879|M|52.23,56.55|N|From Core.|
-A Put Out The Fire|QID|13884|PRE|13877;13879|M|52.14,56.71|N|From Arctanus.|
+A Hot Lava|QID|13880|PRE|13877+13879|M|52.23,56.55|N|From Core.|
+A Put Out The Fire|QID|13884|PRE|13877+13879|M|52.14,56.71|N|From Arctanus.|
 C Hot Lava|QID|13880|S|U|46352|M|50.12,51.85|N|Use the Gift of the Earth, and target a Lava Fissure.|
 C Put Out The Fire|QID|13884|M|49.78,47.06|N|Kill 10 Lava Ragers.|
 C Hot Lava|QID|13880|US|U|46352|M|49.78,47.06|N|Finish filling Lava Fissures.|
@@ -367,7 +372,7 @@ T A Trip to the Moonwell|QID|13919|M|53.62,46.03|N|(UI Alert)|
 A He Who Would Be Forgiven|QID|13921|PRE|13919|M|53.62,46.03|N|(UI Alert)|
 T He Who Would Be Forgiven|QID|13921|M|59.03,59.91|N|To Avrus Illwhisper.|
 
-A In the Hands of the Perverse|QID|13922|PRE|13921;14018|M|59.03,59.91|N|From Avrus Illwhisper.|
+A In the Hands of the Perverse|QID|13922|PRE|13921+14018|M|59.03,59.91|N|From Avrus Illwhisper.|
 A Recover the Fallen|QID|13928|M|59.01,58.82|N|From Sentinel Melyria Frostshadow.|
 C Recover the Fallen|QID|13928|M|60.63,51.82|N|Loot dead bodies up to this location, You can do so whilst mounted. Beware an Orc called Thagg, he hits very very hard.|
 T Recover the Fallen|QID|13928|M|62.23,51.03|N|To Halannia.|
@@ -403,8 +408,8 @@ H Astranaar|QID|26479|U|6948|N|Hearth back to Astranaar, or run back if your hea
 
 T Return to Raene|QID|26479|M|36.59,49.61|N|To Raene Wolfrunner.|
 A Dartol's Rod|QID|26480|PRE|26479|M|36.55,49.61|N|From Raene Wolfrunner.|
-A Check in on the Edunes|QID|13965|PRE|26478|M|35.74,49.10|N|From Faldreas Goeth'Shael.|
-A To the Spire|QID|13964|PRE|26478|M|34.91,49.76|N|From Sentinel Thenysil.|
+A Check in on the Edunes|QID|13965|LEAD|13976|PRE|26478|M|35.74,49.10|N|From Faldreas Goeth'Shael.|
+A To the Spire|QID|13964|LEAD|26470|PRE|26478|M|34.91,49.76|N|From Sentinel Thenysil.|
 T Check in on the Edunes|QID|13965|M|17.92,49.46|N|To Benjari Edune.|
 A Three Friends of the Forest|QID|13976|M|17.92,49.46|N|From Benjari Edune.|
 T Three Friends of the Forest|QID|13976|M|18.04,59.99|N|To Bolyun.|
@@ -459,7 +464,7 @@ T They Took Our Gnomes|QID|13913|M|35.18,71.57|N|To Huntress Jalin.|
 T Ze Gnomecorder|QID|25607|M|35.37,71.24|N|To Professor Xakxak Gyromate.|
 T Retaking Mystral Lake|QID|26470|M|35.60,71.48|N|To Sentinel Velene Starstrike.|
 
-A Rebels Without a Clue|QID|26838|M|35.60,71.48|N|From Sentinel Velene Starstrike. If you do not plan on going to Stranglethorn, abandon this quest/skip this step.|
+A Rebels Without a Clue|QID|26838|LEAD|26735|M|35.60,71.48|N|From Sentinel Velene Starstrike. If you do not plan on going to Stranglethorn, abandon this quest/skip this step.|
 A Do Yourself a Favor|QID|25613|PRE|13913;25607;13979|M|35.27,71.22|N|From Gnombus the X-Terminator.|
 
 N The End|N|This is the end of Ashenvale. The next guide is Stonetalon Mountains, which this guide leades directly into. Close this step, and it should load right up. I've been WKjezz, thanks for using our Addon!|
