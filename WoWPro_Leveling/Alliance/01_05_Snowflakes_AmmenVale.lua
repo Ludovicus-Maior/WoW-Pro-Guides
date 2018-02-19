@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2018-02-19 23:16
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3206/revisions/29005/view
+-- Date: 2018-02-19 23:12
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Ammen Vale
+
+-- URL: http://wow-pro.com/node/3206/revisions/28896/view
 -- Date: 2018-01-16 23:49
 -- Who: Ludovicus
 -- Log: New Levels
@@ -236,7 +246,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
 f The Exodar|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
-A You Survived!|QID|9279|M|61.16,29.49|N|From Megelon right in front of you.|R|Draenei|
+A You Survived!|QID|9279|LEAD|9280|M|61.16,29.49|N|From Megelon right in front of you.|R|Draenei|
 T You Survived!|QID|9279|N|To Proenitus.|M|52.73,35.90|R|Draenei|
 A Replenishing the Healing Crystals|QID|9280|M|52.73,35.90|N|From Proenitus.|R|Draenei|
 A Replenishing the Healing Crystals|QID|9369|M|52.73,35.90|N|From Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
@@ -244,14 +254,14 @@ C Replenishing the Healing Crystals|QID|9280|M|51.2,31.3|N|Kill and loot Vale Mo
 C Replenishing the Healing Crystals|QID|9369|M|51.2,31.3|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
 T Replenishing the Healing Crystals|QID|9280|M|52.73,35.90|N|To Proenitus.|R|Draenei|
 T Replenishing the Healing Crystals|QID|9369|M|52.73,35.90|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
-A Urgent Delivery!|QID|9409|PRE|9280;9369|M|52.73,35.90|N|From Proenitus.|
+A Urgent Delivery!|QID|9409|PRE|9280+9369|M|52.73,35.90|N|From Proenitus.|
 T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building (he wanders around inside the place a bit).|M|51.8,42.0|
 
 A Rescue the Survivors!|QID|9283|PRE|9409|M|52.21,43.32|N|From Zaldunn.|R|Draenei|
 A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|52.73,35.90|N|From Proenitus.|
 
 T Botanist Taerix|QID|9371|M|49.87,37.35|N|To Botanist Taerix around the corner near the Training dummies.|
-A Volatile Mutations|QID|10302|PRE|9280;9369|M|49.87,37.35|N|From Botanist Taerix, back outside.|
+A Volatile Mutations|QID|10302|PRE|9280+9369|M|49.87,37.35|N|From Botanist Taerix, back outside.|
 C Rescue the Survivors!|QID|9283|S|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|39.1,43.7|NC|R|Draenei|T|Draenei Survivor|
 C Volatile Mutations|QID|10302|M|43.51,33.10|N|Kill Volatile Mutations.|
 C Rescue the Survivors!|QID|9283|US|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|39.1,43.7|NC|R|Draenei|T|Draenei Survivor|
