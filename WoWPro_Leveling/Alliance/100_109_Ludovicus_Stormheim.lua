@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2018-02-19 23:19
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3683/revisions/28953/view
 -- Date: 2018-01-17 00:43
 -- Who: Ludovicus
 -- Log: New Levels
@@ -290,7 +295,7 @@ T Stormforged Grapple Launcher|QID|39775|M|33.80,45.79|N|From Stormforged Grappl
 $ Small Treasure Chest|QID|38680|M|35.92,47.92|N|On a lake on the Weeping Bluffs, loot for a bit of treasure and resources.|RANK|3|
 K Kill Bloodstalker Alpha|QID|38626|M|38.42,42.80|ITEM|129101|T|Bloodstalker Alpha|N|He roams this part of the valley. Silver - Kill and loot for a bit of treasure and resources.|RANK|3|
 T The Ancient Trials|QID|38210|M|38.61,45.79;40.11,50.34;41.93,49.48|CS|N|To Havi.|
-A Havi's Test|QID|38331|PRE|38210|M|43.14,49.21|N|From Havi.|
+A Havi's Test|QID|38331|PRE|38210+38459|M|43.14,49.21|N|From Havi.|
 C Havi's Test|QID|38331|M|42.91,49.12|QO|1|NC|N|Click on the vegetables, face the stewpot, adjust angle if needed and press "4".|
 C Havi's Test|QID|38331|M|42.91,49.41|QO|2|NC|N|Click on the crabs, face the stewpot, adjust angle if needed and press "4".|
 C Havi's Test|QID|38331|M|43.06,49.45|QO|3|NC|N|Click on the hearty grains, face the stewpot, adjust angle if needed and press "4".|
@@ -709,11 +714,11 @@ C To Honor the Fallen|QID|43595|M|60,43|US|N|Finish collecting the weapons.|RANK
 T Scavenging the Shallows|QID|40046|M|58.94,42.81|N|To Havi.|RANK|2|
 T To Honor the Fallen|QID|43595|M|58.94,42.81|N|To Havi.|RANK|2|
 T Shadows in the Mists|QID|40044|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 110.|RANK|2|
-A Piercing the Mists|QID|43596|PRE|40044;40046;43595|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|LVL|110|
+A Piercing the Mists|QID|43596|PRE|40046|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|LVL|110|
 
 R Talonrest|QID|39792|M|53.73,53.88;51.36,57.13|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
-A Put It All on Red|QID|42483|PRE|39786|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
+A Put It All on Red|QID|42483|PRE|39786;39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
 R Inkbinder's Rise|QID|40109|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|
 K Kill Kottr Vondyr|QID|40109|M|73.46,47.68|QO|1|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|43194|M|73.10,45.72|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -779,9 +784,9 @@ T Halls of Valor: Securing the Aegis|QID|40072|N|To the Aegis of Aggramar.|
 A The Aegis of Aggramar|QID|43349|N|From the Aegis of Aggramar.|PRE|40072|
 C The Aegis of Aggramar|QID|43349|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used.|
 T The Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Aegis of Aggramar" on the wall.|
-A Pressing the Assault|QID|44545|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349|
-A Isle Hopping|QID|44547|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349;44545|
-A Scouring What Remains|QID|44548|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349;44547|
+A Pressing the Assault|QID|44545|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|
+A Isle Hopping|QID|44547|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|
+A Scouring What Remains|QID|44548|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|
 
 A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran@Dalaran70|N|From Gazrix Gearlock beside the north bank.|RANK|3|LVL|110|
 F Valdisdall|QID|43331|M|69.84,51.17|Z|Dalaran@Dalaran70|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|LVL|110|
