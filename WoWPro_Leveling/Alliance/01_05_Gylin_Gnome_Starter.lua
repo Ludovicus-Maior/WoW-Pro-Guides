@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-02-19 23:14
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - DunM
+
+-- URL: http://wow-pro.com/node/3200/revisions/29003/view
+-- Date: 2018-02-19 23:09
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Gnome
+
+-- URL: http://wow-pro.com/node/3200/revisions/29002/view
+-- Date: 2018-02-19 23:08
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3200/revisions/28851/view
 -- Date: 2018-01-16 23:22
 -- Who: Ludovicus
 -- Log: New Levels
@@ -235,20 +250,6 @@
 -- Who: Fluclo
 -- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
 
--- URL: http://wow-pro.com/node/3200/revisions/24742/view
--- Date: 2011-08-24 00:49
--- Who: Jiyambi
--- Log: Took out two location based completion steps that weren't auto-completing, rolled them into other steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24626/view
--- Date: 2011-06-28 20:52
--- Who: Fluclo
--- Log: Minor tweaks to final couple of quests
-
--- URL: http://wow-pro.com/node/3200/revisions/24625/view
--- Date: 2011-06-28 20:42
--- Who: Fluclo
-
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1.81013)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -285,7 +286,7 @@ A The Future of Gnomeregan|PRE|27674|QID|26206|C|Rogue|M|39.50,38.39|N|From Nevi
 A The Future of Gnomeregan|PRE|27674|QID|26202|C|Warlock|M|39.50,38.39|N|From Nevin Twistwrench.|
 A The Future of Gnomeregan|PRE|27674|QID|26203|C|Warrior|M|39.50,38.39|N|From Nevin Twistwrench.|
 A The Future of Gnomeregan|PRE|27674|QID|31135|C|Monk|M|39.50,38.39|N|From Nevin Twistwrench.|
-A The Future of Gnomeregan|QID|41217|C|Hunter|M|39.50,38.38|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|QID|41217|PRE|27674|C|Hunter|M|39.50,38.38|N|From Nevin Twistwrench.|
 
 T The Future of Gnomeregan|QID|26202|M|37.68,37.97|N|To Alamar Grimm.|C|Warlock|
 T The Future of Gnomeregan|QID|26197|M|41.00,29.23|N|To Bipsi Frostflinger.|C|Mage|
@@ -301,7 +302,7 @@ A Meet the High Tinker|PRE|26199|QID|26422|C|Priest|M|39.40,28.38|N|From "Doc" C
 A Meet the High Tinker|PRE|26206|QID|26423|C|Rogue|M|38.03,33.56|N|From Kelsey Steelspark.|
 A Meet the High Tinker|PRE|26203|QID|26425|C|Warrior|M|40.65,35.35|N|From Drill Sergeant Steamcrank.|
 A Meet the High Tinker|PRE|31135|QID|31137|C|Monk|M|40.09,35.61|N|From Xi.|
-A Meet the High Tinker|QID|41218|C|Hunter|M|41.86,31.58|N|From Muffinus Chromebrew.|
+A Meet the High Tinker|QID|41218|PRE|41217|C|Hunter|M|41.86,31.58|N|From Muffinus Chromebrew.|
 
 T Meet the High Tinker|QID|26424|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Warlock|
 T Meet the High Tinker|QID|26421|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Mage|
@@ -311,7 +312,7 @@ T Meet the High Tinker|QID|26425|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|W
 T Meet the High Tinker|QID|31137|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Monk|
 T Meet the High Tinker|QID|41218|M|38.68,32.94|N|To High Tinker Mekkatorque.|C|Hunter|
 
-A The Fight Continues|QID|26208|M|38.72,32.74|N|From High Tinker Mekkatorque.|PRE|26421;26422;26423;26424;26425;31137;41218|
+A The Fight Continues|QID|26208|M|38.72,32.74|N|From High Tinker Mekkatorque.|PRE|26421+26422+26423+26424+26425+31137+41218|
 C The Fight Continues|QID|26208|M|38.72,32.74|N|Wait for High Tinker Mekkatorque to start the holo-table.|NC|
 T The Fight Continues|QID|26208|M|38.72,32.74|N|To High Tinker Mekkatorque.|
 
@@ -336,7 +337,7 @@ T Dealing with the Fallout|QID|26265|M|38.20,40.21|N|To Corporal Fizzwhistle.|
 T A Job for the Multi-Bot|QID|26205|M|40.62,28.07|N|To Engineer Grindspark.|
 T What's Left Behind|QID|26264|M|39.22,26.55|N|To Tock Sprysprocke.|
 
-A What's Keeping Jessup?|QID|26316|M|38.38,33.48|N|From Captain Tread Sparknozzle.|PRE|26265;26205|
+A What's Keeping Jessup?|QID|26316|M|38.38,33.48|N|From Captain Tread Sparknozzle.|PRE|26205|
 T What's Keeping Jessup?|QID|26316|M|37.28,65.20|N|To Jessup McCree, at the Frostmane Hold.|
 
 A Get Me Explosives Back!|QID|26285|M|37.28,65.20|N|From Jessup McCree.|PRE|26316|
@@ -379,7 +380,7 @@ C Down with Crushcog! - Orbital Targeting Device|QID|26364|M|58.81,43.61|N|Use t
 
 r Sell and Repair|M|49.67,51.92|QID|26364|N|Take this opportunity to sell junk and repair with Burdrak Harglhelm.|ACTIVE|26364|T|Burdrak Harglhelm|S|
 T Down with Crushcog!|QID|26364|M|48.75,52.90|N|To Jarvi Shadowstep|
-A On to Kharanos|PRE|26364|QID|26373|M|48.75,52.90|N|From Jarvi Shadowstep.|
+A On to Kharanos|PRE|26364|QID|26373|LEAD|25724|M|48.75,52.90|N|From Jarvi Shadowstep.|
 
 A Bound for Kharanos|QID|26380|M|49.91,44.98|Z|Dun Morogh|N|From Ciara Deepstone, on the road east towards Kharanos.|LVL|2|
 
