@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2018-02-19 23:39
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3243/revisions/28847/view
 -- Date: 2018-01-16 23:19
 -- Who: Ludovicus
 -- Log: New Levels
@@ -116,7 +121,7 @@ T The Land, Corrupted|QID|25397|M|50.66,17.09|N|To Telaron Windflight.|
 A Sealing the Dream|QID|25398|PRE|25396;25397|M|50.66,17.09|N|From Telaron Windflight.|
 C Sealing the Dream|QID|25398|U|52576|M|51.26,10.87|N|Head up to the portal and use Ysondre's Tear.|
 T Sealing the Dream|QID|25398|M|50.66,17.20|N|To Telaron Windflight.|
-A General Shandris Feathermoon|QID|26402|PRE|25398|M|50.66,17.20|N|From Telaron Windflight.|
+A General Shandris Feathermoon|QID|26402|LEAD|25304|PRE|25398|M|50.66,17.20|N|From Telaron Windflight.|
 A The Mark of Quality|QID|25449|M|45.31,41.48|N|From Pratt McGrubben.|
 f Feathermoon Stronghold|QID|26402|M|46.80,45.35|N|Get the Flight Path at irela Moonfeather.|
 h Feathermoon Stronghold|QID|26402|M|46.14,45.24|N|At Innkeeper Shyria.|
@@ -180,8 +185,8 @@ C The Gordunni Threat|QID|25400|US|M|61.28,71.58|N|Finish killing Gordunni ogres
 
 R Darkmist Ruins|QID|25350|CC|M|62.11,64.06;63.27,62.26;63.91,62.19|N|Head to the Darkmist Ruins.|
 T The Lost Apprentice|QID|25350|M|65.91,62.84|N|To Lost Apprentice.|
-A The Darkmist Legacy|QID|25422|PRE|25350;25643|M|65.89,62.82|N|From Sensiria.|
-A Ancient Suffering|QID|25423|PRE|25350;25643|M|65.85,62.78|N|From Sensiria.|
+A The Darkmist Legacy|QID|25422|PRE|25350+25643|M|65.89,62.82|N|From Sensiria.|
+A Ancient Suffering|QID|25423|PRE|25350+25643|M|65.85,62.78|N|From Sensiria.|
 C Ancient Suffering|QID|25423|M|64.29,58.91|N|Kill and loot Highborn ghosts for the Soul Essences.|S|
 C The Darkmist Legacy|QID|25422|M|63.93,59.85|N|Loot the Glowing Soil from around Darkmist Ruins.|
 C Ancient Suffering|QID|25423|M|64.29,58.91|N|Finish gathering Soul Essences.|US|
@@ -261,12 +266,12 @@ A Ysondre's Call|QID|25437|PRE|25436|M|77.23,56.51|N|From Adella.|
 
 R The Emerald Summit|QID|25437|M|80.25,42.81|N|Run to the Emerald Summit.|
 T Ysondre's Call|QID|25437|M|81.53,42.37|N|To Ysondre at the top of the Emerald Summit.|
-A Taerar's Fall|QID|25379|PRE|25378;25437|M|81.53,42.37|N|From Ysondre.|
+A Taerar's Fall|QID|25379|PRE|25378+25437|M|81.53,42.37|N|From Ysondre.|
 C Taerar's Fall|QID|25379|M|81.48,42.46|N|Help Ysondre kill Taerar.|
 T Taerar's Fall|QID|25379|M|81.50,42.47|N|To Ysondre.|
 A Ysondre's Farewell|QID|25438|PRE|25379|M|81.50,42.47|N|From Ysondre.|
 T Ysondre's Farewell|QID|25438|M|77.19,56.54|N|To Adella.|
-A To New Thalanaar |QID|25481|M|77.2,56.4|N|From Falfindel Waywarder.|
+A To New Thalanaar |QID|25481|LEAD|25486|M|77.2,56.4|N|From Falfindel Waywarder.|
 
 N End of guide.|N|This is the End of Feralas. Time to go to Thousand Needles! I would recommend going to Darnassas now for training, banking, and auction needs. Our Thousand Needles guide starts there.|
 ]]
