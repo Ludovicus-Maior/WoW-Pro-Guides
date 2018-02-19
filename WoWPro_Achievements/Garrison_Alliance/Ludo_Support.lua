@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrisson_support
+-- Date: 2018-02-19 22:32
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3649/revisions/28311/view
 -- Date: 2017-03-10 22:48
 -- Who: Ludovicus_Maior
 -- Log: Syntax fixes.
@@ -26,12 +31,12 @@ WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Meet Us at Starfall Outpost|QID|33359|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|94|
+A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|94|
 ; Gone from game!??
 ; A Bounty: Twisted Ancient|QID|33111|N|From the Bulletin Board. This is a 3-party group quest. Can be soloed if you are geared.|M|42.72,44.75|Z|Lunarfall|RANK|2|
 
 T Meet Us at Starfall Outpost|QID|33359|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
-A Catching His Eye|QID|33062|N|From Archmage Khadgar|M|29.21,25.72|PRE|33359|Z|Shadowmoon Valley@Draenor|
+A Catching His Eye|QID|33062|N|From Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 
 A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|
 C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|Z|Shadowmoon Valley@Draenor|
