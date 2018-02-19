@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2018-02-19 22:54
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3469/revisions/28556/view
 -- Date: 2017-03-23 17:44
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -289,7 +294,7 @@ C The Forlorn Spire|QID|29205|N|Help the Shadow Wardens ascending this path. Loo
 T The Forlorn Spire|QID|29205|N|At Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
 A Random Daily Druids of the Flame Quest|QID|29211;29192|PRE|29205|N|From Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
 A The Flame Spider Queen|QID|29276|PRE|29205;29272|N|From Tholo Whitehoof near the Forlorn Spire. If he doesn't offer any quests, close this step, you'll get another quest later instead.|Z|MoltenFront|M|66.25,66.12|
-A Bye Bye Burdy|QID|29297|PRE|29205;29281|N|From Ricket near the Forlorn Spire, if she's here. If you did Rickets Random Daily at the Sentinel Tree, you won't be offered this one.|Z|MoltenFront|M|66.41,65.41|
+A Bye Bye Burdy|QID|29297|PRE|29205|N|From Ricket near the Forlorn Spire, if she's here. If you did Rickets Random Daily at the Sentinel Tree, you won't be offered this one.|Z|MoltenFront|M|66.41,65.41|
 A Pyrorachnophobia|QID|29159|PRE|29205|N|From Deldren Ravenelm.|Z|MoltenFront|M|66.10,64.00|
 A Random Daily Fire Spiders Quest|QID|29189;29160|PRE|29205|N|From Deldren Ravenelm.|Z|MoltenFront|M|66.10,64.00|
 C Achievement step available!|QID|29205|ACH|5870;7|N|Talk to Deldren Ravenelm and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|66.10,64.00|
@@ -298,7 +303,7 @@ C Pyrorachnophobia|QID|29159|N|Kill Cinderweb Spinners and Creepers. Attack a Sp
 C Egg-stinction|QID|29160|N|Collect Cinderweb Eggs. They might erupt into a shower of tiny spiders; you have to jump repeatedly and move away from where you are standing to shake them off.|S|
 C Wicked Webs|QID|29189|N|Look for Cinderweb Cocoons sticking on the side of the rock formations. Attack them to break them open.|S|
 C Achievement step available!|QID|29205|ACH|5872|N|The Cinderweb Spinners will hoist you up onto their ledge if you attack them. Use this knowledge to make your way to the highest peak in the area to get the achievement 'King of the Spider-Hill'.|Z|MoltenFront|M|66.04,56.80|
-A The Mysterious Seed|QID|29245|PRE|29205|N|Kill a Druid of the Flame around here, a small seed will appear next to her/him. Accept this quest from the seed.|Z|MoltenFront|M|70.99,38.07|
+A The Mysterious Seed|QID|29245|PRE|29214|N|Kill a Druid of the Flame around here, a small seed will appear next to her/him. Accept this quest from the seed.|Z|MoltenFront|M|70.99,38.07|
 C Solar Core Destruction|QID|29211|N|Fight through to the Solar Core and right click to destroy it.|Z|MoltenFront|M|70.99,38.07|
 C The Wardens are Watching|QID|29192|N|Beat a Druid of the Flame down a little until the Sentinel that follows you sets up a trap. Kite the weakened Druid of the Flame into it.|Z|MoltenFront|M|70.99,38.07|
 C Bye Bye Burdy|QID|29297|U|69832|N|Look up to search for Druids of the Flame in bird-form. When you have targeted one, use the Burd Sticker. Bye bye Burdy!|Z|MoltenFront|M|70.99,38.07|
@@ -313,13 +318,13 @@ T Wicked Webs|QID|29189|N|At Deldren Ravenelm.|Z|MoltenFront|M|66.10,64.00|
 T Solar Core Destruction|QID|29211|N|At Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
 T The Wardens are Watching|QID|29192|N|At Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
 
-A Enduring the Heat|QID|29210|PRE|29205|N|From Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
-A Fandral's Methods|QID|29275|PRE|29205;29272|N|From Anren Shadowseeker near the Forlorn Spire. If he isn't here anymore, close this step; you were offered The Flame Spider Queen instead.|Z|MoltenFront|M|66.01,66.05|
+A Enduring the Heat|QID|29210|PRE|29192+29211|N|From Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
+A Fandral's Methods|QID|29275|N|From Anren Shadowseeker near the Forlorn Spire. If he isn't here anymore, close this step; you were offered The Flame Spider Queen instead.|Z|MoltenFront|M|66.01,66.05|
 C Enduring the Heat|QID|29210|N|Enter the Igneous Depths. Don't bother fighting any mobs that attack you, just run to one of the glowing blue runes and click on it to detonate, killing all mobs in the vicinity. Repeat until all the runes are gone.|S|
 C Fandral's Methods|QID|29275|N|Look for sparkling quest items while you are in the Igneous Depths. They're usually near the edges of the paths, just keep your eyes open.|Z|MoltenFront|M|57.70,49.50|
 C Enduring the Heat|QID|29210|N|Enter the Igneous Depths. Don't bother fighting any mobs that attack you, just run to one of the glowing blue runes and click on it to detonate, killing all mobs in the vicinity. Repeat until all the runes are gone.|Z|MoltenFront|M|57.70,49.50|US|
 T Enduring the Heat|QID|29210|N|At Theresa Barkskin at the cave's entrance.|Z|MoltenFront|M|57.70,49.50|
-A Strike at the Heart|QID|29243|PRE|29205;29283|N|From Shalis Darkhunter at the entrance to the Ingeous Depths.|Z|MoltenFront|M|57.48,49.46|
+A Strike at the Heart|QID|29243|PRE|29210;29214;29283|N|From Shalis Darkhunter at the entrance to the Ingeous Depths.|Z|MoltenFront|M|57.48,49.46|
 C Strike at the Heart|QID|29243|ACH|5873|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Shadow Warden Sira Moonwarden to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day. When you defeat the Lieutenant without getting hit by their special attacks, you will get credit for a step in the achievement 'Ready for Raiding II'.|Z|MoltenFront|M|49.00,30.00|
 C Strike at the Heart|QID|29243|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Shadow Warden Sira Moonwarden to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day.|Z|MoltenFront|M|49.00,30.00|
 
@@ -331,7 +336,7 @@ A Fire Flowers|QID|29265|PRE|29206|N|From Thisalee Crow.|Z|MoltenFront|M|42.48,5
 C Achievement step available!|QID|29265|ACH|5870;5|N|Talk to Thisalee Crow and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|42.48,59.71|
 A Hounds of Shannox|QID|29274|PRE|29206;29272|N|If Anren Shadowseeker and his friend Tholo are standing next to Thisalee Crow in the cave, accept this quest from Anren. If they're not around, close this step. You'll get another quest later instead.|Z|MoltenFront|M|41.93,61.55|
 
-A Need... Water... Badly...|QID|29272|PRE|29206|N|Fight your way to the very end of the cave, you'll find Anren Shadowseeker there, accept this quest from him. This is an escort quest, so get ready to defend him beforehand.|Z|MoltenFront|M|51.90,31.00|
+A Need... Water... Badly...|QID|29272|PRE|29181|N|Fight your way to the very end of the cave, you'll find Anren Shadowseeker there, accept this quest from him. This is an escort quest, so get ready to defend him beforehand.|Z|MoltenFront|M|51.90,31.00|
 C Need... Water... Badly...|QID|29272|N|Defend Anren on his way out. He will explain about Thermal Vents on the way, listen closely, they're really useful.|
 C Flamewakers of the Molten Flow|QID|29264|N|Kill Flamewalkers all over the cave.|S|
 C Hounds of Shannox|QID|29274|N|Kill and loot Charhounds.|S|
@@ -346,7 +351,7 @@ T Flamewakers of the Molten Flow|QID|29264|N|At Thisalee Crow back at the entran
 R The Furnace|QID|29265|PRE|29206|N|Get out of the cave by using the Thermal Vent at the place you came in.|Z|MoltenFront|M|34.20,65.90|
 A How Hot|QID|29273|PRE|29206;29272|N|Back on the surface, accept this quest from Tholo Whitehoof. If he isn't here, close this step, you were offered Hounds of Shannox instead.|Z|MoltenFront|M|36.00,59.01|
 T Fire Flowers|QID|29265|N|At Choluna.|Z|MoltenFront|M|36.29,56.35|
-A The Bigger They Are|QID|29295|PRE|29206;29281|N|From Ricket next to Choluna near Fireplume Peak. If you did Rickets Random Daily at the Sentinel Tree, you won't be offered this one.|Z|MoltenFront|M|36.27,56.61|
+A The Bigger They Are|QID|29295|PRE|29265|N|From Ricket next to Choluna near Fireplume Peak. If you did Rickets Random Daily at the Sentinel Tree, you won't be offered this one.|Z|MoltenFront|M|36.27,56.61|
 A Random Daily Fire Hawk Quest|QID|29290;29288;29287;29289|PRE|29206|N|From Morthis Whisperwing.|Z|MoltenFront|M|34.52,56.20|
 A Random Daily Fireplume Peak Quest|QID|29296;29293|PRE|29206|N|From Arthorn Windsong.|Z|MoltenFront|M|34.28,56.43|
 C Achievement step available!|QID|29296;29293|ACH|5870;6|N|Talk to Arthorn Windsong and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|34.28,56.43|
@@ -375,7 +380,7 @@ T Singed Wings|QID|29293|N|At Arthorn Windsong.|Z|MoltenFront|M|34.28,56.43|
 T Starting Young|QID|29288|N|At Morthis Whisperwing.|Z|MoltenFront|M|34.52,56.20|
 T Peaked Interest|QID|29287|N|At Morthis Whisperwing.|Z|MoltenFront|M|34.52,56.20|
 T Mother's Malice|QID|29289|N|At Morthis Whisperwing.|Z|MoltenFront|M|34.52,56.20|
-A Strike at the Heart|QID|29305|PRE|29206;29283|N|From Choluna near Fireplume Peak. Also acceptable from Skylord Omnuron near the Sentinel Tree.|Z|MoltenFront|M|36.29,56.35;43.04,80.62|CN|
+A Strike at the Heart|QID|29305|N|From Choluna near Fireplume Peak. Also acceptable from Skylord Omnuron near the Sentinel Tree.|Z|MoltenFront|M|36.29,56.35;43.04,80.62|CN|
 C Strike at the Heart|QID|29305|ACH|5873|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Druid of the Talon Thisalee Crow to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day. When you defeat the Lieutenant without getting hit by their special attacks, you will get credit for a step in the achievement 'Ready for Raiding II'.|Z|MoltenFront|M|49.00,30.00|
 C Strike at the Heart|QID|29305|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Druid of the Talon Thisalee Crow to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day.|Z|MoltenFront|M|49.00,30.00|
 
@@ -402,9 +407,9 @@ T Planting Season|QID|29249|N|Turn this quest in via your questlog. You COULD al
 A Little Lasher|QID|29254|PRE|29249|N|Auto-accepted if you turned the previous quest in via questlog, else from Avrilla.|
 T Little Lasher|QID|29254|N|At Avrilla.|Z|MoltenFront|M|50.63,87.19|
 T Need... Water... Badly...|QID|29272|N|At Tholo Whitehoof near the portal back to Hyjal.|Z|MoltenFront|M|51.52,85.53|
-A Additional Armaments|QID|29281|PRE|29182;29215|N|The next tier of unlocking quests is available now. This one is from Damek Bloombeard in the cave under the Sentinel Tree.|Z|MoltenFront|M|46.90,89.95|
-A Filling the Moonwell|QID|29279|PRE|29182;29215|N|The next tier of unlocking quests is available now. This one is from Ayla Shadowstorm next to the newly created but empty Moonwell.|Z|MoltenFront|M|44.07,86.32|
-A Calling the Ancients|QID|29283|PRE|29182;29215|N|The next tier of unlocking quests is available now. This one is from Varlan Highbough.|Z|MoltenFront|M|44.47,88.74|
+A Additional Armaments|QID|29281|PRE|29181;29214|N|The next tier of unlocking quests is available now. This one is from Damek Bloombeard in the cave under the Sentinel Tree.|Z|MoltenFront|M|46.90,89.95|
+A Filling the Moonwell|QID|29279|PRE|29181;29214|N|The next tier of unlocking quests is available now. This one is from Ayla Shadowstorm next to the newly created but empty Moonwell.|Z|MoltenFront|M|44.07,86.32|
+A Calling the Ancients|QID|29283|PRE|29181;29214|N|The next tier of unlocking quests is available now. This one is from Varlan Highbough.|Z|MoltenFront|M|44.47,88.74|
 T Additional Armaments|QID|29281|LEAD|29283;29279|N|Check if you have 125 Marks of the World Tree yet, close this step if you don't. If you do, you can turn in one of your unlocking quests. Additional Armaments and Calling the Ancients each unlock one additional daily quest, while Filling the Moonwell unlocks a one-time-only questline that represents the final battle of the Firelands Invasion, the choice is yours. Close this step to get coordinates for the other two quests, or turn in Additional Armaments at Matoclaw at the Sanctuary of Malorne in Hyjal.|Z|Mount Hyjal|M|27.17,62.54|
 T Calling the Ancients|QID|29283|LEAD|29281;29279|N|Check if you have 125 Marks of the World Tree yet, close this step if you don't. If you do, you can turn in one of your unlocking quests. Additional Armaments and Calling the Ancients each unlock one additional daily quest, while Filling the Moonwell unlocks a one-time-only questline that represents the final battle of the Firelands Invasion, the choice is yours. Close this step to get coordinates for Filling the Moonwell, or turn in Calling the Ancients at the Ancient Elderlimb at the Sanctuary of Malorne in Hyjal.|Z|Mount Hyjal|M|26.00,61.20|
 T Filling the Moonwell|QID|29279|LEAD|29281;29283|N|Check if you have 125 Marks of the World Tree yet, close this step if you don't. If you do, you can turn in one of your unlocking quests. Additional Armaments and Calling the Ancients each unlock one additional daily quest, while Filling the Moonwell unlocks a one-time-only questline that represents the final battle of the Firelands Invasion, the choice is yours. Turn in Filling the Moonwell at Matoclaw at the Sanctuary of Malorne in Hyjal.|Z|Mount Hyjal|M|27.17,62.54|
