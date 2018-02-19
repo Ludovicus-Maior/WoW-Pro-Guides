@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2018-02-19 23:28
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3229/revisions/28839/view
 -- Date: 2018-01-16 23:12
 -- Who: Ludovicus
 -- Log: New Levels
@@ -178,7 +183,7 @@ T Shakes O'Breen|QID|26336|M|26.03,83.93|CC|N|To Shakes O'Breen.|
 
 A Drowned Sorrows|QID|26055|M|27.75,83.17|N|From Captain Steelgut.|
 
-A Goggle Boggle|QID|26050|PRE|26336|RANK|1|M|27.50,83.13|N|Escort quest. From Professor Phizzlethorpe.|
+A Goggle Boggle|QID|26050|RANK|1|M|27.50,83.13|N|Escort quest. From Professor Phizzlethorpe.|
 C Goggle Boggle|QID|26050|M|27.60,83.13|N|Follow Professor Phizzlethorpe into the Cave, then defend him against vengeful surge, then follow him back to the camp fire.|
 T Goggle Boggle|QID|26050|M|27.60,83.13|N|To Doctor Draxlegauge.|
 
@@ -199,10 +204,10 @@ T Death From Below|QID|26628|M|25.86,83.95|N|To Shakes O'Breen.|
 
 H Refuge Pointe|QID|26113|N|Hearth or run back to Refuge Pointe.|M|39.89,48.75|
 
-A Quae and Kinelory|QID|26113|RANK|1|M|39.99,48.17|N|From Commander Amaren.|
+A Quae and Kinelory|QID|26113|LEAD|26110|RANK|1|M|39.99,48.17|N|From Commander Amaren.|
 T Quae and Kinelory|QID|26113|M|54.76,55.33|N|To Quae.|
 
-A Just Like Old Times|QID|26110|PRE|26113|RANK|1|M|54.76,55.33|N|From Quae.|
+A Just Like Old Times|QID|26110|RANK|1|M|54.76,55.33|N|From Quae.|
 C Just Like Old Times|QID|26110|M|52.2,64.6|N|Find the courier pacing up and down the trail, then kill and loot her.|T|Forsaken Courier|
 T Just Like Old Times|QID|26110|M|54.74,55.28|N|To Quae.|
 
@@ -216,10 +221,10 @@ T Kinelory Strikes|QID|26116|M|54.70,55.35|N|To Quae.|
 A For Southshore|QID|26117|PRE|26116|RANK|1|M|54.70,55.35|N|From Quae.|
 T For Southshore|QID|26117|M|39.94,47.73|N|To Commander Amaren.|
 
-A The Stone Shards|QID|26341|RANK|1|M|40.34,49.03|N|From Skuerto.|
+A The Stone Shards|QID|26341|LEAD|26039|RANK|1|M|40.34,49.03|N|From Skuerto.|
 T The Stone Shards|QID|26341|M|57.03,34.61|N|To the Shards of Myzrael.|
 
-A The Princess Trapped|QID|26039|PRE|26341|RANK|1|M|57.03,34.61|N|From the Shards of Myzrael.|
+A The Princess Trapped|QID|26039|RANK|1|M|57.03,34.61|N|From the Shards of Myzrael.|
 R Drywhisker Gorge|QID|26039|M|73.7,38.8|N|Head to Drywhisker Gorge. Beware of the horde encampment of Hammerfall which is located between you and Drywhisker Gorge.|
 C The Princess Trapped|QID|26039|M|75.95,41.15;78.15,36.95|CC|N|Kill and loot the Drywhisker Kobold's for the Mote of Myzrael as you head up the trail and enter the cave (the turn-in point is at the back of the cave). |
 T The Princess Trapped|QID|26039|M|79.83,31.62|N|To the Iridescent Shards at the back of the cave. From the entrance, turn right, then jump down and follow tunnel to right.|
