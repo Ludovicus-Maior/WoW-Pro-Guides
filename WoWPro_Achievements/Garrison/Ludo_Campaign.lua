@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_campaign
+-- Date: 2018-02-19 22:30
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3648/revisions/28802/view
 -- Date: 2017-10-07 19:56
 -- Who: Ludovicus_Maior
 -- Log: Cleanup for Horde
@@ -168,7 +173,7 @@ N Garrison Campaign|AVAILABLE|35185;35186|N|This guide is supposed to trigger wh
 
 ; A Garrison Campaign: The Sargerei|QID|35185;35186|M|40.0,44.4|N|From Khadgar's Servant|
 T Garrison Campaign: The Sargerei|QID|35185;35186|M|43.56,77.29|Z|Shadowmoon Valley@Draenor|N|To Archmage Modera|
-A Infiltrating the Sargerei|QID|35187|PRE|35185;35186|M|43.56,77.29|Z|Shadowmoon Valley@Draenor|N|From Archmage Modera|
+A Infiltrating the Sargerei|QID|35187|PRE|35185+35186|M|43.56,77.29|Z|Shadowmoon Valley@Draenor|N|From Archmage Modera|
 C Sargerei Slippers|QID|35187|M|49.65,73.40;45.33,74.53;49.74,76.49|Z|Shadowmoon Valley@Draenor|CN|QO|1|N|Kill Sargerei Initiate and others for shoes|S|
 C Sargerei Robe|QID|35187|M|51.00,75.50;49.40,73.10;48.05,80.25|Z|Shadowmoon Valley@Draenor|CN|QO|2|N|Kill Sargerei Demonlords and others for a robe|S|
 C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.60,72.85;45.85,80.75;51.20,76.70|Z|Shadowmoon Valley@Draenor|CN|QO|3|N|Kill Sargerei Workers for a cowl|S|
@@ -181,10 +186,10 @@ C Infiltrating the Sargerei|QID|35187|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|
 C Infiltrating the Sargerei|QID|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|CHAT|QO|6|N|Tell him 'the rain falls on Shadowmoon.'|
 T Infiltrating the Sargerei|QID|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To Anchorite Laanda|
 ; These are parallel
-A Shattering the Enemy|QID|35191|PRE|35185|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|From Anchorite Laanda|; Neutral
-A The Word of Socrethar|QID|35189|PRE|35185|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|From Anchorite Laanda|; Neutral
-A An Ancient Threat|QID|35190|PRE|35185|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|From Soulbinder Zamaya|; Neutral
-A Pesky Podlings|QID|35188|PRE|35185|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|From Soulbinder Zamaya|; Neutral
+A Shattering the Enemy|QID|35191|PRE|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|From Anchorite Laanda|; Neutral
+A The Word of Socrethar|QID|35189|PRE|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|From Anchorite Laanda|; Neutral
+A An Ancient Threat|QID|35190|PRE|35187|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|From Soulbinder Zamaya|; Neutral
+A Pesky Podlings|QID|35188|PRE|35187|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|From Soulbinder Zamaya|; Neutral
 ; A mess of completions
 C Shattering the Enemy|QID|35191|M|50.4,75.6|Z|Shadowmoon Valley@Draenor|N|Felstorm Crystal|S|
 C The Word of Socrethar|QID|35189|M|50.6,79.6|Z|Shadowmoon Valley@Draenor|QO|3|N|The Promise of Eternity|
@@ -200,7 +205,7 @@ T The Word of Socrethar|QID|35189|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To
 T An Ancient Threat|QID|35190|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|To Soulbinder Zamaya|
 T Pesky Podlings|QID|35188|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|To Soulbinder Zamaya|
 ; Final quests
-A Facing Demons|QID|35194|PRE|35189;35191|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|From Anchorite Laanda|; Neutral
+A Facing Demons|QID|35194|PRE|35188;35189;35190;35191|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|From Anchorite Laanda|; Neutral
 K Invokaz|QID|35194|M|45.94,80.54|Z|Shadowmoon Valley@Draenor|QO|1|N|Ride up the rise to find Invokaz|
 C Shut the Daemon Gate|QID|35194|M|46.29,80.58|Z|Shadowmoon Valley@Draenor|QO|2|
 T Facing Demons|QID|35194|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To Laanda's Scroll|
@@ -229,7 +234,7 @@ C Pilferers|QID|34352|M|64.00,89.80;66.20,84.80;56.20,92.50;61.55,82.40;60.00,85
 C Engineers|QID|34352|M|63.20,84.50;55.45,90.38;61.50,82.00;58.80,88.60;61.08,84.75;63.75,87.17;58.17,85.7|CN|Z|Shadowmoon Valley@Draenor|QO|2|US|
 T Darktide Defender|QID|34352|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|UI turnin.|
 T Shredder Suppressor|QID|34353|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
-A Dirty Rats|QID|34355|PRE|34352;34353|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
+A Dirty Rats|QID|34355|PRE|34353|M|59.22,82.24|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 C Dirty Rats|QID|34355|M|56.0,89.3|Z|Shadowmoon Valley@Draenor|QO|1|U|110268|N|Use the rat bait and then target the Unmanned Shredders.|
 T Dirty Rats|QID|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Releasing Rylak|QID|34365|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
@@ -306,7 +311,7 @@ T Payment Due for Services Rendered|QID|34078|M|48.8,65.0|Z|Frostfire Ridge|N|Fr
 
 ; Garrison Campaign: The Ring of Blood|QID|36219;36280;36281;36282| --Neutral
 T Garrison Campaign: The Ring of Blood|QID|36219;36280;36281;36282|M|63,36|Z|Nagrand@Draenor|N|To Gurgthock, near Joz's Rylaks in Nagrand. Bring a follower with you to help.|
-A How Tough Are You?|QID|36220|PRE|36219;36280;36281;36282|M|63,36|Z|Nagrand@Draenor|N|From Gurgthock|
+A How Tough Are You?|QID|36220|PRE|36219+36280+36281+36282|M|63,36|Z|Nagrand@Draenor|N|From Gurgthock|
 K Lug'dol|QID|36220|ACTIVE|36220|M|64.2,22.8|Z|Nagrand@Draenor|QO|1|T|Lug'dol|N|Kill and loot head.|
 T How Tough Are You?|QID|36220|M|56.8,19.2|Z|Nagrand@Draenor|N|To Kroggol the Wall|
 A Entry Fee|QID|36221|PRE|36220|M|56.8,19.2|Z|Nagrand@Draenor|N|From Kroggol the Wall|
@@ -324,10 +329,10 @@ T Out of the Shadows|QID|36290|M|38.34,36.95|N|To Rokhan|
 ; A Garrison Campaign: Crows In The Field|QID|34335|M|69.4,9.0|N|From Choluna|
 F Gorgrond|ACTIVE|34409;34335|N|Fly to your base in Gorgrond|
 T Garrison Campaign: Crows In The Field|QID|34409;34335|M|39.8,37.0|Z|Gorgrond|N|To Thisalee Crow|
-A Ambushing the Enemy|QID|34336|PRE|34409;34335|M|39.8,37.0|Z|Gorgrond|N|From Thisalee Crow|
+A Ambushing the Enemy|QID|34336|PRE|34409+34335|M|39.8,37.0|Z|Gorgrond|N|From Thisalee Crow|
 C Caravan Shipment|QID|34336|M|42.5,39.4|Z|Gorgrond|N|Caravan Shipment|QO|1|S|
 C Ambushing the Enemy|QID|34336|M|40.4,40.4|Z|Gorgrond|T|Lieutenant O'rok|QO|2|N|Kill and loot Lieutenant O'rok|
-A Bladefury's Orders|QID|34347|PRE|34409;34335|M|40.4,40.3|Z|Gorgrond|N|From Bladefury's Orders|
+A Bladefury's Orders|QID|34347|PRE|34409+34335|M|40.4,40.3|Z|Gorgrond|N|From Bladefury's Orders|
 C Caravan Shipment|QID|34336|M|42.5,39.4|Z|Gorgrond|N|Caravan Shipment|QO|1|US|
 T Ambushing the Enemy|QID|34336|M|39.8,37.0|Z|Gorgrond|N|To Thisalee Crow|
 T Bladefury's Orders|QID|34347|M|39.8,37.0|Z|Gorgrond|N|To Thisalee Crow|
@@ -459,7 +464,7 @@ F Nagrand|QID|36117|ACTIVE|36117|Z|Frostwall|M|45.76,50.8|N|Use the chat option 
 T Garrison Campaign: The Broken Precipice|QID|35985|M|39.6,24.6|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|FACTION|Alliance|
 T Garrison Campaign: The Broken Precipice|QID|36117|M|39.6,24.6|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|FACTION|Horde|
 ; Neutral
-A Greblin Fastfizzle|QID|35945|PRE|36117|M|39.6,24.6|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|
+A Greblin Fastfizzle|QID|35945|PRE|35985+36117|M|39.6,24.6|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|
 C Greblin Fastfizzle|QID|35945|M|39.6,24.6|Z|Nagrand@Draenor|N|Greblin Fastfizzle|
 T Greblin Fastfizzle|QID|35945|M|39.6,24.4|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|
 A Preservation Capitalization|QID|35970|PRE|35945|M|39.6,24.4|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|
