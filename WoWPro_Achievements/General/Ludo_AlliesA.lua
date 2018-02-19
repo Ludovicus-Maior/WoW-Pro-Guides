@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 local guide = WoWPro:RegisterGuide('Ludo_AlliesA', 'Achievements', 'Stormwind City', 'Ludo', 'Alliance')
 WoWPro:GuideLevels(guide,110, 110)
@@ -41,7 +44,7 @@ T Telogrus Rift|QID|48962|M|52.07,13.41|N|To Anduin Wrynn|
 A The Lightforged|QID|49698|M|52.11,13.72|N|From High Exarch Turalyon|O|
 P The Vindicaar|QID|49698|M|54.44,14.44|QO|1|N|Use the beacon outside to the Vindicaar.|
 T The Lightforged|QID|49698|M|43.89,26.87|Z|Upper Deck@LightforgedVindicaar|N|To Captain Fareeya.|
-A Forge of Aeons|QID|49266|M|43.89,26.87|Z|Upper Deck@LightforgedVindicaar|N|From Captain Fareeya.|
+A Forge of Aeons|QID|49266|PRE|49698|M|43.89,26.87|Z|Upper Deck@LightforgedVindicaar|N|From Captain Fareeya.|
 P Forge of Aeons|ACTIVE|49266|M|49.95,46.34|QO|1|Z|Upper Deck@LightforgedVindicaar|N|Take the beacon in the middle to the scenario.|
 C The Cave|QID|49266|M|88.52,34.95|Z|LightforgedDraeneiSwamp|SO|1|N|The cave howls. The only way is forward to T'paartos|
 C Follow T'paartos|QID|49266|M|87.76,29.41|Z|LightforgedDraeneiSwamp|SO|2;1|N|Follow T'paartos to the house.|NC|
@@ -73,12 +76,9 @@ A For the Light!|QID|50071|PRE|49266|M|47.42,40.13|Z|Upper Deck@LightforgedVindi
 P Stormwind City|ACTIVE|50071|M|43.25,25.02|Z|Lower Deck@LightforgedVindicaar|N|Take the portal in the lower deck to Stormwind (it usually goes to Dalaran).|
 T For the Light!|QID|50071|M|52.07,13.41|N|To Anduin Wrynn|
 
-A A Second Ally For the Cause|QID|50248|M|52.06,13.41|N|From Anduin Wrynn.|
+A A Second Ally For the Cause|QID|50248|PRE|48962|M|52.06,13.41|N|From Anduin Wrynn.|
 C A Second Ally For the Cause|QID|50248|QO|1|N|Choose another ally to pursue|
 T A Second Ally For the Cause|QID|50248|M|52.07,13.41|N|To Anduin Wrynn.|
-
-
-
 
 ]]
 
