@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/skyguard_dalies
+-- Date: 2018-02-19 23:03
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3457/revisions/28337/view
 -- Date: 2017-03-11 18:29
 -- Who: Ludovicus_Maior
 -- Log: Added PREs; syntax changes.
@@ -58,7 +63,7 @@ C Hungry Nether Rays|QID|11093|PRE|11098|M|67.2,86.6|Z|Terokkar Forest|U|32834|N
 
 C Fires Over Skettis|QID|11008|PRE|11098|M|64.4,66.6|Z|Terokkar Forest|U|32406|N|The Eggs are on top of the buildings in Skettis. You can target them while flying.|
 C World of Shadows|QID|11004|PRE|11098|M|61.20,78.60;74.20,88.40;69.90,79.50;69.80,84.30;61.90,73.60;69.53,75.03|Z|Terokkar Forest|CN|N|Kill All Skettis Mobs for the dust.|
-A Escape from Skettis|QID|11085|PRE|11098|M|61.00,75.50;69.15,74.20;74.60,87.45|CN|N|Find the Skyguard Prisoner, Look for the ! on the minimap!|
+A Escape from Skettis|QID|11085|M|61.00,75.50;69.15,74.20;74.60,87.45|CN|N|Find the Skyguard Prisoner, Look for the ! on the minimap!|
 C Escape from Skettis|QID|11085|PRE|11098|N|The usual horrid escort quest.|
 
 T Fires Over Skettis|QID|11008|PRE|11098|M|64.4,66.6|N|To Sky Sergeant Doryn|
@@ -70,7 +75,7 @@ F Sylvanaar|N|Closest flightpoint to Ogri'la|
 A Wrangle More Aether Rays!|QID|11066|PRE|11065|M|28.0,51.4|Z|Blade's Edge Mountains|N|From Skyguard Khatie|
 C Wrangle More Aether Rays!|QID|11066|M|28.80,57.60;27.80,52.15;31.80,56.50;31.50,52.55|Z|Blade's Edge Mountains|CN|
 T Wrangle More Aether Rays!|QID|11066|M|28.0,51.4|Z|Blade's Edge Mountains|N|From Skyguard Khatie|
-A Bomb Them Again!|QID|11023|PRE|11010;11102|M|27.6,52.8|Z|Blade's Edge Mountains|N|From Sky Sergeant Vanderlip|
+A Bomb Them Again!|QID|11023|PRE|11010+11102|M|27.6,52.8|Z|Blade's Edge Mountains|N|From Sky Sergeant Vanderlip|
 C Bomb Them Again!|QID|11023|M|27.6,52.8|Z|Blade's Edge Mountains|N|Destroy Fel Cannonball Stacks.  Acheivement for doing it in under 2 minutes, 15 seconds while not in a group.|
 T Bomb Them Again!|QID|11023|M|27.6,52.8|Z|Blade's Edge Mountains|N|To Sky Sergeant Vanderlip|
 
