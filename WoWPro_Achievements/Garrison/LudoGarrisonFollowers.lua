@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dozen_garrison_followers
+-- Date: 2018-02-19 22:27
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3720/revisions/28603/view
 -- Date: 2017-03-23 19:58
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -85,10 +90,10 @@ C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|Z|Spires of Arak|
 C Skimming Off the Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|US|N|Kill the oily slimes in the area.|
 T The Right Parts for the Job|QID|35090|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 T Skimming Off the Top|QID|35089|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
-A Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35090;35089|
+A Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35089;35090;36384|
 T Field Trial|QID|36384|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
-A Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|36384|
-A Curing With Force|QID|36428|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|36384|
+A Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35089;35090;36384|
+A Curing With Force|QID|36428|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35089;35090;36384|
 C Curing With Force|QID|36428|M|58,92|Z|Spires of Arak|U|115533|S|N|You have to beat them up before they will accept the potion, don't forget to give it to them (instead of killing them). Again, a garrison follower will kill them.  Send them home for a bit.|
 C Sporicide|QID|35091|M|58,92|Z|Spires of Arak|S|N|There are a few of these wandering in the village but most are behind it.|
 C Preventing the Worst|QID|35211|M|58,92|Z|Spires of Arak|NC|N|There is a translucent bomb inside of each of the buildings, click on it to activate. It is upstairs on the balcony of the 2 story building.|
@@ -97,7 +102,7 @@ C Sporicide|QID|35091|M|56.2,90.4|Z|Spires of Arak|US|N|There are a few of these
 T Sporicide|QID|35091|M|58.49,92.33|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 T Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
 T Curing With Force|QID|36428|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
-A Flame On|QID|35298|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35211;36428|
+A Flame On|QID|35298|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35091;35211;36428|
 C Flame On|QID|35298|M|58.44,92.24|Z|Spires of Arak|QO|1|NC|N|Click on the Plunger to set off the bombs.|
 C Flame On|QID|35298|M|58.88,92.84|Z|Spires of Arak|QO|2|NC|N|Hop in Kimzee's flying machine.|
 T Flame On|QID|35298|M|61.47,72.94|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
