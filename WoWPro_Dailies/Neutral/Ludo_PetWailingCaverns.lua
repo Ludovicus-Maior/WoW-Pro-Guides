@@ -18,7 +18,7 @@ P Northern Barrens|QID|45540|AVAILABLE|45539|PRE|45423|M|58.61,39.39|Z|Dalaran@D
 A A Call from the Caverns|QID|45540|M|59.52,39.58|Z|Dalaran@Dalaran70|N|From Lio the Lioness, in Legion Dalaran.|FACTION|Alliance|
 A A Call from the Caverns|QID|45540|M|58.57,37.59|Z|Dalaran@Dalaran70|N|From Serr'ah, in Legion Dalaran.|FACTION|Horde|
 R Wailing Caverns|ACTIVE|45540|M|38.96,68.11|Z|Northern Barrens|FACTION|Alliance|N|Take the portal to the Vale of Eternal Blossoms, pay 10g to Gleep Chatterswitch to use his goblin teleporter to Ratchet. From there just travel west to the left Eye of the Skull *above* the Caverns.|
-R Wailing Caverns|ACTIVE|45540|M|38.96,68.11|Z|Northern Barrens|FACTION|Horde|N|Take the portal to Orgrimmar and then fly to the left Eye of the Skull *above* the Caverns. 
+R Wailing Caverns|ACTIVE|45540|M|38.96,68.11|Z|Northern Barrens|FACTION|Horde|N|Take the portal to Orgrimmar and then fly to the left Eye of the Skull *above* the Caverns.|
 T A Call from the Caverns|QID|45540|M|38.96,68.11|Z|Northern Barrens|N|To Muyani.|
 A Wailing Critters|QID|45423|PRE|45540|M|38.96,68.11|Z|Northern Barrens|N|From Muyani.|
 
@@ -62,8 +62,6 @@ C Son of Skum|QID|45423|SO|2|S|N|You remember him!|
 N Son of Skum|QID|116789.1|PET1|Lifelike Mechanical Frostboar;80329;2+1+1|PET2|Emerald Proto-Whelp;68850;2+2+2|PET3|Teroclaw Hatchling;81431;2+2+2|STRATEGY|Skum-Kewlzilbot@WowHead|
 A Son of Skum|QID|116789.1|SO|2;1|M|61.34,79.40|Z|WailingCavernsPetBattle/1|T|Son of Skum|STRATEGY|Skum-Kewlzilbot@WowHead|
 
-
-
 C Son of Skum|QID|45423|SO|2|US|N|You remember him!|
 
 C Legacy of Fangs|QID|45423|SO|3|S|N|Not snakes again!|
@@ -82,7 +80,6 @@ C Everliving|QID|45423|SO|6|S|N|Budding Spore!|
 C Everliving|QID|45423|SO|6|US|N|Budding Spore!|
 T Wailing Critters|QID|45423|PRE|45540|M|38.96,68.11|Z|Northern Barrens|N|From Muyani. If you wander down to the end, the other Muyani will teleport you back to Skull Rock to compete the quest.|
 A Pet Battle Challenge: Wailing Caverns|QID|45539|PRE|45423|M|38.96,68.11|Z|Northern Barrens|N|From Muyani, a Weekly quest.|
-
 
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
