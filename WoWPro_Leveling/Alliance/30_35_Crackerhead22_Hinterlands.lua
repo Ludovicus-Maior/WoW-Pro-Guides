@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2018-02-19 23:32
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3239/revisions/28844/view
 -- Date: 2018-01-16 23:17
 -- Who: Ludovicus
 -- Log: New Levels
@@ -165,7 +170,7 @@ C Skulk Rock Clean-Up|QID|26491|M|58.29,40.76|N|Head back outside to finish kill
 T Skulk Rock Clean-Up|QID|26491|M|66.31,44.39|N|To Kerr Ironsight.|
 T Skulk Rock Supplies|QID|26492|M|66.31,44.39|N|To Kerr Ironsight.|
 
-A Down with the Vilebranch|QID|26496|PRE|26491;26492|M|66.31,44.39|N|From Kerr Ironsight.|
+A Down with the Vilebranch|QID|26496|LEAD|26497|PRE|26491;26492|M|66.31,44.39|N|From Kerr Ironsight.|
 r Repair and Sell Junk|QID|26490|N|Excellent opportunity to repair and sell your junk with Brannik Ironbelly|M|66.61,44.16|
 T Prime Slime|QID|26490|M|66.31,44.39|N|To Dron Blastbrew.|
 T Down with the Vilebranch|QID|26496|M|63.90,59.72|N|To Doran Steelwing.|
@@ -287,10 +292,10 @@ F Aerie Peak|QID|26532|M|66.3,44.4|N|Fly to Aerie Peak.|US|
 T Shadra the Venom Queen|QID|26532|M|9.94,44.27|N|To Gryphon Master Talonaxe.|
 F Booty Bay|QID|836|ACTIVE|836|M|43,72|Z|The Cape of Stranglethorn|N|Fly to Booty Bay in The Cape of Stranglethorn. Do *NOT* accept the quest The Battle for Andorhal if you want to be teleported from Booty Bay to Westland Plaguelands.\n\nIf you don't have Booty Bay on your Flight Plan, fly to Goldshire and then run south through Duskwood, Stranglethorn Jungle and The Cape of Stranglethorn.|
 T Rescue OOX-09/HL!|QID|836|ACTIVE|836|N|To Oglethorpe Obnoticus in Booty Bay, The Cape of Stranglethorn.|M|43,72|Z|The Cape of Stranglethorn|
-A The Battle for Andorhal|QID|28749|LEAD|27518;28505;28576|PRE|836|M|41.55,74.35|Z|The Cape of Stranglethorn|N|From War-Mage Erallier. Located at the foot of the Gryphon's Nest. On accepting the quest, ask War-Mage Erallier to prepare a portal to Andorhal for you.|
+A The Battle for Andorhal|QID|28749|LEAD|27159|M|41.55,74.35|Z|The Cape of Stranglethorn|N|From War-Mage Erallier. Located at the foot of the Gryphon's Nest. On accepting the quest, ask War-Mage Erallier to prepare a portal to Andorhal for you.|
 F Andorhal|QID|28749|ACTIVE|28749|N|Speak to War-Mage Erallier and ask for a Teleport to Andorhal.|
 
-A The Battle for Andorhal|QID|28505|LEAD|836;27518;28576;28749|N|From Gryphon Master Talonaxe.|
+A The Battle for Andorhal|QID|28505|LEAD|27159|N|From Gryphon Master Talonaxe.|
 F Andorhal|QID|28505|ACTIVE|28505|N|Speak with Guthrum Thunderfist to fly to Andorhal in Western Plaguelands. Then report to Thassarian within Andorhal.|
 
 ]]
