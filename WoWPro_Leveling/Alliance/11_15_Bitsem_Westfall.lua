@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2018-02-19 23:21
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3213/revisions/28853/view
 -- Date: 2018-01-16 23:24
 -- Who: Ludovicus
 -- Log: New Levels
@@ -183,7 +188,7 @@ T Hot On the Trail: The Riverpaw Clan|QID|26213|M|60.10,19.32|N|To Lieutenant Ho
 T Hot On the Trail: Murlocs|QID|26214|M|60.10,19.32|N|To Lieutenant Horatio Laine.|
 T Hot On the Trail: The Riverpaw Clan|QID|26213|M|60.10,19.32|N|To Lieutenant Horatio Laine.|US|
 
-A Meet Two-Shoed Lou|QID|26215|PRE|26214|M|60.13,19.37|N|From Lieutenant Horatio Laine.|
+A Meet Two-Shoed Lou|QID|26215|PRE|26213;26214|M|60.13,19.37|N|From Lieutenant Horatio Laine.|
 f Furlbrow's Pumpkin Farm|QID|26215|M|49.85,18.75|N|At Hoboair.|
 T Meet Two-Shoed Lou|QID|26215|M|49.71,19.41|N|To Two-Shoed Lou.|
 
@@ -230,7 +235,7 @@ T Times are Tough|QID|26237|M|56.07,31.31|N|To Farmer Saldean.|S|
 T It's Alive!|QID|26257|M|55.96,31.34|N|To Farmer Saldean.|
 T Times are Tough|QID|26237|M|56.07,31.31|N|To Farmer Saldean.|US|
 
-A You Have Our Thanks|QID|26270|PRE|26241|M|56.02,31.28|N|From Farmer Saldean.|
+A You Have Our Thanks|QID|26270|PRE|26237;26241|M|56.02,31.28|N|From Farmer Saldean.|
 T You Have Our Thanks|QID|26270|M|56.37,30.60|N|To Salma Saldean.|
 
 A Hope for the People|QID|26266|M|56.37,30.60|N|From Salma Saldean.|PRE|26270|
@@ -261,7 +266,7 @@ T The Westfall Brigade|QID|26287|M|56.36,47.54|N|To Captain Danuvin.|
 A Jango Spothide|QID|26288|PRE|26287|M|56.36,47.54|N|From Captain Danuvin.|
 
 T Feeding the Hungry and the Hopeless|QID|26271|M|56.90,47.03|N|To Hope Saldean.|
-A Find Agent Kearnen|QID|26289|M|56.44,47.46|N|From Marshal Gryan Stoutmantle.|PRE|26286|
+A Find Agent Kearnen|QID|26289|M|56.44,47.46|N|From Marshal Gryan Stoutmantle.|PRE|26286;26271|
 
 C Jango Spothide|QID|26288|M|62.28,76.43|N|Kill Jango Spothide as well as the Riverpaw Mystics and Taskmasters.|
 T Find Agent Kearnen|QID|26289|M|68.23,70.43|N|To Agent Kearnen.|
@@ -274,7 +279,7 @@ A Big Trouble in Moonbrook|QID|26291|PRE|26290|M|68.39,70.45|N|From Agent Kearne
 T Big Trouble in Moonbrook|QID|26291|M|56.41,47.41|N|To Marshal Gryan Stoutmantle, back at Sentinel Hill.|
 
 A To Moonbrook!|QID|26292|PRE|26291|M|56.41,47.41|N|From Marshal Gryan Stoutmantle.|
-A The Legend of Captain Grayson|QID|26371|M|56.44,47.45|N|From Scout Galiaan.|RANK|2|
+A The Legend of Captain Grayson|QID|26371|LEAD|26348|M|56.44,47.45|N|From Scout Galiaan.|RANK|2|
 T Jango Spothide|QID|26288|M|56.49,47.50|N|To Captain Danuvin.|
 
 f Moonbrook |QID|26292|ACTIVE|26292|N|Run to Moonbrook (south-west of Sentinel Hill) and grab the flight-point.|M|42.10,63.30|
@@ -354,7 +359,7 @@ A Return to Sentinel Hill|QID|26370|PRE|26322|M|85.62,31.92|Z|Stormwind City|N|F
 T Return to Sentinel Hill|QID|26370|M|56.37,49.57|N|To Marshal Gryan Stoutmantle.|
 
 A Threat to the Kingdom|QID|26761|M|56.37,49.57|N|If you're continuing your quests in Redridge, this quest from Marshal Gryan Stoutmantle, otherwise this zone guide is now finished.|PRE|26370|
-A Hero's Call: Redridge Mountains!|QID|26365|M|56.44,49.52|N|If you're continuing your quests in Redridge, this quest from Captain Danuvin, otherwise this zone guide is now finished.|PRE|26370|
+A Hero's Call: Redridge Mountains!|QID|26365|LEAD|26503|M|56.44,49.52|N|If you're continuing your quests in Redridge, this quest from Captain Danuvin, otherwise this zone guide is now finished.|
 
 ]]
 
