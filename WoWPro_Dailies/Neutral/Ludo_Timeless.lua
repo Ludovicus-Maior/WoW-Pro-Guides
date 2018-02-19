@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2018-02-19 23:06
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3561/revisions/28338/view
 -- Date: 2017-03-11 18:31
 -- Who: Ludovicus_Maior
 -- Log: Added PREs; syntax changes.
@@ -73,7 +78,7 @@ return [[
 ; Intro quests to Timeless Isle -- Alliance
 N Reccomendations|QID|33229|N|WoWPro is a great addon, but your Timeless Isle experience can be better with two other addons, RareCoordinator and _NPCScan.  Check them out.  This guide automatically sets up NPCScan if it is present.|
 T A Flash of Bronze...|QID|33229|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|To Chromie, at the Mogu'Shan Palace upper level.|
-A Journey to the Timeless Isle|QID|33231|PRE|33229|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Chromie|
+A Journey to the Timeless Isle|QID|33231|LEAD|33160|PRE|33229|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Chromie|
 R Timeless Isle|QID|33231|M|23.27,70.84|U|104113|FACTION|Alliance|N|Use watch and get wisked away!|
 f Tushui Landing|QID|33231|M|23.07,71.04|FACTION|Alliance|N|Michi Windblossom is the flightmaster|
 T Journey to the Timeless Isle|QID|33231|M|23.12,71.65|FACTION|Alliance|N|To Watcher Lara.|
@@ -83,7 +88,7 @@ T Time Keeper Kairoz|QID|33160|M|34.54,53.63|FACTION|Alliance|N|To Kairoz.|
 ; Intro quests to Timeless Isle -- Horde
 N Reccomendations|QID|33230|N|WoWPro is a great addon, but your Timeless Isle experience can be better with two other addons, RareCoordinator and _NPCScan.  Check them out.  This guide automatically sets up NPCScan if it is present.|
 T A Flash of Bronze...|QID|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|To Chromie, at the Mogu'Shan Palace upper level.|
-A Journey to the Timeless Isle|QID|33232|PRE|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Chromie|
+A Journey to the Timeless Isle|QID|33232|LEAD|33156|PRE|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Chromie|
 R Timeless Isle|QID|33232|M|21.8,39.8|U|104110|FACTION|Horde|N|Use watch and get wisked away!|
 f Huojin Landing|QID|33232|M|21.92,39.75|FACTION|Horde|N|Chi-Ro the Skytamer is the flightmaster|
 T Journey to the Timeless Isle|QID|33232|M|22.01,40.93|FACTION|Horde|N|To Watcher Alundra.|
@@ -91,8 +96,8 @@ A Time Keeper Kairoz|QID|33156|M|22.01,40.93|FACTION|Horde|N|From Watcher Alundr
 
 T Time Keeper Kairoz|QID|33156;33160|M|34.54,53.63|N|To Kairoz.|
 
-A Time In Your Hands|QID|33228|M|34.54,53.63|PRE|33156;33160|N|From Kairoz.|
-A A Timeless Tour|QID|33161|M|34.54,53.63|PRE|33156;33160|N|From Kairoz.|
+A Time In Your Hands|QID|33228|M|34.54,53.63|PRE|33156+33160|N|From Kairoz.|
+A A Timeless Tour|QID|33161|M|34.54,53.63|PRE|33156+33160|N|From Kairoz.|
 C Meet Meet Mistweaver Ai|QID|33228|M|42.69,55.72|QO|Meet Mistweaver Ai: 1/1|N|Head up the South stairs and then across the Court. The chat with her.|
 C Meet Mistweaver Ku|QID|33228|M|42.71,54.68|QO|Meet Mistweaver Ku: 1/1|N|Chat with him.|
 N Tushui Landing|QID|33161|M|23.07,71.04|FACTION|Horde|N|This is where the Alliance NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
@@ -258,7 +263,7 @@ C Empowering the Hourglass|QID|33338|N|Kill and loot till you get 50 Epoch Stone
 C Strong Enough To Survive|QID|33334|N|Kill 5 Rares or Rare Elites on the island. The addon NPCScan works great for spotting them.|US|
 
 ; Cooking Quests
-A Noodle Secrets Long Forgotten|QID|33018|M|52.08,46.13|PRE|31467+31471+31474+31476+31477+31480|N|From Old Sign Fragment, for those that are not Masters of the Way. You need to have started each of the ways at the Tillers.|
+A Noodle Secrets Long Forgotten|QID|33018|M|52.08,46.13|PRE|31467;31471;31474;31476;31477;31480|N|From Old Sign Fragment, for those that are not Masters of the Way. You need to have started each of the ways at the Tillers.|
 T Noodle Secrets Long Forgotten|QID|33018|M|40.93,73.45|N|To Lin Chao-Wei.|
 A The Lost Secret of the Secret Ingredient|QID|33020|M|40.93,73.45|PRE|33018|N|From Lin Chao-Wei, you will get this directly if you are a Master of the Way|
 T The Lost Secret of the Secret Ingredient|QID|33020|M|69.09,58.08|N|To Lin Family Scroll.|
@@ -266,7 +271,7 @@ A Bad Feeling, Worse Result|QID|33107|PRE|33020|M|68.8,58.5|Z|Temple of the Jade
 T Bad Feeling, Worse Result|QID|33107|N|Automatic turnin UI|
 A Secrets Lost, Forever?|QID|33021;33139|PRE|33107|N|Automatic UI |
 T Secrets Lost, Forever?|QID|33021;33139|M|53.6,51.2|Z|Valley of the Four Winds|N|To Sungshin Ironpaw|
-A Catch and Carry|QID|33022|PRE|33021;33139|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
+A Catch and Carry|QID|33022|PRE|33021|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
 T Catch and Carry|QID|33022|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
 A Is That A Real Measurement?|QID|33024|PRE|33022|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
 T Is That A Real Measurement?|QID|33024|M|53.6,51.2|Z|Valley of the Four Winds|N|To Sungshin Ironpaw|
