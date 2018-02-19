@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_alliance
+-- Date: 2018-02-19 22:47
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3537/revisions/28961/view
 -- Date: 2018-01-23 01:25
 -- Who: Ludovicus
 -- Log: QO Touchups.
@@ -55,9 +60,9 @@ return [[
 
 ; Stage 1!
 
-A Thunder Calls|QID|32679|M|83.99,58.67|Z|Vale of Eternal Blossoms|N|From Lyalia, outside the Shrine of Seven Stars.|
+A Thunder Calls|QID|32679|LEAD|32681|M|83.99,58.67|Z|Vale of Eternal Blossoms|N|From Lyalia, outside the Shrine of Seven Stars.|
 T Thunder Calls|QID|32679|M|49.8,69|Z|Townlong Steppes|N|To Vereesa Windrunner, at the Shado-Pan Garrison in Townlong Steppes.|
-A The Storm Gathers|QID|32681|PRE|32679|M|49.93,69.04|Z|Townlong Steppes|N|From Vereesa Windrunner|
+A The Storm Gathers|QID|32681|M|49.93,69.04|Z|Townlong Steppes|N|From Vereesa Windrunner|
 C The Storm Gathers|QID|32681|M|49.93,69.04|Z|Townlong Steppes|QO|1|N|Speak with Vereesa and get going!|
 T The Storm Gathers|QID|32681|M|63.2,72.2|N|To Lady Jaina Proudmoore|
 
@@ -70,7 +75,7 @@ A The Assault on Shaol'mara|QID|32644|M|63.25,72.22|N|From Lady Jaina Proudmoore
 A Tear Down This Wall!|QID|32654|M|63.25,72.22|N|From Lady Jaina Proudmoore|
 C Tear Down This Wall!|QID|32654|M|63.25,72.22|N|Talk to Lady Jaina Proudmoore to start the solo instance.|CHAT|
 T Tear Down This Wall!|QID|32654|M|63.25,72.22|N|To Lady Jaina Proudmoore|
-A To the Skies!|QID|32652|M|63.25,72.22|PRE|32654|N|From Lady Jaina Proudmoore|
+A To the Skies!|QID|32652|M|63.25,72.22|N|From Lady Jaina Proudmoore|
 C To the Skies!|QID|32652|M|63.25,72.22|PRE|32654|N|Talk to Lady Jaina Proudmoore to start the solo instance.|CHAT|
 T To the Skies!|QID|32652|M|63.16,73.87|N|To Lady Jaina Proudmoore|
 A A Bold Idea|QID|32655|M|63.20,73.91|N|From Taoshi.|
@@ -82,9 +87,9 @@ T The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|To Lady Jaina Proudmoore|
 
 ; Let the dailies begin!
 N Assignment Map: PvE or PvP|QID|1;2|M|63.25,72.19|N|Click on the assignment map and make your choice. Then another NPC will offer the quests.|NC|; Use correct quids
-A The Court of Bones|QID|32731|M|63.25,72.22|N|From Vereesa Windrunner.|
-A Ihgaluk Crag|QID|32732|M|62.70,73.56|N|From Captain Elleane Wavecrest, skip if she is not offering.|
-A Za'Tual|QID|32733|M|34.61,89.45|N|From Lady Jaina Proudmoore.|
+A The Court of Bones|QID|32731|LEAD|32527|M|63.25,72.22|N|From Vereesa Windrunner.|
+A Ihgaluk Crag|QID|32732|LEAD|32535|M|62.70,73.56|N|From Captain Elleane Wavecrest, skip if she is not offering.|
+A Za'Tual|QID|32733|LEAD|32543|M|34.61,89.45|N|From Lady Jaina Proudmoore.|
 
 ; Dailies - Za'Tual
 T Za'Tual|QID|32733|M|42.2,66.4|N|To Archmage Lan'dalock.|
@@ -163,11 +168,11 @@ T The Conquest of Stone|QID|32531|M|40.1,59.1|N|To Vylene Amaranth|
 
 T Ihgaluk Crag|QID|32732|M|63,74|N|To Archmage Modera|
 
-A Skin of the Saurok|QID|32549|PRE|32732|M|0,0|N|From Image of Archmage Vargoth|;wrong M
+A Skin of the Saurok|QID|32549|M|0,0|N|From Image of Archmage Vargoth|;wrong M
 
 A Modera's Quests|QID|*|NPC|1|PRE|32732|M|63,74|N|From Archmage Modera|;Wrong NPC
 A Stephen's Quests|QID|*|NPC|2|PRE|32732|M|0,0|N|From Sanitation Sorcerer Stephen Litmatch|;Wrong NPC, M
-A The Residents of Ihgaluk|QID|32545|PRE|32732|M|0,0|N|From Lyalia|;wrong M
+A The Residents of Ihgaluk|QID|32545|M|0,0|N|From Lyalia|;wrong M
 
 ; Do this quest first!!!!
 C Skin of the Saurok|QID|32549|M|44.20,83.20;44.60,74.40;45.00,84.00;45.80,75.00;49.00,85.80;50.00,76.40;50.80,73.40;52.20,75.60;52.60,91.40;54.20,80.00;54.20,87.00;54.60,78.40;54.80,74.60;55.40,86.20;46.60,72.50;54.50,76.10;49.40,78.50;46.10,71.30;44.50,81.80;47.60,82.40;46.40,70.00|CN|N|Kill any Saurok.|
