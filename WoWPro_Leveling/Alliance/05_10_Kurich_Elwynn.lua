@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2018-02-19 23:15
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Elwynn
+
+-- URL: http://wow-pro.com/node/3197/revisions/29004/view
+-- Date: 2018-02-19 23:10
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Northshire
+
+-- URL: http://wow-pro.com/node/3197/revisions/28957/view
 -- Date: 2018-01-17 03:06
 -- Who: Ludovicus
 -- Log: Corrected Levels
@@ -240,15 +250,6 @@
 -- Who: Fluclo
 -- Log: Missing the A for Rest And Relaxation
 
--- URL: http://wow-pro.com/node/3197/revisions/23934/view
--- Date: 2011-01-06 15:28
--- Who: Crackerhead22
--- Log: Added missing turn in for "Wanted: Hogger", added in class quests and race tags noted by calmeira.
-
--- URL: http://wow-pro.com/node/3197/revisions/23323/view
--- Date: 2010-12-03 08:42
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("KurElw0511", "Leveling", "Elwynn Forest", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,4,9,5.79167)
 WoWPro:NewGuideLevels(guide,1,20)
@@ -379,7 +380,7 @@ T The Escape|QID|114|M|43.15,89.63|N|To Maybell Maclure.|
 
 H Lion's Pride Inn|QID|26393|U|6948|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|M|43.77,65.80|
 
-A Elmore's Task|QID|1097|M|41.71,65.55|N|From Smith Argus.|RANK|2|
+A Elmore's Task|QID|1097|LEAD|353|M|41.71,65.55|N|From Smith Argus.|RANK|2|
 A A Swift Message|QID|26393|M|41.71,65.55|R|Human|N|From Smith Argus.|
 r Sell Junk, Restock, Train and Repair.|QID|26393|M|41.86,65.68|ACTIVE|26393|N|Take this opportunity to sell Junk, Restock, Train and Repair before you leave Goldshire.|S|
 T A Swift Message|QID|26393|M|41.72,64.64|R|Human|N|To Bartlett the Brave.|
@@ -393,7 +394,7 @@ T Dungar Longdrink|QID|26395|Z|Stormwind City|M|70.93,72.48|R|Human|N|To Dungar 
 A Return to Argus|QID|26396|PRE|26395|Z|Stormwind City|M|70.93,72.48|R|Human|N|From Dungar Longdrink.|
 F Goldshire|QID|26396|Z|Stormwind City|M|70.93,72.48|N|Fly back to Goldshire.|
 T Return to Argus|QID|26396|M|41.71,65.55|R|Human|N|To Smith Argus.|
-A Westbrook Garrison Needs Help!|QID|239|PRE|76|M|42.10,65.93|N|From Marshal Dughan.|
+A Westbrook Garrison Needs Help!|QID|239|LEAD|11|PRE|76|M|42.10,65.93|N|From Marshal Dughan.|
 
 T Westbrook Garrison Needs Help!|QID|239|M|24.23,74.45|N|To Deputy Rainer.|
 A Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|N|From Deputy Rainer.|
@@ -404,7 +405,7 @@ A Furlbrow's Deed|N|If you're going to Westfall next, then grab this quest. It's
 C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|US|
 T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|N|To Deputy Rainer.|
 T Wanted:  "Hogger"|QID|176|M|42.2,65.9|N|To Marshal Dughan.|
-A Hero's Call: Westfall!|QID|26378|M|42.2,65.9|N|If you're going to Westfall next, then grab this quest. From Marshal Dughan.|
+A Hero's Call: Westfall!|QID|26378|LEAD|26209|M|42.2,65.9|N|If you're going to Westfall next, then grab this quest. From Marshal Dughan.|
 
 ]]
 
