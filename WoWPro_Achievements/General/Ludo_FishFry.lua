@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/achievements_bigger_fish_fry_artifact_fishing_pole
+-- Date: 2018-02-19 22:44
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3751/revisions/28831/view
+-- Date: 2018-01-15 18:47
+-- Who: Ludovicus
+-- Log: Initial Version
+
 local guide = WoWPro:RegisterGuide("LudoFishFry",'Achievements', "The Broken Isles", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,100,110)
 WoWPro:GuideIcon(guide,"ACH",10596)
@@ -22,7 +32,7 @@ N Seerspine Puffer|M|23.90,34.70;24.70,20.70;24.90,37.10;25.90,48.00;28.60,28.70
 
 ; Azuna
 N Ghostly Queenfish|M|44.10,30.10;46.90,44.60;40.70,42.30;42.15,54.40;33.45,36.95;64.40,22.65;61.40,61.40;54.25,35.88|CN|Z|Azsuna|ACH|10596;6|N|Head out to Azsuna.  When you get a [Rusty Queenfish Brooch], use it to see the pools of Queenfish.|
-N Leyshimmer Blenny|M|28.50,36.00;33.50,36.70;42.00,54.60;43.30,56.60;43.90,50.70;44.00,30.20;48.20,67.20;48.70,64.50;48.80,72.60;49.30,33.00;52.30,34.20;54.60,60.90;59.50,35.20;60.40,31.90;61.40,66.20;62.70,60.10;64.30,52.00;66.60,39.40;66.60,57.80;67.00,54.60;43.00,40.45;43.90,47.45;55.65,58.55;46.95,44.60;45.10,16.35;55.35,38.15;63.91,22.41;51.50,39.10;54.40,28.80;62.97,26.93;52.55,37.15;40.02,41.65;53.12,30.65;47.60,31.50;55.55,40.25;50.93,41.53;55.15,35.73;47.35,40.45|CN|Z|Azsuna|ACH|10596;8|N|Head out to Azsuna.  When you get a [Skrog Toenail], use it and kill the [Salteye Skrog-Hunter] to get [Aromatic Murloc Slime] to rub on your body to attract Blennies.]
+N Leyshimmer Blenny|M|28.50,36.00;33.50,36.70;42.00,54.60;43.30,56.60;43.90,50.70;44.00,30.20;48.20,67.20;48.70,64.50;48.80,72.60;49.30,33.00;52.30,34.20;54.60,60.90;59.50,35.20;60.40,31.90;61.40,66.20;62.70,60.10;64.30,52.00;66.60,39.40;66.60,57.80;67.00,54.60;43.00,40.45;43.90,47.45;55.65,58.55;46.95,44.60;45.10,16.35;55.35,38.15;63.91,22.41;51.50,39.10;54.40,28.80;62.97,26.93;52.55,37.15;40.02,41.65;53.12,30.65;47.60,31.50;55.55,40.25;50.93,41.53;55.15,35.73;47.35,40.45|CN|Z|Azsuna|ACH|10596;8|N|Head out to Azsuna.  When you get a [Skrog Toenail], use it and kill the [Salteye Skrog-Hunter] to get [Aromatic Murloc Slime] to rub on your body to attract Blennies.]|
 N Nar'thalas Hermit|M|33.60,36.70;41.70,51.60;44.00,30.20;45.10,16.90;46.40,40.50;48.20,67.10;48.30,31.70;48.60,40.00;49.20,15.50;50.90,41.80;54.60,60.90;54.90,27.50;60.50,47.50;62.20,61.00;64.30,52.00;67.00,54.60;38.45,40.10;40.05,41.50;47.30,44.35;43.30,47.15;63.00,27.23;48.67,64.90;55.55,58.80;63.81,22.55;54.22,36.09;44.02,40.58;51.65,38.88;48.40,34.65;53.03,30.77;53.95,41.40;55.78,38.97;47.95,72.20;52.17,35.74;42.08,55.62|CN|Z|Azsuna|ACH|10596;11|N|Head out to Azuna.  When you get a [Pearlescent Conch], use it to attract the Hermit crabs.|
 
 ; Val'sharah
