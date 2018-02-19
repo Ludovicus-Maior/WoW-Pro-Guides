@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2018-02-19 22:51
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3501/revisions/28326/view
 -- Date: 2017-03-10 23:24
 -- Who: Ludovicus_Maior
 -- Log: Syntax changes.
@@ -148,7 +153,7 @@ T Assault Deadtalker's Plateau|QID|31114|M|49.5,70.5|N|You can turn this in stra
 C Spirit Dust|QID|31116|M|51,53|U|84727|NC|N|Use the spirit dusts on the bones scattered around the area. You can do this part while mounted.|
 T Spirit Dust|QID|31116|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|
 
-A Uruk!|QID|31117|PRE|31114|M|49.5,70.5|N|From UI Alert, your Shado-Pan companion or Master Snowdrift.|
+A Uruk!|QID|31117|M|49.5,70.5|N|From UI Alert, your Shado-Pan companion or Master Snowdrift.|
 C Uruk!|QID|31117|T|Uruk|M|50.4,49|N|He is floating up above the ground in front of a large totem. You will get credit for the kill, even if another player attacked him first.|
 T Uruk!|QID|31117|M|49.5,70.5|N|To Master Snowdrift.|
 T Cheng Bo!|QID|31120|M|49.5,70.5|N|To Master Snowdrift.|
@@ -231,27 +236,27 @@ T Target of Opportunity: Sra'thik Swarmlord|QID|31203|M|49.01,71.34|N|To Ling of
 T Target of Opportunity: Sra'thik Hivelord|QID|31204|M|49.01,71.34|N|To Ling of the Six Pools.|
 
 ;one time challenger ring quests
-A The Challenger's Ring: Chao the Voice|QID|31127|PRE|31113|M|49.5,70.5|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Master Snowdrift.|
+A The Challenger's Ring: Chao the Voice|QID|31127|M|49.5,70.5|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Master Snowdrift.|
 C The Challenger's Ring: Chao the Voice|QID|31127|M|49.69,70.46;50.15,68.27|CS|N|Chao is a tank type Panda. Stay out of Bladestorm! Once you have defeated her, she is available to be your companion on days you are doing the Blackguard Defenders Quests.|
 T The Challenger's Ring: Chao the Voice|QID|31127|M|49.5,70.5|N|To Master Snowdrift.|
 
-A The Challenger's Ring: Snow Blossom|QID|31038|PRE|31039|M|49.02,70.45|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Ban Bearheart.|
+A The Challenger's Ring: Snow Blossom|QID|31038|M|49.02,70.45|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Ban Bearheart.|
 C The Challenger's Ring: Snow Blossom|QID|31038|M|48.92,70.11;50.4,67.8|CS|N|Snow Blossom is a mage type Panda. Once you have defeated her, she is available to be your companion on days you are doing the Omnia Mystics Quests.|
 T The Challenger's Ring: Snow Blossom|QID|31038|M|49.02,70.45|N|To Ban Bearheart.|
 
-A The Challenger's Ring: Hawkmaster Nurong|QID|31220|PRE|31197|M|49.01,71.36|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Ling of the Six Pools.|
+A The Challenger's Ring: Hawkmaster Nurong|QID|31220|M|49.01,71.36|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Ling of the Six Pools.|
 C The Challenger's Ring: Hawkmaster Nurong|QID|31220|M|49.01,70.94;50.71,68.18|CS|
 T The Challenger's Ring: Hawkmaster Nurong|QID|31220|M|49.01,71.36|N|To Ling of the Six Pools.|
 
-A The Challenger's Ring: Lao-Chin the Iron Belly|QID|31128|PRE|31113|M|49.5,70.5|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Master Snowdrift.|
+A The Challenger's Ring: Lao-Chin the Iron Belly|QID|31128|M|49.5,70.5|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Master Snowdrift.|
 C The Challenger's Ring: Lao-Chin the Iron Belly|QID|31128|M|50.4,67.8|N|Lao-chin is a healing type Panda. Run thru his healing bubbles, so he can't. Once you have defeated him, he is available to be your companion on days you are doing the Blackguard Defenders Quests.|
 T The Challenger's Ring: Lao-Chin the Iron Belly|QID|31128|M|49.5,70.5|N|To Master Snowdrift.|
 
-A The Challenger's Ring: Yalia Sagewhisper|QID|31104|PRE|31039|M|49.02,70.45|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Ban Bearheart.|
+A The Challenger's Ring: Yalia Sagewhisper|QID|31104|M|49.02,70.45|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Ban Bearheart.|
 C The Challenger's Ring: Yalia Sagewhisper|QID|31104|M|48.86,70.02;50.35,67.74|CS|N|Yalia is a casting/healing type Panda. Inturrupt her Psychic Scream. Once you have defeated her, she is available to be your companion on days you are doing the Omnia Mystics Quests.|
 T The Challenger's Ring: Yalia Sagewhisper|QID|31104|M|49.02,70.45|N|To Ban Bearheart.|
 
-A The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|PRE|31197|M|49.01,71.36|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Ling of the Six Pools.|
+A The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|49.01,71.36|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Ling of the Six Pools.|
 C The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|50.4,67.85;50.62,68.5|CS|
 T The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|49.01,71.36|N|To Ling of the Six Pools.|
 
