@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2018-02-19 23:23
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3216/revisions/28855/view
 -- Date: 2018-01-16 23:25
 -- Who: Ludovicus
 -- Log: New Levels
@@ -164,12 +169,12 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ;Elmore's Task is skipped if you've just done Dun Morogh quests (your not in the right place), or if you've already done Stormpike's Delivery quest (Elmore's task isn't available)
-A Elmore's Task|QID|1097|M|41.6,65.6|Z|Elwynn Forest|N|From Smith Argus at Goldshire in Elwynn Forest.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 3: All Feeder quests\nRank 2: Dun Morogh Feeder Quests\nRank 1: Loch Modan only|LEAD|353;26118|RANK|3|
+A Elmore's Task|QID|1097|M|41.6,65.6|Z|Elwynn Forest|N|From Smith Argus at Goldshire in Elwynn Forest.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 3: All Feeder quests\nRank 2: Dun Morogh Feeder Quests\nRank 1: Loch Modan only|LEAD|353|RANK|3|
 T Elmore's Task|QID|1097|M|59.6,34.0|Z|Stormwind City|N|To Grimand Elmore in the Dwarven District of Stormwind City.|LEAD|26118|RANK|3|
-A Stormpike's Delivery|QID|353|M|59.6,34.0|Z|Stormwind City|N|From Grimand Elmore.|LEAD|26118|RANK|3|
+A Stormpike's Delivery|QID|353|M|59.6,34.0|Z|Stormwind City|N|From Grimand Elmore.|RANK|3|
 F Ironforge|QID|26131|M|41.8,52.2|Z|Ironforge|N|Head to Ironforge either by the Stormwind Tram, or by flying from your nearest flight master.|LEAD|26118|RANK|3|
 
-A Reinforcements for Loch Modan|QID|26131|M|41.8,52.2|Z|Ironforge|N|From Mountaineer Barleybrew in Ironforge.\nIf quest doesn't show, drop the quest Hero's Call: Loch Modan!|LEAD|28567|RANK|2|
+A Reinforcements for Loch Modan|QID|26131|M|41.8,52.2|Z|Ironforge|N|From Mountaineer Barleybrew in Ironforge.\nIf quest doesn't show, drop the quest Hero's Call: Loch Modan!|RANK|2|
 F South Gate Outpost|QID|26131|Z|Ironforge|M|55.49,47.78|N|Talk to Gryth Thurden, and ask him to fly you to Loch Modan.|RANK|2|
 T Reinforcements for Loch Modan|QID|26131|M|14,56.49|N|To Pilot Hammerfoot.|RANK|2|
 T Hero's Call: Loch Modan!|QID|28567|M|14,56.49|N|To Pilot Hammerfoot.|O|
@@ -180,7 +185,7 @@ A A Pilot's Revenge|QID|26855|PRE|26854|M|87.63,50.14|Z|Dun Morogh|N|From A Dwar
 C A Pilot's Revenge|QID|26855|M|87.46,50.02|Z|Dun Morogh|N|Kill and Mangeclaw. He appears after you accept the quest.|
 T A Pilot's Revenge|QID|26855|M|14,56.49|N|To Pilot Hammerfoot.|
 
-A South Gate Status Report|QID|13635|M|14,56.49|N|From Pilot Hammerfoot.|PRE|26855|
+A South Gate Status Report|QID|13635|LEAD|26146|M|14,56.49|N|From Pilot Hammerfoot.|PRE|26855|
 T South Gate Status Report|QID|13635|M|23.4,75|N|To Captain Rugelfuss.|
 
 A In Defense of the King's Lands|QID|26146|M|23.48,75.03|N|From Captain Rugelfuss.|
@@ -194,8 +199,8 @@ C The Trogg Threat|QID|26145|US|M|31.63,69.62|N|Finish off collecting the Trogg 
 R Valley of Kings|QID|26145|M|30.07,78.19|N|Head back to Mountaineer Cobbleflint and Captain Rugelfuss via the Trail.|
 T The Trogg Threat|QID|26145|M|23.45,74.98|N|To Mountaineer Cobbleflint.|
 T In Defense of the King's Lands|QID|26146|M|23.41,75.00|N|To Captain Rugelfuss.|
-A A Decisive Strike|QID|26148|M|23.37,75.01|N|From Captain Rugelfuss.|PRE|26145+26146|
-A Bigger and Uglier|QID|26147|M|23.40,75.02|N|From Mountaineer Wallbang.|PRE|26145+26146|
+A A Decisive Strike|QID|26148|M|23.37,75.01|N|From Captain Rugelfuss.|PRE|26146|
+A Bigger and Uglier|QID|26147|M|23.40,75.02|N|From Mountaineer Wallbang.|PRE|26146|
 C Bigger and Uglier|QID|26147|M|35.04,59.37|S|N|Kill Stonesplinter Shamans and Bonesnappers.|
 C A Decisive Strike|QID|26148|M|33.08,70.65;35.36,65.18;35.64,62.25;33.86,62.19;35.60,61.10|CS|N|Kill Grawmug, who is in the rear of the cave.|
 C Bigger and Uglier|QID|26147|M|35.04,59.37|US|N|Finish killing the Stonesplinters needed.|
@@ -232,7 +237,7 @@ T Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|N|To Vidra Hearthstove.|
 T Out of Gnoll-where|QID|26842|M|35.03,46.56|N|To Mountaineer Kadrell.|
 
 L Level 12 |QID|13636|LVL|12|N|You need to be Level 12 to be able to continue this guide.|
-A Stormpike's Orders|QID|13636|M|35.09,46.41|N|From Mountaineer Kadrell.|
+A Stormpike's Orders|QID|13636|LEAD|26843|M|35.09,46.41|N|From Mountaineer Kadrell.|
 R Algaz Station|QID|13636|M|25.50,17.69|N|Take the road north to Algaz Station.|
 T Stormpike's Delivery|QID|353|M|25.50,17.69|N|To Mountaineer Stormpike.|O|
 T Stormpike's Orders|QID|13636|M|25.50,17.69|N|To Mountaineer Stormpike.|
@@ -272,7 +277,7 @@ L Level 13 |QID|26932|LVL|13|N|You need to be Level 13 to be able to continue th
 A Buzz Off|QID|26932|M|35.01,46.42|N|From Mountaineer Kadrell.|PRE|26927|
 T Smells Like A Plan|QID|26928|M|34.85,49.07|N|To Cannary Caskshot.|
 A Axis of Awful|QID|26868|M|34.85,49.07|N|From Cannary Caskshot.|PRE|26928|
-A A Load of Croc|QID|26929|M|34.91,49.02|N|From Cannary Caskshot.|PRE|26928|
+A A Load of Croc|QID|26929|M|34.91,49.02|N|From Cannary Caskshot.|PRE|26927|
 
 C A Load of Croc|QID|26929|S|M|55.00,56.25|N|Kill and loot the Loch Crocolisk for their Jaws.|
 C Buzz Off|QID|26932|S|M|54.39,59.98|N|Kill Loch Buzzards.|
@@ -288,7 +293,7 @@ T Axis of Awful|QID|26868|M|34.86,49.03|N|To Cannary Caskshot.|
 T A Load of Croc|QID|26929|M|34.86,49.03|N|To Cannary Caskshot.|
 
 L Level 14 |QID|13639|LVL|14|N|You need to be Level 14 to be able to continue this guide.|
-A Resupplying the Excavation|QID|13639|M|37.26,47.60|N|From Jern Hornhelm.|LEAD|273|PRE|26868|
+A Resupplying the Excavation|QID|13639|M|37.26,47.60|N|From Jern Hornhelm.|PRE|26868|
 C Resupplying the Excavation|QID|13639|NC|M|56.39,65.97|N|Head to the waypoint to find Huldar, Miran and Saean.|
 T Resupplying the Excavation|QID|13639|M|56.39,65.97|N|To Huldar.|
 A Protecting the Shipment|QID|309|M|56.39,65.97|N|From Huldar.|PRE|13639|
@@ -306,7 +311,7 @@ C Gathering Idols|QID|26961|US|M|68.3,63.2|N|Finish killing and looting the Trog
 
 T Keep Your Hands Off The Goods!|QID|13650|M|65.19,66.07|N|To Prospector Ironband.|
 T Gathering Idols|QID|26961|M|64.94,66.56|N|To Magmar Fellhew.|
-A Joining the Hunt|QID|13647|M|64.93,66.60|N|From Magmar Fellhew.|PRE|26961|
+A Joining the Hunt|QID|13647|M|64.93,66.60|N|From Magmar Fellhew.|PRE|13650;26961|
 
 R The Farstrider Lodge |QID|13647|M|82.79,63.42|N|Head to The Farstrider Lodge, you can follow the road north then east around the Excavation Site to reduce the likelyhood of any attacks.|
 A Thistle While You Work|QID|27025|M|82.79,63.42|N|From Safety Warden Pipsy. The entrance to the lodge is north-east of the building.|
@@ -384,7 +389,7 @@ C Servants of Cho'gall|QID|27075|M|70.91,23.24|US|N|Kill 7 Mo'Grosh Ogres.|
 T Servants of Cho'gall|QID|27075|M|64.05,26.83|N|To Ashlan Stonesmirk.|
 T Clutching at Chaos|QID|27077|M|64.05,26.83|N|To Ashlan Stonesmirk.|
 
-A Gor'kresh|QID|27078|M|64.05,26.83|N|From Ashlan Stonesmirk.|PRE|27075+27077|
+A Gor'kresh|QID|27078|M|64.05,26.83|N|From Ashlan Stonesmirk.|PRE|27075;27077|
 C Gor'kresh|QID|27078|M|74.82,19.81;79.80,14.90|CS|N|Head to the back of the cave, and kill Gor'kresh.|
 T Gor'kresh|QID|27078|M|64.17,26.83|N|To Ashlan Stonesmirk.|
 
