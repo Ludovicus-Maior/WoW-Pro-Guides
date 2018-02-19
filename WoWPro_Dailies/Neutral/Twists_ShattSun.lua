@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
+-- Date: 2018-02-19 23:07
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3470/revisions/28341/view
 -- Date: 2017-03-11 18:36
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
@@ -58,8 +63,8 @@ return [[
 N State of the Realm|QID|11554|N|This guide assumes that all of the Shattered Sun Offensive are in the final phase.  If you are on a new server, this guide will not do.|
 
 A Enter, the Deceiver...|QID|11550|LEAD|11526|M|53.60,43.67|Z|Shattrath City|O|N|From General Tiras'alan|
-A Crisis at the Sunwell|QID|11481|LEAD|11526|M|30.74,34.63|Z|Shattrath City|O|REP|Aldor;932|N|Adyen the Lightwarden|
-A Duty Calls|QID|11482|LEAD|11526|M|54.4,80.6|Z|Shattrath City|REP|Scryers;934|O|N|From Dathris Sunstriker|
+A Crisis at the Sunwell|QID|11481|M|30.74,34.63|Z|Shattrath City|O|REP|Aldor;932|N|Adyen the Lightwarden|
+A Duty Calls|QID|11482|M|54.4,80.6|Z|Shattrath City|REP|Scryers;934|O|N|From Dathris Sunstriker|
 
 R Isle of Quel'Danas|M|48.85,42.07|QID|11547|N|Take the portal in Shatt.|Z|Shattrath City|
 
