@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2018-02-19 22:38
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3724/revisions/28757/view
 -- Date: 2017-08-27 18:49
 -- Who: Ludovicus_Maior
 -- Log: Play through moved some quests around to be usable.
@@ -106,23 +111,23 @@ C Mephistroth slain|M|50.05,45.86|Z|AssaultonBrokenShoreScenario|SO|8|N|Start fi
 T Assault on Broken Shore|QID|46734|M|44.74,63.29|S|N|To Archmage Khadgar.|
 
 N World Quests, etc|QID|46940|N|This guide is still a rough draft.  It includes all the WQs I have seen, + a very few others. I have attempted to group them by area of the map.|
-A Seeking Lost Knowledge|QID|47067|M|44.74,63.29|N|From Archmage Khadgar. If you havent gotten your Artifact Knowledge to 25, this will not be available.|
-A Legionfall Supplies|QID|46286|M|44.56,63.15|N|From Commander Chambers.|
-A Aalgen Point|QID|46832|M|44.56,63.15|N|From Commander Chambers.|
+A Seeking Lost Knowledge|QID|47067|PRE|46734|M|44.74,63.29|N|From Archmage Khadgar. If you havent gotten your Artifact Knowledge to 25, this will not be available.|
+A Legionfall Supplies|QID|46286|PRE|46734|M|44.56,63.15|N|From Commander Chambers.|
+A Aalgen Point|QID|46832|PRE|46734|M|44.56,63.15|N|From Commander Chambers.|
 A Greater Power for Greater Threats|QID|46744|M|44.74,63.28|N|From Archmage Khadgar. You will receive this quest if you have not unlocked all the traits on your artifact.|ACH|11144|
-A The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|From Archmage Khadgar. If your artifact does not have the Paragon trait empowered (35+) this quest will not be available. You will need to do this in each spec if you want to empower all your artifacts.|ACH|11144;;true|PRE|46940|
+A The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|From Archmage Khadgar. If your artifact does not have the Paragon trait empowered (35+) this quest will not be available. You will need to do this in each spec if you want to empower all your artifacts.|ACH|11144;;true|
 N The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|At some point this item will drop randomly while doing other quests/farming on the island. Unknown at this time how your 2nd or 3rd artifact empowering quest starts.|ACTIVE|46765|
 N The Shadow of the Sentinax|QID|46935|M|61.52,48.29|N|At some point you will find a 'Broken Sentianax Beacon' when you fight under the Sentinax (location varies, marked on your map). Turning in this quests enables you to loot items that will open portals and allow more nethershard farming.|
 A The Mage Tower|QID|46772|M|44.54,63.15|N|From Commander Chambers. Available when the Mage tower is   built.|ACH|11546;3|
 A The Nether Disruptor|QID|46774|M|44.54,63.15|N|From Commander Chambers. Available when the Nether Disrupter is freshly built.|ACH|11546;3|
-A Defending the Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46286|
-A Champions of Legionfall|QID|47137|M|44.54,63.55|N|From Maiev Shadowsong. The completion guide for this will be in your class guides.|PRE|46765|ACH|10994|
+A Defending the Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46205|
+A Champions of Legionfall|QID|47137|M|44.54,63.55|N|From Maiev Shadowsong. The completion guide for this will be in your class guides.|ACH|10994|
 C The Mage Tower|QID|46772|M|45.03,62.48|N|Click on the scroll floating in front of the building.|
-A The Highlord's Return|QID|45416|M|45.69,62.04|N|Only available if the Mage Tower is built.|PRE|45843|
+A The Highlord's Return|QID|45416|M|45.69,62.04|N|Only available if the Mage Tower is built.|
 t The Mage Tower|QID|46772|M|44.54,63.15|N|To Commander Chambers.|
 C The Nether Disruptor|QID|46774|M|41.20,64.65|N|Click on the scroll floating at the base for the Nether Disruptor.|
 t The Nether Disruptor|QID|46774|M|44.54,63.15|N|To Commander Chambers.|
-A Shard Times|QID|46251|M|44.74,63.29|N|From Archmage Khadgar.|PRE|46775|
+A Shard Times|QID|46251|M|44.74,63.29|N|From Archmage Khadgar.|
 C Shard Times|QID|46251|M|44.74,63.29|N|Assuming you have 2500 shards, you can immediately turn this in. You get almost all of them back.|
 t Shard Times|QID|46251|M|44.74,63.29|N|To Archmage Khadgar.|
 A Mark of the Sentinax|QID|47139|M|44.76,63.29|N|From Lord Illidan Stormrage.|PRE|46251|
@@ -141,11 +146,11 @@ C Take Out the Head|QID|46250|S|N|Be sure and kill some of the rare elite demons
 t Take Out the Head|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
 
 A Spiders, Huh?|QID|46499|M|39.54,71.66|N|From Excavator Karla.|PRE|46245|
-A Grave Robbin'|QID|46501|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46499;-46665|
-A Tomb Raidering|QID|46509|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46501;-46665|
-A Ship Graveyard|QID|46510|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46509;-46665|
-A We're Treasure Hunters|QID|46511|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46510;-46665|
-A The Motherlode|QID|46666|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46511;-46665|
+A Grave Robbin'|QID|46501|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46499|
+A Tomb Raidering|QID|46509|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46501|
+A Ship Graveyard|QID|46510|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46509|
+A We're Treasure Hunters|QID|46511|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46510|
+A The Motherlode|QID|46666|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46511|
 C The Motherlode|QID|46666|M|47,67|QO|1|NC|N|Go to the marked spot and click on the 'peculiar rope' to enter the cave.|
 C The Motherlode|QID|46666|M|44,56|QO|2|NC|N|Iks'Reeged will be happy to trade Nethershards for keys, and you can open all the chests you feel you can afford...|
 t The Motherlode|QID|46666|M|39.54,71.66|N|To Excavator Karla. You can return to the cave anytime you are feeling a need to gamble away excess nethershards.|
@@ -218,7 +223,7 @@ C Illidari Masters: Sissix|QID|46111|M|69.06,47.14|N|Pet Battle.|
 
 f Aalgen Point|QID|46111|M|70.79,47.60|N|At Heidirk the Scalekeeper.|
 T Aalgen Point|QID|46832|M|70.79,47.60|N|To Heidirk the Scalekeeper.|
-A Vengeance Point|QID|46845|M|70.79,47.60|N|From Heidirk the Scalekeeper.
+A Vengeance Point|QID|46845|PRE|46832|M|70.79,47.60|N|From Heidirk the Scalekeeper.|
 
 ;WQs beetween Aalgen Point and Vengeance Point.
 C Seeking Lost Knowledge|QID|47067|M|82.54,45.08|QO|1|NC|U|147449|N|Run around the waters edge from Aalgen point to the Beach at Felfire Pass. Stand near the purplish sparkly thing and click it to recover knowledge from Felfire Pass.|
@@ -263,7 +268,7 @@ C Begin Construction|QID|46245|M|44.56,63.07|N|Click on the construction table t
 T Begin Construction|QID|46245|M|44.56,63.07|N|To Commander Chambers.|
 T Seeking Lost Knowledge|QID|47067|M|44.73,63.29|N|To Archmage Khadgar.|
 A Delivering Lost Knowledge|QID|46809;47069;47070;47071;47072;47073;47074;47075;47076;47077;47078;47079|M|44.73,63.29|N|From Archmage Khadgar.|PRE|47067|
-A Altar of the Aegis|QID|46244|M|44.75,63.29|N|From Archmage Khadgar.|PRE|47067|
+A Altar of the Aegis|QID|46244|M|44.75,63.29|N|From Archmage Khadgar.|PRE|46286|
 t Altar of the Aegis|QID|46244|M|44.75,63.29|N|To Archmage Khadgar.|
 t Defending the Broken Isles|QID|46247|M|44.54,63.55|N|To Maiev Shadowsong.|
 t The Nether Disruptor|QID|46774|M|44.56,63.07|N|To Commander Chambers.|
@@ -278,12 +283,12 @@ t Take Out the Head|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
 
 ;each class turn in.
 T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|To Vahu the Weathered back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|From Vahu the Weathered.|PRE|47070+47072+47073+47074+47076+47078+47079|
+A Using Lost Knowledge|QID|46940|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|From Vahu the Weathered.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|To Vahu the Weathered.|
 
 T Delivering Lost Knowledge|QID|46809|M|49.75,55.89|Z|Hall of Command@BrokenShore|C|Death Knight|N|To Illanna Dreadmoore back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|49.75,55.89|Z|Hall of Command@BrokenShore|C|Death Knight|N|From Illanna Dreadmoore.|PRE|46809|
+A Using Lost Knowledge|QID|46940|M|49.75,55.89|Z|Hall of Command@BrokenShore|C|Death Knight|N|From Illanna Dreadmoore.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|49.75,55.89|Z|Hall of Command@BrokenShore|C|Death Knight|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|49.75,55.89|Z|Hall of Command@BrokenShore|C|Death Knight|N|To Illanna Dreadmoore.|
 
@@ -293,47 +298,47 @@ C Using Lost Knowledge|QID|46940|M|33.92,32.51|Z|TheDreamgrove|C|Druid|NC|N|Star
 T Using Lost Knowledge|QID|46940|M|33.92,32.51|Z|TheDreamgrove|C|Druid|N|To Celedine the Fatekeeper.|
 
 T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|52.49,54.52|Z|TrueshotLodge|C|Hunter|N|To Holt Thunderhorn back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|52.49,54.52|Z|TrueshotLodge|C|Hunter|N|From Holt Thunderhorn.|PRE|47070+47072+47073+47074+47076+47078+47079|
+A Using Lost Knowledge|QID|46940|M|52.49,54.52|Z|TrueshotLodge|C|Hunter|N|From Holt Thunderhorn.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|52.49,54.52|Z|TrueshotLodge|C|Hunter|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|52.49,54.52|Z|TrueshotLodge|C|Hunter|N|To Holt Thunderhorn.|
 
 T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|64,49.4|Z|The Guardian's Library@MageClassShrine|C|Mage|N|To Edirah back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|64,49.4|Z|The Guardian's Library@MageClassShrine|C|Mage|N|From Edirah.|PRE|47070+47072+47073+47074+47076+47078+47079|
+A Using Lost Knowledge|QID|46940|M|64,49.4|Z|The Guardian's Library@MageClassShrine|C|Mage|N|From Edirah.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|64,49.4|Z|The Guardian's Library@MageClassShrine|C|Mage|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|64,49.4|Z|The Guardian's Library@MageClassShrine|C|Mage|N|To Edirah.|
 
 T Delivering Lost Knowledge|QID|47069|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|N|To Lorewalker Cho back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|N|From Lorewalker Cho.|PRE|47069|
+A Using Lost Knowledge|QID|46940|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|N|From Lorewalker Cho.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|N|To Lorewalker Cho.|
 
 T Delivering Lost Knowledge|QID|47071|M|37.94,57.37|Z|Eastern Plaguelands/20|C|Paladin|N|To Sister Elda back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands/20|C|Paladin|N|From Sister Elda.|PRE|47071|
+A Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands/20|C|Paladin|N|From Sister Elda.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands/20|C|Paladin|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands/20|C|Paladin|N|To Sister Elda.|
 
 T Delivering Lost Knowledge|QID|47077|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|N|To Juvess the Duskwhisperer back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|N|From Juvess the Duskwhisperer.|PRE|47077|
+A Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|N|From Juvess the Duskwhisperer.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|N|To Juvess the Duskwhisperer.|
 
 T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|37.85,70.06|Z|The Hall of Shadows@Dalaran70|C|Rogue|N|To Filius Sparkstache back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|37.85,70.06|Z|The Hall of Shadows@Dalaran70|C|Rogue|N|From Filius Sparkstache.|PRE|47070+47072+47073+47074+47076+47078+47079|
+A Using Lost Knowledge|QID|46940|M|37.85,70.06|Z|The Hall of Shadows@Dalaran70|C|Rogue|N|From Filius Sparkstache.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|37.85,70.06|Z|The Hall of Shadows@Dalaran70|C|Rogue|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|37.85,70.06|Z|The Hall of Shadows@Dalaran70|C|Rogue|N|To Filius Sparkstache.|
 
 T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|32.4,49.4|Z|MaelstromShaman|C|Shaman|N|To Gorma Windspeaker back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|32.4,49.4|Z|MaelstromShaman|C|Shaman|N|From Gorma Windspeaker.|PRE|47070+47072+47073+47074+47076+47078+47079|
+A Using Lost Knowledge|QID|46940|M|32.4,49.4|Z|MaelstromShaman|C|Shaman|N|From Gorma Windspeaker.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|32.4,49.4|Z|MaelstromShaman|C|Shaman|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|32.4,49.4|Z|MaelstromShaman|C|Shaman|N|To Gorma Windspeaker.|
 
 T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|57,40|Z|WarlockClassShrine|C|Warlock|N|To Mile Raithebrone back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|57,40|Z|WarlockClassShrine|C|Warlock|N|From Mile Raithebrone.|PRE|47070+47072+47073+47074+47076+47078+47079|
+A Using Lost Knowledge|QID|46940|M|57,40|Z|WarlockClassShrine|C|Warlock|N|From Mile Raithebrone.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|57,40|Z|WarlockClassShrine|C|Warlock|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|57,40|Z|WarlockClassShrine|C|Warlock|N|To Mile Raithebrone.|
 
 T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|To Fjornson Stonecarver back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|From Fjornson Stonecarver.|PRE|47070+47072+47073+47074+47076+47078+47079|
+A Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|From Fjornson Stonecarver.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|To Fjornson Stonecarver.|
 
@@ -450,7 +455,7 @@ C Source of the Corruption|QID|46107|QO|1|N|Travel to Hero's Rest (outside of Bl
 C Source of the Corruption|QID|46107|QO|2|N|Jarod tries to reason with them. Kill the ones that can't be released.|
 C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
 T Source of the Corruption|QID|46107|M|38.8,51.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A The Matter Resolved...For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080|
+A The Matter Resolved...For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|
 P Dalaran|QID|46200|M|38.8,51.4|Z|Val'sharah|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46200|
 T The Matter Resolved...For Now...|QID|46200|M|22.47,40.53|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 
