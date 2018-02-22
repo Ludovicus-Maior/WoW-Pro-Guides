@@ -741,8 +741,17 @@ end
 WoWPro.RegisterEventHandler("QUEST_COMPLETE", function (event,...)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     local questtitle = GetTitleText();
+    WoWPro:dbp("Quest is [%s], matching %s[%s]",tostring(questtitle),tostring(WoWPro.action[qidx]), tostring(WoWPro.step[qidx]))
 	if WoWProCharDB.AutoTurnin == true and
 	   WoWPro.action[qidx] == "T" and
+	   questtitle == WoWPro.step[qidx] then
+	    if (GetNumQuestChoices() <= 1) then
+	        GetQuestReward(1)
+	    end
+    end
+    -- Some quests are auto-turnin on accept
+    if WoWProCharDB.AutoAccept == true and
+	   WoWPro.action[qidx] == "A" and
 	   questtitle == WoWPro.step[qidx] then
 	    if (GetNumQuestChoices() <= 1) then
 	        GetQuestReward(1)
