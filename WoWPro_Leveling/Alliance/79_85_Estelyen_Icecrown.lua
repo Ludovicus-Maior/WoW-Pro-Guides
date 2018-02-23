@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2018-02-20 01:30
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3301/revisions/28919/view
 -- Date: 2018-01-17 00:03
 -- Who: Ludovicus
 -- Log: New Levels
@@ -113,7 +118,7 @@ return [[
 N How to use this Guide|QID|13418|N|This guide includes many 5-Man Quests. It is unlikely that you will find a random group for those since the release of Cataclysm, but you can easily solo most of them once your character wears Cataclysm-Gear. If you already have a full equipment from any of the Cataclysm zones, you can try to do them solo, if you don't, just skip those Quests.|
 A Preparations for War|QID|13418|N|From Officer Van Rossem on Krasus Landing in Dalaran.|Z|Dalaran City@Dalaran|M|68.80,46.60|
 T Preparations for War|QID|13418|N|Talk to Officer Van Rossem again to fly to the Skybreaker. Turn the quest in to High Captain Justin Bartlett inside the back/rear/stern/aft part of the ship, just walk straight in from the main deck.|Z|Dalaran City@Dalaran|
-A Judgment Day Comes!|QID|13226|N|From Absalan the Pious. He patrols around on the Deck of the Skybreaker.|
+A Judgment Day Comes!|QID|13226|LEAD|13036|N|From Absalan the Pious. He patrols around on the Deck of the Skybreaker.|
 T Judgment Day Comes!|QID|13226|N|To Highlord Tirion Fordring at the Argent Vanguard.|M|87.40,75.80|
 A Honor Above All Else|QID|13036|N|From Highlord Tirion Fordring.|
 T Honor Above All Else|QID|13036|N|To Crusade Commander Entari.|M|87.00,75.80|
@@ -144,11 +149,11 @@ A Once More Unto The Breach, Hero|QID|13105|PRE|13086|C|Death Knight|N|From High
 T Once More Unto The Breach, Hero|QID|13104|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|To The Ebon Watcher.|M|83.00,72.80|
 T Once More Unto The Breach, Hero|QID|13105|C|Death Knight|N|To The Ebon Watcher.|M|83.00,72.80|
 
-A The Purging Of Scourgeholme|QID|13118|PRE|13104;13105|N|From The Ebon Watcher.|
-A The Scourgestone|QID|13122|PRE|13104;13105|N|From The Ebon Watcher.|
-A It Could Kill Us All|QID|13135|PRE|13104;13105|N|From Crusade Engineer Spitzpatrick.|M|83.00,73.00|
-A The Stone That Started A Revolution|QID|13130|PRE|13104;13105|N|From Crusade Architect Silas.|
-A The Restless Dead|QID|13110|PRE|13104;13105|N|From Father Gustav, in the shed.|M|82.80,72.80|
+A The Purging Of Scourgeholme|QID|13118|PRE|13104+13105|N|From The Ebon Watcher.|
+A The Scourgestone|QID|13122|PRE|13104+13105|N|From The Ebon Watcher.|
+A It Could Kill Us All|QID|13135|PRE|13104+13105|N|From Crusade Engineer Spitzpatrick.|M|83.00,73.00|
+A The Stone That Started A Revolution|QID|13130|PRE|13104+13105|N|From Crusade Architect Silas.|
+A The Restless Dead|QID|13110|PRE|13104+13105|N|From Father Gustav, in the shed.|M|82.80,72.80|
 C The Scourgestone|QID|13122|N|Kill scourge and collect Scourgestones off them.|S|
 C The Purging Of Scourgeholme|QID|13118|N|Kill the mobs you still need for this quest. The High Priests are inside the ziggurats.|M|79.40,65.20|S|
 C The Restless Dead|QID|13110|U|43153|N|Kill Reanimated Crusaders in Scourgeholme and use the Holy Water on their corpses.|M|79.40,65.20|
@@ -164,8 +169,8 @@ T The Purging Of Scourgeholme|QID|13118|N|To The Ebon Watcher.|M|83.00,72.80|
 T The Scourgestone|QID|13122|N|To The Ebon Watcher.|
 
 A The Air Stands Still|QID|13125|PRE|13118;13122|N|From The Ebon Watcher.|
-K Salranax the Flesh Render |QID|13125|QO|Salranax the Flesh Render slain: 1/1|U|43206|N|Use the Horn to call for aid should you need it.|M|77.32,61.90|
-K High Priest Yath'amon |QID|13125|QO|High Priest Yath'amon slain: 1/1|U|43206|N|Use the Horn to call for aid should you need it.|M|80.18,61.22|
+K Salranax the Flesh Render |QID|13125|QO|1|U|43206|N|Use the Horn to call for aid should you need it.|M|77.32,61.90|; Salranax the Flesh Render slain: 1/1
+K High Priest Yath'amon |QID|13125|QO|3|U|43206|N|Use the Horn to call for aid should you need it.|M|80.18,61.22|; High Priest Yath'amon slain: 1/1
 C The Air Stands Still|QID|13125|U|43206|N|Use the Horn to call for aid should you need it.|M|76.40,53.35|
 T The Air Stands Still|QID|13125|N|To The Ebon Watcher. If you called for aid, you can click on the portal he came out of to quickly get back to the Ebon Watcher.|M|83.00,72.80|
 A Into The Frozen Heart Of Northrend|QID|13139|PRE|13110;13124;13130;13135|N|From Father Gustav.|M|82.80,72.80|
@@ -252,9 +257,9 @@ A Coprous the Defiled|QID|13298|N|This is your first 5-Man quest. From Thassaria
 A Basic Chemistry|QID|13295|PRE|13294|N|Another 5-Man quest. From Thassarian.|
 C Basic Chemistry|QID|13295|U|44010|N|This quest is really hard, even if you have lower level Cataclysm-Gear. You can give it a try, if it's too hard, just abandon it. Enter the building and use the item near the plague cauldrons repeatedly until the quest is complete.|M|63.40,62.10|
 C Coprous the Defiled|QID|13298|N|Kill Coprous the Defiled inside the building.|M|60.80,62.20|
-N Aldur'thar South Visited|QID|13315|QO|Aldur'thar South Visited: 1/1|N|Fly here.|M|55.36,47.17|
-N Aldur'thar Central Visited|QID|13315|QO|Aldur'thar Central Visited: 1/1|N|Fly here.|M|53.90,42.63|
-N Aldur'thar North Visited|QID|13315|QO|Aldur'thar North Visited: 1/1|N|Fly here.|M|53.90,35.08|
+N Aldur'thar South Visited|QID|13315|QO|1|N|Fly here.|M|55.36,47.17|; Aldur'thar South Visited: 1/1
+N Aldur'thar Central Visited|QID|13315|QO|2|N|Fly here.|M|53.90,42.63|; Aldur'thar Central Visited: 1/1
+N Aldur'thar North Visited|QID|13315|QO|1|N|Fly here.|M|53.90,35.08|; Aldur'thar North Visited: 1/1
 C Sneak Preview|QID|13315|N|Fly here.|M|51.73,34.13|
 T Sneak Preview|QID|13315|N|To Thassarian.|
 T Coprous the Defiled|QID|13298|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
@@ -264,13 +269,13 @@ A Drag and Drop|QID|13318|N|From Thassarian.|
 A Chain of Command|QID|13319|N|From Thassarian.|
 A Cannot Reproduce|QID|13320|N|From Thassarian.|
 C Drag and Drop|QID|13318|S|U|44246|N|Kill Bitter Initiates until you loot an Orb of Illusion. Throw the Orb at a Dark Subjugator from a distance. Repeat 3 times.|M|54.40,45.60|
-K Overseer Faedris|QID|13319|QO|Overseer Faedris Killed: 1/1|M|53.93,46.96|N|Kill Overseer Faedris.|
+K Overseer Faedris|QID|13319|QO|1|M|53.93,46.96|N|Kill Overseer Faedris.|; Overseer Faedris Killed: 1/1
 C Drag and Drop|QID|13318|US|U|44246|N|Kill Bitter Initiates until you loot an Orb of Illusion. Throw the Orb at a Dark Subjugator from a distance. Repeat 3 times.|M|54.40,45.60|
-K Overseer Jhaeqon|QID|13319|QO|Overseer Jhaeqon Killed: 1/1|M|54.8,32.5|N|Kill Overseer Jhaeqon.|
-K Overseer Veraj|QID|13319|QO|Overseer Veraj Killed: 1/1|M|53.6,29.2|N|Kill Overseer Veraj.|
+K Overseer Jhaeqon|QID|13319|QO|2|M|54.8,32.5|N|Kill Overseer Jhaeqon.|; Overseer Jhaeqon Killed: 1/1
+K Overseer Veraj|QID|13319|QO|3|M|53.6,29.2|N|Kill Overseer Veraj.|; Overseer Veraj Killed: 1/1
 C Chain of Command|QID|13319|M|49.4,31.2|N|Kill Overseer Savryn.|
-N Blue Sample Collected|QID|13320|U|44251|QO|Blue Sample Collected: 1/1|N|Use the item near the blue cauldron here.|M|48.97,33.16|
-N Green Sample Collected|QID|13320|U|44251|QO|Green Sample Collected: 1/1|N|Use the item near the green cauldron here.|M|49.08,34.19|
+N Blue Sample Collected|QID|13320|U|44251|QO|1|N|Use the item near the blue cauldron here.|M|48.97,33.16|; Blue Sample Collected: 1/1
+N Green Sample Collected|QID|13320|U|44251|QO|1|N|Use the item near the green cauldron here.|M|49.08,34.19|; Green Sample Collected: 1/1
 C Cannot Reproduce|QID|13320|U|44251|N|Use the item near the final cauldron here.|M|49.67,34.38|
 T Drag and Drop|QID|13318|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T Chain of Command|QID|13319|N|To Thassarian.|
@@ -311,9 +316,9 @@ A Bloodspattered Banners|QID|13334|N|From Thassarian.|
 A Get the Message|QID|13314|N|From High Captain Justin Bartlett. He's inside the back/rear/stern/aft part of the Skybreaker, just walk straight in from the main deck.|
 C The Ironwall Rampart|QID|13337|U|44186|N|Use the item near Grimkor's Orb to summon Grimkor the Wicked, kill him.|M|45.43,46.46|
 K Converted Heroes|QID|13334|QO|Converted Hero slain: 20/20|N|Kill Converted Heroes.|S|
-K Scourge Banner-Bearers|QID|13334|S|QO|Scourge Banner-Bearer slain: 5/5|N|Kill Scourge Banner-Bearers.|M|43.40,50.40|
+K Scourge Banner-Bearers|QID|13334|S|QO|1|N|Kill Scourge Banner-Bearers.|M|43.40,50.40|; Scourge Banner-Bearer slain: 5/5
 C Get the Message|QID|13314|U|44222|N|Shoot down Orgrim's Hammer Scouts flying around this area, you can use the dart while flying yourself, just dive after them to collect your reward.|M|43.40,53.40|
-K Scourge Banner-Bearers|QID|13334|US|QO|Scourge Banner-Bearer slain: 5/5|N|Kill Scourge Banner-Bearers.|M|43.40,50.40|
+K Scourge Banner-Bearers|QID|13334|US|QO|1|N|Kill Scourge Banner-Bearers.|M|43.40,50.40|; Scourge Banner-Bearer slain: 5/5
 K Converted Heroes|QID|13334|QO|Converted Hero slain: 20/20|N|Kill Converted Heroes.|M|43.40,50.40|US|
 C Bloodspattered Banners|QID|13334|N|Kill Scourge Converters, they are more to the northeast.|M|49.80,41.20|
 T Get the Message|QID|13314|N|To High Captain Justin Bartlett. He's inside the back/rear/stern/aft part of the Skybreaker, just walk straight in from the main deck.|
@@ -334,30 +339,30 @@ T The Guardians of Corp'rethar|QID|13338|N|To Thassarian.|
 A It's All Fun and Games|QID|12887|N|From Thassarian.|
 C It's All Fun and Games|QID|12887|U|41265|N|Get within range of the eye on top of the Shadow Vault and repeatedly use your Eyesore Blaster until it is destroyed.|M|44.31,21.56|
 T It's All Fun and Games|QID|12887|N|Baron Sliver is hiding at the bottom of the Shadow Vault.|M|44.12,24.69|
-A I Have an Idea, But First...|QID|12891|PRE|12887;12892|N|From Baron Sliver.|
+A I Have an Idea, But First...|QID|12891|PRE|12887+12892|N|From Baron Sliver.|
 C I Have an Idea, But First...|QID|12891|N|Kill cultists for the Rod, Abominations for the Hook and Geists for the Rope. The essence drops from most of the mobs in the region.|
 T I Have an Idea, But First...|QID|12891|N|To Baron Sliver.|M|44.12,24.69|
 
 A Free Your Mind|QID|12893|PRE|12891|N|From Baron Sliver.|
-N Free Your Mind|QID|12893|U|41366|QO|Lady Nightswood turned: 1/1|N|Kill Lady Nightswood and use the Sovereign Rod on her corpse.|M|41.75,24.45|
-N Free Your Mind|QID|12893|U|41366|QO|Vile turned: 1/1|N|Kill Vile and use the Sovereign Rod on his corpse.|M|44.38,26.89|
+N Free Your Mind|QID|12893|U|41366|QO|2|N|Kill Lady Nightswood and use the Sovereign Rod on her corpse.|M|41.75,24.45|; Lady Nightswood turned: 1/1
+N Free Your Mind|QID|12893|U|41366|QO|1|N|Kill Vile and use the Sovereign Rod on his corpse.|M|44.38,26.89|; Vile turned: 1/1
 C Free Your Mind|QID|12893|U|41366|N|Kill The Leaper and use the Sovereign Rod on his corpse. He patrols around on the ledge above Baron Sliver.|M|44.66,23.26|
 T Free Your Mind|QID|12893|N|To Baron Sliver.|M|44.12,24.69|
 A If He Cannot Be Turned|QID|12896|N|From Baron Sliver.|
 C If He Cannot Be Turned|QID|12896|N|Click on one of the Weapon Racks inside the Shadow Vault and General Lighstbane will appear. Kill him.|M|44.69,19.90|
 T If He Cannot Be Turned|QID|12896|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
-A The Shadow Vault|QID|12898|PRE|12896;12897|N|From Thassarian.|
+A The Shadow Vault|QID|12898|PRE|12896+12897|N|From Thassarian.|
 T The Shadow Vault|QID|12898|N|Back to Baron Sliver, he has moved a little to the west.|M|42.86,25.00|
-A The Duke|QID|12938|PRE|12898;12899|N|From Baron Sliver.|
+A The Duke|QID|12938|PRE|12898+12899|N|From Baron Sliver.|
 A Blackwatch|QID|13106|N|From Baron Sliver.|
 T The Duke|QID|12938|N|To Duke Lankral inside the Shadow Vault.|M|44.66,20.35|
 
 A Honor Challenge|QID|12939|PRE|12938|N|From Duke Lankral.|
 A Eliminate the Competition|QID|12955|PRE|12938|N|From The Leaper just outside.|M|43.45,25.06|
 C Honor Challenge|QID|12939|U|41372|N|Use the Flag on groups of fighting Vrykul on the Savage Ledge and kill the one that accepts the challenge.|S|
-N Challenge Efrem the Faithful|QID|12955|QO|Efrem the Faithful defeated: 1/1|N|Speak to Efrem the Faithful and defeat him.|M|37.86,25.12|
-N Challenge Onu'zun|QID|12955|QO|Onu'zun defeated: 1/1|N|Speak to Onu'zun and defeat him.|M|37.90,22.88|
-N Challenge Sigrid Iceborn|QID|12955|QO|Sigrid Iceborn defeated: 1/1|N|Speak to Sigrid Iceborn and defeat her. You will meet her again later.|M|37.09,22.47|
+N Challenge Efrem the Faithful|QID|12955|QO|2|N|Speak to Efrem the Faithful and defeat him.|M|37.86,25.12|; Efrem the Faithful defeated: 1/1
+N Challenge Onu'zun|QID|12955|QO|3|N|Speak to Onu'zun and defeat him.|M|37.90,22.88|; Onu'zun defeated: 1/1
+N Challenge Sigrid Iceborn|QID|12955|QO|1|N|Speak to Sigrid Iceborn and defeat her. You will meet her again later.|M|37.09,22.47|; Sigrid Iceborn defeated: 1/1
 C Eliminate the Competition|QID|12955|N|Speak to Tinky Wickwhistle and defeat her.|M|36.14,23.57|
 C Honor Challenge|QID|12939|U|41372|N|Use the Flag on groups of fighting Vrykul on the Savage Ledge and kill the one that accepts the challenge.|US|
 T Eliminate the Competition|QID|12955|N|To The Leaper in front of the Shadow Vault.|M|43.45,25.06|
@@ -437,7 +442,7 @@ A You'll Need a Gryphon|QID|12814|PRE|12810|N|From Lord-Commander Arete.|
 T The Grand (Admiral's) Plan|QID|12839|N|To Lord-Commander Arete.|M|19.60,48.00|
 A In Strict Confidence|QID|12840|PRE|12839|N|From Lord-Commander Arete.|
 l Onslaught Gryphon Reins|QID|12814|S|L|40970|N|Kill Gryphon Riders until you find Onslaught Gryphon Reins.|M|09.00,42.40|
-N Captain Hartford|QID|12840|QO|Captain Hartford beaten for information and killed: 1/1|N|You have to beat some information out of her, so be careful not to kill her too fast.|M|07.00,41.90|
+N Captain Hartford|QID|12840|QO|1|N|You have to beat some information out of her, so be careful not to kill her too fast.|M|07.00,41.90|; Captain Hartford beaten for information and killed: 1/1
 C In Strict Confidence|QID|12840|N|You have to beat some information out of Captain Welsington, so be careful not to kill him too fast.|M|05.70,41.90|
 l Onslaught Gryphon Reins|QID|12814|US|L|40970|N|Kill Gryphon Riders until you find Onslaught Gryphon Reins.|M|09.00,42.40|
 C You'll Need a Gryphon|QID|12814|U|40970|N|Use the Reins and fly the Gryphon back to Death's Rise. Use your ability to turn in the gryphon. If you want, you can skip this step and keep the gryphon for a while, it can serve as a flying Mount in Icecrown, although you can't do the daily quest "No Fly Zone" until you handed this one in.|M|19.60,47.80|
@@ -445,7 +450,7 @@ T You'll Need a Gryphon|QID|12814|N|To Uzo Deathcaller.|M|19.60,47.80|
 T In Strict Confidence|QID|12840|N|To Lord-Commander Arete.|M|19.60,48.00|
 
 A Second Chances|QID|12847|PRE|12840|N|This is a 5-Man quest. From Lord-Commander Arete.|
-K Archbishop Landgren slain|QID|12847|QO|Archbishop Landgren slain: 1/1|N|Enter the cathedral on the island and kill Archbishop Landgren.|M|09.50,47.10|
+K Archbishop Landgren slain|QID|12847|QO|1|N|Enter the cathedral on the island and kill Archbishop Landgren.|M|09.50,47.10|; Archbishop Landgren slain: 1/1
 C Second Chances|QID|12847|U|40730|N|Use the item near the corpse of the Archbishop.|
 T Second Chances|QID|12847|N|To Lord-Commander Arete. If you wait for his dialogue with the Archbishop to finish, you can turn it in right here and don't have to fly back to Death's Rise.|M|09.50,47.10|
 A The Admiral Revealed|QID|12852|PRE|12847|N|Another 5-Man quest from Lord-Commander Arete.|
@@ -565,9 +570,9 @@ C New Recruit|QID|13143|N|Fly up to the ledge above and beat down a Lithe Stalke
 T New Recruit|QID|13143|N|To Vereth the Cunning.|M|54.00,71.00|
 A The Vile Hold|QID|13145|PRE|13143|N|From Vereth the Cunning.|
 R Malykriss: The Vile Hold|QID|13145|N|Use the Eye of Dominion just up the road behind Vereth the Cunning, then move the Lithe Stalker east to Malykriss.|M|55.46,73.76|
-N Altar of Sacrifice explored|QID|13145|QO|Altar of Sacrifice explored: 1/1|N|Climb up the wall at the first waypoint using 'Leap' (ability #1). Then head to the second one to examine the Altar.|M|57.64,76.01;56.3,79.1|CS|
-N Icy Lookout explored|QID|13145|QO|Icy Lookout explored: 1/1|N|Scout the Icy Lookout. Just walk down the road.|M|55.75,73.67;56.28,69.18;60.6,68.7|CS|
-N Blood Forge explored|QID|13145|QO|Blood Forge explored: 1/1|N|Scout the Blood Forge. Leap down into Malykriss then head to the waypoint. |M|58.1,70.9|
+N Altar of Sacrifice explored|QID|13145|QO|1|N|Climb up the wall at the first waypoint using 'Leap' (ability #1). Then head to the second one to examine the Altar.|M|57.64,76.01;56.3,79.1|CS|; Altar of Sacrifice explored: 1/1
+N Icy Lookout explored|QID|13145|QO|3|N|Scout the Icy Lookout. Just walk down the road.|M|55.75,73.67;56.28,69.18;60.6,68.7|CS|; Icy Lookout explored: 1/1
+N Blood Forge explored|QID|13145|QO|2|N|Scout the Blood Forge. Leap down into Malykriss then head to the waypoint. |M|58.1,70.9|; Blood Forge explored: 1/1
 C The Vile Hold|QID|13145|N|Scout the Runeworks.|M|59.1,74.4|
 T The Vile Hold|QID|13145|N|To Vereth the Cunning.|M|54.00,71.00|
 
