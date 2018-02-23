@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2018-02-20 01:09
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3247/revisions/28849/view
 -- Date: 2018-01-16 23:20
 -- Who: Ludovicus
 -- Log: New Levels
@@ -121,11 +126,11 @@ return [[
 R Light's Hope Chapel|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|The questing begins at Light's Hope Chapel in Eastern Plaguelands. Head to there to begin this guide. \n\nYou can also grab hold the breadcrumb Hero's Quest from Ironforge or Stormwind, but this is not necessary for this guide.|
 T Hero's Call: Badlands! |QID|28579|M|73.8,53.1|Z|Eastern Plaguelands|N|To Gek Nozzlerocket|O|
 
-A Fuselight, Ho!|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|From Gek Nozzlerocket.|
+A Fuselight, Ho!|QID|27762|LEAD|27763|M|73.8,53.1|Z|Eastern Plaguelands|N|From Gek Nozzlerocket.|
 R Fuselight-by-the-Sea|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|Click on "The Uncrashable" behind Gek, and accept the warning that it will take you to The Badlands. Pray - it is some bad driving.|
 T Fuselight, Ho!|QID|27762|M|92.6,38.9|N|To Eddie Flofizzle.|
 
-A To Fuselight Proper|QID|27763|M|92.48,38.94|N|From Eddie Flofizzle.|
+A To Fuselight Proper|QID|27763|LEAD|27774|M|92.48,38.94|N|From Eddie Flofizzle.|
 R Badlands|QID|27763|M|88.13,32.54|N|Head to Fuselight by going through the teleporter.|
 
 f Fuselight|QID|27763|M|82.02,30.88;74.93,33.86;68.62,30.77;70.17,35.40;67.94,35.65;64.35,35.24|CS|N|Continue to Mixi Sweetride at Fuselight by following the glossy looking arrows.|
@@ -212,13 +217,13 @@ A The Day that Deathwing Came|QID|27713|M|26.43,62.19|N|From Theldurin the Lost.
 C The Day that Deathwing Came|QID|27713|M|41.97,43.60|N|Run through the scar, punch the mobs needed, and the barriers to go through them. Enjoy punching Deathwing in the face.|
 T The Day that Deathwing Came|QID|27713|M|26.33,62.25|N|To Theldurin the Lost.|
 A The Day that Deathwing Came: The Real Story|QID|27714|PRE|27713|M|26.38,62.55|N|From Lucien Tosselwrench.|
-N Shrink the World|QID|27714|QO|Grow large enough to reach the clouds: 1/1|N|Use Ability #1, until you get large enough.|
+N Shrink the World|QID|27714|QO|1|N|Use Ability #1, until you get large enough.|; Grow large enough to reach the clouds: 1/1
 N The Day that Deathwing Came: The Real Story|QID|27714|QO|Clouds searched: 5/5|M|35.3,50.7;39.6,59.8;49.2,57.4;33.8,37.4;17.1,65.5;14.3,53.4|CN|N|Use the "World Enlarger" ability, then hunt for clouds. The waypoints are a few of the spots where a cloud could be.|
 C The Day that Deathwing Came: The Real Story|QID|27714|M|18.7,64.4|N|Look up for the "Sun" in the sky, huge orange-ish ball, click on it.|
 T The Day that Deathwing Came: The Real Story|QID|27714|M|26.26,62.35|N|To Lucien Tosselwrench.|
 A The Day that Deathwing Came: What Really Happened|QID|27715|PRE|27714|M|26.24,62.38|N|From Martek the Exiled.|
-N Choose an admirer to save|QID|27715|M|26.33,62.38|QO|Choose an admirer to save: 1/1|N|Choose a babe, one is also a Blood Elf male.|
-N Ride to the end of the canyon|QID|27715|M|43.38,41.13|QO|Ride to the end of the canyon: 1/1|N|Run to the waypoint.|
+N Choose an admirer to save|QID|27715|M|26.33,62.38|QO|1|N|Choose a babe, one is also a Blood Elf male.|; Choose an admirer to save: 1/1
+N Ride to the end of the canyon|QID|27715|M|43.38,41.13|QO|2|N|Run to the waypoint.|; Ride to the end of the canyon: 1/1
 C The Day that Deathwing Came: What Really Happened|QID|27715|M|39.37,38.51|N|Fly up to Deathwing.|
 T The Day that Deathwing Came: What Really Happened|QID|27715|M|26.29,62.29|N|To Martek the Exiled.|
 
@@ -245,7 +250,7 @@ N Note:|QID|27829|N|Abuse the heck out of Eric's, "Eric's Charge" ability as it 
 C The Wrath of a Dragonflight|QID|27829|M|26.38,45.02|N|Kalaran wanders around so look for his boss icon on the minimap.|
 T The Wrath of a Dragonflight|QID|27829|M|26.12,45.32|N|(UI Alert)|
 A Their Hunt Continues|QID|27830|PRE|27829|M|26.12,45.32|N|(UI Alert)|
-K Moldarr|QID|27830|M|17.07,47.78|N|Kill Moldarr.|QO|Moldarr slain: 1/1|
+K Moldarr|QID|27830|M|17.07,47.78|N|Kill Moldarr.|QO|2|; Moldarr slain: 1/1
 C Their Hunt Continues|QID|27830|M|15.85,42.12|N|Head up to General Jirakka, kill the rest of the Darkflight dragonspawn you need on the way.|
 T Their Hunt Continues|QID|27830|M|15.76,42.24|N|(UI Alert)|
 
@@ -257,7 +262,7 @@ T The Hidden Clutch|QID|27832|M|16.01,33.31|N|To Rhea.|
 A Rheastrasza's Gift|QID|27858|PRE|27832|M|16.09,33.20|N|From Rhea.|
 C Rheastrasza's Gift|QID|27858|M|15.89,32.95|N|Cutscene: Wait as Rhea retrieves the egg from the Hidden Clutch.|
 T Rheastrasza's Gift|QID|27858|M|17.47,30.64|N|(UI Alert)|
-A Devastation|QID|27930|PRE|27858;27898|M|17.47,30.64|N|(UI Alert)|
+A Devastation|QID|27930|PRE|27858+27898|M|17.47,30.64|N|(UI Alert)|
 T Devastation|QID|27930|M|18.77,30.16|N|Go inside the cave.|
 A The Egg Lives On|QID|27859|PRE|27930|M|17.98,30.55|N|From Dr. Hieronymus Blam.|
 
@@ -267,7 +272,7 @@ C Half-Ton Holdouts|QID|27833|M|14.71,63.74|N|Kill the ogres that you need.|S|
 C Survival of the Fattest|QID|27825|M|11.84,71.49|N|Loot the glowing things.|
 C Half-Ton Holdouts|QID|27833|M|14.71,63.74|N|Head back outside the cave to kill the rest of the ogres that you need.|US|
 T Survival of the Fattest|QID|27825|M|20.74,55.86|N|To Victoria Dolen.|
-A To the Aid of the Thorium Brotherhood|QID|28512|M|20.74,55.86|N|From Victoria Dolen. Will not show up if you have the quest, "Hero's Call: Searing Gorge!"|
+A To the Aid of the Thorium Brotherhood|QID|28512|LEAD|27963|M|20.74,55.86|N|From Victoria Dolen. Will not show up if you have the quest, "Hero's Call: Searing Gorge!"|
 T Half-Ton Holdouts|QID|27833|M|20.96,57.39|N|To Terrance Storm.|
 F Stormwind City or Ironforge|M|21.78,57.70|N|Fly to Stormwind or Ironforge to visit your trainers, and AH. Close this step to go to the next guide.|
 
