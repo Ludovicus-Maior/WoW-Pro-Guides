@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2018-02-20 01:11
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3259/revisions/28865/view
 -- Date: 2018-01-16 23:31
 -- Who: Ludovicus
 -- Log: New Levels
@@ -125,7 +130,7 @@ return [[
 R Thousand Needles |QID|27446|LVL|45|M|75.95,74.58|N|This quest starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles.  \n\nIf you have not quested in Thousand Needles before this point, you should fly to Shadebough, Feralas or Mudsprocket, Dustwallow Marsh.  From there, get the quest To New Thalanaar, fly to New Thalanaar, do the quest The Grimtotem are Coming, then the quest Two If By Boat.|Z|Thousand Needles|
 R Fizzle & Pozzik's Speedbarge |QID|27446|N|This guide starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles, so head there first.|
 
-A Tanaris is Calling|QID|27446|M|75.95,74.58|Z|Thousand Needles|N|From Fizzle Brassbolts.|
+A Tanaris is Calling|QID|27446|LEAD|25048|M|75.95,74.58|Z|Thousand Needles|N|From Fizzle Brassbolts.|
 F Gadgetzan|QID|27446|M|79.11,71.85|Z|Thousand Needles|N|Fly to Gadgetzan from Tilly Topspin.|
 r Sell Junk / Repair and Restock|QID|27446|M|52.28,29.72|N|Sell any junk, and repair at Kringle Goodsteel.\n\nGadgetzan is home to the banker, if you need to utilise this.\n\nClick here to continue.|
 A Butcherbot|QID|25112|M|52.24,28.07|N|From Driz Plunkbow.|
@@ -157,8 +162,8 @@ A To The Ground!|QID|25053|PRE|25050|M|72.17,45.21|N|From Kelsey Steelspark.|
 A Lootin' Plunder|QID|25054|PRE|25050|M|72.17,45.21|N|From Kelsey Steelspark.|
 C Dead Man's Chest|QID|25052|S|M|72.61,46.39|N|Kill Southsea Pirates.|
 C Lootin' Plunder|QID|25054|S|M|71.50,46.79|N|Look inside the shacks, and collect Pirate Loot.|
-U To The Ground!|QID|25053|U|51547|QO|Northwest Shack: 1/1|M|71.67,46.75|N|The 1st building to torch is here.|
-U To The Ground!|QID|25053|U|51547|QO|Southwest Shack: 1/1|M|71.93,48|N|The second building to set on fire is here.|
+U To The Ground!|QID|25053|U|51547|QO|1|M|71.67,46.75|N|The 1st building to torch is here.|; Northwest Shack: 1/1
+U To The Ground!|QID|25053|U|51547|QO|1|M|71.93,48|N|The second building to set on fire is here.|; Southwest Shack: 1/1
 C To The Ground!|QID|25053|U|51547|M|72.88,46.09|N|The last building to torch is here.|
 C Lootin' Plunder|QID|25054|US|M|71.50,46.79|N|Finish collecting Pirate Loot.|
 C Dead Man's Chest|QID|25052|US|M|72.61,46.39|N|Finish killing Pirates.|
@@ -207,11 +212,11 @@ A Secrets in the Oasis|QID|25032|PRE|25026|M|42.29,23.88|N|From Mazoga.|
 C Secrets in the Oasis|QID|25032|M|39.04,35.17|N|Click on the dirt pile here.|
 T Secrets in the Oasis|QID|25032|M|42.44,24.02|N|To Trenton Lighthammer.|
 
-A Into Zul'Farrak|QID|25556|PRE|25032|M|42.44,24.02|N|From Trenton Lighthammer. If you do not wish to run the Zul'farrak dungeon; abandon this quest; but it is good XP and rewards if you do.|
+A Into Zul'Farrak|QID|25556|LEAD|27068|PRE|25032|M|42.44,24.02|N|From Trenton Lighthammer. If you do not wish to run the Zul'farrak dungeon; abandon this quest; but it is good XP and rewards if you do.|
 f Bootlegger Outpost|QID|26889|M|55.84,60.63|N|At Slick Dropdip.|
 T All Cheered Out|QID|26889|M|55.65,60.82|N|To Zeke Bootscuff.|
-A Cutting Losses|QID|24932|PRE|26889;25103|M|55.65,60.82|N|From Zeke Bootscuff.|
-A A Few Good Goblins|QID|25072|PRE|26889;25103|M|55.65,60.82|N|From Zeke Bootscuff.|
+A Cutting Losses|QID|24932|PRE|26889+25103|M|55.65,60.82|N|From Zeke Bootscuff.|
+A A Few Good Goblins|QID|25072|PRE|26889+25103|M|55.65,60.82|N|From Zeke Bootscuff.|
 C Cutting Losses|QID|24932|S|M|56.70,61.92|N|Kill any type of bug.|
 C A Few Good Goblins|QID|25072|M|56.75,63.46|N|The goblins are in Purple cocoons. Make sure you get the killing blow if you are a pet class.|
 C Cutting Losses|QID|24932|US|M|56.70,61.92|N|Finish killing Silithids.|
@@ -237,7 +242,7 @@ R Then here...|QID|24593|CC|M|54.19,70.07|N|Go to the cave mouth here, and take 
 R Then finally here...|QID|24593|CC|M|54.02,71.85|N|Into the circle room. Get in there center, and hit button 2.|
 C Just Trying to Kill Some Bugs|QID|24953|M|54.54,72.01|N|Explode!|
 T Just Trying to Kill Some Bugs|QID|24953|M|55.65,60.83|N|To Zeke Bootscuff.|
-A Land's End|QID|25061|PRE|24953|M|55.31,60.30|N|From Narain Soothfancy.|
+A Land's End|QID|25061|LEAD|25060|PRE|24953|M|55.31,60.30|N|From Narain Soothfancy.|
 A Find OOX-17/TN!|QID|351|O|U|8623|N|By now you should be high enough level to handle the Beacon quest. This is why I have pathed this guide like this up until now, giving you more chance to loot the Beacon. If you have not had the beacon drop please skip this step.|
 T Find OOX-17/TN!|QID|351|O|M|59.81,64.06|N|To Homing Robot OOX-17/TN.|
 A Rescue OOX-17/TN!|QID|648|O|PRE|351|M|59.80,63.99|N|From Homing Robot OOX-17/TN. This is optional as it the turn-in requires you to go to Booty Bay.|
@@ -260,13 +265,13 @@ T Terrapination|QID|25063|M|49.99,82.90|N|To Kelsey Steelspark.|
 A You Too, Brute?|QID|25065|PRE|25063|M|49.99,82.90|N|From Kelsey Steelspark.|
 C You Too, Brute?|QID|25065|M|53.31,89.73|N|Kill and loot Meatface.|
 T You Too, Brute?|QID|25065|M|50.00,82.90|N|To Kelsey Steelspark.|
-A Prospector Gunstan|QID|28881|PRE|25065|M|50.00,82.90|N|From Kelsey Steelspark.|
+A Prospector Gunstan|QID|28881|LEAD|25420|PRE|25065|M|50.00,82.90|N|From Kelsey Steelspark.|
 f Southmoon Ruins|QID|28881|M|49.10,76.00;40.01,77.50|CS|N|At Thurda.|
 T Prospector Gunstan|QID|28881|M|40.12,76.91|N|To Prospector Gunstan.|
 A Ancient Obstacles|QID|25420|M|40.12,76.91|N|From Prospector Gunstan.|
 A Laying Claim|QID|25559|M|40.12,76.91|N|From Prospector Gunstan.|
 A Fragments of Language|QID|25565|M|40.12,76.91|N|From Prospector Gunstan.|
-A The Thunderdrome!|QID|26895|M|40.26,77.13|N|From Flinn.|
+A The Thunderdrome!|QID|26895|LEAD|25067|M|40.26,77.13|N|From Flinn.|
 C Ancient Obstacles|QID|25420|M|37.91,76.99|N|Head towards the waypoint and kill Sandstone Golems.|
 C Laying Claim|QID|25559|S|M|41.21,69.31|N|Kill Religuary Diggers.|
 C Fragments of Language|QID|25565|M|41.03,70.46|N|Pick up Ancient Hieroglpyhs off the ground.|
@@ -278,12 +283,12 @@ T Fragments of Language|QID|25565|M|40.13,76.93|N|To Prospector Gunstan.|
 A The Secrets of Uldum|QID|25566|PRE|25420|M|40.10,76.86|N|From Prospector Gunstan. |
 R Ruins of Uldum|QID|25566|M|37.74,80.61|N|Head into the Ruins of Uldum.|
 T The Secrets of Uldum|QID|25566|M|84.48,43.21|N|To the Antediluvean Chest.|Z|Uldum|
-A What Lies Within|QID|25070|PRE|25069;25566|M|84.48,43.21|N|From the Antediluvean Chest.|Z|Uldum|
+A What Lies Within|QID|25070|PRE|25069+25566|M|84.48,43.21|N|From the Antediluvean Chest.|Z|Uldum|
 C What Lies Within|QID|25070|M|84.48,43.21|N|The Antechamber Guardian spawns behind you, kill it.|Z|Uldum|
 T What Lies Within|QID|25070|M|84.48,43.21|N|To the Antediluvean Chest.|Z|Uldum|
 A The Grand Tablet|QID|25421|M|84.48,43.21|N|From the Antediluvean Chest.|Z|Uldum|
 T The Grand Tablet|QID|25421|M|40.14,76.90|N|To Prospector Gunstan.|
-A Tropical Paradise Beckons|QID|24911|M|40.26,77.13|N|From Flinn. Pick this up if you plan to go to Un'Goro next.|
+A Tropical Paradise Beckons|QID|24911|LEAD|24740|M|40.26,77.13|N|From Flinn. Pick this up if you plan to go to Un'Goro next.|
 
 H Gadgetzan|QID|26895|N|Your hearth SHOULD still be set at Gadgetzan, if it is not, use the flight path to go back.|
 T The Thunderdrome!|QID|26895|M|51.78,28.00|N|To Dr. Dealwell.|
