@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2018-02-22 23:33
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3489/revisions/28941/view
 -- Date: 2018-01-17 00:35
 -- Who: Ludovicus
 -- Log: New Levels
@@ -126,11 +131,11 @@ L Level 86 |QID|30079|LVL|86|N|You need to be Level 86 to do this guide.|
 F Zhu's Watch|QID|30079|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
 T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.24,7.13|N|From Ken-Ken.|
-C Speak with Mei|QID|30079|CHAT|QO|Speak with Mei: 1/1|M|75.86,7.60|N|up the stairs, outside.|
+C Speak with Mei|QID|30079|CHAT|QO|4|M|75.86,7.60|N|up the stairs, outside.|; Speak with Mei: 1/1
 A Finding Yi-Mo|QID|30080|M|75.86,7.60|N|From Mei Barrelbottom.|
-C Speak with Yun|QID|30079|CHAT|QO|Speak with Yun: 1/1|M|75.48,9.26|N|up the stairs, inside.|
-C Speak with Despondent Warden of Zhu|QID|30079|CHAT|QO|Speak with Despondent Warden of Zhu: 1/1|M|76.69,8.85|
-C Speak with Sunni|QID|30079|CHAT|QO|Speak with Sunni: 1/1|M|76.44,8.27|N|up the stairs, inside.|
+C Speak with Yun|QID|30079|CHAT|QO|3|M|75.48,9.26|N|up the stairs, inside.|; Speak with Yun: 1/1
+C Speak with Despondent Warden of Zhu|QID|30079|CHAT|QO|1|M|76.69,8.85|; Speak with Despondent Warden of Zhu: 1/1
+C Speak with Sunni|QID|30079|CHAT|QO|2|M|76.44,8.27|N|up the stairs, inside.|; Speak with Sunni: 1/1
 f Zhu's Watch|QID|30080|M|76.7,8.38|N|At Gee Hung.|
 l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;19.17,39.06|Z|Valley of the Four Winds|CS|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 feet, and up into the house, papers are on table.|
 C Finding Yi-Mo|QID|30080|CHAT|M|78.97,7.73|N|He is lying on the ground.|
@@ -150,9 +155,9 @@ A Borderlands|QID|30084|PRE|30091|M|75.83,7.65|N|From Mei Barrelbottom.|
 T Materia Medica|QID|30081|M|76.24,7.14|N|To Ken-Ken.|
 A Why So Serious?|QID|30088|PRE|30081|M|76.24,7.14|N|From Ken-Ken.|
 C Why So Serious?|QID|30088|S|L|78941 18|M|72.00,16.91|N|The panthers are in the area around the Memorial Flames.|
-C Memorial Flame of Po|QID|30084|NC|U|78928|QO|Memorial Flame of Po: 1/1|M|75.20,17.20|
-C Memorial Flame of Zhu|QID|30084|NC|U|78928|QO|Memorial Flame of Zhu: 1/1|M|72.71,18.11|
-C Memorial Flame of Rin|QID|30084|NC|U|78928|QO|Memorial Flame of Rin: 1/1|M|71.21,17.55|
+C Memorial Flame of Po|QID|30084|NC|U|78928|QO|1|M|75.20,17.20|; Memorial Flame of Po: 1/1
+C Memorial Flame of Zhu|QID|30084|NC|U|78928|QO|1|M|72.71,18.11|; Memorial Flame of Zhu: 1/1
+C Memorial Flame of Rin|QID|30084|NC|U|78928|QO|1|M|71.21,17.55|; Memorial Flame of Rin: 1/1
 C Securing the Province|QID|30083|S|M|77.30,58.91|Z|Valley of the Four Winds|N|Kill the sauroks on the way in and out of the cave.|;the tomtom arrow doesn't show up for the next few steps (located outside of Krasarang Wilds).
 l Saurok Stone Tablet|QID|30088|L|86220|M|75.05,55.12|Z|Valley of the Four Winds|N|The tablet, located in the second "room" of the cave, is a world drop worth ~100G and a random amount of XP (at least as much as one quest)|
 l Jar of Pigment|QID|30088|US|L|78942|M|73.89,56.30|Z|Valley of the Four Winds|N|Pick up the jar of pigment here.|
@@ -181,7 +186,7 @@ f Thunder Cleft|QID|30123|M|59.23,24.55|N|At Lira Skysplitter.|
 C Kill and loot skitterers|QID|30123|S|M|62.46,32.89|N|Its a random drop from the skitterers.|
 C Kill cranes|QID|30352|S|M|63.94,29.44|
 C Kill tigers|QID|30353|S|M|71.15,24.65|N|The tigers drop 0-3 blood, they also run around stealthed.|
-K Darnassian Outrider|QID|30124|T|Darnassian Outrider|M|61.56,30.64|QO|Darnassian Outrider slain: 1/1|N|She paths up and down this path.|
+K Darnassian Outrider|QID|30124|T|Darnassian Outrider|M|61.56,30.64|QO|1|N|She paths up and down this path.|; Darnassian Outrider slain: 1/1
 C Kill and loot skitterers|QID|30123|US|M|62.46,32.89|N|Its a random drop from the skitterers.|
 C Kill cranes|QID|30352|US|M|63.94,29.44|
 C Kill tigers|QID|30353|US|M|71.15,24.65|N|The tigers drop 0-3 blood, they are likely to be stealthed.|
@@ -216,7 +221,7 @@ A Going West|QID|30132|PRE|30131|M|60.42,25.52|N|From Sunwalker Dezco.|
 R While traveling|QID|30133|M|50.8,49.4|CC|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
 C Going West|QID|30132|NC|M|43.83,42.85|N|The poor scout is on the ground (again).|
 T Into the Wilds|QID|30133|M|44.16,43.00|N|To Koro Mistwalker.|
-A Unsafe Passage|QID|30269|PRE|30133;30178|M|44.16,43.00|N|From Koro Mistwalker.|
+A Unsafe Passage|QID|30269|PRE|30133+30178|M|44.16,43.00|N|From Koro Mistwalker.|
 C Unsafe Passage|QID|30269|CHAT|M|43.72,36.01|N|Walk with the refugees, 2 encounters along the way.|
 r Repair and Sell|QID|30269|M|40.88,34.41|N|If your bags are full, we have found Supplier An open for business. Check this step off manually.|
 T Unsafe Passage|QID|30269|M|40.67,33.72|N|To Koro Mistwalker.|
@@ -236,8 +241,8 @@ A Striking the Rain|QID|30272|PRE|30268;30270;30694|M|40.68,33.68|N|From Koro Mi
 
 C Striking the Rain|QID|30272|S|M|40,45|N|Kill them near the Hopeless Monks to get credit for Sha Can Awe also.|;something I can't figure out, the sticky shading is staying for the next several steps, reset didn't change anything, reloadUI made the shading "stay where it belonged", but the vertical spacing remained off until I logged off upon arriving at Marista.
 C Sha Can Awe|QID|30271|S|M|40,45|N|Kill Haunts and Incarnations of Despair near the Hopeless Monks to inspire them.|
-C West Pagoda Cleansed|QID|30695|QO|West Pagoda Cleansed: 1/1|M|37.82,54.26|N|When ever you kill a sha, Anduin will heal you, so if you need heals, be sure and take out the adds, they are low hp's.|
-C East Pagoda Cleansed|QID|30695|QO|East Pagoda Cleansed: 1/1|M|42.83,54.35|N|Same routine, other side of the building.|
+C West Pagoda Cleansed|QID|30695|QO|1|M|37.82,54.26|N|When ever you kill a sha, Anduin will heal you, so if you need heals, be sure and take out the adds, they are low hp's.|; West Pagoda Cleansed: 1/1
+C East Pagoda Cleansed|QID|30695|QO|1|M|42.83,54.35|N|Same routine, other side of the building.|; East Pagoda Cleansed: 1/1
 C Striking the Rain|QID|30272|US|M|40,45|N|Kill them near the Hopeless Monks to get credit for Sha Can Awe also.|
 C Sha Can Awe|QID|30271|US|M|40,45|N|Kill Haunts and Incarnations of Despair near the Hopeless Monks to inspire them.|
 T Ahead on the Way|QID|30695|M|43.00,53.11|N|To Anduin Wrynn. (who is following you around)|
@@ -258,8 +263,8 @@ C Particular Plumage|QID|30667|US|M|42.57,71.86|
 T Particular Plumage|QID|30667|M|51.60,75.29|N|To Tony Tuna.|
 T Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.56,76.87|N|To Jay Cloudfall.|
 A Build Your Own Raft|QID|30668|PRE|30666|M|51.56,76.87|N|From Jay Cloudfall.|
-C Pick up kelp|QID|30668|NC|QO|Tough Kelp: 1/1|M|52.25,77.78|
-C Pick up wood|QID|30668|NC|QO|Spare Plank: 4/4|M|52.36,76.21|
+C Pick up kelp|QID|30668|NC|QO|2|M|52.25,77.78|; Tough Kelp: 1/1
+C Pick up wood|QID|30668|NC|QO|1|M|52.36,76.21|
 T Build Your Own Raft|QID|30668|M|51.58,76.87|N|To Jay Cloudfall.|
 A The Lorewalker on the Lake|QID|30669|PRE|30668|M|51.58,76.87|N|From Jay Cloudfall.|
 C The Lorewalker on the Lake|QID|30669|NC|M|51.69,76.53;46.02,78.95|CS|N|Hop on your raft and head out to see the Lorewalker. When you jump, it makes the raft go faster.|
@@ -267,7 +272,7 @@ T The Lorewalker on the Lake|QID|30669|M|46.02,78.95|N|To Wise Ana Wu.|
 A Wisdom Has A Price|QID|30671|PRE|30669|M|46.02,78.95|N|From Wise Ana Wu.|
 A Misery|QID|30691|PRE|30669|M|46.02,78.95|N|From Wise Ana Wu.|
 C Wisdom Has A Price|QID|30671|S|M|46.54,77.47|N|Random drop from the sharks.|
-K Nahassa|QID|30691|T|Nahassa|QO|Put Nahassa out of his misery: 1/1|M|45.84,79.35;46.27,83.42|CS|
+K Nahassa|QID|30691|T|Nahassa|QO|1|M|45.84,79.35;46.27,83.42|CS|; Put Nahassa out of his misery: 1/1
 T Misery|QID|30691|M|46.27,83.42|N|To UI Alert.|
 C Wisdom Has A Price|QID|30671|US|M|46.54,77.47|N|Random drop from the sharks.|
 T Wisdom Has A Price|QID|30671|M|46.01,78.96|N|To Wise Ana Wu.|
@@ -295,7 +300,7 @@ R Fallsong Village|M|29.66,39.0|QID|30168|N|You can take the raft up the river t
 A Thieving Raiders|QID|30168|M|29.66,39.00|N|From Tired Shushen.|
 A Raid Leader Slovan|QID|30169|M|29.66,39.00|N|From Tired Shushen.|
 K Riverbank Flesh-Hunter|QID|30168|S|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|N|If you still have the raft, take a shortcut across the water, unfortunantly, you lose the buff when you technically cross into Valley of the Four Winds.|
-K Raid Leader Slovan|T|Slovan|QID|30169|QO|Slovan slain: 1/1|M|31.87,29.01|Z|Valley of the Four Winds|
+K Raid Leader Slovan|T|Slovan|QID|30169|QO|1|M|31.87,29.01|Z|Valley of the Four Winds|; Slovan slain: 1/1
 K Riverbank Flesh-Hunter|QID|30168|US|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|
 T Thieving Raiders|QID|30168|M|29.65,38.99|N|To Tired Shushen.|
 T Raid Leader Slovan|QID|30169|M|29.65,38.99|N|To Tired Shushen.|
@@ -323,21 +328,21 @@ C The Mantid|QID|30175|US|M|13.58,36.40|
 T The Mantid|QID|30175|M|15.71,39.69|N|To Ik'thik Precursor.|
 T The Stoneplow Convoy|QID|30164|M|15.92,39.80|N|To Sunwalker Dezco.|
 A For Family|QID|30174|PRE|30164;30175|M|15.92,39.80|N|From Sunwalker Dezco.|
-K Kill Groundbreaker Brojai|QID|30174|T|Groundbreaker Brojai|QO|Groundbreaker Brojai slain: 1/1|M|23.35,48.80|N|Talk to Kor to start a scripted vignette where Kor must act like a typical orc and Dezco makes peace.|
+K Kill Groundbreaker Brojai|QID|30174|T|Groundbreaker Brojai|QO|1|M|23.35,48.80|N|Talk to Kor to start a scripted vignette where Kor must act like a typical orc and Dezco makes peace.|; Groundbreaker Brojai slain: 1/1
 T For Family|QID|30174|M|28.92,50.75|N|To Sunwalker Dezco.|
 A Warn Stoneplow|QID|30241|PRE|29990;30117;30273;30174|M|28.92,50.75|N|From Sunwalker Dezco.|
 
 F Stoneplow|QID|30241|M|28.92,50.38|N|At Munch Windhoof.|
 T Warn Stoneplow|QID|30241|M|19.53,56.95|Z|Valley of the Four Winds|N|To Loon Mai.|
-A The Mantidote|QID|30623|PRE|30241;30360;30376|M|17.97,56.34|Z|Valley of the Four Winds|N|From Mei Barrelbottom.|
-A The Swarm Begins|QID|30622|PRE|30241;30360;30376|M|17.90,56.21|Z|Valley of the Four Winds|N|From Loon Mai.|
-A It Does You No Good In The Keg|QID|30653|PRE|30241;30360;30376|M|18.05,55.69|Z|Valley of the Four Winds|N|From Mudmug.|
+A The Mantidote|QID|30623|PRE|30241+30360+30376|M|17.97,56.34|Z|Valley of the Four Winds|N|From Mei Barrelbottom.|
+A The Swarm Begins|QID|30622|PRE|30241+30360+30376|M|17.90,56.21|Z|Valley of the Four Winds|N|From Loon Mai.|
+A It Does You No Good In The Keg|QID|30653|PRE|30241+30360+30376|M|18.05,55.69|Z|Valley of the Four Winds|N|From Mudmug.|
 C The Mantidote|QID|30623|S|U|80337|M|10.72,51.92|Z|Valley of the Four Winds|N|Use the mask on the elites, kill the sha that appears.|
 C The Swarm Begins|QID|30622|S|M|10.14,52.00|Z|Valley of the Four Winds|
-C Deliver beer to Crane Wing Priests|QID|30653|NC|QO|Deliver beer to Crane Wing Priests: 1/1|M|15.09,55.41|Z|Valley of the Four Winds|
-C Deliver beer to Zhu's Wardens|QID|30653|NC|QO|Deliver beer to Zhu's Wardens: 1/1|M|17.01,50.46|Z|Valley of the Four Winds|
-C Deliver beer to Shado-Pan|QID|30653|NC|QO|Deliver beer to Shado-Pan: 1/1|M|10.95,55.90|Z|Valley of the Four Winds|
-C Deliver beer to the tauren settlers|QID|30653|NC|QO|Deliver beer to the tauren settlers: 1/1|M|13.01,56.59|Z|Valley of the Four Winds|
+C Deliver beer to Crane Wing Priests|QID|30653|NC|QO|2|M|15.09,55.41|Z|Valley of the Four Winds|; Deliver beer to Crane Wing Priests: 1/1
+C Deliver beer to Zhu's Wardens|QID|30653|NC|QO|1|M|17.01,50.46|Z|Valley of the Four Winds|; Deliver beer to Zhu's Wardens: 1/1
+C Deliver beer to Shado-Pan|QID|30653|NC|QO|3|M|10.95,55.90|Z|Valley of the Four Winds|; Deliver beer to Shado-Pan: 1/1
+C Deliver beer to the tauren settlers|QID|30653|NC|QO|4|M|13.01,56.59|Z|Valley of the Four Winds|; Deliver beer to the tauren settlers: 1/1
 T It Does You No Good In The Keg|QID|30653|N|To UI Alert|
 C The Mantidote|QID|30623|US|U|80337|M|10.72,51.92|Z|Valley of the Four Winds|
 C The Swarm Begins|QID|30622|US|M|10.14,52.00|Z|Valley of the Four Winds|
