@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2018-02-20 01:28
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3293/revisions/28915/view
 -- Date: 2018-01-17 00:01
 -- Who: Ludovicus
 -- Log: New Levels
@@ -184,7 +189,7 @@ h Amberpine Lodge |QID|12292|M|31.97,60.22|N|Set your hearth at Amberpine Lodge 
 C Replenishing the Storehouse |QID|12212|N|North of Amberpine Lodge, kill and loot Tallhorn Stags.|M|33.3,58.0|
 T Replenishing the Storehouse |QID|12212|N|Back to Master Woodsman Anderhol.|M|32.06,59.94|
 A Take Their Rear! |QID|12216|PRE|12212|M|32.1,60.0|N|From Master Woodsman Anderhol.|
-A Troll Season! |QID|12210|PRE|12212|M|31.8,60.2|N|From Lieutenant Dumont.|
+A Troll Season! |QID|12210|LEAD|11984|PRE|12212|M|31.8,60.2|N|From Lieutenant Dumont.|
 C Take Their Rear!|QID|12216|N|Kill and loot Grizzly Bears along the river.|M|30.6,53.4|S|
 C Just Passing Through |QID|12226|U|188670|N|Loot the Blackroot from the riverside northwest of Amberpine Lodge.|M|29,54|NC|
 C Them or Us! |QID|12215|N|Go west to the grey area in the woods, kill Graymist Hunters.|M|25,56|
@@ -229,7 +234,7 @@ A Vial of Visions |QID|11990|PRE|11989|M|16.4,47.8|N|From Drakuru.|
 
 B Vial of Visions - Crystal Vial|QID|11990|N|Buy a Crystal Vial from Ameenah.|M|16.0,47.8|L|3371|
 C Vial of Visions - Haze Leaf|QID|11990|N|Pick-up Haze Leaf from the Hazewood Bushes.|QO|Haze Leaf: 3/3|M|14.6,45.3|S|NC|
-l Vial of Visions - Waterweed Frond|QID|11990|N|Dive into the lake and get the Waterweed Frond.|QO|Waterweed Frond: 1/1|M|15.13,40.55|NC|
+l Vial of Visions - Waterweed Frond|QID|11990|N|Dive into the lake and get the Waterweed Frond.|QO|3|M|15.13,40.55|NC|; Waterweed Frond: 1/1
 C Vial of Visions - Haze Leaf|QID|11990|N|Pick-up the remaining Haze Leafs.|QO|Haze Leaf: 3/3|M|14.6,45.3|US|NC|
 
 T Vial of Visions|QID|11990|N|To Drakuru.|M|16.45,47.85|
@@ -283,7 +288,7 @@ A A Swift Response |QID|12310|PRE|12308|M|31.8,60.2|N|To Lieutenant Dumont.|
 r Sell junk and repair |QID|12222|M|31.38,59.87|
 
 C A Swift Response |QID|12310|N|Kill Silverbrook Hunters.|S|
-K Vladek |QID|12310|QO|Vladek slain: 1/1|N|Kill and loot Vladek.|M|36.15,67.76|
+K Vladek |QID|12310|QO|2|N|Kill and loot Vladek.|M|36.15,67.76|; Vladek slain: 1/1
 C A Swift Response |QID|12310|N|Kill Silverbrook Hunters.|US|
 A Descent into Darkness |QID|12105|U|36940|N|Use the [Mikhail's Journal] to start the quest. If you don't have it yet, keep killing Silverbrook Hunters until you get it.|M|37.0,66.5|
 C Secrets of the Flamebinders |QID|12222|N|Kill and loot Dragonflayer Flamebinders until you get 3 Flame-Imbued Talismans.|M|31,75|S|
@@ -304,7 +309,7 @@ A Search and Rescue |QID|12037|PRE|12029|N|From Mack Fearsen. This is a quest th
 T Shimmercap Stew |QID|12483|N|To Prigmon.|M|15.76,46.77|
 A Say Hello to My Little Friend |QID|12190|PRE|12483|M|15.7,46.7|N|From Prigmon.|
 
-U Use the orb beneath the Tears|U|37173|QID|12220|QO|Orb used beneath Vordrassil's Tears: 1/1|N|Kill Entropic Oozes on your way to the cave.  Use the orb at the back of cave, where the black smoke is at.|M|28,45|
+U Use the orb beneath the Tears|U|37173|QID|12220|QO|1|N|Kill Entropic Oozes on your way to the cave.  Use the orb at the back of cave, where the black smoke is at.|M|28,45|; Orb used beneath Vordrassil's Tears: 1/1
 R Blue Sky Logging Grounds |QID|12042|N|Cross the river north and then ride northeast to Blue Sky Logging Grounds.|M|37,32|
 T Heart of the Ancients |QID|12042|N|Clear the way to the top, go inside the cabin and turn in the quest to the Heart of the Ancients.|M|37,32.5|
 A My Heart is in Your Hands |QID|12802|PRE|12042|M|36.9,32.4|N|From the Heart of the Ancients.|
@@ -332,7 +337,7 @@ T Shredder Repair |QID|12244|N|To Synipus.|M|39.5,43.5|O|
 T Life or Death |QID|12296|N|To Rheanna.|M|40.5,42.6|O|
 
 C The Failed World Tree |QID|12219|N|Kill Entropic Oozes until you've looted 6 Slime Samples|M|40.4,50.6|S|
-U Use the orb beneath the Limb |U|37173|QID|12220|QO|Orb used beneath Vordrassil's Limb: 1/1|N|Inside all the way into the back of the cave, where the black smoke is.|M|33,49|
+U Use the orb beneath the Limb |U|37173|QID|12220|QO|1|N|Inside all the way into the back of the cave, where the black smoke is.|M|33,49|; Orb used beneath Vordrassil's Limb: 1/1
 C A Dark Influence |QID|12220|U|37173|N|Use the [Geomancer's Orb] in the Vordrassil's Heart's cave, at the back where the black smoke is.|M|46.6,51.9;40.77,52.13|CC|
 C The Failed World Tree |QID|12219|N|Kill Entropic Oozes until you've looted 6 Slime Samples|M|40.4,50.6|US|
 
@@ -402,7 +407,7 @@ A It Takes Guts.... |QID|12116|N|From Kraz.|M|73.85,34.22|
 
 T Softening the Blow |QID|11998|N|Kill every Duskhowl Prowler and Longhoof Grazer while going back to Brugar Stoneshear.|M|59.76,27.63|
 A Brothers in Battle |QID|12002|PRE|11998|M|59.8,27.5|N|From Brugar Stoneshear.|
-A Find Kurun! |QID|11981|N|From Fallen Earthen Warrior in Thor Modan.|M|63.63,23.21|
+A Find Kurun! |QID|11981|LEAD|11982|N|From Fallen Earthen Warrior in Thor Modan.|M|63.63,23.21|
 A The Damaged Journal |QID|11986|N|From a Battered Journal on the floor, northeast of the Fallen Earth Warrior in Thor Modan.|M|64.58,19.83|
 C Brothers in Battle |QID|12002|N|Kill 10 Runic Battle Golems.|S|
 l Missing Journal Pages|QID|11986|L|35737 8|N|Pick up 8 Missing Journal Pages from the ground.|
@@ -415,8 +420,8 @@ T Brothers in Battle |QID|12002|N|To Brugar Stoneshear.|M|59.73,27.63|
 A Uncovering the Tunnels |QID|12003|PRE|12002|M|59.8,27.5|N|From Brugar Stoneshear.|
 
 C The Runic Keystone |QID|11988|N|Kill and loot Rune Reavers, Iron Rune-Shapers and Forgemaster Damrath if you see him to get the Runic Keystone Fragments.|M|65.1,19.3|S|
-N Investigate the South Building |QID|12003|QO|Investigate South Building: 1/1|N|To the east, enter the southern building of Thor Modan.|M|63.45,28.10|
-N Investigate the East Building |QID|12003|QO|Investigate East Building: 1/1|N|To the northeast, enter the estern building of Thor Modan.|M|66.71,24.43|
+N Investigate the South Building |QID|12003|QO|1|N|To the east, enter the southern building of Thor Modan.|M|63.45,28.10|; Investigate South Building: 1/1
+N Investigate the East Building |QID|12003|QO|1|N|To the northeast, enter the estern building of Thor Modan.|M|66.71,24.43|; Investigate East Building: 1/1
 C Uncovering the Tunnels |QID|12003|N|To the west/northwest, enter the northen building of Thor Modan.|M|62.63,20.76|
 C The Runic Keystone |QID|11988|N|Kill and loot Rune Reavers, Iron Rune-Shapers and Forgemaster Damrath if you see him to get the Runic Keystone Fragments.|M|65.1,19.3|US|
 
@@ -436,9 +441,9 @@ A Into the Breach |QID|11985|PRE|12070|M|65.8,17.8|N|From Kurun.|
 T The Fate of Orlond |QID|12010|N|Down the breach to the corpse of Surveyor Orlond in Thor Modan.|M|67.44,15.24|
 A Steady as a Rock? |QID|12014|PRE|12010|M|67.5,15.3|N|From the corpse of Surveyor Orlond.|
 
-K Subterranean Thresher |QID|12014|QO|Portable Seismograph: 1/1|N|In the water.|
-N Third Prophecy |QID|11993|QO|Third Prophecy Deciphered: 1/1|N|Get out of the water, cross the small bridge east, find the Third Rune Plate.|M|68.50,16.16|
-N First Prophecy |QID|11993|QO|First Prophecy Deciphered: 1/1|N|A few paces northeast, find the First Rune Plate.|M|69.00,14.54|
+K Subterranean Thresher |QID|12014|QO|2|N|In the water.|; Portable Seismograph: 1/1
+N Third Prophecy |QID|11993|QO|1|N|Get out of the water, cross the small bridge east, find the Third Rune Plate.|M|68.50,16.16|; Third Prophecy Deciphered: 1/1
+N First Prophecy |QID|11993|QO|1|N|A few paces northeast, find the First Rune Plate.|M|69.00,14.54|; First Prophecy Deciphered: 1/1
 C The Runic Prophecies |QID|11993|N|A few paces east, find the Second Rune Plate.|M|70.13,14.62|
 C Into the Breach |QID|11985|N|Kill Iron Thane Argrum at the very end of the trench.|M|69.78,13.54|
 C Steady as a Rock? |QID|12014|U|35837|N|Cross the small bridge, use the [Portable Seismograph] and loot the [Thor Modan Stability Profile].|M|70.63,13.42|
@@ -451,7 +456,7 @@ r Sell junk and repair |QID|11985|M|59.79,27.83|
 T Into the Breach |QID|11985|N|To Kurun.|M|65.65,17.79|
 A Gavrock |QID|12081|PRE|11985|M|65.8,17.8|N|From Kurun.|
 T Ruuna the Blind |QID|12161|N|Ruuna the Blind in Ruuna's Camp.|M|44.07,48.01|
-A Ruuna's Request |QID|12328|PRE|12161;12425|M|44.0,47.9|N|From Ruuna the Blind.|
+A Ruuna's Request |QID|12328|PRE|12161+12425|M|44.0,47.9|N|From Ruuna the Blind.|
 C Ruuna's Request |QID|12328|N|North/northeast of the camp, kill and loot Fern Feeder Moths.|M|46.8,35.7|
 T Ruuna's Request |QID|12328|N|To Ruuna the Blind.|M|44.07,48.01|
 A Out of Body Experience |QID|12327|PRE|12328|M|44.0,47.9|N|From Ruuna the Blind.|
@@ -459,7 +464,7 @@ C Out of Body Experience |QID|12327|U|37661|N|Drink the Gossamer Potion near Ruu
 T Out of Body Experience |QID|12327|N|Cancel the Out of Body Experience buff if it doesn't cancel itself. Then turn the quest into Ruuna the Blind.|M|44.0,47.9|
 A Fate and Coincidence |QID|12329|PRE|12327|M|44.0,47.9|N|From Ruuna the Blind.|
 C A Possible Link |QID|12246|N|Kill and loot Frostpaw Warriors, Shamans and Trappers; or Redfang Hunters and Elders (depending on which camp your in).|M|63.6,57.9|S|
-N Listen to Orsonn's Story |QID|12247|QO|Orsonn's Story: 1/1|N|He's in a cave at the waypoint, talk to him to finish this step.|M|48.16,58.73|
+N Listen to Orsonn's Story |QID|12247|QO|1|N|He's in a cave at the waypoint, talk to him to finish this step.|M|48.16,58.73|; Orsonn's Story: 1/1
 C Children of Ursoc |QID|12247|N|She's in the cave at the waypoint, talk to her to complete the quest.|M|66.89,62.30|
 C A Possible Link |QID|12246|N|Kill and loot Frostpaw Warriors, Shamans and Trappers; or Redfang Hunters and Elders (depending on which camp your in).|M|63.6,57.9|US|
 
@@ -492,9 +497,9 @@ T Gavrock |QID|12081|N|To Gavrock in the Ruins of Tethys.|M|79.77,33.63|
 A Runes of Compulsion |QID|12093|PRE|12081|M|79.8,33.6|N|From Gavrock.|
 C A Bear of an Appetite |QID|12279|U|37542|N|Use the [Fishing Net] on the School of Northern Salmon near the Ruins of Tethys.|M|78,37|US|
 
-K Overseer Brunon |QID|12093|QO|Overseer Brunon slain: 1/1|N|Kill the channelers and then Brunon.|M|79.11,43.72|
-K Overseer Lochli |QID|12093|QO|Overseer Lochli slain: 1/1|N|Kill the channelers and then Lochli.|M|75.66,37.50|
-K Overseer Korgan |QID|12093|QO|Overseer Korgan slain: 1/1|N|Kill the channelers and then Korgan.|M|71.58,34.44|
+K Overseer Brunon |QID|12093|QO|4|N|Kill the channelers and then Brunon.|M|79.11,43.72|; Overseer Brunon slain: 1/1
+K Overseer Lochli |QID|12093|QO|3|N|Kill the channelers and then Lochli.|M|75.66,37.50|; Overseer Lochli slain: 1/1
+K Overseer Korgan |QID|12093|QO|2|N|Kill the channelers and then Korgan.|M|71.58,34.44|; Overseer Korgan slain: 1/1
 C Runes of Compulsion |QID|12093|N|Kill the channelers and then Overseer Durval.|M|67.73,29.33|
 
 l Sacred Mojos |QID|12068|L|36758 5|N|Kill and loot Drakkari Oracles and Protectors until you get 5 mojos.|S|
@@ -521,7 +526,7 @@ C See You on the Other Side |QID|12121|U|36834|N|Bang the gong in the Drakil'jin
 T See You on the Other Side |QID|12121|N|To Gan'jo in the catacombs of the Drakil'jin Ruins.|M|69.44,19.51|
 A Chill Out, Mon |QID|12137|PRE|12121|M|69.4,19.5|N|From Gan'jo.|
 
-l Get the Snow of Eternal Slumber |QID|12137|QO|Snow of Eternal Slumber: 1/1|N|Get the [Snow of Eternal Slumber] from Gan'jo's Chest.|M|69.43,19.54|
+l Get the Snow of Eternal Slumber |QID|12137|QO|1|N|Get the [Snow of Eternal Slumber] from Gan'jo's Chest.|M|69.43,19.54|; Snow of Eternal Slumber: 1/1
 C Chill Out, Mon |QID|12137|U|36859|N|Talk to Gan'jo to return to the living, target Ancient Drakkari Warmonger or Soothsayer and use the [Snow of Eternal Slumber]. Loot the Drakkari Spirit Particles.|M|69.4,19.5|
 T Chill Out, Mon |QID|12137|N|To Kraz.|M|73.90,34.21|
 A Jin'arrak's End |QID|12152|PRE|12137|M|73.9,34.1|N|From Kraz.|
@@ -532,8 +537,8 @@ T Jin'arrak's End |QID|12152|N|To Kraz.|M|73.96,34.18|
 
 T Runes of Compulsion |QID|12093|N|To Gavrock.|M|79.78,33.66|
 A Latent Power |QID|12094|PRE|12093|M|79.8,33.6|N|From Gavrock.|
-N Drain power from the Second Ancient Stone |QID|12094|QO|Power Drawn from Second Ancient Stone: 1/1|U|36787|N|Go south/southwest to an isle with a stone, and use the Shard of Gavrock.|M|78.80,39.83|
-N Drain power from the First Ancient Stone |QID|12094|QO|Power Drawn from First Ancient Stone: 1/1|U|36787|N|Go west to another blue stone and use the Shard of Gavrock.|M|71.34,39.59|
+N Drain power from the Second Ancient Stone |QID|12094|QO|1|U|36787|N|Go south/southwest to an isle with a stone, and use the Shard of Gavrock.|M|78.80,39.83|; Power Drawn from Second Ancient Stone: 1/1
+N Drain power from the First Ancient Stone |QID|12094|QO|1|U|36787|N|Go west to another blue stone and use the Shard of Gavrock.|M|71.34,39.59|; Power Drawn from First Ancient Stone: 1/1
 T A Bear of an Appetite |QID|12279|N|To Hugh Glass.|M|69.05,40.13|
 C Latent Power |QID|12094|U|36787|N|The Third Ancient Stone is further southwest, use the Shard of Gavrock.|M|74.06,43.98|
 
@@ -542,8 +547,8 @@ A The Perfect Plan |QID|12129|PRE|12128|M|77.1,48.6|N|From Rargar Breakbrow.|
 A The Captive Prospectors |QID|12180|PRE|12014|N|From Mountaineer Kilian.|M|77.00,48.50|
 
 C The Perfect Plan |QID|12129|U|36849|N|Kill Iron Rune-Smiths until you have all three parts of the [War Golem Blueprint]. Combine them.|M|76.6,55.1|S|
-N Free Prospector Gann |QID|12180|QO|Prospector Gann Rescued: 1/1|U|37013|N|Go south/southwest and kill dwarves and golems until you get [Dun Argol Cage Key]. Use it to open the cage.|M|76.5,55|
-N Free Prospector Torgan |QID|12180|QO|Prospector Torgan Rescued: 1/1|U|37013|N|Up the stairs southwest to find Torgan's cage, you will need a key again.|M|76.17,58.47|
+N Free Prospector Gann |QID|12180|QO|1|U|37013|N|Go south/southwest and kill dwarves and golems until you get [Dun Argol Cage Key]. Use it to open the cage.|M|76.5,55|; Prospector Gann Rescued: 1/1
+N Free Prospector Torgan |QID|12180|QO|3|U|37013|N|Up the stairs southwest to find Torgan's cage, you will need a key again.|M|76.17,58.47|; Prospector Torgan Rescued: 1/1
 C The Captive Prospectors |QID|12180|U|37013|N|Follow the stairs southwest to the top to find Prospector Varana, once again you will need a key.|M|75.88,60.93|
 C The Perfect Plan |QID|12129|U|36849|N|Kill Iron Rune-Smiths until you have all three parts of the [War Golem Blueprint]. Combine them.|M|76.6,55.1|US|
 
@@ -563,7 +568,7 @@ A We Have the Power |QID|12131|PRE|12130|M|77.1,48.6|N|From Raegar Breakbrow.|
 T Cultivating an Image |QID|12184|N|To Mountaineer Kilian.|M|76.96,48.49|
 A Put on Your Best Face for Loken |QID|12185|PRE|12184|M|77.0,48.4|N|From Mountaineer Kilian.|
 
-l Durar's Power Cell |QID|12131|QO|Durar's Power Cell: 1/1|U|37071|N|Go to Dun'Argol. Mount up and then use the [Overseer Disguise Kit]. Find Rune-Smith Durar, kill him and loot [Durar's Power Cell].|M|78.89,57|
+l Durar's Power Cell |QID|12131|QO|1|U|37071|N|Go to Dun'Argol. Mount up and then use the [Overseer Disguise Kit]. Find Rune-Smith Durar, kill him and loot [Durar's Power Cell].|M|78.89,57|; Durar's Power Cell: 1/1
 C We Have the Power |QID|12131|U|37071|N|Use the [Overseer Disguise Kit] again and find Rune-Smith Kathorn, kill him and loot [Kathorn's Power Cell].|M|76.78,58.87|
 C Put on Your Best Face for Loken |QID|12185|U|37071|N|Go out of the building, mount up and then use the [Overseer Disguise Kit]. Loken's Pedestral is in the eastermost building.|M|81.51,60.27|
 N Warning: do not turn in Put on Your Best Face for Loken |QID|12185|U|37071|N|Out of the building, mount up and use [Overseer Disguise Kit] again. You will need the disguise again, keep it for now.|
@@ -600,9 +605,9 @@ N Group quests |QID|12164|N|Find a group to complete these or abandon them.|
 C Ursoc, the Bear God |QID|12249|U|37307|N|Can be soloed by quite a few classes. Start the quest by talking to Tur Ragepaw, choose which form you want him to take; tank, healing or dps. Use the [Purified Ashes of Vordrassil] on Ursoc's corpse.|M|52.6,24.1|
 N The following quest you may need help with.|QID|12164|
 R Bloodmoon Isle|QID|12164|N|Head to Bloodmoon Isle.|M|84.94,23.62|
-K Selas |QID|12164|QO|Selas slain: 1/1|N|Kill Selas.|M|85.92,27.88|
-K Varmlam |QID|12164|QO|Varlam slain: 1/1|N|Kill Varlam.|M|84.94,23.62|
-K Goremaw |QID|12164|QO|Goremaw slain: 1/1|N|Head to the Shadowfang Tower stables, on the right side of the tower.|M|86.77,26.96|
+K Selas |QID|12164|QO|2|N|Kill Selas.|M|85.92,27.88|; Selas slain: 1/1
+K Varmlam |QID|12164|QO|1|N|Kill Varlam.|M|84.94,23.62|; Varlam slain: 1/1
+K Goremaw |QID|12164|QO|3|N|Head to the Shadowfang Tower stables, on the right side of the tower.|M|86.77,26.96|; Goremaw slain: 1/1
 C Hour of the Worg |QID|12164|N|Head to the top of the tower and kill the Shade of Arugal.|M|87.6,26.5|
 T Hour of the Worg |QID|12164|N|Turn into Sasha right there or in White Pine Trading Post if you happen to miss her at the tower.|M|57.52,41.35|
 
