@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
+-- Date: 2018-02-20 21:35
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3236/revisions/28882/view
 -- Date: 2018-01-16 23:40
 -- Who: Ludovicus
 -- Log: New Levels
@@ -178,7 +183,7 @@ T Lion's Pride|QID|24552|M|41.54,47.16|N|To Jorn Skyseer.|
 T Meet the New Boss|QID|24551|M|41.53,46.82|N|To Warlord Bloodhilt.|
 T A Line in the Dirt|QID|24546|M|41.64,46.59|N|To Kirge Sternhorn.|
 
-A Siegebreaker|QID|24569|PRE|24551|M|41.51,46.75|N|From Warlord Bloodhilt.|
+A Siegebreaker|QID|24569|PRE|24546;24551|M|41.51,46.75|N|From Warlord Bloodhilt.|
 C Siegebreaker|QID|24569|NC|M|41.00,53.10|N|Right-click the Siege Engines.|
 T Siegebreaker|QID|24569|M|41.51,46.75|N|To Warlord Bloodhilt.|
 A Taking Back Taurajo|QID|24572|PRE|24569|M|41.51,46.75|N|From Warlord Bloodhilt.|
@@ -194,7 +199,7 @@ T Taking Back Taurajo|QID|24572|M|41.53,46.81|N|To Warlord Bloodhilt.|
 A Desolation Hold Inspection|QID|24577|PRE|24572|M|41.50,46.78|N|From Warlord Bloodhilt.|
 C Desolation Hold Inspection|QID|24577|NC|M|41.69,69.79|N|Talk to Warlord Bloodhilt - he'll give you a wolf that will take you right where you need to go, past any hostile mobs! Talk to Warlord Gar'dul when you get there.|
 T Desolation Hold Inspection|QID|24577|M|41.69,69.79|N|To Warlord Gar'dul.|
-A Changing of the Gar'dul|QID|24591|PRE|24591|M|41.69,69.79|N|From Warlord Gar'dul.|
+A Changing of the Gar'dul|QID|24591|PRE|24577|M|41.69,69.79|N|From Warlord Gar'dul.|
 
 A Flightmare|RANK|2|QID|24631|M|41.11,70.92|N|From Tomusa.|
 A Silithissues|RANK|2|QID|24654|M|41.62,69.43|N|From Crawgol.|
@@ -220,7 +225,7 @@ T Claim the Battle Scar|RANK|2|QID|24618|M|41.69,69.81|N|To Warlord Bloodhilt.|
 T Silithissues|RANK|2|QID|24654|M|41.64,69.48|N|To Crawgol.|
 A Firestone Point|QID|24667|PRE|24654|M|41.61,69.62|N|From Crawgol.|
 T Flightmare|RANK|2|QID|24631|M|41.13,71.03|N|To Tomusa.|
-A Tauren Vengeance|RANK|2|QID|24632|PRE|24631|LEAD|24684|M|41.13,71.03|N|From Tomusa.|
+A Tauren Vengeance|RANK|2|QID|24632|PRE|24631|M|41.13,71.03|N|From Tomusa.|
 C The Butcher of Taurajo|QID|24637|M|48.18,58.18|N|Speak with Karthog. When the Alliance general rides by, let Karthog run in first. Be careful - the general is an elite, but with Karthog's help, you should be fine.|
 T The Butcher of Taurajo|QID|24637|M|41.68,69.82|N|To Warlord Bloodhilt.|
 C Hearts-is-Hearts|RANK|2|QID|24620|M|44.13,75.79|N|Kill and loot a Landquaker Bull to get the heart.|
