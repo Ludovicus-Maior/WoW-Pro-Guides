@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silithus_neutral
+-- Date: 2018-02-22 23:51
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3270/revisions/28870/view
 -- Date: 2018-01-16 23:33
 -- Who: Ludovicus
 -- Log: New Levels
@@ -227,8 +232,8 @@ T Wanted - Deathclasp, Terror of the Sands|QID|8283|M|54.58,31.99|N|To Vish Kozu
 r Repair|M|54.90,36.55|
 
 N If are not level 60...|N|I would recommend doing the Blasted Lands, which starts with the next step. Reason being so you can fly in the Outlands. If you are level 60, take the next step and use the portal to get to the Blasted Lands where the Outlands portal is.|
-A Call of the Warmatron|QID|28865|M|53.29,33.61|N|From Okril'lon Mage. Accept this if you'd like to do the Blasted Lands next, or if you're ready to move on to Hellfire Peninsula (As it is a quick way to Blasted Lands).|FACTION|Horde|
-A Nethergarde Needs You!|QID|28867|M|53.4,33.4|N|From Nethergarde Mage. Accept this if you'd like to do the Blasted Lands next, or if you're ready to move on to Hellfire Peninsula (As it is a quick way to Blasted Lands).|FACTION|Alliance|
+A Call of the Warmatron|QID|28865|LEAD|25674|M|53.29,33.61|N|From Okril'lon Mage. Accept this if you'd like to do the Blasted Lands next, or if you're ready to move on to Hellfire Peninsula (As it is a quick way to Blasted Lands).|FACTION|Horde|
+A Nethergarde Needs You!|QID|28867|LEAD|25710|M|53.4,33.4|N|From Nethergarde Mage. Accept this if you'd like to do the Blasted Lands next, or if you're ready to move on to Hellfire Peninsula (As it is a quick way to Blasted Lands).|FACTION|Alliance|
 
 ]]
 end)
