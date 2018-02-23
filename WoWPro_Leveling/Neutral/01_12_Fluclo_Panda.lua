@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2018-02-22 23:38
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3483/revisions/28585/view
 -- Date: 2017-03-23 19:23
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -293,8 +298,8 @@ A Stronger Than Reeds|QID|29662|M|53.33,47.46;63.47,41.97|CC|N|Head out of the T
 r Profession Trainer|QID|29521|M|63.0,41.6|N|You can sell the extra items you have collected here, but even more importantly, you can train your primary professions at Whittler Dewei. Unfortunantly secondary professions can't be trained until you reach your factions capital.\n\nCheck off this step to continue.|
 T The Singing Pools|QID|29521|M|65.59,42.59|N|To Aysa Cloudsinger (she has moved to The Singing Pools)|
 
-A The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|From Aysa Cloudsinger|
-A The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|From Aysa Cloudsinger|
+A The Lesson of Dry Fur|QID|29661|PRE|29521|M|65.59,42.59|N|From Aysa Cloudsinger|
+A The Lesson of the Balanced Rock|QID|29663|PRE|29521|M|65.59,42.59|N|From Aysa Cloudsinger|
 
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|S|
 C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|
@@ -307,11 +312,11 @@ T Stronger Than Reeds|QID|29662|M|63.47,41.97|N|To Jojo Ironbrow|
 T The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|To Aysa Cloudsinger|
 T The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|To Aysa Cloudsinger|
 
-A Finding an Old Friend|QID|29676|PRE|29662|M|65.59,42.59|N|From Aysa Cloudsinger|
+A Finding an Old Friend|QID|29676|PRE|29661;29662;29663|M|65.59,42.59|N|From Aysa Cloudsinger|
 T Finding an Old Friend|QID|29676|M|70.61,38.75|N|To Old Man Liang in Liang's Retreat|
 
-A The Sun Pearl|QID|29677|M|70.61,38.75|N|From Old Man Liang|
-A The Sting of Learning|QID|29666|M|70.61,38.75|N|From Old Man Liang|
+A The Sun Pearl|QID|29677|PRE|29676|M|70.61,38.75|N|From Old Man Liang|
+A The Sting of Learning|QID|29666|PRE|29676|M|70.61,38.75|N|From Old Man Liang|
 
 C The Sting of Learning|QID|29666|M|72.20,42.00|N|Kill the Water Pincers.|S|
 C The Sun Pearl|QID|29677|M|76.3,47.0|N|Jump into the Singing Pools, open the Ancient Clam, and loot the Sun Pearl. It may be guarded by Fang-she. Defeat her and then loot the Sun Pearl from the clam.|NC|
@@ -320,20 +325,20 @@ C The Sting of Learning|QID|29666|M|72.20,42.00|N|Kill the Water Pincers. If the
 T The Sun Pearl|QID|29677|M|78.50,42.85|N|To Old Man Liang (he's moved to the Gazebo)|
 T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|
 
-A Shu, the Spirit of Water|QID|29678|M|78.50,42.85|N|From Old Man Liang|
+A Shu, the Spirit of Water|QID|29678|PRE|29666;29677|M|78.50,42.85|N|From Old Man Liang|
 C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks, and it will jump you to the edge of the Pool of Reflection, then walk forward to the pool.|QO|1|NC|
 C Shu, the Spirit of Water|QID|29678|M|79.64,38.62|N|Use the Sun Pearl to coax out Shu.|NC|
 T Shu, the Spirit of Water|QID|29678|N|(UI Alert)|
 
-A A New Friend|QID|29679|N|(UI Alert)|
+A A New Friend|QID|29679|PRE|29678|N|(UI Alert)|
 C A New Friend|QID|29679|M|79.10,38.20|N|Walk into the Water Spouts created by Shu.|NC|
 T A New Friend|QID|29679|M|79.82,39.34|N|To Aysa Cloudsinger (now at the edge of the Pool of Reflection)|
 
-A The Source of Our Livelihood|QID|29680|M|79.82,39.34|N|From Aysa Cloudsinger|
+A The Source of Our Livelihood|QID|29680|PRE|29679|M|79.82,39.34|N|From Aysa Cloudsinger|
 T The Source of Our Livelihood|QID|29680|M|79.19,45.31;68.89,65.00|CC|N|To Ji Firepaw at Dai-Lo Farmstead.  A Cart at the first coordinates will take you to him.|
 
-A Rascals|QID|29769|M|68.89,65.00|N|From Ji Firepaw|
-A Still Good!|QID|29770|M|68.13,66.40|N|From Gao Summerdraft|
+A Rascals|QID|29769|PRE|29680|M|68.89,65.00|N|From Ji Firepaw|
+A Still Good!|QID|29770|PRE|29680|M|68.13,66.40|N|From Gao Summerdraft|
 
 C Rascals|QID|29769|M|72.62,74.17|N|Kill Plump Virmen|S|
 C Still Good!|QID|29770|M|71.66,70.54|N|Head into the Teaming Burrow and collect 3 Stolen Carrots either from the ground or from the Plump Virmen.|NC|QO|2|L|74296 3|
@@ -344,8 +349,8 @@ C Rascals|QID|29769|M|68.40,72.10|N|Finish Killing Plump Virmen|US|
 T Still Good!|QID|29770|M|68.13,66.40|N|To Gao Summerdraft|
 T Rascals|QID|29769|M|68.89,65.00|N|To Ji Firepaw|
 
-A Missing Mallet|QID|29768|M|68.89,65.00|N|From Ji Firepaw|
-A Stronger Than Wood|QID|29771|M|69.13,66.62|N|From Jojo Ironbrow|
+A Missing Mallet|QID|29768|PRE|29769;29770|M|68.89,65.00|N|From Ji Firepaw|
+A Stronger Than Wood|QID|29771|PRE|29769;29770|M|69.13,66.62|N|From Jojo Ironbrow|
 
 C Stronger Than Wood|QID|29771|M|69.13,66.62|N|Collect the Discarded Wood Planks from the floor.|S|NC|
 C Missing Mallet|QID|29768|M|62.53,76.68|N|Loot the Mallet from next to Raggis.  You can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|NC|
@@ -354,16 +359,16 @@ C Stronger Than Wood|QID|29771|M|63.07,76.77|N|Finish collecting the Discarded W
 T Stronger Than Wood|QID|29771|M|69.13,66.62|N|To Jojo Ironbrow|
 T Missing Mallet|QID|29768|M|68.89,65.00|N|To Ji Firepaw|
 
-A Raucous Rousing|QID|29772|M|68.89,65.00|N|From Ji Firepaw|
+A Raucous Rousing|QID|29772|PRE|29768|M|68.89,65.00|N|From Ji Firepaw|
 C Raucous Rousing|QID|29772|N|Ring the gong next to Ji Firepaw.|NC|
 T Raucous Rousing|QID|29772|M|68.89,65.00|N|To Ji Firepaw|
 
-A Not In the Face!|QID|29774|M|68.89,65.00|N|From Ji Firepaw|
+A Not In the Face!|QID|29774|PRE|29771;29772|M|68.89,65.00|N|From Ji Firepaw|
 C Not In the Face!|QID|29774|M|69.00,62.95|N|Head to Shu, and ask him for help|CHAT|QO|1|
 C Not In the Face!|QID|29774|M|68.89,65.00|N|Head back to Wugou and wait for Shu to wake him.|NC|
 T Not In the Face!|QID|29774|M|68.89,65.00|N|To Ji Firepaw|
 
-A The Spirit and Body of Shen-zin Su|QID|29775|M|68.89,65.00|N|From Ji Firepaw|
+A The Spirit and Body of Shen-zin Su|QID|29775|PRE|29774|M|68.89,65.00|N|From Ji Firepaw|
 
 ; [aldavor] this doesn't show up at the moment as the crazy arrow/tomtom isn't picking up coordinates right.
 ;R Mandori Village|QID|29775|M|68.0,67.0|CS|N|Head to the Delivery Cart for a ride to the steps of Temple of Five Dawns|
@@ -371,12 +376,12 @@ A The Spirit and Body of Shen-zin Su|QID|29775|M|68.89,65.00|N|From Ji Firepaw|
 N Mandori Village|QID|29775|N|Head to the Delivery Cart at 68.0,67.0 for a ride to the steps of Temple of Five Dawns.\n\nClose this when you're on it.|
 T The Spirit and Body of Shen-zin Su|QID|29775|M|51.58,48.32|N|Head up the stairs to Master Shang Xi|
 
-A Morning Breeze Village|QID|29776|M|51.58,48.32|N|From Master Shang Xi|
+A Morning Breeze Village|QID|29776|PRE|29775|M|51.58,48.32|N|From Master Shang Xi|
 T Morning Breeze Village|QID|29776|M|50.15,48.63;47.66,50.93;44.91,51.36;35.81,51.37;30.82,44.47;30.97,36.74|CS|N|To Ji Firepaw in Morning Breeze Village|
 
-A Rewritten Wisdoms|QID|29778|M|30.97,36.74|N|From Ji Firepaw|
-A Stronger Than Stone|QID|29783|M|29.92,39.77|N|From Jojo Ironbrow|
-A Tools of the Enemy|QID|29777|M|31.83,39.71|N|From Elder Shaopai|
+A Rewritten Wisdoms|QID|29778|PRE|29776|M|30.97,36.74|N|From Ji Firepaw|
+A Stronger Than Stone|QID|29783|PRE|29776|M|29.92,39.77|N|From Jojo Ironbrow|
+A Tools of the Enemy|QID|29777|PRE|29776|M|31.83,39.71|N|From Elder Shaopai|
 
 C Tools of the Enemy|QID|29777|M|31.83,50.71|N|Kill and loot the Fe-Feng Wiseman for Paint Soaked Brushes.|S|
 C Stronger Than Stone|QID|29783|M|29.92,50.77|N|Loot the Abandoned Stone Block from the floor|S|NC|
@@ -388,13 +393,13 @@ T Tools of the Enemy|QID|29777|M|31.83,39.71|N|To Elder Shaopai|
 T Stronger Than Stone|QID|29783|M|29.92,39.77|N|From Jojo Ironbrow|
 T Rewritten Wisdoms|QID|29778|M|30.97,36.74|N|To Ji Firepaw|
 
-A Monkey Advisory Warning|QID|29781|M|30.97,36.74|N|From Ji Firepaw|
-A Do No Evil|QID|29780|M|30.97,36.74|N|From Ji Firepaw|
-A The Direct Solution|QID|29779|M|30.97,36.74|N|From Ji Firepaw|
+A Monkey Advisory Warning|QID|29781|PRE|29777;29778;29783|M|30.97,36.74|N|From Ji Firepaw|
+A Do No Evil|QID|29780|PRE|29777;29778;29783|M|30.97,36.74|N|From Ji Firepaw|
+A The Direct Solution|QID|29779|PRE|29777;29778;29783|M|30.97,36.74|N|From Ji Firepaw|
 
 ; [aldavor] *** check these M coords at some later stage ***
 C The Direct Solution|QID|29779|M|24.44,30.62|N|Kill Fe-Fang Hozen|S|
-A Stronger Than Bone|QID|29782|M|28.33,38.78;26.43,33.73|CC|N|From Jade Tiger Pillar in Fe-Feng Village|
+A Stronger Than Bone|QID|29782|PRE|29783|M|28.33,38.78;26.43,33.73|CC|N|From Jade Tiger Pillar in Fe-Feng Village|
 C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundles as you go.  There are several where Ruk-Ruk is|S|NC|
 C Do No Evil|QID|29780|M|20.93,34.36|N|Kill Ruk-Ruk|
 T Do No Evil|QID|29780|N|To Ji Firepaw|
@@ -407,24 +412,24 @@ T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you 
 T Stronger Than Bone|QID|29782|M|29.92,39.77|N|To Jojo Ironbrow|
 
 T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you are out of the monkey village to turn this in as Ji stops helping you and runs off when you turn in the last quest|US|
-A Balanced Perspective|QID|29784|M|30.97,36.74|N|From Ji Firepaw|
+A Balanced Perspective|QID|29784|PRE|29779;29780;29781;29782|M|30.97,36.74|N|From Ji Firepaw|
 T Balanced Perspective|QID|29784|M|32.94,35.60|N|Cross the ropes, to Aysa Cloudsinger\n\nIf you have difficulty with the ropes, go into your Game Menu, click Interface and select the Mouse option. Check "Click-to-Move" and "Okay". This means that you will move wherever you right-click your mouse, and makes it easier.\n\nDon't forget to uncheck this after you've finished the quest.|
 
-A Dafeng, the Spirit of Air|QID|29785|M|32.94,35.60|N|From Aysa Cloudsinger|
+A Dafeng, the Spirit of Air|QID|29785|PRE|29784|M|32.94,35.60|N|From Aysa Cloudsinger|
 R Chamber of Whispers|QID|29785|M|28.09,64.23|N|Head to the Chamber of Whispers|
 C Dafeng, the Spirit of Air|QID|29785|M|28.30,63.75|N|Wait for the winds to settle, then run through the hallway to Dafeng. Stick with Aysa if you can't time it yourself.|NC|
 T Dafeng, the Spirit of Air|QID|29785|M|24.64,69.78|N|To Dafeng|
 
-A Battle for the Skies |QID|29786|M|24.77,69.77|N|From Aysa Cloudsinger|
+A Battle for the Skies |QID|29786|PRE|29785|M|24.77,69.77|N|From Aysa Cloudsinger|
 C Battle for the Skies |QID|29786|M|30.47,59.81|N|Follow Aysa outside, and click the Firework Launchers until Zhao-Ren is dead.  Avoid the blue pools which hurt (a lot!)|
 T Battle for the Skies |QID|29786|M|30.00,60.37|N|To Master Shang Xi|
 
-A Worthy of Passing|QID|29787|M|30.00,60.37|N|From Master Shang Xi|
+A Worthy of Passing|QID|29787|PRE|29786|M|30.00,60.37|N|From Master Shang Xi|
 C Worthy of Passing|QID|29787|M|22.72,52.82|N|Follow Master Shang Xi to the Elders' Path then defeat the Guardian of the Elders|
 T Worthy of Passing|QID|29787|M|19.33,50.67|N|To Master Shang Xi who is now in The Wood of Staves|
 
-A Unwelcome Nature|QID|29788|M|19.33,50.67|N|From Master Shang Xi|
-A Small, But Significant|QID|29789|M|19.33,50.67|N|From Master Shang Xi|
+A Unwelcome Nature|QID|29788|PRE|29787|M|19.33,50.67|N|From Master Shang Xi|
+A Small, But Significant|QID|29789|PRE|29787|M|19.33,50.67|N|From Master Shang Xi|
 
 C Unwelcome Nature|QID|29788|N|Kill the Thornbranch Scamp|S|
 C Small, But Significant|QID|29789|N|Collect the Kun-Pai Ritual Charm hanging from the trees.|NC|
@@ -433,24 +438,24 @@ C Unwelcome Nature|QID|29788|N|Finish killing the Thornbranch Scamp|US|
 T Unwelcome Nature|QID|29788|M|19.33,50.67|N|To Master Shang Xi|
 T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|
 
-A Passing Wisdom|QID|29790|M|19.33,50.67|N|From Master Shang Xi|
+A Passing Wisdom|QID|29790|PRE|29788;29789|M|19.33,50.67|N|From Master Shang Xi|
 C Passing Wisdom|QID|29790|M|19.33,50.67|N|Wait while Master Shang Xi tells you the story.|NC|
 T Passing Wisdom|QID|29790|M|15.79,49.11|N|To Aysa Cloudsinger|
 
 ; [aldavor] *** check these for auto-close/checks ***
-A The Suffering of Shen-zin Su|QID|29791|M|15.79,49.11|N|To Aysa Cloudsinger|
+A The Suffering of Shen-zin Su|QID|29791|PRE|29790|M|15.79,49.11|N|To Aysa Cloudsinger|
 C The Suffering of Shen-zin Su|QID|29791|M|15.57,48.90|N|Right click on Shang Xi's Hot Air Balloon.|QO|1|NC|
 C The Suffering of Shen-zin Su|QID|29791|M|15.57,48.90|N|Sit back and discover that you're questing on the back of a giant turtle!|QO|2|
 T The Suffering of Shen-zin Su|QID|29791|M|51.30,48.30|N|Wait until you land, go down both flights of stairs and outside, then north to Elder Shaopai.|
 
-A Bidden to Greatness|QID|29792|M|51.30,48.30|N|From Elder Shaopai.|
+A Bidden to Greatness|QID|29792|PRE|29791|M|51.30,48.30|N|From Elder Shaopai.|
 r Repair/Restock|QID|29792|M|50.65, 58.6|N|Right next to the Blacksmith where you can repair and sell is a profession trainer should you happen to need him|
 C Bidden to Greatness|QID|29792|M|51.58,60.97|N|Head to the Mandori Village Gate|NC|QO|1|
 C Bidden to Greatness|QID|29792|M|52.26,68.27|N|Head to the Pei-Wu Forest Gate|NC|QO|2|
 T Bidden to Greatness|QID|29792|M|50.08,76.62|N|To Wei Palerage|
 
-A Preying on the Predators|QID|30591|M|50.08,76.62|N|From Wei Palerage|
-A Stocking Stalks|QID|29795|M|50.23,76.64|N|From Korga Strongmane|
+A Preying on the Predators|QID|30591|PRE|29792|M|50.08,76.62|N|From Wei Palerage|
+A Stocking Stalks|QID|29795|PRE|29792|M|50.23,76.64|N|From Korga Strongmane|
 
 C Preying on the Predators|QID|30591|N|Kill the Pei-Wu Tigers|S|
 C Stocking Stalks|QID|29795|M|50.23,76.64|N|Collect the Broken Bamboo Stalk from the ground.|NC|
@@ -459,11 +464,11 @@ C Preying on the Predators|QID|30591|N|Finish killing the Pei-Wu Tigers|US|
 T Preying on the Predators|QID|30591|M|50.08,76.62|N|To Wei Palerage|
 T Stocking Stalks|QID|29795|M|50.23,76.64|N|To Korga Strongmane|
 
-A Wrecking the Wreck|QID|30589|M|50.23,76.64|N|From Korga Strongmane|
+A Wrecking the Wreck|QID|30589|PRE|29795;30591|M|50.23,76.64|N|From Korga Strongmane|
 T Wrecking the Wreck|QID|30589|M|36.40,72.36|N|To Makael Bay|
 
-A Handle With Care|QID|30590|M|36.40,72.36|N|From Makael Bay|
-A Evil from the Seas|QID|29793|M|36.38,72.52|N|From Ji Firepaw|
+A Handle With Care|QID|30590|PRE|30589|M|36.40,72.36|N|From Makael Bay|
+A Evil from the Seas|QID|29793|PRE|30589|M|36.38,72.52|N|From Ji Firepaw|
 
 C Evil from the Seas|QID|29793|M|38.20,73.80|N|Kill the Darkened Horrors or Terrors|S|
 C Handle With Care|QID|30590|M|38.20,73.80|N|Collect the Explosive Bundles from the ground|NC|
@@ -472,13 +477,13 @@ C Evil from the Seas|QID|29793|M|38.20,73.80|N|Finish killing the Darkened Horro
 T Handle With Care|QID|30590|M|36.40,72.36|N|To Makael Bay|
 T Evil from the Seas|QID|29793|M|36.38,72.52|N|To Ji Firepaw|
 
-A Urgent News|QID|29796|M|36.38,72.52|N|From Ji Firepaw|
+A Urgent News|QID|29796|PRE|29793;30590|M|36.38,72.52|N|From Ji Firepaw|
 T Urgent News|QID|29796|M|42.20,86.55|N|To Delora Lionheart|
 
-A None Left Behind|QID|29794|M|42.20,86.55|N|From Delora Lionheart|
-A Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|
+A None Left Behind|QID|29794|PRE|29796|M|42.20,86.55|N|From Delora Lionheart|
+A Medical Supplies|QID|29797|PRE|29796|M|42.20,86.55|N|From Delora Lionheart|
 
-A From Bad to Worse|QID|29665|M|42.30,86.35|N|From Jojo Ironbrow|
+A From Bad to Worse|QID|29665|PRE|29796|M|42.30,86.35|N|From Jojo Ironbrow|
 
 C From Bad to Worse|QID|29665|M|38.40,83.60|N|Kill Deepscale Tormentors|S|
 C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp.  Repeat three times|NC|S|
@@ -491,32 +496,32 @@ T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|
 
 T From Bad to Worse|QID|29665|M|42.30,86.35|N|To Jojo Ironbrow|
 
-A An Ancient Evil|QID|29798|M|42.30,86.35|N|From Jojo Ironbrow|
+A An Ancient Evil|QID|29798|PRE|29665;29794;29797|M|42.30,86.35|N|From Jojo Ironbrow|
 C An Ancient Evil|QID|29798|M|37.04,84.30|N|Head back to the crash site, and help fight Vordraka, the Deep Sea Nightmare.|
 T An Ancient Evil|QID|29798|M|36.53,84.24|N|To Aysa Cloudsinger|
 
-A Risking It All|QID|30767|M|36.53,84.24|N|From Aysa Cloudsinger|
+A Risking It All|QID|30767|PRE|29798|M|36.53,84.24|N|From Aysa Cloudsinger|
 C Risking It All|QID|30767|M|36.40,87.20|N|Follow Aysa up the stairs of the ship, and wait.|NC|
 T Risking It All|QID|30767|M|39.33,86.19|N|To Ji Firepaw|
 
-A The Healing of Shen-zin Su|QID|29799|M|39.33,86.19|N|From Ji Firepaw|
+A The Healing of Shen-zin Su|QID|29799|PRE|29798|M|39.33,86.19|N|From Ji Firepaw|
 C The Healing of Shen-zin Su|QID|29799|M|38.45,85.95|N|Release the healers found under the cogs on the mini-map by clicking on them, and kill any Deepscale Ravagers attacking the healers near the wound. If you are doing this solo, it may help to attack the Deepscale Ravagers and drag them over to the guards for help killing them.  Don't forget the green bubbles near Ji can heal you|
 T The Healing of Shen-zin Su|QID|29799|M|39.33,86.19|N|To Ji Firepaw|
 
-A New Allies|QID|29800|M|38.81,86.32|N|After the cut-scene, from Ji Firepaw|
+A New Allies|QID|29800|PRE|29799|M|38.81,86.32|N|After the cut-scene, from Ji Firepaw|
 ; [aldavor] Note in here until the arrow/coords marker has been fixed.
 ;R Mandori Village|QID|29800|M|41.57,85.47;51.72,58.97|CC|N|The Delivery Cart will take you there.|
 T New Allies|QID|29800|M|51.46,48.33|N|Jump onto the cart at 41.6, 85,5 then when you arrive, go up the stairs to Spirit of Master Shang Xi|
 
-A A New Fate|QID|31450|M|51.46,48.33|N|From Spirit of Master Shang Xi|
+A A New Fate|QID|31450|PRE|29800|M|51.46,48.33|N|From Spirit of Master Shang Xi|
 C A New Fate|QID|31450|N|Speak to Spirit of Master Shang Xi, and choose your destiny!|NC|
 
 ; The cinematic triggers a reload, which re-evaluates all the following steps in the new faction.
 T A New Fate|QID|31450|N|Straight in front of you, and welcome to the mainland.|
 
 N Destiny Chosen|QID|30987;31012|N|The next faction specific quest should be automatically chosen for you. If not, report the bug!\n\nClick to continue.|
-A Joining the Horde|QID|31012|M|45.58,12.61|N|From Ji Firepaw|Z|Durotar|FACTION|Horde|
-A Joining the Alliance|QID|30987|M|32.90,50.95|N|From Aysa Cloudsinger|Z|Elwynn Forest|FACTION|Alliance|
+A Joining the Horde|QID|31012|PRE|31450|M|45.58,12.61|N|From Ji Firepaw|Z|Durotar|FACTION|Horde|
+A Joining the Alliance|QID|30987|PRE|31450|M|32.90,50.95|N|From Aysa Cloudsinger|Z|Elwynn Forest|FACTION|Alliance|
 
 T Joining the Horde|QID|31012|M|48.14,70.54|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
 T Joining the Alliance|QID|30987|M|85.78,31.70|N|To King Varian Wrynn, in Stormwind Keep|Z|Stormwind City|FACTION|Alliance|
@@ -525,7 +530,7 @@ A The Horde Way|QID|31013|M|48.14,70.54|PRE|31012|N|To Garrosh Hellscream|Z|Orgr
 C The Horde Way|QID|31013|M|49.00,73.08|N|Listen to Garrosh Hellscream|Z|Orgrimmar|NC|FACTION|Horde|
 T The Horde Way|QID|31013|M|70.61,31.47|N|To Garrosh Hellscream, who has moved to the Valley of Honor|Z|Orgrimmar|FACTION|Horde|
 
-A Hellscream's Gift|QID|31014|M|70.61,31.47|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
+A Hellscream's Gift|QID|31014|M|70.61,31.47|PRE|31013|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
 C Hellscream's Gift|QID|31014|M|70.60,30.90|N|Head towards the door behind Garrosh Hellscream, and you'll get teleported to The Ring of Valor. Just fight the same target as Ji Firepaw, and run when you are told to.|Z|Orgrimmar|FACTION|Horde|
 T Hellscream's Gift|QID|31014|M|48.14,70.54|N|To Garrosh Hellscream, who has moved back to the Valley of Strength|Z|Orgrimmar|FACTION|Horde|
 
