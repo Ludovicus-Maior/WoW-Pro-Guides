@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2018-02-22 22:55
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3272/revisions/28906/view
 -- Date: 2018-01-16 23:56
 -- Who: Ludovicus
 -- Log: New Levels
@@ -120,7 +125,7 @@ return [[
 
 ; Adjusted to give .xx in map Coords, and adjusted 'h' step to after turning in the lead ins, before going to Nazgrel
 
-A Through the Dark Portal|QID|9407|LEAD|10120|M|54.42,50.56|Z|Blasted Lands|N|From Warlord Dar'toon.|
+A Through the Dark Portal|QID|9407|M|54.42,50.56|Z|Blasted Lands|N|From Warlord Dar'toon.|
 R Hellfire Peninsula|N|Through the great big portal. Once you go through, you can not come back through it.  A portal back to Org is on the Hellfire side.|Z|Blasted Lands|QID|9407|M|55.04,54.19|
 T Through the Dark Portal |QID|9407|M|87.42,49.85|N|To Lieutenant General Orion.|
 A Arrival in Outland |QID|10120|PRE|9407+28705|M|87.42,49.85|N|From Lieutenant General Orion.|
@@ -189,8 +194,8 @@ A Apothecary Antonivich |QID|10835|PRE|10538|M|61.15,81.78|N|From Apothecary Alb
 A The Eyes of Grillok |QID|10813|M|61.65,81.85|N|From Zezzak.|
 F Thrallmar|QID|10388|M|61.65,81.19|N|Fly to Thrallmar.|
 
-A Falcon Watch |QID|9498|R|Tauren, Orc, Troll, Undead, Goblin, Pandaren|LVL|60|M|55.23,39.10|N|From Martik Tir'seldori.|
-A Falcon Watch |QID|9499|R|Blood Elf|M|55.23,39.10|N|From Martik Tir'seldori.|
+A Falcon Watch |QID|9498|LEAD|9340|R|Tauren, Orc, Troll, Undead, Goblin, Pandaren|LVL|60|M|55.23,39.10|N|From Martik Tir'seldori.|
+A Falcon Watch |QID|9499|LEAD|9340|R|Blood Elf|M|55.23,39.10|N|From Martik Tir'seldori.|
 B Expert Riding|QID|10388|LVL|60|M|54.16,41.61|N|Expert Riding may be purchased for 225g, From Wind Rider Jahubo.  If this is your first time playing, you will also need 50g for a flying mount, from Bana Wildmane. * Note all mounts are now BOA *|  ; Spell ID is 34090
 T Return to Thrallmar |QID|10388|M|55.02,35.96|N|To Nazgrel.|
 A Forge Camp: Mageddon |QID|10390|PRE|10388|M|55.02,35.96|N|From Nazgrel.|
@@ -215,8 +220,8 @@ A Missing Missive |QID|9373|O|U|23338|M|48.0,66.0|N|From the Eroded Leather Case
 T Outland Sucks! |QID|10236|M|51.37,30.51|N|To Foreman Razelcraz.|
 A How to Serve Goblins |QID|10238|PRE|10236|M|51.37,30.51|N|From Foreman Razelcraz.|
 C A Burden of Souls |QID|10864|M|46.91,45.59|N|Kill any Shattered Hand Orc you come across.|S|
-C Save Manni|QID|10238|M|45.12,41.06|NC|QO|Manni Saved: 1/1|N|Manni, the first goblin is to the SW.|
-C Save Moh|QID|10238|M|46.46,45.15|NC|QO|Moh Saved: 1/1|N|Moh is south of Manni.|
+C Save Manni|QID|10238|M|45.12,41.06|NC|QO|1|N|Manni, the first goblin is to the SW.|; Manni Saved: 1/1
+C Save Moh|QID|10238|M|46.46,45.15|NC|QO|2|N|Moh is south of Manni.|; Moh Saved: 1/1
 C How to Serve Goblins|QID|10238|M|47.49,46.60|NC|N|Jakk is again south of Moh. |
 C A Burden of Souls |QID|10864|N|Kill any Shattered Hand Orc you come across.|M|46.91,45.59|US|
 T The Assassin |QID|9400|M|34.83,45.91;33.62,43.56|CC|N|Follow the road west through the ramparts, till you see wooden spikes beside the roads. At them, take a sharp right. To the Fel Orc Corpse.|
@@ -258,7 +263,7 @@ C Make Them Listen |QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|
 A Decipher the Tome |QID|10229|U|28552|M|58.0,79.0|N|From A Mysterious Tome.|
 C Smooth as Butter |QID|9356|N|Kill and loot Bonstripper Buzzard until you have 12 wings.|M|63.4,66.3|
 C In Case of Emergency... |QID|10161|N|Pick up Zepplin Debris.|M|58.0,71.5|US|
-C Burn It Up... For the Horde!|QID|10087|QO|Eastern Cannon Burned: 1/1|U|27479|N|Head to the Eastern Cannon. Burn it. |M|60.90,52.50|
+C Burn It Up... For the Horde!|QID|10087|QO|1|U|27479|N|Head to the Eastern Cannon. Burn it. |M|60.90,52.50|; Eastern Cannon Burned: 1/1
 C Burn It Up... For the Horde!|QID|10087|QO|2|U|27479|N|Go further west along the Path of Glory and find the Western Cannon. Burn it. |M|54.67,54.10|
 H Thrallmar|QID|10087|U|6948|N|Hearth to Thrallmar.|
 T Burn It Up... For the Horde! |QID|10087|M|55.17,38.79|N|To Megzeg Nukklebust.|
@@ -338,7 +343,7 @@ A The Cleansing Must Be Stopped |QID|9370|PRE|9366|M|26.99,59.54|N|From Ryathen 
 T Arelion's Journal |QID|9374|M|26.37,60.32|N|To Magistrix Carinda.|
 A Arelion's Secret |QID|10286|PRE|9374|M|26.37,60.32|N|From Magistrix Carinda.|
 A Trueflight Arrows |QID|9381|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
-A Helping the Cenarion Post |QID|10442|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
+A Helping the Cenarion Post |QID|10442|LEAD|9372|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
 T The Great Fissure |QID|9340|M|28.49,60.24|N|To Ranger Captain Venn'ren. Top of Tower.|
 A Marking the Path |QID|9391|PRE|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
 T Wanted: Blacktalon the Savage |QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
@@ -410,7 +415,7 @@ C Testing the Antidote |QID|10255|N|Go find a Hulking Helboar, use the Cenarion 
 T Testing the Antidote |QID|10255|M|15.70,52.09|N|To Thiah Redmane.|
 C Source of the Corruption |QID|9387|N|Kill the Taskmasters until you have enough essence. The Brutes will run once you kill the Taskmaster.|M|15.0,55.5|S|
 
-A Naladu|N|From Akoru the Firecaller.|QID|10403|M|15.59,58.75|
+A Naladu|N|From Akoru the Firecaller.|QID|10403|LEAD|10367|M|15.59,58.75|
 T Naladu|QID|10403|M|16.3,65.1|N|To Naladu.|
 A A Traitor Among Us |QID|10367|M|16.3,65.1|N|From Naladu.|
 C A Traitor Among Us |N|Get the key from the chest here.|QID|10367|M|14.35,63.35|
@@ -436,7 +441,7 @@ A The Dying Balance |QID|9895|Z|Zangarmarsh|M|78.5,63.0|N|From Lethyn Moonfire.|
 B Cenarion Spirits |QID|9472|L|29112|N|Available from the innkeeper.|Z|Zangarmarsh|M|78.5,63.0|
 T The Cenarion Expedition |QID|9912|Z|Zangarmarsh|M|78.5,62.0|N|To Ysiel Windsinger.|
 A Disturbance at Umbrafen Lake |QID|9716|Z|Zangarmarsh|M|78.5,62.0|N|From Ysiel Windsinger.|
-A Warden Hamoot |QID|9778|Z|Zangarmarsh|M|78.4,62.1|N|From Ysiel Windsinger.|
+A Warden Hamoot |QID|9778|LEAD|9728|Z|Zangarmarsh|M|78.4,62.1|N|From Ysiel Windsinger.|
 A Checking Up|QID|29566|M|78.40,62.10|Z|Zangarmarsh|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
 T Warden Hamoot |QID|9778|Z|Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
 
