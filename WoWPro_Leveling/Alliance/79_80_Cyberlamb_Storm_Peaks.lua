@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2018-02-20 01:29
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3299/revisions/28918/view
 -- Date: 2018-01-17 00:02
 -- Who: Ludovicus
 
@@ -317,7 +322,7 @@ A Norgannon's Shell|QID|12872|PRE|13415|N|From the Inventor's Library Console.|M
 C Norgannon's Shell|QID|12872|N|Use the Charged Disk to summon Archivist Mechaton, then kill him and loot Norgannon's Shell.|U|44704|L|41258|
 T Norgannon's Shell|QID|12872|N|Use Brann's Communicator to turn in this quest.|U|40971|
 A Aid from the Explorers' League|QID|12871|PRE|12872|N|From Brann Bronzebeard.|
-A The Exiles of Ulduar|QID|12885|PRE|12872|N|From Brann Bronzebeard.|
+A The Exiles of Ulduar|QID|12885|LEAD|12930|PRE|12872|N|From Brann Bronzebeard.|
 T Aid from the Explorers' League|QID|12871|N|To Lagnus.|M|29.3,73.7|
 A The Frostborn King|QID|12873|PRE|12871|N|From Lagnus.|M|29.3,73.7|
 T The Frostborn King|QID|12873|N|To Yorg Stormheart.|M|30.2,74.7|
