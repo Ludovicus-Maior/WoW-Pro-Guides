@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2018-02-20 00:57
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3218/revisions/29016/view
 -- Date: 2018-02-19 23:24
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -165,10 +170,10 @@ A The Last Wave of Survivors|QID|13518|M|51.80,18.10|N|From Dentaria Silverglade
 A Threat from the Water|QID|13522|M|50.39,18.75|N|From Ranger Glynda Nal'Shea.|
 h Lor'danel|QID|13831|M|50.98,18.61|N|At Innkeeper Kyteran.|
 C Threat from the Water|QID|13522|M|45.50,17.64|S|N|Kill 8 Vile Sprays.|
-C Rescue Volcor|QID|13518|M|45.03,18.20|QO|Volcor rescued: 1/1|N|Talk to Volcor.|NC|
-C Rescue Gershala Nightwhisper|QID|13518|M|44.10,17.81|QO|Gershala Nightwhisper rescued: 1/1|N|Talk to Gershala.|NC|
-C Rescue Cerellean Whiteclaw|QID|13518|M|44.53,19.93|QO|Cerellean Whiteclaw rescued: 1/1|N|Talk to Cerellean.|NC|
-C Rescue Shaldyn|QID|13518|M|42.92,21.48|QO|Shaldyn rescued: 1/1|N|Now rescue Shaldyn.|NC|
+C Rescue Volcor|QID|13518|M|45.03,18.20|QO|4|N|Talk to Volcor.|NC|; Volcor rescued: 1/1
+C Rescue Gershala Nightwhisper|QID|13518|M|44.10,17.81|QO|2|N|Talk to Gershala.|NC|; Gershala Nightwhisper rescued: 1/1
+C Rescue Cerellean Whiteclaw|QID|13518|M|44.53,19.93|QO|1|N|Talk to Cerellean.|NC|; Cerellean Whiteclaw rescued: 1/1
+C Rescue Shaldyn|QID|13518|M|42.92,21.48|QO|3|N|Now rescue Shaldyn.|NC|; Shaldyn rescued: 1/1
 C Threat from the Water|QID|13522|M|45.50,17.64|US|N|Kill 8 Vile Sprays.|
 T Threat from the Water|QID|13522|M|50.21,19.83|N|To Ranger Glynda Nal'Shea.|
 T The Last Wave of Survivors|QID|13518|M|51.75,18.05|N|To Dentaria Silverglade.|
@@ -197,7 +202,7 @@ l Corruptor's Master Key|QID|13557|L|44927|N|Enter the waterfall, and kill Vile 
 A Bearer of Good Fortune|QID|13557|U|44927|M|57.02,31.46|N|Right click the Corruptor's Master Key to accept the quest.|
 C Bearer of Good Fortune|QID|13557|M|57.50,32.41|N|Open the cages on the way.|S|NC|
 A A Troubling Prescription|QID|13831|PRE|13528|M|56.78,33.47;57.37,33.80|CS|N|From the Disgusting Workbench on lower level, first cave on left as you come down the ramp.|
-K Zenn Foulhoof|QID|13529|M|58.75,32.64|QO|Zenn Foulhoof slain: 1/1|N|Kill Zenn Foulhoof, you can locate him easily on your minimap by tracking the skull.|
+K Zenn Foulhoof|QID|13529|M|58.75,32.64|QO|1|N|Kill Zenn Foulhoof, you can locate him easily on your minimap by tracking the skull.|; Zenn Foulhoof slain: 1/1
 C Bearer of Good Fortune|QID|13557|M|57.50,32.41|N|Open cages until you finish the quest.|US|NC|
 C The Corruption's Source|QID|13529|M|58.75,32.64|N|Kill Vile Grells until you finish the quest.|US|
 C A Cure In The Dark|QID|13554|M|58.86,32.34|N|Kill Vile Grells and Vile Corruptors.|
@@ -296,8 +301,8 @@ A The Looting of Althalaxx|QID|13844|PRE|13507;13509|M|59.25,19.63|N|From Mathas
 
 C On the Brink|QID|13513|M|57.33,25.86|N|Kill Shatterspear Shamans on the way and loot their amulets.|S|
 C The Looting of Althalaxx|QID|13844|M|58.28,24.01|N|Go inside the tower, find a Charred Book to the side halfway upstairs. Also Kill Teegan Holloway.|
-K Lorenth Thundercall|QID|13512|U|44995|M|56.80,25.88|QO|Lorenth Thundercall slain: 1/1|N|Use the Dryad Spear to kill him. Keep moving around to avoid the lightnings.|
-C Strategic Strikes|QID|13512|U|44995|M|61.24,20.76|QO|Sheya Stormweaver slain: 1/1|N|Use the Dryad Spear to kill her. You can hide behind pillars to avoid her bolts while your spear is on cooldown.|
+K Lorenth Thundercall|QID|13512|U|44995|M|56.80,25.88|QO|1|N|Use the Dryad Spear to kill him. Keep moving around to avoid the lightnings.|; Lorenth Thundercall slain: 1/1
+C Strategic Strikes|QID|13512|U|44995|M|61.24,20.76|QO|2|N|Use the Dryad Spear to kill her. You can hide behind pillars to avoid her bolts while your spear is on cooldown.|; Sheya Stormweaver slain: 1/1
 C On the Brink|QID|13513|M|57.33,25.86|US|N|Finish gathering Shatterspear Amulets.|
 T Strategic Strikes|QID|13512|M|58.88,19.47|N|To Lieutenant Morra Starbreeze.|
 T On the Brink|QID|13513|M|58.88,19.47|N|To Balthule Shadowstrike.|
@@ -328,7 +333,7 @@ R Bashal'Aran|QID|13523|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choos
 C Twilight Plans|QID|13596|M|45.10,30.34|N|Loot Twilight Plans, they're small glowing scrolls scattered across this camp.|S|NC|
 C The Twilight's Hammer|QID|13519|M|44.11,32.22|N|Kill Twilight Fanatics.|S|
 A Power Over the Tides|QID|13523|M|44.60,30.83|N|From Moon Priestess Tharill.|
-K High Cultist Azerynn|QID|13519|M|43.66,31.36|QO|High Cultist Azerynn slain: 1/1|N|Kill High Cultist Azerynn.|
+K High Cultist Azerynn|QID|13519|M|43.66,31.36|QO|1|N|Kill High Cultist Azerynn.|; High Cultist Azerynn slain: 1/1
 C Power Over the Tides|QID|13523|U|44975|M|43.97,28.54|N|Kill Enraged Tidal Spirits and use the Orb of Elune on their corpses.|
 C The Twilight's Hammer|QID|13519|M|44.11,32.22|US|N|Kill Twilight Fanatics.|
 C Twilight Plans|QID|13596|M|45.10,30.34|N|Loot Twilight Plans you still need.|US|NC|
@@ -348,12 +353,12 @@ A Malfurion's Return|QID|13573|M|42.63,45.16|N|From Corvine Moonrise.|
 l Frienzied Cyclone Bracers|QID|13542|M|39.51,42.09|N|Kill Frenzied Cyclones to get their bracers.|L|44868 8|S|
 A Coaxing the Spirits|QID|13547|M|39.08,43.13|N|From Yalda.|
 A The Last Refugee|QID|13605|M|38.59,42.37|N|From Archaeologist Hollee.|
-C Coax Taldan's Spirit|QID|13547|M|38.54,41.89|N|Grab Taldan's Spirit when Archaeologist Hollee stops at his corpse.|QO|Taldan's spirit coaxed: 1/1|NC|
+C Coax Taldan's Spirit|QID|13547|M|38.54,41.89|N|Grab Taldan's Spirit when Archaeologist Hollee stops at his corpse.|QO|3|NC|; Taldan's spirit coaxed: 1/1
 C The Last Refugee|QID|13605|NC|M|41.20,43.34|N|Follow Archaeologist Hollee.|
-N Sentinel Elissa Starbreeze's Spirit|QID|13547|M|40.95,41.41|N|Grab Elissa's spirit.|QO|Sentinel Elissa Starbreeze's spirit coaxed: 1/1|NC|
-K Cloudtamer Wildmane|QID|13543|M|40.76,41.51|QO|Cloudtamer Wildmane slain: 1/1|N|Head upstairs and Kill Cloudtamer.|
-N Thundris Windweaver's Spirit|QID|13547|M|39.31,38.96|QO|Thundris Windweaver's spirit coaxed: 1/1|N|Talk to Thundris' corpse to get his spirit.|
-K Skylord Braax|QID|13543|M|39.14,38.28|QO|Skylord Braax slain: 1/1|N|Kill Skylord Braax.|
+N Sentinel Elissa Starbreeze's Spirit|QID|13547|M|40.95,41.41|N|Grab Elissa's spirit.|QO|2|NC|; Sentinel Elissa Starbreeze's spirit coaxed: 1/1
+K Cloudtamer Wildmane|QID|13543|M|40.76,41.51|QO|1|N|Head upstairs and Kill Cloudtamer.|; Cloudtamer Wildmane slain: 1/1
+N Thundris Windweaver's Spirit|QID|13547|M|39.31,38.96|QO|1|N|Talk to Thundris' corpse to get his spirit.|; Thundris Windweaver's spirit coaxed: 1/1
+K Skylord Braax|QID|13543|M|39.14,38.28|QO|3|N|Kill Skylord Braax.|; Skylord Braax slain: 1/1
 l Frienzied Cyclone Bracers|QID|13542|M|39.51,42.09|N|Kill Frenzied Cyclones to get their bracers.|L|44868 8|US|
 C Against the Wind|QID|13542|M|39.51,42.09|N|Go to the Moonwell and use the Frienzied Cyclone Bracers until you complete the quest.|U|44868|
 C Three Hammers to Break|QID|13543|M|37.84,42.75|N|Kill Windmaster Tzu-Tzu to finish the quest.|
@@ -432,10 +437,10 @@ T Consumed|QID|13881|M|45.19,74.69|N|To Kathrena Winterwisp.|
 T Stepping Up Surveillance|QID|13948|M|45.25,75.18|N|To Balren of the Claw.|
 A Unearthed Knowledge|QID|13896|PRE|13948|M|45.28,75.05|N|From Larien.|
 A The Seeds of Life|QID|13882|PRE|13881|M|45.19,74.69|N|From Kathrena Winterwisp.|
-l Seed of the Earth|QID|13882|M|45.35,74.87|N|Talk to Onu to get the Seed of the Earth.|QO|Seed of the Earth: 1/1|
+l Seed of the Earth|QID|13882|M|45.35,74.87|N|Talk to Onu to get the Seed of the Earth.|QO|1|; Seed of the Earth: 1/1
 r Sell junk, repair/restock.|M|45.31,74.67|QID|13882|
 
-N Seed of the Sky|QID|13882|M|42.06,78.96|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|QO|Seed of the Sky: 1/1|S|
+N Seed of the Sky|QID|13882|M|42.06,78.96|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|QO|3|S|; Seed of the Sky: 1/1
 T The Bear's Blessing|QID|13544|M|43.48,80.96|N|To Elder Brolg.|
 A Cleansing the Afflicted|QID|13545|PRE|13544|M|43.48,80.96|N|From Elder Brolg.|
 A Jadefire Braziers|QID|13572|PRE|13544|M|43.57,80.95|N|From Gren Tornfur.|
@@ -475,7 +480,7 @@ A A New Home|QID|13910|PRE|13909|M|37.68,82.78|N|From Archaeologist Groff.|
 C A New Home|QID|13910|U|46385|M|35.91,81.89|N|Go to the flag and use the Marvelous Mobile Murloc Manor Maker.|
 T A New Home|QID|13910|M|37.67,82.77|N|To Archaeologist Groff.|
 
-N Seed of the Sky|QID|13882|M|42.06,78.96|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|QO|Seed of the Sky: 1/1|US|
+N Seed of the Sky|QID|13882|M|42.06,78.96|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|QO|3|US|; Seed of the Sky: 1/1
 T The Seeds of Life|QID|13882|M|45.20,74.71|N|To Kathrena Winterwisp.|
 A An Ounce of Prevention|QID|13925|PRE|13882|M|45.20,74.71|N|From Kathrena Winterwisp.|
 T Soggoth and Kronn|QID|13893|M|45.29,75.07|N|To Larien.|
