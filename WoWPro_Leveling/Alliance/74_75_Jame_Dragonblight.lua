@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2018-02-20 01:26
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3291/revisions/28914/view
 -- Date: 2018-01-17 00:00
 -- Who: Ludovicus
 -- Log: New Levels
@@ -145,7 +150,7 @@ N Note |QID|12298|N|If you followed my previous guides, you should be in Winterg
 f Wintergarde Keep |QID|12298|N|Get the new flight path at Rodney Wells. |M|77.0,49.8|
 N Warning! |QID|12298|N|Throughout this whole chapter, do NOT get the quest [The Hills Have Us]. If you take it, this will fly you to Grizzly Hills and will make you waste a lot of time.|
 T High Commander Halford Wyrmbane |QID|12298|N|To High Commander Halford Wyrmbane.|M|78.60,48.20|
-A Naxxramas and the Fall of Wintergarde |QID|12235|PRE|12174;12298|M|78.6,48.2|N|From High Commander Halfor Wyrmbane.|
+A Naxxramas and the Fall of Wintergarde |QID|12235|PRE|12174+12298|M|78.6,48.2|N|From High Commander Halfor Wyrmbane.|
 
 T Naxxramas and the Fall of Wintergarde |QID|12235|N|Go back towards the gryphon master. To Gryphon Commander Urik.|M|77.1,50.1|
 A Flight of the Wintergarde Defender |QID|12237|PRE|12235|M|77.1,50.1|N|From Gryphon Commander Urik.|
@@ -224,12 +229,12 @@ A My Old Enemy |QID|12464|PRE|12237|N|Take the path up north and turn left to go
 T Understanding the Language of Death  |QID|12320|N|Go downstairs to Inquisitor Hallard.|M|76.8,47.4|
 A A Righteous Sermon |QID|12321|PRE|12320|M|76.8,47.4|N|From Inquisitor Hallard.|
 C A Righteous Sermon |QID|12321|N|Watch the script until you get the complete message.|M|76.8,47.4|
-A A Disturbance In The West |QID|12439|N|Get out of this building. Go a little east to Vas the Unstable.  ==Note== This quest won't appear if you took [Your Presence Is Required at Star's Rest] Abandon it.|M|78.90,45.30|
+A A Disturbance In The West |QID|12439|LEAD|12000|N|Get out of this building. Go a little east to Vas the Unstable.  ==Note== This quest won't appear if you took [Your Presence Is Required at Star's Rest] Abandon it.|M|78.90,45.30|
 T A Righteous Sermon |QID|12321|N|Go back to High Commander Halford Wyrmbane.|M|78.60,48.20|
 A Into Hostile Territory |QID|12325|PRE|12281|M|78.6,48.2|N|From High Commander Halford Wyrmbane.|
 
 T A Disturbance In The West |QID|12439|N|To Rodney Wells.|M|77.00,49.80|
-A To Stars' Rest! |QID|12440|PRE|12439|N|Dismount, then accept this quest from Rodney Wells. This will fly you to Stars' Rest.|M|77,49.8|
+A To Stars' Rest! |QID|12440|LEAD|12000|PRE|12439|N|Dismount, then accept this quest from Rodney Wells. This will fly you to Stars' Rest.|M|77,49.8|
 
 f Stars' Rest |QID|12440|N|Get the new flight path.|
 T To Stars' Rest! |QID|12440|N|To the Image of Archmage Modera.|M|29.00,55.50|
@@ -320,7 +325,7 @@ T Elder Mana'loa |QID|12030|N|You should see a statue (looks more like a rock ac
 A Freedom for the Lingering |QID|12031|PRE|12030|M|36.62,64.98|N|From the statue that is Elder Mana'loa.|
 C Freedom for the Lingering |QID|12031|S|N|Kill Indu'le Fishermen/Warriors/Mystics until you finish this quest.|M|37.2,65.5|
 T Search Indu'le Village |QID|12098|N|Clear the way to the middle of Lake Indu'le where you should see the corpse of Mage-Commander Evenstar.|M|40.0,67.00|
-A The End of the Line |QID|12107|PRE|12098;12106|M|40.3,66.9|N|From the corpse of Mage-Commander Evenstar.|
+A The End of the Line |QID|12107|PRE|12098+12106|M|40.3,66.9|N|From the corpse of Mage-Commander Evenstar.|
 C Ley Line Focus information retrieved|QID|12107|U|36815|QO|1|N|Get close to the Ley Line Focus and right-click the Ley Line Focus Control Talisman, then wait until you get the quest completion.|NC|
 C Freedom for the Lingering |QID|12031|US|N|Get out of the lake, and finish kill Indu'le Fishermen/Warriors/Mystics until you finish up.|M|37.2,65.5|
 T Freedom for the Lingering |QID|12031|N|To Elder Mana'loa.|M|36.62,64.98|
@@ -452,7 +457,7 @@ T An End And A Beginning |QID|12473|M|78.6,48.2|N|To High Commander Halford Wyrm
 A To Fordragon Hold! |QID|12474|PRE|12473|M|78.6,48.2|N|From High Commander Halford Wyrmbane.|
 
 F Wyrmrest Temple |QID|12469|M|77,49.79|N|Fly to Wyrmrest Temple.|
-A Return to Sender |QID|12469|N|Go to the waypoint. There you should find a Nozzlerust Supply Runner.|M|48.45,24.15|
+A Return to Sender |QID|12469|LEAD|12044|N|Go to the waypoint. There you should find a Nozzlerust Supply Runner.|M|48.45,24.15|
 
 T Return to Sender |QID|12469|N|From there ride east to Nozzlerust Post. Turn the quest into Xink.|M|55.01,23.44|
 A Stocking Up |QID|12044|M|55.01,23.44|N|From Xink.|
@@ -466,11 +471,11 @@ A Audience With The Dragon Queen |QID|12495|PRE|12474|M|37.8,23.4|N|From Highlor
 F Wyrmrest Temple |QID|12146|M|39.5,25.9|N|Get the flight point and fly to Wyrmrest Temple.|
 
 T Disturbing Implications |QID|12146|N|Turn in to Aurastrasza, who resides at the bottom floor of Wyrmrest Temple.|M|60.0,55.1|
-A One of a Kind |QID|12148|PRE|12146;12147|M|60.0,55.1|N|From Aurastrasza.|
+A One of a Kind |QID|12148|PRE|12146+12147|M|60.0,55.1|N|From Aurastrasza.|
 
 T Mystery of the Infinite |QID|12470|N|Go to Tariolastrasz and ask him to fly you to the top floor. Turn the quest into Chromie.|M|60,54.49|
 T Audience With The Dragon Queen |QID|12495|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
-A Galakrond and the Scourge |QID|12497|PRE|12495;12496|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
+A Galakrond and the Scourge |QID|12497|PRE|12495+12496|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 
 T Galakrond and the Scourge |QID|12497|N|To Torastrasza.|M|59.5,53.3|
 A On Ruby Wings |QID|12498|PRE|12497|M|59.5,53.3|N|From Torastrasza.|
@@ -535,7 +540,7 @@ C Harp on This! |QID|12052|QO|2|US|N|Finish killing harpies until you finish thi
 C Lumber Hack |QID|12050|US|N|Finish gathering lumber.|M|53.1,19.5|
 T Lumber Hack |QID|12050|N|To Xink|M|55.0,23.4|
 T Harp on This! |QID|12052|N|To Narf.|M|54.5,23.6|
-A Stiff Negotiations |QID|12112|PRE|12052|M|54.5,23.6|N|From Narf.|
+A Stiff Negotiations |QID|12112|LEAD|12075|PRE|12052|M|54.5,23.6|N|From Narf.|
 
 T Stiff Negotiations |QID|12112|N|To Zort.|M|59.40,18.16|
 A Slim Pickings |QID|12075|M|59.40,18.16|N|From Zort.|
@@ -589,7 +594,7 @@ H Wintergarde Keep |QID|12287|N|Hearthstone to Wintergarde Keep.|
 R Dawn's Reach |QID|12287|N|Ride southeast to Dawn's Reach. |M|87.00,57.00|
 T Orik Trueheart and the Forgotten Shore |QID|12287|N|To Orik Trueheart.|M|87.00,57.00|
 A The Murkweed Elixir |QID|12290|PRE|12287|M|87.2,57.4|N|From Orik Trueheart.|
-A The Call Of The Crusade |QID|12542|N|From Tilda Darathan.|M|87.2,57.4|
+A The Call Of The Crusade |QID|12542|LEAD|12545|N|From Tilda Darathan.|M|87.2,57.4|
 R Eldritch Heights |QID|12290|N|Ride southeast to Eldritch Heights.|M|90.00,68.00|
 N Note: |QID|12441|N|While you're here, try to see if there's any group up for killing High Shaman Bloodpaw for the quest [Wanted: High Shaman Bloodpaw]. He's really close so might as well kill two birds with one stone. Some classes reported being able to solo it, but I wouldn't risk it, duo'ing is already much more realistic. 3+ is best.|
 C The Murkweed Elixir |QID|12290|N|Loot 5 Murkweed.|M|90.00,68.00|S|
@@ -649,7 +654,7 @@ T That Which Creates Can Also Destroy |QID|12459|N|Ask Tariolstrasz to take you 
 T Tales of Destruction |QID|12266|M|60.1,54.2|N|To Nalice.|
 T The Fate of the Ruby Dragonshrine |QID|12419|M|59.8,54.7|N|To Krasus.|
 T Informing the Queen |QID|12123|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
-A Report to Lord Afrasastrasz |QID|12435|PRE|12123;12124|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
+A Report to Lord Afrasastrasz |QID|12435|PRE|12123+12124|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 T On Ruby Wings |QID|12498|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
 A Return To Angrathar |QID|12499|PRE|12498|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 T Report to Lord Afrasastrasz |QID|12435|N|Ask Torastrasza to fly you down to the middle floor. Turn the quest into Lord Afrasastrasz.|M|59.2,54.3|
