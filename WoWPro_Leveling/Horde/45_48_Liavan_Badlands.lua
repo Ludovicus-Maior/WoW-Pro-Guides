@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
+-- Date: 2018-02-20 21:47
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3248/revisions/28889/view
 -- Date: 2018-01-16 23:43
 -- Who: Ludovicus
 -- Log: New Levels
@@ -82,7 +87,7 @@ WoWPro:GuideIcon(guide,"ACH",4900)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A To Fuselight Proper|QID|27763|M|92.77,38.90|N|From Eddie Flofizzle.|
+A To Fuselight Proper|QID|27763|LEAD|27774|M|92.77,38.90|N|From Eddie Flofizzle.|
 
 T To Fuselight Proper|QID|27763|M|88.37,32.67;65.11,38.29|CC|N|To Dolph Blastus.|
 A Easily Swayed|QID|27774|M|65.11,38.29|N|From Dolph Blastus.|
@@ -169,13 +174,13 @@ A The Day that Deathwing Came|QID|27713|M|26.43,62.19|N|From Theldurin the Lost.
 C The Day that Deathwing Came|QID|27713|M|41.97,43.60|N|Run through the scar, punch the mobs needed, and the barriers to go through them. Enjoy punching Deathwing in the face.|
 T The Day that Deathwing Came|QID|27713|M|26.33,62.25|N|To Theldurin the Lost.|
 A The Day that Deathwing Came: The Real Story|QID|27714|PRE|27713|M|26.38,62.55|N|From Lucien Tosselwrench.|
-N Shrink the World|QID|27714|QO|Grow large enough to reach the clouds: 1/1|N|Use Ability #1, until you get large enough.|
+N Shrink the World|QID|27714|QO|1|N|Use Ability #1, until you get large enough.|; Grow large enough to reach the clouds: 1/1
 N The Day that Deathwing Came: The Real Story|QID|27714|QO|Clouds searched: 5/5|M|35.3,50.7;39.6,59.8;49.2,57.4;33.8,37.4;17.1,65.5;14.3,53.4|CN|N|Hunt for clouds, then use ability #2. The waypoints are a few of the spots where a cloud could be.|
 C The Day that Deathwing Came: The Real Story|QID|27714|M|18.7,64.4|N|Look up for the "Sun" in the sky, huge orange-ish ball, click on it.|
 T The Day that Deathwing Came: The Real Story|QID|27714|M|26.26,62.35|N|To Lucien Tosselwrench.|
 A The Day that Deathwing Came: What Really Happened|QID|27715|PRE|27714|M|26.24,62.38|N|From Martek the Exiled.|
-N Choose an admirer to save|QID|27715|M|26.33,62.38|QO|Choose an admirer to save: 1/1|N|Choose your type. One for every taste.|
-N Ride to the end of the canyon|QID|27715|M|43.38,41.13|QO|Ride to the end of the canyon: 1/1|N|Run to the waypoint.|
+N Choose an admirer to save|QID|27715|M|26.33,62.38|QO|1|N|Choose your type. One for every taste.|; Choose an admirer to save: 1/1
+N Ride to the end of the canyon|QID|27715|M|43.38,41.13|QO|2|N|Run to the waypoint.|; Ride to the end of the canyon: 1/1
 C The Day that Deathwing Came: What Really Happened|QID|27715|M|39.37,38.51|N|Fly up to Deathwing.|
 T The Day that Deathwing Came: What Really Happened|QID|27715|M|26.29,62.29|N|To Martek the Exiled.|
 
@@ -199,7 +204,7 @@ f New Kargath|QID|27892|M|17.19,40.05|N|From Gorrik.|
 C The Wrath of a Dragonflight|QID|27894|M|26.19,45.11|N|Kill Kalaran the Annihilator and 4 Darkflight Soldiers.|
 T The Wrath of a Dragonflight|QID|27894|M|26.21,45.11|N|(UI Alert)|
 A Their Hunt Continues|QID|27895|PRE|27894|M|26.21,45.11|N|(UI Alert)|
-K Moldarr|QID|27895|M|17.07,47.78|N|Kill Moldarr. Kill Darkflight dragonspawn as you go.|QO|Moldarr slain: 1/1|
+K Moldarr|QID|27895|M|17.07,47.78|N|Kill Moldarr. Kill Darkflight dragonspawn as you go.|QO|2|; Moldarr slain: 1/1
 C Their Hunt Continues|QID|27895|M|15.85,42.12|N|Head up to General Jirakka, kill the rest of the Darkflight dragonspawn you need on the way.|
 T Their Hunt Continues|QID|27895|M|17.01,48.47|N|(UI Alert)|
 A The Sorrow and the Fury|QID|27896|PRE|27895|M|17.04,48.28|N|(UI Alert)|
@@ -211,7 +216,7 @@ A Rheastrasza's Gift|QID|27898|PRE|27897|M|16.10,33.20|N|From Rhea.|
 C Rheastrasza's Gift|QID|27898|M|15.88,32.97|N|Cutscene.|
 T Rheastrasza's Gift|QID|27898|M|15.84,33.24|N|(UI Alert)|
 
-A Devastation|QID|27930|PRE|27858;27898|M|15.84,33.24|N|(UI Alert)|
+A Devastation|QID|27930|PRE|27858+27898|M|15.84,33.24|N|(UI Alert)|
 T Devastation|QID|27930|M|18.89,30.18|N|Inside the cave at Rhea's Final Note.|
 A The Egg Lives On|QID|27859|PRE|27930|M|18.03,30.5|N|This does not auto-complete as it is a complete only quest. So close this step when done.|
 
@@ -222,7 +227,7 @@ C Half-Ton Holdouts|QID|27880|M|12.40,63.40|RANK|3|N|Head back outside the cave 
 T Half-Ton Holdouts|QID|27880|M|17.70,43.80|N|To Gorn.|RANK|3|
 T Survival of the Fattest|QID|27879|M|18.41,41.59|N|To Aidan Summerwind.|RANK|3|
 
-A To the Aid of the Thorium Brotherhood|QID|28512|M|18.43,41.55|N|From Aidan Summerwind.|
+A To the Aid of the Thorium Brotherhood|QID|28512|LEAD|27963|M|18.43,41.55|N|From Aidan Summerwind.|
 ]]
 
 end)
