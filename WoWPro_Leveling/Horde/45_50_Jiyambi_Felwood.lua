@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_horde
+-- Date: 2018-02-20 21:48
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3258/revisions/28892/view
 -- Date: 2018-01-16 23:45
 -- Who: Ludovicus
 -- Log: New Levels
@@ -104,11 +109,11 @@ C The Corruption of the Jadefire|QID|27997|M|43.89,82.80;42.01,83.74|CN|N|Kill s
 C Culling the Corrupted|QID|28148|US|M|45.68,80.08|N|Kill and loot bears and wolves.|
 T The Corruption of the Jadefire|QID|27997|M|51.13,80.52|N|To Tenell Leafrunner, back at the Emerald Sanctuary.|
 T Culling the Corrupted|QID|28148|M|50.91,80.19|N|To Taronn Redfeather.|
-A An Arcane Ally|QID|28150|PRE|28148|M|51.16,80.44|N|From Tenell Leafrunner.|
+A An Arcane Ally|QID|28150|LEAD|28000|PRE|27995;27997;28148|M|51.16,80.44|N|From Tenell Leafrunner.|
 R Ruins of Constellas|QID|28150|M|41.90,71.99|N|To the north-west.|
 T An Arcane Ally|QID|28150|M|41.90,71.99|N|To Arcanist Delaris.|
 
-A Do the Imp-Possible|QID|28000|PRE|28150|M|41.90,71.99|N|From Arcanist Delaris.|
+A Do the Imp-Possible|QID|28000|M|41.90,71.99|N|From Arcanist Delaris.|
 C Do the Imp-Possible|QID|28000|U|62899|M|48.19,73.12|N|Beat Impsy down, then use the sack on him.|
 T Do the Imp-Possible|QID|28000|M|41.93,71.99|N|To Arcanist Delaris.|
 A See the Invisible|QID|28049|PRE|28000|M|41.93,71.94|N|From Impsy.|
@@ -125,7 +130,7 @@ C Fight the Power|QID|28102|US|M|38.31,68.05|N|Kill Jadefire satyrs.|
 T Break the Unbreakable|QID|28113|M|41.94,71.93|N|To Arcanist Delaris, back at the Ruins of Constellas.|
 
 A Open Their Eyes|QID|28288|PRE|28113|M|41.93,71.98|N|From Arcanist Delaris.|
-A Jaedenar Awaits|QID|28152|PRE|28113|M|42.03,71.83|N|From Eridan Bluewind.|
+A Jaedenar Awaits|QID|28152|LEAD|28116|PRE|28113;28102|M|42.03,71.83|N|From Eridan Bluewind.|
 T Fight the Power|QID|28102|M|42.03,71.83|N|To Eridan Bluewind.|
 C Open Their Eyes|QID|28288|U|63395|M|42.37,79.33|N|Use the crustal to terrify the imps. You can agro a bunch and gather them up, then use the crystal to get a lot at once. They flee and stop attacking the moment you use it.|
 T Open Their Eyes|QID|28288|M|41.92,71.98|N|To Arcanist Delaris, back at the Ruins of Constellas.|
@@ -150,9 +155,9 @@ C The Inner Circle|QID|28128|M|38.60,45.80|S|N|Kill Shadow Hold mobs.|
 C The Demon Prince|QID|28129|M|36.70,55.75|N|Kill Prince Xavalis.|
 T The Demon Prince|QID|28129|M|36.70,55.74|N|(UI Alert)|
 A Twin Temptresses|QID|28131|PRE|28129|M|36.70,55.74|N|(UI Alert)|
-N Extinguish the Brazier of Pain|QID|28126|QO|Extinguish the Brazier of Pain: 1/1|M|36.96,55.89|N|First Brazier is here, click on it to put it out.|
-N Extinguish the Brazier of Hatred|QID|28126|QO|Extinguish the Brazier of Hatred: 1/1|M|37.28,54.92|N|Second Brazier is here, click on it to put it out.|
-N Extinguish the Brazier of Suffering|QID|28126|QO|Extinguish the Brazier of Suffering: 1/1|M|37.38,53.16|N|This is on the level below the 2nd brazier. Third Brazier is here, click on it to put it out.|
+N Extinguish the Brazier of Pain|QID|28126|QO|1|M|36.96,55.89|N|First Brazier is here, click on it to put it out.|; Extinguish the Brazier of Pain: 1/1
+N Extinguish the Brazier of Hatred|QID|28126|QO|1|M|37.28,54.92|N|Second Brazier is here, click on it to put it out.|; Extinguish the Brazier of Hatred: 1/1
+N Extinguish the Brazier of Suffering|QID|28126|QO|3|M|37.38,53.16|N|This is on the level below the 2nd brazier. Third Brazier is here, click on it to put it out.|; Extinguish the Brazier of Suffering: 1/1
 C Dousing the Flames of Protection|QID|28126|M|38.21,52.54|N|Extinguish the last brazier.|
 C Twin Temptresses|QID|28131|M|38.33,50.86|N|Kill Moora and Salia.|
 T Twin Temptresses|QID|28131|M|38.63,50.57|N|(UI Alert)|
@@ -168,7 +173,7 @@ T The Inner Circle|QID|28128|M|44.11,62.00|N|To Jessir Moonbow.|
 T Dousing the Flames of Protection|QID|28126|M|43.99,61.87|N|To Greta Mosshoof.|
 T Lord Banehollow|QID|28155|M|44.09,61.82|N|To Farlus Wildheart.|
 
-A The Fate of Bloodvenom Post|QID|28305|PRE|28155|M|44.11,61.84|N|From Farlus Wildheart.|
+A The Fate of Bloodvenom Post|QID|28305|LEAD|28207|PRE|28126;28128;28155|M|44.11,61.84|N|From Farlus Wildheart.|
 T The Fate of Bloodvenom Post|QID|28305|M|41.30,49.93|N|To Kelnir Leafsong. Follow the road north to reach her.|
 A A Slimy Situation|QID|28207|M|41.30,49.93|N|From Kelnir Leafsong.|
 A The Tainted Ooze|QID|28190|M|41.30,49.93|N|From Altsoba Ragetotem.|
@@ -188,7 +193,7 @@ C Hazzard Disposal|QID|28213|U|63284|M|35.49,52.58|N|Use the kitty's tag outside
 C Cleanup at Bloodvenom Post|QID|28214|US|M|35.55,50.73|N|Kill the slimeslaves around Bloodvenom Post.|
 T Cleanup at Bloodvenom Post|QID|28214|M|41.26,49.92|N|To Altsoba Ragetotem.|
 T Hazzard Disposal|QID|28213|M|41.28,49.93|N|To Kelnir Leafsong.|
-A Whisperwind Grove|QID|28306|PRE|28213|M|41.28,49.93|N|From Kelnir Leafsong.|
+A Whisperwind Grove|QID|28306|LEAD|28360|PRE|28213;28214|M|41.28,49.93|N|From Kelnir Leafsong.|
 R Whisperwind Grove|QID|28306|M|43.29,30.44|N|Follow the road north.|
 T Whisperwind Grove|QID|28306|M|43.29,30.44|N|To Tender Puregrove.|
 A Running Their Course|QID|28360|M|43.29,30.44|N|From Tender Puregrove.|
@@ -213,7 +218,7 @@ H Whisperwind Grove|QID|28360|M|43.30,30.44|N|If your hearth is down or you didn
 T Running Their Course|QID|28360|M|43.30,30.44|N|To Tender Puregrove.|
 T Squirrely Clean|QID|28361|M|43.30,30.44|N|To Tender Puregrove.|
 
-A Weeding the Lawn|QID|28374|PRE|28361|M|43.30,30.44|N|From Tender Puregrove.|
+A Weeding the Lawn|QID|28374|PRE|28360;28361|M|43.30,30.44|N|From Tender Puregrove.|
 T Collecting Corruption|QID|28341|M|43.95,27.87|N|To Elessa Starbreeze.|
 T Fel To Pieces|QID|28342|M|43.95,27.87|N|To Elessa Starbreeze.|
 T Hunting the Damned|QID|28358|M|43.98,27.89|N|To Hurak Wildhorn.|
@@ -233,15 +238,15 @@ C Buzzers for Baby|QID|28219|M|50.51,31.50|N|Kill wasps and bring the seedling n
 C Seeking Soil|QID|28220|M|48.33,29.19|N|Bring the seedling to patches of soil - they can be found to the south.|US|
 T Seeking Soil|QID|28220|N|To the Seedling Protector.|
 T Buzzers for Baby|QID|28219|N|The turn-in should pop up automatically.|
-A Singin' in the Sun|QID|28222|PRE|28219|N|The quest should pop up automatically.|
-A These Roots Were Made For Stompin'|QID|28221|PRE|28222|N|From Sapling Protector.|
+A Singin' in the Sun|QID|28222|PRE|28219;28220|N|The quest should pop up automatically.|
+A These Roots Were Made For Stompin'|QID|28221|PRE|28219;28220|N|From Sapling Protector.|
 C Singin' in the Sun|QID|28222|S|M|51.21,20.28|N|You'll find shafts of sunlight in the northern part of Irontree Woods. Bring the sapling to them.|
 C These Roots Were Made For Stompin'|QID|28221|M|51.17,25.42|N|Kill the evil treants while your sapling is nearby - they can be found all over the northern part of the Irontree Woods.|
 C Singin' in the Sun|QID|28222|US|M|51.21,20.28|N|You'll find shafts of sunlight in the northern part of Irontree Woods. Bring the sapling to them.|
 T Singin' in the Sun|QID|28222|N|To Sapling Protector.|
 T These Roots Were Made For Stompin'|QID|28221|N|To the Sapling Protector.|
 
-A The Last Protector|QID|28224|PRE|28221|N|From the Flourishing Protector.|
+A The Last Protector|QID|28224|PRE|28221;28222|N|From the Flourishing Protector.|
 C The Last Protector|QID|28224|M|53.36,24.34|N|Kill the Withered Protector while your Flourishing Protector is nearby.|
 T The Last Protector|QID|28224|N|To Flourishing Protector.|
 A Rejoining the Forest|QID|28228|PRE|28224|N|From Flourishing Protector.|
@@ -276,21 +281,21 @@ C It's Time to Oil Up|QID|28333|US|U|63513|M|54.31,14.52|N|Use the grappling hoo
 T It's Time to Oil Up|QID|28333|M|56.32,8.23|N|To Darla Drilldozer.|
 T A Flare Fight|QID|28334|M|56.32,8.23|N|To Darla Drilldozer.|
 
-A Take it to the Tree|QID|28357|PRE|28333;28334|M|56.32,8.23|N|From Darla Drilldozer.|
-A Wisp-napping|QID|28370|PRE|28333;28334|M|56.32,8.23|N|From Darla Drilldozer.|
+A Take it to the Tree|QID|28357|M|56.32,8.23|N|From Darla Drilldozer.|
+A Wisp-napping|QID|28370|PRE|28357|M|56.32,8.23|N|From Darla Drilldozer.|
 C Wisp-napping|QID|28370|S|U|63698|M|57.93,19.80|N|Use the Wisp Magnet on wisps.|
 C Take it to the Tree|QID|28357|M|63.72,20.10|N|Kill worgen near Talonbranch Glade.|
 C Wisp-napping|QID|28370|US|U|63698|M|57.93,19.80|N|Use the Wisp Magnet on wisps.|
 T Take it to the Tree|QID|28357|M|56.31,8.19|N|To Darla Drilldozer.|
 T Wisp-napping|QID|28370|M|56.31,8.19|N|To Darla Drilldozer.|
-A Slap and Cap|QID|28336|PRE|28357;28370|M|56.31,8.19|N|From Darla Drilldozer.|
-A Is Your Oil Running?|QID|28339|PRE|28357;28370|M|56.31,8.19|N|From Darla Drilldozer.|
+A Slap and Cap|QID|28336|M|56.31,8.19|N|From Darla Drilldozer.|
+A Is Your Oil Running?|QID|28339|M|56.31,8.19|N|From Darla Drilldozer.|
 C Is Your Oil Running?|QID|28339|M|51.60,17.33|N|Kill and loot the oil slimes.|S|
 C Slap and Cap|QID|28336|NC|M|53.56,14.33|N|Right-click panicking goblins to bring them to their senses.|
 C Is Your Oil Running?|QID|28339|M|51.60,17.33|N|Kill and loot the oil slimes.|US|
 T Slap and Cap|QID|28336|M|56.33,8.24|N|To Darla Drilldozer.|
 T Is Your Oil Running?|QID|28339|M|56.33,8.24|N|To Darla Drilldozer.|
-A Pikwik in Peril|QID|28380|PRE|28336;28339|M|56.33,8.24|N|From Darla Drilldozer.|
+A Pikwik in Peril|QID|28380|PRE|28357+28370|M|56.33,8.24|N|From Darla Drilldozer.|
 T Pikwik in Peril|QID|28380|M|54.71,18.42|N|To Foreman Pikwik.|
 
 A Turn It Off! Turn It Off!|QID|28335|PRE|28380|M|54.71,18.42|N|From Foreman Pikwik.|
@@ -302,7 +307,7 @@ C A Bomb Deal|QID|28340|US|M|59.58,21.34|N|The bombs can be found on the ground 
 T A Bomb Deal|QID|28340|M|54.73,18.38|N|To Foreman Pikwik.|
 C Fire in the Hole!|QID|28368|M|55.55,22.19|N|He should appear as you approach.|
 T Fire in the Hole!|QID|28368|M|56.32,8.20|N|To Darla Drilldozer. Congrats on a very nice piece of gear!|
-A Timbermaw Hold|QID|28373|PRE|28368|M|56.32,8.20|N|From Darla Drilldozer.|
+A Timbermaw Hold|QID|28373|LEAD|28338|PRE|28368|M|56.32,8.20|N|From Darla Drilldozer.|
 R Timbermaw Hold|QID|28373|M|63.98,10.33|N|Follow the road east and north.|
 T Timbermaw Hold|QID|28373|M|63.98,10.33|N|To Nafien.|
 A Deadwood of the North|QID|28338|M|63.98,10.33|N|From Nafien.|
