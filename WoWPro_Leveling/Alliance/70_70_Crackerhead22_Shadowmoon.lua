@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2018-02-20 01:23
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3285/revisions/28903/view
 -- Date: 2018-01-16 23:53
 -- Who: Ludovicus
 -- Log: New Levels
@@ -175,8 +180,8 @@ h Wildhammer Stronghold|QID|10680|M|37.06,58.17|N|At Dreg Cloudsweeper.|
 
 C Put On Yer Kneepads...|QID|10703|S|M|33.53,40.37|N|Kill any Chimera and Felboar you come across.|
 T The Hand of Gul'dan|QID|10680|M|42.20,45.07|N|To Earthmender Torlok.|
-A Enraged Spirits of Fire and Earth|QID|10458|PRE|10680;10681|M|42.20,45.07|N|From Earthmender Torlok.|
-C Enraged Spirits of Fire and Earth|QID|10458|U|30094|QO|Earthen Soul Captured: 8/8|M|42.73,47.86;46.59,52.15|CN|N|Use the totem and kill Enraged Earth Spirits between these points.|
+A Enraged Spirits of Fire and Earth|QID|10458|PRE|10680+10681|M|42.20,45.07|N|From Earthmender Torlok.|
+C Enraged Spirits of Fire and Earth|QID|10458|U|30094|QO|1|M|42.73,47.86;46.59,52.15|CN|N|Use the totem and kill Enraged Earth Spirits between these points.|; Earthen Soul Captured: 8/8
 C Enraged Spirits of Fire and Earth|QID|10458|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits. Warning: Yes, the green stuff is lava and will hurt you.|
 T Enraged Spirits of Fire and Earth|QID|10458|M|42.20,45.07|N|To Earthmender Torlok.|
 A Enraged Spirits of Water|QID|10480|PRE|10458|M|42.20,45.07|N|From Earthmender Torlok.|
@@ -214,7 +219,7 @@ A The Main Course!|QID|10678|PRE|10677|M|36.59,55.18|N|From Gnomus.|
 T Illidari-Bane Shard|QID|10621|M|36.83,54.79|N|To Ordinn Thunderfist.|
 A Capture the Weapons|QID|10626|PRE|10621|M|36.83,54.79|N|From Ordinn Thunderfist.|
 T The Sketh'lon Wreckage|QID|10569|M|38.71,54.17|N|To Gryphonrider Kieran.|
-A Find the Deserter|QID|10759|PRE|10569;10760|M|38.71,54.17|N|From Gryphonrider Kieran.|
+A Find the Deserter|QID|10759|PRE|10569+10760|M|38.71,54.17|N|From Gryphonrider Kieran.|
 T Setting Up the Bomb|QID|10572|M|39.53,53.65|N|To Wing Commander Nuainn.|
 A Blast the Infernals!|QID|10564|PRE|10572|M|39.53,53.65|N|From Wing Commander Nuainn.|
 C Blast the Infernals!|QID|10564|M|22.66, 39.92|N|Head to the waypoint and use the bomb.|
@@ -222,7 +227,7 @@ T Blast the Infernals!|QID|10564|M|39.53,53.65|N|To Wing Commander Nuainn.|
 A The Deathforge|QID|10573|PRE|10564|M|39.53,53.65|N|From Wing Commander Nuainn.|
 
 T Find the Deserter|QID|10759|M|35.22,39.32|N|To Parshah. He wonders north and south along the road.|
-A Asghar's Totem|QID|10777|PRE|10759;10761|M|35.22,39.32|N|From Parshah. He wonders north and south along the road.|
+A Asghar's Totem|QID|10777|PRE|10759+10761|M|35.22,39.32|N|From Parshah. He wonders north and south along the road.|
 C Asghar's Totem|QID|10777|M|40.01,29.11|N|Kill Asghar and loot his totem.|
 T Asghar's Totem|QID|10777|M|35.20,40.85|N|To Parshah.|
 A The Rod of Lianthe|QID|10778|PRE|10777|M|35.20,40.85|N|From Parshah.|
@@ -304,7 +309,7 @@ A Reclaiming Holy Grounds|QID|10816|PRE|10619|M|61.25,29.18|N|From Vindicator Al
 T Karabor Training Grounds|QID|10587|M|61.25,29.18|N|To Exarch Onaala.|REP|Aldor;932|
 A A Necessary Distraction|QID|10637|PRE|10587|M|61.25,29.18|N|From Exarch Onaala.|REP|Aldor;932|
 T Tablets of Baa'ri|QID|10568|M|62.52,28.49|N|To Anchorite Ceyla.|REP|Aldor;932|
-A Oronu the Elder|QID|10571|PRE|10568;10683|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor;932|
+A Oronu the Elder|QID|10571|PRE|10568+10683|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor;932|
 r Repair/Restock|QID|10571|M|62.33,28.97|REP|Aldor;932|
 
 C Karabor Training Grounds|QID|10687|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Scryers;934|
@@ -320,7 +325,7 @@ C Oronu the Elder|QID|10684|M|57.25,32.74|N|Fly up and kill Oronu and loot his b
 T Oronu the Elder|QID|10684|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
 C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Aldor;932|
 T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|REP|Aldor;932|
-A The Ashtongue Corruptors|QID|10574|PRE|10571;10684|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor;932|
+A The Ashtongue Corruptors|QID|10574|PRE|10571+10684|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor;932|
 A The Ashtongue Corruptors|QID|10685|PRE|10574|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
 C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|REP|Aldor;932|
 l Scroll of Demonic Unbanishing|QID|10637|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Aldor;932|
@@ -329,15 +334,15 @@ l Scroll of Demonic Unbanishing|QID|10688|L|30811|M|69.89,48.49|N|Kill Sunfury S
 C A Necessary Distraction|QID|10688|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Scryers;934|
 
 T Divination: Gorefiend's Cloak|QID|10635|M|58.30,70.82|N|To Ancient Shadowmoon Spirit.|
-K Haalum|QID|10574|QO|Haalum's Medallion Fragment: 1/1|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Aldor;932|
-K Eykene|QID|10574|QO|Eykenen's Medallion Fragment: 1/1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Aldor;932|
-K Haalum|QID|10685|QO|Haalum's Medallion Fragment: 1/1|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Scryers;934|
-K Eykene|QID|10685|QO|Eykenen's Medallion Fragment: 1/1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Scryers;934|
+K Haalum|QID|10574|QO|3|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Aldor;932|; Haalum's Medallion Fragment: 1/1
+K Eykene|QID|10574|QO|1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Aldor;932|; Eykenen's Medallion Fragment: 1/1
+K Haalum|QID|10685|QO|3|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Scryers;934|; Haalum's Medallion Fragment: 1/1
+K Eykene|QID|10685|QO|1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Scryers;934|; Eykenen's Medallion Fragment: 1/1
 T Enraged Spirits of Air|QID|10481|M|42.20,45.07|N|To Earthmender Torlok.|
 A Oronok Torn-heart|QID|10513|PRE|10481|M|42.20,45.07|N|From Earthmender Torlok.|
-K Uylaru|QID|10574|QO|Uylaru's Medallion Fragment: 1/1|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Aldor;932|
+K Uylaru|QID|10574|QO|3|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Aldor;932|; Uylaru's Medallion Fragment: 1/1
 C The Ashtongue Corruptors|QID|10574|M|49.79,23.28|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Aldor;932|
-K Uylaru|QID|10685|QO|Uylaru's Medallion Fragment: 1/1|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Scryers;934|
+K Uylaru|QID|10685|QO|3|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Scryers;934|; Uylaru's Medallion Fragment: 1/1
 C The Ashtongue Corruptors|QID|10685|M|49.79,23.28|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Scryers;934|
 
 T Oronok Torn-heart|QID|10513|M|53.95,23.49|N|To Oronok Torn-heart.|
@@ -368,7 +373,7 @@ C The Great Retribution|QID|10817|M|66.56,42.17|N|Make your way up Ata'mal Terra
 T A Necessary Distraction|QID|10637|M|61.25,29.23|N|To Exarch Onaala. The follow up she gives takes you back to Nagrand.|REP|Aldor;932|
 T Reclaiming Holy Grounds|QID|10816|M|61.24,29.18|N|To Vindicator Aluumen.|REP|Aldor;932|
 T The Ashtongue Corruptors|QID|10574|M|62.56,28.43|N|To Anchorite Ceyla.|REP|Aldor;932|
-A The Warden's Cage|QID|10575|PRE|10574;10685|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor;932|
+A The Warden's Cage|QID|10575|PRE|10574+10685|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor;932|
 T The Warden's Cage|QID|10575|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Aldor;932|
 
 T A Necessary Distraction|QID|10688|M|55.74,58.18|N|To Larissa Sunstrike. The follow up she gives takes you back to Nagrand.|REP|Scryers;934|
@@ -377,7 +382,7 @@ T The Ashtongue Corruptors|QID|10685|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scr
 A The Warden's Cage|QID|10686|PRE|10575|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934|
 T The Warden's Cage|QID|10686|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Scryers;934|
 
-A Proof of Allegiance|QID|10622|PRE|10575;10686|M|57.33,49.64|N|From Sanoru.|
+A Proof of Allegiance|QID|10622|PRE|10575+10686|M|57.33,49.64|N|From Sanoru.|
 C Proof of Allegiance|QID|10622|M|56.33,49.48|N|Head to the top of the wall and kill Zandras.|
 T Proof of Allegiance|QID|10622|M|57.33,49.65|N|To Sanoru.|
 A Akama|QID|10628|PRE|10622|M|57.33,49.65|N|From Sanoru.|
@@ -493,7 +498,7 @@ C The Cipher of Damnation|QID|10588|U|30657|M|43.25,46.69|N|Use the Cipher of Da
 T The Cipher of Damnation|QID|10588|M|42.20,45.07|N|To Earthmender Torlok.|
 R Terokkar Forest|QID|10662|M|24,12|N|Fly to Terokkar Forrest.|
 T The Hermit Smith|QID|10662|M|77.51,38.73|Z|Terokkar Forest|N|To David Wayne.|
-A Additional Materials|QID|10664|PRE|10662;10663|M|77.51,38.73|Z|Terokkar Forest|N|From David Wayne.|
+A Additional Materials|QID|10664|PRE|10662+10663|M|77.51,38.73|Z|Terokkar Forest|N|From David Wayne.|
 R Shattrath City|QID|10664|M|34,24|Z|Terokkar Forest|N|Fly to Shattrath City.|
 B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|Shattrath City|N|Talk to Fantel and buy the Demon Warding Totem.|
 L Level 71|QID|10664|LVL|71|N|You should be around level 71 by this point.|
