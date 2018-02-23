@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2018-02-22 23:00
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3286/revisions/28911/view
 -- Date: 2018-01-16 23:58
 -- Who: Ludovicus
 -- Log: New Levels
@@ -99,7 +104,7 @@ return [[
 
 L Level 67|QID|11048|N|You need to be Level 67 to work this guide.|LVL|67| ;add lvl tag
 
-A Kroghan's Report|QID|11048|M|55.37,37.47|Z|Nagrand|N|From Captain Kroghan in Nagrand.|
+A Kroghan's Report|QID|11048|LEAD|10595|M|55.37,37.47|Z|Nagrand|N|From Captain Kroghan in Nagrand.|
 F Shadowmoon Village|QID|11048|M|57.19,35.28|Z|Nagrand|N|Fly to Shadowmoon Village, Shadowmoon Valley.|
 T Kroghan's Report|QID|11048|M|30.39,32.42|N|To Blood Guard Gulmok.|
 
@@ -138,7 +143,7 @@ A Illidari-Bane Shard|QID|10623|U|30759|M|22.49,35.97|N|Accept the quest from th
 
 C Setting Up the Bomb|QID|10597|QO|1|M|26.29,41.26|N|Head down into the water and loot the Fel Reaver Power Core from the bottom of the pond.|
 T Find the Deserter|QID|10761|M|35.19,40.35|N|To Parshah. He wanders up and down the path where the waypoint is.|
-A Asghar's Totem|QID|10777|PRE|10759;10761|M|35.19,40.35|N|From Parshah. He wanders up and down the path where the waypoint is.|
+A Asghar's Totem|QID|10777|PRE|10759+10761|M|35.19,40.35|N|From Parshah. He wanders up and down the path where the waypoint is.|
 C Asghar's Totem|QID|10777|M|39.94,29.36|N|Kill and loot Ashgar to get the Sketh'lon War Totem.|
 T Setting Up the Bomb|QID|10597|M|30.45,32.44|N|To Blood Guard Gulmok.|
 A Blast the Infernals!|QID|10598|PRE|10597|M|30.43,32.56|N|From Blood Guard Gulmok.|
@@ -182,7 +187,7 @@ L Level 68|LVL|68|QID|10778|N|You should be around level 68 now|
 A The Path of Conquest|QID|10750|M|28.47,26.48|N|From Overlord Or'barokh.|LVL|68|
 A The Hand of Gul'dan|QID|10681|PRE|10680|M|28.47,26.48|N|From Earthmender Splinthoof.|LVL|68|
 T The Hand of Gul'dan|QID|10681|M|42.22,45.03|N|To Earthmender Torlok.|
-A Enraged Spirits of Fire and Earth|QID|10458|PRE|10680;10681|M|42.22,45.03|N|From Earthmender Torlok.|LVL|68|
+A Enraged Spirits of Fire and Earth|QID|10458|PRE|10680+10681|M|42.22,45.03|N|From Earthmender Torlok.|LVL|68|
 K Enraged Earth Spirit|QID|10458|U|30094|QO|1|M|42.73,47.86;46.59,52.15|CN|N|Use the totem and kill Enraged Earth Spirits between these points.|
 C Enraged Spirits of Fire and Earth|QID|10458|QO|2|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits.|
 T Enraged Spirits of Fire and Earth|QID|10458|M|42.18,45.05|N|To Earthmender Torlok.|
@@ -243,10 +248,10 @@ A Reclaiming Holy Grounds|QID|10816|PRE|10619|M|61.25,29.18|N|From Vindicator Al
 T Karabor Training Grounds|QID|10587|M|61.25,29.18|N|To Exarch Onaala.|REP|Aldor;932|
 A A Necessary Distraction|QID|10637|PRE|10587|M|61.25,29.18|N|From Exarch Onaala.|REP|Aldor;932|
 T Tablets of Baa'ri|QID|10568|M|62.52,28.49|N|To Anchorite Ceyla.|REP|Aldor;932|
-A Oronu the Elder|QID|10571|PRE|10568;10683|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor;932|
+A Oronu the Elder|QID|10571|PRE|10568+10683|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor;932|
 C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Aldor;932|
 T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|REP|Aldor;932|
-A The Ashtongue Corruptors|QID|10574|PRE|10571;10684|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor;932|
+A The Ashtongue Corruptors|QID|10574|PRE|10571+10684|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor;932|
 C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|REP|Aldor;932|
 l Scroll of Demonic Unbanishing|QID|10637|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Aldor;932|
 C A Necessary Distraction|QID|10637|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Aldor;932|
@@ -317,14 +322,14 @@ A The Cipher of Damnation - The First Fragment Recovered|QID|10523|PRE|10522|M|4
 T The Cipher of Damnation - The First Fragment Recovered|QID|10523|M|53.85,23.52|N|To Oronok Torn-heart.|
 
 T The Ashtongue Corruptors|QID|10574|M|62.56,28.43|N|To Anchorite Ceyla.|REP|Aldor;932|
-A The Warden's Cage|QID|10575|PRE|10574;10685|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor;932|
+A The Warden's Cage|QID|10575|PRE|10574+10685|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor;932|
 
 C Felspine the Greater|QID|10673|M|56,44|N|Kill and loot Felspine the Greater.|
 
 T The Warden's Cage|QID|10575|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom os the steps.|REP|Aldor;932|
 T The Warden's Cage|QID|10686|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Scryers;934|
 
-A Proof of Allegiance|QID|10622|PRE|10575;10686|M|57.33,49.64|N|From Sanoru.|
+A Proof of Allegiance|QID|10622|PRE|10575+10686|M|57.33,49.64|N|From Sanoru.|
 C Proof of Allegiance|QID|10622|M|56.33,49.48|N|Head to the top of the wall and kill Zandras.|
 T Proof of Allegiance|QID|10622|M|57.33,49.65|N|To Sanoru.|
 A Akama|QID|10628|PRE|10622|M|57.33,49.65|N|From Sanoru.|
@@ -440,7 +445,7 @@ C The Cipher of Damnation|QID|10588|U|30657|M|43.25,46.69|N|Use the Cipher of Da
 T The Cipher of Damnation|QID|10588|M|42.20,45.07|N|To Earthmender Torlok.|
 R Terokkar Forest|QID|10663|M|24,12|N|Fly to Terokkar Forrest.|
 T The Hermit Smith|QID|10663|M|77.51,38.73|Z|Terokkar Forest|N|To David Wayne.|
-A Additional Materials|QID|10664|PRE|10662;10663|M|77.51,38.73|Z|Terokkar Forest|N|From David Wayne. This quest is optional.|
+A Additional Materials|QID|10664|PRE|10662+10663|M|77.51,38.73|Z|Terokkar Forest|N|From David Wayne. This quest is optional.|
 R Shattrath City|QID|10664|M|34,24|Z|Terokkar Forest|N|Fly to Shattrath City.|
 B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|Shattrath City|N|Talk to Fantel and buy the Demon Warding Totem.|O|
 T Battle of the Crimson Watch|QID|10781|M|54.09,45.02|Z|Shattrath City|N|To A'dal.|
