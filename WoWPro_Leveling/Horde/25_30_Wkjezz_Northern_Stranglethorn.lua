@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2018-02-20 21:30
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3232/revisions/28880/view
 -- Date: 2018-01-16 23:39
 -- Who: Ludovicus
 -- Log: New Levels
@@ -168,7 +173,7 @@ C An Unusual Patron|QID|9457|U|23680|M|19.39,40.35|
 ;fix QID
 H Grom'gol Base Camp|QID|9457|N|Hearth back to base.|
 T An Unusual Patron|QID|9457|M|38.07,50.11|N|To Nemeth Hawkeye.|
-A The Hunt|QID|26340|PRE|9457|M|38.07,50.11|N|From Nemeth Hawkeye.|
+A The Hunt|QID|26340|LEAD|583|PRE|9457|M|38.07,50.11|N|From Nemeth Hawkeye.|
 T Headhunting|QID|26299|M|38.42,48.79|N|To Nimboya.|
 T A Nose for This Sort of Thing|QID|26325|M|38.45,48.63|N|To Nimboya.|
 A Who's a Big Troll?|QID|26330|PRE|26325|M|38.45,48.63|N|From Nimboya.|
@@ -290,10 +295,10 @@ C The Mosh'Ogg Bounty|QID|26399|M|67.18,54.25|N|Leave the cave now and head to t
 T The Mind's Eye|QID|26303|M|63.17,41.44|N|To Kin'weelay.|
 A Saving Yenniku|QID|26305|PRE|26303|M|63.17,41.44|N|From Kin'weelay.|
 T The Mosh'Ogg Bounty|QID|26399|M|62.80,40.21|N|To Skeezy Whillzap.|
-A The Universal Key|QID|26400|PRE|26399;26412|M|62.85,40.16|N|From Skeezy Whillzap.|
+A The Universal Key|QID|26400|PRE|26399+26412|M|62.85,40.16|N|From Skeezy Whillzap.|
 ;switched with next A
-A Venture Company Mining|QID|26403|PRE|26399;26412|M|62.89,40.25|N|From Skeezy Whillzap.|
-A Cozzle's Plan|QID|26352|PRE|26399;26412|M|63.18,39.81|N|From Kil'karil.|
+A Venture Company Mining|QID|26403|PRE|26399+26412|M|62.89,40.25|N|From Skeezy Whillzap.|
+A Cozzle's Plan|QID|26352|PRE|26399+26412|M|63.18,39.81|N|From Kil'karil.|
 T Mind Vision|QID|26351|M|63.36,39.00|N|To Priestess Hu'rala.|
 A See Raptor|QID|26359|PRE|26351|M|63.36,39.00|N|From Priestess Hu'rala.|
 ; add CHAT
@@ -335,7 +340,7 @@ T Saving Yenniku|QID|26305|M|38.37,48.81|N|To Nimboya.|
 F Bambala|QID|26304|N|Fly to Bambala|
 T Nighttime in the Jungle|QID|26304|M|63.18,39.74|N|To Kil'karil.|
 T Zul'Mamwe Mambo|QID|26405|M|63.27,38.83|N|To Surkhan.|
-A Above My Pay Grade|QID|26404|M|63.10,40.05|N|From Skeezy Whillzap.|
+A Above My Pay Grade|QID|26404|LEAD|26450|M|63.10,40.05|N|From Skeezy Whillzap.|
 F Harwrench Hideaway|QID|26404|N|Talk to the Raskha (Select the speech bubble)|
 ]]
 
