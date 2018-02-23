@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2018-02-20 00:55
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3216/revisions/29015/view
 -- Date: 2018-02-19 23:23
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -303,10 +308,10 @@ T Protecting the Shipment|QID|309|M|65.33,65.98|N|To Prospector Ironband.|
 A Keep Your Hands Off The Goods!|QID|13650|M|65.19,66.02|N|From Prospector Ironband.|PRE|309|
 A Gathering Idols|QID|26961|M|64.80,66.54|N|From Magmar Fellhew.|
 C Gathering Idols|QID|26961|S|M|72.57,66.29|N|Kill and loot Troggs until you get 8 Carved Stone Idols.|
-C Artifact of the Upturned Giant|QID|13650|M|70.13,59.79|N|Head to the Upturned Giant and stand on it (to simulate inspecting it, you don't need to click it).|QO|Artifact of the Upturned Giant Inspected: 1/1|NC|
-C Artifact of the Broken Tablet|QID|13650|M|70.71,67.57|N|Head to the Broken Tablet and stand on it (to simulate inspecting it, you don't need to click it).|QO|Artifact of the Broken Tablet Inspected: 1/1|NC|
+C Artifact of the Upturned Giant|QID|13650|M|70.13,59.79|N|Head to the Upturned Giant and stand on it (to simulate inspecting it, you don't need to click it).|QO|2|NC|; Artifact of the Upturned Giant Inspected: 1/1
+C Artifact of the Broken Tablet|QID|13650|M|70.71,67.57|N|Head to the Broken Tablet and stand on it (to simulate inspecting it, you don't need to click it).|QO|1|NC|; Artifact of the Broken Tablet Inspected: 1/1
 A Explorers' League Document (4 of 6)|QID|13658|M|68.20,65.97|N|Walk up a near by ramp located close to the last objective completed.|
-C Keep Your Hands Off The Goods!|QID|13650|M|72.57,65.11|N|Head to the Overdressed Woman and stand on it (to simulate inspecting it, you don't need to click it).|QO|Artifact of the Overdressed Woman Inspected: 1/1|NC|
+C Keep Your Hands Off The Goods!|QID|13650|M|72.57,65.11|N|Head to the Overdressed Woman and stand on it (to simulate inspecting it, you don't need to click it).|QO|3|NC|; Artifact of the Overdressed Woman Inspected: 1/1
 C Gathering Idols|QID|26961|US|M|68.3,63.2|N|Finish killing and looting the Troggs until you get 8 Carved Stone Idols.|
 
 T Keep Your Hands Off The Goods!|QID|13650|M|65.19,66.07|N|To Prospector Ironband.|
