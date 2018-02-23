@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-02-20 01:54
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Tirisfal
+
+-- URL: http://wow-pro.com/node/3205/revisions/29069/view
+-- Date: 2018-02-20 01:47
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Deathknell
+
+-- URL: http://wow-pro.com/node/3205/revisions/28963/view
 -- Date: 2018-01-25 21:51
 -- Who: Linkslegend5
 -- Log: Updated location of quest items to match description.
@@ -221,7 +231,7 @@ T Scourge on our Perimeter|QID|26801|M|46.61,58.83|N|To Shadow Priest Sarvis.|
 
 L Level 3|QID|24961|LVL|3|N|You need to be Level 3 to continue with this guide.|
 
-A Novice Elreth|QID|28651|PRE|24964;24965;24966;24967;24968;24969;31147|R|Undead|M|46.61,58.83|N|From Shadow Priest Sarvis.|
+A Novice Elreth|QID|28651|LEAD|24961|PRE|28601|R|Undead|M|46.61,58.83|N|From Shadow Priest Sarvis.|
 T Novice Elreth|QID|28651|R|Undead|M|46.75,58.21|N|To Novice Elreth.|
 
 A The Truth of the Grave|QID|24961|M|46.73,58.20|N|From Novice Elreth.|PRE|26801|
@@ -236,7 +246,7 @@ A The Damned|QID|26802|M|55.49,37.790|N|From Executor Arren.|PRE|28672|
 C The Damned|QID|26802|M|63.81,28.65|N|Kill and loot bats and wolves.|
 T The Damned|QID|26802|M|55.49,37.79|N|To Executor Arren.|
 
-A Night Web's Hollow|QID|24973|M|55.49,37.79|N|From Executor Arren.|PRE|24973|
+A Night Web's Hollow|QID|24973|M|55.49,37.79|N|From Executor Arren.|PRE|26802|
 C Night Web's Hollow|QID|24973|M|34.28,27.36|N|Kill spiders over at the mine.|
 T Night Web's Hollow|QID|24973|M|55.49,37.79|N|To Executor Arren.|
 
