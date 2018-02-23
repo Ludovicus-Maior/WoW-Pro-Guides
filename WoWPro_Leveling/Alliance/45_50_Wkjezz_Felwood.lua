@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2018-02-20 01:10
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3257/revisions/28864/view
 -- Date: 2018-01-16 23:31
 -- Who: Ludovicus
 -- Log: New Levels
@@ -144,7 +149,7 @@ C Fight the Power|QID|28102|M|38.01,66.55|N|Kill Jadefire Rogues or Shadowstalke
 T Fight the Power|QID|28102|M|42.02,71.84|N|To Eridan Bluewind.|
 T Break the Unbreakable|QID|28113|M|41.96,72.03|N|To Arcanist Delaris.|
 A Open Their Eyes|QID|28288|PRE|28113|M|41.96,72.03|N|From Arcanist Delaris.|
-A Jaedenar Awaits|QID|28152|PRE|28113;28102|M|42.01,71.77|N|From Eridan Bluewind.|
+A Jaedenar Awaits|QID|28152|LEAD|28116|PRE|28113;28102|M|42.01,71.77|N|From Eridan Bluewind.|
 C Open Their Eyes|QID|28288|U|63395|M|42.19,79.05|N|Taste the Rainbow.|
 T Open Their Eyes|QID|28288|M|41.90,71.98|N|To Arcanist Delaris.|
 
@@ -288,7 +293,7 @@ A Navarax's Gambit|QID|28264|PRE|28261|M|45.53,20.09|N|From Feronas Sindweller.|
 C Navarax's Gambit|QID|28264|M|44.72,29.03|N|Talk to the Druid at the top of the Inn in Whisperwind Grove.|
 T Navarax's Gambit|QID|28264|M|43.46,28.23|N|To Huntress Selura.|
 r Repair/Restock|CC|M|43.07,28.65|N|At Ciana.|AVAILABLE|28381|
-A The Denmother|QID|28381|LEAD|28382|PRE|28228;28264|M|44.34,28.11|N|From James Hallow.|
+A The Denmother|QID|28381|LEAD|28382|PRE|28264|M|44.34,28.11|N|From James Hallow.|
 
 F Talonbranch Glade|QID|28381|N|Right click and talk to the Flightmaster. She will fly you there if you use the speech bubble option.|M|43.61,28.69|
 f Talonbranch Glade|QID|28381|M|60.57,25.32|N|At Mishellena.|
