@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2018-02-20 21:00
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3214/revisions/28874/view
 -- Date: 2018-01-16 23:36
 -- Who: Ludovicus
 -- Log: New Levels
@@ -286,17 +291,17 @@ C Verog the Dervish|QID|851|M|51.31,78.79|N|Kill Wyneth to lure Verog out. Kill 
 
 T Verog the Dervish|QID|851|M|55.20,78.40|N|To Shoe.|
 T Into the Raptor's Den|QID|905|M|49.95,59.94|N|To Sergra Darkthorn.|
-A The Purloined Payroll|QID|13991|PRE|905|RANK|1|M|49.95,59.94|N|From Sergra Darkthorn.|
+A The Purloined Payroll|QID|13991|LEAD|14066|PRE|905|RANK|1|M|49.95,59.94|N|From Sergra Darkthorn.|
 
 T The Stagnant Oasis|QID|877|PRE|13988|M|49.48,58.73|N|To Tonga Runetotem.|
 T Altered Beings|QID|880|M|49.48,58.73|N|To Tonga Runetotem.|
 T In Fungus We Trust|QID|13998|M|48.65,58.38|N|To Apothecary Helbrim.|
 A Who's Shroomin' Who?|QID|13999|PRE|13998|RANK|1|M|48.65,58.38|N|From Apothecary Helbrim.|
-A Deathgate's Reinforcements|QID|14073|PRE|13992;850|LVL|16|RANK|1|M|48.68,59.54|N|From Thork.|
+A Deathgate's Reinforcements|QID|14073|LEAD|852|PRE|850;851|LVL|16|RANK|1|M|48.68,59.54|N|From Thork.|
 
 T Deathgate's Reinforcements|QID|14073|M|37.79,55.33|N|To Regthar Deathgate.|
 A Centaur Bracers|QID|855|LVL|15|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
-A Hezrul Bloodmark|QID|852|PRE|14073|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
+A Hezrul Bloodmark|QID|852|PRE|850;851|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 
 C Centaur Bracers|QID|855|S|M|39.71,70.36|N|Kill Kolkar Marauders and Stormseers and loot their Bracers.|
 C Hezrul Bloodmark|QID|852|M|40.14,72.17|N|Slay Hezrul Bloodmark and collect his head. He has two minions with him.|T|Hezrul Bloodmark|
@@ -305,13 +310,13 @@ C Centaur Bracers|QID|855|US|M|39.71,70.36|N|Finish collecting 10 Centaur Bracer
 T Hezrul Bloodmark|QID|852|M|37.82,55.28|N|To Regthar Deathgate.|
 T Centaur Bracers|QID|855|M|37.82,55.28|N|To Regthar Deathgate.|
 
-A Counterattack!|QID|4021|PRE|14073|RANK|1|M|37.82,55.28|N|From Regthar Deathgate.|
+A Counterattack!|QID|4021|PRE|852;855|RANK|1|M|37.82,55.28|N|From Regthar Deathgate.|
 C Counterattack!|QID|4021|M|36.06,54.79|N|Kill Kolkar centaur until Krom'zar appears, then slay him. Don't forget to take a Piece of Krom'zar's Banner.|
 T Counterattack!|QID|4021|M|37.88,55.23|N|To Regthar Deathgate.|
 R Ratchet|QID|13991|M|66.90,72.72|N|Head to The Crossroads and ride to Ratchet.|
 f Ratchet|QID|13991|M|69.13,70.70|N|Get the flight point from Bragok|
 T The Purloined Payroll|QID|13991|M|66.90,72.72|N|To Gazrog.|
-A Investigate the Wreckage|QID|14066|PRE|13991|RANK|1|M|66.90,72.72|N|From Gazrog.|
+A Investigate the Wreckage|QID|14066|RANK|1|M|66.90,72.72|N|From Gazrog.|
 A A Captain's Vengeance|QID|891|RANK|2|M|67.72,74.00|N|From Captain Thalo'thas Brightsun.|
 T Who's Shroomin' Who?|QID|13999|M|67.07,74.78|N|To Sashya.|
 
@@ -487,11 +492,11 @@ T Miner's Fortune|QID|29015|M|62.63,16.98|N|To Brak Blusterpipe.|
 T Read the Manual|QID|14006|M|62.25,17.41|N|To Sputtervalve.|
 
 ; The Dreadmist Peak sequence. All part of a quest chain, triggered by [Read the Manual]
-A The Short Way Home|QID|29094|PRE|29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
+A The Short Way Home|QID|29094|LEAD|875|PRE|29015;29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
 C The Short Way Home|QID|29094|RANK|1|M|62.15,17.43|N|Hop on the Silver Bullet X-831.|
 T The Short Way Home|QID|29094|M|30.59,45.95|N|To Darsok Swiftdagger.|
 A Harpy Raiders|QID|867|RANK|2|LVL|15|M|30.59,45.95|N|From Darsok Swiftdagger.|
-A Harpy Lieutenants|QID|875|PRE|867|RANK|2|M|30.61,46.02|N|From Darsok Swiftdagger.|
+A Harpy Lieutenants|QID|875|RANK|2|M|30.61,46.02|N|From Darsok Swiftdagger.|
 
 C Harpy Raiders|QID|867|M|27.40,28.55|N|Kill any type of Witchwing Harpies for Witchwing Talons.|S|
 C Harpy Lieutenants|QID|875|M|27.96,32.67|N|Kill Witchwing Slayers.|
@@ -517,7 +522,7 @@ C Mor'shan Caravan Delivery|QID|29111|M|47.53,39.58|N|Talk to Nagala and defend 
 T Mor'shan Caravan Delivery|QID|29111|M|42.42,14.97|N|To Kadrak, who wanders.|
 
 F Orgrimmar|NC|O|N|If you plan on going to Stranglethorn next.|
-A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|RANK|1|O|M|51.78,56.49|Z|Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|LEAD|26278|PRE|26416|RANK|1|O|M|51.78,56.49|Z|Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
 
 ]]
 end)
