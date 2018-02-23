@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2018-02-20 01:06
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3235/revisions/29027/view
 -- Date: 2018-02-19 23:34
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -171,12 +176,12 @@ A Silencing Rageroar|QID|24956|PRE|24944|M|66.92,46.79|N|From Tolliver Houndstoo
 T Re-Take the Courtyard|QID|24943|M|67.00,46.57|N|To Thomas Paxton.|
 
 A Lifting the Siege|QID|24948|PRE|24943|M|67.00,46.57|N|From Thomas Paxton.|
-C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|Rageroar Catapults Burned: 3/3|
-C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|S|QO|Rageroar Lieutenant slain: 4/4|
+C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|1|; Rageroar Catapults Burned: 3/3
+C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|S|QO|1|; Rageroar Lieutenant slain: 4/4
 K Karga Rageroar |QID|24956|L|52036|M|67.6,36.7|N|Kill Hexmaster Bastoon, then kill Karga Rageroar and loot his helm.|
-C Rageroar Blade Thrower Burned|QID|24948|U|52017|M|67.33,37.62|N|Burn the Blade Thrower.|QO|Rageroar Blade Thrower Burned: 1/1|
-C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|Rageroar Catapults Burned: 3/3|US|
-C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|US|QO|Rageroar Lieutenant slain: 4/4|
+C Rageroar Blade Thrower Burned|QID|24948|U|52017|M|67.33,37.62|N|Burn the Blade Thrower.|QO|2|; Rageroar Blade Thrower Burned: 1/1
+C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|1|US|; Rageroar Catapults Burned: 3/3
+C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|US|QO|1|; Rageroar Lieutenant slain: 4/4
 T Silencing Rageroar|QID|24956|M|66.94,46.77|N|To Tolliver Houndstooth.|
 T Lifting the Siege|QID|24948|M|66.99,46.60|N|To Thomas Paxton.|
 
