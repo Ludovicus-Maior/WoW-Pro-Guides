@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_neutral
+-- Date: 2018-02-22 23:48
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3262/revisions/28866/view
 -- Date: 2018-01-16 23:32
 -- Who: Ludovicus
 -- Log: New Levels
@@ -173,14 +178,14 @@ A Marshal's Refuse|QID|24701|PRE|24693|M|43.15,41.13|N|From Doreen.|
 A Super Sticky|QID|24737|PRE|24693|M|43.15,41.13|N|From Tara.|
 A Hard to Harvest|QID|24700|PRE|24693|M|43.15,41.13|N|From Tara.|
 A Shizzle's Flyer|QID|24736|M|43.38,41.37|N|From Shizzle.|
-l Yellow Crystals|NC|S|QID|24720|M|37.04,29.06;44.79,17.53|CN|N|Loot 7 yellow crystals from the big crystal nodes in this part of the zone.|QO|Yellow Power Crystal: 7/7|
+l Yellow Crystals|NC|S|QID|24720|M|37.04,29.06;44.79,17.53|CN|N|Loot 7 yellow crystals from the big crystal nodes in this part of the zone.|QO|2|; Yellow Power Crystal: 7/7
 C Shizzle's Flyer|QID|24736|M|37.04,29.06|N|Kill and loot Pterrorddaxes in the Screaming Reaches.|
 C Super Sticky|QID|24737|U|50742|M|45.18,17.81|N|Use the Tar Scraper on the tar beasts that you kill.|S|
 C Hard to Harvest|NC|QID|24700|M|45.08,14.97|N|The tar makes you swim extremely slow. Peak under the tar pit surface to see where the flower is, then hop in and out of the tar on the surface until you reach the flower's location. Then swim down, harvest it, and hop out.|
 C Super Sticky|QID|24737|U|50742|M|45.18,17.81|N|Use the Tar Scraper on the tar beasts that you kill.|US|
 C Marshal's Refuse|NC|QID|24701|M|44.12,10.94|N|The Stone Guardian's aren't hostile, however they will attack when you try to loot the supplies. You can pull more than one at once this way, too, so be careful.|
 C Here Lies Dadanga|O|QID|24702|U|24702|M|45.47,7.75|N|If you have 10 Bloodpetal Spores, you can complete this quest for a VERY nice movement speed buff. RIP Dadanga!|
-l Yellow Crystals|NC|US|QID|24720|M|44.79,17.53;37.04,29.06|CN|N|Loot 7 yellow crystals from the big crystal nodes in this part of the zone.|QO|Yellow Power Crystal: 7/7|
+l Yellow Crystals|NC|US|QID|24720|M|44.79,17.53;37.04,29.06|CN|N|Loot 7 yellow crystals from the big crystal nodes in this part of the zone.|QO|2|; Yellow Power Crystal: 7/7
 T Shizzle's Flyer|QID|24736|M|43.37,41.31|N|To Shizzle, back at Mossy Pile.|
 T Marshal's Refuse|QID|24701|M|43.23,41.68|N|To Doreen.|
 
@@ -188,8 +193,8 @@ A The Apes of Un'Goro|QID|24717|PRE|24701|M|43.23,41.68|N|From Gremix.|
 T Super Sticky|QID|24737|M|43.23,41.68|N|To Tara.|
 A Gormashh the Glutinous|QID|24699|PRE|24737|M|43.23,41.68|N|From Tara.|
 T Hard to Harvest|QID|24700|M|43.23,41.68|N|To Tara.|
-A Chasing A-Me 01|QID|24714|PRE|24701|M|43.37,41.00|N|From Karna Remtravel.|
-l Green Crystals|NC|S|QID|24720|M|60.12,31.75|N|Loot 7 green crystals from the big crystal nodes in this part of the zone.|QO|Green Power Crystal: 7/7|
+A Chasing A-Me 01|QID|24714|PRE|24737;24700;24701|M|43.37,41.00|N|From Karna Remtravel.|
+l Green Crystals|NC|S|QID|24720|M|60.12,31.75|N|Loot 7 green crystals from the big crystal nodes in this part of the zone.|QO|3|; Green Power Crystal: 7/7
 C Gormashh the Glutinous|QID|24699|U|50746|M|60.12,31.75|N|Use the tar scraper on Gormash after you defeat him.|
 C The Apes of Un'Goro|QID|24717|M|67.57,16.84|N|Kill and loot 2 pelts from each gorilla type.|S|
 T Chasing A-Me 01|QID|24714|M|63.81,19.79|N|To A-Me 01, at Fungal Rock to the north.|
@@ -201,7 +206,7 @@ A Serving A-Me 01|QID|24926|PRE|24715|M|63.82,19.77|N|From A-Me 01.|
 A The Mighty U'cha|QID|24718|PRE|24737;24700;24701|M|63.82,16.48;65.06,16.54|CS|N|This quest should automatically pop up when entering the cave.|
 C The Mighty U'cha|QID|24718|M|68.06,15.94|N|U'cha patrols through the cave.|
 C The Apes of Un'Goro|QID|24717|M|67.57,16.84|N|Kill and loot 2 pelts from each gorilla type.|US|
-l Green Crystals|NC|US|QID|24720|M|60.12,31.75|N|Loot 7 green crystals from the big crystal nodes in this part of the zone.|QO|Green Power Crystal: 7/7|
+l Green Crystals|NC|US|QID|24720|M|60.12,31.75|N|Loot 7 green crystals from the big crystal nodes in this part of the zone.|QO|3|; Green Power Crystal: 7/7
 T Serving A-Me 01|QID|24926|M|43.41,40.87|N|To Karna Remtravel, back at Mossy Pile.|
 T The Apes of Un'Goro|QID|24717|M|43.20,41.19|N|To Gremix.|
 A The Northern Pylon|QID|24722|PRE|24717|M|43.20,41.19|N|From Gremix.|
@@ -210,9 +215,9 @@ T Gormashh the Glutinous|QID|24699|M|43.09,41.32|N|To Tara.|
 C The Northern Pylon|QID|24722|NC|M|56.47,12.44|N|Head back to the northern wall of the crater and right-click the northern pylon.|
 H Marshal's Stand|QID|24722|M|54.79,63.90|N|Hearth back to Marshall's Stand. Or ride back if it is down, or if you didn't set your hearth there.|
 
-A Adventures in Archaeology|QID|24698|PRE|24717|M|55.09,60.59|N|From Nolen Tacker.|
+A Adventures in Archaeology|QID|24698|LEAD|24730|PRE|24693|M|55.09,60.59|N|From Nolen Tacker.|
 T The Northern Pylon|QID|24722|M|54.20,62.38|N|To J.D. Collie.|
-C Crystals of Power|NC|S|QID|24720|M|31.16,77.41|N|Loot 7 red crystals from the big crystal nodes in this part of the zone.|QO|Red Power Crystal: 7/7|
+C Crystals of Power|NC|S|QID|24720|M|31.16,77.41|N|Loot 7 red crystals from the big crystal nodes in this part of the zone.|QO|1|; Red Power Crystal: 7/7
 T Adventures in Archaeology|QID|24698|M|31.81,50.33|N|To Spark Nilminer.|
 A Roll the Bones|QID|24730|M|31.81,50.33|N|From Spark Nilminer.|
 A An Important Lesson|QID|24703|M|30.57,51.21|N|From Maximillian of Northshire.|
@@ -222,16 +227,16 @@ A The Evil Dragons of Un'Goro Crater|QID|24704|PRE|24703|M|30.64,51.20|N|From Ma
 A Damsels Were Made to be Saved|QID|24705|PRE|24703|M|30.64,51.20|N|From Maximillian of Northshire.|
 C The Evil Dragons of Un'Goro Crater|S|QID|24704|M|30.64,51.20|N|Killing Elder Diemetradon, Stegodons, Spiked Stegodons, and Frenzied Pterrordax in the area counts toward this quest.|
 C Roll the Bones|QID|24730|S|M|31.16,77.41|N|Bones can be harvested from Elder Diemetradons, as well as from the elite stegosauruses. They can also be found on the ground.|
-C Damsels Were Made to be Saved|NC|QID|24705|QO|Damsel by the Shore saved: 1/1|M|36.53,59.29|N|Collect the crate from the water, then talk to the "damsel".|
+C Damsels Were Made to be Saved|NC|QID|24705|QO|1|M|36.53,59.29|N|Collect the crate from the water, then talk to the "damsel".|; Damsel by the Shore saved: 1/1
 
 A An Abandoned Research Camp|QID|24866|M|38.54,66.09|N|From the Research Equipment.|
 C Roll the Bones|QID|24730|US|M|31.16,77.41|N|Bones can be harvested from Elder Diemetradons, as well as from the elite stegosauruses. They can also be found on the ground. The arrow leads to a threshadon carcus with many bones.|
-C Damsels Were Made to be Saved|NC|QID|24705|QO|Damsel in the Cliffs saved: 1/1|M|23.79,50.00|N|Just wait for Maximillian to "save" the damsel.|
-C Damsels Were Made to be Saved|NC|QID|24705|QO|Damsel of the North saved: 1/1|M|28.88,22.02|N|Just wait for Maximillian to "save" the damsel.|
+C Damsels Were Made to be Saved|NC|QID|24705|QO|2|M|23.79,50.00|N|Just wait for Maximillian to "save" the damsel.|; Damsel in the Cliffs saved: 1/1
+C Damsels Were Made to be Saved|NC|QID|24705|QO|3|M|28.88,22.02|N|Just wait for Maximillian to "save" the damsel.|; Damsel of the North saved: 1/1
 T Damsels Were Made to be Saved|QID|24705|N|The quest turn-in should pop up automatically.|
 C The Evil Dragons of Un'Goro Crater|US|QID|24704|M|30.64,51.20|N|Killing Elder Diemetradon, Stegodons, Spiked Stegodons, and Frenzied Pterrordax in the area counts toward this quest.|
 T The Evil Dragons of Un'Goro Crater|QID|24704|N|The quest turn-in should pop up automatically.|
-A The Spirits of Golakka Hot Springs|QID|24706|PRE|24704|M|30.64,51.20|N|From Maximillian of Northshire.|
+A The Spirits of Golakka Hot Springs|QID|24706|PRE|24705|M|30.64,51.20|N|From Maximillian of Northshire.|
 C The Spirits of Golakka Hot Springs|QID|24706|M|33.04,59.57|N|Stand there (don't attack) while Maximillian prays to two spirits. The will dissappear when he's done. They will hurt you while he's praying, so make sure to heal up before hand.|
 T The Spirits of Golakka Hot Springs|QID|24706|N|The quest turn-in should pop up automatically.|
 T Roll the Bones|QID|24730|M|31.88,50.27|N|Back to Spark Nilminer.|
@@ -248,23 +253,23 @@ C A Tale of Two Shovels|QID|24709|M|37.62,81.63|N|Durrin patrols the area on a r
 T A Tale of Two Shovels|QID|24709|M|31.89,50.39|N|Back to Spark Nilminer.|
 A The Western Pylon|QID|24723|PRE|24709|M|31.89,50.39|N|From Spark Nilminer.|
 C The Western Pylon|QID|24723|NC|M|23.48,49.98|N|Right-click the western pylon, at the crater wall to the west.|
-C Crystals of Power|NC|US|QID|24720|M|31.16,77.41|N|Loot 7 red crystals from the big crystal nodes in this part of the zone.|QO|Red Power Crystal: 7/7|
+C Crystals of Power|NC|US|QID|24720|M|31.16,77.41|N|Loot 7 red crystals from the big crystal nodes in this part of the zone.|QO|1|; Red Power Crystal: 7/7
 H Marshal's Stand|QID|24722|M|54.79,63.90|N|Hearth back to Marshall's Stand. Or ride back if it is down, or if you didn't set your hearth there.|
 T An Abandoned Research Camp|QID|24866|M|54.99,62.19|N|To Hol'anyee Marshal.|
 T The Western Pylon|QID|24723|M|54.25,62.51|N|To J.D. Collie.|
 T Crystals of Power|QID|24720|M|54.23,62.46|N|To J.D. Collie.|
 
-A The Shaper's Terrace|QID|24694|PRE|24720;24723|M|53.90,62.49|N|From Un'Goro Examinant.|
+A The Shaper's Terrace|QID|24694|PRE|24721;24722;24723|M|53.90,62.49|N|From Un'Goro Examinant.|
 T The Shaper's Terrace|QID|24694|M|53.90,62.49;83.38,46.01|CS|N|Speak with the Un'Goro Examinant to be teleported to the Shaper's Terrace. Turn-in to Nablya.|
 A Ever Watching From Above|QID|24695|PRE|24694|M|83.38,46.01|N|From Nablya.|
-C Ever Watching From Above|QID|24695|QO|Bloodpetal Observation: 1/1|M|83.54,45.27|N|Bloodpetal lever. Use your abilities to defeat another Bloodpetal.|
-C Ever Watching From Above|QID|24695|QO|Pterrordax Observation: 1/1|M|84.01,45.58|N|Pterrordax lever. Fly straight up, using ability 2 to increase your speed.|
-C Ever Watching From Above|QID|24695|QO|Gorilla Observation: 1/1|M|83.98,46.39|N|Gorilla lever. Talk to one of each type of gorillas.|
-C Ever Watching From Above|QID|24695|QO|Diemetradon Observation: 1/1|M|83.50,46.70|N|Diemetradon lever. Use ability 3 to increase your armor, then use ability 2 to Bite 5 humanoids at Marshall's Stand (try not to kill them).|
+C Ever Watching From Above|QID|24695|QO|1|M|83.54,45.27|N|Bloodpetal lever. Use your abilities to defeat another Bloodpetal.|; Bloodpetal Observation: 1/1
+C Ever Watching From Above|QID|24695|QO|4|M|84.01,45.58|N|Pterrordax lever. Fly straight up, using ability 2 to increase your speed.|; Pterrordax Observation: 1/1
+C Ever Watching From Above|QID|24695|QO|3|M|83.98,46.39|N|Gorilla lever. Talk to one of each type of gorillas.|; Gorilla Observation: 1/1
+C Ever Watching From Above|QID|24695|QO|2|M|83.50,46.70|N|Diemetradon lever. Use ability 3 to increase your armor, then use ability 2 to Bite 5 humanoids at Marshall's Stand (try not to kill them).|; Diemetradon Observation: 1/1
 T Ever Watching From Above|QID|24695|M|83.43,46.02|N|To Nablya.|
 R Marshal's Stand|QID|28859|N|Speak with Nabiya to be returned to Marshall's Stand.|
 
-A The Dunes of Silithus|QID|28859|M|55.66,60.65|N|From Zen'Aliri - take this if you would like to do Silithus next.|
+A The Dunes of Silithus|QID|28859|LEAD|8280|M|55.66,60.65|N|From Zen'Aliri - take this if you would like to do Silithus next.|
 N This ends the Un'Goro Crater.|N|I would recommend visiting your trainers if need be. Close this step to continue on to Silithus.|
 
 ]]
