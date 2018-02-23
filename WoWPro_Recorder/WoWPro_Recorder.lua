@@ -111,7 +111,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			WoWPro.Recorder:dbp("Adding hearth location "..loc)
 			WoWPro.Recorder.AddStep(stepInfo)
 		end	
-		WoWPro:AutoCompleteSetHearth(...)
+		WoWPro:AutoCompleteSetHearth(event, ...)
 		
 	elseif event == "PLAYER_LEVEL_UP" then
 		WoWPro.Recorder:dbp("PLAYER_LEVEL_UP detected.")
@@ -141,8 +141,8 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
 			WoWPro.Recorder:dbp("Adding get FP "..GetSubZoneText() or GetZoneText())
 			WoWPro.Recorder.AddStep(stepInfo)
+		    WoWPro:AutoCompleteGetFP(event, ...)
 		end
-		WoWPro:AutoCompleteGetFP(...)
 		
 	elseif event == "POST_QUEST_LOG_UPDATE" then
 		WoWPro.Recorder:dbp("POST_QUEST_LOG_UPDATE detected.")
