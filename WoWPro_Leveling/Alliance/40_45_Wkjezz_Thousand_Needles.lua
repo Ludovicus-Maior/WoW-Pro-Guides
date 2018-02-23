@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
+-- Date: 2018-02-20 01:08
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3253/revisions/29031/view
 -- Date: 2018-02-19 23:40
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -168,7 +173,7 @@ C Down in the Deeps|QID|25515|US|M|80.61,76.83|N|Collect Rocket Car Parts from t
 f Fizzle & Pozzik's Speedbarge|QID|25524|M|79.16,71.95|N|At Tilly Topspin, back onto the Speedbarge.|
 T Down in the Deeps|QID|25515|M|76.50,73.64|N|To Jinky Twizzlefixxit.|
 A Pirate Accuracy Increasing|QID|25532|PRE|25515;25517;25524|M|76.50,73.64|N|From Jinky Twizzlefixxit.|
-N Pirate Accuracy Increasing|QID|25532|M|78.89,75.71|QO|Get a boat from Mazzer: 1/1|N|Speak to Mazzar on the south pontoon and tell him to get you into your boat.|
+N Pirate Accuracy Increasing|QID|25532|M|78.89,75.71|QO|1|N|Speak to Mazzar on the south pontoon and tell him to get you into your boat.|; Get a boat from Mazzer: 1/1
 C Pirate Accuracy Increasing|QID|25532|M|77.52,77.92|N|Use the Frost Cannon (#1 on your action bar) to extinguish the fires|
 T Pirate Accuracy Increasing|QID|25532|M|80.07,75.24|N|(UI Alert)|
 A Circle the Wagons... er, Boats|QID|25542|PRE|25532|M|80.12,75.15|N|(UI Alert)|
@@ -247,9 +252,9 @@ T We All Scream for Ice Cream... and then Die!|QID|28051|M|69.89,85.11|N|To Briv
 
 A Freezing the Pipes|QID|28047|PRE|28045;28051|M|69.89,85.11|N|From Brivelthwerp.|
 A That Smart One's Gotta Go|QID|28048|PRE|28045;28051|M|69.89,85.11|N|From Brivelthwerp.|
-C Freezing the Pipes|QID|28047|NC|U|62912|QO|First pipe frozen: 1/1|M|65.95,86.41|N|Go to the bug tunnel under water to the east. First Pipe is here.|
-C Freezing the Pipes|QID|28047|NC|U|62912|QO|Second pipe frozen: 1/1|M|65.28,86.93|N|Second Pipe is here.|
-C Freezing the Pipes|QID|28047|NC|U|62912|QO|Third pipe frozen: 1/1|M|64.94,84.52|N|Third Pipe is here.|
+C Freezing the Pipes|QID|28047|NC|U|62912|QO|1|M|65.95,86.41|N|Go to the bug tunnel under water to the east. First Pipe is here.|; First pipe frozen: 1/1
+C Freezing the Pipes|QID|28047|NC|U|62912|QO|2|M|65.28,86.93|N|Second Pipe is here.|; Second pipe frozen: 1/1
+C Freezing the Pipes|QID|28047|NC|U|62912|QO|3|M|64.94,84.52|N|Third Pipe is here.|; Third pipe frozen: 1/1
 C Freezing the Pipes|QID|28047|NC|U|62912|M|64.95,85.79|N|Freeze the last pipe here.|
 C That Smart One's Gotta Go|QID|28048|M|64.57,85.73|N|Kill the Hive Controller.|
 T Freezing the Pipes|QID|28047|M|69.90,85.19|N|To Brivelthwerp.|
@@ -325,7 +330,7 @@ A Release Heartrazor|QID|28088|PRE|28086;28087|M|12.83,34.05|N|From Pao'ka Swift
 C Release Heartrazor|QID|28088|M|17.65,41.08;13.17,39.29|CC|N|Head up the narrow path. Kill the 4 subduers surrounding Heartrazor.|
 T Release Heartrazor|QID|28088|M|12.87,33.97|N|To Pao'ka Swiftmountain.|
 A The Twilight Skymaster|QID|28098|PRE|28088|M|12.87,33.97|N|From Pao'ka Swiftmountain.|
-C The Twilight Skymaster|NC|QID|28098|M|12.87,33.97|N|Board Heartrazor|QO|Get a flight from Heartrazor: 1/1|
+C The Twilight Skymaster|NC|QID|28098|M|12.87,33.97|N|Board Heartrazor|QO|1|; Get a flight from Heartrazor: 1/1
 C The Twilight Skymaster|QID|28098|M|19.00,48.02|N|Kill Twilight Skymaster Richtofen|
 T The Twilight Skymaster|QID|28098|M|16.02,45.76;12.83,34.00|CC|N|Head back to Heartrazer for a lift back to Pao'ka Swiftmountain.|
 A On to the Bulwark|QID|28124|PRE|28098|M|12.83,34.00|N|From Pao'ka Swiftmountain.|
@@ -340,8 +345,8 @@ T Something to Wear|QID|28125|M|30.45,49.31|N|To Lakota Windsong.|
 T Break Them Out|QID|28127|M|30.45,49.31|N|To Lakota Windsong.|
 A Behind You!|QID|28136|PRE|28125;28127|M|30.45,49.31|N|From Lakota Windsong.|
 A Codemaster's Code|QID|28139|PRE|28125;28127|M|30.45,49.31|N|From Lakota Windsong.|
-K Fastfuse|QID|28136|U|63071|QO|Commander Fastfuse assassinated: 1/1|M|30.13,54.17|N|Wear the Bulwark Disguise, then head up the tower at this location to assassinate Commander Fastfuse.|
-K Elementalist Starion|QID|28136|U|63071|QO|Elementalist Starion assassinated: 1/1|M|28.02,57.11|N|Run over here and do the deed.|
+K Fastfuse|QID|28136|U|63071|QO|2|M|30.13,54.17|N|Wear the Bulwark Disguise, then head up the tower at this location to assassinate Commander Fastfuse.|; Commander Fastfuse assassinated: 1/1
+K Elementalist Starion|QID|28136|U|63071|QO|3|M|28.02,57.11|N|Run over here and do the deed.|; Elementalist Starion assassinated: 1/1
 C Behind You!|QID|28136|U|63071|M|31.22,59.61|N|Assassinate Codemaster Deethuk.|
 C Codemaster's Code|QID|28139|M|31.14,59.76|N|Loot the big circle artifact.|
 T Codemaster's Code|QID|28139|M|30.47,49.33|N|To Lakota Windsong.|
@@ -354,11 +359,11 @@ A To the Withering|QID|28142|PRE|28140|M|35.88,60.64|N|(UI Alert)|
 T To the Withering|QID|28142|M|50.16,62.58|N|To Magatha Grimtotem.|
 A Four Twilight Elements|QID|28157|PRE|28142|M|50.16,62.58|N|From Magatha Grimtotem.|
 A Unbound|QID|28158|PRE|28142|M|50.16,62.58|N|From Magatha Grimtotem.|
-l Twilight Element of Earth|QID|28157|QO|Twilight Element of Earth: 1/1|M|53.09,63.51|N|Earth is here.|
-K Bound Fury|QID|28158|QO|Bound Fury unbound: 1/1|M|52.90,59.60|N|Unbind the Bound Fury here.|
-l Twilight Element of Water|QID|28157|QO|Twilight Element of Water: 1/1|M|52.79,58.68|N|Water is here.|
+l Twilight Element of Earth|QID|28157|QO|1|M|53.09,63.51|N|Earth is here.|; Twilight Element of Earth: 1/1
+K Bound Fury|QID|28158|QO|1|M|52.90,59.60|N|Unbind the Bound Fury here.|; Bound Fury unbound: 1/1
+l Twilight Element of Water|QID|28157|QO|1|M|52.79,58.68|N|Water is here.|; Twilight Element of Water: 1/1
 C Unbound|QID|28158|M|56.84,61.28|N|Unbind the Bound Vortex.|
-l Twilight Element of Air|QID|28157|QO|Twilight Element of Air: 1/1|M|57.53,60.00|N|Up this tower you will find air.|
+l Twilight Element of Air|QID|28157|QO|1|M|57.53,60.00|N|Up this tower you will find air.|; Twilight Element of Air: 1/1
 C Four Twilight Elements|QID|28157|M|60.44,64.39|N|Finally get the Fire here.|
 T Four Twilight Elements|QID|28157|M|50.08,62.63|N|To Magatha Grimtotem.|
 T Unbound|QID|28158|M|50.08,62.63|N|To Magatha Grimtotem.|
