@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-02-20 01:52
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Mulgor
+
+-- URL: http://wow-pro.com/node/3203/revisions/28872/view
 -- Date: 2018-01-16 23:35
 -- Who: Ludovicus
 -- Log: New Levels
@@ -200,7 +205,7 @@ A The Restless Earth|QID|14491|PRE|14438|M|47.60,59.58|N|From Ahmo Thunderhorn.|
 
 L Level 6|QID|20440|LVL|6|N|You're ideal level is 6 at this point, since you're not yet Level 6 the guide will continue, but on reaching level 6, you will be returned to Bloodhoof Village to collect in-level quests.|
 
-A Morin Cloudstalker|QID|24459|M|47.54,59.56|N|From Ahmo Thunderhorn.|LVL|6|
+A Morin Cloudstalker|QID|24459|LEAD|749|M|47.54,59.56|N|From Ahmo Thunderhorn.|LVL|6|
 A Dangers of the Windfury|QID|743|M|47.51,61.22|N|From Ruul Eagletalon.|LVL|6|
 T Poison Water|QID|20440|M|48.57,59.88|R|Tauren|N|To Mull Thunderhorn.|
 
@@ -215,17 +220,17 @@ A Mazzranache|QID|26188|M|47.24,56.75|N|From Maur Raincaller.|LVL|6|
 T Morin Cloudstalker|QID|24459|M|57.12,60.48|N|To Morin Cloudstalker.|
 A The Ravaged Caravan|QID|749|M|57.12,60.48|N|From Morin Cloudstalker.|
 C Thunderhorn Totem|S|QID|24441|R|Tauren|N|Kill and loot the Flatland Cougars and Prairie Stalkers for their claws.|
-C Mazzranache|S|QID|26188|N|Kill Flatland Cougars you see until you get a femur|QO|Flatland Cougar Femur: 1/1|
+C Mazzranache|S|QID|26188|N|Kill Flatland Cougars you see until you get a femur|QO|1|; Flatland Cougar Femur: 1/1
 T The Ravaged Caravan|QID|749|M|53.57,48.34|N|At the Sealed Supply Crate.|
 A The Ravaged Caravan|QID|751|PRE|749|M|53.57,48.34|N|From the Sealed Supply Crate.|
 T The Ravaged Caravan|QID|751|M|57.05,60.24|N|To Morin Cloudstalker.|
 
 A The Venture Co.|QID|26179|PRE|751|M|57.05,60.24|N|From Morin Cloudstalker.|
 A Supervisor Fizsprocket|QID|26180|PRE|751|M|57.05,60.24|N|From Morin Cloudstalker.|
-C The Venture Co.|S|QID|26179|N|Kill Workers as you make your way up the hill to the mine.|QO|Venture Co. Worker slain: 7/7|
+C The Venture Co.|S|QID|26179|N|Kill Workers as you make your way up the hill to the mine.|QO|1|; Venture Co. Worker slain: 7/7
 K Supervisor Fizsprocket|QID|26180|M|60.92,47.07|N|Kill Supervisor Fizsprocket inside the mine and loot his clipboard.|T|Supervisor Fizsprocket|QO|1|
-C The Venture Co.|US|QID|26179|N|Kill Workers you still need as you make your way back down the hill.|QO|Venture Co. Worker slain: 7/7|
-C Mazzranache|S|QID|26188|N|Kill Flatland Cougars you see until you get a femur.|QO|Flatland Cougar Femur: 1/1|
+C The Venture Co.|US|QID|26179|N|Kill Workers you still need as you make your way back down the hill.|QO|1|; Venture Co. Worker slain: 7/7
+C Mazzranache|S|QID|26188|N|Kill Flatland Cougars you see until you get a femur.|QO|1|; Flatland Cougar Femur: 1/1
 C Thunderhorn Totem|US|QID|24441|R|Tauren|N|Finish killing and looting the Flatland Cougars and Prairie Stalkers for their claws.|
 C Tender Strider Meat|US|QID|11129|N|Kill any Plainstrider you see, until you have a Tender Strider Meat.|L|33009 1|
 T The Venture Co.|QID|26179|M|57.06,60.32|N|To Morin Cloudstalker.|
