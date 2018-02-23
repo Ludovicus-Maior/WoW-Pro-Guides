@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2018-02-20 01:02
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3233/revisions/29023/view
 -- Date: 2018-02-19 23:30
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -193,25 +198,25 @@ A Just Ask Alice|QID|25673|PRE|25652|M|58.53,55.25|N|From Alice.|
 
 f Windshear Hold|QID|25729|M|58.80,54.30|N|At Allana Swiftglide.|
 
-C Just Ask Alice - Fire|QID|25673|L|55221|M|63.09,56.70|N|Loot the Mechanised Fire at the top of the large shredder.|QO|Mechanized Fire: 1/1|NC|
+C Just Ask Alice - Fire|QID|25673|L|55221|M|63.09,56.70|N|Loot the Mechanised Fire at the top of the large shredder.|QO|2|NC|; Mechanized Fire: 1/1
 C Free Our Sisters|QID|25662|S|M|65.92,54.00|N|Kill the orcs for their keys and free the trapped Sisters.|
 A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|N|This is a Group quest from the STAY OUT! sign.\n\nThis is a little tough for a non-heal class to solo - get a group if you can, give it a try, or otherwise skip this quest.|RANK|3|C|DeathKnight,Mage,Rogue,Warrior|
 A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|N|This is a Group quest from the STAY OUT! sign.\n\nAlthough this is a group quest, it should be soloable for you. Skip if you don't want to try.|RANK|3|C|Hunter,Paladin,Shaman,Druid,Priest,Warlock|
 
 C BEWARE OF CRAGJAW!|QID|25730|M|65.68,46.90|N|Found in Cragpool Lake to the north of the sign - he has 3,200 HP.  Once killed, loot the Huge Tooth.|RANK|3|O|
 
-C Just Ask Alice - Ice|QID|25673|L|55222|M|66.18,50.04|N|Loot the Mechanized Ice at the top of the rig.|QO|Mechanized Ice: 1/1|NC|
+C Just Ask Alice - Ice|QID|25673|L|55222|M|66.18,50.04|N|Loot the Mechanized Ice at the top of the rig.|QO|3|NC|; Mechanized Ice: 1/1
 A Gerenzo the Traitor|QID|25729|PRE|25652|M|69.2,48.1;69.5,46.4;68.3,45.4;64.64,43.77|N|(UI Alert)Head to the BD-816 War Apparatus (north of Cragpool Lake, follow the waypoints to get there).|CS|
 C Gerenzo the Traitor|QID|25729|M|63.10,45.84|N|Kill Gerenzo.|
 T Gerenzo the Traitor|QID|25729|M|63.10,45.84|N|(UI Alert)|
 
-C Just Ask Alice - BD-816 War Apparatus|QID|25673|L|55227|M|63.05,45.67|N|Just behind Gerenzo.  Once collected, feel free to jump to the south into the water to get back to Windshear Crag.|QO|BD-816 War Apparatus: 1/1|NC|
+C Just Ask Alice - BD-816 War Apparatus|QID|25673|L|55227|M|63.05,45.67|N|Just behind Gerenzo.  Once collected, feel free to jump to the south into the water to get back to Windshear Crag.|QO|1|NC|; BD-816 War Apparatus: 1/1
 C Free Our Sisters|QID|25662|US|M|64.91,52.13|N|Finish freeing the trapped Sisters.|
 T Free Our Sisters|QID|25662|M|66.21,54.57|N|To Huntress Illiona.|
 A Rumble in the Lumber... Mill|QID|25669|PRE|25662|M|66.21,54.57|N|From Huntress Illiona.|
 K Warlord Roktrog|QID|25669|M|66.2,54.6|N|Warlord Roktrog will spawn behind you.  Kill him, then loot Huntress Illiona's Cage Key.|L|55213|
 C Rumble in the Lumber... Mill|QID|25669|M|66.21,54.57|N|Use the key on the cage to free Huntress Illiona.|NC|
-C Just Ask Alice - Air|QID|25673|M|59.95,64.02|N|Loot the Mechanized Air from inside the hut.|QO|Mechanized Air: 1/1|NC|
+C Just Ask Alice - Air|QID|25673|M|59.95,64.02|N|Loot the Mechanized Air from inside the hut.|QO|2|NC|; Mechanized Air: 1/1
 C Just Ask Alice |QID|25673|M|59.95,64.02;66.18,50.04;63.09,56.70|CN|N|Loot the Mechanized Air, Ice and Fire.|NC|
 T Rumble in the Lumber... Mill|QID|25669|M|59.56,56.88|N|To Lord Fallowmere.|
 
@@ -260,9 +265,9 @@ A Leave No Man Behind!|QID|25809|PRE|25793|M|72.05,75.95|N|From Corporal Wocard.
 A They Put the Assass in... Never Mind|QID|25806|PRE|25793|M|72.06,76.01|N|From Lieutenant Paulson.|
 C They Put the Assass in... Never Mind|QID|25806|S|U|56014|N|Use your goggles to see the mobs. Kill Krom'gar Assassins.|
 C Leave No Man Behind!|QID|25809|S|M|70.66,72.54|N|Talk to the Frightened Miners to rescue them.|
-U Plant Explosives at First Beam|QID|25811|U|56018|QO|Plant Explosives at First Beam: 1/1|M|70.64,76.04|N|First Beam is here.|
-U Plant Explosives at Second Beam|QID|25811|U|56018|QO|Plant Explosives at Second Beam: 1/1|M|69.67,75.24|N|Second Beam is here.|
-U Plant Explosives at Third Beam |QID|25811|U|56018|QO|Plant Explosives at Third Beam: 1/1|M|68.72,71.30|N|Third Beam is here (on the ground, level, not the track).|
+U Plant Explosives at First Beam|QID|25811|U|56018|QO|1|M|70.64,76.04|N|First Beam is here.|; Plant Explosives at First Beam: 1/1
+U Plant Explosives at Second Beam|QID|25811|U|56018|QO|3|M|69.67,75.24|N|Second Beam is here.|; Plant Explosives at Second Beam: 1/1
+U Plant Explosives at Third Beam |QID|25811|U|56018|QO|1|M|68.72,71.30|N|Third Beam is here (on the ground, level, not the track).|; Plant Explosives at Third Beam: 1/1
 C Shuttin Her Down|QID|25811|U|56018|M|68.47,72.56|N|Plant the explosives at the Fourth Beam.|
 C They Put the Assass in... Never Mind|QID|25806|US|U|56014|M|69.47,72.23|N|Finish killing Krom'gar Assassins.|
 T They Put the Assass in... Never Mind|QID|25806|M|69.47,72.23|N|(UI Alert)|
@@ -349,7 +354,7 @@ A Putting Them to Rest|QID|25913|PRE|25891|M|39.61,30.69|N|From Sentinel Mistres
 A Back to the Depths!|QID|25914|PRE|25891|M|39.60,30.64|N|From Sentinel Mistress Geleneth.|
 C Back to the Depths!|QID|25914|S|M|40.66,23.22|N|Kill Invading Tendrils and Crushers.|
 C Putting Them to Rest|QID|25913|S|M|42.53,20.17|N|Kill and loot Corrupted Sentinels.|
-K Harbginer Aph'lass|QID|25914|QO|Harbinger Aph'lass slain: 1/1|N|Kill Harbinger Aph'lass.|M|41.42,22.86|
+K Harbginer Aph'lass|QID|25914|QO|1|N|Kill Harbinger Aph'lass.|M|41.42,22.86|; Harbinger Aph'lass slain: 1/1
 C Seen Better Days|QID|25912|M|40.73,17.28|N|Loot Elder Sareth'na's Sketch Book at the top of the building.|
 C Putting Them to Rest|QID|25913|US|M|40.18,19.49|N|Finish getting Santinel's Glaives.|
 C Back to the Depths!|QID|25914|US|M|41.45,22.54|N|Finish kill the Invading Tenticles.|
