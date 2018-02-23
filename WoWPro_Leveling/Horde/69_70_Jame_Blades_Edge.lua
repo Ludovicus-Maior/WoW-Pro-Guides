@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2018-02-22 22:59
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3282/revisions/28910/view
 -- Date: 2018-01-16 23:57
 -- Who: Ludovicus
 -- Log: New Levels
@@ -107,8 +112,8 @@ A Dust from the Drakes|QID|10487|PRE|10486|M|52.3,57.6|N|From Gor'drek.|
 C The Bladespire Threat|QID|10503|N|Kill Bladespire Ogres and Raptors.|M|48,50|S|
 l Thunderlord Clan Artifact|QID|10503|L|30431|N|Kill Bladespire Ogres until this drops. Be sure to keep 3 Rapter Ribs, they will be used for a quest later.|M|41.6,54.0|
 A Thunderlord Clan Artifacts|QID|10524|U|30431|M|41.6,54.0|N|From the Thunderlord Clan Artifact.|
-C Thunderlord Clan Drum|QID|10524|NC|QO|Thunderlord Clan Drum: 1/1|N|To the southwest, inside the hut.|M|40.17,58.34|
-C Thunderlord Clan Arrow|QID|10524|NC|QO|Thunderlord Clan Arrow: 1/1|N|Directly north on top of the large stone gate.|M|41.50,52.69|
+C Thunderlord Clan Drum|QID|10524|NC|QO|3|N|To the southwest, inside the hut.|M|40.17,58.34|; Thunderlord Clan Drum: 1/1
+C Thunderlord Clan Arrow|QID|10524|NC|QO|3|N|Directly north on top of the large stone gate.|M|41.50,52.69|; Thunderlord Clan Arrow: 1/1
 C Thunderlord Clan Artifacts|QID|10524|NC|N|Directly north inside the hut.|M|41.29,46.46|
 C The Bladespire Threat|QID|10503|N|Kill Bladespire Ogres and Raptors.|M|48,50|US|
 T The Bladespire Threat|QID|10503|N|To Tor'chunk Twoclaws.|M|51.90,58.49|
@@ -135,11 +140,11 @@ C Bladespire Kegger|QID|10545|U|30353|N|Go northwest to Bladespire Hold. Get clo
 T Bladespire Kegger|QID|10545|N|To T'chali the Witch Doctor.|M|44.97,72.20|
 
 A Grimnok and Korgaah, I Am For You!|QID|10543|PRE|10545|M|45.0,72.3|N|From T'chali the Witch Doctor.|
-K Grimnok Battleborn|QID|10543|QO|Grimnok Battleborn slain: 1/1|N|On the top of Southmaul Tower, kill Grimnok.|M|45.56,80.87|
+K Grimnok Battleborn|QID|10543|QO|1|N|On the top of Southmaul Tower, kill Grimnok.|M|45.56,80.87|; Grimnok Battleborn slain: 1/1
 C Grimnok and Korgaah, I Am For You!|QID|10543|U|29443|N|Go to Bladespire Hold, he's on the second floor of the northernmost house, use the brew to lure him out. Kill any brutes first though or it will waste a brew.|M|43.28,46.25|
 T Grimnok and Korgaah, I Am For You!|QID|10543|N|To T'chali the Witch Doctor.|M|44.99,72.21|
 A A Curse Upon Both of Your Clans!|QID|10544|PRE|10543|M|45.0,72.3|N|From T'chali the Witch Doctor.|
-C A Curse Upon Both of Your Clans!|QID|10544|NC|QO|Bloodmaul Outpost building cursed: 2/2|U|30479|N|Go to Bloodmaul Outpost, clear the way to a building and use the Wicked Strong Fetish.|M|46.52,79.14|
+C A Curse Upon Both of Your Clans!|QID|10544|NC|QO|2|U|30479|N|Go to Bloodmaul Outpost, clear the way to a building and use the Wicked Strong Fetish.|M|46.52,79.14|; Bloodmaul Outpost building cursed: 2/2
 C The Bloodmaul Ogres|QID|10505|N|Kill ogres untill finished.|M|42.29,82.87|US|
 H Thunderlord Stronghold|QID|10487|U|6948|N|Hearth to Thunderlord Stronghold.|
 T Dust from the Drakes|QID|10487|N|To Gor'drek.|M|52.27,57.66|
@@ -174,15 +179,15 @@ T The Softest Wings|QID|10618|N|To Silmara.|M|75.78,61.58|
 T Silkwing Cocoons|QID|10617|N|To Taerek.|M|75.81,61.46|
 l Infused Vekh'nir Crystals|QID|10566|L|30655 4|N|Kill Vekh'nir untill you get four Infused Vekh'nir Crystals.|M|76.98,72.83|
 U Dertrok's Wand Case|QID|10566|U|30650|N|Open Dertrok's Wand Case|L|30651|
-C Test the fourth wand|QID|10566|NC|QO|Test the fourth wand: 1/1|U|30654|N|Use the wand on an ogre.|S|
-C Test the third wand|QID|10566|NC|QO|Test the third wand: 1/1|U|30653|N|Use the wand on an ogre.|S|
-C Test the second wand|QID|10566|NC|QO|Test the second wand: 1/1|U|30652|N|Use the wand on an ogre.|S|
-C Test the first wand|QID|10566|NC|QO|Test the first wand: 1/1|U|30651|N|Use the wand on an ogre.|S|
+C Test the fourth wand|QID|10566|NC|QO|4|U|30654|N|Use the wand on an ogre.|S|; Test the fourth wand: 1/1
+C Test the third wand|QID|10566|NC|QO|3|U|30653|N|Use the wand on an ogre.|S|; Test the third wand: 1/1
+C Test the second wand|QID|10566|NC|QO|2|U|30652|N|Use the wand on an ogre.|S|; Test the second wand: 1/1
+C Test the first wand|QID|10566|NC|QO|1|U|30651|N|Use the wand on an ogre.|S|; Test the first wand: 1/1
 C Understanding the Mok'Nathal|QID|10846|N|Inside the cave, go straight ahead at the first fork and you should find Vekh at the end of this tunnel.|M|69.77,72.21|
-C Test the first wand|QID|10566|NC|QO|Test the first wand: 1/1|U|30651|N|Use the wand on an ogre.|US|
-C Test the second wand|QID|10566|NC|QO|Test the second wand: 1/1|U|30652|N|Use the wand on an ogre.|US|
-C Test the third wand|QID|10566|NC|QO|Test the third wand: 1/1|U|30653|N|Use the wand on an ogre.|US|
-C Test the fourth wand|QID|10566|NC|QO|Test the fourth wand: 1/1|U|30654|N|Use the wand on an ogre.|US|
+C Test the first wand|QID|10566|NC|QO|1|U|30651|N|Use the wand on an ogre.|US|; Test the first wand: 1/1
+C Test the second wand|QID|10566|NC|QO|2|U|30652|N|Use the wand on an ogre.|US|; Test the second wand: 1/1
+C Test the third wand|QID|10566|NC|QO|3|U|30653|N|Use the wand on an ogre.|US|; Test the third wand: 1/1
+C Test the fourth wand|QID|10566|NC|QO|4|U|30654|N|Use the wand on an ogre.|US|; Test the fourth wand: 1/1
 T Trial and Error|QID|10566|N|To Dertrok.|M|75.17,62.11|
 
 A Ruuan Weald|QID|10615|PRE|10566|M|75.1,62.1|N|From Dertrok.|
@@ -238,9 +243,9 @@ T Baron Sablemane's Poison|QID|10749|N|To Rexxar.|M|51.83,58.31|
 A The Smallest Creatures|QID|10720|PRE|10749|M|51.9,58.4|N|From Rexxar.|
 A Crush the Bloodmaul Camp|QID|10784|N|From Tor'chunk Twoclaws.|M|51.87,58.41|
 U [Kodohide Drum]|QID|10720|U|31141|N|Go down the ravine again and ride north/northeast until you find a marmot's den.|M|56.43,29.41|
-C Keg of Ripe Moonshine|QID|10720|U|31141|QO|Poison the keg of Ripe Moonshine: 1/1|NC|N|Inside the Bloodmaul Camp stand next to the keg and use the marmot's Poison Keg ability.|M|55.34,28.23|
-C Green Spot Grog Keg|QID|10720|NC|U|31141|QO|Poison the keg of Green Spot Grog: 1/1|N|A little northwest of here you should find the Green Spot Grog Keg, behind a bonfire.|M|55.26,25.97|
-C Fermented Seed Beer Keg|QID|10720|NC|U|31141|QO|Poison the keg of Fermented Seed Beer: 1/1|N|Further north you should find the Fermented Seed Beer Keg.|M|55.96,23.08|
+C Keg of Ripe Moonshine|QID|10720|U|31141|QO|2|NC|N|Inside the Bloodmaul Camp stand next to the keg and use the marmot's Poison Keg ability.|M|55.34,28.23|; Poison the keg of Ripe Moonshine: 1/1
+C Green Spot Grog Keg|QID|10720|NC|U|31141|QO|1|N|A little northwest of here you should find the Green Spot Grog Keg, behind a bonfire.|M|55.26,25.97|; Poison the keg of Green Spot Grog: 1/1
+C Fermented Seed Beer Keg|QID|10720|NC|U|31141|QO|3|N|Further north you should find the Fermented Seed Beer Keg.|M|55.96,23.08|; Poison the keg of Fermented Seed Beer: 1/1
 C Crush the Bloodmaul Camp|QID|10784|N|Kill 10 Bloodmaul Maulers and 5 Bloodmaul Warlocks.|M|56.2,26.7|
 T The Smallest Creatures|QID|10720|N|To Rexxar.|M|51.76,58.45|
 
@@ -295,8 +300,8 @@ C You're Fired! |N|Find the five obelisks (where the waypoints are), and activat
 C There Can Be Only One Response|QID|10867|N|Kill all Razaani agents in this area until Nexus-Prince Razaan comes through the stargate, then kill him. He spawns where the waypoint is. The box of souls appears above his corpse.|M|66.59,43.69|
 C Culling the Wild |N|Kill the mobs needed for this quest.|QID|10753|M|71.00,36.00|US|
 C Little Embers |N|Kill Imps until you finish this quest.|QID|10770|M|72.00,22.00|S|
-C Southern Volcanic Soil|N|Click the soil.|QID|10771|NC|M|71.65,22.37|QO|Southern Volcanic Soil: 1/1|
-C Central Volcanic Soil|N|Click the soil.|QID|10771|NC|M|71.6,20.32|QO|Central Volcanic Soil: 1/1|
+C Southern Volcanic Soil|N|Click the soil.|QID|10771|NC|M|71.65,22.37|QO|1|; Southern Volcanic Soil: 1/1
+C Central Volcanic Soil|N|Click the soil.|QID|10771|NC|M|71.6,20.32|QO|2|; Central Volcanic Soil: 1/1
 C Northern Volcanic Soil|N|Click the soil to complete this quest.|QID|10771|NC|M|71.59,18.51|
 C Little Embers |N|Kill Imps until you finish this quest.|QID|10770|M|72.00,22.00|US|
 T Culling the Wild |QID|10753|M|62.6,38.2|N|To Faradrella.|
@@ -311,9 +316,9 @@ C Longtail is the Lynchpin |N|Go in the tunnel and kill Draaca Longtail.|QID|108
 T Longtail is the Lynchpin |QID|10893|M|49.9,35.9|N|To Watcher Moonshade.|
 A Meeting at the Blackwing Coven |QID|10722|PRE|10893|M|49.9,35.9|N|From Watcher Moonshade.|
 l Orb of the Grishna |QID|10825|N|Kill Grishna mobs until you get the Orb of the Grishna.|L|31489 1|S|
-C Receive the Second Prophecy|QID|10607|NC|M|42.43,21.67|QO|Receive the Second Prophecy: 1/1|N|Go through the tunnel and go to this location on the tree house. Kill Grishna mobs and you will get a buff that allows you to see prophecies on the minimap.|
-C Receive the Third Prophecy|QID|10607|NC|M|40.68,18.62|QO|Receive the Third Prophecy: 1/1|N|Kill Grishna mobs if you need to get the buff again. Go to this spot for the Third Prophecy.|
-C Receive the First Prophecy|QID|10607|NC|M|39.06,17.25|QO|Receive the First Prophecy: 1/1|N|Kill Grishna mobs if you need to get the buff again. Go to this spot, up in the tree house, for the First Prophecy.|
+C Receive the Second Prophecy|QID|10607|NC|M|42.43,21.67|QO|3|N|Go through the tunnel and go to this location on the tree house. Kill Grishna mobs and you will get a buff that allows you to see prophecies on the minimap.|; Receive the Second Prophecy: 1/1
+C Receive the Third Prophecy|QID|10607|NC|M|40.68,18.62|QO|1|N|Kill Grishna mobs if you need to get the buff again. Go to this spot for the Third Prophecy.|; Receive the Third Prophecy: 1/1
+C Receive the First Prophecy|QID|10607|NC|M|39.06,17.25|QO|1|N|Kill Grishna mobs if you need to get the buff again. Go to this spot, up in the tree house, for the First Prophecy.|; Receive the First Prophecy: 1/1
 C Receive the Forth Prophecy|QID|10607|NC|M|40.18,22.99|N|Kill Grishna mobs if you need to get the buff again. Go to this spot for the Fourth Prophecy.|
 l Orb of the Grishna |QID|10825|N|Kill Grishna mobs until you get the Orb of the Grishna.|L|31489 1|US|M|40.18,22.99|
 
@@ -362,7 +367,7 @@ A Harvesting the Fel Ammunition|QID|10904|PRE|10910|M|64.64,69.96|N|From Evergro
 C Harvesting the Fel Ammunition|QID|10904|M|64.19,71.74|N|Kill Deathforge Smiths, Deathforge Over-Smiths and Death's Mights until you get 5 Fel Cannonballs.|
 T Harvesting the Fel Ammunition|QID|10904|U|31763|M|64.46,72.22|N|Find a safe spot, use the signal then turn the quest into the Evergrove Druid.|
 A Fire At Will!|QID|10911|PRE|10904|M|64.46,72.22|N|From Evergrove Druid.|
-C Southern Warp-Gate|QID|10911|NC|U|31807|QO|South Warp-Gate Destroyed: 1/1|M|64.75,68.37|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition. You will have a pet bar, use the "Artillery on the Warp-Gate" ability to attack the Warp-Gate, and then protect it. You need to use "Artillery on the Warp-Gate" a total of 7 times to destroy the Warp-Gate.|
+C Southern Warp-Gate|QID|10911|NC|U|31807|QO|1|M|64.75,68.37|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition. You will have a pet bar, use the "Artillery on the Warp-Gate" ability to attack the Warp-Gate, and then protect it. You need to use "Artillery on the Warp-Gate" a total of 7 times to destroy the Warp-Gate.|; South Warp-Gate Destroyed: 1/1
 C Fire At Will!|QID|10911|U|31807|M|62.01,60.53|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition. You will have a pet bar, use the "Artillery on the Warp-Gate" ability to attack the Warp-Gate, and then protect it. You need to use "Artillery on the Warp-Gate" a total of 7 times to destroy the Warp-Gate.|
 T Fire At Will!|QID|10911|U|31763|M|65.19,69.93|N|Find a safe spot, use the signal then turn the quest into the Evergrove Druid.|
 A The Hound-Master|QID|10912|PRE|10911|M|65.16,69.93|N|From Evergrove Druid.|
