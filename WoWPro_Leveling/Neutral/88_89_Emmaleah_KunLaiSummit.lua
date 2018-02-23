@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2018-02-23 01:28
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3490/revisions/28937/view
 -- Date: 2018-01-17 00:33
 -- Who: Ludovicus
 -- Log: New Levels
@@ -423,21 +428,21 @@ R Westwind Rest|QID|30651|FACTION|Alliance|M|54.17,83.27|N|Head back to Westwind
 T Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|To Sully "The Pickle" McLeary.|
 T The Ordo Warbringer|QID|30660|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
 T Pandaren Prisoners|QID|30650|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
-A The Shado-Pan|QID|31455|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
-A Beyond the Wall|QID|31695|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
+A The Shado-Pan|QID|31455|LEAD|30665|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
+A Beyond the Wall|QID|31695|LEAD|30814|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 A Cho's Missive|QID|31460|FACTION|Alliance|M|53.49,83.38|N|From Mishka.|
-A Muskpaw Ranch|QID|31456|PRE|30660+30662|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
-A Temple of the White Tiger|QID|31392|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
+A Muskpaw Ranch|QID|31456|LEAD|30488|PRE|30660+30662|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
+A Temple of the White Tiger|QID|31392|LEAD|31394|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
 
 R Eastwind Rest|QID|30656|FACTION|Horde|M|62.76,79.8|N|Head back to Eastwind Rest. Careful riding past the Ordo's, they can stun you off your mount.|
 T Barrels of Fun|QID|30656|FACTION|Horde|M|62.76,79.81|N|To Rivett Clutchpop.|
 T The Ordo Warbringer|QID|30661|FACTION|Horde|M|62.28,80.29|N|To General Nazgrim.|
 T Pandaren Prisoners|QID|30655|FACTION|Horde|M|62.28,80.29|N|To General Nazgrim.|
-A Beyond the Wall|QID|31695|FACTION|Horde|M|62.36,79.65|N|From Elder Shiao.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
+A Beyond the Wall|QID|31695|LEAD|30814|FACTION|Horde|M|62.36,79.65|N|From Elder Shiao.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 A The Shado-Pan|QID|31453|FACTION|Horde|M|62.28,80.29|N|From General Nazgrim.|
 A Cho's Missive|QID|31459|FACTION|Horde|M|62.67,80.65|N|From Shademaster Kiryn.|
-A Muskpaw Ranch|QID|31457|PRE|30661+30663|FACTION|Horde|M|62.55,79.53|N|From Farmhand Ko.|
-A Temple of the White Tiger|QID|31393|FACTION|Horde|M|2.55,79.53|N|From Farmhand Ko.|
+A Muskpaw Ranch|QID|31457|LEAD|30488|PRE|30661+30663|FACTION|Horde|M|62.55,79.53|N|From Farmhand Ko.|
+A Temple of the White Tiger|QID|31393|LEAD|31395|FACTION|Horde|M|2.55,79.53|N|From Farmhand Ko.|
 
 R Lao & Son's Yakwash|QID|31456;31457|M|70.13,70.24|N|Head to Lao & Son's Yakwash, located north-east.|
 T Muskpaw Ranch|QID|31456;31457|M|71.50,70.04|N|To Lao Muskpaw, he walkes back and forth between the two buildings.|
@@ -603,7 +608,7 @@ T Fisherman's Tale|QID|30935|M|62.33,29.06|N|To Lorewalker Cho.|
 A It Takes A Village|QID|30944|PRE|30935|M|62.33,29.06|N|From Lorewalker Cho.|
 A Make A Fighter Out of Me|QID|30942|PRE|30935|M|63.73,30.71|N|From Shomi.|
 A What's Yours Is Mine|QID|30945|PRE|30935|M|63.38,30.69|N|From Steelbender Doshu.|
-A Checking In|QID|30816|PRE|30935|M|63.17,29.37|N|From Li Hai.|
+A Checking In|QID|30816|LEAD|30794|PRE|30935|M|63.17,29.37|N|From Li Hai.|
 A Handle With Care|QID|30943|PRE|30935|M|63.48,28.65|N|From Elder Shu, wanders around inside the hut and up the stairs.|
 
 R Zouchin Strand|QID|30794|M|60.59,21.25|N|Head to Zouchin Strand.|
@@ -766,7 +771,7 @@ T The Shado-Pan|QID|31453|FACTION|Horde|M|44.51,89.96|N|To Shado-Master Chong.|
 R Shado-Pan Fallback|QID|31455|FACTION|Alliance|CC|M|48.52,86.90;45.13,89.94;44.51,89.96|N|Stick to the path if you wish to avoid fighting|
 T The Shado-Pan|QID|31455|FACTION|Alliance|M|44.51,89.96|N|To Shado-Master Chong.|
 
-A Turnabout|QID|30670|PRE|30514|M|44.49,89.88|N|From Shado-Master Chong.|
+A Turnabout|QID|30670|PRE|30514+30515|M|44.49,89.88|N|From Shado-Master Chong.|
 A The Defense of Shado-Pan Fallback|QID|30665|PRE|30514|M|44.49,89.88|N|From Shado-Master Chong.|
 C Turnabout|QID|30670|S|M|41.29,86.60|N|These drop from the little sha in the area.|
 C The Defense of Shado-Pan Fallback|QID|30665|S|M|44.45,88.63|
@@ -793,7 +798,7 @@ T To Winter's Blossom|QID|30699|M|34.96,59.40|N|To Lin Silentstrike.|
 A Honor, Even in Death|QID|30723|PRE|30699|M|34.96,59.40|N|From Lin Silentstrike.|
 A A Line Unbroken|QID|30715|PRE|30699|M|35.12,59.66|N|From Ban Bearheart.|
 f Winter's Blossom|QID|30715|M|34.54,59.12|N|At Kite Master Len.|
-A Better Dead than Dread|QID|31847|M|34.54,59.12|N|From Kite Master Len. Requires level 89, gives the flightpath to Brewmistriss Yi (not all of the quests to see Brewmaster Yi give the FP, so it may be worth coming back here to get this later, if you aren't 89 yet.|
+A Better Dead than Dread|QID|31847|LEAD|31001|M|34.54,59.12|N|From Kite Master Len. Requires level 89, gives the flightpath to Brewmistriss Yi (not all of the quests to see Brewmaster Yi give the FP, so it may be worth coming back here to get this later, if you aren't 89 yet.|
 C Honor, Even in Death|QID|30723|S|M|30.22,62.06|
 C A Line Unbroken|QID|30715|M|30.36,60.05|QO|1|NC|N|Click on the hero.|
 C A Line Unbroken|QID|30715|M|30.17,62.49|QO|2|NC|N|Click on the hero.|
@@ -829,7 +834,7 @@ T Where are My Reinforcements?|QID|30993|M|35.31,49.56|N|To Ban Bearheart.|
 A Unbelievable!|QID|30752|PRE|30993|M|35.31,49.56|N|From Ban Bearheart.|
 C Unbelievable!|QID|30752|M|36.75,47.67|N|Ask the guard at the door to let you in, fight him when he refuses.|
 T Unbelievable!|QID|30752|M|36.75,47.67|N|To Ban Bearheart.|
-A Into the Monastery|QID|31030|PRE|30752|M|36.75,47.67|N|From Ban Bearheart. This is a dungeon quest. Enter into the dungeon to turn in the quest and leave if you wish.|
+A Into the Monastery|QID|31030|LEAD|30757|PRE|30752|M|36.75,47.67|N|From Ban Bearheart. This is a dungeon quest. Enter into the dungeon to turn in the quest and leave if you wish.|
 
 ; Open gate and head to your respective Shrine (Major city in Pandaria)
 ; Horde
