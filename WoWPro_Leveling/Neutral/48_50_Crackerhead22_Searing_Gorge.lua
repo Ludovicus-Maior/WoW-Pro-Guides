@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2018-02-22 23:44
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3255/revisions/28863/view
 -- Date: 2018-01-16 23:30
 -- Who: Ludovicus
 -- Log: New Levels
@@ -323,7 +328,7 @@ T Welcome to the Brotherhood|QID|28064|M|38.08,26.70|N|To Overseer Oilfist.|
 
 ;move, split and add lvl
 L Level 49|QID|999999|LVL|49|N|You should be level 49 now.|
-A Mouton Flamestar|QID|28514|LVL|49|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Alliance|
+A Mouton Flamestar|QID|28514|LEAD|28172|LVL|49|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Alliance|
 A Mouton Flamestar|QID|28515|LVL|49|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Horde|
 
 ;F Stormwind City|QID|28666|M|38.01,30.67|N|Fly to Stormwind to train, visit AH, etc.|FACTION|Alliance|
