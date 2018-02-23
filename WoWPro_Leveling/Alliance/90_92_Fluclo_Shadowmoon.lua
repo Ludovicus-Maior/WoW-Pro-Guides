@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2018-02-20 01:38
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3604/revisions/28942/view
 -- Date: 2018-01-17 00:37
 -- Who: Ludovicus
 -- Log: New Levels
@@ -249,10 +254,6 @@
 -- Date: 2014-09-29 21:06
 -- Who: Fluclo
 
--- URL: http://wow-pro.com/node/3604/revisions/26699/view
--- Date: 2014-09-29 21:06
--- Who: Fluclo
-
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -264,10 +265,10 @@ return [[
 N Getting to Shadowmoon Valley (Draenor) |QID|34575|N|To get to Shadowmoon Valley (Draenor), you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|35884|
 
 N Welcome to Shadowmoon Valley|QID|34575|ACTIVE|34575|S|N|If you want the garrison supply treasures included in this guide, please set your Rank to 3.|
-A Step Three: Prophet! |QID|34575|PRE|35884|N|Auto-Accepted|
+A Step Three: Prophet! |QID|34575|LEAD|34582|PRE|35884|N|Auto-Accepted|
 T Step Three: Prophet! |QID|34575|N|To Prophet Velen|M|27.0,8.1|
 
-A Finding a Foothold |QID|34582|N|From Prophet Velen|PRE|34575|M|27.0,8.1|
+A Finding a Foothold |QID|34582|N|From Prophet Velen|M|27.0,8.1|
 C Finding a Foothold |QID|34582|N|Head towards Lunarfall, the location of your new garrison.|NC|M|27.0,11.5|
 T Finding a Foothold |QID|34582|N|To Vindicator Maraad.|M|28.8,16.2|
 
@@ -285,7 +286,7 @@ C Ravenous Ravens |QID|34616|N|Finish killing the Lunarfall Ravens|US|M|29.1,17.
 T Looking for Lumber |QID|34584|N|From Baros Alexston|M|29.0,16.2|
 T Ravenous Ravens |QID|34616|N|From Baros Alexston|M|29.0,16.2|
 
-A Quakefist |QID|34585|N|From Yrel|M|28.9,16.4|PRE|34584+34616|
+A Quakefist |QID|34585|N|From Yrel|M|28.9,16.4|PRE|34584;34616|
 C Quakefist |QID|34585|N|Kill Quakefist, who can be found inside the cave.|M|30.1,21.8|T|Quakefist|
 T Quakefist |QID|34585|N|To Yrel|M|28.9,16.4|
 
@@ -519,7 +520,7 @@ T Fun with Fungus |QID|34784|N|To Exarch Naielle|M|56.49,23.53|
 
 T Hataaru, the Artificer |QID|34785|N|To Exarch Hataaru outside the Elodor Dig|M|61.91,29.69|
 A Shut 'er Down |QID|35070|N|From Exarch Hataaru|PRE|34785|M|61.91,29.69|
-A Engorged Goren |QID|34786|N|From Apprentice Artificer Andren|M|61.87,29.14|PRE|34782|
+A Engorged Goren |QID|34786|N|From Apprentice Artificer Andren|M|61.87,29.14|PRE|34785|
 
 C Engorged Goren |QID|34786|N|Kill and loot the Crystalmaw Goren and Spitters until you have 20 Crystallized Goren Scales|S|M|63.5,26.3|
 C Shut 'er Down |QID|35070|N|Disable the Crystal with the Override Level|NC|M|64.4,26.2|
@@ -527,7 +528,7 @@ C Engorged Goren |QID|34786|N|Finish killing and looting the Crystalmaw Goren an
 
 T Engorged Goren |QID|34786|N|To Apprentice Artificer Andren|M|61.87,29.14|
 T Shut 'er Down |QID|35070|N|To Exarch Hataaru|M|61.91,29.69|
-A Exarch Maladaar |QID|34787|N|From Exarch Akama|M|61.92,29.61|PRE|35070|
+A Exarch Maladaar |QID|34787|N|From Exarch Akama|M|61.92,29.61|PRE|34784;35070|
 
 f Elodor |QID|34787|N|With Vamuun.|M|58.7,31.9|
 T Exarch Maladaar |QID|34787|N|To Exarch Maladaar on Fey Landing.|CS|M|59.38,29.15;59.51,30.37|
@@ -571,13 +572,13 @@ f Path of the Light|QID|35444|N|With Paaya.|M|59.37,45.98|ACTIVE|35444|
 R The Draakorium |QID|35444|N|Run south along the road.|M|57.0,56.6|ACTIVE|35444|
 T The Southern Wilds |QID|35444|N|To Prelate Reenu.|M|56.95,57.49|ACTIVE|35444| ;From Farmer Gehaar
 
-A The Southern Wilds|QID|35459|PRE|34019|M|42.71,44.76|Z|Lunarfall|LEAD|35444|
+A The Southern Wilds|QID|35459|PRE|34019|M|42.71,44.76|Z|Lunarfall|LEAD|33786|
 f The Draakorium |QID|35459|N|With Morfax|M|57.0,56.6|ACTIVE|35459|
 T The Southern Wilds |QID|35459|N|To Prelate Reenu, south along the road in Draakorium|M|56.95,57.49|ACTIVE|35459|
 
 T The Southern Wilds |QID|35450|N|To Prelate Reenu, south along the road in Draakorium|M|56.95,57.49|ACTIVE|35450|
 
-A Crippled Caravan|QID|33786|M|56.95,57.49|N|From Prelate Reenu.|
+A Crippled Caravan|QID|33786|LEAD|33787|M|56.95,57.49|N|From Prelate Reenu.|
 A Wanted: Maa'run's Hoof |QID|33836|N|From the Wanted Poster at The Draakorium. This is a 3-party group quest.|RANK|3|M|57.46,57.27|
 f The Draakorium |QID|33786|N|With Morfax|M|57.03,56.63|
 C Crippled Caravan|QID|33786|N|Head to Fiona's Caravan|M|53.60,57.27|NC|
@@ -643,7 +644,7 @@ T Forever Young|QID|34994|M|53.45,57.29|N|To Beezil Linkspanner.|
 T Botani Beatdown|QID|34995|M|53.68,57.24|N|To Tarenar Sunstrike.|
 T Poison Paralysis|QID|35006|M|53.60,57.29|N|To Fiona.|
 
-A Fiona |QID|35617|M|53.60,57.29|N|From Fiona.|PRE|35006|
+A Fiona |QID|35617|M|53.60,57.29|N|From Fiona.|PRE|35015|
 T Fiona |QID|35617|M|53.60,57.29|N|To Fiona.|
 
 T Wanted: Maa'run's Hoof|QID|33836|M|58.04,57.64|N|To Orrin.|RANK|3|
@@ -704,8 +705,8 @@ C Escape From Shaz'gul |QID|33081|N|Speak to Yrel and select any two chat lines 
 C Escape From Shaz'gul |QID|33081|N|Escort Yrel out of Shaz'gul, a number of mobs will spawn at various points.|QO|2|M|39.2,57.5|
 
 T Escape From Shaz'gul |QID|33081|N|To Yrel, now in Twilight Glade.|M|40.60,54.94|
-A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33081+33059|
-A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez. If he is not here, he might be in your garrison.|PRE|33081|
+A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33059;33081|
+A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez. If he is not here, he might be in your garrison.|PRE|33059|
 
 F Embaari Village |QID|33586|M|40.7,55.3|N|Fly to Embaari Village, or use your hearthstone if it has cooled down.|
 f Exile's Rise|QID|33586|M|45.57,25.40|N|At Wargra.|
@@ -798,7 +799,7 @@ T The Great Salvation|QID|33794|N|To Yrel in Embaari Village|M|46.38,38.61|
 T The Dark Side of the Moon|QID|34054|N|To Yrel|M|46.38,38.61|
 
 ;This covers the unlikely scenario that someone didn't auto-accept the quest above
-A The Dark Side of the Moon|QID|35093|M|35.7,36.9|N|From Prophet Velen.|LEAD|34054|PRE|35032|
+A The Dark Side of the Moon|QID|35093|M|35.7,36.9|N|From Prophet Velen.|
 C The Dark Side of the Moon|QID|35093|N|Head up the Terrace of the Stars to Yrel|M|30.3,43.2|NC|QO|1|
 C The Dark Side of the Moon|QID|35093|N|Kill Arkeddon.|M|30.9,43.9|QO|2|
 T The Dark Side of the Moon|QID|35093|N|To Yrel|M|46.4,38.6|
@@ -807,7 +808,7 @@ T On the Offensive|QID|33083|N|To Prophet Velen|M|46.37,38.68|
 T Harbingers of the Void|QID|33793|M|46.37,38.68|N|To Prophet Velen|
 T Across the Stars|QID|33795|M|46.37,38.68|N|To Prophet Velen|
 
-A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.37,38.68|PRE|33794;33083;33793;33795|
+A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.37,38.68|PRE|34054;33083;33793;33795;33794|
 
 T Wanted: Kliaa's Stinger|QID|33834|N|To Dyuna|ACTIVE|33834|M|44.91,38.50|
 
@@ -904,7 +905,7 @@ A The Secrets of Gorgrond |QID|33533;35556;36632|N|Moving onto Gorgrond next? Ac
 
 ;Level 94 quests in Shadowmoon Valley
 ;Will only show if you've reached Level 94 when finishing Shadowmoon Valley quests.  This will switch us to the "On Shadows Trail Guide"
-A Meet Us at Starfall Outpost|QID|33359|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|94|
+A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|94|
 
 D Zone Finished|QID|33533;35556;36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
 
