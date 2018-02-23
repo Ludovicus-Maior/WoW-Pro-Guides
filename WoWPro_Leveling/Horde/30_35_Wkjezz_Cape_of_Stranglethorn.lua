@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2018-02-20 21:40
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3238/revisions/28883/view
 -- Date: 2018-01-16 23:40
 -- Who: Ludovicus
 -- Log: New Levels
@@ -120,8 +125,8 @@ T If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.65,29.48|N|
 A There's Somebody Out There Who Wants It|QID|26493|PRE|26450;26487|M|34.70,29.33|N|From Sassy Hardwrench.|
 T The Holy Water of Clarity|QID|26433|M|33.78,29.16|N|To Flem Gizzix.|
 T The Holy Water of Clarity|QID|26590|M|33.78,29.16|N|To Flem Gizzix.|
-A Primal Reagents of Power|QID|26434|PRE|26433;26590|M|33.78,29.16|N|From Flem Gizzix.|
-A Diffractory Chromascope|QID|26592|PRE|26433;26590|M|33.78,29.16|N|From Flem Gizzix.|
+A Primal Reagents of Power|QID|26434|PRE|26433+26590|M|33.78,29.16|N|From Flem Gizzix.|
+A Diffractory Chromascope|QID|26592|PRE|26433+26590|M|33.78,29.16|N|From Flem Gizzix.|
 C Primal Reagents of Power|QID|26434|S|M|46.41,18.44|
 C Diffractory Chromascope|QID|26592|M|48.88,36.24|
 C There's Somebody Out There Who Wants It|QID|26493|M|62.47,30.87|
@@ -132,7 +137,7 @@ A Mixmaster Jasper|QID|26494|PRE|26493|M|34.72,29.59|N|From Sassy Hardwrench.|
 A Chabal|QID|26495|PRE|26493|M|34.70,29.59|N|From Sassy Hardwrench.|
 T Primal Reagents of Power|QID|26434|M|33.73,29.19|N|To Flem Gizzix.|
 T Diffractory Chromascope|QID|26592|M|33.73,29.19|N|To Flem Gizzix.|
-A I'm A Huge Liar and a Fraud|QID|26435|PRE|26434;26592|M|33.73,29.19|N|From Flem Gizzix.|
+A I'm A Huge Liar and a Fraud|QID|26435|PRE|26434+26592|M|33.73,29.19|N|From Flem Gizzix.|
 T Mixmaster Jasper|QID|26494|M|35.09,27.56|N|To Mixmaster Jasper.|
 A Zanzil's Secret|QID|26533|PRE|26494|M|35.09,27.56|N|From Mixmaster Jasper.|
 T Chabal|QID|26495|M|34.62,27.92|N|To Chabal.|
@@ -185,7 +190,7 @@ A Mukla's Demise|QID|26606|PRE|26605|M|59.41,79.26|N|From Princess Poobah.|
 C Mukla's Demise|QID|26606|M|62.04,81.34|
 T Mukla's Demise|QID|26606|M|59.49,79.12|N|To Princess Poobah.|
 H Booty Bay|QID|99999|N|Quit the Monkey Business, Hearth Back. (It's not getting better is it)|
-A The Bloodsail Buccaneers|QID|26609|PRE|26595;26601;26606|M|42.51,72.03|N|From First Mate Crazz.|
+A The Bloodsail Buccaneers|QID|26609|PRE|26595+26601+26606|M|42.51,72.03|N|From First Mate Crazz.|
 T The Captain's Chest|QID|26599|M|40.32,67.85|N|To Captain Hecklebury Smotts.|
 A A Giant's Feast|QID|26600|PRE|26599|M|40.32,67.85|N|From Captain Hecklebury Smotts.|
 l A Giant's Feast|QID|26600|L|59036 |M|42.80,69.15|N|Grade-E Meat from Kelsey Yance, in the Port Authority building near by.|
@@ -269,12 +274,12 @@ T The Damsel's Luck|QID|26650|M|50.29,91.49|
 A The Brashtide Crew|QID|26662|PRE|26650|M|50.29,91.49|
 A Sinking From Within|QID|26663|PRE|26650|M|50.29,91.49|
 A Making Mutiny|QID|26664|PRE|26650|M|50.29,91.49|
-C Sinking From Within|QID|26663|QO|Sabotage the Grog: 1/1|M|50.63,91.49|N|Head to the lower deck and nudge the grog barrel's cork. When this is done, Manually close this step.|
-C The Brashtide Crew|QID|26662|QO|Speak with Long John Copper: 1/1|M|51.30,91.35|N|Middle deck of this ship|
+C Sabotage the Grog|QID|26663|QO|1|M|50.63,91.49|N|Head to the lower deck and nudge the grog barrel's cork.|; Sabotage the Grog: 1/1
+C  Long John Copper|QID|26662|QO|1|M|51.30,91.35|N|Head to the middle deck of this ship and chat with Copper.|; Speak with Long John Copper: 1/1
 C Making Mutiny|QID|26664|S|M|48.92,91.03|N|Speak to Corsairs and teach them a lesson.|
-C Sinking From Within|QID|26663|QO|Sabotage the Gunpowder: 1/1|M|46.80,93.77|N|Head to the lower deck and nudge the Gunpowder barrel. When this is done, Manually close this step.|
-C The Brashtide Crew|QID|26662|QO|Speak with Enormous Shawn Stooker: 1/1|N|Right behind you is Enormous, speak to him.|
-C The Brashtide Crew|QID|26662|QO|Speak with Wailing Mary Smitts: 1/1|M|44.50,93.21|N|On the Middle deck of this ship is Mary.|
+C Sabotage the Gunpowder|QID|26663|QO|2|M|46.80,93.77|N|Head to the lower deck and nudge the Gunpowder barrel. |; Sabotage the Gunpowder: 1/1
+C Enormous Shawn Stooker|QID|26662|QO|2|N|Right behind you is Enormous, speak to him.|; Speak with Enormous Shawn Stooker: 1/1
+C Wailing Mary Smitts|QID|26662|QO|3|M|44.50,93.21|N|On the Middle deck of this ship is Mary.|; Speak with Wailing Mary Smitts: 1/1
 T The Brashtide Crew|QID|26662|M|44.45,92.72|N|UI Alert|
 C Sinking From Within|QID|26663|M|44.72,92.74|N|Lower deck in a box.|
 T Sinking From Within|QID|26663|M|44.72,92.74|N|UI Alert.|
@@ -307,7 +312,7 @@ A Bloodsail's End|QID|26703|PRE|26697;26699;26700|M|41.18,73.09|N|From Baron Rev
 R Bloodsail's End.|QID|26703|CC|N|Talk to Keebok right behind you near the horde flightpath.|
 C Bloodsail's End|QID|26703|M|36.08,66.52|
 T Bloodsail's End|QID|26703|M|41.13,73.12|N|To Baron Revilgaz.|
-A The Battle for Andorhal|QID|28750|M|41.73,74.05|N|From Arcanist Arman.|
+A The Battle for Andorhal|QID|28750|LEAD|26921|M|41.73,74.05|N|From Arcanist Arman.|
 T The Battle for Andorhal|QID|28750|M|47.81,65.17|Z|Western Plaguelands|N|Take the portal and hand in to Koltira Deathweaver.|
 ]]
 
