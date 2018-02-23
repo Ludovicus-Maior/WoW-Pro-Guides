@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2018-02-20 01:14
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3267/revisions/28869/view
 -- Date: 2018-01-16 23:33
 -- Who: Ludovicus
 -- Log: New Levels
@@ -197,7 +202,7 @@ C The Amulet of Allistarj|QID|26167|M|61.58,27.00|N|Use the teleporter to go out
 C The Amulet of Grol|QID|26169|M|70.98,35.50|N|The head is inside the ship's hold. When you pick up the amulet you will be attacked, kill and loot the Spirit of Grol.|
 C The Amulet of Sevine|QID|26168|M|73.04,47.42|N|Talk to Salt-Flop and choose to ask for the amulet.|
 
-A Home... Gone... Naga...|QID|25702|M|73.04,47.42|N|From Salt-Flop.|
+A Home... Gone... Naga...|QID|25702|LEAD|25703|M|73.04,47.42|N|From Salt-Flop.|
 T Home... Gone... Naga...|QID|25702|M|71.01,59.91|N|To Neptool.|
 A Atrocities|QID|25703|M|71.01,59.91|N|From Neptool.|
 C Atrocities|QID|25703|M|68.89,68.32;72.27,61.27|CN|N|Jump down and kill any Naga you come across.|
@@ -240,7 +245,7 @@ T Protecting Our Rear|QID|26173|M|54.68,50.29|N|To Watch Commander Relthorn Neth
 A Watching Our Back|QID|26174|PRE|26173|M|54.68,50.29|N|From Watch Commander Relthorn Netherwane.|
 C Watching Our Back|QID|26174|M|53.96,49.93|N|This can be very tricky to do. You have wait untill the patrollers backs are to you.|
 T Watching Our Back|QID|26174|M|54.70,50.35|N|To Watch Commander Relthorn Netherwane.|
-A Surwich|QID|26175|PRE|26174|M|54.70,50.35|N|From Watch Commander Relthorn Netherwane.|
+A Surwich|QID|26175|LEAD|26184|PRE|26174|M|54.70,50.35|N|From Watch Commander Relthorn Netherwane.|
 T Enhancing the Stone|QID|26166|M|61.37,29.93|N|Once again click on the Bloodstone Teleport to get to Kasim Sharim.|
 A Not Just Any Body|QID|26161|PRE|26166|M|62.59,26.22|N|From Kasim Sharim.|
 l Loramus' Head|QID|26161|QO|1|M|45.12,30.41;46.6,26.97|CS|N|Enter the cave and go left to get to where Loramus' Head is at.|
