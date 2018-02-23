@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
+-- Date: 2018-02-20 21:51
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3260/revisions/28893/view
 -- Date: 2018-01-16 23:45
 -- Who: Ludovicus
 -- Log: New Levels
@@ -68,7 +73,7 @@ A Butcherbot|QID|25112|RANK|2|M|52.22,28.13|N|From Driz Plunkbow.|
 T Tanaris is Calling|O|QID|27447|M|51.26,29.93|N|To Megs Dreadshredder.|
 T Warchief's Command: Tanaris!|O|QID|28509|M|51.26,29.93|N|To Megs Dreadshredder.|
 A Puddle Stomping|QID|24907|M|51.26,29.93|N|From Megs Dreadshredder.|
-A Seaside Salvage|QID|24906|PRE|27447|M|51.26,29.93|N|From Megs Dreadshredder.|
+A Seaside Salvage|QID|24906|M|51.26,29.93|N|From Megs Dreadshredder.|
 C Butcherbot|QID|25112|RANK|2|U|52715|S|M|48.78,34.15|N|Use the butcherbot on corpses of basilisks.|
 C Puddle Stomping|QID|24907|S|M|54.82,41.24|N|Kill giants.|
 C Seaside Salvage|QID|24906|NC|M|54.54,41.36|N|Right-click the floating boxes. Pirates will often attack after you loot one.|
@@ -77,12 +82,12 @@ C Butcherbot|QID|25112|RANK|2|U|52715|US|M|48.78,34.15|N|Use the butcherbot on c
 T Puddle Stomping|QID|24907|M|51.26,29.89|N|To Megs Dreadshredder.|
 T Seaside Salvage|QID|24906|M|51.23,29.94|N|To Megs Dreadshredder.|
 
-A Rocket Rescue|QID|24910|PRE|24906|M|51.23,29.94|N|From Megs Dreadshredder.|
+A Rocket Rescue|QID|24910|PRE|24906;24907|M|51.23,29.94|N|From Megs Dreadshredder.|
 T Butcherbot|QID|25112|RANK|2|M|52.23,28.09|N|To Driz Plunkbow.|
 A Scavengers Scavenged|QID|25111|RANK|2|PRE|25112|M|52.23,28.09|N|From Driz Plunkbow.|
 C Rocket Rescue|QID|24910|M|53.34,27.44|N|Hop into the balloon just out of town. Use ability 1 to deliver rockets to the goblins, and use ability 2 on the pirates. When you complete the quest, use the last ability to return to Gadgetzan.|
 T Rocket Rescue|QID|24910|M|51.26,29.91|N|To Megs Dreadshredder.|
-A Momentum|QID|24947|PRE|24910|M|51.26,29.91|N|From Megs Dreadshredder.|
+A Momentum|QID|24947|PRE|24910;24907|M|51.26,29.91|N|From Megs Dreadshredder.|
 C Scavengers Scavenged|QID|25111|RANK|2|M|49.43,36.07;44.19,40.97|CN|N|On the way to Megs, stop at the skeletons just outside of town and kill and use the butcherbot on Fire Rocs.|
 T Momentum|QID|24947|M|67.89,41.85;71.84,45.39|CC|N|To Megs Dreadshredder.|
 
@@ -91,8 +96,8 @@ A To The Ground!|QID|24928|PRE|24910|M|71.84,45.39|N|From Megs Dreadshredder.|
 A Booty Duty|QID|24949|PRE|24910|M|71.84,45.39|N|From Megs Dreadshredder.|
 C Booty Duty|QID|24949|S|M|72.60,46.10|N|Loot the shiny items - they are mostly inside the buildings.|
 C Dead Man's Chest|QID|24927|S|M|71.22,46.67|N|Kill Southsea Pirates.|
-U Northwest Shack|QID|24928|U|51547|QO|Northwest Shack: 1/1|M|71.67,46.75|N|The 1st building to torch is here.|
-U Southwest Shack|QID|24928|U|51547|QO|Southwest Shack: 1/1|M|71.93,48|N|The second building to set on fire is here.|
+U Northwest Shack|QID|24928|U|51547|QO|1|M|71.67,46.75|N|The 1st building to torch is here.|; Northwest Shack: 1/1
+U Southwest Shack|QID|24928|U|51547|QO|1|M|71.93,48|N|The second building to set on fire is here.|; Southwest Shack: 1/1
 C To The Ground!|QID|24928|U|51547|M|72.76,46.15|N|The last building to torch is here.|
 C Booty Duty|QID|24949|US|M|72.60,46.10|N|Loot the shiny items - they are mostly inside the buildings.|
 C Dead Man's Chest|QID|24927|US|M|71.22,46.67|N|Kill Southsea Pirates.|
@@ -101,26 +106,26 @@ T Dead Man's Chest|QID|24927|M|71.86,45.41|N|To Megs Dreadshredder.|
 A Going Off-Task|QID|25534|PRE|24927|M|71.86,45.41|N|From Megs Dreadshredder.|
 T To The Ground!|QID|24928|M|71.86,45.41|N|To Megs Dreadshredder.|
 T Booty Duty|QID|24949|M|71.86,45.41|N|To Megs Dreadshredder.|
-A Filling Our Pockets|QID|25541|PRE|24949|M|71.86,45.41|N|From Megs Dreadshredder.|
+A Filling Our Pockets|QID|25541|PRE|24927;24949|M|71.86,45.41|N|From Megs Dreadshredder.|
 C Going Off-Task|QID|25534|M|74.60,45.49|N|Head to the ship, go below-decks, and kill the Taskmaster there.|
 C Filling Our Pockets|QID|25541|M|69.70,53.46|N|Kill Southsea Strongarms and Musketeers south of the main embattled camp, and loot them for their teeth.|
 T Going Off-Task|QID|25534|M|71.88,45.43|N|Back to Megs Dreadshredder.|
 T Filling Our Pockets|QID|25541|M|71.85,45.38|N|To Megs Dreadshredder.|
-A Captain Dreadbeard|QID|24950|PRE|25541|M|71.85,45.38|N|From Megs Dreadshredder.|
+A Captain Dreadbeard|QID|24950|PRE|24928;25534;25541|M|71.85,45.38|N|From Megs Dreadshredder.|
 C Captain Dreadbeard|QID|24950|M|70.97,55.60|N|The captain will summon a giant to help him fight, so be ready!|
 T Captain Dreadbeard|QID|24950|M|71.85,45.39|N|Back to Megs Dreadshredder.|
 
 A Bootlegger Outpost|QID|25103|PRE|24950|M|71.85,45.39|N|From Megs Dreadshredder.|
 T Bootlegger Outpost|QID|25103|M|55.66,60.84|N|To Zeke Bootscuff.|
-A Cutting Losses|QID|24932|PRE|25103|M|55.66,60.84|N|From Zeke Bootscuff.|
-A A Few Good Goblins|QID|25072|PRE|25103|M|55.66,60.84|N|From Zeke Bootscuff.|
+A Cutting Losses|QID|24932|PRE|26889+25103|M|55.66,60.84|N|From Zeke Bootscuff.|
+A A Few Good Goblins|QID|25072|PRE|26889+25103|M|55.66,60.84|N|From Zeke Bootscuff.|
 C Cutting Losses|QID|24932|S|M|55.69,62.41|N|Kill the silithid in the area.|
 C A Few Good Goblins|QID|25072|M|54.53,65.59|N|Attack the cocoons to release the goblins.|
 C Cutting Losses|QID|24932|US|M|55.69,62.41|N|Kill the silithid in the area.|
 T Cutting Losses|QID|24932|M|55.64,60.83|N|Back to Zeke Bootscuff.|
 A Chicken of the Desert|QID|24933|PRE|24932|M|55.64,60.83|N|From Zeke Bootscuff.|
 T A Few Good Goblins|QID|25072|M|55.64,60.83|N|To Zeke Bootscuff.|
-A Gazer Tag|QID|24931|RANK|2|PRE|24932|M|55.26,60.20|N|From Narain Soothfancy.|
+A Gazer Tag|QID|24931|RANK|2|PRE|25072|M|55.26,60.20|N|From Narain Soothfancy.|
 C Gazer Tag|QID|24931|RANK|2|S|M|52.51,54.90|N|From the basilisks spread out to the north of the camp.|
 C Chicken of the Desert|QID|24933|M|52.10,54.14|N|From the hyenas spread out to the north of the camp.|
 C Gazer Tag|QID|24931|RANK|2|US|M|52.51,54.90|N|From the basilisks spread out to the north of the camp.|
@@ -140,7 +145,7 @@ R Then finally here...|QID|24593|CC|M|54.02,71.85|N|Into the circle room. Get in
 C Just Trying to Kill Some Bugs|QID|24953|M|54.54,72.01|N|Explode!|
 T Just Trying to Kill Some Bugs|QID|24953|M|55.65,60.83|N|To Zeke Bootscuff.|
 
-A Returning a Favor|QID|24905|PRE|24953|M|55.64,60.82|N|From Zeke Bootscuff.|
+A Returning a Favor|QID|24905|LEAD|24955|PRE|24953|M|55.64,60.82|N|From Zeke Bootscuff.|
 A Find OOX-17/TN!|QID|351|O|U|8623|N|By now you should be high enough level to handle the Beacon quest. This is why I have pathed this guide like this up until now, giving you more chance to loot the Beacon. If you have not had the beacon drop please skip this step.|
 T Find OOX-17/TN!|QID|351|O|M|59.81,64.06|N|To Homing Robot OOX-17/TN.|
 A Rescue OOX-17/TN!|QID|648|PRE|351|M|59.80,63.99|N|From Homing Robot OOX-17/TN. This is optional as it the turn-in requires you to go to Booty Bay, so skip if don't wish to do this quest.|
@@ -187,21 +192,21 @@ C Sang'thraze the Deflector|QID|25025|RANK|2|M|44.98,44.68|N|In the center of th
 T Andoren Will Know|QID|25018|M|33.32,77.00|N|To Examiner Andoren Dawnrise.|
 A Fragments of Language|QID|25020|M|33.32,77.00|N|From Examiner Andoren Dawnrise.|
 A Laying Claim|QID|25019|M|33.32,77.00|N|From Examiner Andoren Dawnrise.|
-A The Thunderdrome!|QID|26896|M|33.23,76.93|N|From Sherm.|
+A The Thunderdrome!|QID|26896|LEAD|25067|M|33.23,76.93|N|From Sherm.|
 C Laying Claim|QID|25019|S|M|41.41,69.61|N|Kill dwarves in the area.|
 C Fragments of Language|QID|25020|M|41.19,70.97|N|Right-click tablets to loot them.|
 C Laying Claim|QID|25019|US|M|41.41,69.61|N|Kill dwarves in the area.|
 T Fragments of Language|QID|25020|M|33.30,76.99|N|Back to Examiner Andoren Dawnrise.|
 T Laying Claim|QID|25019|M|33.30,76.99|N|To Examiner Andoren Dawnrise.|
 
-A Ancient Obstacles|QID|25017|PRE|25019|M|33.30,76.99|N|From Examiner Andoren Dawnrise.|
+A Ancient Obstacles|QID|25017|PRE|25019;25020|M|33.30,76.99|N|From Examiner Andoren Dawnrise.|
 C Ancient Obstacles|QID|25017|M|37.24,75.11|N|Kill golems outside of Uldum.|
 T Ancient Obstacles|QID|25017|M|33.29,77.01|N|To Examiner Andoren Dawnrise.|
 A The Crumbling Past|QID|25068|PRE|25017|M|33.29,77.01|N|From Examiner Andoren Dawnrise.|
 A The Secrets of Uldum|QID|25069|PRE|25017|M|33.29,77.01|N|From Examiner Andoren Dawnrise.|
 C The Crumbling Past|QID|25068|M|84.73,41.31|Z|Uldum|S|N|Kill Earthen and loot them.|
 T The Secrets of Uldum|QID|25069|M|84.48,43.25|Z|Uldum|N|To the Antediluvean Chest inside Uldum's antechamber.|
-A What Lies Within|QID|25070|PRE|25069;25566|M|84.48,43.25|Z|Uldum|N|From the Antediluvean Chest. Be prepared to defend yourself!|
+A What Lies Within|QID|25070|PRE|25069+25566|M|84.48,43.25|Z|Uldum|N|From the Antediluvean Chest. Be prepared to defend yourself!|
 C What Lies Within|QID|25070|M|84.47,43.12|Z|Uldum|N|Kill the guardian.|
 T What Lies Within|QID|25070|M|84.48,43.22|Z|Uldum|N|To the Antediluvean Chest.|
 
@@ -209,7 +214,7 @@ A The Grand Tablet|QID|25107|PRE|25070|M|84.45,43.24|Z|Uldum|N|From the Antedilu
 C The Crumbling Past|QID|25068|M|84.73,41.31|Z|Uldum|US|N|Kill Earthen and loot them.|
 T The Grand Tablet|QID|25107|M|33.28,77.02|N|To Examiner Andoren Dawnrise.|
 T The Crumbling Past|QID|25068|M|33.28,77.02|N|To Examiner Andoren Dawnrise.|
-A Tropical Paradise Beckons|QID|24911|M|33.23,76.93|N|From Sherm. Pick this up if you plan to go to Un'Goro next.|
+A Tropical Paradise Beckons|QID|24911|LEAD|24740|M|33.23,76.93|N|From Sherm. Pick this up if you plan to go to Un'Goro next.|
 H Gadgetzan|QID|25522|M|52.25,28.04|N|Hearth if you set your hearth here, otherwise fly.|
 T Gargantapid|QID|25522|RANK|2|M|42.48,24.22|N|Back to Gus Rustflutter.|
 T Sang'thraze the Deflector|QID|25025|RANK|2|M|42.29,23.87|N|To Mazoga.|
@@ -220,7 +225,7 @@ T Darkest Mojo|QID|25026|RANK|2|M|42.27,23.90|N|Back to Mazoga.|
 A Secrets in the Oasis|QID|25032|PRE|25026|RANK|2|M|42.27,23.90|N|From Mazoga.|
 C Secrets in the Oasis|QID|25032|RANK|2|M|39.13,35.06|N|Right-click the bit of muck in the bottom of the pool, then prepare to defend yourself!|
 T Secrets in the Oasis|QID|25032|RANK|2|M|42.45,24.04|N|To Trenton Lighthammer.|
-A Into Zul'Farrak|QID|25556|PRE|25032|RANK|2|M|42.45,24.04|N|From Trenton Lighthammer. Pick this up if you plan to do Zul'Farrak.|
+A Into Zul'Farrak|QID|25556|LEAD|27068|PRE|25032|RANK|2|M|42.45,24.04|N|From Trenton Lighthammer. Pick this up if you plan to do Zul'Farrak.|
 T The Thunderdrome!|QID|26896|M|51.81,28.02|N|To Dr. Dealwell.|
 N Group Quest|QID|25591|N|The last few quests require a small group to complete. They are all very fast, don't require you to leave Gadgetzan, and result in a very nice blue quality reward, so I definitely recommend trying to finish them up before you head to the next zone. That said, they are completely optional and you can simply skip the next step to move on to the next guide.|
 
