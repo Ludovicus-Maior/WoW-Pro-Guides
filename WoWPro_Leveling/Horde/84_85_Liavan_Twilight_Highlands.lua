@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
+-- Date: 2018-02-22 23:29
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3312/revisions/28933/view
 -- Date: 2018-01-17 00:14
 -- Who: Ludovicus
 -- Log: New Levels
@@ -119,7 +124,7 @@ A Weapons of Mass Dysfunction|QID|26294|PRE|26293|M|26.18,78.80|Z|Azshara|N|From
 C Weapons of Mass Dysfunction|QID|26294|NC|M|73.88,8.15|Z|Orgrimmar|N|Click the demo to find faulty one, then punt a gnome!|
 T Weapons of Mass Dysfunction|QID|26294|M|48.08,70.61|Z|Orgrimmar|N|To Garrosh Hellscream.|
 
-A Sauranok Will Point the Way|QID|28909|PRE|26294|M|48.08,70.61|Z|Orgrimmar|N|From Garrosh Hellscream.|
+A Sauranok Will Point the Way|QID|28909|LEAD|26311|PRE|26294|M|48.08,70.61|Z|Orgrimmar|N|From Garrosh Hellscream.|
 T Sauranok Will Point the Way|QID|28909|M|48.07,71.15|Z|Orgrimmar|N|To Sauranok the Mystic.|
 
 A Unfamiliar Waters|QID|26311|M|48.07,71.15|Z|Orgrimmar|N|From Sauranok the Mystic.|
@@ -266,9 +271,9 @@ T Off The Wall|QID|28591|M|78.57,80.33|N|To Patch.|
 A Highbank, Crybank|QID|28594|PRE|28591|M|77.70,78.86|N|From Patch.|
 A Of Utmost Importance|QID|28593|PRE|28591|M|77.21,77.53|N|From Patch.|
 A Parting Packages|QID|28592|PRE|28591|M|77.09,75.72|N|From Ticker.|
-C Boat bombed|QID|28592|QO|Highbank boat bomb placed: 1/1|U|64669|M|81.60,78.78|
-C Tower bombed|QID|28592|QO|Highbank tower bomb placed: 1/1|U|64669|M|82.00,73.42|
-C Keep bombed|QID|28592|U|64669|M|79.90,77.22|N|Must be under the archway of the keep.|
+C Highbank Boat bombed|QID|28592|QO|1|U|64669|M|81.60,78.78|; Highbank boat bomb placed: 1/1
+C Highbank Tower bombed|QID|28592|QO|2|U|64669|M|82.00,73.42|; Highbank tower bomb placed: 1/1
+C Keep bombed|QID|28592|QO|3|U|64669|M|79.90,77.22|N|Must be under the archway of the keep.|
 C Of Utmost Importance|QID|28593|M|79.47,77.61|N|Go down to the basement.|
 C Highbank, Crybank|QID|28594|M|80.48,76.76|N|Kill any Highbank Gaurdsmans you may still need.|
 
@@ -341,7 +346,7 @@ C Eye Spy|QID|27955|M|53.36,42.89|N|Click on the Eye of Twilight in the room wit
 T Eye Spy|QID|27955|M|53.31,42.73|N|To Garona Halforcen.|
 
 T The Weeping Wound|QID|27375|M|44.01,10.49|N|To Earthcaller Torunscar.|
-A Torn Ground|QID|27299|PRE|27374;27375|M|44.01,10.49|N|From Earthcaller Torunscar.|
+A Torn Ground|QID|27299|PRE|27374+27375|M|44.01,10.49|N|From Earthcaller Torunscar.|
 
 C Torn Ground|QID|27299|M|41.92,11.56|N|Kill the smaller non elite tentacles.|
 
@@ -378,10 +383,10 @@ T The Worldbreaker|QID|27378|M|48.68,16.61|N|To Earthcaller Yevaa.|
 
 A The Terrors of Iso'rath|QID|27379|PRE|27378|M|48.68,16.61|N|From Earthcaller Yevaa.|
 
-C The Terrors of Iso'rath|QID|27379|M|49.37,15.84|QO|Save Stormcaller Jalara: 1/1|N|Free the ones from the non elites first they will help you on the elites|
-C The Terrors of Iso'rath|QID|27379|M|49.09,13.21|QO|Save Earthmender Duarn: 1/1|
-C The Terrors of Iso'rath|QID|27379|M|47.21,13.27|QO|Save Hargoth Dimblaze: 1/1|
-C The Terrors of Iso'rath|QID|27379|M|47.24,15.80|QO|Save Stormcaller Mylra:1/1|
+C Stormcaller Jalara|QID|27379|M|49.37,15.84|QO|2|N|Free the ones from the non elites first they will help you on the elites|; Save Stormcaller Jalara: 1/1
+C Earthmender Duarn|QID|27379|M|49.09,13.21|QO|3|; Save Earthmender Duarn: 1/1
+C Hargoth Dimblaze|QID|27379|M|47.21,13.27|QO|1|; Save Hargoth Dimblaze: 1/1
+C Stormcaller Mylra|QID|27379|M|47.24,15.80|QO|4|
 
 T The Terrors of Iso'rath|QID|27379|M|48.63,16.59|N|To Earthcaller Yevaa.|
 
@@ -400,7 +405,7 @@ f The Gullet|QID|28147|M|36.86,37.99|N|At San'shigo.|
 
 C Warm Welcome|QID|27486|M|27.59,21.11|
 T Warm Welcome|QID|27486|M|29.29,26.01|N|To Calen.|
-A Even Dragons Bleed|QID|27504|PRE|27485;27486|M|29.29,26.01|N|From Calen.|
+A Even Dragons Bleed|QID|27504|PRE|27485+27486|M|29.29,26.01|N|From Calen.|
 T Even Dragons Bleed|QID|27504|M|29.85,31.27|N|To Velastrasza.|
 A Draconic Mending|QID|27505|PRE|27504|M|29.85,31.27|N|From Velastrasza.|
 A Life from Death|QID|27506|PRE|27504|M|29.85,31.27|N|From Baleflame.|
@@ -439,7 +444,7 @@ C Easy Pickings|QID|28091|M|25.13,38.76|US|
 
 T Precious Goods|QID|28090|M|27.31,36.77|N|To Patch.|
 T Easy Pickings|QID|28091|M|27.31,36.77|N|To Patch.|
-A The Gates of Grim Batol|QID|28097|PRE|28090;28091|M|27.31,36.77|N|From Patch.|
+A The Gates of Grim Batol|QID|28097|PRE|28090+28091|M|27.31,36.77|N|From Patch.|
 
 T The Gates of Grim Batol|QID|28097|M|29.59,41.00|N|To Warlord Krogg.|
 A If The Key Fits|QID|28092|PRE|28097|M|29.59,41.00|N|From Warlord Krogg.|
@@ -454,11 +459,11 @@ T Paving the Way|QID|28094|M|29.53,51.85|N|To Patch. Make sure to complete this 
 C Pressing Forward|QID|28093|M|22.60,56.26|
 T Pressing Forward|QID|28093|M|22.13,56.54|N|To Calen.|
 
-A Enter the Dragon Queen|QID|28712|PRE|28109;28093|M|21.81,57.03|N|From Alexstrasza the Life-Binder.|
+A Enter the Dragon Queen|QID|28712|PRE|28109+28093|M|21.81,57.03|N|From Alexstrasza the Life-Binder.|
 
 C Purple is Your Color|QID|28147|M|40.90,45.93|S|N|Kill Windwarpers for Scraps.|
-C Whispers in the Wind|QID|28149|M|39.35,47.31|QO|Windspeaker Charm: 1/1|N|Click the statue.|
-C Whispers in the Wind|QID|28149|M|40.88,47.50|QO|Breath of the Vortex: 5/5|N|Kill Storm Vortex.|
+C Whispers in the Wind|QID|28149|M|39.35,47.31|QO|1|N|Click the statue.|; Windspeaker Charm: 1/1
+C Whispers in the Wind|QID|28149|M|40.88,47.50|QO|2|N|Kill Storm Vortex.|; Breath of the Vortex: 5/5
 C Purple is Your Color|QID|28147|M|40.90,45.93|US|
 
 T Whispers in the Wind|QID|28149|M|36.41,38.09|N|To Buunu.|
@@ -474,11 +479,11 @@ T Thog's Nightlight|QID|28166|M|36.43,38.04|N|To Buunu.|
 A Night Terrors|QID|28170|PRE|28166|M|36.43,38.04|N|From Buunu.|
 
 R Night Terrors|QID|28170|U|67537|CC|M|35.14,36.62;35.00,35.16;34.15,35.65|N|Enter the cave and talk to Uchek, then Head North.|
-C Night Terrors|QID|28170|U|67537|M|34.24,35.68|QO|First Shrine Cleansed: 1/1|
+C First Shrine|QID|28170|U|67537|M|34.24,35.68|QO|1|; First Shrine Cleansed: 1/1
 R Night Terrors|QID|28170|U|67537|CC|M|33.97,35.10;33.43,36.81|N|Jump off north, then head southwest.|
-C Night Terrors|QID|28170|U|67537|M|34.11,35.63|QO|Second Shrine Cleansed: 1/1|
+C Second Shrine|QID|28170|U|67537|M|34.11,35.63|QO|2|; Second Shrine Cleansed: 1/1
 R Night Terrors|QID|28170|U|67537|CC|M|34.20,36.63;34.64,37.98;34.27,37.82|N|Head back east toward where Uchek was, then go right.|
-C Night Terrors|QID|28170|U|67537|M|34.11,35.63|QO|Third Shrine Cleansed: 1/1|
+C Third Shrine|QID|28170|U|67537|M|34.11,35.63|QO|3|; Third Shrine Cleansed: 1/1
 
 T Night Terrors|QID|28170|M|36.37,37.99|N|Jump down and head back out the cave to Buunu.|
 
@@ -524,10 +529,10 @@ f Crushblow|QID|27497|M|45.68,76.25|N|At Tokrog.|
 C Kor'kron Drop|QID|27491|M|45.72,76.02|QO|1|N|Talk to Jon-Jon right next to flight master.|
 C Kor'kron Drop|QID|27491|M|39.17,64.57|QO|2|N|Fly northwest. X on ground marks the spot.|
 C Ogres & Ettins|QID|27493|M|42.47,71.21|S|
-C Call in the Artillery|QID|27497|U|61367|M|39.10,62.51|QO|Northern building targeted: 1/1|
-C Call in the Artillery|QID|27497|U|61367|M|40.93,64.18|QO|Northeastern building targeted: 1/1|
-C Call in the Artillery|QID|27497|U|61367|M|39.88,69.25|QO|Southwestern building targeted: 1/1|
-C Call in the Artillery|QID|27497|U|61367|M|41.25,72.70|QO|Southern building targeted:1/1|
+C Northern building|QID|27497|U|61367|M|39.10,62.51|QO|1|; Northern building targeted: 1/1
+C Northeastern building|QID|27497|U|61367|M|40.93,64.18|QO|2|; Northeastern building targeted: 1/1
+C Southwestern building|QID|27497|U|61367|M|39.88,69.25|QO|3|; Southwestern building targeted: 1/1
+C Southern building|QID|27497|U|61367|M|41.25,72.70|QO|4|
 C Ogres & Ettins|QID|27493|M|42.47,71.21|US|
 
 T Ogres & Ettins|QID|27493|M|45.26,75.42|N|To Warlord Zaela.|
@@ -542,12 +547,12 @@ A Signal the Attack|QID|27499|PRE|27495|M|38.10,66.24|
 
 C Signal the Attack|QID|27499|U|61511|M|40.45,62.23|N|Go to the top of the tower between the northern and northeastern buildings.|
 T Signal the Attack|QID|27499|M|40.45,62.23|
-A Four Heads are Better than None|QID|27501|PRE|27499|M|40.45,62.23|
+A Four Heads are Better than None|QID|27609|PRE|27499|M|40.45,62.23|
 
-C Four Heads are Better than None|QID|27501|M|37.73,71.26|QO|Za's Head: 1/1|N|Go in the cave take the path to the left.|
-C Four Heads are Better than None|QID|27501|M|38.78,70.63|N|Then take the path to the right.|
+C Four Heads are Better than None|QID|27609|M|37.73,71.26|QO|1|N|Go in the cave take the path to the left.|; Za's Head: 1/1
+C Four Heads are Better than None|QID|27609|M|38.78,70.63|QO|3|N|Then take the path to the right.|
 
-T Four Heads are Better than None|QID|27501|M|45.34,75.49|N|To Lady Cozwynn.|
+T Four Heads are Better than None|QID|27609|M|45.34,75.49|N|To Lady Cozwynn.|
 A Up to the Citadel|QID|27503|PRE|27501|M|45.34,75.49|N|From Lady Cozwynn.|
 
 C Up to the Citadel|QID|27503|M|38.96,64.09|QO|1|N|Same location as the X on the ground from earlier.|
@@ -571,25 +576,25 @@ A Distract Them for Me|QID|27689|PRE|27653;27655|M|36.34,65.97|N|From Garona Hal
 A The Elementium Axe|QID|27696|PRE|27653;27655|M|36.34,65.97|N|From Garona Halforcen.|
 
 C The Elementium Axe|QID|27696|M|40.20,84.02|S|
-C Distract Them for Me|QID|27689|M|36.28,70.29|QO|Master Klem slain: 1/1|N|Down in the pit.|
-C Distract Them for Me|QID|27689|M|42.29,83.61|QO|Mia the Rose slain: 1/1|N|Second floor of this building.|
-C Distract Them for Me|QID|27689|M|43.23,88.32|QO|Dame Alys Finnsson slain: 1/1|
+C Distract Them for Me|QID|27689|M|36.28,70.29|QO|2|N|Down in the pit.|; Master Klem slain: 1/1
+C Distract Them for Me|QID|27689|M|42.29,83.61|QO|3|N|Second floor of this building.|; Mia the Rose slain: 1/1
+C Distract Them for Me|QID|27689|M|43.23,88.32|QO|1|; Dame Alys Finnsson slain: 1/1
 C The Elementium Axe|QID|27696|M|40.20,84.02|US|
 
 T Help from the Earthcaller|QID|27658|M|37.57,88.70|N|To Earthcaller Yevaa.|
-A Portal Overload|QID|27659|PRE|27657;27658|M|37.57,88.70|N|From Earthcaller Yevaa.|
-A Unbinding|QID|27662|PRE|27657;27658|M|37.57,88.70|N|From Initiate Goldmine.|
-A Spirit of the Loch|QID|27660|PRE|27657;27658|M|37.54,88.72|N|From Earthcaller Yevaa.|
+A Portal Overload|QID|27659|PRE|27657+27658|M|37.57,88.70|N|From Earthcaller Yevaa.|
+A Unbinding|QID|27662|PRE|27657+27658|M|37.57,88.70|N|From Initiate Goldmine.|
+A Spirit of the Loch|QID|27660|PRE|27657+27658|M|37.54,88.72|N|From Earthcaller Yevaa.|
 
 C Unbinding|QID|27662|M|40.12,77.88|S|N|Kill Enslaved Infernos and Tempests.|
-C Portal Overload|QID|27659|M|44.47,81.45|QO|Debilitated Aetharon slain: 1/1|N|Above the ground on a floating plateau. You must click the Air Portal Controller before killing him.|
-C Portal Overload|QID|27659|M|38.29,79.99|QO|Debilitated Apexar slain: 1/1|N|Click the Earth Portal Controller and kill him.|
+C Portal Overload|QID|27659|M|44.47,81.45|QO|2|N|Above the ground on a floating plateau. You must click the Air Portal Controller before killing him.|; Debilitated Aetharon slain: 1/1
+C Portal Overload|QID|27659|M|38.29,79.99|QO|1|N|Click the Earth Portal Controller and kill him.|; Debilitated Apexar slain: 1/1
 C Unbinding|QID|27662|M|40.12,77.88|US|
 T The Elementium Axe|QID|27696|M|36.39,66.01|N|To Garona Halforcen.|
 T Distract Them for Me|QID|27689|M|36.39,66.01|N|To Garona Halforcen.|
 A Dragon, Unchained|QID|27701|PRE|27689;27696|M|36.36,66.02|N|From Garona Halforcen.|
 
-C Portal Overload|QID|27659|M|32.71,62.41|QO|Debilitated Edemantus slain: 1/1|N|Remember to click the Water Portal Controller.|
+C Portal Overload|QID|27659|M|32.71,62.41|QO|3|N|Remember to click the Water Portal Controller.|; Debilitated Edemantus slain: 1/1
 
 C Dragon, Unchained|QID|27701|U|62248|M|32.41,68.60|N|Use The Elementium Axe near Lirastrasza.|
 
@@ -616,16 +621,16 @@ A Mr. Goldmine's Wild Ride|QID|28885|PRE|27659;27662|M|37.60,88.67|N|From Initia
 C Mr. Goldmine's Wild Ride|QID|28885|M|37.60,88.67|N|Speak to Goldmine and say that you're ready.|
 
 T Mr. Goldmine's Wild Ride|QID|28885|M|38.32,93.89|N|To Initiate Goldmine.|
-A A Little on the Side|QID|27742|PRE|27720;28885|M|38.32,93.89|N|From Initiate Goldmine.|
-A While We're Here|QID|27743|PRE|27720;28885|M|38.32,93.89|N|From Initiate Goldmine.|
-A Rune Ruination|QID|27744|PRE|27720;28885|M|37.47,93.23|N|Jump down. From Twilight Rune of Earth.|
+A A Little on the Side|QID|27742|PRE|27720+28885|M|38.32,93.89|N|From Initiate Goldmine.|
+A While We're Here|QID|27743|PRE|27720+28885|M|38.32,93.89|N|From Initiate Goldmine.|
+A Rune Ruination|QID|27744|PRE|27720+28885|M|37.47,93.23|N|Jump down. From Twilight Rune of Earth.|
 
 C A Little on the Side|QID|27742|M|36.61,93.54|N|Found on the ground and dropped from Elementium Spinners.|S|
 C While We're Here|QID|27743|M|36.97,93.06|S|
-C Rune Ruination|QID|27744|M|34.33,86.71|QO|Rune of Earth destroyed: 1/1|N|Go northwest.|
-C Rune Ruination|QID|27744|M|34.33,86.71|QO|Rune of Water destroyed: 1/1|N|Keep going down into the cave.|
-C Rune Ruination|QID|27744|M|34.33,86.71|QO|Rune of Air destroyed: 1/1|
-C Rune Ruination|QID|27744|M|34.33,86.71|QO|Rune of Fire destroyed: 1/1|
+C Rune Ruination|QID|27744|M|34.33,86.71|QO|1|N|Go northwest.|; Rune of Earth destroyed: 1/1
+C Rune Ruination|QID|27744|M|34.33,86.71|QO|1|N|Keep going down into the cave.|; Rune of Water destroyed: 1/1
+C Rune Ruination|QID|27744|M|34.33,86.71|QO|1|; Rune of Air destroyed: 1/1
+C Rune Ruination|QID|27744|M|34.33,86.71|QO|1|; Rune of Fire destroyed: 1/1
 C A Little on the Side|QID|27742|M|36.61,93.54|N|Found on the ground and dropped from Elementium Spinners.|US|
 C While We're Here|QID|27743|M|36.97,93.06|N|Kill the remaining cultists you need.|US|
 
