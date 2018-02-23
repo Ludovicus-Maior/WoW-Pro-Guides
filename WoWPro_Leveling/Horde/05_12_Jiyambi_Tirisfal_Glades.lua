@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-02-20 01:54
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Tirisfal
+
+-- URL: http://wow-pro.com/node/3205/revisions/29069/view
+-- Date: 2018-02-20 01:47
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Deathknell
+
+-- URL: http://wow-pro.com/node/3205/revisions/28963/view
 -- Date: 2018-01-25 21:51
 -- Who: Linkslegend5
 -- Log: Updated location of quest items to match description.
@@ -227,7 +237,7 @@ A Gordo's Task|QID|25038|PRE|24976|M|44.35,53.20|N|From Gordo. Take this opportu
 C Gordo's Task|QID|25038|NC|M|47.07,58.93|N|Loot Gloom Weed to the east.|
 
 A A Putrid Task|QID|25090|M|52.48,54.86|N|From Deathguard Dillinger.|
-A The New Forsaken|QID|24982|M|52.48,54.86|N|From Deathguard Dillinger.|
+A The New Forsaken|QID|24982|LEAD|24983|M|52.48,54.86|N|From Deathguard Dillinger.|
 
 C A Putrid Task|QID|25090|M|54.03,51.19|N|Kill and loot the nearby zombies.|
 T A Putrid Task|QID|25090|M|52.53,54.85|N|To Deathguard Dillinger.|
@@ -241,14 +251,14 @@ T Gordo's Task|QID|25038|M|60.11,52.65|N|To Junior Apothecary Holland.|
 
 L Level 6|QID|24990|LVL|6|N|You need to be level 6 to continue with this guide.|
 
-A Darkhound Pounding|QID|24990|M|60.11,52.65|N|From Junior Apothecary Holland.|PRE|25038|
+A Darkhound Pounding|QID|24990|M|60.11,52.65|N|From Junior Apothecary Holland.|PRE|24977|
 A A Thorn in our Side|QID|24981|M|60.50,51.92|N|From Executor Zygand.|
 
 h Brill|QID|24982|M|60.87,51.55|N|At Innkeeper Renee.|
 
 T The New Forsaken|QID|24982|M|60.95,50.58|N|To Magistrate Sevren, upstairs at the inn.|
 
-A Forsaken Duties|QID|24983|M|60.95,50.58|N|From Magistrate Sevren.|PRE|24982|
+A Forsaken Duties|QID|24983|M|60.95,50.58|N|From Magistrate Sevren.|
 T Supplying Brill|QID|6321|M|58.87,51.96|R|Undead|N|To Anette Williams.|
 
 A Ride to the Undercity|QID|6323|PRE|6321|M|58.87,51.96|R|Undead,Troll|N|From Anette Williams.|
@@ -290,10 +300,10 @@ T Darkhound Pounding|QID|24990|M|60.15,52.64|N|To Junior Apothecary Holland.|
 A Holland's Experiment|QID|24996|M|60.15,52.64|N|From Junior Apothecary Holland.|PRE|24990|
 T Holland's Experiment|QID|24996|M|60.04,52.82|N|To Captured Mountaineer, upstairs in the same building.|
 
-A Garren's Haunt|QID|24991|M|60.10,52.71|N|From Junior Apothecary Holland.|PRE|24990|
+A Garren's Haunt|QID|24991|LEAD|24994|M|60.10,52.71|N|From Junior Apothecary Holland.|PRE|24996|
 T Escaped From Gilneas|QID|24992|M|60.50,51.92|N|To Executor Zygand.|
 
-A Annihilate the Worgen|QID|24993|M|60.50,51.92|N|From Executor Zygand.|PRE|24992|
+A Annihilate the Worgen|QID|24993|M|60.50,51.92|N|From Executor Zygand.|PRE|24992+25039|
 T A Thorn in our Side|QID|24981|M|60.50,51.92|N|To Executor Zygand.|
 
 C Annihilate the Worgen|QID|24993|M|58.44,51.57|N|They are stealthed all around Brill. You'll be able to spot them by the rings of dust they kick up when they move.|
@@ -312,8 +322,8 @@ T Doom Weed|QID|24994|M|61.61,34.59|N|To Apothecary Jerrod.|
 A Off the Scales|QID|24995|M|61.61,34.59|N|From Apothecary Jerrod.|PRE|24994|
 
 T Graverobbers|QID|24997|M|61.59,34.41|N|To Apprentice Crispin.|
-A Maggot Eye|QID|24998|M|61.59,34.41|N|From Apprentice Crispin.|PRE|24998|
-A Planting the Seed of Fear|QID|24999|M|61.59,34.41|N|From Apprentice Crispin.|PRE|24998|
+A Maggot Eye|QID|24998|M|61.59,34.41|N|From Apprentice Crispin.|PRE|24997|
+A Planting the Seed of Fear|QID|24999|M|61.59,34.41|N|From Apprentice Crispin.|PRE|24994|
 
 C Maggot Eye|QID|24998|M|58.83,31.10|N|Maggot Eye can be found just up the road in a house.|
 C Off the Scales|QID|24995|S|M|61.19,27.84|N|Kill and loot murlocs.|
@@ -324,7 +334,7 @@ T Maggot Eye|QID|24998|M|61.57,34.42|N|To Apprentice Crispin.|
 T Planting the Seed of Fear|QID|24999|M|61.57,34.42|N|To Apprentice Crispin.|
 T Off the Scales|QID|24995|M|61.61,34.55|N|To Apothecary Jerrod.|
 
-A Head for the Mills|QID|25031|M|61.61,34.55|N|From Apothecary Jerrod.|PRE|24995|
+A Head for the Mills|QID|25031|LEAD|25003|M|61.61,34.55|N|From Apothecary Jerrod.|PRE|24995;24998;24999|
 R Agamand Mills|QID|25031|M|54.61,29.82|N|Follow the road past Maggot Eye's house, up the hill to the mills.|
 T Head for the Mills|QID|25031|M|54.61,29.82|N|To Coleman Farthing.|
 
@@ -350,11 +360,11 @@ H Brill|QID|25005|M|54.55,29.85|N|Run back if your hearth is down.|ACTIVE|25005|
 r Eliza Callen |QID|25006|M|60.76,50.97|N|Take this opportunity to sell and repair with Eliza Callen, who is at the foot of the stairs towards Magistrate Sevren.|S|ACTIVE|25006|T|Eliza Callen|
 T Speak with Sevren|QID|25005|M|60.93,50.59|N|To Magistrate Sevren, upstairs in the inn.|
 
-A The Grasp Weakens|QID|25006|M|60.99,50.58|N|From Magistrate Sevren.|PRE|25006|
+A The Grasp Weakens|QID|25006|M|60.99,50.58|N|From Magistrate Sevren.|PRE|25005|
 C The Grasp Weakens|QID|25006|M|62.02,52.91|N|Talk to Shadow Priestess Malia inside the house, then watch the event and kill the ghost.|
 T The Grasp Weakens|QID|25006|M|60.99,50.55|N|To Magistrate Sevren.|
 
-A East... Always to the East|QID|25007|M|60.99,50.55|N|From Magistrate Sevren.|PRE|25007|
+A East... Always to the East|QID|25007|M|60.99,50.55|N|From Magistrate Sevren.|PRE|25006|
 R The Bulwark|QID|25007|M|61.99,54.95;65.73,59.80;72.32,63.62;76.69,69.43;82.58,70.72|CS|N|Take a hike to the Bulwark|
 f The Bulwark|QID|25007|N|From Timothy Cunningham.|M|83.55,69.97|
 h The Bulwark|QID|25007|M|83.08,71.93|N|At Provisioner Elda.|ACTIVE|25007|
@@ -372,11 +382,11 @@ T Grisly Grizzlies|QID|25056|M|83.25,69.28|N|To Apothecary Dithers, back at the 
 A A Little Oomph|QID|25013|M|83.25,69.28|N|From Apothecary Dithers.|PRE|25056|
 T At War With The Scarlet Crusade|QID|25009|M|83.23,69.01|N|To High Executor Derrington.|
 
-A A Deadly New Ally|QID|25010|M|83.23,69.01|N|From High Executor Derrington.|PRE|25010|
+A A Deadly New Ally|QID|25010|M|83.23,69.01|N|From High Executor Derrington.|PRE|25009|
 C A Little Oomph|QID|25013|M|85.97,53.00|N|Kill and loot spiders in the Venomwood Vale.|
 T A Deadly New Ally|QID|25010|M|87.49,43.29|N|To Lieutenant Sanders.|
 
-A A Daughter's Embrace|QID|25046|M|87.49,43.29|N|From Lieutenant Sanders.|PRE|25046|
+A A Daughter's Embrace|QID|25046|M|87.49,43.29|N|From Lieutenant Sanders.|PRE|25010|
 C A Daughter's Embrace|QID|25046|M|79.59,25.25|N|Head north, and take the left fork in the road towards Scarlet Watch Post. There are a lot of crusade members up here, but Lilian has a knack for getting rid of them quickly. Head to the tower and watch the scene.|
 
 H The Bulwark|QID|25046|N|Run back if your hearth is down.|ACTIVE|25013|
@@ -390,7 +400,7 @@ T To Bigger and Better Things|QID|25011|M|83.55,69.94|N|To Timothy Cunningham.|
 A Take to the Skies|QID|25012|M|83.55,69.94|N|From Timothy Cunningham.|PRE|25011|
 T Take to the Skies|QID|25012|M|60.49,51.90|N|To Executor Zygand. Talk to Timothy again for a free ride back to Brill.|
 
-A Warchief's Command: Silverpine Forest!|QID|26964|M|60.49,51.90|N|From Executor Zygand. Pick this up if you'd like to head to Silverpine Forest next!|
+A Warchief's Command: Silverpine Forest!|QID|26964|LEAD|26965|M|60.49,51.90|N|From Executor Zygand. Pick this up if you'd like to head to Silverpine Forest next!|
 
 ]]
 
