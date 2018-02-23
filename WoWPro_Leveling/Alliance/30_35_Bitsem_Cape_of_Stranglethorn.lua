@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2018-02-20 01:03
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3237/revisions/29024/view
 -- Date: 2018-02-19 23:31
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -316,7 +321,7 @@ C Kill-Collect|QID|26595|L|3924|M|59.55,49.16|N|Kill Maury "Clubfoot" Wilkins. L
 
 C Keep An Eye Out|QID|26614|M|43.16,81.72|N|Kill and loot Bloodsail mobs until this drops.|S|
 C Up to Snuff|QID|26613|M|41.17,82.64|N|Kill and loot Bloodsail mobs until you get 15 Snuff.|S|
-C A Dish Best Served Huge|QID|26602|QO|Negolash slain: 1/1|M|49.68,81.16|N|Activate the Life Boat. Put in the food. Wait for Negolash to appear. Kill him!|
+C A Dish Best Served Huge|QID|26602|QO|1|M|49.68,81.16|N|Activate the Life Boat. Put in the food. Wait for Negolash to appear. Kill him!|; Negolash slain: 1/1
 C Details of the Attack|QID|26612|M|45.09,79.59;42.08,83.04;41.12,82.55|CN|N|The Orders and the Charts can be at any of the waypoints. Don't forget to kill the Bloodsail mobs needed.|
 C Keep An Eye Out|QID|26614|M|43.16,81.72|N|Kill and loot Bloodsail mobs until this drops.|US|
 C Up to Snuff|QID|26613|M|41.17,82.64|N|Kill and loot Bloodsail mobs until you get 15 Snuff.|US|
@@ -381,14 +386,14 @@ A Sinking From Within|QID|26663|PRE|26650|M|50.30,91.46|N|From Captain Still Wat
 A Making Mutiny|QID|26664|PRE|26650|M|50.30,91.46|N|From Captain Still Water's Charts.|
 
 C Making Mutiny|QID|26664|M|44.71,92.59|S|N|Accuse Corsairs of mutiny. When they attack, kill them.|
-C Speak with Long John Copper|QID|26662|M|51.27,91.38|QO|Speak with Long John Copper: 1/1|N|On The Damsel's Luck.|
-C Sabotage the Grog|QID|26663|M|50.96,91.52|QO|Sabotage the Grog: 1/1|N|On the lowest level of The Damsel's Luck.|
+C Speak with Long John Copper|QID|26662|M|51.27,91.38|QO|1|N|On The Damsel's Luck.|; Speak with Long John Copper: 1/1
+C Sabotage the Grog|QID|26663|M|50.96,91.52|QO|1|N|On the lowest level of The Damsel's Luck.|; Sabotage the Grog: 1/1
 
-C Speak with Enormous Shawn Stooker|QID|26662|M|46.77,94.17|QO|Speak with Enormous Shawn Stooker: 1/1|N|Now head to The Crimson Veil ship. Go to the lowest level and speak to Enormous Shawn.|
-C Sabotage the Gunpowder|QID|26663|M|46.80,93.79|QO|Sabotage the Gunpowder: 1/1|N|Activate the Gunpowder Barrell on the lowest level of the ship.|
+C Speak with Enormous Shawn Stooker|QID|26662|M|46.77,94.17|QO|2|N|Now head to The Crimson Veil ship. Go to the lowest level and speak to Enormous Shawn.|; Speak with Enormous Shawn Stooker: 1/1
+C Sabotage the Gunpowder|QID|26663|M|46.80,93.79|QO|2|N|Activate the Gunpowder Barrell on the lowest level of the ship.|; Sabotage the Gunpowder: 1/1
 
-C Speak with Wailing Mary Smitts|QID|26662|M|44.52,93.15|QO|Speak with Wailing Mary Smitts: 1/1|N|Last, head to The Riptide ship. One level down, speak to Wailing Mary.|
-C Sabotage the Cannonballs|QID|26663|M|44.71,92.78|QO|Sabotage the Cannonballs: 1/1|N|On the lowest level, between a wall and some normal crates.|
+C Speak with Wailing Mary Smitts|QID|26662|M|44.52,93.15|QO|3|N|Last, head to The Riptide ship. One level down, speak to Wailing Mary.|; Speak with Wailing Mary Smitts: 1/1
+C Sabotage the Cannonballs|QID|26663|M|44.71,92.78|QO|3|N|On the lowest level, between a wall and some normal crates.|; Sabotage the Cannonballs: 1/1
 C Making Mutiny|QID|26664|M|44.71,92.59|US|N|Finish your accusations if necessary.|
 
 T The Brashtide Crew|QID|26662|M|44.52,93.15|N|(UI Alert)|
