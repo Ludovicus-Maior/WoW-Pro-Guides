@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2018-02-20 01:22
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3289/revisions/28913/view
 -- Date: 2018-01-17 00:00
 -- Who: Ludovicus
 -- Log: New Levels
@@ -136,7 +141,7 @@ return [[
 
 B Overcharged Capacitor |QID|11650|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest pays out 4g70s and 20k XP and leads to two further quests each worth the same (and one with a 2-3g green reward), so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|M|62.9,71.7|Z|Stormwind City|
 N Cold Weather Flying|QID|11672|N|Purchase Cold Weather Flying from Bralla Cloudwing for 500 gold(faction discounts apply).|M|70.29,73.37|Z|Stormwind City|
-A Hero's Call: Northrend! |QID|28709|N|From the Hero's Callboard in Darnassus, Ironforge, or either Callboard in Stormwind City.  May not show if your level is too high.|M|62.9,71.7|Z|Stormwind City|
+A Hero's Call: Northrend! |QID|28709|LEAD|11672|N|From the Hero's Callboard in Darnassus, Ironforge, or either Callboard in Stormwind City.  May not show if your level is too high.|M|62.9,71.7|Z|Stormwind City|
 R Stormwind Harbor |QID|11672|N|Go to Stormwind Harbor.|Z|Stormwind City|M|27.06,25.50|
 b Valiance Keep |QID|11672|N|Take the boat from the north dock to get to Valiance Keep.|Z|Stormwind City|M|18.01,25.48|
 T Hero's Call: Northrend!|QID|28709|N|To Recruitment Officer Blythe.|M|57.9,67.7|
@@ -158,13 +163,13 @@ T A Soldier in Need |QID|11789|M|55,69|N|To Medic Hawthorn.|
 C Death From Above |QID|11889|U|35278|N|Use the net on the Scourged Flamespitters in the air outside town and kill them when they land.|M|55,70|
 T Death From Above |QID|11889|M|56.37,69.58|N|To Sergeant Hammerhill.|
 A Plug the Sinkholes |QID|11897|PRE|11889|M|56.4,69.6|N|From Sergeant Hammerhill.|
-U Southern Sinkhole |QID|11897|QO|Explosives set at southern sinkhole: 1/1|U|35704|N|Use the Incendiary Explosives on the southern sinkhole here.|M|50.60,71.43|
+U Southern Sinkhole |QID|11897|QO|1|U|35704|N|Use the Incendiary Explosives on the southern sinkhole here.|M|50.60,71.43|; Explosives set at southern sinkhole: 1/1
 C Plug the Sinkholes |QID|11897|U|35704|N|Use the Incendiary Explosives on the northern sinkhole here.|M|54.26,63.89|
 T Plug the Sinkholes |QID|11897|N|To Sergeant Hammerhill.|M|56.37,69.58|
-A Farshire |QID|11928|PRE|11897|M|56.4,69.6|N|From Sergeant Hammerhill.|
+A Farshire |QID|11928|LEAD|11901|PRE|11897|M|56.4,69.6|N|From Sergeant Hammerhill.|
 A Word on the Street |QID|11927|PRE|11897|M|56.8,69.5|N|From Mark Hanes.|
 T Notify Arlos |QID|11791|N|To General Arlos, inside the keep.|M|56.67,72.64|
-A A Diplomatic Mission |QID|12141|PRE|11791|M|56.7,72.6|N|From Counselor Talbot.|
+A A Diplomatic Mission |QID|12141|LEAD|11613|PRE|11791|M|56.7,72.6|N|From Counselor Talbot.|
 A Enemies of the Light |QID|11792|PRE|11791|M|56.6,72.5|N|From Harbringer Vurenn.|
 
 N Cooking Quest |QID|13088|N|If the quest is available to you, grab Northern Cooking from Rollick MacKreel here. When you finish the quest, turn it in next time you're in Valiance Keep. There will be no future reminders. Move onto the next step when ready.|M|57.9,71.5|P|Cooking;185;350|
@@ -214,8 +219,8 @@ T The Late William Allerton |QID|11600|N|To Leryssa.|M|58.73,68.34|
 A Lost and Found |QID|11601|PRE|11600|N|From Leryssa.|M|58.73,68.34|
 T Lost and Found |QID|11601|N|To James Deacon the inn barkeep.|M|58.29,68.05|
 A In Wine, Truth |QID|11603|PRE|11601|N|From James Deacon the inn barkeep.|M|58.29,68.05|
-N Cultist in Kitchen |QID|11794|QO|Cultist in kitchen defeated: 1/1|U|35125|N|Use the Oculus of the Exorcist in the kitchen of the inn, then talk to and kill the cultist.|M|58.62,67.10|
-N Cultist in Docks |QID|11794|QO|Cultist in docks defeated: 1/1|U|35125|N|Use the Oculus on the lower dock outside, then talk to and kill the cultist.|M|59.18,68.56|
+N Cultist in Kitchen |QID|11794|QO|3|U|35125|N|Use the Oculus of the Exorcist in the kitchen of the inn, then talk to and kill the cultist.|M|58.62,67.10|; Cultist in kitchen defeated: 1/1
+N Cultist in Docks |QID|11794|QO|1|U|35125|N|Use the Oculus on the lower dock outside, then talk to and kill the cultist.|M|59.18,68.56|; Cultist in docks defeated: 1/1
 C In Wine, Truth |QID|11603|N|Dive down to the shipwreck here and loot the wine crate. Watch out for a lvl 72 quest mob, Clam Master K. You'll get to pummel him later in the guide, but for now, try to evade him.|M|61.9,65.7|
 T In Wine, Truth |QID|11603|N|Swim southwest back to Valiance Keep to Old Man Colburn in the inn.|M|58.52,68.12|
 A A Deserter |QID|11604|PRE|11603|N|From Old Man Colburn.|M|58.52,68.12|
@@ -268,15 +273,15 @@ T Spirits Watch Over Us |QID|11961|N|To Elder Muahit.|M|67.21,54.84|
 A The Tides Turn |QID|11968|PRE|11961|N|From Elder Muahit.|M|67.21,54.84|
 C The Tides Turn |QID|11968|N|Kill Heigarr the Horrible.|M|67.5,56.7|
 T The Tides Turn |QID|11968|N|To Elder Muahit.|M|67.21,54.84|
-A Travel to Moa'ki Harbor |QID|12117|PRE|11968|N|From Hotawa.|M|67.27,54.87|
+A Travel to Moa'ki Harbor |QID|12117|LEAD|11958|PRE|11968|N|From Hotawa.|M|67.27,54.87|
 
 r Sell junk, repair and re-stock food/drink in Unu'pe.|QID|12117|M|77.91,52.51|
 
 A The Honored Ancestors |QID|11605|N|Folow the Road north until you see a large tuskarr statue called "Elder Atkanok" on the left side of the path. The Elder offers this quest.|M|54.69,35.69|
 A Reclaiming the Quarry |QID|11612|N|From Etaruk on the ledge above Elder Atkanok.|M|54.3,36.1|
 C Reclaiming the Quarry |QID|11612|N|Kill Beryl Treasure Hunters.|S|
-N Elder Sagani|QID|11605|QO|Elder Sagani identified: 1/1|N|Click the Elder here.|M|52.84,34.05|
-N Elder Kesuk|QID|11605|QO|Elder Kesuk identified: 1/1|N|Click the Elder here.|M|50.81,32.38|
+N Elder Sagani|QID|11605|QO|2|N|Click the Elder here.|M|52.84,34.05|; Elder Sagani identified: 1/1
+N Elder Kesuk|QID|11605|QO|1|N|Click the Elder here.|M|50.81,32.38|; Elder Kesuk identified: 1/1
 C The Honored Ancestors |QID|11605|N|Click the Elder here.|M|52.32,31.19|
 T The Honored Ancestors |QID|11605|N|To Elder Atkanok.|M|54.69,35.69|
 A The Lost Spirits |QID|11607|PRE|11605|N|From Elder Atkanok.|M|54.69,35.69|
@@ -288,8 +293,8 @@ A Picking Up the Pieces |QID|11609|PRE|11607|N|From Elder Atkanok|M|54.69,35.69|
 C Picking Up the Pieces |QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|S|
 T Reclaiming the Quarry |QID|11612|N|To Etaruk|M|54.3,36.1|
 A Hampering Their Escape |QID|11617|PRE|11612|N|From Etaruk|M|54.3,36.1|
-N East Platform |QID|11617|QO|East Platform Destroyed: 1/1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the East Platform from here.|M|52.44,35.31|
-N West Platform |QID|11617|QO|West Platform Destroyed: 1/1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the West Platform from here.|M|50.48,34.84|
+N East Platform |QID|11617|QO|1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the East Platform from here.|M|52.44,35.31|; East Platform Destroyed: 1/1
+N West Platform |QID|11617|QO|1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the West Platform from here.|M|50.48,34.84|; West Platform Destroyed: 1/1
 C Hampering Their Escape |QID|11617|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the North Platform from below it.|M|51.91,31.86|
 C Picking Up the Pieces |QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|US|
 T Picking Up the Pieces |QID|11609|N|To Elder Atkanok|M|54.69,35.69|
@@ -297,8 +302,8 @@ A Leading the Ancestors Home |QID|11610|PRE|11609|N|From Elder Atkanok|M|54.69,3
 T Hampering Their Escape |QID|11617|N|To Etaruk|M|54.3,36.1|
 
 A A Visit to the Curator |QID|11623|PRE|11617|N|From Etaruk|M|54.3,36.1|
-N Elder Sagani |QID|11610|QO|Elder Sagani's ceremony completed: 1/1|U|34715|N|Use the Tuskarr Ritual Object at Elder Sagani's stone you visited earlier. Right-clicking the Elder will NOT complete the quest, you need to use the item in your inventory.|M|52.82,34.04|
-N Elder Kesuk |QID|11610|QO|Elder Kesuk's ceremony completed: 1/1|U|34715|N|Use the Tuskarr Ritual Object at Elder Kesuk's stone you visited earlier.|M|50.84,32.43|
+N Elder Sagani |QID|11610|QO|1|U|34715|N|Use the Tuskarr Ritual Object at Elder Sagani's stone you visited earlier. Right-clicking the Elder will NOT complete the quest, you need to use the item in your inventory.|M|52.82,34.04|; Elder Sagani's ceremony completed: 1/1
+N Elder Kesuk |QID|11610|QO|1|U|34715|N|Use the Tuskarr Ritual Object at Elder Kesuk's stone you visited earlier.|M|50.84,32.43|; Elder Kesuk's ceremony completed: 1/1
 C A Visit to the Curator |QID|11623|N|Fly up the cliff and kill Curator Insivius on the landed platform.|M|50.08,32.73|
 C Leading the Ancestors Home |QID|11610|U|34715|N|Use the Tuskarr Ritual Object at Elder Takret's stone you visited earlier.|M|52.32,31.12|
 T A Visit to the Curator |QID|11623|N|To Etaruk.|M|54.3,36.1|
@@ -336,9 +341,9 @@ T Re-Cursive |QID|11712|N|To Jinky Wingnut outside the inn. You'll be returning 
 
 A Lefty Loosey, Righty Tighty |QID|11788|PRE|11712|N|From Jinky Wingnut|M|57.45,18.74|
 A Finding Pilot Tailspin |QID|11725|PRE|11712|N|From Fizzcrank Fullthrottle in the inn on the second floor.|M|57.03,18.71|
-K Twonky |QID|11788|QO|Twonky slain: 1/1|N|Click the small sparkling valve on the side of the pipeline here and kill Twonky.|M|60.20,20.42|
-K ED-210 |QID|11788|QO|ED-210 slain: 1/1|N|Click the small valve here and kill ED-210.|M|65.46,17.51|
-K Max Blasto |QID|11788|QO|Max Blasto slain: 1/1|N|Click the small valve here and kill Max Blasto.|M|63.74,22.40|
+K Twonky |QID|11788|QO|1|N|Click the small sparkling valve on the side of the pipeline here and kill Twonky.|M|60.20,20.42|; Twonky slain: 1/1
+K ED-210 |QID|11788|QO|2|N|Click the small valve here and kill ED-210.|M|65.46,17.51|; ED-210 slain: 1/1
+K Max Blasto |QID|11788|QO|3|N|Click the small valve here and kill Max Blasto.|M|63.74,22.40|; Max Blasto slain: 1/1
 C Lefty Loosey, Righty Tighty |QID|11788|N|Click the small valve here and kill The Grinder.|M|65.19,28.79|
 C What's the Matter with the Transmatter? |QID|11710|N|Pick up Fizzcrank Spare Parts.|M|62.15,19.5|US|
 C Master and Servant |QID|11730|U|35116|N|Kill robots and use The Ultrasonic Screwdriver on them.|M|57.52,25.03|US|
@@ -362,8 +367,8 @@ C Buying Some Time |QID|11938|N|Head north into the Temple City of En'kilah and 
 T Buying Some Time |QID|11938|N|To Thassarian inside the Ziggurat.|M|84.80,41.67|
 
 A Words of Power |QID|11942|PRE|11938|N|From Thassarian.|M|84.80,41.67|
-l High Priest Talet-Kha's Scroll |QID|11942|QO|High Priest Talet-Kha's Scroll: 1/1|N|Kill High Priest Talet-Kha (the big Nerubian) for his scroll. He becomes attackable after you killed the webs binding him.|M|89.37,28.94|
-l High Priest Andorath's Scroll |QID|11942|QO|High Priest Andorath's Scroll: 1/1|N|Kill High Priest Andorath on the upper floor for his scroll.|M|87.81,20.71|
+l High Priest Talet-Kha's Scroll |QID|11942|QO|3|N|Kill High Priest Talet-Kha (the big Nerubian) for his scroll. He becomes attackable after you killed the webs binding him.|M|89.37,28.94|; High Priest Talet-Kha's Scroll: 1/1
+l High Priest Andorath's Scroll |QID|11942|QO|1|N|Kill High Priest Andorath on the upper floor for his scroll.|M|87.81,20.71|; High Priest Andorath's Scroll: 1/1
 C Words of Power |QID|11942|N|Kill the Necromancers around him, then High Priest Naferset himself for his scroll.|M|83.92,20.45|
 T Words of Power |QID|11942|N|To Thassarian inside the Ziggurat.|M|84.80,41.67|
 A Last Rites |QID|12019|PRE|11942|N|From Thassarian.|M|84.80,41.67|
@@ -378,8 +383,8 @@ A Emergency Protocol: Section 8.2, Paragraph C |QID|11795|PRE|11728|N|From Iggy 
 C Emergency Protocol: Section 8.2, Paragraph C |QID|11795|N|Look for dead gnomes scattered around the area and search their bodies. Can be done while mounted, so if you don't feel like fighting all those wolves and bots, stay on your flying mount and you won't aggro them.|M|61.0,37.8|
 T Emergency Protocol: Section 8.2, Paragraph C |QID|11795|N|To Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 A Emergency Protocol: Section 8.2, Paragraph D |QID|11796|PRE|11795|N|From Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
-U Northwestern Wreck |QID|11796|QO|Scuttle a Northwestern Wreck: 1/1|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|60.89,33.74|
-U Southern Wreck |QID|11796|QO|Scuttle a Southern Wreck: 1/1|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|61.08,39.96|
+U Northwestern Wreck |QID|11796|QO|3|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|60.89,33.74|; Scuttle a Northwestern Wreck: 1/1
+U Southern Wreck |QID|11796|QO|2|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|61.08,39.96|; Scuttle a Southern Wreck: 1/1
 C Emergency Protocol: Section 8.2, Paragraph D |QID|11796|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|63.38,36.91|
 T Emergency Protocol: Section 8.2, Paragraph D |QID|11796|N|To Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 
@@ -398,8 +403,8 @@ h Fizzcrank Airstrip |QID|11713|N|Set your hearthstone here with "Charlie" North
 
 A Scouting the Sinkholes |QID|11713|N|From Abner Fizzletorque.|M|57.06,20.12|
 C Hah... You're Not So Big Now! |QID|11653|U|34812|N|Use Crafty's Ultra-Advanced Proto-Typical Shortening Blaster on Magmoth monsters north of town until you complete this quest.|M|56.37,14.55|
-N Northwest Sinkhole |U|34920|QID|11713|QO|Mark Location of Northwest Sinkhole: 1/1|N|Use the Map of the Geyser Fields at the Northwest Sinkhole.|M|66.23,32.15|
-N Northeast Sinkhole |U|34920|QID|11713|QO|Mark Location of Northeast Sinkhole: 1/1|N|Use the Map of the Geyser Fields at the Northeast Sinkhole.|M|69.68,32.59|
+N Northwest Sinkhole |U|34920|QID|11713|QO|1|N|Use the Map of the Geyser Fields at the Northwest Sinkhole.|M|66.23,32.15|; Mark Location of Northwest Sinkhole: 1/1
+N Northeast Sinkhole |U|34920|QID|11713|QO|1|N|Use the Map of the Geyser Fields at the Northeast Sinkhole.|M|69.68,32.59|; Mark Location of Northeast Sinkhole: 1/1
 C Scouting the Sinkholes |QID|11713|U|34920|N|Use the Map of the Geyser Fields at the South Sinkhole to complete the quest.|M|70.23,36.34|
 T Hah... You're Not So Big Now! |QID|11653|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 A Plan B |QID|11658|PRE|11653|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
@@ -432,8 +437,8 @@ C Might As Well Wipe Out the Scourge |QID|11698|N|Kill the scourge monsters you 
 T Rats, Tinky Went into the Necropolis! |QID|11697|N|Use the lower entrance on the southwestern side of the Necropolis and stick to the right to find her.|M|69.89,14.76|
 
 A I'm Stuck in this Damned Cage... But Not For Long! |QID|11699|PRE|11697|N|From Tinky Wickwhistle.|M|69.9,14.7|
-K Lich-Lord Chillwinter |QID|11699|QO|Piloting Scourgestone: 1/1|N|Go outside and around to get to the top. Kill and loot Lich-Lord Chillwinter.|M|69.73,11.85|
-K Doctor Razorgrin |QID|11699|QO|Magical Gyroscope: 1/1|N|Jump down to the room below and kill and loot Doctor Razorgrin.|M|69.98,13.88|
+K Lich-Lord Chillwinter |QID|11699|QO|3|N|Go outside and around to get to the top. Kill and loot Lich-Lord Chillwinter.|M|69.73,11.85|; Piloting Scourgestone: 1/1
+K Doctor Razorgrin |QID|11699|QO|2|N|Jump down to the room below and kill and loot Doctor Razorgrin.|M|69.98,13.88|; Magical Gyroscope: 1/1
 C I'm Stuck in this Damned Cage... But Not For Long! |QID|11699|N|Kill Festering Ghouls on your way back down to Tinky Wickwhistle until one drops an Engine-Core Crystal.|M|69.98,13.88|
 T I'm Stuck in this Damned Cage... But Not For Long! |QID|11699|N|Back at Tinky.|M|69.89,14.75|
 A Let Bixie Know |QID|11700|PRE|11699|N|From Tinky Wickwhistle.|M|69.9,14.7|
@@ -487,7 +492,7 @@ T Not On Our Watch |QID|11871|N|To Hierophant Liandra.|M|57.79,55.10|
 
 A The Nefarious Clam Master... |QID|11872|PRE|11871|N|From Hierophant Liandra.|M|57.79,55.10|
 C The Nefarious Clam Master... |QID|11872|N|Remember Clam Master K at the underwater shipwreck? Now the time has come to get your revenge if you weren't able to evade him last time! In the water to the southeast.|M|61.61,66.40|
-A Nick of Time |QID|11575|N|From Midge inside the Valiance Keep in. This quest requires level 69 to accept, that's why this guide didn't tell you to pick it up last time you were in the area.|M|58.41,67.85|
+A Nick of Time |QID|11575|LEAD|11587|N|From Midge inside the Valiance Keep in. (Move post 7.3.5?)|M|58.41,67.85|
 C The Culler Cometh |QID|11868|N|Kill Karen at the far south edge of this field.|M|57.20,56.03|
 T The Culler Cometh |QID|11868|N|To Zaza.|M|56.81,44.12|
 T The Nefarious Clam Master... |QID|11872|N|To Heirophant Cenius|M|57.3,44.1|
@@ -548,11 +553,11 @@ A Puzzling... |QID|11941|U|35648|N|Right-click the Scintillating Fragment to acc
 T Puzzling... |QID|11941|N|To Raelorasz.|M|33.31,34.53|
 
 A The Cell |QID|11943|PRE|11941|N|From Raelorasz.|M|33.31,34.53|
-N Southern Coldarra Reading |QID|11900|QO|Southern Coldarra Reading: 1/1|N|Follow the path west to find a Coldarra Geological Monitor and click it.|M|28.33,34.98|
-l Energy Core |QID|11943|QO|Energy Core: 1/1|N|Kill Warbringer Goredrak and loot the Energy Core.|M|24.24,28.92|
-N Western Coldarra Reading |QID|11900|QO|Western Coldarra Reading: 1/1|N|Go northwest to find another Coldarra Geological Monitor and click it.|M|22.36,24.17|
+N Southern Coldarra Reading |QID|11900|QO|3|N|Follow the path west to find a Coldarra Geological Monitor and click it.|M|28.33,34.98|; Southern Coldarra Reading: 1/1
+l Energy Core |QID|11943|QO|1|N|Kill Warbringer Goredrak and loot the Energy Core.|M|24.24,28.92|; Energy Core: 1/1
+N Western Coldarra Reading |QID|11900|QO|3|N|Go northwest to find another Coldarra Geological Monitor and click it.|M|22.36,24.17|; Western Coldarra Reading: 1/1
 C The Cell |QID|11943|N|Kill General Cerulean and loot the Prison Casing.|M|27.31,20.40|
-N Northern Coldarra Reading |QID|11900|QO|Northern Coldarra Reading: 1/1|N|Go east to find another Coldarra Geological Monitor and click it.|M|31.31,20.29|
+N Northern Coldarra Reading |QID|11900|QO|3|N|Go east to find another Coldarra Geological Monitor and click it.|M|31.31,20.29|; Northern Coldarra Reading: 1/1
 T The Cell |QID|11943|N|To Raelorasz.|M|33.31,34.53|
 A Keristrasza |QID|11946|PRE|11943|U|35671|N|Use your Augmented Arcane Prison to make Keristrasza appear.|M|33.1,34.11|
 T Keristrasza |QID|11946|N|To Keristraza.|M|33.1,34.11|
@@ -597,7 +602,7 @@ C Cracking the Code |QID|11931|N|Kill Inquisitor Caleras to the north and loot t
 T Cracking the Code |QID|11931|N|To Raelorasz.|M|33.31,34.53|
 
 T King Mrgl-Mrgl |QID|11704|N|Go north to the road, then follow it east to Winterfin Retreat.|M|43.50,13.97|
-A Learning to Communicate |QID|11571|PRE|11702;11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
+A Learning to Communicate |QID|11571|PRE|11702+11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
 C Learning to Communicate |QID|11571|U|34598|N|Kill Scalder at the bottom of the sea. Target his corpse and use the conch. Scalder is immune to frost.|M|42.53,15.85|
 T Learning to Communicate |QID|11571|N|To King Mrgl-Mrgl.|M|43.50,13.97|
 A Winterfin Commerce |QID|11559|PRE|11571|N|From King Mrgl-Mrgl.|M|43.50,13.97|
