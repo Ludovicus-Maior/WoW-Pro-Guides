@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2018-02-20 21:52
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3266/revisions/28894/view
 -- Date: 2018-01-16 23:46
 -- Who: Ludovicus
 -- Log: New Levels
@@ -123,7 +128,7 @@ C Shadow Boxing|QID|28424|M|9.83,29.69|
 C Warlocks Have the Neatest Stuff|QID|28423|M|5.38,31.88|N|The Blackrock Warlocks have the orb. Kill them until one drops. The other stuff needed is by the waypoint.|
 T Warlocks Have the Neatest Stuff|QID|28423|M|8.36,35.73|N|To Gorzeeki Wildeyes.|
 T Shadow Boxing|QID|28424|M|8.36,35.73|N|To Gorzeeki Wildeyes.|
-A Return to Ariok|QID|28425|PRE|28423;28424|M|8.36,35.73|N|From Gorzeeki Wildeyes.|
+A Return to Ariok|QID|28425|PRE|28423+28424|M|8.36,35.73|N|From Gorzeeki Wildeyes.|
 T Return to Ariok|QID|28425|M|17.34,51.59|N|To Ariok.|
 A Chiselgrip, the Heart of the Steppes|QID|28426|PRE|28425|M|17.34,51.59|N|From Ariok.|
 C Chiselgrip, the Heart of the Steppes|QID|28426|M|36.76,53.81|
@@ -145,7 +150,7 @@ T A Perfect Costume|QID|28428|R|Undead,Orc|M|44.57,44.47|N|To Eitrigg.|
 T A Perfect Costume|QID|28431|R|Blood Elf,Troll|M|44.57,44.47|N|To Eitrigg.|
 T A Perfect Costume|QID|28429|R|Tauren|M|44.57,44.47|N|To Eitrigg.|
 T A Perfect Costume|QID|28430|R|Goblin|M|44.57,44.47|N|To Eitrigg.|
-A Into the Black Tooth Hovel|QID|28432|PRE|28428;28429;28430;28431|M|44.56,44.52|N|From Eitrigg.|
+A Into the Black Tooth Hovel|QID|28432|PRE|28428+28429+28430+28431|M|44.56,44.52|N|From Eitrigg.|
 T Into the Black Tooth Hovel|QID|28432|U|63357|M|45.34,51.60|N|To Quartermaster Kaoshin. Remeber to put on your Disguise.|
 A Grunt Work|QID|28433|PRE|28432|M|45.34,51.60|N|From Quartermaster Kaoshin.|
 A Strategic Cuts|QID|28434|PRE|28433|M|45.34,51.60|N|(UI Alert)|
@@ -159,7 +164,7 @@ T Grunt Work|QID|28433|M|45.29,51.57|N|To Quartermaster Kaoshin.|
 A The Kodocaller's Horn|QID|28435|PRE|28434|M|45.32,51.68|N|From Quartermaster Kaoshin.|
 C The Kodocaller's Horn|QID|28435|U|63356|M|46.52,63.28|N|The kodos can attack you. If that happens knock them down to under 60% health.|
 T The Kodocaller's Horn|QID|28435|M|46.66,63.30|N|To Blackrock War Kodo.|
-A Taking the Horn For Ourselves|QID|28436|PRE|28434;28435|M|46.66,63.30|N|(UI alert)|
+A Taking the Horn For Ourselves|QID|28436|PRE|28434+28435|M|46.66,63.30|N|(UI alert)|
 T Taking the Horn For Ourselves|QID|28436|M|44.58,44.49|N|To Eitrigg back at Chiselgrip.|
 
 C Scrapped Golems|QID|28226|S|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
@@ -231,7 +236,7 @@ K Glory Amidst Chaos|QID|28455|QO|3|M|69.32,39.24;70.88,38.13|CS|N|Jump off at t
 T Glory Amidst Chaos|QID|28455|M|54.61,24.61|N|Back to Eitrigg at Flame Crest.|
 A The Spoils of War|QID|28456|PRE|28455|M|54.61,24.61|N|From Eitrigg.|
 T The Spoils of War|QID|28456|M|54.61,24.61|N|To Eitrigg.|
-A The Bogpaddle Bullet|QID|28570|M|54.95,22.55|N|From Kibler. Accept this if you want to do Swamp of Sorrows next.|
+A The Bogpaddle Bullet|QID|28570|LEAD|27587|M|54.95,22.55|N|From Kibler. Accept this if you want to do Swamp of Sorrows next.|
 ]]
 
 end)
