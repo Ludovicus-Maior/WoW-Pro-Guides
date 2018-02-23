@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
+-- Date: 2018-02-20 21:44
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3246/revisions/28888/view
 -- Date: 2018-01-16 23:43
 -- Who: Ludovicus
 -- Log: New Levels
@@ -106,7 +111,7 @@ C Brute Strength|QID|27117|M|46.64,71.53|N|He's inside the broken tower. He's el
 C Scholomancer|QID|26924|M|45.23,72.98|N|Your commander will come to help you when you get the Scholomancer to half health.|
 T Scholomancer|QID|26924|M|47.80,65.24|N|To Koltira Deathweaver, back at the Horde camp.|
 T Brute Strength|QID|27117|M|47.80,65.24|N|To Koltira Deathweaver.|
-A Victory, For Now|QID|26926|PRE|27117|M|47.80,65.24|N|From Koltira Deathweaver.|
+A Victory, For Now|QID|26926|PRE|26924;26925;27117|M|47.80,65.24|N|From Koltira Deathweaver.|
 R The Bulwark|QID|26926|M|83.56,69.99|Z|Tirisfal Glades|N|For now, this quest is broken and you'll have to run to the Bulwark manually.|
 f The Bulwark|QID|26926|M|83.56,69.99|Z|Tirisfal Glades|N|At Timothy Cunningham.|
 A Foxes and Hounds|QID|26931|M|83.42,69.91|Z|Tirisfal Glades|N|From Shadow Priestess Vandis.|
@@ -124,16 +129,16 @@ T Latent Disease|QID|26934|M|83.24,69.29|Z|Tirisfal Glades|N|To Apothecary Dithe
 A Who Needs Cauldrons?|QID|26978|PRE|26934|M|83.24,69.28|Z|Tirisfal Glades|N|From Apothecary Dithers.|
 T After the Crusade|QID|26930|M|83.22,69.00|Z|Tirisfal Glades|N|To High Executor Derrington.|
 C Foes Before Hoes|QID|26933|S|M|36.79,57.70|N|Kill laborers around the Felstone Field.|
-C Leave Drum near Windmill|QID|26978|U|60753|QO|Leave Drum near Windmill: 1/1|M|37.25,56.53|N|Use the drum and place it near the windmill.|
-C Leave Drum inside Barn|QID|26978|U|60753|QO|Leave Drum inside Barn: 1/1|M|38.77,55.18|N|Use the drum and place it inside the ranch house.|
-C Leave Drum inside Ranch House|QID|26978|U|60753|QO|Leave Drum inside Ranch House: 1/1|M|38.12,54.42|N|Use the drum and place it inside the ranch house.|
-C Leave Drum near Grain Silos|QID|26978|U|60753|QO|Leave Drum near Grain Silos: 1/1|M|36.89,54.59|N|Use the drum and place it near the grain silos.|
+C Leave Drum near Windmill|QID|26978|U|60753|QO|1|M|37.25,56.53|N|Use the drum and place it near the windmill.|; Leave Drum near Windmill: 1/1
+C Leave Drum inside Barn|QID|26978|U|60753|QO|4|M|38.77,55.18|N|Use the drum and place it inside the ranch house.|; Leave Drum inside Barn: 1/1
+C Leave Drum inside Ranch House|QID|26978|U|60753|QO|3|M|38.12,54.42|N|Use the drum and place it inside the ranch house.|; Leave Drum inside Ranch House: 1/1
+C Leave Drum near Grain Silos|QID|26978|U|60753|QO|2|M|36.89,54.59|N|Use the drum and place it near the grain silos.|; Leave Drum near Grain Silos: 1/1
 C Foes Before Hoes|QID|26933|US|M|36.79,57.70|N|Kill laborers around the Felstone Field.|
 T Foes Before Hoes|QID|26933|M|83.41,69.96|Z|Tirisfal Glades|N|To Shadow Priestess Vandis, back at the Bulwark.|
 T Who Needs Cauldrons?|QID|26978|M|83.21,69.30|Z|Tirisfal Glades|N|To Apothecary Dithers.|
-A Lower the Boom|QID|26936|PRE|26978|M|83.19,69.01|Z|Tirisfal Glades|N|From High Executor Derrington. If this step does not auto-complete, check it off manually.|
-A Strange New Faces|QID|26979|PRE|26936|M|83.19,69.01|Z|Tirisfal Glades|N|From High Executor Derrington.|
-A The Menders' Stead|QID|26952|PRE|26978|M|83.19,68.62|Z|Tirisfal Glades|N|From Argent Officer Garush.|
+A Lower the Boom|QID|26936|PRE|26930;26978|M|83.19,69.01|Z|Tirisfal Glades|N|From High Executor Derrington. If this step does not auto-complete, check it off manually.|
+A Strange New Faces|QID|26979|PRE|26936;26978|M|83.19,69.01|Z|Tirisfal Glades|N|From High Executor Derrington.|
+A The Menders' Stead|QID|26952|LEAD|26999|PRE|26933|M|83.19,68.62|Z|Tirisfal Glades|N|From Argent Officer Garush.|
 R Charred Outpost|QID|26979|M|40.66,52.08|N|Northeast of Felstone Field.|
 T Strange New Faces|QID|26979|M|40.66,52.08|N|To Lindsay Ravensun.|
 A When Death is Not Enough|QID|26937|PRE|26979|M|40.65,52.03|N|From Lindsay Ravensun.|
@@ -155,7 +160,7 @@ C Zen'Kiki, the Druid|QID|26953|S|M|55.90,63.98|N|Kill plagued wildlife while Ze
 C A New Era for the Plaguelands|QID|26999|M|55.55,64.63|N|The two spider types can be found to the south-east, wolves and bears to the north.|
 C Zen'Kiki, the Druid|QID|26953|US|M|55.90,63.98|N|Kill plagued wildlife while Zen'Kiki is near you.|
 T A New Era for the Plaguelands|QID|26999|M|49.30,54.82|N|To Field Agent Kaartish, back at the Mender's Stead.|
-A Northridge Lumber Mill|QID|26935|PRE|26999|M|49.30,54.82|N|From Field Agent Kaartish.|
+A Northridge Lumber Mill|QID|26935|LEAD|27000|PRE|26999|M|49.30,54.82|N|From Field Agent Kaartish.|
 T Zen'Kiki, the Druid|QID|26953|M|48.97,54.72|N|To Adrine Towhide.|
 A A Different Approach|QID|26954|PRE|26953|M|48.97,54.72|N|From Adrine Towhide.|
 T I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.57,54.87|N|To Selyria Groenveld.|
@@ -164,8 +169,8 @@ T A Different Approach|QID|26954|M|48.94,54.72|N|To Adrine Towhide.|
 r Repair/Restock|QID|26954|M|50.63,53.04|N|At Gurt.|
 R Northridge Lumber Camp|QID|26935|M|48.09,32.46|N|To the north.|
 T Northridge Lumber Mill|QID|26935|M|48.09,32.46|N|To Nathaniel Dumah.|
-A Learning the Ropes|QID|27000|PRE|26935|M|48.09,32.46|N|From Nathaniel Dumah.|
-A Too Close for Comfort|QID|27013|PRE|26935|M|48.40,31.98|N|From Kelly Dumah.|
+A Learning the Ropes|QID|27000|M|48.09,32.46|N|From Nathaniel Dumah.|
+A Too Close for Comfort|QID|27013|M|48.40,31.98|N|From Kelly Dumah.|
 C Too Close for Comfort|QID|27013|M|46.60,30.41|N|Kill foxes to the west of the lumber mill.|
 T Too Close for Comfort|QID|27013|M|48.54,32.06|N|To Kelly Dumah.|
 A Redpine Thievery|QID|27011|PRE|27013|M|48.54,32.06|N|From Kelly Dumah.|
@@ -226,11 +231,11 @@ C Zen'Kiki and the Cultists|QID|26955|US|NC|M|67.04,45.24|N|Release bears from t
 C Students of Krastinov|QID|27055|M|64.52,34.72|N|Head to the cave to the north and kill the various mobs there.|
 T Students of Krastinov|QID|27055|M|49.30,54.85|N|To Field Agent Kaartish, back at the Menders' Stead.|
 T Zen'Kiki and the Cultists|QID|26955|M|48.93,54.73|N|To Adrine Towhide.|
-A Into the Woods|QID|27683|M|48.93,54.73|N|From Adrine Towhide. Pick this up if you'd like to do Eastern Plaguelands next.|
+A Into the Woods|QID|27683|LEAD|27367|M|48.93,54.73|N|From Adrine Towhide. Pick this up if you'd like to do Eastern Plaguelands next.|
 F Andorhal|QID|27083|M|50.49,52.27|
 T The Battle Resumes!|QID|27083|M|46.97,63.90|N|To Koltira Deathweaver.|
 A The Farmers' Militia|QID|27084|PRE|27083|M|46.97,63.90|N|From Koltira Deathweaver.|
-A Ashes to Ashes|QID|27086|PRE|27083|M|46.97,63.90|N|From Koltira Deathweaver.|
+A Ashes to Ashes|QID|27086|PRE|27084|M|46.97,63.90|N|From Koltira Deathweaver.|
 C The Farmers' Militia|QID|27084|U|60815|M|48.20,65.79|N|Use the collar and target the ground where the farmers are running.|
 T The Farmers' Militia|QID|27084|M|46.99,63.88|N|To Koltira Deathweaver.|
 A Supporting the Troops|QID|27085|PRE|27083|M|46.86,63.55|N|From Jearl Donald.|
@@ -239,7 +244,7 @@ C Ashes to Ashes|QID|27086|M|45.64,66.90|N|Kill force-commanders on the other si
 C Supporting the Troops|QID|27085|US|M|45.64,66.90|N|Kill Alliance in Andorhal.|
 T Ashes to Ashes|QID|27086|M|47.01,63.76|N|To Koltira Deathweaver, back at the Horde camp.|
 T Supporting the Troops|QID|27085|M|46.87,63.56|N|To Jearl Donald.|
-A Lindsay Ravensun, Revealed|QID|27087|PRE|27084;27086|M|46.96,63.76|N|From Koltira Deathweaver.|
+A Lindsay Ravensun, Revealed|QID|27087|PRE|27084+27086|M|46.96,63.76|N|From Koltira Deathweaver.|
 T Lindsay Ravensun, Revealed|QID|27087|M|49.01,63.70|N|To Lindsay Ravensun, inside the building.|
 A Ace in the Hole|QID|27089|PRE|27087|M|49.04,63.76|N|From Lady Sylvanas Windrunner.|
 C Ace in the Hole|QID|27089|M|46.07,62.36;43.44,62.32;42.67,62.30;40.66,65.30;40.11,68.11;40.09,70.53|CS|N|Kill farmers near the valkyr to gather 5 undead warriors, then head over to the Alliance side of Andorhal. Go around everyone to the corpse of Lurid.|
