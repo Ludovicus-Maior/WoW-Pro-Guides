@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
+-- Date: 2018-02-20 21:53
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3250/revisions/28890/view
 -- Date: 2018-01-16 23:44
 -- Who: Ludovicus
 -- Log: New Levels
@@ -142,7 +147,7 @@ T The Darkest Depths|QID|27757|M|69.07,76.57|N|To Baba Bogbrew.|
 A Slithering Signs|QID|27818|PRE|27757|M|69.07,76.57|N|From Baba Bogbrew.|
 C Slithering Signs|QID|27818|M|74.0,83.4;79.59,73.98|CN|
 T Slithering Signs|QID|27818|M|69.10,76.44|N|To Baba Bogbrew.|
-A The Dragon and the Temple|QID|27869|PRE|27818|M|69.10,76.44|N|From Baba Bogbrew.|
+A The Dragon and the Temple|QID|27869|LEAD|27694|PRE|27818|M|69.10,76.44|N|From Baba Bogbrew.|
 T The Dragon and the Temple|QID|27869|M|69.47,54.53|N|To Lord Itharius.|
 A Pool of Tears|QID|27694|M|69.5,54.57|N|From Lord Itharius.|
 C Pool of Tears|QID|27694|M|65.95,48.22|
@@ -162,7 +167,7 @@ C Step Three: Prophet|QID|27773|M|76.72,41.57|
 T Step Three: Prophet|QID|27773|M|76.64,41.48|
 A Blessing of the Green Dragonflight|QID|27914|PRE|27773|M|76.64,41.48|
 T Blessing of the Green Dragonflight|QID|27914|M|69.47,54.53|N|To Lord Itharius.|
-A The Heart of the Temple|QID|27915|PRE|27914|M|69.47,54.53|N|From Lord Itharius.|
+A The Heart of the Temple|QID|27915|LEAD|27633|PRE|27914|M|69.47,54.53|N|From Lord Itharius.|
 A To Stonard|QID|27871|M|69.47,54.53|N|From Lord Itharius.|
 T To Stonard|QID|27871|M|49.39,55.39|N|Top of the building.|
 A Orcs and Humans|QID|27852|M|49.39,55.39|N|From Dispatch Commander Ruag.|
@@ -199,8 +204,8 @@ T The Purespring|QID|27909|M|21.24,51.86|N|To Neeka Bloodscar.|
 T Last Regrets|QID|27910|M|21.22,51.87|N|To Neeka Bloodscar.|
 A With Dying Breath|QID|27911|M|21.22,51.87|N|From Neeka Bloodscar.|
 T With Dying Breath|QID|27911|M|21.22,51.87|N|To Neeka Bloodscar.|
-A Ruag's Report|QID|27916|M|21.22,51.87|N|From Neeka Bloodscar.|
+A Ruag's Report|QID|27916|LEAD|28865|PRE|27911|M|21.22,51.87|N|From Neeka Bloodscar.|
 T Ruag's Report|QID|27916|M|49.38,55.36|N|To Dispatch Commander Ruag.|
-A Okrilla and the Blasted Lands|QID|28553|M|49.39,55.39|N|From Dispatch Commander Ruag. Take this if you're going to Blasted Lands next.|
+A Okrilla and the Blasted Lands|QID|28553|LEAD|25674|PRE|27196|M|49.39,55.39|N|From Dispatch Commander Ruag. Take this if you're going to Blasted Lands next.|
 ]]
 end)
