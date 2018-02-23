@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
+-- Date: 2018-02-20 21:46
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3254/revisions/28891/view
 -- Date: 2018-01-16 23:44
 -- Who: Ludovicus
 -- Log: New Levels
@@ -90,7 +95,7 @@ T Warchief's Command: Thousand Needles!|O|QID|28504|LEAD|25478|M|41.86,73.85|Z|D
 A To the Summit|QID|25478|M|41.86,73.85|Z|Dustwallow Marsh|N|From Nyse in Dustwallow Marsh.|
 C To the Summit|QID|25478|M|42.82,72.42|N|Talk to Dyslix Silvergrub and have him send you to Westreach Summit.|
 T To the Summit|QID|25478|M|11.12,11.33|N|To Kanati Greycloud.|
-A The Grimtotem are Coming|QID|25487|PRE|25356;25478|M|11.12,11.33|N|From Kanati Greycloud.|
+A The Grimtotem are Coming|QID|25487|PRE|25356+25478|M|11.12,11.33|N|From Kanati Greycloud.|
 ;lvl
 A Looming Threat|RANK|3|QID|27062|M|11.15,11.21|LVL|42|N|From Kanati Greycloud. Take this if you'd like to do the Razorfen Downs instance.|
 ;rm pre
@@ -111,7 +116,7 @@ B Bottle of Grog|QID|25518|ACTIVE|25518|M|76.55,74.58|N|Go inside and buy a Bott
 C Bar Fight!|QID|25518|M|76.55,74.58|N|Use the Bottle of Grog on a gnome in the bar to start the fight.|U|54747|
 T Bar Fight!|QID|25518|M|78.04,73.66|N|To Zamek.|
 
-A In the Outhouse|QID|25526|PRE|25489|M|79.59,75.04|N|Swim down to the outhouse under the lake - don't worry, you have a buff that lets you breathe underwater here.|
+A In the Outhouse|QID|25526|PRE|25505|M|79.59,75.04|N|Swim down to the outhouse under the lake - don't worry, you have a buff that lets you breathe underwater here.|
 K Treasure Hunters|QID|25526|L|54821|M|79.58,75.03|S|N|Kill treasure hunters until you get the crowbar.|
 C Down in the Deeps|QID|25516|M|81.80,77.15|N|The rocket car parts are scattered all around the lake floor.|
 K Treasure Hunters|QID|25526|L|54821|M|79.58,75.03|US|N|Kill treasure hunters until you get the crowbar.|
@@ -119,17 +124,17 @@ C In the Outhouse|QID|25526|U|54821|M|79.58,75.03|N|Use the crowbar on the outho
 T In the Outhouse|QID|25526|M|79.58,75.03|N|At the outhouse.|
 
 T Down in the Deeps|QID|25516|M|77.10,74.45|N|To Razzeric.|
-A Pirate Accuracy Increasing|QID|25533|PRE|25516;25518|M|77.10,74.45|N|From Razzeric.|
+A Pirate Accuracy Increasing|QID|25533|PRE|25516;25518;25526|M|77.10,74.45|N|From Razzeric.|
 C Pirate Accuracy Increasing|QID|25533|M|79.18,76.61|N|Head to the dock and talk to the goblin there. He'll give you a boat that will act as a pet. Use the main ability to extinguish the fires - it's pretty difficult, just pe patient and aim for the base of the fires.|
 T Pirate Accuracy Increasing|QID|25533|N|(UI Alert)|
 A Circle the Wagons... er, Boats|QID|25543|PRE|25533|N|(UI Alert)|
 C Circle the Wagons... er, Boats|QID|25543|N|This one's much easier, just use the cannon on the boats that are circling the barge.|
 T Circle the Wagons... er, Boats|QID|25543|M|77.18,74.41|N|Hit the exit vehicle button, then turn in your quest to Razzeric. Congradulations on getting your very own river boat!|
-A Quiet the Cannons|QID|25586|PRE|25543|M|77.18,74.41|N|From Razzeric.|
-A Where's Synge?|RANK|2|QID|25596|PRE|25543|M|78.06,73.68|N|From Zamek.|
-A A Little Payback|RANK|2|QID|25589|PRE|25543|M|78.21,73.60|N|From Rugfizzle.|
-A Special Delivery for Brivelthwerp|RANK|2|QID|28042|PRE|25543|M|78.21,73.60|N|From Griznak.|
-A Negotiations|QID|25745|PRE|25543|M|75.94,74.69|N|From Pozzik.|
+A Quiet the Cannons|QID|25586|PRE|25543+25562|M|77.18,74.41|N|From Razzeric.|
+A Where's Synge?|RANK|2|QID|25596|PRE|25543+25562|M|78.06,73.68|N|From Zamek.|
+A A Little Payback|RANK|2|QID|25589|PRE|25543+25562|M|78.21,73.60|N|From Rugfizzle.|
+A Special Delivery for Brivelthwerp|RANK|2|QID|28042|PRE|25543+25562|M|78.21,73.60|N|From Griznak.|
+A Negotiations|QID|25745|PRE|25543+25562|M|75.94,74.69|N|From Pozzik.|
 
 C A Little Payback|RANK|2|QID|25589|M|91.69,79.25|S|N|Kill Southsea Pirates.|
 C Quiet the Cannons|RANK|2|NC|QID|25586|M|91.69,79.25|S|N|Right-click the cannons to destroy them.|
@@ -139,7 +144,7 @@ A Sunken Treasure|RANK|2|QID|25610|PRE|25596|M|91.69,79.25|N|From Synge.|
 C Sunken Treasure|RANK|2|NC|QID|25610|M|84.76,66.51|N|The treasure is located all around the area on the sea floor. Don't worry about the whale shark - it's dead.|
 T Negotiations|QID|25745|M|88.65,54.91|N|To Riznek.|
 A Get Koalbeard!|QID|25757|PRE|25745|M|88.65,54.91|N|From Riznek.|
-A The Ancient Brazier|QID|25762|PRE|25745|M|90.13,53.08|N|From Skycaller Vrakthris.|
+A The Ancient Brazier|QID|25762|PRE|25744+25745|M|90.13,53.08|N|From Skycaller Vrakthris.|
 C Get Koalbeard!|QID|25757|M|86.84,51.48|N|Attack the dwarf until he becomes dazed, then click on him again to get the item.|
 T Get Koalbeard!|QID|25757|M|88.57,54.96|N|To Riznek.|
 A Fool's Gold|QID|25775|PRE|25757|M|88.57,54.96|N|From Riznek.|
@@ -149,7 +154,7 @@ A Two-Tusk Takedown|RANK|2|QID|25628|PRE|25610|M|91.69,79.22|N|From Synge.|
 ;add entrance to cave. expand N
 C Two-Tusk Takedown|RANK|2|QID|25628|U|55158|M|91.87,83.08;95.14,79.50|CS|N|Enter the Admiral's Den. Use the gold on the ogres to make them stop fighting you. Then go after Tony - be careful, he's tough! Turn on nameplates to know in which chest he is.|
 T Two-Tusk Takedown|RANK|2|QID|25628|U|55158|M|91.62,79.23|N|To Synge, back outside.|
-A Haunted|RANK|2|QID|25660|PRE|25628|M|91.62,79.23|N|From Spirit of Tony Two-Tusk.|
+A Haunted|RANK|2|QID|25660|PRE|25627+25628|M|91.62,79.23|N|From Spirit of Tony Two-Tusk.|
 T Haunted|RANK|2|QID|25660|M|96.81,72.39|N|To Ajamon Ghostcaller.|
 A With a Little Help...|RANK|2|QID|25661|PRE|25660|M|96.81,72.39|N|From Ajamon Ghostcaller.|
 ;L=>QO
@@ -161,8 +166,8 @@ A Carcass Collection|RANK|2|QID|25672|PRE|25661|M|96.82,72.50|N|From Ajamon Ghos
 
 C Carcass Collection|RANK|2|QID|25672|NC|M|83.37,82.65|QO|Creature Carcass: 5/10|N|You'll find five turtle carcasses floating on top of the water. We'll finish the quest in a bit.|
 T Special Delivery for Brivelthwerp|RANK|2|QID|28042|M|69.95,85.18|N|To Brivelthwerp.|
-A The Greatest Flavor in the World!|RANK|2|QID|28045|PRE|28031;28042|M|69.95,85.18|N|From Brivelthwerp.|
-A We All Scream for Ice Cream... and then Die!|RANK|2|QID|28051|PRE|28031;28042|M|69.86,85.09|N|From Brivelthwerp.|
+A The Greatest Flavor in the World!|RANK|2|QID|28045|PRE|28031+28042|M|69.95,85.18|N|From Brivelthwerp.|
+A We All Scream for Ice Cream... and then Die!|RANK|2|QID|28051|PRE|28031+28042|M|69.86,85.09|N|From Brivelthwerp.|
 C We All Scream for Ice Cream... and then Die!|RANK|2|QID|28051|M|71.10,81.79|S|N|Right-click the dead employees to attach the rope to them.|
 C The Greatest Flavor in the World!|RANK|2|QID|28045|M|69.42,80.11|N|Swim down to the bottom of the lake and kill Silithid.|
 C We All Scream for Ice Cream... and then Die!|RANK|2|NC|QID|28051|M|71.10,81.79|US|N|Right-click the dead employees to attach the rope to them.|
@@ -212,7 +217,7 @@ A Deliver the Goods|QID|25826|PRE|25814|M|88.58,54.94|N|From Riznek.|
 T A Little Payback|RANK|2|QID|25589|M|78.23,73.60|N|To Rugfizzle, back on the barge.|
 T Quiet the Cannons|RANK|2|QID|25586|M|77.16,74.46|N|To Razzeric.|
 T Deliver the Goods|QID|25826|M|75.94,74.69|N|To Pozzik.|
-A Free Freewind Post|QID|25836|PRE|25826|M|75.94,74.69|N|From Pozzik.|
+A Free Freewind Post|QID|25836|PRE|25704;25826|M|75.94,74.69|N|From Pozzik.|
 
 T Free Freewind Post|QID|25836|M|46.42,57.77|N|Get on your boat and head to Freewind Post. Turn in the quest to Thalia Amberhide.|
 A Grimtotem in the Post|QID|25870|PRE|25836|M|46.42,57.77|N|From Thalia Amberhide.|
@@ -237,7 +242,7 @@ C Darkcloud Grimtotem|QID|27313|M|33.35,37.69|S|N|Kill Grimtotem Tauren.|
 C Grimtotem Chiefs: Isha Gloomaxe|QID|27315|M|43.60,43.73|N|The brave will be your companion for the rest of these quests. Head across the bridge to a tent. Inside, kill Isha Gloomaxe.|
 T Grimtotem Chiefs: Isha Gloomaxe|QID|27315|M|43.60,43.73|N|To the Freewind Brave.|
 A Grimtotem Chiefs: Elder Stormhoof|QID|27319|PRE|27315|M|43.60,43.73|N|From Freewind Brave.|
-A What's that Rattle?|QID|28284|PRE|27315|N|From the Freewind Brave.|
+A What's that Rattle?|QID|28284|LEAD|27317|PRE|27315|N|From the Freewind Brave.|
 T What's that Rattle?|QID|28284|M|43.35,43.43|N|To The Rattle of Bones outside the tent.|
 A The Rattle of Bones|QID|27317|PRE|27276|M|43.35,43.43|N|From The Rattle of Bones.|
 T The Rattle of Bones|QID|27317|M|43.35,43.43|N|To the Freewind Brave.|
@@ -268,7 +273,7 @@ A Invoking the Serpent|QID|27330|PRE|27358|M|39.12,25.84|N|From Lakota Windsong.
 
 C Invoking the Serpent|QID|27330|U|61043|M|38.09,35.40|N|Head out to the summoning fire and use the artifacts to summon Arikara. Kill the tauren when they appear, since they'll make Arikara stronger.|
 T Invoking the Serpent|QID|27330|M|39.15,25.85|N|To Lakota Windsong.|
-A Trouble at Highperch|QID|28085|PRE|27330|M|39.15,25.85|N|From Lakota Windsong.|
+A Trouble at Highperch|QID|28085|PRE|27329+27330|M|39.15,25.85|N|From Lakota Windsong.|
 
 T Trouble at Highperch|QID|28085|M|12.77,33.91|N|Get in your boat, and head to Highperch. Turn in the quest to Pao'ka Swiftmountain. You can jump off the cliff to go down, use a mount to get a nice far jump so you'll land in the water.|
 A Free the Pridelings|QID|28086|PRE|28085|M|12.77,33.91|N|From Pao'ka Swiftmountain.|
@@ -327,7 +332,7 @@ A Spread the Word|QID|28161|PRE|28159|M|50.22,62.57|N|From Magatha Grimtotem.|
 ; insert H
 H Speedbarge Bar|QID|28161|N|Hearth back to the Speedbarge.|
 T Spread the Word|QID|28161|M|75.96,74.67|N|To Pozzik. Congradulations on an awesome reward!|
-A Tanaris is Calling|QID|27447|M|75.94,74.68|N|From Pozzik. Pick this up if you'd like to head to Tanaris next.|
+A Tanaris is Calling|QID|27447|LEAD|24906|M|75.94,74.68|N|From Pozzik. Pick this up if you'd like to head to Tanaris next.|
 ;most likely doesn't have the flightpoint yet
 ;F Gadgetzan|QID|27447|M|79.19,71.89|N|Fly to Gadgetzan.|
 
