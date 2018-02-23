@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2018-02-22 23:10
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3302/revisions/28925/view
 -- Date: 2018-01-17 00:06
 -- Who: Ludovicus
 -- Log: New Levels
@@ -123,7 +128,7 @@ A It's All Fun and Games|QID|12892|PRE|12887|N|Koltira Deathweaver|
 C It's All Fun and Games|QID|12892|N|Fly to the very top of The Shadow Vault. Stay at maximum range (80 yards) and use the Eyesore Blaster. It can't attack you from this range. When you get The Ocular down to 12.6k or less, fly in to its range, let it hit you once (or you won't get credit), and deliver the final blow with the Eyesore Blaster.|M|44.40,21.85|U|41265|
 T It's All Fun and Games|QID|12892|N|From Baron Sliver. He's at the base of The Shadow Vault in the corner.|M|44.09,24.74|
 
-A I Have an Idea, But First...|QID|12891|PRE|12887;12892|N|From Baron Sliver|M|44.09,24.74|
+A I Have an Idea, But First...|QID|12891|PRE|12887+12892|N|From Baron Sliver|M|44.09,24.74|
 C I Have an Idea, But First...|QID|12891|N|You know the plan by now, kill the mobs in the area for the items.|M|43.24,24.97|
 T I Have an Idea, But First...|QID|12891|N|Back to Baron Sliver at|M|44.06,24.74|
 
@@ -140,7 +145,7 @@ T If He Cannot Be Turned|QID|12897|N|To Koltira Deathweaver back to Orgrim's Ham
 A The Shadow Vault|QID|12899|PRE|12898|N|From Koltira Deathweaver|
 T The Shadow Vault|QID|12899|N|Back to Baron Sliver.|M|42.86,24.99|
 
-A The Duke|QID|12938|PRE|12898;12899|N|From Baron Sliver.|M|42.86,24.99|
+A The Duke|QID|12938|PRE|12898+12899|N|From Baron Sliver.|M|42.86,24.99|
 A Blackwatch|QID|13106|N|From Baron Sliver.|M|42.86,24.99|
 f Shadow Vault|QID|12938|N|Get the Flight Path.|M|43.74,24.30|
 T The Duke|QID|12938|N|To Duka Lankral at the back of the Shadow Vault.|M|44.66,20.41|
@@ -342,7 +347,7 @@ C Let's Get Out of Here!|QID|13481|N|Easy escort. Most of the mobs will be fight
 T The Flesh Giant Champion|QID|13235|N|To Darkrider Arly.|M|35.46,66.49|
 T Let's Get Out of Here!|QID|13481|N|Back to Orgrim's Hammer. Brother Keltan patrols around the upper and lower decks.|
 
-A Judgment Day Comes!|QID|13227|N|Brother Keltan patrols around the upper and lower decks.|
+A Judgment Day Comes!|QID|13227|LEAD|13036|N|Brother Keltan patrols around the upper and lower decks.|
 F The Argent Vanguard|QID|13227|N|Fly to the Argent Vanguard.|M|86,76|
 T Judgment Day Comes!|QID|13227|N|To Highlord Tirion Fordring at the Argent Vanguard.|M|87.48,75.86|
 
@@ -385,11 +390,11 @@ T The Last Line Of Defense|QID|13086|N|To Siegemaster Fezzik.|M|85.62,76.01|
 A Once More Unto The Breach, Hero|QID|13104;13105|N|From Highlord Tirion Fordring who moved down.|M|85.98,75.82|
 T Once More Unto The Breach, Hero|QID|13104;13105|N|To The Ebon Watcher just outside The Breach on the left.|M|83.06,72.91|
 
-A The Purging Of Scourgeholme|QID|13118|PRE|13104;13105|N|From The Ebon Watcher.|M|83.06,72.91|
-A The Scourgestone|QID|13122|PRE|13104;13105|N|From The Ebon Watcher.|M|83.06,72.91|
-A It Could Kill Us All|QID|13135|PRE|13104;13105|N|From Crusade Engineer Spitzpatrick.|M|82.99,73.05|
-A The Stone That Started A Revolution|QID|13130|PRE|13104;13105|N|From Crusade Architect Silas|M|83.02,73.05|
-A The Restless Dead|QID|13110|PRE|13104;13105|N|From Father Gustav inside the building|M|82.89,72.79|
+A The Purging Of Scourgeholme|QID|13118|PRE|13104+13105|N|From The Ebon Watcher.|M|83.06,72.91|
+A The Scourgestone|QID|13122|PRE|13104+13105|N|From The Ebon Watcher.|M|83.06,72.91|
+A It Could Kill Us All|QID|13135|PRE|13104+13105|N|From Crusade Engineer Spitzpatrick.|M|82.99,73.05|
+A The Stone That Started A Revolution|QID|13130|PRE|13104+13105|N|From Crusade Architect Silas|M|83.02,73.05|
+A The Restless Dead|QID|13110|PRE|13104+13105|N|From Father Gustav inside the building|M|82.89,72.79|
 C The Scourgestone|QID|13122|N|Loot scourgestones.|S|
 C The Restless Dead|QID|13110|N|Kill the Scourge Skeletons and use the Holy Water on their corpses.|S|U|43153|
 C The Purging Of Scourgeholme|QID|13118|N|Kill scourge. There are 2 High Priests near , you can find the other one ane the Underkings while wandering around.|M|70.80,60.17|
@@ -512,7 +517,7 @@ A Good For Something?|QID|13238|N|From Sky-Reaver Korm Blackscar.|
 A Takes One to Know One|QID|13260|N|From Sky-Reaver Korm Blackscar.|
 T Takes One to Know One|QID|13260|N|To Koltira Deathweaver|
 
-A Poke and Prod|QID|13237|PRE|13260;14447;14448|N|From Koltira Deathweaver|
+A Poke and Prod|QID|13237|PRE|13260+14447+14448|N|From Koltira Deathweaver|
 T Slaves to Saronite|QID|13302|N|To Brother Keltan|
 T Blood of the Chosen|QID|13330|N|To Warbringer Davos Rioht|
 T Good For Something?|QID|13238|N|To Chief Engineer Copperclaw|
@@ -737,7 +742,7 @@ C Against the Giants|QID|13277|N|Kill Pustulent Horrors for their Spines|O|M|65,
 T Against the Giants|QID|13277|O|N|To Koltira Deathweaver on Orgrim's Hammer.|
 
 A Basic Chemistry|QID|13279|PRE|13277|O|N|From Koltira Deathweaver.|
-A Coprous the Defiled|QID|13278|PRE|13277|O|N|From Koltira Deathweaver.|
+A Coprous the Defiled|QID|13278|O|N|From Koltira Deathweaver.|
 C Coprous the Defiled|QID|13278|O|N|Kill Corprous.|M|60.86,62.16|
 C Basic Chemistry|QID|13279|O|M|61.48,63.73|U|44010|N|Follow the instructions|
 
@@ -754,16 +759,16 @@ T No Rest For The Wicked|QID|13367|O|N|To Koltira Deathweaver on Orgrim's Hammer
 T Coprous the Defiled|QID|13278|O|N|To Koltira Deathweaver.|
 T Basic Chemistry|QID|13279|O|N|To Koltira Deathweaver.|
 
-A The Ironwall Rampart|QID|13312|O|N|From Koltira Deathweaver|PRE|13367|
+A The Ironwall Rampart|QID|13312|O|N|From Koltira Deathweaver|
 C The Ironwall Rampart|QID|13312|N|Use the Rune near Grimkor's Orb to summon Grimkor the Wicked|U|44186|M|45.49,46.54|
 T The Ironwall Rampart|QID|13312|N|To Koltira Deathweaver on Orgrim's Hammer.|
 
-A Before the Gate of Horror|QID|13329|N|From Koltira Deathweaver|PRE|13367|
+A Before the Gate of Horror|QID|13329|N|From Koltira Deathweaver|
 C Before the Gate of Horror|QID|13329|N|Kill Skeletal Reavers and use the Acid to dissolve their bones|U|44653|M|44.74,57.27|
 T Before the Gate of Horror|QID|13329|N|From Koltira Deathweaver on Orgrim's Hammer.|
 
-A The Guardians of Corp'rethar|QID|13316|PRE|13329|N|From Koltira Deathweaver|
-A Shatter the Shards|QID|13328|PRE|13329|N|From Koltira Deathweaver|
+A The Guardians of Corp'rethar|QID|13316|N|From Koltira Deathweaver|
+A Shatter the Shards|QID|13328|N|From Koltira Deathweaver|
 C The Guardians of Corp'rethar|QID|13316|N|Kill Harbingers and Guardians|S|M|50.25,66.61|
 
 C Shatter the Shards|QID|13328|QO|2|N|Destroy the Shard of Dispair|M|49.83,66.74|
@@ -781,7 +786,7 @@ T The Rider of the Unholy|QID|13161|N|To Vereth the Cunning|M|54.13,71.15|
 T The Rider of Frost|QID|13162|N|To Vereth the Cunning|M|54.13,71.15|
 T The Rider of Blood|QID|13163|N|To Vereth the Cunning|M|54.13,71.15|
 
-A The Fate of Bloodbane|QID|13164|PRE|13163;13162;13161|N|From Vereth the Cunning|M|54.13,71.15|
+A The Fate of Bloodbane|QID|13164|N|From Vereth the Cunning|M|54.13,71.15|
 C The Fate of Bloodbane|QID|13164|O|M|54.42,86.17|N|In the area under the stairs|
 T The Fate of Bloodbane|QID|13164|O|N|To Vereth the Cunning|M|54.13,71.15|
 ]]
