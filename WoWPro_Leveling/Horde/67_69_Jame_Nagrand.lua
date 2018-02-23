@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2018-02-22 22:57
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3280/revisions/28909/view
 -- Date: 2018-01-16 23:57
 -- Who: Ludovicus
 -- Log: New Levels
@@ -162,7 +167,7 @@ H Garadar|QID|9891|U|6948|N|Hearth to Garadar.|
 T Because Kilrath is a Coward |QID|9891|M|55.5,37.5|N|To Jorin Deadeye.|
 A Message in a Battle |QID|9906|PRE|9891|M|55.5,37.5|N|From Jorin Deadeye.|
 A Standards and Practices |QID|9910|M|55.5,37.5|N|From Elkay'gan the Mystic.|
-A The Consortium Needs You! |QID|9913|M|52.0,35.0|N|From Consortium Recruiter.|
+A The Consortium Needs You! |QID|9913|LEAD|9882|M|52.0,35.0|N|From Consortium Recruiter.|
 N From now on...|QID|9872|N|If you see any Murkblood Invaders kill them until you get the Murkblood Invasion Plans. They wander the road west of Telaar.|
 A Murkblood Invaders|QID|9872|N|(UI alert).|O|
 
@@ -322,7 +327,7 @@ C Cho'war the Pillager |QID|9946|N|He's in the northern cave on that plateau for
 T Cho'war the Pillager |QID|9946|M|32.5,36.0|N|To Elder Yorley.|
 
 T He Called Himself Altruis...|QID|9983|M|27.29,43.1|N|To Altruis the Sufferer.|
-A Survey the Land |QID|9991|PRE|9982;9983|M|27.29,43.1|N|To Altruis the Sufferer.|
+A Survey the Land |QID|9991|PRE|9982+9983|M|27.29,43.1|N|To Altruis the Sufferer.|
 C Survey the Land |N|Make sure you are not mounted when you accept this quest (or if you are just talk to Altruis and say you're ready to survey).  You should fly around automatically.|QID|9991|M|27.29,43.1|
 T Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
 A Buying Time|QID|9999|PRE|9991|M|27.35,43.06|N|From Altruis the Sufferer.|
@@ -388,9 +393,9 @@ T Forge Camp: Annihilated|QID|10011|M|27.32,43.07|N|To Altruis the Sufferer.|
 
 L Level 68|QID|10641|N|The following quests require level 68.|LVL|68|
 N The rest...|N|The following quests Altruis gives (after this note), require level 68 have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
-A Against the Legion|QID|10641|PRE|10640;10689|M|27.35,43.06|N|From Altruis the Sufferer.|
-A Against the Illidari|QID|10668|PRE|10640;10689|M|27.35,43.06|N|From Altruis the Sufferer.|
-A Against All Odds|QID|10669|PRE|10640;10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against the Legion|QID|10641|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against the Illidari|QID|10668|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against All Odds|QID|10669|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Against All Odds|QID|10669|M|15,41|Z|Zangarmarsh|N|Go the waypoint, find the portal, and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
 l Freshly Drawn Blood|QID|10641|Z|Netherstorm|M|40,20|N|Head to Netherstorm then to the waypoint. Kill and loot a Wrath Priestess to get the blood.|L|30850|
 C Against the Legion|QID|10641|M|40,20|Z|Netherstorm|N|Use the Freshly Drawn Blood to lure out the Avatar of Sathal and slay her.|U|30850|
