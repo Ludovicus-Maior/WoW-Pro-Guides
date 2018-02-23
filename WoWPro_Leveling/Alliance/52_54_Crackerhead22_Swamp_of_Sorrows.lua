@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
+-- Date: 2018-02-20 01:14
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3249/revisions/28860/view
 -- Date: 2018-01-16 23:28
 -- Who: Ludovicus
 -- Log: New Levels
@@ -157,7 +162,7 @@ T The Darkest Depths|QID|27757|M|69.08,76.43|N|To Baba Bogbrew.|
 A Slithering Signs|QID|27818|PRE|27757|M|69.08,76.43|N|From Baba Bogbrew.|
 C Slithering Signs|QID|27818|M|74.08,83.40;79.34,61.87|CN|N|Head south from the camp to kill the serpents you need. If you don't get all the hearts you need there, head north to that waypoint.|
 T Slithering Signs|QID|27818|M|69.13,76.35|N|To Baba Bogbrew.|
-A The Dragon and the Temple|QID|27869|PRE|27818|M|69.13,76.35|N|From Baba Bogbrew.|
+A The Dragon and the Temple|QID|27869|LEAD|27694|PRE|27818|M|69.13,76.35|N|From Baba Bogbrew.|
 T The Dragon and the Temple|QID|27869|M|69.45,54.67|N|To Lord Itharius.|
 A Pool of Tears|QID|27694|M|69.45,54.67|N|From Lord Itharius.|
 C Pool of Tears|QID|27694|U|62795|M|66.99,46.98|N|Once your in the Swamp of Sorrows part of the Pool of Tears, use a swim tonic. They can be hard to find as they are small and do not sparkle.|
@@ -179,8 +184,8 @@ C Step Three: Prophet|QID|27773|M|76.64,41.61|N|Jump down one level at a time to
 T Step Three: Prophet|QID|27773|M|76.64,41.61|N|(UI Alert)|
 A Blessing of the Green Dragonflight|QID|27914|PRE|27773|M|76.64,41.61|N|(UI Alert)|
 T Blessing of the Green Dragonflight|QID|27914|M|69.45,54.67|N|To Lord Itharius.|
-A The Heart of the Temple|QID|27915|PRE|27914|O|M|69.45,54.67|N|This quest takes you into the instance of the Sunken Temple. Do it if you wish, if not just skip it.|
-A To Marshtide Watch|QID|27870|PRE|27914|M|69.45,54.67|N|From Lord Itharius.|
+A The Heart of the Temple|QID|27915|LEAD|27633|PRE|27914|O|M|69.45,54.67|N|This quest takes you into the instance of the Sunken Temple. Do it if you wish, if not just skip it.|
+A To Marshtide Watch|QID|27870|LEAD|27822|PRE|27914|M|69.45,54.67|N|From Lord Itharius.|
 R Marshtide Watch|QID|27870|M|66.02,44.06;65.91,39.3|CC|N|Run to Marshtide Watch.|
 T To Marshtide Watch|QID|27870|M|68.04,36.39|N|To Joanna Blueheart.|
 A Orcs and Humans|QID|27821|M|68.04,36.39|N|From Joanna Blueheart.|
@@ -227,7 +232,7 @@ f The Harborage|QID|27851|M|30.78,34.74|N|At Yedrin.|
 T The Harborage|QID|27918|M|26.94,33.77|N|To Anchorite Avuun.|
 A Prayerblossom|QID|27875|M|26.94,33.77|N|From Anchorite Avuun.|
 A Secrets of the Mire|QID|27876|M|26.94,33.77|N|From Anchorite Avuun.|
-A Onward to the Blasted Lands|QID|27919|M|26.94,33.77|N|From Anchorite Avuun.|
+A Onward to the Blasted Lands|QID|27919|LEAD|25715|M|26.94,33.77|N|From Anchorite Avuun.|
 h The Harborage|QID|27919|M|29.00,32.60|N|At Verad.|
 r Sell junk, restock.|QID|27919|
 C Prayerblossom|QID|27875|S|M|36.43,42.55|N|Look for and loot Prayerblossoms. They do sparkle, so it shouldn't be too hard to find the flowers.|
