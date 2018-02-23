@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2018-02-20 01:34
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3311/revisions/28930/view
 -- Date: 2018-01-17 00:11
 -- Who: Ludovicus
 -- Log: New Levels
@@ -156,10 +161,10 @@ L Level 84 |QID|28716|LVL|84|N|You need to be Level 84 to do this guide.|
 
 R Stormwind City |QID|28716|N|The questing will begin in Stormwind City, where you have a dozen quests around Stormwind City before being whisked off to the Twilight Highlands.|
 
-A Hero's Call: Twilight Highlands!|QID|28716|M|62.90,71.78|N|From the Message boards at either end of town.|Z|Stormwind City|
+A Hero's Call: Twilight Highlands!|QID|28716|LEAD|26960|M|62.90,71.78|N|From the Message boards at either end of town.|Z|Stormwind City|
 T Hero's Call: Twilight Highlands!|QID|28716|M|85.62,31.93|N|To King Varian Wrynn.|Z|Stormwind City|
 
-A My Son, the Prince|QID|26960|PRE|28716|M|85.62,31.93|N|From King Varian Wrynn.|Z|Stormwind City|
+A My Son, the Prince|QID|26960|M|85.62,31.93|N|From King Varian Wrynn.|Z|Stormwind City|
 C My Son, the Prince|QID|26960|M|85.64,31.86|Z|Stormwind City|N|Talk to Anduin,|NC|
 T My Son, the Prince|QID|26960|M|85.62,31.93|N|To King Varian Wrynn.|Z|Stormwind City|
 
@@ -175,44 +180,44 @@ C Rallying the Fleet|QID|26975|M|33.33,39.07|N|Speak to Supply Sergeant Graves.|
 T Rallying the Fleet|QID|26975|M|33.33,39.07|N|To Supply Sergeant Graves.|Z|Stormwind City|
 
 A Missing Parts|QID|27038|PRE|26975|M|33.33,39.07|N|From Supply Sergeant Graves.|Z|Stormwind City|
-A Peasant Problems|QID|27044|PRE|26977|M|33.23,39.38|N|From Anduin Wrynn.|Z|Stormwind City|
+A Peasant Problems|QID|27044|PRE|26975|M|33.23,39.38|N|From Anduin Wrynn.|Z|Stormwind City|
 
 C Missing Parts|QID|27038|PRE|26975|M|34.09,43.89|N|Found in this area around the docks.|Z|Stormwind City|NC|
 T Missing Parts|QID|27038|PRE|26975|M|34.50,38.28|N|To Fargo Flintlocke.|Z|Stormwind City|
 
-A He's Holding Out on Us|QID|27064|PRE|26977|N|From Anduin Wrynn|Z|Stormwind City|
+A He's Holding Out on Us|QID|27064|PRE|27038|N|From Anduin Wrynn|Z|Stormwind City|
 C Peasant Problems|QID|27044|NC|M|52.07,6.26|N|Speak to Farmer Wallerton at the Walleton Stead.|Z|Stormwind City|
 T Peasant Problems|QID|27044|M|52.07,6.26|N|To Farmer Wallerton.|Z|Stormwind City|
 
-A Unholy Cow|QID|27060|PRE|26977|M|51.96,5.83|N|From Farmer Wollerton.|Z|Stormwind City|
+A Unholy Cow|QID|27060|PRE|27044|M|51.96,5.83|N|From Farmer Wollerton.|Z|Stormwind City|
 C Unholy Cow|QID|27060|M|44.05,4.28|N|Follow the trail of parts. You will be attacked once the first part of the quest is completed. If you die, then you will need to return to the throne room to retrive the prince again.|Z|Stormwind City|
 T Unholy Cow|QID|27060|M|44.05,4.28|N|To Anduin Wrynn.|Z|Stormwind City|
 
 C He's Holding Out on Us|QID|27064|M|80.39,62.34|N|Head to SI:7 in The Old Town. There is a small stairwell leading up to the 3rd floor.|Z|Stormwind City|NC|
 
 T He's Holding Out on Us|QID|27064|M|80.39,62.34|N|To Anduin Wrynn.|Z|Stormwind City|
-A Expert Opinion|QID|28807|PRE|26977|M|80.39,62.34|N|From Anduin Wrynn|Z|Stormwind City|
+A Expert Opinion|QID|28807|PRE|27060+27064|M|80.39,62.34|N|From Anduin Wrynn|Z|Stormwind City|
 T Expert Opinion|QID|28807|M|81.28,63.32|N|To Master Mathias Shaw, same building.|Z|Stormwind City|
 
-A The Old Barracks|QID|27072|PRE|26977|M|81.28,63.32|N|From Master Mathias Shaw.|Z|Stormwind City|
+A The Old Barracks|QID|27072|PRE|28807|M|81.28,63.32|N|From Master Mathias Shaw.|Z|Stormwind City|
 C The Old Barracks|QID|27072|M|37.24,56.47|N|Head to the Ruined Barracks. Kill crazed cultists. Work on the building at the waypoint, since you need to make your way down to the bottom floor to turn in this quest.|Z|Stormwind City|
 T The Old Barracks|QID|27072|M|37.24,56.47|N|To Jack Bauden, bottom floor. Fly in through the broken wall.|Z|Stormwind City|
 
-A Cataclysm in the Catacombs|QID|27092|PRE|26977|M|37.24,56.47|N|From Jack Bauden.|Z|Stormwind City|
+A Cataclysm in the Catacombs|QID|27092|PRE|27072|M|37.24,56.47|N|From Jack Bauden.|Z|Stormwind City|
 C Cataclysm in the Catacombs|QID|27092|M|51.30,42.30|N|Head to the Cathedral of Light, then back right hand side will be the route down to the catacombs found in the bottom of the Cathedral of Light. Kill the Black Bishop and then disarm the bomb.|Z|Stormwind City|
 T Cataclysm in the Catacombs|QID|27092|M|50.45,42.42|N|To the disarmed bomb.|Z|Stormwind City|
 
-A A Villain Unmasked|QID|27106|PRE|26977|M|50.45,42.42|N|From the disarmed bomb.|Z|Stormwind City|
+A A Villain Unmasked|QID|27106|PRE|27092|M|50.45,42.42|N|From the disarmed bomb.|Z|Stormwind City|
 C A Villain Unmasked|QID|27106|M|85.19,32.25|N|Head to Stormwind Keep, and talk to Major Samuelson. Once confronted, he will turn into a Level 84 elite, which the Guards will help you defeat.|Z|Stormwind City|
 T A Villain Unmasked|QID|27106|M|85.66,32.00|N|To King Varian Wrynn.|Z|Stormwind City|
 
-A Twilight Shores|QID|28238|PRE|26977|M|85.66,32.00|N|From King Varian Wrynn.|Z|Stormwind City|
+A Twilight Shores|QID|28238|PRE|27106|M|85.66,32.00|N|From King Varian Wrynn.|Z|Stormwind City|
 T Twilight Shores|QID|28238|M|26.19,47.29|N|To Fargo Flintlocke in Stormwind Harbour.|Z|Stormwind City|
 
-A Twilight Shores|QID|28832|PRE|26977|M|26.19,47.29|N|From Fargo Flintlocke. Then hop in his boat.|Z|Stormwind City|
+A Twilight Shores|QID|28832|PRE|28238|M|26.19,47.29|N|From Fargo Flintlocke. Then hop in his boat.|Z|Stormwind City|
 T Twilight Shores|QID|28832|M|80.99,79.43|N|Hop into Flintlocke's Seaplane which will take you to The Twilight Highlands, then to Lieutenant Fawkes.|
 
-A Welcome to Highbank!|QID|28596|PRE|26977|M|80.99,79.43|N|From Lieutenant Fawkes.|
+A Welcome to Highbank!|QID|28596|PRE|28832|M|80.99,79.43|N|From Lieutenant Fawkes.|
 C Welcome to Highbank!|QID|28596|M|79.04,76.01|N|Kill the Axebite Infantry (avoid the Bilgewater Gunman as well as Grit's 387k and a PvP flag)|
 T Welcome to Highbank!|QID|28596|M|80.99,79.43|N|To Lieutenant Fawkes.|
 
@@ -224,10 +229,10 @@ A Aiming High|QID|28598|PRE|28597|M|78.68,76.85|N|From Fargo Flintlocke.|
 C Aiming High|QID|28598|U|64660|M|78.68,76.85|N|Wait for a few seconds before you are loaded into the cannon. Once you arrive on the Skyshredder, plant the explosive, then jump off the flying boat.|NC|
 T Aiming High|QID|28598|M|78.68,76.85|N|To Fargo Flintlocke.|
 
-A Kurdran's Waitin'|QID|28599|PRE|28597|M|78.93,76.70|N|From Fargo Flintlocke.|
+A Kurdran's Waitin'|QID|28599|PRE|28598|M|78.93,76.70|N|From Fargo Flintlocke.|
 T Kurdran's Waitin'|QID|28599|M|79.10,78.32|N|To Kurdran Wildhammer upstairs inside the castle.|
 
-A Our Boys on the Shore|QID|27338|PRE|28597|M|79.10,78.32|N|From Kurdran Wildhammer.|
+A Our Boys on the Shore|QID|27338|PRE|28599|M|79.10,78.32|N|From Kurdran Wildhammer.|
 A Salvage Operation|QID|27177|PRE|28599|M|79.28,78.47|N|From Simon Chandler.|S|
 A Naga Reinforcements|QID|27178|PRE|28599|M|78.28,78.47|N|From Simon Chandler.|
 A Salvage Operation|QID|27177|PRE|28599|M|79.28,78.47|N|From Simon Chandler.|US|
@@ -259,7 +264,7 @@ C Shredderectomy|QID|27433|M|70.10,66.99|N|Kill the mechanicals for shredder par
 T Scouting the Shore|QID|27341|M|76.84,69.83|N|To Lieutenant Emry.|S|
 T Landgrab|QID|27366|M|76.84,69.83|N|To Lieutenant Emry.|
 T Scouting the Shore|QID|27341|M|76.84,69.83|N|To Lieutenant Emry.|US|
-A Bird Down! Bird Down!|QID|27514|PRE|27341;27366|M|76.84,69.83|N|From Lieutenant Emry.|
+A Bird Down! Bird Down!|QID|27514|PRE|27341+27366|M|76.84,69.83|N|From Lieutenant Emry.|
 
 T Shredderectomy|QID|27433|M|76.93,69.79|N|To Fargo Flintlocke.|
 A Siege Tank Rescue|QID|27468|PRE|27433|M|76.93,69.79|N|From Fargo Flintlocke.|
@@ -310,12 +315,12 @@ T Welcome Relief|QID|27803|M|60.08,58.00|N|To Keegan Firebeard.|S|
 T The Only Homes We Have|QID|27804|M|60.08,58.00|N|To Keegan Firebeard.|
 T Welcome Relief|QID|27803|M|60.08,58.00|N|To Keegan Firebeard.|US|
 
-A Honorable Bearing|QID|27806|PRE|27803|M|60.08,58.00|N|From Keegan Firebeard.|
+A Honorable Bearing|QID|27806|PRE|27803;27804|M|60.08,58.00|N|From Keegan Firebeard.|
 
 A Small Comforts|QID|27805|PRE|27803|M|60.39,58.25|N|From Cailin Longfellow inside the building.|
-C Meara's Dried Roses|QID|27805|QO|Meara's Dried Roses: 1/1|M|59.85,56.20|N|Up the stone to enter the house, then left and left.|NC|
-C Aprika's Doll|QID|27805|QO|Aprika's Doll: 1/1|M|59.46,55.88|N|Small blue bear.|NC|
-C Small Comforts|QID|27805|QO|Parlan's Ivory Hammer: 1/1|M|59.32,56.88|N|Enter and to the left.|NC|
+C Meara's Dried Roses|QID|27805|QO|1|M|59.85,56.20|N|Up the stone to enter the house, then left and left.|NC|; Meara's Dried Roses: 1/1
+C Aprika's Doll|QID|27805|QO|3|M|59.46,55.88|N|Small blue bear.|NC|; Aprika's Doll: 1/1
+C Small Comforts|QID|27805|QO|2|M|59.32,56.88|N|Enter and to the left.|NC|; Parlan's Ivory Hammer: 1/1
 T Small Comforts|QID|27805|M|60.40,58.24|N|To Cailin Longfellow inside the building.|
 
 T Honorable Bearing|QID|27806|M|57.44,58.09|N|To Iain Firebeard.|
@@ -398,14 +403,14 @@ A Anything But Water|QID|27647|PRE|27644|M|52.93,74.36|N|From Eoin Dunwald.|
 C Anything But Water|QID|27647|M|52.83,69.78|N|Downstairs. You will be ambushed, so be prepared. Eoin will help you though. Kegs are to your right.|
 T Anything But Water|QID|27647|M|52.42,70.39|N|To Eoin Dunwald.|
 
-A A Steady Supply|QID|27649|PRE|27644|M|52.42,70.39|N|From Eoin Dunwald.|
+A A Steady Supply|QID|27649|PRE|27647|M|52.42,70.39|N|From Eoin Dunwald.|
 
 T Donnelly Dunwald|QID|27643|M|46.53,59.17|N|To Donnelly Dunwald.|
 A Finding Beak|QID|27646|PRE|27643|M|46.53,59.17|N|From Donnelly Dunwald.|
 
 C A Steady Supply|QID|27649|S|M|49.54,71.85|N|Kegs in the buildings.|
-C Finding Beak|QID|27646|QO|Search the buildings in eastern Dunwald Hovel: 1/1|M|48.44,52.57|N|Enter the building.|
-C Finding Beak|QID|27646|QO|Search the cellar in northwestern Dunwald Hovel: 1/1|M|46.11,54.40|N|In the celler.|
+C Finding Beak|QID|27646|QO|3|M|48.44,52.57|N|Enter the building.|; Search the buildings in eastern Dunwald Hovel: 1/1
+C Finding Beak|QID|27646|QO|1|M|46.11,54.40|N|In the celler.|; Search the cellar in northwestern Dunwald Hovel: 1/1
 C Finding Beak|QID|27646|M|45.83,59.28|N|Head inside and downwards.|
 
 T Finding Beak|QID|27646|M|46.05,58.69|N|To Donnelly Dunwald.|
@@ -426,7 +431,7 @@ T While Meeting The Family|QID|27641|M|50.51,70.68|N|To Flynn Dunwald.|
 T Sifting Through The Wreckage|QID|27642|M|50.51,70.68|N|To Flynn Dunwald.|
 
 A Dragonmaw Takedown|QID|27754|M|48.93,29.82|N|From Colin Thundermar.|
-A My Sister, Fanny|QID|28369|M|48.93,29.82|N|From Colin Thundermar.|
+A My Sister, Fanny|QID|28369|LEAD|27753|M|48.93,29.82|N|From Colin Thundermar.|
 T A Coward's Due|QID|28001|M|48.93,29.82|N|From Colin Thundermar.|
 
 r Sell junk, Repair/Restock|QID|28369|M|49.04,29.15|
@@ -541,7 +546,7 @@ T Wild, Wild, Wildhammer Wedding|QID|28655|M|55.21,17.25|N|To Kurdran Wildhammer
 A The Maw of Madness|QID|27374|PRE|28655|M|55.21,17.25|N|From Lachlan MacGraff.|
 T The Maw of Madness|QID|27374|M|44.09,10.61|N|To Earthcaller Torunscar.|
 
-A Torn Ground|QID|27299|PRE|27374;27375|M|44.09,10.61|N|From Earthcaller Torunscar.|
+A Torn Ground|QID|27299|PRE|27374+27375|M|44.09,10.61|N|From Earthcaller Torunscar.|
 C Torn Ground|QID|27299|M|45.11,12.72|N|Go down and kill the non-elite Tentacles of Iso'rath.|
 T Torn Ground|QID|27299|M|44.09,10.61|N|To Earthcaller Torunscar.|
 
@@ -575,10 +580,10 @@ C The Worldbreaker|QID|27378|M|33.12,50.10|Z|The Maelstrom|N|Nothing to do. Be s
 T The Worldbreaker|QID|27378|M|48.68,16.57|N|To Earthcaller Yevaa.|
 
 A The Terrors of Iso'rath|QID|27379|PRE|27378|M|48.68,16.57|N|From Earthcaller Yevaa.|
-C Save Stormcaller Jalara|QID|27379|QO|Save Stormcaller Jalara: 1/1|M|49.58,15.74|N|Use the protective bubbles to heal up and get rid of the debuff. Kill the tentacle holding Stormcaller Jalara.|
-C Save Earthmender Duar|QID|27379|QO|Save Earthmender Duarn: 1/1|M|49.05,13.05|N|Use the protective bubbles to heal up and get rid of the debuff. Kill the tentacle holding Earthmender Duarn.|
-C Save Hargoth Dimblaze|QID|27379|QO|Save Hargoth Dimblaze: 1/1|M|47.25,13.61|N|Use the protective bubbles to heal up and get rid of the debuff. Kill the tentacle holding Hargoth Dimblaze.|
-C The Terrors of Iso'rath|QID|27379|QO|Save Stormcaller Mylra: 1/1|M|47.48,15.30|N|Use the protective bubbles to heal upand get rid of the debuff. Kill the tentacle holding Stormcaller Mylra.|
+C Save Stormcaller Jalara|QID|27379|QO|2|M|49.58,15.74|N|Use the protective bubbles to heal up and get rid of the debuff. Kill the tentacle holding Stormcaller Jalara.|; Save Stormcaller Jalara: 1/1
+C Save Earthmender Duar|QID|27379|QO|3|M|49.05,13.05|N|Use the protective bubbles to heal up and get rid of the debuff. Kill the tentacle holding Earthmender Duarn.|; Save Earthmender Duarn: 1/1
+C Save Hargoth Dimblaze|QID|27379|QO|1|M|47.25,13.61|N|Use the protective bubbles to heal up and get rid of the debuff. Kill the tentacle holding Hargoth Dimblaze.|; Save Hargoth Dimblaze: 1/1
+C The Terrors of Iso'rath|QID|27379|QO|2|M|47.48,15.30|N|Use the protective bubbles to heal upand get rid of the debuff. Kill the tentacle holding Stormcaller Mylra.|; Save Stormcaller Mylra: 1/1
 T The Terrors of Iso'rath|QID|27379|M|48.67,16.64|N|To Earthcaller Yevaa.|
 
 A Nightmare|QID|27380|PRE|27379|M|48.67,16.64|N|From Earthcaller Yevaa.|
@@ -589,7 +594,7 @@ A Warm Welcome|QID|27485|PRE|27380|M|44.06,10.50|N|From Lauriel Trueblade.|
 C Warm Welcome|QID|27485|M|27.55,21.37|N|Head towards the waypoint and watch the scene.|
 T Warm Welcome|QID|27485|M|29.34,26.00|N|To Calen.|
 
-A Even Dragons Bleed|QID|27504|PRE|27485;27486|M|29.34,26.00|N|From Calen.|
+A Even Dragons Bleed|QID|27504|PRE|27485+27486|M|29.34,26.00|N|From Calen.|
 f Vermillion Redoubt|QID|27509|M|28.47,24.95|N|At Aquinastrasz.|
 T Even Dragons Bleed|QID|27504|M|29.84,31.15|N|To Velastrasza.|
 
@@ -629,7 +634,7 @@ A Easy Pickings|QID|28103|PRE|28101|M|26.02,38.92|N|From Master Mathias Shaw.|
 A Precious Goods|QID|28104|PRE|28101|M|26.02,38.92|N|From Master Mathias Shaw.|
 
 C Easy Pickings|QID|28103|M|25.21,36.76|N|Kill 8 Twilight Spearwardens.|S|
-l Twilight Caravan Cargo Key|QID|28104|M|25.21,36.76|QO|Twilight Caravan Cargo Key: 1/1|N|Kill and loot Twilight Spearwardens until you get the key.|
+l Twilight Caravan Cargo Key|QID|28104|M|25.21,36.76|QO|1|N|Kill and loot Twilight Spearwardens until you get the key.|; Twilight Caravan Cargo Key: 1/1
 C Precious Goods|QID|28104|M|24.69,37.89|N|Use the key at the Twilight Caravan Chest to get the Gatestone.|
 C Easy Pickings|QID|28103|M|25.21,36.76|N|Kill 8 Twilight Spearwardens.|US|
 
@@ -650,7 +655,7 @@ A Pressing Forward|QID|28109|PRE|28108|M|29.23,52.03|N|From Highbank Lieutenant.
 C Pressing Forward|QID|28109|M|22.92,56.10|N|Head to the waypoint.|
 T Pressing Forward|QID|28109|M|22.16,56.50|N|To Calen.|
 
-A Enter the Dragon Queen|QID|28712|PRE|28109;28093|M|21.81,56.98|N|From Alexstrasza the Life-Binder.|
+A Enter the Dragon Queen|QID|28712|PRE|28109+28093|M|21.81,56.98|N|From Alexstrasza the Life-Binder.|
 T Enter the Dragon Queen|QID|28712|M|14.89,16.36|N|To Lirastrasza.|
 
 A Battle of Life and Death|QID|28758|PRE|28712|M|14.15,15.47|N|From Calen.|
@@ -676,7 +681,7 @@ T Blackout|QID|28173|M|59.07,69.87|N|To Lirastrasza.|
 T Shining Through the Dark|QID|28175|M|59.07,69.87|N|To Velastrasza.|
 
 A Following the Young Home|QID|28176|PRE|28173;28175;28191|M|59.07,69.87|N|From Lirastrasza.|
-C Following the Young Home|QID|28176|QO|Obsidian Whelps hatched: 1/1|U|63126|M|57.97,80.33|N|Use Mother's Flame on the Obsidian Eggs.|
+C Following the Young Home|QID|28176|QO|1|U|63126|M|57.97,80.33|N|Use Mother's Flame on the Obsidian Eggs.|; Obsidian Whelps hatched: 1/1
 C Following the Young Home|QID|28176|M|55.63,83.74|N|Just follow the tunnel downward.|
 T Following the Young Home|QID|28176|M|44.92,91.02|N|To Baleflame.|
 
@@ -694,12 +699,12 @@ A SI:7 Drop|QID|27490|PRE|28248|M|43.39,57.48|N|From Cassius the White.|
 f Victor's Point|QID|27496|M|43.82,57.31|N|At Desmond Chadsworth.|
 r Sell junk, Repair/Restock|QID|27499|M|43.81,57.74|
 
-C SI:7 Drop|QID|27490|QO|Get Wildhammer squad: 1/1|M|43.82,57.31|N|Talk to Angus, just left of the flight master, to pick up your squad.|
+C SI:7 Drop|QID|27490|QO|1|M|43.82,57.31|N|Talk to Angus, just left of the flight master, to pick up your squad.|; Get Wildhammer squad: 1/1
 C SI:7 Drop|QID|27490|M|39.24,64.58|N|Head to the waypoint and land on the blue X that is on the ground.|
 C Ogres & Ettins|QID|27492|M|43.03,63.11|S|N|Kill Twilight Ogres and Ettins.|
-N Southwestern building targeted|QID|27496|QO|Southwestern building targeted: 1/1|U|61363|M|39.66,69.23|N|Southwestern building targeted.|
-N Southern building targeted|QID|27496|QO|Southern building targeted: 1/1|U|61363|M|41.36,73.73|N|Southern building targeted.|
-N Northeastern building targeted|QID|27496|QO|Northeastern building targeted: 1/1|U|61363|M|41.02,64.30|N|Northeasterb building targeted.|
+N Southwestern building targeted|QID|27496|QO|3|U|61363|M|39.66,69.23|N|Southwestern building targeted.|; Southwestern building targeted: 1/1
+N Southern building targeted|QID|27496|QO|1|U|61363|M|41.36,73.73|N|Southern building targeted.|; Southern building targeted: 1/1
+N Northeastern building targeted|QID|27496|QO|1|U|61363|M|41.02,64.30|N|Northeasterb building targeted.|; Northeastern building targeted: 1/1
 C Call in the Artillery|QID|27496|U|61363|M|38.87,61.16|N|Northern building targeted.|
 C Ogres & Ettins|QID|27492|M|43.03,63.11|US|N|Finish killing Twilight Ogres and Ettins.|
 
@@ -716,12 +721,12 @@ C Signal the Attack|QID|27498|U|61511|M|40.41,62.38|N|Get to the top of the Gate
 T Signal the Attack|QID|27498|M|40.41,62.38|N|(UI Alert)|
 
 A Four Heads are Better than None|QID|27500|PRE|27498|M|40.41,62.38|N|(UI Alert)|
-C Beeble's and Phod|QID|27500|QO|Beeble's Head: 1/1|M|39.77,71.35;38.87,70.94|CS|N|Enter the cave and head to the right. Kill and loot Beeble'phod for his two heads. Don't forget your towel.|
+C Beeble's and Phod|QID|27500|QO|3|M|39.77,71.35;38.87,70.94|CS|N|Enter the cave and head to the right. Kill and loot Beeble'phod for his two heads. Don't forget your towel.|; Beeble's Head: 1/1
 C Four Heads are Better than None|QID|27500|M|37.93,71.35|N|Head to the other side and kill then loot Za'brox for his heads.|
 T Four Heads are Better than None|QID|27500|M|43.43,57.42|N|To Cassius the White.|
 
 A Up to the Citadel|QID|27502|PRE|27500|M|43.43,57.42|N|From Cassius the White.|
-N Speak to the Squad Commander|QID|27502|M|38.95,64.01|QO|Speak to the Squad commander: 1/1|N|Do what the step title says.|
+N Speak to the Squad Commander|QID|27502|M|38.95,64.01|QO|1|N|Do what the step title says.|; Speak to the Squad commander: 1/1
 C Up to the Citadel|QID|27502|M|37.33,66.09|N|Stay with the SI:7 group, the move sloooow.|
 T Up to the Citadel|QID|27502|M|37.33,66.08|N|To Cho'gall.|
 
@@ -737,13 +742,13 @@ C Dark Assassins|QID|27652|M|37.97,77.93|S|N|Kill and loot any Dark Assassin you
 
 T Help from the Earthcaller|QID|27657|M|37.52,88.68|N|To Earthcaller Yevaa.|
 
-A Portal Overload|QID|27659|PRE|27657;27658|M|37.52,88.68|N|From Earthcaller Yevaa.|
-A Spirit of the Loch|QID|27660|PRE|27657;27658|M|37.52,88.68|N|From Earthcaller Yevaa.|
-A Unbinding|QID|27662|PRE|27657;27658|M|37.52,88.68|N|From Initiate Goldmine.|
+A Portal Overload|QID|27659|PRE|27657+27658|M|37.52,88.68|N|From Earthcaller Yevaa.|
+A Spirit of the Loch|QID|27660|PRE|27657+27658|M|37.52,88.68|N|From Earthcaller Yevaa.|
+A Unbinding|QID|27662|PRE|27657+27658|M|37.52,88.68|N|From Initiate Goldmine.|
 
 C Unbinding|QID|27662|S|M|43.29,78.33|N|Kill any Enslaved Elemental you see.|
-K Apexar slain|QID|27659|QO|Debilitated Apexar slain: 1/1|M|38.14,80.32|N|Click on the Earth Portal Vontroller, then kill Apexar.|
-K Aetharon slain|QID|27659|QO|Debilitated Aetharon slain: 1/1|M|44.28,81.51|N|Way up in the air. Click on the Earth Portal Controller, then kill Aetharon.|
+K Apexar slain|QID|27659|QO|1|M|38.14,80.32|N|Click on the Earth Portal Vontroller, then kill Apexar.|; Debilitated Apexar slain: 1/1
+K Aetharon slain|QID|27659|QO|2|M|44.28,81.51|N|Way up in the air. Click on the Earth Portal Controller, then kill Aetharon.|; Debilitated Aetharon slain: 1/1
 C Portal Overload|QID|27659|M|33.02,62.42|N|Click on the Earth Portal Controller, then kill Edemantus.|
 C Unbinding|QID|27662|US|M|34.29,69.07|N|Finish killing Enslaved Elementals.|
 C Dark Assassins|QID|27652|M|37.97,77.93|US|N|Kill and loot any Dark Assassin you see for their pendants.|
@@ -757,11 +762,11 @@ T Bring the Hammer Down|QID|27654|M|36.34,66.10|N|To Master Mathias Shaw.|
 
 A Distract Them for Me|QID|27688|PRE|27652;27654|M|36.34,66.10|N|From Master Mathias Shaw.|
 A The Elementium Axe|QID|27695|PRE|27652;27654|M|36.34,66.10|N|From Master Mathias Shaw.|
-K Master Klem|QID|27688|M|36.14,70.84|QO|Master Klem slain: 1/1|N|Head down into the pit and attack Master Klem. Get him down in health, then Mathias will help kill him.|
+K Master Klem|QID|27688|M|36.14,70.84|QO|2|N|Head down into the pit and attack Master Klem. Get him down in health, then Mathias will help kill him.|; Master Klem slain: 1/1
 
 C Fire the Cannon|QID|27661|M|40.88,78.89|N|Kill Lord Cannon.|
 C The Elementium Axe|QID|27695|M|40.04,83.94|N|Kill and loot Blindeye the Guardian.|
-K Mia the Rose|QID|27688|M|42.31,83.47|QO|Mia the Rose slain: 1/1|N|Kill Mia the Rose, she is at the top of the building stealthed.|
+K Mia the Rose|QID|27688|M|42.31,83.47|QO|3|N|Kill Mia the Rose, she is at the top of the building stealthed.|; Mia the Rose slain: 1/1
 C Distract Them for Me|QID|27688|M|43.07,88.01|N|Finally kill Dame Alys Finnsson.|
 
 T Unbinding|QID|27662|M|37.61,88.66|N|To Initiate Goldmine.|
@@ -783,22 +788,22 @@ A Coup de Grace|QID|27702|PRE|27700|M|36.34,66.10|N|From Master Mathias Shaw.|
 C Coup de Grace|QID|27702|M|35.62,73.86|N|Find a downed Twilight Skyterror and attack it to kill it.|
 T Coup de Grace|QID|27702|M|36.33,66.09|N|To Master Mathias Shaw.|
 
-A Back to the Elementium Depths|QID|27711|PRE|27702;27719;27659;27662|M|36.33,66.09|N|From Master Mathias Shaw.|
+A Back to the Elementium Depths|QID|27711|LEAD|27720|PRE|27702;27719;27659;27662|M|36.33,66.09|N|From Master Mathias Shaw.|
 T Back to the Elementium Depths|QID|27711|M|37.51,88.63|N|To Initiate Goldmine.|
 
 A Mr. Goldmine's Wild Ride|QID|27720|PRE|27659;27662|M|37.51,88.63|N|From Initiate Goldmine.|
 C Mr. Goldmine's Wild Ride|QID|27720|M|38.29,93.90|N|Talk to Initiate Goldmine when you're ready. Enjoy the ride!|
 T Mr. Goldmine's Wild Ride|QID|27720|M|38.29,93.90|N|To Initiate Goldmine.|
 
-A A Little on the Side|QID|27742|PRE|27720;28885|M|38.29,93.90|N|From Initiate Goldmine.|
-A While We're Here|QID|27743|PRE|27720;28885|M|38.29,93.90|N|From Initiate Goldmine.|
+A A Little on the Side|QID|27742|PRE|27720+28885|M|38.29,93.90|N|From Initiate Goldmine.|
+A While We're Here|QID|27743|PRE|27720+28885|M|38.29,93.90|N|From Initiate Goldmine.|
 
 C A Little on the Side|QID|27742|S|M|38.96,94.10|N|Pick up Elementuim Shards off the ground, or kill and loot Elementum Spinners.|
 C While We're Here|QID|27743|S|M|37.09,95.53|N|Kill any Twilight mob you see.|
-A Rune Ruination|QID|27744|PRE|27720;28885|M|37.45,93.21|N|From the Twilight Rune of Earth.|
-C Rune of Earth|QID|27744|QO|Rune of Earth destroyed: 1/1|M|37.42,93.24|N|Click on the Rune of Earth to destroy it.|
-C Rune of Water|QID|27744|QO|Rune of Water destroyed: 1/1|M|35.15,90.39|N|Click on the Rune of Water to destroy it.|
-C Rune of Air|QID|27744|QO|Rune of Air destroyed: 1/1|M|33.52,88.41|N|Click on the Rune of Air to destroy it.|
+A Rune Ruination|QID|27744|PRE|27720+28885|M|37.45,93.21|N|From the Twilight Rune of Earth.|
+C Rune of Earth|QID|27744|QO|1|M|37.42,93.24|N|Click on the Rune of Earth to destroy it.|; Rune of Earth destroyed: 1/1
+C Rune of Water|QID|27744|QO|1|M|35.15,90.39|N|Click on the Rune of Water to destroy it.|; Rune of Water destroyed: 1/1
+C Rune of Air|QID|27744|QO|1|M|33.52,88.41|N|Click on the Rune of Air to destroy it.|; Rune of Air destroyed: 1/1
 C Rune Ruination|QID|27744|M|34.32,86.70|N|Click on the Rune of Fire to destroy it.|
 C While We're Here|QID|27743|US|M|37.09,95.53|N|Finish killing Twilight mobs.|
 C A Little on the Side|QID|27742|US|M|38.96,94.10|N|Finish getting Elementium Shards.|
@@ -808,7 +813,7 @@ T A Little on the Side|QID|27742|M|38.96,94.10|N|To Initiate Goldmine.|
 T Rune Ruination|QID|27744|M|34.91,85.75|N|To Initiate Goldmine.|
 
 A A Fiery Reunion|QID|27745|PRE|27742;27743;27744|M|34.91,85.75|N|From Initiate Goldmine.|
-C A Fiery Reunion|QID|27745|QO|Fire Portal Controller: 1/1|M|36.4,83.77|N|Kill the fire elemental and retrieve the controller.|
+C A Fiery Reunion|QID|27745|QO|2|M|36.4,83.77|N|Kill the fire elemental and retrieve the controller.|; Fire Portal Controller: 1/1
 C A Fiery Reunion|QID|27745|M|36.4,83.77|U|62394|N|Use the controller from within the circle.|
 T A Fiery Reunion|QID|27745|M|37.58,88.69|N|To Initiate Goldmine.|
 
