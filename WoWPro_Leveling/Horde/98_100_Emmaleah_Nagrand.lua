@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2018-02-22 23:36
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3605/revisions/28950/view
 -- Date: 2018-01-17 00:40
 -- Who: Ludovicus
 -- Log: New Levels
@@ -151,7 +156,7 @@ N Beginnings|QID|34794|N|This guide begins at your garrison to take the free fli
 N Bonus Objectives|QID|34794|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.|
 
 T News from Nagrand|QID|36607;36602|M|45.82,42.96|Z|Frostwall|N|To Rokhan.|
-A Taking the Fight to Nagrand|QID|34794|M|45.82,42.96|Z|Frostwall|N|From Rokhan.|
+A Taking the Fight to Nagrand|QID|34794|LEAD|34795|M|45.82,42.96|Z|Frostwall|N|From Rokhan.|
 C Taking the Fight to Nagrand|QID|34794;36952|M|45.91,51.14|Z|Frostwall|CHAT|N|Take the chat flight option (not the flightpath) at Bron Skyhorn.|
 C Taking the Fight to Nagrand|QID|34794;36952|M|86.37,66.18|CHAT|
 T Taking the Fight to Nagrand|QID|34794;36952|M|86.37,66.18|N|To Stone Guard Brox.|
@@ -268,9 +273,9 @@ A New Babies|QID|34900|PRE|34819|M|79.23,52.63|N|From Digrem Orebar.|RANK|2|
 C New Babies|QID|34900|M|60.85,47.24|NC|S|N|The non agro baby clefthoofs are what you are looking for, you will probably have to kill the accompanying adults first.|RANK|2|
 R Telaar|QID|34914|M|68.56,64.51|RANK|2|
 T Target of Opportunity: Telaar|QID|34914|M|68.56,64.51|N|To Shadow Hunter Kajassa.|RANK|2|
-A I Help Ya Kill Dem|QID|34915|M|68.56,64.51|N|From Shadow Hunter Kajassa.|RANK|2|
-A The Blessing of Samedi|QID|34916|M|68.56,64.51|N|From Shadow Hunter Kajassa.|RANK|2|
-A Shields Up!|QID|34917|M|68.56,64.51|N|From Rangari Keilnei.|RANK|2|
+A I Help Ya Kill Dem|QID|34915|PRE|34914|M|68.56,64.51|N|From Shadow Hunter Kajassa.|RANK|2|
+A The Blessing of Samedi|QID|34916|PRE|34914|M|68.56,64.51|N|From Shadow Hunter Kajassa.|RANK|2|
+A Shields Up!|QID|34917|PRE|34914|M|68.56,64.51|N|From Rangari Keilnei.|RANK|2|
 C I Help Ya Kill Dem|QID|34915|M|66.50,62.89|S|N|Kill the warsong invaders as you go about your business in Telaar.|RANK|2|
 C The Blessing of Samedi|QID|34916|NC|U|112166|QO|3|M|68.53,67|N|Use the provided fetish to bless Shadow Hunter J'wan lying on the floor inside the building.|RANK|2|
 C Shields Up!|QID|34917|NC|QO|3|M|68.01,67.96|N|Click on the crystal beside the small tent.|RANK|2|
@@ -283,7 +288,7 @@ C I Help Ya Kill Dem|QID|34915|M|66.50,62.89|US|N|You should have finished killi
 T I Help Ya Kill Dem|QID|34915|M|68.54,64.52|N|To Shadow Hunter Kajassa.|RANK|2|
 T The Blessing of Samedi|QID|34916|M|68.54,64.52|N|To Shadow Hunter Kajassa.|RANK|2|
 T Shields Up!|QID|34917|M|68.54,64.52|N|To Shadow Hunter Kajassa.|RANK|2|
-A Shields Down!|QID|34918|M|68.54,64.52|N|From Shadow Hunter Kajassa.|RANK|2|
+A Shields Down!|QID|34918|PRE|34915;34916;34917|M|68.54,64.52|N|From Shadow Hunter Kajassa.|RANK|2|
 C Shields Down!|QID|34918|T|Packleader Kargora|M|66.67,66.06|RANK|2|
 l Abu'gar's Vitality|QID|36711|L|114242|M|65.83,61.51;65.82,61.14|CS|N|Mouseover to find Abu'gar's fishing pole on the ledge below you.  Once you find it step off (dismounted so you don't go out too far).|RANK|3|
 C King of the Breezestriders|QID|35378|M|57.83,69.78|RANK|2|
@@ -301,7 +306,7 @@ T Trouble at the Overwatch|QID|35150|M|83.05,67.95|N|To (stealthed) Akrosh.|RANK
 A Obtaining Ogre Offensive Orders|QID|35157|PRE|35150|M|83.05,67.95|N|From Akrosh.|RANK|2|
 A Obliterating Ogres|QID|35155|PRE|35150|M|83.05,67.95|N|From Akrosh.|RANK|2|
 C Obliterating Ogres|QID|35155|S|M|83.38,74.85|RANK|2|
-A Removing the Paper Trail|QID|35156|M|81.34,70.38|RANK|2|
+A Removing the Paper Trail|QID|35156|PRE|35150|M|81.34,70.38|RANK|2|
 K Thulgork|QID|35157|QO|2|M|83.20,70.39|T|Thulgork|RANK|2|
 K Crulgorosh|QID|35157|QO|1|M|84.05,73.42|T|Crulgorosh|RANK|2|
 C Removing the Paper Trail|QID|35156|NC|M|82.01,73.68|RANK|2|
@@ -316,7 +321,7 @@ C Reglakk's Research|QID|35158|T|Bulgorg the Wind Slayer|M|81.51,76.63|N|Attack 
 H Wor'var|QID|35159|M|81.07,77.89|N|Hearth Back to your outpost if you can or run from here, this portal will take you to the base of the overlook so you don't have to fight your way back down.|RANK|2|
 T Reglakk's Research|QID|35158|M|82.83,45.06|N|To Thrall.|RANK|2|
 A Along the Riverside|QID|35095|PRE|34899|M|82.83,45.06|N|From Thrall.|RANK|2|
-A The Farseer Awaits|QID|34964|M|82.83,45.06|N|From Thrall.|RANK|2|
+A The Farseer Awaits|QID|34964|LEAD|34965|PRE|34918;35158|M|82.83,45.06|N|From Thrall.|RANK|2|
 T Removing the Reinforcements|QID|35159|M|82.93,44.13|N|To Foreman Thazz'ril.|RANK|2|
 
 R Spriteleaf Thicket|QID|35146|M|84.2,28.4|RANK|2|
@@ -343,9 +348,9 @@ T The Farseer Awaits|QID|34964|M|71.71,19.61|N|To Farseer Drek'Thar.|RANK|2|
 A Called to the Throne|QID|34965|M|71.71,19.61|N|From Farseer Drek'Thar.|RANK|2|
 C Called to the Throne|QID|34965|M|71.71,19.61|CHAT|N|Wait for the dialog to finish and then the next quests are available.|RANK|2|
 T Called to the Throne|QID|34965|M|71.71,19.61|N|To Farseer Drek'Thar.|RANK|2|
-A Elemental Attunement|QID|34891|M|71.71,19.61|N|From Incineratus.|RANK|2|
-A Earth, Wind and Fire...and Water|QID|34881|PRE|35331|M|71.34,17.83|N|From Incineratus.|RANK|2|
-A Guardians of the Plateau|QID|34893|PRE|35331|M|71.34,17.83|N|From Incineratus.|RANK|2|
+A Elemental Attunement|QID|34891|PRE|34964|M|71.71,19.61|N|From Incineratus.|RANK|2|
+A Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.83|N|From Incineratus.|RANK|2|
+A Guardians of the Plateau|QID|34893|M|71.34,17.83|N|From Incineratus.|RANK|2|
 A An Old Friend|QID|34943|PRE|35331|M|72.75,19.66|N|From Kalandrios.|RANK|2|
 T An Old Friend|QID|34943|M|73.75,16.56;75.07,22.75|CS|N|To Gar'rok.|RANK|2|
 A A Rare Bloom|QID|34894|PRE|34943|M|75.07,22.75|N|From Gar'rok.|RANK|2|
@@ -377,16 +382,16 @@ T A Wrong of Earth and Fire|QID|33928|M|71.34,17.89|N|To Incineratus.|RANK|2|
 T Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.89|N|To Incineratus.|RANK|2|
 T Guardians of the Plateau|QID|34893|M|71.37,17.99|N|To Incineratus.|RANK|2|
 T Elemental Attunement|QID|34891|M|71.71,19.68|N|To Farseer Drek'Thar.|RANK|2|
-A The Ritual of Binding|QID|35265|M|71.72,19.64|N|From Farseer Drek'Thar.|RANK|2|
+A The Ritual of Binding|QID|35265|PRE|34941;33928;34893|M|71.72,19.64|N|From Farseer Drek'Thar.|RANK|2|
 C The Ritual of Binding|QID|35265|CHAT|M|72.68,19.70|RANK|2|
 T The Ritual of Binding|QID|35265|M|71.70,19.65|N|To Farseer Drek'Thar.|RANK|2|
 A The Call of Oshu'gun|QID|35232|M|71.70,19.65|N|From Farseer Drek'Thar.|RANK|2|
 
 C The Call of Oshu'gun|QID|35232|M|73.69,26.64|CHAT|N|Take the chat option NOT a flightpath.|RANK|2|
 T The Call of Oshu'gun|QID|35232|M|55.52,55.92|N|To Farseer Drek'Thar.|RANK|2|
-A Spiritual Matters|QID|35231|M|55.52,55.92|N|From Farseer Drek'Thar.|RANK|2|
-A Dark Binding|QID|35144|M|55.52,55.92|N|From Farseer Drek'Thar.|RANK|2|
-A The Pale Threat|QID|35145|M|55.52,55.92|N|From Farseer Drek'Thar.|RANK|2|
+A Spiritual Matters|QID|35231|PRE|35232|M|55.52,55.92|N|From Farseer Drek'Thar.|RANK|2|
+A Dark Binding|QID|35144|PRE|35232|M|55.52,55.92|N|From Farseer Drek'Thar.|RANK|2|
+A The Pale Threat|QID|35145|PRE|35232|M|55.52,55.92|N|From Farseer Drek'Thar.|RANK|2|
 A Silence the Call|QID|35084|PRE|35372|M|55.45,55.92|N|From the Shamanstone.|RANK|2|
 A Disrupt the Rituals|QID|35083|PRE|35372|M|55.45,55.92|N|From the Shamanstone.|RANK|2|
 
@@ -398,8 +403,8 @@ C Dark Binding|QID|35144|US|M|66.31,17.68|Z|The Underpale@NagrandDraenor|RANK|2|
 C The Pale Threat|QID|35145|US|QO|2|M|66.31,17.68|Z|The Underpale@NagrandDraenor|RANK|2|
 T Dark Binding|QID|35144|M|46.02,32.72|N|To Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
 T The Pale Threat|QID|35145|M|46.02,32.72|N|To Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
-A The Fate of Gordawg|QID|34271|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
-A The Dark Heart of Oshu'gun|QID|35317|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
+A The Fate of Gordawg|QID|34271|PRE|35144;35145|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
+A The Dark Heart of Oshu'gun|QID|35317|PRE|35144;35145|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
 C The Fate of Gordawg|QID|34271|M|41.21,40.82|T|Gordawg|N|Kill Gordawg|Z|The Underpale@NagrandDraenor|RANK|2|
 C The Dark Heart of Oshu'gun|QID|35317|M|17.1,66.23|T|Decimatus|N|Listen to Chogall and Gul'dan and then kill Decimatus.|Z|The Underpale@NagrandDraenor|RANK|2|
 R Spirit Woods|QID|35084|M|22.76,65.79;9.95,61.41|CS|Z|The Underpale@NagrandDraenor|N|Follow Farseer Drek'Thar out for a shortcut.|RANK|2|
@@ -460,10 +465,10 @@ A Lost in Nagrand|QID|35167|M|49.31,47.99|N|From Mankrik.|RANK|2|
 T Along the Riverside|QID|35095|M|48.58,48.22|N|To Durotan.|RANK|2|
 A Terms of Surrender|QID|35096|PRE|35095|M|48.58,48.22|N|From Durotan.|RANK|2|
 T Terms of Surrender|QID|35096|M|55.50,42.10|N|To Uruk Foecleaver.|RANK|2|
-A The Pride of Lok-rath|QID|35097|M|55.50,42.10|N|From Uruk Foecleaver.|RANK|2|
-A Silence the War Machines|QID|35099|M|55.44,42.08|N|From Senior Sergeant Igerdes.|RANK|2|
-A If They Won't Surrender...|QID|35100|M|55.44,42.08|N|From Senior Sergeant Igerdes.|RANK|2|
-A Terror of Nagrand|QID|35101|M|56.10,43.76|N|From Fallen Horde Soldier.|RANK|2|
+A The Pride of Lok-rath|QID|35097|PRE|35096|M|55.50,42.10|N|From Uruk Foecleaver.|RANK|2|
+A Silence the War Machines|QID|35099|PRE|35097|M|55.44,42.08|N|From Senior Sergeant Igerdes.|RANK|2|
+A If They Won't Surrender...|QID|35100|PRE|35097|M|55.44,42.08|N|From Senior Sergeant Igerdes.|RANK|2|
+A Terror of Nagrand|QID|35101|PRE|35097|M|56.10,43.76|N|From Fallen Horde Soldier.|RANK|2|
 C Silence the War Machines|QID|35099|M|55.69,46.39|S|N|These are shown on your map by yellow dots.|RANK|2|
 C If They Won't Surrender...|QID|35100|M|53.93,45.40|S|RANK|2|
 C Terror of Nagrand|QID|35101|M|58.08,43.23|T|Shagor|RANK|2|
@@ -478,10 +483,10 @@ A Lok-rath is Secured|QID|35098|M|48.60,48.22|N|From Durotan.|RANK|2|
 H Wor'var|QID|35098|M|48.60,48.22|N|Back to the outpost.|RANK|2|
 
 T Lok-rath is Secured|QID|35098|M|82.84,45.07|N|To Thrall.|RANK|2|
-A And Justice for Thrall|QID|35171|M|82.84,45.07|N|From Thrall.|RANK|2|
-A Bread and Circuses|QID|35922|M|82.84,46.84|N|From Lucy Brokerblast.|LEAD|34662|RANK|2|
+A And Justice for Thrall|QID|35171|PRE|35098|M|82.84,45.07|N|From Thrall.|RANK|2|
+A Bread and Circuses|QID|35922|PRE|35098|M|82.84,46.84|N|From Lucy Brokerblast.|RANK|2|
 T Bread and Circuses|QID|35922|M|79.46,50.31|N|To Dexyl Deadblade.|RANK|2|
-A Ring of Trials: Crushmaul|QID|34662|M|79.46,50.31|N|From Dexyl Deadblade.|RANK|2|
+A Ring of Trials: Crushmaul|QID|34662|PRE|35922|M|79.46,50.31|N|From Dexyl Deadblade.|RANK|2|
 C Ring of Trials: Crushmaul|QID|34662|M|77.61,49.55|QO|1|CHAT|RANK|2|
 C Ring of Trials: Crushmaul|QID|34662|M|78.26,50.72|QO|2|N|Don't stand in front of his boar when it is running around riderless or you will be stunned.|RANK|2|
 T Ring of Trials: Crushmaul|QID|34662|M|79.46,50.28|N|To Dexyl Deadblade.|RANK|2|
