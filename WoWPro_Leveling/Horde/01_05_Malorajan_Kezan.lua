@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2018-02-20 01:56
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Lost Isles
+
+-- URL: http://wow-pro.com/node/3212/revisions/29071/view
+-- Date: 2018-02-20 01:49
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Kezan
+
+-- URL: http://wow-pro.com/node/3212/revisions/28570/view
 -- Date: 2017-03-23 18:59
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -227,7 +237,7 @@ T Good Help is Hard to Find|QID|14069|M|60.35,74.64|N|To Foreman Dampwick.|
 
 ;L Level 2|QID|14069|LVL|2|N|You should be around level 2 by this point.|
 
-A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|PRE|14075+14069|
+A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|PRE|14069;14075|
 T Kaja'Cola|QID|25473|M|56.53,76.97|N|To Sassy Hardwrench.|
 
 A Megs in Marketing|QID|28349|M|56.53,76.97|N|From Sassy Hardwrench.|PRE|25473|
@@ -269,11 +279,11 @@ C Necessary Roughness|QID|24502|M|47.70,57.75|N|Head to the Bilgewater Buccaneer
 C Necessary Roughness|QID|24502|M|47.70,57.75|N|Use Key 1 to take out the Steamwheedle Shark shredders until you have footbombed eight of them.|QO|2|NC|
 T Necessary Roughness|QID|24502|M|47.70,57.75|N|(UI Alert)|
 
-A Fourth and Goal|QID|24503|M|47.70,57.75|N|(UI Alert)|PRE|24502|
+A Fourth and Goal|QID|24503|M|47.70,57.75|N|(UI Alert)|
 C Fourth and Goal|QID|24503|M|47.70,57.75|N|Use Key 1 to kick a footbomb between the smoke stacks.|NC|
 T Fourth and Goal|QID|24503|M|48.62,57.74|N|Wait until the dragon finishes his attack, then To Coach Crosscheck.|U|46856|
 
-A Give Sassy the News|QID|24520|M|48.62,57.74|N|From Coach Crosscheck.|PRE|24503|
+A Give Sassy the News|QID|24520|M|48.62,57.74|N|From Coach Crosscheck.|PRE|24503+28414|
 
 H KTC Headquarters|QID|14109;14110|M|56.62,76.90|N|Hearthstone, or ride back to KTC Headquarters.|U|46856|ACTIVE|14109;14110|
 T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane, back at KTC Headquarters.|GEN|MALE|U|46856|
@@ -283,8 +293,8 @@ T Do it Yourself|QID|14070|M|56.42,76.97|N|To Sassy Hardwrench.|
 
 L Level 3|QID|14113|LVL|3|N|You need to be level 3 to continue this guide.|
 
-A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|14070|
-A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|14070|
+A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|24520;14070;14109|
+A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|24520;14070;14110|
 C Life of the Party|QID|14113;14153|M|60.21,85.76|N|Entertain 10 Partygoers. \nUse Key 1 (Bubbly) for those holding a drink glass\nUse Key 2 (Bucket) if they have blue swirls over their head.\nUse Key 3 (Dance) if they are dancing\nUse Key 4 (Fireworks) if they are holding a red sparkler\nUse Key 5 (Hors D'oeuvres) if they are holding a chicken drumstick.\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
 T Life of the Party|QID|14113;14153|M|56.52,76.95|N|To Sassy Hardwrench.|
 
