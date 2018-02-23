@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2018-02-20 00:59
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3225/revisions/29019/view
 -- Date: 2018-02-19 23:26
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -214,8 +219,8 @@ C Respect for the Fallen|QID|13626|U|45044|M|26.30,38.43|N|Back down the tower, 
 T Respect for the Fallen|QID|13626|M|26.67,36.90|N|To Sentinel Onaeya.|
 
 C Rear Guard Duty|QID|13632|M|30.24,31.40|S|N|Kill any type of Furbolgs.|
-N Deactivate Green Moonstone |QID|13630|M|27.50,33.15|N|Deactivate the Green Moonstone.|QO|Green Moonstone deactivated: 1/1|
-N Deactivate Red Moonstone |QID|13630|M|28.60,31.70|N|Deactivate the Red Moonstone.|QO|Red Moonstone deactivated: 1/1|
+N Deactivate Green Moonstone |QID|13630|M|27.50,33.15|N|Deactivate the Green Moonstone.|QO|1|; Green Moonstone deactivated: 1/1
+N Deactivate Red Moonstone |QID|13630|M|28.60,31.70|N|Deactivate the Red Moonstone.|QO|1|; Red Moonstone deactivated: 1/1
 C The Reason Why|QID|13630|M|30.30,31.40|N|Deactivate the Blue Moonstone.|
 C Rear Guard Duty|QID|13632|M|30.24,31.40|US|N|Kill any type of Furbolgs.|
 T The Reason Why|QID|13630|M|27.07,36.16|N|To Moon Priestess Maestra.|
@@ -287,7 +292,7 @@ A Agents of Destruction|QID|26457|M|84.02,62.71|N|From Sentinel Luciel Starwhisp
 A Destroy the Legion|QID|26444|M|84.06,62.74|N|From Vindicator Vedaar.|
 C Agents of Destruction|QID|26457|S|M|88.73,57.88|N|Kill Horde mobs.|
 C Recover the Remains|QID|13869|S|M|88.14,61.47|N|Loot Warsong Lumber off the ground.|
-K Overseer Gorthak|QID|26457|M|89.81,58.05|N|Overseer Gorthak is in this building.|QO|Overseer Gorthak slain: 1/1|
+K Overseer Gorthak|QID|26457|M|89.81,58.05|N|Overseer Gorthak is in this building.|QO|1|; Overseer Gorthak slain: 1/1
 C Agents of Destruction|QID|26457|US|M|90.90,58.98|N|Finish killing any mobs you need.|
 C Recover the Remains|QID|13869|US|M|87.74,58.96|N|Finish looting Warsong Lumber.|
 T Agents of Destruction|QID|26457|M|83.95,62.65|N|To Sentinel Luciel Starwhisper.|
@@ -309,7 +314,7 @@ T Destroy the Legion|QID|26444|M|84.03,62.83|N|To Vindicator Vedaar.|
 C Closure is Only Natural|QID|13766|S|U|45545|M|82.53,80.62|N|Use the twig on the green portals as you encounter them.|
 
 R Path to Gorgannon|QID|26445|CC|M|84.25,71.81;84.09,77.06;87.24,79.33;89.39,77.08|N|Follow the waypoints.|
-K Gorgannon|QID|26445|N|Be aware of the mobs close to him, he calls for help. Once you kill him loot his Blade.|QO|Gorgannon's Flaming Blade: 1/1|
+K Gorgannon|QID|26445|N|Be aware of the mobs close to him, he calls for help. Once you kill him loot his Blade.|QO|1|; Gorgannon's Flaming Blade: 1/1
 R Path to the Seeker.|QID|26445|CC|M|82.64,77.86;78.44,81.59|N|Follow the waypoints.|
 C Never Again!|QID|26445|M|78.28,83.79|N|Look for the skull on the mini-map, kill Diathorus the Seeker and loot his spear.|
 C Closure is Only Natural|QID|13766|US|U|45545|M|81.21,79.87|
@@ -321,8 +326,8 @@ T The Shadewalker|QID|13792|M|75.61,76.08|N|To Gaivan Shadewalker.|
 A Insane Druids|QID|26472|PRE|13792|M|75.61,76.08|N|From Gaivan Shadewalker.|
 A The Forest Heart|QID|13796|PRE|13792|M|75.56,75.94|N|From Gaivan Shadewalker.|
 l Untainted Spirits|QID|13796|S|M|75.07,74.22|N|Make sure you kill ATLEAST 7 Severed Druids, and loot 7 Untainted Spirits as you go.|L|45571 7|
-K Taneel Darkwood|QID|26472|M|77.14,74.21|N|Get to the bottom of the Barrow Den, Straight across the first bridge is Taneel Darkwood.|QO|Taneel Darkwood slain: 1/1|
-K Uthil Mooncall|QID|26472|M|78.08,72.81|QO|Uthil Mooncall slain: 1/1|N|Follow the dots on the ground in the direction of the waypoint. Kill Uthil Mooncall.|
+K Taneel Darkwood|QID|26472|M|77.14,74.21|N|Get to the bottom of the Barrow Den, Straight across the first bridge is Taneel Darkwood.|QO|1|; Taneel Darkwood slain: 1/1
+K Uthil Mooncall|QID|26472|M|78.08,72.81|QO|2|N|Follow the dots on the ground in the direction of the waypoint. Kill Uthil Mooncall.|; Uthil Mooncall slain: 1/1
 R Path to the heart|QID|26472|M|77.87,73.54;77.04,74.20;75.86,73.56;75.99,74.05|CC|
 l Untainted Spirits|QID|13796|S|M|75.07,74.22|N|Make sure you kill ATLEAST 7 Severed Druids, and loot 7 Untainted Spirits as you go.|L|45571 7|
 C The Forest Heart|QID|13796|M|83.76,63.11|N|Right click on your 7 Untainted Spirits, then loot the forest heart.|U|45571|
@@ -434,7 +439,7 @@ f Stardust Spire|QID|13913|M|35.06,72.02|N|At Myre Moonglide.|
 r Repair/Sell|QID|26470|M|34.71,71.31|N|From the Boyer in the tower.|
 
 C Retaking Mystral Lake|QID|26470|M|52.78,71.67|N|Kill elementals until you're done.|S|
-K Tidress|QID|26470|M|48.23,70.63|QO|Tideress slain: 1/1|N|Kill Tidress on the isle.|
+K Tidress|QID|26470|M|48.23,70.63|QO|2|N|Kill Tidress on the isle.|; Tideress slain: 1/1
 C Retaking Mystral Lake|QID|26470|M|52.78,71.67|N|Kill elementals until you're done.|US|
 T Dartol's Rod|QID|26480|M|53.07,71.67;54.00,73.93;50.89,75.07|CS|N|Do not Kill Krolg, use the rod then turn the quest into Krolg.|U|46739|
 A King of the Foulweald|QID|13989|PRE|26480|M|50.89,75.07|N|From Krolg.|
