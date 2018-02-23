@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2018-02-20 21:06
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3228/revisions/28878/view
 -- Date: 2018-01-16 23:38
 -- Who: Ludovicus
 -- Log: New Levels
@@ -254,7 +259,7 @@ C Making Stumps|QID|13815|U|45807|US|M|86.51,54.67|N|Finish chopping the needed 
 
 T Making Stumps|QID|13815|U|45710|M|82.52,53.78|N|Use the Signal Powder again to summon Krokk. Turn in your quest.|
 T Wet Work|QID|13865|M|82.52,53.78|N|To Krokk.|
-A As Good as it Gets|QID|13870|PRE|13865|RANK|2|M|82.52,53.78|N|From Krokk.|
+A As Good as it Gets|QID|13870|PRE|13815;13865|RANK|2|M|82.52,53.78|N|From Krokk.|
 
 T As Good as it Gets|QID|13870|M|90.93,58.29|N|To Overseer Gorthak.|
 A Security!|QID|13871|PRE|13870|RANK|1|M|90.93,58.29|N|From Overseer Gorthak.|
@@ -263,7 +268,7 @@ T Security!|QID|13871|M|90.94,58.12|N|To Overseer Gorthak.|
 A Sheelah's Last Wish|QID|13873|PRE|13871|RANK|1|M|90.79,58.24|N|From Guardian Menerin.|
 
 T Sheelah's Last Wish|QID|13873|M|89.59,48.71|N|To Guardian Gurtar.|
-A Gurtar's Request|QID|13875|PRE|13873|RANK|1|M|89.59,48.71|N|From Guardian Gurtar.|
+A Gurtar's Request|QID|13875|RANK|1|M|89.59,48.71|N|From Guardian Gurtar.|
 l Thorned Bloodcup|QID|13875|L|46315 8|M|86.52,54.98|N|Collect 8 Thorned Bloodcups sparking on the ground,  These are tricky to see, but the red flowers are found all over the lumber camp (They do not show on the mini map for herb gatherers).|
 C Gurtar's Request|QID|13875|U|46316|M|86.52,54.98|N|Use the Orc-Hair Braid to make the Bloodcup Braid.|
 
@@ -410,7 +415,7 @@ C Put Out The Fire|QID|13884|US|M|52.16,49.41|N|Freezing Surger will help you. I
 
 T Hot Lava|QID|13880|M|52.38,56.63|N|To Core.|
 T Put Out The Fire|QID|13884|M|52.15,56.72|N|To Arctanus.|
-A Vortex|QID|13888|PRE|13880|RANK|2|M|52.36,56.84|N|From The Vortex.|
+A Vortex|QID|13888|PRE|13880;13884|RANK|2|M|52.36,56.84|N|From The Vortex.|
 
 C Vortex|QID|13888|M|47.05,39.08|N|Speak to Vortex when ready to go. Use his attacks to defeat Lord Magmathar.|
 T Vortex|QID|13888|M|52.06,56.46|N|To Stikwad.|
@@ -445,7 +450,7 @@ T Je'neu of the Earthen Ring|QID|824|RANK|2|M|10.00,14.00|N|To Je'neu Sancrea. H
 F Orgrimmar|QID|26416|N|Fly to Orgrimmar.|O|
 
 T Well, Come to the Jungle|QID|26416|M|51.31,56.19|Z|Orgrimmar|N|To Bort.|O|
-A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|RANK|2|M|51.31,56.19|Z|Orgrimmar|N|If you plan on going to Stranglethorn Vale. From Bort.|O|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|LEAD|26278|PRE|26416|RANK|2|M|51.31,56.19|Z|Orgrimmar|N|If you plan on going to Stranglethorn Vale. From Bort.|O|
 
 ]]
 end)
