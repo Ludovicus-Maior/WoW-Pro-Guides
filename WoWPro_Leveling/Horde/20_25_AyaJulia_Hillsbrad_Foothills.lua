@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
+-- Date: 2018-02-20 21:05
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3223/revisions/28877/view
 -- Date: 2018-01-16 23:37
 -- Who: Ludovicus
 -- Log: New Levels
@@ -96,7 +101,7 @@ C Welcome to the Machine|QID|28096|QO|2|M|29.35,63.45|N|Wait for Kingslayer Orku
 C Welcome to the Machine|QID|28096|QO|3|M|29.35,63.45|N|Wait for Johnny Awesome to come to you, then speak to him.|CHAT|
 T Welcome to the Machine|QID|28096|M|29.23,63.35|N|To High Executor Darthalia.|
 
-A Trouble at Azurelode|QID|28111|M|29.23,63.35|N|From High Executor Darthalia.|PRE|28096|
+A Trouble at Azurelode|QID|28111|LEAD|28138|M|29.23,63.35|N|From High Executor Darthalia.|PRE|28096|
 A Glorious Harvest|QID|28114|M|29.20,64.04|N|From Apothecary Underhill.|PRE|28096|
 A Past Their Prime|QID|28115|M|29.20,64.04|N|From Apothecary Underhill.|PRE|28096|
 r Sell, repair, and restock.|QID|28116|M|28.83,64.11|N|At Harland Waldek.|RANK|3|
@@ -122,7 +127,7 @@ T Coastal Delicacies!|QID|28146|M|33.29,73.54|N|To Spider-Handler Sarus.|
 T Thieving Little Monsters!|QID|28144|M|33.29,73.54|N|To Captain Keyton.|
 T Muckgill's Flipper or Something...|QID|28154|M|33.29,73.54|N|To Captain Keyton.|
 
-A Human Infestation|QID|28138|M|33.29,73.54|N|From Captain Keyton.|PRE|28111|
+A Human Infestation|QID|28138|M|33.29,73.54|N|From Captain Keyton.|
 C Human Infestation|QID|28138|M|36.63,70.20|N|Bring the health of the Hillsbrad Sentry down to 35%, then use the Titanium Shackles on them.|U|63079|S|
 A Deep Mine Rescue|QID|28156|PRE|28096|M|36.63,70.20|N|Work through the mine to the north until you find Dumass.|
 C Deep Mine Rescue|QID|28156|M|33.29,73.54|N|Dumass will stay with you whilst you leave the mine.|NC|S|
@@ -131,14 +136,14 @@ C Deep Mine Rescue|QID|28156|M|33.29,73.54|N|Leave the mine and head back to Cap
 T Deep Mine Rescue|QID|28156|M|33.29,73.54|N|To Captain Keyton.|
 T Human Infestation|QID|28138|M|33.29,73.54|N|To Captain Keyton.|
 
-A Trouble at the Sludge Fields|QID|28168|M|33.29,73.54|N|From Captain Keyton.|PRE|28144;28138|
+A Trouble at the Sludge Fields|QID|28168|LEAD|28192|M|33.29,73.54|N|From Captain Keyton.|PRE|28144|
 
 R The Sludge Fields|QID|28168|M|35.35,61.85|N|Run up the path to the right of the mines, then head towards The Sludge Fields.|
 r Sell, repair, and restock.|QID|28168|M|35.59,61.04|N|With Marcus Hagnod.|S|ACTIVE|28168|
 h The Sludge Fields |QID|28168|N|An Innkeeper is available at this location (you will not need to hearth back to this location).|M|35.9,61.1|S|ACTIVE|28168|
 T Trouble at the Sludge Fields|QID|28168|M|36.18,61.14|N|To Warden Stillwater.|
 
-A No One Here Gets Out Alive|QID|28192|M|36.18,61.14|N|From Warden Stillwater. Accepting the quest will give you a cut-scene showing you the area around Sludge Fields.|PRE|28168|
+A No One Here Gets Out Alive|QID|28192|M|36.18,61.14|N|From Warden Stillwater. Accepting the quest will give you a cut-scene showing you the area around Sludge Fields.|PRE|28096|
 T No One Here Gets Out Alive|QID|28192|M|36.18,61.14|N|To Warden Stillwater.|
 
 A Discretion is Key|QID|28197|M|36.18,61.14|N|From Warden Stillwater.|PRE|28192|
@@ -157,7 +162,7 @@ T For Science!|QID|28199|M|36.34,60.25|N|To Flesh-Shaper Arnauld.|
 T Discretion is Key|QID|28197|M|36.18,61.14|N|To Warden Stillwater.|
 T The Battle for Hillsbrad|QID|28196|M|36.18,61.14|N|To Warden Stillwater.|
 
-A Little Girl Lost|QID|28206|M|36.18,61.14|N|From Warden Stillwater.|PRE|28197;28199|
+A Little Girl Lost|QID|28206|M|36.18,61.14|N|From Warden Stillwater.|PRE|28196;28197;28199|
 T Little Girl Lost|QID|28206|M|40.32,59.40|N|To Johnny Awesome.|
 A Freedom for Lydon|QID|28209|M|40.31,59.30|N|From Master Apothecary Lydon.|PRE|28206|
 C Freedom for Lydon|QID|28209|M|39.13,60.07|N|Kill and loot the Infected Sludge Guards until Lydon's Cage Key drops.|
@@ -214,7 +219,7 @@ T Preemptive Strike|QID|28356|M|49.15,66.34|N|To Helcular.|
 
 T Helcular's Rod Giveth...|QID|28331|M|49.15,66.34|N|To Helcular.|
 T Helcular's Command|QID|28332|M|49.15,66.34|N|To Helcular.|
-A Can You Smell What the Lok'tar is Cooking?|QID|28344|M|49.15,66.34|N|From Helcular.|PRE|28331;28332;28096|
+A Can You Smell What the Lok'tar is Cooking?|QID|28344|LEAD|28345|M|49.15,66.34|N|From Helcular.|PRE|28331;28332;28096|
 T Can You Smell What the Lok'tar is Cooking?|QID|28344|M|49.56,74.37|N|To Kingslayer Orkus.|
 
 A *Gurgle* HELP! *Gurgle*|QID|28345|M|49.56,74.37|N|From Kingslayer Orkus.|PRE|28096|
@@ -251,7 +256,7 @@ A The Heart of the Matter|QID|28484|M|57.00,45.74|N|From Keeper Bel'varil.|
 A Humbert's Personal Problems|QID|28487|M|57.16,45.52|N|From Deathguard Humbert. Through the building, up the stairs in the back.|
 A Yetimus the Yeti Lord|QID|28485|M|57.19,45.52|N|***Group Quest***\n\nFrom Deathguard Samsa. This quest is recommended for 3 players as he hits too hard for most in-level classes to solo.|RANK|3|
 A Stagwiches|QID|28489|M|57.69,45.23|N|From Derak Nightfall.|
-A Eastpoint Tower|QID|28620|M|57.68,46.89|N|From Krusk.|
+A Eastpoint Tower|QID|28620|LEAD|28634|M|57.68,46.89|N|From Krusk.|
 h Tarren Mill|QID|28620|M|57.95,47.29|N|At Innkeeper Shay.|
 A A Fighting Chance|QID|28495|M|56.74,47.48|N|From Advisor Duskingdawn.|
 f Tarren Mill|QID|28495|M|56.07,46.09|N|At Zarise.|
@@ -280,33 +285,33 @@ T Matters of Loyalty|QID|28600|M|57.08,46.24|N|To High Warlord Cromush.|
 A March of the Stormpike|QID|28506|M|57.08,46.24|N|From High Warlord Cromush.|PRE|28600|
 T March of the Stormpike|QID|28506|M|57.08,46.24|N|To High Warlord Cromush.|
 A Breaking the Hand|QID|28556|M|57.08,46.24|N|From High Warlord Cromush.|PRE|28506|
-A Cry of the Banshee|QID|28538|M|57.26,46.34|N|From Melisara.|PRE|28506|
+A Cry of the Banshee|QID|28538|M|57.26,46.34|N|From Melisara.|PRE|28587|
 R Sofera's Naze|QID|28538|M|53.38,37|
 C Cry of the Banshee|QID|28538|M|55.44,38.36|S|N|Use the Banshee Mirror on SI:7 agents with low health.|U|64445|
-C Pocket-Nuke Armed at Sofera's Naze|QID|28556|M|55.44,38.36|QO|Pocket-Nuke Armed at Sofera's Naze: 1/1|U|64471|
+C Pocket-Nuke Armed at Sofera's Naze|QID|28556|M|55.44,38.36|QO|1|U|64471|; Pocket-Nuke Armed at Sofera's Naze: 1/1
 C Cry of the Banshee|QID|28538|M|55.44,38.36|US|N|Use the Banshee Mirror on SI:7 agents with low health.|U|64445|
 T Cry of the Banshee|QID|28538|
 A Decimation|QID|28566|PRE|28538|
 R Corrahn's Dagger|QID|28566|M|50.34,39.79|
 C Decimation|QID|28566|M|49.42,46.73|S|
-C Pocket-Nuke Armed at Corrahn's Dagger|QID|28556|M|49.42,46.73|QO|Pocket-Nuke Armed at Corrahn's Dagger: 1/1|U|64471|
+C Pocket-Nuke Armed at Corrahn's Dagger|QID|28556|M|49.42,46.73|QO|2|U|64471|; Pocket-Nuke Armed at Corrahn's Dagger: 1/1
 C Decimation|QID|28566|M|49.42,46.73|US|
 T Decimation|QID|28566|
 A Infiltration|QID|28603|PRE|28566|
 A Deception and Trickery|QID|28604|N|From Lilith.|PRE|28566|
 R The Headland|QID|28604|M|45.16,46.61|
 C Deception and Trickery|QID|28604|S|N|Use the barrel whenever you're near a group of trainees.|U|64583|
-C Instructor Rufus|QID|28603|M|44.50,49.06|QO|Instructor Rufus slain: 1/1|
-C Pocket-Nuke Armed at the Headland|QID|28556|M|43.99,49.01|QO|Pocket-Nuke Armed at the Headland: 1/1|U|64471|
-C Drill Sergeant Magnus|QID|28603|M|44.50,49.06|QO|Drill Sergeant Magnus slain: 1/1|
-C Captain Crudbeard|QID|28603|M|44.08,50.47|QO|Captain Crudbeard slain: 1/1|
+C Instructor Rufus|QID|28603|M|44.50,49.06|QO|1|; Instructor Rufus slain: 1/1
+C Pocket-Nuke Armed at the Headland|QID|28556|M|43.99,49.01|QO|3|U|64471|; Pocket-Nuke Armed at the Headland: 1/1
+C Drill Sergeant Magnus|QID|28603|M|44.50,49.06|QO|2|; Drill Sergeant Magnus slain: 1/1
+C Captain Crudbeard|QID|28603|M|44.08,50.47|QO|3|; Captain Crudbeard slain: 1/1
 C Deception and Trickery|QID|28604|US|N|Use the barrel whenever you're near a group of trainees.|U|64583|
 T Infiltration|QID|28603|N|To Lilith.|
 T Deception and Trickery|QID|28604|N|To Lilith.|
 A Domination|QID|28605|N|From Lilith.|PRE|28603;28604|
 R Gavin's Naze|QID|28605|M|41.62,47.34|
 C Domination|QID|28605|M|39.44,48.93|S|
-C Pocket-Nuke Armed at Gavin's Naze|QID|28556|M|39.44,48.93|QO|Pocket-Nuke Armed at Gavin's Naze: 1/1|U|64471|
+C Pocket-Nuke Armed at Gavin's Naze|QID|28556|M|39.44,48.93|QO|1|U|64471|; Pocket-Nuke Armed at Gavin's Naze: 1/1
 C Domination|QID|28605|M|39.44,48.93|US|
 A Basic Botany|QID|28733|M|33.53,49.35|N|If you'd like to do the Peacebloom vs. Ghouls quest line, now is an excellent time. It's a fun side-quest that rewards a Singing Sunflower vanity pet at the end. If you want to do it, follow the arrow and accept the quest "Basic Botany." THEN close this step. Otherwise, close this step without accepting the quest.|
 C Basic Botany|QID|28733|N|Right-click the glowing orbs to collect Solar Power. Place Spitters (button 1) in the center lane whenever you can.|O|
@@ -344,7 +349,7 @@ C Silence of the Dwarves|QID|28636|M|62.85,85.11|
 C Extinction|QID|28634|M|64.83,68.88|N|Kill Owlbeasts as you go.|US|
 T Silence of the Dwarves|QID|28636|M|59.99,63.34|N|To Captain Jekyll.|
 T Extinction|QID|28634|M|60.00,63.73|N|To Nils Beerot.|
-A Warchief's Command: Arathi Highlands!|QID|28619|PRE|28572|M|59.91,63.51|N|From the Warchief's Command Board. You're done with Hillsbrad, so take this if you intend to do Arathi Highlands next, or choose another guide if you'd prefer another zone!|
+A Warchief's Command: Arathi Highlands!|QID|28619|LEAD|26022|PRE|28572|M|59.91,63.51|N|From the Warchief's Command Board. You're done with Hillsbrad, so take this if you intend to do Arathi Highlands next, or choose another guide if you'd prefer another zone!|
 
 ]]
 
