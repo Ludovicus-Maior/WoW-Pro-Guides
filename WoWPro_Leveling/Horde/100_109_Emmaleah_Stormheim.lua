@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2018-02-20 01:58
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3680/revisions/28954/view
 -- Date: 2018-01-17 00:43
 -- Who: Ludovicus
 -- Log: New Levels
@@ -244,7 +249,7 @@ R Stony Highlands|QID|38626|M|34.36,43.06|N|Back from our treasure hunting sidet
 
 K Kill Bloodstalker Alpha|QID|38626|M|38.42,42.80|QO|1|ITEM|129101|T|Bloodstalker Alpha|N|He roams this part of the valley. Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 T The Ancient Trials|QID|38459|M|38.13,40.88;41.17,40.59;41.83,43.06|CS|N|To Havi.|
-A Havi's Test|QID|38331|PRE|38459|M|41.83,43.06|N|From Havi.|
+A Havi's Test|QID|38331|PRE|38210+38459|M|41.83,43.06|N|From Havi.|
 C Havi's Test|QID|38331|M|41.68,42.83|QO|1|NC|N|Click on the vegetables, face the stewpot, adjust angle if needed and press "4".|
 C Havi's Test|QID|38331|M|41.60,42.61|QO|2|NC|N|Click on the crabs, face the stewpot, adjust angle if needed and press "4".|
 C Havi's Test|QID|38331|M|41.82,42.75|QO|3|NC|N|Click on the hearty grains, face the stewpot, adjust angle if needed and press "4".|
@@ -311,7 +316,7 @@ C To Weather the Storm|QID|38614|M|41.91,68.34|QO|2|NC|N|Pick up the Climbing Tr
 C To Weather the Storm|QID|38614|M|43.99,66.97|QO|1|T|Stormbreaker Reykir|N|Kill Stormbreaker Reykir and loot the Enchanted Lodestone.|
 T No Wings Required|QID|38613|M|43.70,67.86|N|To Dread-Rider Cullen.|
 T To Weather the Storm|QID|38614|M|43.71,67.89|N|To Dread-Rider Cullen.|
-A Impalement Insurance|QID|38615|PRE|38614|M|43.71,67.89|N|From Dread-Rider Cullen.|
+A Impalement Insurance|QID|38615|PRE|38613;38614|M|43.71,67.89|N|From Dread-Rider Cullen.|
 C Impalement Insurance|QID|38615|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
 $ Treasure Chest|QID|38486|M|39.58,65.18|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|RANK|2|
 K Kill Jann Harnelor|QID|40178|QO|1|M|45.6,67.2|Z|Stormheim|P|Leatherworking;165|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
@@ -339,9 +344,9 @@ $ Small Treasure Chest|QID|38485|M|49.24,76.99;49.76,77.99|CS|N|One grapple poin
 K Kill Bladesquall|QID|38431|M|45.88,77.37|QO|1|ITEM|129048|T|Bladesquall|N|Grapple across the defunct bridge for this silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 C Above the Winter Moonlight|QID|38618|M|44.22,77.53|QO|2|N|Reach the Top of the Path.|
 T Above the Winter Moonlight|QID|38618|M|44.79,77.40|N|To Vethir.|
-A Heart of a Dragon|QID|38414|PRE|38618|M|44.79,77.40|N|From Vethir.|
-A Wings of Liberty|QID|38413|PRE|38618|M|44.79,77.40|N|From Vethir.|
-A Fury of the Storm|QID|40568|PRE|38618|M|44.79,77.40|N|From Vethir.|
+A Heart of a Dragon|QID|38414|PRE|38618+38412|M|44.79,77.40|N|From Vethir.|
+A Wings of Liberty|QID|38413|PRE|38618+38412|M|44.79,77.40|N|From Vethir.|
+A Fury of the Storm|QID|40568|PRE|38618+38412|M|44.79,77.40|N|From Vethir.|
 C Fury of the Storm|QID|40568|M|44.79,77.40|S|N|Kill Drekirjar vrykyl.|
 C Wings of Liberty|QID|38413|M|45.86,78.75|QO|2|NC|N|Free Hrafsir.|
 $ Treasure Chest|QID|38481|M|46.55,79.35;46.77,80.40|CS|N|First point is a hook point, Hook to the chest, loot for treasure and resources.|RANK|2|
@@ -658,11 +663,11 @@ C To Honor the Fallen|QID|43595|M|60,43|US|N|Finish collecting the weapons.|RANK
 T Scavenging the Shallows|QID|40046|M|58.94,42.81|N|To Havi.|RANK|2|
 T To Honor the Fallen|QID|43595|M|58.94,42.81|N|To Havi.|RANK|2|
 T Shadows in the Mists|QID|40044|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 110.|RANK|2|
-A Piercing the Mists|QID|43596|PRE|40044;40046;43595|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|LVL|110|
+A Piercing the Mists|QID|43596|PRE|40046|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|LVL|110|
 
 R Talonrest|QID|39792|M|53.30,48.30;51.37,57.15|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
-A Put It All on Red|QID|42483|PRE|39786|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
+A Put It All on Red|QID|42483|PRE|39786;39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
 R Inkbinder's Rise|QID|40109|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|
 K Kill Kottr Vondyr|QID|40109|M|73.46,47.68|QO|1|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|43194|M|73.10,45.72|N|Loot for a bit of treasure and resources.|RANK|2|
