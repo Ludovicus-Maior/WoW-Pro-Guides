@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2018-02-23 01:20
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3307/revisions/28931/view
 -- Date: 2018-01-17 00:12
 -- Who: Ludovicus
 -- Log: New Levels
@@ -204,35 +209,35 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N The Battle Is Won, The War Goes On|QID|27398|Z|Stormwind City|N|If you don't have this quest, check it off and continue to the next.|FACTION|Alliance|
-A Hero's Call: Deepholm!|QID|27727|M|63,71.7|Z|Stormwind City|N|If you don't have the first quest.|FACTION|Alliance|
+A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|Stormwind City|N|If you don't have the first quest.|FACTION|Alliance|
 T The Battle Is Won, The War Goes On|QID|27398|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
 T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|O|FACTION|Alliance|
 
-A Warchief's Command: Deepholm!|QID|27722|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
+A Warchief's Command: Deepholm!|QID|27722|LEAD|27203|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
 T Warchief's Command: Deepholm!|QID|27722|M|50.30,38.24|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
 
-A The Maelstrom|QID|27203|PRE|27722+27727|Z|The Maelstrom|M|74.5,19.3|N|From Naraat the Earthspeaker.|
+A The Maelstrom|QID|27203|Z|The Maelstrom|M|74.5,19.3|N|From Naraat the Earthspeaker.|
 T The Maelstrom|QID|27203|M|33.2,50.2|Z|The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
-A Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|PRE|27203|M|33.2,50.2|N|From Thrall.|
+A Deepholm, Realm of Earth|QID|27123|LEAD|26245|Z|The Maelstrom|PRE|27203|M|33.2,50.2|N|From Thrall.|
 C Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|M|33.2,50.2|N|Hop on the Wyvern behind you.|
 T Deepholm, Realm of Earth|QID|27123|Z|Deepholm|M|49.6,53|N|To Maruut Stonebinder.|
-A Gunship Down|QID|26245|PRE|27123|M|49.6,53|N|From Maruut Stonebinder.|
-A Elemental Energy|QID|27136|PRE|27123|M|49.7,53|N|From Seer Kormo.|
-A The Earth Claims All|QID|26244|PRE|27123|M|49.7,53|N|From Seer Kormo.|
+A Gunship Down|QID|26245|M|49.6,53|N|From Maruut Stonebinder.|
+A Elemental Energy|QID|27136|M|49.7,53|N|From Seer Kormo.|
+A The Earth Claims All|QID|26244|M|49.7,53|N|From Seer Kormo.|
 C Elemental Energy|QID|27136|U|60835|M|49.6,61.5|N|Use the Depleted Totem and kill the Energized Geodes and Lodestone Elementals.|
 F Storm's Fury Wreckage|QID|27136|M|55,74|N|Fly to the Storm's Fury Wreckage.|
 C The Earth Claims All|QID|26244|S|M|55.6,72.6|N|Kill Deepstone Elementals.|
-A Captain's Log|QID|26246|PRE|26245|M|53.5,73.3|N|Click the Captain's Log to get this quest.|
-N First Clue|QID|26245|QO|First Clue: 1/1|M|53.5,73.7|N|Click on Captain Skullshatter for the first clue.|
-N Second Clue|QID|26245|QO|Second Clue: 1/1|M|56.1,74.2|N|Click on to find the Slain Cannoneer for the second clue.|
+A Captain's Log|QID|26246|M|53.5,73.3|N|Click the Captain's Log to get this quest.|
+N First Clue|QID|26245|QO|1|M|53.5,73.7|N|Click on Captain Skullshatter for the first clue.|; First Clue: 1/1
+N Second Clue|QID|26245|QO|2|M|56.1,74.2|N|Click on to find the Slain Cannoneer for the second clue.|; Second Clue: 1/1
 C Gunship Down|QID|26245|M|56.7,76.4|N|Click on the Unexploded Artillery Shell to find the final clue.|
 C The Earth Claims All|QID|26244|US|M|55.6,72.6|N|Kill Deepstone Elementals.|
 T Gunship Down|QID|26245|M|49.6,53|N|To Maruut Stonebinder.|
 T Captain's Log|QID|26246|M|49.6,53|N|To Maruut Stonebinder.|
 T The Earth Claims All|QID|26244|M|49.7,53|N|To Seer Kormo.|
 T Elemental Energy|QID|27136|M|49.7,53|N|To Seer Kormo.|
-A Diplomacy First|QID|26247|PRE|26246;26244;27136|M|49.6,53|N|From Maruut Stonebinder.|
-A Where's Goldmine?|QID|26409|PRE|26876|M|49.52,53.40|N|From Earthcaller Yevaa.|
+A Diplomacy First|QID|26247|PRE|26244;26246;26245|M|49.6,53|N|From Maruut Stonebinder.|
+A Where's Goldmine?|QID|26409|M|49.52,53.40|N|From Earthcaller Yevaa.|
 
 T Diplomacy First|QID|26247|M|62.2,47|N|Fly up to the Alliance Gunship. To Stormcaller Mylra.|
 A All Our Friends Are Dead|QID|26248|PRE|26247|M|62.2,47|N|From Stormcaller Mylra.|
@@ -243,7 +248,7 @@ A Without a Captain or Crew|QID|26427|PRE|26249|RANK|2|M|64,46.2|N|From First Ma
 C All Our Friends Are Dead|QID|26248|US|M|62,47|N|Use the Spirit Totem on Slain Crew Members 6 times.|
 T All Our Friends Are Dead|QID|26248|M|62.2,47|N|To Stormcaller Mylra.|
 A Take No Prisoners|QID|26251|PRE|26248|M|62.2,47|N|From Stormcaller Mylra.|
-A On Second Thought, Take One Prisoner|QID|26250|PRE|26251|M|62.2,47|N|From Stormcaller Mylra.|
+A On Second Thought, Take One Prisoner|QID|26250|PRE|26248|M|62.2,47|N|From Stormcaller Mylra.|
 C Take No Prisoners|QID|26251|M|60.8,42.3|N|Kill 6 Twilight Saboteurs.|S|
 C Without a Captain or Crew|QID|26427|RANK|2|M|63.1,39.4;63.4,44.6|CS|N|Pick up the Coil of Rope (on top of the deck) and Bottle of Whiskey (first level below deck).|
 C On Second Thought, Take One Prisoner|QID|26250|M|60.7,41.3|N|Attack Mor'norokk the Hateful and subdue him.|
@@ -274,7 +279,7 @@ A Silvermarsh Rendezvous|QID|27007|PRE|26260|M|63.75,55.36|
 C Silvermarsh Rendezvous|QID|27007|M|69.96,60.17|N|Fly up and to the southwest to Upper Silvermarsh.|
 T Silvermarsh Rendezvous|QID|27007|M|70.34,61.04|N|(UI Alert)|
 A Quicksilver Submersion|QID|27010|PRE|27007|M|70.34,61.04|N|(UI Alert)|
-A Twilight Research|QID|27100|PRE|27010|U|60816|RANK|2|M|70.50,61.48|N|Find and kill a Mercurial Ooze. It will drop Maziel's Research. Use this to begin the quest Twilight Research.|
+A Twilight Research|QID|27100|U|60816|RANK|2|M|70.50,61.48|N|Find and kill a Mercurial Ooze. It will drop Maziel's Research. Use this to begin the quest Twilight Research.|
 C Twilight Research|QID|27100|RANK|2|S|M|74.00,60.91|N|Kill any Mercurial Ooze you see until you get 4 Twilight Research Notes.|
 l Quicksilver Submersion|QID|27010|L|60809|M|71.7,64.2|N|Loot a Trogg Crate from the ground here. A trogg will come out and attack you but shouldn't pose a problem.|
 C Quicksilver Submersion|QID|27010|U|60809|M|74.96,64.77|N|Use the Trogg Crate to put it on your head. You should be in the mercury pond. You need to get close to the Forgemaster's camp, but not too close. Watch the conversation that happens.|
@@ -303,7 +308,7 @@ T Testing the Trap|QID|26771|M|64.50,82.19|N|To Stormcaller Mylra.|
 A Abyssion's Minions|QID|26857|PRE|26771|M|64.50,82.19|N|From Stormcaller Mylra.|
 A Block the Gates|QID|26861|PRE|26771|M|64.50,82.19|N|From Seer Galekk.|
 C Abyssion's Minions|QID|26857|S|M|69.72,77.39|N|Kill any of the cultists or dragonspawn.|
-N Block the Gates|QID|26861|U|60501|M|68.7,75.1|N|Fly to the Twilight Gate and use the Stormstone to seal it.|QO|Twilight Gate disrupted: 1/1|
+N Block the Gates|QID|26861|U|60501|M|68.7,75.1|N|Fly to the Twilight Gate and use the Stormstone to seal it.|QO|1|; Twilight Gate disrupted: 1/1
 C Block the Gates|QID|26861|U|60501|M|71.14,75.03|N|Fly to the Elemental Gate and seal it with the Stormstone.|
 C Abyssion's Minions|QID|26857|US|M|69.72,77.39|N|Kill any of the cultists or dragonspawn.|
 T Block the Gates|QID|26861|M|64.49,82.25|N|To Seer Galekk.|
@@ -316,10 +321,10 @@ T Where's Goldmine?|QID|26409|M|46.48,57.33|N|Leave the Temple and start going t
 A Explosive Bonding Compound|QID|26410|PRE|26409|M|46.48,57.33|N|From Initiate Goldmine.|
 C Explosive Bonding Compound|QID|26410|M|44.25,55.24|N|Kill Rockslice Flayers in the area to the west until you have 5 White Stone Resin.|
 T Explosive Bonding Compound|QID|26410|M|46.51,57.23|N|To Initiate Goldmine.|
-A Something that Burns|QID|27135|PRE|26410|M|46.48,57.33|N|From Initiate Goldmine.|
+A Something that Burns|QID|27135|PRE|26409|M|46.48,57.33|N|From Initiate Goldmine.|
 C Something that Burns|QID|27135|U|60834|M|52.12,59.01|N|Fly east where you will find The Blood Trail. Use Goldmine's Fire Totem in any of the lava pools here to summon Magmatooth. Kill him and loot The Burning Heart.|
 T Something that Burns|QID|27135|M|46.51,57.23|N|To Initiate Goldmine.|
-A Apply and Flash Dry|QID|26411|PRE|27135|M|46.51,57.23|N|From Initiate Goldmine.|
+A Apply and Flash Dry|QID|26411|PRE|26410+27135|M|46.51,57.23|N|From Initiate Goldmine.|
 C Apply and Flash Dry|QID|26411|U|58502|M|46.51,57.23|N|Use the Explosive Bonding Compound on Flint Oremantle, who is lying on the ground next to Goldmine.|
 T Apply and Flash Dry|QID|26411|M|46.51,57.23|N|To Initiate Goldmine.|
 A Take Him to the Earthcaller|QID|26413|PRE|26411|M|46.51,57.23|N|From Initiate Goldmine.|
@@ -339,11 +344,11 @@ T Elemental Ore|QID|27933|M|30.69,77.77|N|To Slate Quicksand.|
 A One With the Ground|QID|27934|PRE|27932;27933|M|30.69,77.77|N|From Slate Quicksand.|
 C One With the Ground|QID|27934|M|47.11,90.17|N|Talk to Slate and tell him you are ready to complete the ritual. You will go tunneling through the ground into Avalanchion's Vault.|
 T One With the Ground|QID|27934|M|47.11,90.17|N|Click the notification box to turn in One With the Ground.|
-A Bring Down the Avalanche|QID|27935|PRE|27934|RANK|1|M|47.11,90.17|N|Accept the followup, Bring Down the Avalanche.|
-C Bring Down the Avalanche|QID|27935|M|46.96,89.23|N|Kill Avalanchion.|
-T Bring Down the Avalanche|QID|27935|M|27.88,68.68|N|Once he is dead, leave the cave by jumping down into the water and heading north to exit exit. Then return to Crag Rockcrusher at Stonehearth.|
-A Stonefather's Boon|QID|26499|PRE|26484|M|27.88,68.68|N|From Crag Rockcrusher.|
-A We're Surrounded|QID|26500|PRE|26484|M|28.23,69.69|N|From Earthbreaker Dolomite.|
+A Bring Down the Avalanche|QID|27935;27936|PRE|27934|RANK|1|M|47.11,90.17|N|Accept the followup, Bring Down the Avalanche.|
+C Bring Down the Avalanche|QID|27935;27936|M|46.96,89.23|N|Kill Avalanchion.|
+T Bring Down the Avalanche|QID|27935;27936|M|27.88,68.68|N|Once he is dead, leave the cave by jumping down into the water and heading north to exit exit. Then return to Crag Rockcrusher at Stonehearth.|
+A Stonefather's Boon|QID|26499|PRE|27935+27936|M|27.88,68.68|N|From Crag Rockcrusher.|
+A We're Surrounded|QID|26500|PRE|27935+27936|M|28.23,69.69|N|From Earthbreaker Dolomite.|
 C Stonefather's Boon|QID|26499|S|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather's Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
 C We're Surrounded|QID|26500|M|31.38,72.07|N|Kill 12 Stone Trogg Ambushers.|
 C Stonefather's Boon|QID|26499|US|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather's Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
@@ -352,15 +357,15 @@ A Thunder Stones|QID|26502|PRE|26500|RANK|1|M|28.21,69.66|N|From Earthbreaker Do
 T Stonefather's Boon|QID|26499|M|27.86,68.69|N|To Crag Rockcrusher.|
 A Sealing the Way|QID|26501|PRE|26499|M|27.86,68.69|N|From Crag Rockcrusher.|
 C Thunder Stones|QID|26502|S|M|25.84,68.47|N|From now on, collect Thunder Stones.|
-N Shrine sealed|QID|26501|U|58885|M|27.3,67.8|QO|Shrine sealed: 1/1|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the Shrine.|
-N Armory sealed|QID|26501|U|58885|M|27.3,70.11|QO|Armory sealed: 1/1|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the Armory.|
-N Inn sealed|QID|26501|U|58885|M|26.17,69.85|QO|Inn sealed: 1/1|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the Inn.|
+N Shrine sealed|QID|26501|U|58885|M|27.3,67.8|QO|4|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the Shrine.|; Shrine sealed: 1/1
+N Armory sealed|QID|26501|U|58885|M|27.3,70.11|QO|1|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the Armory.|; Armory sealed: 1/1
+N Inn sealed|QID|26501|U|58885|M|26.17,69.85|QO|2|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the Inn.|; Inn sealed: 1/1
 C Sealing the Way|QID|26501|U|58885|M|26.0,68.8|N|Seal the Barracks.|
 C Thunder Stones|QID|26502|US|M|25.84,68.47|N|Finish collecting Thunder Stones.|
 T Sealing the Way|QID|26501|M|24.55,62.41|N|To Gravel Longslab.|
 A Shatter Them!|QID|26537|PRE|26501|M|24.55,62.41|N|From Gravel Longslab.|
 T Thunder Stones|QID|26502|M|24.72,62.14|N|To Clay Mudaxle.|
-A Fixer Upper|QID|26564|PRE|26501;26502|M|24.72,62.14|N|From Clay Mudaxle.|
+A Fixer Upper|QID|26564|PRE|26502|M|24.72,62.14|N|From Clay Mudaxle.|
 A Battlefront Triage|QID|26591|PRE|26501;26502|M|24.63,62.11|N|From Earthmender Deepvein.|
 C Fixer Upper|QID|26564|S|M|21.01,57.78|N|Collect 6 Catapult Parts.|
 C Battlefront Triage|QID|26591|S|U|58965|M|23.62,61.32|N|Use Deepvein's Patch Kit on the Inured Earthen.|
@@ -429,9 +434,9 @@ A Unsolid Ground|QID|26377|PRE|26328|M|56.50,41.20|N|From Diamant the Patient.|
 A Loose Stones|QID|26375|PRE|26328|M|56.5,41.1|N|From Quartz Stonetender.|
 l Jade Crystal Clusters|QID|26377|L|58500 6|N|Loot 6 Jade Crystal Clusters from around the camp.|S|M|59.5,39.9|
 C Loose Stones|QID|26375|U|58254|S|N|Use Delicate Chain Smasher to free Quartz Rocklings|M|59.5,39.9|
-C Hatred Runs Deep|QID|26376|S|QO|Lorthuna's Gate Cultists slain: 12/12|M|59.5,39.9|N|Kill Twilight Duskwardens.|
-K Dragul Giantbutcher|QID|26376|QO|Dragul Giantbutcher slain: 1/1|M|60.20,39.50|N|Kill Dragul Giantbutcher.|
-C Hatred Runs Deep|QID|26376|US|QO|Lorthuna's Gate Cultists slain: 12/12|M|59.5,39.9|N|Kill Twilight Duskwardens.|
+C Hatred Runs Deep|QID|26376|S|QO|2|M|59.5,39.9|N|Kill Twilight Duskwardens.|; Lorthuna's Gate Cultists slain: 12/12
+K Dragul Giantbutcher|QID|26376|QO|1|M|60.20,39.50|N|Kill Dragul Giantbutcher.|; Dragul Giantbutcher slain: 1/1
+C Hatred Runs Deep|QID|26376|US|QO|2|M|59.5,39.9|N|Kill Twilight Duskwardens.|; Lorthuna's Gate Cultists slain: 12/12
 l Jade Crystal Clusters|QID|26377|L|58500 6|N|Loot 6 Jade Crystal Clusters from around the camp.|US|M|59.5,39.9|
 U Jade Crystal Clusters|QID|26377|L|58783|U|58500|N|Use the Jade Crystal Clusters to get the Jade Crystal Composite.|
 C Unsolid Ground|QID|26377|U|58783|M|58.80,41.20|N|Go to an open area of the camp. Use the Jade Crystal Composite to summon an Aggitated Tunneler. Mount up as soon as you get the quest complete message. You don’t want to be nearby when the rockworm emerges.|
@@ -440,7 +445,7 @@ T Loose Stones|QID|26375|M|56.5,41.1|N|To Quartz Stonetender.|
 T Unsolid Ground|QID|26377|M|56.50,41.20|N|To Diamant the Patient.|
 T Hatred Runs Deep|QID|26376|M|56.50,41.20|N|To Diamant the Patient.|
 A Violent Gale|QID|26426|M|56.50,41.20|PRE|26375;26376;26377|N|From Diamant the Patient.|
-N Felsen the Enduring|QID|26426|M|52,32|QO|Find Felsen the Enduring: 1/1|N|Find Felsen the Enduring at the waypoint.|
+N Felsen the Enduring|QID|26426|M|52,32|QO|1|N|Find Felsen the Enduring at the waypoint.|; Find Felsen the Enduring: 1/1
 C Violent Gale|QID|26426|M|58.00,25.00|N|Find the entrance to Crumbling Depths.|
 T Violent Gale|QID|26426|N|(UI Alert)|
 A Depth of the Depths|QID|26869|PRE|26426|N|Automatic from Diamond the Patient.|
@@ -461,9 +466,9 @@ C Making Things Crystal Clear|QID|26437|M|33.40,43.80|US|N|Finish collecting Cha
 T Putting the Pieces Together|QID|26439|M|34.2,35|N|To Berracite, who wanders.|
 T Making Things Crystal Clear|QID|26437|M|34.12,34.19|N|To Kor the Immovable.|
 T Intervention|QID|26438|M|34.12,34.19|N|To Kor the Immovable.|
-A Pebble|QID|28869|PRE|26437;26438;26439|RANK|1|M|34.12,34.19|N|From Kor the Immovable.|
+A Pebble|QID|28869|LEAD|26440|PRE|26439|RANK|1|M|34.12,34.19|N|From Kor the Immovable.|
 T Pebble|QID|28869|N|To Pebble.|
-A Clingy|QID|26440|PRE|28869|N|From Pebble.|
+A Clingy|QID|26440|PRE|26439|N|From Pebble.|
 C Clingy|QID|26440|M|30.00,46.00|N|Pebble will begin “harvesting” the crystal. Defend him.|
 T Clingy|QID|26440|N|To Pebble.|
 A So Big, So Round...|QID|26441|PRE|26440|N|From Pebble.|
@@ -474,8 +479,8 @@ C Petrified Delicacies|QID|26507|RANK|1|M|39.1,28.8|N|Head to the shelf to the n
 T Petrified Delicacies|QID|26507|RANK|1|N|To Pebble, who should still be following you around.|
 C Rock Bottom|QID|26575|M|47.5,27.00|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite’s eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
 T Rock Bottom|QID|26575|M|34.12,34.19|N|Back to Kor the Immovable.|
-A Steady Hand|QID|26576|PRE|26575|RANK|1|M|34.12,34.19|N|From Kor.|
-A Rocky Upheaval|QID|26577|PRE|26575|M|34.12,34.19|N|From Kor.|
+A Steady Hand|QID|26576|PRE|26575;26507|RANK|1|M|34.12,34.19|N|From Kor.|
+A Rocky Upheaval|QID|26577|PRE|26575;26507|M|34.12,34.19|N|From Kor.|
 T Steady Hand|QID|26576|RANK|1|N|To Terrath the Steady.|
 A Don't. Stop. Moving.|QID|26656|PRE|26576|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
 C Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|CS|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
@@ -506,9 +511,9 @@ C Doomshrooms|QID|26578|M|70.6,40.1|N|FInish killing Doomshrooms.|US|
 T Unnatural Causes|QID|26582|M|72.2,53.9|N|To Gorsik the Tumultuous.|
 T Gone Soft|QID|26579|M|72.2,53.9|N|To Gorsik the Tumultuous.|
 T Doomshrooms|QID|26578|M|72.2,53.9|N|To Gorsik the Tumultuous.|
-A Shaken and Stirred|QID|26584|PRE|26578;26579;26582|M|72.2,53.9|N|From Gorsik the Tumultuous.|
-A Corruption Destruction|QID|26585|PRE|26578;26579;26582|M|72.2,53.9|N|From Gorsik the Tumultuous.|
-A Wrath of the Fungalmancer|QID|26583|PRE|26578;26579;26582|M|68.50,26.30|RANK|2|N|From Ruberick.|
+A Shaken and Stirred|QID|26584|PRE|26582|M|72.2,53.9|N|From Gorsik the Tumultuous.|
+A Corruption Destruction|QID|26585|PRE|26582|M|72.2,53.9|N|From Gorsik the Tumultuous.|
+A Wrath of the Fungalmancer|QID|26583|PRE|26582|M|68.50,26.30|RANK|2|N|From Ruberick.|
 C Shaken and Stirred|QID|26584|N|Right behind Ruberick, you may have notice there are troggs raining from the sky. Kill 8 of these Verlock Pillartumblers.|
 N Wrath of the Fungalmancer|QID|26583|RANK|2|N|Go in the direction Ruberick is facing, until you enter Fungal Deep. Follow the cave down until you run into Earthmender Norsala. If you reach a point where the path splits off in different directions, it means someone else is doing the event. Wait a couple minutes and she should re-appear.|
 N Wrath of the Fungalmancer|QID|26583|RANK|2|N|Speak to Norsala and let her know you are ready to start the event.Follow him, attacking when you can.|
@@ -517,7 +522,7 @@ T Wrath of the Fungalmancer|QID|26583|RANK|2|M|68.50,26.30|N|Once Glop makes his
 C Corruption Destruction|QID|26585|M|73.00,27.00|N|Loot Verlok Miracle-Grow, which will be on the ground and in crates all over this area.|
 T Corruption Destruction|QID|26585|M|72.2,53.9|N|Back to Gorsik.|
 T Shaken and Stirred|QID|26584|M|72.2,53.9|N|To Gorsik.|
-A At the Stonemother's Call|QID|26750|PRE|26584;26585|M|72.2,53.9|N|From Gorsik the Tumultuous.|
+A At the Stonemother's Call|QID|26750|PRE|26584;26585;26659|M|72.2,53.9|N|From Gorsik the Tumultuous.|
 T At the Stonemother's Call|QID|26750|M|56.30,12.20|N|To Therazane.|
 A Audience with the Stonemother|QID|26752|PRE|26750|M|56.1,13.4|N|Watch event that takes place.|
 T Audience with the Stonemother|QID|26752|M|56.1,13.4|N|To Earthcaller Torunscar. He is off to the side and toward the back of Therazane's throne.|
@@ -530,8 +535,8 @@ A The Stone March|QID|26829|PRE|26828|M|63.3,25.1|N|From Therazane.|
 A Therazane's Mercy|QID|26832|PRE|26828|M|63.3,25.1|N|From Therazane.|
 A The Twilight Flight|QID|26831|PRE|26828|M|62.2,27|N|From Boden the Imposing.|RANK|1|
 C The Stone March|QID|26829|S|N|Kill Twilight Precipice Cultists.|
-C Therazane's Mercy|QID|26832|QO|High Priestess Lorthuna defeated: 1/1|M|62.50,31.00|N|Very top of the tower.|
-C Therazane's Mercy|QID|26832|QO|Boldrich Stonerender defeated: 1/1|N|Head west to find him.|
+C High Priestess Lorthuna|QID|26832|QO|2|M|62.50,31.00|N|Very top of the tower.|; High Priestess Lorthuna defeated: 1/1
+C Boldrich Stonerender|QID|26832|QO|1|N|Head west to find him.|; Boldrich Stonerender defeated: 1/1
 C The Twilight Flight|QID|26831|M|63.20,38.20|N|Fight, chase, Kill!|
 T The Twilight Flight|QID|26831|M|64.1,36.9|N|To Terath.|
 C The Stone March|QID|26829|M|62,35.6|US|N|Finish killing Cultists.|
@@ -540,10 +545,10 @@ T Therazane's Mercy|QID|26832|M|63.3,25.1|N|To Therazane.|
 A Word In Stone|QID|26833|PRE|26829;26831;26832|N|From Therazane.|
 
 L Level 83|LVL|83|
-A The Explorers|QID|27952|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Alliance|
+A The Explorers|QID|27952|LEAD|27004|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Alliance|
 T The Explorers|QID|27952|M|47.34,51.4|N|To Explorer Mowi.|FACTION|Alliance|
 
-A The Reliquary|QID|27953|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Horde|
+A The Reliquary|QID|27953|LEAD|27005|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Horde|
 T The Reliquary|QID|27953|M|50,55.5;51.20,50.10|CC|N|To Examiner Rowe.|FACTION|Horde|
 
 T Word In Stone|QID|26833|M|49.6,53|N|Fly back to the Temple of Earth, speak to Maruut Stonebinder.|
@@ -554,7 +559,7 @@ A The Binding|QID|26971|PRE|26875|M|49.8,52.8|N|(UI Alert)|
 C The Binding|QID|26971|N|Kill High Priestess Lorthuna.|
 T The Binding|QID|26971|N|To Earthcaller Torunscar.|
 A The Stone Throne|QID|26709|PRE|26971|M|49.7,53.3|N|Will open up the Daily Quest hub in Deepholm, and to let the temple go back to normal.|
-A Wayward Child|QID|28824|PRE|26709|M|56.5,12.2|N|This is a Quest for Stonecore, the 5-man Dungeon in this zone. Feel free to pick up this quest so you can do it when you run the instance. However that will not be covered here.|
+A Wayward Child|QID|28824|PRE|26871|M|56.5,12.2|N|This is a Quest for Stonecore, the 5-man Dungeon in this zone. Feel free to pick up this quest so you can do it when you run the instance. However that will not be covered here.|
 T The Stone Throne|QID|26709|M|56.4,12.2|N|Back up on Therazane's Throne.|
 
 A The Twilight Plot|QID|27004|RANK|1|M|47.4,51.4|N|From Explorer Mowi.|FACTION|Alliance|
@@ -566,20 +571,20 @@ T Fly Over|QID|27006|M|47.4,51.4|N|To Prospector Brewer.|FACTION|Alliance|
 A Fight Fire and Water and Air with...|QID|27042|PRE|27004;27006|RANK|2|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
 A Decryption Made Easy|QID|27040|PRE|27004;27006|N|From Explorer Mowi.|FACTION|Alliance|
 C Decryption Made Easy|QID|27040|S|M|38,69.9;39.6,73.8;41.2,71.8|CN|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
-C Fight Fire and Water and Air with...|QID|27042|RANK|2|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental.|FACTION|Alliance|
-C Fight Fire and Water and Air with...|QID|27042|RANK|2|M|36.10,67.40|QO|Fire Ward acquired: 1/1|N|Kill the Bound Fire Elemental.|FACTION|Alliance|
-C Fight Fire and Water and Air with...|QID|27042|RANK|2|M|40.50,72.40|QO|Air Ward acquired: 1/1|N|Kill the Bound Air Elemental.|FACTION|Alliance|
+C Water Ward|QID|27042|RANK|2|M|40.80,66.30|QO|2|N|Kill the Bound Water Elemental.|FACTION|Alliance|; Water Ward acquired: 1/1
+C Fire Ward|QID|27042|RANK|2|M|36.10,67.40|QO|1|N|Kill the Bound Fire Elemental.|FACTION|Alliance|; Fire Ward acquired: 1/1
+C Air Ward|QID|27042|RANK|2|M|40.50,72.40|QO|3|N|Kill the Bound Air Elemental.|FACTION|Alliance|; Air Ward acquired: 1/1
 C Decryption Made Easy|QID|27040|US|M|38,69.9;39.6,73.8;41.2,71.8|CN|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
 T Decryption Made Easy|QID|27040|N|(UI Alert)|FACTION|Alliance|
 A The Wrong Sequence|QID|27058|PRE|27040|N|Quest starts automatic.|FACTION|Alliance|
 C The Wrong Sequence|QID|27058|M|39.15,73.75|N|Go to the Waygate, use the Waygate Contoller located directly in front of the Waygate to destroy it.|FACTION|Alliance|
-C Fight Fire and Water and Air with...|QID|27042|M|40.00,62.20|QO|Haethen Kaul slain: 1/1|N|Floating platform above the Twilight Terrace.|FACTION|Alliance|
+K Haethen Kaul|QID|27042|M|40.00,62.20|QO|4|N|Floating platform above the Twilight Terrace.|FACTION|Alliance|; Haethen Kaul slain: 1/1
 T Fight Fire and Water and Air with...|QID|27042|RANK|2|N|To Prospector Brewer.|FACTION|Alliance|
 T The Wrong Sequence|QID|27058|PRE|27040|M|47.4,51.4|N|To Explorer Mowi.|FACTION|Alliance|
 A That's No Pyramid!|QID|28292|PRE|27058|M|47.4,51.4|N|From Explorer Mowi.|FACTION|Alliance|
 R Stormwind City|QID|28292|M|48.53,53.84|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Stormwind.|FACTION|Alliance|
 T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|Stormwind City|N|To Harrison Jones.|FACTION|Alliance|
-A Meetup with the Caravan|QID|28295|PRE|28292|N|From Harrison Jones.|M|85.77,25.85|Z|Stormwind City|FACTION|Alliance|
+A Meetup with the Caravan|QID|28295|LEAD|27003|PRE|28292|N|From Harrison Jones.|M|85.77,25.85|Z|Stormwind City|FACTION|Alliance|
 F Booty Bay|QID|28295|Z|Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|FACTION|Alliance|
 b Ratchet|QID|28295|Z|The Cape of Stranglethorn|M|39,67|N|Take the boat to Ratchet.|FACTION|Alliance|
 F Southmoon Ruins|QID|28295|Z|Tanaris|M|69.13,70.70|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
@@ -594,20 +599,20 @@ T Fly Over|QID|27008|M|51.20,50.10|N|To Reliquary Jes'ca Darksun.|FACTION|Horde|
 A Fight Fire and Water and Air with...|QID|27043|PRE|27005;27008|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
 A Decryption Made Easy|QID|27041|PRE|27005;27008|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 C Decryption Made Easy|S|QID|27041|N| Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Horde|
-N Water Ward|QID|27043|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental to get the Water Ward.|FACTION|Horde|
-N Fire Ward|QID|27043|M|36.10,67.40|QO|Fire Ward acquired: 1/1|N|Kill the Bound Fire Elemental to get the Fire Ward.|FACTION|Horde|
-N Air Ward|QID|27043|M|40.50,72.40|QO|Air Ward acquired: 1/1|N|Kill the Bound Air Elemental to get the Air Ward.|FACTION|Horde|
+C Water Ward|QID|27043|M|40.80,66.30|QO|2|N|Kill the Bound Water Elemental to get the Water Ward.|FACTION|Horde|; Water Ward acquired: 1/1
+C Fire Ward|QID|27043|M|36.10,67.40|QO|1|N|Kill the Bound Fire Elemental to get the Fire Ward.|FACTION|Horde|; Fire Ward acquired: 1/1
+C Air Ward|QID|27043|M|40.50,72.40|QO|3|N|Kill the Bound Air Elemental to get the Air Ward.|FACTION|Horde|; Air Ward acquired: 1/1
 C Decryption Made Easy|US|QID|27041|N| Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Horde|
 T Decryption Made Easy|QID|27041|N|When you finish a Quest Complete notification will appear. Click it.|FACTION|Horde|
 A The Wrong Sequence|QID|27059|PRE|27041|N|You will be automatically offered the follow-up.|FACTION|Horde|
 C The Wrong Sequence|QID|27059|M|39.13,73.86|N|Go to the Waygate, use the Waygate Contoller located directly in front of the Waygate to destroy it.|FACTION|Horde|
-C Fight Fire and Water and Air with...|QID|27043|M|40.00,62.20|QO|Haethen Kaul slain: 1/1|N|Floating platform above the Twilight Terrace.|FACTION|Horde|
+K Haethen Kaul|QID|27043|M|40.00,62.20|QO|4|N|Floating platform above the Twilight Terrace.|FACTION|Horde|; Haethen Kaul slain: 1/1
 T Fight Fire and Water and Air with...|QID|27043|N|To Reliquary Jes'ca Darksun.|FACTION|Horde|
 T The Wrong Sequence|QID|27059|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
 A That's No Pyramid!|QID|28293|PRE|27059|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 R Orgrimmar|QID|28293|M|50.94,53.1|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Orgimmar.|FACTION|Horde|
 T That's No Pyramid!|QID|28293|M|49.00,71.00|Z|Orgrimmar|N|To Belloc Brightblade.|FACTION|Horde|
-A Meetup with the Caravan|QID|28296|PRE|28293|M|49.00,71.00|Z|Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
+A Meetup with the Caravan|QID|28296|LEAD|27003|PRE|28293|M|49.00,71.00|Z|Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
 T Warchief's Command: Uldum!|QID|28557|O|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|FACTION|Horde|
 T Meetup with the Caravan|QID|28296|O|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|FACTION|Horde|
 
