@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2018-02-20 02:00
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3217/revisions/28875/view
 -- Date: 2018-01-16 23:37
 -- Who: Ludovicus
 -- Log: New Levels
@@ -122,19 +127,17 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitAzs1220', "Leveling", 'Azshara', 'Bitsem', 'Horde')
-WoWPro:GuideLevels(guide,9,18, 12.6716)
+WoWPro:GuideLevels(guide,10,18, 12.6716)
 WoWPro:NewGuideLevels(guide,10,60)
 WoWPro:GuideNextGuide(guide, 'BitAsh2025')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 9 |QID|25275;25648;28496|LVL|9|N|This guide requires a minimum level of 9 to do.|
-
-A Beyond Durotar|QID|25648|PRE|25206;25236|M|45.0,14.6|Z|Durotar|N|From Gor the Enforcer, just outside Orgrimmar's Southern Gates|LVL|16|LEAD|25275;28496|
+A Beyond Durotar|QID|25648|PRE|25206;25236|M|45.0,14.6|Z|Durotar|N|From Gor the Enforcer, just outside Orgrimmar's Southern Gates|
 T Beyond Durotar|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275;28496|
 
-A Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|From the Warchief's Command Board.|LEAD|25275;25648|
+A Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|From the Warchief's Command Board.|LEAD|14129|
 T Warchief's Command: Azshara!|QID|28496|M|27.00,77.09|N|To Labor Captain Grabbit.|LEAD|25275;25648|
 
 A Venison for the Troops|QID|14118|M|26.82,76.95|N|From Ag'tor Bloodfist.|
@@ -227,7 +230,7 @@ A Memories of the Dead|QID|14215|PRE|14201|M|29.64,66.86|N|From Malynea Skyreave
 T Survey the Lakeshore|QID|14202|M|29.59,66.85|N|To Custer Clubnik, who wanders.|
 C Memories of the Dead|QID|14215|M|36.57,72.50;37.52,74.53|CS|N|Talk to the Spirit of Kalytha then follow the arrow to Archmage Selwyn.|
 T Memories of the Dead|QID|14215|M|37.52,74.53|N|(UI Alert)|
-A Mystery of the Sarcen Stone|QID|14216|PRE|14201|M|37.52,74.53|N|(UI Alert)|
+A Mystery of the Sarcen Stone|QID|14216|PRE|14215|M|37.52,74.53|N|(UI Alert)|
 C Mystery of the Sarcen Stone|QID|14216|M|35.52,75.28|N|Open the Ancient Stone Cask at the bottom of the Lake.|
 T Mystery of the Sarcen Stone|QID|14216|M|29.66,66.88|N|To Malynea Skyreaver.|
 A Gunk in the Trunk|QID|14209|PRE|14202|M|29.71,67.11|N|From Custer Clubnik.|
@@ -237,11 +240,11 @@ A Dozercism|QID|14423|PRE|14209|M|29.73,67.15|N|From Custer Clubnik, who wanders
 C Dozercism|QID|14423|U|49350|M|28.94,66.54|N|Use the Blessed Flaregun by Clubnik's Dozer. Be sure you have the Dozer targeted when the priest appears, or it is hard to target it afterwards.|
 T Dozercism|QID|14423|M|29.62,67.07|N|To Custer Clubnik, who wanders.|
 
-A Need More Science|QID|14424|PRE|14423|M|29.62,67.07;29.39,66.63|CS|N|From Custer Clubnik. Ride the lift to the top of the tower and talk to the goblin for a rocket ride to the Southern Rocketway Terminus.|
+A Need More Science|QID|14424|LEAD|14308|PRE|14423|M|29.62,67.07;29.39,66.63|CS|N|From Custer Clubnik. Ride the lift to the top of the tower and talk to the goblin for a rocket ride to the Southern Rocketway Terminus.|
 F Southern Rocketway Terminus|QID|14424|M|29.47,66.22|N|Go to the top of the tower, talk to the Bilgewater Rocket-jockey and ride the rocket to Southern Rocketway Terminus.|
 f Southern Rocketway|QID|14424|M|51.49,74.28|N|Get flight point from Friz Groundspin|
 T Need More Science|QID|14424|M|50.41,74.29|N|To Assistant Greely.|
-A When Science Attacks|QID|14308|PRE|14424|M|50.41,74.29|N|From Assistant Greely.|
+A When Science Attacks|QID|14308|M|50.41,74.29|N|From Assistant Greely.|
 A Mortar the Point|QID|14258|M|52.22,74.23|N|From Bombardier Captain Smooks.|
 C Mortar the Point|QID|14258|M|43.11,77.18|N|Collect Mortar shells.|S|
 C When Science Attacks|QID|14308|U|49132|M|43.39,76.07|N|Put out Lab fires, and put out Research Interns that are on fire.|S|
@@ -329,7 +332,7 @@ T First Come, First Served|QID|24437|M|39.14,51.77|N|To Ruckus.|
 T Mop Up|QID|24435|M|41.50,53.63|N|To Lieutenant Drex.|
 T Halo Drops|QID|24436|M|41.41,53.92|N|To Sergeant Hort.|
 
-A Field Promotion|QID|24448|PRE|24436|M|41.50,53.63|N|From Lieutenant Drex.|
+A Field Promotion|QID|24448|PRE|24435;24436|M|41.50,53.63|N|From Lieutenant Drex.|
 T Field Promotion|QID|24448|M|34.34,44.89|N|To Captain Tork.|
 A Still Beating Heart|QID|14487|PRE|24448|M|34.34,44.89|N|From Captain Tork.|
 A Extermination|QID|14480|PRE|24448|M|34.44,44.77|N|From Sergeant Zelks.|
@@ -349,7 +352,7 @@ T Ticker Required|QID|14485|M|34.44,44.77|N|To Sergeant Zelks.|
 T Extermination|QID|14480|M|34.44,44.77|N|From Sergeant Zelks.|
 T Handling the Goods|QID|14486|M|34.52,44.71|N|To Tora Halotrix.|
 
-A Shore Leave|QID|24449|PRE|14485|M|34.33,44.88;34.48,44.59|CS|N|From Captain Tork.|
+A Shore Leave|QID|24449|PRE|14480;14484;14485;14486;14487|M|34.33,44.88;34.48,44.59|CS|N|From Captain Tork.|
 T Shore Leave|QID|24449|M|60.59,50.57|N|To Uncle Bedlam. Hop on the Military Gyrocopter when ready to leave.|
 A Azshara Blues|QID|14407|M|59.38,50.68|N|From Teemo.|
 T Azshara Blues|QID|14407|M|55.47,52.16|N|To Kalec.|
@@ -458,7 +461,7 @@ C Ice Cold|QID|14261|U|49596|US|M|69.59,19.40|N|Use the Cryomatic 16 to freeze a
 T Ice Cold|QID|14261|M|66.57,19.63|N|To Blastnoggin.|
 T Pro-liberation|QID|14297|M|66.42,20.29|N|To Jellix Fuselighter.|
 
-A Farewell, Minnow|QID|14392|PRE|24467|M|67,20.4|N|From Azuregos.|
+A Farewell, Minnow|QID|14392|PRE|14261;14297;24467|M|67,20.4|N|From Azuregos.|
 H Bilgewater Harbor|QID|14392|U|6948|M|67.07,21.15|N|Hearth to Bilgewater Harbor, or fly back.|
 T Farewell, Minnow|QID|14392|M|53.25,49.96|N|Speak to Sorata Firespinner in Bilgewater Harbor.|
 A Airborne Again|QID|24497|PRE|14392|M|52.98,49.78|N|Secure a ride to Valermok with the Airborne Priests in the eastern portion of Bilgewater Harbor.|
@@ -497,7 +500,7 @@ T The Conquest of Azshara|QID|24439|M|14.03,64.78|N|To Chawg.|
 
 A Probing into Ashenvale|QID|24463|PRE|24439|M|14.32,65.05|N|From Kroum.|
 T Probing into Ashenvale|QID|24463|M|94.39,46.80|Z|Ashenvale|N|Run back through all the hostile mobs and across the bridge to Kulg Gorespatter.|
-A To The Ramparts!|QID|13866|PRE|24463|M|94.39,46.80|Z|Ashenvale|N|From Kulg Gorespatter.|
+A To The Ramparts!|QID|13866|LEAD|13612|PRE|24463|M|94.39,46.80|Z|Ashenvale|N|From Kulg Gorespatter.|
 F Northern Barrens |QID|13866|M|94.39,46.80|Z|Ashenvale|N|Talk to Kulg for a free flight.|
 T To The Ramparts!|QID|13866|M|42.41,15.18|Z|Northern Barrens|N|To Kadrak.|
 
