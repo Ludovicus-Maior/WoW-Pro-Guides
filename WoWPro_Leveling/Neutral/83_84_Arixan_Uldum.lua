@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2018-02-23 01:21
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3309/revisions/28929/view
 -- Date: 2018-01-17 00:11
 -- Who: Ludovicus
 -- Log: New Levels
@@ -337,7 +342,7 @@ A Do the Honors|QID|27669|PRE|27624|M|64.47,28.02|N|From Harrison Jones.|
 C Do the Honors|QID|27669|U|62054|M|64.48,31.04|N|Use the Orbs of the Stars, then sit back and watch the cinematic.  Once this has finished, you'll be teleported back outside.|NC|
 T Do the Honors|QID|27669|M|63.90,33.90|N|To Harrison Jones.|
 
-A That Gleam in his Eye|QID|27899|PRE|27669|M|54.29,35.23|N|From Adarrah.|
+A That Gleam in his Eye|QID|27899|LEAD|27901|PRE|27669|M|54.29,35.23|N|From Adarrah.|
 T Al'Akir's Vengeance|QID|28135|M|45.23,37.92|N|To Prince Nadun.|
 
 A Minions of Al'Akir|QID|27520|PRE|28135|M|45.23,37.92|N|From Prince Nadun.|RANK|2|
@@ -370,7 +375,7 @@ T Under the Choking Sands|QID|27519|M|45.27,37.84|N|To General Ammantep.|US|
 A Send Word to Phaoris|QID|27628|PRE|27706|M|45.23,37.95|N|From Prince Nadun.|
 T Minions of Al'Akir|QID|27520|M|45.23,37.95|N|To Prince Nadun.|RANK|2|
 
-A The Vortex Pinnacle|QID|28845|PRE|27520;27706;27519|M|45.25,37.79|N|Inside the Instance, if you wish to do it. From General Ammantep.|RANK|2|
+A The Vortex Pinnacle|QID|28845|LEAD|28779|PRE|27520;27706;27519|M|45.25,37.79|N|Inside the Instance, if you wish to do it. From General Ammantep.|RANK|2|
 T Send Word to Phaoris|QID|27628|M|54.79,32.72|N|To King Phaoris, then sit back and watch the cinematic.|
 
 A The High Priest's Vote|QID|27630|PRE|27628|M|54.97,34.01|N|From Prince Nadun, outside the throne room.|S|
@@ -489,7 +494,7 @@ C Unstable Bomb Bot deactivated|QID|27761|U|62398|QO|4|M|79.01,64.05|N|Don't try
 N Third Bomb Cluster|QID|27761|U|62398|M|78.85,65.06|N|Use the Holographic Projector then right-click on the Third Bomb Cluster to disarm it.|QO|3|
 N Second Bomb Cluster|QID|27761|U|62398|M|79.01,64.05|N|Use the Holographic Projector then right-click on the Second Bomb Cluster to disarm it.|QO|2|
 C A Disarming Distraction|QID|27761|U|62398|M|78.81,61.82|N|Use the Holographic Projector then right-click on the First Bomb Cluster to disarm it.|QO|1|NC|
-C Unstable Bomb Bot deactivated|QID|27761|U|62398|QO|Unstable Bomb Bot deactivated: 4/4|M|79.01,64.05|N|Don't try to fight the cursed engineers. Use the Holographic Projector to distract them repeatedly. Right-click on the Unstable Bomb Bots to defuse them.|US|NC|
+C Unstable Bomb Bot deactivated|QID|27761|U|62398|QO|4|M|79.01,64.05|N|Don't try to fight the cursed engineers. Use the Holographic Projector to distract them repeatedly. Right-click on the Unstable Bomb Bots to defuse them.|US|NC|; Unstable Bomb Bot deactivated: 4/4
 
 T A Disarming Distraction|QID|27761|M|74.08,64.44|N|To the A.I.D.A. Terminal.|S|
 T Core Access Codes|QID|27777|M|74.08,64.44|N|To the A.I.D.A. Terminal.|
@@ -529,7 +534,7 @@ A The Fall of Neferset City|QID|28520|PRE|28480;28483;28486|M|52.07,65.43|N|From
 C The Fall of Neferset City|QID|28520|M|52.04,82.29|N|Defeat Dark Pharaoh Tekahn. NPCs will come to your aid, just make sure you avoid the laser beams from the Colossi.|
 T The Fall of Neferset City|QID|28520|M|54.89,32.82|U|6948|N|Use your Hearthstone. To King Phaoris.|
 
-A Return to the Lost City|QID|28870|PRE|28520|M|54.89,32.82|N|This is a Dungeon quest and is optional. From King Phaoris.|LEAD|28781;28783|RANK|3|
+A Return to the Lost City|QID|28870|PRE|28520|M|54.89,32.82|N|This is a Dungeon quest and is optional. From King Phaoris.|LEAD|28783|RANK|3|
 T That Gleam in his Eye|QID|27899|M|43.94,57.10|N|To Harrison Jones. On top of the Obelisk of the Sun.|
 
 A I've Got This Guy|QID|27900|PRE|27669|M|43.94,57.10|N|From Harrison Jones.|S|
@@ -537,7 +542,7 @@ A They Don't Know What They've Got Here|QID|27901|PRE|27669|M|43.94,57.10|N|From
 A I've Got This Guy|QID|27900|PRE|27669|M|43.94,57.10|N|From Harrison Jones.|US|
 
 C I've Got This Guy|QID|27900|M|45.63,54.43|N|Kill Schnottz Air Troopers.|S|
-A Efficient Excavations|QID|28132|PRE|27669|U|62768|M|43.51,56.03|N|Kill Schnottz Air Officers until you get Efficient Excavations item. Use it to accept this quest.|T|Schnottz Air Officer|
+A Efficient Excavations|QID|28132|LEAD|27926|PRE|27669|U|62768|M|43.51,56.03|N|Kill Schnottz Air Officers until you get Efficient Excavations item. Use it to accept this quest.|T|Schnottz Air Officer|
 l Titan Device Components|QID|27901|M|43.47,55.93|L|62610 6|N|Look for Obelisk of the Sun Coffers and loot 6 Titan Device Components. You can find the keys to open those coffers on Schnottz Air Officers. |
 C They Don't Know What They've Got Here|QID|27901|M|43.47,55.93|U|62610|N|Combine the Titan Device Components into the Titan Activation Device.|
 C I've Got This Guy|QID|27900|M|45.63,54.43|N|Kill Schnottz Air Troopers.|US|
@@ -668,7 +673,7 @@ T Unlimited Potential|QID|28351|M|29.56,21.92|N|To Sullah.|
 T Master Trapper|QID|28350|M|29.56,21.92|N|To Sullah.|US|
 T Camel Tow|QID|28352|M|29.56,21.92|N|To Sullah.|US|
 
-A Jonesy Sent For You|QID|28353|PRE|28350|M|29.56,21.92|N|From Sullah.|
+A Jonesy Sent For You|QID|28353|LEAD|28271|PRE|28350|M|29.56,21.92|N|From Sullah.|
 T Jonesy Sent For You|QID|28353|M|27.02,7.62|N|To Harrison Jones.|
 
 A Reduced Productivity|QID|28271|PRE|28274|M|27.02,7.62|N|From Harrison Jones.|S|
