@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2018-02-20 01:57
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Eversong
+
+-- URL: http://wow-pro.com/node/3207/revisions/29072/view
+-- Date: 2018-02-20 01:50
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Suntrider
+
+-- URL: http://wow-pro.com/node/3207/revisions/28904/view
 -- Date: 2018-01-16 23:54
 -- Who: Ludovicus
 -- Log: New Levels
@@ -250,14 +260,6 @@
 -- Who: Crackerhead22
 -- Log: Changed |R|Blood Elf| to |R|BloodElf| so the Blood Elf only quests will show.
 
--- URL: http://wow-pro.com/node/3207/revisions/23321/view
--- Date: 2010-12-03 08:10
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3207/revisions/23289/view
--- Date: 2010-12-03 07:13
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("SnoEve0512", "Leveling", "Eversong Woods", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,5,10, 5.78882)
 WoWPro:NewGuideLevels(guide,1,20)
@@ -318,7 +320,7 @@ T Incriminating Documents |QID|8482|N|To Aeldon Sunbrand.|M|48.2,46.0|
 
 A The Dwarven Spy |QID|8483|PRE|8482|N|From Aeldon Sunbrand.|M|48.2,46.0|
 C The Dwarven Spy |QID|8483|L|20764|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|M|44.60,53.30|
-A Roadside Ambush |QID|9035|N|From Apprentice Ralen.|M|45.2,56.4|
+A Roadside Ambush |QID|9035|LEAD|9062|N|From Apprentice Ralen.|M|45.2,56.4|
 T Roadside Ambush |QID|9035|N|To Apprentice Meledor.|M|44.9,61.0|
 A Soaked Pages |QID|9062|N|From Apprentice Meledor.|M|44.9,61.0|
 C Soaked Pages |QID|9062|L|22414|N|Dive under the bridge just in front of you, the Soaked Pages are in the river. |M|44.40,61.90|NC|
@@ -335,15 +337,15 @@ T The Dead Scar |QID|8475|N|To Ranger Jaela.|M|50.3,50.8|
 T Swift Discipline |QID|9066|N|To Instructor Antheol.|M|55.7,54.5|
 F Falconwing Square|QID|8483|M|54.37,50.73|N|Fly to Falconwing Square.|
 T The Dwarven Spy |QID|8483|N|To Aeldon Sunbrand.|M|48.2,46.0|
-A Fairbreeze Village |QID|9256|PRE|8483|N|From Aeldon Sunbrand.|
+A Fairbreeze Village |QID|9256|LEAD|8892|PRE|8483|N|From Aeldon Sunbrand.|
 
 f Fairbreeze Village |QID|9256|M|43.94,69.98|N|Run to Fairbreeze Village and get the flight point from Skymaster Brightdawn.|
 A Pelt Collection |QID|8491|N|From Velan Brightoak.|M|44.7,69.6|
-A Saltheril's Haven |QID|9395|N|From Magistrix Landra Dawnstrider.|M|44.0,70.8|
-A The Wayward Apprentice |QID|9254|N|From Magistrix Landra Dawnstrider.|M|44.0,70.8|
+A Saltheril's Haven |QID|9395|LEAD|9067|N|From Magistrix Landra Dawnstrider.|M|44.0,70.8|
+A The Wayward Apprentice |QID|9254|LEAD|8487|N|From Magistrix Landra Dawnstrider.|M|44.0,70.8|
 T Fairbreeze Village |QID|9256|N|To Ranger Degolien. Up the ramp.|M|43.4,70.8|
 A Situation at Sunsail Anchorage |QID|8892|N|From Ranger Degolien|M|43.3,70.8|
-A Ranger Sareyn |QID|9358|N|From Marniel Amberlight. If you've already done Defending Fairbreeze Village this quest won't be available so just skip it.|M|43.7,71.2|
+A Ranger Sareyn |QID|9358|LEAD|9252|N|From Marniel Amberlight. If you've already done Defending Fairbreeze Village this quest won't be available so just skip it.|M|43.7,71.2|
 h Fairbreeze Village |QID|9395|N|With Marniel Amberlight.|
 A Goods from Silvermoon City|QID|9130|R|BloodElf|M|43.7,71.54|N|From Sathiel.|
 r Repair/Sell Junk|QID|9395|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
@@ -383,7 +385,7 @@ T Wretched Ringleader |QID|9076|N|To Velendris Whitemorn.|M|36.4,66.7|
 C Pelt Collection |QID|8491|N|Kill springpaws. They're all around Fairbreeze. |M|46.00,67.00|US|
 T Pelt Collection |QID|8491|N|To Velan Brightoak.|M|44.7,69.6|
 T Situation at Sunsail Anchorage |QID|8892|N|To Ranger Degolien.|M|43.3,70.8|
-A Farstrider Retreat |QID|9359|PRE|8892|N|From Ranger Degolien.|M|43.3,70.8|
+A Farstrider Retreat |QID|9359|LEAD|8476|PRE|8892|N|From Ranger Degolien.|M|43.3,70.8|
 r Repair/Sell Junk|QID|9358|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
 T Ranger Sareyn |QID|9358|N|To Ranger Sareyn.|M|46.9,71.8|
 
@@ -402,7 +404,7 @@ A Amani Encroachment |QID|8476|N|From Lieutenant Dawnrunner.|M|60.3,62.8|
 B Buy Springpaw Appetizers |QID|9067|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight at Farstrider Retreat.|M|60.40,62.46|
 
 A The Spearcrafter's Hammer |QID|8477|N|From Arathel Sunforge.|M|59.5,62.6|
-A The Magister's Apprentice |QID|8888|N|From Magister Duskwither. Up the right ramp.|M|60.3,61.4|
+A The Magister's Apprentice |QID|8888|LEAD|8889|N|From Magister Duskwither. Up the right ramp.|M|60.3,61.4|
 A Fetch!|QID|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
 C Fetch!|QID|9402|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|M|54.87,56.38|
 T Fetch!|QID|9402|N|To Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
@@ -410,7 +412,7 @@ A The Purest Water|QID|9403|PRE|9402|N|From Instructor Antheol.|R|BloodElf|C|Mag
 R Thuron's Livery |QID|8888|N|If you want the explorer achievement, head to Thuron's Livery.\n\nIf you don't, just click this step.|M|62.00,53.00|
 T The Magister's Apprentice |QID|8888|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|M|67.8,56.5|Z|Eversong Woods|
 A Deactivating the Spire |QID|8889|N|From Apprentice Loralthalis.|M|67.8,56.5|
-A Where's Wyllithen? |QID|9394|N|From Apprentice Loralthalis.|M|67.8,56.5|
+A Where's Wyllithen? |QID|9394|LEAD|8894|N|From Apprentice Loralthalis.|M|67.8,56.5|
 T Where's Wyllithen? |QID|9394|N|To Groundskeeper Wyllithen.|M|68.7,46.9|
 
 A Cleaning up the Grounds |QID|8894|N|From Groundskeeper Wyllithen.|M|68.7,46.9|
@@ -447,7 +449,7 @@ T Research Notes |QID|9255|N|To Magistrix Landra Dawnstrider.|M|44.03,70.76|
 T Warning Fairbreeze Village |QID|9363|N|To Ranger Degolien.|M|43.3,70.8|
 T Defending Fairbreeze Village |QID|9252|N|To Ranger Sareyn.|M|46.93,71.79|
 
-A The Scorched Grove|QID|9258|N|From Ardeyn Riverwind.|M|43.6,71.2|
+A The Scorched Grove|QID|9258|LEAD|8473|N|From Ardeyn Riverwind.|M|43.6,71.2|
 T The Party Never Ends |QID|9067|N|To Lord Saltheril.|M|38.1,73.6|
 T The Scorched Grove|QID|9258|M|34,80|N|To Larianna Riverwind. Find Larianna Riverwind near the Scorched Grove in the southwest of Eversong Woods.|
 A A Somber Task|QID|8473|N|From Larianna Riverwind.|M|34,80|
