@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-02-20 01:51
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Durotar
+
+-- URL: http://wow-pro.com/node/3199/revisions/29070/view
+-- Date: 2018-02-20 01:48
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Trials
+
+-- URL: http://wow-pro.com/node/3199/revisions/29068/view
+-- Date: 2018-02-20 01:45
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Echo
+
+-- URL: http://wow-pro.com/node/3199/revisions/28871/view
 -- Date: 2018-01-16 23:34
 -- Who: Ludovicus
 -- Log: New Levels
@@ -274,21 +289,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Changed some CN to CS so they clean up right.  Made things safe for goblins.
 
--- URL: http://wow-pro.com/node/3199/revisions/25515/view
--- Date: 2013-01-28 12:41
--- Who: Crackerhead22
--- Log: Minor edits for normal Durotar area.
-
--- URL: http://wow-pro.com/node/3199/revisions/25504/view
--- Date: 2013-01-23 14:49
--- Who: Crackerhead22
--- Log: Added in Monk steps for Echo Isles.
-
--- URL: http://wow-pro.com/node/3199/revisions/25463/view
--- Date: 2013-01-13 19:07
--- Who: Ludovicus_Maior
--- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"
-
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
@@ -334,8 +334,8 @@ A Back to the Den|QID|25130|M|34.59,44.38|N|From Hana'zua.|PRE|25129|
 T Back to the Den|QID|25130|M|34.40,61.14;40.59,62.94;45.05,66.07|CC|N|To Gornek at the starting area.  As a short-cut, you can jump down near where you fought Sarkoth.|
 T Vile Familiars|QID|25131|M|45.87,63.37|N|To Zureetha Fargaze.|
 
-A Burning Blade Medallion|QID|25132|M|45.87,63.37|N|From Zureetha Fargaze.|PRE|25131|
-A Thazz'ril's Pick|QID|25135|M|45.87,63.37|N|From Foreman Thazz'ril.|PRE|25131|
+A Burning Blade Medallion|QID|25132|M|45.87,63.37|N|From Zureetha Fargaze.|PRE|25131;37446|
+A Thazz'ril's Pick|QID|25135|M|45.87,63.37|N|From Foreman Thazz'ril.|PRE|25131;37446|
 
 C Burning Blade Medallion|QID|25132|M|41.80,8.73|N|Kill felstalkers as you go through the cave.|S|QO|1|
 C Thazz'ril's Pick|QID|25135|NC|M|53.10,21.01;46.97,9.67|CC|N|Enter the cave here, Inside the cave, central passage.|
@@ -346,7 +346,7 @@ H Valley of Trials|QID|25132|M|52.61,68.23|N|Hearth or run back to the Den.|
 
 T Thazz'ril's Pick|QID|25135|M|46.03,63.41|N|To Foreman Thazz'ril at the starting area.|
 T Burning Blade Medallion|QID|25132|M|45.91,63.49|N|To Zureetha Fargaze.|
-A Report to Sen'jin Village|QID|25133|M|45.91,63.49|N|From Zureetha Fargaze.|PRE|25132|
+A Report to Sen'jin Village|QID|25133|LEAD|25167|M|45.91,63.49|N|From Zureetha Fargaze.|PRE|25132|
 
 ; Now we go from ValleyOfTrails to Durotar
 R Sen'jin Village|QID|25133|M|55.36,73.35|Z|Durotar|N|Follow the road to the east until you see the signpost, then head south-east along the dirt track to Sen'jin Village.|ACTIVE|25133|
