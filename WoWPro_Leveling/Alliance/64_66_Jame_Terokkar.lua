@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2018-02-20 01:16
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3277/revisions/28899/view
 -- Date: 2018-01-16 23:51
 -- Who: Ludovicus
 -- Log: New Levels
@@ -199,7 +204,7 @@ l Vicious Teromoth Sample|QID|9968|US|N|Kill Vicious Teromoths to get 4 Vicious 
 T Clues in the Thicket|QID|9971|M|44.3,26.3|N|To Earthbinder Tavgren.|
 C Strange Energy|N|Kill teromoths until you get the items for this quest.|QID|9968|M|44.00,28.00|QO|1|
 T Strange Energy|QID|9968|M|44.3,26.3|N|To Earthbinder Tavgren.|
-A By Any Means Necessary|QID|9978|PRE|9968;9971|M|44.3,26.3|N|From Earthbinder Tavgren.|
+A By Any Means Necessary|QID|9978|PRE|9968+9971|M|44.3,26.3|N|From Earthbinder Tavgren.|
 T By Any Means Necessary|QID|9978|M|47.1,27.0|N|Find Empoor on the road between Shattrath City and Tuurem. Talk to him and then fight him to low health. Turn this quest in right after this.|
 A Wind Trader Lathrai|QID|9979|PRE|9978|M|47.1,27.0|N|From Empoor.|
 
