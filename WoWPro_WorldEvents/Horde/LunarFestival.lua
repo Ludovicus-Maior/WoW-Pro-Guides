@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2018-02-21 10:53
+-- Who: Emmaleah
+-- Log: Add note about Zidormi in Silithus
+
+-- URL: http://wow-pro.com/node/3452/revisions/28515/view
 -- Date: 2017-03-17 14:11
 -- Who: Ludovicus_Maior
 -- Log: 1 Syntax fix
@@ -151,8 +156,9 @@ A Splitrock the Elder|N|Enter the portal. From Elder Splitrock.|QID|8635|M|51.4,
 R Maraudon|QID|8685|N|Easy way out is to invite a friend, make them the leader then leave group. You will end up at the nearest graveyard, in this case right near the stone gate out. Should take about 1-2 minutes before you are booted.|RANK|2|
 F Stonemaul Hold|N|Fly to Stonemaul Hold in Feralas.|QID|8685|M|21.6,74|Z|Desolace|
 A Mistwalker the Elder|N|From Elder Mistwalker inside the arena at Dire Maul, NOT inside the instance.|QID|8685|M|62.56,31.07|Z|Feralas|
-A Grimtotem the Elder|N|From Elder Mistwalker located at Lariss Pavilion.|QID|8679|M|76.70,37.90|Z|Feralas|
+A Grimtotem the Elder|N|From Elder Grimtotem located at Lariss Pavilion.|QID|8679|M|76.70,37.90|Z|Feralas|
 F Cenarion Hold|N|Fly to Cenarion Hold in Silithus.|QID|8719|M|75.4,44.2|Z|Feralas|
+F Zidormi|N|If you have finished the Antarus raid, you will need to talk to Zidormi before you can see the elders.|LVL|110|M|78.8,21.8|Z|Silithus|
 A Primestone the Elder|N|From Elder Primestone, Silithus.|QID|8654|M|30.80,13.31|Z|Silithus|
 A Bladesing the Elder|N|From Elder Bladesing, Silithus.|QID|8719|M|53.02,35.47|Z|Silithus|
 
