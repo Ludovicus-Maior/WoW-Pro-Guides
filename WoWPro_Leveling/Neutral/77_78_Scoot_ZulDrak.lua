@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2018-02-23 00:13
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3295/revisions/28916/view
 -- Date: 2018-01-17 00:01
 -- Who: Ludovicus
 -- Log: New Levels
@@ -143,7 +148,7 @@ N READ THIS 3! |QID|12902|N|To do the optional quest abandon Into the Breach! an
 N Amphitheater of Anguish |QID|12948|N|While questing look for a group for the Amphitheater of Anguish. There are 6 quests here . You will need some of them for the Achievement, so anytime you can get in, do so. You must be 75 to do these quests.|
 N Amphitheater of Anguish |QID|12948|N|There is an optional leadin quest from Dalaran's Underbelly for the Amphitheater of Anguish, get that now before going to Light's Breach.|
 N Darkkari Offerings|QID|12859|N|As you kill things, loot everything. They have a chance to drop Drakkari Offerings (need 30 total) which are used in 3 quests, and give you a few types of buffs while in Zul'Drak.|
-A The Champion's Call! |QID|12974|O|Z|The Underbelly@Dalaran|M|53.2,48.8|N|In the Underbelly in Dalaran, find Shifty Vickers. This breadcrumb quest is not availible if you do ANY of the Amphitheater line and it counts to Loremaster.|LEAD|12932;12954|
+A The Champion's Call! |QID|12974|O|Z|The Underbelly@Dalaran|M|53.2,48.8|N|In the Underbelly in Dalaran, find Shifty Vickers. This breadcrumb quest is not availible if you do ANY of the Amphitheater line and it counts to Loremaster.|LEAD|12954|
 
 f Light's Breach |QID|12883|N|Fly to Light's Breach.|Z|Zul'Drak|M|32.05,74.50|
 T Into the Breach! |QID|12789|O|N|To Sargent Riannah, who is next to the Flightmaster.|M|32.05,74.50|
@@ -202,19 +207,19 @@ T Darkness Calling |QID|12633|O|N|To Stefan Vadu.|
 A Close Call |QID|12638|O|PRE|12633|N|From Stefan Vadu.|
 C Close Call |QID|12638|O|N|Bloodrose Datura will give you a demo.|M|14.29,74.03|
 
-A Taking a Stand |QID|12795|PRE|12630|M|14.3,74.0|N|From Bloodrose Datura.|
+A Taking a Stand |QID|12795|LEAD|12503|PRE|12630|M|14.3,74.0|N|From Bloodrose Datura.|
 T Near Miss |QID|12637|O|M|14.1,73.8|N|To Stefan Vadu.|
-A You Can Run, But You Can't Hide |QID|12629|PRE|12631|M|14.1,73.8|N|From Stefan Vadu.|
+A You Can Run, But You Can't Hide |QID|12629|PRE|12637|M|14.1,73.8|N|From Stefan Vadu.|
 C You Can Run, But You Can't Hide |QID|12629|N|Around the Reliquary of Agony. Pick up the Drool from the ground. Kill and loot the Abominations.|M|21.24,75.01|
 T You Can Run, But You Can't Hide |QID|12629|N|Back to Stefan Vadu at Ebon Watch.|M|14.26,73.60|
-A Dressing Down |QID|12648|PRE|12631|M|14.1,73.8|N|From Stefan Vadu.|
+A Dressing Down |QID|12648|PRE|12629|M|14.1,73.8|N|From Stefan Vadu.|
 C Dressing Down |QID|12648|N|Return to the Reliquary of Agony and use the choker. Buy the plasma from Gristlegut.|U|38699|M|19.82,75.32|
 T Close Call |QID|12638|M|14.1,73.8|N|To Stefan Vadu.|
-A Silver Lining |QID|12643|PRE|12633|N|From Stefan Vadu.|
+A Silver Lining |QID|12643|PRE|12638|N|From Stefan Vadu.|
 C Silver Lining |QID|12643|N|Around the Reliquary of Agony . Pick up the Drool from the ground. Kill the Abominations.|M|21.24,75.01|
 T Silver Lining |QID|12643|N|Back to Ebon Watch. |M|14.12,73.79|
 
-A Suit Up! |QID|12649|O|PRE|12633|N|From Stefan Vadu.|
+A Suit Up! |QID|12649|O|PRE|12643|N|From Stefan Vadu.|
 C Suit Up! |QID|12649|O|N|Return to the Reliquary of Agony and use the choker. You cannot use while shapeshifted. Buy the plasma from Gristlegut.|U|38699|M|19.91,75.44|
 A Feedin' Da Goolz |QID|12652|M|19.9,75.5|N|From Gristlegut.|
 C Feedin' Da Goolz |QID|12652|N|Use the bowl near the ghouls. Be careful of the Blightguards, they see through your disguise. You should hotkey the chocker because your diguise will fail at some point.|U|38701|
