@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2018-02-20 01:35
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3486/revisions/28934/view
 -- Date: 2018-01-17 00:32
 -- Who: Ludovicus
 -- Log: New Levels
@@ -218,10 +223,10 @@ T The Mission|QID|29548|M|42.04,92.75|N|To Sky Admiral Rogers.|
 
 A Unleash Hell|QID|31732|PRE|29548|M|42.04,92.75|N|From Sky Admiral Rogers.|
 F Garrosh'ar Point|QID|31732|M|42.00,92.54|N|Board the Skyfire Gyrocopter located further along the deck.|
-C Unleash Hell|QID|31732|M|42.02,92.51|N|Your UI will shortly change to have just one option, button #1 will fire Torpedo Rocket.  Aim at the Garrosh'ar Shredder and Horde Grunts until you have killed the required number.|QO|Garrosh'ar Shredder slain: 8/8|
-C Unleash Hell|QID|31732|M|42.02,92.51|N|Continue with the Torpedo Rockets, killing the Horde Grunts until you have killed the required number of horde.|QO|Garrosh'ar Horde slain: 60/60|
-C Unleash Hell|QID|31732|M|42.02,92.51|N|You will now be transported to the Bladefist Reaper.  Sink it with a Torpedo Rocket.|QO|Bladefist Reaper sunk: 1/1|
-C Unleash Hell|QID|31732|M|42.02,92.51|N|You will now be transported to the Stygian Scar.  Sink it with a Torpedo Rocket.|QO|Stygian Scar sunk: 1/1|
+C Unleash Hell|QID|31732|M|42.02,92.51|N|Your UI will shortly change to have just one option, button #1 will fire Torpedo Rocket.  Aim at the Garrosh'ar Shredder and Horde Grunts until you have killed the required number.|QO|2|; Garrosh'ar Shredder slain: 8/8
+C Unleash Hell|QID|31732|M|42.02,92.51|N|Continue with the Torpedo Rockets, killing the Horde Grunts until you have killed the required number of horde.|QO|1|; Garrosh'ar Horde slain: 60/60
+C Unleash Hell|QID|31732|M|42.02,92.51|N|You will now be transported to the Bladefist Reaper.  Sink it with a Torpedo Rocket.|QO|3|; Bladefist Reaper sunk: 1/1
+C Unleash Hell|QID|31732|M|42.02,92.51|N|You will now be transported to the Stygian Scar.  Sink it with a Torpedo Rocket.|QO|4|; Stygian Scar sunk: 1/1
 C Unleash Hell|QID|31732|M|42.02,92.51|N|Kill the required targets with the Torpedo Rocket on your Skyfire Gyrocopter.|
 T Unleash Hell|QID|31732|M|42.04,92.75|N|Wait for the Skyfire Gyrocopter to return to the Skyfire, then to Sky Admiral Rogers.|
 
@@ -240,9 +245,9 @@ T No Plan Survives Contact with the Enemy|QID|30069|M|45.1,95.0|N|To Rell Nightw
 T Welcome Wagons|QID|31734|M|45.1, 95.0|N|To Rell Nightwind|
 A The Right Tool For The Job|QID|31735|PRE|30069;31734|M|45.1,95.0|N|From Rell Nightwind.|
 
-C The Right Tool For The Job|QID|31735|U|89624|QO|First Barricade Destroyed: 1/1|M|45.51,95.20|N|Head to the first barricade, and use Sully's Flaregun near it.|NC|
-C The Right Tool For The Job|QID|31735|U|89624|QO|Second Barricade Destroyed: 1/1|M|45.94,95.83|N|Move along to the second barricade, and use Sully's Flaregun near it.|NC|
-C The Right Tool For The Job|QID|31735|QO|Ga'trul Confronted: 1/1|M|45.94,95.83|N|Move along to the end of the walkway, and try to attack Ga'trul (no combat).|NC|
+C The Right Tool For The Job|QID|31735|U|89624|QO|1|M|45.51,95.20|N|Head to the first barricade, and use Sully's Flaregun near it.|NC|; First Barricade Destroyed: 1/1
+C The Right Tool For The Job|QID|31735|U|89624|QO|2|M|45.94,95.83|N|Move along to the second barricade, and use Sully's Flaregun near it.|NC|; Second Barricade Destroyed: 1/1
+C The Right Tool For The Job|QID|31735|QO|3|M|45.94,95.83|N|Move along to the end of the walkway, and try to attack Ga'trul (no combat).|NC|; Ga'trul Confronted: 1/1
 C The Right Tool For The Job|QID|31735|M|45.94,95.83|N|Head along the walkway, destroy the two barricades, then confront Ga'trul.|
 
 T The Right Tool For The Job|QID|31735|M|46.5,96.3|N|To Rell Nightwind, who will appear at the end of the dock.|
@@ -288,12 +293,12 @@ R Twinspire Keep|QID|31741|M|44.91,83.64;43.66,84.73;42.67,85.23;41.49,83.33|CS|
 
 C Twinspire Keep|QID|31741|S|M|42.30,79.63|
 C Unfair Trade|QID|31744|S|M|40.12,81.90|N|Kill the green demonic eyeballs to free the cubs.  There are LOTS.|
-C Bomb the Wild Imps|QID|31743|U|89602|QO|Wild Imps bombed: 1/1|M|43.3,81.5|N|Use the flare to call an aerial strike|; Twinspire Keep
-C Bomb the Twinspire munitions stockpile|QID|31743|U|89602|QO|Twinspire munitions stockpile bombed: 1/1|M|40.6,82.4|N|Use the flare to call an aerial strike|; Twinspire Keep
-C Bomb Xhu'daggab|QID|31743|U|89602|QO|Xhu'daggab bombed: 1/1|M|40.3,82.0|N|Use the flare to call an aerial strike|; Twinspire Keep
-C Bomb the Twinspire Demolishers|QID|31743|U|89602|QO|Twinspire Demolishers bombed: 1/1|M|41.2,81.4|N|Use the flare to call an aerial strike|; Twinspire Keep
-K Bellandra Felstorm|QID|31742|T|Bellandra Felstorm|QO|Bellandra Felstorm slain: 1/1|M|41.7,80.2|; Twinspire Keep
-K Dalgan slain|QID|31742|T|Dalgan|QO|Dalgan slain: 1/1|M|41.0,80.2|; Twinspire Keep
+C Bomb the Wild Imps|QID|31743|U|89602|QO|4|M|43.3,81.5|N|Use the flare to call an aerial strike|; Wild Imps bombed: 1/1
+C Bomb the Twinspire munitions stockpile|QID|31743|U|89602|QO|1|M|40.6,82.4|N|Use the flare to call an aerial strike|; Twinspire munitions stockpile bombed: 1/1
+C Bomb Xhu'daggab|QID|31743|U|89602|QO|3|M|40.3,82.0|N|Use the flare to call an aerial strike|; Xhu'daggab bombed: 1/1
+C Bomb the Twinspire Demolishers|QID|31743|U|89602|QO|2|M|41.2,81.4|N|Use the flare to call an aerial strike|; Twinspire Demolishers bombed: 1/1
+K Bellandra Felstorm|QID|31742|T|Bellandra Felstorm|QO|2|M|41.7,80.2|; Bellandra Felstorm slain: 1/1
+K Dalgan slain|QID|31742|T|Dalgan|QO|1|M|41.0,80.2|; Dalgan slain: 1/1
 C Unfair Trade|QID|31744|US|M|40.3,82.0|N|Kill the green demonic eyeballs to free the cubs|; Twinspire Keep - Need better coords
 C Twinspire Keep|QID|31741|US|M|41.6,81.3|; Twinspire Keep
 
@@ -377,10 +382,10 @@ A SI:7 Report: Lost in the Woods|QID|29733|PRE|29894|M|58.98,81.82|N|From Rell N
 C SI:7 Report: Lost in the Woods|QID|29733|M|49.88,70.92|N|Use all three of Rell Nightwind's attacks to kill the elite Hozen and then General Rik-Rik. If you keep all abilities on cooldown, it is easy.  Hint, if you are about to die, exit the vehicle and it will take you back to the start without dying.|
 T SI:7 Report: Lost in the Woods|QID|29733|M|58.98,81.82|N|To Rell Nightwind.|
 A SI:7 Report: Fire From the Sky|QID|29725|PRE|29733|M|51.02,63.06|N|From Sully "The Pickle" McLeary, who is pacing. "See" his report as soon as you accept.|
-C Scout the southeastern shrine |QID|29725|QO|Scout the southeastern shrine: 1/1|M|50.7,62.7|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Serpent's Heart
-C Scout the southwestern shrine |QID|29725|QO|Scout the southwestern shrine: 1/1|M|46.4,62.0|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Serpent's Heart
-C Scout the northern shrine |QID|29725|QO|Scout the northern shrine: 1/1|M|47.4,58.6|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Serpent's Heart
-C Return to camp |QID|29725|QO|Return to camp: 1/1|M|50.9,63.0|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Shadybranch Pocket
+C Scout the southeastern shrine |QID|29725|QO|1|M|50.7,62.7|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Scout the southeastern shrine: 1/1
+C Scout the southwestern shrine |QID|29725|QO|1|M|46.4,62.0|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Scout the southwestern shrine: 1/1
+C Scout the northern shrine |QID|29725|QO|3|M|47.4,58.6|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Scout the northern shrine: 1/1
+C Return to camp |QID|29725|QO|4|M|50.9,63.0|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Return to camp: 1/1
 T SI:7 Report: Fire From the Sky|QID|29725|M|58.83,81.69|N|To Sully "The Pickle" McLeary.|
 A SI:7 Report: Hostile Natives|QID|29726|PRE|29725|M|59.1,81.9|N|From Little Lu. "See" his report as soon as you accept.|
 
@@ -475,7 +480,7 @@ f Dawn's Blossom|QID|29922|M|47.05,46.24|N|At Keg Runner Lee.|
 T In Search of Wisdom|QID|29922|M|46.81,46.14|N|To Lorewalker Cho.|
 ; [aldavor] added rank 3 since it's achiev not quest.
 R The Emperor's Burden - Part 1|QID|968550001|M|47.08, 45.14|ACH|6855;1|N|Exploration>The Seven Burdens of Shaohao.|RANK|3|
-A Welcome to Dawn's Blossom|QID|31230|PRE|29922;30015|M|47.16,46.17|N|From Toya.|
+A Welcome to Dawn's Blossom|QID|31230|PRE|29922+30015|M|47.16,46.17|N|From Toya.|
 ; [aldavor] changed the QOs to numerics.
 C Welcome to Dawn's Blossom|QID|31230|M|47.04,46.02|N|Wanderbrew wanders about near here.|QO|3|CHAT|
 C Welcome to Dawn's Blossom|QID|31230|M|45.77,43.67|QO|2|N|Speak with Peiji Goldendraft.|CHAT|
@@ -503,8 +508,8 @@ T The Threads that Stick|QID|29866|M|46.63,45.31|N|To Lo Wanderbrew.|
 T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur, now wandering around the village.|
 A Find the Boy|QID|29993|PRE|29866|M|47.07,46.08|N|From Kai Wanderbrew, never in the same place twice|
 A All We Can Spare|QID|29925|PRE|29723|M|47.16,46.17|N|From Toya.|
-A An Air of Worry|QID|29576|M|48.33,46.06|N|From Old Man Misteyes.|
-A Tian Monastery|QID|29617|M|49.65,45.83|N|From Apprentice Yufi.|
+A An Air of Worry|QID|29576|LEAD|29578|M|48.33,46.06|N|From Old Man Misteyes.|
+A Tian Monastery|QID|29617|LEAD|29618|M|49.65,45.83|N|From Apprentice Yufi.|
 
 R The Arboretum|QID|29993|M|49.02,46.27;49.14,47.32;50.43,46.41|CC|N|The path is just down the stairs you passed to get the last quest.|
 A The Perfect Color|QID|29881|M|54.89,45.31|N|From Inkmaster Glenzu.|
@@ -659,7 +664,7 @@ A Attention|QID|29624|PRE|29623|M|41.60,28.33|N|From Instructor Xann.|
 C Attention|QID|29624|M|41.11,26.98|N|Attack the right or left bag based on the yellow text in the middle of your screen.\nMake sure you face the side of the pole with the yellow marker and avoid AoE attacks.|
 T Attention|QID|29624|M|41.60,28.33|N|To Instructor Xann.|
 
-C Husshun, the Wizened|QID|29634|M|44.54,24.08|N|Challenge him to a match beyond the bell.|QO|Husshun defeated: 1/1|
+C Husshun, the Wizened|QID|29634|M|44.54,24.08|N|Challenge him to a match beyond the bell.|QO|1|; Husshun defeated: 1/1
 T Husshun, the Wizened|QID|29634|M|43.27,24.75|N|To Master Stone Fist.|
 A Xiao, the Eater|QID|29635|PRE|29633;29634|M|43.27,24.75|N|From Master Stone Fist.|
 C Xiao, the Eater|QID|29635|M|43.12, 23.64|QO|1|
@@ -777,7 +782,7 @@ A Last Piece of the Puzzle|QID|31362|PRE|30565;30568|M|58.85,81.11|N|From Lorewa
 
 C Last Piece of the Puzzle|QID|31362|NC|U|80071|M|58.85,81.08;44.50,66.96|CS|N|Talk to Mishi for a ride and then use the Cho Family Heirloom at the shrine.|
 T Last Piece of the Puzzle|QID|31362|M|44.8,67.1|N|To Lorewalker Cho.|
-A The Seal is Broken|QID|31303|PRE|30485;31362|M|44.78,67.06|N|From Lorewalker Cho.|
+A The Seal is Broken|QID|31303|PRE|30485+31362|M|44.78,67.06|N|From Lorewalker Cho.|
 f Serpent's Overlook|QID|31303|M|43.13,68.48|N|At Sky Dancer Ji.|
 C The Seal is Broken|QID|31303|M|44.72,66.98|N|Talk to Mishi to start the "bombing run" to seal the fissures. Look for points where the steam is rising upwards.|
 T The Seal is Broken|QID|31303|M|49.27,61.39|N|To Lorewalker Cho.|
