@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2018-02-20 21:07
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3230/revisions/28879/view
 -- Date: 2018-01-16 23:39
 -- Who: Ludovicus
 -- Log: New Levels
@@ -117,7 +122,7 @@ T Sigil of Strom|QID|26030|M|13.04,36.10|N|To Galen Trollbane, back at Galen's F
 A Sigil of Thoradin|QID|26031|PRE|26030|M|13.04,36.10|N|From Galen Trollbane.|
 T Call to Arms|QID|26027|M|13.27,35.92|N|To Dark Ranger Alina.|
 T The Traitor Orc|QID|26025|M|13.27,35.92|N|To Dark Ranger Alina.|
-A The Real Threat|QID|26029|PRE|26027|M|13.39,34.29|N|From Deathstalker Maudria.|
+A The Real Threat|QID|26029|PRE|26025;26027|M|13.39,34.29|N|From Deathstalker Maudria.|
 
 C Sigil of Thoradin|QID|26031|M|16.59,60.88|N|Head back to Stromgarde. Turn  right to the western portion of the keep, kill and loot humans.|
 C The Real Threat|QID|26029|N|Kill and loot Or'Kalar, in the ogre section of Stromgarde.|M|17.75,62.70;17.40,67.90;14.69,67.44|CC|
@@ -145,7 +150,7 @@ T Trol'kalar|QID|26033|M|12.92,36.10|N|To Galen Trollbane, back at Galen's Fall.
 A Alina's Reward|QID|26081|PRE|26033|M|12.92,36.10|N|From Galen Trollbane.|
 T Alina's Reward|QID|26081|M|13.26,35.94|N|To Dark Ranger Alina.|
 A Hammerfall|QID|26084|PRE|26081|M|13.26,35.94|N|From Dark Ranger Alina.|
-A Hello Lolo|QID|26083|RANK|2|PRE|26081|M|12.90,34.19|N|From Goutgut.|
+A Hello Lolo|QID|26083|RANK|2|M|12.90,34.19|N|From Goutgut.|
 R Faldir's Cove|QID|26083|RANK|2|M|24.36,69.50;25.52,85.13|CC|N|The entrance to the cove is outside the south-eastern wall of Stromgarde.|
 T Hello Lolo|QID|26083|RANK|2|M|25.52,85.13|N|To Lolo the Lookout.|
 A Goggle Boggle|QID|26050|RANK|2|M|27.52,83.12|N|From Professor Phizzlethorpe.|
@@ -168,18 +173,18 @@ H Hammerfall|QID|26107|US|M|69.61,36.47|N|If you didn't set your hearth there, r
 T Hammerfall|QID|26084|M|67.74,34.83|N|To Gor'mul.|
 T Raising Spirits|QID|26107|M|67.74,34.83|N|To Gor'mul.|
 A Guile of the Raptor|QID|26108|PRE|26107|M|67.74,34.83|N|From Gor'mul.|
-A The Stone Shards|QID|26909|M|69.61,36.47|N|From Zaruk.|
+A The Stone Shards|QID|26909|LEAD|26039|M|69.61,36.47|N|From Zaruk.|
 A Crush the Witherbark|QID|26429|M|68.99,34.73|N|From Drum Fel.|
 T The Stone Shards|QID|26909|M|57.24,34.67|N|To the Shards of Myzrael, in the circle of stones to the west.|
-A The Princess Trapped|QID|26039|PRE|26909|M|57.24,34.67|N|From the Shards of Myzrael.|
+A The Princess Trapped|QID|26039|M|57.24,34.67|N|From the Shards of Myzrael.|
 C The Princess Trapped|QID|26039|M|73.75,38.93;79.82,31.62|CS|N|Kill and loot kobolds in Drywhisker Gorge to the east.|
 T The Princess Trapped|QID|26039|M|79.82,31.62|N|To the Iridescent Shards, inside Drywhisker Gorge on a cliff inside the cave.|
 A Stones of Binding|QID|26041|PRE|26039|M|79.82,31.62|N|From the Iridescent Shards.|
-C Cresting Key|QID|26041|NC|QO|Cresting Key: 1/1|M|61.54,30.42|N|At the Circle of East Binding, just west of Hammerfall.|
+C Cresting Key|QID|26041|NC|QO|2|M|61.54,30.42|N|At the Circle of East Binding, just west of Hammerfall.|; Cresting Key: 1/1
 C Crush the Witherbark|QID|26429|M|62.00,64.51|N|Kill trolls around the lake to the south.|
 C Guile of the Raptor|QID|26108|M|41.00,82.97|N|Kill and loot raptors in the southern part of the zone.|
-C Thundering Key|QID|26041|NC|QO|Thundering Key: 1/1|M|46.43,52.37|N|At the Circle of Outer Binding, to the west at the center of the zone.|
-C Burning Key|QID|26041|NC|QO|Burning Key: 1/1|M|18.90,30.94|N|At the Circle of West Binding, at the far west edge of the zone.|
+C Thundering Key|QID|26041|NC|QO|3|M|46.43,52.37|N|At the Circle of Outer Binding, to the west at the center of the zone.|; Thundering Key: 1/1
+C Burning Key|QID|26041|NC|QO|1|M|18.90,30.94|N|At the Circle of West Binding, at the far west edge of the zone.|; Burning Key: 1/1
 T Stones of Binding|QID|26041|M|30.03,58.92|N|At the Stone of Inner Binding, east of Stromgarde.|
 A Breaking the Keystone|QID|26042|PRE|26041|M|30.03,58.92|N|At the Stone of Inner Binding.|
 C Breaking the Keystone|QID|26042|M|43.71,67.04|N|Kill and loot Fozruk, to the east.|
