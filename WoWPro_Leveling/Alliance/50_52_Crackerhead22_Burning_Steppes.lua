@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2018-02-20 01:12
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3265/revisions/28868/view
 -- Date: 2018-01-16 23:32
 -- Who: Ludovicus
 -- Log: New Levels
@@ -122,9 +127,9 @@ C Done Nothing Wrong|QID|28172|S|M|23.13,60.14|N|Free a Red, Green, Blue and Bro
 C Burning Vengeance|QID|28174;28416|M|17.00,63.80|N|Kill Blackrock Whelpers and Flamescale Broodlings.|
 C Done Nothing Wrong|QID|28172|US|M|23.13,60.14|N|Free a Red, Green, Blue and Bronze Fettered Whelping.|
 T Burning Vengeance|QID|28174;28416|M|17.34,52.18|N|To John J. Keeshan.|
-A Stocking Up|QID|28177|PRE|28174;28416|M|17.34,52.18|N|From John J. Keeshan.|
-A A Future Project|QID|28178|PRE|28174;28416|M|17.34,52.18|N|From John J. Keeshan.|
-A Mud Hunter|QID|28179|PRE|28174;28416|M|17.25,51.89|N|From John J. Keeshan.|
+A Stocking Up|QID|28177|PRE|28174+28416|M|17.34,52.18|N|From John J. Keeshan.|
+A A Future Project|QID|28178|PRE|28174+28416|M|17.34,52.18|N|From John J. Keeshan.|
+A Mud Hunter|QID|28179|PRE|28174+28416|M|17.25,51.89|N|From John J. Keeshan.|
 T Done Nothing Wrong|QID|28172|M|17.04,51.52|N|To Mouton Flamestar.|
 
 C A Future Project|QID|28178|S|M|9.51,52.65|N|Kill the worgs and loot them.|
@@ -161,16 +166,16 @@ A A Perfect Costume|QID|28203|PRE|28254|R|Worgen,Draenei,Pandaren|M|45.45,46.34|
 A A Perfect Costume|QID|28205|PRE|28254|R|Night Elf|M|45.45,46.34|N|From Thelaron Direneedle. You will need 3 hides, 2 mud and 1 thread to complete this quest.|
 A A Perfect Costume|QID|28202|PRE|28254|R|Human,Dwarf|M|45.45,46.34|N|From Thelaron Direneedle. You will need 2 hides, 4 mud 2 thread to complete this quest.|
 A A Perfect Costume|QID|28204|PRE|28254|R|Gnome|M|45.45,46.34|N|From Thelaron Direneedle. You will need 1 hide, 3 mud and 4 thread to complete this quest.|
-C A Perfect Costume|QID|28203|R|Worgen,Draenei,Pandaren|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 4 hides, 1 mud and 3 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|
-C A Perfect Costume|QID|28205|R|Night Elf|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 3 hides, 2 mud and 1 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|
-C A Perfect Costume|QID|28202|R|Human,Dwarf|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 2 hides, 4 mud 2 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|
-C A Perfect Costume|QID|28204|R|Gnome|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 1 hide, 3 mud and 4 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|
+C A Perfect Costume|QID|28203|R|Worgen,Draenei,Pandaren|M|45.45,46.11|QO|1|N|You will need 4 hides, 1 mud and 3 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|; Perfect Costume created: 1/1
+C A Perfect Costume|QID|28205|R|Night Elf|M|45.45,46.11|QO|1|N|You will need 3 hides, 2 mud and 1 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|; Perfect Costume created: 1/1
+C A Perfect Costume|QID|28202|R|Human,Dwarf|M|45.45,46.11|QO|1|N|You will need 2 hides, 4 mud 2 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|; Perfect Costume created: 1/1
+C A Perfect Costume|QID|28204|R|Gnome|M|45.45,46.11|QO|1|N|You will need 1 hide, 3 mud and 4 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|; Perfect Costume created: 1/1
 T A Perfect Costume|QID|28203|R|Worgen,Draenei,Pandaren|M|46.40,46.03|N|At John H. Keeshan|
 T A Perfect Costume|QID|28205|R|Night Elf|M|46.40,46.03|N|At John H. Keeshan|
 T A Perfect Costume|QID|28202|R|Human,Dwarf|M|46.40,46.03|N|At John H. Keeshan|
 T A Perfect Costume|QID|28204|R|Gnome|M|46.40,46.03|N|At John H. Keeshan|
 
-A Into the Black Tooth Hovel|QID|28239|PRE|28202;28203;28204;28205|M|46.35,45.91|N|From John J. Keeshan.|
+A Into the Black Tooth Hovel|QID|28239|PRE|28202+28203+28204+28205|M|46.35,45.91|N|From John J. Keeshan.|
 T Into the Black Tooth Hovel|QID|28239|U|63357|M|45.33,51.60|N|Remember to put on your disguise. To Quartermaster Kaoshin.|
 A Grunt Work|QID|28245|PRE|28239|M|45.33,51.60|N|From Quartermaster Kaoshin.|
 A Strategic Cuts|QID|28246|M|45.33,51.60|N|Automatically accepted.|
@@ -217,7 +222,7 @@ r Sell junk, repair/restock.|QID|28310|M|72.81,65.71|N|At Felder Stover. Close t
 
 T Morgan's Vigil|QID|28310|M|71.98,67.97|N|To Oralius.|
 A SEVEN! YUP!|QID|28415|PRE|28310|M|71.98,67.97|N|From Oralius. Don't worry, you won't have to find Captain Winky.|
-A The Bogpaddle Bullet|QID|28569|M|71.98,67.97|N|From Oralius.|
+A The Bogpaddle Bullet|QID|28569|LEAD|27587|M|71.98,67.97|N|From Oralius.|
 A Blackened Ashes|QID|28311|PRE|28310|M|73.51,67.07|N|From Colonel Troteman.|
 A Latent Demons of the Land|QID|28312|PRE|28310|M|73.51,67.07|N|From Colonel Troteman.|
 A A Heap of Delicious Worg|QID|28313|PRE|28310|M|73.51,67.07|
