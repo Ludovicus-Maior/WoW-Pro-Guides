@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2018-02-20 01:01
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3229/revisions/29021/view
 -- Date: 2018-02-19 23:28
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -166,9 +171,9 @@ T Trelane's Defenses|QID|26037|M|12.95,69.32|N|To Apprentice Kryten.|
 
 A Attack on the Tower|QID|26038|PRE|26037|RANK|1|M|12.95,69.32|N|From Apprentice Kryten.|
 
-C Attack on the Tower|QID|26038|M|11.34,70.17|CS|N|Head into the tower, then up the first ramp, straight across the wooden ramp, under the second set of ramps is a chest. Loot Trelane's Phylactery from the chest.|QO|Trelane's Phylactery: 1/1|NC|
-C Attack on the Tower|QID|26038|M|11.17,69.90|CS|N|Head up the tower to the middle floor, and loot Trelane's Ember Agate from the chest.|QO|Trelane's Ember Agate: 1/1|NC|
-C Attack on the Tower|QID|26038|M|11.33,71.22|CS|N|Head to the top floor of the tower, and loot Trelane's Orb from the chest.|QO|Trelane's Orb: 1/1|NC|
+C Attack on the Tower|QID|26038|M|11.34,70.17|CS|N|Head into the tower, then up the first ramp, straight across the wooden ramp, under the second set of ramps is a chest. Loot Trelane's Phylactery from the chest.|QO|1|NC|; Trelane's Phylactery: 1/1
+C Attack on the Tower|QID|26038|M|11.17,69.90|CS|N|Head up the tower to the middle floor, and loot Trelane's Ember Agate from the chest.|QO|3|NC|; Trelane's Ember Agate: 1/1
+C Attack on the Tower|QID|26038|M|11.33,71.22|CS|N|Head to the top floor of the tower, and loot Trelane's Orb from the chest.|QO|2|NC|; Trelane's Orb: 1/1
 
 H Refuge Pointe|QID|26024|N|Hearth or run back to Refuge Pointe.|M|39.89,48.75|
 
@@ -231,9 +236,9 @@ T The Princess Trapped|QID|26039|M|79.83,31.62|N|To the Iridescent Shards at the
 
 A Stones of Binding|QID|26041|PRE|26039|RANK|1|M|79.83,31.62|N|From the Iridescent Shards.|
 R Circle of East Binding|QID|26041|M|61.75,30.42|N|Head out of the cave then to Circle of East Binding, located North-West of Hammerfall.|
-C Stones of Binding: Cresting Key|QID|26041|NC|M|61.73,30.38|N|Click on the Stone of East Binding to receive the Cresting Key.|QO|Cresting Key: 1/1|
-C Stones of Binding: Thundering Key|QID|26041|NC|M|46.56,52.11|N|Click on the Stone of Outer Binding to receive the Thundering Key.|QO|Cresting Key: 1/1|
-C Stones of Binding: Burning Key|QID|26041|NC|M|18.93,31.00|N|Click on the Stone of West Binding to recieve the Burning Key.|QO|Burning Key: 1/1|
+C Stones of Binding: Cresting Key|QID|26041|NC|M|61.73,30.38|N|Click on the Stone of East Binding to receive the Cresting Key.|QO|2|; Cresting Key: 1/1
+C Stones of Binding: Thundering Key|QID|26041|NC|M|46.56,52.11|N|Click on the Stone of Outer Binding to receive the Thundering Key.|QO|2|; Cresting Key: 1/1
+C Stones of Binding: Burning Key|QID|26041|NC|M|18.93,31.00|N|Click on the Stone of West Binding to recieve the Burning Key.|QO|1|; Burning Key: 1/1
 T Stones of Binding|QID|26041|M|30.06,59.18|N|To the Stone of Inner Binding.|
 
 A Breaking the Keystone|QID|26042|PRE|26041|RANK|1|M|30.06,59.18|N|From the Stone of Inner Binding.|
