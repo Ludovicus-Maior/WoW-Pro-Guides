@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2018-02-23 00:11
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3284/revisions/28902/view
 -- Date: 2018-01-16 23:52
 -- Who: Ludovicus
 -- Log: New Levels
@@ -123,8 +128,8 @@ WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Assist Exarch Orelis|QID|11038|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|
-A Report to Spymaster Thalodien|QID|11039|M|44.77,76.29|Z|Shattrath City|N|From Arcanist Savan.|REP|Scryers;934|
+A Assist Exarch Orelis|QID|11038|LEAD|10241|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|
+A Report to Spymaster Thalodien|QID|11039|LEAD|10189|M|44.77,76.29|Z|Shattrath City|N|From Arcanist Savan.|REP|Scryers;934|
 F Evergrove|QID|10265|M|63.98,41.12|Z|Shattrath City|N|Fly to Evergrove, or the closest flightpoint to Netherstorm you have.|
 R Area 52|QID|10265|M|32,65|N|Run to Area 52 in Netherstorm.|
 f Area 52|QID|10265|M|33.8,64|N|At Krexcil.|
@@ -177,15 +182,15 @@ C Rebuilding the Staff|QID|10300|US|M|33.40,54.95|N|Kill and loot the Disembodie
 C You're Hired!|QID|10186|US|M|32.31,55.40|N|Loot the red glowing crystals off of the ground.|
 T Mark V is Alive!|QID|10191|M|31.50,56.52|N|To Bot-Specialist Alley.|
 C Recharging the Batteries|QID|10190|S|U|28369|M|35.1,49.43;28.74,51.27|CN|N|Weaken the Phase Hunters (along the edge of Netherstorm) then use the Battery Recharging Blaster. Kill the Drained Phase Hunter.|
-N Northern Pipeline|QID|10313|U|29324|QO|Northern Pipeline Measured: 1/1|M|25.76,59.9|N|Use the Warp-Attuned Orb to measure the Northern Pipeline.|REP|Aldor;932|
-N Western Pipeline|QID|10313|U|29324|QO|Western Pipeline Measured: 1/1|M|20.83,66.85|N|Use the Warp-Attuned Orb to measure the Western Pipeline.|REP|Aldor;932|
+N Northern Pipeline|QID|10313|U|29324|QO|1|M|25.76,59.9|N|Use the Warp-Attuned Orb to measure the Northern Pipeline.|REP|Aldor;932|; Northern Pipeline Measured: 1/1
+N Western Pipeline|QID|10313|U|29324|QO|4|M|20.83,66.85|N|Use the Warp-Attuned Orb to measure the Western Pipeline.|REP|Aldor;932|; Western Pipeline Measured: 1/1
 T Naaru Technology|QID|10243|M|23.18,68.13|N|Head inside the Manaforge B'naar and turn the quest in at the B'naar Control Console.|REP|Aldor;932|
 A B'naar Console Transcription|QID|10245|PRE|10243|M|23.18,68.13|N|From the B'naar Control Console.|REP|Aldor;932|
-N Southern Pipeline|QID|10313|U|29324|QO|Southern Pipeline Measured: 1/1|M|20.86,71.01|N|Use the Warp-Attuned Orb to measure the Southern Pipeline.|REP|Aldor;932|
+N Southern Pipeline|QID|10313|U|29324|QO|3|M|20.86,71.01|N|Use the Warp-Attuned Orb to measure the Southern Pipeline.|REP|Aldor;932|; Southern Pipeline Measured: 1/1
 l Bloodgem Shard|QID|10204|NC|M|26.20,68.56|N|Kill Sunfury Magisters until you get a Bloodgem Shard from looting them.|REP|Scryers;934|
 C Bloodgem Crystals|QID|10204|NC|M|26.20,68.56|N|Go near one the smaller floating red crystals and use the Bloodgem Shard.|REP|Scryers;934|
 K Sunfury Warp-Masters|QID|10193|S|QO|Sunfury Warp-Master: 2/2|M|24.28,72.93|N|Kill 2 Sunfury Warp-Masters walking around the Sunfury Geologists.|REP|Scryers;934|
-K Sunfury Geologists|QID|10193|QO|Sunfury Geologist slain: 8/8|M|24.31,72.82|N|Best place to find the Sunfury Geologists.|REP|Scryers;934|
+K Sunfury Geologists|QID|10193|QO|3|M|24.31,72.82|N|Best place to find the Sunfury Geologists.|REP|Scryers;934|; Sunfury Geologist slain: 8/8
 K Sunfury Warp-Masters|QID|10193|US|QO|Sunfury Warp-Master: 2/2|M|24.28,72.93|N|Kill 2 Sunfury Warp-Masters walking around the Sunfury Geologists.|REP|Scryers;934|
 C High Value Targets|QID|10193|M|22.52,72.37;20.33,70.88|CN|N|Kill Sunfury Warp-Engineers between the two waypoints until you complete the quest.|REP|Scryers;934|
 C Recharging the Batteries|QID|10190|US|U|28369|M|35.1,49.43;28.74,51.27|CN|N|Weaken the Phase Hunters then use the Battery Recharging Blaster. Kill the Drained Phase Hunter.|
@@ -195,7 +200,7 @@ C Pick Your Part|QID|10206|S|M|30.48,76.57|N|Loot Ethereal Technology off the gr
 A It's a Fel Reaver, But with Heart|QID|10309|M|26.83,77.07|N|From N. D. Meancamp.|
 C It's a Fel Reaver, But with Heart|QID|10309|U|29447|M|26.53,78.78|N|Use the Fel Zapper on the Scrapper Fel Reaver. At this point you can attack it, kill and loot it to get the heart. You will be attack by Ethereals, if you are unable to deal with them, (or choose not to) as soon as you use the zapper, mount and fly straight up, wait for them to despawn and come down and zap again after they despawn.|
 T It's a Fel Reaver, But with Heart|QID|10309|M|26.83,77.11|N|To N. D. Meancamp.|
-C Measuring Warp Energies|QID|10313|U|29324|M|29.10,72.70|N|Measure the last pipeline for this quest.|REP|Aldor;932|
+C Eastern Pipeline|QID|10313|U|29324|QO|2|M|29.10,72.70|N|Measure the last pipeline for this quest.|REP|Aldor;932|
 C A Heap of Ethereals|QID|10262|US|M|29.92,77.37|N|Kill and loot Zaxxis Ethereals until you get 10 Insignias.|
 C Pick Your Part|QID|10206|US|M|30.48,76.57|N|Loot Ethereal Technology off the ground.|
 T Rebuilding the Staff|QID|10300|M|31.42,66.23|N|To Ravandwyr.|
@@ -231,9 +236,9 @@ N Shutting Down Manaforge B'naar|QID|10299|M|23.19,68.16|N|Even though the quest
 N Shutting Down Manaforge B'naar|QID|10329|M|23.19,68.16|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the B'naar Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
 C Elemental Power Extraction|QID|10226|U|28547|M|21.24,78.04|N|Use the Elemental Power Extractor on a living Sundered Rumbler or Warp Aberration. Kill it then loot the blue crystal floating above the corpse.|
 C Warp-Raider Nesaad|QID|10205|M|27.98,78.96|N|Kill Warp-Raider Nesaad.|
-U Multi-Spectrum Terrain Analyzer|QID|10203|QO|Multi-Spectrum Terrain Analyzer retrieved: 1/1|M|40.25,72.88|N|Click on the Multi-Spectrum Terrain Analyzer.|
-U Hyper Rotational Dig-A-Matic|QID|10203|QO|Hyper Rotational Dig-A-Matic retrieved: 1/1|M|41.05,73.69|N|Click on the Hyper Rotational Dig-A-Matic.|
-U Servo-Pneumatic Dredging Claw|QID|10203|QO|Servo-Pneumatic Dredging Claw retrieved: 1/1|M|41.44,71.8|N|Click on the Servo-Pneumatic Dredging Claw.|
+U Multi-Spectrum Terrain Analyzer|QID|10203|QO|3|M|40.25,72.88|N|Click on the Multi-Spectrum Terrain Analyzer.|; Multi-Spectrum Terrain Analyzer retrieved: 1/1
+U Hyper Rotational Dig-A-Matic|QID|10203|QO|1|M|41.05,73.69|N|Click on the Hyper Rotational Dig-A-Matic.|; Hyper Rotational Dig-A-Matic retrieved: 1/1
+U Servo-Pneumatic Dredging Claw|QID|10203|QO|2|M|41.44,71.8|N|Click on the Servo-Pneumatic Dredging Claw.|; Servo-Pneumatic Dredging Claw retrieved: 1/1
 C Invaluable Asset Zapping|QID|10203|U|30354|M|42.57,72.13|
 T Invaluable Asset Zapping|QID|10203|M|34.16,68.08|N|To Lead Sapper Blastfizzle.|
 A Dr. Boom!|QID|10221|M|34.16,68.08|N|From Lead Sapper Blastfizzle.|
@@ -268,15 +273,15 @@ T The Unending Invasion|QID|10343|M|57.53,86.26|N|To Lieutenant-Sorcerer Morran.
 A Potential Energy Source|QID|10239|PRE|10343|M|57.53,86.26|N|From Lieutenant-Sorcerer Morran.|
 
 C Potential Energy Source|QID|10239|S|M|50.78,81.46|N|Loot the Energy Isolation Cubes off the ground.|
-K Sunfury Arcanists|QID|10246|S|QO|Sunfury Arcanist slain: 8/8|M|51.64,81.94|N|Kill 8 Sunfury Arcanists.|REP|Aldor;932|
+K Sunfury Arcanists|QID|10246|S|QO|2|M|51.64,81.94|N|Kill 8 Sunfury Arcanists.|REP|Aldor;932|
 C The Sigil of Krasus|QID|10188|T|Spellbinder Maryana|M|51.55,82.14|N|Kill Spellbinder Maryana and loot her corpse to get the sigil.|
 T The Sigil of Krasus|QID|10188|U|28455|M|51.60,81.99|N|Summon the Image of Archmage Vargoth via his staff, then turn the quest into him.|
 A Krasus's Compendium|QID|10192|PRE|10188|M|51.60,81.99|N|From Image of Archmage Vargoth.|
-K Sunfury Arcanists|QID|10246|US|QO|Sunfury Arcanist slain: 8/8|M|51.64,81.94|N|Kill 8 Sunfury Arcanists.|REP|Aldor;932|
-C Attack on Manaforge Coruu|QID|10246|S|QO|Sunfury Researcher slain: 5/5|M|49.01,81.52|N|Kill 5 Sunfury Researchers inside the Manaforge to finish this quest.|REP|Aldor;932|
+K Sunfury Arcanists|QID|10246|US|QO|2|M|51.64,81.94|N|Kill 8 Sunfury Arcanists.|REP|Aldor;932|
+K Sunfury Researchers|QID|10246|S|QO|1|M|49.01,81.52|N|Kill 5 Sunfury Researchers inside the Manaforge to finish this quest.|REP|Aldor;932|; Sunfury Researcher slain: 5/5
 l Coruu Access Crystal|QID|10321|M|49.01,81.52|L|29396|N|Head inside the Manaforge and kill Overseer Seylanna. Loot the crystal off of her corpse.|REP|Aldor;932|
 N Shutting Down Manaforge Coruu|QID|10321|M|49.01,81.52|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the Coruu Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Aldor;932|
-C Attack on Manaforge Coruu|QID|10246|US|QO|Sunfury Researcher slain: 5/5|M|49.01,81.52|N|Kill 5 Sunfury Researchers inside the Manaforge to finish this quest.|REP|Aldor;932|
+K Sunfury Researchers|QID|10246|US|QO|1|M|49.01,81.52|N|Kill 5 Sunfury Researchers inside the Manaforge to finish this quest.|REP|Aldor;932|; Sunfury Researcher slain: 5/5
 T Behind Enemy Lines|QID|10652|M|48.24,86.65|N|To Caledis Brightdawn.|REP|Scryers;934|
 A A Convincing Disguise|QID|10197|PRE|10652|M|48.24,86.62|N|From Caledis Brightdawn.|REP|Scryers;934|
 l Sunfury Arcanist Robes|QID|10197|L|28635 |M|47.7,85.28;46.5,81.48;51.57,81.88|CN|N|Kill and loot Sunfury Arcanists between the waypoints until you get the robes.|REP|Scryers;934|
@@ -311,13 +316,13 @@ A Battle-Mage Dathric|QID|10182|U|29233|M|60.47,87.80|N|From Dathric's Blade.|
 l Luminrath's Mantle|QID|10306|L|29235 |T|Conjurer Luminrath|M|59.96,85.41|N|Find Conjurer Luminrath, kill then loot his mantle.|
 A Conjurer Luminrath|QID|10306|M|59.96,85.41|N|From Luminrath's Mantle.|U|29235|
 C Indispensable Tools|QID|10331|M|61.02,85.04|N|Kill Kirin'Var Apprentices until the Smithing Hammer drops.|
-U Activate Eastern Rune|QID|10240|U|28725|QO|Activate Eastern Rune: 1/1|M|59.23,85.35|N|Use the Rune Activation Device at the Eastern Kirin'Var Rune.|
+U Activate Eastern Rune|QID|10240|U|28725|QO|1|M|59.23,85.35|N|Use the Rune Activation Device at the Eastern Kirin'Var Rune.|; Activate Eastern Rune: 1/1
 C Malevolent Remnants|QID|10184|US|M|59.76,85.15|N|Kill Severed Spirits and Defenders until you complete this quest.|
 C Battle-Mage Dathric|QID|10182|U|28351|M|56.87,86.84|N|Go inside the house and use Dathric's Blade next to the weapons rack.|
 C Conjurer Luminrath|QID|10306|U|28352|M|56.37,87.75|N|Stand next to the dresser and use Luminrath's Mantle.|
 C Cohlien Frostweaver|QID|10307|U|28353|M|55.10,87.55|N|Stand next to the footlocker and use Cohlien's Cap.|
-U Activate Western Rune|QID|10240|U|28725|QO|Activate Western Rune: 1/1|M|54.29,86.08|N|Use the Rune Activation Device at the Western Kirin'Var Rune.|
-C Building a Perimeter|QID|10240|U|28725|M|57.35,82.85|N|Activate the Northeastern Rune.|
+U Activate Western Rune|QID|10240|U|28725|QO|3|M|54.29,86.08|N|Use the Rune Activation Device at the Western Kirin'Var Rune.|; Activate Western Rune: 1/1
+C Building a Perimeter|QID|10240|U|28725|QO|2|M|57.35,82.85|N|Activate the Northeastern Rune.|
 T Indispensable Tools|QID|10331|M|57.65,85.16|N|To Apprentice Andrethan.|
 
 A Master Smith Rhonsus|QID|10332|PRE|10331|M|57.65,85.16|N|From Apprentice Andrethan.|
@@ -374,7 +379,7 @@ T Help Mama Wheeler|QID|10333|M|46.60,56.49|N|To Mama Wheeler.|
 A One Demon's Trash...|QID|10234|PRE|10333|M|46.60,56.49|N|From Mama Wheeler.|
 T Request for Assistance|QID|10266|M|46.65,56.84|N|To Gahruj.|
 A Rightful Repossession|QID|10267|PRE|10266|M|46.65,56.84|N|From Gahruj.|
-A Drijya Needs Your Help|QID|10311|M|46.65,56.84|N|From Gahruj.|
+A Drijya Needs Your Help|QID|10311|LEAD|10310|M|46.65,56.84|N|From Gahruj.|
 A Run a Diagnostic!|QID|10417|M|46.43,56.42|N|From Mehrdad.|
 A New Opportunities|QID|10348|M|46.43,56.42|N|From Mehrdad.|
 
@@ -471,9 +476,9 @@ C Diagnosis: Critical|QID|10424|U|29803|M|47.65,26.72|N|Head to the generator an
 T Diagnosis: Critical|QID|10424|M|43.54,35.06|N|To Ghabar.|
 A Testing the Prototype|QID|10430|PRE|10424|M|43.54,35.06|N|From Ghabar.|
 C The Minions of Culuthas|QID|10336|S|M|55.69,20.24|N|Kill 5 Eyes of Culuthas and 10 Hounds of Culuthas.|
-U Surveying Marker One|QID|10335|U|29445|QO|Surveying Marker One placed: 1/1|M|51.7,20.46|N|Use the Surveying Markers next to the Draenei banner.|
-U Surveying Marker Two|QID|10335|U|29445|QO|Surveying Marker Two placed: 1/1|M|54.57,22.83|N|Use the Surveying Markers next to the Draenei banner.|
-C Surveying the Ruins|QID|10335|U|29445|M|55.80,19.99|N|Use the Surveying Markers next to the Draenei banner.|
+U Surveying Marker One|QID|10335|U|29445|QO|1|M|51.7,20.46|N|Use the Surveying Markers next to the Draenei banner.|; Surveying Marker One placed: 1/1
+U Surveying Marker Two|QID|10335|U|29445|QO|2|M|54.57,22.83|N|Use the Surveying Markers next to the Draenei banner.|; Surveying Marker Two placed: 1/1
+C Surveying the Ruins|QID|10335|U|29445|QO|3|M|55.80,19.99|N|Use the Surveying Markers next to the Draenei banner.|
 C The Minions of Culuthas|QID|10336|US|M|55.69,20.24|N|Kill 5 Eyes of Culuthas and 10 Hounds of Culuthas.|
 C In Search of Farahlite|QID|10290|M|46.86,19.35|N|Depending on your level/class you may need help with the quest. Kill and loot Farahlon Breakers until you have 4 Raw Farahlite.|
 T Testing the Prototype|QID|10430|M|44.70,14.49|N|To Tashar.|
@@ -514,9 +519,9 @@ A Teleport This!|QID|10857|PRE|10856|M|44.62,34.88|N|From Nether-Stalker Nauthis
 C Triangulation Point One|QID|10269|NC|U|28962|M|66.71,33.95|N|Head to the waypoint, use the Triangulation Device. Head towards the red bobbing arrow for the completion.|
 T Triangulation Point One|QID|10269|M|58.34,31.35|N|To Dealer Hazzin.|
 A Triangulation Point Two|QID|10275|PRE|10269|M|58.35,31.35|N|From Dealer Hazzin.|
-N Eastern Teleporter Destroyed|QID|10857|U|31678|QO|Eastern Teleporter Destroyed: 1/1|M|42.26,21.08|N|Stand right next to the Eastern Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|
-N Western Teleporter Destroyed|QID|10857|U|31678|QO|Western Teleporter Destroyed: 1/1|M|39.15,20.53|N|Stand right next to the Western Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|
-C Teleport This!|QID|10857|U|31678|M|41.17,19.20|N|Stand right next to the Central Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|
+N Eastern Teleporter Destroyed|QID|10857|U|31678|QO|3|M|42.26,21.08|N|Stand right next to the Eastern Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|; Eastern Teleporter Destroyed: 1/1
+N Western Teleporter Destroyed|QID|10857|U|31678|QO|1|M|39.15,20.53|N|Stand right next to the Western Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|; Western Teleporter Destroyed: 1/1
+C Central Teleporter Destroyed|QID|10857|U|31678|QO|2|M|41.17,19.20|N|Stand right next to the Central Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|
 T Outside Assistance|QID|10431|M|34.81,38.21|N|To Kaylaan.|REP|Aldor;932|
 
 A A Dark Pact|QID|10380|PRE|10431|M|34.81,38.21|N|From Kaylaan.|REP|Aldor;932|
@@ -569,8 +574,8 @@ A The Ethereum|QID|10339|M|59.44,32.36|N|From Commander Ameer.|
 A Captain Tyralius|QID|10422|M|58.89,31.98|N|From Flesh Handler Viridius, he wanders around.|
 A Recipe for Destruction|QID|10437|M|60.10,31.82|N|From Professor Dabiri.|
 C The Ethereum|QID|10339|S|M|56.19,38.70|N|Kill the mobs needed for the quest.|
-K Void Waste Globules|QID|10411|S|U|29737|QO|Void Waste Globule slain: 30/30|M|55.68,39.87|N|Use Navuud's Concoction. Attack a Void Waste, it should split into several Void Waste Globules, kill those. Rinse and repeat till you have killed 30 Globules.|
-K Captain Zovax|QID|10339|T|Captain Zovax|QO|Captain Zovax slain: 1/1|M|56.96,37.37|N|Find and kill Captain Zovax. He tends to wander around.|
+K Void Waste Globules|QID|10411|S|U|29737|QO|2|M|55.68,39.87|N|Use Navuud's Concoction. Attack a Void Waste, it should split into several Void Waste Globules, kill those. Rinse and repeat till you have killed 30 Globules.|
+K Captain Zovax|QID|10339|T|Captain Zovax|QO|4|M|56.96,37.37|N|Find and kill Captain Zovax. He tends to wander around.|; Captain Zovax slain: 1/1
 C The Ethereum|QID|10339|US|M|56.19,38.70|N|Kill the mobs needed for the quest.|
 T The Ethereum|QID|10339|M|56.79,38.65|N|Click on the Ethereum Transponder Zeta, then turn-in the quest to the  Image of Commander Ameer.|
 A Ethereum Data|QID|10384|PRE|10339|M|56.79,38.65|N|From Image of Commander Ameer.|
@@ -585,7 +590,7 @@ C Potential for Brain Damage = High|U|29482|QID|10385|US|M|56.32,40.23|N|Kill Et
 T Potential for Brain Damage = High|QID|10385|M|56.75,38.71|N|To Image of Commander Ameer.|
 A S-A-B-O-T-A-G-E|QID|10405|PRE|10385|M|56.75,38.71|N|From Image of Commander Ameer.|
 C S-A-B-O-T-A-G-E|QID|10405|M|55.9,42.18|N|Kill and loot Ethereum Archons and Overlords until you get the Prepared Ethereum Wrappings.|
-K Void Waste Globules|QID|10411|US|U|29737|QO|Void Waste Globule slain: 30/30|M|55.68,39.87|N|Use Navuud's Concoction. Attack a Void Waste, it should split into several Void Waste Globules, kill those. Rinse and repeat till you have killed 30 Globules.|
+K Void Waste Globules|QID|10411|US|U|29737|QO|2|M|55.68,39.87|N|Use Navuud's Concoction. Attack a Void Waste, it should split into several Void Waste Globules, kill those. Rinse and repeat till you have killed 30 Globules.|
 T S-A-B-O-T-A-G-E|QID|10405|M|56.75,38.71|N|To Image of Commander Ameer.|
 A Delivering the Message|QID|10406|PRE|10405|M|56.75,38.71|N|From Image of Commander Ameer.|
 C Delivering the Message|QID|10406|M|56.69,42.58|N|Follow the Protectorate Demolitionist and keep him safe until you get quest complete.|
@@ -645,8 +650,8 @@ A Ethereum Secrets|QID|10971|M|59.44,32.34|N|From Commander Ameer.|
 l Ethereum Secrets|QID|10971|L|29460 |M|55.50,43.46|N|Kill Ethereums until an Ethereum Prison Key drops. This does have a low drop rate so skip if you wish. Also it seems that if you kill an Ethereum Jailor the key is a 100% drop, so keep an eye out for those.|
 C Ethereum Secrets|QID|10971|M|54.59,40.25|N|Click on an Ethereum Prison to unlock it. There is a good change that it will spawn something you have to kill, so kill then loot the mob for the I.D. Tag.|
 T Ethereum Secrets|QID|10971|M|59.42,32.33|N|To Commander Ameer.|
-N Speak to Captain Saeed|QID|10439|QO|Speak to Captain Saeed: 1/1|M|60.63,32.17|N|Depending on your class/level you may need help with this quest. When you are ready, talk to Captain Saeed and choose that you are ready.|
-C Dimensius the All-Devouring|QID|10439|M|62.29,40.50|N|Follow Captain Saeed, at one point he will stop. Get full health/mana then talk to him to continue. Kill the Spawns of Dimensius that are around Dimensius, then kill Dimensisus.|
+N Speak to Captain Saeed|QID|10439|QO|2|M|60.63,32.17|N|Depending on your class/level you may need help with this quest. When you are ready, talk to Captain Saeed and choose that you are ready.|; Speak to Captain Saeed: 1/1
+C Dimensius the All-Devouring|QID|10439|QO|1|M|62.29,40.50|N|Follow Captain Saeed, at one point he will stop. Get full health/mana then talk to him to continue. Kill the Spawns of Dimensius that are around Dimensius, then kill Dimensisus.|
 T Dimensius the All-Devouring|QID|10439|M|60.11,31.83|N|To Professor Dabiri.|
 T Full Triangle|QID|10276|M|45.82,35.98|N|To Image of Nexus-Prince Haramad.|
 A Special Delivery to Shattrath City|QID|10280|PRE|10276|M|45.81,35.97|N|Wait a few moments, Ambassador Solannas will spawn, you will have to defeat him and his 2 guards. Afterwards get this quest from the Image of Nexus-Prince Haramad.|
@@ -657,7 +662,7 @@ T Ishanah's Help|QID|10410|M|24.09,29.78|Z|Shattrath City|N|To Ishanah.|REP|Aldo
 A Deathblow to the Legion|QID|10409|PRE|10410|M|24.09,29.78|Z|Shattrath City|N|From Ishanah.|REP|Aldor;932|
 T Bound for Glory|QID|10509|M|42.68,91.52|Z|Shattrath City|N|To Voren'thal the Seer.|REP|Scryers;934|
 A Turning Point|QID|10507|PRE|10509|M|42.68,91.52|Z|Shattrath City|N|From Voren'thal the Seer.|REP|Scryers;934|
-U Voren'thal's Package|QID|10507|U|30260|QO|Voren'thal's Presence: 1/1|N|Open up Voren'thal's Package.|REP|Scryers;934|
+U Voren'thal's Package|QID|10507|U|30260|QO|2|N|Open up Voren'thal's Package.|REP|Scryers;934|; Voren'thal's Presence: 1/1
 
 H Area 52|QID|10409|M|32.01,64.39|N|Hearth to Area 52.|REP|Aldor;932|
 H Area 52|QID|10507|M|32.01,64.39|N|Hearth to Area 52.|REP|Scryers;934|
