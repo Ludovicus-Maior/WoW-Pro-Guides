@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_neutral
+-- Date: 2018-02-22 23:50
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3264/revisions/28867/view
 -- Date: 2018-01-16 23:32
 -- Who: Ludovicus
 -- Log: New Levels
@@ -103,11 +108,11 @@ return [[
 
 R Winterspring|QID|28521|M|21.04,46.22|N|Head through the Timbermaw tunnels to Winterspring.|
 T Speak to Salfa|QID|28521|M|21.04,46.22|N|To Salfa.|
-A Delivery for Donova|QID|28524|M|21.07,46.25|N|From Salfa.|
+A Delivery for Donova|QID|28524|LEAD|28460|M|21.07,46.25|N|From Salfa.|
 A Winterfall Activity|QID|28522|M|21.07,46.25|N|From Salfa.|
 R Snowden Chalet|QID|28524|M|25.15,58.52|N|Follow the road.|
 T Delivery for Donova|QID|28524|M|25.15,58.52|N|To Donova Snowden.|
-A Threat of the Winterfall|QID|28460|PRE|28524+28544+28545+28768|M|25.15,58.52|N|From Donova Snowden.|
+A Threat of the Winterfall|QID|28460|M|25.15,58.52|N|From Donova Snowden.|
 A Falling to Corruption|QID|28464|M|25.15,58.52|N|From Donova Snowden.|
 A Doin' De E'ko Magic|QID|28540|M|25.16,58.50|N|From Witch Doctor Mau'ari.|
 C Doin' De E'ko Magic|QID|28540|M|28.90,58.62|N|Kill and loot Rimepelt, on a hill to the east.|
@@ -135,7 +140,7 @@ A The Final Piece|QID|28471|U|12842|M|36.91,55.61|N|Use the Crudely Written Log 
 C Scalding Signs|QID|28530|M|32.99,48.65|N|At the hot spring to the north. Kill and loot Scalding Springsurges and Boiling Springbubbles.|
 T High Chief Winterfall|QID|28470|M|25.11,58.56|N|To Donova Snowden.|
 T The Final Piece|QID|28471|M|25.14,58.49|N|To Donova Snowden.|
-A Words of the High Chief|QID|28472|PRE|28471|M|25.14,58.49|N|From Donova Snowden.|
+A Words of the High Chief|QID|28472|LEAD|28479|PRE|28471|M|25.14,58.49|N|From Donova Snowden.|
 T Scalding Signs|QID|28530|M|25.11,58.56|N|To Donova Snowden.|
 T Winterfall Activity|QID|28522|M|21.05,46.26|N|To Salfa.|
 R Lake Kel'Theril|QID|28472|M|46.85,53.86|N|Follow the road east.|
@@ -202,12 +207,12 @@ T Yetiphobia|QID|28722|M|59.30,49.81|N|To Umi Rumplesnicker.|
 T Fresh From The Hills|QID|28632|M|59.79,49.62|N|To Deez Rocksnitch.|
 A Ice Delivery|QID|28628|PRE|28632|M|59.79,49.62|N|From Deez Rocksnitch.|
 T Ice Delivery|QID|28628|M|59.76,49.18|N|To Seril Scourgebane.|
-A Starfall Village|QID|28674|PRE|28628|M|59.78,49.65|N|From Deez Rocksnitch.|
-A The Pursuit of Umbranse|QID|28847|PRE|28628|M|59.66,50.45|N|From Nymn.|
+A Starfall Village|QID|28674|LEAD|28676|PRE|28722;28628|M|59.78,49.65|N|From Deez Rocksnitch.|
+A The Pursuit of Umbranse|QID|28847|LEAD|28837|PRE|28537;28722|M|59.66,50.45|N|From Nymn.|
 R Starfall Village|QID|28674|M|48.65,41.03|N|Follow the road to Starfall Village.|
 T Starfall Village|QID|28674|M|48.65,41.03|N|To Wynd Nightchaser.|
-A Exterminators at Work|QID|28676|PRE|28674|M|48.65,41.03|N|From Wynd Nightchaser.|
-A Out of Harm's Way|QID|28701|PRE|28674|M|48.65,41.03|N|From Wynd Nightchaser.|
+A Exterminators at Work|QID|28676|M|48.65,41.03|N|From Wynd Nightchaser.|
+A Out of Harm's Way|QID|28701|M|48.65,41.03|N|From Wynd Nightchaser.|
 T Exterminators at Work|QID|28676|M|45.77,40.97|N|To Rinno Curtainfire, just inside the barrow den.|
 
 A Step Into My Barrow|QID|28703|M|45.77,40.97|N|From Rinno Curtainfire.|
@@ -219,7 +224,7 @@ A Spray it Again|QID|28707|PRE|28706|M|45.63,41.60|N|From Remma Curtainfire.|
 T Spray it Again|QID|28707|M|46.30,42.52|N|Continue down the tunnel past Rema. Turn-in to Marcy Curtainfire, at the bottom of the next room.|
 A Spray it One More Time|QID|28710|PRE|28707|M|46.30,42.52|N|From Marcy Curtainfire.|
 T Spray it One More Time|QID|28710|M|48.10,40.64|N|To Sana Curtainfire. Follow the tunnel to the final room, and head up up to the center walkway, then through the south-eastern tunnel to reach her.|
-A Where There's Smoke, There's Delicious Meat|QID|28718|PRE|28710|M|48.10,40.64|N|From Sana Curtainfire.|
+A Where There's Smoke, There's Delicious Meat|QID|28718|LEAD|28640|PRE|28710|M|48.10,40.64|N|From Sana Curtainfire.|
 C Step Into My Barrow|QID|28703|US|M|47.53,40.82|N|Kill worms and spiders in the barrow den.|
 C Out of Harm's Way|QID|28701|US|NC|N|Loot the relics scattered around the barrow den.|
 T Step Into My Barrow|QID|28703|M|45.78,41.04|N|To Rinno Curtainfire, back at the entrance to the barrow den.|
@@ -227,7 +232,7 @@ T Out of Harm's Way|QID|28701|M|48.65,40.99|N|To Wynd Nightchaser, at Starfall V
 
 R Goodgrub Smoking Pit|QID|28718|M|55.98,28.13|N|To the east.|
 T Where There's Smoke, There's Delicious Meat|QID|28718|M|55.98,28.13|N|To Jez Goodgrub.|
-A Fresh Frostsabers|QID|28640|PRE|28718|M|55.98,28.13|N|From Jez Goodgrub.|
+A Fresh Frostsabers|QID|28640|M|55.98,28.13|N|From Jez Goodgrub.|
 A You Gotta Have Eggs|QID|28828|M|55.98,28.13|N|From Jez Goodgrub.|
 A A Taste for Bear|QID|28637|M|55.87,28.27|N|From Francis Morcott.|
 A The Owls Have It|QID|28638|M|56.01,28.25|N|From Jeb Guthrie.|
@@ -280,9 +285,9 @@ T The Owlbeasts' Defense|QID|28838|N|(UI Alert)|
 A Magic Prehistoric|QID|28839|PRE|28838|N|(UI Alert)|
 A Razor Beak and Antlers Pointy|QID|28829|M|61.90,74.69|N|From Jadrag the Slicer.|
 C Razor Beak and Antlers Pointy|QID|28829|S|M|64.30,77.76|N|Kill owlbeasts in the Owl Wing Thicket.|
-C Essence of the Claw-Totem|QID|28839|NC|QO|Essence of the Claw-Totem: 1/1|M|65.1,73.9|N|Right-click the Claw-Totem inside the cave.|
-C Essence of the Life-Totem|QID|28839|NC|QO|Essence of the Life-Totem: 1/1|M|65.6,77.6|N|Right-click the Life-Totem inside the cave.|
-C Essence of the Moon-Totem|QID|28839|NC|QO|Essence of the Moon-Totem: 1/1|M|64.79,81.04|N|Right-click the Moon-Totem inside the cave.|
+C Essence of the Claw-Totem|QID|28839|NC|QO|1|M|65.1,73.9|N|Right-click the Claw-Totem inside the cave.|; Essence of the Claw-Totem: 1/1
+C Essence of the Life-Totem|QID|28839|NC|QO|2|M|65.6,77.6|N|Right-click the Life-Totem inside the cave.|; Essence of the Life-Totem: 1/1
+C Essence of the Moon-Totem|QID|28839|NC|QO|3|M|64.79,81.04|N|Right-click the Moon-Totem inside the cave.|; Essence of the Moon-Totem: 1/1
 T Magic Prehistoric|QID|28839|N|(UI Alert)|
 A Winterwater|QID|28840|PRE|28839|N|(UI Alert)|
 C Razor Beak and Antlers Pointy|QID|28829|US|N|Kill owlbeasts in the Owl Wing Thicket.|
@@ -306,8 +311,8 @@ C The Arcane Storm Within|QID|28841|US|U|66060|M|49.52,70.39|N|In Mazthoril, kil
 T The Arcane Storm Within|QID|28841|U|66061|M|57.99,63.82|N|Use the sigil to return to Haleh.|
 T Umbranse's Deliverance|QID|28842|M|57.99,63.82|N|To Haleh. Congrats on a very nice piece of gear!|
 
-A Blasted Lands: The Other Side of the World|QID|28857|M|59.8,51.2|N|From Innkeeper Vizzie.|FACTION|Alliance|
-A Blasted Lands: The Other Side of the World|QID|28858|M|59.8,51.2|N|From Innkeeper Vizzie.|FACTION|Horde|
+A Blasted Lands: The Other Side of the World|QID|28857|LEAD|25710|M|59.8,51.2|N|From Innkeeper Vizzie.|FACTION|Alliance|
+A Blasted Lands: The Other Side of the World|QID|28858|LEAD|25674|M|59.8,51.2|N|From Innkeeper Vizzie.|FACTION|Horde|
 
 N This ends|N|The Winterspring guide, next stop is Blasted Lands. Close this step to continue on.|
 
