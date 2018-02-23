@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-02-20 01:51
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Durotar
+
+-- URL: http://wow-pro.com/node/3199/revisions/29070/view
+-- Date: 2018-02-20 01:48
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Trials
+
+-- URL: http://wow-pro.com/node/3199/revisions/29068/view
+-- Date: 2018-02-20 01:45
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Echo
+
+-- URL: http://wow-pro.com/node/3199/revisions/28871/view
 -- Date: 2018-01-16 23:34
 -- Who: Ludovicus
 -- Log: New Levels
@@ -274,21 +289,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Changed some CN to CS so they clean up right.  Made things safe for goblins.
 
--- URL: http://wow-pro.com/node/3199/revisions/25515/view
--- Date: 2013-01-28 12:41
--- Who: Crackerhead22
--- Log: Minor edits for normal Durotar area.
-
--- URL: http://wow-pro.com/node/3199/revisions/25504/view
--- Date: 2013-01-23 14:49
--- Who: Crackerhead22
--- Log: Added in Monk steps for Echo Isles.
-
--- URL: http://wow-pro.com/node/3199/revisions/25463/view
--- Date: 2013-01-13 19:07
--- Who: Ludovicus_Maior
--- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:NewGuideLevels(guide,1,20)
@@ -311,7 +311,7 @@ A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|N|From Master Gadrin.|
 
 T Cleaning Up the Coastline|QID|25170|M|55.72,75.39|N|To Bom'bay.|
 A Never Trust a Big Barb and a Smile|QID|25165|PRE|25170|M|55.72,75.39|N|From Bom'bay.|RANK|2|
-A The War of Northwatch Aggression|QID|25169|M|55.46,75.04|N|From Lar Prowltusk.|PRE|25167;25170|
+A The War of Northwatch Aggression|QID|25169|M|55.46,75.04|N|From Lar Prowltusk.|PRE|25167|
 
 C Never Trust a Big Barb and a Smile|QID|25165|U|52505|M|54.16,75.20|N|Summon the Poison Extraction Totem, then let the Clattering Scorpids cast Envenom near it.|RANK|2|
 C Purge the Valley|QID|25168|M|46.64,79.51|N|Kill Northwatch Rangers and Infantryman troops.|S|
@@ -324,7 +324,7 @@ T The War of Northwatch Aggression|QID|25169|M|55.35,75.17|N|To Lar Prowltusk.|
 T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.|RANK|2|
 
 T Purge the Valley|QID|25168|M|55.94,74.79|N|To Master Gadrin.|
-A Riding On|QID|25171|PRE|25168|M|55.94,74.79|N|From Master Gadrin.|
+A Riding On|QID|25171|PRE|25168;25169|M|55.94,74.79|N|From Master Gadrin.|
 R Razor Hill|QID|25171|M|55.27,74.65|N|Talk to Raider Jhash for ride to Razor Hill.|CHAT|ACTIVE|25171|
 N Profession Trainers|QID|25171|M|52.96,41.90|N|When you arrive in Razor Hill, Runda the Profession Trainer, just outside the Barracks can teach you most professions, whilst Rawrk inside the barracks will teach you First Aid.|S|ACTIVE|25171|T|Runda|
 h Razor Hill|QID|25171|M|51.61,41.65|N|At Innkeeper Grosk.|ACTIVE|25171|
@@ -361,7 +361,7 @@ T From Bad to Worse|QID|25173|M|51.89,43.52|N|To Gar'Thok.|
 A Storming the Beaches|QID|25177|PRE|25173|M|51.89,43.52|N|From Gar'Thok.|
 T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
 
-A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|
+A Shipwreck Searching|QID|25178|PRE|25173;25176|M|53.06,43.12|N|From Gail Nozzywig.|
 C Storming the Beaches|QID|25177|S|M|58.96,49.79|N|Kill Foaming Sea Elementals. |
 C Shipwreck Searching|QID|25178|S|M|57.35,44.65|N|Obtain 4 sets of Gnomish Tools.|NC|
 A Loss Reduction|QID|25179|M|57.90,45.10|N|Speak to an Injured Razor Hill Grunt.|CHAT|PRE|25173|
@@ -370,13 +370,13 @@ C Storming the Beaches|QID|25177|US|M|58.96,49.79|N|Finish killing the Foaming S
 C Shipwreck Searching|QID|25178|US|M|57.35,44.65|N|Finish looting the Gnomish Tools.|NC|
 
 T Shipwreck Searching|QID|25178|M|53.10,43.18|N|To Gail Nozzywig, back at Razor Hill.|
-A Thonk|QID|25227|M|53.10,43.18|N|From Gail Nozzywig.|PRE|25178|
+A Thonk|QID|25227|LEAD|25187|M|53.10,43.18|N|From Gail Nozzywig.|PRE|25178|
 
 T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
 
 T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|CS|N|To Thonk on top of the guard tower.|
-A Lost in the Floods|QID|25187|PRE|25227|M|49.58,40.16|N|From Thonk.|
+A Lost in the Floods|QID|25187|M|49.58,40.16|N|From Thonk.|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass to search for Raggaran. Do not cancel the cinematic, otherwise it won't count.|NC|QO|1|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass again to search for the flooded hut. Do not cancel the cinematic, otherwise it won't count.|NC|QO|2|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass once again to search for Misha. Do not cancel the cinematic, otherwise it won't count.|NC|QO|3|
@@ -473,7 +473,7 @@ T Arnak Fireblade|QID|25263|M|58.35,54.18|Z|Cleft of Shadow@Orgrimmar|N|To Neeru
 N Azshara |QID|25648|ACTIVE|25648|N|You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara. Otherwise, please abandon the quest "Beyond Durotar"|
 A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|Z|Orgrimmar|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Neeru Fireblade.|
 N Azshara |QID|28496|ACTIVE|28496|N|Whoops. You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara. Otherwise, please abandon the quest "Warchief's Command: Azshara"|
-A Warchief's Command: Northern Barrens!|QID|28494|M|45.55,5.93|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Warchief's Command Board.|
+A Warchief's Command: Northern Barrens!|QID|28494|LEAD|871|M|45.55,5.93|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Warchief's Command Board.|
 
 ]]
 end)
