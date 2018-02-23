@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2018-02-22 22:56
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3274/revisions/28907/view
 -- Date: 2018-01-16 23:56
 -- Who: Ludovicus
 -- Log: New Levels
@@ -87,8 +92,6 @@ WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 60|QID|9770|N|It is advised to be at least level 60 before starting this guide.|LVL|60|
-
 F Swamprat Post|QID|9770|N|Fly to Swamprat Post.|
 
 N Things to do: Zangarmarsh |QID|9770|N|Being in melee range of sporebats when they die gives you a 5 minute +30 to all stats buff. Keep your Fertile Spores and Unidentified Plant Parts, they'll be part of a hand-in.|
@@ -166,9 +169,9 @@ r Fedryen Swiftspear|QID|9718|N|Sell junk and repair.|
 L Level 61|QID|9718|N|You should be level 61 now.|LVL|61|
 
 A Disturbance at Umbrafen Lake|QID|9716|M|78.4,62.0|N|From Ysiel Windsinger.|
-A Warden Hamoot|QID|9778|M|78.4,62.0|N|From Ysiel Windsinger.|
+A Warden Hamoot|QID|9778|LEAD|9728|M|78.4,62.0|N|From Ysiel Windsinger.|
 T Warden Hamoot|QID|9778|M|79.1,65.32|N|To Warden Hamoot at the top of the tower.|
-A A Warm Welcome|QID|9728|M|79.1,65.32|N|From Warden Hamoot.|PRE|9778|
+A A Warm Welcome|QID|9728|M|79.1,65.32|N|From Warden Hamoot.|
 
 R Disturbance at Umbrafen Lake |QID|9716|QO|1|N|Head to the waypoint to get the quest completion.|M|70.9,82.1|
 T Disturbance at Umbrafen Lake |QID|9716|M|78.4,62.0|N|To Ysiel Windsinger.|
@@ -199,7 +202,7 @@ A Return to the Marsh |QID|9732|PRE|9724|M|15.7,52.0|N|From Amythiel Mistwalker.
 H Cenarion Refuge|QID|9730|U|9732|N|Hearth to the Cenarion Refuge.|
 T Return to the Marsh |QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
 
-A Watcher Leesa'oh |QID|9697|M|78.5,63.1|N|From Lethyn Moonfire.|
+A Watcher Leesa'oh |QID|9697|LEAD|9701|M|78.5,63.1|N|From Lethyn Moonfire.|
 A Blessings of the Ancients |QID|9785|N|From Windcaller Blackhoof.|M|80.4,64.7|
 C Blessings of the Ancients |QID|9785|QO|1|N|To Ashyen.|M|81.04,64.03|
 C Blessings of the Ancients |QID|9785|QO|2|N|To Kelethwho wanders around.|M|78.1,63.8|
@@ -318,7 +321,7 @@ A News from Rakoria.|QID|9796|M|85.3,54.8|N|From Shadow Hunter Denjai. This lead
 H Cenarion Refuge|QID|9720|U|6948|N|Run back if your hearth isn't up.|M|33.0,51.1|
 
 T Balance Must Be Preserved |QID|9720|M|78.4,62.0|N|To Ysiel Windsinger.|
-A What's Wrong at Cenarion Thicket?|QID|9957|M|78.5,63.1|N|From Lethyn Moonfire. This leads into Terokkar Forest, accept if you want to go there next.|
+A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.5,63.1|N|From Lethyn Moonfire. This leads into Terokkar Forest, accept if you want to go there next.|
 
 N Plant parts|QID|10118|N|Turn in any more plant parts you looted.|
 T Uncatalogued Species|QID|9875|M|80.4,64.2|N|To Lauranna Thar'well.|
