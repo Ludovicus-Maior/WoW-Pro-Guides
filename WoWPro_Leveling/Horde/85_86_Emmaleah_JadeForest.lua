@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2018-02-22 23:30
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3487/revisions/28940/view
 -- Date: 2018-01-17 00:35
 -- Who: Ludovicus
 -- Log: New Levels
@@ -321,7 +326,7 @@ $ Box of Supplies|QID|31864|M|24.63,53.27|N|Chest of supplies just accross the r
 C Silly Wikket, Slickies are for Hozen|QID|29942|M|27.29,55.08|N|Kill and loot turtles.|US|
 T Silly Wikket, Slickies are for Hozen|QID|29942|M|27.06,50.77|N|To Eekle Eekle.|
 T Boom Bait|QID|29939|M|27.21,50.78|N|To Rivett Clutchpop.|
-A The Scouts Return|QID|29971|PRE|29939;29942;31239|M|27.21,50.78|N|From Rivett Clutchpop.|
+A The Scouts Return|QID|29971|LEAD|29730|PRE|29939;29942;31239|M|27.21,50.78|N|From Rivett Clutchpop.|
 T The Scouts Return|QID|29971|M|28.63,47.40|N|To Shokia.|
 A Scouting Report: Hostile Natives|QID|29730|PRE|31239|M|37.72,45.31|N|From Riko.|
 C Scouting Report: Hostile Natives|QID|29730|NC|QO|1|M|38.84, 45.47|
@@ -355,7 +360,7 @@ A Dawn's Blossom|QID|30015|PRE|29967|M|28.65,47.55|N|From General Nazgrim.|
 F Dawn's Blossom|QID|30015|M|27.83,47.94|N|At Grookin Flapmaster, use the chat option.|
 f Dawn's Blossom|QID|30015|M|47.64,46.24|N|From Keg Runner Lee.|
 T Dawn's Blossom|QID|30015|M|46.82,46.17|N|To Lorewalker Cho.|
-A Welcome to Dawn's Blossom|QID|31230|PRE|29922;30015|M|47.19,46.11|N|From Toya.|
+A Welcome to Dawn's Blossom|QID|31230|PRE|29922+30015|M|47.19,46.11|N|From Toya.|
 C Welcome to Dawn's Blossom|QID|31230|QO|3|CHAT|M|47.04,46.02|N|Kai wanders around on the lower terrace.|
 C Welcome to Dawn's Blossom|QID|31230|QO|2|CHAT|M|45.77,43.67|
 C Welcome to Dawn's Blossom|QID|31230|QO|1|CHAT|M|48.47,44.50|
@@ -381,8 +386,8 @@ T Down Kitty!|QID|29717|N|To An Windfur, she wanders around the village.|
 T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur|
 A Find the Boy|QID|29993|PRE|29866|M|47.07,46.08|N|From Kai Wanderbrew.|
 A All We Can Spare|QID|29925|PRE|29723|M|47.20,46.13|N|From Toya.|
-A An Air of Worry|QID|29576|M|48.36,46.05|N|From Old Man Misteyes.|
-A Tian Monastery|QID|29617|M|49.63,45.80|N|From Apprentice Yufi.|
+A An Air of Worry|QID|29576|LEAD|29578|M|48.36,46.05|N|From Old Man Misteyes.|
+A Tian Monastery|QID|29617|LEAD|29618|M|49.63,45.80|N|From Apprentice Yufi.|
 
 R The Arboretum|QID|29993|M|54.93,45.28|N|The path is just down the stairs you passed to get the last quest.|
 A The Perfect Color|QID|29881|M|54.93,45.28|N|From Inkmaster Glenzu.|
@@ -619,7 +624,7 @@ f Jade Temple Grounds|QID|30499|M|54.60,61.75|N|At Ginsa Arroweye.|
 F Grookin Hill|QID|30499|M|56.6,6.75|N|Take the free option from the kitemaster.|
 T Get Back Here!|QID|30499|M|28.02,47.15|N|To General Nazgrim.|
 A Sufficient Motivation|QID|30466|M|28.02,47.15|N|From General Nazgrim.|
-A Gauging Our Progress|QID|30484|M|28.02,47.15|N|From General Nazgrim.|
+A Gauging Our Progress|QID|30484|PRE|30499|M|28.02,47.15|N|From General Nazgrim.|
 C Sufficient Motivation|QID|30466|U|79884|NC|QO|2|M|28.14,47.33|N|Pick up a bucket of slicky water and toss it on lazy hozen as you go.|
 C Sufficient Motivation|QID|30466|U|79884|US|NC|QO|1|M|27.14,46.70|S|
 C Gauging Our Progress|QID|30484|QO|2|CHAT|M|28.41,47.75|
@@ -629,13 +634,13 @@ C Gauging Our Progress|QID|30484|QO|4|CHAT|M|27.03,55.00|
 C Sufficient Motivation|QID|30466|U|79884|US|NC|QO|1|M|27.14,46.70|
 T Sufficient Motivation|QID|30466|M|28.07,47.15|N|To General Nazgrim.|
 T Gauging Our Progress|QID|30484|M|28.07,47.15|N|To General Nazgrim.|
-A Last Piece of the Puzzle|QID|30485|M|28.21,46.68|N|From Lorewalker Cho.|
+A Last Piece of the Puzzle|QID|30485|PRE|30466;30484|M|28.21,46.68|N|From Lorewalker Cho.|
 C Last Piece of the Puzzle|QID|30485|M|28.19,46.71;44.53,66.99|N|Talk to Mishi for a ride. *this step will not autocomplete until you finish the next step*|CN|U|80071|
 
 C Last Piece of the Puzzle|QID|30485|U|80071|M|44.51,66.97|
 f Serpent's Overlook|QID|31303|M|43.13,68.48|N|At Sky Dancer Ji. optional, but you will not be able to get back up here until lvl 90 if you don't (admittedly, you don't need to get up here again.)|
 T Last Piece of the Puzzle|QID|30485|M|44.74,67.09|N|To Lorewalker Cho.|
-A The Seal is Broken|QID|31303|PRE|30485;31362|M|44.74,67.09|N|From Lorewalker Cho.|
+A The Seal is Broken|QID|31303|PRE|30485+31362|M|44.74,67.09|N|From Lorewalker Cho.|
 C The Seal is Broken|QID|31303|CHAT|M|47.73,58.29|N|Talk to Mishi to start the "bombing run".|
 
 T The Seal is Broken|QID|31303|M|49.27,61.39|N|To Lorewalker Cho.|
