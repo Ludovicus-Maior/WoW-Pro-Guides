@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2018-02-23 01:40
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - EK
+
+-- URL: http://wow-pro.com/node/3440/revisions/28503/view
 -- Date: 2017-03-17 13:50
 -- Who: Ludovicus_Maior
 -- Log: Add one PRE to LudoHallowPanA
@@ -209,7 +214,7 @@ A Flexing for Nougat|QID|8356|M|60.14,75.09|N|From Innkeeper Allison.|Z|Stormwin
 C Flexing for Nougat|QID|8356|T|/flex|N|click the button to flex.|Z|Stormwind City|
 T Flexing for Nougat|QID|8356|M|60.14,75.09|N|To Innkeeper Allison.|Z|Stormwind City|
 T What Now?|QID|29411|M|60.14,75.09|N|To Anson Hastings.|Z|Stormwind City|
-A The Creepy Crate|QID|29413|PRE|529411;29411|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
+A The Creepy Crate|QID|29413|PRE|529411+29411|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
 T The Creepy Crate|QID|29413|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
 
 C Clean Up in Stormwind|QID|29144|M|49.12,50.83|N|Look for Orange clouds.|U|69191|Z|Stormwind City|US|
