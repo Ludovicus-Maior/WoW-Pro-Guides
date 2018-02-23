@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
+-- Date: 2018-02-23 00:24
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3297/revisions/28917/view
 -- Date: 2018-01-17 00:02
 -- Who: Ludovicus
 -- Log: New Levels
@@ -216,8 +221,8 @@ C Still At It |QID|12644|N|Stand where you can reach everything at the still (or
 T Still At It |QID|12644|N|To Grimbooze Thunderbrew.|M|26.8,60.1|
 
 A The Taste Test |QID|12645|PRE|12644|N|From Grimbooze Thunderbrew.|M|26.8,60.1|
-N Hadrius' taste test|QID|12645|U|38697|N|Use the Jungle Punch Sample on Hadrius Harlowe for his taste test.|M|27.31,59.41|QO|Hadrius' taste test: 1/1|
-N Hemet's taste test|QID|12645|U|38697|N|Use the Jungle Punch Sample on Hemet Nesingwary for his taste test.|M|27.1,58.67|QO|Hemet's taste test: 1/1|
+C Hadrius' taste test|QID|12645|U|38697|N|Use the Jungle Punch Sample on Hadrius Harlowe for his taste test.|M|27.31,59.41|QO|2|; Hadrius' taste test: 1/1
+C Hemet's taste test|QID|12645|U|38697|N|Use the Jungle Punch Sample on Hemet Nesingwary for his taste test.|M|27.1,58.67|QO|1|; Hemet's taste test: 1/1
 C Crocolisk Mastery: The Plan |QID|12560|N|Gather ferns along the banks of the river.|M|34.7,41.5|
 T Crocolisk Mastery: The Plan |QID|12560|N|To Debaar, at Nesingwary Base Camp.|M|27.21,59.86|
 
@@ -227,16 +232,16 @@ C Dreadsaber Mastery: Ready to Pounce |QID|12558|N|At the top of Bittertide Lake
 T Rhino Mastery: The Kill |QID|12556|N|To Hemet Nesingwary, in Nesingwary Base Camp.|M|27.09,58.72|
 T Dreadsaber Mastery: Ready to Pounce |QID|12558|N|To Buck Cantwell.|M|26.7,59.0|
 
-A Lakeside Landing |QID|12651|PRE|12560;12526;12550|N|From Hemet Nesingwary.|
-C The Taste Test |QID|12645|N|Give a sample to Tamara at Lakeside Landing.|U|38697|M|50.44,62.10|
+A Lakeside Landing |QID|12651|LEAD|12654|PRE|12560;12526;12550|N|From Hemet Nesingwary.|
+C Tamara's taste test |QID|12645|N|Give a sample to Tamara at Lakeside Landing.|U|38697|M|50.44,62.10|QO|3|
 T Lakeside Landing |QID|12651|N|To Tamara Wobblesprocket.|
 
-A The Part-time Hunter |QID|12654|N|From Tamara Wobblesprocket.|M|50.5,62.1|
+A The Part-time Hunter |QID|12654|LEAD|12528|N|From Tamara Wobblesprocket.|M|50.5,62.1|
 f Lakeside Landing |QID|12671|N|At Marvin Wobblesprocket.|M|50.12,61.39|
 T Aerial Surveillance |QID|12696|N|To Pilot Vic.|M|50.0,61.5|
 
 A An Embarrassing Incident |QID|12699|PRE|12523|N|From Pilot Vic.|M|50.0,61.5|
-A Force of Nature |QID|12803|N|From Pilot Vic.|M|50.0,61.5|
+A Force of Nature |QID|12803|LEAD|12561|N|From Pilot Vic.|M|50.0,61.5|
 C An Embarrassing Incident |QID|12699|N|Look in the piles of Raised Mud at the bottom of the lake. If you need an air tank, then you've got it.|U|40390|M|48.6,64.0|
 C Crocolisk Mastery: The Ambush |QID|12569|N|Use the disguise while standing on the fallen log on the East side of the lake.|U|38564|M|46.50,63.48|
 T An Embarrassing Incident |QID|12699|N|To Pilot Vic.|M|50.0,61.5|
@@ -308,10 +313,10 @@ T Fortunate Misunderstandings |QID|12570|N|To High-Oracle Soo-say.|M|54.6,56.3|
 A Make the Bad Snake Go Away |QID|12571|PRE|12570|N|From High-Oracle Soo-say.|M|54.6,56.3|
 A Gods like Shiny Things |QID|12572|PRE|12570|N|From Lafoo.|
 C Gods like Shiny Things |QID|12572|S|N|The things you want are on the ground: they blink on and off. To dig them up, he needs almost to be on top of them.|U|38622|M|52.4,53.2|
-C Make the Bad Snake Go Away|QID|12571|S|QO|Emperor Cobra slain: 1/1|N|Kill 10 Emperor Cobras.|M|52.4,53.2|
-K Venomtip |QID|12571|N|You'll find Venomtip near the Rainspeaker Rapids.|M|58.14,52.87|QO|Venomtip slain: 1/1|
+C Make the Bad Snake Go Away|QID|12571|S|QO|1|N|Kill 10 Emperor Cobras.|M|52.4,53.2|
+K Venomtip |QID|12571|N|You'll find Venomtip near the Rainspeaker Rapids.|M|58.14,52.87|QO|2|; Venomtip slain: 1/1
 C Gods like Shiny Things |QID|12572|US|N|The things you want are on the ground: they blink on and off. To dig them up, he needs almost to be on top of them.|U|38622|M|52.4,53.2|
-C Make the Bad Snake Go Away|QID|12571|US|QO|Emperor Cobra slain: 1/1|N|Kill 10 Emperor Cobras.|M|52.4,53.2|
+C Make the Bad Snake Go Away|QID|12571|US|QO|1|N|Kill 10 Emperor Cobras.|M|52.4,53.2|
 T Make the Bad Snake Go Away |QID|12571|N|To High-Oracle Soo-say, at Rainspeaker Canopy.|M|54.53,56.36|
 
 A Making Peace |QID|12573|PRE|12571|N|From High-Oracle Soo-say.|M|54.6,56.3|
@@ -443,12 +448,11 @@ T Back Through the Waygate |QID|12797|N|To Avatar of Freya, at Rainspeaker Rapid
 
 A Reclamation |QID|12546|PRE|12797|N|From Avatar of Freya.|
 R Reclamation |QID|12546|M|71.31,33.84|N|Go here, dismount and summon the Etymidian. Remember to heal when you get below 50%.|U|38709|
-K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|CN|QO|Scourge Minions destroyed: 200/200|S|N|Destroy any type of Minion.|
-K Hailscorn |QID|12546|M|70.0,34.0|QO|Hailscorn slain: 1/1|N|Keep your back to the mountain and hit Cataclysm only when she spawns her troops.|U|38709|
-K Urgreth of the Thousand Tombs |QID|12546|M|70.2,37.0|QO|Urgreth of the Thousand Tombs slain: 1/1|N|Move away when he channels Dark Barrage.|
-K Hailscorn |QID|12546|M|70.0,34.0|QO|Hailscorn slain: 1/1|N|Keep your back to the mountain and hit Cataclysm only when she spawns her troops.|U|38709|
-C Reclamation|QID|12546|M|70.0,38.4;72.6,40.4;73.6,40.8|CN|N|Find Bythius the Flesh-Shaper, use Cleave on the guy, and Cataclysm for the dogs.|U|38709|
-K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|CN|QO|Scourge Minions destroyed: 200/200|US|N|Finish killing Minions.|
+K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|CN|QO|1|S|N|Destroy any type of Minion.|; Scourge Minions destroyed: 200/200
+K Urgreth of the Thousand Tombs |QID|12546|M|70.2,37.0|QO|3|N|Move away when he channels Dark Barrage.|; Urgreth of the Thousand Tombs slain: 1/1
+K Hailscorn |QID|12546|M|70.0,34.0|QO|4|N|Keep your back to the mountain and hit Cataclysm only when she spawns her troops.|U|38709|; Hailscorn slain: 1/1
+K Bythius the Flesh-Shaper |QID|12546|QO|2|M|70.0,38.4;72.6,40.4;73.6,40.8|CN|N|Find Bythius the Flesh-Shaper, use Cleave on the guy, and Cataclysm for the dogs.|U|38709|
+K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|CN|QO|1|US|N|Destroy any type of Minion.|; Scourge Minions destroyed: 200/200
 T Reclamation |QID|12546|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
 T It Could Be Anywhere! |QID|12624|N|To Chad. I know you found it a long time ago. Turn it in now if you haven't already.|M|26.9,58.9|
 T A Hero's Burden |QID|12581|N|Artruis's Phylactery. If you have it, turn it in.|U|38624|
