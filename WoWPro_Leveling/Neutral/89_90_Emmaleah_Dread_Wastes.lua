@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2018-02-23 01:31
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3493/revisions/28939/view
 -- Date: 2018-01-17 00:34
 -- Who: Ludovicus
 -- Log: New Levels
@@ -178,7 +183,7 @@ A Citizens of a New Empire|QID|31107|PRE|31007;31010;31660|M|55.10,35.45|N|From 
 C Concentrated Fear|QID|31108|S|NC|M|56.75,18.22|
 C The Dreadsworn|QID|31689|S|M|58.99,14.65|
 C Citizens of a New Empire|QID|31107|S|M|59.74,19.78|
-K Kill Qi'tar the Deathcaller|QID|31066|T|Qi'tar the Deathcaller|QO|Qi'tar the Deathcaller slain: 1/1|M|59.44,18.37|
+K Kill Qi'tar the Deathcaller|QID|31066|T|Qi'tar the Deathcaller|QO|1|M|59.44,18.37|; Qi'tar the Deathcaller slain: 1/1
 C Citizens of a New Empire|QID|31107|US|NC|M|59.74,19.78|
 C The Dreadsworn|QID|31689|US|M|58.99,14.65|
 C Concentrated Fear|QID|31108|US|M|56.75,18.22|
@@ -193,13 +198,13 @@ A Amber Is Life|QID|31019|PRE|31066|M|55.03,35.77|N|From Kil'ruk the Wind-Reaver
 N First Daily may now be available.|QID|31267|N|The guide includes the "what to do" and turn in steps if you have the quest, but not the accept since the daily is random (all the accept/turn ins are in Klaxxi'vess), but if you are interested in Klaxxi faction you probably want to do it.|
 
 R Lake of Stars|QID|31023|M|67.91,60.19|
-C Amber Is Life |QID|31019|S|QO|Mistblade Ripper slain: 7/7|M|62.3,57.7|
+C Amber Is Life |QID|31019|S|QO|1|M|62.3,57.7|; Mistblade Ripper slain: 7/7
 C Mistblade Destruction|QID|31267|S|M|62.3,57.7|
 A Relics of the Swarm|QID|31023|M|67.91,60.19|U|82870|N|Accept from the 'Strange Relic' which drops from the Saurok around the lake.|
 C Relics of the Swarm|QID|31023|S|NC|M|65.65,64.13|N|These are small tablets around and in the lake.|
 C Mistblade Destruction|QID|31023|US|M|62.3,57.7|
-C Amber Is Life |QID|31019|US|QO|Mistblade Ripper slain: 7/7|M|62.3,57.7|
-K Kill Mistblade Scale-Lord|QID|31019|T|Mistblade Scale-Lord|QO|Mistblade Scale-Lord slain: 1/1|M|66.74,63.89;66.5,66.0|CS|N|He is in the den, first coordinates are for the opening. Rarely a BoA tanking sword can be found stuck in the wall in this cave.|
+C Amber Is Life |QID|31019|US|QO|1|M|62.3,57.7|; Mistblade Ripper slain: 7/7
+K Kill Mistblade Scale-Lord|QID|31019|T|Mistblade Scale-Lord|QO|2|M|66.74,63.89;66.5,66.0|CS|N|He is in the den, first coordinates are for the opening. Rarely a BoA tanking sword can be found stuck in the wall in this cave.|; Mistblade Scale-Lord slain: 1/1
 T Amber Is Life|QID|31019|M|66.82,65.35|N|To Ancient Amber Chunk.|
 A Feeding the Beast|QID|31020|PRE|31019|M|66.82,65.35|N|From Korven the Prime.|
 A Living Amber|QID|31021|PRE|31019|M|66.82,65.35|N|From Korven the Prime.|
@@ -213,7 +218,7 @@ A Kypari Zar|QID|31022|PRE|31020;31021|M|64.91,58.09|N|From Korven the Prime.|
 C Kypari Zar|QID|31022|M|59.90,59.38|N|Click on the Sonar Tower, and then defend Korven against 3 waves of mobs.|
 T Kypari Zar|QID|31022|M|60.00,59.29|N|To Korven the Prime.|
 A The Root of the Problem|QID|31026|PRE|31022|M|60.00,59.29|N|From Korven the Prime.|
-K Kill Coldbite Matriarch|QID|31026|T|Coldbite Matriarch|M|58.7,59.6;57.45,57.79|CS|QO|Coldbite Matriarch slain: 1/1|
+K Kill Coldbite Matriarch|QID|31026|T|Coldbite Matriarch|M|58.7,59.6;57.45,57.79|CS|QO|1|; Coldbite Matriarch slain: 1/1
 T The Root of the Problem|QID|31026|M|57.46,57.99|N|To Korven the Prime.|
 T Relics of the Swarm|QID|31023|M|55.0,35.6|N|To Ambersmith Zikk.|
 
@@ -240,10 +245,10 @@ A Dog Food|QID|31186|PRE|31183|U|85955|N|From Dog.|
 C Dog Food|QID|31186|S|U|85955|N|Make sure Dog is around when you kill his food (Rockshell Snapclaws).|
 C Shark Week|QID|31188|S|U|85998|N|Kill Sharks, loot Thresher Jaw, extract the teeth from the jaw.|;Bliz claims to have fixed this so you can have multiples, you don't have to do it after each kill.|
 C On the Crab|QID|31187|S|NC|M|40,79|
-C Walking Dog|QID|31185|NC|U|85955|QO|Bring Dog to the Wreck of the Mist-Hopper: 1/1|M|45.31,78.70|
+C Walking Dog|QID|31185|NC|U|85955|QO|2|M|45.31,78.70|; Bring Dog to the Wreck of the Mist-Hopper: 1/1
 C Old Age and Treachery|QID|31184|NC|M|44.7,78.7|
-C Walking Dog|QID|31185|NC|U|85955|QO|Bring Dog to the Silt Vents: 1/1|M|46.3,74.3|
-C Walking Dog|QID|31185|NC|U|85955|QO|Bring Dog to the Whale Corpse: 1/1|M|40.3,79.21|
+C Walking Dog|QID|31185|NC|U|85955|QO|1|M|46.3,74.3|; Bring Dog to the Silt Vents: 1/1
+C Walking Dog|QID|31185|NC|U|85955|QO|3|M|40.3,79.21|; Bring Dog to the Whale Corpse: 1/1
 C Dog Food|QID|31186|US|U|85955|M|43.8,76.4|N|Make sure Dog is around when you kill his food (Rockshell Snapclaws).|
 C On the Crab|QID|31187|US|NC|M|40,79|
 C Shark Week|QID|31188|US|U|85998|N|Kill Sharks, loot Thresher Jaw, extract the teeth from the jaw.|
@@ -283,7 +288,7 @@ C Feed or Be Eaten|QID|31092|S|U|86489|M|45.23,63.31|N|Kill the Brineshell snapp
 l Manipulator's Talisman|QID|31432|ACTIVE|31092|L|86529|M|42,62.2|CC|T|Glinting Rapana Whelk|N|Talk to the rarely found Glinting Rapana Whelk to be given this trinket (ilvl 450 BoP).|
 C The Kunchong Whisperer|QID|31359|S|M|40.86,64.90|
 A Falling to Pieces|QID|31398|PRE|31091|S|M|41.87,63.81|N|From Glowing Amber.|
-K Kill Oracle Hiss'ir|QID|31359|T|Oracle Hiss'ir|QO|Oracle Hiss'ir slain: 1/1|M|41.9,63.5|
+K Kill Oracle Hiss'ir|QID|31359|T|Oracle Hiss'ir|QO|1|M|41.9,63.5|; Oracle Hiss'ir slain: 1/1
 C The Kunchong Whisperer|QID|31359|US|M|40.86,64.90|
 C Feed or Be Eaten|QID|31092|US|U|86489|M|45.23,63.31|N|Kill the Brineshell snapper to get the Succulent Turtle Filet and feed it to Kovok.|
 f The Briny Muck|QID|31092|M|42.58,55.75|N|At Infiltrator Ik'thal|
@@ -295,7 +300,7 @@ T Falling to Pieces|QID|31398|M|54.24,35.75|N|To Kaz'tik the Manipulator.|
 
 T Mistblade Destruction|QID|31267|M|55.1,35.9|N|To Kil'ruk the Wind-Reaver|
 A Skeer the Bloodseeker|QID|31175|REP|The Klaxxi;1337;Honored-Exalted|M|55.04,35.86|N|From Kil'ruk the Wind-Reaver.|
-A A Not So Friendly Request|QID|31730|PRE|31026;31398|M|55.04,35.86|N|From Kil'ruk the Wind-Reaver.|
+A A Not So Friendly Request|QID|31730|LEAD|31067|PRE|31026;31398|M|55.04,35.86|N|From Kil'ruk the Wind-Reaver.|
 A The Zan'thik Dig|QID|31605|M|54.72,34.08|N|From Kor'ik.|
 
 ;N Dailies|QID|31270|N|The next quests are dailies that require level 90. Skip them if you are not interested or if you are not level 90 yet(this applies to all dailies you come across in Dread Waste, not just these here/now). The guide will include the Completion and Turn in steps, BUT NOT the accept steps for whatever quests you accept.|
@@ -326,17 +331,17 @@ C Sonic Disruption|QID|31487|U|87394|US|M|45,35|N|Kill 4 Dread Kunchong and 6 Sh
 C Shortcut to Ruin|QID|31503|M|39.60,31.60|N|Kill Vess-Guard Na'kal|; Heart of Fear
 K Karanosh|QID|31599|M|48.90,34.40;44.00,35.30;48.35,32.24;48.11,36.46;39.44,30.88;43.09,37.48;41.22,34.93;44.04,32.81;46.47,29.84;41.72,30.77|CN|ACTIVE|31109;31487;31494;31487;31502;31503;31496|L|87878|T|Karanosh|N|Loot the Enormous Kunchong Mandibles.|; Heart of Fear
 A The Matriarch's Maw|QID|31599|U|87878|ACTIVE|31109;31487;31494;31487;31502;31503;31496|N|From Enormous Kunchong Mandibles.|; Heart of Fear
-C Sap Jar filled at north feeder|QID|31496|U|87400|QO|North Feeder: 1/1|M|36.2,32.2|; north -Heart of Fear -Are these QOs right?
-C Sap Jar filled at central feeder|QID|31496|U|87400|QO|Central Feeder: 1/1|M|37.00,28.00|; central -Heart of Fear - maybe better one line, 4 green dots?
-C Sap Jar filled at east feeder|QID|31496|U|87400|QO|East Feeder: 1/1|M|38.3,31.9|;east - Heart of Fear
-C Sap Jar filled at northeast feeder|QID|31496|U|87400|QO|Northeast Feeder: 1/1|M|39.3,29.20|;Northeast - Heart of Fear
+C Sap Jar filled at north feeder|QID|31496|U|87400|QO|3|M|36.2,32.2|; North Feeder: 1/1
+C Sap Jar filled at central feeder|QID|31496|U|87400|QO|1|M|37.00,28.00|; Central Feeder: 1/1
+C Sap Jar filled at east feeder|QID|31496|U|87400|QO|2|M|38.3,31.9|; East Feeder: 1/1
+C Sap Jar filled at northeast feeder|QID|31496|U|87400|QO|4|M|39.3,29.20|; Northeast Feeder: 1/1
 C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|US|M|44.60,43.20|; Heart of Fear
 ; Briny Muck - 7 - Specimen Request|QID|31508| and Fear Takes Root|QID|31509| - not yet available as we haven't awakened the questgiver yet
 K Kypa'rak|M|34.20,59.80|L|87871|ACTIVE|31111;31508;31509;31506;31505;31507|N|Loot the Massive Kyparite Core. This wasn't available to me the first time I had dailies in the area, maybe faction?|; Briny Muck
 A Kypa'rak's Core|QID|31598|ACTIVE|31111;31508;31509;31506;31505;31507|U|87871|N|From Kyparite core.|; Briny Muck
 C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik Manipulators.|O|; Briny Muck
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|S|; Briny Muck
-K Vess-Guard Vik'az|QID|31505|ACTIVE|31505|M|29.00,75.60|QO|Vess-Guard Vik'az slain: 1/1|; Briny Muck
+K Vess-Guard Vik'az|QID|31505|ACTIVE|31505|M|29.00,75.60|QO|1|; Vess-Guard Vik'az slain: 1/1
 C Meltdown|QID|31507|M|23.00,77.60|U|87841|N|Slay 6 Zan'thik Venomstings in Zan'vess. Use Korven's Experimental Grenade to counter their armor plating.|; Briny Muck
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|US|M|29.20,89.60|; Briny Muck
 C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik Manipulators.|US|M|34.00,71.80|; Briny Muck
@@ -370,7 +375,7 @@ C A Bloody Delight|QID|31178|US|M|23.8,61.2|
 T A Strange Appetite|QID|31176|M|25.64,53.93|N|To Skeer the Bloodseeker.|
 T Fine Dining|QID|31177|M|25.64,50.64|N|To Skeer the Bloodseeker.|
 T A Bloody Delight|QID|31178|M|25.64,50.64|N|To Skeer the Bloodseeker.|
-A The Scent of Blood|QID|31179|PRE|31176|M|25.64,50.64|N|From Skeer the Bloodseeker.|
+A The Scent of Blood|QID|31179|PRE|31176;31177;31178|M|25.64,50.64|N|From Skeer the Bloodseeker.|
 C The Scent of Blood|QID|31179|M|25.69,50.69|
 H Klaxxi'vess|QID|31179|M|55,34|
 T The Scent of Blood|QID|31179|M|55.03,35.82|N|To Kil'ruk the Wind-Reaver.|
@@ -411,7 +416,7 @@ T A Not So Friendly Request|QID|31730|M|51.21,11.39|N|To Sapmaster Vu.|
 A The Heavens Hum With War|QID|31067|PRE|31066|M|51.21,11.39|N|From Sapmaster Vu.|
 C Blade of the Poisoned Mind|QID|31438|M|28.88,41.99|N|This rare lost item can sometimes be found in the smaller of the two purplish bushes by the entrance to this set of rooms under the tree. (when you don't find it, manually check this step off.)|
 A Sacred Recipe|QID|31068|PRE|31066|M|53.8,16.5;53.07,12.40|CC|N|Go around the tree and into the tree. From Scroll of Auspice.|
-K Kill Azzix K'tai|QID|31067|T|Azzix K'tai|QO|Azzix K'tai slain: 1/1|M|53.69,16.08;53.20,10.14|CS|N|Go to the entrance of the barrow and slay inside!|
+K Kill Azzix K'tai|QID|31067|T|Azzix K'tai|QO|1|M|53.69,16.08;53.20,10.14|CS|N|Go to the entrance of the barrow and slay inside!|; Azzix K'tai slain: 1/1
 T Sacred Recipe|QID|31068|M|50.73,11.70|N|To Lya of Ten Songs.|
 T The Heavens Hum With War|QID|31067|M|51.21,11.39|N|To Sapmaster Vu.|
 A Bound With Shade|QID|31069|PRE|31067;31068|M|51.21,11.39|N|From Sapmaster Vu.|
@@ -445,8 +450,8 @@ C Kor'thik Aggression|QID|31133|S|M|44.62,16.96|
 C Bound With Wood|QID|31073|S|M|45.9,11.7|NC|
 C Han Stormstout|QID|31078|NC|M|47.17,16.78;43.74,16.71|CS|N|You need to go to the opposite side of the main room. you have to go only a little way down the side passages to pass under the beams. Han is in a block of amber (click to "find")|
 T Han Stormstout|QID|31078|M|44.46,16.79|N|To Chen Stormstout.|
-C Find the Heartroot of Kypari Kor|QID|31074|NC|QO|Find the Heartroot of Kypari Kor: 1/1|M|43.12,14.84|
-C Find the Mark of the Empress|QID|31074|NC|QO|Find the Mark of the Empress: 1/1|M|44.53,16.80|
+C Find the Heartroot of Kypari Kor|QID|31074|NC|QO|2|M|43.12,14.84|; Find the Heartroot of Kypari Kor: 1/1
+C Find the Mark of the Empress|QID|31074|NC|QO|1|M|44.53,16.80|; Find the Mark of the Empress: 1/1
 C Bound With Wood|QID|31073|US|M|45.9,11.7|NC|
 C Kor'thik Aggression|QID|31133|US|M|44.62,16.96|
 T Kor'thik Aggression|QID|31133|M|50.18,12.44|N|To Defender Azzo.|
@@ -463,7 +468,7 @@ A Great Vessel of Salvation|QID|31082|PRE|31075|M|38.65,17.24|N|From Chief Rikki
 C Fiery Wings|QID|31080|NC|S|M|37.29,23.96|N|Slap the butterflies (click on them) and follow them while the fairy (fiery) dust lands on you. |
 C The Horror Comes A-Rising|QID|31079|S|M|34.63,20.29|N|Kyparites erupt from the ground, so stand in a dust cloud to find them. |
 C Great Vessel of Salvation|QID|31082|NC|U|84267|M|36.62,17.05|N|Use the bell to summon sprites who will carry the motherseed until you lead them to the pit.|
-K Kill Mygoness|QID|31081|T|Mygoness|QO|Mygoness slain: 1/1|M|32.9,18.9|
+K Kill Mygoness|QID|31081|T|Mygoness|QO|2|M|32.9,18.9|; Mygoness slain: 1/1
 C Incantations Fae and Primal|QID|31081|M|32.1,17.4|
 C The Horror Comes A-Rising|QID|31079|US|M|34.63,20.29|N|Kyparites erupt from the ground, so stand in a dust cloud to find them. |
 C Fiery Wings|QID|31080|NC|US|M|37.29,23.96|N|Slap the butterflies (click on them) and follow them while the fairy (fiery) dust lands on you. |
