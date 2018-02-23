@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_iron_horde_invasion_source_code
+-- Date: 2018-02-23 01:43
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3607/revisions/27321/view
 -- Date: 2015-07-05 18:12
 -- Who: Ludovicus_Maior
 -- Log: Add Icon
@@ -74,7 +79,7 @@ WoWPro.WorldEvents:GuideHoliday(guide,"Iron Horde Invasion")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Iron Horde Invasion|QID|36498|LEAD|35460|M|62.9,71.6|N|This quest should auto-accept in Stormwind City, if not, head to your nearest Hero's Call Board.|Z|Stormwind City|
+A Iron Horde Invasion|QID|36498|M|62.9,71.6|N|This quest should auto-accept in Stormwind City, if not, head to your nearest Hero's Call Board.|Z|Stormwind City|
 C The Dark Portal |QID|34398;36881|N|You have accepted quest [The Dark Portal] for the follow-on to this guide. Drop it or you will not be able to complete any quest after [Iron Horde Invasion].|
 F Shattered Beachhead|QID|36498|N|Use the portal in the mage tower of Stormwind City.|M|49.0,87.2|Z|Stormwind City|ACTIVE|36498|
 f Shattershore|QID|36498|ACTIVE|36498|M|67.64,27.97|N|With Araazi.|
@@ -144,7 +149,7 @@ A Report to the King|QID|36941|N|From Vindicator Maraad.|M|51.94,28.64|
 F Stormwind City|QID|36941|N|Head to the King in Stormwind City. You can use the portal in Shattered Beachhead, or your preferred route to Stormwind City.|ACTIVE|36941|M|66.4,28.0|
 T Report to the King|QID|36941|N|To King Varian Wrynn in Stormwind Keep.|M|85.8,31.7|Z|Stormwind City|
 
-U Iron Starlette|U|111660|N|Add your starlette to your collection. Run the revamped Upper Blackrock Spire while it's tuned for 90's (will be 100 after expansion is released.)|
+U Iron Starlette|U|111660|N|Add your starlette to your collection.|
 
 ]]
 
