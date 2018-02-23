@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2018-02-22 23:09
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3294/revisions/28923/view
 -- Date: 2018-01-17 00:05
 -- Who: Ludovicus
 -- Log: New Levels
@@ -114,7 +119,6 @@ WoWPro:GuideNextGuide(guide, "ScoZul7778")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 --Original guide written/designed by Jame
---Addon Version: Last Modified 7/14/2010
 return [[
 
 F Conquest Hold|QID|12468|N|Fly to Conquest Hold.|M|43.85,16.93|Z|Dragonblight|
@@ -185,7 +189,7 @@ A Jun'ik's Coverup|QID|12177|PRE|12176|M|22.0,65.1|N|From Hidetrader Jun'ik.|
 B Simple Flour|QID|12177|L|30817 5|N|Buy 5 Simple Flour from Provisioner Lorkran.|M|22.6,66.1|
 B Coal|QID|12177|L|3857|N|Buy 1 Coal from Smith Prigka.|M|23.4,63.1|
 A Eyes Above|QID|12453|M|22.5,63.0|N|From Windseer Grayhorn.|
-A Good Troll Hunting|QID|12208|M|22.2,64.7|N|From Sergeant Thurkin.|
+A Good Troll Hunting|QID|12208|LEAD|11984|M|22.2,64.7|N|From Sergeant Thurkin.|
 T Jun'ik's Coverup|QID|12177|M|22.0,65.1|N|To Hidetrader Jun'ik.|
 A Delivery to Krenna|QID|12178|PRE|12177|M|22.0,65.1|N|From Hidetrader Jun'ik.|
 T Delivery to Krenna|QID|12178|M|20.8,64.2|N|To Conqueror Krenna.|
@@ -271,7 +275,7 @@ C The Darkness Beneath|QID|12213|QO|1|U|37173|N|Again, the orb must be used in t
 C Vordrassil's Fall|QID|12207|N|Kill and loot the Entropic Oozes in any of the caves to get the samples.|US|
 
 T Ruuna the Blind|QID|12425|M|44.1,48.0|N|To Ruuna the Blind.|
-A Ruuna's Request |QID|12328|PRE|12161;12425|M|44.0,47.9|N|From Ruuna the Blind.|
+A Ruuna's Request |QID|12328|PRE|12161+12425|M|44.0,47.9|N|From Ruuna the Blind.|
 C Ruuna's Request|QID|12328|N|Head to the area northeast of Grizzlemaw but south of the tower on the world map. Kill the moths here for the Gossamer Dust.|M|53,35|
 C Eyes Above|QID|12453|U|37877|M|43.2,40.7|US|N|Use the Silver Feather on 6 Imperial Eagles.|
 T Ruuna's Request |QID|12328|N|To Ruuna the Blind.|M|44.07,48.01|
@@ -407,9 +411,9 @@ A Drak'aguul's Mallet |QID|12120|PRE|12116|M|73.9,34.1|N|From Kraz.|
 
 N READ THIS|QID|12164|O|N|We're about to attempt a 3 man quest, Hour of the Worg. Some classes, ranged especially (and Death Knights) will be able to solo it, nevertheless if you can get a group it becomes much quicker and less time consuming.|
 R Bloodmoon Isle|QID|12164|O|N|Swim northeast to Bloodmoon Isle.|M|83,28|
-K Selas|QID|12164|O|QO|Selas slain: 1/1|N|Head up the path and to the right, Selas is a worgen in the camp.|M|85.8,27.7|
-K Varlam|QID|12164|O|QO|Varlam slain: 1/1|N|A wolf rider, gead back to the path and further up on the left there's another camp, Varlam is here.|M|85.1,23.4|
-K Goremaw|QID|12164|O|QO|Goremaw slain: 1/1|N|A large wolf; he's on the southern side of the tower.|M|86.9,26.8|
+K Selas|QID|12164|O|QO|2|N|Head up the path and to the right, Selas is a worgen in the camp.|M|85.8,27.7|; Selas slain: 1/1
+K Varlam|QID|12164|O|QO|1|N|A wolf rider, gead back to the path and further up on the left there's another camp, Varlam is here.|M|85.1,23.4|; Varlam slain: 1/1
+K Goremaw|QID|12164|O|QO|3|N|A large wolf; he's on the southern side of the tower.|M|86.9,26.8|; Goremaw slain: 1/1
 C Hour of the Worg|QID|12164|O|N|Arugal is on top of the tower. He has 4 phases. Phase one he shadowbolts for ~1500 damage. At 75% HP, he goes into P2, summoning 3 adds. Kill them to return to P1, which lasts until 50%. Then he'll MC someone, who you bring down to 35%, then he goes back to P1. At 25%, he repeats P2, except with 9 adds. Sasha helps in the final phase. If you're ranged, you can probably kill him by LoSing his shadowbolts, if you're far enough down the adds won't aggro on you, but will despawn instead. Good luck!|M|87.5,26.5|
 T Hour of the Worg|QID|12164|O|M|64.9,43.5;87.2,25.6|CS|N|To Sasha. If she despawns before you can turn the quest in, you can find her back where you accepted the quest at.|
 
