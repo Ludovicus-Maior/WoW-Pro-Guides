@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2018-02-20 01:57
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Eversong
+
+-- URL: http://wow-pro.com/node/3207/revisions/29072/view
+-- Date: 2018-02-20 01:50
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Suntrider
+
+-- URL: http://wow-pro.com/node/3207/revisions/28904/view
 -- Date: 2018-01-16 23:54
 -- Who: Ludovicus
 -- Log: New Levels
@@ -250,14 +260,6 @@
 -- Who: Crackerhead22
 -- Log: Changed |R|Blood Elf| to |R|BloodElf| so the Blood Elf only quests will show.
 
--- URL: http://wow-pro.com/node/3207/revisions/23321/view
--- Date: 2010-12-03 08:10
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3207/revisions/23289/view
--- Date: 2010-12-03 07:13
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("SnoSun0105", "Leveling", "Sunstrider Isle", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,1,5, 1.78882)
 WoWPro:GuideNextGuide(guide, "SnoEve0512")
@@ -319,7 +321,7 @@ T Tainted Arcane Sliver |QID|8338|R|BloodElf|M|58.45,38.78|N|To Arcanist Helion.
 r Repair/Sell |QID|8335|R|BloodElf|M|58.39,39.06|N|Sell any unwanted items you may have, and repair your gear. Close step to continue.|
 T Felendren the Banished |QID|8335|R|BloodElf|M|52.88,49.80|N|To Lanthan Perilon.|
 
-A Aiding the Outrunners |QID|8347|PRE|8335|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
+A Aiding the Outrunners |QID|8347|LEAD|9704|PRE|8335|R|BloodElf|M|52.88,49.80|N|From Lanthan Perilon.|
 T Aiding the Outrunners |QID|8347|R|BloodElf|M|40.4,32.2|N|To Outrunner Alarion.|Z|Eversong Woods|
 A Slain by the Wretched |QID|9704|R|BloodElf|M|68.37,79.58|N|From Outrunner Alarion.|Z|Eversong Woods|
 
