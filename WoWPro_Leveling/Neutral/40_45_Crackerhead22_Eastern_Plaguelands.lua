@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2018-02-22 23:44
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3251/revisions/28861/view
 -- Date: 2018-01-16 23:29
 -- Who: Ludovicus
 -- Log: New Levels
@@ -188,7 +193,7 @@ T Warchief's Command: Eastern Plaguelands!|QID|28577|M|9.02,66.52|N|To Fiona.|AC
 ;You can do both Hero's Call/Warchief's Command AND Into the Woods! so this allows that combination.
 f Thondroril River|QID|27367|M|10.02,65.70|N|Get flightpoint with Frax Bucketdrop.|PRE|28577+28578+27684|RANK|3|
 F The Menders' Stead|QID|27683|M|42.8,85|N|Fly to The Menders' Stead in Western Plaguelands.\n\nThis is a Rank 3 step for an extra quest that involves a flight to The Mender's Stead, pick up a quest, then fly back here to Thondroril River. If you don't want the achievement Loremaster, or the extra 435 XP and 5 silver, then skip this and the Accept In the Woods quest.|PRE|28577+28578+27684|RANK|3|
-A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.\n\nIf you skipped the flying to The Menders' Stead, then skip this step as well.|PRE|28577+28578+27684|RANK|3|
+A Into the Woods|QID|27683|LEAD|27367|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.\n\nIf you skipped the flying to The Menders' Stead, then skip this step as well.|RANK|3|
 F Thondroril River |QID|27683|M|50.5,52.2|Z|Western Plaguelands|N|Fly back to Thondroril River.|ACTIVE|27683|PRE|28577+28578+27684|RANK|3|
 T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|ACTIVE|27683|PRE|28577+28578+27684|RANK|3|
 
@@ -201,7 +206,7 @@ F The Menders' Stead|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Head to The Men
 
 ;Option 4 - Nothing pre-obtained, so give The Into the Woods questline
 F The Menders' Stead|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Head to The Mender's Stead in Western Plaguelands.|LEAD|28577;28578;27684|
-A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.|LEAD|28577;28578;27684|
+A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.|LEAD|27367|
 R Thondroril River |QID|27683|M|9.02,66.52|N|Run east along the road to Thondroril River, then cross the bridge and into Eastern Plaguelands.\n\nIf you have previously been to Eastern Plaguelands and obtained the flightpoint, or if you have a flying mount, you can fly there instead of running.|ACTIVE|27683|LEAD|28577;28578;27684|
 T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|ACTIVE|27683|
 
@@ -275,7 +280,7 @@ A Villains of Darrowshire|QID|27387|PRE|27386|M|35.18,68.02|N|From Chromie.|RANK
 A Heroes of Darrowshire|QID|27388|PRE|27386|M|35.18,68.02|N|From Chromie.|US|
 A Marauders of Darrowshire|QID|27389|PRE|27386|M|35.18,68.02|N|From Chromie.|US|RANK|2|
 
-A Cenarion Tenacity|QID|27544|PRE|27386|M|34.93,68.32|N|From Urk Gagbaz.|RANK|2|
+A Cenarion Tenacity|QID|27544|LEAD|27420|PRE|27386|M|34.93,68.32|N|From Urk Gagbaz.|RANK|2|
 C Heroes of Darrowshire - extended Annals of Darrowshire|QID|27388|L|13202|M|35.57,68.89|N|Speak to Carl Redpath and ask for the extended Annals of Darrowshire.|QO|1|CHAT|RANK|2|
 
 C Rough Roads|QID|27382|M|41.30,71.09|N|Kill any Plaguebats you need.|S|
@@ -333,7 +338,7 @@ l Living Rot|QID|27451|N|Gather 7 pieces of "Living Rot" from the undead.|L|1544
 C To Kill With Purpose|QID|27451|M|55,64|N|Use the "Mortar and Pestle" once you have 7 "Living Rot".|U|15454|
 t Dark Garb|QID|27452|M|54.28,63.03|N|(UI Alert)|
 T To Kill With Purpose|QID|27451|M|55,64|N|(UI Alert)|
-A Catalysm|QID|27453|PRE|27451|M|54.28,63.03|N|(UI Alert)|
+A Catalysm|QID|27453|PRE|27451;27452|M|54.28,63.03|N|(UI Alert)|
 C Catalysm|QID|27453|U|61284|M|58.44,75.55|N|Use the flask on Plague Ravager and Blighted Surge in Lake Meledar. They have to be alive, and you need to be right next to them when you use the flask. This may need some creative thinking ranged classes.|
 T Catalysm|QID|27453|M|58.48,74.34|N|(UI Alert)|
 A Just a Drop in the Bucket|QID|27454|PRE|27453|M|58.48,74.34|N|(UI Alert)|
@@ -456,7 +461,7 @@ T Wretched Hive of Scum and Villainy|QID|27521|M|50.12,19.60|N|To Kirkian Dawnsh
 C Beat it Out of Them|QID|27522|M|54.18,16.46|N|Beat the 6 Scourge Siege Engineers and the quest will complete.|
 T Beat it Out of Them|QID|27522|M|50.48,20.19|N|To Fiona.|
 A Blind Fury|QID|27524|PRE|27522|M|50.48,20.19|N|From Fiona.|
-A The Plaguewood Tower|QID|27532|PRE|27522|LVL|41|M|50.48,20.26|N|From Argus Highbeacon.|
+A The Plaguewood Tower|QID|27532|LEAD|27531|PRE|27522|LVL|41|M|50.48,20.26|N|From Argus Highbeacon.|
 
 R Plaguewood|ACTIVE|27524|M|48.97,29.94;42.31,27.54|CS|N|Mount up and head to Plaguewood|
 T Blind Fury|QID|27524|M|27.58,21.14|N|To Tarenar Sunstrike.|
@@ -491,7 +496,7 @@ R Plaguewood Tower|QID|27530|M|18.51,27.32|N|Run to Plaguewood Tower.|
 f Plaguewood Tower|QID|27530|M|18.51,27.32|N|At William Kielar Jr..|
 T The Plaguewood Tower|QID|27532|M|17.67,27.74|N|To Argent Apothecary Judkins.|
 A Counter-Plague Research|QID|27531|LVL|41|M|17.67,27.74|N|From Argent Apothecary Judkins.|
-A Just a Little Touched|QID|27535|LVL|41|M|17.67,27.74|N|From Argent Apothecary Judkins.|
+A Just a Little Touched|QID|27535|LEAD|27533|LVL|41|M|17.67,27.74|N|From Argent Apothecary Judkins.|
 T Just a Little Touched|QID|27535|M|11.43,28.73|N|To Augustus the Touched.|
 A A Fate Worse Than Butchery|QID|27533|M|11.43,28.73|N|From Augustus the Touched.|
 A Augustus' Receipt Book|QID|27534|M|11.43,28.73|N|From Augustus the Touched.|
@@ -504,7 +509,7 @@ C Counter-Plague Research|QID|27531|M|25.09,34.66|N|The berries are small green 
 T Counter-Plague Research|QID|27531|M|17.81,27.86|N|To Argent Apothecary Judkins.|
 T Journey's End|QID|27527|U|61379|M|73.83,52.16|N|To Fiona. Use "Gidwin's Hearthstone" to save your own.|
 ;F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc. Close this step when done.|FACTION|Alliance|
-A Fuselight, Ho!|QID|27762|M|73.78,53.05|N|From Gek Nozzlerocket. Pick this up if you'd like to head to the Badlands next!|FACTION|Horde|
+A Fuselight, Ho!|QID|27762|LEAD|27763|M|73.78,53.05|N|From Gek Nozzlerocket. Pick this up if you'd like to head to the Badlands next!|FACTION|Horde|
 T Fuselight, Ho!|QID|27762|O|M|73.78,53.05|N|Hop on the rocket near the quest giver. When you land, turn-in to Eddie Flofizzle.|FACTION|Horde|
 
 ]]
