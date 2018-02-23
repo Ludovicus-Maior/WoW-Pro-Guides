@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_horde
+-- Date: 2018-02-22 23:09
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3300/revisions/28924/view
 -- Date: 2018-01-17 00:05
 -- Who: Ludovicus
 -- Log: New Levels
@@ -468,7 +473,7 @@ C Norgannon's Shell |QID|12928|N|Use the Charged Disk at SCRAP-E. Kill the Archi
 T Norgannon's Shell |QID|12928|U|40971|N|To Brann (Use the Communicator)|
 
 A Going After the Core |QID|13273|PRE|12928|N|From Brann (Use the Communicator)|
-A The Earthen of Ulduar |QID|12929|PRE|12928|N|From Brann (Use the Communicator)|
+A The Earthen of Ulduar |QID|12929|LEAD|12930|PRE|12928|N|From Brann (Use the Communicator)|
 F Brann's Base-Camp |QID|13273|N|. You can take the Flight Path to Camp Tunka'lo and fly down from there, if you want to.|M|59.23,51.56|
 C Going After the Core |QID|13273|QO|1|N|Prospector Khrona's Notes. South side of the camp.|M|59.82,52.55|
 C Going After the Core |QID|13273|QO|2|N|Prospectors Soren's Notes. Middle of the camp near the fire.|M|59.24,51.41|
