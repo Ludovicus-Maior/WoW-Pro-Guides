@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2018-02-20 01:07
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3244/revisions/29028/view
 -- Date: 2018-02-19 23:35
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -341,7 +346,7 @@ T Taelan Fordring's Legacy|QID|27151|M|54.99,24.73|N|(UI Alert)|
 
 A Unusual Behavior... Even For Gnolls|QID|27152|PRE|27151|M|54.99,24.73|N|(UI Alert)|
 R Unusual Behavior... Even For Gnolls|QID|27152|NC|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Follow the arrows up the path to investigate the Gnoll Camp.|QO|Gnoll camp investigated|
-C Unusual Behavior... Even For Gnolls|QID|27152|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Kill Moldfang.|QO|Moldfang slain: 1/1|T|Moldfang|
+C Unusual Behavior... Even For Gnolls|QID|27152|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Kill Moldfang.|QO|1|T|Moldfang|; Moldfang slain: 1/1
 T Unusual Behavior... Even For Gnolls|QID|27152|M|57.28,35.71|N|(UI Alert)|
 
 A The Good People of Hearthglen|QID|27153|PRE|27152|M|57.28,35.71|N|(UI Alert)|
@@ -371,8 +376,8 @@ C Gahrron's Withering Cauldron|QID|27053|M|62.71,59.17|N|Kill the Cauldron Lord 
 T Gahrron's Withering Cauldron|QID|27053|M|62.58,58.62|N|At the Scourge Cauldron.|
 
 A Return to the Stead|QID|27057|PRE|27053|M|62.58,58.62|N|From the Scourge Cauldron.|
-C Memories from a Lost Past|QID|27017|NC|M|64.88,59.32|CS|N|Collect the Painting, which is hanging over the fireplace downstairs.|QO|Faded Finger Painting: 1/1|
-C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43|CS|N|Collect the Prayer Book, which can be found upstairs.|QO|Gahrron Prayer Book: 1/1|
+C Memories from a Lost Past|QID|27017|NC|M|64.88,59.32|CS|N|Collect the Painting, which is hanging over the fireplace downstairs.|QO|2|; Faded Finger Painting: 1/1
+C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43|CS|N|Collect the Prayer Book, which can be found upstairs.|QO|1|; Gahrron Prayer Book: 1/1
 
 T Return to the Stead|QID|27057|M|49.32,54.76|N|To Field Agent Kaartish.|
 A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
