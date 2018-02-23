@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-02-20 01:51
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Durotar
+
+-- URL: http://wow-pro.com/node/3199/revisions/29070/view
+-- Date: 2018-02-20 01:48
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Trials
+
+-- URL: http://wow-pro.com/node/3199/revisions/29068/view
+-- Date: 2018-02-20 01:45
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Echo
+
+-- URL: http://wow-pro.com/node/3199/revisions/28871/view
 -- Date: 2018-01-16 23:34
 -- Who: Ludovicus
 -- Log: New Levels
@@ -274,21 +289,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Changed some CN to CS so they clean up right.  Made things safe for goblins.
 
--- URL: http://wow-pro.com/node/3199/revisions/25515/view
--- Date: 2013-01-28 12:41
--- Who: Crackerhead22
--- Log: Minor edits for normal Durotar area.
-
--- URL: http://wow-pro.com/node/3199/revisions/25504/view
--- Date: 2013-01-23 14:49
--- Who: Crackerhead22
--- Log: Added in Monk steps for Echo Isles.
-
--- URL: http://wow-pro.com/node/3199/revisions/25463/view
--- Date: 2013-01-13 19:07
--- Who: Ludovicus_Maior
--- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"
-
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.05357)
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
@@ -349,7 +349,7 @@ T The Basics: Hitting Things|QID|24777|C|Hunter|M|56.37,50.08|N|To Ortezza.|
 
 A A Rough Start|QID|31160|PRE|31158|C|Monk|M|52.57,51.86|N|From Zabrax.|
 A A Rough Start|QID|24767|PRE|24765|C|Druid|M|58.13,54.14|N|From Zen'tabra.|
-A A Rough Start|QID|24753|PRE|24721|C|Mage|M|59.68,52.10|N|From Soratha.|
+A A Rough Start|QID|24753|PRE|24751|C|Mage|M|59.68,52.10|N|From Soratha.|
 A A Rough Start|QID|24773|PRE|24771|C|Rogue|M|52.89,49.90|N|From Legati.|
 A A Rough Start|QID|24641|PRE|24639|C|Warrior|M|52.54,53.65|N|From Nortet.|
 A A Rough Start|QID|26275|PRE|26273|C|Warlock|M|50.02,49.96|N|From Voldreka.|
@@ -419,15 +419,15 @@ T Proving Pit|QID|24780|C|Hunter|M|57.22,50.78|N|To Ortezza.|
 
 L Level 3 |QID|31162;24766;24752;24772;24640;26274;24784;24760;24778|LVL|3|N|You need to be Level 3 to continue with this guide.|
 
-A More Than Expected|QID|31163|PRE|31162|C|Monk|M|52.56,51.84|N|From Zabrax.|
-A More Than Expected|QID|24769|PRE|24766|C|Druid|M|58.04,53.82|N|From Zen'tabra.|
-A More Than Expected|QID|24755|PRE|24752|C|Mage|M|59.68,52.10|N|From Soratha.|
-A More Than Expected|QID|24775|PRE|24772|C|Rogue|M|52.89,49.90|N|From Legati.|
-A More Than Expected|QID|24643|PRE|24640|C|Warrior|M|52.62,53.59|N|From Nortet.|
-A More Than Expected|QID|26277|PRE|26274|C|Warlock|M|50.02,49.96|N|From Voldreka.|
+A More Than Expected|QID|31163|PRE|31161|C|Monk|M|52.56,51.84|N|From Zabrax.|
+A More Than Expected|QID|24769|PRE|24768|C|Druid|M|58.04,53.82|N|From Zen'tabra.|
+A More Than Expected|QID|24755|PRE|24754|C|Mage|M|59.68,52.10|N|From Soratha.|
+A More Than Expected|QID|24775|PRE|24774|C|Rogue|M|52.89,49.90|N|From Legati.|
+A More Than Expected|QID|24643|PRE|24642|C|Warrior|M|52.62,53.59|N|From Nortet.|
+A More Than Expected|QID|26277|PRE|26276|C|Warlock|M|50.02,49.96|N|From Voldreka.|
 A More Than Expected|QID|24787|PRE|24784|C|Priest|M|58.04,49.26|N|From Tunari.|
-A More Than Expected|QID|24763|PRE|24760|C|Shaman|M|50.08,52.74|N|From Nekali.|
-A More Than Expected|QID|24781|PRE|24778|C|Hunter|M|56.37,50.08|N|From Ortezza.|
+A More Than Expected|QID|24763|PRE|24762|C|Shaman|M|50.08,52.74|N|From Nekali.|
+A More Than Expected|QID|24781|PRE|24780|C|Hunter|M|56.37,50.08|N|From Ortezza.|
 
 T More Than Expected|QID|31163|C|Monk|M|61.57,65.85|N|To Vol'jin.|
 T More Than Expected|QID|24769|C|Druid|M|61.57,65.85|N|To Vol'jin.|
@@ -478,7 +478,7 @@ C Mercy for the Lost|QID|24624|US|M|34.59,66.26|N|Finish killing the Corrupted B
 T Saving the Young|QID|24623|M|45.58,85.11|N|To Kijara.|
 T Mercy for the Lost|QID|24624|M|45.72,85.00|N|To Tegashi.|
 T Consort of the Sea Witch|QID|24625|M|45.72,85.00|N|To Tegashi.|
-A Young and Vicious|QID|24626|PRE|24625|M|45.58,85.11|N|From Kijara.|
+A Young and Vicious|QID|24626|PRE|24623;24624;24625|M|45.58,85.11|N|From Kijara.|
 
 C Young and Vicious|QID|24626|T|Swiftclaw|U|50053|M|48.32,62.22|N|Use the Bloodtalon Lasso to capture Swiftclaw. If he does not immediately spawn after you take the quest, abandon it and re-acquire it from Kijara.|QO|1|NC|
 C Young and Vicious|QID|24626|T|Swiftclaw|U|50053|M|53.18,64.74|N|Ride him to the raptor pens near Darkspear Hold.|QO|2|NC|
@@ -498,7 +498,7 @@ C No More Mercy|QID|24812|M|63.49,11.38|N|Finish killing the Spitescale Naga.|US
 
 T No More Mercy|QID|24812|M|58.90,23.08|N|To Morakki.|
 T Territorial Fetish|QID|24813|PRE|24812|M|58.90,23.08|N|To Morakki.|
-A An Ancient Enemy|QID|24814|PRE|24813|M|58.90,23.08|N|From Morakki.|
+A An Ancient Enemy|QID|24814|PRE|24812;24813|M|58.90,23.08|N|From Morakki.|
 
 ; The waypoint arrow points towards the cave. A new player may not know that this is on top of the cave and not inside.
 C An Ancient Enemy|QID|24814|M|62.85,23.92;62.23,18.00|CC|N|Follow the waypoints to Vol'jin, who is on top of the cave, then tell him you're ready.|CHAT|QO|1|
@@ -506,7 +506,7 @@ C An Ancient Enemy|QID|24814|M|60.29,16.97|N|Wait for Zar'jira, the Sea Witch to
 R Darkspear Hold|QID|24814|M|61.37,16.19|N|Wait for the dialog to finish, then speak with Vanira for a teleport back to Darkspear Hold.|ACTIVE|24814|CHAT|
 
 T An Ancient Enemy|QID|24814|M|61.57,65.85|N|To Vol'jin.|
-A Sen'jin Village|QID|25073|PRE|24814|M|61.57,65.85|N|From Vol'jin.|
+A Sen'jin Village|QID|25073|LEAD|25167|PRE|24814|M|61.57,65.85|N|From Vol'jin.|
 T Sen'jin Village|QID|25073|M|55.95,74.72|Z|Durotar|N|To Master Gadrin.|
 
 N Are you sure? |QID|1|LEAD|25073|N|Are you sure you want to skip this guide totally? You can't skip any quests on Echo Isles. This action will lead you out of Echo Isles and onto Durotar.|
