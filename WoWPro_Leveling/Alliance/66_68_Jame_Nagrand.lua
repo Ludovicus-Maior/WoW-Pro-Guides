@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2018-02-20 01:17
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3279/revisions/28900/view
 -- Date: 2018-01-16 23:51
 -- Who: Ludovicus
 -- Log: New Levels
@@ -149,7 +154,7 @@ R Nagrand|QID|9792|N|Go to Nagrand.|M|20.30,55.60|
 A I Must Have Them! |QID|10109|M|61.7,67.1|N|From Wazat.|
 N From now on...|QID|9861|N|From now on, kill Air Elementals until you get the Howling Wind, and kill Wild Elekks (you will need 3 Pairs of Ivory Tusks for a quest).|
 A Do My Eyes Deceive Me |QID|9917|M|55.0,70.5|N|From Huntress Bintook.|
-A The Nesingwary Safari |QID|10113|M|54.98,70.47|N|From "Shotgun" Jones.|
+A The Nesingwary Safari |QID|10113|LEAD|9857|M|54.98,70.47|N|From "Shotgun" Jones.|
 A Fierce Enemies |QID|10476|M|54.8,71.0|N|From Warden Moi'bff Jill.|
 A Wanted: Giselda the Crone|QID|9936|M|54.65,70.80|N|From the Telaar Bulletin Board.|
 A Wanted: Zorbo the Advisor|QID|9940|M|54.65,70.80|N|From the Telaar Bulletin Board.|
@@ -228,7 +233,7 @@ A The Twin Clefts of Nagrand|QID|9922|PRE|9921|M|54.5,72.2|N|From Mo'mor the Bre
 A He Called Himself Altruis...|QID|9982|N|From Huntress Kima.  She wanders around Telaar.|M|53.54,72|
 
 N Sell junk, repair, restock |QID|9800|N|Do not sell Ogre Warbeads or Ivory Tusks. Sell junk, repair, restock.|M|53.25,70|
-A The Consortium Needs You! |QID|9913|N|From Consortium Recruiter.|M|51.18,69.83|
+A The Consortium Needs You! |QID|9913|LEAD|9882|N|From Consortium Recruiter.|M|51.18,69.83|
 N From now on... |QID|9871|N|If you see any Murkblood Invaders kill them until you get the Murkblood Invasion Plans. They wander the road west of Telaar.|
 C Windroc Mastery|N|Kill the Windrocs needed for this quest.|QID|9855|M|49.00,62.00|
 C A Rare Bean |N|Collect Digested Caracoli off the ground from the dung piles, until you finish this quest.|QID|9800|M|50.00,30.00|S|
@@ -253,9 +258,9 @@ T Clefthoof Mastery |QID|9850|M|71.55,40.76|N|To Hemet Nesingwary.|
 A Clefthoof Mastery |QID|9851|PRE|9850|M|71.55,40.76|N|From Hemet Nesingwary.|
 T Windroc Mastery |QID|9855|M|71.55,40.54|N|To Shado 'Fitz' Farstrider.|
 A Windroc Mastery |QID|9856|PRE|9855|M|71.55,40.54|N|From Shado 'Fitz' Farstrider.|
-U Large Hut|QID|9805|M|72.36,50.49|U|24467|N|Go inside the hut and use the Living Fire.|QO|Large Hut Destroyed: 1/1|
-U Western Hut|QID|9805|M|70.75,51.14|U|24467|N|Go inside the hut and use the Living Fire.|QO|Western Hut Destroyed: 1/1|
-U Southern Hut|QID|9805|M|71.46,52.95|U|24467|N|Go inside the hut and use the Living Fire.|QO|Southern Hut Destroyed: 1/1|
+U Large Hut|QID|9805|M|72.36,50.49|U|24467|N|Go inside the hut and use the Living Fire.|QO|1|; Large Hut Destroyed: 1/1
+U Western Hut|QID|9805|M|70.75,51.14|U|24467|N|Go inside the hut and use the Living Fire.|QO|3|; Western Hut Destroyed: 1/1
+U Southern Hut|QID|9805|M|71.46,52.95|U|24467|N|Go inside the hut and use the Living Fire.|QO|3|; Southern Hut Destroyed: 1/1
 C Blessing of Incineratus|QID|9805|M|72.72,54.65|N|Go inside the hut and use the Living Fire.|U|24467|
 T Blessing of Incineratus|QID|9805|M|60.5,22.4|N|To Elementalist Lo'ap.|
 A The Spirit Polluted |QID|9810|PRE|9805|M|60.5,22.4|N|From Elementalist Lo'ap.|
@@ -280,7 +285,7 @@ C Stopping the Spread |N|Use the torch on the rest of the corpses for this quest
 N From now on... |N|From now on, kill Aged Clefthoofs and Greater Windrocs for the quest "Vision of the Dead" |
 K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|L|24523|S|
 T He Called Himself Altruis...|QID|9982|M|27.29,43.1|N|To Altruis the Sufferer.|
-A Survey the Land |QID|9991|PRE|9982;9983|M|27.29,43.1|N|To Altruis the Sufferer.|
+A Survey the Land |QID|9991|PRE|9982+9983|M|27.29,43.1|N|To Altruis the Sufferer.|
 C Survey the Land |N|Make sure you are not mounted when you accept this quest (or abandon it and re-accept it).  You should fly around automatically.|QID|9991|M|27.29,43.1|
 T Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
 A Buying Time|QID|9999|PRE|9991|M|27.35,43.06|N|From Altruis the Sufferer.|
@@ -305,10 +310,10 @@ l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
 C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|REP|The Consortium;933;Neutral|
 C Clefthoof Mastery|N|Kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
-K Gava'xi |N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
+K Gava'xi |N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|1|; Gava'xi slain: 1/1
 C Shattering the Veil |N|Use Gordawg's Boulder on Shattered Rumblers in this area and kill the Minions until you finish this quest.|QID|9849|M|38.00,82.00|U|24501|
 T The Twin Clefts of Nagrand|QID|9922|M|54.5,72.2|N|To Mo'mor the Breaker.|
-A Diplomatic Measures |QID|10108|PRE|9922|M|54.5,72.2|N|From Mo'mor the Breaker.|
+A Diplomatic Measures |QID|10108|LEAD|9928|PRE|9922|M|54.5,72.2|N|From Mo'mor the Breaker.|
 T Stopping the Spread|QID|9874|M|54.5,72|N|To Otonbu the Sage.|
 T Solving the Problem|QID|9878|M|54.4,72.32|N|To Poli'lukuk the Wiser.|
 T Fierce Enemies|QID|10476|M|54.79,70.87|N|To Warden Moi'bff Jill.|
@@ -324,7 +329,7 @@ A Armaments for Deception |QID|9928|M|73.8,62.6|N|From Lantressor of the Blade.|
 A Ruthless Cunning |QID|9927|M|73.8,62.6|N|From Lantressor of the Blade.|
 C Ruthless Cunning |N|Plant the banners on the mob corpses for this quest.|QID|9927|M|71.4,79.4|S|
 C Armaments for Deception |N|Loot the boxes for this quest.|QID|9928|M|71.4,79.4|S|
-K Giselda the Crone |N|Kill Giselda the Crone in center the large building.|QID|9936|M|71.14,92.31|QO|Giselda the Crone slain: 1/1|
+K Giselda the Crone |N|Kill Giselda the Crone in center the large building.|QID|9936|M|71.14,92.31|QO|1|; Giselda the Crone slain: 1/1
 C Wanted: Giselda the Crone|QID|9936|N|Kill the rest of the Kil'sorrow agents needed.|M|70.52,79.2|
 C Ruthless Cunning |N|Plant the rest of the banners on the mob corpses for this quest.|QID|9927|M|71.4,79.4|US|
 C Armaments for Deception |N|Loot the rest of the boxes for this quest.|QID|9928|M|71.4,79.4|US|
@@ -341,7 +346,7 @@ T Murkblood Corrupters |QID|9862|M|60.5,22.4|N|To Ementalist Morgh.|
 C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest.|QID|9931|M|50.00,22.00|U|25555|S|
 C Wanted: Zorbo the Advisor|N|Kill Warmaul Shamans and Reavers in the area.|QID|9940|M|46.11,19.00|S|
 C Body of Evidence |N|Use the Damp Woolen Blanket here and defend the NPCs.|QID|9932|M|46.45,24.35|
-K Zorbo the Advisor|N|Kill Zorbo inside the cave.|QID|9940|M|46.22,18.83|QO|Zorbo the Advisor slain: 1/1|
+K Zorbo the Advisor|N|Kill Zorbo inside the cave.|QID|9940|M|46.22,18.83|QO|1|; Zorbo the Advisor slain: 1/1
 C Wanted: Zorbo the Advisor|N|Kill Warmaul Shamans and Reavers in the area.|QID|9940|M|46.00,23.00|US|
 C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest. |QID|9931|M|50.00,22.00|U|25555|US|
 
@@ -396,8 +401,8 @@ A Patience and Understanding|QID|10004|PRE|10001|M|27.33,43.07|N|From Altruis th
 C Patience and Understanding|QID|10004|NC|M|77.23,34.70|Z|Shattrath City|N|Head to Shattrath, talk to Sal'salabim and get him low in health.|
 T Patience and Understanding|QID|10004|M|77.23,34.70|Z|Shattrath City|N|To Sal'salabim.|
 A Crackin' Some Skulls|QID|10009|PRE|10004|M|77.23,34.70|Z|Shattrath City|N|From Sal'salabim.|
-l Raliq's Debt|QID|10009|QO|Raliq's Debt: 1/1|M|75.02,31.46|Z|Shattrath City|N|Talk to Raliq the Drunk, kill then loot him for his debt.|
-l Coosh'coosh's Debt|QID|10009|QO|Coosh'coosh's Debt: 1/1|M|80.89,91.22|Z|Zangarmarsh|N|Talk to Coosh'coosh, kill then loot him for his debt.|
+l Raliq's Debt|QID|10009|QO|1|M|75.02,31.46|Z|Shattrath City|N|Talk to Raliq the Drunk, kill then loot him for his debt.|; Raliq's Debt: 1/1
+l Coosh'coosh's Debt|QID|10009|QO|2|M|80.89,91.22|Z|Zangarmarsh|N|Talk to Coosh'coosh, kill then loot him for his debt.|; Coosh'coosh's Debt: 1/1
 C Crackin' Some Skulls|QID|10009|M|27.13,57.87|Z|Terokkar Forest|N|Talk to Floon, kill then loot him for his debt.|
 T Crackin' Some Skulls|QID|10009|M|77.23,34.70|Z|Shattrath City|N|To Sal'salabim.|
 A It's Just That Easy?|QID|10010|PRE|10009|M|77.23,34.70|Z|Shattrath City|N|From Sal'salabim.|
@@ -410,9 +415,9 @@ C Forge Camp: Annihilated|QID|10011|U|25771|M|19.31,50.86|N|Use the Fel Cannon A
 T Forge Camp: Annihilated|QID|10011|M|27.32,43.07|N|To Altruis the Sufferer.|
 
 N The rest...|N|The following quests Altruis gives (after this note), have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
-A Against the Legion|QID|10641|PRE|10640;10689|M|27.35,43.06|N|From Altruis the Sufferer.|
-A Against the Illidari|QID|10668|PRE|10640;10689|M|27.35,43.06|N|From Altruis the Sufferer.|
-A Against All Odds|QID|10669|PRE|10640;10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against the Legion|QID|10641|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against the Illidari|QID|10668|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against All Odds|QID|10669|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Against All Odds|QID|10669|M|15,41|Z|Zangarmarsh|N|Go the waypoint, find the portal, and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
 l Freshly Drawn Blood|QID|10641|Z|Netherstorm|M|40,20|N|Head to Netherstorm then to the waypoint. Kill and loot a Wrath Priestess to get the blood.|L|30850|
 C Against the Legion|QID|10641|M|40,20|Z|Netherstorm|N|Use the Freshly Drawn Blood to lure out the Avatar of Sathal and slay her.|U|30850|
