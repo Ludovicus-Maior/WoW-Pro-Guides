@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2018-02-20 21:54
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3268/revisions/28895/view
 -- Date: 2018-01-16 23:46
 -- Who: Ludovicus
 -- Log: New Levels
@@ -149,7 +154,7 @@ C A Bloodmage's Gotta Eat Too|QID|25690|M|54.89,37.68|N|Kill boars for their mea
 
 T A Bloodmage's Gotta Eat Too|QID|25690|M|41.52,31.91;39.28,36.18|CS|N|To Bloodmage Drazial. Remember to use the blood stone to get to them easily.|
 T The First Step|QID|25685|M|39.25,36.22|N|To Bloodmage Lynnore.|
-A Blood Ritual|QID|25686|PRE|25685|M|39.25,36.22|N|From Bloodmage Lynnore.|
+A Blood Ritual|QID|25686|PRE|25685;25690|M|39.25,36.22|N|From Bloodmage Lynnore.|
 C Blood Ritual|NC|QID|25686|M|39.20,36.28|N|Talk to the bloodmage.|
 T Blood Ritual|QID|25686|M|39.18,36.28|N|To Bloodmage Lynnore.|
 A Not Just Any Body|QID|25687|PRE|25686|M|39.18,36.28|N|From Bloodmage Lynnore.|
@@ -193,7 +198,7 @@ C Ogre Combat|QID|25675|M|44.87,39.32|US|N|Finish killing any ogres you still ne
 C The Amulet of Allistarj|NC|QID|25697|M|60.92,29.30;61.61,26.85|CS|N|Enter the cave, the amulet is in a chest not too far in.|
 C The Amulet of Grol|QID|25699|M|71.11,35.38|N|Loot the pile of skulls. Grol's spirit will attack - defeat him and loot the amulet.|
 C The Amulet of Sevine|NC|QID|25698|M|73.16,47.51|N|Talk to Salt-Flop and ask him for the amulet.|
-A Home... Gone... Naga...|QID|25702|M|73.16,47.51|N|From Salt-Flop.|
+A Home... Gone... Naga...|QID|25702|LEAD|25703|M|73.16,47.51|N|From Salt-Flop.|
 T Home... Gone... Naga...|QID|25702|M|71.02,59.95|N|To Neptool.|
 A Atrocities|QID|25703|PRE|25702|M|71.02,59.95|N|From Neptool.|
 C Atrocities|QID|25703|M|71.91,62.12|N|Kill the nearby naga.|
