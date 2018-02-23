@@ -24,7 +24,7 @@ WoWPro.Leveling.StartGuides = {
 WoWPro.Leveling.AlliedStartGuides = {
 			VoidElf = "LudoTelogrus",
 			LightforgedDraenei = "LudoLightforged",
-			HighmountainTauren = "LudoHighmountain",
+			HighmountainTauren = "LudoHighTauren",
 			Nightborne = "LudoNightborne"
 		}
 
