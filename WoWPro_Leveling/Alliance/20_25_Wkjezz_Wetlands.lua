@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2018-02-20 01:00
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3224/revisions/29020/view
 -- Date: 2018-02-19 23:27
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -214,7 +219,7 @@ T When Life Gives You Crabs|QID|25800|M|11.18,57.85|N|To Karl Boran.|
 
 A Claws from the Deep|QID|25801|M|11.18,57.85|N|From Karl Boran.|PRE|25800|
 A Reclaiming Goods|QID|25802|M|11.18,57.85|N|From Karl Boran.|PRE|25800|
-C Claws from the Deep|QID|25801|S|QO|Bluegill Murloc slain: 12/12|M|8.33,58.56|N|Kill Murlocs as you travel.|
+C Claws from the Deep|QID|25801|S|QO|1|M|8.33,58.56|N|Kill Murlocs as you travel.|; Bluegill Murloc slain: 12/12
 T Reclaiming Goods|QID|25802|M|13.53,41.48|N|To the Damaged Crate.|
 
 A The Search Continues|QID|25803|M|13.53,41.48|N|From the Damaged Crate.|PRE|25802|
@@ -223,7 +228,7 @@ A Search More Hovels|QID|25804|M|13.66,38.26|N|From the Sealed Barrel.|PRE|25803
 K Gobbler|QID|25801|L|3618 |M|14.43,37.44|N|Kill and loot Gobbler.|
 T Search More Hovels|QID|25804|M|13.93,34.90|N|To the Half-Buried Barrel|
 A Return the Statuette|QID|25805|M|13.93,34.90|N|From the Half-Buried Barrel|PRE|25804|
-C Claws from the Deep|QID|25801|QO|Bluegill Murloc slain: 12/12|M|15.13,31.76|N|Finish killing Murlocs.|US|
+C Claws from the Deep|QID|25801|QO|1|M|15.13,31.76|N|Finish killing Murlocs.|US|; Bluegill Murloc slain: 12/12
 T Cursed to Roam|QID|25816|M|15.25,29.48|N|To First Mate Snellig.|LVL|20|
 
 A The Cursed Crew|QID|25817|M|15.25,29.48|N|From First Mate Snellig.|PRE|25816|LVL|20|
@@ -298,9 +303,9 @@ T When Archaeology Attacks|QID|25849|M|38.89,39.47|N|To Prospector Whelgar.|
 L Level 22 |QID|26189|LVL|22|N|You need to be Level 22 to be able to continue this guide.|
 
 A The Angerfang Menace|QID|26189|M|38.89,39.47|N|From Prospector Whelgar.|PRE|25849|
-C The Angerfang Menace|QID|26189|QO|Angerfang Dragonmaw slain: 16/16|M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|S|
-K Gorfax Angerfang|QID|26189|M|53.33,54.44|QO|Gorfax Angerfang slain: 1/1|N|Kill Gorfax Angerfang.|ACTIVE|26189|
-C The Angerfang Menace|QID|26189|QO|Angerfang Dragonmaw slain: 16/16|M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|US|
+C The Angerfang Menace|QID|26189|QO|2|M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|S|; Angerfang Dragonmaw slain: 16/16
+K Gorfax Angerfang|QID|26189|M|53.33,54.44|QO|1|N|Kill Gorfax Angerfang.|ACTIVE|26189|; Gorfax Angerfang slain: 1/1
+C The Angerfang Menace|QID|26189|QO|2|M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|US|; Angerfang Dragonmaw slain: 16/16
 T The Angerfang Menace|QID|26189|M|38.94,39.46|N|To Prospector Whelgar.|
 
 A Who Wards The Greenwarden|QID|26195|M|38.94,39.46|N|From Prospector Whelgar.|PRE|25850;25853;26189|
