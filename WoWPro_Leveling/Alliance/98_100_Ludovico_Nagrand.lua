@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2018-02-20 01:43
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3618/revisions/28946/view
 -- Date: 2018-01-17 00:38
 -- Who: Ludovicus
 -- Log: New Levels
@@ -169,7 +174,7 @@ F Nagrand|QID|34674;37184|M|47.90,49.72|Z|Lunarfall|CHAT|N|Speak with Dungar Lon
 K Grizlemaw|QID|35784|M|89.46,72.93|N|*Rare Kill*\nOn the path to your left. Drops Grizzled Wolfskin Cloak worth 22g.|RANK|3|
 T Taking the Fight to Nagrand|QID|34674;37184|M|86.40,66.20|N|To Lieutenant Balfor at the Wrecked Caravan.|
 
-A The Might of the Warsong|QID|34675|M|86.40,66.20|N|From Lieutenant Balfor.|PRE|34674;37184|
+A The Might of the Warsong|QID|34675|M|86.40,66.20|N|From Lieutenant Balfor.|PRE|34674|
 K Malroc Stonesunder |QID|35932|M|81.09,59.77|N|*Rare Kill*\nDrops Malroc's Staff of Command worth 54g.|RANK|3|
 K Redclaw the Feral |QID|35712|M|73.57,58.02|N|*Rare Kill*\nDrops Redclaw's Gutripper worth 43g.|RANK|3|
 f Telaari Station|QID|34675|M|63.64,61.55|N|From Gryphon Master John Shelby|
@@ -237,7 +242,7 @@ A Declawing The Competition|QID|34512|N|From Pyxni Pennypocket|M|78.58,48.57|
 A Gazmolf Futzwangler and the Highmaul Crusade|QID|34810|N|From Gabby Goldsnap|M|79.87,48.85|
 f The Ring of Trials |QID|34662|N|With Biggy Warprofits|M|79.82,49.72|
 
-A Ring of Trials: Crushmaul |QID|34662|N|From Dexyl Deadblade|M|79.46,50.31|
+A Ring of Trials: Crushmaul |QID|34662|PRE|35922|N|From Dexyl Deadblade|M|79.46,50.31|
 C Ring of Trials: Crushmaul |QID|34662|QO|1|N|Speak to Guzrug the Tiny to start the fight.|CHAT|M|77.65,49.59|
 C Ring of Trials: Crushmaul|QID|34662|M|78.26,50.72|QO|2|N|Kill Crushmaul. Don't stand in front of his boar when it is running around riderless or you will be stunned.|
 T Ring of Trials: Crushmaul|QID|34662|M|79.46,50.28|N|To Dexyl Deadblade.|
@@ -352,7 +357,7 @@ C Not Without My Honor|QID|34955|US|NC|M|84.88,55.33;84.88,55.32;85.83,57.14;87.
 T The Blade Itself|QID|34954|M|85.44,54.60|N|To Lantresor of the Blade.|
 T Not Without My Honor|QID|34955|M|85.44,54.60|N|To Lantresor of the Blade.|
 
-A Meet Me in the Cavern|QID|34956|PRE|36797;34957|M|85.44,54.60|N|From Lantresor of the Blade.|
+A Meet Me in the Cavern|QID|34956|PRE|34954;34955|M|85.44,54.60|N|From Lantresor of the Blade.|
 C The Friend o' My Enemy|QID|34952|M|85.42,55.30|N|Finish this up before you go in the Cavern as the ones inside don't count and when you come out you will be neutral to them.|US|
 T Meet Me in the Cavern|QID|34956|M|89.99,55.94|N|To Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
 
@@ -368,7 +373,7 @@ A Along the Riverside |QID|35059|PRE|34596|M|63.52,61.88|N|To Rangari D'kaan.|
 A Nobundo Sends Word |QID|35332|PRE|34596|M|63.52,61.88|N|To Rangari D'kaan.|
 
 T The Friend o' My Enemy|QID|34952|US|M|63.54,61.84|N|To Hansel Heavyhands|
-A The Honor of a Blademaster|QID|34747|PRE|36797;34957|N|From Lantresor of the Blade.|M|64.23,59.57|
+A The Honor of a Blademaster|QID|34747|PRE|34957|N|From Lantresor of the Blade.|M|64.23,59.57|
 
 ;Show the two animal quests again until you get to the Ring of Trials.
 C Shooting the Breeze |QID|35338|N|Kill and loot the Breezestrider Colt, Talbuk and Stallion for their Horns|S|ACTIVE|34869|
@@ -483,9 +488,9 @@ T Silence the War Machines |QID|35067|N|To Captain "Victorious" Chong|M|62.13,40
 T If They Won't Surrender... |QID|35068|N|To Captain "Victorious" Chong|M|62.13,40.43|
 
 T The Pride of Lok-rath |QID|35061|N|To Yrel at Yrel's Watch.|M|61.98,40.54|
-A Lok-rath is Secured |QID|35062|N|From Yrel.|M|61.98,40.54|PRE|35061|
+A Lok-rath is Secured |QID|35062|N|From Yrel.|M|61.98,40.54|PRE|35061;35067;35068|
 
-A THAELIN! |QID|35140|N|From Yrel.|M|61.98,40.54|PRE|35061|
+A THAELIN! |QID|35140|N|From Yrel.|M|61.98,40.54|PRE|35061;35067;35068|
 C THAELIN! |QID|35140|N|Click on the Baby Goren to capture them.  Or use the target button and your interact button (";" for me).|NC|M|62.00,40.50|T|Baby Goren|
 T THAELIN! |QID|35140|N|To Yrel.|M|61.98,40.54|
 
@@ -496,7 +501,7 @@ f Joz's Rylaks |QID|35332|N|With Joz Navarix|M|62.23,32.89|
 H Telaari Station |QID|35062|N|Use your hearthstone to return to Telaari Station.|
 T Carrier Has Arrived|QID|35141|M|63.06,61.95|N|To Thaelin Darkanvil|
 T Lok-rath is Secured|QID|35062|M|63.52,61.89|N|To Rangari D'kaan|
-A And Justice for Thrall|QID|35169|PRE|34596;34957;35062|M|63.52,61.89|N|From Rangari D'kaan|
+A And Justice for Thrall|QID|35169|PRE|35062|M|63.52,61.89|N|From Rangari D'kaan|
 F Joz's Rylaks|QID|35332|M|63.64,61.55|N|To John Shelby|
 
 f Throne of the Elements|QID|35332|N|With Gixmo Moneycash|M|73.70,26.65|
@@ -506,8 +511,8 @@ C Called to the Throne |QID|35331|QO|1|N|Speak to Vindicator Nobundo, and tell h
 C Called to the Throne |QID|35331|QO|2|N|Commune with the furries|NC|M|71.40,18.12|
 T Called to the Throne |QID|35331|N|To Vindicator Nobundo|M|71.72,19.65|
 A Elemental Attunement |QID|35333|N|From Vindicator Nobundo|M|71.72,19.65|PRE|35331|
-A Earth, Wind and Fire...and Water|QID|34881|PRE|35331|M|71.34,17.86|N|From Inceneratus|
-A Guardians of the Plateau|QID|34893|PRE|35331|M|71.34,17.86|N|From Inceneratus|
+A Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.86|N|From Inceneratus|
+A Guardians of the Plateau|QID|34893|M|71.34,17.86|N|From Inceneratus|
 A An Old Friend |QID|34943|M|72.78,19.72|N|From Kalandrios|PRE|35331|
 
 R Skysong Lake |QID|34943|N|Head up the path through Skysong Lake and up the ledge.|M|73.85,16.50|
@@ -550,7 +555,7 @@ T Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.86|N|To Incineratus|
 T A Wrong of Earth and Fire|QID|33928|M|71.34,17.86|N|To Incineratus|
 T Guardians of the Plateau|QID|34893|M|71.34,17.86|N|To Incineratus|
 
-A The Ritual of Binding|QID|35330|PRE|35333;34881;34893|M|71.72,19.65|N|From Vindicator Nobundo|
+A The Ritual of Binding|QID|35330|PRE|34941;35333;34881;34893|M|71.72,19.65|N|From Vindicator Nobundo|
 C The Ritual of Binding|QID|35330|M|72.6,19.6|CHAT|N|Chat with Kalandrios to start the ritual.|
 T The Ritual of Binding|QID|35330|M|71.72,19.65|N|To Vindicator Nobundo|
 
@@ -596,8 +601,8 @@ C Mixed Unit Tactics|QID|35386|M|47.08,56.01|QO|2|
 
 R Ancestral Grounds|QID|35393|M|41.33,56.54|N|Get ready to speak with spirits.|
 T Spiritual Matters|QID|35393|M|40.43,56.79|N|To Gar'rok|
-A Lighting The Darkness|QID|35022|PRE|34941|M|40.43,56.79|N|From Gar'rok|
-A Echoes of the Past|QID|35023|PRE|34941|M|40.40,56.75|N|From Dahaka|
+A Lighting The Darkness|QID|35022|PRE|35393|M|40.43,56.79|N|From Gar'rok|
+A Echoes of the Past|QID|35023|PRE|35393|M|40.40,56.75|N|From Dahaka|
 
 C Echoes of the Past|QID|35023|M|37.8,56.2|QO|1|N|Tormented Echos's and Void-Crazed Spirits.  Stay on the first two tiers.|S|
 C Lighting The Darkness|QID|35022|M|38.50,54.25|QO|1|N|Light the pyres.  Stay on the first two tiers.|U|112396|
