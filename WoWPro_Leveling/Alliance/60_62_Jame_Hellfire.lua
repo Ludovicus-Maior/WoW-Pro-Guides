@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2018-02-20 01:15
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3271/revisions/28898/view
 -- Date: 2018-01-16 23:50
 -- Who: Ludovicus
 -- Log: New Levels
@@ -150,11 +155,11 @@ T Arrival in Outland |QID|10288|M|87.4,52.4|N|To Amish Wildhammer.|
 A Journey to Honor Hold |QID|10140|PRE|10288|M|87.4,52.4|N|From Amish Wildhammer.|
 F Honor Hold|QID|10140|N|Fly to Honor Hold.|M|87.4,52.4|
 T Journey to Honor Hold |QID|10140|M|54.5,62.8|N|To Marshal Isildor.|
-A Force Commander Danath |QID|10254|PRE|10140|M|54.5,62.8|N|From Marshal Isildor.|
+A Force Commander Danath |QID|10254|LEAD|10160|PRE|10140|M|54.5,62.8|N|From Marshal Isildor.|
 h Honor Hold |ACTIVE|10254|N|Set your hearthstone to Honor Hold. |M|54.20,63.60|
 T Force Commander Danath |QID|10254|M|56.6,66.7|N|To Force Commander Danath Trollbane.|
 A The Legion Reborn |QID|10141|M|56.6,66.7|N|From Force Commander Danath Trollbane.|
-A Know your Enemy |QID|10160|M|56.6,66.7|N|From Force Commander Danath Trollbane.|
+A Know your Enemy |QID|10160|LEAD|10482|M|56.6,66.7|N|From Force Commander Danath Trollbane.|
 A Waste Not, Want Not |QID|10055|M|51.2,60.0|N|From Dumphry.|
 T Know your Enemy |QID|10160|M|50.9,60.2|N|To Lieutenant Amadi.|
 A Fel Orc Scavengers |QID|10482|M|50.9,60.2|N|From Lieutenant Amadi.|
@@ -261,8 +266,8 @@ A The Dark Missive |N|Right-click the missive to start this quest. |QID|10395|U|
 T Invasion Point: Annihilator |QID|10397|N|To Field Marshal Brock.|M|68.3,28.6|
 
 H Honor Hold |QID|10903|N|Hearth to Honor Hold. |U|6948|M|54.50,63.60|
-A An Old Gift |QID|10058|PRE|10143;10483|M|54.3,63.4|N|From Father Malgor Devidicus.|
-A The Longbeards |QID|9558|PRE|10143;10483|M|54.3,63.4|N|From Sid Limbardi.|
+A An Old Gift |QID|10058|PRE|10143+10483|M|54.3,63.4|N|From Father Malgor Devidicus.|
+A The Longbeards |QID|9558|LEAD|9417|PRE|10143+10483|M|54.3,63.4|N|From Sid Limbardi.|
 T Return to Honor Hold |QID|10903|M|54.3,63.6|N|Upstairs to Assistant Klatu.|
 A Fel Spirits |QID|10909|PRE|10903|M|54.3,63.6|N|From Assistant Klatu.|
 A Digging for Prayer Beads |QID|10916|PRE|10903|M|54.3,63.6|N|From Assistant Klatu.|
@@ -270,15 +275,15 @@ B Silken Thread|QID|10916|M|54.63,63.71|N|Head into the next room and buy a Silk
 B Fei Fei Doggy Treat|QID|10916|M|56.34,62.85|N|Buy a treat from Warrant Officer Tracy Proudwell.|L|31799|
 l Draenei Prayer Beads|QID|10916|M|54.16,63.32|N|Give the treat to Fei Fei, then follow the dog. Loot Fei Fei's Cache (glittering dirt pile) once she stops at the waypoint.|L|31795|
 r Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|QID|10916|
-A Hellfire Fortifications |QID|10106|PRE|13408;13410|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell. This is optional as it is a PvP quest, so skip if you don't wish to do it.|
+A Hellfire Fortifications |QID|10106|PRE|13408+13410|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell. This is optional as it is a PvP quest, so skip if you don't wish to do it.|
 T The Dark Missive |QID|10395|N|Head to Warp-Scryer Kryv.|M|56.69,66.52|
 A The Heart of Darkness |QID|10399|PRE|10395|N|From Warp-Scryer Kryv.|M|56.69,66.52|
-A The Path of Glory |QID|10047|PRE|10143;10483|N|From Warp-Scryer Kryv.|M|56.69,66.52|
+A The Path of Glory |QID|10047|PRE|10143+10483|N|From Warp-Scryer Kryv.|M|56.69,66.52|
 A Overlord |QID|10400|PRE|10395|N|From Force Commander Danath Trollbane.|M|56.64,66.69|
 
-A Unyielding Souls |QID|10050|PRE|10143;10483|M|50.9,60.2|N|From Honor Guard Wesilow.|
-A A Job for an Intelligent Man |QID|9355|PRE|10143;10483|M|52.0,62.6|N|From Foreman Biggums.|
-A When This Mine's a-Rockin' |QID|10079|PRE|10143;10483|M|52.0,62.6|N|From Foreman Biggums.|
+A Unyielding Souls |QID|10050|PRE|10143+10483|M|50.9,60.2|N|From Honor Guard Wesilow.|
+A A Job for an Intelligent Man |QID|9355|PRE|10143+10483|M|52.0,62.6|N|From Foreman Biggums.|
+A When This Mine's a-Rockin' |QID|10079|PRE|10143+10483|M|52.0,62.6|N|From Foreman Biggums.|
 C A Job for an Intelligent Man |N|Kill the sandworms needed for this quest.|QID|9355|M|46.00,64.00|
 l Eroded Leather Case |QID|9373|N|Kill worms until you get an Eroded Leather Case.|L|23338|M|46.00,64.00|
 A Missing Missive |N|Right-click the case to accept the quest. |QID|9373|U|23338|M|47.8,65.8|
@@ -316,7 +321,7 @@ A The Temple of Telhamat |QID|10093|PRE|10047|M|56.7,66.5|N|From Warp-Scryer Kry
 
 F Temple of Telhamat |QID|10093|N|Fly to The Temple of Telhamat. |M|54.70,62.35|
 T The Temple of Telhamat |QID|10093|M|23.4,36.5|N|To Amaan the Wise.|
-A Helping the Cenarion Post |QID|10443|M|23.4,36.5|N|From Amaan the Wise.|
+A Helping the Cenarion Post |QID|10443|LEAD|9372|M|23.4,36.5|N|From Amaan the Wise.|
 A An Ambitious Plan |QID|9383|M|23.2,36.7|N|From Elsaana.|
 T Missing Missive |QID|9373|M|15.7,52.0|N|To Thiah Redmane.|
 T Helping the Cenarion Post |QID|10443|M|15.7,52.0|N|To Thiah Redmane.|
@@ -362,7 +367,7 @@ C Deadly Predators |US|N|Kill the Stonescythe Alphas and Whelps needed for this 
 C Hellfire Fortifications |N|Do this quest by taking over the towers.|QID|10106|M|40.76,49.64;39.81,56.49;35.38,56.42|CN|
 C An Ambitious Plan |N|Get an Uncontrolled Voidwalker down to low health, then use the Sanctified Crystal.  Click on the red Crystal that appears.|QID|9383|M|46.00,82.00|
 C Voidwalkers Gone Wild |N|Kill and loot Voidwalkers until you finish this quest.|QID|9351|M|46.00,82.00|
-K Arch Mage Xintor|N|Kill Arch Mage Xintor.|QID|10057|M|53.60,81.00|QO|Arch Mage Xintor slain: 1/1|
+K Arch Mage Xintor|N|Kill Arch Mage Xintor.|QID|10057|M|53.60,81.00|QO|1|; Arch Mage Xintor slain: 1/1
 C Looking to the Leadership|QID|10057|M|54.7,83.6|N|Kill Lieutenant Commander Thalvos.|
 C An Old Gift|N|Loot the book here.|QID|10058|M|55.00,86.80|
 T Voidwalkers Gone Wild |QID|9351|M|49.2,74.8|N|To "Screaming" Screed Luckheed.|
@@ -396,8 +401,8 @@ A Outland Sucks!|QID|10236|N|From Foreman Razelcraz.|M|51.31,30.5|
 C Outland Sucks!|N|Loot wooden crates in the shallow valley until you finish this quest.|QID|10236|M|48.26,40.81|
 T Outland Sucks!|QID|10236|N|To Foreman Razelcraz.|M|51.31,30.5|
 A How to Serve Goblins |QID|10238|PRE|10236|N|From Foreman Razelcraz.|M|51.31,30.5|
-N Manni's Cage |N|Free Manni from his cage.|QID|10238|QO|Manni Saved: 1/1|M|45.10,41.10|
-N Moh's Cage |N|Free Moh from his cage.|QID|10238|QO|Moh Saved: 1/1|M|46.41,45.09|
+N Manni's Cage |N|Free Manni from his cage.|QID|10238|QO|1|M|45.10,41.10|; Manni Saved: 1/1
+N Moh's Cage |N|Free Moh from his cage.|QID|10238|QO|2|M|46.41,45.09|; Moh Saved: 1/1
 C How to Serve Goblins |N|Free Jakk from his cage.|QID|10238|M|47.50,46.70|
 T How to Serve Goblins |QID|10238|N|To Foreman Razelcraz.|M|51.31,30.5|
 A Shizz Work |QID|10629|PRE|10238|N|From Foreman Razelcraz.|M|51.31,30.5|
@@ -419,15 +424,15 @@ C Testing the Antidote |N|Find a Hulking Helboar and use the Antidote after gett
 T Testing the Antidote |QID|10255|M|15.7,52.0|N|To Thiah Redmane.|
 l Sha'naar Relics |N|Grab the 10 relics needed for this quest.|QID|9430|M|15.1,55.7|S|L|23642 10|
 C Cruel Taskmasters |N|Kill the 10 Taskmasters needed for this quest.|QID|9399|M|15.1,55.7|S|
-A Naladu|N|From Akoru the Firecaller.|QID|10403|M|15.61,58.76|
+A Naladu|N|From Akoru the Firecaller.|QID|10403|LEAD|10367|M|15.61,58.76|
 T Naladu|QID|10403|M|16.3,65.1|N|To Naladu.|
 
 A A Traitor Among Us |QID|10367|M|16.3,65.1|N|From Naladu.|
 C A Traitor Among Us |N|Get the key from the chest here.|QID|10367|M|14.35,63.35|
 T A Traitor Among Us |QID|10367|M|16.3,65.1|N|To Naladu.|
 A The Dreghood Elders |QID|10368|PRE|10367|M|16.3,65.1|N|From Naladu.|
-N Free Morod |N|Free Morod here.|QID|10368|QO|Morod Freed: 1/1|M|13.10,61.00|
-N Free Aylaan |N|Free Aylaan here.|QID|10368|QO|Aylaan Freed: 1/1|M|13.00,58.40|
+N Free Morod |N|Free Morod here.|QID|10368|QO|1|M|13.10,61.00|; Morod Freed: 1/1
+N Free Aylaan |N|Free Aylaan here.|QID|10368|QO|3|M|13.00,58.40|; Aylaan Freed: 1/1
 C The Dreghood Elders |N|Free Akoru here.|QID|10368|M|15.50,58.75|
 T The Dreghood Elders |QID|10368|M|16.3,65.1|N|To Naladu.|
 A Arzeth's Demise |QID|10369|PRE|10368|M|16.3,65.1|N|From Naladu.|
