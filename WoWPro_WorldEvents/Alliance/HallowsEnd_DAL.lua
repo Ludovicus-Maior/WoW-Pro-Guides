@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2018-02-23 01:40
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - EK
+
+-- URL: http://wow-pro.com/node/3440/revisions/28503/view
 -- Date: 2017-03-17 13:50
 -- Who: Ludovicus_Maior
 -- Log: Add one PRE to LudoHallowPanA
