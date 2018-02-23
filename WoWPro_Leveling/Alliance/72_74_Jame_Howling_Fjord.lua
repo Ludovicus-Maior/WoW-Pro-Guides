@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2018-02-20 01:25
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3287/revisions/28912/view
 -- Date: 2018-01-16 23:59
 -- Who: Ludovicus
 -- Log: New Levels
@@ -178,7 +183,7 @@ A Harpoon Master Yavus |QID|11430|PRE|11429|M|64.4,47.0|N|From Lieutenant Iceham
 C Harpoon Master Yavus |QID|11430|N|Go here and kill Harpoon Master Yavus. |M|65.15,56.58|
 C Anguish of Nifflevar |QID|11344|U|33774|N|Get out of the hut and use the Incense Burner, then go east towards a big crowd of Vrykul and wait for the quest complete message. |M|69.10,54.90|
 T The Explorers' League Outpost |QID|11448|M|75.0,65.4|N|To Stanwad.|
-A Problems on the High Bluff |QID|11474|PRE|11448|M|75.0,65.4|N|From Stanwad.|
+A Problems on the High Bluff |QID|11474|LEAD|11475|PRE|11448|M|75.0,65.4|N|From Stanwad.|
 T Problems on the High Bluff |QID|11474|M|75.1,65.5|N|To Walt.|
 
 A Tools to Get the Job Done |QID|11475|M|75.1,65.5|N|From Walt.|
@@ -282,7 +287,7 @@ T Two Wrongs... |QID|11188|M|28.9,44.2|N|To Mage-Lieutenant Malister.|
 A Report to Scout Knowles |QID|11199|PRE|11188|M|28.8,44.1|N|From Captain Adams.|
 r Sell junk, repair, re-stock food/drink. |QID|11199|M|29.83,42.60|
 
-A Orfus of Kamagua |QID|11573|N|From Lunk-tusk. If you can't get this quest, it's because you have "The Dead Rise!", abandon it.|M|32.3,46.8|
+A Orfus of Kamagua |QID|11573|LEAD|11504|N|From Lunk-tusk. If you can't get this quest, it's because you have "The Dead Rise!", abandon it.|M|32.3,46.8|
 T Report to Scout Knowles |QID|11199|M|44.5,57.6|N|To Scout Knowles.|
 A Mission: Eternal Flame |QID|11202|PRE|11199|M|44.5,57.6|N|From Scout Knowles.|
 U Southwest Plague Tank |QID|11202|QO|1|U|33164|N|Use the Ever-burning Torches on the Plague Tank here. |M|48.39,55.92|
@@ -413,7 +418,7 @@ r Sell junk, repair, re-stock food/drink. |QID|11176|M|29.83,42.60|
 A The Cleansing |QID|11322|M|30.2,28.7|N|From Watcher Moonleaf.|
 A Scare the Guano Out of Them! |QID|11154|M|30.2,28.7|N|From Engineer Feknut.|
 A See to the Operations |QID|11176|M|30.2,28.7|N|From Overseer Irena Stonemantle.|
-A Where is Explorer Jaren? |QID|11393|M|30.2,28.7|N|From Overseer Irena Stonemantle.|
+A Where is Explorer Jaren? |QID|11393|LEAD|11394|M|30.2,28.7|N|From Overseer Irena Stonemantle.|
 T See to the Operations |QID|11176|M|30.8,28.6|N|To Steel Gate Chief Archaeologist.|
 
 A I've Got a Flying Machine! |QID|11390|PRE|11176|M|30.8,28.6|N|From Steel Gate Chief Archaeologist.|
@@ -429,7 +434,7 @@ T I'll Try Anything! |QID|11329|M|60.3,18.7|N|To Christopher Sloan.|
 A The One That Got Away |QID|11410|PRE|11329|M|60.3,18.7|N|From Christopher Sloan.|
 A The Yeti Next Door |QID|11284|M|60.2,15.6|N|From Foreman Colbey.|
 f Fort Wildervar |QID|11406|N|Get the flight path for Fort Wildervar. |M|60.05,16.11|
-A The Enigmatic Frost Nymphs |QID|11302|PRE|11329|M|61.8,17.2|N|From Lieutenant Maeve.|
+A The Enigmatic Frost Nymphs |QID|11302|LEAD|11313|PRE|11329|M|61.8,17.2|N|From Lieutenant Maeve.|
 A The Book of Runes |QID|11346|PRE|11329|M|62.3,17.2|N|From Prospector Belvar.|
 T Everything Must Be Ready |QID|11406|M|62.6,16.8|N|To Gil Grisert.|
 A Down to the Wire |QID|11269|M|62.6,16.8|N|From Gil Grisert.|
