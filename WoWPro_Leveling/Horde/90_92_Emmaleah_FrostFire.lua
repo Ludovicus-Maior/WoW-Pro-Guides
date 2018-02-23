@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2018-02-22 23:34
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3587/revisions/28969/view
 -- Date: 2018-02-04 18:05
 -- Who: Ludovicus_Maior
 -- Log: [Slavery and Strife] Coordinate correction from  Chuo!
@@ -245,11 +250,6 @@
 -- Who: Emmaleah
 -- Log: Final changes before Beta went away.
 
--- URL: http://wow-pro.com/node/3587/revisions/26906/view
--- Date: 2014-11-08 04:19
--- Who: Emmaleah
--- Log: correct errors per list o' errors
-
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,91, 92, 90.7)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -269,7 +269,7 @@ t The Home of the Frostwolves|QID|33868|LEAD|33815|M|40.75,67.10|N|To Farseer Dr
 A A Song of Frost and Fire|QID|33815|PRE|33868|M|40.75,67.10|N|From Farseer Drek'Thar.|
 C A Song of Frost and Fire|QID|33815|M|41.81,69.64|CHAT|N|Mount up and be ready to follow Durotan.|
 T A Song of Frost and Fire|QID|33815|M|41.81,69.64|N|To Durotan.|
-A Of Wolves and Warriors|QID|34402|PRE|33815|LEAD|34364|M|41.81,69.64|N|From Durotan.|
+A Of Wolves and Warriors|QID|34402|PRE|33815|M|41.81,69.64|N|From Durotan.|
 T Of Wolves and Warriors|QID|34402|M|48.73,65.34|N|To Thrall.|
 A For the Horde!|QID|34364|PRE|34402|M|48.73,65.34|N|From Thrall.|
 C For the Horde!|QID|34364|M|48.68,64.89|NC|N|Click on the faintly glowing banner to make it real.|
@@ -411,7 +411,7 @@ A From Their Cold Dead Hands|QID|36417|PRE|36301|M|20.4,60.6|P|Tailoring;197|N|F
 C Young Hearts|QID|33915|M|25.4,67.57|CHAT|N|Run out the south end of the village, to a cave with Saberon's around it, where you will find Orak, chat with him (and kill the things guarding him) so he can go home.|RANK|2|
 
 T Young Hearts|QID|33915|M|19.24,59.18|N|To Gog'rak.|RANK|2|
-A Missing Pack|QID|33955|M|21.62,55.15|LEAD|33929|N|From Kar'lak.|RANK|2|
+A Missing Pack|QID|33955|M|21.62,55.15|N|From Kar'lak.|RANK|2|
 T Missing Pack|QID|33955|M|19.53,51.01|N|To Shivertail.|RANK|2|
 A Shivertail's Den|QID|33929|PRE|33955|M|19.53,51.01|N|From Shivertail.|RANK|2|
 C Shivertail's Den|QID|33929|M|20.7,48.6|QO|1|NC|RANK|2|
@@ -513,7 +513,7 @@ A To the Garrison|QID|32796|PRE|32795|M|49.30,50.46|Z|Grulloc's Lair@FrostfireRi
 H Town Hall (Frostwall)|QID|32796|M|41.58,53.06|Z|Frostwall|U|110560|N|Back to your Garrison.|
 
 A Ashran Appearance|QID|36706|M|52.45,53.35|N|From Gazlowe.|Z|Frostwall|
-A We Be Needin' Supplies|QID|34736|PRE|33527|M|51.33,51.44|N|From Rokhan.|Z|Frostwall|RANK|2|
+A We Be Needin' Supplies|QID|34736|LEAD|34344|PRE|33527|M|51.33,51.44|N|From Rokhan.|Z|Frostwall|RANK|2|
 ;profession upgrade quests in garrison
 T Enchanted Highmaul Bracer|QID|36255|M|47.13,37.85|Z|Frostwall|P|Enchanting;333|N|To Yu'rina the Mystic.|
 A The Arakkoan Enchanter|QID|36256|M|47.13,37.85|PRE|36255|Z|Frostwall|P|Enchanting;333|N|From Yu'rina the Mystic.|
@@ -531,7 +531,7 @@ A Bigger is Better|QID|36567|M|52.53,53.13|N|From Gazlowe.|Z|Frostwall|
 C Bigger is Better|QID|36567|M|52.40,53.49|Z|Frostwall|NC|N|At the Architect's Table in front of you. This is the quest to upgrade your garrison to level 2.|
 
 t Bigger is Better|QID|36567|M|42.16,55.58|Z|Frostwall|RANK|2|N|To Gazlowe in your new town hall. Now you can upgrade your garrison with a medium and another small building. If you are 92, you can move on to Gorgrond if desired.|
-A Building for Professions|QID|37669|M|42.16,55.58|N|From Gazlowe.|Z|Frostwall|PRE|35106+36238+36260+36627+36475+36380+36516+36419|RANK|2|
+A Building for Professions|QID|37669|M|42.16,55.58|N|From Gazlowe.|Z|Frostwall|RANK|2|
 C Building for Professions|QID|37669|M|42.16,55.58|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This quest doesn't complete if you build a non profession small building (such as storehouse). You can start a profession building, get the quest complete, then cancel the building getting your resources and gold back (assuming the building is cancelled before completing) then build whatever you want.|
 T Building for Professions|QID|37669|M|42.16,55.58|N|To Gazlowe.|Z|Frostwall|RANK|2|
 
@@ -633,7 +633,7 @@ T Frosted Fury|QID|34346|M|52.51,40.42|N|To Shadow Hunter Mala.|RANK|2|
 T Lurkers|QID|34344|M|52.63,40.41|N|To Shadow Hunter Rala.|RANK|2|
 T Poulticide|QID|34345|M|52.63,40.41|N|To Shadow Hunter Rala.|RANK|2|
 
-A The Real Prey|QID|34348|M|52.63,40.45|N|From Shadow Hunter Rala.|PRE|34344;34345|RANK|2|
+A The Real Prey|QID|34348|M|52.63,40.45|N|From Shadow Hunter Rala.|PRE|34344;34345;34346|RANK|2|
 C The Real Prey|QID|34348|M|53.4,29.4;52.13,29.42|CS|T|Grosh the Mighty|RANK|2|
 f Bloodmaul Slag Mines|QID|34348|M|51.44,21.47|N|At Brenna Skymoor.As long as you are in the neighborhood, you can run up and get this explore and flight path, totally optional, for level 100 content. |RANK|3|
 C Treasure-Clumsy Cragmaul Brute|QID|33531|M|50.1,18.7|N|More treasure just lying around to be claimed.|RANK|3|
