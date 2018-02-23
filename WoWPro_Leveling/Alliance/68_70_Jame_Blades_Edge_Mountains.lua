@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2018-02-20 01:19
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3281/revisions/28901/view
 -- Date: 2018-01-16 23:52
 -- Who: Ludovicus
 -- Log: New Levels
@@ -285,8 +290,8 @@ l Camp Anger Key|QID|10821|N|Kill Anger Guards until you get 5 Camp Anger Keys|L
 C You're Fired! |N|Find the five obelisks (where the waypoints are), and activate them quickly. Kill Doomcryer (elite mob, not immune to anything).|QID|10821|M|73.83,41.06;73.94,39.91;75.42,40.5;75.31,41.72;73.54,43.52|CS|
 C Culling the Wild |N|Kill the mobs needed for this quest.|QID|10753|M|71.00,36.00|US|
 C Little Embers |N|Kill Imps until you finish this quest.|QID|10770|M|72.00,22.00|S|
-C Southern Volcanic Soil|N|Click the soil.|QID|10771|M|71.65,22.37|QO|Southern Volcanic Soil: 1/1|
-C Central Volcanic Soil|N|Click the soil.|QID|10771|M|71.6,20.32|QO|Central Volcanic Soil: 1/1|
+C Southern Volcanic Soil|N|Click the soil.|QID|10771|M|71.65,22.37|QO|1|; Southern Volcanic Soil: 1/1
+C Central Volcanic Soil|N|Click the soil.|QID|10771|M|71.6,20.32|QO|2|; Central Volcanic Soil: 1/1
 C From the Ashes |N|Click the soil to complete this quest.|QID|10771|M|71.59,18.51|
 C Little Embers |N|Kill Imps until you finish this quest.|QID|10770|M|72.00,22.00|US|
 H Evergrove |QID|10753|N|Hearth to Evergrove.|M|62.84,38.35|
@@ -316,9 +321,9 @@ C Longtail is the Lynchpin |N|Go in the tunnel and kill Draaca Longtail.|QID|108
 T Longtail is the Lynchpin |QID|10893|M|49.9,35.9|N|To Watcher Moonshade.|
 A Meeting at the Blackwing Coven |QID|10722|PRE|10893|M|49.9,35.9|N|From Watcher Moonshade.|
 l Orb of the Grishna |QID|10825|N|Kill Grishna mobs until you get the Orb of the Grishna.|L|31489 1|S|
-C Receive the Second Prophecy|N|Go through the tunnel and go to this location on the tree house. Kill Grishna mobs and you will get a buff that allows you to see prophecies on the minimap.|QID|10607|M|42.43,21.67|QO|Receive the Second Prophecy: 1/1|
-C Receive the Third Prophecy|N|Kill Grishna mobs if you need to get the buff again. Go to this spot for the Third Prophecy.|QID|10607|M|40.68,18.62|QO|Receive the Third Prophecy: 1/1|
-C Receive the First Prophecy|N|Kill Grishna mobs if you need to get the buff again. Go to this spot, up in the tree house, for the First Prophecy.|QID|10607|M|39.06,17.25|QO|Receive the First Prophecy: 1/1|
+C Receive the Second Prophecy|N|Go through the tunnel and go to this location on the tree house. Kill Grishna mobs and you will get a buff that allows you to see prophecies on the minimap.|QID|10607|M|42.43,21.67|QO|3|; Receive the Second Prophecy: 1/1
+C Receive the Third Prophecy|N|Kill Grishna mobs if you need to get the buff again. Go to this spot for the Third Prophecy.|QID|10607|M|40.68,18.62|QO|1|; Receive the Third Prophecy: 1/1
+C Receive the First Prophecy|N|Kill Grishna mobs if you need to get the buff again. Go to this spot, up in the tree house, for the First Prophecy.|QID|10607|M|39.06,17.25|QO|1|; Receive the First Prophecy: 1/1
 C Whispers of the Raven God |N|Kill Grishna mobs if you need to get the buff again. Go to this spot for the Fourth Prophecy.|QID|10607|M|40.18,22.99|
 l Orb of the Grishna |QID|10825|N|Kill Grishna mobs until you get the Orb of the Grishna.|L|31489 1|US|M|40.18,22.99|
 A The Truth Unorbed |N|Right-click the orb to start this quest.|QID|10825|M|40.2,23.0|U|31489|
@@ -372,7 +377,7 @@ A Harvesting the Fel Ammunition|QID|10904|PRE|10910|M|64.64,69.96|N|From Evergro
 C Harvesting the Fel Ammunition|QID|10904|M|64.19,71.74|N|Kill Deathforge Smiths, Deathforge Over-Smiths and Death's Mights until you get 5 Fel Cannonballs.|
 T Harvesting the Fel Ammunition|QID|10904|U|31763|M|64.46,72.22|N|Find a safe spot, use the signal then turn the quest into the Evergrove Druid.|
 A Fire At Will!|QID|10911|PRE|10904|M|64.46,72.22|N|From Evergrove Druid.|
-C Southern Warp-Gate|QID|10911|U|31807|QO|South Warp-Gate Destroyed: 1/1|M|64.75,68.37|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition. You will have a pet bar, use the "Artillery on the Warp-Gate" ability to attack the Warp-Gate, and then protect it. You need to use "Artillery on the Warp-Gate" a total of 7 times to destroy the Warp-Gate.|
+C Southern Warp-Gate|QID|10911|U|31807|QO|1|M|64.75,68.37|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition. You will have a pet bar, use the "Artillery on the Warp-Gate" ability to attack the Warp-Gate, and then protect it. You need to use "Artillery on the Warp-Gate" a total of 7 times to destroy the Warp-Gate.|; South Warp-Gate Destroyed: 1/1
 C Fire At Will!|QID|10911|U|31807|M|62.01,60.53|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition. You will have a pet bar, use the "Artillery on the Warp-Gate" ability to attack the Warp-Gate, and then protect it. You need to use "Artillery on the Warp-Gate" a total of 7 times to destroy the Warp-Gate.|
 T Fire At Will!|QID|10911|U|31763|M|65.19,69.93|N|Find a safe spot, use the signal then turn the quest into the Evergrove Druid.|
 A The Hound-Master|QID|10912|PRE|10911|M|65.16,69.93|N|From Evergrove Druid.|
