@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
+-- Date: 2018-02-22 23:01
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3288/revisions/28920/view
 -- Date: 2018-01-17 00:04
 -- Who: Ludovicus
 -- Log: New Levels
@@ -186,7 +191,7 @@ T Suppressing the Elements |QID|11311|N|To Windtamer Kagan.|M|49.0,12.0|
 T Making the Horn |QID|11275|M|49.3,12.0|N|To Nokoma Snowseer.|
 
 A Mimicking Nature's Call |QID|11281|PRE|11275|M|49.3,12.0|N|From Nokoma Snowseer.|
-A The Frozen Glade |QID|11312|PRE|11271|M|49.3,12.0|N|From Nokoma Snowseer.|
+A The Frozen Glade |QID|11312|LEAD|11313|PRE|11271|M|49.3,12.0|N|From Nokoma Snowseer.|
 A The Book of Runes |QID|11350|PRE|11271|M|49.2,12.2|N|From Longrunner Pembe.|
 A Keeping Watch on the Interlopers |QID|11297|PRE|11271|M|48.5,10.5|N|From Junat the Wanderer.|
 A March of the Giants |QID|11365|PRE|11271|M|48.1,10.5|N|From Sage Edan.|
