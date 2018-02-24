@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2018-02-24 07:04
+-- Who: Emmaleah
+-- Log: Minor updates to Eastern Kingdoms
+
+-- URL: http://wow-pro.com/node/3452/revisions/29102/view
 -- Date: 2018-02-21 10:53
 -- Who: Emmaleah
 -- Log: Add note about Zidormi in Silithus
@@ -203,10 +208,9 @@ R Burning Steppes|N|Time to head to Burning Steppes.|QID|8636|M|70.1,45.4|Z|Burn
 A Rumblerock the Elder|N|From Elder Rumblerock.|QID|8636|M|70.11,45.39|Z|Burning Steppes|
 A Dawnstrider the Elder|N|From Elder Dawnstrider.|QID|8683|M|52.37,23.94|Z|Burning Steppes|
 R Blackrock Mountain|N|Run to Blackrock Mountain.|QID|8644|M|20.39,34.56|Z|Burning Steppes|RANK|2|
-R Do you have a flying mount?|N|If yes, fly up to the ledge at this waypoint. If not pass this step and follow the next steps.|QID|8644|M|23.77,26.14|Z|Burning Steppes|CS|RANK|2|
-R Follow the series of waypoints|N|To get into the instance. If you flew up, manually check this off.|QID|8644|CS|M|24.36,29.86;25.8,26.44;26.4,26.33|Z|Burning Steppes|RANK|2|
-R Follow the series of waypoints|N|To get into the instance. Part 2 If you flew up, manually check this off.|QID|8644|CS|M|25.72,25.98;25.89,28.1;24.71,28.37;24.22,26.12|Z|Burning Steppes|RANK|2|
-R Lower Blackrock Spires|QID|8644|N|With WOD, the entrance you are looking for has moved slightly, go straight forward and it will be on your right.|M|27.55,25.38|Z|Burning Steppes|RANK|2|
+R Do you have a flying mount?|N|If yes, fly up to the ledge at this waypoint. If not pass this step and follow the next steps.|QID|8644|M|63.89,44.21|Z|Blackrock Spire@BurningSteppes|RANK|2|
+R Follow the series of waypoints|N|To get into the instance. If you flew up, manually check this off.|QID|8644|CS|M|64.80,54.27;67.70,53.89;70.38,40.33|Z|Blackrock Spire@BurningSteppes|RANK|2|
+R Lower Blackrock Spires|QID|8644|N|With WOD, the entrance you are looking for has moved slightly, go straight forward and it will be on your right, under the walkway.|M|80.36,40.51|Z|Blackrock Spire@BurningSteppes|RANK|2|
 A Stonefort the Elder|N|Head in the instance. From Elder Stonefort.|QID|8644|M|42.31,45.00;52.18,36.98;61.82,40.08|CS|Z|Hordemar City@BlackrockSpire|RANK|2|
 R The Molten Span|N|Head back out of the instance and run (fly) to this waypoint at the bottom near the lava.|CS|QID|8619|M|18.59,25.03|Z|Burning Steppes|RANK|2|
 R Blackrock Depths|N|Follow the waypoints to get into Blackrock Depths instance.|CS|QID|8619|M|18.75,24.89;16.72,20.63;14.29,15.88;14.47,9.25|Z|Burning Steppes|RANK|2|
