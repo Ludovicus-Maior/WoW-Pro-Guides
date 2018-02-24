@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
+-- Date: 2018-02-24 01:18
+-- Who: Ludovicus_EditBot
+-- Log: Fix the Nexus zone reference
+
+-- URL: http://wow-pro.com/node/3451/revisions/29144/view
 -- Date: 2018-02-23 01:58
 -- Who: Ludovicus_EditBot
 -- Log: Moving Emmaleah's flight instructions to the alliance side
@@ -244,7 +249,7 @@ A Pamuya the Elder|N|From Pamuya the Elder.|QID|13029|M|42.8,49.6|Z|Borean Tundr
 A Northal the Elder|N|From Northal the Elder.|QID|13016|M|33.80,34.36|Z|Borean Tundra|
 
 R The Nexus|N|Run into The Nexus. You want the bottom instance of the three.|QID|13021|M|27.5,26.09|Z|Borean Tundra|RANK|2|
-A Igasho the Elder|N|From Igasho the Elder, at the end of the Singing Grove.|QID|13021|M|55.19,64.72|Z|TheNexus|RANK|2|
+A Igasho the Elder|N|From Igasho the Elder, at the end of the Singing Grove.|QID|13021|M|55.19,64.72|Z|The Nexus@TheNexus|RANK|2|
 
 F Stars' Rest|N|Head back outside of The Nexus and fly to Stars' Rest in Dragonblight.|QID|13014|M|33,34.4|Z|Borean Tundra|
 A Morthie the Elder|N|From Morthie the Elder.|QID|13014|M|29.75,55.90|Z|Dragonblight|
