@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2018-02-24 20:39
+-- Who: Ludovicus_EditBot
+-- Log:  Varian
+
+-- URL: http://wow-pro.com/node/3213/revisions/29147/view
+-- Date: 2018-02-24 17:49
+-- Who: Ludovicus_EditBot
+-- Log: King Anduin Wrynn
+
+-- URL: http://wow-pro.com/node/3213/revisions/29013/view
 -- Date: 2018-02-19 23:21
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -246,7 +256,6 @@ T CLUCK!|QID|3861|RANK|3|M|56.02,31.28|N|To Chicken - enjoy your new pet!|
 r Repair and Sell Junk |QID|26266|S|ACTIVE|26266|M|57.70,53.71|N|Take this opportunity to repair and sell your junk with Quartermaster Lewis, who is next to Hope Saldean.|T|QUartermaster Lewis|
 T Hope for the People|QID|26266|M|56.88,47.13|N|To Hope Saldean at Sentinel Hill.|
 
-L Level 11 |LVL|11|QID|26271|N|You need to be Level 11 or above to continue with this guide.|
 A Feeding the Hungry and the Hopeless|QID|26271|M|56.88,47.13|N|From Hope Saldean.|PRE|26266|
 
 A In Defense of Westfall|QID|26286|M|56.35,47.55|N|From Marshal Gryan Stoutmantle.|PRE|26266|
