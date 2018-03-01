@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2018-02-24 17:50
+-- Who: Ludovicus_EditBot
+-- Log: King Anduin Wyrnn
+
+-- URL: http://wow-pro.com/node/3241/revisions/29029/view
 -- Date: 2018-02-19 23:36
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -261,8 +266,8 @@ C Survey Alcaz Island|QID|27239|NC|M|67.37,51.07|N|Tell Cassa Crimsonwing you ar
 T Survey Alcaz Island|QID|27239|M|66.26,49.04|N|To Lady Jaina Proudmoore.|
 A Proof of Treachery|QID|27240|PRE|27239|M|66.27,49.05|N|From Lady Jaina Proudmoore. Wait a few seconds and this quest will appear.|
 R Stormwind City|QID|27240|M|66.26,49.05|N|Talk to Jaina to be ported to Stormwind.|
-T Proof of Treachery|QID|27240|M|85.78,31.72|Z|Stormwind City|N|To King Varian Wyrnn.|
-A Return to Jaina|QID|27241|PRE|27240|M|85.78,31.72|Z|Stormwind City|N|To King Varian Wyrnn.|
+T Proof of Treachery|QID|27240|M|85.78,31.72|Z|Stormwind City|N|To King Anduin Wyrnn.|
+A Return to Jaina|QID|27241|PRE|27240|M|85.78,31.72|Z|Stormwind City|N|To King Anduin Wyrnn.|
 R Theramore Isle|QID|27241|M|50.51,87.47|Z|Stormwind City|N|Head to the Mage Quarter and talk to Archmage Malin to get back to Theramore Isle.|
 T Return to Jaina|QID|27241|M|66.26,49.05|N|To Jaina Proudmore.|
 C ... and Bugs|QID|1258|M|68.78,46.53|N|Work your way around the banks of the town. The crabs drop their legs 100%.|
