@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-02-24 20:36
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL Dun
+
+-- URL: http://wow-pro.com/node/3200/revisions/29154/view
+-- Date: 2018-02-24 20:34
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL gnome
+
+-- URL: http://wow-pro.com/node/3200/revisions/29007/view
 -- Date: 2018-02-19 23:14
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags - DunM
@@ -239,16 +249,6 @@
 -- Date: 2012-10-09 23:22
 -- Who: Ludovicus_Maior
 -- Log: Added Monk quests and got rid of extra spaces and spell corrections.
-
--- URL: http://wow-pro.com/node/3200/revisions/25131/view
--- Date: 2012-10-08 22:49
--- Who: Ludovicus_Maior
--- Log: Add Dwarf Monk starter quests.
-
--- URL: http://wow-pro.com/node/3200/revisions/24869/view
--- Date: 2011-12-14 21:36
--- Who: Fluclo
--- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
 
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1.1)
