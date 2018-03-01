@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2018-02-24 20:41
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL strip
+
+-- URL: http://wow-pro.com/node/3218/revisions/29033/view
 -- Date: 2018-02-20 00:57
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -217,7 +222,6 @@ T Bearer of Good Fortune|QID|13557|M|51.19,19.69|N|To Tharnariun Treetender.|
 T A Troubling Prescription|QID|13831|M|51.19,19.69|N|To Tharnariun Treetender.|
 T A Cure In The Dark|QID|13554|M|51.19,19.69|N|To Wizbang Cranktoggle.|
 
-L Level 14|QID|13561|LVL|14|N|You should be around level 14 by this point.|
 A A Love Eternal|QID|13563|PRE|13529|M|50.84,17.96|N|From Cerellean Whiteclaw.|
 A A Lost Companion|QID|13564|PRE|13529|M|50.89,17.98|N|From Volcor.|
 A The Final Flame of Bashal'Aran|QID|13562|PRE|13529|M|50.31,19.59|N|From Ranger Glynda Nal'Shea.|
@@ -250,7 +254,6 @@ A The Ritual Bond|QID|13569|PRE|13565;13566;13598|M|42.93,39.02|N|From Keeper Ka
 C The Ritual Bond|QID|13569|NC|M|43.74,40.34|N|Right-click the Keeper's Incense, which is right infront of Keeper Karithus. Then go talk to the Great Stag Spirit, the Great Thistle Bear Spirit, or the Great Moongrazer Spirit. Thistlebear gives a 10% Reduction in damage taken, Moonstalker gives a 10% haste bonus, and Stag gives a 10% increased movement speed. Movement speed does not stack with any other speed buff.|
 T The Ritual Bond|QID|13569|M|42.99,39.10|N|To Keeper Karithus.|
 A Grimclaw's Return|QID|13599|PRE|13569|M|42.99,39.10|N|From Keeper Karithus.|
-L Level 15|QID|13560|LVL|15|N|You should be around level 15 by this point.|
 
 H Lor'danel|QID|13599|M|46.83,33.2|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|
 T Grimclaw's Return|QID|13599|M|50.88,18.20|N|To Serendia Oakwhisper.|
@@ -278,8 +281,6 @@ T Remnants of the Highborne|QID|13505|M|58.93,19.49|N|To Balthule Shadowstrike.|
 T Shatterspear Laborers|QID|13504|M|58.93,19.49|N|To Sentinel Tysha Moonblade.|
 A War Supplies|QID|13509|PRE|13504|M|58.93,19.49|N|From Lieutenant Morra Starbreeze.|
 A Denying Manpower|QID|13507|PRE|13505|M|58.93,19.49|N|From Sentinel Tysha Moonblade.|
-
-L Level 16|QID|13510|LVL|16|N|You should be around level 16 by this point.|
 
 C War Supplies|QID|13509|U|44999|M|62.42,8.08|N|Use the Sentinel Torch to burn Shatterspear Armaments on the way.|S|
 C Denying Manpower|QID|13507|M|62.23,9.31|N|Kill the Trolls needed for the quest.|S|
@@ -319,8 +320,6 @@ l Hellscream's Missive|QID|13591|M|72.21,19.06|N|Loot Jor'kil the Soulripper to 
 A Disturbing Connections|QID|13591|M|72.31,18.90|N|Right-click Hellscream's Missive and accept the quest.|U|46318|
 T Ending the Threat|QID|13515|M|72.35,18.87|N|To Huntress Sandrya Moonfall.|
 T The Ancients' Ire|QID|13514|M|69.14,19.25|N|To Kerlonian Evershade.|
-
-L Level 17|QID|13591|LVL|17|N|You should be around level 17 by this point.|
 
 H Lor'danel|QID|13591|U|6948|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|
 r Sell Junk and Repair|QID|13591|M|50.76,19.24|N|Close this step when you're done.|
@@ -370,7 +369,6 @@ C Call Down the Thunder|QID|13558|M|37.24,41.49|N|Use the ritual orb, kill him, 
 T Against the Wind|QID|13542|M|42.52,45.24|N|To Sentinel Selarin.|
 T Three Hammers to Break|QID|13543|M|42.62,45.17|N|To Corvine Moonrise.|
 T Call Down the Thunder|QID|13558|M|42.62,45.17|N|To Corvine Moonrise.|
-L Level 18|QID|13558|LVL|18|N|You should be around level 18 by this point.|
 T The Last Refugee|QID|13605|M|42.58,45.22|N|To Elisa Steelhand.|
 T Malfurion's Return|QID|13573|M|43.67,53.51|N|To Malfurion Stormrage.|
 A The Land Is in Their Blood|QID|13575|M|43.67,53.51|N|From Malfurion Stormrage.|
@@ -405,7 +403,6 @@ T Sworn to Protect|QID|13585|M|43.66,53.41|N|To Malfurion Stormrage.|
 A The Emerald Dream|QID|13586|PRE|13581;13583;13585|M|43.66,53.41|N|From Malfurion Stormrage.|
 T The Emerald Dream|QID|13586|M|49.14,56.98|N|To Thessera. Go into the cave and click on the portal.|
 A The Waking Nightmare|QID|13587|PRE|13586|M|49.14,56.98|N|From Thessera.|
-L Level 19|QID|13587|LVL|19|N|You should be around level 19 by this point.|
 C The Waking Nightmare|QID|13587|M|49.34,55.74|N|Kill the Nightmare Guardian to get the scroll.|
 T The Waking Nightmare|QID|13587|M|49.19,56.89|N|To Thessera.|
 A Leaving the Dream|QID|13940|PRE|13587|M|49.19,56.89|N|From Thessera.|
@@ -447,7 +444,6 @@ A Jadefire Braziers|QID|13572|PRE|13544|M|43.57,80.95|N|From Gren Tornfur.|
 C Cleansing the Afflicted|QID|13545|U|44889|M|44.62,82.07|N|Use the Blessed Herb Bundle on the Furblogs and kill what spawns.|S|
 C Jadefire Braziers|QID|13572|M|44.36,84.07|N|Attack the braziers with the green fire to destroy them.|
 C Cleansing the Afflicted|QID|13545|U|44889|M|44.62,82.07|N|Use the Blessed Herb Bundle on the Furblogs and kill what spawns.|US|
-L Level 20|QID|13572|LVL|20|N|You should be around level 20 by this point.|
 T Jadefire Braziers|QID|13572|M|43.55,80.94|N|To Gren Tornfur.|
 T Cleansing the Afflicted|QID|13545|M|43.55,80.94|N|To Elder Brolg.|
 A The Defiler|QID|13546|PRE|13545|M|43.55,80.94|N|From Elder Brolg.|
@@ -500,7 +496,6 @@ A The Devourer of Darkshore|QID|13891|PRE|13885|M|45.20,74.69|N|From Kathrena Wi
 C The Devourer of Darkshore|QID|13891|U|46370|M|44.97,78.70|N|Go to the pond and use the Lifebringer Sapling, then kill what spawns.|
 T The Devourer of Darkshore|QID|13891|M|45.18,74.69|N|To Kathrena Winterwisp.|
 
-L Level 21|QID|13918|LVL|21|N|You should be around level 21 by this point.|
 C The Tides Turn Against Us|QID|13898|M|31.19,84.20|N|Go into the cave and kill Naga Myrmidons as you go.|S|
 T The Darkscale Warlord|QID|13899|M|32.27,85.30|N|Kill Warlord Wrathspine, and turn this quest into his corpse.|
 A The Offering to Azshara|QID|13900|PRE|13899|M|32.25,85.13|N|From the corpse of Warlord Wrathspine.|
