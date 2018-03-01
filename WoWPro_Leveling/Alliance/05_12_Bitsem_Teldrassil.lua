@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2018-02-24 20:38
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL - Teldrassil
+
+-- URL: http://wow-pro.com/node/3204/revisions/29153/view
+-- Date: 2018-02-24 20:34
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL
+
+-- URL: http://wow-pro.com/node/3204/revisions/29009/view
 -- Date: 2018-02-19 23:15
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -232,8 +242,6 @@ A Return to Nyoma|QID|6343|PRE|6342|M|36.70,47.95|Z|Darnassus|N|From Leora.|R|Ni
 F Dolanaar|M|36.4,48|QID|6343|N|Fly back to Dolanaar.|R|Night Elf|Z|Darnassus|
 T Return to Nyoma|QID|6343|M|56.71,53.50|N|To Nyoma.|R|Night Elf|
 
-L Level 6|QID|489|LVL|6|N|You should be around level 6 by this point.|
-
 T Seek Redemption!|QID|489|M|59.56,49.19|N|To Zenn Foulhoof.|
 
 C Teldrassil: The Refusal of the Aspects|QID|929|U|5619|M|62.04,50.74|N|Fill the Jade Phial at the Moonwell.|R|Night Elf|
@@ -258,8 +266,6 @@ T Teldrassil: The Refusal of the Aspects|QID|929|M|55.85,53.86|N|To Corithras Mo
 C Ferocitas the Dream Eater|QID|2459|M|67.09,46.03|N|Kill Gnarlpine Mystics on your way to Ferocitas the Dream Eater.|
 T Ferocitas the Dream Eater|QID|2459|M|55.57,50.05|N|To Tallonkai Swiftroot.|
 
-L Level 7|QID|932|LVL|7|N|You should be around level 7 by this point.|
-
 C Nature's Reprisal|QID|13946|S|U|46716|M|53.67,47.05;54.46,46.11;53.31,45.31|CN|N|Use the Ironroot Seeds to kill Grellkin.|
 R Fel Rock|QID|932|M|54.54,45.86|N|Head into the Fel Rock cave.|
 C Twisted Hatred|QID|932|M|52.95,43.95|N|At the first intersection, head to the right tunnel, then a left at the next intersection. Melenas should be there or right below the ledge. Kill him and loot his head.|
@@ -281,8 +287,6 @@ C Druid of the Claw|QID|2561|NC|U|8149|M|45.64,52.75|N|Kill Rageclaw next door. 
 T Druid of the Claw|QID|2561|M|45.08,53.45|N|To Oben Rageclaw.|
 C Resident Danger|QID|13945|US|M|46.67,52.03|N|Finish killing  Ban'ethil Gnarlpinet.|
 
-L Level 8|QID|483|LVL|8|N|You should be around level 8 by this point.|
-
 H Dolanaar|QID|483|NC|M|55.65,50.04|N|Hearth to Dolanaar.|
 
 T The Relics of Wakening|QID|483|M|55.73,51.97|N|To Athridas Bearmantle.|
@@ -300,8 +304,6 @@ C The Road to Darnassus|QID|487|M|50.80,36.67|N|Finish killing Gnarlpine Ambushe
 
 T The Road to Darnassus|QID|487|M|49.37,44.61|N|To Moon Priestess Amara.|
 T Ursal the Mauler|QID|486|M|55.70,51.95|N|To Athridas Bearmantle.|
-
-L Level 9|QID|997|LVL|9|N|You should be around level 9 by this point.|
 
 A Denalan's Earth|QID|997|PRE|486|M|55.74,50.47|N|From Syral Bladeleaf.|
 
@@ -339,7 +341,6 @@ C Mist|QID|938|M|39.45,29.85|N|Escort Mist to Sentinel Arynia Cloudsbreak.|
 T Mist|QID|938|M|39.45,29.85|N|To Sentinel Arynia Cloudsbreak.|
 C The Enchanted Glade|QID|937|M|36.91,29.83|N|Kill and loot Harpies until you get all the belts needed.|US|
 T The Enchanted Glade|QID|937|M|39.52,29.83|N|To Sentinel Arynia Cloudsbreak.|
-L Level 10|QID|2518|LVL|10|N|You should be around level 10 by this point.|
 C Tears of the Moon|QID|2518|M|40.64,22.39|N|Kill and loot Lady Sathrah.|
 C Mossy Tumors|QID|923|M|44.28,25.79|N|Kill and loot Timberlings until you get 5 Mossy Tumors.|
 
@@ -351,7 +352,6 @@ C Oakenscowl|QID|2499|M|47.34,34.83|N|Kill and loot Oakenscowl to get the Gargan
 T Oakenscowl|QID|2499|M|43.93,44.22|N|To Denalan.|
 
 T Teldrassil: The Burden of the Kaldorei|QID|7383|M|41.02,45.57|N|To Corithras Moonrage.|
-L Level 11|QID|933|LVL|11|N|You should be around level 11 by this point.|
 A Teldrassil: The Coming Dawn|QID|933|PRE|7383|M|41.02,45.57|N|From Corithras Moonrage.|
 C Teldrassil: The Coming Dawn|QID|933|U|5621|M|43.83,58.69|N|Use the Tourmaline Phial at the moonwell.|
 
