@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-02-27 17:29
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL Strip and QO fix.
+
+-- URL: http://wow-pro.com/node/3203/revisions/29189/view
+-- Date: 2018-02-26 23:05
+-- Who: Ludovicus_EditBot
+-- Log: Level Strip - Narache
+
+-- URL: http://wow-pro.com/node/3203/revisions/29074/view
 -- Date: 2018-02-20 01:52
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - Mulgor
@@ -190,8 +200,6 @@ A Rite of Strength|QID|14452|PRE|14449|M|39.45,37.25|N|From Grull Hawkwind.|
 C Rite of Strength|QID|14452|M|40.65,38.26|N|Kill the Quilboars fighting with the defenders.|
 T Rite of Strength|QID|14452|M|39.45,37.25|N|To Grull Hawkwind.|
 
-L Level 2|QID|24852|LVL|2|N|You should be around level 2 by this point.|
-
 A Our Tribe, Imprisoned|QID|24852|PRE|14452|M|39.45,37.25|N|From Grull Hawkwind.|
 C Our Tribe, Imprisoned|NC|QID|24852|M|47.10,43.14|N|Free the captured braves from the cages in this area.|
 T Our Tribe, Imprisoned|QID|24852|M|39.45,37.25|N|To Grull Hawkwind.|
@@ -204,8 +212,6 @@ C Rite of Courage|S|QID|14456|M|34.67,61.32|N|Kill Britlebark Gun Thiefs and loo
 C Stop the Thorncallers|QID|14455|M|33.59,69.23|N|Kill Bristleback Thorncallers|
 C Rite of Courage|US|QID|14456|M|34.67,61.32|N|Kill Britlebark Gun Thiefs and loot any Stolen Rifles you still need.|
 
-L Level 3|LVL|3|N|You should be around level 3 by this point.|
-
 T Rite of Courage|QID|14456|M|30.92,50.59|N|To Adana Thunderhorn.|
 T Stop the Thorncallers|QID|14455|M|30.92,50.59|N|To Adana Thunderhorn.|
 A The Battleboars|QID|14459|PRE|14455;14456|M|30.92,50.59|N|From Adana Thunderhorn.|
@@ -213,8 +219,6 @@ A Feed of Evil|QID|14461|PRE|14455;14456|M|30.92,50.59|N|From Adana Thunderhorn.
 C Feed of Evil|NC|QID|14461|M|26.38,66.35;25.15,69.15;28.22,70.45|CS|N|Use Adona's Torch on the Troughs|U|49539|
 C The Battleboars|QID|14459|M|26.68,68.39|N|Kill any Battleboars you still need|
 T The Battleboars|QID|14459|M|30.92,50.597|N|To Adana Thunderhorn.|
-
-L Level 4|QID|14461|LVL|4|N|You should be around level 4 by this point.|
 
 T Feed of Evil|QID|14461|M|30.92,50.59|N|To Adana Thunderhorn.|
 A Rite of Honor|QID|14460|PRE|14459;14461|M|30.92,50.59|N|From Adana Thunderhorn.|
