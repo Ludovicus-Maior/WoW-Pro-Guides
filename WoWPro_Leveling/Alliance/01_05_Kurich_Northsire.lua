@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2018-02-24 20:37
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL Elwynn
+
+-- URL: http://wow-pro.com/node/3197/revisions/29155/view
+-- Date: 2018-02-24 20:35
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL  northshire
+
+-- URL: http://wow-pro.com/node/3197/revisions/29008/view
 -- Date: 2018-02-19 23:15
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags - Elwynn
@@ -240,16 +250,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Fixed syntax errors.
 
--- URL: http://wow-pro.com/node/3197/revisions/24201/view
--- Date: 2011-04-02 19:01
--- Who: Ludovicus_Maior
--- Log: Syntax error in quest [Fear No Evil] for Human Warlocks.
-
--- URL: http://wow-pro.com/node/3197/revisions/24058/view
--- Date: 2011-01-26 02:48
--- Who: Fluclo
--- Log: Missing the A for Rest And Relaxation
-
 local guide = WoWPro:RegisterGuide("KurNShire0105", "Leveling", "Northshire (Human)", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.55556)
 WoWPro:GuideNextGuide(guide, "KurElw0511")
@@ -316,15 +316,6 @@ T Lions for Lambs|QID|28774|C|Warrior|M|33.55,53.00|R|Human|N|To Marshal McBride
 T Lions for Lambs|QID|28770|C|Paladin|M|33.55,53.00|R|Human|N|To Marshal McBride.|
 T Lions for Lambs|QID|31140|C|Monk|M|33.55,53.00|R|Human|N|To Marshal McBride.|
 T Lions for Lambs|QID|29079|M|33.55,53.00|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|N|To Marshal McBride.|
-
-L Level 2 |QID|26910|C|Hunter|R|Human|N|You need to be Level 2 to continue.|LVL|2|
-L Level 2 |QID|3101|C|Paladin|R|Human|N|You need to be Level 2 to continue.|LVL|2|
-L Level 2 |QID|3103|C|Priest|R|Human|N|You need to be Level 2 to continue.|LVL|2|
-L Level 2 |QID|3104|C|Mage|R|Human|N|You need to be Level 2 to continue.|LVL|2|
-L Level 2 |QID|3102|C|Rogue|R|Human|N|You need to be Level 2 to continue.|LVL|2|
-L Level 2 |QID|3105|C|Warlock|R|Human|N|You need to be Level 2 to continue.|LVL|2|
-L Level 2 |QID|3100|C|Warrior|R|Human|N|You need to be Level 2 to continue.|LVL|2|
-L Level 2 |QID|31141|C|Monk|R|Human|N|You need to be Level 2 to continue.|LVL|2|
 
 A Join the Battle!|QID|28788|C|Warlock|R|Human|M|33.55,53.00|N|To Marshal McBride.|PRE|28773|
 A Join the Battle!|QID|28787|C|Rogue|R|Human|M|33.55,53.00|N|To Marshal McBride.|PRE|28772|
