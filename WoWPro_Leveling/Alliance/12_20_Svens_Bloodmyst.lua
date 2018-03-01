@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2018-02-24 20:40
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL
+
+-- URL: http://wow-pro.com/node/3220/revisions/29014/view
 -- Date: 2018-02-19 23:21
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -196,7 +201,6 @@ A Report to Exarch Admetius|QID|9668|LEAD|9693|PRE|9666|M|62.99,87.54|N|From Kes
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Use the Murloc Tagger on 6 Blacksilt Scouts.|S|
 A Cruelfin's Necklace|QID|9576|L|23870|N|Find and kill cruelfin, then loot the Red Crystal Pendant and accept the quest it gives. He patrols along the south coast, spawning on the east side.|M|49.5,94.8;34.6,93.1|T|Cruelfin|CN|
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Continue to use the Murloc Tagger on 6 Blacksilt Scouts.|US|
-L Level 14 |LVL|14|QID|9576|N|Grind on murlocs until you are 4,800 XP from Level 14.|
 C Mac'Aree Mushroom Menagerie|QO|4|QID|9648|M|44,78;35,79|N|Obtain a Fel Cone Fungus. They're kind of grey brown in comparison to the rest of the mushrooms they're with.|CN|
 H Blood Watch |QID|9576|N|Hearth back to Blood Watch.|M|55.84,59.80|
 T Cruelfin's Necklace|QID|9576|M|53.25,57.75|N|To Morae.|
@@ -241,7 +245,6 @@ r Repair/Restock |QID|9584|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|S|
 C The Second Sample|QID|9584|N|Use the Crystal Mining Pick on the Altered Crystal Sample.|U|23876|M|45.75,47.62|
 C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|US|M|45.75,47.62|
-L Grinding Time |QID|9584|N|Grind on spies until you are 10,000 XP away from Level 16.|LVL|16|M|45.75,47.62|
 T The Second Sample|QID|9584|N|To Harbinger Mikolaas.|M|52.6,53.23|
 A The Final Sample|QID|9585|PRE|9584|N|From Harbinger Mikolaas.|M|52.6,53.23|
 T Intercepting the Message|QID|9779|N|To Vindicator Boros.|M|55.42,55.25|
@@ -312,7 +315,6 @@ r Repair/Restock |QID|10064|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 C Containing the Threat|QID|9569|N|Head back to Axxarien. Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax.|M|41.6,29.8|S|
 C The Final Sample|QID|9585|U|23877|N|Use the pick on the Axxarien crystal (it's the big one - you need to stand right next to it)|M|41.6,29.8|
 C Containing the Threat|QID|9569|N|Head back to Axxarien. Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax.|M|41.6,29.8|US|
-L Grind some more |QID|9569|N|Grind until you are 4,000 XP from level 18.|LVL|18|
 
 C Don't Drink the Water|QID|9748|N|Jump down the waterfall, and use your flask.|U|24318|M|34.37,33.56|
 H Blood Watch |QID|9569|N|Hearth back to Blood Watch.|U|6948|
@@ -388,7 +390,6 @@ A Ending the Bloodcurse|QID|9683|PRE|9682|N|From Captain Edward Hanes.|M|79.14,2
 T Razormaw|QID|9689|N|To Prince Toreth.|M|73.7,33.7|
 C Ending the Bloodcurse|QID|9683|N|Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|M|85,54|
 T Ending the Bloodcurse|QID|9683|N|To Captain Edward Hanes.|M|79.14,22.66|
-L Grind some more|QID|9649|N|Grind on whelplings until you are 1,350 XP from level 20.|LVL|20|
 H Blood Watch|QID|9649|N|Hearth back to Blood Watch.|U|6948|
 T Ysera's Tears|QID|9649|N|To Jessera of Mac'Aree.|M|56.4,56.8|
 
