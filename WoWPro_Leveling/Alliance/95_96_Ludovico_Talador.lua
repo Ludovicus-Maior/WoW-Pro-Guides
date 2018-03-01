@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2018-02-26 23:00
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip
+
+-- URL: http://wow-pro.com/node/3614/revisions/29066/view
 -- Date: 2018-02-20 01:42
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -247,7 +252,7 @@ return [[
 
 T News from Talador |QID|36495|N|To Bodrick Grey, in your Garrison.|M|38.33,36.74|Z|Lunarfall|O|
 
-A The Critical Path |QID|34676|N|From Bodrick Grey|LEAD|34558|LVL|96|
+A The Critical Path |QID|34676|N|From Bodrick Grey|LEAD|34558|
 A The Critical Path |QID|34676|N|Open your Adventure Guide and Start Quest for Talador.|LEAD|34558|
 A The Critical Path |QID|37183|N|From Bodrick Grey|M|38.20,36.90|Z|Lunarfall|
 
@@ -403,7 +408,7 @@ T While We're in the Neighborhood|QID|34909|M|0,0|N|To Magister Serena who is wi
 T Orbs of Power|QID|34911|M|0,0|N|To Magister Serena who is with you.|
 
 A The Final Step|QID|34912|PRE|34909;34910;34911|M|0,0|N|From Magister Serena who stands by your side whilst in Gordal Fortress.|
-L Iron Box |QID|34251|ACTIVE|34912|N|**Rare Loot**\nLoot the Iron Box inside the hut to the right of the final steps|RANK|3|
+l Iron Box |QID|34251|ACTIVE|34912|N|**Rare Loot**\nLoot the Iron Box inside the hut to the right of the final steps|RANK|3|
 C The Final Step|QID|34912|QO|1|M|64.00,81.75|N|Run to the top of the stairs, then attack Witch Lord Morkurk. Pay attention to the HUD alerts to use the Mass Teleportation scroll and to get into the dome shield.|
 C The Final Step|QID|34912|QO|2|M|64.25,81.79|N|Loot the Arcane Nexus|NC|
 T The Final Step|QID|34912|M|0,0|N|To Magister Serena who is with you.|
