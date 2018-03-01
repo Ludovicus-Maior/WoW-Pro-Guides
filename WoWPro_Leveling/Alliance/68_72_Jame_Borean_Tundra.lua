@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2018-02-26 21:45
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3289/revisions/29053/view
 -- Date: 2018-02-20 01:22
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -319,8 +324,6 @@ T The Mechagnomes |QID|11708|N|To Jinky Wingnut outside the inn.|M|57.44,18.74|
 A Re-Cursive |QID|11712|PRE|11708|N|From Jinky Wingnut|M|57.44,18.74|
 T The Ultrasonic Screwdriver |QID|11729|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 
-L Level 69|QID|11712|LVL|69|N|You should be level 69 by now. If you aren't, it shouldn't be long, so kill a few mobs until you are, as the next couple of quests require level 69 to accept.|
-
 A Master and Servant |QID|11730|PRE|11729|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 A Dirty, Stinkin' Snobolds! |QID|11645|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 A What's the Matter with the Transmatter? |QID|11710|PRE|11708|N|From Mordle Cogspinner.|M|57.51,18.61|
@@ -453,8 +456,6 @@ T Back to the Airstrip |QID|11701|N|To Fizzcrank Fullthrottle in the building on
 T The Gearmaster |QID|11798|N|To Fizzcrank Fullthrottle in the building on the second floor.|M|56.98,18.70|
 T Deploy the Shake-n-Quake! |QID|11723|N|To Abner Fizzletorque.|M|57.06,20.12|
 T It Was The Orcs, Honest! |QID|11670|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
-
-L Level 70|QID|11704|LVL|70|N|You should be level 70 by now. If you aren't, it shouldn't be long, so kill a few mobs until you are, as the next couple of quests require level 70 to accept.|
 
 A A Mission Statement |QID|11864|N|From Arch Druid Lathorius at the D.E.H.T.A. Encampment.|M|57.06,44.30|
 A Ears of Our Enemies |QID|11866|PRE|11864|N|From Arch Druid Lathorius.|M|57.06,44.30|
