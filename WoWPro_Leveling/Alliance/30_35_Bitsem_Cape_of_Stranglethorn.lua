@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2018-02-26 21:36
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3237/revisions/29038/view
 -- Date: 2018-02-20 01:03
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -222,7 +227,6 @@ A Airwyn Bantamflax|QID|26821|PRE|26824|M|55.32,42.39|N|From Bronwyn Hewstrike.|
 T Backdoor Dealings|QID|26809|M|55.72,42.20|N|To Maywiki.|
 A Eliminate the Outcast|QID|26810|PRE|26809|M|55.72,42.20|N|From Maywiki.|
 
-L Level 30 |QID|26810|N|You need to be Level 30 to continue with this guide.|LVL|30|
 C Recipe for Disaster|QID|26816|S|M|62.27,41.98|N|Kill Zanzil Witchdoctors for the Formulation.|
 A Message in a Bottle|QID|26603|M|57.36,39.64;62.41,46.70|CN|N|From the Half-Buried Bottle on the coast.|
 C Recipe for Disaster|QID|26816|US|M|62.27,41.98|N|Kill Zanzil Witchdoctors for the Formulation.|
@@ -266,7 +270,6 @@ A Mukla's Demise|QID|26606|PRE|26605|M|59.51,79.17|N|From Princess Poobah.|
 C Mukla's Demise|QID|26606|M|62.74,83.26|N|Kill Mukla. He will throw barrels at you DK style. Loot the Shackle Key.|
 T Mukla's Demise|QID|26606|M|59.44,79.11|N|To Princess Poobah.|
 
-L Level 31 |QID|26609|N|You need to be Level 31 to continue with this guide.|LVL|31|
 H The Salty Sailor Tavern |QID|26609|N|Hearthstone to The Salty Sailor Tavern in Booty Bay.|
 
 A Scaring Shaky|QID|26593|M|40.97,74.32;42.05,73.46|CC|N|From "Sea Wolf" MacKinley.|
