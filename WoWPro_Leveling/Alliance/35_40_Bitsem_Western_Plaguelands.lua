@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2018-02-26 21:38
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3244/revisions/29041/view
 -- Date: 2018-02-20 01:07
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -290,8 +295,6 @@ T I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.58,54.89|N|To Selyria Groe
 
 T Zen'Kiki, the Druid|QID|26953|M|48.93,54.74|N|To Adrine Towhide.|
 
-L Level 35 |QID|26954|N|You need to be Level 35 to continue with this guide.|LVL|35|
-
 A A Different Approach|QID|26954|PRE|26953|M|48.93,54.74|N|From Adrine Towhide.|
 
 N Hunters|QID|26954|C|Hunter|N|Just to make a note, you can take the Diseased Hawks. Just have Zen'kiki bring one down then take it. Close this step to continue.|
@@ -364,8 +367,6 @@ T Bagging Bisp|QID|27154|M|45.90,18.46|N|(UI Alert)|
 A Turning Yourself In|QID|27155|PRE|27154|M|45.90,18.46|N|(UI Alert)|
 T Turning Yourself In|QID|27155|M|42.06,14.61|N|Head to the Highlord and face the music.|
 
-L Level 36 |QID|26957|N|You need to be Level 36 to continue with this guide.|LVL|36|
-
 A The Long Trip Home|QID|26957|M|42.11,14.85|N|From Del Gahrron.|
 F The Menders' Stead|QID|26957|NC|M|44.62,18.37|N|Fly to The Menders' Stead.|
 T The Long Trip Home|QID|26957|M|50.59,52.52|N|To Del Gahrron.|
@@ -384,7 +385,6 @@ A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
 A Zen'Kiki and the Cultists|QID|26955|PRE|27057|M|48.93,54.76|N|From Adrine Towhide.|
 T Memories from a Lost Past|QID|27017|M|50.60,52.60|N|To Del Gahrron.|
 
-L Level 38 |QID|27197|N|You need to be Level 38 to continue with this guide.|LVL|38|
 A The Battle Resumes!|QID|27197|PRE|27175+27233|M|50.39,52.70|N|From Durnt Brightfalcon.|
 
 C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|S|
