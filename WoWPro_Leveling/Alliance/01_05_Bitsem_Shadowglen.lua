@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2018-02-24 20:38
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL - Teldrassil
+
+-- URL: http://wow-pro.com/node/3204/revisions/29153/view
+-- Date: 2018-02-24 20:34
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL
+
+-- URL: http://wow-pro.com/node/3204/revisions/29009/view
 -- Date: 2018-02-19 23:15
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -201,7 +211,6 @@ return [[
 A The Balance of Nature|QID|28713|M|45.63,74.55|N|From Ilthalaine.|
 C The Balance of Nature|QID|28713|M|46.71,78.45|N|Kill Young Nightsabers.|
 T The Balance of Nature|QID|28713|M|45.63,74.55|N|To Ilthalaine.|
-L Level 2|QID|28713|LVL|2|N|You should be around level 2 by this point.|
 
 A Fel Moss Corruption|QID|28714|PRE|28713|M|45.63,74.55|N|From Ilthalaine.|
 A Demonic Thieves|QID|28715|PRE|28713|M|45.95,72.88|N|From Melithar Staghelm.|
@@ -212,7 +221,6 @@ C Fel Moss Corruption|QID|28714|US|M|36.38,78.29|N|Finish killing Grells for Fel
 
 T Demonic Thieves|QID|28715|M|45.95,72.88|N|To Melithar Staghelm.|
 T Fel Moss Corruption|QID|28714|M|46.30,73.50|N|To Ilthalaine.|
-L Level 3|QID|28715|LVL|3|N|You should be around level 3 by this point.|
 
 A Priestess of the Moon|QID|28723|PRE|28714|N|From Ilthalaine.|R|Night Elf|
 T Priestess of the Moon|QID|28723|M|42.50,50.49|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|R|Night Elf|
@@ -230,8 +238,6 @@ A Webwood Corruption|QID|28726|PRE|28725|N|From Tarindrella.|R|Night Elf|
 C Webwood Corruption|QID|28726|M|38.93,6.89|N|Tarindrella will accompany you.|R|Night Elf|
 T Webwood Corruption|QID|28726|N|Tarindrella should still be with you. Turn in to her.|R|Night Elf|
 
-L Level 4|QID|28726|LVL|4|N|You should be around level 4 by this point.|
-
 A Vile Touch|QID|28727|PRE|28726|N|From Tarindrella. She's still with you.|R|Night Elf|
 C Vile Touch|QID|28727|QO|1|M|44.38,28.48|N|Kill Gilthyiss the Vile.|R|Night Elf|
 T Vile Touch|QID|28727|N|To Tarindrella. She's still with you.|R|Night Elf|
@@ -245,8 +251,6 @@ T Teldrassil: Crown of Azeroth|QID|28729|M|42.50,50.49|N|To Dentaria Silverglade
 
 A Precious Waters|QID|28730|PRE|28729|M|42.50,50.49|N|From Dentaria Silverglade.|R|Night Elf|
 T Precious Waters|QID|28730|M|41.72,63.58;47.20,55.96|CS|N|Up the ramp to Tenaron Stormgrip.|R|Night Elf|
-
-L Level 5|QID|28730|LVL|5|N|You should be around level 5 by this point.|
 
 A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|47.20,55.96|N|From Tenaron Stormgrip.|R|Night Elf|
 
