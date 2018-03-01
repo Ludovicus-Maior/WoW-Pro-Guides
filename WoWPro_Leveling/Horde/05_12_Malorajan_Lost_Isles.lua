@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2018-02-27 00:04
+-- Who: Ludovicus_EditBot
+-- Log: Level strip - Kezan
+
+-- URL: http://wow-pro.com/node/3212/revisions/29076/view
 -- Date: 2018-02-20 01:56
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - Lost Isles
