@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-02-24 20:36
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL Dun
+
+-- URL: http://wow-pro.com/node/3200/revisions/29154/view
+-- Date: 2018-02-24 20:34
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL gnome
+
+-- URL: http://wow-pro.com/node/3200/revisions/29007/view
 -- Date: 2018-02-19 23:14
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags - DunM
@@ -240,16 +250,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Added Monk quests and got rid of extra spaces and spell corrections.
 
--- URL: http://wow-pro.com/node/3200/revisions/25131/view
--- Date: 2012-10-08 22:49
--- Who: Ludovicus_Maior
--- Log: Add Dwarf Monk starter quests.
-
--- URL: http://wow-pro.com/node/3200/revisions/24869/view
--- Date: 2011-12-14 21:36
--- Who: Fluclo
--- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
-
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,5,10,5.74453)
 WoWPro:NewGuideLevels(guide,1,20)
@@ -411,7 +411,6 @@ A Grimaxe's Demise|QID|26102|PRE|26094|M|78.20,20.45|N|From Commander Stonebreak
 C Grimaxe's Demise|QID|26102|T|Dark Iron Golem|M|78.40,34.66|N|Kill the Dark Iron Golem, then Grimaxe will appear - kill him too.|
 T Grimaxe's Demise|QID|26102|M|78.23,20.49|N|To Commander Stonebreaker.|
 A Demanding Answers|QID|26112|PRE|26102|M|78.24,20.50|N|From Commander Stonebreaker.|
-L Level 12|QID|26112|N|Before you continue the guide, you need to be within 1975xp of level 12. If you are not, use Rixa's Flying Machine to return to Gol'Bolar Quarry. Then go just east of the quarry and kill mobs until you are within 1975xp of level 12.|LVL|12|
 
 H Thunderbrew Distillery|QID|26112|U|6948|N|Head to Ironforge. Your Hearthstone is probably set to Thunderbrew Distillery and will shorten your distance.|
 F Ironforge|QID|26112|M|53.78,52.72|N|Fly to Ironforge.|
