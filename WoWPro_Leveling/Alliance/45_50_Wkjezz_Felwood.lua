@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2018-02-26 21:38
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3257/revisions/29044/view
 -- Date: 2018-02-20 01:10
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -306,7 +311,6 @@ C Wisps of the Woods|QID|28383|U|64300|M|62.99,20.56|N|Use the Swiftwind Switch 
 T Enemy at our Roots|QID|28382|M|61.83,26.72|N|To Denmother Ulrica.|
 T Wisps of the Woods|QID|28383|M|61.90,26.67|N|To Lyros Swiftwind.|
 A Into the Clearing|QID|28384|PRE|28382;28383|M|61.89,26.70|N|From Denmother Ulrica.|
-L Level 52|QID|28384|LVL|52|N|You should be around level 52 by this point.|
 T Into the Clearing|QID|28384|M|56.76,18.46|N|To Alton Redding.|
 A The Shredders of Irontree|QID|28337|PRE|28384|M|56.76,18.46|N|From Alton Redding.|
 C The Shredders of Irontree|QID|28337|M|53.09,14.39|N|Go around and kill Irontree Shredders.|
