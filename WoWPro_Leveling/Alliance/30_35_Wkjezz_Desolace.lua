@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2018-02-26 21:37
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3313/revisions/29026/view
 -- Date: 2018-02-19 23:33
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -347,7 +352,7 @@ T My Word is My Bond|QID|14327|M|58.28,50.00|N|To Khan Leh'Prah.|
 
 A Three Princes|QID|14328|PRE|14327|M|58.28,50.00|N|From Khan Leh'Prah.|
 A Thargad's Camp|QID|14372|LEAD|14373|PRE|14327|M|57.43,47.73|N|From Karnum Marshweaver.|
-A Ghost-o-plasm Round Up|QID|6134|M|47.85,61.73|LVL|34|N|From Hornizz Brimbuzzle.|
+A Ghost-o-plasm Round Up|QID|6134|M|47.85,61.73|N|From Hornizz Brimbuzzle.|
 f Thargad's Camp|QID|14372|M|36.76,71.68|N|At Moira Steelwing.|
 T Thargad's Camp|QID|14372|M|36.65,71.31|N|To Thargad.|
 A Infernal Encroachment|QID|14373|M|36.65,71.31|N|From Thargad.|
