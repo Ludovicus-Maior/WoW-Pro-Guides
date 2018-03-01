@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2018-02-26 21:42
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip
+
+-- URL: http://wow-pro.com/node/3273/revisions/28836/view
 -- Date: 2018-01-15 19:04
 -- Who: Ludovicus
 -- Log: Some tweaks, to reduce quest log burden.
@@ -237,8 +242,8 @@ N Plant Parts|QID|10096|N|Turn in any plant parts you have.|
 T Saving the Sporeloks|QID|10096|M|80.4,64.2|N|To Lauranna Thar'well.|
 A Leader of the Darkcrest|M|79.10,64.80|QID|9730|N|From the Wanted Poster.|
 A Leader of the Bloodscale|M|79.10,64.80|QID|9817|N|From the Wanted Poster.|
-A Disturbance at Umbrafen Lake|QID|9716|LVL|61|M|78.40,62.10|N|From Ysiel Windsinger.|
-A Warden Hamoot|QID|9778|LEAD|9728|LVL|61|M|78.40,62.10|N|From Ysiel Windsinger.|
+A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.10|N|From Ysiel Windsinger.|
+A Warden Hamoot|QID|9778|LEAD|9728|M|78.40,62.10|N|From Ysiel Windsinger.|
 T Warden Hamoot|QID|9778|M|79.10,65.20|N|To Warden Hamoot, at the top of the tower.|
 A A Warm Welcome|QID|9728|M|79.10,65.20|N|From Warden Hamoot, at the top of the tower.|
 ; Back to Telredor
@@ -302,8 +307,8 @@ H Cenarion Refuge|ACTIVE|9732|N|Hearth to Cenarion Refuge.|U|6948|M|78.50,63.00|
 T Return to the Marsh|QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
 
 ; The quest "Checking up" on the following line has wrong caps on 'Up' so it does not auto-accept since it is optional.|
-A Checking up|QID|29566|LVL|62|M|78.40,62.10|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|RANK|3|
-A The Orebor Harborage|QID|9776|LVL|62|M|68.2,49.4|N|From Anchorite Ahuurn.|
+A Checking up|QID|29566|M|78.40,62.10|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|RANK|3|
+A The Orebor Harborage|QID|9776|M|68.2,49.4|N|From Anchorite Ahuurn.|
 
 R Orebor Harborage|QID|9776|N|Make your way to Orebor Harborage|
 f Orebor Harborage|QID|9776|N|Get the flight-path from Halu.|M|41.25, 29.0|
