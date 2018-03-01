@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2018-02-26 21:40
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip and added back a PRE *I* know is there!
+
+-- URL: http://wow-pro.com/node/3259/revisions/29045/view
 -- Date: 2018-02-20 01:11
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -127,7 +132,7 @@ WoWPro:GuideIcon(guide,"ACH",4935)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Thousand Needles |QID|27446|LVL|45|M|75.95,74.58|N|This quest starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles.  \n\nIf you have not quested in Thousand Needles before this point, you should fly to Shadebough, Feralas or Mudsprocket, Dustwallow Marsh.  From there, get the quest To New Thalanaar, fly to New Thalanaar, do the quest The Grimtotem are Coming, then the quest Two If By Boat.|Z|Thousand Needles|
+R Thousand Needles |QID|27446|M|75.95,74.58|N|This quest starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles.  \n\nIf you have not quested in Thousand Needles before this point, you should fly to Shadebough, Feralas or Mudsprocket, Dustwallow Marsh.  From there, get the quest To New Thalanaar, fly to New Thalanaar, do the quest The Grimtotem are Coming, then the quest Two If By Boat.|Z|Thousand Needles|
 R Fizzle & Pozzik's Speedbarge |QID|27446|N|This guide starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles, so head there first.|
 
 A Tanaris is Calling|QID|27446|LEAD|25048|M|75.95,74.58|Z|Thousand Needles|N|From Fizzle Brassbolts.|
@@ -167,7 +172,6 @@ U To The Ground!|QID|25053|U|51547|QO|1|M|71.93,48|N|The second building to set 
 C To The Ground!|QID|25053|U|51547|M|72.88,46.09|N|The last building to torch is here.|
 C Lootin' Plunder|QID|25054|US|M|71.50,46.79|N|Finish collecting Pirate Loot.|
 C Dead Man's Chest|QID|25052|US|M|72.61,46.39|N|Finish killing Pirates.|
-L Level 46|QID|25052|LVL|46|N|You should be around level 46 by this point.|
 T Dead Man's Chest|QID|25052|M|72.22,45.22|N|To Kelsey Steelspark.|
 
 A Going Off-Task|QID|26886|PRE|25052|M|72.22,45.22|N|From Kelsey Steelspark.|
@@ -206,7 +210,6 @@ C Sang'thraze the Deflector|QID|25025|M|44.88,44.32|N|Kill and loot Zakkaru.|
 T Sang'thraze the Deflector|QID|25025|M|42.28,23.86|N|To Mazoga.|
 A Darkest Mojo|QID|25026|PRE|25025|M|42.28,23.86|N|From Mazoga.|
 C Darkest Mojo|QID|25026|M|38.92,23.98|N|If zombies seem in short supply, try clicking on shallow graves.|
-L Level 47|QID|25026|LVL|47|N|You should be at least half way to level 47 by this point. If not, don't worry. (Click to continue)|
 T Darkest Mojo|QID|25026|M|42.29,23.88|N|To Mazoga.|
 A Secrets in the Oasis|QID|25032|PRE|25026|M|42.29,23.88|N|From Mazoga.|
 C Secrets in the Oasis|QID|25032|M|39.04,35.17|N|Click on the dirt pile here.|
@@ -258,7 +261,6 @@ T Define "Crazy"|QID|25060|CS|M|49.13,87.50;49.99,82.91|N|To Kelsey Steelspark.|
 T What We Came For|QID|25062|M|49.99,82.91|N|To Kelsey Steelspark.|
 A Terrapination|QID|25063|PRE|25060;25062|M|49.92,82.95|N|From Kelsey Steelspark.|
 r Sell Junk|QID|25063|M|49.99,82.77|N|At Rations Officer Flexgear.|
-L Level 48|QID|25063|LVL|48|N|You should be atleast 1/2 way to level 48 by this point. (click to continue)|
 C Terrapination|QID|25063|M|49.98,90.47|N|Turtles are in the sea.|
 T Terrapination|QID|25063|M|49.99,82.90|N|To Kelsey Steelspark.|
 
@@ -303,7 +305,7 @@ T Thunderdrome: Zumonga!|QID|25094|M|51.66,27.97|N|To Katrina Turner.|
 A Thunderdrome: Sarinexx!|QID|25095|PRE|25094|M|51.75,28.03|N|From Dr. Dealwell.|
 C Thunderdrome: Sarinexx!|QID|25095|M|51.67,28.26|N|Go inside the cage and defeat Sarinexx.|
 T Thunderdrome: Sarinexx!|QID|25095|M|51.67,27.94|N|To Katrina Turner.|
-A Thunderdrome: Grudge Match!|QID|25513|M|51.74,28.04|N|From Dr. Dealwell.|
+A Thunderdrome: Grudge Match!|QID|25513|PRE|25095|M|51.74,28.04|N|From Dr. Dealwell.|
 C Thunderdrome: Grudge Match!|QID|25513|M|51.70,28.50|N|Go inside the cage and defeat Meg's Dreadshredder.|
 T Thunderdrome: Grudge Match!|QID|25513|M|51.65,28.00|N|To Katrina Turner.|
 N WKJezzwww.wow-pro.com|N|Well done on your achievement! If you did not get a distress beacon, it's ok to be honest as going to Booty Bay to turn it in is not very time effective anymore. See you in Un'Goro! (Close this step to continue)|
