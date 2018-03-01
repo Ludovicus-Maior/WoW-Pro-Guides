@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
+-- Date: 2018-02-27 17:59
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip
+
+-- URL: http://wow-pro.com/node/3288/revisions/29109/view
 -- Date: 2018-02-22 23:01
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -154,7 +159,7 @@ T Landing the Killing Blow |QID|11233|M|78.63,37.03|N|To Dark Ranger Lyana.|
 A Report to Anselm |QID|11234|PRE|11233|N|From Dark Ranger Lyana.|
 T Report to Anselm |QID|11234|N|To High Executor Anselm.|M|78.7,31.2|
 T Trail of Fire |QID|11241|M|78.6,29.0|N|To Apothecary Lysander.|
-A New Agamand |QID|11304|N|From Apothecary Lysander.|M|78.5,29.0|LVL|71|PRE|11170| ;add lvl & pre
+A New Agamand |QID|11304|N|From Apothecary Lysander.|M|78.5,29.0|PRE|11170|
 T The Offensive Begins |QID|11295|N|Head southwest to the Vengeance Lift, take it up and ride further southwest. To Sergeant Gorth.|M|71.1,39.1|
 A A Lesson in Fear |QID|11282|PRE|11295|N|From Sergeant Gorth.|M|71.1,39.1|
 A Help for Camp Winterhoof |QID|12566|M|71.5,39.2|N|From Longrunner Nanik.|
