@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
+-- Date: 2018-02-27 17:45
+-- Who: Ludovicus_EditBot
+-- Log: LVL correction
+
+-- URL: http://wow-pro.com/node/3245/revisions/29093/view
 -- Date: 2018-02-20 21:42
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -195,7 +200,7 @@ T To Camp Mojache|QID|25387|M|74.61,42.91|N|To Chief Spirithorn.|
 A The Hilltop Threat|QID|25373|M|74.60,42.89|N|From Chief Spirithorn.|
 A Twisted Sisters|QID|25349|M|74.60,42.89|N|From Chief Spirithorn.|
 A War on the Woodpaw|QID|25363|M|74.92,42.52|N|From Hadoken Swiftstrider.|
-A The Highborne|QID|27132|LEAD|27113|LVL|41|M|74.92,42.52|N|From Hadoken Swiftstrider. Pick this up if you'd like to do Dire Maul.|O|
+A The Highborne|QID|27132|LEAD|27113|LVL|36|M|74.92,42.52|N|From Hadoken Swiftstrider. Pick this up if you'd like to do Dire Maul.|O|
 A The Darkmist Ruins|QID|25643|M|75.07,42.78|N|From Sage Palerunner.|
 h Camp Mojache Longhouse|QID|25338|M|74.79,45.12|N|At Innkeeper Greul.|
 f Camp Mojache|QID|25338|M|75.46,44.36|N|Get the flight point from Shyn.|
