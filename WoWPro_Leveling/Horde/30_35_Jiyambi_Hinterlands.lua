@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
+-- Date: 2018-02-27 17:43
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3240/revisions/29089/view
 -- Date: 2018-02-20 21:34
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -69,8 +74,6 @@ WoWPro:GuideIcon(guide,"ACH",4897)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 29 |QID|28619|LVL|29|N|This guide requires a minimum level of 29 to do.|
-
 A Revantusk Village|QID|26430|M|69.00,34.78|Z|Arathi Highlands|N|From Drum Fel|
 A Revantusk Village|QID|26430|M|69.00,34.78|Z|Arathi Highlands|N|From Drum Fel. He can be found in Hammerfall (Arathi Highlands)\n\nIf you've not been to Hammerfall before, head along the road from Hillsbrad Foothills (watching out for one Level 30 mob walking along the road near Refuge Point)|
 F The Hinterlands|QID|26430|M|68.19,33.44|N|Speak to Urda, the Bat Handler and ask for a ride to Revantusk Village.|CHAT|
@@ -97,8 +100,6 @@ T Lard Lost His Lunch|QID|26212|N|To Lard.|M|78.20,81.30|
 T Gammerita, Mon!|QID|26210|M|80.31,81.48|N|To Katoom the Angler.|
 T Snapjaws, Mon!|QID|26211|M|80.31,81.48|N|To Katoom the Angler.|
 T Pupellyverbos Port|QID|26225|M|77.30,79.80|N|To Grognard.|
-
-L Level 30 |QID|28619|LVL|30|N|You need to be Level 30 to continue with this guide.|
 
 A The Savage Dwarves|QID|26238|M|78.16,81.37|N|From Elder Torntusk, upstairs in the Inn.|
 A Thornar Thunderclash|QID|26263|M|78.16,81.37|N|From Elder Torntusk.|
