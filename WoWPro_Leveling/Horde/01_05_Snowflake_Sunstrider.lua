@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2018-02-27 17:39
+-- Who: Ludovicus_EditBot
+-- Log: Level Strip
+
+-- URL: http://wow-pro.com/node/3207/revisions/29192/view
+-- Date: 2018-02-27 00:05
+-- Who: Ludovicus_EditBot
+-- Log: Level strip - Sunstrider
+
+-- URL: http://wow-pro.com/node/3207/revisions/29077/view
 -- Date: 2018-02-20 01:57
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - Eversong
@@ -250,16 +260,6 @@
 -- Who: Crackerhead22
 -- Log: Added missing steps/quests.
 
--- URL: http://wow-pro.com/node/3207/revisions/23596/view
--- Date: 2010-12-05 06:45
--- Who: Crackerhead22
--- Log: Added missing class quests.
-
--- URL: http://wow-pro.com/node/3207/revisions/23595/view
--- Date: 2010-12-05 05:55
--- Who: Crackerhead22
--- Log: Changed |R|Blood Elf| to |R|BloodElf| so the Blood Elf only quests will show.
-
 local guide = WoWPro:RegisterGuide("SnoSun0105", "Leveling", "Sunstrider Isle", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,1,5, 1.78882)
 WoWPro:GuideNextGuide(guide, "SnoEve0512")
@@ -272,13 +272,9 @@ A Reclaiming Sunstrider Isle|QID|8325|R|BloodElf|M|61.04,45.13|N|From Magistrix 
 C Mana Wyrm |QID|8325|R|BloodElf|M|55.90,47.60|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|
 T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|M|61.04,45.13|N|To Magistrix Erona.|
 
-L Level 2|LVL|2|N|Kill any mobs in the area you need to get Level 2.|QID|8326|
-
 A Unfortunate Measures|QID|8326|PRE|8325|R|BloodElf|M|60.98,45.11|N|From Magistrix Erona.|
 C Unfortunate Measures |QID|8326|R|BloodElf|M|67.15,38.94|N|Kill and loot Springpaw Lynxs and Cubs for the Lynx collars.|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|60.98,45.11|N|To Magistrix Erona.|
-
-L Level 3|LVL|3|N|You should be Level 3 to by this point, if not kill anything in the area until then.|QID|8327|R|BloodElf|
 
 A Report to Lanthan Perilon |QID|8327|PRE|8326|R|BloodElf|M|61.04,45.13|N|From Magistrix Erona.|
 
