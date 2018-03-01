@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2018-02-26 21:43
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3279/revisions/29051/view
 -- Date: 2018-02-20 01:17
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -193,7 +198,6 @@ C Talbuk Mastery|N|Kill the Talkbuks needed for this quest, they are around the 
 C Clefthoof Mastery|N|Kill the Clefthoofs needed for this quest.|QID|9789|M|64.00,48.00|
 C Talbuk Mastery|N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|US|
 l I Must Have Them!|N|Kill Air Elementals until you get 3x Air Elemental Gas.|QID|10109|M|69.4,56.9|US|L|27807 3|
-L Level 66 or 75,000 xp |QID|9789|N|Kill mobs until you are level 66 or get 75,000 xp, whichever takes longer. |LVL|66|
 T Clefthoof Mastery|QID|9789|M|71.6,40.5|N|To Hemet Nesingwary.|
 A Clefthoof Mastery|QID|9850|PRE|9789|M|71.6,40.5|N|From Hemet Nesingwary.|
 T Windroc Mastery|QID|9854|M|71.6,40.5|N|To Shado 'Fitz' Farstrider.|
