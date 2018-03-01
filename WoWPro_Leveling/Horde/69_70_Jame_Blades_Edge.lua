@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2018-02-27 17:55
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3282/revisions/29107/view
 -- Date: 2018-02-22 22:59
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -374,8 +379,7 @@ A The Hound-Master|QID|10912|PRE|10911|M|65.16,69.93|N|From Evergrove Druid.|
 C The Hound-Master|QID|10912|U|31809|M|63.57,59.18|N|Head over to Baelmon, use the Evergrove Wand and then kill him.|
 T The Hound-Master|QID|10912|M|62.53,38.77|N|Find Wildlord Antelarion wandering around the moonwell.|
 
-N Note:|QID|10989|M|55.44,44.92|LVL|70|N|The following quests are for zone quest achievement completion, you must be level 70.|
-
+; The following quests are all now level 65!
 A Mog'dorg the Wizened|QID|10989|M|55.43,45.32|N|From Chort.|
 T Mog'dorg the Wizened|QID|10989|M|55.44,44.92|N|To Mog'dorg the Wizened, up the tower.|
 A Grulloc Has Two Skulls|QID|10995|PRE|10989|M|55.44,44.92|N|From Mog'dorg the Wizened.|
