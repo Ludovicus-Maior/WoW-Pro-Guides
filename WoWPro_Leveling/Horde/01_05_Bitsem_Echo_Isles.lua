@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-02-27 00:11
+-- Who: Ludovicus_EditBot
+-- Log: Level Strip - Durotar
+
+-- URL: http://wow-pro.com/node/3199/revisions/29188/view
+-- Date: 2018-02-26 23:03
+-- Who: Ludovicus_EditBot
+-- Log: Level Strip - Echo
+
+-- URL: http://wow-pro.com/node/3199/revisions/29073/view
 -- Date: 2018-02-20 01:51
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - Durotar
@@ -276,19 +286,6 @@
 --	- Removed |RANK|1| tags as they are not needed.
 --	- Rephrased 'The Ancient Enemy' note and added an extra set of coordinates because the current one gives the impression that you have to go into the cave as opposed to on top of it. (I spent 20 minutes in the cave trying to figure out where I was suppose to go.)
 
--- URL: http://wow-pro.com/node/3199/revisions/25944/view
--- Date: 2014-04-24 06:43
--- Who: Hendo72
--- Log: Valley of Trials
---	- Removed |RANK|1| commands as they are not needed. (In my opinion)
---	- Changed |CC| to |CS| in "T Back to the Den"... The player might not take the exact route prescribed.
---	- Added QID to Hearth step as well as coords in case their HS is on CD.
-
--- URL: http://wow-pro.com/node/3199/revisions/25855/view
--- Date: 2013-12-26 21:33
--- Who: Ludovicus_Maior
--- Log: Changed some CN to CS so they clean up right.  Made things safe for goblins.
-
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.05357)
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
@@ -416,8 +413,6 @@ T Proving Pit|QID|26276|C|Warlock|M|51.40,52.59|N|To Voldreka.|
 T Proving Pit|QID|24786|C|Priest|M|57.57,52.68|N|To Tunari.|
 T Proving Pit|QID|24762|C|Shaman|M|51.40,52.59|N|To Nekali.|
 T Proving Pit|QID|24780|C|Hunter|M|57.22,50.78|N|To Ortezza.|
-
-L Level 3 |QID|31162;24766;24752;24772;24640;26274;24784;24760;24778|LVL|3|N|You need to be Level 3 to continue with this guide.|
 
 A More Than Expected|QID|31163|PRE|31161|C|Monk|M|52.56,51.84|N|From Zabrax.|
 A More Than Expected|QID|24769|PRE|24768|C|Druid|M|58.04,53.82|N|From Zen'tabra.|
