@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2018-02-26 22:59
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3604/revisions/29064/view
 -- Date: 2018-02-20 01:38
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -248,10 +253,6 @@
 
 -- URL: http://wow-pro.com/node/3604/revisions/26703/view
 -- Date: 2014-10-01 01:29
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3604/revisions/26700/view
--- Date: 2014-09-29 21:06
 -- Who: Fluclo
 
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
@@ -900,12 +901,10 @@ T Gloomshade Game Hunter|QID|33461|M|37.92,63.49|Z|Lunarfall|N|To Arsenio Zerep 
 
 J Garrison Buldings|GUIDE|LudoBuildingsAlliance|N|Check in to see if there are any building quests to do.|
 
+A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|90|
+
 ; Having this quest and the [Ashran Appearance] quest causes the Ashran one not to complete.
 A The Secrets of Gorgrond |QID|33533;35556;36632|N|Moving onto Gorgrond next? Accept this quest from your Bulletin Board.|LEAD|35033|LVL|92|M|42.65,44.74|Z|Lunarfall|
-
-;Level 94 quests in Shadowmoon Valley
-;Will only show if you've reached Level 94 when finishing Shadowmoon Valley quests.  This will switch us to the "On Shadows Trail Guide"
-A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|94|
 
 D Zone Finished|QID|33533;35556;36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
 
