@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2018-02-24 20:42
+-- Who: Ludovicus_EditBot
+-- Log: L-evel strip
+
+-- URL: http://wow-pro.com/node/3222/revisions/29018/view
 -- Date: 2018-02-19 23:25
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -216,8 +221,6 @@ A Classy Glass|QID|26685|M|79.53,47.41|N|From Viktori Prism'Antras.|PRE|26684|
 T Juice Delivery|QID|26676|M|87.45,35.38|N|To Abercrombie.|
 A Ogre Thieves|QID|26680|M|87.45,35.38|N|From Abercrombie.|PRE|26676|
 
-L Level 21 |QID|26666|N|You need to be level 21 to continue with this guide.|LVL|21|
-
 A The Legend of Stalvan|QID|26666|M|79.04,44.23|N|From Tobias Mistmantle.|
 A Worgen in the Woods|QID|26688|M|75.28,47.95|N|From Calor.|
 T The Legend of Stalvan|QID|26666|M|72.50,46.87|N|To Clerk Daltry.|
@@ -245,8 +248,6 @@ C Classy Glass|QID|26685|M|37.84,84.33|N|Head to the back of the cave, kill and 
 C Vulgar Vul'Gol|QID|25235|M|41.91,68.86|US|N|Finish killing Splinter Fist Ogres.|
 
 T Vulgar Vul'Gol|QID|25235|M|45.18,66.95|N|To Watcher Dodds.|
-
-L Level 22 |QID|26707|N|You need to be level 22 to continue with this guide.|LVL|22|
 
 A The Yorgen Worgen|QID|26717|M|44.81,67.32|N|From Apprentice Fess.|S|
 A A Deadly Vine|QID|26707|M|44.81,67.32|N|From Apprentice Fess.|
