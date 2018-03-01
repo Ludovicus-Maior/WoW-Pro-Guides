@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2018-02-27 17:51
+-- Who: Ludovicus_EditBot
+-- Log: Altruis LVL changes
+
+-- URL: http://wow-pro.com/node/3280/revisions/29106/view
 -- Date: 2018-02-22 22:57
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -191,10 +196,9 @@ N Nagrand Cherry and Stuff|QID|9804|N|Keep the Nagrand Cherry unless you can cas
 C Agitated Spirits of Skysong|N|Kill Lake Spirits in the lake until you finish this quest.|QID|9804|U|24421|
 T Agitated Spirits of Skysong|QID|9804|M|60.5,22.4|N|To Elementalist Lo'ap.|
 
-L Level 65|QID|9858|LVL|65|N|You should be around level 65 by now|
 A Blessing of Incineratus |QID|9805|PRE|9804|M|60.5,22.4|N|From Elementalist Lo'ap.|
-A Missing Mag'hari Procession |LVL|65|QID|9944|N|From Matron Drakia.|M|56.7,34.2|
-A Proving Your Strength |QID|10479|LVL|65|N|From Warden Bullrok |M|55.79,37.95|
+A Missing Mag'hari Procession |QID|9944|N|From Matron Drakia.|M|56.7,34.2|
+A Proving Your Strength |QID|10479|N|From Warden Bullrok |M|55.79,37.95|
 T Talbuk Mastery|QID|9858|M|71.6,40.5|N|To Harold Lane.|
 A Talbuk Mastery|QID|9859|PRE|9858|M|71.6,40.5|N|From Harold Lane.|
 T Clefthoof Mastery|QID|9850|M|71.55,40.76|N|To Hemet Nesingwary.|
@@ -303,8 +307,7 @@ A The Ultimate Bloodsport |QID|9852|PRE|9856;9859;9851|N|From Hemet Nesingwary.|
 T Wanted: Giselda the Crone |QID|9935|M|56.0,38.0|N|To Warden Bullrok.|
 T Murkblood Invaders |QID|9872|N|To Garrosh.|
 
-L Level 66|QID|9849|LVL|66|N|You should be around level 66 by now|
-A He Called Himself Altruis... |QID|9983|LVL|66|M|55.2,36.2|N|From Matron Celestine.|
+A He Called Himself Altruis... |QID|9983|M|55.2,36.2|N|From Matron Celestine.|
 T Shattering the Veil |QID|9849|M|61.8,24.4|N|To Gordawg.|
 A Gurok the Usurper |QID|9853|PRE|9849|N|From Gordawg.|M|61.8,24.4|
 N Things to do |QID|9948|N|Time to start looking for help. You're in the right general area for the Ring of Blood questline, you will, however, need a full group of 65+ people with a good tank and healer, or high level help. The rewards, however, are very good, so call in whatever help you can.|
@@ -391,8 +394,8 @@ l Fel Cannon Activator|QID|10011|L|25771|M|19.54,51.17|N|Kill and loot Xirkos, O
 C Forge Camp: Annihilated|QID|10011|QO|2|U|25771|M|19.31,50.86|N|Use the Fel Cannon Activator next to the Fel Cannon: Fear.|
 T Forge Camp: Annihilated|QID|10011|M|27.32,43.07|N|To Altruis the Sufferer.|
 
-L Level 68|QID|10641|N|The following quests require level 68.|LVL|68|
-N The rest...|N|The following quests Altruis gives (after this note), require level 68 have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
+L Level 67|QID|10641|N|The following quests require level 67.|LVL|67|
+N The rest...|N|The following quests Altruis gives (after this note), require level 67 have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
 A Against the Legion|QID|10641|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
 A Against the Illidari|QID|10668|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
 A Against All Odds|QID|10669|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
