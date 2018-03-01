@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2018-02-27 17:49
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip and ACTIVE tag
+
+-- URL: http://wow-pro.com/node/3272/revisions/29103/view
 -- Date: 2018-02-22 22:55
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -194,9 +199,9 @@ A Apothecary Antonivich |QID|10835|PRE|10538|M|61.15,81.78|N|From Apothecary Alb
 A The Eyes of Grillok |QID|10813|M|61.65,81.85|N|From Zezzak.|
 F Thrallmar|QID|10388|M|61.65,81.19|N|Fly to Thrallmar.|
 
-A Falcon Watch |QID|9498|LEAD|9340|R|Tauren, Orc, Troll, Undead, Goblin, Pandaren|LVL|60|M|55.23,39.10|N|From Martik Tir'seldori.|
+A Falcon Watch |QID|9498|LEAD|9340|R|Tauren, Orc, Troll, Undead, Goblin, Pandaren|M|55.23,39.10|N|From Martik Tir'seldori.|
 A Falcon Watch |QID|9499|LEAD|9340|R|Blood Elf|M|55.23,39.10|N|From Martik Tir'seldori.|
-B Expert Riding|QID|10388|LVL|60|M|54.16,41.61|N|Expert Riding may be purchased for 225g, From Wind Rider Jahubo.  If this is your first time playing, you will also need 50g for a flying mount, from Bana Wildmane. * Note all mounts are now BOA *|  ; Spell ID is 34090
+B Expert Riding|ACTIVE|10388|M|54.16,41.61|LVL|60|N|Expert Riding may be purchased for 225g, From Wind Rider Jahubo.  If this is your first time playing, you will also need 50g for a flying mount, from Bana Wildmane. * Note all mounts are now BOA *|  ; Spell ID is 34090
 T Return to Thrallmar |QID|10388|M|55.02,35.96|N|To Nazgrel.|
 A Forge Camp: Mageddon |QID|10390|PRE|10388|M|55.02,35.96|N|From Nazgrel.|
 A The Assassin |QID|9400|M|55.02,35.96|N|From Nazgrel.|
