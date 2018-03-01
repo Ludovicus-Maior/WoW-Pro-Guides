@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-02-24 20:36
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL Dun
+
+-- URL: http://wow-pro.com/node/3200/revisions/29154/view
+-- Date: 2018-02-24 20:34
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL gnome
+
+-- URL: http://wow-pro.com/node/3200/revisions/29007/view
 -- Date: 2018-02-19 23:14
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags - DunM
@@ -240,16 +250,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Added Monk quests and got rid of extra spaces and spell corrections.
 
--- URL: http://wow-pro.com/node/3200/revisions/25131/view
--- Date: 2012-10-08 22:49
--- Who: Ludovicus_Maior
--- Log: Add Dwarf Monk starter quests.
-
--- URL: http://wow-pro.com/node/3200/revisions/24869/view
--- Date: 2011-12-14 21:36
--- Who: Fluclo
--- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
-
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1.81013)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -382,7 +382,7 @@ r Sell and Repair|M|49.67,51.92|QID|26364|N|Take this opportunity to sell junk a
 T Down with Crushcog!|QID|26364|M|48.75,52.90|N|To Jarvi Shadowstep|
 A On to Kharanos|PRE|26364|QID|26373|LEAD|25724|M|48.75,52.90|N|From Jarvi Shadowstep.|
 
-A Bound for Kharanos|QID|26380|M|49.91,44.98|Z|Dun Morogh|N|From Ciara Deepstone, on the road east towards Kharanos.|LVL|2|
+A Bound for Kharanos|QID|26380|M|49.91,44.98|Z|Dun Morogh|N|From Ciara Deepstone, on the road east towards Kharanos.|
 
 ]]
 end)
