@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2018-02-27 17:56
+-- Who: Ludovicus_EditBot
+-- Log: One zone, one level!
+
+-- URL: http://wow-pro.com/node/3286/revisions/29108/view
 -- Date: 2018-02-22 23:00
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -102,8 +107,6 @@ WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 67|QID|11048|N|You need to be Level 67 to work this guide.|LVL|67| ;add lvl tag
-
 A Kroghan's Report|QID|11048|LEAD|10595|M|55.37,37.47|Z|Nagrand|N|From Captain Kroghan in Nagrand.|
 F Shadowmoon Village|QID|11048|M|57.19,35.28|Z|Nagrand|N|Fly to Shadowmoon Village, Shadowmoon Valley.|
 T Kroghan's Report|QID|11048|M|30.39,32.42|N|To Blood Guard Gulmok.|
@@ -182,12 +185,10 @@ C Gaining Access|QID|10604|M|23.93,32.97|N|Kill Mo'arg Weaponsmiths until the Le
 T Gaining Access|QID|10604|M|30.38,32.46|N|To Blood Guard Gulmok.|
 T A Grunt's Work...|QID|10702|M|28.49,26.47|N|To Overlord Or'barokh.|
 
-L Level 68|LVL|68|QID|10778|N|You should be around level 68 now|
-
-A The Path of Conquest|QID|10750|M|28.47,26.48|N|From Overlord Or'barokh.|LVL|68|
-A The Hand of Gul'dan|QID|10681|PRE|10680|M|28.47,26.48|N|From Earthmender Splinthoof.|LVL|68|
+A The Path of Conquest|QID|10750|M|28.47,26.48|N|From Overlord Or'barokh.|
+A The Hand of Gul'dan|QID|10681|PRE|10680|M|28.47,26.48|N|From Earthmender Splinthoof.|
 T The Hand of Gul'dan|QID|10681|M|42.22,45.03|N|To Earthmender Torlok.|
-A Enraged Spirits of Fire and Earth|QID|10458|PRE|10680+10681|M|42.22,45.03|N|From Earthmender Torlok.|LVL|68|
+A Enraged Spirits of Fire and Earth|QID|10458|PRE|10680+10681|M|42.22,45.03|N|From Earthmender Torlok.|
 K Enraged Earth Spirit|QID|10458|U|30094|QO|1|M|42.73,47.86;46.59,52.15|CN|N|Use the totem and kill Enraged Earth Spirits between these points.|
 C Enraged Spirits of Fire and Earth|QID|10458|QO|2|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits.|
 T Enraged Spirits of Fire and Earth|QID|10458|M|42.18,45.05|N|To Earthmender Torlok.|
