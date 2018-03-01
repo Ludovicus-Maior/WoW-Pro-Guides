@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
+-- Date: 2018-02-24 17:55
+-- Who: Ludovicus_EditBot
+-- Log: King Anduin Wrynn
+
+-- URL: http://wow-pro.com/node/3369/revisions/28485/view
 -- Date: 2017-03-17 00:14
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -300,7 +305,7 @@ C The Battle For The Ebon Hold |QID|13166|N|Use the pink teleporter. Have the NP
 T The Battle For The Ebon Hold |QID|13166|N|To Highlord Darion Mograine.|M|83.4,49.4|
 A Where Kings Walk |QID|13188|PRE|13166|FACTION|Alliance|M|83.4,49.4|N|From Highlord Darion Mograine.|
 R Stormwind City|QID|13188|M|83.65,51.36|N|Click on the portal to go to Stormwind.|FACTION|Alliance|
-T Where Kings Walk |QID|13188|Z|Stormwind City|M|85.6,31.8|N|To King Varian Wrynn.|FACTION|Alliance|
+T Where Kings Walk |QID|13188|Z|Stormwind City|M|85.6,31.8|N|To King Anduin Wrynn.|FACTION|Alliance|
 
 A Saurfang's Blessing |QID|13189|PRE|13166|FACTION|Horde|M|83.4,49.4|N|From Highlord Darion Mograine.|
 R Orgrimmar|QID|13189|M|84.58,50.49|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
