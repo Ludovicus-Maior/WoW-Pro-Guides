@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-02-27 17:38
+-- Who: Ludovicus_EditBot
+-- Log: Level strip and ACTIVE tags.
+
+-- URL: http://wow-pro.com/node/3205/revisions/29190/view
+-- Date: 2018-02-27 00:03
+-- Who: Ludovicus_EditBot
+-- Log: Level strip - Deathknell
+
+-- URL: http://wow-pro.com/node/3205/revisions/29075/view
 -- Date: 2018-02-20 01:54
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - Tirisfal
@@ -242,19 +252,17 @@ A The New Forsaken|QID|24982|LEAD|24983|M|52.48,54.86|N|From Deathguard Dillinge
 C A Putrid Task|QID|25090|M|54.03,51.19|N|Kill and loot the nearby zombies.|
 T A Putrid Task|QID|25090|M|52.53,54.85|N|To Deathguard Dillinger.|
 
-R Brill|QID|24982|M|58.83,51.93|N|Follow the road east.|
+R Brill|ACTIVE|24982|M|58.83,51.93|N|Follow the road east.|
 
-f Brill|QID|24982|M|58.83,51.93|N|At Anette Williams.|
+f Brill|ACTIVE|24982|M|58.83,51.93|N|At Anette Williams.|
 
 A Supplying Brill|QID|6321|M|60.15,52.40|R|Undead|N|From Deathguard Morris.|
 T Gordo's Task|QID|25038|M|60.11,52.65|N|To Junior Apothecary Holland.|
 
-L Level 6|QID|24990|LVL|6|N|You need to be level 6 to continue with this guide.|
-
 A Darkhound Pounding|QID|24990|M|60.11,52.65|N|From Junior Apothecary Holland.|PRE|24977|
 A A Thorn in our Side|QID|24981|M|60.50,51.92|N|From Executor Zygand.|
 
-h Brill|QID|24982|M|60.87,51.55|N|At Innkeeper Renee.|
+h Brill|ACTIVE|24982|M|60.87,51.55|N|At Innkeeper Renee.|
 
 T The New Forsaken|QID|24982|M|60.95,50.58|N|To Magistrate Sevren, upstairs at the inn.|
 
@@ -263,7 +271,7 @@ T Supplying Brill|QID|6321|M|58.87,51.96|R|Undead|N|To Anette Williams.|
 
 A Ride to the Undercity|QID|6323|PRE|6321|M|58.87,51.96|R|Undead,Troll|N|From Anette Williams.|
 
-F Undercity|QID|6323|M|58.87,51.96|R|Undead,Troll|N|Talk to Anette Williams.|
+F Undercity|ACTIVE|6323|M|58.87,51.96|R|Undead,Troll|N|Talk to Anette Williams.|
 
 T Ride to the Undercity|QID|6323|M|61.63,41.87|Z|Undercity|R|Undead,Troll|N|To Gordon Wendham.|
 
@@ -272,7 +280,7 @@ T Michael Garrett|QID|6322|M|63.21,48.30|Z|Undercity|R|Undead|N|To Michael Garre
 
 A Return to Morris|QID|6324|PRE|6322|M|63.21,48.30|Z|Undercity|R|Undead|N|From Michael Garrett.|
 
-F Brill|QID|6324|M|63.21,48.30|Z|Undercity|R|Undead|N|Talk to Michael Garrett.|
+F Brill|QID|ACTIVE|M|63.21,48.30|Z|Undercity|R|Undead|N|Talk to Michael Garrett.|
 
 T Return to Morris|QID|6324|M|60.15,52.33|R|Undead|N|To Deathguard Morris.|
 T Forsaken Duties|QID|24983|M|65.41,60.22|N|To Deathguard Linnea.|
@@ -291,9 +299,9 @@ T The Chill of Death|QID|24988|M|65.22,60.36|N|To Gretchen Dedmar.|
 
 A Return to the Magistrate|QID|24989|M|65.48,60.23|N|From Deathguard Linnea.|PRE|24988|
 
-H Brill|QID|24988|M|60.15,52.64|N|Run back if your hearth is down.|ACTIVE|24988|
+H Brill|ACTIVE|24989|M|60.15,52.64|N|Run back if your hearth is down.|
 
-r Eliza Callen |QID|24989|M|60.76,50.97|N|Take this opportunity to sell and repair with Eliza Callen, who is at the foot of the stairs towards Magistrate Sevren.|S|ACTIVE|24989|T|Eliza Callen|
+r Eliza Callen |ACTIVE|24989|M|60.76,50.97|N|Take this opportunity to sell and repair with Eliza Callen, who is at the foot of the stairs towards Magistrate Sevren.|T|Eliza Callen|
 T Return to the Magistrate|QID|24989|M|61.05,50.55|N|To Magistrate Sevren.|
 T Darkhound Pounding|QID|24990|M|60.15,52.64|N|To Junior Apothecary Holland.|
 
@@ -309,7 +317,7 @@ T A Thorn in our Side|QID|24981|M|60.50,51.92|N|To Executor Zygand.|
 C Annihilate the Worgen|QID|24993|M|58.44,51.57|N|They are stealthed all around Brill. You'll be able to spot them by the rings of dust they kick up when they move.|
 T Annihilate the Worgen|QID|24993|M|60.54,51.89|N|To Executor Zygand.|
 
-R Garren's Haunt|QID|24991|M|61.63,34.63|N|Follow the road north.|ACTIVE|24991|
+R Garren's Haunt|ACTIVE|24991|M|61.63,34.63|N|Follow the road north.|
 T Garren's Haunt|QID|24991|M|61.63,34.63|N|To Apothecary Jerrod.|
 
 A Doom Weed|QID|24994|M|61.63,34.63|N|From Apothecary Jerrod.|
@@ -335,7 +343,7 @@ T Planting the Seed of Fear|QID|24999|M|61.57,34.42|N|To Apprentice Crispin.|
 T Off the Scales|QID|24995|M|61.61,34.55|N|To Apothecary Jerrod.|
 
 A Head for the Mills|QID|25031|LEAD|25003|M|61.61,34.55|N|From Apothecary Jerrod.|PRE|24995;24998;24999|
-R Agamand Mills|QID|25031|M|54.61,29.82|N|Follow the road past Maggot Eye's house, up the hill to the mills.|
+R Agamand Mills|ACTIVE|25031|M|54.61,29.82|N|Follow the road past Maggot Eye's house, up the hill to the mills.|
 T Head for the Mills|QID|25031|M|54.61,29.82|N|To Coleman Farthing.|
 
 A The Family Crypt|QID|25003|M|54.61,29.82|N|From Coleman Farthing.|
@@ -356,8 +364,8 @@ T The Mills Overrun|QID|25004|M|54.55,29.85|N|To Coleman Farthing.|
 T Deaths in the Family|QID|25029|M|54.55,29.85|N|To Coleman Farthing.|
 
 A Speak with Sevren|QID|25005|M|54.55,29.85|N|From Coleman Farthing.|PRE|25004;25029|
-H Brill|QID|25005|M|54.55,29.85|N|Run back if your hearth is down.|ACTIVE|25005|
-r Eliza Callen |QID|25006|M|60.76,50.97|N|Take this opportunity to sell and repair with Eliza Callen, who is at the foot of the stairs towards Magistrate Sevren.|S|ACTIVE|25006|T|Eliza Callen|
+H Brill|ACTIVE|25005|M|54.55,29.85|N|Run back if your hearth is down.|ACTIVE|25005|
+r Eliza Callen |ACTIVE|25005|M|60.76,50.97|N|Take this opportunity to sell and repair with Eliza Callen, who is at the foot of the stairs towards Magistrate Sevren.|T|Eliza Callen|
 T Speak with Sevren|QID|25005|M|60.93,50.59|N|To Magistrate Sevren, upstairs in the inn.|
 
 A The Grasp Weakens|QID|25006|M|60.99,50.58|N|From Magistrate Sevren.|PRE|25005|
@@ -365,9 +373,9 @@ C The Grasp Weakens|QID|25006|M|62.02,52.91|N|Talk to Shadow Priestess Malia ins
 T The Grasp Weakens|QID|25006|M|60.99,50.55|N|To Magistrate Sevren.|
 
 A East... Always to the East|QID|25007|M|60.99,50.55|N|From Magistrate Sevren.|PRE|25006|
-R The Bulwark|QID|25007|M|61.99,54.95;65.73,59.80;72.32,63.62;76.69,69.43;82.58,70.72|CS|N|Take a hike to the Bulwark|
-f The Bulwark|QID|25007|N|From Timothy Cunningham.|M|83.55,69.97|
-h The Bulwark|QID|25007|M|83.08,71.93|N|At Provisioner Elda.|ACTIVE|25007|
+R The Bulwark|ACTIVE|25007|M|61.99,54.95;65.73,59.80;72.32,63.62;76.69,69.43;82.58,70.72|CS|N|Take a hike to the Bulwark|
+f The Bulwark|ACTIVE|25007|N|From Timothy Cunningham.|M|83.55,69.97|
+h The Bulwark|ACTIVE|25007|M|83.08,71.93|N|At Provisioner Elda.|
 
 A Grisly Grizzlies|QID|25056|N|From Apothecary Dithers.|M|83.25,69.26|
 T East... Always to the East|QID|25007|N|To High Executor Derrington.|M|83.22,69|
@@ -389,7 +397,7 @@ T A Deadly New Ally|QID|25010|M|87.49,43.29|N|To Lieutenant Sanders.|
 A A Daughter's Embrace|QID|25046|M|87.49,43.29|N|From Lieutenant Sanders.|PRE|25010|
 C A Daughter's Embrace|QID|25046|M|79.59,25.25|N|Head north, and take the left fork in the road towards Scarlet Watch Post. There are a lot of crusade members up here, but Lilian has a knack for getting rid of them quickly. Head to the tower and watch the scene.|
 
-H The Bulwark|QID|25046|N|Run back if your hearth is down.|ACTIVE|25013|
+H The Bulwark|ACTIVE|25013|N|Run back if your hearth is down.|
 
 T A Little Oomph|QID|25013|M|83.26,69.29|N|To Apothecary Dithers.|
 T A Daughter's Embrace|QID|25046|M|83.23,69.04|N|To High Executor Derrington.|
