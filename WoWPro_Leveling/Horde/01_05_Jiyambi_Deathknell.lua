@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-02-27 17:38
+-- Who: Ludovicus_EditBot
+-- Log: Level strip and ACTIVE tags.
+
+-- URL: http://wow-pro.com/node/3205/revisions/29190/view
+-- Date: 2018-02-27 00:03
+-- Who: Ludovicus_EditBot
+-- Log: Level strip - Deathknell
+
+-- URL: http://wow-pro.com/node/3205/revisions/29075/view
 -- Date: 2018-02-20 01:54
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - Tirisfal
@@ -228,8 +238,6 @@ C Scourge on our Perimeter|QID|26801|US|M|57.00,51.00|N|Kill zombies and skeleto
 
 T Recruitment|QID|26800|M|49.93,56.22|R|Undead|N|To Deathguard Saltain.|
 T Scourge on our Perimeter|QID|26801|M|46.61,58.83|N|To Shadow Priest Sarvis.|
-
-L Level 3|QID|24961|LVL|3|N|You need to be Level 3 to continue with this guide.|
 
 A Novice Elreth|QID|28651|LEAD|24961|PRE|28601|R|Undead|M|46.61,58.83|N|From Shadow Priest Sarvis.|
 T Novice Elreth|QID|28651|R|Undead|M|46.75,58.21|N|To Novice Elreth.|
