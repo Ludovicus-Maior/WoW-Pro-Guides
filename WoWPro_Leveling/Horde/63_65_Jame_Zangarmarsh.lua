@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2018-02-27 17:50
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip
+
+-- URL: http://wow-pro.com/node/3274/revisions/29104/view
 -- Date: 2018-02-22 22:56
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -103,8 +108,8 @@ A There's No Explanation for Fashion |QID|9769|M|84.4,54.3|N|From Magasha.|
 A No More Mushrooms! |QID|9773|M|84.4,54.3|N|From Magasha.|
 R Cenarion Refuge|QID|9747|M|78.5,62.9|N|Head over to the Cenarion Refuge.|
 ; Not everybody completes Hellfire
-T Warchief's Command: Zangarmarsh|QID|39180|N|To Ysiel Windsinger.|M|78.43,62.00|LVL|61|
-T Return to the Marsh|QID|9732|N|To Ysiel Windsinger.|M|78.43,62.00|LVL|60|
+T Warchief's Command: Zangarmarsh|QID|39180|N|To Ysiel Windsinger.|M|78.43,62.00|
+T Return to the Marsh|QID|9732|N|To Ysiel Windsinger.|M|78.43,62.00|
 h Cenarion Refuge|QID|9747|M|78.5,62.9|N|At Innkeeper Coryth Stoktron.|
 A The Dying Balance|QID|9895|N|From Lethyn Moonfire|M|78.54,63.07|
 
@@ -165,8 +170,6 @@ T A Damp, Dark Place |QID|9788|M|80.4,64.2|N|To Ikeyen.|
 T Saving the Sporeloks |QID|10096|M|80.4,64.2|N|To Lauranna Thar'well.|
 T Safeguarding the Watchers |QID|9894|M|80.4,64.7|N|To Windcaller Blackhoof.|
 r Fedryen Swiftspear|QID|9718|N|Sell junk and repair.|
-
-L Level 61|QID|9718|N|You should be level 61 now.|LVL|61|
 
 A Disturbance at Umbrafen Lake|QID|9716|M|78.4,62.0|N|From Ysiel Windsinger.|
 A Warden Hamoot|QID|9778|LEAD|9728|M|78.4,62.0|N|From Ysiel Windsinger.|
@@ -234,8 +237,6 @@ H Cenarion Refuge|QID|9775|U|9732|N|Hearth to the Cenarion Refuge.|
 R Swamprat post|QID|9775|M|84.3,55.31|N|Go to Swamprat post.|
 T Nothin' Says Lovin' Like a Big Stinger |QID|9898|M|85.0,54.0|N|To Reavij.|
 
-L Level 62|QID|9775|LVL|62|N|You should be level 62 to continue with this guide.|
-
 N Things to do |QID|9808|N|Grab Glowcap Mushrooms on sight. You'll need 10 Glowcaps(red glowing mushrooms), plus more Glowcaps if you plan on buying anything from Sporeggar.|
 
 A Report to Shadow Hunter Denjai |QID|9775|M|85.3,54.8|N|From Zurai.|
@@ -246,7 +247,7 @@ A Angling to Beat the Competition |QID|9845|M|32.2,49.6|N|From Zurjaya.|
 A WANTED: Boss Grog'ak |QID|9820|M|32.0,49.5|N|From the Wanted Poster.|
 A Wanted: Chieftain Mummaki |QID|10117|M|32.0,49.5|N|From the Wanted Poster.|
 A Stinging the Stingers |QID|9841|M|31.6,49.2|N|From Gambarinka.|
-A Burstcap Mushrooms, Mon! |QID|9814|M|32.9,48.9|N|From Witch Doctor Tor'gash.|LVL|62|
+A Burstcap Mushrooms, Mon! |QID|9814|M|32.9,48.9|N|From Witch Doctor Tor'gash.|
 
 C Burstcap Mushrooms, Mon! |QID|9814|N|They're around Zabra'jin.|M|28.9,52.6|
 A The Count of the Marshes |QID|9911|U|25459|M|32.8,59.1|N|From "Count" Ungula's Mandible.|O|
