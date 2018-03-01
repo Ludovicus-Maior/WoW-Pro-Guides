@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2018-02-24 20:43
+-- Who: Ludovicus_EditBot
+-- Log: L-evel and LVL strip.
+
+-- URL: http://wow-pro.com/node/3224/revisions/29035/view
 -- Date: 2018-02-20 01:00
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -196,25 +201,23 @@ r Repair/Restock|QID|25777|M|57.69,71.35|N|At Darvish Quickhammer.|
 R Menethil Harbor|QID|25777|M|57.07,71.67;10.53,55.66|CC|N|Click on Brisket, Slabchisel's Ram, to get a free ride to Menethil Harbor.|ACTIVE|25777|
 T Onwards to Menethil|QID|25777|M|10.53,55.66|N|To Captain Stoutfist.|
 
-L Level 19 |QID|25780|LVL|19|N|You need to be Level 19 to be able to continue this guide.|
-
 A Assault on Menethil Keep|QID|25780|M|10.53,55.66|N|From Captain Stoutfist.|
 C Assault on Menethil Keep|QID|25780|M|9.91,57.60|N|Work your way to the upper room of the keep, then kill Horghast Flarecrazed.|
 T Assault on Menethil Keep|QID|25780|M|10.50,55.71|N|To Captain Stoutfist.|
 
-A A Mother's Worries|QID|25820|M|11.83,57.90|N|From Derina Rumdnul.|LVL|20|
+A A Mother's Worries|QID|25820|M|11.83,57.90|N|From Derina Rumdnul.|
 A When Life Gives You Crabs|QID|25800|M|11.18,57.72|N|From Karl Boran.|
-A The Third Fleet|QID|25815|M|10.86,59.59|N|From First Mate Fitzsimmons.|LVL|20|
-h Deepwater Tavern|QID|25815|M|10.66,61.02|N|At Innkeeper Helbrek.|LVL|20|
-C The Third Fleet|QID|25815|M|10.64,61.69|N|In the cellar, loot the Fitzsimmons' Mead.|LVL|20|
-T The Third Fleet|QID|25815|M|10.90,59.70|N|To First Mate Fitzsimmons.|LVL|20|
+A The Third Fleet|QID|25815|M|10.86,59.59|N|From First Mate Fitzsimmons.|
+h Deepwater Tavern|QID|25815|M|10.66,61.02|N|At Innkeeper Helbrek.|
+C The Third Fleet|QID|25815|M|10.64,61.69|N|In the cellar, loot the Fitzsimmons' Mead.|
+T The Third Fleet|QID|25815|M|10.90,59.70|N|To First Mate Fitzsimmons.|
 
-A Cursed to Roam|QID|25816|M|10.90,59.70|N|From First Mate Fitzsimmons.|PRE|25815|LVL|20|
-f Menethil Harbor|QID|25820|M|09.53,59.56|N|From Shellei Brondir.|LVL|20|
+A Cursed to Roam|QID|25816|M|10.90,59.70|N|From First Mate Fitzsimmons.|PRE|25815|
+f Menethil Harbor|QID|25820|M|09.53,59.56|N|From Shellei Brondir.|
 C When Life Gives You Crabs|QID|25800|S|M|19.85,59.98|N|Kill the crabs and loot them.|
-C A Mother's Worries|QID|25820|M|19.42,58.34|N|Kill the sharks.|LVL|20|
+C A Mother's Worries|QID|25820|M|19.42,58.34|N|Kill the sharks.|
 C When Life Gives You Crabs|QID|25800|US|M|19.85,59.98|N|Kill the crabs and loot them.|
-T A Mother's Worries|QID|25820|M|11.79,57.85|N|To Derina Rumdnul.|LVL|20|
+T A Mother's Worries|QID|25820|M|11.79,57.85|N|To Derina Rumdnul.|
 T When Life Gives You Crabs|QID|25800|M|11.18,57.85|N|To Karl Boran.|
 
 A Claws from the Deep|QID|25801|M|11.18,57.85|N|From Karl Boran.|PRE|25800|
@@ -229,22 +232,20 @@ K Gobbler|QID|25801|L|3618 |M|14.43,37.44|N|Kill and loot Gobbler.|
 T Search More Hovels|QID|25804|M|13.93,34.90|N|To the Half-Buried Barrel|
 A Return the Statuette|QID|25805|M|13.93,34.90|N|From the Half-Buried Barrel|PRE|25804|
 C Claws from the Deep|QID|25801|QO|1|M|15.13,31.76|N|Finish killing Murlocs.|US|; Bluegill Murloc slain: 12/12
-T Cursed to Roam|QID|25816|M|15.25,29.48|N|To First Mate Snellig.|LVL|20|
+T Cursed to Roam|QID|25816|M|15.25,29.48|N|To First Mate Snellig.|
 
-A The Cursed Crew|QID|25817|M|15.25,29.48|N|From First Mate Snellig.|PRE|25816|LVL|20|
-C The Cursed Crew|QID|25817|M|14.06,24.34|N|Kill Cursed Sailors and Marines between the two ships.|LVL|20|
-T The Cursed Crew|QID|25817|M|15.23,29.43|N|To First Mate Snellig.|LVL|20|
-A Lifting the Curse|QID|25818|M|15.17,29.23|N|From First Mate Snellig.|PRE|25817|LVL|20|
-C Lifting the Curse|QID|25818|M|15.08,23.79|N|Kill and loot Captain Halyndor, he is on deck near the wheel.|LVL|20|
-T Lifting the Curse|QID|25818|M|14.37,24.02|N|Jump off the northside of the boat, swim down to the bottom of the ship and look for a hole. Swim in and turn the quest into the Intrepid's Locked Strongbox.|LVL|20|
+A The Cursed Crew|QID|25817|M|15.25,29.48|N|From First Mate Snellig.|PRE|25816|
+C The Cursed Crew|QID|25817|M|14.06,24.34|N|Kill Cursed Sailors and Marines between the two ships.|
+T The Cursed Crew|QID|25817|M|15.23,29.43|N|To First Mate Snellig.|
+A Lifting the Curse|QID|25818|M|15.17,29.23|N|From First Mate Snellig.|PRE|25817|
+C Lifting the Curse|QID|25818|M|15.08,23.79|N|Kill and loot Captain Halyndor, he is on deck near the wheel.|
+T Lifting the Curse|QID|25818|M|14.37,24.02|N|Jump off the northside of the boat, swim down to the bottom of the ship and look for a hole. Swim in and turn the quest into the Intrepid's Locked Strongbox.|
 
-A The Eye of Paleth|QID|25819|M|14.37,24.02|N|From the Intrepid's Locked Strongbox.|PRE|25818|LVL|20|
-H Menethil Harbor|QID|25819|M|10.58,60.59|N|Hearth back to Menethal Harbor.|LVL|20|
+A The Eye of Paleth|QID|25819|M|14.37,24.02|N|From the Intrepid's Locked Strongbox.|PRE|25818|
+H Menethil Harbor|QID|25819|M|10.58,60.59|N|Hearth back to Menethal Harbor.|
 T The Eye of Paleth|QID|25819|M|10.61,60.56|N|To Glorin Steelbrow.|
 T Claws from the Deep|QID|25801|M|11.14,57.76|N|To Karl Boran.|
 T Return the Statuette|QID|25805|M|11.14,57.76|N|To Karl Boran.|
-
-L Level 21 |QID|26980|LVL|21|N|You need to be Level 21 to be able to continue this guide.|
 
 A Swiftgear Station|QID|26980|M|10.47,55.70|N|From Captain Stoutfist.|PRE|25801;25819|LEAD|25864|
 T Swiftgear Station|QID|26980|M|26.83,26.14|N|To Shilah Slabchisel.|
@@ -300,8 +301,6 @@ T Strike the Earth!|QID|25850|M|38.67,39.48|N|To Ormer Ironbraid.|
 T Tooling Around|QID|25853|M|38.77,39.65|N|To Merrin Rockweaver.|
 T When Archaeology Attacks|QID|25849|M|38.89,39.47|N|To Prospector Whelgar.|
 
-L Level 22 |QID|26189|LVL|22|N|You need to be Level 22 to be able to continue this guide.|
-
 A The Angerfang Menace|QID|26189|M|38.89,39.47|N|From Prospector Whelgar.|PRE|25849|
 C The Angerfang Menace|QID|26189|QO|2|M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|S|; Angerfang Dragonmaw slain: 16/16
 K Gorfax Angerfang|QID|26189|M|53.33,54.44|QO|1|N|Kill Gorfax Angerfang.|ACTIVE|26189|; Gorfax Angerfang slain: 1/1
@@ -311,8 +310,6 @@ T The Angerfang Menace|QID|26189|M|38.94,39.46|N|To Prospector Whelgar.|
 A Who Wards The Greenwarden|QID|26195|M|38.94,39.46|N|From Prospector Whelgar.|PRE|25850;25853;26189|
 f Greenwarden's Grove|QID|26195|M|56.32,41.85|N|At Halana.|
 T Who Wards The Greenwarden|QID|26195|M|56.48,39.93|N|To Ferilon Leafborn.|
-
-L Level 23 |QID|26120|LVL|23|N|You need to be Level 23 to be able to continue this guide.|
 
 A The Crazed Dragonmaw|QID|26120|M|56.47,39.79|N|From Huntress Iczelia.|
 A Mired in Hatred|QID|25926|M|56.40,40.35|N|From Rethiel the Greenwarden.|
