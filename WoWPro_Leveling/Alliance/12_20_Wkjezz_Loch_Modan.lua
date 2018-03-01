@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2018-02-24 20:40
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL
+
+-- URL: http://wow-pro.com/node/3216/revisions/29032/view
 -- Date: 2018-02-20 00:55
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -221,7 +226,6 @@ A Out of Gnoll-where|QID|26842|M|35.09,46.41|N|From Mountaineer Kadrell.|
 h Stoutlager Inn|QID|26860|M|35.48,48.44|N|At Innkeeper Hearthstove.|
 A Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|N|From Vidra Hearthstove.|
 
-L Level 11 |QID|26842|LVL|11|N|You need to be Level 11 to be able to continue this guide.|
 A Looking for Lurkers|QID|25118|M|35.37,42.86|N|From Dakk Blunderblast.|
 A WANTED: The Dark Iron Spy|QID|13648|M|37.26,46.44|N|From "Wanted" sign.|
 C Thelsamar Blood Sausages|QID|26860|M|36.75,38.25|N|Kill and loot bears for their rumps.|S|
@@ -241,7 +245,6 @@ T WANTED: The Dark Iron Spy|QID|13648|M|34.60,44.50|N|To Magistrate Bluntnose.|
 T Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|N|To Vidra Hearthstove.|
 T Out of Gnoll-where|QID|26842|M|35.03,46.56|N|To Mountaineer Kadrell.|
 
-L Level 12 |QID|13636|LVL|12|N|You need to be Level 12 to be able to continue this guide.|
 A Stormpike's Orders|QID|13636|LEAD|26843|M|35.09,46.41|N|From Mountaineer Kadrell.|
 R Algaz Station|QID|13636|M|25.50,17.69|N|Take the road north to Algaz Station.|
 T Stormpike's Delivery|QID|353|M|25.50,17.69|N|To Mountaineer Stormpike.|O|
@@ -278,7 +281,6 @@ A Explorers' League Document (2 of 6)|QID|13655|M|41.35,39.00|N|From the Stolen 
 C Smells Like A Plan|QID|26928|US|M|42.92,47.90|N|Finish killing and the Bluegill Merloc's until you get the 7 glands.|
 T Explorers' League Document (2 of 6)|QID|13655|M|37.18,47.82|N|To Torren Squarejaw.|
 
-L Level 13 |QID|26932|LVL|13|N|You need to be Level 13 to be able to continue this guide.|
 A Buzz Off|QID|26932|M|35.01,46.42|N|From Mountaineer Kadrell.|PRE|26927|
 T Smells Like A Plan|QID|26928|M|34.85,49.07|N|To Cannary Caskshot.|
 A Axis of Awful|QID|26868|M|34.85,49.07|N|From Cannary Caskshot.|PRE|26928|
@@ -297,7 +299,6 @@ T Buzz Off|QID|26932|M|35.01,46.84|N|To Mountaineer Kadrell.|
 T Axis of Awful|QID|26868|M|34.86,49.03|N|To Cannary Caskshot.|
 T A Load of Croc|QID|26929|M|34.86,49.03|N|To Cannary Caskshot.|
 
-L Level 14 |QID|13639|LVL|14|N|You need to be Level 14 to be able to continue this guide.|
 A Resupplying the Excavation|QID|13639|M|37.26,47.60|N|From Jern Hornhelm.|PRE|26868|
 C Resupplying the Excavation|QID|13639|NC|M|56.39,65.97|N|Head to the waypoint to find Huldar, Miran and Saean.|
 T Resupplying the Excavation|QID|13639|M|56.39,65.97|N|To Huldar.|
@@ -328,7 +329,6 @@ A Foxtails By The Handful|QID|27030|M|81.87,61.88|N|From Marek Ironheart.|
 
 f Farstrider Lodge|QID|27031|M|81.96,64.10|N|At Eeryven Grayer. |
 
-L Level 15 |QID|27031|LVL|15|N|You need to be Level 15 to be able to continue this guide.|
 A Wing Nut|QID|27031|M|81.70,64.59|N|From Bingles Blastenheimer.|
 C Wing Nut|QID|27031|M|75.15,73.70|N|Kill and loot Golden Eagles for their feathers.|
 C Foxtails By The Handful|QID|27030|M|68.77,42.89|S|N|Kill and loot foxes until you get 7 Fluffy Fox Tails.|
