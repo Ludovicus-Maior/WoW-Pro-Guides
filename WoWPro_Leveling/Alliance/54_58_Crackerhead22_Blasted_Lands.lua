@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2018-02-26 21:41
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL strip
+
+-- URL: http://wow-pro.com/node/3267/revisions/29048/view
 -- Date: 2018-02-20 01:14
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -130,8 +135,6 @@ WoWPro:GuideNextGuide(guide, 'JamHel6062')
 WoWPro:GuideIcon(guide,"ACH",4909)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 54|QID|25715|LVL|54|N|You need to be Level 54 to do this guide.|
 
 T Hero's Call: Blasted Lands!|QID|28673|M|60.11,13.67|Z|Blasted Lands|N|Enter the building and go up one floor to Quartermaster Lungertz.|O|
 T Blasted Lands: The Other Side of the World|QID|28857|M|60.11,13.67|N|To Quartermaster Lungertz.|O|
