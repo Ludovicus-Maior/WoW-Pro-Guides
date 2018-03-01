@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2018-02-27 17:42
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3230/revisions/29085/view
 -- Date: 2018-02-20 21:07
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -85,8 +90,6 @@ WoWPro:GuideNextGuide(guide, 'JiyHin3035')
 WoWPro:GuideIcon(guide,"ACH",4896)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 25 |QID|28619|LVL|25|N|This guide requires a minimum level of 25 to do.|
 
 R Galen's Fall|M|13.23,34.86|QID|28619;28572|N|Get Warchief's Command: Arathi Highlands! from the command board in Tarren's Mill (Hillsbrad Foothills), Undercity or Silvermoon City, then make your way to Galen's Fall which is on the border of Hillsbrad Foothills and Arathi Highlands.|
 T Warchief's Command: Arathi Highlands!|QID|28619|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28619|
