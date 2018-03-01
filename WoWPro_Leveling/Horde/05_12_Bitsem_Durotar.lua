@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-02-27 00:11
+-- Who: Ludovicus_EditBot
+-- Log: Level Strip - Durotar
+
+-- URL: http://wow-pro.com/node/3199/revisions/29188/view
+-- Date: 2018-02-26 23:03
+-- Who: Ludovicus_EditBot
+-- Log: Level Strip - Echo
+
+-- URL: http://wow-pro.com/node/3199/revisions/29073/view
 -- Date: 2018-02-20 01:51
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - Durotar
@@ -276,19 +286,6 @@
 --	- Removed |RANK|1| tags as they are not needed.
 --	- Rephrased 'The Ancient Enemy' note and added an extra set of coordinates because the current one gives the impression that you have to go into the cave as opposed to on top of it. (I spent 20 minutes in the cave trying to figure out where I was suppose to go.)
 
--- URL: http://wow-pro.com/node/3199/revisions/25944/view
--- Date: 2014-04-24 06:43
--- Who: Hendo72
--- Log: Valley of Trials
---	- Removed |RANK|1| commands as they are not needed. (In my opinion)
---	- Changed |CC| to |CS| in "T Back to the Den"... The player might not take the exact route prescribed.
---	- Added QID to Hearth step as well as coords in case their HS is on CD.
-
--- URL: http://wow-pro.com/node/3199/revisions/25855/view
--- Date: 2013-12-26 21:33
--- Who: Ludovicus_Maior
--- Log: Changed some CN to CS so they clean up right.  Made things safe for goblins.
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:NewGuideLevels(guide,1,20)
@@ -296,8 +293,6 @@ WoWPro:GuideNextGuide(guide, 'BitAzs1220')
 WoWPro:GuideIcon(guide,"ACH",728)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 4 |QID|25167|LVL|4|N|This guide requires a minimum level of 4 to do.|
 
 A Breaking the Chain|QID|25167|M|56.02,74.71|N|From Master Gadrin.|
 A Cleaning Up the Coastline|QID|25170|M|55.77,75.34|N|From Bom'bay.|
@@ -406,8 +401,6 @@ C Lost But Not Forgotten|QID|25193|M|42.44,33.59|N|Kill and loot Crocolisks unti
 T Lost But Not Forgotten|QID|25193|M|43.33,30.60|N|To Misha Tor'kren.|
 
 T Watershed Patrol|QID|25188|RANK|2|M|49.55,40.17|N|To Thonk.|
-
-L Level 8 |QID|25238|LVL|8|N|You need to be Level 8 to continue with this guide.|
 
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
 R Dustwind Cave|QID|25232|M|54.13,40.71;55.68,38;52.79,28.53|N|Run to Dustwind Cave.|CS|ACTIVE|25232|
