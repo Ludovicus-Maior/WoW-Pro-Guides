@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
+-- Date: 2018-02-27 17:46
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip
+
+-- URL: http://wow-pro.com/node/3254/revisions/29095/view
 -- Date: 2018-02-20 21:46
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -97,7 +102,7 @@ C To the Summit|QID|25478|M|42.82,72.42|N|Talk to Dyslix Silvergrub and have him
 T To the Summit|QID|25478|M|11.12,11.33|N|To Kanati Greycloud.|
 A The Grimtotem are Coming|QID|25487|PRE|25356+25478|M|11.12,11.33|N|From Kanati Greycloud.|
 ;lvl
-A Looming Threat|RANK|3|QID|27062|M|11.15,11.21|LVL|42|N|From Kanati Greycloud. Take this if you'd like to do the Razorfen Downs instance.|
+A Looming Threat|RANK|3|QID|27062|M|11.15,11.21|N|From Kanati Greycloud. Take this if you'd like to do the Razorfen Downs instance.|
 ;rm pre
 C The Grimtotem are Coming|QID|25487|M|10.56,8.51|N|Make your way down to the beach below, killing Grimtotem as you go.|
 T The Grimtotem are Coming|QID|25487|M|10.56,8.51|N|To Motega Firemane.|
