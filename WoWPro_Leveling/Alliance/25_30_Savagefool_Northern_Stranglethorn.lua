@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
+-- Date: 2018-02-26 21:34
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL strip
+
+-- URL: http://wow-pro.com/node/3231/revisions/29022/view
 -- Date: 2018-02-19 23:29
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -140,8 +145,6 @@ T Supply and Demand|QID|26343|M|43.56,23.40|N|To Drizzlik.|
 A Some Assembly Required|QID|26344|PRE|26343|M|43.56,23.40|N|From Drizzlik.|
 T The Green Hills of Stranglethorn|QID|26269|M|44.22,22.32|N|To Barnil Stonepot.|
 
-L Level 25|LVL|25|QID|186|N|You should be level 25 here.|
-
 C Panther Hunting|QID|190|M|53.58,24.18|N|Kill 10 Young Panthers.|
 t Panther Hunting|QID|190|M|53.58,24.18|N|(UI Alert)|
 A Panther Stalking|QID|191|PRE|190|M|53.58,24.18|N|(UI Alert)|O|
@@ -150,12 +153,10 @@ C Tiger Stalking|QID|186|M|60.23,29.45|N|Kill 10 Stranglethorn Tigers.|
 T Tiger Stalking|QID|186|M|60.23,29.45|N|(UI Alert)|
 A Tiger Prowess|QID|187|PRE|186|M|60.23,29.45|N|(UI Alert)|O|
 
-L Level 26|LVL|26|QID|186|N|You should be level 26 here.|
-
 R Rebel Camp|QID|26740|N|Head back to the rebel camp|
 
 ;add level requirement
-A Krazek's Cookery|QID|26740|M|47.17,10.68|N|From Corporal Kaleb.|LVL|26|
+A Krazek's Cookery|QID|26740|M|47.17,10.68|N|From Corporal Kaleb.|
 T Krazek's Cookery|QID|26740|M|43.72,23.04|N|To Krazek at Nesingwary's Expedition.|
 A Venture Company Mining|QID|26763|PRE|26740|M|43.72,23.04|N|From Krazek.|
 
