@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2018-02-27 00:04
+-- Who: Ludovicus_EditBot
+-- Log: Level strip - Kezan
+
+-- URL: http://wow-pro.com/node/3212/revisions/29076/view
 -- Date: 2018-02-20 01:56
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - Lost Isles
@@ -235,8 +240,6 @@ C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Finishing right-clicking t
 T Trouble in the Mines|QID|14075|M|60.35,74.64|N|To Foreman Dampwick.|
 T Good Help is Hard to Find|QID|14069|M|60.35,74.64|N|To Foreman Dampwick.|
 
-;L Level 2|QID|14069|LVL|2|N|You should be around level 2 by this point.|
-
 A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|PRE|14069;14075|
 T Kaja'Cola|QID|25473|M|56.53,76.97|N|To Sassy Hardwrench.|
 
@@ -290,8 +293,6 @@ T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane, back at KTC Headquarters.
 T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale, back at KTC Headquarters.|GEN|FEMALE|U|46856|
 T Give Sassy the News|QID|24520|M|56.42,76.97|N|To Sassy Hardwrench.|
 T Do it Yourself|QID|14070|M|56.42,76.97|N|To Sassy Hardwrench.|
-
-L Level 3|QID|14113|LVL|3|N|You need to be level 3 to continue this guide.|
 
 A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|24520;14070;14109|
 A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|24520;14070;14110|
