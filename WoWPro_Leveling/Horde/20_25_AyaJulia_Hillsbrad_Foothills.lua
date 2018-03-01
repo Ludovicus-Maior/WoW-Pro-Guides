@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
+-- Date: 2018-02-27 17:42
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3223/revisions/29083/view
 -- Date: 2018-02-20 21:05
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -84,8 +89,6 @@ WoWPro:GuideNextGuide(guide, 'JiyAra2530')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 19 |QID|28096|LVL|19|N|This guide requires a minimum level of 19 to do.|
 
 R Southpoint Gate |QID|28096|N|Head to Southpoint Gate in Hillsbrad Foothills. This is on the road east of Silverpine Forest.|M|29.23,63.35|
 f Southpoint Gate|QID|28096|N|Get the flightpoint with Pamela Stutzka|M|29.14,64.42|
@@ -183,8 +186,6 @@ A A Blight Upon the Land|QID|28237|N|From Master Apothecary Lydon  who is with y
 C A Blight Upon the Land|QID|28237|M|36.41,61.16|N|Head to Warden Still water. Dialog will automatically start. Once he becomes attackable, kill him. Do not worry about the guards, just concentrate on the Warden. You will need to kill him twice during the encounter. Loot his corpse to complete the quest step.|
 T A Blight Upon the Land|QID|28237|N|To Master Apothecary Lydon.|M|36.65,61.20|
 
-L Level 20 |QID|28251|LVL|20|N|You need to be level 20 to continue with this guide.|
-
 A Trouble at Southshore|QID|28251|M|36.64,61.21|N|From Master Apothecary Lydon.|PRE|28237|LEAD|28324|
 T Trouble at Southshore|QID|28251|M|49.09,66.36|N|To Serge Hinott.|
 
@@ -248,8 +249,6 @@ T They Will Never Expect This...|QID|28397|
 A Heroes of the Horde!|QID|28400|M|24.71,87.99|N|From Kingslayer Orkus.|PRE|28397|
 C Heroes of the Horde!|QID|28400|M|27.35,87.36|N|Speak to Orkus when he stops talking, then loot the dwarf that Orkus attacks first.|
 T Heroes of the Horde!|QID|28400|M|57.08,46.24|N|To High Warlord Cromush.|
-
-L Level 21 |QID|28587|LVL|21|N|You need to be level 21 to continue with this guide.|
 
 A Aid of the Frostwolf|QID|28587|M|57.08,46.24|N|From High Warlord Cromush.|PRE|28400|
 A The Heart of the Matter|QID|28484|M|57.00,45.74|N|From Keeper Bel'varil.|
@@ -333,7 +332,6 @@ T Domination|QID|28605|M|57.26,46.34|N|To Melisara.|
 T Breaking the Hand|QID|28556|M|57.08,46.24|N|To High Warlord Cromush.|
 A Stormpike Apocalypse|QID|28616|M|57.08,46.24|N|From High Warlord Cromush.|PRE|28605;28556|
 T Stormpike Apocalypse|QID|28616|M|57.03,46.26|N|To High Warlord Cromush.|
-L Level 25|QID|28635|LVL|25|N|You should be around Level 25 by this point.|
 f Eastpoint Tower|QID|28635|M|59.61,63.24|N|At Darren Longfellow.|
 A A Haunting in Hillsbrad|QID|28635|M|59.99,63.34|N|From Captain Jekyll.|
 A The Durnholde Challenge: Zephyrus|QID|28643|M|59.99,63.34|N|From Captain Jekyll.|
