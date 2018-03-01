@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2018-02-26 21:41
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3271/revisions/29049/view
 -- Date: 2018-02-20 01:15
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -292,7 +297,6 @@ T In Case of Emergency... |QID|10161|M|49.2,74.8|N|To "Screaming" Screed Luckhee
 A Voidwalkers Gone Wild |QID|9351|PRE|10161|M|49.2,74.8|N|From "Screaming" Screed Luckheed.|
 T Smooth as Butter |QID|9356|M|49.2,74.8|N|To Legassi.|
 C Unyielding Souls |N|Kill everything needed for this quest.|QID|10050|M|55.00,76.00|
-L Level 61 or 50,000 xp|QID|10916|LVL|61|N|Stay here and kill mobs until you make either 50,000 xp or level 61. Reason is, that some of the following quests do not unlock unless you are 61.|M|55.00,76.00|
 F Shattrath City |QID|10935|N|Fly to Shattrath City if you need to train skills, visit AH, etc. |M|54.66,62.46|
 H Honor Hold |QID|10916|N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
 
