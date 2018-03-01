@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2018-02-26 21:36
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3239/revisions/29039/view
 -- Date: 2018-02-20 01:05
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -180,8 +185,6 @@ r Repair and Sell Junk|QID|26490|N|Excellent opportunity to repair and sell your
 T Prime Slime|QID|26490|M|66.31,44.39|N|To Dron Blastbrew.|
 T Down with the Vilebranch|QID|26496|M|63.90,59.72|N|To Doran Steelwing.|
 
-L Level 30|QID|26497|LVL|30|N|You need to be Level 30 to continue with this guide.|
-
 A Vilebranch Scum|QID|26497|M|63.90,59.72|N|From Doran Steelwing.|
 A Heads Up|QID|26518|M|63.90,59.72|N|From Doran Steelwing.|
 A Faces of Evil|QID|26521|M|63.81,60.00|N|From Fraggar Thundermantle.|
@@ -251,8 +254,6 @@ C In Defense of Quel'Danil|QID|27625|US|M|30.74,47.33|N|Kill the Deathstalker In
 
 T In Defense of Quel'Danil|QID|27625|M|32.19,42.62|N|To Anchorite Traska.|
 T The Highvale Documents|QID|27626|M|32.19,42.62|N|To Anchorite Traska.|
-
-L Level 32|QID|26528|LVL|32|N|You need to be Level 32 to continue with this guide.|
 
 A The Eye of Shadra|QID|26528|PRE|27625;27626|M|30.74,47.18|N|From Gilda Cloudcaller inside the lodge.|
 A Can't Make An Omelette Without...|QID|26641|PRE|27625;27626|M|30.74,47.18|N|From Gilda Cloudcaller.|
