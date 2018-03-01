@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2018-02-26 22:52
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3305/revisions/29060/view
 -- Date: 2018-02-20 01:32
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -227,10 +232,6 @@
 -- Date: 2011-01-02 06:35
 -- Who: JamesL85
 
--- URL: http://wow-pro.com/node/3305/revisions/23887/view
--- Date: 2011-01-02 06:22
--- Who: JamesL85
-
 local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
 WoWPro:GuideLevels(guide,80,80, 79.9802)
 WoWPro:NewGuideLevels(guide,80,90)
@@ -238,8 +239,6 @@ WoWPro:GuideNextGuide(guide, 'AriDee8283')
 WoWPro:GuideIcon(guide,"ACH",4825)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 80 |QID|28825|N|You need to be level 80 or higher to be able to work through this guide.|LVL|80|
 
 R Stormwind City|QID|28825|M|74.5,19.2|Z|Stormwind City|N|Head to Stormwind City by any means possible.|
 T A Personal Summons|QID|28825|M|74.5,19.2|Z|Stormwind City|N|This quest was auto-accepted for you when you entered Stormwind. Head to Naraat the Earthspeaker who's on an island to the north-east of the city.|
