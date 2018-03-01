@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2018-02-27 17:41
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip
+
+-- URL: http://wow-pro.com/node/3221/revisions/29082/view
 -- Date: 2018-02-20 21:03
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -233,9 +238,8 @@ l Rotting Hearts|QID|9216|L|22641 10|N|Kill any Risen Hungerers or Risen Stalker
 A Underlight Ore Samples|QID|9207|M|31.42,48.31|N|From Apprentice Shatharia.|
 C Trouble at the Underlight Mines|QID|9192|M|29.25,47.93|N|Head down the slope and kill any gnoll you need.|
 C Underlight Ore Samples|QID|9207|M|29.25,47.93|N|You should have all the ore you need by the time you get done the previous step. If not, keep killing gnolls till you do.|
-L Level 15|QID|9140|LVL|15|N|You should be level 15 by now. If not, kill mobs until you are.|
 C Retaking Windrunner Spire|QID|9173|M|11.04,56.98|N|Kill 8 Acolytes, and 10 Fallen Rangers.|
-l The Lady's Necklace|QID|9175|L|22597|N|Kill Acolytes and Fallen Rangers until this drops.|LVL|15|
+l The Lady's Necklace|QID|9175|L|22597|N|Kill Acolytes and Fallen Rangers until this drops.|
 A The Lady's Necklace|QID|9175|U|22597|M|11.27,57.12|N|Accept the quest from the necklace.|
 C Windrunner Village|QID|9140|M|17.95,42.65|N|Jump into the water and swim into the village. Kill Phantasms and Gargoyles until you get 6 Phantasmals Substances, and 4 Gargoyle Fragments.|
 C Into Occupied Territory|QID|9163|M|10.56,22.49|N|Night Elf Plans: An'daroth and An'owyn, can be in several spots on the isle. Night Elf Plans: Scrying on Sin'dorei, is on the boat.|
