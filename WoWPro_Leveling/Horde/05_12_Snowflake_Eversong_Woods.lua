@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2018-02-27 17:39
+-- Who: Ludovicus_EditBot
+-- Log: Level Strip
+
+-- URL: http://wow-pro.com/node/3207/revisions/29192/view
+-- Date: 2018-02-27 00:05
+-- Who: Ludovicus_EditBot
+-- Log: Level strip - Sunstrider
+
+-- URL: http://wow-pro.com/node/3207/revisions/29077/view
 -- Date: 2018-02-20 01:57
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - Eversong
@@ -250,16 +260,6 @@
 -- Who: Crackerhead22
 -- Log: Added missing steps/quests.
 
--- URL: http://wow-pro.com/node/3207/revisions/23596/view
--- Date: 2010-12-05 06:45
--- Who: Crackerhead22
--- Log: Added missing class quests.
-
--- URL: http://wow-pro.com/node/3207/revisions/23595/view
--- Date: 2010-12-05 05:55
--- Who: Crackerhead22
--- Log: Changed |R|Blood Elf| to |R|BloodElf| so the Blood Elf only quests will show.
-
 local guide = WoWPro:RegisterGuide("SnoEve0512", "Leveling", "Eversong Woods", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,5,10, 5.78882)
 WoWPro:NewGuideLevels(guide,1,20)
@@ -290,7 +290,6 @@ C Unstable Mana Crystals |QID|8463|S|N|Look for light beams that come out of the
 C Wanted: Thaelis the Hungerer |QID|8468|N|Kill and loot Thaelis the Hungerer.\n\nBe careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
 C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|N|Look for light beams that come out of the boxes.|NC|
 C Major Malfunction |QID|8472|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|M|45,40.5|US|
-; L Level 6|QID|8472|LVL|6|N|Target point to be Level 6.|
 T Major Malfunction |QID|8472|N|To Magister Jaronis.|M|47.3,46.3|
 
 A Delivery to the North Sanctum |QID|8895|PRE|8472|N|From Magister Jaronis.|M|47.3,46.3|
@@ -308,7 +307,6 @@ A Incriminating Documents |QID|8482|U|20765|N|Quest starts from the Incriminatin
 C Arcane Instability |QID|8486|N|Finish killing the Manawraith and Mana Stalker located around the West Sanctum.|M|36,58|US|
 T Darnassian Intrusions |QID|9352|N|To Ley-Keeper Velania.|M|36.7,57.4|
 T Arcane Instability |QID|8486|N|To Ley-Keeper Velania.|M|36.7,57.4|
-; L Level 7 |QID|8482|LVL|7|Target point to be Level 7.|
 A Fish Heads, Fish Heads... |QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|M|31.49,53.78;29.89,58.52|CC|
 C Fish Heads, Fish Heads... |QID|8884|N|Kill murlocs for the 8 fish heads. |M|27,59.5|
 l Captain Kelisendra's Lost Rutters |QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|M|27,59.5|
