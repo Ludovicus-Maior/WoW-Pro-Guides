@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2018-02-24 20:37
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL Elwynn
+
+-- URL: http://wow-pro.com/node/3197/revisions/29155/view
+-- Date: 2018-02-24 20:35
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL  northshire
+
+-- URL: http://wow-pro.com/node/3197/revisions/29008/view
 -- Date: 2018-02-19 23:15
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags - Elwynn
@@ -240,16 +250,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Fixed syntax errors.
 
--- URL: http://wow-pro.com/node/3197/revisions/24201/view
--- Date: 2011-04-02 19:01
--- Who: Ludovicus_Maior
--- Log: Syntax error in quest [Fear No Evil] for Human Warlocks.
-
--- URL: http://wow-pro.com/node/3197/revisions/24058/view
--- Date: 2011-01-26 02:48
--- Who: Fluclo
--- Log: Missing the A for Rest And Relaxation
-
 local guide = WoWPro:RegisterGuide("KurElw0511", "Leveling", "Elwynn Forest", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,4,9,5.79167)
 WoWPro:NewGuideLevels(guide,1,20)
@@ -270,13 +270,13 @@ T Report to Goldshire|QID|54|M|42.11,65.92|N|To Marshal Dughan.|
 A The Fargodeep Mine|QID|62|M|42.11,65.92|N|From Marshal Dughan.|
 A Gold Dust Exchange|QID|47|M|42.14,67.25|N|From Remy "Two Times".|
 
-R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|85|M|34.31,83.67|LVL|5|
-A Lost Necklace|QID|85|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|LVL|5|
+R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|85|M|34.31,83.67|
+A Lost Necklace|QID|85|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
 R The Maclure Vineyards|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|85|M|40.47,86.61|ACTIVE|85|
 T Lost Necklace|QID|85|M|43.13,85.72|N|To Billy Maclure.|
 A Pie for Billy|QID|86|M|43.13,85.72|N|From Billy Maclure.|PRE|85|
 C Pie for Billy|N|Kill and loot Stonetusk Boars until you have 4 Tender Boar Meat.|QID|86|M|41.74,87.48|S|
-A Young Lovers|QID|106|M|43.15,89.63|N|From Maybell Maclure.|LVL|5|
+A Young Lovers|QID|106|M|43.15,89.63|N|From Maybell Maclure.|
 C Pie for Billy|N|Kill and loot Stonetusk Boars until you have 4 Tender Boar Meat.|QID|86|M|41.74,87.48|US|
 R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|86|M|29.84,86.00|ACTIVE|106|
 T Young Lovers|QID|106|M|29.84,86.00|N|To Tommy Joe Stonefield.|
@@ -291,7 +291,7 @@ A Goldtooth|QID|87|M|43.13,85.72|N|From Billy Maclure.|PRE|84|
 C Goldtooth|N|Go to Goldtooth's Den (which is located OUTSIDE of the mine), kill Goldtooth and loot Bernice's Necklace.|T|Goldtooth|QID|87|M|40.10,80.64|
 T Goldtooth|QID|87|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
 
-A Princess Must Die!|QID|88|M|34.66,84.48|N|From Ma Stonefield.|LVL|6|RANK|2|
+A Princess Must Die!|QID|88|M|34.66,84.48|N|From Ma Stonefield.|RANK|2|
 C Princess Must Die!|N|Kill Princess and pickup the Brass Collar.|QID|88|M|33.02,85.52|
 T Princess Must Die!|QID|88|M|34.66,84.48|N|To Ma Stonefield.|
 
@@ -324,12 +324,12 @@ A The Escape|QID|114|M|43.32,65.70|N|From William Pestle. You will need to wait 
 r Sell Junk, Restock, and Repair.|QID|76|M|42.11,65.93|ACTIVE|76|N|Take this opportunity to sell Junk, Restock, and Repair.|S|
 T The Jasperlode Mine|QID|76|M|42.11,65.93|N|To Marshal Dughan.|
 
-A Further Concerns|QID|35|M|42.11,65.93|N|From Marshal Dughan.|PRE|40|LVL|7|
+A Further Concerns|QID|35|M|42.11,65.93|N|From Marshal Dughan.|PRE|40|
 T Further Concerns|QID|35|M|73.97,72.18|N|Speak to Marshal Dughan and ask for a ride with the Stormwind Charger. This will take you to Guard Thomas.|
 
-A Protect the Frontier|QID|52|M|73.97,72.18|N|From Guard Thomas.|LVL|7|
+A Protect the Frontier|QID|52|M|73.97,72.18|N|From Guard Thomas.|
 A Find the Lost Guards|QID|37|M|73.97,72.18|N|From Guard Thomas.|PRE|35|
-A Bounty on Murlocs|QID|46|M|74.03,72.32|N|From the Bounty Board.|LVL|7|
+A Bounty on Murlocs|QID|46|M|74.03,72.32|N|From the Bounty Board.|
 A Wanted: James Clark|QID|26152|M|74.03,72.32|N|From the Bounty Board.|
 
 C Protect the Frontier|QID|52|M|73.97,72.18|S|N|Kill the Bears and Wolves that you need.|
