@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-02-27 17:29
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL Strip and QO fix.
+
+-- URL: http://wow-pro.com/node/3203/revisions/29189/view
+-- Date: 2018-02-26 23:05
+-- Who: Ludovicus_EditBot
+-- Log: Level Strip - Narache
+
+-- URL: http://wow-pro.com/node/3203/revisions/29074/view
 -- Date: 2018-02-20 01:52
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - Mulgor
@@ -203,10 +213,8 @@ H Bloodhoof Village|QID|14438|M|48.19,59.59|N|Hearth to Bloodhoof Village, and s
 T Sharing the Land|QID|14438|M|47.60,59.58|N|To Ahmo Thunderhorn.|
 A The Restless Earth|QID|14491|PRE|14438|M|47.60,59.58|N|From Ahmo Thunderhorn.|
 
-L Level 6|QID|20440|LVL|6|N|You're ideal level is 6 at this point, since you're not yet Level 6 the guide will continue, but on reaching level 6, you will be returned to Bloodhoof Village to collect in-level quests.|
-
-A Morin Cloudstalker|QID|24459|LEAD|749|M|47.54,59.56|N|From Ahmo Thunderhorn.|LVL|6|
-A Dangers of the Windfury|QID|743|M|47.51,61.22|N|From Ruul Eagletalon.|LVL|6|
+A Morin Cloudstalker|QID|24459|LEAD|749|M|47.54,59.56|N|From Ahmo Thunderhorn.|
+A Dangers of the Windfury|QID|743|M|47.51,61.22|N|From Ruul Eagletalon.|
 T Poison Water|QID|20440|M|48.57,59.88|R|Tauren|N|To Mull Thunderhorn.|
 
 A Winterhoof Cleansing|QID|24440|PRE|20440|M|48.58,59.88|R|Tauren|N|From Mull Thunderhorn.|
@@ -215,7 +223,7 @@ T Winterhoof Cleansing|QID|24440|M|48.69,59.92|R|Tauren|N|To Mull Thunderhorn.|
 A Thunderhorn Totem|QID|24441|PRE|24440|M|48.69,59.92|R|Tauren|N|From Mull Thunderhorn.|
 
 T Swoop Hunting|QID|761|M|48.76,58.89|N|To Harken Windtotem.|
-A Mazzranache|QID|26188|M|47.24,56.75|N|From Maur Raincaller.|LVL|6|
+A Mazzranache|QID|26188|M|47.24,56.75|N|From Maur Raincaller.|
 
 T Morin Cloudstalker|QID|24459|M|57.12,60.48|N|To Morin Cloudstalker.|
 A The Ravaged Caravan|QID|749|M|57.12,60.48|N|From Morin Cloudstalker.|
@@ -247,11 +255,9 @@ T Mazzranache|QID|26188|M|47.15,56.66|N|To Maur Raincaller.|
 C Kyle's Gone Missing!|NC|US|QID|11129|M|47.18,56.76|U|33009|T|Kyle the Frenzied|N|Wait here until you see Kyle the Frenzied. Target him and place the Tender Strider Meat on the ground.|
 T Kyle's Gone Missing!|QID|11129|M|48.31,53.17|N|To Ahab Wheathoof.|
 C Thunderhorn Cleansing|NC|QID|24456|M|44.98,45.25|R|Tauren|N|Use the Thunderhorn Cleansing Totem at the well.|U|5415|
-C The Restless Earth|QID|14491|U|49647|QO|Spirits Calmed: 6/6|M|32.76,48.97|N|Play the Drums of the Soothed Earth to the Agitated Earth Spirits. They will charge at you and either become calmed or displeased, in which case they will attack you.|
+C The Restless Earth|QID|14491|U|49647|QO|1|M|32.76,48.97|N|Play the Drums of the Soothed Earth to the Agitated Earth Spirits. They will charge at you and either become calmed or displeased, in which case they will attack you.|
 
 H Bloodhoof Village|QID|14491|M|46.82,60.46|N|Hearth to Bloodhoof Village, or run back. Sell any junk you might have to Innkeeper Kauth.|
-
-L Level 9|QID|14491|LVL|9|N|You should be around level 9 by this point.|
 
 T The Restless Earth|QID|14491|M|47.60,59.58|N|To Ahmo Thunderhorn.|
 T Thunderhorn Cleansing|QID|24456|M|48.55,59.79|R|Tauren|N|To Mull Thunderhorn.|
@@ -282,9 +288,6 @@ R Red Rocks|ACTIVE|773|M|59.62,22.42|N|Head to Red Rocks.|
 C A Sacred Burial|QID|833|M|60.77,22.52|N|Kill the Bristleback Interloper as you head towards the Ancestral Spirit.|S|
 T Rite of Wisdom|QID|773|M|60.77,22.52|N|To Ancestral Spirit.|
 C A Sacred Burial|QID|833|M|60.77,22.52|N|Finish killing the Bristleback Interloper.|US|
-
-L Level 10|QID|744|LVL|10|N|You should be around level 10 by this point.|
-
 C Wildmane Totem|QID|24523|US|M|47.87,21.86|R|Tauren|N|Finish killing any Prairie Wolf Alpha you see.|
 C The Hunter's Way|QID|861|US|M|51.25,21.86|N|Finish killing any Flatland Prowlers you see.|
 T The Hunter's Way|QID|861|M|49.66,17.41|N|To Skorn Whitecloud.|R|Tauren,Troll,Blood Elf,Orc|
