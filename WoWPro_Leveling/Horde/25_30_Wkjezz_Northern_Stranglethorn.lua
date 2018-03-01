@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2018-02-27 17:43
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3232/revisions/29087/view
 -- Date: 2018-02-20 21:30
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -264,7 +269,6 @@ T Skullsplitter Mojo|QID|26332|M|38.43,48.55|
 A Bloodlord Mandokir|QID|26334|PRE|26332|M|38.45,48.51|N|From Bloodlord Mandokir.|
 T Speaking with Nezzliok|QID|26301|M|38.45,48.51|N|To Bloodlord Mandokir.|
 A Chasing Yenniku's Fate|QID|26302|PRE|26301|M|38.45,48.51|N|From Bloodlord Mandokir.|
-L Level 32|QID|26334|LVL|32|N|You should be around level 32 by this point. (Click to continue)|
 A Priestess Hu'rala|QID|26350|PRE|26334|M|38.46,48.57|N|From Nimboya.|
 T Bloodlord Mandokir|QID|26334|M|38.46,48.57|
 T Raptor Mastery|QID|197|M|44.15,23.01|N|To Hemet Nesingwary Jr..|
