@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2018-02-27 17:41
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip
+
+-- URL: http://wow-pro.com/node/3214/revisions/29080/view
 -- Date: 2018-02-20 21:00
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -221,7 +226,7 @@ f The Crossroads |QID|13992|M|48.7,58.67|N|Get The Crossroads flightpoint from D
 A Fungal Spores|QID|848|RANK|1|M|48.63,58.45|N|From Apothecary Helbrim.|
 A The Forgotten Pools|QID|870|RANK|1|M|49.41,58.67|N|From Tonga Runetotem.|
 
-A Disciples of Naralex|QID|26878|M|49.41,58.67|LVL|15|N|*DUNGEON QUEST* - only accept if you plan on doing the Wailing Caverns Instance, otherwise skip this step. From Tonga Runetotem.|RANK|3|
+A Disciples of Naralex|QID|26878|M|49.41,58.67|LVL|17|N|*DUNGEON QUEST* - only accept if you plan on doing the Wailing Caverns Instance, otherwise skip this step. From Tonga Runetotem.|RANK|3|
 
 h The Crossroads|QID|13992|M|49.60,57.95|N|At Innkeeper Boorand Plainswind.|
 
@@ -297,10 +302,10 @@ T The Stagnant Oasis|QID|877|PRE|13988|M|49.48,58.73|N|To Tonga Runetotem.|
 T Altered Beings|QID|880|M|49.48,58.73|N|To Tonga Runetotem.|
 T In Fungus We Trust|QID|13998|M|48.65,58.38|N|To Apothecary Helbrim.|
 A Who's Shroomin' Who?|QID|13999|PRE|13998|RANK|1|M|48.65,58.38|N|From Apothecary Helbrim.|
-A Deathgate's Reinforcements|QID|14073|LEAD|852|PRE|850;851|LVL|16|RANK|1|M|48.68,59.54|N|From Thork.|
+A Deathgate's Reinforcements|QID|14073|LEAD|852|PRE|850;851|RANK|1|M|48.68,59.54|N|From Thork.|
 
 T Deathgate's Reinforcements|QID|14073|M|37.79,55.33|N|To Regthar Deathgate.|
-A Centaur Bracers|QID|855|LVL|15|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
+A Centaur Bracers|QID|855|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 A Hezrul Bloodmark|QID|852|PRE|850;851|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 
 C Centaur Bracers|QID|855|S|M|39.71,70.36|N|Kill Kolkar Marauders and Stormseers and loot their Bracers.|
@@ -495,7 +500,7 @@ T Read the Manual|QID|14006|M|62.25,17.41|N|To Sputtervalve.|
 A The Short Way Home|QID|29094|LEAD|875|PRE|29015;29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
 C The Short Way Home|QID|29094|RANK|1|M|62.15,17.43|N|Hop on the Silver Bullet X-831.|
 T The Short Way Home|QID|29094|M|30.59,45.95|N|To Darsok Swiftdagger.|
-A Harpy Raiders|QID|867|RANK|2|LVL|15|M|30.59,45.95|N|From Darsok Swiftdagger.|
+A Harpy Raiders|QID|867|RANK|2|M|30.59,45.95|N|From Darsok Swiftdagger.|
 A Harpy Lieutenants|QID|875|RANK|2|M|30.61,46.02|N|From Darsok Swiftdagger.|
 
 C Harpy Raiders|QID|867|M|27.40,28.55|N|Kill any type of Witchwing Harpies for Witchwing Talons.|S|
