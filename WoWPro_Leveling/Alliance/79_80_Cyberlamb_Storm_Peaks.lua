@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2018-02-26 22:50
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3299/revisions/29058/view
 -- Date: 2018-02-20 01:29
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -106,8 +111,6 @@ WoWPro:GuideNextGuide(guide, "EstIce7985")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 77 |QID|12818|N|You need to be Level 77 to do this guide.|LVL|77|
 
 N READ THIS!|QID|12818|N|This guide picks up only non-group, non-instance quests.|
 A Luxurious Getaway!|QID|12853|N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips & Crows" down in the sewers.|Z|4395|M|31.23,49.63|T|Rin Duoctane|
