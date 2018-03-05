@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2018-03-06 01:24
+-- Who: Ludovicus_EditBot
+-- Log: Level and LVL strip
+
+-- URL: http://wow-pro.com/node/3587/revisions/29119/view
 -- Date: 2018-02-22 23:34
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -245,11 +250,6 @@
 -- Who: Emmaleah
 -- Log: Fixed a missing HRT and 2 Run on N tags.
 
--- URL: http://wow-pro.com/node/3587/revisions/26954/view
--- Date: 2014-11-09 07:17
--- Who: Emmaleah
--- Log: Final changes before Beta went away.
-
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,91, 92, 90.7)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -365,7 +365,6 @@ T Armed and Dangerous|QID|33344|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtya
 A Last Steps|QID|33527|PRE|33344;33622|M|50.30,32.59|N|From Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
 C Last Steps|QID|33527|M|50.3,31.8|T|Gorr'thog|N|Click on the ladder beside you to climb the chain. At the top you will find Gorr'thog. Kill him.|Z|Bladespire Throne@FrostfireRidge|
 T Last Steps|QID|33527|M|66.52,56.51|N|To Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
-L Level 91|QID|34823|LVL|91|N|You should be around level 91 by this point.|
 A Moving In|QID|33657|PRE|33527|M|66.52,56.51|N|From Durotan.|Z|Bladespire Throne@FrostfireRidge|
 C Moving In|QID|33657|M|66.52,56.51|NC|N|Hop on the wolf next to Durotan and it will take you to the next area.|Z|Bladespire Throne@FrostfireRidge|
 T Moving In|QID|33657|M|42.94,41.60|N|To Durotan.|Z|Bladespire Citadel@FrostfireRidge|
@@ -618,7 +617,7 @@ C No Pressure, No Diamonds|QID|36378|M|30.74,43.83|P|Jewelcrafting;755|N|The lav
 C Poulticide|QID|34345|M|56.12,37.83|US|NC|N|These are ground spawn in the area.|RANK|2|
 C Lurkers|QID|34344|M|54.01,31.36|US|N|These drop off the Snow Lurkers.|RANK|2|
 C Frosted Fury|QID|34346|M|59.46,35.37|US|N|These drop off the Ice Furies.|RANK|2|
-A Thunderlord for a Day|QID|33462|M|58.4,31.1|N|From Broken Chains.|LVL|91|RANK|2|
+A Thunderlord for a Day|QID|33462|M|58.4,31.1|N|From Broken Chains.|RANK|2|
 C Thunderlord for a Day|QID|33462|M|60.06,25.75|S|N|Pick up chains from the ground and kill stuff to loot the grapples.|RANK|2|
 A Only the Winner|QID|32981|M|59.46,31.79|N|From Gronnstalker Rokash.|RANK|2|
 C The Restless Spirit|QID|36230|M|59.46,31.79|P|Blacksmithing;164|QO|3|U|114969|S|N|Use Waruk's Axe to salvage the metal from all the things you kill.|RANK|2|
@@ -711,7 +710,7 @@ T Wanted: Grondo's Bounty|QID|33918|M|45.88,42.80|N|To Rokhan.|RANK|2|Z|Frostwal
 
 T "Spare" Parts|QID|36594|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
 A Big Frostfire Gun|QID|36627|M|50.03,68.90|PRE|36594|P|Engineering;202|N|From Blizthraz Blastcharge.|
-A Things Are Not Goren Our Way|QID|35154|M|61.99,73.88|N|From Gorsol.|LVL|92|Z|Frostwall|
+A Things Are Not Goren Our Way|QID|35154|M|61.99,73.88|N|From Gorsol.|Z|Frostwall|
 C Things Are Not Goren Our Way|QID|35154|M|61.39,84.40|N|After completing this quest you will be able to mine here, without the mining profession.|T|Stonetooth|Z|Frostwall|
 T Things Are Not Goren Our Way|QID|35154|M|62.00,73.93|N|To Gorsol. Congratulations, you have your own personal mine, that doesnt require mining to gather in. You can harvest the ore once per day. You can immediately buy the plans from Rezlek, the goblin next to your architect table and upgrade your mine to level 2 for greater yield. (I would recoment mining first because it seems to reset the ore spawning.)|Z|Frostwall|
 
