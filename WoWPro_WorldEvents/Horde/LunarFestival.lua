@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2018-03-06 01:33
+-- Who: Ludovicus_EditBot
+-- Log: LVL strips
+
+-- URL: http://wow-pro.com/node/3452/revisions/29146/view
 -- Date: 2018-02-24 07:04
 -- Who: Emmaleah
 -- Log: Minor updates to Eastern Kingdoms
@@ -130,15 +135,15 @@ A Skygleam the Elder|N|From Elder Skygleam.|QID|8720|M|64.74,79.34|Z|Azshara|
 F Everlook|N|Fly to Everlook in Winterspring.|QID|8672|M|51.4,74.2|Z|Azshara|
 A Stonespire the Elder|N|From Elder Stonespire.|QID|8672|M|59.97,49.95|Z|Winterspring|
 A Brightspear the Elder|N|From Elder Brightspear.|QID|8726|M|53.23,56.75|Z|Winterspring|
-F Whisperwind Grove|N|Fly to Whisperwind Grove in Felwood.|QID|8723|M|58.84,48.2|Z|Winterspring|LVL|60|
-A Nightwind the Elder|N|From Elder Nightwind.|QID|8723|M|38.36,52.85|Z|Felwood|LVL|60|
+F Whisperwind Grove|N|Fly to Whisperwind Grove in Felwood.|QID|8723|M|58.84,48.2|Z|Winterspring|
+A Nightwind the Elder|N|From Elder Nightwind.|QID|8723|M|38.36,52.85|Z|Felwood|
 R Lor'danel|N|Run to Lor'danel in Darkshore.|QID|8721|M|49.5,18.9|Z|Darkshore|
 A Starweave the Elder|N|From Elder Starweave.|QID|8721|M|49.54,18.95|Z|Darkshore|T|Elder Starweave|
 R Rut'theran Village|QID|8715|M|56.8,90.6|Z|Teldrassil|LVL|60|N|There is no boat to Rut'theran Village anymore unless you go from Stormwind. You can easily fly across to it though.|
 R Dolanaar|N|Run to Dolanaar. I would recommend going up and over the tree instead of going through the pink portal, as there is a chance you will get killed by the flying guards.|QID|8715|M|56.8,52.9|Z|Teldrassil|LVL|60|
-A Bladeleaf the Elder|N|From Elder Bladeleaf.|QID|8715|M|56.85,53.10|Z|Teldrassil|T|Elder Bladeleaf|LVL|60|
+A Bladeleaf the Elder|N|From Elder Bladeleaf.|QID|8715|M|56.85,53.10|Z|Teldrassil|T|Elder Bladeleaf|
 R Darnassus|N|Run to Darnassus.|QID|8721|M|39.2,31.8|Z|Darnassus|LVL|60|
-A Bladeswift the Elder|N|From Elder Bladeswift.|QID|8718|M|39.21,31.85|Z|Darnassus|T|Elder Bladeswift|LVL|60|
+A Bladeswift the Elder|N|From Elder Bladeswift.|QID|8718|M|39.21,31.85|Z|Darnassus|T|Elder Bladeswift|
 R Rut'theran Village|N|Run through the pink portal if you think you can make it, or go back over the tree.|QID|8721|M|36.16,50.16|Z|Darnassus|LVL|60|
 F Astramaar|N|Now for the long trek down to Astramaar. You could head back over to Whisperwind Grove in Felwood if you wish to use a flightpoint as that is the closest to you.|QID|8725|M|35.4,48.9|Z|Ashenvale|
 A Riversong the Elder|N|From Elder Riversong.|QID|8725|M|35.54,48.91|Z|Ashenvale|T|Elder Riversong|
