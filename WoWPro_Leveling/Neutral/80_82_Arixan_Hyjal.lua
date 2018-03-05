@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2018-03-06 01:29
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3303/revisions/29132/view
 -- Date: 2018-02-23 01:11
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -232,9 +237,6 @@ WoWPro:GuideIcon(guide,"ACH",4863)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 80 |QID|28825|N|You need to be Level 80 to do this guide.|LVL|80|FACTION|Alliance|
-L Level 80 |QID|27721|N|You need to be Level 80 to do this guide.|LVL|80|FACTION|Horde|
-
 F Flying Mount|QID|28825|BUFF|90267|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|
 F Flying Mount|QID|27721|BUFF|90267|Z|Orgrimmar|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|FACTION|Horde|
 
@@ -460,7 +462,6 @@ C Seeds of Their Demise|QID|25408|M|21.63,43.89|N|Kill Wailing Weeds in the area
 T Seeds of Their Demise|QID|25408|M|22.18,44.83|N|To Tyrus Blackhorn.|
 A A New Master|QID|25411|PRE|25408|M|22.18,44.83|N|From Tyrus Blackhorn.|
 T The Fires of Mount Hyjal|QID|25630|M|19.02,40.99|N|At Laina Nightsky just outside of the grove.|
-L Level 81|QID|25630|LVL|81|N|You should be around level 81 by this point.|
 A Fighting Fire With ... Anything|QID|25381|PRE|25584|RANK|2|M|19.02,40.99|N|From Laina Nightsky.|
 A Disrupting the Rituals|QID|25382|PRE|25584|RANK|2|M|19.02,40.99|N|From Laina Nightsky.|
 C Save the Wee Animals|QID|25385|S|M|13.57,39.83|N|Click on the terrified and panicked critters in the scorched area to save them.|NC|
@@ -667,7 +668,6 @@ A Seeds of Discord|QID|25308|PRE|25296|M|88.32,58.52|N|From the Outhouse Hideout
 T Physical Training: Forced Labor|QID|25509|M|89.58,59.06|N|To Instructor Mylva.|
 A Agility Training: Run Like Hell!|QID|25499|PRE|25509|M|89.53,58.98|N|From Instructor Mylva.|
 C Agility Training: Run Like Hell!|QID|25499|M|88.64,57.99|N|Stay away from the Blazing Trainer, and do not leave the camp.|NC|
-L Level 82|QID|25499|LVL|82|N|You should be around level 82 by this point.|
 T Agility Training: Run Like Hell!|QID|25499|M|89.53,59.09|N|To Instructor Mylva.|
 
 A Mental Training: Speaking the Truth to Power|QID|25299|PRE|25499|M|89.53,59.09|N|From Instructor Mylva.|
