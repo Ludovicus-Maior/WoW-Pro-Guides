@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2018-03-06 01:28
+-- Who: Ludovicus_EditBot
+-- Log: Level and LVL strip
+
+-- URL: http://wow-pro.com/node/3255/revisions/29125/view
 -- Date: 2018-02-22 23:44
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -327,11 +332,9 @@ A Lunk Like Your Style|QID|28053|M|39.02,25.97|N|Get from Lunk up the ramp of th
 T Welcome to the Brotherhood|QID|28064|M|38.08,26.70|N|To Overseer Oilfist.|
 
 ;move, split and add lvl
-L Level 49|QID|999999|LVL|49|N|You should be level 49 now.|
-A Mouton Flamestar|QID|28514|LEAD|28172|LVL|49|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Alliance|
-A Mouton Flamestar|QID|28515|LVL|49|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Horde|
+A Mouton Flamestar|QID|28514|LEAD|28172|LVL|40|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Alliance|
+A Mouton Flamestar|QID|28515|LVL|40|M|38.21,26.83|N|From Overseer Oilfist. Pick up this quest if you want to do Burning Steppes next.|FACTION|Horde|
 
-;F Stormwind City|QID|28666|M|38.01,30.67|N|Fly to Stormwind to train, visit AH, etc.|FACTION|Alliance|
 ]]
 
 end)
