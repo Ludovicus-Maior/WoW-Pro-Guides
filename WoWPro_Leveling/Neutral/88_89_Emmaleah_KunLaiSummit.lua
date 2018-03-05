@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2018-03-06 01:31
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3490/revisions/29136/view
 -- Date: 2018-02-23 01:28
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -237,8 +242,6 @@ WoWPro:GuideNextGuide(guide, 'EmmTow8990|EmmTow8990')
 WoWPro:GuideIcon(guide,"ACH",6976)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 87 |QID|31254;31255|N|You need to be level 87 or higher to be able to work through this guide.|LVL|87|
 
 A The Road to Kun-Lai |QID|31254;31255|N|From Messenger Grummle at the foot of The Veiled Stair in Grassy Cline, Valley of the Four Winds.\n(Also available from other NPCs in Krasarang Wilds and Valley of the Four Winds)|M|70,23.57|Z|Valley of the Four Winds|RANK|2|
 
