@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2018-03-06 01:23
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3487/revisions/29117/view
 -- Date: 2018-02-22 23:30
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -145,7 +150,6 @@ WoWPro:GuideIcon(guide,"ACH",6351)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 85 |QID|29611;29612|LVL|85|N|You need to be Level 85 to do this guide.|
 N Welcome to Pandaria|QID|29611;29612|N|Head to Orgrimmar. Don't forget to train your trade-skills before you leave Orgrimmar the new trainers are not available immediately upon arriving in Pandaria.\n\nCheck off this step to continue the guide.|
 
 A The Art of War|QID|29611;29612|N|Autogiven upon entering Orgrimmar.|
