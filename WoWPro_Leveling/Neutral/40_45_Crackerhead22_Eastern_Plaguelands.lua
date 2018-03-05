@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2018-03-06 01:27
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip
+
+-- URL: http://wow-pro.com/node/3251/revisions/29124/view
 -- Date: 2018-02-22 23:44
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -236,7 +241,7 @@ A Onward, to Light's Hope Chapel|QID|27373|PRE|27369;27372|M|9.02,66.40|N|From F
 
 N Missing Caravan Buff|QID|27373|BUFF|85612;85613;85614|N|Click on Fiona's Caravan to pick one of three buffs.\n\nFiona's Lucky Charm: Allows the looting of Hidden Stash which contains money and a chance of a companion pet.\nGidwin's Weapon Oil: Provides extra Holy damage on melee and ranged attacks.\nTarenar's Talisman: Provides extra Holy damage on successful spell attacks.|
 C Onward, to Light's Hope Chapel|QID|27373|CHAT|M|9.00,66.40|N|Click on Fiona's Caravan and select Ride Fiona's Caravan to its next destination. Sit back and relax, and watch the dialog as the caravan makes it's way to Crown Guard Tower.|
-f Crown Guard Tower|QID|27373|M|34.86,68.05|N|At Janice Myers.|LVL|40|
+f Crown Guard Tower|QID|27373|M|34.86,68.05|N|At Janice Myers.|
 T Onward, to Light's Hope Chapel|QID|27373|M|34.8,69.09|N|To Fiona.|
 
 A Zaeldarr the Outcast|QID|27432|M|35.00,68.20|N|From Urk Gagbaz.|
@@ -452,7 +457,7 @@ T Nobody to Blame but Myself|QID|27489|M|50.46,20.27|N|To Tarenar Sunstrike.|
 A Beat it Out of Them|QID|27522|PRE|27489|M|50.46,20.27|N|From Tarenar Sunstrike.|
 A Wretched Hive of Scum and Villainy|QID|27521|M|50.10,19.57|N|From Kirkian Dawnshield.|
 f Northpass Tower|QID|27521|M|51.29,21.21|N|At Grayson Ironwing.|
-A A City Under Siege|QID|27422|LVL|44|M|51.55,21.36|N|From Argent Officer Irizarry. This is optional as it leads into Stratholme.|
+A A City Under Siege|QID|27422|M|51.55,21.36|N|From Argent Officer Irizarry. This is optional as it leads into Stratholme.|
 A Duskwing, Oh How I Hate Thee...|QID|27523|M|48.11,23.01|N|From Corpseburner Tim.|
 C Duskwing, Oh How I Hate Thee...|QID|27523|U|61334|M|46.90,30.69|N|He wanders around, so look for his boss icon on the minimap. Use the flare on him if he is out of range.|
 T Duskwing, Oh How I Hate Thee...|QID|27523|M|48.06,23.20|N|To Corpseburner Tim.|
@@ -461,7 +466,7 @@ T Wretched Hive of Scum and Villainy|QID|27521|M|50.12,19.60|N|To Kirkian Dawnsh
 C Beat it Out of Them|QID|27522|M|54.18,16.46|N|Beat the 6 Scourge Siege Engineers and the quest will complete.|
 T Beat it Out of Them|QID|27522|M|50.48,20.19|N|To Fiona.|
 A Blind Fury|QID|27524|PRE|27522|M|50.48,20.19|N|From Fiona.|
-A The Plaguewood Tower|QID|27532|LEAD|27531|PRE|27522|LVL|41|M|50.48,20.26|N|From Argus Highbeacon.|
+A The Plaguewood Tower|QID|27532|LEAD|27531|PRE|27522|M|50.48,20.26|N|From Argus Highbeacon.|
 
 R Plaguewood|ACTIVE|27524|M|48.97,29.94;42.31,27.54|CS|N|Mount up and head to Plaguewood|
 T Blind Fury|QID|27524|M|27.58,21.14|N|To Tarenar Sunstrike.|
@@ -495,8 +500,8 @@ T The Corpsebeasts|QID|27530|M|27.63,21.00|N|To Crusader Kevin Frost.|
 R Plaguewood Tower|QID|27530|M|18.51,27.32|N|Run to Plaguewood Tower.|
 f Plaguewood Tower|QID|27530|M|18.51,27.32|N|At William Kielar Jr..|
 T The Plaguewood Tower|QID|27532|M|17.67,27.74|N|To Argent Apothecary Judkins.|
-A Counter-Plague Research|QID|27531|LVL|41|M|17.67,27.74|N|From Argent Apothecary Judkins.|
-A Just a Little Touched|QID|27535|LEAD|27533|LVL|41|M|17.67,27.74|N|From Argent Apothecary Judkins.|
+A Counter-Plague Research|QID|27531|M|17.67,27.74|N|From Argent Apothecary Judkins.|
+A Just a Little Touched|QID|27535|LEAD|27533|M|17.67,27.74|N|From Argent Apothecary Judkins.|
 T Just a Little Touched|QID|27535|M|11.43,28.73|N|To Augustus the Touched.|
 A A Fate Worse Than Butchery|QID|27533|M|11.43,28.73|N|From Augustus the Touched.|
 A Augustus' Receipt Book|QID|27534|M|11.43,28.73|N|From Augustus the Touched.|
