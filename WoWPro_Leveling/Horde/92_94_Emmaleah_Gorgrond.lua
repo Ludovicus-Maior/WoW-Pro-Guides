@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2018-03-06 01:26
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip
+
+-- URL: http://wow-pro.com/node/3599/revisions/29120/view
 -- Date: 2018-02-22 23:35
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -222,7 +227,7 @@ T Your Base, Your Choice|QID|35151|M|46.10,70.18|N|To Durotan.|
 A Durotan's quest|QID|36474;35880|M|46.10,70.18|N|From Durotan. This quest will vary depending on whether you chose the  Lumber Yard or the Sparring Arena in the previous step.|
 ;A The Razorbloom|QID|36474|M|46.10,70.20|N|From Durotan.| ; build lumber mill
 ;A Rage and Wisdom|QID|35880|M|46.10,70.18|N|From Durotan.| ; build sparring arena
-A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow.|LVL|93|RANK|2|
+A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow.|RANK|2|
 A Skulltakers in Crimson Fen|QID|35667|LEAD|35016|PRE|35151|M|46.29,69.98|N|From Marrow.|RANK|2|
 A Tangleheart|QID|35707|M|46.36,69.64|N|From Penny Clobberbottom.|ACTIVE|36474|
 A A Rediscovered Legend|QID|34697|PRE|35151|M|46.33,69.69|N|From Limbflayer.|ACTIVE|35880|
@@ -336,7 +341,7 @@ $ Warm Goren Egg|QID|36203|M|48.9,47.3|QO|1|N|In 7 days this will become a Goren
 C Chains of Iron|QID|35136|M|49.0,45.2;49.2,44.8|CS|QO|1|N|When you enter this valley, you first see Rexxar fighting some grunts, assist him, as he works his way towards Captain Brak. Eventually Nisha flys up and brings Capt. Brak to you. Kill her, then go over and loot the artifact.|
 C Chains of Iron|QID|35136|M|49.74,43.85;49.6,44.5|CS|QO|2|CHAT|N|After you have the artifact, optionally come back down and chat with Nisha for a ride back to your outpost.|
 
-A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow. If you level, this quest will pop up, if you aren't in Beastwatch, just check it off manually, the guide will remind you to pick it up again later.|LVL|93|ACTIVE|35136|
+A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow. If you level, this quest will pop up, if you aren't in Beastwatch, just check it off manually, the guide will remind you to pick it up again later.|ACTIVE|35136|
 N Sparring Arena|QID|35880|ACTIVE|35880|N|What follows next is a running from flight path to flight path and getting a couple of followers.  If that doesn't interest you check these steps off until Run to Mistcreep Mire.  There are bonus objectives in these areas but no quests.|
 
 ;if lumber yard
@@ -457,9 +462,8 @@ K Hive Queen Skrikka|QID|35908|M|52.2,70.2|T|Hive Queen Skrikka|L|118209|N|Kill 
 K Stompalupagus |QID|36837|M|55.2,71.2|T|Stompalupagus|L|118228|N|Kill and loot for an ilvl 537 2H Mace (Agi or Str).|RANK|3|ITEM|118228|;just south of tangleheart
 
 ;for both
-L Level 93|QID|35667|LVL|93|N|If you aren't level 93 do some bonus quests (or something), because there is a quest back to Beastwatch which requires level 93.|RANK|2|
 H Beastwatch|QID|35667|M|47.44,90.79|N|Hearth or Fly back to Beastwatch.|RANK|2|
-A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow.|LVL|93|RANK|2|
+A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow.|RANK|2|
 R Mistcreep Mire|QID|35667|M|54.45,66.65|N|There is really no nice straight path over there, so check your map and go towards the waypoint.|RANK|2|
 A Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Auto accept when entering the area|RANK|3|
 C Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Kill podlings, grab jars and kill Malkor. Malkor can be found inside the building in the back of the|S|RANK|3|
