@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2018-03-06 01:27
+-- Who: Ludovicus_EditBot
+-- Log: LVL change
+
+-- URL: http://wow-pro.com/node/3598/revisions/29121/view
 -- Date: 2018-02-22 23:36
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -404,7 +409,7 @@ T Due Cause to Celebrate|QID|34712|M|71.16,29.89|N|To Magister Krelas. This rewa
 A Joining the Ranks|QID|34949|PRE|34712|M|71.16,29.89|N|From/To Magister Krelas to accept him as a follower.|
 
 ;both
-A News from Spires of Arak|LVL|96|QID|35537|M|71.25,29.94|N|From Shadow Hunter Kajassa. This will pop up on the guide when you hit 96, check it off manually if you aren't in Vol'jin's Pride.|
+A News from Spires of Arak|LVL|94|QID|35537|M|71.25,29.94|N|From Shadow Hunter Kajassa. This will pop up on the guide when you hit 94, check it off manually if you aren't in Vol'jin's Pride.|
 A The Lady of Light|QID|34696|LEAD|34418|PRE|34712+34971|M|71.83,29.75|N|From Knight-Lord Dranarus.|RANK|2|
 T Wanted: Hilaani|QID|34107|M|70.82,29.63|N|To Beastmaster Tagh.|RANK|2|
 
