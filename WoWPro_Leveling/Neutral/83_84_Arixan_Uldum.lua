@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2018-03-06 01:30
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3309/revisions/29134/view
 -- Date: 2018-02-23 01:21
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -192,8 +197,6 @@ WoWPro:GuideNextGuide(guide, 'MagTwi8485|LiaTwi8485')
 WoWPro:GuideIcon(guide,"ACH",4865)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 83 |QID|27003|N|You need to be level 83 or higher to be able to work through this guide.|LVL|83|
 
 R Thistleshrub Valley |QID|27003|N|Welcome to Uldum. To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.\n\nDepending on your current location, either fly to Gunstan's Dig in Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Hero's Call from any Alliance City.|FACTION|Alliance|M|30.52,65.58|Z|Tanaris|
 R Thistleshrub Valley |QID|27003|N|Welcome to Uldum. To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.\n\nDepending on your current location, either fly to Dawnrise Expedition in the Valley of the Watchers, Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Warchief's Command from Orgrimmar, Thunder Bluff or Undercity.|FACTION|Horde|M|30.52,65.58|Z|Tanaris|
