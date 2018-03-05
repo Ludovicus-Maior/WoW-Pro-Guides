@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2018-03-06 01:22
+-- Who: Ludovicus_EditBot
+-- Log: LVL Strip
+
+-- URL: http://wow-pro.com/node/3290/revisions/29110/view
 -- Date: 2018-02-22 23:05
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -118,7 +123,6 @@ WoWPro:GuideSteps(guide, function()
 --> Original guides written/designed by [Jame]
 -->
 --> Addon written by [Black Cat] 2/14/2009
---> Last modified by [Jiyambi] 4/20/2009
 return [[
 
 A Hellscream's Vigil |QID|11585|M|41.6,54.0|N|From Warsong Recruitment Officer.|
@@ -249,9 +253,7 @@ A Foolish Endeavors |QID|11705|PRE|11703|M|34.6,46.4|N|From Shadowstalker Getry.
 C Foolish Endeavors |QID|11705|N|Let Saurfang tank. If you are going to die, back off and let Saurfang finish it. Let Getry engage first, but be right behind him, this quest can bug easily if he aggros before he is supposed to.|
 T Foolish Endeavors |QID|11705|M|41.3,53.6|N|To Garrosh Hellscream.|
 A Nork Bloodfrenzy's Charge |QID|11709|PRE|11705|M|41.3,53.6|N|From Garrosh Hellscream.|
-;lvl
-L Level 69|QID|11709|LVL|69|N|You should be level 69 now.|
-A To Bor'gorok Outpost, Quickly! |QID|12486|LEAD|11624|PRE|11595+11596+11597|LVL|69|M|41.6,53.5|N|From Saurnak the Mystic.|
+A To Bor'gorok Outpost, Quickly! |QID|12486|LEAD|11624|PRE|11595+11596+11597|M|41.6,53.5|N|From Saurnak the Mystic.|
 A Too Close For Comfort |QID|11574|LEAD|11587|PRE|11595+11596+11597|LVL|69|M|41.7,54.7|N|From Endorah.|
 T Nork Bloodfrenzy's Charge |QID|11709|M|43.7,54.5|N|To Warden Nork Bloodfrenzy.|
 A Coward Delivery... Under 30 Minutes or it's Free |QID|11711|PRE|11709|M|43.7,54.5|N|From Warden Nork Bloodfrenzy.|
