@@ -1261,7 +1261,7 @@ function WoWPro.NextStep(k,i)
         if WoWPro.action[k] == "F" or WoWPro.action[k] == "H" or WoWPro.action[k] == "b" or WoWPro.action[k] == "P" or WoWPro.action[k] == "R" then
             local step = WoWPro.step[k]
             local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
-		    if (step == zonetext or step == subzonetext) and not WoWProCharDB.Guide[GID].completion[k] then
+		    if (step == zonetext or step == subzonetext) and ( i == 1) and not WoWProCharDB.Guide[GID].completion[k] then
 			    WoWPro.CompleteStep(k,"AutoCompleteZoneBroker")
 			    skip = true
 			    break
