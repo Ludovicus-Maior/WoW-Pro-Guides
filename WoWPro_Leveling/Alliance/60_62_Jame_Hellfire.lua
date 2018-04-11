@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2018-04-11 22:52
+-- Who: Ludovicus_Maior
+-- Log: Switch from [Through the Dark Portal] to [Hero's Call: Outland!] as primary entry.
+
+-- URL: http://wow-pro.com/node/3271/revisions/29175/view
 -- Date: 2018-02-26 21:41
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -148,13 +153,16 @@ WoWPro:GuideLevels(guide,55,61, 58.7447)
 WoWPro:NewGuideLevels(guide,58,80)
 WoWPro:GuideNextGuide(guide, "JamZan6264")
 WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideQuestTriggers(guide,10119,28708)
 WoWPro:GuideSteps(guide, function()
 return [[
-R Dark Portal|AVAILABLE|10288|N|By the Mage Trainer. Once you start the quests, it becomes a portal to Outland.|Z|Stormwind City|M|49.94,87.00|
+A Hero's Call: Outland! |QID|28708|LEAD|10288|N|From any capital city Hero's Call Board or your Adventure Guide.|
+R Blasted Lands|AVAILABLE|10288|N|By the Mage Trainer at the entrance to the Wizard's Sanctum.|Z|Stormwind City|M|49.94,87.35|
 B Nethergarde Bitter |AVAILABLE|9563|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. Yeah, I know, it is annoying to get now.|M|59.40,14.89|Z|Blasted Lands|
-A Through the Dark Portal |QID|10119|LEAD|10288|M|54.66,50.44|N|From Watch Commander Relthorn Netherwane.\nIf this quest is not availible to you, just go through the portal and get [Arrival in Outland] from Commander Duron.|Z|Blasted Lands|
-R Hellfire Peninsula |ACTIVE|10119|N|Go through the portal to outland.|M|55.01,54.13|Z|Blasted Lands|
+R Hellfire Peninsula |AVAILABLE|10288|N|Go through the portal to Hellfire Peninsula.|M|55.01,54.13|Z|Blasted Lands|
+; This quest is technically active, but unobtainable by any known means
 T Through the Dark Portal |QID|10119|M|87.3,50.7|N|To Commander Duron.|
+T Hero's Call: Outland! |QID|28708|M|87.3,50.7|N|To Commander Duron.|
 A Arrival in Outland |QID|10288|M|87.3,50.7|N|From Commander Duron.|
 T Arrival in Outland |QID|10288|M|87.4,52.4|N|To Amish Wildhammer.|
 A Journey to Honor Hold |QID|10140|PRE|10288|M|87.4,52.4|N|From Amish Wildhammer.|
