@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2018-03-12 20:16
+-- Who: Emmaleah
+-- Log: Change some |L| to use QO so that they can autocomplete due to Blizzard's change to items not physically existing.
+
+-- URL: http://wow-pro.com/node/3218/revisions/29162/view
 -- Date: 2018-02-24 20:41
 -- Who: Ludovicus_EditBot
 -- Log: LEVEL strip
@@ -241,12 +246,12 @@ T A Lost Companion|QID|13564|M|42.95,38.90|N|To Keeper Karithus.|
 A Unsavory Remedies|QID|13598|PRE|13564|M|42.95,38.90|N|From Keeper Karithus.|
 A Ritual Materials|QID|13566|PRE|13564|M|42.95,38.90|N|From Keeper Karithus.|
 A Twice Removed|QID|13565|PRE|13564|M|42.95,38.90|N|From Seraphine.|
-l Tufts of Mottled Doe Hair|QID|13566|M|44.66,40.86|L|45027 3|N|Right-click 3 Mottled Doe.|
+l Tufts of Mottled Doe Hair|QID|13566|M|44.66,40.86|QO|2|N|Right-click 3 Mottled Doe.|
 C Unsavory Remedies|QID|13598|M|49.15,40.55|N|Loot Fuming Toadstools on the way.|S|NC|
-C Twice Removed|QID|13565|U|45911|M|48.60,40.81|N|Use your Petrified Root everytime you kill a Darkscale Scout.|
+C Twice Removed|QID|13565|U|45911|M|48.60,40.81|N|Use your Petrified Root every time you kill a Darkscale Scout.|
 C Unsavory Remedies|QID|13598|M|49.15,40.55|N|Loot Fuming Toadstools.|US|NC|
-l Thistle Bear Fur|QID|13566|M|48.88,37.95|L|45885 3|N|Wait until a Hungry Thistle Bear catches a fish, then click on it to get the fur.|
-C Ritual Materials|QID|13566|M|42.68,40.68;41.70,39.07|CN|N|Right-click 3 Moonstalkers.|
+l Thistle Bear Fur|QID|13566|M|48.88,37.95|QO|3|N|Wait until a Hungry Thistle Bear catches a fish, then click on it to get the fur.|
+l Moonstalker Whiskers|QID|13566|QO|1|M|42.68,40.68;41.70,39.07|CN|N|Right-click 3 Moonstalkers.|
 T Unsavory Remedies|QID|13598|M|42.96,39.11|N|To Keeper Karithus.|
 T Ritual Materials|QID|13566|M|42.96,39.11|N|To Keeper Karithus.|
 T Twice Removed|QID|13565|M|42.88,39.01|N|To Seraphine.|
@@ -271,7 +276,7 @@ A Remnants of the Highborne|QID|13505|PRE|13589|M|58.93,19.49|N|From Balthule Sh
 A Shatterspear Laborers|QID|13504|PRE|13589|M|58.93,19.49|N|From Sentinel Tysha Moonblade.|
 C Shatterspear Laborers|QID|13504|M|60.55,22.17|N|Kill Shatterspear Laborers on the way.|S|
 C Remnants of the Highborne|QID|13505|M|60.43,21.54|N|Loot Highborne Relics on the way.|S|
-K Shatterspear Overseer |QID|13506|L|44979|M|60.67,17.74|N|Kill the Shatterspear Overseer and loot the Overseer's Orders|
+K Shatterspear Overseer |QID|13506|QO|1|M|60.67,17.74|N|Kill the Shatterspear Overseer and loot the Overseer's Orders|
 A Reason to Worry|QID|13506|U|44979|M|60.67,17.74|N|Start the quest from the Overseers Orders.|
 C Remnants of the Highborne|QID|13505|M|60.43,21.54|US|N|Finish looting Highborne Relics.|
 C Shatterspear Laborers|QID|13504|M|60.55,22.17|US|N|Finish killing Laborers.|
@@ -315,7 +320,7 @@ A The Ancients' Ire|QID|13514|M|69.13,19.20|N|From Kerlonian Evershade.|
 C The Ancients' Ire|QID|13514|M|69.44,19.54;70.26,20.33;71.05,17.89;70.67,17.07|CS|N|Climb on an Vengeful Protector, follow the arrows while completing the quest.|
 T The Front Line|QID|13590|M|72.23,19.06|N|Leave the vehicle once you reach the location. Turn in to Huntress Sandrya Moonfall.|
 A Ending the Threat|QID|13515|PRE|13590|M|72.23,19.06|N|From Huntress Sandrya Moonfall.|
-C Ending the Threat|QID|13515|M|72.21,19.06|N|Talk to Huntress Sandrya Moonfall and tell her you're ready, then help her kill Jor'kil the Soulripper. Loot Hellscream's Missive.|
+C Ending the Threat|QID|13515|M|72.21,19.06|CHAT|N|Talk to Huntress Sandrya Moonfall and tell her you're ready, then help her kill Jor'kil the Soulripper. Loot Hellscream's Missive.|
 l Hellscream's Missive|QID|13591|M|72.21,19.06|N|Loot Jor'kil the Soulripper to get the missive.|L|46318|
 A Disturbing Connections|QID|13591|M|72.31,18.90|N|Right-click Hellscream's Missive and accept the quest.|U|46318|
 T Ending the Threat|QID|13515|M|72.35,18.87|N|To Huntress Sandrya Moonfall.|
@@ -420,16 +425,16 @@ A Consumed|QID|13881|M|45.19,74.70|N|From Kathrena Winterwisp.|
 C Consumed|QID|13881|M|45.03,79.2|N|Investigate the Watering Hole. Kill Consumed Thistle Bears.|
 T What's Happening to the Blackwood Furbolg?|QID|13525|M|43.54,80.94|N|To Elder Brolg.|
 A The Bear's Paw|QID|13526|M|43.54,80.94|N|From Elder Brolg.|
-l The Bear's Paw|QID|13526|M|44.99,88.61|N|Loot 8 of the Bear's Paws off of the ground.|L|44850 8|
+l The Bear's Paw|QID|13526|M|44.99,88.61|N|Loot 8 of the Bear's Paws off of the ground.|QO|1|
 T The Bear's Paw|QID|13526|M|43.54,80.90|N|To Elder Brolg.|
 A The Bear's Blessing|QID|13544|PRE|13526|M|43.54,80.90|N|From Elder Brolg.|
 C Leave No Tracks|QID|13892|U|46696|M|40.74,84.58|N|Head to The Master's Glaive, use the figurine and go to the waypoint, and wait until the NPCs start talking for the completion.|
 T Leave No Tracks|QID|13892|M|40.74,84.58|N|Turn in via the quest log.|
 A Stepping Up Surveillance|QID|13948|PRE|13892|M|45.27,75.08|N|From Balren of the Claw.|
-C Stepping Up Surveillance|QID|13948|U|46696|M|39.96,84.84|N|Head up, and be careful of the mobs with the blue eye above their head. Once up, listen to the conversation for the completion.|
+C Stepping Up Surveillance|QID|13948|U|46696|M|39.96,84.84|NC|N|Head up, and be careful of the mobs with the blue eye above their head. Once up, listen to the conversation for the completion.|
 
 l Fleetfoot's Tailfeathers|QID|13544|M|45.49,78.85|T|Fleetfoot|L|44886|N|Kill Fleetfoot and loot his tailfeathers.|
-C The Bear's Blessing|QID|13544|M|45.30,76.82|N|Go to the bear statue and use the Bear's Paw Bundle.|
+C The Bear's Blessing|QID|13544|M|45.30,76.82|N|Go to the bear statue and use the Bear's Paw Bundle.|U|44888|
 T Consumed|QID|13881|M|45.19,74.69|N|To Kathrena Winterwisp.|
 T Stepping Up Surveillance|QID|13948|M|45.25,75.18|N|To Balren of the Claw.|
 A Unearthed Knowledge|QID|13896|PRE|13948|M|45.28,75.05|N|From Larien.|
