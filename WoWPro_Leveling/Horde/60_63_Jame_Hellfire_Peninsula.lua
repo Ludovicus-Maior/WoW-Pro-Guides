@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2018-04-11 22:53
+-- Who: Ludovicus_Maior
+-- Log: Switch from [Through the Dark Portal] to [Warchief's Command: Outland!] as primary entry.
+
+-- URL: http://wow-pro.com/node/3272/revisions/29206/view
 -- Date: 2018-02-27 17:49
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip and ACTIVE tag
@@ -125,15 +130,15 @@ WoWPro:GuideLevels(guide,58,62,58.9286)
 WoWPro:NewGuideLevels(guide,58,80)
 WoWPro:GuideNextGuide(guide, "JamZan6365")
 WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideQuestTriggers(guide,9407,28705)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-; Adjusted to give .xx in map Coords, and adjusted 'h' step to after turning in the lead ins, before going to Nazgrel
-
-A Through the Dark Portal|QID|9407|M|54.42,50.56|Z|Blasted Lands|N|From Warlord Dar'toon.|
-R Hellfire Peninsula|N|Through the great big portal. Once you go through, you can not come back through it.  A portal back to Org is on the Hellfire side.|Z|Blasted Lands|QID|9407|M|55.04,54.19|
-T Through the Dark Portal |QID|9407|M|87.42,49.85|N|To Lieutenant General Orion.|
-A Arrival in Outland |QID|10120|PRE|9407+28705|M|87.42,49.85|N|From Lieutenant General Orion.|
+A Warchief's Command: Outland! |QID|28705|LEAD|10120|N|Any capital city Warchief's Command Board or your Adventure Guide.|
+R Hellfire Peninsula|AVAILABLE|10120|M|30.21,58.27|Z|Cleft of Shadow@Orgrimmar|N|Though the portal in the Cleft of Shadow in Orgrimmar.|
+; This quest is technically active, but unobtainable by any known means
+T Through the Dark Portal |QID|9407|M|87.36,49.80|N|From Lieutenant General Orion.|
+T Warchief's Command: Outland! |QID|28705|M|87.36,49.80|N|To Lieutenant General Orion.|
+A Arrival in Outland |QID|10120|M|87.36,49.80|N|From Lieutenant General Orion.|
 T Arrival in Outland |QID|10120|M|87.33,48.17|N|To Vlagga Freyfeather.|
 A Journey to Thrallmar |QID|10289|PRE|10120|M|87.33,48.17|N|From Vlagga Freyfeather.|
 C Thrallmar|QID|10289|CHAT|N|Talk to Vlagga Freyfeather and have her send you to Thrallmar.|M|87.33,48.17|
