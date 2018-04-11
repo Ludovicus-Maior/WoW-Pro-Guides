@@ -763,8 +763,11 @@ function WoWPro:GuideNextGuide(guide,nextGID)
 end
 
 function WoWPro:GuideQuestTriggers(guide, ...)
-    for _,QID in ipairs({...}) do
-        WoWProCharDB.QID2Guide[QID] = guide['GID']
+    -- Only do if guide is registered!
+    if WoWPro.Guides[guide.GID] then
+        for _,QID in ipairs({...}) do
+            WoWProCharDB.QID2Guide[QID] = guide['GID']
+        end
     end
 end
 
@@ -778,7 +781,10 @@ function WoWPro:GuideAutoSwitch(guide)
     end
     guide['AutoSwitch'] = true
     WoWPro.Guides2Register = WoWPro.Guides2Register or {}
-    table.insert(WoWPro.Guides2Register, guide.GID)
+    -- Only do if guide is registered!
+    if WoWPro.Guides[guide.GID] then
+        table.insert(WoWPro.Guides2Register, guide.GID)
+    end
 end
 
 function WoWPro.GuideAutoSwitchReset()
