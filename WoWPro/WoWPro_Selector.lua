@@ -246,15 +246,28 @@ function WoWPro.SelectGuideReal()
     local count, nGID , quest
     count = 0
     for guidID,value in pairs(WoWPro.QuestLogGuides) do
-        if WoWProCharDB.Guide[guidID] and (not WoWProCharDB.Guide[guidID].NoSelect) then
-            count = count + 1
-            quest = value
-            nGID = guidID
+        if WoWPro.Guides[guidID]  then
+            if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].NoSelect then
+                WoWPro:dbp("SelectGuideReal: Rejected [%s] -> GID %s, as guide has NoSelect set.",value,guidID)
+            else
+                count = count + 1
+                quest = value
+                nGID = guidID
+                WoWPro:dbp("SelectGuideReal:(%d) Quest [%s] -> GID %s",count,value,guidID)
+            end
+        else
+            if guidID ~= 'locked' then
+                WoWPro:dbp("SelectGuideReal: Rejected [%s] -> GID %s, as guide not registered.",value,guidID)
+            end
         end
     end
+
     if count == 1 then
+        WoWPro:dbp("SelectGuideReal: Offering [%s] -> %s", quest, nGID)
         WoWPro:OfferGuideSwitch(nGID, quest)
         WoWPro.QuestLogGuides =  {}
+    else
+         WoWPro:dbp("SelectGuideReal: count %d is not 1.", count)
     end
 end
 
@@ -280,7 +293,7 @@ function WoWPro:SelectGuide(GID, quest, QID)
                 WoWPro.QuestLogGuides =  {}
                 WoWPro.QuestLogGuides['locked']  = true
             end
-            WoWPro.QuestLogGuides[GID] = quest
+            WoWPro.QuestLogGuides[GID] = tostring(quest)
             WoWPro:SendMessage("WoWPro_GuideSelect")
             WoWPro:dbp("AutoSwitch: [%s] %d => %s queued", quest, QID, GID)
         end
