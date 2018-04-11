@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2018-03-12 19:55
+-- Who: Emmaleah
+-- Log: edit K Gobbler so it will auto complete
+
+-- URL: http://wow-pro.com/node/3224/revisions/29164/view
 -- Date: 2018-02-24 20:43
 -- Who: Ludovicus_EditBot
 -- Log: L-evel and LVL strip.
@@ -228,7 +233,7 @@ T Reclaiming Goods|QID|25802|M|13.53,41.48|N|To the Damaged Crate.|
 A The Search Continues|QID|25803|M|13.53,41.48|N|From the Damaged Crate.|PRE|25802|
 T The Search Continues|QID|25803|M|13.66,38.26|N|To the Sealed Barrel.|
 A Search More Hovels|QID|25804|M|13.66,38.26|N|From the Sealed Barrel.|PRE|25803|
-K Gobbler|QID|25801|L|3618 |M|14.43,37.44|N|Kill and loot Gobbler.|
+K Gobbler|QID|25801|QO|2|M|14.43,37.44|N|Kill and loot Gobbler.|
 T Search More Hovels|QID|25804|M|13.93,34.90|N|To the Half-Buried Barrel|
 A Return the Statuette|QID|25805|M|13.93,34.90|N|From the Half-Buried Barrel|PRE|25804|
 C Claws from the Deep|QID|25801|QO|1|M|15.13,31.76|N|Finish killing Murlocs.|US|; Bluegill Murloc slain: 12/12
