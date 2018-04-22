@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2018-04-22 18:44
+-- Who: Ludovicus_Maior
+-- Log: Add some missing U tags to quests.
+
+-- URL: http://wow-pro.com/node/3271/revisions/29233/view
 -- Date: 2018-04-11 22:52
 -- Who: Ludovicus_Maior
 -- Log: Switch from [Through the Dark Portal] to [Hero's Call: Outland!] as primary entry.
@@ -350,7 +355,7 @@ T Crimson Crystal Clue|QID|10134|N|To Tola'thion.|M|15.62,52.12|
 A The Earthbinder |QID|10349|PRE|10134|N|From Tola'thion.|M|15.62,52.12|
 T The Earthbinder |QID|10349|N|To Earthbinder Galandria Nightbreeze.|M|15.89,51.59|
 A Natural Remedies |QID|10351|PRE|10349|N|From Earthbinder Galandria Nightbreeze.|M|15.89,51.59|
-C Natural Remedies |N|Go here, stand on the green rune and use the seed, then kill Goliathon when it spawns.|QID|10351|M|13.64,39.11|
+C Natural Remedies |N|Go here, stand on the green rune and use the seed, then kill Goliathon when it spawns.|QID|10351|M|13.64,39.11|U|29478|
 T Natural Remedies |QID|10351|N|To Earthbind Galandria Nightbreeze.|M|15.89,51.59|
 
 C Demonic Contamination |N|Kill Hulking Helboars until you get the samples for this quest.|QID|9372|M|18.5,55.3|
@@ -377,7 +382,7 @@ C Deadly Predators |S|N|Kill the Stonescythe Alphas and Whelps needed for this q
 C The Rock Flayer Matriarch|N|Kill and loot Blacktalon in this cave.|QID|9490|M|34.00,64.00|
 C Deadly Predators |US|N|Kill the Stonescythe Alphas and Whelps needed for this quest.|QID|9398|M|32.00,61.00|
 C Hellfire Fortifications |N|Do this quest by taking over the towers.|QID|10106|M|40.76,49.64;39.81,56.49;35.38,56.42|CN|
-C An Ambitious Plan |N|Get an Uncontrolled Voidwalker down to low health, then use the Sanctified Crystal.  Click on the red Crystal that appears.|QID|9383|M|46.00,82.00|
+C An Ambitious Plan |N|Get an Uncontrolled Voidwalker down to low health, then use the Sanctified Crystal.  Click on the red Crystal that appears.|QID|9383|M|46.00,82.00|U|23417|
 C Voidwalkers Gone Wild |N|Kill and loot Voidwalkers until you finish this quest.|QID|9351|M|46.00,82.00|
 K Arch Mage Xintor|N|Kill Arch Mage Xintor.|QID|10057|M|53.60,81.00|QO|1|; Arch Mage Xintor slain: 1/1
 C Looking to the Leadership|QID|10057|M|54.7,83.6|N|Kill Lieutenant Commander Thalvos.|
@@ -432,7 +437,7 @@ F Temple of Telhamat |QID|9427|N|Fly to Temple of Telhamat.|M|54.70,62.30|
 T Cleansing the Waters |QID|9427|M|23.4,36.5|N|To Amaan the Wise.|
 T Demonic Contamination |QID|9372|M|15.7,52.0|N|To Thiah Redmane.|
 A Testing the Antidote |QID|10255|PRE|9372|M|15.7,52.0|N|From Thiah Redmane.|
-C Testing the Antidote |N|Find a Hulking Helboar and use the Antidote after getting it to low health.|QID|10255|M|27.50,40.20|
+C Testing the Antidote |N|Find a Hulking Helboar and use the Antidote after getting it to low health.|QID|10255|M|27.50,40.20|U|23337|
 T Testing the Antidote |QID|10255|M|15.7,52.0|N|To Thiah Redmane.|
 l Sha'naar Relics |N|Grab the 10 relics needed for this quest.|QID|9430|M|15.1,55.7|S|L|23642 10|
 C Cruel Taskmasters |N|Kill the 10 Taskmasters needed for this quest.|QID|9399|M|15.1,55.7|S|
@@ -458,7 +463,7 @@ T Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|To Mahuram Stouthoof.|
 T Cruel Taskmasters |QID|9399|M|23.1,40.3|N|To Ikan.|
 T Sha'naar Relics |QID|9430|M|23.4,36.5|N|To Amaan the Wise.|
 A The Seer's Relic |QID|9545|PRE|9430|M|23.4,36.5|N|From Amaan the Wise.|
-C The Seer's Relic |N|Go here and use the Seer's Relic and wait for the quest completion. |QID|9545|M|26.90,37.40|
+C The Seer's Relic |N|Go here and use the Seer's Relic and wait for the quest completion. |QID|9545|M|26.90,37.40|U|23645|
 T The Seer's Relic |QID|9545|M|23.4,36.5|N|To Amaan the Wise.|
 h Temple of Telhamat|M|23.23,36.5|N|At Caregiver Ophera Windfury.|
 F Shattrath City|M|25.18,37.22|N|Fly to Shattrath to visit you trainers, AH, etc.|
