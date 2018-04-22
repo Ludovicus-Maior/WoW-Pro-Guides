@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2018-04-22 18:46
+-- Who: Ludovicus_Maior
+-- Log: Fix "unknown QID for FP" for Swamprat Post.
+
+-- URL: http://wow-pro.com/node/3272/revisions/29234/view
 -- Date: 2018-04-11 22:53
 -- Who: Ludovicus_Maior
 -- Log: Switch from [Through the Dark Portal] to [Warchief's Command: Outland!] as primary entry.
@@ -456,9 +461,10 @@ A Checking Up|QID|29566|M|78.40,62.10|Z|Zangarmarsh|N|From Ysiel Windsinger. Thi
 T Warden Hamoot |QID|9778|Z|Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
 
 A A Warm Welcome |QID|9728|Z|Zangarmarsh|M|79.0,65.5|N|From Warden Hamoot.|
-R Swamprat Post |QID|10103|N|To Swamprat Post in the northeast.|Z|Zangarmarsh|M|85,55|
+R Swamprat Post |ACTIVE|10103|N|To Swamprat Post in the northeast.|Z|Zangarmarsh|M|85,55|
+f Swamprat Post |ACTIVE|10103|N|Grab the flight path From Gur'zil.|M|84.77,55.11|
 T Report to Zurai |QID|10103|Z|Zangarmarsh|M|85.5,55.0|N|To Zurai.|
-f Swamprat Post |QID|10103|N|Grab the flight path From Gur'zil.|M|84.77,55.11|  ; unknown QID for FP
+
 H Falcon Watch|QID|9387|N|Hearth (or Fly) to Falcon Watch.|
 T Source of the Corruption |QID|9387|M|26.79,59.71|N|To Apothecary Azethen.|
 T A Pilgrim's Plight |QID|9376|M|27.16,61.90|N|To Taleris Dawngazer.|
