@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2018-04-22 18:42
+-- Who: Ludovicus_Maior
+-- Log: Change H [Lion's Pride Inn] to use ACTIVE tag
+
+-- URL: http://wow-pro.com/node/3197/revisions/29157/view
 -- Date: 2018-02-24 20:37
 -- Who: Ludovicus_EditBot
 -- Log: LEVEL Elwynn
@@ -245,11 +250,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
 
--- URL: http://wow-pro.com/node/3197/revisions/24272/view
--- Date: 2011-04-26 22:42
--- Who: Ludovicus_Maior
--- Log: Fixed syntax errors.
-
 local guide = WoWPro:RegisterGuide("KurElw0511", "Leveling", "Elwynn Forest", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,4,9,5.79167)
 WoWPro:NewGuideLevels(guide,1,20)
@@ -301,7 +301,7 @@ C The Fargodeep Mine|N|Enter the mine and follow the way until you get a quest c
 C Kobold Candles|N|Kill and loot Kobolds until you have 8 Kobold Candles.|QID|60|US|M|38.00,83.50|
 C Gold Dust Exchange|N|Kill and loot Kobolds until you have 10 Gold Dust.|QID|47|US|M|38.00,83.50|
 
-H Lion's Pride Inn |QID|60|N|Hearthstone to, or run back to Lion's Pride Inn in Goldshire.|M|43.75,65.75|
+H Lion's Pride Inn |ACTIVE|60|N|Hearthstone to, or run back to Lion's Pride Inn in Goldshire.|M|43.75,65.75|
 T Note to William|QID|107|M|43.32,65.70|N|To William Pestle.|
 A Collecting Kelp|QID|112|PRE|107|M|43.32,65.70|N|From William Pestle.|
 T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|
