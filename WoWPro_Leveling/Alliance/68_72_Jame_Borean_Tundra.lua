@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2018-04-22 18:53
+-- Who: Ludovicus_Maior
+-- Log: Just playing through adding U's and fixing QO's.
+
+-- URL: http://wow-pro.com/node/3289/revisions/29179/view
 -- Date: 2018-02-26 21:45
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -194,9 +199,9 @@ A It's Time for Action |QID|11903|PRE|11902|N|From Gerald Green.|M|58.19,62.76|
 A Take No Chances |QID|11913|PRE|11902|N|From Wendy Darren.|M|58.29,62.76|
 A Reference Material |QID|11908|PRE|11902|N|From Jeremiah Hawning.|M|58.19,62.98|
 C It's Time for Action |QID|11903|N|Kill the Plagued Scavengers you need for this quest.|S|
-C Take No Chances |QID|11913|N|Burn Farshire Grain using the torch.|S|
+C Take No Chances |QID|11913|N|Burn Farshire Grain using the torch.|S|U|35491|
 C Reference Material |QID|11908|N|Loot the red book in the burning building near the mine.|M|55.77,58.37|
-C Take No Chances |QID|11913|N|Burn Farshire Grain using the torch.|US|
+C Take No Chances |QID|11913|N|Burn Farshire Grain using the torch.|US|U|35491|
 C It's Time for Action |QID|11903|N|Kill the Plagued Scavengers you need for this quest.|US|
 T It's Time for Action |QID|11903|N|Go back to Gerald Green.|M|58.19,62.76|
 A Fruits of Our Labor |QID|11904|PRE|11903|N|From Gerald Green.|M|58.19,62.76|
@@ -285,9 +290,9 @@ r Sell junk, repair and re-stock food/drink in Unu'pe.|QID|12117|M|77.91,52.51|
 A The Honored Ancestors |QID|11605|N|Folow the Road north until you see a large tuskarr statue called "Elder Atkanok" on the left side of the path. The Elder offers this quest.|M|54.69,35.69|
 A Reclaiming the Quarry |QID|11612|N|From Etaruk on the ledge above Elder Atkanok.|M|54.3,36.1|
 C Reclaiming the Quarry |QID|11612|N|Kill Beryl Treasure Hunters.|S|
-N Elder Sagani|QID|11605|QO|2|N|Click the Elder here.|M|52.84,34.05|; Elder Sagani identified: 1/1
-N Elder Kesuk|QID|11605|QO|1|N|Click the Elder here.|M|50.81,32.38|; Elder Kesuk identified: 1/1
-C The Honored Ancestors |QID|11605|N|Click the Elder here.|M|52.32,31.19|
+C Elder Sagani|QID|11605|QO|2|N|Click the Elder here.|M|52.84,34.05|; Elder Sagani identified: 1/1
+C Elder Kesuk|QID|11605|QO|1|N|Click the Elder here.|M|50.81,32.38|; Elder Kesuk identified: 1/1
+C Elder Takret |QID|11605|QO|3|N|Click the Elder here.|M|52.32,31.19|
 T The Honored Ancestors |QID|11605|N|To Elder Atkanok.|M|54.69,35.69|
 A The Lost Spirits |QID|11607|PRE|11605|N|From Elder Atkanok.|M|54.69,35.69|
 C The Lost Spirits |QID|11607|U|34711|N|Kill Beryl Hounds, loot Cores of Malice from them and use those on the Tuskarr in the quarry.|M|51.5,31.4|
@@ -307,16 +312,16 @@ A Leading the Ancestors Home |QID|11610|PRE|11609|N|From Elder Atkanok|M|54.69,3
 T Hampering Their Escape |QID|11617|N|To Etaruk|M|54.3,36.1|
 
 A A Visit to the Curator |QID|11623|PRE|11617|N|From Etaruk|M|54.3,36.1|
-N Elder Sagani |QID|11610|QO|1|U|34715|N|Use the Tuskarr Ritual Object at Elder Sagani's stone you visited earlier. Right-clicking the Elder will NOT complete the quest, you need to use the item in your inventory.|M|52.82,34.04|; Elder Sagani's ceremony completed: 1/1
-N Elder Kesuk |QID|11610|QO|1|U|34715|N|Use the Tuskarr Ritual Object at Elder Kesuk's stone you visited earlier.|M|50.84,32.43|; Elder Kesuk's ceremony completed: 1/1
+C Elder Sagani |QID|11610|QO|2|U|34715|N|Use the Tuskarr Ritual Object at Elder Sagani's stone you visited earlier. Right-clicking the Elder will NOT complete the quest.|M|52.82,34.04|; Elder Sagani's ceremony completed: 1/1
+C Elder Kesuk |QID|11610|QO|1|U|34715|N|Use the Tuskarr Ritual Object at Elder Kesuk's stone you visited earlier.|M|50.84,32.43|; Elder Kesuk's ceremony completed: 1/1
 C A Visit to the Curator |QID|11623|N|Fly up the cliff and kill Curator Insivius on the landed platform.|M|50.08,32.73|
-C Leading the Ancestors Home |QID|11610|U|34715|N|Use the Tuskarr Ritual Object at Elder Takret's stone you visited earlier.|M|52.32,31.12|
+C Elder Takret |QID|11610|QO|3|U|34715|N|Use the Tuskarr Ritual Object at Elder Takret's stone you visited earlier.|M|52.32,31.12|
 T A Visit to the Curator |QID|11623|N|To Etaruk.|M|54.3,36.1|
 T Leading the Ancestors Home |QID|11610|N|To Elder Atkanok.|M|54.69,35.69|
 
-K Robots |QID|11729|L|34984|N|Kill robots in this area until one drops The Ultrasonic Screwdriver.|M|58.27,22.84|
+K Robots |QID|11729|L|34984|N|Kill robots in this area until one drops The Ultrasonic Screwdriver. Sentries have the highest drop rate (3%).|M|58.27,22.84|
 A The Ultrasonic Screwdriver |QID|11729|U|34984|N|Right-click The Ultrasonic Screwdriver and accept the quest.|M|58.5,17.6|
-R Fizzcrank Airstrip |QID|11707|M|57,20|
+f Fizzcrank Airstrip |ACTIVE|11707|M|56.58,20.07|N|Get the flight point from Kara.|
 T Distress Call |QID|11707|N|Inside the inn on the second floor.|M|57.03,18.71|
 A The Mechagnomes |QID|11708|PRE|11707|N|From Fizzcrank Fullthrottle|M|57.03,18.71|
 C The Mechagnomes |QID|11708|N|Listen to Fizzcrank Fullthrottle until the quest completes.|M|57.03,18.71|
@@ -338,8 +343,10 @@ A Just a Few More Things... |QID|11650|PRE|11645|N|From Crafty Wobblesprocket wh
 C Master and Servant |QID|11730|U|35116|N|Kill robots and use The Ultrasonic Screwdriver on them.|M|57.52,25.03|S|
 C What's the Matter with the Transmatter? |QID|11710|N|Pick up Fizzcrank Spare Parts.|M|62.15,19.5|S|
 C Re-Cursive |QID|11712|U|34973|N|Kill Mechagnomes and use the Re-Cursive Transmatter Injection on them.|M|58.4,19.5|S|
-l Crafty's Tools |QID|11650|L|34802|N|Loot Crafty's Tools below the Fizzcrank Pumping Station.|M|64.37,23.06|
+l Crafty's Tools |QID|11650|QO|1|N|Loot Crafty's Tools below the Fizzcrank Pumping Station.|M|64.37,23.06|
 C Re-Cursive |QID|11712|U|34973|N|Kill Mechagnomes and use the Re-Cursive Transmatter Injection on them.|M|58.4,19.5|US|
+t What's the Matter with the Transmatter? |QID|11710|M|57.37,18.82|N|To Mordle Cogspinner.|
+t Master and Servant |QID|11730|M|57.84,18.70|N|To Crafty Wobblesprocket|
 T Re-Cursive |QID|11712|N|To Jinky Wingnut outside the inn. You'll be returning for the next quests anyway, so you might as well turn it in now even if you still have robots to kill or parts to collect.|M|57.44,18.74|
 
 A Lefty Loosey, Righty Tighty |QID|11788|PRE|11712|N|From Jinky Wingnut|M|57.45,18.74|
@@ -347,7 +354,7 @@ A Finding Pilot Tailspin |QID|11725|PRE|11712|N|From Fizzcrank Fullthrottle in t
 K Twonky |QID|11788|QO|1|N|Click the small sparkling valve on the side of the pipeline here and kill Twonky.|M|60.20,20.42|; Twonky slain: 1/1
 K ED-210 |QID|11788|QO|2|N|Click the small valve here and kill ED-210.|M|65.46,17.51|; ED-210 slain: 1/1
 K Max Blasto |QID|11788|QO|3|N|Click the small valve here and kill Max Blasto.|M|63.74,22.40|; Max Blasto slain: 1/1
-C Lefty Loosey, Righty Tighty |QID|11788|N|Click the small valve here and kill The Grinder.|M|65.19,28.79|
+K The Grinder |QID|11788|QO|4|N|Click the small valve here and kill The Grinder.|M|65.19,28.79|
 C What's the Matter with the Transmatter? |QID|11710|N|Pick up Fizzcrank Spare Parts.|M|62.15,19.5|US|
 C Master and Servant |QID|11730|U|35116|N|Kill robots and use The Ultrasonic Screwdriver on them.|M|57.52,25.03|US|
 T Finding Pilot Tailspin |QID|11725|N|To Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
@@ -357,7 +364,7 @@ T The Son of Karkut |QID|12086|N|To Corporal Venn at Death's Stand.|M|82.02,46.4
 
 A Surrounded! |QID|11944|PRE|12086|N|From Corporal Venn.|M|82.02,46.42|
 C Surrounded! |QID|11944|N|Kill Ziggurat Defenders.|S|
-l Rocknar's Grit |QID|11650|L|34804|N|Kill Rocknar and loot A Handful of Rocknar's Grit. Mages shoud be careful because he is immune to all frost spells.|M|81.47,42.49|
+l Rocknar's Grit |QID|11650|QO|3|N|Kill Rocknar and loot A Handful of Rocknar's Grit. Mages should be careful because he is immune to all frost spells.|M|81.47,42.49|
 C Surrounded! |QID|11944|N|Kill Ziggurat Defenders.|US|
 T Surrounded! |QID|11944|N|To Corporal Venn.|M|82.02,46.42|
 A Thassarian, the Death Knight |QID|12088|PRE|11944|N|From Corporal Venn.|M|82.02,46.42|
@@ -366,13 +373,13 @@ A Finding the Phylactery |QID|11956|N|From Thassarian.|M|84.80,41.67|
 C Finding the Phylactery |QID|11956|N|When ready with full health/mana, dive into the water and click the Frozen Phylactery. 4 monsters will attack you. Kill the Phylactery Guardian and loot Tanathal's Phylactery. |M|85.40,33.35|
 T Finding the Phylactery |QID|11956|N|To Thassarian inside the Ziggurat.|M|84.80,41.67|
 A Buying Some Time |QID|11938|PRE|11956|N|From Thassarian.|M|84.80,41.67|
-C Buying Some Time |QID|11938|N|Head north into the Temple City of En'kilah and kill 20 En'kilah enemies. Use the Skull if you want some aid by Thassarians skeletal companion, Lurid.|M|85,26|
+C Buying Some Time |QID|11938|N|Head north into the Temple City of En'kilah and kill 20 En'kilah enemies. Use the Skull if you want some aid by Thassarians skeletal companion, Lurid.|M|85,26|U|35944|
 T Buying Some Time |QID|11938|N|To Thassarian inside the Ziggurat.|M|84.80,41.67|
 
 A Words of Power |QID|11942|PRE|11938|N|From Thassarian.|M|84.80,41.67|
 l High Priest Talet-Kha's Scroll |QID|11942|QO|3|N|Kill High Priest Talet-Kha (the big Nerubian) for his scroll. He becomes attackable after you killed the webs binding him.|M|89.37,28.94|; High Priest Talet-Kha's Scroll: 1/1
 l High Priest Andorath's Scroll |QID|11942|QO|1|N|Kill High Priest Andorath on the upper floor for his scroll.|M|87.81,20.71|; High Priest Andorath's Scroll: 1/1
-C Words of Power |QID|11942|N|Kill the Necromancers around him, then High Priest Naferset himself for his scroll.|M|83.92,20.45|
+l High Priest Naferset |QID|11942|QO|2|N|Kill the Necromancers around him, then High Priest Naferset himself for his scroll.|M|83.92,20.45|
 T Words of Power |QID|11942|N|To Thassarian inside the Ziggurat.|M|84.80,41.67|
 A Last Rites |QID|12019|PRE|11942|N|From Thassarian.|M|84.80,41.67|
 C Last Rites |QID|12019|N|You'll have Thassarian's help. Take the portal up to Naxxanar in En'kilah, then take the portal above it to the top. Speak to Thassarian to start the event.|M|86.60,28.50|
@@ -388,7 +395,7 @@ T Emergency Protocol: Section 8.2, Paragraph C |QID|11795|N|To Iggy "Tailspin" C
 A Emergency Protocol: Section 8.2, Paragraph D |QID|11796|PRE|11795|N|From Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 U Northwestern Wreck |QID|11796|QO|3|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|60.89,33.74|; Scuttle a Northwestern Wreck: 1/1
 U Southern Wreck |QID|11796|QO|2|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|61.08,39.96|; Scuttle a Southern Wreck: 1/1
-C Emergency Protocol: Section 8.2, Paragraph D |QID|11796|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|63.38,36.91|
+U Eastern Wreck |QID|11796|QO|1|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|63.38,36.91|
 T Emergency Protocol: Section 8.2, Paragraph D |QID|11796|N|To Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 
 A Give Fizzcrank the News |QID|11873|PRE|11796|N|From Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
@@ -406,9 +413,9 @@ h Fizzcrank Airstrip |QID|11713|N|Set your hearthstone here with "Charlie" North
 
 A Scouting the Sinkholes |QID|11713|N|From Abner Fizzletorque.|M|57.06,20.12|
 C Hah... You're Not So Big Now! |QID|11653|U|34812|N|Use Crafty's Ultra-Advanced Proto-Typical Shortening Blaster on Magmoth monsters north of town until you complete this quest.|M|56.37,14.55|
-N Northwest Sinkhole |U|34920|QID|11713|QO|1|N|Use the Map of the Geyser Fields at the Northwest Sinkhole.|M|66.23,32.15|; Mark Location of Northwest Sinkhole: 1/1
-N Northeast Sinkhole |U|34920|QID|11713|QO|1|N|Use the Map of the Geyser Fields at the Northeast Sinkhole.|M|69.68,32.59|; Mark Location of Northeast Sinkhole: 1/1
-C Scouting the Sinkholes |QID|11713|U|34920|N|Use the Map of the Geyser Fields at the South Sinkhole to complete the quest.|M|70.23,36.34|
+C Northwest Sinkhole |U|34920|QID|11713|QO|3|N|Use the Map of the Geyser Fields at the Northwest Sinkhole.|M|66.23,32.15|; Mark Location of Northwest Sinkhole: 1/1
+C Northeast Sinkhole |U|34920|QID|11713|QO|2|N|Use the Map of the Geyser Fields at the Northeast Sinkhole.|M|69.68,32.59|; Mark Location of Northeast Sinkhole: 1/1
+C South Sinkhole |QID|11713|QO|1|U|34920|N|Use the Map of the Geyser Fields at the South Sinkhole to complete the quest.|M|70.23,36.34|
 T Hah... You're Not So Big Now! |QID|11653|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 A Plan B |QID|11658|PRE|11653|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 T Scouting the Sinkholes |QID|11713|N|To Abner Fizzletorque.|M|57.06,20.12|

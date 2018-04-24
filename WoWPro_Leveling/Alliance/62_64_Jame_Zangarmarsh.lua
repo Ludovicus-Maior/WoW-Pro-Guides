@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2018-04-22 18:50
+-- Who: Ludovicus_Maior
+-- Log: Added [Fhwoor Smash!] for "Mysteries of Zangarmarash" achievement.
+--	Misc playthrough tweaks.
+
+-- URL: http://wow-pro.com/node/3273/revisions/29176/view
 -- Date: 2018-02-26 21:42
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip
@@ -288,7 +294,7 @@ C As the Crow Flies|N|Use the Stormcrow Amulet to take a ride around the zone.|Q
 T As the Crow Flies|QID|9718|M|78.4,62.0|N|To Ysiel Windsinger.|
 A Balance Must Be Preserved|QID|9720|PRE|9718|M|78.4,62.0|N|From Ysiel Windsinger.|
 r Sell junk, repair, restock|QID|9728|N|Make sure you do not sell the Bog Lord Tendrils, Fertile spores and plant parts you have.|M|79.27, 63.78|
-U Umbrafen Lake Controls Disabled|QID|9720|QO|1|N|Use the ironvine seeds on the control panel at|M|70.5,80.|U|24355|
+U Umbrafen Lake Controls Disabled|QID|9720|QO|1|N|Use the ironvine seeds on the control panel at Ubrafen.|M|70.5,80.|U|24355|
 U Lagoon Controls Disabled|N|Go here and disable the pump with the Ironvine Seeds.|M|63.10,64.1|QID|9720|QO|4|U|24355|
 A Drain Schematics|N|Right click the Drain Schematics to start the quest.|QID|9731|U|24330|M|62.0,40.8|O|
 l Drain Schematics|ACTIVE|9720|N|Kill Steam Pump Overseers and loot the Schematics if he has it (10% chance). Use the Ironvine Seeds on the Control Console to get more Overseers to spawn. Repeat until you get the Drain Schematics.|M|62.00,40.60;63.20,64.20;70.50,80.45;25.50,42.90|CN|L|24330|U|24355|
@@ -358,7 +364,7 @@ C A Question of Gluttony|N|Go here, killing giants on the way. Loot Discarded Nu
 T A Question of Gluttony|M|23.30,66.2|QID|9702|N|To Watcher Leesa'oh.|
 A Familiar Fungi|QID|9708|PRE|9702|M|23.3,66.2|N|From Leesa'oh.|
 C Lines of Communication|N|Kill Slicers until you finish this quest.|QID|9833|M|32.8,59.1|S|
-l "Count" Ungula's Mandible|QID|9911|N|Go here and look for a mob called Count Ungula. Kill it and loot the mandible.|M|33.00,60.0|L|25459 1|
+l "Count" Ungula's Mandible|QID|9911|N|Go here and look for a mob called Count Ungula. Kill it and loot the mandible.|M|33.00,60.0|L|25459 1|T|"Count" Ungula|
 A The Count of the Marshes|N|Right-click the Mandible to start the quest.|QID|9911|U|25459|M|32.8,59.1|
 C Lines of Communication|N|Kill Slicers until you finish this quest.|QID|9833|M|32.8,59.1|US|
 l Idols of the Feralfen|N|Kill mobs and loot Idols off the ground until you finish this quest.|M|49.60,59.7|QID|9787|QO|1|
@@ -368,6 +374,7 @@ H Cenarion Refuge|ACTIVE|9787|N|Hearth to Cenarion Refuge.|U|6948|M|78.59,62.87|
 N Sell junk, repair, restock, turn in plant parts|QID|9787|N|Sell junk, repair, restock, turn in plant parts.|M|79.25, 63.7|
 T Idols of the Feralfen|QID|9787|M|68.2,49.4|N|To Anchorite Ahuurn.|
 A Gathering the Reagents|QID|9801|PRE|9787|M|68.2,49.4|N|From Anchorite Ahuurn.|
+t Diaphanous Wings|QID|9790|M|67.7,48.0|N|To Haalrun.|
 F Orebor Harborage|QID|9834|N|Fly to Orebor Harborage|M|67.80, 51.5|
 T Lines of Communication|QID|9833|M|40.8,28.7|N|To Puluu.|
 T Natural Armor|QID|9834|M|41.6,27.3|N|To Maktu.|
@@ -384,8 +391,7 @@ A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. Will disappear if you are friendly
 C Glowcap Mushrooms|N|Get the rest of the glowcaps needed for this quest.|M|40.00,36.3|QID|9808|
 T Glowcap Mushrooms|QID|9808|N|To Msshi'fn.|M|19.7,52.1|
 N Friendly with Sporeggar|QID|9708|M|19.11,63.51;15.33,61.15|CN|N|Kill giants; turn in 10 Mature Spore Sacs (easiest to do, 2-3 turn-ins should get you friendly), or 6 Bog Lord Tendrils to Fahssn until you are friendly with Sporeggar.|REP|Sporreggar;970;unfriendly-neutral|
-A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|
-A Oh, It's On!|QID|9717|N|From T'shu. Optional dungeon quest, skip if you do not want to do it.|
+A Now That We're Friends...|QID|9726|M|19.54,50.04|N|From Gzhun'tt.|
 C Gathering the Reagents|N|Kill and loot Marsh Walkers, Fen Striders and Sporebats, until you finish this quest.|M|63.00,51.0|QID|9801|S|
 T Familiar Fungi|M|23.30,66.2|QID|9708|N|To Watcher Leesa'oh.|
 A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.3,66.2|N|From Watcher Leesa'oh.|
@@ -404,14 +410,20 @@ T Stinger Venom|QID|9830|M|40.8,28.7|N|To Puluu.|
 T The Terror of Marshlight Lake|QID|9902|M|40.8,28.7|N|To Puluu.|
 T Maktu's Revenge|QID|9905|M|41.6,27.3|N|To Maktu.|
 h Orebor Harborage|QID|9726|N|Set your hearthstone to Orebor Harborage.|M|41.85,26.2|
-C Overlord Gorefist|N|Kill Overlord Gorefist.|M|18.00,8.0|QID|9839|QO|1|S|
 C Overlord Gorefist|N|Kill the rest of the mobs needed for this quest.|M|18.00,8.0|QID|9839|QO|2|S|
 l Stealing Back the Mushrooms|N|Loot mushrooms from the boxes scattered in the area. Can drop off of Ogres as well.|M|17.00,10.0|QID|9709|QO|1|
+K Overlord Gorefist|N|Kill Overlord Gorefist, who is in a hut on top of the hill, not in the cave!|M|18.00,8.0|QID|9839|QO|1|
 C Overlord Gorefist|N|Finish killing the rest of the mobs needed for this quest.|M|18.00,8.0|QID|9839|QO|2|US|
 C Now That We're Friends...|N|Kill Bloodscale Slavedrivers and Enchantresses needed for this quest.|M|26.00,36.0|QID|9726|
 C Fertile Spores|N|Kill mobs until you get the spores for this quest.|M|20.00,16.0|QID|9806|
-T Now That We're Friends...|QID|9726|M|19.5,50.0|N|To Gzhun'tt.|
+T Now That We're Friends...|QID|9726|M|19.54,50.04|N|To Gzhun'tt.|
 T Fertile Spores|QID|9806|M|19.2,49.4|N|To Gshaff.|
+A Now That We're Still Friends...|QID|9727|M|19.54,50.04|N|From Gzhun'tt.|
+A Fhwoor Smash!|QID|9729|M|19.78,50.841|N|From Fhwoor.  This is an annoying escort quest, but needed to complete the "Mysteries of Zangarmarash".|
+K Ssslith|QID|9729|M|25.6,51.8|N|Accompany Fhwoor, killing Naga along the way for [Now That We're Still Friends...]. Kill Ssslith when he attacks.|QO|1|
+T Fhwoor Smash!|QID|9729|M|19.54,50.04|N|To Gzhun'tt.|
+C Now That We're Friends...|N|Kill Bloodscale Slavedrivers and Enchantresses needed for this quest.|M|26.00,36.0|QID|9727|
+T Now That We're Still Friends...|QID|9727|M|19.54,50.04|N|To Gzhun'tt.|
 T Stealing Back the Mushrooms|M|23.30,66.2|QID|9709|N|To Watcher Leesa'oh.|
 C Messenger to the Feralfen|N|Go here and use Ahuurn's Elixir, then talk to Elder Kurutiin in the building, and go through the dialogue.|M|44.00,66.0|QID|9803|U|24428|
 
