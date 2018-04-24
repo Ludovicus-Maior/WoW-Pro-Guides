@@ -55,8 +55,3 @@ function WoWPro.Dailies:RowLeftClick(i)
 	end
 	WoWPro.rows[i]:SetChecked(false)
 end
-
--- Event Response Logic --
-function WoWPro.Dailies:EventHandler(frame, event, ...)
-	WoWPro.Dailies:dbp("Running: Dailies Event Handler on %s",event)
-end

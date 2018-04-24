@@ -38,14 +38,6 @@ end
 function WoWPro.Leveling:OnEnable()
 	WoWPro.Leveling:dbp("|cff33ff33Enabled2|r")
 	
-	-- Event Registration --
-	WoWPro.Leveling.Events = { 
-		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "TRAINER_UPDATE",
-		"QUEST_GREETING","GOSSIP_SHOW", "QUEST_DETAIL", "QUEST_PROGRESS", "QUEST_COMPLETE",
-		"TAXIMAP_OPENED","PET_BATTLE_OPENING_START","PET_BATTLE_CLOSE"
-	}
-	WoWPro:RegisterEvents(WoWPro.Leveling.Events)
 	--Loading Frames--
 	if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Leveling:CreateConfig()
@@ -96,9 +88,6 @@ end
 
 -- Called when the module is disabled --
 function WoWPro.Leveling:OnDisable()
-	-- Unregistering Leveling Module Events --
-	WoWPro:UnregisterEvents(WoWPro.Leveling.Events)
-	
 	--[[ If the current guide is a leveling guide, removes the map point, stores the guide's ID to be resumed later, 
 	sets the current guide to nil, and loads the nil guide. ]]
 	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Leveling" then

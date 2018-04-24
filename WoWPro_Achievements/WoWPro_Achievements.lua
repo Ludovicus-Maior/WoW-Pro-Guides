@@ -17,14 +17,6 @@ end
 function WoWPro.Achievements:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Achievements Module")
 	
-	
-	-- Event Registration --
-	WoWPro.Achievements.Events = {"QUEST_COMPLETE",
-		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM"
-	}
-	WoWPro:RegisterEvents(WoWPro.Achievements.Events)
-	
 	--Loading Frames--
 	if not WoWPro.Achievements.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Achievements:CreateConfig()
@@ -45,8 +37,6 @@ end
 
 -- Called when the module is disabled --
 function WoWPro.Achievements:OnDisable()
-	-- Unregistering Achievements Module Events --
-	WoWPro:UnregisterEvents(WoWPro.Achievements.Events)
 	
 	--[[ If the current guide is a Achievements guide, removes the map point, stores the guide's ID to be resumed later, 
 	sets the current guide to nil, and loads the nil guide. ]]

@@ -16,13 +16,6 @@ end
 function WoWPro.Dailies:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Dailies Module")
 
-	
-	-- Event Registration --
-	WoWPro.Dailies.Events = {"QUEST_COMPLETE", "GOSSIP_SHOW",
-		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"CHAT_MSG_SYSTEM"
-	}
-	WoWPro:RegisterEvents(WoWPro.Dailies.Events)
 	--Loading Frames--
 	if not WoWPro.Dailies.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Dailies:CreateConfig()
@@ -45,9 +38,6 @@ end
 
 -- Called when the module is disabled --
 function WoWPro.Dailies:OnDisable()
-	-- Unregistering Dailies Module Events --
-	WoWPro:UnregisterEvents(WoWPro.Dailies.Events)
-	
 	--[[ If the current guide is a dailies guide, removes the map point, stores the guide's ID to be resumed later, 
 	sets the current guide to nil, and loads the nil guide. ]]
 	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Dailies" then

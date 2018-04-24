@@ -83,9 +83,3 @@ function WoWPro.Achievements:RowLeftClick(i)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
 end
-
--- Event Response Logic --
-function WoWPro.Achievements:EventHandler(self, event, ...)
-	WoWPro:dbp("Running: Achievements Event Handler")
-	
-end

@@ -17,14 +17,7 @@ end
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.WorldEvents:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: WorldEvents Module")
-	
-	-- Event Registration --
-	WoWPro.WorldEvents.Events = {"QUEST_COMPLETE", 
-		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM"
-	}
-	WoWPro:RegisterEvents(WoWPro.WorldEvents.Events)
-	
+
 	--Loading Frames--
 	if not WoWPro.WorldEvents.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.WorldEvents:CreateConfig()
@@ -37,9 +30,6 @@ end
 
 -- Called when the module is disabled --
 function WoWPro.WorldEvents:OnDisable()
-	-- Unregistering WorldEvents Module Events --
-	WoWPro:UnregisterEvents(WoWPro.WorldEvents.Events)
-	
 	--[[ If the current guide is a WorldEvents guide, removes the map point, stores the guide's ID to be resumed later, 
 	sets the current guide to nil, and loads the nil guide. ]]
 	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "WorldEvents" then
