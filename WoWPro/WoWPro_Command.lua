@@ -32,9 +32,29 @@ local function handler(msg, editbox)
                 WoWProDB.global.Tainted[taint][key] =  now
             end
 		end
-		local msg = string.format("WoWPro taint report logged to debug log.")
+        local msg = string.format("WoWPro taint report logged to debug log.")
         ChatFrame1:AddMessage(msg)
         msg = string.format("Global taint log in: <World\ of\ Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
+        ChatFrame1:AddMessage(msg)
+    elseif ltoken == "api_probe" then
+        WoWProDB.global.Blizz = {}
+        for key in pairs(_G) do
+            local isSecure, taint = issecurevariable(key)
+            if isSecure and type(_G[key]) == "function" then
+                WoWProDB.global.Blizz[key] = type(_G[key])
+            end
+            if isSecure and type(_G[key]) == "table" and string.sub(key,1,2) == "C_" then
+                local tabula = _G[key]
+                WoWProDB.global.Blizz[key] = type(_G[key])
+                for llave in pairs(tabula) do
+                    local full = key .. "." .. llave
+                    if type(tabula[llave]) == "function" then
+                        WoWProDB.global.Blizz[full] = type(_G[key])
+                    end
+                end
+            end
+        end
+        local msg = string.format("Blizzard API stored in: <World\ of\ Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
         ChatFrame1:AddMessage(msg)
     else
         local msg = string.format("%s or %s [where|taint]", SLASH_WOWPRO1, SLASH_WOWPRO2)
@@ -43,5 +63,3 @@ local function handler(msg, editbox)
 end
 
 SlashCmdList["WOWPRO"] = handler
-        
-    
