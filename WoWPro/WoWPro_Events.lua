@@ -167,7 +167,7 @@ end
 
 -- Save Garrison Building Locations for the BUILDING tag
 function WoWPro.SaveGarrisonBuildings()
-    local mapID = GetCurrentMapAreaID()
+    local mapID = 0
     if (mapID == WoWPro.Zone2MapID['Lunarfall'].mapID) or (mapID == WoWPro.Zone2MapID['Frostwall'].mapID) then
         WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
         -- We just moved into the zone
@@ -520,7 +520,7 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
     end)
 
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
-WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
+-- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
 
 -- Lets see what quests the NPC has:
 WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function (event,...)
