@@ -4,8 +4,16 @@
 
 local L = WoWPro_Locale
 local cache = {}
-local HBD = LibStub("HereBeDragons-1.0")
-WoWPro.HBD = HBD
+-- local HBD = LibStub("HereBeDragons-1.0")
+WoWPro.HBD = {}
+
+function WoWPro.HBD:GetZoneDistance(im,ifl,ix,iy, jm,jfl,jx,jy)
+  return 1e197
+end
+
+function WoWPro.HBD:GetPlayerZonePosition()
+  return nil
+end
 
 -- placeholder flags in case you want to implement options to disable
 -- later on TomTom tooltips and right-clicking drop-down menus
@@ -259,7 +267,7 @@ local zidmap = {
 
 function WoWPro:findBlizzCoords(questId)
 	local POIFrame
-
+--[[
     	-- Try to find the correct quest frame
     	for i = 1, MAX_NUM_QUESTS do
         	local questFrame = _G["WorldMapQuestFrame"..i];
@@ -293,6 +301,8 @@ function WoWPro:findBlizzCoords(questId)
     	end
 
     	return cx * 100, cy * 100
+]]
+        return nil, nil
 end
 
 local FinalCoord
@@ -347,7 +357,7 @@ function WoWPro.DistanceBetweenSteps(i,j)
     end
 
     
-    local distance = HBD:GetZoneDistance(im,ifl,ix,iy, jm,jfl,jx,jy) or 1e198
+    local distance = WoWPro.HBD:GetZoneDistance(im,ifl,ix,iy, jm,jfl,jx,jy) or 1e198
     WoWPro:dbp("Dx %s(%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",WoWPro.step[i],ix*100,iy*100,im, WoWPro.step[j],jx*100,jy*100,jm,distance)
     return distance
 end
@@ -374,7 +384,7 @@ function WoWPro.DistanceToStep(i)
     local m = GetCurrentMapAreaID()
     local f = GetCurrentMapDungeonLevel()
     
-    local distance = HBD:GetZoneDistance(m,f,x,y, im,ifl,ix,iy) or 1e199
+    local distance = WoWPro.HBD:GetZoneDistance(m,f,x,y, im,ifl,ix,iy) or 1e199
     WoWPro:dbp("IDx (%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",x*100,y*100,m, WoWPro.step[i],ix*100,iy*100,im,distance)
     return distance
 end
@@ -658,13 +668,13 @@ function WoWPro:RemoveMapPoint()
 end
 
 function  WoWPro.CheckHBDData(force)
-    local x, y, map, pizo, mapFile, isMicroDungeon = HBD:GetPlayerZonePosition()
+    local x, y, map, pizo, mapFile, isMicroDungeon = WoWPro.HBD:GetPlayerZonePosition()
     if not (map and pizo) then
         WoWPro:dbp("CheckHBDData(): No player position yet!")
         -- We are not mapped yet.
         return
     end
-    local width, height = HBD:GetZoneSize(map, pizo)
+    local width, height = WoWPro.HBD:GetZoneSize(map, pizo)
     if (not force) and width > 0 and height > 0 then
         -- We have data
         WoWPro:dbp("Map data present for %d/%d", map, pizo)
@@ -688,7 +698,7 @@ function  WoWPro.CheckHBDData(force)
 end
 
 function WoWPro:LogLocation()
-    local x, y = HBD:GetPlayerZonePosition()
+    local x, y = WoWPro.HBD:GetPlayerZonePosition()
 
     if not (x and y) then
         WoWPro:print("Player map and floor unknown")
