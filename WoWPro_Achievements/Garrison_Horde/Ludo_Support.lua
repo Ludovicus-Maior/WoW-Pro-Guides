@@ -3,80 +3,94 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/node/3618/revisions/26992/view
--- Date: 2014-11-14 17:44
--- Who: Ludovicus
--- Log: Init
+-- URL: http://wow-pro.com/wiki/garrisson_support
+-- Date: 2018-02-19 22:32
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
 
-local guide = WoWPro:RegisterGuide('LudoGarrissonSupport', 'Achievements', 'Frostfire Ridge', 'Ludovicus', 'Horde')
-WoWPro:GuideLevels(guide,92, 100, 98.7)
-WoWPro:GuideIcon(guide,"ACH",9529)
-WoWPro:GuideNextGuide(guide, nil)
+-- URL: http://wow-pro.com/node/3649/revisions/28311/view
+-- Date: 2017-03-10 22:48
+-- Who: Ludovicus_Maior
+-- Log: Syntax fixes.
+
+-- URL: http://wow-pro.com/node/3649/revisions/27424/view
+-- Date: 2016-01-09 00:43
+-- Who: Ludovicus_Maior
+-- Log: 3649
+
+-- URL: http://wow-pro.com/node/3649/revisions/27423/view
+-- Date: 2016-01-09 00:43
+-- Who: Ludovicus_Maior
+-- Log: Initial
+
+local guide = WoWPro:RegisterGuide('LudoGarrissonSupport', 'Achievements', 'Lunarfall', 'Ludovicus', 'Alliance')
+WoWPro:GuideLevels(guide,94, 96, 95)
+WoWPro:GuideIcon(guide,"ACH",9528)
+WoWPro:GuideName(guide,"On the Shadow's Trail")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
+A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|94|
+; Gone from game!??
+; A Bounty: Twisted Ancient|QID|33111|N|From the Bulletin Board. This is a 3-party group quest. Can be soloed if you are geared.|M|42.72,44.75|Z|Lunarfall|RANK|2|
 
-;A Vouchsafe Our Arrival|QID|34209|
+T Meet Us at Starfall Outpost|QID|33359|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
+A Catching His Eye|QID|33062|N|From Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 
+A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|
+C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|Z|Shadowmoon Valley@Draenor|
+; C Bounty: Twisted Ancient|QID|33111|N|Kill and loot the Twisted Ancient for the Corrupted Lumber. This is flagged as a 3-party group quest.|RANK|2|M|26.15,17.50|Z|Shadowmoon Valley@Draenor|
 
-A Let's Get To Work|QID|39236|PRE|38574|M|41.58,72.31|N|From Rolosh Wavechaser|
-T Let's Get To Work|QID|39236|M|40.72,70.25|N|To Solog Roark|
+R Watcher's Den|QID|33062|ACTIVE|33062|N|Head down the road to the Watcher's Den.|M|25.44,19.30;22.87,16.86|CS|Z|Shadowmoon Valley@Draenor|
+C Catching His Eye|QID|33062|N|Capture the All-Seeing Eye (bring his health down to 1%)|Z|Shadowmoon Valley@Draenor|
+T Catching His Eye|QID|33062|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 
-A Shipbuilding|QID|39241|PRE|39236|M|40.72,70.25|N|From Solog Roark|
-U Shipbuilding|QID|39241|U|127268|QO|1|N|Click on the plans to learn them.|
-T Shipbuilding|QID|39241|M|40.72,70.25|N|From Solog Roark|
+A Shrouding Stones |QID|33115|N|From Archmage Khadgar|M|29.21,25.72|PRE|33062|Z|Shadowmoon Valley@Draenor|
+T Shadowmoonwell |QID|33113|N|To Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|
+A A Curse Upon the Woods |QID|33120|N|From Delas Moonfang|M|29.48,24.52|PRE|33113|Z|Shadowmoon Valley@Draenor|
 
-A Ship Shape|QID|39242|PRE|39241|M|40.72,70.25|N|From Solog Roark|
-C If they build it ...|QID|39242|M|40.72,70.25|N|Ask Solog to build it.|CHAT|
-C ... you will come back.|QID|39242|QO|2|N|Now wait for the boat to be built and click it in a minute.|
-T Ship Shape|QID|39242|M|40.72,70.25|N|To Solog Roark|
+C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|S|Z|Shadowmoon Valley@Draenor|
+C Shrouding Stones |QID|33115|N|Southern Shrouding Stone destroyed by clicking it.|QO|3|NC|M|23.82,28.72|Z|Shadowmoon Valley@Draenor|
+C Shrouding Stones |QID|33115|N|Central Shrouding Stone destroyed by clicking it.|QO|1|NC|M|23.04,24.40|Z|Shadowmoon Valley@Draenor|
+C Shrouding Stones |QID|33115|N|Northern Shrouding Stone destroyed by clicking it.|QO|2|NC|M|26.00,15.92|Z|Shadowmoon Valley@Draenor|
+C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|US|Z|Shadowmoon Valley@Draenor|
 
-;; Campaign
-A The Invasion of Tanaan|QID|37889|PRE|39242|M|40.72,70.25|N|From Solog Roark|
-C Meet with Khadgar|QID|37889|M|40.85,73.31|QO|1|
-C Speak with Draka|QID|37889|M|40.71,73.33|QO|2|CHAT|
-T The Invasion of Tanaan|QID|37889|M|73.42,71.10|Z|Tanaan Jungle|N|To Draka|
+T Shrouding Stones |QID|33115|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
+A Ominous Portents |QID|33112|N|From Archmage Khadgar|M|29.21,25.72|PRE|33115|Z|Shadowmoon Valley@Draenor|
 
-A Obstacle Course|QID|37890|PRE|37889|M|29.82,10.69|Z|Tanaan Jungle|N|From Draka|
-C Bleeding Hollow|QID|37890|M|68.87,64.91|Z|Tanaan Jungle|QO|1|N|Get Info, Over the bridge and to the west, along the coast. Kill Rulkrik and loot the scroll.|
-C Cultists|QID|37890|M|74.00,56.08|Z|Tanaan Jungle|QO|2|N|Get Info, Continue over the bridge ... Kill Magril|
-T Obstacle Course|QID|37890|M|69.53,54.18|Z|Tanaan Jungle|N|To Shadow Hunter Mutumba|
+T A Curse Upon the Woods |QID|33120|N|To Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|
+C Ominous Portents |QID|33112|N|Speak to the All-Seeing Eye and begin the compulsion. Use key 1 until he says something, then use key 2. Repeat until you get the cinematic.|CHAT|Z|Shadowmoon Valley@Draenor|
+T Ominous Portents |QID|33112|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 
-A In, Through, and Beyond!|QID|37934|PRE|37890|M|69.53,54.18|Z|Tanaan Jungle|N|From Shadow Hunter Mutumba|
-C Reach|QID|37934|M|64.42,51.63|Z|Tanaan Jungle|QO|1|N|Get to the cannon, avoiding the bomb marks on the ground.|
-C Destroy|QID|37934|M|64.43,51.62|Z|Tanaan Jungle|QO|2|N|Click on the bombs to detroy the cannon.|
-C Meet|QID|37934|M|60.75,47.23|Z|Tanaan Jungle|QO|3|
-T In, Through, and Beyond!|QID|37934|M|62.57,50.88|Z|Tanaan Jungle|N|To Shadow Hunter Mutumba|
+A Soul Shards of Summoning |QID|33066|N|From Archmage Khadgar|M|29.21,25.72|PRE|33112|Z|Shadowmoon Valley@Draenor|
+A Cleaning Up Gul'var|QID|33269|N|From Cordana Felsong|M|29.27,25.70|PRE|33112|Z|Shadowmoon Valley@Draenor|
 
-A The Assault Base|QID|37935|PRE|37934|M|62.57,50.88|Z|Tanaan Jungle|N|From hadow Hunter Mutumba|
-C Follow|QID|37935|M|60.86,47.14|Z|Tanaan Jungle|QO|1|
-C Plant the Flag|QID|37935|M|60.86,46.99|Z|Tanaan Jungle|QO|2|
-f Vol'mar|QID|37935|M|60.42,46.44|N|Learn the flight point from Gargash the Diver|
-T The Assault Base|QID|37935|M|61.52,45.82|Z|Tanaan Jungle|N|To Draka, in the main building.|
+C Cleaning Up Gul'var|QID|33269|N|Kill the Shadow Council orcs|S|Z|Shadowmoon Valley@Draenor|
+C Soul Shards of Summoning |QID|33066|N|Kill and loot Fel Mistress Hagra for her shard|QO|1|M|20.89,27.26|Z|Shadowmoon Valley@Draenor|
+C Soul Shards of Summoning |QID|33066|N|Kill and loot Grogal the Harvester for his shard|QO|2|M|20.82,31.56|Z|Shadowmoon Valley@Draenor|
+C Soul Shards of Summoning |QID|33066|N|Kill and loot Corruptor Kurgoth for his shard|QO|3|M|18.26,24.15|Z|Shadowmoon Valley@Draenor|
 
-A Shipyard Report|QID|39423|LEAD|39243|PRE|37935|M|58.51,60.35|Z|Tanaan Jungle|N|From Draka|
-H Town Hall|QID|39423|N|Hearth back to your Garrison.|U|110560|
-T Shipyard Report|QID|39423|M|41.58,72.31|N|To Rolosh Wavechaser|
+T Soul Shards of Summoning |QID|33066|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
+A Heart On Fire|QID|33168|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33066|Z|Shadowmoon Valley@Draenor|
+C Heart On Fire|QID|33168|N|Kill and loot Krosnis for his Fiery Heart.|M|17.72,27.48|T|Krosnis|Z|Shadowmoon Valley@Draenor|
+T Heart On Fire|QID|33168|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 
-A Naval Commander|QID|39243|PRE|37889|M|41.58,72.31|N|From Rolosh Wavechaser|
-C High Vantage Point|QID|39243|M|42.04,70.96|QO|1|N|Up the hill, at the camp you saw on your way down.|
-C In the Navy|QID|39243|M|42.04,70.96|QO|2|N|Use the table to start a mission|
-C Mission Complete|QID|39243|M|42.04,70.96|QO|3|N|Wait a minute for the mission to finish and then use the table again.|
-T Naval Commander|QID|39243|M|42.10,71.03|N|To Rolosh Wavechaser|
+A Forging the Soul Trap |QID|33114|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33168|Z|Shadowmoon Valley@Draenor|
+C Forging the Soul Trap |QID|33114|N|Click on the Gul'var Soul Shards to combine them.|NC|Z|Shadowmoon Valley@Draenor|
+T Forging the Soul Trap |QID|33114|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 
-A Destroying the Competition|QID|39401|PRE|39243|M|58.51,60.35|N|From Rolosh Wavechaser|
-U Ship Blueprint: Destroyer|QID|39401|U|126900|N|Learn the blueprint.|QO|1|
-C Build a Submarine|QID|39401|M|40.72,70.25|QO|2|N|To Solog Roark, ask him to build it.|CHAT|
-C On a mission|QID|39401|M|42.04,70.96|QO|3|N|Use the table to start a mission|
-T Destroying the Competition|QID|39401|M|58.51,60.35|N|To Rolosh Wavechaser|
+A To Catch a Shadow |QID|33116|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|Z|Shadowmoon Valley@Draenor|
+l Demonic Cache|QID|33575|N|Demonic Cache: Treasure Loot, found inside the building. Offers an i550 Necklace worth 11 gold and some XP.|RANK|3|M|20.37,30.64|Z|Shadowmoon Valley@Draenor|
+C To Catch a Shadow |QID|33116|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|Z|Shadowmoon Valley@Draenor|
+C To Catch a Shadow |QID|33116|N|Kill Ruzuun|QO|2|Z|Shadowmoon Valley@Draenor|
 
-A Upgrading The Fleet|QID|39245|PRE|39676|M|58.51,60.35|N|From Rolosh Wavechaser|
+C Cleaning Up Gul'var|QID|33269|N|Finish Killing the Shadow Council orcs|US|M|19.40,24.90|Z|Shadowmoon Valley@Draenor|
+T Cleaning Up Gul'var|QID|33269|N|To Cordana Felsong|M|29.27,25.70|Z|Shadowmoon Valley@Draenor|
 
-C Naval Combat Missions|QID|39245|QO|1|S|
-C Collect: Garrison Resources (1000)|QID|39245|QO|2|
-C Naval Combat Missions|QID|39245|QO|1|US|
-T Upgrading The Fleet|QID|39245|M|58.51,60.35|N|From Rolosh Wavechaser|
+T To Catch a Shadow |QID|33116|N|To Archmage Khadgar, and a cutscene.|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
+; T Bounty: Twisted Ancient|QID|33111|M|28.94,15.91|Z|Lunarfall|N|To Baros Alexston.|
+
 ]]
 
 end)
