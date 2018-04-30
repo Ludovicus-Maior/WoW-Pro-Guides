@@ -387,13 +387,13 @@ T Free Your Mind, the Rest Follows|QID|25298|RANK|2|M|28.21,29.90|N|To Rio Duran
 
 C Lightning in a Bottle|QID|25353|U|52834|M|22.85,31.90|N|Use the Condenser Jar.|FACTION|Alliance|
 T Lightning in a Bottle|QID|25353|U|52853|M|22.85,31.93|N|Use the Totem, then turn the quest into the Spirit of Goldrinn.|FACTION|Alliance|
-A Into the Maw!|QID|25618|PRE|25353|M|22.87,31.93|N|From the summoned Spirit of Goldrinn.|FACTION|Alliance|
-A Into the Maw!|QID|25623|M|28.2,29.8|N|From Ian Duran.|FACTION|Alliance|
+A Into the Maw!|QID|25618;25623|PRE|25353|M|22.87,31.93|N|From the summoned Spirit of Goldrinn. If the spirit despawned on you, complete this step and pick the quest up from Ian Duran.|FACTION|Alliance|
+A Into the Maw!|QID|25623;25618|M|28.2,29.8|N|From Ian Duran.|FACTION|Alliance|
 
 l Lightning in a Bottle|QID|25355|L|52834|M|22.85,31.90|N|Loot a Charged Condenser Jar from the lightning rods scattered around the area.|FACTION|Horde|
 T Lightning in a Bottle|QID|25355|U|52854|N|Use the Totem of Lo'Gosh to summon the wolf spirit.|FACTION|Horde|
-A Into the Maw!|QID|25617|PRE|25355|N|From the summoned Spirit of Lo'Gosh.|FACTION|Horde|
-A Into the Maw!|QID|25624|M|28.4,29.8|N|From Takrik Ragehowl.|FACTION|Horde|
+A Into the Maw!|QID|25617;25624|PRE|25355|N|From the summoned Spirit of Lo'Gosh. If the spirit despawned on you, complete this step and pick the quest up from Takrik Ragehowl.|FACTION|Horde|
+A Into the Maw!|QID|25624;25617|M|28.4,29.8|N|From Takrik Ragehowl.|FACTION|Horde|
 
 C Sweeping the Shelf|QID|25352;25354|M|26.76,40.87|N|Kill Twilight Stormcallers and Howling Riftdwellers.|
 T Into the Maw!|QID|25618;25623;25617;25617|M|26.1,41.1|N|Enter the portal in the center of the Twilight Cultists camp, and turn in at Jordan Olafson.|
@@ -428,7 +428,7 @@ T Sweeping the Shelf|QID|25354|M|28.4,29.9|N|At Takrik Ragehowl.|FACTION|Horde|
 
 A Aviana's Legacy|QID|27874|PRE|25611|M|28.4,29.8|N|From the Vision of Ysera.\n\nIf this quest is not offered, DROP the quest Wings Over Mount Hyjal then try again.|LEAD|25663|
 A The Fires of Mount Hyjal|QID|25630|LEAD|25381|PRE|25611|M|28.18,29.87|N|From Rio Duran.|
-f Shrine of Aviana|QID|25630|M|41.14,42.70|N|Fly to the Shrine of Aviana and get the flight point from Dinorae Swiftfeather.|
+f Shrine of Aviana|ACTIVE|27874|M|41.14,42.70|N|Fly to the Shrine of Aviana and get the flight point from Dinorae Swiftfeather.|
 T Aviana's Legacy|QID|27874|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|O|
 T Wings Over Mount Hyjal|QID|25985|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|O|
 A An Offering for Aviana|QID|25663|M|39,46.21|N|From Choluna.|
