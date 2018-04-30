@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2018-04-24 22:48
+-- Who: Ludovicus_Maior
+-- Log: Next set up updates.
+
+-- URL: http://wow-pro.com/node/3289/revisions/29241/view
 -- Date: 2018-04-22 18:53
 -- Who: Ludovicus_Maior
 -- Log: Just playing through adding U's and fixing QO's.
@@ -268,7 +273,7 @@ T The Emissary |QID|11626|N|To Karuk.|M|47.15,75.39|
 T Cowards and Fools |QID|11932|N|To Ataika in Kaskala.|M|63.81,46.10|
 A The Son of Karkut |QID|12086|PRE|11932|N|From Ataika.|M|63.81,46.10|
 A Not Without a Fight! |QID|11949|N|From Ataika.|M|63.81,46.10|
-A Preparing for the Worst |QID|11945|N|From Utaik.|M|64.0,45.7|
+A Preparing for the Worst |QID|11945|N|From Utaik. (Daily, can be skipped)|M|64.0,45.7|
 C Preparing for the Worst |QID|11945|N|Pick up these supplies off the ground.|M|65.76,47.55|S|
 C Not Without a Fight! |QID|11949|N|Kill Kvaldir Raiders.|M|65.76,47.55|
 T Not Without a Fight! |QID|11949|N|To Ataika.|M|63.81,46.10|
@@ -407,7 +412,7 @@ A Check in With Bixie |QID|11692|PRE|11710|M|57.4,18.7|N|From Mordle Cogspinner.
 T Master and Servant |QID|11730|M|57.84,18.70|N|To Crafty Wobblesprocket|
 T Just a Few More Things... |QID|11650|N|To Crafty Wobblesprocket|M|57.58,18.71;58.18,18.34|CN|
 A Hah... You're Not So Big Now! |QID|11653|PRE|11650|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
-r Sell junk, repair and re-stock food/drink. |QID|11701|M|57.07,19.85|
+r Sell junk, repair and re-stock food/drink. |ACTIVE|11701|M|57.07,19.85|
 T Give Fizzcrank the News |QID|11873|N|To Fizzcrank Fullthrottle in the building on the second floor.|M|56.98,18.70|
 h Fizzcrank Airstrip |QID|11713|N|Set your hearthstone here with "Charlie" Northrop in the building on the ground floor.|M|57.12,18.72|
 
@@ -432,7 +437,8 @@ T Plan B |QID|11658|N|To Crafty Wobblesprocket who wanders a bit at the Fizzcran
 A It Was The Orcs, Honest! |QID|11670|PRE|11658|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 U Use Crafty's Sack |QID|11670|L|34869|N|Loot the items from Crafty's Sack.|U|34871|
 C It Was The Orcs, Honest! |QID|11670|U|34869|N|Go north to the cave we jumped into earlier. Use the Orc Disguise, then jump down and try to land in the water. Kill Magmothregar and plant the Warsong Banner in his corpse.|M|55.29,12.11|
-H Fizzcrank Airstrip |QID|11713|N|Hearthstone to Fizzcrank Airstrip.|
+H Fizzcrank Airstrip |ACTIVE|11670|N|Hearthstone to Fizzcrank Airstrip.|
+T It Was The Orcs, Honest! |QID|11670|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 
 T Check in With Bixie |QID|11692|N|Talk to the Air Traffic Controller and choose the free ride to Dens of Dying.|M|56.58,20.06|
 A Oh Great... Plagued Magnataur! |QID|11693|PRE|11692|N|From Bixie Wrenchshanker.|M|73.42,18.79|
@@ -449,7 +455,7 @@ T Rats, Tinky Went into the Necropolis! |QID|11697|N|Use the lower entrance on t
 A I'm Stuck in this Damned Cage... But Not For Long! |QID|11699|PRE|11697|N|From Tinky Wickwhistle.|M|69.9,14.7|
 K Lich-Lord Chillwinter |QID|11699|QO|3|N|Go outside and around to get to the top. Kill and loot Lich-Lord Chillwinter.|M|69.73,11.85|; Piloting Scourgestone: 1/1
 K Doctor Razorgrin |QID|11699|QO|2|N|Jump down to the room below and kill and loot Doctor Razorgrin.|M|69.98,13.88|; Magical Gyroscope: 1/1
-C I'm Stuck in this Damned Cage... But Not For Long! |QID|11699|N|Kill Festering Ghouls on your way back down to Tinky Wickwhistle until one drops an Engine-Core Crystal.|M|69.98,13.88|
+C Festering Ghouls |QID|11699|QO|1|N|Kill Festering Ghouls on your way back down to Tinky Wickwhistle until one drops an Engine-Core Crystal.|M|69.98,13.88|
 T I'm Stuck in this Damned Cage... But Not For Long! |QID|11699|N|Back at Tinky.|M|69.89,14.75|
 A Let Bixie Know |QID|11700|PRE|11699|N|From Tinky Wickwhistle.|M|69.9,14.7|
 C Might As Well Wipe Out the Scourge |QID|11698|N|Kill the scourge monsters you need for this quest.|M|68.2,17.0|US|
@@ -462,7 +468,6 @@ C Deploy the Shake-n-Quake! |QID|11723|U|34981|N|Head down to the south sinkhole
 T Back to the Airstrip |QID|11701|N|To Fizzcrank Fullthrottle in the building on the second floor.|M|56.98,18.70|
 T The Gearmaster |QID|11798|N|To Fizzcrank Fullthrottle in the building on the second floor.|M|56.98,18.70|
 T Deploy the Shake-n-Quake! |QID|11723|N|To Abner Fizzletorque.|M|57.06,20.12|
-T It Was The Orcs, Honest! |QID|11670|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 
 A A Mission Statement |QID|11864|N|From Arch Druid Lathorius at the D.E.H.T.A. Encampment.|M|57.06,44.30|
 A Ears of Our Enemies |QID|11866|PRE|11864|N|From Arch Druid Lathorius.|M|57.06,44.30|
@@ -510,6 +515,7 @@ A The Assassination of Harold Lane |QID|11892|PRE|11879|N|From Arch Druid Lathor
 C The Assassination of Harold Lane |QID|11892|U|35293|N|Use the Cenarion Horn at the start of the fight to take out a lot of his Health.|M|49.91,41.54|
 T The Assassination of Harold Lane |QID|11892|N|To Arch Druid Lathorius.|M|57.04,44.25|
 
+f Amber Ledge |ACTIVE|11575|M|45.29,34.61|N|Get the flight point from Surristraz|
 T Nick of Time |QID|11575|N|To Librarian Donathan.|M|45.27,33.36|
 A Prison Break |QID|11587|N|From Librarian Donathan.|M|45.27,33.36|
 A Monitoring the Rift: Cleftcliff Anomaly |QID|11576|N|From Librarian Garren.|M|44.98,33.38|
@@ -546,26 +552,29 @@ T Rescuing Evanor |QID|11681|N|Stay close to Evanor when the drake drops you on 
 A Dragonspeak |QID|11682|PRE|11681|N|From Archmage Evanor.|M|46.38,32.40|
 T Dragonspeak |QID|11682|N|To Surristrasz.|M|45.3,34.5|
 A Traversing the Rift |QID|11733|PRE|11682|N|From Surristrasz.|M|45.3,34.5|
+N A note of caution|ACTIVE|11733|N|When flying around in this area, be careful not to fly too near the Elite Blue Dragons circling above, they will hurt you plenty. Close this step to continue.|
 T Traversing the Rift |QID|11733|N|To Archmage Berinand.|M|32.95,34.40|
 
 A Reading the Meters |QID|11900|N|From Archmage Berinand.|M|32.95,34.40|
 A Secrets of the Ancients |QID|11910|N|From Archmage Berinand.|M|32.95,34.40|
 A Basic Training |QID|11918|N|From Raelorasz.|M|33.31,34.53|
 A Nuts for Berries |QID|11912|N|From Librarian Serrah.|M|33.48,34.38|
-N A note of caution|QID|11912|N|When flying around in this area, be careful not to fly too near the lvl 80 Elite Blue Dragons circling above, they will hurt you plenty. Close this step to continue.|
 C Basic Training |QID|11918|N|Kill Coldarra Spellweavers.|S|
 C Secrets of the Ancients |QID|11910|N|Kill Glacial Ancients and Magic-bound Ancients.|S|
 C Nuts for Berries |QID|11912|N|Pick up Frostberries.|S|
 K Coldarra Spellbinders |QID|11941|L|35648|N|Kill Coldarra Spellbinders until one drops a Scintillating Fragment|M|33,28|
 A Puzzling... |QID|11941|U|35648|N|Right-click the Scintillating Fragment to accept this quest.|M|35.0,28.0|
+t Secrets of the Ancients |QID|11910|N|To Archmage Berinand.|M|32.95,34.40|
+t Nuts for Berries |QID|11912|N|To Librarian Serrah.|M|33.48,34.38|
+t Basic Training |QID|11918|N|To Raelorasz.|M|33.31,34.53|
 T Puzzling... |QID|11941|N|To Raelorasz.|M|33.31,34.53|
 
 A The Cell |QID|11943|PRE|11941|N|From Raelorasz.|M|33.31,34.53|
-N Southern Coldarra Reading |QID|11900|QO|3|N|Follow the path west to find a Coldarra Geological Monitor and click it.|M|28.33,34.98|; Southern Coldarra Reading: 1/1
-l Energy Core |QID|11943|QO|1|N|Kill Warbringer Goredrak and loot the Energy Core.|M|24.24,28.92|; Energy Core: 1/1
-N Western Coldarra Reading |QID|11900|QO|3|N|Go northwest to find another Coldarra Geological Monitor and click it.|M|22.36,24.17|; Western Coldarra Reading: 1/1
-C The Cell |QID|11943|N|Kill General Cerulean and loot the Prison Casing.|M|27.31,20.40|
-N Northern Coldarra Reading |QID|11900|QO|3|N|Go east to find another Coldarra Geological Monitor and click it.|M|31.31,20.29|; Northern Coldarra Reading: 1/1
+C Southern Coldarra Reading |QID|11900|QO|2|N|Follow the path west to find a Coldarra Geological Monitor and click it.|M|28.33,34.98|; Southern Coldarra Reading: 1/1
+l Energy Core |QID|11943|QO|1|T|Warbringer Goredrak|N|Kill Warbringer Goredrak and loot the Energy Core.|M|24.24,28.92|; Energy Core: 1/1
+C Western Coldarra Reading |QID|11900|QO|4|N|Go northwest to find another Coldarra Geological Monitor and click it.|M|22.36,24.17|; Western Coldarra Reading: 1/1
+l23542 The Cell |QID|11943|QO|2|T|General Cerulean|N|Kill General Cerulean and loot the Prison Casing.|M|27.31,20.40|
+C Northern Coldarra Reading |QID|11900|QO|3|N|Go east to find another Coldarra Geological Monitor and click it.|M|31.31,20.29|; Northern Coldarra Reading: 1/1
 T The Cell |QID|11943|N|To Raelorasz.|M|33.31,34.53|
 A Keristrasza |QID|11946|PRE|11943|U|35671|N|Use your Augmented Arcane Prison to make Keristrasza appear.|M|33.1,34.11|
 T Keristrasza |QID|11946|N|To Keristraza.|M|33.1,34.11|
@@ -591,7 +600,7 @@ T Mustering the Reds |QID|11967|N|To Raelorasz.|M|33.31,34.53|
 A Springing the Trap |QID|11969|PRE|11967|N|From Raelorasz.|M|33.31,34.53|
 C Keep the Secret Safe |QID|11914|N|Kill Arcane Serpents near the Nexus.|Z|Borean Tundra|M|27.8,24.2|S|
 K Coldarra Wyrmkins |QID|11936|L|35586 5|N|Kill Coldarra Wyrmkins until you get 5 Frozen Axes.|M|23.60,34.32|S|
-C Reading the Meters |QID|11900|N|Go down to the Nexus to find another Coldarra Geological Monitor and click it.|M|28.26,28.47|
+C Reading the Meters |QID|11900|QO|1|N|Go down to the Nexus to find another Coldarra Geological Monitor and click it.|M|28.26,28.47|
 K Coldarra Wyrmkins |QID|11936|L|35586 5|N|Kill Coldarra Wyrmkins until you get 5 Frozen Axes.|M|23.60,34.32|US|
 C Hatching a Plan |QID|11936|N|Click on the Blue Dragon Eggs near the Nexus.|M|27.8,24.2|
 C Keep the Secret Safe |QID|11914|N|Kill Arcane Serpents near the Nexus.|M|27.8,24.2|US|

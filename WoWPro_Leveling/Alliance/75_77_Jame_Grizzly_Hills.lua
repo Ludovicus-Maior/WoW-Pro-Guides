@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2018-04-24 19:34
+-- Who: Emmaleah
+-- Log: Various edits to bring to current state of game (quest items not looted, QO# adj, etc)
+
+-- URL: http://wow-pro.com/node/3293/revisions/29057/view
 -- Date: 2018-02-20 01:28
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -233,36 +238,37 @@ T Truce? |QID|11989|N|To Drakuru.|M|16.44,47.83|
 A Vial of Visions |QID|11990|PRE|11989|M|16.4,47.8|N|From Drakuru.|
 
 B Vial of Visions - Crystal Vial|QID|11990|N|Buy a Crystal Vial from Ameenah.|M|16.0,47.8|L|3371|
-C Vial of Visions - Haze Leaf|QID|11990|N|Pick-up Haze Leaf from the Hazewood Bushes.|QO|Haze Leaf: 3/3|M|14.6,45.3|S|NC|
+C Vial of Visions - Haze Leaf|QID|11990|N|Pick-up Haze Leaf from the Hazewood Bushes.|QO|2|M|14.6,45.3|S|NC|
 l Vial of Visions - Waterweed Frond|QID|11990|N|Dive into the lake and get the Waterweed Frond.|QO|3|M|15.13,40.55|NC|; Waterweed Frond: 1/1
-C Vial of Visions - Haze Leaf|QID|11990|N|Pick-up the remaining Haze Leafs.|QO|Haze Leaf: 3/3|M|14.6,45.3|US|NC|
+C Vial of Visions - Haze Leaf|QID|11990|N|Pick-up the remaining Haze Leafs.|QO|2|M|14.6,45.3|US|NC|
 
 T Vial of Visions|QID|11990|N|To Drakuru.|M|16.45,47.85|
 A Subject to Interpretation|QID|11991|PRE|11990|M|16.4,47.8|N|From Drakuru.|
 A Scourgekabob|QID|12484|PRE|11990|N|From Prigmon.|M|15.77,46.76|
-l Scoured Troll Mummy|QID|12484|N|Pick up a Scoured Troll Mummy that is right next to the quest giver.|L|38149|
+l Scourged Troll Mummy|QID|12484|N|Pick up a Scourged Troll Mummy that is right next to the quest giver.|L|38149|
 C Scourgekabob|QID|12484|U|38149|N|Head over to Mac Fearson, then 'use' the Scourged Troll Mummy.|M|16.83,48.26|NC|
 
 T Scourgekabob|QID|12484|N|To Mack Fearson.|M|15.77,46.76|
 A Seared Scourge|QID|12029|PRE|12484|M|16.7,48.3|N|From Mack Fearson.\n\nThis will take a few seconds after completing the previous quest to appear.|
 A Shimmercap Stew|QID|12483|PRE|12484|M|15.7,46.7|N|From Prigmon.|
 
-l Ice Serpent Eyes|QID|12483|L|35798 5|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|S|
-l Get 5 Shimmering Snowcaps|QID|12483|L|35782 5|N|From the Shimmering Snowcaps, to the west, near the river.|S|
+C Ice Serpent Eyes|QID|12483|QO|1|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|S|
+C Shimmering Snowcaps|QID|12483|QO|2|NC|N|From the Shimmering Snowcaps, to the west, near the river.|S|
 l Frozen Mojos|QID|11991|L|35799 5|N|Drop from Krakkari Warriors and Shamans, you need 5 mojos.|M|12.9,59.2|
 T Subject to Interpretation|QID|11991|M|13.2,60.9|U|35797|N|Use the [Drakuru's Elixir] near the Drakuru's Brazier. Turn the quest into the Image of Drakuru.|
 A Sacrifices Must be Made|QID|12007|PRE|11991|M|13.2,60.9|N|From the Image of Drakuru.|
 
-l Ice Serpent Eyes|QID|12483|L|35798 5|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|US|
-l Get 5 Shimmering Snowcaps|QID|12483|L|35782 5|N|From the Shimmering Snowcaps, to the west, near the river.|US|
-C Shimmercap Stew|QID|12483|N|Loot Sweetroots from the ground.|M|16.1,34.8|S|
+C Ice Serpent Eyes|QID|12483|QO|1|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|US|
+C Shimmering Snowcaps|QID|12483|QO|2|NC|N|From the Shimmering Snowcaps, to the west, near the river.|US|
+C Shimmercap Stew|QID|12483|QO|3|NC|N|Loot Sweetroots from the ground.|M|16.1,34.8|S|
 K Warlord Zim'bo|L|35836|QID|12007|N|Kill and loot Warlord Zim'bo.|M|15,37|
-C Sacrifices Must be Made|QID|12007|N|Get the "Eye of the Prophets" from the Seer of Zeb'Halak, up the stairs.|M|17.92,36.51|
+C Sacrifices Must be Made|QID|12007|L|35806|NC|N|Get the "Eye of the Prophets" from the Seer of Zeb'Halak, up the stairs.|M|17.92,36.51|
 
-T Sacrifices Must be Made|QID|12007|U|35797|N|Use the Drakuru's Elixir near the Drakuru's Brazier. Then turn the quest into the Image of Drakuru.|M|17.46,36.42|
+C Use the Elixer|QID|12007|U|35797|N|Use the Drakuru's Elixir near the Drakuru's Brazier.|NC|M|17.46,36.42|
+T Sacrifices Must be Made|QID|12007|U|35797|N|To the Image of Drakuru.|M|17.46,36.42|
 A Heart of the Ancients|QID|12042|PRE|12007|M|17.4,36.4|N|From the Image of Drakuru.|
 
-C Shimmercap Stew|QID|12483|N|Loot the Sweetroots if you don't have 5 of them already|M|16.1,34.8|US|
+C Shimmercap Stew|QID|12483|QO|3|NC|N|Loot the Sweetroots if you don't have 5 of them already|M|16.1,34.8|US|
 C Seared Scourge|QID|12029|U|35908|N|Throw the [Mack's Dark Grog] at the trolls south of Drak'Tharon Keep.|M|16,30|
 
 T An Exercise in Diplomacy|QID|12295|N|To Envoy Ducal.|M|26.43,35.75|
@@ -309,7 +315,7 @@ A Search and Rescue |QID|12037|PRE|12029|N|From Mack Fearsen. This is a quest th
 T Shimmercap Stew |QID|12483|N|To Prigmon.|M|15.76,46.77|
 A Say Hello to My Little Friend |QID|12190|PRE|12483|M|15.7,46.7|N|From Prigmon.|
 
-U Use the orb beneath the Tears|U|37173|QID|12220|QO|1|N|Kill Entropic Oozes on your way to the cave.  Use the orb at the back of cave, where the black smoke is at.|M|28,45|; Orb used beneath Vordrassil's Tears: 1/1
+U Use the orb beneath the Tears|U|37173|QID|12220|QO|3|N|Kill Entropic Oozes on your way to the cave, but don't worry about getting them all as there are two more locations.  Use the orb at the back of cave, where the black smoke is at.|M|28,45|; Orb used beneath Vordrassil's Tears: 1/1
 R Blue Sky Logging Grounds |QID|12042|N|Cross the river north and then ride northeast to Blue Sky Logging Grounds.|M|37,32|
 T Heart of the Ancients |QID|12042|N|Clear the way to the top, go inside the cabin and turn in the quest to the Heart of the Ancients.|M|37,32.5|
 A My Heart is in Your Hands |QID|12802|PRE|12042|M|36.9,32.4|N|From the Heart of the Ancients.|
@@ -337,8 +343,8 @@ T Shredder Repair |QID|12244|N|To Synipus.|M|39.5,43.5|O|
 T Life or Death |QID|12296|N|To Rheanna.|M|40.5,42.6|O|
 
 C The Failed World Tree |QID|12219|N|Kill Entropic Oozes until you've looted 6 Slime Samples|M|40.4,50.6|S|
-U Use the orb beneath the Limb |U|37173|QID|12220|QO|1|N|Inside all the way into the back of the cave, where the black smoke is.|M|33,49|; Orb used beneath Vordrassil's Limb: 1/1
-C A Dark Influence |QID|12220|U|37173|N|Use the [Geomancer's Orb] in the Vordrassil's Heart's cave, at the back where the black smoke is.|M|46.6,51.9;40.77,52.13|CC|
+U Use the orb beneath the Limb |U|37173|QID|12220|QO|2|N|Inside all the way into the back of the cave, where the black smoke is.|M|33,49|; Orb used beneath Vordrassil's Limb: 1/1
+C A Dark Influence |QID|12220|U|37173|QO|1|N|Use the [Geomancer's Orb] in the Vordrassil Heart's cave, at the back where the black smoke is.|M|46.6,51.9;40.957,54.65|CS|
 C The Failed World Tree |QID|12219|N|Kill Entropic Oozes until you've looted 6 Slime Samples|M|40.4,50.6|US|
 
 T A Dark Influence |QID|12220|N|To Hierophant Thayreen.|M|31.22,59.49|
@@ -410,7 +416,7 @@ A Brothers in Battle |QID|12002|PRE|11998|M|59.8,27.5|N|From Brugar Stoneshear.|
 A Find Kurun! |QID|11981|LEAD|11982|N|From Fallen Earthen Warrior in Thor Modan.|M|63.63,23.21|
 A The Damaged Journal |QID|11986|N|From a Battered Journal on the floor, northeast of the Fallen Earth Warrior in Thor Modan.|M|64.58,19.83|
 C Brothers in Battle |QID|12002|N|Kill 10 Runic Battle Golems.|S|
-l Missing Journal Pages|QID|11986|L|35737 8|N|Pick up 8 Missing Journal Pages from the ground.|
+l Missing Journal Pages|QID|11986|QO|1|N|Pick up 8 Missing Journal Pages from the ground.|
 C The Damaged Journal |QID|11986|U|35739|N|Use the Damaged Journal to complete the quest.|
 C Brothers in Battle |QID|12002|N|Kill 10 Runic Battle Golems.|US|
 
@@ -420,9 +426,9 @@ T Brothers in Battle |QID|12002|N|To Brugar Stoneshear.|M|59.73,27.63|
 A Uncovering the Tunnels |QID|12003|PRE|12002|M|59.8,27.5|N|From Brugar Stoneshear.|
 
 C The Runic Keystone |QID|11988|N|Kill and loot Rune Reavers, Iron Rune-Shapers and Forgemaster Damrath if you see him to get the Runic Keystone Fragments.|M|65.1,19.3|S|
-N Investigate the South Building |QID|12003|QO|1|N|To the east, enter the southern building of Thor Modan.|M|63.45,28.10|; Investigate South Building: 1/1
-N Investigate the East Building |QID|12003|QO|1|N|To the northeast, enter the estern building of Thor Modan.|M|66.71,24.43|; Investigate East Building: 1/1
-C Uncovering the Tunnels |QID|12003|N|To the west/northwest, enter the northen building of Thor Modan.|M|62.63,20.76|
+C Uncovering the Tunnels|QID|12003|QO|3|NC|N|To the east, enter the southern building of Thor Modan.|M|63.45,28.10|; Investigate South Building: 1/1
+C Uncovering the Tunnels|QID|12003|QO|2|NC|N|To the northeast, enter the estern building of Thor Modan.|M|66.71,24.43|; Investigate East Building: 1/1
+C Uncovering the Tunnels|QID|12003|QO|1|NC|N|To the west/northwest, enter the northen building of Thor Modan.|M|59.75,27.59|
 C The Runic Keystone |QID|11988|N|Kill and loot Rune Reavers, Iron Rune-Shapers and Forgemaster Damrath if you see him to get the Runic Keystone Fragments.|M|65.1,19.3|US|
 
 T The Runic Keystone |QID|11988|N|To Torthen Deepdig.|M|59.75,27.59|
@@ -442,19 +448,19 @@ T The Fate of Orlond |QID|12010|N|Down the breach to the corpse of Surveyor Orlo
 A Steady as a Rock? |QID|12014|PRE|12010|M|67.5,15.3|N|From the corpse of Surveyor Orlond.|
 
 K Subterranean Thresher |QID|12014|QO|2|N|In the water.|; Portable Seismograph: 1/1
-N Third Prophecy |QID|11993|QO|1|N|Get out of the water, cross the small bridge east, find the Third Rune Plate.|M|68.50,16.16|; Third Prophecy Deciphered: 1/1
-N First Prophecy |QID|11993|QO|1|N|A few paces northeast, find the First Rune Plate.|M|69.00,14.54|; First Prophecy Deciphered: 1/1
-C The Runic Prophecies |QID|11993|N|A few paces east, find the Second Rune Plate.|M|70.13,14.62|
+C Third Prophecy |QID|11993|QO|3|NC|N|Get out of the water, cross the small bridge east, find the Third Rune Plate.|M|68.50,16.16|; Third Prophecy Deciphered: 1/1
+C First Prophecy |QID|11993|QO|1|N|NC|A few paces northeast, find the First Rune Plate.|M|69.00,14.54|; First Prophecy Deciphered: 1/1
+C The Runic Prophecies |QID|11993|QO|2|NC|N|A few paces east, find the Second Rune Plate.|M|70.13,14.62|
 C Into the Breach |QID|11985|N|Kill Iron Thane Argrum at the very end of the trench.|M|69.78,13.54|
-C Steady as a Rock? |QID|12014|U|35837|N|Cross the small bridge, use the [Portable Seismograph] and loot the [Thor Modan Stability Profile].|M|70.63,13.42|
+C Steady as a Rock? |QID|12014|U|35837|N|Cross the small bridge, use the [Portable Seismograph] located there and loot the [Thor Modan Stability Profile].|M|70.63,13.42|
 
+T Into the Breach |QID|11985|N|To Kurun.|M|65.65,17.79|
+A Gavrock |QID|12081|PRE|11985|M|65.8,17.8|N|From Kurun.|
 T Steady as a Rock? |QID|12014|N|To Brugar Stoneshear.|M|59.73,27.56|
 A Check Up on Raegar |QID|12128|PRE|12014|M|59.8,27.5|N|From Brugar Stoneshear.|
 T The Runic Prophecies |QID|11993|N|To Torthen Deepdig.|M|59.73,27.56|
 r Sell junk and repair |QID|11985|M|59.79,27.83|
 
-T Into the Breach |QID|11985|N|To Kurun.|M|65.65,17.79|
-A Gavrock |QID|12081|PRE|11985|M|65.8,17.8|N|From Kurun.|
 T Ruuna the Blind |QID|12161|N|Ruuna the Blind in Ruuna's Camp.|M|44.07,48.01|
 A Ruuna's Request |QID|12328|PRE|12161+12425|M|44.0,47.9|N|From Ruuna the Blind.|
 C Ruuna's Request |QID|12328|N|North/northeast of the camp, kill and loot Fern Feeder Moths.|M|46.8,35.7|
@@ -464,8 +470,8 @@ C Out of Body Experience |QID|12327|U|37661|N|Drink the Gossamer Potion near Ruu
 T Out of Body Experience |QID|12327|N|Cancel the Out of Body Experience buff if it doesn't cancel itself. Then turn the quest into Ruuna the Blind.|M|44.0,47.9|
 A Fate and Coincidence |QID|12329|PRE|12327|M|44.0,47.9|N|From Ruuna the Blind.|
 C A Possible Link |QID|12246|N|Kill and loot Frostpaw Warriors, Shamans and Trappers; or Redfang Hunters and Elders (depending on which camp your in).|M|63.6,57.9|S|
-N Listen to Orsonn's Story |QID|12247|QO|1|N|He's in a cave at the waypoint, talk to him to finish this step.|M|48.16,58.73|; Orsonn's Story: 1/1
-C Children of Ursoc |QID|12247|N|She's in the cave at the waypoint, talk to her to complete the quest.|M|66.89,62.30|
+C Listen to Orsonn's Story |QID|12247|QO|1|CHAT|N|He's in a cave at the waypoint, talk to him to finish this step.|M|48.16,58.73|; Orsonn's Story: 1/1
+C Children of Ursoc |QID|12247|QO|2|CHAT|N|She's in the cave at the waypoint, talk to her to complete the quest.|M|66.89,62.30|
 C A Possible Link |QID|12246|N|Kill and loot Frostpaw Warriors, Shamans and Trappers; or Redfang Hunters and Elders (depending on which camp your in).|M|63.6,57.9|US|
 
 H Amberpine Lodge |QID|12247|N|Hearth to Amberpine Lodge, or run back if your hearth is not up.|M|31.97,60.22|
@@ -500,14 +506,14 @@ C A Bear of an Appetite |QID|12279|U|37542|N|Use the [Fishing Net] on the School
 K Overseer Brunon |QID|12093|QO|4|N|Kill the channelers and then Brunon.|M|79.11,43.72|; Overseer Brunon slain: 1/1
 K Overseer Lochli |QID|12093|QO|3|N|Kill the channelers and then Lochli.|M|75.66,37.50|; Overseer Lochli slain: 1/1
 K Overseer Korgan |QID|12093|QO|2|N|Kill the channelers and then Korgan.|M|71.58,34.44|; Overseer Korgan slain: 1/1
-C Runes of Compulsion |QID|12093|N|Kill the channelers and then Overseer Durval.|M|67.73,29.33|
+K Overseer Brunon |QID|12093|QO|1|N|Kill the channelers and then Durval.|M|67.73,29.33|
 
 l Sacred Mojos |QID|12068|L|36758 5|N|Kill and loot Drakkari Oracles and Protectors until you get 5 mojos.|S|
 C Therapy |QID|12114|N|Kill the trolls needed for this quest.|S|
 C It Takes Guts.... |QID|12116|N|Head into the catacombs and loot the Drakkari Canopic Jars.|M|71.5,23|
-C Voices From the Dust |QID|12068|N|Go deeper in the catabombs where you see a !. Loot the Drakkari Tablets.|M|69.38,18.14|
+C Voices From the Dust |QID|12068|N|Go deeper in the catabombs, to room where you see a !. Loot the Drakkari Tablets.|M|69.38,18.14|
 A Dun-da-Dun-tah! |QID|12082|N|From Harrison Jones.|M|69.46,17.50|
-C Dun-da-Dun-tah! |QID|12082|N|Let him tank the big snake that spawns, then follow him out.|M|69.5,17.5|
+C Dun-da-Dun-tah! |QID|12082|N|Let him tank the big snake that spawns, then follow him out.(This bugged out when I did it in a group, had to drop group and do seperately)|M|69.5,17.5|
 l Sacred Mojos |QID|12068|L|36758 5|N|Kill and loot Drakkari Oracles and Protectors until you get 5 mojos.|US|
 T Voices From the Dust |QID|12068|U|35797|N|Use the [Drakuru's Elixir] near the brazier in Drakil'jin Ruins, then turn the quest into the Image of Drakuru.|M|71.70,26.12|
 A Cleansing Drak'Tharon |QID|12238|PRE|12068|N|From the Image of Drakuru. This leads into Drak'Tharon Keep, so this quest is optional to take.|
@@ -526,11 +532,11 @@ C See You on the Other Side |QID|12121|U|36834|N|Bang the gong in the Drakil'jin
 T See You on the Other Side |QID|12121|N|To Gan'jo in the catacombs of the Drakil'jin Ruins.|M|69.44,19.51|
 A Chill Out, Mon |QID|12137|PRE|12121|M|69.4,19.5|N|From Gan'jo.|
 
-l Get the Snow of Eternal Slumber |QID|12137|QO|1|N|Get the [Snow of Eternal Slumber] from Gan'jo's Chest.|M|69.43,19.54|; Snow of Eternal Slumber: 1/1
+C Get the Snow of Eternal Slumber |QID|12137|QO|1|NC|N|Get the [Snow of Eternal Slumber] from Gan'jo's Chest.|M|69.43,19.54|; Snow of Eternal Slumber: 1/1
 C Chill Out, Mon |QID|12137|U|36859|N|Talk to Gan'jo to return to the living, target Ancient Drakkari Warmonger or Soothsayer and use the [Snow of Eternal Slumber]. Loot the Drakkari Spirit Particles.|M|69.4,19.5|
 T Chill Out, Mon |QID|12137|N|To Kraz.|M|73.90,34.21|
 A Jin'arrak's End |QID|12152|PRE|12137|M|73.9,34.1|N|From Kraz.|
-l Get the Sacred Drakkari Offering |QID|12152|L|36870|N|Get the [Sacred Drakkari Offering] in the catacombs again.|M|71.18,19.73|
+C Get the Sacred Drakkari Offering |QID|12152|QO|1|NC|N|Get the [Sacred Drakkari Offering] in the catacombs again.|M|71.18,19.73|
 U Create the Infused Drakkari Offering |QID|12152|U|36873|L|37063|N|Use the [Drakkari Spirit Dust].|
 C Jin'arrak's End |QID|12152|U|37063|N|Back to the gong, and use the Infused Drakkari Offering.|M|71.50,24.52|
 T Jin'arrak's End |QID|12152|N|To Kraz.|M|73.96,34.18|
@@ -608,7 +614,7 @@ R Bloodmoon Isle|QID|12164|N|Head to Bloodmoon Isle.|M|84.94,23.62|
 K Selas |QID|12164|QO|2|N|Kill Selas.|M|85.92,27.88|; Selas slain: 1/1
 K Varmlam |QID|12164|QO|1|N|Kill Varlam.|M|84.94,23.62|; Varlam slain: 1/1
 K Goremaw |QID|12164|QO|3|N|Head to the Shadowfang Tower stables, on the right side of the tower.|M|86.77,26.96|; Goremaw slain: 1/1
-C Hour of the Worg |QID|12164|N|Head to the top of the tower and kill the Shade of Arugal.|M|87.6,26.5|
+C Hour of the Worg |QID|12164|QO|4|N|Head to the top of the tower and kill the Shade of Arugal.|M|87.6,26.5|
 T Hour of the Worg |QID|12164|N|Turn into Sasha right there or in White Pine Trading Post if you happen to miss her at the tower.|M|57.52,41.35|
 
 H Amberpine Lodge|QID|12249|N|Hearth to Amberpine Lodge, or run back if your hearth is not up.|M|31.97,60.22|
