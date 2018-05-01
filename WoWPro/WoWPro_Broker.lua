@@ -558,26 +558,12 @@ function WoWPro:RowUpdate(offset)
 		local questtext = WoWPro.questtext[k]
 		local optional = WoWPro.optional[k]
 		local prereq = WoWPro.prereq[k]
-		local leadin = WoWPro.leadin[k]
 		local target = WoWPro.target[k]
 		local item = WoWPro.item[k]
 		if WoWPro.prof[k] then
 			local prof, proflvl = string.split(" ", WoWPro.prof[k])
 		end
 		local completion = WoWProCharDB.Guide[GID].completion
-
-		-- Checking off leadin steps --
-		-- Perhaps this logic belongs in NextStep?  --Ludo
-		if leadin then
-		    local numQIDs = select("#", string.split(";", leadin))
-		    for j=1,numQIDs do
-			    local lQID = select(numQIDs-j+1, string.split(";", leadin))
-				if WoWProCharDB.completedQIDs[tonumber(lQID)] and not completion[k] then
-			        completion[k] = true
-			        return true --reloading
-		        end
-			end
-		end
 
 		-- Unstickying stickies --
 		if unsticky and i == WoWPro.ActiveStickyCount+1 then
@@ -963,6 +949,10 @@ function WoWPro.NextStep(k,i)
 	local skip = true
 	-- The "repeat ... break ... until true" hack is how you do a continue in LUA!  http://lua-users.org/lists/lua-l/2006-12/msg00444.html
 	while skip do repeat
+		if k > WoWPro.stepcount then
+		    WoWPro:print("WoWPro.NextStep=%d: > EOG",k)
+		    return k
+		end
 		local QID=WoWPro.QID[k]
 		skip = false -- The step defaults to NOT skipped
 		
@@ -1096,6 +1086,20 @@ function WoWPro.NextStep(k,i)
         		end
        	    end
     	end
+
+		-- Checking off leadin steps --
+		if WoWPro.leadin and WoWPro.leadin[k] then
+		    local numQIDs = select("#", string.split(";", WoWPro.leadin[k]))
+		    for j=1,numQIDs do
+			    local lQID = select(numQIDs-j+1, string.split(";", WoWPro.leadin[k]))
+				if WoWPro:IsQuestFlaggedCompleted(lQID, true) then
+			        WoWPro.CompleteStep(k,"NextStep(): The leadin quest is completed.")
+			        skip = true
+			        WoWPro.why[k] = "NextStep(): Leadin quest ".. lQID .. " is complete."
+			        break
+		        end
+			end
+		end
 
     	-- Skipping quests with prerequisites if their prerequisite was skipped --
     	if WoWPro.prereq[k] 
@@ -1638,11 +1642,13 @@ function WoWPro.NextStep(k,i)
 			    WoWProCharDB.Guide[GID].skipped[k] = true
 			    WoWPro.why[k] = "NextStep(): Step rank is not equal to current rank"
 			    skip = true
+			    break
 		    end
 			if rank > WoWProDB.profile.rank then
 			    WoWProCharDB.Guide[GID].skipped[k] = true
 			    WoWPro.why[k] = "NextStep(): Step rank is too high."
 			    skip = true
+			    break
 			end
 		end
 		
