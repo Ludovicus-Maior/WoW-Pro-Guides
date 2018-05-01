@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2018-05-02 00:46
+-- Who: Ludovicus_Maior
+-- Log: Goodbye Vol'jin
+
+-- URL: http://wow-pro.com/node/3212/revisions/29191/view
 -- Date: 2018-02-27 00:04
 -- Who: Ludovicus_EditBot
 -- Log: Level strip - Kezan
@@ -535,10 +540,10 @@ A Warchief's Emissary|QID|25266|M|42.14,17.41|N|From Thrall.|PRE|25265|LEAD|2526
 R Bladefist Bay|QID|25266|M|42.59,16.40|N|Talk to Sassy Hardwrench and choose to go to Orgrimmar.|T|Sassy|ACTIVE|25266|
 T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|Durotar|N|To Korkron Loyalist.|
 
-A Message for Vol'jin|QID|25267|M|57.67,9.6|Z|Durotar|N|From Darkspear Loyalist. On accepting quest, you will be taken to Orgrimmar.|
-T Message for Vol'jin|QID|25267|M|48.11,70.54|Z|Orgrimmar|N|To Vol'jin, inside Grommash Hold.|
+A Message for Saurfang|QID|25267|M|57.67,9.6|Z|Durotar|N|From some Loyalist. On accepting quest, you will be taken to Orgrimmar.|
+T Message for Saurfang|QID|25267|M|48.26,70.93|Z|Orgrimmar|N|To Saurfang, inside Grommash Hold.|
 
-A Report to the Labor Captain|QID|25275|LEAD|14129|PRE|25267|M|48.11,70.54|Z|Orgrimmar|N|From Vol'jin.|
+A Report to the Labor Captain|QID|25275|LEAD|14129|PRE|25267|M|48.26,70.93|Z|Orgrimmar|N|From Saurfang.|
 A Missing Reports|QID|26803|M|49.0,72.2|Z|Orgrimmar|N|From Eitrigg.|RANK|2|
 T Missing Reports|QID|26803|M|49.4,59.2|Z|Orgrimmar|N|To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
 
