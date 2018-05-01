@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-05-02 00:44
+-- Who: Ludovicus_Maior
+-- Log: Goodbye  Garrosh Hellscream.
+
+-- URL: http://wow-pro.com/node/3203/revisions/29194/view
 -- Date: 2018-02-27 17:29
 -- Who: Ludovicus_EditBot
 -- Log: LEVEL Strip and QO fix.
@@ -339,7 +344,7 @@ A Walk With The Earth Mother|QID|26397|PRE|24540|M|59.88,51.62|Z|Thunder Bluff|R
 F Orgrimmar|ACTIVE|26397|M|46.79,49.81|N|Speak to Tal the Wind Rider Master and select Send me to Orgrimmar.|
 
 R Valley of Strength|ACTIVE|26397|M|51.21,63.07|N|Head down the lift and onto Valley of Strength.|
-T Walk With The Earth Mother|QID|26397|M|48.19,70.65|Z|Orgrimmar|R|Tauren|N|To Garrosh Hellscream. Inside the building.|
+T Walk With The Earth Mother|QID|26397|M|48.26,70.93|Z|Orgrimmar|R|Tauren|N|To High Overlord Saurfang. Inside the building.
 
 ]]
 
