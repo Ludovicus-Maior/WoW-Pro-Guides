@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-05-02 00:44
+-- Who: Ludovicus_Maior
+-- Log: Goodbye  Garrosh Hellscream.
+
+-- URL: http://wow-pro.com/node/3203/revisions/29194/view
 -- Date: 2018-02-27 17:29
 -- Who: Ludovicus_EditBot
 -- Log: LEVEL Strip and QO fix.
