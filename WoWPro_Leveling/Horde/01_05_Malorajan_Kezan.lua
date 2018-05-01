@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2018-05-02 00:46
+-- Who: Ludovicus_Maior
+-- Log: Goodbye Vol'jin
+
+-- URL: http://wow-pro.com/node/3212/revisions/29191/view
 -- Date: 2018-02-27 00:04
 -- Who: Ludovicus_EditBot
 -- Log: Level strip - Kezan
