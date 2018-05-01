@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2018-04-30 01:37
+-- Who: Emmaleah
+-- Log: updated l and N steps so they would (hopefully) autocomplete.
+
+-- URL: http://wow-pro.com/node/3284/revisions/29129/view
 -- Date: 2018-02-23 00:11
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -182,16 +187,16 @@ C Rebuilding the Staff|QID|10300|US|M|33.40,54.95|N|Kill and loot the Disembodie
 C You're Hired!|QID|10186|US|M|32.31,55.40|N|Loot the red glowing crystals off of the ground.|
 T Mark V is Alive!|QID|10191|M|31.50,56.52|N|To Bot-Specialist Alley.|
 C Recharging the Batteries|QID|10190|S|U|28369|M|35.1,49.43;28.74,51.27|CN|N|Weaken the Phase Hunters (along the edge of Netherstorm) then use the Battery Recharging Blaster. Kill the Drained Phase Hunter.|
-N Northern Pipeline|QID|10313|U|29324|QO|1|M|25.76,59.9|N|Use the Warp-Attuned Orb to measure the Northern Pipeline.|REP|Aldor;932|; Northern Pipeline Measured: 1/1
-N Western Pipeline|QID|10313|U|29324|QO|4|M|20.83,66.85|N|Use the Warp-Attuned Orb to measure the Western Pipeline.|REP|Aldor;932|; Western Pipeline Measured: 1/1
+C Northern Pipeline|QID|10313|U|29324|QO|1|M|25.76,59.9|NC|N|Use the Warp-Attuned Orb to measure the Northern Pipeline.|REP|Aldor;932|; Northern Pipeline Measured: 1/1
+C Western Pipeline|QID|10313|U|29324|QO|4|M|20.83,66.85|NC|N|Use the Warp-Attuned Orb to measure the Western Pipeline.|REP|Aldor;932|; Western Pipeline Measured: 1/1
 T Naaru Technology|QID|10243|M|23.18,68.13|N|Head inside the Manaforge B'naar and turn the quest in at the B'naar Control Console.|REP|Aldor;932|
 A B'naar Console Transcription|QID|10245|PRE|10243|M|23.18,68.13|N|From the B'naar Control Console.|REP|Aldor;932|
-N Southern Pipeline|QID|10313|U|29324|QO|3|M|20.86,71.01|N|Use the Warp-Attuned Orb to measure the Southern Pipeline.|REP|Aldor;932|; Southern Pipeline Measured: 1/1
-l Bloodgem Shard|QID|10204|NC|M|26.20,68.56|N|Kill Sunfury Magisters until you get a Bloodgem Shard from looting them.|REP|Scryers;934|
-C Bloodgem Crystals|QID|10204|NC|M|26.20,68.56|N|Go near one the smaller floating red crystals and use the Bloodgem Shard.|REP|Scryers;934|
-K Sunfury Warp-Masters|QID|10193|S|QO|Sunfury Warp-Master: 2/2|M|24.28,72.93|N|Kill 2 Sunfury Warp-Masters walking around the Sunfury Geologists.|REP|Scryers;934|
-K Sunfury Geologists|QID|10193|QO|3|M|24.31,72.82|N|Best place to find the Sunfury Geologists.|REP|Scryers;934|; Sunfury Geologist slain: 8/8
-K Sunfury Warp-Masters|QID|10193|US|QO|Sunfury Warp-Master: 2/2|M|24.28,72.93|N|Kill 2 Sunfury Warp-Masters walking around the Sunfury Geologists.|REP|Scryers;934|
+C Southern Pipeline|QID|10313|U|29324|NC|QO|3|M|20.86,71.01|N|Use the Warp-Attuned Orb to measure the Southern Pipeline.|REP|Aldor;932|; Southern Pipeline Measured: 1/1
+l Bloodgem Shard|QID|10204|NC|M|26.20,68.56|L|28452|N|Kill Sunfury Magisters until you get a Bloodgem Shard from looting them.|REP|Scryers;934|
+C Bloodgem Crystals|QID|10204|NC|M|26.20,68.56|U|28452|N|Go near one the smaller floating red crystals and use the Bloodgem Shard.|REP|Scryers;934|
+K Sunfury Warp-Masters|QID|10193|S|QO|1|M|24.28,72.93|N|Kill 2 Sunfury Warp-Masters walking around the Sunfury Geologists.|REP|Scryers;934|
+K Sunfury Geologists|QID|10193|QO|3|M|24.31,72.82|N|Best place to find the Sunfury Geologists.|REP|Scryers;934|
+K Sunfury Warp-Masters|QID|10193|US|QO|1|M|24.28,72.93|N|Kill 2 Sunfury Warp-Masters walking around the Sunfury Geologists.|REP|Scryers;934|
 C High Value Targets|QID|10193|M|22.52,72.37;20.33,70.88|CN|N|Kill Sunfury Warp-Engineers between the two waypoints until you complete the quest.|REP|Scryers;934|
 C Recharging the Batteries|QID|10190|US|U|28369|M|35.1,49.43;28.74,51.27|CN|N|Weaken the Phase Hunters then use the Battery Recharging Blaster. Kill the Drained Phase Hunter.|
 C A Heap of Ethereals|QID|10262|S|M|29.92,77.37|N|Kill and loot Zaxxis Ethereals until you get 10 Insignias.|
@@ -230,10 +235,8 @@ T Recharging the Batteries|QID|10190|M|31.53,56.66|N|To Bot-Specialist Alley.|
 T Essence for the Engines|QID|10224|M|32.43,66.67|N|To Chief Engineer Trep.|
 
 A Elemental Power Extraction|QID|10226|PRE|10224|M|32.42,66.66|N|From Chief Engineer Trep.|
-l B'naar Access Crystal|QID|10299|M|23.81,70.47|N|Loot the B'naar Access Crystal off of Overseer Theredis' corpse.|REP|Aldor;932|L|29366|
-l B'naar Access Crystal|QID|10329|M|23.83,70.58|N|Loot the B'naar Access Crystal off of Overseer Theredis' corpse.|REP|Scryers;934|L|29366|
-N Shutting Down Manaforge B'naar|QID|10299|M|23.19,68.16|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the B'naar Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Aldor;932|
-N Shutting Down Manaforge B'naar|QID|10329|M|23.19,68.16|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the B'naar Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
+l B'naar Access Crystal|QID|10299;10329|M|23.81,70.47|N|Loot the B'naar Access Crystal off of Overseer Theredis' corpse.|L|29366|
+C Shutting Down Manaforge B'naar|QID|10329|QO|2|ACTIVE|10329|M|23.19,68.16|N|Even though the quest comes up complete on the UI, you need to defend the Manaforge while it shuts down. To finish it, click on the B'naar Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears.|
 C Elemental Power Extraction|QID|10226|U|28547|M|21.24,78.04|N|Use the Elemental Power Extractor on a living Sundered Rumbler or Warp Aberration. Kill it then loot the blue crystal floating above the corpse.|
 C Warp-Raider Nesaad|QID|10205|M|27.98,78.96|N|Kill Warp-Raider Nesaad.|
 U Multi-Spectrum Terrain Analyzer|QID|10203|QO|3|M|40.25,72.88|N|Click on the Multi-Spectrum Terrain Analyzer.|; Multi-Spectrum Terrain Analyzer retrieved: 1/1
@@ -280,7 +283,7 @@ A Krasus's Compendium|QID|10192|PRE|10188|M|51.60,81.99|N|From Image of Archmage
 K Sunfury Arcanists|QID|10246|US|QO|2|M|51.64,81.94|N|Kill 8 Sunfury Arcanists.|REP|Aldor;932|
 K Sunfury Researchers|QID|10246|S|QO|1|M|49.01,81.52|N|Kill 5 Sunfury Researchers inside the Manaforge to finish this quest.|REP|Aldor;932|; Sunfury Researcher slain: 5/5
 l Coruu Access Crystal|QID|10321|M|49.01,81.52|L|29396|N|Head inside the Manaforge and kill Overseer Seylanna. Loot the crystal off of her corpse.|REP|Aldor;932|
-N Shutting Down Manaforge Coruu|QID|10321|M|49.01,81.52|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the Coruu Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Aldor;932|
+C Shutting Down Manaforge Coruu|QID|10321|QO|2|ACTIVE|10321|M|49.01,81.52|N|The quest doesn't actually complete until you defend the manaforge. To finish it, click on the Coruu Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears.|REP|Aldor;932|
 K Sunfury Researchers|QID|10246|US|QO|1|M|49.01,81.52|N|Kill 5 Sunfury Researchers inside the Manaforge to finish this quest.|REP|Aldor;932|; Sunfury Researcher slain: 5/5
 T Behind Enemy Lines|QID|10652|M|48.24,86.65|N|To Caledis Brightdawn.|REP|Scryers;934|
 A A Convincing Disguise|QID|10197|PRE|10652|M|48.24,86.62|N|From Caledis Brightdawn.|REP|Scryers;934|
@@ -293,7 +296,7 @@ C Information Gathering|QID|10198|NC|U|28607|M|48.25,83.85|N|Use the disguise an
 T Information Gathering|QID|10198|M|48.23,86.66|N|To Caledis Brightdawn.|REP|Scryers;934|
 A Shutting Down Manaforge Coruu|QID|10330|PRE|10198|M|48.22,86.53|N|From Caledis Brightdawn.|REP|Scryers;934|
 l Coruu Access Crystal|QID|10330|M|49.01,81.52|L|29396|N|Head inside the Manaforge and kill Overseer Seylanna. Loot the crystal off of her corpse.|REP|Scryers;934|
-N Shutting Down Manaforge Coruu|QID|10330|M|49.01,81.52|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the Coruu Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
+C Shutting Down Manaforge Coruu|QID|10330|M|49.01,81.52|N|The quest doesn't actually complete until you defend the area while the shutdown happens. To finish it, click on the Coruu Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
 T Shutting Down Manaforge Coruu|QID|10330|M|48.25,86.66|N|To Caledis Brightdawn.|REP|Scryers;934|
 A Return to Thalodien|QID|10200|PRE|10330|M|48.20,86.72|N|From Caledis Brightdawn.|REP|Scryers;934|
 C Potential Energy Source|QID|10239|US|M|50.78,81.46|N|Loot the Energy Isolation Cubes off the ground.|
@@ -303,17 +306,17 @@ T Potential Energy Source|QID|10239|M|57.53,86.28|N|To Lieutenant-Sorcerer Morra
 A Building a Perimeter|QID|10240|PRE|10239|M|57.53,86.28|N|From Lieutenant-Sorcerer Morran.|
 r Repair/Restock|QID|10192|M|57.65,85.19|N|At Apprentice Andrethan.|
 C Malevolent Remnants|QID|10184|S|M|59.76,85.15|N|Kill Severed Spirits and Defenders until you complete this quest.|
-l Krasus' Compendium - Chapter 2|QID|10192|L|28473 |M|57.5,89.54|N|Enter the house and loot Krasus' Compendium - Chapter 2 off the ground.|
-l Krasus' Compendium - Chapter 1|QID|10192|L|28472 |M|58.62,89.18|N|Enter the house and loot Krasus' Compendium - Chapter 1 off the ground.|
-C Krasus's Compendium|QID|10192|M|58.84,87.90|N|Enter the house and get the Krasus' Compendium - Chapter 3 off the broken table.|
-T Krasus's Compendium|QID|10192|U|28455|M|58.85,87.89|N|To Image of Archmage Vargoth.|
+l Krasus' Compendium - Chapter 2|QID|10192|QO|2|M|57.5,89.54|N|Enter the house and loot Krasus' Compendium - Chapter 2 off the ground.|
+l Krasus' Compendium - Chapter 1|QID|10192|QO|1|M|58.62,89.18|N|Enter the house and loot Krasus' Compendium - Chapter 1 off the ground.|
+l Krasus' Compendium - Chapter 3|QID|10192|QO|3|M|58.84,87.90|N|Enter the house and get the Krasus' Compendium - Chapter 3 off the broken table.|
+T Krasus' Compendium|QID|10192|U|28455|M|58.85,87.89|N|To Image of Archmage Vargoth.|
 
 A Unlocking the Compendium|QID|10301|PRE|10192|U|28455|M|58.85,87.89|N|From Image of Archmage Vargoth.|
-l Cohlien's Cap|QID|10307|L|29236 |T|Cohlien Frostweaver|M|59.82,87.44|N|Find and kill Cohlien Frostweaver, then loot his cap.|
+l Cohlien's Cap|QID|10307|QO|1|T|Cohlien Frostweaver|M|59.82,87.44|N|Find and kill Cohlien Frostweaver, then loot his cap.|
 A Cohlien Frostweaver|QID|10307|U|29236|M|59.82,87.44|N|From Cohlien's Cap.|
-l Dathric's Blade|QID|10182|L|29233 |M|60.47,87.8|N|Head inside, kill and loot Battle-Mage Dathric.|
+l Dathric's Blade|QID|10182|QO|1|M|60.47,87.8|N|Head inside, kill and loot Battle-Mage Dathric.|
 A Battle-Mage Dathric|QID|10182|U|29233|M|60.47,87.80|N|From Dathric's Blade.|
-l Luminrath's Mantle|QID|10306|L|29235 |T|Conjurer Luminrath|M|59.96,85.41|N|Find Conjurer Luminrath, kill then loot his mantle.|
+l Luminrath's Mantle|QID|10306|QO|1|T|Conjurer Luminrath|M|59.96,85.41|N|Find Conjurer Luminrath, kill then loot his mantle.|
 A Conjurer Luminrath|QID|10306|M|59.96,85.41|N|From Luminrath's Mantle.|U|29235|
 C Indispensable Tools|QID|10331|M|61.02,85.04|N|Kill Kirin'Var Apprentices until the Smithing Hammer drops.|
 U Activate Eastern Rune|QID|10240|U|28725|QO|1|M|59.23,85.35|N|Use the Rune Activation Device at the Eastern Kirin'Var Rune.|; Activate Eastern Rune: 1/1
@@ -340,7 +343,7 @@ T The Annals of Kirin'Var|QID|10312|M|57.53,86.26|N|To Custodian Dieworth.|
 
 A Searching for Evidence|QID|10316|PRE|10312|M|57.53,86.26|N|From Custodian Dieworth.|
 C The Sunfury Garrison|QID|10222|S|M|55.95,79.71|N|Kill any Sunfury Archer you see.|
-l Flaming Torch|QID|10233|L|28550 |M|55.97,80.21|N|Find a Sunfury Flamekeeper, kill it and loot the Flaming Torch off of it. Usually wanders around the tent building, or there is one inside of it.|
+l Flaming Torch|QID|10233|L|28550|M|55.97,80.21|N|Find a Sunfury Flamekeeper, kill it and loot the Flaming Torch off of it. Usually wanders around the tent building, or there is one inside of it.|
 C Torching Sunfury Hold|QID|10233|S|U|28550|M|56.28,80.47|N|Use the torch next to the Ballistas and smaller tents (not the large tent building thingy).|
 C Unlocking the Compendium|QID|10301|T|Spellreaver Marathelle|M|56.54,77.95|N|Kill Spellreaver Marathelle then loot her corpse to get the Heliotrope Oculus.|
 T Unlocking the Compendium|QID|10301|U|28455|M|56.57,77.85|N|To Image of Archmage Vargoth.|
@@ -415,10 +418,8 @@ C Sunfury Briefings|QID|10328|S|M|59.76,67.11|N|Kill magic using mobs to get the
 C Kick Them While They're Down|QID|10341|S|M|56.31,66.34|N|Sunfury Conjurers and Bowmen can be found outside around the Manaforge. The Centurions are inside the Manaforge.|REP|Scryers;934|
 C Rightful Repossession|QID|10267|S|M|58.70,66.86|N|Loot Boxes of Surveying Equipment inside and outside of Manaforge Duro. Tends to be quite a few boxes inside the Manaforge.|
 C Down With Daellis|QID|10223|T|Master Daellis Dawnstrider|M|56.35,66.69|N|Find and kill Master Daellis Dawnstrider. He tends to roam around where the Sunfury Bowman are.|
-l Duro Access Crystal|QID|10322|M|59.94,68.32|N|Head inside Manaforge Duro, kill then loot Oversee Athanel.|REP|Aldor;932|L|29397|
-l Duro Access Crystal|QID|10338|M|59.96,68.38|N|Head inside Manaforge Duro, kill then loot Oversee Athanel.|REP|Scryers;934|L|29397|
-N Shutting Down Manaforge Duro|QID|10322|M|59.11,66.77|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the Duro Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Aldor;932|
-N Shutting Down Manaforge Duro|QID|10338|M|59.11,66.77|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the Duro Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
+l Duro Access Crystal|QID|10322;10338|M|59.94,68.32|N|Head inside Manaforge Duro, kill then loot Oversee Athanel.|QO|1|
+C Shutting Down Manaforge Duro|QID|10332;10338|M|59.11,66.77|N|The quest doesn't actually complete until you defend the manaforge while it shuts down. To finish it, click on the Duro Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears..|
 C Kick Them While They're Down|QID|10341|US|M|56.31,66.34|N|Sunfury Conjurers and Bowmen can be found outside around the Manaforge. The Centurions are inside the Manaforge.|REP|Scryers;934|
 C Sunfury Briefings|QID|10328|US|M|59.76,67.11|N|Kill magic using mobs to get the Sunfury Arcane Briefing, and kill melee-type mobs to get the Sunfury Military Briefing.|REP|Aldor;932|
 C Summoner Kanthin's Prize|QID|10209|T|Summoner Kanthin|M|59.42,63.03;57.52,63.71;57.14,66.48|CN|N|Summoner Kanthin wander between the locations of the large red floating gems.|
@@ -430,7 +431,7 @@ T Down With Daellis|QID|10223|M|57.55,86.26|N|To Custodian Dieworth.|
 C Ar'kelos the Guardian|QID|10176|M|58.21,86.59|N|Head inside the tower and kill Ar'kelos.|
 T Ar'kelos the Guardian|QID|10176|M|58.32,86.45|N|Head to the top of the tower to Archmage Vargoth.|
 A Finding the Keymaster|QID|10256|M|58.32,86.45|N|Wait a moment then get it from Archmage Vargoth.|
-l Apex's Crystal Focus|QID|10256|L|28786 |T|Apex|M|52.45,69.73|N|Kill Apex and loot the Crystal Focus.|
+l Apex's Crystal Focus|QID|10256|L|28786|T|Apex|M|52.45,69.73|N|Kill Apex and loot the Crystal Focus.|
 f Cosmowrench|QID|10924|M|65.21,66.73|N|At Harpax.|
 A Bloody Imp-ossible!|QID|10924|M|66.36,67.23|N|From Sab'aoth.|
 C Bloody Imp-ossible!|QID|10924|U|31815|M|64.21,63.99|N|Summon Zeppit, run around The Vortex Fields killing Warp Chasers. You need to be near the Warp Chaser when it dies.|
@@ -454,7 +455,6 @@ A Doctor Vomisa, Ph.T.|QID|10247|PRE|10237|M|32.64,64.48|N|From Rocket-Chief Fus
 T In A Scrap With The Legion|QID|10232|M|32.94,64.68|N|To Papa Wheeler.|
 T Doctor Vomisa, Ph.T.|QID|10247|M|37.34,63.84|N|To Doctor Vomisa, Ph.T..|
 A You, Robot|QID|10248|PRE|10247|M|37.34,63.84|N|From Doctor Vomisa, Ph.T..|
-N The following quest|QID|10248|M|40.36,62.08|N|"You, Robot" at the time of making this guide is bugged. If Negatron is currently in the town this quest is undoable.|
 C You, Robot|QID|10248|U|28634|M|40.36,62.08|N|You will most likely need help with this quest. Use the Scrap Reaver X6000 Controller. Kill Negatron. You can not leave The Proving Grounds.|
 A Back to the Chief!|QID|10249|PRE|10248|M|37.3,63.74|N|From Doctor Vomisa, Ph.T..|
 T Rightful Repossession|QID|10267|M|46.63,56.95|N|To Gahruj.|
@@ -489,7 +489,7 @@ C Retrieving the Goods|QID|10435|M|44.07,11.81|N|Loot the Dome Generator Segment
 C All Clear!|QID|10436|US|M|45.24,10.94|N|Kill Scythetooth Raptors until you complete this quest.|
 T All Clear!|QID|10436|M|44.68,14.45|N|To Tashar.|
 A Success!|QID|10440|PRE|10436|M|44.65,14.45|N|Wait a moment then get the quest from Tashar.|
-l Condensed Nether Gas|QID|10855|L|31653 5|M|37.54,26.85|N|Loot 5 Condensed Nether Gas from Gan'arg Mekgineers.|
+K Kill Gan'arg Mekgineers|QID|10855|L|31653 5|M|37.54,26.85|N|Loot 5 Condensed Nether Gas from Gan'arg Mekgineers.|
 C Fel Reavers, No Thanks!|QID|10855|M|37.63,26.55|N|Click on an Inactive Fel Reaver and hit continue to put in the Condensed Nether Gas.|
 
 A Flora of the Eco-Domes|QID|10426|M|42.22,32.56|N|From Aurine Moonblaze.|
@@ -519,8 +519,8 @@ A Teleport This!|QID|10857|PRE|10856|M|44.62,34.88|N|From Nether-Stalker Nauthis
 C Triangulation Point One|QID|10269|NC|U|28962|M|66.71,33.95|N|Head to the waypoint, use the Triangulation Device. Head towards the red bobbing arrow for the completion.|
 T Triangulation Point One|QID|10269|M|58.34,31.35|N|To Dealer Hazzin.|
 A Triangulation Point Two|QID|10275|PRE|10269|M|58.35,31.35|N|From Dealer Hazzin.|
-N Eastern Teleporter Destroyed|QID|10857|U|31678|QO|3|M|42.26,21.08|N|Stand right next to the Eastern Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|; Eastern Teleporter Destroyed: 1/1
-N Western Teleporter Destroyed|QID|10857|U|31678|QO|1|M|39.15,20.53|N|Stand right next to the Western Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|; Western Teleporter Destroyed: 1/1
+C Eastern Teleporter Destroyed|QID|10857|U|31678|QO|3|M|42.26,21.08|N|Stand right next to the Eastern Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|; Eastern Teleporter Destroyed: 1/1
+C Western Teleporter Destroyed|QID|10857|U|31678|QO|1|M|39.15,20.53|N|Stand right next to the Western Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|; Western Teleporter Destroyed: 1/1
 C Central Teleporter Destroyed|QID|10857|U|31678|QO|2|M|41.17,19.20|N|Stand right next to the Central Teleporter, pull a Cyber-Rage Forgelord close and use the Mental Interferance Rod on it. When the new bar comes up use their Detonate ability.|
 T Outside Assistance|QID|10431|M|34.81,38.21|N|To Kaylaan.|REP|Aldor;932|
 
@@ -530,14 +530,14 @@ A Neutralizing the Nethermancers|QID|10315|M|34.54,37.77|N|From Nether-Stalker O
 C Neutralizing the Nethermancers|QID|10315|S|M|29.12,43.99|N|Kill any Sunfury Nethermancer you see. They are mostly around the large red floating crystals.|
 C A Dark Pact|QID|10380|S|M|24.58,40.78|N|The Warp-Tinkers can be found near the pipes and in the mine, the Daughters of Destiny are near the large floating red crystlas, and the Warp-Masters can be found inside the Manaforge and the mine.|
 C Triangulation Point Two|QID|10275|NC|U|29018|M|28.97,41.16|N|Use the Triangulation Device, then run towards the bobbing red arrow.|
-l Ara Access Crystal|QID|10323|M|26.73,39.25|N|Loot the Ara Access Crystal from Overseer Azarad inside the Manaforge Ara, he wanders around inside of it.|REP|Aldor;932|L|29411|
-N Shutting Down Manaforge Ara|QID|10323|M|26,38.76|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the Ara Control Console and Begin emergency shutdown. Then wait two minutes and kill any Engineer or Technician that appears. Once it is shutdown, close this step.|REP|Aldor;932|
+l Ara Access Crystal|QID|10323|QO|1|M|26.73,39.25|N|Loot the Ara Access Crystal from Overseer Azarad inside the Manaforge Ara, he wanders around inside of it.|REP|Aldor;932|
+C Shutting Down Manaforge Ara|QID|10323|M|26,38.76|N|The quest doesn't complete until you defend the manaforge during shut-down. To finish it, click on the Ara Control Console and Begin emergency shutdown. Then wait two minutes and kill any Engineer or Technician that appears. Once it is shutdown, close this step.|REP|Aldor;932|
 T A Defector|QID|10202|M|26.16,41.59|N|To Magister Theledorn.|REP|Scryers;934|
 
 A Damning Evidence|QID|10432|PRE|10202|M|26.16,41.59|N|From Magister Theledorn.|REP|Scryers;934|
 C Damning Evidence|QID|10432|S|M|26.87,38.52|N|Kill and loot demons until you get 8 Orders From Kael'thas.|REP|Scryers;934|
-l Ara Access Crystal|QID|10365|M|26.58,37.64|N|Loot the Ara Access Crystal from Overseer Azarad inside the Manaforge Ara, he wanders around inside of it.|REP|Scryers;934|L|29411|
-N Shutting Down Manaforge Ara|QID|10365|M|26,38.76|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the Ara Control Console and Begin emergency shutdown. Then wait two minutes and kill any Engineer or Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
+l Ara Access Crystal|QID|10365||QO|1|M|26.58,37.64|N|Loot the Ara Access Crystal from Overseer Azarad inside the Manaforge Ara, he wanders around inside of it.|REP|Scryers;934|
+C Shutting Down Manaforge Ara|QID|10365|M|26,38.76|N|The quest doesn't complete until you defend the manaforge during shut-down. To finish it, click on the Ara Control Console and Begin emergency shutdown. Then wait two minutes and kill any Engineer or Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
 C Damning Evidence|QID|10432|US|M|26.87,38.52|N|Kill and loot demons until you get 8 Orders From Kael'thas.|REP|Scryers;934|
 C Neutralizing the Nethermancers|QID|10315|US|M|29.12,43.99|N|Kill any Sunfury Nethermancer you see. They are mostly around the large red floating crystals.|
 T Dealing with the Foreman|QID|10317|M|26.40,42.32|N|To Foreman Sundown.|
@@ -564,8 +564,8 @@ F The Stormspire|QID|10857|M|33.79,63.97|N|Fly to The Stormspire.|
 T Teleport This!|QID|10857|M|44.69,34.89|N|To Nether-Stalker Nauthis.|
 l First Half of Socrethar's Stone|QID|10407|L|29624 |M|36.79,27.7|N|Kill and loot Forgemaster Morug to get the first stone.|REP|Aldor;932|
 C Socrethar's Shadow|QID|10407|M|41.08,19.68|N|Kill and loot Silroth to get the second stone.|REP|Aldor;932|
-l First Half of Socrethar's Stone|QID|10508|L|29624 |M|36.79,27.7|N|Kill and loot Forgemaster Morug to get the first stone.|REP|Scryers;934|
-C A Gift for Voren'thal|QID|10508|M|41.01,19.62|N|Kill and loot Silroth to get the second stone.|REP|Scryers;934|
+l First Half of Socrethar's Stone|QID|10508|QO|1|M|36.79,27.7|N|Kill and loot Forgemaster Morug to get the first stone.|REP|Scryers;934|
+C A Gift for Voren'thal|QID|10508|QO|2|M|41.01,19.62|N|Kill and loot Silroth to get the second stone.|REP|Scryers;934|
 C Full Triangle|QID|10276|M|53.47,21.26|N|Kill and loot Culuthas to get the Crystal.|
 
 A A Not-So-Modest Proposal|QID|10270|M|58.32,31.55|N|From Wind Trader Marid.|
@@ -584,8 +584,8 @@ T Ethereum Data|QID|10384|M|56.77,38.70|N|To Image of Commander Ameer.|
 
 A Potential for Brain Damage = High|QID|10385|PRE|10384|M|56.77,38.70|N|From Image of Commander Ameer.|
 C Potential for Brain Damage = High|U|29482|QID|10385|S|M|56.32,40.23|N|Kill Ethereum mobs until an Ethereum Essence drops. Drink it, then kill and loot as many Ethereum Relays (Mana eel looking things) you can within 60 secs. Rinse and repeat.|
-l The Warden's Key|QID|10422|L|29482 |T|Warden Icoshock|M|54.46,40.04|N|Kill Warden Icoshock and loot his corpse to get The Warden's Key.|
-C Captain Tyralius|QID|10422|M|53.37,41.49|N|Click on the large prison bubble to free Captain Tyralius.|
+K Kill Warden Icoshock|QID|10422|L|29482|T|Warden Icoshock|M|54.46,40.04|N|Kill Warden Icoshock and loot his corpse to get The Warden's Key.|
+C Captain Tyralius|QID|10422|M|53.37,41.49|NC|N|Click on the large prison bubble to free Captain Tyralius.|
 C Potential for Brain Damage = High|U|29482|QID|10385|US|M|56.32,40.23|N|Kill Ethereum mobs until an Ethereum Essence drops. Drink it, then kill and loot as many Ethereum Relays (Mana eel looking things) you can within 60 secs. Rinse and repeat.|
 T Potential for Brain Damage = High|QID|10385|M|56.75,38.71|N|To Image of Commander Ameer.|
 A S-A-B-O-T-A-G-E|QID|10405|PRE|10385|M|56.75,38.71|N|From Image of Commander Ameer.|
@@ -650,7 +650,7 @@ A Ethereum Secrets|QID|10971|M|59.44,32.34|N|From Commander Ameer.|
 l Ethereum Secrets|QID|10971|L|29460 |M|55.50,43.46|N|Kill Ethereums until an Ethereum Prison Key drops. This does have a low drop rate so skip if you wish. Also it seems that if you kill an Ethereum Jailor the key is a 100% drop, so keep an eye out for those.|
 C Ethereum Secrets|QID|10971|M|54.59,40.25|N|Click on an Ethereum Prison to unlock it. There is a good change that it will spawn something you have to kill, so kill then loot the mob for the I.D. Tag.|
 T Ethereum Secrets|QID|10971|M|59.42,32.33|N|To Commander Ameer.|
-N Speak to Captain Saeed|QID|10439|QO|2|M|60.63,32.17|N|Depending on your class/level you may need help with this quest. When you are ready, talk to Captain Saeed and choose that you are ready.|; Speak to Captain Saeed: 1/1
+C Speak to Captain Saeed|QID|10439|QO|2|M|60.63,32.17|CHAT|N|Depending on your class/level you may need help with this quest. When you are ready, talk to Captain Saeed and choose that you are ready.|; Speak to Captain Saeed: 1/1
 C Dimensius the All-Devouring|QID|10439|QO|1|M|62.29,40.50|N|Follow Captain Saeed, at one point he will stop. Get full health/mana then talk to him to continue. Kill the Spawns of Dimensius that are around Dimensius, then kill Dimensisus.|
 T Dimensius the All-Devouring|QID|10439|M|60.11,31.83|N|To Professor Dabiri.|
 T Full Triangle|QID|10276|M|45.82,35.98|N|To Image of Nexus-Prince Haramad.|
