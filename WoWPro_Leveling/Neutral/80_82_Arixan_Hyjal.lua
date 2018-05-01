@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2018-05-02 00:49
+-- Who: Ludovicus_Maior
+-- Log: Fix QIDs for [Into the Maw!] mess.  Thanks NZALL.
+
+-- URL: http://wow-pro.com/node/3303/revisions/29220/view
 -- Date: 2018-03-06 01:29
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
