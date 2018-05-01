@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2018-05-02 00:43
+-- Who: Ludovicus_Maior
+-- Log: Goodbye  King Varian Wrynn.
+
+-- URL: http://wow-pro.com/node/3213/revisions/29159/view
 -- Date: 2018-02-24 20:39
 -- Who: Ludovicus_EditBot
 -- Log:  Varian
@@ -362,8 +367,8 @@ C Rise of the Brotherhood|QID|26322|NC|M|56.36,47.55|N|Watch the scene.|
 
 F Stormwind City|QID|26322|N|Fly to Stormwind City.|ACTIVE|26322|
 
-T Rise of the Brotherhood|QID|26322|M|85.62,31.92|Z|Stormwind City|N|To King Varian Wrynn.|
-A Return to Sentinel Hill|QID|26370|PRE|26322|M|85.62,31.92|Z|Stormwind City|N|From King Varian Wrynn.|
+T Rise of the Brotherhood|QID|26322|M|85.62,31.92|Z|Stormwind City|N|To Anduin Wrynn.|
+A Return to Sentinel Hill|QID|26370|PRE|26322|M|85.62,31.92|Z|Stormwind City|N|From Anduin Wrynn.|
 
 T Return to Sentinel Hill|QID|26370|M|56.37,49.57|N|To Marshal Gryan Stoutmantle.|
 
