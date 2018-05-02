@@ -1,0 +1,32 @@
+Changes since tag 1.90-beta
+
+commit 832749913d9334eea46dcedb92992d8cecaf4531
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Wed May 2 12:49:53 2018 +0200
+
+    Implement WorldMap Pin drawing using a data provider
+
+commit afb9d74986c5b233ad9e800d39e553486db76d1c
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Mon Apr 30 00:46:00 2018 +0200
+
+    Save the default floor after a lookup
+
+commit 3e195fee915d4c551bd3e187797b01dfb85cc8e9
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Sun Apr 29 21:49:48 2018 +0200
+
+    Unify Migrate lookup api
+
+commit a3ae0ab7db71669ecceee6fdd4d98c0ace4843dc
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Sun Apr 29 21:28:51 2018 +0200
+
+    Draft of HereBeDragons-Migrate migration helper library
+
+commit 6dd6864b8679b35ded1978d3e9a86eda6042be7e
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Sun Apr 29 19:02:31 2018 +0200
+
+    Add a draft of HereBeDragons-Pins-2.0
+

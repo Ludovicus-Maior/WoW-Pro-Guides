@@ -4,7 +4,7 @@
 
 local L = WoWPro_Locale
 local cache = {}
--- local HBD = LibStub("HereBeDragons-1.0")
+local HBD = LibStub("HereBeDragons-2.0")
 WoWPro.HBD = {}
 
 function WoWPro.HBD:GetZoneDistance(im,ifl,ix,iy, jm,jfl,jx,jy)
