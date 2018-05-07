@@ -2,1062 +2,986 @@
 --      WoWPro_Zones.lua      --
 ----------------------------------
 
-local DefineDungeonArea = WoWPro.DefineDungeonArea
-local DefineInstance = WoWPro.DefineInstance
-local DefineTerrain = WoWPro.DefineTerrain
-local DefineTerrainFloor = WoWPro.DefineTerrainFloor
+local DefineZone = WoWPro.DefineZone
+local DefineLegacyZone = WoWPro.DefineLegacyZone
 
--- From WoWPro:Functionalize()
-DefineDungeonArea( 321, 1,"Orgrimmar@Orgrimmar","Orgrimmar","Orgrimmar")
-DefineDungeonArea( 321, 2,"Cleft of Shadow@Orgrimmar","Orgrimmar","Cleft of Shadow")
-DefineDungeonArea( 504, 1,"Dalaran City@Dalaran","Dalaran","Dalaran City")
-DefineDungeonArea( 504, 2,"The Underbelly@Dalaran","Dalaran","The Underbelly")
-DefineDungeonArea( 520, 1,"The Nexus@TheNexus","TheNexus","The Nexus")
-DefineDungeonArea( 521, 1,"The Road to Stratholme@CoTStratholme","CoTStratholme","The Road to Stratholme")
-DefineDungeonArea( 521, 2,"Stratholme City@CoTStratholme","CoTStratholme","Stratholme City")
-DefineDungeonArea( 522, 1,"Ahn'Kahet@Ahnkahet","Ahnkahet","Ahn'Kahet")
-DefineDungeonArea( 523, 1,"Njorndir Preparation@UtgardeKeep","UtgardeKeep","Njorndir Preparation")
-DefineDungeonArea( 523, 2,"Dragonflayer Ascent@UtgardeKeep","UtgardeKeep","Dragonflayer Ascent")
-DefineDungeonArea( 523, 3,"Tyr's Terrace@UtgardeKeep","UtgardeKeep","Tyr's Terrace")
-DefineDungeonArea( 524, 1,"Lower Pinnacle@UtgardePinnacle","UtgardePinnacle","Lower Pinnacle")
-DefineDungeonArea( 524, 2,"Upper Pinnacle@UtgardePinnacle","UtgardePinnacle","Upper Pinnacle")
-DefineDungeonArea( 525, 1,"Unyielding Garrison@HallsofLightning","HallsofLightning","Unyielding Garrison")
-DefineDungeonArea( 525, 2,"Walk of the Makers@HallsofLightning","HallsofLightning","Walk of the Makers")
-DefineDungeonArea( 526, 1,"Halls of Stone@Ulduar77","Ulduar77","Halls of Stone")
-DefineDungeonArea( 527, 1,"The Eye of Eternity@TheEyeofEternity","TheEyeofEternity","The Eye of Eternity")
-DefineDungeonArea( 528, 1,"Band of Variance@Nexus80","Nexus80","Band of Variance")
-DefineDungeonArea( 528, 2,"Band of Acceleration@Nexus80","Nexus80","Band of Acceleration")
-DefineDungeonArea( 528, 3,"Band of Transmutation@Nexus80","Nexus80","Band of Transmutation")
-DefineDungeonArea( 528, 4,"Band of Alignment@Nexus80","Nexus80","Band of Alignment")
-DefineDungeonArea( 529, 1,"The Grand Approach @Ulduar","Ulduar","The Grand Approach ")
-DefineDungeonArea( 529, 2,"The Antechamber of Ulduar@Ulduar","Ulduar","The Antechamber of Ulduar")
-DefineDungeonArea( 529, 3,"The Inner Sanctum of Ulduar@Ulduar","Ulduar","The Inner Sanctum of Ulduar")
-DefineDungeonArea( 529, 4,"The Prison of Yogg-Saron@Ulduar","Ulduar","The Prison of Yogg-Saron")
-DefineDungeonArea( 529, 5,"The Spark of Imagination@Ulduar","Ulduar","The Spark of Imagination")
-DefineDungeonArea( 530, 1,"Gundrak@Gundrak","Gundrak","Gundrak")
-DefineDungeonArea( 531, 1,"The Obsidian Sanctum@TheObsidianSanctum","TheObsidianSanctum","The Obsidian Sanctum")
-DefineDungeonArea( 532, 1,"Vault of Archavon@VaultofArchavon","VaultofArchavon","Vault of Archavon")
-DefineDungeonArea( 533, 1,"The Brood Pit@AzjolNerub","AzjolNerub","The Brood Pit")
-DefineDungeonArea( 533, 2,"Hadronox's Lair@AzjolNerub","AzjolNerub","Hadronox's Lair")
-DefineDungeonArea( 533, 3,"The Gilded Gate@AzjolNerub","AzjolNerub","The Gilded Gate")
-DefineDungeonArea( 534, 1,"The Vestibules of Drak'Tharon@DrakTharonKeep","DrakTharonKeep","The Vestibules of Drak'Tharon")
-DefineDungeonArea( 534, 2,"Drak'Tharon Overlook@DrakTharonKeep","DrakTharonKeep","Drak'Tharon Overlook")
-DefineDungeonArea( 535, 1,"The Construct Quarter@Naxxramas","Naxxramas","The Construct Quarter")
-DefineDungeonArea( 535, 2,"The Arachnid Quarter@Naxxramas","Naxxramas","The Arachnid Quarter")
-DefineDungeonArea( 535, 3,"The Military Quarter@Naxxramas","Naxxramas","The Military Quarter")
-DefineDungeonArea( 535, 4,"The Plague Quarter@Naxxramas","Naxxramas","The Plague Quarter")
-DefineDungeonArea( 535, 5,"The Lower Necropolis@Naxxramas","Naxxramas","The Lower Necropolis")
-DefineDungeonArea( 535, 6,"The Upper Necropolis@Naxxramas","Naxxramas","The Upper Necropolis")
-DefineDungeonArea( 536, 1,"The Violet Hold@VioletHold","VioletHold","The Violet Hold")
-DefineDungeonArea( 543, 1,"The Argent Coliseum@TheArgentColiseum","TheArgentColiseum","The Argent Coliseum")
-DefineDungeonArea( 543, 2,"The Icy Depths@TheArgentColiseum","TheArgentColiseum","The Icy Depths")
-DefineDungeonArea( 545, 2,"Main Floor@Gilneas","Gilneas","Main Floor")
-DefineDungeonArea( 545, 3,"Upper Floor@Gilneas","Gilneas","Upper Floor")
-DefineDungeonArea( 601, 1,"The Forge of Souls@TheForgeofSouls","TheForgeofSouls","The Forge of Souls")
-DefineDungeonArea( 602, 1,"Pit of Saron@PitofSaron","PitofSaron","Pit of Saron")
-DefineDungeonArea( 603, 1,"Halls of Reflection@HallsofReflection","HallsofReflection","Halls of Reflection")
-DefineDungeonArea( 604, 1,"The Lower Citadel@IcecrownCitadel","IcecrownCitadel","The Lower Citadel")
-DefineDungeonArea( 604, 2,"The Rampart of Skulls@IcecrownCitadel","IcecrownCitadel","The Rampart of Skulls")
-DefineDungeonArea( 604, 3,"Deathbringer's Rise@IcecrownCitadel","IcecrownCitadel","Deathbringer's Rise")
-DefineDungeonArea( 604, 4,"The Frost Queen's Lair@IcecrownCitadel","IcecrownCitadel","The Frost Queen's Lair")
-DefineDungeonArea( 604, 5,"The Upper Reaches@IcecrownCitadel","IcecrownCitadel","The Upper Reaches")
-DefineDungeonArea( 604, 6,"Royal Quarters@IcecrownCitadel","IcecrownCitadel","Royal Quarters")
-DefineDungeonArea( 604, 7,"The Frozen Throne@IcecrownCitadel","IcecrownCitadel","The Frozen Throne")
-DefineDungeonArea( 604, 8,"Frostmourne@IcecrownCitadel","IcecrownCitadel","Frostmourne")
-DefineDungeonArea( 678, 1,"Emberstone Mine@Gilneas_terrain1","Gilneas_terrain1","Emberstone Mine")
-DefineDungeonArea( 678, 2,"Main Floor@Gilneas_terrain1","Gilneas_terrain1","Main Floor")
-DefineDungeonArea( 678, 3,"Upper Floor@Gilneas_terrain1","Gilneas_terrain1","Upper Floor")
-DefineDungeonArea( 679, 2,"Main Floor@Gilneas_terrain2","Gilneas_terrain2","Main Floor")
-DefineDungeonArea( 679, 3,"Upper Floor@Gilneas_terrain2","Gilneas_terrain2","Upper Floor")
-DefineDungeonArea( 680, 1,"Ragefire Chasm@Ragefire","Ragefire","Ragefire Chasm")
-DefineDungeonArea( 687, 1,"The Temple of Atal' Hakkar@TheTempleOfAtalHakkar","TheTempleOfAtalHakkar","The Temple of Atal' Hakkar")
-DefineDungeonArea( 688, 1,"The Pool of Ask'Ar@BlackfathomDeeps","BlackfathomDeeps","The Pool of Ask'Ar")
-DefineDungeonArea( 688, 2,"Moonshrine Sanctum@BlackfathomDeeps","BlackfathomDeeps","Moonshrine Sanctum")
-DefineDungeonArea( 688, 3,"The Forgotten Pool@BlackfathomDeeps","BlackfathomDeeps","The Forgotten Pool")
-DefineDungeonArea( 690, 1,"Stormwind Stockade@TheStockade","TheStockade","Stormwind Stockade")
-DefineDungeonArea( 691, 1,"The Hall of Gears@Gnomeregan","Gnomeregan","The Hall of Gears")
-DefineDungeonArea( 691, 2,"The Dormitory@Gnomeregan","Gnomeregan","The Dormitory")
-DefineDungeonArea( 691, 3,"Launch Bay@Gnomeregan","Gnomeregan","Launch Bay")
-DefineDungeonArea( 691, 4,"Tinkers' Court@Gnomeregan","Gnomeregan","Tinkers' Court")
-DefineDungeonArea( 692, 1,"Hall of the Keepers@Uldaman","Uldaman","Hall of the Keepers")
-DefineDungeonArea( 692, 2,"Khaz'Goroth's Seat@Uldaman","Uldaman","Khaz'Goroth's Seat")
-DefineDungeonArea( 696, 1,"The Molten Core@MoltenCore","MoltenCore","The Molten Core")
-DefineDungeonArea( 699, 1,"Gordok Commons@DireMaul","DireMaul","Gordok Commons")
-DefineDungeonArea( 699, 2,"Capital Gardens@DireMaul","DireMaul","Capital Gardens")
-DefineDungeonArea( 699, 3,"Court of the Highborne@DireMaul","DireMaul","Court of the Highborne")
-DefineDungeonArea( 699, 4,"Prison of Immol'Thar@DireMaul","DireMaul","Prison of Immol'Thar")
-DefineDungeonArea( 699, 5,"Warpwood Quarter@DireMaul","DireMaul","Warpwood Quarter")
-DefineDungeonArea( 699, 6,"The Shrine of Eldretharr@DireMaul","DireMaul","The Shrine of Eldretharr")
-DefineDungeonArea( 704, 1,"Detention Block@BlackrockDepths","BlackrockDepths","Detention Block")
-DefineDungeonArea( 704, 2,"Shadowforge City@BlackrockDepths","BlackrockDepths","Shadowforge City")
-DefineDungeonArea( 710, 1,"The Shattered Halls@TheShatteredHalls","TheShatteredHalls","The Shattered Halls")
-DefineDungeonArea( 717, 1,"Ruins of Ahn'Qiraj@RuinsofAhnQiraj","RuinsofAhnQiraj","Ruins of Ahn'Qiraj")
-DefineDungeonArea( 718, 1,"Onyxia's Lair@OnyxiasLair","OnyxiasLair","Onyxia's Lair")
-DefineDungeonArea( 721, 1,"Tazz'Alor@BlackrockSpire","BlackrockSpire","Tazz'Alor")
-DefineDungeonArea( 721, 2,"Skitterweb Tunnels@BlackrockSpire","BlackrockSpire","Skitterweb Tunnels")
-DefineDungeonArea( 721, 3,"Hordemar City@BlackrockSpire","BlackrockSpire","Hordemar City")
-DefineDungeonArea( 721, 4,"Hall of Blackhand@BlackrockSpire","BlackrockSpire","Hall of Blackhand")
-DefineDungeonArea( 721, 5,"Halycon's Lair@BlackrockSpire","BlackrockSpire","Halycon's Lair")
-DefineDungeonArea( 721, 6,"Chamber of Battle@BlackrockSpire","BlackrockSpire","Chamber of Battle")
-DefineDungeonArea( 722, 1,"Halls of the Hereafter@AuchenaiCrypts","AuchenaiCrypts","Halls of the Hereafter")
-DefineDungeonArea( 722, 2,"Bridge of Souls@AuchenaiCrypts","AuchenaiCrypts","Bridge of Souls")
-DefineDungeonArea( 723, 1,"Veil Sethekk@SethekkHalls","SethekkHalls","Veil Sethekk")
-DefineDungeonArea( 723, 2,"Halls of Mourning@SethekkHalls","SethekkHalls","Halls of Mourning")
-DefineDungeonArea( 724, 1,"Shadow Labyrinth@ShadowLabyrinth","ShadowLabyrinth","Shadow Labyrinth")
-DefineDungeonArea( 725, 1,"The Blood Furnace@TheBloodFurnace","TheBloodFurnace","The Blood Furnace")
-DefineDungeonArea( 726, 1,"The Underbog@TheUnderbog","TheUnderbog","The Underbog")
-DefineDungeonArea( 727, 1,"The Steamvault@TheSteamvault","TheSteamvault","The Steamvault")
-DefineDungeonArea( 727, 2,"The Cooling Pools@TheSteamvault","TheSteamvault","The Cooling Pools")
-DefineDungeonArea( 728, 1,"The Slave Pens@TheSlavePens","TheSlavePens","The Slave Pens")
-DefineDungeonArea( 729, 1,"The Botanica@TheBotanica","TheBotanica","The Botanica")
-DefineDungeonArea( 730, 1,"The Mechanar@TheMechanar","TheMechanar","The Mechanar")
-DefineDungeonArea( 730, 2,"Calculation Chamber@TheMechanar","TheMechanar","Calculation Chamber")
-DefineDungeonArea( 731, 1,"Stasis Block: Trion@TheArcatraz","TheArcatraz","Stasis Block: Trion")
-DefineDungeonArea( 731, 2,"Stasis Block: Maximus@TheArcatraz","TheArcatraz","Stasis Block: Maximus")
-DefineDungeonArea( 731, 3,"Containment Core@TheArcatraz","TheArcatraz","Containment Core")
-DefineDungeonArea( 732, 1,"Mana Tombs@ManaTombs","ManaTombs","Mana Tombs")
-DefineDungeonArea( 733, 1,"The Black Morass@CoTTheBlackMorass","CoTTheBlackMorass","The Black Morass")
-DefineDungeonArea( 734, 1,"Old Hillsbrad@CoTHillsbradFoothills","CoTHillsbradFoothills","Old Hillsbrad")
-DefineDungeonArea( 747, 1,"Lost City of the Tol'Vir@LostCityofTolvir","LostCityofTolvir","Lost City of the Tol'Vir")
-DefineDungeonArea( 749, 1,"Wailing Caverns@WailingCaverns","WailingCaverns","Wailing Caverns")
-DefineDungeonArea( 750, 1,"Caverns of Maraudon@Maraudon","Maraudon","Caverns of Maraudon")
-DefineDungeonArea( 750, 2,"Zaetar's Grave@Maraudon","Maraudon","Zaetar's Grave")
-DefineDungeonArea( 752, 1,"Baradin Hold@BaradinHold","BaradinHold","Baradin Hold")
-DefineDungeonArea( 753, 1,"Chamber of Incineration@BlackrockCaverns","BlackrockCaverns","Chamber of Incineration")
-DefineDungeonArea( 753, 2,"Twilight Forge@BlackrockCaverns","BlackrockCaverns","Twilight Forge")
-DefineDungeonArea( 754, 1,"The Broken Hall@BlackwingDescent","BlackwingDescent","The Broken Hall")
-DefineDungeonArea( 754, 2,"Vault of the Shadowflame@BlackwingDescent","BlackwingDescent","Vault of the Shadowflame")
-DefineDungeonArea( 755, 1,"Dragonmaw Garrison@BlackwingLair","BlackwingLair","Dragonmaw Garrison")
-DefineDungeonArea( 755, 2,"Halls of Strife@BlackwingLair","BlackwingLair","Halls of Strife")
-DefineDungeonArea( 755, 3,"Crimson Laboratories@BlackwingLair","BlackwingLair","Crimson Laboratories")
-DefineDungeonArea( 755, 4,"Nefarian's Lair@BlackwingLair","BlackwingLair","Nefarian's Lair")
-DefineDungeonArea( 756, 1,"The Deadmines@TheDeadmines","TheDeadmines","The Deadmines")
-DefineDungeonArea( 756, 2,"Ironclad Cove@TheDeadmines","TheDeadmines","Ironclad Cove")
-DefineDungeonArea( 757, 1,"Grim Batol@GrimBatol","GrimBatol","Grim Batol")
-DefineDungeonArea( 758, 1,"The Twilight Enclave@TheBastionofTwilight","TheBastionofTwilight","The Twilight Enclave")
-DefineDungeonArea( 758, 2,"Throne of the Apocalypse@TheBastionofTwilight","TheBastionofTwilight","Throne of the Apocalypse")
-DefineDungeonArea( 758, 3,"The Twilight Caverns@TheBastionofTwilight","TheBastionofTwilight","The Twilight Caverns")
-DefineDungeonArea( 759, 1,"The Vault of Lights@HallsofOrigination","HallsofOrigination","The Vault of Lights")
-DefineDungeonArea( 759, 2,"Tomb of the Earthrager@HallsofOrigination","HallsofOrigination","Tomb of the Earthrager")
-DefineDungeonArea( 759, 3,"The Four Seats@HallsofOrigination","HallsofOrigination","The Four Seats")
-DefineDungeonArea( 760, 1,"Razorfen Downs@RazorfenDowns","RazorfenDowns","Razorfen Downs")
-DefineDungeonArea( 761, 1,"Razorfen Kraul@RazorfenKraul","RazorfenKraul","Razorfen Kraul")
-DefineDungeonArea( 762, 1,"Floor1@ScarletMonastery","ScarletMonastery","Floor1")
-DefineDungeonArea( 762, 2,"Floor2@ScarletMonastery","ScarletMonastery","Floor2")
-DefineDungeonArea( 762, 3,"Floor3@ScarletMonastery","ScarletMonastery","Floor3")
-DefineDungeonArea( 762, 4,"Floor4@ScarletMonastery","ScarletMonastery","Floor4")
-DefineDungeonArea( 764, 1,"The Courtyard@ShadowfangKeep","ShadowfangKeep","The Courtyard")
-DefineDungeonArea( 764, 2,"Dining Hall@ShadowfangKeep","ShadowfangKeep","Dining Hall")
-DefineDungeonArea( 764, 3,"The Vacant Den@ShadowfangKeep","ShadowfangKeep","The Vacant Den")
-DefineDungeonArea( 764, 4,"Lower Observatory@ShadowfangKeep","ShadowfangKeep","Lower Observatory")
-DefineDungeonArea( 764, 5,"Upper Observatory@ShadowfangKeep","ShadowfangKeep","Upper Observatory")
-DefineDungeonArea( 764, 6,"Lord Godfrey's Chamber@ShadowfangKeep","ShadowfangKeep","Lord Godfrey's Chamber")
-DefineDungeonArea( 764, 7,"The Wall Walk@ShadowfangKeep","ShadowfangKeep","The Wall Walk")
-DefineDungeonArea( 765, 1,"Crusader's Square@Stratholme","Stratholme","Crusader's Square")
-DefineDungeonArea( 765, 2,"The Gauntlet@Stratholme","Stratholme","The Gauntlet")
-DefineDungeonArea( 766, 1,"The Hive Undergrounds@AhnQiraj","AhnQiraj","The Hive Undergrounds")
-DefineDungeonArea( 766, 2,"The Temple Gates@AhnQiraj","AhnQiraj","The Temple Gates")
-DefineDungeonArea( 766, 3,"Vault of C'Thun@AhnQiraj","AhnQiraj","Vault of C'Thun")
-DefineDungeonArea( 767, 1,"Abyssal Halls@ThroneofTides","ThroneofTides","Abyssal Halls")
-DefineDungeonArea( 767, 2,"Throne of Neptulon@ThroneofTides","ThroneofTides","Throne of Neptulon")
-DefineDungeonArea( 768, 1,"The Stonecore@TheStonecore","TheStonecore","The Stonecore")
-DefineDungeonArea( 769, 1,"The Vortex Pinnacle@Skywall","Skywall","The Vortex Pinnacle")
-DefineDungeonArea( 775, 1,"Battle for Mount Hyjal@CoTMountHyjal","CoTMountHyjal","Battle for Mount Hyjal")
-DefineDungeonArea( 776, 1,"Gruul's Lair@GruulsLair","GruulsLair","Gruul's Lair")
-DefineDungeonArea( 779, 1,"Magtheridon's Lair@MagtheridonsLair","MagtheridonsLair","Magtheridon's Lair")
-DefineDungeonArea( 780, 1,"Serpentshrine Cavern@CoilfangReservoir","CoilfangReservoir","Serpentshrine Cavern")
-DefineDungeonArea( 781, 1,"Zul'Aman@ZulAman","ZulAman","Zul'Aman")
-DefineDungeonArea( 782, 1,"The Eye@TempestKeep","TempestKeep","The Eye")
-DefineDungeonArea( 789, 1,"Sunwell Plateau@SunwellPlateau","SunwellPlateau","Sunwell Plateau")
-DefineDungeonArea( 789, 2,"Shrine of the Eclipse@SunwellPlateau","SunwellPlateau","Shrine of the Eclipse")
-DefineDungeonArea( 793, 1,"Zul'Gurub@ZulGurub","ZulGurub","Zul'Gurub")
-DefineDungeonArea( 796, 1,"Illidari Training Grounds@BlackTemple","BlackTemple","Illidari Training Grounds")
-DefineDungeonArea( 796, 2,"Karabor Sewers@BlackTemple","BlackTemple","Karabor Sewers")
-DefineDungeonArea( 796, 3,"Sanctuary of Shadows@BlackTemple","BlackTemple","Sanctuary of Shadows")
-DefineDungeonArea( 796, 4,"Halls of Anguish@BlackTemple","BlackTemple","Halls of Anguish")
-DefineDungeonArea( 796, 5,"Gorefiend's Vigil@BlackTemple","BlackTemple","Gorefiend's Vigil")
-DefineDungeonArea( 796, 6,"Den of Mortal Delights@BlackTemple","BlackTemple","Den of Mortal Delights")
-DefineDungeonArea( 796, 7,"Chamber of Command@BlackTemple","BlackTemple","Chamber of Command")
-DefineDungeonArea( 797, 1,"Hellfire Ramparts@HellfireRamparts","HellfireRamparts","Hellfire Ramparts")
-DefineDungeonArea( 798, 1,"Grand Magister's Asylum@MagistersTerrace","MagistersTerrace","Grand Magister's Asylum")
-DefineDungeonArea( 798, 2,"Observation Grounds@MagistersTerrace","MagistersTerrace","Observation Grounds")
-DefineDungeonArea( 799, 1,"Servant's Quarters@Karazhan","Karazhan","Servant's Quarters")
-DefineDungeonArea( 799, 2,"Upper Livery Stables@Karazhan","Karazhan","Upper Livery Stables")
-DefineDungeonArea( 799, 3,"The Banquet Hall@Karazhan","Karazhan","The Banquet Hall")
-DefineDungeonArea( 799, 4,"The Guest Chambers@Karazhan","Karazhan","The Guest Chambers")
-DefineDungeonArea( 799, 5,"Opera Hall Balcony@Karazhan","Karazhan","Opera Hall Balcony")
-DefineDungeonArea( 799, 6,"Master's Terrace@Karazhan","Karazhan","Master's Terrace")
-DefineDungeonArea( 799, 7,"Lower Broken Stair@Karazhan","Karazhan","Lower Broken Stair")
-DefineDungeonArea( 799, 8,"Upper Broken Stair@Karazhan","Karazhan","Upper Broken Stair")
-DefineDungeonArea( 799, 9,"The Menagerie@Karazhan","Karazhan","The Menagerie")
-DefineDungeonArea( 799,10,"Guardian's Library@Karazhan","Karazhan","Guardian's Library")
-DefineDungeonArea( 799,11,"The Repository@Karazhan","Karazhan","The Repository")
-DefineDungeonArea( 799,12,"Upper Library@Karazhan","Karazhan","Upper Library")
-DefineDungeonArea( 799,13,"The Celestial Watch@Karazhan","Karazhan","The Celestial Watch")
-DefineDungeonArea( 799,14,"Gamesman's Hall@Karazhan","Karazhan","Gamesman's Hall")
-DefineDungeonArea( 799,15,"Medivh's Chambers@Karazhan","Karazhan","Medivh's Chambers")
-DefineDungeonArea( 799,16,"The Power Station@Karazhan","Karazhan","The Power Station")
-DefineDungeonArea( 799,17,"Netherspace@Karazhan","Karazhan","Netherspace")
-DefineDungeonArea( 800, 1,"The Firelands@Firelands","Firelands","The Firelands")
-DefineDungeonArea( 800, 2,"The Anvil of Conflagration@Firelands","Firelands","The Anvil of Conflagration")
-DefineDungeonArea( 803, 1,"The Nexus@TheNexusLegendary","TheNexusLegendary","The Nexus")
-DefineDungeonArea( 819, 1,"Hour of Twilight@HourofTwilight","HourofTwilight","Hour of Twilight")
-DefineDungeonArea( 819, 2,"Wyrmrest Temple@HourofTwilight","HourofTwilight","Wyrmrest Temple")
-DefineDungeonArea( 820, 1,"Entryway of Time@EndTime","EndTime","Entryway of Time")
-DefineDungeonArea( 820, 2,"Azure Dragonshrine@EndTime","EndTime","Azure Dragonshrine")
-DefineDungeonArea( 820, 3,"Ruby Dragonshrine@EndTime","EndTime","Ruby Dragonshrine")
-DefineDungeonArea( 820, 4,"Obsidian Dragonshrine@EndTime","EndTime","Obsidian Dragonshrine")
-DefineDungeonArea( 820, 5,"Emerald Dragonshrine@EndTime","EndTime","Emerald Dragonshrine")
-DefineDungeonArea( 824, 1,"Dragonblight@DragonSoul","DragonSoul","Dragonblight")
-DefineDungeonArea( 824, 2,"Maw of Go'rath@DragonSoul","DragonSoul","Maw of Go'rath")
-DefineDungeonArea( 824, 3,"Maw of Shu'ma@DragonSoul","DragonSoul","Maw of Shu'ma")
-DefineDungeonArea( 824, 4,"Eye of Eternity@DragonSoul","DragonSoul","Eye of Eternity")
-DefineDungeonArea( 824, 5,"Skyfire Airship@DragonSoul","DragonSoul","Skyfire Airship")
-DefineDungeonArea( 824, 6,"Spine of Deathwing@DragonSoul","DragonSoul","Spine of Deathwing")
-DefineDungeonArea( 860, 1,"Silvershard Mines@STVDiamondMineBG","STVDiamondMineBG","Silvershard Mines")
-DefineDungeonArea( 864, 3,"Echo Ridge Mine@Northshire","Northshire","Echo Ridge Mine")
-DefineDungeonArea( 866, 9,"Frostmane Hovel@ColdridgeValley","ColdridgeValley","Frostmane Hovel")
-DefineDungeonArea( 867, 1,"Temple of the Jade Serpent@EastTemple","EastTemple","Temple of the Jade Serpent")
-DefineDungeonArea( 867, 2,"The Scrollkeeper's Sanctum@EastTemple","EastTemple","The Scrollkeeper's Sanctum")
-DefineDungeonArea( 871, 1,"Training Grounds@ScarletHalls","ScarletHalls","Training Grounds")
-DefineDungeonArea( 871, 2,"Athenaeum@ScarletHalls","ScarletHalls","Athenaeum")
-DefineDungeonArea( 874, 1,"Forlorn Cloister@ScarletCathedral","ScarletCathedral","Forlorn Cloister")
-DefineDungeonArea( 874, 2,"Crusader's Chapel@ScarletCathedral","ScarletCathedral","Crusader's Chapel")
-DefineDungeonArea( 875, 1,"Gate of the Setting Sun@TheGreatWall","TheGreatWall","Gate of the Setting Sun")
-DefineDungeonArea( 875, 2,"Gate Watch Tower@TheGreatWall","TheGreatWall","Gate Watch Tower")
-DefineDungeonArea( 876, 1,"Grain Cellar@StormstoutBrewery","StormstoutBrewery","Grain Cellar")
-DefineDungeonArea( 876, 2,"Stormstout Brewhall@StormstoutBrewery","StormstoutBrewery","Stormstout Brewhall")
-DefineDungeonArea( 876, 3,"The Great Wheel@StormstoutBrewery","StormstoutBrewery","The Great Wheel")
-DefineDungeonArea( 876, 4,"The Tasting Room@StormstoutBrewery","StormstoutBrewery","The Tasting Room")
-DefineDungeonArea( 877, 1,"Shado-Pan Monastery@ShadowpanHideout","ShadowpanHideout","Shado-Pan Monastery")
-DefineDungeonArea( 877, 2,"Cloudstrike Dojo@ShadowpanHideout","ShadowpanHideout","Cloudstrike Dojo")
-DefineDungeonArea( 877, 3,"Snowdrift Dojo@ShadowpanHideout","ShadowpanHideout","Snowdrift Dojo")
-DefineDungeonArea( 878, 1,"Lightning Lager@BrewmasterScenario01","BrewmasterScenario01","Lightning Lager")
-DefineDungeonArea( 878, 2,"A Brewing Storm@BrewmasterScenario01","BrewmasterScenario01","A Brewing Storm")
-DefineDungeonArea( 880, 1,"Greenstone Village@TheJadeForestScenario","TheJadeForestScenario","Greenstone Village")
-DefineDungeonArea( 880, 2,"Burgled Brew@TheJadeForestScenario","TheJadeForestScenario","Burgled Brew")
-DefineDungeonArea( 881, 1,"Temple of Katmogu@ValleyOfPowerScenario","ValleyOfPowerScenario","Temple of Katmogu")
-DefineDungeonArea( 881, 2,"Temple of Kotmogu@ValleyOfPowerScenario","ValleyOfPowerScenario","Temple of Kotmogu")
-DefineDungeonArea( 882, 1,"Unga Ingoo@BrewmasterScenario03","BrewmasterScenario03","Unga Ingoo")
-DefineDungeonArea( 882, 2,"Big Beach Brew Bash@BrewmasterScenario03","BrewmasterScenario03","Big Beach Brew Bash")
-DefineDungeonArea( 883, 1,"Raid on Tyr'vess@Tyrivess","Tyrivess","Raid on Tyr'vess")
-DefineDungeonArea( 883, 2,"Assault on Zan'Vess@Tyrivess","Tyrivess","Assault on Zan'Vess")
-DefineDungeonArea( 884, 2,"Brewmoon Festival@KunLaiPassScenario","KunLaiPassScenario","Brewmoon Festival")
-DefineDungeonArea( 885, 1,"The Crimson Assembly Hall@MogushanPalace","MogushanPalace","The Crimson Assembly Hall")
-DefineDungeonArea( 885, 2,"Vaults of Kings Past@MogushanPalace","MogushanPalace","Vaults of Kings Past")
-DefineDungeonArea( 885, 3,"Throne of Ancient Conquerors@MogushanPalace","MogushanPalace","Throne of Ancient Conquerors")
-DefineDungeonArea( 886, 1,"Terrace of Endless Spring@TerraceOfEndlessSpring","TerraceOfEndlessSpring","Terrace of Endless Spring")
-DefineDungeonArea( 887, 1,"Forward Assault Camp@SiegeofNiuzaoTemple","SiegeofNiuzaoTemple","Forward Assault Camp")
-DefineDungeonArea( 887, 2,"The Hollowed Out Tree@SiegeofNiuzaoTemple","SiegeofNiuzaoTemple","The Hollowed Out Tree")
-DefineDungeonArea( 891, 9,"Spitescale Cavern@EchoIslesStart","EchoIslesStart","Spitescale Cavern")
-DefineDungeonArea( 892,12,"Night Web's Hollow@DeathknellStart","DeathknellStart","Night Web's Hollow")
-DefineDungeonArea( 896, 1,"Dais of Conquerors@MogushanVaults","MogushanVaults","Dais of Conquerors")
-DefineDungeonArea( 896, 2,"The Repository@MogushanVaults","MogushanVaults","The Repository")
-DefineDungeonArea( 896, 3,"Forge of the Endless@MogushanVaults","MogushanVaults","Forge of the Endless")
-DefineDungeonArea( 897, 1,"Oratorium of the Voice@HeartofFear","HeartofFear","Oratorium of the Voice")
-DefineDungeonArea( 897, 2,"Heart of Fear@HeartofFear","HeartofFear","Heart of Fear")
-DefineDungeonArea( 898, 1,"The Reliquary@Scholomance","Scholomance","The Reliquary")
-DefineDungeonArea( 898, 2,"Chamber of Summoning@Scholomance","Scholomance","Chamber of Summoning")
-DefineDungeonArea( 898, 3,"The Upper Study@Scholomance","Scholomance","The Upper Study")
-DefineDungeonArea( 898, 4,"Headmaster's Study@Scholomance","Scholomance","Headmaster's Study")
-DefineDungeonArea( 899, 1,"Arena of Annihilation@ProvingGrounds","ProvingGrounds","Arena of Annihilation")
-DefineDungeonArea( 900, 1,"Upper Burial Chamber@AncientMoguCrypt","AncientMoguCrypt","Upper Burial Chamber")
-DefineDungeonArea( 900, 2,"Crypt Depths@AncientMoguCrypt","AncientMoguCrypt","Crypt Depths")
-DefineDungeonArea( 905, 1,"Hall of the Crescent Moon@ValeofEternalBlossoms","ValeofEternalBlossoms","Hall of the Crescent Moon")
-DefineDungeonArea( 905, 2,"The Imperial Mercantile@ValeofEternalBlossoms","ValeofEternalBlossoms","The Imperial Mercantile")
-DefineDungeonArea( 905, 3,"The Emperor's Step@ValeofEternalBlossoms","ValeofEternalBlossoms","The Emperor's Step")
-DefineDungeonArea( 905, 4,"The Imperial Exchange@ValeofEternalBlossoms","ValeofEternalBlossoms","The Imperial Exchange")
-DefineDungeonArea( 914, 1,"The Hidden Pass@VoljinScenario","VoljinScenario","The Hidden Pass")
-DefineDungeonArea( 914, 2,"The Ancient Passage@VoljinScenario","VoljinScenario","The Ancient Passage")
-DefineDungeonArea( 919, 1,"Illidari Training Grounds@BlackTempleScenario","BlackTempleScenario","Illidari Training Grounds")
-DefineDungeonArea( 919, 2,"Karabor Sewers@BlackTempleScenario","BlackTempleScenario","Karabor Sewers")
-DefineDungeonArea( 919, 3,"Sanctuary of Shadows@BlackTempleScenario","BlackTempleScenario","Sanctuary of Shadows")
-DefineDungeonArea( 919, 4,"Halls of Anguish@BlackTempleScenario","BlackTempleScenario","Halls of Anguish")
-DefineDungeonArea( 919, 5,"Gorefiend's Vigil@BlackTempleScenario","BlackTempleScenario","Gorefiend's Vigil")
-DefineDungeonArea( 919, 6,"Den of Mortal Delights@BlackTempleScenario","BlackTempleScenario","Den of Mortal Delights")
-DefineDungeonArea( 919, 7,"Chamber of Command@BlackTempleScenario","BlackTempleScenario","Chamber of Command")
-DefineDungeonArea( 922, 1,"Deeprun Tram@DeeprunTram","DeeprunTram","Deeprun Tram")
-DefineDungeonArea( 922, 2,"Bizmo's Brawlpub@DeeprunTram","DeeprunTram","Bizmo's Brawlpub")
-DefineDungeonArea( 924, 1,"Dalaran City@DalaranCity","DalaranCity","Dalaran City")
-DefineDungeonArea( 924, 2,"The Underbelly@DalaranCity","DalaranCity","The Underbelly")
-DefineDungeonArea( 930, 1,"Overgrown Statuary@ThunderKingRaid","ThunderKingRaid","Overgrown Statuary")
-DefineDungeonArea( 930, 2,"Royal Amphitheater@ThunderKingRaid","ThunderKingRaid","Royal Amphitheater")
-DefineDungeonArea( 930, 3,"Forgotten Depths@ThunderKingRaid","ThunderKingRaid","Forgotten Depths")
-DefineDungeonArea( 930, 4,"Roost of Ji-Kun@ThunderKingRaid","ThunderKingRaid","Roost of Ji-Kun")
-DefineDungeonArea( 930, 5,"Halls of Flesh-Shaping@ThunderKingRaid","ThunderKingRaid","Halls of Flesh-Shaping")
-DefineDungeonArea( 930, 6,"Hall of Kings@ThunderKingRaid","ThunderKingRaid","Hall of Kings")
-DefineDungeonArea( 930, 7,"Pinnacle of Storms@ThunderKingRaid","ThunderKingRaid","Pinnacle of Storms")
-DefineDungeonArea( 930, 8,"Hidden Cell@ThunderKingRaid","ThunderKingRaid","Hidden Cell")
-DefineDungeonArea( 953, 1,"Scarred Vale@OrgrimmarRaid","OrgrimmarRaid","Scarred Vale")
-DefineDungeonArea( 953, 2,"Pools of Power@OrgrimmarRaid","OrgrimmarRaid","Pools of Power")
-DefineDungeonArea( 953, 3,"Vault of Y'Shaarj@OrgrimmarRaid","OrgrimmarRaid","Vault of Y'Shaarj")
-DefineDungeonArea( 953, 4,"Gates of Orgrimmar@OrgrimmarRaid","OrgrimmarRaid","Gates of Orgrimmar")
-DefineDungeonArea( 953, 5,"The Valley of Strength@OrgrimmarRaid","OrgrimmarRaid","The Valley of Strength")
-DefineDungeonArea( 953, 6,"The Cleft of Shadow@OrgrimmarRaid","OrgrimmarRaid","The Cleft of Shadow")
-DefineDungeonArea( 953, 7,"The Descent@OrgrimmarRaid","OrgrimmarRaid","The Descent")
-DefineDungeonArea( 953, 8,"Kor'Kron Barracks@OrgrimmarRaid","OrgrimmarRaid","Kor'Kron Barracks")
-DefineDungeonArea( 953, 9,"The Menagerie@OrgrimmarRaid","OrgrimmarRaid","The Menagerie")
-DefineDungeonArea( 953,10,"The Siegeworks@OrgrimmarRaid","OrgrimmarRaid","The Siegeworks")
-DefineDungeonArea( 953,11,"Chamber of the Paragons@OrgrimmarRaid","OrgrimmarRaid","Chamber of the Paragons")
-DefineDungeonArea( 953,12,"The Inner Sanctum@OrgrimmarRaid","OrgrimmarRaid","The Inner Sanctum")
-DefineDungeonArea( 953,13,"Terrace of Endless Spring@OrgrimmarRaid","OrgrimmarRaid","Terrace of Endless Spring")
-DefineDungeonArea( 953,14,"Temple of the Jade Serpent@OrgrimmarRaid","OrgrimmarRaid","Temple of the Jade Serpent")
-DefineDungeonArea( 969, 1,"Crypt of the Ancients@ShadowmoonDungeon","ShadowmoonDungeon","Crypt of the Ancients")
-DefineDungeonArea( 969, 2,"Altar of Shadow@ShadowmoonDungeon","ShadowmoonDungeon","Altar of Shadow")
-DefineDungeonArea( 969, 3,"Edge of Reality@ShadowmoonDungeon","ShadowmoonDungeon","Edge of Reality")
-DefineDungeonArea( 988, 1,"The Black Forge@FoundryRaid","FoundryRaid","The Black Forge")
-DefineDungeonArea( 988, 2,"Slagworks@FoundryRaid","FoundryRaid","Slagworks")
-DefineDungeonArea( 988, 3,"The Workshop@FoundryRaid","FoundryRaid","The Workshop")
-DefineDungeonArea( 988, 4,"Iron Assembly@FoundryRaid","FoundryRaid","Iron Assembly")
-DefineDungeonArea( 988, 5,"The Crucible@FoundryRaid","FoundryRaid","The Crucible")
-DefineDungeonArea( 989, 1,"Lower Quarter@SpiresofArakDungeon","SpiresofArakDungeon","Lower Quarter")
-DefineDungeonArea( 989, 2,"Grand Spire@SpiresofArakDungeon","SpiresofArakDungeon","Grand Spire")
-DefineDungeonArea( 993, 1,"Train Depot@BlackrockTrainDepotDungeon","BlackrockTrainDepotDungeon","Train Depot")
-DefineDungeonArea( 993, 2,"Rafters@BlackrockTrainDepotDungeon","BlackrockTrainDepotDungeon","Rafters")
-DefineDungeonArea( 993, 3,"Rear Train Cars@BlackrockTrainDepotDungeon","BlackrockTrainDepotDungeon","Rear Train Cars")
-DefineDungeonArea( 993, 4,"Forward Train Cars@BlackrockTrainDepotDungeon","BlackrockTrainDepotDungeon","Forward Train Cars")
-DefineDungeonArea( 994, 1,"Path of Victors@HighmaulRaid","HighmaulRaid","Path of Victors")
-DefineDungeonArea( 994, 2,"Gladiator's Rest@HighmaulRaid","HighmaulRaid","Gladiator's Rest")
-DefineDungeonArea( 994, 3,"The Coliseum@HighmaulRaid","HighmaulRaid","The Coliseum")
-DefineDungeonArea( 994, 4,"Chamber of Nullification@HighmaulRaid","HighmaulRaid","Chamber of Nullification")
-DefineDungeonArea( 994, 5,"Imperator's Rise@HighmaulRaid","HighmaulRaid","Imperator's Rise")
-DefineDungeonArea( 995, 1,"Dragonspire Hall@UpperBlackrockSpire","UpperBlackrockSpire","Dragonspire Hall")
-DefineDungeonArea( 995, 2,"The Rookery@UpperBlackrockSpire","UpperBlackrockSpire","The Rookery")
-DefineDungeonArea( 995, 3,"Hall of Blackhand@UpperBlackrockSpire","UpperBlackrockSpire","Hall of Blackhand")
-DefineDungeonArea(1008, 1,"The Evergrowth@OvergrownOutpost","OvergrownOutpost","The Evergrowth")
-DefineDungeonArea(1008, 2,"The Overlook@OvergrownOutpost","OvergrownOutpost","The Overlook")
-DefineDungeonArea(1014, 1,"Floor1@Dalaran70","Dalaran70","Floor1")
-DefineDungeonArea(1014, 2,"Floor2@Dalaran70","Dalaran70","Floor2")
-DefineDungeonArea(1014, 3,"Floor3@Dalaran70","Dalaran70","Floor3")
-DefineDungeonArea(1014, 4,"The Hall of Shadows@Dalaran70","Dalaran70","The Hall of Shadows")
-DefineDungeonArea(1014, 5,"Floor5@Dalaran70","Dalaran70","Floor5")
-DefineDungeonArea(1014, 6,"Floor6@Dalaran70","Dalaran70","Floor6")
-DefineDungeonArea(1014, 7,"Floor7@Dalaran70","Dalaran70","Floor7")
-DefineDungeonArea(1014, 8,"Floor8@Dalaran70","Dalaran70","Floor8")
-DefineDungeonArea(1014, 9,"Floor9@Dalaran70","Dalaran70","Floor9")
-DefineDungeonArea(1014,10,"Dalaran@Dalaran70","Dalaran70","Dalaran")
-DefineDungeonArea(1014,11,"The Underbelly@Dalaran70","Dalaran70","The Underbelly")
-DefineDungeonArea(1014,12,"Aegwynn's Gallery@Dalaran70","Dalaran70","Aegwynn's Gallery")
-DefineDungeonArea(1026, 1,"The Iron Bulwark@HellfireRaid","HellfireRaid","The Iron Bulwark")
-DefineDungeonArea(1026, 2,"Hellfire Antechamber@HellfireRaid","HellfireRaid","Hellfire Antechamber")
-DefineDungeonArea(1026, 3,"Hellfire Passage@HellfireRaid","HellfireRaid","Hellfire Passage")
-DefineDungeonArea(1026, 4,"Pits of Mannoroth@HellfireRaid","HellfireRaid","Pits of Mannoroth")
-DefineDungeonArea(1026, 5,"Court of Blood@HellfireRaid","HellfireRaid","Court of Blood")
-DefineDungeonArea(1026, 6,"Grommash's Torment@HellfireRaid","HellfireRaid","Grommash's Torment")
-DefineDungeonArea(1026, 7,"The Felborne Breach@HellfireRaid","HellfireRaid","The Felborne Breach")
-DefineDungeonArea(1026, 8,"Halls of the Sargerei@HellfireRaid","HellfireRaid","Halls of the Sargerei")
-DefineDungeonArea(1026, 9,"Destructor's Rise@HellfireRaid","HellfireRaid","Destructor's Rise")
-DefineDungeonArea(1028, 2,"Lower Soul Engine@MardumtheShatteredAbyss","MardumtheShatteredAbyss","Lower Soul Engine")
-DefineDungeonArea(1028, 3,"Upper Soul Engine@MardumtheShatteredAbyss","MardumtheShatteredAbyss","Upper Soul Engine")
-DefineDungeonArea(1032, 1,"Illidari Ward@VaultOfTheWardensDH","VaultOfTheWardensDH","Illidari Ward")
-DefineDungeonArea(1032, 2,"Vault of the Wardens@VaultOfTheWardensDH","VaultOfTheWardensDH","Vault of the Wardens")
-DefineDungeonArea(1032, 3,"The Warden's Court@VaultOfTheWardensDH","VaultOfTheWardensDH","The Warden's Court")
-DefineDungeonArea(1039, 1,"Lower Acherus@IcecrownCitadelDeathKnight","IcecrownCitadelDeathKnight","Lower Acherus")
-DefineDungeonArea(1039, 2,"Upper Acherus@IcecrownCitadelDeathKnight","IcecrownCitadelDeathKnight","Upper Acherus")
-DefineDungeonArea(1039, 3,"Icecrown Citadel@IcecrownCitadelDeathKnight","IcecrownCitadelDeathKnight","Icecrown Citadel")
-DefineDungeonArea(1039, 4,"The Frozen Throne@IcecrownCitadelDeathKnight","IcecrownCitadelDeathKnight","The Frozen Throne")
-DefineDungeonArea(1042, 1,"Helmouth Cliffs@HelheimDungeonDock","HelheimDungeonDock","Helmouth Cliffs")
-DefineDungeonArea(1042, 2,"The Hold@HelheimDungeonDock","HelheimDungeonDock","The Hold")
-DefineDungeonArea(1043, 1,"Floor1@HelheimDungeon","HelheimDungeon","Floor1")
-DefineDungeonArea(1043, 2,"Floor2@HelheimDungeon","HelheimDungeon","Floor2")
-DefineDungeonArea(1045, 1,"The Warden's Court@VaultOfTheWardens","VaultOfTheWardens","The Warden's Court")
-DefineDungeonArea(1045, 2,"Vault of the Wardens@VaultOfTheWardens","VaultOfTheWardens","Vault of the Wardens")
-DefineDungeonArea(1045, 3,"Vault of the Betrayer@VaultOfTheWardens","VaultOfTheWardens","Vault of the Betrayer")
-DefineDungeonArea(1058, 2,"Peak of Serenity@KunLaiSummitSCENARIO","KunLaiSummitSCENARIO","Peak of Serenity")
-DefineDungeonArea(1068, 1,"Hall of the Guardian@MageClassShrine","MageClassShrine","Hall of the Guardian")
-DefineDungeonArea(1068, 2,"The Guardian's Library@MageClassShrine","MageClassShrine","The Guardian's Library")
-DefineDungeonArea(1073, 1,"Upper Citadel@ArtifactSubtletyRogueAcquisition","ArtifactSubtletyRogueAcquisition","Upper Citadel")
-DefineDungeonArea(1073, 2,"Lower Citadel@ArtifactSubtletyRogueAcquisition","ArtifactSubtletyRogueAcquisition","Lower Citadel")
-DefineDungeonArea(1075, 1,"Abyssal Halls@AbyssalMawShamanAcquisition","AbyssalMawShamanAcquisition","Abyssal Halls")
-DefineDungeonArea(1075, 2,"Throne of Neptulon@AbyssalMawShamanAcquisition","AbyssalMawShamanAcquisition","Throne of Neptulon")
-DefineDungeonArea(1076, 1,"The Antechamber of Ulduar@UlduarMagni","UlduarMagni","The Antechamber of Ulduar")
-DefineDungeonArea(1076, 2,"The Spark of Imagination@UlduarMagni","UlduarMagni","The Spark of Imagination")
-DefineDungeonArea(1076, 3,"The Observation Ring@UlduarMagni","UlduarMagni","The Observation Ring")
-DefineDungeonArea(1081, 1,"The Ravenscrypt@BlackRookHoldDungeon","BlackRookHoldDungeon","The Ravenscrypt")
-DefineDungeonArea(1081, 2,"The Grand Hall@BlackRookHoldDungeon","BlackRookHoldDungeon","The Grand Hall")
-DefineDungeonArea(1081, 3,"Ravenshold@BlackRookHoldDungeon","BlackRookHoldDungeon","Ravenshold")
-DefineDungeonArea(1081, 4,"The Rook's Roost@BlackRookHoldDungeon","BlackRookHoldDungeon","The Rook's Roost")
-DefineDungeonArea(1081, 5,"Lord Ravencrest's Chamber@BlackRookHoldDungeon","BlackRookHoldDungeon","Lord Ravencrest's Chamber")
-DefineDungeonArea(1081, 6,"The Raven's Crown@BlackRookHoldDungeon","BlackRookHoldDungeon","The Raven's Crown")
-DefineDungeonArea(1087, 1,"Court of Stars@SuramarNoblesDistrict","SuramarNoblesDistrict","Court of Stars")
-DefineDungeonArea(1087, 2,"The Jeweled Estate@SuramarNoblesDistrict","SuramarNoblesDistrict","The Jeweled Estate")
-DefineDungeonArea(1088, 1,"The Nightwell@SuramarRaid","SuramarRaid","The Nightwell")
-DefineDungeonArea(1088, 2,"Arcing Depths@SuramarRaid","SuramarRaid","Arcing Depths")
-DefineDungeonArea(1088, 3,"The Nighthold@SuramarRaid","SuramarRaid","The Nighthold")
-DefineDungeonArea(1088, 4,"Shal'Dorei Terrace@SuramarRaid","SuramarRaid","Shal'Dorei Terrace")
-DefineDungeonArea(1088, 5,"Captain's Quarters@SuramarRaid","SuramarRaid","Captain's Quarters")
-DefineDungeonArea(1088, 6,"Astromancer's Rise@SuramarRaid","SuramarRaid","Astromancer's Rise")
-DefineDungeonArea(1088, 7,"The Nightspire@SuramarRaid","SuramarRaid","The Nightspire")
-DefineDungeonArea(1088, 8,"Elisande's Quarters@SuramarRaid","SuramarRaid","Elisande's Quarters")
-DefineDungeonArea(1088, 9,"The Font of Night@SuramarRaid","SuramarRaid","The Font of Night")
-DefineDungeonArea(1090, 1,"Tol Barad@TolBaradWarlockScenario","TolBaradWarlockScenario","Tol Barad")
-DefineDungeonArea(1090, 2,"Baradin Hold@TolBaradWarlockScenario","TolBaradWarlockScenario","Baradin Hold")
-DefineDungeonArea(1094, 1,"Clutch of Corruption@NightmareRaid","NightmareRaid","Clutch of Corruption")
-DefineDungeonArea(1094, 2,"Core of the Nightmare@NightmareRaid","NightmareRaid","Core of the Nightmare")
-DefineDungeonArea(1094, 3,"Mulgore@NightmareRaid","NightmareRaid","Mulgore")
-DefineDungeonArea(1094, 4,"Un'goro Crater@NightmareRaid","NightmareRaid","Un'goro Crater")
-DefineDungeonArea(1094, 5,"The Emerald Nightmare@NightmareRaid","NightmareRaid","The Emerald Nightmare")
-DefineDungeonArea(1094, 6,"Ashenvale@NightmareRaid","NightmareRaid","Ashenvale")
-DefineDungeonArea(1094, 7,"The Hinterlands@NightmareRaid","NightmareRaid","The Hinterlands")
-DefineDungeonArea(1094, 8,"Duskwood@NightmareRaid","NightmareRaid","Duskwood")
-DefineDungeonArea(1094, 9,"Feralas@NightmareRaid","NightmareRaid","Feralas")
-DefineDungeonArea(1094,10,"Grizzly Hills@NightmareRaid","NightmareRaid","Grizzly Hills")
-DefineDungeonArea(1094,11,"Moonglade@NightmareRaid","NightmareRaid","Moonglade")
-DefineDungeonArea(1094,12,"Rift of Aln@NightmareRaid","NightmareRaid","Rift of Aln")
-DefineDungeonArea(1094,13,"The Emerald Dream@NightmareRaid","NightmareRaid","The Emerald Dream")
-DefineDungeonArea(1097, 1,"Temple of the Jade Serpent@ArtifactBrewmasterScenario","ArtifactBrewmasterScenario","Temple of the Jade Serpent")
-DefineDungeonArea(1097, 2,"The Scrollkeeper's Sanctum@ArtifactBrewmasterScenario","ArtifactBrewmasterScenario","The Scrollkeeper's Sanctum")
-DefineDungeonArea(1100, 1,"Servant's Quarters@KarazhanScenario","KarazhanScenario","Servant's Quarters")
-DefineDungeonArea(1100, 2,"The Grand Ballroom@KarazhanScenario","KarazhanScenario","The Grand Ballroom")
-DefineDungeonArea(1100, 3,"The Opera Hall@KarazhanScenario","KarazhanScenario","The Opera Hall")
-DefineDungeonArea(1100, 4,"Guardian's Library@KarazhanScenario","KarazhanScenario","Guardian's Library")
-DefineDungeonArea(1104, 1,"Band of Alignment@MageCampaignTheOculus","MageCampaignTheOculus","Band of Alignment")
-DefineDungeonArea(1104, 2,"Band of Transmutation@MageCampaignTheOculus","MageCampaignTheOculus","Band of Transmutation")
-DefineDungeonArea(1104, 3,"Band of Acceleration@MageCampaignTheOculus","MageCampaignTheOculus","Band of Acceleration")
-DefineDungeonArea(1104, 4,"Band of Variance@MageCampaignTheOculus","MageCampaignTheOculus","Band of Variance")
-DefineDungeonArea(1105, 1,"Floor1@ScarletMonestaryDK","ScarletMonestaryDK","Floor1")
-DefineDungeonArea(1105, 2,"Floor2@ScarletMonestaryDK","ScarletMonestaryDK","Floor2")
-DefineDungeonArea(1114, 1,"Haustvald@HelheimRaid","HelheimRaid","Haustvald")
-DefineDungeonArea(1114, 2,"Trial of Valor@HelheimRaid","HelheimRaid","Trial of Valor")
-DefineDungeonArea(1115, 1,"Servant's Quarters@LegionKarazhanDungeon","LegionKarazhanDungeon","Servant's Quarters")
-DefineDungeonArea(1115, 2,"Upper Livery Stables@LegionKarazhanDungeon","LegionKarazhanDungeon","Upper Livery Stables")
-DefineDungeonArea(1115, 3,"The Banquet Hall@LegionKarazhanDungeon","LegionKarazhanDungeon","The Banquet Hall")
-DefineDungeonArea(1115, 4,"The Guest Chambers@LegionKarazhanDungeon","LegionKarazhanDungeon","The Guest Chambers")
-DefineDungeonArea(1115, 5,"Opera Hall Balcony@LegionKarazhanDungeon","LegionKarazhanDungeon","Opera Hall Balcony")
-DefineDungeonArea(1115, 6,"Master's Terrace@LegionKarazhanDungeon","LegionKarazhanDungeon","Master's Terrace")
-DefineDungeonArea(1115, 7,"Lower Broken Stair@LegionKarazhanDungeon","LegionKarazhanDungeon","Lower Broken Stair")
-DefineDungeonArea(1115, 8,"Upper Broken Stair@LegionKarazhanDungeon","LegionKarazhanDungeon","Upper Broken Stair")
-DefineDungeonArea(1115, 9,"The Menagerie@LegionKarazhanDungeon","LegionKarazhanDungeon","The Menagerie")
-DefineDungeonArea(1115,10,"Guardian's Library@LegionKarazhanDungeon","LegionKarazhanDungeon","Guardian's Library")
-DefineDungeonArea(1115,11,"Library Floor@LegionKarazhanDungeon","LegionKarazhanDungeon","Library Floor")
-DefineDungeonArea(1115,12,"Upper Library@LegionKarazhanDungeon","LegionKarazhanDungeon","Upper Library")
-DefineDungeonArea(1115,13,"Gamesman's Hall@LegionKarazhanDungeon","LegionKarazhanDungeon","Gamesman's Hall")
-DefineDungeonArea(1115,14,"Netherspace@LegionKarazhanDungeon","LegionKarazhanDungeon","Netherspace")
-DefineDungeonArea(1135, 1,"Upper Deck@ArgusSurface","ArgusSurface","Upper Deck")
-DefineDungeonArea(1135, 2,"Lower Deck@ArgusSurface","ArgusSurface","Lower Deck")
-DefineDungeonArea(1137, 1,"Floor1@TheDeadminesPetBattle","TheDeadminesPetBattle","Floor1")
-DefineDungeonArea(1137, 2,"Floor2@TheDeadminesPetBattle","TheDeadminesPetBattle","Floor2")
-DefineDungeonArea(1143, 1,"Floor1@GnomereganPetBattle","GnomereganPetBattle","Floor1")
-DefineDungeonArea(1143, 2,"Floor2@GnomereganPetBattle","GnomereganPetBattle","Floor2")
-DefineDungeonArea(1143, 3,"Floor3@GnomereganPetBattle","GnomereganPetBattle","Floor3")
-DefineDungeonArea(1146, 1,"Hall of the Moon@TombofSargerasDungeon","TombofSargerasDungeon","Hall of the Moon")
-DefineDungeonArea(1146, 2,"Twilight Grove@TombofSargerasDungeon","TombofSargerasDungeon","Twilight Grove")
-DefineDungeonArea(1146, 3,"The Emerald Archives@TombofSargerasDungeon","TombofSargerasDungeon","The Emerald Archives")
-DefineDungeonArea(1146, 4,"Path of Illumination@TombofSargerasDungeon","TombofSargerasDungeon","Path of Illumination")
-DefineDungeonArea(1146, 5,"Sacristy of Elune@TombofSargerasDungeon","TombofSargerasDungeon","Sacristy of Elune")
-DefineDungeonArea(1147, 1,"Chamber of the Moon@TombRaid","TombRaid","Chamber of the Moon")
-DefineDungeonArea(1147, 2,"The Abyssal Throne@TombRaid","TombRaid","The Abyssal Throne")
-DefineDungeonArea(1147, 3,"Terrace of the Moon@TombRaid","TombRaid","Terrace of the Moon")
-DefineDungeonArea(1147, 4,"The Guardian's Sanctum@TombRaid","TombRaid","The Guardian's Sanctum")
-DefineDungeonArea(1147, 5,"Chamber of the Avatar@TombRaid","TombRaid","Chamber of the Avatar")
-DefineDungeonArea(1147, 6,"Felstorm's Breach@TombRaid","TombRaid","Felstorm's Breach")
-DefineDungeonArea(1147, 7,"The Twisting Nether@TombRaid","TombRaid","The Twisting Nether")
-DefineDungeonArea(1148, 1,"Throne of the Four Winds@ThroneoftheFourWinds","ThroneoftheFourWinds","Throne of the Four Winds")
-DefineDungeonArea(1156, 1,"Floor1@StormheimInvasionScenario","StormheimInvasionScenario","Floor1")
-DefineDungeonArea(1156, 2,"Floor2@StormheimInvasionScenario","StormheimInvasionScenario","Floor2")
-DefineDungeonArea(1159, 1,"Floor1@HighmountainInvasionScenario","HighmountainInvasionScenario","Floor1")
-DefineDungeonArea(1159, 2,"Floor2@HighmountainInvasionScenario","HighmountainInvasionScenario","Floor2")
-DefineDungeonArea(1164, 1,"Field of the Eternal Hunt@HallsofValor","HallsofValor","Field of the Eternal Hunt")
-DefineDungeonArea(1164, 2,"The High Gate@HallsofValor","HallsofValor","The High Gate")
-DefineDungeonArea(1164, 3,"Halls of Valor@HallsofValor","HallsofValor","Halls of Valor")
-DefineDungeonArea(1165, 1,"Mardum, the Shattered Abyss@DemonHunterOrderHallTerrain","DemonHunterOrderHallTerrain","Mardum, the Shattered Abyss")
-DefineDungeonArea(1165, 2,"Upper Command Center@DemonHunterOrderHallTerrain","DemonHunterOrderHallTerrain","Upper Command Center")
-DefineDungeonArea(1170, 3,"Upper Deck@ArgusMacAree","ArgusMacAree","Upper Deck")
-DefineDungeonArea(1170, 4,"Lower Deck@ArgusMacAree","ArgusMacAree","Lower Deck")
-DefineDungeonArea(1171, 5,"Upper Deck@ArgusCore","ArgusCore","Upper Deck")
-DefineDungeonArea(1171, 6,"Lower Deck@ArgusCore","ArgusCore","Lower Deck")
-DefineDungeonArea(1173, 1,"Stasis Block: Trion@TKArcatrazScenario","TKArcatrazScenario","Stasis Block: Trion")
-DefineDungeonArea(1173, 2,"Stasis Block: Maximus@TKArcatrazScenario","TKArcatrazScenario","Stasis Block: Maximus")
-DefineDungeonArea(1174, 1,"Floor1@AzuremystScenario","AzuremystScenario","Floor1")
-DefineDungeonArea(1174, 2,"Floor2@AzuremystScenario","AzuremystScenario","Floor2")
-DefineDungeonArea(1174, 3,"Floor3@AzuremystScenario","AzuremystScenario","Floor3")
-DefineDungeonArea(1177, 1,"Dragonblight@DragonblightChromieScenario","DragonblightChromieScenario","Dragonblight")
-DefineDungeonArea(1177, 2,"Obsidian Dragonshrine@DragonblightChromieScenario","DragonblightChromieScenario","Obsidian Dragonshrine")
-DefineDungeonArea(1177, 3,"Andorhal@DragonblightChromieScenario","DragonblightChromieScenario","Andorhal")
-DefineDungeonArea(1177, 4,"Mount Hyjal@DragonblightChromieScenario","DragonblightChromieScenario","Mount Hyjal")
-DefineDungeonArea(1177, 5,"The Well of Eternity@DragonblightChromieScenario","DragonblightChromieScenario","The Well of Eternity")
-DefineDungeonArea(1188, 1,"Light's Breach@ArgusRaid","ArgusRaid","Light's Breach")
-DefineDungeonArea(1188, 2,"Gaze of the Legion@ArgusRaid","ArgusRaid","Gaze of the Legion")
-DefineDungeonArea(1188, 3,"Halls of the Boundless Reach@ArgusRaid","ArgusRaid","Halls of the Boundless Reach")
-DefineDungeonArea(1188, 4,"Elunaria@ArgusRaid","ArgusRaid","Elunaria")
-DefineDungeonArea(1188, 5,"Elarian Sanctuary@ArgusRaid","ArgusRaid","Elarian Sanctuary")
-DefineDungeonArea(1188, 6,"The Exhaust@ArgusRaid","ArgusRaid","The Exhaust")
-DefineDungeonArea(1188, 7,"The Burning Throne@ArgusRaid","ArgusRaid","The Burning Throne")
-DefineDungeonArea(1188, 8,"Chamber of Anguish@ArgusRaid","ArgusRaid","Chamber of Anguish")
-DefineDungeonArea(1188, 9,"The World Soul@ArgusRaid","ArgusRaid","The World Soul")
-DefineDungeonArea(1188,10,"Seat of the Pantheon@ArgusRaid","ArgusRaid","Seat of the Pantheon")
-DefineDungeonArea(1188,11,"Upper Deck@ArgusRaid","ArgusRaid","Upper Deck")
-DefineDungeonArea(1212, 1,"Upper Deck@LightforgedVindicaar","LightforgedVindicaar","Upper Deck")
-DefineDungeonArea(1212, 2,"Lower Deck@LightforgedVindicaar","LightforgedVindicaar","Lower Deck")
-DefineInstance( 321, 2,"Orgrimmar","Orgrimmar")
-DefineInstance( 401, 0,"AlteracValley","AlteracValley")
-DefineInstance( 443, 0,"WarsongGulch","WarsongGulch")
-DefineInstance( 461, 0,"ArathiBasin","ArathiBasin")
-DefineInstance( 482, 0,"NetherstormArena","NetherstormArena")
-DefineInstance( 502, 0,"ScarletEnclave","ScarletEnclave")
-DefineInstance( 504, 2,"Dalaran#504","Dalaran#504")
-DefineInstance( 512, 0,"StrandoftheAncients","StrandoftheAncients")
-DefineInstance( 520, 1,"The Nexus","The Nexus")
-DefineInstance( 521, 2,"CoTStratholme","CoTStratholme")
-DefineInstance( 522, 1,"Ahn'Kahet","Ahn'Kahet")
-DefineInstance( 523, 3,"UtgardeKeep","UtgardeKeep")
-DefineInstance( 524, 2,"UtgardePinnacle","UtgardePinnacle")
-DefineInstance( 525, 2,"HallsofLightning","HallsofLightning")
-DefineInstance( 526, 1,"Halls of Stone","Halls of Stone")
-DefineInstance( 527, 1,"The Eye of Eternity","The Eye of Eternity")
-DefineInstance( 528, 4,"Nexus80","Nexus80")
-DefineInstance( 529, 5,"Ulduar","Ulduar")
-DefineInstance( 530, 1,"Gundrak","Gundrak")
-DefineInstance( 531, 1,"The Obsidian Sanctum","The Obsidian Sanctum")
-DefineInstance( 532, 1,"Vault of Archavon","Vault of Archavon")
-DefineInstance( 533, 3,"AzjolNerub","AzjolNerub")
-DefineInstance( 534, 2,"DrakTharonKeep","DrakTharonKeep")
-DefineInstance( 535, 6,"Naxxramas","Naxxramas")
-DefineInstance( 536, 1,"The Violet Hold","The Violet Hold")
-DefineInstance( 539, 3,"Gilneas","Gilneas")
-DefineInstance( 540, 0,"IsleofConquest","IsleofConquest")
-DefineInstance( 542, 2,"TheArgentColiseum","TheArgentColiseum")
-DefineInstance( 543, 2,"TheArgentColiseum#543","TheArgentColiseum#543")
-DefineInstance( 545, 3,"Gilneas#545","Gilneas#545")
-DefineInstance( 601, 1,"The Forge of Souls","The Forge of Souls")
-DefineInstance( 602, 1,"Pit of Saron","Pit of Saron")
-DefineInstance( 603, 1,"Halls of Reflection","Halls of Reflection")
-DefineInstance( 604, 8,"IcecrownCitadel","IcecrownCitadel")
-DefineInstance( 609, 0,"TheRubySanctum","TheRubySanctum")
-DefineInstance( 610, 0,"VashjirKelpForest","VashjirKelpForest")
-DefineInstance( 611, 0,"GilneasCity","GilneasCity")
-DefineInstance( 614, 0,"VashjirDepths","VashjirDepths")
-DefineInstance( 615, 0,"VashjirRuins","VashjirRuins")
-DefineInstance( 626, 0,"TwinPeaks","TwinPeaks")
-DefineInstance( 677, 0,"BattleforGilneas","BattleforGilneas")
-DefineInstance( 678, 3,"Gilneas_terrain1","Gilneas_terrain1")
-DefineInstance( 679, 3,"Gilneas_terrain2","Gilneas_terrain2")
-DefineInstance( 680, 1,"Ragefire Chasm","Ragefire Chasm")
-DefineInstance( 686, 0,"ZulFarrak","ZulFarrak")
-DefineInstance( 687, 1,"The Temple of Atal' Hakkar","The Temple of Atal' Hakkar")
-DefineInstance( 688, 3,"BlackfathomDeeps","BlackfathomDeeps")
-DefineInstance( 690, 1,"Stormwind Stockade","Stormwind Stockade")
-DefineInstance( 691, 4,"Gnomeregan","Gnomeregan")
-DefineInstance( 692, 2,"Uldaman","Uldaman")
-DefineInstance( 696, 1,"The Molten Core","The Molten Core")
-DefineInstance( 697, 1,"Zul'Gurub","Zul'Gurub")
-DefineInstance( 699, 6,"DireMaul","DireMaul")
-DefineInstance( 704, 2,"BlackrockDepths","BlackrockDepths")
-DefineInstance( 710, 1,"The Shattered Halls","The Shattered Halls")
-DefineInstance( 717, 1,"Ruins of Ahn'Qiraj","Ruins of Ahn'Qiraj")
-DefineInstance( 718, 1,"Onyxia's Lair","Onyxia's Lair")
-DefineInstance( 721, 6,"BlackrockSpire","BlackrockSpire")
-DefineInstance( 722, 2,"AuchenaiCrypts","AuchenaiCrypts")
-DefineInstance( 723, 2,"SethekkHalls","SethekkHalls")
-DefineInstance( 724, 1,"Shadow Labyrinth","Shadow Labyrinth")
-DefineInstance( 725, 1,"The Blood Furnace","The Blood Furnace")
-DefineInstance( 726, 1,"The Underbog","The Underbog")
-DefineInstance( 727, 2,"TheSteamvault","TheSteamvault")
-DefineInstance( 728, 1,"The Slave Pens","The Slave Pens")
-DefineInstance( 729, 1,"The Botanica","The Botanica")
-DefineInstance( 730, 2,"TheMechanar","TheMechanar")
-DefineInstance( 731, 3,"TheArcatraz","TheArcatraz")
-DefineInstance( 732, 1,"Mana Tombs","Mana Tombs")
-DefineInstance( 733, 1,"The Black Morass","The Black Morass")
-DefineInstance( 734, 1,"Old Hillsbrad","Old Hillsbrad")
-DefineInstance( 736, 0,"GilneasBattleground2","GilneasBattleground2")
-DefineInstance( 747, 1,"Lost City of the Tol'Vir","Lost City of the Tol'Vir")
-DefineInstance( 749, 1,"Wailing Caverns","Wailing Caverns")
-DefineInstance( 750, 2,"Maraudon","Maraudon")
-DefineInstance( 752, 1,"Baradin Hold","Baradin Hold")
-DefineInstance( 753, 2,"BlackrockCaverns","BlackrockCaverns")
-DefineInstance( 754, 2,"BlackwingDescent","BlackwingDescent")
-DefineInstance( 755, 4,"BlackwingLair","BlackwingLair")
-DefineInstance( 756, 2,"TheDeadmines","TheDeadmines")
-DefineInstance( 757, 1,"Grim Batol","Grim Batol")
-DefineInstance( 758, 3,"TheBastionofTwilight","TheBastionofTwilight")
-DefineInstance( 759, 3,"HallsofOrigination","HallsofOrigination")
-DefineInstance( 760, 1,"Razorfen Downs","Razorfen Downs")
-DefineInstance( 761, 1,"Razorfen Kraul","Razorfen Kraul")
-DefineInstance( 762, 4,"ScarletMonastery","ScarletMonastery")
-DefineInstance( 763, 4,"Scholomance","Scholomance")
-DefineInstance( 764, 7,"ShadowfangKeep","ShadowfangKeep")
-DefineInstance( 765, 2,"Stratholme","Stratholme")
-DefineInstance( 766, 3,"AhnQiraj","AhnQiraj")
-DefineInstance( 767, 2,"ThroneofTides","ThroneofTides")
-DefineInstance( 768, 1,"The Stonecore","The Stonecore")
-DefineInstance( 769, 1,"The Vortex Pinnacle","The Vortex Pinnacle")
-DefineInstance( 773, 1,"Throne of the Four Winds","Throne of the Four Winds")
-DefineInstance( 775, 1,"Battle for Mount Hyjal","Battle for Mount Hyjal")
-DefineInstance( 776, 1,"Gruul's Lair","Gruul's Lair")
-DefineInstance( 779, 1,"Magtheridon's Lair","Magtheridon's Lair")
-DefineInstance( 780, 1,"Serpentshrine Cavern","Serpentshrine Cavern")
-DefineInstance( 781, 1,"Zul'Aman","Zul'Aman")
-DefineInstance( 782, 1,"The Eye","The Eye")
-DefineInstance( 789, 2,"SunwellPlateau","SunwellPlateau")
-DefineInstance( 793, 1,"Zul'Gurub#793","Zul'Gurub#793")
-DefineInstance( 795, 0,"MoltenFront","MoltenFront")
-DefineInstance( 796, 7,"BlackTemple","BlackTemple")
-DefineInstance( 797, 1,"Hellfire Ramparts","Hellfire Ramparts")
-DefineInstance( 798, 2,"MagistersTerrace","MagistersTerrace")
-DefineInstance( 799,17,"Karazhan","Karazhan")
-DefineInstance( 800, 2,"Firelands","Firelands")
-DefineInstance( 803, 1,"The Nexus#803","The Nexus#803")
-DefineInstance( 808, 0,"TheWanderingIsle","TheWanderingIsle")
-DefineInstance( 813, 0,"NetherstormArena#813","NetherstormArena#813")
-DefineInstance( 816, 0,"WellofEternity","WellofEternity")
-DefineInstance( 819, 2,"HourofTwilight","HourofTwilight")
-DefineInstance( 820, 5,"EndTime","EndTime")
-DefineInstance( 823, 1,"DarkmoonFaireIsland","DarkmoonFaireIsland")
-DefineInstance( 824, 6,"DragonSoul","DragonSoul")
-DefineInstance( 851, 0,"DustwallowMarshScenario","DustwallowMarshScenario")
-DefineInstance( 856, 0,"TempleofKotmogu","TempleofKotmogu")
-DefineInstance( 860, 1,"Silvershard Mines","Silvershard Mines")
-DefineInstance( 864, 3,"Northshire","Northshire")
-DefineInstance( 866, 9,"ColdridgeValley","ColdridgeValley")
-DefineInstance( 867, 2,"EastTemple","EastTemple")
-DefineInstance( 871, 2,"ScarletHalls","ScarletHalls")
-DefineInstance( 874, 2,"ScarletCathedral","ScarletCathedral")
-DefineInstance( 875, 2,"TheGreatWall","TheGreatWall")
-DefineInstance( 876, 4,"StormstoutBrewery","StormstoutBrewery")
-DefineInstance( 877, 3,"ShadowpanHideout","ShadowpanHideout")
-DefineInstance( 878, 2,"BrewmasterScenario01","BrewmasterScenario01")
-DefineInstance( 880, 2,"TheJadeForestScenario","TheJadeForestScenario")
-DefineInstance( 881, 2,"ValleyOfPowerScenario","ValleyOfPowerScenario")
-DefineInstance( 882, 2,"BrewmasterScenario03","BrewmasterScenario03")
-DefineInstance( 883, 2,"Tyrivess","Tyrivess")
-DefineInstance( 884, 2,"KunLaiPassScenario","KunLaiPassScenario")
-DefineInstance( 885, 3,"MogushanPalace","MogushanPalace")
-DefineInstance( 886, 1,"Terrace of Endless Spring","Terrace of Endless Spring")
-DefineInstance( 887, 2,"SiegeofNiuzaoTemple","SiegeofNiuzaoTemple")
-DefineInstance( 888, 0,"ShadowglenStart","ShadowglenStart")
-DefineInstance( 889, 0,"ValleyofTrialsStart","ValleyofTrialsStart")
-DefineInstance( 890, 0,"CampNaracheStart","CampNaracheStart")
-DefineInstance( 891, 9,"EchoIslesStart","EchoIslesStart")
-DefineInstance( 892,12,"DeathknellStart","DeathknellStart")
-DefineInstance( 893, 0,"SunstriderIsleStart","SunstriderIsleStart")
-DefineInstance( 894, 0,"AmmenValeStart","AmmenValeStart")
-DefineInstance( 895, 0,"NewTinkertownStart","NewTinkertownStart")
-DefineInstance( 896, 3,"MogushanVaults","MogushanVaults")
-DefineInstance( 897, 2,"HeartofFear","HeartofFear")
-DefineInstance( 898, 4,"Scholomance#898","Scholomance#898")
-DefineInstance( 899, 1,"Arena of Annihilation","Arena of Annihilation")
-DefineInstance( 900, 2,"AncientMoguCrypt","AncientMoguCrypt")
-DefineInstance( 903, 2,"ValeofEternalBlossoms","ValeofEternalBlossoms")
-DefineInstance( 905, 4,"ValeofEternalBlossoms#905","ValeofEternalBlossoms#905")
-DefineInstance( 906, 0,"DustwallowMarshScenarioAlliance","DustwallowMarshScenarioAlliance")
-DefineInstance( 911, 0,"KrasarangAlliance","KrasarangAlliance")
-DefineInstance( 912, 0,"KrasarangPatience","KrasarangPatience")
-DefineInstance( 914, 2,"VoljinScenario","VoljinScenario")
-DefineInstance( 919, 7,"BlackTempleScenario","BlackTempleScenario")
-DefineInstance( 920, 0,"KrasarangHorde","KrasarangHorde")
-DefineInstance( 922, 2,"DeeprunTram","DeeprunTram")
-DefineInstance( 924, 2,"DalaranCity","DalaranCity")
-DefineInstance( 925, 1,"BrawlgarArena","BrawlgarArena")
-DefineInstance( 930, 8,"ThunderKingRaid","ThunderKingRaid")
-DefineInstance( 933, 0,"IsleoftheThunderKingScenario","IsleoftheThunderKingScenario")
-DefineInstance( 934, 1,"ThunderKingLootRoom","ThunderKingLootRoom")
-DefineInstance( 935, 0,"GoldRush","GoldRush")
-DefineInstance( 937, 1,"ValeOfEternalBlossomsScenario","ValeOfEternalBlossomsScenario")
-DefineInstance( 938, 1,"EmberdeepScenario","EmberdeepScenario")
-DefineInstance( 939, 0,"DunMoroghScenario","DunMoroghScenario")
-DefineInstance( 940, 0,"tempKrasarangHordeBase","tempKrasarangHordeBase")
-DefineInstance( 953,14,"OrgrimmarRaid","OrgrimmarRaid")
-DefineInstance( 955, 0,"CelestialChallenge","CelestialChallenge")
-DefineInstance( 964, 1,"OgreMines","OgreMines")
-DefineInstance( 969, 3,"ShadowmoonDungeon","ShadowmoonDungeon")
-DefineInstance( 970, 0,"TanaanJungleIntro","TanaanJungleIntro")
-DefineInstance( 983, 0,"DefenseofKarabor","DefenseofKarabor")
-DefineInstance( 984, 1,"DraenorAuchindoun","DraenorAuchindoun")
-DefineInstance( 986, 0,"TaladorScenario","TaladorScenario")
-DefineInstance( 987, 1,"IronDocks","IronDocks")
-DefineInstance( 988, 5,"FoundryRaid","FoundryRaid")
-DefineInstance( 989, 2,"SpiresofArakDungeon","SpiresofArakDungeon")
-DefineInstance( 993, 4,"BlackrockTrainDepotDungeon","BlackrockTrainDepotDungeon")
-DefineInstance( 994, 5,"HighmaulRaid","HighmaulRaid")
-DefineInstance( 995, 3,"UpperBlackrockSpire","UpperBlackrockSpire")
-DefineInstance(1008, 2,"OvergrownOutpost","OvergrownOutpost")
-DefineInstance(1009, 0,"AshranAllianceFactionHub","AshranAllianceFactionHub")
-DefineInstance(1010, 0,"HillsbradFoothillsBG","HillsbradFoothillsBG")
-DefineInstance(1011, 0,"AshranHordeFactionHub","AshranHordeFactionHub")
-DefineInstance(1020, 0,"TwistingNether70","TwistingNether70")
-DefineInstance(1022, 0,"Helheim","Helheim")
-DefineInstance(1026, 9,"HellfireRaid","HellfireRaid")
-DefineInstance(1027, 0,"AraukNashalIntroScenario","AraukNashalIntroScenario")
-DefineInstance(1028, 3,"MardumtheShatteredAbyss","MardumtheShatteredAbyss")
-DefineInstance(1031, 0,"BrokenShorePaladin","BrokenShorePaladin")
-DefineInstance(1032, 3,"VaultOfTheWardensDH","VaultOfTheWardensDH")
-DefineInstance(1034, 0,"HelmouthShallows","HelmouthShallows")
-DefineInstance(1035, 1,"ValhallasWarriorOrderHome","ValhallasWarriorOrderHome")
-DefineInstance(1036, 0,"ShieldsRestIslandScenario","ShieldsRestIslandScenario")
-DefineInstance(1037, 0,"StormheimArtifactProtWarrior","StormheimArtifactProtWarrior")
-DefineInstance(1038, 0,"HulnFlashback","HulnFlashback")
-DefineInstance(1039, 4,"IcecrownCitadelDeathKnight","IcecrownCitadelDeathKnight")
-DefineInstance(1040, 1,"NetherlightTemple","NetherlightTemple")
-DefineInstance(1041, 2,"HallsofValor","HallsofValor")
-DefineInstance(1042, 2,"HelheimDungeonDock","HelheimDungeonDock")
-DefineInstance(1043, 2,"HelheimDungeon","HelheimDungeon")
-DefineInstance(1044, 0,"MonkOrderHallTheWanderingIsle","MonkOrderHallTheWanderingIsle")
-DefineInstance(1045, 3,"VaultOfTheWardens","VaultOfTheWardens")
-DefineInstance(1046, 0,"AszunaDungeon","AszunaDungeon")
-DefineInstance(1047, 0,"Niskara","Niskara")
-DefineInstance(1048, 0,"EmeraldDreamway","EmeraldDreamway")
-DefineInstance(1049, 1,"ArtifactSkywall","ArtifactSkywall")
-DefineInstance(1050, 0,"WarlockClassShrine","WarlockClassShrine")
-DefineInstance(1051, 0,"DreadscarRift","DreadscarRift")
-DefineInstance(1052, 2,"DemonHunterOrderHallTerrain","DemonHunterOrderHallTerrain")
-DefineInstance(1053, 0,"AzsunaArtifact","AzsunaArtifact")
-DefineInstance(1054, 1,"TheVioletHoldAcquisition","TheVioletHoldAcquisition")
-DefineInstance(1055, 0,"SuramarAcquisition","SuramarAcquisition")
-DefineInstance(1056, 0,"MaelstromShamanHubIntro","MaelstromShamanHubIntro")
-DefineInstance(1057, 0,"MaelstromShaman","MaelstromShaman")
-DefineInstance(1058, 2,"KunLaiSummitSCENARIO","KunLaiSummitSCENARIO")
-DefineInstance(1059, 0,"TerraceofEndlessSpringScenario","TerraceofEndlessSpringScenario")
-DefineInstance(1060, 1,"DeepholmShamanAcquisition","DeepholmShamanAcquisition")
-DefineInstance(1062, 0,"TirisfalGladesInsideScenario","TirisfalGladesInsideScenario")
-DefineInstance(1065, 0,"NeltharionsLair","NeltharionsLair")
-DefineInstance(1066, 1,"LegionVioletHoldDungeon","LegionVioletHoldDungeon")
-DefineInstance(1067, 0,"DarkheartThicket","DarkheartThicket")
-DefineInstance(1068, 2,"MageClassShrine","MageClassShrine")
-DefineInstance(1069, 1,"TheBeyond","TheBeyond")
-DefineInstance(1070, 1,"TheVortexPinnacle","TheVortexPinnacle")
-DefineInstance(1071, 0,"FirelandsShaman","FirelandsShaman")
-DefineInstance(1073, 2,"ArtifactSubtletyRogueAcquisition","ArtifactSubtletyRogueAcquisition")
-DefineInstance(1075, 2,"AbyssalMawShamanAcquisition","AbyssalMawShamanAcquisition")
-DefineInstance(1076, 3,"UlduarMagni","UlduarMagni")
-DefineInstance(1078, 0,"Niskara#1078","Niskara#1078")
-DefineInstance(1079, 1,"SuamarCatacombsDungeon","SuamarCatacombsDungeon")
-DefineInstance(1080, 0,"ThunderTotem","ThunderTotem")
-DefineInstance(1081, 6,"BlackRookHoldDungeon","BlackRookHoldDungeon")
-DefineInstance(1082, 0,"UrsocsLairScenario","UrsocsLairScenario")
-DefineInstance(1084, 0,"GloamingReef","GloamingReef")
-DefineInstance(1085, 1,"70BlackTempleLegion","70BlackTempleLegion")
-DefineInstance(1086, 0,"MalornesNightmare","MalornesNightmare")
-DefineInstance(1087, 2,"SuramarNoblesDistrict","SuramarNoblesDistrict")
-DefineInstance(1088, 9,"SuramarRaid","SuramarRaid")
-DefineInstance(1090, 2,"TolBaradWarlockScenario","TolBaradWarlockScenario")
-DefineInstance(1091, 0,"TheExodar","TheExodar")
-DefineInstance(1092, 0,"AzuremystIsleScenario","AzuremystIsleScenario")
-DefineInstance(1094,13,"NightmareRaid","NightmareRaid")
-DefineInstance(1097, 2,"ArtifactBrewmasterScenario","ArtifactBrewmasterScenario")
-DefineInstance(1099, 0,"BlackRookHoldScenario","BlackRookHoldScenario")
-DefineInstance(1100, 4,"KarazhanScenario","KarazhanScenario")
-DefineInstance(1102, 1,"ArcwayScenario","ArcwayScenario")
-DefineInstance(1104, 4,"MageCampaignTheOculus","MageCampaignTheOculus")
-DefineInstance(1105, 2,"ScarletMonestaryDK","ScarletMonestaryDK")
-DefineInstance(1114, 2,"HelheimRaid","HelheimRaid")
-DefineInstance(1115,14,"LegionKarazhanDungeon","LegionKarazhanDungeon")
-DefineInstance(1116, 0,"PitofSaronDK","PitofSaronDK")
-DefineInstance(1127, 1,"WailingCavernsPetBattle","WailingCavernsPetBattle")
-DefineInstance(1129, 1,"CaveoftheBloodtotemScenario","CaveoftheBloodtotemScenario")
-DefineInstance(1130, 1,"StratholmePaladinClassMount","StratholmePaladinClassMount")
-DefineInstance(1131, 1,"TheEyeofEternityMageClassMount","TheEyeofEternityMageClassMount")
-DefineInstance(1132, 1,"HallsOfValorWarriorClassMount","HallsOfValorWarriorClassMount")
-DefineInstance(1135, 2,"ArgusSurface","ArgusSurface")
-DefineInstance(1136, 0,"ColdridgeValleyScenario","ColdridgeValleyScenario")
-DefineInstance(1137, 2,"TheDeadminesPetBattle","TheDeadminesPetBattle")
-DefineInstance(1139, 0,"ArathiBasinWinter","ArathiBasinWinter")
-DefineInstance(1140, 1,"BattleforBlackrockMountain","BattleforBlackrockMountain")
-DefineInstance(1142, 1,"PriestClassMountScenario","PriestClassMountScenario")
-DefineInstance(1143, 3,"GnomereganPetBattle","GnomereganPetBattle")
-DefineInstance(1144, 0,"SmallBattlegroundC","SmallBattlegroundC")
-DefineInstance(1146, 5,"TombofSargerasDungeon","TombofSargerasDungeon")
-DefineInstance(1147, 7,"TombRaid","TombRaid")
-DefineInstance(1148, 1,"Throne of the Four Winds#1148","Throne of the Four Winds#1148")
-DefineInstance(1149, 0,"AssaultonBrokenShoreScenario","AssaultonBrokenShoreScenario")
-DefineInstance(1151, 0,"TheRubySanctumDKMountScenario","TheRubySanctumDKMountScenario")
-DefineInstance(1152, 0,"FelwingLedgeMardumArea","FelwingLedgeMardumArea")
-DefineInstance(1156, 2,"StormheimInvasionScenario","StormheimInvasionScenario")
-DefineInstance(1157, 1,"AzsunaInvasionScenario","AzsunaInvasionScenario")
-DefineInstance(1158, 1,"ValsharahInvasionScenario","ValsharahInvasionScenario")
-DefineInstance(1159, 2,"HighmountainInvasionScenario","HighmountainInvasionScenario")
-DefineInstance(1160, 0,"LostGlacierDKMountScenario","LostGlacierDKMountScenario")
-DefineInstance(1161, 0,"StormstoutBreweryScenario","StormstoutBreweryScenario")
-DefineInstance(1164, 3,"HallsofValor#1164","HallsofValor#1164")
-DefineInstance(1165, 2,"DemonHunterOrderHallTerrain#1165","DemonHunterOrderHallTerrain#1165")
-DefineInstance(1166, 1,"TheEyeofEternityMageClassMount#1166","TheEyeofEternityMageClassMount#1166")
-DefineInstance(1170, 4,"ArgusMacAree","ArgusMacAree")
-DefineInstance(1171, 6,"ArgusCore","ArgusCore")
-DefineInstance(1172, 1,"HallOfCommunion","HallOfCommunion")
-DefineInstance(1173, 2,"TKArcatrazScenario","TKArcatrazScenario")
-DefineInstance(1174, 3,"AzuremystScenario","AzuremystScenario")
-DefineInstance(1177, 5,"DragonblightChromieScenario","DragonblightChromieScenario")
-DefineInstance(1178, 0,"ArgusDungeon","ArgusDungeon")
-DefineInstance(1183, 0,"SilithusBrawl","SilithusBrawl")
-DefineInstance(1184, 0,"Argus","Argus")
-DefineInstance(1186, 0,"AzeriteBG","AzeriteBG")
-DefineInstance(1188,11,"ArgusRaid","ArgusRaid")
-DefineInstance(1190, 0,"InvasionPointAurinor","InvasionPointAurinor")
-DefineInstance(1191, 0,"InvasionPointBonich","InvasionPointBonich")
-DefineInstance(1192, 0,"InvasionPointCengar","InvasionPointCengar")
-DefineInstance(1193, 0,"InvasionPointNaigtal","InvasionPointNaigtal")
-DefineInstance(1194, 0,"InvasionPointSangua","InvasionPointSangua")
-DefineInstance(1195, 0,"InvasionPointVal","InvasionPointVal")
-DefineInstance(1196, 0,"InvasionPointAurinor#1196","InvasionPointAurinor#1196")
-DefineInstance(1197, 0,"InvasionPointBonich#1197","InvasionPointBonich#1197")
-DefineInstance(1198, 0,"InvasionPointCengar#1198","InvasionPointCengar#1198")
-DefineInstance(1199, 0,"InvasionPointNaigtal#1199","InvasionPointNaigtal#1199")
-DefineInstance(1200, 0,"InvasionPointSangua#1200","InvasionPointSangua#1200")
-DefineInstance(1201, 0,"InvasionPointVal#1201","InvasionPointVal#1201")
-DefineInstance(1202, 0,"LightforgedDraeneiSwamp","LightforgedDraeneiSwamp")
-DefineInstance(1212, 2,"LightforgedVindicaar","LightforgedVindicaar")
-DefineInstance(1215, 0,"VoidElfHub","VoidElfHub")
-DefineInstance(1216, 0,"VoidElfScenario","VoidElfScenario")
-DefineInstance(1217, 1,"TheSunwellUnlockScenario","TheSunwellUnlockScenario")
-DefineTerrain(1, 0,  13, 0,"Kalimdor")
-DefineTerrain(1, 1, 471, 0,"The Exodar","TheExodar")
-DefineTerrain(1, 2, 772, 0,"Ahn'Qiraj: The Fallen Kingdom","AhnQirajTheFallenKingdom")
-DefineTerrain(1, 3, 464, 3,"Azuremyst Isle","AzuremystIsle")
-DefineTerrain(1, 4, 182, 0,"Felwood")
-DefineTerrain(1, 5,   9, 7,"Mulgore")
-DefineTerrain(1, 6, 101,22,"Desolace")
-DefineTerrain(1, 7, 606, 0,"Mount Hyjal","Hyjal")
-DefineTerrain(1, 8, 241, 0,"Moonglade")
-DefineTerrain(1, 9, 607, 0,"Southern Barrens","SouthernBarrens")
-DefineTerrain(1,10,  41, 5,"Teldrassil")
-DefineTerrain(1,11,  42, 0,"Darkshore")
-DefineTerrain(1,12,  43, 0,"Ashenvale")
-DefineTerrain(1,13, 281, 0,"Winterspring")
-DefineTerrain(1,14, 141, 0,"Dustwallow Marsh","Dustwallow_terrain1")
-DefineTerrain(1,15, 121, 0,"Feralas")
-DefineTerrain(1,16, 476, 0,"Bloodmyst Isle","BloodmystIsle")
-DefineTerrain(1,17, 201,14,"Un'Goro Crater","UngoroCrater")
-DefineTerrain(1,18, 720, 0,"Uldum","Uldum_terrain1")
-DefineTerrain(1,19, 161,18,"Tanaris")
-DefineTerrain(1,20,  11,20,"Northern Barrens","Barrens")
-DefineTerrain(1,21,  61, 0,"Thousand Needles","ThousandNeedles")
-DefineTerrain(1,22, 381, 0,"Darnassus")
-DefineTerrain(1,23, 261,13,"Silithus")
-DefineTerrain(1,24, 181, 0,"Azshara","Aszhara")
-DefineTerrain(1,25, 362, 0,"Thunder Bluff","ThunderBluff")
-DefineTerrain(1,26,  81, 0,"Stonetalon Mountains","StonetalonMountains")
-DefineTerrain(1,27,   4,19,"Durotar")
-DefineTerrain(2, 0,  14, 0,"Eastern Kingdoms","Azeroth")
-DefineTerrain(2, 1,  27,11,"Dun Morogh","DunMorogh")
-DefineTerrain(2, 2, 480, 0,"Silvermoon City","SilvermoonCity")
-DefineTerrain(2, 3,  38, 0,"Swamp of Sorrows","SwampOfSorrows")
-DefineTerrain(2, 4, 708, 0,"Tol Barad","TolBarad")
-DefineTerrain(2, 5,  39,17,"Westfall")
-DefineTerrain(2, 6, 301, 0,"Stormwind City","StormwindCity")
-DefineTerrain(2, 7,  16, 0,"Arathi Highlands","Arathi")
-DefineTerrain(2, 8,  20,13,"Tirisfal Glades","Tirisfal")
-DefineTerrain(2, 9,  24, 0,"Hillsbrad Foothills","HillsbradFoothills")
-DefineTerrain(2,10,  28,16,"Searing Gorge","SearingGorge")
-DefineTerrain(2,11,  32,24,"Deadwind Pass","DeadwindPass")
-DefineTerrain(2,12,  40, 0,"Wetlands")
-DefineTerrain(2,13, 673, 0,"The Cape of Stranglethorn","TheCapeOfStranglethorn")
-DefineTerrain(2,14, 499, 0,"Isle of Quel'Danas","Sunwell")
-DefineTerrain(2,15, 685, 0,"Ruins of Gilneas City","RuinsofGilneasCity")
-DefineTerrain(2,16, 689, 0,"Stranglethorn Vale","StranglethornVale")
-DefineTerrain(2,17, 382, 0,"Undercity")
-DefineTerrain(2,18,  21, 0,"Silverpine Forest","Silverpine")
-DefineTerrain(2,19,  29,16,"Burning Steppes","BurningSteppes")
-DefineTerrain(2,20,  34, 0,"Duskwood")
-DefineTerrain(2,21, 709, 0,"Tol Barad Peninsula","TolBaradDailyArea")
-DefineTerrain(2,22,  35, 0,"Loch Modan","LochModan")
-DefineTerrain(2,23, 462, 0,"Eversong Woods","EversongWoods")
-DefineTerrain(2,25,  30, 9,"Elwynn Forest","Elwynn")
-DefineTerrain(2,26,  36, 0,"Redridge Mountains","Redridge")
-DefineTerrain(2,27, 341, 0,"Ironforge")
-DefineTerrain(2,28, 613, 0,"Vashj'ir","Vashjir")
-DefineTerrain(2,29, 684, 0,"Ruins of Gilneas","RuinsofGilneas")
-DefineTerrain(2,30,  37, 0,"Northern Stranglethorn","StranglethornJungle")
-DefineTerrain(2,31,  22, 0,"Western Plaguelands","WesternPlaguelands")
-DefineTerrain(2,32,  17,18,"Badlands")
-DefineTerrain(2,33, 700, 0,"Twilight Highlands","TwilightHighlands")
-DefineTerrain(2,34,  19, 0,"Blasted Lands","BlastedLands_terrain1")
-DefineTerrain(2,35,  23, 0,"Eastern Plaguelands","EasternPlaguelands")
-DefineTerrain(2,36,  26, 0,"The Hinterlands","Hinterlands")
-DefineTerrain(3, 0, 466, 0,"Outland","Expansion01")
-DefineTerrain(3, 1, 465, 0,"Hellfire Peninsula","Hellfire")
-DefineTerrain(3, 2, 473, 0,"Shadowmoon Valley","ShadowmoonValley")
-DefineTerrain(3, 3, 481, 0,"Shattrath City","ShattrathCity")
-DefineTerrain(3, 4, 475, 0,"Blade's Edge Mountains","BladesEdgeMountains")
-DefineTerrain(3, 5, 467, 0,"Zangarmarsh")
-DefineTerrain(3, 6, 477, 0,"Nagrand")
-DefineTerrain(3, 7, 478, 0,"Terokkar Forest","TerokkarForest")
-DefineTerrain(3, 8, 479, 0,"Netherstorm")
-DefineTerrain(4, 0, 485, 0,"Northrend")
-DefineTerrain(4, 1, 486, 0,"Borean Tundra","BoreanTundra")
-DefineTerrain(4, 2, 488, 0,"Dragonblight")
-DefineTerrain(4, 3, 541, 0,"Hrothgar's Landing","HrothgarsLanding")
-DefineTerrain(4, 4, 490, 0,"Grizzly Hills","GrizzlyHills")
-DefineTerrain(4, 5, 491, 0,"Howling Fjord","HowlingFjord")
-DefineTerrain(4, 6, 492, 0,"Icecrown","IcecrownGlacier")
-DefineTerrain(4, 7, 493, 0,"Sholazar Basin","SholazarBasin")
-DefineTerrain(4, 8, 510, 0,"Crystalsong Forest","CrystalsongForest")
-DefineTerrain(4, 9, 496, 0,"Zul'Drak","ZulDrak")
-DefineTerrain(4,10, 501, 0,"Wintergrasp","LakeWintergrasp")
-DefineTerrain(4,11, 495, 0,"The Storm Peaks","TheStormPeaks")
-DefineTerrain(5, 0, 751, 0,"The Maelstrom","TheMaelstromContinent")
-DefineTerrain(5, 1, 605, 7,"Kezan")
-DefineTerrain(5, 2, 640, 0,"Deepholm")
-DefineTerrain(5, 3, 737, 0,"The Maelstrom@The Maelstrom","TheMaelstrom")
-DefineTerrain(5, 4, 544, 4,"The Lost Isles","TheLostIsles")
-DefineTerrain(6, 0, 862, 0,"Pandaria")
-DefineTerrain(6, 1, 807, 0,"Valley of the Four Winds","ValleyoftheFourWinds")
-DefineTerrain(6, 2, 809,21,"Kun-Lai Summit","KunLaiSummit")
-DefineTerrain(6, 3, 811,19,"Vale of Eternal Blossoms","ValeofEternalBlossoms")
-DefineTerrain(6, 4, 858, 0,"Dread Wastes","DreadWastes")
-DefineTerrain(6, 5, 806, 7,"The Jade Forest","TheJadeForest")
-DefineTerrain(6, 6, 928, 2,"Isle of Thunder","IsleoftheThunderKing")
-DefineTerrain(6, 7, 810, 0,"Townlong Steppes","TownlongWastes")
-DefineTerrain(6, 8, 857, 3,"Krasarang Wilds","Krasarang_terrain1")
-DefineTerrain(6, 9, 929, 0,"Isle of Giants","IsleOfGiants")
-DefineTerrain(6,10, 951,22,"Timeless Isle","TimelessIsle")
-DefineTerrain(6,11, 873, 5,"The Veiled Stair","TheHiddenPass")
-DefineTerrain(7, 0, 962, 0,"Draenor")
-DefineTerrain(7, 1, 950,12,"Nagrand@Draenor","NagrandDraenor")
-DefineTerrain(7, 2, 945, 0,"Tanaan Jungle","TanaanJungle")
-DefineTerrain(7, 3, 947, 0,"Shadowmoon Valley@Draenor","ShadowmoonValleyDR")
-DefineTerrain(7, 4, 949,21,"Gorgrond")
-DefineTerrain(7, 5, 948, 0,"Spires of Arak","SpiresOfArak")
-DefineTerrain(7, 6, 946,14,"Talador")
-DefineTerrain(7, 7, 941, 9,"Frostfire Ridge","FrostfireRidge")
-DefineTerrain(7, 8, 978, 0,"Ashran")
-DefineTerrain(8, 0,1007, 0,"Broken Isles","BrokenIsles")
-DefineTerrain(8, 1,1018,15,"Val'sharah","Valsharah")
-DefineTerrain(8, 2,1015, 0,"Azsuna")
-DefineTerrain(8, 3,1024,21,"Highmountain")
-DefineTerrain(8, 4,1033,42,"Suramar")
-DefineTerrain(8, 5,1014,12,"Dalaran","Dalaran70")
-DefineTerrain(8, 6,1017, 0,"Stormheim")
-DefineTerrain(8, 7,1096, 0,"Eye of Azshara","AszunaDungeonExterior")
-DefineTerrain(8, 8,1021, 2,"Broken Shore","BrokenShore")
-DefineTerrainFloor(1, 3, 464, 2,"Tides' Hollow@AzuremystIsle","Tides' Hollow")
-DefineTerrainFloor(1, 3, 464, 3,"Stillpine Hold@AzuremystIsle","Stillpine Hold")
-DefineTerrainFloor(1, 5,   9, 6,"Palemane Rock@Mulgore","Palemane Rock")
-DefineTerrainFloor(1, 5,   9, 7,"The Venture Co. Mine@Mulgore","The Venture Co. Mine")
-DefineTerrainFloor(1, 6, 101,21,"The Wicked Grotto@Desolace","The Wicked Grotto")
-DefineTerrainFloor(1, 6, 101,22,"Foulspore Cavern@Desolace","Foulspore Cavern")
-DefineTerrainFloor(1,10,  41, 2,"Shadowthread Cave@Teldrassil","Shadowthread Cave")
-DefineTerrainFloor(1,10,  41, 3,"Fel Rock@Teldrassil","Fel Rock")
-DefineTerrainFloor(1,10,  41, 4,"Upper Den@Teldrassil","Upper Den")
-DefineTerrainFloor(1,10,  41, 5,"Lower Den@Teldrassil","Lower Den")
-DefineTerrainFloor(1,17, 201,14,"The Slithering Scar@UngoroCrater","The Slithering Scar")
-DefineTerrainFloor(1,19, 161,15,"The Noxious Lair@Tanaris","The Noxious Lair")
-DefineTerrainFloor(1,19, 161,16,"The Gaping Chasm@Tanaris","The Gaping Chasm")
-DefineTerrainFloor(1,19, 161,17,"Timeless Tunnel@Tanaris","Timeless Tunnel")
-DefineTerrainFloor(1,19, 161,18,"Caverns of Time@Tanaris","Caverns of Time")
-DefineTerrainFloor(1,20,  11,20,"Wailing Cavern Entrance@Barrens","Wailing Cavern Entrance")
-DefineTerrainFloor(1,23, 261,13,"Twilights Run@Silithus","Twilights Run")
-DefineTerrainFloor(1,27,   4, 8,"Burning Blade Coven@Durotar","Burning Blade Coven")
-DefineTerrainFloor(1,27,   4,10,"Tiragarde Keep@Durotar","Tiragarde Keep")
-DefineTerrainFloor(1,27,   4,11,"Great Hall@Durotar","Great Hall")
-DefineTerrainFloor(1,27,   4,12,"Skull Rock@Durotar","Skull Rock")
-DefineTerrainFloor(1,27,   4,19,"Dustwind Cave@Durotar","Dustwind Cave")
-DefineTerrainFloor(2, 1,  27, 6,"Coldridge Pass@DunMorogh","Coldridge Pass")
-DefineTerrainFloor(2, 1,  27, 7,"The Grizzled Den@DunMorogh","The Grizzled Den")
-DefineTerrainFloor(2, 1,  27,10,"Gnomeregan@DunMorogh","Gnomeregan")
-DefineTerrainFloor(2, 1,  27,11,"Gol'Bolar Quarry@DunMorogh","Gol'Bolar Quarry")
-DefineTerrainFloor(2, 5,  39, 4,"Gold Coast Quarry@Westfall","Gold Coast Quarry")
-DefineTerrainFloor(2, 5,  39, 5,"Jangolode Mine@Westfall","Jangolode Mine")
-DefineTerrainFloor(2, 5,  39,17,"The Deadmines Entrance@Westfall","The Deadmines Entrance")
-DefineTerrainFloor(2, 8,  20,12,"Night Web's Hollow@Tirisfal","Night Web's Hollow")
-DefineTerrainFloor(2, 8,  20,13,"Scarlet Monastery Entrance@Tirisfal","Scarlet Monastery Entrance")
-DefineTerrainFloor(2,10,  28,14,"Blackrock Spire@SearingGorge","Blackrock Spire")
-DefineTerrainFloor(2,10,  28,15,"Blackrock Caverns@SearingGorge","Blackrock Caverns")
-DefineTerrainFloor(2,10,  28,16,"Blackrock Depths@SearingGorge","Blackrock Depths")
-DefineTerrainFloor(2,11,  32,23,"The Master's Cellar@DeadwindPass","The Master's Cellar")
-DefineTerrainFloor(2,11,  32,24,"Lower Cellar@DeadwindPass","Lower Cellar")
-DefineTerrainFloor(2,19,  29,14,"Blackrock Spire@BurningSteppes","Blackrock Spire")
-DefineTerrainFloor(2,19,  29,15,"Blackrock Caverns@BurningSteppes","Blackrock Caverns")
-DefineTerrainFloor(2,19,  29,16,"Blackrock Depths@BurningSteppes","Blackrock Depths")
-DefineTerrainFloor(2,24, 463, 1,"Amani Catacombs@Ghostlands","Amani Catacombs")
--- DefineTerrainFloor(2,24, 463, 1,"Ghostlands","Amani Catacombs")
-DefineTerrainFloor(2,25,  30, 1,"Fargodeep Mine@Elwynn","Fargodeep Mine")
-DefineTerrainFloor(2,25,  30, 2,"Lower Mines@Elwynn","Lower Mines")
-DefineTerrainFloor(2,25,  30, 9,"Jasperlode Mine@Elwynn","Jasperlode Mine")
-DefineTerrainFloor(2,32,  17,18,"Uldaman Entrance@Badlands","Uldaman Entrance")
-DefineTerrainFloor(5, 1, 605, 5,"Kaja'Mine Gold@Kezan","Kaja'Mine Gold")
-DefineTerrainFloor(5, 1, 605, 6,"Kaja'Mine Silver@Kezan","Kaja'Mine Silver")
-DefineTerrainFloor(5, 1, 605, 7,"Kaja'Mine Copper@Kezan","Kaja'Mine Copper")
-DefineTerrainFloor(5, 4, 544, 1,"Kaja'Mite Cavern@TheLostIsles","Kaja'Mite Cavern")
-DefineTerrainFloor(5, 4, 544, 2,"Volcanoth's Lair@TheLostIsles","Volcanoth's Lair")
-DefineTerrainFloor(5, 4, 544, 3,"Mine Tunnels@TheLostIsles","Mine Tunnels")
-DefineTerrainFloor(5, 4, 544, 4,"Mine Shaft@TheLostIsles","Mine Shaft")
-DefineTerrainFloor(6, 2, 809,11,"Upper Deep@KunLaiSummit","Upper Deep")
-DefineTerrainFloor(6, 2, 809,12,"Lower Deep@KunLaiSummit","Lower Deep")
-DefineTerrainFloor(6, 2, 809,17,"Tomb of Conquerors@KunLaiSummit","Tomb of Conquerors")
-DefineTerrainFloor(6, 2, 809,20,"Ruins of Korune@KunLaiSummit","Ruins of Korune")
-DefineTerrainFloor(6, 2, 809,21,"Crypt of Korune@KunLaiSummit","Crypt of Korune")
-DefineTerrainFloor(6, 3, 811,18,"Guo-Lai Halls@ValeofEternalBlossoms","Guo-Lai Halls")
-DefineTerrainFloor(6, 3, 811,19,"The Hall of the Serpent@ValeofEternalBlossoms","The Hall of the Serpent")
-DefineTerrainFloor(6, 5, 806, 6,"Upper Quarry@TheJadeForest","Upper Quarry")
-DefineTerrainFloor(6, 5, 806, 7,"Lower Quarry@TheJadeForest","Lower Quarry")
-DefineTerrainFloor(6, 6, 928, 1,"Ghostly Veins@IsleoftheThunderKing","Ghostly Veins")
-DefineTerrainFloor(6, 6, 928, 2,"The Swollen Vault@IsleoftheThunderKing","The Swollen Vault")
-DefineTerrainFloor(6, 8, 857, 1,"Explorers' League HQ@Krasarang_terrain1","Explorers' League HQ")
-DefineTerrainFloor(6, 8, 857, 2,"Ruins of Ogudei@Krasarang_terrain1","Ruins of Ogudei")
-DefineTerrainFloor(6, 8, 857, 3,"Reliquary Incursion@Krasarang_terrain1","Reliquary Incursion")
-DefineTerrainFloor(6,10, 951,22,"Cavern of Lost Spirits@TimelessIsle","Cavern of Lost Spirits")
-DefineTerrainFloor(6,11, 873, 5,"The Ancient Passage@TheHiddenPass","The Ancient Passage")
-DefineTerrainFloor(7, 1, 950,10,"The Master's Cavern@NagrandDraenor","The Master's Cavern")
-DefineTerrainFloor(7, 1, 950,11,"Stonecrag Gorge@NagrandDraenor","Stonecrag Gorge")
-DefineTerrainFloor(7, 1, 950,12,"The Underpale@NagrandDraenor","The Underpale")
-DefineTerrainFloor(7, 4, 949,16,"Moira's Bastion@Gorgrond","Moira's Bastion")
-DefineTerrainFloor(7, 4, 949,17,"The Armory@Gorgrond","The Armory")
-DefineTerrainFloor(7, 4, 949,18,"Fissure of Fury@Gorgrond","Fissure of Fury")
-DefineTerrainFloor(7, 4, 949,19,"Heart of Fury@Gorgrond","Heart of Fury")
-DefineTerrainFloor(7, 4, 949,20,"Cragplume Crater@Gorgrond","Cragplume Crater")
-DefineTerrainFloor(7, 4, 949,21,"Cragplume Depths@Gorgrond","Cragplume Depths")
-DefineTerrainFloor(7, 6, 946,13,"Tomb of Lights@Talador","Tomb of Lights")
-DefineTerrainFloor(7, 6, 946,14,"Tomb of Souls@Talador","Tomb of Souls")
-DefineTerrainFloor(7, 7, 941, 1,"Bladespire Citadel@FrostfireRidge","Bladespire Citadel")
-DefineTerrainFloor(7, 7, 941, 2,"Bladespire Courtyard@FrostfireRidge","Bladespire Courtyard")
-DefineTerrainFloor(7, 7, 941, 3,"Bladespire Throne@FrostfireRidge","Bladespire Throne")
-DefineTerrainFloor(7, 7, 941, 4,"Sootstained Mines@FrostfireRidge","Sootstained Mines")
-DefineTerrainFloor(7, 7, 941, 6,"Grom'gar@FrostfireRidge","Grom'gar")
-DefineTerrainFloor(7, 7, 941, 7,"Grulloc's Grotto@FrostfireRidge","Grulloc's Grotto")
-DefineTerrainFloor(7, 7, 941, 8,"Grulloc's Lair@FrostfireRidge","Grulloc's Lair")
-DefineTerrainFloor(7, 7, 941, 9,"Snowfall Alcove@FrostfireRidge","Snowfall Alcove")
-DefineTerrainFloor(8, 1,1018,14,"Lower Sleepers Barrow@Valsharah","Lower Sleepers Barrow")
-DefineTerrainFloor(8, 1,1018,15,"Upper Sleepers Barrow@Valsharah","Upper Sleepers Barrow")
-DefineTerrainFloor(8, 3,1024,20,"Lifespring Lower Cavern@Highmountain","Lifespring Lower Cavern")
-DefineTerrainFloor(8, 3,1024,21,"Lifespring Upper Cavern@Highmountain","Lifespring Upper Cavern")
-DefineTerrainFloor(8, 4,1033,32,"Temple of Fal'adora@Suramar","Temple of Fal'adora")
-DefineTerrainFloor(8, 4,1033,42,"Falanaar Tunnels@Suramar","Falanaar Tunnels")
-DefineTerrainFloor(8, 8,1021, 1,"The Heart of Acherus@BrokenShore","The Heart of Acherus")
-DefineTerrainFloor(8, 8,1021, 2,"Hall of Command@BrokenShore","Hall of Command")
-
--- Manual overrides
-DefineInstance( 971,0,"Lunarfall")
-DefineDungeonArea( 971,23,"Lunarfall Excavation@Lunarfall","Lunarfall","Lunarfall")
-DefineInstance( 976,0,"Frostwall")
-DefineInstance(1009,0,"Stormshield")
-DefineInstance(1011,0,"Warspear")
-DefineInstance(1072, 0,"TrueshotLodge","TrueshotLodge")
-DefineTerrain(2,50, 614,0,"Abyssal Depths")
-DefineTerrain(2,51, 615,0,"Shimmering Expanse")
-DefineTerrain(2,51, 610,0,"Kelp'thar Forest")
-DefineTerrain(2,11,  32, 0,"Deadwind Pass","DeadwindPass")
-DefineTerrainFloor(2,11, 32,21,"Dalaran@DeadwindPass","DeadwindPass")
-DefineTerrainFloor(2,24, 463, 0,"Ghostlands","Ghostlands")
-DefineTerrainFloor(6,11, 873,5,"The Ancient Passage","TheHiddenPass")
-DefineTerrainFloor(7, 2, 970,1,"Umbral Halls", "TanaanJungleIntro")
-DefineTerrainFloor(7, 3, 947,15,"Bloodthorn Cave", "Shadowmoon Valley@Draenor")
-DefineTerrainFloor(8, 2, 1015,17,"NarthalasAcademy", "NarthalasAcademy@Azsuna")
-DefineTerrainFloor(8, 2, 1015,18,"OceanusCove", "OceanusCove@Azsuna")
-DefineTerrainFloor(8, 6, 1017,9,"StormDrakeDen", "StormDrakeDen@Stormheim")
-DefineTerrainFloor(8, 6, 1017,25,"ThorignirRefuge", "ThorignirRefuge@Stormheim")
-DefineTerrainFloor(8, 6, 1017,27,"AggramarsVault", "AggramarsVaulty@Stormheim")
-DefineDungeonArea( 321,3,"The Imperial Exchange@Shrine of Seven Stars","Shrine of Seven Stars","Shrine of Seven Stars")
-DefineDungeonArea( 811,4,"The Emperor's Step@Shrine of Seven Stars","Shrine of Seven Stars","Shrine of Seven Stars")
-DefineDungeonArea( 321,3,"The Imperial Mercantile@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
-DefineDungeonArea( 773, 1,"Throne of the Four Winds@ThroneoftheFourWinds","ThroneoftheFourWinds","Throne of the Four Winds")
-DefineDungeonArea( 811,4,"Hall of the Crescent Moon@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
-DefineDungeonArea(1041, 1,"Field of the Eternal Hunt@HallsofValor","HallsofValor","Field of the Eternal Hunt")
-DefineDungeonArea(1041, 2,"The High Gate@HallsofValor","HallsofValor","The High Gate")
-DefineDungeonArea(1052, 2,"Upper Command Center@DemonHunterOrderHallTerrain","DemonHunterOrderHallTerrain","Upper Command Center")
-DefineDungeonArea(1052, 1,"Lower Command Center@DemonHunterOrderHallTerrain","DemonHunterOrderHallTerrain","Lower Command Center")
-DefineDungeonArea(1062, 1,"Floor1@TirisfalGladesInsideScenario","TirisfalGladesInsideScenario","Floor1")
-DefineDungeonArea(1062, 2,"Floor2@TirisfalGladesInsideScenario","TirisfalGladesInsideScenario","Floor2")
-DefineDungeonArea( 1077,0,"TheDreamgrove","TheDreamgrove","TheDreamgrove")
-
--- Starter Zones
-DefineInstance( 864,0,"Northshire","Northshire")
-DefineInstance( 866,0,"Coldridge Valley","ColdridgeValley")
-DefineInstance( 888,0,"Shadowglen","ShadowglenStart")
-DefineInstance( 889,0,"Valley of Trials","ValleyofTrialsStart")
-DefineInstance( 890,0,"Camp Narache","CampNaracheStart")
-DefineInstance( 891,0,"Echo Isles","EchoIslesStart")
-DefineInstance( 892,0,"Deathknell","DeathknellStart")
-DefineInstance( 893,0,"Sunstrider Isle","SunstriderIsleStart")
-DefineInstance( 894,0,"Ammen Vale","AmmenValeStart")
-DefineTerrainFloor(2, 1, 27,10,"The Old Dormitory","DunMorogh")
-DefineInstance( 895,0,"New Tinkertown","NewTinkertownStart")
+DefineZone("Durotar", 1, 3, 12, 0, 85, 463, 461, 464, 6, 5, 4, 3, 2) -- nil
+DefineZone("Burning Blade Coven", 2, 5, 1, 0) -- nil
+DefineZone("Tiragarde Keep", 3, 5, 1, 145) -- nil
+DefineZone("Great Hall!Tiragarde Keep", 4, 5, 1, 145) -- nil
+DefineZone("Skull Rock", 5, 5, 1, 0) -- nil
+DefineZone("Dustwind Cave", 6, 5, 1, 0) -- nil
+DefineZone("Mulgore", 7, 3, 12, 0, 9, 8, 462) -- nil
+DefineZone("Palemane Rock", 8, 5, 7, 0) -- nil
+DefineZone("The Venture Co. Mine", 9, 5, 7, 0) -- nil
+DefineZone("Northern Barrens", 10, 3, 12, 0, 859, 11, 825, 279, 92) -- nil
+DefineZone("Wailing Caverns", 11, 5, 10, 0) -- Wailing Caverns!Northern Barrens!Kalimdor!Azeroth
+DefineZone("Kalimdor", 12, 2, 947, 0, 77, 76, 198, 78, 199, 71, 70, 80, 81, 69, 83, 88, 89, 97, 103, 106, 907, 891, 524, 775, 776, 782, 785, 66, 1, 65, 64, 63, 7, 62, 10, 327, 57, 249) -- Kalimdor!Azeroth
+DefineZone("Eastern Kingdoms", 13, 2, 947, 0, 37, 36, 32, 1013, 110, 1012, 27, 26, 25, 23, 22, 122, 21, 943, 18, 906, 501, 17, 502, 179, 15, 773, 14, 1044, 783, 784, 203, 42, 245, 95, 217, 218, 94, 244, 224, 47, 90, 48, 49, 56, 87, 51, 52, 84, 241) -- Eastern Kingdoms!Azeroth
+DefineZone("Arathi Highlands", 14, 3, 13, 0, 837, 93, 844) -- Arathi Highlands!Eastern Kingdoms!Azeroth!Cosmic
+DefineZone("Badlands", 15, 3, 13, 0, 230, 231, 16) -- nil
+DefineZone("Uldaman", 16, 5, 15, 0) -- nil
+DefineZone("Blasted Lands", 17, 3, 13, 0) -- nil
+DefineZone("Tirisfal Glades", 18, 3, 13, 0, 805, 804, 432, 435, 436, 431, 466, 908, 19, 20, 465, 305, 304, 303, 302) -- Tirisfal Glades!Eastern Kingdoms
+DefineZone("Scarlet Monastery Entrance", 19, 5, 18, 0) -- nil
+DefineZone("Keeper's Rest", 20, 5, 18, 0) -- nil
+DefineZone("Silverpine Forest", 21, 3, 13, 0, 313, 312, 311, 310, 316, 315, 314) -- nil
+DefineZone("Western Plaguelands", 22, 3, 13, 0, 309, 308, 307, 306, 476, 827, 477, 478, 479) -- nil
+DefineZone("Eastern Plaguelands", 23, 3, 13, 0, 24, 124, 317, 318) -- nil
+DefineZone("Light's Hope Chapel", 24, 5, 23, 0) -- nil
+DefineZone("Hillsbrad Foothills", 25, 3, 13, 0, 91, 623) -- nil
+DefineZone("The Hinterlands", 26, 3, 13, 0) -- nil
+DefineZone("Dun Morogh", 27, 3, 13, 0, 229, 228, 227, 226, 427, 428, 469, 470, 842, 523, 841, 840, 28, 29, 30, 31, 834) -- Dun Morogh!Eastern Kingdoms
+DefineZone("Coldridge Pass", 28, 5, 27, 0) -- nil
+DefineZone("The Grizzled Den", 29, 5, 27, 0) -- nil
+DefineZone("New Tinkertown", 30, 5, 27, 0) -- New Tinkertown!Dun Morogh!Eastern Kingdoms
+DefineZone("Gol'Bolar Quarry", 31, 5, 27, 0) -- nil
+DefineZone("Searing Gorge", 32, 3, 13, 0, 242, 243, 35) -- nil
+DefineZone("Blackrock Spire!Blackrock Mountain", 33, 5, 36, 140) -- nil
+DefineZone("Blackrock Caverns!Blackrock Mountain", 34, 5, 36, 140) -- nil
+DefineZone("Blackrock Depths!Blackrock Mountain", 35, 5, 32, 140) -- nil
+DefineZone("Burning Steppes", 36, 3, 13, 0, 232, 250, 251, 252, 253, 254, 255, 33, 34, 616, 617, 618, 287, 838, 286, 285, 284, 283, 288, 289, 290) -- nil
+DefineZone("Elwynn Forest", 37, 3, 13, 0, 38, 39, 426, 425, 40) -- nil
+DefineZone("Fargodeep Mine", 38, 5, 37, 139) -- nil
+DefineZone("Lower Mines!Fargodeep Mine", 39, 5, 37, 139) -- nil
+DefineZone("Jasperlode Mine", 40, 5, 37, 0) -- nil
+DefineZone("Dalaran", 41, 5, 42, 0) -- Dalaran!Deadwind Pass
+DefineZone("Deadwind Pass", 42, 3, 13, 0, 46, 45, 44, 366, 365, 364, 363, 362, 361, 360, 41, 359, 358, 357, 356, 355, 354, 353, 352, 351, 350, 43, 818, 817, 816, 815, 814, 813, 812, 811, 810, 809, 822, 821, 819, 794, 795, 796, 820, 797) -- nil
+DefineZone("The Master's Cellar", 43, 5, 42, 0) -- The Master's Cellar!Deadwind Pass!Eastern Kingdoms
+DefineZone("The Master's Cellar", 44, 5, 42, 141) -- The Master's Cellar!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Lower Cellar!The Master's Cellar", 45, 5, 42, 141) -- nil
+DefineZone("Karazhan Catacombs", 46, 5, 42, 0) -- nil
+DefineZone("Duskwood", 47, 3, 13, 0) -- nil
+DefineZone("Loch Modan", 48, 3, 13, 0) -- nil
+DefineZone("Redridge Mountains", 49, 3, 13, 0) -- nil
+DefineZone("Northern Stranglethorn", 50, 3, 224, 0, 337, 233) -- nil
+DefineZone("Swamp of Sorrows", 51, 3, 13, 0, 220) -- nil
+DefineZone("Westfall", 52, 3, 13, 0, 55, 292, 291, 54, 835, 836, 53) -- nil
+DefineZone("Gold Coast Quarry", 53, 5, 52, 0) -- nil
+DefineZone("Jangolode Mine", 54, 5, 52, 0) -- nil
+DefineZone("The Deadmines", 55, 5, 52, 0) -- The Deadmines!Westfall!Eastern Kingdoms
+DefineZone("Wetlands", 56, 3, 13, 0) -- nil
+DefineZone("Teldrassil", 57, 3, 12, 0, 59, 60, 61, 58, 460) -- nil
+DefineZone("Shadowthread Cave", 58, 5, 57, 0) -- nil
+DefineZone("Fel Rock", 59, 5, 57, 0) -- nil
+DefineZone("Upper Den!Ban'ethil Barrow Den", 60, 5, 57, 146) -- nil
+DefineZone("Lower Den!Ban'ethil Barrow Den", 61, 5, 57, 146) -- nil
+DefineZone("Darkshore", 62, 3, 12, 0) -- nil
+DefineZone("Ashenvale", 63, 3, 12, 0, 221, 222, 223) -- nil
+DefineZone("Thousand Needles", 64, 3, 12, 0, 300) -- nil
+DefineZone("Stonetalon Mountains", 65, 3, 12, 0) -- nil
+DefineZone("Desolace", 66, 3, 12, 0, 67, 68, 281, 280) -- nil
+DefineZone("The Wicked Grotto!Maraudon", 67, 5, 66, 144) -- nil
+DefineZone("Foulspore Cavern!Maraudon", 68, 5, 66, 144) -- nil
+DefineZone("Feralas", 69, 3, 12, 0, 238, 239, 240, 237, 236, 235, 234) -- nil
+DefineZone("Dustwallow Marsh", 70, 3, 12, 0, 483, 248, 416) -- Dustwallow Marsh!Kalimdor
+DefineZone("Tanaris", 71, 3, 12, 0, 399, 401, 398, 219, 409, 72, 73, 74, 75, 130) -- nil
+DefineZone("The Noxious Lair", 72, 5, 71, 0) -- nil
+DefineZone("The Gaping Chasm", 73, 5, 71, 0) -- nil
+DefineZone("Timeless Tunnel!Caverns of Time", 74, 5, 71, 143) -- nil
+DefineZone("Caverns of Time", 75, 5, 71, 143, 273, 274, 329) -- nil
+DefineZone("Azshara", 76, 3, 12, 0, 697) -- Azshara!Kalimdor
+DefineZone("Felwood", 77, 3, 12, 0) -- nil
+DefineZone("Un'Goro Crater", 78, 3, 12, 0, 79) -- nil
+DefineZone("The Slithering Scar", 79, 5, 78, 0) -- nil
+DefineZone("Moonglade", 80, 3, 12, 0) -- nil
+DefineZone("Silithus", 81, 3, 12, 0, 319, 320, 321, 247, 82, 904, 1021) -- nil
+DefineZone("Twilight's Run", 82, 5, 81, 0) -- nil
+DefineZone("Winterspring", 83, 3, 12, 0) -- nil
+DefineZone("Stormwind City", 84, 3, 13, 0, 500, 499, 225) -- Stormwind City!Eastern Kingdoms!Azeroth
+DefineZone("Orgrimmar", 85, 3, 1, 142, 86, 522, 503, 213) -- nil
+DefineZone("Cleft of Shadow!Orgrimmar", 86, 4, 85, 142) -- nil
+DefineZone("Ironforge", 87, 3, 13, 0) -- nil
+DefineZone("Thunder Bluff", 88, 3, 12, 0) -- nil
+DefineZone("Darnassus", 89, 3, 12, 0) -- nil
+DefineZone("Undercity", 90, 3, 13, 0) -- Undercity!Eastern Kingdoms
+DefineZone("Alterac Valley", 91, 6, 25, 0) -- nil
+DefineZone("Warsong Gulch", 92, 6, 10, 0) -- Warsong Gulch!Northern Barrens!Kalimdor
+DefineZone("Arathi Basin", 93, 6, 14, 0) -- Arathi Basin!Arathi Highlands!Eastern Kingdoms!Azeroth
+DefineZone("Eversong Woods", 94, 3, 13, 0, 467) -- nil
+DefineZone("Ghostlands", 95, 3, 13, 0, 96, 333) -- nil
+DefineZone("Amani Catacombs", 96, 5, 95, 0) -- nil
+DefineZone("Azuremyst Isle", 97, 3, 12, 0, 99, 98, 468) -- Azuremyst Isle!Kalimdor!Azeroth!Cosmic
+DefineZone("Tides' Hollow", 98, 5, 97, 0) -- nil
+DefineZone("Stillpine Hold", 99, 5, 97, 0) -- nil
+DefineZone("Hellfire Peninsula", 100, 3, 101, 0, 246, 261, 347, 331) -- nil
+DefineZone("Outland", 101, 2, 946, 0, 104, 105, 107, 108, 102, 109, 111, 100) -- Outland!Cosmic
+DefineZone("Zangarmarsh", 102, 3, 101, 0, 332, 262, 263, 264, 265) -- nil
+DefineZone("The Exodar", 103, 3, 12, 0) -- The Exodar!Kalimdor!Azeroth
+DefineZone("Shadowmoon Valley", 104, 3, 101, 0, 759, 339, 490) -- Shadowmoon Valley!Outland
+DefineZone("Blade's Edge Mountains", 105, 3, 101, 0, 330) -- nil
+DefineZone("Bloodmyst Isle", 106, 3, 12, 0) -- nil
+DefineZone("Nagrand", 107, 3, 101, 0) -- Nagrand!Outland
+DefineZone("Terokkar Forest", 108, 3, 101, 0, 256, 257, 258, 259, 260, 272) -- nil
+DefineZone("Netherstorm", 109, 3, 101, 0, 397, 266, 267, 268, 269, 270, 271, 112, 334, 890, 889) -- nil
+DefineZone("Silvermoon City", 110, 3, 13, 0) -- nil
+DefineZone("Shattrath City", 111, 3, 101, 0) -- Shattrath City!Outland
+DefineZone("Eye of the Storm", 112, 6, 109, 0) -- Eye of the Storm!Netherstorm!Outland
+DefineZone("Northrend", 113, 2, 947, 0, 127, 897, 871, 114, 115, 123, 121, 120, 119, 118, 170, 117, 116) -- Northrend!Azeroth
+DefineZone("Borean Tundra", 114, 3, 113, 0, 129, 736, 881, 141, 142, 143, 828, 144, 145, 799, 146, 800, 801, 802, 803, 370) -- nil
+DefineZone("Dragonblight", 115, 3, 113, 0, 128, 132, 200, 155, 157, 158, 159, 163, 164, 165, 860, 166, 167, 162) -- nil
+DefineZone("Grizzly Hills", 116, 3, 113, 0, 757) -- nil
+DefineZone("Howling Fjord", 117, 3, 113, 0, 137, 136, 135, 133, 134) -- nil
+DefineZone("Icecrown", 118, 3, 113, 0, 192, 191, 190, 173, 186, 172, 171, 823, 169, 698, 193, 699, 700, 701, 187, 185, 184, 183, 188, 189) -- nil
+DefineZone("Sholazar Basin", 119, 3, 113, 0, 888) -- nil
+DefineZone("The Storm Peaks", 120, 3, 113, 0, 139, 140, 138, 147, 744, 745, 746) -- nil
+DefineZone("Zul'Drak", 121, 3, 113, 0, 153, 154, 160, 161) -- nil
+DefineZone("Isle of Quel'Danas", 122, 3, 13, 0, 348, 349) -- nil
+DefineZone("Wintergrasp", 123, 3, 113, 0, 156) -- nil
+DefineZone("Plaguelands: The Scarlet Enclave", 124, 6, 23, 0) -- nil
+DefineZone("Dalaran City!Dalaran", 125, 4, 127, 170, 168) -- Dalaran City!Dalaran!Crystalsong Forest
+DefineZone("The Underbelly!Dalaran", 126, 4, 127, 170) -- The Underbelly!Dalaran!Crystalsong Forest
+DefineZone("Crystalsong Forest", 127, 3, 113, 0, 126, 125) -- nil
+DefineZone("Strand of the Ancients", 128, 6, 115, 0) -- nil
+DefineZone("The Nexus", 129, 4, 114, 0) -- The Nexus!Borean Tundra!Northrend
+DefineZone("The Culling of Stratholme", 130, 4, 71, 176, 131) -- nil
+DefineZone("Stratholme City!The Culling of Stratholme", 131, 4, 130, 176) -- nil
+DefineZone("Ahn'kahet: The Old Kingdom", 132, 4, 115, 0) -- nil
+DefineZone("Njorndir Preparation!Utgarde Keep", 133, 4, 117, 171) -- nil
+DefineZone("Dragonflayer Ascent!Utgarde Keep", 134, 4, 117, 171) -- nil
+DefineZone("Tyr's Terrace!Utgarde Keep", 135, 4, 117, 171) -- nil
+DefineZone("Lower Pinnacle!Utgarde Pinnacle", 136, 4, 117, 172) -- nil
+DefineZone("Upper Pinnacle!Utgarde Pinnacle", 137, 4, 117, 172) -- nil
+DefineZone("Unyielding Garrison!Halls of Lightning", 138, 4, 120, 179) -- nil
+DefineZone("Walk of the Makers!Halls of Lightning", 139, 4, 120, 179) -- nil
+DefineZone("Halls of Stone", 140, 4, 120, 0) -- nil
+DefineZone("The Eye of Eternity", 141, 4, 114, 0) -- The Eye of Eternity!Borean Tundra!Northrend!Azeroth
+DefineZone("The Oculus", 142, 6, 114, 0) -- The Oculus!Borean Tundra!Northrend
+DefineZone("Band of Variance!The Oculus", 143, 4, 114, 173) -- Band of Variance!The Oculus!Borean Tundra!Northrend
+DefineZone("Band of Acceleration!The Oculus", 144, 4, 114, 173) -- Band of Acceleration!The Oculus!Borean Tundra!Northrend
+DefineZone("Band of Transmutation!The Oculus", 145, 4, 114, 173) -- Band of Transmutation!The Oculus!Borean Tundra!Northrend
+DefineZone("Band of Alignment!The Oculus", 146, 4, 114, 173) -- Band of Alignment!The Oculus!Borean Tundra!Northrend
+DefineZone("Ulduar", 147, 4, 120, 180, 152, 151, 150, 149, 148) -- nil
+DefineZone("The Antechamber of Ulduar!Ulduar", 148, 4, 147, 180) -- The Antechamber of Ulduar!Ulduar!Ulduar
+DefineZone("The Inner Sanctum of Ulduar!Ulduar", 149, 4, 147, 180) -- nil
+DefineZone("The Prison of Yogg-Saron!Ulduar", 150, 4, 147, 180) -- nil
+DefineZone("The Spark of Imagination!Ulduar", 151, 4, 147, 180) -- The Spark of Imagination!Ulduar!Ulduar
+DefineZone("The Mind's Eye!Ulduar", 152, 4, 147, 180) -- nil
+DefineZone("Gundrak", 153, 6, 121, 0) -- Gundrak!Zul'Drak!Northrend
+DefineZone("Gundrak", 154, 4, 121, 0) -- Gundrak!Zul'Drak!Northrend!Azeroth
+DefineZone("The Obsidian Sanctum", 155, 6, 115, 0) -- nil
+DefineZone("Vault of Archavon", 156, 4, 123, 0) -- nil
+DefineZone("The Brood Pit!Azjol-Nerub", 157, 4, 115, 178) -- nil
+DefineZone("Hadronox's Lair!Azjol-Nerub", 158, 4, 115, 178) -- nil
+DefineZone("The Gilded Gate!Azjol-Nerub", 159, 4, 115, 178) -- nil
+DefineZone("The Vestibules of Drak'Tharon!Drak'Tharon Keep", 160, 4, 121, 177) -- nil
+DefineZone("Drak'Tharon Overlook!Drak'Tharon Keep", 161, 4, 121, 177) -- nil
+DefineZone("The Construct Quarter!Naxxramas", 162, 4, 115, 163) -- nil
+DefineZone("The Arachnid Quarter!Naxxramas", 163, 4, 115, 163) -- nil
+DefineZone("The Military Quarter!Naxxramas", 164, 4, 115, 163) -- nil
+DefineZone("The Plague Quarter!Naxxramas", 165, 4, 115, 163) -- nil
+DefineZone("The Lower Necropolis!Naxxramas", 166, 4, 115, 163) -- nil
+DefineZone("The Upper Necropolis!Naxxramas", 167, 4, 115, 163) -- nil
+DefineZone("The Violet Hold", 168, 4, 125, 0) -- The Violet Hold!Dalaran City!Dalaran
+DefineZone("Isle of Conquest", 169, 6, 118, 0) -- nil
+DefineZone("Hrothgar's Landing", 170, 3, 113, 0) -- nil
+DefineZone("Trial of the Champion", 171, 4, 118, 0) -- nil
+DefineZone("The Argent Coliseum!Trial of the Crusader", 172, 4, 118, 187) -- nil
+DefineZone("The Icy Depths!Trial of the Crusader", 173, 4, 118, 187) -- nil
+DefineZone("The Lost Isles", 174, 3, 948, 0, 177, 178, 176, 175) -- nil
+DefineZone("Kaja'mite Cavern", 175, 5, 174, 0) -- nil
+DefineZone("Volcanoth's Lair", 176, 5, 174, 0) -- nil
+DefineZone("Mine Tunnels!Gallywix Labor Mine", 177, 5, 174, 186) -- nil
+DefineZone("Mine Shaft!Gallywix Labor Mine", 178, 5, 174, 186) -- nil
+DefineZone("Gilneas", 179, 3, 13, 0, 180, 181, 182, 275, 1031, 202) -- nil
+DefineZone("Emberstone Mine", 180, 5, 179, 0) -- nil
+DefineZone("Main Floor!Greymane Manor", 181, 5, 179, 188) -- Main Floor!Greymane Manor!Gilneas
+DefineZone("Upper Floor!Greymane Manor", 182, 5, 179, 188) -- Upper Floor!Greymane Manor!Gilneas!Eastern Kingdoms
+DefineZone("The Forge of Souls", 183, 4, 118, 0) -- nil
+DefineZone("Pit of Saron", 184, 6, 118, 0) -- Pit of Saron!Icecrown!Northrend
+DefineZone("Halls of Reflection", 185, 4, 118, 0) -- nil
+DefineZone("The Lower Citadel!Icecrown Citadel", 186, 4, 118, 181) -- nil
+DefineZone("The Rampart of Skulls!Icecrown Citadel", 187, 4, 118, 181) -- nil
+DefineZone("Deathbringer's Rise!Icecrown Citadel", 188, 4, 118, 181) -- nil
+DefineZone("The Frost Queen's Lair!Icecrown Citadel", 189, 4, 118, 181) -- nil
+DefineZone("The Upper Reaches!Icecrown Citadel", 190, 4, 118, 181) -- nil
+DefineZone("Royal Quarters!Icecrown Citadel", 191, 4, 118, 181) -- nil
+DefineZone("The Frozen Throne!Icecrown Citadel", 192, 4, 118, 181) -- The Frozen Throne!Icecrown Citadel!Icecrown!Northrend
+DefineZone("Frostmourne!Icecrown Citadel", 193, 4, 118, 181) -- nil
+DefineZone("Kezan", 194, 3, 948, 0, 197, 196, 195, 1010) -- nil
+DefineZone("Kaja'mine", 195, 5, 194, 0) -- Kaja'mine!Kezan!The Maelstrom!Azeroth
+DefineZone("Kaja'mine", 196, 5, 194, 0) -- Kaja'mine!Kezan!The Maelstrom!Azeroth
+DefineZone("Kaja'mine", 197, 5, 194, 0) -- Kaja'mine!Kezan!The Maelstrom!Azeroth
+DefineZone("Mount Hyjal", 198, 3, 12, 0, 367, 760, 738, 338) -- nil
+DefineZone("Southern Barrens", 199, 3, 12, 0, 301) -- nil
+DefineZone("The Ruby Sanctum", 200, 6, 115, 0) -- The Ruby Sanctum!Dragonblight!Northrend
+DefineZone("Kelp'thar Forest", 201, 3, 203, 0) -- nil
+DefineZone("Gilneas City", 202, 3, 179, 0) -- nil
+DefineZone("Vashj'ir", 203, 3, 13, 0, 205, 204, 201) -- nil
+DefineZone("Abyssal Depths", 204, 3, 203, 0, 743, 742, 323, 322) -- nil
+DefineZone("Shimmering Expanse", 205, 3, 203, 0) -- nil
+DefineZone("Twin Peaks", 206, 6, 241, 0) -- nil
+DefineZone("Deepholm", 207, 3, 948, 0, 324, 729, 209, 208) -- nil
+DefineZone("Floor 1!Twilight Depths", 208, 5, 207, 185) -- nil
+DefineZone("Floor 2!Twilight Depths", 209, 5, 207, 185) -- nil
+DefineZone("The Cape of Stranglethorn", 210, 3, 224, 0) -- nil
+DefineZone("Ragefire Chasm", 213, 4, 85, 0) -- nil
+DefineZone("Ruins of Gilneas", 217, 3, 13, 0, 1030) -- nil
+DefineZone("Ruins of Gilneas City", 218, 6, 13, 0) -- nil
+DefineZone("Zul'Farrak", 219, 6, 71, 0) -- nil
+DefineZone("The Temple of Atal'Hakkar", 220, 4, 51, 0) -- nil
+DefineZone("The Pool of Ask'Ar!Blackfathom Deeps", 221, 4, 63, 149) -- nil
+DefineZone("Moonshrine Sanctum!Blackfathom Deeps", 222, 4, 63, 149) -- nil
+DefineZone("The Forgotten Pool!Blackfathom Deeps", 223, 4, 63, 149) -- nil
+DefineZone("Stranglethorn Vale", 224, 3, 13, 0, 50, 210, 423) -- nil
+DefineZone("The Stockade", 225, 4, 84, 0) -- The Stockade!Stormwind City
+DefineZone("The Hall of Gears!Gnomeregan", 226, 4, 27, 151) -- nil
+DefineZone("The Dormitory!Gnomeregan", 227, 4, 27, 151) -- nil
+DefineZone("Launch Bay!Gnomeregan", 228, 4, 27, 151) -- nil
+DefineZone("Tinkers' Court!Gnomeregan", 229, 4, 27, 151) -- nil
+DefineZone("Hall of the Keepers!Uldaman", 230, 4, 15, 150) -- nil
+DefineZone("Khaz'Goroth's Seat!Uldaman", 231, 4, 15, 150) -- nil
+DefineZone("Molten Core", 232, 4, 36, 0) -- nil
+DefineZone("Zul'Gurub", 233, 6, 50, 0) -- Zul'Gurub!Northern Stranglethorn!Stranglethorn Vale
+DefineZone("Dire Maul", 234, 6, 69, 0) -- nil
+DefineZone("Gordok Commons!Dire Maul", 235, 4, 69, 159) -- nil
+DefineZone("Capital Gardens!Dire Maul", 236, 4, 69, 159) -- nil
+DefineZone("Court of the Highborne!Dire Maul", 237, 4, 69, 159) -- nil
+DefineZone("Prison of Immol'Thar!Dire Maul", 238, 4, 69, 159) -- nil
+DefineZone("Warpwood Quarter!Dire Maul", 239, 4, 69, 159) -- nil
+DefineZone("The Shrine of Eldretharr!Dire Maul", 240, 4, 69, 159) -- nil
+DefineZone("Twilight Highlands", 241, 3, 13, 0, 206, 296, 295, 294, 293) -- nil
+DefineZone("Detention Block!Blackrock Depths", 242, 4, 32, 154) -- nil
+DefineZone("Shadowforge City!Blackrock Depths", 243, 4, 32, 154) -- nil
+DefineZone("Tol Barad", 244, 3, 13, 0, 282, 774) -- Tol Barad!Eastern Kingdoms!Azeroth
+DefineZone("Tol Barad Peninsula", 245, 3, 13, 0) -- nil
+DefineZone("The Shattered Halls", 246, 4, 100, 0) -- nil
+DefineZone("Ruins of Ahn'Qiraj", 247, 6, 81, 0) -- nil
+DefineZone("Onyxia's Lair", 248, 4, 70, 0) -- nil
+DefineZone("Uldum", 249, 3, 12, 0, 297, 298, 716, 299, 737, 325, 857, 328, 277) -- nil
+DefineZone("Tazz'Alor!Blackrock Spire", 250, 4, 36, 153) -- nil
+DefineZone("Skitterweb Tunnels!Blackrock Spire", 251, 4, 36, 153) -- nil
+DefineZone("Hordemar City!Blackrock Spire", 252, 4, 36, 153) -- nil
+DefineZone("Hall of Blackhand!Blackrock Spire", 253, 4, 36, 153) -- nil
+DefineZone("Halycon's Lair!Blackrock Spire", 254, 4, 36, 153) -- nil
+DefineZone("Chamber of Battle!Blackrock Spire", 255, 4, 36, 153) -- nil
+DefineZone("Halls of the Hereafter!Auchenai Crypts", 256, 4, 108, 168) -- nil
+DefineZone("Bridge of Souls!Auchenai Crypts", 257, 4, 108, 168) -- nil
+DefineZone("Veil Sethekk!Sethekk Halls", 258, 4, 108, 167) -- nil
+DefineZone("Halls of Mourning!Sethekk Halls", 259, 4, 108, 167) -- nil
+DefineZone("Shadow Labyrinth", 260, 4, 108, 0) -- nil
+DefineZone("The Blood Furnace", 261, 4, 100, 0) -- nil
+DefineZone("The Underbog", 262, 4, 102, 0) -- nil
+DefineZone("The Steamvault", 263, 4, 102, 164) -- nil
+DefineZone("The Cooling Pools!The Steamvault", 264, 4, 102, 164) -- nil
+DefineZone("The Slave Pens", 265, 4, 102, 0) -- nil
+DefineZone("The Botanica", 266, 4, 109, 0) -- nil
+DefineZone("The Mechanar", 267, 4, 109, 166) -- nil
+DefineZone("Calculation Chamber!The Mechanar", 268, 4, 109, 166) -- nil
+DefineZone("Stasis Block: Trion!The Arcatraz", 269, 4, 109, 165) -- nil
+DefineZone("Stasis Block: Maximus!The Arcatraz", 270, 4, 109, 165) -- nil
+DefineZone("Containment Core!The Arcatraz", 271, 4, 109, 165) -- nil
+DefineZone("Mana-Tombs", 272, 4, 108, 0) -- nil
+DefineZone("The Black Morass", 273, 6, 75, 0) -- nil
+DefineZone("Old Hillsbrad Foothills", 274, 6, 75, 0) -- nil
+DefineZone("The Battle for Gilneas", 275, 6, 179, 0) -- nil
+DefineZone("The Maelstrom", 276, 3, 948, 0) -- The Maelstrom!The Maelstrom!Azeroth!Cosmic
+DefineZone("Lost City of the Tol'vir", 277, 6, 249, 0) -- nil
+DefineZone("Wailing Caverns", 279, 4, 10, 0) -- Wailing Caverns!Northern Barrens!Kalimdor!Azeroth
+DefineZone("Caverns of Maraudon!Maraudon", 280, 4, 66, 157) -- nil
+DefineZone("Zaetar's Grave!Maraudon", 281, 4, 66, 157) -- nil
+DefineZone("Baradin Hold", 282, 4, 244, 0) -- nil
+DefineZone("Chamber of Incineration!Blackrock Caverns", 283, 4, 36, 184) -- nil
+DefineZone("Twilight Forge!Blackrock Caverns", 284, 4, 36, 184) -- nil
+DefineZone("The Broken Hall!Blackwing Descent", 285, 4, 36, 189) -- nil
+DefineZone("Vault of the Shadowflame!Blackwing Descent", 286, 4, 36, 189) -- nil
+DefineZone("Dragonmaw Garrison!Blackwing Lair", 287, 4, 36, 160) -- nil
+DefineZone("Halls of Strife!Blackwing Lair", 288, 4, 36, 160) -- nil
+DefineZone("Crimson Laboratories!Blackwing Lair", 289, 4, 36, 160) -- nil
+DefineZone("Nefarian's Lair!Blackwing Lair", 290, 4, 36, 160) -- nil
+DefineZone("The Deadmines", 291, 4, 52, 148) -- The Deadmines!Westfall!Eastern Kingdoms!Azeroth
+DefineZone("Ironclad Cove!The Deadmines", 292, 4, 52, 148) -- nil
+DefineZone("Grim Batol", 293, 4, 241, 0) -- nil
+DefineZone("The Twilight Enclave!The Bastion of Twilight", 294, 4, 241, 190) -- nil
+DefineZone("Throne of the Apocalypse!The Bastion of Twilight", 295, 4, 241, 190) -- nil
+DefineZone("The Twilight Caverns!The Bastion of Twilight", 296, 4, 241, 190) -- nil
+DefineZone("The Vault of Lights!Halls of Origination", 297, 4, 249, 183) -- nil
+DefineZone("Tomb of the Earthrager!Halls of Origination", 298, 4, 249, 183) -- nil
+DefineZone("The Four Seats!Halls of Origination", 299, 4, 249, 183) -- nil
+DefineZone("Razorfen Downs", 300, 4, 64, 0) -- nil
+DefineZone("Razorfen Kraul", 301, 4, 199, 0) -- nil
+DefineZone("Floor 1!Scarlet Monastery", 302, 4, 18, 152) -- Floor 1!Scarlet Monastery!Tirisfal Glades!Eastern Kingdoms
+DefineZone("Floor 2!Scarlet Monastery", 303, 4, 18, 152) -- Floor 2!Scarlet Monastery!Tirisfal Glades!Eastern Kingdoms
+DefineZone("Floor 3!Scarlet Monastery", 304, 4, 18, 152) -- nil
+DefineZone("Floor 4!Scarlet Monastery", 305, 4, 18, 152) -- nil
+DefineZone("The Reliquary!ScholomanceOLD", 306, 4, 22, 155) -- nil
+DefineZone("Chamber of Summoning!ScholomanceOLD", 307, 4, 22, 155) -- nil
+DefineZone("The Upper Study!ScholomanceOLD", 308, 4, 22, 155) -- nil
+DefineZone("Headmaster's Study!ScholomanceOLD", 309, 4, 22, 155) -- nil
+DefineZone("The Courtyard!Shadowfang Keep", 310, 4, 21, 147) -- nil
+DefineZone("Dining Hall!Shadowfang Keep", 311, 4, 21, 147) -- nil
+DefineZone("The Vacant Den!Shadowfang Keep", 312, 4, 21, 147) -- nil
+DefineZone("Lower Observatory!Shadowfang Keep", 313, 4, 21, 147) -- nil
+DefineZone("Upper Observatory!Shadowfang Keep", 314, 4, 21, 147) -- nil
+DefineZone("Lord Godfrey's Chamber!Shadowfang Keep", 315, 4, 21, 147) -- nil
+DefineZone("The Wall Walk!Shadowfang Keep", 316, 4, 21, 147) -- nil
+DefineZone("Crusader's Square!Stratholme", 317, 4, 23, 156) -- nil
+DefineZone("The Gauntlet!Stratholme", 318, 4, 23, 156) -- nil
+DefineZone("The Hive Undergrounds!Ahn'Qiraj", 319, 4, 81, 161) -- nil
+DefineZone("The Temple Gates!Ahn'Qiraj", 320, 4, 81, 161) -- nil
+DefineZone("Vault of C'Thun!Ahn'Qiraj", 321, 4, 81, 161) -- nil
+DefineZone("Abyssal Halls!Throne of the Tides", 322, 4, 204, 182) -- nil
+DefineZone("Throne of Neptulon!Throne of the Tides", 323, 4, 204, 182) -- nil
+DefineZone("The Stonecore", 324, 4, 207, 0) -- nil
+DefineZone("The Vortex Pinnacle", 325, 4, 249, 0) -- The Vortex Pinnacle!Uldum!Kalimdor
+DefineZone("Ahn'Qiraj: The Fallen Kingdom", 327, 6, 12, 0) -- nil
+DefineZone("Throne of the Four Winds", 328, 4, 249, 0) -- Throne of the Four Winds!Uldum!Kalimdor
+DefineZone("Hyjal Summit", 329, 6, 75, 0) -- nil
+DefineZone("Gruul's Lair", 330, 4, 105, 0) -- nil
+DefineZone("Magtheridon's Lair", 331, 4, 100, 0) -- nil
+DefineZone("Serpentshrine Cavern", 332, 4, 102, 0) -- nil
+DefineZone("Zul'Aman", 333, 6, 95, 0) -- nil
+DefineZone("Tempest Keep", 334, 4, 109, 0) -- nil
+DefineZone("Sunwell Plateau", 335, 4, 467, 174, 973, 336) -- nil
+DefineZone("Shrine of the Eclipse!Sunwell Plateau", 336, 4, 335, 174) -- nil
+DefineZone("Zul'Gurub", 337, 6, 50, 0) -- Zul'Gurub!Northern Stranglethorn!Stranglethorn Vale!Eastern Kingdoms
+DefineZone("Molten Front", 338, 6, 198, 0) -- nil
+DefineZone("Black Temple", 339, 4, 104, 169, 346, 345, 344, 343, 342, 341, 340) -- Black Temple!Shadowmoon Valley!Outland!Cosmic
+DefineZone("Karabor Sewers!Black Temple", 340, 4, 339, 169) -- Karabor Sewers!Black Temple!Black Temple!Shadowmoon Valley
+DefineZone("Sanctuary of Shadows!Black Temple", 341, 4, 339, 169) -- Sanctuary of Shadows!Black Temple!Black Temple!Shadowmoon Valley
+DefineZone("Halls of Anguish!Black Temple", 342, 4, 339, 169) -- Halls of Anguish!Black Temple!Black Temple!Shadowmoon Valley
+DefineZone("Gorefiend's Vigil!Black Temple", 343, 4, 339, 169) -- Gorefiend's Vigil!Black Temple!Black Temple!Shadowmoon Valley
+DefineZone("Den of Mortal Delights!Black Temple", 344, 4, 339, 169) -- Den of Mortal Delights!Black Temple!Black Temple!Shadowmoon Valley
+DefineZone("Chamber of Command!Black Temple", 345, 4, 339, 169) -- Chamber of Command!Black Temple!Black Temple!Shadowmoon Valley
+DefineZone("Temple Summit!Black Temple", 346, 4, 339, 169) -- Temple Summit!Black Temple!Black Temple!Shadowmoon Valley
+DefineZone("Hellfire Ramparts", 347, 4, 100, 0) -- nil
+DefineZone("Grand Magister's Asylum!Magisters' Terrace", 348, 4, 122, 175) -- nil
+DefineZone("Observation Grounds!Magisters' Terrace", 349, 4, 122, 175) -- nil
+DefineZone("Servant's Quarters!Karazhan", 350, 4, 42, 162) -- Servant's Quarters!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Upper Livery Stables!Karazhan", 351, 4, 42, 162) -- Upper Livery Stables!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("The Banquet Hall!Karazhan", 352, 4, 42, 162) -- The Banquet Hall!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("The Guest Chambers!Karazhan", 353, 4, 42, 162) -- The Guest Chambers!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("Opera Hall Balcony!Karazhan", 354, 4, 42, 162) -- Opera Hall Balcony!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("Master's Terrace!Karazhan", 355, 4, 42, 162) -- Master's Terrace!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("Lower Broken Stair!Karazhan", 356, 4, 42, 162) -- Lower Broken Stair!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("Upper Broken Stair!Karazhan", 357, 4, 42, 162) -- Upper Broken Stair!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("The Menagerie!Karazhan", 358, 4, 42, 162) -- The Menagerie!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("Guardian's Library!Karazhan", 359, 4, 42, 162) -- Guardian's Library!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("The Repository!Karazhan", 360, 4, 42, 162) -- nil
+DefineZone("Upper Library!Karazhan", 361, 4, 42, 162) -- Upper Library!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("The Celestial Watch!Karazhan", 362, 4, 42, 162) -- nil
+DefineZone("Gamesman's Hall!Karazhan", 363, 4, 42, 162) -- Gamesman's Hall!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("Medivh's Chambers!Karazhan", 364, 4, 42, 162) -- nil
+DefineZone("The Power Station!Karazhan", 365, 4, 42, 162) -- nil
+DefineZone("Netherspace!Karazhan", 366, 4, 42, 162) -- Netherspace!Karazhan!Deadwind Pass!Eastern Kingdoms
+DefineZone("Firelands", 367, 4, 198, 191, 368, 369) -- Firelands!Mount Hyjal!Kalimdor
+DefineZone("The Anvil of Conflagration!Firelands", 368, 4, 367, 191) -- nil
+DefineZone("Sulfuron Keep!Firelands", 369, 4, 367, 191) -- nil
+DefineZone("The Nexus", 370, 4, 114, 0) -- The Nexus!Borean Tundra!Northrend!Azeroth
+DefineZone("The Jade Forest", 371, 3, 424, 0, 429, 430, 372, 373, 374, 375, 792, 791, 447, 448) -- The Jade Forest!Pandaria
+DefineZone("Upper Quarry!Greenstone Quarry", 372, 5, 371, 194) -- nil
+DefineZone("Lower Quarry!Greenstone Quarry", 373, 5, 371, 194) -- nil
+DefineZone("The Widow's Wail", 374, 5, 371, 0) -- nil
+DefineZone("Oona Kagu", 375, 5, 371, 0) -- nil
+DefineZone("Valley of the Four Winds", 376, 3, 424, 0, 519, 874, 377, 873, 872, 439, 440, 441, 442) -- nil
+DefineZone("Cavern of Endless Echoes", 377, 5, 376, 0) -- nil
+DefineZone("The Wandering Isle", 378, 6, 947, 0) -- The Wandering Isle!Azeroth
+DefineZone("Kun-Lai Summit", 379, 3, 424, 0, 434, 443, 387, 480, 481, 482, 489, 386, 385, 384, 843, 383, 382, 381, 380, 452) -- nil
+DefineZone("Howlingwind Cavern", 380, 5, 379, 0) -- nil
+DefineZone("Pranksters' Hollow", 381, 5, 379, 0) -- nil
+DefineZone("Knucklethump Hole", 382, 5, 379, 0) -- nil
+DefineZone("Upper Deep!The Deeper", 383, 5, 379, 195) -- nil
+DefineZone("Lower Deep!The Deeper", 384, 5, 379, 195) -- nil
+DefineZone("Tomb of Conquerors", 385, 5, 379, 0) -- nil
+DefineZone("Ruins of Korune", 386, 5, 379, 197) -- nil
+DefineZone("Crypt of Korune!Ruins of Korune", 387, 5, 379, 197) -- nil
+DefineZone("Townlong Steppes", 388, 3, 424, 0, 389, 457) -- nil
+DefineZone("Niuzao Temple", 389, 5, 388, 0) -- nil
+DefineZone("Vale of Eternal Blossoms", 390, 3, 424, 0, 471, 438, 437, 472, 473, 455, 454, 453, 520, 521, 417, 449, 556, 396, 395, 394, 393, 392, 391) -- Vale of Eternal Blossoms!Pandaria
+DefineZone("Hall of the Crescent Moon!Shrine of Two Moons", 391, 5, 390, 192) -- nil
+DefineZone("The Imperial Mercantile!Shrine of Two Moons", 392, 5, 390, 192) -- nil
+DefineZone("The Emperor's Step!Shrine of Seven Stars", 393, 5, 390, 193) -- nil
+DefineZone("The Imperial Exchange!Shrine of Seven Stars", 394, 5, 390, 193) -- nil
+DefineZone("Guo-Lai Halls", 395, 5, 390, 196) -- nil
+DefineZone("The Hall of the Serpent!Guo-Lai Halls", 396, 5, 390, 196) -- nil
+DefineZone("Eye of the Storm", 397, 6, 109, 0) -- Eye of the Storm!Netherstorm!Outland!Cosmic
+DefineZone("Well of Eternity", 398, 6, 71, 0) -- nil
+DefineZone("Hour of Twilight", 399, 4, 71, 199, 400) -- nil
+DefineZone("Wyrmrest Temple!Hour of Twilight", 400, 4, 399, 199) -- nil
+DefineZone("End Time", 401, 4, 71, 198, 406, 405, 404, 403, 402) -- nil
+DefineZone("Azure Dragonshrine!End Time", 402, 4, 401, 198) -- nil
+DefineZone("Ruby Dragonshrine!End Time", 403, 4, 401, 198) -- nil
+DefineZone("Obsidian Dragonshrine!End Time", 404, 4, 401, 198) -- nil
+DefineZone("Emerald Dragonshrine!End Time", 405, 4, 401, 198) -- nil
+DefineZone("Bronze Dragonshrine!End Time", 406, 4, 401, 198) -- nil
+DefineZone("Darkmoon Island", 407, 6, 947, 0, 408) -- Darkmoon Island!Azeroth
+DefineZone("Darkmoon Island", 408, 4, 407, 0) -- Darkmoon Island!Darkmoon Island
+DefineZone("Dragon Soul", 409, 4, 71, 204, 414, 415, 413, 412, 411, 410) -- nil
+DefineZone("Maw of Go'rath!Dragon Soul", 410, 4, 409, 204) -- nil
+DefineZone("Maw of Shu'ma!Dragon Soul", 411, 4, 409, 204) -- nil
+DefineZone("Eye of Eternity!Dragon Soul", 412, 4, 409, 204) -- nil
+DefineZone("Skyfire Airship!Dragon Soul", 413, 4, 409, 204) -- nil
+DefineZone("Spine of Deathwing!Dragon Soul", 414, 4, 409, 204) -- nil
+DefineZone("The Maelstrom!Dragon Soul", 415, 4, 409, 204) -- nil
+DefineZone("Dustwallow Marsh", 416, 6, 70, 0) -- Dustwallow Marsh!Dustwallow Marsh!Kalimdor!Azeroth
+DefineZone("Temple of Kotmogu", 417, 6, 390, 0) -- Temple of Kotmogu!Vale of Eternal Blossoms!Pandaria
+DefineZone("Krasarang Wilds", 418, 3, 424, 0, 419, 420, 421, 450, 498, 487, 486) -- Krasarang Wilds!Pandaria
+DefineZone("Alliance Excavation!Ruins of Ogudei", 419, 5, 418, 213) -- nil
+DefineZone("Ruins of Ogudei", 420, 5, 418, 213) -- nil
+DefineZone("Reliquary Incursion!Ruins of Ogudei", 421, 5, 418, 213) -- nil
+DefineZone("Dread Wastes", 422, 3, 424, 0, 474, 475, 451) -- nil
+DefineZone("Silvershard Mines", 423, 4, 224, 0) -- nil
+DefineZone("Pandaria", 424, 2, 947, 0, 422, 433, 418, 554, 390, 388, 379, 376, 504, 371, 507, 516) -- Pandaria!Azeroth
+DefineZone("Northshire", 425, 3, 37, 0) -- nil
+DefineZone("Echo Ridge Mine", 426, 5, 37, 0) -- nil
+DefineZone("Coldridge Valley", 427, 6, 27, 0) -- Coldridge Valley!Dun Morogh!Eastern Kingdoms
+DefineZone("Frostmane Hovel", 428, 5, 27, 0) -- nil
+DefineZone("Temple of the Jade Serpent", 429, 4, 371, 201) -- Temple of the Jade Serpent!The Jade Forest!Pandaria
+DefineZone("The Scrollkeeper's Sanctum!Temple of the Jade Serpent", 430, 4, 371, 201) -- The Scrollkeeper's Sanctum!Temple of the Jade Serpent!The Jade Forest!Pandaria
+DefineZone("Training Grounds!Scarlet Halls", 431, 4, 18, 206) -- nil
+DefineZone("Athenaeum!Scarlet Halls", 432, 4, 18, 206) -- nil
+DefineZone("The Veiled Stair", 433, 3, 424, 0, 488, 728, 456) -- nil
+DefineZone("The Ancient Passage", 434, 5, 379, 0) -- nil
+DefineZone("Forlorn Cloister!Scarlet Monastery", 435, 4, 18, 207) -- nil
+DefineZone("Crusader's Chapel!Scarlet Monastery", 436, 4, 18, 207) -- nil
+DefineZone("Gate of the Setting Sun", 437, 4, 390, 203) -- nil
+DefineZone("Gate Watch Tower!Gate of the Setting Sun", 438, 4, 390, 203) -- nil
+DefineZone("Grain Cellar!Stormstout Brewery", 439, 4, 376, 202) -- nil
+DefineZone("Stormstout Brewhall!Stormstout Brewery", 440, 4, 376, 202) -- nil
+DefineZone("The Great Wheel!Stormstout Brewery", 441, 4, 376, 202) -- nil
+DefineZone("The Tasting Room!Stormstout Brewery", 442, 4, 376, 202) -- nil
+DefineZone("Shado-Pan Monastery", 443, 4, 379, 200, 446, 445, 444) -- nil
+DefineZone("Cloudstrike Dojo!Shado-Pan Monastery", 444, 4, 443, 200) -- nil
+DefineZone("Snowdrift Dojo!Shado-Pan Monastery", 445, 4, 443, 200) -- nil
+DefineZone("Sealed Chambers!Shado-Pan Monastery", 446, 4, 443, 200) -- nil
+DefineZone("A Brewing Storm", 447, 6, 371, 0) -- nil
+DefineZone("The Jade Forest", 448, 6, 371, 0) -- The Jade Forest!The Jade Forest
+DefineZone("Temple of Kotmogu", 449, 6, 390, 0) -- Temple of Kotmogu!Vale of Eternal Blossoms!Pandaria!Azeroth
+DefineZone("Unga Ingoo", 450, 6, 418, 0) -- nil
+DefineZone("Assault on Zan'vess", 451, 6, 422, 0) -- nil
+DefineZone("Brewmoon Festival", 452, 6, 379, 0) -- nil
+DefineZone("The Crimson Assembly Hall!Mogu'shan Palace", 453, 4, 390, 205) -- nil
+DefineZone("Vaults of Kings Past!Mogu'shan Palace", 454, 4, 390, 205) -- nil
+DefineZone("Throne of Ancient Conquerors!Mogu'shan Palace", 455, 4, 390, 205) -- nil
+DefineZone("Terrace of Endless Spring", 456, 6, 433, 0) -- Terrace of Endless Spring!The Veiled Stair!Pandaria
+DefineZone("Siege of Niuzao Temple", 457, 4, 388, 211, 459, 458) -- nil
+DefineZone("The Hollowed Out Tree!Siege of Niuzao Temple", 458, 4, 457, 211) -- nil
+DefineZone("Upper Tree Ring!Siege of Niuzao Temple", 459, 4, 457, 211) -- nil
+DefineZone("Shadowglen", 460, 3, 57, 0) -- nil
+DefineZone("Valley of Trials", 461, 3, 1, 0) -- nil
+DefineZone("Camp Narache", 462, 3, 7, 0) -- nil
+DefineZone("Echo Isles", 463, 3, 1, 0) -- nil
+DefineZone("Spitescale Cavern", 464, 5, 1, 0) -- nil
+DefineZone("Deathknell", 465, 3, 18, 0) -- nil
+DefineZone("Night Web's Hollow", 466, 5, 18, 0) -- nil
+DefineZone("Sunstrider Isle", 467, 3, 94, 0, 335) -- nil
+DefineZone("Ammen Vale", 468, 3, 97, 0) -- nil
+DefineZone("New Tinkertown", 469, 3, 27, 0) -- New Tinkertown!Dun Morogh!Eastern Kingdoms!Azeroth
+DefineZone("Frostmane Hold", 470, 5, 27, 0) -- nil
+DefineZone("Dais of Conquerors!Mogu'shan Vaults", 471, 4, 390, 209) -- nil
+DefineZone("The Repository!Mogu'shan Vaults", 472, 4, 390, 209) -- nil
+DefineZone("Forge of the Endless!Mogu'shan Vaults", 473, 4, 390, 209) -- nil
+DefineZone("Oratorium of the Voice!Heart of Fear", 474, 4, 422, 210) -- nil
+DefineZone("Heart of Fear", 475, 4, 422, 210) -- nil
+DefineZone("The Reliquary!Scholomance", 476, 4, 22, 208) -- nil
+DefineZone("Chamber of Summoning!Scholomance", 477, 4, 22, 208) -- nil
+DefineZone("The Upper Study!Scholomance", 478, 4, 22, 208) -- nil
+DefineZone("Headmaster's Study!Scholomance", 479, 4, 22, 208) -- nil
+DefineZone("Proving Grounds", 480, 4, 379, 0) -- nil
+DefineZone("Upper Burial Chamber!Crypt of Forgotten Kings", 481, 4, 379, 212) -- nil
+DefineZone("Crypt Depths!Crypt of Forgotten Kings", 482, 4, 379, 212) -- nil
+DefineZone("Dustwallow Marsh", 483, 6, 70, 0) -- Dustwallow Marsh!Dustwallow Marsh!Kalimdor!Azeroth
+DefineZone("Krasarang Wilds", 486, 6, 418, 0) -- Krasarang Wilds!Krasarang Wilds!Pandaria!Azeroth
+DefineZone("A Little Patience", 487, 6, 418, 0) -- nil
+DefineZone("Dagger in the Dark", 488, 6, 433, 0) -- Dagger in the Dark!The Veiled Stair
+DefineZone("Dagger in the Dark", 489, 4, 379, 0) -- Dagger in the Dark!Kun-Lai Summit
+DefineZone("Black Temple", 490, 4, 104, 216, 491, 492, 493, 494, 495, 496, 497) -- Black Temple!Shadowmoon Valley!Outland!Cosmic
+DefineZone("Karabor Sewers!Black Temple", 491, 4, 490, 216) -- Karabor Sewers!Black Temple!Black Temple!Shadowmoon Valley!Outland
+DefineZone("Sanctuary of Shadows!Black Temple", 492, 4, 490, 216) -- Sanctuary of Shadows!Black Temple!Black Temple!Shadowmoon Valley!Outland
+DefineZone("Halls of Anguish!Black Temple", 493, 4, 490, 216) -- Halls of Anguish!Black Temple!Black Temple!Shadowmoon Valley!Outland
+DefineZone("Gorefiend's Vigil!Black Temple", 494, 4, 490, 216) -- Gorefiend's Vigil!Black Temple!Black Temple!Shadowmoon Valley!Outland
+DefineZone("Den of Mortal Delights!Black Temple", 495, 4, 490, 216) -- Den of Mortal Delights!Black Temple!Black Temple!Shadowmoon Valley!Outland
+DefineZone("Chamber of Command!Black Temple", 496, 4, 490, 216) -- Chamber of Command!Black Temple!Black Temple!Shadowmoon Valley!Outland
+DefineZone("Temple Summit!Black Temple", 497, 4, 490, 216) -- Temple Summit!Black Temple!Black Temple!Shadowmoon Valley!Outland
+DefineZone("Krasarang Wilds", 498, 6, 418, 0) -- Krasarang Wilds!Krasarang Wilds!Pandaria!Azeroth
+DefineZone("Deeprun Tram", 499, 4, 84, 158) -- nil
+DefineZone("Bizmo's Brawlpub!Deeprun Tram", 500, 4, 84, 158) -- nil
+DefineZone("Dalaran City!Dalaran", 501, 4, 13, 215) -- Dalaran City!Dalaran!Eastern Kingdoms
+DefineZone("The Underbelly!Dalaran", 502, 4, 13, 215) -- The Underbelly!Dalaran!Eastern Kingdoms
+DefineZone("Brawl'gar Arena", 503, 4, 85, 0) -- nil
+DefineZone("Isle of Thunder", 504, 3, 424, 0, 509, 505, 510, 511, 512, 513, 514, 515, 508, 518, 506) -- Isle of Thunder!Pandaria!Azeroth
+DefineZone("Lightning Vein Mine", 505, 5, 504, 0) -- Lightning Vein Mine!Isle of Thunder!Pandaria
+DefineZone("The Swollen Vault", 506, 5, 504, 0) -- nil
+DefineZone("Isle of Giants", 507, 3, 424, 0) -- nil
+DefineZone("Overgrown Statuary!Throne of Thunder", 508, 4, 504, 214) -- nil
+DefineZone("Royal Amphitheater!Throne of Thunder", 509, 4, 504, 214) -- nil
+DefineZone("Forgotten Depths!Throne of Thunder", 510, 4, 504, 214) -- nil
+DefineZone("Roost of Ji-Kun!Throne of Thunder", 511, 4, 504, 214) -- nil
+DefineZone("Halls of Flesh-Shaping!Throne of Thunder", 512, 4, 504, 214) -- nil
+DefineZone("Hall of Kings!Throne of Thunder", 513, 4, 504, 214) -- nil
+DefineZone("Pinnacle of Storms!Throne of Thunder", 514, 4, 504, 214) -- nil
+DefineZone("Hidden Cell!Throne of Thunder", 515, 4, 504, 214) -- nil
+DefineZone("Isle of Thunder", 516, 6, 424, 0, 517) -- Isle of Thunder!Pandaria!Azeroth!Cosmic
+DefineZone("Lightning Vein Mine", 517, 5, 516, 0) -- Lightning Vein Mine!Isle of Thunder!Pandaria!Azeroth
+DefineZone("Thunder King's Citadel", 518, 4, 504, 0) -- nil
+DefineZone("Deepwind Gorge", 519, 6, 376, 0) -- nil
+DefineZone("Vale of Eternal Blossoms", 520, 6, 390, 0) -- Vale of Eternal Blossoms!Vale of Eternal Blossoms!Pandaria!Azeroth
+DefineZone("Vale of Eternal Blossoms", 521, 4, 390, 0) -- Vale of Eternal Blossoms!Vale of Eternal Blossoms!Pandaria!Azeroth
+DefineZone("The Secrets of Ragefire", 522, 4, 85, 0) -- nil
+DefineZone("Dun Morogh", 523, 6, 27, 0) -- Dun Morogh!Dun Morogh
+DefineZone("Battle on the High Seas", 524, 6, 12, 0) -- nil
+DefineZone("Frostfire Ridge", 525, 3, 572, 0, 530, 531, 532, 533, 529, 528, 590, 573, 527, 526) -- nil
+DefineZone("Bladespire Citadel!Turgall's Den", 526, 5, 525, 217) -- nil
+DefineZone("Bladespire Courtyard!Turgall's Den", 527, 5, 525, 217) -- nil
+DefineZone("Bladespire Throne!Turgall's Den", 528, 5, 525, 217) -- nil
+DefineZone("Sootstained Mines!Turgall's Den", 529, 5, 525, 217) -- nil
+DefineZone("Grom'gar", 530, 5, 525, 0) -- nil
+DefineZone("Grulloc's Grotto", 531, 5, 525, 221) -- nil
+DefineZone("Grulloc's Lair!Grulloc's Grotto", 532, 5, 525, 221) -- nil
+DefineZone("Snowfall Alcove", 533, 5, 525, 0) -- nil
+DefineZone("Tanaan Jungle", 534, 3, 572, 0, 661) -- Tanaan Jungle!Draenor!Cosmic
+DefineZone("Talador", 535, 3, 572, 0, 536, 537, 538, 594, 593) -- nil
+DefineZone("Tomb of Lights", 536, 5, 535, 0) -- nil
+DefineZone("Tomb of Souls", 537, 5, 535, 0) -- nil
+DefineZone("The Breached Ossuary", 538, 5, 535, 0) -- nil
+DefineZone("Shadowmoon Valley", 539, 3, 572, 0, 540, 541, 592, 574, 575, 576, 582) -- Shadowmoon Valley!Draenor
+DefineZone("Bloodthorn Cave", 540, 5, 539, 0) -- nil
+DefineZone("Den of Secrets", 541, 5, 539, 0) -- nil
+DefineZone("Spires of Arak", 542, 3, 572, 0, 601, 602) -- nil
+DefineZone("Gorgrond", 543, 3, 572, 0, 606, 607, 608, 609, 600, 599, 620, 595, 596, 598, 597, 549, 548, 547, 544, 545, 546) -- nil
+DefineZone("Moira's Bastion!Moira's Reach", 544, 5, 543, 220) -- nil
+DefineZone("The Armory!Moira's Reach", 545, 5, 543, 220) -- nil
+DefineZone("Fissure of Fury", 546, 5, 543, 219) -- nil
+DefineZone("Heart of Fury!Fissure of Fury", 547, 5, 543, 219) -- nil
+DefineZone("Cragplume Crater!Cragplume Cauldron", 548, 5, 543, 218) -- nil
+DefineZone("Cragplume Depths!Cragplume Cauldron", 549, 5, 543, 218) -- nil
+DefineZone("Nagrand", 550, 3, 572, 0, 610, 553, 552, 551) -- Nagrand!Draenor
+DefineZone("The Masters' Cavern", 551, 5, 550, 0) -- nil
+DefineZone("Stonecrag Gorge", 552, 5, 550, 0) -- nil
+DefineZone("Oshu'gun", 553, 5, 550, 0) -- nil
+DefineZone("Timeless Isle", 554, 3, 424, 0, 555, 571) -- nil
+DefineZone("Cavern of Lost Spirits", 555, 5, 554, 0) -- nil
+DefineZone("Siege of Orgrimmar", 556, 4, 390, 222, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570) -- nil
+DefineZone("Pools of Power!Siege of Orgrimmar", 557, 4, 556, 222) -- nil
+DefineZone("Vault of Y'Shaarj!Siege of Orgrimmar", 558, 4, 556, 222) -- nil
+DefineZone("Gates of Orgrimmar!Siege of Orgrimmar", 559, 4, 556, 222) -- nil
+DefineZone("The Valley of Strength!Siege of Orgrimmar", 560, 4, 556, 222) -- nil
+DefineZone("The Cleft of Shadow!Siege of Orgrimmar", 561, 4, 556, 222) -- nil
+DefineZone("The Descent!Siege of Orgrimmar", 562, 4, 556, 222) -- nil
+DefineZone("Kor'Kron Barracks!Siege of Orgrimmar", 563, 4, 556, 222) -- nil
+DefineZone("The Menagerie!Siege of Orgrimmar", 564, 4, 556, 222) -- nil
+DefineZone("The Siegeworks!Siege of Orgrimmar", 565, 4, 556, 222) -- nil
+DefineZone("Chamber of the Paragons!Siege of Orgrimmar", 566, 4, 556, 222) -- nil
+DefineZone("The Inner Sanctum!Siege of Orgrimmar", 567, 4, 556, 222) -- nil
+DefineZone("Terrace of Endless Spring!Siege of Orgrimmar", 568, 4, 556, 222) -- nil
+DefineZone("Temple of the Jade Serpent!Siege of Orgrimmar", 569, 4, 556, 222) -- nil
+DefineZone("Temple of the Red Crane!Siege of Orgrimmar", 570, 4, 556, 222) -- nil
+DefineZone("Celestial Tournament", 571, 6, 554, 0) -- nil
+DefineZone("Draenor", 572, 2, 946, 0, 543, 550, 588, 542, 539, 535, 933, 534, 525, 577) -- Draenor!Cosmic
+DefineZone("Bloodmaul Slag Mines", 573, 4, 525, 0) -- nil
+DefineZone("Crypt of the Ancients!Shadowmoon Burial Grounds", 574, 4, 539, 223) -- nil
+DefineZone("Altar of Shadow!Shadowmoon Burial Grounds", 575, 4, 539, 223) -- nil
+DefineZone("Edge of Reality!Shadowmoon Burial Grounds", 576, 4, 539, 223) -- nil
+DefineZone("Tanaan Jungle", 577, 6, 572, 0, 578) -- Tanaan Jungle!Draenor!Cosmic!
+DefineZone("Umbral Halls", 578, 5, 577, 0) -- nil
+DefineZone("Lunarfall Excavation", 579, 5, 582, 0) -- Lunarfall Excavation!Lunarfall!Shadowmoon Valley!Draenor
+DefineZone("Lunarfall Excavation", 580, 5, 582, 0) -- Lunarfall Excavation!Lunarfall!Shadowmoon Valley!Draenor
+DefineZone("Lunarfall Excavation", 581, 5, 582, 0) -- Lunarfall Excavation!Lunarfall!Shadowmoon Valley!Draenor
+DefineZone("Lunarfall", 582, 6, 539, 0, 580, 579, 581) -- nil
+DefineZone("Frostwall Mine", 585, 5, 590, 0) -- Frostwall Mine!Frostwall!Frostfire Ridge!Draenor
+DefineZone("Frostwall Mine", 586, 5, 590, 0) -- Frostwall Mine!Frostwall!Frostfire Ridge!Draenor
+DefineZone("Frostwall Mine", 587, 5, 590, 0) -- Frostwall Mine!Frostwall!Frostfire Ridge!Draenor
+DefineZone("Ashran", 588, 3, 572, 0, 589, 622, 624) -- nil
+DefineZone("Ashran Mine", 589, 5, 588, 0) -- nil
+DefineZone("Frostwall", 590, 6, 525, 0, 587, 586, 585) -- nil
+DefineZone("Defense of Karabor", 592, 6, 539, 0) -- nil
+DefineZone("Auchindoun", 593, 4, 535, 0) -- nil
+DefineZone("Shattrath City", 594, 6, 535, 0) -- Shattrath City!Talador
+DefineZone("Iron Docks", 595, 4, 543, 0) -- nil
+DefineZone("The Black Forge!Blackrock Foundry", 596, 4, 543, 224) -- nil
+DefineZone("Slagworks!Blackrock Foundry", 597, 4, 543, 224) -- nil
+DefineZone("The Workshop!Blackrock Foundry", 598, 4, 543, 224) -- nil
+DefineZone("Iron Assembly!Blackrock Foundry", 599, 4, 543, 224) -- nil
+DefineZone("The Crucible!Blackrock Foundry", 600, 4, 543, 224) -- nil
+DefineZone("Lower Quarter!Skyreach", 601, 4, 542, 226) -- nil
+DefineZone("Grand Spire!Skyreach", 602, 4, 542, 226) -- nil
+DefineZone("Train Depot!Grimrail Depot", 606, 4, 543, 225) -- nil
+DefineZone("Rafters!Grimrail Depot", 607, 4, 543, 225) -- nil
+DefineZone("Rear Train Cars!Grimrail Depot", 608, 4, 543, 225) -- nil
+DefineZone("Forward Train Cars!Grimrail Depot", 609, 4, 543, 225) -- nil
+DefineZone("Highmaul", 610, 4, 550, 235, 611, 612, 613, 614, 615) -- nil
+DefineZone("Gladiator's Rest!Highmaul", 611, 4, 610, 235) -- nil
+DefineZone("The Coliseum!Highmaul", 612, 4, 610, 235) -- nil
+DefineZone("Chamber of Nullification!Highmaul", 613, 4, 610, 235) -- nil
+DefineZone("Imperator's Rise!Highmaul", 614, 4, 610, 235) -- nil
+DefineZone("Throne of the Imperator!Highmaul", 615, 4, 610, 235) -- nil
+DefineZone("Dragonspire Hall!Upper Blackrock Spire", 616, 4, 36, 237) -- nil
+DefineZone("The Rookery!Upper Blackrock Spire", 617, 4, 36, 237) -- nil
+DefineZone("Hall of Blackhand!Upper Blackrock Spire", 618, 4, 36, 237) -- nil
+DefineZone("Broken Isles", 619, 2, 947, 0, 695, 858, 905, 650, 648, 647, 646, 790, 645, 641, 680, 634, 630, 629, 628, 627, 626, 625, 676, 971, 972, 672, 671, 718, 719, 717, 726, 714, 740, 741, 709, 878, 748, 696, 702) -- Broken Isles!Azeroth
+DefineZone("The Everbloom", 620, 4, 543, 236, 621) -- nil
+DefineZone("The Overlook!The Everbloom", 621, 4, 620, 236) -- nil
+DefineZone("Stormshield", 622, 6, 588, 0) -- nil
+DefineZone("Hillsbrad Foothills (Southshore vs. Tarren Mill)", 623, 6, 25, 0) -- nil
+DefineZone("Warspear", 624, 6, 588, 0) -- nil
+DefineZone("Dalaran", 625, 3, 619, 0) -- Dalaran!Broken Isles!Azeroth!Cosmic
+DefineZone("The Hall of Shadows!Dalaran", 626, 4, 619, 227) -- nil
+DefineZone("Dalaran", 627, 4, 619, 227, 723, 732, 734, 735) -- Dalaran!Broken Isles!Azeroth!Cosmic
+DefineZone("The Underbelly!Dalaran", 628, 4, 619, 227) -- The Underbelly!Dalaran!Broken Isles
+DefineZone("Aegwynn's Gallery!Dalaran", 629, 4, 619, 227) -- nil
+DefineZone("Azsuna", 630, 3, 619, 0, 713, 677, 678, 679, 712, 711, 710, 867, 631, 632, 633) -- Azsuna!Broken Isles
+DefineZone("Nar'thalas Academy", 631, 5, 630, 0) -- nil
+DefineZone("Oceanus Cove", 632, 5, 630, 0) -- nil
+DefineZone("Temple of a Thousand Lights", 633, 5, 630, 0) -- nil
+DefineZone("Stormheim", 634, 3, 619, 0, 694, 829, 806, 635, 706, 636, 637, 638, 639, 640, 877, 649, 703, 865, 866) -- Stormheim!Broken Isles!Azeroth
+DefineZone("Shield's Rest", 635, 5, 634, 0) -- nil
+DefineZone("Stormscale Cavern", 636, 5, 634, 0) -- nil
+DefineZone("Floor 1!Thorignir Refuge", 637, 5, 634, 231) -- nil
+DefineZone("Floor 2!Thorignir Refuge", 638, 5, 634, 231) -- nil
+DefineZone("Aggramar's Vault", 639, 5, 634, 0) -- nil
+DefineZone("Vault of Eyir", 640, 5, 634, 0) -- nil
+DefineZone("Val'sharah", 641, 3, 619, 0, 758, 756, 754, 753, 868, 733, 752, 777, 778, 779, 780, 781, 751, 755, 786, 787, 788, 789, 747, 793, 644, 643, 642) -- Val'sharah!Broken Isles
+DefineZone("Darkpens", 642, 5, 641, 0) -- nil
+DefineZone("Lower Sleepers Barrow!Sleeper's Barrow", 643, 5, 641, 229) -- nil
+DefineZone("Upper Sleepers Barrow!Sleeper's Barrow", 644, 5, 641, 229) -- nil
+DefineZone("Twisting Nether", 645, 6, 619, 0) -- nil
+DefineZone("Broken Shore", 646, 3, 619, 0, 853, 856, 855, 846, 847, 845, 854, 849, 850, 851, 848, 852) -- Broken Shore!Broken Isles!Azeroth
+DefineZone("The Heart of Acherus!Acherus: The Ebon Hold", 647, 5, 619, 228) -- nil
+DefineZone("Hall of Command!Acherus: The Ebon Hold", 648, 5, 619, 228) -- nil
+DefineZone("Helheim", 649, 6, 634, 0) -- nil
+DefineZone("Highmountain", 650, 3, 619, 0, 869, 870, 659, 826, 660, 652, 658, 657, 656, 655, 654, 653, 651, 731, 739, 750) -- nil
+DefineZone("Bitestone Enclave", 651, 5, 650, 0) -- nil
+DefineZone("Thunder Totem", 652, 5, 650, 0) -- Thunder Totem!Highmountain!Broken Isles
+DefineZone("Cave of the Blood Trial", 653, 5, 650, 0) -- nil
+DefineZone("Mucksnout Den", 654, 5, 650, 0) -- nil
+DefineZone("Lifespring Lower Cavern!Lifespring Cavern", 655, 5, 650, 233) -- nil
+DefineZone("Lifespring Upper Cavern!Lifespring Cavern", 656, 5, 650, 233) -- nil
+DefineZone("Floor 1!Path of Huln", 657, 5, 650, 232) -- nil
+DefineZone("Floor 2!Path of Huln", 658, 5, 650, 232) -- nil
+DefineZone("Stonedark Grotto", 659, 5, 650, 0) -- nil
+DefineZone("Feltotem Caverns", 660, 5, 650, 0) -- nil
+DefineZone("Hellfire Citadel", 661, 4, 534, 238, 664, 665, 667, 662, 666, 670, 668, 669, 663) -- nil
+DefineZone("Hellfire Antechamber!Hellfire Citadel", 662, 4, 661, 238) -- nil
+DefineZone("Hellfire Passage!Hellfire Citadel", 663, 4, 661, 238) -- nil
+DefineZone("Pits of Mannoroth!Hellfire Citadel", 664, 4, 661, 238) -- nil
+DefineZone("Court of Blood!Hellfire Citadel", 665, 4, 661, 238) -- nil
+DefineZone("Grommash's Torment!Hellfire Citadel", 666, 4, 661, 238) -- nil
+DefineZone("The Felborne Breach!Hellfire Citadel", 667, 4, 661, 238) -- nil
+DefineZone("Halls of the Sargerei!Hellfire Citadel", 668, 4, 661, 238) -- nil
+DefineZone("Destructor's Rise!Hellfire Citadel", 669, 4, 661, 238) -- nil
+DefineZone("The Black Gate!Hellfire Citadel", 670, 4, 661, 238) -- nil
+DefineZone("The Cove of Nashal", 671, 6, 619, 0) -- nil
+DefineZone("Mardum, the Shattered Abyss", 672, 6, 619, 0, 880, 879, 861, 673, 674, 675) -- Mardum, the Shattered Abyss!Broken Isles!Azeroth!Cosmic
+DefineZone("Cryptic Hollow", 673, 5, 672, 0) -- nil
+DefineZone("Lower Soul Engine!Soul Engine", 674, 5, 672, 242) -- nil
+DefineZone("Upper Soul Engine!Soul Engine", 675, 5, 672, 242) -- nil
+DefineZone("Broken Shore", 676, 6, 619, 0) -- Broken Shore!Broken Isles!Azeroth!Cosmic
+DefineZone("Illidari Ward!Vault of the Wardens", 677, 4, 630, 239) -- nil
+DefineZone("Vault of the Wardens", 678, 4, 630, 239) -- Vault of the Wardens!Azsuna!Broken Isles
+DefineZone("The Warden's Court!Vault of the Wardens", 679, 4, 630, 239) -- The Warden's Court!Vault of the Wardens!Azsuna!Broken Isles
+DefineZone("Suramar", 680, 3, 619, 0, 687, 688, 686, 685, 684, 689, 690, 691, 692, 683, 693, 681, 682, 769, 768, 767, 766, 770, 771, 772, 765, 798, 764, 761, 749) -- nil
+DefineZone("The Arcway Vaults", 681, 5, 680, 0) -- The Arcway Vaults!Suramar!Broken Isles
+DefineZone("Felsoul Hold", 682, 5, 680, 0) -- nil
+DefineZone("The Arcway Vaults", 683, 5, 680, 0) -- The Arcway Vaults!Suramar!Broken Isles!Azeroth
+DefineZone("Temple of Fal'adora!Shattered Locus", 684, 5, 680, 234) -- nil
+DefineZone("Falanaar Tunnels!Shattered Locus", 685, 5, 680, 234) -- nil
+DefineZone("Elor'shan", 686, 5, 680, 0) -- nil
+DefineZone("Kel'balor", 687, 5, 680, 0) -- nil
+DefineZone("Ley Station Anora", 688, 5, 680, 0) -- nil
+DefineZone("Ley Station Moonfall", 689, 5, 680, 0) -- nil
+DefineZone("Ley Station Aethenar", 690, 5, 680, 0) -- nil
+DefineZone("Nyell's Workshop", 691, 5, 680, 0) -- nil
+DefineZone("Falanaar Tunnels!Falanaar Arcway", 692, 5, 680, 230) -- Falanaar Tunnels!Falanaar Arcway!Suramar!Broken Isles
+DefineZone("Falanaar Tunnels!Falanaar Arcway", 693, 5, 680, 230) -- Falanaar Tunnels!Falanaar Arcway!Suramar!Broken Isles!Azeroth
+DefineZone("Helmouth Shallows", 694, 6, 634, 0) -- nil
+DefineZone("Skyhold", 695, 4, 619, 0) -- nil
+DefineZone("Stormheim", 696, 6, 619, 0) -- Stormheim!Broken Isles!Azeroth!Cosmic
+DefineZone("Azshara", 697, 6, 76, 0) -- Azshara!Azshara
+DefineZone("Lower Acherus!Icecrown Citadel", 698, 4, 118, 241) -- nil
+DefineZone("Upper Acherus!Icecrown Citadel", 699, 4, 118, 241) -- nil
+DefineZone("Icecrown Citadel", 700, 4, 118, 241) -- nil
+DefineZone("The Frozen Throne!Icecrown Citadel", 701, 4, 118, 241) -- The Frozen Throne!Icecrown Citadel!Icecrown!Northrend!Azeroth
+DefineZone("Netherlight Temple", 702, 4, 619, 0) -- nil
+DefineZone("Halls of Valor", 703, 4, 634, 240, 705, 704) -- Halls of Valor!Stormheim!Broken Isles
+DefineZone("The High Gate!Halls of Valor", 704, 4, 703, 240) -- nil
+DefineZone("Halls of Valor", 705, 4, 703, 240) -- Halls of Valor!Halls of Valor
+DefineZone("Helmouth Cliffs", 706, 4, 634, 243, 708, 707) -- nil
+DefineZone("The Hold!Helmouth Cliffs", 707, 4, 706, 243) -- nil
+DefineZone("The Naglfar!Helmouth Cliffs", 708, 4, 706, 243) -- nil
+DefineZone("The Wandering Isle", 709, 6, 619, 0) -- The Wandering Isle!Broken Isles
+DefineZone("The Warden's Court!Vault of the Wardens", 710, 4, 630, 244) -- The Warden's Court!Vault of the Wardens!Azsuna!Broken Isles!Azeroth
+DefineZone("Vault of the Wardens", 711, 4, 630, 244) -- Vault of the Wardens!Azsuna!Broken Isles!Azeroth
+DefineZone("Vault of the Betrayer!Vault of the Wardens", 712, 4, 630, 244) -- nil
+DefineZone("Eye of Azshara", 713, 6, 630, 0) -- Eye of Azshara!Azsuna
+DefineZone("Niskara", 714, 6, 619, 0) -- Niskara!Broken Isles!Azeroth
+DefineZone("Emerald Dreamway", 715, 6, 747, 0) -- nil
+DefineZone("Skywall", 716, 4, 249, 0) -- nil
+DefineZone("Dreadscar Rift", 717, 6, 619, 0) -- Dreadscar Rift!Broken Isles!Azeroth
+DefineZone("Dreadscar Rift", 718, 6, 619, 0) -- Dreadscar Rift!Broken Isles!Azeroth!Cosmic
+DefineZone("Mardum, the Shattered Abyss", 719, 4, 619, 247, 721, 720) -- Mardum, the Shattered Abyss!Broken Isles!Azeroth!Cosmic
+DefineZone("Upper Command Center!Mardum, the Shattered Abyss", 720, 4, 719, 247) -- Upper Command Center!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Broken Isles
+DefineZone("Lower Command Center!Mardum, the Shattered Abyss", 721, 4, 719, 247) -- Lower Command Center!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Broken Isles
+DefineZone("The Violet Hold", 723, 4, 627, 0) -- The Violet Hold!Dalaran
+DefineZone("The Maelstrom", 725, 6, 948, 0) -- The Maelstrom!The Maelstrom!Azeroth!Cosmic
+DefineZone("The Maelstrom", 726, 6, 619, 0) -- The Maelstrom!Broken Isles
+DefineZone("Terrace of Endless Spring", 728, 6, 433, 0) -- Terrace of Endless Spring!The Veiled Stair!Pandaria!Azeroth
+DefineZone("Crumbling Depths", 729, 5, 207, 0) -- nil
+DefineZone("Neltharion's Lair", 731, 6, 650, 0) -- nil
+DefineZone("Violet Hold", 732, 4, 627, 0) -- nil
+DefineZone("Darkheart Thicket", 733, 6, 641, 0) -- nil
+DefineZone("Hall of the Guardian", 734, 4, 627, 246) -- nil
+DefineZone("The Guardian's Library!Hall of the Guardian", 735, 4, 627, 246) -- nil
+DefineZone("The Beyond", 736, 4, 114, 0) -- nil
+DefineZone("The Vortex Pinnacle", 737, 4, 249, 0) -- The Vortex Pinnacle!Uldum!Kalimdor!Azeroth
+DefineZone("Firelands", 738, 6, 198, 0) -- Firelands!Mount Hyjal!Kalimdor!Azeroth
+DefineZone("Trueshot Lodge", 739, 3, 650, 0) -- nil
+DefineZone("Upper Citadel!Shadowgore Citadel", 740, 4, 619, 255) -- nil
+DefineZone("Lower Citadel!Shadowgore Citadel", 741, 4, 619, 255) -- nil
+DefineZone("Abyssal Halls!Abyssal Maw", 742, 4, 204, 254) -- nil
+DefineZone("Throne of Neptulon!Abyssal Maw", 743, 4, 204, 254) -- nil
+DefineZone("The Antechamber of Ulduar!Ulduar", 744, 4, 120, 253) -- The Antechamber of Ulduar!Ulduar!The Storm Peaks
+DefineZone("The Spark of Imagination!Ulduar", 745, 4, 120, 253) -- The Spark of Imagination!Ulduar!The Storm Peaks
+DefineZone("The Observation Ring!Ulduar", 746, 4, 120, 253) -- nil
+DefineZone("The Dreamgrove", 747, 6, 641, 0, 715) -- nil
+DefineZone("Niskara", 748, 6, 619, 0) -- Niskara!Broken Isles!Azeroth!Cosmic
+DefineZone("The Arcway", 749, 4, 680, 0) -- The Arcway!Suramar!Broken Isles
+DefineZone("Thunder Totem", 750, 6, 650, 0) -- Thunder Totem!Highmountain!Broken Isles!Azeroth
+DefineZone("The Ravenscrypt!Black Rook Hold", 751, 4, 641, 245) -- nil
+DefineZone("The Grand Hall!Black Rook Hold", 752, 4, 641, 245) -- nil
+DefineZone("Ravenshold!Black Rook Hold", 753, 4, 641, 245) -- nil
+DefineZone("The Rook's Roost!Black Rook Hold", 754, 4, 641, 245) -- nil
+DefineZone("Lord Ravencrest's Chamber!Black Rook Hold", 755, 4, 641, 245) -- nil
+DefineZone("The Raven's Crown!Black Rook Hold", 756, 4, 641, 245) -- nil
+DefineZone("Ursoc's Lair", 757, 6, 116, 0) -- nil
+DefineZone("Gloaming Reef", 758, 6, 641, 0) -- nil
+DefineZone("Black Temple", 759, 4, 104, 0) -- Black Temple!Shadowmoon Valley!Outland!Cosmic
+DefineZone("Malorne's Nightmare", 760, 6, 198, 0) -- nil
+DefineZone("Court of Stars", 761, 4, 680, 252, 762, 763) -- nil
+DefineZone("The Jeweled Estate!Court of Stars", 762, 4, 761, 252) -- nil
+DefineZone("The Balconies!Court of Stars", 763, 4, 761, 252) -- nil
+DefineZone("The Nightwell!The Nighthold", 764, 4, 680, 251) -- nil
+DefineZone("Arcing Depths!The Nighthold", 765, 4, 680, 251) -- nil
+DefineZone("The Nighthold", 766, 4, 680, 251) -- nil
+DefineZone("Shal'Dorei Terrace!The Nighthold", 767, 4, 680, 251) -- nil
+DefineZone("Captain's Quarters!The Nighthold", 768, 4, 680, 251) -- nil
+DefineZone("Astromancer's Rise!The Nighthold", 769, 4, 680, 251) -- nil
+DefineZone("The Nightspire!The Nighthold", 770, 4, 680, 251) -- nil
+DefineZone("Elisande's Quarters!The Nighthold", 771, 4, 680, 251) -- nil
+DefineZone("The Font of Night!The Nighthold", 772, 4, 680, 251) -- nil
+DefineZone("Tol Barad", 773, 6, 13, 0) -- Tol Barad!Eastern Kingdoms!Azeroth!Cosmic
+DefineZone("Tol Barad", 774, 4, 244, 0) -- Tol Barad!Tol Barad
+DefineZone("The Exodar", 775, 3, 12, 0) -- The Exodar!Kalimdor!Azeroth!Cosmic
+DefineZone("Azuremyst Isle", 776, 6, 12, 0) -- Azuremyst Isle!Kalimdor!Azeroth!Cosmic
+DefineZone("Clutch of Corruption!The Emerald Nightmare", 777, 4, 641, 248) -- nil
+DefineZone("Core of the Nightmare!The Emerald Nightmare", 778, 4, 641, 248) -- nil
+DefineZone("Mulgore!The Emerald Nightmare", 779, 4, 641, 248) -- nil
+DefineZone("Un'goro Crater!The Emerald Nightmare", 780, 4, 641, 248) -- nil
+DefineZone("The Emerald Nightmare", 781, 4, 641, 248) -- nil
+DefineZone("Ashenvale!The Emerald Nightmare", 782, 4, 12, 248) -- nil
+DefineZone("The Hinterlands!The Emerald Nightmare", 783, 4, 13, 248) -- nil
+DefineZone("Duskwood!The Emerald Nightmare", 784, 4, 13, 248) -- nil
+DefineZone("Feralas!The Emerald Nightmare", 785, 4, 12, 248) -- nil
+DefineZone("Grizzly Hills!The Emerald Nightmare", 786, 4, 641, 248) -- nil
+DefineZone("Moonglade!The Emerald Nightmare", 787, 4, 641, 248) -- nil
+DefineZone("Rift of Aln!The Emerald Nightmare", 788, 4, 641, 248) -- nil
+DefineZone("The Emerald Dream!The Emerald Nightmare", 789, 4, 641, 248) -- nil
+DefineZone("Eye of Azshara", 790, 3, 619, 0) -- Eye of Azshara!Broken Isles
+DefineZone("Temple of the Jade Serpent", 791, 4, 371, 258) -- Temple of the Jade Serpent!The Jade Forest!Pandaria!Azeroth
+DefineZone("The Scrollkeeper's Sanctum!Temple of the Jade Serpent", 792, 4, 371, 258) -- The Scrollkeeper's Sanctum!Temple of the Jade Serpent!The Jade Forest!Pandaria!Azeroth
+DefineZone("Black Rook Hold", 793, 6, 641, 0) -- nil
+DefineZone("Servant's Quarters!Karazhan", 794, 4, 42, 250) -- Servant's Quarters!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("The Grand Ballroom!Karazhan", 795, 4, 42, 250) -- nil
+DefineZone("The Opera Hall!Karazhan", 796, 4, 42, 250) -- nil
+DefineZone("Guardian's Library!Karazhan", 797, 4, 42, 250) -- Guardian's Library!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("The Arcway", 798, 4, 680, 0) -- The Arcway!Suramar!Broken Isles!Azeroth
+DefineZone("The Oculus", 799, 6, 114, 0) -- The Oculus!Borean Tundra!Northrend!Azeroth
+DefineZone("Band of Alignment!The Oculus", 800, 4, 114, 257) -- Band of Alignment!The Oculus!Borean Tundra!Northrend!Azeroth
+DefineZone("Band of Transmutation!The Oculus", 801, 4, 114, 257) -- Band of Transmutation!The Oculus!Borean Tundra!Northrend!Azeroth
+DefineZone("Band of Acceleration!The Oculus", 802, 4, 114, 257) -- Band of Acceleration!The Oculus!Borean Tundra!Northrend!Azeroth
+DefineZone("Band of Variance!The Oculus", 803, 4, 114, 257) -- Band of Variance!The Oculus!Borean Tundra!Northrend!Azeroth
+DefineZone("Floor 1!Scarlet Monastery", 804, 4, 18, 256) -- Floor 1!Scarlet Monastery!Tirisfal Glades!Eastern Kingdoms!Azeroth
+DefineZone("Floor 2!Scarlet Monastery", 805, 4, 18, 256) -- Floor 2!Scarlet Monastery!Tirisfal Glades!Eastern Kingdoms!Azeroth
+DefineZone("Trial of Valor", 806, 4, 634, 259, 808, 807) -- Trial of Valor!Stormheim
+DefineZone("Trial of Valor", 807, 4, 806, 259) -- Trial of Valor!Trial of Valor
+DefineZone("Helheim!Trial of Valor", 808, 4, 806, 259) -- nil
+DefineZone("Servant's Quarters!Karazhan", 809, 4, 42, 260) -- Servant's Quarters!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Upper Livery Stables!Karazhan", 810, 4, 42, 260) -- Upper Livery Stables!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("The Banquet Hall!Karazhan", 811, 4, 42, 260) -- The Banquet Hall!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("The Guest Chambers!Karazhan", 812, 4, 42, 260) -- The Guest Chambers!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Opera Hall Balcony!Karazhan", 813, 4, 42, 260) -- Opera Hall Balcony!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Master's Terrace!Karazhan", 814, 4, 42, 260) -- Master's Terrace!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Lower Broken Stair!Karazhan", 815, 4, 42, 260) -- Lower Broken Stair!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Upper Broken Stair!Karazhan", 816, 4, 42, 260) -- Upper Broken Stair!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("The Menagerie!Karazhan", 817, 4, 42, 260) -- The Menagerie!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Guardian's Library!Karazhan", 818, 4, 42, 260) -- Guardian's Library!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Library Floor!Karazhan", 819, 4, 42, 260) -- nil
+DefineZone("Upper Library!Karazhan", 820, 4, 42, 260) -- Upper Library!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Gamesman's Hall!Karazhan", 821, 4, 42, 260) -- Gamesman's Hall!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Netherspace!Karazhan", 822, 4, 42, 260) -- Netherspace!Karazhan!Deadwind Pass!Eastern Kingdoms!Azeroth
+DefineZone("Pit of Saron", 823, 6, 118, 0) -- Pit of Saron!Icecrown!Northrend!Azeroth
+DefineZone("Islands", 824, 6, 947, 0) -- nil
+DefineZone("Wailing Caverns", 825, 4, 10, 0) -- Wailing Caverns!Northern Barrens!Kalimdor!Azeroth
+DefineZone("Cave of the Bloodtotem", 826, 4, 650, 0) -- nil
+DefineZone("Stratholme", 827, 4, 22, 0) -- nil
+DefineZone("The Eye of Eternity", 828, 4, 114, 0) -- The Eye of Eternity!Borean Tundra!Northrend!Azeroth
+DefineZone("Halls of Valor", 829, 4, 634, 0) -- Halls of Valor!Stormheim!Broken Isles!Azeroth
+DefineZone("Krokuun", 830, 3, 905, 0, 832, 940, 941, 831, 833) -- nil
+DefineZone("Upper Deck!The Exodar", 831, 5, 830, 261) -- nil
+DefineZone("Lower Deck!The Exodar", 832, 5, 830, 261) -- nil
+DefineZone("Nath'raxas Spire", 833, 5, 830, 0) -- nil
+DefineZone("Coldridge Valley", 834, 6, 27, 0) -- Coldridge Valley!Dun Morogh!Eastern Kingdoms!Azeroth
+DefineZone("Floor 1!The Deadmines", 835, 4, 52, 266) -- nil
+DefineZone("Floor 2!The Deadmines", 836, 4, 52, 266) -- nil
+DefineZone("Arathi Basin", 837, 6, 14, 0) -- Arathi Basin!Arathi Highlands!Eastern Kingdoms!Azeroth
+DefineZone("Battle for Blackrock Mountain", 838, 6, 36, 0) -- nil
+DefineZone("The Maelstrom", 839, 4, 948, 0) -- The Maelstrom!The Maelstrom!Azeroth!Cosmic
+DefineZone("Floor 1!Gnomeregan", 840, 4, 27, 268) -- nil
+DefineZone("Floor 2!Gnomeregan", 841, 4, 27, 268) -- nil
+DefineZone("Floor 3!Gnomeregan", 842, 4, 27, 268) -- nil
+DefineZone("Shado-Pan Showdown", 843, 6, 379, 0) -- nil
+DefineZone("Arathi Basin", 844, 6, 14, 0) -- Arathi Basin!Arathi Highlands!Eastern Kingdoms!Azeroth
+DefineZone("Hall of the Moon!Cathedral of Eternal Night", 845, 4, 646, 265) -- nil
+DefineZone("Twilight Grove!Cathedral of Eternal Night", 846, 4, 646, 265) -- nil
+DefineZone("The Emerald Archives!Cathedral of Eternal Night", 847, 4, 646, 265) -- nil
+DefineZone("Path of Illumination!Cathedral of Eternal Night", 848, 4, 646, 265) -- nil
+DefineZone("Sacristy of Elune!Cathedral of Eternal Night", 849, 4, 646, 265) -- nil
+DefineZone("Chamber of the Moon!Tomb of Sargeras", 850, 4, 646, 264) -- nil
+DefineZone("The Abyssal Throne!Tomb of Sargeras", 851, 4, 646, 264) -- nil
+DefineZone("Terrace of the Moon!Tomb of Sargeras", 852, 4, 646, 264) -- nil
+DefineZone("The Guardian's Sanctum!Tomb of Sargeras", 853, 4, 646, 264) -- nil
+DefineZone("Chamber of the Avatar!Tomb of Sargeras", 854, 4, 646, 264) -- nil
+DefineZone("Felstorm's Breach!Tomb of Sargeras", 855, 4, 646, 264) -- nil
+DefineZone("The Twisting Nether!Tomb of Sargeras", 856, 4, 646, 264) -- nil
+DefineZone("Throne of the Four Winds", 857, 4, 249, 0) -- Throne of the Four Winds!Uldum!Kalimdor!Azeroth
+DefineZone("Assault on Broken Shore", 858, 6, 619, 0) -- nil
+DefineZone("Warsong Gulch", 859, 6, 10, 0) -- Warsong Gulch!Northern Barrens!Kalimdor!Azeroth
+DefineZone("The Ruby Sanctum", 860, 6, 115, 0) -- The Ruby Sanctum!Dragonblight!Northrend!Azeroth
+DefineZone("Mardum, the Shattered Abyss", 861, 6, 672, 0) -- Mardum, the Shattered Abyss!Mardum, the Shattered Abyss
+DefineZone("Zuldazar", 862, 3, 875, 0, 1004, 934, 935) -- nil
+DefineZone("Nazmir", 863, 3, 875, 0, 1042) -- nil
+DefineZone("Vol'dun", 864, 3, 875, 0, 1009) -- nil
+DefineZone("Floor 1!Stormheim", 865, 4, 634, 270) -- nil
+DefineZone("Floor 2!Stormheim", 866, 4, 634, 270) -- nil
+DefineZone("Azsuna", 867, 4, 630, 0) -- Azsuna!Azsuna
+DefineZone("Val'sharah", 868, 4, 641, 0) -- Val'sharah!Val'sharah
+DefineZone("Floor 1!Highmountain", 869, 4, 650, 269) -- nil
+DefineZone("Floor 2!Highmountain", 870, 4, 650, 269) -- nil
+DefineZone("The Lost Glacier", 871, 6, 113, 0) -- nil
+DefineZone("Stormstout Brewery", 872, 4, 376, 267) -- nil
+DefineZone("Floor 1!Stormstout Brewery", 873, 4, 376, 267) -- nil
+DefineZone("Floor 2!Stormstout Brewery", 874, 4, 376, 267) -- nil
+DefineZone("Zandalar", 875, 2, 947, 0, 864, 863, 862) -- Zandalar!Azeroth
+DefineZone("Kul Tiras", 876, 2, 947, 0, 942, 936, 896, 895) -- Kul Tiras!Azeroth
+DefineZone("Fields of the Eternal Hunt", 877, 6, 634, 0) -- nil
+DefineZone("Mardum, the Shattered Abyss", 878, 6, 619, 0) -- Mardum, the Shattered Abyss!Broken Isles!Azeroth!Cosmic
+DefineZone("Upper Command Center!Mardum, the Shattered Abyss", 879, 4, 672, 249) -- Upper Command Center!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Broken Isles!Azeroth
+DefineZone("Lower Command Center!Mardum, the Shattered Abyss", 880, 4, 672, 249) -- Lower Command Center!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Broken Isles!Azeroth
+DefineZone("The Eye of Eternity", 881, 4, 114, 0) -- The Eye of Eternity!Borean Tundra!Northrend!Azeroth
+DefineZone("Mac'Aree", 882, 3, 905, 0, 903, 884, 883) -- nil
+DefineZone("Upper Deck!The Vindicaar", 883, 5, 882, 263) -- Upper Deck!The Vindicaar!Mac'Aree
+DefineZone("Lower Deck!The Vindicaar", 884, 5, 882, 263) -- Lower Deck!The Vindicaar!Mac'Aree
+DefineZone("Antoran Wastes", 885, 3, 905, 0, 909, 887, 886) -- nil
+DefineZone("Upper Deck!The Vindicaar", 886, 5, 885, 262) -- Upper Deck!The Vindicaar!Antoran Wastes
+DefineZone("Lower Deck!The Vindicaar", 887, 5, 885, 262) -- Lower Deck!The Vindicaar!Antoran Wastes
+DefineZone("Hall of Communion", 888, 4, 119, 0) -- nil
+DefineZone("Stasis Block: Trion!Arcatraz", 889, 4, 109, 272) -- nil
+DefineZone("Stasis Block: Maximus!Arcatraz", 890, 4, 109, 272) -- nil
+DefineZone("Azuremyst Isle", 891, 4, 12, 273, 894, 893, 892) -- Azuremyst Isle!Kalimdor!Azeroth!Cosmic
+DefineZone("Floor 1!Azuremyst Isle", 892, 4, 891, 273) -- nil
+DefineZone("Floor 2!Azuremyst Isle", 893, 4, 891, 273) -- nil
+DefineZone("Floor 3!Azuremyst Isle", 894, 4, 891, 273) -- nil
+DefineZone("Tiragarde Sound", 895, 3, 876, 0, 974, 975, 976, 977, 978, 979, 980) -- nil
+DefineZone("Drustvar", 896, 3, 876, 0, 1015, 1016, 1017, 1018, 1029, 1045) -- nil
+DefineZone("The Deaths of Chromie", 897, 4, 113, 274, 902, 901, 900, 899, 898) -- nil
+DefineZone("Obsidian Dragonshrine!The Deaths of Chromie", 898, 4, 897, 274) -- nil
+DefineZone("Andorhal!The Deaths of Chromie", 899, 4, 897, 274) -- nil
+DefineZone("Mount Hyjal!The Deaths of Chromie", 900, 4, 897, 274) -- nil
+DefineZone("The Well of Eternity!The Deaths of Chromie", 901, 4, 897, 274) -- nil
+DefineZone("Stratholme!The Deaths of Chromie", 902, 4, 897, 274) -- nil
+DefineZone("The Seat of the Triumvirate", 903, 6, 882, 0) -- nil
+DefineZone("Silithus Brawl", 904, 6, 81, 0) -- nil
+DefineZone("Argus", 905, 2, 619, 0, 932, 931, 930, 929, 928, 927, 926, 925, 924, 923, 922, 921, 885, 882, 830) -- Argus!Broken Isles
+DefineZone("Arathi Highlands", 906, 6, 13, 0) -- Arathi Highlands!Eastern Kingdoms!Azeroth!Cosmic
+DefineZone("Seething Shore", 907, 6, 12, 0) -- nil
+DefineZone("Ruins of Lordaeron", 908, 6, 18, 0) -- nil
+DefineZone("Antorus, the Burning Throne", 909, 4, 885, 271, 920, 919, 918, 917, 916, 915, 914, 913, 912, 911, 910) -- nil
+DefineZone("Gaze of the Legion!Antorus, the Burning Throne", 910, 4, 909, 271) -- nil
+DefineZone("Halls of the Boundless Reach!Antorus, the Burning Throne", 911, 4, 909, 271) -- nil
+DefineZone("Elunaria!Antorus, the Burning Throne", 912, 4, 909, 271) -- nil
+DefineZone("Elarian Sanctuary!Antorus, the Burning Throne", 913, 4, 909, 271) -- nil
+DefineZone("The Exhaust!Antorus, the Burning Throne", 914, 4, 909, 271) -- nil
+DefineZone("The Burning Throne!Antorus, the Burning Throne", 915, 4, 909, 271) -- nil
+DefineZone("Chamber of Anguish!Antorus, the Burning Throne", 916, 4, 909, 271) -- nil
+DefineZone("The World Soul!Antorus, the Burning Throne", 917, 4, 909, 271) -- nil
+DefineZone("Seat of the Pantheon!Antorus, the Burning Throne", 918, 4, 909, 271) -- nil
+DefineZone("Upper Deck!Antorus, the Burning Throne", 919, 4, 909, 271) -- nil
+DefineZone("Lower Deck!Antorus, the Burning Throne", 920, 4, 909, 271) -- nil
+DefineZone("Invasion Point: Aurinor", 921, 6, 905, 0) -- nil
+DefineZone("Invasion Point: Bonich", 922, 6, 905, 0) -- nil
+DefineZone("Invasion Point: Cen'gar", 923, 6, 905, 0) -- nil
+DefineZone("Invasion Point: Naigtal", 924, 6, 905, 0) -- nil
+DefineZone("Invasion Point: Sangua", 925, 6, 905, 0) -- nil
+DefineZone("Invasion Point: Val", 926, 6, 905, 0) -- nil
+DefineZone("Greater Invasion Point: Pit Lord Vilemus", 927, 6, 905, 0) -- nil
+DefineZone("Greater Invasion Point: Mistress Alluradel", 928, 6, 905, 0) -- nil
+DefineZone("Greater Invasion Point: Matron Folnuna", 929, 6, 905, 0) -- nil
+DefineZone("Greater Invasion Point: Inquisitor Meto", 930, 6, 905, 0) -- nil
+DefineZone("Greater Invasion Point: Sotanathor", 931, 6, 905, 0) -- nil
+DefineZone("Greater Invasion Point: Occularus", 932, 6, 905, 0) -- nil
+DefineZone("Forge of Aeons", 933, 6, 572, 0) -- nil
+DefineZone("Atal'Dazar", 934, 4, 862, 275) -- nil
+DefineZone("Sacrificial Pits!Atal'Dazar", 935, 4, 862, 275) -- nil
+DefineZone("Freehold", 936, 4, 876, 0) -- nil
+DefineZone("Gilneas Island", 938, 6, 947, 0) -- nil
+DefineZone("Tropical Isle 8.0", 939, 6, 947, 0) -- nil
+DefineZone("Upper Deck!The Vindicaar", 940, 4, 830, 276) -- Upper Deck!The Vindicaar!Krokuun
+DefineZone("Lower Deck!The Vindicaar", 941, 4, 830, 276) -- Lower Deck!The Vindicaar!Krokuun
+DefineZone("Stormsong Valley", 942, 3, 876, 0, 1040) -- nil
+DefineZone("Arathi Highlands", 943, 6, 13, 0) -- Arathi Highlands!Eastern Kingdoms!Azeroth!Cosmic
+DefineZone("Cosmic", 946, 0, 0, 0, 947, 101, 572) -- nil
+DefineZone("Azeroth", 947, 1, 946, 0, 12, 13, 824, 378, 407, 424, 619, 875, 876, 938, 113, 939, 948, 981) -- nil
+DefineZone("The Maelstrom", 948, 2, 947, 0, 174, 725, 194, 207, 276, 839) -- The Maelstrom!Azeroth
+DefineZone("Telogrus Rift", 971, 6, 619, 0) -- Telogrus Rift!Broken Isles!Azeroth
+DefineZone("Telogrus Rift", 972, 6, 619, 0) -- Telogrus Rift!Broken Isles!Azeroth!Cosmic
+DefineZone("The Sunwell", 973, 4, 335, 0) -- nil
+DefineZone("Tol Dagor", 974, 6, 895, 277) -- nil
+DefineZone("The Drain!Tol Dagor", 975, 4, 895, 277) -- nil
+DefineZone("The Brig!Tol Dagor", 976, 4, 895, 277) -- nil
+DefineZone("Detention Block!Tol Dagor", 977, 4, 895, 277) -- nil
+DefineZone("Officer Quarters!Tol Dagor", 978, 4, 895, 277) -- nil
+DefineZone("Overseer's Redoubt!Tol Dagor", 979, 4, 895, 277) -- nil
+DefineZone("Overseer's Summit!Tol Dagor", 980, 4, 895, 277) -- nil
+DefineZone("Un'gol Ruins", 981, 6, 947, 0) -- nil
+DefineZone("Eastern Kingdoms", 985, 2, 0, 0) -- Eastern Kingdoms!
+DefineZone("Kalimdor", 986, 2, 0, 0) -- Kalimdor!
+DefineZone("Outland", 987, 2, 0, 0) -- Outland!
+DefineZone("Northrend", 988, 2, 0, 0) -- Northrend!
+DefineZone("Pandaria", 989, 2, 0, 0) -- Pandaria!
+DefineZone("Draenor", 990, 2, 0, 0) -- Draenor!
+DefineZone("Zandalar", 991, 2, 0, 0) -- Zandalar!!!
+DefineZone("Kul Tiras", 992, 2, 0, 0) -- Kul Tiras!!!
+DefineZone("Broken Isles", 993, 2, 0, 0) -- Broken Isles!
+DefineZone("Argus", 994, 2, 0, 0) -- Argus!
+DefineZone("Tirisfal Glades", 997, 3, 0, 0, 998) -- Tirisfal Glades!
+DefineZone("Undercity", 998, 3, 997, 0) -- Undercity!Tirisfal Glades
+DefineZone("King's Rest", 1004, 4, 862, 0) -- nil
+DefineZone("Atul'Aman", 1009, 5, 864, 0) -- nil
+DefineZone("The MOTHERLODE!!", 1010, 3, 194, 0) -- nil
+DefineZone("Zandalar", 1011, 2, 0, 0) -- Zandalar!!!
+DefineZone("Stormwind City", 1012, 6, 13, 278) -- Stormwind City!Eastern Kingdoms!Azeroth!Cosmic
+DefineZone("The Stockade", 1013, 6, 13, 278) -- The Stockade!Eastern Kingdoms
+DefineZone("Kul Tiras", 1014, 2, 0, 0) -- Kul Tiras!!!
+DefineZone("The Grand Foyer!Waycrest Manor", 1015, 4, 896, 279) -- nil
+DefineZone("Upstairs!Waycrest Manor", 1016, 4, 896, 279) -- nil
+DefineZone("The Cellar!Waycrest Manor", 1017, 4, 896, 279) -- nil
+DefineZone("Catacombs!Waycrest Manor", 1018, 4, 896, 279) -- nil
+DefineZone("ChamberOfHeart", 1021, 4, 81, 0) -- nil
+DefineZone("Uncharted Island", 1022, 3, 0, 0) -- nil
+DefineZone("Thros, The Blighted Lands", 1045, 4, 896, 0) -- nil
+DefineZone("The Rupture!WaycrestDimension", 1029, 4, 896, 279) -- nil
+DefineZone("Main Floor!Greymane Manor", 1030, 5, 217, 280) -- Main Floor!Greymane Manor!Ruins of Gilneas
+DefineZone("Upper Floor!Greymane Manor", 1031, 5, 179, 280) -- Upper Floor!Greymane Manor!Gilneas!Eastern Kingdoms!Azeroth
+DefineZone("Skittering Hollow", 1032, 3, 0, 0) -- nil
+DefineZone("The Rotting Mire", 1033, 3, 0, 0) -- nil
+DefineZone("Verdant Wilds", 1034, 3, 0, 0) -- nil
+DefineZone("Molten Cay", 1035, 3, 0, 0) -- nil
+DefineZone("The Dread Chain", 1036, 3, 0, 0) -- nil
+DefineZone("Whispering Reef", 1037, 3, 0, 0) -- nil
+DefineZone("Temple of Sethraliss", 1038, 3, 0, 283) -- nil
+DefineZone("Shrine of the Storm", 1039, 3, 0, 281) -- nil
+DefineZone("Shrine Interior TEMP!Shrine of the Storm", 1040, 4, 942, 281) -- nil
+DefineZone("The Underrot", 1041, 3, 0, 282) -- nil
+DefineZone("Temple Interior TEMP!UnderrotInt", 1042, 4, 863, 282) -- nil
+DefineZone("Interior Temple TEMP!Temple of Sethraliss", 1043, 3, 0, 283) -- nil
+DefineZone("Arathi Highlands", 1044, 6, 13, 0) -- Arathi Highlands!Eastern Kingdoms!Azeroth!Cosmic
+DefineZone("", 0, 0, 0, 0) -- nil

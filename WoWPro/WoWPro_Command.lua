@@ -11,7 +11,7 @@ local function handler(msg, editbox)
 
     if ltoken == "where" then
         SetMapToCurrentZone()
-        local X, Y = GetPlayerMapPosition("player")
+        local X, Y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
         if (not X) or (not Y) then
             local msg = string.format("Player at ?@%s", WoWPro.GetZoneText())
             ChatFrame1:AddMessage(msg)

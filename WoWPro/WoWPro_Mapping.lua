@@ -668,44 +668,29 @@ function WoWPro:RemoveMapPoint()
 end
 
 function  WoWPro.CheckHBDData(force)
-    local x, y, map, pizo, mapFile, isMicroDungeon = WoWPro.HBD:GetPlayerZonePosition()
-    if not (map and pizo) then
+    local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
+    if not (x and y) then
         WoWPro:dbp("CheckHBDData(): No player position yet!")
         -- We are not mapped yet.
         return
     end
-    local width, height = WoWPro.HBD:GetZoneSize(map, pizo)
+    local width, height = WoWPro.HBD:GetZoneSize(mapId)
     if (not force) and width > 0 and height > 0 then
         -- We have data
-        WoWPro:dbp("Map data present for %d/%d", map, pizo)
+        WoWPro:dbp("Map data present for %d-%d", mapId, mapType)
         return
     end
     -- Hey!  No data!
-    local mapData = {}
-    local l, TLx, TLy, BRx, BRy =  GetCurrentMapDungeonLevel();
-    if not TLx then
-        WoWPro:dbp("GCMDL failed for %d/%d", map, pizo)
-        return
-    end
-	mapData.width = BRx - TLx
-	mapData.height = BRy - TLy
-	mapData.xOffset = -TLx
-	mapData.yOffset = -TLy
-	
-	WoWPro:print("You discovered new map info for %s:%s. Please report this on the WoWPro.com website.", GetZoneText(), string.trim(GetSubZoneText()))
-	-- WorldMapSize[27][10] = { xOffset =  -500.000000, height = 380.000000, yOffset =  5242.500000, width = 570.000000 , __index = zeroDataFunc };
-	WoWPro:print("[%d][%d] = { xOffset = %f, height = %f, yOffset = %f, width = %f}", map, pizo, mapData.xOffset,  mapData.height,  mapData.yOffset, mapData.width)
+	WoWPro:print("You discovered new map %d info for %s:%s. Please report this on the WoWPro.com website.", mapId, GetZoneText(), string.trim(GetSubZoneText()))
 end
 
 function WoWPro:LogLocation()
-    local x, y = WoWPro.HBD:GetPlayerZonePosition()
+    local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
 
     if not (x and y) then
-        WoWPro:print("Player map and floor unknown")
+        WoWPro:print("Player [?,?@%d/%d] '%s' aka '%s'", mapID, mapType, GetMapNameByID(mapID), GetZoneText() )
     else
-        local mapID = GetCurrentMapAreaID()
-        local level = GetCurrentMapDungeonLevel()
-        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", x*100 , y*100, mapID, level, GetMapNameByID(mapID), GetZoneText() )
+        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", x*100 , y*100, mapID, mapType, GetMapNameByID(mapID), GetZoneText() )
     end
 end
 
