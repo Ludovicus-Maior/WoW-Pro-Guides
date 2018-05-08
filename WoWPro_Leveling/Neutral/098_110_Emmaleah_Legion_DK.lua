@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2018-05-07 20:15
+-- Who: Emmaleah
+-- Log: Remove deprecated quest "hitting the books"
+
+-- URL: http://wow-pro.com/node/3668/revisions/28808/view
 -- Date: 2017-10-19 21:33
 -- Who: Ludovicus
 -- Log: Bad PRE tag on [Bringer of the Light]
@@ -330,9 +335,6 @@ A The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|NA
 t The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
 
 ;upon first hitting 110
-A Hitting the Books|QID|43877|M|49.75,55.89|N|From Illanna Dreadmoore|LVL|110|
-C Hitting the Books|QID|43877|M|49.75,55.89|N|Research your first artifact knowledge (and the 2nd if you have the resources). Keep checking in and researching as each one completes.|LVL|110|
-t Hitting the Books|QID|43877|M|49.75,55.89|N|To Illanna Dreadmoore|LVL|110|
 A Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|From Quartermaster Ozorg.|LVL|110|
 T Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|To Quartermaster Ozorg.|LVL|110|
 
