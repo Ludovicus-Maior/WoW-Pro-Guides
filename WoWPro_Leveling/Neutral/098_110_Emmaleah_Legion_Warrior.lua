@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2018-05-07 20:28
+-- Who: Emmaleah
+-- Log: Remove deprecated quest "hitting the books"
+
+-- URL: http://wow-pro.com/node/3677/revisions/28751/view
 -- Date: 2017-08-12 21:07
 -- Who: Ludovicus_Maior
 -- Log: Obliterum
@@ -220,9 +225,6 @@ A Khadgar's Discovery|QID|39985|M|60.92,44.73|Z|Dalaran@Dalaran70|N|From UI Aler
 A Goddess Watch Over You|QID|44337|M|58.85,36.23|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110.|LVL|110|
 A Axe and You Shall Receive|QID|44255|M|55.96,26.37|N|From Quartermaster Durnolf. Your class hall has a gift for you.|LVL|110|
 T Axe and You Shall Receive|QID|44255|M|55.96,26.37|N|To Quartermaster Durnolf.|
-A Hitting the Books|QID|43888|M|45.13,28.18|N|From Fjornson Stonecarver.|LVL|110|
-C Hitting the Books|QID|43888|M|45.13,28.18|N|At Fjornson Stonecarver. This is probably your highest priority to fund for a bit. Keep putting your order hall resources into Artifact research.  When you pick up the research, you need to "Use" the scroll to acquire the knowledge.|
-T Hitting the Books|QID|43888|M|45.13,28.18|N|To Juvess the Duskwhisperer.|
 A Message to Helya|QID|43586|M|58.32,82.86|N|From Odyn.|LVL|110|
 A The Might of the Val'kyr|QID|44222|M|73.17,30.50|LVL|110|N|From Matilda Skoptidottir, IF you select the Val'kyr Call Order Advancement V, for your Order Hall.|
 C The Might of the Val'kyr|QID|44222|M|71.95,31.26|L|140147|N|Click on the Blessing of Mjolnir, to collect it.|
