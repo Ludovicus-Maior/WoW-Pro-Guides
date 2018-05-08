@@ -6,25 +6,20 @@
 
 WoWPro.Zone2MapID = {}
 WoWPro.MapID2Zone = {}
-WoWPro.Map2Zone = {}
+WoWPro.LegacyZone2MapID = {}
 
 local function DupCheck(zone,who)
-    if WoWPro.MapID2Zone[zone] then
-        WoWPro:Warning("DupCheck(): %s is overriding WoWPro.MapID2Zone['%s']", who, zone)
-    end
 end
 
 function WoWPro.DefineLegacyZone(legacy_zone, legacy_floor, modern_mapId)
-    DupCheck(zi,"DefineLegacyZone")
-    WoWPro.Zone2MapID[zi] = {mapID=mapID, floor=floor, dungeon=dungeon, mapName=mapName}
-    WoWPro.MapID2Zone[mapID] = WoWPro.MapID2Zone[mapID] or {}
-    WoWPro.MapID2Zone[mapID][floor] = zi
-    WoWPro.Map2Zone[mapName] = zi
+    WoWPro.LegacyZone2MapID[legacy_zone] = WoWPro.LegacyZone2MapID[legacy_zone] or {}
+    WoWPro.LegacyZone2MapID[legacy_zone][legacy_floor] = modern_mapId
 end
 
 function WoWPro.DefineZone(zone, mapId, mapType, parent_map, group_id, ... )
-    DupCheck(zone,"DefineZone")
-    
+    if WoWPro.MapID2Zone[zone] then
+        WoWPro:Warning("DupCheck(): DefineZone is overriding WoWPro.MapID2Zone['%s']", zone)
+    end
     WoWPro.Zone2MapID[zone] = {mapID=mapId, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     WoWPro.MapID2Zone[mapId] = zone
 end
@@ -36,6 +31,27 @@ function WoWPro.GetZoneText()
     else
         return string.format("%d", mapId)
     end
+end
+
+function WoWPro:ValidZone(zone)
+	if zone then
+	    if tonumber(zone) then
+	        -- Using a numeric zone ID
+            return tonumber(zone)
+	    elseif WoWPro.Zone2MapID[zone] then
+	        -- Zone found in DB
+	        return zone
+	    elseif WoWPro.LegacyZone2MapID[zone] then
+	        -- Zone is a legacy zone sans floor
+	        return WoWPro.LegacyZone2MapID[zone][0]
+	    elseif zone:match("/") then
+	        -- Zone is a legacy zone avec floor
+	        local nzone , floor = string.split("/",zone)
+	        floor = tonumber(floor) or 0
+	        return WoWPro.LegacyZone2MapID[zone][floor]
+	    end
+    end
+    return nil
 end
 
 function WoWPro:IsInstanceZone(zone)
