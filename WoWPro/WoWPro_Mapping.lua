@@ -5,15 +5,7 @@
 local L = WoWPro_Locale
 local cache = {}
 local HBD = LibStub("HereBeDragons-2.0")
-WoWPro.HBD = {}
-
-function WoWPro.HBD:GetZoneDistance(im,ifl,ix,iy, jm,jfl,jx,jy)
-  return 1e197
-end
-
-function WoWPro.HBD:GetPlayerZonePosition()
-  return nil
-end
+WoWPro.HBD = HBD
 
 -- placeholder flags in case you want to implement options to disable
 -- later on TomTom tooltips and right-clicking drop-down menus
