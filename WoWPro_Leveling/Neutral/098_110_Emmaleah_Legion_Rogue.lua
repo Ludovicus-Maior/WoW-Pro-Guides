@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3675
+-- Date: 2018-05-07 20:25
+-- Who: Emmaleah
+-- Log: Remove deprecated quest "hitting the books"
+
+-- URL: http://wow-pro.com/node/3675/revisions/28749/view
 -- Date: 2017-08-12 21:05
 -- Who: Ludovicus_Maior
 -- Log: Obliterum
@@ -212,13 +217,6 @@ A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you
 A Goddess Watch Over You|QID|44337|M|52.93,33.77|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110. If you haven't done Val'sharah yet, you will get this quest in the Violet Citadel in Dalaran.|LVL|110|
 A A Sheath For Every Blade|QID|44252|M|26.91,36.82|N|From Kelsey Steelspark. Your class hall has a gift for you.|LVL|110|
 T A Sheath For Every Blade|QID|44252|M|26.91,36.82|N|To Kelsey Steelspark.|
-N Artifact Knowledge Catch-Up 7.1.5|QID|43885|M|37.85,70.06|ITEM|144435|U|144435|N|Assuming you have the resources available, you should have sent an 'Artifact Research Compendium' (BOA item purchased in order hall) from one of you other characters (with max or at least highest AK) on the account.  This will allow you to jumpstart your artifact research by as much as 20 levels. This is also the lowest resource cost option.|LVL|110|
-A Knowledge is Power|QID|46129|M|37.85,70.06|ITEM|144395|U|144395|N|From Filius Sparkstache. Assuming you were unable to send a AK15 or 20 item, you can buy immediately up to AK 15 for 500 resources each (same cost as research).|LVL|110|ACH|10852|
-T Knowledge is Power|QID|46129|M|37.85,70.06|U|144395|N|To Filius Sparkstache.|
-A Hitting the Books|QID|43885|M|37.85,70.06|N|From Filius Sparkstache.|LVL|110|
-C Hitting the Books|QID|43885|M|37.85,70.06|NC|N|At Filius Sparkstache. This is probably your highest priority to fund for a bit. Keep putting your order hall resources into Artifact research. When you pick up the research, you need to "Use" the scroll to acquire the knowledge.|
-T Hitting the Books|QID|43885|M|37.85,70.06|N|To Filius Sparkstache.|
-N Artifact Research|QID|44338|M|37.85,70.06|N|Once you have used your Compendium and/or any artifact knowledge synopsis available to you. You need to go to Filius Sparkstache and choose to Reaseach. Keep doing this until you max out artifact research. Check this off manually.|LVL|110|
 T An Urgent Warning|QID|45991|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|
 A Investigate the Broken Shore|QID|45992|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|45991|
 A Maw of Souls: Ancient Vrykul Legends|QID|43253|M|40.86,75.45|N|From Valeera Sanguinar. This is a dungeon quest. Queue or gather up some friends.|LVL|110|PRE|42684;43468|
