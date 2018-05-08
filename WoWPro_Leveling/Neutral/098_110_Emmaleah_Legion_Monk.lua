@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3672
+-- Date: 2018-05-07 20:19
+-- Who: Emmaleah
+-- Log: Remove deprecated quest "hitting the books"
+
+-- URL: http://wow-pro.com/node/3672/revisions/28746/view
 -- Date: 2017-08-12 21:02
 -- Who: Ludovicus_Maior
 -- Log: Obliterum
@@ -231,9 +236,6 @@ N Artifact Knowledge Catch-Up 7.1.5|QID|44249|ITEM|144435|N|Assuming you have th
 A Knowledge is Power|QID|46129|M|46.71,46.69|ITEM|144395|N|From Lorewalker Cho. Assuming you were unable to send a AK15 or 20 item, you can buy immediately up to AK 15 for 500 resources each (same cost as research).|LVL|110|ACH|10852|
 T Knowledge is Power|QID|46129|M|46.71,46.69|ITEM|144395|N|To Lorewalker Cho.|
 N Artifact Research|QID|44249|M|46.71,46.69|N|Once you have used your Compendium and or any artifact knowledge synopsis available to you. You need to go to Lorewalker Cho and chose to Reaseach.  Keep doing this until you max out artifact research. Check this off manually.|
-A Hitting the Books|QID|43881|M|46.71,46.69|N|From Lorewalker Cho. Only shows up if you do not have another character with artifact research above lvl 15 on the account.|LVL|110|ACH|10852|
-C Hitting the Books|QID|43881|M|46.71,46.69|N|Talk to Lorewalkder Cho to begin the slow process of artifact research.|
-T Hitting the Books|QID|43881|M|46.71,46.69|N|To Lorewalker Cho.|
 A Inner Sanctuary|QID|44249|M|50.33,59.14|N|From Caydori Brightstar. Your class hall has a gift for you.|LVL|110|
 T Inner Sanctuary|QID|44249|M|50.33,59.14|N|To Caydori Brightstar.|
 P Krasus' Landing|QID|44338|M|52.39, 57.13|N|Take the portal to Dalaran.|ACTIVE|44348|
