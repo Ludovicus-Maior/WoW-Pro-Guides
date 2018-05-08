@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2018-05-07 20:26
+-- Who: Emmaleah
+-- Log: Remove deprecated quest "hitting the books"
+
+-- URL: http://wow-pro.com/node/3679/revisions/28803/view
 -- Date: 2017-10-07 19:58
 -- Who: Ludovicus_Maior
 -- Log: Tag fix for ACTIVE/QID
@@ -279,9 +284,6 @@ A Empowering the Soul|QID|42100|PRE|41798|LVL|103|M|55.23,37.05|N|From Ritssyn F
 C Empowering the Soul|QID|42100|N|Use Battle Plans to complete 5 missions, that reawrd Empowered Soul Shards.|
 t Empowering the Soul|QID|42100|M|55.23,37.05|N|To Ritssyn Flamescowl.|
 
-A Hitting the Books|QID|43887|LVL|110|M|57,40.4|N|From Mile Raithebrone.|
-C Hitting the Books|QID|43887|QO|1|N|Start a Reseach Work Order.|
-T Hitting the Books|QID|43887|LVL|110|M|57,40.4|N|To Mile Raithebrone.|
 A Gazing Into Oblivion|QID|44254|LVL|110|M|58.6,33.2|N|From / To Gigi Gigavoid. *Wowhead says Horde only, NOT sure*.|
 A Black Rook Hold: An Unclaimed Soul|QID|42098|PRE|42100|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
 t Black Rook Hold: An Unclaimed Soul|QID|42098|M|55.23,37.05|N|To Ritssyn Flamescowl.|
