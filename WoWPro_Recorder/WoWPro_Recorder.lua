@@ -88,7 +88,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 	WoWPro.Recorder:dbp(event.." event fired.")
 	if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
 
-	local x, y = GetPlayerMapPosition("player")
+	local x, y = WoWPro.HBD:GetPlayerZonePosition()
 	local zonetag = WoWPro.GetZoneText()
 	if zonetag == WoWPro.Guides[GID].zone then
 	    zonetag = nil
@@ -312,7 +312,7 @@ end
 
 function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
     local GID = WoWProDB.char.currentguide
-    local x, y = GetPlayerMapPosition("player")
+    local x, y = WoWPro.HBD:GetPlayerZonePosition()
     local zonetag = WoWPro.GetZoneText()
     if zonetag == WoWPro.Guides[GID].zone then
         zonetag = nil
