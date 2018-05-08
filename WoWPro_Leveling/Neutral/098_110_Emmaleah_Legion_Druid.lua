@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2018-05-07 20:16
+-- Who: Emmaleah
+-- Log: Remove deprecated quest "hitting the books"
+
+-- URL: http://wow-pro.com/node/3669/revisions/28754/view
 -- Date: 2017-08-12 21:19
 -- Who: Ludovicus_Maior
 -- Log: Obliterum
@@ -255,14 +260,6 @@ A Investigate the Broken Shore|QID|46027|M|46.40,48.65|N|From Skylord Omnuron.|
 C Investigate the Broken Shore|QID|46027|M|46.40,48.65|NA|NC|N|Use scouting map to do the requested mission. This mission requires ilvl 830 champions, so it may be awhile before you can complete it. Check this off manually until then.|
 
 ;back to order hall quests
-N Artifact Knowledge Catch-Up 7.1.5|QID|44232|ITEM|144435|N|Assuming you have the resources available, you should have sent an 'Artifact Research Compendium' (BOA item purchased in order hall) from one of you other characters (with max or at least highest AK) on the account.  This will allow you to jumpstart your artifact research by as much as 20 levels. This is also the lowest resource cost option.|LVL|110|
-A Hitting the Books|QID|43879|M|33.92,32.51|N|From Celadine the Fatekeeper.|LVL|110|
-C Hitting the Books|QID|43879|M|33.92,32.51|NC|N|Train your first level of Artifact knowledge at Celadine the Fatekeeper.|
-T Hitting the Books|QID|43879|M|33.92,32.51|N|To Celadine the Fatekeeper.|
-A Knowledge is Power|QID|46141|M|33.92,32.51|ITEM|144395|N|From Celadine the Fatekeeper. Assuming you were unable to send a AK15 or 20 item, you can buy (via repeatable quest) immediately up to AK 15 for 500 resources each (same cost as research).|LVL|110|ACH|10852|
-T Knowledge is Power|QID|46141|M|33.92,32.51|U|139390|N|To Celadine the Fatekeeper.|
-A Furthering Knowledge|QID|46154|M|33.92,32.51|U|139390|N|From/To Celadine the Fatekeeper. Keep buying *and using* them until she won't sell anymore.|ACTIVE|42040| ;using the correct QID didnt check it off? maybe because it is repeatable up to 15 times?
-N Artifact Knowledge|QID|44232|M|33.92,32.51|U|139390|N|Use all the AK Scrolls you just bought. Keep researching till you max out.|
 A The Grove Provides|QID|44232|M|40.30,24.48|N|From Amurra Thistledew. Your class hall has a gift for you.|LVL|110|
 T The Grove Provides|QID|44232|M|38.70,23.93|N|To Amurra Thistledew.|
 C Goddess Watch over You|QID|44338|NC|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
