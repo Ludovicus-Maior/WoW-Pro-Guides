@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2018-05-07 20:17
+-- Who: Emmaleah
+-- Log: Remove deprecated quest "hitting the books"
+
+-- URL: http://wow-pro.com/node/3670/revisions/28968/view
 -- Date: 2018-02-04 17:52
 -- Who: Ludovicus
 -- Log: [Bite of the Beast] Waypoint correction by Jeremy Billones.
@@ -265,9 +270,6 @@ T Light's Charge|QID|44153|M|47.28,43.46|NC|N|Return to your order hall and retu
 ;fresh 110 quests
 A Khadgar's Discovery|QID|39985|M|60.92,44.73|Z|Dalaran@Dalaran70|N|Upon arriving in Dalaran and being level 110 from a UI Alert.|LVL|110|
 A Goddess Watch Over You|QID|44337|M|36.95,28.21|N|Received from a glowing pink pall containing an image of Khadgar's head that follows you around when you first arrive in your guild hall after reaching lvl 110.|LVL|110|
-A Hitting the Books|QID|43880|M|52.49,54.52|N|From Holt Thunderhorn.|LVL|110|
-C Hitting the Books|QID|43880|M|52.49,54.52|CHAT|N|At Holt Thunderhorn. Probably your highest priority to keep this queue full!|
-T Hitting the Books|QID|43880|M|52.49,54.52|N|To Holt Thunderhorn.|
 A Walk This Way|QID|44233|M|44.60,48.86|N|From/To Outfitter Reynolds inside the lodge.|LVL|110|
 T Goddess Watch Over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
