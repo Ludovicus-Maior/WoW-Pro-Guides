@@ -1,3 +1,18 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/alliance_battle_azeroth_intro
+-- Date: 2018-05-06 22:13
+-- Who: Emmaleah
+-- Log: To correct syntax and the node #
+
+-- URL: http://wow-pro.com/node/3760/revisions/29258/view
+-- Date: 2018-05-06 21:52
+-- Who: Emmaleah
+-- Log: Draft 1 - Opening Scenario/quests for Alliance.  The zone numbers will need replaced with names when they are available.
+
 local guide = WoWPro:RegisterGuide('BfAOpen', 'Leveling', '895', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideNextGuide(guide, 'zul')
@@ -86,4 +101,3 @@ J On to Tiragarde Sound|QID|47960|N|This temporarily ends the Battle for Azeroth
 ]]
 
 end)
-
