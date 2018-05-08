@@ -31,10 +31,10 @@ end
 
 function WoWPro.GetZoneText()
     local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition(false)
-    if WoWPro.MapID2Zone[mapID] then
-        return string.format("%s",  WoWPro.MapID2Zone[mapID])
+    if WoWPro.MapID2Zone[mapId] then
+        return string.format("%s",  WoWPro.MapID2Zone[mapId])
     else
-        return string.format("%d", mapID)
+        return string.format("%d", mapId)
     end
 end
 
