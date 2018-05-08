@@ -299,7 +299,7 @@ end
 
 local FinalCoord
 function WoWPro:MapPointDelta()
-    local x, y = GetPlayerMapPosition("player");
+    local x, y = WoWPro.HBD:GetPlayerZonePosition()
     if FinalCoord and x and y then
         local X,Y
         X=FinalCoord[1]
@@ -327,29 +327,10 @@ function WoWPro.DistanceBetweenSteps(i,j)
     local iy = tonumber(icoord:match(",([^|]*)"))/100
     local jx = tonumber(jcoord:match("([^|]*),"))/100
     local jy = tonumber(jcoord:match(",([^|]*)"))/100
-    local im
-    local jm
-    local ifl
-    local jfl 
-    if WoWPro.zone[i]:match("/") then
-        local nzone , floor = string.split("/",WoWPro.zone[i])
-        im = WoWPro.Zone2MapID[nzone].mapID
-        ifl = tonumber(floor)
-    else
-        im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
-        ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
-    end
-    if WoWPro.zone[j]:match("/") then
-        local nzone , floor = string.split("/",WoWPro.zone[j])
-        jm = WoWPro.Zone2MapID[nzone].mapID
-        jfl = tonumber(floor)
-    else
-        jm = WoWPro.Zone2MapID[WoWPro.zone[j]].mapID
-        jfl = WoWPro.Zone2MapID[WoWPro.zone[j]].floor or 0
-    end
-
+    local im = WoWPro:ValidZone(WoWPro.zone[i])
+    local jm = WoWPro:ValidZone(WoWPro.zone[j])
     
-    local distance = WoWPro.HBD:GetZoneDistance(im,ifl,ix,iy, jm,jfl,jx,jy) or 1e198
+    local distance = WoWPro.HBD:GetZoneDistance(im,ix,iy, jm,jx,jy) or 1e198
     WoWPro:dbp("Dx %s(%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",WoWPro.step[i],ix*100,iy*100,im, WoWPro.step[j],jx*100,jy*100,jm,distance)
     return distance
 end
@@ -364,39 +345,19 @@ function WoWPro.DistanceToStep(i)
     local ix = select(1, string.split(",", icoord))
     local iy = select(2, string.split(",", icoord))
     local im
-    local ifl
     ix = tonumber(ix) / 100
     iy = tonumber(iy) / 100
-    im, ifl = WoWPro:ValidZone(WoWPro.zone[i])
+    im = WoWPro:ValidZone(WoWPro.zone[i])
 --    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
-    local x, y = GetPlayerMapPosition("player")
+    local x, y, m = WoWPro.HBD:GetPlayerZonePosition()
     if (not x) or (not y) then
         return 1e99
     end
-    local m = GetCurrentMapAreaID()
-    local f = GetCurrentMapDungeonLevel()
     
-    local distance = WoWPro.HBD:GetZoneDistance(m,f,x,y, im,ifl,ix,iy) or 1e199
+    local distance = WoWPro.HBD:GetZoneDistance(m,x,y, im,ix,iy) or 1e199
     WoWPro:dbp("IDx (%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",x*100,y*100,m, WoWPro.step[i],ix*100,iy*100,im,distance)
     return distance
 end
-
-function WoWPro:ValidZone(zone)
-	if zone then
-	    if tonumber(zone) then
-	        -- Using a numeric zone ID
-            return tonumber(zone), 0
-	    elseif WoWPro.Zone2MapID[zone] then
-	        -- Zone found in DB
-	        return zone, (WoWPro.Zone2MapID[zone].floor or 0)
-	    elseif zone:match("/") then
-	        local nzone , floor = string.split("/",zone)
-	        return WoWPro:ValidZone(nzone), tonumber(floor)
-	    end
-    end    
-    return nil
-end
-
 
 function WoWPro:ValidateMapCoords(guide,action,step,coords)
 	local numcoords = select("#", string.split(";", coords))
