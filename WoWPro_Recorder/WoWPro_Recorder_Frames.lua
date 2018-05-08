@@ -265,7 +265,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					width = "full",
 					func = function(info,val) 
 						dialog:Close("WoWPro Recorder - Add Step");
-						local x, y = GetPlayerMapPosition("player")
+						local x, y = WoWPro.HBD:GetPlayerZonePosition()
 						local zonetag, note
 						if GetZoneText() ~= WoWPro.Guides[WoWProDB.char.currentguide].zone then zonetag = GetZoneText() else zonetag = nil end
 						if GetUnitName("target") then note = "At "..GetUnitName("target").."." end
