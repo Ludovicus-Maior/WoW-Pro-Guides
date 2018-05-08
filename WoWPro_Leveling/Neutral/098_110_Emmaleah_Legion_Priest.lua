@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2018-05-07 20:23
+-- Who: Emmaleah
+-- Log: Remove deprecated quest "hitting the books"
+
+-- URL: http://wow-pro.com/node/3674/revisions/28748/view
 -- Date: 2017-08-12 21:03
 -- Who: Ludovicus_Maior
 -- Log: Obliterum
@@ -387,9 +392,6 @@ A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you
 A Goddess Watch Over You|QID|44337|M|49.74,58.86|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110.|LVL|110|
 A Power Word: Armor|QID|44251|M|38.70,23.93|N|From Meridelle Lightspark. Your class hall has a gift for you.|LVL|110|
 T Power Word: Armor|QID|44251|M|38.70,23.93|N|To Meridelle Lightspark.|
-A Hitting the Books|QID|43884|M|59.86,28.11|N|From Juvess the Duskwhisperer.|LVL|110|
-C Hitting the Books|QID|43884|M|59.86,28.11|N|At Juvess the Duskwhisperer. This is probably your highest priority to fund for a bit. Keep putting your order hall resources into Artifact research.  When you pick up the research, you need to "Use" the scroll to acquire the knowledge.|
-T Hitting the Books|QID|43884|M|59.86,28.11|N|To Juvess the Duskwhisperer.|
 C Goddess Watch Over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
 t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
 A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
