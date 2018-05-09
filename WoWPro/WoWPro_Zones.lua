@@ -27,9 +27,9 @@ end
 function WoWPro.GetZoneText()
     local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition(false)
     if WoWPro.MapID2Zone[mapId] then
-        return string.format("%s",  WoWPro.MapID2Zone[mapId])
+        return string.format("%s",  WoWPro.MapID2Zone[mapId]), mapId
     else
-        return string.format("%d", mapId)
+        return string.format("%d", mapId), mapId
     end
 end
 
@@ -40,35 +40,45 @@ function WoWPro:ValidZone(zone)
             return tonumber(zone)
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
-	        return zone
+	        return WoWPro.Zone2MapID[zone]
 	    elseif WoWPro.LegacyZone2MapID[zone] then
 	        -- Zone is a legacy zone sans floor
+	        if not WoWPro.LegacyZone2MapID[zone][0] then
+	            WoWPro:Error("ValidZone: Possible Legacy Zone %s exists, but has no 0 floor.", zone)
+	            return nil
+	        end
 	        return WoWPro.LegacyZone2MapID[zone][0]
 	    elseif zone:match("/") then
 	        -- Zone is a legacy zone avec floor
 	        local nzone , floor = string.split("/",zone)
-	        floor = tonumber(floor) or 0
+	        floor = tonumber(floor)
+	        if not WoWPro.LegacyZone2MapID[nzone] then
+	            WoWPro:Error("ValidZone: Legacy Zone [%s] is not registered.", zone)
+	            return nil
+	        end
+	        if not floor then
+	            WoWPro:Error("ValidZone: Legacy Zone [%s] has a malformed floor", zone)
+	            return nil
+	        end
+	        if not WoWPro.LegacyZone2MapID[zone][floor] then
+	            WoWPro:Error("ValidZone: Legacy Zone [%s] has an unkown floor", zone)
+	            return nil
+	        end
 	        return WoWPro.LegacyZone2MapID[zone][floor]
+	    else
+	        WoWPro:Error("ValidZone: Zone [%s] is unkown.", zone)
 	    end
     end
     return nil
 end
 
 function WoWPro:IsInstanceZone(zone)
-    local nzone = WoWPro:ValidZone(zone)
+    local nzone, mapID  = WoWPro:ValidZone(zone)
     if not nzone then
         WoWPro:Error("Zone [%s] is invalid.  Please report!",zone)
         return false
     end
-    local mapID = WoWPro.Zone2MapID[nzone] or WoWPro.MapID2Zone[nzone]
-    if not mapID then
-        WoWPro:Error("Zone [%s] is not in Zone2MapID or MapID2Zone.  Please report!",nzone)
-        return false
-    end
-    if mapID.cont or mapID.zone then
-        return false
-    end
-    return true
+    return (WoWPro.Zone2MapID[nzone].mapType == 4) or (WoWPro.Zone2MapID[nzone].mapType == 6)
 end
 
 local function pack_kv(...)
@@ -277,10 +287,4 @@ function WoWPro.Functionalize()
     LogBox.Scroll:UpdateScrollChildRect()
     LogBox:Show()
     WoWPro:Print("WoWPro:Functionalize(): 2")
-end
-
-
-function WoWPro.WhereAmI()
-    local mapFileName, textureHeight, textureWidth, isMicroDungeon, microDungeonMapName = GetMapInfo()
-    local mapID, isContinent = GetCurrentMapAreaID()
 end
