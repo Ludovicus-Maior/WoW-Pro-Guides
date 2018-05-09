@@ -37,7 +37,7 @@ C Abomination Wonderland|QID|51795|M|42.55,87.22|Z|908|SO|10|N|If you want, you 
 C Blast!|QID|51795|M|48.22,89.38|Z|908|SO|11|NC|N|Watch and wait.|
 C She's Getting Away!|QID|51795|M|48.71,89.39|Z|908|SO|12|NC|N|Take a ride in the Gyrocopter.|
 C The High Overlord.|QID|51795|M|47.85,73.50|Z|908|SO|13|N|Defeat High Overlord Saurfang and watch the vignette that follows.|
-C The Dark Lady|QID|51795|M|48.08.78.09|Z|908|SO|14|N|Run into the Lordaeron throne room.|
+C The Dark Lady|QID|51795|M|48.08,78.09|Z|908|SO|14|N|Run into the Lordaeron throne room.|
 T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|84|N|To Lady Jaina Proudmoore.|
 A Tides of War|QID|46727|M|27.64,21.29|Z|84|N|Autoaccepted.|PRE|51795|
 C Tides of War|QID|46727|QO|1|M|83.47,29.62;85.14,32.52|CS|Z|84|NC|N|Fly to stormwind Keep and go to the Throneroom and listen to the council.|
