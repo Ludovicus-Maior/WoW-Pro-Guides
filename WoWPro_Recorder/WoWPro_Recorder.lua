@@ -93,7 +93,10 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 	if zonetag == WoWPro.Guides[GID].zone then
 	    zonetag = nil
 	end
-
+    local mapxy = nil
+    if x and y then
+        mapxy = string.format("%.2f,%.2f", x*100,y*100)
+    end
 
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.Recorder:dbp("CHAT_MSG_SYSTEM detected.")
@@ -104,7 +107,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				action = "h",
 				step = loc,
 				QID = WoWPro.Recorder.lastStep,
-				map = string.format("%.2f,%.2f", x*100,y*100),
+				map = mapxy,
 				zone = zonetag
 			}
 			if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
@@ -135,7 +138,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				action = "f",
 				step = GetSubZoneText() or GetZoneText(),
 				QID = WoWPro.Recorder.lastStep,
-				map = string.format("%.2f,%.2f", x*100,y*100),
+				map = mapxy,
 				zone = zonetag
 			}
 			if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
@@ -154,7 +157,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				action = "A",
 				step = questInfo.title,
 				QID = WoWPro.newQuest,
-				map = string.format("%.2f,%.2f", x*100,y*100),
+				map = mapxy,
 				zone = zonetag,
 				class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog)
 			}
@@ -170,7 +173,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				action = "T",
 				step = questInfo.title,
 				QID = WoWPro.missingQuest,
-				map = string.format("%.2f,%.2f", x*100,y*100),
+				map = mapxy,
 				zone = zonetag,
 				class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
 			}
@@ -191,7 +194,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         							action = "C",
         							step = WoWPro.QuestLog[QID].title,
         							QID = QID,
-        							map = string.format("%.2f,%.2f", x*100,y*100),
+        							map = xy,
         							zone = zonetag,
         							noncombat = nc,
         							use = WoWPro.QuestLog[QID].use,
@@ -328,11 +331,13 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
                     local stepInfo = {
                         action = "C",
                         step = scenario.Criteria[criteriaIndex].criteriaString,
-                        map = string.format("%.2f,%.2f", x*100,y*100),
                         zone = zonetag,
                         note = scenario.Criteria[criteriaIndex].criteriaString,
                         sobjective = string.format("%d;%d", scenario.currentStage, criteriaIndex),
                     }
+                    if x and y then
+                        stepInfo.map = string.format("%.2f,%.2f", x*100,y*100)
+                    end
                     WoWPro.Recorder:Print("Completed criteria: %s", stepInfo.step)
                     WoWPro.Recorder.AddStep(stepInfo)
                 end
@@ -346,11 +351,13 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
                     local stepInfo = {
                            action = "C",
                            step = old_scenario.Criteria[criteriaIndex].criteriaString,
-                           map = string.format("%.2f,%.2f", x*100,y*100),
                            zone = zonetag,
                            note = old_scenario.Criteria[criteriaIndex].criteriaString,
                            sobjective = string.format("%d;%d", old_scenario.currentStage, criteriaIndex),
                     }
+                    if x and y then
+                        stepInfo.map = string.format("%.2f,%.2f", x*100,y*100)
+                    end
                     WoWPro.Recorder:Print("Assuming Completed criteria: %s", stepInfo.step)
                     WoWPro.Recorder.AddStep(stepInfo)
                 end
