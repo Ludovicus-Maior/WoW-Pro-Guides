@@ -167,8 +167,8 @@ end
 
 -- Save Garrison Building Locations for the BUILDING tag
 function WoWPro.SaveGarrisonBuildings()
-    local mapID = 0
-    if (mapID == WoWPro.Zone2MapID['Lunarfall'].mapID) or (mapID == WoWPro.Zone2MapID['Frostwall'].mapID) then
+    local zone, mapId = WoWPro.GetZoneText()
+    if (zone == 'Lunarfall') or (zone == 'Frostwall') then
         WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
         -- We just moved into the zone
         local numPOIs = GetNumMapLandmarks();
