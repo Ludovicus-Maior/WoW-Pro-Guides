@@ -419,15 +419,6 @@ function WoWPro:MapPoint(row)
 	zone = WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
 	autoarrival = WoWPro.waypcomplete[i]
 
-	if zone:match("/") then
-	    -- Well, they have a floor specified
-	    zone , floor = string.split("/",zone)
-	    floor = tonumber(floor)
-	    if not zone then
-	        zone = strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
-	    end
-	end
-
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
 	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
 		QuestMapUpdateAllQuests()
@@ -473,27 +464,15 @@ function WoWPro:MapPoint(row)
 	end
 
 	-- Finding the zone --
-	local zm,zf,zc,zi
-	zm = nil
+	local zm = nil
 	if zone then
-	    if tonumber(zone) then
-	        -- Using a numeric zone ID
-	        zm = tonumber(zone)
-	        zf = floor
-	    elseif WoWPro.Zone2MapID[zone] then
-	        -- Zone found in DB
-	        zm = WoWPro.Zone2MapID[zone].mapID
-	        zf = floor or WoWPro.Zone2MapID[zone].floor
-	        zc = WoWPro.Zone2MapID[zone].cont
-	        zi = WoWPro.Zone2MapID[zone].zonei
-	        WoWPro:dbp("MapPoint: zone [%s] mapped to %d/%d", zone, zm, zf)
-	    end
+	    zm = WoWPro:ValidZone(zone)
+	    WoWPro:dbp("MapPoint: zone [%s] mapped to %d", zone, zm)
     end
 
     if not zm then
-	    zm = GetCurrentMapAreaID()
-	    zf = GetCurrentMapDungeonLevel()
-	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id "..tostring(zm))
+	    zone, zm = WoWPro.GetZoneText()
+	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
 	end
 
 	if TomTom and TomTom.AddMFWaypoint and TomTom.db then
@@ -536,7 +515,7 @@ function WoWPro:MapPoint(row)
 				else
 				    title = desc
 				end
-				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
+				uid = TomTom:AddMWaypoint(zm, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
 				if not uid then
 				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
 				end
@@ -544,7 +523,6 @@ function WoWPro:MapPoint(row)
 				waypoint.index = i
 				waypoint.zone = zone
 				waypoint.map = zm
-				waypoint.floor = zf
 				waypoint.x = x
 				waypoint.y = y
 				waypoint.desc = desc
@@ -641,9 +619,9 @@ function WoWPro:LogLocation()
     local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
 
     if not (x and y) then
-        WoWPro:print("Player [?,?@%d/%d] '%s' aka '%s'", mapID, mapType, GetMapNameByID(mapID), GetZoneText() )
+        WoWPro:print("Player [?,?@%d/%d] '%s' aka '%s'", mapId, mapType, WoWPro.GetZoneText(), GetZoneText() )
     else
-        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", x*100 , y*100, mapID, mapType, GetMapNameByID(mapID), GetZoneText() )
+        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", x*100 , y*100, mapId, mapType, WoWPro.GetZoneText(), GetZoneText() )
     end
 end
 
