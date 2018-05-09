@@ -1,5 +1,23 @@
 Changes since tag 1.90-beta
 
+commit 339e978418ea3b78aaec6742de14e8d1a31eff9d
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Wed May 9 00:54:27 2018 +0200
+
+    Remove legacy world map event
+
+commit 61156e2f7f3d58dd42b91247fdbca01f6a0600f7
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Wed May 9 00:22:18 2018 +0200
+
+    Update reference to the WorldMapFrame
+
+commit 5d1d6dfc1a441c5864ddcdcd5b1230d3013a2c75
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Wed May 9 00:07:38 2018 +0200
+
+    Update map data for build 26567
+
 commit 832749913d9334eea46dcedb92992d8cecaf4531
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
 Date:   Wed May 2 12:49:53 2018 +0200

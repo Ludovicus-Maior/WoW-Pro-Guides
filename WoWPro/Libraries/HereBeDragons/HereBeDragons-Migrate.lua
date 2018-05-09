@@ -3,7 +3,7 @@ if select(4, GetBuildInfo()) < 80000 then
     return
 end
 
-local MAJOR, MINOR = "HereBeDragons-Migrate", 1
+local MAJOR, MINOR = "HereBeDragons-Migrate", 2
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HBDMigrate, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -248,6 +248,7 @@ MapMigrationData = {
     [692] = { mapFile = "Uldaman", [1] = 230, [2] = 231},
     [820] = { mapFile = "EndTime", [1] = 402, [2] = 403, [3] = 404, [4] = 405, [5] = 406, [0] = 401},
     [948] = { mapFile = "SpiresOfArak", [0] = 542},
+    [181] = { mapFile = "Aszhara", [0] = 76},
     [1220] = {[0] = 981},
     [1129] = { mapFile = "CaveoftheBloodtotemScenario", [1] = 826},
     [949] = { mapFile = "Gorgrond", [0] = 543, [17] = 545, [21] = 549, [20] = 548, [19] = 547, [16] = 544, [18] = 546},
@@ -480,7 +481,7 @@ MapMigrationData = {
     [878] = { mapFile = "BrewmasterScenario01", [0] = 447},
     [684] = { mapFile = "RuinsofGilneas", [0] = 217},
     [362] = { mapFile = "ThunderBluff", [0] = 88},
-    [181] = { mapFile = "Aszhara", [0] = 76},
+    [751] = { mapFile = "TheMaelstromContinent", [0] = 948},
     [182] = { mapFile = "Felwood", [0] = 77},
     [504] = { mapFile = "Dalaran", [1] = 125, [2] = 126},
     [465] = { mapFile = "Hellfire", [0] = 100},
