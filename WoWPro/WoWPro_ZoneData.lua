@@ -985,3 +985,5 @@ DefineZone("Temple Interior TEMP!UnderrotInt", 1042, 4, 863, 282) -- nil
 DefineZone("Interior Temple TEMP!Temple of Sethraliss", 1043, 3, 0, 283) -- nil
 DefineZone("Arathi Highlands", 1044, 6, 13, 0) -- Arathi Highlands!Eastern Kingdoms!Azeroth!Cosmic
 DefineZone("", 0, 0, 0, 0) -- nil
+
+DefineLegacyZone("Orgrimmar@Orgrimmar", 0, 85)
