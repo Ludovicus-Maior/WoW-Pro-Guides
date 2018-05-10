@@ -327,6 +327,7 @@ function WoWPro.AutoCompleteChest()
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 	        WoWPro.CompleteStep(qidx,"AutoCompleteChest")
 	end
+    end
 end
 
 -- Auto-Complete: Level based --
