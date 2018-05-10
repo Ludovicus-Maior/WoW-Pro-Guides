@@ -314,21 +314,19 @@ function WoWPro.AutoCompleteCriteria()
 	local GID = WoWProDB.char.currentguide
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 	        WoWPro.CompleteStep(qidx,"AutoCompleteCriteria")
-	end			
-	
+	end
 end
 
 -- Auto-Complete: Chest Loot, for the silly timeless isle chests
 function WoWPro.AutoCompleteChest()
     if not WoWProDB.char.currentguide then return end
-    if 951 ~= GetCurrentMapAreaID() then return end
-
+    local zone, map = WoWPro.GetZoneText()
+    if zone == "Timeless Isle" then
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 	local GID = WoWProDB.char.currentguide
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 	        WoWPro.CompleteStep(qidx,"AutoCompleteChest")
-	end			
-	
+	end
 end
 
 -- Auto-Complete: Level based --
@@ -338,8 +336,8 @@ function WoWPro:AutoCompleteLevel(...)
 		local GID = WoWProDB.char.currentguide
 		if not WoWProCharDB.Guide[GID] then return end
 		for i=1,WoWPro.stepcount do
-			if not WoWProCharDB.Guide[GID].completion[i] 
-				and WoWPro.level[i] 
+			if not WoWProCharDB.Guide[GID].completion[i]
+				and WoWPro.level[i]
 				and tonumber(WoWPro.level[i]) <= newlevel then
 					WoWPro.CompleteStep(i,"AutoCompleteLevel")
 			end
