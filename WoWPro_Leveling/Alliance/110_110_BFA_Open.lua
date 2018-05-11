@@ -4,6 +4,24 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_battle_azeroth_intro
+-- Date: 2018-05-11 08:37
+-- Who: STrek
+-- Log: added quest "the war campaign" and The Warcache at the end. Quest log says 'before you leave.." so best do this before we go to our first zone of choose.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29287/view
+-- Date: 2018-05-10 18:45
+-- Who: STrek
+-- Log: added following line:
+--	C Infusing the Heart|QID|52428|Z|ChamberOfHeart|QO|1|N|Azerite wounds absorbed|
+--	
+--	Seems they added a step more to compelte the quest "Infusing the heart
+
+-- URL: http://wow-pro.com/node/3760/revisions/29276/view
+-- Date: 2018-05-09 22:35
+-- Who: Ludovicus_Maior
+-- Log: Fix [The Dark Lady] coordinate error.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29259/view
 -- Date: 2018-05-06 22:13
 -- Who: Emmaleah
 -- Log: To correct syntax and the node #
@@ -37,7 +55,7 @@ C Abomination Wonderland|QID|51795|M|42.55,87.22|Z|908|SO|10|N|If you want, you 
 C Blast!|QID|51795|M|48.22,89.38|Z|908|SO|11|NC|N|Watch and wait.|
 C She's Getting Away!|QID|51795|M|48.71,89.39|Z|908|SO|12|NC|N|Take a ride in the Gyrocopter.|
 C The High Overlord.|QID|51795|M|47.85,73.50|Z|908|SO|13|N|Defeat High Overlord Saurfang and watch the vignette that follows.|
-C The Dark Lady|QID|51795|M|48.08.78.09|Z|908|SO|14|N|Run into the Lordaeron throne room.|
+C The Dark Lady|QID|51795|M|48.08,78.09|Z|908|SO|14|N|Run into the Lordaeron throne room.|
 T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|84|N|To Lady Jaina Proudmoore.|
 A Tides of War|QID|46727|M|27.64,21.29|Z|84|N|Autoaccepted.|PRE|51795|
 C Tides of War|QID|46727|QO|1|M|83.47,29.62;85.14,32.52|CS|Z|84|NC|N|Fly to stormwind Keep and go to the Throneroom and listen to the council.|
@@ -86,6 +104,7 @@ C The Heart of Azeroth|QID|51400|QO|1|M|73.73,24.99|Z|895|NC|N|Click on the tele
 C The Heart of Azeroth|QID|51400|QO|3|M|50.05,55.15|Z|1021|CHAT|N|Talk to Magni and then listen to him.|
 T The Heart of Azeroth|QID|51400|M|50.05,55.15|Z|1021|N|To Magni Bronzebeard.|
 A Infusing the Heart|QID|52428|M|50.05,55.15|Z|1021|N|From Magni Bronzebeard.|PRE|51400|
+C Infusing the Heart|QID|52428|Z|ChamberOfHeart|QO|1|N|Azerite wounds absorbed|
 C Infusing the Heart|QID|52428|M|50.05,64.57|Z|1021|NC|N|Move to the center of the room and use your special action button.|
 T Infusing the Heart|QID|52428|M|50.05,55.15|Z|1021|N|To Magni Bronzebeard.|
 A To Matters at Hand|QID|51403|M|50.05,55.15|Z|1021|N|From Magni Bronzebeard.|PRE|52428|
@@ -93,6 +112,10 @@ C To Matters at Hand|QID|51403|M|50.13,30.34|Z|1021|NC|N|Click on the teleporter
 T To Matters at Hand|QID|51403|M|73.84,25.10|Z|895|N|To Taelia.|
 A A Nation Divided|QID|47189|M|73.84,25.10|Z|895|N|From Taelia.|PRE|51403|
 T A Nation Divided|QID|47189|M|73.84,25.10|Z|895|N|To Taelia.|
+
+A The War Campaign|QID|52654|M|73.83,25.10|Z|Tiragarde Sound|N|From Genn Greymane.|
+T The War Campaign|QID|52654|M|74.14,26.35|Z|Tiragarde Sound|N|To Halford Wyrmbane on deck off alliance ship.|
+A The Warcache|QID|52544|M|74.14,26.35|Z|Tiragarde Sound|N|From Halford Wyrmbane.|
 
 A Choose next adventure|QID|47962;47961;47960|M|73.89,25.12|Z|895|N|From the Scouting Map on the wall.|PRE|47189|
 J On to Stormsong Valley|QID|47962|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Stormsong Valley. That guide will auto load when you close this step.|GUIDE|TBDStormsong|
