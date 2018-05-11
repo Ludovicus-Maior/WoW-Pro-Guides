@@ -1,5 +1,11 @@
 Changes since tag 1.90-beta
 
+commit a683f2eda11afee118fc946082359ec1898f48a1
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Thu May 10 12:26:06 2018 +0200
+
+    Extract map data from the new APIs instead of hard-coding db2 data
+
 commit 339e978418ea3b78aaec6742de14e8d1a31eff9d
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
 Date:   Wed May 9 00:54:27 2018 +0200
