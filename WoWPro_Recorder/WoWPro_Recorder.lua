@@ -590,7 +590,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	local GID = WoWProDB.char.currentguide
 
     local function quoted(str)
-        if str == nil then
+        if (str == nil) or (str == 'nil') then
             return "nil"
         else
             return "'"..tostring(str).."'"
