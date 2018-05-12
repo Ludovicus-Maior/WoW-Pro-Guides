@@ -4,12 +4,9 @@
 
 -- Map information from 8.0.1 (26557) 2018-05-06
 
+WoWPro.MapInfo = {}
 WoWPro.Zone2MapID = {}
-WoWPro.MapID2Zone = {}
 WoWPro.LegacyZone2MapID = {}
-
-local function DupCheck(zone,who)
-end
 
 function WoWPro.DefineLegacyZone(legacy_zone, legacy_floor, modern_mapId)
     WoWPro.LegacyZone2MapID[legacy_zone] = WoWPro.LegacyZone2MapID[legacy_zone] or {}
@@ -17,19 +14,19 @@ function WoWPro.DefineLegacyZone(legacy_zone, legacy_floor, modern_mapId)
 end
 
 function WoWPro.DefineZone(zone, mapId, mapType, parent_map, group_id, ... )
-    if WoWPro.MapID2Zone[zone] then
-        WoWPro:Warning("DupCheck(): DefineZone is overriding WoWPro.MapID2Zone['%s']", zone)
+    if WoWPro.Zone2MapID[zone] then
+        WoWPro:Warning("DupCheck(): DefineZone(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
     end
-    WoWPro.Zone2MapID[zone] = {mapID=mapId, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
-    WoWPro.MapID2Zone[mapId] = zone
+    WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
+    WoWPro.Zone2MapID[zone] = mapId
 end
 
 function WoWPro.GetZoneText()
     local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition(false)
-    if WoWPro.MapID2Zone[mapId] then
-        return string.format("%s",  WoWPro.MapID2Zone[mapId]), mapId
+    if WoWPro.MapInfo[mapId] then
+        return string.format("%s",  WoWPro.MapInfo[mapId].name), mapId
     else
-        return string.format("%d", mapId), mapId
+        return tostring(mapId), mapId
     end
 end
 
@@ -37,17 +34,18 @@ function WoWPro:ValidZone(zone)
 	if zone then
 	    if tonumber(zone) then
 	        -- Using a numeric zone ID
-            return tonumber(zone)
+            return tostring(zone), tonumber(zone)
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
-	        return WoWPro.Zone2MapID[zone]
+	        return zone, WoWPro.Zone2MapID[zone]
 	    elseif WoWPro.LegacyZone2MapID[zone] then
 	        -- Zone is a legacy zone sans floor
 	        if not WoWPro.LegacyZone2MapID[zone][0] then
 	            WoWPro:Error("ValidZone: Possible Legacy Zone %s exists, but has no 0 floor.", zone)
 	            return nil
 	        end
-	        return WoWPro.LegacyZone2MapID[zone][0]
+	        local mapId = WoWPro.LegacyZone2MapID[zone][0]
+	        return WoWPro.MapInfo[mapId].name, mapId
 	    elseif zone:match("/") then
 	        -- Zone is a legacy zone avec floor
 	        local nzone , floor = string.split("/",zone)
@@ -61,15 +59,16 @@ function WoWPro:ValidZone(zone)
 	            return nil
 	        end
 	        if not WoWPro.LegacyZone2MapID[zone][floor] then
-	            WoWPro:Error("ValidZone: Legacy Zone [%s] has an unkown floor", zone)
+	            WoWPro:Error("ValidZone: Legacy Zone [%s] has an unknown floor", zone)
 	            return nil
 	        end
-	        return WoWPro.LegacyZone2MapID[zone][floor]
+	        local mapId = WoWPro.LegacyZone2MapID[zone][floor]
+	        return WoWPro.MapInfo[mapId].name, mapId
 	    else
-	        WoWPro:Error("ValidZone: Zone [%s] is unkown.", zone)
+	        WoWPro:Error("ValidZone: Zone [%s] is unknown.", zone)
 	    end
     end
-    return nil
+    return nil, nil
 end
 
 function WoWPro:IsInstanceZone(zone)
@@ -78,7 +77,7 @@ function WoWPro:IsInstanceZone(zone)
         WoWPro:Error("Zone [%s] is invalid.  Please report!",zone)
         return false
     end
-    return (WoWPro.Zone2MapID[nzone].mapType == 4) or (WoWPro.Zone2MapID[nzone].mapType == 6)
+    return (WoWPro.MapInfo[mapID].mapType == 4) or (WoWPro.MapInfo[mapID].mapType == 6)
 end
 
 local function pack_kv(...)
