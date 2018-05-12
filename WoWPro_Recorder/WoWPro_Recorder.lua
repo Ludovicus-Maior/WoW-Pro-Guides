@@ -227,6 +227,7 @@ function WoWPro.Recorder.PostGuideLoad()
 end
 
 function WoWPro.Recorder.PostUpdateGuide()
+    WoWPro.Recorder:CustomizeFrames()
     if not WoWPro.Recorder.SelectedStep then
         if WoWPro.ActiveStep then
             WoWPro.Recorder.SelectedStep = WoWPro.ActiveStep
