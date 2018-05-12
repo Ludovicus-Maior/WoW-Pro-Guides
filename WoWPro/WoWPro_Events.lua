@@ -848,7 +848,7 @@ function WoWPro.EventHandler(frame, event, ...)
         WoWPro[event](event, ...)
     else
         if WoWPro[event] then
-            WoWPro:LogEvent("WP:"..event,...)
+            WoWPro:LogEvent("Handled: "..event,...)
         else
             WoWPro:LogEvent(event,...)
         end
@@ -891,7 +891,10 @@ function WoWPro.EventHandler(frame, event, ...)
 		and WoWProDB.char.currentguide
 		and WoWPro.Guides[WoWProDB.char.currentguide]
 		and guidetype == name
-		then WoWPro[name]:EventHandler(frame, event, ...) end
+		then
+		    WoWPro:dbp("Now calling event handler for %s",name)
+		    WoWPro[name]:EventHandler(frame, event, ...)
+		end
 	end
 end
 
