@@ -5,19 +5,24 @@ local L = WoWPro_Locale
 local AceGUI = LibStub("AceGUI-3.0")
 
 -- Frame Update Functions --
-local function GetSide(frame)
+function WoWPro.GetSide(frame)
 	local x,y = frame:GetCenter()
 	local horizontal, vertical
+	if (not x) or (not y) then
+	    return nil , nil
+	end
 	if x > (UIParent:GetWidth()/2) then horizontal = "RIGHT" else horizontal = "LEFT" end
 	if y > (UIParent:GetHeight()/2) then vertical = "TOP" else vertical = "BOTTOM" end
 	return horizontal, vertical
 end
+
 function WoWPro.ResetMainFramePosition()
 	local top = WoWPro.Titlebar:GetTop()
 	local left = WoWPro.Titlebar:GetLeft()
 	WoWPro.MainFrame:ClearAllPoints()
 	WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
 end
+
 function WoWPro:MinimapSet()
 	local icon = LibStub("LibDBIcon-1.0")
 	if not WoWProDB.profile.minimap.hide then
@@ -81,6 +86,7 @@ function WoWPro:PaddingSet()
 	WoWPro.GuideFrame:SetPoint("BOTTOM", 0, pad)
 end
 function WoWPro:TitlebarSet()
+    WoWPro:dbp("WoWPro:TitlebarSet()")
 -- Titlebar enable/disable --
 	if WoWProDB.profile.titlebar then WoWPro.Titlebar:Show() else WoWPro.Titlebar:Hide() end
 
@@ -99,6 +105,7 @@ function WoWPro:TitlebarSet()
 	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
 end
 function WoWPro:BackgroundSet()
+    WoWPro:dbp("WoWPro:BackgroundSet()")
 -- Textures and Borders --
 	WoWPro.MainFrame:SetBackdrop( {
 		bgFile = WoWProDB.profile.bgtexture,
@@ -161,6 +168,7 @@ function WoWPro.RowSizeSet()
 	local biggeststep = 0
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
 	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
+    WoWPro:dbp("WoWPro.RowSizeSet()")
 
 	-- Hiding the row if it's past the set number of steps --
 	for i,row in ipairs(WoWPro.rows) do
@@ -263,12 +271,15 @@ function WoWPro.RowSizeSet()
 		local totalh = totalh + pad*2 + WoWPro.StickyFrame:GetHeight() + titleheight
 		WoWPro.MainFrame:SetHeight(totalh)
 	end
+	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
 end
+
 function WoWPro.AnchorSet()
 	local w = WoWPro.Titlebar:GetWidth()
 	local h = WoWPro.Titlebar:GetHeight()
+	WoWPro:dbp("WoWPro.AnchorSet()")
 	for i,row in ipairs(WoWPro.rows) do
-		if GetSide(WoWPro.MainFrame) == "RIGHT" then
+		if WoWPro.GetSide(WoWPro.MainFrame) == "RIGHT" then
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
 			WoWPro.mousenotes[i]:SetPoint("TOPLEFT", row, "TOPLEFT", -210, 10)
 --			row.itembutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -15, -10)
@@ -287,7 +298,7 @@ function WoWPro.AnchorSet()
 			local right = WoWPro.MainFrame:GetRight()
 			local hcenter = (left + right) / 2
 			local anchorpoint = WoWProDB.profile.anchorpoint
-			local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
+			local hquadrant, vquadrant = WoWPro.GetSide(WoWPro.MainFrame)
 
 			-- Setting anchor point based on the quadrant if it's set to auto --
 			if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
@@ -320,13 +331,22 @@ function WoWPro.AnchorSet()
 	end)
 end
 function WoWPro.RowSet()
+    WoWPro:dbp("WoWPro.RowSet()")
 	WoWPro.RowColorSet()
 	WoWPro.RowFontSet()
 	WoWPro.RowSizeSet()
 	WoWPro.AnchorSet()
 end
+
 function WoWPro.CustomizeFrames()
-	WoWPro.ResizeSet(); WoWPro.DragSet(); WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.BackgroundSet(); WoWPro.RowSet(); WoWPro.MinimapSet();
+    WoWPro:dbp("WoWPro.CustomizeFrames()")
+	WoWPro.ResizeSet();
+	WoWPro.DragSet();
+	WoWPro.TitlebarSet();
+	WoWPro.PaddingSet();
+	WoWPro.BackgroundSet();
+	WoWPro.RowSet();
+	WoWPro.MinimapSet();
 
 	-- Module Customize Frames --
 	for name, module in WoWPro:IterateModules() do
@@ -468,7 +488,7 @@ function WoWPro:CreateTitleBar()
 	end)
 	WoWPro.Titlebar:SetScript ("OnDoubleClick", function (self, button)
 		local anchorpoint = WoWProDB.profile.anchorpoint
-		local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
+		local hquadrant, vquadrant = WoWPro.GetSide(WoWPro.MainFrame)
 		if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 		if WoWPro.GuideFrame:IsVisible() then
 			if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
