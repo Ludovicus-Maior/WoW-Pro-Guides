@@ -122,7 +122,7 @@ end
 
 -- Create a button --
 local function CreateButton(name, texture, anchor)
-	local button = CreateFrame("Button", name.."Button", WoWPro.RecorderFrame)
+	local button = CreateFrame("Button", "WoWProRecorder"..name.."Button", WoWPro.RecorderFrame)
 	button:SetSize(20,20)
 	button:SetPoint("LEFT", anchor, "RIGHT", 0, 0)
 	button:SetNormalTexture(texture)
@@ -132,13 +132,13 @@ end
 
 -- Recorder Frame --
 function WoWPro.Recorder:CreateRecorderFrame()
-	local recorderframe = CreateFrame("Button", "RecorderFrame", WoWPro.MainFrame)
+	local recorderframe = CreateFrame("Button", "WoWProRecorderFrame", WoWPro.MainFrame)
 	recorderframe:SetHeight(30)
-	recorderframe:SetWidth(225)
 	recorderframe:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
 	recorderframe:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
 	recorderframe:SetBackdrop( {
-		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+		bgFile = WoWProDB.profile.bgtexture,
+		edgeFile = WoWProDB.profile.bordertexture,
 		tile = true, tileSize = 16,
 		insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
 	})
@@ -1338,32 +1338,28 @@ end
 -- Customizing Recorder Frame --
 function WoWPro.Recorder:CustomizeFrames()
 	if not WoWPro.RecorderFrame then return end
+	WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): Start.")
 	WoWPro.RecorderFrame:SetBackdrop( {
-		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+		bgFile = WoWProDB.profile.bgtexture,
 		edgeFile = WoWProDB.profile.bordertexture,
 		tile = true, tileSize = 16, edgeSize = 16,
 		insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
 	})
 	WoWPro.RecorderFrame:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])	
 	if WoWProDB.profile.border then 
-		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 1) 
-		WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 1) 
+		WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 1)
 	else 
 		WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 0) 
 	end
 	
 	--Minimum Frame Size to match --
-	if WoWProDB.profile.hminresize < 250 then WoWProDB.profile.hminresize = 250 end
+	if WoWProDB.profile.hminresize < 250 then
+	    WoWProDB.profile.hminresize = 250
+	end
 	if WoWPro.MainFrame:GetWidth() < 250 then
-	
-		-- AnchorFrame --
---		WoWPro.AnchorFrame:SetWidth(250)
-		
 		-- MainFrame --
+		WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): MainFrame too small. Resetting.")
 		WoWPro.MainFrame:SetWidth(250)
-		WoWPro.MainFrame:ClearAllPoints()
-		WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
-		
 	end
 end
 
