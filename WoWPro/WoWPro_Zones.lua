@@ -199,15 +199,19 @@ function WoWPro.CollectMap(id)
     local mapInfo = C_Map.GetMapInfo(id)
     if not mapInfo then return; end
     wip_map_info[id] = mapInfo
+    if wip_map_info[id].mapType == 4 then
+        wip_map_info[id].name = wip_map_info[id].name .. "!Dungeon"
+    end
+    if wip_map_info[id].mapType == 6 then
+        wip_map_info[id].name = wip_map_info[id].name .. "!Instance"
+    end
     wip_map_info[id].GroupID = C_Map.GetMapGroupID(id)
     if wip_map_info[id].GroupID then
         wip_group_info[wip_map_info[id].GroupID] = C_Map.GetMapGroupMembersInfo(wip_map_info[id].GroupID)
         -- Find the matching entry for us in the group member table
         for index, mapGroupMemberInfo in ipairs(wip_group_info[wip_map_info[id].GroupID]) do
             if id == mapGroupMemberInfo.mapID then
-                if wip_map_info[id].name ~= mapGroupMemberInfo.name then
-                    wip_map_info[id].name = mapGroupMemberInfo.name .. "!" .. wip_map_info[id].name
-                end
+                wip_map_info[mapGroupMemberInfo.mapID].name = mapGroupMemberInfo.name .. "!" .. wip_map_info[id].name
             end
         end
     end
@@ -267,7 +271,7 @@ function WoWPro.GenerateMapCache()
     -- Fake cosmic
     wip_map_info[0] = {}
     wip_map_info[0].parentMapID = 0
-    wip_map_info[0].name = ""
+    wip_map_info[0].name = "Cosmic"
     
     local dirty
     for i = 1, 3 do
