@@ -401,23 +401,20 @@ function WoWPro.Recorder:RowUpdate(offset)
 	WoWPro.Recorder.RowDropdownMenu = {}
 	for i,row in pairs(WoWPro.rows) do
 		local dropdown = {
-			{text = "Move Up", func = function()
+			{text = "Move Earlier", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == 1 then return end
 				for tag,_ in pairs(WoWPro.Tags) do
 				    local a = WoWPro[tag][pos]
 				    local b = WoWPro[tag][pos-1]
 				    WoWPro[tag][pos] = b
-				    WoWPro[tag][pos+1] = a
-				end
-				for tag,_ in pairs(WoWPro.Tags) do 
-					table.remove(WoWPro[tag], pos+1)
+				    WoWPro[tag][pos-1] = a
 				end
 				WoWPro.Recorder.SelectedStep = pos-1
-				WoWPro.Recorder:CheckpointCurrentGuide("MoveUp")
-				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveUp)")
+				WoWPro.Recorder:CheckpointCurrentGuide("MoveEarlier")
+				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveEarlier)")
 			end},
-			{text = "Move Down", func = function()
+			{text = "Move Later", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == WoWPro.stepcount then return end
 				for tag,_ in pairs(WoWPro.Tags) do 
@@ -427,8 +424,8 @@ function WoWPro.Recorder:RowUpdate(offset)
 				    WoWPro[tag][pos+1] = a
 				end
 				WoWPro.Recorder.SelectedStep = pos+1
-				WoWPro.Recorder:CheckpointCurrentGuide("MoveDown")
-				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveDown)")
+				WoWPro.Recorder:CheckpointCurrentGuide("MoveLater")
+				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveLater)")
 			end},
 			{text = "Clone Step", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
