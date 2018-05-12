@@ -51,18 +51,18 @@ function WoWPro.ExpandMarkup(text)
     -- [tag=%d;{text|icon|itext|}] or [tag=%d] with a default of itext
     -- [money=%f]  for displaying Gold
     local want_icon, want_text
---    WoWPro.dbp("ExpandMarkup starting on %s",text:gsub("|", "¦"))
+--    WoWPro:dbp("ExpandMarkup starting on %s",text:gsub("|", "¦"))
     while true do
         local tag_start, tag_text, tag_id, tag_qual, tag_end = string.match(text,"()%[%s*(%a+)%s*=%s*([%d%a/-]+)%s*;%s*?([icontex]+)%s*%]()")
         if not tag_start then
             -- Lets try no qualifier
---            WoWPro.dbp("ExpandMarkup Failed 1")
+--            WoWPro:dbp("ExpandMarkup Failed 1")
             tag_start, tag_text, tag_id, tag_end = string.match(text,"()%[%s*(%a+)%s*=%s*([%d%a/-]+)%s*%]()")
             if not tag_start then
---                WoWPro.dbp("ExpandMarkup Failed 2")
+--                WoWPro:dbp("ExpandMarkup Failed 2")
                 tag_start, tag_text, tag_id, tag_end = string.match(text,"()%[%s*(money)%s*=%s*([%d.]+)%s*%]()")
                 if not tag_start then
---                    WoWPro.dbp("ExpandMarkup failed on %s",text:gsub("|", "¦"))
+--                    WoWPro:dbp("ExpandMarkup failed on %s",text:gsub("|", "¦"))
                     return text
                 end
             end
@@ -70,7 +70,7 @@ function WoWPro.ExpandMarkup(text)
         end
         tag_text = string.lower(tag_text)
         tag_qual = string.lower(tag_qual)
---        WoWPro.dbp("ExpandMarkup  text=%s, qual=%s, id=%s", tag_text, tag_qual, tag_id)
+--        WoWPro:dbp("ExpandMarkup  text=%s, qual=%s, id=%s", tag_text, tag_qual, tag_id)
         -- could have comment text after /
         tag_id = select(1, string.split("/", tag_id))
         tag_id = tonumber(tag_id)
@@ -94,7 +94,7 @@ function WoWPro.ExpandMarkup(text)
         local pre = string.sub(text, 1, tag_start-1)
         local post =  string.sub(text, tag_end, -1)
         local expand = WoWPro.MarkupTags[tag_text](tag_id, want_icon, want_text)
---        WoWPro.dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
+--        WoWPro:dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
         text = pre..expand..post
     end
 end
