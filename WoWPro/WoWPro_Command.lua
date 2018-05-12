@@ -10,7 +10,6 @@ local function handler(msg, editbox)
     local ltoken = tokens[1] and tokens[1]:lower()
 
     if ltoken == "where" then
-        SetMapToCurrentZone()
         local X, Y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
         if (not X) or (not Y) then
             local msg = string.format("Player at ?@%s", WoWPro.GetZoneText())
