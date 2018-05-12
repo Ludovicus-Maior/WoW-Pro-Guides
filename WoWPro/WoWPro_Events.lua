@@ -180,7 +180,7 @@ function WoWPro.SaveGarrisonBuildings()
                 name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = GetMapLandmarkInfo(i)
             end
             WoWProCharDB.BuildingLocations[name] = {x=(100*x), y=(100*y)}
-            WoWPro.dbp("Building %s @ %g,%g", name, 100*x, 100*y)
+            WoWPro:dbp("Building %s @ %g,%g", name, 100*x, 100*y)
         end
     end
 end
