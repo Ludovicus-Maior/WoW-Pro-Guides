@@ -53,7 +53,14 @@ function WoWPro.Recorder:RegisterSavedGuides()
 	local myUFG = UnitFactionGroup("player")
 	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
 		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
-		WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
+		if WoWPro.Guides[GID] then
+		    -- We have a guide by this name already
+		    local original = WoWPro.Guides[GID]
+		    WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
+		    WoWPro.Guides[GID].original = original
+		else
+		    WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
+		end
 		-- Change the ||'s into |'s like the real guides
 		local sequence_string = (guideInfo.sequence):gsub("||", "|")
 		WoWPro.Guides[GID].sequence = function () return sequence_string; end
@@ -622,7 +629,6 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	
 	WoWPro_RecorderDB[GID] = WoWPro.ShallowCopyTable(WoWPro.Guides[GID])
 	WoWPro_RecorderDB[GID].sequence = sequence_string
-	WoWPro.Recorder:RegisterSavedGuides()
 	WoWPro.Recorder:dbp("WoWPro.Recorder:CheckpointCurrentGuide(%s)",why)
 	return guideString
 end
