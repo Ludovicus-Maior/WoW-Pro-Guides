@@ -32,8 +32,8 @@ function WoWPro:LoadNilGuide()
 		WoWPro.rows[i].track:SetText(nil)
 	end
 	
-	WoWPro:RowColorSet()
-	WoWPro:RowSizeSet()
-	WoWPro:PaddingSet()
+	WoWPro.RowColorSet()
+	WoWPro.RowSizeSet()
+	WoWPro.PaddingSet()
 	
 end
