@@ -774,8 +774,8 @@ function WoWPro:RowUpdate(offset)
 	WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
 
 	if not WoWPro.MaybeCombatLockdown() then
-	    WoWPro:RowSizeSet()
-	    WoWPro:PaddingSet()
+	    WoWPro.RowSizeSet()
+	    WoWPro.PaddingSet()
 	end
 
 	return reload
@@ -876,9 +876,9 @@ function WoWPro.UpdateGuideReal(From)
 	end
 	
 	-- Update content and formatting --
-	WoWPro:RowSet();
-	WoWPro:RowSet();
-	WoWPro:PaddingSet();
+	WoWPro.RowSet();
+	WoWPro.RowSet();
+	WoWPro.PaddingSet();
 	
 	-- Updating the guide list or current guide panels if they are shown --
 	if WoWPro[module:GetName()].GuideList
