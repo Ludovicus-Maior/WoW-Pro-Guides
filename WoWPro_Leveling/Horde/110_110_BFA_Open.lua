@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmaBFAIntro', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,110, 110)
-WoWPro:GuideNextGuide(guide, 'nil')
+WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
 return [[
 
