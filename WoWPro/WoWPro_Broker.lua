@@ -876,8 +876,9 @@ function WoWPro.UpdateGuideReal(From)
 	end
 	
 	-- Update content and formatting --
-	WoWPro:RowSet(); WoWPro:RowSet()
-	WoWPro:PaddingSet()
+	WoWPro:RowSet();
+	WoWPro:RowSet();
+	WoWPro:PaddingSet();
 	
 	-- Updating the guide list or current guide panels if they are shown --
 	if WoWPro[module:GetName()].GuideList
@@ -1912,39 +1913,27 @@ function WoWPro.PopulateQuestLog()
 	
 	-- Generating the Quest Log table --
 	WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
-	local i, currentHeader = 1, "None"
+	local i
 	local entries, numQuests = GetNumQuestLogEntries()
 	local lastCollapsed = nil
 	local num = 0
 	local delta = 0
 	WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.",entries,numQuests)
 
+    -- In spite of the above data, we still have to iterate until we hit the end
     i=1
-	repeat
+	while(true) do
 		local questTitle, level, suggestedGroup, isHeader, isCollapsed, isComplete, frequency,
 		    questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isStory = GetQuestLogTitle(i)
 		local leaderBoard
 		local ocompleted
 		local _
-		if not questTitle and (num < numQuests) then
-		     WoWPro:Error("PopulateQuestLog: return value from GetQuestLogTitle(%d) is nil.",i)
+
+		if not questTitle then
+		     break
 		end
-		if isHeader then
-		    -- WoWPro:dbp("PopulateQuestLog: Header %s  @ %d",tostring(questTitle),i)
-			currentHeader = questTitle
-			if lastCollapsed then
-			    -- We just finished scanning a previously collapsed header and ran into the next
-			    -- We need to collapse it and then rewind to the next slot and restart, as the slot number for the header will have mutated on us.
-			    CollapseQuestHeader(lastCollapsed)
-			    -- WoWPro:dbp("PopulateQuestLog: Collapsing header at %d",lastCollapsed)
-			    i = lastCollapsed
-			    lastCollapsed = nil
-			elseif isCollapsed then
-			    lastCollapsed = i
-			    -- WoWPro:dbp("PopulateQuestLog: Expanding header at %d",lastCollapsed)
-			    ExpandQuestHeader(i)
-			end	    
-		elseif questTitle and not WoWPro.QuestLog[questID] then
+
+		if (not isHeader) and questTitle and not WoWPro.QuestLog[questID] then
 			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
 				leaderBoard = {}
 				ocompleted = {}
@@ -1955,18 +1944,6 @@ function WoWPro.PopulateQuestLog()
 			    leaderBoard = nil
 			    ocompleted = nil
 			end
-			local link, icon, charges = GetQuestLogSpecialItemInfo(i)
-			local use
-			if link then
-				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
-				use = Id
-			end
-			local coords
-			QuestMapUpdateAllQuests()
-			QuestPOIUpdateIcons()
-			local x, y = WoWPro:findBlizzCoords(questID)
-			if x and y then coords = string.format("%.2f",x)..","..string.format("%.2f",y) end
-			-- WoWPro:dbp("PopulateQuestLog: Quest %s [%s] @ %d",tostring(questID),questTitle,i)
 			WoWPro.QuestLog[questID] = {
 				title = questTitle,
 				level = level,
@@ -1978,26 +1955,17 @@ function WoWPro.PopulateQuestLog()
 				leaderBoard = leaderBoard,
 				header = currentHeader,
 				use = use,
-				coords = coords,
 				index = i
 			}
-			num = num + 1
 		end
 		i = i + 1
 		if ( i > 50 ) then
+		    WoWPro:dbp("PopulateQuestLog: Too many quests,")
 		    break
 		end
-	until i > entries
-	
-	if lastCollapsed then
-	    CollapseQuestHeader(lastCollapsed)
-	    lastCollapsed = nil
 	end
 
-	WoWPro:print("Quest Log populated. "..num.." quests found.")
-	if numQuests > num then
-	    WoWPro:Warning("Expected to find %d quests in QuestLog, but found %d.",numQuests, num)
-	end
+	WoWPro:print("Quest Log populated. "..(i-1).." quests found.")
 
     -- If there are no old Quests, then we are starting up.  No new or missing quest processing.
     local oldQuestCount = 0
