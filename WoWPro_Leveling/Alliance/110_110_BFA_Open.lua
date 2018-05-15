@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_battle_azeroth_intro
+-- Date: 2018-05-13 02:18
+-- Who: Emmaleah
+-- Log: changed guide icon, changed zone name to Kul Tiras, added coords for infusing the heart, changed next guide to TBD
+
+-- URL: http://wow-pro.com/node/3760/revisions/29292/view
 -- Date: 2018-05-11 08:37
 -- Who: STrek
 -- Log: added quest "the war campaign" and The Warcache at the end. Quest log says 'before you leave.." so best do this before we go to our first zone of choose.
@@ -31,11 +36,11 @@
 -- Who: Emmaleah
 -- Log: Draft 1 - Opening Scenario/quests for Alliance.  The zone numbers will need replaced with names when they are available.
 
-local guide = WoWPro:RegisterGuide('BfAOpen', 'Leveling', '895', 'Rajitazi', 'Alliance')
+local guide = WoWPro:RegisterGuide('BfAOpen', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,110, 110)
-WoWPro:GuideNextGuide(guide, 'zul')
+WoWPro:GuideNextGuide(guide, TBD)
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideIcon(guide,"ACH",12593)
+WoWPro:GuideIcon(guide,"ACH",12582)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -104,8 +109,8 @@ C The Heart of Azeroth|QID|51400|QO|1|M|73.73,24.99|Z|895|NC|N|Click on the tele
 C The Heart of Azeroth|QID|51400|QO|3|M|50.05,55.15|Z|1021|CHAT|N|Talk to Magni and then listen to him.|
 T The Heart of Azeroth|QID|51400|M|50.05,55.15|Z|1021|N|To Magni Bronzebeard.|
 A Infusing the Heart|QID|52428|M|50.05,55.15|Z|1021|N|From Magni Bronzebeard.|PRE|51400|
-C Infusing the Heart|QID|52428|Z|ChamberOfHeart|QO|1|N|Azerite wounds absorbed|
-C Infusing the Heart|QID|52428|M|50.05,64.57|Z|1021|NC|N|Move to the center of the room and use your special action button.|
+C Infusing the Heart|QID|52428|M|55.26,58.45;55.42,60.72;54.54,69.74;48.53,74.08;45.23,62.57|CN|QO|1|Z|1021|NC|N|Go to each of the 'wounds' and use your special action button.|
+C Infusing the Heart|QID|52428|M|50.05,64.57|Z|1021|QO|2|NC|N|Move to the center of the room and use your special action button.|
 T Infusing the Heart|QID|52428|M|50.05,55.15|Z|1021|N|To Magni Bronzebeard.|
 A To Matters at Hand|QID|51403|M|50.05,55.15|Z|1021|N|From Magni Bronzebeard.|PRE|52428|
 C To Matters at Hand|QID|51403|M|50.13,30.34|Z|1021|NC|N|Click on the teleporter to return.|
