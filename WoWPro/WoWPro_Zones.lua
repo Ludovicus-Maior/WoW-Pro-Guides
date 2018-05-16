@@ -15,7 +15,7 @@ end
 
 function WoWPro.DefineZone(zone, mapId, mapType, parent_map, group_id, ... )
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:Warning("DupCheck(): DefineZone(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:dbp("DupCheck(): DefineZone(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
     end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     WoWPro.Zone2MapID[zone] = mapId
@@ -179,13 +179,14 @@ function WoWPro.EmitZones()
         local temp
         if info then
             WoWPro:Print(ptable(info))
-            temp = string.format("DefineZone(%q, %d, %d, %d, %s", info.name, info.mapID, info.mapType, info.parentMapID, tostring(info.GroupID))
+            local nomen = info.nick or info.name
+            temp = string.format("DefineZone(%q, %d, %d, %d, %s", nomen, info.mapID, info.mapType, info.parentMapID, tostring(info.GroupID))
             if info.children and #(info.children) > 0 then
                 for i = 1, #(info.children) do
                     temp = temp .. string.format(", %d",info.children[i])
                 end
             end
-            temp = temp .. ") -- " .. tostring(info.nick)
+            temp = temp .. ")"
             WoWPro:Print(temp)
             result = result .. temp .. "\n"
         end
@@ -197,6 +198,11 @@ end
 function WoWPro.CollectMap(id)
     local mapInfo = C_Map.GetMapInfo(id)
     if not mapInfo then return; end
+    local w, h = WoWPro.HBD:GetZoneSize(id)
+    if (w == 0) or (h == 0) then
+        WoWPro:Print("CollectMap(): mapID=%s Name=%s has no mapping info.", id, mapInfo.name)
+        return
+    end
     wip_map_info[id] = mapInfo
     if wip_map_info[id].mapType == 4 then
         wip_map_info[id].name = wip_map_info[id].name .. "!Dungeon"
@@ -210,7 +216,9 @@ function WoWPro.CollectMap(id)
         -- Find the matching entry for us in the group member table
         for index, mapGroupMemberInfo in ipairs(wip_group_info[wip_map_info[id].GroupID]) do
             if id == mapGroupMemberInfo.mapID then
-                wip_map_info[mapGroupMemberInfo.mapID].name = mapGroupMemberInfo.name .. "!" .. wip_map_info[id].name
+                if mapGroupMemberInfo.name ~= wip_map_info[id].name then
+                    wip_map_info[mapGroupMemberInfo.mapID].name = mapGroupMemberInfo.name .. "!" .. wip_map_info[id].name
+                end
             end
         end
     end
@@ -234,10 +242,10 @@ function WoWPro.NameZones()
             -- Whew, our name is still unique
         else
             -- Collision! Tack on ancestors till we are unique.
-            WoWPro:Print("Collided with name %s and id %d",nomen,wip_name_info[nomen])
+            WoWPro:Print("NameZones(): Collided with name %s and id %d",nomen,wip_name_info[nomen])
             wip_name_info[nomen] = -1
             dirty = true
-            if info.ancestor then
+            if info.ancestor and wip_map_info[info.ancestor] then
                 -- Already used the parent. Advance another level.
                 info.ancestor = wip_map_info[info.ancestor].parentMapID
             else
@@ -247,10 +255,10 @@ function WoWPro.NameZones()
             end
             if not info.ancestor then
                 WoWPro:Print(ptable(info))
-                WoWPro:Error("Unable to find ancestor for map id %d", id)
+                WoWPro:Print("NameZones(): Unable to find ancestor for map id %d", id)
             elseif not  wip_map_info[info.ancestor] then
                 WoWPro:Print(ptable(info))
-                WoWPro:Error("Unable to find ancestor map id %s", tostring(info.ancestor))
+                WoWPro:Print("NameZones(): Unable to find ancestor map id %s", tostring(info.ancestor))
             else
                 local daddy = wip_map_info[info.ancestor].name
                 info.nick = info.nick .. "!" .. daddy
