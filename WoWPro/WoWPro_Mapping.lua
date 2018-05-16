@@ -466,7 +466,7 @@ function WoWPro:MapPoint(row)
 	-- Finding the zone --
 	local zm = nil
 	if zone then
-	    zm = WoWPro:ValidZone(zone)
+	    zone, zm = WoWPro:ValidZone(zone)
 	    WoWPro:dbp("MapPoint: zone [%s] mapped to %d", zone, zm)
     end
 
@@ -475,7 +475,7 @@ function WoWPro:MapPoint(row)
 	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
 	end
 
-	if TomTom and TomTom.AddMFWaypoint and TomTom.db then
+	if TomTom and TomTom.AddMWaypoint and TomTom.db then
 		    TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
