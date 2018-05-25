@@ -99,7 +99,8 @@ class FindGuides(HTMLParser):
                     return
                 if attr[0] == "alt" and re.search("Source",attr[1]):
                     self._list.append(urlparse.urljoin(self._root,self._href))
-                    return    
+                    return
+                print "?? Saw img %s=%s : confusion." % (attr[0] , attr[1])
 
  
     def GuidesList(self):
