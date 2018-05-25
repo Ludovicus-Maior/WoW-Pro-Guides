@@ -94,7 +94,7 @@ class FindGuides(HTMLParser):
                     expand = FindGuides(urlparse.urljoin(self._root,self._href))
                     self._list = self._list + expand.GuidesList()
                     return
-                if attr[0] == "src" and re.search("(Button)|(open.png)",attr[1]):
+                if attr[0] == "src" and re.search("(Button)|(Campaign)|(open.png)",attr[1]):
                     self._list.append(urlparse.urljoin(self._root,self._href))
                     return
                 if attr[0] == "alt" and re.search("Source",attr[1]):
