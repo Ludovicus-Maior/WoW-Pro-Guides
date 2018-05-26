@@ -2291,7 +2291,7 @@ function WoWPro:SkipAll()
 end
 
 function WoWPro:DoQuest(qid)
-    WoWPro:Print("Marking QID %s for execution.",qid)
+    WoWPro:Print("Marking QID %s for execution.",tostring(qid))
     local GID = WoWProDB.char.currentguide
     qid = tonumber(qid)
 	for index=1, WoWPro.stepcount do
