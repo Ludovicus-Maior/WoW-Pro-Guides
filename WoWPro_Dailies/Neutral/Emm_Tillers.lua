@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2018-05-27 07:15
+-- Who: Emmaleah
+-- Log: shortened some of the massive notes at the beginning (not nearly short enough tho).  Reworked the Growing the Farm buff steps so they will hopefully show up now.
+
+-- URL: http://wow-pro.com/node/3508/revisions/29245/view
 -- Date: 2018-04-30 02:56
 -- Who: Emmaleah
 -- Log: added info about Yoon moving and work order quests becoming available at exalted
@@ -196,10 +201,10 @@ N Available Quests|QID|30535|N|Because quests are given at various factions, you
 N Non daily quests|QID|30535|N|Most of the friends also offer various one time quests based on your faction with them. Unless you are turning in lots of treasures (from dark soil) there is no need to finish the one time quests the day you get them. Growing the Farm quests, you probably want to do right away to have more farming plots.|
 N Cooking|QID|30535|N|The favorite meals for the various friends requires cooking 525 or 550. You can buy the food in the AH or make it yourself. If you choose to make it, by the time you are done you will have gotten to 575 cooking in all the ways.This guide doesn't discuss how to skill up in cooking.|
 N RANK|QID|30257|N|Do the quide on Rank 2 if you want to skip the share food with the friends quests, Set to Rank 1 if you also want to skip the cooking quests.|
-N Quick Method|QID|30527|N|Shortest time to exalted. If you have the bonus faction commendation on your account, you can get to exalted very quickly. The main limiting thing is the quests that require you to plant, harvest and deliver certain foods to obtain the council votes. If you plant the item(s) in advance of receiving the quest, you can then harvest after you have the quest and then replant for the quest credit. (After replanting you can dig up and plant something else). Preplanting before you have the quest shaves several days off of the time it takes to get to exalted and plant songbells or whatever profession mat you need. You will also need to gain about 2K extra faction beyond the quests to finish in 4 days. This can be from a random Pandaria dungeon or scenario while *championing* the Tillers faction, purchasing commendations from Mistweaver Xia on Timeless Isle (50 timewarped badges/300 faction) or an extra day or two of dailies.|REP|The Tillers;1272;Neutral;bonus|
-N Championing|QID|30527|N|To champion a faction in Pandaria, you click on the star to the left of the reputation's name in your character's reputation panel.  Then the first random dungeon and/or scenario you do each day will yield you bonus rep with that faction. (you can't be max level and queue for random Pandaria dungeons)|
+N Quick Method|QID|30527|N|Shortest time to exalted. If you have the bonus faction commendation on your account, you can get to exalted very quickly. The main limiting thing is the quests that require you to plant, harvest and deliver produce to obtain the votes. If you plant the item(s) in advance of receiving the quest, you can then harvest after you have the quest and then replant for the quest credit. (After replanting you can dig up and plant something else). Preplanting before you have the quest shaves a day off for each one (i.e. 4 days)off of the time it takes to get to exalted. You will also need to gain about 2K extra faction beyond the quests to finish in 4 days. If you are >= level 90, this can be from a random Pandaria dungeon or scenario while *championing* the Tillers faction. If you are >=level 90 you 100 from each harvest, but also need to purchasing commendations from Mistweaver Xia on Timeless Isle (50 timewarped badges/300 faction) or an extra day or two of dailies.|REP|The Tillers;1272;Neutral;bonus|
+N Championing|QID|30527|N|To champion a faction in Pandaria, you click on the star to the left of the reputation's name in your character's reputation panel.  Then the first random Pandaria dungeon and/or scenario you do each day will yield you bonus rep with that faction.|
 N Quick method - Day 1|QID|31945|N|Plant 1 scallion and 2 carrot seeds as soon as you are able.|M|52.02,48.30|NC|U|80591|REP|The Tillers;1272;honored-revered;bonus|
-N Quick method - Day 2|QID|31946|M|52.02,48.30|NC|U|80591|N|Harvest your scallion, Don't harvest the carrots until you have the quest to harvest them for Mung-Mung. Then plant 2 carrots to finish up the quests. This will have earned you enough rep to get the quests to open the 3rd plot. Plant 3 cabbages and 3 Witchberries on your new plot.|REP|The Tillers;1272;honored-revered;bonus|PRE|31945|
+N Quick method - Day 2|QID|31946|M|52.02,48.30|NC|U|80591|N|Harvest your scallion, Don't harvest the carrots until you have the quest to harvest them for Mung-Mung. Then plant 2 carrots to finish up the quests. This will have earned you enough rep to get the quests to open the 3rd plot. If you are not championing or otherwise getting extra faction, delay a day. Plant 3 cabbages and 3 Witchberries.|REP|The Tillers;1272;honored-revered;bonus|PRE|31945|
 N Quick method - Day 3|QID|31947|M|52.02,48.30|NC|U|79102|N|Wait to harvest until you have the quest. After harvesting, you can plant 3 cabbage, When you get Nana's vote quest, Harvest the Witchberries and plant 3 more. Plant 4 striped melons. If you didn't have enough faction to get the vote quests, harvest for the faction benefit and replant the same thing for tomorrow.|REP|The Tillers;1272;honored-revered;bonus|PRE|31946|
 N Quick method - Final Day|QID|30527|M|52.02,48.30|NC|U|89329|N|When you have the quest, harvest and replant the melons for Haohan. Congrats, exalted in 4-5~ days.|REP|The Tillers;1272;revered;bonus|PRE|31947|
 
@@ -265,7 +270,7 @@ K Chief Yip-Yip|T|Chief Yip-Yip|QID|30528|ACTIVE|30528|QO|1|M|32.4,20.4|N|Head t
 A Farmer Yoon|QID|31672;31942;31673;31941;31670;31669;31674;31675;31943;31671|M|52.19,48.802|N|He will have at least 2 quests for you. Pick up all of them.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
 A Work Order Post|QID|32642;32645;32647;32649;32653;32658;32942;32944|M|52.3,48.68|N|Now that Yoon is on the council, his 'grow something' quest is replaced by quests that let you earn reputation with other Pandaria factions. You can only do one a day, take whichever you chose (or none). Unlike Yoon's quests, you also have to harvest and turn in the produce, so skip this if you want to keep your farm's production more than you want the other faction's favor.|PRE|32682|REP|The Tillers;1272;Exalted|
 A A Gift For ??|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|PRE|30257|M|52.70,50.47|N|From Andi.|
-A Help the Master Cooks|QID|30328;30329;30330;30331;30332|N|One of the master cooks will want an ingrediant, these quests do not offer Tiller Rep. You can skip them if you don't have a use for Ironpaw tokens, but as its done in the same area, you may as well do it,(except when its fatty goatsteak, that one is attractive to skip if you are on a med-high pop server).|PRE|30257|RANK|2|
+A Help the Master Cooks|QID|30328;30329;30330;30331;30332|LVL|90|N|One of the master cooks will want an ingrediant, these quests do not offer Tiller Rep. You can skip them if you don't have a use for Ironpaw tokens, but as its done in the same area, you may as well do it,(except when its fatty goatsteak, that one is attractive to skip if you are on a med-high pop server).**REQUIRES LEVEL 90**|PRE|30257|RANK|2|
 A Farmer Yoon|QID|30333;30334;30335;30336;30337|M|52.92,51.83|N|Farmer Yoon has moved into town and only offers one quest a day now.|PRE|32682|REP|The Tillers;1272;Exalted|;pre quest mismatch per grail is intentional, so wont trigger if you haven't bought the farm from Yoon
 
 ;prepare food
@@ -533,7 +538,7 @@ T Growing the Farm I: The Weeds|QID|30260|M|38.6,51.6|N|To Gai Lan.|
 A Growing the Farm I: A Little Problem|QID|30516|PRE|30260|M|38.6,51.6|N|From Gai Lan.|
 C Growing the Farm I: A Little Problem|QID|30516|M|36,50|N|Spiderroot is a sparkly ground spawn in the area.|
 T Growing the Farm I: A Little Problem|QID|30516|M|38.6,51.6|N|To Gai Lan.|
-C Growing the Farm I|QID|30531|M|51.75,48.44|NC|N|Check in with Gai Lan at the farm to start a 15 minute timer (buff) for him to finish spraying the weeds, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|
+N Growing the Farm I|AVAILABLE|30531|M|51.75,48.44|N|Check in with Gai Lan at the farm to start a 15 minute timer (buff) for him to finish spraying the weeds, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|BUFF|114431|
 
 ;BUY COMMENDATION
 B Grand Commendation|PRE|30516|REP|The Tillers;1272;revered;nobonus|M|53.2,51.8|L|93226|N|Buy the commendation from Gina Mudclaw and click on it to use. If you have already bought the commendation with a character on this account, check this step off manually. The commendation (once used) doubles your faction gains with Tillers for all characters on the account, unfortunately it has no affect on the friends. The only indication whether or not you have previously bought it is seeing bonus faction when you turn in quests.|;placed here (instead of with the other 'buys') so that you can get the gains from the growing the farm quest too.
@@ -545,12 +550,12 @@ T Growing the Farm II: The Broken Wagon|QID|30523|M|41.6,30|N|To Fish Fellreed.|
 A Growing the Farm II: Knock on Wood|QID|30524|PRE|30523|M|41.6,30|N|From Fish Fellreed.|
 C Growing the Farm II: Knock on Wood|QID|30524|M|43,29|N|The planks of wood are in the water surrounded by agro crabs. Be careful.|
 T Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|To Fish Fellreed.|
-C Growing the Farm II|QID|30533|M|51.71,47.82|NC|N|Check in with Fish at the farm to start a 15 minute timer (buff) for her to finish fixing the wagon, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|
+N Growing the Farm II|AVAILABLE|30533|M|51.71,47.82|N|Check in with Fish at the farm to start a 15 minute timer (buff) for her to finish fixing the wagon, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|BUFF|114483|
 
 ;REMOVE THE ROCK - 0 Exalted
 A Growing the Farm III: The Mossy Boulder|QID|30529|REP|The Tillers;1272;exalted|M|52.20,48.86|N|From Farmer Yoon.|PRE|30528|
 T Growing the Farm III: The Mossy Boulder|QID|30529|M|44.6,34|N|If Haohan is not at the market he can be found on his farm (where the green dot is).|
-C Growing the Farm III|QID|30574|M|51.79,47.76|NC|N|Check in with Hoahan to start a 15 min timer for removing the Boulder. You don't have to stay on the farm while Thunder works.|
+C Growing the Farm III|AVAILABLE|30574|M|51.79,47.76|N|Check in with Hoahan to start a 15 min timer for removing the Boulder. You don't have to stay on the farm while Thunder works.|BUFF|114624|
 
 C A Gift For Fung|QID|30475|M|52.8,51.6|CHAT|N|Talk to Kol Ironpaw - Master of the Grill to make the 'Grilled Plainshawk Leg'.|
 T Fatty Goatsteak|QID|30332|M|52.8,51.6|N|To Kol Ironpaw.|
