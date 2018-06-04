@@ -201,7 +201,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         							action = "C",
         							step = WoWPro.QuestLog[QID].title,
         							QID = QID,
-        							map = xy,
+                                    map = mapxy,
         							zone = zonetag,
         							noncombat = nc,
         							use = WoWPro.QuestLog[QID].use,
