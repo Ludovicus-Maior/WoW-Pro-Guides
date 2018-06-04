@@ -29,9 +29,13 @@ R Crumbling Depths|AVAILABLE|47850|M|58,25|Z|Deepholm|N|Take the portal to Deeph
 R Dark Fissure|AVAILABLE|47850|M|63.76,22.51|Z|Deepholm|N|Click on the fissure and fall in.|
 A Racksum Greep|QID|47850|U|10025|N|Click on the plaque behind the chair, equip the mask, and then click the skull.|
 
-R Gnomeregan|AVAILABLE|47852|
+R Gnomeregan|AVAILABLE|47852|N|Inside the instance|
 
+R Nightmare Tumor|AVAILABLE|47863|M|66, 36.5|Z|Val'sharah|N|Play a game of strings?|
 
+R Tomb of Secrets|AVAILABLE|47881|M|53.4,49.0|Z|Kun-Lai Summit|N|The horrid Maze|
+
+R Forgotten Crypt|AVAILABLE|47885|M|39.85,73.6|Z|Deadwind Pass|N|The Shiny Mount|
 
 ]]
 end)
