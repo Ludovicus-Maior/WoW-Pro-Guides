@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2018-06-04 18:26
+-- Who: Ludovicus_Maior
+-- Log: Merge in pull request by elidion https://github.com/Ludovicus/WoW-Pro-Guides/pull/439
+
+-- URL: http://wow-pro.com/node/3687/revisions/28971/view
 -- Date: 2018-02-19 03:59
 -- Who: Emmaleah
 -- Log: Fighting on all Fronts removed in hotfix 2/2/18 (Good Riddence!)
@@ -248,11 +253,6 @@
 -- Date: 2016-12-09 19:10
 -- Who: cameljon
 -- Log: Added a new waypoint for Quality of Life for the port to Felsoul Hold.
-
--- URL: http://wow-pro.com/node/3687/revisions/28117/view
--- Date: 2016-12-07 18:52
--- Who: cameljon
--- Log: Moved Matron again!
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -770,7 +770,7 @@ C A Desperate Journey|QID|40424|M|37.82,61.68|QO|3|NC|N|Find Astoril.|RANK|2|
 T A Desperate Journey|QID|40424|M|37.82,61.68|N|To Astoril.|RANK|2|
 A Quality of Life|QID|40470|M|37.83,61.60|N|From Iadreth.|PRE|40424|RANK|2|
 C Quality of Life|QID|40470|M|38.29,76.45|QO|1|NC|N|Follow Iadreth, by stepping onto the circle.|RANK|2|
-C Quality of Life|QID|40470|M|43.34,37.43|Z|Suramar/23|QO|2|N|Kill Astoril, once He's Hostile.|RANK|2|
+K Astoril|ACTIVE|40470|M|43.34,37.43|Z|Suramar/23|QO|2|N|Kill Astoril, once he's Hostile.|RANK|2|
 $ Small Treasure Chest|QID|40902|M|40.48,28.80|Z|Suramar/23|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|43835|M|54.88,37.80|Z|Suramar/23|N|Loot chest for some treasure and resources.|RANK|2|
 A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|RANK|2|
@@ -1246,7 +1246,7 @@ C If Words Don't Work...|QID|42840|M|48.95,73.45|CHAT|N|Give Arluin 800 Ancient 
 T If Words Don't Work...|QID|42840|M|48.95,73.45|N|To Arluin.|
 A A Big Score|QID|42841|M|48.95,73.45|N|From Arluin.|PRE|42840|
 A Asset Security|QID|43352|M|48.95,73.45|N|From Arluin.|PRE|42840|
-$ Small Treasure Chest|QID|43865|M|48.13,73.20|N|Look up to see grapple point, go up to find chest and loot for some treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43865|M|48.13,73.20|N|Look up to see grapple point, go up to find chest and loot for some treasure and resources.|RANK|2|U|138111|
 C Asset Security|QID|43352|M|45.80,75.43|NC|QO|1|N|From the ground, run to this point, look up, Grapple to the stash location.|
 C Asset Security|QID|43352|M|44.51,74.43|QO|2|N|Kill Auditor Yvenne.|
 R Sanctum of Enlightenment|QID|41216|M|52.06,56.36;49.87,60.16|CS|N|Out of the Managerie, back across the Moonbeam Causeway and into the Sanctum of Enlightenment. Use the teleport pad. and then avoiding Lt. Strathmar(or not) as you pass thru his building.|RANK|2|
