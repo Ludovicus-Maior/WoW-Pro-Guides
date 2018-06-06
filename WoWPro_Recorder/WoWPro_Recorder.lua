@@ -58,11 +58,14 @@ function WoWPro.Recorder:RegisterSavedGuides()
 		    local original = WoWPro.Guides[GID]
 		    WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
 		    WoWPro.Guides[GID].original = original
+		    WoWPro.Recorder:print("Overwriting guide [%s] with recorder version.",GID)
 		else
 		    WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
+		    WoWPro.Recorder:print("Inserting recorder guide [%s].",GID)
 		end
 		-- Change the ||'s into |'s like the real guides
 		local sequence_string = (guideInfo.sequence):gsub("||", "|")
+		WoWPro.Recorder:dbp("Guide: %s", sequence_string:gsub("||", "¦"))
 		WoWPro.Guides[GID].sequence = function () return sequence_string; end
 		WoWPro.Guides[GID].startlevel = tonumber(WoWPro.Guides[GID].startlevel)
 		WoWPro.Guides[GID].endlevel = tonumber(WoWPro.Guides[GID].endlevel)
@@ -623,7 +626,8 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	end
 	
 	local sequence_string = table.concat(sequence,"\n")
-	WoWPro.Guides[GID].sequence = function () return sequence_string; end
+	-- This needs to be kosher, in case we go through a portal.
+	WoWPro.Guides[GID].sequence = function () return sequence_string:gsub("||", "|"); end
 
 	local guideString = header.. sequence_string .."\n]]\n\nend)"
 	
