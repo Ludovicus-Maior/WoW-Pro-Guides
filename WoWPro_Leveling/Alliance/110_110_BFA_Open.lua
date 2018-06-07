@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_battle_azeroth_intro
+-- Date: 2018-06-07 18:14
+-- Who: Emmaleah
+-- Log: Fix J steps now that the names of the other guides are known.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29347/view
 -- Date: 2018-06-06 17:41
 -- Who: Emmaleah
 -- Log: Updated for changes in June 1 build (8.0.1.26766)
@@ -142,7 +147,7 @@ C The Smoking Gun|QID|47181|M|73.69,25.15|Z|895|N|Orient yourself towards the ba
 T The Smoking Gun|QID|47181|M|73.69,25.15|Z|895|N|To Flynn Fairwind.|
 A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|895|N|From Cyrus Crestfall.|PRE|47181|
 t Drustvar|QID|47961|M|73.84,25.10|Z|895|N|To Taelia.|
-;|M|73.84,25.10|Z|895|N|From Taelia.|PRE|47961|
+A The Vanishing Lord|QID|48622|M|73.84,25.09|N|From Taelia.|PRE|47961|
 t Stormsong Valley|QID|47962|M|73.84,25.10|Z|895|N|To Taelia.|
 A The Missing Fleet|QID|47952|M|73.84,25.10|Z|895|N|From Taelia.|PRE|47962|
 
@@ -150,8 +155,9 @@ T The War Campaign|QID|52654|M|67.09,23.53;69.26,26.99|CS|Z|1161|N|To Halford Wy
 A The War Cache|QID|52544|M|69.26,26.99|Z|1161|N|From Halford Wyrmbane.|
 
 J On to Tiragarde Sound|QID|47485|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Tiragarde Sound. That guide will auto load when you close this step.|GUIDE|EmmTiragarde|
-J On to Drustvar|QID|47961|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Drustvar. That guide will auto load when you close this step.|GUIDE|TBDDrustvar|
-J On to Stormsong Valley|QID|47952|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Stormsong Valley. That guide will auto load when you close this step.|GUIDE|TBDStormsong|
+J On to Drustvar|QID|48622|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Drustvar. That guide will auto load when you close this step.|GUIDE|STrekDrustvar|
+J On to Stormsong Valley|QID|47952|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Stormsong Valley. That guide will auto load when you close this step.|GUIDE|Freitas_Stormsong|
+
 ]]
 
 end)
