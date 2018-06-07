@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-06-04 18:17
+-- Who: Ludovicus_Maior
+-- Log: Tweak shaman [Proving Pit] and tweak [Riding On]
+
+-- URL: http://wow-pro.com/node/3199/revisions/29193/view
 -- Date: 2018-02-27 00:11
 -- Who: Ludovicus_EditBot
 -- Log: Level Strip - Durotar
@@ -278,13 +283,6 @@
 -- Date: 2014-05-17 17:28
 -- Who: Ludovicus_Maior
 -- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3199/revisions/25945/view
--- Date: 2014-04-26 07:51
--- Who: Hendo72
--- Log: Echo Isles:
---	- Removed |RANK|1| tags as they are not needed.
---	- Rephrased 'The Ancient Enemy' note and added an extra set of coordinates because the current one gives the impression that you have to go into the cave as opposed to on top of it. (I spent 20 minutes in the cave trying to figure out where I was suppose to go.)
 
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)
