@@ -56,7 +56,8 @@ function WoWPro.Recorder:RegisterSavedGuides()
 		WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
 		-- Change the ||'s into |'s like the real guides
 		local sequence_string = (guideInfo.sequence):gsub("||", "|")
-		WoWPro.Guides[GID].sequence = function () return sequence_string; end
+                -- This needs to be kosher, in case we go through a portal.
+                WoWPro.Guides[GID].sequence = function () return sequence_string:gsub("||", "|"); end
 		WoWPro.Guides[GID].startlevel = tonumber(WoWPro.Guides[GID].startlevel)
 		WoWPro.Guides[GID].endlevel = tonumber(WoWPro.Guides[GID].endlevel)
 	end
