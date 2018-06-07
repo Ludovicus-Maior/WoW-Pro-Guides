@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dailies_fishing_dailies_capitol_cities_shattrath_dalaran
+-- Date: 2018-06-04 18:13
+-- Who: Ludovicus_Maior
+-- Log: Got rid of obsolete alliance quest for Nat and corrected QID on [The Race to Restock]
+
+-- URL: http://wow-pro.com/node/3752/revisions/28994/view
 -- Date: 2018-02-19 22:57
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -79,8 +84,9 @@ l Rat Traps|ACTIVE|29350|N|Head into the Ironforge Deeprun Tram and click on 3 R
 C Bait-o-Matic Blueprints|QID|29350|QO|1|U|69979|N|Use the blueprints to built it and then turn it in.|FACTION|Alliance|
 T The Gnomish Bait-o-Matic|QID|29350|M|48.4,8.2|Z|Ironforge|N|To Grimnur Stonebrand|FACTION|Alliance|
 
-A I Got Nothin' Left!|QID|6609|LEAD|6607|M|48.4,8.2|Z|Ironforge|N|From Grimnur Stonebrand|O|FACTION|Alliance|
-T I Got Nothin' Left!|QID|6609|M|58.6,60.2|Z|Dustwallow Marsh|N|Head out to Theramore and head south to the island that Nat Pagle is on.|FACTION|Alliance|
+; Obsolete on Alliance side.
+; A I Got Nothin' Left!|QID|6609|LEAD|6607|M|48.4,8.2|Z|Ironforge|N|From Grimnur Stonebrand|O|FACTION|Alliance|
+; T I Got Nothin' Left!|QID|6609|M|58.6,60.2|Z|Dustwallow Marsh|N|Head out to Theramore and head south to the island that Nat Pagle is on.|FACTION|Alliance|
 
 ; Stormwind Quests
 A Big Gulp|QID|26488|M|55.0,69.6|Z|Stormwind City|N|From Catherine Leland|O|FACTION|Alliance|
@@ -104,7 +110,7 @@ A Thunder Falls|QID|26536|M|55.0,69.6|Z|Stormwind City|N|From Catherine Leland|O
 C Violet Perch|QID|26536|M|22.10,57.10;18.52,60.70;17.65,67.90;20.70,59.56;17.67,64.33;22.97,58.91;25.92,59.76|CN|Z|Elwynn Forest|N|Head out to Elwynn Forest to Thunder Falls, north of Mirror lake on top of the hill.|FACTION|Alliance|
 T Thunder Falls|QID|26536|M|55.0,69.6|Z|Stormwind City|N|To Catherine Leland|FACTION|Alliance|
 
-; Horde FishingGuidehttps://www.wowhead.com/quests/max-req-level:80/side:2?filter=48;356;0
+; HordeFishingGuidehttps://www.wowhead.com/quests/max-req-level:80/side:2?filter=48;356;0
 ;Orgrimmarhttps://www.wowhead.com/npc=43239/razgar
 A A Furious Catch|QID|26588|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|From Razgar|O|FACTION|Horde|
 C Giant Furious Pike|QID|26588|M|36.20,22.70;36.70,12.45;35.53,2.45;37.20,20.35;37.00,4.45;37.20,18.00;36.77,6.98;36.90,9.75;37.39,15.64|Z|Durotar|CN|N|Head out to the Southfury River on the Durotar or Northen Barrens banks to fish. Do not go to Ashenvale or Azshara!|FACTION|Horde|
@@ -141,9 +147,9 @@ A Shiny Baubles|QID|29354|M|56,47|Z|Thunder Bluff|N|From Kah Mistrunner|O|FACTIO
 C Shiny Stone|QID|29354|N|Take the elevator down to the base of Thunder Bluff and get your rocks on the ground.|FACTION|Horde|
 T Shiny Baubles|QID|29354|M|35,53.8|Z|Thunder Bluff|N|To Nahari Cloudchaser, near the pond.|FACTION|Horde|
 
-A The Race to Restock|QID|29354|M|56,47|Z|Thunder Bluff|N|From Kah Mistrunner|O|FACTION|Horde|
-C Horny Fish|QID|29354|M|51.90,49.30;44.52,56.04;46.64,53.17;43.82,59.54;53.48,52.05;49.72,51.88;52.43,55.18;45.51,63.42|CN|Z|Mulgore|N|Head out to Stonebull Lake around Bloodhoof Villiage and fish them up! A fishing lure is reccomended if your fishing is low level.|FACTION|Horde|
-T The Race to Restock|QID|29354|M|56,47|Z|Thunder Bluff|N|To Kah Mistrunner|FACTION|Horde|
+A The Race to Restock|QID|29348|M|56,47|Z|Thunder Bluff|N|From Kah Mistrunner|O|FACTION|Horde|
+C Horny Fish|QID|29348|M|51.90,49.30;44.52,56.04;46.64,53.17;43.82,59.54;53.48,52.05;49.72,51.88;52.43,55.18;45.51,63.42|CN|Z|Mulgore|N|Head out to Stonebull Lake around Bloodhoof Villiage and fish them up! A fishing lure is reccomended if your fishing is low level.|FACTION|Horde|
+T The Race to Restock|QID|29348|M|56,47|Z|Thunder Bluff|N|To Kah Mistrunner|FACTION|Horde|
 
 A The Ring's the Thing|QID|29346|M|56,47|Z|Thunder Bluff|N|From Kah Mistrunner|O|FACTION|Horde|
 R Pools of Vision|ACTIVE|29346|M|30.67,31.53|Z|Thunder Bluff|N|Head over to the Spirit Rise, but go to the cave on the left.|FACTION|Horde|
@@ -185,7 +191,7 @@ C Savage Coast Blue Sailfin|QID|6607|QO|4|M|32.80,39.40;31.15,38.15;35.85,55.70;
 C Misty Reed Mahi Mahi|QID|6607|QO|2|M|72.60,5.00;78.10,92.50;78.70,12.90;84.60,88.00;86.40,22.10;87.40,77.00;88.90,80.20;89.50,45.70;90.80,37.70;91.80,40.10;84.40,85.60;84.85,83.25;81.45,15.40;88.05,72.60;84.30,18.60;85.73,78.88;89.45,29.30;73.35,8.65;78.84,9.74|CN|Z|Swamp of Sorrows|N|Head on over to the coast of the Swamp of Sorrows.|
 T Nat Pagle, Angler Extreme|QID|6607|M|58.6,60.2|Z|Dustwallow Marsh|N|To Nat Pagle|
 
-; ShattrathCityhttps://www.wowhead.com/npc=25580/old-man-barlo#starts, Level 70
+;ShattrathCityhttps://www.wowhead.com/npc=25580/old-man-barlo#starts, Level 70
 
 A Bait Bandits|QID|11666|M|38.6,12.8|Z|Terokkar Forest|N|From Old Man Barlo|O|
 C Blackfin Darter|QID|11666|M|55.60,51.30;59.80,34.90;59.80,54.20;51.80,35.50;51.65,33.40;55.35,29.40;52.33,27.57;59.90,38.25;52.51,37.68;58.95,29.32;52.61,30.94;55.45,44.55;51.67,40.65|Z|Terokkar Forest|CN|N|Fish rivers in the Terokkar Forest for your Blackfin Darter|
