@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-06-04 18:17
+-- Who: Ludovicus_Maior
+-- Log: Tweak shaman [Proving Pit] and tweak [Riding On]
+
+-- URL: http://wow-pro.com/node/3199/revisions/29193/view
 -- Date: 2018-02-27 00:11
 -- Who: Ludovicus_EditBot
 -- Log: Level Strip - Durotar
@@ -279,13 +284,6 @@
 -- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
--- URL: http://wow-pro.com/node/3199/revisions/25945/view
--- Date: 2014-04-26 07:51
--- Who: Hendo72
--- Log: Echo Isles:
---	- Removed |RANK|1| tags as they are not needed.
---	- Rephrased 'The Ancient Enemy' note and added an extra set of coordinates because the current one gives the impression that you have to go into the cave as opposed to on top of it. (I spent 20 minutes in the cave trying to figure out where I was suppose to go.)
-
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.05357)
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
@@ -411,7 +409,7 @@ T Proving Pit|QID|24774|C|Rogue|M|51.40,52.59|N|To Legati.|
 T Proving Pit|QID|24642|C|Warrior|M|51.40,52.59|N|To Nortet.|
 T Proving Pit|QID|26276|C|Warlock|M|51.40,52.59|N|To Voldreka.|
 T Proving Pit|QID|24786|C|Priest|M|57.57,52.68|N|To Tunari.|
-T Proving Pit|QID|24762|C|Shaman|M|51.40,52.59|N|To Nekali.|
+T Proving Pit|QID|24762|C|Shaman|M|51.72,52.06|N|To Nekali.|
 T Proving Pit|QID|24780|C|Hunter|M|57.22,50.78|N|To Ortezza.|
 
 A More Than Expected|QID|31163|PRE|31161|C|Monk|M|52.56,51.84|N|From Zabrax.|
