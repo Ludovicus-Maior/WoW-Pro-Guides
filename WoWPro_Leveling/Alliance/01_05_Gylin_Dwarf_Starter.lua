@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-06-14 23:41
+-- Who: Linkslegend5
+-- Log: updated some names and cleaned up a few lines.
+
+-- URL: http://wow-pro.com/node/3200/revisions/29156/view
 -- Date: 2018-02-24 20:36
 -- Who: Ludovicus_EditBot
 -- Log: LEVEL Dun
@@ -245,11 +250,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Added some CS and CN tags
 
--- URL: http://wow-pro.com/node/3200/revisions/25136/view
--- Date: 2012-10-09 23:22
--- Who: Ludovicus_Maior
--- Log: Added Monk quests and got rid of extra spaces and spell corrections.
-
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1.1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -311,11 +311,11 @@ A A Refugee's Quandary |PRE|24487|QID|3361|M|42.04,63.34|N|From Felix Whindlebol
 A Trolling for Information |PRE|24487|QID|24489|M|43.24,63.12|N|From Apprentice Soren.|
 C The Troll Menace |S|QID|182|N|Kill Frostmane Troll Whelps around the camps. This quest is not necessary for zone completion if you want to drop it. |
 C Felix's Box|QID|3361|M|21.30,64.00|L|10438|N|Pick up Felix's Box.|QO|1|NC|
-C Trolling for Information - Mirim'koa|QID|24489|M|21.11,66.45|N|Head into the tent, stand next to the Soothsayer Mirim'koa, then listen to the dialogue.|QO|3|NC|
+C Trolling for Information - Mirim'koa|QID|24489|M|21.11,66.45|N|Head into the tent, stand next to Soothsayer Mirim'koa, then listen to the dialogue.|QO|3|NC|
 C Felix's Chest|QID|3361|M|30.95,83.84|L|16313|N|Pick up Felix's Chest.|QO|2|NC|
-C Trolling for Information - Rikkari |QID|24489|M|30.47,84.96|N|Head into the tent, stand next to the Soothsayer Rikkari, then listen to the dialogue.|QO|2|NC|
+C Trolling for Information - Rikkari |QID|24489|M|30.47,84.96|N|Head into the tent, stand next to Soothsayer Rikkari, then listen to the dialogue.|QO|2|NC|
 C Felix's Bucket of Bolts|QID|3361|M|49.06,80.31|L|16314|N|Pick up Felix's Bucket of Bolts.|QO|3|NC|
-C Trolling for Information - Soothsayer |QID|24489|M|49.25,81.28|N|Stand next to the Soothsayer Soothsayer, then listen to the dialogue.|QO|1|NC|
+C Trolling for Information - Shi'kala |QID|24489|M|49.25,81.28|N|Stand next to Soothsayer Shi'kala, then listen to the dialogue.|QO|1|NC|
 C The Troll Menace |US|QID|182|M|33.31,77.83|N|Finish killing the Frostmane Troll Whelps. The Trolls inside the cave do not count.|
 
 T Trolling for Information |QID|24489|M|43.24,63.12|N|To Apprentice Soren.|
