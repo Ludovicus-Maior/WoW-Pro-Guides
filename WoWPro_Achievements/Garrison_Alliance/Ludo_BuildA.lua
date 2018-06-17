@@ -174,9 +174,9 @@ C Lost in Transition|QID|37087|Z|Frostwall|N|These are scattered around your gar
 T Lost in Transition|QID|37087|BUILDING|Storehouse;51|Z|Lunarfall|N|To Kyra Goldhands.|
 
 ;trading post MED
-A Tricks of the Trade|QID|37062|M|57.76,27.75|BUILDING|Trading Post;111;144;145|N|From Fayla Fairfeather.|
-C Tricks of the Trade|QID|37062|U|118418|M|44.51,14.48|Z|Frostwall|N|He is sleeping just outside  the gates.|
-T Tricks of the Trade|QID|37062|M|57.88,27.83|N|To Fayla Fairfeather.|
+A Tricks of the Trade|QID|37088|M|51.8,43.6|BUILDING|Trading Post;111;144;145|N|From Trader Joseph.|
+C Tricks of the Trade|QID|37088|U|118418|M|67.22,97.36|Z|Lunarfall|N|He is sleeping near the tree and big rock.|
+T Tricks of the Trade|QID|37088|M|57.8,43.6|N|To Trader Joseph.|
 N Auctioning For Parts|QID|36948|BUILDING|Trading Post;144;145|M|57.88,27.83|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.|
 
 ;tannery SMALL
