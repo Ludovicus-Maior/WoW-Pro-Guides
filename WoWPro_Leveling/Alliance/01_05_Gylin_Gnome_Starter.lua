@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-06-14 23:41
+-- Who: Linkslegend5
+-- Log: updated some names and cleaned up a few lines.
+
+-- URL: http://wow-pro.com/node/3200/revisions/29156/view
 -- Date: 2018-02-24 20:36
 -- Who: Ludovicus_EditBot
 -- Log: LEVEL Dun
@@ -244,11 +249,6 @@
 -- Date: 2013-01-12 18:36
 -- Who: Ludovicus_Maior
 -- Log: Added some CS and CN tags
-
--- URL: http://wow-pro.com/node/3200/revisions/25136/view
--- Date: 2012-10-09 23:22
--- Who: Ludovicus_Maior
--- Log: Added Monk quests and got rid of extra spaces and spell corrections.
 
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1.81013)
