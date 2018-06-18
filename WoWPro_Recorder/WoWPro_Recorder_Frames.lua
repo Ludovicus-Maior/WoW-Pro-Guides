@@ -776,7 +776,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					type = "select",
 					name = "Action Type:",
 					desc = "The step's type.",
-					values = WoWPro.Leveling.actionlabels,
+					values = WoWPro.actionlabels,
 					get = function(info) 
 							return WoWPro.action[WoWPro.Recorder.SelectedStep] end,
 					set = function(info,val) 
