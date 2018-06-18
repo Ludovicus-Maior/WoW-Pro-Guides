@@ -24,8 +24,8 @@ local function handler(msg, editbox)
         for key in pairs(_G) do
             local isSecure, taint = issecurevariable(key)
             if not isSecure then
-                if taint == "WoWPro" then
-                    WoWPro:Warning("Variable %s tainted by WoWPro", key, taint)
+                if (taint == "WoWPro") or (taint == "TomTom") then
+                    WoWPro:Warning("%s %s tainted by %s", type(_G[key]), key, taint)
                 end
                 WoWProDB.global.Tainted[taint] = WoWProDB.global.Tainted[taint] or {}
                 WoWProDB.global.Tainted[taint][key] =  now
