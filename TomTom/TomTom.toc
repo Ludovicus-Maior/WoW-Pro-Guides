@@ -1,0 +1,44 @@
+## Interface: 80000
+## Title: TomTom
+## Author: jnwhiteh
+## Version: v80000-1.0.0-beta1
+## License: All Rights Reserved
+## Notes: Acts as your portable navigation assistant
+## Notes-frFR: Agit comme un assistant de navigation portable
+## Notes-zhCN:一个简单的导航助手。
+## Notes-ruRU: Удобный портативный навигатор по игровой карте
+## Author: Cladhaire
+## SavedVariables: TomTomDB, TomTomWaypoints, TomTomWaypointsM
+## OptionalDeps: HereBeDragons-2.0
+
+## X-Localizations: enUS, enGB, deDE, frFR, zhCN, ruRU, zhTW
+## X-CompatibleLocales: enUS, enGB, deDE, frFR, esES, esMX, zhCN, zhTW, koKR, ruRU
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\AceGUI-3.0\AceGUI-3.0.xml
+libs\AceConfig-3.0\AceConfig-3.0.xml
+libs\AceEvent-3.0\AceEvent-3.0.xml
+libs\AceDB-3.0\AceDB-3.0.xml
+libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+libs\HereBeDragons\HereBeDragons-2.0.lua
+libs\HereBeDragons\HereBeDragons-Pins-2.0.lua
+
+AddonCore.lua
+
+Localization.enUS.lua
+Localization.deDE.lua
+Localization.frFR.lua
+Localization.zhCN.lua
+Localization.ruRU.lua
+Localization.zhTW.lua
+Localization.koKR.lua
+
+TomTom.lua
+TomTom_Waypoints.lua
+TomTom_CrazyArrow.lua
+TomTom_Corpse.lua
+TomTom_POIIntegration.lua
+
+TomTom_Config.lua

@@ -1,0 +1,8 @@
+Changes since tag 1.91-beta
+
+commit af699f6637a2d07ba3000273534116aefaffc679
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Sat May 26 19:15:44 2018 +0200
+
+    Optimize transform storage for faster lookups
+
