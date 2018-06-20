@@ -475,7 +475,7 @@ function WoWPro:MapPoint(row)
 	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
 	end
 
-	if TomTom and TomTom.AddMWaypoint and TomTom.db then
+	if TomTom and TomTom.AddWaypoint and TomTom.db then
 		    TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
@@ -515,7 +515,15 @@ function WoWPro:MapPoint(row)
 				else
 				    title = desc
 				end
-				uid = TomTom:AddMWaypoint(zm, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
+				local options = {
+				    title = title,
+				    callbacks = WoWProMapping_callbacks_tomtom,
+				    minimap_icon = "Interface\\AddOns\\WoWPro\\Textures\\GoldRing",
+				    worldmap_icon = "Interface\\AddOns\\WoWPro\\Textures\\GoldRing",
+				    persistent=false
+				}
+
+				uid = TomTom:AddWaypoint(zm, x/100, y/100, options)
 				if not uid then
 				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
 				end
