@@ -1,3 +1,18 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-06-16 03:07
+-- Who: Emmaleah
+-- Log: Still to do: Find and add remaining rares and treasures, Add RANKs and PRE tags
+
+-- URL: http://wow-pro.com/node/3769/revisions/29323/view
+-- Date: 2018-05-25 20:19
+-- Who: Emmaleah
+-- Log: stub 
+
 local guide = WoWPro:RegisterGuide('EmmTiragarde', 'Leveling', 'Tiragarde Sound', 'Emmaleah', 'Alliance')
 WoWPro:GuideLevels(guide,110, 120)
 WoWPro:GuideNextGuide(guide, 'BfAOpen')
@@ -7,7 +22,7 @@ return [[
 
 t The War Cache|QID|52544|N|To UI Alert.|
 A Time for War|QID|53332|PRE|52544|N|From UI Alert.|
-N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.| 
+N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 N Small Treasure Chests|QID|47485|N|In this expansion, small treasure chests are found in differant places each time rather than fixed spawn points. Blizzard puts a treasure map symbol on your minimap automatically. The fixed treasures are named in this guide.|
 N Use of Ranks|QID|47485|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures and rares that are conveniently located to the places you travel for Rank 1 steps. Set the guide to Rank 3 to get all the quests, rares and named treasures in the zone.|
 R Tradewinds Market|QID|47485|M|75.29,25.76|CC|N|Run to the Ferry Stop in Tradewind Market (optional)|
@@ -92,7 +107,7 @@ C Pinch of Azerite|QID|50352|M|75.59,58.44|QO|1|US|N|Finish up collecting the ne
 T Miner Operation|QID|50351|M|75.56,59.36|N|To Ordnance Handler Prim.|
 T Pinch of Azerite|QID|50352|M|75.56,59.37|N|To Ordnance Handler Prim.|
 A Rock Meet Dynamite|QID|50356|M|75.53,59.29|N|From Civil Technician Alena.|RANK|2|
-C Rock Meet Dynamite|QID|50356|M|75.14,60.07|N|Go down into the mine, use your special action button to blow up the Enraged Nibblers. When you get to the bottom of the mine, kill Earthshaper Brugaw.|T|Earthshaper Brugaw|
+C Rock Meet Dynamite|QID|50356|M|75.14,60.07|N|Go down into the mine, use your special action button to blow up the Enraged Nibblers.  When you get to the bottom of the mine, kill Earthshaper Brugaw.|T|Earthshaper Brugaw|
 T Rock Meet Dynamite|QID|50356|M|78.14,55.93|N|To Chief Miner Theock.|
 
 R Kennings Lodge|QID|50544|M|78.63,56.03;77.83,61.67|CS|N|Run up the hill to Kennings Lodge.|RANK|2|
@@ -179,7 +194,7 @@ A Lovesick and Lost|QID|48505|M|84.90,76.07|N|From Flynn Fairwind.|
 K Kill Blackthorne|QID|51808|QO|1|T|Blackthorne|M|85.27,73.57|RANK|3|N|Run up and kill this silver elite before you help Flynn up, so you can better keep an eye on Flynn afterwards.|ITEM|154411|
 C Lovesick and Lost|QID|48505|M|84.90,76.07|CHAT|N|Help him up and check this off manually.|
 A Toxic Community|QID|48516|M|82.74,72.75|N|From Skinner MacGuff.|
-C Toxic Community|QID|48516|M|82.74,72.75|S|N|Kill marrowflys and loot to collect the Toxic Stingers. Don't bother searching for the treasure, you can't get to it from here.| 
+C Toxic Community|QID|48516|M|82.74,72.75|S|N|Kill marrowflys and loot to collect the Toxic Stingers. Don't bother searching for the treasure, you can't get to it from here.|
 C Lovesick and Lost|QID|48505|M|82.74,72.75; 80.70,74.83|CS|NC|N|Lead/Follow him around the hill, killing Marrowflys, eventually he will wander off the correct direction. Just keep him in sight while you continue to kill the Marrowflys for Skinner MacGuff.|
 C Toxic Community|QID|48516|M|82.74,72.75|US|N|Finish collecting the Toxic Stingers.|
 T Toxic Community|QID|48516|M|82.73,72.76|N|To Skinner MacGuff.|
@@ -232,7 +247,7 @@ C Flew the Coop|QID|49402|S|U|154878|N|Toss the food when a Runaway Macaw is in 
 C Recruiting Efforts|QID|49400|M|77.35,83.92|S|N|If you get seen taking down a recruiting poster, you will be attacked and lose the disguise. Don't forget to reapply it.|
 C The Big Job|QID|49399|QO|1|S|N|Kill Bilge Rat mobs until you get the Bilge Rat Orders.|
 C The Big Job|QID|49399|QO|2|S|N|Kill Cutwater type mobs until you get the Cutwater Corsair Orders.|
-C The Big Job|QID|49399|QO|3|S|N|Kill Blacktooth Bruisers until you get their orders.| 
+C The Big Job|QID|49399|QO|3|S|N|Kill Blacktooth Bruisers until you get their orders.|
 A Missing Treasure!|QID|49409|M|77.19,84.85|N|From Sternly Worded Letter.|
 T Aged to Perfection|QID|49290|M|76.90,85.97|N|To Carentan.|
 A Trixie Business|QID|49407|M|76.90,85.97|N|From Carentan.|
@@ -339,7 +354,7 @@ C Clear the Air|QID|50789|M|48.44,83.02|Z|1161|NC|N|Destroy Smoking Payload.|
 C Enemies Within|QID|50788|M|48.44,83.02|Z|1161|US|N|Finish off the Ashvane combatants.|
 T Clear the Air|QID|50789|M|48.14,82.87|Z|1161|N|To UI Alert.|
 T Enemies Within|QID|50788|M|48.14,82.87|Z|1161|N|To UI Alert.|
-A Hot Pursuit|QID|50790|M|48.14,82.87|Z|1161|N|From UI Alert.|
+A Hot Pursuit|QID|50790|M|48.14,82.87|Z|1161|N|From  UI Alert.|
 C Hot Pursuit|QID|50790|M|47.75,81.36|Z|1161|QO|1|NC|N|Hop on the Proudmoore Charger.|
 C Hot Pursuit|QID|50790|M|39.91,51.89|Z|1161|QO|2|NC|N|*1 Key to Jump obstacles, else short stun, 2 key for a burst of speed. Take a wild ride to Proudmoore Keep in pursuit of Priscilla Ashvane.|
 T Hot Pursuit|QID|50790|M|48.27,80.64|Z|1161|N|To Taelia.|
@@ -571,7 +586,7 @@ A Best In Show|QID|49036|M|51.57,27.28|N|From Lord Aldrius Norwington.|
 C Best In Show|QID|49036|M|52.79,28.39|NC|N|And do it again, Mount Cooper (if you aren't already). This time goal is 300 points and you absolutely must have the multiplier from fence jumping.|T|Paper|
 T Best In Show|QID|49036|M|51.57,27.28|N|To Lord Aldrius Norwington.|
 
-A Save Our Shipmates|QID|50026|M|49.15,29.77;49.45,31.77|CS|N|From Thomas Pinker.| 
+A Save Our Shipmates|QID|50026|M|49.15,29.77;49.45,31.77|CS|N|From Thomas Pinker.|
 R Fogcliff Strand|QID|50026|M|49.46,33.42|N|Down to the beach to find the shipmates.|
 T Save Our Shipmates|QID|50026|M|50.31,37.23|N|To Henry Hardwick.|
 A Captured and Enraptured|QID|47755|M|50.31,37.24|N|From Henry Hardwick.|
@@ -753,5 +768,3 @@ D This ends th Tiragarde Sound Guide.|
 ]]
 
 end)
-
-
