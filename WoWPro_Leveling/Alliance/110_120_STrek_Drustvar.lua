@@ -1,3 +1,114 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/node/3763
+-- Date: 2018-06-18 22:01
+-- Who: Emmaleah
+-- Log: Finished clean-up phase, all identified Rares and Treasure added (list at beginning of guide of unknowns), Still needs PREs checked, RANKS added.
+
+-- URL: http://wow-pro.com/node/3763/revisions/29357/view
+-- Date: 2018-06-18 08:38
+-- Who: Emmaleah
+-- Log: Cleaned up added most rares/found treasures/PRE tags through Crimson Wood pt2
+
+-- URL: http://wow-pro.com/node/3763/revisions/29356/view
+-- Date: 2018-06-17 10:47
+-- Who: Emmaleah
+-- Log: more edits, thru Order of the Embers arc
+
+-- URL: http://wow-pro.com/node/3763/revisions/29355/view
+-- Date: 2018-06-16 23:34
+-- Who: Emmaleah
+-- Log: Added coordinates, most PRE tags added, but not comprehensive and rares thru the Barrowknoll Cemetary
+
+-- URL: http://wow-pro.com/node/3763/revisions/29351/view
+-- Date: 2018-06-10 17:37
+-- Who: STrek
+-- Log: second part of Corlain added - this ends first draft for this guide - clean up fase started
+
+-- URL: http://wow-pro.com/node/3763/revisions/29350/view
+-- Date: 2018-06-09 23:28
+-- Who: STrek
+-- Log: Teller farm and the first part for Corlain
+
+-- URL: http://wow-pro.com/node/3763/revisions/29348/view
+-- Date: 2018-06-07 18:12
+-- Who: Emmaleah
+-- Log: Changed guide name to be more descriptive
+
+-- URL: http://wow-pro.com/node/3763/revisions/29337/view
+-- Date: 2018-05-27 18:46
+-- Who: STrek
+-- Log: added parts Anyport and Crimsonwood - part 2
+
+-- URL: http://wow-pro.com/node/3763/revisions/29336/view
+-- Date: 2018-05-27 18:45
+-- Who: STrek
+-- Log: added part Crimsonwood
+
+-- URL: http://wow-pro.com/node/3763/revisions/29335/view
+-- Date: 2018-05-27 18:44
+-- Who: STrek
+-- Log: added part Falconhurst
+
+-- URL: http://wow-pro.com/node/3763/revisions/29333/view
+-- Date: 2018-05-26 22:21
+-- Who: STrek
+-- Log: added "Drust History" part
+
+-- URL: http://wow-pro.com/node/3763/revisions/29332/view
+-- Date: 2018-05-26 16:41
+-- Who: STrek
+-- Log: added "Order of Embers" part
+
+-- URL: http://wow-pro.com/node/3763/revisions/29331/view
+-- Date: 2018-05-26 13:02
+-- Who: STrek
+-- Log: added Gol Koval part
+
+-- URL: http://wow-pro.com/node/3763/revisions/29316/view
+-- Date: 2018-05-22 21:01
+-- Who: STrek
+-- Log: fishing side quests + fletcher's hollow and end of witch trial part - added
+
+-- URL: http://wow-pro.com/node/3763/revisions/29314/view
+-- Date: 2018-05-19 23:06
+-- Who: STrek
+-- Log: added seeing spirits and the witch trial
+
+-- URL: http://wow-pro.com/node/3763/revisions/29311/view
+-- Date: 2018-05-13 18:32
+-- Who: STrek
+-- Log: added 3 small side quest lines 1) Meat Quests 2) Wicker Worship and 3)Tea Party
+
+-- URL: http://wow-pro.com/node/3763/revisions/29308/view
+-- Date: 2018-05-13 06:12
+-- Who: Emmaleah
+-- Log: bunch of nit picky space removal, add ".", delete 1/1, etc. spelling corrections other minor tweaks
+
+-- URL: http://wow-pro.com/node/3763/revisions/29295/view
+-- Date: 2018-05-12 15:26
+-- Who: STrek
+-- Log: added Adventurer's Society part
+
+-- URL: http://wow-pro.com/node/3763/revisions/29293/view
+-- Date: 2018-05-11 08:56
+-- Who: STrek
+-- Log:  should be removed here-- added comment before line to see if this is needed or not (will be checked later)
+--	
+--	added few white lines for clear reading - player moves to differnt place in game here
+
+-- URL: http://wow-pro.com/node/3763/revisions/29290/view
+-- Date: 2018-05-10 20:35
+-- Who: STrek
+
+-- URL: http://wow-pro.com/node/3763/revisions/29289/view
+-- Date: 2018-05-10 20:34
+-- Who: STrek
+-- Log: first draft of the Drustvar guide  - part 1 - Fallhaven
+
 local guide = WoWPro:RegisterGuide('STrekDrustvar', 'Leveling', 'Drustvar', 'STrek', 'Alliance')
 WoWPro:GuideLevels(guide,110, 120)
 WoWPro:GuideNextGuide(guide, 'BfAOpen')
@@ -5,7 +116,7 @@ WoWPro:GuideIcon(guide,"ACH",12941)
 WoWPro:GuideSteps(guide, function()
 return [[
 ;to do add Ranks, check for missing PREs, add the following rares and treasures (location currently unknown, maybe NYI).
-;K Roland the Butcher 
+;K Roland the Butcher
 ;K Saurolisk Matriarch
 ;$ Bespelled Chest
 ;$ Enchanted Chest
@@ -16,7 +127,7 @@ return [[
 t The War Cache|QID|52544|N|To UI Alert.|
 A Time for War|QID|53332|PRE|52544|N|From UI Alert.|
 
-N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.| 
+N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 N Small Treasure Chests|QID|48622|N|In this expansion, small treasure chests are found in differant places each time rather than fixed spawn points. Blizzard puts a treasure map symbol on your minimap automatically. The fixed treasures are named in this guide.|
 N Use of Ranks|QID|48622|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures and rares that are conveniently located to the places you travel for Rank 1 steps. Set the guide to Rank 3 to get all the quests, rares and named treasures in the zone.|
 
@@ -540,7 +651,7 @@ T Into the Crimsonwood|QID|50172|M|20.64,57.46|N|To Inquisitor Cleardawn.|
 A Saving Master Ashton|QID|50265|M|20.64,57.46|N|From Inquisitor Cleardawn.|PRE|50172|
 A Odds and Ends|QID|50306|M|20.64,57.51|N|From Marten Webb.|PRE|50172|
 K Kill Hexwood Seers|QID|50306|S|QO|2|M|21.76,56.99|N|Kill Hexwood Seers to collect the Bags of Reagents.|
-K Kill Timber Mongrels|QID|50306|S|QO|1|M|21.76,56.99|N|Kill Timber Mongrels to collect the Organic Matter.| 
+K Kill Timber Mongrels|QID|50306|S|QO|1|M|21.76,56.99|N|Kill Timber Mongrels to collect the Organic Matter.|
 K Kill Hexwood Binder|QID|50265|L|156856|M|21.11,55.61|N|Kill the Hexwood Binder to get the cage key.|
 C Saving Master Ashton|QID|50265|M|21.05,55.26|N|Free Master Ashton.|
 A Bittersweet|QID|50266|M|21.16,55.08|N|From Samantha Sweet.|PRE|50172|
@@ -550,7 +661,7 @@ C Bittersweet|QID|50266|QO|3|M|21.95,57.08|NC|N|Pick up Sword.|
 C Bittersweet|QID|50266|QO|2|M|21.35,57.04|NC|N|Pick up Boots.|
 C Bittersweet|QID|50266|QO|5|M|21.10,57.53|NC|N|Pick up Cuirass.|
 C Bittersweet|QID|50266|QO|6|M|21.15,55.14|CHAT|N|Return Samantha's gear|
-K Kill Timber Mongrels|QID|50306|US|QO|1|M|21.76,56.99|N|Finish collecting the Organic Matter.| 
+K Kill Timber Mongrels|QID|50306|US|QO|1|M|21.76,56.99|N|Finish collecting the Organic Matter.|
 K Kill Hexwood Seers|QID|50306|US|QO|2|M|21.76,56.99|N|Finish collecting the Bags of Reagents.|
 
 T Bittersweet|QID|50266|M|20.61,57.49|N|To Samantha Sweet.|
@@ -823,5 +934,3 @@ D End of Drustvar
 ]]
 
 end)
-
-
