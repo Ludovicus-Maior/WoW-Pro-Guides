@@ -1,4 +1,22 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-06-18 22:48
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3767/revisions/29340/view
+-- Date: 2018-06-04 17:09
+-- Who: Ludovicus_Maior
+-- Log: Initial version
+
+-- URL: http://wow-pro.com/node/3767/revisions/29321/view
+-- Date: 2018-05-25 20:16
+-- Who: Emmaleah
+-- Log: new blank stub
+
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:GuideLevels(guide,110, 120)
 WoWPro:NewGuideLevels(guide,110, 120)
@@ -130,5 +148,3 @@ A You're a Shark|QID|50773|M|34.96,47.68|N|From Rikal.|
 ]]
 
 end)
-
-
