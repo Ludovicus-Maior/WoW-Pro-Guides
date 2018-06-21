@@ -87,19 +87,22 @@ class FindGuides(HTMLParser):
         if tag == "img" :
             for attr in attrs:
                 if attr[0] == "src" and re.search("(Expansion)",attr[1]):
+                    logging.info("Searching %s in %s" % (attr[1], self._href))
                     expand = FindGuides(urlparse.urljoin(self._root,self._href))
                     self._list = self._list + expand.GuidesList()
                     return
                 if attr[0] == "src" and re.search("(close.png)",attr[1]):
+                    logging.info("Searching in %s" % self._href)
                     expand = FindGuides(urlparse.urljoin(self._root,self._href))
                     self._list = self._list + expand.GuidesList()
                     return
-                if attr[0] == "src" and re.search("(Button)|(open.png)",attr[1]):
+                if attr[0] == "src" and re.search("(Button)|(Campaign)|(open.png)",attr[1]):
                     self._list.append(urlparse.urljoin(self._root,self._href))
                     return
                 if attr[0] == "alt" and re.search("Source",attr[1]):
                     self._list.append(urlparse.urljoin(self._root,self._href))
-                    return    
+                    return
+                logging.warn("Saw img %s=%s : confusion." % (attr[0] , attr[1]))
 
  
     def GuidesList(self):
