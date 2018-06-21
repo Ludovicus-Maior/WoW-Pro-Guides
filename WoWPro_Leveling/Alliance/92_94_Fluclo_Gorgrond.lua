@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2018-06-21 22:50
+-- Who: Ludovicus_Maior
+-- Log: PRE tag cleanups
+
+-- URL: http://wow-pro.com/node/3613/revisions/29065/view
 -- Date: 2018-02-20 01:40
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -186,7 +191,7 @@ A Next Quest |QID|35708;34704|N|If you built a Lumber Yard, get Tangleheart from
 
 ;The following quests are if you selected Lumber Yard
 f Highpass |QID|35708|N|With Rangari Rajess|M|52.83,59.33|ACTIVE|35708|
-A Deeproot |QID|35212|PRE|35063|N|From Thaelin Darkanvil|M|53.00,59.78|ACTIVE|35708|
+A Deeproot |QID|35212|PRE|35063;35049|N|From Thaelin Darkanvil|M|53.00,59.78|ACTIVE|35708|
 T Tangleheart |QID|35708|N|To Glirin, who has moved to Tangleheart|M|55.93,71.54|
 A Growing Wood |QID|35652|N|From Glirin|M|55.93,71.54|PRE|35708|
 A Lost Lumberjack |QID|36368|N|From Glirin|M|55.93,71.54|PRE|35708|
@@ -208,8 +213,8 @@ T Chapter I: Plant Food |QID|35654|N|To Glirin|M|60.71,64.78|
 T Chapter II: The Harvest |QID|35651|N|To Glirin|M|60.71,64.78|
 T Chapter III: Ritual of the Charred |QID|35650|N|To Glirin|M|60.71,64.78|
 
-R Highpass |QID|36828|N|Click on the Dark Iron Mole Machine to return to Highpass Logging Camp.|M|60.70,64.82|PRE|35652;35654;35651;35650|
-A Lumber, I Hardly Knew 'Er |QID|36828|N|From Glirin, back in Highpass.|PRE|35652;35654;35651;35650|M|53.02,59.81|
+R Highpass |QID|36828|N|Click on the Dark Iron Mole Machine to return to Highpass Logging Camp.|M|60.70,64.82|PRE|35654;35650;36797;35651;35652|
+A Lumber, I Hardly Knew 'Er |QID|36828|N|From Glirin, back in Highpass.|PRE|35654;35650;36797;35651;35652|M|53.02,59.81|
 
 T Deeproot |QID|35212|N|To Thaelin Darkanvi, who is now in Deeproot.|M|46.08,76.86|
 A The Razorbloom|QID|35213|N|From Thaelin Darkanvi, who is now in Deeproot.|M|46.08,76.86|PRE|35212|
@@ -284,13 +289,13 @@ C Iyu |QID|35235|N|Kill Iyu, who is at surface level.|T|Iyu|M|47.50,92.62|
 T Iyu |QID|35235|N|To Yrel, who is now in Bastion Rise.|M|47.71,93.30|
 
 A Power of the Genesaur |QID|35255|N|From Yrel|PRE|35235|M|47.71,93.30|
-A Service of Rangari Kaalya|QID|35262|N|From Rangari Kaalya|PRE|35235|M|47.78,93.27|
+A Service of Rangari Kaalya|QID|35262|N|From Rangari Kaalya|PRE|35235;36797|M|47.78,93.27|
 f Bastion Rise|QID|35255|N|At Ranger Yaval down under the ledge.|M|46.40,92.41|PRE|35235|
 H Highpass |QID|35255|N|Hearthstone to Highpass, or fly there if you didn't set your hearthstone.|ACTIVE|35255|
 T Power of the Genesaur |QID|35255|N|To Vindicator Maraad|M|52.85,59.68|
 
 ;The following quests are if you selected Gladiator Sanctum
-A Rage and Wisdom |QID|35686|PRE|35063|N|From Vindicator Maraad|M|52.85,59.68|ACTIVE|34704|
+A Rage and Wisdom |QID|35686|PRE|35063;35064|N|From Vindicator Maraad|M|52.85,59.68|ACTIVE|34704|
 f Highpass |QID|35686|N|With Rangari Rajess|M|52.81,59.35|ACTIVE|34704|
 C Rage and Wisdom |QID|35686|N|Ask Rangari Rajess to fly you to Rangari Erdanii|NC|M|52.82,59.32|
 T Rage and Wisdom |QID|35686|N|To Rangari Erdanii|M|46.26,66.70|
@@ -321,7 +326,7 @@ A Slave Hunters |QID|34698|N|From Kash'drakor|M|42.75,63.05|PRE|34704+34697|
 A Nazgrel |QID|34700|N|From Kash'drakor|M|42.75,63.05|PRE|34704+34697|
 A Krav'ogra |QID|34702|N|From Beatface|M|42.69,63.08|PRE|34704+34697|
 
-A Need More Teeth|QID|34012|N|From Prowler Sasha|M|41.43,66.09|PRE|35686|
+A Need More Teeth|QID|34012|N|From Prowler Sasha|M|41.43,66.09|PRE|35149+35064|
 C Need More Teeth|QID|34012|N|Kill and loot the Stonemaul Guards|S|
 C Slave Hunters |QID|34698|N|Head up the tower, kill Slave Hunter Krag, and loot the Pendant of Krag|QO|2|T|Slave Hunter Krag|M|41.00,66.19|
 C Getting Gladiators |QID|34699|N|Head into the hut, and Free Bruto by clicking the shackle on his arm.|QO|3|NC|M|40.30,64.83|
@@ -333,7 +338,7 @@ C Slave Hunters |QID|34698|N|Head to the middle level, slay Slave Hunter Mol, an
 R Kor'gall's Hovel |QID|34700|N|Head into Kor'gall's Hovel|ACTIVE|34700|
 C Nazgrel |QID|34700|N|Follow the path down, then take the second tunnel to the left, then rescue Nazgrel from the cage.|NC|M|36.84,70.57|
 
-T Getting Gladiators |QID|34699|N|To Bruto|M|36.85,67.91|PRE|35686|
+T Getting Gladiators |QID|34699|N|To Bruto|M|36.85,67.91|
 A The Axe of Kor'gall|QID|34703|N|From Bruto|M|36.85,67.91|PRE|34699|
 R Throne of Stonemaul|QID|34703|N|Break down the Ogre Barricade, then head to the Throne of Stonemaul.|ACTIVE|34703|
 C The Axe of Kor'gall|QID|34703|N|Kill Kor'gall and loot his axe, Serathil.|M|36.77,68.06|
@@ -354,7 +359,7 @@ C Basilisk Butcher |QID|35870|N|Kill and loot the Stoneshamble Basilisk or loot 
 T On the Mend |QID|35026|N|To Nisha|M|45.85,54.92|
 T Basilisk Butcher |QID|35870|N|To Nisha|M|45.85,54.92|
 
-A Is This One of Yours?|QID|36508|N|From Rexxar|M|46.06,54.73|
+A Is This One of Yours?|QID|36508|N|From Rexxar|M|46.06,54.73|PRE|35730|
 C Is This One of Yours?|QID|36508|N|Tell Rexxar this is one of my allies.|M|46.06,54.73|CHAT|
 T Is This One of Yours?|QID|36508|N|To Ranger Erdanii|M|46.20,55.09|
 
@@ -406,7 +411,7 @@ T Leave Every Soldier Behind |QID|36223|N|To Rexxar, who is now in Gronn Canyon.
 T Fair Warning|QID|35128|N|To Rexxar|M|43.94,48.83|
 T A Great Escape |QID|35210|N|To Rexxar|M|43.94,48.83|
 
-A Eye in the Sky|QID|35139|N|From Rexxar|M|43.94,48.83|
+A Eye in the Sky|QID|35139|N|From Rexxar|M|43.94,48.83|PRE|35210|
 C Eye in the Sky|QID|35139|N|Speak with Nisha and place your hand on her head.|CHAT|M|43.86,48.86|
 T Eye in the Sky|QID|35139|N|To Rexxar|M|43.94,48.83|
 
@@ -492,12 +497,12 @@ C Plant Pruning |QID|36436|N|Kill the Seedpriests and Primal Growths|US|
 T Ambassador to the Ancient |QID|36437|N|To Altauur, who has moved to a cave in Dionor's Demise|M|51.32,47.96|
 T Plant Pruning |QID|36436|N|To Altauur|M|51.31,47.97|
 
-A Shredder vs. Saberon |QID|36439|N|From Altauur|M|51.31,47.97|PRE|36436;36437|
+A Shredder vs. Saberon |QID|36439|N|From Altauur|M|51.31,47.97|PRE|36436;35049;36437|
 R Steamscar Rise|QID|36439|N|Head to Steamscar Rise|M|52.29,46.52|ACTIVE|36439|
 C Shredder vs. Saberon |QID|36439|N|Head up the path, break the Strong Vine Barricade, then walk in.|NC|M|52.22,48.66|
 T Shredder vs. Saberon |QID|36439|N|To Altauur, who is moving into Steamscar Rise after you broke in.|M|52.04,49.50|PRE|36436;35708|
 
-A Beatface vs. Boulder |QID|36438|N|From Altauur|M|51.31,47.97|PRE|36436;36437|
+A Beatface vs. Boulder |QID|36438|N|From Altauur|M|51.31,47.97|PRE|36436;35064;36437|
 C Beatface vs. Boulder |QID|36438|N|Leave the cave and go left; there is a trail with a red banner over it heading up the mountain that brings you into a spot full of dead podlings\nFollow it round to the left and click on the boulders|NC|M|50.61,51.44|ACTIVE|36438|
 T Beatface vs. Boulder |QID|36438|N|To Altauur, who will spawn to your right as soon as you walk into the encampment.|M|52.04,49.50|PRE|36436;34704|
 
