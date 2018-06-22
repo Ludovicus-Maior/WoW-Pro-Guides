@@ -74,6 +74,6 @@ function WoWPro.Dailies:CreateConfig()
 	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Dailies", isTitle = true} )
 	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() InterfaceOptionsFrame_OpenToCategory("WoW-Pro Dailies"); end} )
-	table.insert(WoWPro.DropdownMenu, {text = "Reload Guide", func = function() WoWPro.Dailies:LoadGuide(); end} )
+	table.insert(WoWPro.DropdownMenu, {text = "Reload Guide", func = function() WoWPro:LoadGuide(); end} )
 
 end
