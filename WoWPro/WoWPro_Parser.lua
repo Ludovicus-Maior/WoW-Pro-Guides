@@ -833,7 +833,7 @@ function WoWPro.SetupGuideReal()
 		end
 
 	    WoWProCharDB.Guide[GID].completion[i] = nil
-	    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was defaulted to incomplete."
+	    WoWPro.why[i] = "uncompleted by WoWPro.SetupGuideReal() because quest was defaulted to incomplete."
 	    
 	    if WoWProCharDB.Guide[GID].skipped[i] then
 	        WoWPro.why[i] = "Previously marked as skipped"
@@ -842,7 +842,7 @@ function WoWPro.SetupGuideReal()
 	    end
 
         if (action == ";") or (action == '!') then
-            WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() as processed already."
+            WoWPro.why[i] = action .. " step completed by WoWPro.SetupGuideReal() as processed already."
             WoWProCharDB.Guide[GID].completion[i] = WoWPro.why[i]
             numQIDs = 0
         end
@@ -859,13 +859,13 @@ function WoWPro.SetupGuideReal()
     		    -- Turned in quests --
     			if WoWPro:IsQuestFlaggedCompleted(qid,true) then
     			    WoWProCharDB.Guide[GID].completion[i] = QID
-    			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as completed."
+    			    WoWPro.why[i] = "Completed by WoWPro.SetupGuideReal() because quest was flagged as completed."
     			end
     	        
     	        -- Skipped quests --
     	        if WoWProCharDB.skippedQIDs[QID] then
                     WoWProCharDB.Guide[GID].completion[i] = -QID
-                    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as skipped."
+                    WoWPro.why[i] = "Completed by WoWPro.SetupGuideReal() because quest was flagged as skipped."
                 end
                 	            
     		    -- Quest Accepts and Completions --
@@ -873,11 +873,11 @@ function WoWPro.SetupGuideReal()
     		        if WoWPro.QuestLog[QID] then 
         			    if action == "A" then
         			        WoWProCharDB.Guide[GID].completion[i] = QID
-        			        WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was in QuestLog."
+        			        WoWPro.why[i] = "Completed by WoWPro.SetupGuideReal() because quest was in QuestLog."
         			    end
         			    if action == "C" and WoWPro.QuestLog[QID].complete then
         				    WoWProCharDB.Guide[GID].completion[i] = QID
-        				    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest in QuestLog was complete."
+        				    WoWPro.why[i] = "Completed by WoWPro.SetupGuideReal() because quest in QuestLog was complete."
         			    end
         			end
     		    end
