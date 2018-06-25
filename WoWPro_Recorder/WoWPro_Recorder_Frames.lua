@@ -338,7 +338,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					type = "select",
 					name = "Action Type:",
 					desc = "The step's type.",
-					values = WoWPro.Leveling.actionlabels,
+					values = WoWPro.actionlabels,
 					get = function(info) 
 						if WoWPro.Recorder.stepInfo.action then return WoWPro.Recorder.stepInfo.action end
 						if WoWPro.Recorder.QIDtoAdd then
