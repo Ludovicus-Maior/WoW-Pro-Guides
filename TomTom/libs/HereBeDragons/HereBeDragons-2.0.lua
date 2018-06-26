@@ -5,7 +5,7 @@ if select(4, GetBuildInfo()) < 80000 then
     return
 end
 
-local MAJOR, MINOR = "HereBeDragons-2.0", 4
+local MAJOR, MINOR = "HereBeDragons-2.0", 5
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -132,9 +132,9 @@ if not oldversion or oldversion < 3 then
             right = left + (right - left) * 2
 
             instance, left, right, top, bottom = applyMapTransforms(instance, left, right, top, bottom)
-            mapData[id] = {left - right, top - bottom, left, top, instance = instance, name = data.name, mapType = data.mapType}
+            mapData[id] = {left - right, top - bottom, left, top, instance = instance, name = data.name, mapType = data.mapType, parent = data.parentMapID}
         else
-            mapData[id] = {0, 0, 0, 0, instance = instance or -1, name = data.name, mapType = data.mapType}
+            mapData[id] = {0, 0, 0, 0, instance = instance or -1, name = data.name, mapType = data.mapType, parent = data.parentMapID }
         end
     end
 
