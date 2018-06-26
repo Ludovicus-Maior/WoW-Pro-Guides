@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-06-24 19:23
+-- Who: Emmaleah
+-- Log: minor changes, mostly adding NC tags, some spelling or wording corrections, etc.
+
+-- URL: http://wow-pro.com/node/3763/revisions/29358/view
 -- Date: 2018-06-18 22:01
 -- Who: Emmaleah
 -- Log: Finished clean-up phase, all identified Rares and Treasure added (list at beginning of guide of unknowns), Still needs PREs checked, RANKS added.
@@ -220,7 +225,7 @@ T To Market, To Market|QID|47945|M|63.22,27.10|N|To Thomas Staughton.|
 A Save Their Bacon|QID|47946|M|63.22,27.10|N|From Thomas Staughton.|PRE|47945|
 A Big Bad Wolves|QID|47947|M|63.22,27.10|N|From Thomas Staughton.|PRE|47945|
 A Pork Chop|QID|47948|M|63.22,27.10|N|From Thomas Staughton.|PRE|47945|
-K Kill Hexed Howlera |QID|47948|N|Kill 10 spellbound beasts as you go.|S|
+K Kill Hexed Howlers |QID|47948|N|Kill 10 spellbound beasts as you go.|S|
 C Save Their Bacon|QID|47946|QO|1|M|64.23,28.32|NC|N|Free Trevor Hightide - on the left off the road. He is one of the pigs that is bound to a pole.|
 C Save Their Bacon|QID|47946|QO|2|M|63.61,29.33|NC|N|Free Travis Daybreak - somewhat down the road on the right.|
 A That's Not My Fetish|QID|47949|M|63.35,30.10|N|From Pig Effigy - Inside the building on the right on rope hanging from ceiling.|
@@ -238,49 +243,48 @@ T Cured Ham|QID|47950|M|63.24,27.04|N|To Thomas Staughton.|
 
 ;Wicker Worship
 f Barbthorn Ridge|QID|48677|M|62.62,23.98|N|Follow the route to the north and find Anna Ridgeley before the bridge to the left.|
-K Kill Whargarble the Ill-Tempered|QID|51871|QO|1|M|64.97,21.37|ITEM|155543|T|Whargarble the Ill-Tempered|N|Silver Elite to kill and loot for some treasure and resources.|
+K Kill Whargarble the Ill-Tempered|QID|51871;49311|QO|1|M|64.97,21.37|ITEM|155543|T|Whargarble the Ill-Tempered|N|Silver Elite to kill and loot for some treasure and resources.|
 A Wicker Worship|QID|48677|M|62.54,23.94|N|From David Maldus.|
-R Autumvale|QID|48677|M|59.50,21.97|N|Before the bridge go left and follow the route to Autumvale.|
+R Autumnvale|QID|48677|M|59.50,21.97|N|Before the bridge go left and follow the route to Autumvale.|
 T Wicker Worship|QID|48677|M|59.44,21.91|N|To Lord Autumnvale.|
 A Questionable Offerings|QID|48678|M|59.50,21.97|N|From Lord Autumnvale.|
 C Questionable Offerings|QID|48678|QO|1|M|59.89,21.99;59.38,21.91|CN|NC|N|You find things to offer to the rocks behind you. Take "bundle of wicker", "Entrails" and the "Bones" to the offering table. You have to do it one at a time.|
 C Questionable Offerings|QID|48678|QO|2|M|59.38,21.91|NC|N|Witness Autumnvale's Ritual|
 T Questionable Offerings|QID|48678|M|59.44,21.91|N|To Lord Autumnvale.|
 A Not the Bees!|QID|48680|M|59.44,21.96|N|Autoaccepted Bonus Quest.|PRE|48678|LVL|-120|
-C Not the Bees!|QID|48680|M|59.44,21.96|S|N|Knock down the hives, kill the bees and burn the effigies.|
 A Mind the Hives|QID|48679|M|59.44,21.96|N|From Lord Autumnvale.|PRE|48678|
 C Not the Bees!|QID|48680|M|59.44,21.96|S|N|Knock down the hives, kill the bees and burn the effigies.|
 K Kill Barbthorn Queen|QID|48842|QO|1|M|58.89,18.62|N|Silver Elite to kill and loot for treasure and resources.|ITEM|155425|
-C Mind the Hives|QID|48679|QO|1|M|60.60,17.43|N|Find Edwin in the back of the cave then drive back the Barbthorn Swarm.|
+C Mind the Hives|QID|48679|M|60.60,17.43|N|Find Edwin in the back of the cave then drive back the Barbthorn Swarm.|
 C Not the Bees!|QID|48680|M|60.57,17.45|US|N|Finish this up before leaving the area.|
 T Not the Bees!|QID|48680|M|60.57,17.45|N|Autocompleted.|
 T Mind the Hives|QID|48679|M|59.03,22.38|N|To Initiate Peony back at the wicker man.|
 A A Simple Sacrifice|QID|48682|M|59.10,22.40|N|From Initiate Peony.|PRE|48679|
-C A Simple Sacrifice|QID|48682|M|56.54,24.06|N|Go forward to a other cave. Listen in and the kill Lord Autumnvale to Save Edwin, again|
+C A Simple Sacrifice|QID|48682|M|56.54,24.06|N|Go forward to another cave. Listen in and the kill Lord Autumnvale (when he becomes hostile) to Save Edwin, again|
 T A Simple Sacrifice|QID|48682|M|56.54,24.06|N|To Edwin Maldus.|
 A Changing Seasons|QID|48683|M|56.60,24.03|N|From Edwin Maldus.|PRE|48682|
 C Changing Seasons|QID|48683|QO|1|M|59.35,21.99|NC|N|Follow Edwin to the wickerman.|
 C Changing Seasons|QID|48683|QO|2|M|59.29,21.92|NC|N|Click on Wicker Man to burn it.|
 T Changing Seasons|QID|48683|M|59.35,21.99|N|To Edwin Maldus.|
 
-H Fallhaven|QID|48948|M|62.62,23.98|U|6948|N|Use your hearthstone to go back to Fallhaven. If your hearthstone isnt available you can fly at Anna Ridgeley.|
+H Fallhaven|QID|47289|M|62.62,23.98|U|6948|N|Use your hearthstone to go back to Fallhaven. If your hearthstone isnt available you can fly at Anna Ridgeley.|
 
 ;Tea Party
 
 A Teddies and Tea|QID|47289|M|54.51,39.34|N|At the back of Fallhaven go left over the bridge and find a little singing girl Abby Lewis.|
-C Teddies and Tea|QID|47289|QO|2|M|55.40,39.77|N|In the house before the fire - Trunksy found|
-C Teddies and Tea|QID|47289|QO|1|M|55.61,38.55|N|on the ranch at the house on the other side - Mr. Munchykins found|
-C Teddies and Tea|QID|47289|QO|3|M|56.29,38.15|N|On the porchrail by the third house - Mayor Striggs found|
+C Teddies and Tea|QID|47289|QO|2|NC|M|55.40,39.77|N|In the house before the fire - Trunksy found|
+C Teddies and Tea|QID|47289|QO|1|NC|M|55.61,38.55|N|on the ranch at the house on the other side - Mr. Munchykins found|
+C Teddies and Tea|QID|47289|QO|3|NC|M|56.29,38.15|N|On the porchrail by the third house - Mayor Striggs found|
 T Teddies and Tea|QID|47289|M|56.26,38.21|N|To Abby Lewis standing right beside you.|
 A Kitty?|QID|47428|M|56.26,38.21|N|From Abby Lewis.|PRE|47289|
 T Kitty?|QID|47428|M|55.60,41.19|N|To Smoochums sitting on a rock with a backpack.|
 A The Accursed Thicket|QID|45972|M|55.60,41.19|N|Auto accepted Bonus quest.|PRE|47428|LVL|-120|
 A The Village of Glenbrook|QID|45079|M|55.60,41.19|N|From Glenbook Register.|
-C The Accursed Thicket|QID|45972|M|55.60,41.19|N|Burn charms, destroy fetishes and kill the accursed wildlife to complete the objective.|
-K Kill Gorehorn|QID|49480|QO|1|M|57.23,44.18|N|Silver Elite to kill and loot for treasure and resources.|ITEM|158710|
-C The Village of Glenbrook|QID|45079|QO|2|M|57.17,46.43|CHAT|N|In a cave. Look at body off Jonathan Hayes and investigate. Then take the letter|
-C The Village of Glenbrook|QID|45079|QO|3|M|55.50,45.31|N|Look at Samuel Hawthorne's axe on the ground.|
-C The Village of Glenbrook|QID|45079|QO|1|M|53.14,44.44|N|Look at Mary's book on the ground inside a cave.|
+C The Accursed Thicket|QID|45972|M|55.60,41.19|S|N|Burn charms, destroy fetishes and kill the accursed wildlife to complete the objective.|
+K Kill Gorehorn|QID|49480|QO|1|M|57.23,44.18|T|Gorehorn|N|Silver Elite to kill and loot for treasure and resources.|ITEM|158710|
+C The Village of Glenbrook|QID|45079|QO|2|M|57.17,46.43|CHAT|N|In a cave. Look at body of Jonathan Hayes and investigate. Then take the letter|
+C The Village of Glenbrook|QID|45079|QO|3|M|55.50,45.31|NC|N|Look at Samuel Hawthorne's axe on the ground.|
+C The Village of Glenbrook|QID|45079|QO|1|M|53.14,44.44|NC|N|Look at Mary's book on the ground inside a cave.|
 $ Beastly Ritual Skull|QID|49216|QO|1|M|52.07,46.97|N|Click on the skull to start the vignette ending with killing Silver Elite for treasure and resources.|T|Cottentail Matron|ITEM|163036|
 T The Village of Glenbrook|QID|45079|M|54.74,49.13|N|To Annie Warren in yet a other cave.|
 A Tea Party|QID|44785|M|54.74,49.13|N|From Annie Warren.|PRE|45079|
@@ -288,10 +292,10 @@ C Tea Party|QID|44785|QO|1|M|56.35,49.15|NC|N|Follow Abby Lewis.|
 C Tea Party|QID|44785|QO|2|M|58.18,47.91|NC|N|So sit down and drink tea.|
 K The Conjured Horror|QID|44785|QO|3|M|58.18,47.91|N|Kill Conjured Horror|T|Conjured Horror|
 T Tea Party|QID|44785|M|57.76,47.76|N|To Annie Warren.|
-C The Accursed Thicket|QID|45972|QO|1|M|58.18,47.91|N|Purge the woods|
+C The Accursed Thicket|QID|45972|QO|1|M|58.18,47.91|US|N|Purge the woods|
 T The Accursed Thicket|QID|45972|M|58.18,47.91|N|Autocompleted.|
 
-K Kill Longfang/Henry Breakwater|QID|48981|QO|1|M|59.36,55.40|ITEM|160468|N|Decide which of them to help and talk to them to offer your help. Silver Elite to kill for treasure and resources.|
+K Kill Longfang/Henry Breakwater|QID|48981|QO|1|M|56.5,50.5;59.36,55.40|CS|ITEM|160468|N|Decide which of them to help and talk to them to offer your help. Silver Elite to kill for treasure and resources.|
 
 ;Seeing Spirits (optinal)
 
@@ -380,8 +384,8 @@ C Big Gulls Won't Die|QID|48883|M|71.48,49.10|N|Kill Brinebeak slain|T|Brinebeak
 T Big Gulls Won't Die|QID|48883|M|71.77,50.41|N|To Art Hughie.|
 
 ;Fletcher's Hollow
-R Timbered Strand|QID|48883|M|69.22,58.51|N|Run south along the road by the riverbank to Timbered Strand.|
-f Timbered Strand|QID|48883|M|70.21,60.45|N|At Bridget Bran.|
+R Timbered Strand|QID|48171|M|69.22,58.51|N|Run south along the road by the riverbank to Timbered Strand.|
+f Timbered Strand|QID|48171|M|70.21,60.45|N|At Bridget Bran.|
 T The Curse of Fletcher's Hollow|QID|48171|M|70.07,60.27|N|To Evelyn Pare.|
 A Save Who We Can|QID|48518|M|70.07,60.27|N|From Evelyn Pare.|PRE|48171|
 A Clear-Cutting|QID|49295|M|70.07,60.27|N|From Evelyn Pare.|PRE|48171|
@@ -407,17 +411,17 @@ C The Three Sisters|QID|48520|M|68.49,63.27|QO|1|N|Slay Sister Ashwell.|
 A A Revealing Missive|QID|48522|M|68.55,63.29|N|From Levae's Missive dropped by one of the sisters.|
 $ Seething Cache|QID|49341|M|67.98,66.89|N|Click on the chest to spawn several manifestations of hate, defeat them and the treasure is yours. Reclick the chest to loot it.|ITEM|158598|
 C Charming the Lifeless|QID|48521|M|68.55,63.29|N|Keep trying until you have control a Dormant Ravager.|US|NC|U|152590|
-C Break Them to Splinters|QID|48525|M|69.17,61.32|US|N|Finish up the objective.|
-T Break Them to Splinters|QID|48525|M|69.17,61.32|N|Autocompleted.|
 T The Three Sisters|QID|48520|M|70.07,60.27|N|To Evelyn Pare.|
 T Charming the Lifeless|QID|48521|M|70.07,60.27|N|To Evelyn Pare.|
 T A Revealing Missive|QID|48522|M|70.07,60.27|N|To Evelyn Pare.|
 A The Murderous Matron|QID|48523|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520;48521;48522|
 A Culling the Coven|QID|48524|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520;48521;48522|
 C The Murderous Matron|QID|48523|QO|1|N|Click the Dormant Ravager to take control of it.|
-C Culling the Coven|QID|48524|N|While controlling the Dormant Ravager, run up to the Elderstone Mine and use the ravagers abilities to slay Heartsbane minions while traveling towards Matron Levae.|
+C Culling the Coven|QID|48524|S|N|While controlling the Dormant Ravager, run up to the Elderstone Mine and use the ravagers abilities to slay Heartsbane minions while traveling towards Matron Levae.|
+C Break Them to Splinters|QID|48525|M|69.17,61.32|US|N|Finish up the objective.|
+T Break Them to Splinters|QID|48525|M|69.17,61.32|N|Autocompleted.|
 C The Murderous Matron|QID|48523|QO|2|M|68.67,67.25|N|Slay Matron Levae.|
-C Culling the Coven|QID|48524|N|Finish killing Heartsbane minions while running out of the mine.|
+C Culling the Coven|QID|48524|US|N|Finish killing Heartsbane minions while running out of the mine.|
 T The Murderous Matron|QID|48523|M|70.07,60.27|N|To Evelyn Pare.|
 T Culling the Coven|QID|48524|M|70.07,60.27|N|To Evelyn Pare.|
 A An Airtight Alibi|QID|48538|M|70.07,60.27|N|From Evelyn Pare.|PRE|48523|
@@ -438,9 +442,9 @@ A Gol Koval|QID|48947|M|69.52,43.71|N|From Auntie Amanda Hale.|LEAD|52074|
 R Wayward Thicket|QID|48181|M|47.93,48.96|N|Take this smaal path to the right afther you cross the bridge|
 A Nooooope|QID|48181|M|68.01,48.88|N|Autoaccept - bonus quest|LVL|-120|
 C Nooooope|QID|48181|M|68.01,48.88|S|N|Trample spiderlings, break open egg sacs and kill the bigger spiders to clean up the thicket.|
+K Kill Bonesquall|QID|48978|QO|1|M|66.72,51.10|N|Silver Elite to kill and loot for treasure and resources.|ITEM|154376|
 T Gol Koval|QID|48947|M|64.66,54.77|N|To Rebecca Hale.|
 A Deliverance|QID|52074|M|64.66,54.77|N|From Rebecca Hale.|
-K Kill Bonesquall|QID|48978|QO|1|M|66.72,51.10|N|Silver Elite to kill and loot for treasure and resources.|ITEM|154376|
 C Nooooope|QID|48181|M|63.43,58.08|US|N|Finish clearing out the thicket.|
 T Nooooope|QID|48181|M|63.43,58.08|US|N|Autocompleted.|
 T Deliverance|QID|52074|M|61.91,59.30|N|To Ranger Wons.|
@@ -450,16 +454,16 @@ A Total Cairnage|QID|48182|M|61.89,59.30|N|From Thornspeaker Birchgrove.|PRE|520
 A The Hills Are Alive|QID|48183|M|61.89,59.30|N|From Thornspeaker Birchgrove.|PRE|52074|
 C Boned|QID|52075|S|N|Slay Vengeful Bones as you go.|
 C The Hills Are Alive|QID|48183|M|61.89,59.30|S|N|Kill the awoken guardians for their Runic Power Cores.|
-C Rescue Rangers|QID|48179|M|61.91,59.30|S|N|Click on the injured to heal them as you go.|
-C Total Cairnage|QID|48182|QO|1|S|N|Destroy the Minor Ancient Cairns as you go.|
+C Rescue Rangers|QID|48179|M|61.91,59.30|S|NC|N|Click on the injured to heal them as you go.|
+C Total Cairnage|QID|48182|QO|1|S|NC|N|Destroy the Minor Ancient Cairns as you go.|
 A Really Big Problem|QID|48180|M|58.50,63.25|N|From Arthur Tradewind, stealthed druid.|
 C Really Big Problem|QID|48180|M|58.57,64.41|T|Ancient Sentinel|N|Slay the Ancient Sentinel.|
 $ Runebound Cache|QID|53385|M|63.30,65.85|N|Click the runes in this order *LEFT, BOTTOM, TOP, RIGHT* to open the cache and loot the treasure.|ITEM|163743|
-C Total Cairnage|QID|48182|QO|1|M|62.20,64.03|US|N|Destroy the Minor Ancient Cairns as you go.|
-C Total Cairnage|QID|48182|QO|2|M|59.10,67.99|N|Destroy the Major Ancient Cairn.|
+C Total Cairnage|QID|48182|QO|1|M|62.20,64.03|US|NC|N|Destroy the Minor Ancient Cairns as you go.|
+C Total Cairnage|QID|48182|QO|2|M|59.10,67.99|NC|N|Destroy the Major Ancient Cairn.|
 K Kill Rimestone|QID|49269|QO|1|M|59.77,70.02;59.8,70.02|CS|T|Rimestone|N|Silver Elite to kill for treasure and resources.|ITEM|158345|
 $ Gluttonous Yeti|QID|48979|M|63.03,69.51|T|Gluttonous Yeti|N|Talk to the Lost Goat, either option causes a Silver - Elite Yeti to appear. Kill and loot for treasure and resources.|ITEM|158683|
-C Rescue Rangers|QID|48179|M|62.11,61.61|US|N|Finish healing the injured.|
+C Rescue Rangers|QID|48179|M|62.11,61.61|US|NC|N|Finish healing the injured.|
 C The Hills Are Alive|QID|48183|M|62.11,61.61|US|N|Finish collecting the Runic Power Cores.|
 C Boned|QID|52075|M|62.11,61.61|US|N|Finish killing Vengeful Bones.|
 T Rescue Rangers|QID|48179|M|61.89,59.37|N|To Ranger Wons.|
@@ -480,7 +484,7 @@ C Yeti to Rumble|QID|48942|M|45.60,34.37|S|N|Kill yetis as you go.|
 C Salvage Rights|QID|48943|QO|1|M|45.60,34.37|NC|N|Pick up the Wrapped Supplies.|
 A If Bones Could Talk|QID|51134|M|45.23,33.62|N|from UI by looting bone from Awakend dead.|
 C If Bones Could Talk|QID|51134|M|45.23,33.62|S|N|Kill the undead until you get a Pristine Rune-Etched Bone.|
-$ Ancient Sarcophagus|QID|49137|M|41.95,36.48|N|Kill 3 waves of undead then you can loot the sarcophagus.|
+$ Ancient Sarcophagus|QID|49137|M|43.37,36.29;41.95,36.48|CS|N|Kill 3 waves of undead then you can loot the sarcophagus.|
 C Salvage Rights|QID|48943|QO|2|M|45.05,32.49|NC|N|Pick up Cask of Salted Fish.|
 C Salvage Rights|QID|48943|QO|3|M|43.54,30.80|NC|N|Pick up the Hardened Lockbox.|
 C Salvage Rights|QID|48943|QO|4|M|45.53,30.08|NC|N|Pick up the Bucket of Grain.|
@@ -494,7 +498,7 @@ A Diversionary Tactics|QID|48963|M|44.74,28.48|N|From Lucille Waycrest.|PRE|4894
 C Diversionary Tactics|QID|48963|M|45.22,28.57|N|Slay Frostmange|T|Frostmange|
 T Diversionary Tactics|QID|48963|M|45.01,27.76|N|To Lucille Waycrest.|
 A Unlocking History|QID|48944|M|45.01,27.76|N|From Lucille Waycrest.|PRE|48963|
-C Unlocking History|QID|48944|M|44.96,27.52|N|Click on the torch to the left of the bookcase.|
+C Unlocking History|QID|48944|M|44.96,27.52|NC|N|Click on the wall sconce to the left of the bookcase.|
 T Unlocking History|QID|48944|M|44.96,27.52|N|To Lucille Waycrest.|
 A Thze Ruins of Gol Var|QID|48945|M|44.96,27.52|N|From Lucille Waycrest.|PRE|48944|
 C The Ruins of Gol Var|QID|48945|M|42.62,25.07|N|Like most escort quests, there are 3 encounters in route.|
@@ -506,7 +510,7 @@ A Take the High Road|QID|48986|M|42.59,25.23|N|From Lucille Waycrest.|PRE|48946|
 
 R Highroad Pass|QID|53110|M|43.62,39.15|N|Run out of the cavern and across the valley to Highroad Pass.|
 C The High Thornspeaker|QID|53110|QO|1|M|43.62,39.15|CHAT|N|Tell Arthur you are ready to go.|
-C The High Thornspeaker|QID|53110|QO|2|M|43.62,39.15|N|Hop on Arthur's back for a ride up to Ulfar's Den.|
+C The High Thornspeaker|QID|53110|QO|2|M|43.62,39.15|NC|N|Hop on Arthur's back for a ride up to Ulfar's Den.|
 T The High Thornspeaker|QID|53110|M|45.30,45.75|N|To Ulfar.--currently no follow up... seems odd--|
 
 A WANTED: The Rime Huntress|QID|52033|M|41.24,40.98|N|group quest - optional|
@@ -523,7 +527,7 @@ T A Lesson in Witch Hunting|QID|49443|M|36.86,50.14|N|To Lucille Waycrest.|
 A Sharp Thinking|QID|49804|M|36.86,50.14|N|From Lucille Waycrest.|PRE|49443
 A Changing of the Guard|QID|49803|M|36.92,50.09|N|From Marshal Everit Reade.|PRE|49443|
 A Implements of Ill Intent|QID|49805|M|37.72,50.39|N|From Heartsbane Grimoire, lying on the ground.|PRE|49443|
-C Implements of Ill Intent|QID|49805|M|37.72,50.39|S|N|Start by destroying this one and continuie destroying them as you go.|
+C Implements of Ill Intent|QID|49805|M|37.72,50.39|NC|S|N|Start by destroying this one and continuie destroying them as you go.|
 C Sharp Thinking|QID|49804|M|37.91,50.22|S|NC|U|156518|N|Use Lucille's needle on the refugees.|
 A Hidden Dealings|QID|49806|M|37.78,50.17|N|Some of the refugees will be exposed as witches, one of them will drop a 'hastily drawn map' which starts this quest.|
 C Changing of the Guard|QID|49803|QO|2|M|35.26,53.13|CHAT|N|Recruit Ensign Yorrick.|
@@ -583,7 +587,7 @@ A Greenstalker|QID|50953|M|33.45,65.09|N|From Adalyn Forestwatcher.|PRE|51543|
 C Greenstalker|QID|50953|M|33.75,62.31;34.24,61.89|CS|U|159143|T|Greenstalker|N|Use the charm (at range) then slay Greenstalker.|
 T Greenstalker|QID|50953|M|33.44,65.09|N|To Adalyn Forestwatcher.|
 A Life Preserver|QID|51472|M|33.52,65.13|N|From Zallestrasza.|PRE|50953|
-C Life Preserver|QID|51472|QO|1|M|33.63,65.10|N|Hop of Zallestrasza's back.|
+C Life Preserver|QID|51472|QO|1|M|33.63,65.10|NC|N|Hop of Zallestrasza's back.|
 C Life Preserver|QID|51472|QO|2|M|42.05,81.98|CHAT|N|Tell her you are ready.|
 C Life Preserver|QID|51472|QO|3|M|41.88,81.97|T|Danir Emberlight|N|Kill Danir Emberlight, who seems to want to disrupt her ritual.|
 K Kill Avalanche|QID|51471|QO|1|M|43.58,88.10|T|Avalanche|N|Silver Elite to kill for treasure and resources.|RANK|3|
@@ -609,13 +613,12 @@ A So Long, Sister|QID|49939|M|25.77,70.27|N|From Inquisitor Cleardawn.|PRE|50177
 A Village Repair|QID|50091|M|25.77,70.27|N|Bonus quest-autoaccepted.|PRE|50177|LVL|-120|
 C Village Repair|QID|50091|M|25.77,70.27|S|N|Destroy Charms and Banners, kill Briarthorn mobs.|
 C So Long, Sister|QID|49939|M|25.01,71.83|N|Slay Sister Noella Briarwood inside the house.|T|Sister Noella Briarwood|
-;i rearranged this section many times. check to make sure coordinates work/it flows correctly-Emmaleah-
 f Falconhurst|QID|50091|M|27.05,72.36|N|At Viviana Swailes.|
 T So Long, Sister|QID|49939|M|26.64,72.17|N|To Leandro Royston.|
 A WANTED: The Crimson Cutthroats|QID|51390|M|26.42,72.16|N|From Wanted Poster.|PRE|49939|
 A Bramblethorn|QID|50238|M|26.99,71.39|N|From Lynn Sweet.|PRE|49939|
 A A Missing Master|QID|50903|M|25.54,70.10|N|From Marten Webb.|PRE|49939|
-C Bramblethorn|QID|50238|M|24.80,69.02;24.88,68.65|CS|N|Kill Bramblethorn to rescue Lord Sharptooth.|
+C Bramblethorn|QID|50238|M|24.79,69.01;24.88,68.65|CS|N|Kill Bramblethorn to rescue Lord Sharptooth.|
 C A Missing Master|QID|50903|QO|1|M|25.60,67.91|NC|N|Go down into cellar and find Master Ashton.|
 C A Missing Master|QID|50903|QO|2|M|25.29,67.89|CHAT|N|Speak to Master Ashton|
 T A Missing Master|QID|50903|M|25.29,67.89|N|To Warren Ashton.|
@@ -640,7 +643,7 @@ C A Weapon of Old|QID|50036|QO|2|M|25.17,67.18|NC|N|Help create a Liquid Fire po
 T A Weapon of Old|QID|50036|M|25.24,67.16|N|To Warren Ashton.|
 A Fighting With Fire|QID|50063|M|25.24,67.16|N|From Warren Ashton.|PRE|50036|
 C Fighting With Fire|QID|50063|U|156710|S|N|Slay Briarwood Bulwarks.|
-K Kill Braeden Whitewall|QID|51922|M|27.63,59.57|QO|1|T|Braeden Whitewall|N|Silver Elite to kill and loot for treasure and resources.|ITEM|154500|
+K Kill Braedan Whitewall|QID|51922|M|27.63,59.57|QO|1|T|Braedan Whitewall|N|Silver Elite to kill and loot for treasure and resources.|ITEM|154500|
 C Fighting With Fire|QID|50063|U|156710|US|N|Slay Briarwood Bulwarks.|
 T Fighting With Fire|QID|50063|M|25.09,67.29|N|To Marten Webb.|
 
@@ -652,8 +655,7 @@ A Saving Master Ashton|QID|50265|M|20.64,57.46|N|From Inquisitor Cleardawn.|PRE|
 A Odds and Ends|QID|50306|M|20.64,57.51|N|From Marten Webb.|PRE|50172|
 K Kill Hexwood Seers|QID|50306|S|QO|2|M|21.76,56.99|N|Kill Hexwood Seers to collect the Bags of Reagents.|
 K Kill Timber Mongrels|QID|50306|S|QO|1|M|21.76,56.99|N|Kill Timber Mongrels to collect the Organic Matter.|
-K Kill Hexwood Binder|QID|50265|L|156856|M|21.11,55.61|N|Kill the Hexwood Binder to get the cage key.|
-C Saving Master Ashton|QID|50265|M|21.05,55.26|N|Free Master Ashton.|
+K Kill Hexwood Binder|QID|50265|S|L|156859|M|21.11,55.61|N|Kill the Hexwood Binder to get the cage key.|
 A Bittersweet|QID|50266|M|21.16,55.08|N|From Samantha Sweet.|PRE|50172|
 C Bittersweet|QID|50266|QO|1|M|21.16,55.08|NC|N|Release Samantha Sweet.|
 C Bittersweet|QID|50266|QO|4|M|21.96,55.96|NC|N|Pick up Gauntlet.|
@@ -661,10 +663,11 @@ C Bittersweet|QID|50266|QO|3|M|21.95,57.08|NC|N|Pick up Sword.|
 C Bittersweet|QID|50266|QO|2|M|21.35,57.04|NC|N|Pick up Boots.|
 C Bittersweet|QID|50266|QO|5|M|21.10,57.53|NC|N|Pick up Cuirass.|
 C Bittersweet|QID|50266|QO|6|M|21.15,55.14|CHAT|N|Return Samantha's gear|
+K Kill Hexwood Binder|QID|50265|US|L|156859|M|21.11,55.61|N|Once you finally get the key, you can try to avoid the Hexwood Binders.|
+C Saving Master Ashton|QID|50265|M|21.05,55.26|NC|N|Free Master Ashton.|
+T Bittersweet|QID|50266|M|20.61,57.49|N|To Samantha Sweet.|
 K Kill Timber Mongrels|QID|50306|US|QO|1|M|21.76,56.99|N|Finish collecting the Organic Matter.|
 K Kill Hexwood Seers|QID|50306|US|QO|2|M|21.76,56.99|N|Finish collecting the Bags of Reagents.|
-
-T Bittersweet|QID|50266|M|20.61,57.49|N|To Samantha Sweet.|
 T Saving Master Ashton|QID|50265|M|20.64,57.47|N|To Inquisitor Cleardawn.|
 T Odds and Ends|QID|50306|M|20.63,57.51|N|To Marten Webb.|
 A A Little 'Pick Me Up'|QID|50327|M|20.63,57.51|N|From Marten Webb.|PRE|50266;50265;50306|
@@ -699,10 +702,10 @@ T She's Got it Where it Counts|QID|51019|M|19.85,44.26|N|To Klause Fairwind.|
 T Cutthroat Business Practices|QID|51020|M|20.86,46.18|N|To Fixi Slyshiv.|
 A Out With the Old Boss|QID|50978|M|20.62,46.19|N|From Cesi Loosecannon.|PRE|51020;51019|
 C Out With the Old Boss|QID|50978|N|Slay Richard Tornsail out on the boat at the dock.|
-T Out With the Old Boss|QID|50978|M|19.20,43.51|N|To Cesi Loosecannon.|
+T Out With the Old Boss|QID|50978|M|19.20,43.51|N|To Cesi Loosecannon who has moved upstairs on the ship.|
 
 f Anyport|QID|50978|M|19.19,43.30|N|At Tan Lotuswind, up above Cesi's new office.|
-A WANTED: Anchorface|QID|51240|M|19.55,43.62|N|From Wanted Poster.|
+;A WANTED: Anchorface|QID|51240|M|19.55,43.62|N|From Wanted Poster.|-- not available in this build?
 A Every Day I'm Smugglin'|QID|51001|M|20.92,43.64|N|From Clonk Greaseybit.|
 A Asking for a Friend|QID|51018|M|20.83,46.02|N|From Kane Carlyle.|
 C Asking for a Friend|QID|51018|QO|1|M|20.68,45.58|CHAT|N|Talk to Xun Xun.|
@@ -728,7 +731,6 @@ T In the Hall of the Drust King|QID|50481|M|27.04,58.50|N|To Inquisitor Cleardaw
 A Stick It To 'Em!|QID|50533|M|27.04,58.50|N|From Inquisitor Cleardawn.|PRE|50481|
 C Stick It To 'Em!|QID|50533|QO|1|M|27.19,57.94|U|158064|NC|N|Use the greater control charm to take control of a Crimsonwood Demolisher.|
 C Stick It To 'Em!|QID|50533|QO|2|M|19.30,50.74|N|Use your abilities to slaughter the witch forces and work your way towards the rondevous point.|
-C Matrons of Crimsonwood|QID|50329|M|19.54,53.73|U|158175|N|Use the potion to weaken them and then kill the 3 Matrons.|
 C Stick It To 'Em!|QID|50533|QO|3|M|19.30,50.74|CHAT|N|Tell Inquisitor Cleardown you are ready to go.|
 C Stick It To 'Em!|QID|50533|QO|4|M|19.34,50.53|NC|N|Hop on the gryphons for a ride back to Arom's Stand.|
 T Stick It To 'Em!|QID|50533|M|37.87,50.08|N|To Inquisitor Cleardawn.|
@@ -738,7 +740,7 @@ R Teller Farm|QID|50970|M|37.17,49.27;30.84,41.28|CS|N|Run out the main gate and
 K Kill Talon|QID|49528|QO|1|M|31.94,40.64|N|Silver Elite to kill for treasure and resources.|RANK|2|ITEM|161444|
 A A Farmer's Fate|QID|50970|M|29.92,40.45|N|From Morwin Gladeheart.|RANK|2|
 A Lost in the Woods|QID|50967|M|29.92,40.45|N|From Morwin Gladeheart.|RANK|2|
-K Kill Bloodbough Fungalmancer|QID|50965|M|27.54,42.11|L|160027|T|Bloodbough Fungalmancer|N|Drops Ashenwood Relic to start a quest.|RANK|2|
+K Kill Bloodbough Fungalmancer|QID|50965|M|27.54,42.11|T|Bloodbough Fungalmancer|N|Drops Ashenwood Relic to start a quest.|RANK|2|ACTIVE|-50965|; took |L| as it is not a physical item you loot, -ACTIVE appears to work...
 A Those Who Remain|QID|50965|M|27.54,42.11|N|From UI when looting the Ashenwood Relic.|RANK|2|
 C Those Who Remain|QID|50965|M|27.54,42.11|S|N|Continue killing Fungalmancers to get more relics.|
 C A Farmer's Fate|QID|50970|M|26.75,41.99|QO|1|NC|N|Empower the branch with the Mark of Ash.|
@@ -794,8 +796,7 @@ T Precious Metals|QID|50173|M|31.41,30.36|N|To Lucille Waycrest.|
 A An Improvised Arsenal|QID|50253|M|31.41,30.36|N|From Lucille Waycrest.|PRE|50173;50151|
 C An Improvised Arsenal|QID|50253|M|31.72,29.55|QO|1|CHAT|N|Speak with Angus Ballaster|
 C An Improvised Arsenal|QID|50253|M|31.90,29.72|QO|2|NC|N|Click on the scrapheap to search for the Battered Hand Cannon.|
-C An Improvised Arsenal|QID|50253|M|31.64,29.53|QO|3|NC|N|Place Hand cannon on the anvil.|
-C An Improvised Arsenal|QID|50253|M|31.68,29.59|QO|4|N|1/1 Hand cannon modified|
+C An Improvised Arsenal|QID|50253|M|31.64,29.53|QO|3|NC|N|Place Hand cannon on the anvil and then wait a bit for Angus to be done.|
 T An Improvised Arsenal|QID|50253|M|31.73,29.56|N|To Angus Ballaster.|
 
 A Reclaiming Corlain|QID|50448|M|31.73,29.56|N|Auto accepted bonus quest|LVL|-120|
@@ -816,7 +817,7 @@ A Eating Through the Defenses|QID|50451|M|27.06,25.24|N|From Harris Hocking.|PRE
 A An Offensive Harvest|QID|50450|M|27.06,25.24|N|From Harris Hocking.|
 C Eating Through the Defenses|QID|50451|M|27.80,24.45|S|N|Slay Scavenging Boars.|
 C An Offensive Harvest|QID|50450|M|28.04,24.66|NC|N|Pick Aromatic Onions.|
-C Eating Through the Defenses|QID|50451|M|27.80,24.45|US|N|Finish of the Scavenging Boars.|
+C Eating Through the Defenses|QID|50451|M|27.80,24.45|US|N|Finish off the Scavenging Boars.|
 T Eating Through the Defenses|QID|50451|M|27.08,25.26|N|To Harris Hocking.|
 T An Offensive Harvest|QID|50450|M|27.08,25.26|N|To Harris Hocking.|PRE|50451|
 A Potent Protection|QID|50452|M|27.08,25.26|N|From Harris Hocking.|
@@ -842,9 +843,9 @@ C A Traitor's Death|QID|50454|M|28.70,20.99|QO|2|S|N|Finish slaying Goodpeed's g
 C Barrier Buster|QID|50453|M|28.94,19.09|US|NC|N|Finish collecting the Blasting Powder.|
 C WANTED: Sister Lilias|QID|51356|M|28.55,18.39;27.55,19.19|CS|N|Take the path behind Captain Goodspeed to find Sister Lilias and remove her Head.|
 $ Merchant's Chest|QID|53357|M|25.89,19.99|N|Target the Gorging Raven's and determine which one has the buff "merchant's key" and kill it to loot the key to open the treasure.|
-
-f Whitegrove Chapel|QID|50758|M|25.70,16.61|N|At Bertram.|
-$ Ruined Wedding Cake|QID|51949|M|25.12,16.23|N|Click on the ruined cake to summon the Caterer. Silver Elite to kill and loot for treasure and resources.|ITEM|155560|
+K Fungi Trio|QID|51749|M|26.11,21.38;24.88,19.86;23.67,21.87;24.10,21.93|CS|N|Run down the hill and take out this trio of Silver Elites.|ITEM|154217|
+R Western Watch |ACH|12557|M|19.24,11.94|CC|N|Run (or better swim) to this island Western Watch to get the explore Drustvar archiement at the end of this guide. The first set of coordinates will lead to a way down for the shortest swim|
+R Whitegrove Chapel|QID|50754|M|23.17,20.18;24.73,21.05;23.74,17.44|CS|N|Up the hill fo meet Lucille's fiance.|
 C To Have Loved and Lost|QID|50754|M|23.31,17.45|NC|N|Place flowers on the grave.|
 T To Have Loved and Lost|QID|50754|M|23.35,17.45|N|To Alexander Treadward.|
 A Painful Memories|QID|50758|M|23.35,17.45|N|From Alexander Treadward.|PRE|50754|
@@ -853,7 +854,7 @@ C Painful Memories|QID|50758|M|23.31,12.71|NC|N|Examine the bones.|
 T Painful Memories|QID|50758|M|23.31,12.71|N|To Alexander Treadward.|
 A Running Late|QID|50759|M|23.31,12.71|N|From Alexander Treadward.|PRE|50758|
 
-C Running Late|QID|50759|M|24.31,14.97|CHAT|N|Speak to Lord Waycrest.|
+C Running Late|QID|50759|M|24.31,14.97|CHAT|N|You can find Lord Waycrest upstairs in the Manor House.|
 C Running Late|QID|50759|M|24.31,14.97|QO|2|NC|N|Click on the carpet to find Lord Waycrest's Notes.|
 T Running Late|QID|50759|M|24.31,14.97|N|To Lord Arthur Waycrest.|
 
@@ -865,20 +866,23 @@ C Blood in the Chapel|QID|50761|M|23.26,14.64|N|Slay Red Hand Assassins.|
 T Blood in the Chapel|QID|50761|M|23.26,12.75|N|To Lord Arthur Waycrest.|
 A The Lady's Fate|QID|50762|M|23.26,12.75|N|From Lord Arthur Waycrest.|PRE|50761|
 
-R Western Watch |ACH|12557|M|22.21,12.90;27.55,19.19|CC|N|Run (or better swim) to this island Western Watch to get the explore Drustvar archiement at the end of this guide. The first set of coordinates will lead to a way down for the shortest swim|
-K Fungi Trio|QID|51749|M|24.10,21.93|N|As long as your down here, let's eliminate some Silver Elites.|ITEM|154217|
 C The Lady's Fate|QID|50762|M|23.65,20.00;24.30,14.82|CS|NC|QO|1|N|Back up to the Chapel and of course in the basement you find Lady Waycrest.|
 C The Lady's Fate|QID|50762|M|24.30,14.82|QO|2|N|Slay Roland the Knife.|
 C The Lady's Fate|QID|50762|M|24.26,14.97|QO|3|NC|N|Pick up the Assassin's Orders from Roland's skeleton.|
+$ Ruined Wedding Cake|QID|51949|M|25.12,16.23|N|Click on the ruined cake to summon the Caterer. Silver Elite to kill and loot for treasure and resources.|ITEM|155560|
 
 T The Lady's Fate|QID|50762|M|23.32,17.49|N|To Alexander Treadward.|
 A One Last Request|QID|50763|M|23.32,17.49|N|From Alexander Treadward.|PRE|50762|
-K Kill Captain Leadfist|QID|50939|M|26.71,14.37|QO|1|T|Captain Leadfist|N|Silver Elite just down the hill to kill for treasure and resources.|ITEM|160450|RANK|3|
 
-F Watchman's Rise|QID|50763|M|25.70,16.61|N|Take flypoint to Watchman's Rise.|
+f Whitegrove Chapel|QID|50758|M|25.70,16.61|N|At Bertram.|
+R Chandlery Wharf|QID|50939|M|27.08,16.45|N|Down the hill for an optional quest and Silver Elite.|RANK|3|
+K Kill Captain Leadfist|QID|50939|M|26.71,14.37|QO|1|T|Captain Leadfist|N|Silver Elite just down the hill to kill for treasure and resources.|ITEM|160450|RANK|3|
+A Sweete's Orders|QID|50960|M|27.45,11.61|N|From Ship's Log, on top deck of ship in the harbor.|
+F Watchman's Rise|QID|50763|M|25.70,16.61|N|Run back up to the flightmaster and take a flight back to Watchman's Rise.|
 
 T WANTED: Sister Lilias|QID|51356|M|31.52,30.05|N|To Lieutenant Course.|
 T One Last Request|QID|50763|M|31.46,30.18|N|To Lucille Waycrest.|
+T Sweete's Orders|QID|50960|M|31.46,30.18|N|To Lucille Waycrest.|
 T A Traitor's Death|QID|50454|M|31.39,30.27|N|To Marshal Everit Reade.|
 C Leaving the Nest|QID|50455|M|30.98,23.95|S|N|Open Falcon Cages. You need to kill Hexthralled falconers to get the keya (new key for each cage)|
 C Hexed Hatchlings|QID|50456|M|31.36,24.48|NC|U|157845|N|Use the Whistle to call Winston, aim him at the Wicker Charms and press 1. Getting attacked takes you out of this mode, lacking that... NumPad 5 also does.|
@@ -918,6 +922,7 @@ T Storming the Manor|QID|50588;51852;51851|M|32.76,15.35|N|To Lucille Waycrest.|
 
 F Boralus Harbor|QID|50639|M|38.14,52.50|N|Take flypoint to Tradewind market (Boralus Harbor).|RANK|-1|
 A Waycrest Manor: The Fallen Mother|QID|50639|M|32.76,15.35|NA|N|From Lucille Waycrest. This is a dungeon Quest. You can use the LFD function or ask your guild/friends to join you|PRE|50588|RANK|2|
+C Waycrest Manor: The Fallen Mother|QID|50639|NA|N|Run the dungeon, either with friends or use LFD.|
 H Northwood Home|QID|50639|U|6948|N|Use your hearthstone or fly to go back to Aron's Stand.|ACTIVE|50639|RANK|2|
 t Waycrest Manor: The Fallen Mother|QID|50639|M|36.86,50.11|N|To Lucille Waycrest.|
 A Everburning|QID|52149|M|36.86,50.11|N|From Lucille Waycrest.|PRE|50639|RANK|2|
