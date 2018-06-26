@@ -1,56 +1,58 @@
-Changes since tag 1.90-beta
+tag cd12ccfd13832690f1422c5795a3921c452298a7 1.92-beta
+Author:	Hendrik Leppkes <h.leppkes@gmail.com>
+Date:	Sat Jun 23 20:03:11 2018 +0200
 
-commit a683f2eda11afee118fc946082359ec1898f48a1
+Tag as 1.92-beta
+
+commit f1b0f720ccce59c8139ae5e0cbfac21100c24874
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Thu May 10 12:26:06 2018 +0200
+Date:   Sat Jun 23 18:53:33 2018 +0200
 
-    Extract map data from the new APIs instead of hard-coding db2 data
+    Fix minimap drawing zone limitation
 
-commit 339e978418ea3b78aaec6742de14e8d1a31eff9d
+commit d087939c3b4734ac18a010420b12a4a3810ab5a2
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Wed May 9 00:54:27 2018 +0200
+Date:   Sat Jun 23 18:53:18 2018 +0200
 
-    Remove legacy world map event
+    Use HBD parent map data for pin drawing
 
-commit 61156e2f7f3d58dd42b91247fdbca01f6a0600f7
+commit 70c7ea002a3d702dd482958d11b7660f6ad36b7c
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Wed May 9 00:22:18 2018 +0200
+Date:   Sat Jun 23 18:52:40 2018 +0200
 
-    Update reference to the WorldMapFrame
+    Store the maps parent in the data table
 
-commit 5d1d6dfc1a441c5864ddcdcd5b1230d3013a2c75
+commit 3ecf06773358df59c80f66ae91de16da88b4264e
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Wed May 9 00:07:38 2018 +0200
+Date:   Sat Jun 23 18:27:36 2018 +0200
 
-    Update map data for build 26567
+    Fix show flag handling in world map drawing for instance-based coordinates
 
-commit 832749913d9334eea46dcedb92992d8cecaf4531
+commit ec1e0d064b7a02ac97980fc5b7fc10adda044390
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Wed May 2 12:49:53 2018 +0200
+Date:   Wed Jun 20 20:19:26 2018 +0200
 
-    Implement WorldMap Pin drawing using a data provider
+    Set a scaling limit for the pins so they show in a consistent size on all maps
+    
+    Fixes WoWAce Issue #12
 
-commit afb9d74986c5b233ad9e800d39e553486db76d1c
+commit e8e542646986796906d14abe6a8cba716e2f58c6
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Mon Apr 30 00:46:00 2018 +0200
+Date:   Wed Jun 20 20:19:01 2018 +0200
 
-    Save the default floor after a lookup
+    Properly reset existing icons when re-using pins
+    
+    Fixes GitHub Issue #4
 
-commit 3e195fee915d4c551bd3e187797b01dfb85cc8e9
+commit 61383763a1ce7b87379d50b534150693e2d17ab7
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Sun Apr 29 21:49:48 2018 +0200
+Date:   Wed Jun 13 19:50:42 2018 +0200
 
-    Unify Migrate lookup api
+    Fix drawing pins on the world map
 
-commit a3ae0ab7db71669ecceee6fdd4d98c0ace4843dc
+commit af699f6637a2d07ba3000273534116aefaffc679
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Sun Apr 29 21:28:51 2018 +0200
+Date:   Sat May 26 19:15:44 2018 +0200
 
-    Draft of HereBeDragons-Migrate migration helper library
-
-commit 6dd6864b8679b35ded1978d3e9a86eda6042be7e
-Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Sun Apr 29 19:02:31 2018 +0200
-
-    Add a draft of HereBeDragons-Pins-2.0
+    Optimize transform storage for faster lookups
 

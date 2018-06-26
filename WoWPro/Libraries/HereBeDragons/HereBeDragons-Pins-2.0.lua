@@ -5,7 +5,7 @@ if select(4, GetBuildInfo()) < 80000 then
 	return
 end
 
-local MAJOR, MINOR = "HereBeDragons-Pins-2.0", 1
+local MAJOR, MINOR = "HereBeDragons-Pins-2.0", 5
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local pins, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -29,6 +29,9 @@ pins.worldmapProviderPin  = pins.worldmapProviderPin or CreateFromMixins(MapCanv
 
 -- store a reference to the active minimap object
 pins.Minimap = pins.Minimap or Minimap
+
+-- Data Constants
+local WORLD_MAP_ID = 947
 
 -- upvalue lua api
 local cos, sin, max = math.cos, math.sin, math.max
@@ -165,10 +168,25 @@ local function drawMinimapPin(pin, data)
     end
 end
 
+local function IsParentMap(originMapId, toCheckMapId)
+    local parentMapID = HBD.mapData[originMapId].parent
+    while parentMapID and HBD.mapData[parentMapID] do
+        local mapType = HBD.mapData[parentMapID].mapType
+        if mapType ~= Enum.UIMapType.Zone and mapType ~= Enum.UIMapType.Dungeon and mapType ~= Enum.UIMapType.Micro then
+            return false
+        end
+        if parentMapID == toCheckMapId then
+            return true
+        end
+        parentMapID = HBD.mapData[parentMapID].parent
+    end
+    return false
+end
+
 local function UpdateMinimapPins(force)
     -- get the current player position
     local x, y, instanceID = HBD:GetPlayerWorldPosition()
-    local mapID, mapFloor = HBD:GetPlayerZone()
+    local mapID = HBD:GetPlayerZone()
 
     -- get data from the API for calculations
     local zoom = pins.Minimap:GetZoom()
@@ -216,7 +234,7 @@ local function UpdateMinimapPins(force)
         end
 
         for pin, data in pairs(minimapPins) do
-            if data.instanceID == instanceID and (not data.floor or (data.floor == mapFloor and (data.floor == 0 or data.mapID == mapID))) then
+            if data.instanceID == instanceID and (not data.uiMapID or data.uiMapID == mapID or (data.showInParentZone and IsParentMap(data.uiMapID, mapID))) then
                 activeMinimapPins[pin] = data
                 data.keep = true
                 -- draw the pin (this may reset data.keep if outside of the map)
@@ -313,6 +331,13 @@ worldmapPinsPool.creationFunc = function(framePool)
     frame:SetSize(1, 1)
     return Mixin(frame, worldmapProviderPin)
 end
+worldmapPinsPool.resetterFunc = function(pinPool, pin)
+    FramePool_HideAndClearAnchors(pinPool, pin)
+    pin:OnReleased()
+
+    pin.pinTemplate = nil
+    pin.owningMap = nil
+end
 
 -- register pin pool with the world map
 WorldMapFrame.pinPools["HereBeDragonsPinsTemplate"] = worldmapPinsPool
@@ -353,7 +378,7 @@ function worldmapProvider:HandlePin(icon, data)
     if not uiMapID then return end
 
     local x, y
-    if uiMapID == WORLDMAP_AZEROTH_ID then
+    if uiMapID == WORLD_MAP_ID then
         -- should this pin show on the world map?
         if uiMapID ~= data.uiMapID and data.worldMapShowFlag ~= HBD_PINS_WORLDMAP_SHOW_WORLD then return end
 
@@ -366,7 +391,7 @@ function worldmapProvider:HandlePin(icon, data)
         if uiMapID ~= data.uiMapID then
             local mapType = HBD.mapData[uiMapID].mapType
             if not data.uiMapID then
-                if mapType == Enum.UIMapType.Continent and data.worldMapShowFlag == HBD_PINS_WORLDMAP_SHOW_CONTINENT then
+                if mapType == Enum.UIMapType.Continent and data.worldMapShowFlag >= HBD_PINS_WORLDMAP_SHOW_CONTINENT then
                     --pass
                 elseif mapType ~= Enum.UIMapType.Zone and mapType ~= Enum.UIMapType.Dungeon and mapType ~= Enum.UIMapType.Micro then
                     -- fail
@@ -374,10 +399,10 @@ function worldmapProvider:HandlePin(icon, data)
                 end
             else
                 local show = false
-                local info = C_Map.GetMapInfo(data.uiMapID)
-                while info and info.parentMapID do
-                    if info.parentMapID == uiMapID then
-                        local mapType = HBD.mapData[info.parentMapID].mapType
+                local parentMapID = HBD.mapData[data.uiMapID].parent
+                while parentMapID and HBD.mapData[parentMapID] do
+                    if parentMapID == uiMapID then
+                        local mapType = HBD.mapData[parentMapID].mapType
                         -- show on any parent zones if they are normal zones
                         if data.worldMapShowFlag >= HBD_PINS_WORLDMAP_SHOW_PARENT and
                             (mapType == Enum.UIMapType.Zone or mapType == Enum.UIMapType.Dungeon or mapType == Enum.UIMapType.Micro) then
@@ -390,7 +415,7 @@ function worldmapProvider:HandlePin(icon, data)
                         break
                         -- worldmap is handled above already
                     else
-                        info = C_Map.GetMapInfo(info.parentMapID)
+                        parentMapID = HBD.mapData[parentMapID].parent
                     end
                 end
 
@@ -409,6 +434,7 @@ end
 --  map pin base API
 function worldmapProviderPin:OnLoad()
     self:UseFrameLevelType("PIN_FRAME_LEVEL_AREA_POI")
+    self:SetScalingLimits(1, 1.0, 1.2)
 end
 
 function worldmapProviderPin:OnAcquired(icon, x, y)
@@ -418,6 +444,16 @@ function worldmapProviderPin:OnAcquired(icon, x, y)
     icon:SetParent(self)
     icon:ClearAllPoints()
     icon:SetPoint("CENTER", self, "CENTER")
+    icon:Show()
+end
+
+function worldmapProviderPin:OnReleased()
+    if self.icon then
+        self.icon:Hide()
+        self.icon:SetParent(UIParent)
+        self.icon:ClearAllPoints()
+        self.icon = nil
+    end
 end
 
 -- register with the world map

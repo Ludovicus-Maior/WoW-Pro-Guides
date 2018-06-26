@@ -6,7 +6,7 @@
 ## X-Category: Library
 ## X-License: BSD
 ## X-Website: http://www.wowace.com/addons/herebedragons/
-## Version: 1.90-beta-9-ga683f2e
+## Version: 1.92-beta
 
 LibStub\LibStub.lua
 CallbackHandler-1.0\CallbackHandler-1.0.lua

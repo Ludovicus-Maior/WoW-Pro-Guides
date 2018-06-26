@@ -5,7 +5,7 @@ if select(4, GetBuildInfo()) < 80000 then
     return
 end
 
-local MAJOR, MINOR = "HereBeDragons-2.0", 3
+local MAJOR, MINOR = "HereBeDragons-2.0", 5
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -94,13 +94,16 @@ if not oldversion or oldversion < 3 then
     local function processTransforms()
         for _, transform in pairs(transformData) do
             local instanceID, newInstanceID, minY, maxY, minX, maxX, offsetY, offsetX = unpack(transform)
-            table.insert(transforms, { instanceID = instanceID, newInstanceID = newInstanceID, minY = minY, maxY = maxY, minX = minX, maxX = maxX, offsetY = offsetY, offsetX = offsetX })
+            if not transforms[instanceID] then
+                transforms[instanceID] = {}
+            end
+            table.insert(transforms[instanceID], { newInstanceID = newInstanceID, minY = minY, maxY = maxY, minX = minX, maxX = maxX, offsetY = offsetY, offsetX = offsetX })
         end
     end
 
     local function applyMapTransforms(instanceID, left, right, top, bottom)
-        for _, transformData in ipairs(transforms) do
-            if transformData.instanceID == instanceID then
+        if transforms[instanceID] then
+            for _, transformData in ipairs(transforms[instanceID]) do
                 if left <= transformData.maxX and right >= transformData.minX and top <= transformData.maxY and bottom >= transformData.minY then
                     instanceID = transformData.newInstanceID
                     left   = left   + transformData.offsetX
@@ -129,9 +132,9 @@ if not oldversion or oldversion < 3 then
             right = left + (right - left) * 2
 
             instance, left, right, top, bottom = applyMapTransforms(instance, left, right, top, bottom)
-            mapData[id] = {left - right, top - bottom, left, top, instance = instance, name = data.name, mapType = data.mapType}
+            mapData[id] = {left - right, top - bottom, left, top, instance = instance, name = data.name, mapType = data.mapType, parent = data.parentMapID}
         else
-            mapData[id] = {0, 0, 0, 0, instance = instance or -1, name = data.name, mapType = data.mapType}
+            mapData[id] = {0, 0, 0, 0, instance = instance or -1, name = data.name, mapType = data.mapType, parent = data.parentMapID }
         end
     end
 
@@ -178,8 +181,8 @@ end
 
 -- Transform a set of coordinates based on the defined map transformations
 local function applyCoordinateTransforms(x, y, instanceID)
-    for _, transformData in ipairs(transforms) do
-        if transformData.instanceID == instanceID then
+    if transforms[instanceID] then
+        for _, transformData in ipairs(transforms[instanceID]) do
             if transformData.minX <= x and transformData.maxX >= x and transformData.minY <= y and transformData.maxY >= y then
                 instanceID = transformData.newInstanceID
                 x = x + transformData.offsetX
