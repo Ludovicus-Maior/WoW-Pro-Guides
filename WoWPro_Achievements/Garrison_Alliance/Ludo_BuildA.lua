@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_buildings_alliance
+-- Date: 2018-06-21 22:11
+-- Who: Ludovicus_Maior
+-- Log: Ooops.  Some building quests were the wrong faction!
+
+-- URL: http://wow-pro.com/node/3631/revisions/28975/view
 -- Date: 2018-02-19 22:31
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -174,75 +179,75 @@ C Lost in Transition|QID|37087|Z|Frostwall|N|These are scattered around your gar
 T Lost in Transition|QID|37087|BUILDING|Storehouse;51|Z|Lunarfall|N|To Kyra Goldhands.|
 
 ;trading post MED
-A Tricks of the Trade|QID|37062|M|57.76,27.75|BUILDING|Trading Post;111;144;145|N|From Fayla Fairfeather.|
-C Tricks of the Trade|QID|37062|U|118418|M|44.51,14.48|Z|Frostwall|N|He is sleeping just outside  the gates.|
-T Tricks of the Trade|QID|37062|M|57.88,27.83|N|To Fayla Fairfeather.|
+A Tricks of the Trade|QID|37088|M|51.8,43.6|BUILDING|Trading Post;111;144;145|N|From Trader Joseph.|
+C Tricks of the Trade|QID|37088|U|118418|M|67.22,97.36|Z|Lunarfall|N|He is sleeping near the tree and big rock.|
+T Tricks of the Trade|QID|37088|M|57.8,43.6|N|To Trader Joseph.|
 N Auctioning For Parts|QID|36948|BUILDING|Trading Post;144;145|M|57.88,27.83|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.|
 
 ;tannery SMALL
-A Your First Leatherworking Work Order|QID|37574|M|53.00,41.32|BUILDING|Tannery;90;121;122|N|From Murne Greenhoof.|
-B Raw Beast Hide|QID|37574|M|52.84,47.29|BUILDING|Tannery;90;121;122|L|110609 5|N|Acquire from skinning or the Auction House or some other method.|
-C Place work order|QID|37574|M|52.84,47.29|QO|1|CHAT|L|110609 5|N|At Yanny.|
-C Pick up work order|QID|37574|M|52.95,41.3|QO|2|NC|L|110609 5|N|At Yanny.|
-t Your First Leatherworking Work Order|QID|37574|M|52.84,47.29|N|To Yanny.|
+A Your First Leatherworking Work Order|QID|36642|M|50.2,57.4|Z|Lunarfall|BUILDING|Tannery;90;121;122|N|From Anders Longstitch.|
+B Raw Beast Hide|QID|36642|M|50.2,57.4|Z|Lunarfall|BUILDING|Tannery;90;121;122|L|110609 5|N|Acquire from skinning or the Auction House or some other method.|
+C Place work order|QID|36642|M|50.2,57.4|Z|Lunarfall|QO|1|CHAT|L|110609 5|N|At Marianne Levine.|
+C Pick up work order|QID|36642|M|50.2,57.4|Z|Lunarfall|QO|2|NC|L|110609 5|N|At Marianne Levine.|
+t Your First Leatherworking Work Order|QID|36642|M|50.2,57.4|Z|Lunarfall|N|To Marianne Levine.|
 
 ;tailoring emporium SMALL
-A Your First Tailoring Work Order|QID|36643|M|48.22,32.51|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|N|From ??.|
-B Sumptuous Fur|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|L|111557 5|N|Acquire from killing and looting humanoids (saborons a very good source) or the Auction House or some other method.|
-C Place order|QID|36643|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|CHAT|N|Talk to Turga to start a work order.|
-C Pick up order|QID|36643|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|NC|N|From the bundles, barrels and boxes beside the building, called 'Tailoring Work Order' .|
-T Your First Tailoring Work Order|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|N|From Turga.|
+A Your First Tailoring Work Order|QID|36643|M|48.22,32.51|Z|Lunarfall|BUILDING|TailoringEmporium;94;127;128|N|From Christopher Macdonald.|
+B Sumptuous Fur|QID|36643|M|48.32,31.64|Z|Lunarfall|BUILDING|TailoringEmporium;94;127;128|L|111557 5|N|Acquire from killing and looting humanoids (saborons a very good source) or the Auction House or some other method.|
+C Place order|QID|36643|QO|1|M|48.32,31.64|Z|Lunarfall|BUILDING|TailoringEmporium;94;127;128|CHAT|N|Talk to Kaylie to start a work order.|
+C Pick up order|QID|36643|QO|2|M|47.57,34.36|Z|Lunarfall|BUILDING|TailoringEmporium;94;127;128|NC|N|From the bundles, barrels and boxes beside the building, called 'Tailoring Work Order' .|
+T Your First Tailoring Work Order|QID|36643|M|48.32,31.64|Z|Lunarfall|BUILDING|TailoringEmporium;94;127;128|N|To Kaylie Macdonald.|
 
 ;the forge SMALL
-A Your First Blacksmithing Work Order|QID|35168|M|48.22,32.51|Z|Frostwall|BUILDING|TheForge;60;117;118|N|From ??.|
-B True Iron Ore|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
-C Place order|QID|35168|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|CHAT|N|Talk to Kinja to start a work order.|
-C Pick up order|QID|35168|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|TheForge;60;117;118|NC|N|From the bundles, barrels and boxes beside the building, called 'Blacksmithing Work Order' .|
-T Your First Blacksmithing Work Order|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|N|From Kinja.|
+A Your First Blacksmithing Work Order|QID|35168|M|48.22,32.51|Z|Lunarfall|BUILDING|TheForge;60;117;118|N|From Auria Irondreamer.|
+B True Iron Ore|QID|35168|M|48.32,31.64|Z|Lunarfall|BUILDING|TheForge;60;117;118|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
+C Place order|QID|35168|QO|1|M|48.32,31.64|Z|Lunarfall|BUILDING|TheForge;60;117;118|CHAT|N|Talk to Yulia to start a work order.|
+C Pick up order|QID|35168|QO|2|M|47.57,34.36|Z|Lunarfall|BUILDING|TheForge;60;117;118|NC|N|From the bundles, barrels and boxes beside the building, called 'Blacksmithing Work Order' .|
+T Your First Blacksmithing Work Order|QID|35168|M|48.32,31.64|Z|Lunarfall|BUILDING|TheForge;60;117;118|N|To Yulia Samras.|
 
 ;gem boutique SMALL
-A Your First Jewelcrafting Work Order|QID|37573|M|48.22,32.51|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|From Dorogarr.|
-B Blackrock Ore|QID|37573|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
-C Place order|QID|37573|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|CHAT|N|Talk to Elrondir Surrion to start a work order.|
-C Pick up order|QID|37573|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|GemBoutique;96;131;132|NC|N|From the bundles, barrels and boxes beside the building, called 'Jewelcrafting Work Order'.|
-T Your First Jewelcrafting Work Order|QID|37573|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|From Elrondir Surrion.|
+A Your First Jewelcrafting Work Order|QID|36644|M|48.22,32.51|Z|Lunarfall|BUILDING|GemBoutique;96;131;132|N|From Costan Highwall.|
+B Blackrock Ore|QID|36644|M|48.32,31.64|Z|Lunarfall|BUILDING|GemBoutique;96;131;132|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
+C Place order|QID|36644|QO|1|M|48.32,31.64|Z|Lunarfall|BUILDING|GemBoutique;96;131;132|CHAT|N|Talk to Kaya Solasen to start a work order.|
+C Pick up order|QID|36644|QO|2|M|47.57,34.36|Z|Lunarfall|BUILDING|GemBoutique;96;131;132|NC|N|From the bundles, barrels and boxes beside the building, called 'Jewelcrafting Work Order'.|
+T Your First Jewelcrafting Work Order|QID|36644|M|48.32,31.64|Z|Lunarfall|BUILDING|GemBoutique;96;131;132|N|To Kaya Solasen.|
 
 ;if you chose alchemy lab SMALL
-A Your First Alchemy Work Order|QID|37568|M|48.22,32.51|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|N|From Albert de Hyde.|
-B Frostweed|QID|37568|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|L|109124 5|N|Acquire from herbalism or the Auction House or some other method.|
-C Place order|QID|37568|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|CHAT|N|Talk to Keyana Tone to start a work order.|
-C Pick up order|QID|37568|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|NC|N|From the bundles, barrels and boxes beside the building, called 'Alchemy Work Order' .|
-T Your First Alchemy Work Order|QID|37568|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|N|From Keyana Tone.|
+A Your First Alchemy Work Order|QID|36641|M|48.22,32.51|Z|Lunarfall|BUILDING|AlchemyLab;76;119;120|N|From Mary Kearie.|
+B Frostweed|QID|36641|M|48.32,31.64|Z|Lunarfall|BUILDING|AlchemyLab;76;119;120|L|109124 5|N|Acquire from herbalism or the Auction House or some other method.|
+C Place order|QID|36641|QO|1|M|48.32,31.64|Z|Lunarfall|BUILDING|AlchemyLab;76;119;120|CHAT|N|Talk to Peter Kearie to start a work order.|
+C Pick up order|QID|36641|QO|2|M|47.57,34.36|Z|Lunarfall|BUILDING|AlchemyLab;76;119;120|NC|N|From the bundles, barrels and boxes beside the building, called 'Alchemy Work Order' .|
+T Your First Alchemy Work Order|QID|36641|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|N|To Peter Kearie.|
 
 ;if you choose scribes quarters SMALL
-A Your First Inscription Work Order|QID|37572|M|48.22,32.51|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|N|From Urgra.|
-B Cereleun Pigment|QID|37572|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|L|114931 2|N|Acquire from milling Draenor herbs or the Auction House or some other method.|
-C Place order|QID|37572|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|CHAT|N|Talk to Y'rogg to start a work order.|
-C Pick up order|QID|37572|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|NC|N|From the bundles, barrels and boxes beside the building, called 'Inscription Work Order'.|
-T Your First Inscription Work Order|QID|37572|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|N|From Y'rogg.|
+A Your First Inscription Work Order|QID|36647|M|48.22,32.51|Z|Lunarfall|BUILDING|ScribesQtrs;95;129;130|N|From Eric Broadoak.|
+B Cereleun Pigment|QID|36647|M|48.32,31.64|Z|Lunarfall|BUILDING|ScribesQtrs;95;129;130|L|114931 2|N|Acquire from milling Draenor herbs or the Auction House or some other method.|
+C Place order|QID|36647|QO|1|M|48.32,31.64|Z|Lunarfall|BUILDING|ScribesQtrs;95;129;130|CHAT|N|Talk to Kurt Broadoak to start a work order.|
+C Pick up order|QID|36647|QO|2|M|47.57,34.36|Z|Lunarfall|BUILDING|ScribesQtrs;95;129;130|NC|N|From the bundles, barrels and boxes beside the building, called 'Inscription Work Order'.|
+T Your First Inscription Work Order|QID|36647|M|48.32,31.64|Z|Lunarfall|BUILDING|ScribesQtrs;95;129;130|N|To Kurt Broadoak.|
 
 ;engineering works SMALL
-A Your First Engineering Work Order|QID|37571|M|53.97,37.33|BUILDING|EngineeringWorks;91;123;124|N|From Pozzlow.|Z|Frostwall|
-B True Iron Ore|QID|37571|L|109118 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 Blackrock Ore.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
-B Blackrock Ore|QID|37571|L|109119 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 True Iron Ore.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
-C Place work order|QID|37571|CHAT|QO|1|M|53.13,36.18|N|At Garbra Fizzwonk.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
-C Pick up work order|QID|37571|NC|QO|2|M|51.84,35.94|Z|Frostwall|N|At the pile of boxes and bags named 'Engineering Work Order.|BUILDING|EngineeringWorks;91;123;124|
-T Your First Engineering Work Order|QID|37571|M|53.47,36.94|N|To Garbra Fizzwonk.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
+A Your First Engineering Work Order|QID|36646|M|53.97,37.33|BUILDING|EngineeringWorks;91;123;124|N|From Zaren Hoffle.|Z|Lunarfall|
+B True Iron Ore|QID|36646|L|109118 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 Blackrock Ore.|BUILDING|EngineeringWorks;91;123;124|Z|Lunarfall|
+B Blackrock Ore|QID|36646|L|109119 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 True Iron Ore.|BUILDING|EngineeringWorks;91;123;124|Z|Lunarfall|
+C Place work order|QID|36646|CHAT|QO|1|M|53.13,36.18|N|At Helayn Whent.|BUILDING|EngineeringWorks;91;123;124|Z|Lunarfall|
+C Pick up work order|QID|36646|NC|QO|2|M|51.84,35.94|Z|Lunarfall|N|At the pile of boxes and bags named 'Engineering Work Order.|BUILDING|EngineeringWorks;91;123;124|
+T Your First Engineering Work Order|QID|36646|M|53.47,36.94|N|To Helayn Whent.|BUILDING|EngineeringWorks;91;123;124|Z|Lunarfall|
 
 ;if you chose enchanting hut SMALL
-A Your First Enchanting Work Order|QID|36645|M|52.95,37.31|N|From Yukla Greenshadow.|BUILDING|EnchantingHut;93;125;126|
-B Draenic Dust|QID|36645|M|51.85,35.76|L|109693 5|N|Use the Essence Font in you Enchanting Hut to DE some unneeded gear to get the Draenic Dust for the work order(or otherwise acquire it from bank/mailbox/AH).|BUILDING|EnchantingHut;93;125;126|
-C Place first work order|QID|36645|M|51.85,35.76|QO|1|CHAT|N|At Garra.|BUILDING|EnchantingHut;93;125;126|
-C Pick up work order|QID|36645|M|51.85,35.76|QO|2|NC|N|At the bundles and boxes called 'Enchanting Work Order'.|BUILDING|EnchantingHut;93;125;126|
-T Your First Enchanting Work Order|QID|36645|M|52.56,36.72|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
+A Your First Enchanting Work Order|QID|36645|M|52.95,37.31|Z|Lunarfall|N|From Yukla Greenshadow.|BUILDING|EnchantingHut;93;125;126|
+B Draenic Dust|QID|36645|M|51.85,35.76|Z|Lunarfall|L|109693 5|N|Use the Essence Font in you Enchanting Hut to DE some unneeded gear to get the Draenic Dust for the work order(or otherwise acquire it from bank/mailbox/AH).|BUILDING|EnchantingHut;93;125;126|
+C Place first work order|QID|36645|M|51.85,35.76|Z|Lunarfall|QO|1|CHAT|N|At Garra.|BUILDING|EnchantingHut;93;125;126|
+C Pick up work order|QID|36645|M|51.85,35.76|Z|Lunarfall|QO|2|NC|N|At the bundles and boxes called 'Enchanting Work Order'.|BUILDING|EnchantingHut;93;125;126|
+T Your First Enchanting Work Order|QID|36645|M|52.56,36.72|Z|Lunarfall|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
 
 ;if you choose barn MED
-A Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|From Farmer Lok'lub|
-C Go trap an animal|QID|36345|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a wolf (in the shivering trench ~55,62) if you want fur (cloth) and a clefthoof (nearest concentration is outside of sootstained mines ~26,46) if you are interested in leather. You can trap more if you want, up to 7 can be turned in each day.|
-C Place a work order|QID|36345|QO|2|M|51.71,58.32|Z|Frostwall|N|At Farmer Lok'lub, sometimes he gets bored and wanders around, I have found him as far away as my garrison's graveyard.|
-T Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|To Farmer Lok'lub|
+A Breaking into the Trap Game|QID|36271|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Lunarfall|N|From Homer Stonefield|
+C Go trap an animal|QID|36271|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a boars or riverbeasts.  You can trap more if you want, up to 7 can be turned in each day.|
+C Place a work order|QID|36271|QO|2|M|51.71,58.32|Z|Lunarfall|N|At Homer Stonefield.|
+T Breaking into the Trap Game|QID|36271|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Lunarfall|N|To Homer Stonefield|
 
-;; Garrison Level Quesrs
+;; Garrison Level Quests
 
 A Things Are Not Goren Our Way |QID|34192|N|From Timothy Leens|M|65.46,41.79|Z|Lunarfall|BUILDING|townhall;2|
 C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|S|QO|1|
