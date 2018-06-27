@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2018-06-27 11:43
+-- Who: Ludovicus_Maior
+-- Log: K steps should use ACTIVE instead of QID, except where a tracking quest is in use.
+
+-- URL: http://wow-pro.com/node/3614/revisions/29187/view
 -- Date: 2018-02-26 23:00
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip
@@ -333,7 +338,7 @@ C Why Is The Brew Gone?|QID|34773|M|72.5,22.2|N|Make your way around the lake an
 T Why Is The Brew Gone?|QID|34773|M|69.60,21.60|N|To Quartermaster O'Riley|
 
 A Not In Your House|QID|34804|PRE|34773|M|69.60,21.60|N|From Quartermaster O'Riley|
-K Ripgut|QID|34804|M|67.30,20.81|QO|1|N|Out the main gate on top of the rise.|T|Ripgut|
+K Ripgut|ACTIVE|34804|M|67.30,20.81|QO|1|N|Out the main gate on top of the rise.|T|Ripgut|
 T Not In Your House|QID|34804|M|69.60,21.60|N|To Quartermaster O'Riley|
 
 A Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|From Patrick Messer|RANK|3|
@@ -360,6 +365,7 @@ T Aruumel's Rest|QID|33874|M|65.43,50.73|N|To Seer Malune.|
 
 A Clear!|QID|34761|M|62.86,50.32|N|From Torben Zapblast|
 C Clear!|QID|34761|M|61.39,44.41;72.54,53.57;66.89,59.55|CN|N|Kill and loot the Lakebottom Zappers in the lake.|S|
+; 34185 is the tracking quest
 K Hammertooth |QID|34185|N|**Rare Kill**\nKill and loot Hammertooth, that patrols around the water.|RANK|3|M|61.50,45.50|
 C Clear!|QID|34761|M|61.39,44.41;72.54,53.57;66.89,59.55|CN|N|**Follower**\nFinish killing and looting the Lakebottom Zappers in the lake.|US|
 T Clear!|QID|34761|M|62.86,50.32|N|To Torben Zapblast|
@@ -370,7 +376,7 @@ T New Owner|QID|35239|M|62.89,50.46|N|To Pleasure-Bot 8000|
 A A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|From Nadur|
 C A Pilgrimage Gone Awry|QID|34802|N|Kill and loot the prowlers for their blood|S|QO|1|
 C A Pilgrimage Gone Awry|QID|34802|N|Loot the Snapdragon Fronds from the ground|S|QO|2|NC|
-K Ra'kahn|QID|34196|M|60.1,57.5|RANK|3|N|Rare kill; drops Ra'kahn's Bite (i563 Fist Weapon). Coordinates is Cave Entrance, Ra'kahn can be found at the back of the cave.|ACTIVE|34802|
+K Ra'kahn|ACTIVE|34196|M|60.1,57.5|RANK|3|N|Rare kill; drops Ra'kahn's Bite (i563 Fist Weapon). Coordinates is Cave Entrance, Ra'kahn can be found at the back of the cave.|ACTIVE|34802|
 C A Pilgrimage Gone Awry|QID|34802|N|Finish looting the Snapdragon Fronds from the ground|US|QO|2|NC|
 C A Pilgrimage Gone Awry|QID|34802|N|Finish killing and looting the prowlers for their blood|US|QO|1|
 C A Pilgrimage Gone Awry|QID|34802|N|Kill and loot the Noxious Riverhopper and Palebelly Croakers until one drops the Eye.|QO|3|
@@ -395,10 +401,11 @@ A Orbs of Power|QID|34911|PRE|34913|M|69.95,69.46|N|From Magister Serena|
 
 C Orbs of Power|QID|34911|PRE|34908|M|67.0,80.0|QO|1|N|Scattered throughout the area.|S|
 C While We're in the Neighborhood|QID|34909|PRE|34908|M|66.10,80.70|N|Collect 8 Runebeads from Gordunni Bashers or Cleavers|S|
-K Vizier Vorgorsh|QID|34910|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|PRE|34908|
+K Vizier Vorgorsh|ACTIVE|34910|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|PRE|34908|
+; 34929 is the tracking quest
 K Gennadian|QID|34929|N|**Rare Elite**\nWhilst this elite has 300k HP, you will have Magister Serena helping you battle, therefore this is the perfect time to take on this elite. Just jump down into the pit, the exit is to the north of the pit.|RANK|3|
-K Vizier Zulmork|QID|34910|M|67.14,77.04|QO|2|T|Vizier Zulmork|N|Continue east to get to Zulmork. There's an orb just outside the hut too.|PRE|34908|
-K Vizier Cromaug|QID|34910|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|To the north-west, also note the orb nearby|PRE|34908|
+K Vizier Zulmork|ACTIVE|34910|M|67.14,77.04|QO|2|T|Vizier Zulmork|N|Continue east to get to Zulmork. There's an orb just outside the hut too.|PRE|34908|
+K Vizier Cromaug|ACTIVE|34910|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|To the north-west, also note the orb nearby|PRE|34908|
 T Vicious Viziers|QID|34910|M|0,0|N|To Magister Serena who is with you.|
 
 C Orbs of Power|QID|34911|PRE|34908|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|
@@ -437,9 +444,9 @@ A Prized Repossessions|QID|34978|M|69.63,69.84|N|From Miall, near the base of th
 A Supply Recovery|QID|34977|M|69.63,69.84|N|From Miall, near the base of the wall.|PRE|34976|
 C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|S|PRE|34578|
 C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|S|PRE|34578|
-K Vizier Vorgorsh|QID|34979|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|PRE|34578|
-K Vizier Zulmork|QID|34979|M|67.14,77.04|QO|2|T|Vizier Zulmork|PRE|34578|N|Up another flight in the building.|
-K Vizier Cromaug|QID|34979|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|In the building.|PRE|34578|
+K Vizier Vorgorsh|ACTIVE|34979|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|PRE|34578|
+K Vizier Zulmork|ACTIVE |34979|M|67.14,77.04|QO|2|T|Vizier Zulmork|PRE|34578|N|Up another flight in the building.|
+K Vizier Cromaug|ACTIVE |34979|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|In the building.|PRE|34578|
 
 C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|PRE|34578|
 C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|US|PRE|34578|
@@ -448,7 +455,7 @@ t Prized Repossessions|QID|34978|N|To Miall, who is next to you|PRE|34578|
 t Supply Recovery|QID|34977|N|To Miall, who is next to you|PRE|34578|
 
 A The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|PRE|34979;34978;34977|
-K Witch Lord Morkurk|QID|34980|M|64.0,81.8|QO|1|T|Witch Lord Morkurk|U|112307|PRE|34578|
+K Witch Lord Morkurk|ACTIVE|34980|M|64.0,81.8|QO|1|T|Witch Lord Morkurk|U|112307|PRE|34578|
 T The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|PRE|34578|
 A The Only Way to Travel|QID|34981|N|To Miall, who is next to you|PRE|34980|
 T The Only Way to Travel|QID|34981|M|69.78,20.74|N|To Miall|PRE|34578|
@@ -471,7 +478,7 @@ A Barum's Notes|QID|33761|ACTIVE|33740;33734|M|76.27,42.77|N|From Barum's Notes|
 A Pyrophobia|QID|33578|M|77.74,43.96|N|From Raksi|
 C Burning Sky|QID|33740|M|75.80,45.20;78.20,45.00;79.80,34.50;75.38,36.52;77.30,41.00;74.89,66.49;73.60,59.25;77.90,38.00;76.81,43.26;78.06,35.61;75.25,39.86;81.62,36.14;77.61,61.06;75.12,62.17|CN|N|Kill Wing-Guards, Squallbringers, and Sun-Callers.|S|
 
-K Sun-Sage Kairyx|QID|33578|M|78.45,45.23|QO|1|N|Sun-Sage Kairyx|
+K Sun-Sage Kairyx|ACTIVE|33578|M|78.45,45.23|QO|1|N|Sun-Sage Kairyx|
 T Pyrophobia|QID|33578|M|77.74,43.96|N|To Raksi|
 A What the Draenei Found|QID|33579|PRE|33578|M|77.74,43.96|N|From Raksi|
 C Harmonic Crystal|QID|33761|M|77.74,44.08|QO|3|N|Green Spiky Crystal|
@@ -495,7 +502,7 @@ A Forbidden Knowledge|QID|33581|M|70.52,57.35|N|From Darkscryer Raastok.|
 R Veil Shadar|QID|33580|M|71.11,57.30;73.18,59.47;74.71,61.33|CS|N|Straight across.|
 C The Purge of Veil Shadar|QID|33580|CHAT|S|M|75.80,61.20;74.70,63.35;74.80,66.05;78.35,60.60|CN|
 C Forbidden Knowledge|QID|33581|NC|S|M|74.52,66.93|N|These are reddish glowing books on the carpets and tables.|
-K Wing-Guard Kuuan|QID|33582|M|79.11,60.47;80.11,61.58;80.52,64.29|CS|QO|1|T|Wing-Guard Kuuan|N|In the cave|
+K Wing-Guard Kuuan|ACTIVE|33582|M|79.11,60.47;80.11,61.58;80.52,64.29|CS|QO|1|T|Wing-Guard Kuuan|N|In the cave|
 C The Purge of Veil Shadar|QID|33580|CHAT|US|M|75.80,61.20;74.70,63.35;74.80,66.05;78.35,60.60|CN|
 C Forbidden Knowledge|QID|33581|NC|US|M|74.52,66.93|N|These are reddish glowing books on the carpets and tables.|
 T The Purge of Veil Shadar|QID|33580|M|70.63,57.40|N|To Shadow-Sage Iskar.|
@@ -522,7 +529,7 @@ C In Short Supply|QID|34089|M|56.0,11.8|N|Iron Horde Explosives|S|
 C Thunderlord Cache|QID|34090|M|66.46,26.79|QO|1|
 C Forge|QID|34090|M|64.85,32.83|QO|2|
 C Log Storage|QID|34090|M|60.93,26.68|QO|3|
-K Engineer Trak|QID|34091|M|63.04,23.64|QO|1|
+K Engineer Trak|ACTIVE|34091|M|63.04,23.64|QO|1|
 C Decommissioned Mission|QID|34091|M|63.16,23.68|N|Ride the Shredder back to Redemption Rise by jumping down.|
 C Too Many Irons in the Fire|QID|34088|M|48.2,54.6|N|Slay Iron Horde!|US|
 C In Short Supply|QID|34089|M|56.0,11.8|N|Iron Horde Explosives|US|
@@ -541,11 +548,11 @@ C Iron Them Out|QID|34095|M|57.05,29.30|N|Click on glowing tanks to destroy.|
 C Dreadpiston|QID|34959|M|56.48,27.33|
 A Dying Wish|QID|33973|M|56.90,25.97|N|From Ahm|RANK|2|
 ; [aldavor] added QO|1 otherwise it doesn't close when done.
-K Blademaster Bralok|QID|33973|M|57.03,24.38|N|Loot heirloom|QO|1|
+K Blademaster Bralok|ACTIVE|33973|M|57.03,24.38|N|Loot heirloom|QO|1|
 T Dying Wish|QID|33973|M|56.90,25.97|N|To Ahm|
 C Vol. X Pages ?|QID|34094|M|54.2,22.2|N|Kill orcs at the Archenon Siegeyard to get the pages.|US|
 ; [aldavor] added QO|1 otherwise it remains after you kill him up to when you turn in the quest.
-K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|QO|1|N|Ra'tok the Hammer is down the path to the coastline.|ACTIVE|34105|
+K Wanted: Ra'tok the Hammer|ACTIVE|34105|M|54.2,22.2|QO|1|N|Ra'tok the Hammer is down the path to the coastline.|ACTIVE|34105|
 N Bonus Objective|QID|34095|M|54.2,22.2|N|There is a bonus objective there on the coast. Take the path to the coastline.|
 
 N Deceptia's Smoldering Boots|QID|34095|M|58.84,12.07|N|While doing the bonus, you can also get this for your toy box - the camp will explode, and you can find these (cog wheel) on the ground in the remains.|RANK|3|
@@ -590,11 +597,11 @@ C Arkonite Pylon|QID|34351|M|31.97,48.53|Z|Tomb of Lights@Talador|QO|2|
 
 A Nightmare in the Tomb|QID|33530|PRE|34458+35249|M|52.18,38.97|Z|Tomb of Lights@Talador|N|From Yuuri|
 C Ritual investigated|QID|33530|M|60.13,57.07|Z|Tomb of Lights@Talador|QO|1|
-K Tagar Spinebreaker|QID|33530|M|64.13,67.88|Z|Tomb of Lights@Talador|QO|2|
+K Tagar Spinebreaker|ACTIVE|33530|M|64.13,67.88|Z|Tomb of Lights@Talador|QO|2|
 T Nightmare in the Tomb|QID|33530|M|55.64,67.70|N|To Exarch Maladaar|
 T We Must Construct Additional Pylons|QID|34351|M|55.12,67.41|N|To Soulbinder Tuulani|
 
-K O'mogg Blackheart|QID|33920|M|56.57,62.72|QO|1|T|O'mogg Blackheart|
+K O'mogg Blackheart|ACTIVE |33920|M|56.57,62.72|QO|1|T|O'mogg Blackheart|
 l Karab'uun|QID|33920|M|56.68,62.49|QO|2|
 C Holding the Line|QID|34407|M|55.66,63.41|N|Slay demons around here.|
 
@@ -613,7 +620,7 @@ A Into the Hollow|QID|33958|PRE|34452|M|57.18,76.94|N|From Soulbinder Nyami|
 A Vile Defilers|QID|33969|PRE|34452|M|57.56,76.69|N|From Vindicator Namuun|
 C Defiling Crystals|QID|33969|S|QO|1|N|Scattered through the hollow and mine.|
 C Antivenin|QID|33967|M|62.4,83.8|S|QO|1|N|Kill Deathweb spiders|
-K Xanatos the Defiler|QID|33958|M|65.6,86.6|QO|1|T|Xanatos the Defiler|N|In the mine, at the lower level to the back.|
+K Xanatos the Defiler|ACTIVE|33958|M|65.6,86.6|QO|1|T|Xanatos the Defiler|N|In the mine, at the lower level to the back.|
 C Sha'tari|QID|33958|M|65.77,86.87|QO|2|N|Loot Sha'tari|
 C Defiling Crystals|QID|33958|US|QO|1|N|Scattered through the hollow and mine.|
 C Antivenin|QID|33967|M|62.4,83.8|US|QO|1|N|Kill Deathweb spiders|
@@ -634,7 +641,7 @@ C Body Piles|QID|33988|M|49.31,87.86|QO|1|N|Click on the forge to get your note.
 
 T Restalaan, Captain of the Guard|QID|34508|M|44.86,90.49|N|To Restalaan, just inside the building.|
 A The Final Piece|QID|33976|PRE|34508|M|44.86,90.49|N|From Restalaan|
-K Vorpil Ribcleaver|QID|33976|M|44.6,90.8|QO|1|T|Vorpil Ribcleaver|
+K Vorpil Ribcleaver|ACTIVE|33976|M|44.6,90.8|QO|1|T|Vorpil Ribcleaver|
 l Auch'naaru|QID|33976|M|44.50,90.88|QO|2|N|Loot it.|
 T The Final Piece|QID|33976|M|44.86,90.49|N|To Restalaan|
 A Changing the Tide|QID|34326|PRE|33976|M|44.86,90.49|N|From Restalaan|
@@ -685,7 +692,7 @@ T Retribution for the Light|QID|35254|M|42.91,76.11|N|To Exarch Maladaar|
 T Into the Heart of Madness|QID|34157|M|31.21,73.60|N|To Soulbinder Nyami|
 A Destination: Unknown|QID|34154|PRE|34157|M|31.2,73.6|N|From Soulbinder Nyami|
 C Portal there|QID|34154|M|30.92,73.16|QO|1|N|Right click on the portal.|
-K Mongrethod|QID|34154|QO|2|T|Mongrethod|
+K Mongrethod|ACTIVE|34154|QO|2|T|Mongrethod|
 C Portal back|QID|34154|QO|3|N|Right click on the portal to get back.|
 T Destination: Unknown|QID|34154|M|46.32,74.09|N|To Soulbinder Tuulani|
 A Together We Are Strong|QID|36512|M|46.32,74.09|N|From Soulbinder Tuulani|
@@ -698,8 +705,8 @@ T Come Together|QID|34707|M|69.66,21.61|N|To Vindicator Icia|
 F Terokkar Refuge|QID|34709|N|To Skyguard Amelia|M|69.85,21.49|
 ; Lets get another follower!
 A Gatekeepers of Auchindoun|QID|34777|M|57.42,51.12|N|From Defender Illona|
-K Vindicator Dalu|QID|34777|QO|1|CHAT|N|Challenge him alone or with the other if you have artilletry strike.|
-K Soulbinder Halaari|QID|34777|QO|2|CHAT|N|Challenge him alone or with the other if you have artilletry strike.|
+K Vindicator Dalu|ACTIVE|34777|QO|1|CHAT|N|Challenge him alone or with the other if you have artilletry strike.|
+K Soulbinder Halaari|ACTIVE|34777|QO|2|CHAT|N|Challenge him alone or with the other if you have artilletry strike.|
 T Gatekeepers of Auchindoun|QID|34777|M|57.42,51.12|N|To Defender Illona|
 A The True Path|QID|36519|PRE|34777|M|57.42,51.12|N|From Defender Illona (to get her as a follower)|
 T The True Path|QID|36519|M|57.42,51.12|N|To Defender Illona|
