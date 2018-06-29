@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2018-06-29 20:37
+-- Who: Ludovicus_Maior
+-- Log: Added ACTIVE and AVAILIBLE tags to clean things up.
+
+-- URL: http://wow-pro.com/node/3602/revisions/29224/view
 -- Date: 2018-03-06 01:32
 -- Who: Ludovicus_EditBot
 -- Log: LVL corrections
@@ -189,8 +194,8 @@ N Bonus Objectives|QID|34653;36951|N|The bonus quests are not mentioned in this 
 N Jumping Games|QID|34653;36951|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle). They mostly reward archeology fragments. I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653;36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.|
 N Use of Rank Setting|QID|34653;36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|
-F Spires of Arak|QID|34653|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
-F Spires of Arak|QID|36951|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
+F Spires of Arak|ACTIVE|34653|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
+F Spires of Arak|ACTIVE|36951|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
 
 T Arakkoa Exodus|QID|36951;34653|M|37.89,18.02|N|To Azik.|
 A The Shadows of Skettis|QID|34655|M|37.89,18.02|N|From Azik.|
@@ -210,8 +215,8 @@ A Orders From On High|QID|34658|M|43.66,12.91|N|From Reshad.|PRE|34656;34657|
 C Orders From On High|QID|34658|M|45.80,15.28|T|Sun-Sage Rathyx|N|Kill Sun-Sage Rathyx and loot the orders.|
 T Orders From On High|QID|34658|M|45.38,18.25|N|To Reshad.|
 A The Crone|QID|34659|M|45.38,18.25|N|From Reshad.|PRE|34658|
-R Crow's Crook|QID|34659|M|50.66,28.59|N|Run South towards Crow's Crook.|
-f Crow's Crook|QID|34659|M|51.87,31.06|N|At Darkscreech.|
+R Crow's Crook|ACTIVE|34659|M|50.66,28.59|N|Run South towards Crow's Crook.|
+f Crow's Crook|ACTIVE|34659|M|51.87,31.06|N|At Darkscreech.|
 
 C The Crone|QID|34659|M|51.62,31.38|CHAT|N|Tell Ornekka the secret word.|
 T The Crone|QID|34659|M|51.62,31.38|N|To Ornekka.|
@@ -233,7 +238,7 @@ T Echo Hunters|QID|34805|M|48.59,44.48|N|To Reshad.|
 A A Gathering of Shadows|QID|35671|M|48.59,44.48|N|From Reshad.|PRE|35668;34805;34756|
 C A Gathering of Shadows|QID|35671|M|46.54,45.59|NC|N|Enter Veil Terokk.|
 T A Gathering of Shadows|QID|35671|M|46.51,45.60|N|To Shadow-Sage Iskar.|
-f Veil Terokk|QID|35272|M|46.18,44.13|N|At Skytalon Meshaal.|
+f Veil Terokk|ACTIVE|35272|M|46.18,44.13|N|At Skytalon Meshaal.|
 A One of Our Own|QID|35274|PRE|35671|M|45.89,46.36|N|From Jasper Fel.|FACTION|Alliance|
 A One of Our Own|QID|35272|M|45.90,46.35|N|From Shadow Hunter Ukambe.|FACTION|Horde|
 C One of Our Own|QID|35272;35274|CHAT|M|46.52,45.61|N|Talk to Iskar and get him to let your guy free.|
@@ -243,8 +248,8 @@ A Inspecting the Troops|QID|35276|M|45.89,46.37|N|From Jasper Fel.|FACTION|Allia
 A Inspecting the Troops|QID|35275|M|45.90,46.36|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35272|
 
 ;alliance
-R Southport|QID|35276|M|45.79,47.08;41.79,50.72;40.41,59.78|CS|N|Over to the coast.|FACTION|Alliance|
-f Southport|QID|35276|M|39.08,61.80|N|Ar Firn Swiftbreeze|FACTION|Alliance|
+R Southport|ACTIVE|35276|M|45.79,47.08;41.79,50.72;40.41,59.78|CS|N|Over to the coast.|FACTION|Alliance|
+f Southport|ACTIVE|35276|M|39.08,61.80|N|Ar Firn Swiftbreeze|FACTION|Alliance|
 T Inspecting the Troops|QID|35276|M|40.00,60.47|N|To Jasper Fel.|FACTION|Alliance|
 A Orders, Commander?|QID|35286|M|39.84,60.78|N|From Lieutenant Willem.|FACTION|Alliance|PRE|35276|
 C Orders, Commander?|QID|35286|M|39.70,60.84|NC|N|Pick your outpost.|FACTION|Alliance|
@@ -252,11 +257,11 @@ T Orders, Commander?|QID|35286|M|39.84,60.78|N|To Lieutenant Willem.|FACTION|All
 A Outpost specific quest|QID|37327;35699|M|39.84,60.78|N|The quest (and quest giver) is determined by which building you choose. It is from Lieutenant Willam (brewery) or Millie Osgood (smugglers den).|FACTION|Alliance|PRE|35286|
 ;A Peace Offering|QID|35699|N|From Millie Osgood.| -- smugglers den
 ;A Befriending the Locals|QID|37327|N|From Lieutenant Willem -- brewery
-h Southport|QID|35276|M|40.12,61.49|FACTION|Alliance|N|At Elria Willowfall.\nIf you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
+h Southport|ACTIVE|35699|M|40.12,61.49|FACTION|Alliance|N|At Elria Willowfall.\nIf you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
 A Old Friends|QID|35293|M|39.79,60.68|N|From Jasper Fel.|FACTION|Alliance|PRE|35286|RANK|2|
 ;horde
-R Axefall|QID|35275|M|40.06,44.04|N|On the other side of the mountain.|FACTION|Horde|
-f Axefall|QID|35275|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
+R Axefall|ACTIVE|35275|M|40.06,44.04|N|On the other side of the mountain.|FACTION|Horde|
+f Axefall|ACTIVE|35275|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
 T Inspecting the Troops|QID|35275|M|40.06,44.04|N|To Shadow Hunter Ukambe.|FACTION|Horde|
 A Orders, Commander?|QID|35277|M|40.19,43.46|N|From Taskmaster Gornek.|FACTION|Horde|PRE|35275|
 C Orders, Commander?|QID|35277|M|40.17,43.39|NC|N|Pick your outpost.|FACTION|Horde|
@@ -264,7 +269,7 @@ T Orders, Commander?|QID|35277|M|40.18,43.51|N|To Taskmaster Gornek.|FACTION|Hor
 A Outpost specific quest|QID|37326;35697|M|40.19,43.46|N|The quest (and quest giver) is determined by which building you choose. It is from Taskmaster Gornek (brewery) or Provisioner Galgar(smugglers den).|FACTION|Horde|PRE|35277|
 ;A Peace Offering|QID|35697|M|40.05,43.18|N|From Provisioner Galgar.|-- smugglers den
 ;A Befriending the Locals|QID|37326|N|From Taskmaster Gornek -- brewery
-h Axefall|QID|35275|M|40.41,42.99|FACTION|Horde|N|At Taz'jari. If you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
+h Axefall|ACTIVE|35697|M|40.41,42.99|FACTION|Horde|N|At Taz'jari. If you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
 A What's Theirs is Ours|QID|35295|M|40.27,43.37|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35277|RANK|2|
 
 A Return to Veil Terokk|QID|35611|M|40.09,43.98|N|From Percy. Loot the Basket of Arakkoa Goods under him for some loot.|PRE|35277+35286|RANK|2|FACTION|Horde|
@@ -303,14 +308,14 @@ C Admiral Taylor|QID|35482;36183|M|36.83,57.30|N|Wait for a short scene, then ki
 T Admiral Taylor|QID|35482;36183|M|36.82,56.92|N|To Admiral Taylor.|RANK|2|
 A Honoring a Hero|QID|35549|M|36.8,56.8|N|From Jasper Fel.|FACTION|Alliance|PRE|35482|RANK|2|
 A Surviving in a Savage Land|QID|35550|M|36.86,56.74|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|36183|RANK|2|
-H Southport|QID|35549|M|36.8,56.8|FACTION|Alliance|PRE|35482|RANK|2|
-H Axefall|QID|35550|M|36.86,56.74|FACTION|Horde|PRE|36183|RANK|2|
+H Southport|ACTIVE|35549|M|36.8,56.8|FACTION|Alliance|PRE|35482|RANK|2|
+H Axefall|ACTIVE|35550|M|36.86,56.74|FACTION|Horde|PRE|36183|RANK|2|
 T Honoring a Hero|QID|35549|M|39.88,60.85|N|To Lieutenant Willem.|FACTION|Alliance|RANK|2|
 A For Old Times' Sake|QID|36353|M|39.98,60.65|N|To/From Admiral Taylor who wants to come join your garrison forces.|FACTION|Alliance|RANK|2|
 T Surviving in a Savage Land|QID|35550|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|RANK|2|
 
-F Veil Terokk|QID|37296|M|39.78,61.87;39.08,61.79|CS|N|At Firn Swiftbreeze.|FACTION|Alliance|
-F Veil Terokk|QID|37296|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
+F Veil Terokk|AVAILIBLE|37296|M|39.78,61.87;39.08,61.79|CS|N|At Firn Swiftbreeze.|FACTION|Alliance|
+F Veil Terokk|AVAILIBLE|37296|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
 t Befriending the Locals|QID|37326;37327|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
 C Peace Offering|QID|35697;35699|M|43.90,48.90|CHAT|N|Offer a peace offering to Shadow-Sage Iksar.|
 t Peace Offering|QID|35697;35699|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
@@ -353,7 +358,7 @@ T New Neighbors|QID|34829|M|48.02,34.75|N|To Talonpriest Ishaal.|RANK|2|
 T Ishaal's Orb|QID|34828|M|48.02,34.75|N|To Talonpriest Ishaal.|RANK|2|
 A Behind the Veil|QID|34830|M|48.02,34.75|N|From Talonpriest Ishaal.|PRE|34828|RANK|2|
 
-R Veil Akraz|QID|34830|M|44.73,26.98|RANK|2|
+R Veil Akraz|ACTIVE|34830|M|44.73,26.98|RANK|2|
 C Behind the Veil|QID|34830|NC|U|112099|M|44.54,23.73|N|Stand on the porch steps and drink the elixer.|RANK|2|
 T Behind the Veil|QID|34830|M|44.48,24.02|N|To Talonpriest Zellek.|RANK|2|
 A Blades in the Dark|QID|34882|M|44.48,24.02|N|From Talonpriest Zellek.|PRE|34830|RANK|2|
@@ -364,13 +369,13 @@ C A Feast of Shadows|QID|34883|M|43.46,23.37|US|RANK|2|N|Finish looting Shadow D
 T Blades in the Dark|QID|34882|M|44.48,24.01|N|To Talonpriest Zellek.|RANK|2|
 T A Feast of Shadows|QID|34883|M|44.48,24.01|N|To Talonpriest Zellek.|RANK|2|
 A Back from Beyond|QID|34942|M|44.48,24.01|N|From Talonpriest Zellek.|PRE|34882;34883|RANK|2|
-A Power Unearthed|QID|35257|M|44.40,23.99|N|From Darkscryer Raastok.|RANK|2|
+A Power Unearthed|QID|35257|M|44.40,23.99|N|From Darkscryer Raastok.|RANK|2|LEADIN|35260|
 
-R Apexis Excavation|QID|35257|M|36.99,24.63|RANK|2|
-f Apexis Excavation|QID|35257|M|36.99,24.63|N|At Skytalon Kuris.|RANK|2|
+R Apexis Excavation|ACTIVE|35257|M|36.99,24.63|RANK|2|
+f Apexis Excavation|ACTIVE|35257|M|36.99,24.63|N|At Skytalon Kuris.|RANK|2|
 A Sol Sisters|QID|35259|PRE|35611|M|36.95,24.45|N|From Kura the Blind.|RANK|2|
 T Power Unearthed|QID|35257|M|36.85,24.54|N|To Darkscryer Raastok.|RANK|2|
-A Hardly Working|QID|35260|M|36.85,24.54|N|From Darkscryer Raastok.|PRE|35257|RANK|2|
+A Hardly Working|QID|35260|M|36.85,24.54|N|From Darkscryer Raastok.|RANK|2|
 A Legacy of the Apexis|QID|35258|M|36.85,24.54|N|From Darkscryer Raastok.|RANK|2|
 C Legacy of the Apexis|QID|35258|S|M|35.34,25.86|N|The excavation has 3 levels, ground, midway up where the first Sol Sister is located, and the top where the other sol sister is and the final two quests take place.|RANK|2|
 C Hardly Working|QID|35260|U|113084|NC|S|M|33.51,25.39|N|The outcasts you are freeing and the apexis guardians exist on all three levels. Visit the cave at ground level first!|RANK|2|
@@ -388,19 +393,19 @@ T Hot Seat|QID|35273|M|36.95,24.44|N|To Kura the Blind.|RANK|2|
 T Legacy of the Apexis|QID|35258|M|36.85,24.52|N|To Darkscryer Raastok.|RANK|2|
 A Control is King|QID|35634|M|36.83,24.53|N|From Darkscryer Raastok.|PRE|35273;35258|RANK|2|
 T Hardly Working|QID|35260|M|36.85,24.52|N|To Darkscryer Raastok.|RANK|2|
-H Southport|QID|37329;37331|M|36.99,24.63|N|If you hearthstone isnt up or you didn't choose to set it to Southport, you can fly at Skytalon Kuris.|FACTION|Alliance|RANK|2|
-H Axefall|QID|37328;37330|M|36.99,24.63|N|If you hearthstone isnt up or you didn't choose to set it to Axefall, you can fly at Skytalon Kuris.|FACTION|Horde|RANK|2|
+H Southport|ACTIVE|37329;37331|M|36.99,24.63|N|If you hearthstone isnt up or you didn't choose to set it to Southport, you can fly at Skytalon Kuris.|FACTION|Alliance|RANK|2|
+H Axefall|ACTIVE|37328;37330|M|36.99,24.63|N|If you hearthstone isnt up or you didn't choose to set it to Axefall, you can fly at Skytalon Kuris.|FACTION|Horde|RANK|2|
 
 ;alliance
 T Not Here, Not Now|QID|37329;37331|M|39.89,60.84|N|To Lieutenant Willem.|FACTION|Alliance|
-A Attempted Murder|QID|35915|M|39.65,60.85|N|From Hulda Shadowblade.|PRE|37329|FACTION|Alliance|
-A The Tinkertoss Twins|QID|35713|M|39.51,61.33|N|From Milly Osgood.|PRE|37329|FACTION|Alliance|
+A Attempted Murder|QID|35915|M|39.65,60.85|N|From Hulda Shadowblade.|PRE|37329+37331|FACTION|Alliance|
+A The Tinkertoss Twins|QID|35713|M|39.51,61.33|N|From Milly Osgood.|PRE|37329+37331||FACTION|Alliance|
 A Wanted: Keeho's Severed Paw|QID|35674|M|39.46,61.66|N|From Wanted Poster inside the building.|FACTION|Alliance|PRE|35286|RANK|3|
 A Wanted: Spineslicer's Husk|QID|35675|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|RANK|3|
 F Veil Terokk|QID|35634|M|39.07,61.80|N|At Firn Swiftbreeze.|FACTION|Alliance|RANK|2|
 ;horde
 T Not Here, Not Now|QID|37328;37330|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
-A Attempted Murder|QID|35907|M|40.09,43.28|N|From Dark Ranger Velonara.|PRE|37328|FACTION|Horde|
+A Attempted Murder|QID|35907|M|40.09,43.28|N|From Dark Ranger Velonara.|PRE|37328;37330|FACTION|Horde|
 A Best Deals Anywhere|QID|35705|M|40.06,43.19|N|From Provisioner Galgar.|PRE|37328;35550|FACTION|Horde|
 A Wanted: Keeho's Severed Paw|QID|35669|M|40.11,43.05|N|From Wanted Poster inside the building.|FACTION|Horde|PRE|35277|RANK|3|
 A Wanted: Spineslicer's Husk|QID|35670|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|RANK|3|
@@ -417,9 +422,9 @@ C The Talon King|QID|35734|M|46.48,46.66|CC|CHAT|N|Talk to him to start this pha
 C The Talon King|QID|35734|M|45.99,66.27|N|Use the Talon King's abilities (1) to wipe them all out.|RANK|2|
 T The Talon King|QID|35734|M|46.48,46.66|N|To Reshad.|RANK|2|
 A Ikky|QID|34898|M|46.19,45.69|N|Talk to Ikky to acquire him as a battle pet.|PRE|34886|RANK|2|
-F Talon Watch|QID|34998|M|46.18,44.13|CC|CHAT|N|Chat with Skytalon Meshaa for a flight to a new area, Talon Watch. (Chat Option, not a flight path).|RANK|2|
+F Talon Watch|ACTIVE|34998|M|46.18,44.13|CC|CHAT|N|Chat with Skytalon Meshaa for a flight to a new area, Talon Watch. (Chat Option, not a flight path).|RANK|2|
 
-f Talon Watch|QID|34998|M|61.90,42.62|N|At Skytalon Karaz.|RANK|2|
+f Talon Watch|ACTIVE|34998|M|61.90,42.62|N|At Skytalon Karaz.|RANK|2|
 A Hatred Undying|QID|34999|PRE|34998|M|61.90,42.23|N|From Kazu.|RANK|2|
 T Talon Watch|QID|34998|M|62.23,42.68|N|To Talon Guard Kurekk.|RANK|2|
 A Banished From the Sky|QID|35000|M|62.23,42.68|N|From Talon Guard Kurekk.|PRE|34998|RANK|2|
@@ -456,7 +461,7 @@ T Lithic's Gift|QID|35013|M|60.45,38.73|N|To Memory of Lithic.|RANK|2|
 A A Sentimental Relic|QID|35245|M|60.45,38.73|N|From Memory of Lithic.|PRE|35013|RANK|2|
 
 T Sethe, the Dead God|QID|35012|M|60.41,39.02|N|To Anzu.|RANK|2|
-F Veil Terokk|QID|35245|M|61.90,42.63|N|At Skytalon Karaz.|RANK|2|
+F Veil Terokk|ACTIVE|35245|M|61.90,42.63|N|At Skytalon Karaz.|RANK|2|
 
 T A Sentimental Relic|QID|35245|M|46.50,46.66|N|To Reshad.|RANK|2|
 A The Missing Piece|QID|35897|M|46.50,46.66|N|From Reshad.|PRE|35734|RANK|2|
@@ -508,7 +513,7 @@ C Wanted: Spineslicer's Husk|QID|35675;35670|M|53.28,69.40|RANK|3|N|Kill and loo
 A Leorajh, the Enlightened|QID|37168|M|54.82,68.53;55.68,65.34;54.97,65.53;54.2,62.91|CS|RANK|3|N|You will probably have to kill up to 10 extra mobs to get this follower.  But, he does grant you access to your mission table anywhere on Draenor if you use him as your bodyguard. Start by running up the rocks beside Leorajh's Den and follow the path up to the Apexis Chamber. Inside othe chamber you will find Leorajh.|
 C Wanted: Keeho's Severed Paw|QID|35674;35669|M|50.23,78.38|N|This is as good as time as any to detour over and get this last wanted poster quest done. You can also do the bonus objective quest if you want.|RANK|3|
 
-R Nest of the Ravenspeakers|QID|34938|M|52.12,49.91|RANK|2|
+R Nest of the Ravenspeakers|ACTIVE|34938|M|52.12,49.91|RANK|2|
 T The Egg Thieves|QID|34924|M|52.09,49.41|N|To Vakora of the Flock.|RANK|2|
 T The Initiate's Revenge|QID|36790|M|52.09,49.41|N|To Vakora of the Flock.|RANK|2|
 T Ralshiara's Demise|QID|34938|M|52.12,49.91|N|To High Ravenspeaker Krikka.|RANK|2|
@@ -529,7 +534,7 @@ T When All Is Aligned|QID|35704|M|46.49,46.67|N|To Reshad.|RANK|2|
 A Victory is Within Reach|QID|36316|M|46.49,46.67|N|From Reshad. This is a dungeon quest.|PRE|35704|RANK|2|
 
 ;alliance-brewery
-H Southport|QID|35915|ACTIVE|35915|M|46.49,46.67|FACTION|Alliance|RANK|2|N|If your hearthstone is unavailable/not set to Southport, the closest flight point is in Veil Terok at Skytalon Meshaal.|
+H Southport|ACTIVE|35915|M|46.49,46.67|FACTION|Alliance|RANK|2|N|If your hearthstone is unavailable/not set to Southport, the closest flight point is in Veil Terok at Skytalon Meshaal.|
 A Wanted: Venombarb|QID|35676|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|RANK|3|
 T Wanted: Keeho's Severed Paw|QID|35674|M|39.89,60.85|N|To Lieutenant Willem.|FACTION|Alliance|RANK|3|
 T Wanted: Spineslicer's Husk|QID|35675|M|39.35,59.81|N|To Quartermaster Jolie.|FACTION|Alliance|RANK|3|
@@ -554,7 +559,7 @@ C We Have Him Now|QID|36048|M|58.15,33.3|QO|2|US|FACTION|Alliance|
 T We Have Him Now|QID|36048|M|57.14,34.49|N|To Hulda Shadowblade.|FACTION|Alliance|
 A No Time to Waste|QID|36165|M|57.14,34.49|PRE|36048|N|From Hulda Shadowblade.|FACTION|Alliance|
 ;horde-brewery
-H Axefall|QID|35907|ACTIVE|35907|M|46.53,46.80|FACTION|Horde|RANK|2|
+H Axefall|ACTIVE|35907|M|46.53,46.80|FACTION|Horde|RANK|2|
 A Wanted: Venombarb|QID|35672|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|RANK|3|
 T Wanted: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|RANK|3|
 T Wanted: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|RANK|3|
@@ -580,7 +585,7 @@ T We Have Him Now|QID|36047|M|57.14,34.49|N|To Dark Ranger Velonara.|FACTION|Hor
 A No Time to Waste|QID|36166|M|57.14,34.49|PRE|36047|N|From Dark Ranger Velonara.|FACTION|Horde|
 
 ;alliance-smugglers building
-R Murkbog|QID|35713|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer. |ACTIVE|35713|FACTION|Alliance|
+R Murkbog|ACTIVE|35713|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer. |FACTION|Alliance|
 T The Tinkertoss Twins|QID|35713|M|56.21,42.49|N|To Filbert Tinkertoss.|FACTION|Alliance|
 A Sticky Situation|QID|35716|M|56.21,42.49|PRE|35713|N|From Filbert Tinkertoss.|FACTION|Alliance|
 A Safety Measures|QID|35878|M|56.21,42.49|PRE|35713|N|From Filbert Tinkertoss.|FACTION|Alliance|
@@ -602,7 +607,7 @@ A The Ebon Hunter|QID|35835|M|60.20,53.15|PRE|35739;35782|N|From Dilbert Tinkert
 C The Ebon Hunter|QID|35835|M|65.09,61.46|T|The Ebon Hunter|FACTION|Alliance|
 T The Ebon Hunter|QID|35835|M|60.08,53.64|N|To Dilbert Tinkertoss.|FACTION|Alliance|
 ;horde-smugglers building
-R Murkbog|QID|35705|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer. |ACTIVE|35705|FACTION|Horde|
+R Murkbog|ACTIVE|35705|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer. |FACTION|Horde|
 T Best Deals Anywhere|QID|35705|M|56.02,40.88|N|To Mixxy Weldblast.|FACTION|Horde|
 A Safety Measures|QID|35879|M|56.02,40.88|PRE|35705|N|From Mixxy Weldblast.|FACTION|Horde|
 A Sticky Situation|QID|35706|M|56.02,40.91|PRE|35705|N|From Mixxy Weldblast.|FACTION|Horde|
@@ -624,12 +629,12 @@ A The Ebon Hunter|QID|35797|M|60.20,53.15|PRE|35738;35766|N|From Trixxy Weldblas
 C The Ebon Hunter|QID|35797|M|65.09,61.46|T|The Ebon Hunter|FACTION|Horde|
 T The Ebon Hunter|QID|35797|M|60.08,53.64|N|To Trixxy Weldblast.|FACTION|Horde|
 
-R The Howling Crag|QID|35676;35672|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are NOT taking the provided ride and instead we are going to take a side trip for our traveling convenience. Go North and somewhat east.|ACTIVE|36165;36166|
-R The Howling Crag|QID|35676;35672|RANK|3|M|61,18|N|Its a bit of a run but this is as close as we get to this area in the guide, Go North and somewhat east.|PRE|35835;35797|;not actually a prereq, but I only want the step to show if you finished one of those quests
+R The Howling Crag|ACTIVE|35676;35672|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are NOT taking the provided ride and instead we are going to take a side trip for our traveling convenience. Go North and somewhat east.|ACTIVE|36165;36166|
+R The Howling Crag|ACTIVE|35676;35672|RANK|3|M|61,18|N|Its a bit of a run but this is as close as we get to this area in the guide, Go North and somewhat east.|PRE|35835;35797|;not actually a prereq, but I only want the step to show if you finished one of those quests
 C Wanted: Venombarb|QID|35676;35672|M|61.11,19.05|RANK|3|N|Kill and loot Venombarb.|
 
 ;alliance
-H Southport|QID|35619|ACTIVE|35676;36165|FACTION|Alliance|
+H Southport|AVAILABLE|35619|ACTIVE|35676;36165|FACTION|Alliance|
 A Pinchwhistle Gearworks|QID|35619|PRE|35286|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here...or go back to your garrison if you prefer).|FACTION|Alliance|LVL|96|
 C No Time to Waste|QID|36165|M|39.66,60.86|CHAT|FACTION|Alliance|
 T No Time to Waste|QID|36165|M|39.66,61.86|N|To Kolrigg Stokton.|FACTION|Alliance|
@@ -640,7 +645,7 @@ T Cleaning House|QID|37287|M|39.51,61.68|N|To Kolrigg Stokton.|FACTION|Alliance|
 T Wanted: Venombarb|QID|35676|M|39.24,62.86|N|To Falrogh the Drunk.|FACTION|Alliance|RANK|3|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|CHAT|N|Talk to Firn Swiftbreeze for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
 ;horde
-H Axefall|QID|35620|ACTIVE|35672;36166|FACTION|Horde|
+H Axefall|AVAILABLE|35620|ACTIVE|35672;36166|FACTION|Horde|
 C No Time to Waste|QID|36166|M|40.11,43.28|CHAT|FACTION|Horde|
 T No Time to Waste|QID|36166|M|40.11,43.28|N|To Lunzul.|FACTION|Horde|
 A Standing United|QID|37276|M|40.04,43.33|PRE|36166|N|To/From Dark Ranger Velonara to accept her as a follower.|FACTION|Horde|
@@ -652,7 +657,7 @@ T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Hord
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
 ; ;36861;36862 The Garrison Versions of [Pinchwhistle Gearworks]
-f Pinchwhistle Gearworks|QID|35619;35620;36861;36862|M|60.88,73.31|N|At Kwiven Quickcog.|
+f Pinchwhistle Gearworks|ACTIVE|35619;35620;36861;36862|M|60.88,73.31|N|At Kwiven Quickcog.|
 T Pinchwhistle Gearworks|QID|35619;35620;36861;36862|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
 A Defungination|QID|35077|M|61.47,72.94|N|From Kimzee Pinchwhistle.|
 A Spore-be-Gone|QID|35079|M|61.46,72.96|N|From Engineer Gazwitz.|
@@ -706,13 +711,13 @@ C Flame On|QID|35298|M|58.88,92.84|QO|2|NC|N|Hop in Kimzee's flying machine.|
 T Flame On|QID|35298|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
 A Kimzee Pinchwhistle|QID|36062|M|61.47,72.94|N|To/From Kimzee Pinchwhistle.|PRE|35298|
 
-H Southport|QID|35674|M|61.47,72.94|N|Back to Southport.|FACTION|Alliance|
+H Southport|AVAILABLE|36606;36601|M|61.47,72.94|N|Back to Southport.|FACTION|Alliance|
 A News from Nagrand|QID|36606;36601|M|39.89,60.85|N|From Lieutenant Willem.|LVL|96|FACTION|Alliance|
-F Veil Terokk|QID|37141|M|39.09,61.81|N|To Firn Swiftbreeze.|FACTION|Alliance|RANK|2|
+F Veil Terokk|AVAILABLE|37141|M|39.09,61.81|N|To Firn Swiftbreeze.|FACTION|Alliance|RANK|2|
 
-H Axefall|QID|35669|M|61.47,72.94|N|Back to Axefall.|FACTION|Horde|
+H Axefall|AVAILABLE|36607;36602|M|61.47,72.94|N|Back to Axefall.|FACTION|Horde|
 A News from Nagrand|QID|36607;36602|M|40.18,43.51|N|From Taskmaster Gornek.|LVL|96|FACTION|Horde|
-F Veil Terokk|QID|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|2|
+F Veil Terokk|AVAILABLE|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|2|
 
 A Talonpriest Ishaal|QID|37141|M|46.53,46.80|N|To Talonpriest Ishaal, yet another follower for you. If you make him your bodyguard you will have access to mail wherever you are in Draenor.|RANK|2|
 D Your Garrison|QID|36606;36607|U|110560|M|40.18,43.5|N|This ends Spires of Arak.  Nagrand is the final leveling zone quide and it should load after you check off this step.|
