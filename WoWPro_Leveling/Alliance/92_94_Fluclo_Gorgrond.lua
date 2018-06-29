@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2018-06-29 19:50
+-- Who: Ludovicus_Maior
+-- Log: PRE and ACTIVE review
+
+-- URL: http://wow-pro.com/node/3613/revisions/29363/view
 -- Date: 2018-06-22 11:26
 -- Who: Ludovicus_Maior
 -- Log: Add missing ACTIVE tag to [A Great Escape]
@@ -175,7 +180,7 @@ C He Drew Aggro...culture |QID|36595|N|Free Thaelin Darkanvil from the Aggressiv
 T He Drew Aggro...culture |QID|36595|N|To Thaelin Darkanvil, who has moved to the road.|M|63.18,52.41|
 
 A Lost Mole Machines |QID|35055|PRE|36595|N|From Thaelin Darkanvil|M|63.18,52.41|
-A Rescue Rangari |QID|35050|N|From Rangari D'kaan|M|63.21,52.26|
+A Rescue Rangari |QID|35050|N|From Rangari D'kaan|M|63.21,52.26|PRE|36595|
 
 C Rescue Rangari |QID|35050|N|Find Rangari Kolaan, down the path on the left. Watch out for the Elite!|M|59.45,53.18|QO|1|CHAT|
 C Rescue Rangari |QID|35050|N|Find Rangari Rajess, further down the path, on the right.|M|57.71,54.29|QO|2|CHAT|
@@ -192,10 +197,10 @@ C We Need An Outpost |QID|35063|N|Use the Drafting Table and select one of the b
 h Highpass |QID|35063|N|Set your hearthstone with Trader Yula|M|53.23,59.79|
 T We Need An Outpost |QID|35063|N|To Thaelin Darkanvil who has moved further into the Highpass.|M|53.00,59.78|
 
-A Next Quest |QID|35708;34704|N|If you built a Lumber Yard, get Tangleheart from Glirin.\nIf you built a Sparring Ring, get A Rediscovered Legend from Rangari Jonaa|M|53.06,59.51;53.02,59.81|CN|
+A Next Quest |QID|35708;34704|PRE|35063|N|If you built a Lumber Yard, get Tangleheart from Glirin.\nIf you built a Sparring Ring, get A Rediscovered Legend from Rangari Jonaa|M|53.06,59.51;53.02,59.81|CN|
 
 ;The following quests are if you selected Lumber Yard
-f Highpass |QID|35708|N|With Rangari Rajess|M|52.83,59.33|ACTIVE|35708|
+f Highpass |ACTIVE|35708|N|With Rangari Rajess|M|52.83,59.33|
 A Deeproot |QID|35212|PRE|35063;35049|N|From Thaelin Darkanvil|M|53.00,59.78|ACTIVE|35708|
 T Tangleheart |QID|35708|N|To Glirin, who has moved to Tangleheart|M|55.93,71.54|
 A Growing Wood |QID|35652|N|From Glirin|M|55.93,71.54|PRE|35708|
@@ -218,13 +223,13 @@ T Chapter I: Plant Food |QID|35654|N|To Glirin|M|60.71,64.78|
 T Chapter II: The Harvest |QID|35651|N|To Glirin|M|60.71,64.78|
 T Chapter III: Ritual of the Charred |QID|35650|N|To Glirin|M|60.71,64.78|
 
-R Highpass |QID|36828|N|Click on the Dark Iron Mole Machine to return to Highpass Logging Camp.|M|60.70,64.82|PRE|35654;35650;36797;35651;35652|
+R Highpass |AVAILABLE|36828|N|Click on the Dark Iron Mole Machine to return to Highpass Logging Camp.|M|60.70,64.82|PRE|35654;35650;36797;35651;35652|
 A Lumber, I Hardly Knew 'Er |QID|36828|N|From Glirin, back in Highpass.|PRE|35654;35650;36797;35651;35652|M|53.02,59.81|
 
 T Deeproot |QID|35212|N|To Thaelin Darkanvi, who is now in Deeproot.|M|46.08,76.86|
 A The Razorbloom|QID|35213|N|From Thaelin Darkanvi, who is now in Deeproot.|M|46.08,76.86|PRE|35212|
 A The Infested|QID|35214|N|From Rangari Kaalya|M|46.12,76.66|PRE|35213|
-f Deeproot|QID|35213|N|From Rangari Nogo|M|46.46,76.60|ACTIVE|35213|
+f Deeproot|ACTIVE|35213|N|From Rangari Nogo|M|46.46,76.60|
 
 C The Infested|QID|35214|N|Kill the Infested Orcs|S|
 C The Razorbloom|QID|35213|N|Inspect the corpse of Lera Ashtoes|QO|1|NC|M|47.38,73.41|
@@ -295,13 +300,13 @@ T Iyu |QID|35235|N|To Yrel, who is now in Bastion Rise.|M|47.71,93.30|
 
 A Power of the Genesaur |QID|35255|N|From Yrel|PRE|35235|M|47.71,93.30|
 A Service of Rangari Kaalya|QID|35262|N|From Rangari Kaalya|PRE|35235;36797|M|47.78,93.27|
-f Bastion Rise|QID|35255|N|At Ranger Yaval down under the ledge.|M|46.40,92.41|PRE|35235|
-H Highpass |QID|35255|N|Hearthstone to Highpass, or fly there if you didn't set your hearthstone.|ACTIVE|35255|
+f Bastion Rise|ACTIVE|35255|N|At Ranger Yaval down under the ledge.|M|46.40,92.41|
+H Highpass |ACTIVE|35255|N|Hearthstone to Highpass, or fly there if you didn't set your hearthstone.|
 T Power of the Genesaur |QID|35255|N|To Vindicator Maraad|M|52.85,59.68|
 
 ;The following quests are if you selected Gladiator Sanctum
 A Rage and Wisdom |QID|35686|PRE|35063;35064|N|From Vindicator Maraad|M|52.85,59.68|ACTIVE|34704|
-f Highpass |QID|35686|N|With Rangari Rajess|M|52.81,59.35|ACTIVE|34704|
+f Highpass |ACTIVE|35686|N|With Rangari Rajess|M|52.81,59.35|
 C Rage and Wisdom |QID|35686|N|Ask Rangari Rajess to fly you to Rangari Erdanii|NC|M|52.82,59.32|
 T Rage and Wisdom |QID|35686|N|To Rangari Erdanii|M|46.26,66.70|
 
@@ -340,12 +345,12 @@ C Krav'ogra |QID|34702|N|Head into the arena, ring the Challenge Gong, slay Kigl
 C Getting Gladiators |QID|34699|N|Free Y'kish by clicking the shackle on the door.|QO|2|M|39.76,67.81|NC|
 C Getting Gladiators |QID|34699|N|head to the back of the hut, and Free Pitfighter Vaandaam by clicking the shackle on the wall.|QO|1|M|39.16,67.22|NC|
 C Slave Hunters |QID|34698|N|Head to the middle level, slay Slave Hunter Mol, and loot the Pendant of Mol|QO|3|T|Slave Hunter Mol|M|38.98,68.77|
-R Kor'gall's Hovel |QID|34700|N|Head into Kor'gall's Hovel|ACTIVE|34700|
+R Kor'gall's Hovel |ACTIVE|34700|N|Head into Kor'gall's Hovel|
 C Nazgrel |QID|34700|N|Follow the path down, then take the second tunnel to the left, then rescue Nazgrel from the cage.|NC|M|36.84,70.57|
 
 T Getting Gladiators |QID|34699|N|To Bruto|M|36.85,67.91|
 A The Axe of Kor'gall|QID|34703|N|From Bruto|M|36.85,67.91|PRE|34699|
-R Throne of Stonemaul|QID|34703|N|Break down the Ogre Barricade, then head to the Throne of Stonemaul.|ACTIVE|34703|
+R Throne of Stonemaul|ACTIVE|34703|N|Break down the Ogre Barricade, then head to the Throne of Stonemaul.|
 C The Axe of Kor'gall|QID|34703|N|Kill Kor'gall and loot his axe, Serathil.|M|36.77,68.06|
 C Need More Teeth|QID|34012|N|Finish killing and looting the Stonemaul Guards|US|
 T Need More Teeth|QID|34012|N|To Prowler Sasha|M|41.43,66.09|
@@ -438,8 +443,8 @@ C Strike While the Iron is Hot |QID|36575|N|Speak to Rangari Rajess to fly to th
 C Strike While the Iron is Hot |QID|36576|N|Speak to Rangari Rajess to fly to the Iron Docks.|CHAT|QO|1|M|52.83,59.33|
 
 C Strike While the Iron is Hot |QID|36575;36576|N|Follow through the instance steps.\n\n1. Speak to Yrel\n2. Use the Artifact\n3. Survive the onslaught (Use the artifact when it is off cooldown)\n4. Kill Goc\n5. Kill Commander Gar.|QO|2|
-f Iron Docks|QID|36575;36576|N|With Nisha|M|43.03,20.22|ACTIVE|36575;36576|
-F Highpass |QID|36575;36576|N|Fly to Highpass.|M|43.03,20.22|ACTIVE|36575;36576|
+f Iron Docks|N|With Nisha|M|43.03,20.22|ACTIVE|36575;36576|
+F Highpass |N|Fly to Highpass.|M|43.03,20.22|ACTIVE|36575;36576|
 T Strike While the Iron is Hot |QID|36575;36576|N|To Vindicator Maraad|M|52.85,59.68|
 
 A Rangari in the Red |QID|35666|LEAD|35633|PRE|35063|N|From Rangari D'kaan|M|53.32,59.89|
@@ -485,11 +490,10 @@ H Highpass |QID|35659|N|Hearthstone to Highpass, or run there if you didn't set 
 T Heart of the Fen |QID|35659|N|To Rangari D'kaan|M|53.32,59.89|
 
 A Seeking the Scout |QID|36432|LEAD|36437|PRE|35063|N|From Rangari D'kaan|M|53.32,59.89|
-
 A News from Talador |QID|36495|LEAD|37183|PRE|36576|N|From Vindicator Maraad, to get to Talador later.|M|52.85,59.68|
 
-R Cragplume Cauldron|QID|36432|N|Head up the Cragplume Cauldron|ACTIVE|36432|M|50.70,57.02|
-f Breaker's Crown |QID|36432|N|With Nisha|M|45.84,54.95|PRE|35212|
+R Cragplume Cauldron|ACTIVE|36432|N|Head up the Cragplume Cauldron|M|50.70,57.02|
+f Breaker's Crown |ACTIVE|36432|N|With Nisha|M|45.84,54.95|
 l Unknown Petrified Egg|M|47.23,51.80|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|36432|PRE|35212|RANK|3|
 T Seeking the Scout |QID|36432|N|To Altauur|M|49.39,49.64|
 
@@ -503,7 +507,7 @@ T Ambassador to the Ancient |QID|36437|N|To Altauur, who has moved to a cave in 
 T Plant Pruning |QID|36436|N|To Altauur|M|51.31,47.97|
 
 A Shredder vs. Saberon |QID|36439|N|From Altauur|M|51.31,47.97|PRE|36436;35049;36437|
-R Steamscar Rise|QID|36439|N|Head to Steamscar Rise|M|52.29,46.52|ACTIVE|36439|
+R Steamscar Rise|ACTIVE|36439|N|Head to Steamscar Rise|M|52.29,46.52|
 C Shredder vs. Saberon |QID|36439|N|Head up the path, break the Strong Vine Barricade, then walk in.|NC|M|52.22,48.66|
 T Shredder vs. Saberon |QID|36439|N|To Altauur, who is moving into Steamscar Rise after you broke in.|M|52.04,49.50|PRE|36436;35708|
 
@@ -539,7 +543,7 @@ A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Val
 C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|Z|Shadowmoon Valley@Draenor|
 C Bounty: Twisted Ancient|QID|33111|N|Kill and loot the Twisted Ancient for the Corrupted Lumber. This is flagged as a 3-party group quest.|RANK|2|M|26.15,17.50|Z|Shadowmoon Valley@Draenor|
 
-R Watcher's Den|QID|33062|ACTIVE|33062|N|Head down the road to the Watcher's Den.|M|25.44,19.30;22.87,16.86|CS|Z|Shadowmoon Valley@Draenor|
+R Watcher's Den|ACTIVE|33062|N|Head down the road to the Watcher's Den.|M|25.44,19.30;22.87,16.86|CS|Z|Shadowmoon Valley@Draenor|
 C Catching His Eye|QID|33062|N|Capture the All-Seeing Eye (bring his health down to 1%)|Z|Shadowmoon Valley@Draenor|
 T Catching His Eye|QID|33062|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 
