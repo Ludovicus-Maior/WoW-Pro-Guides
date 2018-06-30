@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2018-06-30 05:03
+-- Who: Emmaleah
+-- Log: Add turning in News from Spires of Arak and Picking up Arakkoa Exodus in the garrison, since it wasnt in the alliance Talador guide,  Added Horde steps also incase you didnt do the Talador guide.  
+
+-- URL: http://wow-pro.com/node/3602/revisions/29377/view
 -- Date: 2018-06-29 20:37
 -- Who: Ludovicus_Maior
 -- Log: Added ACTIVE and AVAILIBLE tags to clean things up.
@@ -194,7 +199,15 @@ N Bonus Objectives|QID|34653;36951|N|The bonus quests are not mentioned in this 
 N Jumping Games|QID|34653;36951|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle). They mostly reward archeology fragments. I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653;36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.|
 N Use of Rank Setting|QID|34653;36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|
+
+T News from Spires of Arak|QID|35554|M|37.8,36.8|Z|Lunarfall|FACTION|Alliance|N|To Broderik Grey.|
+A Arakkoa Exodus|QID|34653|PRE|35554|M|37.8,36.8|Z|Lunarfall|FACTION|Alliance|N|To Broderik Grey.|
+A Hero's Call: Spires of Arak!|QID|49556|M|43,54|Z|Lunarfall|FACTION|Alliance|N|From Hero's Call board|LEAD|34653|;guess for coordinates - please update
 F Spires of Arak|ACTIVE|34653|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
+
+T News from Spires of Arak|QID|35537|M|45.93,42.86|Z|Frostwall|N|To Rokhan.|FACTION|Horde|
+A Arakkoa Exodus|QID|34653|PRE|35537|M|45.93,42.86|Z|Frostwall|N|From Rokhan.|LEAD|34655|FACTION|Horde|
+A Warchief's Command:Spires of Arak!|QID|49548|LEAD|34653|M|48,40|Z|Frostwall|N|From Warchief's Command Board.|FACTION|Horde|;guess for coordinates - please update
 F Spires of Arak|ACTIVE|36951|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
 
 T Arakkoa Exodus|QID|36951;34653|M|37.89,18.02|N|To Azik.|
