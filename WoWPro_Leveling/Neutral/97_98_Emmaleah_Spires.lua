@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2018-06-30 21:38
+-- Who: Ludovicus_Maior
+-- Log: Experiment with [Not Here, Not Now]x4
+
+-- URL: http://wow-pro.com/node/3602/revisions/29379/view
 -- Date: 2018-06-30 05:03
 -- Who: Emmaleah
 -- Log: Add turning in News from Spires of Arak and Picking up Arakkoa Exodus in the garrison, since it wasnt in the alliance Talador guide,  Added Horde steps also incase you didnt do the Talador guide.  
@@ -411,15 +416,19 @@ H Axefall|ACTIVE|37328;37330|M|36.99,24.63|N|If you hearthstone isnt up or you d
 
 ;alliance
 T Not Here, Not Now|QID|37329;37331|M|39.89,60.84|N|To Lieutenant Willem.|FACTION|Alliance|
-A Attempted Murder|QID|35915|M|39.65,60.85|N|From Hulda Shadowblade.|PRE|37329+37331|FACTION|Alliance|
-A The Tinkertoss Twins|QID|35713|M|39.51,61.33|N|From Milly Osgood.|PRE|37329+37331||FACTION|Alliance|
+; 37329 references Hulda and Brewery
+; 37331 leads to Tinkertoss
+A Attempted Murder|QID|35915|M|39.65,60.85|N|From Hulda Shadowblade.|PRE|37329|FACTION|Alliance|
+A The Tinkertoss Twins|QID|35713|M|39.51,61.33|N|From Milly Osgood.|PRE|37331||FACTION|Alliance|
 A Wanted: Keeho's Severed Paw|QID|35674|M|39.46,61.66|N|From Wanted Poster inside the building.|FACTION|Alliance|PRE|35286|RANK|3|
 A Wanted: Spineslicer's Husk|QID|35675|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|RANK|3|
 F Veil Terokk|QID|35634|M|39.07,61.80|N|At Firn Swiftbreeze.|FACTION|Alliance|RANK|2|
 ;horde
 T Not Here, Not Now|QID|37328;37330|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
-A Attempted Murder|QID|35907|M|40.09,43.28|N|From Dark Ranger Velonara.|PRE|37328;37330|FACTION|Horde|
-A Best Deals Anywhere|QID|35705|M|40.06,43.19|N|From Provisioner Galgar.|PRE|37328;35550|FACTION|Horde|
+; 37328 references Velonara.
+; 37330 leads
+A Attempted Murder|QID|35907|M|40.09,43.28|N|From Dark Ranger Velonara.|PRE|37328|FACTION|Horde|
+A Best Deals Anywhere|QID|35705|M|40.06,43.19|N|From Provisioner Galgar.|PRE|37330|FACTION|Horde|
 A Wanted: Keeho's Severed Paw|QID|35669|M|40.11,43.05|N|From Wanted Poster inside the building.|FACTION|Horde|PRE|35277|RANK|3|
 A Wanted: Spineslicer's Husk|QID|35670|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|RANK|3|
 F Veil Terokk|QID|35634|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|RANK|2|
