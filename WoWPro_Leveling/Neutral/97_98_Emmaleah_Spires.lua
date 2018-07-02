@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2018-07-01 23:00
+-- Who: Emmaleah
+-- Log: Yet another change regarding not here, not now - splitting to two different lines in guide
+
+-- URL: http://wow-pro.com/node/3602/revisions/29380/view
 -- Date: 2018-06-30 21:38
 -- Who: Ludovicus_Maior
 -- Log: Experiment with [Not Here, Not Now]x4
@@ -212,7 +217,7 @@ F Spires of Arak|ACTIVE|34653|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat 
 
 T News from Spires of Arak|QID|35537|M|45.93,42.86|Z|Frostwall|N|To Rokhan.|FACTION|Horde|
 A Arakkoa Exodus|QID|34653|PRE|35537|M|45.93,42.86|Z|Frostwall|N|From Rokhan.|LEAD|34655|FACTION|Horde|
-A Warchief's Command:Spires of Arak!|QID|49548|LEAD|34653|M|48,40|Z|Frostwall|N|From Warchief's Command Board.|FACTION|Horde|;guess for coordinates - please update
+A Warchief's Command:Spires of Arak!|QID|49548|LEAD|34653;34655|M|49.09,41.62|Z|Frostwall|N|From Warchief's Command Board.|FACTION|Horde|
 F Spires of Arak|ACTIVE|36951|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
 
 T Arakkoa Exodus|QID|36951;34653|M|37.89,18.02|N|To Azik.|
@@ -303,7 +308,7 @@ C I See Dead People|QID|35322;35329|QO|2|M|39.01,48.72|NC|RANK|2|N|Talk to Bryan
 T I See Dead People|QID|35322;35329|M|39.01,48.72|N|To Bryan Finn.|RANK|2|
 A A Parting Favor|QID|35339|M|39.01,48.72|N|From Bryan Finn.|PRE|35322+35329|RANK|2|
 C A Parting Favor|QID|35339|QO|1|M|37.68,51.13|S|N|Kill the spectres inside the garrison until you have enough essence.|RANK|2|
-A Three Feet Under|QID|36864|M|35.80,52.20|N|Help Gibb out and he will follow you for life. From Benjamin Gibb.|FACTION|Horde|RANK|2|
+A Three Feet Under|QID|36864|M|35.80,52.20|N|Help Gibb out and he will follow you for life. From Benjamin Gibb.|FACTION|Horde|RANK|2|PRE|36793|
 C A Parting Favor|QID|35339|QO|1|M|37.68,51.13|US|N|Kill the spectres inside the garrison until you have enough essence.|RANK|2|
 C A Parting Favor|QID|35339|QO|2|M|37.68,51.13|NC|N|Alice is upstairs.|RANK|2|
 T A Parting Favor|QID|35339|M|37.67,51.13|N|To Alice Finn.|RANK|2|
@@ -332,15 +337,16 @@ T Honoring a Hero|QID|35549|M|39.88,60.85|N|To Lieutenant Willem.|FACTION|Allian
 A For Old Times' Sake|QID|36353|M|39.98,60.65|N|To/From Admiral Taylor who wants to come join your garrison forces.|FACTION|Alliance|RANK|2|
 T Surviving in a Savage Land|QID|35550|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|RANK|2|
 
-F Veil Terokk|AVAILIBLE|37296|M|39.78,61.87;39.08,61.79|CS|N|At Firn Swiftbreeze.|FACTION|Alliance|
-F Veil Terokk|AVAILIBLE|37296|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
+F Veil Terokk|AVAILABLE|37296|M|39.78,61.87;39.08,61.79|CS|N|At Firn Swiftbreeze.|FACTION|Alliance|
+F Veil Terokk|AVAILABLE|37296|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
 t Befriending the Locals|QID|37326;37327|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
-C Peace Offering|QID|35697;35699|M|43.90,48.90|CHAT|N|Offer a peace offering to Shadow-Sage Iksar.|
+C Peace Offering|QID|35697;35699|M|43.90,48.90|CHAT|N|Offer a peace offering to Dusk-Seer Irizzar.|
 t Peace Offering|QID|35697;35699|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
 A A Lack of Wasps|QID|37296|M|43.90,48.90|N|From Dusk-Seer Irizzar.|PRE|37326+37327|
 C A Lack of Wasps|QID|37296|M|44.15,47.54|N|Kill the Widow Wasps.|
 T A Lack of Wasps|QID|37296|M|43.90,48.91|N|To Dusk-Seer Irizzar.|
-A Not Here, Not Now|QID|37328;37329;37330;37331|M|43.90,48.91|N|From Dusk-Seer Irizzar.|PRE|37296|
+A Not Here, Not Now|QID|37328;37329|M|43.90,48.91|N|From Dusk-Seer Irizzar.|PRE|37296|
+A Not Here, Not Now.|QID|37330;37331|M|43.90,48.91|N|From Dusk-Seer Irizzar.|ACTIVE|-37328;-37329|LEAD|37328;37329|
 
 T Return to Veil Terokk|QID|35611|M|45.87,45.74|N|To Reshad.|RANK|2|
 A Talon Watch|QID|34998|M|45.87,45.74|N|From Reshad.|PRE|35611|RANK|2|
@@ -387,7 +393,7 @@ C A Feast of Shadows|QID|34883|M|43.46,23.37|US|RANK|2|N|Finish looting Shadow D
 T Blades in the Dark|QID|34882|M|44.48,24.01|N|To Talonpriest Zellek.|RANK|2|
 T A Feast of Shadows|QID|34883|M|44.48,24.01|N|To Talonpriest Zellek.|RANK|2|
 A Back from Beyond|QID|34942|M|44.48,24.01|N|From Talonpriest Zellek.|PRE|34882;34883|RANK|2|
-A Power Unearthed|QID|35257|M|44.40,23.99|N|From Darkscryer Raastok.|RANK|2|LEADIN|35260|
+A Power Unearthed|QID|35257|M|44.40,23.99|N|From Darkscryer Raastok.|RANK|2|LEAD|35260|
 
 R Apexis Excavation|ACTIVE|35257|M|36.99,24.63|RANK|2|
 f Apexis Excavation|ACTIVE|35257|M|36.99,24.63|N|At Skytalon Kuris.|RANK|2|
@@ -416,19 +422,19 @@ H Axefall|ACTIVE|37328;37330|M|36.99,24.63|N|If you hearthstone isnt up or you d
 
 ;alliance
 T Not Here, Not Now|QID|37329;37331|M|39.89,60.84|N|To Lieutenant Willem.|FACTION|Alliance|
-; 37329 references Hulda and Brewery
-; 37331 leads to Tinkertoss
+; 37329 references Hulda\Attempted Murder (Brewery)
+; 37331 leads to Milly\Tinkertoss (Smugglers)
 A Attempted Murder|QID|35915|M|39.65,60.85|N|From Hulda Shadowblade.|PRE|37329|FACTION|Alliance|
-A The Tinkertoss Twins|QID|35713|M|39.51,61.33|N|From Milly Osgood.|PRE|37331||FACTION|Alliance|
+A The Tinkertoss Twins|QID|35713|M|39.51,61.33|N|From Milly Osgood.|PRE|37331|FACTION|Alliance|
 A Wanted: Keeho's Severed Paw|QID|35674|M|39.46,61.66|N|From Wanted Poster inside the building.|FACTION|Alliance|PRE|35286|RANK|3|
 A Wanted: Spineslicer's Husk|QID|35675|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|RANK|3|
 F Veil Terokk|QID|35634|M|39.07,61.80|N|At Firn Swiftbreeze.|FACTION|Alliance|RANK|2|
 ;horde
 T Not Here, Not Now|QID|37328;37330|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
-; 37328 references Velonara.
-; 37330 leads
+; 37328 leads Velonara/Attempted Murder (Brewery)
+; 37330 leads Galgar/Best Deals(Smugglers)
 A Attempted Murder|QID|35907|M|40.09,43.28|N|From Dark Ranger Velonara.|PRE|37328|FACTION|Horde|
-A Best Deals Anywhere|QID|35705|M|40.06,43.19|N|From Provisioner Galgar.|PRE|37330|FACTION|Horde|
+A Best Deals Anywhere|QID|35705|M|40.06,43.19|N|From Provisioner Galgar.|PRE|37330;35550|FACTION|Horde|
 A Wanted: Keeho's Severed Paw|QID|35669|M|40.11,43.05|N|From Wanted Poster inside the building.|FACTION|Horde|PRE|35277|RANK|3|
 A Wanted: Spineslicer's Husk|QID|35670|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|RANK|3|
 F Veil Terokk|QID|35634|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|RANK|2|
@@ -651,7 +657,7 @@ A The Ebon Hunter|QID|35797|M|60.20,53.15|PRE|35738;35766|N|From Trixxy Weldblas
 C The Ebon Hunter|QID|35797|M|65.09,61.46|T|The Ebon Hunter|FACTION|Horde|
 T The Ebon Hunter|QID|35797|M|60.08,53.64|N|To Trixxy Weldblast.|FACTION|Horde|
 
-R The Howling Crag|ACTIVE|35676;35672|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are NOT taking the provided ride and instead we are going to take a side trip for our traveling convenience. Go North and somewhat east.|ACTIVE|36165;36166|
+R The Howling Crag|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are NOT taking the provided ride and instead we are going to take a side trip for our traveling convenience. Go North and somewhat east.|ACTIVE|36165;36166|
 R The Howling Crag|ACTIVE|35676;35672|RANK|3|M|61,18|N|Its a bit of a run but this is as close as we get to this area in the guide, Go North and somewhat east.|PRE|35835;35797|;not actually a prereq, but I only want the step to show if you finished one of those quests
 C Wanted: Venombarb|QID|35676;35672|M|61.11,19.05|RANK|3|N|Kill and loot Venombarb.|
 
@@ -670,7 +676,7 @@ C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|CHAT|N|Talk to Firn Swiftbreez
 H Axefall|AVAILABLE|35620|ACTIVE|35672;36166|FACTION|Horde|
 C No Time to Waste|QID|36166|M|40.11,43.28|CHAT|FACTION|Horde|
 T No Time to Waste|QID|36166|M|40.11,43.28|N|To Lunzul.|FACTION|Horde|
-A Standing United|QID|37276|M|40.04,43.33|PRE|36166|N|To/From Dark Ranger Velonara to accept her as a follower.|FACTION|Horde|
+A Standing United|QID|37276|M|40.04,43.33|PRE|36166;36793|N|To/From Dark Ranger Velonara to accept her as a follower.|FACTION|Horde|
 A Not In Your Army|QID|37292|M|40.08,42.66|PRE|36166|N|From Lunzul.|FACTION|Horde|
 C Not In Your Army|QID|37292|M|39.45,41.72|CHAT|N|After you talk to her, she becomes hostile and you must kill her.|FACTION|Horde|
 T Not In Your Army|QID|37292|M|40.08,42.66|N|To Lunzul.|FACTION|Horde|
@@ -678,7 +684,7 @@ A Pinchwhistle Gearworks|QID|35620|PRE|35277|M|40.01,43.97|N|From Scout Cel. If 
 T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|3|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
-; ;36861;36862 The Garrison Versions of [Pinchwhistle Gearworks]
+; 36861;36862 The Garrison Versions of [Pinchwhistle Gearworks]
 f Pinchwhistle Gearworks|ACTIVE|35619;35620;36861;36862|M|60.88,73.31|N|At Kwiven Quickcog.|
 T Pinchwhistle Gearworks|QID|35619;35620;36861;36862|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
 A Defungination|QID|35077|M|61.47,72.94|N|From Kimzee Pinchwhistle.|
@@ -741,7 +747,7 @@ H Axefall|AVAILABLE|36607;36602|M|61.47,72.94|N|Back to Axefall.|FACTION|Horde|
 A News from Nagrand|QID|36607;36602|M|40.18,43.51|N|From Taskmaster Gornek.|LVL|96|FACTION|Horde|
 F Veil Terokk|AVAILABLE|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|2|
 
-A Talonpriest Ishaal|QID|37141|M|46.53,46.80|N|To Talonpriest Ishaal, yet another follower for you. If you make him your bodyguard you will have access to mail wherever you are in Draenor.|RANK|2|
+A Talonpriest Ishaal|QID|37141|M|46.53,46.80|N|To Talonpriest Ishaal, yet another follower for you. If you make him your bodyguard you will have access to mail wherever you are in Draenor.|RANK|2|PRE|36793;36797|
 D Your Garrison|QID|36606;36607|U|110560|M|40.18,43.5|N|This ends Spires of Arak.  Nagrand is the final leveling zone quide and it should load after you check off this step.|
 
 ]]
