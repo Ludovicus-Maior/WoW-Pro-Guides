@@ -1,3 +1,33 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/node/3776
+-- Date: 2018-07-03 19:36
+-- Who: Ludovicus_Maior
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3776/revisions/29390/view
+-- Date: 2018-07-03 02:53
+-- Who: Emmaleah
+-- Log: updated next guide
+
+-- URL: http://wow-pro.com/node/3776/revisions/29367/view
+-- Date: 2018-06-24 18:45
+-- Who: STrek
+-- Log: added rest of this guide
+
+-- URL: http://wow-pro.com/node/3776/revisions/29366/view
+-- Date: 2018-06-24 15:49
+-- Who: STrek
+-- Log: was wrong input format and few other minor changes
+
+-- URL: http://wow-pro.com/node/3776/revisions/29365/view
+-- Date: 2018-06-24 15:39
+-- Who: STrek
+-- Log: start pre patch guide
+
 local guide = WoWPro:RegisterGuide('BurnTedrazilSTrek', 'Leveling', 'Darkshore', 'STrek', 'Alliance')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
