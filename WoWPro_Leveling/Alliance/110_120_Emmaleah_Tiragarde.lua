@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-07-03 02:58
+-- Who: Emmaleah
+-- Log: updated next guide
+
+-- URL: http://wow-pro.com/node/3769/revisions/29354/view
 -- Date: 2018-06-16 03:07
 -- Who: Emmaleah
 -- Log: Still to do: Find and add remaining rares and treasures, Add RANKs and PRE tags
@@ -15,7 +20,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmTiragarde', 'Leveling', 'Tiragarde Sound', 'Emmaleah', 'Alliance')
 WoWPro:GuideLevels(guide,110, 120)
-WoWPro:GuideNextGuide(guide, 'BfAOpen')
+WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
 WoWPro:GuideIcon(guide,"ACH",12473)
 WoWPro:GuideSteps(guide, function()
 return [[
