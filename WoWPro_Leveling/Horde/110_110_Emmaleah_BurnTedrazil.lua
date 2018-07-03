@@ -1,3 +1,23 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-07-03 19:53
+-- Who: Ludovicus_Maior
+-- Log: guide name tweaks
+
+-- URL: http://wow-pro.com/node/3770/revisions/29369/view
+-- Date: 2018-07-03 02:50
+-- Who: Emmaleah
+-- Log: first draft from PTR. Prepatch
+
+-- URL: http://wow-pro.com/node/3770/revisions/29324/view
+-- Date: 2018-05-25 20:21
+-- Who: Emmaleah
+-- Log: blank stub
+
 local guide = WoWPro:RegisterGuide('BurnTedrazilEmmaleah', 'Leveling', 'Darkshore', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
