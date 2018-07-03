@@ -67,6 +67,7 @@ class FindGuides(HTMLParser):
         self._root = Root
         self._href = ""
         self._list = []
+        self.boring_img_tags = {"title", "alt", "class", "width", "height")
         try:
             self._rootHandle =urllib.urlopen(Root)
             logging.info("Opened Root URL "+Root)
@@ -101,6 +102,8 @@ class FindGuides(HTMLParser):
                     return
                 if attr[0] == "alt" and re.search("Source",attr[1]):
                     self._list.append(urlparse.urljoin(self._root,self._href))
+                    return
+                if  attr[0] in self.boring_img_tags:
                     return
                 logging.warn("Saw img %s=%s : confusion." % (attr[0] , attr[1]))
 
