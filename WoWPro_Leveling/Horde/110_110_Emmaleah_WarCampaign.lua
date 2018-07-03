@@ -1,24 +1,4 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/horde_battle_azeroth_intro
--- Date: 2018-05-13 05:51
--- Who: Emmaleah
--- Log: Many note updates, add more guide registration icon, and autoswitch, fixed up J steps to reflect correct guide. Note that coords in Orgrimmar need updated as they changed with the last patch.
-
--- URL: http://wow-pro.com/node/3761/revisions/29300/view
--- Date: 2018-05-12 17:55
--- Who: Ludovicus_Maior
--- Log: Use a real nil in GuideNextGuide()
-
--- URL: http://wow-pro.com/node/3761/revisions/29274/view
--- Date: 2018-05-08 21:54
--- Who: Emmaleah
--- Log: First Draft.
-
-local guide = WoWPro:RegisterGuide('EmmaBFAIntro', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
+local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideAutoSwitch(guide)
@@ -27,6 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ;rough draft - recorded and first set of edits based on memory, not replayed yet.
+;battle for Lordaeron may need moved to Intro guide.
 
 C The Battle for Lordaeron|QID|51796|QO|1|N|Autoaccepted when you enter Orgrimmar|
 C The Battle for Lordaeron|QID|51796|M|53.92,74.46|Z|Ruins of Lordaeron|QO|1|CHAT|N|Speak with Isabella|
