@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-07-03 02:54
+-- Who: Emmaleah
+-- Log: updated next guide
+
+-- URL: http://wow-pro.com/node/3763/revisions/29368/view
 -- Date: 2018-06-24 19:23
 -- Who: Emmaleah
 -- Log: minor changes, mostly adding NC tags, some spelling or wording corrections, etc.
@@ -116,7 +121,7 @@
 
 local guide = WoWPro:RegisterGuide('STrekDrustvar', 'Leveling', 'Drustvar', 'STrek', 'Alliance')
 WoWPro:GuideLevels(guide,110, 120)
-WoWPro:GuideNextGuide(guide, 'BfAOpen')
+WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
 WoWPro:GuideIcon(guide,"ACH",12941)
 WoWPro:GuideSteps(guide, function()
 return [[
