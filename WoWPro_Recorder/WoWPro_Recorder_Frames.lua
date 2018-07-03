@@ -356,9 +356,12 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					name = "Rank:",
 					desc = "The rank of the step. If you are unsure, leave it as 1.",
 					values = {
-						"Rank 1", 
-						"Rank 2", 
-						"Rank 3"
+                        [-3] = "Rank -3",
+                        [-2] = "Rank -2",
+                        [-1] = "Rank -1",
+                        [1] = "Rank 1",
+                        [2] = "Rank 2",
+                        [3] = "Rank 3",
 					},
 					get = function(info) 
 							local rank = WoWPro.Recorder.stepInfo.rank
@@ -791,9 +794,12 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					name = "Rank:",
 					desc = "The rank of the step. If you are unsure, leave it as 1.",
 					values = {
-						"Rank 1", 
-						"Rank 2", 
-						"Rank 3"
+                        [-3] = "Rank -3",
+                        [-2] = "Rank -2",
+                        [-1] = "Rank -1",
+                        [1] = "Rank 1",
+                        [2] = "Rank 2",
+                        [3] = "Rank 3",
 					},
 					get = function(info) 
 							local rank = WoWPro.rank[WoWPro.Recorder.SelectedStep]
