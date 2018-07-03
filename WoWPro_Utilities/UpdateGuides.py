@@ -67,7 +67,7 @@ class FindGuides(HTMLParser):
         self._root = Root
         self._href = ""
         self._list = []
-        self.boring_img_tags = {"title", "alt", "class", "width", "height")
+        self.boring_img_tags = {"title", "alt", "class", "width", "height"}
         try:
             self._rootHandle =urllib.urlopen(Root)
             logging.info("Opened Root URL "+Root)
