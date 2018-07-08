@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-07-08 05:36
+-- Who: Emmaleah
+-- Log: Play thru as of build .26970
+
+-- URL: http://wow-pro.com/node/3770/revisions/29404/view
+-- Date: 2018-07-08 01:28
+-- Who: Emmaleah
+-- Log: 2nd part of burning of teldrassil
+
+-- URL: http://wow-pro.com/node/3770/revisions/29403/view
+-- Date: 2018-07-07 22:35
+-- Who: STrek
+-- Log: added a Turn in and a quest Accept step (see comment) + changed map coords for a R step (see comments)
+
+-- URL: http://wow-pro.com/node/3770/revisions/29398/view
+-- Date: 2018-07-05 23:04
+-- Who: Ludovicus_Maior
+-- Log: Add WoWPro:GuideQuestTriggers()
+
+-- URL: http://wow-pro.com/node/3770/revisions/29395/view
 -- Date: 2018-07-03 19:53
 -- Who: Ludovicus_Maior
 -- Log: guide name tweaks
@@ -18,30 +38,34 @@
 -- Who: Emmaleah
 -- Log: blank stub
 
-local guide = WoWPro:RegisterGuide('BurnTedrazilEmmaleah', 'Leveling', 'Darkshore', 'Emmaleah', 'Horde')
+local guide = WoWPro:RegisterGuide('BurnTedrazilEmmaleah', 'Leveling', 'Burning of Teldrassil', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
 WoWPro:GuideSteps(guide, function()
+WoWPro:GuideQuestTriggers(guide, 50476,53372,51443)
 return [[
 A The Warchief Awaits|QID|50476|N|Autoaccepted when you log in after Patch 8.0.0 is live.|
-R Undercity|QID|50476|N|Make your way to Undercity to meet with Sylvanas.|
-T The Warchief Awaits|QID|50476|M|52.38,63.81;58.14,91.85|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
+R Undercity|ACTIVE|50476|N|Make your way to Undercity to meet with Sylvanas.|
+T The Warchief Awaits|QID|50476|M|52.38,63.81;58.14,91.85|CS|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
 A The Warchief Commands|QID|50642|M|58.14,91.85|Z|Undercity!Eastern Kingdoms|N|From Lady Sylvanas Windrunner.|
-R Northern Barrens|QID|50642|N|Make your way to Northern Barrens to meet with Saurfang.|
+R Northern Barrens|ACTIVE|50642|M|69.46,22.41|Z|Northern Barrens|N|Make your way to Northern Barrens to meet with Saurfang.|
 T The Warchief Commands|QID|50642|M|50.88,45.98|Z|Northern Barrens|N|To High Overlord Saurfang.|
 A A Quick Diversion|QID|50646|M|50.88,45.98|Z|Northern Barrens|N|From High Overlord Saurfang.|
 
-R Ashenvale|QID|50646|M|61.43,89.03|Z|Ashenvale|N|Head over to Astranaar in Ashenvale to find Lorash.|
-C Everybody Has a Price|QID|50647|M|37.12,51.13|Z|Ashenvale|NC|N|Lorash travels with you and provides a stealth circle. Target a nearby guard and move so that your stealth circle includes the guard, then use the special action button. Its ok if more than one guard is in the circle. (but only one will be taken out at a time.)|
+R Ashenvale|ACTIVE|50646|M|52.30,88.46|Z|Ashenvale|N|Head over to Astranaar in Ashenvale to find Lorash.|
+T A Quick Diversion|QID|50646|M|38.88,55.34|Z|Ashenvale|N|To Lorash.|
+A Everybody Has a Price|QID|50647|M|38.88,55.34|Z|Ashenvale|N|From Lorash.|
+C Everybody Has a Price|QID|50647|M|37.12,51.13|Z|Ashenvale|NC|N|Lorash travels with you and provides a stealth circle. (Stealth not activated while you are mounted.) Target a nearby guard and move so that your stealth circle includes the guard, then use the special action button. Its ok if more than one guard is in the circle. (but only one will be taken out at a time.)|
 T Everybody Has a Price|QID|50647|M|38.91,55.29|Z|Ashenvale|N|To Lorash.|
 A A Timely Arrival|QID|50738|M|38.91,55.29|Z|Ashenvale|N|From Lorash.|
 T A Timely Arrival|QID|50738|M|37.82,56.29|Z|Ashenvale|N|To Lady Sylvanas Windrunner.|
 A Zoram'gar Outpost|QID|50740|M|37.82,56.29|Z|Ashenvale|N|From Lady Sylvanas Windrunner.|
-R Zoram'gar Outpost|QID|50740|M|37.82,56.29|Z|Ashenvale|N|Run to Zoram'gar and be Sylvanas' messenger.|
+R Zoram'gar Outpost|ACTIVE|50740|M|12.61,32.84|Z|Ashenvale|N|Run to Zoram'gar and be Sylvanas' messenger.|
 C Zoram'gar Outpost|QID|50740|M|12.10,33.84|Z|Ashenvale|CHAT|QO|1|N|Speak with Commander Grimfang|
 C Zoram'gar Outpost|QID|50740|M|12.99,34.15|Z|Ashenvale|CHAT|QO|2|N|Speak with the Innkeeper|
 C Zoram'gar Outpost|QID|50740|M|11.41,35.36|Z|Ashenvale|CHAT|QO|3|N|Speak with the Weaponsmith|
-R Astranaar|QID|50740|M|35.17,49.43|Z|Ashenvale|N|Fly back to Astranaar because what is more rewarding than flying around.|
+
+R Astranaar|ACTIVE|50740|M|35.17,49.43|Z|Ashenvale|N|Fly back to Astranaar because what is more rewarding than flying around.|
 T Zoram'gar Outpost|QID|50740|M|35.17,49.43|Z|Ashenvale|N|To High Overlord Saurfang.|
 A On The Prowl|QID|50772|M|35.17,49.43|Z|Ashenvale|N|From High Overlord Saurfang.|
 C On The Prowl|QID|50772|M|44.15,90.72|Z|Darkshore|NC|N|Meet Sylvanas near the entrance to Darkshore, wait for a break in the fight.|
@@ -50,13 +74,14 @@ A Into the Woods|QID|50800|M|44.15,90.72|Z|Darkshore|N|From Lady Sylvanas Windru
 C Into the Woods|QID|50800|M|44.22,90.62|Z|Darkshore|N|Kill Ashenvale Huntresses.|
 T Into the Woods|QID|50800|M|44.15,90.71|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 A Ripe for the Picking|QID|50823|M|44.15,90.71|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
-R Zoram'gar Outpost|QID|50823|M|12.13,33.74|Z|Ashenvale|N|And back to Zoram'gar again.|
+
+R Zoram'gar Outpost|ACTIVE|50823|M|12.13,33.74|Z|Ashenvale|N|And back to Zoram'gar again.|
 T Ripe for the Picking|QID|50823|M|12.13,33.74|Z|Ashenvale|N|To High Overlord Saurfang.|
 A A Quick Flyover|QID|50837|M|12.02,33.77|Z|Ashenvale|N|From Lady Sylvanas Windrunner.|
 C A Quick Flyover|QID|50837|M|11.82,33.26|Z|Ashenvale|CHAT|QO|1|N|Speak with Zarvik Blastwix.|
-C A Quick Flyover|QID|50837|M|41.09,91.17|Z|Darkshore|S|QO|2|N|Fell marked trees by aiming at the marking and pressing the "1" key.|
-C A Quick Flyover|QID|50837|M|42.53,90.10|Z|Darkshore|QO|3|N|Destroy Wisps (the larger ones) by aiming at pressing the "1" key.|
-C A Quick Flyover|QID|50837|M|41.09,91.17|Z|Darkshore|QO|2|US|N|Finish felling marked trees.|
+C A Quick Flyover|QID|50837|M|41.09,91.17|Z|Darkshore|NC|S|QO|2|N|Fell marked trees by aiming at the marking and pressing the "1" key.|
+C A Quick Flyover|QID|50837|M|42.53,90.10|Z|Darkshore|NC|QO|3|N|Destroy Wisps (the larger ones) by aiming at pressing the "1" key.|
+C A Quick Flyover|QID|50837|M|41.09,91.17|Z|Darkshore|NC|US|QO|2|N|Finish felling marked trees.|
 T A Quick Flyover|QID|50837|M|12.02,33.77|Z|Ashenvale|N|To Lady Sylvanas Windrunner back at Zoram'gar.|
 A An Unstoppable Force|QID|50880|M|12.02,33.77|Z|Ashenvale|N|From Lady Sylvanas Windrunner.|
 C An Unstoppable Force|QID|50880|M|43.97,90.23|Z|Darkshore|NC|QO|1|N|Meet Sylvanas at the Wall.|
@@ -77,33 +102,37 @@ T Blurred Vision|QID|50878|M|43.28,75.67|Z|Darkshore|N|To Lady Sylvanas Windrunn
 A The Trees Have Ears|QID|50879|M|43.28,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C The Trees Have Ears|QID|50879|M|44.08,75.28|Z|Darkshore|N|Kill the Burning Ancient. (don't worry, the other NPCs don't add)|
 T The Trees Have Ears|QID|50879|M|43.31,75.67|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
+
 A Aggressive Inspiration|QID|53606|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 A The Blackwood Den|QID|52436|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
-A A Change in Leadership|QID|53550|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
+;A A Change in Leadership|QID|53550|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|--quest not currently on ptr
 C The Blackwood Den|QID|52436|M|44.37,85.89|Z|Darkshore|S|N|Kill the Blackwood furbolgs as you go.|
-C Aggressive Inspiration|QID|53606|M|45.09,83.70|Z|Darkshore|S|NC|N|Plan banners as convenient.|
-C A Change in Leadership|QID|53550|M|45.15,84.08|Z|Darkshore|QO|2|N|Defeat Gren Tornfur.|
-C A Change in Leadership|QID|53550|M|46.62,83.87|Z|Darkshore|QO|1|N|Defeat Elder Brolg.|
-C A Change in Leadership|QID|53550|M|46.40,85.58|Z|Darkshore|QO|3|N|Defeat Elder Brownpaw.|
+C Aggressive Inspiration|QID|53606|M|45.08,83.67|Z|Darkshore|QO|1|NC|N|Click  on the somewhat transparent banner to plant Northern banner here.|
+C Aggressive Inspiration|QID|53606|M|44.63,85.10|Z|Darkshore|QO|2|NC|N|Plant Central banner here.|
+C Aggressive Inspiration|QID|53606|M|44.36,86.52|Z|Darkshore|QO|1|NC|N|Plant Southern banner here.|
+;C A Change in Leadership|QID|53550|M|45.15,84.08|Z|Darkshore|QO|2|N|Defeat Gren Tornfur.|
+;C A Change in Leadership|QID|53550|M|46.62,83.87|Z|Darkshore|QO|1|N|Defeat Elder Brolg.|
+;C A Change in Leadership|QID|53550|M|46.40,85.58|Z|Darkshore|QO|3|N|Defeat Elder Brownpaw.|
 C Aggressive Inspiration|QID|53606|M|45.09,83.70|Z|Darkshore|US|NC|N|Finish planting banners.|
 C The Blackwood Den|QID|52436|M|44.37,85.89|Z|Darkshore|US|N|Finish off your share of the Blackwood furbolgs.|
 T Aggressive Inspiration|QID|53606|M|43.30,84.70|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
-T A Change in Leadership|QID|53550|M|43.30,84.70|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
+;T A Change in Leadership|QID|53550|M|43.30,84.70|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 T The Blackwood Den|QID|52436|M|43.30,84.70|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
+
 A The Start of Something Good|QID|52437|M|43.30,84.70|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C The Start of Something Good|QID|52437|M|35.78,84.79|NC|Z|Darkshore|N|Meet Sylvanas at Nazj'vel.|
 T The Start of Something Good|QID|52437|M|35.82,84.83|Z|Darkshore|N|To Jux Burstkix.|
 A Fueling the Horde War Machine|QID|53608|M|35.82,84.83|Z|Darkshore|N|From Jux Burstkix.|
 A A Very Clear Message|QID|53609|M|35.82,84.83|Z|Darkshore|N|From Jux Burstkix.|
 C Fueling the Horde War Machine|QID|53608|M|32.06,83.64|Z|Darkshore|NC|S|N|Collect Azerite.|
-C A Very Clear Message|QID|53609|M|32.31,82.51|Z|Darkshore|N|Kill Hippogryph Archer.|
+C A Very Clear Message|QID|53609|M|32.31,82.51|Z|Darkshore|N|Kill Hippogryph Archers.|
 C Fueling the Horde War Machine|QID|53608|M|32.06,83.64|Z|Darkshore|NC|US|N|Finish collecting Azerite.|
 T A Very Clear Message|QID|53609|M|35.82,84.84|Z|Darkshore|N|To Jux Burstkix.|
 T Fueling the Horde War Machine|QID|53608|M|35.82,84.84|Z|Darkshore|N|To Jux Burstkix.|
 A A Gift of Azerite|QID|53627|M|35.82,84.84|Z|Darkshore|N|From Jux Burstkix.|
 T A Gift of Azerite|QID|53627|M|44.61,86.53|Z|Darkshore|N|To Zarvik Blastwix.|
 A A Wild Ride|QID|52438|M|44.75,86.48|Z|Darkshore|N|From Zarvik Blastwix.|
-C A Wild Ride|QID|52438|M|44.76,86.43|Z|Darkshore|QO|1|N|Use the Goblin Hellion.|
+C A Wild Ride|QID|52438|M|44.76,86.43|Z|Darkshore|NC|QO|1|N|Use the Goblin Hellion.|
 C A Wild Ride|QID|52438|M|41.47,67.82|Z|Darkshore|S|QO|4|N|Bomb Kaldorei forces.|
 C A Wild Ride|QID|52438|M|41.35,67.84|Z|Darkshore|QO|3|N|Bomb Awakened Ancients.|
 C A Wild Ride|QID|52438|M|41.47,67.82|Z|Darkshore|US|QO|4|N|Bomb Kaldorei forces.|
@@ -111,7 +140,119 @@ T A Wild Ride|QID|52438|M|42.70,67.75|Z|Darkshore|N|To Lady Sylvanas Windrunner.
 A A Looming Threat|QID|52806|M|42.70,67.75|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C A Looming Threat|QID|52806|M|44.70,86.77|Z|Darkshore|CHAT|N|Speak with Sylvanas at the Blackwood Den.|
 T A Looming Threat|QID|52806|M|44.70,86.77|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
-N World Quests|N|This opens up the Darkshore World Quests.|
+N World Quests|N|This opens up the Darkshore World Quests.|AVAILABLE|52967|
+
+A Saurfang Returns|QID|52967|M|39.51,96.54|Z|Darkshore|N|Autoaccepted when logging in / entering Darkshore.|
+R Lor'danal|ACTIVE|52967|M|52.16,22.45|Z|Darkshore|N|Run to the North side of Lor'danal to meet Saurfang.|
+A Don't Stop Me Now|QID|52894|M|44.21,75.42|Z|Darkshore|N|From High Overlord Saurfang.|
+T Saurfang Returns|QID|52967|M|52.15,22.46|Z|Darkshore|N|To High Overlord Saurfang.|
+A No Small Mercy|QID|52970|M|52.15,22.46|Z|Darkshore|N|From High Overlord Saurfang.|
+A Driving Them Out|QID|53610|M|52.15,22.46|Z|Darkshore|N|From High Overlord Saurfang.|
+A Seaside Rendezvous|QID|52971|M|52.15,22.46|Z|Darkshore|N|From High Overlord Saurfang.|
+C Seaside Rendezvous|QID|52971|M|51.61,17.70|Z|Darkshore|QO|2|N|Ariel Stagguard is near the flightmaster.|
+C No Small Mercy|QID|52970|M|50.30,18.47|Z|Darkshore|NC|S|N|Send the civilians to safety.|
+C Driving Them Out|QID|53610|M|46.76,18.77|Z|Darkshore|S|N|Kill Lor'danel defenders.|
+C Seaside Rendezvous|QID|52971|M|46.71,18.68|Z|Darkshore|QO|1|N|Caranne Briarbow can be found on the beach.|
+C Driving Them Out|QID|53610|M|46.76,18.77|Z|Darkshore|US|N|Finish of your share of the Lor'danel defenders.|
+C No Small Mercy|QID|52970|M|50.30,18.47|Z|Darkshore|NC|US|N|Finish sending the civilians to safety.|
+T No Small Mercy|QID|52970|M|52.16,22.43|Z|Darkshore|N|To High Overlord Saurfang.|
+T Driving Them Out|QID|53610|M|52.16,22.43|Z|Darkshore|N|To High Overlord Saurfang.|
+T Seaside Rendezvous|QID|52971|M|52.16,22.43|Z|Darkshore|N|To High Overlord Saurfang.|
+A Killer Queen|QID|52981|M|52.16,22.43|Z|Darkshore|N|From High Overlord Saurfang.|
+C Killer Queen|QID|52981|M|45.84,23.31|Z|Darkshore|QO|2|NC|N|Find Saurfang and watch the vignette progress.|
+C Killer Queen|QID|52981|M|46.13,24.28|Z|Darkshore|CHAT|QO|3|N|Follow Saurfang.|
+C Killer Queen|QID|52981|M|45.52,18.27|Z|Darkshore|CHAT|QO|4|N|Speak with Sylvanas|
+T Killer Queen|QID|52981|M|45.52,18.25|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
+
+A Hour of Reckoning|QID|53372|N|This will have been autoaccepted last time you were in Orgimmar, if you don't have it return to Orgrimmar.|
+R Orgrimmar|ACTIVE|53372|U|140192|N|Return to Orgrimmar to continue the story.|
+T Hour of Reckoning|QID|53372|M|50.04,75.91;48.51,70.67|CS|Z|Orgrimmar|N|Return to Saurfang in Grommash Hold.|
+A The Battle for Lordaeron|QID|51796|M|48.51,70.67|Z|Orgrimmar|N|From High Overlord Saurfang.|
+C The Battle for Lordaeron|QID|51796|M|47.81,71.69|Z|Orgrimmar|QO|1|CHAT|N|Speak with Isabella which will put you in the queue for Battle for Lordaeron scenario.|
+C Under Siege|QID|51796|Z|Undercity!Ruins of Lordaeron!Instance|M|84.42,25.69|SO|1|NC|N|Find Saurfang.|
+C Spies in Our Midst|QID|51796|M|53.91,77.27|Z|Undercity!Ruins of Lordaeron!Instance|SO|2;2|NC|N|Meet with Saurfang|
+C Spies in Our Midst|QID|51796|M|53.91,77.27|Z|Undercity!Ruins of Lordaeron!Instance|SO|2;1|N|Secure the Mage District|
+C To the Heart!|QID|51796|M|50.05,84.24|Z|Undercity!Ruins of Lordaeron!Instance|SO|3|NC|N|Follow Saurfang to the Heart of the City|
+C Evacuate Citizens|QID|51796|M|48.76,84.20|Z|Undercity!Ruins of Lordaeron!Instance|SO|4;1|N|Kill the alliance infiltrators so the citizens can evacuate.|
+C Evacuate the Heart of the City|QID|51796|M|48.50,82.73|Z|Undercity!Ruins of Lordaeron!Instance|SO|4;2|N|Evacuate the Remainder of Undercity|
+C Use the Portal|QID|51796|M|48.45,83.25|Z|Undercity!Ruins of Lordaeron!Instance|SO|5;1|NC|N|Use the Portal|
+C Follow Saurfang to battle|QID|51796|M|48.13,71.28|Z|Undercity!Ruins of Lordaeron!Instance|SO|5;2|NC|N|Follow Saurfang to battle.|
+C Alliance Enemies Defeated|QID|51796|M|48.14,70.81|Z|Undercity!Ruins of Lordaeron!Instance|SO|6;1|N|Break the Alliance front line.|
+C Defend the Azerite War Machine|QID|51796|M|48.22,62.60|Z|Undercity!Ruins of Lordaeron!Instance|SO|7;1|N|Defeat Waves of Attackers.|
+C Our Secret Weapon|QID|51796|M|48.18,68.22|Z|Undercity!Ruins of Lordaeron!Instance|SO|8;1|N|Drive Alliance forces back.|
+C Follow Nathanos to the keep|QID|51796|M|47.77,88.47|Z|Undercity!Ruins of Lordaeron!Instance|SO|9;1|NC|N|Follow Nathanos to the keep|
+C Incercept the Alliance|QID|51796|M|46.52,88.77|Z|Undercity!Ruins of Lordaeron!Instance|SO|10;1|N|Incercept the Alliance.|
+C Defeat Anduin and his Allies|QID|51796|M|46.65,88.56|Z|Undercity!Ruins of Lordaeron!Instance|SO|11|N|Defeat Anduin and his Allies|
+C Follow Nathanos to safety|QID|51796|M|48.60,76.96|Z|Undercity!Ruins of Lordaeron!Instance|SO|12;1|NC|N|Follow Nathanos to safety|
+C The Dark Lady|QID|51796|M|48.11,78.32|Z|Undercity!Ruins of Lordaeron!Instance|SO|13|NC|N|Follow Sylvanas.|
+T The Battle for Lordaeron|QID|51796|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller.|
+
+;ends on PTR as of 7/8/18 -- I suspect next quest will be open on Aug 14, but maybe part of pre-patch?
+
+A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|
+C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|
+C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Meet your team|
+T Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|N|To Nathanos Blightcaller.|
+A The Stormwind Extraction|QID|50769|M|54.47,78.40|Z|Orgrimmar|N|From Nathanos Blightcaller.|
+C The Stormwind Extraction|QID|50769|M|54.55,78.37|Z|Orgrimmar|QO|1|NC|N|Take a potion. Don't use it!|
+C The Stormwind Extraction|QID|50769|M|48.63,93.98|Z|Durotar|QO|2|NC|N|Fly up to the ramparts and hop on an eagle. This will enter you into the next scenario, (Stockades/Stormwind).|
+C In the Dead of Night|QID|50769|M|47.21,59.58|Z|Stormwind City!Stormwind City!Instance|SO|1;1|NC|N|Infiltrate Stormwind City|
+C Down the Drain|QID|50769|M|46.23,58.19|Z|Stormwind City|SO|2;2|NC|N|Open the sewer access gate|
+C Down the Drain|QID|50769|M|41.29,62.51|Z|Stormwind City|SO|2;1|NC|N|Go in the sewer access gate.|
+C The Stockades|QID|50769|M|47.05,60.05|Z|Stormwind City|SO|3;1|N|Fight your way to meet up with Rokhan.|
+C Honor and Loyalty|QID|50769|M|46.65,59.37|Z|Stormwind City|SO|4;1|NC|N|Click on the Door to Saurfang's cell and go in and talk to Saurfang.|
+C The Primary Objective|QID|50769|M|47.90,64.96|Z|Stormwind City|SO|5;1|N|Fight your way to the next waypoint and open the cell to release the Princess and the Prophet.|
+C The Primary Objective|QID|50769|M|47.39,60.71;71.23,46.87|Z|Stormwind City!Stormwind City!Instance|CS|SO|5;2|N|Fight your way down the hall and to the sewer grate, Click on the grade to go thru.|
+C The City Stirs|QID|50769|M|71.1, 46.7; 56.30,56.50|Z|Stormwind City|CS|S|SO|6|NC|N|Follow Rokhan closely so you stay in his invis sphere.|
+C The City Stirs|QID|50769|M|71.1, 46.7|Z|Stormwind City|SO|6;1|NC|N|Talk to Rokhan and then follow closely so you stay in his invis sphere.|
+C The City Stirs|QID|50769|M|56.30,56.50|Z|Stormwind City|US|SO|6|NC|N|The time for invis has past.|
+C WAY Behind Enemy Lines|QID|50769|M|55.87,56.88|Z|Stormwind City|SO|7;1|N|Defeat the worgen ambush.|
+C Escape Cathedral Square|QID|50769|M|45.44,43.20|Z|Stormwind City|SO|7;2|N|Keep following your buddies and fighting your way thru Stormwind.|
+C No Diplomatic Solution|QID|50769|M|39.67,41.04|Z|Stormwind City|SO|8;1|N|Break down the ice wall.|
+C Reach Talanji's ship|QID|50769|M|20.59,25.79|Z|Stormwind City|SO|9;1|N|Continue on with your buddies, killing those pesky Alliance trying to stop you from reaching Talanji's ship|
+C Escape Stormwind Harbor|QID|50769|M|20.63,28.92|Z|Stormwind City|SO|10;1|CHAT|N|Talk to Talanji on the bridge of her ship.|
+
+T The Stormwind Extraction|QID|50769|M|57.96,62.77|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Welcome to Zuldazar|QID|46957|M|57.95,62.46|Z|Zuldazar|N|From Princess Talanji|
+C Welcome to Zuldazar|QID|46957|M|57.94,56.59|Z|Zuldazar|QO|1|N|Follow Princess Talanji|
+T Welcome to Zuldazar|QID|46957|M|57.97,56.50|Z|Zuldazar|N|To General Jakra'zet.|
+A Rastakhan|QID|46930|M|57.97,56.50|Z|Zuldazar|N|From General Jakra'zet.|
+C Rastakhan|QID|46930|M|57.97,56.43|Z|Zuldazar|QO|1|NC|N|Ride Enforcer's Pterrordax to the Throne|
+C Rastakhan|QID|46930|M|57.59,43.96|Z|Zuldazar|QO|2|CHAT|N|Speak with Princess Talanji|
+T Rastakhan|QID|46930|M|57.95,43.31|Z|Zuldazar|N|To King Rastakhan.|
+A Speaker of the Horde|QID|46931|M|57.95,43.31|Z|Zuldazar|N|From King Rastakhan.|
+C Speaker of the Horde|QID|46931|M|57.55,44.05|Z|Zuldazar|QO|1|NC|N|Follow Zolani Take the elevator down to the lower level.|
+C Speaker of the Horde|QID|46931|M|57.95,42.09|Z|Zuldazar|QO|2|NC|N|Click the banner to summon the your companions.|
+C Speaker of the Horde|QID|46931|M|57.95,44.31|Z|Zuldazar|QO|3|NC|N|The Great Seal explored.|
+C Speaker of the Horde|QID|46931|M|58.33,44.39|Z|Zuldazar|QO|4|NC|N|Hall of Ancient Paths explored.|
+C Speaker of the Horde|QID|46931|M|57.62,44.37|Z|Zuldazar|QO|5|NC|N|Vault of the King explored.|
+T Speaker of the Horde|QID|46931|M|57.63,43.80|Z|Zuldazar|N|To Chronicler To'kini.|
+A The Heart of Azeroth|QID|51211|M|57.55,43.87|Z|Zuldazar|N|From Magni Bronzebeard.|
+C The Heart of Azeroth|QID|51211|M|50.13,55.21|Z|ChamberOfHeart!Dungeon|QO|3|CHAT|N|Speak to Magni within the Chamber of Heart|
+T The Heart of Azeroth|QID|51211|M|50.13,55.21|Z|ChamberOfHeart!Dungeon|N|To Magni Bronzebeard.|
+A Infusing the Heart|QID|52428|M|50.13,55.21|Z|ChamberOfHeart!Dungeon|N|From Magni Bronzebeard.|
+C Infusing the Heart|QID|52428|M|55.26,58.45;55.42,60.72;54.54,69.74;48.53,74.08;45.23,62.57|CN|QO|1|NC|N|Go to each of the 'wounds' and use your special action button.|
+C Infusing the Heart|QID|52428|M|50.02,64.33|Z|ChamberOfHeart!Dungeon|QO|2|N|Use Speecial Action button while standing in the center of the room.|
+T Infusing the Heart|QID|52428|M|50.05,55.18|Z|ChamberOfHeart!Dungeon|N|To Magni Bronzebeard.|
+A To Matters at Hand|QID|51344|M|50.05,55.18|Z|ChamberOfHeart!Dungeon|N|From Magni Bronzebeard.|
+C To Matters at Hand|QID|51344|M|57.75,61.73|Z|ChamberOfHeart!Dungeon|N|Teleporter pad used.|
+T To Matters at Hand|QID|51344|M|57.80,44.30|Z|Zuldazar|N|To Princess Talanji.|
+A We Need Each Other|QID|52131|M|57.76,44.36|Z|Zuldazar|N|From Princess Talanji.|
+
+T We Need Each Other|QID|52131|M|57.79,44.30|Z|Zuldazar|N|To Princess Talanji.|
+A Area to Explore|QID|47512;47513;47514|M|57.81,44.34|Z|Zuldazar|N|Pick which zone you want to adventure in first from Scouting Map.|
+t Nazmir|QID|47512|M|57.81,44.34|Z|Zuldazar|N|To Princess Talanji.|
+t Vol'dun|QID|47513|M|57.81,44.34|Z|Zuldazar|N|To Princess Talanji.|
+t Zuldazar|QID|47514|M|57.80,44.31|Z|Zuldazar|N|To Princess Talanji.|
+A Journey to Nazmir|QID|47103|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47512|
+A ??|QID|49615|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47513|;PH until i find the right one.
+A Trust of a King|QID|49615|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47514|
+
+;putting J step after you pick up the chain specific quests in that room, because I think more likely to not notice and check off when there are yellow ! marks, so jump step as you leave room.
+A Choose next adventure|QID|49615;47512;47513|M|73.89,25.12|Z|895|N|From the Scouting Map on the wall.|PRE|47189|
+J On to Nazmir|QID|47103|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Nazmir. That guide will auto load when you close this step.|GUIDE|TBDNazmir|
+J On to Vol'Dun|QID|47513|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Vol'dun. That guide will auto load when you close this step.|GUIDE|TBDVoldun|;QID needs updated when found
+J On to Zuldazar|QID|47615|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Zuldazar. That guide will auto load when you close this step.|GUIDE|TBDZuldazar|
 
 ]]
 
