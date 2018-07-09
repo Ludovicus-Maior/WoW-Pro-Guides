@@ -25,6 +25,8 @@ local function handler(msg, editbox)
         WoWPro:print(msg)
         WoWPro.UnregisterAllEvents()
         WoWPro:RegisterEvents()
+    elseif ltoken = 'clear-log' then
+        WoWPro:LogClear("Command Line")
     elseif ltoken == "taint" then
         WoWProDB.global.Tainted = {}
         local now = date("%Y%m%d%H%M")
