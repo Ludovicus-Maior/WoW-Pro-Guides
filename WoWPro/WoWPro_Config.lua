@@ -747,7 +747,7 @@ local function createBlizzOptions()
 			    name = L["Clear the log"],
 			    desc = L["Wow-Pro's Debug Log"],
 			    image = "Interface\\RaidFrame\\ReadyCheck-NotReady",
-			    func =  function (info) WoWProDB.global.Log = {}; WoWPro.Serial = 999999999 ; WoWPro:Print("Log Reset from UI, WoWPro Version %s.", WoWPro.Version); end
+			    func =  function (info) WoWPro:LogClear("UI"); end
 			},
 			showLog = {
 			    order = 31,
