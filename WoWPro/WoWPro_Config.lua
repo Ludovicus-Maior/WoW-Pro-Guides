@@ -755,15 +755,7 @@ local function createBlizzOptions()
 			    name = L["Show the log"],
 			    desc = L["Wow-Pro's Secret Debug Log"],
 			    image = "Interface\\RaidFrame\\ReadyCheck-Ready",
-			    func =  function (info)
-    			            WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Debug Log","Hit escape to dismiss")
-    			            local LogBox = WoWPro.LogBox
-    			            WoWPro:LogDump( function(text)
-                                                LogBox.Box:SetText(text)
-                                                LogBox.Scroll:UpdateScrollChildRect()
-                                                LogBox:Show()
-                                            end )
-                        end
+			    func =  function (info) WoWPro:LogShow(); end
 			},
 			checkGuides = {
 			    order = 32,
