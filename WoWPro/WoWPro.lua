@@ -249,6 +249,13 @@ function WoWPro:LogDump(callback)
     LogFrame:SetScript("OnUpdate",LogGrow)
 end
 
+function WoWPro:LogClear(where)
+    WoWProDB.global.Log = {}
+    WoWPro.Serial = 999999999
+    WoWPro:Print("Log Reset from %s, WoWPro Version %s.", where, WoWPro.Version)
+end
+
+
 function WoWPro.toboolean(v)
     if type(v) == "string" then
         v = strlower(v)
