@@ -18,14 +18,14 @@ local function handler(msg, editbox)
             local msg = string.format("Player at %.2f,%.2f@%s", X*100, Y*100, WoWPro.GetZoneText())
             ChatFrame1:AddMessage(msg)
         end
-    elseif ltoken = 'etrace-start' then
+    elseif ltoken == 'etrace-start' then
         WoWPro:print(msg)
         WoWPro.RegisterAllEvents()
-    elseif ltoken = 'etrace-end' then
+    elseif ltoken == 'etrace-end' then
         WoWPro:print(msg)
         WoWPro.UnregisterAllEvents()
         WoWPro:RegisterEvents()
-    elseif ltoken = 'clear-log' then
+    elseif ltoken == 'clear-log' then
         WoWPro:LogClear("Command Line")
     elseif ltoken == "taint" then
         WoWProDB.global.Tainted = {}
