@@ -4,6 +4,7 @@
     <Script file="Outland.lua"/>
     <Script file="Northrend.lua"/>
     <Script file="Cataclysm.lua"/>
+    <Script file="Pandaria.lua"/>
     <Script file="Draenor.lua"/>
-    <Script file="BrokenIsles.lua"/>    
+    <Script file="BrokenIsles.lua"/>
 </Ui>
