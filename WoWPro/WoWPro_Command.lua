@@ -67,7 +67,7 @@ local function handler(msg, editbox)
         local msg = string.format("Blizzard API stored in: <World\ of\ Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
         ChatFrame1:AddMessage(msg)
     else
-        local msg = string.format("%s or %s [where|taint]", SLASH_WOWPRO1, SLASH_WOWPRO2)
+        local msg = string.format("%s or %s [where¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe]", SLASH_WOWPRO1, SLASH_WOWPRO2)
         ChatFrame1:AddMessage(msg)
     end
 end
