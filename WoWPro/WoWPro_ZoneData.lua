@@ -985,10 +985,3 @@ DefineZone("Upper Deck!AbyssalMelody_A!Dungeon", 1179, 4, 942, 391)
 DefineZone("Thornheart!Dungeon", 1183, 4, 942, nil)
 DefineZone("The Rupture!WaycrestDimension!Dungeon", 1029, 4, 896, 279)
 DefineZone("Hall of Croniclers!DazarAlor_Upper", 1164, 5, 1165, 386)
-
-
-
-
-
-
-DefineLegacyZone("Orgrimmar@Orgrimmar", 0, 85)
