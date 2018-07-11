@@ -8,9 +8,8 @@ WoWPro.MapInfo = {}
 WoWPro.Zone2MapID = {}
 WoWPro.LegacyZone2MapID = {}
 
-function WoWPro.DefineLegacyZone(legacy_zone, legacy_floor, modern_mapId)
-    WoWPro.LegacyZone2MapID[legacy_zone] = WoWPro.LegacyZone2MapID[legacy_zone] or {}
-    WoWPro.LegacyZone2MapID[legacy_zone][legacy_floor] = modern_mapId
+function WoWPro.DefineLegacyZone(legacy_zone,  modern_mapId)
+    WoWPro.LegacyZone2MapID[legacy_zone] = modern_mapId
 end
 
 function WoWPro.DefineZone(zone, mapId, mapType, parent_map, group_id, ... )
