@@ -3,7 +3,6 @@
 ----------------------------------
 
 local DefineZone = WoWPro.DefineZone
-local DefineLegacyZone = WoWPro.DefineLegacyZone
 
 DefineZone("Durotar", 1, 3, 12, nil, 2, 85, 464, 463, 461, 6, 5, 3, 4)
 DefineZone("Burning Blade Coven", 2, 5, 1, nil)
