@@ -3,11 +3,27 @@
 -- function WoWPro.DefineLegacyZone(legacy_zone, legacy_floor, modern_mapId)
 local DefineLegacyZone = WoWPro.DefineLegacyZone
 local hbdm = LibStub("HereBeDragons-Migrate")
+local LegacyMapOffsets = {}
+WoWPro.LegacyMapOffsets = LegacyMapOffsets
 
 -- DefineDungeonArea( 321, 1,"Orgrimmar@Orgrimmar","Orgrimmar","Orgrimmar")
 local function DefineDungeonArea(mapID, floor, zi, dungeon, mapName)
+    -- Is this the first time we have seen the first floor?
+    if not LegacyMapOffsets[mapID] then
+        -- This is the first floor of this mapID
+        -- See if Migrate thinks floor 0 exists
+        local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, 0)
+        if map_id then
+            -- If Migrate thinks floor 0 is the base then the current floor is the offset
+            LegacyMapOffsets[mapID] = floor
+        else
+            -- If Migrate does not have a record of floor 0, then the floor should not be tinkered with
+            LegacyMapOffsets[mapID] = 0
+        end
+    end
+    floor = floor - LegacyMapOffsets[mapID]
     -- Associate zi with the mapID/floor pair
-    local map_id = hdmb:GetUIMapIDFromMapAreaId(mapID, floor)
+    local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, floor)
     if map_id then
         DefineLegacyZone(zi, map_id)
     else
@@ -18,9 +34,16 @@ end
 -- DefineInstance( 443, 0,"WarsongGulch","WarsongGulch")
 local function DefineInstance(mapID, numFloors, zi, mapName)
     -- Associate zi with the mapID/0 pair
-    local map_id = hdmb:GetUIMapIDFromMapAreaId(mapID, 0)
+    local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, 0)
     if map_id then
         DefineLegacyZone(zi, map_id)
+        return
+    end
+    -- Associate zi with the mapID/1 pair
+    map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, 1)
+    if map_id then
+        DefineLegacyZone(zi, map_id)
+        return
     else
         WoWPro:print("DefineInstance(%d,%d,%q): No mapping found.",mapID, numFloors, zi)
     end    
@@ -29,22 +52,22 @@ end
 -- DefineTerrain(1, 4, 182, 0,"Felwood")
 local function DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
     -- Associate zonei with the mapID/0 pair
-    local map_id = hdmb:GetUIMapIDFromMapAreaId(mapID, 0)
+    local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, 0)
     if map_id then
-        DefineLegacyZone(zi, map_id)
+        DefineLegacyZone(zone, map_id)
     else
-        WoWPro:print("DefineTerrain(%d,%d,%q): No mapping found.",mapID, numFloors, zi)
+        WoWPro:print("DefineTerrain(%d,%d,%d,%d,%q): No mapping found.",cont, zonei, mapID, numFloors, zone)
     end
 end
 
 -- DefineTerrainFloor(1, 5,   9, 6,"Palemane Rock@Mulgore","Palemane Rock")
 local function DefineTerrainFloor(cont, zonei, mapID, floor, zone, mapName)
     -- Associate zonei with the mapID/0 pair
-    local map_id = hdmb:GetUIMapIDFromMapAreaId(mapID, floor)
+    local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, floor)
     if map_id then
-        DefineLegacyZone(zi, map_id)
+        DefineLegacyZone(zone, map_id)
     else
-        WoWPro:print("DefineTerrainFloor(%d,%d,%q): No mapping found.",mapID, numFloors, zi)
+        WoWPro:print("DefineTerrainFloor(%d,%d,%d,%d,%q): No mapping found.",cont, zonei, mapID, floor, zone)
     end
 end
 
