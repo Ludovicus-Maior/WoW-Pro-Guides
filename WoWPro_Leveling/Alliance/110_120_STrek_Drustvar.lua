@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-07-15 04:49
+-- Who: Emmaleah
+-- Log: added sort level
+
+-- URL: http://wow-pro.com/node/3763/revisions/29391/view
 -- Date: 2018-07-03 02:54
 -- Who: Emmaleah
 -- Log: updated next guide
@@ -120,7 +125,7 @@
 -- Log: first draft of the Drustvar guide  - part 1 - Fallhaven
 
 local guide = WoWPro:RegisterGuide('STrekDrustvar', 'Leveling', 'Drustvar', 'STrek', 'Alliance')
-WoWPro:GuideLevels(guide,110, 120)
+WoWPro:GuideLevels(guide,110, 120, 111)
 WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
 WoWPro:GuideIcon(guide,"ACH",12941)
 WoWPro:GuideSteps(guide, function()
