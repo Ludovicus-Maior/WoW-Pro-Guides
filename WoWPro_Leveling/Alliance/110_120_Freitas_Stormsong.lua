@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-07-15 04:50
+-- Who: Emmaleah
+-- Log: added sort level
+
+-- URL: http://wow-pro.com/node/3767/revisions/29392/view
 -- Date: 2018-07-03 02:57
 -- Who: Emmaleah
 -- Log: updated next guide
@@ -23,7 +28,7 @@
 -- Log: new blank stub
 
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
-WoWPro:GuideLevels(guide,110, 120)
+WoWPro:GuideLevels(guide,110, 120, 111)
 WoWPro:GuideNextGuide(guide, EmmAWarCampaign)
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Stormsongvalley")
