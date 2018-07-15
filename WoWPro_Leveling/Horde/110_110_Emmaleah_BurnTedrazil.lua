@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-07-15 04:46
+-- Who: Emmaleah
+-- Log: add sort level
+
+-- URL: http://wow-pro.com/node/3770/revisions/29422/view
+-- Date: 2018-07-14 23:01
+-- Who: Emmaleah
+-- Log: changes as of 7/14/18 hopefully what goes live 7/17/18
+
+-- URL: http://wow-pro.com/node/3770/revisions/29405/view
 -- Date: 2018-07-08 05:36
 -- Who: Emmaleah
 -- Log: Play thru as of build .26970
@@ -38,16 +48,17 @@
 -- Who: Emmaleah
 -- Log: blank stub
 
-local guide = WoWPro:RegisterGuide('BurnTedrazilEmmaleah', 'Leveling', 'Burning of Teldrassil', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,110, 110)
+local guide = WoWPro:RegisterGuide('BurnTedrazilEmmaleah', 'Leveling', 'Darkshore', 'Emmaleah', 'Horde')
+WoWPro:GuideLevels(guide,110, 110, 110.5)
+WoWPro:GuideName(guide,'Battle for Azeroth Intro')
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideQuestTriggers(guide, 50476,53372,51443)
 return [[
-A The Warchief Awaits|QID|50476|N|Autoaccepted when you log in after Patch 8.0.0 is live.|
+A The Warchief Awaits|QID|50476|N|Autoaccepted when you log in after Patch 8.0.0 is live. If you haven't gone to Silithus to heal the wound, you need to do that first.|
 R Undercity|ACTIVE|50476|N|Make your way to Undercity to meet with Sylvanas.|
 T The Warchief Awaits|QID|50476|M|52.38,63.81;58.14,91.85|CS|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
-A The Warchief Commands|QID|50642|M|58.14,91.85|Z|Undercity!Eastern Kingdoms|N|From Lady Sylvanas Windrunner.|
+A The Warchief Commands|QID|50642|M|58.14,91.85|Z|Undercity!Eastern Kingdoms|N|From Lady Sylvanas Windrunner. If you have done the Burning of Teldrisil questline on another character there is an option to skip it. Choose which ever you want and the guide will accomodate it.|
 R Northern Barrens|ACTIVE|50642|M|69.46,22.41|Z|Northern Barrens|N|Make your way to Northern Barrens to meet with Saurfang.|
 T The Warchief Commands|QID|50642|M|50.88,45.98|Z|Northern Barrens|N|To High Overlord Saurfang.|
 A A Quick Diversion|QID|50646|M|50.88,45.98|Z|Northern Barrens|N|From High Overlord Saurfang.|
@@ -143,8 +154,7 @@ T A Looming Threat|QID|52806|M|44.70,86.77|Z|Darkshore|N|To Lady Sylvanas Windru
 N World Quests|N|This opens up the Darkshore World Quests.|AVAILABLE|52967|
 
 A Saurfang Returns|QID|52967|M|39.51,96.54|Z|Darkshore|N|Autoaccepted when logging in / entering Darkshore.|
-R Lor'danal|ACTIVE|52967|M|52.16,22.45|Z|Darkshore|N|Run to the North side of Lor'danal to meet Saurfang.|
-A Don't Stop Me Now|QID|52894|M|44.21,75.42|Z|Darkshore|N|From High Overlord Saurfang.|
+R Lor'danel|ACTIVE|52967|M|52.16,22.45|Z|Darkshore|N|Run to the North side of Lor'danal to meet Saurfang.|
 T Saurfang Returns|QID|52967|M|52.15,22.46|Z|Darkshore|N|To High Overlord Saurfang.|
 A No Small Mercy|QID|52970|M|52.15,22.46|Z|Darkshore|N|From High Overlord Saurfang.|
 A Driving Them Out|QID|53610|M|52.15,22.46|Z|Darkshore|N|From High Overlord Saurfang.|
@@ -164,11 +174,11 @@ C Killer Queen|QID|52981|M|46.13,24.28|Z|Darkshore|CHAT|QO|3|N|Follow Saurfang.|
 C Killer Queen|QID|52981|M|45.52,18.27|Z|Darkshore|CHAT|QO|4|N|Speak with Sylvanas|
 T Killer Queen|QID|52981|M|45.52,18.25|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 
-A Hour of Reckoning|QID|53372|N|This will have been autoaccepted last time you were in Orgimmar, if you don't have it return to Orgrimmar.|
+A Hour of Reckoning|QID|53372|N|This will have been autoaccepted last time you were in Orgrimmar, if you don't have it return to Orgrimmar.|
 R Orgrimmar|ACTIVE|53372|U|140192|N|Return to Orgrimmar to continue the story.|
 T Hour of Reckoning|QID|53372|M|50.04,75.91;48.51,70.67|CS|Z|Orgrimmar|N|Return to Saurfang in Grommash Hold.|
 A The Battle for Lordaeron|QID|51796|M|48.51,70.67|Z|Orgrimmar|N|From High Overlord Saurfang.|
-C The Battle for Lordaeron|QID|51796|M|47.81,71.69|Z|Orgrimmar|QO|1|CHAT|N|Speak with Isabella which will put you in the queue for Battle for Lordaeron scenario.|
+C The Battle for Lordaeron|QID|51796|M|47.81,71.69|Z|Orgrimmar|QO|1|CHAT|N|Speak with Isabella which will put you in the queue for Battle for Lordaeron scenario.If you have done the Battle of Lordaeron scenario on another character there is an option to skip it. Choose which ever you want and the guide will accomodate it.|
 C Under Siege|QID|51796|Z|Undercity!Ruins of Lordaeron!Instance|M|84.42,25.69|SO|1|NC|N|Find Saurfang.|
 C Spies in Our Midst|QID|51796|M|53.91,77.27|Z|Undercity!Ruins of Lordaeron!Instance|SO|2;2|NC|N|Meet with Saurfang|
 C Spies in Our Midst|QID|51796|M|53.91,77.27|Z|Undercity!Ruins of Lordaeron!Instance|SO|2;1|N|Secure the Mage District|
@@ -185,13 +195,29 @@ C Incercept the Alliance|QID|51796|M|46.52,88.77|Z|Undercity!Ruins of Lordaeron!
 C Defeat Anduin and his Allies|QID|51796|M|46.65,88.56|Z|Undercity!Ruins of Lordaeron!Instance|SO|11|N|Defeat Anduin and his Allies|
 C Follow Nathanos to safety|QID|51796|M|48.60,76.96|Z|Undercity!Ruins of Lordaeron!Instance|SO|12;1|NC|N|Follow Nathanos to safety|
 C The Dark Lady|QID|51796|M|48.11,78.32|Z|Undercity!Ruins of Lordaeron!Instance|SO|13|NC|N|Follow Sylvanas.|
-T The Battle for Lordaeron|QID|51796|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller.|
+T The Battle for Lordaeron|QID|51796|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, on top of the Gates of Orgrimmar.|
 
-;ends on PTR as of 7/8/18 -- I suspect next quest will be open on Aug 14, but maybe part of pre-patch?
+N Remaining after Launch|N|ends on PTR as of 7/8/18 -- I suspect next quest will be open on Aug 14, but may be part of pre-patch?|
+A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|
+R The Western Earthshrine|QID|53028|QO|1|M|48.82,38.59|Z|Orgrimmar|N|Fly over to the Uldam Portal for a shortcut to Silithus.|
+R Silithus: The Wound|ACTIVE|53028|M|70.42,87.54|Z|Silithus|N|Fly towards Sargaras' giant sword.|
+T A Dying World|QID|53028|M|42.22,44.28|Z|Silithus|N|To Magni Brozebeard.|
+A The Heart of Azeroth|QID|51211|M|42.22,44.28|Z|Silithus|N|From Magni Bronzebeard.|
+C The Heart of Azeroth|QID|51211|M|43.20,44.49|Z|Silithus|QO|1|N|Click on the Titan Translocator to travel to the Chamber.|
+C The Heart of Azeroth|QID|51211|M|50.17,55.44|Z|Chamber of Heart!Dungeon|QO|2|N|Optional: Click on the Tital Console to view a cutscene (or just skip straight to talking with Magni to view a different cutscene).|
+C The Heart of Azeroth|QID|51211|M|50.13,55.21|Z|Chamber of Heart!Dungeon|QO|3|CHAT|N|Speak to Magni within the Chamber of Heart and watch another cutscene.|
+T The Heart of Azeroth|QID|51211|M|50.13,55.21|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
+A Infusing the Heart|QID|52428|M|50.13,55.21|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|
+C Infusing the Heart|QID|52428|M|55.26,58.45|QO|1|NC|N|Go to the 'wounds' and use your special action button, until this step completes (doesn't require all of the wounds to be healed at this time).|
+C Infusing the Heart|QID|52428|M|50.02,64.33|Z|Chamber of Heart!Dungeon|QO|2|N|Use Speecial Action button while standing in the center of the room and wait for the bar to fill.|
+T Infusing the Heart|QID|52428|M|50.15,53.74|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
+A The Speaker's Imperative|QID|53031|M|50.15,53.74|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|
+C The Speaker's Imperative|QID|53031|M|50.17,30.46|Z|Chamber of Heart!Dungeon|NC|N|Teleporter pad used.|
+T The Speaker's Imperative|QID|53031|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, still on top of the Gates of Orgrimmar.|
 
 A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|
 C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|
-C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Meet your team|
+C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|
 T Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|N|To Nathanos Blightcaller.|
 A The Stormwind Extraction|QID|50769|M|54.47,78.40|Z|Orgrimmar|N|From Nathanos Blightcaller.|
 C The Stormwind Extraction|QID|50769|M|54.55,78.37|Z|Orgrimmar|QO|1|NC|N|Take a potion. Don't use it!|
@@ -203,56 +229,47 @@ C The Stockades|QID|50769|M|47.05,60.05|Z|Stormwind City|SO|3;1|N|Fight your way
 C Honor and Loyalty|QID|50769|M|46.65,59.37|Z|Stormwind City|SO|4;1|NC|N|Click on the Door to Saurfang's cell and go in and talk to Saurfang.|
 C The Primary Objective|QID|50769|M|47.90,64.96|Z|Stormwind City|SO|5;1|N|Fight your way to the next waypoint and open the cell to release the Princess and the Prophet.|
 C The Primary Objective|QID|50769|M|47.39,60.71;71.23,46.87|Z|Stormwind City!Stormwind City!Instance|CS|SO|5;2|N|Fight your way down the hall and to the sewer grate, Click on the grade to go thru.|
-C The City Stirs|QID|50769|M|71.1, 46.7; 56.30,56.50|Z|Stormwind City|CS|S|SO|6|NC|N|Follow Rokhan closely so you stay in his invis sphere.|
-C The City Stirs|QID|50769|M|71.1, 46.7|Z|Stormwind City|SO|6;1|NC|N|Talk to Rokhan and then follow closely so you stay in his invis sphere.|
+C The City Stirs|QID|50769|M|71.1, 46.7; 56.30,56.50|Z|Stormwind City|CS|S|SO|6|CHAT|N|Follow Rokhan closely so you stay in his invis sphere.|
+C The City Stirs|QID|50769|M|71.1, 46.7|Z|Stormwind City|SO|6;1|CHAT|N|Talk to Rokhan and then follow closely so you stay in his invis sphere.|
 C The City Stirs|QID|50769|M|56.30,56.50|Z|Stormwind City|US|SO|6|NC|N|The time for invis has past.|
 C WAY Behind Enemy Lines|QID|50769|M|55.87,56.88|Z|Stormwind City|SO|7;1|N|Defeat the worgen ambush.|
-C Escape Cathedral Square|QID|50769|M|45.44,43.20|Z|Stormwind City|SO|7;2|N|Keep following your buddies and fighting your way thru Stormwind.|
+C Escape Cathedral Square|QID|50769|M|45.44,43.20|Z|Stormwind City|SO|7;2|N|Keep following your buddies and fighting your way thru Stormwind. Chat with Nathanos when you get to him, to end this stage.|
 C No Diplomatic Solution|QID|50769|M|39.67,41.04|Z|Stormwind City|SO|8;1|N|Break down the ice wall.|
 C Reach Talanji's ship|QID|50769|M|20.59,25.79|Z|Stormwind City|SO|9;1|N|Continue on with your buddies, killing those pesky Alliance trying to stop you from reaching Talanji's ship|
 C Escape Stormwind Harbor|QID|50769|M|20.63,28.92|Z|Stormwind City|SO|10;1|CHAT|N|Talk to Talanji on the bridge of her ship.|
 
 T The Stormwind Extraction|QID|50769|M|57.96,62.77|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Welcome to Zuldazar|QID|46957|M|57.95,62.46|Z|Zuldazar|N|From Princess Talanji|
-C Welcome to Zuldazar|QID|46957|M|57.94,56.59|Z|Zuldazar|QO|1|N|Follow Princess Talanji|
+C Welcome to Zuldazar|QID|46957|M|57.94,56.59|Z|Zuldazar|NC|N|Follow Princess Talanji|
 T Welcome to Zuldazar|QID|46957|M|57.97,56.50|Z|Zuldazar|N|To General Jakra'zet.|
 A Rastakhan|QID|46930|M|57.97,56.50|Z|Zuldazar|N|From General Jakra'zet.|
 C Rastakhan|QID|46930|M|57.97,56.43|Z|Zuldazar|QO|1|NC|N|Ride Enforcer's Pterrordax to the Throne|
 C Rastakhan|QID|46930|M|57.59,43.96|Z|Zuldazar|QO|2|CHAT|N|Speak with Princess Talanji|
 T Rastakhan|QID|46930|M|57.95,43.31|Z|Zuldazar|N|To King Rastakhan.|
-A Speaker of the Horde|QID|46931|M|57.95,43.31|Z|Zuldazar|N|From King Rastakhan.|
+A Speaker of the Horde|QID|46931|M|57.95,43.31|Z|Zuldazar|N|From King Rastakhan.|PRE|46930|
 C Speaker of the Horde|QID|46931|M|57.55,44.05|Z|Zuldazar|QO|1|NC|N|Follow Zolani Take the elevator down to the lower level.|
 C Speaker of the Horde|QID|46931|M|57.95,42.09|Z|Zuldazar|QO|2|NC|N|Click the banner to summon the your companions.|
 C Speaker of the Horde|QID|46931|M|57.95,44.31|Z|Zuldazar|QO|3|NC|N|The Great Seal explored.|
-C Speaker of the Horde|QID|46931|M|58.33,44.39|Z|Zuldazar|QO|4|NC|N|Hall of Ancient Paths explored.|
-C Speaker of the Horde|QID|46931|M|57.62,44.37|Z|Zuldazar|QO|5|NC|N|Vault of the King explored.|
-T Speaker of the Horde|QID|46931|M|57.63,43.80|Z|Zuldazar|N|To Chronicler To'kini.|
-A The Heart of Azeroth|QID|51211|M|57.55,43.87|Z|Zuldazar|N|From Magni Bronzebeard.|
-C The Heart of Azeroth|QID|51211|M|50.13,55.21|Z|ChamberOfHeart!Dungeon|QO|3|CHAT|N|Speak to Magni within the Chamber of Heart|
-T The Heart of Azeroth|QID|51211|M|50.13,55.21|Z|ChamberOfHeart!Dungeon|N|To Magni Bronzebeard.|
-A Infusing the Heart|QID|52428|M|50.13,55.21|Z|ChamberOfHeart!Dungeon|N|From Magni Bronzebeard.|
-C Infusing the Heart|QID|52428|M|55.26,58.45;55.42,60.72;54.54,69.74;48.53,74.08;45.23,62.57|CN|QO|1|NC|N|Go to each of the 'wounds' and use your special action button.|
-C Infusing the Heart|QID|52428|M|50.02,64.33|Z|ChamberOfHeart!Dungeon|QO|2|N|Use Speecial Action button while standing in the center of the room.|
-T Infusing the Heart|QID|52428|M|50.05,55.18|Z|ChamberOfHeart!Dungeon|N|To Magni Bronzebeard.|
-A To Matters at Hand|QID|51344|M|50.05,55.18|Z|ChamberOfHeart!Dungeon|N|From Magni Bronzebeard.|
-C To Matters at Hand|QID|51344|M|57.75,61.73|Z|ChamberOfHeart!Dungeon|N|Teleporter pad used.|
-T To Matters at Hand|QID|51344|M|57.80,44.30|Z|Zuldazar|N|To Princess Talanji.|
-A We Need Each Other|QID|52131|M|57.76,44.36|Z|Zuldazar|N|From Princess Talanji.|
+C Speaker of the Horde|QID|46931|M|67.00,71.83|Z|The Great Seal!Dazar'alor|QO|4|NC|N|Hall of Ancient Paths explored.|
+C Speaker of the Horde|QID|46931|M|66.39,37.17;32.22,38.63|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Vault of the King explored.|
+T Speaker of the Horde|QID|46931|M|32.22,38.63|Z|The Great Seal!Dazar'alor|N|To Chronicler To'kini.|
+A To Matters at Hand|QID|52139|M|32.22,38.63|Z|The Great Seal!Dazar'alor|N|From Chronicler To'kini.|PRE|46931|
+T To Matters at Hand|QID|52139|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji, back in the open area,up a short flight of stairs.|
+A We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|52139|
 
-T We Need Each Other|QID|52131|M|57.79,44.30|Z|Zuldazar|N|To Princess Talanji.|
-A Area to Explore|QID|47512;47513;47514|M|57.81,44.34|Z|Zuldazar|N|Pick which zone you want to adventure in first from Scouting Map.|
-t Nazmir|QID|47512|M|57.81,44.34|Z|Zuldazar|N|To Princess Talanji.|
-t Vol'dun|QID|47513|M|57.81,44.34|Z|Zuldazar|N|To Princess Talanji.|
-t Zuldazar|QID|47514|M|57.80,44.31|Z|Zuldazar|N|To Princess Talanji.|
-A Journey to Nazmir|QID|47103|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47512|
-A ??|QID|49615|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47513|;PH until i find the right one.
-A Trust of a King|QID|49615|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47514|
+T We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
+A Area to Explore|QID|47512;47513;47514|M|41.77,69.35|Z|Hall of Croniclers!Dazar'alor|N|Pick which zone you want to adventure in first from Scouting Map.|
+t Nazmir|QID|47512|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
+t Vol'dun|QID|47513|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
+t Zuldazar|QID|47514|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
+A Journey to Nazmir|QID|47103|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47512|
+A Discreet Discussions|QID|47313|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47513|
+A Trust of a King|QID|49615|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47514|
 
-;putting J step after you pick up the chain specific quests in that room, because I think more likely to not notice and check off when there are yellow ! marks, so jump step as you leave room.
-A Choose next adventure|QID|49615;47512;47513|M|73.89,25.12|Z|895|N|From the Scouting Map on the wall.|PRE|47189|
-J On to Nazmir|QID|47103|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Nazmir. That guide will auto load when you close this step.|GUIDE|TBDNazmir|
-J On to Vol'Dun|QID|47513|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Vol'dun. That guide will auto load when you close this step.|GUIDE|TBDVoldun|;QID needs updated when found
-J On to Zuldazar|QID|47615|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Zuldazar. That guide will auto load when you close this step.|GUIDE|TBDZuldazar|
+N War Campaign|QID|52476|N|There are quests offered at 112,114,118 on The Banshee's Wail, a ship in Zuldazar's harbor. The guide for those quests will offer to load when you accept one of those quests.|
+J On to Nazmir|QID|47103|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmNazmir|
+J On to Vol'Dun|QID|47313|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmVoldun|
+J On to Zuldazar|QID|49615|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmZuldazar|
 
 ]]
 
