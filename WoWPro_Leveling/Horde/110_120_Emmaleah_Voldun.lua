@@ -1,3 +1,23 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2018-07-03 02:46
+-- Who: Emmaleah
+-- Log: updated next guide
+
+-- URL: http://wow-pro.com/node/3772/revisions/29381/view
+-- Date: 2018-07-01 11:24
+-- Who: Emmaleah
+-- Log: Rough Draft - Take 1.
+
+-- URL: http://wow-pro.com/node/3772/revisions/29326/view
+-- Date: 2018-05-25 20:25
+-- Who: Emmaleah
+-- Log: blank stub
+
 local guide = WoWPro:RegisterGuide('EmmVoldun', 'Leveling', "Vol'dun", 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,110, 120)
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
@@ -10,7 +30,7 @@ A Time for War|QID|53333|N|Auto accepted from UI.|PRE|52746|
 
 t Vol'dun|QID|47513|M|57.81,44.34|Z|Hall of Croniclers!DazarAlor_Upper|N|To Princess Talanji.|
 A Discreet Discussions|QID|47313|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47513|
-C Discreet Discussions|QID|47313|M|50.12,37.41;52.20,37.54;54.26,35.85|CN|Z|Dazar'Alor|NC|N|Outside and down either long set of stairs to find Enforcers to question. Continue down to find the next one, etc. You are looking for Enforcers Sekal, Gortok, and Dakanji.|
+C Discreet Discussions|QID|47313|M|50.12,37.41;52.20,37.54;54.26,35.85|CN|Z|Dazar'Alor|NC|N|Outside and down either long set of stairs to find Enforcers to question. Continue down to find the next one, etc.  You are looking for Enforcers Sekal, Gortok, and Dakanji.|
 T Discreet Discussions|QID|47313|M|51.57,31.82|Z|Dazar'Alor|N|To Bladeguard Kaja.|
 A Rumors of Exile|QID|47314|M|51.57,31.82|Z|Dazar'Alor|N|From Bladeguard Kaja.|
 T Rumors of Exile|QID|47314|M|51.17,29.59;49.90,31.63|CS|Z|Dazar'alor|N|To Bladeguard Kaja who went down the stairs and around the corner to your left.|
@@ -83,7 +103,7 @@ A Stolen Satchels|QID|48550|M|52.97,66.54|N|From Jorak.|
 A Ranah's Wrench|QID|51829|M|50.69,64.67|N|From Ranah's wrench.|
 C Stolen Satchels|QID|48550|M|50.30,65.05|S|N|Kill the Sandfury Assassins to collect the Weathered Satchels.|
 C Grozztok the Blackheart|QID|48549|M|49.36,64.84|T|Grozztok the Blackheart|N|Kill Grozztok the Blackheart.|
-;$ Grayal's Last Offering|QID|51093|M|48.20,64.69|N|Thru the doorway behind Grozztok is Grayal's Last Offering to loot for resources and treasure.| Not the right place for this... can't get thru the door. 
+;$ Grayal's Last Offering|QID|51093|M|48.20,64.69|N|Thru the doorway behind Grozztok is Grayal's Last Offering to loot for resources and treasure.| Not the right place for this... can't get thru the door.
 C Stolen Satchels|QID|48550|M|50.30,65.05|US|N|Finish collecting the Weathered Satchels.|
 
 T Ranah's Wrench|QID|51829|M|53.89,69.39|N|To Ranah.|
@@ -462,7 +482,7 @@ T Allies in Anarchy|QID|49664|M|46.14,33.22|N|To Nisha.|
 A Ready to Riot|QID|49665|M|46.14,33.22|N|From Nisha.|
 A Make Them Fear Us|QID|49666|M|46.14,33.22|N|From Nisha.|
 C Make Them Fear Us|QID|49666|M|48.27,33.03|U|158884|NC|S|N|Kill Faithless and then plant a Vulpera Banner on their corpse.|
-C Ready to Riot|QID|49665|M|49.10,33.11|NC|S|N|Click on the weapon racks to acquire weapons. When you have a weapon, click on a captive Vulpera to free and arm them.|
+C Ready to Riot|QID|49665|M|49.10,33.11|NC|S|N|Click on the weapon racks to acquire weapons.  When you have a weapon, click on a captive Vulpera to free and arm them.|
 C The Little Ones|QID|49667|M|48.48,32.24|N|Kill Appraiser Versik.|
 C Ready to Riot|QID|49665|M|49.10,33.11|QO|1|NC|US|N|Finish freeing and arming the slaves.|
 C Make Them Fear Us|QID|49666|M|48.27,33.03|U|158884|NC|US|N|Finish planting the banners.|
@@ -559,10 +579,10 @@ A Hidden Motives|QID|47570|M|62.03,22.33|N|From Torka.|RANK|3|
 A Crab Trapping|QID|47943|M|61.98,22.14|N|From Churka.|RANK|3|
 f Tortaka Refuge|QID|50551|M|61.92,21.67|N|At Scroll of Flight.|RANK|3|
 C They Came From The Sea|QID|47577|M|63.97,22.71|QO|1|U|160585|US|S|N|After you kill the Naga, target the corpse and use the scroll to interrogate them.|
-C Crab Trapping|QID|47943|M|62.84,24.07|U|151763|NC|S|N|Target the Clampclaw Clackers and use the trap.|
+C Crab Trapping|QID|47943|M|62.84,24.07|U|151763|NC|S|N|Target the  Clampclaw Clackers and use the trap.|
 K Kill Overseer Zarjish|QID|47570|M|64.54,22.83|QO|1|T|Overseer Zarjish|N|Overseer Zarjish drops the Invasion Plans.|
 K Kill Songstress Nahjeen|QID|51063|M|66.85,24.61|QO|1|T|Songstress Nahjeen|N|Silver Elite to kill for treasure and resources.|RANK|3|
-C Crab Trapping|QID|47943|M|62.84,24.07|U|151763|NC|US|N|Target the Clampclaw Clackers and use the trap.|
+C Crab Trapping|QID|47943|M|62.84,24.07|U|151763|NC|US|N|Target the  Clampclaw Clackers and use the trap.|
 C They Came From The Sea|QID|47577|M|63.97,22.71|U|160585|US|N|After you kill the Naga, target the corpse and use the scroll to interrogate them.|
 T They Came From The Sea|QID|47577|M|62.03,22.33|N|To Torka.|
 T Hidden Motives|QID|47570|M|62.03,22.33|N|To Torka.|
