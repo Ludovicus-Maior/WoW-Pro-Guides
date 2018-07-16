@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-07-16 19:44
+-- Who: Emmaleah
+-- Log: corrected syntax NewGuideLevels. Changed notes where I think break will be for each week. Will update when it happens.
+
+-- URL: http://wow-pro.com/node/3770/revisions/29426/view
 -- Date: 2018-07-15 04:46
 -- Who: Emmaleah
 -- Log: add sort level
@@ -49,7 +54,7 @@
 -- Log: blank stub
 
 local guide = WoWPro:RegisterGuide('BurnTedrazilEmmaleah', 'Leveling', 'Darkshore', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,110, 110, 110.5)
+WoWPro:NewGuideLevels(guide,110, 110, 110.5)
 WoWPro:GuideName(guide,'Battle for Azeroth Intro')
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
 WoWPro:GuideSteps(guide, function()
@@ -151,7 +156,7 @@ T A Wild Ride|QID|52438|M|42.70,67.75|Z|Darkshore|N|To Lady Sylvanas Windrunner.
 A A Looming Threat|QID|52806|M|42.70,67.75|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C A Looming Threat|QID|52806|M|44.70,86.77|Z|Darkshore|CHAT|N|Speak with Sylvanas at the Blackwood Den.|
 T A Looming Threat|QID|52806|M|44.70,86.77|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
-N World Quests|N|This opens up the Darkshore World Quests.|AVAILABLE|52967|
+N World Quests|N|This opens up the Darkshore World Quests. The next batch of storyline quests should open next week.|AVAILABLE|52967|
 
 A Saurfang Returns|QID|52967|M|39.51,96.54|Z|Darkshore|N|Autoaccepted when logging in / entering Darkshore.|
 R Lor'danel|ACTIVE|52967|M|52.16,22.45|Z|Darkshore|N|Run to the North side of Lor'danal to meet Saurfang.|
@@ -174,7 +179,7 @@ C Killer Queen|QID|52981|M|46.13,24.28|Z|Darkshore|CHAT|QO|3|N|Follow Saurfang.|
 C Killer Queen|QID|52981|M|45.52,18.27|Z|Darkshore|CHAT|QO|4|N|Speak with Sylvanas|
 T Killer Queen|QID|52981|M|45.52,18.25|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 
-A Hour of Reckoning|QID|53372|N|This will have been autoaccepted last time you were in Orgrimmar, if you don't have it return to Orgrimmar.|
+A Hour of Reckoning|QID|53372|N|When this quest is released (presumably Tue, 7/31) it will be autoaccepted. (Maybe not until you enter Orgrimmar).|
 R Orgrimmar|ACTIVE|53372|U|140192|N|Return to Orgrimmar to continue the story.|
 T Hour of Reckoning|QID|53372|M|50.04,75.91;48.51,70.67|CS|Z|Orgrimmar|N|Return to Saurfang in Grommash Hold.|
 A The Battle for Lordaeron|QID|51796|M|48.51,70.67|Z|Orgrimmar|N|From High Overlord Saurfang.|
@@ -197,8 +202,8 @@ C Follow Nathanos to safety|QID|51796|M|48.60,76.96|Z|Undercity!Ruins of Lordaer
 C The Dark Lady|QID|51796|M|48.11,78.32|Z|Undercity!Ruins of Lordaeron!Instance|SO|13|NC|N|Follow Sylvanas.|
 T The Battle for Lordaeron|QID|51796|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, on top of the Gates of Orgrimmar.|
 
-N Remaining after Launch|N|ends on PTR as of 7/8/18 -- I suspect next quest will be open on Aug 14, but may be part of pre-patch?|
-A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|
+;ends on PTR as of 7/8/18 -- I suspect next quest will be open on Aug 14, but may be part of pre-patch?
+A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller. I believe this quests opens up on Aug 13[US]/14[EU].|
 R The Western Earthshrine|QID|53028|QO|1|M|48.82,38.59|Z|Orgrimmar|N|Fly over to the Uldam Portal for a shortcut to Silithus.|
 R Silithus: The Wound|ACTIVE|53028|M|70.42,87.54|Z|Silithus|N|Fly towards Sargaras' giant sword.|
 T A Dying World|QID|53028|M|42.22,44.28|Z|Silithus|N|To Magni Brozebeard.|
