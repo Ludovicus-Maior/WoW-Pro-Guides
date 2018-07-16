@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2018-06-30 04:26
+-- Who: Emmaleah
+-- Log: added news from spires of arak. Did not put the turn in because this guide ends with you returning to your garrison and it is turned in @ your garrison.  Adding the turn in into the Spires guide.
+
+-- URL: http://wow-pro.com/node/3614/revisions/29375/view
+-- Date: 2018-06-28 15:19
+-- Who: Ludovicus_Maior
+-- Log: Correct QID's for [Orunai Coast] and [Deceptia's Smoldering Boots].
+
+-- URL: http://wow-pro.com/node/3614/revisions/29374/view
 -- Date: 2018-06-27 17:04
 -- Who: Ludovicus_Maior
 -- Log: Edits using Grail to define sufficient, but not absolutely correct PRE tags.
@@ -236,16 +246,6 @@
 -- URL: http://wow-pro.com/node/3614/revisions/26986/view
 -- Date: 2014-11-14 12:17
 -- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3614/revisions/26985/view
--- Date: 2014-11-14 12:04
--- Who: Ludovicus_Maior
--- Log: Draft Talador for Alliance.
-
--- URL: http://wow-pro.com/node/3614/revisions/26779/view
--- Date: 2014-11-02 21:34
--- Who: Ludovicus_Maior
--- Log: Init cut
 
 local guide = WoWPro:RegisterGuide('LudoTalador', 'Leveling', 'Talador', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,94, 96, 94.3154)
@@ -557,9 +557,11 @@ T Dying Wish|QID|33973|M|56.90,25.97|N|To Ahm|
 C Vol. X Pages ?|QID|34094|M|54.2,22.2|N|Kill orcs at the Archenon Siegeyard to get the pages.|US|
 ; [aldavor] added QO|1 otherwise it remains after you kill him up to when you turn in the quest.
 K Ra'tok the Hammer|ACTIVE|34105|M|54.2,22.2|QO|1|N|Ra'tok the Hammer is down the path to the coastline.|T|Ra'tok the Hammer|
-N Bonus Objective|QID|34095|M|54.2,22.2|N|There is a bonus objective there on the coast. Take the path to the coastline.|
 
-N Deceptia's Smoldering Boots|QID|34095|M|58.84,12.07|N|While doing the bonus, you can also get this for your toy box - the camp will explode, and you can find these (cog wheel) on the ground in the remains.|RANK|3|
+A Orunai Coast|QID|35236|M|54.2,22.2|N|There is a bonus objective there on the coast. Take the path to the coastline.|
+C Orunai Coast|QID|35236|M|55.97,16.73|N|Slay Iron Shredders and gather lumber.|S|
+A Deceptia's Smoldering Boots|QID|33933|M|58.84,12.07|N|While doing the bonus, you can also get this for your toy box - the camp will explode, and you can find these (cog wheel) on the ground in the remains.|RANK|3|
+C Orunai Coast|QID|35236|M|55.97,16.73|N|Slay Iron Shredders and gather lumber.|US|
 
 T Iron Them Out|QID|34095|M|63.06,25.84|N|To Yrel|
 T Dreadpiston|QID|34959|M|63.04,25.89|N|To Vindicator Maraad|
@@ -704,6 +706,7 @@ T Together We Are Strong|QID|36512|M|46.32,74.09|N|To Soulbinder Tuulani|
 A Come Together|QID|34707|PRE|34154|M|45.70,74.05|N|From Exarch Maladaar|
 H Fort Wrynn|QID|34707|N|Hearth back or fly or ride to Fort Wrynn|
 T Come Together|QID|34707|M|69.66,21.61|N|To Vindicator Icia|
+A News from the Spires of Arak|QID|35554|M|69.66,21.61|N|From Vindicator Icia|
 
 ; Jorune Mine
 F Terokkar Refuge|QID|34709|N|To Skyguard Amelia|M|69.85,21.49|
