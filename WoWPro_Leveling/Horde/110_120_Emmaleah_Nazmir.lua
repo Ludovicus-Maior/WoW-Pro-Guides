@@ -1,4 +1,32 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-07-11 08:53
+-- Who: Emmaleah
+-- Log: Finish up Western side of Nazmir
+
+-- URL: http://wow-pro.com/node/3766/revisions/29416/view
+-- Date: 2018-07-10 10:31
+-- Who: Emmaleah
+-- Log: First part of Nazmir. 3/8 story arcs done.
+
+-- URL: http://wow-pro.com/node/3766/revisions/29396/view
+-- Date: 2018-07-03 19:59
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3766/revisions/29386/view
+-- Date: 2018-07-03 02:47
+-- Who: Emmaleah
+-- Log: Added an actual stub guide that can load in Wow.
+
+-- URL: http://wow-pro.com/node/3766/revisions/29320/view
+-- Date: 2018-05-25 20:07
+-- Who: Emmaleah
+-- Log: blank stub guide
+
 local guide = WoWPro:RegisterGuide('EmmNazmir', 'Leveling', 'Nazmir', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,110, 120)
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
@@ -19,7 +47,7 @@ C Mista Nice|QID|48405|M|57.11,87.29|Z|Dazar'alor|QO|2|N|Kill Mista Nice.|
 T Mista Nice|QID|48405|M|55.92,88.86|Z|Dazar'alor|N|To Scrollsage Rooka.|
 T Journey to Nazmir|QID|47103|Z|Dazar'alor|M|51.66,41.31|N|To Rokhan.|
 A Nazmir, the Forbidden Swamp|QID|48535|M|51.66,41.31|Z|Dazar'alor|N|From Rokhan.|
-C Nazmir, the Forbidden Swamp|QID|48535|Z|Dazar'alor|QO|1|CHAT|N|Ask Paku'ai Rokota for a ride (chat, not flight path)|
+C Nazmir, the Forbidden Swamp|QID|48535|Z|Dazar'alor|QO|1|CHAT|N|Ask Paku'ai Rokota for a ride  (chat, not flight path)|
 C Nazmir, the Forbidden Swamp|QID|48535|M|53.75,19.19;43.34,86.69|Z|Nazmir|CC|QO|2|NC|N|Meet with Princess Talanji.|
 T Nazmir, the Forbidden Swamp|QID|48535|M|42.99,86.03|Z|Nazmir|N|To Princess Talanji.|
 A Into The Darkness|QID|47105|M|42.99,86.03|Z|Nazmir|N|From Princess Talanji.|
@@ -77,7 +105,7 @@ C The Blood of My Enemies|QID|48584|M|30.19,75.26|Z|Nazmir|S|N|Kill Dreadticks a
 C My Head and Shoulders|QID|48590|M|31.62,73.49|Z|Nazmir|QO|1|NC|N|Pick up Sur'jan's Helm.|
 C My Head and Shoulders|QID|48590|M|31.05,71.38|Z|Nazmir|QO|2|NC|N|Pick up Sur'jan's Left Shoulderpad.|
 C My Head and Shoulders|QID|48590|M|28.79,76.75|Z|Nazmir|QO|3|NC|N|Pick up Sur'jan's Right Shoulderpad.|
-K Infected Direhorn|QID|47877|M|24.53,78.09|QO|1|T|Infected Direhorn|N|You can find this Silver Elite in a cave under a waterfall.|
+K Infected Direhorn|QID|47877|M|24.53,78.09|QO|1|T|Infected Direhorn|N|You can find this Silver Elite in a cave  under a waterfall.|
 C The Blood of My Enemies|QID|48584|M|30.19,75.26|Z|Nazmir|S|N|Finish collecting the Dreadtick blood.|
 C Purge the Infection|QID|48588|M|28.29,75.53|Z|Nazmir|US|N|Now is a good time to finish this bonus objective if you plan to.|
 T Purge the Infection|QID|48588|M|28.29,75.53|Z|Nazmir|N|Autocompleated.|
@@ -120,7 +148,7 @@ C The Shadow of Death|QID|47241|M|35.64,58.55|Z|Nazmir|QO|3|N|Investigate the Sh
 T The Shadow of Death|QID|47241|M|36.64,53.91|Z|Nazmir|N|To Hanzabu.|
 A A Culling of Souls|QID|47244|M|36.64,53.91|Z|Nazmir|N|From Hanzabu.|
 $ Wunja's Trove|QID|12312|M|34.67,54.98;35.41,54.97|CS|N|Stealing from the Blind, For Shame! Treasure to loot and Wunja is a vendor if you want to sell some junk. -- missed QID |
-K Kill Xu'ba|QID|50348|M|36.72,50.81|QO|1|T|Xu'ba|N|Silver Elite for treasure and resources.|
+K Kill  Xu'ba|QID|50348|M|36.72,50.81|QO|1|T|Xu'ba|N|Silver Elite for treasure and resources.|
 C A Culling of Souls|QID|47244|M|38.46,50.12|Z|Nazmir|N|Kill Blood Witch Najima.|
 T A Culling of Souls|QID|47244|M|39.52,43.87|Z|Nazmir|N|To Hanzabu.|
 A Spiritual Restoration|QID|49278|M|39.52,43.87|Z|Nazmir|N|From Hanzabu.|
@@ -232,7 +260,7 @@ A All Hope is Lost|QID|48857|M|30.92,52.04|N|From Kal'dran.|
 C All Hope is Lost|QID|48857|M|30.92,52.04|QO|1|CHAT|N|Calm down Kal'dran.|
 C Conduit Interruption|QID|48856|M|29.68,59.50|S|N|Kill Zardrax Conduits as you go.|
 C Humbling the Terrors|QID|48855|M|29.97,60.15|U|153483|S|N|Use the fetish to weaken the Reconstructed Terrors then kill them.|
-$ Abandoned Treasure|QID|47878|M|29.18,55.83|T|Shambling Ambuser|N|Click on the Abandoned Treasure to wake up the Silver Elite Shambling Ambuser. Kill him for treasure and resources.|
+$ Abandoned Treasure|QID|47878|M|29.18,55.83|T|Shambling Ambuser|N|Click on the Abandoned Treasure to wake up the Silver Elite Shambling Ambuser.  Kill him for treasure and resources.|
 C All Hope is Lost|QID|48857|M|29.08,56.79|QO|2|N|Empowered Kal'dran can be found under the tree roots in a small cave.|
 C Humbling the Terrors|QID|48855|M|29.97,60.15|U|153483|US|N|Finish of the Reconstructed Terrors.|
 C Conduit Interruption|QID|48856|M|29.68,59.50|QO|1|S|N|Finish off the Zardrax Conduits.|
@@ -268,7 +296,7 @@ C Bad To The Bone|QID|49779|M|24.70,45.35|N|Finish off the quota of Bone Raptors
 T Recovering Ancient Fire|QID|49780|M|24.11,53.15|N|To Jin'Tiki.|
 T Bad To The Bone|QID|49779|M|24.13,53.23|N|To Zaluto.|
 A Catch Me if You Can|QID|49781|M|24.13,53.21|N|From Zaluto.|
-C Catch Me if You Can|QID|49781|M|28.24,52.06|NC|N|Hop on Zaluto's raptor. After a bit he stops -- facing Zulajin -- use the 1 key. Run away towards the puddle of tar, in a little while 2 key becomes available, use it. Run away some more and then when the 3 key becomes avaiable -- use it repeatedly until Zulajin is dead.|
+C Catch Me if You Can|QID|49781|M|28.24,52.06|NC|N|Hop on Zaluto's raptor. After a bit he stops -- facing Zulajin -- use the 1 key.  Run away towards the puddle of tar, in a little while 2 key becomes available, use it.  Run away some more and then when the 3 key becomes avaiable -- use it repeatedly until Zulajin is dead.|
 T Catch Me if You Can|QID|49781|M|28.36,52.03|N|To Jin'Tiki.|
 
 ]]
