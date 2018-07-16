@@ -122,7 +122,7 @@ end
 
 -- Create a button --
 local function CreateButton(name, texture, anchor)
-	local button = CreateFrame("Button", name.."Button", WoWPro.RecorderFrame)
+	local button = CreateFrame("Button", "WoWProRecorder"..name.."Button", WoWPro.RecorderFrame)
 	button:SetSize(20,20)
 	button:SetPoint("LEFT", anchor, "RIGHT", 0, 0)
 	button:SetNormalTexture(texture)
@@ -132,13 +132,13 @@ end
 
 -- Recorder Frame --
 function WoWPro.Recorder:CreateRecorderFrame()
-	local recorderframe = CreateFrame("Button", "RecorderFrame", WoWPro.MainFrame)
+	local recorderframe = CreateFrame("Button", "WoWProRecorderFrame", WoWPro.MainFrame)
 	recorderframe:SetHeight(30)
-	recorderframe:SetWidth(225)
 	recorderframe:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
 	recorderframe:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
 	recorderframe:SetBackdrop( {
-		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+		bgFile = WoWProDB.profile.bgtexture,
+		edgeFile = WoWProDB.profile.bordertexture,
 		tile = true, tileSize = 16,
 		insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
 	})
@@ -265,7 +265,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					width = "full",
 					func = function(info,val) 
 						dialog:Close("WoWPro Recorder - Add Step");
-						local x, y = GetPlayerMapPosition("player")
+						local x, y = WoWPro.HBD:GetPlayerZonePosition()
 						local zonetag, note
 						if GetZoneText() ~= WoWPro.Guides[WoWProDB.char.currentguide].zone then zonetag = GetZoneText() else zonetag = nil end
 						if GetUnitName("target") then note = "At "..GetUnitName("target").."." end
@@ -338,7 +338,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					type = "select",
 					name = "Action Type:",
 					desc = "The step's type.",
-					values = WoWPro.Leveling.actionlabels,
+					values = WoWPro.actionlabels,
 					get = function(info) 
 						if WoWPro.Recorder.stepInfo.action then return WoWPro.Recorder.stepInfo.action end
 						if WoWPro.Recorder.QIDtoAdd then
@@ -356,9 +356,12 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					name = "Rank:",
 					desc = "The rank of the step. If you are unsure, leave it as 1.",
 					values = {
-						"Rank 1", 
-						"Rank 2", 
-						"Rank 3"
+                        [-3] = "Rank -3",
+                        [-2] = "Rank -2",
+                        [-1] = "Rank -1",
+                        [1] = "Rank 1",
+                        [2] = "Rank 2",
+                        [3] = "Rank 3",
 					},
 					get = function(info) 
 							local rank = WoWPro.Recorder.stepInfo.rank
@@ -776,7 +779,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					type = "select",
 					name = "Action Type:",
 					desc = "The step's type.",
-					values = WoWPro.Leveling.actionlabels,
+					values = WoWPro.actionlabels,
 					get = function(info) 
 							return WoWPro.action[WoWPro.Recorder.SelectedStep] end,
 					set = function(info,val) 
@@ -791,9 +794,12 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					name = "Rank:",
 					desc = "The rank of the step. If you are unsure, leave it as 1.",
 					values = {
-						"Rank 1", 
-						"Rank 2", 
-						"Rank 3"
+                        [-3] = "Rank -3",
+                        [-2] = "Rank -2",
+                        [-1] = "Rank -1",
+                        [1] = "Rank 1",
+                        [2] = "Rank 2",
+                        [3] = "Rank 3",
 					},
 					get = function(info) 
 							local rank = WoWPro.rank[WoWPro.Recorder.SelectedStep]
@@ -894,12 +900,24 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					order = 10,
 					type = "input",
 					name = "Quest Objective:",
-					width = "full",
 					desc = "If the step completes based on one or two quest objectives, not the whole quest, you can enter the quest objective here. Seperate multiple objectives with semicolons (;)",
 					get = function(info) return WoWPro.questtext[WoWPro.Recorder.SelectedStep] end,
+					set = function(info,val)
+						if val == "" then val = nil end
+						WoWPro.questtext[WoWPro.Recorder.SelectedStep] = val
+						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
+					end,
+				},
+				sobjective = {
+					order = 10,
+					type = "input",
+					name = "Scenario Stage/Objective:",
+					desc = "If the step completes based on a scenario stage or objective, put the stage (or stage and objective separated by a ;) here.",
+					get = function(info) return WoWPro.sobjective[WoWPro.Recorder.SelectedStep] end,
 					set = function(info,val) 
 						if val == "" then val = nil end
-						WoWPro.questtext[WoWPro.Recorder.SelectedStep] = val 
+						WoWPro.sobjective[WoWPro.Recorder.SelectedStep] = val
 						WoWPro:UpdateGuide();
 						WoWPro.Recorder:SaveGuide()
 					end,
@@ -944,6 +962,19 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						WoWPro.Recorder:SaveGuide()
 					end,
 				},
+				active = {
+					order = 13,
+					type = "input",
+					name = "Active QID:",
+					desc = "If a particular quest must be active, list it's QID here. Seperate multiple actives with semicolons (;)",
+					get = function(info) return WoWPro.active[WoWPro.Recorder.SelectedStep] end,
+					set = function(info,val)
+						if val == "" then val = nil end
+						WoWPro.active[WoWPro.Recorder.SelectedStep] = val
+						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
+					end,
+				},
 				opheader = {
 					order = 14,
 					type = "header",
@@ -961,11 +992,35 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						WoWPro.Recorder:SaveGuide()
 					end,
 				},
+				chat = {
+					order = 15,
+					type = "toggle",
+					name = "Chat Step",
+					desc = "Check if this is a chat step.",
+					get = function(info) return WoWPro.chat[WoWPro.Recorder.SelectedStep] end,
+					set = function(info,val)
+						WoWPro.chat[WoWPro.Recorder.SelectedStep] = val
+						WoWPro:UpdateGuide()
+						WoWPro.Recorder:SaveGuide()
+					end,
+				},
+				noncombat = {
+					order = 15,
+					type = "toggle",
+					name = "Non-combat Step",
+					desc = "Check if this is a non-combat step.",
+					get = function(info) return WoWPro.noncombat[WoWPro.Recorder.SelectedStep] end,
+					set = function(info,val)
+						WoWPro.noncombat[WoWPro.Recorder.SelectedStep] = val
+						WoWPro:UpdateGuide()
+						WoWPro.Recorder:SaveGuide()
+					end,
+				},
 				waypcomplete1 = {
 					order = 16,
 					type = "toggle",
 					name = "Waypoint Complete",
-					desc = "Makes a run step complete based on coordinates rather than zone name.",
+					desc = "Makes a run step complete based on coordinates rather than zone name. (CC)",
 					get = function(info) 
 						local wc = WoWPro.waypcomplete[WoWPro.Recorder.SelectedStep]
 						if wc == 1 then wc = true else wc = false end
@@ -979,10 +1034,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					end,
 				},
 				waypcomplete2 = {
-					order = 17,
+					order = 16,
 					type = "toggle",
 					name = "Waypoint Series",
-					desc = "Makes a run step complete based on a series of coordinates, followed in order.",
+					desc = "Makes a run step complete based on a series of coordinates, followed in order. (CS)",
 					get = function(info) 
 						local wc = WoWPro.waypcomplete[WoWPro.Recorder.SelectedStep]
 						if wc == 2 then wc = true else wc = false end
@@ -991,6 +1046,23 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					set = function(info,val) 
 						if val then val = 2 end
 						WoWPro.waypcomplete[WoWPro.Recorder.SelectedStep] = val 
+						WoWPro:UpdateGuide()
+						WoWPro.Recorder:SaveGuide()
+					end,
+				},
+				waypcomplete0 = {
+					order = 16,
+					type = "toggle",
+					name = "Resource List",
+					desc = "Do not complete based on coordinates. Just show the dots. (CN)",
+					get = function(info)
+						local wc = WoWPro.waypcomplete[WoWPro.Recorder.SelectedStep]
+						if wc == 0 then wc = true else wc = false end
+						return wc
+					end,
+					set = function(info,val)
+						if val then val = 0 end
+						WoWPro.waypcomplete[WoWPro.Recorder.SelectedStep] = val
 						WoWPro:UpdateGuide()
 						WoWPro.Recorder:SaveGuide()
 					end,
@@ -1231,8 +1303,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					values = function()
 							local infoTable = {}
 							for GID, guideInfo in pairs(WoWPro.Guides) do
-								infoTable[GID] = guideInfo.author.."'s "..guideInfo.zone.." "
-									..GID
+								infoTable[GID] = GID .." "..guideInfo.zone.." by "..guideInfo.author
+								if WoWPro_RecorderDB[GID] then
+								    infoTable[GID] = "!" .. infoTable[GID]
+								end
 							end
 							return infoTable
 						end,
@@ -1311,7 +1385,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					type = "execute",
 					name = "Delete",
 					width = "full",
-					func = function(info,val) 
+					func = function(info,val)
+					    if WoWPro.Guides[WoWProDB.char.currentguide].original then
+					        WoWPro.Guides[WoWProDB.char.currentguide] = WoWPro.Guides[WoWProDB.char.currentguide].original
+					    end
 						WoWPro_RecorderDB[WoWProDB.char.currentguide] = nil
 						WoWProDB.char.currentguide = nil
 						WoWPro:LoadGuide()
@@ -1338,32 +1415,28 @@ end
 -- Customizing Recorder Frame --
 function WoWPro.Recorder:CustomizeFrames()
 	if not WoWPro.RecorderFrame then return end
+	WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): Start.")
 	WoWPro.RecorderFrame:SetBackdrop( {
-		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+		bgFile = WoWProDB.profile.bgtexture,
 		edgeFile = WoWProDB.profile.bordertexture,
 		tile = true, tileSize = 16, edgeSize = 16,
 		insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
 	})
 	WoWPro.RecorderFrame:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])	
 	if WoWProDB.profile.border then 
-		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 1) 
-		WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 1) 
+		WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 1)
 	else 
 		WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 0) 
 	end
 	
 	--Minimum Frame Size to match --
-	if WoWProDB.profile.hminresize < 250 then WoWProDB.profile.hminresize = 250 end
+	if WoWProDB.profile.hminresize < 250 then
+	    WoWProDB.profile.hminresize = 250
+	end
 	if WoWPro.MainFrame:GetWidth() < 250 then
-	
-		-- AnchorFrame --
---		WoWPro.AnchorFrame:SetWidth(250)
-		
 		-- MainFrame --
+		WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): MainFrame too small. Resetting.")
 		WoWPro.MainFrame:SetWidth(250)
-		WoWPro.MainFrame:ClearAllPoints()
-		WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
-		
 	end
 end
 

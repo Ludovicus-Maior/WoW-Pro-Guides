@@ -53,11 +53,19 @@ function WoWPro.Recorder:RegisterSavedGuides()
 	local myUFG = UnitFactionGroup("player")
 	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
 		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
-		WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
+		if WoWPro.Guides[GID] then
+		    -- We have a guide by this name already
+		    local original = WoWPro.Guides[GID]
+		    WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
+		    WoWPro.Guides[GID].original = original
+		    WoWPro.Recorder:print("Overwriting guide [%s] with recorder version.",GID)
+		else
+		    WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guideInfo)
+		    WoWPro.Recorder:print("Inserting recorder guide [%s].",GID)
+		end
 		-- Change the ||'s into |'s like the real guides
 		local sequence_string = (guideInfo.sequence):gsub("||", "|")
-                -- This needs to be kosher, in case we go through a portal.
-                WoWPro.Guides[GID].sequence = function () return sequence_string:gsub("||", "|"); end
+		WoWPro.Guides[GID].sequence = function () return sequence_string; end
 		WoWPro.Guides[GID].startlevel = tonumber(WoWPro.Guides[GID].startlevel)
 		WoWPro.Guides[GID].endlevel = tonumber(WoWPro.Guides[GID].endlevel)
 	end
@@ -89,12 +97,15 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 	WoWPro.Recorder:dbp(event.." event fired.")
 	if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
 
-	local x, y = GetPlayerMapPosition("player")
+	local x, y = WoWPro.HBD:GetPlayerZonePosition()
 	local zonetag = WoWPro.GetZoneText()
 	if zonetag == WoWPro.Guides[GID].zone then
 	    zonetag = nil
 	end
-
+    local mapxy = nil
+    if x and y then
+        mapxy = string.format("%.2f,%.2f", x*100,y*100)
+    end
 
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.Recorder:dbp("CHAT_MSG_SYSTEM detected.")
@@ -105,7 +116,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				action = "h",
 				step = loc,
 				QID = WoWPro.Recorder.lastStep,
-				map = string.format("%.2f,%.2f", x*100,y*100),
+				map = mapxy,
 				zone = zonetag
 			}
 			if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
@@ -136,7 +147,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				action = "f",
 				step = GetSubZoneText() or GetZoneText(),
 				QID = WoWPro.Recorder.lastStep,
-				map = string.format("%.2f,%.2f", x*100,y*100),
+				map = mapxy,
 				zone = zonetag
 			}
 			if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
@@ -155,7 +166,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				action = "A",
 				step = questInfo.title,
 				QID = WoWPro.newQuest,
-				map = string.format("%.2f,%.2f", x*100,y*100),
+				map = mapxy,
 				zone = zonetag,
 				class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog)
 			}
@@ -171,7 +182,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				action = "T",
 				step = questInfo.title,
 				QID = WoWPro.missingQuest,
-				map = string.format("%.2f,%.2f", x*100,y*100),
+				map = mapxy,
 				zone = zonetag,
 				class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
 			}
@@ -192,7 +203,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         							action = "C",
         							step = WoWPro.QuestLog[QID].title,
         							QID = QID,
-        							map = string.format("%.2f,%.2f", x*100,y*100),
+                                    map = mapxy,
         							zone = zonetag,
         							noncombat = nc,
         							use = WoWPro.QuestLog[QID].use,
@@ -225,6 +236,7 @@ function WoWPro.Recorder.PostGuideLoad()
 end
 
 function WoWPro.Recorder.PostUpdateGuide()
+    WoWPro.Recorder:CustomizeFrames()
     if not WoWPro.Recorder.SelectedStep then
         if WoWPro.ActiveStep then
             WoWPro.Recorder.SelectedStep = WoWPro.ActiveStep
@@ -313,7 +325,7 @@ end
 
 function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
     local GID = WoWProDB.char.currentguide
-    local x, y = GetPlayerMapPosition("player")
+    local x, y = WoWPro.HBD:GetPlayerZonePosition()
     local zonetag = WoWPro.GetZoneText()
     if zonetag == WoWPro.Guides[GID].zone then
         zonetag = nil
@@ -329,11 +341,13 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
                     local stepInfo = {
                         action = "C",
                         step = scenario.Criteria[criteriaIndex].criteriaString,
-                        map = string.format("%.2f,%.2f", x*100,y*100),
                         zone = zonetag,
                         note = scenario.Criteria[criteriaIndex].criteriaString,
                         sobjective = string.format("%d;%d", scenario.currentStage, criteriaIndex),
                     }
+                    if x and y then
+                        stepInfo.map = string.format("%.2f,%.2f", x*100,y*100)
+                    end
                     WoWPro.Recorder:Print("Completed criteria: %s", stepInfo.step)
                     WoWPro.Recorder.AddStep(stepInfo)
                 end
@@ -347,11 +361,13 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
                     local stepInfo = {
                            action = "C",
                            step = old_scenario.Criteria[criteriaIndex].criteriaString,
-                           map = string.format("%.2f,%.2f", x*100,y*100),
                            zone = zonetag,
                            note = old_scenario.Criteria[criteriaIndex].criteriaString,
                            sobjective = string.format("%d;%d", old_scenario.currentStage, criteriaIndex),
                     }
+                    if x and y then
+                        stepInfo.map = string.format("%.2f,%.2f", x*100,y*100)
+                    end
                     WoWPro.Recorder:Print("Assuming Completed criteria: %s", stepInfo.step)
                     WoWPro.Recorder.AddStep(stepInfo)
                 end
@@ -394,23 +410,20 @@ function WoWPro.Recorder:RowUpdate(offset)
 	WoWPro.Recorder.RowDropdownMenu = {}
 	for i,row in pairs(WoWPro.rows) do
 		local dropdown = {
-			{text = "Move Up", func = function()
+			{text = "Move Earlier", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == 1 then return end
 				for tag,_ in pairs(WoWPro.Tags) do
 				    local a = WoWPro[tag][pos]
 				    local b = WoWPro[tag][pos-1]
 				    WoWPro[tag][pos] = b
-				    WoWPro[tag][pos+1] = a
-				end
-				for tag,_ in pairs(WoWPro.Tags) do 
-					table.remove(WoWPro[tag], pos+1)
+				    WoWPro[tag][pos-1] = a
 				end
 				WoWPro.Recorder.SelectedStep = pos-1
-				WoWPro.Recorder:CheckpointCurrentGuide("MoveUp")
-				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveUp)")
+				WoWPro.Recorder:CheckpointCurrentGuide("MoveEarlier")
+				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveEarlier)")
 			end},
-			{text = "Move Down", func = function()
+			{text = "Move Later", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == WoWPro.stepcount then return end
 				for tag,_ in pairs(WoWPro.Tags) do 
@@ -420,8 +433,8 @@ function WoWPro.Recorder:RowUpdate(offset)
 				    WoWPro[tag][pos+1] = a
 				end
 				WoWPro.Recorder.SelectedStep = pos+1
-				WoWPro.Recorder:CheckpointCurrentGuide("MoveDown")
-				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveDown)")
+				WoWPro.Recorder:CheckpointCurrentGuide("MoveLater")
+				WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveLater)")
 			end},
 			{text = "Clone Step", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
@@ -584,7 +597,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	local GID = WoWProDB.char.currentguide
 
     local function quoted(str)
-        if str == nil then
+        if (str == nil) or (str == 'nil') then
             return "nil"
         else
             return "'"..tostring(str).."'"
@@ -612,13 +625,13 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	end
 	
 	local sequence_string = table.concat(sequence,"\n")
-	WoWPro.Guides[GID].sequence = function () return sequence_string; end
+	-- This needs to be kosher, in case we go through a portal.
+	WoWPro.Guides[GID].sequence = function () return sequence_string:gsub("||", "|"); end
 
 	local guideString = header.. sequence_string .."\n]]\n\nend)"
 	
 	WoWPro_RecorderDB[GID] = WoWPro.ShallowCopyTable(WoWPro.Guides[GID])
 	WoWPro_RecorderDB[GID].sequence = sequence_string
-	WoWPro.Recorder:RegisterSavedGuides()
 	WoWPro.Recorder:dbp("WoWPro.Recorder:CheckpointCurrentGuide(%s)",why)
 	return guideString
 end

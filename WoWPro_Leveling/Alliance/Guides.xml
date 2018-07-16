@@ -58,4 +58,9 @@
   <Script file="98_100_Ludovico_Nagrand.lua"/>
   <Script file="100_100_Emmaleah_LegionIntro.lua"/>
   <Script file="100_109_Ludovicus_Stormheim.lua"/>
+  <Script file="110_110_STrek_BurnTedrazil.lua"/>
+  <Script file="110_110_Emmaleah_WarCampaign.lua"/>
+  <Script file="110_120_Emmaleah_Tiragarde.lua"/>
+  <Script file="110_120_Freitas_Stormsong.lua"/>
+  <Script file="110_120_STrek_Drustvar.lua" />
 </Ui>

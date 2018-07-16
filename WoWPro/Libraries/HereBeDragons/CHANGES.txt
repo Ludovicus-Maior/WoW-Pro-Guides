@@ -1,0 +1,8 @@
+Changes since tag 1.92-beta
+
+commit d6e04fda96a84f89a43d248c3a6e195b4e414bcf
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Sun Jul 1 12:37:59 2018 +0200
+
+    Update transform data for the latest beta build
+

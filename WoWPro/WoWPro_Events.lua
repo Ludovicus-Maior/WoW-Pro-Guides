@@ -167,8 +167,8 @@ end
 
 -- Save Garrison Building Locations for the BUILDING tag
 function WoWPro.SaveGarrisonBuildings()
-    local mapID = GetCurrentMapAreaID()
-    if (mapID == WoWPro.Zone2MapID['Lunarfall'].mapID) or (mapID == WoWPro.Zone2MapID['Frostwall'].mapID) then
+    local zone, mapId = WoWPro.GetZoneText()
+    if (zone == 'Lunarfall') or (zone == 'Frostwall') then
         WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
         -- We just moved into the zone
         local numPOIs = GetNumMapLandmarks();
@@ -180,7 +180,7 @@ function WoWPro.SaveGarrisonBuildings()
                 name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = GetMapLandmarkInfo(i)
             end
             WoWProCharDB.BuildingLocations[name] = {x=(100*x), y=(100*y)}
-            WoWPro.dbp("Building %s @ %g,%g", name, 100*x, 100*y)
+            WoWPro:dbp("Building %s @ %g,%g", name, 100*x, 100*y)
         end
     end
 end
@@ -314,21 +314,20 @@ function WoWPro.AutoCompleteCriteria()
 	local GID = WoWProDB.char.currentguide
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 	        WoWPro.CompleteStep(qidx,"AutoCompleteCriteria")
-	end			
-	
+	end
 end
 
 -- Auto-Complete: Chest Loot, for the silly timeless isle chests
 function WoWPro.AutoCompleteChest()
     if not WoWProDB.char.currentguide then return end
-    if 951 ~= GetCurrentMapAreaID() then return end
-
+    local zone, map = WoWPro.GetZoneText()
+    if zone == "Timeless Isle" then
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 	local GID = WoWProDB.char.currentguide
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 	        WoWPro.CompleteStep(qidx,"AutoCompleteChest")
-	end			
-	
+	end
+    end
 end
 
 -- Auto-Complete: Level based --
@@ -338,8 +337,8 @@ function WoWPro:AutoCompleteLevel(...)
 		local GID = WoWProDB.char.currentguide
 		if not WoWProCharDB.Guide[GID] then return end
 		for i=1,WoWPro.stepcount do
-			if not WoWProCharDB.Guide[GID].completion[i] 
-				and WoWPro.level[i] 
+			if not WoWProCharDB.Guide[GID].completion[i]
+				and WoWPro.level[i]
 				and tonumber(WoWPro.level[i]) <= newlevel then
 					WoWPro.CompleteStep(i,"AutoCompleteLevel")
 			end
@@ -520,7 +519,7 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
     end)
 
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
-WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
+-- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
 
 -- Lets see what quests the NPC has:
 WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function (event,...)
@@ -849,7 +848,7 @@ function WoWPro.EventHandler(frame, event, ...)
         WoWPro[event](event, ...)
     else
         if WoWPro[event] then
-            WoWPro:LogEvent("WP:"..event,...)
+            WoWPro:LogEvent("Handled: "..event,...)
         else
             WoWPro:LogEvent(event,...)
         end
@@ -892,7 +891,10 @@ function WoWPro.EventHandler(frame, event, ...)
 		and WoWProDB.char.currentguide
 		and WoWPro.Guides[WoWProDB.char.currentguide]
 		and guidetype == name
-		then WoWPro[name]:EventHandler(frame, event, ...) end
+		then
+		    WoWPro:dbp("Now calling event handler for %s",name)
+		    WoWPro[name]:EventHandler(frame, event, ...)
+		end
 	end
 end
 

@@ -10,8 +10,7 @@ local function handler(msg, editbox)
     local ltoken = tokens[1] and tokens[1]:lower()
 
     if ltoken == "where" then
-        SetMapToCurrentZone()
-        local X, Y = GetPlayerMapPosition("player")
+        local X, Y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
         if (not X) or (not Y) then
             local msg = string.format("Player at ?@%s", WoWPro.GetZoneText())
             ChatFrame1:AddMessage(msg)
@@ -19,14 +18,25 @@ local function handler(msg, editbox)
             local msg = string.format("Player at %.2f,%.2f@%s", X*100, Y*100, WoWPro.GetZoneText())
             ChatFrame1:AddMessage(msg)
         end
+    elseif ltoken == 'etrace-start' then
+        WoWPro:print(msg)
+        WoWPro.RegisterAllEvents()
+    elseif ltoken == 'etrace-end' then
+        WoWPro:print(msg)
+        WoWPro.UnregisterAllEvents()
+        WoWPro:RegisterEvents()
+    elseif ltoken == 'clear-log' then
+        WoWPro:LogClear("Command Line")
+    elseif ltoken == 'log' then
+        WoWPro:LogShow()
     elseif ltoken == "taint" then
         WoWProDB.global.Tainted = {}
         local now = date("%Y%m%d%H%M")
         for key in pairs(_G) do
             local isSecure, taint = issecurevariable(key)
             if not isSecure then
-                if taint == "WoWPro" then
-                    WoWPro:Warning("Variable %s tainted by WoWPro", key, taint)
+                if (taint == "WoWPro") or (taint == "TomTom") then
+                    WoWPro:Warning("%s %s tainted by %s", type(_G[key]), key, taint)
                 end
                 WoWProDB.global.Tainted[taint] = WoWProDB.global.Tainted[taint] or {}
                 WoWProDB.global.Tainted[taint][key] =  now
@@ -57,7 +67,7 @@ local function handler(msg, editbox)
         local msg = string.format("Blizzard API stored in: <World\ of\ Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
         ChatFrame1:AddMessage(msg)
     else
-        local msg = string.format("%s or %s [where|taint]", SLASH_WOWPRO1, SLASH_WOWPRO2)
+        local msg = string.format("%s or %s [where¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe]", SLASH_WOWPRO1, SLASH_WOWPRO2)
         ChatFrame1:AddMessage(msg)
     end
 end

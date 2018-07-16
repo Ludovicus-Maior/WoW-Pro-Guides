@@ -4,7 +4,7 @@
 
 local L = WoWPro_Locale
 local cache = {}
-local HBD = LibStub("HereBeDragons-1.0")
+local HBD = LibStub("HereBeDragons-2.0")
 WoWPro.HBD = HBD
 
 -- placeholder flags in case you want to implement options to disable
@@ -259,7 +259,7 @@ local zidmap = {
 
 function WoWPro:findBlizzCoords(questId)
 	local POIFrame
-
+--[[
     	-- Try to find the correct quest frame
     	for i = 1, MAX_NUM_QUESTS do
         	local questFrame = _G["WorldMapQuestFrame"..i];
@@ -293,11 +293,13 @@ function WoWPro:findBlizzCoords(questId)
     	end
 
     	return cx * 100, cy * 100
+]]
+        return nil, nil
 end
 
 local FinalCoord
 function WoWPro:MapPointDelta()
-    local x, y = GetPlayerMapPosition("player");
+    local x, y = WoWPro.HBD:GetPlayerZonePosition()
     if FinalCoord and x and y then
         local X,Y
         X=FinalCoord[1]
@@ -325,29 +327,10 @@ function WoWPro.DistanceBetweenSteps(i,j)
     local iy = tonumber(icoord:match(",([^|]*)"))/100
     local jx = tonumber(jcoord:match("([^|]*),"))/100
     local jy = tonumber(jcoord:match(",([^|]*)"))/100
-    local im
-    local jm
-    local ifl
-    local jfl 
-    if WoWPro.zone[i]:match("/") then
-        local nzone , floor = string.split("/",WoWPro.zone[i])
-        im = WoWPro.Zone2MapID[nzone].mapID
-        ifl = tonumber(floor)
-    else
-        im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
-        ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
-    end
-    if WoWPro.zone[j]:match("/") then
-        local nzone , floor = string.split("/",WoWPro.zone[j])
-        jm = WoWPro.Zone2MapID[nzone].mapID
-        jfl = tonumber(floor)
-    else
-        jm = WoWPro.Zone2MapID[WoWPro.zone[j]].mapID
-        jfl = WoWPro.Zone2MapID[WoWPro.zone[j]].floor or 0
-    end
-
+    local im = WoWPro:ValidZone(WoWPro.zone[i])
+    local jm = WoWPro:ValidZone(WoWPro.zone[j])
     
-    local distance = HBD:GetZoneDistance(im,ifl,ix,iy, jm,jfl,jx,jy) or 1e198
+    local distance = WoWPro.HBD:GetZoneDistance(im,ix,iy, jm,jx,jy) or 1e198
     WoWPro:dbp("Dx %s(%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",WoWPro.step[i],ix*100,iy*100,im, WoWPro.step[j],jx*100,jy*100,jm,distance)
     return distance
 end
@@ -362,39 +345,19 @@ function WoWPro.DistanceToStep(i)
     local ix = select(1, string.split(",", icoord))
     local iy = select(2, string.split(",", icoord))
     local im
-    local ifl
     ix = tonumber(ix) / 100
     iy = tonumber(iy) / 100
-    im, ifl = WoWPro:ValidZone(WoWPro.zone[i])
+    im = WoWPro:ValidZone(WoWPro.zone[i])
 --    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
-    local x, y = GetPlayerMapPosition("player")
+    local x, y, m = WoWPro.HBD:GetPlayerZonePosition()
     if (not x) or (not y) then
         return 1e99
     end
-    local m = GetCurrentMapAreaID()
-    local f = GetCurrentMapDungeonLevel()
     
-    local distance = HBD:GetZoneDistance(m,f,x,y, im,ifl,ix,iy) or 1e199
+    local distance = WoWPro.HBD:GetZoneDistance(m,x,y, im,ix,iy) or 1e199
     WoWPro:dbp("IDx (%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",x*100,y*100,m, WoWPro.step[i],ix*100,iy*100,im,distance)
     return distance
 end
-
-function WoWPro:ValidZone(zone)
-	if zone then
-	    if tonumber(zone) then
-	        -- Using a numeric zone ID
-            return tonumber(zone), 0
-	    elseif WoWPro.Zone2MapID[zone] then
-	        -- Zone found in DB
-	        return zone, (WoWPro.Zone2MapID[zone].floor or 0)
-	    elseif zone:match("/") then
-	        local nzone , floor = string.split("/",zone)
-	        return WoWPro:ValidZone(nzone), tonumber(floor)
-	    end
-    end    
-    return nil
-end
-
 
 function WoWPro:ValidateMapCoords(guide,action,step,coords)
 	local numcoords = select("#", string.split(";", coords))
@@ -456,15 +419,6 @@ function WoWPro:MapPoint(row)
 	zone = WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
 	autoarrival = WoWPro.waypcomplete[i]
 
-	if zone:match("/") then
-	    -- Well, they have a floor specified
-	    zone , floor = string.split("/",zone)
-	    floor = tonumber(floor)
-	    if not zone then
-	        zone = strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
-	    end
-	end
-
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
 	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
 		QuestMapUpdateAllQuests()
@@ -510,30 +464,18 @@ function WoWPro:MapPoint(row)
 	end
 
 	-- Finding the zone --
-	local zm,zf,zc,zi
-	zm = nil
+	local zm = nil
 	if zone then
-	    if tonumber(zone) then
-	        -- Using a numeric zone ID
-	        zm = tonumber(zone)
-	        zf = floor
-	    elseif WoWPro.Zone2MapID[zone] then
-	        -- Zone found in DB
-	        zm = WoWPro.Zone2MapID[zone].mapID
-	        zf = floor or WoWPro.Zone2MapID[zone].floor
-	        zc = WoWPro.Zone2MapID[zone].cont
-	        zi = WoWPro.Zone2MapID[zone].zonei
-	        WoWPro:dbp("MapPoint: zone [%s] mapped to %d/%d", zone, zm, zf)
-	    end
+	    zone, zm = WoWPro:ValidZone(zone)
+	    WoWPro:dbp("MapPoint: zone [%s] mapped to %d", zone, zm)
     end
 
     if not zm then
-	    zm = GetCurrentMapAreaID()
-	    zf = GetCurrentMapDungeonLevel()
-	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id "..tostring(zm))
+	    zone, zm = WoWPro.GetZoneText()
+	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
 	end
 
-	if TomTom and TomTom.AddMFWaypoint and TomTom.db then
+	if TomTom and TomTom.AddWaypoint and TomTom.db then
 		    TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
@@ -573,7 +515,15 @@ function WoWPro:MapPoint(row)
 				else
 				    title = desc
 				end
-				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
+				local options = {
+				    title = title,
+				    callbacks = WoWProMapping_callbacks_tomtom,
+				    minimap_icon = "Interface\\AddOns\\WoWPro\\Textures\\GoldRing",
+				    worldmap_icon = "Interface\\AddOns\\WoWPro\\Textures\\GoldRing",
+				    persistent=false
+				}
+
+				uid = TomTom:AddWaypoint(zm, x/100, y/100, options)
 				if not uid then
 				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
 				end
@@ -581,7 +531,6 @@ function WoWPro:MapPoint(row)
 				waypoint.index = i
 				waypoint.zone = zone
 				waypoint.map = zm
-				waypoint.floor = zf
 				waypoint.x = x
 				waypoint.y = y
 				waypoint.desc = desc
@@ -658,44 +607,29 @@ function WoWPro:RemoveMapPoint()
 end
 
 function  WoWPro.CheckHBDData(force)
-    local x, y, map, pizo, mapFile, isMicroDungeon = HBD:GetPlayerZonePosition()
-    if not (map and pizo) then
+    local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
+    if not (x and y) then
         WoWPro:dbp("CheckHBDData(): No player position yet!")
         -- We are not mapped yet.
         return
     end
-    local width, height = HBD:GetZoneSize(map, pizo)
+    local width, height = WoWPro.HBD:GetZoneSize(mapId)
     if (not force) and width > 0 and height > 0 then
         -- We have data
-        WoWPro:dbp("Map data present for %d/%d", map, pizo)
+        WoWPro:dbp("Map data present for %d-%d", mapId, mapType)
         return
     end
     -- Hey!  No data!
-    local mapData = {}
-    local l, TLx, TLy, BRx, BRy =  GetCurrentMapDungeonLevel();
-    if not TLx then
-        WoWPro:dbp("GCMDL failed for %d/%d", map, pizo)
-        return
-    end
-	mapData.width = BRx - TLx
-	mapData.height = BRy - TLy
-	mapData.xOffset = -TLx
-	mapData.yOffset = -TLy
-	
-	WoWPro:print("You discovered new map info for %s:%s. Please report this on the WoWPro.com website.", GetZoneText(), string.trim(GetSubZoneText()))
-	-- WorldMapSize[27][10] = { xOffset =  -500.000000, height = 380.000000, yOffset =  5242.500000, width = 570.000000 , __index = zeroDataFunc };
-	WoWPro:print("[%d][%d] = { xOffset = %f, height = %f, yOffset = %f, width = %f}", map, pizo, mapData.xOffset,  mapData.height,  mapData.yOffset, mapData.width)
+	WoWPro:print("You discovered new map %d info for %s:%s. Please report this on the WoWPro.com website.", mapId, GetZoneText(), string.trim(GetSubZoneText()))
 end
 
 function WoWPro:LogLocation()
-    local x, y = HBD:GetPlayerZonePosition()
+    local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
 
     if not (x and y) then
-        WoWPro:print("Player map and floor unknown")
+        WoWPro:print("Player [?,?@%d/%d] '%s' aka '%s'", mapId, mapType, WoWPro.GetZoneText(), GetZoneText() )
     else
-        local mapID = GetCurrentMapAreaID()
-        local level = GetCurrentMapDungeonLevel()
-        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", x*100 , y*100, mapID, level, GetMapNameByID(mapID), GetZoneText() )
+        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", x*100 , y*100, mapId, mapType, WoWPro.GetZoneText(), GetZoneText() )
     end
 end
 

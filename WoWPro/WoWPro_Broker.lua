@@ -774,8 +774,8 @@ function WoWPro:RowUpdate(offset)
 	WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
 
 	if not WoWPro.MaybeCombatLockdown() then
-	    WoWPro:RowSizeSet()
-	    WoWPro:PaddingSet()
+	    WoWPro.RowSizeSet()
+	    WoWPro.PaddingSet()
 	end
 
 	return reload
@@ -876,9 +876,9 @@ function WoWPro.UpdateGuideReal(From)
 	end
 	
 	-- Update content and formatting --
-	WoWPro:RowSet();
-	WoWPro:RowSet();
-	WoWPro:PaddingSet();
+	WoWPro.RowSet();
+	WoWPro.RowSet();
+	WoWPro.PaddingSet();
 	
 	-- Updating the guide list or current guide panels if they are shown --
 	if WoWPro[module:GetName()].GuideList
@@ -2291,7 +2291,7 @@ function WoWPro:SkipAll()
 end
 
 function WoWPro:DoQuest(qid)
-    WoWPro:Print("Marking QID %s for execution.",tostring(qid))
+    WoWPro:Print("Marking QID %s for execution.",qid)
     local GID = WoWProDB.char.currentguide
     qid = tonumber(qid)
 	for index=1, WoWPro.stepcount do
@@ -2572,7 +2572,7 @@ function WoWPro.LockdownHandler(self, elapsed)
 	if WoWPro.LockdownTimer ~= nil then
 		WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
 		if WoWPro.LockdownTimer < 0 then
-			if TomTom and TomTom.AddMFWaypoint then
+			if TomTom and TomTom.AddWaypoint then
 				WoWPro:CarboniteProfileHack()
 			else 
 				WoWPro:Warning("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
