@@ -1,4 +1,16 @@
 ------------------------------------------------------------------------
+r1179 | nevcairiel | 2018-07-15 09:03:08 +0000 (Sun, 15 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+
+AceGUI-3.0: Checkbox: Restore previous width setting, or wrap doesn't work properly
+------------------------------------------------------------------------
+r1178 | nevcairiel | 2018-07-15 08:56:23 +0000 (Sun, 15 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+
+AceGUI-3.0: Checkbox: Change internal anchoring to work around a layout issue in WoW 8.0/BfA
+------------------------------------------------------------------------
 r1177 | nevcairiel | 2018-06-25 12:12:48 +0000 (Mon, 25 Jun 2018) | 1 line
 Changed paths:
    M /trunk/AceGUI-3.0/AceGUI-3.0.lua
