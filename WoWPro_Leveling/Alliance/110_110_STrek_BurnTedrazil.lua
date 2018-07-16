@@ -28,9 +28,11 @@
 -- Who: STrek
 -- Log: start pre patch guide
 
-local guide = WoWPro:RegisterGuide('BurnTedrazilSTrek', 'Leveling', 'Darkshore', 'STrek', 'Alliance')
-WoWPro:GuideLevels(guide,110, 110)
+local guide = WoWPro:RegisterGuide('BurnTedrazilSTrek', 'Leveling', 'Azeroth', 'STrek', 'Alliance')
+WoWPro:NewGuideLevels(guide,110, 110, 110.5)
+WoWPro:GuideName(guide,'Battle for Azeroth Intro')
 WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
+WoWPro:GuideQuestTriggers(guide, 52058)
 WoWPro:GuideSteps(guide, function()
 return [[
 
