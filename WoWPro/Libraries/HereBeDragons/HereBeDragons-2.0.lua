@@ -5,7 +5,7 @@ if select(4, GetBuildInfo()) < 80000 then
     return
 end
 
-local MAJOR, MINOR = "HereBeDragons-2.0", 5
+local MAJOR, MINOR = "HereBeDragons-2.0", 6
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -83,9 +83,9 @@ if not oldversion or oldversion < 3 then
     -- map transform data extracted from UIMapAssignment.db2 (see HereBeDragons-Scripts on GitHub)
     -- format: instanceID, newInstanceID, minY, maxY, minX, maxX, offsetY, offsetX
     local transformData = {
-        { 530, 1, -6933.33, 533.33, -16000, -8000, 10133.3, 17600 },
         { 530, 0, 4800, 16000, -10133.3, -2666.67, -2400, 2400 },
-        { 732, 0, -20000, 20000, -20000, 20000, -1600, 2800 },
+        { 530, 1, -6933.33, 533.33, -16000, -8000, 10133.3, 17600 },
+        { 732, 0, -3200, 533.3, -533.3, 2666.7, -611.8, 3904.3 },
         { 1064, 870, 5391, 8148, 3518, 7655, -2134.2, -2286.6 },
         { 1208, 1116, -2666, -2133, -2133, -1600, 10210, 2410 },
         { 1460, 1220, -1066.7, 2133.3, 0, 3200, -2333.9, 966.7 },
