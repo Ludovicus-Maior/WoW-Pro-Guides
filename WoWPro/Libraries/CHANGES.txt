@@ -1,4 +1,16 @@
 ------------------------------------------------------------------------
+r1181 | nevcairiel | 2018-07-17 12:42:59 +0000 (Tue, 17 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/changelog.txt
+
+Update changelog
+------------------------------------------------------------------------
+r1180 | nevcairiel | 2018-07-17 12:42:35 +0000 (Tue, 17 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Update TOC for 8.0
+------------------------------------------------------------------------
 r1179 | nevcairiel | 2018-07-15 09:03:08 +0000 (Sun, 15 Jul 2018) | 1 line
 Changed paths:
    M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua

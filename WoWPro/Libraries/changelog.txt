@@ -1,3 +1,13 @@
+Ace3 Release - Revision r1182 (July 17th, 2018)
+-----------------------------------------------
+- AceComm-3.0: Support numeric targets for custom channels (Ticket #419)
+- AceComm-3.0/ChatThrottleLib: Updated for WoW 8.0 API changes
+- AceConfig-3.0: Allow number values for the "width" parameter, which acts as a multiplier of the default width
+- AceConfigDialog-3.0: Enable iconCoords for the main level of a tree group (Ticket #417)
+- AceGUI-3.0: Implement a Table Layout (#442)
+- AceGUI-3.0: EditBox: Only try to handle dragging if a valid object is being dragged into the text box
+- AceGUI-3.0: Various fixes and work-arounds for WoW 8.0 changes
+
 Ace3 Release - Revision r1166 (August 29th, 2017)
 -------------------------------------------------
 - Updated any use of PlaySound to the new numeric constants (Fix for WoW 7.3)
