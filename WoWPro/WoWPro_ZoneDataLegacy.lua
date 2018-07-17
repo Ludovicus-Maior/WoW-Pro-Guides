@@ -2,6 +2,7 @@
 -- OK, here is the crutch to tide us over
 -- function WoWPro.DefineLegacyZone(legacy_zone, legacy_floor, modern_mapId)
 local DefineLegacyZone = WoWPro.DefineLegacyZone
+local DefineLegacyZoneFloor = WoWPro.DefineLegacyZoneFloor
 local hbdm = LibStub("HereBeDragons-Migrate")
 local LegacyMapOffsets = {}
 WoWPro.LegacyMapOffsets = LegacyMapOffsets
@@ -26,6 +27,10 @@ local function DefineDungeonArea(mapID, floor, zi, dungeon, mapName)
     local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, floor)
     if map_id then
         DefineLegacyZone(zi, map_id)
+        local child , parent = string.split("@",zi)
+        if parent then
+            DefineLegacyZoneFloor(parent, floor + LegacyMapOffsets[mapID], map_id)
+        end
     else
         WoWPro:print("DefineDungeonArea(%d,%d,%q): No mapping found.",mapID, floor, zi)
     end
@@ -62,10 +67,14 @@ end
 
 -- DefineTerrainFloor(1, 5,   9, 6,"Palemane Rock@Mulgore","Palemane Rock")
 local function DefineTerrainFloor(cont, zonei, mapID, floor, zone, mapName)
-    -- Associate zonei with the mapID/0 pair
+    -- Associate zonei with the mapID/0=floor pair
     local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, floor)
     if map_id then
         DefineLegacyZone(zone, map_id)
+        local child , parent = string.split("@",zone)
+        if parent then
+            DefineLegacyZoneFloor(parent, floor, map_id)
+        end
     else
         WoWPro:print("DefineTerrainFloor(%d,%d,%d,%d,%q): No mapping found.",cont, zonei, mapID, floor, zone)
     end

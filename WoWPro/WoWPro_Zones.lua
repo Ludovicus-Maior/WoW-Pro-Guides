@@ -8,9 +8,16 @@ WoWPro.MapInfo = {}
 WoWPro.Zone2MapID = {}
 WoWPro.LegacyZone2MapID = {}
 
-function WoWPro.DefineLegacyZone(legacy_zone,  modern_mapId)
-    WoWPro.LegacyZone2MapID[legacy_zone] = modern_mapId
+function WoWPro.DefineLegacyZone(legacy_zone, modern_mapId)
+    WoWPro.LegacyZone2MapID[legacy_zone] = WoWPro.LegacyZone2MapID[legacy_zone] or {}
+    WoWPro.LegacyZone2MapID[legacy_zone]["default"] = modern_mapId
 end
+
+function WoWPro.DefineLegacyZoneFloor(legacy_zone, legacy_floor, modern_mapId)
+    WoWPro.LegacyZone2MapID[legacy_zone] = WoWPro.LegacyZone2MapID[legacy_zone] or {}
+    WoWPro.LegacyZone2MapID[legacy_zone][legacy_floor] = modern_mapId
+end
+
 
 function WoWPro.DefineZone(zone, mapId, mapType, parent_map, group_id, ... )
     if WoWPro.Zone2MapID[zone] then
@@ -39,11 +46,7 @@ function WoWPro:ValidZone(zone)
 	        return zone, WoWPro.Zone2MapID[zone]
 	    elseif WoWPro.LegacyZone2MapID[zone] then
 	        -- Zone is a legacy zone sans floor
-	        if not WoWPro.LegacyZone2MapID[zone][0] then
-	            WoWPro:Error("ValidZone: Possible Legacy Zone %s exists, but has no 0 floor.", zone)
-	            return nil
-	        end
-	        local mapId = WoWPro.LegacyZone2MapID[zone][0]
+	        local mapId = WoWPro.LegacyZone2MapID[zone]["default"]
 	        return WoWPro.MapInfo[mapId].name, mapId
 	    elseif zone:match("/") then
 	        -- Zone is a legacy zone avec floor
