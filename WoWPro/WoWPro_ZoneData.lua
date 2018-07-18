@@ -1,5 +1,5 @@
 ----------------------------------
---      WoWPro_Zones.lua      --
+--WoWPro_ZoneData.lua:  This are the new 8.X map names
 ----------------------------------
 
 local DefineZone = WoWPro.DefineZone

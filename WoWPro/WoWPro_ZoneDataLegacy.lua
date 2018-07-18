@@ -1,5 +1,7 @@
+----------------------------------
+--WoWPro_ZoneData.lua:  This are the old 7.X map names
+----------------------------------
 
--- OK, here is the crutch to tide us over
 -- function WoWPro.DefineLegacyZone(legacy_zone, legacy_floor, modern_mapId)
 local DefineLegacyZone = WoWPro.DefineLegacyZone
 local DefineLegacyZoneFloor = WoWPro.DefineLegacyZoneFloor
