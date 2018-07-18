@@ -60,11 +60,11 @@ function WoWPro:ValidZone(zone)
 	            WoWPro:Error("ValidZone: Legacy Zone [%s] has a malformed floor", zone)
 	            return nil
 	        end
-	        if not WoWPro.LegacyZone2MapID[zone][floor] then
+	        if not WoWPro.LegacyZone2MapID[nzone][floor] then
 	            WoWPro:Error("ValidZone: Legacy Zone [%s] has an unknown floor", zone)
 	            return nil
 	        end
-	        local mapId = WoWPro.LegacyZone2MapID[zone][floor]
+	        local mapId = WoWPro.LegacyZone2MapID[nzone][floor]
 	        return WoWPro.MapInfo[mapId].name, mapId
 	    else
 	        WoWPro:Error("ValidZone: Zone [%s] is unknown.", zone)
