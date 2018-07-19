@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-07-19 14:25
+-- Who: Ludovicus_Maior
+-- Log: Corrected ACTIVE tag issues pointed out by Linkslegend
+
+-- URL: http://wow-pro.com/node/3205/revisions/29438/view
+-- Date: 2018-07-19 01:45
+-- Who: Ludovicus_Maior
+-- Log: Correct US tag on [Assault on the Rotbrain]
+
+-- URL: http://wow-pro.com/node/3205/revisions/29195/view
 -- Date: 2018-02-27 17:38
 -- Who: Ludovicus_EditBot
 -- Log: Level strip and ACTIVE tags.
@@ -264,7 +274,7 @@ T No Better Than the Zombies|QID|24970|M|67.01,42.32|N|To Darnell.|
 A Assault on the Rotbrain Encampment|QID|24971|M|67.01,42.32|N|From Darnell.|PRE|24970|
 C Assault on the Rotbrain Encampment|QID|24971|M|70.03,69.71|QO|2|S|N|Kill the hostile undead.|
 K Marshal Redpath|QID|24971|M|70.03,69.71|QO|1|N|Marshal Redpath was once tough to take on alone.|
-C Assault on the Rotbrain Encampment|QID|24971|M|70.03,69.71|QO|2|N|Kill the hostile undead.|
+C Assault on the Rotbrain Encampment|QID|24971|M|70.03,69.71|QO|2|US|N|Kill the hostile undead.|
 T Assault on the Rotbrain Encampment|QID|24971|M|46.61,58.83|US|N|To Shadow Priest Sarvis.|
 
 A Vital Intelligence|QID|24972|M|46.61,58.83|N|From Shadow Priest Sarvis.|PRE|24971|

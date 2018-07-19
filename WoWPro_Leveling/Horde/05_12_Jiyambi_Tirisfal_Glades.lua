@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-07-19 14:25
+-- Who: Ludovicus_Maior
+-- Log: Corrected ACTIVE tag issues pointed out by Linkslegend
+
+-- URL: http://wow-pro.com/node/3205/revisions/29438/view
+-- Date: 2018-07-19 01:45
+-- Who: Ludovicus_Maior
+-- Log: Correct US tag on [Assault on the Rotbrain]
+
+-- URL: http://wow-pro.com/node/3205/revisions/29195/view
 -- Date: 2018-02-27 17:38
 -- Who: Ludovicus_EditBot
 -- Log: Level strip and ACTIVE tags.
@@ -280,7 +290,7 @@ T Michael Garrett|QID|6322|M|63.21,48.30|Z|Undercity|R|Undead|N|To Michael Garre
 
 A Return to Morris|QID|6324|PRE|6322|M|63.21,48.30|Z|Undercity|R|Undead|N|From Michael Garrett.|
 
-F Brill|QID|ACTIVE|M|63.21,48.30|Z|Undercity|R|Undead|N|Talk to Michael Garrett.|
+F Brill|ACTIVE|6324|M|63.21,48.30|Z|Undercity|R|Undead|N|Talk to Michael Garrett.|
 
 T Return to Morris|QID|6324|M|60.15,52.33|R|Undead|N|To Deathguard Morris.|
 T Forsaken Duties|QID|24983|M|65.41,60.22|N|To Deathguard Linnea.|
@@ -364,7 +374,7 @@ T The Mills Overrun|QID|25004|M|54.55,29.85|N|To Coleman Farthing.|
 T Deaths in the Family|QID|25029|M|54.55,29.85|N|To Coleman Farthing.|
 
 A Speak with Sevren|QID|25005|M|54.55,29.85|N|From Coleman Farthing.|PRE|25004;25029|
-H Brill|ACTIVE|25005|M|54.55,29.85|N|Run back if your hearth is down.|ACTIVE|25005|
+H Brill|ACTIVE|25005|M|54.55,29.85|N|Run back if your hearth is down.|
 r Eliza Callen |ACTIVE|25005|M|60.76,50.97|N|Take this opportunity to sell and repair with Eliza Callen, who is at the foot of the stairs towards Magistrate Sevren.|T|Eliza Callen|
 T Speak with Sevren|QID|25005|M|60.93,50.59|N|To Magistrate Sevren, upstairs in the inn.|
 
