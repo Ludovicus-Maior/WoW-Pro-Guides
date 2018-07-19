@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2018-07-19 18:41
+-- Who: Ludovicus_Maior
+-- Log: Suggestions by Wylel
+
+-- URL: http://wow-pro.com/node/3228/revisions/29084/view
 -- Date: 2018-02-20 21:06
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -291,10 +296,11 @@ F Orgrimmar|QID|13842|M|73.21,61.54|N|Fly back to Orgrimmar.|
 
 T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar@Orgrimmar|N|To Vol'jin.|
 
-F Zoram'gar Outpost|QID|13848|M|49.6,59.17|N|Fly to Zoram'gar Outpost.|Z|Orgrimmar|
-
+F Splintertree Post|ACTIVE|13848|M|49.6,59.17|N|Fly back to  Splintertree Post.|Z|Orgrimmar|
+F Zoram'gar Outpost|ACTIVE|13848|M|73.2,61.6|N|Talk to Vhulgra fly to Zoram'gar Outpost.|CHAT|
+f  Zoram'gar Outpost|ACTIVE|13848|M|11.2,34.4|N|Get the flight point from Andruk.|
+h Zoram'gar Outpost|ACTIVE|13848|M|12.92,34.14|N|Set your hearth with Innkeeper Duras.|CHAT|
 T Bad News Bear-er|QID|13848|M|73.21,61.54;12.03,33.88|CC|N|Turn in to Commander Grimfang.|
-h Zoram'gar Outpost|QID|13842|M|12.92,34.14|N|At Innkeeper Duras.|
 
 A Keep the Fires Burning|QID|13890|RANK|1|M|12.08,33.78|N|From Commander Grimfang.|
 A Blackfathom Deeps|QID|26894|RANK|1|M|12.08,33.78|N|From Commander Grimfang. Pick up if you plan on running the Blackfathom Deeps instance.|
