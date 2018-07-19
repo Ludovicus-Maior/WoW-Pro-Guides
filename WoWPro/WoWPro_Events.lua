@@ -37,27 +37,8 @@ function WoWPro:RecordTaxiLocations(...)
 end
 
 -- Auto-Complete: Use flight point --
-function WoWPro.TakeTaxi_OldStyle(index,destination)
-    for i = 1, NumTaxiNodes() do
-        local nomen = TaxiNodeName(i)
-        local location,zone = string.split(",",nomen)
-        -- We do a loose match and ignore Blizzards faction suffixes
-        if strfind(location, destination,1,true) or (nomen == destination) then
-            WoWPro:Print("Taking flight to: [%s]",location)
-            if IsMounted() then
-                Dismount()
-            end
-            TaxiNodeOnButtonEnter(_G["TaxiButton"..i])
-            TakeTaxiNode(i)
-            WoWPro.CompleteStep(index,"Took known old flight point")
-            return
-        end
-    end
-    WoWPro:Warning("Unable to find flight point to: [%s]",destination)
-end
-
-function WoWPro.TakeTaxi_NewStyle(index,destination)
-    local taxiNodes = GetAllTaxiNodes()
+function WoWPro.TakeTaxi(index,destination)
+    local taxiNodes = C_TaxiMap.GetAllTaxiNodes()
     for i, taxiNodeData in ipairs(taxiNodes) do
         -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
         local location,zone = string.split(",", taxiNodeData.name)
@@ -787,12 +768,7 @@ WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function (event,...)
 	WoWPro:RecordTaxiLocations(...)
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 	if WoWPro.action[qidx] == "F" and WoWProCharDB.AutoAccept == true then
-	    -- Shudder: https://github.com/tekkub/wow-ui-source/blob/322cb736a69669f0d8838558ce1960383f7041bc/FrameXML/TaxiFrame.lua#L38
-	    if TaxiFrame_ShouldShowOldStyle() then
-	        WoWPro.TakeTaxi_OldStyle(qidx,WoWPro.step[qidx])
-	    else
-	        WoWPro.TakeTaxi_NewStyle(qidx,WoWPro.step[qidx])
-	    end
+        WoWPro.TakeTaxi(qidx,WoWPro.step[qidx])
 	end
     end)
 
