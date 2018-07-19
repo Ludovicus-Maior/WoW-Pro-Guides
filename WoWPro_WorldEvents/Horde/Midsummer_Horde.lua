@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2018-07-19 15:32
+-- Who: Ludovicus_Maior
+-- Log:  Durotar
+
+-- URL: http://wow-pro.com/node/3407/revisions/28794/view
 -- Date: 2017-09-13 00:15
 -- Who: Ludovicus_Maior
 -- Log: Removed redundant QID tags where ACTIVE was good enough!
@@ -268,8 +273,8 @@ T Honor the Flame|RANK|2|QID|29036|M|49.4,51.4|Z|Deepholm|N|To the Earthen Ring 
 R Orgrimmar|RANK|2|QID|29031|M|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|
 
 R Vashj'ir portal|RANK|2|QID|29031|M|50.6,37|N|Bliz has removed the questing requirements from all the Cataclysm portals, except Vashj'ir. If you can't use the portal, you can either choose to do the quest or fly there on your own.|
-A Call of Duty|QID|25924|M|55.89,12.34|Z|Duratar|N|From Commander Thorak inside the tower. If you want to do the quest to open the portal it will only take a few minutes.|
-C Call of Duty|QID|25924|M|57.79,10.39|Z|Duratar|N|Head down to the docks and wait for the boat. Get on when it arrives and short scripted event to arrive in Vashj'ir.|
+A Call of Duty|QID|25924|M|55.89,12.34|Z|Durotar|N|From Commander Thorak inside the tower. If you want to do the quest to open the portal it will only take a few minutes.|
+C Call of Duty|QID|25924|M|57.79,10.39|Z|Durotar|N|Head down to the docks and wait for the boat. Get on when it arrives and short scripted event to arrive in Vashj'ir.|
 T Call of Duty|QID|25924|M|38.75,31.69|Z|Kelp'thar Forest|N|To Erunak Stonespeaker. You can now swim away, or stay and do the next quest to get underwater breathing. (Seahorse is several more steps into the quest chain.)|
 R Silver Tide Hollow|QID|29031|M|50.37,41.67|Z|Shimmering Expanse|N|Hop on your seahorse (or go to the surface and fly) its a long swim.|
 A Honor the Flame|RANK|2|QID|29031|M|49.35,41.99|Z|Shimmering Expanse|N|From the Flame Guardian. (Vashj'ir)|PRE|25924|
