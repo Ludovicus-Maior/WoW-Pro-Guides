@@ -53,15 +53,15 @@ function WoWPro:ValidZone(zone)
 	        local nzone , floor = string.split("/",zone)
 	        floor = tonumber(floor)
 	        if not WoWPro.LegacyZone2MapID[nzone] then
-	            WoWPro:Error("ValidZone: Legacy Zone [%s] is not registered.", zone)
+	            WoWPro:print("ValidZone: Legacy Zone [%s] is not registered.", zone)
 	            return nil
 	        end
 	        if not floor then
-	            WoWPro:Error("ValidZone: Legacy Zone [%s] has a malformed floor", zone)
+	            WoWPro:print("ValidZone: Legacy Zone [%s] has a malformed floor", zone)
 	            return nil
 	        end
 	        if not WoWPro.LegacyZone2MapID[nzone][floor] then
-	            WoWPro:Error("ValidZone: Legacy Zone [%s] has an unknown floor", zone)
+	            WoWPro:print("ValidZone: Legacy Zone [%s] has an unknown floor", zone)
 	            return nil
 	        end
 	        local mapId = WoWPro.LegacyZone2MapID[nzone][floor]
