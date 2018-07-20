@@ -399,7 +399,7 @@ function WoWPro:MapPoint(row)
 
 	-- Removing old map point --
 	if LastMapPoint and LastMapPoint == i and #cache > 0 and cache[1].index == i then
-	    WoWPro:print("MapPoint: LastMapPoint=%d [%.2f,%.2f@%d/%d] in %s. No update needed.", LastMapPoint, cache[1].x, cache[1].y, cache[1].map, cache[1].floor, cache[1].zone)
+	    WoWPro:print("MapPoint: LastMapPoint=%d [%.2f,%.2f@%d] in %s. No update needed.", LastMapPoint, cache[1].x, cache[1].y, cache[1].map, cache[1].zone)
 	    return
 	else
         WoWPro:dbp("MapPoint: LastMapPoint=%s, #cache=%d, cache[1].index=%s, i=%d", tostring(LastMapPoint),  #cache, tostring(#cache > 0 and cache[1].index), i)
@@ -414,7 +414,6 @@ function WoWPro:MapPoint(row)
 	    coords = nil
 	end
 	local desc = WoWPro.step[i]
-	local floor = nil
 	local zone
 	zone = WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
 	autoarrival = WoWPro.waypcomplete[i]
@@ -495,7 +494,7 @@ function WoWPro:MapPoint(row)
     		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
 
 		-- Parsing and mapping coordinates --
-		WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s/%s)",i,coords,tostring(zone),tostring(zm),tostring(zf))
+		WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s)",i,coords,tostring(zone),tostring(zm))
 		local numcoords = select("#", string.split(";", coords))
         FinalCoord = nil
 		for j=1,numcoords do
@@ -596,6 +595,7 @@ function WoWPro:RemoveMapPoint()
 	if TomTom and TomTom.db then
 		for i=1,#cache,1 do
 		    if cache[i].uid ~= nil then
+		        WoWPro:print("WoWPro:RemoveMapPoint(%d:%.2f,%.2f@%s=%s)",i,cache[i].x,cache[i].y,tostring(cache[i].zone),tostring(cache[i].map))
 			    TomTom:RemoveWaypoint(cache[i].uid)
 			end
 		end
