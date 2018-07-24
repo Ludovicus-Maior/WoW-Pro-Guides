@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2018-07-24 20:24
+-- Who: Emmaleah
+-- Log: play thru on live 7/24/18. Minor note changes and fixed a few typos.
+
+-- URL: http://wow-pro.com/node/3776/revisions/29435/view
 -- Date: 2018-07-16 23:16
 -- Who: Ludovicus_Maior
 -- Log: sync headers
@@ -106,20 +111,20 @@ T A Short-Lived Peace|QID|52058|M|85.61,31.67|Z|Stormwind City|N|To Anduin Wrynn
 A The Horde Uprising|QID|52060|M|85.61,31.67|Z|Stormwind City|N|From Anduin Wrynn.|PRE|52058|
 T The Horde Uprising|QID|52060|M|85.23,32.29|Z|Stormwind City|N|To Master Mathias Shaw.|
 A A Disturbance in Ashenvale|QID|52062|M|85.23,32.29|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|52060|
-P Astranaar|QID|52062|M|82.69,26.83|Z|Stormwind City|QO|1|NC|N|Take the portal to Astranaar in Stormwind keep's garden. (Optional)|
+P Astranaar|ACTIVE|52062|M|82.69,26.83|Z|Stormwind City|QO|1|NC|N|Take the portal to Astranaar in Stormwind keep's garden. (Optional)|
 
 C Find Delaryn Summermoon|QID|52062|M|35.79,49.87|Z|Ashenvale|QO|2|NC|N|Find Delaryn Summermoon on the main road in the middle of Astranaar.
 T A Disturbance in Ashenvale|QID|52062|M|35.85,50.34|Z|Ashenvale|N|To Captain Delaryn Summermoon.|
 A The Light of Elune|QID|52072|M|35.85,50.34|Z|Ashenvale|N|From Captain Delaryn Summermoon.|PRE|52062|
 A Knives of the Forsaken|QID|53616|M|35.85,50.34|Z|Ashenvale|N|From Captain Delaryn Summermoon.|PRE|52062|
 K Forsaken Assasin|QID|53616|QO|1|N|Kill 8 Forsaken Assassins.|S|
-C honor Fallen soldiers|QID|52072|M|36.73,51.82|Z|Ashenvale|QO|1|NC|N|This was bugged on PTR. You can click on Fallen soldiers to honor them but there were too few on PTR. This was possible to do only in a group.|
+C honor Fallen soldiers|QID|52072|M|36.73,51.82|Z|Ashenvale|QO|1|NC|N|Click on Fallen soldiers to honor them.|
 K Forsaken Assasin|QID|53616|QO|1|N|Complete the 8 kills on Forsaken Assassins.|US|M|35.92,49.66|Z|Ashenvale|
 T The Light of Elune|QID|52072|M|35.84,50.45|Z|Ashenvale|N|To Captain Delaryn Summermoon.|
 T Knives of the Forsaken|QID|53616|M|35.84,50.45|Z|Ashenvale|N|To Captain Delaryn Summermoon.|
 A A Soft Glow|QID|52116|M|35.84,50.45|Z|Ashenvale|N|From Captain Delaryn Summermoon.|PRE|52072|
 
-C A Soft Glow|QID|52116|M|43.92,90.03|Z|Darkshore|QO|1|NC|N|Meet Malfurion at the entrance to Darkshore. If he is fighting, help him. Afther he is out of combat, you can turn in quest.|
+C A Soft Glow|QID|52116|M|43.92,90.03|Z|Darkshore|QO|1|NC|N|Meet Malfurion at the entrance to Darkshore. If he is fighting, help him. After he is out of combat, you can turn in quest.|
 T A Soft Glow|QID|52116|M|43.57,89.34|Z|Darkshore|N|To Malfurion Stormrage.|
 A Hidden Amongst the Leaves|QID|52234|M|43.57,89.34|Z|Darkshore|N|From Malfurion Stormrage.|PRE|52116|
 A Mercy For the Mad|QID|53617|M|43.57,89.34|Z|Darkshore|N|From Malfurion Stormrage.|PRE|52116|
@@ -136,16 +141,17 @@ T Garden Grove|QID|52240|M|45.16,74.94|Z|Darkshore|N|To Captain Delaryn Summermo
 A Enraged Furbolgs|QID|52245|M|45.26,74.90|Z|Darkshore|N|From Onu.|PRE|52240|
 R Blackwood Den|ACTIVE|52245|M|45.53,80.25|Z|Darkshore|N|Go to Blackwood Den.|
 A Elves in the Machine|QID|53551|M|45.13,81.28|Z|Darkshore|N|From Captain Delaryn Summermoon who will come with you when arriving at Blackwood Den.|PRE|52240|
-C Elves in the Machine|QID|53551|QO|1|NC|N|Delaryn travels with you and provides a stealth circle. Target a nearby guard and move so that your stealth circle includes the guard, then use the special action button. Its ok if more than one guard is in the circle. (but only one will be taken out at a time.) Sabotage 5 Horde Demolishers by clicking them and get away for the BOOM!|S|
+C Elves in the Machine|QID|53551|QO|1|NC|N|Delaryn travels with you and provides a stealth circle (No stealth if mounted). Target a nearby guard and move so that your stealth circle includes the guard, then use the special action button. Its ok if more than one guard is in the circle. (but only one will be taken out at a time.) Sabotage 5 Horde Demolishers by clicking them and get away for the BOOM!|S|
 C Gren Tornfur|QID|52245|M|46.59,83.86|Z|Darkshore|QO|2|CHAT|N|Rescue Gren Tornfur.|
 C Elder Brownpaw|QID|52245|M|46.45,85.76|Z|Darkshore|QO|3|NC|N|Rescue Elder Brownpaw.|
 C Elder Brolg|QID|52245|M|43.55,81.01|Z|Darkshore|QO|1|NC|N|Rescue Elder Brolg.|
-C Elves in the Machine|QID|53551|QO|1|N|Be sure to have 5 Horde Demolishers Sabotaged|US|M|46.49,86.53|Z|Darkshore|
-T Elves in the Machine|QID|53551|Z|Darkshore|N|To Captain Delaryn Summermoon next to you.|
+C Elves in the Machine|QID|53551|NC|N|Time to finish off sabatoging the Horde Demolishers and poisoning the guards.|US|M|46.49,86.53|Z|Darkshore|
+T Elves in the Machine|QID|53551|Z|Darkshore|N|To Captain Delaryn Summermoon next to you. (this will not drop the stealth field)|
 
 T Enraged Furbolgs|QID|52245|M|45.32,74.87|Z|Darkshore|N|To Onu.|
 A The Wake of Something New|QID|52242|M|45.32,74.87|Z|Darkshore|N|From Onu.|PRE|52245|
 
+R Nazj'vel|ACTIVE|52242|M|34.68,85.12|Z|Darkshore|N|Fly over to the island of Nazj'vel to find the source of Onu's pain.|
 C The Wake of Something New|QID|52242|M|34.68,85.12|Z|Darkshore|QO|1|NC|N|Click on the source of Onu's pain and discover what it is.|
 T The Wake of Something New|QID|52242|M|34.68,85.12|Z|Darkshore|N|To Captain Delaryn Summermoon next to you.|
 A Azerite Denial|QID|53619|M|34.68,85.12|Z|Darkshore|N|From Captain Delaryn Summermoon.|PRE|52242|
@@ -163,22 +169,22 @@ T Malfurion Returns|QID|52256|M|42.29,66.77|Z|Darkshore|N|To Malfurion Stormrage
 A "Rock" The World|QID|52257|M|42.29,66.77|Z|Darkshore|N|From Malfurion Stormrage.|PRE|52256|
 
 C Tree of life|QID|52257|M|42.07,66.87|Z|Darkshore|QO|1|NC|N|Speak/mount with Tree of Life|
-C "Rock" The World|QID|52257|M|42.01,68.97|Z|Darkshore|QO|2|N|Slay 50 Horde enemies with Tree of life.|
+C "Rock" The World|QID|52257|M|42.01,68.97|Z|Darkshore|NC|QO|2|N|Slay 50 Horde enemies with Tree of life. You will automatically move to the correct area then the Vehicle UI buttons will appear.\n1 is a leap and AE damage.\n2 is a targeted AE damage.\n3 is a heal.  |
 T "Rock" The World|QID|52257|M|42.31,66.87|Z|Darkshore|N|To Malfurion Stormrage.|
 A Long Away|QID|52197|M|42.31,66.87|Z|Darkshore|N|From Malfurion Stormrage.|PRE|52257|
 
-R Rut'theran Village|ACTIVE|52197|M|55.10,88.53|Z|Tedrassil|N|Fly or run and take boat to Rut'theran Village. Then take portal to enter Darnassus.|
+R Rut'theran Village|ACTIVE|52197|M|55.10,88.53|Z|Teldrassil|N|Fly or run and take boat to Rut'theran Village. Then take portal to enter Darnassus.|
 T Long Away|QID|52197|M|39.91,50.57|Z|Darnassus|N|To Captain Delaryn Summermoon in Darnassus.|
 A A Looming Threat|QID|52279|M|39.91,50.57|Z|Darnassus|N|From Captain Delaryn Summermoon.|PRE|52197|
-C Druids of the Claw|QID|52279|M|45.58,35.83|Z|Darnassus|QO|2|N|Druids of the Claw rallied|
-C Kaldorei forces|QID|52279|M|61.01,49.66|Z|Darnassus|QO|3|N|Kaldorei forces rallied|
-C Priestesses of the Moon|QID|52279|M|43.17,73.01|Z|Darnassus|QO|1|N|Priestesses of the Moon rallied|
-
-T A Looming Threat|QID|52279|M|58.40,89.48|Z|Teldrassil|N|To Malfurion Stormrage. He is in Rut'theran Vilage.|
+C Druids of the Claw|QID|52279|M|45.58,35.83|Z|Darnassus|CHAT|QO|2|N|Druids of the Claw rallied.|
+C Kaldorei forces|QID|52279|M|61.01,49.66|Z|Darnassus|CHAT|QO|3|N|Kaldorei forces rallied.|
+C Priestesses of the Moon|QID|52279|M|43.17,73.01|Z|Darnassus|CHAT|QO|1|N|Priestesses of the Moon rallied.|
+P Rut'theran Village|ACTIVE|52279|M|36.91,50.33|Z|Darnassus|N|Return to Rut'theran Village.|
+T A Looming Threat|QID|52279|M|58.40,89.48|Z|Teldrassil|N|To Malfurion Stormrage.|
 
 ;part 2 on PTR
 
-A A Threat from the North|QID|52973|M|58.40,89.48|Z|Teldrassil|N|On PTR part 2 off this quest line did start here and we received quest from UI but it is possible that Captain Delaryn Summermoon gives this quest and is standing next to Malfurion Stormrage on the docks. We think this will be available one or two weeks later (7/24/18).|
+A A Threat from the North|QID|52973|M|58.40,89.48|Z|Teldrassil|N|On PTR part 2 off this quest line did start here and we received quest from UI but it is possible that Captain Delaryn Summermoon gives this quest and is standing next to Malfurion Stormrage on the docks. We think this will be available one or two weeks later (7/31/18).|
 
 T A Threat from the North|QID|52973|M|50.40,20.03|Z|Darkshore|N|To Malfurion Stormrage.|
 A Rescue Effort|QID|52974|M|50.40,20.03|Z|Darkshore|N|From Malfurion Stormrage.|
@@ -201,7 +207,7 @@ C Malfurion vs ...|QID|52977|M|45.94,24.47|Z|Darkshore|QO|2|N|watch the in game 
 C The Guidance of Our Shan'do|QID|52977|M|45.96,24.98|Z|Darkshore|QO|3|N|Mount Tyrande's Mount and watch the movie. You will arrive in Daenassaus|
 
 T The Guidance of Our Shan'do|QID|52977|M|43.10,78.25|Z|Darnassus|N|To Mia Greymane.|
-A A Flicker of Hope|AVAIBLE|53095|M|43.10,78.25|Z|Darnassus|N|From Mia Greymane.|
+A A Flicker of Hope|AVAILABLE|53095|M|43.10,78.25|Z|Darnassus|N|From Mia Greymane.|
 N To the resque|ACTIVE|53095|Z|Darnassus|N|Time is running out. Save as manny as you can and extinguish all fires too...|
 A From the Ashes...|QID|53310|M|57.66,59.54|Z|Darnassus|N|You get this quest automaticly.|
 P Stormwind|ACTIVE|53310|Z|Darnassus|NC|N|Take the portal back to Stormwind and report to your King.|
