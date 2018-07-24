@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-07-24 18:30
+-- Who: Emmaleah
+-- Log: updated some comments now that the chain is live. Deleted the commented out -deprecated- quest "change in leadership"
+
+-- URL: http://wow-pro.com/node/3770/revisions/29431/view
 -- Date: 2018-07-16 19:44
 -- Who: Emmaleah
 -- Log: corrected syntax NewGuideLevels. Changed notes where I think break will be for each week. Will update when it happens.
@@ -61,7 +66,7 @@ WoWPro:GuideSteps(guide, function()
 WoWPro:GuideQuestTriggers(guide, 50476,53372,51443)
 return [[
 A The Warchief Awaits|QID|50476|N|Autoaccepted when you log in after Patch 8.0.0 is live. If you haven't gone to Silithus to heal the wound, you need to do that first.|
-R Undercity|ACTIVE|50476|N|Make your way to Undercity to meet with Sylvanas.|
+R Undercity|ACTIVE|50476|N|Make your way to Undercity to meet with Sylvanas. You may want to save your hearthstone for the next step which is travel to Northern Barrens, your choice of course. |
 T The Warchief Awaits|QID|50476|M|52.38,63.81;58.14,91.85|CS|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
 A The Warchief Commands|QID|50642|M|58.14,91.85|Z|Undercity!Eastern Kingdoms|N|From Lady Sylvanas Windrunner. If you have done the Burning of Teldrisil questline on another character there is an option to skip it. Choose which ever you want and the guide will accomodate it.|
 R Northern Barrens|ACTIVE|50642|M|69.46,22.41|Z|Northern Barrens|N|Make your way to Northern Barrens to meet with Saurfang.|
@@ -85,7 +90,7 @@ R Astranaar|ACTIVE|50740|M|35.17,49.43|Z|Ashenvale|N|Fly back to Astranaar becau
 T Zoram'gar Outpost|QID|50740|M|35.17,49.43|Z|Ashenvale|N|To High Overlord Saurfang.|
 A On The Prowl|QID|50772|M|35.17,49.43|Z|Ashenvale|N|From High Overlord Saurfang.|
 C On The Prowl|QID|50772|M|44.15,90.72|Z|Darkshore|NC|N|Meet Sylvanas near the entrance to Darkshore, wait for a break in the fight.|
-T On The Prowl|QID|50772|M|44.15,90.72|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
+T On The Prowl|QID|50772|M|44.15,90.72|Z|Darkshore|N|To Lady Sylvanas Windrunner. This may take a few seconds for her to be ready to accept the turn in.|
 A Into the Woods|QID|50800|M|44.15,90.72|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C Into the Woods|QID|50800|M|44.22,90.62|Z|Darkshore|N|Kill Ashenvale Huntresses.|
 T Into the Woods|QID|50800|M|44.15,90.71|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
@@ -121,18 +126,13 @@ T The Trees Have Ears|QID|50879|M|43.31,75.67|Z|Darkshore|N|To Lady Sylvanas Win
 
 A Aggressive Inspiration|QID|53606|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 A The Blackwood Den|QID|52436|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
-;A A Change in Leadership|QID|53550|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|--quest not currently on ptr
 C The Blackwood Den|QID|52436|M|44.37,85.89|Z|Darkshore|S|N|Kill the Blackwood furbolgs as you go.|
 C Aggressive Inspiration|QID|53606|M|45.08,83.67|Z|Darkshore|QO|1|NC|N|Click  on the somewhat transparent banner to plant Northern banner here.|
 C Aggressive Inspiration|QID|53606|M|44.63,85.10|Z|Darkshore|QO|2|NC|N|Plant Central banner here.|
 C Aggressive Inspiration|QID|53606|M|44.36,86.52|Z|Darkshore|QO|1|NC|N|Plant Southern banner here.|
-;C A Change in Leadership|QID|53550|M|45.15,84.08|Z|Darkshore|QO|2|N|Defeat Gren Tornfur.|
-;C A Change in Leadership|QID|53550|M|46.62,83.87|Z|Darkshore|QO|1|N|Defeat Elder Brolg.|
-;C A Change in Leadership|QID|53550|M|46.40,85.58|Z|Darkshore|QO|3|N|Defeat Elder Brownpaw.|
 C Aggressive Inspiration|QID|53606|M|45.09,83.70|Z|Darkshore|US|NC|N|Finish planting banners.|
 C The Blackwood Den|QID|52436|M|44.37,85.89|Z|Darkshore|US|N|Finish off your share of the Blackwood furbolgs.|
 T Aggressive Inspiration|QID|53606|M|43.30,84.70|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
-;T A Change in Leadership|QID|53550|M|43.30,84.70|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 T The Blackwood Den|QID|52436|M|43.30,84.70|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 
 A The Start of Something Good|QID|52437|M|43.30,84.70|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
@@ -149,16 +149,16 @@ A A Gift of Azerite|QID|53627|M|35.82,84.84|Z|Darkshore|N|From Jux Burstkix.|
 T A Gift of Azerite|QID|53627|M|44.61,86.53|Z|Darkshore|N|To Zarvik Blastwix.|
 A A Wild Ride|QID|52438|M|44.75,86.48|Z|Darkshore|N|From Zarvik Blastwix.|
 C A Wild Ride|QID|52438|M|44.76,86.43|Z|Darkshore|NC|QO|1|N|Use the Goblin Hellion.|
-C A Wild Ride|QID|52438|M|41.47,67.82|Z|Darkshore|S|QO|4|N|Bomb Kaldorei forces.|
+C A Wild Ride|QID|52438|M|41.47,67.82|Z|Darkshore|S|QO|4|N|Bomb Kaldorei forces. It will autofly to the area, and the 1 (single target) and 2 (AE) buttons will appear then.|
 C A Wild Ride|QID|52438|M|41.35,67.84|Z|Darkshore|QO|3|N|Bomb Awakened Ancients.|
 C A Wild Ride|QID|52438|M|41.47,67.82|Z|Darkshore|US|QO|4|N|Bomb Kaldorei forces.|
 T A Wild Ride|QID|52438|M|42.70,67.75|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 A A Looming Threat|QID|52806|M|42.70,67.75|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C A Looming Threat|QID|52806|M|44.70,86.77|Z|Darkshore|CHAT|N|Speak with Sylvanas at the Blackwood Den.|
 T A Looming Threat|QID|52806|M|44.70,86.77|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
-N World Quests|N|This opens up the Darkshore World Quests. The next batch of storyline quests should open next week.|AVAILABLE|52967|
+N World Quests|N|This opens up the Darkshore World Quests, when Blizzard makes them available (7/31/18?).|AVAILABLE|52967|
 
-A Saurfang Returns|QID|52967|M|39.51,96.54|Z|Darkshore|N|Autoaccepted when logging in / entering Darkshore.|
+A Saurfang Returns|QID|52967|M|39.51,96.54|Z|Darkshore|N|Autoaccepted when logging in / entering Darkshore after quest in available (7/31/18?).|
 R Lor'danel|ACTIVE|52967|M|52.16,22.45|Z|Darkshore|N|Run to the North side of Lor'danal to meet Saurfang.|
 T Saurfang Returns|QID|52967|M|52.15,22.46|Z|Darkshore|N|To High Overlord Saurfang.|
 A No Small Mercy|QID|52970|M|52.15,22.46|Z|Darkshore|N|From High Overlord Saurfang.|
@@ -179,7 +179,7 @@ C Killer Queen|QID|52981|M|46.13,24.28|Z|Darkshore|CHAT|QO|3|N|Follow Saurfang.|
 C Killer Queen|QID|52981|M|45.52,18.27|Z|Darkshore|CHAT|QO|4|N|Speak with Sylvanas|
 T Killer Queen|QID|52981|M|45.52,18.25|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 
-A Hour of Reckoning|QID|53372|N|When this quest is released (presumably Tue, 7/31) it will be autoaccepted. (Maybe not until you enter Orgrimmar).|
+A Hour of Reckoning|QID|53372|N|This will have been autoaccepted last time you were in Orgrimmar, if you don't have it return to Orgrimmar.|
 R Orgrimmar|ACTIVE|53372|U|140192|N|Return to Orgrimmar to continue the story.|
 T Hour of Reckoning|QID|53372|M|50.04,75.91;48.51,70.67|CS|Z|Orgrimmar|N|Return to Saurfang in Grommash Hold.|
 A The Battle for Lordaeron|QID|51796|M|48.51,70.67|Z|Orgrimmar|N|From High Overlord Saurfang.|
@@ -203,7 +203,7 @@ C The Dark Lady|QID|51796|M|48.11,78.32|Z|Undercity!Ruins of Lordaeron!Instance|
 T The Battle for Lordaeron|QID|51796|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, on top of the Gates of Orgrimmar.|
 
 ;ends on PTR as of 7/8/18 -- I suspect next quest will be open on Aug 14, but may be part of pre-patch?
-A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller. I believe this quests opens up on Aug 13[US]/14[EU].|
+A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|
 R The Western Earthshrine|QID|53028|QO|1|M|48.82,38.59|Z|Orgrimmar|N|Fly over to the Uldam Portal for a shortcut to Silithus.|
 R Silithus: The Wound|ACTIVE|53028|M|70.42,87.54|Z|Silithus|N|Fly towards Sargaras' giant sword.|
 T A Dying World|QID|53028|M|42.22,44.28|Z|Silithus|N|To Magni Brozebeard.|
