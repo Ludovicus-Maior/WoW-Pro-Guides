@@ -45,6 +45,7 @@ local function DefineInstance(mapID, numFloors, zi, mapName)
     if map_id then
         DefineLegacyZone(zi, map_id)
         LegacyMapOffsets[mapID] = 0
+        DefineLegacyZoneFloor(zi, 0, map_id)
         return
     end
     -- Associate zi with the mapID/1 pair
@@ -52,6 +53,7 @@ local function DefineInstance(mapID, numFloors, zi, mapName)
     if map_id then
         DefineLegacyZone(zi, map_id)
         LegacyMapOffsets[mapID] = 1
+        DefineLegacyZoneFloor(zi, 1, map_id)
         return
     else
         WoWPro:print("DefineInstance(%d,%d,%q): No mapping found.",mapID, numFloors, zi)
