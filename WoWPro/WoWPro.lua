@@ -364,6 +364,7 @@ function WoWPro:OnInitialize()
 	WoWProCharDB.GuideVersion = WoWProCharDB.GuideVersion or {}
 	WoWProCharDB.Guide2QIDs = nil -- wipe it.
     WoWProCharDB.QID2Guide = WoWProCharDB.QID2Guide or {}
+    WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
     WoWProDB.global.QID2Guide = nil
     WoWProDB.global.Guide2QIDs = nil
 	if WoWProCharDB.Enabled == nil then
