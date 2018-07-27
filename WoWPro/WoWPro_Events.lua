@@ -381,6 +381,10 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function (event,...)
     -- Noticing if we have entered a Dungeon!
 	if event == "ZONE_CHANGED_NEW_AREA" and WoWProCharDB.AutoHideInsideInstances == true then
 	    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+	    local guidetype = "WoWPro"
+	    if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
+	        guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
+	    end
 	    if WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and IsInInstance() then
 	        WoWPro:Print("|cff33ff33 Suppressing Instance Auto Hide, turn it on after you are done with this guide.|r")
 	        WoWProCharDB.AutoHideWorldEventsInsideInstances = false
