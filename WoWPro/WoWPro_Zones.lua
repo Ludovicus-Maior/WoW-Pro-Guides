@@ -230,7 +230,8 @@ function WoWPro.CollectMap(id)
         for i = 1, #children do
             wip_map_info[id].children[i] = children[i].mapID
         end
-    end 
+    end
+    table.sort(wip_map_info[id].children)
 end
 
 function WoWPro.NameZones()
