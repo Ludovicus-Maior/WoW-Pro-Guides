@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2018-07-30 19:52
+-- Who: Emmaleah
+-- Log: replace Text with |QO|1| on Roll Club
+
+-- URL: http://wow-pro.com/node/3502/revisions/26855/view
 -- Date: 2014-11-07 20:43
 -- Who: Fluclo
 -- Log: Removed duplicate |CN| tag
@@ -169,8 +174,8 @@ T Survival Ring: Blades|QID|30242|N|To Yumi Goldenpaw.|M|18.49,71.51|
 T Survival Ring: Flame|QID|30240|N|To Yumi Goldenpaw.|M|18.49,71.51|
 
 A Roll Club: Serpent's Spine|QID|30261|N|From Kelari Featherfoot a little apart from the other questgivers. If he doesn't offer any quests, close this step manually.|M|18.11,63.55|
-C Roll Club: Serpent's Spine|QID|30261|QO|Speak to Kelari Featherfoot: 1/1|ACH|7322|N|Very fun racing quest: When you talk to Kelari Featherfoot again, you will be teleported to the top of the wall and start rolling downhill. Try to collect as many of the golden boots as possible while dodging the puddles of oil. If you manage to get to the finish line within 70 seconds, you'll get the achievement "Roll Club".|M|18.11,63.55|
-C Roll Club: Serpent's Spine|QID|30261|QO|Speak to Kelari Featherfoot: 1/1|N|Very fun racing quest: When you talk to Kelari Featherfoot again, you will be teleported to the top of the wall and start rolling downhill. Try to collect as many of the golden boots as possible while dodging the puddles of oil.|M|18.11,63.55|
+C Roll Club: Serpent's Spine|QID|30261|QO|1|ACH|7322|N|Very fun racing quest: When you talk to Kelari Featherfoot again, you will be teleported to the top of the wall and start rolling downhill. Try to collect as many of the golden boots as possible while dodging the puddles of oil. If you manage to get to the finish line within 70 seconds, you'll get the achievement "Roll Club".|M|18.11,63.55|
+C Roll Club: Serpent's Spine|QID|30261|QO|1|N|Very fun racing quest: When you talk to Kelari Featherfoot again, you will be teleported to the top of the wall and start rolling downhill. Try to collect as many of the golden boots as possible while dodging the puddles of oil.|M|18.11,63.55|
 C Roll Club: Serpent's Spine|QID|30261|N|Reach the finish line. Golden boots speed you up while oil slows you down.|M|18.11,63.55|
 T Roll Club: Serpent's Spine|QID|30261|N|To Kelari Featherfoot.|M|18.11,63.55|
 
