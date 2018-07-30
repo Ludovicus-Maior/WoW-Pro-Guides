@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-07-29 06:16
+-- Who: Emmaleah
+-- Log: Removed Deprecated Quest "The Hunter's Way".
+
+-- URL: http://wow-pro.com/node/3203/revisions/29250/view
 -- Date: 2018-05-02 00:44
 -- Who: Ludovicus_Maior
 -- Log: Goodbye  Garrosh Hellscream.
@@ -281,21 +286,15 @@ U Demon Scarred Cloak|AVAILABLE|770|U|4854|N|Click to get the quest.|
 
 T The Demon Scarred Cloak|QID|770|M|49.63,17.22|N|To Skorn Whitecloud.|
 
-; I think this is Tauren only now ... Nope!  Orc too.
-A The Hunter's Way|QID|861|M|49.63,17.22|N|From Skorn Whitecloud.|R|Tauren,Troll,Blood Elf,Orc|
 A Preparation for Ceremony|QID|744|M|49.60,17.49|N|From Eyahn Eagletalon.|
-C The Hunter's Way|QID|861|S|M|51.25,21.86|N|Kill any Flatland Prowlers you see.|R|Tauren,Troll,Blood Elf,Orc|
 C Wildmane Totem|QID|24523|S|M|47.87,21.86|R|Tauren,Troll,Blood Elf,Orc|N|Kill any Prairie Wolf Alpha you see.|
 C Preparation for Ceremony|QID|744|M|54.73,12.95|N|Kill and loot the Windfury Sorceress for the Azure Feathers, and kill and loot Windfury Matriarch for the Bronze Feathers.|
 
 R Red Rocks|ACTIVE|773|M|59.62,22.42|N|Head to Red Rocks.|
-
 C A Sacred Burial|QID|833|M|60.77,22.52|N|Kill the Bristleback Interloper as you head towards the Ancestral Spirit.|S|
 T Rite of Wisdom|QID|773|M|60.77,22.52|N|To Ancestral Spirit.|
 C A Sacred Burial|QID|833|M|60.77,22.52|N|Finish killing the Bristleback Interloper.|US|
 C Wildmane Totem|QID|24523|US|M|47.87,21.86|R|Tauren|N|Finish killing any Prairie Wolf Alpha you see.|
-C The Hunter's Way|QID|861|US|M|51.25,21.86|N|Finish killing any Flatland Prowlers you see.|
-T The Hunter's Way|QID|861|M|49.66,17.41|N|To Skorn Whitecloud.|R|Tauren,Troll,Blood Elf,Orc|
 T A Sacred Burial|QID|833|M|49.51,17.10|N|To Lorekeeper Raintotem.|
 T Wildmane Totem|QID|24523|M|49.45,17.31|R|Tauren|N|To Una Wildmane.|
 
