@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2018-07-29 06:39
+-- Who: Emmaleah
+-- Log: Warlock Guide final thru getting class mount on Broken Shore.  Does not deal with artifact appearance quests and such.
+
+-- URL: http://wow-pro.com/node/3679/revisions/29420/view
 -- Date: 2018-07-12 20:27
 -- Who: Emmaleah
 -- Log: lots of corrections to pre lvl 110 part of guide. Added A falling star quest line (how was that missing?!)
@@ -99,7 +104,7 @@ C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Deadw
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
 ;Warlock
-A The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Ritssyn Flamescowl.|
+A The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran@Dalaran70|N|From Ritssyn Flamescowl.|PRE|44663|
 C The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran@Dalaran70|NC|N|Follow Ritssyn through the portal.|
 T The Sixth|QID|40716|M|57.88,59.99|Z|The Underbelly@Dalaran70|N|To Ritssyn Flamescowl.|
 A The New Blood|QID|40729|M|57.88,59.99|Z|The Underbelly@Dalaran70|N|From Ritssyn Flamescowl.|PRE|40716|
@@ -117,7 +122,7 @@ T The New Blood|QID|40729|M|55.74,65.38|Z|The Underbelly@Dalaran70|N|To Calydus.
 A The Tome of Blighted Implements|QID|40684|M|55.74,65.38|Z|The Underbelly@Dalaran70|N|From Calydus.|PRE|40729|
 C The Tome of Blighted Implements|QID|40684|QO|1|M|55.87,65.36|Z|The Underbelly@Dalaran70|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T The Tome of Blighted Implements|QID|40684|M|55.87,65.36|Z|The Underbelly@Dalaran70|N|To Calydus.|
-A Artifact Specific Quest|QID|43100;40495;42128|M|55.87,65.36|Z|The Underbelly@Dalaran70|N|From Calydus.|PRE|40684|
+A Artifact Specific Quest|QID|43100;40495;42128|M|55.87,65.36|Z|The Underbelly@Dalaran70|N|From Calydus.|PRE|40684;40686|
 
 ;AFFLICTION
 ;A Ulthalesh, the Deadwind Harvester|QID|40495|M|55.70,65.40|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|40684|
@@ -217,7 +222,7 @@ T Ritual Ruination|QID|43254|M|55.86,64.99|Z|The Underbelly@Dalaran70|N|To Calyd
 
 ;Warlock class hall
 
-A The Heart of the Dreadscar|QID|40731|M|55.86,64.99|Z|The Underbelly@Dalaran70|N|From Calydus.|PRE|42125+40712+43254|
+A The Heart of the Dreadscar|QID|40731|M|55.86,64.99|Z|The Underbelly@Dalaran70|N|From Calydus.|PRE|40712|
 R Into the portal|QID|40731|M|59.07,69.30|Z|The Underbelly@Dalaran70|CC|N|Into the portal to enter the solo scenario.|ACTIVE|40731|
 C The Council's Vengeance|SO|1;1|M|56.18,36.02|Z|DreadscarRift|N|Run forward to find and defeat Jagganoth.|QID|40731|
 C Heart of the Overlord|NC|SO|2;1|M|56.18,36.02|Z|DreadscarRift|N|Click twice to pick up the Heart of the Overlord.|QID|40731|
@@ -238,7 +243,7 @@ A A Mutual Friend|QID|44099|LVL|101|N|From Black Harvest Acolyte.|
 T A Mutual Friend|QID|44099|M|56.4,64.6|Z|The Underbelly@Dalaran70|N|To Calydus.|
 
 L Blocked till 101|QID|42608|LVL|101|N|The next quest in the class hall requires level 101.|
-A Rise, Champions|QID|42608|PRE|44099|LVL|101|M|37.47,31.72|N|From Calydus.|
+A Rise, Champions|QID|42608|LVL|101|M|37.47,31.72|N|From Calydus.|
 C Rise, Champions|QID|42608|M|65.66,47.46|N|Recruit Ritssyn Flamescowl.|
 T Rise, Champions|QID|42608|M|66.82,45.95|N|To Gakin the Darkbinder.|
 A Information at Any Cost|QID|42603|PRE|42608|LVL|101|M|67.00,46.42|N|From Gakin the Darkbinder.|
@@ -273,8 +278,8 @@ C Testing a Theory|QID|39142|M|61.15,30.30|Z|Azsuna|T|Imprisoned Imp|N|Use Blood
 T Testing a Theory|QID|39142|M|60.77,30.68|Z|Azsuna|N|To Kira Iresoul.|
 A Debt Repaid|QID|40218|PRE|39142|LVL|103|M|60.77,30.68|Z|Azsuna|N|From Kira Iresoul.|
 H Dalaran|QID|40218|ACTIVE|40218|U|140192|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
-T Debt Repaid|QID|40218|M|55.23,37.05|N|To Ritssyn Flamescowl.|
-A A Daring Rescue|QID|41767|PRE|40218|LVL|103|M|55.23,37.05|N|From Ritssyn Flamescowl.|
+T Debt Repaid|QID|40218|M|55.07,37.38|N|To Ritssyn Flamescowl.|
+A A Daring Rescue|QID|41767|PRE|40218|LVL|103|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 C A Daring Rescue|QID|41767|M|54.14,34.86|CHAT|QO|1|N|Chat with Kira Iresoul, and tell her 'Yes'.|
 P A Daring Rescue|QID|41767|ACTIVE|41767|M|56.22,36.18|QO|2|N|Use Portal that they open.|
 C A Daring Rescue|QID|41767|QO|4|M|31.62,44.26|Z|Niskara|N|Click on Zinnin's cage.|
@@ -282,12 +287,12 @@ C A Daring Rescue|QID|41767|QO|6|M|39.74,37.15|Z|Niskara|N|You'll find Shinfel's
 C A Daring Rescue|QID|41767|QO|5|M|50.24,47.78|Z|Niskara|N|Click on Jubeka's cage.|
 P Felblaze Ingress|QID|41767|ACTIVE|41767|M|50.11,45.10|Z|Niskara|N|Clicking on this Gateway will take you to Felblaze Ingress. Alternatively Dalaran hearth stone works well too.|
 F Dalaran|QID|41767|ACTIVE|41767|M|63.82,28.48|Z|Azsuna|N|At Adept Sunwing, then run back to your order hall to turn in.|
-T A Daring Rescue|QID|41767|M|55.23,37.05|N|To Ritssyn Flamescowl.|
+T A Daring Rescue|QID|41767|M|55.07,37.38|N|To Ritssyn Flamescowl.|
 A Champion: Zinnin Smythe|QID|41752|PRE|41767|M|57.2,34.8|CHAT|N|Recruit Zinnin Smythe.|
 A Champion: Jubeka Shadowbreaker|QID|41753|PRE|41767|M|56.4,34|CHAT|N|Recruit Jubeka Shadowbreaker.|
-A Empowering the Soul|QID|42100|PRE|41767|M|55.23,37.05|N|From Ritssyn Flamescowl.|
+A Empowering the Soul|QID|42100|PRE|41767|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 C Empowering the Soul|QID|42100|M|66.27,46.96|NC|N|Use Battle Plans to complete 5 missions, that reawrd Empowered Soul Shards. Check this off manually while the missions are in progress to move on to other available steps.|
-t Empowering the Soul|QID|42100|M|55.23,37.05|N|To Ritssyn Flamescowl.|
+t Empowering the Soul|QID|42100|M|55.07,37.38|N|To Ritssyn Flamescowl.|
 A Recruiting More Troops|QID|41798|PRE|41767|M|67.00,46.42|N|From Gakin the Darkbinder.|
 T Recruiting More Troops|QID|41798|M|61.49,51.82|N|To Jared. Don't forget to recruit the new troop type now available.|
 
@@ -325,90 +330,92 @@ A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kad
 T Light's Charge|QID|44153|M|53.53,33.06|NC|N|Return to your order hall and return to Light's Heart (table in front of the Alter of Light and Shadow).|
 
 A Gazing Into Oblivion|QID|44254|LVL|110|M|58.6,33.2|N|From / To Gigi Gigavoid. *Wowhead says Horde only, NOT sure*.|
-A Black Rook Hold: An Unclaimed Soul|QID|42098|PRE|42100|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
-t Black Rook Hold: An Unclaimed Soul|QID|42098|M|55.23,37.05|N|To Ritssyn Flamescowl.|
-A Soul Beacon|QID|41768|PRE|42098|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
-C Soul Beacon|QID|41768|M|55.23,37.05|QO|1|CHAT|N|Tell Ritssyn Flamescowl, you're ready.|
-C Soul Beacon|QID|41768|M|55.23,37.05|QO|2|CHAT|N|Talk to Shinfel.|
-T Soul Beacon|QID|41768|M|55.23,37.05|N|To Ritssyn Flamescowl.|
-A Mad Ernie the Alchemist|QID|41769|PRE|41768|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
+A Black Rook Hold: An Unclaimed Soul|QID|42098|PRE|42100|LVL|110|M|55.07,37.38|N|From Ritssyn Flamescowl.|
+t Black Rook Hold: An Unclaimed Soul|QID|42098|M|55.07,37.38|N|To Ritssyn Flamescowl.|
+A Soul Beacon|QID|41768|PRE|42098|LVL|110|M|55.07,37.38|N|From Ritssyn Flamescowl.|
+C Soul Beacon|QID|41768|M|53.93,36.22|QO|1|CHAT|N|Tell Ritssyn Flamescowl, you're ready. Then click on the summoning circle he creates.|
+C Soul Beacon|QID|41768|M|53.93,36.22|QO|2|CHAT|N|Talk to Shinfel.|
+T Soul Beacon|QID|41768|M|53.93,36.22|N|To Ritssyn Flamescowl.|
+A Mad Ernie the Alchemist|QID|41769|PRE|41768|LVL|110|M|53.93,36.22|N|From Ritssyn Flamescowl.|
 P Dalaran|QID|41769|ACTIVE|41769|M|72.43,37.45|QO|1|N|Take the portal to Dalaran.|
 R Krasus' Landing|QID|41769|ACTIVE|41769|M|60.36,44.53|Z|Dalaran@Dalaran70|QO|1|N|Run out and up to Krasus' Landing|
 F Bradensbrook|QID|41769|ACTIVE|41769|M|69.85,51.16|Z|Dalaran@Dalaran70|QO|1|N|At Aladune Whitecloud.|
 C Mad Ernie the Alchemist|QID|41769|M|39.2,62.6|Z|Val'sharah|CHAT|N|Talk to Ernie:\n\nAre you Mad Ernie?\nRitssyn sent Me.|
 T Mad Ernie the Alchemist|QID|41769|M|39.2,62.6|Z|Val'sharah|N|To Ernie Carlisle.|
 A Herding Goats|QID|41781|PRE|41769|LVL|110|M|39.2,62.6|Z|Val'sharah|N|From Ernie Carlisle.|
-C Herding Goats|QID|41781|M|39.2,62.6|Z|Val'sharah|QO|1|N|Return 8 Greyhorn Goats.|
+C Herding Goats|QID|41781|M|39.2,62.6|Z|Val'sharah|NC|N|Return 8 Greyhorn Goats.|
 T Herding Goats|QID|41781|M|39.2,62.6|Z|Val'sharah|N|To Ernie Carlisle.|
 A Doom and Gloom|QID|41780|PRE|41781|LVL|110|M|39.2,62.6|Z|Val'sharah|N|From Ernie Carlisle.|
-F Lorlathil|QID|41780|M|42.25,58.51|Z|Val'sharah|QO|2|N|At Douglas Carrington.|
-C Spotted Gloomcap|QID|41780|ACTIVE|41780|M|59.77,71.24;61.00,73.40|Z|Val'sharah|CS|QO|2|N|Herb mushrooms in this area.|
-F Starsong Refuge|QID|41780|ACTIVE|41780|M|55.00,72.47|Z|Val'sharah|QO|1|N|At Elyssia Winterdusk.|
+F Lorlathil|ACTIVE|41780|M|42.25,58.51|Z|Val'sharah|QO|2|N|At Douglas Carrington.|
+C Spotted Gloomcap|QID|41780|M|59.77,71.24;61.00,73.40|Z|Val'sharah|CS|QO|2|NC|N|Herb mushrooms in this area.|
+F Starsong Refuge|ACTIVE|41780|M|55.00,72.47|Z|Val'sharah|QO|1|N|At Elyssia Winterdusk.|
 C Shimmering Pollen|QID|41780|M|66.34,38.35|Z|Val'sharah|QO|1|T|Terrorvine Lasher|N|Kill Terrorvine Lashers to loot for Shimmering Pollen.|
 C Rotwood Root|QID|41780|M|64.63,45.78|Z|Val'sharah|QO|3|T|Rotwood Creeper|N|Kill Rotwood Creepers, to loot for a Rotwood Root.|
-F Bradensbrook|QID|41780|ACTIVE|41780|M|69.03,50.83|Z|Val'sharah|N|At Landrius Ravenfall.|
+F Bradensbrook|ACTIVE|41780|M|69.03,50.83|Z|Val'sharah|N|At Landrius Ravenfall.|
 T Doom and Gloom|QID|41780|M|39.2,62.6|Z|Val'sharah|N|To Ernie Carlisle.|
 A Borrowed Time|QID|41784|PRE|41780|LVL|110|M|39.2,62.6|Z|Val'sharah|N|From Ernie Carlisle.|
-F Dalaran|QID|41784|ACTIVE|41784|M|42.25,58.51|Z|Val'sharah|U|140192|N|Return to Dalaran, via your favourite method.|
+F Dalaran|ACTIVE|41784|M|42.25,58.51|Z|Val'sharah|U|140192|N|Return to Dalaran, via your favourite method.|
 C Borrowed Time|QID|41784|M|54.00,35.49|CHAT|N|Give Shinfel the Elixir.|
-T Borrowed Time|QID|41784|M|55.23,37.05|N|To Ritssyn Flamescowl.|
+T Borrowed Time|QID|41784|M|55.07,37.38|N|To Ritssyn Flamescowl.|
 A Champion: Shinfel Blightsworn|QID|41754|PRE|41784|LVL|110|M|54.00,35.49|N|Recruit Shinfel Blightsworn.|
 A Champion: Kira Iresoul|QID|41751|PRE|41784|LVL|110|M|54.14,34.86|N|Recruit Kira Iresoul.|
 A Vault of the Wardens: Matters of the Heart|QID|42660|PRE|41784|LVL|110|M|54.14,34.86|N|From Kira Iresoul.|
-C Vault of the Wardens: Matters of the Heart|QID|42660|N|Run the VotW Dungeon. Use Group Finder ( I - by default)
-t Vault of the Wardens: Matters of the Heart|QID|42660|M|54.14,34.86|N|To Kira Iresoul.|
 A Let it Feed|QID|42103|PRE|41784|LVL|110|M|54.14,34.86|N|From Kira Iresoul.|
-C Let it Feed|QID|42103|QO|1|N|Go kill demons and collect a 100 Demon Bloods.|
-t Let it Feed|QID|42103|M|54.14,34.86|N|To Kira Iresoul.|
-A One Who's Worthy|QID|42102|PRE|41784|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
-C One Who's Worthy|QID|42102|QO|1|M|67.00,46.42|N|Complete five 'One Who's Worthy' Missions.|
-t One Who's Worthy|QID|42102|M|55.23,37.05|N|From Ritssyn Flamescowl.|
+A One Who's Worthy|QID|42102|PRE|41784|LVL|110|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 A Unparalleled Power|QID|44682|PRE|41784|LVL|110|M|67.00,46.42|N|From Gakin the Darkbinder.|
-C Unparalleled Power|QID|44682|QO|1|N|Go out and complete your 10 World Quests.| ; dropped to 10 in 7.2
+C One Who's Worthy|QID|42102|NC|M|67.00,46.42|N|Complete five 'One Who's Worthy' Missions. Manually check this off while the mission is in progress to see the next step.|
+C Let it Feed|QID|42103|S|N|Go kill demons and collect a 100 Demon Bloods. Check this off manually while in progress, it will be unchecked to remind you each time you load the guide.|
+C Unparalleled Power|QID|44682|S|N|Go out and complete your 10 World Quests.|
+C Vault of the Wardens: Matters of the Heart|QID|42660|NA|NC|N|Queue for VotW Dungeon. (or take your friends)|
+C Unparalleled Power|QID|44682|US|N|Go out and complete your 10 World Quests.|
+t Let it Feed|QID|42103|M|54.14,34.86|N|To Kira Iresoul.|
+t Vault of the Wardens: Matters of the Heart|QID|42660|M|54.14,34.86|N|To Kira Iresoul.|
 t Unparalleled Power|QID|44682|M|67.00,46.42|N|To Gakin the Darkbinder.|
+t One Who's Worthy|QID|42102|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 
-A Finding Fizzlebang|QID|41785|PRE|42102;44682|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
-P Dalaran|QID|41785|ACTIVE|41785|M|72.43,37.45|N|Take the portal to Dalaran.|
-R Krasus' Landing|QID|41785|ACTIVE|41785|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|
-F Valdisdall|QID|41785|ACTIVE|41785|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|FACTION|HORDE|
-F Skyfire Triage Camp|QID|41785|ACTIVE|41785|M|69.85,51.16|Z|Dalaran@Dalaran70|QO|1|N|At Aladune Whitecloud.|FACTION|ALLIANCE|
-T Finding Fizzlebang|QID|41785|M|39.31,42.20|Z|Stormheim|N|To Lulubelle Fizzlebang.|
-A Someone Else's Mess|QID|41787|PRE|41785|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
+A Finding Fizzlebang|QID|41785|PRE|42102;44682|LVL|110|M|55.07,37.38|N|From Ritssyn Flamescowl.|
+P Dalaran|ACTIVE|41785|M|72.43,37.45|N|Take the portal to Dalaran.|
+R Krasus' Landing|ACTIVE|41785|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|
+F Forsaken Foothold|ACTIVE|41785|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|FACTION|HORDE|
+F Skyfire Triage Camp|ACTIVE|41785|M|69.85,51.16|Z|Dalaran@Dalaran70|QO|1|N|At Aladune Whitecloud.|FACTION|ALLIANCE|
+T Finding Fizzlebang|QID|41785|M|39.37,42.24|Z|Stormheim|N|To Lulubelle Fizzlebang.|
 A Coercing a Confession|QID|41788|PRE|41785|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
+A Someone Else's Mess|QID|41787|PRE|41785|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
 R Felscale Cavern|ACTIVE|41787;41788|M|38.31,37.32|Z|Stormheim|N|Run to Felscale Cavern.|
 C Someone Else's Mess|QID|41787|M|37.85,38.80|Z|Stormheim|S|QO|1|U|141865|N|Use Orb to banish demons|
-C Coercing a Confession|QID|41788|M|36.38,38.50|Z|Stormheim|QO|1|CHAT|T|Galius Miremoore|N|Get Galius to "Confess your crimes!", yes, You'll have to beat him up a bit.|
+C Coercing a Confession|QID|41788|M|36.42,38.55|Z|Stormheim|QO|1|CHAT|T|Galius Miremoore|N|Turn Left at the bottom of the ramp (not towards Zoarg). Get Galius to "Confess your crimes!", yes, You'll have to beat him up a bit.|
 C Someone Else's Mess|QID|41787|M|37.85,38.80|Z|Stormheim|US|QO|1|N|Use Orb to banish demons|
-T Coercing a Confession|QID|41788|M|39.31,42.20|Z|Stormheim|N|To Lulubelle Fizzlebang.|
-T Someone Else's Mess|QID|41787|M|39.31,42.20|Z|Stormheim|N|To Lulubelle Fizzlebang.|
+T Coercing a Confession|QID|41788|M|39.37,42.24|Z|Stormheim|N|To Lulubelle Fizzlebang.(who stayed at the Enchantresses hut.|
+T Someone Else's Mess|QID|41787|M|39.37,42.24|Z|Stormheim|N|To Lulubelle Fizzlebang.|
 A Lulubelle on Loan|QID|41793|PRE|41787;41788|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
 H Dalaran|QID|41793|ACTIVE|41793|U|140192|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
-T Lulubelle on Loan|QID|41793|M|55.23,37.05|N|To Ritssyn Flamescowl.|
-A Champion: Lulubelle Fizzlebang|QID|41755|PRE|41793|LVL|110|M|54.67,39.04|N|Recruit Lulubelle Fizzlebang.|
-A Summoning the Sisters|QID|41795|PRE|41755|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
-P Summoning the Sisters|QID|41795|ACTIVE|41795|M|52.41,22.28|QO|1|N|Use the Demon Gateway.|
+T Lulubelle on Loan|QID|41793|M|55.07,37.38|N|To Ritssyn Flamescowl.|
+A Champion: Lulubelle Fizzlebang|QID|41755|PRE|41793|M|54.42,39.37|N|Recruit Lulubelle Fizzlebang.|
+A Summoning the Sisters|QID|41795|PRE|41755|M|55.07,37.38|N|From Ritssyn Flamescowl.|
+P Summoning the Sisters|QID|41795|ACTIVE|41795|M|51.96,21.42|QO|1|N|Use the Demonic Gateway.|
 C Summoning the Sisters|QID|41795|QO|2|CHAT|N|Tell Ritssyn, "I am ready".|
-C Summoning the Sisters|QID|41795|QO|3|N|Fight the Sisters, you'll be prompted when yo use the bloodstone. Special Action Button.|
-P Dreadscar Rift|QID|41795|ACTIVE|41795|N|Use Gateway portal to return to order hall.|
-T Summoning the Sisters|QID|41795|M|55.23,37.05|N|To Ritssyn Flamescowl.|
-A Champion: Eredar Twins|QID|41756|PRE|41795|LVL|110|M|58,40.2|N|Talk to Grand Warlock Alythess|
-A Selecting a Sixth|QID|41796|PRE|41795|LVL|110|M|55.23,37.05|N|From Ritssyn Flamescowl.|
-C Selecting a Sixth|QID|41796|M|55.13,39.85|CHAT|N|Talk to Kira OR Lulubelle to select which one you want as the Sixth Council member.|
-T Selecting a Sixth|QID|41796|M|55.23,37.05|N|From Ritssyn Flamescowl.|
-A A Hero's Weapon|QID|43414|PRE|41796|LVL|110|M|35.2,30.00|N|From Ritssyn Flamescowl.|
-T A Hero's Weapon|QID|43414|M|35.2,30.00|N|From Ritssyn Flamescowl.|
+C Summoning the Sisters|QID|41795|QO|3|N|Fight the Sisters, you'll be prompted when to use the bloodstone. Special Action Button.|
+P Dreadscar Rift|QID|41795|ACTIVE|41795|N|Use the Demonic Gateway to return to order hall.|
+T Summoning the Sisters|QID|41795|M|55.07,37.38|N|To Ritssyn Flamescowl.|
+A Selecting a Sixth|QID|41796|PRE|41795|LVL|110|M|55.07,37.38|N|From Ritssyn Flamescowl.|
+C Selecting a Sixth|QID|41796|M|55.02,40.32;54.42,39.37|CC|CHAT|N|Talk to Kira OR Lulubelle to select which one you want as the Sixth Council member.|
+T Selecting a Sixth|QID|41796|M|55.07,37.38|N|From Ritssyn Flamescowl.|
+A Champion: Eredar Twins|QID|41756|PRE|41795|LVL|110|M|58.31,40.74|N|Talk to Grand Warlock Alythess|
+A A Hero's Weapon|QID|43414|PRE|41796|LVL|110|M|53.06,39.56;51.58,47.46;36.39,30.60|CS|N|From Ritssyn Flamescowl.|
+C A Hero's Weapon|QID|43414|M|35.18,30.07|N|Stand in the center of the green circle and use the special action button.|
+T A Hero's Weapon|QID|43414|M|36.39,30.60||N|To Ritssyn Flamescowl.|
 
 ; LVL 110 - Obliterum Quest Chain
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
-C In the House of Light and Shadow|QID|44448|N|Location NOT included at this time.\nBefore you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337|
+C In the House of Light and Shadow|QID|44448|M|53.11,32.47|NC|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
 A Firing Up the Forge|QID|41778|LVL|110|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
+C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|NC|N|Put the robes he gives you in the forge.|U|136352|;don't know if the use button will work. delete if it doesnt
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 
 ;lights heart - post 110
 A Awakenings|QID|44464|M|53.53,33.06|N|From Light's Heart|PRE|44448|LVL|110|
-P Dalaran|QID|44464|ACTIVE|44464|M|72.43,37.45|QO|1|N|Take the portal to Dalaran.|
-R Krasus' Landing|QID|44464|ACTIVE|44464|M|60.36,44.53|Z|Dalaran@Dalaran70|QO|1|N|Run out and up to Krasus' Landing|
+P Dalaran|ACTIVE|44464|M|72.43,37.45|QO|1|N|Take the portal to Dalaran.|
+R Krasus' Landing|ACTIVE|44464|M|60.36,44.53|Z|Dalaran@Dalaran70|QO|1|N|Run out and up to Krasus' Landing|
 F Lorlathil|QID|44464|ACTIVE|44464|M|69.85,51.16|Z|Dalaran@Dalaran70|QO|1|N|At Aladune Whitecloud.|
 C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
 F Dalaran|QID|44464|ACTIVE|44464|M|54.97,72.49|Z|Val'sharah|N|At Elyssia Winterdusk.|
@@ -450,33 +457,30 @@ T Ravencrest's Legacy|QID|44479|M|53.53,33.06|N|To Light's Heart, back in your o
 
 A In My Father's House|QID|44480|M|53.53,33.06|N|From Light's Heart.|PRE|44479|
 P Dalaran|QID|44480|M|72.43,37.45|QO|1|N|Take the portal to Dalaran.|ACTIVE|44480|
-P Stormwind City|QID|44480|FACTION|ALLIANCE|ACTIVE|44480|M|39.20,63.20|Z|Dalaran@Dalaran70|QO|1|N|Take the Portal in Dalaran to Stormwind.|
-; qid 25316 is first quest from chain in Hyjal - Pre - done, Avail - they haven't done
-P Mount Hyjal|QID|44480|ACTIVE|44480|PRE|25316|M|75.99,18.71|Z|Stormwind City|QO|1|N|Take the Portal to Mount Hyjal.|
-b Rut'theran Village|QID|44480|ACTIVE|44480|AVAILABLE|25316|M|22.69,55.96|Z|Stormwind City|QO|1|N|Take the boat to Rut'theran Village.|FACTION|ALLIANCE|
-F Forest Song|QID|44480|ACTIVE|44480|AVAILABLE|25316|M|55.44,88.48|Z|Teldrassil|QO|1|N|Fly to Forest Song, Ashenvale, at Vesprystus|FACTION|ALLIANCE|
+P Stormwind City|FACTION|ALLIANCE|ACTIVE|44480|M|39.20,63.20|Z|Dalaran@Dalaran70|QO|1|N|Take the Portal in Dalaran to Stormwind.|
+P Mount Hyjal|ACTIVE|44480|M|76.18,18.67|Z|Stormwind City|QO|1|N|Take the Portal to Mount Hyjal.|
 P Orgrimmar|QID|44480|M|55.33,24.04|Z|Dalaran@Dalaran70|QO|1|N|Take the portal to Orgrimmar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|44480|
 F Bilgewater Harbor|QID|44480|QO|1|M|49.43,59.20|Z|Orgrimmar|N|Talk to Doras to take the Flight Path. If you want to fly directly, or don't have this Flight path, click this step to skip it.|FACTION|HORDE|ACTIVE|44480|
-R Temple of Zin-Malor - Azshara|QID|44480|ACTIVE|44480|M|35.1,49.9|Z|Azshara|QO|1|N|Mount up and fly to Azshara.|
-C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
-F Dalaran|QID|44480|ACTIVE|44480|U|140192|N|Return to Dalaran, via your favourite method.|
+R Temple of Zin-Malor - Azshara|ACTIVE|44480|M|35.1,49.9|Z|Azshara|QO|1|N|Mount up and fly to Azshara.|
+C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|NC|N|Use your extra action button to see Xe'ra's message.|
+F Dalaran|ACTIVE|44480|U|140192|N|Return to Dalaran, via your favourite method.|
 T In My Father's House|QID|44480|M|53.53,33.06|N|Return to Light's Heart in your order hall.|
 
 A Destiny Unfulfilled|QID|44481;44496;44497|M|53.53,33.06|N|From Light's Heart.|PRE|44480|
-P Dalaran|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|72.43,37.45|QO|1|N|Click on the portal to Dalaran.|
-P Shattrath|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|QO|1|N|Run to the Chamber of the Guardian and then down to the Shattrath Portal.|
-F Sanctum of the Stars|QID|44481;44496;44497|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Scryers;934;Friendly-Exalted|N|Talk to Nutral to take Flight Path|
-F Altar of Sha'tar|QID|44481;44496;44497|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Aldor;932;Friendly-Exalted|N|Talk to Nutral to take Flight Path|
-F Shadowmoon Village|QID|44481;44496;44497|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum of the Stars or Altar of Sha'tar.|FACTION|HORDE|
-F Wildhammer Stronghold|QID|44481;44496;44497|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum of the Stars or Altar of Sha'tar.|FACTION|ALLIANCE|
-R Black Temple|QID|44481;44496;44497|ACTIVE|44481;44496;44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
-C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
-F Dalaran|QID|44481;44496;44497|ACTIVE|44481;44496;44497|U|140192|N|Return to Dalaran, via your favourite method.|
+P Dalaran|ACTIVE|44481;44496;44497|M|72.43,37.45|QO|1|N|Run out the portal to Dalaran.|
+P Shattrath|ACTIVE|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|QO|1|N|Run to the Chamber of the Guardian and then down to the Shattrath Portal.|
+F Sanctum of the Stars|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Scryers;934;Friendly-Exalted|N|Talk to Nutral to take Flight Path|
+F Altar of Sha'tar|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Aldor;932;Friendly-Exalted|N|Talk to Nutral to take Flight Path|
+F Shadowmoon Village|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum of the Stars or Altar of Sha'tar.|FACTION|HORDE|
+F Wildhammer Stronghold|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum of the Stars or Altar of Sha'tar.|FACTION|ALLIANCE|
+R Black Temple|ACTIVE|44481;44496;44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
+C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|NC|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+F Dalaran|ACTIVE|44481;44496;44497|U|140192|N|Return to Dalaran, via your favourite method.|
 T Destiny Unfulfilled|QID|44481;44496;44497|M|53.53,33.06|N|Return to Light's Heart in your order hall.|
 A The Hunt for Illidan Stormrage|QID|45174|M|53.53,33.06|N|From Light's Heart.|PRE|44481;44496;44497|
 P Dalaran|QID|45174|M|72.43,37.45|N|Take the portal to Dalaran.|ACTIVE|45174|
-R Krasus' Landing|QID|45174|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45174|
-F Illidari Stand|QID|45174|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45174|
+R Krasus' Landing|ACTIVE|45174|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|
+F Illidari Stand|ACTIVE|45174|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
 A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|PRE|45174|
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
@@ -487,9 +491,176 @@ F Azurewing Repose|QID|43496|ACTIVE|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At
 T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
 A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
+;7.2 release of broken shore
+A An Urgent Warning|QID|45989|LVL|110|M|58.28,36.93|N|From Injured Invoker.|LEAD|46730|;may have been removed?
+T An Urgent Warning|QID|45989|M|67.00,46.42|N|To Gakin the Darkbinder.|
+A Investigate the Broken Shore|QID|45990|PRE|45989|M|67.00,46.42|N|From Gakin the Darkbinder.|
+C Menace on the Broken Shore|QID|45990|M|66.03,46.64|NC|N|Use Command Board to send on Mission.|
+t Investigate the Broken Shore|QID|45990|M|67.00,46.42|N|To Gakin the Darkbinder.|
+
+;Broken Shore Artifact Quests
+;A Affliction: The Twisted Twin|QID|47041| given on Broken Shore - included in that guide
+T Affliction: The Twisted Twin|QID|47041|M|49.36,39.72|Z|Dalaran@Dalaran70|LVL|110|N|To Karam Magespear.|
+A Message from the Shadows|QID|45185|PRE|47041|M|49.36,39.72|Z|Dalaran@Dalaran70|LVL|110|N|From Karam Magespear.|
+C Message from the Shadows|QID|45185|M|47.05,38.97|Z|Dalaran@Dalaran70|NC|LVL|110|N|Pick up Mysterious Note from Bedside Table. An assasin will appear shortly after you pick it up.|
+T Message from the Shadows|QID|45185|M|49.33,39.70|Z|Dalaran@Dalaran70|LVL|110|N|To Karam Magespear.|
+A Secrets in the Underbelly|QID|45187|PRE|45185|M|49.33,39.70|Z|Dalaran@Dalaran70|N|From Karam Magespear.|
+C Secrets in the Underbelly|QID|45187|M|39.48,44.55|Z|Dalaran@Dalaran70|QO|1|LVL|110|N|Go into the underbelly (PVP area) and look for Underbelly Lowlifes, click to question them and then fight them and the assasins that also appear.|
+T Secrets in the Underbelly|QID|45187|M|39.48,44.55|Z|Dalaran@Dalaran70|LVL|110|N|To Karam Magespear who is following you around.|
+A The Wisdom of the Council|QID|45188|PRE|45187|M|39.48,44.55|Z|Dalaran@Dalaran70|LVL|110|N|From Karam Magespear.|
+T The Wisdom of the Council|QID|45188|M|28.60,47.78|Z|Dalaran@Dalaran70|LVL|110|N|To Archmage Karlain in the Violet Citadel.|
+A Where it's Thinnest|QID|45190|PRE|45188|M|28.60,47.78|Z|Dalaran@Dalaran70|LVL|110|N|From Archmage Karlain.|
+T Where it's Thinnest|QID|45190|M|56.51,27.36|Z|Broken Shore|LVL|110|N|To Karam Magespear.|
+A Runes of Rending|QID|45192|PRE|45190|M|56.51,27.36|Z|Broken Shore|LVL|110|N|From Karam Magespear.|
+C Runes of Rending|QID|45192|M|57.99,27.15|Z|Broken Shore|QO|1|NC|LVL|110|N|Step on the square with the Blue ward, Stepping on a purple ward will kill you.  Every step resets the wards.|
+C Runes of Rending|QID|45192|M|59.46,27.32|Z|Broken Shore|QO|2|LVL|110|N|Defeat Raest's minions.|
+T Runes of Rending|QID|45192|M|59.78,27.44|Z|Broken Shore|LVL|110|N|To Karam Magespear.|
+A One Step Behind|QID|45193|M|59.78,27.44|Z|Broken Shore|LVL|110|N|From Karam Magespear.|PRE|45192|
+H Krasus' Landing|ACTIVE|45193|M|59.78,27.44|Z|Broken Shore|U|140192|LVL|110|N|Return to Dalaran.|
+T One Step Behind|QID|45193|M|28.38,48.28|Z|Dalaran@Dalaran70|LVL|110|N|To Archmage Khadgar, in the Violet Citadel.|
+A A Gift From the Six|QID|45866|PRE|45193|M|28.39,48.96|Z|Dalaran@Dalaran70|LVL|110|N|From Archmage Modera.|
+C A Gift From the Six|QID|45866|M|30.43,48.95|Z|Dalaran@Dalaran70|NC|N|You must be in Afliction spec to receive the Gift of the Six. Stand in the middle of the circle and use the extra action button.|
+T A Gift From the Six|QID|45866|M|28.46,48.88|Z|Dalaran@Dalaran70|LVL|110|N|To Archmage Modera.|
+
+;A Demonology: Fate of the Tideskorn|QID|47079| given on Broken Shore - included in that guide
+F Crimson Thicket|ACTIVE|47079|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+C Demonology: Fate of the Tideskorn|QID|47079|M|65.42,50.82|Z|Suramar|CHAT|QO|1|N|Speak with Huntsman Slodi|
+C Demonology: Fate of the Tideskorn|QID|47079|M|70.53,49.94|Z|Suramar|CHAT|QO|2|N|Pristess Bryna is inside this house. Ask her for help.|
+C Demonology: Fate of the Tideskorn|QID|47079|M|71.46,49.56|Z|Suramar|CHAT|QO|3|N|Yngvild the Watcher is at the top of the tower. Ask him if he has seen anyone unusual.|
+T Demonology: Fate of the Tideskorn|QID|44813|M|76.29,49.99|Z|Suramar|N|To Huntsman Slodi.|
+A The Reluctant Queen|QID|45486|M|76.24,50.01|Z|Suramar|N|Fron Sigryn.|PRE|47079|
+F Valdisdal|ACTIVE|45486|M|64.30,41.91|Z|Suramar|N|At Ancient Cloudwing.|
+C The Reluctant Queen|QID|45486|M|62.43,67.99|Z|Stormheim|CHAT|QO|2|N|Tell Sigryn you are ready, and then escort Sigryn to Skold-Ashil.|
+C The Reluctant Queen|QID|45486|M|62.81,68.12|Z|Stormheim|QO|3|CHAT|N|Speak with Priestess Halla.|
+C The Reluctant Queen|QID|45486|M|64.94,68.07|Z|Stormheim|QO|4|CHAT|N|Gain an audience with Eyir.|
+T The Reluctant Queen|QID|45486|M|65.22,68.10|Z|Stormheim|N|To Eyir.|
+A To Silence the Bonespeakers|QID|45522|M|65.22,68.10|Z|Stormheim|N|From Eyir.|PRE|45486|
+R Haustvald|ACTIVE|45522|M|68.22,47.21|Z|Stormheim|N|Ride to Haustvald to meet Sigryn.|
+C To Silence the Bonespeakers|QID|45522|M|73.19,39.98|Z|Stormheim|QO|1|N|Defeat Runeseer Faljar.|
+T To Silence the Bonespeakers|QID|45522|M|73.26,39.88|Z|Stormheim|N|To Runeseer Faljar.|
+A To Tame the Drekirjar|QID|45523|M|72.86,40.47|Z|Stormheim|N|From Sigryn.|PRE|45522|
+R Hrydshal|ACTIVE|45523|M|47.83,71.15|Z|Stormheim|N|Head over to Hrydshal and meet Silgryn there.|
+C To Tame the Drekirjar|QID|45523|M|41.38,71.73|Z|Stormheim|N|Defeat Jarl Velbrand.|
+T To Tame the Drekirjar|QID|45523|M|41.15,71.92|Z|Stormheim|N|To Jarl Velbrand.|
+A The Forgotten Heir|QID|45524|M|41.41,71.67|Z|Stormheim|N|From Sigryn.|PRE|45523|
+R Vrekt|QID|45524|M|72.14,85.40|Z|Stormheim|N|Meet Silgryn at Vrekt.|
+C The Forgotten Heir|QID|45524|M|74.17,85.01|Z|Stormheim|QO|1|NC|N| Torvald can be found in a small cave in Vrekt.|
+C The Forgotten Heir|QID|45524|M|74.17,85.01|Z|Stormheim|QO|2|N|The conversation turns heated, Defend Sigryn.|
+T The Forgotten Heir|QID|45524|M|74.17,85.01|Z|Stormheim|N|To Sigryn.|
+A Unanswered Questions|QID|45525|M|74.17,85.01|Z|Stormheim|N|From Sigryn.|PRE|45524|
+R Skold-Ashil|ACTIVE|45525|M|60.05,68.38|Z|Stormheim|N|Ride to Skold-Ashil to help Sigryn confront Ayir.|
+C Unanswered Questions|QID|45525|M|66.37,51.17|Z|Stormheim/28|CHAT|N|Speak to Sigryn.|
+T Unanswered Questions|QID|45525|M|72.87,51.19|Z|Stormheim/28|N|To Eyir.|
+A The Gates Are Closed|QID|46340|M|72.87,51.19|Z|Stormheim/28|N|From Eyir.|PRE|45525|
+H Krasus' Landing|ACTIVE|46340|M|59.78,27.44|Z|Broken Shore|U|140192|LVL|110|N|Return to Dalaran.|
+T The Gates Are Closed|QID|46340|M|28.44,48.33|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+A A Gift From the Six|QID|45862|M|28.41,48.98|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|46340|
+C A Gift From the Six|QID|45862|M|30.43,48.95|Z|Dalaran@Dalaran70|N|You must be in Demonology Spec to Receive the Council's gift. Stand in the center of the circle and use your extra action button.|
+T A Gift From the Six|QID|45862|M|28.46,48.92|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
+
+;A Destruction: Rumblings Near Feltotem|QID|45560| given on Broken Shore - included in that guide
+T Destruction: Rumblings Near Feltotem|QID|45560|M|35.74,23.98|Z|Highmountain|LVL|110|N|To Navarrogg in Highmountain..|
+A The Burning Birds|QID|45564|PRE|45560|M|35.74,23.98|Z|Highmountain|LVL|110|N|From Navarrogg.|PRE|45560|
+C The Burning Birds|QID|45564|M|34.57,22.53|Z|Highmountain|QO|1|NC|N|Pick up the Fel Infusing Totems scattered around the area.|
+C The Burning Birds|QID|45564|M|31.39,25.08|Z|Highmountain|QO|2|CHAT|N|Meet Navarrogg near Feltotem.|
+T The Burning Birds|QID|45564|M|31.30,25.13|Z|Highmountain|N|To Navarrogg.|
+A The Tainted Marsh|QID|45726|PRE|45564|M|31.30,25.13|Z|Highmountain|N|From Navarrogg.|
+C The Tainted Marsh|QID|45726|M|27.53,28.83|Z|Highmountain|QO|1|CHAT|N|1/1 (Optional)Get a ride to the Marshlands.|
+C The Tainted Marsh|QID|45726|M|28.01,31.77|Z|Highmountain|QO|2|U|143863|T|Seabound Reaver|N|Kill the seabound reavers then use the wand on their corpses.|
+T The Tainted Marsh|QID|45726|M|31.30,25.20|Z|Highmountain|N|To Navarrogg.|
+A Village of the Corruptors|QID|45575|PRE|45726|M|31.30,25.20|Z|Highmountain|LVL|110|N|From Navarrogg.|
+C Village of the Corruptors|QID|45575|M|29.23,28.92|Z|Highmountain|N|Kill Feltotem Infusers.|
+T Village of the Corruptors|QID|45575|M|29.20,28.76|Z|Highmountain|LVL|110|N|To Navarrogg.|
+A The Feltotem Menace|QID|45587|PRE|45575|M|29.20,28.76|Z|Highmountain|LVL|110|N|From Navarrogg.|
+C The Feltotem Menace|QID|45587|M|31.81,32.24|Z|Highmountain|QO|1|NC|LVL|110|N|Find Tugar Bloodtotem.|
+C The Feltotem Menace|QID|45587|M|31.97,32.43|Z|Highmountain|QO|2|NC|N|Watch Navarrogg stop Tugar Bloodtotem.|
+T The Feltotem Menace|QID|45587|M|31.28,25.14|Z|Highmountain|LVL|110|N|To Navarrogg.|
+A Destroying the Nest|QID|45796|PRE|45587|M|31.28,25.14|Z|Highmountain|LVL|110|N|From Navarrogg.|
+C Destroying the Nest|QID|45796|M|33.80,28.20|Z|Highmountain|QO|1|NC|N|Enter Feltotem Caverns|
+C Destroying the Nest|QID|45796|M|34.00,31.39|Z|Highmountain|QO|3|S|N|Run over the eggs to destroy them (or AE).|
+C Destroying the Nest|QID|45796|M|34.72,31.78|Z|Highmountain|QO|2|LVL|110|N|Kill the Feltotem Legion forces.|
+C Destroying the Nest|QID|45796|M|34.00,31.39|Z|Highmountain|QO|3|US|N|Finish destroying the eggs.|
+C Destroying the Nest|QID|45796|M|35.72,32.04|Z|Highmountain|QO|4|LVL|110|N|Slay the Fel Broodmaster.|
+T Destroying the Nest|QID|45796|M|31.29,25.13|Z|Highmountain|LVL|110|N|To Navarrogg.|
+A A Triumphant Report|QID|45841|M|31.29,25.13|Z|Highmountain|LVL|110|N|From Navarrogg.|PRE|45796|
+H Krasus' Landing|ACTIVE|45841|M|59.78,27.44|Z|Broken Shore|U|140192|LVL|110|N|Return to Dalaran.|
+T A Triumphant Report|QID|45841|M|28.41,48.90|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
+A A Gift From the Six|QID|45842|M|28.41,48.90|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45841|
+C A Gift From the Six|QID|45842|M|30.43,48.95|Z|Dalaran@Dalaran70|NC|N|You must be in Destruction Spec to Receive the Council's gift. Stand in the center of the circle and use your extra action button.|
+T A Gift From the Six|QID|45842|M|28.43,48.91|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
+
+;Broken Shore Follower Quest
+N Broken Shore Follower Quest|ACTIVE|-47137|N|You must finish your class hall campaign to be offered the quest. Once Maeve Shadowsong offers you Champions of Legionfall, then you can go to your order hall and get this quest.|
+A Answers Unknown|QID|45021|M|57.14,38.24|N|From Shinfel Blightsworn.|ACTIVE|47137|
+F Illidari Perch|ACTIVE|45021|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud, or fly on your own.|
+T Answers Unknown|QID|45021|M|30.49,44.56|Z|Azsuna|N|To Jubeka Shadowbreaker.|
+A Cult Culling|QID|45024|M|30.49,44.56|Z|Azsuna|N|From Jubeka Shadowbreaker.|PRE|45021|
+A Stealing the Source of Power|QID|45025|M|30.49,44.56|Z|Azsuna|N|From Jubeka Shadowbreaker.|PRE|45021|
+R Felfire Cavern|ACTIVE|45025|M|30.06,53.68;29.11,55.61;30.05,56.45;30.21,56.21|CS|N|Across Faronaar to the Felfire Cavern.|
+C Cult Culling|QID|45024|M|31.91,53.72|Z|Azsuna|QO|1|S|N|Kill Devoted Occultists as you go.|
+C Stealing the Source of Power|QID|45025|M|30.69,52.63|Z|Azsuna|S|NC|N|After you kill the occultists channelling into them, you can pick up the Fel Crystals.|
+C Cult Culling|QID|45024|M|30.45,52.80|Z|Azsuna|QO|2|N|Kill Corrine the Devout.|
+C Stealing the Source of Power|QID|45025|Z|Azsuna|US|NC|N|Finish collecting the Fel Crystals.|
+C Cult Culling|QID|45024|Z|Azsuna|QO|1|US|N|Finish your quota of Devoted Occultist.|
+T Cult Culling|QID|45024|M|30.50,44.56|Z|Azsuna|N|To Jubeka Shadowbreaker.|
+T Stealing the Source of Power|QID|45025|M|30.50,44.56|Z|Azsuna|N|To Jubeka Shadowbreaker.|
+A Expending Fel Energy|QID|45026|M|30.50,44.56|Z|Azsuna|N|From Jubeka Shadowbreaker.|PRE|45024+45025|
+C Expending Fel Energy|QID|45026|M|28.35,45.88|Z|Azsuna|N|The bar depletes based on each enemy you hit (you do not have to kill them) so if the area is busy just hit everyone else's mob once.  By the same token. Imps and other easily killable mobs are worth the same credit as elites.|
+T Expending Fel Energy|QID|45026|M|30.50,44.56|Z|Azsuna|N|To Jubeka Shadowbreaker.|
+H Krasus' Landing|ACTIVE|45026|M|30.50,44.56|Z|Azsuna|U|140192|N|Return to Dalaran however you choose.|
+A Informing the Council|QID|45794|M|30.50,44.56|Z|Azsuna|N|From Jubeka Shadowbreaker.|PRE|45026|
+C To the Broken Shore|QID|45027|M|63.97,48.46|CHAT|N|Ask her for a Summons.|
+T To the Broken Shore|QID|45027|M|81.11,49.54|Z|Broken Shore|N|To Jubeka Shadowbreaker.|
+A The Fate of Kanrethad|QID|45028|M|81.11,49.54|Z|Broken Shore|N|From Jubeka Shadowbreaker.|PRE|45027|
+C The Fate of Kanrethad|QID|45028|M|77.81,40.07|Z|Broken Shore|QO|1|NC|N|Click on the Fel Crystals surrounding Kanrethad.|
+C The Fate of Kanrethad|QID|45028|M|77.98,40.45|Z|Broken Shore|QO|2|N|Kill Dark Summoner Rezara when she runs out to stop you.|
+T The Fate of Kanrethad|QID|45028|M|78.12,39.69|Z|Broken Shore|N|To Jubeka Shadowbreaker.|
+A Crystal Containment|QID|46020|M|78.12,39.69|Z|Broken Shore|N|From Jubeka Shadowbreaker.|PRE|45028|
+H Krasus' Landing|ACTIVE|46020|M|78.12,39.69|Z|Broken Shore|U|140192|N|Return to Dalaran however you choose.|
+T Crystal Containment|QID|46020|M|56.69,33.82|N|To Jubeka Shadowbreaker.|
+A Champion: Kanrethad Ebonlocke|QID|46047;46316|M|55.35,34.26|N|From Kanrethad Ebonlocke.|
+A Further Advancement|QID|46784|M|67.02,46.43|N|From Gakin the Darkbinder.|
+C Further Advancement|QID|46784|M|55.35,41.05|NC|N|Start the newly available Order Hall advancement (or just click on Archivist Melinda.)|
+T Further Advancement|QID|46784|M|67.00,46.43|N|To Gakin the Darkbinder.|
+N Back to Broken Shore.|ACTIVE|-47137|N|You can now return to Maeve and continue with the Broken Shore Quest line.|
+
+;mount quest from broken shore (after finishing the Legionfall Achievement)
+C Bloodbringer's Missive|QID|46237|M|35.22,38.55|QO|1|CHAT|N|Talk with with Mor'zul Bloodbringer|
+T Bloodbringer's Missive|QID|46237|M|35.22,38.55|N|To Mor'zul Bloodbringer.|
+A If You Build It|QID|46238|PRE|46237|M|35.22,38.55|N|From Mor'zul Bloodbringer.|
+A Fel to the Core|QID|46239|PRE|46237|M|35.22,38.55|N|From Mor'zul Bloodbringer.|
+A Give Me Fuel, Give Me Fire|QID|46240|PRE|46237|M|35.22,38.55|N|From Mor'zul Bloodbringer.|
+C Fel to the Core|QID|46239|NC|S|N|Open your map and see if there is an invasion happening somewhere in the Broken Isles. Go there and the fel core drops from the final boss. If one isn't happening, keep checking until you an invasion is active. Wowhead will tell you when the next one is active if you want to know.|
+B 5 Felslate|QID|46238|QO|1|N|Crafting Reagent -- Acquire, from Friends, Alts, AH, wherever...|
+B 3 Chaotic Spinel|QID|46238|QO|2|N|Crafting Reagent -- Acquire, from Friends, Alts, AH, wherever...|
+B Unbending Potion|QID|46238|QO|3|N|Crafted by Alchemists -- Acquire, from Friends, Alts, AH, wherever...|
+F Lorlathil|ACTIVE|46240|M|69.81,51.06|Z|Dalaran@Dalaran70|N|Travel to Valsharah. Easiest way is at take a flight from Aladune Whitecloud.|
+C Give Me Fuel, Give Me Fire|QID|46240|M|60.03,81.33|Z|Val'sharah|QO|1|N|Go to Lostlight Grotto and kill owlbeasts and collect their blood.|
+C Fel to the Core|QID|46239|US|N|Time to get that Overcharged Fel Core. Keep checking for an invasion and go do it.|
+H Dalaran|ACTIVE|46240|U|140192|N|Now that you have all the components, back to guild hall to turn in.|
+T If You Build It|QID|46238|M|35.23,38.59|N|To Mor'zul Bloodbringer.|
+T Fel to the Core|QID|46239|M|35.23,38.59|N|To Mor'zul Bloodbringer.|
+T Give Me Fuel, Give Me Fire|QID|46240|M|35.23,38.59|N|To Mor'zul Bloodbringer.|
+A The Minions of Hel'nurath|QID|46241|M|35.23,38.59|N|From Mor'zul Bloodbringer.|PRE|46238+46239+46240|
+F Deliverance Point|ACTIVE|46241|M|69.81,51.06|Z|Dalaran@Dalaran70|N|Travel to Broken Isles by the method of your choice.|
+C The Minions of Hel'nurath|QID|46241|M|45.47,43.95|Z|Broken Shore|QO|1|N|Summon your succubus and use her seduction ability on Xorathian Cultists until one tells you where the leader is.|
+T The Minions of Hel'nurath|QID|46242|M|45.49,43.89|Z|Broken Shore|N|To UI Alert.|
+A The Dreadlord's Calling|QID|46243|M|45.49,43.89|Z|Broken Shore|N|From UI Alert.|PRE|46242|
+C The Dreadlord's Calling|QID|46243|M|43.42,46.74|Z|Broken Shore|T|Zuriwa the Hexxer|N|Kill Zuriwa and loot the Xorothian Calling Stone.|
+H Dalaran|ACTIVE|46243|U|140192|N|Now that you have the lure, back to guild hall to turn in.|
+T The Dreadlord's Calling|QID|46242|M|35.24,38.55|N|To Mor'zul Bloodbringer.|
+A The Wrathsteed of Xoroth|QID|46243|M|35.24,38.55|N|From Mor'zul Bloodbringer.|PRE|46242|
+P Demonic Portal|ACTIVE|46243|M|36.26,37.51|N|Use the portal to travel to the summonning circle.|
+C The Calling Stone|ACTIVE|46243|SO|1|N|Place the Xorothian Calling Stone.|
+C Minions defeated|ACTIVE|46243|SO|2|N|There will be 3 waves of Minions to defeat.|
+C Arax'ath defeated|ACTIVE|46243|SO|3;1|N|Defeat Arax'ath.|
+C Wrathsteed enslaved|ACTIVE|46243|SO|3;2|N|Use your spell "Enslave Demon" on Wrathsteed.|T|Wrathsteed|
+T The Wrathsteed of Xoroth|QID|46243|N|To Mor'zul Bloodbringer.|
+N Congrats|N|You have finished the Legionfall questline.|
+
 ;2nd spec artifact
 A The Tome Opens Again|QID|43984|M|37.47,31.72|N|From Calydus.|PRE|44099|LVL|102|
-C The Tome Opens Again|QID|43984|M|37.47,31.72|N|Choose the artifact quest you want to pursue next.|LVL|102|
+C The Tome Opens Again|QID|43984|M|37.47,31.72|NC|N|Choose the artifact quest you want to pursue next.|LVL|102|
 T The Tome Opens Again|QID|43984|M|37.47,31.72|N|To Calydus.|LVL|102|
 A Artifact specific quest|QID|40495;42128;43100|M|37.47,31.72|N|From Calydus.|PRE|43984|LVL|102|
 ;A Ulthalesh, the Deadwind Harvester|QID|40495|M|55.70,65.40|Z|Dalaran@Dalaran70|N|From Calydus.|PRE|40684|-affliction
@@ -502,7 +673,7 @@ t Ritual Ruination|QID|43254|M|37.47,31.72|N|To Calydus.|;destruction
 
 ;3rd spec artifact
 A A Greater Arsenal|QID|44089|M|37.47,31.72|N|From Calydus.|ACH|11174;;true|
-C A Greater Arsenal|QID|44089|M|37.47,31.72|N|Choose the remaining artifact.|
+C A Greater Arsenal|QID|44089|M|37.47,31.72|NC|N|Choose the remaining artifact.|
 T A Greater Arsenal|QID|44089|M|37.47,31.72|N|To Calydus.|
 A Artifact specific quest|QID|40495;42128;43100|M|37.47,31.72|N|From Calydus.|PRE|44089|LVL|102|
 
@@ -511,14 +682,6 @@ J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you wi
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
-
-; quests from 7.2
-
-A An Urgent Warning|QID|45989|LVL|110|M|58.28,36.93|N|From Injured Invoker.|
-T An Urgent Warning|QID|45989|M|67.00,46.42|N|To Gakin the Darkbinder.|
-A Investigate the Broken Shore|QID|45990|PRE|45989|M|67.00,46.42|N|From Gakin the Darkbinder.|
-C Menace on the Broken Shore|QID|45990|M|66.03,46.64|N|Use Command Board to send on Mission.|
-t Investigate the Broken Shore|QID|45990|M|67.00,46.42|N|To Gakin the Darkbinder.|
 
 ]]
 end)
