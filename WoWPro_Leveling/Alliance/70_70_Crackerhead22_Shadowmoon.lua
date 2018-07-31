@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2018-07-30 20:04
+-- Who: Emmaleah
+-- Log: corrected QO order on The Ashtongue Corrupters
+
+-- URL: http://wow-pro.com/node/3285/revisions/29180/view
 -- Date: 2018-02-26 21:46
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -331,7 +336,7 @@ T Oronu the Elder|QID|10684|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
 C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Aldor;932|
 T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|REP|Aldor;932|
 A The Ashtongue Corruptors|QID|10574|PRE|10571+10684|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor;932|
-A The Ashtongue Corruptors|QID|10685|PRE|10574|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
+A The Ashtongue Corruptors|QID|10685|PRE|10574|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934|
 C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|REP|Aldor;932|
 l Scroll of Demonic Unbanishing|QID|10637|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Aldor;932|
 C A Necessary Distraction|QID|10637|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Aldor;932|
@@ -339,17 +344,12 @@ l Scroll of Demonic Unbanishing|QID|10688|L|30811|M|69.89,48.49|N|Kill Sunfury S
 C A Necessary Distraction|QID|10688|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Scryers;934|
 
 T Divination: Gorefiend's Cloak|QID|10635|M|58.30,70.82|N|To Ancient Shadowmoon Spirit.|
-K Haalum|QID|10574|QO|3|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Aldor;932|; Haalum's Medallion Fragment: 1/1
-K Eykene|QID|10574|QO|1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Aldor;932|; Eykenen's Medallion Fragment: 1/1
-K Haalum|QID|10685|QO|3|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Scryers;934|; Haalum's Medallion Fragment: 1/1
-K Eykene|QID|10685|QO|1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Scryers;934|; Eykenen's Medallion Fragment: 1/1
+K Haalum|QID|10574;10685|QO|2|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|
+K Eykene|QID|10574;10685|QO|1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|
 T Enraged Spirits of Air|QID|10481|M|42.20,45.07|N|To Earthmender Torlok.|
 A Oronok Torn-heart|QID|10513|PRE|10481|M|42.20,45.07|N|From Earthmender Torlok.|
-K Uylaru|QID|10574|QO|3|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Aldor;932|; Uylaru's Medallion Fragment: 1/1
-C The Ashtongue Corruptors|QID|10574|M|49.79,23.28|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Aldor;932|
-K Uylaru|QID|10685|QO|3|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Scryers;934|; Uylaru's Medallion Fragment: 1/1
-C The Ashtongue Corruptors|QID|10685|M|49.79,23.28|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Scryers;934|
-
+K Uylaru|QID|10574;10685|QO|4|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|
+K Lakaan|QID|10574;10685|QO|3|M|49.79,23.28|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|
 T Oronok Torn-heart|QID|10513|M|53.95,23.49|N|To Oronok Torn-heart.|
 A I Was A Lot Of Things...|QID|10514|PRE|10513|M|53.94,23.49|N|From Oronok Torn-heart.|
 C I Was A Lot Of Things...|QID|10514|U|30462|M|52.78,17.30|N|Look for leaves sticking out of the ground, then use the whistle. Make sure to kill Flayers as you see them, or you will not have any boars to dig for you.|
