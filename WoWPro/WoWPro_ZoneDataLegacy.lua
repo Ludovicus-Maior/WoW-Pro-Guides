@@ -6,32 +6,17 @@
 local DefineLegacyZone = WoWPro.DefineLegacyZone
 local DefineLegacyZoneFloor = WoWPro.DefineLegacyZoneFloor
 local hbdm = LibStub("HereBeDragons-Migrate")
-local LegacyMapOffsets = {}
-WoWPro.LegacyMapOffsets = LegacyMapOffsets
 
 -- DefineDungeonArea( 321, 1,"Orgrimmar@Orgrimmar","Orgrimmar","Orgrimmar")
 local function DefineDungeonArea(mapID, floor, zi, dungeon, mapName)
-    -- Is this the first time we have seen the first floor?
-    if not LegacyMapOffsets[mapID] then
-        -- This is the first floor of this mapID
-        -- See if Migrate thinks floor 0 exists
-        local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, 0)
-        if map_id then
-            -- If Migrate thinks floor 0 is the base then the current floor is the offset
-            LegacyMapOffsets[mapID] = floor
-        else
-            -- If Migrate does not have a record of floor 0, then the floor should not be tinkered with
-            LegacyMapOffsets[mapID] = 0
-        end
-    end
-    floor = floor - LegacyMapOffsets[mapID]
-    -- Associate zi with the mapID/floor pair
+     -- Associate zi with the mapID/floor pair
     local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, floor)
     if map_id then
         DefineLegacyZone(zi, map_id)
+        DefineLegacyZoneFloor(tostring(mapID), floor, map_id)
         local child , parent = string.split("@",zi)
         if parent then
-            DefineLegacyZoneFloor(parent, floor + LegacyMapOffsets[mapID], map_id)
+            DefineLegacyZoneFloor(parent, floor, map_id)
         end
     else
         WoWPro:print("DefineDungeonArea(%d,%d,%q): No mapping found.",mapID, floor, zi)
@@ -40,24 +25,21 @@ end
 
 -- DefineInstance( 443, 0,"WarsongGulch","WarsongGulch")
 local function DefineInstance(mapID, numFloors, zi, mapName)
-    -- Associate zi with the mapID/0 pair
-    local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, 0)
-    if map_id then
-        DefineLegacyZone(zi, map_id)
-        LegacyMapOffsets[mapID] = 0
-        DefineLegacyZoneFloor(zi, 0, map_id)
-        return
+    local first = true
+    for floor=0,(numFloors+2) do
+        -- Associate zi with the mapID/floor pair
+        local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, floor)
+        if map_id then
+            if first then
+                DefineLegacyZone(zi, map_id)
+                first = false
+            end
+            DefineLegacyZoneFloor(zi, floor, map_id)
+        end
     end
-    -- Associate zi with the mapID/1 pair
-    map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, 1)
-    if map_id then
-        DefineLegacyZone(zi, map_id)
-        LegacyMapOffsets[mapID] = 1
-        DefineLegacyZoneFloor(zi, 1, map_id)
-        return
-    else
+    if first then
         WoWPro:print("DefineInstance(%d,%d,%q): No mapping found.",mapID, numFloors, zi)
-    end    
+    end 
 end
 
 -- DefineTerrain(1, 4, 182, 0,"Felwood")
@@ -66,6 +48,7 @@ local function DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
     local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, 0)
     if map_id then
         DefineLegacyZone(zone, map_id)
+        DefineLegacyZoneFloor(tostring(mapID), floor, map_id)
     else
         WoWPro:print("DefineTerrain(%d,%d,%d,%d,%q): No mapping found.",cont, zonei, mapID, numFloors, zone)
     end
@@ -73,6 +56,7 @@ local function DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
         map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, floor)
         if map_id then
             DefineLegacyZoneFloor(zone, floor, map_id)
+            DefineLegacyZoneFloor(tostring(mapID), floor, map_id)
         end
     end
 end
@@ -93,13 +77,13 @@ local function DefineTerrainFloor(cont, zonei, mapID, floor, zone, mapName)
 end
 
 -- From WoWPro:Functionalize()
-DefineDungeonArea( 321, 1,"Orgrimmar@Orgrimmar","Orgrimmar","Orgrimmar")
-DefineDungeonArea( 321, 2,"Cleft of Shadow@Orgrimmar","Orgrimmar","Cleft of Shadow")
+DefineDungeonArea( 321, 0,"Orgrimmar@Orgrimmar","Orgrimmar","Orgrimmar")
+DefineDungeonArea( 321, 1,"Cleft of Shadow@Orgrimmar","Orgrimmar","Cleft of Shadow")
 DefineDungeonArea( 504, 1,"Dalaran City@Dalaran","Dalaran","Dalaran City")
 DefineDungeonArea( 504, 2,"The Underbelly@Dalaran","Dalaran","The Underbelly")
 DefineDungeonArea( 520, 1,"The Nexus@TheNexus","TheNexus","The Nexus")
-DefineDungeonArea( 521, 1,"The Road to Stratholme@CoTStratholme","CoTStratholme","The Road to Stratholme")
-DefineDungeonArea( 521, 2,"Stratholme City@CoTStratholme","CoTStratholme","Stratholme City")
+DefineDungeonArea( 521, 0,"The Road to Stratholme@CoTStratholme","CoTStratholme","The Road to Stratholme")
+DefineDungeonArea( 521, 1,"Stratholme City@CoTStratholme","CoTStratholme","Stratholme City")
 DefineDungeonArea( 522, 1,"Ahn'Kahet@Ahnkahet","Ahnkahet","Ahn'Kahet")
 DefineDungeonArea( 523, 1,"Njorndir Preparation@UtgardeKeep","UtgardeKeep","Njorndir Preparation")
 DefineDungeonArea( 523, 2,"Dragonflayer Ascent@UtgardeKeep","UtgardeKeep","Dragonflayer Ascent")
@@ -120,7 +104,7 @@ DefineDungeonArea( 529, 3,"The Inner Sanctum of Ulduar@Ulduar","Ulduar","The Inn
 DefineDungeonArea( 529, 4,"The Prison of Yogg-Saron@Ulduar","Ulduar","The Prison of Yogg-Saron")
 DefineDungeonArea( 529, 5,"The Spark of Imagination@Ulduar","Ulduar","The Spark of Imagination")
 DefineDungeonArea( 530, 1,"Gundrak@Gundrak","Gundrak","Gundrak")
-DefineDungeonArea( 531, 1,"The Obsidian Sanctum@TheObsidianSanctum","TheObsidianSanctum","The Obsidian Sanctum")
+DefineDungeonArea( 531, 0,"The Obsidian Sanctum@TheObsidianSanctum","TheObsidianSanctum","The Obsidian Sanctum")
 DefineDungeonArea( 532, 1,"Vault of Archavon@VaultofArchavon","VaultofArchavon","Vault of Archavon")
 DefineDungeonArea( 533, 1,"The Brood Pit@AzjolNerub","AzjolNerub","The Brood Pit")
 DefineDungeonArea( 533, 2,"Hadronox's Lair@AzjolNerub","AzjolNerub","Hadronox's Lair")
@@ -140,7 +124,7 @@ DefineDungeonArea( 543, 2,"The Icy Depths@TheArgentColiseum","TheArgentColiseum"
 DefineDungeonArea( 545, 2,"Main Floor@Gilneas","Gilneas","Main Floor")
 DefineDungeonArea( 545, 3,"Upper Floor@Gilneas","Gilneas","Upper Floor")
 DefineDungeonArea( 601, 1,"The Forge of Souls@TheForgeofSouls","TheForgeofSouls","The Forge of Souls")
-DefineDungeonArea( 602, 1,"Pit of Saron@PitofSaron","PitofSaron","Pit of Saron")
+DefineDungeonArea( 602, 0,"Pit of Saron@PitofSaron","PitofSaron","Pit of Saron")
 DefineDungeonArea( 603, 1,"Halls of Reflection@HallsofReflection","HallsofReflection","Halls of Reflection")
 DefineDungeonArea( 604, 1,"The Lower Citadel@IcecrownCitadel","IcecrownCitadel","The Lower Citadel")
 DefineDungeonArea( 604, 2,"The Rampart of Skulls@IcecrownCitadel","IcecrownCitadel","The Rampart of Skulls")
@@ -177,7 +161,7 @@ DefineDungeonArea( 699, 6,"The Shrine of Eldretharr@DireMaul","DireMaul","The Sh
 DefineDungeonArea( 704, 1,"Detention Block@BlackrockDepths","BlackrockDepths","Detention Block")
 DefineDungeonArea( 704, 2,"Shadowforge City@BlackrockDepths","BlackrockDepths","Shadowforge City")
 DefineDungeonArea( 710, 1,"The Shattered Halls@TheShatteredHalls","TheShatteredHalls","The Shattered Halls")
-DefineDungeonArea( 717, 1,"Ruins of Ahn'Qiraj@RuinsofAhnQiraj","RuinsofAhnQiraj","Ruins of Ahn'Qiraj")
+DefineDungeonArea( 717, 0,"Ruins of Ahn'Qiraj@RuinsofAhnQiraj","RuinsofAhnQiraj","Ruins of Ahn'Qiraj")
 DefineDungeonArea( 718, 1,"Onyxia's Lair@OnyxiasLair","OnyxiasLair","Onyxia's Lair")
 DefineDungeonArea( 721, 1,"Tazz'Alor@BlackrockSpire","BlackrockSpire","Tazz'Alor")
 DefineDungeonArea( 721, 2,"Skitterweb Tunnels@BlackrockSpire","BlackrockSpire","Skitterweb Tunnels")
@@ -202,9 +186,9 @@ DefineDungeonArea( 731, 1,"Stasis Block: Trion@TheArcatraz","TheArcatraz","Stasi
 DefineDungeonArea( 731, 2,"Stasis Block: Maximus@TheArcatraz","TheArcatraz","Stasis Block: Maximus")
 DefineDungeonArea( 731, 3,"Containment Core@TheArcatraz","TheArcatraz","Containment Core")
 DefineDungeonArea( 732, 1,"Mana Tombs@ManaTombs","ManaTombs","Mana Tombs")
-DefineDungeonArea( 733, 1,"The Black Morass@CoTTheBlackMorass","CoTTheBlackMorass","The Black Morass")
-DefineDungeonArea( 734, 1,"Old Hillsbrad@CoTHillsbradFoothills","CoTHillsbradFoothills","Old Hillsbrad")
-DefineDungeonArea( 747, 1,"Lost City of the Tol'Vir@LostCityofTolvir","LostCityofTolvir","Lost City of the Tol'Vir")
+DefineDungeonArea( 733, 0,"The Black Morass@CoTTheBlackMorass","CoTTheBlackMorass","The Black Morass")
+DefineDungeonArea( 734, 0,"Old Hillsbrad@CoTHillsbradFoothills","CoTHillsbradFoothills","Old Hillsbrad")
+DefineDungeonArea( 747, 0,"Lost City of the Tol'Vir@LostCityofTolvir","LostCityofTolvir","Lost City of the Tol'Vir")
 DefineDungeonArea( 749, 1,"Wailing Caverns@WailingCaverns","WailingCaverns","Wailing Caverns")
 DefineDungeonArea( 750, 1,"Caverns of Maraudon@Maraudon","Maraudon","Caverns of Maraudon")
 DefineDungeonArea( 750, 2,"Zaetar's Grave@Maraudon","Maraudon","Zaetar's Grave")
@@ -248,15 +232,15 @@ DefineDungeonArea( 767, 1,"Abyssal Halls@ThroneofTides","ThroneofTides","Abyssal
 DefineDungeonArea( 767, 2,"Throne of Neptulon@ThroneofTides","ThroneofTides","Throne of Neptulon")
 DefineDungeonArea( 768, 1,"The Stonecore@TheStonecore","TheStonecore","The Stonecore")
 DefineDungeonArea( 769, 1,"The Vortex Pinnacle@Skywall","Skywall","The Vortex Pinnacle")
-DefineDungeonArea( 775, 1,"Battle for Mount Hyjal@CoTMountHyjal","CoTMountHyjal","Battle for Mount Hyjal")
+DefineDungeonArea( 775, 0,"Battle for Mount Hyjal@CoTMountHyjal","CoTMountHyjal","Battle for Mount Hyjal")
 DefineDungeonArea( 776, 1,"Gruul's Lair@GruulsLair","GruulsLair","Gruul's Lair")
 DefineDungeonArea( 779, 1,"Magtheridon's Lair@MagtheridonsLair","MagtheridonsLair","Magtheridon's Lair")
 DefineDungeonArea( 780, 1,"Serpentshrine Cavern@CoilfangReservoir","CoilfangReservoir","Serpentshrine Cavern")
-DefineDungeonArea( 781, 1,"Zul'Aman@ZulAman","ZulAman","Zul'Aman")
+DefineDungeonArea( 781, 0,"Zul'Aman@ZulAman","ZulAman","Zul'Aman")
 DefineDungeonArea( 782, 1,"The Eye@TempestKeep","TempestKeep","The Eye")
-DefineDungeonArea( 789, 1,"Sunwell Plateau@SunwellPlateau","SunwellPlateau","Sunwell Plateau")
-DefineDungeonArea( 789, 2,"Shrine of the Eclipse@SunwellPlateau","SunwellPlateau","Shrine of the Eclipse")
-DefineDungeonArea( 793, 1,"Zul'Gurub@ZulGurub","ZulGurub","Zul'Gurub")
+DefineDungeonArea( 789, 0,"Sunwell Plateau@SunwellPlateau","SunwellPlateau","Sunwell Plateau")
+DefineDungeonArea( 789, 1,"Shrine of the Eclipse@SunwellPlateau","SunwellPlateau","Shrine of the Eclipse")
+DefineDungeonArea( 793, 0,"Zul'Gurub@ZulGurub","ZulGurub","Zul'Gurub")
 DefineDungeonArea( 796, 1,"Illidari Training Grounds@BlackTemple","BlackTemple","Illidari Training Grounds")
 DefineDungeonArea( 796, 2,"Karabor Sewers@BlackTemple","BlackTemple","Karabor Sewers")
 DefineDungeonArea( 796, 3,"Sanctuary of Shadows@BlackTemple","BlackTemple","Sanctuary of Shadows")
@@ -287,8 +271,8 @@ DefineDungeonArea( 799,17,"Netherspace@Karazhan","Karazhan","Netherspace")
 DefineDungeonArea( 800, 1,"The Firelands@Firelands","Firelands","The Firelands")
 DefineDungeonArea( 800, 2,"The Anvil of Conflagration@Firelands","Firelands","The Anvil of Conflagration")
 DefineDungeonArea( 803, 1,"The Nexus@TheNexusLegendary","TheNexusLegendary","The Nexus")
-DefineDungeonArea( 819, 1,"Hour of Twilight@HourofTwilight","HourofTwilight","Hour of Twilight")
-DefineDungeonArea( 819, 2,"Wyrmrest Temple@HourofTwilight","HourofTwilight","Wyrmrest Temple")
+DefineDungeonArea( 819, 0,"Hour of Twilight@HourofTwilight","HourofTwilight","Hour of Twilight")
+DefineDungeonArea( 819, 1,"Wyrmrest Temple@HourofTwilight","HourofTwilight","Wyrmrest Temple")
 DefineDungeonArea( 820, 1,"Entryway of Time@EndTime","EndTime","Entryway of Time")
 DefineDungeonArea( 820, 2,"Azure Dragonshrine@EndTime","EndTime","Azure Dragonshrine")
 DefineDungeonArea( 820, 3,"Ruby Dragonshrine@EndTime","EndTime","Ruby Dragonshrine")
@@ -328,11 +312,11 @@ DefineDungeonArea( 877, 3,"Snowdrift Dojo@ShadowpanHideout","ShadowpanHideout","
 -- DefineDungeonArea( 882, 2,"Big Beach Brew Bash@BrewmasterScenario03","BrewmasterScenario03","Big Beach Brew Bash")
 -- DefineDungeonArea( 883, 1,"Raid on Tyr'vess@Tyrivess","Tyrivess","Raid on Tyr'vess")
 -- DefineDungeonArea( 883, 2,"Assault on Zan'Vess@Tyrivess","Tyrivess","Assault on Zan'Vess")
-DefineDungeonArea( 884, 2,"Brewmoon Festival@KunLaiPassScenario","KunLaiPassScenario","Brewmoon Festival")
+DefineDungeonArea( 884, 0,"Brewmoon Festival@KunLaiPassScenario","KunLaiPassScenario","Brewmoon Festival")
 DefineDungeonArea( 885, 1,"The Crimson Assembly Hall@MogushanPalace","MogushanPalace","The Crimson Assembly Hall")
 DefineDungeonArea( 885, 2,"Vaults of Kings Past@MogushanPalace","MogushanPalace","Vaults of Kings Past")
 DefineDungeonArea( 885, 3,"Throne of Ancient Conquerors@MogushanPalace","MogushanPalace","Throne of Ancient Conquerors")
-DefineDungeonArea( 886, 1,"Terrace of Endless Spring@TerraceOfEndlessSpring","TerraceOfEndlessSpring","Terrace of Endless Spring")
+DefineDungeonArea( 886, 0,"Terrace of Endless Spring@TerraceOfEndlessSpring","TerraceOfEndlessSpring","Terrace of Endless Spring")
 DefineDungeonArea( 887, 1,"Forward Assault Camp@SiegeofNiuzaoTemple","SiegeofNiuzaoTemple","Forward Assault Camp")
 DefineDungeonArea( 887, 2,"The Hollowed Out Tree@SiegeofNiuzaoTemple","SiegeofNiuzaoTemple","The Hollowed Out Tree")
 DefineDungeonArea( 891, 9,"Spitescale Cavern@EchoIslesStart","EchoIslesStart","Spitescale Cavern")
@@ -353,8 +337,8 @@ DefineDungeonArea( 900, 2,"Crypt Depths@AncientMoguCrypt","AncientMoguCrypt","Cr
 -- DefineDungeonArea( 905, 2,"The Imperial Mercantile@ValeofEternalBlossoms","ValeofEternalBlossoms","The Imperial Mercantile")
 -- DefineDungeonArea( 905, 3,"The Emperor's Step@ValeofEternalBlossoms","ValeofEternalBlossoms","The Emperor's Step")
 -- DefineDungeonArea( 905, 4,"The Imperial Exchange@ValeofEternalBlossoms","ValeofEternalBlossoms","The Imperial Exchange")
-DefineDungeonArea( 914, 1,"The Hidden Pass@VoljinScenario","VoljinScenario","The Hidden Pass")
-DefineDungeonArea( 914, 2,"The Ancient Passage@VoljinScenario","VoljinScenario","The Ancient Passage")
+DefineDungeonArea( 914, 0,"The Hidden Pass@VoljinScenario","VoljinScenario","The Hidden Pass")
+DefineDungeonArea( 914, 1,"The Ancient Passage@VoljinScenario","VoljinScenario","The Ancient Passage")
 DefineDungeonArea( 919, 1,"Illidari Training Grounds@BlackTempleScenario","BlackTempleScenario","Illidari Training Grounds")
 DefineDungeonArea( 919, 2,"Karabor Sewers@BlackTempleScenario","BlackTempleScenario","Karabor Sewers")
 DefineDungeonArea( 919, 3,"Sanctuary of Shadows@BlackTempleScenario","BlackTempleScenario","Sanctuary of Shadows")
@@ -410,8 +394,8 @@ DefineDungeonArea( 994, 5,"Imperator's Rise@HighmaulRaid","HighmaulRaid","Impera
 DefineDungeonArea( 995, 1,"Dragonspire Hall@UpperBlackrockSpire","UpperBlackrockSpire","Dragonspire Hall")
 DefineDungeonArea( 995, 2,"The Rookery@UpperBlackrockSpire","UpperBlackrockSpire","The Rookery")
 DefineDungeonArea( 995, 3,"Hall of Blackhand@UpperBlackrockSpire","UpperBlackrockSpire","Hall of Blackhand")
-DefineDungeonArea(1008, 1,"The Evergrowth@OvergrownOutpost","OvergrownOutpost","The Evergrowth")
-DefineDungeonArea(1008, 2,"The Overlook@OvergrownOutpost","OvergrownOutpost","The Overlook")
+DefineDungeonArea(1008, 0,"The Evergrowth@OvergrownOutpost","OvergrownOutpost","The Evergrowth")
+DefineDungeonArea(1008, 1,"The Overlook@OvergrownOutpost","OvergrownOutpost","The Overlook")
 DefineDungeonArea(1014, 0,"Dalaran70","Dalaran70","Dalaran70")
 DefineDungeonArea(1014, 4,"The Hall of Shadows@Dalaran70","Dalaran70","The Hall of Shadows")
 DefineDungeonArea(1014,10,"Dalaran@Dalaran70","Dalaran70","Dalaran")
@@ -469,8 +453,8 @@ DefineDungeonArea(1088, 6,"Astromancer's Rise@SuramarRaid","SuramarRaid","Astrom
 DefineDungeonArea(1088, 7,"The Nightspire@SuramarRaid","SuramarRaid","The Nightspire")
 DefineDungeonArea(1088, 8,"Elisande's Quarters@SuramarRaid","SuramarRaid","Elisande's Quarters")
 DefineDungeonArea(1088, 9,"The Font of Night@SuramarRaid","SuramarRaid","The Font of Night")
-DefineDungeonArea(1090, 1,"Tol Barad@TolBaradWarlockScenario","TolBaradWarlockScenario","Tol Barad")
-DefineDungeonArea(1090, 2,"Baradin Hold@TolBaradWarlockScenario","TolBaradWarlockScenario","Baradin Hold")
+DefineDungeonArea(1090, 0,"Tol Barad@TolBaradWarlockScenario","TolBaradWarlockScenario","Tol Barad")
+DefineDungeonArea(1090, 1,"Baradin Hold@TolBaradWarlockScenario","TolBaradWarlockScenario","Baradin Hold")
 DefineDungeonArea(1094, 1,"Clutch of Corruption@NightmareRaid","NightmareRaid","Clutch of Corruption")
 DefineDungeonArea(1094, 2,"Core of the Nightmare@NightmareRaid","NightmareRaid","Core of the Nightmare")
 DefineDungeonArea(1094, 3,"Mulgore@NightmareRaid","NightmareRaid","Mulgore")
@@ -830,7 +814,7 @@ DefineInstance(1129, 1,"CaveoftheBloodtotemScenario","CaveoftheBloodtotemScenari
 DefineInstance(1130, 1,"StratholmePaladinClassMount","StratholmePaladinClassMount")
 DefineInstance(1131, 1,"TheEyeofEternityMageClassMount","TheEyeofEternityMageClassMount")
 DefineInstance(1132, 1,"HallsOfValorWarriorClassMount","HallsOfValorWarriorClassMount")
-DefineInstance(1135, 2,"ArgusSurface","ArgusSurface")
+DefineInstance(1135, 7,"ArgusSurface","ArgusSurface")
 DefineInstance(1136, 0,"ColdridgeValleyScenario","ColdridgeValleyScenario")
 DefineInstance(1137, 2,"TheDeadminesPetBattle","TheDeadminesPetBattle")
 DefineInstance(1139, 0,"ArathiBasinWinter","ArathiBasinWinter")
@@ -990,13 +974,13 @@ DefineTerrain(7, 2, 945, 0,"Tanaan Jungle","TanaanJungle")
 DefineTerrain(7, 3, 947, 0,"Shadowmoon Valley@Draenor","ShadowmoonValleyDR")
 DefineTerrain(7, 4, 949,21,"Gorgrond")
 DefineTerrain(7, 5, 948, 0,"Spires of Arak","SpiresOfArak")
-DefineTerrain(7, 6, 946,14,"Talador")
+DefineTerrain(7, 6, 946,30,"Talador")
 DefineTerrain(7, 7, 941, 9,"Frostfire Ridge","FrostfireRidge")
 DefineTerrain(7, 8, 978, 0,"Ashran")
 DefineTerrain(8, 0,1007, 0,"Broken Isles","BrokenIsles")
 DefineTerrain(8, 1,1018,15,"Val'sharah","Valsharah")
-DefineTerrain(8, 2,1015, 0,"Azsuna")
-DefineTerrain(8, 3,1024,21,"Highmountain")
+DefineTerrain(8, 2,1015,19,"Azsuna")
+DefineTerrain(8, 3,1024,31,"Highmountain")
 DefineTerrain(8, 4,1033,42,"Suramar")
 DefineTerrain(8, 5,1014,12,"Dalaran","Dalaran70")
 DefineTerrain(8, 6,1017, 0,"Stormheim")
@@ -1109,7 +1093,7 @@ DefineTerrain(2,50, 614,0,"Abyssal Depths")
 DefineTerrain(2,51, 615,0,"Shimmering Expanse")
 DefineTerrain(2,51, 610,0,"Kelp'thar Forest")
 DefineTerrain(2,11,  32, 0,"Deadwind Pass","DeadwindPass")
-DefineTerrainFloor(2,11, 32,21,"Dalaran@DeadwindPass","DeadwindPass")
+DefineTerrainFloor(2,11, 30,21,"Dalaran@DeadwindPass","DeadwindPass")  -- Should be on map 32!
 DefineTerrainFloor(2,24, 463, 0,"Ghostlands","Ghostlands")
 DefineTerrainFloor(6,11, 873,5,"The Ancient Passage","TheHiddenPass")
 DefineTerrainFloor(7, 2, 970,1,"Umbral Halls", "TanaanJungleIntro")
@@ -1119,9 +1103,9 @@ DefineTerrainFloor(8, 2, 1015,18,"OceanusCove", "OceanusCove@Azsuna")
 DefineTerrainFloor(8, 6, 1017,9,"StormDrakeDen", "StormDrakeDen@Stormheim")
 DefineTerrainFloor(8, 6, 1017,25,"ThorignirRefuge", "ThorignirRefuge@Stormheim")
 DefineTerrainFloor(8, 6, 1017,27,"AggramarsVault", "AggramarsVaulty@Stormheim")
-DefineDungeonArea( 321,3,"The Imperial Exchange@Shrine of Seven Stars","Shrine of Seven Stars","Shrine of Seven Stars")
+-- DefineDungeonArea( 321,3,"The Imperial Exchange@Shrine of Seven Stars","Shrine of Seven Stars","Shrine of Seven Stars")
 DefineDungeonArea( 811,4,"The Emperor's Step@Shrine of Seven Stars","Shrine of Seven Stars","Shrine of Seven Stars")
-DefineDungeonArea( 321,3,"The Imperial Mercantile@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
+-- DefineDungeonArea( 321,3,"The Imperial Mercantile@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
 DefineDungeonArea( 773, 1,"Throne of the Four Winds@ThroneoftheFourWinds","ThroneoftheFourWinds","Throne of the Four Winds")
 DefineDungeonArea( 811,4,"Hall of the Crescent Moon@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
 DefineDungeonArea(1041, 1,"Field of the Eternal Hunt@HallsofValor","HallsofValor","Field of the Eternal Hunt")
@@ -1129,8 +1113,8 @@ DefineDungeonArea(1041, 2,"The High Gate@HallsofValor","HallsofValor","The High 
 DefineDungeonArea(1052, 0,"Mardum, the Shattered Abyss@DemonHunterOrderHallTerrain","DemonHunterOrderHallTerrain","Upper Command Center")
 DefineDungeonArea(1052, 1,"Upper Command Center@DemonHunterOrderHallTerrain","DemonHunterOrderHallTerrain","Upper Command Center")
 DefineDungeonArea(1052, 2,"Lower Command Center@DemonHunterOrderHallTerrain","DemonHunterOrderHallTerrain","Lower Command Center")
-DefineDungeonArea(1062, 1,"Floor1@TirisfalGladesInsideScenario","TirisfalGladesInsideScenario","Floor1")
-DefineDungeonArea(1062, 2,"Floor2@TirisfalGladesInsideScenario","TirisfalGladesInsideScenario","Floor2")
+-- DefineDungeonArea(1062, 1,"Floor1@TirisfalGladesInsideScenario","TirisfalGladesInsideScenario","Floor1")
+-- DefineDungeonArea(1062, 2,"Floor2@TirisfalGladesInsideScenario","TirisfalGladesInsideScenario","Floor2")
 DefineDungeonArea( 1077,0,"TheDreamgrove","TheDreamgrove","TheDreamgrove")
 
 -- Starter Zones
