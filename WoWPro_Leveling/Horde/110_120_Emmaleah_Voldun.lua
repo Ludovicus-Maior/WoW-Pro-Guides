@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2018-08-01 07:43
+-- Who: Emmaleah
+-- Log: corrections per error checker 7/31/18
+
+-- URL: http://wow-pro.com/node/3772/revisions/29388/view
 -- Date: 2018-07-03 02:46
 -- Who: Emmaleah
 -- Log: updated next guide
@@ -28,11 +33,11 @@ return [[
 t The War Cache|QID|52746|N|Turn in to UI when complete.|
 A Time for War|QID|53333|N|Auto accepted from UI.|PRE|52746|
 
-t Vol'dun|QID|47513|M|57.81,44.34|Z|Hall of Croniclers!DazarAlor_Upper|N|To Princess Talanji.|
+t Vol'dun|QID|47513|M|57.81,44.34|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 A Discreet Discussions|QID|47313|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47513|
 C Discreet Discussions|QID|47313|M|50.12,37.41;52.20,37.54;54.26,35.85|CN|Z|Dazar'Alor|NC|N|Outside and down either long set of stairs to find Enforcers to question. Continue down to find the next one, etc.  You are looking for Enforcers Sekal, Gortok, and Dakanji.|
-T Discreet Discussions|QID|47313|M|51.57,31.82|Z|Dazar'Alor|N|To Bladeguard Kaja.|
-A Rumors of Exile|QID|47314|M|51.57,31.82|Z|Dazar'Alor|N|From Bladeguard Kaja.|
+T Discreet Discussions|QID|47313|M|51.57,31.82|Z|Dazar'alor|N|To Bladeguard Kaja.|
+A Rumors of Exile|QID|47314|M|51.57,31.82|Z|Dazar'alor|N|From Bladeguard Kaja.|
 T Rumors of Exile|QID|47314|M|51.17,29.59;49.90,31.63|CS|Z|Dazar'alor|N|To Bladeguard Kaja who went down the stairs and around the corner to your left.|
 A Into the Dunes|QID|47315|M|49.90,31.63|Z|Dazar'alor|N|From Bladeguard Kaja.|
 C Into the Dunes|QID|47315|M|50.04,31.69|Z|Dazar'alor|QO|1|NC|N|Hop on the Pterrordax mounted.|
@@ -439,7 +444,7 @@ C A Goldtusk Greeting|QID|48322|M|43.39,60.10|QO|4|NC|N|Click on the buffet tabl
 C A Goldtusk Greeting|QID|48322|M|43.42,59.96|QO|5|NC|N|Show Bladeguard Tarkaj his (uncomfortable) bed.|
 T A Goldtusk Greeting|QID|48322|M|43.51,60.21|N|To Rhan'ka.|
 A Ruins-Level Marketing|QID|48840|M|43.51,60.21|N|From Rhan'ka.|
-R wherever|ACTIVE|M|51165|43.23,45.90|N|Forgot name of area... but go there :)|
+R wherever|ACTIVE|51165|M|43.23,45.90|N|Forgot name of area... but go there :)|
 C WANTED: Sandscout Vesarik|QID|51165|M|43.23,45.90|S|N|This is a group quest so you may want to keep your eye out for someone else to help. You will be close for several quests.|
 T Ruins-Level Marketing|QID|48840|M|45.39,46.18|N|To Kenzou.|
 A Inconvenient Spirits|QID|49001|M|45.39,46.18|N|From Kenzou.|
@@ -540,7 +545,7 @@ C Tattered Note|QID|49437|M|54.55,33.25|N|Kill Shath'kar.|
 T Light Up the Gulch|QID|49668|M|55.43,35.02|N|To Kiro.|
 A Unleash the Beasts|QID|49669|M|55.43,35.02|N|From Kiro.|
 A Untame Slaughter|QID|50757|M|55.43,35.02|N|From Kiro.|
-C Untame Slaughter|QID|50757|M|56.58,30.62|1|S|N|Kill yet more Faithless.|
+C Untame Slaughter|QID|50757|M|56.58,30.62|S|N|Kill yet more Faithless.|
 C Unleash the Beasts|QID|49669|M|55.94,32.26;55.36,31.04|CS|N|Kill Crawg Tamer Traskniss.|
 C Untame Slaughter|QID|50757|M|56.58,30.62|US|N|Finish off this set of Faithless.|
 T Untame Slaughter|QID|50757|M|55.43,35.01|N|To Kiro.|
@@ -602,7 +607,7 @@ C Jungleweb Infestation|QID|47573|M|60.85,16.18|S|QO|1|N|Kill Jungleweb Crawlers
 C Blessing of Kimbul|QID|47581|M|61.15,15.14|CHAT|QO|1|N|Answer the questions until you recieve the blessing. /nLoa's Blessing /nAct with courage in all matters /nAn indomitable will /nA life lived with honor /nThey see that they belong to nature.|
 C Blessing of Kimbul|QID|47581|M|61.14,15.14|NC|QO|2|N|Pick up the Ring of Tides.|
 K Jungleweb Hunter|QID|51974|QO|1|M|60.38,18.13|T|Jungleweb Hunter|N|QID may be wrong. was mostly off the screen. Silver Elite|RANK|3|
-K Kill Portobello|QID|50971|QPO|1|M|61.04,18.34|T|Portakillo|N|QID may be wrong. Silver Elite|RANK|3|
+K Kill Portobello|QID|50971|QO|1|M|61.04,18.34|T|Portakillo|N|QID may be wrong. Silver Elite|RANK|3|
 C Jungleweb Infestation|QID|47573|M|60.60,13.06|QO|2|N|Fjinish running over the Hatchlings.|
 C All Webbed Up|QID|47574|M|60.78,16.24|QO|1|N|Finish freeing the Tortaka.|
 C Jungleweb Infestation|QID|47573|M|60.85,16.18|QO|1|N|Finish killing the Jungleweb Crawlers.|
