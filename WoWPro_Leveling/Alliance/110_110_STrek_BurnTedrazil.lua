@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2018-08-01 09:34
+-- Who: Emmaleah
+-- Log: corrections per Grail and play thru on live 7/31/18
+
+-- URL: http://wow-pro.com/node/3776/revisions/29447/view
 -- Date: 2018-07-24 20:24
 -- Who: Emmaleah
 -- Log: play thru on live 7/24/18. Minor note changes and fixed a few typos.
@@ -122,7 +127,7 @@ C honor Fallen soldiers|QID|52072|M|36.73,51.82|Z|Ashenvale|QO|1|NC|N|Click on F
 K Forsaken Assasin|QID|53616|QO|1|N|Complete the 8 kills on Forsaken Assassins.|US|M|35.92,49.66|Z|Ashenvale|
 T The Light of Elune|QID|52072|M|35.84,50.45|Z|Ashenvale|N|To Captain Delaryn Summermoon.|
 T Knives of the Forsaken|QID|53616|M|35.84,50.45|Z|Ashenvale|N|To Captain Delaryn Summermoon.|
-A A Soft Glow|QID|52116|M|35.84,50.45|Z|Ashenvale|N|From Captain Delaryn Summermoon.|PRE|52072|
+A A Soft Glow|QID|52116|M|35.84,50.45|Z|Ashenvale|N|From Captain Delaryn Summermoon.|PRE|52072;53616|
 
 C A Soft Glow|QID|52116|M|43.92,90.03|Z|Darkshore|QO|1|NC|N|Meet Malfurion at the entrance to Darkshore. If he is fighting, help him. After he is out of combat, you can turn in quest.|
 T A Soft Glow|QID|52116|M|43.57,89.34|Z|Darkshore|N|To Malfurion Stormrage.|
@@ -134,14 +139,14 @@ C Hidden Amongst the Leaves|QID|52234|M|41.82,75.59|Z|Darkshore|QO|1||CHAT|N|Cha
 K Frenzied Blackwood Furbolg|QID|53617|QO|1|N|Kill Frenzied Blackwood Furbolg untill you have 10 killed.|US|M|41.82,75.59|Z|Darkshore|
 T Hidden Amongst the Leaves|QID|52234|M|43.37,75.52|Z|Darkshore|N|To Captain Delaryn Summermoon.|
 T Mercy For the Mad|QID|53617|M|43.37,75.52|Z|Darkshore|N|To Captain Delaryn Summermoon.|
-A Garden Grove|QID|52240|M|43.37,75.52|Z|Darkshore|N|From Captain Delaryn Summermoon.|PRE|52234|
+A Garden Grove|QID|52240|M|43.37,75.52|Z|Darkshore|N|From Captain Delaryn Summermoon.|PRE|52234;53617|
 K Monstrous Shredder|QID|52240|M|44.36,75.26|Z|Darkshore|QO|1|N|Defeat the Monstrous Shredder. Boss fight.|
 T Garden Grove|QID|52240|M|45.16,74.94|Z|Darkshore|N|To Captain Delaryn Summermoon and enjoy the ingame sequence.|
 
 A Enraged Furbolgs|QID|52245|M|45.26,74.90|Z|Darkshore|N|From Onu.|PRE|52240|
 R Blackwood Den|ACTIVE|52245|M|45.53,80.25|Z|Darkshore|N|Go to Blackwood Den.|
 A Elves in the Machine|QID|53551|M|45.13,81.28|Z|Darkshore|N|From Captain Delaryn Summermoon who will come with you when arriving at Blackwood Den.|PRE|52240|
-C Elves in the Machine|QID|53551|QO|1|NC|N|Delaryn travels with you and provides a stealth circle (No stealth if mounted). Target a nearby guard and move so that your stealth circle includes the guard, then use the special action button. Its ok if more than one guard is in the circle. (but only one will be taken out at a time.) Sabotage 5 Horde Demolishers by clicking them and get away for the BOOM!|S|
+C Elves in the Machine|QID|53551|QO|1|NC|N|Delaryn travels with you and provides a stealth circle (No stealth if mounted). Target a nearby guard and move so that your stealth circle includes the guard, then use the special action button. It's ok if more than one guard is in the circle. (but only one will be taken out at a time.) Sabotage 5 Horde Demolishers by clicking them and get away for the BOOM!|S|
 C Gren Tornfur|QID|52245|M|46.59,83.86|Z|Darkshore|QO|2|CHAT|N|Rescue Gren Tornfur.|
 C Elder Brownpaw|QID|52245|M|46.45,85.76|Z|Darkshore|QO|3|NC|N|Rescue Elder Brownpaw.|
 C Elder Brolg|QID|52245|M|43.55,81.01|Z|Darkshore|QO|1|NC|N|Rescue Elder Brolg.|
@@ -149,7 +154,7 @@ C Elves in the Machine|QID|53551|NC|N|Time to finish off sabatoging the Horde De
 T Elves in the Machine|QID|53551|Z|Darkshore|N|To Captain Delaryn Summermoon next to you. (this will not drop the stealth field)|
 
 T Enraged Furbolgs|QID|52245|M|45.32,74.87|Z|Darkshore|N|To Onu.|
-A The Wake of Something New|QID|52242|M|45.32,74.87|Z|Darkshore|N|From Onu.|PRE|52245|
+A The Wake of Something New|QID|52242|M|45.32,74.87|Z|Darkshore|N|From Onu.|PRE|52245;53551|
 
 R Nazj'vel|ACTIVE|52242|M|34.68,85.12|Z|Darkshore|N|Fly over to the island of Nazj'vel to find the source of Onu's pain.|
 C The Wake of Something New|QID|52242|M|34.68,85.12|Z|Darkshore|QO|1|NC|N|Click on the source of Onu's pain and discover what it is.|
@@ -163,7 +168,7 @@ K Horde combatants|QID|53621|QO|1|N|You still need to kill Horde combatants. You
 
 T Azerite Denial|QID|53619|M|34.66,85.04|Z|Darkshore|N|To Captain Delaryn Summermoon.|
 T No Horde Allowed|QID|53621|M|34.66,85.04|Z|Darkshore|N|To Captain Delaryn Summermoon.|
-A Malfurion Returns|QID|52256|M|34.66,85.04|Z|Darkshore|N|From Captain Delaryn Summermoon.|PRE|53619|
+A Malfurion Returns|QID|52256|M|34.66,85.04|Z|Darkshore|N|From Captain Delaryn Summermoon.|PRE|53619;53621|
 
 T Malfurion Returns|QID|52256|M|42.29,66.77|Z|Darkshore|N|To Malfurion Stormrage.|
 A "Rock" The World|QID|52257|M|42.29,66.77|Z|Darkshore|N|From Malfurion Stormrage.|PRE|52256|
@@ -184,7 +189,7 @@ T A Looming Threat|QID|52279|M|58.40,89.48|Z|Teldrassil|N|To Malfurion Stormrage
 
 ;part 2 on PTR
 
-A A Threat from the North|QID|52973|M|58.40,89.48|Z|Teldrassil|N|On PTR part 2 off this quest line did start here and we received quest from UI but it is possible that Captain Delaryn Summermoon gives this quest and is standing next to Malfurion Stormrage on the docks. We think this will be available one or two weeks later (7/31/18).|
+A A Threat from the North|QID|52973|M|58.40,89.48|Z|Teldrassil|N|Autoaccepted.|PRE|52279|
 
 T A Threat from the North|QID|52973|M|50.40,20.03|Z|Darkshore|N|To Malfurion Stormrage.|
 A Rescue Effort|QID|52974|M|50.40,20.03|Z|Darkshore|N|From Malfurion Stormrage.|
@@ -202,20 +207,20 @@ T Defending Lor'danel|QID|53622|M|50.46,19.72|Z|Darkshore|N|To Captain Delaryn S
 T Action This Day|QID|52975|M|50.46,19.72|Z|Darkshore|N|To Captain Delaryn Summermoon.|
 A The Guidance of Our Shan'do|QID|52977|M|50.46,19.72|Z|Darkshore|N|From Captain Delaryn Summermoon.|
 
-C Find Malfurion|QID|52977|M|46.30,24.17|Z|Darkshore|QO|1|N|Find Malfurion in Darkshore.|
-C Malfurion vs ...|QID|52977|M|45.94,24.47|Z|Darkshore|QO|2|N|watch the in game sene unfold.|
-C The Guidance of Our Shan'do|QID|52977|M|45.96,24.98|Z|Darkshore|QO|3|N|Mount Tyrande's Mount and watch the movie. You will arrive in Daenassaus|
+C Find Malfurion|QID|52977|M|46.30,24.17|Z|Darkshore|NC|QO|1|N|Find Malfurion in Darkshore.|
+C Malfurion vs ...|QID|52977|M|45.94,24.47|Z|Darkshore|NC|QO|2|N|watch the in game scene unfold.|
+C The Guidance of Our Shan'do|QID|52977|M|45.96,24.98|Z|Darkshore|NC|QO|3|N|Mount Tyrande's Hipogryph and watch the movie. You will arrive in Darnassus|
 
 T The Guidance of Our Shan'do|QID|52977|M|43.10,78.25|Z|Darnassus|N|To Mia Greymane.|
 A A Flicker of Hope|AVAILABLE|53095|M|43.10,78.25|Z|Darnassus|N|From Mia Greymane.|
-N To the resque|ACTIVE|53095|Z|Darnassus|N|Time is running out. Save as manny as you can and extinguish all fires too...|
-A From the Ashes...|QID|53310|M|57.66,59.54|Z|Darnassus|N|You get this quest automaticly.|
-P Stormwind|ACTIVE|53310|Z|Darnassus|NC|N|Take the portal back to Stormwind and report to your King.|
+N To the rescue|ACTIVE|53095|Z|Darnassus|N|Time is running out. Save as many as you can and extinguish all fires too (with extra action button)...\nRight click to check off manually when you arrive in Stormwind.|
+A From the Ashes...|QID|53310|M|57.66,59.54|Z|Darnassus|N|You get this quest automatically.|
+P Stormwind City|ACTIVE|53310|Z|Darnassus|NC|N|Take the portal back to Stormwind and report to your King.|
 T From the Ashes...|QID|53310|M|85.82,31.61|Z|Stormwind City|N|To Anduin Wrynn.|
 
 ;battle for Lordaeron by Emmaleah
 
-A Hour of Reckoning|QID|53370|N|Autoaccepted upon arriving in Stormwind (after quest is released, presumed to be 7/31/18).|LEAD|51795|;or perhaps upon logging in anywhere?
+A Hour of Reckoning|QID|53370|N|Autoaccepted upon arriving in Stormwind (after quest is released, presumed to be August 7, 2018).|LEAD|51795|;or perhaps upon logging in anywhere?
 T Hour of Reckoning|QID|53370|M|22.37,32.42|Z|Stormwind City|N|To Master Mathias Shaw.|
 A The Battle for Lordaeron|QID|51795|M|22.37,32.42|Z|Stormwind City|N|From Master Mathias Shaw.|
 C The Battle for Lordaeron|QID|51795|M|22.22,32.53|Z|Stormwind City|QO|1|CHAT|N|Tell Captain Angelica, at the Stormwind docks you are ready to sail and start the scenario.|
