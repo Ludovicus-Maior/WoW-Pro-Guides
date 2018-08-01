@@ -1,3 +1,8 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide("LudoTelogrus", "Leveling", "Telogrus", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,20,20)
 WoWPro:GuideRaceSpecific(guide,"VoidElf")
@@ -23,7 +28,6 @@ D On to Loch Modan|QID|28567|N|Check off this step and the next guide will now l
 D On to Westfall|QID|28562|N|Check off this step and the next guide will now load.|GUIDE|BitWes1020|
 
 D Next Steps|N|Check off this step and the Stonetalon guide will load.|
-
 
 ]]
 end)
