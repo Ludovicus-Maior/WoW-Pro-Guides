@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-08-01 07:29
+-- Who: Emmaleah
+-- Log: Correct per error checker 7/31/18
+
+-- URL: http://wow-pro.com/node/3767/revisions/29450/view
 -- Date: 2018-07-27 18:41
 -- Who: Ludovicus_Maior
 -- Log: V3 from Lemmer
@@ -38,8 +43,8 @@
 -- Log: new blank stub
 
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
-WoWPro:GuideLevels(guide,110, 120)
-WoWPro:GuideNextGuide(guide, nil)
+WoWPro:NewGuideLevels(guide,110, 120, 111)
+WoWPro:GuideNextGuide(guide, EmmAWarCampaign)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Stormsongvalley")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -50,7 +55,7 @@ C The Missing Fleet|QID|47952|M|74.17,24.79|Z|Tiragarde Sound|NC|N|Talk to Will 
 T The Missing Fleet|QID|47952|M|65.07,68.92|Z|Tiragarde Sound|NC|N|To Taelia on the dock.|
 A Searching for Answers|QID|51487|M|64.87,68.84|Z|Tiragarde Sound|N|From Taelia.|
 C Searching for Answers|QID|51487|M|68.42,74.28|Z|Tiragarde Sound|QO|1|NC|N|Question Sister Adrianna.|
-C Searching for Answers|QID|51487|M|66.10,84,10|Z|Boralus|QO|3|NC|N|Question Sister Celicia.|
+C Searching for Answers|QID|51487|M|66.10,84.10|Z|Boralus|QO|3|NC|N|Question Sister Celicia.|
 C Searching for Answers|QID|51487|M|60.50,85.20|Z|Boralus|QO|2|NC|N|Question Brother Darrel.|
 T Searching for Answers|QID|51487|M|65.07,68.92|Z|Tiragarde Sound|NC|N|To Taelia on the dock.|
 A Archived Knowledge|QID|51488|M|60.46,85.27|Z|Boralus|N|From Taelia.|
@@ -59,7 +64,7 @@ C Archived Knowledge|QID|51488|M|68.35,81.45|Z|Boralus|QO|2|NC|N|Follow him into
 C Archived Knowledge|QID|51488|M|73.71,39.55|Z|Boralus|QO|3|N|Speak with him to begin the fight with Wade.|
 T Archived Knowledge|QID|51488|M|73.71,39.55|Z|Boralus|N|To Taelia next to you.|
 A Time to Leave|QID|51489|M|73.73,39.49|Z|Tiragarde Sound|N|From Taelia.|
-C Time to Leave|QID|51489|M|71.80.78.82|Z|Boralus|NC|N|Hop on Galeheart for a ride to Stormsong Valley.|
+C Time to Leave|QID|51489|M|71.80,78.82|Z|Boralus|NC|N|Hop on Galeheart for a ride to Stormsong Valley.|
 T Time to Leave|QID|51489|M|57.89,85.93|N|To Taelia.|
 A Border Issues|QID|51490|M|57.91,85.93|N|From Taelia.|
 $ Smuggler's Chest|M|58.61,83.88|N|Underneath the dock.  Loot for resources and gold.|RANK|2|
@@ -79,7 +84,7 @@ A House Stormsong|QID|49703|M|59.23,68.63|QO|3|N|From Brother Pike.|
 K Grimscowl the Harebrained|QID|98765|M|62.17,73.84|N|Silver Elite to kill for loot and achievement.|ITEM|155572|RANK|2|
 C Sometimes Less Is More|QID|52796|M|63.10,75.25|N|From Marilyn Hood.|
 C Circle the Wagons|QID|52793|M|63.77,73.82|N|Lorraine is here.|
-C Circle the Wagons|QID|52793|M|64,89,76.78|QO|2|N|Mallory is here.|
+C Circle the Wagons|QID|52793|M|64.89,76.78|QO|2|N|Mallory is here.|
 A A Saur Point|QID|52795|M|64.88,76.79|N|From Mallory Hood.|
 C A Saur Point|QID|52795|M|65.36,77.99|N|Kill Sourtooth in the cave.|
 T A Saur Point|QID|52795|M|64.88,76.79|N|Back to Mallory.|
@@ -208,7 +213,7 @@ T Bombs, Away|QID|49744|M|57.60,66.38|N|From Sergeant Calvin.|
 T You Have Their Orders|QID|49745|M|57.64,66.47|QO|1|N|From Mayor Roz.|
 T Dousing the Flames|QID|49746|M|57.64,66.47|QO|2|N|From Mayor Roz.|
 A Heavy Artillery|QID|49755|M|57.63,66.48|QO|3|N|From Mayor Roz.|
-C Heavy Artillery|QID|49755|M|57.73,61.41;56.12,58.37|N|Up the hill.  Kill the Engineers and Wormwood hops out of the tank. Kill him too.|
+C Heavy Artillery|QID|49755|M|57.73,61.41;56.12,58.37|CS|N|Up the hill.  Kill the Engineers and Wormwood hops out of the tank. Kill him too.|
 C Heavy Artillery|QID|49755|M|56.12,58.37|N|Destroy the forces with your 1st ability.  DO NOT use ability 2 until you finish this stage.|
 C Heavy Artillery|QID|49755|M|56.12,58.37|N|NOW you can use ability #2.|
 T Heavy Artillery|QID|49755|M|57.63,66.48|N|You can steer your parachute.  Turn in to Mayor Roz.|
@@ -228,7 +233,7 @@ A Bonus Objective: Weed Whacking|QID|50133|M|51.59,65.97|S|N|Auto-accept on ente
 A Gadgets and Gizmos Aplenty|QID|50134|M|51.59,65.97|QO|3|N|From Farmer Burton.|
 A Stop Vining!|QID|50135|M|51.59,65.97|N|From Farmer Burton.|
 C Bonus Objective: Weed Whacking|QID|50133|M|51.59,65.97|QO|2|N|Auto-accept on entering area.|
-C Stop Vining!|QID|50135|M|49.07,65.48;48.04,65.94|QO|1|N|Head into this cave for Vinemaster Smagh.|
+C Stop Vining!|QID|50135|M|49.07,65.48;48.04,65.94|CS|QO|1|N|Head into this cave for Vinemaster Smagh.|
 K Captain Razorspine|QID|98765|M|47.35,65.41|N|Coords are inside cave area. Silver Elite to kill for loot and achievement.|ITEM|155287|RANK|2|
 K Whiplash|QID|98765|M|47.31,65.89|N|Kill Whiplash if he is here, however, may only spawn during WQ event. Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
 C Stop Vining!|QID|50135|M|46.64,64.39|N|Orgsteen is next (coords still in cave).|
@@ -246,7 +251,7 @@ f The Amber Waves|M|50.75,70.22|N|Pick up the flight path from Karla.|
 A Follow Your Nose|QID|49886|M|51.01,70.17|N|From Houndmaster Archibald.|
 A Sic 'Em!|QID|49960|M|51.01,70.17|N|From Houndmaster Archibald.|
 K Vinespeaker Ratha|QID|98765|M|51.49,67.78|N|At the bottom of the cave.  Silver Elite to kill for loot and achievement.|ITEM|158299|RANK|2|
-C Sic 'Em!|QID|49960|M|51.55,68.37;51.56,68.13|N|Razorgnarl is at the bottom of this cave.|
+C Sic 'Em!|QID|49960|M|51.55,68.37;51.56,68.13|CS|N|Razorgnarl is at the bottom of this cave.|
 C Follow Your Nose|QID|49886|M|51.01,70.17|N|Use your extra action button FROM RANGE on the red clouds of dust and kill the tunneler which comes out.  If you get too close, they will not count for the quest.|
 T Follow Your Nose|QID|49886|M|51.01,70.17|N|From Houndmaster Archibald.|
 T Sic 'Em!|QID|49960|M|51.01,70.17|N|From Houndmaster Archibald.|
@@ -270,21 +275,21 @@ K The Lichen King|QID|98765|M|51.78,79.05|N|Aka - Bolivar Spore-Dragon.Silver El
 T Deal's Off|QID|50622|M|44.76,64.53|N|To Mayor Roz in the house.|
 A Look Out!|QID|50354|M|44.76,64.53|QO|1|NC|N|From Mayor Roz.|
 A Boaring Company|QID|50353|M|44.73,64.61|QO|1|NC|S|N|From Sergeant Calvin.|
-A Totems, Totems, Totems!|QID|50111|M|42.46,67.58;44.04,72.44|QO|1|US|N|Head up to the highlands, and accept the quest from the totem.|
+A Totems, Totems, Totems!|QID|50111|M|42.46,67.58;44.04,72.44|CS|N|Head up to the highlands, and accept the quest from the totem.|
 C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|4|NC|N|Destroy the same totem.|
 C Look Out!|QID|50354|M|42.50,67.69|QO|1|NC|N|Kill the scouts - you can use the dart to put them to sleep.|
 C Boaring Company|QID|50353|M|45.44,72.50|QO|1|NC|N|Free the farmer.|
 C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|1|NC|N|Southern totem here.|
-C Boaring Company|QID|50353|M|46.23,72.73;47.25,74.32|QO|3|NC|N|Two more farmers in this cave, bear right.|
-C Boaring Company|QID|50353|M|46.83,72.60;47.89,73.35|QO|1|NC|N|Back out, and into the next cave for two more.|
+C Boaring Company|QID|50353|M|46.23,72.73;47.25,74.32|CS|QO|3|NC|N|Two more farmers in this cave, bear right.|
+C Boaring Company|QID|50353|M|46.83,72.60;47.89,73.35|CS|QO|1|NC|N|Back out, and into the next cave for two more.|
 C Boaring Company|QID|50353|M|46.51,71.97|QO|2|N|Back out and next farmer here.|
 C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|2|NC|N|Central totem here.|
 C Boaring Company|QID|50353|M|46.17,72.04|QO|2|N|Last farmer here.|
 $ Small Treasure Chest|M|46.50,71.27|N|Here.|
 C Boaring Company|QID|50353|M|46.17,72.04|N|Farmer Deal down here.|
-C Totems, Totems, Totems!|QID|50111|M|47.00,70.22|N|Last totem down the hill and around the corner.|
+C Totems, Totems, Totems!|QID|50111|M|47.00,70.22|QO|3|N|Last totem down the hill and around the corner.|
 C Look Out!|QID|50354|M|42.50,67.69|N|Kill the scouts - you can use the dart to put them to sleep.|
-T Look Out!|QID|50354|M|45.88,70.12;46.01,73.88;46.59,74.04|N|Head up to the top for the turn-in.|
+T Look Out!|QID|50354|M|45.88,70.12;46.01,73.88;46.59,74.04|CS|N|Head up to the top for the turn-in.|
 T Boaring Company|QID|50353|M|46.65,73.86|N|To Sergeant Calvin.|
 T Totems, Totems, Totems!|QID|50111|M|46.65,73.86|N|To Calvin.|
 A War Pigs|QID|50363|M|46.65,73.86|NC|S|N|From Sergeant Calvin.|
@@ -295,7 +300,7 @@ C Steal Them Back|QID|50340|M|47.41,77.09|QO|2|NC|N|Into the cave to the left.|
 C Run For the Hills|QID|50365|M|46.33,78.17|QO|3|NC|N|Up inside the cave - there is also a crate inside.|
 C Steal Them Back|QID|50340|M|46.21,80.16|QO|1|N|There is another in the next cave.|
 C Run For the Hills|QID|50365|M|44.86,77.33|N|Up inside the cave - there is also a crate inside.|
-C Run For the Hills|QID|50365|M|45.82,77.07;43.54,78.58|N|Up the hill ans inside the cave - there is also a crate inside.|
+C Run For the Hills|QID|50365|M|45.82,77.07;43.54,78.58|CS|N|Up the hill and inside the cave - there is also a crate inside.|
 C Steal Them Back|QID|50340|M|42.72,78.85|N|5/5 Stolen Crate|
 C War Pigs|QID|50363|M|46.65,73.86|N|Click on the pigs along the way.|
 T Steal Them Back|QID|50340|M|46.65,73.82|N|Back to Sergeant Calvin.|
@@ -330,7 +335,7 @@ C Be A Dear|QID|51214|M|29.79,67.05|N|Grab the water here.|
 A WANTED: Thundersnout|QID|49730|M|30.69,68.14|N|From the bulletin board.|
 A Cry Wolf|QID|51203|M|31.85,69.52|N|From Shepherd Milbrooke.|
 C Cry Wolf|QID|51203|M|30.20,72.21|S|N|From Shepherd Milbrooke.|
-C WANTED: Razorclaw Alpha|QID|51204|M|27.30,76.28;28.01,78.07|QO|2|N|In the cave up on the hill.|
+C WANTED: Razorclaw Alpha|QID|51204|M|27.30,76.28;28.01,78.07|CS|QO|2|N|In the cave up on the hill.|
 C The Black Sheep|QID|51200|M|26.55,75.36|N|Save Millie.|
 C Cry Wolf|QID|51203|M|30.20,72.21|US|N|From Shepherd Milbrooke.|
 C Basement Dwellers|QID|51251|M|28.64,71.17|N|Kill spiders around the area.|
@@ -339,7 +344,7 @@ K Broodmother|QID|98765|M|29.51,69.57|N|In the basement.  Silver Elite to kill f
 C Basement Dwellers|QID|51251|M|28.64,71.17|N|Kill spiders around the area.|
 T The Black Sheep|QID|51200|M|31.85,69.52|U|159882|N|To Shepherd Milbrooke|
 T Cry Wolf|QID|51203|M|31.85,69.52|N|To Shepherd Milbrooke.|
-T WANTED: Razorclaw Alpha|QID|51204|M|27.30,76.28;28.01,78.07|N|To Shepherd Milbrooke.|
+T WANTED: Razorclaw Alpha|QID|51204|M|27.30,76.28;28.01,78.07|CS|N|To Shepherd Milbrooke.|
 C Aww, Rats|QID|51205|M|28.37,66.74|N|Click on the small rats to collect them.  You can use the item to stun them.|
 C Gunpowder Plot|QID|51492|M|28.37,66.74|N|Kill the big rats for gunpowder.|
 T Aww, Rats|QID|51205|M|29.81,67.10|N|To Charles Davenport.|
@@ -387,7 +392,7 @@ T Freedom for the Sea|QID|50614|M|30.16,59.19|N|To Lieutenant Bauer.|
 T A Bit of a Bind|QID|50616|M|30.16,59.19|N|Kill the Binder and loot the Songstone from her.|
 T Caught in the Net|QID|50621|M|30.16,59.19|N|Kil naga for keys and free prisoners from cages.|
 A The Shifting Tides|QID|50635|M|30.16,59.19|N|From Lieutenant Bauer.|
-f Fort Daelin|M|35.11,49.67;34.28,47.21|N|Pick up the flight point.|
+f Fort Daelin|M|35.11,49.67;34.28,47.21|CS|N|Pick up the flight point.|
 T The Shifting Tides|QID|50635|M|35.04,47.65|N|To Rikal|
 A Eeling in a Big One|QID|50645|M|35.04,47.65|N|From Rikal.|
 A Filching from Thieves|QID|50649|M|35.04,47.65|N|From Rikal.|
@@ -426,7 +431,7 @@ C Clearing the Delta|QID|50706|M|34.58,47.12|QO|2|U|158332|N|Kill the Zeth'jir.|
 C A Snake with Three Heads|QID|50705|M|32.63,53.97|QO|1|U|158332|N|Kill Binder.  Use the item to make it vulnerable.|
 C A Snake with Three Heads|QID|50705|M|32.14,55.03|QO|3|U|158332|N|Kill Binder.  Use the item to make it vulnerable.|
 C A Snake with Three Heads|QID|50705|M|32.68,55.97|N|Kill Binder.  Use the item to make it vulnerable.|
-C Clearing the Delta|QID|50706|M|29.89.52.37|N|Kill the Zeth'jir.  Note murlocs along the shore are much easier kills.|
+C Clearing the Delta|QID|50706|M|29.89,52.37|N|Kill the Zeth'jir.  Note murlocs along the shore are much easier kills.|
 T A Snake with Three Heads|QID|50705|M|34.11,54.88|N|To Commander Kellam.|
 T Clearing the Delta|QID|50706|M|34.11,54.88|N|To Commander Kellam.|
 T Clearing the Delta|QID|50706|M|34.11,54.88|N|To Commander Kellam.|
@@ -488,7 +493,7 @@ r Repair/Restock|QID|51353|M|40.06,37.16|N|At Zooka.|
 T Cleaning Bills|QID|51339|M|40.42,36.96|N|To Scrollsage Nola.|
 T Swimming Lessons|QID|51343|M|40.42,36.96|N|To Scrollsage Nola.|
 A Cave of Ai'twen|QID|51353|M|40.42,36.96|N|From Scrollsage Nola.|
-T Cave of Ai'twen|QID|51353|M|37.20,32.60;|CN|N|To  Lorja.  Get out your turtle mount, this one is underwater.|
+T Cave of Ai'twen|QID|51353|M|37.20,32.60|N|To  Lorja.  Get out your turtle mount, this one is underwater.|
 A Flavorable Offering|QID|51371|M|35.68,31.23|N|From Loroja.|
 A Response Required|QID|51221|M|35.68,31.23|S|N|From Loroja.|
 C Flavorable Offering|QID|51371|M|38.39,28.21|N|Completed by killing and looting underwater mobs and collecting plants.|
@@ -586,7 +591,7 @@ T The Proof of Piracy|QID|52132|M|41.13,54.90|N|To Moxie Lockspinner.|
 T All Laid Out For Us|QID|50742|M|42.98,56.60|N|To Leo Shealds.|
 T I Want It All Now|QID|50803|M|43.04,56.53|N|To Leo Shealds.|
 F Mindenhall Meadery|QID|1|M|42.71,57.41|
-T Survivors|QID|52067|M|57.86.55.31|N|To Patrick Eckhart.|
+T Survivors|QID|52067|M|57.86,55.31|N|To Patrick Eckhart.|
 A Smells like Trouble|QID|50908|M|57.86,55.31|N|From Patrick Eckhart.|
 A Dangerous Game|QID|50910|M|57.86,55.31|N|From Lea Martinel.|
 A Never Outgunned|QID|50909|M|57.93,55.55|N|From poster on building.|
