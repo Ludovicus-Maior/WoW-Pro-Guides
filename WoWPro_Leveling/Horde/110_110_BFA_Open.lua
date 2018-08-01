@@ -3,20 +3,65 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/wiki/horde_battle_azeroth_intro
--- Date: 2018-05-13 05:51
+-- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-08-01 10:13
 -- Who: Emmaleah
--- Log: Many note updates, add more guide registration icon, and autoswitch, fixed up J steps to reflect correct guide. Note that coords in Orgrimmar need updated as they changed with the last patch.
+-- Log: Changes per Grail and playthru on Live 7/31/18
 
--- URL: http://wow-pro.com/node/3761/revisions/29300/view
--- Date: 2018-05-12 17:55
+-- URL: http://wow-pro.com/node/3770/revisions/29446/view
+-- Date: 2018-07-24 18:30
+-- Who: Emmaleah
+-- Log: updated some comments now that the chain is live. Deleted the commented out -deprecated- quest "change in leadership"
+
+-- URL: http://wow-pro.com/node/3770/revisions/29431/view
+-- Date: 2018-07-16 19:44
+-- Who: Emmaleah
+-- Log: corrected syntax NewGuideLevels. Changed notes where I think break will be for each week. Will update when it happens.
+
+-- URL: http://wow-pro.com/node/3770/revisions/29426/view
+-- Date: 2018-07-15 04:46
+-- Who: Emmaleah
+-- Log: add sort level
+
+-- URL: http://wow-pro.com/node/3770/revisions/29422/view
+-- Date: 2018-07-14 23:01
+-- Who: Emmaleah
+-- Log: changes as of 7/14/18 hopefully what goes live 7/17/18
+
+-- URL: http://wow-pro.com/node/3770/revisions/29405/view
+-- Date: 2018-07-08 05:36
+-- Who: Emmaleah
+-- Log: Play thru as of build .26970
+
+-- URL: http://wow-pro.com/node/3770/revisions/29404/view
+-- Date: 2018-07-08 01:28
+-- Who: Emmaleah
+-- Log: 2nd part of burning of teldrassil
+
+-- URL: http://wow-pro.com/node/3770/revisions/29403/view
+-- Date: 2018-07-07 22:35
+-- Who: STrek
+-- Log: added a Turn in and a quest Accept step (see comment) + changed map coords for a R step (see comments)
+
+-- URL: http://wow-pro.com/node/3770/revisions/29398/view
+-- Date: 2018-07-05 23:04
 -- Who: Ludovicus_Maior
--- Log: Use a real nil in GuideNextGuide()
+-- Log: Add WoWPro:GuideQuestTriggers()
 
--- URL: http://wow-pro.com/node/3761/revisions/29274/view
--- Date: 2018-05-08 21:54
+-- URL: http://wow-pro.com/node/3770/revisions/29395/view
+-- Date: 2018-07-03 19:53
+-- Who: Ludovicus_Maior
+-- Log: guide name tweaks
+
+-- URL: http://wow-pro.com/node/3770/revisions/29369/view
+-- Date: 2018-07-03 02:50
 -- Who: Emmaleah
--- Log: First Draft.
+-- Log: first draft from PTR. Prepatch
+
+-- URL: http://wow-pro.com/node/3770/revisions/29324/view
+-- Date: 2018-05-25 20:21
+-- Who: Emmaleah
+-- Log: blank stub
 
 local guide = WoWPro:RegisterGuide('BurnTedrazilEmmaleah', 'Leveling', 'Darkshore', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 110, 110.5)
@@ -87,7 +132,7 @@ T The Trees Have Ears|QID|50879|M|43.31,75.67|Z|Darkshore|N|To Lady Sylvanas Win
 A Aggressive Inspiration|QID|53606|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 A The Blackwood Den|QID|52436|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C The Blackwood Den|QID|52436|M|44.37,85.89|Z|Darkshore|S|N|Kill the Blackwood furbolgs as you go.|
-C Aggressive Inspiration|QID|53606|M|45.08,83.67|Z|Darkshore|QO|1|NC|N|Click on the somewhat transparent banner to plant Northern banner here.|
+C Aggressive Inspiration|QID|53606|M|45.08,83.67|Z|Darkshore|QO|1|NC|N|Click  on the somewhat transparent banner to plant Northern banner here.|
 C Aggressive Inspiration|QID|53606|M|44.63,85.10|Z|Darkshore|QO|2|NC|N|Plant Central banner here.|
 C Aggressive Inspiration|QID|53606|M|44.36,86.52|Z|Darkshore|QO|1|NC|N|Plant Southern banner here.|
 C Aggressive Inspiration|QID|53606|M|45.09,83.70|Z|Darkshore|US|NC|N|Finish planting banners.|
