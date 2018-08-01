@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_pandaria
+-- Date: 2018-08-01 00:30
+-- Who: Ludovicus_Maior
+-- Log: It is  |The Jade Forest| Ludo!
+
+-- URL: http://wow-pro.com/node/3645/revisions/29418/view
 -- Date: 2018-07-10 18:19
 -- Who: Ludovicus_Maior
 -- Log: Lots of missing coords.
@@ -25,23 +30,23 @@ WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-F Tian Monastery|QID|963510001|M|41,21|Z|Jade Forest|ACH|6351;1|
-F Dawn's Blossom|QID|963510002|M|48,45|Z|Jade Forest|ACH|6351;2|
-F Dreamer's Pavillion|QID|963510003|M|51,91|Z|Jade Forest|ACH|6351;3|
-F Emperor's Omen|QID|963510004|M|50,26|Z|Jade Forest|ACH|6351;4|
-F Pearl Lake|QID|963510005|M|52,80|Z|Jade Forest|ACH|6351;5|
-F Grookin Hill|QID|963510006|M|25,48|Z|Jade Forest|ACH|6351;6|
-F Greenstone Quarry|QID|963510007|M|46,29|Z|Jade Forest|ACH|6351;7|
-F Nectarbreeze Orchard|QID|963510008|M|40,73|Z|Jade Forest|ACH|6351;8|
-F Camp Nooka Nooka|QID|963510009|M|25,37|Z|Jade Forest|ACH|6351;9|
-F Terrace of Ten Thunders|QID|963510010|M|40,13|Z|Jade Forest|ACH|6351;10|
-F Serpent's Heart|QID|963510011|M|47,60|Z|Jade Forest|ACH|6351;11|
-F Slingtail Pits|QID|963510012|M|52,82|Z|Jade Forest|ACH|6351;12|
-F Temple of the Jade Serpent|QID|963510013|M|57,57|Z|Jade Forest|ACH|6351;13|
-F The Arboretum|QID|963510014|M|57,44|Z|Jade Forest|ACH|6351;14|
-F Garrosh'ar Point|QID|963510015|M|46,90|Z|Jade Forest|ACH|6351;15|
-F Windward Isle|QID|963510016|M|65,30|Z|Jade Forest|ACH|6351;16|
-F Honeydew Village|QID|963510017|M|29,13|Z|Jade Forest|ACH|6351;17|
+F Tian Monastery|QID|963510001|M|41,21|Z|The Jade Forest|ACH|6351;1|
+F Dawn's Blossom|QID|963510002|M|48,45|Z|The Jade Forest|ACH|6351;2|
+F Dreamer's Pavillion|QID|963510003|M|51,91|Z|The Jade Forest|ACH|6351;3|
+F Emperor's Omen|QID|963510004|M|50,26|Z|The Jade Forest|ACH|6351;4|
+F Pearl Lake|QID|963510005|M|52,80|Z|The Jade Forest|ACH|6351;5|
+F Grookin Hill|QID|963510006|M|25,48|Z|The Jade Forest|ACH|6351;6|
+F Greenstone Quarry|QID|963510007|M|46,29|Z|The Jade Forest|ACH|6351;7|
+F Nectarbreeze Orchard|QID|963510008|M|40,73|Z|The Jade Forest|ACH|6351;8|
+F Camp Nooka Nooka|QID|963510009|M|25,37|Z|The Jade Forest|ACH|6351;9|
+F Terrace of Ten Thunders|QID|963510010|M|40,13|Z|The Jade Forest|ACH|6351;10|
+F Serpent's Heart|QID|963510011|M|47,60|Z|The Jade Forest|ACH|6351;11|
+F Slingtail Pits|QID|963510012|M|52,82|Z|The Jade Forest|ACH|6351;12|
+F Temple of the Jade Serpent|QID|963510013|M|57,57|Z|The Jade Forest|ACH|6351;13|
+F The Arboretum|QID|963510014|M|57,44|Z|The Jade Forest|ACH|6351;14|
+F Garrosh'ar Point|QID|963510015|M|46,90|Z|The Jade Forest|ACH|6351;15|
+F Windward Isle|QID|963510016|M|65,30|Z|The Jade Forest|ACH|6351;16|
+F Honeydew Village|QID|963510017|M|29,13|Z|The Jade Forest|ACH|6351;17|
 
 F Anglers Wharf|QID|969750001|M|67,44|Z|Krasarang Wilds|ACH|6975;1|
 F Cradle of Chi-Ji|QID|969750002|M|33,70|Z|Krasarang Wilds|ACH|6975;2|
