@@ -390,7 +390,7 @@ def ScrapeWoWProLua(lua):
         if mo:
             _guideID = mo.group(1)
             if Guide2File.has_key(_guideID):
-                logging.warning("Duplicate guide ID discoverd in %s and %s for %s ", (Guide2File[_guideID], lua, _guideID))
+                logging.error("Duplicate guide ID discovered in %s and %s for %s " % (Guide2File[_guideID], lua, _guideID))
                 GuideDups.append(_guideID)
             Guide2File[_guideID] = lua
     if _guideID == "":
