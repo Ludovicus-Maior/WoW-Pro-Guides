@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-08-01 07:13
+-- Who: Emmaleah
+-- Log: Add missing CS
+
+-- URL: http://wow-pro.com/node/3769/revisions/29429/view
 -- Date: 2018-07-15 04:51
 -- Who: Emmaleah
 -- Log: add sort level
@@ -677,7 +682,7 @@ T Where'd They Go?|QID|49435|M|39.67,13.38|N|To Boss Tak.|
 A Boss' Revenge|QID|49439|M|39.67,13.38|N|From Boss Tak.|RANK|2|PRE|49435|
 C Boss' Revenge|QID|49439|M|39.44,12.41;39.10,12.20|CS||QO|1|N|Kill Whompus.|T|Whompus|
 T Boss' Revenge|QID|49439|M|39.35,12.59|N|To Boss Tak.|
-K Kill Pack Leader Asenya|QID|49923|QO|1|M|39.89,14.89;38.86,15.29|N|In her underground den, you will find a Silver Elite to kill for treasure and resources.|
+K Kill Pack Leader Asenya|QID|49923|QO|1|M|39.89,14.89;38.86,15.29|CS|N|In her underground den, you will find a Silver Elite to kill for treasure and resources.|
 C Wendies|QID|49433|M|39.82,13.11|US|N|Finish kill Wendigos.|
 T Wendies|QID|49433|M|40.42,13.75|N|To Boss Tak.|
 A Getting Paid|QID|49719|M|40.42,13.75|N|From Boss Tak.|RANK|2|PRE|49439;49433|
