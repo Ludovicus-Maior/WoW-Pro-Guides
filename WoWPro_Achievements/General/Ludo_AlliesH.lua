@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 local guide = WoWPro:RegisterGuide('Ludo_AlliesH', 'Achievements', 'Orgrimmar@Orgrimmar', 'Ludo', 'Horde')
 WoWPro:GuideLevels(guide,110, 110)
@@ -19,9 +22,9 @@ T A Choice of Allies|QID|50242|M|37.78,81.13|Z|Orgrimmar@Orgrimmar|N|To Lady Syl
 
 N You have chosen|AVAILABLE|49787;49698|N|Get the next quest from Lady Liadrin or Blaine|
 
-; https://www.wowhead.com/highmountain-tauren-allied-race
+;https://www.wowhead.com/highmountain-tauren-allied-race
 A A Feast for Our Kin|QID|48066|M|38.17,81.10|Z|Orgrimmar@Orgrimmar|N|From Baine Bloodhoof.|
-F Thunder Bluff|ACTIVE|48066|N|Get to Thunder Bluff by portal or flight or Blimp.  This is an instanced Thunder Bluff with no AH, Mailboxes or Bank.  So get ready in Orgrimmar.| 
+F Thunder Bluff|ACTIVE|48066|N|Get to Thunder Bluff by portal or flight or Blimp.  This is an instanced Thunder Bluff with no AH, Mailboxes or Bank.  So get ready in Orgrimmar.|
 T A Feast for Our Kin|QID|48066|M|61.67,52.11|Z|Thunder Bluff|N|To Baine Bloodhoof.|
 A Shadow Over Thunder Bluff|QID|48067|PRE|48066|M|61.50,51.76|Z|Thunder Bluff|N|From Baine Bloodhoof. |
 C Shadow Over Thunder Bluff|QID|48067|M|55.14,49.63|Z|Thunder Bluff|QO|2|N|12/12 Shadow of Uul slain|
@@ -87,7 +90,7 @@ A Together We Are the Horde!|QID|48433|PRE|48403|M|56.70,92.77|Z|Highmountain|N|
 F Orgrimmar|ACTIVE|48433|N|Get back to the Orgrimmar Embassy as you please.|
 T Together We Are the Horde!|QID|48433|M|37.76,81.17|Z|Orgrimmar@Orgrimmar|N|To Lady Sylvanas Windrunner, in the Embassy.|
 
-; https://www.wowhead.com/nightborne-allied-race
+;https://www.wowhead.com/nightborne-allied-race
 A Thalyssra's Estate|QID|49973|M|37.97,80.56|Z|Orgrimmar@Orgrimmar|N|From Lady Liadrin.|
 F Crimson Thicket|ACTIVE|44811|N|Fly to Crimson Thicket for the closest flightpoint to Thalyssra's Estate. The Estate is phased, so it is safe without a disguise.|
 T Thalyssra's Estate|QID|49973|M|65.88,63.73|Z|Suramar|N|To Lady Liadrin.|
