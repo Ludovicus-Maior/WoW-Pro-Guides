@@ -23,7 +23,7 @@
 -- Who: Ludovicus_Maior
 -- Log: Initial
 
-local guide = WoWPro:RegisterGuide('LudoGarrissonSupport', 'Achievements', 'Lunarfall', 'Ludovicus', 'Alliance')
+local guide = WoWPro:RegisterGuide('LudoGarrissonSupportA', 'Achievements', 'Lunarfall', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,94, 96, 95)
 WoWPro:GuideIcon(guide,"ACH",9528)
 WoWPro:GuideName(guide,"On the Shadow's Trail")
