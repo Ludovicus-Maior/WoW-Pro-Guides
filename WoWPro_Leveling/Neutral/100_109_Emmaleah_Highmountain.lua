@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2018-08-01 10:20
+-- Who: Emmaleah
+-- Log: Changed Thundertotem/6 to Highmountain/6
+
+-- URL: http://wow-pro.com/node/3678/revisions/28952/view
 -- Date: 2018-01-17 00:42
 -- Who: Ludovicus
 -- Log: New Levels
@@ -669,11 +674,11 @@ F The Skies of Highmountain|QID|39387|QO|1|M|45.64,39.06|NC|N|Optional-Hop on Av
 C The Skies of Highmountain|QID|39387|QO|1|M|42.17,32.99|Z|ThunderTotem|CHAT|N|Meet Lasan at Thunder Totem. If you didnt come in by Aviash, he is standing in front of the Path of Sky doorway.|
 C Unexpected Allies|QID|39456|M|35.07,43.55|Z|ThunderTotem|QO|1|CHAT|N|Meet Navarrogg just outside the Path of Earth doorway.|
 T The High Chieftain|QID|39580|M|54.85,63.11|Z|Highmountain/6|N|To Mayla Highmountain.|
-C The Skies of Highmountain|QID|39387|M|54.80,63.04|Z|ThunderTotem/6|QO|2|NC|N|Witness the Skyhorn Ritual.|
-C Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem/6|QO|2|NC|N|Wait/watch the ritual.|
-T The Skies of Highmountain|QID|39387|M|54.81,63.03|Z|ThunderTotem/6|N|To Mayla Highmountain.|
-T Unexpected Allies|QID|39456|M|54.80,63.04|Z|ThunderTotem/6|N|To Mayla Hightmountain.|
-A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|ThunderTotem/6|N|From Mayla Hightmountain.|PRE|39387+39456|
+C The Skies of Highmountain|QID|39387|M|54.80,63.04|Z|Highmountain/6|QO|2|NC|N|Witness the Skyhorn Ritual.|
+C Unexpected Allies|QID|39456|M|54.80,63.04|Z|Highmountain/6|QO|2|NC|N|Wait/watch the ritual.|
+T The Skies of Highmountain|QID|39387|M|54.81,63.03|Z|Highmountain/6|N|To Mayla Highmountain.|
+T Unexpected Allies|QID|39456|M|54.80,63.04|Z|Highmountain/6|N|To Mayla Hightmountain.|
+A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|Highmountain/6|N|From Mayla Hightmountain.|PRE|39387+39456|
 T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 R Thunder Totem (Up the elevator)|QID|38915|M|58.97,87.46|Z|ThunderTotem|CC|N|Take the elevator above for a few more quests. (manually check this step off)|
 
