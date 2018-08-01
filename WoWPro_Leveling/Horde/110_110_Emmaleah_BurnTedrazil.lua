@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-08-01 10:13
+-- Who: Emmaleah
+-- Log: Changes per Grail and playthru on Live 7/31/18
+
+-- URL: http://wow-pro.com/node/3770/revisions/29446/view
 -- Date: 2018-07-24 18:30
 -- Who: Emmaleah
 -- Log: updated some comments now that the chain is live. Deleted the commented out -deprecated- quest "change in leadership"
@@ -156,9 +161,9 @@ T A Wild Ride|QID|52438|M|42.70,67.75|Z|Darkshore|N|To Lady Sylvanas Windrunner.
 A A Looming Threat|QID|52806|M|42.70,67.75|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C A Looming Threat|QID|52806|M|44.70,86.77|Z|Darkshore|CHAT|N|Speak with Sylvanas at the Blackwood Den.|
 T A Looming Threat|QID|52806|M|44.70,86.77|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
-N World Quests|N|This opens up the Darkshore World Quests, when Blizzard makes them available (7/31/18?).|AVAILABLE|52967|
+N World Quests|N|This opens up the Darkshore World Quests.|AVAILABLE|52967|
 
-A Saurfang Returns|QID|52967|M|39.51,96.54|Z|Darkshore|N|Autoaccepted when logging in / entering Darkshore after quest in available (7/31/18?).|
+A Saurfang Returns|QID|52967|M|39.51,96.54|Z|Darkshore|N|Autoaccepted when entering Darkshore.|
 R Lor'danel|ACTIVE|52967|M|52.16,22.45|Z|Darkshore|N|Run to the North side of Lor'danal to meet Saurfang.|
 T Saurfang Returns|QID|52967|M|52.15,22.46|Z|Darkshore|N|To High Overlord Saurfang.|
 A No Small Mercy|QID|52970|M|52.15,22.46|Z|Darkshore|N|From High Overlord Saurfang.|
@@ -179,7 +184,7 @@ C Killer Queen|QID|52981|M|46.13,24.28|Z|Darkshore|CHAT|QO|3|N|Follow Saurfang.|
 C Killer Queen|QID|52981|M|45.52,18.27|Z|Darkshore|CHAT|QO|4|N|Speak with Sylvanas|
 T Killer Queen|QID|52981|M|45.52,18.25|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 
-A Hour of Reckoning|QID|53372|N|This will have been autoaccepted last time you were in Orgrimmar, if you don't have it return to Orgrimmar.|
+A Hour of Reckoning|QID|53372|N|This will become available when Blizzard next releases content Presumable August 7, 2018. It will have been autoaccepted in Orgrimmar (or perhaps anywhere?), if you don't have it return to Orgrimmar.|
 R Orgrimmar|ACTIVE|53372|U|140192|N|Return to Orgrimmar to continue the story.|
 T Hour of Reckoning|QID|53372|M|50.04,75.91;48.51,70.67|CS|Z|Orgrimmar|N|Return to Saurfang in Grommash Hold.|
 A The Battle for Lordaeron|QID|51796|M|48.51,70.67|Z|Orgrimmar|N|From High Overlord Saurfang.|
@@ -203,16 +208,16 @@ C The Dark Lady|QID|51796|M|48.11,78.32|Z|Undercity!Ruins of Lordaeron!Instance|
 T The Battle for Lordaeron|QID|51796|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, on top of the Gates of Orgrimmar.|
 
 ;ends on PTR as of 7/8/18 -- I suspect next quest will be open on Aug 14, but may be part of pre-patch?
-A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|
+A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.(presumed to become available with BfA launch)|
 R The Western Earthshrine|QID|53028|QO|1|M|48.82,38.59|Z|Orgrimmar|N|Fly over to the Uldam Portal for a shortcut to Silithus.|
 R Silithus: The Wound|ACTIVE|53028|M|70.42,87.54|Z|Silithus|N|Fly towards Sargaras' giant sword.|
 T A Dying World|QID|53028|M|42.22,44.28|Z|Silithus|N|To Magni Brozebeard.|
-A The Heart of Azeroth|QID|51211|M|42.22,44.28|Z|Silithus|N|From Magni Bronzebeard.|
+A The Heart of Azeroth|QID|51211|M|42.22,44.28|Z|Silithus|N|From Magni Bronzebeard.|PRE|46931|
 C The Heart of Azeroth|QID|51211|M|43.20,44.49|Z|Silithus|QO|1|N|Click on the Titan Translocator to travel to the Chamber.|
 C The Heart of Azeroth|QID|51211|M|50.17,55.44|Z|Chamber of Heart!Dungeon|QO|2|N|Optional: Click on the Tital Console to view a cutscene (or just skip straight to talking with Magni to view a different cutscene).|
 C The Heart of Azeroth|QID|51211|M|50.13,55.21|Z|Chamber of Heart!Dungeon|QO|3|CHAT|N|Speak to Magni within the Chamber of Heart and watch another cutscene.|
 T The Heart of Azeroth|QID|51211|M|50.13,55.21|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A Infusing the Heart|QID|52428|M|50.13,55.21|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|
+A Infusing the Heart|QID|52428|M|50.13,55.21|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211+51400|
 C Infusing the Heart|QID|52428|M|55.26,58.45|QO|1|NC|N|Go to the 'wounds' and use your special action button, until this step completes (doesn't require all of the wounds to be healed at this time).|
 C Infusing the Heart|QID|52428|M|50.02,64.33|Z|Chamber of Heart!Dungeon|QO|2|N|Use Speecial Action button while standing in the center of the room and wait for the bar to fill.|
 T Infusing the Heart|QID|52428|M|50.15,53.74|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
@@ -220,11 +225,11 @@ A The Speaker's Imperative|QID|53031|M|50.15,53.74|Z|Chamber of Heart!Dungeon|N|
 C The Speaker's Imperative|QID|53031|M|50.17,30.46|Z|Chamber of Heart!Dungeon|NC|N|Teleporter pad used.|
 T The Speaker's Imperative|QID|53031|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, still on top of the Gates of Orgrimmar.|
 
-A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|
+A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|71796|
 C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|
 C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|
 T Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|N|To Nathanos Blightcaller.|
-A The Stormwind Extraction|QID|50769|M|54.47,78.40|Z|Orgrimmar|N|From Nathanos Blightcaller.|
+A The Stormwind Extraction|QID|50769|M|54.47,78.40|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|51443|
 C The Stormwind Extraction|QID|50769|M|54.55,78.37|Z|Orgrimmar|QO|1|NC|N|Take a potion. Don't use it!|
 C The Stormwind Extraction|QID|50769|M|48.63,93.98|Z|Durotar|QO|2|NC|N|Fly up to the ramparts and hop on an eagle. This will enter you into the next scenario, (Stockades/Stormwind).|
 C In the Dead of Night|QID|50769|M|47.21,59.58|Z|Stormwind City!Stormwind City!Instance|SO|1;1|NC|N|Infiltrate Stormwind City|
@@ -244,10 +249,10 @@ C Reach Talanji's ship|QID|50769|M|20.59,25.79|Z|Stormwind City|SO|9;1|N|Continu
 C Escape Stormwind Harbor|QID|50769|M|20.63,28.92|Z|Stormwind City|SO|10;1|CHAT|N|Talk to Talanji on the bridge of her ship.|
 
 T The Stormwind Extraction|QID|50769|M|57.96,62.77|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Welcome to Zuldazar|QID|46957|M|57.95,62.46|Z|Zuldazar|N|From Princess Talanji|
+A Welcome to Zuldazar|QID|46957|M|57.95,62.46|Z|Zuldazar|N|From Princess Talanji|PRE|50769|
 C Welcome to Zuldazar|QID|46957|M|57.94,56.59|Z|Zuldazar|NC|N|Follow Princess Talanji|
 T Welcome to Zuldazar|QID|46957|M|57.97,56.50|Z|Zuldazar|N|To General Jakra'zet.|
-A Rastakhan|QID|46930|M|57.97,56.50|Z|Zuldazar|N|From General Jakra'zet.|
+A Rastakhan|QID|46930|M|57.97,56.50|Z|Zuldazar|N|From General Jakra'zet.|PRE|46957|
 C Rastakhan|QID|46930|M|57.97,56.43|Z|Zuldazar|QO|1|NC|N|Ride Enforcer's Pterrordax to the Throne|
 C Rastakhan|QID|46930|M|57.59,43.96|Z|Zuldazar|QO|2|CHAT|N|Speak with Princess Talanji|
 T Rastakhan|QID|46930|M|57.95,43.31|Z|Zuldazar|N|To King Rastakhan.|
@@ -258,12 +263,12 @@ C Speaker of the Horde|QID|46931|M|57.95,44.31|Z|Zuldazar|QO|3|NC|N|The Great Se
 C Speaker of the Horde|QID|46931|M|67.00,71.83|Z|The Great Seal!Dazar'alor|QO|4|NC|N|Hall of Ancient Paths explored.|
 C Speaker of the Horde|QID|46931|M|66.39,37.17;32.22,38.63|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Vault of the King explored.|
 T Speaker of the Horde|QID|46931|M|32.22,38.63|Z|The Great Seal!Dazar'alor|N|To Chronicler To'kini.|
-A To Matters at Hand|QID|52139|M|32.22,38.63|Z|The Great Seal!Dazar'alor|N|From Chronicler To'kini.|PRE|46931|
+A To Matters at Hand|QID|52139|M|32.22,38.63|Z|The Great Seal!Dazar'alor|N|From Chronicler To'kini.|PRE|46931|;GRAIL SAYS NO PRE
 T To Matters at Hand|QID|52139|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji, back in the open area,up a short flight of stairs.|
 A We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|52139|
 
-T We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
-A Area to Explore|QID|47512;47513;47514|M|41.77,69.35|Z|Hall of Croniclers!Dazar'alor|N|Pick which zone you want to adventure in first from Scouting Map.|
+T We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|;grail has diff PRE?(51344)
+A Area to Explore|QID|47512;47513;47514|M|41.77,69.35|Z|Hall of Croniclers!Dazar'alor|N|Pick which zone you want to adventure in first from Scouting Map.|PRE|52131|
 t Nazmir|QID|47512|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 t Vol'dun|QID|47513|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 t Zuldazar|QID|47514|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
