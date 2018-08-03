@@ -56,10 +56,11 @@
   <Script file="95_96_Emmaleah_Talador.lua"/>
   <Script file="98_100_Emmaleah_Nagrand.lua"/>
   <Script file="100_100_Emmaleah_LegionIntro.lua"/>
+  <Script file="110_120_Emmaleah_War_Campaign.lua"/>
   <Script file="100_109_Emmaleah_Stormheim.lua"/>
   <Script file="110_110_Emmaleah_BurnTedrazil.lua"/>
   <Script file="110_120_Emmaleah_Voldun.lua"/>
-  <Script file="110_120_Taron_Zuldazar.lua"/>
+  <Script file="110_120_Emmaleah_Zuldazar.lua"/>
   <Script file="110_120_Emmaleah_Nazmir.lua"/>
 </Ui>
 
