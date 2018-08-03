@@ -34,7 +34,7 @@
 -- Log: First Draft.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,110, 110)
+WoWPro:GuideLevels(guide,110, 120)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ACH",12555)
