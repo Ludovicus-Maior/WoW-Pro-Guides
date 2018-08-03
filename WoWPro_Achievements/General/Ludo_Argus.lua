@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2018-08-03 19:08
+-- Who: Emmaleah
+-- Log: change PRE on Nath'raxas hold:rescue mission to 48442
+
+-- URL: http://wow-pro.com/node/3741/revisions/28980/view
 -- Date: 2018-02-19 22:43
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -293,7 +298,7 @@ A Supplying Krokuun|QID|48910|M|56.58,67.57|N|From Chieftain Hatuun. This is a w
 T Supplying Krokuun|QID|48910|M|56.58,67.57|N|To Chieftain Hatuun. Check off manually if you don't plan on doing the quest. There is a followup, but it is considerably more expensive. Get the 2nd minion if you need it and/or resources are not in short supply for you!|
 C Nath'raxas Hold: Preparations|QID|48442|NC|N|If you don't have your champion's leveled up, you will need to manually check this off until then. Completing it opens up some missions that will earn you faction.|
 t Nath'raxas Hold: Preparations|QID|48442|M|56.58,67.57|N|To Chieftain Hatuun.|
-A Nath'raxas Hold: Rescue Missions|QID|48443|M|56.58,67.57|N|From Chieftain Hatuun.|PRE|48441|;not spurious-ignore grail integration
+A Nath'raxas Hold: Rescue Missions|QID|48443|M|56.58,67.57|N|From Chieftain Hatuun.|PRE|48442|;not spurious-ignore grail integration
 C Scouting Map|QID|48443|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Nath'raxas Breakout". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
 t Nath'raxas Hold: Rescue Mission|QID|48443|M|56.58,67.57|N|To Chieftain Hatuun.|
 A The Ruins of Oronaar|QID|48445|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner.|PRE|47654|
