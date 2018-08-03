@@ -468,7 +468,7 @@ function WoWPro.Recorder.AddStep(stepInfo,position)
         WoWPro.Recorder:Warning("Hey, no guide is loaded!")
         return
     end
-    if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then
+    if WoWPro.Recorder.status == "STOP" then
         WoWPro.Recorder:print("Hey! Recorder.AddStep while status==%s", WoWPro.Recorder.status)
         return
     end
