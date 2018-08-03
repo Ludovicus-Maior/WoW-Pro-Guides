@@ -7,6 +7,8 @@
 	<Script file="Est_Glorious.lua"/>
 	<Script file="Est_HigherLearning.lua"/>
 	<Script file="Est_UnbornValkyr.lua"/>
+        <Script file="Ludo_AlliesA.lua"/>
+        <Script file="Ludo_AlliesH.lua"/>
 	<Script file="Ludo_Argus.lua"/>
 	<Script file="Ludo_Draenor.lua"/>
 	<Script file="Ludo_FishFry.lua"/>
