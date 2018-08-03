@@ -21,6 +21,8 @@ end
 
 -- Remeber Taxi Locations
 function WoWPro:RecordTaxiLocations(...)
+    local _event = ...
+    local index = WoWPro.rows[1].index
     for i = 1, NumTaxiNodes() do
         local nomen = TaxiNodeName(i)
         local typo = TaxiNodeGetType(i)
@@ -34,6 +36,10 @@ function WoWPro:RecordTaxiLocations(...)
             WoWPro:Print("Removed Unlearned Flight Point: [%s]",location)
         end
     end
+	WoWPro:dbp("RecordTaxiLocations(%s): Step %s/%d [%s]?", tostring(_event), tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
+	if WoWProCharDB.Taxi[WoWPro.step[index]] then
+		WoWPro.CompleteStep(index, "RecordTaxiLocations")
+	end
 end
 
 -- Auto-Complete: Use flight point --
@@ -681,7 +687,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
         end
     end
 
-	if WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
+	if (WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*")) or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog) then
 	    WoWPro:dbp("Accepted %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
 	    if  WoWPro.QID[qidx] == "*" then
 	        if WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
