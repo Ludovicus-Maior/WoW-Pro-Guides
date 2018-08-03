@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-08-03 17:37
+-- Who: Ludovicus_Maior
+-- Log: How long has it been spelt "Sen'jin Villiage"
+
+-- URL: http://wow-pro.com/node/3199/revisions/29343/view
 -- Date: 2018-06-04 18:17
 -- Who: Ludovicus_Maior
 -- Log: Tweak shaman [Proving Pit] and tweak [Riding On]
@@ -278,11 +283,6 @@
 -- URL: http://wow-pro.com/node/3199/revisions/26045/view
 -- Date: 2014-05-17 17:45
 -- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3199/revisions/26039/view
--- Date: 2014-05-17 17:28
--- Who: Ludovicus_Maior
--- Log: New registration guide.
 
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)
