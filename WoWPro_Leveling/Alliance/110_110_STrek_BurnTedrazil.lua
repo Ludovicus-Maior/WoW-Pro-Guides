@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2018-08-02 09:56
+-- Who: Emmaleah
+-- Log: Figured out how to make A flicker of Hope stay checked off.
+
+-- URL: http://wow-pro.com/node/3776/revisions/29461/view
 -- Date: 2018-08-01 09:34
 -- Who: Emmaleah
 -- Log: corrections per Grail and play thru on live 7/31/18
@@ -212,8 +217,8 @@ C Malfurion vs ...|QID|52977|M|45.94,24.47|Z|Darkshore|NC|QO|2|N|watch the in ga
 C The Guidance of Our Shan'do|QID|52977|M|45.96,24.98|Z|Darkshore|NC|QO|3|N|Mount Tyrande's Hipogryph and watch the movie. You will arrive in Darnassus|
 
 T The Guidance of Our Shan'do|QID|52977|M|43.10,78.25|Z|Darnassus|N|To Mia Greymane.|
-A A Flicker of Hope|AVAILABLE|53095|M|43.10,78.25|Z|Darnassus|N|From Mia Greymane.|
-N To the rescue|ACTIVE|53095|Z|Darnassus|N|Time is running out. Save as many as you can and extinguish all fires too (with extra action button)...\nRight click to check off manually when you arrive in Stormwind.|
+A A Flicker of Hope|QID|53095|M|43.10,78.25|Z|Darnassus|N|From Mia Greymane.|AVAILABLE|53310|
+N To the rescue|ACTIVE|53095|Z|Darnassus|N|Time is running out. Save as many as you can and extinguish all fires too (with extra action button)...|
 A From the Ashes...|QID|53310|M|57.66,59.54|Z|Darnassus|N|You get this quest automatically.|
 P Stormwind City|ACTIVE|53310|Z|Darnassus|NC|N|Take the portal back to Stormwind and report to your King.|
 T From the Ashes...|QID|53310|M|85.82,31.61|Z|Stormwind City|N|To Anduin Wrynn.|

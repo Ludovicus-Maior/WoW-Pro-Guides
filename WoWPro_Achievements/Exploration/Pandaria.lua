@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_pandaria
+-- Date: 2018-08-02 01:50
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3645/revisions/29457/view
 -- Date: 2018-08-01 00:30
 -- Who: Ludovicus_Maior
 -- Log: It is  |The Jade Forest| Ludo!
@@ -101,7 +105,7 @@ F Nesingwary Safari|QID|969690009|M|18,81|Z|Valley of the Four Winds|ACH|6969;9|
 F Paoquan Hollow|QID|969690010|M|16,35|Z|Valley of the Four Winds|ACH|6969;10|
 F Pools of Purity|QID|969690011|M|60,27|Z|Valley of the Four Winds|ACH|6969;11|
 F Rumbling Terrace|QID|969690012|M|74.18,63.75|Z|Valley of the Four Winds|ACH|6969;12|
-F Silken Fields|QID|969690013|M|63.57|Z|Valley of the Four Winds|ACH|6969;13|
+F Silken Fields|QID|969690013|M|63,57|Z|Valley of the Four Winds|ACH|6969;13|
 F Singing Marshes|QID|969690014|M|25.19,43.64|Z|Valley of the Four Winds|ACH|6969;14|
 F Stormstout Brewery|QID|969690015|M|34,70|Z|Valley of the Four Winds|ACH|6969;15|
 F The Heartland|QID|969690016|M|39,39|Z|Valley of the Four Winds|ACH|6969;16|
