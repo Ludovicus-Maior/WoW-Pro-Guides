@@ -39,8 +39,13 @@ end
 function WoWPro:ValidZone(zone)
 	if zone then
 	    if tonumber(zone) then
-	        -- Using a numeric zone ID
-            return tostring(zone), tonumber(zone)
+            -- Using a numeric zone ID
+            if WoWPro.MapInfo[tonumber(zone)] then
+                return tostring(zone), tonumber(zone)
+            else
+                WoWPro:Error("ValidZone: Numeric Zone [%s] is unknown.", zone)
+                return nil
+            end
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
 	        return zone, WoWPro.Zone2MapID[zone]
