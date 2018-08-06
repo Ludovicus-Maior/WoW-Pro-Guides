@@ -669,10 +669,11 @@ function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
+    guide['sortlevel'] = guide['level']
 end
 
 -- This function should be called AFTER WoWPro:GuideLevels() to override the settings from WoWPro:GuideLevels()
-function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel)
+function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel, sortLevel)
     if not WoWPro.NewLevels then
         return
     end
@@ -704,6 +705,7 @@ function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel)
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
+    guide['sortlevel'] = tonumber(sortLevel) or tonumber(meanLevel)
 end
 
 function WoWPro:GuideRaceSpecific(guide,race)
