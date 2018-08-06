@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-08-03 17:37
+-- Who: Ludovicus_Maior
+-- Log: How long has it been spelt "Sen'jin Villiage"
+
+-- URL: http://wow-pro.com/node/3199/revisions/29343/view
 -- Date: 2018-06-04 18:17
 -- Who: Ludovicus_Maior
 -- Log: Tweak shaman [Proving Pit] and tweak [Riding On]
@@ -279,11 +284,6 @@
 -- Date: 2014-05-17 17:45
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3199/revisions/26039/view
--- Date: 2014-05-17 17:28
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:NewGuideLevels(guide,1,20)
@@ -318,7 +318,7 @@ T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.|RANK|
 
 T Purge the Valley|QID|25168|M|55.94,74.79|N|To Master Gadrin.|
 A Riding On|QID|25171|PRE|25168;25169|M|55.94,74.79|N|From Master Gadrin.|
-f Sen'jin Villiage|ACTIVE|25171|M|55.38,73.31|N|Grab the flight point from Handler Marnlek in case you need to get back.|
+f Sen'jin Village|ACTIVE|25171|M|55.38,73.31|N|Grab the flight point from Handler Marnlek in case you need to get back.|
 R Razor Hill|QID|25171|M|55.18,74.59|N|Talk to Raider Jhash for ride to Razor Hill.|CHAT|ACTIVE|25171|
 N Profession Trainers|QID|25171|M|52.96,41.90|N|When you arrive in Razor Hill, Runda the Profession Trainer, just outside the Barracks can teach you most professions, whilst Rawrk inside the barracks will teach you First Aid.|S|ACTIVE|25171|T|Runda|
 h Razor Hill|QID|25171|M|51.61,41.65|N|At Innkeeper Grosk.|ACTIVE|25171|

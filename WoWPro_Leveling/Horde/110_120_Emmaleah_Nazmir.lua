@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-08-04 20:29
+-- Who: Emmaleah
+-- Log: Delete the quests from the beginning that are properly part of Zuldazar guide, improve registration 
+
+-- URL: http://wow-pro.com/node/3766/revisions/29419/view
 -- Date: 2018-07-11 08:53
 -- Who: Emmaleah
 -- Log: Finish up Western side of Nazmir
@@ -28,23 +33,19 @@
 -- Log: blank stub guide
 
 local guide = WoWPro:RegisterGuide('EmmNazmir', 'Leveling', 'Nazmir', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,110, 120)
+WoWPro:NewGuideLevels(guide,110,120,111)
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
+WoWPro:GuideAutoSwitch(guide)
+WoWPro:GuideIcon(guide,"ACH",11868)
 WoWPro:GuideSteps(guide, function()
 
 return [[
-A Make Loh Go|QID|52472|M|56.14,91.57|Z|Dazar'alor|N|From Toki.|
-C Make Loh Go|QID|52472|M|56.15,91.61|Z|Dazar'alor|CHAT|QO|1|N|Speak with Toki|
-C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|NC|QO|2|N|Use arrows (1,2,3 keys) to Guide Loh to the First Goal.|
-C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|NC|QO|3|N|Guide Loh Through All the Points Without Crossing His Own Path.|
-T Make Loh Go|QID|52472|M|56.57,91.69|Z|Dazar'alor|N|To Toki.|
-A The Scamps|QID|48404|M|55.95,88.82|Z|Dazar'alor|N|From Scrollsage Rooka.|
-C The Scamps|QID|48404|M|51.16,92.85|Z|Dazar'alor|NC|N|Click on those fast moving little Street Scamps.|
-T The Scamps|QID|48404|M|55.92,88.82|Z|Dazar'alor|N|To Scrollsage Rooka.|
-A Mista Nice|QID|48405|M|55.92,88.82|Z|Dazar'alor|N|From Scrollsage Rooka.|
-C Mista Nice|QID|48405|M|57.25,87.66|Z|Dazar'alor|QO|1|N|Follow ?? to the Lair of the Scamps|
-C Mista Nice|QID|48405|M|57.11,87.29|Z|Dazar'alor|QO|2|N|Kill Mista Nice.|
-T Mista Nice|QID|48405|M|55.92,88.86|Z|Dazar'alor|N|To Scrollsage Rooka.|
+N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
+N Use of Ranks|N|This is a work in process. When done, Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
+
+;A Nazmir|QID|47512|N|From Scouting map
+T Nazmir|QID|47512|M|41.32,66.49|Z|Dazar'alor|N|To Princess Talanji.|
+A Journey to Nazmir|QID|47103|M|41.32,66.49|Z|Dazar'alor|N|From Princess Talanji.|
 T Journey to Nazmir|QID|47103|Z|Dazar'alor|M|51.66,41.31|N|To Rokhan.|
 A Nazmir, the Forbidden Swamp|QID|48535|M|51.66,41.31|Z|Dazar'alor|N|From Rokhan.|
 C Nazmir, the Forbidden Swamp|QID|48535|Z|Dazar'alor|QO|1|CHAT|N|Ask Paku'ai Rokota for a ride  (chat, not flight path)|

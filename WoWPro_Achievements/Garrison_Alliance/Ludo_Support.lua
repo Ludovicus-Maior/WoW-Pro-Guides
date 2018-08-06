@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrisson_support
+-- Date: 2018-08-05 21:37
+-- Who: STrek
+-- Log: added item (ww.wowhead.com/item=109224/gulvar-soul-shards) tag to use for quest http://www.wowhead.com/quest=33114/forging-the-soul-trap
+
+-- URL: http://wow-pro.com/node/3649/revisions/29468/view
 -- Date: 2018-08-01 20:15
 -- Who: Ludovicus_Maior
 -- Log: Add stub LudoGarrissonSupportH
@@ -87,7 +92,7 @@ C Heart On Fire|QID|33168|N|Kill and loot Krosnis for his Fiery Heart.|M|17.72,2
 T Heart On Fire|QID|33168|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 
 A Forging the Soul Trap |QID|33114|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33168|Z|Shadowmoon Valley@Draenor|
-C Forging the Soul Trap |QID|33114|N|Click on the Gul'var Soul Shards to combine them.|NC|Z|Shadowmoon Valley@Draenor|
+C Forging the Soul Trap |QID|33114|U|109224|N|Click on the Gul'var Soul Shards to combine them.|NC|Z|Shadowmoon Valley@Draenor|
 T Forging the Soul Trap |QID|33114|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 
 A To Catch a Shadow |QID|33116|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|Z|Shadowmoon Valley@Draenor|
