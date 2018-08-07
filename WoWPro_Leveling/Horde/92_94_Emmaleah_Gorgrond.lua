@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2018-08-07 19:19
+-- Who: Emmaleah
+-- Log: more minor changes, but can't find why Linkslegend is experiencing it offering wrong quests, Suspect Blizzard may be marking both building quests complete when you complete either one, which would make the guide not flow correctly.
+
+-- URL: http://wow-pro.com/node/3599/revisions/29480/view
+-- Date: 2018-08-07 07:51
+-- Who: Emmaleah
+-- Log: very minor changes. corrected ACTIVE TAG that didn't belong on N Sparring Arena
+
+-- URL: http://wow-pro.com/node/3599/revisions/29216/view
 -- Date: 2018-03-06 01:26
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip
@@ -180,10 +190,10 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Guide begins in Gorgrond|QID|35557|N|This guide begins as you are leaving Frostfire and riding into Gorgrond. If you aren't there, the nearest flight point is Thunder Pass.|
-N Treasure|QID|35557|N|The guide mentions almost all of the treasure to be found in the zone if you set it to rank3. Depending on which building you build at your outpost, you will either have a shredder that can cut thru the hardened vines you run across or Beatface will come remove odd boulders to uncover treasure previously hidden. You can loot the treasure someone else's shredder or Beatface uncovers (for about 2 min after they uncover it.) I include both in the guide, since once the item is exposed, anyone can loot it.|
+N Treasure|QID|35557|N|The guide mentions almost all of the treasure to be found in the zone if you set it to rank3. Depending on which building you build at your outpost, you will either have a shredder that can cut thru the hardened vines you run across or Beatface will come remove odd boulders to uncover treasure previously hidden. You can loot the treasure someone else's shredder or Beatface uncovers (for about 2 min after they uncover it.)
 N Bonus Objectives|QID|35557|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100. If you are doing this with a group you will notice that some of the outpost building specific quests are for you may be where the other person(s) will have bonus objectives if they built the other outpost type building.|
 
-;this section all applies if you have arena - optional drops you may have gotten while out and about in gorgrond
+;this section only applies if you have arena - optional drops you may have gotten while out and about in gorgrond
 A Proof of Strength: Ancient Branch|QID|36094|O|U|114030|M|46.29,69.31|N|From 'Ancient Branch' you just looted.|
 A Proof of Strength: Botani Bloom|QID|36086|O|U|114025|M|46.29,69.31|N|From 'Botani Bloom' you just looted.|
 A Proof of Strength: Goren Tooth|QID|35948|O|U|113590|M|46.29,69.31|N|From 'Acid-Stained Goren Tooth' you just looted.|
@@ -229,13 +239,13 @@ A Durotan's quest|QID|36474;35880|M|46.10,70.18|N|From Durotan. This quest will 
 ;A Rage and Wisdom|QID|35880|M|46.10,70.18|N|From Durotan.| ; build sparring arena
 A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow.|RANK|2|
 A Skulltakers in Crimson Fen|QID|35667|LEAD|35016|PRE|35151|M|46.29,69.98|N|From Marrow.|RANK|2|
-A Tangleheart|QID|35707|M|46.36,69.64|N|From Penny Clobberbottom.|ACTIVE|36474|
-A A Rediscovered Legend|QID|34697|PRE|35151|M|46.33,69.69|N|From Limbflayer.|ACTIVE|35880|
+A Tangleheart|QID|35707|M|46.36,69.64|N|From Penny Clobberbottom.|ACTIVE|36474|;lumber mill
+A A Rediscovered Legend|QID|34697|PRE|35151|M|46.33,69.69|N|From Limbflayer.|ACTIVE|35880|;arena
 f Beastwatch|QID|36474;35880|M|45.98,69.23|N|At Grinslicer.|
 h Make Beastwatch your home|QID|36474;35880|M|45.98,69.72|N|At Licefeaster.|
 
 ;if sparring arena
-N Proof of Strength|QID|35880|ACTIVE|35880|N|To get the drops for the proof of strength bonus quests, you have to kill stuff with your champion. So use him often to improve your drop chances.|
+N Proof of Strength|ACTIVE|35880|N|To get the drops for the proof of strength bonus quests, you have to kill stuff with your champion. So use him often to improve your drop chances.|
 $ Odd Boulder|QID|36737|M|45.05,69.91|N|Call Beatface (click on the rock) to expose the Ancient Ogre Cache|RANK|3|ACTIVE|35880|
 $ Pile of Rubble|QID|36118|M|43.94,70.44|QO|1|N|Pile of Rubble-treasure lying there waiting for you. Contains a random ilvl 516 green item.|RANK|3|
 t Rage and Wisdom|QID|35880|M|45.71,70.51;43.56,65.01|CS|N|To Bony Xuk.|
@@ -342,7 +352,7 @@ C Chains of Iron|QID|35136|M|49.0,45.2;49.2,44.8|CS|QO|1|N|When you enter this v
 C Chains of Iron|QID|35136|M|49.74,43.85;49.6,44.5|CS|QO|2|CHAT|N|After you have the artifact, optionally come back down and chat with Nisha for a ride back to your outpost.|
 
 A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow. If you level, this quest will pop up, if you aren't in Beastwatch, just check it off manually, the guide will remind you to pick it up again later.|ACTIVE|35136|
-N Sparring Arena|QID|35880|ACTIVE|35880|N|What follows next is a running from flight path to flight path and getting a couple of followers.  If that doesn't interest you check these steps off until Run to Mistcreep Mire.  There are bonus objectives in these areas but no quests.|
+N Sparring Arena|QID|35880|N|What follows next is a running from flight path to flight path and getting a couple of followers.  If that doesn't interest you check these steps off until Run to Mistcreep Mire.  There are bonus objectives in these areas but no quests.|
 
 ;if lumber yard
 t The Razorbloom|QID|36474|M|46.59,71.49|N|To Draka.|
@@ -356,7 +366,6 @@ C Mossy Fate|QID|35399|NC|M|48.24,73.82|QO|2|N|You need to inspect the guy lying
 A Super Seeds|QID|35406|NC|M|49.48,70.98|N|From Primal Seeds.|ACTIVE|35399|
 C The Voice of Iyu|QID|35402|M|49.35,71.51|
 C The Infested|QID|35400|M|47.35,73.38|US|
-;change order fix PRE on Bushwhacker
 T Mossy Fate|QID|35399|M|46.59,71.52|N|To Kaz the Shrieker.|
 T The Voice of Iyu|QID|35402|M|46.59,71.52|N|To Kaz the Shrieker.|
 T Super Seeds|QID|35406|M|46.59,71.52|N|To Kaz the Shrieker.|
@@ -364,12 +373,9 @@ A Cutter|QID|35430|M|46.59,71.52|N|From Kaz the Shrieker.|PRE|35406;35400;35402;
 A Pollen Power|QID|35429|M|46.58,71.52|N|From Kaz the Shrieker.|PRE|35406;35402|
 T The Infested|QID|35400|M|46.58,71.47|N|To Draka.|
 A Bushwhacker|QID|35432|M|46.58,71.47|N|From Draka.|PRE|35402;35406|
-;Change step type to $
 $ Hardened Thornvine|QID|36714|ACTIVE|35707|M|47.66,76.78|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;21 - Deeproot
-; Pollen power into sticky]
 C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|S|
 R Evermorn Springs|QID|35430;36037|M|44.95,79.09|
-; to $ step
 $ Hardened Thornvine|QID|35981|ACTIVE|35707|M|45.31,81.99|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;20.1 - Deeproot
 C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|US|
 T Cutter|QID|35430|M|43.72,84.00|N|To Cutter. You can jump over the wall of his hut in the back.|
@@ -421,7 +427,7 @@ C Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Kill Saberon, free
 t Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Auto turned in when complete.|RANK|3|
 $ Hardened Thornvine|QID|35975|ACTIVE|35707|M|45.97,93.56|N|Use Shredder (click on the vines) to expose the Remains of Explorer Engineer Toldirk Ashlamp|RANK|3|;25 - Tailthrasher Basin/Bastian Rise
 
-;R Bastion Rise|QID|36488;35667|M|46.49,93.57|
+R Bastion Rise|ACTIVE|36488;35667|M|46.49,93.57|
 T Thieving Dwarves|QID|36488|M|46.49,93.57|N|To Cutter.|
 A Will of the Genesaur|QID|35509|M|46.49,93.57|N|From Cutter.|PRE|36488|
 A Down the Goren Hole|QID|35507|M|46.49,93.57|N|From Cutter.|PRE|36488|
