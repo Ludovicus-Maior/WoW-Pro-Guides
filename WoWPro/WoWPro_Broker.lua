@@ -1973,9 +1973,9 @@ function WoWPro.PopulateQuestLog()
         oldQuestCount = oldQuestCount + 1
     end
 	if oldQuestCount == 0 then
-	    WoWPro:print("Empty old Quest log, all done for now.")
-	    WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
-	    return num
+	    WoWPro:print("Empty old Quest log. Time to fill it up!")
+--	    WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
+--	    return num
 	end
 
 	-- Generating table WoWPro.newQuest --
