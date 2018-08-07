@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-08-07 20:16
+-- Who: Emmaleah
+-- Log: update for todays content - testing on live. added Target buttons to help with crowding.
+
+-- URL: http://wow-pro.com/node/3770/revisions/29472/view
 -- Date: 2018-08-02 23:30
 -- Who: Blanckaert
 -- Log: Fix QID 51443 PRE from 71796 to 51796
@@ -73,7 +78,7 @@ WoWPro:NewGuideLevels(guide,110, 110, 110.5)
 WoWPro:GuideName(guide,'Battle for Azeroth Intro')
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
 WoWPro:GuideSteps(guide, function()
-WoWPro:GuideQuestTriggers(guide, 50476,53372,51443)
+WoWPro:GuideQuestTriggers(guide, 50476,53372,53028)
 return [[
 A The Warchief Awaits|QID|50476|N|Autoaccepted when you log in after Patch 8.0.0 is live. If you haven't gone to Silithus to heal the wound, you need to do that first.|
 R Undercity|ACTIVE|50476|N|Make your way to Undercity to meet with Sylvanas. You may want to save your hearthstone for the next step which is travel to Northern Barrens, your choice of course. |
@@ -189,31 +194,30 @@ C Killer Queen|QID|52981|M|46.13,24.28|Z|Darkshore|CHAT|QO|3|N|Follow Saurfang.|
 C Killer Queen|QID|52981|M|45.52,18.27|Z|Darkshore|CHAT|QO|4|N|Speak with Sylvanas|
 T Killer Queen|QID|52981|M|45.52,18.25|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 
-A Hour of Reckoning|QID|53372|N|This will become available when Blizzard next releases content Presumable August 7, 2018. It will have been autoaccepted in Orgrimmar (or perhaps anywhere?), if you don't have it return to Orgrimmar.|
+A Hour of Reckoning|QID|53372|N|This quest will have been autoaccepted upon logging in (or completing the last quest).|
 R Orgrimmar|ACTIVE|53372|U|140192|N|Return to Orgrimmar to continue the story.|
-T Hour of Reckoning|QID|53372|M|50.04,75.91;48.51,70.67|CS|Z|Orgrimmar|N|Return to Saurfang in Grommash Hold.|
+T Hour of Reckoning|QID|53372|M|50.04,75.91;48.51,70.67|CS|Z|Orgrimmar|N|Return to Saurfang in Grommash Hold. Target buttons have been added to assist with the crowd, Use your Interact with Target keybinding if its too crowded.|T|High Overlord Saurfang|
 A The Battle for Lordaeron|QID|51796|M|48.51,70.67|Z|Orgrimmar|N|From High Overlord Saurfang.|
-C The Battle for Lordaeron|QID|51796|M|47.81,71.69|Z|Orgrimmar|QO|1|CHAT|N|Speak with Isabella which will put you in the queue for Battle for Lordaeron scenario.If you have done the Battle of Lordaeron scenario on another character there is an option to skip it. Choose which ever you want and the guide will accomodate it.|
+C The Battle for Lordaeron|QID|51796|M|47.81,71.69|Z|Orgrimmar|QO|1|CHAT|N|Speak with Isabella which will put you in the queue for Battle for Lordaeron scenario.If you have done the Battle of Lordaeron scenario on another character there is an option to skip it. Choose which ever you want and the guide will accomodate it.|T|Isabella|
 C Under Siege|QID|51796|Z|Undercity!Ruins of Lordaeron!Instance|M|84.42,25.69|SO|1|NC|N|Find Saurfang.|
-C Spies in Our Midst|QID|51796|M|53.91,77.27|Z|Undercity!Ruins of Lordaeron!Instance|SO|2;2|NC|N|Meet with Saurfang|
-C Spies in Our Midst|QID|51796|M|53.91,77.27|Z|Undercity!Ruins of Lordaeron!Instance|SO|2;1|N|Secure the Mage District|
-C To the Heart!|QID|51796|M|50.05,84.24|Z|Undercity!Ruins of Lordaeron!Instance|SO|3|NC|N|Follow Saurfang to the Heart of the City|
+C Spies in Our Midst|QID|51796|M|53.91,77.27|Z|Undercity!Ruins of Lordaeron!Instance|SO|2;2|NC|N|Meet with Saurfang.|
+C Spies in Our Midst|QID|51796|M|53.91,77.27|Z|Undercity!Ruins of Lordaeron!Instance|SO|2;1|N|Kill invaders, rescue citizens to secure the Mage District.|
+C To the Heart!|QID|51796|M|50.05,84.24|Z|Undercity!Ruins of Lordaeron!Instance|SO|3|NC|N|Follow Saurfang to the Heart of the City.|
 C Evacuate Citizens|QID|51796|M|48.76,84.20|Z|Undercity!Ruins of Lordaeron!Instance|SO|4;1|N|Kill the alliance infiltrators so the citizens can evacuate.|
-C Evacuate the Heart of the City|QID|51796|M|48.50,82.73|Z|Undercity!Ruins of Lordaeron!Instance|SO|4;2|N|Evacuate the Remainder of Undercity|
-C Use the Portal|QID|51796|M|48.45,83.25|Z|Undercity!Ruins of Lordaeron!Instance|SO|5;1|NC|N|Use the Portal|
+C Evacuate the Heart of the City|QID|51796|M|48.50,82.73|Z|Undercity!Ruins of Lordaeron!Instance|SO|4;2|N|Evacuate the Remainder of Undercity.|
+C Use the Portal|QID|51796|M|48.45,83.25|Z|Undercity!Ruins of Lordaeron!Instance|SO|5;1|NC|N|Use the Portal (below bank.|
 C Follow Saurfang to battle|QID|51796|M|48.13,71.28|Z|Undercity!Ruins of Lordaeron!Instance|SO|5;2|NC|N|Follow Saurfang to battle.|
 C Alliance Enemies Defeated|QID|51796|M|48.14,70.81|Z|Undercity!Ruins of Lordaeron!Instance|SO|6;1|N|Break the Alliance front line.|
 C Defend the Azerite War Machine|QID|51796|M|48.22,62.60|Z|Undercity!Ruins of Lordaeron!Instance|SO|7;1|N|Defeat Waves of Attackers.|
 C Our Secret Weapon|QID|51796|M|48.18,68.22|Z|Undercity!Ruins of Lordaeron!Instance|SO|8;1|N|Drive Alliance forces back.|
-C Follow Nathanos to the keep|QID|51796|M|47.77,88.47|Z|Undercity!Ruins of Lordaeron!Instance|SO|9;1|NC|N|Follow Nathanos to the keep|
+C Follow Nathanos to the keep|QID|51796|M|47.77,88.47|Z|Undercity!Ruins of Lordaeron!Instance|SO|9;1|NC|N|Follow Nathanos to the keep.|
 C Incercept the Alliance|QID|51796|M|46.52,88.77|Z|Undercity!Ruins of Lordaeron!Instance|SO|10;1|N|Incercept the Alliance.|
-C Defeat Anduin and his Allies|QID|51796|M|46.65,88.56|Z|Undercity!Ruins of Lordaeron!Instance|SO|11|N|Defeat Anduin and his Allies|
-C Follow Nathanos to safety|QID|51796|M|48.60,76.96|Z|Undercity!Ruins of Lordaeron!Instance|SO|12;1|NC|N|Follow Nathanos to safety|
+C Defeat Anduin and his Allies|QID|51796|M|46.65,88.56|Z|Undercity!Ruins of Lordaeron!Instance|SO|11|N|Focus on Anduin to end this step.|
+C Follow Nathanos to safety|QID|51796|M|48.60,76.96|Z|Undercity!Ruins of Lordaeron!Instance|SO|12;1|NC|N|Follow Nathanos to safety.|
 C The Dark Lady|QID|51796|M|48.11,78.32|Z|Undercity!Ruins of Lordaeron!Instance|SO|13|NC|N|Follow Sylvanas.|
-T The Battle for Lordaeron|QID|51796|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, on top of the Gates of Orgrimmar.|
+T The Battle for Lordaeron|QID|51796|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, on top of the Gates of Orgrimmar.|T|Nathanos Blightcaller
 
-;ends on PTR as of 7/8/18 -- I suspect next quest will be open on Aug 14, but may be part of pre-patch?
-A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.(presumed to become available with BfA launch)|
+A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|T|Nathanos Blightcaller|N|From Nathanos Blightcaller.(presumed to become available with BfA launch 13 August @3pm PST/14 August 12AM CET for Europe 06:00 am CST for Asia and 08:00 am AEST for Australian.https://worldofwarcraft.com/en-gb/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all|
 R The Western Earthshrine|QID|53028|QO|1|M|48.82,38.59|Z|Orgrimmar|N|Fly over to the Uldam Portal for a shortcut to Silithus.|
 R Silithus: The Wound|ACTIVE|53028|M|70.42,87.54|Z|Silithus|N|Fly towards Sargaras' giant sword.|
 T A Dying World|QID|53028|M|42.22,44.28|Z|Silithus|N|To Magni Brozebeard.|
@@ -230,7 +234,7 @@ A The Speaker's Imperative|QID|53031|M|50.15,53.74|Z|Chamber of Heart!Dungeon|N|
 C The Speaker's Imperative|QID|53031|M|50.17,30.46|Z|Chamber of Heart!Dungeon|NC|N|Teleporter pad used.|
 T The Speaker's Imperative|QID|53031|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, still on top of the Gates of Orgrimmar.|
 
-A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|51796|
+A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|71796|
 C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|
 C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|
 T Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|N|To Nathanos Blightcaller.|
