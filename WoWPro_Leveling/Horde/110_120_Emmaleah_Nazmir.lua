@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-08-07 04:27
+-- Who: Emmaleah
+-- Log: I apparently didn't keep good version control and overwrote the end of this guide. Will test soonest! Recovered a great deal of it from my backup on 7/19; this wasn't the final copy and undoubtedly needs more work. 
+
+-- URL: http://wow-pro.com/node/3766/revisions/29475/view
 -- Date: 2018-08-04 20:29
 -- Who: Emmaleah
 -- Log: Delete the quests from the beginning that are properly part of Zuldazar guide, improve registration 
@@ -99,7 +104,7 @@ T Safe Flying|QID|48576|M|34.10,78.60|Z|Nazmir|N|To Sur'jan.|
 T Terrorizing their Eggs|QID|48577|M|34.10,78.60|Z|Nazmir|N|To Sur'jan.|
 T There's No Eye in Skyterror|QID|48578|M|34.10,78.60|Z|Nazmir|N|To Sur'jan.|
 A The Blood of My Enemies|QID|48584|M|34.07,78.58|Z|Nazmir|N|From Sur'jan.|
-A Purge the Infection|QID|48588|M|34.07,78.58|Z|Nazmir|N|Bonus Objective, Autoaccepted.|LVL|-120|
+A Purge the Infection|QID|48588|M|34.07,78.58|Z|Nazmir|N|Bonus Objective - Autoaccepted.|LVL|-120|
 C Purge the Infection|QID|48588|M|34.07,78.58|Z|Nazmir|N|Bonus Objective, complete as you go.|S|
 A My Head and Shoulders|QID|48590|M|34.07,78.58|Z|Nazmir|N|From Sur'jan.|
 C The Blood of My Enemies|QID|48584|M|30.19,75.26|Z|Nazmir|S|N|Kill Dreadticks and loot their blood as you go.|
@@ -109,7 +114,7 @@ C My Head and Shoulders|QID|48590|M|28.79,76.75|Z|Nazmir|QO|3|NC|N|Pick up Sur'j
 K Infected Direhorn|QID|47877|M|24.53,78.09|QO|1|T|Infected Direhorn|N|You can find this Silver Elite in a cave  under a waterfall.|
 C The Blood of My Enemies|QID|48584|M|30.19,75.26|Z|Nazmir|S|N|Finish collecting the Dreadtick blood.|
 C Purge the Infection|QID|48588|M|28.29,75.53|Z|Nazmir|US|N|Now is a good time to finish this bonus objective if you plan to.|
-T Purge the Infection|QID|48588|M|28.29,75.53|Z|Nazmir|N|Autocompleated.|
+T Purge the Infection|QID|48588|M|28.29,75.53|Z|Nazmir|N|Bonus Obective - Autocompleated.|
 T The Blood of My Enemies|QID|48584|M|28.77,72.64|Z|Nazmir|N|To Sur'jan.|
 T My Head and Shoulders|QID|48590|M|28.77,72.64|Z|Nazmir|N|To Sur'jan.|
 A Urok's True Death|QID|48591|M|28.77,72.64|Z|Nazmir|N|From Sur'jan.|
@@ -175,7 +180,7 @@ C How to Be a Blood Troll|QID|48890|M|33.05,44.21|Z|Nazmir|US|NC|N|Finish testin
 T Isolating Zalamar|QID|48801|M|33.35,45.77|Z|Nazmir|N|To Bloodseeker Jo'chunga.|
 T How to Be a Blood Troll|QID|48890|M|33.35,45.77|Z|Nazmir|N|To Bloodseeker Jo'chunga.|
 A Poisoning the Brood|QID|49078|M|33.35,45.77|Z|Nazmir|N|From Bloodseeker Jo'chunga.|
-A Zalamar Slaughter|QID|49406|M|33.35,45.77|Z|Nazmir|N|Bonus Objective-Auto-accepted.|LVL|-120|
+A Zalamar Slaughter|QID|49406|M|33.35,45.77|Z|Nazmir|N|Bonus Objective - Autoaccepted.|LVL|-120|
 C Zalamar Slaughter|QID|49406|M|33.35,45.77|Z|Nazmir|N|Bonus Objective.|S|
 A Mark of the Bat|QID|48800|M|33.35,45.77|Z|Nazmir|N|From Bloodseeker Jo'chunga.|
 C Poisoning the Brood|QID|49078|M|32.13,48.71|Z|Nazmir|U|153012|NC|T|Tamed Warspawn|S|N|Target the Tamed Warspawn and use the poison|
@@ -187,7 +192,7 @@ T Poisoning the Brood|QID|49078|M|33.35,45.77|Z|Nazmir|N|To Bloodseeker Jo'chung
 T Mark of the Bat|QID|48800|M|33.35,45.77|Z|Nazmir|N|To Bloodseeker Jo'chunga.|
 A Hir'eek, the Bat Loa|QID|49079|M|33.35,45.76|Z|Nazmir|N|From Jo'chunga.|
 C Zalamar Slaughter|QID|49406|M|32,47|Z|Nazmir|US|N|If you plan to complete the bonus objective now is the time.|
-T Zalamar Slaughter|QID|49406|M|32,47|Z|Nazmir|N|Auto compleated.|
+T Zalamar Slaughter|QID|49406|M|32,47|Z|Nazmir|N|Bonus Obective - Autocompleated.|
 C Hir'eek, the Bat Loa|QID|49079|M|31.72,46.75|Z|Nazmir|QO|1|CHAT|N|Speak with Jo'chunga within the blood ritual pool.|
 C Hir'eek, the Bat Loa|QID|49079|M|32.09,46.88|Z|Nazmir|QO|2|NC|N|Press the "1" key to use the poisoned dagger that Jo'chunga gave you while Hir'eek flies around.|
 T Hir'eek, the Bat Loa|QID|49079|M|31.23,46.81|Z|Nazmir|N|To Jo'chunga.|
@@ -206,7 +211,7 @@ T A Tribute for Death|QID|47880|M|39.49,24.62|Z|Nazmir|N|To Bwonsamdi.|
 A Remnants of the Damned|QID|47491|M|39.49,24.62|Z|Nazmir|N|From Bwonsamdi.|
 A A Desecrated Temple|QID|49348|M|39.49,24.62|Z|Nazmir|N|From Bwonsamdi.|
 A That Which Haunts the Dead|QID|47247|M|39.49,24.62|Z|Nazmir|N|From Bwonsamdi.|
-A Mark of the Damned|QID|48934|M|39.57,25.41|Z|Nazmir|LVL|-120|N|Auto-accepted.|
+A Mark of the Damned|QID|48934|M|39.57,25.41|Z|Nazmir|LVL|-120|N|Bonus Objective - Auto-accepted.|
 C Mark of the Damned|QID|48934|M|39.57,25.41|Z|Nazmir|S|N|Bonus Objective.|
 C A Desecrated Temple|QID|49348|M|43.95,30.05|Z|Nazmir|S|NC|N|Click on the red blobs of Vile Desecration to destroy them.|
 $ Offering to Bwonsamdi|QID|49484|M|42.39,26.13;42.79,26.20|CS|N|Go up the tree trunk then onto the walls of the ruins and down inside to find this treasure.|
@@ -222,7 +227,7 @@ C 'Til Death Do Us Part|QID|47248|M|40.37,26.52|Z|Nazmir|QO|1|NC|N|Into the last
 C Remnants of the Damned|QID|47491|M|40.46,30.25|Z|Nazmir|US|N|Finish collecting the Decaying Bloodstones.|
 T 'Til Death Do Us Part|QID|47248|M|36.65,27.39|Z|Nazmir|N|To Theurgist Salazae.|
 C Mark of the Damned|QID|48934|M|37.17,27.83|Z|Nazmir|US|N|Finish up this bonus objective before going into the temple to turn in the quests.|
-T Mark of the Damned|QID|48934|M|37.17,27.83|Z|Nazmir|N|Autocompleted.|
+T Mark of the Damned|QID|48934|M|37.17,27.83|Z|Nazmir|N|Bonus Objective - Autocompleted.|
 T Remnants of the Damned|QID|47491|M|39.57,24.65|Z|Nazmir|N|To Bwonsamdi.|
 T A Desecrated Temple|QID|49348|M|39.57,24.65|Z|Nazmir|N|To Bwonsamdi.|
 T That Which Haunts the Dead|QID|47247|M|39.57,24.65|Z|Nazmir|N|To Bwonsamdi.|
@@ -252,7 +257,7 @@ C Stopping Zardrax|QID|48852|M|31.05,52.08|S|N|Bonus Objective. - Most things in
 C Projection Destruction|QID|48823|M|30.91,55.19;32.20,55.45;32.91,56.76|CN|QO|2|U|152727|N|Use the burning mojo to destroy the Skeletal Mounds0|
 C Power Denied|QID|48825|M|33.03,58.72|QO|1|N|Kill Hexxer Nana Kwug to recover the Blood Fetish.|
 C Stopping Zardrax|QID|48852|M|32.41,56.13|US|N|Finish up the Bonus objective before you leave the area.|
-T Stopping Zardrax|QID|48852|M|32.41,56.13|N|Autocompleted.|
+T Stopping Zardrax|QID|48852|M|32.41,56.13|N|Bonus Objective - Autocompleted.|
 T Projection Destruction|QID|48823|M|31.06,52.08|N|To Shadow Hunter Da'jul.|
 T Power Denied|QID|48825|M|31.06,52.08|N|To Shadow Hunter Da'jul.|
 A Humbling the Terrors|QID|48855|M|31.06,52.08|N|From Shadow Hunter Da'jul.|
@@ -300,5 +305,313 @@ A Catch Me if You Can|QID|49781|M|24.13,53.21|N|From Zaluto.|
 C Catch Me if You Can|QID|49781|M|28.24,52.06|NC|N|Hop on Zaluto's raptor. After a bit he stops -- facing Zulajin -- use the 1 key.  Run away towards the puddle of tar, in a little while 2 key becomes available, use it.  Run away some more and then when the 3 key becomes avaiable -- use it repeatedly until Zulajin is dead.|
 T Catch Me if You Can|QID|49781|M|28.36,52.03|N|To Jin'Tiki.|
 
+C Torga, the Turtle Loa|QID|49064|M|55.67,39.37|CHAT|QO|1|N|Meet Kisha.|
+A Profanity Filter|QID|47924|M|55.15,36.70|N|From Kajosh.|
+A Mawfiend Extermination|QID|47996|M|54.16,35.64|LVL|-120|N|Bonus Objective - Autoaccepted.|
+C Mawfiend Extermination|QID|47996|M|54.16,35.64|S|N|Kill mayfiends and otherwise clear the area to accomplish the bonus objective.|
+C Profanity Filter|QID|47924|M|54.31,33.27|QO|1|U|151849|NC|N|Use the scroll to destroy the Profane Totems.|
+C Profanity Filter|QID|47924|M|51.76,33.24|QO|2|CHAT|N|Ask Kajosh if it will work now?|
+T Profanity Filter|QID|47924|M|51.76,33.24|N|To Kajosh.|
+A Killing Cannibals|QID|47998|M|51.76,33.24|N|From Kajosh.|
+A Just Say No to Cannibalism|QID|47919|M|51.76,33.24|N|From Kajosh.|
+A Shoak's on the Menu|QID|47925|M|51.76,33.24|N|From Kajosh.|
+C Killing Cannibals|QID|47998|M|49.82,34.68|QO|3|N|Finish your quota of Natha'vor Cannibals.|
+C Just Say No to Cannibalism|QID|47919|M|49.27,33.08|QO|1|CHAT|N|Corpse Monger Nog'shra can be found in the hut at the top of the hill.|
+K Kill Totem Maker Jash'ga|QID|48406|M|49.43,37.44|QO|2|N|Silver Elite to kill for treasure and resources.|
+C Just Say No to Cannibalism|QID|47919|M|49.49,38.35|QO|1|S|N|Corpse Monger Jal'aka's hut is around behind Totem Maker Jash'ga.|
+C Shoak's on the Menu|QID|47925|M|49.51,39.27|N|Talk to Shoak to start.  Several small mayfiends will swarm you and then Poz'ga the Butcher Queen must be killed to recue Shoak.|
+C Just Say No to Cannibalism|QID|47919|M|50.60,35.56|N|Ccorpse Monger Yon'gi's hut is by itself just east of the village.|
+C Killing Cannibals|QID|47998|M|49.82,34.68|N|Kill Natha'vor Cannibals as you go.|
+C Mawfiend Extermination|QID|47996|M|52.44,31.49|US|N|Bonus Objective - Finish eliminating the Mawfiend threat.|
+T Mawfiend Extermination|QID|47996|M|52.44,31.49|QO|1|T|Totem Maker Jash'ga|N|Bonus Objective - Autocompleted.|
+T Shoak's on the Menu|QID|47925|M|55.81,32.24|N|To Shoak.|
+T Killing Cannibals|QID|47998|M|55.85,32.36|N|To Kajosh.|
+T Just Say No to Cannibalism|QID|47919|M|55.85,32.36|N|To Kajosh.|
+C Torga, the Turtle Loa|QID|49064|M|55.53,28.83|NC|QO|2|N|View Torga.|
+T Torga, the Turtle Loa|QID|49064|M|56.58,26.70|N|To Princess Talanji.|
+A Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|N|From Princess Talanji.|
+C Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|CHAT|N|Tell Talanji you are ready.|
+T Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|N|To Princess Talanji.|
+A Cease all Summoning|QID|49080|M|56.58,26.70|N|From Princess Talanji.|
+A Dreadtick Combustion|QID|49071|M|56.51,26.65|N|From Lashk.|
+A Souls for the Death Loa|QID|49070|M|56.62,26.57|N|From Bwonsamdi.|
+C Souls for the Death Loa|QID|49070|M|59.54,19.28|S|N|Kill Blood troll drudges as you go.|
+C Dreadtick Combustion|QID|49071|M|60.80,23.11|QO|1|U|153024|NC|S|N|Use the scroll to blow up Dreadtick Leechers. (or just kill them)|
+C Cease all Summoning|QID|49080|M|61.01,18.15|QO|1|N|Kill Summoner Yarz.|
+C Dreadtick Combustion|QID|49071|M|60.80,23.11|QO|1|U|153024|NC|US|N|Use the scroll to blow up Dreadtick Leechers. (or just kill them)|
+C Souls for the Death Loa|QID|49070|M|58.20,20.41|US|N|Finish claiming the Blood troll souls.|
+A The Wardens|QID|42422|M|56.50,26.62|N|From Lashk.|
+T Argussian Reach|QID|48642|M|56.50,26.62|N|To Lashk.|
+T Cease all Summoning|QID|49080|M|56.57,26.69|N|To Princess Talanji.|
+T Souls for the Death Loa|QID|49070|M|56.63,26.54|N|To Bwonsamdi.|
+A Speaking with the Dead|QID|49120|M|56.63,26.54|N|From Bwonsamdi.|
+C Speaking with the Dead|QID|49120|M|56.63,26.54|CHAT|N|Ask, then listen to Torga's Wisdom.|
+T Speaking with the Dead|QID|49120|M|56.56,26.68|N|To Princess Talanji.|
+A Negative Blood|QID|49125|M|56.59,26.76|N|From Kisha.|
+A Tortollan Rescue|QID|51689|M|56.59,26.76|LVL|-120|N|Bonus Objective - Autoaccepted.|
+C Tortollan Rescue|QID|51689|M|56.59,26.76|S|N|Bonus Objective - Free the Tortollan's and kill the guards as you go.|
+C Negative Blood|QID|49125|M|62.82,23.14|QO|1|U|160559|NC|S|N|Use the scroll to destroy the Corrupted Loa Blood.|
+C Negative Blood|QID|49125|M|62.27,24.56|N|Pick up Scroll of Fate's Hand lying on the ground.|
+C Negative Blood|QID|49125|M|62.82,23.14|QO|1|U|160559|NC|US|N|Finish destroying the Corrupted Loa Blood.|
+C Tortollan Rescue|QID|51689|M|64.91,20.93|US|N|Bonus Objective - Finish up rescuing Tortollans.|
+T Tortollan Rescue|QID|51689|M|64.91,20.93|N|Bonus Objective - Autocompleted.|
+T Negative Blood|QID|49125|M|65.72,17.97|N|To Kisha.|
+A Forcing Fate's Hand|QID|49126|M|65.72,17.97|N|From Kisha.|
+C Forcing Fate's Hand|QID|49126|M|65.73,17.87|QO|1|NC|N|Use Extra Action button to summon Hand of Fate.|
+C Forcing Fate's Hand|QID|49126|M|63.30,15.31|QO|2|N|1 is a single target attack \n2 is an AE attack \n3 is a heal. \nGo forth and destroy the undead.|
+T Forcing Fate's Hand|QID|49126|M|58.48,13.78|N|To Kisha.|
+A Loa-Free Diet|QID|49130|M|58.48,13.78|N|From Kisha.|
+A Sanctifying Ground|QID|49131|M|58.48,13.85|N|From Princess Talanji.|
+A Crushing the Skullcrushers|QID|49132|M|58.52,13.89|N|From Lashk.|
+C Crushing the Skullcrushers|QID|49132|M|54.99,21.50|S|N|Kill the Loa-Gutter Skullcrushers.|
+C Loa-Free Diet|QID|49130|M|54.99,21.50|S|N|Kill the Loa Butchers to collect Parts of Torga.|
+C Sanctifying Ground|QID|49131|M|56.61,22.09|QO|1|NC|N|Click the Sanctifying Totems scattered around.|
+C Loa-Free Diet|QID|49130|M|54.99,21.50|US|N|Finish recovering Parts of Torga.|
+C Crushing the Skullcrushers|QID|49132|M|54.99,21.50|S|N|Finish your quota of Loa-Gutter Skullcrushers.|
+T Crushing the Skullcrushers|QID|49132|M|56.51,26.67|N|To Lashk.|
+T Loa-Free Diet|QID|49130|M|56.60,26.78|N|To Kisha.|
+T Sanctifying Ground|QID|49131|M|56.56,26.66|N|To Princess Talanji.|
+A Jungo, Herald of G'huun|QID|49136|M|56.56,26.66|N|From Princess Talanji.|
+C Jungo, Herald of G'huun|QID|49136|M|60.93,17.92|N|Wait for the Princess to cancel his invulnerability and then kill Jungo, Herald of G'huun.|
+T Jungo, Herald of G'huun|QID|49136|M|56.57,26.68|N|To Princess Talanji.|
+A Torga's Eternal Return|QID|49160|M|56.51,26.64|N|From Lashk.|
+C Torga's Eternal Return|QID|49160|M|56.51,26.64|U|153131|NC|N|Use the scroll to put Torga's spirit to rest.|
+T Torga's Eternal Return|QID|49160|M|56.59,26.75|N|To Kisha.|
+
+A To Gloom Hollow|QID|49902|M|56.59,26.75|N|From Kisha.|
+R Razorjaw River|QID|49902|M|55.79,34.32|N|Follow whats left of the road across the Razorjaw river to find the Tortollans.|
+C To Gloom Hollow|QID|49902|M|55.65,39.40|CC|CHAT|N|Talk to Crez|
+K Kill Scout Skrasniss|QID|48972|M|58.84,38.98|QO|1|T|Scout Skrasniss|N|Silver Elite to kill and loot for treasure and resources.|
+C To Gloom Hollow|QID|49902|M|60.24,46.18|CC|CHAT|N|Talk to Korkrush.|
+C To Gloom Hollow|QID|49902|M|63.88,47.75|CHAT|N|Talk to Yash|
+f Gloom Hollow|QID|49902|M|66.95,43.84|N|At Cuja.|
+T To Gloom Hollow|QID|49902|M|67.44,42.30|N|To Rokhan.|
+A Getting the Message|QID|47245|M|67.44,42.30|N|From Rokhan.|
+A Staying Hidden|QID|47525|M|67.40,42.03|N|From Shadow Hunter Mutumba.|
+A WANTED: Ayame|QID|52477|M|67.22,40.83|N|From Wanted Poster.|
+
+C Getting the Message|QID|47245|M|68.53,43.82|QO|1|NC|N|Click on the rocket to read the message.|
+C Staying Hidden|QID|47525|M|68.62,46.50|QO|1|N|1/1 The Frogmarsh investigated|
+T Staying Hidden|QID|47525|M|68.59,46.75|N|To Witch Doctor Zentimo.|
+A Hunt the Hunter|QID|47659|M|68.59,46.75|N|From Witch Doctor Zentimo.|
+A Fallen Idols|QID|47660|M|68.59,46.75|N|From Witch Doctor Zentimo.|
+C Fallen Idols|QID|47660|M|68.92,51.66|QO|1|NC|S|N|Retrieve the  Stolen Idols of Krag'wa as  you go.|
+A A Poisonous Touch|QID|48402|M|69.16,50.51|N|From Mag'ash the Poisonous.|
+C A Poisonous Touch|QID|48402|M|68.71,49.57|QO|1|S|N|Use special action button to poison trolls (preferably from a distance so they don't interrupt you.)|
+K Hunt the Hunter|QID|47659|M|68.28,51.75|QO|1|T|Warmother Boatema|N|Kill Warmother Boatema.|
+C A Poisonous Touch|QID|48402|M|68.71,49.57|QO|1|US|N|Finish poisoning the Bloodhunter Trolls.|
+C Fallen Idols|QID|47660|M|68.92,51.66|NC|US|N|Finish retrieving the Stolen Idols.|
+T Hunt the Hunter|QID|47659|M|75.49,56.69|N|To Krag'wa the Huge.|
+T A Poisonous Touch|QID|48402|M|75.49,56.69|N|To Krag'wa the Huge.|
+T Fallen Idols|QID|47660|M|75.49,56.69|N|To Krag'wa the Huge.|
+A The Last Witch Doctor of Krag'wa|QID|47623|M|75.49,56.69|N|From Krag'wa the Huge.|
+C The Last Witch Doctor of Krag'wa|QID|47623|M|75.13,56.68|QO|1|NC|N|Click the Scepter of Rebirth.|
+C The Last Witch Doctor of Krag'wa|QID|47623|M|75.13,56.68|QO|2|NC|N|Click Zintimo to perform the Ritual.|
+T The Last Witch Doctor of Krag'wa|QID|47623|M|75.46,56.79|N|To Krag'wa the Huge.|
+A A True Loa Feast|QID|47621|M|75.46,56.79|N|From Krag'wa the Huge.|
+A A Magical Glow|QID|47622|M|75.46,56.79|N|From Krag'wa the Huge.|
+C A True Loa Feast|QID|47621|M|75.95,45.97|QO|1|S|N|Kill creatures in the area and loot their meat as you go.|
+C A Magical Glow|QID|47622|M|74.25,48.19|QO|1|U|151237|NC|S|N|Use the Glowfly bottle to capture the Beautiful Glowflies.|
+K Kill Lo'kuno|QID|50355|M|77.26,45.92|N|Silver Elite to kill for Treasure and Resources.|ITEM|16111||
+$ Patially Digested Treasure|QID|50061|M|77.89,46.38|QO|1|N|This chest is found beside a dead Riverbeast. Loot for treasure and resources.|
+C A Magical Glow|QID|47622|M|74.25,48.19|QO|1|U|151237|NC|US|N|Finish collecting the Beautiful Glowflies.|
+C A True Loa Feast|QID|47621|M|75.95,45.97|US|N|Finish collecting meat for Krag'wa.|
+T A True Loa Feast|QID|47621|M|75.44,56.72|N|To Krag'wa the Huge.|
+T A Magical Glow|QID|47622|M|75.44,56.72|N|To Krag'wa the Huge.|
+A Totemic Restoration|QID|47540|M|75.44,56.72|N|From Krag'wa the Huge.|
+C Totemic Restoration|QID|47540|M|75.17,56.68;75.32,56.37;75.66,56.36|CC|QO|1|NC|N|Click on the 3 Frog Totem Piles around Krag'wa.|
+T Totemic Restoration|QID|47540|M|75.52,56.74|N|To Krag'wa the Huge.|
+A Krag'wa the Terrible|QID|47696|M|75.52,56.74|N|From Krag'wa the Huge.|
+C Krag'wa the Terrible|QID|47696|M|67.40,55.90|QO|1|CHAT|N|Tell Krag'wa that you are ready to help his wreak vengeance.|
+C Krag'wa the Terrible|QID|47696|M|64.28,58.57|QO|2|NC|N|"1" lets you jump forward causing AE damage where you land. \n"2" does AE damage in a cone in front of you.|
+C Krag'wa the Terrible|QID|47696|M|59.88,53.34|QO|3|NC|N|One final target.|
+T Krag'wa the Terrible|QID|47696|M|75.45,56.73|N|To Krag'wa the Huge.|
+A To Serve Krag'wa|QID|47918|M|75.45,56.73|N|From Krag'wa the Huge.|
+A Krag'wa's Aid|QID|47697|M|75.18,56.64|N|From Shadow Hunter Mutumba.|
+T To Serve Krag'wa|QID|47918|M|77.78,53.18|N|To Shadow Hunter Narez.|
+A Krag'wa's Chosen|QID|48090|M|77.78,53.18|N|From Shadow Hunter Narez.|
+A Nagating the Threat|QID|48093|M|77.78,53.18|N|Bonus Objective - Autoaccepted.|LVL|-120|
+A Vengeance of the Frogs|QID|48092|M|77.78,53.18|QO|3|U|158071|NC|N|From Shadow Hunter Narez.|
+C Nagating the Threat|QID|48093|M|77.78,53.18|S|N|Bonus Objective - Kill Naga, release frogs from the cages, etc to complete the bonus objective.|
+C Krag'wa's Chosen|QID|48090|M|79.38,53.84|QO|1|NC|N|Throw the potion at Wok'grug the Clever.|
+C Krag'wa's Chosen|QID|48090|M|82.35,55.68|QO|1|U|158071|NC|N|Throw the potion on  Wag'shash the Bold.|
+C Vengeance of the Frogs|QID|48092|M|85.11,54.95|QO|1|N|Kill Priestess Zaldraxia.|
+C Krag'wa's Chosen|QID|48090|M|80.37,50.27|QO|2|NC|N|Throw the potion on Krol'dra the Wise.|
+C Nagating the Threat|QID|48093|M|80.35,54.85||US|N|Time to finish up the Bonus Objective.|
+T Nagating the Threat|QID|48093|M|80.35,54.85|N|Bonus Objective - Autocompleted.|
+T Krag'wa's Chosen|QID|48090|M|77.74,53.17|N|To Shadow Hunter Narez.|
+T Vengeance of the Frogs|QID|48092|M|77.74,53.17|N|To Shadow Hunter Narez.|
+C Krag'wa's Aid|QID|47697|M|67.53,42.98|QO|1|NC|N|Return to Gloom Hollow.|
+
+T Getting the Message|QID|47245|M|67.44,42.31|N|To Rokhan.|
+A Rendezvous with the Libation|QID|47631|M|67.44,42.31|N|From Rokhan.|
+T Krag'wa's Aid|QID|47697|M|67.43,42.21|N|To Princess Talanji.|
+
+;side trip for a battle pet
+A A Chance Sighting|QID|50934|M|66.82,41.91|N|From Yash.|RANK|3|
+T A Chance Sighting|QID|50934|M|64.00,50.40|N|To Guard Satao.|
+A Aid the Wounded|QID|49366|M|64.00,50.40|QO|1|U|153676|NC|N|From Guard Satao.|PRE|50934|
+C Aid the Wounded|QID|49366|M|64.00,50.40|N|Antidote administered.|U|153676|
+T Aid the Wounded|QID|49366|M|63.16,52.69|N|To Guard Satao.|
+A Rescue the Chronicler|QID|49370|M|63.16,52.69|N|From Guard Satao.|PRE|49366|
+A Bad Juju|QID|49380|M|63.16,52.69|N|From Guard Satao.|PRE|49366|
+A Off With Her Head|QID|49377|M|63.16,52.69|QO|1|NC|N|From Guard Satao.|PRE|49366|
+C Rescue the Chronicler|QID|49370|M|62.54,53.54|N|Click on the cage anchor to release Chronicler Jabari.|
+T Rescue the Chronicler|QID|49370|M|62.72,53.59|N|To Chronicler Jabari.|
+A Earn Their Trust|QID|49378|M|62.72,53.59|N|From Chronicler Jabari.|PRE|49370|
+A Crawg Free Zone|QID|49379|M|62.72,53.59|QO|2|U|153678|NC|N|From Chronicler Jabari.|PRE|49370|
+C Earn Their Trust|QID|49378|M|61.77,52.79|QO|1|N|Click on one of the Crawgling to bond with it.|
+C Crawg Free Zone|QID|49379|M|61.53,56.49|S|QO|1|N|Kill Battle Crawgs as you go.|
+C Bad Juju|QID|49380|M|60.17,53.47|QO|1|U|153678|NC|N|Use the sample bottle to drain the Western Blood Orb.|
+C Bad Juju|QID|49380|M|60.49,55.97|QO|2|U|153678|NC|N|Use the Sample Bottle to drain the Southern Blood Orb.|
+K Kill Warmother Nagla|QID|49377|M|62.19,57.25|QO|1|T|Warmother Nagla|N|Loot Nagla's Head|
+C Bad Juju|QID|49380|M|62.20,54.40|QO|3|U|153678|NC|N|Use the Sample Bottle to drain the Eastern Blood Orb.|
+C Crawg Free Zone|QID|49379|M|61.53,56.49|S|QO|1|N|Finish your quota of Battle Crawg.|
+C Earn Their Trust|QID|49378|M|60.75,58.29|N|Finish feeding your Crawgling.|
+T Bad Juju|QID|49380|M|63.16,52.70|N|To Guard Satao.|
+T Off With Her Head|QID|49377|M|63.16,52.70|N|To Guard Satao.|
+T Earn Their Trust|QID|49378|M|63.18,52.73|N|To Chronicler Jabari.|
+T Crawg Free Zone|QID|49379|M|63.18,52.73|N|To Chronicler Jabari.|
+A It Seems You've Made a Friend|QID|49382|M|63.18,52.73|T|Glompjaw|N|From Chronicler Jabari.|
+K Kill Glompjaw|QID|50496|M|68.94,55.84|QO|1|NC|N|Silver Elite to kill for treasure and resources.|;QID from wowhead, may be wrong
+C It Seems You've Made a Friend|QID|49382|M|74.71,55.89|N|Run to Krag'wa.|
+T It Seems You've Made a Friend|QID|49382|M|75.46,56.72|N|To Krag'wa the Huge.|
+
+R WHEREVER|ACTIVE|47631|N|PUT RUN STEP HERE.|
+C Rendezvous with the Libation|QID|47631|M|74.41,39.30|QO|1|NC|N|Click on Patch.|
+T Rendezvous with the Libation|QID|47631|M|74.58,38.84|N|To Patch.|
+A No Goblin Left Behind|QID|47597|M|74.58,38.84|N|From Patch.|
+A Revenge: Served Hot|QID|47599|M|74.78,39.04|N|From Tocler.|
+A The Libation's Liberation|QID|47756|M|75.05,37.17|N|Bonus Objective - Autoaccepted.|LVL-120|
+C The Libation's Liberation|QID|47756|M|75.05,37.17|S|N|Bonus Objective - Kill Naga and bandage injured soldiers to complete.|
+C Revenge: Served Hot|QID|47599|M|79.96,32.26|QO|1|U|151363|NC|S|N|Target a Vilescale Behemoth and use the provided Rocket Laucher as you go.|
+K Kill Krubbs|QID|48052|M|75.85,36.22|QO|1|N|Silver Elite to kill for Treasure and Resources.|
+$ Lucky Horace's Lucky Chest|QID|49867|M|77.66,36.14|N|Loot for treasure and Resources.|
+C No Goblin Left Behind|QID|47597|M|76.99,32.66|QO|1|NC|N|Kill his torturers, then click on Grit to rescue.|
+C No Goblin Left Behind|QID|47597|M|79.97,32.35|QO|3|NC|N|Click on the cage to recuse Volt.|
+C No Goblin Left Behind|QID|47597|M|79.30,36.73|QO|2|NC|N|Click on the escape pod to rescue Newt.|
+C Revenge: Served Hot|QID|47599|M|79.96,32.26|NC|US|N|Target a Vileschale Behemoth and use the Rocket Launcher.|
+C The Libation's Liberation|QID|47756|M|78.37,30.34|US|N|Bonus Obective - Complete by killing Naga and Bandaging Sailors.|
+T The Libation's Liberation|QID|47756|M|78.37,30.34|N|Bonus Objective - Autocompleted.|
+f Forlorn Ruins|QID|47756|M|82.15,26.70|N|At Zibir the Wingmaster.|
+T Revenge: Served Hot|QID|47599|M|82.39,27.18|N|To Ticker.|
+T No Goblin Left Behind|QID|47597|M|82.37,27.31|N|To Patch.|
+A Head of the Viper|QID|47711|M|82.37,27.31|N|From Patch.|
+A Pilfering and Fencing|QID|47598|M|82.27,27.42|N|From Newt.|
+A There Is No Plan "B"|QID|47596|M|82.38,27.21|N|From Ticker.|
+C Pilfering and Fencing|QID|47598|M|77.90,24.88|QO|1|S|N|Kill Naga and loot them to obtain the Ancient Titan Relics as you go.|
+$ Cused Treasure Chest|QID|48057|M|81.78,30.53|QO|1|N|Kill Captain Mu'kala to spawn his cursed chest. Loot it for treasure and resources.|ITEM|161115|
+C There Is No Plan "B"|QID|47596|M|79.16,27.42|QO|2|NC|N|Pick up Broken Elevating Gears.|
+C Head of the Viper|QID|47711|M|78.67,25.28|QO|1|N|Kill Lord Slithin.|
+C There Is No Plan "B"|QID|47596|M|77.63,25.28|QO|1|NC|N|Pick up the Damaged A.M.O.D. Barrel|
+C There Is No Plan "B"|QID|47596|M|79.55,22.23|QO|3|NC|N|Pick up the Shattered Firing Mechanism.|
+C Pilfering and Fencing|QID|47598|M|80.45,23.86|US|N|Finish collecting the Ancient Titan Relics.|
+T Pilfering and Fencing|QID|47598|M|82.28,27.41|N|To Newt.|
+T There Is No Plan "B"|QID|47596|M|82.40,27.22|N|To Ticker.|
+T Head of the Viper|QID|47711|M|82.37,27.32|N|To Patch.|
+A Field Evaluation|QID|47601|M|82.37,27.32|N|From Unknown.|
+C Field Evaluation|QID|47601|M|81.45,26.02|QO|1|NC|N|Hop on the  A.M.O.D.|
+C Field Evaluation|QID|47601|M|81.45,26.02|NC|N|Target groups of Naga and use the "1" key until it quits being active, then use the "2" key. Once Grobathan appears. Target him and use the 3 key.|
+T Field Evaluation|QID|47601|M|81.35,26.09|N|To Patch.|
+A Ready For Action|QID|47602|M|81.35,26.09|N|From Patch.|
+C Ready For Action|QID|47602|M|81.27,26.28|QO|1|NC|N|Obtain ride from Newt's Emergency Rocket (Optional)|
+C Ready For Action|QID|47602|M|67.27,42.78|QO|2|N|Return to Talanji|
+T Ready For Action|QID|47602|M|67.42,42.24|N|To Princess Talanji.|
+A Slumber No More|QID|49932|M|67.50,41.95|N|From Lashk.|
+
+C WANTED: Ayame|QID|52477|M|58.73,35.00|QO|1|T|Ayame|N|Kill Ayame. Avoid, interrupt or dispell the acid spit and its not too hard.|
+C Slumber No More|QID|49932|M|66.91,38.83|QO|1|NC|N|Click on the Deactivated titan keeper.|
+C Slumber No More|QID|49932|M|66.98,38.81|QO|2|NC|N|Click on the Damaged Core.|
+C Slumber No More|QID|49932|M|66.92,38.86|QO|3|NC|N|Click on the now Awakened Titan Keeper Hezrel.|
+T Slumber No More|QID|49932|M|66.89,38.92|N|To Titan Keeper Hezrel.|
+A Recovering Remnants|QID|49937|M|66.89,38.92|N|From Titan Keeper Hezrel.|
+A Corrupted Earth|QID|49938|M|66.89,38.92|N|From Titan Keeper Hezrel.|
+A How to Repair a Titan Keeper|QID|49935|M|66.89,38.92|N|From Titan Keeper Hezrel.|
+C Recovering Remnants|QID|49937|M|67.51,33.74|S|N|Kill the Nazwathan Spectres to collect the titan plating.|
+C Corrupted Earth|QID|49938|M|65.75,35.00|S|N|Kill Blood-Infused Lashers as you go.|
+C How to Repair a Titan Keeper|QID|49935|M|69.25,39.77|QO|1|NC|N|Pick up Keeper Shavras's core.|
+C How to Repair a Titan Keeper|QID|49935|M|66.20,33.66|QO|2|N|Defeat Keeper Bolcan and then collect his core.|
+C Corrupted Earth|QID|49938|M|65.75,35.00|QO|1|US|N|Finish wiping out the Blood-Infused Lashers.|
+C Recovering Remnants|QID|49937|M|67.51,33.74|US|N|Finish collecting the Titan Plating.|
+T Recovering Remnants|QID|49937|M|68.69,35.12|N|To Titan Keeper Hezrel.|
+T Corrupted Earth|QID|49938|M|68.69,35.12|N|To Titan Keeper Hezrel.|
+T How to Repair a Titan Keeper|QID|49935|M|68.69,35.12|N|To Titan Keeper Hezrel.|
+A Bone Procession|QID|49941|M|68.69,35.12|N|From Titan Keeper Hezrel.|
+A Unwelcome Undead|QID|49949|M|68.69,35.12|N|From Titan Keeper Hezrel.|
+A Blood Purification|QID|49950|M|69.22,33.77|N|From Minor Corruption.|
+K Kill Ancient Jawbreaker|QID|48063|M|67.58,29.77|N|Silver Elite to kill for treasure and resources.|
+C Bone Procession|QID|49941|M|71.58,32.83|QO|1|U|156528|N|Use the Titan Manipulater to weaken the Reanimated Monstrosities and collect thier bones when dead.|
+C Blood Purification|QID|49950|M|71.71,32.65|QO|1|NC|N|Click on the floating balls of Corrupted Energy to destroy them.|
+C Unwelcome Undead|QID|49949|M|70.23,33.75|QO|1|N|15/15 Nazwathan undead slain|
+T Bone Procession|QID|49941|M|68.66,35.12|N|To Titan Keeper Hezrel.|
+T Unwelcome Undead|QID|49949|M|68.66,35.12|N|To Titan Keeper Hezrel.|
+T Blood Purification|QID|49950|M|68.66,35.12|N|To Titan Keeper Hezrel.|
+A Not Fit for This Plane|QID|49955|M|68.66,35.12|N|From Titan Keeper Hezrel.|
+A Void is Prohibited|QID|49956|M|68.66,35.12|N|From Titan Keeper Hezrel.|
+A Protocol Recovery|QID|49957|M|68.66,35.12|N|From Titan Keeper Hezrel.|
+C Not Fit for This Plane|QID|49955|M|71.10,29.58|QO|1|S|N|Kill Faceless Ones as you proceed towards the Seal of Nazmir. *large building*|
+C Void is Prohibited|QID|49956|M|70.95,29.09|QO|1|U|156542|NC|N|Use the Void Disrupter to seal the Void Portals.|
+C Not Fit for This Plane|QID|49955|M|71.10,29.58|QO|1|US|N|Finish off the Faceless Ones before you go inside.|
+C Protocol Recovery|QID|49957|M|72.58,29.16|N|Kill Overlord Kraxis to recover the Containment Protocol.|
+T Not Fit for This Plane|QID|49955|M|72.47,29.38|N|To Titan Keeper Hezrel.|
+T Void is Prohibited|QID|49956|M|72.47,29.38|N|To Titan Keeper Hezrel.|
+T Protocol Recovery|QID|49957|M|72.47,29.38|N|To Titan Keeper Hezrel.|
+A Containment Procedure|QID|49980|M|72.47,29.38|N|From Titan Keeper Hezrel.|
+C Containment Procedure|QID|49980|M|72.47,29.38|QO|1|CHAT|N|Tell Titan Keeper Hezrel to begin and watch the scene.|
+C Containment Procedure|QID|49980|M|72.85,28.99|QO|2|N|Defeat Grand Ma'da Ateena.|
+T Containment Procedure|QID|49980|M|72.47,29.37|N|To Titan Keeper Hezrel.|
+A Return to Gloom Hollow|QID|49985|M|72.47,29.37|N|From Titan Keeper Hezrel.|
+C Return to Gloom Hollow|QID|49985|M|66.01,39.13|QO|1|NC|N|Hop on Titan Keeper Hezrel for a ride back to Gloom Hollow.|
+T Return to Gloom Hollow|QID|49985|M|67.43,42.23|N|To Princess Talanji.|
+A Down by the Riverside|QID|49569|M|67.43,42.23|N|From Princess Talanji.|
+T WANTED: Ayame|QID|52477|M|67.76,41.85|N|To Korkush.|
+
+C Down by the Riverside|QID|49569|M|65.70,45.09|QO|1|CHAT|N|Speak with Patch to board the barge|
+C Down by the Riverside|QID|49569|M|39.89,84.92|QO|2|NC|N|Use the "1" key to destroy enemies as you sail down the river, at one point, near zuldazr, use the "2" key to destroy the big water serpant. Then, it's back to the "1" key for the rest of the ride.|
+T WANTED: Tojek|QID|51089|M|39.12,79.87|N|To Rovash the One Eyed.|
+T Down by the Riverside|QID|49569|M|39.41,78.17|N|To Princess Talanji.|
+A Rally the Warriors|QID|50076|M|39.41,78.17|N|From Princess Talanji.|
+C Rally the Warriors|QID|50076|M|39.37,77.48|QO|1|NC|N|Click the Ancient Gong. then listen to the Princess' speech.|
+T Rally the Warriors|QID|50076|M|39.33,77.68|N|To Princess Talanji.|
+A The Battle of Bloodfire Ravine|QID|50138|M|39.33,77.68|N|From Princess Talanji.|
+
+;pulled this lost part out of recorder... I'm sure there are still errors.
+R Bloodfire Ravine|QID|50138|ACTIVE|50138|M|41.93,74.12|
+C The Battle of Bloodfire Ravine|QID|50138|M|42.25,72.63|QO|1|NC|N|Meet Talanji at Bloodfire Ravine.|
+A Undying Totems|QID|50078|M|42.29,72.64|N|From Princess Talanji.|
+C The Battle of Bloodfire Ravine|QID|50138|M|43.18,72.56|QO|2|S|N|Kill Blood Trolls as you go.|
+C Undying Totems|QID|50078|M|43.99,69.77|N|Destroy the Reanimating Totems.|
+T Undying Totems|QID|50078|M|44.03,70.02|N|To Princess Talanji.|
+C The Battle of Bloodfire Ravine|QID|50138|M|43.18,72.56|QO|2|US|N|Finish your quota of Blood Trolls.|
+C The Battle of Bloodfire Ravine|QID|50138|M|44.80,68.91|QO|3|N|Kill Warmother Molaka.|
+T The Battle of Bloodfire Ravine|QID|50138|M|44.96,68.60|N|To Princess Talanji.|
+A The Road of Pain|QID|50081|M|44.96,68.60|N|From Princess Talanji.|
+A Boom goes the Bomb|QID|50079|M|44.98,68.34|N|From Patch.|
+C The Road of Pain|QID|50081|M|44.02,63.98|NC|S|N|Click on the prostrate Zandalari Soldiers to heal them.|
+C Boom goes the Bomb|QID|50079|M|44.37,67.21|QO|1|U|156847|NC|N|Use the smoke grenade to mark the first barricade.|
+C Boom goes the Bomb|QID|50079|M|44.07,65.52|QO|2|U|156847|NC|N|Use the smoke grenade to mark the second barricade.|
+C The Road of Pain|QID|50081|M|44.02,63.98|NC|US|N|Finish healing the Zandalari Soldiers.|
+C Boom goes the Bomb|QID|50079|M|44.02,63.98|QO|3|U|156847|NC|N|Use the smoke grenade to mark the third Barricade.|
+T The Road of Pain|QID|50081|M|44.19,62.85|N|To Princess Talanji.|
+T Boom goes the Bomb|QID|50079|M|44.19,62.85|N|To Princess Talanji.|
+A Target of Opportunity|QID|50082|M|44.19,62.85|N|From Princess Talanji.|;?
+C Target of Opportunity|QID|50082|M|44.98,60.97|QO|1|CHAT|N|Tell Talanji you are ready.|
+C Target of Opportunity|QID|50082|M|45.47,60.24|QO|2|N|Confront Grand Ma'da Ateena.|
+T Target of Opportunity|QID|50082|M|45.21,60.54|N|To Princess Talanji.|
+A Petitioning Krag'wa|QID|52073|M|45.21,60.54|N|From Princess Talanji.|;?recorder had unknown
+C Petitioning Krag'wa|QID|52073|M|45.18,60.70|CHAT|N|Petition Krag'wa for aid.|
+T Petitioning Krag'wa|QID|52073|M|49.39,57.19|N|To Princess Talanji.|
+A Ateena's Fall|QID|50087|M|49.39,57.19|N|From Princess Talanji.|
+C Ateena's Fall|QID|50087|M|51.88,60.59|QO|1|N|Chase Grand Ma'da Ateena around the top of the building avoiding the pools of corruption and damaging her.|
+T Ateena's Fall|QID|50087|M|50.60,58.46|N|To Princess Talanji.|
+A What Rots Beneath|QID|51244|M|50.51,58.34|N|From Rokhan.|
+C What Rots Beneath|QID|51244|M|50.45,58.33|QO|1|NC|N|Fly down to the Altar of Rot (Optional)|
+C What Rots Beneath|QID|51244|M|51.73,65.69|QO|2|NC|N|Run down the hill to find Titan Keeper Hezrel and speak to him.|
+T What Rots Beneath|QID|51244|M|51.73,65.69|N|To Titan Keeper Hezrel.|
+A The Underrot: Sealing G'huun's Corruption|QID|51302|M|51.73,65.69|N|From Titan Keeper Hezrel. This is a dungeon quest.|
+A Halting the Empire's Fall|QID|50808|M|51.91,65.56|N|From Rokhan.|
+F Zul'jan Ruins|QID|50808|M|51.91,65.56|N|Queue if you want to do the dugeon now or ask Rokhan for a ride back to Zul'jan. Alternatively check this off manually and hearth to The Great Seal.|
+H The Great Seal|ACTIVE|50808|M|51.91,65.56|N|To the great seal to turn in the final quest.|
+T Halting the Empire's Fall|QID|50808|M|41.33,73.08|N|To Baine Bloodhoof.|
 ]]
 end)
