@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2018-08-08 21:31
+-- Who: Ludovicus_Maior
+-- Log: commas, not semis!
+
+-- URL: http://wow-pro.com/node/3776/revisions/29487/view
+-- Date: 2018-08-08 21:30
+-- Who: Ludovicus_Maior
+-- Log: Add back in first line!
+
+-- URL: http://wow-pro.com/node/3776/revisions/29486/view
+-- Date: 2018-08-08 20:43
+-- Who: Ludovicus_Maior
+-- Log: Playthrough on Live
+
+-- URL: http://wow-pro.com/node/3776/revisions/29485/view
+-- Date: 2018-08-07 20:18
+-- Who: Emmaleah
+-- Log: updated quest triggers.
+
+-- URL: http://wow-pro.com/node/3776/revisions/29483/view
+-- Date: 2018-08-07 19:23
+-- Who: Emmaleah
+-- Log: very minor adjustments, add next weeks content.
+
+-- URL: http://wow-pro.com/node/3776/revisions/29471/view
 -- Date: 2018-08-02 09:56
 -- Who: Emmaleah
 -- Log: Figured out how to make A flicker of Hope stay checked off.
@@ -107,7 +132,7 @@ local guide = WoWPro:RegisterGuide('BurnTedrazilSTrek', 'Leveling', 'Azeroth', '
 WoWPro:NewGuideLevels(guide,110, 110, 110.5)
 WoWPro:GuideName(guide,'Battle for Azeroth Intro')
 WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
-WoWPro:GuideQuestTriggers(guide, 52058)
+WoWPro:GuideQuestTriggers(guide, 52058,53370,53026)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -115,7 +140,7 @@ return [[
 N Story order|AVAILABLE|52058|N|This is the pre-patch guide for BFA. To follow the correct story line, start with "A Short-Lived Peace".|
 N Wrong story order|ACTIVE|53370|LEAD|52060|N|You have accepted "Hour of Reckoning" quest but to understand why you go to battle, we suggest to do the quest line that starts with "A Short-Lived Peace" first.|
 
-A A Short-Lived Peace|QID|52058|N|A requst from your king will come automatically from UI when you log in first time in pre-patch.|
+A A Short-Lived Peace|QID|52058|N|A request from your king will come automatically from UI when you log in first time in pre-patch.|
 R Stormwind Keep|ACTIVE|52058|M|82.24,28.26|Z|Stormwind City|N|Your King summons you. So get to Stormwind Keep as fast as possible!|
 T A Short-Lived Peace|QID|52058|M|85.61,31.67|Z|Stormwind City|N|To Anduin Wrynn at the trone room.|
 A The Horde Uprising|QID|52060|M|85.61,31.67|Z|Stormwind City|N|From Anduin Wrynn.|PRE|52058|
@@ -148,8 +173,8 @@ A Garden Grove|QID|52240|M|43.37,75.52|Z|Darkshore|N|From Captain Delaryn Summer
 K Monstrous Shredder|QID|52240|M|44.36,75.26|Z|Darkshore|QO|1|N|Defeat the Monstrous Shredder. Boss fight.|
 T Garden Grove|QID|52240|M|45.16,74.94|Z|Darkshore|N|To Captain Delaryn Summermoon and enjoy the ingame sequence.|
 
-A Enraged Furbolgs|QID|52245|M|45.41,74.85|Z|Darkshore|N|From Onu.|PRE|52240|
-R Blackwood Den|AVAILABLE|53551|M|45.53,80.25|Z|Darkshore|N|Go to Blackwood Den.|
+A Enraged Furbolgs|QID|52245|M|45.26,74.90|Z|Darkshore|N|From Onu.|PRE|52240|
+R Blackwood Den| AVAILABLE | 53551 |M|45.53,80.25|Z|Darkshore|N|Go to Blackwood Den.|
 A Elves in the Machine|QID|53551|M|45.13,81.28|Z|Darkshore|N|From Captain Delaryn Summermoon who will come with you when arriving at Blackwood Den.|PRE|52240|
 C Elves in the Machine|QID|53551|QO|1|NC|N|Delaryn travels with you and provides a stealth circle (No stealth if mounted). Target a nearby guard and move so that your stealth circle includes the guard, then use the special action button. It's ok if more than one guard is in the circle. (but only one will be taken out at a time.) Sabotage 5 Horde Demolishers by clicking them and get away for the BOOM!|S|
 C Gren Tornfur|QID|52245|M|46.59,83.86|Z|Darkshore|QO|2|CHAT|N|Rescue Gren Tornfur.|
@@ -158,10 +183,10 @@ C Elder Brolg|QID|52245|M|43.55,81.01|Z|Darkshore|QO|1|NC|N|Rescue Elder Brolg.|
 C Elves in the Machine|QID|53551|NC|N|Time to finish off sabatoging the Horde Demolishers and poisoning the guards.|US|M|46.49,86.53|Z|Darkshore|
 T Elves in the Machine|QID|53551|Z|Darkshore|N|To Captain Delaryn Summermoon next to you. (this will not drop the stealth field)|
 
-T Enraged Furbolgs|QID|52245|M|45.41,74.85|Z|Darkshore|N|To Onu.|
-A The Wake of Something New|QID|52242|M|45.41,74.85|Z|Darkshore|N|From Onu.|PRE|52245;53551|
+T Enraged Furbolgs|QID|52245|M|45.32,74.87|Z|Darkshore|N|To Onu.|
+A The Wake of Something New|QID|52242|M|45.32,74.87|Z|Darkshore|N|From Onu.|PRE|52245;53551|
 
-R Nazj'vel|ACTIVE|52242|M|34.63,85.18|Z|Darkshore|N|Fly over to the island of Nazj'vel to find the source of Onu's pain.|
+R Nazj'vel|ACTIVE|52242|M|34.68,85.12|Z|Darkshore|N|Fly over to the island of Nazj'vel to find the source of Onu's pain.|
 C The Wake of Something New|QID|52242|M|34.63,85.18|Z|Darkshore|QO|1|NC|N|Click on the source of Onu's pain and discover what it is.|
 T The Wake of Something New|QID|52242|M|34.73,85.11|Z|Darkshore|N|To Captain Delaryn Summermoon next to you.|
 A Azerite Denial|QID|53619|M|34.73,85.11|Z|Darkshore|N|From Captain Delaryn Summermoon.|PRE|52242|
@@ -225,15 +250,15 @@ T From the Ashes...|QID|53310|M|85.82,31.61|Z|Stormwind City|N|To Anduin Wrynn.|
 
 ;battle for Lordaeron by Emmaleah
 
-A Hour of Reckoning|QID|53370|N|Autoaccepted upon arriving in Stormwind (after quest is released, presumed to be August 7, 2018).|LEAD|51795|;or perhaps upon logging in anywhere?
-T Hour of Reckoning|QID|53370|M|22.37,32.42|Z|Stormwind City|N|To Master Mathias Shaw.|
+A Hour of Reckoning|QID|53370|N|Autoaccepted upon loggin in. Target buttons are included to assist with the crowds, then if you have "Interact with target keybound you will find it easier in the press of people.|LEAD|51795|;or perhaps upon logging in anywhere?
+T Hour of Reckoning|QID|53370|M|22.37,32.42|Z|Stormwind City|N|To Master Mathias Shaw.|T|Master Mathias Shaw
 A The Battle for Lordaeron|QID|51795|M|22.37,32.42|Z|Stormwind City|N|From Master Mathias Shaw.|
-C The Battle for Lordaeron|QID|51795|M|22.22,32.53|Z|Stormwind City|QO|1|CHAT|N|Tell Captain Angelica, at the Stormwind docks you are ready to sail and start the scenario.|
+C The Battle for Lordaeron|QID|51795|M|22.22,32.53|Z|Stormwind City|QO|1|CHAT|N|Tell Captain Angelica, at the Stormwind docks you are ready to sail and start the scenario.|T|Captain Angelica|
 
 C Follow Hammond Clay|QID|51795|M|51.51,18.92|Z|Ruins of Lordaeron!Instance|SO|1;1|NC|N|Run south.|
 C Charge the battlefield with Genn|QID|51795|M|47.03,53.37|Z|Ruins of Lordaeron!Instance|SO|1;2|N|After the gates open, charge the battlefield with Genn|
 
-C Clearing the Way|QID|51795|M|46.72,58.88|Z|Ruins of Lordaeron!Instance|SO|2|S|N|Siege Towers Defended. Someone has to kill a Shredder and four Demolishers to move to next step.|
+C Clearing the Way|QID|51795|M|46.72,58.88|Z|Ruins of Lordaeron!Instance|SO|2|S|N|Siege Towers Defended. Someone has to kill a Shredder, rescue a gnome mage, and destroy four Demolishers to move to next step.|
 C Horde Enemies Defeated|QID|51795|M|47.34,61.40|Z|Ruins of Lordaeron!Instance|SO|2;1|N|Horde Enemies Defeated|
 C Demolishers Defeated|QID|51795|M|47.34,61.40|Z|Ruins of Lordaeron!Instance|SO|2;2|N|Demolishers Defeated|
 C Cannonballs Collected|QID|51795|M|47.34,61.40|Z|Ruins of Lordaeron!Instance|SO|2;3|N|Cannonballs Collected|
@@ -254,8 +279,93 @@ C She's Getting Away!|QID|51795|M|51.99,76.09|Z|Ruins of Lordaeron!Instance|SO|1
 C The High Overlord.|QID|51795|M|47.85,73.50|Z|Ruins of Lordaeron!Instance|SO|13|N|Defeat High Overlord Saurfang and watch the vignette that follows.|
 C The Dark Lady|QID|51795|M|48.08,78.09|Z|Ruins of Lordaeron!Instance|SO|14|NC|N|Run into the Lordaeron throne room.|
 
-T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|
-N End of Pre-patch|QID|51795|N|This ends the prepatch guide. The story will continue in Batle For Azoroth on 13th August at 03:00pm PDT for America/14th August 00:00am CET for Europe 06:00 am CST for Asia and 08:00 am AEST for Australian.https://worldofwarcraft.com/en-gb/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all|
+T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|T|Halford Wyrmbane|
+N End of Pre-patch|QID|53026|N|This ends the prepatch guide. The story will continue in Batle For Azoroth on 13th August at 03:00pm PDT for America/14th August 00:00am CET for Europe 06:00 am CST for Asia and 08:00 am AEST for Australian.https://worldofwarcraft.com/en-gb/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all|
+
+A A Dying World|QID|53026|M|27.64,21.29|Z|Stormwind City|N|From an Earthen Messenger. If this quest isn't available, you need to do the pre-launch quests.|T|Earthen Messenger|
+R The Eastern Earthshrine|ACTIVE|53026|M|75.26,20.51|Z|Stormwind City|N|Mount up and fly over and use the Uldam portal for a shortcut to Silithus. Check off manually after you go thru the portal.|
+R Silithus: The Wound|ACTIVE|53026|M|68.36,86.30|Z|Silithus|N|Continue to Silithus to find Magni.|
+T A Dying World|QID|53026|M|42.23,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+A The Heart of Azeroth|QID|51211|M|42.12,44.19|Z|Silithus|N|From Magni Bronzebeard.|PRE|53026|
+C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the teleporter to travel to the Chamber of the Heart.|
+C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber Of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
+T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber Of Heart!Dungeon|N|To Magni Bronzebeard.|
+A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber Of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211|
+C Infusing the Heart|QID|52428|QO|1|M|52.32,58.14;55.48,60.73;54.70,69.61;48.32,73.66;45.13,62.64|CN|Z|Chamber Of Heart!Dungeon|NC|N|Go to several of the Azerite Cracks around the room and use your special action button.|
+C Infusing the Heart|QID|52428|QO|3|M|49.98,64.74|Z|Chamber Of Heart!Dungeon|NC|N|Move to the center of the room and use your special action button, wait until the bar fills.|
+T Infusing the Heart|QID|52428|M|50.23,53.83|Z|Chamber Of Heart!Dungeon|N|To Magni Bronzebeard.|
+A The Speakers Imperative|QID|51403|M|50.23,53.83|Z|Chamber Of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|52428|
+C The Speakers Imperative|QID|51403|M|50.10,30.39|Z|Chamber Of Heart!Dungeon|NC|N|Use the provided portal to return to Stormwind.|
+T The Speakers Imperative|QID|51403|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|
+A Tides of War|QID|46727|M|27.64,21.29|Z|Stormwind City|N|From Halford Wyrmbane.|PRE|51403|
+C Tides of War|QID|46727|QO|1|M|83.47,29.62;85.14,32.52|CS|Z|Stormwind City|NC|N|Fly to Stormwind Keep and go to the Throneroom and listen to the council.|
+C Tides of War|QID|46727|QO|2|M|85.03,32.64|NC|Z|Stormwind City|N|Click on the 'survivor's memories' hovering over his head.|
+T Tides of War|QID|46727|M|85.28,32.26|Z|Stormwind City|N|To Anduin Wrynn.|
+A The Nation of Kul Tiras|QID|46728|M|85.28,32.26|Z|Stormwind City|N|From Anduin Wrynn.|PRE|46727|
+R Stormwind Harbor|ACTIVE|46728|M|22.15,24.32|Z|Stormwind City|N|Fly back down to the docks.|
+C The Nation of Kul Tiras|QID|46728|M|22.15,24.32|Z|Stormwind City|CHAT|N|Tell Jaina you are ready to go.|
+
+T The Nation of Kul Tiras|QID|46728|M|65.59,50.75|Z|Boralus|N|To Lady Jaina Proudmoore.|
+A Daughter of the Sea|QID|51341|M|65.59,50.75|Z|Boralus|N|From Lady Jaina Proudmoore.|PRE|46728|
+T Daughter of the Sea|QID|51341|M|78.11,61.04|Z|Kul Tiras|N|To Flynn Fairwind.|
+A Out Like Flynn|QID|47098|M|78.11,61.04|Z|Kul Tiras|N|From Flynn Fairwind.|PRE|51341|
+C Punch Flynn|QID|47098|QO|1|M|78.07,61.01|Z|Kul Tiras|NC|N|Click on Flynn to punch him.|
+C Pull the Lever|QID|47098|QO|2|M|78.07,60.77|Z|Kul Tiras|NC|N|Click on the lever.|
+C Get Dressed|QID|47098|QO|3|M|78.08,60.96|Z|Kul Tiras|NC|N|Click on the Equipment Locker to recover your equipment.|
+C Take out the Warden|QID|47098|QO|4|M|77.73,61.52|Z|Kul Tiras|N|Assist in killing Block Warden Carmine.|T|Block Warden Carmine|
+C Gather Gunpowder|QID|47098|QO|5|M|77.90,61.48|Z|Kul Tiras|NC|N|Pick up the gun powder to cause more mayham.|
+C Blow the Cell Door|QID|47098|QO|6|M|77.80,61.34;77.86,61.04;77.87,60.53|CS|Z|Kul Tiras|NC|N|Click on the gate to place the gun powder.|
+C Into the sewers|QID|47098|QO|7|M|77.96,60.47;78.20,60.84;78.08,60.87;77.90,60.81;77.61,61.42|CS|Z|Kul Tiras|NC|N|Down the stairs and around the corner to the sewers.|
+C Board the boat|QID|47098|QO|8|M|77.85,61.71;78.22,61.01;79.03,60.81;78.84,59.90|CS|Z|Kul Tiras|NC|N|Follow the wall to your left till you eventually come to a rowboat, get in. Enjoy the ride and dialog.|
+T Out Like Flynn|QID|47098|M|75.66,25.47|Z|Tiragarde Sound|N|To Taelia.|
+
+A Get Your Bearings|QID|47099|M|75.66,25.47|Z|Tiragarde Sound|N|From Taelia.|PRE|47098|
+C Go to the Ferry Dock|QID|47099|QO|1|M|75.27,25.81|Z|Tiragarde Sound|NC|N|Pick up the Ferry "flight" point.|
+C Go to the Bank|QID|47099|QO|2|M|75.20,25.02;75.48,25.38;75.63,24.01|CS|Z|Tiragarde Sound|NC|N|Just up the stairs and you will find the bank.|
+;A A Load of Scrap|QID|52462|M|75.20,25.02;75.48,25.38;76.95,23.69|CS|Z|Tiragarde Sound|N|Up the stairs and to your right, from Crenzo Sparkshatter.|PRE|47098| - not in current build
+;C A Load of Scrap|QID|52462|M|76.95,23.55|Z|Tiragarde Sound|NC|N|Click on Crenzo's creation (behind him) and then click on the pants he gave you.|U|160267| - not in current build
+;T A Load of Scrap|QID|52462|M|76.95,23.69|Z|Tiragarde Sound|N|To Crenzo Sparkshatter.| - not in current build
+C Go to Snug Harbor Inn|QID|47099|QO|3|M|75.39,24.25;75.51,23.95;75.13,23.10|CS|Z|Tiragarde Sound|CHAT|N|The innkeeper up some more stairs. Set your hearthstone here. (there is a portal to Stormwind nearby).|
+C Go to the Flightmaster|QID|47099|QO|4|M|74.37,23.83;73.56,23.42|CS|Z|Tiragarde Sound|NC|N|Around the corner from the inn. Pick up the flight point.|
+T Get Your Bearings|QID|47099|M|74.42,24.61|Z|Tiragarde Sound|N|To Taelia. who is right beside you.|
+
+A The Old Knight|QID|46729|M|74.42,24.61|Z|Tiragarde Sound|N|From Taelia.|PRE|47099|
+C The Old Knight|QID|46729|QO|1|M|74.02,24.89;73.66,24.97;75.59,25.32|CS|Z|Tiragarde Sound|NC|N|Head down the stairs to the Harbor.|
+C The Old Knight|QID|46729|QO|2|M|73.80,25.06|Z|Tiragarde Sound|CHAT|N|Back into his office talk to Cyrus and then listen to his story.|
+T The Old Knight|QID|46729|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+A Sanctum of the Sages|QID|47186|M|73.84,25.10|Z|Tiragarde Sound|N|From Taelia.|PRE|46729|
+A Ferry Pass|QID|52128|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|46729|
+T Ferry Pass|QID|52128|M|73.80,25.07|Z|Tiragarde Sound|N|To Cyrus Crestfall.|
+C Sanctum of the Sages|QID|47186|QO|1|M|73.73,24.78;74.00,24.88;74.46,23.72|CS|Z|Tiragarde Sound|CHAT|N|Back up to the market level and first door on your left to find the mage.|
+T Sanctum of the Sages|QID|47186|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia, who apparently thinks you know your way around now and is waiting in Cyrus's office still.|
+
+A A Nation Divided|QID|47189|M|73.84,25.10|Z|Tiragarde Sound|N|From Taelia.|PRE|51403|
+T A Nation Divided|QID|47189|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+A The War Campaign|QID|52654|M|73.81,25.14|Z|Tiragarde Sound|N|From Genn Greymane.|PRE|47189|
+A Choose next adventure|QID|47962;47961;47960|M|73.89,25.12|Z|Tiragarde Sound|N|From the Scouting Map on the wall.|PRE|47189|
+;A Tiragarde Sound|QID|47960|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+;A Drustvar|QID|47961|M|70.52,27.15|Z|Boralus|N|From Halford Wyrmbane.|
+;A Stormsong Valley|QID|47962|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+
+t Tiragarde Sound|QID|47960|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+A The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|47960|
+C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the special action button.|
+T The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|To Flynn Fairwind.|
+A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|47181|
+
+t Drustvar|QID|47961|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+A The Vanishing Lord|QID|48622|M|73.84,25.09|Z|Tiragarde Sound|N|From Taelia.|PRE|47961|
+
+t Stormsong Valley|QID|47962|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+A The Missing Fleet|QID|47952|M|73.84,25.10|Z|Tiragarde Sound|N|From Taelia.|PRE|47962|
+
+A The War Campaign|QID|52654|M|67.09,23.53;69.26,26.99|CS|Z|Boralus|N|To Halford Wyrmbane.|
+
+J On to Tiragarde Sound|QID|47485|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Tiragarde Sound. That guide will auto load when you close this step.|GUIDE|EmmTiragarde|
+J On to Drustvar|QID|48622|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Drustvar. That guide will auto load when you close this step.|GUIDE|STrekDrustvar|
+J On to Stormsong Valley|QID|47952|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Stormsong Valley. That guide will auto load when you close this step.|GUIDE|Freitas_Stormsong|
+
+D The End|ACTIVE|52654|N|This ends the introduction to BFA, there is an option to skip for future characters on the same account.|
 
 ]]
 
