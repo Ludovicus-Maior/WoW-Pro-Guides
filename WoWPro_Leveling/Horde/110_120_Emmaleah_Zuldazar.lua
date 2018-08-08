@@ -1,4 +1,102 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2018-08-07 11:01
+-- Who: Emmaleah
+-- Log: Tested. Ready to go. Contains all needed for achievements for explore, treasure, rare mobs and of course the zone questing ach. The only thing left is PREs are not all consistantly entered. Leaving that for Grail to yell about. And Ranks not all done. (ie. things that ought to be rank 2 or 3 have not all been marked as such.) Also farming spots for Jani's shinys are not included. (The Jani quests are)
+
+-- URL: http://wow-pro.com/node/3762/revisions/29477/view
+-- Date: 2018-08-05 12:08
+-- Who: Emmaleah
+-- Log: Rearranged order of many areas. All rares now included. tested thru Gorilla Gorge. (about half way) Still needs RANKS/PREs
+
+-- URL: http://wow-pro.com/node/3762/revisions/29476/view
+-- Date: 2018-08-04 20:35
+-- Who: Emmaleah
+-- Log: Ttotal rewrite from the beginning. Some rearranging comments are included, for how I think it would flow better -- to test -- All Treasures, Exploration, and all but 4 rares (Syrawon, Bloodbulge, Darkspear Jo'la and Vukuba) are included. Ranks still WIP
+
+-- URL: http://wow-pro.com/node/3762/revisions/29387/view
+-- Date: 2018-07-03 02:45
+-- Who: Emmaleah
+-- Log: updated next guide
+
+-- URL: http://wow-pro.com/node/3762/revisions/29371/view
+-- Date: 2018-06-25 20:11
+-- Who: Emmaleah
+-- Log: adjust header and first few steps to match up with Intro Guide
+
+-- URL: http://wow-pro.com/node/3762/revisions/29317/view
+-- Date: 2018-05-25 18:58
+-- Who: Emmaleah
+-- Log: added source page header
+
+-- URL: http://wow-pro.com/node/3762/revisions/29313/view
+-- Date: 2018-05-14 23:56
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29307/view
+-- Date: 2018-05-13 05:53
+-- Who: Emmaleah
+-- Log: added standard text at top for Wiki page
+
+-- URL: http://wow-pro.com/node/3762/revisions/29299/view
+-- Date: 2018-05-12 16:33
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29298/view
+-- Date: 2018-05-12 16:24
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29297/view
+-- Date: 2018-05-12 16:21
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29296/view
+-- Date: 2018-05-12 16:18
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29294/view
+-- Date: 2018-05-11 16:28
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29288/view
+-- Date: 2018-05-10 19:34
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29286/view
+-- Date: 2018-05-10 18:43
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29285/view
+-- Date: 2018-05-10 18:19
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29284/view
+-- Date: 2018-05-10 18:06
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29283/view
+-- Date: 2018-05-10 17:54
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29282/view
+-- Date: 2018-05-10 17:47
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29281/view
+-- Date: 2018-05-10 16:16
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29280/view
+-- Date: 2018-05-10 15:24
+-- Who: Taronlock
+
+-- URL: http://wow-pro.com/node/3762/revisions/29278/view
+-- Date: 2018-05-10 14:51
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide('EmmZuldazar', 'Leveling', 'Zuldazar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
@@ -43,7 +141,7 @@ C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|1|CHAT|N|Speak with Toki.|
 C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|2|NC|N|Guide Loh to the First Goal.\n1 Turn Left\n2 Go Forward\n3 Turn Right|
 C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|3|NC|N|Guide Loh Through All the Points Without Crossing His Own Path. |
 T Make Loh Go|QID|52472|M|56.57,91.69|Z|Dazar'alor|N|To UI Alert.|
-K Da White Shark|QID|50948|QO|1|M|59.36,88.80|Z|Dazar'alor|N|Stand here (landing at top of the stairs) and irritate the Da White Shark until she attacks you. After she is dead, you can loot her treasure.|T|Da White Shark|
+K Da White Shark|QID|50948|QO|1|M|59.36,88.80|Z|Dazar'alor|N|Stand here (landing at top of the stairs) and irritate the Da White Sharkuntil she attacks you. After she is dead, you can loot her treasure.|T|Da White Shark|
 $ Da White Shark's Bounty|QID|50947|M|59.36,88.80|Z|Dazar'alor|N|After you kill Da White Shark, her treasure appears. Loot for azerite power and resources.|
 C The Word of Zul|QID|46846|M|51.53,91.14|Z|Dazar'alor|QO|1|N|Show Nokali the message, he is on the upper level.|
 C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|QO|1|NC|N|Finish stopping street scamps.|
@@ -341,7 +439,7 @@ A A Port in Peril|QID|49122|M|49.92,46.66|Z|Dazar'alor|N|From King Rastakhan.|
 
 F Port of Zandalar|ACTIVE|49122|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.|
 R The Mugambala|ACTIVE|49122|M|53.73,56.29|N|Run thru Mugambala and continue on the path to find Habutu and Zolani at Warport Rastari.|
-K Avatar of Xolotal|QID|49410|M|50.90,56.46;49.80,59.22;49.85,57.40|CS|QO|1|ITEM|161034|T|Avatar of Xolotal|N|This Silver Elite can be found in his den just off the path here. Kill and loot for azerite power and resources.|
+K Avatar of Xolotal|QID|49410|M|50.90,56.46;49.80,59.22;49.85,57.40|CS|QO|1|ITEM|161034|T|Avatar of Xolotal|N|This Silver Elite can be found in his den just off the path here.  Kill and loot for azerite power and resources.|
 f Warport Rastari|ACTIVE|49122|M|48.23,60.37|N|At Paku'ai Ja'nessa.|
 T A Port in Peril|QID|49122|M|47.90,60.44|N|To Zolani.|
 A Wrath of the Zandalari|QID|49144|M|47.90,60.44|N|From Zolani.|
@@ -422,7 +520,7 @@ f Temple of the Prophet|ACTIVE|49917|M|49.82,44.59|N|At Kaza the Skyblade.|
 R Old Merchant Road|ACTIVE|49917|M|49.21,44.98;50.68,46.27;51.01,44.39|CS|N|Back to the Old Merchant Road and follow it roughly north to the Temple of the Prophets.|
 A WANTED: Prime Thumpknuckle|QID|51072|M|51.62,45.43|N|From Wanted Poster.|
 A WANTED: Sabertusk Empress|QID|51071|M|51.62,45.43|N|From Wanted Poster.|
-K Prime Thumpknuckle|QID|51072|M|52.32,45.12|QO|1|T|Prime Thumpknuckle|N|Kill Prime Thumpknuckle. He wanders around a bit, his cave is located here. This is meant to be a group quest.|
+K Prime Thumpknuckle|QID|51072|M|52.32,45.12|QO|1|T|Prime Thumpknuckle|N|Kill Prime Thumpknuckle. He wanders around a bit, his cave is located here.  This is meant to be a group quest.|
 $ Riches of Tor'Nowa|QID|51624|M|52.22,48.17;52.94,47.20|CS|N|Take this small path to find some treasure. Loot for azerite power and resources.|
 
 R Village in the Vines|ACTIVE|49917|M|52.88,50.54|N|Run back to the Old Merchant Road and continue following it roughly south to The Village in the Vines.|
@@ -610,7 +708,7 @@ T Ancient Tortollan Remedies|QID|47735|M|76.44,16.17|N|To Jol the Ancient.|
 T The Scent of Vengeance|QID|47739|M|76.47,16.00|N|To Jamil Abul'housin.|
 A Mending Body and Soul|QID|51677|M|76.44,16.17|N|From Jol the Ancient.|
 C Mending Body and Soul|QID|51677|M|76.44,16.17|QO|1|CHAT|N|Tell Jol you are ready.|
-C Mending Body and Soul|QID|51677|M|76.46,16.07|QO|2|NC|N|Get the thing Jol asks for, they are all in this room and light up when he asks for it. Click on item, then click on Jol.|
+C Mending Body and Soul|QID|51677|M|76.46,16.07|QO|2|NC|N|Get the thing Jol asks for, they are all in this room and light up when he asks for it.  Click on item, then click on Jol.|
 T Mending Body and Soul|QID|51677|M|76.44,16.16|N|To Jol the Ancient.|
 A The Will of the Loa|QID|47738|M|76.47,15.99|N|From Jamil Abul'housin.|
 K Tambano|QID|50013|M|77.65,10.40|QO|1|T|Tambano|N|Silver Elite to kill for azerite power and resources.|;item dropped not on wowhead at this time
@@ -800,7 +898,7 @@ C Reach the Zocalo|ACTIVE|50954|M|53.41,31.66|Z|Zuldazar!Instance|SO|4|N|Ride Pa
 C Liberate the Zocalo|ACTIVE|50954|M|54.75,35.43|Z|Zuldazar!Instance|SO|5|N|Rescue the civilians of the Zocalo and slay the sethrak army there.|
 C Reach Dazar'alor|ACTIVE|50954|M|54.75,35.98|Z|Zuldazar!Instance|SO|6|N|Join Gonk and his pack at the bridge to Dazar'alor.|
 C Find King Rastakhan at the entrance to Dazar'alor.|ACTIVE|50954|M|55.27,38.09|Z|Zuldazar!Instance|SO|7|N|Find King Rastakhan at the entrance to Dazar'alor.|
-C Reach Zul|ACTIVE|50954|M|57.90,40.60|Z|Zuldazar!Instance|SO|8|N|Wait for King Rastakhan before you fight Ma'da Renkala. The scenario ended at this point despite not actually reaching Zul.|
+C Reach Zul|ACTIVE|50954|M|57.90,40.60|Z|Zuldazar!Instance|SO|8|N|Wait for King Rastakhan before you fight Ma'da Renkala.  The scenario ended at this point despite not actually reaching Zul.|
 T Zandalar Forever!|QID|50954|M|49.94,46.63|Z|Dazar'alor|N|To King Rastakhan.|
 T Prepare for a Siege|QID|47258|M|42.00,72.17|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 
@@ -809,5 +907,3 @@ D The End.|N|This Concludes Zuldazar. The war campaign guide will automatically 
 ]]
 
 end)
-
-
