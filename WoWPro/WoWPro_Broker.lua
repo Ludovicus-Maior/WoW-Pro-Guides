@@ -308,10 +308,10 @@ function WoWPro.LoadGuideReal()
 	WoWPro:dbp("Loading Guide: "..GID)
 	
 	-- Creating a new entry if this guide does not have one
-	if WoWProCharDB.Guide[GID] == nil then
-	    WoWProCharDB.Guide[GID] = {}
-	    WoWProCharDB.Guide[GID].Version = WoWPro.Version
-	end
+	WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
+	WoWProCharDB.Guide[GID].Version = WoWProCharDB.Guide[GID].Version or WoWPro.Version
+	WoWProCharDB.Guide[GID].completion =  WoWProCharDB.Guide[GID].completion or {}
+	WoWProCharDB.Guide[GID].skipped =  WoWProCharDB.Guide[GID].skipped or {}
 
     -- If we have upgraded, wipe the old information and re-create
 	if WoWProCharDB.Guide[GID] and WoWPro.Version ~= WoWProCharDB.Guide[GID].Version then
