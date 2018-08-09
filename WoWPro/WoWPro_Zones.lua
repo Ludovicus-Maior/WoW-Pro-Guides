@@ -276,6 +276,125 @@ function WoWPro.NameZones()
     return dirty
 end
 
+function WoWPro.ProcessMapAndKids(id)
+    if wip_map_info[id] then
+        WoWPro:Warning("ProcessMapAndKids(%d): map already processed.",id)
+        return
+    end
+    local map_info = C_Map.GetMapInfo(id)
+    if not map_info then
+        WoWPro:Warning("ProcessMapAndKids(%d): no map for you!", id)
+        return
+    end
+    map_info.GroupID = C_Map.GetMapGroupID(id)
+    local nomen = map_info.name
+    WoWPro:dbp("ProcessMapAndKids(%d): %s",id, nomen)
+
+    -- If we are in a group, first set the name according to the group rules.
+    if map_info.GroupID then
+        wip_group_info[map_info.GroupID] = wip_group_info[map_info.GroupID] or C_Map.GetMapGroupMembersInfo(map_info.GroupID)
+        -- If all the group members have the name name, use the height as a suffix
+        local clones = nil
+        for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
+            if not clones then
+                -- Save the first name
+                clones = mapGroupMemberInfo.name
+            else
+                if clones ~= mapGroupMemberInfo.name then
+                    clones = false
+                end
+            end
+        end
+        if clones then
+            WoWPro:dbp("ProcessMapAndKids(%d): group %d are clones",id, map_info.GroupID)
+            for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
+                mapGroupMemberInfo.name = mapGroupMemberInfo.name .. tostring(mapGroupMemberInfo.relativeHeightIndex)
+                WoWPro:dbp("ProcessMapAndKids(%d): group %d map %d is now %q", id, map_info.GroupID, mapGroupMemberInfo.mapID, mapGroupMemberInfo.name)
+            end
+        end
+        -- Find the matching entry for us in the group member table
+        for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
+            if id == mapGroupMemberInfo.mapID then
+                if mapGroupMemberInfo.name ~= map_info.name then
+                     nomen = mapGroupMemberInfo.name .. "@" .. map_info.name
+                     WoWPro:dbp("ProcessMapAndKids(%d): group %d %q => %q",id, map_info.GroupID, map_info.name, nomen)
+                     map_info.name = nomen
+                end
+            end
+        end
+    end
+
+    -- First name this map, since we are doing recursive descent, each new node should be unique when we see it first.
+    if wip_name_info[nomen] then
+        if map_info.parentMapID > 0 then
+            -- If we collide here, we must have different parents: i.e. Shadowmoon.
+            local daddy = wip_map_info[map_info.parentMapID].name
+            nomen = nomen .. "!" .. daddy
+            if not wip_name_info[nomen] then
+                WoWPro:dbp("ProcessMapAndKids(%d): %s => %s",id, map_info.name, nomen)
+                map_info.nick = nomen
+            else
+                WoWPro:Error("ProcessMapAndKids(%d): %s collided.", id, nomen)
+                return
+            end
+        elseif map_info.mapType == 4 then
+            -- If we collide here, maybe we can get away with a !Dungeon suffix
+            nomen = map_info.name .. "!Dungeon"
+            if not wip_name_info[nomen] then
+                WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
+                map_info.nick = nomen
+            else
+                WoWPro:Error("ProcessMapAndKids(%d): %q collided.", id, nomen)
+                return
+            end
+        elseif map_info.mapType == 6 then
+            -- If we collide here, maybe we can get away with a !Instance suffix
+            nomen = map_info.name .. "!Instance"
+            if not wip_name_info[nomen] then
+                WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
+                map_info.nick = nomen
+            else
+                WoWPro:Error("ProcessMapAndKids(%d): %q collided.", id, nomen)
+                return
+            end
+        else
+            -- Whine!
+            WoWPro:Error("ProcessMapAndKids(%d): Unable to name %q.", id, nomen)
+            return
+        end
+    end
+    -- Now we have a unique name, lets map the kids
+    wip_name_info[nomen] = id
+    wip_map_info[id] = map_info
+    local children = C_Map.GetMapChildrenInfo(id)
+    map_info.children = {}
+    if children and #children > 0 then
+        for i = 1, #children do
+            map_info.children[i] = children[i].mapID
+        end
+    end
+    table.sort(map_info.children)
+
+    for i = 1, #(map_info.children) do
+        WoWPro.ProcessMapAndKids(map_info.children[i])
+    end
+end
+
+function WoWPro.NewGenerateMapCache()
+    wip_map_info = {}
+    wip_group_info = {}
+    wip_name_info = {}
+
+    WoWPro:print("Starting recursive mapping.")
+    WoWPro.ProcessMapAndKids(946)
+    -- Try to discover disconnected maps
+    WoWPro:print("Starting iterative mapping.")
+    for i = 0, 2000 do
+        WoWPro.ProcessMapAndKids(i)
+    end
+end
+
+
 function WoWPro.GenerateMapCache()
     wip_map_info = {}
     wip_group_info = {}
