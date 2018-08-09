@@ -101,15 +101,15 @@ C Zoram'gar Outpost|QID|50740|M|12.10,33.84|Z|Ashenvale|CHAT|QO|1|N|Speak with C
 C Zoram'gar Outpost|QID|50740|M|12.99,34.15|Z|Ashenvale|CHAT|QO|2|N|Speak with the Innkeeper|
 C Zoram'gar Outpost|QID|50740|M|11.41,35.36|Z|Ashenvale|CHAT|QO|3|N|Speak with the Weaponsmith|
 
-R Astranaar|ACTIVE|50740|M|35.17,49.43|Z|Ashenvale|N|Fly back to Astranaar because what is more rewarding than flying around.|
+R Astranaar|ACTIVE|50740|M|35.17,49.43|Z|Ashenvale|N|Fly yourself back to Astranaar because what is more rewarding than flying around.|
 T Zoram'gar Outpost|QID|50740|M|35.17,49.43|Z|Ashenvale|N|To High Overlord Saurfang.|
 A On The Prowl|QID|50772|M|35.17,49.43|Z|Ashenvale|N|From High Overlord Saurfang.|
-C On The Prowl|QID|50772|M|44.15,90.72|Z|Darkshore|NC|N|Meet Sylvanas near the entrance to Darkshore, wait for a break in the fight.|
-T On The Prowl|QID|50772|M|44.15,90.72|Z|Darkshore|N|To Lady Sylvanas Windrunner. This may take a few seconds for her to be ready to accept the turn in.|
-A Into the Woods|QID|50800|M|44.15,90.72|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
+C On The Prowl|QID|50772|M|44.08,90.51|Z|Darkshore|NC|N|Meet Sylvanas near the entrance to Darkshore, wait for a break in the fight.|
+T On The Prowl|QID|50772|M|44.08,90.51|Z|Darkshore|N|To Lady Sylvanas Windrunner. This may take a few seconds for her to be ready to accept the turn in.|
+A Into the Woods|QID|50800|M|44.08,90.51|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C Into the Woods|QID|50800|M|44.22,90.62|Z|Darkshore|N|Kill Ashenvale Huntresses.|
-T Into the Woods|QID|50800|M|44.15,90.71|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
-A Ripe for the Picking|QID|50823|M|44.15,90.71|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
+T Into the Woods|QID|50800|M|44.08,90.51|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
+A Ripe for the Picking|QID|50823|M|44.08,90.51|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 
 R Zoram'gar Outpost|ACTIVE|50823|M|12.13,33.74|Z|Ashenvale|N|And back to Zoram'gar again.|
 T Ripe for the Picking|QID|50823|M|12.13,33.74|Z|Ashenvale|N|To High Overlord Saurfang.|
@@ -134,8 +134,8 @@ A Blurred Vision|QID|50878|M|42.44,82.07|Z|Darkshore|N|From Lady Sylvanas Windru
 C Blurred Vision|QID|50878|M|43.30,79.03|Z|Darkshore|S|QO|1|N|Kill Sentry Owls.|
 C Blurred Vision|QID|50878|M|43.46,79.00|Z|Darkshore|QO|2|N|Kill Frenzied Blackwood Furbolg.|
 C Blurred Vision|QID|50878|M|43.30,79.03|Z|Darkshore|US|QO|1|N|Finish killing Sentry Owls.|
-T Blurred Vision|QID|50878|M|43.28,75.67|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
-A The Trees Have Ears|QID|50879|M|43.28,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
+T Blurred Vision|QID|50878|M|43.31,75.67|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
+A The Trees Have Ears|QID|50879|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C The Trees Have Ears|QID|50879|M|44.08,75.28|Z|Darkshore|N|Kill the Burning Ancient. (don't worry, the other NPCs don't add)|
 T The Trees Have Ears|QID|50879|M|43.31,75.67|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 
@@ -144,13 +144,13 @@ A The Blackwood Den|QID|52436|M|43.31,75.67|Z|Darkshore|N|From Lady Sylvanas Win
 C The Blackwood Den|QID|52436|M|44.37,85.89|Z|Darkshore|S|N|Kill the Blackwood furbolgs as you go.|
 C Aggressive Inspiration|QID|53606|M|45.08,83.67|Z|Darkshore|QO|1|NC|N|Click  on the somewhat transparent banner to plant Northern banner here.|
 C Aggressive Inspiration|QID|53606|M|44.63,85.10|Z|Darkshore|QO|2|NC|N|Plant Central banner here.|
-C Aggressive Inspiration|QID|53606|M|44.36,86.52|Z|Darkshore|QO|1|NC|N|Plant Southern banner here.|
+C Aggressive Inspiration|QID|53606|M|44.36,86.52|Z|Darkshore|QO|3|NC|N|Plant Southern banner here.|
 C Aggressive Inspiration|QID|53606|M|45.09,83.70|Z|Darkshore|US|NC|N|Finish planting banners.|
 C The Blackwood Den|QID|52436|M|44.37,85.89|Z|Darkshore|US|N|Finish off your share of the Blackwood furbolgs.|
-T Aggressive Inspiration|QID|53606|M|43.30,84.70|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
-T The Blackwood Den|QID|52436|M|43.30,84.70|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
+T Aggressive Inspiration|QID|53606|M|43.32,84.72|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
+T The Blackwood Den|QID|52436|M|43.32,84.72|Z|Darkshore|N|To Lady Sylvanas Windrunner.|
 
-A The Start of Something Good|QID|52437|M|43.30,84.70|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
+A The Start of Something Good|QID|52437|M|43.32,84.72|Z|Darkshore|N|From Lady Sylvanas Windrunner.|
 C The Start of Something Good|QID|52437|M|35.78,84.79|NC|Z|Darkshore|N|Meet Sylvanas at Nazj'vel.|
 T The Start of Something Good|QID|52437|M|35.82,84.83|Z|Darkshore|N|To Jux Burstkix.|
 A Fueling the Horde War Machine|QID|53608|M|35.82,84.83|Z|Darkshore|N|From Jux Burstkix.|
