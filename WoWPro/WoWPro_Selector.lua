@@ -193,6 +193,7 @@ end
 
 function WoWPro:OfferGuideSwitch(nGID, quest)
     WoWPro:dbp("OfferGuideSwitch(%s, %s)", tostring(nGID), tostring(quest))
+    WoWProCharDB.Guide[nGID] = WoWProCharDB.Guide[nGID] or {}
     StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"] = {
         text = "Would you like to switch to the guide for the quest you just accepted?",
 	    OnAccept = function (self, data, data2) WoWPro:dbp("WOWPRO_SWITCH_GUIDE(YES)"); WoWPro:LoadGuide(nGID); end ,
