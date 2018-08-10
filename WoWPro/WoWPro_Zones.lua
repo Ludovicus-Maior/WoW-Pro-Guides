@@ -296,7 +296,7 @@ function WoWPro.ProcessMapAndKids(id)
         -- If all the group members have the name name, use the height as a suffix
         local clones = nil
         for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
-            if not clones then
+            if clones == nil then
                 -- Save the first name
                 clones = mapGroupMemberInfo.name
             else
@@ -398,7 +398,7 @@ end
 function WoWPro.GenerateMapCache()
     wip_map_info = {}
     wip_group_info = {}
-   
+
     for i = 0, 2000 do
         WoWPro.CollectMap(i)
     end
