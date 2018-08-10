@@ -8,7 +8,6 @@
 local guide = WoWPro:RegisterGuide('Ludo_LucidNightmare ', 'Achievements', 'Azeroth', 'Ludovicus', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro.Achievements:GuideMisc(guide, "Lucid Nightmare Mount", "Mount", "Legion")
-WoWPro:GuideQuestTriggers(guide, 47221, 47835)
 WoWPro:GuideSteps(guide, function()
 return [[
 
