@@ -956,7 +956,7 @@ function WoWPro.NextStep(k,i)
 		end
 		local QID=WoWPro.QID[k]
 		skip = false -- The step defaults to NOT skipped
-		
+
 		-- Quickly skip completed steps --
 		if WoWProCharDB.Guide[GID].completion[k] then
 		    -- WoWPro.why[k] = "NextStep(): Completed."
@@ -977,7 +977,21 @@ function WoWPro.NextStep(k,i)
 			skip = true
 			break
 		end
-		
+
+        -- Skip Completed Quests
+        if QID then
+            local numQID = select("#", string.split(";", QID))
+            for j=1,numQID do
+                local jqid = select(numQID-j+1, string.split(";", QID))
+                if WoWPro:IsQuestFlaggedCompleted(jqid, true) then
+                    skip = true -- If quest complete, step is skipped.
+                    WoWPro.why[k] = "NextStep(): QID is complete: " .. jqid
+                    WoWProCharDB.Guide[GID].completion[k] = QID
+                    break
+                end
+            end
+        end
+
 		-- !/; Steps --
 		if WoWPro.action[k] == "!" then
 		    -- These had their effect when the guide was parsed
