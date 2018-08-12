@@ -1713,6 +1713,12 @@ function WoWPro.NextStep(k,i)
         -- Example:
         --     C Iron Starlette/Darkmoon Zepplin|QID|85561.1|PET1|Iron Starlette;77221;1+1+1|PET2|Darkmoon Zepplin;85561;1+1+2|PET3|Leveling;;;L>20|STRATEGY|IS/DZ|
         if (WoWPro.pet1[k] or WoWPro.pet2[k] or WoWPro.pet3[k]) and WoWPro.strategy[k] then
+            if not WoWProCharDB.EnablePetBattles then
+                WoWPro.why[k] = "NextStep(): Pet battles disabled."
+                skip = true
+                WoWPro.current_strategy = nil
+                break
+            end
             if  WoWPro.PetBattleActive then
                 WoWPro.why[k] = "NextStep(): Pet battle is still active!"
                 skip = true
