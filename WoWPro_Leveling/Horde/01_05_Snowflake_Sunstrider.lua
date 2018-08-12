@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2018-08-09 23:05
+-- Who: Ludovicus_Maior
+-- Log: Correct caps on [WANTED: Thaelis the Hungerer]
+
+-- URL: http://wow-pro.com/node/3207/revisions/29196/view
 -- Date: 2018-02-27 17:39
 -- Who: Ludovicus_EditBot
 -- Log: Level Strip
@@ -254,11 +259,6 @@
 -- Date: 2011-01-29 17:08
 -- Who: Ludovicus_Maior
 -- Log: Added missing QIDs to L steps.
-
--- URL: http://wow-pro.com/node/3207/revisions/23614/view
--- Date: 2010-12-05 21:08
--- Who: Crackerhead22
--- Log: Added missing steps/quests.
 
 local guide = WoWPro:RegisterGuide("SnoSun0105", "Leveling", "Sunstrider Isle", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,1,5, 1.78882)
