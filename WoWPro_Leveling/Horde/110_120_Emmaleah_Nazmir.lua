@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-08-12 19:01
+-- Who: Ludovicus_Maior
+-- Log: |LVL-120| aint right.
+
+-- URL: http://wow-pro.com/node/3766/revisions/29479/view
 -- Date: 2018-08-07 04:27
 -- Who: Emmaleah
 -- Log: I apparently didn't keep good version control and overwrote the end of this guide. Will test soonest! Recovered a great deal of it from my backup on 7/19; this wasn't the final copy and undoubtedly needs more work. 
@@ -482,7 +487,7 @@ C Rendezvous with the Libation|QID|47631|M|74.41,39.30|QO|1|NC|N|Click on Patch.
 T Rendezvous with the Libation|QID|47631|M|74.58,38.84|N|To Patch.|
 A No Goblin Left Behind|QID|47597|M|74.58,38.84|N|From Patch.|
 A Revenge: Served Hot|QID|47599|M|74.78,39.04|N|From Tocler.|
-A The Libation's Liberation|QID|47756|M|75.05,37.17|N|Bonus Objective - Autoaccepted.|LVL-120|
+A The Libation's Liberation|QID|47756|M|75.05,37.17|N|Bonus Objective - Autoaccepted.|LVL|-120|
 C The Libation's Liberation|QID|47756|M|75.05,37.17|S|N|Bonus Objective - Kill Naga and bandage injured soldiers to complete.|
 C Revenge: Served Hot|QID|47599|M|79.96,32.26|QO|1|U|151363|NC|S|N|Target a Vilescale Behemoth and use the provided Rocket Laucher as you go.|
 K Kill Krubbs|QID|48052|M|75.85,36.22|QO|1|N|Silver Elite to kill for Treasure and Resources.|
