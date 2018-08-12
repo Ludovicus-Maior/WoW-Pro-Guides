@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-08-12 18:57
+-- Who: Ludovicus_Maior
+-- Log: Add missing CS| tag to Step C [Terror of the Kraul:50368]
+
+-- URL: http://wow-pro.com/node/3767/revisions/29493/view
 -- Date: 2018-08-11 23:17
 -- Who: Lemmer
 -- Log: Major rewrite for final playtesting
@@ -319,7 +324,7 @@ K Wagga Snarltusk|QID|98765|M|45.83,74.34|N|Start of the path down to Wagga - fo
 C Anger in a Bottle|QID|50367|M|45.96,73.25|N|Head back down into the fray.  Most mobs drop this.|
 T Anger in a Bottle|QID|50367|M|46.65,73.82|N|To Sergeant Calvin.|
 A Terror of the Kraul|QID|50368|M|46.64,73.85|N|From Sergeant Calvin.|
-C Terror of the Kraul|QID|50368|M|45.84,74.41;38.26,49.61|N|Kill Bramblefist inside the cave.|
+C Terror of the Kraul|QID|50368|M|45.84,74.41;38.26,49.61|CS|N|Kill Bramblefist inside the cave.|
 T Terror of the Kraul|QID|50368|M|71.22,52.33|N|To Sergeant Calvin.  (note this coord is in a cave).|
 A A Question of Quillpower|QID|50640|M|71.22,52.33|Z|Thornheart!Dungeon|N|From Sergeant Calvin.  Hop on the boar and ride back to Mayor Roz.|
 R A Question of Quillpower|M|50.75,70.21|ACTIVE|50640|N|Hop on the boar and ride out of the cave.|
