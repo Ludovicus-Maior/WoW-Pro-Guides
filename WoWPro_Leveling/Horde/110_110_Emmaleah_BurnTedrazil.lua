@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-08-09 21:44
+-- Who: Ludovicus_Maior
+-- Log: Play-through tweaks.
+
+-- URL: http://wow-pro.com/node/3770/revisions/29484/view
 -- Date: 2018-08-07 20:16
 -- Who: Emmaleah
 -- Log: update for todays content - testing on live. added Target buttons to help with crowding.
