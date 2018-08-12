@@ -728,6 +728,20 @@ local function createBlizzOptions()
 						WoWProCharDB.DebugClasses = WoWPro.DebugClasses
 					end
 			},
+			petBattles = {
+				order = 21,
+				type = "toggle",
+				name = L["Enable Pet Battles"],
+				desc = L["Enables/Disables automatic pet battle team selection in some guides"],
+				get = function(info) return WoWProCharDB.EnablePetBattles end,
+				set = function(info,val)
+						if WoWProCharDB.EnablePetBattles then
+						    WoWProCharDB.EnablePetBattles = false
+						else
+						    WoWProCharDB.EnablePetBattles = true
+						end
+					end
+			},
 			resetGuide = {
 			    order = 29,
 			    type = "execute",
