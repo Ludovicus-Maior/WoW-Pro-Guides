@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-08-09 23:07
+-- Who: Ludovicus_Maior
+-- Log: Added [Ghost Howl] warning.
+
+-- URL: http://wow-pro.com/node/3203/revisions/29451/view
 -- Date: 2018-07-29 06:16
 -- Who: Emmaleah
 -- Log: Removed Deprecated Quest "The Hunter's Way".
