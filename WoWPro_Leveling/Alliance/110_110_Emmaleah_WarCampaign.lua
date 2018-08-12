@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-08-12 20:18
+-- Who: Emmaleah
+-- Log: deleted part that is in the BFA intro
+
+-- URL: http://wow-pro.com/node/3760/revisions/29495/view
 -- Date: 2018-08-12 18:59
 -- Who: Ludovicus_Maior
 -- Log:  "Chamber of Heart"
@@ -84,114 +89,6 @@ WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ACH",12593)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-;battle for Lordaeron scenario probably needs moved to STrek's intro guide. need to see what is pre-patch, what is skippable after doing once, etc. - (edit by STrek) - added thispart to BFA prepatch alliance. For safty reason I just comment this blok out.
-
-;A Hour of Reckoning|QID|53370|N|Autoaccepted upon arriving in Stormwind.|LEAD|51795|;or perhaps upon logging in anywhere?
-;T Hour of Reckoning|QID|53370|M|22.37,32.42|Z|Stormwind City|N|To Master Mathias Shaw.|
-;A The Battle for Lordaeron|QID|51795|M|22.37,32.42|Z|Stormwind City|N|From Master Mathias Shaw.|
-;C The Battle for Lordaeron|QID|51795|M|22.22,32.53|Z|84|QO|1|CHAT|N|Tell Captain Angelica, at the Stormwind docks you are ready to sail.|
-;C Follow Hammond Clay|QID|51795|M|51.51,18.92|Z|Ruins of Lordaeron!Instance|SO|1;1|NC|N|Run south.|
-;C Charge the battlefield with Genn|QID|51795|M|47.03,53.37|Z|Ruins of Lordaeron!Instance|SO|1;2|N|After the gates open, charge the battlefield with Genn|
-;C Clearing the Way|QID|51795|M|46.72,58.88|Z|Ruins of Lordaeron!Instance|SO|2|S|N|Siege Towers Defended. Someone has to kill a Shredder and four Demolishers to move to next step.|
-;C Horde Enemies Defeated|QID|51795|M|47.34,61.40|Z|Ruins of Lordaeron!Instance|SO|2;1|N|Horde Enemies Defeated|
-;C Demolishers Defeated|QID|51795|M|47.34,61.40|Z|Ruins of Lordaeron!Instance|SO|2;2|N|Demolishers Defeated|
-;C Cannonballs Collected|QID|51795|M|47.34,61.40|Z|Ruins of Lordaeron!Instance|SO|2;3|N|Cannonballs Collected|
-;C Clearing the Way|QID|51795|M|46.72,58.88|Z|Ruins of Lordaeron!Instance|SO|2|US|
-;C Defeat the Azerite War Machine|QID|51795|M|47.67,62.21|Z|Ruins of Lordaeron!Instance|SO|3;1|N|Defeat the Azerite War Machine|
-;C Confront Sylvanas Windrunner|QID|51795|M|49.08,62.11|Z|Ruins of Lordaeron!Instance|SO|4;1|N|Confront Sylvanas Windrunner|
-;C Blighted Grounds|QID|51795|M|45.02,49.75|Z|Ruins of Lordaeron!Instance|SO|5;1|N|Defend King Anduin and evacuate the wounded|
-;C Blighted Grounds|QID|51795|M|48.34,62.81|Z|Ruins of Lordaeron!Instance|SO|5|NC|N|Evacuate wounded soldiers before they are infected by blight gas.|
-;C The Light is Fading|QID|51795|M|46.95,51.0|Z|Ruins of Lordaeron!Instance|SO|6|NC|N|Fall back with King Anduin Wrynn.|
-;C The Winds of Change|QID|51795|M|43.12,73.88|Z|Ruins of Lordaeron!Instance|SO|7|NC|N|Find Jaina at the walls of Lordaeron.|
-;C The Great Eagle|QID|51795|M|42.14,70.74|Z|Ruins of Lordaeron!Instance|SO|8|T|Windseeker Durja|N|Kill the trolls and then their leader Durga, He moves around alot, and at times is unattackable.|
-;C Pressing Forward|QID|51795|M|42.14,84.70|Z|Ruins of Lordaeron!Instance|SO|9|N|Run forward.|
-;C Abomination Wonderland|QID|51795|M|42.55,87.22|Z|Ruins of Lordaeron!Instance|SO|10|N|If you want, you can use one of Mekkatorque's machines to assault Lordaeron City or just use your own abilities.1|
-;C Blast!|QID|51795|M|48.22,89.38|Z|Ruins of Lordaeron!Instance|SO|11|NC|N|Watch and wait.|
-;C She's Getting Away!|QID|51795|M|51.99,76.09|Z|Ruins of Lordaeron!Instance|SO|12|NC|N|Take a ride in the Gyrocopter.|
-;C The High Overlord.|QID|51795|M|47.85,73.50|Z|Ruins of Lordaeron!Instance|SO|13|N|Defeat High Overlord Saurfang and watch the vignette that follows.|
-;C The Dark Lady|QID|51795|M|48.08,78.09|Z|Ruins of Lordaeron!Instance|SO|14|NC|N|Run into the Lordaeron throne room.|
-
-;T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|
-
-; prepatch will possibly end here
-
-A A Dying World|QID|53026|M|27.64,21.29|Z|Stormwind City|N|From an Earthern Messenger.|PRE|51795|
-R The Eastern Earthshrine|ACTIVE|53026|M|75.26,20.51|Z|Stormwind City|N|Mount up and fly over and use the Uldam portal for a shortcut to Silithus. Check off manually after you go thru the portal.|
-R Silithus: The Wound|ACTIVE|53026|M|68.36,86.30|Z|Silithus|N|Continue to Silithus to find Magni.|
-T A Dying World|QID|53026|M|42.23,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A The Heart of Azeroth|QID|51211|M|42.12,44.19|Z|Silithus|N|From Magni Bronzebeard.|PRE|53026|
-C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the teleporter to travel to the Chamber of the Heart.|
-C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
-T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211|
-C Infusing the Heart|QID|52428|QO|1|M|52.32,58.14;55.48,60.73;54.70,69.61;48.32,73.66;45.13,62.64|CN|Z|Chamber of Heart!Dungeon|NC|N|Go to several of the Azerite Cracks around the room and use your special action button.|
-C Infusing the Heart|QID|52428|QO|3|M|49.98,64.74|Z|Chamber of Heart!Dungeon|NC|N|Move to the center of the room and use your special action button, wait until the bar fills.|
-T Infusing the Heart|QID|52428|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A The Speakers Imperative|QID|51403|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|52428|
-C The Speakers Imperative|QID|51403|M|50.10,30.39|Z|Chamber of Heart!Dungeon|NC|N|Use the provided portal to return to Stormwind.|
-T The Speakers Imperative|QID|51403|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|
-A Tides of War|QID|46727|M|27.64,21.29|Z|Stormwind City|N|From Halford Wyrmbane.|PRE|51403|
-C Tides of War|QID|46727|QO|1|M|83.47,29.62;85.14,32.52|CS|Z|Stormwind City|NC|N|Fly to Stormwind Keep and go to the Throneroom and listen to the council.|
-C Tides of War|QID|46727|QO|2|M|85.03,32.64|NC|Z|Stormwind City|N|Click on the 'survivor's memories' hovering over his head.|
-T Tides of War|QID|46727|M|85.28,32.26|Z|Stormwind City|N|To Anduin Wrynn.|
-A The Nation of Kul Tiras|QID|46728|M|85.28,32.26|Z|Stormwind City|N|From Anduin Wrynn.|PRE|46727|
-R Stormwind Harbor|ACTIVE|46728|M|22.15,24.32|Z|Stormwind City|N|Fly back down to the docks.|
-C The Nation of Kul Tiras|QID|46728|M|22.15,24.32|Z|Stormwind City|CHAT|N|Tell Jaina you are ready to go.|
-
-T The Nation of Kul Tiras|QID|46728|M|65.59,50.75|Z|Boralus|N|To Lady Jaina Proudmoore.|
-A Daughter of the Sea|QID|51341|M|65.59,50.75|Z|Boralus|N|From Lady Jaina Proudmoore.|PRE|46728|
-T Daughter of the Sea|QID|51341|M|78.11,61.04|Z|Kul Tiras|N|To Flynn Fairwind.|
-A Out Like Flynn|QID|47098|M|78.11,61.04|Z|Kul Tiras|N|From Flynn Fairwind.|PRE|51341|
-C Punch Flynn|QID|47098|QO|1|M|78.07,61.01|Z|Kul Tiras|NC|N|Click on Flynn to punch him.|
-C Pull the Lever|QID|47098|QO|2|M|78.07,60.77|Z|Kul Tiras|NC|N|Click on the lever.|
-C Get Dressed|QID|47098|QO|3|M|78.08,60.96|Z|Kul Tiras|NC|N|Click on the Equipment Locker to recover your equipment.|
-C Take out the Warden|QID|47098|QO|4|M|77.73,61.52|Z|Kul Tiras|N|Assist in killing Block Warden Carmine.|T|Block Warden Carmine|
-C Gather Gunpowder|QID|47098|QO|5|M|77.90,61.48|Z|Kul Tiras|NC|N|Pick up the gun powder to cause more mayham.|
-C Blow the Cell Door|QID|47098|QO|6|M|77.80,61.34;77.86,61.04;77.87,60.53|CS|Z|Kul Tiras|NC|N|Click on the gate to place the gun powder.|
-C Into the sewers|QID|47098|QO|7|M|77.96,60.47;78.20,60.84;78.08,60.87;77.90,60.81;77.61,61.42|CS|Z|Kul Tiras|NC|N|Down the stairs and around the corner to the sewers.|
-C Board the boat|QID|47098|QO|8|M|77.85,61.71;78.22,61.01;79.03,60.81;78.84,59.90|CS|Z|Kul Tiras|NC|N|Follow the wall to your left till you eventually come to a rowboat, get in. Enjoy the ride and dialog.|
-T Out Like Flynn|QID|47098|M|75.66,25.47|Z|Tiragarde Sound|N|To Taelia.|
-
-A Get Your Bearings|QID|47099|M|75.66,25.47|Z|Tiragarde Sound|N|From Taelia.|PRE|47098|
-C Go to the Ferry Dock|QID|47099|QO|1|M|75.27,25.81|Z|Tiragarde Sound|NC|N|Pick up the Ferry "flight" point.|
-C Go to the Bank|QID|47099|QO|2|M|75.20,25.02;75.48,25.38;75.63,24.01|CS|Z|Tiragarde Sound|NC|N|Just up the stairs and you will find the bank.|
-;A A Load of Scrap|QID|52462|M|75.20,25.02;75.48,25.38;76.95,23.69|CS|Z|Tiragarde Sound|N|Up the stairs and to your right, from Crenzo Sparkshatter.|PRE|47098| - not in current build
-;C A Load of Scrap|QID|52462|M|76.95,23.55|Z|Tiragarde Sound|NC|N|Click on Crenzo's creation (behind him) and then click on the pants he gave you.|U|160267| - not in current build
-;T A Load of Scrap|QID|52462|M|76.95,23.69|Z|Tiragarde Sound|N|To Crenzo Sparkshatter.| - not in current build
-C Go to Snug Harbor Inn|QID|47099|QO|3|M|75.39,24.25;75.51,23.95;75.13,23.10|CS|Z|Tiragarde Sound|CHAT|N|The innkeeper up some more stairs. Set your hearthstone here. (there is a portal to Stormwind nearby).|
-C Go to the Flightmaster|QID|47099|QO|4|M|74.37,23.83;73.56,23.42|CS|Z|Tiragarde Sound|NC|N|Around the corner from the inn. Pick up the flight point.|
-T Get Your Bearings|QID|47099|M|74.42,24.61|Z|Tiragarde Sound|N|To Taelia. who is right beside you.|
-
-A The Old Knight|QID|46729|M|74.42,24.61|Z|Tiragarde Sound|N|From Taelia.|PRE|47099|
-C The Old Knight|QID|46729|QO|1|M|74.02,24.89;73.66,24.97;75.59,25.32|CS|Z|Tiragarde Sound|NC|N|Head down the stairs to the Harbor.|
-C The Old Knight|QID|46729|QO|2|M|73.80,25.06|Z|Tiragarde Sound|CHAT|N|Back into his office talk to Cyrus and then listen to his story.|
-T The Old Knight|QID|46729|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
-A Sanctum of the Sages|QID|47186|M|73.84,25.10|Z|Tiragarde Sound|N|From Taelia.|PRE|46729|
-A Ferry Pass|QID|52128|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|46729|
-T Ferry Pass|QID|52128|M|73.80,25.07|Z|Tiragarde Sound|N|To Cyrus Crestfall.|
-C Sanctum of the Sages|QID|47186|QO|1|M|73.73,24.78;74.00,24.88;74.46,23.72|CS|Z|Tiragarde Sound|CHAT|N|Back up to the market level and first door on your left to find the mage.|
-T Sanctum of the Sages|QID|47186|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia, who apparently thinks you know your way around now and is waiting in Cyrus's office still.|
-
-A A Nation Divided|QID|47189|M|73.84,25.10|Z|Tiragarde Sound|N|From Taelia.|PRE|51403|
-T A Nation Divided|QID|47189|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
-A The War Campaign|QID|52654|M|73.81,25.14|Z|Tiragarde Sound|N|From Genn Greymane.|PRE|47189|
-A Choose next adventure|QID|47962;47961;47960|M|73.89,25.12|Z|Tiragarde Sound|N|From the Scouting Map on the wall.|PRE|47189|
-;A Tiragarde Sound|QID|47960|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
-;A Drustvar|QID|47961|M|70.52,27.15|Z|Boralus|N|From Halford Wyrmbane.|
-;A Stormsong Valley|QID|47962|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
-
-t Tiragarde Sound|QID|47960|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
-A The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|47960|
-C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the special action button.|
-T The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|To Flynn Fairwind.|
-A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|47181|
-
-t Drustvar|QID|47961|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
-A The Vanishing Lord|QID|48622|M|73.84,25.09|Z|Tiragarde Sound|N|From Taelia.|PRE|47961|
-
-t Stormsong Valley|QID|47962|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
-A The Missing Fleet|QID|47952|M|73.84,25.10|Z|Tiragarde Sound|N|From Taelia.|PRE|47962|
 
 T The War Campaign|QID|52654|M|67.09,23.53;69.26,26.99|CS|Z|Boralus|N|To Halford Wyrmbane.|
 A The War Cache|QID|52544|M|69.26,26.99|Z|Boralus|N|From Halford Wyrmbane.|
