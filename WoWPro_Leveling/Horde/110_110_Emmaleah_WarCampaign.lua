@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-08-13 16:46
+-- Who: Emmaleah
+-- Log: played thru 2nd lvl 120 quest arc
+
+-- URL: http://wow-pro.com/node/3761/revisions/29492/view
 -- Date: 2018-08-11 00:50
 -- Who: Emmaleah
 -- Log: War Campaign thru the end, but untested, last 4 steps from You Tube/Wowhead. (thanks to Varenne for her excellent posts and videos.) Ultimately I would like this guide to contain all Kul Tiras quests, rares, treasure and probably explore points. But that is a longer term goal than release of BfA
@@ -68,7 +73,7 @@ T Reinforcements|QID|53079|M|51.68,99.68|Z|Zuldazar|N|To Garona Halforcen. After
 A Adapting Our Tactics|QID|53602|M|58.56,62.73|Z|Zuldazar|N|From Eitrigg.|PRE|53079|LVL|114|
 C Adapting Our Tactics|QID|53602|M|58.56,62.72|Z|Zuldazar|CHAT|N|Ask Eitrigg about available upgrades and then choose between the two on the first tier.|
 T Adapting Our Tactics|QID|53602|M|58.56,62.72|Z|Zuldazar|N|To Eitrigg.|
-A The MOTHERLODE!!: Raw Deal|QID|53437|M|58.45,62.64|Z|Zuldazar|LVL|115|NA|N|From Trade Prince Gallywix who is 1 level directly below Nathanos.|PRE|53602|
+A The MOTHERLODE!!: Raw Deal|QID|53437|M|58.45,62.64|Z|Zuldazar|NA|LVL|115|N|From Trade Prince Gallywix who is 1 level directly below Nathanos.|PRE|53602|
 
 ;foothold quest intro
 A The Kul Tiras Campaign|QID|51803|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|112|
@@ -81,12 +86,16 @@ T Deeper Into Kul Tiras|QID|53050|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightc
 A The Ongoing Campaign|QID|51979|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53050|
 C Pick next Foothold|QID|51979|M|58.44,62.67|NC|Z|Zuldazar|N|Choose which zone you want to build your second foothold at the Kul'Tiras Campaign Table.|
 T The Ongoing Campaign|QID|51979|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51979|LVL|118|ACH|13067;;true|
-C Pick next Foothold|QID|52444|M|58.44,62.67|NC|Z|Zuldazar|N|Choose the last available zone to build a foothold at the  Kul'Tiras Campaign Table.|
-C The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51979|LVL|118|ACH|13067|
+C Pick last Foothold|QID|52444|M|58.44,62.67|NC|Z|Zuldazar|N|Choose the last available zone to build a foothold at the Kul'Tiras Campaign Table.|
+T The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Tiraguarde Sound|QID|51801|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
+
+J On to Nazmir|QID|47103|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmNazmir|
+J On to Vol'Dun|QID|47313|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmVoldun|
+J On to Zuldazar|QID|49615|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmZuldazar|
 
 ;Foothold: Drustvar
 A A Trip Across the Ocean|QID|51332|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51801|
@@ -134,28 +143,27 @@ C A Wall of Iron|QID|51643|M|51.18,21.12|Z|Stormsong Valley|QO|1|NC|N|Go down be
 C A Wall of Iron|QID|51643|M|51.18,21.12|Z|Stormsong Valley|QO|2|N|Use "1" key to fire at enemy troops (tho ones not carrying red flags) on the shore.|
 T A Wall of Iron|QID|51643|M|51.11,21.16|Z|Stormsong Valley|N|To High Warlord Cromush.|
 A On the Hunt|QID|51536|M|51.11,21.16|Z|Stormsong Valley|N|From High Warlord Cromush.|PRE|51643|
-C On the Hunt|QID|51536|M|51.05,21.47|Z|Stormsong Valley|QO|1|N|Click on the rope for a ride to the docks.(Optional)|
-C On the Hunt|QID|51536|M|50.39,26.18|Z|Stormsong Valley|QO|2|N|Go up the hill, try to rescue Rexxar's pet and wait for the quest credit.|
+C On the Hunt|QID|51536|M|51.05,21.47|Z|Stormsong Valley|QO|1|NC|N|Click on the rope for a ride to the docks.(Optional)|
+C On the Hunt|QID|51536|M|50.39,26.18|Z|Stormsong Valley|QO|2|NC|N|Go up the hill, try to rescue Rexxar's pet and wait for the quest credit.|
 T On the Hunt|QID|51536|M|50.41,26.17|Z|Stormsong Valley|N|To Rexxar.|
 A Onward!|QID|51587|M|50.41,26.17|Z|Stormsong Valley|N|From Rexxar.|PRE|51536|
-C Onward!|QID|51587|M|51.91,30.17|Z|Stormsong Valley|QO|1|N|Travel with Rexxar|
+C Onward!|QID|51587|M|51.91,30.17|Z|Stormsong Valley|NC|N|Travel with Rexxar|
 T Onward!|QID|51587|M|51.66,29.83|Z|Stormsong Valley|N|To Centurion Kaga Warmstone.|
 A Hunt Them Down|QID|51675|M|51.66,29.83|Z|Stormsong Valley|N|From Centurion Kaga Warmstone.|PRE|51587|
 A Almost Worth Saving|QID|51691|M|51.66,29.83|Z|Stormsong Valley|N|From Centurion Kaga Warmstone.|PRE|51587|
 A Douse the Flames|QID|51674|M|51.67,29.94|Z|Stormsong Valley|N|From Rexxar.|PRE|51587|
-C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|S|QO|1|NC|N|Rescue Frightened Peons as you go.|
-C Hunt Them Down|QID|51675|M|51.80,32.43|Z|Stormsong Valley|QO|2|N|Kill footman as you go.|
-C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|NC|N|Rescue Frightened Peons as you go.|
-C Hunt Them Down|QID|51675|M|51.80,32.43|Z|Stormsong Valley|QO|2|N|Kill footman as you go.|
-C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|N|The mages drop the wands you need to douse the flames.|U|160565|
+C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|QO|1|S|NC|N|Rescue Frightened Peons as you go.|
+C Hunt Them Down|QID|51675|M|51.80,32.43|Z|Stormsong Valley|S|QO|2|N|Kill footman as you go.|
+C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|S|N|The mages drop the wands you need to douse the flames.|U|160565|
 C Hunt Them Down|QID|51675|M|51.85,33.63|Z|Stormsong Valley|QO|1|N|Kill Captain Ara.|T|Captain Ara.|
 C Almost Worth Saving|QID|51691|M|51.85,32.63|Z|Stormsong Valley|QO|2|NC|N|Click on the barricade behind Captain Ara.|
-C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|NC|N|Finish rescuing Frightened Peons.|
-C Hunt Them Down|QID|51675|M|51.80,32.43|Z|Stormsong Valley|QO|2|N|Finish your quota of footman.|
+C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|US|N|Finish putting out the fires.|U|160565|
+C Hunt Them Down|QID|51675|M|51.80,32.43|Z|Stormsong Valley|US|QO|2|N|Finish your quota of footman.|
+C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|QO|1|US|NC|N|Finish rescuing Frightened Peons.|
 T Hunt Them Down|QID|51675|M|49.18,34.22|Z|Stormsong Valley|N|To Centurion Kaga Warmstone.|
 T Almost Worth Saving|QID|51691|M|49.18,34.22|Z|Stormsong Valley|N|To Centurion Kaga Warmstone.|
 T Douse the Flames|QID|51674|M|49.26,34.29|Z|Stormsong Valley|N|To Rexxar.|
-A Reclaiming What's Ours|QID|51696|M|49.26,34.29|Z|Stormsong Valley|N|From Rexxar.|PRE|51675+51691+51674|
+A Reclaiming What's Ours|QID|51696|M|49.26,34.29|Z|Stormsong Valley|N|From Rexxar.|PRE|51675;51691;51674|
 C Reclaiming What's Ours|QID|51696|M|49.58,34.77|Z|Stormsong Valley|NC|N|Go up to the top of the tower and sound the Warhorn.|
 T Reclaiming What's Ours|QID|51696|M|52.13,33.66|Z|Stormsong Valley|N|To Rexxar.|
 A Champion: Rexxar|QID|51753|M|52.13,53.66|Z|Stormsong Valley|N|From Rexxar.|PRE|51696|
@@ -213,7 +221,7 @@ A Breaking Kul Tiran Will|QID|51589|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Bli
 C Breaking Kul Tiran Will|QID|51589|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Tiragarde Sound.|
 T Breaking Kul Tiran Will|QID|51589|M|87.38,50.52|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
 A Into the Heart of Tiragarde|QID|51590|M|87.38,50.52|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|51589|
-R Timberfell Outpost|QID|51590|M|87.02,51.87;83.31,50.20;76.62,50.31;70.65,49.03;71.20,50.90|Z|Tiragarde Sound|CS|N|Follow the road out of the port  up to our new Outpost in Tiragarde Sound. There are guards on the bridge over Bridgeport, so be prepared to outrun them, avoid them, or kill them.|
+R Timberfell Outpost|ACTIVE|51590|M|87.02,51.87;83.31,50.20;76.62,50.31;70.65,49.03;71.20,50.90|Z|Tiragarde Sound|CS|N|Follow the road out of the port  up to our new Outpost in Tiragarde Sound. There are guards on the bridge over Bridgeport, so be prepared to outrun them, avoid them, or kill them.|
 T Into the Heart of Tiragarde|QID|51590|M|71.19,50.91|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
 A Our Mountain Now|QID|51591|M|71.19,50.91|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|51590|
 C Our Mountain Now|QID|51591|M|72.06,52.10|Z|Tiragarde Sound|QO|1|N|Kill the roughnecks.|
@@ -238,8 +246,8 @@ A Gunpowder Research|QID|51597|M|77.50,49.92|Z|Tiragarde Sound|N|From Lilian Vos
 A A Bit of Chaos|QID|51598|M|77.50,49.92|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51595|
 C A Bit of Chaos|QID|51598|M|82.16,48.61|Z|Tiragarde Sound|S|N|Kill Ashvane workers as you go. (you can most likely get enough without attacking the nuetral NPCs)|
 C Ammunition Acquisition|QID|51596|M|82.06,48.81|Z|Tiragarde Sound|NC|S|N|Pick up Ashvane Explosives as you go.|
-K Taskmaster Williams|QID|51597|M|79.13,46.83|Z|Tiragarde Sound|QO|2|T|Taskmaster Williams|N|Kill Taskmaster Williams to loot the Gunpowder Manufacturing Guide.|
-K Forgemaster Farthing|QID|51597|M|82.16,48.61|Z|Tiragarde Sound|QO|1|T|Forgemaster Farthing|N|Kill Forgemaster Farthing and loot the Ashvane Explosives Formula.|
+K Taskmaster Williams|QID|51597|M|79.13,46.83|Z|Tiragarde Sound|QO|2|T|Taskmaster Williams|N|Kill Taskmaster Williams to loot the Gunpowder Manufacturing Guide.|ACTIVE|51597|
+K Forgemaster Farthing|QID|51597|M|82.16,48.61|Z|Tiragarde Sound|QO|1|T|Forgemaster Farthing|N|Kill Forgemaster Farthing and loot the Ashvane Explosives Formula.|ACTIVE|51597|
 C Ammunition Acquisition|QID|51596|M|82.06,48.81|Z|Tiragarde Sound|US|N|Finish collecting the Ashvane Explosives|
 C A Bit of Chaos|QID|51598|M|82.16,48.61|Z|Tiragarde Sound|US|N|Finish killing the Ashvane workers.|
 T Ammunition Acquisition|QID|51596|M|77.50,49.93|Z|Tiragarde Sound|N|To Lilian Voss.|
@@ -252,7 +260,7 @@ A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Vo
 C The Bridgeport Ride|QID|51601|M|75.49,49.86|Z|Tiragarde Sound|QO|2|N|1/1 Ride past Captain Amalia Stone|
 C The Bridgeport Ride|QID|51601|M|76.99,49.22;74.22,52.88|Z|Tiragarde Sound|CS|NC|N|Hop on the horse, make a circle thru town and then ride out across the low bridge to where you set the bombs.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
-F Plunder Harbor|AVAILABLE|53065|M|72.18,51.92|Z|Tiragarde Sound|N|At Michaela Reed.|
+F Plunder Harbor|AVAILABLE|53065|M|72.18,51.92|Z|Tiragarde Sound|N|At Michaela Reed.|PRE|51601|
 b Port of Zandalar|AVAILABLE|53065|M|87.84,51.19|Z|Tiragarde Sound|N|Ask Erul Dawnbrook for a ride back to Zuldazar.|
 
 ; The Marshal's Grave - 4.5k/6k Friendly The Honorbound;From here down - taken from wowhead - may be errors
@@ -264,8 +272,8 @@ C A Stroll Through a Cemetery|QID|51784|QO|1|M|58.46,62.99|Z|Zuldazar|N|Tell Tat
 F Krazzlefrazz Outpost|ACTIVE|51784|M|19.16,43.31|Z|Drustvar|N|At Tan Lotuswind.|
 R Barrowknoll Cemetery|ACTIVE|51784|M|37.69,33.30;46.27,35.46;52.61,39.67|CS|Z|Drustvar|N|Across the river, run generally east towards Barrowknoll cemetery|
 T A Stroll Through a Cemetery|QID|51784|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
-A Examining the Epitaphs|QID|51785|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|
-A State of Unrest|QID|51786|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|
+A Examining the Epitaphs|QID|51785|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51784|
+A State of Unrest|QID|51786|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51784|
 A Our Lot in Life|QID|51787|M|61.32,51.11|Z|Drustvar|N|From Lilian Voss.|PRE|51784|
 C State of Unrest|QID|51786|M|61.20,47.28|Z|Drustvar|S|N|Kill the Enraged Spirits as you go.|
 C Our Lot in Life|QID|51787|M|61.20,47.28|Z|Drustvar|S|NC|N|Pick Gravebloom as you go.|
@@ -275,7 +283,7 @@ C State of Unrest|QID|51786|M|61.20,47.28|Z|Drustvar|US|N|Finish killing your qu
 T Our Lot in Life|QID|51787|M|61.32,51.11|Z|Drustvar|N|To Lilian Voss.|
 T Examining the Epitaphs|QID|51785|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 T State of Unrest|QID|51786|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
-A The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51785+51786+51787|
+A The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51785;51786;51787|
 C The Crypt Keeper|QID|51788|M|59.38,49.12|Z|Drustvar|T|Brutus Thornton|N|Find Brutus and kill him to collect the key.|
 T The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 A What Remains of Marshal M. Valentine|QID|51789|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51788|
@@ -283,7 +291,7 @@ C What Remains of Marshal M. Valentine|QID|51789|QO|1|M|61.12,48.87|Z|Drustvar|N
 C What Remains of Marshal M. Valentine|QID|51789|QO|2|M|61.11,48.45|Z|Drustvar|N|Several undead come to investigate, kill them, keep at it until Echo of Marshall M. Valentine shows up and kill him too.|
 C What Remains of Marshal M. Valentine|QID|51789|QO|5|M|61.11,48.99|Z|Drustvar|NC|N|Go inside the crypt, wait a moment and pick up the book when it becomes interactive.|
 T What Remains of Marshal M. Valentine|QID|51789|M|61.17,48.73|Z|Drustvar|N|To Nathanos Blightcaller, who is with you at the crypt.|
-H The Great Seal|AVAILABLE|53066|N|Hearth or stick around and do WQs.  You have a bunch more faction to gather before the next quest arc for the war campaign is available.|
+H The Great Seal|AVAILABLE|53066|N|Hearth or stick around and do WQs.  You have a bunch more faction to gather before the next quest arc for the war campaign is available.|PRE|51789|
 
 ; Death of a Tidesage - 3k/12k Honored The Honorbound
 N Rep Gated|AVAILABLE|53066|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 3K into honored.|PRE|51789|REP|The Honorbound;2157;honored;3000;true|
@@ -304,8 +312,8 @@ A Commander and Captain|QID|51818|M|62.62,31.83|Z|Stormsong Valley|N|FromThomas 
 A They Will Know Fear|QID|51805|M|62.64,31.87|Z|Stormsong Valley|N|From Lilian Voss.|PRE|51798|
 C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|S|NC|N|Run near the civilians to terrorize them as you go.|
 C Scattering Our Enemies|QID|51819|M|62.62,39.89|Z|Stormsong Valley|S|N|Kill the agro mobs as you go.|
-K Captian Malia|QID|51818|QO|1|M|62.62,39.89|Z|Stormsong Valley|T|Captain Malia|N|Kill Catain Malia.|
-K Commander Augustine|QID|51818|QO|2|M|58.38,35.65|Z|Stormsong Valley|T|Commander Augustine|N|Kill Commander Augustine and loot the book.|
+K Captian Malia|QID|51818|QO|1|M|62.62,39.89|Z|Stormsong Valley|T|Captain Malia|N|Kill Catain Malia.|ACTIVE|51818|
+K Commander Augustine|QID|51818|QO|2|M|58.38,35.65|Z|Stormsong Valley|T|Commander Augustine|N|Kill Commander Augustine and loot the book.|ACTIVE|51818|
 C Scattering Our Enemies|QID|51819|M|62.62,39.89|Z|Stormsong Valley|US|NC|N|Finish your quota of enemies.|
 C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|US|N|Finish terrorizing the civilians.|
 T They Will Know Fear|QID|51805|M|62.64,31.87|Z|Stormsong Valley|N|To Lilian Voss.|
@@ -353,7 +361,7 @@ T Biolumi-Nuisance|QID|52770|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Au
 A The Undersea Ledge|QID|52772|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52769+52770|
 T The Undersea Ledge|QID|52772|M|67.77,55.40|Z|The Great Sea!Instance!Azeroth|N|Swim to the next waypoint and the quest will autocomplete.|
 A Water-Breathing Dragon|QID|52773|M|67.77,55.40|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52772|
-K Daenistrasz|QID|52773|QO|1|M|68.33,54.76|Z|The Great Sea!Instance!Azeroth|T|Daenistrasz|N|Kill the water breathing dragon.||
+K Daenistrasz|QID|52773|QO|1|M|68.33,54.76|Z|The Great Sea!Instance!Azeroth|T|Daenistrasz|N|Kill the water breathing dragon.|ACTIVE|52773|
 T Water-Breathing Dragon|QID|52773|M|68.33,54.76|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
 A Grab and Go|QID|52774|M|68.33,54.76|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52773|
 C Grab and Go|QID|52774|QO|1|M|68.23,55.61|Z|The Great Sea!Instance!Azeroth|N|Pick up Valentine's body|
@@ -376,9 +384,9 @@ T When a Plan Comes Together|QID|52183|M|86.95,53.08|Z|Tiragarde Sound|N|To Nath
 A The Bulk of the Guard|QID|52186|M|86.95,53.08|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|52183|
 A Old Colleagues|QID|52187|M|86.95,53.08|Z|Tiragarde Sound|N|From Captain Amalia Stone.|PRE|52183|
 C The Bulk of the Guard|QID|52186|M|87.21,52.72|Z|Tiragarde Sound|S|N|Hobart Grapplehammer will fly you out to the larger ship, once you arrive, kill guards as you go.|
-K Captain Gastrod|QID|52187|QO|1|M|91.41,48.01|Z|Tiragarde Sound|T|Captain Gastrod|N|Captain Gastrod can be found at the front of the ship in the traditional Captain's room.|
-K Guard Commander Trunksal|QID|52187|QO|2|M|92.05,49.67|Z|Tiragarde Sound|T|Guard Commander Trunksal|N|Kill Guard Commander Trunksal belowdeck.|
-K Helmsman Miria|QID|52187|QO|3|M|92.16,79.76;92.38,51.14|CS|Z|Tiragarde Sound|T|Helmsman Miria|N|Ask Hobart for a ride to the other ship. When you arrive, find Helmsan Miria at the helm.|
+K Captain Gastrod|QID|52187|QO|1|M|91.41,48.01|Z|Tiragarde Sound|T|Captain Gastrod|N|Captain Gastrod can be found at the front of the ship in the traditional Captain's room.|ACTIVE|52187|
+K Guard Commander Trunksal|QID|52187|QO|2|M|92.05,49.67|Z|Tiragarde Sound|T|Guard Commander Trunksal|N|Kill Guard Commander Trunksal belowdeck.|ACTIVE|52187|
+K Helmsman Miria|QID|52187|QO|3|M|92.16,79.76;92.38,51.14|CS|Z|Tiragarde Sound|T|Helmsman Miria|N|Ask Hobart for a ride to the other ship. When you arrive, find Helmsan Miria at the helm.|ACTIVE|52187|
 C The Bulk of the Guard|QID|52186|M|91.62,52.14|Z|Tiragarde Sound|US|N|Finish up your quota of guards.|
 T Old Colleagues|QID|52187|M|91.62,52.14;86.95,53.08|CS|Z|Tiragarde Sound|N|Ask Hobart for a ride back to the Harbor, where you will find and turn in quest to Captain Amalia Stone.|
 T The Bulk of the Guard|QID|52186|M|86.92,53.12|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
@@ -390,9 +398,9 @@ A Forfeit Souls|QID|52189|M|71.13,84.88|Z|Tiragarde Sound|N|FromThomas Zelling.|
 A Tidesage Teachings|QID|52188|M|71.13,84.88|Z|Tiragarde Sound|N|FromThomas Zelling.|PRE|52185|
 C Forfeit Souls|QID|52189|M|65.06,81.19|Z|Tiragarde Sound|S|N|Kill Tidesages as you go.|
 C Tidesage Teachings|QID|52188|M|65.06,81.19|Z|Tiragarde Sound|S|N|The Tomes drop off of the tidesages you are killing.|
-K Archivist Medira|QID|52184|QO|1|M|67.41,82.06|Z|Tiragarde Sound|T|Archivist Medira|N|Kill Archivist Medira to loot the Compass of Clarity|
-K Brother Marrin|QID|52184|QO|2|M|63.97,80.76|Z|Tiragarde Sound|T|Brother Marrin|N|Kill Brother Marrin to loot the Curio of the Depths.|
-K Unleashed Tidebreaker|QID|52184|QO|3|M|60.12,83.47|Z|Tiragarde Sound|T|Unleashed Tidebreaker|N|Kill Unleashed Tidebreaker to loot Key of the Sea.|
+K Archivist Medira|QID|52184|QO|1|M|67.41,82.06|Z|Tiragarde Sound|T|Archivist Medira|N|Kill Archivist Medira to loot the Compass of Clarity|ACTIVE|52184|
+K Brother Marrin|QID|52184|QO|2|M|63.97,80.76|Z|Tiragarde Sound|T|Brother Marrin|N|Kill Brother Marrin to loot the Curio of the Depths.|ACTIVE|52184|
+K Unleashed Tidebreaker|QID|52184|QO|3|M|60.12,83.47|Z|Tiragarde Sound|T|Unleashed Tidebreaker|N|Kill Unleashed Tidebreaker to loot Key of the Sea.|ACTIVE|52184|
 C Tidesage Teachings|QID|52188|M|65.06,81.19|Z|Tiragarde Sound|US|N|Finish collecting the Tomes of Tidesage Research.|
 C Forfeit Souls|QID|52189|M|65.06,81.19|Z|Tiragarde Sound|US|N|Finish up your quota of Tidesages.|
 T Relics of Ritual|QID|52184|M|71.13,84.88|Z|Tiragarde Sound|N|ToThomas Zelling.|
@@ -408,7 +416,7 @@ C Return to the Harbor|QID|52990|M|70.82,84.55|Z|Tiragarde Sound|NC|N|Return to 
 T Return to the Harbor|QID|52990|M|86.95,53.08|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
 A Life Held Hostage|QID|52191|M|86.95,53.08|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|52990|
 C Life Held Hostage|QID|52191|QO|1|M|87.14,52.38|Z|Tiragarde Sound|NC|N|Go outside and down the stairs.|
-K General Cadarin|QID|52191|QO|2|M|87.44,52.29|Z|Tiragarde Sound|T|General Cadarin|N|Kill General Cadarin.|
+K General Cadarin|QID|52191|QO|2|M|87.44,52.29|Z|Tiragarde Sound|T|General Cadarin|N|Kill General Cadarin.|ACTIVE|52191|
 T Life Held Hostage|QID|52191|M|86.95,53.08|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
 A The Aid of the Tides|QID|52192|M|86.95,53.08|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|52191|
 T The Aid of the Tides|QID|52192|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|

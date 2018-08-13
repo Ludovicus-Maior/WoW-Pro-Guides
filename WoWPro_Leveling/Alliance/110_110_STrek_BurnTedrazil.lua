@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2018-08-13 12:55
+-- Who: Ludovicus_Maior
+-- Log:  "Chamber of Heart"
+
+-- URL: http://wow-pro.com/node/3776/revisions/29488/view
 -- Date: 2018-08-08 21:31
 -- Who: Ludovicus_Maior
 -- Log: commas, not semis!
@@ -288,14 +293,14 @@ R Silithus: The Wound|ACTIVE|53026|M|68.36,86.30|Z|Silithus|N|Continue to Silith
 T A Dying World|QID|53026|M|42.23,44.27|Z|Silithus|N|To Magni Bronzebeard.|
 A The Heart of Azeroth|QID|51211|M|42.12,44.19|Z|Silithus|N|From Magni Bronzebeard.|PRE|53026|
 C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the teleporter to travel to the Chamber of the Heart.|
-C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber Of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
-T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber Of Heart!Dungeon|N|To Magni Bronzebeard.|
-A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber Of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211|
-C Infusing the Heart|QID|52428|QO|1|M|52.32,58.14;55.48,60.73;54.70,69.61;48.32,73.66;45.13,62.64|CN|Z|Chamber Of Heart!Dungeon|NC|N|Go to several of the Azerite Cracks around the room and use your special action button.|
-C Infusing the Heart|QID|52428|QO|3|M|49.98,64.74|Z|Chamber Of Heart!Dungeon|NC|N|Move to the center of the room and use your special action button, wait until the bar fills.|
-T Infusing the Heart|QID|52428|M|50.23,53.83|Z|Chamber Of Heart!Dungeon|N|To Magni Bronzebeard.|
-A The Speakers Imperative|QID|51403|M|50.23,53.83|Z|Chamber Of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|52428|
-C The Speakers Imperative|QID|51403|M|50.10,30.39|Z|Chamber Of Heart!Dungeon|NC|N|Use the provided portal to return to Stormwind.|
+C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
+T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
+A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211|
+C Infusing the Heart|QID|52428|QO|1|M|52.32,58.14;55.48,60.73;54.70,69.61;48.32,73.66;45.13,62.64|CN|Z|Chamber of Heart!Dungeon|NC|N|Go to several of the Azerite Cracks around the room and use your special action button.|
+C Infusing the Heart|QID|52428|QO|3|M|49.98,64.74|Z|Chamber of Heart!Dungeon|NC|N|Move to the center of the room and use your special action button, wait until the bar fills.|
+T Infusing the Heart|QID|52428|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
+A The Speakers Imperative|QID|51403|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|52428|
+C The Speakers Imperative|QID|51403|M|50.10,30.39|Z|Chamber of Heart!Dungeon|NC|N|Use the provided portal to return to Stormwind.|
 T The Speakers Imperative|QID|51403|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|
 A Tides of War|QID|46727|M|27.64,21.29|Z|Stormwind City|N|From Halford Wyrmbane.|PRE|51403|
 C Tides of War|QID|46727|QO|1|M|83.47,29.62;85.14,32.52|CS|Z|Stormwind City|NC|N|Fly to Stormwind Keep and go to the Throneroom and listen to the council.|

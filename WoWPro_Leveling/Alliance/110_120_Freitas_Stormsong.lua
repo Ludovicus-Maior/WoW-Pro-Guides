@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-08-13 13:02
+-- Who: Ludovicus_Maior
+-- Log: Added missing CS tags
+
+-- URL: http://wow-pro.com/node/3767/revisions/29499/view
 -- Date: 2018-08-13 07:58
 -- Who: Lemmer
 -- Log: Final playtesting edits up to step 202 (A A Pocketful of Shells|QID|50041|...).  Should be very clean up to that point.
@@ -306,8 +311,8 @@ C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|4|NC|N|Destroy the same tot
 C Look Out!|QID|50354|M|42.50,67.69|S|N|Kill the scouts - you can use the dart to put them to sleep.|
 C Boaring Company|QID|50353|M|45.44,72.50|QO|1|NC|N|Free the farmer.|
 C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|1|NC|N|Southern totem here.|
-C Boaring Company|QID|50353|M|46.23,72.73;47.25,74.32|QO|3|NC|N|Two more farmers in this cave, bear right.|
-C Boaring Company|QID|50353|M|46.83,72.60;47.89,73.35|QO|1|NC|N|Back out, and into the next cave for two more.|
+C Boaring Company|QID|50353|M|46.23,72.73;47.25,74.32|CS|QO|3|NC|N|Two more farmers in this cave, bear right.|
+C Boaring Company|QID|50353|M|46.83,72.60;47.89,73.35|CS|QO|1|NC|N|Back out, and into the next cave for two more.|
 C Boaring Company|QID|50353|M|46.51,71.97|QO|2|N|Back out and next farmer here.|
 C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|2|NC|N|Central totem here.|
 C Boaring Company|QID|50353|M|46.17,72.04|QO|2|N|Last farmer here.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2018-08-13 12:59
+-- Who: Ludovicus_Maior
+-- Log:  |NC|N|Blah
+
+-- URL: http://wow-pro.com/node/3293/revisions/29242/view
 -- Date: 2018-04-24 19:34
 -- Who: Emmaleah
 -- Log: Various edits to bring to current state of game (quest items not looted, QO# adj, etc)
@@ -449,7 +454,7 @@ A Steady as a Rock? |QID|12014|PRE|12010|M|67.5,15.3|N|From the corpse of Survey
 
 K Subterranean Thresher |QID|12014|QO|2|N|In the water.|; Portable Seismograph: 1/1
 C Third Prophecy |QID|11993|QO|3|NC|N|Get out of the water, cross the small bridge east, find the Third Rune Plate.|M|68.50,16.16|; Third Prophecy Deciphered: 1/1
-C First Prophecy |QID|11993|QO|1|N|NC|A few paces northeast, find the First Rune Plate.|M|69.00,14.54|; First Prophecy Deciphered: 1/1
+C First Prophecy |QID|11993|QO|1|NC|N|A few paces northeast, find the First Rune Plate.|M|69.00,14.54|; First Prophecy Deciphered: 1/1
 C The Runic Prophecies |QID|11993|QO|2|NC|N|A few paces east, find the Second Rune Plate.|M|70.13,14.62|
 C Into the Breach |QID|11985|N|Kill Iron Thane Argrum at the very end of the trench.|M|69.78,13.54|
 C Steady as a Rock? |QID|12014|U|35837|N|Cross the small bridge, use the [Portable Seismograph] located there and loot the [Thor Modan Stability Profile].|M|70.63,13.42|
