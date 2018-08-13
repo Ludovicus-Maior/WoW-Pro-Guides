@@ -378,6 +378,9 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
+	if WoWProCharDB.EnablePetBattles == nil then
+	    WoWProCharDB.EnablePetBattles = true
+	end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
