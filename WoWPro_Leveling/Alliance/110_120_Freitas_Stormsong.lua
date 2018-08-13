@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-08-13 22:29
+-- Who: Lemmer
+-- Log: Playtesting through middle 1/3rd of guide and bug fixes (up to step 405).
+
+-- URL: http://wow-pro.com/node/3767/revisions/29502/view
 -- Date: 2018-08-13 13:02
 -- Who: Ludovicus_Maior
 -- Log: Added missing CS tags
@@ -109,6 +114,7 @@ A A Saur Point|QID|52795|M|64.88,76.79|N|From Mallory Hood.|
 C A Saur Point|QID|52795|M|65.36,77.99|N|Kill Sourtooth in the cave.|
 T A Saur Point|QID|52795|M|64.88,76.79|N|Back to Mallory.|
 C Circle the Wagons|QID|52793|M|63.29,77.74|QO|2|N|Darion is here.|
+K Ice Sickle|QID|98765|M|64.55,81.24|N|Found at the top of the waterfall - path up to him starts here.  Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
 C Sometimes Less Is More|QID|52796|M|63.10,75.25|US|N|Finish up with saurolisks.|
 T Sometimes Less Is More|QID|52796|M|60.17,70.51|N|To Marilyn Hood.|
 T Circle the Wagons|QID|52793|M|60.17,70.51|N|To Marilyn Hood.|
@@ -281,25 +287,25 @@ T Farming Stimulator|QID|50136|M|51.59,65.96|N|To Farmer Burton.|
 f The Amber Waves|M|50.75,70.22|AVAILABLE|49886|N|Pick up the flight path from Karla.|
 A Follow Your Nose|QID|49886|M|51.01,70.17|N|From Houndmaster Archibald.|
 A Sic 'Em!|QID|49960|M|51.01,70.17|N|From Houndmaster Archibald.|
-K Vinespeaker Ratha|QID|98765|M|51.49,67.78|N|At the bottom of the cave. Silver Elite to kill for loot and achievement.|ITEM|158299|RANK|2|
+K Vinespeaker Ratha|QID|98765|M|51.49,67.78|N|At the bottom of the cave.  Silver Elite to kill for loot and achievement.|ITEM|158299|RANK|2|
 C Sic 'Em!|QID|49960|M|53.22,66.70|N|Razorgnarl is at the bottom of this cave.|
 C Follow Your Nose|QID|49886|M|51.01,70.17|N|Use your extra action button FROM RANGE on the red clouds of dust and kill the tunneler which comes out. If you get too close, they will not count for the quest.|
-T Follow Your Nose|QID|49886|M|51.01,70.17|N|To Houndmaster Archibald.|
-T Sic 'Em!|QID|49960|M|51.01,70.17|N|To Houndmaster Archibald.|
+T Follow Your Nose|QID|49886|M|51.01,70.17|N|From Houndmaster Archibald.|
+T Sic 'Em!|QID|49960|M|51.01,70.17|N|From Houndmaster Archibald.|
 T There's Gold in Them There Fields|QID|50157|M|50.75,73.18|N|To Farmer Goldfield, on the 2nd floor of this building.|
 A A Pocketful of Shells|QID|50041|M|50.76,73.15|N|From Farmer Goldfield.|
 A A Reason to Stay|QID|50065|M|49.85,73.54|N|From a pocketwatch on the ground.|
 C A Pocketful of Shells|QID|50041|M|50.76,73.15|S|U|160561|N|'Skin' the boars with this after you kill them.|
-C A Reason to Stay|QID|50065|M|50.04,71.45|N|Pick up the sword here.|
+C A Reason to Stay|QID|50065|M|50.04,71.45|N|Pick up the sword here – check this step off when you get it.|
 C A Reason to Stay|QID|50065|M|48.89,71.23|N|Pick up the locket in the building.|
 C A Pocketful of Shells|QID|50041|M|50.76,73.15|US|U|160561|N|Finish with boars.|
 T A Pocketful of Shells|QID|50041|M|50.76,73.15|N|From Farmer Goldfield.|
 T A Reason to Stay|QID|50065|M|49.85,73.54|N|From Farmer Goldfield.|
 A Goldfield's War|QID|50069|M|50.75,73.13|N|From Farmer Goldfield.|
-C Goldfield's War|QID|50069|M|50.76,73.00|QO|1|N|Pick up the rifle right next to Goldfield and help him out.  Click on then kill the invaders with ability 1.  Ability 2 will stun them.|
+C Goldfield's War|QID|50069|M|50.76,73.00|QO|1|N|Pick up the rifle right next to Goldfield and help him out. Click on then kill the invaders with ability 1. Ability 2 will stun them. Kill the final boss when he comes out.|
 T Goldfield's War|QID|50069|M|50.75,73.13|N|From Farmer Goldfield.|
 A Golden Fields Forever|QID|50088|M|50.75,73.13|N|From Farmer Goldfield.|
-C Golden Fields Forever|QID|50088|M|50.75,73.13|N|Pick carnations here.|
+C Golden Fields Forever|QID|50088|M|51.59,75.17|N|Pick carnations here, on the other side of tree.|
 T Golden Fields Forever|QID|50088|M|50.67,77.03|N|To Goldfield by the grave.|
 A Deal's Off|QID|50622|M|50.67,77.03|N|From Farmer Goldfield.|
 K The Lichen King|QID|98765|M|51.78,79.05|N|Aka - Bolivar Spore-Dragon.Silver Elite to kill for loot and achievement.|ITEM|155222|RANK|2|
@@ -307,70 +313,72 @@ T Deal's Off|QID|50622|M|44.76,64.53|N|To Mayor Roz in the house.|
 A Look Out!|QID|50354|M|44.76,64.53|N|From Mayor Roz.|
 A Boaring Company|QID|50353|M|44.73,64.61|N|From Sergeant Calvin.|
 A Totems, Totems, Totems!|QID|50111|M|42.46,67.58;44.04,72.44|CS|N|Head up to the highlands, and accept the quest from the totem.|
-C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|4|NC|N|Destroy the same totem.|
-C Look Out!|QID|50354|M|42.50,67.69|S|N|Kill the scouts - you can use the dart to put them to sleep.|
-C Boaring Company|QID|50353|M|45.44,72.50|QO|1|NC|N|Free the farmer.|
-C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|1|NC|N|Southern totem here.|
-C Boaring Company|QID|50353|M|46.23,72.73;47.25,74.32|CS|QO|3|NC|N|Two more farmers in this cave, bear right.|
-C Boaring Company|QID|50353|M|46.83,72.60;47.89,73.35|CS|QO|1|NC|N|Back out, and into the next cave for two more.|
-C Boaring Company|QID|50353|M|46.51,71.97|QO|2|N|Back out and next farmer here.|
-C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|2|NC|N|Central totem here.|
-C Boaring Company|QID|50353|M|46.17,72.04|QO|2|N|Last farmer here.|
+C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|1|NC|N|Destroy the same totem.|
+C Look Out!|QID|50354|M|42.50,67.69|S|U|156516|N|Kill the scouts - you can use the dart to put them to sleep.|
+C Boaring Company|QID|50353|M|45.44,72.50|QO|1|NC|N|Free the farmer – check this off when you get him.|
+C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|4|NC|N|Southern totem here.|
+C Boaring Company|QID|50353|M|46.23,72.73;47.25,74.32|CS|QO|1|NC|N|Two more farmers in this cave, bear right – check this off when you get him.|
+C Boaring Company|QID|50353|M|46.83,72.60;47.89,73.35|CS|QO|1|NC|N|Back out, and into the next cave for two more – check this off when you get him.|
+C Boaring Company|QID|50353|M|46.51,71.97|QO|1|N|Back out and next farmer here – check this off when you get him.|
+C Totems, Totems, Totems!|QID|50111|M|46.41,72.10|QO|3|NC|N|Central totem here.|
+C Boaring Company|QID|50353|M|46.17,72.04|QO|2|N|Farmer Deal here.|
 $ Small Treasure Chest|M|46.50,71.27|N|Here.|
-C Boaring Company|QID|50353|M|46.17,72.04|N|Farmer Deal down here.|
-C Totems, Totems, Totems!|QID|50111|M|47.00,70.22|QO|3|N|Last totem down the hill and around the corner.|
+C Totems, Totems, Totems!|QID|50111|M|47.00,70.22|QO|2|N|Last totem down the hill and around the corner.|
+C Boaring Company|QID|50353|M|47.00,70.22|QO|1|N|Final farmers down here if you need more.|
 C Look Out!|QID|50354|M|42.50,67.69|US|N|Finish with scouts.|
 T Look Out!|QID|50354|M|45.88,70.12;46.01,73.88;46.59,74.04|CS|N|Head up to the top for the turn-in.|
 T Boaring Company|QID|50353|M|46.65,73.86|N|To Sergeant Calvin.|
 T Totems, Totems, Totems!|QID|50111|M|46.65,73.86|N|To Calvin.|
 A War Pigs|QID|50363|M|46.65,73.86|N|From Sergeant Calvin.|
 A Run For the Hills|QID|50365|M|46.65,73.86|N|From Sergeant Calvin.|
-A Steal Them Back|QID|50340|M|46.31,77.03|N|Head over to the left.|
+A Steal Them Back|QID|50340|M|46.31,77.03|N|Grab this one from the crate over to the left.|
 C War Pigs|QID|50363|M|46.65,73.86|NC|S|N|Click on the pigs along the way.|
-C Steal Them Back|QID|50340|M|47.41,77.09|QO|2|NC|N|Into the cave to the left.|
-C Run For the Hills|QID|50365|M|46.33,78.17|QO|3|NC|N|Up inside the cave - there is also a crate inside.|
-C Steal Them Back|QID|50340|M|46.21,80.16|QO|1|N|There is another in the next cave.|
-C Run For the Hills|QID|50365|M|44.86,77.33|N|Up inside the cave - there is also a crate inside.|
-C Run For the Hills|QID|50365|M|45.82,77.07;43.54,78.58|CS|N|Up the hill and inside the cave - there is also a crate inside.|
-C Steal Them Back|QID|50340|M|42.72,78.85|N|Last one here.|
+C Steal Them Back|QID|50340|M|47.41,77.09|QO|1|NC|N|Into the cave to the left – click this off when you get it.|
+C Run For the Hills|QID|50365|M|46.33,78.17|QO|1|NC|N|Up inside the cave destroy the stockpile and grab the crate.|
+C Steal Them Back|QID|50340|M|46.21,80.16|QO|1|N|There is another in the next cave – click this off when you get it.|
+C Run For the Hills|QID|50365|M|44.86,77.33|QO|2|N|Destroy the stockpile inside the cave and grab the crate.|
+C Run For the Hills|QID|50365|M|45.82,77.07;43.54,78.58|CS|QO|3|N|Final stockpile in this cave with another crate.|
+C Steal Them Back|QID|50340|M|42.72,78.85|N|Anohtre crate here is you need one more.|
 C War Pigs|QID|50363|M|46.65,73.86|US|N|Click on the pigs along the way.|
 T Steal Them Back|QID|50340|M|46.65,73.82|N|Back to Sergeant Calvin.|
 T War Pigs|QID|50363|M|46.65,73.86|N|From Sergeant Calvin.|
 T Run For the Hills|QID|50365|M|46.65,73.86|N|Back to Sergeant Calvin.|
 A Anger in a Bottle|QID|50367|M|46.65,73.82|N|From Sergeant Calvin.|
-K Wagga Snarltusk|QID|98765|M|45.83,74.34|N|Start of the path down to Wagga - follow the blue flames.  Silver Elite to kill for loot and achievement.|ITEM|154431|RANK|2|
 C Anger in a Bottle|QID|50367|M|45.96,73.25|N|Head back down into the fray.  Most mobs drop this.|
 T Anger in a Bottle|QID|50367|M|46.65,73.82|N|To Sergeant Calvin.|
 A Terror of the Kraul|QID|50368|M|46.64,73.85|N|From Sergeant Calvin.|
-C Terror of the Kraul|QID|50368|M|45.84,74.41;38.26,49.61|CS|N|Kill Bramblefist inside the cave.|
-T Terror of the Kraul|QID|50368|M|71.22,52.33|N|To Sergeant Calvin.  (note this coord is in a cave).|
+C Terror of the Kraul|QID|50368|M|45.84,74.41|N|Follow the blue flames all the way to the back of the cave to kill Bramblefist.|
+K Wagga Snarltusk|QID|98765|M|45.83,74.34|N|Wagga was not showing up on beta, so may need to pass on this rare until live – if so, skip quest.  Start of the path down to Wagga - follow the blue flames.  Silver Elite to kill for loot and achievement.|ITEM|154431|RANK|2|
+T Terror of the Kraul|QID|50368|Z| Thornheart!Dungeon |M|71.22,52.33|N|To Sergeant Calvin.  (note this coord is in a cave).|
 A A Question of Quillpower|QID|50640|M|71.22,52.33|Z|Thornheart!Dungeon|N|From Sergeant Calvin.  Hop on the boar and ride back to Mayor Roz.|
 R A Question of Quillpower|M|50.75,70.21|ACTIVE|50640|N|Hop on the boar and ride out of the cave.|
-K Osca the Bloodied|QID|98765|M|42.12,63.13|N|Silver Elite to kill for loot and achievement.|ITEM|159169|RANK|2|
+f Deadwash|M|42.71,57.37|AVAILABLE|51218|N|Pick up the flight point from Malorian Tailwind on the way.|
+K Osca the Bloodied|QID|98765|M|42.12,63.13|N|Back on the road, silver Elite to kill for loot and achievement.|ITEM|159169|RANK|2|
 A Undelivered Package|QID|51218|M|38.43,62.99|N|Pick up from a package on the road.|
 K Poacher Jane|QID|98765|M|34.64,67.98|N|Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
 f Millstone Hamlet|M|30.80,66.60|AVAILABLE|49818|N|Pick up the flight point from Alexa Davenport.|
 F Brennadam|AVAILABLE|49818|N|Fly to Brennadam for turn-in.|
 A Trouble at Fort Daelin|QID|49818|M|59.52,69.95|N|From Squire Augustus III.|
-T A Question of Quillpower|QID|50640|M|58.63,70.44|Z|Thornheart!Dungeon|N|From Sergeant Calvin.|
+T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|
 r Repair/Restock|M|59.79,70.23|ACTIVE|51218|N|At Handyman Ebert.|
 F Millstone Hamlet|ACTIVE|51218|N|Fly back to the Hamlet.|
 T Undelivered Package|QID|51218|M|30.34,66.81|N|To Marie Davenport.|
 A Be A Dear|QID|51214|M|30.34,66.81|N|From Marie Davenport.|
-C Be A Dear|QID|51214|M|29.79,67.05|N|Grab some logs here.|
+C Be A Dear|QID|51214|M|29.79,67.05|QO|3|N|Grab some logs here.|
 A Gunpowder Plot|QID|51492|M|29.81,67.10|N|From Charles Davenport.|
 A Aww, Rats|QID|51205|M|29.81,67.10|N|From Charles Davenport.|
 A Basement Dwellers|QID|51251|M|29.81,67.10|N|From Charles Davenport.|
 A WANTED: Razorclaw Alpha|QID|51204|M|30.69,68.14|N|From the bulletin board.|
-C Be A Dear|QID|51214|M|29.79,67.05|N|Grab the water here.|
 A WANTED: Thundersnout|QID|49730|M|30.69,68.14|N|From the bulletin board.|
+C Be A Dear|QID|51214|M|30.67,67.60|QO|1|N|Grab the water here.|
 A Cry Wolf|QID|51203|M|31.85,69.52|N|From Shepherd Milbrooke.|
-C Cry Wolf|QID|51203|M|30.20,72.21|S|N|Complete the quest.|
-C WANTED: Razorclaw Alpha|QID|51204|M|27.30,76.28;28.01,78.07|CS|QO|2|N|In the cave up on the hill.|
+A The Black Sheep|QID|51200|M|31.85,69.52|N|From Shepherd Milbrooke.|
+C Cry Wolf|QID|51203|M|30.20,72.21|S|N|Kill the razorclaws as you go about the area.|
+C WANTED: Razorclaw Alpha|QID|51204|M|27.30,76.28;28.01,78.07|CS|N|In the cave up on the hill.|
 C The Black Sheep|QID|51200|M|26.55,75.36|N|Save Millie.|
 C Cry Wolf|QID|51203|M|30.20,72.21|US|N|Finish up.|
 C Basement Dwellers|QID|51251|M|28.64,71.17|S|N|Kill spiders around the area.|
-C Be A Dear|QID|51214|M|29.27,69.65|N|Grab the flour here.|
+C Be A Dear|QID|51214|M|29.27,69.65|QO|2|N|Grab the flour here.|
 K Broodmother|QID|98765|M|29.51,69.57|N|In the basement.  Silver Elite to kill for loot and achievement.|ITEM|160470|RANK|2|
 C Basement Dwellers|QID|51251|M|28.64,71.17|US|N|Finish with spiders.|
 T The Black Sheep|QID|51200|M|31.85,69.52|N|To Shepherd Milbrooke|
@@ -378,14 +386,15 @@ T Cry Wolf|QID|51203|M|31.85,69.52|N|To Shepherd Milbrooke.|
 T WANTED: Razorclaw Alpha|QID|51204|M|27.30,76.28;28.01,78.07|CS|N|To Shepherd Milbrooke.|
 C Aww, Rats|QID|51205|M|28.37,66.74|U|159882|N|Click on the small rats to collect them.  You can use the item to stun them.|
 C Gunpowder Plot|QID|51492|M|28.37,66.74|N|Kill the big rats for gunpowder.|
+K Severus the Outcast|QID|98765|M|22.15,72.83|N|Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
 T Aww, Rats|QID|51205|M|29.81,67.10|N|To Charles Davenport.|
 T Basement Dwellers|QID|51251|M|29.81,67.10|N|To Charles Davenport.|
 T Be A Dear|QID|51214|M|30.34,66.81|N|To Marie Davenport.|
 T Gunpowder Plot|QID|51492|M|29.81,67.10|N|From Charles Davenport.|
 A Milking Goats|QID|51215|M|30.34,66.80|N|From Marie Davenport.|
 $ Curious Grain Sack|M|32.13,66.12|N|Inside the house in a barrel.|
-C Milking Goats|QID|51215|M|33.71,69.95|S|U|159782|N|Milk the Mother Goats around the edges of the ettin camp.  Note you can do this while mounted.|
-$ Ancient Tidesage Scroll|M|31.95,72.90|N|Examine this here (for some achievement??)|
+C Milking Goats|QID|51215|M|33.71,69.95|S|U|159782|N|Milk the Mother Goats around the edges of the ettin camp. Note you can do this while mounted.  If you milk the male goats, they kick you.|
+$ Ancient Tidesage Scroll|M|31.95,72.90|N|Examine this here (for later achieve) – click on this step to close.|
 C Milking Goats|QID|51215|M|33.71,69.95|US|NC|N|Milk the Mother Goats around the edges of the ettin camp.  Note you can do this while mounted.|
 T Milking Goats|QID|51215|M|30.34,66.80|N|To Marie Davenport.|
 A Cookies and Cream|QID|51335|M|30.34,66.80|N|From Marie Davenport.|
@@ -435,7 +444,6 @@ C Facing the Invaders|QID|50644|M|32.04,42.47|S|N|Kill the naga as you go.|
 C Eeling in a Big One|QID|50645|M|32.04,42.47|S|N|Kill and loot the little eels.|
 A An Illegible Scroll|QID|49832|M|32.21,40.02|N|Pick up quest from scroll on beach.|
 K Seabreasker Skoloth|QID|98765|M|33.64,37.93|N|Silver Elite to kill for loot and achievement.|ITEM|160477|RANK|2|
-K Severus the Outcast|QID|98765|M|22.15,72.83|N|Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
 C Eeling in a Big One|QID|50645|M|34.60,42.06|US|N|Finish up with eels.|
 C Facing the Invaders|QID|50644|M|32.04,42.47|US|N|Finish with naga.|
 C Filching from Thieves|QID|50649|M|32.04,42.47|US|N|Finish up with beacons.|
@@ -459,44 +467,51 @@ T Problem Solving with Gunpowder|QID|50698|M|34.58,47.12|N|To Specialist Wembley
 A A Snake with Three Heads|QID|50705|M|34.58,47.12|N|From Specialist Wembley.|
 A Clearing the Delta|QID|50706|M|34.58,47.12|N|From Specialist Wembley.|
 C Clearing the Delta|QID|50706|M|34.58,47.12|S|N|Kill the Zeth'jir. Note that murlocs along the shore are much easier kills.|
-C A Snake with Three Heads|QID|50705|M|32.63,53.97|QO|1|U|158332|N|Kill Binder.  Use the item to make it vulnerable.|
-C A Snake with Three Heads|QID|50705|M|32.14,55.03|QO|3|U|158332|N|Kill Binder.  Use the item to make it vulnerable.|
-C A Snake with Three Heads|QID|50705|M|32.68,55.97|QO|2|U|158332|N|Kill Binder.  Use the item to make it vulnerable.|
+C A Snake with Three Heads|QID|50705|M|32.63,53.97|QO|2|U|158332|N|Kill Binder.  Use the item to make it vulnerable.|
+C A Snake with Three Heads|QID|50705|M|32.14,55.03|QO|1|U|158332|N|Kill Binder.  Use the item to make it vulnerable.|
+C A Snake with Three Heads|QID|50705|M|32.68,55.97|QO|3|U|158332|N|Kill Binder.  Use the item to make it vulnerable.|
 C Clearing the Delta|QID|50706|M|29.89,52.37|US|N|Finish the killing.|
 T A Snake with Three Heads|QID|50705|M|34.11,54.88|N|To Commander Kellam.|
 T Clearing the Delta|QID|50706|M|34.11,54.88|N|To Commander Kellam.|
 A From the Depths|QID|49831|M|34.11,54.88|N|From Commander Kellam.|
 T From the Depths|QID|49831|M|34.11,54.88|N|To Commander Kellam.|
 A Back to Brennadam|QID|49908|M|34.10,54.87|N|From Commander Kellam.|
-F Brennadam|M|34.28,47.22|ACTIVE|49908|N|Fly back to Brennadam.|
+A Surveying the Wharf|QID|53045|M|34.77,47.47|N|From Lieutenant Harris.|
+F Brennadam|M|34.28,47.22|ACTIVE|49908|N|Fly back to Brennadam.  Good time to catch up on anything you might want to do back in Boralus (mission table, etc.).|
 T Back to Brennadam|QID|49908|M|59.51,69.94|N|To Squire Augustus III|
 T WANTED: Thundersnout|QID|49730|M|58.63,70.43|N|To Mayor Roz.|
-K Ice Sickle|QID|98765|M|63.61,78.11|N|Found at the top of the waterfall - path up to him starts here.  Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
-F Fort Daelin|AVAILABLE|53045|N|Fly back to Fort Daelin.|
-A Surveying the Wharf|QID|53045|M|34.77,47.47|N|From Lieutenant Harris.|
+F Fort Daelin|ACTIVE|53045|N|Fly back to Fort Daelin.|
+A More Fodder|QID|52069|M|33.21,45.59|N|From William.|
 T Surveying the Wharf|QID|53045|M|26.01,55.23|N|To Coxswain all the way at the top of the 'ship' building.|
 A Deadliest Cache: Reel Big Fish|QID|50376|M|26.01,55.23|N|From Coxswain Hook.|
-C Deadliest Cache: Reel Big Fish|QID|50376|M|26.01,55.23|QO|2|N|Coxswain Hook has a story.|
-C Deadliest Cache: Reel Big Fish|QID|50376|M|26.00,55.22|QO|3|N|Use ability 3 to leap to a group, ability 2 to stun them and ability 1 to finish killing.|
-C Deadliest Cache: Reel Big Fish|QID|50376|M|26.28,52.75|N|Kill Tidemaw the same way you did the others.|
+C Deadliest Cache: Reel Big Fish|QID|50376|M|26.01,55.23|QO|1|N|Coxswain Hook has a story.|
+C Deadliest Cache: Reel Big Fish|QID|50376|M|26.00,55.22|QO|2|N|Use ability 3 to leap to a group, ability 2 to stun them and ability 1 to finish killing.|
+C Deadliest Cache: Reel Big Fish|QID|50376|M|26.28,52.75|QO|3|N|Kill Tidemaw the same way you did the others.|
 T Deadliest Cache: Reel Big Fish|QID|50376|M|26.00,55.22|N|To Hook.|
 A Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.17|N|From Master Gunner Line.|
-C Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.17|QO|2|N|From Master Gunner Line.|
-C Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.21|QO|3|N|Pick up the 'rod' next to you.|
-C Deadliest Cache: Gun Fishin'|QID|50391|M|25.95,54.55|QO|4|N|Along the way, click 3 cannons on the dock.|
-C Deadliest Cache: Gun Fishin'|QID|50391|M|26.46,54.29|QO|5|N|Go do some 'fishing'.  Use ability 1 to pull groups and then ability 2 to blow them up.|
-C Deadliest Cache: Gun Fishin'|QID|50391|M|25.03,54.24|QO|6|N|Kill the big tentacles.|
-C Deadliest Cache: Gun Fishin'|QID|50391|M|25.03,54.24|N|Big mob, big bullet.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.17|QO|1|N|Talk to Master Gunner.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.21|QO|2|N|Pick up the 'rod' next to you.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|25.95,54.55|QO|3|S|N|Along the way, click 3 cannons on the dock.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|26.46,54.29|QO|4|N|Go do some 'fishing'.  Use ability 1 to pull groups and then ability 2 to blow them up.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|25.95,54.55|QO|3|US|N|Along the way, click 3 cannons on the dock.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|25.03,54.24|QO|5|N|Kill the big tentacles with your ability 1.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|25.03,54.24|QO|6|N|Big mob, big bullet.|
 T Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.17|N|To Master Gunner|
 A Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.24|N|From "Sinker".|
-C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.24|QO|2|N|"Talk" to Sinker.|
-C Deadliest Cache: Sink and Swim|QID|50418|M|25.97,55.13|QO|3|N|Use ability 1 on the blue spot.|
-C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.23|N|Go mount the laser dolphin.  For the next phase - drop a bomb (ability #2) on the three idols (on minimap).  #1 shoot s a laser - kill 15 fish. #3 is swim speed. |
+C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.24|QO|1|N|"Talk" to Sinker.|
+C Deadliest Cache: Sink and Swim|QID|50418|M|25.97,55.13|QO|2|N|Use ability 1 on the blue spot.|
+C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.23|QO|3|N|Go mount the laser dolphin.  For the next phase - drop a bomb (ability #2) on the three idols (on minimap).  #1 shoot s a laser - kill 15 fish. #3 is swim speed. |
 C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.23|N|Drop a bomb (ability 2) on the three idols, and kill 15 fish (ability 1). |
 T Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.23|N|To "Sinker"|
 A Deadliest Cache: Carpe Diem|QID|52130|M|26.01,55.22|N|From Coxswain Hook.|
-T Deadliest Cache: Carpe Diem|QID|52130|M|25.03,54.26|N|To Hook.|
+C Deadliest Cache: Carpe Diem|QID|52130|M|26.01,55.22|QO|1|N|Talk to Hook.|
+C Deadliest Cache: Carpe Diem|QID|52130|M|25.03,54.28|QO|3|N|Light the Southern Fire.|
+C Deadliest Cache: Carpe Diem|QID|52130|M|25.03,54.28|QO|2|N|Light the Northern Fire.|
+C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|4|N|Use the spyglass on the dock.|
+C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|5|N|Use your ability when the whale gets to you.|
+T Deadliest Cache: Carpe Diem|QID|52130|M|25.99,55.21|N|To Hook.|
 r Repair/Restock|M|35.51,48.73|ACTIVE|49832|N|At Assurance Engineer Cole.|
+N Stromsong Guide Beta playtesting ended here. If you find any bugs or issues feel free to submit on the website, otherwise, expect a full play test revision about 1 week after BFA launch. Thanks!
 K Pinku'shon|QID|98765|M|38.05,51.07|N|Silver Elite to kill for loot and achievement.|ITEM|163678|RANK|2|
 T An Illegible Scroll|QID|49832|M|40.67, 45.61|N|To Scrollsage Nola.|
 A Cleaning Bills|QID|51339|M|40.67,45.61|N|From Scrollsage Nola.|
@@ -554,7 +569,6 @@ C Battle Victorious|QID|51386|M|34.35,26.29|N|Revenge time.  Use ability 1 on th
 T Battle Victorious|QID|51386|M|40.19,37.63|N|To Toki.|
 N Response Required|QID|51221|M|36.89,29.29|N|Need to pick up Deadwash flight point priot to this step. Then delete this.|
 F Deadwash|M|40.00,37.33|AVAILABLE|50810|N|Fly to Deadwash.|
-A More Fodder -- THIS NEEDS TO GO BACK IN GUIDE WHERE IT IS ACCEPTED|QID|52069|M|33.21,45.59|N|From William.|
 T More Fodder|QID|52069|M|42.99,56.61|N|To Leo Shealds.|
 A Break 'Em Out|QID|50810|M|42.99,56.61|N|From Leo Shealds.|
 A Iron Low Tide|QID|50802|M|42.99,56.61|N|From Leo Shealds.|
@@ -638,8 +652,6 @@ T Smells like Trouble|QID|50908|M|57.86,55.31|N|To Patrick Eckhart|
 T Dangerous Game|QID|50910|M|57.86,55.31|N|To Patrick Eckhart|
 T Never Outgunned|QID|50909|M|57.95,55.57|N|To Lea Martinel.|
 A Worse Than It Looks|QID|52065|M|57.85,55.32|N|From Patrick Eckhart.|
-C Voices Below|QID|49998|M|66.43,50.67|CHAT|N|Speak with Brother Pike.|
-f Tidecross|QID|50814|M|65.57,48.01|ACTIVE|52065|N|From Marla Featherfoot.|
 F Deadwash|ACTIVE|52065|N|Fly to Deadwash.|
 T Worse Than It Looks|QID|52065|M|46.88,47.68|N|To Felecia Gladstone.|
 A Having a Blast|QID|51711|M|46.88,47.68|N|From Felecia Gladstone.|
