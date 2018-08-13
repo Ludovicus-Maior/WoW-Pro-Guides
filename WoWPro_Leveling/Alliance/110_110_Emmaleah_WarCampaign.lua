@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-08-12 23:57
+-- Who: Emmaleah
+-- Log: change end level to 120
+
+-- URL: http://wow-pro.com/node/3760/revisions/29497/view
 -- Date: 2018-08-12 20:18
 -- Who: Emmaleah
 -- Log: deleted part that is in the BFA intro
@@ -82,7 +87,7 @@
 -- Log: Draft 1 - Opening Scenario/quests for Alliance.  The zone numbers will need replaced with names when they are available.
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
-WoWPro:GuideLevels(guide,110, 110, 112)
+WoWPro:GuideLevels(guide,110, 120, 112)
 WoWPro:GuideQuestTriggers(guide, 53370,51795)
 WoWPro:GuideNextGuide(guide, 'TBD')
 WoWPro:GuideAutoSwitch(guide)
