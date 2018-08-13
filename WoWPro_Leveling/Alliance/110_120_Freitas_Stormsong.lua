@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-08-13 07:58
+-- Who: Lemmer
+-- Log: Final playtesting edits up to step 202 (A A Pocketful of Shells|QID|50041|...).  Should be very clean up to that point.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29494/view
 -- Date: 2018-08-12 18:57
 -- Who: Ludovicus_Maior
 -- Log: Add missing CS| tag to Step C [Terror of the Kraul:50368]
@@ -58,27 +63,27 @@ WoWPro:GuideNextGuide(guide, EmmAWarCampaign)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Stormsongvalley")
 WoWPro:GuideSteps(guide, function()
 return [[
-A Stormsong Valley|QID|47962|M|70.45,27.14|Z|Tiragarde Sound|N|Lead-in quest from mission table.|
-T Stormsong Valley|QID|47962|M|42.97,56.64|Z|Tiragarde Sound|N|To Taelia inside Harbormaster's Office.|
-A The Missing Fleet|QID|47952|M|73.82,25.09|Z|Tiragarde Sound|N|From Taelia.|
-C The Missing Fleet|QID|47952|M|74.17,24.79|Z|Tiragarde Sound|NC|N|Talk to Will Melbourne for a ride.|
-T The Missing Fleet|QID|47952|M|65.07,68.92|Z|Tiragarde Sound|N|To Taelia on the dock.|
-A Searching for Answers|QID|51487|M|64.87,68.84|Z|Tiragarde Sound|N|From Taelia.|
-C Searching for Answers|QID|51487|M|68.42,74.28|Z|Tiragarde Sound|QO|1|NC|N|Question Sister Adrianna.|
+A Stormsong Valley|QID|47962|M|68.37,22.10|Z|Boralus|N|Lead-in quest from scouting map in Harbormaster's Office (or mission table on ship).|
+T Stormsong Valley|QID|47962|M|68.37,22.10|Z|Boralus|N|To Taelia inside Harbormaster's Office.|
+A The Missing Fleet|QID|47952|M|68.37,22.10|Z|Boralus|N|From Taelia.|
+C The Missing Fleet|QID|47952|M|74.17,24.79|Z|Boralus|NC|N|Talk to Will Melbourne (the Ferry Master) for a ride.|
+T The Missing Fleet|QID|47952|M|65.07,68.92|Z|Boralus|N|To Taelia on the dock.|
+A Searching for Answers|QID|51487|M|64.87,68.84|Z|Boralus|N|From Taelia.|
+C Searching for Answers|QID|51487|M|68.42,74.28|Z|Boralus|QO|1|NC|N|Question Sister Adrianna.|
 C Searching for Answers|QID|51487|M|66.10,84.10|Z|Boralus|QO|3|NC|N|Question Sister Celicia.|
 C Searching for Answers|QID|51487|M|60.50,85.20|Z|Boralus|QO|2|NC|N|Question Brother Darrel.|
-T Searching for Answers|QID|51487|M|65.07,68.92|Z|Tiragarde Sound|N|To Taelia on the dock.|
+T Searching for Answers|QID|51487|M|65.50,85.20|Z|Boralus|N|To Taelia – right next to you.|
 A Archived Knowledge|QID|51488|M|60.46,85.27|Z|Boralus|N|From Taelia.|
 C Archived Knowledge|QID|51488|M|68.35,81.45|Z|Boralus|QO|1|NC|N|Question Brother Alen.|
 C Archived Knowledge|QID|51488|M|68.35,81.45|Z|Boralus|QO|2|NC|N|Follow him into the basement.|
-C Archived Knowledge|QID|51488|M|73.71,39.55|Z|Boralus|QO|3|N|Speak with him to begin the fight with Wade.|
+C Archived Knowledge|QID|51488|M|73.71,39.55|Z|Boralus|QO|3|N|After dialogue, begin the fight with Wade.|
 T Archived Knowledge|QID|51488|M|73.71,39.55|Z|Boralus|N|To Taelia next to you.|
-A Time to Leave|QID|51489|M|73.73,39.49|Z|Tiragarde Sound|N|From Taelia.|
-C Time to Leave|QID|51489|M|71.80,78.82|Z|Boralus|NC|N|Hop on Galeheart for a ride to Stormsong Valley.|
+A Time to Leave|QID|51489|M|73.73,39.49|Z|Boralus|N|From Taelia.|
+C Time to Leave|QID|51489|M|71.80,78.82|Z|Boralus|NC|N|Head back up and hop on Galeheart for a ride to Stormsong Valley.|
 T Time to Leave|QID|51489|M|57.89,85.93|N|To Taelia.|
 A Border Issues|QID|51490|M|57.91,85.93|N|From Taelia.|
-$ Smuggler's Chest|M|58.61,83.88|N|Underneath the dock.  Loot for resources and gold.|RANK|2|
-C Border Issues|QID|51490|M|57.00,84.00|N|Talk to guards and deal with them.|
+$ Smuggler's Chest|M|58.61,83.88|N|Underneath the dock. Loot for resources and gold.|RANK|2|
+C Border Issues|QID|51490|M|57.00,84.00|N|Talk to guards and deal with them. Option 1 may get you in a fight – or just use option 2 to pay 15 gold.|
 T Border Issues|QID|51490|M|57.91,85.93|N|To Taelia.|
 A Carry On|QID|51401|M|57.89,85.92|N|From Taelia.|
 K Squall|QID|98765|M|57.00,75.80|N|Silver Elite to kill for loot and achievement.|ITEM|158224|RANK|2|
@@ -87,18 +92,19 @@ A Circle the Wagons|QID|52793|M|60.17,70.51|N|From Marilyn Hood.|
 A Sometimes Less Is More|QID|52796|M|60.17,70.51|N|From Marilyn Hood.|
 T Carry On|QID|51401|M|59.16,69.48|N|To Taelia.|
 A A Risky Ploy|QID|49725|M|59.18,69.45|N|From Taelia.|
-C A Risky Ploy|QID|49725|M|59.13,69.06|U|155859|Blow the whistle in the crowd.|
-C A Risky Ploy|QID|49725|M|59.13,69.06|QO|1|N|"Subdue" the citizen.|
+C A Risky Ploy|QID|49725|M|59.13,69.06|U|155859|N|Blow the whistle in the crowd.|
+C A Risky Ploy|QID|49725|M|59.13,69.06|QO|2|N|"Subdue" the citizen.|
 T A Risky Ploy|QID|49725|M|59.23,68.63|N|To Brother Pike on the stairs.|
 A House Stormsong|QID|49703|M|59.23,68.63|N|From Brother Pike.|
 K Grimscowl the Harebrained|QID|98765|M|62.17,73.84|N|Silver Elite to kill for loot and achievement.|ITEM|155572|RANK|2|
-C Sometimes Less Is More|QID|52796|M|63.10,75.25|N|Complete quest.|
-C Circle the Wagons|QID|52793|M|63.77,73.82|N|Lorraine is here.|
-C Circle the Wagons|QID|52793|M|64.89,76.78|QO|2|N|Mallory is here.|
+C Sometimes Less Is More|QID|52796|M|63.10,75.25|S|N|Kill saurolisks while you complete other quests.|
+C Circle the Wagons|QID|52793|M|63.77,73.82|QO|1|N|Lorraine is here.|
+C Circle the Wagons|QID|52793|M|64.89,76.78|QO|3|N|Mallory is here.|
 A A Saur Point|QID|52795|M|64.88,76.79|N|From Mallory Hood.|
 C A Saur Point|QID|52795|M|65.36,77.99|N|Kill Sourtooth in the cave.|
 T A Saur Point|QID|52795|M|64.88,76.79|N|Back to Mallory.|
-C Circle the Wagons|QID|52793|M|63.29,77.74|N|Darion is here.|
+C Circle the Wagons|QID|52793|M|63.29,77.74|QO|2|N|Darion is here.|
+C Sometimes Less Is More|QID|52796|M|63.10,75.25|US|N|Finish up with saurolisks.|
 T Sometimes Less Is More|QID|52796|M|60.17,70.51|N|To Marilyn Hood.|
 T Circle the Wagons|QID|52793|M|60.17,70.51|N|To Marilyn Hood.|
 K Foreman Scripps|QID|98765|M|64.43,65.93|N|Silver Elite to kill for loot and achievement.|ITEM|160471|RANK|2|
@@ -106,10 +112,13 @@ T House Stormsong|QID|49703|M|63.40,64.73|N|To Brother Pike.|
 A Unnecessary Duress|QID|49705|M|63.40,64.73|N|From Brother Pike.|
 A Proclamation Investigation|QID|49706|M|63.40,64.73|N|From Brother Pike.|
 A Haywire Harvesters|QID|49704|M|63.47,64.96|N|From Taelia.|
-C Unnecessary Duress|QID|49705|M|61.93,65.11|U|155893|N|Click on item next to human workers.|
-C Haywire Harvesters|QID|49704|M|61.93,65.11|N|Looted from mechs you kill.|
-C Proclamation Investigation|QID|49706|M|61.93,65.11|N|Read 3 Proclamations hanging from posts and walls. |
-$ Small Treasure Chest|M|61.56,63.80|N|Underneath the building.  Loot for resources and gold.|
+C Unnecessary Duress|QID|49705|M|61.93,65.11|U|155893|S|N|Click item next to human workers.|
+C Haywire Harvesters|QID|49704|M|61.93,65.11|S|N|Looted from mechs you kill.|
+C Proclamation Investigation|QID|49706|M|61.93,65.11|S|N|Read 3 Proclamations hanging from posts and walls. |
+$ Small Treasure Chest|M|62.18,62.57|N|Next to tree on hill. Loot for resources and gold.|
+C Unnecessary Duress|QID|49705|M|61.93,65.11|U|155893|US|N|Click item next to human workers.|
+C Haywire Harvesters|QID|49704|M|61.93,65.11|US|N|Looted from mechs you kill.|
+C Proclamation Investigation|QID|49706|M|61.93,65.11|US|N|Read 3 Proclamations hanging from posts and walls. |
 T Unnecessary Duress|QID|49705|M|63.40,64.73|N|To Brother Pike.|
 T Proclamation Investigation|QID|49706|M|63.40,64.73|N|To Brother Pike.|
 T Haywire Harvesters|QID|49704|M|63.47,64.96|N|To Taelia.|
@@ -121,19 +130,19 @@ A Forced Labor|QID|49887|M|64.60,62.11|N|From Samuel Williams.|
 C Forced Labor|QID|49887|M|64.71,62.10|QO|1|NC|N|Free him from the "Anchor" right next to you.|
 T Forced Labor|QID|49887|M|64.60,62.11|N|To Samuel Williams.|
 A Bound and Oppressed|QID|49792|M|64.60,62.12|N|From Samuel Williams.|
-C Bound and Oppressed|QID|49792|M|64.60,62.12|S|N|Click on the anchors.|
-C Means to an End|QID|49793|M|63.42,64.74|QO|1|N|Click on the glowy item here.|
+C Bound and Oppressed|QID|49792|M|64.60,62.12|S|N|Click on the anchors as you go.|
+C Means to an End|QID|49793|M|63.25,59.53|QO|1|N|Click on the glowy item here (Tidal Kris).|
 K Sister Absinthe|QID|98765|M|61.69,56.97|N|Silver Elite to kill for loot and achievement.|ITEM|155164|RANK|2|
-C Means to an End|QID|49793|M|64.76,57.90|NC|N|Click on the glowy item here.|
+C Means to an End|QID|49793|M|64.76,57.90|QO|2|N|Click on the glowy item here (Abyssal Beacon).|
 C The Rising Tide|QID|49794|M|65.54,60.76|QO|3|N|Kill Sister Ava on the boat.|
-A Make it Mildenhall|QID|51582|M|66.35,57.20|N|From the sign on the pole.|
-T The Rising Tide|QID|49794|M|66.50,56.48|N|From Taelia.|
-C Means to an End|QID|49793|M|66.86,60.61|N|Click on the glowy item here.|
-T Means to an End|QID|49793|M|66.79,60.67|N|Tp Brother Pike who shows up right beside you.|
+C Means to an End|QID|49793|M|66.86,60.61|QO|3|N|Click on the glowy item here (Mantle).|
+T Means to an End|QID|49793|M|66.79,60.67|N|To Brother Pike who shows up right beside you.|
 C Lost, Not Forgotten|QID|49791|M|63.42,64.74|US|U|155919|N|Finish up releasing souls.|
 C Bound and Oppressed|QID|49792|M|64.60,62.12|US|N|Finish up clicking the anchors.|
-T Lost, Not Forgotten|QID|49791|M|67.19,59.38|N|From Brother Pike.|
-T Bound and Oppressed|QID|49792|M|64.60,62.12|N|From Samuel Williams.|
+T Lost, Not Forgotten|QID|49791|M|67.19,59.38|N|To Brother Pike.|
+A Make it Mildenhall|QID|51582|M|66.35,57.20|N|From the sign on the pole.|
+T The Rising Tide|QID|49794|M|66.50,56.48|N|To Taelia.|
+T Bound and Oppressed|QID|49792|M|66.49,56.47|N|To Samuel Williams.|
 A Rest in the Depths|QID|49975|M|66.33,56.52|N|From Brother Pike.|
 C Rest in the Depths|QID|49975|M|66.33,56.52|U|157859|N|Click on the ringer one more time, and wait for it to finish.|
 T Rest in the Depths|QID|49975|M|66.33,56.52|N|To Brother Pike.|
@@ -152,11 +161,14 @@ T Fabricated Fabrications|QID|49995|M|66.49,56.44|N|To Samuel Williams.|
 T The Missing Link|QID|50139|M|68.71,54.40|N|To Samuel Williams.|
 T Rearmament|QID|49996|M|66.50,56.51|N|To Taelia.|
 A Storm's Judgment|QID|49997|M|66.33,56.51|N|From Brother Pike.|
-C Storm's Judgment|QID|49997|M|69.29,58.70|N|Speak to Brother Pike here.|
-C Storm's Judgment|QID|49997|M|66.33,56.51|N|Defeat the waves of elementals, including the big one.|
-T Storm's Judgment|QID|49997|M|66.28,56.45|N|To Brother Pike.|
+C Storm's Judgment|QID|49997|M|69.29,58.70|QO|1|N|Speak to Brother Pike here.|
+C Storm's Judgment|QID|49997|M|66.33,56.51|N|Defeat the waves of elementals, including Riptide at the end.|
+T Storm's Judgment|QID|49997|M|66.28,56.45|N|Run back to Brother Pike.|
 A Voices Below|QID|49998|M|66.28,56.45|N|From Unknown.|
-f Mildenhall Meadery|M|68.53,64.98|ACTIVE|51582|
+f Mildenhall Meadery|M|68.53,64.98|ACTIVE|49998|N|Pick up a few flight points here to save time later.|
+C Voices Below|QID|49998|M|66.43,50.67|CHAT|N|Back up to speak with Brother Pike.|
+f Tidecross|QID|50814|M|65.57,48.01|ACTIVE|51582|N|From Marla Featherfoot.|
+F Mildenhall Meadery|ACTIVE|51582|N|Fly back to Mildenhall.|
 T Make it Mildenhall|QID|51582|M|68.88,65.16|N|To Ancel Mildenhall.|
 A Mayhem at Mildenhall Meadery|QID|50343|M|68.88,65.16|N|From Unknown.|
 C Mayhem at Mildenhall Meadery|QID|50343|M|68.49,67.60|N|Run up the hill.|
@@ -164,22 +176,22 @@ T Mayhem at Mildenhall Meadery|QID|50343|M|68.49,67.60|N|Ancel will be up beside
 A Detective Mildenhall|QID|50070|M|68.49,67.60|N|From Ancel Mildenhall.|
 A Cleanup Duty|QID|50359|M|68.49,67.60|N|From Ancel Mildenhall.|
 C Cleanup Duty|QID|50359|M|68.49,67.60|S|N|Kill Honey and Mead while you find the clues.|
-C Detective Mildenhall|QID|50070|M|68.52,69.00|QO|1|NC|N|Click on the boots here.|
-C Detective Mildenhall|QID|50070|M|68.52,69.00|NC|N|Click on the flask on the barrel.|
-N Honey Bear|M|66.48,71.17|N|What the heck is this thing supposed to do??|
-C Detective Mildenhall|QID|50070|M|69.22,70.75|QO|1|NC|N|Click on the rough map.|
-C Detective Mildenhall|QID|50070|M|70.82,69.66|N|Click on the book on the table.|
-C Cleanup Duty|QID|50359|M|68.49,67.60|US|N|Finsh up the killing.|
+C Detective Mildenhall|QID|50070|M|68.52,69.00|NC|N|Click on the boots here – check this step off when you get them.|
+C Detective Mildenhall|QID|50070|M|67.92,70.94|NC|N|Click on the flask on the barrel – check this step off when you get them.|
+N Honey Bear|M|66.48,71.17|N|Note this for later – may be a rep related quest. Clearly a nod to Winnie.|
+C Detective Mildenhall|QID|50070|M|69.22,70.75|QO|1|NC|N|Click on the rough map – check this step off when you get it.|
+C Detective Mildenhall|QID|50070|M|69.15,69.32|N|Click on the book on the table – check this step off when you get it.|
 C Detective Mildenhall|QID|50070|M|70.82,69.66|N|Click on the honey fragment in the house.|
+C Cleanup Duty|QID|50359|M|68.49,67.60|US|N|Finsh up the killing.|
 T Detective Mildenhall|QID|50070|M|70.79,69.61|N|To Ancel Mildenhall.|
 T Cleanup Duty|QID|50359|M|70.79,69.61|N|To Ancel Mildenhall.|
 A Don't Go in the Basement|QID|50064|M|70.79,69.61|N|From Ancel Mildenhall.|
-C Don't Go in the Basement|QID|50064|M|70.75,69.15;70.81,69.08|CN|N|Go down in the basement and click on the barrel.|
-C Don't Go in the Basement|QID|50064|M|70.79,69.61|QO|1|NC|N|Complete quest.|
+C Don't Go in the Basement|QID|50064|M|70.75,69.15;70.81,69.08|CN|QO|1|N|Go down in the basement and click on the barrel.|
+C Don't Go in the Basement|QID|50064|M|70.79,69.61|QO|2|N|Kill the Brue.|
 T Don't Go in the Basement|QID|50064|M|71.04,69.25|N|To Ancel Mildenhall.|
 A Recovering Raimond|QID|50161|M|71.04,69.25|N|From Ancel Mildenhall.|
-C Recovering Raimond|QID|50161|M|71.63,67.99|N|His other boot is here.|
-C Recovering Raimond|QID|50161|M|72.42,69.68|N|Pages are found are on the ground around here.|
+C Recovering Raimond|QID|50161|M|71.63,67.99|QO|1|N|Back outside. His other boot is here.|
+C Recovering Raimond|QID|50161|M|72.42,69.68|QO|2|N|Pages are found are on the ground around here.|
 T Recovering Raimond|QID|50161|M|74.12,72.72|N|To Raimond Mildenhall in the cave..|
 A Royal Succession|QID|50168|M|74.12,72.72|N|From Raimond Mildenhall.|
 A Sticky Situation|QID|50162|M|74.12,72.72|N|From Raimond Mildenhall.|
@@ -197,8 +209,8 @@ A The Bee Team|QID|50165|M|72.81,72.24|N|From Raimond Mildenhall.|
 A Wendigo Away|QID|50534|M|72.81,72.24|N|From Raimond Mildenhall.|
 C Free the Farmhands|QID|50264|M|71.52,71.80|QO|1|S|N|Rescue farmers from the hives.|
 C The Bee Team|QID|50165|M|71.52,71.80|S|N|Kill the maulers.|
-C Fetching Wrex|QID|50493|M|68.71,72.91|N|There are 5 caves in the area - click on the small honey globs in them until you find Wrex.|
-C Wendigo Away|QID|50534|M|65.83,78.70|N|Inside the cave.|
+C Fetching Wrex|QID|50493|M|68.71,72.91|N|Follow the mountains south-westerly.  There are 5 caves in the area - click on the small honey globs in them until you find Wrex.|
+C Wendigo Away|QID|50534|M|65.83,78.70|N|Kill yeti inside this cave.|
 C The Bee Team|QID|50165|M|71.52,71.80|US|N|Kill the maulers.|
 C Free the Farmhands|QID|50264|M|71.52,71.80|US|N|Finish up with farmers.|
 T Free the Farmhands|QID|50264|N|To Raimond, who shows up beside you.|
@@ -209,27 +221,28 @@ A Back to the Lab|QID|50553|N|From Raimond Mildenhall, should still be next to y
 T Back to the Lab|QID|50553|M|70.75,69.18|N|Back to the basement "Lab".|
 R Wrex needs love.|M|71.03,69.11|CC|ACTIVE|51552|N|Give him a pat - doesn't do anything but makes you feel good.|
 F Brennadam|M|68.55,65.01|ACTIVE|51552|N|Fly to Brennadam.|
-T The Days Are Just Packed|QID|51552|M|57.60,66.38|N|To Hobbs.|
-A Bombs, Away|QID|49746|M|57.60,66.38|N|From Sergeant Calvin.|
-A You Have Their Orders|QID|49744|M|57.64,66.47|N|From Mayor Roz.|
-A Dousing the Flames|QID|49745|M|57.64,66.47|N|From Mayor Roz.|
+T The Days Are Just Packed|QID|51552|M|57.60,66.38|N|To Sergeant Calvin.|
+A Bombs, Away|QID|49744|M|57.60,66.38|N|From Sergeant Calvin.|
+A You Have Their Orders|QID|49745|M|57.64,66.47|N|From Mayor Roz.|
+A Dousing the Flames|QID|49746|M|57.64,66.47|N|From Mayor Roz.|
 A The Battle for Brennadam|QID|51534|LVL|-120|M|57.55,66.32|N|Bonus Objective for area.|
 C The Battle for Brennadam|QID|51534|M|57.55,66.32|S|N|Complete the bonus objectives while here.|
+C Dousing the Flames|QID|49746|M|57.60,66.38|S|N|Click on the buckets of water around the area, then use extra action button on fires. You can sometimes do 2 at once.|
 C You Have Their Orders|QID|49745|M|54.38,61.23|N|Kill and loot the Champion.|
 $ Disguised Lunchbox|M|58.21,63.68|N|Reached by jumping up the boxes onto the ledge.|
-C Dousing the Flames|QID|49746|M|57.60,66.38|N|Click on the buckets of water around the area, then use extra action button on fires.  You can sometimes do 2 at once.|
-C Bombs, Away|QID|49744|M|55.17,63.41|N|Click on the big red bombs around, mostly next to walls. If you're fast, you can also disarm the ones which are thrown from the blimps.|
-C Bombs, Away|QID|49744|M|55.08,60.76|N|Place the bombs around these two Demolishers.|
+C Bombs, Away|QID|49744|M|55.17,63.41|QO|1|N|Click on the big red bombs around, mostly next to walls. If you're fast, you can also disarm the ones which are thrown from the blimps.|
+C Dousing the Flames|QID|49746|M|57.60,66.38|US|N|Finish up the fires.|
+C Bombs, Away|QID|49744|M|55.08,60.76|QO|2|N|Place the bombs around these two Demolishers.|
 C The Battle for Brennadam|QID|51534|M|57.55,66.32|US|N|Finish up the bonus objective.|
 T The Battle for Brennadam|QID|51534|M|57.55,66.32|N|Turn in to pop-up.|
 T Bombs, Away|QID|49744|M|57.60,66.38|N|From Sergeant Calvin.|
 T You Have Their Orders|QID|49745|M|57.64,66.47|N|From Mayor Roz.|
 T Dousing the Flames|QID|49746|M|57.64,66.47|N|From Mayor Roz.|
 A Heavy Artillery|QID|49755|M|57.63,66.48|N|From Mayor Roz.|
-C Heavy Artillery|QID|49755|M|57.73,61.41;56.12,58.37|CS|N|Up the hill. Kill the Engineers and Wormwood hops out of the tank. Kill him too.|
-C Heavy Artillery|QID|49755|M|56.12,58.37|N|Destroy the forces with your 1st ability.  DO NOT use ability 2 until you finish this stage.|
+C Heavy Artillery|QID|49755|M|57.73,61.41;56.12,58.37|CS|QO|1|N|Up the hill. Kill the Engineers, and Wormwood hops out of the tank. Kill him too.|
+C Heavy Artillery|QID|49755|M|56.12,58.37|QO|2|N|Destroy the forces with your 1st ability.  DO NOT use ability 2 until you finish with horde forces.|
 C Heavy Artillery|QID|49755|M|56.12,58.37|N|NOW you can use ability #2.|
-T Heavy Artillery|QID|49755|M|57.63,66.48|N|You can steer your parachute.  Turn in to Mayor Roz.|
+T Heavy Artillery|QID|49755|M|57.63,66.48|N|You can steer your parachute. Turn in to Mayor Roz.|
 A There's Gold in Them There Fields|QID|50157|M|57.63,66.49|N|From Mayor Roz.|
 A Checking Out the Collapse|QID|50158|M|57.63,66.49|N|From Mayor Roz.|
 A Survivors|QID|52067|M|57.61,66.41|N|From Sergeant Calvin.|
@@ -239,17 +252,17 @@ C Raiders of the Lost Crop|QID|51310|M|53.76,68.19|N|Kill the orcs in the fields
 C Grain Drain|QID|51314|M|53.76,68.19|N|Pick up the grain as well.|
 T Raiders of the Lost Crop|QID|51310|M|54.95,67.99|N|To Farmer Max|
 T Grain Drain|QID|51314|M|57.61,66.41|N|To Farmer Max|
-K Strange Mushroom Ring|QID|98765|M|53.69,72.00|N|Five mobs pop out of the chest.  Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
+K Strange Mushroom Ring|QID|98765|M|53.69,72.00|N|At the very bottom of this cave. Five mobs pop out of the chest. Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
 K Jakala the Cruel|QID|98765|M|53.41,64.50|N|In the basement - speak with Doc Marrtens to start event.  Silver Elite to kill for loot and achievement.|ITEM|159179|RANK|2|
 T Checking Out the Collapse|QID|50158|M|51.59,65.97|N|To Farmer Burton|
 A Weed Whacking|QID|50133|M|51.59,65.97|N|Auto-accept on entering area.|
 A Gadgets and Gizmos Aplenty|QID|50134|M|51.59,65.97|N|From Farmer Burton.|
 A Stop Vining!|QID|50135|M|51.59,65.97|N|From Farmer Burton.|
 C Weed Whacking|QID|50133|M|51.59,65.97|S|N|Complete the bonus objective while here.|
-C Stop Vining!|QID|50135|M|49.07,65.48;48.04,65.94|CS|QO|1|N|Head into this cave for Vinemaster Smagh.|
+C Stop Vining!|QID|50135|M|49.07,65.48;48.04,65.94|CS|QO|3|N|Head into this cave for Vinemaster Smagh.|
 K Captain Razorspine|QID|98765|M|47.35,65.41|N|Coords are inside cave area. Silver Elite to kill for loot and achievement.|ITEM|155287|RANK|2|
 K Whiplash|QID|98765|M|47.31,65.89|N|Kill Whiplash if he is here, however, may only spawn during WQ event. Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
-C Stop Vining!|QID|50135|M|46.64,64.39|N|Orgsteen is next (coords still in cave).|
+C Stop Vining!|QID|50135|M|46.64,64.39|QO|2|N|Orgsteen is next (coords still in cave).|
 C Stop Vining!|QID|50135|M|48.26, 63.52|N|Guff is the last one (coords still in cave).|
 $ Small Treasure Chest|M|48.42,64.65|N|Pick this up on the way out.|
 C Gadgets and Gizmos Aplenty|QID|50134|M|51.59,65.97|N|Complete quest.|
@@ -263,12 +276,12 @@ T Farming Stimulator|QID|50136|M|51.59,65.96|N|To Farmer Burton.|
 f The Amber Waves|M|50.75,70.22|AVAILABLE|49886|N|Pick up the flight path from Karla.|
 A Follow Your Nose|QID|49886|M|51.01,70.17|N|From Houndmaster Archibald.|
 A Sic 'Em!|QID|49960|M|51.01,70.17|N|From Houndmaster Archibald.|
-K Vinespeaker Ratha|QID|98765|M|51.49,67.78|N|At the bottom of the cave.  Silver Elite to kill for loot and achievement.|ITEM|158299|RANK|2|
-C Sic 'Em!|QID|49960|M|51.55,68.37;51.56,68.13|CS|N|Razorgnarl is at the bottom of this cave.|
-C Follow Your Nose|QID|49886|M|51.01,70.17|N|Use your extra action button FROM RANGE on the red clouds of dust and kill the tunneler which comes out.  If you get too close, they will not count for the quest.|
-T Follow Your Nose|QID|49886|M|51.01,70.17|N|From Houndmaster Archibald.|
-T Sic 'Em!|QID|49960|M|51.01,70.17|N|From Houndmaster Archibald.|
-T There's Gold in Them There Fields|QID|50157|M|50.75,73.18|N|To Mayor Roz, on the 2nd floor of this building..|
+K Vinespeaker Ratha|QID|98765|M|51.49,67.78|N|At the bottom of the cave. Silver Elite to kill for loot and achievement.|ITEM|158299|RANK|2|
+C Sic 'Em!|QID|49960|M|53.22,66.70|N|Razorgnarl is at the bottom of this cave.|
+C Follow Your Nose|QID|49886|M|51.01,70.17|N|Use your extra action button FROM RANGE on the red clouds of dust and kill the tunneler which comes out. If you get too close, they will not count for the quest.|
+T Follow Your Nose|QID|49886|M|51.01,70.17|N|To Houndmaster Archibald.|
+T Sic 'Em!|QID|49960|M|51.01,70.17|N|To Houndmaster Archibald.|
+T There's Gold in Them There Fields|QID|50157|M|50.75,73.18|N|To Farmer Goldfield, on the 2nd floor of this building.|
 A A Pocketful of Shells|QID|50041|M|50.76,73.15|N|From Farmer Goldfield.|
 A A Reason to Stay|QID|50065|M|49.85,73.54|N|From a pocketwatch on the ground.|
 C A Pocketful of Shells|QID|50041|M|50.76,73.15|S|U|160561|N|'Skin' the boars with this after you kill them.|
