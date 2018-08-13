@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2018-08-13 16:56
+-- Who: Emmaleah
+-- Log: Minor Changes to comments, added some PREs
+
+-- URL: http://wow-pro.com/node/3762/revisions/29481/view
 -- Date: 2018-08-07 11:01
 -- Who: Emmaleah
 -- Log: Tested. Ready to go. Contains all needed for achievements for explore, treasure, rare mobs and of course the zone questing ach. The only thing left is PREs are not all consistantly entered. Leaving that for Grail to yell about. And Ranks not all done. (ie. things that ought to be rank 2 or 3 have not all been marked as such.) Also farming spots for Jani's shinys are not included. (The Jani quests are)
@@ -110,6 +115,8 @@ N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasin
 t The Great Sea Scrolls|QID|53476|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
 
 N Use of Ranks|N|This is a work in process. When done, Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
+;also most don't have thier QID for both QIDs. going to need to kill with a 120 and a non 120 to get that. (or wait for wowhead to have it - but it's not there now 8/12/18)
+N Rares (aka Silver Elite)|ACH|12944|N|Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it will direct you to kill them again. Check off manually if you choose not to.|
 
 T Zuldazar|QID|47514|M|57.80,44.31|N|To Princess Talanji.|
 A Trust of a King|QID|49615|M|57.80,44.31|N|From Princess Talanji.|PRE|47514|
@@ -217,7 +224,7 @@ T Pa'ku, Master of Winds|QID|47440|M|49.92,33.38|Z|Dazar'alor|N|To Hexlord Raal.
 A The Bargain is Struck|QID|47432|M|49.92,33.38|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47440|
 
 R Flightmaster, The Great Seal|ACTIVE|47432|PRE|47440|M|49.92,33.38|Z|Dazar'alor|N|Use Pa'ku's totem for a quick ride up to the Flightmaster.|
-H The Great Seal|ACTIVE|49488+47439|N|Use your hearthstone (or run) to return to the Great Seal.|
+H The Great Seal|ACTIVE|49488;47439|N|Use your hearthstone (or run) to return to the Great Seal.|
 A Nesingwary's Trek|QID|49768|M|52.03,41.40|Z|Dazar'alor|N|From Huntmaster Kil'ja.|
 F The Sliver|QID|49488|M|51.89,41.21|Z|Dazar'alor|N|At Paku'al Rokota.|
 T Tal'gurub|QID|49488|M|54.37,6.12;62.83,32.58|CS|N|To Zul the Prophet.|
@@ -376,17 +383,17 @@ C Naptime|QID|47310|M|68.29,42.05|NC|N|Click on the gates to send your Juvenile 
 T Naptime|QID|47310|M|66.79,42.50|N|To Beastlord L'kala.|
 
 F Scaletrader Post|ACTIVE|49768|M|67.26,43.03|N|At Paku'ai Verraki.|
-R Nesingwary's Trek|ACTIVE|49768|M|69.23,27.56;68.53,23.01;67.91,21.19;67.54,18.00|CS|N|And on to find Nesingwary.|
-A Hunt for King K'tal|QID|47706|M|67.46,17.92|N|From Hunter's Board.|
-A WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.46,17.92|N|From Hunter's Board.|
+R Nesingwary's Trek|ACTIVE|49768|M|69.23,27.56;68.53,23.01;67.91,21.19;67.54,18.00|CS|N|And on to find Nesingwary.|RANK|2|
+A Hunt for King K'tal|QID|47706|M|67.46,17.92|N|From Hunter's Board.|RANK|2|
+A WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.46,17.92|N|From Hunter's Board.|RANK|2|
 T Nesingwary's Trek|QID|49768|M|67.50,17.70|N|To Hemet Nesingwary.|
-A He's Gone Mad!|QID|50466|M|67.50,17.70|N|From Hemet Nesingwary.|
-A Die, Die, Diemetradon|QID|47583|M|67.56,17.73|N|From Hemet Nesingwary.|
-A A Thorn in the Side|QID|47584|M|67.45,17.72|N|From Erak the Aloof.|
-A Predatory|QID|47585|M|68.85,19.44|QO|1|N|From Trapper Custer. (or what's left of him.|
+A He's Gone Mad!|QID|50466|M|67.50,17.70|N|From Hemet Nesingwary.|RANK|2|
+A Die, Die, Diemetradon|QID|47583|M|67.56,17.73|N|From Hemet Nesingwary.|RANK|2|
+A A Thorn in the Side|QID|47584|M|67.45,17.72|N|From Erak the Aloof.|RANK|2|
+A Predatory|QID|47585|M|68.85,19.44|QO|1|N|From Trapper Custer. (or what's left of him.|RANK|2|
 C Die, Die, Diemetradon|QID|47583|M|67.85,24.11|S|N|Kill Venomous Diemetradons.|
 C A Thorn in the Side|QID|47584|M|68.32,21.65|S|N|Kill Ankylodons.|
-$ The Exile's Lament|QID|50949|M|71.28,17.45;71.83,16.77|CS|N|Inside the cave you can find a chest to loot for azerite power and resources.|
+$ The Exile's Lament|QID|50949|M|71.28,17.45;71.83,16.77|CS|N|Inside the cave you can find a chest to loot for azerite power and resources.|RANK|2|
 C Predatory|QID|47585|M|70.63,22.01|QO|1|N|Ranger Paalu can be found here.|
 C Predatory|QID|47585|M|67.81,25.06|QO|2|N|Marksman Julyen is lying here.|
 C He's Gone Mad!|QID|50466|M|71.00,26.38|N|Kill Wildtusk.|
@@ -396,34 +403,35 @@ C Die, Die, Diemetradon|QID|47583|M|67.85,24.11|US|N|Finish your quota of Venomo
 T Die, Die, Diemetradon|QID|47583|M|67.49,18.89|N|To Tracker Burke's Hat.|
 T A Thorn in the Side|QID|47584|M|68.01,18.03|N|To Erak the Aloof.|
 T Predatory|QID|47585|M|67.50,17.62|N|To Huntmaster Vol'ka.|
-A Hunting the Hunter|QID|47586|M|67.50,17.62|N|From Huntmaster Vol'ka.|
+A Hunting the Hunter|QID|47586|M|67.50,17.62|N|From Huntmaster Vol'ka.|RANK|2|
 T Hunt for King K'tal|QID|47706|M|67.50,17.62|N|To Huntmaster Vol'ka.|
 T He's Gone Mad!|QID|50466|M|67.50,17.62|N|To Huntmaster Vol'ka.|
-f Nesingwary's Trek|ACTIVE|47586|M|66.18,17.57|N|At Lasa the Galerider.|
-A Big Hunter Mon|QID|50332|M|66.20,16.59|N|Click on the Mysterious Trashpile to summon Jani who has a quest for you.|
+f Nesingwary's Trek|ACTIVE|47586|M|66.18,17.57|N|At Lasa the Galerider.|RANK|2|
+A Big Hunter Mon|QID|50332|M|66.20,16.59|N|Click on the Mysterious Trashpile to summon Jani who has a quest for you.|RANK|3|
 C Big Hunter Mon|QID|50332|M|67.73,17.86|QO|1|NC|N|Nesingwary's Stores reached. Use sprint and avoid the Eyes of Yazma.||
 C Big Hunter Mon|QID|50332|M|67.46,17.71|QO|2|NC|N|Click on the box of ammo.|
 C Big Hunter Mon|QID|50332|M|67.70,17.71|QO|3|NC|N|Wait for Nesingwary to trigger stink bombs.|
 C Big Hunter Mon|QID|50332|M|67.49,17.68|QO|4|NC|N|Click on Nesingwary to steal his Boot.|
 C Big Hunter Mon|QID|50332|M|66.23,16.77|QO|5|NC|N|Bring the Boot to Jani. (avoiding the Eye of Yazma mobs).|
 T Big Hunter Mon|QID|50332|M|66.23,16.67|N|To Jani.|
-A Trouble in the Rootway|QID|50178|M|65.88,19.97|N|Bonus Objective. Autoaccepted.|LVL|-120|
+A Trouble in the Rootway|QID|50178|M|65.88,19.97|N|Bonus Objective. Autoaccepted.|LVL|-120|RANK|2|
 C Trouble in the Rootway|QID|50178|M|65.88,19.97|S|N|Kill the invasive animals in the area.|
-$ Witch Doctor's Stash|QID|50259|M|65.57,22.51;64.72,21.70|CS|N|Follow this path to get up to the Treasure.|
+$ Witch Doctor's Stash|QID|50259|M|65.57,22.51;64.72,21.70|CS|N|Follow this path to get up to the Treasure.|RANK|2|
 C Hunting the Hunter|QID|47586|M|62.46,19.25|QO|1|NC|N|Inspect Nesingwary's campfire.|
 C Hunting the Hunter|QID|47586|M|61.49,17.96|QO|2|NC|N|Inspect the Suspicious trap.|
 C Hunting the Hunter|QID|47586|M|62.32,16.87|QO|3|NC|N|Inspect Nesingwary's gun.|
 T Hunting the Hunter|QID|47586|M|63.49,16.16|N|To Hemet Nesingwary.|
-A Headhunter Jo|QID|47587|M|63.49,16.16|N|From Hemet Nesingwary.|
+A Headhunter Jo|QID|47587|M|63.49,16.16|N|From Hemet Nesingwary.|RANK|2|
 C Headhunter Jo|QID|47587|M|63.03,15.89|N|Kill Headhunter Jo.|
 T Headhunter Jo|QID|47587|M|63.50,16.14|N|To Hemet Nesingwary.|
 C Trouble in the Rootway|QID|50178|M|62.87,19.95|US|N|Finish the Bonus Objective or move on.|
 T Trouble in the Rootway|QID|50178|M|62.87,19.95|N|Bonus Objective - Autocompleted.|
 
-A WANTED: Darkspeaker Jo'la|QID|51069|M|63.740,10.18|N|From Wanted Poster.|
-K Darkspeaker Jo'la|QID|50693;51069|M|65.28,10.28|QO|1|ITEM|160958|T|Darkspeaker Jo'la|N|Silver Elite to kill for azerite power and resources.|
+A WANTED: Darkspeaker Jo'la|QID|51069|M|63.740,10.18|N|From Wanted Poster.|RANK|3|
+K Darkspeaker Jo'la|QID|50693;51069|M|65.28,10.28|QO|1|ITEM|160958|T|Darkspeaker Jo'la|N|Silver Elite to kill for azerite power and resources.|RANK|3|
+A WANTED: Darkspeaker Jo'la|QID|51069|M|63.740,10.18|N|From Wanted Poster.|RANK|3|
 C WANTED: Ten'gor and Nol'ixwan|QID|51091|M|61.55,24.98|N|This is meant to be a group quest, so you may want help.|
-A WANTED: Darkspeaker Jo'la|QID|51069|M|67.51,17.63|N|To Huntmaster Vol'ka.|
+T WANTED: Darkspeaker Jo'la|QID|51069|M|67.51,17.63|N|To Huntmaster Vol'ka.|
 T WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.51,17.63|N|To Huntmaster Vol'ka.|
 
 F The Sliver|ACTIVE|47438|M|66.18,17.58|N|At Lasa the Galerider.|
@@ -863,18 +871,18 @@ T Lil' Tika|QID|49681|M|47.33,25.14|N|To Beastmother Jabati.|
 H The Great Seal|M|49.73,26.28|N|Hearth or run up the hill to the flightmaster, Back to where we started -- off to adventure elsewhere.|
 
 F The Sliver|ACTIVE|47199|M|51.89,41.21|Z|Dazar'alor|N|At Paku'al Rokota.|
-R The Blood Gate|ACTIVE|47199|M|60.44,23.45|
+R Blood Gate|ACTIVE|47199|M|60.44,23.45|
 T The Blood Gate|QID|47199|M|60.38,22.02|N|To King Rastakhan.|
 A Ticks|QID|47200|M|60.38,22.02|N|From King Rastakhan.|PRE|47199|
 A They Want Us Alive|QID|47198|M|60.38,22.02|N|From King Rastakhan.|PRE|47199|
 C Ticks|QID|47200|M|59.58,19.46|S|N|Kill Bloodbelly Flyers as you look for captives to assist.|
 C They Want Us Alive|QID|47198|M|59.66,19.00|S|NC|N|Click on the Wounded Captives.|
 K Bloodbulge|QID|49267|M|59.99,18.16|QO|1|T|Bloodbulge|N|Silver Elite to kill for azerite power and resources.|
-C They Want Us Alive|QID|47198|M|59.66,19.00|S|NC|N|Finish rescuing the Wounded Captives.|
-C Ticks|QID|47200|M|59.58,19.46|S|N|Finish up your quota of Bloodbelly Flyers.|
+C They Want Us Alive|QID|47198|M|59.66,19.00|US|NC|N|Finish rescuing the Wounded Captives.|
+C Ticks|QID|47200|M|59.58,19.46|US|N|Finish up your quota of Bloodbelly Flyers.|
 T Ticks|QID|47200|M|60.39,22.03|N|To King Rastakhan.|
 T They Want Us Alive|QID|47198|M|60.39,22.03|N|To King Rastakhan.|
-A Rokhan|QID|47201|M|60.39,22.03|N|From King Rastakhan.|PRE|47200+47198|
+A Rokhan|QID|47201|M|60.39,22.03|N|From King Rastakhan.|PRE|47200;47198|
 C Rokhan|QID|47201|M|60.99,20.59|QO|1|NC|N|Ride the Old Rotana|
 T Rokhan|QID|47201|M|56.92,19.10|N|To Rokhan.|
 A Warmother|QID|47205|M|56.92,19.10|N|From Rokhan.|PRE|47201|
@@ -884,13 +892,14 @@ C Warmother|QID|47205|M|58.02,18.19||N|Kill Warmother Shazraka.|
 C The New Frontline|QID|47204|M|57.08,20.68|US|N|Finish your share of the Blood Troll forces.|
 T Warmother|QID|47205|M|56.92,19.11|N|To Rokhan.|
 T The New Frontline|QID|47204|M|56.92,19.11|N|To Rokhan.|
-A Bulwark of Torcali|QID|47229|M|56.92,19.11|N|From Rokhan.|PRE|47204+47205|
-C Bulwark of Torcali|QID|47229|M|56.89,19.77|QO|1|N|Ride Old Rotana.|
-C Bulwark of Torcali|QID|47229|M|58.07,20.39|QO|2|N|Destroy Blood Troll forces.\n1 is Cone AE\2 is ligtning bolt, multi target\3 is charge, must be standing still to use.|
+A Bulwark of Torcali|QID|47229|M|56.92,19.11|N|From Rokhan.|PRE|47204;47205|
+C Bulwark of Torcali|QID|47229|M|56.89,19.77|NC|QO|1|N|Ride Old Rotana.|
+C Bulwark of Torcali|QID|47229|M|58.07,20.39|NC|QO|2|N|Destroy Blood Troll forces.\n1 is Cone AE\n2 is ligtning bolt, multi target\n3 is charge, must be standing still to use.|
 T Bulwark of Torcali|QID|47229|M|57.98,17.83|N|To Princess Talanji.|
 A Prepare for a Siege|QID|47258|M|60.05,22.23|N|From King Rastakhan.|PRE|47229|
+A Zandalar Forever!|QID|50954|M|60.05,22.23|N|From King Rastakhan.(requires all 3 zone achievements)|PRE|47229;50703|
 
-A Zandalar Forever!|QID|50954|M|60.05,22.23|N|From King Rastakhan.(requires all 3 zone achievements)|PRE|47229|
+H The Great Seal|ACTIVE|-50954|N|Final Scenario requires you to have finished all three zone achievements, so if you don't know is the time to hearth and go finish Voldun.|
 C Prepare the Assault|ACTIVE|50954|SO|1|N|Gather your forces and mount Old K'zlotec.|
 C Blood Troll Army slain|ACTIVE|50954|M|60.96,22.17|Z|Zuldazar!Instance|SO|2|N|Destroy the Nazmani invaders in the Sliver.|
 C Secure the bridge to Dazar'alor|ACTIVE|50954|M|60.62,31.86|Z|Zuldazar!Instance|SO|3|N|Secure the bridge to Dazar'alor.|
