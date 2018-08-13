@@ -287,11 +287,11 @@ C The Dark Lady|QID|51795|M|48.08,78.09|Z|Ruins of Lordaeron!Instance|SO|14|NC|N
 T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|T|Halford Wyrmbane|
 N End of Pre-patch|QID|53026|N|This ends the prepatch guide. The story will continue in Batle For Azoroth on 13th August at 03:00pm PDT for America/14th August 00:00am CET for Europe 06:00 am CST for Asia and 08:00 am AEST for Australian.https://worldofwarcraft.com/en-gb/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all|
 
-A A Dying World|QID|53026|M|27.64,21.29|Z|Stormwind City|N|From an Earthen Messenger. If this quest isn't available, you need to do the pre-launch quests.|T|Earthen Messenger|
-R The Eastern Earthshrine|ACTIVE|53026|M|75.26,20.51|Z|Stormwind City|N|Mount up and fly over and use the Uldam portal for a shortcut to Silithus. Check off manually after you go thru the portal.|
-R Silithus: The Wound|ACTIVE|53026|M|68.36,86.30|Z|Silithus|N|Continue to Silithus to find Magni.|
-T A Dying World|QID|53026|M|42.23,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A The Heart of Azeroth|QID|51211|M|42.12,44.19|Z|Silithus|N|From Magni Bronzebeard.|PRE|53026|
+A A Dying World|QID|52946|M|27.64,21.29|Z|Stormwind City|N|From an Earthen Messenger. If this quest isn't available, you need to do the pre-launch quests.|T|Earthen Messenger|
+R The Eastern Earthshrine|ACTIVE|52946|M|75.26,20.51|Z|Stormwind City|N|Mount up and fly over and use the Uldam portal for a shortcut to Silithus. Check off manually after you go thru the portal.|
+R Silithus: The Wound|ACTIVE|52946|M|68.36,86.30|Z|Silithus|N|Continue to Silithus to find Magni.|
+T A Dying World|QID|52946|M|42.23,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+A The Heart of Azeroth|QID|51211|M|42.12,44.19|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946|
 C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the teleporter to travel to the Chamber of the Heart.|
 C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
 T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
