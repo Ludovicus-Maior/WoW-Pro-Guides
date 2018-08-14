@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-08-14 07:20
+-- Who: Emmaleah
+-- Log: removed lvl 112 from first foothold
+
+-- URL: http://wow-pro.com/node/3761/revisions/29504/view
 -- Date: 2018-08-13 16:46
 -- Who: Emmaleah
 -- Log: played thru 2nd lvl 120 quest arc
@@ -76,7 +81,7 @@ T Adapting Our Tactics|QID|53602|M|58.56,62.72|Z|Zuldazar|N|To Eitrigg.|
 A The MOTHERLODE!!: Raw Deal|QID|53437|M|58.45,62.64|Z|Zuldazar|NA|LVL|115|N|From Trade Prince Gallywix who is 1 level directly below Nathanos.|PRE|53602|
 
 ;foothold quest intro
-A The Kul Tiras Campaign|QID|51803|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|112|
+A The Kul Tiras Campaign|QID|51803|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
 C Pick a Foothold|QID|51803|M|58.44,62.67|NC|Z|Zuldazar|N|Choose which zone you want to build a foothold in first at the  Kul'Tiras Campaign Table.|
 ; A Foothold: Drustvar|QID|51801|M¦58.44,62.67|Z|Zuldazar|N|From Kul'Tiras Campaign Table.|
 ; A Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|From Nathanos Blightcaller.|
