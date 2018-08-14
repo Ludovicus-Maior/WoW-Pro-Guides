@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2018-08-14 17:52
+-- Who: Chromaflo
+-- Log: Changed the QID for Quest "A Dying World" to 52946 and the Quest steps a bit.
+
+-- URL: http://wow-pro.com/node/3776/revisions/29516/view
+-- Date: 2018-08-14 17:40
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3776/revisions/29500/view
 -- Date: 2018-08-13 12:55
 -- Who: Ludovicus_Maior
 -- Log:  "Chamber of Heart"
@@ -287,11 +296,10 @@ C The Dark Lady|QID|51795|M|48.08,78.09|Z|Ruins of Lordaeron!Instance|SO|14|NC|N
 T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|T|Halford Wyrmbane|
 N End of Pre-patch|QID|53026|N|This ends the prepatch guide. The story will continue in Batle For Azoroth on 13th August at 03:00pm PDT for America/14th August 00:00am CET for Europe 06:00 am CST for Asia and 08:00 am AEST for Australian.https://worldofwarcraft.com/en-gb/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all|
 
-A A Dying World|QID|52946|M|27.64,21.29|Z|Stormwind City|N|From an Earthen Messenger. If this quest isn't available, you need to do the pre-launch quests.|T|Earthen Messenger|
-R The Eastern Earthshrine|ACTIVE|52946|M|75.26,20.51|Z|Stormwind City|N|Mount up and fly over and use the Uldam portal for a shortcut to Silithus. Check off manually after you go thru the portal.|
-R Silithus: The Wound|ACTIVE|52946|M|68.36,86.30|Z|Silithus|N|Continue to Silithus to find Magni.|
-T A Dying World|QID|52946|M|42.23,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A The Heart of Azeroth|QID|51211|M|42.12,44.19|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946|
+A A Dying World|QID|52946|M|27.70,21.34|Z|Stormwind City|N|A request from your Magni Bronzebeard will come automatically from UI after you turned in "The Battle for Lordaeron" at Halford Wyrmbane.|
+C A Dying World|QID|52946|M|48.98,90.67|Z|Kalimdor|QO|1|N|Take portal to Uldum to get closer to Silithus (Optional)|
+T A Dying World|QID|52946|M|42.26,44.26|Z|Silithus|N|To Magni Bronzebeard.|
+A The Heart of Azeroth|QID|51211|M|42.12,44.19|Z|Silithus|N|From Magni Bronzebeard.|PRE|53026|
 C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the teleporter to travel to the Chamber of the Heart.|
 C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
 T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
