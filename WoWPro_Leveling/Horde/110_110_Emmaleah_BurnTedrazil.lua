@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-08-14 19:59
+-- Who: Ludovicus_Maior
+-- Log: Live tweaks.
+
+-- URL: http://wow-pro.com/node/3770/revisions/29515/view
+-- Date: 2018-08-14 07:32
+-- Who: Emmaleah
+-- Log: add h step, (I could swear it was in there already) change mention of war campaign to 110, 114,118
+
+-- URL: http://wow-pro.com/node/3770/revisions/29489/view
 -- Date: 2018-08-09 21:44
 -- Who: Ludovicus_Maior
 -- Log: Play-through tweaks.
@@ -226,20 +236,20 @@ A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|T|Nathanos Blightcaller|N|Fr
 R The Western Earthshrine|QID|53028|QO|1|M|48.82,38.59|Z|Orgrimmar|N|Fly over to the Uldam Portal for a shortcut to Silithus.|
 R Silithus: The Wound|ACTIVE|53028|M|70.42,87.54|Z|Silithus|N|Fly towards Sargaras' giant sword.|
 T A Dying World|QID|53028|M|42.22,44.28|Z|Silithus|N|To Magni Brozebeard.|
-A The Heart of Azeroth|QID|51211|M|42.22,44.28|Z|Silithus|N|From Magni Bronzebeard.|PRE|46931|
-C The Heart of Azeroth|QID|51211|M|43.20,44.49|Z|Silithus|QO|1|N|Click on the Titan Translocator to travel to the Chamber.|
-C The Heart of Azeroth|QID|51211|M|50.17,55.44|Z|Chamber of Heart!Dungeon|QO|2|N|Optional: Click on the Tital Console to view a cutscene (or just skip straight to talking with Magni to view a different cutscene).|
-C The Heart of Azeroth|QID|51211|M|50.13,55.21|Z|Chamber of Heart!Dungeon|QO|3|CHAT|N|Speak to Magni within the Chamber of Heart and watch another cutscene.|
-T The Heart of Azeroth|QID|51211|M|50.13,55.21|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A Infusing the Heart|QID|52428|M|50.13,55.21|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211+51400|
+A The Heart of Azeroth|QID|51211|M|42.22,44.28|Z|Silithus|N|From Magni Bronzebeard.|PRE|53028|
+C The Heart of Azeroth|QID|51211|M|43.20,44.49|Z|Silithus|QO|1|NC|N|Click on the Titan Translocator to travel to the Chamber.|
+C The Heart of Azeroth|QID|51211|M|50.17,55.44|Z|Chamber of Heart!Dungeon|QO|2|NC|N|Optional: Click on the Tital Console to view a cutscene (or just skip straight to talking with Magni to view a different cutscene).|
+C The Heart of Azeroth|QID|51211|M|50.15,53.68|Z|Chamber of Heart!Dungeon|QO|3|CHAT|N|Speak to Magni within the Chamber of Heart and watch another cutscene.|
+T The Heart of Azeroth|QID|51211|M|50.15,53.68|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
+A Infusing the Heart|QID|52428|M|50.13,55.21|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211|
 C Infusing the Heart|QID|52428|M|55.26,58.45|QO|1|NC|N|Go to the 'wounds' and use your special action button, until this step completes (doesn't require all of the wounds to be healed at this time).|
-C Infusing the Heart|QID|52428|M|50.02,64.33|Z|Chamber of Heart!Dungeon|QO|2|N|Use Speecial Action button while standing in the center of the room and wait for the bar to fill.|
+C Infusing the Heart|QID|52428|M|50.02,64.33|Z|Chamber of Heart!Dungeon|QO|2|NC|N|Use Special Action button while standing in the center of the room and wait for the bar to fill.|
 T Infusing the Heart|QID|52428|M|50.15,53.74|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A The Speaker's Imperative|QID|53031|M|50.15,53.74|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|
+A The Speaker's Imperative|QID|53031|M|50.15,53.74|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|52428|
 C The Speaker's Imperative|QID|53031|M|50.17,30.46|Z|Chamber of Heart!Dungeon|NC|N|Teleporter pad used.|
 T The Speaker's Imperative|QID|53031|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, still on top of the Gates of Orgrimmar.|
 
-A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|71796|
+A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE| 53031|
 C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|
 C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|
 T Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|N|To Nathanos Blightcaller.|
@@ -275,6 +285,7 @@ C Speaker of the Horde|QID|46931|M|57.55,44.05|Z|Zuldazar|QO|1|NC|N|Follow Zolan
 C Speaker of the Horde|QID|46931|M|57.95,42.09|Z|Zuldazar|QO|2|NC|N|Click the banner to summon the your companions.|
 C Speaker of the Horde|QID|46931|M|57.95,44.31|Z|Zuldazar|QO|3|NC|N|The Great Seal explored.|
 C Speaker of the Horde|QID|46931|M|67.00,71.83|Z|The Great Seal!Dazar'alor|QO|4|NC|N|Hall of Ancient Paths explored.|
+h The Great Seal|ACTIVE|46931|M|48.50,71.75|Z|The Great Seal!Dazar'alor|N|Set your hearth stone with Brillin the Beauty, with the portals nearby, you probably won't want to change it.|
 C Speaker of the Horde|QID|46931|M|66.39,37.17;32.22,38.63|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Vault of the King explored.|
 T Speaker of the Horde|QID|46931|M|32.22,38.63|Z|The Great Seal!Dazar'alor|N|To Chronicler To'kini.|
 A To Matters at Hand|QID|52139|M|32.22,38.63|Z|The Great Seal!Dazar'alor|N|From Chronicler To'kini.|PRE|46931|;GRAIL SAYS NO PRE
@@ -290,7 +301,7 @@ A Journey to Nazmir|QID|47103|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|Fr
 A Discreet Discussions|QID|47313|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47513|
 A Trust of a King|QID|49615|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47514|
 
-N War Campaign|QID|52476|N|There are quests offered at 112,114,118 on The Banshee's Wail, a ship in Zuldazar's harbor. The guide for those quests will offer to load when you accept one of those quests.|
+N War Campaign|QID|52476|N|There are quests offered at 110,114,118 on The Banshee's Wail, a ship in Zuldazar's harbor. The guide for those quests will offer to load when you accept one of those quests. No rush to get them done as long as you do it by 120.|
 J On to Nazmir|QID|47103|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmNazmir|
 J On to Vol'Dun|QID|47313|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmVoldun|
 J On to Zuldazar|QID|49615|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmZuldazar|
