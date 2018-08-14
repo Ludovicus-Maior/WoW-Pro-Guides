@@ -146,7 +146,7 @@ local guide = WoWPro:RegisterGuide('BurnTedrazilSTrek', 'Leveling', 'Azeroth', '
 WoWPro:NewGuideLevels(guide,110, 110, 110.5)
 WoWPro:GuideName(guide,'Battle for Azeroth Intro')
 WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
-WoWPro:GuideQuestTriggers(guide, 52058,53370,53026)
+WoWPro:GuideQuestTriggers(guide, 52058, 53370 , 52946)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -218,7 +218,7 @@ T Malfurion Returns|QID|52256|M|42.31,66.80|Z|Darkshore|N|To Malfurion Stormrage
 A "Rock" The World|QID|52257|M|42.31,66.80|Z|Darkshore|N|From Malfurion Stormrage.|PRE|52256|
 
 C Tree of life|QID|52257|M|42.07,66.87|Z|Darkshore|QO|1|NC|N|Speak/mount with Tree of Life|
-C "Rock" The World|QID|52257|M|42.01,68.97|Z|Darkshore|NC|QO|2|N|Slay 50 Horde enemies with Tree of life. You will automatically move to the correct area then the Vehicle UI buttons will appear.\n1 is a leap and AE damage.\n2 is a targeted AE damage.\n3 is a heal.  |
+C "Rock" The World|QID|52257|M|42.01,68.97|Z|Darkshore|NC|QO|2|N|Slay 50 Horde enemies with Tree of life. You will automatically move to the correct area then the Vehicle UI buttons will appear.\n1 is a leap and AE damage.\n2 is a targeted AE damage.\n3 is a heal. |
 T "Rock" The World|QID|52257|M|42.31,66.80|Z|Darkshore|N|To Malfurion Stormrage.|
 A Long Away|QID|52197|M|42.31,66.80|Z|Darkshore|N|From Malfurion Stormrage.|PRE|52257|
 
@@ -294,12 +294,12 @@ C The High Overlord.|QID|51795|M|47.85,73.50|Z|Ruins of Lordaeron!Instance|SO|13
 C The Dark Lady|QID|51795|M|48.08,78.09|Z|Ruins of Lordaeron!Instance|SO|14|NC|N|Run into the Lordaeron throne room.|
 
 T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|T|Halford Wyrmbane|
-N End of Pre-patch|QID|53026|N|This ends the prepatch guide. The story will continue in Batle For Azoroth on 13th August at 03:00pm PDT for America/14th August 00:00am CET for Europe 06:00 am CST for Asia and 08:00 am AEST for Australian.https://worldofwarcraft.com/en-gb/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all|
+N End of Pre-patch|AVAILABLE|52946|N|This ends the prepatch guide. The story will continue in Batle For Azoroth on 13th August at 03:00pm PDT for America/14th August 00:00am CET for Europe 06:00 am CST for Asia and 08:00 am AEST for Australian.https://worldofwarcraft.com/en-gb/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all|
 
 A A Dying World|QID|52946|M|27.70,21.34|Z|Stormwind City|N|A request from your Magni Bronzebeard will come automatically from UI after you turned in "The Battle for Lordaeron" at Halford Wyrmbane.|
 C A Dying World|QID|52946|M|48.98,90.67|Z|Kalimdor|QO|1|N|Take portal to Uldum to get closer to Silithus (Optional)|
 T A Dying World|QID|52946|M|42.26,44.26|Z|Silithus|N|To Magni Bronzebeard.|
-A The Heart of Azeroth|QID|51211|M|42.12,44.19|Z|Silithus|N|From Magni Bronzebeard.|PRE|53026|
+A The Heart of Azeroth|QID|51211|M|42.12,44.19|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946|
 C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the teleporter to travel to the Chamber of the Heart.|
 C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
 T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
