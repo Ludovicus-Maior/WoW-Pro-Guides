@@ -549,6 +549,23 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	return i
 end
 
+
+function WoWPro.ClearNpcFauxQuests(GID)
+    for k, v in pairs(WoWProDB.global.NpcFauxQuests) do
+        if (v.guide == nil) or (v.guide == GID) then
+            WoWProDB.global.NpcFauxQuests[k] = nil
+        end
+    end
+end
+
+function WoWPro.ClearQID2Guide(GID)
+    for k, v in pairs(WoWProCharDB.QID2Guide) do
+        if v == GID then
+            WoWProCharDB.QID2Guide[k] = nil
+        end
+    end
+end
+
 function WoWPro.RecordStuff(i)
     local QIDs = WoWPro.QID[i]
     local NPCs = WoWPro.NPC[i]
@@ -560,7 +577,7 @@ function WoWPro.RecordStuff(i)
     local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
 
     if not recordQIDs then return end
-    
+
 	if WoWPro.noauto[i] then
 	    return
 	end
@@ -573,7 +590,7 @@ function WoWPro.RecordStuff(i)
     		local npc = select(numNPCs-j+1, string.split(";", NPCs))
     		local NPC = tonumber(npc)
     		if NPC then
-    			WoWProDB.global.NpcFauxQuests[NPC] = {qid = tonumber(QIDs), title = WoWPro.step[i]}
+    			WoWProDB.global.NpcFauxQuests[NPC] = {qid = tonumber(QIDs), title = WoWPro.step[i], guide = GID}
 --    			WoWPro:Print("Recorded NPC %d => QID %s",NPC, QIDs)
     		end
         end
@@ -732,13 +749,17 @@ function WoWPro.LoadGuideStepsReal()
     local AutoSwitch = WoWPro.Guides[GID].AutoSwitch
 
     WoWPro:dbp("LoadGuideSteps(%s) AutoSwitch=%s",GID,tostring(AutoSwitch));
-    
-	--Re-initiallizing tags and counts--
-	for tag,val in pairs(WoWPro.Tags) do 
+
+    -- Clear the caches
+    WoWPro.ClearNpcFauxQuests(GID)
+    WoWPro.ClearQID2Guide(GID)
+
+	-- Re-initiallizing tags and counts--
+	for tag,val in pairs(WoWPro.Tags) do
 		WoWPro[tag] = {}
 	end
 	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
-	
+
 	-- Parsing quests --
 	local sequencef = WoWPro.Guides[GID].sequence
 	local sequence = sequencef()
@@ -750,15 +771,15 @@ function WoWPro.LoadGuideStepsReal()
 
     WoWProCharDB.Guide[GID].done = false
 	WoWPro.ParseSteps(steps)
-	
-	
+
+
 	if WoWPro.LoadAllGuidesActive then
 	    WoWPro:dbp("Guide Parsed for LoadAllGuidesActive. "..WoWPro.stepcount.." steps stored.")
 	    return
 	else
 	    WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
 	end
-	
+
 	-- May need to go the the next guide to register	
 	if WoWPro.Guides2Register then
 	    WoWProCharDB.GuideVersion[GID] = WoWPro.Version
@@ -766,7 +787,7 @@ function WoWPro.LoadGuideStepsReal()
         WoWPro:SendMessage("WoWPro_LoadGuide")
         return
     end
-    
+
 	WoWPro:PushCurrentGuide(GID)
 	WoWPro:GuideSetup()
 end

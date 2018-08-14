@@ -788,14 +788,25 @@ end
 function WoWPro:GuideQuestTriggers(guide, ...)
     -- Only do if guide is registered!
     if WoWPro.Guides[guide.GID] then
+        WoWPro.ClearQID2Guide(guide.GID)
         for _,QID in ipairs({...}) do
             WoWProCharDB.QID2Guide[QID] = guide['GID']
         end
+        guide['QuestTriggers'] = true
+    end
+    if guide['AutoSwitch'] then
+        WoWPro:Error("For guide %s, use only GuideQuestTriggers or GuideAutoSwitch", guide.GID)
     end
 end
 
-function WoWPro:GuideAutoSwitch(guide)
+function WoWPro:GuideAutoSwitch(guide, state)
     local locClass, engClass = UnitClass("player")
+
+    if state == false then
+        -- A clear request
+        WoWPro.ClearQID2Guide(guide.GID)
+        return
+    end
 
     if guide.class and engClass ~= guide.class then
         -- Developers can peek, but should not AutoSwitch on the class specific guides if they are not for them
@@ -803,6 +814,9 @@ function WoWPro:GuideAutoSwitch(guide)
         return
     end
     guide['AutoSwitch'] = true
+    if guide['QuestTriggers'] then
+        WoWPro:Error("For guide %s, use only GuideQuestTriggers or GuideAutoSwitch", guide.GID)
+    end
     WoWPro.Guides2Register = WoWPro.Guides2Register or {}
     -- Only do if guide is registered!
     if WoWPro.Guides[guide.GID] then
