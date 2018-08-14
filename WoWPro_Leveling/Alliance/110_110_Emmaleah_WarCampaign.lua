@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-08-14 05:52
+-- Who: Emmaleah
+-- Log: add guide name registration and delete ref to first foothold at 112, (changed to 110)
+
+-- URL: http://wow-pro.com/node/3760/revisions/29498/view
 -- Date: 2018-08-12 23:57
 -- Who: Emmaleah
 -- Log: change end level to 120
@@ -87,7 +92,8 @@
 -- Log: Draft 1 - Opening Scenario/quests for Alliance.  The zone numbers will need replaced with names when they are available.
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
-WoWPro:GuideLevels(guide,110, 120, 112)
+WoWPro:NewGuideLevels(guide,110, 120, 112)
+WoWPro:GuideName(guide,'War Campaign')
 WoWPro:GuideQuestTriggers(guide, 53370,51795)
 WoWPro:GuideNextGuide(guide, 'TBD')
 WoWPro:GuideAutoSwitch(guide)
@@ -110,7 +116,7 @@ A Reinforcements|QID|53074|M|69.72,26.81|Z|Boralus|N|From Master Mathias Shaw.|P
 C Reinforcements|QID|53074|M|69.72,26.81|Z|Boralus|N|Place a work order (or 4) for reinforcements with Master Mathias Shaw.|
 T Reinforcements|QID|53074|M|69.72,26.81|Z|Boralus|N|To Master Mathias Shaw.|
 
-A The Zandalar Campaign.|QID|51569|M|69.25,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|51714|LVL|112|
+A The Zandalar Campaign.|QID|51569|M|69.25,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|51714|
 C The Zandalar Campaign.|QID|51569|M|69.25,27.00|Z|Boralus|NC|N|Click on the scouting map to pick a zone to do first from Halford Wyrmbane.|
 T The Zandalar Campaign.|QID|51569|M|69.25,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
