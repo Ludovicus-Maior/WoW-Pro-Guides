@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2018-08-15 03:09
+-- Who: Chromaflo
+-- Log: Changed further map ids and coordinates, especially from "Tiragarde Sound" to "Boralus". This will fix the waypoints with |CC| or |CS| tags. 
+
+-- URL: http://wow-pro.com/node/3776/revisions/29522/view
+-- Date: 2018-08-15 01:07
+-- Who: Chromaflo
+-- Log: Changed to under map id: Tol Dagor that waypoint sequences will work again.
+
+-- URL: http://wow-pro.com/node/3776/revisions/29520/view
+-- Date: 2018-08-14 21:18
+-- Who: Ludovicus_Maior
+-- Log: Added my changes on top of Emmaleah's
+
+-- URL: http://wow-pro.com/node/3776/revisions/29517/view
 -- Date: 2018-08-14 17:52
 -- Who: Chromaflo
 -- Log: Changed the QID for Quest "A Dying World" to 52946 and the Quest steps a bit.
@@ -146,7 +161,7 @@ local guide = WoWPro:RegisterGuide('BurnTedrazilSTrek', 'Leveling', 'Azeroth', '
 WoWPro:NewGuideLevels(guide,110, 110, 110.5)
 WoWPro:GuideName(guide,'Battle for Azeroth Intro')
 WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
-WoWPro:GuideQuestTriggers(guide, 52058, 53370 , 52946)
+WoWPro:GuideQuestTriggers(guide, 52058, 53370, 52946)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -297,10 +312,11 @@ T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|Stormwind City|N|To Halford
 N End of Pre-patch|AVAILABLE|52946|N|This ends the prepatch guide. The story will continue in Batle For Azoroth on 13th August at 03:00pm PDT for America/14th August 00:00am CET for Europe 06:00 am CST for Asia and 08:00 am AEST for Australian.https://worldofwarcraft.com/en-gb/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all|
 
 A A Dying World|QID|52946|M|27.70,21.34|Z|Stormwind City|N|A request from your Magni Bronzebeard will come automatically from UI after you turned in "The Battle for Lordaeron" at Halford Wyrmbane.|
-C A Dying World|QID|52946|M|48.98,90.67|Z|Kalimdor|QO|1|N|Take portal to Uldum to get closer to Silithus (Optional)|
+C A Dying World|QID|52946|M|75.25,20.49|Z|Stormwind City|QO|1|N|Go to the Eastern Earthsrine.|
 T A Dying World|QID|52946|M|42.26,44.26|Z|Silithus|N|To Magni Bronzebeard.|
-A The Heart of Azeroth|QID|51211|M|42.12,44.19|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946|
-C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the teleporter to travel to the Chamber of the Heart.|
+A The Heart of Azeroth|QID|51211|M|42.26,44.26|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946|
+C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the Titan Translocator to teleport to the Chamber of the Heart.|
+C The Heart of Azeroth|QID|51211|M|50.30,54.05|Z|Chamber of Heart!Dungeon|QO|2|N|Use titan console (Video can be skipped [ESC])|
 C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
 T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
 A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211|
@@ -321,56 +337,57 @@ C The Nation of Kul Tiras|QID|46728|M|22.15,24.32|Z|Stormwind City|CHAT|N|Tell J
 T The Nation of Kul Tiras|QID|46728|M|65.59,50.75|Z|Boralus|N|To Lady Jaina Proudmoore.|
 A Daughter of the Sea|QID|51341|M|65.59,50.75|Z|Boralus|N|From Lady Jaina Proudmoore.|PRE|46728|
 T Daughter of the Sea|QID|51341|M|78.11,61.04|Z|Kul Tiras|N|To Flynn Fairwind.|
-A Out Like Flynn|QID|47098|M|78.11,61.04|Z|Kul Tiras|N|From Flynn Fairwind.|PRE|51341|
-C Punch Flynn|QID|47098|QO|1|M|78.07,61.01|Z|Kul Tiras|NC|N|Click on Flynn to punch him.|
-C Pull the Lever|QID|47098|QO|2|M|78.07,60.77|Z|Kul Tiras|NC|N|Click on the lever.|
-C Get Dressed|QID|47098|QO|3|M|78.08,60.96|Z|Kul Tiras|NC|N|Click on the Equipment Locker to recover your equipment.|
-C Take out the Warden|QID|47098|QO|4|M|77.73,61.52|Z|Kul Tiras|N|Assist in killing Block Warden Carmine.|T|Block Warden Carmine|
-C Gather Gunpowder|QID|47098|QO|5|M|77.90,61.48|Z|Kul Tiras|NC|N|Pick up the gun powder to cause more mayham.|
-C Blow the Cell Door|QID|47098|QO|6|M|77.80,61.34;77.86,61.04;77.87,60.53|CS|Z|Kul Tiras|NC|N|Click on the gate to place the gun powder.|
-C Into the sewers|QID|47098|QO|7|M|77.96,60.47;78.20,60.84;78.08,60.87;77.90,60.81;77.61,61.42|CS|Z|Kul Tiras|NC|N|Down the stairs and around the corner to the sewers.|
-C Board the boat|QID|47098|QO|8|M|77.85,61.71;78.22,61.01;79.03,60.81;78.84,59.90|CS|Z|Kul Tiras|NC|N|Follow the wall to your left till you eventually come to a rowboat, get in. Enjoy the ride and dialog.|
-T Out Like Flynn|QID|47098|M|75.66,25.47|Z|Tiragarde Sound|N|To Taelia.|
+A Out Like Flynn|QID|47098|M|47.25,46.16|Z|Tol Dagor|N|From Flynn Fairwind.|PRE|51341|
+C Punch Flynn|QID|47098|QO|1|M|46.65,45.51|Z|Tol Dagor|NC|N|Click on Flynn to punch him.|
+C Pull the Lever|QID|47098|QO|2|M|46.71,41.02|Z|Tol Dagor|NC|N|Click on the lever.|
+C Get Dressed|QID|47098|QO|3|M|46.84,44.69|Z|Tol Dagor|NC|N|Click on the Equipment Locker to recover your equipment.|
+C Take out the Warden|QID|47098|QO|4|M|40.27,54.95|Z|Tol Dagor|N|Assist in killing Block Warden Carmine.|T|Block Warden Carmine|
+C Gather Gunpowder|QID|47098|QO|5|M|43.56,54.12|Z|Tol Dagor|NC|N|Pick up the gun powder to cause more mayham.|
+C Blow the Cell Door|QID|47098|QO|6|M|43.72,47.00;40.36,43.26;43.09,36.95|CC|Z|Tol Dagor|NC|N|Click on the gate to place the gun powder.|
+C Into the sewers|QID|47098|QO|7|M|44.55,35.77;49.40,41.52;44.23,40.57;38.09,54.41|CS|Z|Tol Dagor|NC|N|Down the stairs and around the corner to the sewers.|
+C Board the boat|QID|47098|QO|8|M|42.58,58.65;54.70,48.00;63.16,43.78;60.81,25.71|CC|Z|Tol Dagor|NC|N|Follow the wall to your left till you eventually come to a rowboat, get in. Enjoy the ride and dialog.|
+T Out Like Flynn|QID|47098|M|75.73,23.58|Z|Boralus|N|To Taelia.|
 
 A Get Your Bearings|QID|47099|M|75.66,25.47|Z|Tiragarde Sound|N|From Taelia.|PRE|47098|
 C Go to the Ferry Dock|QID|47099|QO|1|M|75.27,25.81|Z|Tiragarde Sound|NC|N|Pick up the Ferry "flight" point.|
-C Go to the Bank|QID|47099|QO|2|M|75.20,25.02;75.48,25.38;75.63,24.01|CS|Z|Tiragarde Sound|NC|N|Just up the stairs and you will find the bank.|
+C Go to the Bank|QID|47099|QO|2|M|73.76,21.74;75.83,22.85;75.49,17.66|CS|Z|Boralus|NC|N|Just up the stairs and you will find the bank.|
 ;A A Load of Scrap|QID|52462|M|75.20,25.02;75.48,25.38;76.95,23.69|CS|Z|Tiragarde Sound|N|Up the stairs and to your right, from Crenzo Sparkshatter.|PRE|47098| - not in current build
 ;C A Load of Scrap|QID|52462|M|76.95,23.55|Z|Tiragarde Sound|NC|N|Click on Crenzo's creation (behind him) and then click on the pants he gave you.|U|160267| - not in current build
 ;T A Load of Scrap|QID|52462|M|76.95,23.69|Z|Tiragarde Sound|N|To Crenzo Sparkshatter.| - not in current build
-C Go to Snug Harbor Inn|QID|47099|QO|3|M|75.39,24.25;75.51,23.95;75.13,23.10|CS|Z|Tiragarde Sound|CHAT|N|The innkeeper up some more stairs. Set your hearthstone here. (there is a portal to Stormwind nearby).|
-C Go to the Flightmaster|QID|47099|QO|4|M|74.37,23.83;73.56,23.42|CS|Z|Tiragarde Sound|NC|N|Around the corner from the inn. Pick up the flight point.|
-T Get Your Bearings|QID|47099|M|74.42,24.61|Z|Tiragarde Sound|N|To Taelia. who is right beside you.|
+C Go to Snug Harbor Inn|QID|47099|QO|3|M|74.58,18.46;75.15,16.38;74.11,12.65|CS|Z|Boralus|CHAT|N|The innkeeper up some more stairs. Set your hearthstone here. (there is a portal to Stormwind nearby).|
+C Go to the Flightmaster|QID|47099|QO|4|M|70.36,16.71;66.96,14.99|CS|Z|Boralus|NC|N|Around the corner from the inn. Pick up the flight point.|
+T Get Your Bearings|QID|47099|M|66.96,14.99|Z|Boralus|N|To Taelia. who is right beside you.|
 
-A The Old Knight|QID|46729|M|74.42,24.61|Z|Tiragarde Sound|N|From Taelia.|PRE|47099|
-C The Old Knight|QID|46729|QO|1|M|74.02,24.89;73.66,24.97;75.59,25.32|CS|Z|Tiragarde Sound|NC|N|Head down the stairs to the Harbor.|
-C The Old Knight|QID|46729|QO|2|M|73.80,25.06|Z|Tiragarde Sound|CHAT|N|Back into his office talk to Cyrus and then listen to his story.|
-T The Old Knight|QID|46729|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
-A Sanctum of the Sages|QID|47186|M|73.84,25.10|Z|Tiragarde Sound|N|From Taelia.|PRE|46729|
-A Ferry Pass|QID|52128|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|46729|
-T Ferry Pass|QID|52128|M|73.80,25.07|Z|Tiragarde Sound|N|To Cyrus Crestfall.|
-C Sanctum of the Sages|QID|47186|QO|1|M|73.73,24.78;74.00,24.88;74.46,23.72|CS|Z|Tiragarde Sound|CHAT|N|Back up to the market level and first door on your left to find the mage.|
-T Sanctum of the Sages|QID|47186|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia, who apparently thinks you know your way around now and is waiting in Cyrus's office still.|
+A The Old Knight|QID|46729|M|66.96,14.99|Z|Boralus|N|From Taelia.|PRE|47099|
+C The Old Knight|QID|46729|QO|1|M|71.30,16.46;68.93,21.17;67.28,22.24|CS|Z|Boralus|NC|N|Head down the stairs to the Harbor.|
+C The Old Knight|QID|46729|QO|2|M|68.01,21.91|Z|Boralus|CHAT|N|Back into his office talk to Cyrus and then listen to his story.|
+T The Old Knight|QID|46729|M|68.17,21.99|Z|Boralus|N|To Taelia.|
+A Sanctum of the Sages|QID|47186|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|46729|
+A Ferry Pass|QID|52128|M|68.01,21.91|Z|Boralus|N|From Cyrus Crestfall.|PRE|46729|
+T Ferry Pass|QID|52128|M|68.01,21.91|Z|Boralus|N|To Cyrus Crestfall.|
+C Sanctum of the Sages|QID|47186|QO|1|M|67.66,20.74;69.48,21.03;70.73,16.29|CS|Z|Boralus|CHAT|N|Back up to the market level and first door on your left to find the mage.|
+T Sanctum of the Sages|QID|47186|M|68.17,21.99|Z|Boralus|N|To Taelia, who apparently thinks you know your way around now and is waiting in Cyrus's office still.|
 
-A A Nation Divided|QID|47189|M|73.84,25.10|Z|Tiragarde Sound|N|From Taelia.|PRE|51403|
-T A Nation Divided|QID|47189|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
-A The War Campaign|QID|52654|M|73.81,25.14|Z|Tiragarde Sound|N|From Genn Greymane.|PRE|47189|
-A Choose next adventure|QID|47962;47961;47960|M|73.89,25.12|Z|Tiragarde Sound|N|From the Scouting Map on the wall.|PRE|47189|
-;A Tiragarde Sound|QID|47960|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+A A Nation Divided|QID|47189|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|51403|
+C A Nation Divided|QID|47189|M|68.38,22.07|Z|Boralus|N|Click on the scouting map, chose your next adventure.|
+T A Nation Divided|QID|47189|M|68.17,21.99|Z|Boralus|N|To Taelia.|
+A The War Campaign|QID|52654|M|68.04,22.18|Z|Boralus|N|From Genn Greymane.|PRE|47189|
+A Choose next adventure|QID|47962;47961;47960|M|68.38,22.07|Z|Boralus|N|From the Scouting Map on the wall.|PRE|47189|
+;A Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 ;A Drustvar|QID|47961|M|70.52,27.15|Z|Boralus|N|From Halford Wyrmbane.|
-;A Stormsong Valley|QID|47962|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+;A Stormsong Valley|QID|47962|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 
-t Tiragarde Sound|QID|47960|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+t Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 A The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|47960|
 C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the special action button.|
 T The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|To Flynn Fairwind.|
 A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|47181|
 
-t Drustvar|QID|47961|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
+t Drustvar|QID|47961|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 A The Vanishing Lord|QID|48622|M|73.84,25.09|Z|Tiragarde Sound|N|From Taelia.|PRE|47961|
 
-t Stormsong Valley|QID|47962|M|73.84,25.10|Z|Tiragarde Sound|N|To Taelia.|
-A The Missing Fleet|QID|47952|M|73.84,25.10|Z|Tiragarde Sound|N|From Taelia.|PRE|47962|
+t Stormsong Valley|QID|47962|M|68.17,21.99|Z|Boralus|N|To Taelia.|
+A The Missing Fleet|QID|47952|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|47962|
 
 A The War Campaign|QID|52654|M|67.09,23.53;69.26,26.99|CS|Z|Boralus|N|To Halford Wyrmbane.|
 
