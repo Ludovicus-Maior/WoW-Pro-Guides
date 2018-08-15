@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-08-15 00:00
+-- Who: Ludovicus_Maior
+-- Log: Next play-through.
+
+-- URL: http://wow-pro.com/node/3770/revisions/29518/view
 -- Date: 2018-08-14 19:59
 -- Who: Ludovicus_Maior
 -- Log: Live tweaks.
@@ -252,25 +257,23 @@ T The Speaker's Imperative|QID|53031|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Bli
 A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE| 53031|
 C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|
 C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|
-T Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|N|To Nathanos Blightcaller.|
-A The Stormwind Extraction|QID|50769|M|54.47,78.40|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|51443|
+T Mission Statement|QID|51443|M|54.45,78.42|Z|Orgrimmar|N|To Nathanos Blightcaller.|
+A The Stormwind Extraction|QID|50769|M|54.45,78.42|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|51443|
 C The Stormwind Extraction|QID|50769|M|54.55,78.37|Z|Orgrimmar|QO|1|NC|N|Take a potion. Don't use it!|
-C The Stormwind Extraction|QID|50769|M|48.63,93.98|Z|Durotar|QO|2|NC|N|Fly up to the ramparts and hop on an eagle. This will enter you into the next scenario, (Stockades/Stormwind).|
+C The Stormwind Extraction|QID|50769|M|48.95,93.84|Z|Orgrimmar|QO|2|NC|N|Fly up to the ramparts and hop on an eagle. This will enter you into the next scenario, (Stockades/Stormwind).|
 C In the Dead of Night|QID|50769|M|47.21,59.58|Z|Stormwind City!Stormwind City!Instance|SO|1;1|NC|N|Infiltrate Stormwind City|
-C Down the Drain|QID|50769|M|46.23,58.19|Z|Stormwind City|SO|2;2|NC|N|Open the sewer access gate|
-C Down the Drain|QID|50769|M|41.29,62.51|Z|Stormwind City|SO|2;1|NC|N|Go in the sewer access gate.|
-C The Stockades|QID|50769|M|47.05,60.05|Z|Stormwind City|SO|3;1|N|Fight your way to meet up with Rokhan.|
-C Honor and Loyalty|QID|50769|M|46.65,59.37|Z|Stormwind City|SO|4;1|NC|N|Click on the Door to Saurfang's cell and go in and talk to Saurfang.|
-C The Primary Objective|QID|50769|M|47.90,64.96|Z|Stormwind City|SO|5;1|N|Fight your way to the next waypoint and open the cell to release the Princess and the Prophet.|
-C The Primary Objective|QID|50769|M|47.39,60.71;71.23,46.87|Z|Stormwind City!Stormwind City!Instance|CS|SO|5;2|N|Fight your way down the hall and to the sewer grate, Click on the grade to go thru.|
-C The City Stirs|QID|50769|M|71.1, 46.7; 56.30,56.50|Z|Stormwind City|CS|S|SO|6|CHAT|N|Follow Rokhan closely so you stay in his invis sphere.|
-C The City Stirs|QID|50769|M|71.1, 46.7|Z|Stormwind City|SO|6;1|CHAT|N|Talk to Rokhan and then follow closely so you stay in his invis sphere.|
-C The City Stirs|QID|50769|M|56.30,56.50|Z|Stormwind City|US|SO|6|NC|N|The time for invis has past.|
-C WAY Behind Enemy Lines|QID|50769|M|55.87,56.88|Z|Stormwind City|SO|7;1|N|Defeat the worgen ambush.|
-C Escape Cathedral Square|QID|50769|M|45.44,43.20|Z|Stormwind City|SO|7;2|N|Keep following your buddies and fighting your way thru Stormwind. Chat with Nathanos when you get to him, to end this stage.|
-C No Diplomatic Solution|QID|50769|M|39.67,41.04|Z|Stormwind City|SO|8;1|N|Break down the ice wall.|
-C Reach Talanji's ship|QID|50769|M|20.59,25.79|Z|Stormwind City|SO|9;1|N|Continue on with your buddies, killing those pesky Alliance trying to stop you from reaching Talanji's ship|
-C Escape Stormwind Harbor|QID|50769|M|20.63,28.92|Z|Stormwind City|SO|10;1|CHAT|N|Talk to Talanji on the bridge of her ship.|
+C Down the Drain|QID|50769|M|46.23,58.19|Z|Stormwind City!Stormwind City!Instance|SO|2;2|NC|N|Open the sewer access gate|
+C Down the Drain|QID|50769|M|41.29,62.51|Z|Stormwind City!Stormwind City!Instance|SO|2;1|NC|N|Go in the sewer access gate.|
+C The Stockades|QID|50769|M|51.30,39.62|Z|The Stockade!The Stockade!Instance|SO|3;1|N|Fight your way to meet up with Rokhan.|
+C Honor and Loyalty|QID|50769|M|48.05,33.68|Z|The Stockade!The Stockade!Instance|SO|4;1|NC|N|Click on the Door to Saurfang's cell and go in and talk to Saurfang.|
+C The Primary Objective|QID|50769|M|56.00,64.16|Z|The Stockade!The Stockade!Instance|SO|5;1|N|Fight your way to the next waypoint and open the cell to release the Princess and the Prophet.|
+C The Primary Objective|QID|50769|M|56.67,40.64;87.01,23.28|Z|The Stockade!The Stockade!Instance|CS|SO|5;2|N|Fight your way down the hall and to the sewer grate, Click on the grade to go thru.|
+C The City Stirs|QID|50769|M|55.78,56.46|Z|Stormwind City!Stormwind City!Instance|SO|6;1|CHAT|N|Talk to Rokhan and then follow closely so you stay in his invis sphere.|
+C WAY Behind Enemy Lines|QID|50769|M|55.87,56.88|Z|Stormwind City!Stormwind City!Instance|SO|7;1|N|Defeat the worgen ambush.|
+C Escape Cathedral Square|QID|50769|M|45.42,43.19|Z|Stormwind City!Stormwind City!Instance|SO|7;2|N|Keep following your buddies and fighting your way thru Stormwind. Chat with Nathanos when you get to him, to end this stage.|
+C No Diplomatic Solution|QID|50769|M|39.67,41.04|Z|Stormwind City!Stormwind City!Instance|SO|8;1|N|Break down the ice wall.|
+C Reach Talanji's ship|QID|50769|M|20.59,25.79|Z|Stormwind City!Stormwind City!Instance|SO|9;1|N|Continue on with your buddies, killing those pesky Alliance trying to stop you from reaching Talanji's ship|
+C Escape Stormwind Harbor|QID|50769|M|20.63,28.92|Z|Stormwind City!Stormwind City!Instance|SO|10;1|CHAT|N|Talk to Talanji on the bridge of her ship.|
 
 T The Stormwind Extraction|QID|50769|M|57.96,62.77|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Welcome to Zuldazar|QID|46957|M|57.95,62.46|Z|Zuldazar|N|From Princess Talanji|PRE|50769|
@@ -285,10 +288,11 @@ C Speaker of the Horde|QID|46931|M|57.55,44.05|Z|Zuldazar|QO|1|NC|N|Follow Zolan
 C Speaker of the Horde|QID|46931|M|57.95,42.09|Z|Zuldazar|QO|2|NC|N|Click the banner to summon the your companions.|
 C Speaker of the Horde|QID|46931|M|57.95,44.31|Z|Zuldazar|QO|3|NC|N|The Great Seal explored.|
 C Speaker of the Horde|QID|46931|M|67.00,71.83|Z|The Great Seal!Dazar'alor|QO|4|NC|N|Hall of Ancient Paths explored.|
-h The Great Seal|ACTIVE|46931|M|48.50,71.75|Z|The Great Seal!Dazar'alor|N|Set your hearth stone with Brillin the Beauty, with the portals nearby, you probably won't want to change it.|
 C Speaker of the Horde|QID|46931|M|66.39,37.17;32.22,38.63|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Vault of the King explored.|
-T Speaker of the Horde|QID|46931|M|32.22,38.63|Z|The Great Seal!Dazar'alor|N|To Chronicler To'kini.|
-A To Matters at Hand|QID|52139|M|32.22,38.63|Z|The Great Seal!Dazar'alor|N|From Chronicler To'kini.|PRE|46931|;GRAIL SAYS NO PRE
+T Speaker of the Horde|QID|46931|M|32.33,43.42|Z|The Great Seal!Dazar'alor|N|To Chronicler To'kini.|
+A To Matters at Hand|QID|52139|M|32.33,43.42|Z|The Great Seal!Dazar'alor|N|From Chronicler To'kini.|PRE|46931|;GRAIL SAYS NO PRE
+; This NPC appears only after [Speaker of the Horde] is turned in
+h The Great Seal|ACTIVE|52139|M|48.50,71.75|Z|The Great Seal!Dazar'alor|N|Set your hearth stone with Brillin the Beauty, with the portals nearby, you probably won't want to change it.|
 T To Matters at Hand|QID|52139|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji, back in the open area,up a short flight of stairs.|
 A We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|52139|
 
