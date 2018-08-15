@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-08-14 20:41
+-- Who: Emmaleah
+-- Log: add lost turn in for Life Preserver
+
+-- URL: http://wow-pro.com/node/3763/revisions/29427/view
 -- Date: 2018-07-15 04:49
 -- Who: Emmaleah
 -- Log: added sort level
@@ -599,7 +604,8 @@ T Greenstalker|QID|50953|M|33.44,65.09|N|To Adalyn Forestwatcher.|
 A Life Preserver|QID|51472|M|33.52,65.13|N|From Zallestrasza.|PRE|50953|
 C Life Preserver|QID|51472|QO|1|M|33.63,65.10|NC|N|Hop of Zallestrasza's back.|
 C Life Preserver|QID|51472|QO|2|M|42.05,81.98|CHAT|N|Tell her you are ready.|
-C Life Preserver|QID|51472|QO|3|M|41.88,81.97|T|Danir Emberlight|N|Kill Danir Emberlight, who seems to want to disrupt her ritual.|
+C Life Preserver|QID|51472|QO|3|M|41.88,81.97|T|Danir Emberlight|N|Kill Danir Emberlight, who seems to want to disrupt her ritual.|N|To Zallestrasza.|
+T Life Preserver|QID|51472|M|41.88,81.97|
 K Kill Avalanche|QID|51471|QO|1|M|43.58,88.10|T|Avalanche|N|Silver Elite to kill for treasure and resources.|RANK|3|
 
 ;Falconhurst
