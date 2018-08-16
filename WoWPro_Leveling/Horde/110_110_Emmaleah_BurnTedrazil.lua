@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-08-15 23:34
+-- Who: Chromaflo
+-- Log: Changed coords. works now, but the sub maps are unknown at the moment to me.
+
+-- URL: http://wow-pro.com/node/3770/revisions/29527/view
+-- Date: 2018-08-15 21:37
+-- Who: Chromaflo
+-- Log: Put in an extra P step for western earthshrine portal to uldum
+
+-- URL: http://wow-pro.com/node/3770/revisions/29521/view
 -- Date: 2018-08-15 00:00
 -- Who: Ludovicus_Maior
 -- Log: Next play-through.
@@ -238,7 +248,8 @@ C The Dark Lady|QID|51796|M|48.11,78.32|Z|Undercity!Ruins of Lordaeron!Instance|
 T The Battle for Lordaeron|QID|51796|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, on top of the Gates of Orgrimmar.|T|Nathanos Blightcaller
 
 A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|T|Nathanos Blightcaller|N|From Nathanos Blightcaller.(presumed to become available with BfA launch 13 August @3pm PST/14 August 12AM CET for Europe 06:00 am CST for Asia and 08:00 am AEST for Australian.https://worldofwarcraft.com/en-gb/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all|
-R The Western Earthshrine|QID|53028|QO|1|M|48.82,38.59|Z|Orgrimmar|N|Fly over to the Uldam Portal for a shortcut to Silithus.|
+R The Western Earthshrine|ACTIVE|53028|M|48.82,38.59|Z|Orgrimmar|N|Fly over to the Western Earthshrine for a shortcut to Silithus.|
+P Uldum|ACTIVE|53028|QO|1|M|48.87,38.57|Z|Orgrimmar|N|Take the Portal to Uldum.|
 R Silithus: The Wound|ACTIVE|53028|M|70.42,87.54|Z|Silithus|N|Fly towards Sargaras' giant sword.|
 T A Dying World|QID|53028|M|42.22,44.28|Z|Silithus|N|To Magni Brozebeard.|
 A The Heart of Azeroth|QID|51211|M|42.22,44.28|Z|Silithus|N|From Magni Bronzebeard.|PRE|53028|
@@ -285,10 +296,10 @@ C Rastakhan|QID|46930|M|57.59,43.96|Z|Zuldazar|QO|2|CHAT|N|Speak with Princess T
 T Rastakhan|QID|46930|M|57.95,43.31|Z|Zuldazar|N|To King Rastakhan.|
 A Speaker of the Horde|QID|46931|M|57.95,43.31|Z|Zuldazar|N|From King Rastakhan.|PRE|46930|
 C Speaker of the Horde|QID|46931|M|57.55,44.05|Z|Zuldazar|QO|1|NC|N|Follow Zolani Take the elevator down to the lower level.|
-C Speaker of the Horde|QID|46931|M|57.95,42.09|Z|Zuldazar|QO|2|NC|N|Click the banner to summon the your companions.|
+C Speaker of the Horde|QID|46931|M|57.95,42.09|Z|Zuldazar|QO|2|NC|N|Click the banner to summon your companions.|
 C Speaker of the Horde|QID|46931|M|57.95,44.31|Z|Zuldazar|QO|3|NC|N|The Great Seal explored.|
 C Speaker of the Horde|QID|46931|M|67.00,71.83|Z|The Great Seal!Dazar'alor|QO|4|NC|N|Hall of Ancient Paths explored.|
-C Speaker of the Horde|QID|46931|M|66.39,37.17;32.22,38.63|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Vault of the King explored.|
+C Speaker of the Horde|QID|46931|M|32.22,70.00|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Vault of the King explored.|
 T Speaker of the Horde|QID|46931|M|32.33,43.42|Z|The Great Seal!Dazar'alor|N|To Chronicler To'kini.|
 A To Matters at Hand|QID|52139|M|32.33,43.42|Z|The Great Seal!Dazar'alor|N|From Chronicler To'kini.|PRE|46931|;GRAIL SAYS NO PRE
 ; This NPC appears only after [Speaker of the Horde] is turned in
