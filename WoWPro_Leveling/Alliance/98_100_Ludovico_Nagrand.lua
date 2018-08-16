@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2018-08-15 21:46
+-- Who: Ludovicus_Maior
+-- Log: Removed duplicate ACTIVE tag
+
+-- URL: http://wow-pro.com/node/3618/revisions/29397/view
 -- Date: 2018-07-04 20:07
 -- Who: Ludovicus_Maior
 -- Log: Tag Tweaks.
@@ -198,7 +203,7 @@ T Operation: Surprise Party |QID|34682|N|To Rangari Ogir in Rangari Overlook.|M|
 
 A Mo'mor Might Know |QID|34716|PRE|34682|N|From Rangari Ogir.|M|65.88,68.62|
 A Operation: Just Arrowhead |QID|34717|PRE|34682|N|From Rangari Ogir.|M|65.88,68.62|
-R Telaar|ACTIVE|34716;34717|NC|N|Click on the Rappelling Rope to get down to Telaar.|M|65.91,68.56|ACTIVE|34716;34717|
+R Telaar|ACTIVE|34716;34717|NC|N|Click on the Rappelling Rope to get down to Telaar.|M|65.91,68.56|
 C Operation: Just Arrowhead |QID|34717|N|Kill Warsong forces at Telaar. |S|
 T Mo'mor Might Know |QID|34716|N|To Vindicator Mo'mor, chained up inside the building.|M|66.74,68.64|
 A The Others |QID|34718|N|From Vindicator Mo'mor|M|66.74,68.64|PRE|34716|
