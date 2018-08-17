@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-08-17 19:27
+-- Who: Emmaleah
+-- Log: added |LVL|115 to A Tol Dagor: The Ashvane Overseer per STrek's experience. Reworded the step that followed -- and changed QID so it should show now.
+
+-- URL: http://wow-pro.com/node/3769/revisions/29534/view
+-- Date: 2018-08-16 21:58
+-- Who: Ludovicus_Maior
+-- Log: Paper audit of guide before I finish playing it!
+
+-- URL: http://wow-pro.com/node/3769/revisions/29458/view
 -- Date: 2018-08-01 07:13
 -- Who: Emmaleah
 -- Log: Add missing CS
@@ -29,7 +39,7 @@
 -- Log: stub 
 
 local guide = WoWPro:RegisterGuide('EmmTiragarde', 'Leveling', 'Tiragarde Sound', 'Emmaleah', 'Alliance')
-WoWPro:GuideLevels(guide,110, 120, 111)
+WoWPro:NewGuideLevels(guide,110, 120, 111)
 WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
 WoWPro:GuideIcon(guide,"ACH",12473)
 WoWPro:GuideSteps(guide, function()
@@ -53,8 +63,8 @@ C Labor Dispute|QID|47487|M|78.77,78.92|S|N|Kill the mobs that attack you as you
 A Message from the Management|QID|50573|M|79.02,45.77|N|from the posted notice.|
 C Suspicious Shipments|QID|47486|M|78.77,78.92|NC|S|N|Click on the glowing boxes to inspect them.|
 C Small Haulers|QID|47488|M|78.77,78.92|CHAT|S|N|Tell the urchins they are free to go.|
-C Message from the Management|QID|50573|M|79.18,46.69|QO|2|T|Taskmaster Williams|N|Kill and loot Taskmaster Williams inside this warehouse.|
-C Message from the Management|QID|50573|QO|1|T|Forgemaster Farthing|N|Kill and loot Forgemaster Farthing.|
+K Taskmaster Williams|QID|50573|M|79.18,46.69|QO|2|T|Taskmaster Williams|N|Kill and loot Taskmaster Williams inside this warehouse.|
+K Forgemaster Farthing|QID|50573|M|82.19,48.66|QO|1|T|Forgemaster Farthing|N|Kill and loot Forgemaster Farthing.|
 C Small Haulers|QID|47488|M|78.77,78.92|CHAT|US|N|Finish freeing the Urchin Workers.|
 C Suspicious Shipments|QID|47486|M|78.77,78.92|US|N|Finish inspecting the Marked Goods.|
 C Labor Dispute|QID|47487|M|78.77,78.92|US|N|Finish killing the Ashvane Company guards.|
@@ -63,11 +73,11 @@ T Suspicious Shipments|QID|47486|M|78.10,47.94|N|To Flynn Fairwind.|
 T Small Haulers|QID|47488|M|78.10,47.94|N|To Flynn Fairwind.|
 T Message from the Management|QID|50573|M|78.10,47.94|N|To Flynn Fairwind.|
 A Under Their Noses|QID|50531|M|78.10,47.94|N|From Flynn Fairwind.|
-R Bridgeport|QID|50531|M|76.903,49.14|N|On to the next area.|
+R Bridgeport|ACTIVE|50531|M|76.903,49.14|N|On to the next area.|
 T Under Their Noses|QID|50531|M|75.85,49.13|N|To Flynn Fairwind.|
 
 A Sampling the Goods|QID|53041|M|75.85,49.13|N|From Flynn Fairwind.|
-f Bridgeport|QID|53041|M|75.78,48.59|N|At Jeb Johnson.|
+f Bridgeport|ACTIVE|53041|M|75.78,48.59|N|At Jeb Johnson.|
 A Left at the Port|QID|51149|M|75.06,49.72|N|From Dockmaster Leighton.|
 C Sampling the Goods|QID|53041|QO|2|M|74.75,50.14|NC|N|Pick up the Raw Azerite Sample from under the table.|
 C Sampling the Goods|QID|53041|QO|1|M|75.18,50.75|NC|N|Pick up the Chemist's Notes from the table.|
@@ -76,8 +86,8 @@ A The Hunters of Kennings Lodge|QID|50544|M|75.55,49.94|N|From Help Wanted Poste
 T Sampling the Goods|QID|53041|M|75.85,49.14|N|To Flynn Fairwind.|
 A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|
 
-R Old Drust Road|QID|51149|M|73.35,48.74|N|Cross the river and head Northwest along the Old Drust Road.|RANK|2|
-R Southwind Station|QID|51149|M|66.58,51.26|N|Continue down the road until you see Southwind Station on your right.|RANK|2|
+R Old Drust Road|ACTIVE|51149|M|73.35,48.74|N|Cross the river and head Northwest along the Old Drust Road.|RANK|2|
+R Southwind Station|ACTIVE|51149|M|66.58,51.26|N|Continue down the road until you see Southwind Station on your right.|RANK|2|
 A An Explosive Opportunity|QID|50542|M|66.69,50.03|N|From Lead Guide Zipwrench.|RANK|2|
 T Left at the Port|QID|51149|M|65.84,50.10|N|To Dockmaster Tyndall.|
 A A Letter to the League|QID|51151|M|65.84,50.10|N|From Dockmaster Tyndall.|RANK|2|
@@ -89,7 +99,7 @@ A The Beauty of Marketing|QID|49531|M|67.50,55.81|N|From Wulferd Fizzbracket.|RA
 C Spring Cleaning|QID|49529|M|67.5,55.81|S|N|Pop bubbles, pick up debris and kill random stuff you can't avoid. This should get finished (or nearly so) as you go about the other objectives.|
 C Making Mysteries|QID|49897|M|68.39,59.74|S|NC|N|Click on the chickens running around.|
 C The Beauty of Marketing|QID|49531|M|67.15,56.97|NC|U|155009|QO|2|N|Use Camera, then the 1 key to take a selfie of you and the Geyser.|
-K Kill Raging Swell|QID|50148|QO|1|M|64.80,58.82|T|Raging Swell|N|Silver Elite to kill for Treasure and Resources.|ITEM|161446|RANK|2|
+K Raging Swell|QID|50148|QO|1|M|64.80,58.82|T|Raging Swell|N|Silver Elite to kill for Treasure and Resources.|ITEM|161446|RANK|2|
 C The Beauty of Marketing|QID|49531|M|67.95,57.91|NC|U|155009|QO|1|N|Use Camera, then the 1 key to take a selfie of you and a stag. Be aware stags are agressive and will attack whille you are taking pix.|
 C The Beauty of Marketing|QID|49531|M|66.67,59.38|NC|U|155009|QO|5|N|Use Camera, then the 1 key to take a selfie of you and a wolf.|
 C The Beauty of Marketing|QID|49531|M|70.15,55.87|NC|U|155009|QO|3|N|Use Camera, then the 1 key to take a selfie of you and the waterfall.|
@@ -125,8 +135,8 @@ A Rock Meet Dynamite|QID|50356|M|75.53,59.29|N|From Civil Technician Alena.|RANK
 C Rock Meet Dynamite|QID|50356|M|75.14,60.07|N|Go down into the mine, use your special action button to blow up the Enraged Nibblers.  When you get to the bottom of the mine, kill Earthshaper Brugaw.|T|Earthshaper Brugaw|
 T Rock Meet Dynamite|QID|50356|M|78.14,55.93|N|To Chief Miner Theock.|
 
-R Kennings Lodge|QID|50544|M|78.63,56.03;77.83,61.67|CS|N|Run up the hill to Kennings Lodge.|RANK|2|
-f Kennings Lodge|QID|48879|M|76.68,65.42|N|At Finnia Hawkshot.|RANK|2|
+R Kennings Lodge|ACTIVE|50544|M|78.63,56.03;77.83,61.67|CS|N|Run up the hill to Kennings Lodge.|RANK|2|
+f Kennings Lodge|ACTIVE|48879|M|76.68,65.42|N|At Finnia Hawkshot.|RANK|2|
 A A Sweater for Rupert|QID|49028|M|76.13,65.52|RANK|2|N|From Weathered Job List.|
 A WANTED: Ol' Frostclaw|QID|49069|M|76.13,65.52|RANK|2|N|From Weathered Job List.|
 T The Hunters of Kennings Lodge|QID|50544|M|75.84,65.87|N|To Alanna Holton.|
@@ -138,7 +148,7 @@ C A Sweater for Rupert|QID|49028|M|76.50,63.05|S|N|Kill Quillrats and Raccoons i
 C Pardon Our Rust|QID|48874|M|76.50,63.05|S|NC|N|Arm the Sprung Beartraps.|
 C A Grizzly End|QID|48873|M|76.50,63.05|S|U|152800|N|Kill Grizzlies and use the skinning knife to collect the pelts.|
 C A Hunt for Hawk Eggs|QID|48879|M|76.50,63.05|S|NC|N|Pick up the eggs from the nest, Understandably, any Hawks nearby will attack.|
-C WANTED: Ol' Frostclaw|QID|49069|M|79.98,65.63|N|Kill Old Frostclaw in small cave.|T|Old Frostclaw|
+K Ol' Frostclaw|QID|49069|M|79.98,65.63|QO|1|N|Kill Old Frostclaw in small cave.|T|Old Frostclaw|
 C A Sweater for Rupert|QID|49028|QO|1|M|76.50,63.05|US|N|Finish collecting sturdy quills from the Quillrats.|
 C A Sweater for Rupert|QID|49028|QO|2|M|76.50,63.05|US|N|Finish collecting fuzzy tails from the Racoons.|
 C Pardon Our Rust|QID|48874|M|76.50,63.05|US|NC|N|Finish arming the Sprung Beartraps.|
@@ -185,7 +195,7 @@ A Local Flavor|QID|49230|M|85.47,80.73|N|From Hungry Sam.|
 C My Favorite Things|QID|49178|M|85.47,80.73|QO|1|CHAT|N|Ask Hungry Sam about his favorite things.|
 C My Favorite Things|QID|49178|M|85.27,80.31|QO|2|CHAT|N|Ask Friendly Pete what he lost.|
 C My Favorite Things|QID|49178|M|86.44,81.31|QO|3|CHAT|N|Ask Handy Bill about his favorite lost thing. (and sell/repair if needed)|
-f Castaway Point|QID|49230|M|86.42,80.81|N|At Skinny Tim.|
+f Castaway Point|ACTIVE|49230|M|86.42,80.81|N|At Skinny Tim.|
 A Blood in the Tides|QID|48421|M|86.35,79.74|N|From Captain Keelson (back down on the beach)|
 C Blood in the Tides|QID|48421|M|87.26,79.96|S|N|Kill Wailing Sirens as you go.|
 C Local Flavor|QID|49230|M|85.47,80.82|S|N|Kill Lurkers and loot them as you go.|
@@ -196,7 +206,7 @@ C Silencing the Sisters|QID|49226|M|86.21,72.22|QO|1|N|Kill the siren sisters in
 C Silencing the Sisters|QID|49226|M|86.51,72.88|QO|2|T|Nolpe|
 C My Favorite Things|QID|49178|M|88.28,72.90|QO|4|NC|N|Pick up the Steel Lunchbox.|
 C Lured and Allured|QID|48419|QO|3|M|90.06,74.48|N|Kill the siren to set Flynn free.|T|Lugeia|
-K Kill Fowlmouth|QID|50155|M|90.45,77.11|QO|1|T|Fowlmouth|ITEM|154467|N|Silver elite mob to kill for treasure and resources.|
+K Fowlmouth|QID|50155|M|90.45,77.11|QO|1|T|Fowlmouth|ITEM|154467|N|Silver elite mob to kill for treasure and resources.|
 C Blood in the Tides|QID|48421|M|87.26,79.96|US|N|Finish killing the Wailing Sirens.|
 C Local Flavor|QID|49230|M|85.47,80.82|US|N|Finish collecting the Juicy Lurker Tails.|
 T Glimmering Locket|QID|49181|M|85.47,80.73|N|To Stabby Jane.|
@@ -206,7 +216,7 @@ T Local Flavor|QID|49230|M|85.47,80.73|N|To Hungry Sam.|
 T Blood in the Tides|QID|48421|M|85.73,76.63|N|To Captain Keelson.|
 T Lured and Allured|QID|48419|M|84.90,76.07|N|To Flynn Fairwind.|
 A Lovesick and Lost|QID|48505|M|84.90,76.07|N|From Flynn Fairwind.|
-K Kill Blackthorne|QID|51808|QO|1|T|Blackthorne|M|85.27,73.57|RANK|3|N|Run up and kill this silver elite before you help Flynn up, so you can better keep an eye on Flynn afterwards.|ITEM|154411|
+K Blackthorne|QID|51808|QO|1|T|Blackthorne|M|85.27,73.57|RANK|3|N|Run up and kill this silver elite before you help Flynn up, so you can better keep an eye on Flynn afterwards.|ITEM|154411|
 C Lovesick and Lost|QID|48505|M|84.90,76.07|CHAT|N|Help him up and check this off manually.|
 A Toxic Community|QID|48516|M|82.74,72.75|N|From Skinner MacGuff.|
 C Toxic Community|QID|48516|M|82.74,72.75|S|N|Kill marrowflys and loot to collect the Toxic Stingers. Don't bother searching for the treasure, you can't get to it from here.|
@@ -225,7 +235,7 @@ A The Beatings Will Continue|QID|48774|M|79.19,76.32|N|From Geraldine.|
 A Rig Robbing|QID|48776|M|79.19,76.32|N|From Geraldine.|
 C The Beatings Will Continue|QID|48774|M|78.21,76.27|S|N|Kill Irontide Ruffians and Overseers as you go.|
 C The Irontide Crew|QID|48774|M|78.21,76.27|S|N|Kill Irontide crew to collect Cutlasses from Cutthrots and powder horns from Trickshooters.|
-K Kill Dockmaster Marl|QID|48773|M|78.99,78.90|L|152722|T|Dockmaster Marl|N|Kill him and loot key.|
+K Dockmaster Marl|QID|48773|M|78.99,78.90|L|152722|T|Dockmaster Marl|N|Kill him and loot key.|
 C Papers, Please|QID|48773|M|79.16,78.78|NC|N|Open the chest and get the Dockmaster's Records.|
 A Loaded for Bear|QID|48606|M|78.60,77.85|N|From Azerite Cannonball up on the other platform.|
 l Azerite Cannonballs|QID|48606|M|78.60,77.85|S|L|152628 10|N|Pick up the cannonballs as you go, at least 6, up to 10 if you think you may miss some shots.|
@@ -237,7 +247,7 @@ C The Irontide Crew|QID|48558|M|78.21,76.27|US|N|Continue killing the Irontide c
 C The Beatings Will Continue|QID|48774|M|78.21,76.27|US|N|Finish up killing the necesary Irontide Ruffians and Overseers.|
 T The Beatings Will Continue|QID|48774|M|79.19,76.32|N|To Geraldine.|
 T Rig Robbing|QID|48776|M|79.19,76.32|N|To Geraldine.|
-K Kill Squacks|QID|50160|QO|1|T|Squacks|M|80.81,82.55|N|Silver Elite to kill for loot and resources.|ITEM|160445|RANK|2|
+K Squacks|QID|50160|QO|1|T|Squacks|M|80.81,82.55|N|Silver Elite to kill for loot and resources.|ITEM|160445|RANK|2|
 T Papers, Please|QID|48773|M|80.36,81.47|N|To Flynn Fairwind.|
 T The Irontide Crew|QID|48558|M|80.36,81.47|N|To Flynn Fairwind.|
 
@@ -252,7 +262,7 @@ A Raise a Glass!|QID|49398|M|77.35,83.92|N|From Venrik.|
 C Raise a Glass!|QID|49398|M|77.35,83.92|QO|1|CHAT|N|Pick a drink from Venriks options|
 C Raise a Glass!|QID|49398|M|77.35,83.92|QO|2|U|153599|NC|N|Drink your drink|
 T Raise a Glass!|QID|49398|M|77.35,83.92|N|To Venrik.|
-f Freehold|QID|49398|M|77.04,82.89|N|At Rodrigo.|
+f Freehold|ACTIVE|49398|M|77.04,82.89|N|At Rodrigo.|
 A Flew the Coop|QID|49402|M|77.04,82.89|N|From Rodrigo.|
 C Rodrigo's Roost|QID|49401|M|77.03,82.90|QO|1|CHAT|N|Ask Rodrigo to send the letter to Taelia.|
 T Rodrigo's Roost|QID|49401|M|77.33,83.97|N|To Flynn Fairwind.|
@@ -269,7 +279,7 @@ A Trixie Business|QID|49407|M|76.90,85.97|N|From Carentan.|
 C Missing Treasure!|QID|49409|M|77.74,85.07|QO|1|CHAT|N|Ask Ned about the buried treasure.|
 C Missing Treasure!|QID|49409|M|76.38,84.33|QO|2|CHAT|N|Ask Nub Nub about the treasure.|
 C Missing Treasure!|QID|49409|QO|3|CHAT|N|Ask Nance Barmy about the treasure.|
-K Kill Barman Bill|QID|50233|QO|1|M|76.48,82.62|N|Silver Elite to kill for loot and resources.|ITEM|160451|RANK|2|
+K Barman Bill|QID|50233|QO|1|M|76.48,82.62|N|Silver Elite to kill for loot and resources.|ITEM|160451|RANK|2|
 C Trixie Business|QID|49407|M|76.48,82.64|QO|1|CHAT|N|Talk to Trixie, then follow her to the out of the way corner, click off your hat "buff" and attack. Don't forget to reapply it when done.|
 T Trixie Business|QID|49407|M|76.90,85.98|N|To Carentan.|
 A Carentan's Payment|QID|49522|M|76.90,85.98|N|From Carentan.|
@@ -279,7 +289,7 @@ A A Bad Deal|QID|49523|M|76.88,86.02|N|From UI Alert.|
 C Missing Treasure!|QID|49409|QO|4|M|75.64,80.56|NC|N|Inspect the Sandy Seaweed-covered Chest.|
 C Missing Treasure!|QID|49409|QO|5|M|76.31,80.80|NC|N|Pick up the missing treasure.|
 T Missing Treasure!|QID|49409|M|76.31,80.80|N|To UI Alert.|
-K Kill Carla Smirk|QID|51809|M|72.45,81.01|QO|1|T|Carla Smirk|N|You need to remove your disguise to attack her. Silver Elite to kill for treasure and resources.|
+K Carla Smirk|QID|51809|M|72.45,81.01|QO|1|T|Carla Smirk|N|You need to remove your disguise to attack her. Silver Elite to kill for treasure and resources.|
 C The Big Job|QID|49399|QO|3|US|N|Keep killing Blacktooth Bruisers until you have their Orders.|
 C The Big Job|QID|49399|QO|2|US|N|Keep killing Cutwater Corsairs until you have their Orders.|
 C The Big Job|QID|49399|QO|1|US|N|Keep killing Bilge Rats until you have their Orders.|
@@ -292,7 +302,7 @@ T Flew the Coop|QID|49402|M|77.04,82.92|N|Taelia comes flying in and takes you a
 A Rodrigo's Revenge|QID|49403|M|77.04,82.92|N|From Rodrigo.|
 C Rodrigo's Revenge|QID|49403|NC|N|Hop on the Riding Macaw for a bombing run. You control where the macaw flys, if you use autorun, it is myuch easier to stop, bomb, fly abit more, etc. as camera angles won't stay looking down.|
 T Rodrigo's Revenge|QID|49403|M|77.03,82.89|N|Fly back to Rodrigo and use the dismount button there. Turn quest into Rodrigo.|
-K Kill Auditor Dolp|QID|50156|M|75.56,82.69;74.91,78.96|CS|QO|1|T|Auditor Dolp|N|Don't forget to remove you disguise to fight him. Silver Elite to kill for treasure and resources.|RANK|2|
+K Auditor Dolp|QID|50156|M|75.56,82.69;74.91,78.96|CS|QO|1|T|Auditor Dolp|N|Don't forget to remove you disguise to fight him. Silver Elite to kill for treasure and resources.|RANK|2|
 C Fairwind's "Friends"|QID|49404|QO|1|N|Enter the Ring of Booty. Unless your AE Damage is strong, you probably want to clear the ring before you untie Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|2|NC|N|Heal up and be ready for a fight after untieing Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|3|N|Survive Harlan's game.|
@@ -307,7 +317,7 @@ C No-Landing Zone|QID|52431|M|61.14,61.29|N|All three of your targets are here, 
 $ Forgotten Smuggler's Stash|QID|52867|M|61.78,62.75|N|Loot for treasure and resources. Avoid stepping on the webs on the floor unless you want to kill baby spiders too.|
 T No-Landing Zone|QID|52431|M|60.91,59.17|N|To Vigil Hill Refugee.|
 A A Desperate Defense|QID|49869|M|60.91,59.17|N|From Vigil Hill Refugee.|
-f Vigil Hill|QID|49869|M|57.73,61.53|N|At Sky Marshal Sanders.|
+f Vigil Hill|ACTIVE|49869|M|57.73,61.53|N|At Sky Marshal Sanders.|
 T A Desperate Defense|QID|49869|M|56.68,61.19|N|To Lieutenant Tarenfold.|
 A Farmers Who Fight|QID|52750|M|56.68,61.19|N|From Lieutenant Tarenfold.|
 A Air Raid|QID|49737|M|56.68,61.19|N|From Lieutenant Tarenfold.|
@@ -315,8 +325,8 @@ A Numbing the Pain|QID|52787|M|56.48,61.73|N|From Taelia.|
 C Air Raid|QID|49737|S|N|Kill Irontide Skyriders.|
 C Farmers Who Fight|QID|52750|NC|S|N|Clear the area around them, and then recruit the Vigil Hill Farmers.|
 C Numbing the Pain|QID|52787|S|NC|N|Click on the Evermoss Clumps to pick them up.|
-K Kill Gulliver|ACH|12939;11|M|57.79,55.93|T|Gulliver|N|This silver elite currently has no treasure or resources, but does give credit for Adventurer of Tiragarde.|RANK|3|
-K Kill Tentulos the Drifter|QID|51879|M|55.06,51.91|T|Tentulos the Drifter|N|Silver elite to kill for some treasure and resources.|RANK|3|
+K Gulliver|ACH|12939;11|M|57.79,55.93|T|Gulliver|N|This silver elite currently has no treasure or resources, but does give credit for Adventurer of Tiragarde.|RANK|3|
+K Tentulos the Drifter|QID|51879|M|55.06,51.91|T|Tentulos the Drifter|N|Silver elite to kill for some treasure and resources.|RANK|3|
 C Numbing the Pain|QID|52787||US|NC|N|Finish collecting the Evermoss Clumps.|
 C Farmers Who Fight|QID|52750|NC|US|N|Finish recruiting the Vigil Hill Farmers.|
 C Air Raid|QID|49737|US|N|Finish killing Irontide Skyriders.|
@@ -342,7 +352,7 @@ C Righteous Retribution|QID|49741|M|59.03,66.60|QO|3|NC|N|Board the Landing Boat
 C Righteous Retribution|QID|49741|M|59.34,68.26|QO|4|NC|N|Use your special action button to bomb The Bloodwake.|;coords a little off, do it when the boat stops.
 C Righteous Retribution|QID|49741|M|57.57,71.54|QO|5|NC|N|Hop on Galeheart's back for a mini bombing run.|
 C Righteous Retribution|QID|49741|M|56.84,74.30|QO|6|NC|N|Drop bombs on the Powder Barrels.|
-K Kill Black-Eyed Bart|QID|50096|QO|1|T|Black-Eyed Bart|ITEM|158650|N|Kill for treasure and resources.|
+K Black-Eyed Bart|QID|50096|QO|1|T|Black-Eyed Bart|ITEM|158650|N|Kill for treasure and resources.|
 C Cease Fire!|QID|49740|US|N|Finish destroying the Captured Cannons.|
 C For Kul Tiras!|QID|49736|U|156520|US|N|Finish inspriring the Vigil Hill defenders.|
 C Bonus Objective:Enemies at the Gate|QID|49739|M|57.22,67.36|US|N|Stick around and finish this up.|
@@ -382,17 +392,18 @@ A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|
 T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko.|
 T Proudmoore's Parley|QID|50972|M|73.81,25.12|N|To Genn Greymane.|
 
-A Tol Dagor: The Ashvane Overseer|QID|52800|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|
-J On to the War Campaign|QID|51715|N|This temporarily ends the Tiragarde Sound guide. If you want you can come back and do it on rank 3 to get "everything" The War Campaign guide will auto load when you close this step. \nIf you don't want to jump to the War Campaign Guide, Left Click this step.|GUIDE|BfAOpen|
+A Tol Dagor: The Ashvane Overseer|QID|52800|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|LVL|115|
+N What follows|ACTIVE|49715|N|The quest you just finished has a zone finale feel to it, but not to worry the guide does not end here. This is a good spot to take a break for war campaign if you want, but there are 2 more areas for the zone achievement and a LOT of quests not part of the achievement on the other side of the bay. If you want you can set guide to rank 3 to get "everything".|
 
-b Eastpoint Station|QID|49715|M|75.29,25.77|N|Take the ferry to Eastpoint Station.|RANK|3|
-R Greystone Relief|QID|49715|M|74.85,43.88;77.88,43.28;79.08,42.18|CS|N|Run East towards Greystone Keep.|RANK|3|
+b Eastpoint Station|ACTIVE|49715|M|75.29,25.77|N|Take the ferry to Eastpoint Station.|RANK|3|
+R Greystone Relief|ACTIVE|49715|M|74.85,43.88;77.88,43.28;79.08,42.18|CS|N|Run East towards Greystone Keep.|RANK|3|
 T Trouble at Greystone Keep|QID|49715|M|81.10,42.48|N|To Tallis Skyheart.|
 A Patching Up the Rear|QID|49733|M|81.10,42.48|N|From Tallis Skyheart.|RANK|3|
 A Death from Two Sides|QID|51226|M|80.63,42.09|N|From Hawkmaster Lloyd.|RANK|3|
 C Death from Two Sides|QID|51226|M|82.24,43.87|S|N|Kill the Brinefang Saurolisk's as you go.|
 C Patching Up the Rear|QID|49733|M|82.82,44.10|S|NC|N|Click on the Injured Marines to bandage them.|
-K Kill Broodmother Razora|QID|49999|QO|1|M|82.82,44.10|T|Broodmther Razora|N|Silver Elite to loot for a bit of Treasure and Resources.|ITEM|160460|RANK|3|
+; QID was 49999 but I changed it to 51665
+K Broodmother Razora|QID|51665|QO|1|M|82.82,44.10|T|Broodmther Razora|N|Silver Elite to loot for a bit of Treasure and Resources.|ITEM|160460|RANK|3|
 C Patching Up the Rear|QID|49733|M|82.82,44.10|US|NC|N|Click on the Injured Marines to bandage them.|
 C Death from Two Sides|QID|51226|M|82.24,43.87|US|N|Kill the Brinefang Saurolisk's as you go.|
 T Death from Two Sides|QID|51226|M|80.63,42.09|N|To Hawkmaster Lloyd.|
@@ -403,10 +414,10 @@ A A Boralus Triple Threat|QID|50249|M|81.10,42.50|N|From Officer Jovan.|RANK|3|
 A Free Bird|QID|49720|M|80.63,42.09|N|From Hawkmaster Lloyd.|RANK|3|
 C A Lesson on Trust|QID|49716|M|79.56,37.06|S|N|Collect Marine Identification Badges from the Mutineers as you go.|
 C Free Bird|QID|49720|M|79.11,37.94|S|NC|N|Click on the falcon cages as you go. Hawkmaster Lloyd has lent you his hawk, Use the special action button for additional DPS.|
-K Kill Overseer Howling|QID|50249|M|78.71,38.84|QO|1|T|Overseer Howling|N|Up the first set of stairs after you enter the keep to find Overseer Howling.|
-K Kill Hayden the Madshot|QID|50249|M|79.38,36.95;78.25,36.74|CS|QO|3|T|Hayden the Madshot|N|Take the path down behind the watchtower to find Hayden the Madshot.|
-K Kill Stablemaster Diana|QID|50249|M|79.82,36.92|QO|2|T|Stablemaster Diana|N|Stablemaster Diana paths back and forth between these short set of stairs.|
-K Kill Fernn the Turncoat|QID|49734|M|80.15,38.93|QO|1|T|Fernn the Turncoat|N|All the way up to the top of the hill at the base of the central tower you will find Fernn the Turncoat.|
+K Overseer Howling|QID|50249|M|78.71,38.84|QO|1|T|Overseer Howling|N|Up the first set of stairs after you enter the keep to find Overseer Howling.|
+K Hayden the Madshot|QID|50249|M|79.38,36.95;78.25,36.74|CS|QO|3|T|Hayden the Madshot|N|Take the path down behind the watchtower to find Hayden the Madshot.|
+K Stablemaster Diana|QID|50249|M|79.82,36.92|QO|2|T|Stablemaster Diana|N|Stablemaster Diana paths back and forth between these short set of stairs.|
+K Fernn the Turncoat|QID|49734|M|80.15,38.93|QO|1|T|Fernn the Turncoat|N|All the way up to the top of the hill at the base of the central tower you will find Fernn the Turncoat.|
 C Free Bird|QID|49720|M|79.11,37.94|US|NC|N|Finish freeing the caged falcons.|
 C A Lesson on Trust|QID|49716|M|79.56,37.06|US|N|Finish collecting Marine Identification Badges.|
 T Free Bird|QID|49720|M|80.62,42.08|N|To Hawkmaster Lloyd.|
@@ -415,7 +426,7 @@ T Targeting a Turncoat|QID|49734|M|81.10,42.48|N|To Tallis Skyheart.|
 T A Boralus Triple Threat|QID|50249|M|81.10,42.48|N|To Tallis Skyheart.|
 H Tradewinds Market|QID|48070|M|81.10,42.48|N|Hearth or otherwise travel back to Boralus.|
 
-b Firebreaker Expidition|QID|51151|M|75.28,25.75|N|Take the ferry to Thovas Base-Camp/Firebreaker Expidition.|RANK|2|
+b Firebreaker Expedition|ACTIVE|51151|M|75.28,25.75|N|Take the ferry to Thovas Base-Camp/Firebreaker Expidition.|RANK|2|
 A A Marine Out of Water|QID|49234|M|62.94,29.90|N|From Recruit Brutis.|RANK|2|
 A The Ruins Fought Back|QID|49229|M|62.73,29.95|N|From Drogrin Alewhisker.|RANK|2|
 T A Letter to the League|QID|51151|M|62.73,29.95|N|To Drogrin Alewhisker.|
@@ -439,11 +450,11 @@ C The Ruins Fought Back|QID|49229|M|55.68,59.53|Z|1171|US|N|Finish killing any n
 T The Ruins Fought Back|QID|49229|M|62.73,29.93|N|To Drogrin Alewhisker.|
 T A Marine Out of Water|QID|49234|M|62.82,29.88|N|To Recruit Brutis.|
 
-R Hatherford|QID|51144|M|65.49,26.03|N|Follow the road northeast to Hatherford.|RANK|3|
+R Hatherford|ACTIVE|51144|M|65.49,26.03|N|Follow the road northeast to Hatherford.|RANK|3|
 A WANTED: Gryphon 'Nappers|QID|51358|M|66.85,24.37|N|From a Wanted Poster.|RANK|3|
 T A Bundle of Furs|QID|51144|M|66.24,24.29|N|To Dandy Jones.|
 A Worker's Rights|QID|50699|M|67.40,24.14|N|From Davey Brindle.|RANK|3|
-f Hatherford|QID|50699|M|66.93,23.07|N|At Mariah McKee.|RANK|3|
+f Hatherford|ACTIVE|50699|M|66.93,23.07|N|At Mariah McKee.|RANK|3|
 C WANTED: Gryphon 'Nappers|QID|51358|M|67.45,22.08|N|Kill the Gryphon Nappers in a small cave|T|Silent Boris|
 T Worker's Rights|QID|50699|M|68.93,20.59|N|To Maynard Algerson.|
 A Maximizing Resources|QID|49465|M|68.93,20.59|N|From Maynard Algerson.|RANK|3|
@@ -452,7 +463,7 @@ A Time Off Requests|QID|49451|M|68.89,19.84|N|From Benjamin Algerson.|RANK|3|
 C Inventory Deficit|QID|49452|M|67.40,18.87|NC|S|N|Pick up the axe's from the ground as you go.|
 C Time Off Requests|QID|49451|M|67.75,18.31|NC|S|N|Free the Entangled Lumberjacks.|
 C Maximizing Resources|QID|49465|M|67.08,17.47|S|N|Kill the lurkers and invaders in the area to loot the skulls.|
-K Kill Lumberjack Sentinal|QID|50525|QO|1|M|68.15,20.64|T|Lumberjack Sentinal|N|Silver Elite to kill and loot for treasure and resources.|RANK|3|
+K Lumberjack Sentinal|QID|50525|QO|1|M|68.15,20.64|T|Lumberjack Sentinal|N|Silver Elite to kill and loot for treasure and resources.|RANK|3|
 A Give a Dam|QID|49453|M|66.64,17.28|N|From Lyssa Treewarden.|RANK|3|
 A Sowing Saplings|QID|48557|M|66.64,17.28|N|From Lyssa Treewarden.|RANK|3|
 C Give a Dam|QID|49453|M|66.85,15.88|NC|S|N|Click on the Woodchewing Beavers to shoo them off.|
@@ -492,7 +503,7 @@ T Witch of the Woods|QID|49467|M|68.85,13.16|N|To Maynard Algerson.|
 $ Imperiled Merchants|ACH|12939;15|M|64.31,19.23|N|Talk to Walter Ferrell to start, Defeat 2 waves and the boss - Honey-Coated Slitherer - Silver Elite to kill for treasure and resources.|RANK|3|;Appears to currently be broken.
 T WANTED: Gryphon 'Nappers|QID|51358|M|66.23,24.29|N|To Dandy Jones.|
 
-R Foxhollow Woods|QID|48070|M|58.29,25.40|N|Run southwest along the road.|
+R Foxhollow Woods|ACTIVE|48070|M|58.29,25.40|N|Run southwest along the road.|
 T The Norwington Festival|QID|48070|M|55.45,24.67|N|To Abbey Watkins.|
 A The Stoat Hunt|QID|48077|M|55.45,24.67|N|From Abbey Watkins.|
 A An Element of Danger|QID|48080|M|55.51,24.58|N|From Harold Beckett.|
@@ -501,7 +512,7 @@ C The Stoat Hunt|QID|48077|M|58.12,23.69|S|N|Click on the stoat den (pile of dir
 C An Element of Danger|QID|48080|M|58.26,26.61|S|N|Kill Boars and loot their tusks.|
 C Bolas and Birds|QID|48616|M|58.26,26.98|U|152643|S|N|Use the Bolas launcher to shoot down the Falcons.|
 A Settle the Score|QID|48965|M|58.29,25.40|N|From Caleb Batharen.|
-K Kill Foxhollow Skyterror|QID|50137|QO|1|M|60.11,22.17|T|Foxhollow Skyterror|N|Silver Elite to kill for treasure and resources.|
+K Foxhollow Skyterror|QID|50137|QO|1|M|60.11,22.17|T|Foxhollow Skyterror|N|Silver Elite to kill for treasure and resources.|
 C Settle the Score|QID|48965|M|61.19,22.08;61.92,23.18|CS|N|Kill Chartusk.|
 C Bolas and Birds|QID|48616|M|58.26,26.98|U|152643|US|N|Finish shooting down Falcons.|
 C An Element of Danger|QID|48080|M|58.26,26.61|US|N|Finish collecting boar tusks.|
@@ -540,7 +551,7 @@ T Saurolisk Escape|QID|48597|M|54.46,19.39|N|To Melissa Kenny.|
 T Troublesome Troglodytes|QID|48195|M|54.46,19.39|N|To Melissa Kenny.|
 A The Lord's Behest|QID|48003|M|54.46,19.39|N|From Melissa Kenny.|
 
-R Norwington Estate|QID|48003|M|53.02,27.10|N|Run to Lord Norwington's Estate.|
+R Norwington Estate|ACTIVE|48003|M|53.02,27.10|N|Run to Lord Norwington's Estate.|
 T The Lord's Behest|QID|48003|M|51.57,27.27|N|To Lord Aldrius Norwington.|
 A Be Our Guest|QID|48005|M|51.57,27.27|N|From Lord Aldrius Norwington.|
 C Be Our Guest|QID|48005|M|51.45,26.09|QO|1|NC|N|Visit the Stables.|
@@ -549,7 +560,7 @@ A Lucky Charm|QID|48898|M|51.31,25.91|N|From Joma.|
 A Safety First|QID|48899|M|51.32,25.93|N|From Majo.|
 C Be Our Guest|QID|48005|M|49.74,25.22|QO|2|NC|N|Visit the Kitchen.|
 A The Roughnecks|QID|49393|M|51.67,29.68|N|From Job Flyer.|
-f Norwington Estate|QID|48903|M|52.91,28.79|N|At Hestia Strongbolt.|
+f Norwington Estate|ACTIVE|48903|M|52.91,28.79|N|At Hestia Strongbolt.|
 A WANTED: Raging Earthguard|QID|51367|M|53.11,28.41|N|From Wanted Poster?.|
 A Anglepoint Wharf|QID|48347|M|53.11,28.41|N|From Help Wanted Poster.|
 C Be Our Guest|QID|48005|M|53.30,28.30|QO|4|NC|N|Visit the Inn.|
@@ -560,7 +571,7 @@ C Lucky Charm|QID|48898|M|48.63,28.14|QO|1|N|Ock! he got away, go find him again
 C Safety First|QID|48899|M|49.41,21.97|S|NC|N|Pick up Durable Seashells from the ground.|
 C Monstrous Energy|QID|48902|M|47.87,23.77|S|N|Kill and loot the Venomscale Slitherers for Pulsating Extracts.|
 C Lucky Charm|QID|48898|M|48.12,25.38|QO|2|N|Not again, go find him again.|T|Lucktail|
-K Kill Kulett the Ornery|QID|49984|QO|1|M|47.86,22.22|N|Silver Elite to kill and loot for treasure and resources.|T|Kulutt the Ornery|
+K Kulett the Ornery|QID|49984|QO|1|M|47.86,22.22|N|Silver Elite to kill and loot for treasure and resources.|T|Kulutt the Ornery|
 C Lucky Charm|QID|48898|M|50.76,22.17|QO|3|N|Finally you get Lucktail's Tail|T|Lucktail|
 C Monstrous Energy|QID|48902|M|47.87,23.77|US|N|Finish collecting the Pulsating Extracts.|
 C Safety First|QID|48899|M|49.41,21.97|US|NC|N|Finish Picking up Durable Seashells.|
@@ -602,7 +613,7 @@ C Best In Show|QID|49036|M|52.79,28.39|NC|N|And do it again, Mount Cooper (if yo
 T Best In Show|QID|49036|M|51.57,27.28|N|To Lord Aldrius Norwington.|
 
 A Save Our Shipmates|QID|50026|M|49.15,29.77;49.45,31.77|CS|N|From Thomas Pinker.|
-R Fogcliff Strand|QID|50026|M|49.46,33.42|N|Down to the beach to find the shipmates.|
+R Fogcliff Strand|ACTIVE|50026|M|49.46,33.42|N|Down to the beach to find the shipmates.|
 T Save Our Shipmates|QID|50026|M|50.31,37.23|N|To Henry Hardwick.|
 A Captured and Enraptured|QID|47755|M|50.31,37.24|N|From Henry Hardwick.|
 A A Very Precious Cargo|QID|50002|M|50.31,37.24|N|From Henry Hardwick.|
@@ -612,7 +623,7 @@ C Captured and Enraptured|QID|47755|M|54.13,35.01|U|151135|S|NC|N|Target an Entr
 A Can't Hear A Thing|QID|50059|M|51.08,35.79|N|From Earless Joe.|
 K Squirgle of the Depths|QID|51807|QO|1|M|48.89,36.94|T|Squirgle of the Depths|N|Silver Elite - loot for treasure and resources.|
 C Can't Hear A Thing|QID|50059|M|53.65,32.89|N|Kill Anthemusa slain.|T|Anthemusa|
-K Kill Shiverscale the Toxic|QID|51876|QO|1|M|55.18,32.51|T|Shiverscale the Toxic|N|Silver Elite to kill for treasure and resources.|
+K Shiverscale the Toxic|QID|51876|QO|1|M|55.18,32.51|T|Shiverscale the Toxic|N|Silver Elite to kill for treasure and resources.|
 A She Sells Seashells|QID|52258|M|60.99,30.83|N|From Jenny Swiftbrook.|RANK|3|
 C She Sells Seashells|QID|52258|M|58.03,32.13|NC|N|Pick up shells along the water's edge.|
 T She Sells Seashells|QID|52258|M|61.00,30.85|N|To Jenny Swiftbrook.|
@@ -632,13 +643,13 @@ R Westwind Weald|QID|49393|M|45.94,27.77;44.20,25.05|CS|N|Run Northwest along th
 T The Roughnecks|QID|49393|M|42.36,22.27|N|To Tagart.|
 A Hold Still|QID|49394|M|42.36,22.27|N|From Tagart.|
 A The Bears and the Bees|QID|49395|M|42.36,22.27|N|From Tagart.|
-f Roughneck Camp|QID|51368|M|42.50,23.03|N|At Dagin.|
+f Roughneck Camp|ACTIVE|49395|M|42.50,23.03|N|At Dagin.|
 A WANTED: The Hornet|QID|51368|M|42.15,22.99|N|From Wanted Poster.|
 C The Bears and the Bees|QID|49395|M|48.73,17.44|QO|1|NC|S|N|Pick up the Honeycombs.|
 C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|2|S|N|Kill Scruffhide Bears.|
 C Hold Still|QID|49394|M|48.19,19.79|U|153596|S|N|Use the shears to collect Goat Fur, they don't like it much, must be done before killing them.|
-K Kill Totes|QID|50095|M|46.87,20.60|N|Silver Elite to kill for treasure and resources.|ITEM|160452|
-K Kill The Hornet|QID|51368|M|47.37,18.18;47.48,18.01|CS|QO|1|T|The Hornet|N|Kill The Hornet.|
+K Totes|QID|50095|M|46.87,20.60|N|Silver Elite to kill for treasure and resources.|ITEM|160452|
+K The Hornet|QID|51368|M|47.37,18.18;47.48,18.01|CS|QO|1|T|The Hornet|N|Kill The Hornet.|
 A Helping Henry|QID|49412|M|47.71,17.63|N|From "Helpless" Henry.|
 C Helping Henry|QID|49412|M|48.71,18.01|N|Kill Brawr.|
 T Helping Henry|QID|49412|M|47.75,17.61|N|To "Helpless" Henry.|
@@ -653,7 +664,7 @@ A An Offering of Eggs|QID|49710|M|42.48,22.71|N|From Rulf.|
 C Protect the Nests|QID|49735|M|43.65,17.00|S|N|Kill the Hungry Dewscales as you go.|
 C An Offering of Eggs|QID|49710|M|44.71,20.19|S|NC|N|Collect some Spotted Gryphon Eggs.|
 
-K Kill Merianae|QID|49921|QO|1|M|44.27,20.24;42.97,16.82|CS|N|Silver Elite - Kill for treasure and resources.|
+K Merianae|QID|49921|QO|1|M|44.27,20.24;42.97,16.82|CS|N|Silver Elite - Kill for treasure and resources.|
 C An Offering of Eggs|QID|49710|M|44.71,20.19|NC|US|N|Finish collecting the Spotted Gryphon Eggs.|
 C Protect the Nests|QID|49735|M|43.65,17.00|US|N|Finish killing the Hungry Dewscales.|
 T Protect the Nests|QID|49735|M|47.88,16.39|N|To Shawn McClinter.|
@@ -682,14 +693,14 @@ T Where'd They Go?|QID|49435|M|39.67,13.38|N|To Boss Tak.|
 A Boss' Revenge|QID|49439|M|39.67,13.38|N|From Boss Tak.|RANK|2|PRE|49435|
 C Boss' Revenge|QID|49439|M|39.44,12.41;39.10,12.20|CS||QO|1|N|Kill Whompus.|T|Whompus|
 T Boss' Revenge|QID|49439|M|39.35,12.59|N|To Boss Tak.|
-K Kill Pack Leader Asenya|QID|49923|QO|1|M|39.89,14.89;38.86,15.29|CS|N|In her underground den, you will find a Silver Elite to kill for treasure and resources.|
+K Pack Leader Asenya|QID|49923|QO|1|M|39.89,14.89;38.86,15.29|CS|N|In her underground den, you will find a Silver Elite to kill for treasure and resources.|
 C Wendies|QID|49433|M|39.82,13.11|US|N|Finish kill Wendigos.|
 T Wendies|QID|49433|M|40.42,13.75|N|To Boss Tak.|
 A Getting Paid|QID|49719|M|40.42,13.75|N|From Boss Tak.|RANK|2|PRE|49439;49433|
 T Getting Paid|QID|49719|M|42.39,22.28|N|To Tagart.|
 $ Smugglar's Cache|QID|50097|M|38.47,20.77|N|Click on the Smugglar's Cache to start short vignette - Ends with Captain Wintersail - Silver Elite to kill and loot for reasources and treasure.|ITEM|155422|RANK|3|
 
-R Anglepoint Wharf|QID|48347|M|40.94,24.41;42.30,27.25|CS|N|Take the footpath down the hill to Anglepoint Wharf.|
+R Anglepoint Wharf|ACTIVE|48347|M|40.94,24.41;42.30,27.25|CS|N|Take the footpath down the hill to Anglepoint Wharf.|
 A WANTED: Quartermaster Ssylis|QID|51384|M|42.30,27.25|N|From Wanted Poster.|
 T Anglepoint Wharf|QID|48347|M|42.29,29.31|N|To Brother Therold.|
 A Aiding the Wharf|QID|48540|M|42.29,29.31|N|From Brother Therold.|
@@ -750,12 +761,12 @@ A Eldritch Invocations|QID|48372|M|35.20,24.20|N|From Brannon Stormsong.|
 A Death in the Depths|QID|48370|M|35.25,24.18|N|From Keegan Alby.|
 A Deep Sea Defilement|QID|48368|M|35.24,24.27|N|From Brother Therold.|
 A Those Aren't Fish Eggs|QID|48367|M|34.95,24.21|N|From Rosaline Madison.|
-R Krakenbane Cove|QID|49300|M|33.74,23.48|N|Run out to sea to find the eggs and corrupting pylons.|
+R Krakenbane Cove|ACTIVE|49300|M|33.74,23.48|N|Run out to sea to find the eggs and corrupting pylons.|
 C Bonus Objective:Creature Corruption|QID|49300|M|35.20,24.20|S|N|Kill stuff as you go along (like you have a choice).|
 C Those Aren't Fish Eggs|QID|48367|M|32.25,27.34|S|N|Attack the eggs.|
 C Death in the Depths|QID|48370|M|33.01,26.19|S|N|Kill Deepwarden Followers.|
-C WANTED: Quartermaster Ssylis|QID|51384|M|30.13,17.62|N|Up on the shore, in a small cave, find and kill Quartermaster Ssylis.|T|Quartermaster Ssylis|
-C Eldritch Invocations|QID|48372|M|30.86,21.56;30.08,19.59|CS|N|Kill Director Deepwarden inside the underwater cave.|T|Director Deepwarden|
+K Quartermaster Ssylis|QID|51384|M|30.13,17.62|QO|1|N|Up on the shore, in a small cave, find and kill Quartermaster Ssylis.|T|Quartermaster Ssylis|
+K Director Deepwarden|QID|48372|M|30.86,21.56;30.08,19.59|CS|N|Kill Director Deepwarden inside the underwater cave.|T|Director Deepwarden|
 C Deep Sea Defilement|QID|48368|M|30.00,19.33|QO|3|NC|N|Destroy the Western Corrupting Pylon.|
 C Deep Sea Defilement|QID|48368|M|31.35,29.13;30.36,31.14|CS|QO|1|NC|N|Destroy the Southern Corrupting Pylon in an underwater cave.|
 C Deep Sea Defilement|QID|48368|M|33.94,25.45;35.38,24.32|CS|QO|2|NC|N|Destroy the Eastern Corrupting Pylon in an underwater cave.|
@@ -768,7 +779,7 @@ T Eldritch Invocations|QID|48372|M|35.21,24.19|N|To Brannon Stormsong.|
 T Death in the Depths|QID|48370|M|35.21,24.19|N|To Brannon Stormsong.|
 T Deep Sea Defilement|QID|48368|M|35.24,24.27|N|To Brother Therold.|
 A The Deadliest Catch|QID|49302|M|34.94,24.21|N|From Rosaline Madison.|
-f Outrigger Post|QID|49719|M|35.55,24.92|N|At Gregory Mussler.|
+f Outrigger Post|ACTIVE|49302|M|35.55,24.92|N|At Gregory Mussler.|
 
 C The Deadliest Catch|QID|49302|M|35.29,24.57|QO|1|CHAT|N|Speak to Okri for a ride.|
 C The Deadliest Catch|QID|49302|M|36.33,29.82|QO|2|NC|N|Hop on the Outrigger Cannon.|
@@ -778,7 +789,7 @@ C The Deadliest Catch|QID|49302|M|36.77,29.71|QO|5|NC|N|Hop on the Outrigger Gry
 T The Deadliest Catch|QID|49302|M|42.46,29.34|N|To Brannon Stormsong.|
 T WANTED: Quartermaster Ssylis|QID|51384|M|42.43,29.31|N|To Keegan Alby.|
 H Tradewinds Market|N|Hearth or take the nearby ferry back to Boralus.|
-D This ends th Tiragarde Sound Guide.|
+D This ends the Tiragarde Sound Guide.|
 
 ]]
 

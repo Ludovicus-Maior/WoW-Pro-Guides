@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-08-16 23:40
+-- Who: Ludovicus_Maior
+-- Log: Shifted K [Wagga Snarltusk] till after turnin of [A Question of Quillpower] as per notcyf 
+
+-- URL: http://wow-pro.com/node/3767/revisions/29530/view
+-- Date: 2018-08-15 21:58
+-- Who: Ludovicus_Maior
+-- Log: Minor tag error corrections.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29525/view
 -- Date: 2018-08-15 03:21
 -- Who: Lemmer
 -- Log: Final playthrough on live including substantial edits to final 1/3 of guide.  Added hidden beta quests at end. Many optimizations.
@@ -351,8 +361,7 @@ C Anger in a Bottle|QID|50367|M|45.96,73.25|N|Head back down into the fray.  Mos
 T Anger in a Bottle|QID|50367|M|46.65,73.82|N|To Sergeant Calvin.|
 A Terror of the Kraul|QID|50368|M|46.64,73.85|N|From Sergeant Calvin.|
 C Terror of the Kraul|QID|50368|M|45.84,74.41|N|Follow the blue flames all the way to the back of the cave to kill Bramblefist.|
-K Wagga Snarltusk|QID|98765|M|45.83,74.34|N|Wagga was not showing up on beta, so may need to pass on this rare until live – if so, skip quest.  Start of the path down to Wagga - follow the blue flames.  Silver Elite to kill for loot and achievement.|ITEM|154431|RANK|2|
-T Terror of the Kraul|QID|50368|Z|Thornheart!Dungeon |M|71.22,52.33|N|To Sergeant Calvin.  (note this coord is in a cave).|
+T Terror of the Kraul|QID|50368|Z|Thornheart!Dungeon|M|71.22,52.33|N|To Sergeant Calvin.  (note this coord is in a cave).|
 A A Question of Quillpower|QID|50640|M|71.22,52.33|Z|Thornheart!Dungeon|N|From Sergeant Calvin.  Hop on the boar and ride back to Mayor Roz.|
 R A Question of Quillpower|M|50.75,70.21|ACTIVE|50640|N|Hop on the boar and ride out of the cave.|
 f Deadwash|M|42.71,57.37|AVAILABLE|51218|N|Pick up the flight point from Malorian Tailwind on the way.|
@@ -363,6 +372,7 @@ f Millstone Hamlet|M|30.80,66.60|AVAILABLE|49818|N|Pick up the flight point from
 F Brennadam|AVAILABLE|49818|N|Fly to Brennadam for turn-in.|
 A Trouble at Fort Daelin|QID|49818|M|59.52,69.95|N|From Squire Augustus III.|
 T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|
+K Wagga Snarltusk|QID|98765|M|45.83,74.34|N|Wagga was not showing up on beta, so may need to pass on this rare until live – if so, skip quest.  Start of the path down to Wagga - follow the blue flames.  Silver Elite to kill for loot and achievement.|ITEM|154431|RANK|2|
 F Millstone Hamlet|ACTIVE|51218|N|Fly back to the Hamlet.|
 T Undelivered Package|QID|51218|M|30.34,66.81|N|To Marie Davenport.|
 A Be A Dear|QID|51214|M|30.34,66.81|N|From Marie Davenport.|
@@ -723,7 +733,7 @@ C A Clean Slate|QID|50779|S|N|Kill mobs and click stuff as you run around.|
 C The Storm Awakens|QID|50777|M|61.32,41.46|S|N|Click on doors and friendly mobs as you go.|
 A Oathbound|QID|50780|M|60.89,41.37|N|From Tideguard Victoria.|
 C Twisted Intentions|QID|50778|M|60.08,41.66|QO|1|N|Kill the Tempest.|
-C Oathbound|QID|50780|M|59.14,38.71|Loot from fountain behind the building.|
+C Oathbound|QID|50780|M|59.14,38.71|N|Loot from fountain behind the building.|
 C Twisted Intentions|QID|50778|M|61.77,38.09|QO|2|N|Kill the Tidefury.|
 C A Clean Slate|QID|50779|M|61.32,41.46|N|Finish up with zone quest.|
 T Clean Slate|QID|50779|M|61.32,41.46|N|Turn in to pop-up.|

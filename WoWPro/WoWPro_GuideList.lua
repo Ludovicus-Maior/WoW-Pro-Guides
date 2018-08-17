@@ -12,10 +12,10 @@ function WoWPro.CreateGuideList()
 	frame.parent = "WoW-Pro"
 	frame:Hide()
 	WoWPro.GuideList = frame
-	
+
 	local title, subtitle = WoWPro:CreateHeading(frame, L["Guide List"], L["Use the tabs to look at different guide types. "
-		.."\nSelect one and hit \"Okay\" to load. "
-		.."\nShift+click a guide to clear it."])
+		.."\nUse the scroll bar (or scroll wheel) to see all the guides. Click to select a guide and load it. "
+		.."\nSHIFT+click a guide to reset it and then load it."])
     frame.title = title
     frame.subtitle = subtitle
 
@@ -24,7 +24,7 @@ function WoWPro.CreateGuideList()
 	local tabhashtable = {}
 	local firstTab = nil
 	local maxFormatItems = 0
-	
+
 	-- Create tab for each module --
 	for name, module in WoWPro:IterateModules() do
 	    if WoWPro[name].GuideList then

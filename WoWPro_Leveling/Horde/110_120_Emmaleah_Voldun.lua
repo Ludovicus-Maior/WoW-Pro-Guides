@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2018-08-16 05:58
+-- Who: Emmaleah
+-- Log: changed A Pick next zone|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|LEAD|47512+47513+47514| to A Pick next zone|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|LEAD|47512;47513;47514|[apparently you can't use "+" in LEAD tag]
+
+-- URL: http://wow-pro.com/node/3772/revisions/29503/view
 -- Date: 2018-08-13 16:36
 -- Who: Emmaleah
 -- Log: all rares with Item if shown on wowhead, treasures, explore, 3 quests missing, but not essential to story line. RANKS are set up per Verenne's post on Wowhead under the zone ach.
@@ -775,7 +780,7 @@ R Tortaka Refuge|ACTIVE|50703|M|57.25,13.83;57.64,16.74;59.91,20.26;61.10,21.02|
 F Goldtusk Inn|ACTIVE|50703|M|61.92,21.67|N|At Scroll of Flight.|RANK|3|
 $ Grayal's Last Offering|QID|51093;51094|M|43.58,62.11;48.25,61.81;49.16,46.66;48.20,64.69|CS|N|Up to the entrance of Atul'Aman, thru the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
 H The Great Seal|ACTIVE|50703|N|Return to the Great Seal.|RANK|3|
-A Pick next zone|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|LEAD|47512+47513+47514|
+A Pick next zone|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|LEAD|47512;47513;47514|
 
 T Informing the Horde|QID|50703|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 T Fond Farewells|QID|49040|M|40.37,19.08|Z|Dazar'alor|N|To B'wizati who can be found in the Zocalo.|

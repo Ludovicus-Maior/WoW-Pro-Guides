@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2018-08-15 22:01
+-- Who: Ludovicus_Maior
+-- Log: Map TirisfalGladesInsideScenario to "Tirisfal Glades".
+--	Wild guess.
+
+-- URL: http://wow-pro.com/node/3677/revisions/29269/view
 -- Date: 2018-05-07 20:28
 -- Who: Emmaleah
 -- Log: Remove deprecated quest "hitting the books"
@@ -384,19 +390,19 @@ A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a 
 C The Sword of Kings|QID|41105|NC|QO|1|M|58.39,24.69|N|(Optional) Speak with Aerylia to go to Dalaran|
 P The Sword of Kings|QID|41105|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|41109|
 C The Sword of Kings|QID|41105|NC|QO|2|M|29.13,77.48|Z|Aegwynn's Gallery@Dalaran70|N|(Optional) Take the Portal to Dalaran Crater. Its a long fall, you probably won't die...|
-C The Sword of Kings|QID|41105|QO|3|M|15.83,60.68|Z|TirisfalGladesInsideScenario|N|Go to the Tomb of Tyr in Tirisfal Glades|
-C Culling the Cultists|SO|1|Z|TirisfalGladesInsideScenario|N|Fly to the tomb of Tyr.|QID|41105|
-C Slay the ritualists torturing Thoradin.|SO|2|M|13.51,56.69|Z|TirisfalGladesInsideScenario|N|Slay the ritualists torturing Thoradin.|QID|41105|
-C Follow and listen to Thoradin.|SO|3|M|13.51,56.69|CHAT|Z|TirisfalGladesInsideScenario|N|Follow and listen to Thoradin.|QID|41105|
-C Enter the Tomb of Tyr.|SO|4|M|37.40,56.69|Z|TirisfalGladesInsideScenario|N|The entrance is beneath the lake.|QID|41105|
-C Void Tendrils killed|SO|5|M|37.46,48.03|Z|TirisfalGladesInsideScenario|N|Void Tendrils killed|QID|41105|
-C Kill Soth'ozz|SO|6|M|37.54,60.55|Z|TirisfalGladesInsideScenario|N|Kill Soth'ozz|QID|41105|
-C Reach the prison chamber.|SO|7|M|59.89,74.64|Z|TirisfalGladesInsideScenario|N|Reach the prison chamber.|QID|41105|
-C A Quick Execution|SO|8|M|63.91,71.43|Z|TirisfalGladesInsideScenario|N|Click on Zakajz before it is awake, ... (oh well, nothing is ever that easy.|QID|41105|
-C Defeat Zakajz|SO|9|M|63.91,71.43|Z|TirisfalGladesInsideScenario|N|Defeat Zakajz|QID|41105|
-C Take Strom'kar, the Warbreaker.|NC|SO|10|M|58.03,75.86|Z|TirisfalGladesInsideScenario|N|Take Strom'kar, the Warbreaker.|QID|41105|
-C The Sword of Kings|QID|41105|NC|QO|4|M|61.37,74.78|Z|TirisfalGladesInsideScenario|N|Use the Extra Action Button to permanently deal with Zakalz.|
-C The Sword of Kings|QID|41105|Z|TirisfalGladesInsideScenario|QO|5|N|Step into the glowing circle made by the Val'kyr and use your extra action button.|
+C The Sword of Kings|QID|41105|QO|3|M|15.83,60.68|Z|Tirisfal Glades|N|Go to the Tomb of Tyr in Tirisfal Glades|
+C Culling the Cultists|SO|1|Z|Tirisfal Glades|N|Fly to the tomb of Tyr.|QID|41105|
+C Slay the ritualists torturing Thoradin.|SO|2|M|13.51,56.69|Z|Tirisfal Glades|N|Slay the ritualists torturing Thoradin.|QID|41105|
+C Follow and listen to Thoradin.|SO|3|M|13.51,56.69|CHAT|Z|Tirisfal Glades|N|Follow and listen to Thoradin.|QID|41105|
+C Enter the Tomb of Tyr.|SO|4|M|37.40,56.69|Z|Tirisfal Glades|N|The entrance is beneath the lake.|QID|41105|
+C Void Tendrils killed|SO|5|M|37.46,48.03|Z|Tirisfal Glades|N|Void Tendrils killed|QID|41105|
+C Kill Soth'ozz|SO|6|M|37.54,60.55|Z|Tirisfal Glades|N|Kill Soth'ozz|QID|41105|
+C Reach the prison chamber.|SO|7|M|59.89,74.64|Z|Tirisfal Glades|N|Reach the prison chamber.|QID|41105|
+C A Quick Execution|SO|8|M|63.91,71.43|Z|Tirisfal Glades|N|Click on Zakajz before it is awake, ... (oh well, nothing is ever that easy.|QID|41105|
+C Defeat Zakajz|SO|9|M|63.91,71.43|Z|Tirisfal Glades|N|Defeat Zakajz|QID|41105|
+C Take Strom'kar, the Warbreaker.|NC|SO|10|M|58.03,75.86|Z|Tirisfal Glades|N|Take Strom'kar, the Warbreaker.|QID|41105|
+C The Sword of Kings|QID|41105|NC|QO|4|M|61.37,74.78|Z|Tirisfal Glades|N|Use the Extra Action Button to permanently deal with Zakalz.|
+C The Sword of Kings|QID|41105|Z|Tirisfal Glades|QO|5|N|Step into the glowing circle made by the Val'kyr and use your extra action button.|
 T The Sword of Kings|QID|41105|M|58.64,85.92|N|To Odyn.|
 
 ;FURY

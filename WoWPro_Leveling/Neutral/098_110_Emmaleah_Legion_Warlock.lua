@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2018-08-15 21:12
+-- Who: Ludovicus_Maior
+-- Log: Removed duplicate PRE.
+
+-- URL: http://wow-pro.com/node/3679/revisions/29452/view
 -- Date: 2018-07-29 06:39
 -- Who: Emmaleah
 -- Log: Warlock Guide final thru getting class mount on Broken Shore.  Does not deal with artifact appearance quests and such.
@@ -560,7 +565,7 @@ T A Gift From the Six|QID|45862|M|28.46,48.92|Z|Dalaran@Dalaran70|N|To Archmage 
 
 ;A Destruction: Rumblings Near Feltotem|QID|45560| given on Broken Shore - included in that guide
 T Destruction: Rumblings Near Feltotem|QID|45560|M|35.74,23.98|Z|Highmountain|LVL|110|N|To Navarrogg in Highmountain..|
-A The Burning Birds|QID|45564|PRE|45560|M|35.74,23.98|Z|Highmountain|LVL|110|N|From Navarrogg.|PRE|45560|
+A The Burning Birds|QID|45564|PRE|45560|M|35.74,23.98|Z|Highmountain|LVL|110|N|From Navarrogg.|
 C The Burning Birds|QID|45564|M|34.57,22.53|Z|Highmountain|QO|1|NC|N|Pick up the Fel Infusing Totems scattered around the area.|
 C The Burning Birds|QID|45564|M|31.39,25.08|Z|Highmountain|QO|2|CHAT|N|Meet Navarrogg near Feltotem.|
 T The Burning Birds|QID|45564|M|31.30,25.13|Z|Highmountain|N|To Navarrogg.|
