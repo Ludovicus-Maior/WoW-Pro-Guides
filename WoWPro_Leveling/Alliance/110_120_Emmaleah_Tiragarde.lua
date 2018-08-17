@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-08-17 19:27
+-- Who: Emmaleah
+-- Log: added |LVL|115 to A Tol Dagor: The Ashvane Overseer per STrek's experience. Reworded the step that followed -- and changed QID so it should show now.
+
+-- URL: http://wow-pro.com/node/3769/revisions/29534/view
 -- Date: 2018-08-16 21:58
 -- Who: Ludovicus_Maior
 -- Log: Paper audit of guide before I finish playing it!
@@ -34,7 +39,7 @@
 -- Log: stub 
 
 local guide = WoWPro:RegisterGuide('EmmTiragarde', 'Leveling', 'Tiragarde Sound', 'Emmaleah', 'Alliance')
-WoWPro:GuideLevels(guide,110, 120, 111)
+WoWPro:NewGuideLevels(guide,110, 120, 111)
 WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
 WoWPro:GuideIcon(guide,"ACH",12473)
 WoWPro:GuideSteps(guide, function()
@@ -387,8 +392,8 @@ A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|
 T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko.|
 T Proudmoore's Parley|QID|50972|M|73.81,25.12|N|To Genn Greymane.|
 
-A Tol Dagor: The Ashvane Overseer|QID|52800|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|
-J On to the War Campaign|QID|51715|N|This temporarily ends the Tiragarde Sound guide. If you want you can come back and do it on rank 3 to get "everything" The War Campaign guide will auto load when you close this step. \nIf you don't want to jump to the War Campaign Guide, Left Click this step.|GUIDE|BfAOpen|
+A Tol Dagor: The Ashvane Overseer|QID|52800|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|LVL|115|
+N What follows|ACTIVE|49715|N|The quest you just finished has a zone finale feel to it, but not to worry the guide does not end here. This is a good spot to take a break for war campaign if you want, but there are 2 more areas for the zone achievement and a LOT of quests not part of the achievement on the other side of the bay. If you want you can set guide to rank 3 to get "everything".|
 
 b Eastpoint Station|ACTIVE|49715|M|75.29,25.77|N|Take the ferry to Eastpoint Station.|RANK|3|
 R Greystone Relief|ACTIVE|49715|M|74.85,43.88;77.88,43.28;79.08,42.18|CS|N|Run East towards Greystone Keep.|RANK|3|
