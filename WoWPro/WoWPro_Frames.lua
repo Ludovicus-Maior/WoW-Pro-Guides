@@ -793,6 +793,8 @@ function WoWPro.ResetCurrentGuide()
                  WoWPro:WipeQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
             end
     end
+    WoWPro.ClearNpcFauxQuests(GID)
+    WoWPro.ClearQID2Guide(GID)
     WoWPro:LoadGuide()
 end
 
