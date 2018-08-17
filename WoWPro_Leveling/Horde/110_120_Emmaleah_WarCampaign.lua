@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-08-17 18:44
+-- Who: Emmaleah
+-- Log: added A War Campaign, edited T War Campaign to mention the 100 resources needed, edited note about treasure for better grammer.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29514/view
 -- Date: 2018-08-14 07:20
 -- Who: Emmaleah
 -- Log: removed lvl 112 from first foothold
@@ -59,10 +64,11 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chests on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
-N Treasure Maps|N|There are four treasure maps that will drop randomly when fighting pirates in Tiragarde Sound. *Singed, Soggy, Yellowed and Faded, once you have those, Their related treasure is not visable if you do not have the map, so hold on to them until you have it.|
+N Treasure Maps|N|There are four treasure maps that will drop randomly when fighting pirates in Tiragarde Sound. *Singed, Soggy, Yellowed and Faded, once you have those, Their related treasure is not visable if you do not have the map, so hold on to them until you have the related treasure.|
 N Silver Elites|QID|52451;51916|N|The Silver Elites on Kul Tiras (assuming you are horde) do not scale to your level and are all level 120-122. You may want to avoid them before 120.|
 
-T The War Campaign|QID|52749|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|;accepted when you pick your first zone
+A The War Campaign|QID|52749|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|N|From Nathanos Blightcaller.|
+T The War Campaign|QID|52749|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller. For travel efficiency, Wait to turn this in until you have 100 War Resources.|;accepted when you pick your first zone
 A The War Cache|QID|52746|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52479|
 t The War Cache|QID|52746|N|Turn in to UI when complete.|
 A Time for War|QID|53333|N|Auto accepted from UI.|PRE|52746|
