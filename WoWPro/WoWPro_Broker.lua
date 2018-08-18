@@ -75,7 +75,7 @@ local function QidMapReduce(list,default,or_string,and_string,func, why, debug, 
             end
             return val
         end
-        
+
         if do_and and not val then
             if debug then
                 WoWPro:dbp("QidMapReduce(%s): do_and return false",why)
@@ -109,7 +109,7 @@ function WoWPro.QidVerify(list,empty_ok,or_string,and_string)
     end
     return true
 end
-                    
+
 function WoWPro.stack(level)
     local stack = debugstack(2)
     if not level then
@@ -158,7 +158,7 @@ end
 -- See if all of the list of QIDs are in the indicated table.
 function WoWPro:AllIDsInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro:AllIDsInTable(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
+        WoWPro:dbp("WoWPro:AllIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
     local value = QidMapReduce(QIDs,false,"+",";",function (qid) return tabla[qid] end, why or "AllIDsInTable", debug or quids_debug)
     if debug or quids_debug then
@@ -170,7 +170,7 @@ end
 -- Wipe out all the QIDs in the table.
 function WoWPro:WipeQIDsInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro:WipeQIDsInTable(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
+        WoWPro:dbp("WoWPro:WipeQIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
     local value = QidMapReduce(QIDs,false,nil,";+",function (qid) tabla[qid] = nil; return true; end, why or "WipeQIDsInTable", debug or quids_debug)
     if debug or quids_debug then
@@ -181,7 +181,7 @@ end
 -- Set all the QIDs in the table.
 function WoWPro:SetQIDsInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro:SetQIDsInTable(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
+        WoWPro:dbp("WoWPro:SetQIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
     local value = QidMapReduce(QIDs,false,nil,";+",function (qid) tabla[qid] = true; return true; end, why or "SetQIDsInTable", debug or quids_debug)
     if debug or quids_debug then
@@ -189,6 +189,18 @@ function WoWPro:SetQIDsInTable(QIDs,tabla, debug, why)
     end
     return value
 end
+
+function WoWPro:QuestAvailible(QIDs, debug, why)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:QuestAvailible(%s)",tostring(QIDs))
+    end
+    local value = QidMapReduce(QIDs,true,";","+",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailible", debug or quids_debug)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:QuestAvailible(%s) return %s",tostring(QIDs),tostring(value))
+    end
+    return value
+end
+
 
 
 WoWPro.PetsOwned = nil
@@ -209,8 +221,8 @@ function WoWPro:PetOwned(npcID)
         end
     end
     WoWPro:dbp("Testing for pet %s, %s",tostring(npcID),tostring(WoWPro.PetsOwned[tonumber(npcID)]))
-    return WoWPro.PetsOwned[tonumber(npcID)] or 0           
-end 
+    return WoWPro.PetsOwned[tonumber(npcID)] or 0
+end
 
 -- Guide Load --
 function WoWPro:LoadGuide(guideID)
@@ -232,7 +244,7 @@ function WoWPro.LoadGuideReal()
         WoWPro:SendMessage("WoWPro_LoadGuide")
         return
     end
-    
+
     -- Need to register guides first
     if WoWPro.Guides2Register then
         -- Save the original guide to load
@@ -271,17 +283,17 @@ function WoWPro.LoadGuideReal()
         until GID
         WoWProDB.char.currentguide = GID
     end
-    
+
     WoWPro:print("WoWPro.LoadGuideReal(): starting guide cleanup:  %s",tostring(GID))
-    
+
 	--Checking the GID and loading the guide --
-	if not GID then 
-		WoWPro:LoadNilGuide() 
+	if not GID then
+		WoWPro:LoadNilGuide()
 		WoWPro:dbp("No guide specified, loading NilGuide.")
 		-- LFO: something else here
-		return 
+		return
 	end
-	
+
 	-- If the current guide can not be found, see if it was renamed.
 	if not WoWPro.Guides[GID] then
 	    local myUFG = UnitFactionGroup("player"):sub(1,1)
@@ -303,10 +315,10 @@ function WoWPro.LoadGuideReal()
 		WoWPro:dbp("Guide "..GID.." not found, loading NilGuide.")
 		WoWPro:LoadNilGuide()
 		WoWProDB.char.currentguide = nil 
-		return 
+		return
 	end 
 	WoWPro:dbp("Loading Guide: "..GID)
-	
+
 	-- Creating a new entry if this guide does not have one
 	WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
 	WoWProCharDB.Guide[GID].Version = WoWProCharDB.Guide[GID].Version or WoWPro.Version
@@ -320,7 +332,7 @@ function WoWPro.LoadGuideReal()
 	    WoWProCharDB.Guide[GID].skipped =  {}
 	    WoWProCharDB.Guide[GID].Version = WoWPro.Version
     end
-    
+
     -- If we resetting guide, wipe the old information and re-create
 	if WoWPro.Resetting then
 	    WoWPro:Print("Manual reset of Guide "..GID..".")
@@ -328,13 +340,13 @@ function WoWPro.LoadGuideReal()
 	    WoWProCharDB.Guide[GID].skipped =  {}
 	    WoWProCharDB.Guide[GID].Version = WoWPro.Version
     end
-	    
+
 	if ((not WoWProCharDB.Guide[GID].completion) or (not WoWProCharDB.Guide[GID].skipped)) then
 	    WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
 	    WoWProCharDB.Guide[GID].skipped = WoWProCharDB.Guide[GID].skipped or {}
 	    WoWPro:Print("Initializing Guide "..GID..".")
 	end
-	
+
     WoWPro:LoadGuideSteps()
 end
 
@@ -809,7 +821,7 @@ function WoWPro.UpdateGuideReal(From)
 	local GID = WoWProDB.char.currentguide
 	local offset = WoWPro.GuideOffset
 	WoWPro.GuideOffset = nil
-	
+
 	-- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
 	if WoWPro.MaybeCombatLockdown() then
 	    WoWPro:print("Suppresssed guide update.  In Combat.")
@@ -818,17 +830,17 @@ function WoWPro.UpdateGuideReal(From)
 	end
 	if  not GID or not WoWPro.Guides[GID] then
 	    WoWPro:print("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
-        return 
+        return
 	end
 	if  not WoWPro.GuideLoaded then
 	    WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
-        return 
+        return
 	end
-		
+
 	-- If the module that handles this guide is not present and enabled, then end --
 	local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
 	if not module or not module:IsEnabled() then return end
-	
+
 	-- Finding the active step in the guide --
 	WoWPro.ActiveStep = WoWPro.NextStep(1)
 	if WoWPro.Recorder then
@@ -836,7 +848,7 @@ function WoWPro.UpdateGuideReal(From)
 	end
 	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount))
-	
+
 	-- Calling on the guide's module to populate the guide window's rows --
 	local function rowContentUpdate()
 		local reload = WoWPro:RowUpdate(offset)
@@ -846,7 +858,7 @@ function WoWPro.UpdateGuideReal(From)
         end
 		for i, row in pairs(WoWPro.rows) do
 			if WoWPro.RowDropdownMenu[i] then
-				row:SetScript("OnClick", function(self, button, down)			    
+				row:SetScript("OnClick", function(self, button, down)
 					if button == "LeftButton" then
 					    if WoWPro.Recorder then
 					        WoWPro.Recorder:RowLeftClick(i)
@@ -861,8 +873,6 @@ function WoWPro.UpdateGuideReal(From)
 						else
 						    EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
 						end
-						
-						
 					end
 				end)
 			end
@@ -874,36 +884,36 @@ function WoWPro.UpdateGuideReal(From)
 	while reload do
 	    reload = rowContentUpdate()
 	end
-	
+
 	-- Update content and formatting --
 	WoWPro.RowSet();
 	WoWPro.RowSet();
 	WoWPro.PaddingSet();
-	
+
 	-- Updating the guide list or current guide panels if they are shown --
 	if WoWPro[module:GetName()].GuideList
 	and WoWPro[module:GetName()].GuideList.Frame
-	and WoWPro[module:GetName()].GuideList.Frame:IsVisible() 
+	and WoWPro[module:GetName()].GuideList.Frame:IsVisible()
 	and WoWPro[module:GetName()].UpdateGuideList then
-		WoWPro[module:GetName()]:UpdateGuideList() 
+		WoWPro[module:GetName()]:UpdateGuideList()
 	end
 	if WoWPro.CurrentGuideFrame:IsVisible() then WoWPro.UpdateCurrentGuidePanel() end
-	
+
 	-- Updating the progress count --
 	local p = 0
 	for j = 1,WoWPro.stepcount do
 		if ( WoWProCharDB.Guide[GID].completion[j] or WoWProCharDB.Guide[GID].skipped[j] )
-		and not WoWPro.sticky[j] 
-		and not WoWPro.optional[j] then 
-			p = p + 1 
+		and not WoWPro.sticky[j]
+		and not WoWPro.optional[j] then
+			p = p + 1
 		end
 	end
 	WoWProCharDB.Guide[GID].progress = p
 	WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
-	
+
 	-- TODO: make next lines module specific
 	WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
-	
+
 	-- If the guide is complete, loading the next guide --
 	if (WoWProCharDB.Guide[GID].progress == WoWProCharDB.Guide[GID].total or WoWProCharDB.Guide[GID].done)
 	and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
@@ -918,7 +928,7 @@ function WoWPro.UpdateGuideReal(From)
 	end
 	WoWPro:MapPoint()
 	WoWPro:SendMessage("WoWPro_PostUpdateGuide")
-end	
+end
 
 local Rep2IdAndClass
 Rep2IdAndClass = {  ["unknown"] = {0,false},
@@ -939,8 +949,8 @@ Rep2IdAndClass = {  ["unknown"] = {0,false},
                     ["best friend"] = {5,true},
 }
 
-			
--- Next Step --    			
+
+-- Next Step --
 -- Determines the next active step --
 function WoWPro.NextStep(k,i)
 	local GID = WoWProDB.char.currentguide
@@ -1023,7 +1033,7 @@ function WoWPro.NextStep(k,i)
 				WoWPro.why[k] = "NextStep(): Optional not skipped if on the quest!"			    
 			end
 		end
-	
+
 	    -- A/$ Steps --
 		if (WoWPro.action[k] == "A" or WoWPro.action[k] == "$") and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
             WoWPro.CompleteStep(k,"Quest in QuestLog")
@@ -1034,13 +1044,13 @@ function WoWPro.NextStep(k,i)
 	    -- Availible quests: not complete  --
 	    if WoWPro.available[k] then
 	        local available = WoWPro.available[k]
-	        if WoWPro:IsQuestFlaggedCompleted(available) or WoWPro:QIDsInTable(available,WoWPro.QuestLog) then
+	        if not WoWPro:QuestAvailible(available) then
 	            skip = true
 	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently complete or active")
 	            break
-	        end 
-	    end 
-	    
+	        end
+	    end
+
 	    -- Check for must be active quests
         if WoWPro.active and WoWPro.active[k] then
     		if not WoWPro:QIDsInTable(WoWPro.active[k],WoWPro.QuestLog) then 
