@@ -31,13 +31,13 @@ function WoWPro:RecordTaxiLocations(...)
             WoWProCharDB.Taxi[location] = true
             WoWPro:Print("Discovered Flight Point: [%s]",location )
         end
-        if WoWProCharDB.Taxi[location] and typo == "DISTANT" then
-            WoWProCharDB.Taxi[location] = nil
-            WoWPro:Print("Removed Unlearned Flight Point: [%s]",location)
-        end
+---        if WoWProCharDB.Taxi[location] and typo == "DISTANT" then
+---            WoWProCharDB.Taxi[location] = nil
+---            WoWPro:Print("Removed Unlearned Flight Point: [%s]",location)
+---        end
     end
 	WoWPro:dbp("RecordTaxiLocations(%s): Step %s/%d [%s]?", tostring(_event), tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
-	if WoWProCharDB.Taxi[WoWPro.step[index]] then
+	if (WoWPro.action[index] == 'f') and WoWProCharDB.Taxi[WoWPro.step[index]] then
 		WoWPro.CompleteStep(index, "RecordTaxiLocations")
 	end
 end
