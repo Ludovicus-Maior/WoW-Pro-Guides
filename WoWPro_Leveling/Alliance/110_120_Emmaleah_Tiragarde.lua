@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-08-18 04:05
+-- Who: Emmaleah
+-- Log: Make bonus Objectives LVL|-120|
+
+-- URL: http://wow-pro.com/node/3769/revisions/29540/view
 -- Date: 2018-08-17 19:27
 -- Who: Emmaleah
 -- Log: added |LVL|115 to A Tol Dagor: The Ashvane Overseer per STrek's experience. Reworded the step that followed -- and changed QID so it should show now.
@@ -342,8 +347,8 @@ A Righteous Retribution|QID|49741|M|56.48,61.72|N|From Taelia.|
 A Cat on a Hot Copper Roof|QID|49757|M|58.60,61.52|N|From Meredith.|
 C Cat on a Hot Copper Roof|QID|49757|M|58.84,61.32|QO|1|N|Start at the lowest ring (if you are a short race you will have to jump to reach it). Work your way around the house from ring to ring, till you get to the upstairs porch where Scratchy is.|
 T Cat on a Hot Copper Roof|QID|49757|M|58.60,61.52|N|To Meredith.|
-A Bonus Objective:Enemies at the Gate|QID|49739|M|58.44,64.74|N|From UI Alert when entering the area.|
-C Bonus Objective:Enemies at the Gate|QID|49739|M|58.44,64.74|S|N|This will most likely be accomplished before you finish the other objectives.|
+A Enemies at the Gate|QID|49739|M|58.44,64.74|N|Bonus Objective - Autoaccepted.|LVL|-120|
+C Enemies at the Gate|QID|49739|M|58.44,64.74|S|N|Bonus Objective - This will most likely be accomplished before you finish the other objectives.|
 C For Kul Tiras!|QID|49736|S|U|156520|N|Use the banner to inspire the Vigil Hill defenders.|
 C Cease Fire!|QID|49740|S|N|Click on the Captured Cannons to destroy them.|
 C Righteous Retribution|QID|49741|M|55.40,67.84|QO|1|N|Steal the Azerite Bombs.|
@@ -355,8 +360,8 @@ C Righteous Retribution|QID|49741|M|56.84,74.30|QO|6|NC|N|Drop bombs on the Powd
 K Black-Eyed Bart|QID|50096|QO|1|T|Black-Eyed Bart|ITEM|158650|N|Kill for treasure and resources.|
 C Cease Fire!|QID|49740|US|N|Finish destroying the Captured Cannons.|
 C For Kul Tiras!|QID|49736|U|156520|US|N|Finish inspriring the Vigil Hill defenders.|
-C Bonus Objective:Enemies at the Gate|QID|49739|M|57.22,67.36|US|N|Stick around and finish this up.|
-T Bonus Objective:Enemies at the Gate|QID|49739|M|57.22,67.36|N|Auto turned in when completed.|
+C Enemies at the Gate|QID|49739|M|57.22,67.36|US|N|Bonus Objective - Stick around and finish this up.|
+T Enemies at the Gate|QID|49739|M|57.22,67.36|N|Bonus Objective - Autocompleted.|
 A Freehold: A Pirate's End|QID|52148|M|56.50,61.72|NA|N|From Flynn Fairwind. This is a dungeon quest.|
 T Cease Fire!|QID|49740|M|56.68,61.17|N|To Lieutenant Tarenfold.|
 T For Kul Tiras!|QID|49736|M|56.68,61.17|N|To Lieutenant Tarenfold.|
@@ -617,8 +622,8 @@ R Fogcliff Strand|ACTIVE|50026|M|49.46,33.42|N|Down to the beach to find the shi
 T Save Our Shipmates|QID|50026|M|50.31,37.23|N|To Henry Hardwick.|
 A Captured and Enraptured|QID|47755|M|50.31,37.24|N|From Henry Hardwick.|
 A A Very Precious Cargo|QID|50002|M|50.31,37.24|N|From Henry Hardwick.|
-A Bonus Objective:Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|N|UI Alert.|
-C Bonus Objective:Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|S|N|Pick up shipwrecked supplies, kill sirens and saurolisks, you know the drill.|
+A Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|N|Bonus Objective - Autoaccepted.|LVL|-120|
+C Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|S|N|Bonus Objective - Pick up shipwrecked supplies, kill sirens and saurolisks, you know the drill.|
 C Captured and Enraptured|QID|47755|M|54.13,35.01|U|151135|S|NC|N|Target an Entralled Sailer and use the Grog to break the enchantment - can be done at ranged distances.|
 A Can't Hear A Thing|QID|50059|M|51.08,35.79|N|From Earless Joe.|
 K Squirgle of the Depths|QID|51807|QO|1|M|48.89,36.94|T|Squirgle of the Depths|N|Silver Elite - loot for treasure and resources.|
@@ -636,8 +641,8 @@ T Can't Hear A Thing|QID|50059|M|51.10,35.78|N|To Earless Joe.|
 T Captured and Enraptured|QID|47755|M|50.30,37.24|N|To Henry Hardwick.|
 C Hold My Hand|QID|50005|M|50.30,37.24||US|NC|N|Escort Penny to her father|
 T Hold My Hand|QID|50005|M|50.30,37.24|N|To Henry Hardwick.|
-C Bonus Objective:Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|US|N|Stick around and finish if you haven't yet.|
-T Bonus Objective:Shipwreck Recovery Crew|QID|50009|M|54.58,32.99|N|Autocompleted.|
+C Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|US|N|Bonus Objective - Stick around and finish if you haven't yet.|
+T Shipwreck Recovery Crew|QID|50009|M|54.58,32.99|N|Bonus Objective - Autocompleted.|
 
 R Westwind Weald|QID|49393|M|45.94,27.77;44.20,25.05|CS|N|Run Northwest along the road to Westwind Weald.|
 T The Roughnecks|QID|49393|M|42.36,22.27|N|To Tagart.|
@@ -756,13 +761,13 @@ A Paddle to Safety|QID|48366|M|39.55,26.70|N|From Brannon Stormsong.|
 C Paddle to Safety|QID|48366|M|39.61,27.02|NC|N|Hop in the Rowboat.|
 
 T Paddle to Safety|QID|48366|M|35.20,24.20|N|To Brannon Stormsong.|
-A Bonus Objective:Creature Corruption|QID|49300|M|35.20,24.20|N|From Brannon Stormsong.|
+A Creature Corruption|QID|49300|M|35.20,24.20|N|Bonus Objective - Autoaccepted.|LVL|-120|
 A Eldritch Invocations|QID|48372|M|35.20,24.20|N|From Brannon Stormsong.|
 A Death in the Depths|QID|48370|M|35.25,24.18|N|From Keegan Alby.|
 A Deep Sea Defilement|QID|48368|M|35.24,24.27|N|From Brother Therold.|
 A Those Aren't Fish Eggs|QID|48367|M|34.95,24.21|N|From Rosaline Madison.|
 R Krakenbane Cove|ACTIVE|49300|M|33.74,23.48|N|Run out to sea to find the eggs and corrupting pylons.|
-C Bonus Objective:Creature Corruption|QID|49300|M|35.20,24.20|S|N|Kill stuff as you go along (like you have a choice).|
+C Creature Corruption|QID|49300|M|35.20,24.20|S|N|Bonus Objective - Kill stuff as you go along (like you have a choice).|
 C Those Aren't Fish Eggs|QID|48367|M|32.25,27.34|S|N|Attack the eggs.|
 C Death in the Depths|QID|48370|M|33.01,26.19|S|N|Kill Deepwarden Followers.|
 K Quartermaster Ssylis|QID|51384|M|30.13,17.62|QO|1|N|Up on the shore, in a small cave, find and kill Quartermaster Ssylis.|T|Quartermaster Ssylis|
@@ -773,7 +778,7 @@ C Deep Sea Defilement|QID|48368|M|33.94,25.45;35.38,24.32|CS|QO|2|NC|N|Destroy t
 C Death in the Depths|QID|48370|M|33.01,26.19|US|N|Finish killing Deepwarden Followers.|
 C Those Aren't Fish Eggs|QID|48367|M|32.25,27.34|US|N|Finish destroying Corrupted Eggs.|
 C Creature Corruption|QID|49300|M|31.37,23.67|N|Stay and finish the Bonus Objective.|
-T Creature Corruption|QID|49300|M|31.37,23.67|N|Autocompleted.|
+T Creature Corruption|QID|49300|M|31.37,23.67|N|Bonus Objective - Autocompleted.|
 T Those Aren't Fish Eggs|QID|48367|M|34.95,24.21|N|To Rosaline Madison, back up on the shore.|
 T Eldritch Invocations|QID|48372|M|35.21,24.19|N|To Brannon Stormsong.|
 T Death in the Depths|QID|48370|M|35.21,24.19|N|To Brannon Stormsong.|
