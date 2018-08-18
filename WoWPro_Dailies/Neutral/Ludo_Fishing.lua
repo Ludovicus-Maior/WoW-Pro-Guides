@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dailies_fishing_dailies_capitol_cities_shattrath_dalaran
+-- Date: 2018-08-18 21:00
+-- Who: Ludovicus_Maior
+-- Log: Correct L steps to l.
+
+-- URL: http://wow-pro.com/node/3752/revisions/29342/view
 -- Date: 2018-06-04 18:13
 -- Who: Ludovicus_Maior
 -- Log: Got rid of obsolete alliance quest for Nat and corrected QID on [The Race to Restock]
@@ -180,7 +185,7 @@ A Time for Slime|QID|29322|M|81,31.2|Z|Undercity|N|From Armand Cromwell|O|FACTIO
 C Squirming Slime Molds|QID|29322|M|49.60,55.00;50.50,30.40;52.00,52.60;52.30,35.80;63.70,39.70;64.70,66.90;67.00,71.00;67.90,40.30;68.40,47.00;71.70,65.20;79.50,33.50;80.00,57.10;81.40,43.00;81.70,56.00;80.40,59.30;52.80,31.55;56.60,62.60;73.10,68.45;55.00,60.65;79.62,27.30;58.65,68.30;81.24,31.71;51.00,41.55;66.42,47.58;50.75,45.20;80.85,29.12;79.92,36.08;65.78,40.55;73.59,24.24;67.60,21.80;65.78,17.60;64.65,70.90;82.20,34.03;63.88,47.27;81.03,45.27;48.20,44.35;65.18,21.34;83.68,40.88;76.65,26.75;77.20,23.40;57.34,21.40;78.42,30.85;53.20,25.35;78.74,60.89;56.35,64.60;75.25,65.70;83.70,44.20|CN|Z|Undercity|N|Fish any slime trough in Undercity for the Molds.|FACTION|Horde|
 T Time for Slime|QID|29322|M|81,31.2|Z|Undercity|N|From Armand Cromwell|FACTION|Horde|
 
-; Nat Page Quest
+; Nat Pagle Quest
 A You Too Good.|QID|6608|LEAD|6607|M|66.44,41.93|Z|Orgrimmar@Orgrimmar|LVL|35|P|Fishing;356;225|N|From Lumak|FACTION|Horde|
 T You Too Good.|QID|6608|M|58.6,60.2|Z|Dustwallow Marsh|N|To Nat Pagle|FACTION|Horde|
 
@@ -223,7 +228,7 @@ T Jewel Of The Sewers|QID|13832|M|52.6,64.8|Z|Dalaran City@Dalaran|N|To Marcia C
 A Blood Is Thicker|QID|13833|M|52.6,64.8|Z|Dalaran City@Dalaran|N|From Marcia Chase|O|
 K Kill a Mammoth|ACTIVE|13833|M|54.6,41.0|Z|Borean Tundra|N|Kill any mammoth to get bloody.|
 R Pool of Blood|ACTIVE|13833|M|52.6,42.4|Z|Borean Tundra|N|Jump in the water to get a pool of blood.|
-L Bloodtooth Frenzy|ACTIVE|13833|M|52.6,42.4|Z|Borean Tundra|N|Now fish in the pool to get the Frenzies.|L|45905 5|
+l Bloodtooth Frenzy|ACTIVE|13833|M|52.6,42.4|Z|Borean Tundra|N|Now fish in the pool to get the Frenzies.|L|45905 5|
 T Blood Is Thicker|QID|13833|M|52.6,64.8|Z|Dalaran City@Dalaran|N|To Marcia Chase|
 
 A Dangerously Delicious|QID|13834|M|52.6,64.8|Z|Dalaran City@Dalaran|N|From Marcia Chase|O|
