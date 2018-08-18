@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2018-08-18 21:03
+-- Who: Ludovicus_Maior
+-- Log: Fix L steps that should be l steps.
+
+-- URL: http://wow-pro.com/node/3458/revisions/28288/view
 -- Date: 2017-03-05 18:54
 -- Who: Ludovicus_Maior
 -- Log: Float the level
@@ -85,7 +90,7 @@ B Holiday Spices|QID|6962|M|52.68,77.28|Z|Orgrimmar|L|17194 5|N|From Penney Copp
 U Learn the Recipe|QID|6962|U|17200|N|Click off when done!|
 B Small Eggs|QID|6962|M|53.80,73.50|Z|Orgrimmar|L|6889 5|N|If you did not farm the eggs, buy them at the AH.|
 B Milk|QID|6962|L|1179|M|55.08,77.97|Z|Orgrimmar|N|Buy Milk from Barkeep Morag.|
-L Make 5 Gingerbread Cookies|QID|6962|L|17197 5|
+l Make 5 Gingerbread Cookies|QID|6962|L|17197 5|
 T Treats for Great-father Winter|QID|6962|M|49.62,78.00|Z|Orgrimmar|N|To Great-father Winter.|
 
 A The Reason for the Season|QID|6964|M|51.00,71.00|Z|Orgrimmar|N|To Furmond.|
