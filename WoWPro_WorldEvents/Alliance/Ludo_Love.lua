@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2018-08-18 21:02
+-- Who: Ludovicus_Maior
+-- Log: Correct L step to l step.
+
+-- URL: http://wow-pro.com/node/3466/revisions/28504/view
 -- Date: 2017-03-17 13:52
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -98,7 +103,7 @@ A A Friendly Chat...|QID|24657|PRE|24849|M|60.62,76.38|Z|Stormwind City|N|From M
 C A Friendly Chat...|QID|24657|M|27.42,34.82|Z|Stormwind City|N|Find Snivel Rustrocket at Stormwind Harbor and talk to him...|L|49915|
 T A Friendly Chat...|QID|24657|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
-L Lovely Charm Collector's Kit|L|49661|M|62.53,74.96|Z|Stormwind City|N|Ask Kwee Q. Peddlefeet for a Kit.|
+l Lovely Charm Collector's Kit|L|49661|M|62.53,74.96|Z|Stormwind City|N|Ask Kwee Q. Peddlefeet for a Kit.|
 
 A Crown Chemical Company Daily|QID|24635;24629;24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
 C A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|Spray everyone and any NPC in sight.|U|49669|
