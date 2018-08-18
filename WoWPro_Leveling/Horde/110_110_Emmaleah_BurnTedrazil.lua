@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-08-18 21:14
+-- Who: Ludovicus_Maior
+-- Log: Fixes for the [The War Campaign] and [Jani's Mysterious Trashpiles]
+
+-- URL: http://wow-pro.com/node/3770/revisions/29541/view
 -- Date: 2018-08-17 20:08
 -- Who: Ludovicus_Maior
 -- Log: Stupid change to force update.
@@ -327,15 +332,15 @@ A Journey to Nazmir|QID|47103|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|Fr
 A Discreet Discussions|QID|47313|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47513|
 A Trust of a King|QID|49615|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47514|
 
-A War Campaign|QID|52479|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|N|From Nathanos Blightcaller.|
-N About the War Campaign|ACTIVE|52479|N|There are quests offered at 110,114,118 on The Banshee's Wail, a ship in Zuldazar's harbor. The guide for those quests will offer to load when you accept one of those quests. As the 2nd quest requires you to gather 100 war resources before you progress, no reason to go down there until you have the first 100 resources. Also, no particular rush to get them done as long as you do it by 120.|
+A The War Campaign|QID|52749|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|N|From Nathanos Blightcaller.|
+N About the War Campaign|ACTIVE|52749|N|There are quests offered at 110,114,118 on The Banshee's Wail, a ship in Zuldazar's harbor. The guide for those quests will offer to load when you accept one of those quests. As the 2nd quest requires you to gather 100 war resources before you progress, no reason to go down there until you have the first 100 resources. Also, no particular rush to get them done as long as you do it by 120.|
 
 ;to open up Jani's mysterious trashpiles
 N Jani's Mysterious Trashpiles|ACH|12482|N|These are scattered around Zandalar. To open up interaction with them, you need to do the following two quests. Once you have completed them, when you are near one of the trashpiles, you will either see a quest "!" or see/hear a message saying "hey richmon…". Interact with the trashpile for your reward.|RANK|3|
 R The Zocalo|QID|47441|M|42.22,25.82|Z|Dazar'alor|N|Run down, down, down in the general direction of the waypoint.|RANK|3|;cant be ACTIVE as you don't have the quest yet
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
-C Pests|QID|47441|M|40.58,18.88|Z|Dazar'alor|QO|1|N|Kill the little pests.|
-C Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|QO|2|NC|N|Follow the Big One. When you arrive at the trashpile, click on it to summon Jani.|
+C Pests|QID|47441|M|40.58,18.88|Z|Dazar'alor|M|41.80,25.00;38.90,20.30;36.30,11.10;37.35,16.10;36.45,13.70;39.25,18.32;40.90,22.90|CN|QO|1|N|Kill the little pests.|T|Thieving Snappers|
+C Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|M|35.35,7.67|QO|2|NC|N|Follow the Big One. When you arrive at the trashpile, click on it to summon Jani.|
 T Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|N|To Jani.|
 A Curse of Jani|QID|47442|M|35.36,7.63|Z|Dazar'alor|N|From Jani.|RANK|3|
 C Curse of Jani|QID|47442|M|38.57,17.70|Z|Dazar'alor|QO|1|NC|N|Run back to Nokano. Save sprint for just before the guard in the middle of the road. If you get caught, ask Jani for new disguise.|
