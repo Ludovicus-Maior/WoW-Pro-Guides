@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2018-08-18 20:54
+-- Who: Ludovicus_Maior
+-- Log: Change bogus L steps to K steps for "Great Chef Woo"'s quests.
+
+-- URL: http://wow-pro.com/node/3561/revisions/29000/view
 -- Date: 2018-02-19 23:06
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -245,13 +250,13 @@ A Tracking Quest - Spectral Pirate Treasure|QID|32956|M|22.69,58.94|N|From Black
 T Tracking Quest - Spectral Pirate Treasure|QID|32956|M|22.69,58.94|N|To Blackguard's Jetsam.|
 
 ; Hunting time
-L Emerald Gander|M|28.60,55.20;33.20,45.80;34.20,48.20;38.60,70.00;39.80,64.40;41.00,70.00;43.40,58.20;43.80,63.40;30.80,54.40;36.90,83.47;31.45,38.75;31.80,78.00;40.50,45.80;43.15,69.35;32.70,67.90;32.02,40.71;31.16,52.15;36.45,41.33;35.90,39.22;43.20,44.70;38.81,67.49;33.20,51.40;44.33,60.83;40.44,39.15;44.09,55.83;31.27,43.11;32.49,80.82;32.15,48.21;30.45,45.75;42.73,71.94;45.54,52.49;30.17,57.67;38.64,41.79;41.11,42.94;31.42,66.26;29.08,49.92;31.15,62.86;42.82,66.59|CN|N|Kill Emerald Gander's to get Meaty Crane Leg's.  Click off when you have enough.|
-L Ironfur Steelhorn|M|26.20,71.40;30.60,49.40;34.80,62.80;33.50,69.90;39.65,38.55;34.65,40.35;29.93,71.18;34.70,59.00;40.70,65.80;44.68,45.03;35.00,42.85;35.72,71.53;28.35,49.48;38.30,36.80;28.04,39.79;32.22,43.62;28.38,46.62;27.55,59.02;29.58,43.48;33.12,60.98;31.90,58.19;30.83,46.72;37.54,44.20;41.40,39.95;30.34,68.64;35.40,67.79;33.62,37.17|CN|N|Kill Ironfur Steelhorns to get Heavy Yak Flanks.  Click off when you have enough.|
-L Great Turtle Furyshell|M|21.40,40.40;21.80,35.60;22.00,70.80;23.00,37.40;27.00,48.80;29.20,62.60;23.40,63.30;22.30,65.05;25.20,59.38;26.25,57.65;24.19,70.25;23.40,60.30;25.77,71.95;23.08,67.85;23.90,57.33;23.02,47.31;21.70,61.38;25.37,55.62;24.38,49.38;22.83,54.35;25.71,52.64;21.49,43.68|CN|N|Kill Great Turtle Furyshells to get Great Turtle Meats.  Click off when you have enough.|
-L Cranegnasher|M|43.8,69.6|CN|N|Kill Cranegnasher to get Thick Tiger Haunch.  Click off when you have enough.|
-L Tsavo'ka|M|54.2,42.8|CN|N|Kill Tsavo'ka to get Thick Tiger Haunch.  Click off when you have enough.|
-L Primal Stalker|M|64.60,54.55;63.60,57.55;52.50,61.60;49.27,58.65;55.80,44.65;50.40,56.20;52.50,64.00;57.58,47.15;63.50,59.70;60.10,66.30;61.92,52.38|CN|N|Kill Primal Stalkers to get Thick Tiger Haunch.  Click off when you have enough.|
-L Crimsonscale Firestorm|M|62.80,33.60;72.60,56.60;72.80,38.00|CN|N|Kill Crimsonscale Firestorm to get a Quivering Firestorm Egg.  Click off when you have had enough.|
+K Emerald Gander|ACTIVE|33234|M|28.60,55.20;33.20,45.80;34.20,48.20;38.60,70.00;39.80,64.40;41.00,70.00;43.40,58.20;43.80,63.40;30.80,54.40;36.90,83.47;31.45,38.75;31.80,78.00;40.50,45.80;43.15,69.35;32.70,67.90;32.02,40.71;31.16,52.15;36.45,41.33;35.90,39.22;43.20,44.70;38.81,67.49;33.20,51.40;44.33,60.83;40.44,39.15;44.09,55.83;31.27,43.11;32.49,80.82;32.15,48.21;30.45,45.75;42.73,71.94;45.54,52.49;30.17,57.67;38.64,41.79;41.11,42.94;31.42,66.26;29.08,49.92;31.15,62.86;42.82,66.59|CN|N|Kill Emerald Gander's to get Meaty Crane Leg's.  Click off when you have enough.|
+K Ironfur Steelhorn|ACTIVE|33236|M|26.20,71.40;30.60,49.40;34.80,62.80;33.50,69.90;39.65,38.55;34.65,40.35;29.93,71.18;34.70,59.00;40.70,65.80;44.68,45.03;35.00,42.85;35.72,71.53;28.35,49.48;38.30,36.80;28.04,39.79;32.22,43.62;28.38,46.62;27.55,59.02;29.58,43.48;33.12,60.98;31.90,58.19;30.83,46.72;37.54,44.20;41.40,39.95;30.34,68.64;35.40,67.79;33.62,37.17|CN|N|Kill Ironfur Steelhorns to get Heavy Yak Flanks.  Click off when you have enough.|
+K Great Turtle Furyshell|ACTIVE|33235|M|21.40,40.40;21.80,35.60;22.00,70.80;23.00,37.40;27.00,48.80;29.20,62.60;23.40,63.30;22.30,65.05;25.20,59.38;26.25,57.65;24.19,70.25;23.40,60.30;25.77,71.95;23.08,67.85;23.90,57.33;23.02,47.31;21.70,61.38;25.37,55.62;24.38,49.38;22.83,54.35;25.71,52.64;21.49,43.68|CN|N|Kill Great Turtle Furyshells to get Great Turtle Meats.  Click off when you have enough.|
+K Cranegnasher|ACTIVE|33238|M|43.8,69.6|CN|N|Kill Cranegnasher to get Thick Tiger Haunch.  Click off when you have enough.|
+K Tsavo'ka|ACTIVE|33238|M|54.2,42.8|CN|N|Kill Tsavo'ka to get Thick Tiger Haunch.  Click off when you have enough.|
+K Primal Stalker|ACTIVE|33238|M|64.60,54.55;63.60,57.55;52.50,61.60;49.27,58.65;55.80,44.65;50.40,56.20;52.50,64.00;57.58,47.15;63.50,59.70;60.10,66.30;61.92,52.38|CN|N|Kill Primal Stalkers to get Thick Tiger Haunch.  Click off when you have enough.|
+K Crimsonscale Firestorm|ACTIVE|33239|M|62.80,33.60;72.60,56.60;72.80,38.00|CN|N|Kill Crimsonscale Firestorm to get a Quivering Firestorm Egg.  Click off when you have had enough.|
 
 T Meaty Crane Leg|QID|33234|M|41.79,63.73|N|To Great Chef Woo.|L|104264|
 T Great Turtle Meat|QID|33235|M|41.79,63.73|N|To Great Chef Woo.|L|104265|
