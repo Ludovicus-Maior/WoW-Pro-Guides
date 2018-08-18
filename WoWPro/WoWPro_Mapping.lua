@@ -517,8 +517,10 @@ function WoWPro:MapPoint(row)
 				local options = {
 				    title = title,
 				    callbacks = WoWProMapping_callbacks_tomtom,
-				    minimap_icon = "Interface\\AddOns\\WoWPro\\Textures\\GoldRing",
-				    worldmap_icon = "Interface\\AddOns\\WoWPro\\Textures\\GoldRing",
+				    minimap_icon = "Interface\\AddOns\\WoWPro\\Textures\\TriRing",
+				    minimap_icon_size = 20,
+				    worldmap_icon = "Interface\\AddOns\\WoWPro\\Textures\\TriRing",
+				    worldmap_icon_size = 16,
 				    persistent=false
 				}
 
