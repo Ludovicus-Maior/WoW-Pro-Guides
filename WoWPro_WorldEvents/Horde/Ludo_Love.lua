@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2018-08-18 21:04
+-- Who: Ludovicus_Maior
+-- Log: Fix L step that should have been an l step.
+
+-- URL: http://wow-pro.com/node/3467/revisions/28514/view
 -- Date: 2017-03-17 14:10
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
@@ -102,7 +107,7 @@ A A Friendly Chat...|QID|24576|PRE|24851|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
 C A Friendly Chat...|QID|24576|M|51.65,56.79|Z|Orgrimmar|N|Find Snivel Rustrocket at the Zepplin Tower|L|49915|
 T A Friendly Chat...|QID|24576|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
-L Lovely Charm Collector's Kit|L|49661|M|52.99,76.81|Z|Orgrimmar|N|Ask Kwee Q. Peddlefeet for a Kit.|
+l Lovely Charm Collector's Kit|L|49661|M|52.99,76.81|Z|Orgrimmar|N|Ask Kwee Q. Peddlefeet for a Kit.|
 
 A Public Relations Daily|QID|24635;24629;24636|M|53.05,77.15|Z|Orgrimmar|N|From Public Relations Agent|
 C A Cloudlet of Classy Cologne|QID|24635|Z|Orgrimmar|N|Spray everyone and any NPC in sight.|U|49669|
