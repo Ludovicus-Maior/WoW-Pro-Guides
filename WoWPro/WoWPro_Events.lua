@@ -283,10 +283,11 @@ function WoWPro.AutoCompleteZone()
 	local currentindex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
 	local action = WoWPro.action[currentindex] or "?"
 	local step = WoWPro.step[currentindex] or "?"
+	local targetzone = WoWPro.targetzone[currentindex] or "!"
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
 	WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]", zonetext, subzonetext, action, step)
 	if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
-		if (step == zonetext or step == subzonetext)
+		if ((step == zonetext) or (step == subzonetext) or (targetzone == zonetext) or (targetzone == subzonetext))
 		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
 			WoWPro.CompleteStep(currentindex,"AutoCompleteZone")
 		end
