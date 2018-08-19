@@ -428,7 +428,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 	if WoWPro.map[i] then
 	    WoWPro:ValidateMapCoords(GID,WoWPro.action[i],WoWPro.step[i],WoWPro.map[i])
-	end    
+	end
 	WoWPro.zone[i] = WoWPro.zone[i] or (WoWPro.map[i] and zone)
 	if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
 	    WoWPro:Error("Step %s [%s] has a bad ¦Z¦%s¦ tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
@@ -826,19 +826,28 @@ function WoWPro.SetupGuideReal()
     local GID = WoWProDB.char.currentguide
     local guideType = WoWPro.Guides[GID].guidetype
     local guideClass = WoWPro[guideType]
-    
+
     WoWPro:dbp("SetupGuideReal(%s): Type: %s",GID,guideType)
-    
+
 	WoWPro.PopulateQuestLog() --Calling this will populate our quest log table for use here
-	
+
 	-- Do we need to do AutoProximitySort'
 	if WoWPro.Guides[GID].AutoProximitySort then
 	    WoWPro.OrderSteps(false)    
 	end
 
+    -- Checking to see if any steps are already complete --
+    for i=1, WoWPro.stepcount do
+        local action = WoWPro.action[i]
+        if (action == ";") or (action == '!') then
+            WoWPro.why[i] = action .. " step completed by WoWPro.SetupGuideReal() as processed by default."
+            WoWProCharDB.Guide[GID].completion[i] = WoWPro.why[i]
+        end
+    end
+
 	-- Scrollbar Settings --
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
-	
+
 	WoWPro.GuideLoaded = true
 	WoWPro:AutoCompleteQuestUpdate(nil)
 	WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
