@@ -230,6 +230,7 @@ DefineTag("NPC","NPC","string",validate_list_of_ints,nil)
 -- Mapping Tags
 DefineTag("M","map","string",nil,nil)
 DefineTag("Z","zone","string",nil,nil)
+DefineTag("TZ","targetzone","string",nil,nil)
 DefineTag("CC","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
 DefineTag("CS","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
 DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 0; end)
