@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2018-08-19 19:10
+-- Who: Ludovicus_Maior
+-- Log: Small playthrough tweaks.
+
+-- URL: http://wow-pro.com/node/3762/revisions/29506/view
 -- Date: 2018-08-13 16:56
 -- Who: Emmaleah
 -- Log: Minor Changes to comments, added some PREs
@@ -142,19 +147,20 @@ T The Red Market|QID|48452|M|44.25,82.15|Z|Dazar'alor|N|To Witch Doctor Jala.|
 A Evidence of Evil|QID|48454|M|44.25,82.15|Z|Dazar'alor|N|From Witch Doctor Jala.|
 C The Word of Zul|QID|46846|M|53.88,91.10|Z|Dazar'alor|QO|2|CHAT|N|Volkini is down stairs. Show her Volkini the message.|
 A The Scamps|QID|48404|M|55.95,88.83|Z|Dazar'alor|N|From Scrollsage Rooka.|
-C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|S|NC|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels.|
+C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|S|NC|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels.|T|Street scamps|
 A Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|N|From Toki.|
 C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|1|CHAT|N|Speak with Toki.|
-C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|2|NC|N|Guide Loh to the First Goal.\n1 Turn Left\n2 Go Forward\n3 Turn Right|
-C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|3|NC|N|Guide Loh Through All the Points Without Crossing His Own Path. |
+C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|2|NC|N|Guide Loh to the First Goal.\n ↑ ↑ ↑ → ↑ ↑ → ↑|
+C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|3|NC|N|Guide Loh Through All the Points Without Crossing His Own Path.\n ↑ ↑ → ↑ ↑ ↑ ↑ ← ↑ ↑|
 T Make Loh Go|QID|52472|M|56.57,91.69|Z|Dazar'alor|N|To UI Alert.|
 K Da White Shark|QID|50948|QO|1|M|59.36,88.80|Z|Dazar'alor|N|Stand here (landing at top of the stairs) and irritate the Da White Sharkuntil she attacks you. After she is dead, you can loot her treasure.|T|Da White Shark|
 $ Da White Shark's Bounty|QID|50947|M|59.36,88.80|Z|Dazar'alor|N|After you kill Da White Shark, her treasure appears. Loot for azerite power and resources.|
 C The Word of Zul|QID|46846|M|51.53,91.14|Z|Dazar'alor|QO|1|N|Show Nokali the message, he is on the upper level.|
-C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|QO|1|NC|N|Finish stopping street scamps.|
+C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|US|NC|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels.|T|Street scamps|
+C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|QO|1|NC|N|Finish stopping street scamps.|T|Street scamps|
 T The Scamps|QID|48404|M|55.96,88.84|Z|Dazar'alor|N|To Scrollsage Rooka.|
 A Mista Nice|QID|48405|M|55.96,88.84|Z|Dazar'alor|N|From Scrollsage Rooka.|
-C Orphan Toe|QID|48405|M|58.76,90.53;57.19,87.69|Z|Dazar'alor|CS|QO|1|CHAT|N|After talking to Orphan Toe, follow him up the stairs and into The Scamp Nest.|
+C Orphan Toe|QID|48405|M|54.04,88.89;58.78,90.53|Z|Dazar'alor|CS|QO|1|CHAT|N|After talking to Orphan Toe, follow him up the stairs and into The Scamp Nest.|
 C Mista Nice|QID|48405|M|57.22,87.39|Z|Dazar'alor|QO|2|N|Kill Mista Nice.|
 T Mista Nice|QID|48405|M|55.90,88.79|Z|Dazar'alor|N|To Scrollsage Rooka.|
 C Shakedown|QID|46926|M|56.71,93.51|Z|Dazar'alor|US|N|Finish your quota of Dockside Thugs.|
