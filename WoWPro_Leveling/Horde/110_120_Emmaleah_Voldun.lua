@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2018-08-19 23:52
+-- Who: Emmaleah
+-- Log: add TZ|Terrace of the Devoted|
+
+-- URL: http://wow-pro.com/node/3772/revisions/29555/view
 -- Date: 2018-08-19 10:35
 -- Who: Emmaleah
 -- Log: Added PREs. Minor tweaks from playtesting on Rank 1.
@@ -618,7 +623,7 @@ R Bwoljiin's Fall|ACTIVE|49662|M|42.86,37.48|RANK|3|
 T The Missing Key|QID|49662|M|42.92,35.77|N|To Vorrik.|
 A Infiltrating the Empire|QID|50745|M|42.92,35.77|N|From Vorrik.|PRE|49662|
 R Conqueror's Path|ACTIVE|50745|M|42.90,33.89;44.02,34.51;45.09,34.77|CS|N|Up the stairs, and across the bridge to follow Vorrik.|
-f Conqueror's Path|ACTIVE|50745|M|47.30,35.25|N|At Lugo the Windrider.|
+f Vorrik's Sanctum|ACTIVE|50745|M|47.30,35.25|N|At Lugo the Windrider.|
 T Infiltrating the Empire|QID|50745|M|47.94,35.57;47.96,36.38|CS|N|To Vorrik.|
 A Allies in Anarchy|QID|49664|M|47.96,36.38|N|From Vorrik.|PRE|50745|
 A The Little Ones|QID|49667|M|47.98,36.51|N|From Meerah.|RANK|2|PRE|50745|
@@ -702,7 +707,7 @@ T Tattered Note|QID|49437|M|47.98,36.51|N|To Meerah.|
 T Free Ride|QID|50749|M|48.02,36.44|N|To Kiro.|
 
 ;Atul'Aman
-F Sanctuary of the Devoted|ACTIVE|50751|M|47.30,35.24|N|at Lugo the Windrider.|
+F Sanctuary of the Devoted|ACTIVE|50751|M|47.30,35.24|TZ|Terrace of the Devoted|N|at Lugo the Windrider.|
 t WANTED: Sandscout Vesarik|QID|51165|M|26.87,52.87|N|To Zareen.|
 T Sanctuary Under Siege|QID|50751|M|26.98,53.11;26.53,52.57;27.09,52.56|CS|N|Vorrik is on the upper level.|
 A Atul'Aman|QID|50617|M|27.09,52.56|N|From Vorrik.|PRE|50751|
