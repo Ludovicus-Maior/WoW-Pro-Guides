@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2018-08-23 01:49
+-- Who: jovieve
+-- Log: Updated old style QO tag.
+
+-- URL: http://wow-pro.com/node/3224/revisions/29229/view
 -- Date: 2018-03-12 19:55
 -- Who: Emmaleah
 -- Log: edit K Gobbler so it will auto complete
@@ -186,7 +191,7 @@ A Incendicite Ore|QID|25735|M|57.82,71.61|N|From Dunlor Marblebeard.|PRE|25725|
 T Drungeld Glowerglare|QID|25727|M|57.57,71.80|N|To Forba Slabchisel.|
 A Get Out Of Here, Stalkers|QID|25733|M|57.55,71.79|N|From Forba Slabchisel.|PRE|25727|
 
-C Get Out Of Here, Stalkers|QID|25733|QO|Leech Stalker slain: 7/7|M|54.10,63.39|N|Kill spiders by the cave until you have killed 7 Leech Stalkers.|
+C Get Out Of Here, Stalkers|QID|25733|QO|1|M|54.10,63.39|N|Kill spiders by the cave until you have killed 7 Leech Stalkers.|
 R Thelgen Rock Cave|QID|25733|CC|M|52.05,62.73|N|Run into this cave.|
 C Get Out Of Here, Stalkers|QID|25733|S|M|53.99,66.00|N|Kill Cave Stalkers.|
 C Incendicite Ore|QID|25735|S|U|55240|M|47.82,65.97|N|Gather Incedicite Ore.|NC|
@@ -195,7 +200,7 @@ C Down In Thelgen Rock|QID|25734|NC|M|47.78,65.99|N|Keep to the left as you go t
 K Torrention|QID|25736|M|47.8,65.4|L|55243|N|Kill and loot Torrention, who appears behind you.|ACTIVE|25734|
 A The Floodsurge Core|QID|25736|M|47.8,65.4|U|55243|N|From the Floodsurge Core, looted from Torrention.|ACTIVE|25734|
 C Incendicite Ore|QID|25735|US|U|55240|M|47.82,65.97|N|Finish gathering the Incedicite Ore.|NC|
-C Get Out Of Here, Stalkers|QID|25733|US|M|48.54,60.83|N|Finish killing the CaveStalkers as you leave the cave.|
+C Get Out Of Here, Stalkers|QID|25733|US|M|48.54,60.83|N|Finish killing the Cave Stalkers as you leave the cave.|
 T Down In Thelgen Rock|QID|25734|M|57.50,71.49|N|To Surveyor Thurdan.|
 T Incendicite Ore|QID|25735|M|57.83,71.63|N|To Dunlor Marblebeard.|
 T Get Out Of Here, Stalkers|QID|25733|M|57.46,71.81|N|To Forba Slabchisel.|
