@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_dominance_offensive_source_code
+-- Date: 2018-08-22 18:51
+-- Who: Emmaleah
+-- Log: Correct Old Style QO
+
+-- URL: http://wow-pro.com/node/3603/revisions/28987/view
 -- Date: 2018-02-19 22:50
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -138,7 +143,7 @@ A Ogudei Quests|QID|*|NPC|68274|PRE|32118|M|81.49,18.27|N|From Kaelis Sunsoar|
 
 C The Spirit Trap|QID|32342|M|70.60,41.40;70.80,44.40;71.80,13.60;43.50,14.60;73.40,28.80|Z|Krasarang Wilds/2|CN|N|Click and fight|
 C It Is A Mystery|QID|32344|M|64.25,26.90|Z|Krasarang Wilds/2|N|Walk around till the meter peaks at 100 and stand stil to you get credit.|
-C We're Not Monsters!|QID|32345|M|49.00,37.60;59.80,47.60;67.00,27.80;70.40,38.20;73.60,23.40;70.90,44.70;68.00,55.70|Z|Krasarang Wilds/2|CN|T|Troubled Slave Spirit|QO|Troubled Slave Spirits released: 14/14|
+C We're Not Monsters!|QID|32345|M|49.00,37.60;59.80,47.60;67.00,27.80;70.40,38.20;73.60,23.40;70.90,44.70;68.00,55.70|Z|Krasarang Wilds/2|CN|T|Troubled Slave Spirit|N|Kill the Troubled Slave Spirits.|
 C Legacy of Ogudei|QID|32120|M|62.80,22.20;73.00,28.80;55.70,51.90;70.90,35.70;58.10,47.40;51.30,41.80;66.90,59.20;49.20,37.60;50.10,20.00;71.25,32.90;51.60,22.50;58.35,50.45|Z|Krasarang Wilds/2|CN|QO|1|
 ;
 R Ogudei's Lieutenants|QID|32343|M|72.27,41.57;79.16,49.86;76.75,63.46|CS|Z|Krasarang Wilds/2|N|Find this crack in the wall.|
