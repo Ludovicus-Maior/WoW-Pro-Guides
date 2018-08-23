@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2018-08-23 03:55
+-- Who: jovieve
+-- Log: Removed unnecessary old style QO tag.
+
+-- URL: http://wow-pro.com/node/3405/revisions/28373/view
 -- Date: 2017-03-15 20:33
 -- Who: Ludovicus_Maior
 -- Log: LudoEbonBlade PRE tags
@@ -127,7 +132,7 @@ A King of the Mountain|QID|13280|PRE|13296|M|57.00,62.57|Z|Icecrown|N|From Frazz
 C King of the Mountain|QID|13280|M|54.87,60.10|Z|Icecrown|N|Right at the TOP.|
 T King of the Mountain|QID|13280|M|57.00,62.57|Z|Icecrown|N|To Frazzle Geargrinder|
 A Assault by Air|QID|13309|M|62.56,51.34|Z|Icecrown|N|From Ground Commander Koup|
-C Assault by Air|QID|13309|M|62.55,50.65|Z|Icecrown|N|Hop onto the turret and fire on the Vrykul spear guns.|QO|Skybreaker Infiltrators dropped: 4/4|
+C Assault by Air|QID|13309|M|62.55,50.65|Z|Icecrown|N|Hop onto the turret and fire on the Vrykul spear guns.|
 T Assault by Air|QID|13309|M|62.56,51.34|Z|Icecrown|N|To Ground Commander Koup|
 A Assault by Ground|QID|13284|M|62.78,51.62|Z|Icecrown|N|Skybreaker Squad Leader|
 C Assault by Ground|QID|13284|M|59.88,53.60|Z|Icecrown|N|Escort.  No stop.|
