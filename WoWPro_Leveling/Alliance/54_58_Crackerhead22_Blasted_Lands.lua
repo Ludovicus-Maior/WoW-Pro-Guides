@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2018-08-22 22:58
+-- Who: jovieve
+-- Log: Removed old style QO tag.
+
+-- URL: http://wow-pro.com/node/3267/revisions/29174/view
 -- Date: 2018-02-26 21:41
 -- Who: Ludovicus_EditBot
 -- Log: LEVEL strip
@@ -178,7 +183,7 @@ C Cultists at our Doorstep|QID|25716|M|62.47,22.09;64.35,26.33;61.17,31.53|CN|
 T Cultists at our Doorstep|QID|25716|M|63.09,16.77|N|To Watcher Mahar Ba.|
 
 A Kasim Sharim|QID|26157|PRE|25716|M|63.09,16.77|N|From Watcher Mahar Ba.|
-R Serpent's Coil|QID|26157|QO|Report to Kasim Sharim in the back of the Serpent's Coil in the Blasted Lands.|M|62.47,22.09;64.35,26.33;60.83,29.42|CS|N|Head back to the area from the previous quest and enter the cave.|
+R Serpent's Coil|QID|26157|M|62.47,22.09;64.35,26.33;60.83,29.42|CS|N|Head back to the area from the previous quest and enter the cave.|
 T Kasim Sharim|QID|26157|M|62.58,26.37|N|To Kasim Sharim.|
 A Attune the Bloodstone|QID|26158|PRE|26157|M|62.58,26.37|N|From Kasim Sharim.|
 C Attune the Bloodstone|QID|26158|NC|QO|1|M|63.19,25.96|N|Click on the Bloodstone.|
