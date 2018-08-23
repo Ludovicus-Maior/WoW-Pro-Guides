@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2018-08-23 01:59
+-- Who: jovieve
+-- Log: Updated old style QO tag.
+
+-- URL: http://wow-pro.com/node/3279/revisions/29178/view
 -- Date: 2018-02-26 21:43
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -413,9 +418,9 @@ A It's Just That Easy?|QID|10010|PRE|10009|M|77.23,34.70|Z|Shattrath City|N|From
 T It's Just That Easy?|QID|10010|M|27.34,43.06|N|To Altruis the Sufferer.|
 A Forge Camp: Annihilated|QID|10011|PRE|10010|M|27.34,43.06|N|From Altruis the Sufferer.|
 l Fel Cannon Activator|QID|10011|M|24.94,36.19|N|Kill, then loot Demos, Overseer of Hate to get the Fel Cannon Activator.|L|25770|
-C Forge Camp: Hate Destroyed|QID|10011|QO|Forge Camp: Hate Destroyed 1/1|U|25770|N|Use the Fel Cannon Activator next to the Fel Cannon: Hate.|
+C Forge Camp: Hate Destroyed|QID|10011|QO|1|U|25770|N|Use the Fel Cannon Activator next to the Fel Cannon: Hate.|
 l Fel Cannon Activator|QID|10011|L|25771|M|19.54,51.17|N|Kill and loot Xirkos, Overseer of Fear to get the Fel Cannon Activator.|
-C Forge Camp: Annihilated|QID|10011|U|25771|M|19.31,50.86|N|Use the Fel Cannon Activator next to the Fel Cannon: Fear.|
+C Forge Camp: Fear Destroyed|QID|10011|U|25771|M|19.31,50.86|N|Use the Fel Cannon Activator next to the Fel Cannon: Fear.|
 T Forge Camp: Annihilated|QID|10011|M|27.32,43.07|N|To Altruis the Sufferer.|
 
 N The rest...|N|The following quests Altruis gives (after this note), have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
