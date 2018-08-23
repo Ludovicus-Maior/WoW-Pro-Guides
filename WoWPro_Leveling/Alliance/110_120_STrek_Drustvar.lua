@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-08-23 06:52
+-- Who: Emmaleah
+-- Log: play thru tweaks per Jovieve
+
+-- URL: http://wow-pro.com/node/3763/revisions/29529/view
 -- Date: 2018-08-15 21:50
 -- Who: Ludovicus_Maior
 -- Log: Move mislocated N|To Zallestrasza.|
@@ -170,8 +175,8 @@ C The Vanishing Lord|QID|48622|QO|2|M|56.18,35.30|NC|N|Meet with Cyril White - m
 C The Vanishing Lord|QID|48622|QO|3|M|55.87,35.08|NC|N|Destroy the effigy.|
 T The Vanishing Lord|QID|48622|M|55.91,35.14|N|To Cursed Effigy.|
 A Signs and Portents|QID|47968|M|56.13,35.26|N|From Mayor's Bulletin.|
-A Fallhaven's Curse|QID|47969|M|56.13,35.26|N|Autoaccepted.|
-C Fallhaven's Curse|QID|47969|M|56.13,35.26|S|N|Bonus quest: attack everything related to the curse.|
+A Fallhaven's Curse|QID|47969|M|56.13,35.26|N|Bonus Objective - Autoaccepted.|LVL|-120|
+C Fallhaven's Curse|QID|47969|M|56.13,35.26|S|N|Bonus Objective: attack everything related to the curse.|
 C Signs and Portents|QID|47968|QO|2|M|57.96,35.70|N|Find Rancher's Letter lying on the ground.|
 K Kill Betsy|QID|47884|QO|1|M|58.46,33.16|N|Silver Elite to kill and loot for treasure and resources.|T|Betsy|ITEM|160463|
 C Signs and Portents|QID|47968|QO|3|M|55.21,35.98|N|Ava's Note is inside, lying on a little ton.|
@@ -191,8 +196,8 @@ T Witch Hunt|QID|47979|M|57.86,28.19|N|To UI Alert.|
 C Cracking the Curse|QID|47981|M|59.57,28.29;57.62,27.80;57.54,30.06;56.18,29.13|US|CN|NC|N|Finish destroying the Lesser Effigies.|
 C Furious Familiars|QID|47980|M|56.18,29.13|US|N|Finish killing the needed Enthralled Wildlife.|
 T Furious Familiars|QID|47980|M|56.18,29.13|N|To UI Alert.|
-C Fallhaven's Curse|QID|47969|M|56.82,34.46|US|N|Finish this up before you turn in next quest.|
-T Fallhaven's Curse|QID|47969|M|57.24,35.34|N|autocompleted.|
+C Fallhaven's Curse|QID|47969|M|56.82,34.46|US|N|Finish this bonus objective before you turn in next quest.|
+T Fallhaven's Curse|QID|47969|M|57.24,35.34|N|Bonus Objective - autocompleted.|
 T Cracking the Curse|QID|47981|M|55.93,35.11|N|To Cursed Effigy.|
 A The Final Effigy|QID|47982|M|55.93,35.11|N|From Cursed Effigy.|
 C The Final Effigy|QID|47982|QO|1|M|55.93,35.11|N|Break Cursed Effigy.|
@@ -245,11 +250,11 @@ T To Market, To Market|QID|47945|M|63.22,27.10|N|To Thomas Staughton.|
 A Save Their Bacon|QID|47946|M|63.22,27.10|N|From Thomas Staughton.|PRE|47945|
 A Big Bad Wolves|QID|47947|M|63.22,27.10|N|From Thomas Staughton.|PRE|47945|
 A Pork Chop|QID|47948|M|63.22,27.10|N|From Thomas Staughton.|PRE|47945|
-K Kill Hexed Howlers |QID|47948|N|Kill 10 spellbound beasts as you go.|S|
+C Big Bad Wolves|QID|47947|N|Kill 10 spellbound beasts as you go.|S|
 C Save Their Bacon|QID|47946|QO|1|M|64.23,28.32|NC|N|Free Trevor Hightide - on the left off the road. He is one of the pigs that is bound to a pole.|
 C Save Their Bacon|QID|47946|QO|2|M|63.61,29.33|NC|N|Free Travis Daybreak - somewhat down the road on the right.|
-A That's Not My Fetish|QID|47949|M|63.35,30.10|N|From Pig Effigy - Inside the building on the right on rope hanging from ceiling.|
-K Roland Hacksaw|QID|47948|QO|1|M|63.84,31.15|N|He is in the oopen-air part of the building.|T|Roland Hacksaw|
+A That's Not My Fetish|QID|47949|M|63.35,30.10|N|From Pig Effigy - Inside the building, on the right attached to rope hanging from ceiling.|
+K Roland Hacksaw|QID|47948|QO|1|M|63.84,31.15|N|He is in the open-air part of the building.|T|Roland Hacksaw|
 C Save Their Bacon|QID|47946|QO|4|M|64.07,31.52|NC|N|Free Burke Stevenson - around other side of wall from Roland.|
 C Save Their Bacon|QID|47946|QO|3|M|64.70,30.17|NC|N|Free Kyle Sailford.|
 C Big Bad Wolves|QID|47947|N|Finish killing the Spellbound beasts.|US|
@@ -271,13 +276,13 @@ A Questionable Offerings|QID|48678|M|59.50,21.97|N|From Lord Autumnvale.|
 C Questionable Offerings|QID|48678|QO|1|M|59.89,21.99;59.38,21.91|CN|NC|N|You find things to offer to the rocks behind you. Take "bundle of wicker", "Entrails" and the "Bones" to the offering table. You have to do it one at a time.|
 C Questionable Offerings|QID|48678|QO|2|M|59.38,21.91|NC|N|Witness Autumnvale's Ritual|
 T Questionable Offerings|QID|48678|M|59.44,21.91|N|To Lord Autumnvale.|
-A Not the Bees!|QID|48680|M|59.44,21.96|N|Autoaccepted Bonus Quest.|PRE|48678|LVL|-120|
+A Not the Bees!|QID|48680|M|59.44,21.96|N|Bonus Objective - Autoaccepted.|PRE|48678|LVL|-120|
 A Mind the Hives|QID|48679|M|59.44,21.96|N|From Lord Autumnvale.|PRE|48678|
-C Not the Bees!|QID|48680|M|59.44,21.96|S|N|Knock down the hives, kill the bees and burn the effigies.|
+C Not the Bees!|QID|48680|M|59.44,21.96|S|N|Bonus Objective - Knock down the hives, kill the bees and burn the effigies.|
 K Kill Barbthorn Queen|QID|48842|QO|1|M|58.89,18.62|N|Silver Elite to kill and loot for treasure and resources.|ITEM|155425|
 C Mind the Hives|QID|48679|M|60.60,17.43|N|Find Edwin in the back of the cave then drive back the Barbthorn Swarm.|
-C Not the Bees!|QID|48680|M|60.57,17.45|US|N|Finish this up before leaving the area.|
-T Not the Bees!|QID|48680|M|60.57,17.45|N|Autocompleted.|
+C Not the Bees!|QID|48680|M|60.57,17.45|US|N|Finish this bonus objective before leaving the area.|
+T Not the Bees!|QID|48680|M|60.57,17.45|N|Bonus Objective - Autocompleted.|
 T Mind the Hives|QID|48679|M|59.03,22.38|N|To Initiate Peony back at the wicker man.|
 A A Simple Sacrifice|QID|48682|M|59.10,22.40|N|From Initiate Peony.|PRE|48679|
 C A Simple Sacrifice|QID|48682|M|56.54,24.06|N|Go forward to another cave. Listen in and the kill Lord Autumnvale (when he becomes hostile) to Save Edwin, again|
@@ -298,9 +303,9 @@ C Teddies and Tea|QID|47289|QO|3|NC|M|56.29,38.15|N|On the porchrail by the thir
 T Teddies and Tea|QID|47289|M|56.26,38.21|N|To Abby Lewis standing right beside you.|
 A Kitty?|QID|47428|M|56.26,38.21|N|From Abby Lewis.|PRE|47289|
 T Kitty?|QID|47428|M|55.60,41.19|N|To Smoochums sitting on a rock with a backpack.|
-A The Accursed Thicket|QID|45972|M|55.60,41.19|N|Auto accepted Bonus quest.|PRE|47428|LVL|-120|
+A The Accursed Thicket|QID|45972|M|55.60,41.19|N|Bonus Objective - Autoaccepted.|PRE|47428|LVL|-120|
 A The Village of Glenbrook|QID|45079|M|55.60,41.19|N|From Glenbook Register.|
-C The Accursed Thicket|QID|45972|M|55.60,41.19|S|N|Burn charms, destroy fetishes and kill the accursed wildlife to complete the objective.|
+C The Accursed Thicket|QID|45972|M|55.60,41.19|S|N|Burn charms, destroy fetishes and kill the accursed wildlife to complete the bonus objective.|
 K Kill Gorehorn|QID|49480|QO|1|M|57.23,44.18|T|Gorehorn|N|Silver Elite to kill and loot for treasure and resources.|ITEM|158710|
 C The Village of Glenbrook|QID|45079|QO|2|M|57.17,46.43|CHAT|N|In a cave. Look at body of Jonathan Hayes and investigate. Then take the letter|
 C The Village of Glenbrook|QID|45079|QO|3|M|55.50,45.31|NC|N|Look at Samuel Hawthorne's axe on the ground.|
@@ -312,19 +317,20 @@ C Tea Party|QID|44785|QO|1|M|56.35,49.15|NC|N|Follow Abby Lewis.|
 C Tea Party|QID|44785|QO|2|M|58.18,47.91|NC|N|So sit down and drink tea.|
 K The Conjured Horror|QID|44785|QO|3|M|58.18,47.91|N|Kill Conjured Horror|T|Conjured Horror|
 T Tea Party|QID|44785|M|57.76,47.76|N|To Annie Warren.|
-C The Accursed Thicket|QID|45972|QO|1|M|58.18,47.91|US|N|Purge the woods|
-T The Accursed Thicket|QID|45972|M|58.18,47.91|N|Autocompleted.|
+C The Accursed Thicket|QID|45972|QO|1|M|58.18,47.91|US|N|Finish purging the woods for this bonus objective.|
+T The Accursed Thicket|QID|45972|M|58.18,47.91|N|Bonus Objective - Autocompleted.|
 
 K Kill Longfang/Henry Breakwater|QID|48981|QO|1|M|56.5,50.5;59.36,55.40|CS|ITEM|160468|N|Decide which of them to help and talk to them to offer your help. Silver Elite to kill for treasure and resources.|
 
-;Seeing Spirits (optinal)
+;Seeing Spirits (optional)
 
 A Seeing Spirits|QID|48475|M|62.61,42.99|N|From Caretaker Allen.|
-A Crypt Keepers|QID|48474|M|62.61,42.99|N|Autoaccept Bonus Quest|LVL|-120|
-C Crypt Keepers|QID|48474|M|62.61,42.99|S|N|Kill the enraged spirits and other wildlife, clean up the neglected gravestones and destroy corrupting circles to cleanse the cemetary.|
-C Seeing Spirits|QID|48475|QO|1|M|60.39,45.89|NC|N|Collect Gravebloom as you head further into the cemetary.|
+A Crypt Keepers|QID|48474|M|62.61,42.99|N|Bonus Objective - Autoaccepted.|LVL|-120|
+C Crypt Keepers|QID|48474|M|62.61,42.99|S|N|Kill the enraged spirits and other wildlife, clean up the neglected gravestones and destroy corrupting circles to cleanse the cemetery for this bonus objective.|
+C Seeing Spirits|QID|48475|QO|1|M|60.39,45.89|S|NC|N|Collect Graveblooma.|
 K Kill Nevermore|QID|49601|QO|1|M|59.96,45.52|N|Silver Elite to kill and loot for treasure and resources.|ITEM|160456|
-C Seeing Spirits|QID|48475|QO|2|M|59.99,45.85|NC|N|Create the salve with the graveblooms collected and this pot and apply it|
+C Seeing Spirits|QID|48475|QO|1|M|59.99,45.85|US|NC|N|Finish collecting the needed Graveblooms.|
+C Seeing Spirits|QID|48475|QO|2|M|59.99,45.85|NC|N|Click on the pot to create the salve out of the collected graveblooms and then apply it.|
 C Seeing Spirits|QID|48475|QO|3|M|60.76,46.63|NC|N|Click on Aaron Cresterly to free him|
 T Seeing Spirits|QID|48475|M|60.76,46.63|N|To Aaron Cresterly.|
 A Split Party|QID|48476|M|60.76,46.63|N|From Aaron Cresterly.|PRE|48475|
@@ -334,7 +340,7 @@ A Looking For One More|QID|48477|M|59.80,48.93|N|From Bridget Fairwater.|PRE|484
 C Looking For One More|QID|48477|M|58.84,50.70|N|Kill Sister Westwood.|
 T Looking For One More|QID|48477|M|59.50,51.22|N|To Mercy Fairwater.|
 C Crypt Keepers|QID|48474|M|61.70,44.16|US|N|Finish up the bonus objective before leaving the area.|
-T Crypt Keepers|QID|48474|M|61.70,44.16|N|Autocompleted.|
+T Crypt Keepers|QID|48474|M|61.70,44.16|N|Bonus  Objective - Autocompleted.|
 $ Emily Mayville|QID|49530|M|63.41,40.18|T|Emily Mayville|CHAT|N|Ask her why she is crying, ends with killing her - Silver Elite to loot for treasure and resources.|ITEM|160447|
 
 ;The Witch Trial
@@ -419,9 +425,9 @@ T Clear-Cutting|QID|49295|M|70.07,60.27|N|To Evelyn Pare.|
 A Hope They Can't Swim|QID|48519|M|70.07,60.27|N|From Evelyn Pare.|PRE|48518;49295|
 C Hope They Can't Swim|QID|48519|M|69.41,60.35|N|Hold the beach so the villagers can escape in the rowboat.|
 T Hope They Can't Swim|QID|48519|M|70.07,60.27|N|To Evelyn Pare.|
-A Break Them to Splinters|QID|48525|M|70.07,60.27|N|autoaccept - bonus quest|PRE|48519|LVL|-120|
+A Break Them to Splinters|QID|48525|M|70.07,60.27|N|Bonus Objective - Autoaccepted.|PRE|48519|LVL|-120|
 A The Three Sisters|QID|48520|M|70.07,60.27|N|From Evelyn Pare.|PRE|48519|
-C Break Them to Splinters|QID|48525|M|70.07,60.27|S|N|Kill stuff, pick up other stuff...|
+C Break Them to Splinters|QID|48525|M|70.07,60.27|S|N|Kill stuff, pick up other stuff...eventually the bonus objective gets done.|
 
 A Charming the Lifeless|QID|48521|M|70.04,62.94|N|From a Bladed Charm, lying on some bales.|
 C Charming the Lifeless|QID|48521|NC|S|N|Use the Charm to attempt to control a Dormant Ravager. (should take several trys)|U|152590|
@@ -438,8 +444,8 @@ A The Murderous Matron|QID|48523|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520;485
 A Culling the Coven|QID|48524|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520;48521;48522|
 C The Murderous Matron|QID|48523|QO|1|N|Click the Dormant Ravager to take control of it.|
 C Culling the Coven|QID|48524|S|N|While controlling the Dormant Ravager, run up to the Elderstone Mine and use the ravagers abilities to slay Heartsbane minions while traveling towards Matron Levae.|
-C Break Them to Splinters|QID|48525|M|69.17,61.32|US|N|Finish up the objective.|
-T Break Them to Splinters|QID|48525|M|69.17,61.32|N|Autocompleted.|
+C Break Them to Splinters|QID|48525|M|69.17,61.32|US|N|Finish up the bonus objective.|
+T Break Them to Splinters|QID|48525|M|69.17,61.32|N|Bonus Objective - Autocompleted.|
 C The Murderous Matron|QID|48523|QO|2|M|68.67,67.25|N|Slay Matron Levae.|
 C Culling the Coven|QID|48524|US|N|Finish killing Heartsbane minions while running out of the mine.|
 T The Murderous Matron|QID|48523|M|70.07,60.27|N|To Evelyn Pare.|
@@ -460,13 +466,13 @@ A A Slight Detour|QID|48941|M|69.67,43.27|N|From Lucille Waycrest.|
 
 A Gol Koval|QID|48947|M|69.52,43.71|N|From Auntie Amanda Hale.|LEAD|52074|
 R Wayward Thicket|QID|48181|M|47.93,48.96|N|Take this smaal path to the right afther you cross the bridge|
-A Nooooope|QID|48181|M|68.01,48.88|N|Autoaccept - bonus quest|LVL|-120|
+A Nooooope|QID|48181|M|68.01,48.88|N|Bonus Objective - Autoaccepted.|LVL|-120|
 C Nooooope|QID|48181|M|68.01,48.88|S|N|Trample spiderlings, break open egg sacs and kill the bigger spiders to clean up the thicket.|
 K Kill Bonesquall|QID|48978|QO|1|M|66.72,51.10|N|Silver Elite to kill and loot for treasure and resources.|ITEM|154376|
 T Gol Koval|QID|48947|M|64.66,54.77|N|To Rebecca Hale.|
 A Deliverance|QID|52074|M|64.66,54.77|N|From Rebecca Hale.|
-C Nooooope|QID|48181|M|63.43,58.08|US|N|Finish clearing out the thicket.|
-T Nooooope|QID|48181|M|63.43,58.08|US|N|Autocompleted.|
+C Nooooope|QID|48181|M|63.43,58.08|US|N|Finish up the bonus objective now if you plan to..|
+T Nooooope|QID|48181|M|63.43,58.08|US|N|Bonus Objective - Autocompleted.|
 T Deliverance|QID|52074|M|61.91,59.30|N|To Ranger Wons.|
 A Rescue Rangers|QID|48179|M|61.91,59.30|N|From Ranger Wons.|PRE|52074|
 A Boned|QID|52075|M|61.91,59.30|N|From Ranger Wons.|PRE|52074|
@@ -631,8 +637,8 @@ C Hold The Barricade!|QID|50177|QO|1|CHAT|N|Speak with Inquisitor Cleardawn. (wi
 C Hold The Barricade!|QID|50177|QO|2|N|Survive the Assault!|
 T Hold The Barricade!|QID|50177|M|25.77,70.27|N|To Inquisitor Cleardawn.|
 A So Long, Sister|QID|49939|M|25.77,70.27|N|From Inquisitor Cleardawn.|PRE|50177|
-A Village Repair|QID|50091|M|25.77,70.27|N|Bonus quest-autoaccepted.|PRE|50177|LVL|-120|
-C Village Repair|QID|50091|M|25.77,70.27|S|N|Destroy Charms and Banners, kill Briarthorn mobs.|
+A Village Repair|QID|50091|M|25.77,70.27|N|Bonus Objective - Autoaccepted.|PRE|50177|LVL|-120|
+C Village Repair|QID|50091|M|25.77,70.27|S|N|Destroy Charms and Banners, kill Briarthorn mobs to do this bonus objective.|
 C So Long, Sister|QID|49939|M|25.01,71.83|N|Slay Sister Noella Briarwood inside the house.|T|Sister Noella Briarwood|
 f Falconhurst|QID|50091|M|27.05,72.36|N|At Viviana Swailes.|
 T So Long, Sister|QID|49939|M|26.64,72.17|N|To Leandro Royston.|
@@ -651,8 +657,8 @@ C Building Defenses|QID|50090|QO|2|M|26.49,66.74|NC|N|Click on the defenses to p
 K Kill Whitney "Steelclaw" Ramsey|QID|51923|QO|1|M|28.29,66.55;27.92,66.32;28.03,65.28;29.46,64.18|CS|T|Whitney "Steelclaw" Ramsey|N|Silver Elite to kill for treasure and resources.|ITEM|154315|
 C WANTED: The Crimson Cutthroats|QID|51390|M|27.69,67.21;29.70,65.50|CS|N|They are all together in a cave.|
 K Kill Arclight|QID|51470|QO|1|M|29.03,68.69|T|Arclight|ITEM|160469|N|Below you on an island at waters' edge. Silver Elite to kill for treasure and resources.|
-C Village Repair|QID|50091|M|26.92,66.96|US|N|Stay and finish repairing the village.|
-T Village Repair|QID|50091|M|26.92,66.96|N|Autocompleted.|
+C Village Repair|QID|50091|M|26.92,66.96|US|N|Stay and finish repairing the village to complete this bonus objective.|
+T Village Repair|QID|50091|M|26.92,66.96|N|Bonus Objective - Autocompleted.|
 T Bramblethorn|QID|50238|M|26.98,71.34|N|To Lynn Sweet.|
 T Building Defenses|QID|50090|M|25.56,70.08|N|To Leandro Royston.|
 T WANTED: The Crimson Cutthroats|QID|51390|M|25.56,70.07|N|To Leandro Royston.|
@@ -820,8 +826,8 @@ C An Improvised Arsenal|QID|50253|M|31.90,29.72|QO|2|NC|N|Click on the scrapheap
 C An Improvised Arsenal|QID|50253|M|31.64,29.53|QO|3|NC|N|Place Hand cannon on the anvil and then wait a bit for Angus to be done.|
 T An Improvised Arsenal|QID|50253|M|31.73,29.56|N|To Angus Ballaster.|
 
-A Reclaiming Corlain|QID|50448|M|31.73,29.56|N|Auto accepted bonus quest|LVL|-120|
-C Reclaiming Corlain|QID|50448|M|31.73,29.56|S|N|Kill stuff, destroy stuff, the usual.|
+A Reclaiming Corlain|QID|50448|M|31.73,29.56|N|Bonus Objective - Autoaccepted.|LVL|-120|
+C Reclaiming Corlain|QID|50448|M|31.73,29.56|S|N|Bonus Objective - Kill stuff, destroy stuff, the usual.|
 A Witchrending|QID|50446|M|31.43,30.25|N|From Lucille Waycrest.|PRE|50253|
 A To Have Loved and Lost|QID|50754|M|31.43,30.25|N|From Lucille Waycrest.|PRE|50253|
 A WANTED: Sister Lilias|QID|51356|M|31.75,30.80|N|From wanted poster.|PRE|50253|
@@ -846,8 +852,8 @@ K Kill Haywire Golem|QID|51698|QO|1|M|24.13,30.33|ITEM|155362|T|Haywire Golem|N|
 
 C Witchrending|QID|50446|M|27.51,29.56|QO|3|N|Slay Matron Letitia.|
 C Remembering the Fallen|QID|50447|M|26.71,31.51|US|NC|N|Finish collecting Personal Keepsakes.|
-C Reclaiming Corlain|QID|50448|M|31.25,29.88|US|N|Time to complete bonus quest.|
-T Reclaiming Corlain|QID|50448|M|31.25,29.88|N|Autocompleted.|
+C Reclaiming Corlain|QID|50448|M|31.25,29.88|US|N|Time to complete bonus objective.|
+T Reclaiming Corlain|QID|50448|M|31.25,29.88|N|Bonus Objective - Autocompleted.|
 
 T Potent Protection|QID|50452|M|31.46,30.31|N|To Lucille Waycrest.|
 T Witchrending|QID|50446|M|31.46,30.31|N|To Lucille Waycrest.|
