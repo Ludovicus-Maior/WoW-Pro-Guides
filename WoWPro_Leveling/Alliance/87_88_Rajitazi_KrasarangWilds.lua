@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2018-08-22 23:37
+-- Who: jovieve
+-- Log: Removed comparison operator in QO in favor of simpler form.
+
+-- URL: http://wow-pro.com/node/3488/revisions/29571/view
+-- Date: 2018-08-22 23:17
+-- Who: jovieve
+-- Log: Updated old style QO to new one with comparison operator.
+
+-- URL: http://wow-pro.com/node/3488/revisions/29185/view
 -- Date: 2018-02-26 22:58
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -299,7 +309,7 @@ T Particular Plumage|QID|30667|M|51.67,75.30|N|To Tony Tuna.|
 T Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.53,76.85|N|To Jay Cloudfall.|
 A Build Your Own Raft|QID|30668|PRE|30666|M|51.53,76.85|N|From Jay Cloudfall.|
 C Pick up kelp|QID|30668|NC|QO|2|M|52.25,77.78|; Tough Kelp: 1/1
-C Pick up wood|QID|30668|NC|QO|Spare Plank: 4/4|M|52.36,76.21|
+C Pick up wood|QID|30668|NC|QO|1|M|52.36,76.21|
 T Build Your Own Raft|QID|30668|M|51.53,76.85|N|To Jay Cloudfall.|
 A The Lorewalker on the Lake|QID|30669|PRE|30668|M|51.53,76.85|N|From Jay Cloudfall.|
 C The Lorewalker on the Lake|QID|30669|M|51.69,76.53;46.02,78.95|CS|N|Hop on your raft and head out to see the Lorewalker. When you jump, it makes the raft go faster.|
