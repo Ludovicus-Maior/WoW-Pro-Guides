@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2018-08-23 03:55
+-- Who: jovieve
+-- Log: Removed unnecessary old style QO tag.
+
+-- URL: http://wow-pro.com/node/3405/revisions/28373/view
 -- Date: 2017-03-15 20:33
 -- Who: Ludovicus_Maior
 -- Log: LudoEbonBlade PRE tags
