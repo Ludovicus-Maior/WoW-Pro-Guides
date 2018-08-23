@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2018-08-23 19:35
+-- Who: Emmaleah
+-- Log: Update old style QOs
+
+-- URL: http://wow-pro.com/node/3221/revisions/29198/view
 -- Date: 2018-02-27 17:41
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip
@@ -297,9 +302,9 @@ T Attack on Zeb'Tela|QID|9276|M|72.34,31.33|N|To Farstrider Solanna.|
 A Assault on Zeb'Nowa|QID|9277|PRE|9276|M|72.34,31.33|N|From Farstrider Solanna.|
 C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|S|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|S|N|Kill Catlords and Hexxers till you get 3 Hexxer Staves and 3 Catlord Claws.|
-U Poison the Fresh Fish Rack|ACTIVE|9275|U|22796|QO|Poison the Fresh Fish Rack: 1/1|M|68.22,57.85|N|Poison the Fresh Fish Rack inside the hut.|
-U Poison the Smoked Meat Rack|ACTIVE|9275|U|22796|QO|Poison the Raw Meat Rack: 1/1|M|65.06,66.73|N|Poison the Raw Meat Rack.|
-C A Little Dash of Seasoning|QID|9275|M|62.82,75.13|N|Poison the Smoked Meat Rack.|
+U Poison the Fresh Fish Rack|ACTIVE|9275|U|22796|QO|3|M|68.22,57.85|N|Poison the Fresh Fish Rack inside the hut.|
+U Poison the Smoked Meat Rack|ACTIVE|9275|U|22796|QO|1|M|65.06,66.73|N|Poison the Raw Meat Rack.|
+C A Little Dash of Seasoning|QID|9275|M|62.82,75.13|QO|2|NC|N|Poison the Smoked Meat Rack.|
 K Bring Me Kel'gash's Head!|QID|9215|QO|1|M|65.33,79.51|N|If you feel that you can kill Kel'gash, or if you have help, go ahead and try. He is stunnable and silenceable.|
 C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|US|N|Kill Catlords and Hexxers till you get 3 Hexxer Staves and 3 Catlord Claws.|
