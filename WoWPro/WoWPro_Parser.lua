@@ -608,8 +608,17 @@ function WoWPro.SemiMatch(big,little)
 	local possible = select("#", string.split(",", big))
 	for j=1,possible do
 		local jpossible = select(possible-j+1, string.split(",", big))
-		if jpossible == little then
+		local flip
+		if string.sub(jpossible,1,1) == "-" then
+		    flip = true
+		    jpossible = string.sub(jpossible,2)
+		else
+		    flip = false
+		end
+		if (not flip) and (jpossible == little) then
 			return true
+		elseif flip and (jpossible == little) then
+		    return false
 		end
 	end
     return false
