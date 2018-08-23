@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2018-08-22 23:41
+-- Who: jovieve
+-- Log: Updated old style QO.
+
+-- URL: http://wow-pro.com/node/3291/revisions/29056/view
 -- Date: 2018-02-20 01:26
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -505,8 +510,8 @@ C Through Fields of Flame |QID|12418|N|Kill 6 Frigid Necromancers, they can be f
 T Through Fields of Flame |QID|12418|N|To Ceristrasz.|M|52.00,50.00|
 A The Steward of Wyrmrest Temple |QID|12768|PRE|12418|M|52.2,50.0|N|From Ceristrasz.|
 
-K Wastes Scavengers |QID|12498|QO|Wastes Scavenger slain: 30/30|U|38302|N|Summon your Wyrmrest Vanquisher, fly north to Galakrond's Rest . Go down in the pit and use Ability #1 and #2 to kill Wastes Scavengers (you can actually use both at the same time). Whenever your drake needs mana or healing, use Ability #3 while being close to a Wastes Scavenger. Kill 30 Wastes Scavenger that way.|M|56.00,35.00|
-C On Ruby Wings |QID|12498|U|38302|N|Then go to the peak at the northwestern tip of Galakron's Rest, kill the big giant called Thiassi and then land next to his corpse and dismount. Get ready to fight Grand Necrolord Antiok, a level 75 warlock. After he dies, the Scythe of Antiok will appear on the floor. Loot it.|M|54.50,31.30|
+K Wastes Scavengers |QID|12498|QO|1|U|38302|N|Summon your Wyrmrest Vanquisher, fly north to Galakrond's Rest . Go down in the pit and use Ability #1 and #2 to kill Wastes Scavengers (you can actually use both at the same time). Whenever your drake needs mana or healing, use Ability #3 while being close to a Wastes Scavenger. Kill 30 Wastes Scavenger that way.|M|56.00,35.00|
+C On Ruby Wings |QID|12498|QO|2|U|38302|N|Then go to the peak at the northwestern tip of Galakron's Rest, kill the big giant called Thiassi and then land next to his corpse and dismount. Get ready to fight Grand Necrolord Antiok, a level 75 warlock. After he dies, the Scythe of Antiok will appear on the floor. Loot it.|M|54.50,31.30|
 K Reanimated Frost Wyrm |QID|12459|QO|1|US|U|37887|N|This is a good spot to be able to kill this mob.|M|55.2,45.7|
 
 C Nozzlerust Defense |QID|12043|S|N|Kill the needed mobs.|M|57.00,28.00|
