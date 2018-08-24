@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2018-08-24 15:17
+-- Who: Ludovicus_Maior
+-- Log: Fix QOs for [Friends, Not Food!]
+
+-- URL: http://wow-pro.com/node/3501/revisions/29598/view
+-- Date: 2018-08-24 15:09
+-- Who: Ludovicus_Maior
+-- Log: Amend QOs on [A Morale Victory] and [Fumigation]
+
+-- URL: http://wow-pro.com/node/3501/revisions/28989/view
 -- Date: 2018-02-19 22:51
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -207,17 +217,19 @@ N Achievement Opportunity|ACH|7307|ACTIVE|31197|N|To earn the Achievement Silent
 C The Bigger They Come...|QID|31197|M|18,48|U|86536|S|N|These are located all over the Island. The Elite Kunchong in the feeding pits do NOT count, nor do the Swarmlords. Only the Sra'thik Will-Breakers, Sra'thik Deathmixers, Sra'thik Swarm-Leaders and Sra'thik Vessguards count.|
 C Sra'vess Wetwork|QID|31196|M|18,48|U|90006|S|N|Any non elite counts. These are located all over the Island.|
 N A Morale Victory|QID|31198|N|You may want to hotkey the items from the bag of Wu Kao Supplies, especially if you are going for the Silent Assassin Achievement.|
-C A Morale Victory|QID|31198|M|27.83,41.93|QO|Eastern idol: 1/1|
-C A Morale Victory|QID|31198|M|21.50,49.24|QO|Central idol: 1/1|
-C A Morale Victory|QID|31198|M|23.52,55.64|QO|Southern idol: 1/1|
-C A Morale Victory|QID|31198|M|16.19,46.04|QO|Western idol: 1/1|
-C Fumigation|QID|31200|M|20.70,45.93|QO|Amber Vault bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
-C Fumigation|QID|31200|M|23.8,47.3|QO|Nutriment Cell bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
-C Fumigation|QID|31200|M|23.6,44.7|QO|Egg Chamber bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
-C Fumigation|QID|31200|M|22.0,41.5|QO|Torture Cell bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
-C Fumigation|QID|31200|M|21.2,43.2|QO|Slaughtering Pit bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
+C Eastern idol|QID|31198|M|27.83,41.93|QO|4|
+C Central idol|QID|31198|M|21.50,49.24|QO|3|
+C Southern idol|QID|31198|M|23.52,55.64|QO|1|
+C Western idol|QID|31198|M|16.19,46.04|QO|2|
+C Amber Vault bombed|QID|31200|M|20.70,45.93|QO|1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
+C Nutriment Cell bombed|QID|31200|M|23.8,47.3|QO|2|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
+C Egg Chamber bombed|QID|31200|M|23.6,44.7|QO|3|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
+C Torture Cell bombed|QID|31200|M|22.0,41.5|QO|4|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
+C Slaughtering Pit bombed|QID|31200|M|21.2,43.2|QO|5|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
 C Destroy the Siege Weapons!|QID|31199|M|27.54,54.72;25.75,53.59;26.03,39.94;27.14,41.23|CN|NC|U|86536|N|The Wu Kao Supplies can come in handy here to avoid extras.|
-C Friends, Not Food!|QID|31201|M|18,53;18.01,58.14;17.57,58.03|CN|NC|QO|Shado-Pan Trainee at Southern Feeding Pit freed: 1/1|N|The swarming insects is a debuff that will dismount you. Avoid the big bugs.|
+C Southern Feeding Pit|QID|31201|M|18,53;18.01,58.14;17.57,58.03|CN|NC|QO|3|N|The swarming insects is a debuff that will dismount you. Avoid the big bugs.|
+C Central Feeding Pit|QID|31201|M|17.4,56.8|NC|QO|2|N|The swarming insects is a debuff that will dismount you. Avoid the big bugs.|
+C Northern Feeding Pit|QID|31201|M|18,53.4|NC|QO|1|N|The swarming insects is a debuff that will dismount you. Avoid the big bugs.|
 C Sra'vess Wetwork|QID|31196|M|18,48|U|90006|US|N|Any non elite counts. These are located all over the Island.|
 C The Bigger They Come...|QID|31197|M|18,48|U|86536|US|N|These are located all over the Island. The Elite Kunchong in the feeding pits do NOT count, nor do the Swarmlords. Only the Sra'thik Will-Breakers, Sra'thik Deathmixers, Sra'thik Swarm-Leaders and Sra'thik Vessguards count.|
 N Achievement Opportunity|ACH|7307|ACTIVE|31197|N|To earn the Achievement Silent Assassin, you MUST NOT be mounted when you turn in the quests. Dismount, wait a few seconds to make sure the game knows you have, then turn in. Manually check this off once you dismount.|
