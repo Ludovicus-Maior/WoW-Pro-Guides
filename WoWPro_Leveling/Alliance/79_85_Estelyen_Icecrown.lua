@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2018-08-24 14:59
+-- Who: Ludovicus_Maior
+-- Log: Add QO's for [Bloodspattered Banners]
+
+-- URL: http://wow-pro.com/node/3301/revisions/29059/view
 -- Date: 2018-02-20 01:30
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -315,12 +320,12 @@ A The Ironwall Rampart|QID|13337|N|Another 5-Man quest. From Thassarian.|
 A Bloodspattered Banners|QID|13334|N|From Thassarian.|
 A Get the Message|QID|13314|N|From High Captain Justin Bartlett. He's inside the back/rear/stern/aft part of the Skybreaker, just walk straight in from the main deck.|
 C The Ironwall Rampart|QID|13337|U|44186|N|Use the item near Grimkor's Orb to summon Grimkor the Wicked, kill him.|M|45.43,46.46|
-K Converted Heroes|QID|13334|QO|Converted Hero slain: 20/20|N|Kill Converted Heroes.|S|
+K Converted Heroes|QID|13334|QO|2|N|Kill Converted Heroes.|S|
 K Scourge Banner-Bearers|QID|13334|S|QO|1|N|Kill Scourge Banner-Bearers.|M|43.40,50.40|; Scourge Banner-Bearer slain: 5/5
 C Get the Message|QID|13314|U|44222|N|Shoot down Orgrim's Hammer Scouts flying around this area, you can use the dart while flying yourself, just dive after them to collect your reward.|M|43.40,53.40|
 K Scourge Banner-Bearers|QID|13334|US|QO|1|N|Kill Scourge Banner-Bearers.|M|43.40,50.40|; Scourge Banner-Bearer slain: 5/5
-K Converted Heroes|QID|13334|QO|Converted Hero slain: 20/20|N|Kill Converted Heroes.|M|43.40,50.40|US|
-C Bloodspattered Banners|QID|13334|N|Kill Scourge Converters, they are more to the northeast.|M|49.80,41.20|
+K Converted Heroes|QID|13334|QO|2|N|Kill Converted Heroes.|M|43.40,50.40|US|
+K Scourge Converters|QID|13334|QO|3|N|Kill Scourge Converters, they are more to the northeast.|M|49.80,41.20|
 T Get the Message|QID|13314|N|To High Captain Justin Bartlett. He's inside the back/rear/stern/aft part of the Skybreaker, just walk straight in from the main deck.|
 T The Ironwall Rampart|QID|13337|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T Bloodspattered Banners |QID|13334|N|To Thassarian.|
