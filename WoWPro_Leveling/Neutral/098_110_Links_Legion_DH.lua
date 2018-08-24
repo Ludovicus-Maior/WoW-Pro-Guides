@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_artifact_and_class_hall
+-- Date: 2018-08-24 15:33
+-- Who: Ludovicus_Maior
+-- Log: Broke up [The Invasion of Niskara] into individual QO steps with numbers.
+
+-- URL: http://wow-pro.com/node/3685/revisions/29445/view
 -- Date: 2018-07-21 02:00
 -- Who: Chromaflo
 -- Log: Making changes to the Quest Jump-Capable to work again with the waypoints. Added the scenario The Invasion of Niskara. Changing some of the |Z| Tags to the new Map_ID System of Blizzard. And some minor changes of a few coordinates.
@@ -404,7 +409,11 @@ C Commence Bombardment!|M|33.30,40.00|Z|Niskara|SO|1|N|Man the artillery console
 C Demon slain|M|37.12,52.65|Z|Niskara|SO|1;1|N|Demon slain|
 C Glide Down to the Rendezvous|M|33.53,42.12;49.70,46.00|CC|Z|Niskara|SO|2|N|Speak with Kayn Sunfury to deploy your forces and then use your Glide ability to get down to the rendezvous point below.|
 C Fel Cannon destroyed|M|37.12,52.65|Z|Niskara|SO|1;2|N|Fel Cannon destroyed|
-C The Invasion of Niskara|QID|42920|M|49.50,46.20|Z|Niskara|QO|1/1 Control Console activated;1/1 Jump to Niskara;0/1 Caria Felsoul slain;0/1 Varedis Felsoul slain|N|Use your Doublejump ability to glide down to the rendezvous poin1t|
+N Apologies|QID|42920|N|The coordinates for the next few steps have been messsed up in BFA.  We will send a DH down soon to correct them. Click to continue.|
+C Control Console activated|QID|42920|M|49.50,46.20|Z|Niskara|QO|1|N|Use your Doublejump ability to glide down to the rendezvous point|
+C Jump to Niskara|QID|42920|M|49.50,46.20|Z|Niskara|QO|2|N|Use your Doublejump ability to glide down to the rendezvous point|
+C Caria Felsoul slain|QID|42920|M|49.50,46.20|Z|Niskara|QO|5|N|Use your Doublejump ability to glide down to the rendezvous point|
+C Varedis Felsoul slain|QID|42920|M|49.50,46.20|Z|Niskara|QO|6|N|Use your Doublejump ability to glide down to the rendezvous point|
 C Speak with Kayn and then Glide down to the rendezvous|M|49.51,46.21|Z|Niskara|SO|2;1|N|Speak with Kayn and then Glide down to the rendezvous|
 C Otherworld Portals destroyed|M|51.76,55.27;56.27,55.74;58.77,67.95;60.00,55.00;66.55,52.70|CC|Z|Niskara|SO|3|S|N|Otherworld Portals destroyed|
 C Carnivore slain|M|54.08,52.25|Z|Niskara|SO|3;2|N|Carnivore slain|
