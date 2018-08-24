@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
+-- Date: 2018-08-24 15:49
+-- Who: Ludovicus_Maior
+-- Log: Added QO's for [Underground Economy]
+
+-- URL: http://wow-pro.com/node/3419/revisions/28330/view
 -- Date: 2017-03-10 23:32
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
@@ -75,10 +80,10 @@ C Fear of Boring|QID|27046|S|M|58.35,25.56|N|Kill gyreworms in and around the Cr
 C Motes|QID|27047|NC|S|M|66.43,20.61|N|Gather painite motes inside the Crumbling Depths.|
 A Underground Economy|QID|27048;28488;26710|M|61.38,26.16|N|From Ricket.|
 C Beneath the Surface|QID|28488|M|58.46,25.57;61.32,29.20;66.07,28.13;59.80,23.63;64.40,15.11;68.23,21.67;67.08,24.65|CN|N|These are found in side tunnels.  Look on your minimap for a skull. When you find one, click it and kill the worm that appears, being sure to dodge it's attacks. Loot it when you are done.|
-C Deep Alabaster Crystal|QID|27048|NC|QO|Deep Alabaster Crystal: 3/3|N|Head to the center chamber. Use your bombs on the large square blocks of white stone.|M|63.43,24.83|
-C Deep Celestite Crystal|QID|27048|NC|QO|Deep Celestite Crystal: 3/3|N|Use your bombs on the large square blocks of blue stone.|M|62.16,19.63|
-C Deep Amethyst Crystal|QID|27048|NC|QO|Deep Amethyst Crystal: 3/3|N|Use your bombs on the large square blocks of purple stone|M|64.68,18.17|
-C Deep Garnet Crystal|QID|27048|NC|QO|Deep Garnet Crystal: 3/3|N|Use your bombs on the large square blocks of red stone. Watch out for the large named spider, Amthea.|M|66.13,20.73|
+C Deep Alabaster Crystal|QID|27048|NC|QO|1|N|Head to the center chamber. Use your bombs on the large square blocks of white stone.|M|63.43,24.83|
+C Deep Celestite Crystal|QID|27048|NC|QO|2|N|Use your bombs on the large square blocks of blue stone.|M|62.16,19.63|
+C Deep Amethyst Crystal|QID|27048|NC|QO|3|N|Use your bombs on the large square blocks of purple stone|M|64.68,18.17|
+C Deep Garnet Crystal|QID|27048|NC|QO|4|N|Use your bombs on the large square blocks of red stone. Watch out for the large named spider, Amthea.|M|66.13,20.73|
 C Motes|QID|27047|NC|US|M|66.43,20.61|N|Gather painite motes inside the Crumbling Depths.|
 C Fear of Boring|QID|27046|US|M|58.35,25.56|N|Kill gyreworms in and arround the Crumbling Depths.|
 T Underground Economy|QID|27048|M|61.38,26.13|N|To Ricket.|
