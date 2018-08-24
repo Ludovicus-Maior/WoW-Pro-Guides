@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/skyguard_dalies
+-- Date: 2018-08-24 16:21
+-- Who: Ludovicus_Maior
+-- Log: Updated QO's on [Secrets of the Talonpriests]
+
+-- URL: http://wow-pro.com/node/3457/revisions/28999/view
 -- Date: 2018-02-19 23:03
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -84,9 +89,9 @@ F Terokkar Forest|N|Get back to the Forest|
 
 A Secrets of the Talonpriests|QID|11005|PRE|11004|M|64.0,66.8|N|From Sky Commander Adaris|
 U Elixir of Shadows|QID|11005|M|69.2,78.2|U|32446|N|Gives you 20 minutes of the buff.  If you run out, farm more Shadowdust and get another Elixer from Severin.|
-K Talonpriest Ishaal|QID|11005|M|69.2,78.2|QO|Talonpriest Ishaal slain|N|Loot his Almanac.  |
-K Talonpriest Skizzik|QID|11005|M|69.88,82.29|QO|Talonpriest Skizzik slain|
-K Talonpriest Zellek|QID|11005|M|70.20,74.63|QO|Talonpriest Zellek slain|
+K Talonpriest Ishaal|QID|11005|M|69.2,78.2|QO|1|N|Loot his Almanac.  |
+K Talonpriest Skizzik|QID|11005|M|69.88,82.29|QO|2|
+K Talonpriest Zellek|QID|11005|M|70.20,74.63|QO|3|
 N Time-Lost Scrolls|QID|11005|N|While you have the buff, use the rest of the time to kill ghost birds and get as many Time-Lost Scrolls as you can.|
 T Secrets of the Talonpriests|QID|11005|M|64.0,66.8|N|To Sky Commander Adaris|
 U Ishaal's Almanac|QID|11005|U|32523|N|Get the quest from the Almanac and click off this step|
