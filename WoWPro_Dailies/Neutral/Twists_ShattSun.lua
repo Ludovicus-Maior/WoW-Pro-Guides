@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
+-- Date: 2018-08-24 16:18
+-- Who: Ludovicus_Maior
+-- Log: Updated QOs for [Know Your Ley Lines]
+
+-- URL: http://wow-pro.com/node/3470/revisions/29001/view
 -- Date: 2018-02-19 23:07
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -108,7 +113,7 @@ C Disrupt the Greengill Coast|QID|11541|N|Release Murlocs.|U|34483|S|
 C Don't Stop Now....|QID|11536|N|Open Boxes.|S|
 K Darkspine Myrmidon|QID|11536|N|You need keys.|L|34477 3|US|
 
-C Know Your Ley Lines|QID|11547|M|61.16,62.36|QO|Shrine Reading Taken: 1/1|U|34533|
+C Shrine Reading|QID|11547|M|61.16,62.36|QO|2|U|34533|
 C Disrupt the Greengill Coast|QID|11541|N|Release Murlocs.|U|34483|US|
 C Don't Stop Now....|QID|11536|N|Open Boxes.|US|
 
@@ -120,11 +125,11 @@ A Crush the Dawnblade|QID|11540|M|49.4,40.2|N|From Magister Ilastar|
 A The Battle Must Go On|QID|11537|M|47.68,34.98|N|From Harbinger Inuuro.|
 
 C The Battle Must Go On|QID|11537|N|Plant the banner after Killing the large one, Emissary of Hate.|U|34414|S|
-C Know Your Ley Lines|QID|11547|M|48.53,44.47|QO|Portal Reading Taken: 1/1|U|34533|
+C Portal Reading|QID|11547|M|48.53,44.47|QO|2|U|34533|
 C The Battle Must Go On|QID|11537|N|Plant the banner after Killing the large one, Emissary of Hate.|U|34414|US|
 
 C Crush the Dawnblade|QID|11540|M|42.23,36.07;44.53,40.67;45.50,38.08;41.87,42.46;42.69,35.97;43.02,38.13;40.56,40.19;40.59,37.04;41.99,33.95|Z|Isle of Quel'Danas|CN|N|Slay!|
-C Know Your Ley Lines|QID|11547|M|42.23,36.07|U|34533|
+C Bloodcrystal Reading|QID|11547|M|42.23,36.07|U|34533|QO|3|
 
 T Crush the Dawnblade|QID|11540|M|49.4,40.2|Z|Isle of Quel'Danas|N|From Magister Ilastar|
 A Keeping the Enemy at Bay|QID|11543|M|50.54,39.03|N|From Vindicator Kaalan.|
