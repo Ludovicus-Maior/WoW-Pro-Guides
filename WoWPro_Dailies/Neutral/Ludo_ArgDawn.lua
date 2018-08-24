@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
+-- Date: 2018-08-24 16:04
+-- Who: Ludovicus_Maior
+-- Log: Cleaned up QOs on [Troll Patrol: High Standards]
+
+-- URL: http://wow-pro.com/node/3479/revisions/28334/view
 -- Date: 2017-03-11 18:20
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
