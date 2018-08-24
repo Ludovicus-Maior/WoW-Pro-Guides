@@ -629,9 +629,9 @@ function WoWPro:LogLocation()
     local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
 
     if not (x and y) then
-        WoWPro:print("Player [?,?@%d/%d] '%s' aka '%s'", mapId, mapType, WoWPro.GetZoneText(), GetZoneText() )
+        WoWPro:print("Player [?,?@%d/%d] WPZone=%q, Zone=%q, SubZone=%q", mapId, mapType, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText() )
     else
-        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", x*100 , y*100, mapId, mapType, WoWPro.GetZoneText(), GetZoneText() )
+        WoWPro:print("Player [%.2f,%.2f@%d/%d] WPZone=%q, Zone=%q, SubZone=%q", x*100 , y*100, mapId, mapType, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText() )
     end
 end
 

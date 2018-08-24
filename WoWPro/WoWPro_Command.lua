@@ -12,10 +12,10 @@ local function handler(msg, editbox)
     if ltoken == "where" then
         local X, Y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
         if (not X) or (not Y) then
-            local msg = string.format("Player at ?@%s", WoWPro.GetZoneText())
+            local msg = string.format("Player at ?@%q aka %q aka %q", WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText())
             ChatFrame1:AddMessage(msg)
         else
-            local msg = string.format("Player at %.2f,%.2f@%s", X*100, Y*100, WoWPro.GetZoneText())
+            local msg = string.format("Player at %.2f,%.2f@%q aka %q aka %q", X*100, Y*100, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText())
             ChatFrame1:AddMessage(msg)
         end
     elseif ltoken == 'etrace-start' then
