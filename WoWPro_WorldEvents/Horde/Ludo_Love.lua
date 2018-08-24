@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2018-08-24 08:42
+-- Who: Emmaleah
+-- Log: update old style QOs
+
+-- URL: http://wow-pro.com/node/3467/revisions/29550/view
 -- Date: 2018-08-18 21:04
 -- Who: Ludovicus_Maior
 -- Log: Fix L step that should have been an l step.
@@ -98,9 +103,9 @@ A Snivel's Sweetheart|QID|24850|PRE|24541|M|50.79,75.29|Z|Orgrimmar|N|From Detec
 T Snivel's Sweetheart|QID|24850|M|57.6,60.78|Z|Orgrimmar|N|To Roka, at the Bag Shop, in The Drag|
 
 A Hot On The Trail|QID|24851|PRE|24850|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
-C Hot On The Trail|QID|24851|M|48.8,83.0|Z|Orgrimmar|N|Look for him at the Bank|QO|Orgrimmar Bank searched: 1/1|
-C Hot On The Trail|QID|24851|M|53.7,73.7|Z|Orgrimmar|N|Look for him at the Auction House|QO|Orgrimmar Auction House searched: 1/1|
-C Hot On The Trail|QID|24851|M|40.1,60.5|Z|Orgrimmar|N|Look for him at the Barber Shop|QO|Orgrimmar Barber Shop searched: 1/1|
+C Hot On The Trail|QID|24851|M|48.8,83.0|Z|Orgrimmar|N|Look for him at the Bank|QO|1|
+C Hot On The Trail|QID|24851|M|53.7,73.7|Z|Orgrimmar|N|Look for him at the Auction House|QO|2|
+C Hot On The Trail|QID|24851|M|40.1,60.5|Z|Orgrimmar|N|Look for him at the Barber Shop|QO|3|
 T Hot On The Trail|QID|24851|M|57.6,60.78|Z|Orgrimmar|N|To Roka|
 
 A A Friendly Chat...|QID|24576|PRE|24851|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
