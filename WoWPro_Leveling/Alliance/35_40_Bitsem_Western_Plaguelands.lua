@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2018-08-23 23:43
+-- Who: jovieve
+-- Log: Removed old style QO since step has a CS tag.
+
+-- URL: http://wow-pro.com/node/3244/revisions/29171/view
 -- Date: 2018-02-26 21:38
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -348,7 +353,7 @@ C Taelan Fordring's Legacy|QID|27151|M|54.78,24.69|N|Kill the Redpine Looters.|
 T Taelan Fordring's Legacy|QID|27151|M|54.99,24.73|N|(UI Alert)|
 
 A Unusual Behavior... Even For Gnolls|QID|27152|PRE|27151|M|54.99,24.73|N|(UI Alert)|
-R Unusual Behavior... Even For Gnolls|QID|27152|NC|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Follow the arrows up the path to investigate the Gnoll Camp.|QO|Gnoll camp investigated|
+R Unusual Behavior... Even For Gnolls|QID|27152|NC|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Follow the arrows up the path to investigate the Gnoll Camp.|
 C Unusual Behavior... Even For Gnolls|QID|27152|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Kill Moldfang.|QO|1|T|Moldfang|; Moldfang slain: 1/1
 T Unusual Behavior... Even For Gnolls|QID|27152|M|57.28,35.71|N|(UI Alert)|
 
