@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2018-08-24 00:52
+-- Who: jovieve
+-- Log: Removed old style QO tag and fixed weird A step per Ludo's recommendation. Thanks, Ludo!
+
+-- URL: http://wow-pro.com/node/3206/revisions/29010/view
 -- Date: 2018-02-19 23:16
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -389,7 +394,8 @@ A Warn Your People|QID|9622|PRE|9566;9570;9573|N|From High Chief Stillpine.|M|46
 T The Kurken's Hide|QID|9571|M|44.8,23.9|N|To Moordo.|
 
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|M|35,13|S|
-A Gurf's Dignity|CN|QID|9564|N|Look for the boss murloc named Murgurgula. Kill it, loot Gurf's Dignity from him and accept its quest|M|35,13;33.45,27.04|QO|Murgugula slain: 1/1|L|23850|
+K Murgugula|AVAILABLE|9564|L|23850|M|35,13;33.45,27.04|CN|N|Look for the boss murloc named Murgurgula between the two waypoints. Kill him, loot Gurf's Dignity from him, and accept its quest.|
+A Gurf's Dignity|QID|9564|N|From Gurf's Dignity|U|23850|
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|M|35,13|US|
 T Murlocs... Why Here? Why Now?|QID|9562|N|To Gurf.|M|44.7,23.6|
 T Gurf's Dignity|QID|9564|M|44.7,23.6|N|To Gurf.|
