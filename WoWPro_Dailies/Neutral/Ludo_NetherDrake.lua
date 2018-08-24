@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
+-- Date: 2018-08-24 15:55
+-- Who: Ludovicus_Maior
+-- Log: Updated old style QO's.
+
+-- URL: http://wow-pro.com/node/3455/revisions/28995/view
 -- Date: 2018-02-19 22:57
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -184,12 +189,13 @@ A The Netherwing Mines|QID|11075|M|66.12,86.36|REP|Netherwing;1015;friendly-reve
 
 A The Booterang: A Cure For The Common Worthless Peon|QID|11055|REP|Netherwing;1015;friendly-revered|M|66.84,86.10|N|From Chief Overseer Mudlump.|
 
-C A Slow Death|QID|11020|M|65.0,65.6;67.6,69.0;71.6,66.0;56.8,75.6;59.0,69.6;55.0,68.0|CN|L|32502 12|N|Kill Netherskates and Greater Felfire Diemetradons for their Fel Glands|QO|Fel Gland: 12/12|
+C A Slow Death|QID|11020|M|65.0,65.6;67.6,69.0;71.6,66.0;56.8,75.6;59.0,69.6;55.0,68.0|CN|L|32502 12|N|Kill Netherskates and Greater Felfire Diemetradons for their Fel Glands|
 C The Not-So-Friendly Skies...|QID|11035|M|71.55,75.08;74.43,75.65|CN|L|32509 10|N|Kill Dragonmaw Transporters and loot the relics.|
 
-U A Slow Death|QID|11020|U|32503|N|Find Dragonmaw Peon Camps and drop the mutton|S|QO|Dragonmaw Peon Camp Poisoned: 12/12|
-U The Booterang: A Cure For The Common Worthless Peon|QID|11055|U|32680|N|Look for 20 lazy Dragonmaw Peons|S|QO|Dragonmaw Peon Disciplined: 20/20|
-U A Slow Death|QID|11020|U|32503|N|Find Dragonmaw Peon Camps and drop the mutton|US|QO|Dragonmaw Peon Camp Poisoned: 12/12|
+U Dragonmaw Peons Poisoned|QID|11020|U|32503|N|Find Dragonmaw Peon Camps and drop the mutton|S|QO|1|
+U Dragonmaw Peons Disciplined|QID|11055|U|32680|N|Look for 20 lazy Dragonmaw Peons|S|QO|1|
+U Dragonmaw Peons Disciplined|QID|11055|U|32680|N|Look for 20 lazy Dragonmaw Peons|US|QO|1|
+U Dragonmaw Peons Poisoned|QID|11020|U|32503|N|Find Dragonmaw Peon Camps and drop the mutton|US|QO|1|
 
 T A Slow Death|QID|11020|M|66.0,86.47|N|To Yarzill the Merc.|
 T The Not-So-Friendly Skies...|QID|11035|PRE|11019|M|66.0,86.47|N|From Yarzill the Merc.|
