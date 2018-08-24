@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2018-08-23 19:42
+-- Who: Emmaleah
+-- Log: update old style QOs
+
+-- URL: http://wow-pro.com/node/3292/revisions/29111/view
 -- Date: 2018-02-22 23:06
 -- Who: Ludovicus_EditBot
 
@@ -407,7 +412,7 @@ C A Means to an End |QID|12240|U|37300|N|Head northwest to the lumbermill, use t
 C No Mercy for the Captured |QID|12245|N|The last prisoner, Senior Scrivener Barriga is northeast.|M|69.4,74.0|
 C Bombard the Ballistae|QID|12232|U|37259|M|73.3,67.6|US|N|Finish destroying Ballistas.|
 l Onslaught Riding Crop |QID|12214|L|37202|N|Make sure you kill the Knight, and not the horse. Loot the Riding Crop.|T|Onslaught Knight|
-C Fresh Remounts|QID|12214|QO|Scarlet Onslaught Warhorse reins handed over: 1/3|U|37202|N|Target the horse and use the riding crop. Then ride back to Venomspite and use ability 1 to deliver the horse to Hansel Bauer.|M|75.9,61.9|
+C Fresh Remounts|QID|12214|QO|1=0|U|37202|NC|N|Target the horse and use the riding crop. Then ride back to Venomspite and use ability 1 to deliver the horse to Hansel Bauer.|M|75.9,61.9|
 T Bombard the Ballistae |QID|12232|M|77.5,62.0|N|To Deathguard Molder.|
 T A Means to an End |QID|12240|M|77.0,62.9|N|To Apothecary Vicky Levine.|
 
@@ -435,7 +440,7 @@ T A Fall From Grace |QID|12274|N|To Argent Skully.|M|73.6,73.5|
 A The Truth Will Out |QID|12283|M|73.6,73.5|PRE|12274|N|From Argent Skully.|
 C The Truth Will Out |QID|12283|N|The diary is on the upper floor of the house next to the chapel where Bishop Street was.|M|68.28,76.97|
 l Onslaught Riding Crop |QID|12214|L|37202|N|Make sure you kill the Knight, and not the horse. Loot the Riding Crop.|T|Onslaught Knight|
-C Fresh Remounts |QID|12214|QO|Scarlet Onslaught Warhorse reins handed over: 2/3|U|37202|N|Target the horse and use the riding crop. Then ride back to Venomspite and use ability 1 to deliver the horse to Hansel Bauer. |M|75.9,61.9|
+C Fresh Remounts |QID|12214|QO|1=1|U|37202|NC|N|Target the horse and use the riding crop. Then ride back to Venomspite and use ability 1 to deliver the horse to Hansel Bauer. |M|75.9,61.9|
 T Fire Upon the Waters |QID|12243|M|77.0,62.9|N|To Apothecary Vicky Levine.|
 T Torture the Torturer |QID|12252|M|76.8,63.3|N|To High Executor Wroth.|
 T The Rod of Compulsion |QID|12271|M|76.8,63.3|N|To High Executor Wroth.|
@@ -449,7 +454,7 @@ N Commander Jordan |QID|12273|QO|1|U|37438|N|Use the rod of compulsion, then fin
 N Stable Master Mercer |QID|12273|QO|4|U|37438|N|Use the rod of compulsion, then finish him off. He's at the stables. |M|68,75|; Stable Master Mercer's denouncement & death: 1/1
 C The Denouncement |QID|12273|U|37438|N|Use the rod of compulsion, then finish him off. He's halfway down to the coast by all the cannons. |M|73,78|
 l Onslaught Riding Crop |QID|12214|L|37202|N|Make sure you kill the Knight, and not the horse. Loot the Riding Crop.|T|Onslaught Knight|
-C Fresh Remounts |QID|12214|U|37202|N|Use the Riding crop on the horse and ride it back to Hansel Bauer. Use ability 1 to hand the final horse in. |M|75.9,61.9|
+C Fresh Remounts |QID|12214|U|37202|NC|N|Use the Riding crop on the horse and ride it back to Hansel Bauer. Use ability 1 to hand the final horse in. |M|75.9,61.9|
 T Fresh Remounts |QID|12214|M|75.9,61.9|N|To Hansei Bauer.|
 T The Denouncement |QID|12273|M|76.8,63.3|N|To High Executor Wroth.|
 T Do Unto Others |QID|12285|M|70.0,76.0|N|To High Executor Wroth.|

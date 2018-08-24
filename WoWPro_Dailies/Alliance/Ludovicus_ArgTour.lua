@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2018-08-24 01:03
+-- Who: jovieve
+-- Log: Updated old style QO tags. Also added kiss emote to the T tag in A Blade Fit for a Champion.
+
+-- URL: http://wow-pro.com/node/3476/revisions/28985/view
 -- Date: 2018-02-19 22:48
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -84,18 +89,18 @@ A The Seer's Crystal|QID|13641|PRE|13633+13634|M|69.43,23.02|N|Crusader Rhydalla
 C The Seer's Crystal|QID|13641|M|46, 42|Z|Crystalsong Forest|N|Kill Unbound Seer's to get the crystal.|
 T The Seer's Crystal|QID|13641|M|69.4,23.0|N|Crusader Rhydalla|
 A The Stories Dead Men Tell|QID|13643|PRE|13641|M|69.43,23.02|N|Crusader Rhydalla|
-C The Stories Dead Men Tell|QID|13643|M|79.37,23.09|QO|Sir Wendell Balfour's death investigated: 1/1|NC|N|Sir Wendell Balfour.|
-C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|Lorien Sunblaze's death investigated: 1/1|NC|N|Lorien Sunblaze|
-C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|Conall Irongrip's death investigated: 1/1|NC|N|Conall Irongrip|
+C The Stories Dead Men Tell|QID|13643|M|79.37,23.09|QO|1|NC|N|Sir Wendell Balfour|
+C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|2|NC|N|Lorien Sunblaze|
+C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|3|NC|N|Conall Irongrip|
 T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|Crusader Rhydalla|
 A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|Crusader Rhydalla|
 C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|N|Kill Skeletal Woodcutters until you get a Large Femur.|L|45080|
 C There's Something About the Squire|QID|13654|M|38.3,59.4|Z|Crystalsong Forest|N|Sneak behind Maloric and use the Large Femur to bonk him. His bag will be looted automatically.  Run away!|U|45080|
 T There's Something About the Squire|QID|13654|M|69.43,23.02|N|Crusader Rhydalla|
 A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|Crusader Rhydalla.|
-C The Black Knight's Orders|QID|13663|M|77.76,21.61|N|Go here and use the enchanted bridle.|U|45083|QO|Black Knight's Gryphon taken: 1/1|
-C The Black Knight's Orders|QID|13663|M|54.11,8.63|QO|Stolen Tournament Invitation: 1/1|N|Get the Stolen Invite|
-C The Black Knight's Orders|QID|13663|M|54.07,8.66|QO|Black Knight's Orders: 1/1|N|Get the Orders|
+C The Black Knight's Orders|QID|13663|M|77.76,21.61|N|Go here and use the enchanted bridle.|U|45083|QO|1|
+C The Black Knight's Orders|QID|13663|M|54.11,8.63|QO|2|N|Get the Stolen Invite|
+C The Black Knight's Orders|QID|13663|M|54.07,8.66|QO|3|N|Get the Orders|
 T The Black Knight's Orders|QID|13663|M|69.43,23.02|N|Crusader Rhydalla.|
 A The Black Knight's Fall|QID|13664|PRE|13663|M|69.43,23.02|N|Crusader Rhydalla.|
 C The Black Knight's Fall|QID|13664|M|72.27,22.55|N|Go to the ring of Champions. Equip your lance and mount up on a Stabled Argent Warhorse. Click when done.|
@@ -115,7 +120,7 @@ A Training In The Field|QID|13671|M|76.44,19.35|N|From Avareth Swiftstrike.|
 
 C Learning The Reins|QID|13625|N|Mount up and go practice on the fields.|U|46069|
 C Training In The Field|QID|13671|M|70, 62|N|Equil your regular weapon and go kill any Scourge|
-C A Blade Fit For A Champion|QID|13666|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
+C A Blade Fit For A Champion|QID|13666|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog,kiss|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
 C A Worthy Weapon|QID|13669|M|68.75,76.38;72.62,73.12;70.56,74.71|L|194213 4|CN|N|Pick flowers along the Ironwall Dam.|
 C A Worthy Weapon|QID|13669|M|93,26|Z|Dragonblight|U|194213|N|Use the stack of flowers within the circle outlined with the purple floating boys. Loot the sword.|L|44978|
 C The Edge Of Winter|QID|13670|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|

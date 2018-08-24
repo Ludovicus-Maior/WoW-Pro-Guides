@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2018-08-24 00:52
+-- Who: jovieve
+-- Log: Removed old style QO tag and fixed weird A step per Ludo's recommendation. Thanks, Ludo!
+
+-- URL: http://wow-pro.com/node/3206/revisions/29010/view
 -- Date: 2018-02-19 23:16
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags

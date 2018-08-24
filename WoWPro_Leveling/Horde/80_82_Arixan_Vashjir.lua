@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2018-08-24 08:39
+-- Who: Emmaleah
+-- Log: To correct old style QOs
+
+-- URL: http://wow-pro.com/node/3306/revisions/29115/view
 -- Date: 2018-02-22 23:12
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -460,7 +465,7 @@ A Swift Approach|QID|25953|RANK|1|M|51.25,63|Z|Shimmering Expanse|N|From Legionn
 A A Better Vantage|QID|25955|RANK|1|M|51.25,63|Z|Shimmering Expanse|N|From Captian Vilethorn.|
 A Caught Off-Guard|QID|25952|RANK|1|M|51.25,63|Z|Shimmering Expanse|N|From Captian Vilethorn.|
 
-C Caught Off-Guard|QID|25952|S|QO|Azsh'ir Patroller slain: 10/10|M|39.7,67.6|Z|Shimmering Expanse|N|Kill Azsh'ir Patrollers.|
+C Caught Off-Guard|QID|25952|S|M|39.7,67.6|Z|Shimmering Expanse|N|Kill Azsh'ir Patrollers.|
 C Swift Approach|QID|25953|M|40.3,62.3|QO|1|Z|Shimmering Expanse|N|Destroy Azsh'ir Monitors.|S|; Azsh'ir Monitor destroyed: 8/8
 N Northern Quel'Dormir Gardens scouted|QID|25955|QO|1|Z|Shimmering Expanse|N|Scout the Northern Quel'Dormir Gardens.|M|39.14,56.49|; Northern Quel'Dormir Gardens scouted: 1/1
 N Tunnel west of Quel'Dormir Gardens scouted|QID|25955|QO|2|Z|Shimmering Expanse|N|Scout the Tunnel west of the Quel'Dormir Gardens.|M|34.3,62.5|; Tunnel west of Quel'Dormir Gardens scouted: 1/1
@@ -470,7 +475,7 @@ N An Occupation of Time|QID|25954|QO|4|M|38.5,66|Z|Shimmering Expanse|N|Investig
 C Ranger Valarian statue|QID|25954|QO|3|M|39.7,67.8|Z|Shimmering Expanse|N|Investigate the Lestharia Vashj statue.|; Ranger Valarian statue: 1/1
 C Swift Approach|QID|25953|M|40.3,62.3|QO|1|Z|Shimmering Expanse|N|Destroy Azsh'ir Monitors.|US|; Azsh'ir Monitor destroyed: 8/8
 C A Better Vantage|QID|25955|QO|3|Z|Shimmering Expanse|N|Scout the Structures South of the Quel'Dormir Gardens.|M|39.22,75.46|; Structures south of Quel'Dormir Gardens scouted: 1/1
-C Caught Off-Guard|QID|25952|US|QO|Azsh'ir Patroller slain: 10/10|M|39.7,67.6|Z|Shimmering Expanse|N|Kill remaining Azsh'ir Patrollers.|
+C Caught Off-Guard|QID|25952|US|M|39.7,67.6|Z|Shimmering Expanse|N|Kill remaining Azsh'ir Patrollers.|
 l Ancient Elven Etching|QID|27717|L|62282|N|If you have not gotten this, keep killing Azsh'ir Patrollers and Infantry until it drops. It's optional though, so if it doesn't drop and you're tired of killing nagas, just skip this step and the follow up quest: Piece of the Past.|M|39.7,67.6|Z|Shimmering Expanse|
 A Piece of the Past|QID|27717|U|62282|N|Accept the quest from the Etching.|M|39.7,67.6|Z|Shimmering Expanse|
 
@@ -718,7 +723,7 @@ C Fiends from the Netherworld|QID|26133|M|33.3,49.4|S|Z|Abyssal Depths|N|Swim do
 K Ur'Goz|QID|26130|M|36.4,46.8|Z|Abyssal Depths|QO|1|N|Kill Ur'Goz.|; Ur'Goz slain: 1/1
 K Sku'Bu|QID|26130|M|34.4,54.2|Z|Abyssal Depths|QO|2|N|Kill Sku'Bu.|; Sku'Bu slain: 1/1
 C Unplug L'ghorek|QID|26130|M|29.7,52.7|Z|Abyssal Depths|QO|3|N|Kill Neph'Lahim.|; Neph'Lahim slain: 1/1
-C Fiends from the Netherworld|QID|26133|QO|Nether Fiend slain: 12/12|M|33.3,49.4|US|Z|Abyssal Depths|N|Kill remaining Nether Fiends.|
+C Fiends from the Netherworld|QID|26133|M|33.3,49.4|US|Z|Abyssal Depths|N|Kill remaining Nether Fiends.|
 T Fiends from the Netherworld|QID|26133|M|42.7,37.9|Z|Abyssal Depths|N|To Legionnaire Nazgrim.|
 T Unplug L'ghorek|QID|26130|M|42.7,37.8|Z|Abyssal Depths|N|To Erunak Stonespeaker.|
 
@@ -756,7 +761,7 @@ A Back to the Tenebrous Cavern|QID|26182|RANK|1|M|38.7,44.8|Z|Abyssal Depths|N|F
 T Back to the Tenebrous Cavern|QID|26182|M|59.37,56.46;51.60,60.74|Z|Abyssal Depths|CS|N|To Erunak Stonespeaker.|
 
 A Defending the Rift|QID|26194|RANK|1|Z|Abyssal Depths|N|From Erunak Stonespeaker.|
-C Defending the Rift|QID|26194|QO|Fight in the Battle for the Abyssal Breach: 1/1|Z|Abyssal Depths|N|Speak to Erunak again and tell him you are ready to enter the battle.|
+C Defending the Rift|QID|26194|Z|Abyssal Depths|CHAT|N|Speak to Erunak again and tell him you are ready to enter the battle.|
 T Defending the Rift|QID|26194|M|69.7,34.5|Z|Abyssal Depths|N|To Legionnaire Nazgrim. End of this region.|
 
 ]]

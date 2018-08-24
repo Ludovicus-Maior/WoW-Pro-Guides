@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2018-08-23 23:33
+-- Who: jovieve
+-- Log: Updated old style QO tags.
+
+-- URL: http://wow-pro.com/node/3466/revisions/29548/view
 -- Date: 2018-08-18 21:02
 -- Who: Ludovicus_Maior
 -- Log: Correct L step to l step.
@@ -94,9 +99,9 @@ A Fireworks At The Gilded Rose|QID|24848|PRE|24656|M|61.50,75.29|Z|Stormwind Cit
 T Fireworks At The Gilded Rose|QID|24848|M|60.62,76.38|Z|Stormwind City|N|To Marion Sutton|
 
 A Hot On The Trail|QID|24849|PRE|24848|M|60.62,76.38|Z|Stormwind City|N|From Marion Sutton|
-C Hot On The Trail|QID|24849|M|62.9,78.4|Z|Stormwind City|N|Look for him at the Bank|QO|Stormwind Counting House searched: 1/1|
-C Hot On The Trail|QID|24849|M|61.4,71.4|Z|Stormwind City|N|Look for him at the Auction House|QO|Stormwind Auction House searched: 1/1|
-C Hot On The Trail|QID|24849|M|61.5,64.6|Z|Stormwind City|N|Look for him at the Barber Shop|QO|Stormwind Barber Shop House searched: 1/1|
+C Stormwind Counting House|QID|24849|M|62.9,78.4|Z|Stormwind City|N|Look for Snivel Rustrocket at the bank.|QO|1|
+C Stormwind Auction House|QID|24849|M|61.4,71.4|Z|Stormwind City|N|Look for Snivel Rustrocket at the Auction House.|QO|2|
+C Stormwind Barber Shop|QID|24849|M|61.5,64.6|Z|Stormwind City|N|Look for Snivel Rustrocket at the Barber Shop.|QO|3|
 T Hot On The Trail|QID|24849|M|60.62,76.38|Z|Stormwind City|N|To Marion Sutton|
 
 A A Friendly Chat...|QID|24657|PRE|24849|M|60.62,76.38|Z|Stormwind City|N|From Marion Sutton|

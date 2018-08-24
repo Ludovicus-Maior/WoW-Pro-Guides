@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2018-08-23 18:52
+-- Who: Emmaleah
+-- Log: Remove old style QOs, Change Akiris by the bundle to -Goblin, to add support for new allied races.
+
+-- URL: http://wow-pro.com/node/3238/revisions/29203/view
 -- Date: 2018-02-27 17:44
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -110,13 +115,13 @@ return [[
 f Hardwrench Hideaway|QID|26404|M|35.15,29.24|N|At Hizzle.|
 T Above My Pay Grade|QID|26404|M|34.79,29.49|N|To Sassy Hardwrench.|
 A It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|From Sassy Hardwrench.|
-A Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead|M|34.76,29.54|N|From Sassy Hardwrench.|
+A Akiris by the Bundle|QID|26487|R|-Goblin|M|34.76,29.54|N|From Sassy Hardwrench.|
 A If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.81,29.58|N|From Sassy Hardwrench.|
 A The Holy Water of Clarity|QID|26433;26590|M|33.73,29.16|N|From Flem Gizzix.|
 h Hardwrench Hideaway|QID|26433|M|35.07,27.20|N|At Innkeeper Draxle.|
 
 C It's You!!|QID|26489|R|Goblin|S|QO|Akiris Reed: 0/6|
-C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead,Pandaren|S|QO|Akiris Reed: 0/6|
+C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead,Pandaren|S|
 C If They're Just Going to Leave Them Lying Around...|QID|26450|S|
 C The Holy Water of Clarity|QID|26433;26590|M|43.84,49.10|N|Work your way up the winding paths of the naga hills.|
 C If They're Just Going to Leave Them Lying Around...|QID|26450|US|M|42.56,50.32|
@@ -157,7 +162,7 @@ A Let's See What You've Got, Zanzil|QID|26534|PRE|26533|M|35.15,27.51|N|From Mix
 C Let's See What You've Got, Zanzil|QID|26534|M|35.81,30.23|N|All of these guys are in a hut. Talk to them in turn (Do Orgus Last)|
 T Let's See What You've Got, Zanzil|QID|26534|M|35.16,27.52|N|To Mixmaster Jasper.|
 A Recipe for Disaster|QID|26535|PRE|26534|M|35.16,27.52|N|From Mixmaster Jasper.|
-R Ruins of Aboraz|QID|26535|QO|Zanzil's Formulation: 0/1|M|63.50,41.46|
+R Ruins of Aboraz|QID|26535|M|63.50,41.46|
 C Recipe for Disaster|QID|26535|M|60.58,41.35|N|From the witch doctors.|
 C Eliminate the Outcast|QID|26551|U|58964|M|61.25,43.13|
 T Eliminate the Outcast|QID|26551|M|61.33,42.83|N|UI Alert|

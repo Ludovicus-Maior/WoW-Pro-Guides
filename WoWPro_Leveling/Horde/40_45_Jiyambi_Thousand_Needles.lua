@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
+-- Date: 2018-08-23 19:17
+-- Who: Emmaleah
+-- Log: update old style QO
+
+-- URL: http://wow-pro.com/node/3254/revisions/29205/view
 -- Date: 2018-02-27 17:46
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip
@@ -164,12 +169,12 @@ T Haunted|RANK|2|QID|25660|M|96.81,72.39|N|To Ajamon Ghostcaller.|
 A With a Little Help...|RANK|2|QID|25661|PRE|25660|M|96.81,72.39|N|From Ajamon Ghostcaller.|
 ;L=>QO
 K Evil Dolly|QID|25661|QO|1|M|91.03,68.93|N|Kill Evil Dolly and loot her heart, in the Captain's Room (middle of ship) on the most northern boat.|
-K Seadog Fajardo|QID|25661|QO|2|M|88.09,73.92|N|Kill Seadog Fajardo on the next ship just inside the middle cabin and loot his lungs.  To get onto the boat, find the Rope Ladder and climb it.|
+K Seadog Fajardo|QID|25661|QO|2|M|88.09,73.92|N|Kill Seadog Fajardo on the next ship just inside the middle cabin and loot his lungs. To get onto the boat, find the Rope Ladder and climb it.|
 C With a Little Help...|QID|25661|QO|3|M|88.46,77.03|N|Kill Lilly Landlubber on the southern most ship at the wheel (top) and loot her Liver, again using the Rope Ladder to get onto the ship.|
 T With a Little Help...|RANK|2|QID|25661|M|96.94,72.45|N|To Ajamon Ghostcaller.|
 A Carcass Collection|RANK|2|QID|25672|PRE|25661|M|96.82,72.50|N|From Ajamon Ghostcaller.|
 
-C Carcass Collection|RANK|2|QID|25672|NC|M|83.37,82.65|QO|Creature Carcass: 5/10|N|You'll find five turtle carcasses floating on top of the water. We'll finish the quest in a bit.|
+C Carcass Collection|RANK|2|QID|25672|NC|M|83.37,82.65|QO|1<5|N|You'll find five turtle carcasses floating on top of the water. We'll finish the quest in a bit.|
 T Special Delivery for Brivelthwerp|RANK|2|QID|28042|M|69.95,85.18|N|To Brivelthwerp.|
 A The Greatest Flavor in the World!|RANK|2|QID|28045|PRE|28031+28042|M|69.95,85.18|N|From Brivelthwerp.|
 A We All Scream for Ice Cream... and then Die!|RANK|2|QID|28051|PRE|28031+28042|M|69.86,85.09|N|From Brivelthwerp.|
