@@ -258,6 +258,7 @@ DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("LVL","level","number",nil,nil)
 DefineTag("T","target","string",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
+DefineTag("NOCACHE", "nocache","boolean",nil,nil)
 
 -- Conditionals
 DefineTag("REP","rep","string",nil,nil)
@@ -851,6 +852,11 @@ function WoWPro.SetupGuideReal()
         if (action == ";") or (action == '!') then
             WoWPro.why[i] = action .. " step completed by WoWPro.SetupGuideReal() as processed by default."
             WoWProCharDB.Guide[GID].completion[i] = WoWPro.why[i]
+        end
+        local nocache = WoWPro.nocache[i]
+        if nocache then
+             WoWProCharDB.Guide[GID].completion[i] = false
+             WoWPro.why[step] = "Uncompleted because NOCACHE was specified."
         end
     end
 
