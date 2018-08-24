@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2018-08-23 23:58
+-- Who: jovieve
+-- Log: Updated old style QO tag and added T tag to that quest since Wowhead comments said targeting was hard in that quest. Also removed initial note that referred to quests no longer in game.
+
+-- URL: http://wow-pro.com/node/3311/revisions/29183/view
 -- Date: 2018-02-26 22:56
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -167,7 +172,7 @@ WoWPro:GuideIcon(guide,"ACH",4866)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Stormwind City |QID|28716|N|The questing will begin in Stormwind City, where you have a dozen quests around Stormwind City before being whisked off to the Twilight Highlands.|
+R Stormwind City |QID|28716|N|The questing will begin in Stormwind City.|
 
 A Hero's Call: Twilight Highlands!|QID|28716|LEAD|28238|M|62.90,71.78|N|From the Message boards at either end of town.|Z|Stormwind City|
 T Hero's Call: Twilight Highlands!|QID|28716|M|85.62,31.93|N|To King Anduin Wrynn.|Z|Stormwind City|
@@ -337,7 +342,7 @@ A Personal Request|QID|27816|PRE|27812;27815|M|57.42,58.15|N|From Iain Firebeard
 T Personal Request|QID|27816|M|60.13,57.84|N|To Keegan Firebeard.|
 
 A Dropping the Hammer|QID|27817|PRE|27816|M|60.13,57.84|N|From Keegan Firebeard.|
-C Dropping the Hammer|QID|27817|QO|Twilight Stormbender slain: 12/12|M|58.77,52.06|N|Mount up on one of the gryphons. Target Stormbenders and hit 1. Hit 2 if you get zapped.|
+C Dropping the Hammer|QID|27817|QO|1|M|58.77,52.06|N|Mount up on one of the gryphons. Target Stormbenders and hit 1. Hit 2 if you get zapped.|T|Twilight Stormbender|
 C Dropping the Hammer|QID|27817|N|Target Servias Windterror. Use 1 and 2 to bring down his health. When you are dismounted, finish him off. Avoid his power surges.|T|Servias Windterror|
 T Dropping the Hammer|QID|27817|M|60.10,57.78|N|To Keegan Firebeard.|
 
