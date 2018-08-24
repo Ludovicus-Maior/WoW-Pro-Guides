@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2018-08-24 16:34
+-- Who: Ludovicus_Maior
+-- Log: Fixed QOs on [Caught Unawares] and [How Hot]
+
+-- URL: http://wow-pro.com/node/3469/revisions/28991/view
 -- Date: 2018-02-19 22:54
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -147,9 +152,9 @@ T A Ritual of Flame|QID|29195|N|At Malfurion Stormrage.|Z|Mount Hyjal|M|27.40,55
 A To the Sanctuary!|QID|29196|PRE|29195|N|From Malfurion Stormrage.|Z|Mount Hyjal|M|27.40,55.20|
 T To the Sanctuary!|QID|29196|N|Back at Matoclaw down below.|Z|Mount Hyjal|M|27.17,62.54|
 A Caught Unawares|QID|29197|PRE|29196|N|From Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
-C Caught Unawares|QID|29197|QO|Kill elementals near Thisalee: 6/6|N|Fly over to Thisalee Crow and help her against the Elementals.|Z|Mount Hyjal|M|24.40,55.80|
-C Caught Unawares|QID|29197|QO|Kill elementals near Elderlimb: 6/6|N|Next is the Ancient Elderlimb, help him fight off the Elementals.|Z|Mount Hyjal|M|33.95, 57.54|
-C Caught Unawares|QID|29197|QO|Kill elementals near Tholo and Anren: 6/6|N|Finally, help Tholo and Angren defend themselves.|Z|Mount Hyjal|M|41.40,56.40|
+C Thisalee Elementals|QID|29197|QO|2|N|Fly over to Thisalee Crow and help her against the Elementals.|Z|Mount Hyjal|M|24.40,55.80|
+C Elderlimb Elementals|QID|29197|QO|1|N|Next is the Ancient Elderlimb, help him fight off the Elementals.|Z|Mount Hyjal|M|33.95, 57.54|
+C Tholo's and Anren's Elementals|QID|29197|QO|3|N|Finally, help Tholo and Angren defend themselves.|Z|Mount Hyjal|M|41.40,56.40|
 T Caught Unawares|QID|29197|N|At Arch Druid Hamuul Runetotem at the Sanctuary of Malorne.|Z|Mount Hyjal|M|27.00,62.60|
 A The Sanctuary Must Not Fall|QID|29198|PRE|29197|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
 C The Sanctuary Must Not Fall|QID|29198|N|You don't actually need to do anything for this quest. Just watch as the Ancient gets resurrected after a few moments.|Z|Mount Hyjal|
@@ -364,9 +369,9 @@ C Territorial Birds|QID|29296|N|Kill Fire Hawks.|S|
 C Singed Wings|QID|29293|N|Search for Injured Druids of the Talon and click on them to heal them.|S|
 C The Bigger They Are|QID|29295|N|Kill Obsidium Punishers and collect the sparkling rocks that spawn around them when they die.|S|
 C Starting Young|QID|29288|N|Look for Fire hawk Hatchlings lying on the ground near lava lakes, it's almost impossible to collect those up in the air.|S|
-C How Hot|QID|29273|QO|Northeastern Lava Pool sampled: 1/1|U|69806|N|Go to the Northeastern Lava Pool and use the thermometer.|Z|MoltenFront|M|29.88,30.58|
-C How Hot|QID|29273|QO|Northwestern Lava Pool sampled: 1/1|U|69806|N|Go to the Northwestern Lava Pool and use the thermometer.|Z|MoltenFront|M|20.24,30.05|
-C How Hot|QID|29273|U|69806|N|Climb to the top of the volcano and use the thermometer on the Central Lava Pool.|Z|MoltenFront|M|23.09,40.58|
+C Northeastern Lava Pool|QID|29273|QO|2|U|69806|N|Go to the Northeastern Lava Pool and use the thermometer.|Z|MoltenFront|M|29.88,30.58|
+C Northwestern Lava Pool|QID|29273|QO|1|U|69806|N|Go to the Northwestern Lava Pool and use the thermometer.|Z|MoltenFront|M|20.24,30.05|
+C Central Lava Pool|QID|29273|QO|3|U|69806|N|Climb to the top of the volcano and use the thermometer on the Central Lava Pool.|Z|MoltenFront|M|23.09,40.58|
 C Mother's Malice|QID|29289|N|You need to kill the Firehawk Matriarch at the top of the volcano for this quest. The author of this guide never got this quest however and is not sure whether it is still in the game at all, so it would be nice if you dropped a comment on wowpro.com about how to do this quest if you get it.|Z|MoltenFront|M|23.09,40.58|
 C Peaked Interest|QID|29287|N|At the top of the volcano, steal one of the eggs. The Matriarch will aggro, you can fight her if you want, or simply run away.|Z|MoltenFront|M|23.09,40.58|
 C Starting Young|QID|29288|N|Look for Fire hawk Hatchlings lying on the ground near lava lakes, it's almost impossible to collect those up in the air. There might be a flock of them at the top of the volcano if you're lucky, but they spawn in other places on Fireplume Peak as well.|Z|MoltenFront|M|23.09,40.58|US|
