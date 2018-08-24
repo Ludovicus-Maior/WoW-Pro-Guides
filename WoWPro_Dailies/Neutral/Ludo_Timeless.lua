@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2018-08-24 16:13
+-- Who: Ludovicus_Maior
+-- Log: Converted old style QOs.
+
+-- URL: http://wow-pro.com/node/3561/revisions/29544/view
 -- Date: 2018-08-18 20:54
 -- Who: Ludovicus_Maior
 -- Log: Change bogus L steps to K steps for "Great Chef Woo"'s quests.
@@ -103,15 +108,15 @@ T Time Keeper Kairoz|QID|33156;33160|M|34.54,53.63|N|To Kairoz.|
 
 A Time In Your Hands|QID|33228|M|34.54,53.63|PRE|33156+33160|N|From Kairoz.|
 A A Timeless Tour|QID|33161|M|34.54,53.63|PRE|33156+33160|N|From Kairoz.|
-C Meet Meet Mistweaver Ai|QID|33228|M|42.69,55.72|QO|Meet Mistweaver Ai: 1/1|N|Head up the South stairs and then across the Court. The chat with her.|
-C Meet Mistweaver Ku|QID|33228|M|42.71,54.68|QO|Meet Mistweaver Ku: 1/1|N|Chat with him.|
+C Meet Meet Mistweaver Ai|QID|33228|M|42.69,55.72|QO|2|N|Head up the South stairs and then across the Court. The chat with her.|
+C Meet Mistweaver Ku|QID|33228|M|42.71,54.68|QO|3|N|Chat with him.|
 N Tushui Landing|QID|33161|M|23.07,71.04|FACTION|Horde|N|This is where the Alliance NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
-C Old Pi'jiu|QID|33161|M|37.3,72.2|QO|Old Pi'jiu: 1/1|
-C Firewalker Ruins|QID|33161|M|47.2, 78.5|QO|Firewalker Ruins: 1/1|
-C Red Stone Run|QID|33161|M|58.01,66.99|QO|Red Stone Run: 1/1|
-C Croaking Hollow|QID|33161|M|67.6, 66.7|QO|Croaking Hollow: 1/1|
-C Cavern of Lost Spirits|QID|33161|M|43.36,40.59|QO|Cavern of Lost Spirits: 1/1|
-C Misty Strand|QID|33161|M|29.4,28.9|QO|Misty Strand: 1/1|
+C Old Pi'jiu|QID|33161|M|37.3,72.2|QO|5|
+C Firewalker Ruins|QID|33161|M|47.2, 78.5|QO|3|
+C Red Stone Run|QID|33161|M|58.01,66.99|QO|6|
+C Croaking Hollow|QID|33161|M|67.6, 66.7|QO|2|
+C Cavern of Lost Spirits|QID|33161|M|43.36,40.59|QO|1|
+C Misty Strand|QID|33161|M|29.4,28.9|QO|4|
 N Huojin Landing|QID|33161|M|21.8,39.8|FACTION|Alliance|N|This is where the Horde NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
 N Albatross up High|QID|33161|M|33.88,55.22|ACTIVE|33161|N|Learn to ride a bird and where it goes. Target an Albatross, attack, and it will pick you up. Beat it down to near death and it will move on. If you use AOE abilities, you may get taken by another bird. When you get back to where you started, kill it. Slow falls, parachutes, etc. are helpful.\nFeral Druids: You must use [Might of Ursoc] or [Prowl] or [Dash] to force the shapeshift.|T|Highwind Albatross|
 R Inkeeper|QID|33161|M|36.59,46.83|N|Say hello to Graceful Swan, your Innkeeper.|T|Graceful Swan|
