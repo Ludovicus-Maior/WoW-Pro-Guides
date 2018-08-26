@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-08-26 09:07
+-- Who: jovieve
+-- Log: Updated note about quest giver.
+
+-- URL: http://wow-pro.com/node/3766/revisions/29557/view
 -- Date: 2018-08-19 10:41
 -- Who: Emmaleah
 
@@ -112,7 +117,7 @@ C The Aid of the Loa|QID|47188|M|39.14,79.08|CHAT|N|Listen to Talanji and Rokhan
 T The Aid of the Loa|QID|47188|M|39.14,79.08|N|To Princess Talanji.|
 A The Shadow of Death|QID|47241|M|39.14,79.08|N|From Princess Talanji.|PRE|47188|
 
-A WANTED: Tojek|QID|51089|M|39.56,79.94|N|From Princess Talanji.|RANK|2|
+A WANTED: Tojek|QID|51089|M|39.56,79.94|N|From Scouting Map.|RANK|2|
 A Urok, Terror of the Wetlands|QID|48669|M|38.84,77.70|N|From Sur'jan.|RANK|2|PRE|47188|
 C Urok, Terror of the Wetlands|QID|48669|M|38.55,77.36|NC|N|Observe Urok, Terror of the Wetlands.|
 T Urok, Terror of the Wetlands|QID|48669|M|38.83,77.71|N|To Sur'jan.|
