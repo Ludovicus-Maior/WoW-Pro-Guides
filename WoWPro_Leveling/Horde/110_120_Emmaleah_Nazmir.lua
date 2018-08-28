@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-08-27 23:38
+-- Who: jovieve
+-- Log: Moved step for killing Xak'lar to after taking the boat ride in Down by the Riverside. (It was 2000 yards away before the ride. It's 200 yards away after the ride.)
+
+-- URL: http://wow-pro.com/node/3766/revisions/29614/view
+-- Date: 2018-08-26 09:07
+-- Who: jovieve
+-- Log: Updated note about quest giver.
+
+-- URL: http://wow-pro.com/node/3766/revisions/29557/view
 -- Date: 2018-08-19 10:41
 -- Who: Emmaleah
 
@@ -112,7 +122,7 @@ C The Aid of the Loa|QID|47188|M|39.14,79.08|CHAT|N|Listen to Talanji and Rokhan
 T The Aid of the Loa|QID|47188|M|39.14,79.08|N|To Princess Talanji.|
 A The Shadow of Death|QID|47241|M|39.14,79.08|N|From Princess Talanji.|PRE|47188|
 
-A WANTED: Tojek|QID|51089|M|39.56,79.94|N|From Princess Talanji.|RANK|2|
+A WANTED: Tojek|QID|51089|M|39.56,79.94|N|From Scouting Map.|RANK|2|
 A Urok, Terror of the Wetlands|QID|48669|M|38.84,77.70|N|From Sur'jan.|RANK|2|PRE|47188|
 C Urok, Terror of the Wetlands|QID|48669|M|38.55,77.36|NC|N|Observe Urok, Terror of the Wetlands.|
 T Urok, Terror of the Wetlands|QID|48669|M|38.83,77.71|N|To Sur'jan.|
@@ -662,11 +672,11 @@ C Return to Gloom Hollow|QID|49985|M|66.01,39.13|QO|1|NC|N|Hop on Titan Keeper H
 T Return to Gloom Hollow|QID|49985|M|67.43,42.23|N|To Princess Talanji.|
 A Down by the Riverside|QID|49569|M|67.43,42.23|N|From Princess Talanji.|PRE|49985|
 t WANTED: Ayame|QID|52477|M|67.76,41.85|N|To Korkush.|
-K Blood Priest Xak'lar|QID|48541|M|43.20,90.55;43.27,91.37|CS|QO|1|T|Blood Priest Xak'lar|N|Into this cave to kill a Silver Elite for artifact power and resources.|RANK|2|;item unknown
 
 ;bleeding the blood trolls
 C Down by the Riverside|QID|49569|M|65.70,45.09|QO|1|CHAT|N|Speak with Patch to board the barge|
-C Down by the Riverside|QID|49569|M|39.89,84.92|QO|2|NC|N|Use the "1" key to destroy enemies as you sail down the river, at one point, near zuldazar, use the "2" key to destroy the big water serpant.|
+C Down by the Riverside|QID|49569|M|39.89,84.92|QO|2|NC|N|Use the "1" key to destroy enemies as you sail down the river, at one point, near zuldazar, use the "2" key to destroy the big water serpent.|
+K Blood Priest Xak'lar|QID|48541|M|43.20,90.55;43.27,91.37|CS|QO|1|T|Blood Priest Xak'lar|N|Into this cave to kill a Silver Elite for artifact power and resources.|RANK|2|;item unknown
 t WANTED: Tojek|QID|51089|M|39.12,79.87|N|To Rovash the One Eyed.|
 T Down by the Riverside|QID|49569|M|39.41,78.17|N|To Princess Talanji.|
 A Rally the Warriors|QID|50076|M|39.41,78.17|N|From Princess Talanji.|PRE|49569|

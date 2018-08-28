@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-08-25 03:10
+-- Who: jovieve
+-- Log: Fixed f step that was being skipped because it was using QID of step that had just been turned in.
+
+-- URL: http://wow-pro.com/node/3763/revisions/29612/view
+-- Date: 2018-08-25 01:07
+-- Who: jovieve
+-- Log: Typo correction.
+
+-- URL: http://wow-pro.com/node/3763/revisions/29582/view
 -- Date: 2018-08-23 06:52
 -- Who: Emmaleah
 -- Log: play thru tweaks per Jovieve
@@ -613,7 +623,7 @@ A Greenstalker|QID|50953|M|33.45,65.09|N|From Adalyn Forestwatcher.|PRE|51543|
 C Greenstalker|QID|50953|M|33.75,62.31;34.24,61.89|CS|U|159143|T|Greenstalker|N|Use the charm (at range) then slay Greenstalker.|
 T Greenstalker|QID|50953|M|33.44,65.09|N|To Adalyn Forestwatcher.|
 A Life Preserver|QID|51472|M|33.52,65.13|N|From Zallestrasza.|PRE|50953|
-C Life Preserver|QID|51472|QO|1|M|33.63,65.10|NC|N|Hop of Zallestrasza's back.|
+C Life Preserver|QID|51472|QO|1|M|33.63,65.10|NC|N|Hop on Zallestrasza's back.|
 C Life Preserver|QID|51472|QO|2|M|42.05,81.98|CHAT|N|Tell her you are ready.|
 C Life Preserver|QID|51472|QO|3|M|41.88,81.97|T|Danir Emberlight|N|Kill Danir Emberlight, who seems to want to disrupt her ritual.|
 T Life Preserver|QID|51472|M|41.88,81.97|N|To Zallestrasza.|
@@ -731,7 +741,7 @@ A Out With the Old Boss|QID|50978|M|20.62,46.19|N|From Cesi Loosecannon.|PRE|510
 C Out With the Old Boss|QID|50978|N|Slay Richard Tornsail out on the boat at the dock.|
 T Out With the Old Boss|QID|50978|M|19.20,43.51|N|To Cesi Loosecannon who has moved upstairs on the ship.|
 
-f Anyport|QID|50978|M|19.19,43.30|N|At Tan Lotuswind, up above Cesi's new office.|
+f Anyport|AVAILABLE|51001|M|19.19,43.30|N|At Tan Lotuswind, up above Cesi's new office.|
 ;A WANTED: Anchorface|QID|51240|M|19.55,43.62|N|From Wanted Poster.|-- not available in this build?
 A Every Day I'm Smugglin'|QID|51001|M|20.92,43.64|N|From Clonk Greaseybit.|
 A Asking for a Friend|QID|51018|M|20.83,46.02|N|From Kane Carlyle.|

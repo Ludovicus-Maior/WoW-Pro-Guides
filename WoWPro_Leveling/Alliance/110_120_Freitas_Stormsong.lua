@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-08-28 22:38
+-- Who: Chromaflo
+-- Log: Changed some WPs, added QIDs and notes for possible new syntax for QO
+
+-- URL: http://wow-pro.com/node/3767/revisions/29567/view
 -- Date: 2018-08-22 07:02
 -- Who: jovieve
 -- Log: Ran debug and fixed a few errors (which I should have done before last commit—sorry!).
@@ -165,10 +170,10 @@ A Proclamation Investigation|QID|49706|M|63.40,64.73|N|From Brother Pike.|
 A Haywire Harvesters|QID|49704|M|63.47,64.96|N|From Taelia.|
 C Unnecessary Duress|QID|49705|M|61.93,65.11|U|155893|S|N|Click item next to human workers.|
 C Haywire Harvesters|QID|49704|M|61.93,65.11|S|N|Looted from mechs you kill.|
-C Proclamation Investigation|QID|49706|M|61.93,65.11|S|N|Read 3 Proclamations hanging from posts and walls. |
+;made it unsticky and added 3 WPs
+C Proclamation Investigation|QID|49706|M|61.70,64.02;61.47,64.04;61.93,65.11|CS|N|Read 3 Proclamations hanging from posts and walls. |
 C Unnecessary Duress|QID|49705|M|61.93,65.11|U|155893|US|N|Click item next to human workers.|
 C Haywire Harvesters|QID|49704|M|61.93,65.11|US|N|Looted from mechs you kill.|
-C Proclamation Investigation|QID|49706|M|61.93,65.11|US|N|Read 3 Proclamations hanging from posts and walls. |
 T Unnecessary Duress|QID|49705|M|63.40,64.73|N|To Brother Pike.|
 T Proclamation Investigation|QID|49706|M|63.40,64.73|N|To Brother Pike.|
 T Haywire Harvesters|QID|49704|M|63.47,64.96|N|To Taelia.|
@@ -227,6 +232,7 @@ T Mayhem at Mildenhall Meadery|QID|50343|M|68.49,67.60|N|Ancel will be up beside
 A Detective Mildenhall|QID|50070|M|68.49,67.60|N|From Ancel Mildenhall.|
 A Cleanup Duty|QID|50359|M|68.49,67.60|N|From Ancel Mildenhall.|
 C Cleanup Duty|QID|50359|M|68.49,67.60|S|N|Kill Honey and Mead while you find the clues.|
+;For Quest "Detective Mildenhall" new syntax needed!!!
 C Honey Soaked Boot|QID|50070|QO|2|M|68.52,69.00|NC|N|Pick up the boot in the middle of the path.|
 C Misplaced Flask|QID|50070|QO|3|M|67.92,70.94|NC|N|Pick up the flask on the barrel.|
 N Honey Bear|M|66.48,71.17|CC|N|Note this for later; it may be a rep related quest. Clearly a nod to Winnie.|
@@ -242,7 +248,8 @@ C Don't Go in the Basement|QID|50064|M|70.79,69.61|QO|2|N|Kill the Brue.|
 T Don't Go in the Basement|QID|50064|M|71.04,69.25|N|To Ancel Mildenhall.|
 A Recovering Raimond|QID|50161|M|71.04,69.25|N|From Ancel Mildenhall.|
 C Recovering Raimond|QID|50161|M|71.63,67.99|QO|1|N|Back outside. Pick up the other boot.|
-C Recovering Raimond|QID|50161|M|72.42,69.68|QO|2|N|Pick up three of the pages lying on the ground around here.|
+;new syntax 3/3 Journal Pages
+C Recovering Raimond|QID|50161|M|72.42,69.68;72.32,70.56;73.37,72.27|CS|QO|2|N|Pick up three of the pages lying on the ground around here.|
 T Recovering Raimond|QID|50161|M|74.12,72.72|N|To Raimond Mildenhall in the cave.|
 A Royal Succession|QID|50168|M|74.12,72.72|N|From Raimond Mildenhall.|
 A Sticky Situation|QID|50162|M|74.12,72.72|N|From Raimond Mildenhall.|
@@ -260,6 +267,7 @@ A The Bee Team|QID|50165|M|72.81,72.24|N|From Raimond Mildenhall.|
 A Wendigo Away|QID|50534|M|72.81,72.24|N|From Raimond Mildenhall.|
 C Free the Farmhands|QID|50264|M|71.52,71.80|QO|1|S|N|Rescue farmers from the hives.|
 C The Bee Team|QID|50165|M|71.52,71.80|S|N|Kill the maulers.|
+;maybe new syntax because there are those 5 caves and the missing dog Wrex can be found randomly
 C Fetching Wrex|QID|50493|M|68.71,72.91|N|Follow the mountains south-westerly.  There are 5 caves in the area - click on the small honey globs in them until you find Wrex.|
 C Wendigo Away|QID|50534|M|65.83,78.70|N|Kill yeti inside this cave.|
 C The Bee Team|QID|50165|M|71.52,71.80|US|N|Kill the maulers.|
@@ -333,15 +341,16 @@ C Sic 'Em!|QID|49960|M|53.22,66.70|N|Razorgnarl is at the bottom of this cave.|
 C Follow Your Nose|QID|49886|M|51.01,70.17|US|N|Finish killing Tunnelers.|
 T Follow Your Nose|QID|49886|M|51.01,70.17|N|To Houndmaster Archibald.|
 T Sic 'Em!|QID|49960|M|51.01,70.17|N|To Houndmaster Archibald.|
-T There's Gold in Them There Fields|QID|50157|M|50.75,73.18|N|To Farmer Goldfield, on the 2nd floor of this building.|
+T There's Gold in Them There Fields|QID|50157|M|50.75,73.18|N|To Farmer Goldfield upstairs.|
 A A Pocketful of Shells|QID|50041|M|50.76,73.15|N|From Farmer Goldfield.|
+;new syntax for QID 50065
 A A Reason to Stay|QID|50065|M|49.85,73.54|N|From a pocketwatch on the ground.|
 C A Pocketful of Shells|QID|50041|M|50.76,73.15|S|U|160561|N|'Skin' the boars with this after you kill them.|
 C Battered Toy Sword|QID|50065|QO|2|M|50.04,71.45|N|Pick up the sword.|
 C Tarnished Locket|QID|50065|M|48.89,71.23|N|Pick up the locket in the building.|
 C A Pocketful of Shells|QID|50041|M|50.76,73.15|US|U|160561|N|Finish with boars.|
 T A Pocketful of Shells|QID|50041|M|50.76,73.15|N|To Farmer Goldfield.|
-T A Reason to Stay|QID|50065|M|49.85,73.54|N|To Farmer Goldfield.|
+T A Reason to Stay|QID|50065|M|50.76,73.14|N|To Farmer Goldfield.|
 A Goldfield's War|QID|50069|M|50.75,73.13|N|From Farmer Goldfield.|
 C Goldfield's War|QID|50069|M|50.76,73.00|QO|1|N|Pick up the rifle right next to Goldfield and help him out. Click on then kill the invaders with ability 1. Ability 2 will stun them. Kill the final boss when he comes out.|
 T Goldfield's War|QID|50069|M|50.75,73.13|N|To Farmer Goldfield.|
@@ -354,11 +363,13 @@ T Deal's Off|QID|50622|M|44.76,64.53|N|To Mayor Roz in the house.|
 A Look Out!|QID|50354|M|44.76,64.53|N|From Mayor Roz.|
 A Boaring Company|QID|50353|M|44.73,64.61|N|From Sergeant Calvin.|
 C Look Out!|QID|50354|M|42.50,67.69|S|U|156516|N|Kill Briarback Lookouts. You can use the dart to put them to sleep.|
+;K step works only the first time?
 K Briarbacks|ACTIVE|-51354|L|157849|M|42.50,67.69|N|Kill the various Briarbacks until you get Foul-Smelling Flask.|
-A Anger in a Bottle|QID|51354|M|42.50,67.69|N|Automatically accepts.|
-C Anger in a Bottle|QID|51354|M|66.21,43.59|S|N|The mobs you have to kill anyway will drop the quest items.|
-A Totems, Totems, Totems!|QID|50111|M|42.46,67.58;44.04,72.44|CS|N|Head up to the highlands, and accept the quest from the totem.|
+A Anger in a Bottle|QID|51354;50367|M|42.50,67.69|N|Automatically accepts.|
+C Anger in a Bottle|QID|51354;50367|M|66.21,43.59|S|N|The mobs you have to kill anyway will drop the quest items.|
+A Totems, Totems, Totems!|QID|50111|M|44.22,70.28;44.04,72.44|CS|N|Head up to the highlands, and accept the quest from the totem.|
 C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|1|NC|N|Destroy the same totem.|
+$ Carved Wooden Chest|QID|99999|M|43.97,73.55;44.39,75.36|CS|N|Jump from here to platform with blue fire on it. Chest is in the Cave.|
 R Free Farmer|QID|50353|M|45.44,72.50|CC|N|Free the first farmer.|
 C Totems, Totems, Totems!|QID|50111|M|46.07,74.48|QO|4|NC|N|Southern totem here.|
 R Two More Farmers|QID|50353|M|46.23,72.73;47.25,74.32|CS|N|Go out of the cave and find two more farmers down the right path in this cave.|
@@ -385,11 +396,11 @@ C Run For the Hills|QID|50365|M|44.86,77.33|QO|2|N|Destroy the stockpile inside 
 C Run For the Hills|QID|50365|M|45.82,77.07;43.54,78.58|CS|QO|3|N|Final stockpile in this cave with another crate.|
 C Steal Them Back|QID|50340|M|42.72,78.85|N|Anohtre crate here is you need one more.|
 C War Pigs|QID|50363|M|46.65,73.86|US|N|Finish collecting pigs.|
-C Anger in a Bottle|QID|51354|M|66.21,43.59|US|N|Keep killing Briarbacks until you have 10 foul-smelling samples.|
+C Anger in a Bottle|QID|51354;50367|M|66.21,43.59|US|N|Keep killing Briarbacks until you have 10 foul-smelling samples.|
 T Steal Them Back|QID|50340|M|46.65,73.82|N|Back to Sergeant Calvin.|
 T War Pigs|QID|50363|M|46.65,73.86|N|To Sergeant Calvin.|
 T Run For the Hills|QID|50365|M|46.65,73.86|N|To Sergeant Calvin.|
-T Anger in a Bottle|QID|51354|M|46.65,73.82|N|To Sergeant Calvin.|
+T Anger in a Bottle|QID|51354;50367|M|46.65,73.82|N|To Sergeant Calvin.|
 A Terror of the Kraul|QID|50368|M|46.64,73.85|N|From Sergeant Calvin.|
 C Terror of the Kraul|QID|50368|M|45.84,74.41|N|Follow the blue flames all the way to the back of the cave to kill Bramblefist.|
 T Terror of the Kraul|QID|50368|Z|Thornheart!Dungeon|M|71.22,52.33|N|To Sergeant Calvin.  (note this coord is in a cave).|
@@ -397,7 +408,7 @@ A A Question of Quillpower|QID|50640|M|71.22,52.33|Z|Thornheart!Dungeon|N|From S
 
 ;Something needs to be fixed here. This step doesn't auto-complete. Need |CC| tag and coords for wherever the boar stops, maybe.
 R A Question of Quillpower|M|50.75,70.21|ACTIVE|50640|N|Hop on the boar and ride out of the cave.|
-f Deadwash|M|42.71,57.37|AVAILABLE|51218|N|Pick up the flight point from Malorian Tailwind on the way.|
+f Deadwash|M|52.53,68.05;51.15,61.96;47.08,61.08;44.83,61.22;42.71,57.37|CS|AVAILABLE|51218|N|Pick up the flight point from Malorian Tailwind on the way.|
 K Osca the Bloodied|QID|52464|QO|1|M|42.12,63.13|T|Osca the Bloodied|N|Back on the road, silver Elite to kill for loot and achievement.|ITEM|159169|RANK|2|
 A Undelivered Package|QID|51218|M|38.43,62.99|N|Pick up from a package on the road.|
 
