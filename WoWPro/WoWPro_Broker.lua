@@ -202,6 +202,32 @@ function WoWPro:QuestAvailible(QIDs, debug, why)
 end
 
 
+function WoWPro.ValidObjective(questtext)
+    -- for now, just accept plain numbers
+    return tonumber(questtext)
+end
+
+WoWPro.ObjectiveOperators = {}
+function WoWPro.ObjectiveOperators.done(qid, objective)
+    local done = WoWPro.QuestLog[qid].ocompleted[objective]
+    return done , 'blah'
+end
+
+function WoWPro.ParseObjective(questtext)
+    return tonumber(questtext), WoWPro.ObjectiveOperators.done
+end
+
+function WoWPro.ObjectiveStatus(qid, questtext)
+    local done = false
+    local status = "¿"
+    local objective, predicate = WoWPro.ParseObjective(questtext)
+    if (not WoWPro.QuestLog[qid]) then
+        return false, "Unknown qid "..tostring(qid)
+    end
+    done, status = predicate(qid, objective)
+    return done, status
+end
+
 
 WoWPro.PetsOwned = nil
 
@@ -422,7 +448,7 @@ function WoWPro.UpdateQuestTrackerRow(row)
 			row.trackcheck = true
 			if not questtext and action == "C" and WoWPro.QuestLog[qid].leaderBoard and not (WoWPro.sobjective[index] or WoWPro.strategy[index]) then
 			    -- no QO tag specified, lets set something up
-			    WoWPro:dbp("UQT: QID %d active, but no QO tag, lets make something up.", qid)
+			    WoWPro:dbp("UQT: QID %d active, but no QO tag, just check for generic completion.", qid)
 				if WoWPro.QuestLog[qid].leaderBoard[1] then
 					track = "- "..WoWPro.QuestLog[qid].leaderBoard[1]
 					if select(3,GetQuestLogLeaderBoard(1, j)) then
@@ -440,32 +466,17 @@ function WoWPro.UpdateQuestTrackerRow(row)
 					end
 				end
 			elseif questtext then
-			    --Partial completion steps only track pertinent objective.
+			    --Partial completion steps only track pertinent objectives.
 			    WoWPro:dbp("UQT: QID %d active and QO tag of [%s]", qid, questtext)
 				local numquesttext = select("#", string.split(";", questtext))
 				for l=1,numquesttext do
 					local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
-					if tonumber(lquesttext) then
-					    if WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[tonumber(lquesttext)] then
-					        track = "- " .. WoWPro.QuestLog[qid].leaderBoard[tonumber(lquesttext)]
-					    else
-					        track = "- " .. "?"
-					    end
-					    if WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].ocompleted and WoWPro.QuestLog[qid].ocompleted[tonumber(lquesttext)] then
-					        track =  track.." (C)"
-					    end
+					if WoWPro.ValidObjective(lquesttext) then
+					    local done, status = WoWPro.ObjectiveStatus(qid, lquesttext)
+					    track = track.."\n- " .. status
 					else
-						for m=1,GetNumQuestLeaderBoards(j) do
-							if GetQuestLogLeaderBoard(m, j) then
-								local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(m, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
-								if itemName and string.find(lquesttext,itemName) then
-									track = "- "..GetQuestLogLeaderBoard(m, j)
-									if select(3,GetQuestLogLeaderBoard(m, j)) then
-										track =  track.." (C)"
-									end
-								end
-							end
-						end
+					    WoWPro:dbp("UQT: Not a valid objective [%s]", qid, questtext)
+					    track =  track.." ???"
 					end
 				end
 			elseif  WoWPro.sobjective[index] then
@@ -1177,14 +1188,8 @@ function WoWPro.NextStep(k,i)
 	        for l=1,numquesttext do
 		        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[k]))
 		        local lcomplete = false
-		        if tonumber(lquesttext) then
-		            lcomplete = WoWPro.QuestLog[qid].ocompleted and WoWPro.QuestLog[qid].ocompleted[tonumber(lquesttext)]
-		        else
-    		        for _, objective in pairs(WoWPro.QuestLog[qid].leaderBoard) do --Checks each of the quest log objectives
-    			        if lquesttext == objective then --if the objective matches the step's criteria, mark true
-    				        lcomplete = true
-    			        end
-    		        end
+		        if WoWPro.ValidObjective(lquesttext) then
+		            lcomplete = WoWPro.ObjectiveStatus(qid, lquesttext)
     		    end
 		        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
 	        end

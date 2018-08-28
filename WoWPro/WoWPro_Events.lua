@@ -232,19 +232,13 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 			        for l=1,numquesttext do
 				        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
 				        local lcomplete = false
-				        if tonumber(lquesttext) then
-				            lcomplete = WoWPro.QuestLog[QID].ocompleted[tonumber(lquesttext)]
-				        else
-    				        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
-    					        if lquesttext == objective then --if the objective matches the step's criteria, mark true
-    						        lcomplete = true
-    					        end
-    				        end
+				        if WoWPro.ValidObjective(lquesttext) then
+				            lcomplete = WoWPro.ObjectiveStatus(qid, lquesttext)
     				    end
 				        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
 			        end
 			        if complete then
-			            --if the step has not been found to be incomplete, run the completion function
+			            --if the step has been found to be complete, run the completion function
 			            WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: complete")
 			        end 
 		        end
