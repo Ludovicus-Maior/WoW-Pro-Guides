@@ -203,7 +203,7 @@ end
 
 
 function WoWPro.ValidObjective(questtext)
-    -- for now, just accept plain numbers
+    local objective, operator, target = string.match(questtext,"(%d+)([<=>])*(%d*)")
     return tonumber(questtext)
 end
 
