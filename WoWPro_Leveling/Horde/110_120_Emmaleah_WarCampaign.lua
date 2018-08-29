@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-08-29 07:52
+-- Who: elidion
+-- Log: Fixed a lot of issues with the Honored 3k portion. Waypoints, Typos, note wording, quest givers, clickable quest items.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29538/view
 -- Date: 2018-08-17 18:44
 -- Who: Emmaleah
 -- Log: added A War Campaign, edited T War Campaign to mention the 100 resources needed, edited note about treasure for better grammer.
@@ -310,30 +315,27 @@ A Operation: Water Wise|QID|53066|N|Autoaccepted|PRE|51789|REP|The Honorbound;21
 T Operation: Water Wise|QID|53066|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Tracking Tidesages|QID|51797|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53066|
 C Tracking Tidesages|QID|51797|QO|1|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to  Stormsong Valley|
-R Warfang Hold|ACTIVE|51797|M|52.08,33.64|Z|Stormsong Valley|N|Click on the coiled rope to jump in the boat, for a ride to shore. Follow the road generally south towards Warfang Hold.|
-T Tracking Tidesages|QID|51797|M|52.08,33.64|Z|Stormsong Valley|N|To Nathanos Blightcaller.|
+T Tracking Tidesages|QID|51797|M|52.08,33.64|Z|Stormsong Valley|N|To Rexxar.|
 A No Price Too High|QID|51798|M|52.08,33.65|Z|Stormsong Valley|N|From Rexxar.|PRE|51797|
-f Warfang Hold|ACTIVE|51798|M|51.45, 33.67|Z|Stormsong Valley|N|At Muka Stormbreaker.|
-F Windfall Cavern|ACTIVE|51798|M|51.45, 33.67|Z|Stormsong Valley|N|If you have the flightpath, fly to Windfall Cavern, otherwise just follow the road generally east to Zelling's camp.|
-C No Price Too High|QID|51798|M|59.57,30.65|Z|Stormsong Valley|CHAT|N|Ask Rexxar what brings him this way, then watch the scene play out.|
-C No Price Too High|QID|51798|M|62.62,31.81|Z|Stormsong Valley|CHAT|N|Ask Thomas for his help.|
-T No Price Too High|QID|51798|M|62.62,31.81|Z|Stormsong Valley|N|To Rexxar.|
-A Scattering Our Enemies|QID|51819|M|62.62,31.82|Z|Stormsong Valley|N|From Rexxar.|PRE|51798|
-A Commander and Captain|QID|51818|M|62.62,31.83|Z|Stormsong Valley|N|FromThomas Zelling.|PRE|51798|
+C No Price Too High|QID|51798|QO|1|M|59.57,30.65|Z|Stormsong Valley|CHAT|N|Ask Rexxar "Any Clues on where we can find a tidesage?".|
+C No Price Too High|QID|51798|QO|2|M|62.62,31.81|Z|Stormsong Valley|CHAT|N|Ask Thomas for his help.|
+T No Price Too High|QID|51798|M|62.65,31.95|Z|Stormsong Valley|N|To Lilian Voss.|
 A They Will Know Fear|QID|51805|M|62.64,31.87|Z|Stormsong Valley|N|From Lilian Voss.|PRE|51798|
-C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|S|NC|N|Run near the civilians to terrorize them as you go.|
+A Commander and Captain|QID|51818|M|62.62,31.83|Z|Stormsong Valley|N|From Thomas Zelling.|PRE|51798|
+A Scattering Our Enemies|QID|51819|M|62.62,31.82|Z|Stormsong Valley|N|From Rexxar.|PRE|51798|
+C They Will Know Fear|QID|51805|U|160901|M|62.62,39.89|Z|Stormsong Valley|S|NC|N|Run near the civilians and blow the Val'kyr Horn to terrorize them as you go.|
 C Scattering Our Enemies|QID|51819|M|62.62,39.89|Z|Stormsong Valley|S|N|Kill the agro mobs as you go.|
 K Captian Malia|QID|51818|QO|1|M|62.62,39.89|Z|Stormsong Valley|T|Captain Malia|N|Kill Catain Malia.|ACTIVE|51818|
 K Commander Augustine|QID|51818|QO|2|M|58.38,35.65|Z|Stormsong Valley|T|Commander Augustine|N|Kill Commander Augustine and loot the book.|ACTIVE|51818|
 C Scattering Our Enemies|QID|51819|M|62.62,39.89|Z|Stormsong Valley|US|NC|N|Finish your quota of enemies.|
 C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|US|N|Finish terrorizing the civilians.|
 T They Will Know Fear|QID|51805|M|62.64,31.87|Z|Stormsong Valley|N|To Lilian Voss.|
+T Commander and Captain|QID|51818|M|62.62,31.83|Z|Stormsong Valley|N|To Thomas Zelling.|
 T Scattering Our Enemies|QID|51819|M|62.62,31.82|Z|Stormsong Valley|N|To Rexxar.|
-T Commander and Captain|QID|51818|M|62.62,31.83|Z|Stormsong Valley|N|ToThomas Zelling.|
-A Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|N|FromThomas Zelling.|PRE|51805+51818+51819|
-C Zelling's Potential|QID|51830|QO|2|M|66.80,42.31|Z|Stormsong Valley|N|Go to Port Fogtide and kill the suffering souls to fill the void font.|
-C Zelling's Potential|QID|51830|QO|3|M|66.80,45.92|Z|Stormsong Valley|NC|N|Use Special Action Button to release Zellings' wind spell and get a ride out of town.|
-T Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|N|ToThomas Zelling.|
+A Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|Nm|From Thomas Zelling.|PRE|51805+51818+51819|
+C Zelling's Potential|QID|51830|QO|1|M|66.80,42.31|Z|Stormsong Valley|N|Go to Port Fogtide and kill enemies to fill the void font.|
+C Zelling's Potential|QID|51830|QO|2|M|66.80,42.31|Z|Stormsong Valley|NC|N|Use Special Action Button to release Zellings' wind spell and get a ride out of town.|
+T Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|N|To Thomas Zelling.|
 A Whatever Will Be|QID|51837|M|62.62,31.83|Z|Stormsong Valley|N|From Lilian Voss.|PRE|51830|
 C Whatever Will Be|QID|51837|M|62.62,31.83|Z|Stormsong Valley|CHAT|N|Talk to Thomas, then watch and wait for the scene to play out.|
 T Whatever Will Be|QID|51837|M|62.62,31.83|Z|Stormsong Valley|N|To Lilian Voss.|
