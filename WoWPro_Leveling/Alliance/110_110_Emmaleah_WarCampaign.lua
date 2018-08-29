@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-08-29 02:16
+-- Who: elidion
+-- Log: Fixed some Zuldazar Campaign issues, such as incorrect waypoints and mistyped PRE questIDs
+
+-- URL: http://wow-pro.com/node/3760/revisions/29513/view
 -- Date: 2018-08-14 05:52
 -- Who: Emmaleah
 -- Log: add guide name registration and delete ref to first foothold at 112, (changed to 110)
@@ -199,7 +204,7 @@ A Return to Boralus|QID|51969|M|37.71,35.82|Z|Vol'dun|N|From Halford Wyrmbane.|P
 C Return to Boralus|QID|51969|M|34.94,33.76|Z|Vol'dun|CHAT|N|Tell Jes-Tereth you are ready to go back to Boralus.|
 T Return to Boralus|QID|51969|M|69.28,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 
-;Zuldazer Campaign
+;Zuldazar Campaign
 T Zuldazar Foothold|QID|51308|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
 A The Troll's Tale|QID|51201|M|77.54,54.58|Z|Zuldazar|N|From Brigadier Thom.|PRE|51308|
 f Castaway Encampment|QID|51201|M|77.66,54.44|Z|Zuldazar|N|At Kaolin.|ACTIVE|51201|
@@ -213,8 +218,8 @@ A Save Them All|QID|51191|M|77.13,55.55|Z|Zuldazar|N|From Medic Feorea.|PRE|5120
 C Granting a Reprieve|QID|51190|M|79.11,53.96|Z|Zuldazar|S|N|Kill the Horde on the beach as you go.|
 C Save Them All|QID|51191|M|79.11,53.96|Z|Zuldazar|S|NC|N|Click on the injured sailors to heal them as you go.|
 C A Lack of Surplus|QID|51192|M|79.11,53.96|Z|Zuldazar|S|NC|N|Pick up bundles of supplies as you go.|
-C Disarming the Cannons|QID|51544|M|79.11,53.96|Z|Zuldazar|NC|N|Click on the rope to board the ship and then destroy the cannons.|
-C That One's Mine|QID|51193|M|79.11,53.96|Z|Zuldazar|N|Kill Major Hawkins and loot his hammer.|T|Major Alan Hawkins|
+C Disarming the Cannons|QID|51544|M|83.27,54.64|Z|Zuldazar|NC|N|Click on the rope to board the ship and then destroy the cannons.|
+C That One's Mine|QID|51193|M|81.92,51.18|Z|Zuldazar|N|Kill Major Hawkins and loot his hammer.|T|Major Alan Hawkins|
 C A Lack of Surplus|QID|51192|M|79.11,53.96|Z|Zuldazar|US|NC|N|Finish collecting the bundles of supplies.|
 C Save Them All|QID|51191|M|79.11,53.96|Z|Zuldazar|US|NC|N|Finish up healing the injured sailors.|
 C Granting a Reprieve|QID|51190|M|79.11,53.96|Z|Zuldazar|US|N|Finish your quota of killing Horde.|
@@ -223,7 +228,7 @@ T That One's Mine|QID|51193|M|77.13,55.59|Z|Zuldazar|N|To Degdod.|
 T Save Them All|QID|51191|M|77.13,55.54|Z|Zuldazar|N|To Medic Feorea.|
 T Granting a Reprieve|QID|51190|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
 T Disarming the Cannons|QID|51544|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
-A Xibala|QID|51418|M|77.50,55.21|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51990;51191;51192;51193;51544|
+A Xibala|QID|51418|M|77.50,55.21|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51190;51191;51192;51193;51544|
 C Xibala|QID|51418|M|80.35,55.45|Z|Zuldazar|NC|N|Hop in the rowboat and enjoy the ride.|
 f Xibala|QID|51418|M|40.59,71.46|Z|Zuldazar|N|At Paula Waverunner.|ACTIVE|51418|
 T Xibala|QID|51418|M|40.75,70.84|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
@@ -238,7 +243,7 @@ A Fragment of the Firelands|QID|51359|M|40.75,70.83|Z|Zuldazar|N|From Anvil-Than
 C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar|QO|1|NC|U|160058|N|Click the provided stabilizer to be transferred into a vehicle ui - style elemental.|
 C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar||QO|2|N|Go forth and kill goblins.|
 T Fragment of the Firelands|QID|51359|M|40.75,70.84|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
-A Champion: Kelsey Steelspark|QID|52003|M|41.76,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52003|
+A Champion: Kelsey Steelspark|QID|52003|M|41.76,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51359|
 T Champion: Kelsey Steelspark|QID|52003|M|41.76,70.68|Z|Zuldazar|N|To Kelsey Steelspark.|
 A Return to Boralus|QID|51968|M|40.75,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52003|
 C Return to Boralus|QID|51968|M|40.47,71.05|Z|Zuldazar|CHAT|N|Tell Daria you are ready to return to Boralus.|
