@@ -201,30 +201,69 @@ function WoWPro:QuestAvailible(QIDs, debug, why)
     return value
 end
 
-
+local OBJECTIVE_PATTERN = "(%d+)([<=>]*)(%d*)"
 function WoWPro.ValidObjective(questtext)
-    local objective, operator, target = string.match(questtext,"(%d+)([<=>])*(%d*)")
-    return tonumber(questtext)
+    local objective, operator, target = string.match(questtext,OBJECTIVE_PATTERN)
+    if operator == nil then
+        return tonumber(objective)
+    elseif target == nil and operator == nil then
+        return false
+    elseif operator and target then
+        return true
+    else
+        return false
+    end
 end
 
 WoWPro.ObjectiveOperators = {}
 function WoWPro.ObjectiveOperators.done(qid, objective)
     local done = WoWPro.QuestLog[qid].ocompleted[objective]
-    return done , 'blah'
+    local status = WoWPro.QuestLog[qid].leaderBoard[objective]
+    return done , status
 end
 
+function WoWPro.ObjectiveOperators.less(qid, objective, target)
+    local done = WoWPro.QuestLog[qid].ncompleted[objective] >= target
+    local status = WoWPro.QuestLog[qid].leaderBoard[objective]
+    return done , status
+end
+
+function WoWPro.ObjectiveOperators.equal(qid, objective, target)
+    local done = WoWPro.QuestLog[qid].ncompleted[objective] == target
+    local status = WoWPro.QuestLog[qid].leaderBoard[objective]
+    return done , status
+end
+
+function WoWPro.ObjectiveOperators.greater(qid, objective, target)
+    local done = WoWPro.QuestLog[qid].ncompleted[objective] <= target
+    local status = WoWPro.QuestLog[qid].leaderBoard[objective]
+    return done , status
+end
+
+WoWPro.ObjectiveOperators['<'] = WoWPro.ObjectiveOperators.less
+WoWPro.ObjectiveOperators['='] = WoWPro.ObjectiveOperators.equal
+WoWPro.ObjectiveOperators['>'] = WoWPro.ObjectiveOperators.greater
+
+
 function WoWPro.ParseObjective(questtext)
-    return tonumber(questtext), WoWPro.ObjectiveOperators.done
+    local objective, operator, target = string.match(questtext,OBJECTIVE_PATTERN)
+    if operator == nil then
+        return tonumber(questtext), WoWPro.ObjectiveOperators.done, nil
+    elseif operator and target then
+        return tonumber(questtext), WoWPro.ObjectiveOperators[operator], target
+    else
+        return tonumber(questtext), WoWPro.ObjectiveOperators.done, nil
+    end
 end
 
 function WoWPro.ObjectiveStatus(qid, questtext)
     local done = false
     local status = "¿"
-    local objective, predicate = WoWPro.ParseObjective(questtext)
+    local objective, predicate, target = WoWPro.ParseObjective(questtext)
     if (not WoWPro.QuestLog[qid]) then
         return false, "Unknown qid "..tostring(qid)
     end
-    done, status = predicate(qid, objective)
+    done, status = predicate(qid, objective, target)
     return done, status
 end
 
@@ -1962,6 +2001,7 @@ function WoWPro.PopulateQuestLog()
 		    questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isStory = GetQuestLogTitle(i)
 		local leaderBoard
 		local ocompleted
+		local ncompleted
 		local _
 
 		if not questTitle then
@@ -1972,9 +2012,13 @@ function WoWPro.PopulateQuestLog()
 			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
 				leaderBoard = {}
 				ocompleted = {}
-				for j=1,GetNumQuestLeaderBoards(i) do 
-					leaderBoard[j], _, ocompleted[j] = GetQuestLogLeaderBoard(j, i)
-				end 
+				ncompleted = {}
+				local objective_info = C_QuestLog.GetQuestObjectives(questID)
+				for j=1,#objective_info do
+					leaderBoard[j] = objective_info[j].text
+					ocompleted[j] = objective_info[j].finished
+					ncompleted[j] = objective_info[j].numFulfilled
+				end
 			else
 			    leaderBoard = nil
 			    ocompleted = nil
@@ -1986,6 +2030,7 @@ function WoWPro.PopulateQuestLog()
 				group = suggestedGroup,
 				complete = isComplete or false,
 				ocompleted = ocompleted,
+				ncompleted = ncompleted,
 				daily = isDaily or false,
 				leaderBoard = leaderBoard,
 				header = currentHeader,
