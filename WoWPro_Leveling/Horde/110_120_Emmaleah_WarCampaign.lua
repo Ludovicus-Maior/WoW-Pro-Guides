@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-08-30 07:50
+-- Who: elidion
+-- Log: The revered rep gate setting was set to blank and wowpro throws warnings about it, put a 0 to stop it from complaining.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29624/view
+-- Date: 2018-08-30 07:34
+-- Who: elidion
+-- Log: Updated a few errors with waypoints, questIDs and text for the 7.5k Honored questline.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29623/view
+-- Date: 2018-08-30 04:02
+-- Who: elidion
+-- Log: Fixed a mystery character that appeared in a tag messing a line up.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29622/view
 -- Date: 2018-08-29 07:52
 -- Who: elidion
 -- Log: Fixed a lot of issues with the Honored 3k portion. Waypoints, Typos, note wording, quest givers, clickable quest items.
@@ -332,7 +347,7 @@ C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|US|N|Finish ter
 T They Will Know Fear|QID|51805|M|62.64,31.87|Z|Stormsong Valley|N|To Lilian Voss.|
 T Commander and Captain|QID|51818|M|62.62,31.83|Z|Stormsong Valley|N|To Thomas Zelling.|
 T Scattering Our Enemies|QID|51819|M|62.62,31.82|Z|Stormsong Valley|N|To Rexxar.|
-A Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|Nm|From Thomas Zelling.|PRE|51805+51818+51819|
+A Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|N|From Thomas Zelling.|PRE|51805+51818+51819|
 C Zelling's Potential|QID|51830|QO|1|M|66.80,42.31|Z|Stormsong Valley|N|Go to Port Fogtide and kill enemies to fill the void font.|
 C Zelling's Potential|QID|51830|QO|2|M|66.80,42.31|Z|Stormsong Valley|NC|N|Use Special Action Button to release Zellings' wind spell and get a ride out of town.|
 T Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|N|To Thomas Zelling.|
@@ -356,18 +371,18 @@ C Deep Dive|QID|52765|QO|1|M|41.59,67.47|Z|The Great Sea!Instance!Azeroth|CHAT|N
 C Deep Dive|QID|52765|QO|2|M|41.52,68.45|Z|The Great Sea!Instance!Azeroth|CHAT|N|Swim down, down, down. The special action button turns your headlamp on and off.|
 T Deep Dive|QID|52765|M|41.52,68.45|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
 A Seafloor Shipwreck|QID|52766|M|41.52,68.45|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52765|
-T Seafloor Shipwreck|QID|52766|M|41.81,67.96|Z|The Great Sea!Instance!Azeroth|N|Swim to the shipwreak and it will autocomplete|
+T Seafloor Shipwreck|QID|52766|M|46.37,68.87|Z|The Great Sea!Instance!Azeroth|N|Swim to the shipwreak and it will autocomplete|
 A Checking Dog Tags|QID|52767|M|41.81,67.96|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52766|
 C Checking Dog Tags|QID|52767|M|48.70,70.80|Z|The Great Sea!Instance!Azeroth|N|Click on corpses until you find the captain.|
 T Checking Dog Tags|QID|52767|M|48.70,70.80|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
 A The Sunken Graveyard|QID|52768|M|48.70,70.80|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52767|
-T The Sunken Graveyard|QID|52768|M|54.85,51.14|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
+T The Sunken Graveyard|QID|52768|M|54.85,51.14|Z|The Great Sea!Instance!Azeroth|N|Swim to the other shipwreck while looking out for sharks and it will autocomplete|
 A Captain By Captain|QID|52769|M|54.45,51.14|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52768|
-A Biolumi-Nuisance|QID|52770|M|54.45,51.14|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52768|
+A Biolumi-Nuisance|QID|52770|M|54.45,51.14|Z|The Great Sea!Instance!Azeroth|N| Should autoaccept, swim a bit further in if it hasn't appeared for you yet.|PRE|52768|
 C Biolumi-Nuisance|QID|52770|M|54.45,51.14|Z|The Great Sea!Instance!Azeroth|S|NC|N|Kill the Bioluminescent creatures as you go.|
-C Captain By Captain|QID|52770|QO|1|M|54.43,49.71|Z|The Great Sea!Instance!Azeroth|N|Click on corpses until you find the captain. First captain is up on the spar arm.|
-C Captain By Captain|QID|52770|QO|2|M|56.49,45.08|Z|The Great Sea!Instance!Azeroth|N|Second captain is on the deck of his ship.|
-C Captain By Captain|QID|52770|QO|3|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|The third captain is on a rotted out hull of a ship.|
+C Captain By Captain|QID|52769|QO|1|M|54.43,49.71|Z|The Great Sea!Instance!Azeroth|N|Click on corpses until you find the captain. First captain is up on the spar arm.|
+C Captain By Captain|QID|52769|QO|2|M|56.49,45.08|Z|The Great Sea!Instance!Azeroth|N|Second captain is on the deck of his ship.|
+C Captain By Captain|QID|52769|QO|3|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|The third captain is on a rotted out hull of a ship.|
 C Biolumi-Nuisance|QID|52770|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|US|NC|N|Finish off the quota of Bioluminescent creatures.|
 T Captain By Captain|QID|52769|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
 T Biolumi-Nuisance|QID|52770|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
@@ -379,16 +394,16 @@ T Water-Breathing Dragon|QID|52773|M|68.33,54.76|Z|The Great Sea!Instance!Azerot
 A Grab and Go|QID|52774|M|68.33,54.76|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52773|
 C Grab and Go|QID|52774|QO|1|M|68.23,55.61|Z|The Great Sea!Instance!Azeroth|N|Pick up Valentine's body|
 C Grab and Go|QID|52774|QO|2|M|68.62,55.88|Z|The Great Sea!Instance!Azeroth|N|Oh, look this body may prove useful too, take it.|
-T Grab and Go|QID|52774|M|40.52,67.13|Z|The Great Sea!Instance!Azeroth|N|To Nathanos Blightcaller, back on the Banshee's Wail.|
+T Grab and Go|QID|52774|M|40.11,67.98|Z|The Great Sea!Instance!Azeroth|N|To Nathanos Blightcaller, back on the Banshee's Wail UNDER the deck.|
 A Siege of Boralus|QID|53121|M|41.47,66.57|Z|The Great Sea!Instance!Azeroth|N|From Lilian Voss.|PRE|52774|
 T Siege of Boralus|QID|53121|M|41.47,66.57|Z|The Great Sea!Instance!Azeroth|N|To Lilian Voss. This  unlocks mythic Siege of Boralus.|
-A With Prince in Tow|QID|52978|M|40.52,67.13|Z|The Great Sea!Instance!Azeroth|N|From Nathanos Blightcaller.|PRE|52774|
-H The Great Seal|ACTIVE|52978|M|40.52,67.13|Z|The Great Sea!Instance!Azeroth|N|Hearth or tell Tattersail you want to return to Zandalar. (or stick around and do WQs)|
-T With Prince in Tow|QID|52978|M|58.44,62.67|Z|The Great Sea!Instance!Azeroth|N|To Nathanos Blightcaller.|
+A With Prince in Tow|QID|52978|M|40.10,67.99|Z|The Great Sea!Instance!Azeroth|N|From Nathanos Blightcaller still under the main deck.|PRE|52774|
+C With Prince in Tow|ACTIVE|52978|M|39.90,68.31|Z|The Great Sea!Instance!Azeroth|CHAT|N|Tell Tattersail you want to return to Zandalar.|
+T With Prince in Tow|QID|52978|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ; The Strike on Boralus - Revered with The Honorbound
-N Rep Gated|AVAILABLE|53068|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at revered.|PRE|52978|REP|The Honorbound;2157;revered;;true|
-A Operation: Hook and Line|QID|53068|N|Autoaccepted|PRE|52978|REP|The Honorbound;2157;revered;;true|
+N Rep Gated|AVAILABLE|53068|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at revered.|PRE|52978|REP|The Honorbound;2157;revered;0;true|
+A Operation: Hook and Line|QID|53068|N|Autoaccepted|PRE|52978|REP|The Honorbound;2157;revered;0;true|
 T Operation: Hook and Line|QID|53068|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A When a Plan Comes Together|QID|52183|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53068|
 C When a Plan Comes Together|QID|52183|QO|1|M|58.44,62.67|Z|Zuldazar|CHAT|N|Listen to Nathanos' plans.|
