@@ -204,10 +204,10 @@ end
 local OBJECTIVE_PATTERN = "(%d+)([<=>]*)(%d*)"
 function WoWPro.ValidObjective(questtext)
     local objective, operator, target = string.match(questtext,OBJECTIVE_PATTERN)
-    if operator == nil then
+    if operator ~= "" then
         return tonumber(objective)
-    elseif target == nil and operator == nil then
-        return false
+    elseif target == "" and operator == "" then
+        return tonumber(objective)
     elseif operator and target then
         return true
     else
@@ -218,25 +218,25 @@ end
 WoWPro.ObjectiveOperators = {}
 function WoWPro.ObjectiveOperators.done(qid, objective)
     local done = WoWPro.QuestLog[qid].ocompleted[objective]
-    local status = WoWPro.QuestLog[qid].leaderBoard[objective]
+    local status = WoWPro.QuestLog[qid].leaderBoard[objective] or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.less(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted[objective] >= target
-    local status = WoWPro.QuestLog[qid].leaderBoard[objective]
+    local status = WoWPro.QuestLog[qid].leaderBoard[objective] or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.equal(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted[objective] == target
-    local status = WoWPro.QuestLog[qid].leaderBoard[objective]
+    local status = WoWPro.QuestLog[qid].leaderBoard[objective] or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.greater(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted[objective] <= target
-    local status = WoWPro.QuestLog[qid].leaderBoard[objective]
+    local status = WoWPro.QuestLog[qid].leaderBoard[objective] or "?"
     return done , status
 end
 
@@ -247,11 +247,21 @@ WoWPro.ObjectiveOperators['>'] = WoWPro.ObjectiveOperators.greater
 
 function WoWPro.ParseObjective(questtext)
     local objective, operator, target = string.match(questtext,OBJECTIVE_PATTERN)
-    if operator == nil then
+    WoWPro:dbp("ParseObjective(%q): %q %q %q",questtext, objective, operator, target)
+    if operator == "" then
+        WoWPro:dbp("ParseObjective(%q): returning ObjectiveOperators.done", questtext)
         return tonumber(questtext), WoWPro.ObjectiveOperators.done, nil
-    elseif operator and target then
-        return tonumber(questtext), WoWPro.ObjectiveOperators[operator], target
+    elseif (operator ~= "") and (target ~= "") then
+        if WoWPro.ObjectiveOperators[operator] then
+            target = tonumber(target)
+            WoWPro:dbp("ParseObjective(%q): returning ObjectiveOperators[%q], %d", questtext, operator, target)
+            return tonumber(questtext), WoWPro.ObjectiveOperators[operator], tonumber(target)
+        else
+            WoWPro:Warning("ParseObjective(%q): invalid operator. using ObjectiveOperators.done.", questtext)
+            return tonumber(questtext), WoWPro.ObjectiveOperators.done, nil
+        end
     else
+         WoWPro:Warning("ParseObjective(%q): invalid objective. using ObjectiveOperators.done.", questtext)
         return tonumber(questtext), WoWPro.ObjectiveOperators.done, nil
     end
 end
