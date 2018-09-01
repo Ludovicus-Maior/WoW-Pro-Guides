@@ -296,8 +296,7 @@ DefineTag("RANK","rank","number",nil,nil)
 
 function WoWPro.ParseQuestLine(faction, zone, i, text)
 	local GID = WoWProDB.char.currentguide
-		
-		
+
 	text = string.trim(text)
 	-- Printing anything with a | is dangerous.  Map it to a ¦
 	local atext = text:gsub("|", "¦")
@@ -332,7 +331,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    WoWPro:Error("Line %d in guide %s must have a blank as the 2nd character: '%s' is not right.",i,GID, primo)
 	    return nil
 	end
-    
+
     -- Now extract the action and step
 	WoWPro.action[i] = string.sub(primo,1,1)
 	WoWPro.step[i] = string.sub(primo,3)
@@ -345,7 +344,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     end
 
 	local idx = 2
-	
+
 	-- Parse the tags
 	repeat
 	    local tag = tags[idx]
@@ -418,7 +417,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    end
 	    idx = idx + 1
 	until idx > #tags
-	
+
 	if WoWPro.action[i] == "t" then
 	    WoWPro.action[i] = "T"
 	    WoWPro.conditional[i] = true
@@ -458,6 +457,10 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    WoWPro.leadin[i] = new_leadin
     end
 
+    if (not WoWPro.guide[i]) and WoWPro.action[i] == "J" then
+        WoWPro.guide[i] = WoWPro:PopCurrentGuide(GID, false)
+    end
+
 	if WoWPro.map[i] then
 		if WoWPro.waypcomplete[i] == nil then 
 		    WoWPro.waypcomplete[i] = false
@@ -481,7 +484,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    GQL = nil
 	end
     WoWPro.level[i] = WoWPro.level[i] or GQL
-	
+
 	if GQL and GQL < 1 and tonumber(WoWPro.QID[i]) < 100000  then
 	    WoWPro:dbp("Guide %s QID %s: Grail reports %s!",GID,WoWPro.QID[i],GQL)
 	    GQL = nil
@@ -526,14 +529,14 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     	if WoWPro.step[i] == "Achievement" and count == 0 then 
     		WoWPro.step[i] = Name 
     		WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i]
-    	end 
+    	end
     	if WoWPro.step[i] == "Achievement" and count > 0 then 
     		WoWPro.step[i] = Name 
     		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
     		WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
-    	end 
+    	end
     end
-		
+
 	-- Module ParseQuestLine Handlers --
 	if WoWProDB.char.currentguide and
 	   WoWPro.Guides[WoWProDB.char.currentguide] and
@@ -645,7 +648,7 @@ function WoWPro.ParseSteps(steps)
 	    WoWPro.Guides[GID].amax_level = -1
 	    WoWPro.Guides[GID].amin_level = 100
 	    WoWPro.Guides[GID].acnt_level = 0
-	    WoWPro.Guides[GID].asum_level = 0 
+	    WoWPro.Guides[GID].asum_level = 0
 	end
 	for j=1,#steps do
 		local text = steps[j]
@@ -676,7 +679,7 @@ function WoWPro.ParseSteps(steps)
 			if faction then
 				-- deleting leading/trailing whitespace and then canonicalize the case
 				faction=strupper(strtrim(faction))
-            end			    
+            end
 			if (class == nil or WoWPro.SemiMatch(class, myclass)) and
 			   (race == nil or WoWPro.SemiMatch(race, myrace))  and
 			   (gender == nil or gender == UnitSex("player")) and
@@ -712,7 +715,7 @@ function WoWPro.ParseSteps(steps)
     if not  WoWPro.Recorder and WoWPro.action[last_i] ~= "D" then
     	nguide = WoWPro:NextGuide(GID)
     	if nguide then
-    	    fini = string.format("D Onwards|N|This ends %s. %s is next.|",WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide))
+    	    fini = string.format("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|",WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
     	else
     	    fini = string.format("D Fini|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|",WoWPro:GetGuideName(GID))
     	end
@@ -737,7 +740,7 @@ function WoWPro.ParseSteps(steps)
         	end
         	if WoWPro.Guides[GID].level and WoWPro.Guides[GID].acnt_level > 1 and math.abs(WoWPro.Guides[GID].level-amean_level) > 0.001 then
         	    WoWPro:Warning("Guide %s level= %g but meanlevel=%g",GID, WoWPro.Guides[GID].level, amean_level)
-        	end        	
+        	end
         end
     end
 end
