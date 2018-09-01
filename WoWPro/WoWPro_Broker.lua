@@ -215,6 +215,18 @@ function WoWPro.ValidObjective(questtext)
     end
 end
 
+function WoWPro:ValidObjectives(objectives, debug, why)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(QIDs))
+    end
+    local value = QidMapReduce(QIDs,true,";","+",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "QuestAvailible", debug or quids_debug)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:QuestAvailible(%s) return %s",tostring(QIDs),tostring(value))
+    end
+    return not value
+end
+
+
 WoWPro.ObjectiveOperators = {}
 function WoWPro.ObjectiveOperators.done(qid, objective)
     local done = WoWPro.QuestLog[qid].ocompleted[objective]
