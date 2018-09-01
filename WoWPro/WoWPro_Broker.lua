@@ -201,7 +201,7 @@ function WoWPro:QuestAvailible(QIDs, debug, why)
     return value
 end
 
-local OBJECTIVE_PATTERN = "(%d+)([<=>]*)(%d*)"
+local OBJECTIVE_PATTERN = "^(%d+)([<=>]*)(%d*)$"
 function WoWPro.ValidObjective(questtext)
     local objective, operator, target = string.match(questtext,OBJECTIVE_PATTERN)
     if operator ~= "" then
@@ -219,7 +219,7 @@ function WoWPro.ValidObjectives(objectives, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(QIDs))
     end
-    local value = QidMapReduce(QIDs,true,";","+",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "QuestAvailible", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,";","+",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "QuestAvailible", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QuestAvailible(%s) return %s",tostring(QIDs),tostring(value))
     end
