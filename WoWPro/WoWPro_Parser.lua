@@ -856,7 +856,7 @@ function WoWPro.SetupGuideReal()
         local nocache = WoWPro.nocache[i]
         if nocache then
              WoWProCharDB.Guide[GID].completion[i] = false
-             WoWPro.why[step] = "Uncompleted because NOCACHE was specified."
+             WoWPro.why[i] = "Uncompleted because NOCACHE was specified."
         end
     end
 
