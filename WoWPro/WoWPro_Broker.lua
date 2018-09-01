@@ -250,19 +250,19 @@ function WoWPro.ParseObjective(questtext)
     WoWPro:dbp("ParseObjective(%q): %q %q %q",questtext, objective, operator, target)
     if operator == "" then
         WoWPro:dbp("ParseObjective(%q): returning ObjectiveOperators.done", questtext)
-        return tonumber(questtext), WoWPro.ObjectiveOperators.done, nil
+        return tonumber(objective), WoWPro.ObjectiveOperators.done, nil
     elseif (operator ~= "") and (target ~= "") then
         if WoWPro.ObjectiveOperators[operator] then
             target = tonumber(target)
             WoWPro:dbp("ParseObjective(%q): returning ObjectiveOperators[%q], %d", questtext, operator, target)
-            return tonumber(questtext), WoWPro.ObjectiveOperators[operator], tonumber(target)
+            return tonumber(objective), WoWPro.ObjectiveOperators[operator], target
         else
             WoWPro:Warning("ParseObjective(%q): invalid operator. using ObjectiveOperators.done.", questtext)
-            return tonumber(questtext), WoWPro.ObjectiveOperators.done, nil
+            return tonumber(objective), WoWPro.ObjectiveOperators.done, nil
         end
     else
          WoWPro:Warning("ParseObjective(%q): invalid objective. using ObjectiveOperators.done.", questtext)
-        return tonumber(questtext), WoWPro.ObjectiveOperators.done, nil
+        return tonumber(objective), WoWPro.ObjectiveOperators.done, nil
     end
 end
 
