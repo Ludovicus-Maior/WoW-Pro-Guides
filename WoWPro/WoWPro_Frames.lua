@@ -788,10 +788,12 @@ function WoWPro.ResetCurrentGuide()
     if not WoWProDB.char.currentguide then return end
     local GID = WoWProDB.char.currentguide
     WoWProCharDB.Guide[GID] = nil
-    for j = 1,WoWPro.stepcount do
+    if WoWPro.stepcount then
+        for j = 1,WoWPro.stepcount do
             if WoWPro.QID[j] then
                  WoWPro:WipeQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
             end
+        end
     end
     WoWPro.ClearNpcFauxQuests(GID)
     WoWPro.ClearQID2Guide(GID)
