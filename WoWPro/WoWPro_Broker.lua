@@ -215,7 +215,7 @@ function WoWPro.ValidObjective(questtext)
     end
 end
 
-function WoWPro:ValidObjectives(objectives, debug, why)
+function WoWPro.ValidObjectives(objectives, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(QIDs))
     end
