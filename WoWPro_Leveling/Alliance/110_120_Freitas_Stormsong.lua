@@ -4,6 +4,30 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-09-02 03:24
+-- Who: Chromaflo
+-- Log: Minor changes. QID change, treasure and tide sage scroll, both necessary for achievemnt.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29629/view
+-- Date: 2018-09-01 23:04
+-- Who: jovieve
+-- Log: Updated hearth step so it will autocomplete and added coords to nearest FP in case they don't want to hearth.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29628/view
+-- Date: 2018-09-01 22:55
+-- Who: jovieve
+-- Log: Improved flow of Fetching Wrex and simultaneous quests.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29627/view
+-- Date: 2018-09-01 20:44
+-- Who: jovieve
+
+-- URL: http://wow-pro.com/node/3767/revisions/29626/view
+-- Date: 2018-09-01 19:32
+-- Who: jovieve
+-- Log: Some rare QIDs updated (hopefully fixed). Detective Mildenhall quest now uses new QO functions.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29620/view
 -- Date: 2018-08-28 22:38
 -- Who: Chromaflo
 -- Log: Changed some WPs, added QIDs and notes for possible new syntax for QO
@@ -143,7 +167,7 @@ K Squall|QID|98765|QO|1|M|57.00,75.80|T|Squall|N|Silver Elite to kill for loot a
 f Brennadam|M|59.72,70.56|AVAILABLE|52793|N|From Anna Skyspirit.|
 A Circle the Wagons|QID|52793|M|60.17,70.51|N|From Marilyn Hood.|
 A Sometimes Less Is More|QID|52796|M|60.17,70.51|N|From Marilyn Hood.|
-h Brennadam|ACTIVE|51401|M|58.6,70.3|N|Set your hearth in Brennadam.|
+h The Golden Flagon|ACTIVE|51401|M|58.6,70.3|N|Set your hearth in Brennadam.|
 T Carry On|QID|51401|M|59.16,69.48|N|To Taelia.|
 A A Risky Ploy|QID|49725|M|59.18,69.45|N|From Taelia.|
 C A Risky Ploy|QID|49725|M|59.13,69.06|U|155859|N|Blow the whistle in the crowd.|
@@ -158,12 +182,12 @@ A A Saur Point|QID|52795|M|64.88,76.79|N|From Mallory Hood.|
 C A Saur Point|QID|52795|M|65.36,77.99|N|Kill Sourtooth in the cave.|
 T A Saur Point|QID|52795|M|64.88,76.79|N|Back to Mallory.|
 C Circle the Wagons|QID|52793|M|63.29,77.74|QO|2|N|Darion is here.|
-K Ice Sickle|QID|98765|QO|1||M|64.55,81.24|T|Ice Sickle|N|Found at the top of the waterfall - path up to him starts here. Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
+K Ice Sickle|QID|52327|QO|1||M|64.55,81.24|T|Ice Sickle|N|Found at the top of the waterfall - path up to him starts here. Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
 C Sometimes Less Is More|QID|52796|M|63.10,75.25|US|N|Finish up with saurolisks.|
-H Brennadam|ACTIVE|52796|N|Hearth back to Brennadam. Check this step off manually if you just want to ride there.|
+H The Golden Flagon|TZ|Brennadam|ACTIVE|52796|M|60.17,70.51|N|Hearth back to Brennadam or ride there.|
 T Sometimes Less Is More|QID|52796|M|60.17,70.51|N|To Marilyn Hood.|
 T Circle the Wagons|QID|52793|M|60.17,70.51|N|To Marilyn Hood.|
-K Foreman Scripps|QID|98765|QO|1|M|64.43,65.93|T|Foreman Scripps|N|Silver Elite to kill for loot and achievement.|ITEM|160471|RANK|2|
+K Foreman Scripps|QID|49951|QO|1|M|64.43,65.93|T|Foreman Scripps|N|Silver Elite to kill for loot and achievement.|ITEM|160471|RANK|2|
 T House Stormsong|QID|49703|M|63.40,64.73|N|To Brother Pike.|
 A Unnecessary Duress|QID|49705|M|63.40,64.73|N|From Brother Pike.|
 A Proclamation Investigation|QID|49706|M|63.40,64.73|N|From Brother Pike.|
@@ -187,7 +211,7 @@ T Forced Labor|QID|49887|M|64.60,62.11|N|To Samuel Williams.|
 A Bound and Oppressed|QID|49792|M|64.60,62.12|N|From Samuel Williams.|
 C Bound and Oppressed|QID|49792|M|64.60,62.12|S|N|Click on the anchors as you go.|
 C Means to an End|QID|49793|M|63.25,59.53|QO|1|N|Click on the glowy item here (Tidal Kris).|
-K Sister Absinthe|QID|98765|QO|1|M|61.69,56.97|T|Sister Absinthe|N|Silver Elite to kill for loot and achievement.|ITEM|155164|RANK|2|
+K Sister Absinthe|QID|52441|QO|1|M|61.69,56.97|T|Sister Absinthe|N|Silver Elite to kill for loot and achievement.|ITEM|155164|RANK|2|
 C Means to an End|QID|49793|M|64.76,57.90|QO|2|N|Click on the glowy item here (Abyssal Beacon).|
 C The Rising Tide|QID|49794|M|65.54,60.76|QO|3|N|Kill Sister Ava on the boat.|
 C Means to an End|QID|49793|M|66.86,60.61|QO|3|N|Click on the glowy item here (Mantle).|
@@ -208,11 +232,11 @@ A The Missing Link|QID|50139|M|68.71,54.40|N|From the book on the ground here.|
 C Fabricated Fabrications|QID|49995|M|69.30,51.49|QO|1|S|N|Kill pirates and loot the blueprints.|
 C Rearmament|QID|49996|M|69.30,51.49|NC|S|N|Click on the glowing weapons in camp.|
 C The Missing Link|QID|50139|M|69.99,50.16|N|Kill Tideguard Pontus and loot the cipher.|
-K Corrupted Tideskipper|QID|52310|QO|1|M|66.96,50.19|T|Corrupted Tideskipper|N|Kill rare for loot and resources.|RANK|2|
+K Corrupted Tideskipper|QID|52121|QO|1|M|66.96,50.19|T|Corrupted Tideskipper|N|Kill rare for loot and resources.|RANK|2|
 C Fabricated Fabrications|QID|49995|M|69.30,51.49|US|N|Finish up looting blueprints.|
 C Rearmament|QID|49996|M|69.30,51.49|US|N|Finish up getting weapons.|
-K Galestorm|QID|51776|QO|1|M|71.34,54.23|T|Galestorm|N|Silver Elite to kill for loot and achievement.|ITEM|155568|RANK|2|
-K SandFang|QID|52309|QO|1|M|72.70,60.54|T|SandFang|N|Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
+K Galestorm|QID|50075|QO|1|M|71.34,54.23|T|Galestorm|N|Silver Elite to kill for loot and achievement.|ITEM|155568|RANK|2|
+K Sandfang|QID|52125|QO|1|M|72.70,60.54|T|Sandfang|N|Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
 f Mildenhall Meadery|M|68.53,64.98|ACTIVE|49995|N|Pick up this flight point to save time later.|
 T Fabricated Fabrications|QID|49995|M|66.49,56.44|N|To Samuel Williams.|
 T The Missing Link|QID|50139|M|68.71,54.40|N|To Samuel Williams.|
@@ -232,13 +256,12 @@ T Mayhem at Mildenhall Meadery|QID|50343|M|68.49,67.60|N|Ancel will be up beside
 A Detective Mildenhall|QID|50070|M|68.49,67.60|N|From Ancel Mildenhall.|
 A Cleanup Duty|QID|50359|M|68.49,67.60|N|From Ancel Mildenhall.|
 C Cleanup Duty|QID|50359|M|68.49,67.60|S|N|Kill Honey and Mead while you find the clues.|
-;For Quest "Detective Mildenhall" new syntax needed!!!
-C Honey Soaked Boot|QID|50070|QO|2|M|68.52,69.00|NC|N|Pick up the boot in the middle of the path.|
-C Misplaced Flask|QID|50070|QO|3|M|67.92,70.94|NC|N|Pick up the flask on the barrel.|
+C Honey Soaked Boot|QID|50070|QO|1<1|M|68.52,69.00|NC|N|Pick up the boot in the middle of the path.|
+C Misplaced Flask|QID|50070|QO|1<2|M|67.92,70.94|NC|N|Pick up the flask on the barrel.|
 N Honey Bear|M|66.48,71.17|CC|N|Note this for later; it may be a rep related quest. Clearly a nod to Winnie.|
-C Rough Map|QID|50070|QO|4|M|69.22,70.75|NC|N|Pick up the map.|
-C Brewmaster's Treatise Vol. 1|QID|50070|QO|1|M|69.15,69.32|N|Pick up the book on the table.|
-C Crystalized Honey Fragment|QID|50070|QO|5|M|70.82,69.66|N|Pick up the honey inside the house.|
+C Rough Map|QID|50070|QO|1<3|M|69.22,70.75|NC|N|Pick up the map.|
+C Brewmaster's Treatise Vol. 1|QID|50070|QO|1<4|M|69.15,69.32|N|Pick up the book on the table.|
+C Crystalized Honey Fragment|QID|50070|QO|1<5|M|70.82,69.66|N|Pick up the honey inside the house.|
 C Cleanup Duty|QID|50359|M|68.49,67.60|US|N|Finish up the killing.|
 T Detective Mildenhall|QID|50070|M|70.79,69.61|N|To Ancel Mildenhall.|
 T Cleanup Duty|QID|50359|M|70.79,69.61|N|To Ancel Mildenhall.|
@@ -248,8 +271,9 @@ C Don't Go in the Basement|QID|50064|M|70.79,69.61|QO|2|N|Kill the Brue.|
 T Don't Go in the Basement|QID|50064|M|71.04,69.25|N|To Ancel Mildenhall.|
 A Recovering Raimond|QID|50161|M|71.04,69.25|N|From Ancel Mildenhall.|
 C Recovering Raimond|QID|50161|M|71.63,67.99|QO|1|N|Back outside. Pick up the other boot.|
-;new syntax 3/3 Journal Pages
-C Recovering Raimond|QID|50161|M|72.42,69.68;72.32,70.56;73.37,72.27|CS|QO|2|N|Pick up three of the pages lying on the ground around here.|
+C First Journal Page|QID|50161|QO|2<1|M|72.42,68.6|N|Pick up first journal page from the ground.|
+C Second Journal Page|QID|50161|M|72.32,70.56|QO|2<2|N|Pick up the second page.|
+C Last Journal Page|QID|50161|M|73.37,72.27|QO|2<3|N|Pick up the third page.|
 T Recovering Raimond|QID|50161|M|74.12,72.72|N|To Raimond Mildenhall in the cave.|
 A Royal Succession|QID|50168|M|74.12,72.72|N|From Raimond Mildenhall.|
 A Sticky Situation|QID|50162|M|74.12,72.72|N|From Raimond Mildenhall.|
@@ -265,20 +289,20 @@ A Free the Farmhands|QID|50264|M|72.81,72.25|N|From Sam Robinson.|
 A Fetching Wrex|QID|50493|M|72.81,72.25|N|From Sam Robinson.|
 A The Bee Team|QID|50165|M|72.81,72.24|N|From Raimond Mildenhall.|
 A Wendigo Away|QID|50534|M|72.81,72.24|N|From Raimond Mildenhall.|
-C Free the Farmhands|QID|50264|M|71.52,71.80|QO|1|S|N|Rescue farmers from the hives.|
-C The Bee Team|QID|50165|M|71.52,71.80|S|N|Kill the maulers.|
-;maybe new syntax because there are those 5 caves and the missing dog Wrex can be found randomly
-C Fetching Wrex|QID|50493|M|68.71,72.91|N|Follow the mountains south-westerly.  There are 5 caves in the area - click on the small honey globs in them until you find Wrex.|
-C Wendigo Away|QID|50534|M|65.83,78.70|N|Kill yeti inside this cave.|
-C The Bee Team|QID|50165|M|71.52,71.80|US|N|Kill the maulers.|
-C Free the Farmhands|QID|50264|M|71.52,71.80|US|N|Finish up with farmers.|
-T Free the Farmhands|QID|50264|N|To Raimond, who is beside you.|
-T Fetching Wrex|QID|50493|N|To Raimond.|
-T The Bee Team|QID|50165|N|To Raimond, again.|
-T Wendigo Away|QID|50534|O|N|And one more...|
+C Free the Farmhands|QID|50264|M|71.52,71.80|QO|1|S|NC|N|Rescue farmers from the hives.|
+C The Bee Team|QID|50165|M|71.52,71.80|S|N|Kill Highlands Maulers and Honey-Crazed Maulers.|
+C Fetching Wrex|QID|50493|M|68.71,72.91|S|NC|N|Stay along the foot of the mountain to the southwest and check inside caves for small honey globs until you find Wrex.|
+C Wendigo Away|QID|50534|M|65.83,78.70|N|Kill Bonerender.|
+C Fetching Wrex|QID|50493|M|66.30,75.89;66.93,77.79;68.04,78.55;69.11,76.53;70.93,75.01|CS|US|NC|N|Continue checking caves for honey globs and Wrex.|
+C Free the Farmhands|QID|50264|M|71.52,71.80|US|NC|N|Finish freeing farmers.|
+C The Bee Team|QID|50165|M|71.52,71.80|US|N|Finish killing Highlands Maulers and Honey-Crazed Maulers.|
+T Free the Farmhands|QID|50264|N|To Raimond Mildenhall, who is beside you.|
+T Fetching Wrex|QID|50493|N|To Raimond Mildenhall.|
+T The Bee Team|QID|50165|N|To Raimond Mildenhall.|
+T Wendigo Away|QID|50534|O|N|To Raimond Mildenhall.|
 A Back to the Lab|QID|50553|N|From Raimond Mildenhall, who should still be next to you.|
 T Back to the Lab|QID|50553|M|70.75,69.18|N|Back to the basement "lab".|
-H Brennadam|ACTIVE|51552|N|Give Wrex a pat if you want. It doesn't do anything, but it makes you feel good. \n\nHearth to Brennadam or ride back down to the flight point and fly there.|
+H The Golden Flagon|TZ|Brennadam|ACTIVE|51552|M|68.55,65.00|N|Give Wrex a pat if you want. It doesn't do anything, but it makes you feel good. \n\nHearth to Brennadam or ride back down to the flight point and fly there.|
 T The Days Are Just Packed|QID|51552|M|57.60,66.38|N|To Sergeant Calvin.|
 A Bombs, Away|QID|49744|M|57.60,66.38|N|From Sergeant Calvin.|
 A You Have Their Orders|QID|49745|M|57.64,66.47|N|From Mayor Roz.|
@@ -706,6 +730,7 @@ T The Proof of Piracy|QID|52132|M|41.13,54.90|N|To Moxie Lockspinner.|
 T All Laid Out For Us|QID|50742|M|42.98,56.60|N|To Leo Shealds back in Deadwash.|
 A Walking-Around Money|QID|50956|M|42.98,56.60|N|Right next to Leo.|
 T Walking-Around Money|QID|50956|M|42.98,56.60|N|Right next to Leo.|
+$ Old Ironbound Chest|QID|99999|M|43.60,48.22;42.85,47.23|CS|N|Go in the Cave. Take right tunnel. Through the end on the left.|RANK|2|
 A Having a Blast|QID|51711|M|46.88,47.68|N|From Felecia Gladstone, after a short run to next area.|
 A Grizzled|QID|51752|M|46.88,47.68|N|From Felecia Gladstone.|
 A WANTED: War Gore|QID|52876|M|46.75,48.12|N|From the sign on the post.|
@@ -753,6 +778,7 @@ C Smells like Trouble|QID|50908|M|59.09,48.60|QO|2|N|Inside the cave.|
 K Taja the Tidehowler|QID|98765|M|60.00,46.00|N|Silver Elite to kill for loot and achievement.|ITEM|154449|RANK|2|
 C Smells like Trouble|QID|50908|M|56.60,47.41|QO|1|N|Inside the cave.|
 C WANTED: Yarsel'ghun|QID|51217|M|55.63,39.95|N|Take the road directly above this cave to reach  Yarsel'ghun.|
+$ Ancient Tidesage Scroll|ACH|13051;5|M|56.05,38.48|Besides of Yarsel'ghun. For the achievment "Legends of the Tidesages"|RANK|2|
 C Dangerous Game|QID|50910|M|60.67,50.28|US|N|Finish with Keenblades.|
 C Never Outgunned|QID|50909|M|60.67,50.28|US|N|Finish up with weapons.|
 A Bring out the Big Gun|QID|51159|M|60.21,54.55|N|From cannon on road.|
@@ -838,9 +864,9 @@ T Sealed Fate|QID|51320|M|73.88,30.89|N|To Brother Pike.|
 A The Final Ascent|QID|51319|M|73.88,30.89|N|From Brother Pike.|
 C The Final Ascent|QID|51319|M|75.60,27.05|U|160056|N|Open the gate with the Ringer. Then mount up and follow Brother Pike.|
 T The Final Ascent|QID|51319|M|75.61,27.02|N|To Brother Pike.|
-A Storm's End|QID|51846|M|75.61,27.02|N|From Brother Pike.|
-C Storm's End|QID|51846|M|75.61,27.02|N|Kill the big baddie.|
-T Storm's End|QID|51846|M|78.32,28.85|N|To Brother Pike after he runs up.|
+A Storm's End|QID|50824|M|75.61,27.02|N|From Brother Pike.|
+C Storm's End|QID|50824|M|75.61,27.02|N|Kill the big baddie.|
+T Storm's End|QID|50824|M|78.32,28.85|N|To Brother Pike after he runs up.|
 A Shrine of the Storm: Whispers Below|QID|50825|M|78.32,28.85|N|Dungeon quest.|
 A A New Dawn|QID|50733|M|78.32,28.85|N|From Taelia.|
 f Shrine of the Storm|M|78.32,28.85|N|From Galeheart.|
