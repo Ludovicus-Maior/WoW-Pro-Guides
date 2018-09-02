@@ -1465,6 +1465,7 @@ function WoWPro.NextStep(k,i)
 		-- Skipping reputation quests if their requirements are met --
 		if WoWPro.rep and WoWPro.rep[k] and not skip then
 			local rep, factionIndex, temprep, replvl, flip = string.split(";",WoWPro.rep[k])
+			flip = WoWPro.toboolean(flip)
 			WoWPro:dbp("ConsiderRep(%d, %s [%s] %s)",k,WoWPro.action[k],WoWPro.step[k],WoWPro.rep[k]);
 			if temprep == nil then temprep = "neutral-exalted" end
 			local repmin,repmax = string.split("-",temprep)
