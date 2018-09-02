@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2018-09-02 12:14
+-- Who: Emmaleah
+-- Log: Play thru on live / Rank 1 and Rank 3 tested on two diff toons. Hopefully got all the kinks worked out.
+
+-- URL: http://wow-pro.com/node/3772/revisions/29560/view
 -- Date: 2018-08-19 23:52
 -- Who: Emmaleah
 -- Log: add TZ|Terrace of the Devoted|
@@ -62,7 +67,7 @@ N Rares (aka Silver Elite)|ACH|12943|N|Once you hit 120, the rares reset daily, 
 
 t Vol'dun|QID|47513|M|57.81,44.34|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 A Discreet Discussions|QID|47313|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47513|
-C Discreet Discussions|QID|47313|M|50.12,37.41;52.20,37.54;54.26,35.85|CN|Z|Dazar'alor|NC|N|Outside and down either long set of stairs to find Enforcers to question. Continue down to find the next one, etc.  You are looking for Enforcers Sekal, Gortok, and Dakanji.|
+C Discreet Discussions|QID|47313|M|50.12,37.41;52.20,37.54;54.26,35.85|CN|Z|Dazar'alor|QO|1|NC|N|Outside and down either long set of stairs to find Enforcers to question. Continue down to find the next one, etc.  You are looking for Enforcers Sekal, Gortok, and Dakanji.|
 
 ;to open up Jani's mysterious trashpiles
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
@@ -120,7 +125,7 @@ T Missing Business|QID|50739|M|55.20,48.38|N|To Vivi.|
 T Freshly Squeezed|QID|51574|M|56.76,50.53|N|To Meerah.|
 T Restorative Venom|QID|47319|M|56.79,50.54|N|To Kiro.|
 A A Balm to Calm|QID|47320|M|56.79,50.54|N|From Kiro.|PRE|47319;51574|
-C A Balm to Calm|QID|47320|M|56.84,50.52|U|150759|NC|N|Click on the potion to give Kaja the restorative balm.|
+C A Balm to Calm|QID|47320|M|56.84,50.52|U|150759|T|Bladeguard Kaja|NC|N|Target Kaja and click on the potion to give Kaja the restorative balm.|
 T A Balm to Calm|QID|47320|M|56.84,50.52|N|To Bladeguard Kaja.|
 
 A Searching for Survivors|QID|47317|M|56.84,50.52|N|From Bladeguard Kaja.|PRE|47320|
@@ -283,7 +288,7 @@ C Rescue the Relics|QID|48871|M|48.25,75.17|NC|US|N|Finish collecting the Relics
 T Expedite the Excavation|QID|48872|M|47.41,72.72|N|To Amre.|
 T Rescue the Relics|QID|48871|M|47.31,72.73|N|To Maaz.|
 A Power of the Overseer|QID|50535|M|47.31,72.73|N|From Maaz.|RANK|2|PRE|48871;48872|
-C Power of the Overseer|QID|50535|M|48.89,76.67|T|Overseer Nerzet|N|Kill Overseer Nerzet to obtain the Azerite Shard.|
+K Overseer Nerzer|QID|50535|M|48.89,76.67|T|Overseer Nerzet|N|Kill Overseer Nerzet to obtain the Azerite Shard.|
 T Power of the Overseer|QID|50535|M|47.32,72.72|N|To Maaz.|
 T Sulthis' Stone|QID|50561|M|47.06,75.72|N|To Serrik.|
 A Unlikely Allies|QID|47324|M|47.06,75.72|N|From Serrik.|PRE|50561|
@@ -303,12 +308,12 @@ A Vol'duni Fried Chicken|QID|48533|M|43.69,76.77|N|From Sezahjin.|RANK|2|PRE|485
 C Vol'duni Fried Chicken|QID|48533|M|42.64,73.81|U|152572|S|N|Use the provided bow to shoot (and roast) the Buzzards as you pass thru.|
 T I Heard You Lost the Herd|QID|48530|M|42.12,76.19|N|To Mugjabu.|
 A Alpacas Gone Wild|QID|48532|M|42.12,76.19|N|From Mugjabu.|RANK|2|PRE|48530|
+A Lost in Zem'lan|QID|48324|M|38.89,77.32|N|From Norah.|RANK|2|
+A WANTED: Taz'raka the Traitor|QID|51162|M|38.85,76.97|N|From a Wanted Poster.|RANK|2|
 C Alpacas Gone Wild|QID|48532|M|40.43,73.62|S|NC|U|152570|N|Use the Alpeca Whistle while close to alpecas as you go. They may go crazy and attack, but at ~70%, they go home.|
 C Mystery Meat|QID|48531|M|38.76,68.83|S|N|Kill Dung Beetles and loot their Innards as you go.|
 A Wasteland Survivor|QID|48585|M|40.43,73.62|N|From a Backpack still worn by a dead adventurer.|RANK|2|
 C Wasteland Survivor|QID|48585|M|37.31,73.44|NC|S|N|Pick up Scavenged Supplies as you go.|
-A Lost in Zem'lan|QID|48324|M|38.89,77.32|N|From Norah.|RANK|2|
-A WANTED: Taz'raka the Traitor|QID|51162|M|38.85,76.97|N|From a Wanted Poster.|RANK|2|
 C WANTED: Taz'raka the Traitor|QID|51162|M|35.54,70.80|N|Kill Taz'raka the Traitor.|T|Taz'raka the Traitor|
 C Wasteland Survivor|QID|48585|M|37.31,73.44|US|NC|N|Finish scavenging the supplies.|
 C Mystery Meat|QID|48531|M|38.76,68.83|US|N|Finish collecting Dung Beetle Innards as you head back.|
@@ -317,6 +322,7 @@ t WANTED: Taz'raka the Traitor|QID|51162|M|38.88,77.32|N|To Norah.|
 T Alpacas Gone Wild|QID|48532|M|42.13,76.17|N|To Mugjabu.|
 C Vol'duni Fried Chicken|QID|48533|M|42.64,73.81|US|U|152572|N|Finish shooting down the Buzzards.|
 T Wasteland Survivor|QID|48585|M|43.40,75.36|N|To Razgaji.|
+A Snarltooth's Last Laugh|QID|48534|M|42.13,76.17|N|From Mugjabu.|RANK|2|PRE|48532;48533;48531|
 T Mystery Meat|QID|48531|M|43.70,76.80|N|To Sezahjin.|
 T Vol'duni Fried Chicken|QID|48533|M|43.71,76.80|N|To Sezahjin.|
 A The Chef's Apprentice|QID|48655|M|43.71,76.80|N|From Sezahjin.|RANK|2|PRE|48532;48533;48531|
@@ -326,16 +332,15 @@ A They Might Be Delicious|QID|48657|M|43.39,78.63|N|From Junji (inside the crate
 C Savage Saurolisks|QID|48656|M|42.12,80.19|S|N|Kill some Scaleclaw Saurolisks as you go.|
 C They Might Be Delicious|QID|48657|M|42.70,82.07|S|NC|N|Click on the eggs to collect.|
 K Scaleclaw Broodmother|QID|48960|QO|1|ITEM|161039|M|44.59,80.14|T|Scaleclaw Broodmother|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|
+K Snarltooth|QID|48534|QO|1|M|42.27,84.28|T|Snarltooth|N|Kill Snarltooth and loot his head.|RANK|2|
 C They Might Be Delicious|QID|48657|M|42.70,82.07|US|NC|N|Finish up collecting the eggs.|
 C Savage Saurolisks|QID|48656|M|42.12,80.19|US|N|Finish up with the Scaleclaw Saurolisks.|
 T Savage Saurolisks|QID|48656|M|43.39,78.63|N|To Junji (inside the crate).|
 T They Might Be Delicious|QID|48657|M|43.39,78.63|N|To Junji (inside the crate).|
-A Snarltooth's Last Laugh|QID|48534|M|42.13,76.17|N|From Mugjabu.|RANK|2|PRE|48532;48533;48531|
-K Snarltooth|QID|48534|QO|1|M|48.27,84.28|T|Snarltooth|N|Kill Snarltooth and loot his head.|RANK|2|
 T Snarltooth's Last Laugh|QID|48534|M|42.13,76.17|N|To Mugjabu.|
-B Zanchuli Reserve|QID|48846|M|42.87,76.31|L|160499|N|Buy a bottle of Zanchuli Reserve for the drunk around the corner.|RANK|2|
 A Liquid Motivation|QID|48846|M|43.23,76.96|N|From Taz'jin.|RANK|2|PRE|48657;48656;48534|
-C Liquid Motivation|QID|48846|M|43.23,76.96|CHAT|N|Give the bottle to Taz'jin.|
+B Zanchuli Reserve|ACTIVE|48846|M|42.87,76.31|L|160499|N|Buy a bottle of Zanchuli Reserve from  Taz'gin for the drunk around the corner.|RANK|2|
+C Liquid Motivation|QID|48846|M|43.23,76.96|CHAT|N|Give the bottle to Zauljin.|
 T Liquid Motivation|QID|48846|M|43.39,75.36|N|To Razgari.|
 A Tongo|QID|48850|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48846|
 A Stolen Goods|QID|48790|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48846|
@@ -352,7 +357,7 @@ A Arming the Tribe|QID|48847|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48850;5160
 C Arming the Tribe|QID|48847|M|42.40,76.26|CHAT|N|Run around the outpost arming villagers.|
 T Arming the Tribe|QID|48847|M|43.39,75.36|N|To Razgari.|
 A Mojambo|QID|51668|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48847|
-C Mojambo|QID|51668|M|43.39,73.84|U|160525|N|Unless you have strong AE, I recommend clearing out some of the dueling exiles. Throw down Tongo's head to start fight with Mojambo.|
+C Mojambo|QID|51668|M|43.39,73.84|U|160525|N|Throw down Tongo's head to start fight with Mojambo. You do not need to worry about the rest of the NPCs in the arena.|
 
 A Saurid Surprise|QID|50901|M|42.19,72.06|N|From Jani, after rummaging in her mysterious trash pile.|PRE|47442|RANK|3|
 C Saurid Surprise|QID|50901|M|42.19,72.06|QO|1|CHAT|N|Ask Jani for the disguise.|
@@ -362,15 +367,17 @@ T Saurid Surprise|QID|50901|M|42.19,72.06|N|To Jani.|
 
 T Mojambo|QID|51668|M|43.39,75.36|N|To Razgari.|
 A The Ashvane Threat|QID|51773|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|51668|
-A WANTED: Za'roco|QID|51161|M|43.14,76.57|N|From Wanted Poster.|RANK|2|PRE|51668|;C/T steps missing
+A WANTED: Za'roco|QID|51161|M|43.14,76.57|N|From Wanted Poster.|RANK|2|PRE|51668|
 A The Tortaka Tribe|QID|51772|M|43.70,76.79|N|From Sezahjin.|RANK|3|PRE|51668|
+
+K Za'roco|QID|51161|M|47.30,73.69|T|Za'roco the Drifter|QO|1|N|Kill Za'roco the Drifter.|RANK|2|
 
 R Randall's Refuge|ACTIVE|51773|M|45.05,79.72;45.43,83.28|CS|N|Run down off the ruins and follow the road to Randall's Refuge.|RANK|2|
 T The Ashvane Threat|QID|51773|M|45.65,82.32|N|To Randall Redmond.|
 A Dead Men Tell No Tales|QID|47870|M|45.65,82.32|N|From Randall Redmond.|RANK|2|PRE|51773|
 A Seafaring Necessities|QID|47871|M|45.65,82.32|N|From Randall Redmond.|RANK|2|PRE|51773|
-K Expedition Leader Augustus|QID|47871|QO|1|T|Expedition Leader Augustus|N|Kill Augustus and loot his hat.|RANK|2|
-A If the Key Fits...|QID|47939|M|47.60,86.15|N|From Keerin.|RANK|2|PRE|51773|
+K Expedition Leader Augustus|QID|47871|QO|1|M|46.22,86.38|T|Expedition Leader Augustus|N|Kill Augustus and loot his hat.|RANK|2|
+A If the Key Fits...|QID|47939|M|47.60,86.15|N|Fom Keerin.|RANK|2|PRE|51773|
 C If the Key Fits...|QID|47939|M|47.60,86.15|S|N|Loot the Ashvane mobs you kill to collect keys.|
 K Boatswain Hendricks|QID|47870|QO|2|M|48.04,86.88|T|Boatswain Hendricks|RANK|2|
 C Nautical Map|QID|47871|QO|2|NC|M|47.97,87.05|N|Pick up the nautical map off the crates.|
@@ -380,22 +387,29 @@ C Weathered Spyglass|QID|47871|NC|QO|3|M|46.73,87.31|N|Pick up the Weathered Spy
 C If the Key Fits...|QID|47939|M|47.60,86.15|US|N|Finish collecting the keys.|
 T If the Key Fits...|QID|47939|M|47.60,86.15|N|To Keerin.|
 A The Master Key|QID|49227|M|47.60,86.15|N|From Keerin.|RANK|2|PRE|47939|
-C The Master Key|QID|49227|QO|1|M|49.65,88.35|N|Into the mine and take the first left, follow it to find Overseer Morrison. Kill and loot for his master key.|
+T Overseer Morrison|QID|49227|QO|1|T|Overseer Morrison|M|49.65,88.35|N|Into the mine and take the first left, follow it to find Overseer Morrison. Kill and loot for his master key.|
 C The Master Key|QID|49227|QO|2|M|49.65,88.35|S|N|Free Vulpera as you head out.|
 K Azer'tor|QID|49252|QO|1|M|49.08,89.49|T|Azer'tor|N|Right wall from Overseer Morrison to a small alcove in the mine to find this Silver Elite. Kill and loot for artifact power and resources.|RANK|2|
-C The Master Key|QID|49227|QO|2|M|49.65,88.35|S|N|Finish freeing Vulpera before you leave the mine.|
+C The Master Key|QID|49227|QO|2|M|49.65,88.35|US|N|Finish freeing Vulpera before you leave the mine.|
 T The Master Key|QID|49227|M|47.60,86.15|N|To Keerin.|
-$ Mine Cart/Ashvane Spoils|QID|50920|M|46.60,88.03;44.67,91.51|CS|N|Hop in this mine cart for a ride down to some treasure. Loot the Ashvane Spoils for artifact power and resources.|RANK|2|
+$ Mine Cart/Ashvane Spoils|QID|50237|M|46.60,88.03;44.67,91.51|CS|N|Hop in this mine cart for a ride down to some treasure. Loot the Ashvane Spoils for artifact power and resources.|RANK|2|
 N Ashvane Garb|ACTIVE|47870|M|44.67,91.51|U|160735|N|Now might be an excellent time to disguise yourself to pass thru the camp. (or you can just fight through.) Interestly, fighting does not destroy your disguise.|RANK|2|
 K Commodore Calhoun|QID|50905|M|43.47,91.65;42.56,92.14|CS|QO|1|ITEM|162615|T|Commodore Calhoun|N|This silver elite can be found up above overlooking the harbor. Kill and loot for artifact power and resources.|RANK|2|
 T Dead Men Tell No Tales|QID|47870|M|44.66,86.98|N|To Randall Redmond.|
 T Seafaring Necessities|QID|47871|M|44.66,86.98|N|To Randall Redmond.|
 A Captain Hartford|QID|51810|M|44.66,86.98|N|From First Mate Redmond.|RANK|2|
+A Gang Bustin'|QID|49262|M|44.79,87.57;44.61,88.24|CS|N|From Dockmaster Herrington. Must be in Ashvane disguise.|RANK|2|PRE|47871;47870|
+A Crabby Crab Stew|QID|49261|M|44.61,88.24|N|From Dockmaster Herrington.|RANK|2|PRE|47871;47870|
+C Crabby Crab Stew|QID|49261|M|44.61,88.24|N|Kill Crabs and loot their meet as you travel towards the Siren's Call (ship at docks).|
+C Gang Bustin'|QID|49262|M|44.61,88.24|N|Question the Shady Dockhands as you travel towards and while on the ship. Sometimes they become hostile. Must be in Ashvane disguise.|
 K Captain Hartford|QID|51810|QO|1|M|43.13,90.85|T|Captain Hartford|N|Captain Hartford can be found on The Siren's Call.|RANK|2|
 T Captain Hartford|QID|51810|M|43.20,90.90|N|To Captain Redmond who can be found one deck above you.|
 A The Captain's Lockbox|QID|47873|M|43.20,90.90|N|From Captain Redmond.|RANK|2|PRE|47939;47871;49227;47870|
 T The Captain's Lockbox|QID|47873|M|43.20,90.77|N|To Captain Hartford's Lockbox.|
-;missed 2 quests here, need to have on Ashvane Garb >Crabby Crew Stew|QID|49261| and Gang Bustin'|QID|49262| from Dockmaster Harrington
+C Gang Bustin'|QID|49262|M|44.61,88.24|N|Finish questioning the Shady Dockhands as you return to Dockmaster Herrington. Must be in Ashvane disguise.|
+C Crabby Crab Stew|QID|49261|M|44.61,88.24|N|Finish Collecting the crab meat as you travel back towards Dockmaster Herrington.|
+T Crabby Crab Stew|QID|49261|M|44.61,88.24|N|To Dockmaster Herrington. Must be in Ashvane disguise.|
+T Gang Bustin'|QID|49262|M|44.61,88.24|N|To Dockmaster Herrington.|
 $ Nez'ara|QID|50898|M|44.12,87.55;43.79,86.27|CS|QO|1|N|Cut the ropes to release the Ashvane's prisoner. She's rather ungreatful. Kill and loot for artifact power and resources.|RANK|2|
 
 R Port of Zem'lan|ACTIVE|48324|M|35.46,83.48|N|Avoid the Alliance camp, at Deadwood Cove as you follow the coast to the Port of Zem'lan.|RANK|2|
@@ -415,8 +429,6 @@ C My Last Day Alive|QID|51056|M|36.01,78.09|NC|QO|1|U|159757|N|Use the medallion
 C The Yard Arm of the Law|QID|51055|M|35.14,77.96|NC|QO|2|N|Free Gunner Bosanya.|
 C The Yard Arm of the Law|QID|51055|M|34.66,77.11|NC|QO|3|N|Free Jukanga the Snitch.|
 C My Last Day Alive|QID|51056|M|35.83,75.26|NC|QO|2|U|159757|N|Use the medallion here to witness his battlefield memory.|
-C Monsters of Zem'lan|QID|47647|M|34.79,80.11|US|N|Bonus Objective|
-T Monsters of Zem'lan|QID|47647|M|34.79,80.11|N|Bonus Objective - Autocompleted.|
 T The Yard Arm of the Law|QID|51055|M|35.30,83.21|N|To First Mate Jamboya.|
 T My Last Day Alive|QID|51056|M|35.30,83.21|N|To First Mate Jamboya.|
 A The Grinning Idols|QID|47499|M|35.30,83.21|N|From First Mate Jamboya.|RANK|2|PRE|51055;51056|
@@ -427,10 +439,12 @@ K Quartermaster Boonzali|QID|47499|M|33.89,81.30|QO|1|N|Kill and loot Quartermas
 K Da Cabin Boy|QID|47499|M|34.34,77.69|QO|2|N|Kill and loot Da Cabin Boy for the Idol of Immortality|T|Da Cabin Boy|RANK|2|
 K Master Gunner Torwec|QID|47499|M|32.84,78.24|QO|3|N|Kill and loot Master Gunner Torwec for the Idol of Sacrifice|T|Master Gunner Torwec|RANK|2|
 C Captain Gulnaku's Treasure|QID|49138|M|31.84,79.44|QO|1|NC|N|Walk over here to find Buried treasure.|
-C Captain Gulnaku's Treasure|QID|49138|M|31.71,79.34|QO|2|N|Kill Gulnaku to get his key.|T|Captain Gulnaku|
+K Captain Gulnaku|QID|49138|M|31.71,79.34|QO|2|N|Kill Gulnaku to get his key.|T|Captain Gulnaku|
 T Captain Gulnaku's Treasure|QID|49138|M|31.78,79.32|N|To Captain Gulnaku's Treasure.|
 K Bajiani the Slick|QID|49251|M|31.47,79.50;31.05,81.03|CS|ITEM|162622|T|Bajiani the Slick|QO|1|N|Silver Elite to kill for artifact power and resources.|RANK|2|
 C Maroon 'em with Fire|QID|51057|M|33.01,80.70|U|159774|US|NC|N|Burn the Pillaging canoes.|
+C Monsters of Zem'lan|QID|47647|M|33.28,81.75|US|N|Bonus Objective|
+T Monsters of Zem'lan|QID|47647|M|33.28,81.75|N|Bonus Objective - Autocompleted.|
 T The Grinning Idols|QID|47499|M|33.28,81.75|N|To First Mate Jamboya.|
 T Maroon 'em with Fire|QID|51057|M|33.28,81.75|N|To First Mate Jamboya.|
 A The Golden Isle|QID|51059|M|33.28,81.75|N|From First Mate Jamboya.|RANK|2|PRE|51057;47499|
@@ -453,9 +467,11 @@ A Escaping Zem'lan|QID|51062|M|30.24,86.51|N|From First Mate Jamboya.|RANK|2|PRE
 C Escaping Zem'lan|QID|51062|M|30.26,86.36|NC|N|Ride Jamboya's boat.|
 K Jumbo Sandsnapper|QID|49392|QO|1|ITEM|161107|T|Jumbo Sandsnapper|M|37.38,84.60|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|
 $ Deadwood Chest|QID|52994|M|38.84,82.90;40.57,85.74|CS|N|Follow this path to find the chest. Loot for artifact power and resources.|RANK|2|
+T WANTED: Taz'raka the Traitor|QID|51162|M|38.88,77.32|N|To Norah.|
 T Escaping Zem'lan|QID|51062|M|38.88,77.29|N|To Norah.|
 A A Strange Delivery|QID|48327|M|38.88,77.29|N|From Norah.|RANK|2|PRE|51062|
-R Zul'Ahjin|ACTIVE|47324|M|46.73,71.85|N|Run back to Aul'Ahjin to take a ride to your next area.|RANK|2|
+T Za'roco|QID|51161|M|43.41,75.36|N|To Razgari.|
+R Zul'Ahjin|ACTIVE|47324|M|46.73,71.85|N|Run back to Zul'Ahjin to take a ride to your next area.|RANK|2|
 
 ;The Three Keepers
 C Unlikely Allies|QID|47324|M|46.79,75.45|NC|N|Hop on the Pterrordax and take a ride.|
@@ -501,7 +517,7 @@ T Keep It Down!|QID|50834|M|26.21,73.67|N|To Merd Archfeld.|
 A Calldown: Cleaner|QID|50771|M|26.21,73.67|N|From Merd Archfeld.|RANK|2|PRE|50834|
 A Get Us Some Beach|QID|50775|M|26.21,73.67|N|From Merd Archfeld.|RANK|2|PRE|50834|
 A Power Problems|QID|52129|M|26.21,73.67|N|From Merd Archfeld.|RANK|2|PRE|50834|
-C Calldown: Cleaner|QID|50771|M|27.12,71.35|S|NC|N|Use the provided taarget painter to identify the targets.|U|158725|
+C Calldown: Cleaner|QID|50771|M|27.12,71.35|S|NC|N|Use the provided target painter to identify the targets.|U|158725|
 C Get Us Some Beach|QID|50775|M|27.12,71.35|S|N|Kill Siroccan to collect Piles of Sand.|
 K Sirokar|QID|51075|QO|1|M|24.70,69.86;24.57,68.46|CS|ITEM|161099|T|Sirokar|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|
 
@@ -516,11 +532,12 @@ C Calldown: Cleaner|QID|50771|M|27.12,71.35|US|NC|N|Finish marking the targets.|
 T Get Us Some Beach|QID|50775|M|26.21,73.67|N|To Merd Archfeld.|
 T Calldown: Cleaner|QID|50771|M|26.21,73.67|N|To Merd Archfeld.|
 A Awakened Elements|QID|50812|M|26.20,73.70|N|From Nerin Solvis.|RANK|2|PRE|50775;51991;50771|
-C Awakened Elements|QID|50812|M|25.87,64.77|N|Kill the Enraged Azermental.|
+K Enraged Azermental|QID|50812|QO|1|M|25.87,64.77|T|Enraged Azermental|N|Kill the Enraged Azermental.|RANK|2|
 T Awakened Elements|QID|50812|M|26.20,73.70|N|To Nerin Solvis.|RANK|2|
 
-K Scorpox|QID|51076|QO|1|ITEM|161030|M|27.31,72.39;32.75,73.71;34.43,71.41;32.66,65.47|CS|N|Silver Elite to kill for artifact power and resources.|T|Scorpox|RANK|3|;no good path to middle of nowhere
+K Scorpox|QID|51076|QO|1|ITEM|161030|M|28.17,72.14;32.75,73.71;34.43,71.41;32.66,65.47|CS|N|Silver Elite to kill for artifact power and resources.|T|Scorpox|RANK|3|;no good path to middle of nowhere
 
+R Whistlebloom Oasis|ACTIVE|48327|M|39.50,61.44|N|Run across the desert to the Whistlebloom Oasis and down into a cave inside the oasis.|
 T A Strange Delivery|QID|48327|M|43.50,60.21|N|To Rhan'ka.|
 A Meet the Goldtusk Gang|QID|47497|M|43.50,60.21|N|From Rhan'ka.|RANK|2|
 C Meet the Goldtusk Gang|QID|47497|M|43.37,60.15|CHAT|QO|2|N|Meet Volni.|
@@ -533,8 +550,8 @@ A Rhan'ka's Lost Friend|QID|47498|M|43.51,60.21|N|From Rhan'ka.|RANK|2|PRE|47497
 
 R Dead Man's Pass|ACTIVE|47501|M|38.85,50.90|N|And we are off to find some scorpids.|RANK|2|
 C Dirty Work for Dirty Drinks|QID|47501|M|35.90,50.25|QO|1|S|N|Kill scorpids and loot their Caustic Scorpid Blood|
-K Kamid the Trapper|QID|50528|M|34.46,50.32;35.10,51.81|CS|ITEM|161038|QO|1|T|Kamid the Trapper|N|Wind up the rocky path to find this Silver Elite to kill for artifact power and resources.|RANK|2|
-C Rhan'ka's Lost Friend|QID|47498|M|36.92,50.45|QO|1|NC|N|1/1 Zulsan's Cracked Skull|
+K Kamid the Trapper|QID|50528|M|36.51,50.23;35.10,51.81|CS|ITEM|161038|QO|1|T|Kamid the Trapper|N|Wind up the rocky path to find this Silver Elite to kill for artifact power and resources.|RANK|2|
+C Rhan'ka's Lost Friend|QID|47498|M|36.92,50.45|QO|1|NC|N|Pick up Zulsan's Cracked Skull inside this little alcove.|
 C Dirty Work for Dirty Drinks|QID|47501|M|35.90,50.25|QO|1|US|N|Finish collecting the Caustic Scorpid Blood|
 T Rhan'ka's Lost Friend|QID|47498|M|37.41,51.10|N|To Rhan'ka.|
 T Dirty Work for Dirty Drinks|QID|47501|M|37.41,51.10|N|To Rhan'ka.|
@@ -581,10 +598,10 @@ C A Goldtusk Greeting|QID|48322|M|43.42,59.96|QO|5|NC|N|Show Bladeguard Tarkaj h
 T A Goldtusk Greeting|QID|48322|M|43.51,60.21|N|To Rhan'ka.|
 A Ruins-Level Marketing|QID|48840|M|43.51,60.21|N|From Rhan'ka.|RANK|2|PRE|48322|
 
-K Zunashi The Exile|QID|51115|M|44.01,52.67;43.89,54.08|CS|QO|1|ITEM|161119|T|Zunashi The Exile|N|Through the skeletal jaw and down into this underground cave to find Silver Elite and kill it. Loot for artifact power and resources.|RANK|3|;don't have qid because I couldnt kill him. (this is the WQ QID)
-
+R The Bone Pit|ACTIVE|48840|M|44.81,55.84|RANK|3|
+K Zunashi The Exile|QID|48319|M|44.01,52.67;43.89,54.08|CS|QO|1|ITEM|161119|T|Zunashi The Exile|N|Through the skeletal jaw and down into this underground cave to find Silver Elite and kill it. Loot for artifact power and resources.|RANK|3|
 R Court of Zak'rajan|ACTIVE|48840|M|44.49,45.30|N|Across the Desert for the next area.|RANK|2|
-C WANTED: Sandscout Vesarik|QID|51165|M|43.23,45.90|S|N|This is a group quest so you may want to keep your eye out for someone else to help. You will be close for several quests.|
+K Sandscout Vesarik|QID|51165|QO|1|M|43.23,45.90|S|T|Sandscout Vesarik|N|This is a group quest so you may want to keep your eye out for someone else to help. You will be close for several quests.|
 T Ruins-Level Marketing|QID|48840|M|45.39,46.18|N|To Kenzou.|
 A Inconvenient Spirits|QID|49001|M|45.39,46.18|N|From Kenzou.|RANK|2|PRE|48840|
 A They've Got Golems|QID|48334|M|45.39,46.15|N|From Tacha.|RANK|2|
@@ -603,23 +620,23 @@ A Siphoning Souls|QID|48331|M|45.39,46.14|N|From Tacha.|RANK|2|PRE|48334;49001;4
 A The Strongest Rope in Vol'dun|QID|48335|M|45.39,46.19|N|From Kenzou.|RANK|2|PRE|48334;49001;48332|
 C The Strongest Rope in Vol'dun|QID|48335|M|47.03,43.81|S|N|Kill and loot the spiders to get Sandspinner Silk.|
 C Siphoning Souls|QID|48331|M|47.54,42.33|U|154051|S|N|Use the Salvaged Soulcatcher Totem before the golem's die to siphen off their souls.|
-C An Army's Arsenal|QID|49139|M|46.08,42.79|QO|2|N|Kill Specter of Mugabu.|
-C An Army's Arsenal|QID|49139|M|48.33,44.46|QO|1|S|N|Kill Specter of Jam'jen.|
+K Specter of Mugabu|QID|49139|M|46.08,42.79|QO|2|T|Specter of Mugabu|N|Kill Specter of Mugabu.|
+K Specter of Jam'jen|QID|49139|M|48.33,44.46|QO|1|T|Specter of Jam'jen|N|Kill Specter of Jam'jen.|
 C Siphoning Souls|QID|48331|M|47.54,42.33|U|154051|US|N|Use the Salvaged Soulcatcher Totem before the golem's die to siphen off their souls.|
-C The Strongest Rope in Vol'dun|QID|48335|M|47.03,43.81|N|Kill and loot the spiders to get Sandspinner Silk.|
+C The Strongest Rope in Vol'dun|QID|48335|M|47.03,43.81|US|N|Kill and loot the spiders to get Sandspinner Silk.|
 T The Strongest Rope in Vol'dun|QID|48335|M|45.40,46.17|N|To Kenzou.|
 T Siphoning Souls|QID|48331|M|45.40,46.14|N|To Tacha.|
 T An Army's Arsenal|QID|49139|M|45.36,46.15|N|To Omi.|
 A Zandalari Treasure Trove|QID|48330|M|45.36,46.15|N|From Omi.|RANK|2|PRE|48335;48331;49139|
-C Zandalari Treasure Trove|QID|48330|M|47.28,41.63|N|Kill Zak'rajan the Undying.|
-T Zandalari Treasure Trove|QID|48330|M|45.37,46.15|N|To Omi.|
+K Zak'rajan the Undying|QID|48330|QO|1|M|47.28,41.63|T|Zak'rajan the Undying|N|Kill Zak'rajan the Undying.|
 K Ranishu Ravager|QID|50883|M|45.90,47.68|L|158910|N|Kill the Ranishu mobs in the area to get a "Charged Ranishu Antennae."|PRE|47442|RANK|3|
 $ Mysterious Trashpile|QID|50883|M|46.98,46.55|ITEM|158910|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|PRE|47442|
-C WANTED: Sandscout Vesarik|QID|51165|M|43.23,45.90|US|N|If you are going to do this quest, now is the time, because we are leaving this area.|
+T Zandalari Treasure Trove|QID|48330|M|45.37,46.15|N|To Omi.|
+K Sandscout Vesarik|QID|51165|QO|1|M|43.23,45.90|T|Sandscout Vesarik|US|N|If you are going to do this quest, now is the time, because we are leaving this area.|
 
 ;Storming the Spire
 R Bwoljiin's Fall|ACTIVE|49662|M|29.52,50.50;40.20,44.79;42.95,37.32|CS|N|Follow the road thru the Forward Camp, Temple Incursion and Bonetrail Gulch to find Vorrik.|RANK|-1|
-R Bwoljiin's Fall|ACTIVE|49662|M|42.86,37.48|RANK|3|
+R Bwoljiin's Fall|ACTIVE|49662|M|42.86,37.48|RANK|2|N|Follow the road to Vorrik.|
 T The Missing Key|QID|49662|M|42.92,35.77|N|To Vorrik.|
 A Infiltrating the Empire|QID|50745|M|42.92,35.77|N|From Vorrik.|PRE|49662|
 R Conqueror's Path|ACTIVE|50745|M|42.90,33.89;44.02,34.51;45.09,34.77|CS|N|Up the stairs, and across the bridge to follow Vorrik.|
@@ -674,17 +691,15 @@ T Infuriating the Emperor|QID|50750|M|51.95,28.68|N|To Vorrik.|
 T Relics of Sethraliss|QID|50752|M|51.95,28.68|N|To Vorrik.|
 A The Fall of Emperor Korthek|QID|50550|M|51.95,28.68|N|From Vorrik.|PRE|50750;50752|
 C The Fall of Emperor Korthek|QID|50550|M|51.95,28.68|QO|1|CHAT|N|Tell Vorrik you are ready.|
-C The Fall of Emperor Korthek|QID|50550|M|52.04,27.33|QO|2|N|Kill Emperor Korthek.|
+K Emperor Korthek|QID|50550|M|52.04,27.33|QO|2|T|Emperor Korthek|N|Kill Emperor Korthek.|
 T The Fall of Emperor Korthek|QID|50550|M|51.99,27.72|N|To Vorrik.|
 
 ;
 A Sanctuary Under Siege|QID|50751|M|51.99,27.72|N|From Vorrik.|PRE|50550|
 A Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|LVL|-120|N|Autoaccepted.|RANK|2|
-C Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|S|N|Kill Faithless and pickup focus items as you work your way out of Skycaller's Spire. Note you get a special action button (once you pick up a staff) that will do damage to the faithless.|
-K Warmother Captive|QID|50658|M|51.50,31.50;50.80,30.97|CS|QO|1|ITEM|161103|T|Warmother Captive|N|Silver Elite to kill for artifact power and resources.|RANK|2|
-C Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|US|N|Kill Faithless and pickup focus items as you work your way out of Skycaller's Spire. Note you get a special action button (once you pick up a staff) that will do damage to the faithless.|
+C Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|N|Kill Faithless and pickup focus items as you work your way out of Skycaller's Spire. Note you get a special action button (once you pick up a staff) that will do damage to the faithless.|
 t Skycaller Shutdown|QID|50805|M|54.39,25.26|N|Autocompleted.|
-
+K Warmother Captive|QID|50658|M|51.50,31.50;50.80,30.97|CS|QO|1|ITEM|161103|T|Warmother Captive|N|Silver Elite to kill for artifact power and resources.|RANK|2|
 K Skycarver Krakit|QID|50686|M|51.35,36.38|QO|1|T|Skycarver Krakit|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|
 R Conqueror's Path|ACTIVE|49668|M|51.17,34.79|CS|N|Run down to the area below the bridge.|
 C Light Up the Gulch|QID|49668|M|50.77,32.92|QO|1|NC|U|158896|N|Throw the torch at the oil jugs to burn the West slave market.
@@ -711,8 +726,8 @@ F Sanctuary of the Devoted|ACTIVE|50751|M|47.30,35.24|TZ|Terrace of the Devoted|
 t WANTED: Sandscout Vesarik|QID|51165|M|26.87,52.87|N|To Zareen.|
 T Sanctuary Under Siege|QID|50751|M|26.98,53.11;26.53,52.57;27.09,52.56|CS|N|Vorrik is on the upper level.|
 A Atul'Aman|QID|50617|M|27.09,52.56|N|From Vorrik.|PRE|50751|
-F Goldtusk Inn|ACTIVE|50617|M|27.65,50.33|N|Take a flight to Goldtusk Inn from Flightmaster Vethiss.|RANK|2|
-R Abandoned Passage|ACTIVE|50617|M|31.70,56.52;36.67,60.22;37.16,67.21;42.50,68.44|N|Head over to the Abandoned Passage to meet up with Vorrik.|RANK|-1|
+F Goldtusk Inn|ACTIVE|50617|M|27.65,50.33|TZ|Whistlebloom Oasis|N|Take a flight to Goldtusk Inn from Flightmaster Vethiss.|RANK|2|
+R Abandoned Passage|ACTIVE|50617|M|31.70,56.52;36.67,60.22;37.16,67.21;42.50,68.44|CS|N|Head over to the Abandoned Passage to meet up with Vorrik.|RANK|-1|
 R Abandoned Passage|ACTIVE|50617|M|42.50,68.44|N|Head over to the Abandoned Passage to meet up with Vorrik.|RANK|2|
 T Atul'Aman|QID|50617|M|43.06,68.21|N|To Vorrik.|
 A The Abandoned Passage|QID|50904|M|43.06,68.21|N|From Vorrik.|PRE|50617|
@@ -724,7 +739,7 @@ A Defeat Jakra'zet|QID|50702|M|55.64,36.33|Z|Atul'Aman|N|From Warguard Rakera.|P
 K General Jakra'zet|QID|50702|M|64.45,36.91|Z|Atul'Aman|T|General Jakra'zet|QO|1|N|After he becomes attackable, Kill Jakra'zet.|
 T Defeat Jakra'zet|QID|50702|M|27.09,52.64|N|To Warguard Rakera.|
 A Informing the Horde|QID|50703|M|27.09,52.64|N|From Warguard Rakera.|PRE|50702|
-A Temple of Sethraliss: Avatar of the Loa|QID|50551|M|27.09,52.56|N|From Vorrik. this is a dungeon quest.|
+A Temple of Sethraliss: Avatar of the Loa|QID|50551|M|27.09,52.56|NA|N|From Vorrik. this is a dungeon quest.|
 H The Great Seal|ACTIVE|49040|M|27.65,50.32|N|Hearth or take a flight to Zuldazar from Vethiss.|RANK|-1|
 
 R The Forgotten Marsh|ACTIVE|51772|M|27.10,50.51|N|If you wanna finish out the rest of the quests / rares/ treasures in the zone Head over to Vorrik's Sanctum for more adventure.|RANK|3|
@@ -799,7 +814,7 @@ C Offering for the Loa|QID|47928|M|56.56,10.24|QO|1|CHAT|N|Deliver the Offering.
 T Offering for the Loa|QID|47928|M|56.56,10.24|N|To Kimbul.|
 A The Curse of Mepjila|QID|47580|M|56.56,10.24|N|From Kimbul.|RANK|3|PRE|47928|
 C The Curse of Mepjila|QID|47580|M|56.58,10.27|QO|1|U|151826|NC|N|Use the Spirit Mask.|
-C The Curse of Mepjila|QID|47580|M|60.90,13.12|QO|2|N|Kill Summoner Mepjila.|
+K Summoner Mepjila|QID|47580|M|60.90,13.12|QO|2|T|Summoner Mepjila|N|Kill Summoner Mepjila.|
 T The Curse of Mepjila|QID|47580|M|56.53,10.18|N|To Kimbul.|
 A Wrath of the Tiger|QID|47576|M|56.53,10.18|N|From Kimbul.|RANK|3|PRE|47580|
 C Wrath of the Tiger|QID|47576|M|56.64,10.34|QO|1|CHAT|N|Tell Kimbul you are ready.|
@@ -811,7 +826,7 @@ T Mark of the Loa|QID|47578|M|56.52,10.14|N|To Kimbul.|
 $ Lost Offerings of Kimbul|QID|52992|M|58.05,10.87;56.75,10.06;57.04,11.19|CS|N|This treasure is located on top (not inside) of the temple. Path starts here.|RANK|3|
 
 R Tortaka Refuge|ACTIVE|50703|M|57.25,13.83;57.64,16.74;59.91,20.26;61.10,21.02|CS|N|Remember that treasure at Atul'Aman. Time to go get it now.|RANK|3|
-F Goldtusk Inn|ACTIVE|50703|M|61.92,21.67|N|At Scroll of Flight.|RANK|3|
+F Goldtusk Inn|ACTIVE|50703|M|61.92,21.67|TZ|Whistlebloom Oasis|N|At Scroll of Flight.|RANK|3|
 $ Grayal's Last Offering|QID|51093;51094|M|43.58,62.11;48.25,61.81;49.16,46.66;48.20,64.69|CS|N|Up to the entrance of Atul'Aman, thru the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
 H The Great Seal|ACTIVE|50703|N|Return to the Great Seal.|RANK|3|
 A Pick next zone|AVAILABLE|47512;47513;47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|
