@@ -194,7 +194,7 @@ function WoWPro:QuestAvailible(QIDs, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QuestAvailible(%s)",tostring(QIDs))
     end
-    local value = QidMapReduce(QIDs,true,";","+",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailible", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,";","+",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailible", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QuestAvailible(%s) return %s",tostring(QIDs),tostring(value))
     end
