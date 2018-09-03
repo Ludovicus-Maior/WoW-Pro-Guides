@@ -1116,7 +1116,7 @@ function WoWPro.NextStep(k,i)
 	    -- Availible quests: not complete  --
 	    if WoWPro.available[k] then
 	        local available = WoWPro.available[k]
-	        if not WoWPro:QuestAvailible(available) then
+	        if not WoWPro:QuestAvailible(available, true, "Elidion") then
 	            skip = true
 	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently complete or active")
 	            break
@@ -1260,6 +1260,13 @@ function WoWPro.NextStep(k,i)
 	            skip = true
 	            break
 	        end 
+        end
+
+        -- C step implicit completion
+        if (WoWPro.action[k] == "C") and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and (not WoWPro.questtext[k]) then
+            if QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
+                WoWPro.CompleteStep(k,"Implicit criteria met")
+            end
         end
 
         -- Scenario objectives
