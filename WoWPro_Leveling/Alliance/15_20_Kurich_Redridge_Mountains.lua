@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2018-09-04 20:28
+-- Who: Ludovicus
+-- Log: Fixed WANTED caps error
+
+-- URL: http://wow-pro.com/node/3215/revisions/29148/view
 -- Date: 2018-02-24 17:49
 -- Who: Ludovicus_EditBot
 -- Log: King Anduin Wrynn
@@ -169,9 +174,9 @@ WoWPro:GuideIcon(guide,"ACH",4902)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Redridge Mountains|QID|26503|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are Threat to the Kingdom from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and Hero's Call: Redridge Mountains! available from both Hero's Callboards in Stormwind City, as well as from King Anduin Wrynn. |
+R Redridge Mountains|QID|26503|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are [Threat to the Kingdom] from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and [Hero's Call: Redridge Mountains!] available from both Hero's Callboards in Stormwind City, as well as from King Anduin Wrynn. |
 
-A Wanted: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|RANK|2|
+A WANTED: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|RANK|2|
 A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|RANK|2|
 T Hero's Call: Redridge Mountains!|QID|28563|M|15.32,64.86|N|To Watch Captain Parker on top of the tower.|O|
 T Hero's Call: Redridge Mountains!|QID|26365|M|15.32,64.86|N|To Watch Captain Parker on top of the tower.|O|
@@ -186,7 +191,7 @@ C Franks and Beans|QID|26506|US|M|20.46,64.70|N|Kill any Tarantulas, Condors, an
 T Franks and Beans|QID|26506|M|15.71,65.27|N|To Darcy Parker.|
 T Still Assessing the Threat|QID|26503|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
 A Parker's Report|QID|26505|PRE|26503|M|15.31,64.82|N|From Watch Captain Parker on top of the tower.|
-T Wanted: Redridge Gnolls|QID|26504|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
+T WANTED: Redridge Gnolls|QID|26504|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
 
 f Lakeshire|M|29.48,53.77|N|At Ariena Stormfeather.|QID|26761|
 r Repair, Sell Junk|QID|26505|S|ACTIVE|26505|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|
