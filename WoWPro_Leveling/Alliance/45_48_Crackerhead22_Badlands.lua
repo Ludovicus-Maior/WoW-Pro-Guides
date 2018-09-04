@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2018-09-04 21:32
+-- Who: Ludovicus
+-- Log: Added missing CN tag on [The Day that Deathwing Came: The Real Story]
+
+-- URL: http://wow-pro.com/node/3247/revisions/29576/view
 -- Date: 2018-08-23 00:11
 -- Who: jovieve
 -- Log: Updated old style QO
@@ -233,7 +238,7 @@ C The Day that Deathwing Came|QID|27713|M|41.97,43.60|N|Run through the scar, pu
 T The Day that Deathwing Came|QID|27713|M|26.33,62.25|N|To Theldurin the Lost.|
 A The Day that Deathwing Came: The Real Story|QID|27714|PRE|27713|M|26.38,62.55|N|From Lucien Tosselwrench.|
 C Shrink the World|QID|27714|QO|1|NC|N|Use Ability #1, until you get large enough.|; Grow large enough to reach the clouds: 1/1
-C The Day that Deathwing Came: The Real Story|QID|27714|QO|2|M|35.3,50.7;39.6,59.8;49.2,57.4;33.8,37.4;17.1,65.5;14.3,53.4|NC|N|Use the "World Enlarger" ability, then hunt for clouds. The waypoints are a few of the spots where a cloud could be.|
+C The Day that Deathwing Came: The Real Story|QID|27714|QO|2|M|35.3,50.7;39.6,59.8;49.2,57.4;33.8,37.4;17.1,65.5;14.3,53.4|CN|NC|N|Use the "World Enlarger" ability, then hunt for clouds. The waypoints are a few of the spots where a cloud could be.|
 C The Day that Deathwing Came: The Real Story|QID|27714|QO|3|M|18.7,64.4|NC|N|Look up for the "Sun" in the sky, huge orange-ish ball, click on it.|
 T The Day that Deathwing Came: The Real Story|QID|27714|M|26.26,62.35|N|To Lucien Tosselwrench.|
 A The Day that Deathwing Came: What Really Happened|QID|27715|PRE|27714|M|26.24,62.38|N|From Martek the Exiled.|
