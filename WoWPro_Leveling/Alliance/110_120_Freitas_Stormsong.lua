@@ -4,6 +4,116 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-09-03 12:30
+-- Who: jovieve
+-- Log: Removed CC tag that was accidentally reintroduced.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29658/view
+-- Date: 2018-09-03 12:25
+-- Who: jovieve
+-- Log: First set of fixes for the nasty briar patch. Mostly Anger in a Bottle. An attempt at clearer directions for the confusing Carved Wooden Chest.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29656/view
+-- Date: 2018-09-03 09:28
+-- Who: jovieve
+-- Log: Updated QID and added T tag for Lichen King
+
+-- URL: http://wow-pro.com/node/3767/revisions/29655/view
+-- Date: 2018-09-03 09:20
+-- Who: jovieve
+-- Log: Updated A Reason to Stay to use new QO syntax
+
+-- URL: http://wow-pro.com/node/3767/revisions/29654/view
+-- Date: 2018-09-03 08:01
+-- Who: jovieve
+-- Log: Corrected vinespeaker Ratha QID from QuestsChanged info. Seems to be right this time. *fingers crossed*
+
+-- URL: http://wow-pro.com/node/3767/revisions/29653/view
+-- Date: 2018-09-03 07:31
+-- Who: jovieve
+-- Log: Changed coords for better TomTom
+
+-- URL: http://wow-pro.com/node/3767/revisions/29652/view
+-- Date: 2018-09-03 06:57
+-- Who: jovieve
+-- Log: Added QO|1 in Stop Vining so it didn't suddenly (and confusingly) display all objectives.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29651/view
+-- Date: 2018-09-03 06:51
+-- Who: jovieve
+-- Log: Commented out Whiplash step. It requires 120 and only up during WQ. It's part of the achievement for this zone, though, which sucks. So I commented it out in case Blizzard fixes it.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29648/view
+-- Date: 2018-09-03 05:01
+-- Who: jovieve
+-- Log: QID for Jakala the cruel
+
+-- URL: http://wow-pro.com/node/3767/revisions/29647/view
+-- Date: 2018-09-03 04:25
+-- Who: jovieve
+-- Log: QID for strange mushroom ring. Changed to $ step. Don't know if mushrooms spawn anymore.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29646/view
+-- Date: 2018-09-03 02:45
+-- Who: jovieve
+-- Log: Removed CC tag
+
+-- URL: http://wow-pro.com/node/3767/revisions/29645/view
+-- Date: 2018-09-03 02:35
+-- Who: jovieve
+-- Log: Better fix for Honey Bear step.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29644/view
+-- Date: 2018-09-03 02:27
+-- Who: jovieve
+-- Log: Added ACTIVE tag to Honey Bear note.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29643/view
+-- Date: 2018-09-03 02:21
+-- Who: jovieve
+-- Log: QID for Grimscowl
+
+-- URL: http://wow-pro.com/node/3767/revisions/29642/view
+-- Date: 2018-09-03 02:14
+-- Who: jovieve
+-- Log: QID for Squall
+
+-- URL: http://wow-pro.com/node/3767/revisions/29641/view
+-- Date: 2018-09-03 02:09
+-- Who: jovieve
+-- Log: Added QID for Smuggler's Chest.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29640/view
+-- Date: 2018-09-03 01:40
+-- Who: jovieve
+-- Log: Changed order of a couple steps to be more linear. Made Bombs, Away sticky. Added QID for treasure.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29639/view
+-- Date: 2018-09-03 00:32
+-- Who: jovieve
+-- Log: Added A step for lvl 120 quest with a note.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29638/view
+-- Date: 2018-09-02 23:59
+-- Who: jovieve
+-- Log: Added missing N tag that was making debug complain. Minor grammar and spelling corrections.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29635/view
+-- Date: 2018-09-02 18:57
+-- Who: Emmaleah
+-- Log: added |LVL|-120| to Weed Wacking, and changed accept/complete steps of all three bonus objectives to be consistent.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29634/view
+-- Date: 2018-09-02 17:23
+-- Who: STrek
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3767/revisions/29632/view
+-- Date: 2018-09-02 16:48
+-- Who: STrek
+-- Log: commented out bonus quest weed wacking
+
+-- URL: http://wow-pro.com/node/3767/revisions/29630/view
 -- Date: 2018-09-02 03:24
 -- Who: Chromaflo
 -- Log: Minor changes. QID change, treasure and tide sage scroll, both necessary for achievemnt.
@@ -159,11 +269,11 @@ C Time to Leave|QID|51489|M|71.80,78.82|Z|Boralus|NC|N|Head back up and hop on G
 T Time to Leave|QID|51489|M|57.89,85.93|N|To Taelia.|
 A Border Issues|QID|51490|M|57.91,85.93|N|From Taelia.|
 C Border Issues|QID|51490|M|57.00,84.00|N|Talk to guards and deal with them. Option 1 may get you in a fight – or just use option 2 to pay 15 gold.|S|
-$ Smuggler's Chest|M|58.61,83.88|N|Underneath the dock. Loot for resources and gold.|RANK|2|
+$ Smuggler's Chest|QID|49811|M|58.61,83.88|N|Underneath the dock. Loot for resources and gold.|RANK|2|
 C Border Issues|QID|51490|M|57.00,84.00|N|Talk to guards and deal with them. Option 1 may get you in a fight – or just use option 2 to pay 15 gold.|US|
 T Border Issues|QID|51490|M|57.91,85.93|N|To Taelia.|
 A Carry On|QID|51401|M|57.89,85.92|N|From Taelia.|
-K Squall|QID|98765|QO|1|M|57.00,75.80|T|Squall|N|Silver Elite to kill for loot and achievement.|ITEM|158224|RANK|2|
+K Squall|QID|52433|QO|1|M|57.00,75.80|T|Squall|N|Silver Elite to kill for loot and achievement.|ITEM|158224|RANK|2|
 f Brennadam|M|59.72,70.56|AVAILABLE|52793|N|From Anna Skyspirit.|
 A Circle the Wagons|QID|52793|M|60.17,70.51|N|From Marilyn Hood.|
 A Sometimes Less Is More|QID|52796|M|60.17,70.51|N|From Marilyn Hood.|
@@ -174,7 +284,7 @@ C A Risky Ploy|QID|49725|M|59.13,69.06|U|155859|N|Blow the whistle in the crowd.
 C A Risky Ploy|QID|49725|M|59.13,69.06|QO|2|N|"Subdue" the citizen.|
 T A Risky Ploy|QID|49725|M|59.23,68.63|N|To Brother Pike on the stairs.|
 A House Stormsong|QID|49703|M|59.23,68.63|N|From Brother Pike.|
-K Grimscowl the Harebrained|QID|98765|QO|1|M|62.17,73.84|T|Grimscowl the Harebrained|N|Silver Elite to kill for loot and achievement.|ITEM|155572|RANK|2|
+K Grimscowl the Harebrained|QID|52329|QO|1|M|62.17,73.84|T|Grimscowl the Harebrained|N|Silver Elite to kill for loot and achievement.|ITEM|155572|RANK|2|
 C Sometimes Less Is More|QID|52796|M|63.10,75.25|S|N|Kill saurolisks while you complete other quests.|
 C Circle the Wagons|QID|52793|M|63.77,73.82|QO|1|N|Lorraine is here.|
 C Circle the Wagons|QID|52793|M|64.89,76.78|QO|3|N|Mallory is here.|
@@ -258,7 +368,7 @@ A Cleanup Duty|QID|50359|M|68.49,67.60|N|From Ancel Mildenhall.|
 C Cleanup Duty|QID|50359|M|68.49,67.60|S|N|Kill Honey and Mead while you find the clues.|
 C Honey Soaked Boot|QID|50070|QO|1<1|M|68.52,69.00|NC|N|Pick up the boot in the middle of the path.|
 C Misplaced Flask|QID|50070|QO|1<2|M|67.92,70.94|NC|N|Pick up the flask on the barrel.|
-N Honey Bear|M|66.48,71.17|CC|N|Note this for later; it may be a rep related quest. Clearly a nod to Winnie.|
+$ Honey Vat|QID|50576|M|66.48,71.17|N|Click the honey vat for zome azerite resources and enjoy the nod to Winnie.|
 C Rough Map|QID|50070|QO|1<3|M|69.22,70.75|NC|N|Pick up the map.|
 C Brewmaster's Treatise Vol. 1|QID|50070|QO|1<4|M|69.15,69.32|N|Pick up the book on the table.|
 C Crystalized Honey Fragment|QID|50070|QO|1<5|M|70.82,69.66|N|Pick up the honey inside the house.|
@@ -303,20 +413,24 @@ T Wendigo Away|QID|50534|O|N|To Raimond Mildenhall.|
 A Back to the Lab|QID|50553|N|From Raimond Mildenhall, who should still be next to you.|
 T Back to the Lab|QID|50553|M|70.75,69.18|N|Back to the basement "lab".|
 H The Golden Flagon|TZ|Brennadam|ACTIVE|51552|M|68.55,65.00|N|Give Wrex a pat if you want. It doesn't do anything, but it makes you feel good. \n\nHearth to Brennadam or ride back down to the flight point and fly there.|
+
+A Ruin Has Come|QID|50417|M|59.50,68.34|LVL|120|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|
 T The Days Are Just Packed|QID|51552|M|57.60,66.38|N|To Sergeant Calvin.|
 A Bombs, Away|QID|49744|M|57.60,66.38|N|From Sergeant Calvin.|
 A You Have Their Orders|QID|49745|M|57.64,66.47|N|From Mayor Roz.|
 A Dousing the Flames|QID|49746|M|57.64,66.47|N|From Mayor Roz.|
-A The Battle for Brennadam|QID|51534|LVL|-120|M|57.55,66.32|N|Bonus objective for area.|
+A The Battle for Brennadam|QID|51534|LVL|-120|M|57.55,66.32|N|Bonus objective-Autoaccepted.|
 C The Battle for Brennadam|QID|51534|M|57.55,66.32|S|N|Complete the bonus objectives while here.|
-C Dousing the Flames|QID|49746|M|57.60,66.38|S|N|Click on the buckets of water around the area, then use extra action button on fires. You can sometimes do 2 at once.|
+C Dousing the Flames|QID|49746|M|57.60,66.38|S|NC|N|Click on the buckets of water around the area, then use extra action button on fires. You can sometimes do 2 at once.|
+C Bombs, Away|QID|49744|M|55.17,63.41|QO|1|S|NC|N|Click on the big red bombs around, mostly next to walls. If you're fast, you can also disarm the ones which are thrown from the blimps.|
+
+$ Disguised Lunchbox|QID|52326|M|58.21,63.68|N|Reached by jumping up the boxes onto the ledge. The box goes into your bags. Open it.|
 C You Have Their Orders|QID|49745|M|54.38,61.23|N|Kill and loot the Champion.|
-$ Disguised Lunchbox|M|58.21,63.68|N|Reached by jumping up the boxes onto the ledge. The box goes into your bags. Open it.|
-C Bombs, Away|QID|49744|M|55.17,63.41|QO|1|N|Click on the big red bombs around, mostly next to walls. If you're fast, you can also disarm the ones which are thrown from the blimps.|
-C Dousing the Flames|QID|49746|M|57.60,66.38|US|N|Finish up the fires.|
+C Bombs, Away|QID|49744|M|55.17,63.41|QO|1|US|NC|N|Click on the big red bombs around, mostly next to walls. If you're fast, you can also disarm the ones which are thrown from the blimps.|
+C Dousing the Flames|QID|49746|M|57.60,66.38|US|NC|N|Finish up the fires.|
 C Bombs, Away|QID|49744|M|55.08,60.76|QO|2|N|Place the bombs around these two Demolishers.|
 C The Battle for Brennadam|QID|51534|M|57.55,66.32|US|N|Finish up the bonus objective.|
-T The Battle for Brennadam|QID|51534|M|57.55,66.32|N|Turn in to pop-up.|
+T The Battle for Brennadam|QID|51534|M|57.55,66.32|N|Bonus Objective - Autocompleted.|
 T Bombs, Away|QID|49744|M|57.60,66.38|N|To Sergeant Calvin.|
 T You Have Their Orders|QID|49745|M|57.64,66.47|N|To Mayor Roz.|
 T Dousing the Flames|QID|49746|M|57.64,66.47|N|To Mayor Roz.|
@@ -335,43 +449,43 @@ C Grain Drain|QID|51314|M|53.76,68.19|N|Pick up the grain.|
 C Raiders of the Lost Crop|QID|51310|M|53.76,68.19|N|Finish killing orcs.|US|
 T Raiders of the Lost Crop|QID|51310|M|54.95,67.99|N|To Farmer Max|
 T Grain Drain|QID|51314|M|57.61,66.41|N|To Farmer Max|
-K Strange Mushroom Ring|QID|98765|QO|1|M|53.69,72.00|N|At the very bottom of this cave. When you try to loot the chest, five mushrooms will try to kill you.|ITEM|987654|RANK|2|
-K Jakala the Cruel|QID|98765|QO|1|M|53.41,64.50|T|Jakala the Cruel|N|In the basement. Speak with Doc Marrtens to start the event. Silver Elite to kill for loot and achievement.|ITEM|159179|RANK|2|
+$ Strange Mushroom Ring|QID|50024|M|53.69,72.00|N|At the very bottom of this cave. When you try to loot the chest, five mushrooms will try to kill you. Kill them first, then loot the chest.|
+K Jakala the Cruel|QID|52323|QO|1|M|53.41,64.50|T|Jakala the Cruel|N|In the basement. Speak with Doc Marrtens to start the event. Silver Elite to kill for loot and achievement.|ITEM|159179|RANK|2|
 T Checking Out the Collapse|QID|50158|M|51.59,65.97|N|To Farmer Burton|
-A Weed Whacking|QID|50133|M|51.59,65.97|N|Auto-accept on entering area.|
+A Weed Whacking|QID|50133|M|51.59,65.97|N|Bonus Objective - Autoaccepted.|LVL|-120|
 A Gadgets and Gizmos Aplenty|QID|50134|M|51.59,65.97|N|From Farmer Burton.|
 A Stop Vining!|QID|50135|M|51.59,65.97|N|From Farmer Burton.|
 C Weed Whacking|QID|50133|M|51.59,65.97|S|N|Complete the bonus objective while here.|
 C Gadgets and Gizmos Aplenty|QID|50134|M|51.59,65.97|N|Loot Malfunctioning Harvesters as you go.|S|
 C Stop Vining!|QID|50135|M|49.07,65.48;48.04,65.94|CS|QO|3|N|Head into this cave for Vinemaster Smagh.|
 K Captain Razorspine|QID|51782|QO|1|M|47.35,65.41|T|Captain Razorspine|N|Coords are inside cave area. Silver Elite to kill for loot and achievement.|ITEM|155287|RANK|2|
-K Whiplash|QID|52299|M|47.31,65.89|QO|1|T|Whiplash|N|Kill Whiplash if he is here, however, may only spawn during WQ event. Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
+;Whiplash step commented out. Rare requires 120 and WQ. Would remove it entirely, except it is on achievement list.
+;K Whiplash|QID|52299|M|47.31,65.89|QO|1|T|Whiplash|N|Kill Whiplash if he is here, however, may only spawn during WQ event. Silver Elite to kill for loot and achievement.|ITEM|987654|RANK|2|
 C Stop Vining!|QID|50135|M|46.64,64.39|QO|2|N|Orgsteen is next (coords still in cave).|
-C Stop Vining!|QID|50135|M|48.26, 63.52|N|Guff is the last one (coords still in cave).|
+C Stop Vining!|QID|50135|M|48.26, 63.52|QO|1|N|Guff is the last one (coords still in cave).|
 C Gadgets and Gizmos Aplenty|QID|50134|M|51.59,65.97|N|Finish looting Malfunctioning Harvesters.|US|
 C Weed Whacking|QID|50133|M|51.59,65.97|US|N|Finish up bonus objective.|
-T Weed Whacking|QID|50133|M|51.59,65.97|N|Turn in to pop-up.|
+T Weed Whacking|QID|50133|M|51.59,65.97|N|Bonus Objective - Autocompleted.|
 T Gadgets and Gizmos Aplenty|QID|50134|M|51.59,65.97|N|To Farmer Burton.|
 T Stop Vining!|QID|50135|M|51.59,65.97|N|To Farmer Burton.|
 A Farming Stimulator|QID|50136|M|51.59,65.96|N|From Farmer Burton.|
-C Farming Stimulator|QID|50136|M|51.59,65.96|N|Hop in the mech, and get your revenge!|
+C Farming Stimulator|QID|50136|M|48.25,64.19|N|Hop in the mech, and get your revenge!|
 T Farming Stimulator|QID|50136|M|51.59,65.96|N|To Farmer Burton.|
 f The Amber Waves|M|50.75,70.22|AVAILABLE|49886|N|Pick up the flight path from Karla.|
 A Follow Your Nose|QID|49886|M|51.01,70.17|N|From Houndmaster Archibald.|
 A Sic 'Em!|QID|49960|M|51.01,70.17|N|From Houndmaster Archibald.|
 C Follow Your Nose|QID|49886|M|51.01,70.17|S|N|Use your extra action button FROM RANGE on the red clouds of dust and kill the Tunneler that comes out. If you get too close, they will not count for the quest.|
-K Vinespeaker Ratha|QID|52301|M|51.49,67.78|T|Vinespeaker Ratha|N|At the bottom of the cave. Silver Elite to kill for loot and achievement.|ITEM|158299|RANK|2|
+K Vinespeaker Ratha|QID|50037|M|51.49,67.78|T|Vinespeaker Ratha|N|At the bottom of the cave. Silver Elite to kill for loot and achievement.|ITEM|158299|RANK|2|
 C Sic 'Em!|QID|49960|M|53.22,66.70|N|Razorgnarl is at the bottom of this cave.|
 C Follow Your Nose|QID|49886|M|51.01,70.17|US|N|Finish killing Tunnelers.|
 T Follow Your Nose|QID|49886|M|51.01,70.17|N|To Houndmaster Archibald.|
 T Sic 'Em!|QID|49960|M|51.01,70.17|N|To Houndmaster Archibald.|
 T There's Gold in Them There Fields|QID|50157|M|50.75,73.18|N|To Farmer Goldfield upstairs.|
 A A Pocketful of Shells|QID|50041|M|50.76,73.15|N|From Farmer Goldfield.|
-;new syntax for QID 50065
 A A Reason to Stay|QID|50065|M|49.85,73.54|N|From a pocketwatch on the ground.|
 C A Pocketful of Shells|QID|50041|M|50.76,73.15|S|U|160561|N|'Skin' the boars with this after you kill them.|
-C Battered Toy Sword|QID|50065|QO|2|M|50.04,71.45|N|Pick up the sword.|
-C Tarnished Locket|QID|50065|M|48.89,71.23|N|Pick up the locket in the building.|
+C Battered Toy Sword|QID|50065|QO|1<2|M|50.04,71.45|N|Pick up the sword.|
+C Tarnished Locket|QID|50065|QO|1<3|M|48.89,71.23|N|Pick up the locket in the building.|
 C A Pocketful of Shells|QID|50041|M|50.76,73.15|US|U|160561|N|Finish with boars.|
 T A Pocketful of Shells|QID|50041|M|50.76,73.15|N|To Farmer Goldfield.|
 T A Reason to Stay|QID|50065|M|50.76,73.14|N|To Farmer Goldfield.|
@@ -382,18 +496,18 @@ A Golden Fields Forever|QID|50088|M|50.75,73.13|N|From Farmer Goldfield.|
 C Golden Fields Forever|QID|50088|M|51.59,75.17|N|Pick carnations here, on the other side of tree.|
 T Golden Fields Forever|QID|50088|M|50.67,77.03|N|To Goldfield by the grave.|
 A Deal's Off|QID|50622|M|50.67,77.03|N|From Farmer Goldfield. Get this quest right away. If you DC or wait too long Farmer Goldfield may disappear and you will have to ride to Farmer Burton to pick up this quest.|
-K The Lichen King|QID|52476|QO|1|M|51.78,79.05|N|Aka - Bolivar Spore-Dragon. Silver Elite to kill for loot and achievement.|ITEM|155222|RANK|2|
+K The Lichen King|QID|50974|QO|1|M|51.78,79.05|T|The Lichen King|N|Silver Elite to kill for loot and achievement.|RANK|2|
 T Deal's Off|QID|50622|M|44.76,64.53|N|To Mayor Roz in the house.|
 A Look Out!|QID|50354|M|44.76,64.53|N|From Mayor Roz.|
 A Boaring Company|QID|50353|M|44.73,64.61|N|From Sergeant Calvin.|
 C Look Out!|QID|50354|M|42.50,67.69|S|U|156516|N|Kill Briarback Lookouts. You can use the dart to put them to sleep.|
-;K step works only the first time?
-K Briarbacks|ACTIVE|-51354|L|157849|M|42.50,67.69|N|Kill the various Briarbacks until you get Foul-Smelling Flask.|
-A Anger in a Bottle|QID|51354;50367|M|42.50,67.69|N|Automatically accepts.|
-C Anger in a Bottle|QID|51354;50367|M|66.21,43.59|S|N|The mobs you have to kill anyway will drop the quest items.|
+K Briarbacks|QID|50367|S|L|157849|M|42.50,67.69|N|Kill the various Briarbacks until you get Foul-Smelling Flask.|
+A Anger in a Bottle|QID|50367|M|42.50,67.69|N|Automatically accepts.|O|
+C Anger in a Bottle|QID|50367|M|66.21,43.59|S|N|You have a while to complete this quest, and the mobs you have to kill anyway will drop the quest items.|
 A Totems, Totems, Totems!|QID|50111|M|44.22,70.28;44.04,72.44|CS|N|Head up to the highlands, and accept the quest from the totem.|
 C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|1|NC|N|Destroy the same totem.|
-$ Carved Wooden Chest|QID|99999|M|43.97,73.55;44.39,75.36|CS|N|Jump from here to platform with blue fire on it. Chest is in the Cave.|
+K Briarbacks|QID|50367|US|L|157849|M|42.50,67.69|N|Kill the various Briarbacks until you get Foul-Smelling Flask.|
+$ Carved Wooden Chest|QID|52429|M|43.45,73.15;44.44,75.24|CS|N|Follow the path up, then at the divot in the ledge, very carefully back off the ledge so that you land on the middle platform with blue fire. Then go into a cave to get this treasure.|
 R Free Farmer|QID|50353|M|45.44,72.50|CC|N|Free the first farmer.|
 C Totems, Totems, Totems!|QID|50111|M|46.07,74.48|QO|4|NC|N|Southern totem here.|
 R Two More Farmers|QID|50353|M|46.23,72.73;47.25,74.32|CS|N|Go out of the cave and find two more farmers down the right path in this cave.|
@@ -420,11 +534,11 @@ C Run For the Hills|QID|50365|M|44.86,77.33|QO|2|N|Destroy the stockpile inside 
 C Run For the Hills|QID|50365|M|45.82,77.07;43.54,78.58|CS|QO|3|N|Final stockpile in this cave with another crate.|
 C Steal Them Back|QID|50340|M|42.72,78.85|N|Anohtre crate here is you need one more.|
 C War Pigs|QID|50363|M|46.65,73.86|US|N|Finish collecting pigs.|
-C Anger in a Bottle|QID|51354;50367|M|66.21,43.59|US|N|Keep killing Briarbacks until you have 10 foul-smelling samples.|
+C Anger in a Bottle|QID|50367|M|66.21,43.59|US|N|Keep killing Briarbacks until you have 10 foul-smelling samples.|
 T Steal Them Back|QID|50340|M|46.65,73.82|N|Back to Sergeant Calvin.|
 T War Pigs|QID|50363|M|46.65,73.86|N|To Sergeant Calvin.|
 T Run For the Hills|QID|50365|M|46.65,73.86|N|To Sergeant Calvin.|
-T Anger in a Bottle|QID|51354;50367|M|46.65,73.82|N|To Sergeant Calvin.|
+T Anger in a Bottle|QID|50367|M|46.65,73.82|N|To Sergeant Calvin.|
 A Terror of the Kraul|QID|50368|M|46.64,73.85|N|From Sergeant Calvin.|
 C Terror of the Kraul|QID|50368|M|45.84,74.41|N|Follow the blue flames all the way to the back of the cave to kill Bramblefist.|
 T Terror of the Kraul|QID|50368|Z|Thornheart!Dungeon|M|71.22,52.33|N|To Sergeant Calvin.  (note this coord is in a cave).|
@@ -778,7 +892,7 @@ C Smells like Trouble|QID|50908|M|59.09,48.60|QO|2|N|Inside the cave.|
 K Taja the Tidehowler|QID|98765|M|60.00,46.00|N|Silver Elite to kill for loot and achievement.|ITEM|154449|RANK|2|
 C Smells like Trouble|QID|50908|M|56.60,47.41|QO|1|N|Inside the cave.|
 C WANTED: Yarsel'ghun|QID|51217|M|55.63,39.95|N|Take the road directly above this cave to reach  Yarsel'ghun.|
-$ Ancient Tidesage Scroll|ACH|13051;5|M|56.05,38.48|Besides of Yarsel'ghun. For the achievment "Legends of the Tidesages"|RANK|2|
+$ Ancient Tidesage Scroll|ACH|13051;5|M|56.05,38.48|N|Beside Yarsel'ghun. For the achievement "Legends of the Tidesages"|RANK|2|
 C Dangerous Game|QID|50910|M|60.67,50.28|US|N|Finish with Keenblades.|
 C Never Outgunned|QID|50909|M|60.67,50.28|US|N|Finish up with weapons.|
 A Bring out the Big Gun|QID|51159|M|60.21,54.55|N|From cannon on road.|
@@ -827,8 +941,8 @@ A A House Divided|QID|50612|M|66.16,47.44|N|From Unknown.|
 T A House Divided|QID|50612|M|63.16,43.15|N|Run up the hill.  To Brother Pike.|
 A The Storm Awakens|QID|50777|M|63.16,43.15|N|From Brother Pike.|
 A Twisted Intentions|QID|50778|M|63.11,43.16|N|From Samuel Williams.|
-A A Clean Slate|QID|50779|LVL|-120|N|Bonus objective auto-accepted upon entering area.|
-C A Clean Slate|QID|50779|S|N|Kill mobs and click stuff as you run around.|
+A A Clean Slate|QID|50779|LVL|-120|N|Bonus objective - autoaccepted.|
+C A Clean Slate|QID|50779|S|N|Kill mobs and click stuff as you run around to complete this bonus objective.|
 C The Storm Awakens|QID|50777|M|61.32,41.46|S|N|Click on doors and friendly mobs as you go.|
 A Oathbound|QID|50780|M|60.89,41.37|N|From Tideguard Victoria.|
 C Twisted Intentions|QID|50778|M|60.08,41.66|QO|1|N|Kill the Tempest.|
@@ -836,7 +950,7 @@ $ Hidden Scholar's Chest|QID|99999|M|59.9, 39.1|CS|N|Run up the stairs and onto 
 C Oathbound|QID|50780|M|59.14,38.71|N|Jump down into the couryard and loot from the fountain. Kill the mobs that spawn, then loot again.|
 C Twisted Intentions|QID|50778|M|61.77,38.09|QO|2|N|Kill the Tidefury.|
 C A Clean Slate|QID|50779|M|61.32,41.46|N|Finish up bonus objective.|
-T Clean Slate|QID|50779|M|61.32,41.46|N|Turn in to pop-up.|
+T Clean Slate|QID|50779|M|61.32,41.46|N|Bonus Objective - Autocompleted.|
 C The Storm Awakens|QID|50777|M|60.02,37.86|US|N|Finish up.|
 T The Storm Awakens|QID|50777|M|60.02,37.86|N|To Taelia.|
 T Twisted Intentions|QID|50778|M|60.02,37.86|N|To Taelia.|

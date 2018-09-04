@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2018-09-03 06:05
+-- Who: Emmaleah
+-- Log: fixed some quests that should be skipped but guide was not skipping them if you built lumber mill.
+
+-- URL: http://wow-pro.com/node/3599/revisions/29482/view
 -- Date: 2018-08-07 19:19
 -- Who: Emmaleah
 -- Log: more minor changes, but can't find why Linkslegend is experiencing it offering wrong quests, Suspect Blizzard may be marking both building quests complete when you complete either one, which would make the guide not flow correctly.
@@ -241,8 +246,8 @@ A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow.|RANK|2
 A Skulltakers in Crimson Fen|QID|35667|LEAD|35016|PRE|35151|M|46.29,69.98|N|From Marrow.|RANK|2|
 A Tangleheart|QID|35707|M|46.36,69.64|N|From Penny Clobberbottom.|ACTIVE|36474|;lumber mill
 A A Rediscovered Legend|QID|34697|PRE|35151|M|46.33,69.69|N|From Limbflayer.|ACTIVE|35880|;arena
-f Beastwatch|QID|36474;35880|M|45.98,69.23|N|At Grinslicer.|
-h Make Beastwatch your home|QID|36474;35880|M|45.98,69.72|N|At Licefeaster.|
+f Beastwatch|ACTIVE|36474;35880|M|45.98,69.23|N|At Grinslicer.|
+h Make Beastwatch your home|ACTIVE|36474;35880|M|45.98,69.72|N|At Licefeaster.|
 
 ;if sparring arena
 N Proof of Strength|ACTIVE|35880|N|To get the drops for the proof of strength bonus quests, you have to kill stuff with your champion. So use him often to improve your drop chances.|
@@ -316,7 +321,7 @@ A Fair Warning|QID|35128|M|46.03,54.75|N|From Rexxar.|PRE|36209+35041|
 A Zero Xuks Given|QID|35247|M|44,48.8|N|From Bony Xuk. Nisha will give you a ride to the area (chat option, not flightpath) if you so desire.|PRE|35041|
 C Zero Xuks Given|QID|35247|CHAT|M|44,48.8|N|Talk to Xuk and then watch the movie.|
 T Zero Xuks Given|QID|35247|M|44,48.8|N|To Spirit of Bony Xuk.|
-A Get the Xuk Out|QID|36832|M|44,48.8|N|From Spirit of Bony Xuk.|
+A Get the Xuk Out|QID|36832|M|44,48.8|N|From Spirit of Bony Xuk.|PRE|35247|
 
 $ Harvestable Precious Crystal|QID|36651|PRE|35880|M|44.55,50.76;46.12,49.95|CS|QO|1|N|Enter Glut's Burrow and you will find the crystal in the back, feel free to kill the Glut (silver elite} while you are here.|RANK|3|ITEM|$824|
 K Glut|QID|36204|M|46.2,50.8|T|Glut|L|118229|N|Kill and loot for an ilvl 534 agility trinket.|RANK|3|ITEM|118229|PRE|35880|
@@ -328,12 +333,12 @@ $ Horned Skull|QID|35056|M|42.1,66.73|QO|1|N|Loot for some Garrison Resources.|R
 K Gelgor of the Blue Flame|QID|36391|M|34.0,38.6|T|Gelgor the Blue Flame|L|118230|N|Kill and loot for an ilvl 534 versatility trinket.|PRE|35880|RANK|3|ITEM|118230|;in fissure of fury
 $ Odd Boulder|QID|36723|M|60.34,44.75|Z|Fissure of Fury@Gorgrond|N|Call Beatface (click on the rock) to expose the Aged Stone Container|PRE|35880|RANK|3|;7
 C Fair Warning|QID|35128|M|30.78,75.97|US|;Z|;Fissure of Fury|
-A A Great Escape|QID|35210|M|34.72,66.66|N|From Goren Tunnel.|;Z|;Fissure of Fury|
+A A Great Escape|QID|35210|M|34.72,66.66|N|From Goren Tunnel.|ACTIVE|35129|;Z|;Fissure of Fury|
 C A Great Escape|QID|35210|M|34.72,66.66|NC|N|Click on the mound of dirt to clear the tunnel entrance.|;Z|;Fissure of Fury|
 T Leave Every Soldier Behind|QID|35129|M|43.9,48.9|N|To Rexxar.|
 T Fair Warning|QID|35128|M|43.9,48.9|N|To Rexxar.|
 T A Great Escape|QID|35210|M|43.9,48.9|N|To Rexxar.|
-A Eye in the Sky|QID|35139|M|43.9,48.9|N|From Rexxar.|
+A Eye in the Sky|QID|35139|M|43.9,48.9|N|From Rexxar.|PRE|35210|
 C Eye in the Sky|QID|35139|M|43.9,49.0|CHAT|N|Chat with Nisha for a little ride.|
 T Eye in the Sky|QID|35139|M|43.9,48.9|N|To Rexxar.|
 A Chains of Iron|QID|35136|M|43.9,48.9|N|From Rexxar.|PRE|35139|
@@ -675,7 +680,7 @@ H Beastwatch|QID|36573;36574|PRE|35880|M|46.29,69.27|N|If you heartstone isn't s
 t The Sparring Arena|QID|35152|M|46.29,69.27|N|To Limbflayer.|
 
 ;both outpost buildings
-A Strike While the Iron is Hot|QID|36573;36574|M|46.10,70.20|N|From Durotan.|PRE|35152+35416|
+A Strike While the Iron is Hot|QID|36573;36574|M|46.10,70.20|N|From Durotan.|PRE|35152+35416|LEAD|36494|
 t Trophy of Glory: Biolante|QID|36503|M|37.28,77.02|N|To Durotan.|
 t Trophy of Glory: Crater Lord Igneous|QID|35811|M|37.28,77.02|N|To Durotan.|
 t Trophy of Glory: Charl Doomwing|QID|35815|M|37.28,77.02|N|To Durotan.|

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-09-02 19:25
+-- Who: Emmaleah
+-- Log: moved the first quest into this guide (as it should have been). 
+
+-- URL: http://wow-pro.com/node/3769/revisions/29633/view
+-- Date: 2018-09-02 17:08
+-- Who: Ludovicus
+-- Log: Playing through!
+
+-- URL: http://wow-pro.com/node/3769/revisions/29543/view
 -- Date: 2018-08-18 04:05
 -- Who: Emmaleah
 -- Log: Make bonus Objectives LVL|-120|
@@ -55,6 +65,13 @@ A Time for War|QID|53332|PRE|52544|N|From UI Alert.|
 N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 N Small Treasure Chests|QID|47485|N|In this expansion, small treasure chests are found in differant places each time rather than fixed spawn points. Blizzard puts a treasure map symbol on your minimap automatically. The fixed treasures are named in this guide.|
 N Use of Ranks|QID|47485|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures and rares that are conveniently located to the places you travel for Rank 1 steps. Set the guide to Rank 3 to get all the quests, rares and named treasures in the zone.|
+
+A Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
+t Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
+A The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|47960|
+C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the special action button.|
+T The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|To Flynn Fairwind.|
+A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|47181|
 R Tradewinds Market|QID|47485|M|75.29,25.76|CC|N|Run to the Ferry Stop in Tradewind Market (optional)|
 
 ;Ashvane Trading Company arc
@@ -84,14 +101,14 @@ T Under Their Noses|QID|50531|M|75.85,49.13|N|To Flynn Fairwind.|
 A Sampling the Goods|QID|53041|M|75.85,49.13|N|From Flynn Fairwind.|
 f Bridgeport|ACTIVE|53041|M|75.78,48.59|N|At Jeb Johnson.|
 A Left at the Port|QID|51149|M|75.06,49.72|N|From Dockmaster Leighton.|
-C Sampling the Goods|QID|53041|QO|2|M|74.75,50.14|NC|N|Pick up the Raw Azerite Sample from under the table.|
+C Sampling the Goods|QID|53041|QO|2|M|74.75,50.14|NC|N|Pick up the Raw Azerite Sample from near the table.|
 C Sampling the Goods|QID|53041|QO|1|M|75.18,50.75|NC|N|Pick up the Chemist's Notes from the table.|
 A An Overrun Mine|QID|50349|M|75.69,50.61|N|From Junior Miner Joe.|
 A The Hunters of Kennings Lodge|QID|50544|M|75.55,49.94|N|From Help Wanted Poster.|
 T Sampling the Goods|QID|53041|M|75.85,49.14|N|To Flynn Fairwind.|
 A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|
 
-R Old Drust Road|ACTIVE|51149|M|73.35,48.74|N|Cross the river and head Northwest along the Old Drust Road.|RANK|2|
+R Old Drust Road|ACTIVE|51149|M|76.52,48.97;77.27,49.52;76.02,50.02;73.60,48.91|CS|N|Backup to get to the overhead road to Old Drust Road.|RANK|2|
 R Southwind Station|ACTIVE|51149|M|66.58,51.26|N|Continue down the road until you see Southwind Station on your right.|RANK|2|
 A An Explosive Opportunity|QID|50542|M|66.69,50.03|N|From Lead Guide Zipwrench.|RANK|2|
 T Left at the Port|QID|51149|M|65.84,50.10|N|To Dockmaster Tyndall.|
@@ -104,7 +121,7 @@ A The Beauty of Marketing|QID|49531|M|67.50,55.81|N|From Wulferd Fizzbracket.|RA
 C Spring Cleaning|QID|49529|M|67.5,55.81|S|N|Pop bubbles, pick up debris and kill random stuff you can't avoid. This should get finished (or nearly so) as you go about the other objectives.|
 C Making Mysteries|QID|49897|M|68.39,59.74|S|NC|N|Click on the chickens running around.|
 C The Beauty of Marketing|QID|49531|M|67.15,56.97|NC|U|155009|QO|2|N|Use Camera, then the 1 key to take a selfie of you and the Geyser.|
-K Raging Swell|QID|50148|QO|1|M|64.80,58.82|T|Raging Swell|N|Silver Elite to kill for Treasure and Resources.|ITEM|161446|RANK|2|
+K Raging Swell|QID|50148|M|64.80,58.82|T|Raging Swell|N|Silver Elite to kill for Treasure and Resources.|ITEM|161446|RANK|2|
 C The Beauty of Marketing|QID|49531|M|67.95,57.91|NC|U|155009|QO|1|N|Use Camera, then the 1 key to take a selfie of you and a stag. Be aware stags are agressive and will attack whille you are taking pix.|
 C The Beauty of Marketing|QID|49531|M|66.67,59.38|NC|U|155009|QO|5|N|Use Camera, then the 1 key to take a selfie of you and a wolf.|
 C The Beauty of Marketing|QID|49531|M|70.15,55.87|NC|U|155009|QO|3|N|Use Camera, then the 1 key to take a selfie of you and the waterfall.|
@@ -114,7 +131,7 @@ A Inspection Gadget|QID|51426|M|64.99,60.62|N|From Parin Tinklocket.|RANK|2|;thi
 A Reverse Tinkering|QID|51430|M|64.99,60.62|N|From Parin Tinklocket.|RANK|2|;ditto
 C Inspection Gadget|QID|51426|M|64.92,63.59|NC|U|160245|S|N|Use the R.A.D.A.R. to survey as you are walking around (no it is not channeled, but it does slow your walking speed.|
 C Reverse Tinkering|QID|51430|M|65.48,64.23|S|N|Kill and loot the sentry robots to collect their V-300 Serial Plates.|
-K Kill P4-N73R4|QID|51833|M|65.2,64.52|QO|1|T|P4-N73R4|N|Silver Elite to kill for treasure and resources.|ITEM|161599|RANK|2|
+K Kill P4-N73R4|QID|51833|M|65.2,64.52|T|P4-N73R4|N|Silver Elite to kill for treasure and resources.|ITEM|161599|RANK|2|
 C Reverse Tinkering|QID|51430|M|65.48,64.23|US|N|Finish collecting the V-300 Serial Plates.|
 C Inspection Gadget|QID|51426|M|64.92,63.59|NC|U|160245|US|N|Finish surveying the area.|
 T Inspection Gadget|QID|51426|M|64.98,60.62|N|To Parin Tinklocket.|
@@ -189,9 +206,9 @@ F Bridgeport|QID|47489|M|76.68,65.42|N|At Finnia Hawkshot.|RANK|2|
 C Stow and Go|QID|47489|QO|1|M|75.85,49.14|CHAT|N|Tell Flynn you are ready.|
 C Stow and Go|QID|47489|QO|2|M|75.29,48.40|NC|N|Board The Maiden's Virtue.|
 C Stow and Go|QID|47489|QO|3|M|75.50,48.07|NC|N|Hide in Barrel of Fish|
-T Stow and Go|QID|47489|M|85.68,83.58|N|To Beachcomber Bob.|
-A The Castaways|QID|49218|M|85.68,83.58|N|From Beachcomber Bob.|
-A Lured and Allured|QID|48419|M|85.68,83.58|N|From Beachcomber Bob.|
+T Stow and Go|QID|47489|M|85.68,83.58|N|To Beachcomber Bob, who wanders.|
+A The Castaways|QID|49218|M|85.68,83.58|N|From Beachcomber Bob, who wanders.|
+A Lured and Allured|QID|48419|M|85.68,83.58|N|From Beachcomber Bob, who wanders.|
 T The Castaways|QID|49218|M|85.47,80.81|N|To Stabby Jane.|
 A My Favorite Things|QID|49178|M|85.47,80.81|N|From Stabby Jane.|
 A Silencing the Sisters|QID|49226|M|85.47,80.81|N|From Stabby Jane.|
@@ -283,12 +300,12 @@ T Aged to Perfection|QID|49290|M|76.90,85.97|N|To Carentan.|
 A Trixie Business|QID|49407|M|76.90,85.97|N|From Carentan.|
 C Missing Treasure!|QID|49409|M|77.74,85.07|QO|1|CHAT|N|Ask Ned about the buried treasure.|
 C Missing Treasure!|QID|49409|M|76.38,84.33|QO|2|CHAT|N|Ask Nub Nub about the treasure.|
-C Missing Treasure!|QID|49409|QO|3|CHAT|N|Ask Nance Barmy about the treasure.|
+C Missing Treasure!|QID|49409|M|76.13,83.05|QO|3|CHAT|N|Ask Nance Barmy about the treasure.|
 K Barman Bill|QID|50233|QO|1|M|76.48,82.62|N|Silver Elite to kill for loot and resources.|ITEM|160451|RANK|2|
 C Trixie Business|QID|49407|M|76.48,82.64|QO|1|CHAT|N|Talk to Trixie, then follow her to the out of the way corner, click off your hat "buff" and attack. Don't forget to reapply it when done.|
 T Trixie Business|QID|49407|M|76.90,85.98|N|To Carentan.|
 A Carentan's Payment|QID|49522|M|76.90,85.98|N|From Carentan.|
-C Carentan's Payment|QID|49522|M|76.88,86.02|NC|N|Open the Dusty Crate.|
+C Carentan's Payment|QID|49522|M|76.81,85.97|NC|N|Open the Dusty Crate.|
 T Carentan's Payment|QID|49522|M|76.88,86.02|N|To UI Alert.|
 A A Bad Deal|QID|49523|M|76.88,86.02|N|From UI Alert.|
 C Missing Treasure!|QID|49409|QO|4|M|75.64,80.56|NC|N|Inspect the Sandy Seaweed-covered Chest.|
