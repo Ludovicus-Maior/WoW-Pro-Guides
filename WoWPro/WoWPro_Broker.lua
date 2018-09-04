@@ -219,9 +219,9 @@ function WoWPro.ValidObjectives(objectives, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(QIDs))
     end
-    local value = QidMapReduce(QIDs,false,";","+",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "QuestAvailible", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,";","+",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "ValidObjectives", debug or quids_debug)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro:QuestAvailible(%s) return %s",tostring(QIDs),tostring(value))
+        WoWPro:dbp("WoWPro:ValidObjectives(%s) return %s",tostring(QIDs),tostring(value))
     end
     return not value
 end
@@ -1116,7 +1116,7 @@ function WoWPro.NextStep(k,i)
 	    -- Availible quests: not complete  --
 	    if WoWPro.available[k] then
 	        local available = WoWPro.available[k]
-	        if not WoWPro:QuestAvailible(available, true, "Elidion") then
+	        if not WoWPro:QuestAvailible(available) then
 	            skip = true
 	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently complete or active")
 	            break
