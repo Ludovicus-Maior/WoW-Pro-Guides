@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2018-09-04 20:27
+-- Who: Ludovicus
+-- Log: Playthrough cleanup
+
+-- URL: http://wow-pro.com/node/3213/revisions/29249/view
 -- Date: 2018-05-02 00:43
 -- Who: Ludovicus_Maior
 -- Log: Goodbye  King Varian Wrynn.
@@ -286,7 +291,7 @@ C Jango Spothide|QID|26288|M|62.28,76.43|N|Kill Jango Spothide as well as the Ri
 T Find Agent Kearnen|QID|26289|M|68.23,70.43|N|To Agent Kearnen.|
 
 A Secrets of the Tower|QID|26290|PRE|26289|M|68.23,70.43|N|From Agent Kearnen.|
-C Secrets of the Tower|QID|26290|NC|U|58112|M|70.42,74.22|N|Run past the Level 13 elites (they will agro), and into Mortwake's Tower, there use the Potion of Shrouding (it'll stop the Elites from attacking you). Run up the tower to the top, stand next to Helix Gearbreaker, and wait for Helix's Secret to be revealed.|
+C Secrets of the Tower|QID|26290|NC|U|58112|M|70.42,74.22|N|Run past the Level 13 elites (they will agro), and into Mortwake's Tower, there use the Potion of Shrouding (it'll stop the Elites from attacking you). Run up the tower to the top, stand next to Helix Gearbreaker, and wait for Helix's Secret to be revealed.|QO|1|
 T Secrets of the Tower|QID|26290|M|68.39,70.45|N|Leave the tower, then head back to Agent Kearnen. Don't worry about the elites, if they do start attacking you, keep running, they will turn back when you reach Agent Kearnen.|
 
 A Big Trouble in Moonbrook|QID|26291|PRE|26290|M|68.39,70.45|N|From Agent Kearnen.|
@@ -301,7 +306,7 @@ f Moonbrook |QID|26292|ACTIVE|26292|N|Run to Moonbrook (south-west of Sentinel H
 T To Moonbrook!|QID|26292|M|42.11,63.99|N|To Captain Alpert in Moonbrook.|
 A Propaganda|QID|26295|PRE|26292|M|42.11,63.99|N|From Captain Alpert.|
 
-K Moonbrook Thug|QID|26296|RANK|2|M|41.50,67.37|N|Kill Moonbrook Thugs until they drop a Red Bandana - the first building on the right usually has a couple in there.|L|58117|
+K Moonbrook Thug|AVAILABLE|26296|RANK|2|M|41.50,67.37|N|Kill Moonbrook Thugs until they drop a Red Bandana - the first building on the right usually has a couple in there.|L|58117|
 A Evidence Collection|QID|26296|PRE|26292|RANK|2|M|43.69,67.90|N|Accept the quest from the Red Bandana dropped by the Moonbrook Thugs.|U|58117|
 
 C Evidence Collection|QID|26296|M|42.58,72.08|N|Kill and loot the Thugs outside the Defias Hideout entrance for the Red Bandana. There are none after the first staircase. Alternatively, drop this quest (you may have inadvertantly started this quest whilst looting a corpse on your way to the Deadmines)|ACTIVE|26320|
@@ -327,13 +332,10 @@ T Secrets Revealed|QID|26319|M|42.86,65.08|N|To Thoralius the Wise.|
 A A Vision of the Past|QID|26320|PRE|26319|M|42.86,65.08|N|From Thoralius the Wise.|
 C A Vision of the Past|QID|26320|NC|U|58147|N|Enter the Defias Hideout, then follow the path up the stairs, keep going to the big cavern area. Head to the right. Follow the railway tracks until the next big cavern area, keep following tracks to the right. When the tracks go across the wooden bridge, an "instance" entrance can be seen to the right, head for that. Note, this guide will stop showing when you enter the instance. When inside, just click on the Vision of the Past, watch the cinematic, then leave the instance.|M|42.58,72.08;43.35,71.95;42.90,72.67;43.65,72.87;43.90,73.65|CS|
 
-A The Coast Isn't Clear|QID|26348|M|30.55,85.54|N|From Captain Grayson.|S|RANK|2|
-A Keeper of the Flame|QID|26347|M|30.55,85.54|N|From Captain Grayson.|S|RANK|2|
 T The Legend of Captain Grayson|QID|26371|M|30.55,85.54|N|To Captain Grayson.|
-A The Coastal Menace|QID|26349|M|30.55,85.54|N|From Captain Grayson.|S|RANK|2|
-A The Coast Isn't Clear|QID|26348|M|30.55,85.54|N|From Captain Grayson.|US|RANK|2|
-A The Coastal Menace|QID|26349|M|30.55,85.54|N|From Captain Grayson.|US|RANK|2|
-A Keeper of the Flame|QID|26347|M|30.55,85.54|N|From Captain Grayson.|US|RANK|2|
+A The Coast Isn't Clear|QID|26348|M|30.55,85.54|N|From Captain Grayson.|RANK|2|PRE|26371|
+A Keeper of the Flame|QID|26347|M|30.55,85.54|N|From Captain Grayson.|RANK|2|PRE|26371|
+A The Coastal Menace|QID|26349|M|30.55,85.54|N|From Captain Grayson.|RANK|2|PRE|26371|
 
 C The Coast Isn't Clear|QID|26348|M|33.63,84.34|S|N|Kill Murloc Tidehunters and Oracles.|
 C The Coastal Menace|QID|26349|M|34.27,84.81|N|Find, kill and loot Old Murk-Eye.|T|Old Murk-Eye|
@@ -348,11 +350,9 @@ A Captain Sanders' Hidden Treasure|QID|26355|PRE|26354|M|40.58,47.79|N|From the 
 
 C The Coast Isn't Clear|QID|26348|M|33.63,84.34|US|N|Head back to the lighthouse, and finish killing Murloc Tidehunters and Oracles.|
 
-T The Coast Isn't Clear|QID|26348|M|30.53,85.55|N|To Captain Grayson.|S|
-T Keeper of the Flame|QID|26347|M|30.55,85.49|N|To Captain Grayson.|S|
+T The Coast Isn't Clear|QID|26348|M|30.53,85.55|N|To Captain Grayson.|
+T Keeper of the Flame|QID|26347|M|30.55,85.49|N|To Captain Grayson.|
 T The Coastal Menace|QID|26349|M|30.53,85.55|N|To Captain Grayson.|
-T Keeper of the Flame|QID|26347|M|30.55,85.49|N|To Captain Grayson.|US|
-T The Coast Isn't Clear|QID|26348|M|30.53,85.55|N|To Captain Grayson.|US|
 
 T Captain Sanders' Hidden Treasure|QID|26355|M|40.65,17.05|N|To the Old Jug. You may want to run to Moonbrook then fly to Furlbrow's Pumpkin Farm. The next two steps will take you way out into the sea at the north-west of Westfall, so you're best holding off using your Hearthstone at this point.|
 A Captain Sanders' Hidden Treasure|QID|26356|PRE|26355|M|40.65,17.05|N|From the Old Jug.|
@@ -363,9 +363,9 @@ H Sentinel Hill|QID|26320|NC|M|56.45,47.57|N|Hearth to, or otherwise head back t
 
 T A Vision of the Past|QID|26320|M|56.27,47.45|N|To Marshal Gryan Stoutmantle.|
 A Rise of the Brotherhood|QID|26322|PRE|26320|M|56.27,47.45|N|From Marshal Gryan Stoutmantle.|
-C Rise of the Brotherhood|QID|26322|NC|M|56.36,47.55|N|Watch the scene.|
+C Rise of the Brotherhood|QID|26322|NC|M|56.36,47.55|N|Watch the scene.|QO|1|
 
-F Stormwind City|QID|26322|N|Fly to Stormwind City.|ACTIVE|26322|
+F Stormwind|QID|26322|N|Fly to Stormwind City.|ACTIVE|26322|
 
 T Rise of the Brotherhood|QID|26322|M|85.62,31.92|Z|Stormwind City|N|To Anduin Wrynn.|
 A Return to Sentinel Hill|QID|26370|PRE|26322|M|85.62,31.92|Z|Stormwind City|N|From Anduin Wrynn.|
@@ -373,7 +373,6 @@ A Return to Sentinel Hill|QID|26370|PRE|26322|M|85.62,31.92|Z|Stormwind City|N|F
 T Return to Sentinel Hill|QID|26370|M|56.37,49.57|N|To Marshal Gryan Stoutmantle.|
 
 A Threat to the Kingdom|QID|26761|M|56.37,49.57|N|If you're continuing your quests in Redridge, this quest from Marshal Gryan Stoutmantle, otherwise this zone guide is now finished.|PRE|26370|
-A Hero's Call: Redridge Mountains!|QID|26365|LEAD|26503|M|56.44,49.52|N|If you're continuing your quests in Redridge, this quest from Captain Danuvin, otherwise this zone guide is now finished.|
 
 ]]
 
