@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2018-09-04 20:24
+-- Who: Ludovicus
+-- Log: Azuremyst edits
+
+-- URL: http://wow-pro.com/node/3206/revisions/29664/view
+-- Date: 2018-09-04 20:23
+-- Who: Ludovicus
+-- Log: Ammen Vale edits
+
+-- URL: http://wow-pro.com/node/3206/revisions/29591/view
 -- Date: 2018-08-24 00:52
 -- Who: jovieve
 -- Log: Removed old style QO tag and fixed weird A step per Ludo's recommendation. Thanks, Ludo!
@@ -239,10 +249,6 @@
 -- Date: 2010-12-02 23:18
 -- Who: Jiyambi
 
--- URL: http://wow-pro.com/node/3206/revisions/23277/view
--- Date: 2010-12-02 23:18
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Ammen Vale (Draenai)", "Snowflake", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.49123)
 WoWPro:GuideNextGuide(guide, "SnoAzu0512")
@@ -282,26 +288,26 @@ T What Must Be Done...|QID|9293|M|49.87,37.35|N|To Botanist Taerix.|
 
 A Healing the Lake|QID|9294|PRE|9293|M|49.87,37.35|N|From Botanist Taerix.|
 T Rescue the Survivors!|QID|9283|M|51.8,42.0|N|To wandering Zaldunn.|R|Draenei|
-C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent (right click on the icon).|M|45.5,64.6|NC|
+C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent.|M|45.5,64.6|NC|U|22955|
 T Healing the Lake|QID|9294|M|49.87,37.35|N|To Botanist Taerix.|
 
 A Vindicator Aldar|QID|10304|PRE|9294|LEAD|37444|M|49.87,37.35|N|From Botanist Taerix.|
 T Vindicator Aldar|QID|10304|M|50.65,48.73|N|Speak to Vindicator Aldar.|
 
 A Spare Parts|QID|37445|PRE|10302|M|50.51,47.87|N|From Technician Zhanaa.|
-A Inoculation|QID|37444|PRE|10302|M|50.65,48.73|N|From Vindicator Aldar.|R|Draenei|
-A Inoculation|QID|9303|PRE|10302|M|50.65,48.73|N|From Vindicator Aldar.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
+A Inoculation|QID|37444|PRE|10302|M|50.65,48.73|N|From Vindicator Aldar.|R|-Draenei|
+A Inoculation|QID|9303|PRE|10302|M|50.65,48.73|N|From Vindicator Aldar.|R|Draenei|
 
 r Sell junk and repair|QID|37445|N|At Mura, close this step when done.|M|49.99,47.15|
-C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|Draenei|
-C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
+C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|-Draenei|
+C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|Draenei|
 C Spare Parts|QID|37445|N|Into the hills, through the cave. The parts are spread all over the camp.|M|58,72|
-C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|Draenei|
-C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
+C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|-Draenei|
+C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|Draenei|
 H Ammen Vale|QID|37445|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
 
-T Inoculation|QID|37444|M|50.65,48.73|N|To Vindicator Aldar.|R|Draenei|
-T Inoculation|QID|9303|M|50.65,48.73|N|To Vindicator Aldar.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
+T Inoculation|QID|37444|M|50.65,48.73|N|To Vindicator Aldar.|R|-Draenei|
+T Inoculation|QID|9303|M|50.65,48.73|N|To Vindicator Aldar.|R|Draenei|
 
 A The Missing Scout|QID|9309|PRE|9303|M|50.65,48.73|N|From Vindicator Aldar.|
 T Spare Parts|QID|37445|M|50.51,47.87|N|To Technician Zhanaa.|
