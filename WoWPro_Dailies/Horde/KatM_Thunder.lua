@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_horde
+-- Date: 2018-09-04 21:23
+-- Who: Ludovicus
+-- Log: Corrected QO on [De-Constructed]
+
+-- URL: http://wow-pro.com/node/3540/revisions/29596/view
 -- Date: 2018-08-24 09:38
 -- Who: Emmaleah
 -- Log: correct old style QOs
@@ -160,7 +165,7 @@ C Creeping Carpet-Roach Crush|QID|32489|N|Just walk or run over them.|
 C De-Constructed-Disabled Construct|QID|32255|M|44.1,81.7|N|The Disabled Construct is here.|QO|1|
 C Buried Construct|QID|32255|M|53.6,91.3|N|The Buried Construct up to its neck at the beach.|QO|2|
 C Malfunctioning Construct|QID|32255|M|46.6,72.0|N|The Malfunctioning Construct is here.|QO|4|
-C Distressed Construct|QID|32255|M|49.20,82.00;49.80,83.00;49.80,84.40;53.60,77.60;49.20,87.40|CN|N|The Distressed Construct is running around.|4|
+C Distressed Construct|QID|32255|M|49.20,82.00;49.80,83.00;49.80,84.40;53.60,77.60;49.20,87.40|CN|N|The Distressed Construct is running around.|QO|3|
 ;
 C Just Some Light Clean-Up Work|QID|32299|M|52.40,80.00;55.60,74.40;48.60,80.50;50.40,80.90|CN|N|Kill the Filth|
 T Just Some Light Clean-Up Work|QID|32299|M|0,0|N|From Amalia Penshire|;WrongM
