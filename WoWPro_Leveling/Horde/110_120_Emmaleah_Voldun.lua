@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2018-09-03 17:23
+-- Who: Emmaleah
+-- Log: add new style QOs
+
+-- URL: http://wow-pro.com/node/3772/revisions/29631/view
 -- Date: 2018-09-02 12:14
 -- Who: Emmaleah
 -- Log: Play thru on live / Rank 1 and Rank 3 tested on two diff toons. Hopefully got all the kinks worked out.
@@ -67,9 +72,12 @@ N Rares (aka Silver Elite)|ACH|12943|N|Once you hit 120, the rares reset daily, 
 
 t Vol'dun|QID|47513|M|57.81,44.34|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 A Discreet Discussions|QID|47313|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47513|
-C Discreet Discussions|QID|47313|M|50.12,37.41;52.20,37.54;54.26,35.85|CN|Z|Dazar'alor|QO|1|NC|N|Outside and down either long set of stairs to find Enforcers to question. Continue down to find the next one, etc.  You are looking for Enforcers Sekal, Gortok, and Dakanji.|
+C Discreet Discussions|QID|47313|M|50.12,37.41|Z|Dazar'alor|QO|1<1|NC|N|Outside and down either long set of stairs to find first, Enforcer Sekal.|
+C Discreet Discussions|QID|47313|M|52.20,37.54|Z|Dazar'alor|QO|1<2|NC|N|Continue down to find the next Enforcer Gortok.|
+C Discreet Discussions|QID|47313|M|54.26,35.85|Z|Dazar'alor|QO|1<3|NC|N|And down some more to find Enforcer Dakanji.|
 
 ;to open up Jani's mysterious trashpiles
+;need R Zocelo
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
 C Pests|QID|47441|M|40.58,18.88|Z|Dazar'alor|QO|1|N|Kill the little pests.|
 C Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|QO|2|NC|N|Follow the Big One.|
@@ -131,7 +139,9 @@ T A Balm to Calm|QID|47320|M|56.84,50.52|N|To Bladeguard Kaja.|
 A Searching for Survivors|QID|47317|M|56.84,50.52|N|From Bladeguard Kaja.|PRE|47320|
 A Knickknack Takeback|QID|47321|M|56.79,50.53|N|From Kiro.|PRE|47320|
 A Secrets in the Sand|QID|47316|M|56.76,50.53|N|From Meerah.|PRE|47320|
-C Secrets in the Sand|QID|47316|M|52.78,46.37;52.79,41.77;56.30,43.90;55.81,48.68|CN|S|NC|N|Keep an eye out for journal pages while you go.|
+C Secrets in the Sand|QID|47316|QO|1<1|M|55.81,48.68|NC|N|Page 1 is lying near the rock.|
+C Secrets in the Sand|QID|47316|QO|1<2|M|52.78,46.37|NC|N|Page 4 is lying on the sand in the middle of nowhere.|
+C Secrets in the Sand|QID|47316|QO|1<3|M|52.79,41.77|NC|N|Page 3 is lying just beyond the colapsed bridge.|
 A Aided Escape|QID|47322|M|54.69,42.48|N|From Neri.|RANK|2|
 A A Meal for Birds|QID|50755|M|54.75,42.40|N|From Mekaru.|RANK|2|
 C Knickknack Takeback|QID|47321|M|55.35,39.28|S|N|Kill the Faithless and reclaim the Knickknacks.|
@@ -142,10 +152,10 @@ C Knickknack Takeback|QID|47321|M|55.35,39.28|US|N|Finish collecting knicknacks.
 C A Meal for Birds|QID|50755|M|57.09,41.88|S|N|Kill Vultures and Krolusk so the Buzzards can eat.|
 K Enraged Krolusk|QID|51077|M|62.10,37.87|QO|1|T|Enraged Krolusk|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|
 C Searching for Survivors|QID|47317|M|57.43,40.64|QO|2|NC|N|Inspect Jorana.|
+C Secrets in the Sand|QID|47316|M|56.30,43.90|NC|N|The last Journal page (#2) is here on the flat area.|
 C A Meal for Birds|QID|50755|M|57.09,41.88|US|N|Finish feeding the Buzzards.|
 T Aided Escape|QID|47322|M|54.70,42.47|N|To Neri.|
 T A Meal for Birds|QID|50755|M|54.75,42.40|N|To Mekaru.|
-C Secrets in the Sand|QID|47316|M|52.78,46.37;52.79,41.77;56.30,43.90;55.81,48.68|CS|US|NC|N|Finish chasing down the Journal Pages.|
 T Knickknack Takeback|QID|47321|M|56.79,50.54|N|To Kiro.|
 T Searching for Survivors|QID|47317|M|56.83,50.52|N|To Bladeguard Kaja.|
 T Secrets in the Sand|QID|47316|M|56.83,50.52|N|To Bladeguard Kaja.|
@@ -274,7 +284,8 @@ T The Secrets of Zul'Ahjin|QID|50539|M|48.91,74.49|N|To the Crumbling Statue.|
 A Hollow, Empty Eyes|QID|48315|M|48.91,74.49|N|From the Crumbling Statue.|PRE|50539|
 A Exterminate the Vermin|QID|50596|M|49.76,75.90|N|From Foreman Jethek.|RANK|2|
 C Exterminate the Vermin|QID|50596|M|51.34,73.55|NC|S|N|Click on the ball to free the Excavators.(Note, must be in snake form)|
-C Hollow, Empty Eyes|QID|48315|M|49.85,73.18;51.05,72.34|CN|NC|N|Find the Glittering Sapphires on the ground.|
+C Hollow, Empty Eyes|QID|48315|QO|1>1|M|49.85,73.18|NC|N|Pick up the Glittering Sapphire on the ground, near the wall.|
+C Hollow, Empty Eyes|QID|48315|QO|1>2|M|51.05,72.34|NC|N|Find the other Glittering Sapphire on the rubble at the corner of the building.|
 C Exterminate the Vermin|QID|50596|M|51.34,73.55|NC|US|N|Click on the ball to free the Excavators.|
 T Hollow, Empty Eyes|QID|48315|M|48.90,74.49|N|To the Crumbling Statue.|
 A Sulthis' Stone|QID|50561|M|48.90,74.26|N|To Ancient Reliquary.|PRE|48315
@@ -332,7 +343,7 @@ A They Might Be Delicious|QID|48657|M|43.39,78.63|N|From Junji (inside the crate
 C Savage Saurolisks|QID|48656|M|42.12,80.19|S|N|Kill some Scaleclaw Saurolisks as you go.|
 C They Might Be Delicious|QID|48657|M|42.70,82.07|S|NC|N|Click on the eggs to collect.|
 K Scaleclaw Broodmother|QID|48960|QO|1|ITEM|161039|M|44.59,80.14|T|Scaleclaw Broodmother|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|
-K Snarltooth|QID|48534|QO|1|M|42.27,84.28|T|Snarltooth|N|Kill Snarltooth and loot his head.|RANK|2|
+K Snarltooth|QID|48534|QO|1|M|43.46,82.62;42.27,84.28|CS|T|Snarltooth|N|Kill Snarltooth and loot his head.|RANK|2|
 C They Might Be Delicious|QID|48657|M|42.70,82.07|US|NC|N|Finish up collecting the eggs.|
 C Savage Saurolisks|QID|48656|M|42.12,80.19|US|N|Finish up with the Scaleclaw Saurolisks.|
 T Savage Saurolisks|QID|48656|M|43.39,78.63|N|To Junji (inside the crate).|
@@ -346,9 +357,10 @@ A Tongo|QID|48850|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48846|
 A Stolen Goods|QID|48790|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48846|
 A Bandit Blades|QID|51602|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48846|
 C Bandit Blades|QID|51602|M|40.44,76.37|S|NC|N|Pick up the blades from the ground, they also can drop from the mobs in the area.|
-C Stolen Goods|QID|48790|M|40.02,75.67|S|NC|N|Pick up glowing items scattered around the Exile's camp. (Bliz has conveniently marked them with a yellow dot.)|
 K Tongo|QID|48850|M|40.65,76.02|QO|1|T|Tongo|N|Kill Tongo and loot his head.|RANK|2|
-C Stolen Goods|QID|48790|M|40.02,75.67|US|NC|N|Finish collecting the supplies.|
+C Stolen Goods|QID|48790|M|40.74,47.76|QO|1<3|NC|N|You can find Alpaca Hides, Alpaca Butter, and Sezahjin's Meat Pies in this house.|
+C Stolen Goods|QID|48790|M|40.42,75.29|QO|1<5|NC|N|Hyena Jerky and Medicinal Herbs can be found thru this underground entrance.|
+C Stolen Goods|QID|48790|M|40.02,75.67|QO|1<6|NC|N|Pick up the Fresh Water here (last of the stolen supplies).|
 C Bandit Blades|QID|51602|M|40.79,76.04|S|N|Finish collecting the blades.|
 T Tongo|QID|48850|M|43.39,75.36|N|To Razgari.|
 T Stolen Goods|QID|48790|M|43.39,75.36|N|To Razgari.|
@@ -357,7 +369,7 @@ A Arming the Tribe|QID|48847|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48850;5160
 C Arming the Tribe|QID|48847|M|42.40,76.26|CHAT|N|Run around the outpost arming villagers.|
 T Arming the Tribe|QID|48847|M|43.39,75.36|N|To Razgari.|
 A Mojambo|QID|51668|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48847|
-C Mojambo|QID|51668|M|43.39,73.84|U|160525|N|Throw down Tongo's head to start fight with Mojambo. You do not need to worry about the rest of the NPCs in the arena.|
+K Mojambo|QID|51668|M|43.39,73.84|U|160525|T|Mojambo|N|Target Mojambo and throw down Tongo's head to start fight with Mojambo. You do not need to worry about the rest of the NPCs in the arena.|
 
 A Saurid Surprise|QID|50901|M|42.19,72.06|N|From Jani, after rummaging in her mysterious trash pile.|PRE|47442|RANK|3|
 C Saurid Surprise|QID|50901|M|42.19,72.06|QO|1|CHAT|N|Ask Jani for the disguise.|
@@ -393,24 +405,24 @@ K Azer'tor|QID|49252|QO|1|M|49.08,89.49|T|Azer'tor|N|Right wall from Overseer Mo
 C The Master Key|QID|49227|QO|2|M|49.65,88.35|US|N|Finish freeing Vulpera before you leave the mine.|
 T The Master Key|QID|49227|M|47.60,86.15|N|To Keerin.|
 $ Mine Cart/Ashvane Spoils|QID|50237|M|46.60,88.03;44.67,91.51|CS|N|Hop in this mine cart for a ride down to some treasure. Loot the Ashvane Spoils for artifact power and resources.|RANK|2|
-N Ashvane Garb|ACTIVE|47870|M|44.67,91.51|U|160735|N|Now might be an excellent time to disguise yourself to pass thru the camp. (or you can just fight through.) Interestly, fighting does not destroy your disguise.|RANK|2|
+N Ashvane Garb|ACTIVE|47870|M|44.67,91.51|U|160735|N|Now might be an excellent time to disguise yourself to pass thru the camp. (or you can just fight through.) Interestly, fighting does not destroy your disguise. But the Overseer's see thru it and it will be no longer valid.|RANK|2|
 K Commodore Calhoun|QID|50905|M|43.47,91.65;42.56,92.14|CS|QO|1|ITEM|162615|T|Commodore Calhoun|N|This silver elite can be found up above overlooking the harbor. Kill and loot for artifact power and resources.|RANK|2|
 T Dead Men Tell No Tales|QID|47870|M|44.66,86.98|N|To Randall Redmond.|
 T Seafaring Necessities|QID|47871|M|44.66,86.98|N|To Randall Redmond.|
 A Captain Hartford|QID|51810|M|44.66,86.98|N|From First Mate Redmond.|RANK|2|
-A Gang Bustin'|QID|49262|M|44.79,87.57;44.61,88.24|CS|N|From Dockmaster Herrington. Must be in Ashvane disguise.|RANK|2|PRE|47871;47870|
+A Gang Bustin'|QID|49262|M|44.79,87.57;44.61,88.24|CS|U|160735|N|From Dockmaster Herrington. Must be in Ashvane disguise.|RANK|2|PRE|47871;47870|
 A Crabby Crab Stew|QID|49261|M|44.61,88.24|N|From Dockmaster Herrington.|RANK|2|PRE|47871;47870|
-C Crabby Crab Stew|QID|49261|M|44.61,88.24|N|Kill Crabs and loot their meet as you travel towards the Siren's Call (ship at docks).|
-C Gang Bustin'|QID|49262|M|44.61,88.24|N|Question the Shady Dockhands as you travel towards and while on the ship. Sometimes they become hostile. Must be in Ashvane disguise.|
+C Crabby Crab Stew|QID|49261|M|44.61,88.24|S|N|Kill Crabs and loot their meet as you travel towards the Siren's Call (ship at docks).|
+C Gang Bustin'|QID|49262|M|44.61,88.24|S|U|160735|NC|N|Question the Shady Dockhands as you travel towards and while on the ship. Sometimes they become hostile. Must be in Ashvane disguise.|
 K Captain Hartford|QID|51810|QO|1|M|43.13,90.85|T|Captain Hartford|N|Captain Hartford can be found on The Siren's Call.|RANK|2|
 T Captain Hartford|QID|51810|M|43.20,90.90|N|To Captain Redmond who can be found one deck above you.|
 A The Captain's Lockbox|QID|47873|M|43.20,90.90|N|From Captain Redmond.|RANK|2|PRE|47939;47871;49227;47870|
 T The Captain's Lockbox|QID|47873|M|43.20,90.77|N|To Captain Hartford's Lockbox.|
-C Gang Bustin'|QID|49262|M|44.61,88.24|N|Finish questioning the Shady Dockhands as you return to Dockmaster Herrington. Must be in Ashvane disguise.|
-C Crabby Crab Stew|QID|49261|M|44.61,88.24|N|Finish Collecting the crab meat as you travel back towards Dockmaster Herrington.|
-T Crabby Crab Stew|QID|49261|M|44.61,88.24|N|To Dockmaster Herrington. Must be in Ashvane disguise.|
+C Gang Bustin'|QID|49262|M|44.61,88.24|U|160735|US|NC|N|Finish questioning the Shady Dockhands as you return to Dockmaster Herrington. Must be in Ashvane disguise.|
+C Crabby Crab Stew|QID|49261|M|44.61,88.24|US|N|Finish Collecting the crab meat as you travel back towards Dockmaster Herrington.|
+T Crabby Crab Stew|QID|49261|M|44.61,88.24|U|160735|N|To Dockmaster Herrington. Must be in Ashvane disguise.|
 T Gang Bustin'|QID|49262|M|44.61,88.24|N|To Dockmaster Herrington.|
-$ Nez'ara|QID|50898|M|44.12,87.55;43.79,86.27|CS|QO|1|N|Cut the ropes to release the Ashvane's prisoner. She's rather ungreatful. Kill and loot for artifact power and resources.|RANK|2|
+$ Nez'ara|QID|50898|M|44.12,87.55;43.79,86.27|CS|QO|1|ITEM|161024|N|Cut the ropes to release the Ashvane's prisoner. She's rather ungreatful. Kill and loot for artifact power and resources.|RANK|2|
 
 R Port of Zem'lan|ACTIVE|48324|M|35.46,83.48|N|Avoid the Alliance camp, at Deadwood Cove as you follow the coast to the Port of Zem'lan.|RANK|2|
 T Lost in Zem'lan|QID|48324|M|35.46,83.48|N|To Meeki (or whats left of him.|
