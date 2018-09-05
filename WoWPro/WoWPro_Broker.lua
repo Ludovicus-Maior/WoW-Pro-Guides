@@ -229,26 +229,26 @@ end
 
 WoWPro.ObjectiveOperators = {}
 function WoWPro.ObjectiveOperators.done(qid, objective)
-    local done = WoWPro.QuestLog[qid].ocompleted[objective]
-    local status = WoWPro.QuestLog[qid].leaderBoard[objective] or "?"
+    local done = WoWPro.QuestLog[qid].ocompleted and WoWPro.QuestLog[qid].ocompleted[objective]
+    local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.less(qid, objective, target)
-    local done = WoWPro.QuestLog[qid].ncompleted[objective] >= target
-    local status = WoWPro.QuestLog[qid].leaderBoard[objective] or "?"
+    local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] >= target
+    local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.equal(qid, objective, target)
-    local done = WoWPro.QuestLog[qid].ncompleted[objective] == target
-    local status = WoWPro.QuestLog[qid].leaderBoard[objective] or "?"
+    local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] == target
+    local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.greater(qid, objective, target)
-    local done = WoWPro.QuestLog[qid].ncompleted[objective] <= target
-    local status = WoWPro.QuestLog[qid].leaderBoard[objective] or "?"
+    local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] <= target
+    local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
@@ -2052,6 +2052,7 @@ function WoWPro.PopulateQuestLog()
 			else
 			    leaderBoard = nil
 			    ocompleted = nil
+			    ncompleted = nil
 			end
 			WoWPro.QuestLog[questID] = {
 				title = questTitle,
