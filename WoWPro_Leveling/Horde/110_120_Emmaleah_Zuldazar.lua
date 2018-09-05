@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2018-09-05 11:24
+-- Who: Emmaleah
+-- Log: Changed lots of C go kill this thing to K Mob Name, fixed |Z| for Seeking the Seeker; various other fixes based on about 1/3 of the way thru the zone with rank 3.
+
+-- URL: http://wow-pro.com/node/3762/revisions/29569/view
 -- Date: 2018-08-22 20:04
 -- Who: Emmaleah
 -- Log: Minor tweaks, finished playtest on live - Rank 1.
@@ -229,13 +234,13 @@ C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Finish shooing the
 T Pterrortorial Dispute|QID|47435|M|40.91,11.29|Z|Dazar'alor|N|To Hexlord Raal.|
 T Restraining Order|QID|47434|M|40.91,11.29|Z|Dazar'alor|N|To Hexlord Raal.|
 A Competitive Devotion|QID|47437|M|40.91,11.29|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47435;47434|
-C Competitive Devotion|QID|47437|M|63.24,67.00|Z|Hall of the High Priests!Zanchul!Dungeon|QO|1|N|Kill Guardian of the Tombs.|
-C Competitive Devotion|QID|47437|M|44.84,37.07|Z|Hall of the High Priests!Zanchul!Dungeon|QO|2|N|Up the stairs to find and kill Guardian of the Rites.|
+K Guardian of the Tombs|QID|47437|M|63.24,67.00|Z|Hall of the High Priests!Zanchul!Dungeon|QO|1|T|Guardian of the Tombs|N|Kill Guardian of the Tombs.|
+K Guardian of the Rites|QID|47437|M|44.84,37.07|Z|Hall of the High Priests!Zanchul!Dungeon|QO|2|T|Guardian of the Rites|N|Up the stairs to find and kill Guardian of the Rites.|
 $ Offering of the Chosen|QID|48938|M|43.80,15.24;38.27,7.14|Z|Dazar'alor|CS|N|A little bit out of the way is a treasure to loot for resources.|RANK|2|
-C Competitive Devotion|QID|47437|M|44.42,17.10|Z|Dazar'alor|QO|3|N|Kill Guardian of the Dead.|
+K Guardian of the Dead|QID|47437|M|44.42,17.10|Z|Dazar'alor|QO|3|T|Guardian of the Dead|N|Kill Guardian of the Dead.|
 T Competitive Devotion|QID|47437|M|45.98,16.29;46.10,13.06|Z|Dazar'alor|CS|N|Up the stairs to find Wardruid Loti.|
 A Dire Situation|QID|47422|M|46.10,13.06|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47437|
-C Dire Situation|QID|47422|M|43.82,7.83|Z|Dazar'alor|QO|1|N|Up the central stairs to find and kill Dregada.|
+K Dregada|QID|47422|M|43.82,7.83|Z|Dazar'alor|QO|1|T|Dregada|N|Up the central stairs to find and kill Dregada.|
 T Dire Situation|QID|47422|M|42.29,9.12|Z|Dazar'alor|N|To Wardruid Loti.|
 A Picking a Side|QID|47438|M|42.29,9.12|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47422|
 C Picking a Side|QID|47438|M|42.63,9.26|Z|Dazar'alor|NC|N|Gonk has totems that (while in range) give faster run speed. Pa'ka has totems that allow you to temporarily fly bypassing some of the endless stairs in the city. Pick one. (It's personal preferance -- no questing difference)|
@@ -275,7 +280,7 @@ A Zuvembi Brew|QID|49494|M|64.38,28.55|N|From Zul the Prophet.|PRE|49492|
 C Zul's Ethical Dilemma|QID|49493|M|65.43,28.01|QO|1|U|155458|NC|S|N|Use the potion to free some Mindslaves. It doesnt work on "The Chosen" you will have to kill them.|
 A Preparing for the Fall|QID|51663|M|65.28,28.22|N|From Jambani Stockpile.|
 C Preparing for the Fall|QID|51663|M|65.82,27.85|QO|1|NC|S|N|Destroy Jambani stockpiles.|
-C Zuvembi Brew|QID|49494|M|64.88,26.98|QO|1|N|Kill Zuvembi Brewer Zekal.|
+K Zuvembi Brewer Zekal|QID|49494|M|64.88,26.98|QO|1|T|Zuvembi Brewer Zekal|N|Kill Zuvembi Brewer Zekal.|
 C Preparing for the Fall|QID|51663|M|65.82,27.85|NC|US|N|Finish destroying the Jambani stockpiles.|
 C Zul's Ethical Dilemma|QID|49493|M|65.43,28.01|QO|1|U|155458|NC|US|N|Finish freeing the Mindslaves.|
 T Zul's Ethical Dilemma|QID|49493|M|65.71,30.22|N|To Zul the Prophet.|
@@ -293,11 +298,11 @@ K Vol'jamba|QID|49905|T|Vol'jamba|M|65.65,30.70|QO|2|N|Kill Vol'jamba, many adds
 T Plot Twist|QID|49905|M|65.58,30.50|N|To Zul the Prophet.|
 A False Prophecies|QID|49663|M|65.58,30.50|N|From Zul the Prophet.|PRE|49905|
 
-R Savagelands|ACTIVE|49810|M|67.25,30.65|N|Down and Across the small Valley to next area.|
+R Savagelands|AVAILABLE|49810|M|67.25,30.65|N|Down and Across the small Valley to next area.|RANK|2|
 K Umbra'jin|QID|47567|M|70.31,32.98;71.46,32.35||CS|QO|1|ITEM|161091|T|Umbra'jin|N|Silver Elite to kill for azerite power and resources.|RANK|2|
-R Scaletrader Post|ACTIVE|49810|M|70.79,29.60|N|Up the hill to grab the flightpoint.|
-f Scaletrader Post|ACTIVE|49810|M|70.78,29.58|N|At Scroll of Flight.|
-F The Sliver|ACTIVE|49810|M|70.78,29.58|N|At Scroll of Flight.|
+R Scaletrader Post|AVAILABLE|49810|M|70.79,29.60|N|Up the hill to grab the flightpoint.|RANK|2|
+f Scaletrader Post|AVAILABLE|49810|M|70.78,29.58|N|At Scroll of Flight.|RANK|2|
+F The Sliver|AVAILABLE|49810|M|70.78,29.58|N|At Scroll of Flight.|RANK|2|
 K Gahz'ralka|QID|50439|M|62.61,32.86;66.32,32.84;64.28,32.70|CS|ITEM|161043|QO|1|T|Gahz'ralka|N|Silver Elite can be found under the bridge. Loot for azerite power and resources.|RANK|2|
 A Monstrous Matchmaker|QID|49810|M|62.96,33.81;64.13,35.37|CS|N|From Witch Doctor Jangalar.|RANK|2|
 C Monstrous Matchmaker|QID|49810|M|63.06,36.96|QO|1|U|155911|NC|N|Place voodoo totem by Gentle Ben'jin.|
@@ -309,8 +314,8 @@ A Aggressive Mating Strategy|QID|49801|M|64.07,35.47|N|From Cala Cruzpot.|RANK|2
 C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|NC|S|N|Collect Fragrant Rushes as you go.|
 C They Say It's a Delicacy|QID|50154|M|62.74,39.69|S|N|Kill Dimetradons and loot to collect the Partially-Digested Pods.|
 C Aggressive Mating Strategy|QID|49801|M|63.70,41.19|N|Kill the Razorwing mobs to obtain the Bile Sacs.|
-C They Say It's a Delicacy|QID|50154|M|62.74,39.69|S|N|Finish collecting the Partially-Digested Pods.|
-C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|NC|S|N|Finish collecting Fragrant Rushes as you go back.|
+C They Say It's a Delicacy|QID|50154|M|62.74,39.69|US|N|Finish collecting the Partially-Digested Pods.|
+C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|NC|US|N|Finish collecting Fragrant Rushes as you go back.|
 T Aggressive Mating Strategy|QID|49801|M|64.07,35.47|N|To Cala Cruzpot.|
 T They Say It's a Delicacy|QID|50154|M|64.13,35.37|N|To Witch Doctor Jangalar.|
 T The Scent for a Brutosaur|QID|49814|M|64.13,35.37|N|To Witch Doctor Jangalar.|
@@ -435,8 +440,8 @@ C A Thorn in the Side|QID|47584|M|68.32,21.65|S|N|Kill Ankylodons.|
 $ The Exile's Lament|QID|50949|M|71.28,17.45;71.83,16.77|CS|N|Inside the cave you can find a chest to loot for azerite power and resources.|RANK|2|
 C Predatory|QID|47585|M|70.63,22.01|QO|1|N|Ranger Paalu can be found here.|
 C Predatory|QID|47585|M|67.81,25.06|QO|2|N|Marksman Julyen is lying here.|
-C He's Gone Mad!|QID|50466|M|71.00,26.38|N|Kill Wildtusk.|
-C Hunt for King K'tal|QID|47706|M|69.88,22.79|N|Kill K'tal and loot his skull. This is a group quest so you may need help.|
+K Wildtusk|QID|50466|QO|1|M|71.00,26.38|T|Wildtusk|N|Kill Wildtusk.|
+K King K'tal|QID|47706|QO|1|M|69.88,22.79|T|King K'tal|N|Kill K'tal and loot his skull. This is a group quest so you may need help.|
 C A Thorn in the Side|QID|47584|M|68.32,21.65|US|N|Finish your quota of Ankylodons.|
 C Die, Die, Diemetradon|QID|47583|M|67.85,24.11|US|N|Finish your quota of Venomous Diemetradons.|
 T Die, Die, Diemetradon|QID|47583|M|67.49,18.89|N|To Tracker Burke's Hat.|
@@ -562,7 +567,7 @@ C Rituals of Heresy|QID|47527|M|48.23,29.24|US|N|Time to finish up the Bonus Obj
 T Rituals of Heresy|QID|47527|M|48.23,29.24|N|Bonus Objective. Autocompleted.|
 T Mistress of Lies|QID|47528|M|48.57,26.79|N|To Wardruid Loti.|
 f Garden of the Loa|ACTIVE|47528|M|49.74,26.27|N|At Paku'ai Rip'nata.|
-$ Gift of the Brokenhearted|QID|50582|M|51.43,26.61|N|No symbol on map, Click the inscence to cause chest to appear. Loot for azerite power and resources.|RANK|2|
+$ Gift of the Brokenhearted|QID|50582|M|51.43,26.61|N|No symbol on map, Click the incense to cause chest to appear. Loot for azerite power and resources.|RANK|2|
 
 R Old Merchant Road|ACTIVE|49917|M|46.91,26.71;47.47,33.47;49.21,44.98;50.68,46.27;51.01,44.39|CS|N|Follow the dotted path until you get to the Old Merchant Road. Continue down it.|;path may have some backtracking . some coords in teh middle may need deleted
 A WANTED: Prime Thumpknuckle|QID|51072|M|51.62,45.43|N|From Wanted Poster.|RANK|2|
@@ -608,7 +613,7 @@ C Send the Signal!|QID|49758|M|46.41,94.63|Z|Dazar'alor|NC|N|Take the Fleet Scou
 f Isle of Fangs|ACTIVE|49758|M|54.45,87.06|N|At Paku'ai Leti.|
 T Send the Signal!|QID|49758|M|54.42,87.00|N|To Bo'tzun Maset.|
 A Key to the Brig|QID|49775|M|54.42,87.00|N|From Bo'tzun Maset.|RANK|2|
-C Key to the Brig|QID|49775|M|51.65,86.89|N|Kill Quartermaster Garza, who can be found in the room at the front of the ship's main deck, and loot the key.|
+K Quartermaster Garza|ACTIVE|49775|QO|1|M|51.65,86.89|T|Quartermaster Garza|N|Kill Quartermaster Garza, who can be found in the room at the front of the ship's main deck, and loot the key.|
 T Key to the Brig|QID|49775|M|44.06,50.75|Z|Upper Deck!Breath Of Pa'ku|N|Go down the stairs in the Quartermaster's anteroom to find and turn in to Wavemaster Lanfa.|
 A Not "Only Zul"|QID|49754|M|44.06,50.75|Z|Upper Deck!Breath Of Pa'ku|N|From Wavemaster Lanfa.|RANK|2|
 C Not "Only Zul"|QID|49754|M|49.69,63.50|Z|Lower Deck!Breath Of Pa'ku!Dungeon|S|N|Purge Zul's forces as you head to the treasure.|
@@ -616,31 +621,31 @@ $ Spoils of Pandaria|QID|49936|M|23.69,24.89|N|All the way at the back of the lo
 C Not "Only Zul"|QID|49754|M|49.69,63.50|Z|Lower Deck!Breath Of Pa'ku!Dungeon|US|N|Finish purging your quota of Zul's forces.|
 T Not "Only Zul"|QID|49754|M|54.39,87.04|N|To Wavemaster Lanfa.|
 A Against the Tide|QID|49871|M|54.39,87.04|N|From Wavemaster Lanfa.|RANK|2|
-C Against the Tide|QID|49871|M|54.76,90.56|QO|1|N|Warlord Xiar can be found up the hill at the base of the signal tower.|
-C Against the Tide|QID|49871|M|54.71,90.05|QO|2|U|156473|N|Use Empowered Fire Mogo to lite the Signal Fire.|
+K Warlord Xiar|ACTIVE|49871|M|54.76,90.56|QO|1|T|Warlord Xiar|N|Warlord Xiar can be found up the hill at the base of the signal tower.|
+C Against the Tide|QID|49871|M|54.71,90.05|QO|2|NC|U|156473|N|Use Empowered Fire Mogo to lite the Signal Fire.|
 T Against the Tide|QID|49871|M|54.69,89.71|N|To Captain Grez'ko.|
 A Destroy the Weapon|QID|49785|M|54.69,89.71|N|From Captain Grez'ko. After you accept the quest hop on Harli for a ride to Tusk Isle.|RANK|2|
 f Tusk Isle|ACTIVE|49785|M|59.39,77.94|N|At Paku'ai Jetar.|
-K Lei-zhi|QID|49911|M|58.77,74.07|QO|1|ITEM|161033|T|Lei-zhi|N|Stand almost underneath him or dodge the lightning balls to avoid being stunned. Silver Elite to kill and loot for azerite power and resources.|RANK|2|
 C Destroy the Weapon|QID|49785|M|57.97,76.63|NC|QO|1|N|Investigate the weapon.|
-C Destroy the Weapon|QID|49785|M|57.28,75.65|QO|2|N|Kill Reo'kah.|
+K Reo'kah|QID|49785|M|57.28,75.65|QO|2|T|Reo'kah|N|Kill Reo'kah.|
+K Lei-zhi|QID|49911|M|58.77,74.07|QO|1|ITEM|161033|T|Lei-zhi|N|Stand almost underneath him or dodge the lightning balls to avoid being stunned. Silver Elite to kill and loot for azerite power and resources.|RANK|2|
 T Destroy the Weapon|QID|49785|M|57.80,76.68|N|To Captain Grez'ko.|
 A Hope's Blue Light|QID|49884|M|57.80,76.68|N|From Captain Grez'ko.|RANK|2|
 C Hope's Blue Light|QID|49884|M|57.78,76.68;60.84,75.27|CS|NC|N|Hop on the Captain's mount and fly up to light the Signal Fire. Press the "1" key when you are close to the top of the tower.|
 T Hope's Blue Light|QID|49884|M|44.49,95.43|Z|Dazar'alor|N|To Captain Rez'okun.|
 
-F Port of Zandalar|ACTIVE|51101|M|51.91,41.20|Z|Dazar'alor|N|At Paku'ai the Ro'kata.|TZ|Grand Bazaar|
-A Who Seeks the Seeker|QID|49283|M|57.76,92.28|N|From Sholo.|RANK|2|
-b Seekers' Outpost|ACTIVE|51101|M|58.92,60.96|N|Ask Wavesinger De'zan for a ride in his boat.|
+F Port of Zandalar|ACTIVE|51101|M|51.91,41.20|Z|Dazar'alor|N|At Paku'ai the Ro'kata.|TZ|Grand Bazaar|RANK|-1|
+A Who Seeks the Seeker|QID|49283|M|57.76,92.28|Z|Dazar'alor|N|From Sholo.|RANK|2|
+b Seekers' Outpost|ACTIVE|51101|M|58.92,60.96|Z|Dazar'alor|N|Ask Wavesinger De'zan for a ride in his boat.|
 f Seekers' Outpost|ACTIVE|49283|M|70.42,65.32|N|At Scroll of Flight.|RANK|2|
 T Who Seeks the Seeker|QID|49283|M|70.49,65.21|N|To Batu.|
 A Perfect Tidings|QID|49284|M|70.49,65.21|N|From Batu.|RANK|2|PRE|49283|
 A Tiny Treasures|QID|49285|M|70.31,65.06|N|From Koba.|RANK|2|PRE|49283|
-A Dreadpearl Collusion|QID|49315|M|80.83,58.94|LVL|-120|N|Bonus Objective - Autoaccepted.|RANK|2|
+A Dreadpearl Collusion|QID|49315|M|80.83,58.94|O|LVL|-120|N|Bonus Objective - Autoaccepted.|RANK|2|
 C Dreadpearl Collusion|QID|49315|M|80.83,58.94|S|N|Bonus Objective. Kill Naga and murlocks to complete the objective.|
 C Perfect Tidings|QID|49284|M|71.21,64.57|QO|1|U|154704|NC|N|Use the scroll to locate clues. Click the tortollan pack to find it.|
 C Tiny Treasures|QID|49285|M|71.68,64.14|QO|1|NC|N|Click on the Amphibious Lab Enclosure.|
-C Perfect Tidings|QID|49284|M|72.66,63.05|QO|2|U|154704|NC|N|Use the scroll to find the second clue. Pick up the scroll pinned to the tree.|
+C Perfect Tidings|QID|49284|M|72.66,63.05|QO|2|U|154704|NC|N|Use the scroll to find the second clue. Pick up the scroll pinned to the tree. (you won't need to reuse the scroll if you haven't died since last time you used it.)|
 C Tiny Treasures|QID|49285|M|73.11,64.79|QO|3|NC|N|Find Spitzy.|
 C Tiny Treasures|QID|49285|M|73.20,67.22|QO|2|NC|N|Click on the Hatchling's First Alchemy Stone.|
 C Perfect Tidings|QID|49284|M|74.03,62.09|QO|3|U|154704|NC|N|Use the scroll to find the third clue. Pick up the Tortollan scroll case nestled amonst the rocks.|
@@ -661,7 +666,7 @@ C Scrollhunters|QID|49288|M|77.95,64.40|US|N|Finish recovering the Tortollan scr
 T Scrollhunters|QID|49288|M|75.23,61.48|N|To Deyon.|
 T Lost Chelonians|QID|49287|M|75.23,61.48|N|To Deyon.|
 A A Special Stone|QID|49289|M|75.23,61.48|N|From Deyon.|RANK|2|PRE|49288;49287|
-K Tidemistriss Nazesh|QID|49289|M|76.59,61.68|QO|1|N|Kill her and loot the Orders from Nazjatar.|RANK|2|
+K Tidemistriss Nazesh|QID|49289|M|76.59,61.68|QO|1|T|Tidemistriss Nazesh|N|Kill her and loot the Orders from Nazjatar.|RANK|2|
 C A Special Stone|QID|49289|M|76.67,61.42|QO|2|NC|N|Pick up the Stone Fragment.|
 T A Special Stone|QID|49289|M|75.21,61.49|N|To Deyon.|
 A Find Their Words|QID|51407|M|75.21,61.49|N|From Deyon.|RANK|2|PRE|49289|
@@ -670,7 +675,7 @@ T Dreadpearl Collusion|QID|49315|M|76.13,65.58|N|Bonus Objective - Autocompleted
 T Find Their Words|QID|51407|M|70.56,64.87|N|To Akru.|
 A A Different Outcome|QID|50331|M|70.56,64.87|N|From Akru.|RANK|2|PRE|51407|
 b Atal'gral|ACTIVE|51101|QO|1|M|69.49,66.99|N|Take the boat from Wavespeaker Zara.|
-T A Different Outcome|QID|50331|M|81.35,45.80|N|To Rokor. *CURRENTLY BUGGED AND WON'T COMPLETE. AT THIS WRITING, ABANDONING IT ALLOWS YOU TO CONTINUE.*|
+T A Different Outcome|QID|50331|M|81.35,45.80|N|To Rokor.|
 
 A The Scrolls of Gral|QID|48015|M|81.35,45.80|N|From Rokor.|RANK|2|PRE|50331|
 A Clear the Riffraff|QID|48014|M|81.35,45.80|N|From Rokor.|RANK|2|PRE|50331|
@@ -704,7 +709,7 @@ T Saving for Later|QID|48025|M|79.19,42.09|N|To Scrollsage Goji.|
 K Kiboku|QID|50159|M|75.67,35.96|ITEM|161112|QO|1|T|Kiboku|N|Silver Elite to kill for azerite power and resources.|RANK|3|
 K Daggerjaw|QID|50269|M|74.84,39.33;74.26,39.23|CS|ITEM|160952|QO|1|T|Daggerjaw|N|Silver Elite to kill for azerite power and resources.|RANK|3|
 
-R Talanji's Rebuke|ACTIVE|51555|M|79.51,44.42|N|Follow the road southeast to Talanji's Rebuke.|RANK|2|
+R Talanji's Rebuke|ACTIVE|51555|M|79.51,44.42;78.28,47.65|CS|N|Follow the road southeast to Talanji's Rebuke.|RANK|2|
 T Keep Them On Task|QID|51555|M|76.61,48.54|N|To Lieutenant Dennis Grimtale.|
 A The Wreckoning|QID|51246|M|76.61,48.54|N|From Lieutenant Dennis Grimtale.|RANK|2|
 A The Things They Carried|QID|51247|M|76.61,48.54|N|From Lieutenant Dennis Grimtale.|RANK|2|
@@ -713,9 +718,9 @@ A Crabulous Feast|QID|51249|M|76.38,48.74|N|From J'eebi.|RANK|2|
 C Productive Pests|QID|51248|M|74.44,51.45|S|NC|N|Collect Mosquitos and Sand Borers by clicking on them as you go.|
 C Crabulous Feast|QID|51249|M|74.45,51.11|S|N|Kill and loot the Derelict Hexapods as you go.|
 C The Wreckoning|QID|51246|M|74.92,51.07|S|N|Kill 7th Legion Sailors as you go.|
-K Sailer Jaseon|QID|51247|M|76.67,50.99|QO|2|N|Kill Sailer Jaseon to loot the scouting map.|RANK|2|
-K Medic Hunt|QID|51247|M|76.46,52.68|QO|1|N|Kill Medic Hunt and loot the Unsent Letter.|RANK|2|
-K Sergeant Wayne|QID|51247|M|74.54,51.73|QO|3|N|Sergeant Wayne to loot the Ship's Manifest.|RANK|2|
+K Sailer Jaseon|QID|51247|M|76.67,50.99|QO|2|T|Sailer Jaseon|N|Kill Sailer Jaseon to loot the scouting map.|RANK|2|
+K Medic Hunt|QID|51247|M|76.46,52.68|QO|1|T|Medic Hunt|N|Kill Medic Hunt and loot the Unsent Letter.|RANK|2|
+K Sergeant Wayne|QID|51247|M|74.54,51.73|QO|3|T|Sergeant Wayne|N|Sergeant Wayne to loot the Ship's Manifest.|RANK|2|
 C Productive Pests|QID|51248|M|74.44,51.45|US|NC|N|Finish collecting Mosquitos and Sand Borers by clicking on them.|
 C Crabulous Feast|QID|51249|M|74.45,51.11|US|N|Finish collecting the crab meat.|
 C The Wreckoning|QID|51246|M|74.92,51.07|US|N|Fulfill your quota of 7th Legion Sailors.|
@@ -724,8 +729,8 @@ T Productive Pests|QID|51248|M|76.42,48.72|N|To Teekay Treadlebobbin.|
 T The Wreckoning|QID|51246|M|76.61,48.52|N|To Lieutenant Dennis Grimtale.|
 T The Things They Carried|QID|51247|M|76.61,48.52|N|To Lieutenant Dennis Grimtale.|
 A Stop the Evacuation|QID|51286|M|76.61,48.52|N|From Lieutenant Dennis Grimtale.|RANK|2|
-C Stop the Evacuation|QID|51286|M|80.16,57.05|QO|2|N|Kill Captain Sarai Naut.|
-C Stop the Evacuation|QID|51286|M|80.16,57.05|QO|1|NC|N|Place Seaforium Bomb.|
+K Captain Sarai Naut|QID|51286|M|80.16,57.05|QO|2|T|Captain Sarai Naut|N|Kill Captain Sarai Naut.|
+C Stop the Evacuation|QID|51286|M|80.16,57.05|QO|1|NC|N|Place Seaforium Bomb in the rowboat.|
 T Stop the Evacuation|QID|51286|M|76.61,48.52|N|To Lieutenant Dennis Grimtale.|
 R Atal'Gral|ACTIVE|51101|M|82.44,46.83|N|Run back to the beach to catch a boat ride to Zeb'ahari.|RANK|2|
 b Zeb'ahari|ACTIVE|51101|M|82.44,46.83|N|Ask Wavesinger Rekan for a ride on his boat.|
@@ -876,11 +881,11 @@ T Scrying for the Eye|QID|47235|M|43.89,72.14|N|To Apprentice Telemancer Astrand
 T Archaeological Efficiency|QID|50043|M|43.89,72.14|N|To Apprentice Telemancer Astrandis.|
 A A Nose for Magic|QID|48317|M|43.91,72.11|N|From Apprentice Telemancer Astrandis.|RANK|3|PRE|47228;50043;47235|
 C A Nose for Magic|QID|48317|M|41.04,77.15|QO|1|CHAT|N|Speak to Astrandis in the western ruins.|
-C A Nose for Magic|QID|48317|M|40.70,76.87|QO|2|NC|N|Click on the First scrying vessel.|
+C A Nose for Magic|QID|48317|M|40.70,76.87|QO|2|NC|N|Click on the essence collector.|
 C A Nose for Magic|QID|48317|M|40.70,76.87|QO|3|N|Kill the Dark Iron Sabateur.|
-C A Nose for Magic|QID|48317|M|40.32,77.24|QO|5|NC|N|Click on the Second scrying vessel.|
+C A Nose for Magic|QID|48317|M|40.32,77.24|QO|5|NC|N|Click on the essence collector.|
 C A Nose for Magic|QID|48317|M|40.29,77.09|QO|5|N|Kill the Dark Iron Sabateur.|
-C A Nose for Magic|QID|48317|M|39.92,77.06|QO|6|N|Click on the Third scrying vessel.|
+C A Nose for Magic|QID|48317|M|39.92,77.06|QO|6|N|Click on the essence collector.|
 C A Nose for Magic|QID|48317|M|39.90,77.10|QO|7|N|Kill the Dark Iron Sabateurs.|
 T A Nose for Magic|QID|48317|M|40.03,76.53|N|To Apprentice Telemancer Astrandis.|
 A A Dark (Iron) Tide|QID|48399|M|40.03,76.53|N|From Apprentice Telemancer Astrandis.|RANK|3|PRE|48317|
@@ -891,7 +896,6 @@ C Grand Theft Telemancy|QID|48400|M|39.09,72.45|QO|2|N|Place Telemancy beacon.|
 C A Dark (Iron) Tide|QID|48399|M|40.00,72.51|US|N|Finish off your share of the Dark Iron dwarves.|
 T A Dark (Iron) Tide|QID|48399|M|44.41,72.11|N|To Apprentice Telemancer Astrandis.|
 T Grand Theft Telemancy|QID|48400|M|44.41,72.11|N|To Apprentice Telemancer Astrandis.|
-H The Great Seal|ACTIVE|49940|N|Hearth, or run over to Eliara Duskwing and take a flight back to The Great Seal.|RANK|2|
 
 F Garden of the Loa|ACTIVE|49940|M|51.89,41.21|Z|Dazar'alor|N|At Paku'ai Rokota.|RANK|2|
 R Sandscar Breach|ACTIVE|49940|M|47.66,25.07|N|Follow the road Northwest to Sandscar Breach.|RANK|2|
