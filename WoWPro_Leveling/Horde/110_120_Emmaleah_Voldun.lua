@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2018-09-05 11:08
+-- Who: Emmaleah
+-- Log: Add A [Vol'dun]; edit RANKS note; expand on ;R Zocelo. but the coordinates are still needed to make it a Run step instead of a comment.
+
+-- URL: http://wow-pro.com/node/3772/revisions/29670/view
+-- Date: 2018-09-04 22:54
+-- Who: Ludovicus_Maior
+-- Log: Typo reported by http://www.wow-pro.com/users/jeremy_billones for [Bloated Krolusk]
+
+-- URL: http://wow-pro.com/node/3772/revisions/29660/view
 -- Date: 2018-09-03 17:23
 -- Who: Emmaleah
 -- Log: add new style QOs
@@ -67,9 +77,10 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a spec appropriate helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
-N Use of Ranks|N|This is a work in process. When done, Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
+N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done alongside the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 N Rares (aka Silver Elite)|ACH|12943|N|Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it will direct you to kill them again. Check off manually if you choose not to.|
 
+A Vol'dun|QID|47513|M|41.77,69.35|Z|Hall of Croniclers!Dazar'alor|N|Pick Vol'dun from Scouting Map.|PRE|52131|
 t Vol'dun|QID|47513|M|57.81,44.34|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 A Discreet Discussions|QID|47313|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47513|
 C Discreet Discussions|QID|47313|M|50.12,37.41|Z|Dazar'alor|QO|1<1|NC|N|Outside and down either long set of stairs to find first, Enforcer Sekal.|
@@ -77,7 +88,8 @@ C Discreet Discussions|QID|47313|M|52.20,37.54|Z|Dazar'alor|QO|1<2|NC|N|Continue
 C Discreet Discussions|QID|47313|M|54.26,35.85|Z|Dazar'alor|QO|1<3|NC|N|And down some more to find Enforcer Dakanji.|
 
 ;to open up Jani's mysterious trashpiles
-;need R Zocelo
+;need R Zocelo with |N|A bit out of the way, but if you are into Achievements, you want to get this quest done to open up "Get Hek'd".|LEAD|47441|RANK|3|ACH|12482|
+
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
 C Pests|QID|47441|M|40.58,18.88|Z|Dazar'alor|QO|1|N|Kill the little pests.|
 C Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|QO|2|NC|N|Follow the Big One.|
@@ -621,7 +633,7 @@ A Ranishu Are Resources|QID|48332|M|45.36,46.15|N|From Omi.|RANK|2|
 C Inconvenient Spirits|QID|49001|M|48.42,50.12|QO|1|S|N|Kill Tortured Spirit as you go.|
 C Ranishu Are Resources|QID|48332|M|48.17,49.66|S|N|Kill Ranishu Nibblers as you go.|
 C They've Got Golems|QID|48334|M|47.08,50.86|QO|1|N|Kill the Golem in the middle of the little pond to reveal the power source.|
-K Bloated Krolusk|QID|47562|M|59.14,50.16|QO|1|ITEM|161037|T|Bloated Krolusk|N|Silver Elite to kill for artifact power and resources.|RANK|2|
+K Bloated Krolusk|QID|47562|M|49.14,50.16|QO|1|ITEM|161037|T|Bloated Krolusk|N|Silver Elite to kill for artifact power and resources.|RANK|2|
 C Ranishu Are Resources|QID|48332|M|48.17,49.66|US|N|Finish collecting Ranishu Stomachs|
 C Inconvenient Spirits|QID|49001|M|48.42,50.12|N|Finish releasing the Tortured Spirits|
 T Inconvenient Spirits|QID|49001|M|45.39,46.19|N|To Kenzou.|
