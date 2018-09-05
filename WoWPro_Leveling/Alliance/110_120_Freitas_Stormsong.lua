@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-09-05 04:07
+-- Who: jovieve
+-- Log: Added coords for flight master on F step
+
+-- URL: http://wow-pro.com/node/3767/revisions/29676/view
+-- Date: 2018-09-05 04:03
+-- Who: jovieve
+-- Log: Updated H step. Reversed order of two steps.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29675/view
+-- Date: 2018-09-05 03:57
+-- Who: jovieve
+-- Log: QIDs of the day for Osca and Poacher Zane.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29674/view
+-- Date: 2018-09-05 03:48
+-- Who: jovieve
+-- Log: Oops. I had two Waggas.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29673/view
+-- Date: 2018-09-05 03:46
+-- Who: jovieve
+-- Log: More of the new QO behavior in Briar patch section. Minor refinements (I hope). Moved Wagga here since he seems to be killable as long as you do it before you get phased.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29659/view
 -- Date: 2018-09-03 12:30
 -- Who: jovieve
 -- Log: Removed CC tag that was accidentally reintroduced.
@@ -232,16 +257,6 @@
 -- URL: http://wow-pro.com/node/3767/revisions/29341/view
 -- Date: 2018-06-18 22:48
 -- Who: Emmaleah
-
--- URL: http://wow-pro.com/node/3767/revisions/29340/view
--- Date: 2018-06-04 17:09
--- Who: Ludovicus_Maior
--- Log: Initial version
-
--- URL: http://wow-pro.com/node/3767/revisions/29321/view
--- Date: 2018-05-25 20:16
--- Who: Emmaleah
--- Log: new blank stub
 
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
@@ -503,20 +518,20 @@ A Boaring Company|QID|50353|M|44.73,64.61|N|From Sergeant Calvin.|
 C Look Out!|QID|50354|M|42.50,67.69|S|U|156516|N|Kill Briarback Lookouts. You can use the dart to put them to sleep.|
 K Briarbacks|QID|50367|S|L|157849|M|42.50,67.69|N|Kill the various Briarbacks until you get Foul-Smelling Flask.|
 A Anger in a Bottle|QID|50367|M|42.50,67.69|N|Automatically accepts.|O|
-C Anger in a Bottle|QID|50367|M|66.21,43.59|S|N|You have a while to complete this quest, and the mobs you have to kill anyway will drop the quest items.|
+C Anger in a Bottle|QID|50367|M|44.60,73.78|S|N|You have a while to complete this quest, and the mobs you have to kill anyway will drop the quest items.|
 A Totems, Totems, Totems!|QID|50111|M|44.22,70.28;44.04,72.44|CS|N|Head up to the highlands, and accept the quest from the totem.|
 C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|1|NC|N|Destroy the same totem.|
 K Briarbacks|QID|50367|US|L|157849|M|42.50,67.69|N|Kill the various Briarbacks until you get Foul-Smelling Flask.|
 $ Carved Wooden Chest|QID|52429|M|43.45,73.15;44.44,75.24|CS|N|Follow the path up, then at the divot in the ledge, very carefully back off the ledge so that you land on the middle platform with blue fire. Then go into a cave to get this treasure.|
-R Free Farmer|QID|50353|M|45.44,72.50|CC|N|Free the first farmer.|
+C Free a Farmer|QID|50353|QO|1<1|M|45.44,72.50|NC|N|Free the first farmer.|
 C Totems, Totems, Totems!|QID|50111|M|46.07,74.48|QO|4|NC|N|Southern totem here.|
-R Two More Farmers|QID|50353|M|46.23,72.73;47.25,74.32|CS|N|Go out of the cave and find two more farmers down the right path in this cave.|
-R Another Two Farmers|QID|50353|M|46.83,72.60;47.89,73.35|CS|N|Back out, and into the next cave for two more.|
-R And Another Farmer|QID|50353|M|46.51,71.97|CC|N|Back out and next farmer here.|
+C Two More Farmers|QID|50353|QO|1<3|M|46.23,72.73;47.25,74.32|CS|NC|N|Go out of the cave and find two more farmers down the right path in this cave.|
+C Another Two Farmers|QID|50353|QO|1<5|M|46.83,72.60;47.89,73.35|CS|NC|N|Back out, and into the next cave for two more.|
+C And Another Farmer|QID|50353|QO|1<6|M|46.51,71.97|NC|N|Back out and next farmer here.|
 C Totems, Totems, Totems!|QID|50111|M|46.41,72.10|QO|3|NC|N|Central totem here.|
-C Farmer Deal|QID|50353|M|46.17,72.04|QO|2|N|Free Farmer Deal.|
-C Totems, Totems, Totems!|QID|50111|M|47.00,70.22|QO|2|N|Last totem down the hill and around the corner.|
-R Finish Freeing Farmers|QID|50353|M|47.00,70.22|CC|N|Final farmers down here if you need more.|
+C Farmer Deal|QID|50353|M|46.17,72.04|QO|2|NC|N|Free Farmer Deal.|
+C Totems, Totems, Totems!|QID|50111|M|47.00,70.22|QO|2|NC|N|Last totem down the hill and around the corner.|
+C Finish Freeing Farmers|QID|50353|QO|1<7|M|47.00,70.22|NC|N|Final farmers down here if you need more.|
 C Look Out!|QID|50354|M|42.50,67.69|US|N|Finish killing Briarback Lookouts.|
 T Look Out!|QID|50354|M|45.88,70.12;46.01,73.88;46.59,74.04|CS|N|Head up to the top to turn in to Sergeant Calvin.|
 T Boaring Company|QID|50353|M|46.65,73.86|N|To Sergeant Calvin.|
@@ -525,16 +540,15 @@ A War Pigs|QID|50363|M|46.65,73.86|N|From Sergeant Calvin.|
 A Run For the Hills|QID|50365|M|46.65,73.86|N|From Sergeant Calvin.|
 A Steal Them Back|QID|50340|M|46.31,77.03|N|Grab this one from the crate over to the left.|
 C War Pigs|QID|50363|M|46.65,73.86|NC|S|N|Click on the pigs along the way. Killing Briarbacks also makes more little pigs spawn.|
-
-;Fix Steal Them Back step to auto-complete after we implement new QO behavior.
-C Steal Them Back|QID|50340|M|47.41,77.09|QO|1|NC|N|Into the cave to the left – click this off when you get it.|
+C Steal Them Back|QID|50340|QO|1<1|M|47.41,77.09|NC|N|Into the cave to the left.|
 C Run For the Hills|QID|50365|M|46.33,78.17|QO|1|NC|N|Up inside the cave destroy the stockpile and grab the crate.|
-C Steal Them Back|QID|50340|M|46.21,80.16|QO|1|N|There is another in the next cave – click this off when you get it.|
+C Steal Them Back|QID|50340|QO|1<3|M|46.21,80.16|N|There is another in the next cave.|
 C Run For the Hills|QID|50365|M|44.86,77.33|QO|2|N|Destroy the stockpile inside the cave and grab the crate.|
 C Run For the Hills|QID|50365|M|45.82,77.07;43.54,78.58|CS|QO|3|N|Final stockpile in this cave with another crate.|
-C Steal Them Back|QID|50340|M|42.72,78.85|N|Anohtre crate here is you need one more.|
+C Steal Them Back|QID|50340|QO|1<5|M|42.72,78.85|N|Another crate here if you need one more.|
 C War Pigs|QID|50363|M|46.65,73.86|US|N|Finish collecting pigs.|
-C Anger in a Bottle|QID|50367|M|66.21,43.59|US|N|Keep killing Briarbacks until you have 10 foul-smelling samples.|
+C Anger in a Bottle|QID|50367|M|44.60,73.78|US|N|Keep killing Briarbacks until you have 10 foul-smelling samples.|
+K Wagga Snarltusk|QID|50819|Z|Thornheart!Dungeon|M|90.70,22.61;29.00,38.89|CS|T|Wagga Snarltusk|N|Before turning in your quests, run down between the blue lights and kill Wagga. If you wait until after turning in quests, Wagga will be phased out.|ITEM|154431|RANK|2|
 T Steal Them Back|QID|50340|M|46.65,73.82|N|Back to Sergeant Calvin.|
 T War Pigs|QID|50363|M|46.65,73.86|N|To Sergeant Calvin.|
 T Run For the Hills|QID|50365|M|46.65,73.86|N|To Sergeant Calvin.|
@@ -543,23 +557,16 @@ A Terror of the Kraul|QID|50368|M|46.64,73.85|N|From Sergeant Calvin.|
 C Terror of the Kraul|QID|50368|M|45.84,74.41|N|Follow the blue flames all the way to the back of the cave to kill Bramblefist.|
 T Terror of the Kraul|QID|50368|Z|Thornheart!Dungeon|M|71.22,52.33|N|To Sergeant Calvin.  (note this coord is in a cave).|
 A A Question of Quillpower|QID|50640|M|71.22,52.33|Z|Thornheart!Dungeon|N|From Sergeant Calvin.  Hop on the boar and ride back to Mayor Roz.|
-
-;Something needs to be fixed here. This step doesn't auto-complete. Need |CC| tag and coords for wherever the boar stops, maybe.
-R A Question of Quillpower|M|50.75,70.21|ACTIVE|50640|N|Hop on the boar and ride out of the cave.|
+C A Question of Quillpower|M|50.75,70.21|QID|50640|NC|N|Hop on the boar and ride out of the cave.|
 f Deadwash|M|52.53,68.05;51.15,61.96;47.08,61.08;44.83,61.22;42.71,57.37|CS|AVAILABLE|51218|N|Pick up the flight point from Malorian Tailwind on the way.|
-K Osca the Bloodied|QID|52464|QO|1|M|42.12,63.13|T|Osca the Bloodied|N|Back on the road, silver Elite to kill for loot and achievement.|ITEM|159169|RANK|2|
+K Osca the Bloodied|QID|52461|QO|1|M|42.12,63.13|T|Osca the Bloodied|N|Back on the road, silver Elite to kill for loot and achievement.|ITEM|159169|RANK|2|
 A Undelivered Package|QID|51218|M|38.43,62.99|N|Pick up from a package on the road.|
-
-;Need correct QID for Poacher Zane
-K Poacher Zane|QID|98765|M|34.64,67.98|T|Poacher Zane|N|Silver Elite to kill for loot and achievement.|RANK|2|
+K Poacher Zane|QID|52469|M|34.64,67.98|T|Poacher Zane|N|Silver Elite to kill for loot and achievement.|RANK|2|
 f Millstone Hamlet|M|30.80,66.60|AVAILABLE|49818|N|Pick up the flight point from Alexa Davenport.|
-H Brennadam|AVAILABLE|49818|N|Hearth (or fly) to Brennadam. If you need to go back to Boralus for War Campaign or table missions, this is a good time to fly there first and then hearth back to Brennadam.|
-A Trouble at Fort Daelin|QID|49818|M|59.52,69.95|N|From Squire Augustus III.|
+H The Golden Flagon|TZ|Brennadam|AVAILABLE|49818|N|Hearth (or fly) to Brennadam. If you need to go back to Boralus for War Campaign or table missions, this is a good time to fly there first and then hearth back to Brennadam.|
 T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|
-
-K Wagga Snarltusk|QID|52300|M|45.83,74.34|T|Wagga Snarltusk|N|Wagga was not showing up on beta, so may need to pass on this rare until live – if so, skip quest.  Start of the path down to Wagga - follow the blue flames.  Silver Elite to kill for loot and achievement.|ITEM|154431|RANK|2|;I didn't do this step in my playthrough because it wanted me to run 700 yrds to kill a mob that might not be there. If someone testing this wants to confirm and fix this note, that would be awesome.
-
-F Millstone Hamlet|ACTIVE|51218|N|Fly back to the Hamlet.|
+A Trouble at Fort Daelin|QID|49818|M|59.52,69.95|N|From Squire Augustus III.|
+F Millstone Hamlet|ACTIVE|51218|M|59.73,70.57|N|Fly back to the Hamlet.|
 T Undelivered Package|QID|51218|M|30.34,66.81|N|To Marie Davenport.|
 A Be A Dear|QID|51214|M|30.34,66.81|N|From Marie Davenport.|
 C Be A Dear|QID|51214|M|29.79,67.05|QO|3|N|Grab some logs here.|
