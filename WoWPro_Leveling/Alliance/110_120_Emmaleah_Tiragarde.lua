@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-09-05 06:45
+-- Who: elidion
+-- Log: Missing waypoint on Fairwind's Friends quest
+
+-- URL: http://wow-pro.com/node/3769/revisions/29671/view
+-- Date: 2018-09-04 23:45
+-- Who: jovieve
+-- Log: Added Z tag and changed coords to Scrimshaw Cache
+
+-- URL: http://wow-pro.com/node/3769/revisions/29637/view
 -- Date: 2018-09-02 19:25
 -- Who: Emmaleah
 -- Log: moved the first quest into this guide (as it should have been). 
@@ -325,7 +335,7 @@ A Rodrigo's Revenge|QID|49403|M|77.04,82.92|N|From Rodrigo.|
 C Rodrigo's Revenge|QID|49403|NC|N|Hop on the Riding Macaw for a bombing run. You control where the macaw flys, if you use autorun, it is myuch easier to stop, bomb, fly abit more, etc. as camera angles won't stay looking down.|
 T Rodrigo's Revenge|QID|49403|M|77.03,82.89|N|Fly back to Rodrigo and use the dismount button there. Turn quest into Rodrigo.|
 K Auditor Dolp|QID|50156|M|75.56,82.69;74.91,78.96|CS|QO|1|T|Auditor Dolp|N|Don't forget to remove you disguise to fight him. Silver Elite to kill for treasure and resources.|RANK|2|
-C Fairwind's "Friends"|QID|49404|QO|1|N|Enter the Ring of Booty. Unless your AE Damage is strong, you probably want to clear the ring before you untie Flynn.|
+C Fairwind's "Friends"|QID|49404|QO|1|M|73.86,83.44|N|Enter the Ring of Booty. Unless your AE Damage is strong, you probably want to clear the ring before you untie Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|2|NC|N|Heal up and be ready for a fight after untieing Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|3|N|Survive Harlan's game.|
 T Fairwind's "Friends"|QID|49404|M|77.14,82.91|N|To Taelia.|
@@ -408,7 +418,7 @@ T Hot Pursuit|QID|50790|M|48.27,80.64|Z|1161|N|To Taelia.|
 A Proudmoore's Parley|QID|50972|M|48.44,80.93|Z|1161|N|From Katherine Proudmoore.|
 f Proudmoore Keep|QID|50972|M|47.65,65.42|Z|1161|N|At Jessica Clarke.|
 F Tradewinds Market|QID|50972|M|47.70,65.40|Z|1161|N|At Jessica Clarke.|
-$ Scrimshaw Cache|QID|52870|M|73.95,23.29;65.33,12.04;72.65,21.33|CS|N|Down the stairs and over the wall into a little cave for some treasure and resources. You can return the same way you came.|
+$ Scrimshaw Cache|QID|52870|Z|Boralus|M|64.79,12.39;62.85,11.84;61.72,10.61|CS|N|Down the stairs and over the wall into a little cave for some treasure and resources. You can return the same way you came.|
 A Bundle of Furs|QID|51144|M|74.81,23.65|N|From "Risky" Liz Seminario.|
 A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|
 T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko.|
