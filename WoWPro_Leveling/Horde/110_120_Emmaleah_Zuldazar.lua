@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2018-09-06 04:41
+-- Who: jovieve
+-- Log: Removed QO|1 tag, even though Ludo built in fault tolerance.
+
+-- URL: http://wow-pro.com/node/3762/revisions/29682/view
 -- Date: 2018-09-05 11:24
 -- Who: Emmaleah
 -- Log: Changed lots of C go kill this thing to K Mob Name, fixed |Z| for Seeking the Seeker; various other fixes based on about 1/3 of the way thru the zone with rank 3.
@@ -674,7 +679,7 @@ C Dreadpearl Collusion|QID|49315|M|80.83,58.94|S|US|N|Bonus Objective. Time to f
 T Dreadpearl Collusion|QID|49315|M|76.13,65.58|N|Bonus Objective - Autocompleted.|
 T Find Their Words|QID|51407|M|70.56,64.87|N|To Akru.|
 A A Different Outcome|QID|50331|M|70.56,64.87|N|From Akru.|RANK|2|PRE|51407|
-b Atal'gral|ACTIVE|51101|QO|1|M|69.49,66.99|N|Take the boat from Wavespeaker Zara.|
+b Atal'gral|ACTIVE|51101|M|69.49,66.99|N|Take the boat from Wavespeaker Zara.|
 T A Different Outcome|QID|50331|M|81.35,45.80|N|To Rokor.|
 
 A The Scrolls of Gral|QID|48015|M|81.35,45.80|N|From Rokor.|RANK|2|PRE|50331|
