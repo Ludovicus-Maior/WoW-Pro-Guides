@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-09-07 09:45
+-- Who: Emmaleah
+-- Log: missing  US on Once Bitten
+
+-- URL: http://wow-pro.com/node/3763/revisions/29613/view
 -- Date: 2018-08-25 03:10
 -- Who: jovieve
 -- Log: Fixed f step that was being skipped because it was using QID of step that had just been turned in.
@@ -384,7 +389,7 @@ C A Pungent Solution|QID|48113|M|66.41,42.09|NC|N|Pick up a Juicy Onion.|
 C Quill or Be Quilled|QID|49242|M|66.41,42.09|US|N|Finish killing the Invasive Quillrats.|
 T Quill or Be Quilled|QID|49242|M|66.88,42.13|N|To Adela Hawthorne.|
 C Harmful If Swallowed|QID|48165|N|Finish collecting the Intact Venom Glands.|
-C Once Bitten, Twice Shy|QID|48170|QO|2|NC|N|Finish capturing the needed Bloodflies.|
+C Once Bitten, Twice Shy|QID|48170|QO|2|US|NC|N|Finish capturing the needed Bloodflies.|
 
 T A Pungent Solution|QID|48113|M|70.07,42.81|N|To Lucille Waycrest.|
 T Once Bitten, Twice Shy|QID|48170|M|70.07,42.81|N|To Lucille Waycrest.|
