@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-09-06 17:00
+-- Who: Ludovicus_Maior
+-- Log: Added QO|1 to [K Director Deepwarden]
+
+-- URL: http://wow-pro.com/node/3769/revisions/29680/view
 -- Date: 2018-09-05 06:45
 -- Who: elidion
 -- Log: Missing waypoint on Fairwind's Friends quest
@@ -798,7 +803,7 @@ C Creature Corruption|QID|49300|M|35.20,24.20|S|N|Bonus Objective - Kill stuff a
 C Those Aren't Fish Eggs|QID|48367|M|32.25,27.34|S|N|Attack the eggs.|
 C Death in the Depths|QID|48370|M|33.01,26.19|S|N|Kill Deepwarden Followers.|
 K Quartermaster Ssylis|QID|51384|M|30.13,17.62|QO|1|N|Up on the shore, in a small cave, find and kill Quartermaster Ssylis.|T|Quartermaster Ssylis|
-K Director Deepwarden|QID|48372|M|30.86,21.56;30.08,19.59|CS|N|Kill Director Deepwarden inside the underwater cave.|T|Director Deepwarden|
+K Director Deepwarden|QID|48372|M|30.86,21.56;30.08,19.59|CS|QO|1|N|Kill Director Deepwarden inside the underwater cave.|T|Director Deepwarden|
 C Deep Sea Defilement|QID|48368|M|30.00,19.33|QO|3|NC|N|Destroy the Western Corrupting Pylon.|
 C Deep Sea Defilement|QID|48368|M|31.35,29.13;30.36,31.14|CS|QO|1|NC|N|Destroy the Southern Corrupting Pylon in an underwater cave.|
 C Deep Sea Defilement|QID|48368|M|33.94,25.45;35.38,24.32|CS|QO|2|NC|N|Destroy the Eastern Corrupting Pylon in an underwater cave.|
