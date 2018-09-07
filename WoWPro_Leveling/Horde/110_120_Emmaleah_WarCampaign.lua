@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-09-07 08:47
+-- Who: elidion
+-- Log: Added a CHAT tag for tattersail on the friendly rep mission
+
+-- URL: http://wow-pro.com/node/3761/revisions/29689/view
+-- Date: 2018-09-07 02:35
+-- Who: elidion
+
+-- URL: http://wow-pro.com/node/3761/revisions/29687/view
 -- Date: 2018-09-06 22:30
 -- Who: elidion
 -- Log: One more PRE adjusment, and moved the 4.5k friendly note down with the rest of them.
@@ -399,7 +408,7 @@ b Port of Zandalar|AVAILABLE|53065|M|87.84,51.19|Z|Tiragarde Sound|N|Ask Erul Da
 A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|REP|The Honorbound;2157;friendly;4500;false|O|
 T Operation: Grave Digger|QID|53065|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A A Stroll Through a Cemetery|QID|51784|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51601|REP|The Honorbound;2157;friendly;4500;false|
-C A Stroll Through a Cemetery|QID|51784|QO|1|M|58.46,62.99|Z|Zuldazar|N|Tell Tattersail to sail to Drustvar.|
+C A Stroll Through a Cemetery|QID|51784|QO|1|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Drustvar.|
 F Krazzlefrazz Outpost|ACTIVE|51784|M|19.16,43.31|Z|Drustvar|N|Fly to Krazzlefrazz Outpost.|
 R Barrowknoll Cemetery|ACTIVE|51784|M|37.69,33.30;48.19,32.30;52.61,39.67|CS|Z|Drustvar|N|Across the river, run generally east towards Barrowknoll cemetery|
 T A Stroll Through a Cemetery|QID|51784|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
@@ -657,3 +666,250 @@ N Rep Gated|AVAILABLE|52183|N|So, go out Contribute to the Warfront (when availa
 N Outposts and Rep|AVAILABLE|53103;53152;53126;52320;52479;53101;53082|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
 ]]
 end)
+
+End of Source Code
+
+[Back to List of Guides]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ludovicus_EditBot
+Grail 095 seems to have the quest level issues fixed!
+
+
+
+
+Ludovicus
+If you are using Grail 094 or earlier, it will mess up the quest levels for 7.3.5 .  Disable it till version 095 is out.
+
+
+
+
+Ludovicus
+"Bigger Fish to Fry" + Artifact Fishing rod guide now published.
+
+
+
+
+Ludovicus
+BTW, I have 2 accounts here. Ludovicus_Maior my site admin account and this is my normal account.  I cant edit some content as an admin!
+
+
+
+
+Ludovicus_Maior
+I apologize for the late replies to many bug reports.  The SPAM catcher had about 2000 comments that I had to sift through by hand!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Agence Web Nice|Référencement Internet
+
+
+
+
+
+
+
+
+
+
+
+
