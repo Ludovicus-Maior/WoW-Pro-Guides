@@ -143,3 +143,5 @@ F Zan'vess|QID|969780012|M|30,75|Z|Dread Wastes|ACH|6978;12|
 N Congratulations on exploring Pandaria!
 ]]
 end)
+
+
