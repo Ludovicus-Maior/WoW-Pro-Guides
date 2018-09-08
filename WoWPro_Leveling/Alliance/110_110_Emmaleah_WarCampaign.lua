@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-08 09:58
+-- Who: elidion
+-- Log: Removed the bbcode-code tag
+
+-- URL: http://wow-pro.com/node/3760/revisions/29698/view
+-- Date: 2018-09-08 09:57
+-- Who: elidion
+-- Log: Updated Warfront waypoints, Portal step and arrangement to be more friendly for new players.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29692/view
 -- Date: 2018-09-07 06:00
 -- Who: elidion
 -- Log: Updated the Vol'dun questline to use the new objective type.
@@ -217,8 +227,9 @@ A Breaking Free|QID|51389|M|27.18,53.91|Z|Vol'dun|N|From Sergeant Ermey.|PRE|513
 C Defang the Faithless|QID|51391|M|29.02,51.32|Z|Vol'dun|S|N|Kill the snake people as you go.|
 C Crush the Cannons|QID|51394|M|29.56,51.39|Z|Vol'dun|QO|2|S|NC|N|Click on the cannons to crush them as you go.|
 C Break the Siege|QID|51394|M|29.41,51.18|Z|Vol'dun|QO|1|S|NC|N|Click on the banners to burn them as you go.|
-C Shatter Spires|QID|51394|M|29.02,54.98|Z|Vol'dun|QO|3
-2|NC|N|Click on the spires to shatter them.|
+C Shatter Spires|QID|51394|M|29.02,54.98|Z|Vol'dun|QO|3<1|NC|N|Click on the spires to shatter them.|
+C Breaking Free|QID|51389|M|30.07,53.65|Z|Vol'dun|NC|N|1/1 Private James rescued|
+C Shatter Spires|QID|51394|M|28.86,51.47|Z|Vol'dun|QO|3<2|NC|N|Click on the spires to shatter them.|
 C Break the Siege|QID|51394|M|29.41,51.18|Z|Vol'dun|QO|1|US|NC|N|Finish burning the banners.|
 C Crush the Cannons|QID|51394|M|29.56,51.39|Z|Vol'dun|QO|2|US|NC|N|Finish crushing the cannons.|
 C Shatter Spires|QID|51394|M|28.87,51.45|Z|Vol'dun|QO|3|US|NC|N|Finish shattering spires.|
@@ -331,29 +342,30 @@ A Return to Boralus|QID|51967|M|62.03,41.59|Z|Nazmir|N|From Brann Bronzebeard.|P
 C Return to Boralus|QID|51967|M|61.40,51.11|Z|Kul Tiras|CHAT|N|Tell Desha you want to return to Boralas.|
 T Return to Boralus|QID|51967|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane.|
 
-;Warfronts
-A The Warfront Looms|QID|53175|N|Autoaccepted after turning level 120|LVL|120|O|
-T The Warfront Looms|QID|53175|M|65.90,26.10|Z|Boralus|N|To Ralston Karn.|
-A To the Front|QID|53194|M|65.90,26.10|Z|Boralus|N|From Ralston Karn.|LVL|120|PRE|53175|
-A Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|From Ralston Karn.|LVL|120|PRE|53175|
-P Arathi Highlands|ACTIVE|53194|M|66.18,24.45|Z|Boralus|CHAT|N|Talk to Yvera Dawnwing for a port to Arathi Highlands.|
-T To the Front|QID|53194|M|19.20,61.80|Z|Arathi Highlands|N|To Captain Roderick Brewston.|
-A Touring the Front|QID|53197|M|26.07,35.57|Z|Arathi Highlands|PRE|53194|
-C Touring the Front|QID|53197|M|18.30,67.80|Z|Arathi Highlands|QO|3|CHAT|N|View the battleground with Grayson Bell.|
-C Touring the Front|QID|53197|M|12.10,52.20|Z|Arathi Highlands|QO|2|CHAT|N|Check on Lumbering Leo.|
-C Touring the Front|QID|53197|M|27.40,56.20|Z|Arathi Highlands|QO|1|CHAT|N|Check on Foreman Tully.|
-T Touring the Front|QID|53197|M|26.07,35.56|Z|Arathi Highlands|N|To Captain Roderick Brewston.|
-A Back to Boralus|QID|53198|M|26.07,35.56|Z|Arathi Highlands|N|From Captain Roderick Brewston.|PRE|53197|
-P Boralus|ACTIVE|53198|M|21.69,65.08|Z|Arathi Highlands|CHAT|N|Talk to Yvera Dawnwing for a port back to Boralus.|
-T Back to Boralus|QID|53198|M|65.90,26.10|Z|Boralus|N|To Ralston Karn.|
-C Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g.|
-T Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|To Ralston Karn and enjoy Warfronts!|
-
 ;lvl 120
 A A Mission of Unity|QID|53063|N|Autoaccepted when you hit 120|LVL|120|O|
 T A Mission of Unity|QID|53063|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Uniting Kul Tiras|QID|51918;52450|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|120|PRE|52443|
-C Uniting Kul Tiras|QID|51918;52450|N|This requires earning friendly reputation with Proudmoore Admirity (Tiragarde Sound), Order of Embers (Drustvar) and Storm's Wake (Stormsong Valley).|
+A Uniting Kul Tiras|QID|51918;52450|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|120|
+C Uniting Kul Tiras|QID|51918;52450|S|N|This requires earning friendly reputation with Proudmoore Admirity (Tiragarde Sound), Order of Embers (Drustvar) and Storm's Wake (Stormsong Valley).|
+;Warfronts
+A The Warfront Looms|QID|53175|N|Autoaccepted after turning level 120|LVL|120|O|
+T The Warfront Looms|QID|53175|M|65.90,26.10|Z|Boralus|N|To Ralston Karn.|
+A To the Front|QID|53194|M|65.90,26.10|Z|Boralus|N|From Ralston Karn.|LVL|120|
+A Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|From Ralston Karn.|LVL|120|PRE|53175|
+P Arathi Highlands|ACTIVE|53194|M|66.23,24.77|Z|Boralus|CHAT|N|Talk to Yvera Dawnwing for a port to Arathi Highlands.|
+T To the Front|QID|53194|M|19.25,61.94|Z|Arathi Highlands|N|To Captain Roderick Brewston.|
+A Touring the Front|QID|53197|M|19.25,61.94|Z|Arathi Highlands|PRE|53194|
+C Touring the Front|QID|53197|M|18.26,67.94|Z|Arathi Highlands|QO|3|CHAT|N|View the battleground with Grayson Bell.|
+C Touring the Front|QID|53197|M|12.01,52.12|Z|Arathi Highlands|QO|2|CHAT|N|Check on Lumbering Leo.|
+C Touring the Front|QID|53197|M|27.55,57.01|Z|Arathi Highlands|QO|1|CHAT|N|Enter the mine and run below to check on Foreman Tully.|
+T Touring the Front|QID|53197|M|19.24,61.94|Z|Arathi Highlands|N|To Captain Roderick Brewston.|
+A Back to Boralus|QID|53198|M|19.24,61.94|Z|Arathi Highlands|N|From Captain Roderick Brewston.|PRE|53197|
+P Boralus Harbor|ACTIVE|53198|M|21.71,64.88|Z|Arathi Highlands|CHAT|N|Talk to Yvera Dawnwing for a port back to Boralus.|
+T Back to Boralus|QID|53198|M|65.90,26.10|Z|Boralus|N|To Ralston Karn.|
+C Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g.|
+T Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|To Ralston Karn and enjoy Warfronts!|
+;End Warfront
+C Uniting Kul Tiras|QID|51918;52450|US|N|This requires earning friendly reputation with Proudmoore Admirity (Tiragarde Sound), Order of Embers (Drustvar) and Storm's Wake (Stormsong Valley).|
 T Uniting Kul Tiras|QID|51918;52450|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
 ;First Assult
@@ -538,8 +550,6 @@ T Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane
 A Bringing Down the Fleet|QID|52473|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|REP|7th Legion;2159;revered;7500;false|PRE|52496|
 C Bringing Down the Fleet|QID|52473|M|67.94,26.70|Z|Boralus|CHAT|NC|N|Speak with Grand Admiral Jes-Tereth to said for Nazmir|
 T Bringing Down the Fleet|QID|52473|M|40.76,70.89|Z|Zuldazar|N|To Halford Wyrmbane.|
-
-
 
 ; Rep Gated Notes
 N Come back at level 114|AVAILABLE|51961|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51569|
