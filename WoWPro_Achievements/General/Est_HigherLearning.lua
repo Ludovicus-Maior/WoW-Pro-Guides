@@ -41,3 +41,5 @@ A Transmutation|ACH|1956;8|N|In the empty bookshelf downstairs by the stove.|Z|D
 N Keep resetting|QID|972810001|N|until you find them all (or give up).|
 ]]
 end)
+
+
