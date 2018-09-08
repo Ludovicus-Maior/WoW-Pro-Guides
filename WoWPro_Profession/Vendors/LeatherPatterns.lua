@@ -668,3 +668,5 @@ B Vicious Dragonscale Bracers|QID|990078450|RECIPE|78450|M|42.00,43.50|Z|Thunder
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
+

@@ -971,3 +971,5 @@ D The End.|N|This Concludes Zuldazar. The war campaign guide will automatically 
 ]]
 
 end)
+
+

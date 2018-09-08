@@ -112,3 +112,5 @@ N Highest Pattern|QID|901970062|P|Tailoring;197;575;600|N|5;Bolts of Windwool Cl
 N That completes Tailoring.
 ]]
 end)
+
+

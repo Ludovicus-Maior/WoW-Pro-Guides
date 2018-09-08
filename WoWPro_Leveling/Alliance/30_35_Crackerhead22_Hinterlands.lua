@@ -307,3 +307,5 @@ F Andorhal|QID|28505|ACTIVE|28505|N|Speak with Guthrum Thunderfist to fly to And
 ]]
 
 end)
+
+

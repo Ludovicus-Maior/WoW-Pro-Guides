@@ -32,3 +32,5 @@ D Next Zone|N|Check off this step and the Stonetalon will now load.|
 
 ]]
 end)
+
+

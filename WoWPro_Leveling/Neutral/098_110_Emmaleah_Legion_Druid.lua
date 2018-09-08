@@ -605,3 +605,5 @@ J On to Highmountain|QID|39733;38907|N| This temporarily ends the order hall gui
 
 ]]
 end)
+
+

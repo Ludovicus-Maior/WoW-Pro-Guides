@@ -498,3 +498,5 @@ N Congratulations|N|You have finished Dread Wastes, if you want to continue with
 ]]
 
 end)
+
+

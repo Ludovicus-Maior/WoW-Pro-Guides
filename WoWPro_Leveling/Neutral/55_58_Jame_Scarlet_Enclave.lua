@@ -322,3 +322,5 @@ N Thus ends the Death Knight starting area.|N|Close this step to head start the 
 
 ]]
 end)
+
+

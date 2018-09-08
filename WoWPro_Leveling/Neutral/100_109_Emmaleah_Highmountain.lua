@@ -772,3 +772,5 @@ D On to Class Halls|N|This ends Highmountain and the Warrior order hall guide wi
 ]]
 
 end)
+
+

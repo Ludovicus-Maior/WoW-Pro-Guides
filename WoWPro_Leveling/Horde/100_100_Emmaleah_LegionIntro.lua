@@ -90,3 +90,5 @@ D On to Class Halls|N|This ends the intro scenario and the Warrior order hall gu
 
 ]]
 end)
+
+

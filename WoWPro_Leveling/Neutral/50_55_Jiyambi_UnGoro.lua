@@ -274,3 +274,5 @@ N This ends the Un'Goro Crater.|N|I would recommend visiting your trainers if ne
 
 ]]
 end)
+
+

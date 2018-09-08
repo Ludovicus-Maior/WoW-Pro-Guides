@@ -754,3 +754,5 @@ J On to Spires of Arak|QID|34653;36951|N|This ends the Talador Guide, return to 
 
 ]]
 end)
+
+

@@ -757,3 +757,5 @@ J Back to Zuldazar|QID|47199|N|This ends the Nazmir guide, The Blood Gate (requi
 
 ]]
 end)
+
+

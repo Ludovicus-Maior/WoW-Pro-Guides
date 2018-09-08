@@ -421,3 +421,5 @@ T Newfound Allies|QID|9632|M|24.18,54.33|Z|Azuremyst Isle|N|Go up the ramp to th
 N Thus ends Bloodmyst Isles.|N|Next stop Ashenvale. Take the boat or fly to Rutheran Village, then onto Ashenvale. Close this step.|
 ]]
 end)
+
+

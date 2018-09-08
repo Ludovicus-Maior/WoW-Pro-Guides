@@ -49,3 +49,5 @@ B Glyph of Colossus Smash|QID|990089815|RECIPE|89815|M|76.60,49.40|Z|Twilight Hi
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
+

@@ -677,3 +677,5 @@ T Turning Point|QID|10507|M|42.68,91.52|Z|Shattrath City|N|To Voren'thal the See
 N That finishes Netherstorm|N|You can toss any item that still might in your inventory from quests.|
 ]]
 end)
+
+

@@ -134,3 +134,5 @@ T Gargra|QID|37205|M|68.6,64.6|Z|Frostfire Ridge|N|To Gargra|
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
 end)
+
+

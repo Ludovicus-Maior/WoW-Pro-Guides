@@ -353,3 +353,5 @@ A Into Arathi|QID|26139|M|49.53,17.25|N|(UI Alert) Or you can get this quest fro
 ]]
 
 end)
+
+

@@ -753,3 +753,5 @@ D Your Garrison|QID|36606;36607|U|110560|M|40.18,43.5|N|This ends Spires of Arak
 ]]
 
 end)
+
+

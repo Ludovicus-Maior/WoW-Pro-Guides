@@ -563,3 +563,5 @@ T The Champion of Anguish|QID|12948|M|48.48,56.42|N|To Wodin the Troll-Servant.|
 
 ]]
 end)
+
+

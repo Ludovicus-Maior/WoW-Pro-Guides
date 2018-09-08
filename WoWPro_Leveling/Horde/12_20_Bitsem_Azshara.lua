@@ -506,3 +506,5 @@ T To The Ramparts!|QID|13866|M|42.41,15.18|Z|Northern Barrens|N|To Kadrak.|
 
 ]]
 end)
+
+

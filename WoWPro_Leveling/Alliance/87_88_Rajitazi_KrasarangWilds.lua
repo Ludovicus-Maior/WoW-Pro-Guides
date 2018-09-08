@@ -415,3 +415,5 @@ N Congratulations|QID|31254|N|You have finished Krasarang Wilds. Next zone is Ku
 ]]
 
 end)
+
+

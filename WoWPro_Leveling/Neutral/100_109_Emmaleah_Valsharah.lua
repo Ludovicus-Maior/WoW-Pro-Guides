@@ -652,3 +652,5 @@ D On to Class Halls|N|This ends Val'sharah and the Warrior order hall guide will
 ]]
 
 end)
+
+

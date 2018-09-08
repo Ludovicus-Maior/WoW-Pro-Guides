@@ -471,3 +471,5 @@ H Temple of Telhamat|N|Hearth back to the Temple of Telhamat, this is will conti
 
 ]]
 end)
+
+

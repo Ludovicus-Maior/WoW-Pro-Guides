@@ -393,3 +393,5 @@ B Runecloth Bag|QID|990018405|RECIPE|18405|M|59.60,49.20|Z|Winterspring|P|Tailor
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
+

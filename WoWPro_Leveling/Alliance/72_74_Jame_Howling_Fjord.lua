@@ -616,3 +616,5 @@ A High Commander Halford Wyrmbane |QID|12298|PRE|12297|N|From Greer Orehammer, t
 F Wintergarde Keep |QID|12298|N|Talk to Greer Orehammer and choose to fly to Wintergarde Keep.|
 ]]
 end)
+
+

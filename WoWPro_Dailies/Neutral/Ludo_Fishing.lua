@@ -251,3 +251,5 @@ N Horde Fishing|N|This Horde Fishing guide uses the auto-switch functionality.  
 ]]
 
 end)
+
+

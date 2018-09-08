@@ -476,3 +476,5 @@ N The End|N|This is the end of Ashenvale. The next guide is Stonetalon Mountains
 
 ]]
 end)
+
+

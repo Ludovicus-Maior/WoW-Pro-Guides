@@ -286,3 +286,5 @@ T Vital Intelligence|QID|24972|M|44.70,53.67|Z|Tirisfal Glades|N|To Deathguard S
 ]]
 
 end)
+
+

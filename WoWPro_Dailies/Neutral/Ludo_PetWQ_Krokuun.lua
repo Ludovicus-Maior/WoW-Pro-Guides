@@ -78,3 +78,5 @@ C Random|QID|49043|STRATEGY|wow-petguide-Baneglow|N|1) Finish Baneglow off.|SELE
 
 ]]
 end)
+
+

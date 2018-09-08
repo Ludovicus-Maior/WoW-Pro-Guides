@@ -677,3 +677,5 @@ N Rep Gated|AVAILABLE|52183|N|So, go out Contribute to the Warfront (when availa
 N Outposts and Rep|AVAILABLE|53103;53152;53126;52320;52479;53101;53082|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
 ]]
 end)
+
+
