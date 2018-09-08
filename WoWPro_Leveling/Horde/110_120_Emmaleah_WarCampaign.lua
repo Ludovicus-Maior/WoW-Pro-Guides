@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-09-08 10:08
+-- Who: elidion
+-- Log: Re-arranged warfronts and initial 120 quest once again to be friendly for new players.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29696/view
 -- Date: 2018-09-07 22:34
 -- Who: elidion
 -- Log: Removed code tags - no change in guide.
@@ -338,6 +343,11 @@ A Return to Zuldazar|QID|51984|M|87.28,50.01|Z|Tiragarde Sound|N|From Shadow Hun
 C Return to Zuldazar|QID|51984|M|87.84,51.18|Z|Tiragarde Sound|CHAT|N|Speak to Erul Dawnbrook.|
 T Return to Zuldazar|QID|51984|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
+;lvl 120
+A A Mission of Unity|QID|53064|N|Autoaccepted after turning level 120|LVL|120|O|
+T A Mission of Unity|QID|53064|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|LVL|120|
+A Uniting Zandalar|QID|52451;51916|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|120|
+C Uniting Zandalar|QID|52451;51916|M|58.44,62.67|Z|Zuldazar|S|N|Requires at least honored with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
 ;Warfront at lvl 120
 A The Warfront Looms|QID|53207|N|Autoaccepted after turning level 120|LVL|120|O|
 T The Warfront Looms|QID|53207|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
@@ -355,12 +365,8 @@ P Zuldazar|ACTIVE|53212|M|26.68,35.80|Z|Arathi Highlands|CHAT|N|Talk to Druza Ne
 T Back to Zuldazar|QID|53212|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
 C Warfront Contribution|QID|53209|M|51.74,95.44|Z|Dazar'alor|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g at Paymaster Grintooth|
 T Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|To Throk and enjoy Warfronts!|
-
-;lvl 120
-A A Mission of Unity|QID|53064|N|Autoaccepted after turning level 120|LVL|120|O|
-T A Mission of Unity|QID|53064|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|LVL|120|
-A Uniting Zandalar|QID|52451;51916|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|120|PRE|52444|
-C Uniting Zandalar|QID|52451;51916|M|58.44,62.67|Z|Zuldazar|N|Requires at least honored with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
+;End Warfront
+C Uniting Zandalar|QID|52451;51916|M|58.44,62.67|Z|Zuldazar|US|N|Requires at least honored with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
 T Uniting Zandalar|QID|52451;51916|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ;First Assault
