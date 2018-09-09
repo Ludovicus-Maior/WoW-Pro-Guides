@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-09 11:15
+-- Who: elidion
+-- Log: Accuracy pass on First Assult
+
+-- URL: http://wow-pro.com/node/3760/revisions/29705/view
+-- Date: 2018-09-09 01:03
+-- Who: elidion
+-- Log: Incorrect Note Tag
+
+-- URL: http://wow-pro.com/node/3760/revisions/29703/view
+-- Date: 2018-09-08 22:36
+-- Who: elidion
+-- Log: Added the Warfront missions when you own Arathi.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29699/view
 -- Date: 2018-09-08 09:58
 -- Who: elidion
 -- Log: Removed the bbcode-code tag
@@ -364,6 +379,25 @@ P Boralus Harbor|ACTIVE|53198|M|21.71,64.88|Z|Arathi Highlands|CHAT|N|Talk to Yv
 T Back to Boralus|QID|53198|M|65.90,26.10|Z|Boralus|N|To Ralston Karn.|
 C Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g.|
 T Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|To Ralston Karn and enjoy Warfronts!|
+A Death to The Defilers|QID|53153|ACTIVE|53153;53192;53179;53146;53162;53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
+A Twice-Exiled|QID|53192|ACTIVE|53153;53192;53179;53146;53162;53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
+A Executing Exorcisms|QID|53179|ACTIVE|53153;53192;53179;53146;53162;53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
+A Boulderfist Beatdown|QID|53146|ACTIVE|53153;53192;53179;53146;53162;53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
+A Sins of the Syndicate|QID|53162|ACTIVE|53153;53192;53179;53146;53162;53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
+A Wiping Out the Witherbark|QID|53149|ACTIVE|53153;53192;53179;53146;53162;53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
+C Twice-Exiled|QID|53192|M|29.76,59.85|Z|Arathi Highlands|S|N|Kill elementals, they have spawn areas all over the map.|
+C Boulderfist Beatdown|QID|53146|M|28.75,45.55|Z|Arathi Highlands|N|Cave entrance at waypoint, kill the Boulderfist inside.|
+C Executing Exorcisms|QID|53179|M|27.01,30.60|Z|Arathi Highlands|N|Kill Ghosts in the area.|
+C Sins of the Syndicate|QID|53162|M|49.81,39.77|Z|Arathi Highlands|N|Kill Syndicate in the area.|
+C Death to The Defilers|QID|53153|M|53.14,60.05|Z|Arathi Highlands|N|Kill defilers in the area.|
+C Wiping Out the Witherbark|QID|53149|M|63.75,72.54|Z|Arathi Highlands|N|Kill trolls in the area.|
+C Twice-Exiled|QID|53192|M|29.76,59.85|Z|Arathi Highlands|US|N|Finish killing elementals in this area. There is also the Rumbling Goliath rare here.|
+T Death to The Defilers|QID|53153|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
+T Twice-Exiled|QID|53192|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
+T Executing Exorcisms|QID|53179|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
+T Boulderfist Beatdown|QID|53146|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
+T Sins of the Syndicate|QID|53162|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
+T Wiping Out the Witherbark|QID|53149|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
 ;End Warfront
 C Uniting Kul Tiras|QID|51918;52450|US|N|This requires earning friendly reputation with Proudmoore Admirity (Tiragarde Sound), Order of Embers (Drustvar) and Storm's Wake (Stormsong Valley).|
 T Uniting Kul Tiras|QID|51918;52450|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
@@ -371,57 +405,57 @@ T Uniting Kul Tiras|QID|51918;52450|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmban
 ;First Assult
 A Overseas Assassination|QID|52026|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|51918+52450|
 C Overseas Assassination|QID|52026|M|67.95,26.72|Z|Boralus|CHAT|N|If you are ready to travel to Vol'dun|
-T Overseas Assassination|QID|52026|M|37.71,35.83|Z|Vol'dun|N|To Halford Wyrmbane.|
-A The Vol'dun Plan|QID|52027|M|37.71,35.83|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52026|
-C The Vol'dun Plan|QID|52027|M|37.71,35.83|Z|Vol'dun|QO|1|CHAT|N|Discuss Halford's strategy.|
-C The Vol'dun Plan|QID|52027|M|37.72,35.92|Z|Vol'dun|QO|2|CHAT|N|Discuss Shandris's strategy.|
-T The Vol'dun Plan|QID|52027|M|37.71,35.83|Z|Vol'dun|N|To Halford Wyrmbane.|
-A Comb the Desert|QID|52028|M|37.71,35.83|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52027|
+T Overseas Assassination|QID|52026|M|37.70,35.95|Z|Vol'dun|N|To Halford Wyrmbane.|
+A The Vol'dun Plan|QID|52027|M|37.70,35.95|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52026|
+C The Vol'dun Plan|QID|52027|M|37.70,35.95|Z|Vol'dun|QO|1|CHAT|N|Discuss Halford's strategy.|
+C The Vol'dun Plan|QID|52027|M|37.75,35.92|Z|Vol'dun|QO|2|CHAT|N|Discuss Shandris's strategy.|
+T The Vol'dun Plan|QID|52027|M|37.70,35.95|Z|Vol'dun|N|To Halford Wyrmbane.|
+A Comb the Desert|QID|52028|M|37.70,35.95|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52027|
 C Comb the Desert|QID|52028|M|40.72,47.79|Z|Vol'dun|QO|1|NC|N|Search for Horde activity.|
-T Comb the Desert|QID|52028|M|40.72,47.79|Z|Vol'dun|N|To Shandris Feathermoon.|
-A Dirty Work|QID|52029|M|40.72,47.79|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52028|
-C Dirty Work|QID|52029|M|40.89,48.91|Z|Vol'dun|N|Kill Nazlara walking around the desert a few yards away. Loot the Reliquary Orders.|
-T Dirty Work|QID|52029|M|40.72,47.79|Z|Vol'dun|N|To Halford Wyrmbane.|
-A Keep Combing|QID|52030|M|40.72,47.79|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52029|
+T Comb the Desert|QID|52028|M|40.74,47.83|Z|Vol'dun|N|To Shandris Feathermoon.|
+A Dirty Work|QID|52029|M|40.74,47.83|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52028|
+K Dirty Work|QID|52029|M|40.89,48.91|Z|Vol'dun|T|Nazlara|QO|1|N|Kill Nazlara walking around the desert a few yards away. Loot the Reliquary Orders.|
+T Dirty Work|QID|52029|M|40.70,47.84|Z|Vol'dun|N|To Halford Wyrmbane.|
+A Keep Combing|QID|52030|M|40.70,47.84|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52029|
 C Keep Combing|QID|52030|M|44.91,58.83|Z|Vol'dun|NC|N|Search for more Reliquary operatives.|
-T Keep Combing|QID|52030|M|45.00,58.72|Z|Vol'dun|N|To Shandris Feathermoon.|
-A Classic Reliquary|QID|52031|M|45.00,58.72|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52030|
-C Classic Reliquary|QID|52031|M|45.30,60.46|Z|Vol'dun|N|Kill Elisa Veilsong and Daxx Bombhand to collect the Reliquary Map: Vol'dun|
-T Classic Reliquary|QID|52031|M|44.91,58.83|Z|Vol'dun|N|To Halford Wyrmbane.|
-A Never Stop Combing|QID|52032|M|45.00,58.72|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52031|
-C Never Stop Combing|QID|52032|M|41.07,72.56|Z|Vol'dun|NC|N|Find the Exiles' Enclave|
-T Never Stop Combing|QID|52032|M|41.07,72.56|Z|Vol'dun|N|To Halford Wyrmbane.|
-A Improvised Survival|QID|52035|M|41.07,72.56|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52032|
-A A Message to the Zandalari|QID|52034|M|41.11,72.61|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52032|
-A They Have Alpacas Here|QID|52036|M|41.13,72.44|Z|Vol'dun|N|From Explosioneer Zoidfuse.|PRE|52032|
+T Keep Combing|QID|52030|M|44.99,58.75|Z|Vol'dun|N|To Shandris Feathermoon.|
+A Classic Reliquary|QID|52031|M|44.99,58.75|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52030|
+C Classic Reliquary|QID|52031|M|45.29,60.65|Z|Vol'dun|N|Kill Elisa Veilsong and Daxx Bombhand to collect the Reliquary Map: Vol'dun|
+T Classic Reliquary|QID|52031|M|44.96,58.77|Z|Vol'dun|N|To Halford Wyrmbane.|
+A Never Stop Combing|QID|52032|M|44.96,58.77|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52031|
+C Never Stop Combing|QID|52032|M|41.08,72.61|Z|Vol'dun|NC|N|Find the Exiles' Enclave|
+T Never Stop Combing|QID|52032|M|41.08,72.61|Z|Vol'dun|N|To Halford Wyrmbane.|
+A Improvised Survival|QID|52035|M|41.08,72.61|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52032|
+A A Message to the Zandalari|QID|52034|M|41.11,72.57|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52032|
+A They Have Alpacas Here|QID|52036|M|41.14,72.40|Z|Vol'dun|N|From Explosioneer Zoidfuse.|PRE|52032|
 C Improvised Survival|QID|52035|M|40.22,75.20|Z|Vol'dun|NC|S|N|Collect Zandalari Dunemelons and Water Jugs as you go|
 C They Have Alpacas Here|QID|52036|M|38.65,70.99|Z|Vol'dun|S|N|Find an Alpaca, use the Lasso on it and bring it back to Zoidfuse|U|161333|
 C A Message to the Zandalari|QID|52034|M|40.64,75.32|Z|Vol'dun|N|Kill 12 Zandalari Exiles|
 C Improvised Survival|QID|52035|M|40.22,75.20|Z|Vol'dun|NC|US|N|Continue Collecting Zandalari Dunemelons and Water Jugs|
 C They Have Alpacas Here|QID|52036|M|38.65,70.99|Z|Vol'dun|US|N|Find an Alpaca, use the Lasso on it and bring it back to Zoidfuse|U|161333|
-T Improvised Survival|QID|52035|M|41.07,72.56|Z|Vol'dun|N|To Halford Wyrmbane.|
-T A Message to the Zandalari|QID|52034|M|41.11,72.61|Z|Vol'dun|N|To Shandris Feathermoon.|
-T They Have Alpacas Here|QID|52036|M|41.13,72.44|Z|Vol'dun|N|To Explosioneer Zoidfuse.|
-A Splitting Up|QID|52038|M|41.07,72.56|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52034;52035;52036|
-C Splitting Up|QID|52038|M|29.94,78.58|Z|Vol'dun|N|Continue traveling southwest across the desert|
-T Splitting Up|QID|52038|M|29.94,78.58|Z|Vol'dun|N|To Shandris Feathermoon.|
-A Full of Arrows|QID|52040|M|29.94,78.58|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52038|
-A Delayed Deathification|QID|52039|M|29.94,78.58|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52038|
+T Improvised Survival|QID|52035|M|41.08,72.61|Z|Vol'dun|N|To Halford Wyrmbane.|
+T A Message to the Zandalari|QID|52034|M|41.11,72.57|Z|Vol'dun|N|To Shandris Feathermoon.|
+T They Have Alpacas Here|QID|52036|M|41.14,72.40|Z|Vol'dun|N|To Explosioneer Zoidfuse.|
+A Splitting Up|QID|52038|M|41.09,72.61|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52034;52035;52036|
+C Splitting Up|QID|52038|M|29.93,78.55|Z|Vol'dun|N|Continue traveling southwest across the desert|
+T Splitting Up|QID|52038|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
+A Full of Arrows|QID|52040|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52038|
+A Delayed Deathification|QID|52039|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52038|
 C Delayed Deathification|QID|52039|M|29.05,76.64|Z|Vol'dun|NC|S|N|Bury the Remote-Detonation Deathbombs|
-C Full of Arrows|QID|52040|M|28.75,75.65|Z|Vol'dun|N|Kill Arlethal Sunwatcher|
+K Full of Arrows|QID|52040|M|28.70,75.65|Z|Vol'dun|T|Arlethal Sunwatcher|QO|1|N|Kill Arlethal Sunwatcher|
 C Delayed Deathification|QID|52039|M|29.05,76.64|Z|Vol'dun|NC|US|N|Continue to bury the Remote-Detonation Deathbombs|
-T Full of Arrows|QID|52040|M|29.94,78.58|Z|Vol'dun|N|To Shandris Feathermoon.|
-T Delayed Deathification|QID|52039|M|29.94,78.58|Z|Vol'dun|N|To Shandris Feathermoon.|
-A Report to Wyrmbane|QID|52041|M|29.94,78.58|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52040;52039|
-f Report to Wyrmbane|ACTIVE|52041|M|39.76,83.83|Z|Vol'dun|CHAT|N|Run to Explosioneer Zoidfuse to grab flightpoint.|
-T Report to Wyrmbane|QID|52041|M|39.64,83.97|Z|Vol'dun|N|Run to Halford Wyrmbane in new camp.|
-A The Big Boom|QID|52042|M|39.64,83.97|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52041|
-C The Big Boom|QID|52042|M|39.76,83.83|Z|Vol'dun|N|Talk with Explosioneer Zoidfuse and get on the chopper. Test each ability as they come available, Big Red Button is last|
-T The Big Boom|QID|52042|M|39.64,83.97|Z|Vol'dun|N|To Halford Wyrmbane.|
-A Blood on the Sand|QID|52146|M|39.64,83.97|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52042|
-C Blood on the Sand|QID|52146|M|39.64,83.97|Z|Vol'dun|QO|2|N|Wait for Kelsey Steelspark to return|
-C Blood on the Sand|QID|52146|M|38.68,83.02|Z|Vol'dun|QO|1|N|Click on 7th Legion Spyglass and watch cinematic|
-T Blood on the Sand|QID|52146|M|39.64,83.97|Z|Vol'dun|N|To Halford Wyrmbane.|
+T Full of Arrows|QID|52040|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
+T Delayed Deathification|QID|52039|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
+A Report to Wyrmbane|QID|52041|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52040;52039|
+f Report to Wyrmbane|ACTIVE|52041|M|39.79,83.81|Z|Vol'dun|N|Run to Explosioneer Zoidfuse to grab flightpoint.|
+T Report to Wyrmbane|QID|52041|M|39.65,83.91|Z|Vol'dun|N|Run to Halford Wyrmbane in new camp.|
+A The Big Boom|QID|52042|M|39.65,83.91|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52041|
+C The Big Boom|QID|52042|M|39.79,83.81|Z|Vol'dun|NC|N|Talk with Explosioneer Zoidfuse and get on the chopper. Test each ability as they come available, Big Red Button is last|
+T The Big Boom|QID|52042|M|39.65,83.91|Z|Vol'dun|N|To Halford Wyrmbane.|
+A Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52042|
+C Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|QO|2|NC|N|Wait for Kelsey Steelspark to return|
+C Blood on the Sand|QID|52146|M|38.68,83.02|Z|Vol'dun|QO|1|NC|N|Click on 7th Legion Spyglass and watch cinematic|
+T Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|N|To Halford Wyrmbane.|
 
 ; 4.5k Friendly with The 7th Legion
 A Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;friendly;4500;false|PRE|52146|
