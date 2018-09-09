@@ -1355,3 +1355,5 @@ B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|54.40,30.70|Z|Darn
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
+

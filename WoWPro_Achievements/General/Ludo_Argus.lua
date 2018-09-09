@@ -585,3 +585,5 @@ C Visions of Another|QID|48280|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand
 T Visions of Another|QID|48280|M|56.98,65.68|Z|ArgusSurface|N|To Magni Bronzebeard.|
 ]]
 end)
+
+

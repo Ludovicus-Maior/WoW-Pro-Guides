@@ -109,3 +109,5 @@ N DE Strategy|QID|39173|N|Geyser >> Whirlpool >> Switch to Chrominius >> Howl >>
 U Open our bag|U|127751|N|Let's see what we've got in our bag!|
 ]]
 end)
+
+

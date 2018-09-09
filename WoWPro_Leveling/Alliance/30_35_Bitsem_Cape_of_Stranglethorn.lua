@@ -448,3 +448,5 @@ N Close this step to go onto the next guide.|N|Those doing Dustwallow Marsh will
 ]]
 
 end)
+
+

@@ -158,3 +158,5 @@ N Garrison Daily Pet Battles|T|/run WoWPro.ResetCurrentGuide()|N|To use this gui
 
 ]]
 end)
+
+

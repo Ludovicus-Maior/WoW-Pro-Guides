@@ -116,3 +116,5 @@ R Zangar Shore|QID|989420015|M|85.7,26.9|Z|Nagrand@Draenor|ACH|8942;15|
 N Congratulations on exploring Draenor!
 ]]
 end)
+
+

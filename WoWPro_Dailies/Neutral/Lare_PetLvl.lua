@@ -161,3 +161,5 @@ T Grand Master Hyuna|QID|31953|M|47.96,54.18|Z|The Jade Forest|N|From Hyuna of t
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
 end)
+
+

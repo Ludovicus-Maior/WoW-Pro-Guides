@@ -671,3 +671,5 @@ R Valgarde |QID|11228|N|Take the Ancient Lift, then follow the waypoint arrows.|
 
 ]]
 end)
+
+

@@ -256,3 +256,5 @@ C The Reckoning|QID|27144|NC|M|48.89,63.58|N|Watch the scene.|
 T The Reckoning|QID|27144|M|48.97,63.70|N|To Lady Sylvanas Windrunner. Congrats on the nice piece of gear!|
 ]]
 end)
+
+

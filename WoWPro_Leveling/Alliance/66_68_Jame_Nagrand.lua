@@ -444,3 +444,5 @@ T The Book of Fel Names|QID|10649|M|27.35,46.06|N|To Altruis the Sufferer.|
 N The next quest|N|he gives takes you back to Shadowmoon, so it is up to you if you want to do it.|
 ]]
 end)
+
+

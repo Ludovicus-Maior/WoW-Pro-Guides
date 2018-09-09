@@ -209,3 +209,5 @@ T Ruag's Report|QID|27916|M|49.38,55.36|N|To Dispatch Commander Ruag.|
 A Okrilla and the Blasted Lands|QID|28553|LEAD|25674|PRE|27196|M|49.39,55.39|N|From Dispatch Commander Ruag. Take this if you're going to Blasted Lands next.|
 ]]
 end)
+
+

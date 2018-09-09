@@ -306,3 +306,5 @@ B Enchant Cloak - Greater Speed|QID|990047898|RECIPE|47898|M|38.70,40.80|Z|Dalar
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
+

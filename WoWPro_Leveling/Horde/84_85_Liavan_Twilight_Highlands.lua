@@ -662,3 +662,5 @@ N Congratulations!|N|You've now finished Twilight Highlands! Time for dungeons!|
 ]]
 
 end)
+
+

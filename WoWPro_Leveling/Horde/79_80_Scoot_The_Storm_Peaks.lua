@@ -564,3 +564,5 @@ C The Iron Colossus |QID|13007|N|Click on the control orb at .  Head south to fi
 T The Iron Colossus |QID|13007|N|To Bouldercrag the Rockshaper|M|31.3,38.03|
 ]]
 end)
+
+

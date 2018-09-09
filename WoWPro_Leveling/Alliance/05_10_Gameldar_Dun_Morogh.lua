@@ -422,3 +422,5 @@ T Seize the Ambassador|QID|26118|M|39.78,57.23|Z|Ironforge|N|To Moira Thaurissan
 N Visit your trainers, AH, etc.|N|Close this step to continue to Loch Modan.|
 ]]
 end)
+
+

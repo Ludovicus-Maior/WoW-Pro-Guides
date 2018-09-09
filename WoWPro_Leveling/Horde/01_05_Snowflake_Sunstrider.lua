@@ -323,3 +323,5 @@ A Slain by the Wretched |QID|9704|R|BloodElf|M|68.37,79.58|N|From Outrunner Alar
 
 ]]
 end)
+
+

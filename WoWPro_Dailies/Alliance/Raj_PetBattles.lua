@@ -290,3 +290,5 @@ T Beasts of Fable Book III|QID|32869|M|86.4,60|Z|Vale of Eternal Blossoms|N|To S
 N End of Guide|QID|965820001|U|94207|N|You've reached the end of the guide! Don't forget to open any treasure bags you have. This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|RANK|1|
 ]]
 end)
+
+

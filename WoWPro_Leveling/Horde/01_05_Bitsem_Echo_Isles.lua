@@ -509,3 +509,5 @@ D Onwards to Durotar|N|You have finished the Echo Isles guide, the next guide wi
 ]]
 
 end)
+
+

@@ -96,3 +96,5 @@ F Tel'anor|QID|1006690011|M|42.2,35.5|Z|Suramar|ACH|10669;11|
 N Congratulations on exploring the Broken Isles!
 ]]
 end)
+
+

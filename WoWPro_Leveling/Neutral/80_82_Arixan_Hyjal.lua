@@ -754,3 +754,5 @@ T The Battle Is Won, The War Goes On|QID|27399|M|50.38,38.23|Z|Orgrimmar|N|In Or
 
 ]]
 end)
+
+

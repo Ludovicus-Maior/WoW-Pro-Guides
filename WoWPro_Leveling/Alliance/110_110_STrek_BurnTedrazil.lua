@@ -293,3 +293,5 @@ D The End|ACTIVE|52654|N|This ends the introduction to BFA, there is an option t
 ]]
 
 end)
+
+

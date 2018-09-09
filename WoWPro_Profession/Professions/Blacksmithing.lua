@@ -124,3 +124,5 @@ N Contender's Revenant Breastplate|QID|901640063|P|Blacksmithing;164;575;600;|N|
 N That completes Blacksmithing.
 ]]
 end)
+
+

@@ -365,3 +365,5 @@ J On to Zuldazar|QID|49615|N|This ends the Battle for Azeroth opening guide.|GUI
 ]]
 
 end)
+
+

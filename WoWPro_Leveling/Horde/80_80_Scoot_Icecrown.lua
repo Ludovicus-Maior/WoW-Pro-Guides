@@ -791,3 +791,5 @@ C The Fate of Bloodbane|QID|13164|O|M|54.42,86.17|N|In the area under the stairs
 T The Fate of Bloodbane|QID|13164|O|N|To Vereth the Cunning|M|54.13,71.15|
 ]]
 end)
+
+

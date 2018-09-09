@@ -277,3 +277,5 @@ N End of guide.|N|This is the End of Feralas. Time to go to Thousand Needles! I 
 ]]
 
 end)
+
+

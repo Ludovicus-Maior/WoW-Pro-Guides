@@ -802,3 +802,5 @@ D Gorgrond Done|QID|34681|N|Check off this step and the next guide will load.|
 ]]
 
 end)
+
+

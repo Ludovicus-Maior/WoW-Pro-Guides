@@ -82,7 +82,7 @@ class FindGuides(HTMLParser):
         if tag == "a" :
             self._href = ""
             for attr in attrs:
-              if attr[0] == "href": 
+              if attr[0] == "href":
                     self._href = attr[1]
             return
         if tag == "img" :
@@ -105,13 +105,13 @@ class FindGuides(HTMLParser):
                     return
                 if  attr[0] in self.boring_img_tags:
                     return
-                logging.warn("Saw img %s=%s : confusion." % (attr[0] , attr[1]))
+                # logging.warn("Saw img %s=%s : confusion." % (attr[0] , attr[1]))
 
- 
+
     def GuidesList(self):
 #        print "## Reading URL"
         self._lump = self._rootHandle.read()
-        while( self._lump != ""): 
+        while( self._lump != ""):
             self.feed(self._lump)
             self._lump = self._rootHandle.read()
         logging.info("URL yielded %d items" % len(self._list))
@@ -143,7 +143,7 @@ class FindSource(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         if self._Done: return
-        if tag == "p": 
+        if tag == "p":
             self._inP = True
             if self._inGuide == True and self._data != "":
                 Guides[self._guideID].append(self._data)
@@ -153,7 +153,7 @@ class FindSource(HTMLParser):
                 if attr[0] == "id" and re.search("comments",attr[1]):
                     self._Done = True
                     self._inP = False
-        
+
 
     def handle_endtag(self, tag):
         if tag == "br" and self._inGuide == True and self._data != "":
@@ -200,18 +200,20 @@ class FindSource(HTMLParser):
             self._data = self._data + data
             if re.search("]]",data):
                 self._sawBrackets = True
-            if self._sawBrackets and re.search("end\s*\)",data):
+            end = re.search("end\s*\)",data)
+            if self._sawBrackets and end:
                 self._inGuide = False
                 self._sawBrackets = False
-                Guides[self._guideID].append(data)
+                Guides[self._guideID].append(data[:end.end()])
+                Guides[self._guideID].append("\n")
 #               print "Finished Guide ", self._guideID, "with ", len(Guides[self._guideID])
             return
-                
- 
+
+
     def ReadGuide(self):
 #        print "## Reading URL"
         self._lump = self._rootHandle.read()
-        while( self._lump != ""): 
+        while( self._lump != ""):
             self.feed(self._lump)
             self._lump = self._rootHandle.read()
         return self._guideIDs

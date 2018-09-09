@@ -411,3 +411,5 @@ r Sell junk, Repair, restock.|N|Visit your trainers, etc. Close this step to con
 
 ]]
 end)
+
+

@@ -547,3 +547,5 @@ C Further Advancement|QID|46785|M|53.06,59.82|NC|N|Talk to Number Nine Jia and c
 T Further Advancement|QID|46785|M|52.78,59.76|N|To Master Hsu.|
 ]]
 end)
+
+

@@ -437,3 +437,5 @@ r Sell junk, repair, restock|QID|9803|N|Sell junk, repair, restock. Close this s
 A The Fate of Tuurem|QID|9793|LVL|62|M|68.3,50.1|N|From Vindicator Idaar take this quest if you want to do Terokkar Forest next.|
 ]]
 end)
+
+

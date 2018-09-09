@@ -627,3 +627,5 @@ D Spires of Arak|QID|34653|M|45.67,50.12|Z|Frostwall|N|Check this step off manua
 ]]
 
 end)
+
+

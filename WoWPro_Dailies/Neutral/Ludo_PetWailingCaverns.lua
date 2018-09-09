@@ -84,3 +84,5 @@ A Pet Battle Challenge: Wailing Caverns|QID|45539|PRE|45423|M|38.96,68.11|Z|Nort
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
 end)
+
+

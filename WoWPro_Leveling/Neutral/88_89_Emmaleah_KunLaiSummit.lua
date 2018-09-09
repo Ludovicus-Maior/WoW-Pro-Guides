@@ -862,3 +862,5 @@ N Congratulations|N|You have finished Kun-Lai Summit. To continue with the guide
 
 ]]
 end)
+
+

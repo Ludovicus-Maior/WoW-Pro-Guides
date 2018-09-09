@@ -479,3 +479,5 @@ r Sell junk, Repair, restock|M|28.11,47.65|Z|Shattrath City|N|Visit your trainer
 r Sell junk, Repair, restock.|N|Visit your trainers, etc. Close this step to continue to the next guide.|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 ]]
 end)
+
+

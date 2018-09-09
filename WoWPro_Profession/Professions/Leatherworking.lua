@@ -50,3 +50,5 @@ N This guide has not yet been written. Should be available soon.|QID|901640001|
 N That completes Leatherworking.
 ]]
 end)
+
+

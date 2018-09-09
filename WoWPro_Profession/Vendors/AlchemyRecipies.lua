@@ -105,3 +105,5 @@ B Elixir of Major Frost Power|QID|990028549|RECIPE|28549|M|32.40,51.90|Z|Zangarm
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
+

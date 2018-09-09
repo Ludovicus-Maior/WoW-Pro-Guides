@@ -627,3 +627,5 @@ T Ursoc, the Bear God |QID|12249|N|Hierophant Thayreen.|M|31.23,59.47|
 N Close this step to go to the next guide.|QID|12789|
 ]]
 end)
+
+

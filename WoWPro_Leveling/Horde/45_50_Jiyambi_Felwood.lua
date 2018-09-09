@@ -330,3 +330,5 @@ T Deadwood Ritual Totem|QID|8470|O|M|64.57,4.48|N|To Kernda, inside Timbermaw Ho
 
 ]]
 end)
+
+

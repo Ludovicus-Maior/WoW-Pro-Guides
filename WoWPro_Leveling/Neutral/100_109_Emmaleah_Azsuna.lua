@@ -782,3 +782,5 @@ D On to Class Halls|N|This ends Azsuna and the Warrior order hall guide will loa
 ]]
 
 end)
+
+
