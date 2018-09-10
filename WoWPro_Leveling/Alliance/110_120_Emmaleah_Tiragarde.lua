@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-09-10 21:59
+-- Who: Emmaleah
+-- Log: sneaking in a couple of |RANK|2| changes before the update.
+
+-- URL: http://wow-pro.com/node/3769/revisions/29715/view
+-- Date: 2018-09-10 20:44
+-- Who: Emmaleah
+-- Log: correct errors introduced due to not properly testing last update...
+
+-- URL: http://wow-pro.com/node/3769/revisions/29708/view
 -- Date: 2018-09-09 14:24
 -- Who: Emmaleah
 -- Log: ADDED RANKS/PREs ALL TREASURE and RARES are now included. The ones I added may need moved a bit for better efficiency; One QID missing for looting Yellowed treasure map (so keep an eye out for that)
@@ -83,7 +93,7 @@ return [[
 t The War Cache|QID|52544|N|To UI Alert.|
 A Time for War|QID|53332|PRE|52544|N|From UI Alert.|
 N The Great Sea Scrolls|ACTIVE|53476|U|163852|NOCACHE|NA|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
-t The Great Sea Scrolls|QID|53476|M|40.4.36.4|Z|Stormsong Valley|N|To Collector Kojo. This results in a ilvl295 helm from at least lvl 113 and on, so go turn it in.|
+t The Great Sea Scrolls|QID|53476|M|40.4,36.4|Z|Stormsong Valley|N|To Collector Kojo. This results in a ilvl295 helm from at least lvl 113 and on, so go turn it in.|
 N Small Treasure Chests|QID|47485|N|In this expansion, small treasure chests are found in differant places each time rather than fixed spawn points. Blizzard puts a treasure map symbol on your minimap automatically. The fixed treasures are named in this guide.|
 N Use of Ranks|QID|47485|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures and rares that are conveniently located to the places you travel for Rank 1 steps. Set the guide to Rank 3 to get all the quests, rares and named treasures in the zone.|
 N Treasure Maps|N|There are four treasure maps that will drop randomly when fighting pirates in Tiragarde Sound and a few other places. *Singed, Soggy, Yellowed and Fading.  Once you have those, their related treasure becomes lootable.|AVAILABLE|52854;52859;52860|;missing QID for Soggy
@@ -110,7 +120,7 @@ C Small Haulers|QID|47488|M|78.77,78.92|CHAT|S|N|Tell the urchins they are free 
 K Taskmaster Williams|QID|50573|M|79.18,46.69|QO|2|T|Taskmaster Williams|N|Kill and loot Taskmaster Williams inside this warehouse.|
 K Forgemaster Farthing|QID|50573|M|82.19,48.66|QO|1|T|Forgemaster Farthing|N|Kill and loot Forgemaster Farthing.|
 C Small Haulers|QID|47488|M|78.77,78.92|CHAT|US|N|Finish freeing the Urchin Workers.|
-C Suspicious Shipments|QID|47486|M|78.77,78.92|US|N|Finish inspecting the Marked Goods.|
+C Suspicious Shipments|QID|47486|M|78.77,78.92|US|NC|N|Finish inspecting the Marked Goods.|
 C Labor Dispute|QID|47487|M|78.77,78.92|US|N|Finish killing the Ashvane Company guards.|
 T Labor Dispute|QID|47487|M|78.10,47.85|N|To Cagney.|
 T Suspicious Shipments|QID|47486|M|78.10,47.94|N|To Flynn Fairwind.|
@@ -136,7 +146,7 @@ R Southwind Station|ACTIVE|51149|M|66.58,51.26|N|Continue down the road until yo
 A An Explosive Opportunity|QID|50542|M|66.69,50.03|N|From Lead Guide Zipwrench.|RANK|2|
 T Left at the Port|QID|51149|M|65.84,50.10|N|To Dockmaster Tyndall.|
 A A Letter to the League|QID|51151|M|65.84,50.10|N|From Dockmaster Tyndall.|RANK|2|
-A The Norwington Festival|QID|48070|M|66.08,50.40|N|Formal Invitation|LEAD|48616;48077;48080|
+A The Norwington Festival|QID|48070|M|66.08,50.40|N|Formal Invitation|LEAD|48616;48077;48080|RANK|2|
 A Making Mysteries|QID|49897|M|67.50,55.81|N|From Wulferd Fizzbracket.|RANK|2|
 A Spring Cleaning|QID|49529|M|67.50,55.81|N|From Wulferd Fizzbracket.|RANK|2|
 T An Explosive Opportunity|QID|50542|M|67.50,55.81|N|To Wulferd Fizzbracket.|
@@ -193,7 +203,7 @@ C A Sweater for Rupert|QID|49028|M|76.50,63.05|S|N|Kill Quillrats and Raccoons i
 C Pardon Our Rust|QID|48874|M|76.50,63.05|S|NC|N|Arm the Sprung Beartraps.|
 C A Grizzly End|QID|48873|M|76.50,63.05|S|U|152800|N|Kill Grizzlies and use the skinning knife to collect the pelts.|
 C A Hunt for Hawk Eggs|QID|48879|M|76.50,63.05|S|NC|N|Pick up the eggs from the nest, Understandably, any Hawks nearby will attack.|
-K Ol' Frostclaw|QID|49069|M|79.98,65.63|QO|1|N|Kill Old Frostclaw in small cave.|T|Old Frostclaw|
+K Ol' Frostclaw|QID|49069|M|79.98,65.63|QO|1|N|Kill Old Frostclaw in small cave.|T|Old Frostclaw|RANK|2|
 C A Sweater for Rupert|QID|49028|QO|1|M|76.50,63.05|US|N|Finish collecting sturdy quills from the Quillrats.|
 C A Sweater for Rupert|QID|49028|QO|2|M|76.50,63.05|US|N|Finish collecting fuzzy tails from the Racoons.|
 C Pardon Our Rust|QID|48874|M|76.50,63.05|US|NC|N|Finish arming the Sprung Beartraps.|
@@ -442,7 +452,7 @@ $ Scrimshaw Cache|QID|52870|Z|Boralus|M|64.79,12.39;62.85,11.84;61.72,10.61|CS|N
 A Bundle of Furs|QID|51144|M|74.81,23.65|N|From "Risky" Liz Seminario.|RANK|2|
 A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|LEAD|49733;51226|
 T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko. This has a followup to come back for at 120.|
-A The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|
+A The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|PRE|49523|
 T Proudmoore's Parley|QID|50972|M|73.81,25.12|N|To Genn Greymane.|
 
 A Tol Dagor: The Ashvane Overseer|QID|52800|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|LVL|115|RANK|2|
@@ -548,7 +558,7 @@ C Required Webinar|QID|49468|M|70.66,17.99|NC|S|N|Click on the Webbed lumps to f
 C Incident Reports|QID|49450|M|71.99,17.33|S|N|Kill the enthralled beasts.|
 C Pest Prevention|QID|49454|M|71.83,17.03|S|N|Destroy Mossfang Eggs.|
 A The Witch's Pet|QID|50058|M|72.96,17.54|N|From Terrence Foster.|RANK|3|
-K Mossfang Matriarch|QID|50058|QO|1|M|73.25,18.25|T|Mossfang MatriarchN|Kill the Mossfang Matriarch.|RANK|3|
+K Mossfang Matriarch|QID|50058|QO|1|M|73.25,18.25|T|Mossfang Matriarch|N|Kill the Mossfang Matriarch.|RANK|3|
 T The Witch's Pet|QID|50058|M|73.29,18.36|N|To UI Alert.|
 C Pest Prevention|QID|49454|M|71.83,17.03|US|N|Finish destroying Mossfang Eggs.|
 C Incident Reports|QID|49450|M|71.99,17.33|US|N|Finish killing the enthralled beasts.|
@@ -560,11 +570,13 @@ A Witch of the Woods|QID|49467|M|70.16,18.62|N|From Benjamin Algerson.|PRE|49450
 C Witch of the Woods|QID|49467|M|70.86,18.19;71.04,16.44;70.50,14.12|CS|N|Kill the witch and loot her locket.|
 $ Ritual Effigy|QID|50073|M|70.34,12.47|QO|1|T|Twin-hearted Contruct|ITEM|160473|N|Click on the Ritual Effigy to start a Vignette and then kill the Twin-hearted Contruct - Silver Elite drops a bit of Azerite Power and resources.|RANK|3|
 T Witch of the Woods|QID|49467|M|68.85,13.16|N|To Maynard Algerson.|
-$ Imperiled Merchants|QID|QO|1|51321|M|64.31,19.23|ITEM|160472|N|Talk to Walter Ferrell to start, Defeat 2 waves and the boss - Honey-Coated Slitherer - Silver Elite to kill for Azerite Power and resources.|RANK|3|;Appears to currently be broken.
+$ Imperiled Merchants|QID|51321|M|64.31,19.23|ITEM|160472|N|Talk to Walter Ferrell to start, Defeat 2 waves and the boss - Honey-Coated Slitherer - Silver Elite to kill for Azerite Power and resources.|RANK|3|;Appears to currently be broken.
 t WANTED: Gryphon 'Nappers|QID|51358|M|66.23,24.29|N|To Dandy Jones.|
 
 ; may need a RANK-1 R step here
+A The Glory of the Hunt|QID|51999|M|52.4,28.6|N|From Gora Layton|RANK|-1|LEAD|48070|
 R Foxhollow Woods|ACTIVE|48070|M|58.29,25.40|N|Run southwest along the road.|
+T The Glory of the Hunt|QID|51999|M|55.45,24.67|N|To Abbey Watkins.|
 T The Norwington Festival|QID|48070|M|55.45,24.67|N|To Abbey Watkins.|
 A The Stoat Hunt|QID|48077|M|55.45,24.67|N|From Abbey Watkins.|
 A An Element of Danger|QID|48080|M|55.51,24.58|N|From Harold Beckett.|
@@ -774,7 +786,7 @@ C Aiding the Wharf|QID|48540|M|43.24,29.67|QO|2|NC|N|Pick up the Bundle of Vellu
 T Aiding the Wharf|QID|48540|M|42.26,29.31|N|To Brother Therold.|
 A A Cure from the Sea|QID|48352|M|42.26,29.31|N|From Brother Therold.|PRE|48540|
 A Sharks in the Water|QID|49268|M|42.26,29.31|N|From Brother Therold.|PRE|48540|
-A Stinging Barbs|QID|48348|M|42.19,29.31|N|From Okri Putterwrench.|;may be wrong spot. Missed recording it
+A Stinging Barbs|QID|48348|M|42.19,29.31|N|From Okri Putterwrench.|PRE|48540|;may be wrong spot. Missed recording it
 C Sharks in the Water|QID|49268|M|40.82,29.58|S|N|Kill Invading Dreadmaws as you go.|
 C A Cure from the Sea|QID|48352|M|40.82,29.58|S|NC|N|Pick up Bunches of Seaweed from the bottom of the bay.|
 C Stinging Barbs|QID|48348|M|40.82,29.58|N|Kill Barbtail Stingrays for their 'Intact Venomous Barbs'.|
@@ -855,13 +867,14 @@ C The Deadliest Catch|QID|49302|M|36.77,29.71|QO|5|NC|N|Hop on the Outrigger Gry
 T The Deadliest Catch|QID|49302|M|42.46,29.34|N|To Brannon Stormsong.|
 t WANTED: Quartermaster Ssylis|QID|51384|M|42.43,29.31|N|To Keegan Alby.|
 H Tradewinds Market|N|Hearth or take the nearby ferry back to Boralus.|
-A The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|
+A The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|PRE|49523|
 F Freehold|ACTIVE|49223|LVL|120|M|66.96,14.99|Z|Boralus|N|Take a flight to Freehold.|RANK|3|
 K Carentan|QID|49223|LVL|120|M|76.90,85.98|T|Carentan|N|Kill Carentan.|RANK|3|
-T The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|
+$ Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here. You probably don't have the treasure map and will need to check back later, but you may as well check since you are here.|RANK|3|PRE|52859|
 F Tradewinds Market|M|77.04,82.89|N|Hearth or Fly back to Boralus with Rodrigo.|RANK|3|
-D This ends the Tiragarde Sound Guide.|
+T The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|To Roko.|RANK|3|
 
+D This ends the Tiragarde Sound Guide.|
 
 ]]
 end)
