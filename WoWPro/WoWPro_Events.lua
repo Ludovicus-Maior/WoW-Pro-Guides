@@ -772,7 +772,7 @@ WoWPro.RegisterEventHandler("NEW_RECIPE_LEARNED", function (event,...)
 WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function (event,...)
 	WoWPro:RecordTaxiLocations(...)
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-	if WoWPro.action[qidx] == "F" and WoWProCharDB.AutoAccept == true then
+	if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") and WoWProCharDB.AutoSelect == true then
         WoWPro.TakeTaxi(qidx,WoWPro.step[qidx])
 	end
     end)
