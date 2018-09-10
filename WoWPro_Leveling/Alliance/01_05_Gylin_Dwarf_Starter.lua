@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-09-10 21:51
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3200/revisions/29353/view
 -- Date: 2018-06-14 23:41
 -- Who: Linkslegend5
 -- Log: updated some names and cleaned up a few lines.
@@ -245,13 +249,8 @@
 -- Who: Ludovicus_Maior
 -- Log: Added a CS tag
 
--- URL: http://wow-pro.com/node/3200/revisions/25359/view
--- Date: 2013-01-12 18:36
--- Who: Ludovicus_Maior
--- Log: Added some CS and CN tags
-
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
-WoWPro:GuideLevels(guide,1,5,1.1)
+WoWPro:GuideLevels(guide,1,4,1.1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Dwarf_Male","Interface\\Icons\\Achievement_Character_Dwarf_Female"))
 WoWPro:GuideSteps(guide, function()
