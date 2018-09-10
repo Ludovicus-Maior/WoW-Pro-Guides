@@ -701,7 +701,7 @@ function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel, sortLevel)
     else
         if lowerLevel <= playerLevel then
             -- We are in the guide band
-            meanLevel = playerLevel
+            meanLevel = (playerLevel + lowerLevel) / 2.0
         else
             -- We are below the guide band
             meanLevel = lowerLevel + 1.0
