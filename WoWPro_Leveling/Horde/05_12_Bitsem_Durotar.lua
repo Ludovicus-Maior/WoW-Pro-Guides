@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-09-10 21:57
+-- Who: Ludovicus_Maior
+-- Log: Level Tweaks
+
+-- URL: http://wow-pro.com/node/3199/revisions/29473/view
 -- Date: 2018-08-03 17:37
 -- Who: Ludovicus_Maior
 -- Log: How long has it been spelt "Sen'jin Villiage"
@@ -280,13 +285,9 @@
 -- Date: 2014-05-17 17:45
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3199/revisions/26045/view
--- Date: 2014-05-17 17:45
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
-WoWPro:GuideLevels(guide,4,10,5.43307)
-WoWPro:NewGuideLevels(guide,1,20)
+WoWPro:GuideLevels(guide,5,10,5.43307)
+WoWPro:NewGuideLevels(guide,5,20)
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
 WoWPro:GuideIcon(guide,"ACH",728)
 WoWPro:GuideSteps(guide, function()
