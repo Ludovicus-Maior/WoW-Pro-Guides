@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-10 07:34
+-- Who: elidion
+-- Log: Accuracy pass on the 4.5k friendly questline
+
+-- URL: http://wow-pro.com/node/3760/revisions/29707/view
 -- Date: 2018-09-09 11:15
 -- Who: elidion
 -- Log: Accuracy pass on First Assult
@@ -467,35 +472,36 @@ A How to Kill a Dark Ranger|QID|52150|M|61.96,41.22|Z|Nazmir|N|From Shandris Fea
 C How to Kill a Dark Ranger|QID|52150|M|61.96,41.22|CHAT|Z|Nazmir|N|Talk with Shandris Feathermoon|
 T How to Kill a Dark Ranger|QID|52150|M|61.96,41.22|Z|Nazmir|N|To Shandris Feathermoon|
 A Tortollans in Distress|QID|52156|M|61.96,41.22|Z|Nazmir|N|From Shandris Feathermoon|PRE|52150|
-A The Savage Hunt|QID|52158|M|61.96,41.22|Z|Nazmir|N|From John J. Keeshan|PRE|52150|
+A The Savage Hunt|QID|52158|M|61.79,41.32|Z|Nazmir|N|From John J. Keeshan|PRE|52150|
 C The Savage Hunt|QID|52158|M|61.84,24.26|Z|Nazmir|S|N|Kill 15 Blood Trolls and their allies|
 C Tortollans in Distress|QID|52156|M|61.53,25.14|Z|Nazmir|QO|1|NC|N|Rescue 6 Tortollans|
-C Tortollans in Distress|QID|52156|M|51.25,21.82|CHAT|Z|Nazmir|QO|2|N|Speak with the Rescued Tortollan|
 C The Savage Hunt|QID|52158|M|61.84,24.26|Z|Nazmir|US|N|Continue killing Blood Trolls and their allies|
-T Tortollans in Distress|QID|52156|M|51.29,21.86|Z|Nazmir|N|To Shandris Feathermoon|
+C Tortollans in Distress|QID|52156|M|51.25,21.82|CHAT|Z|Nazmir|QO|2|N|Speak with the Rescued Tortollan|
+T Tortollans in Distress|QID|52156|M|51.33,21.87|Z|Nazmir|N|To Shandris Feathermoon|
 T The Savage Hunt|QID|52158|M|51.27,21.88|Z|Nazmir|N|To John J. Keeshan|
 A One Option: Fire|QID|52171|M|51.27,21.88|Z|Nazmir|N|From John J. Keeshan|PRE|52156;52158|
 A They Can't Stay Here|QID|52172|M|51.27,21.88|Z|Nazmir|N|John J. Keeshan|PRE|52156;52158|
-A Ending Areiel|QID|52170|M|51.25,21.82|Z|Nazmir|N|From Shandris Feathermoon|PRE|52156;52158|
-f Report to Wyrmbane|ACTIVE|52170|M|50.84,20.81|Z|Nazmir|CHAT|N|Run to Joseph Redfield to grab flightpoint.|
-C Ending Areiel|QID|52170|M|35.87,29.32|Z|Nazmir|N|Kill Ranger Captain Areiel and loot the Horde Missive|
+A Ending Areiel|QID|52170|M|51.33,21.87|Z|Nazmir|N|From Shandris Feathermoon|PRE|52156;52158|
+f Report to Wyrmbane|ACTIVE|52170|M|50.81,20.78|Z|Nazmir|N|Run to Joseph Redfield to grab flightpoint.|
+C Ending Areiel|QID|52170|M|35.87,29.32|Z|Nazmir|S|N|Kill Ranger Captain Areiel and loot the Horde Missive|
 C They Can't Stay Here|QID|52172|M|41.15,30.02|Z|Nazmir|S|N|Kill 12 Horde Soldiers|
+C One Option: Fire|QID|52171|M|41.27,27.49|Z|Nazmir|QO|3|NC|N|Food Cache destroyed|
 C One Option: Fire|QID|52171|M|39.96,28.49|Z|Nazmir|QO|1|NC|N|Bwonsamdi offerings destroyed|
 C One Option: Fire|QID|52171|M|37.68,28.92|Z|Nazmir|QO|2|NC|N|Medicinal Supplies destroyed|
-C One Option: Fire|QID|52171|M|41.27,27.49|Z|Nazmir|QO|3|NC|N|Food Cache destroyed|
+C Ending Areiel|QID|52170|M|35.84,29.29|Z|Nazmir|US|N|Kill Ranger Captain Areiel and loot the Horde Missive|
 C One Option: Fire|QID|52171|M|37.89,32.31|Z|Nazmir|QO|4|NC|N|Armory Supplies destroyed|
 C They Can't Stay Here|QID|52172|M|41.15,30.02|Z|Nazmir|US|N|Finish killing Horde Soldiers|
 T One Option: Fire|QID|52171|M|51.27,21.88|Z|Nazmir|N|To John J. Keeshan|
 T They Can't Stay Here|QID|52172|M|51.27,21.88|Z|Nazmir|N|To John J. Keeshan|
-T Ending Areiel|QID|52170|M|51.25,21.82|Z|Nazmir|N|To Shandris Feathermoon|
-A Meeting of the Minds|QID|52208|M|51.25,21.82|Z|Nazmir|N|From Shandris Feathermoon|PRE|52170;52171;52172|
-C Meeting of the Minds|QID|52208|M|42.18,39.67|CHAT|Z|Nazmir|QO|1|N|Run to new location to talk with Shandris and take the flask of invisibility.|
-C Meeting of the Minds|QID|52208|M|40.22,43.74|Z|Nazmir|QO|2|NC|N|Use the flask and run to the location to eavesdrop.|U|163196|
-T Meeting of the Minds|QID|52208|M|42.18,39.67|Z|Nazmir|N|To Shandris Feathermoon|
-A Target: Blood Prince Dreven|QID|52219|M|42.18,39.67|Z|Nazmir|N|From Shandris Feathermoon|PRE|52208|
-C Target: Blood Prince Dreven|QID|52219|M|20.18,60.76|Z|Nazmir|QO|1|CHAT|N|Meet John J. Keeshan and tell him you're ready|
+T Ending Areiel|QID|52170|M|51.33,21.87|Z|Nazmir|N|To Shandris Feathermoon|
+A Meeting of the Minds|QID|52208|M|51.33,21.87|Z|Nazmir|N|From Shandris Feathermoon|PRE|52170;52171;52172|
+C Meeting of the Minds|QID|52208|M|42.13,39.74|CHAT|Z|Nazmir|QO|1|N|Run to new location to talk with Shandris and take the flask of invisibility.|
+C Meeting of the Minds|QID|52208|M|40.05,43.94|Z|Nazmir|QO|2|NC|N|Use the flask and run to the location to eavesdrop.|U|163196|
+T Meeting of the Minds|QID|52208|M|42.13,39.74|Z|Nazmir|N|To Shandris Feathermoon|
+A Target: Blood Prince Dreven|QID|52219|M|42.13,39.74|Z|Nazmir|N|From Shandris Feathermoon|PRE|52208|
+C Target: Blood Prince Dreven|QID|52219|M|20.15,60.76|Z|Nazmir|QO|1|CHAT|N|Meet John J. Keeshan and tell him you're ready|
 C Target: Blood Prince Dreven|QID|52219|M|20.18,60.76|Z|Nazmir|QO|2|N|Kill Blood Prince Dreven and his cohorts|
-T Target: Blood Prince Dreven|QID|52219|M|61.93,41.23|Z|Nazmir|N|To Shandris Feathermoon|
+T Target: Blood Prince Dreven|QID|52219|M|61.97,41.24|Z|Nazmir|N|To Shandris Feathermoon - Flightmaster Whistle can be useful here if you don't want to run back.|
 
 ; 3k Honored with The 7th Legion
 A Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;honored;3000;false|PRE|52219|
