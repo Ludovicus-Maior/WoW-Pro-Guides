@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2018-09-10 22:13
+-- Who: Ludovicus_Maior
+-- Log: Level tweaks and new Eversong guide.
+
+-- URL: http://wow-pro.com/node/3207/revisions/29490/view
 -- Date: 2018-08-09 23:05
 -- Who: Ludovicus_Maior
 -- Log: Correct caps on [WANTED: Thaelis the Hungerer]
@@ -255,14 +260,9 @@
 --	
 --	Step 26 in Eversong Woods lists Jainthess Thelryn as the turn in for the quest Thirst Unending, but it is Arcanist Helion you talk to to complete it. (Using version 2.1.2)
 
--- URL: http://wow-pro.com/node/3207/revisions/24069/view
--- Date: 2011-01-29 17:08
--- Who: Ludovicus_Maior
--- Log: Added missing QIDs to L steps.
-
 local guide = WoWPro:RegisterGuide("SnoEve0512", "Leveling", "Eversong Woods", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,5,10, 5.78882)
-WoWPro:NewGuideLevels(guide,1,20)
+WoWPro:NewGuideLevels(guide,5,20)
 WoWPro:GuideNextGuide(guide, "SnoGho1221")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_BloodElf_Male","Interface\\Icons\\Achievement_Character_BloodElf_Female"))
 WoWPro:GuideSteps(guide, function()
