@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2018-09-10 22:05
+-- Who: Ludovicus_Maior
+-- Log: Level tweaks
+
+-- URL: http://wow-pro.com/node/3206/revisions/29665/view
 -- Date: 2018-09-04 20:24
 -- Who: Ludovicus
 -- Log: Azuremyst edits
@@ -245,13 +250,9 @@
 -- Date: 2010-12-03 07:57
 -- Who: Jiyambi
 
--- URL: http://wow-pro.com/node/3206/revisions/23278/view
--- Date: 2010-12-02 23:18
--- Who: Jiyambi
-
-local guide = WoWPro:RegisterGuide("SnoAzu0512", "Leveling", "Azuremyst Isle (Draenai)", "Snowflake", "Alliance")
+local guide = WoWPro:RegisterGuide("SnoAzu0512", "Leveling", "Azuremyst Isle", "Snowflake", "Alliance")
 WoWPro:GuideLevels(guide,5,10,6.17886)
-WoWPro:NewGuideLevels(guide,1,20)
+WoWPro:NewGuideLevels(guide,5,20)
 WoWPro:GuideNextGuide(guide, "SveBlo1220")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Draenei_Male","Interface\\Icons\\Achievement_Character_Draenei_Female"))
 WoWPro:GuideSteps(guide, function()
