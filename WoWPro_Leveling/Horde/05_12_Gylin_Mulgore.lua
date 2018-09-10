@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-09-10 21:58
+-- Who: Ludovicus_Maior
+-- Log: Level Tweaks
+
+-- URL: http://wow-pro.com/node/3203/revisions/29491/view
 -- Date: 2018-08-09 23:07
 -- Who: Ludovicus_Maior
 -- Log: Added [Ghost Howl] warning.
@@ -203,8 +208,8 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('GylMul0512', "Leveling", 'Mulgore', 'Gylin', 'Horde')
-WoWPro:GuideLevels(guide,4,9,4.84868 )
-WoWPro:NewGuideLevels(guide,1,20)
+WoWPro:GuideLevels(guide,5,9,4.84868 )
+WoWPro:NewGuideLevels(guide,5,20)
 WoWPro:GuideNextGuide(guide, 'BitNor1220')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function()
