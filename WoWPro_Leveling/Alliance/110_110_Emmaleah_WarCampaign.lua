@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-10 20:40
+-- Who: Emmaleah
+-- Log: change note of [The War Campaign]
+
+-- URL: http://wow-pro.com/node/3760/revisions/29712/view
 -- Date: 2018-09-10 07:34
 -- Who: elidion
 -- Log: Accuracy pass on the 4.5k friendly questline
@@ -155,8 +160,8 @@ WoWPro:GuideSteps(guide, function()
 
 return [[
 
-A The War Campaign|QID|52654|M|69.27,27.02|Z|Boralus|NA|N|From Halford Wyrmbane.|O|
-T The War Campaign|QID|52654|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane. For travel efficiency, Wait to turn this in until you have 100 War Resources.|;accepted when you pick your first zone
+A The War Campaign|QID|52654|M|69.27,27.02|Z|Boralus|NA|N|From Halford Wyrmbane.|O|;or from Genn in the harbormaster's office
+T The War Campaign|QID|52654|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane. For travel efficiency, you can wait to turn this in until you have 100 War Resources.|;accepted when you pick your first zone
 A The War Cache|QID|52544|M|69.26,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|52654|
 t The War Cache|QID|52544|N|Turn in to UI when complete.|
 A Time for War|QID|53332|N|Auto accepted from UI.|PRE|52544|
