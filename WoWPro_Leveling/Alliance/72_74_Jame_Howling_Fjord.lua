@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2018-09-10 01:10
+-- Who: jovieve
+-- Log: Added T and emote to Send Them Packing. Changed note.
+
+-- URL: http://wow-pro.com/node/3287/revisions/29710/view
+-- Date: 2018-09-10 00:18
+-- Who: jovieve
+-- Log: Added T tag to We Call Him Steelfeather quest
+
+-- URL: http://wow-pro.com/node/3287/revisions/29055/view
 -- Date: 2018-02-20 01:25
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -498,7 +508,7 @@ T The Rune of Command |QID|11348|M|62.3,17.2|N|To Prospector Belvar.|
 T Preying Upon the Weak |QID|11292|M|62.6,16.8|N|To Trapper Jethan.|
 T Down to the Wire |QID|11269|M|62.6,16.8|N|To Gil Grisert.|
 A We Call Him Steelfeather |QID|11418|PRE|11269|M|62.6,16.8|N|From Gil Grisert.|
-C We Call Him Steelfeather |QID|11418|U|34026|N|Target Steelfeather (/tar Steel), then use the Feathered Charm and wait for the quest complete message.|
+C We Call Him Steelfeather |QID|11418|U|34026|T|Steelfeather|N|Target Steelfeather, then use the Feathered Charm and wait for the quest complete message.|
 T We Call Him Steelfeather |QID|11418|M|62.6,16.8|N|To Gil Grisert.|
 r Sell junk, repair, re-stock food/drink. |QID|11322|M|61.01,17.07|
 H Westguard Inn |QID|11322|N|Hearth back to Westguard Keep.|
@@ -539,7 +549,7 @@ T Burn Skorn, Burn! |QID|11247|N|To Westguard Sergeant.|
 
 A All Hail the Conqueror of Skorn! |QID|11250|PRE|11245;11246;11247|N|From Westguard Sergeant.|
 C Eyes of the Eagle |QID|11416|N|Mount up and jump off the southern cliff  into the river, then click on the egg here. Kill Talonshrike and loot his eyes.|M|44.02,38.44;41.43,37.67|CS|
-C Send Them Packing |S|QID|11224|N|Use "/raise" with Abandoned Pack Mules targeted to send them packing. |M|33.53,38.71|
+C Send Them Packing |S|QID|11224|T|Abandoned Pack Mule,raise|N|Target Abandoned Pack Mules, get close to them, and use the raise emote to send them packing. The WoW-Pro button will target them and do the emote for you, but you must be within range.|M|33.53,38.71|
 C Danger! Explosives! |QID|11218|U|33190|N|Use Steelring's Foolproof Dynamite on Whisper Gulch Ore here and collect the fragments that the explosion produces.|M|35.71,36.53|
 C Send Them Packing |US|QID|11224|N|Finish useing "/raise" with Abandoned Pack Mules targeted to send them packing. |M|33.53,38.71|
 T Where is Explorer Jaren? |QID|11393|N|Jump down into the water and swim to the land west to get to Jaren.|M|24.2,32.5|
