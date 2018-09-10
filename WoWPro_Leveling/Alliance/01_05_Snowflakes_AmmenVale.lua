@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2018-09-10 22:05
+-- Who: Ludovicus_Maior
+-- Log: Level tweaks
+
+-- URL: http://wow-pro.com/node/3206/revisions/29665/view
 -- Date: 2018-09-04 20:24
 -- Who: Ludovicus
 -- Log: Azuremyst edits
@@ -243,10 +248,6 @@
 
 -- URL: http://wow-pro.com/node/3206/revisions/23320/view
 -- Date: 2010-12-03 07:57
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3206/revisions/23278/view
--- Date: 2010-12-02 23:18
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Ammen Vale (Draenai)", "Snowflake", "Alliance")
