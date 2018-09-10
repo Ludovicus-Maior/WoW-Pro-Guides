@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-09-10 21:58
+-- Who: Ludovicus_Maior
+-- Log: Level Tweaks
+
+-- URL: http://wow-pro.com/node/3203/revisions/29491/view
 -- Date: 2018-08-09 23:07
 -- Who: Ludovicus_Maior
 -- Log: Added [Ghost Howl] warning.
@@ -203,7 +208,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('GylNar0105', "Leveling", 'Camp Narache (Tauren)', 'Gylin', 'Horde')
-WoWPro:GuideLevels(guide,1,2,1.11628)
+WoWPro:GuideLevels(guide,1,4,1.11628)
 WoWPro:GuideNextGuide(guide, 'GylMul0512')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function()
