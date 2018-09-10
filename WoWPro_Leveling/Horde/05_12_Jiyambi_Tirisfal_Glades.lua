@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-09-10 21:59
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3205/revisions/29439/view
 -- Date: 2018-07-19 14:25
 -- Who: Ludovicus_Maior
 -- Log: Corrected ACTIVE tag issues pointed out by Linkslegend
@@ -210,8 +214,8 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyTir0512', "Leveling", 'Tirisfal Glades (Undead)', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,4,9, 5.54676)
-WoWPro:NewGuideLevels(guide,1,20)
+WoWPro:GuideLevels(guide,5,10, 5.54676)
+WoWPro:NewGuideLevels(guide,5,20)
 WoWPro:GuideNextGuide(guide, 'MalSil1220')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Undead_Male","Interface\\Icons\\Achievement_Character_Undead_Female"))
 WoWPro:GuideSteps(guide, function()
