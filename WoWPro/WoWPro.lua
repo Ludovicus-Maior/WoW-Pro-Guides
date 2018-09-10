@@ -31,21 +31,22 @@ _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 WoWPro.Serial = 99999
 -- Add message to internal debug log
 function WoWPro:Add2Log(level,msg)
+    msg = date("%H%M%S ") .. msg
     if WoWPro.DebugLevel >= level then
         DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
 	WoWPro.Serial = WoWPro.Serial + 1
 	if WoWPro.Serial > 9999 then
-	    WoWPro.Serial = 0
+	    WoWPro.Serial = 1
 	end
 	if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
 	    if WoWPro.Log then
 	        WoWProDB.global.Log = WoWPro.Log
 	        WoWPro.Log = nil
 	    end
-	    WoWProDB.global.Log[date("%H%M%S.")..string.format("%04d",WoWPro.Serial)] = msg
+	    WoWProDB.global.Log[WoWPro.Serial] = msg
 	else
-	    WoWPro.Log[date("%H%M.")..string.format("%04d",WoWPro.Serial)] = msg
+	    WoWPro.Log[WoWPro.Serial] = msg
 	end
 end
 -- Debug print function. log, never console --
@@ -216,8 +217,8 @@ local function LogGrow(frame, elapsed)
         Log = ""
         LogCo = coroutine.create(function ()
                                         local loops = 25
-                                        for key, val in orderedPairs(WoWProDB.global.Log) do
-                                            Log = Log .. string.format("%s ~ %s\n",key,val)
+                                        for key, val in ipairs(WoWProDB.global.Log) do
+                                            Log = Log .. string.format("%05d ~ %s\n",key,val)
                                             loops = loops - 1
                                             if loops < 0 then
                                                 coroutine.yield(true)
@@ -258,6 +259,8 @@ end
 function WoWPro:LogShow()
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Debug Log","Hit escape to dismiss")
     local LogBox = WoWPro.LogBox
+    LogBox:Hide()
+    LogBox.Box:SetText("")
     WoWPro:LogDump( function(text)
                         LogBox.Box:SetText(text)
                         LogBox.Scroll:UpdateScrollChildRect()
