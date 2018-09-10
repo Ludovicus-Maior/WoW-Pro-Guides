@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-09-10 21:57
+-- Who: Ludovicus_Maior
+-- Log: Level Tweaks
+
+-- URL: http://wow-pro.com/node/3199/revisions/29473/view
 -- Date: 2018-08-03 17:37
 -- Who: Ludovicus_Maior
 -- Log: How long has it been spelt "Sen'jin Villiage"
@@ -280,12 +285,8 @@
 -- Date: 2014-05-17 17:45
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3199/revisions/26045/view
--- Date: 2014-05-17 17:45
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,1,3,1.59184)
+WoWPro:GuideLevels(guide,1,4,1.59184)
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Orc_Male","Interface\\Icons\\Achievement_Character_Orc_Female"))
 WoWPro:GuideSteps(guide, function()
