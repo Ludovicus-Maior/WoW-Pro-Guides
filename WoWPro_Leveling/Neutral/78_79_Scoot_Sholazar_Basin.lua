@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
+-- Date: 2018-09-11 03:35
+-- Who: jovieve
+-- Log: Added U tag for quest item.
+
+-- URL: http://wow-pro.com/node/3297/revisions/29729/view
+-- Date: 2018-09-11 01:48
+-- Who: jovieve
+-- Log: Removed obsolete N step.
+
+-- URL: http://wow-pro.com/node/3297/revisions/29728/view
+-- Date: 2018-09-11 01:46
+-- Who: jovieve
+-- Log: Also added T tag.
+
+-- URL: http://wow-pro.com/node/3297/revisions/29727/view
+-- Date: 2018-09-11 01:43
+-- Who: jovieve
+-- Log: Updated the fun nostalgic note about the ranged/relic slot.
+
+-- URL: http://wow-pro.com/node/3297/revisions/29131/view
 -- Date: 2018-02-23 00:24
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -163,10 +183,8 @@ C Wipe That Grin Off His Face |QID|12525|N|Go to the platform in the dig site.|M
 T Wipe That Grin Off His Face |QID|12525|N|To Debaar, Nesingwary Base Camp.|M|27.21,59.86|
 
 A Kick, What Kick? |QID|12589|PRE|12525;12523|N|From Drostan, in the base camp.|M|27.07,59.82|
-C Kick, What Kick? |QID|12589|N|The gun needs to be in your ranged/relic slot. Shoot at Wilhelm until you hit the apple.|U|38573|
+C Kick, What Kick? |QID|12589|T|Lucky Wilhelm|N|Target Lucky Wilhelm and use the gun until you hit the apple.|U|38573|
 T Kick, What Kick? |QID|12589|M|27.1,59.9|N|To Drostan.|
-N Re-equip Ranged |QID|12549|N|Make sure you re-equip the slot that held the gun.|
-
 A The Great Hunter's Challenge |QID|12592|PRE|12589|N|From Drostan.|M|27.1,59.9|
 
 A Dreadsaber Mastery: Becoming a Predator |QID|12549|PRE|12525;12523|N|From Buck Cantwell. He's under the tent.|M|26.7,59.0|
@@ -271,7 +289,7 @@ T The Wasp Hunter's Apprentice |QID|12533|N|To High-Shaman Rakjak, on Frenzyhear
 T The Sapphire Queen |QID|12534|N|To High-Shaman Rakjak.|M|55.0,69.1|
 
 A Flown the Coop! |QID|12532|PRE|12533;12534|N|From Elder Harkek.|M|55.5,69.7|
-C Flown the Coop! |QID|12532|N|They're quick, but as long as you have them in the target circle when you click, you'll catch them. Pick them up for credit. Turn on the nameplates (V key) to make it easier.|
+C Flown the Coop! |QID|12532|U|38689|N|They're quick, but as long as you have them in the target circle when you click, you'll catch them. Pick them up for credit. Turn on the nameplates (V key) to make it easier.|
 T Flown the Coop! |QID|12532|N|To Elder Harkek.|M|55.5,69.7|
 
 A The Underground Menace |QID|12531|PRE|12532|N|From Elder Harkek.|M|55.5,69.7|
