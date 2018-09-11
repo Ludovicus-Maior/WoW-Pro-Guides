@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2018-09-11 00:15
+-- Who: jovieve
+-- Log: Added T and emote to unsticky for Send Them Packing.
+
+-- URL: http://wow-pro.com/node/3287/revisions/29711/view
 -- Date: 2018-09-10 01:10
 -- Who: jovieve
 -- Log: Added T and emote to Send Them Packing. Changed note.
@@ -551,7 +556,7 @@ A All Hail the Conqueror of Skorn! |QID|11250|PRE|11245;11246;11247|N|From Westg
 C Eyes of the Eagle |QID|11416|N|Mount up and jump off the southern cliff  into the river, then click on the egg here. Kill Talonshrike and loot his eyes.|M|44.02,38.44;41.43,37.67|CS|
 C Send Them Packing |S|QID|11224|T|Abandoned Pack Mule,raise|N|Target Abandoned Pack Mules, get close to them, and use the raise emote to send them packing. The WoW-Pro button will target them and do the emote for you, but you must be within range.|M|33.53,38.71|
 C Danger! Explosives! |QID|11218|U|33190|N|Use Steelring's Foolproof Dynamite on Whisper Gulch Ore here and collect the fragments that the explosion produces.|M|35.71,36.53|
-C Send Them Packing |US|QID|11224|N|Finish useing "/raise" with Abandoned Pack Mules targeted to send them packing. |M|33.53,38.71|
+C Send Them Packing |US|QID|11224|T|Abandoned Pack Mule,raise|N|Finish using "/raise" with Abandoned Pack Mules targeted to send them packing. |M|33.53,38.71|
 T Where is Explorer Jaren? |QID|11393|N|Jump down into the water and swim to the land west to get to Jaren.|M|24.2,32.5|
 A And You Thought Murlocs Smelled Bad! |QID|11394|M|24.2,32.5|N|From Explorer Jaren.|
 C And You Thought Murlocs Smelled Bad! |S|QID|11394|N|Kill any Scourge mobs you need for this quest. |M|22.78,31.13|
