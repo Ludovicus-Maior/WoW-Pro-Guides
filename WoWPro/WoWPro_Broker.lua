@@ -1370,6 +1370,19 @@ function WoWPro.NextStep(k,i)
 			end
         end
 
+        -- Complete Treasure steps if we dont want them
+        if WoWPro.action[k] == "$" and (not  WoWProCharDB.EnableTreasures) then
+            WoWPro.CompleteStep(k,"No Treasures desired")
+            skip = true
+            break
+        end
+        -- Complete K steps if we dont want them
+        if WoWPro.action[k] == "K"  and WoWPro.rare[k] and (not  WoWProCharDB.EnableRares) then
+            WoWPro.CompleteStep(k,"No optional rares desired")
+            skip = true
+            break
+        end
+
         -- WoWPro:dbp("Status(%d) skip=%s",k,tostring(skip))
         -- Checking level based completion --
         if WoWPro.level and WoWPro.level[k] then
