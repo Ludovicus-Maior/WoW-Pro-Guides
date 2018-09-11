@@ -80,15 +80,15 @@ function WoWPro:CheckPlayerForBuffs(buffs)
         buffies[buffIdx] = tonumber(buff)
     end
     local BuffIndex = 1
-    local BuffName, _, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
-    while BuffName and not skip do
+    local BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
+    while BuffName do
         for buffIdx = 1, #buffies do
             if BuffSpellId == buffies[buffIdx] then
                 return BuffSpellId
             end
         end
         BuffIndex = BuffIndex + 1
-        BuffName, _, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
+        BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
     end
     return nil
 end
