@@ -270,6 +270,7 @@ DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("GUIDE","guide","string",nil,nil)
+DefineTag("$","rare","boolean",nil,nil)
 
 -- Pet Stuff
 DefineTag("PET1","pet1","string",nil,nil)
