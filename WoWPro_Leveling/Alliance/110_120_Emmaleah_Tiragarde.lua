@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-09-11 09:11
+-- Who: Emmaleah
+-- Log: Play test on rank 1. Added a couple of -1 steps. Tested that the norwington festival breadcrumb can be skipped.
+
+-- URL: http://wow-pro.com/node/3769/revisions/29720/view
 -- Date: 2018-09-10 21:59
 -- Who: Emmaleah
 -- Log: sneaking in a couple of |RANK|2| changes before the update.
@@ -257,28 +262,27 @@ C Local Flavor|QID|49230|M|85.47,80.82|S|N|Kill Lurkers and loot them as you go.
 C My Favorite Things|QID|49178|M|88.26,78.14|QO|5|NC|N|Pick up the Silver Compass|
 C My Favorite Things|QID|49178|M|87.68,75.13|QO|6|NC|N|Pick up Tin Robot.|
 A Glimmering Locket|QID|49181|M|87.97,75.00|N|From a glimmering pile of seaweed.|RANK|2|
-C Silencing the Sisters|QID|49226|M|86.21,72.22|QO|1|N|Kill the siren sisters in this cave. I don't think it is possible to get them singly.|T|Patheope|
-C Silencing the Sisters|QID|49226|M|86.51,72.88|QO|2|T|Nolpe|
+K Patheope|QID|49226|M|86.21,72.22|QO|1|N|Kill the siren sisters in this cave. I don't think it is possible to get them singly, even with CC, Stabby Jane goes and wakes up the second one before you have the first dead.|T|Patheope|
+K Nolpe|QID|49226|M|86.51,72.88|QO|2|T|Nolpe|
 C My Favorite Things|QID|49178|M|88.28,72.90|QO|4|NC|N|Pick up the Steel Lunchbox.|
 C Lured and Allured|QID|48419|QO|3|M|90.06,74.48|N|Kill the siren to set Flynn free.|T|Lugeia|
 K Fowlmouth|QID|50155|M|90.45,77.11|QO|1|T|Fowlmouth|ITEM|154467|N|Silver elite mob to kill for Azerite Power and resources.|RANK|2|
-$ Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here. You probably don't have the treasure map and will need to check back later, but you may as well check since you are here.|RANK|3|PRE|52859|
+$ Buried Treasure-Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here. You probably don't have the treasure map and will need to check back later, but you may as well check since you are here.|RANK|3|PRE|52859|
 C Blood in the Tides|QID|48421|M|87.26,79.96|US|N|Finish killing the Wailing Sirens.|
 C Local Flavor|QID|49230|M|85.47,80.82|US|N|Finish collecting the Juicy Lurker Tails.|
 T Glimmering Locket|QID|49181|M|85.47,80.73|N|To Stabby Jane.|
-T Silencing the Sisters|QID|49226|M|85.68,83.58|N|To Stabby Jane.|
-T My Favorite Things|QID|49178|M|85.68,83.58|N|To Stabby Jane.|
+T Silencing the Sisters|QID|49226|M|85.28,82.24;85.47,80.82|CS|N|To Stabby Jane.|
+T My Favorite Things|QID|49178|M|85.47,80.82|N|To Stabby Jane.|
 T Local Flavor|QID|49230|M|85.47,80.73|N|To Hungry Sam.|
 T Blood in the Tides|QID|48421|M|85.73,76.63|N|To Captain Keelson.|
 T Lured and Allured|QID|48419|M|84.90,76.07|N|To Flynn Fairwind.|
 A Lovesick and Lost|QID|48505|M|84.90,76.07|N|From Flynn Fairwind.|PRE|48419|
 K Blackthorne|QID|51808|QO|1|T|Blackthorne|M|85.27,73.57|RANK|3|N|Run up and kill this silver elite before you help Flynn up, so you can better keep an eye on Flynn afterwards.|ITEM|154411|
-C Lovesick and Lost|QID|48505|M|84.90,76.07|CHAT|N|Help him up and check this off manually.|
+C Lovesick and Lost|QID|48505|M|84.90,76.07|CHAT|S|N|Help him and lead/follow him up the hill.|
 A Toxic Community|QID|48516|M|82.74,72.75|N|From Skinner MacGuff.|
-C Toxic Community|QID|48516|M|82.74,72.75|S|N|Kill marrowflys and loot to collect the Toxic Stingers. Don't bother searching for the treasure, you can't get to it from here.|
-C Lovesick and Lost|QID|48505|M|82.74,72.75; 80.70,74.83|CS|NC|N|Lead/Follow him around the hill, killing Marrowflys, eventually he will wander off the correct direction. Just keep him in sight while you continue to kill the Marrowflys for Skinner MacGuff.|
-C Toxic Community|QID|48516|M|82.74,72.75|US|N|Finish collecting the Toxic Stingers.|
+C Toxic Community|QID|48516|M|82.74,72.75|N|Kill marrowflys and saurolisks, then loot to collect the Toxic Stingers. Don't bother searching for the treasure you may see on your map, you can't get to it from here. Just keep Flynn in site and walk with him every once in awhile as you get the stingers.|
 T Toxic Community|QID|48516|M|82.73,72.76|N|To Skinner MacGuff.|
+C Lovesick and Lost|QID|48505|M|82.74,72.75; 80.70,74.83|CS|US|NC|N|Lead/Follow him around the hill, killing Marrowflys, eventually he will wander off the correct direction.|
 T Lovesick and Lost|QID|48505|M|80.19,75.26|N|To Flynn Fairwind.|
 
 ; Freehold
@@ -308,7 +312,7 @@ T Papers, Please|QID|48773|M|80.36,81.47|N|To Flynn Fairwind.|
 T The Irontide Crew|QID|48558|M|80.36,81.47|N|To Flynn Fairwind.|
 
 A Dress to Impress|QID|49239|M|80.36,81.47|N|From Flynn Fairwind.|PRE|48558;48773|
-N Put the hat on|ACTIVE|49239|M|80.36,81.47|BUFF|254873|N|Use your extra action button to wear the hat. Don't forget to reapply the hat if you lose the buff (like dieing).|
+N Put the hat on|ACTIVE|49239|M|80.36,81.47|BUFF|-254873|N|Use your extra action button to wear the hat. Don't forget to reapply the hat if you lose the buff (like dieing).|
 A Aged to Perfection|QID|49290|M|79.70,81.86|N|From Roko.|PRE|48558;48773|RANK|2|
 C Dress to Impress|QID|49239|M|79.79,82.62|QO|1|CHAT|N|Speak with the Irontide Recruiter|
 C Dress to Impress|QID|49239|QO|2|M|77.33,84.15|NC|N|Enter the Dead Man's Tale|
@@ -359,10 +363,6 @@ A Rodrigo's Revenge|QID|49403|M|77.04,82.92|N|From Rodrigo.|PRE|49402|RANK|2|
 C Rodrigo's Revenge|QID|49403|NC|N|Hop on the Riding Macaw for a bombing run. You control where the macaw flys, if you use autorun, it is myuch easier to stop, bomb, fly abit more, etc. as camera angles won't stay looking down.|
 T Rodrigo's Revenge|QID|49403|M|77.03,82.89|N|Fly back to Rodrigo and use the dismount button there. Turn quest into Rodrigo.|
 K Auditor Dolp|QID|50156|M|75.56,82.69;74.91,78.96|CS|QO|1|T|Auditor Dolp|N|Don't forget to remove you disguise to fight him. Silver Elite to kill for Azerite Power and resources.|RANK|2|;item n\a
-l Soggy Treasure Map|QID|99999|M|74.03,84.16|Z|Tiragarde Sound|L|162571|N|Keep killing pirates until you loot the Soggy Treasure Map, or give up, check this off and move on.|RANK|3|;need QID
-l Yellowed Treasure Map|QID|52859|M|74.03,84.16|Z|Tiragarde Sound|L|162581|N|Keep killing pirates until you loot  the Yellowed Treasure Map, or give up, check this off and move on.|RANK|3|
-l Fading Treasure Map|QID|52854|M|74.03,84.16|Z|Tiragarde Sound|L|162580|N|Keep killing pirates until you loot the Fading Treasure Map, or give up, check this off and move on.|RANK|3|
-l Singed Treasure Map|QID|52860|M|74.03,84.16|Z|Tiragarde Sound|L|162584|N|Keep killing pirates until you loot the Singed Treasure Map, or give up, check this off and move on.|RANK|3|
 C Fairwind's "Friends"|QID|49404|QO|1|M|73.86,83.44|N|Enter the Ring of Booty. Unless your AE Damage is strong, you probably want to clear the ring before you untie Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|2|NC|N|Heal up and be ready for a fight after untieing Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|3|N|Survive Harlan's game.|
@@ -408,8 +408,8 @@ A Enemies at the Gate|QID|49739|M|58.44,64.74|N|Bonus Objective - Autoaccepted.|
 C Enemies at the Gate|QID|49739|M|58.44,64.74|S|N|Bonus Objective - This will most likely be accomplished before you finish the other objectives.|
 C For Kul Tiras!|QID|49736|S|U|156520|N|Use the banner to inspire the Vigil Hill defenders.|
 C Cease Fire!|QID|49740|S|N|Click on the Captured Cannons to destroy them.|
-C Righteous Retribution|QID|49741|M|55.40,67.84|QO|1|N|Steal the Azerite Bombs.|
-C Righteous Retribution|QID|49741|M|55.87,67.59|QO|2|N|Use Special action button to bomb The Plunder Runner.|
+C Righteous Retribution|QID|49741|M|58.01,63.25;55.40,67.84|CS|QO|1|N|Steal the Azerite Bombs from the ship's deck.|
+C Righteous Retribution|QID|49741|M|55.87,67.59|QO|2|N|Use Special action button to bomb The Plunder Runner. The bomb doesnt hit unless you are pretty much, right at the dot.|
 C Righteous Retribution|QID|49741|M|59.03,66.60|QO|3|NC|N|Board the Landing Boat boarded|
 C Righteous Retribution|QID|49741|M|59.34,68.26|QO|4|NC|N|Use your special action button to bomb The Bloodwake.|;coords a little off, do it when the boat stops.
 C Righteous Retribution|QID|49741|M|57.57,71.54|QO|5|NC|N|Hop on Galeheart's back for a mini bombing run.|
@@ -419,6 +419,10 @@ C Cease Fire!|QID|49740|US|N|Finish destroying the Captured Cannons.|
 C For Kul Tiras!|QID|49736|U|156520|US|N|Finish inspriring the Vigil Hill defenders.|
 C Enemies at the Gate|QID|49739|M|57.22,67.36|US|N|Bonus Objective - Stick around and finish this up.|
 T Enemies at the Gate|QID|49739|M|57.22,67.36|N|Bonus Objective - Autocompleted.|
+l Soggy Treasure Map|QID|52853|M|74.03,84.16|Z|Tiragarde Sound|L|162571|N|Keep killing pirates until you loot the Soggy Treasure Map, or give up, check this off and move on.|RANK|3|;need QID
+l Yellowed Treasure Map|QID|52859|M|74.03,84.16|Z|Tiragarde Sound|L|162581|N|Keep killing pirates until you loot  the Yellowed Treasure Map, or give up, check this off and move on.|RANK|3|
+l Fading Treasure Map|QID|52854|M|74.03,84.16|Z|Tiragarde Sound|L|162580|N|Keep killing pirates until you loot the Fading Treasure Map, or give up, check this off and move on.|RANK|3|
+l Singed Treasure Map|QID|52860|M|74.03,84.16|Z|Tiragarde Sound|L|162584|N|Keep killing pirates until you loot the Singed Treasure Map, or give up, check this off and move on.|RANK|3|
 A Freehold: A Pirate's End|QID|52148|M|56.50,61.72|NA|N|From Flynn Fairwind. This is a dungeon quest.|RANK|2|
 T Cease Fire!|QID|49740|M|56.68,61.17|N|To Lieutenant Tarenfold.|
 T For Kul Tiras!|QID|49736|M|56.68,61.17|N|To Lieutenant Tarenfold.|
@@ -458,8 +462,8 @@ T Proudmoore's Parley|QID|50972|M|73.81,25.12|N|To Genn Greymane.|
 A Tol Dagor: The Ashvane Overseer|QID|52800|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|LVL|115|RANK|2|
 N What follows|ACTIVE|49715|N|The quest you just finished has a zone finale feel to it, but not to worry the guide does not end here. This is a good spot to take a break for war campaign if you want, but there are 2 more areas for the zone achievement and a LOT of quests not part of the achievement on the other side of the bay. If you want you can set guide to rank 3 to get "everything".|
 
-b Eastpoint Station|ACTIVE|49715|M|75.29,25.77|N|Take the ferry to Eastpoint Station.|RANK|3|
-R Greystone Relief|ACTIVE|49715|M|74.85,43.88;77.88,43.28;79.08,42.18|CS|N|Run East towards Greystone Keep.|RANK|3|
+b Eastpoint Station|ACTIVE|49715|M|75.29,25.77|N|Take the ferry to Eastpoint Station.|
+R Greystone Relief|ACTIVE|49715|M|74.85,43.88;77.88,43.28;79.08,42.18|CS|N|Run East towards Greystone Keep.|
 T Trouble at Greystone Keep|QID|49715|M|81.10,42.48|N|To Tallis Skyheart.|
 A Patching Up the Rear|QID|49733|M|81.10,42.48|N|From Tallis Skyheart.|RANK|3|
 A Death from Two Sides|QID|51226|M|80.63,42.09|N|From Hawkmaster Lloyd.|RANK|3|
@@ -573,21 +577,20 @@ T Witch of the Woods|QID|49467|M|68.85,13.16|N|To Maynard Algerson.|
 $ Imperiled Merchants|QID|51321|M|64.31,19.23|ITEM|160472|N|Talk to Walter Ferrell to start, Defeat 2 waves and the boss - Honey-Coated Slitherer - Silver Elite to kill for Azerite Power and resources.|RANK|3|;Appears to currently be broken.
 t WANTED: Gryphon 'Nappers|QID|51358|M|66.23,24.29|N|To Dandy Jones.|
 
-; may need a RANK-1 R step here
-A The Glory of the Hunt|QID|51999|M|52.4,28.6|N|From Gora Layton|RANK|-1|LEAD|48070|
-R Foxhollow Woods|ACTIVE|48070|M|58.29,25.40|N|Run southwest along the road.|
-T The Glory of the Hunt|QID|51999|M|55.45,24.67|N|To Abbey Watkins.|
+b Firebreaker Expedition|AVAILABLE|48077|M|74.23,44.34|TZ|Thovas Base-Camp|N|Over to the other side of the bay for more quests.|RANK|-1|
+
+R Foxhollow Woods|AVAILABLE|48077|M|62.62,29.37;58.61,28.70|CS|N|Follow the road to west, thru Thovas Base-Camp and on to Foxhollow Woods.|
 T The Norwington Festival|QID|48070|M|55.45,24.67|N|To Abbey Watkins.|
 A The Stoat Hunt|QID|48077|M|55.45,24.67|N|From Abbey Watkins.|
 A An Element of Danger|QID|48080|M|55.51,24.58|N|From Harold Beckett.|
 A Bolas and Birds|QID|48616|M|55.51,24.58|N|From Harold Beckett.|
 C The Stoat Hunt|QID|48077|M|58.12,23.69|S|N|Click on the stoat den (pile of dirt) to expose the stoats, kill them and loot their pelts.|
 C An Element of Danger|QID|48080|M|58.26,26.61|S|N|Kill Boars and loot their tusks.|
-C Bolas and Birds|QID|48616|M|58.26,26.98|U|152643|S|N|Use the Bolas launcher to shoot down the Falcons.|
+C Bolas and Birds|QID|48616|M|58.26,26.98|U|152643|S|T|Hollowbeak Falcon|N|Use the Bolas launcher to shoot down the Falcons.|
 A Settle the Score|QID|48965|M|58.29,25.40|N|From Caleb Batharen.|RANK|2|
 K Foxhollow Skyterror|QID|50137|QO|1|M|60.11,22.17|T|Foxhollow Skyterror|ITEM|160454|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Settle the Score|QID|48965|M|61.19,22.08;61.92,23.18|CS|N|Kill Chartusk.|
-C Bolas and Birds|QID|48616|M|58.26,26.98|U|152643|US|N|Finish shooting down Falcons.|
+C Bolas and Birds|QID|48616|M|58.26,26.98|U|152643|US|T|Hollowbeak Falcon|N|Finish shooting down Falcons.|
 C An Element of Danger|QID|48080|M|58.26,26.61|US|N|Finish collecting boar tusks.|
 C The Stoat Hunt|QID|48077|M|58.12,23.69|US|N|Finish collecting stoat pelts.|
 T Settle the Score|QID|48965|M|58.29,25.39|N|To Caleb Batharen.|
@@ -627,19 +630,19 @@ A The Lord's Behest|QID|48003|M|54.46,19.39|N|From Melissa Kenny.|PRE|48597;4819
 R Norwington Estate|ACTIVE|48003|M|53.02,27.10|N|Run to Lord Norwington's Estate.|
 T The Lord's Behest|QID|48003|M|51.57,27.27|N|To Lord Aldrius Norwington.|
 A Be Our Guest|QID|48005|M|51.57,27.27|N|From Lord Aldrius Norwington.|PRE|48003|
-C Be Our Guest|QID|48005|M|51.45,26.09|QO|1|NC|N|Visit the Stables.|
+C Be Our Guest|QID|48005|M|51.45,26.09|QO|1|CHAT|N|Talk to Dolan Northfield to get credit for visiting the stables.|
 A Monstrous Energy|QID|48902|M|51.31,25.91|N|From Joma.|RANK|2|
 A Lucky Charm|QID|48898|M|51.31,25.91|N|From Joma.|RANK|2|
 A Safety First|QID|48899|M|51.32,25.93|N|From Majo.|RANK|2|
-C Be Our Guest|QID|48005|M|49.74,25.22|QO|2|NC|N|Visit the Kitchen.|
+C Be Our Guest|QID|48005|M|49.74,25.22|QO|2|NC|N|Click on Arthur Seville to get credit for visiting the kitchen.|
 A The Roughnecks|QID|49393|M|51.67,29.68|N|From Job Flyer.|RANK|2|
-f Norwington Estate|ACTIVE|48902|M|52.91,28.79|N|At Hestia Strongbolt.|
+f Norwington Estate|ACTIVE|48005|M|52.91,28.79|N|At Hestia Strongbolt.|
 A WANTED: Raging Earthguard|QID|51367|M|53.11,28.41|N|From Wanted Poster?.|RANK|3|
 A Anglepoint Wharf|QID|48347|M|53.11,28.41|N|From Help Wanted Poster.|LEAD|48540|
-C Be Our Guest|QID|48005|M|53.30,28.30|QO|4|NC|N|Visit the Inn.|
-C Be Our Guest|QID|48005|M|53.50,28.78|QO|3|NC|N|Out the back door of the inn and to the right is the Smithy.|
+C Be Our Guest|QID|48005|M|53.30,28.30|QO|4|NC|N|Click on Terry Rigglesmith to get credit for visiting the inn.|
+C Be Our Guest|QID|48005|M|53.50,28.78|QO|3|NC|N|Out the back door of the inn and to the right is the Smithy Click on George Mitchell to get credit for visiting.|
 $ Precarious Noble Cache|QID|52866|M|52.90,30.24;54.42,30.48;56.05,33.17|CS|N|Out across the rocks for this treasure. Loot for a bit of Azerite Power and resources.|RANK|2|
-K Raging Earthguard|QID|51367|QO|1|M|47.25,32.47|T|Raging Earthguard|N|Kill the Raging Earthguard.|
+K Raging Earthguard|QID|51367|QO|1|M|47.25,32.47|T|Raging Earthguard|N|Kill the Raging Earthguard.|RANK|3|
 C Lucky Charm|QID|48898|M|48.63,28.14|QO|1|N|Ock! he got away, go find him again.|T|Lucktail|
 C Safety First|QID|48899|M|49.41,21.97|S|NC|N|Pick up Durable Seashells from the ground.|
 C Monstrous Energy|QID|48902|M|47.87,23.77|S|N|Kill and loot the Venomscale Slitherers for Pulsating Extracts.|
@@ -663,7 +666,7 @@ t WANTED: Raging Earthguard|QID|51367|M|51.57,27.21|N|To Lord Aldrius Norwington
 T Be Our Guest|QID|48005|M|51.57,27.24|N|To Lord Aldrius Norwington.|
 A Beginner Equitation|QID|48004|M|51.57,27.24|N|From Lord Aldrius Norwington.|PRE|48005|
 C Beginner Equitation|QID|48004|M|51.65,26.20|QO|1|NC|N|Mount Cooper|
-C Beginner Equitation|QID|48004|M|50.88,26.54|QO|2|NC|N|Jab Gnoll targets. 1 key to charge, 2 key to jab, if you are charging you will always kill, but you don't have to charge.|
+C Beginner Equitation|QID|48004|M|50.88,26.54|QO|2|NC|N|Jab Gnoll targets. 1 key to charge, 2 key to jab, if you are charging (and jab) you will always kill, but you don't have to charge.|
 C Beginner Equitation|QID|48004|M|50.99,26.14|QO|3|NC|N|Shoot down Paper Zeppelins, use the 3 key.|
 C Beginner Equitation|QID|48004|M|51.32,27.02|QO|4|NC|N|Jump Fences (space bar). Note, it gives you a stacking buff, which multiplies the points earned from Jabbing and bringing down Zeps.|
 T Beginner Equitation|QID|48004|M|51.57,27.27|N|To Lord Aldrius Norwington.|
@@ -695,7 +698,7 @@ C Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|S|N|Bonus Objective - Pick up 
 C Captured and Enraptured|QID|47755|M|54.13,35.01|U|151135|S|NC|N|Target an Entralled Sailer and use the Grog to break the enchantment - can be done at ranged distances.|
 A Can't Hear A Thing|QID|50059|M|51.08,35.79|N|From Earless Joe.|PRE|50026|RANK|2|
 K Squirgle of the Depths|QID|51807|QO|1|M|48.89,36.94|T|Squirgle of the Depths|ITEM|155551|N|Silver Elite - loot for Azerite Power and resources.|RANK|2|
-$ Singed Treasure Map|QID|52845|M|48.98,37.59|Z|Tiragarde Sound|N|If you have looted the Singed Treasure Map, this treasure can be found here.|RANK|3|PRE|52860|
+$ Buried Treasure-Singed Treasure Map|QID|52845|M|48.98,37.59|Z|Tiragarde Sound|N|If you have looted the Singed Treasure Map, this treasure can be found here.|RANK|3|PRE|52860|
 C Can't Hear A Thing|QID|50059|M|53.65,32.89|N|Kill Anthemusa slain.|T|Anthemusa|
 K Shiverscale the Toxic|QID|51876|QO|1|M|55.18,32.51|T|Shiverscale the Toxic|ITEM|155278|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 A She Sells Seashells|QID|52258|M|60.99,30.83|N|From Jenny Swiftbrook.|RANK|3|
@@ -723,7 +726,7 @@ C The Bears and the Bees|QID|49395|M|48.73,17.44|QO|1|NC|S|N|Pick up the Honeyco
 C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|2|S|N|Kill Scruffhide Bears.|
 C Hold Still|QID|49394|M|48.19,19.79|U|153596|S|N|Use the shears to collect Goat Fur, they don't like it much, must be done before killing them.|
 K Totes|QID|50095|QO|1|M|46.87,20.60|T|Totes|ITEM|160452|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
-K The Hornet|QID|51368|M|47.37,18.18;47.48,18.01|CS|QO|1|T|The Hornet|N|Kill The Hornet.|
+K The Hornet|QID|51368|M|47.37,18.18;47.48,18.01|CS|QO|1|T|The Hornet|N|Kill The Hornet.|RANK|3|
 A Helping Henry|QID|49412|M|47.71,17.63|N|From "Helpless" Henry.|RANK|2|
 C Helping Henry|QID|49412|M|48.71,18.01|N|Kill Brawr.|
 T Helping Henry|QID|49412|M|47.75,17.61|N|To "Helpless" Henry.|
@@ -775,7 +778,7 @@ T Getting Paid|QID|49719|M|42.39,22.28|N|To Tagart.|
 $ Smugglar's Cache|QID|50097|M|38.47,20.77|N|Click on the Smugglar's Cache to start short vignette - Ends with Captain Wintersail - Silver Elite to kill and loot for reasources and treasure.|ITEM|155422|RANK|3|
 
 R Anglepoint Wharf|ACTIVE|48347|M|40.94,24.41;42.30,27.25|CS|N|Take the footpath down the hill to Anglepoint Wharf.|
-$ Soggy Treasure Map|QID|52807|M|54.99,46.08|Z|Tiragarde Sound|N|If you have looted the Soggy Treasure Map, this treasure can be found on the ocean floor.|RANK|3|;NW Edge of map -
+$ Buried Treasure-Soggy Treasure Map|QID|52807|M|54.99,46.08|Z|Tiragarde Sound|N|If you have looted the Soggy Treasure Map, this treasure can be found on the ocean floor.|PRE|52853|RANK|3|;NW Edge of map -
 K Bashmu|QID|50094|QO|1|M|34.01,30.29|Z|Tiragarde Sound|T|Bashmu|ITEM|160467|N|Hop over the wall to find this Silver Elite and kill for Azerite Power and resources.|RANK|3|;Anglepoint Bay
 A WANTED: Quartermaster Ssylis|QID|51384|M|42.30,27.25|N|From Wanted Poster.|RANK|3|
 T Anglepoint Wharf|QID|48347|M|42.29,29.31|N|To Brother Therold.|
@@ -786,7 +789,7 @@ C Aiding the Wharf|QID|48540|M|43.24,29.67|QO|2|NC|N|Pick up the Bundle of Vellu
 T Aiding the Wharf|QID|48540|M|42.26,29.31|N|To Brother Therold.|
 A A Cure from the Sea|QID|48352|M|42.26,29.31|N|From Brother Therold.|PRE|48540|
 A Sharks in the Water|QID|49268|M|42.26,29.31|N|From Brother Therold.|PRE|48540|
-A Stinging Barbs|QID|48348|M|42.19,29.31|N|From Okri Putterwrench.|PRE|48540|;may be wrong spot. Missed recording it
+A Stinging Barbs|QID|48348|M|42.19,29.31|N|From Okri Putterwrench.|PRE|48540|
 C Sharks in the Water|QID|49268|M|40.82,29.58|S|N|Kill Invading Dreadmaws as you go.|
 C A Cure from the Sea|QID|48352|M|40.82,29.58|S|NC|N|Pick up Bunches of Seaweed from the bottom of the bay.|
 C Stinging Barbs|QID|48348|M|40.82,29.58|N|Kill Barbtail Stingrays for their 'Intact Venomous Barbs'.|
@@ -838,18 +841,19 @@ A Eldritch Invocations|QID|48372|M|35.20,24.20|N|From Brannon Stormsong.|PRE|483
 A Death in the Depths|QID|48370|M|35.25,24.18|N|From Keegan Alby.|PRE|48366|
 A Deep Sea Defilement|QID|48368|M|35.24,24.27|N|From Brother Therold.|PRE|48366|
 A Those Aren't Fish Eggs|QID|48367|M|34.95,24.21|N|From Rosaline Madison.|PRE|48366|
+f Outrigger Post|ACTIVE|49300|M|35.55,24.92|N|At Gregory Mussler.|
 R Krakenbane Cove|ACTIVE|49300|M|33.74,23.48|N|Run out to sea to find the eggs and corrupting pylons.|
 C Creature Corruption|QID|49300|M|35.20,24.20|S|N|Bonus Objective - Kill stuff as you go along (like you have a choice).|
 C Those Aren't Fish Eggs|QID|48367|M|32.25,27.34|S|N|Attack the eggs.|
 C Death in the Depths|QID|48370|M|33.01,26.19|S|N|Kill Deepwarden Followers.|
-K Quartermaster Ssylis|QID|51384|M|30.13,17.62|QO|1|N|Up on the shore, in a small cave, find and kill Quartermaster Ssylis.|T|Quartermaster Ssylis|
+K Quartermaster Ssylis|QID|51384|M|30.13,17.62|QO|1|N|Up on the shore, in a small cave, find and kill Quartermaster Ssylis.|T|Quartermaster Ssylis|RANK|3|
 K Director Deepwarden|QID|48372|M|30.86,21.56;30.08,19.59|CS|QO|1|N|Kill Director Deepwarden inside the underwater cave.|T|Director Deepwarden|
 C Deep Sea Defilement|QID|48368|M|30.00,19.33|QO|3|NC|N|Destroy the Western Corrupting Pylon.|
 C Deep Sea Defilement|QID|48368|M|31.35,29.13;30.36,31.14|CS|QO|1|NC|N|Destroy the Southern Corrupting Pylon in an underwater cave.|
 C Deep Sea Defilement|QID|48368|M|33.94,25.45;35.38,24.32|CS|QO|2|NC|N|Destroy the Eastern Corrupting Pylon in an underwater cave.|
 C Death in the Depths|QID|48370|M|33.01,26.19|US|N|Finish killing Deepwarden Followers.|
 C Those Aren't Fish Eggs|QID|48367|M|32.25,27.34|US|N|Finish destroying Corrupted Eggs.|
-$ Fading Treasure Map|QID|52833|M|29.22,25.34|Z|Tiragarde Sound|N|If you have looted the Fading Treasure Map, this treasure can be found here.|PRE|52854|RANK|3|;Krakenbane Cove-past angerpoint wharf
+$ Buried Treasure-Fading Treasure Map|QID|52833|M|29.22,25.34|Z|Tiragarde Sound|N|If you have looted the Fading Treasure Map, this treasure can be found here.|PRE|52854|RANK|3|;Krakenbane Cove-past angerpoint wharf
 C Creature Corruption|QID|49300|M|31.37,23.67|N|Stay and finish the Bonus Objective.|
 T Creature Corruption|QID|49300|M|31.37,23.67|N|Bonus Objective - Autocompleted.|
 T Those Aren't Fish Eggs|QID|48367|M|34.95,24.21|N|To Rosaline Madison, back up on the shore.|
@@ -857,7 +861,6 @@ T Eldritch Invocations|QID|48372|M|35.21,24.19|N|To Brannon Stormsong.|
 T Death in the Depths|QID|48370|M|35.21,24.19|N|To Brannon Stormsong.|
 T Deep Sea Defilement|QID|48368|M|35.24,24.27|N|To Brother Therold.|
 A The Deadliest Catch|QID|49302|M|34.94,24.21|N|From Rosaline Madison.|PRE|48370;48372;48368;48367|
-f Outrigger Post|ACTIVE|49302|M|35.55,24.92|N|At Gregory Mussler.|
 
 C The Deadliest Catch|QID|49302|M|35.29,24.57|QO|1|CHAT|N|Speak to Okri for a ride.|
 C The Deadliest Catch|QID|49302|M|36.33,29.82|QO|2|NC|N|Hop on the Outrigger Cannon.|
@@ -866,11 +869,11 @@ C The Deadliest Catch|QID|49302|M|36.37,29.45|QO|4|CHAT|N|Tell the Outrigger Eng
 C The Deadliest Catch|QID|49302|M|36.77,29.71|QO|5|NC|N|Hop on the Outrigger Gryphon for a ride to town.|
 T The Deadliest Catch|QID|49302|M|42.46,29.34|N|To Brannon Stormsong.|
 t WANTED: Quartermaster Ssylis|QID|51384|M|42.43,29.31|N|To Keegan Alby.|
-H Tradewinds Market|N|Hearth or take the nearby ferry back to Boralus.|
+H Tradewinds Market|TZ|Snug Harbor Inn|N|Hearth or take the nearby ferry back to Boralus.|
 A The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|PRE|49523|
 F Freehold|ACTIVE|49223|LVL|120|M|66.96,14.99|Z|Boralus|N|Take a flight to Freehold.|RANK|3|
 K Carentan|QID|49223|LVL|120|M|76.90,85.98|T|Carentan|N|Kill Carentan.|RANK|3|
-$ Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here. You probably don't have the treasure map and will need to check back later, but you may as well check since you are here.|RANK|3|PRE|52859|
+$ Buried Treasure-Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here. You probably don't have the treasure map and will need to check back later, but you may as well check since you are here.|RANK|3|PRE|52859|
 F Tradewinds Market|M|77.04,82.89|N|Hearth or Fly back to Boralus with Rodrigo.|RANK|3|
 T The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|To Roko.|RANK|3|
 
