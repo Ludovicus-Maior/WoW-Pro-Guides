@@ -384,6 +384,12 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.EnablePetBattles == nil then
 	    WoWProCharDB.EnablePetBattles = true
 	end
+	if WoWProCharDB.EnableRares == nil then
+	    WoWProCharDB.EnableRares = true
+	end
+	if WoWProCharDB.EnableTreasures == nil then
+	    WoWProCharDB.EnableTreasures = true
+	end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
