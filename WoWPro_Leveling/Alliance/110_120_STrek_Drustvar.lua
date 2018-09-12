@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-09-11 18:30
+-- Who: Emmaleah
+-- Log: Add missing QO|1| to K Bramblethorn|QID|50238| - thanks Ikibewn
+
+-- URL: http://wow-pro.com/node/3763/revisions/29704/view
 -- Date: 2018-09-09 00:03
 -- Who: Emmaleah
 -- Log: QIDs for missing 6 items, other minor adjustments. Restore lost header... (oops!)
@@ -674,7 +679,7 @@ T So Long, Sister|QID|49939|M|26.64,72.17|N|To Leandro Royston.|
 A WANTED: The Crimson Cutthroats|QID|51390|M|26.42,72.16|N|From Wanted Poster.|RANK|3|
 A Bramblethorn|QID|50238|M|26.99,71.39|N|From Lynn Sweet.|RANK|2|
 A A Missing Master|QID|50903|M|25.54,70.10|N|From Marten Webb.|
-K Bramblethorn|QID|50238|M|24.79,69.01;24.88,68.65|CS|N|Kill Bramblethorn to rescue Lord Sharptooth.|T|Bramblethorn|RANK|2|
+K Bramblethorn|QID|50238|QO|1|M|24.79,69.01;24.88,68.65|CS|N|Kill Bramblethorn to rescue Lord Sharptooth.|T|Bramblethorn|RANK|2|
 C A Missing Master|QID|50903|QO|1|M|25.60,67.91|NC|N|Go down into cellar and find Master Ashton.|
 C A Missing Master|QID|50903|QO|2|M|25.29,67.89|CHAT|N|Speak to Master Ashton|
 T A Missing Master|QID|50903|M|25.29,67.89|N|To Warren Ashton.|
