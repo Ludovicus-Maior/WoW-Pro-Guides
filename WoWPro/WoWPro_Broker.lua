@@ -1377,7 +1377,7 @@ function WoWPro.NextStep(k,i)
             break
         end
         -- Complete K steps if we dont want them
-        if WoWPro.action[k] == "K"  and WoWPro.rare[k] and (not  WoWProCharDB.EnableRares) then
+        if WoWPro.rare[k] and (not  WoWProCharDB.EnableRares) then
             WoWPro.CompleteStep(k,"No optional rares desired")
             skip = true
             break
