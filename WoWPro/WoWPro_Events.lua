@@ -5,15 +5,17 @@
 local L = WoWPro_Locale
 
 -- Are we ready to roll?
-function WoWPro.Ready()
+function WoWPro.Ready(who)
 	if not WoWProDB.char.currentguide then
+	    WoWPro:dbp("%s not Ready. No current guide!",(who or "Someone"))
 	    return false
 	end
 	if not WoWPro.Guides[WoWProDB.char.currentguide] then
+	    WoWPro:dbp("%s not Ready. Current guide invalid!",(who or "Someone"))
 	    return false
 	end
 	if not WoWPro.GuideLoaded then
-	    WoWPro:dbp("Not Ready. Guide %s is not loaded yet!",tostring(WoWProDB.char.currentguide))
+	    WoWPro:dbp("%s not Ready. Guide %s is not loaded yet!",(who or "Someone"), tostring(WoWProDB.char.currentguide))
         return false
 	end
 	return true
@@ -404,7 +406,7 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function (event,...)
 			WoWPro.Hidden = nil
 		end
 	end
-	if WoWPro.Ready() then
+	if WoWPro.Ready(event) then
         WoWPro.AutoCompleteZone(...)
     end
     end)
@@ -787,7 +789,7 @@ WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function (event,...)
 	if delta == 0 then
 	    return
 	end
-	if WoWPro.Ready() then
+	if WoWPro.Ready(event) then
         WoWPro:AutoCompleteQuestUpdate(nil)
         WoWPro:UpdateGuide(event)
         if WoWProCharDB.AutoSelect and delta == 1 then
@@ -858,7 +860,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	end
 
 	-- Stop processing if no guide is active or something is odd!
-    if not WoWPro.Ready() then
+    if not WoWPro.Ready("EventHandler:"..event) then
         return
     end
 
