@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-13 15:53
+-- Who: elidion
+-- Log: Added one of the outpost upgrades and the PRE/O tags
+
+-- URL: http://wow-pro.com/node/3760/revisions/29744/view
 -- Date: 2018-09-13 08:23
 -- Who: elidion
 -- Log: Added the Zuldazar quests.
@@ -534,22 +539,27 @@ C Target: Blood Prince Dreven|QID|52219|M|20.18,60.76|Z|Nazmir|QO|2|N|Kill Blood
 T Target: Blood Prince Dreven|QID|52219|M|61.97,41.24|Z|Nazmir|N|To Shandris Feathermoon - Flightmaster Whistle can be useful here if you don't want to run back.|
 
 ; The Honored Repuation Mission Report: Veiled Grotto
-A Mission Report: Veiled Grotto|QID|52801|M|70.46,27.13|Z|Boralus|
+A Mission Report: Veiled Grotto|QID|52801|M|70.46,27.13|Z|Boralus|O|
 T Mission Report: Veiled Grotto|QID|52801|M|69.28,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 A Veiled Grotto|QID|52802|M|69.28,26.99|Z|Boralus|N|From Halford Wyrmbane.|
-R Zuldazar|ACTIVE|52802|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+R Zuldazar|ACTIVE|52802|M|67.94,26.70|Z|Boralus|CHAT|PRE|52801|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 C Veiled Grotto|QID|52802|M|44.48,36.69|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
 f Veiled Grotto|ACTIVE|52802|M|44.43,36.84|Z|Zuldazar|CHAT|N|Get the flightpoint from Isaac "Lefteye" Bentham.|
 T Veiled Grotto|QID|52802|M|44.25,36.49|Z|Zuldazar|N|To Kolton Garrick.|
 
 ; The Honored Repuation Mission Report: Grimwatt's Crash
-A Mission Report: Grimwatt's Crash|QID|53006|M|70.45,27.18|Z|Boralus|
+A Mission Report: Grimwatt's Crash|QID|53006|M|70.45,27.18|Z|Boralus|O|
 T Mission Report: Grimwatt's Crash|QID|53006|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Grimwatt's Crash|QID|53007|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|
-R Nazmir|ACTIVE|53007|CHAT|N|Tell Jes-Tereth to take you to Drustvar or get there through other means.|
+A Grimwatt's Crash|QID|53007|M|69.28,27.00|Z|Boralus|PRE|53006|N|From Halford Wyrmbane.|
+R Nazmir|ACTIVE|53007|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Nazmir or get there through other means.|
 C Grimwatt's Crash|QID|53007|M|34.16,63.42|Z|Nazmir|QO|1|N|Make your way to the outpost and claim it.|
 f Grimwatt's Crash|ACTIVE|53007|M|34.31,63.20|Z|Nazmir|CHAT|N|Get the flightpoint from Noella Davenport.|
 T Grimwatt's Crash|QID|53007|M|33.88,63.22|Z|Nazmir|N|To Fellyia Wildsong.|
+A Mission Report: Ambush at Grimwatt's Crash|QID|53186|M|70.42,27.19|Z|Boralus|PRE|53007|O|
+T Mission Report: Ambush at Grimwatt's Crash|QID|53186|M|69.28,27.01|Z|Boralus|N|To Halford Wyrmbane.|
+A An Unexpected Guest|QID|53187|M|69.28,27.01|Z|Boralus|PRE|53186|N|From Halford Wyrmbane.|
+R Nazmir|ACTIVE|53187|CHAT|N|Tell Jes-Tereth to take you to Nazmir or get there through other means.|
+T An Unexpected Guest|QID|53187|M|34.31,63.20|Z|Nazmir|N|Fly to Grimwatt's Crash and turn in to Noella Davenport.|
 
 ; 3k Honored with The 7th Legion
 A Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;honored;3000;false|PRE|52219|
