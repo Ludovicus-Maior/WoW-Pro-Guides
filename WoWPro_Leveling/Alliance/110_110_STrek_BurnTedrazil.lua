@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2018-09-12 04:11
+-- Who: Emmaleah
+-- Log: Added note about starting in Stormwind.
+
+-- URL: http://wow-pro.com/node/3776/revisions/29713/view
 -- Date: 2018-09-10 20:38
 -- Who: Emmaleah
 -- Log: minor updates, mostly around adding back the [a load of scrap] quest
@@ -175,6 +180,7 @@ WoWPro:GuideQuestTriggers(guide, 53370, 52946)
 WoWPro:GuideSteps(guide, function()
 return [[
 
+N Stormwind|N|This guide is intended that you start in Stormwind. Directions are from that point of origin.|
 A Hour of Reckoning|QID|53370|N|Autoaccepted upon loggin in. Target buttons are included to assist with the crowds, then if you have "Interact with target keybound you will find it easier in the press of people.|LEAD|51795|;or perhaps upon logging in anywhere?
 T Hour of Reckoning|QID|53370|M|22.37,32.42|Z|Stormwind City|N|To Master Mathias Shaw.|T|Master Mathias Shaw
 A The Battle for Lordaeron|QID|51795|M|22.37,32.42|Z|Stormwind City|N|From Master Mathias Shaw.|

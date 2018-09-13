@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-12 00:54
+-- Who: jovieve
+-- Log: Added PRE tags
+
+-- URL: http://wow-pro.com/node/3760/revisions/29734/view
+-- Date: 2018-09-12 00:28
+-- Who: jovieve
+-- Log: Fixed bad X coord
+
+-- URL: http://wow-pro.com/node/3760/revisions/29733/view
+-- Date: 2018-09-11 23:59
+-- Who: jovieve
+-- Log: Recorded War Campaign at the Revered rep gate and added to the guide.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29714/view
 -- Date: 2018-09-10 20:40
 -- Who: Emmaleah
 -- Log: change note of [The War Campaign]
@@ -593,8 +608,55 @@ T A Clean Escape|QID|52496|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;revered;7500;false|PRE|52496|
 T Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Bringing Down the Fleet|QID|52473|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|REP|7th Legion;2159;revered;7500;false|PRE|52496|
-C Bringing Down the Fleet|QID|52473|M|67.94,26.70|Z|Boralus|CHAT|NC|N|Speak with Grand Admiral Jes-Tereth to said for Nazmir|
+C Bringing Down the Fleet|QID|52473|M|67.94,26.70|Z|Boralus|CHAT|NC|N|Speak with Grand Admiral Jes-Tereth to sail for Zuldazar|
 T Bringing Down the Fleet|QID|52473|M|40.76,70.89|Z|Zuldazar|N|To Halford Wyrmbane.|
+A How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52473|
+C How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|QO|1|N|Tell Halford you want to discuss the plan.|
+T How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|N|To Halford Wyrmbane.|
+A Under the Cover of Swiftwing|QID|52281|M|40.79,70.87|Z|Zuldazar|N|From Falstad Wildhammer.|PRE|52282|
+C Under the Cover of Swiftwing|QID|52281|M|57.68,87.50|Z|Zuldazar|QO|1|N|Jump on Swiftwing to take a ride.|
+T Under the Cover of Swiftwing|QID|52281|M|57.66,87.60|Z|Zuldazar|N|To Kelsey Steelspark.|
+A Ship Logs|QID|52284|M|57.66,87.60|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52281|
+A Sabotaging the Pa'ku|QID|52283|M|57.65,87.54|Z|Zuldazar|N|From John J. Keeshan.|PRE|52281|
+C Ship Logs|QID|52284|M|49.25,37.72|Z|Lower Deck!Breath Of Pa'ku!Dungeon|QO|1|N|Board the Breath of Pa'ku and kill its crew until you get the naval records needed for this quest. (You can use the boots to kill crew on other boats if you need to, but there should be enough here.) \n\nDon't drive yourself crazy looking for the deathbombs; they are in the water.|
+C Sabotaging the Pa'ku|QID|52283|M|51.88,87.43|Z|Zuldazar|QO|1|N|Jump off the boat and swim around the hull to plant the deathbombs.|
+T Sabotaging the Pa'ku|QID|52283|M|57.66,87.60|Z|Zuldazar|N|To John J. Keeshan.|
+T Ship Logs|QID|52284|M|57.66,87.60|Z|Zuldazar|N|To Kelsey Steelspark.|
+A The Enlarged Miniaturized Submarine|QID|52285|M|57.66,87.60|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52283;52284|
+C The Enlarged Miniaturized Submarine|QID|52285|M|49.51,70.46|Z|Zuldazar|QO|1|N|Hop in the Enlarged Miniaturized Submarine for another ride.|
+T The Enlarged Miniaturized Submarine|QID|52285|M|48.88,68.51|Z|Zuldazar|N|To Shandris Feathermoon.|
+A My Enemy's Enemy is My Disguise|QID|52290|M|48.88,68.51|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52285|
+C My Enemy's Enemy is My Disguise|QID|52290|M|48.88,68.58|Z|Zuldazar|QO|1|N|Tell Umbric you are ready to become a blood troll.|
+T My Enemy's Enemy is My Disguise|QID|52290|M|48.87,68.57|Z|Zuldazar|N|To Shandris Feathermoon.|
+A Right Beneath Their Nose|QID|52286|M|48.87,68.57|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52290|
+A Intelligence Denial|QID|52287|M|48.87,68.57|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52290|
+A Void Vacation|QID|52288|M|48.88,68.56|Z|Zuldazar|N|From Magister Umbric.|PRE|52290|
+C Void Vacation|QID|52288|M|48.03,63.02|Z|Zuldazar|QO|1|S|N|Use your extra action button to stealth. Watch for dogs, and throw Horde emissaries into a void rift. This action doesn't break stealth.|U|162450|
+K Intelligence Denial|ACTIVE|52287|M|47.48,66.86|Z|Zuldazar|QO|1|T|Spymaster Stormhorn|N|Kill Spymaster Stormhorn.|
+K Intelligence Denial|ACTIVE|52287|M|45.85,62.12|Z|Zuldazar|QO|2|T|Spymaster Bloodsnarl|N|Kill Spymaster Bloodsnarl.|
+K Intelligence Denial|ACTIVE|52287|M|46.33,59.95|Z|Zuldazar|QO|3|T|Spymaster Bilespreader|N|Kill Spymaster Bilespreader.|
+C Void Vacation|QID|52288|M|50.34,65.80|Z|Zuldazar|QO|1|N|Finish throwing Horde emissaries into the void as you work your way to the ship to plant bombs.|U|162450|
+C Right Beneath Their Nose|QID|52286|M|50.34,65.80|Z|Zuldazar|QO|1|N|Back into the water to plant deathbombs.|
+T Void Vacation|QID|52288|M|48.88,68.58|Z|Zuldazar|N|To Magister Umbric.|
+T Right Beneath Their Nose|QID|52286|M|48.88,68.58|Z|Zuldazar|N|To Shandris Feathermoon.|
+T Intelligence Denial|QID|52287|M|48.88,68.58|Z|Zuldazar|N|To Shandris Feathermoon.|
+A Victory is Assured|QID|52289|M|48.88,68.58|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52288;52286;52287|
+T Victory is Assured|QID|52289|M|40.48,71.49|Z|Zuldazar|N|To Halford Wyrmbane. Your flight whistle will take you right to him.|U|141605|
+A Victory Was Assured|QID|52291|M|40.48,71.49|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52289|
+C Victory Was Assured|QID|52291|M|35.10,77.32|Z|Zuldazar|QO|1|N|1/1 Ride Swiftwing to Gral's Call|
+T Victory Was Assured|QID|52291|M|35.13,77.32|Z|Zuldazar|N|To Halford Wyrmbane.|
+A Leave None Alive|QID|52788|M|35.13,77.32|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52291|
+C Leave None Alive|QID|52788|M|34.65,76.42|Z|Zuldazar|QO|1|N|Kill the Zandalari on the deck. In theory, you only have to kill 10, but Halford won't stop fighting so you can turn in the quest until everything on deck is dead.|
+T Leave None Alive|QID|52788|M|34.28,75.70|Z|Zuldazar|N|To Halford Wyrmbane.|
+A Silencing the Advisor|QID|52789|M|34.28,75.70|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52788|
+C Silencing the Advisor|QID|52789|M|34.93,76.91|Z|Zuldazar|QO|1|T|Advisor Ko'jan|N|Advisor Ko'jan slain. All the way down at the bottom level of the boat.|
+T Silencing the Advisor|QID|52789|M|34.98,77.02|Z|Zuldazar|N|To Halford Wyrmbane.|
+A An End to the Killing|QID|52790|M|34.98,77.02|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52789|
+C An End to the Killing|QID|52790|M|34.82,76.34|Z|Zuldazar|QO|2|N|Go back up to the deck and ask Shandris Feathermoon for a status report. Listen to the RP.|
+C An End to the Killing|QID|52790|M|34.83,76.39|Z|Zuldazar|QO|3|N|Tell Halford to blow up the ship.|
+T An End to the Killing|QID|52790|M|85.89,31.64|Z|Stormwind City|N|Take your best route to Stormwind and turn in this quest to Anduin Wrynn to complete the War Campaign.|
+A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|PRE|52790|
+T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|
 
 ; Rep Gated Notes
 N Come back at level 114|AVAILABLE|51961|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51569|
