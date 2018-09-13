@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-13 08:23
+-- Who: elidion
+-- Log: Added the Zuldazar quests.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29742/view
+-- Date: 2018-09-13 06:15
+-- Who: elidion
+-- Log: Added Honored Outpost missions
+
+-- URL: http://wow-pro.com/node/3760/revisions/29735/view
 -- Date: 2018-09-12 00:54
 -- Who: jovieve
 -- Log: Added PRE tags
@@ -523,6 +533,24 @@ C Target: Blood Prince Dreven|QID|52219|M|20.15,60.76|Z|Nazmir|QO|1|CHAT|N|Meet 
 C Target: Blood Prince Dreven|QID|52219|M|20.18,60.76|Z|Nazmir|QO|2|N|Kill Blood Prince Dreven and his cohorts|
 T Target: Blood Prince Dreven|QID|52219|M|61.97,41.24|Z|Nazmir|N|To Shandris Feathermoon - Flightmaster Whistle can be useful here if you don't want to run back.|
 
+; The Honored Repuation Mission Report: Veiled Grotto
+A Mission Report: Veiled Grotto|QID|52801|M|70.46,27.13|Z|Boralus|
+T Mission Report: Veiled Grotto|QID|52801|M|69.28,26.99|Z|Boralus|N|To Halford Wyrmbane.|
+A Veiled Grotto|QID|52802|M|69.28,26.99|Z|Boralus|N|From Halford Wyrmbane.|
+R Zuldazar|ACTIVE|52802|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+C Veiled Grotto|QID|52802|M|44.48,36.69|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
+f Veiled Grotto|ACTIVE|52802|M|44.43,36.84|Z|Zuldazar|CHAT|N|Get the flightpoint from Isaac "Lefteye" Bentham.|
+T Veiled Grotto|QID|52802|M|44.25,36.49|Z|Zuldazar|N|To Kolton Garrick.|
+
+; The Honored Repuation Mission Report: Grimwatt's Crash
+A Mission Report: Grimwatt's Crash|QID|53006|M|70.45,27.18|Z|Boralus|
+T Mission Report: Grimwatt's Crash|QID|53006|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Grimwatt's Crash|QID|53007|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|
+R Nazmir|ACTIVE|53007|CHAT|N|Tell Jes-Tereth to take you to Drustvar or get there through other means.|
+C Grimwatt's Crash|QID|53007|M|34.16,63.42|Z|Nazmir|QO|1|N|Make your way to the outpost and claim it.|
+f Grimwatt's Crash|ACTIVE|53007|M|34.31,63.20|Z|Nazmir|CHAT|N|Get the flightpoint from Noella Davenport.|
+T Grimwatt's Crash|QID|53007|M|33.88,63.22|Z|Nazmir|N|To Fellyia Wildsong.|
+
 ; 3k Honored with The 7th Legion
 A Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;honored;3000;false|PRE|52219|
 T Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
@@ -657,6 +685,44 @@ C An End to the Killing|QID|52790|M|34.83,76.39|Z|Zuldazar|QO|3|N|Tell Halford t
 T An End to the Killing|QID|52790|M|85.89,31.64|Z|Stormwind City|N|Take your best route to Stormwind and turn in this quest to Anduin Wrynn to complete the War Campaign.|
 A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|PRE|52790|
 T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|
+
+;Zuldazar Quests
+A WANTED: Dark Chronicler|QID|51085|M|40.79,71.13|Z|Zuldazar|PRE|51968|N|To help grind out 7th Legion Rep, head to Zuldazar and grab the quests.|
+A The Thrill of Exploration|QID|49276|M|41.33,71.43|Z|Zuldazar|PRE|51968|N|From Acadia Chistlestone.|
+C The Thrill of Exploration|QID|49276|M|41.28,71.70|Z|Zuldazar|QO|1|N|Click on a fossile in the pit, after the first you can click the Excavation Elemental to finish it quick.|
+T The Thrill of Exploration|QID|49276|M|41.35,71.45|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
+A Morgrum's Survey|QID|49274|M|41.35,71.45|Z|Zuldazar|PRE|49276|N|From Excavator Morgrum Emberflint.|
+A Archaeological Efficiency|QID|50044|M|41.35,71.45|Z|Zuldazar|PRE|49276|N|From Excavator Morgrum Emberflint.|
+A Xibalan Ecology|QID|49060|M|41.33,71.43|Z|Zuldazar|PRE|49276|N|From Acadia Chistlestone.|
+C Xibalan Ecology|QID|49060|M|42.11,75.04|Z|Zuldazar|QO|1|S|N|Kill the Xibalan predators in the area.|
+C Archaeological Efficiency|QID|50044|M|42.13,75.02|Z|Zuldazar|QO|1|S|NC|N|Click on the Elemental Summoning Stone to have the elemental uncover the glowing dirt piles, and then loot the bones.|U|159640|
+C Morgrum's Survey|QID|49274|M|42.48,72.25|Z|Zuldazar|QO|1|NC|N|1/1 Outer ruins survey completed|
+C Morgrum's Survey|QID|49274|M|42.78,73.86|Z|Zuldazar|QO|2|NC|N|1/1 Inner ruins survey completed|
+C Morgrum's Survey|QID|49274|M|41.36,75.40|Z|Zuldazar|QO|3|NC|N|1/1 "The Foot" survey completed|
+C Archaeological Efficiency|QID|50044|M|42.13,75.02|Z|Zuldazar|QO|1|US|NC|N|Click on the Elemental Summoning Stone to have the elemental uncover the glowing dirt piles, and then loot the bones.|U|159640|
+C WANTED: Dark Chronicler|QID|51085|M|43.25,76.42;43.82,76.48|CS|Z|Zuldazar|QO|1|N|Go up to about the middle of the hill to find a tunneled hole entrance. Run down to the Dark Chronicler and kill it. Can be tough without a group, skip the step if you want to do it later.|
+C Xibalan Ecology|QID|49060|M|42.51,73.13|Z|Zuldazar|QO|1|US|N|Finish killing the Xibalan predators in the area.|
+T Archaeological Efficiency|QID|50044|M|41.33,71.42|Z|Zuldazar|N|To Acadia Chistlestone.|
+T Xibalan Ecology|QID|49060|M|41.33,71.42|Z|Zuldazar|N|To Acadia Chistlestone.|
+T Morgrum's Survey|QID|49274|M|41.35,71.44|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
+A Morgrum's Extended Survey|QID|49282|M|41.35,71.44|Z|Zuldazar|PRE|49274;49060;50044|N|From Excavator Morgrum Emberflint.|
+T WANTED: Dark Chronicler|QID|51085|M|40.79,71.13|Z|Zuldazar|N|Return to the Wanted Board.|
+C Morgrum's Extended Survey|QID|49282|M|43.10,75.03|Z|Zuldazar|QO|1|NC|CHAT|N|Speak to Excavator Emberflint in the ruins.|
+C Morgrum's Extended Survey|QID|49282|M|43.31,74.79|Z|Zuldazar|QO|2|NC|N|First survey started|
+C Morgrum's Extended Survey|QID|49282|M|43.31,74.79|Z|Zuldazar|QO|3|N|Defend Emberflint until the First survey is complete|
+C Morgrum's Extended Survey|QID|49282|M|43.61,74.95|Z|Zuldazar|QO|4|NC|N|Second survey started|
+C Morgrum's Extended Survey|QID|49282|M|43.61,74.95|Z|Zuldazar|QO|5|N|Defend Emberflint until the Second survey is complete|
+C Morgrum's Extended Survey|QID|49282|M|43.81,74.33|Z|Zuldazar|QO|6|NC|N|Third survey started|
+C Morgrum's Extended Survey|QID|49282|M|43.81,74.33|Z|Zuldazar|QO|7|N|Defend Emberflint until the Third survey is complete|
+T Morgrum's Extended Survey|QID|49282|M|44.46,73.45|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
+A Grand Theft Telemancy|QID|49428|M|44.46,73.45|Z|Zuldazar|PRE|49282|N|From Excavator Morgrum Emberflint.|
+A Not Our Purple Elves|QID|49427|M|44.46,73.45|Z|Zuldazar|PRE|49282|N|From Excavator Morgrum Emberflint.|
+C Not Our Purple Elves|QID|49427|M|46.57,72.13|Z|Zuldazar|QO|1|S|N|Kill Horde forces.|
+C Grand Theft Telemancy|QID|49428|M|47.38,72.11|QO|1|Z|Zuldazar|N|Kill Third Telemancer Syranel.|
+C Grand Theft Telemancy|QID|49428|M|47.42,72.18|QO|2|Z|Zuldazar|N|Click on the Breath of Xibala to take it.|
+C Not Our Purple Elves|QID|49427|M|46.57,72.13|Z|Zuldazar|QO|1|US|N|Finish killing Horde forces.|
+T Grand Theft Telemancy|QID|49428|M|41.35,71.44|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
+T Not Our Purple Elves|QID|49427|M|41.35,71.44|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
 
 ; Rep Gated Notes
 N Come back at level 114|AVAILABLE|51961|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51569|
