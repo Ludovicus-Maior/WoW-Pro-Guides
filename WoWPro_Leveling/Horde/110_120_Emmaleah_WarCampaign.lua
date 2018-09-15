@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-09-15 06:27
+-- Who: Emmaleah
+-- Log: Added FPs to the upgrade quest step of first two purchased missions.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29709/view
 -- Date: 2018-09-10 00:17
 -- Who: elidion
 -- Log: Added the Horde Warfront Scenerio "The battle for Stromgarde"
@@ -521,6 +526,7 @@ A Mission Report: Nature Calls|QID|53102|M|51.48,99.63|Z|Dazar'alor|PRE|52276|O|
 T Mission Report: Nature Calls|QID|53102|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Wicker Magic|QID|53103|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53102|
 R Drustvar|ACTIVE|53103|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
+F Swiftwind Post|ACTIVE|53103|M|19.12,43.32|Z|Drustvar|N|At Tan Lotuswind.|
 T Wicker Magic|QID|53103|M|66.12,59.58|Z|Drustvar|N|To Toska Eaglehorn in Drustvar. It should be easier now that you have the flight path directly there.|
 
 ; The Honored Repuation Mission Report: The Wolf's Den
@@ -535,6 +541,7 @@ A Mission Report: Wolves For The Den|QID|53151|M|51.48,99.63|Z|Dazar'alor|PRE|52
 T Mission Report: Wolves For The Den|QID|53151|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Wolves for the Den|QID|53152|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53151|
 R Tiragarde Sound|ACTIVE|53152|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
+F Wolf's Den|ACTIVE|53152|M|87.27,50.67|Z|Tiragarde Sound|N|At Skrash.|
 T Wolves for the Den|QID|53152|M|62.49,12.48|Z|Tiragarde Sound|N|To Mukkral Blackvein in Tiragarde sound. It should be easier now that you have the flight path directly there.|
 
 ; Death of a Tidesage - 3k/12k Honored The Honorbound
@@ -674,7 +681,8 @@ A Mission Report: Hillcrest Pasture|QID|52478|M|51.51,99.63|Z|Dazar'alor|REP|The
 T Mission Report: Hillcrest Pasture|QID|52478|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Hillcrest Pasture|QID|52479|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52478|
 R Stormsong Valley|ACTIVE|52479|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
-C Hillcrest Pasture|QID|52479|M|53.42,77.66|Z|Stormsong Valley|QO|1|N|Closest flightpoint is Wolf's Den, make your way to the outpost to claim it.|
+F Wolf's Den|ACTIVE|52479|M|51.43,33.74|Z|Stormsong Valley|N|Wolf's Den is the closest flightpoint, if you don't want to run and do WQs on the way.|
+C Hillcrest Pasture|QID|52479|M|53.42,77.66|Z|Stormsong Valley|N|Make your way to the outpost to claim it.|
 f Hillcrest Pasture|ACTIVE|52479|M|52.77,80.13|Z|Stormsong Valley|CHAT|N|At Hosan Cloudhoof.|
 T Hillcrest Pasture|QID|52479|M|54.19,78.65|Z|Stormsong Valley|N|To Ruknoz Greyfang.|
 
