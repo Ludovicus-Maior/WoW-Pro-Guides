@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-09-15 08:18
+-- Who: Emmaleah
+-- Log: Add RARE tag to Silver Elites - Change QID to ACTIVE on the K steps for Boralus Triple Threat and Targeting a Turncoat
+
+-- URL: http://wow-pro.com/node/3769/revisions/29731/view
 -- Date: 2018-09-11 09:11
 -- Who: Emmaleah
 -- Log: Play test on rank 1. Added a couple of -1 steps. Tested that the norwington festival breadcrumb can be skipped.
@@ -159,17 +164,17 @@ A The Beauty of Marketing|QID|49531|M|67.50,55.81|N|From Wulferd Fizzbracket.|RA
 C Spring Cleaning|QID|49529|M|67.5,55.81|S|N|Pop bubbles, pick up debris and kill random stuff you can't avoid. This should get finished (or nearly so) as you go about the other objectives.|
 C Making Mysteries|QID|49897|M|68.39,59.74|S|NC|N|Click on the chickens running around.|
 C The Beauty of Marketing|QID|49531|M|67.15,56.97|NC|U|155009|QO|2|N|Use Camera, then the 1 key to take a selfie of you and the Geyser.|
-K Raging Swell|QID|50148|QO|1|M|64.80,58.82|T|Raging Swell|N|Silver Elite to kill for Azerite Power and resources.|ITEM|161446|RANK|2|
+K Raging Swell|QID|50148|QO|1|M|64.80,58.82|T|Raging Swell|N|Silver Elite to kill for Azerite Power and resources.|RARE|ITEM|161446|RANK|2|
 C The Beauty of Marketing|QID|49531|M|67.95,57.91|NC|U|155009|QO|1|N|Use Camera, then the 1 key to take a selfie of you and a stag. Be aware stags are agressive and will attack whille you are taking pix.|
 C The Beauty of Marketing|QID|49531|M|66.67,59.38|NC|U|155009|QO|5|N|Use Camera, then the 1 key to take a selfie of you and a wolf.|
 C The Beauty of Marketing|QID|49531|M|70.15,55.87|NC|U|155009|QO|3|N|Use Camera, then the 1 key to take a selfie of you and the waterfall.|
-K Tort Jaw|QID|51835|QO|1|M|70.18,55.91|T|Tort Jaw|N|Silver Elite to kill for Azerite Power and resources.|ITEM|159349|RANK|2|
+K Tort Jaw|QID|51835|QO|1|M|70.18,55.91|T|Tort Jaw|N|Silver Elite to kill for Azerite Power and resources.|RARE|ITEM|159349|RANK|2|
 C The Beauty of Marketing|QID|49531|M|65.10,61.08|NC|U|155009|QO|4|N|Use Camera, then the 1 key to take a selfie of you and the Ruined Robot.|
 A Inspection Gadget|QID|51426|M|64.99,60.62|N|From Parin Tinklocket.|RANK|2|;this wasn't available 2nd time - person tried to share it with me and it said I wasn't eligible
 A Reverse Tinkering|QID|51430|M|64.99,60.62|N|From Parin Tinklocket.|RANK|2|;ditto
 C Inspection Gadget|QID|51426|M|64.92,63.59|NC|U|160245|S|N|Use the R.A.D.A.R. to survey as you are walking around (no it is not channeled, but it does slow your walking speed.|
 C Reverse Tinkering|QID|51430|M|65.48,64.23|S|N|Kill and loot the sentry robots to collect their V-300 Serial Plates.|
-K P4-N73R4|QID|51833|QO|1|M|65.2,64.52|T|P4-N73R4|N|Silver Elite to kill for Azerite Power and resources.|ITEM|161599|RANK|2|
+K P4-N73R4|QID|51833|QO|1|M|65.2,64.52|T|P4-N73R4|N|Silver Elite to kill for Azerite Power and resources.|RARE|ITEM|161599|RANK|2|
 C Reverse Tinkering|QID|51430|M|65.48,64.23|US|N|Finish collecting the V-300 Serial Plates.|
 C Inspection Gadget|QID|51426|M|64.92,63.59|NC|U|160245|US|N|Finish surveying the area.|
 T Inspection Gadget|QID|51426|M|64.98,60.62|N|To Parin Tinklocket.|
@@ -232,7 +237,7 @@ C Noble Responsibilities|QID|48909|M|70.33,62.92|QO|1|NC|N|Examine the cold corp
 C Encase of Emergency|QID|49066|M|69.30,63.13|S|N|Click on the 'Humming Ice' and then kill the 'agitated ice shardlings' that come out, then loot Pristine Ice Chunks.|
 C Noble Responsibilities|QID|48909|M|69.23,62.41|QO|2|NC|N|Examine the Hunter's corpse for clues.|
 C Noble Responsibilities|QID|48909|M|68.89,63.92|QO|3|NC|N|Examine the Dead Quillrat.|
-K Ranja|QID|51872|QO|1|M|68.27,63.57|T|Ranja|ITEM|154478|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
+K Ranja|QID|51872|QO|1|M|68.27,63.57|T|Ranja|RARE|ITEM|154478|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Noble Responsibilities|QID|48909|M|68.19,65.13|QO|4|NC|N|Examine the Fresh Stag Corpse.|
 C Noble Responsibilities|QID|48909|M|68.11,66.77|QO|5|N|Kill the Wendigo in the cave.|
 C Encase of Emergency|QID|49066|US|M|69.30,63.13|N|Finish gathering Pristine Ice Chunks.|
@@ -266,7 +271,7 @@ K Patheope|QID|49226|M|86.21,72.22|QO|1|N|Kill the siren sisters in this cave. I
 K Nolpe|QID|49226|M|86.51,72.88|QO|2|T|Nolpe|
 C My Favorite Things|QID|49178|M|88.28,72.90|QO|4|NC|N|Pick up the Steel Lunchbox.|
 C Lured and Allured|QID|48419|QO|3|M|90.06,74.48|N|Kill the siren to set Flynn free.|T|Lugeia|
-K Fowlmouth|QID|50155|M|90.45,77.11|QO|1|T|Fowlmouth|ITEM|154467|N|Silver elite mob to kill for Azerite Power and resources.|RANK|2|
+K Fowlmouth|QID|50155|M|90.45,77.11|QO|1|T|Fowlmouth|RARE|ITEM|154467|N|Silver elite mob to kill for Azerite Power and resources.|RANK|2|
 $ Buried Treasure-Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here. You probably don't have the treasure map and will need to check back later, but you may as well check since you are here.|RANK|3|PRE|52859|
 C Blood in the Tides|QID|48421|M|87.26,79.96|US|N|Finish killing the Wailing Sirens.|
 C Local Flavor|QID|49230|M|85.47,80.82|US|N|Finish collecting the Juicy Lurker Tails.|
@@ -277,7 +282,7 @@ T Local Flavor|QID|49230|M|85.47,80.73|N|To Hungry Sam.|
 T Blood in the Tides|QID|48421|M|85.73,76.63|N|To Captain Keelson.|
 T Lured and Allured|QID|48419|M|84.90,76.07|N|To Flynn Fairwind.|
 A Lovesick and Lost|QID|48505|M|84.90,76.07|N|From Flynn Fairwind.|PRE|48419|
-K Blackthorne|QID|51808|QO|1|T|Blackthorne|M|85.27,73.57|RANK|3|N|Run up and kill this silver elite before you help Flynn up, so you can better keep an eye on Flynn afterwards.|ITEM|154411|
+K Blackthorne|QID|51808|QO|1|T|Blackthorne|M|85.27,73.57|RANK|3|N|Run up and kill this silver elite before you help Flynn up, so you can better keep an eye on Flynn afterwards.|RARE|ITEM|154411|
 C Lovesick and Lost|QID|48505|M|84.90,76.07|CHAT|S|N|Help him and lead/follow him up the hill.|
 A Toxic Community|QID|48516|M|82.74,72.75|N|From Skinner MacGuff.|
 C Toxic Community|QID|48516|M|82.74,72.75|N|Kill marrowflys and saurolisks, then loot to collect the Toxic Stingers. Don't bother searching for the treasure you may see on your map, you can't get to it from here. Just keep Flynn in site and walk with him every once in awhile as you get the stingers.|
@@ -307,7 +312,7 @@ C The Irontide Crew|QID|48558|M|78.21,76.27|US|N|Continue killing the Irontide c
 C The Beatings Will Continue|QID|48774|M|78.21,76.27|US|N|Finish up killing the necesary Irontide Ruffians and Overseers.|
 T The Beatings Will Continue|QID|48774|M|79.19,76.32|N|To Geraldine.|
 T Rig Robbing|QID|48776|M|79.19,76.32|N|To Geraldine.|
-K Squacks|QID|50160|QO|1|T|Squacks|M|80.81,82.55|N|Silver Elite to kill for loot and resources.|ITEM|160445|RANK|2|
+K Squacks|QID|50160|QO|1|T|Squacks|M|80.81,82.55|N|Silver Elite to kill for loot and resources.|RARE|ITEM|160445|RANK|2|
 T Papers, Please|QID|48773|M|80.36,81.47|N|To Flynn Fairwind.|
 T The Irontide Crew|QID|48558|M|80.36,81.47|N|To Flynn Fairwind.|
 
@@ -339,7 +344,7 @@ A Trixie Business|QID|49407|M|76.90,85.97|N|From Carentan.|PRE|49290|RANK|2|
 C Missing Treasure!|QID|49409|M|77.74,85.07|QO|1|CHAT|N|Ask Ned about the buried treasure.|
 C Missing Treasure!|QID|49409|M|76.38,84.33|QO|2|CHAT|N|Ask Nub Nub about the treasure.|
 C Missing Treasure!|QID|49409|M|76.13,83.05|QO|3|CHAT|N|Ask Nance Barmy about the treasure.|
-K Barman Bill|QID|50233|QO|1|M|76.48,82.62|T|Barman Bill|ITEM|160451|N|Silver Elite to kill for loot and resources.|RANK|2|
+K Barman Bill|QID|50233|QO|1|M|76.48,82.62|T|Barman Bill|RARE|ITEM|160451|N|Silver Elite to kill for loot and resources.|RANK|2|
 C Trixie Business|QID|49407|M|76.48,82.64|QO|1|CHAT|N|Talk to Trixie, then follow her to the out of the way corner, click off your hat "buff" and attack. Don't forget to reapply it when done.|
 T Trixie Business|QID|49407|M|76.90,85.98|N|To Carentan.|
 A Carentan's Payment|QID|49522|M|76.90,85.98|N|From Carentan.|PRE|49407|RANK|2|
@@ -349,7 +354,7 @@ A A Bad Deal|QID|49523|M|76.88,86.02|N|From UI Alert.|PRE|49522|RANK|2|
 C Missing Treasure!|QID|49409|QO|4|M|75.64,80.56|NC|N|Inspect the Sandy Seaweed-covered Chest.|
 C Missing Treasure!|QID|49409|QO|5|M|76.31,80.80|NC|N|Pick up the missing treasure.|
 T Missing Treasure!|QID|49409|M|76.31,80.80|N|To UI Alert.|
-K Carla Smirk|QID|51809|M|72.45,81.01|QO|1|T|Carla Smirk|ITEM|155271|N|You need to remove your disguise to attack her. Silver Elite to kill for Azerite Power and resources.|RANK|2|
+K Carla Smirk|QID|51809|M|72.45,81.01|QO|1|T|Carla Smirk|RARE|ITEM|155271|N|You need to remove your disguise to attack her. Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C The Big Job|QID|49399|QO|3|US|N|Keep killing Blacktooth Bruisers until you have their Orders.|
 C The Big Job|QID|49399|QO|2|US|N|Keep killing Cutwater Corsairs until you have their Orders.|
 C The Big Job|QID|49399|QO|1|US|N|Keep killing Bilge Rats until you have their Orders.|
@@ -362,7 +367,7 @@ T Flew the Coop|QID|49402|M|77.04,82.92|N|Taelia comes flying in and takes you a
 A Rodrigo's Revenge|QID|49403|M|77.04,82.92|N|From Rodrigo.|PRE|49402|RANK|2|
 C Rodrigo's Revenge|QID|49403|NC|N|Hop on the Riding Macaw for a bombing run. You control where the macaw flys, if you use autorun, it is myuch easier to stop, bomb, fly abit more, etc. as camera angles won't stay looking down.|
 T Rodrigo's Revenge|QID|49403|M|77.03,82.89|N|Fly back to Rodrigo and use the dismount button there. Turn quest into Rodrigo.|
-K Auditor Dolp|QID|50156|M|75.56,82.69;74.91,78.96|CS|QO|1|T|Auditor Dolp|N|Don't forget to remove you disguise to fight him. Silver Elite to kill for Azerite Power and resources.|RANK|2|;item n\a
+K Auditor Dolp|QID|50156|M|75.56,82.69;74.91,78.96|CS|QO|1|RARE|T|Auditor Dolp|N|Don't forget to remove you disguise to fight him. Silver Elite to kill for Azerite Power and resources.|RANK|2|;item n\a
 C Fairwind's "Friends"|QID|49404|QO|1|M|73.86,83.44|N|Enter the Ring of Booty. Unless your AE Damage is strong, you probably want to clear the ring before you untie Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|2|NC|N|Heal up and be ready for a fight after untieing Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|3|N|Survive Harlan's game.|
@@ -385,10 +390,10 @@ A Numbing the Pain|QID|52787|M|56.48,61.73|N|From Taelia.|PRE|49869|
 C Air Raid|QID|49737|S|N|Kill Irontide Skyriders.|
 C Farmers Who Fight|QID|52750|NC|S|N|Clear the area around them, and then recruit the Vigil Hill Farmers.|
 C Numbing the Pain|QID|52787|S|NC|N|Click on the Evermoss Clumps to pick them up.|
-K Gulliver|QID|53373|QO|1|M|57.79,55.93|T|Gulliver|ITEM|158338|N|Tkill and loot this Silver Elite for Artifact Power and resources.|RANK|3|
-K Maison the Portable|QID|51880|QO|1|M|58.09,48.70|Z|Tiragarde Sound|T|Maison the Portable|N|Kill this Silver Elite and loot for Azerite Power and resources.|ITEM|154458|RANK|3|;in cave NE of Vigil Hill
-K Teres|QID|49942|QO|1|M|63.55,50.44|Z|Tiragarde Sound|T|Teres|N|Kill this Silver Elite near the waterfall for Azerite Power and resources.|ITEM|158556|RANK|3|;Wanderer's Cove
-K Tentulos the Drifter|QID|51879|QO|1|M|55.06,51.91|T|Tentulos the Drifter|ITEM|154448|N|Silver elite to kill for some Azerite Power and resources.|RANK|3|
+K Gulliver|QID|53373|QO|1|M|57.79,55.93|T|Gulliver|RARE|ITEM|158338|N|Tkill and loot this Silver Elite for Artifact Power and resources.|RANK|3|
+K Maison the Portable|QID|51880|QO|1|M|58.09,48.70|Z|Tiragarde Sound|T|Maison the Portable|N|Kill this Silver Elite and loot for Azerite Power and resources.|RARE|ITEM|154458|RANK|3|;in cave NE of Vigil Hill
+K Teres|QID|49942|QO|1|M|63.55,50.44|Z|Tiragarde Sound|T|Teres|N|Kill this Silver Elite near the waterfall for Azerite Power and resources.|RARE|ITEM|158556|RANK|3|;Wanderer's Cove
+K Tentulos the Drifter|QID|51879|QO|1|M|55.06,51.91|T|Tentulos the Drifter|RARE|ITEM|154448|N|Silver elite to kill for some Azerite Power and resources.|RANK|3|
 C Numbing the Pain|QID|52787||US|NC|N|Finish collecting the Evermoss Clumps.|
 C Farmers Who Fight|QID|52750|NC|US|N|Finish recruiting the Vigil Hill Farmers.|
 C Air Raid|QID|49737|US|N|Finish killing Irontide Skyriders.|
@@ -414,7 +419,7 @@ C Righteous Retribution|QID|49741|M|59.03,66.60|QO|3|NC|N|Board the Landing Boat
 C Righteous Retribution|QID|49741|M|59.34,68.26|QO|4|NC|N|Use your special action button to bomb The Bloodwake.|;coords a little off, do it when the boat stops.
 C Righteous Retribution|QID|49741|M|57.57,71.54|QO|5|NC|N|Hop on Galeheart's back for a mini bombing run.|
 C Righteous Retribution|QID|49741|M|56.84,74.30|QO|6|NC|N|Drop bombs on the Powder Barrels.|
-K Black-Eyed Bart|QID|50096|QO|1|T|Black-Eyed Bart|ITEM|158650|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
+K Black-Eyed Bart|QID|50096|QO|1|T|Black-Eyed Bart|RARE|ITEM|158650|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Cease Fire!|QID|49740|US|N|Finish destroying the Captured Cannons.|
 C For Kul Tiras!|QID|49736|U|156520|US|N|Finish inspriring the Vigil Hill defenders.|
 C Enemies at the Gate|QID|49739|M|57.22,67.36|US|N|Bonus Objective - Stick around and finish this up.|
@@ -469,7 +474,7 @@ A Patching Up the Rear|QID|49733|M|81.10,42.48|N|From Tallis Skyheart.|RANK|3|
 A Death from Two Sides|QID|51226|M|80.63,42.09|N|From Hawkmaster Lloyd.|RANK|3|
 C Death from Two Sides|QID|51226|M|82.24,43.87|S|N|Kill the Brinefang Saurolisk's as you go.|
 C Patching Up the Rear|QID|49733|M|82.82,44.10|S|NC|N|Click on the Injured Marines to bandage them.|
-K Broodmother Razora|QID|51665|QO|1|M|82.82,44.10|T|Broodmther Razora|N|Silver Elite to loot for a bit of Azerite Power and resources.|ITEM|160460|RANK|3|
+K Broodmother Razora|QID|51665|QO|1|M|82.82,44.10|T|Broodmther Razora|N|Silver Elite to loot for a bit of Azerite Power and resources.|RARE|ITEM|160460|RANK|3|
 C Patching Up the Rear|QID|49733|M|82.82,44.10|US|NC|N|Click on the Injured Marines to bandage them.|
 C Death from Two Sides|QID|51226|M|82.24,43.87|US|N|Kill the Brinefang Saurolisk's as you go.|
 T Death from Two Sides|QID|51226|M|80.63,42.09|N|To Hawkmaster Lloyd.|
@@ -480,10 +485,10 @@ A A Boralus Triple Threat|QID|50249|M|81.10,42.50|N|From Officer Jovan.|RANK|3|P
 A Free Bird|QID|49720|M|80.63,42.09|N|From Hawkmaster Lloyd.|RANK|3|PRE|49733;51226|
 C A Lesson on Trust|QID|49716|M|79.56,37.06|S|N|Collect Marine Identification Badges from the Mutineers as you go.|
 C Free Bird|QID|49720|M|79.11,37.94|S|NC|N|Click on the falcon cages as you go. Hawkmaster Lloyd has lent you his hawk, Use the special action button for additional DPS.|
-K Overseer Howling|QID|50249|M|78.71,38.84|QO|1|T|Overseer Howling|N|Up the first set of stairs after you enter the keep to find Overseer Howling.|RANK|3|
-K Hayden the Madshot|QID|50249|M|79.38,36.95;78.25,36.74|CS|QO|3|T|Hayden the Madshot|N|Take the path down behind the watchtower to find Hayden the Madshot.|RANK|3|
-K Stablemaster Diana|QID|50249|M|79.82,36.92|QO|2|T|Stablemaster Diana|N|Stablemaster Diana paths back and forth between these short set of stairs.|RANK|3|
-K Fernn the Turncoat|QID|49734|M|80.15,38.93|QO|1|T|Fernn the Turncoat|N|All the way up to the top of the hill at the base of the central tower you will find Fernn the Turncoat.|RANK|3|
+K Overseer Howling|ACTIVE|50249|M|78.71,38.84|QO|1|T|Overseer Howling|N|Up the first set of stairs after you enter the keep to find Overseer Howling.|RANK|3|
+K Hayden the Madshot|ACTIVE|50249|M|79.38,36.95;78.25,36.74|CS|QO|3|T|Hayden the Madshot|N|Take the path down behind the watchtower to find Hayden the Madshot.|RANK|3|
+K Stablemaster Diana|ACTIVE|50249|M|79.82,36.92|QO|2|T|Stablemaster Diana|N|Stablemaster Diana paths back and forth between these short set of stairs.|RANK|3|
+K Fernn the Turncoat|ACTIVE|49734|M|80.15,38.93|QO|1|T|Fernn the Turncoat|N|All the way up to the top of the hill at the base of the central tower you will find Fernn the Turncoat.|RANK|3|
 C Free Bird|QID|49720|M|79.11,37.94|US|NC|N|Finish freeing the caged falcons.|
 C A Lesson on Trust|QID|49716|M|79.56,37.06|US|N|Finish collecting Marine Identification Badges.|
 T Free Bird|QID|49720|M|80.62,42.08|N|To Hawkmaster Lloyd.|
@@ -492,12 +497,12 @@ T Targeting a Turncoat|QID|49734|M|81.10,42.48|N|To Tallis Skyheart.|
 T A Boralus Triple Threat|QID|50249|M|81.10,42.48|N|To Tallis Skyheart.|
 H Tradewinds Market|ACTIVE|51151|M|81.10,42.48|N|Hearth or otherwise travel back to Boralus.|RANK|3|
 
-K Sawtooth|QID|51877|QO|1|M|76.02,28.87|Z|Tiragarde Sound|T|Sawtooth|N|Kill this Silver Elite swimming in the harbor for Azerite Power and resources.|ITEM|155273|RANK|3|;Boralus Harbor
+K Sawtooth|QID|51877|QO|1|M|76.02,28.87|Z|Tiragarde Sound|T|Sawtooth|N|Kill this Silver Elite swimming in the harbor for Azerite Power and resources.|RARE|ITEM|155273|RANK|3|
 $ Secret of the Depths-Scroll 2|QID|52135|M|61.52,77.72;61.18,77.90|CS|Z|Boralus|N|Pick up the Damp Scroll located in the basement of this house.|RANK|3|ITEM|161342|
-$ Secret of the Depths-Scroll 5|QID|52138|M|67.10,79.69|Z|Boralus|N|Pick up the Damp Scroll located under the wooden platform, near some candles.|RANK|3|ITEM|161342|
-$ Secret of the Depths-Scroll 4|QID|52137|M|70.21,85.60;71.01,84.41|CS|Z|Boralus|N|Pick up the Damp Scroll located in the basement of this house.|RANK|3|ITEM|161342|
-$ Secret of the Depths-Scroll 3|QID|52136|M|63.07,81.49;63.13,81.87|CS|Z|Boralus|N|Pick up the Damp Scroll located upstairs in this building.|RANK|3|ITEM|161342|
-$ Secret of the Depths-Scroll 1|QID|52134|M|61.51,83.82;55.97,91.32|CS|Z|Boralus|N|Jump in the water and swim down towards an underwater cave. Pick up the Damp Scroll located inside an underwater cave.|RANK|3|ITEM|161342|
+$ Secret of the Depths-Scroll 5|QID|52138|M|67.10,79.69|Z|Boralus|N|Pick up the Damp Scroll located under the wooden platform, near some candles.|RANK|3|
+$ Secret of the Depths-Scroll 4|QID|52137|M|70.21,85.60;71.01,84.41|CS|Z|Boralus|N|Pick up the Damp Scroll located in the basement of this house.|RANK|3|
+$ Secret of the Depths-Scroll 3|QID|52136|M|63.07,81.49;63.13,81.87|CS|Z|Boralus|N|Pick up the Damp Scroll located upstairs in this building.|RANK|3|
+$ Secret of the Depths-Scroll 1|QID|52134|M|61.51,83.82;55.97,91.32|CS|Z|Boralus|N|Jump in the water and swim down towards an underwater cave. Pick up the Damp Scroll located inside an underwater cave.|RANK|3|
 $ Secret of the Depths-Alter|QID|52195|M|55.70,91.09|Z|Boralus|N|In the same underground room, click on the Ominous Altar and follow thru the chat prompts to receive your reward.|RANK|3|ITEM|161342|
 R Tirasgard Sound|ACTIVE|51151|M|76.25,95.88|N|Hearth, or run a few feet then you can use your flightmaster's whistle or lacking those options, run all the way back to Freeport and fly.|
 b Firebreaker Expedition|ACTIVE|51151|M|75.28,25.75|N|Take the ferry to Thovas Base-Camp/Firebreaker Expidition.|RANK|2|
@@ -537,12 +542,12 @@ A Time Off Requests|QID|49451|M|68.89,19.84|N|From Benjamin Algerson.|RANK|3|
 C Inventory Deficit|QID|49452|M|67.40,18.87|NC|S|N|Pick up the axe's from the ground as you go.|
 C Time Off Requests|QID|49451|M|67.75,18.31|NC|S|N|Free the Entangled Lumberjacks.|
 C Maximizing Resources|QID|49465|M|67.08,17.47|S|N|Kill the lurkers and invaders in the area to loot the skulls.|
-K Lumberjack Sentinal|QID|50525|QO|1|M|68.15,20.64|T|Lumberjack Sentinal|ITEM|155524|N|Silver Elite to kill and loot for Azerite Power and resources.|RANK|3|
+K Lumberjack Sentinal|QID|50525|QO|1|M|68.15,20.64|T|Lumberjack Sentinal|RARE|ITEM|155524|N|Silver Elite to kill and loot for Azerite Power and resources.|RANK|3|
 A Give a Dam|QID|49453|M|66.64,17.28|N|From Lyssa Treewarden.|RANK|3|
 A Sowing Saplings|QID|48557|M|66.64,17.28|N|From Lyssa Treewarden.|RANK|3|
 C Give a Dam|QID|49453|M|66.85,15.88|NC|S|N|Click on the Woodchewing Beavers to shoo them off.|
 C Sowing Saplings|QID|48557|M|66.12,16.01|NC|S|N|Click on the Loamy Soil to plant the saplings.|
-K Sythian the Swift|QID|51873|QO|1|M|66.29,14.29|T|Sythian the Swift|ITEM|154474|N|Silver Elite to kill and loot for Azerite Power and resources.|RANK|3|
+K Sythian the Swift|QID|51873|QO|1|M|66.29,14.29|T|Sythian the Swift|RARE|ITEM|154474|N|Silver Elite to kill and loot for Azerite Power and resources.|RANK|3|
 C Sowing Saplings|QID|48557|M|66.12,16.01|NC|US|N|Finish planting the saplings.|
 C Give a Dam|QID|49453|M|66.85,15.88|NC|US|N|Finish shooing the beavers off.|
 T Give a Dam|QID|49453|M|66.61,17.33|N|To Lyssa Treewarden.|
@@ -572,9 +577,9 @@ T Pest Prevention|QID|49454|M|70.16,18.62|N|To Benjamin Algerson.|
 T Incident Reports|QID|49450|M|70.16,18.62|N|To Benjamin Algerson.|
 A Witch of the Woods|QID|49467|M|70.16,18.62|N|From Benjamin Algerson.|PRE|49450;49454;49468|RANK|3|
 C Witch of the Woods|QID|49467|M|70.86,18.19;71.04,16.44;70.50,14.12|CS|N|Kill the witch and loot her locket.|
-$ Ritual Effigy|QID|50073|M|70.34,12.47|QO|1|T|Twin-hearted Contruct|ITEM|160473|N|Click on the Ritual Effigy to start a Vignette and then kill the Twin-hearted Contruct - Silver Elite drops a bit of Azerite Power and resources.|RANK|3|
+$ Ritual Effigy|QID|50073|M|70.34,12.47|QO|1|T|Twin-hearted Contruct|RARE|ITEM|160473|N|Click on the Ritual Effigy to start a Vignette and then kill the Twin-hearted Contruct - Silver Elite drops a bit of Azerite Power and resources.|RANK|3|
 T Witch of the Woods|QID|49467|M|68.85,13.16|N|To Maynard Algerson.|
-$ Imperiled Merchants|QID|51321|M|64.31,19.23|ITEM|160472|N|Talk to Walter Ferrell to start, Defeat 2 waves and the boss - Honey-Coated Slitherer - Silver Elite to kill for Azerite Power and resources.|RANK|3|;Appears to currently be broken.
+$ Imperiled Merchants|QID|51321|M|64.31,19.23|RARE|ITEM|160472|N|Talk to Walter Ferrell to start, Defeat 2 waves and the boss - Honey-Coated Slitherer - Silver Elite to kill for Azerite Power and resources.|RANK|3|;Appears to currently be broken.
 t WANTED: Gryphon 'Nappers|QID|51358|M|66.23,24.29|N|To Dandy Jones.|
 
 b Firebreaker Expedition|AVAILABLE|48077|M|74.23,44.34|TZ|Thovas Base-Camp|N|Over to the other side of the bay for more quests.|RANK|-1|
@@ -588,7 +593,7 @@ C The Stoat Hunt|QID|48077|M|58.12,23.69|S|N|Click on the stoat den (pile of dir
 C An Element of Danger|QID|48080|M|58.26,26.61|S|N|Kill Boars and loot their tusks.|
 C Bolas and Birds|QID|48616|M|58.26,26.98|U|152643|S|T|Hollowbeak Falcon|N|Use the Bolas launcher to shoot down the Falcons.|
 A Settle the Score|QID|48965|M|58.29,25.40|N|From Caleb Batharen.|RANK|2|
-K Foxhollow Skyterror|QID|50137|QO|1|M|60.11,22.17|T|Foxhollow Skyterror|ITEM|160454|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
+K Foxhollow Skyterror|QID|50137|QO|1|M|60.11,22.17|T|Foxhollow Skyterror|RARE|ITEM|160454|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Settle the Score|QID|48965|M|61.19,22.08;61.92,23.18|CS|N|Kill Chartusk.|
 C Bolas and Birds|QID|48616|M|58.26,26.98|U|152643|US|T|Hollowbeak Falcon|N|Finish shooting down Falcons.|
 C An Element of Danger|QID|48080|M|58.26,26.61|US|N|Finish collecting boar tusks.|
@@ -610,9 +615,9 @@ C Saurolisk Escape|QID|48597|M|56.03,18.80|S|NC|N|Click on the post to free the 
 C Stone Soup|QID|48778|M|57.83,14.46|QO|3|S|N|Saurolisk Scale drops from the Saurolisk's being ridden by Grimstone Handlers around the area.|
 C Stone Soup|QID|48778|M|58.34,16.41|QO|2|S|N|Unidentifiable Meat drops from the Grimstone Chefs.|
 C Stone Soup|QID|48778|M|58.42,16.69|QO|1|S|NC|N|Soup Stones can be picked up all around the Grimstones' camp.|
-$ Suspicious Pile of Meat|QID|50301|M|60.54,17.54|N|Click on the meat to start a vignette, ends with you killing Tempestria-Silver Elite.|ITEM|160466|T|Tempestria.|RANK|2|
+$ Suspicious Pile of Meat|QID|50301|M|60.54,17.54|N|Click on the meat to start a vignette, ends with you killing Tempestria-Silver Elite.|RARE|ITEM|160466|T|Tempestria.|RANK|2|
 C Stone Soup|QID|48778|M|58.12,14.67|QO|4|NC|N|The Stirring Bone is just lying here on the ground.|
-K Mugg|QID|48806|M|58.12,14.67|QO|1|T|Mugg|ITEM|154416|N|Silver Elite to kill and loot for Azerite Power and resources.|RANK|2|
+K Mugg|QID|48806|M|58.12,14.67|QO|1|T|Mugg|RARE|ITEM|154416|N|Silver Elite to kill and loot for Azerite Power and resources.|RANK|2|
 C Following Eddie's Trail|QID|48196|M|56.20,16.20|QO|2|N|Pick up the Bag of Horse Treats.|
 C Following Eddie's Trail|QID|48196|M|55.70,14.40|QO|3|N|Kill Boneface and take his "Key"|T|Boneface the Giant|
 C Following Eddie's Trail|QID|48196|M|55.65,14.70|QO|4|N|Click on Eddie's cage.|
@@ -647,7 +652,7 @@ C Lucky Charm|QID|48898|M|48.63,28.14|QO|1|N|Ock! he got away, go find him again
 C Safety First|QID|48899|M|49.41,21.97|S|NC|N|Pick up Durable Seashells from the ground.|
 C Monstrous Energy|QID|48902|M|47.87,23.77|S|N|Kill and loot the Venomscale Slitherers for Pulsating Extracts.|
 C Lucky Charm|QID|48898|M|48.12,25.38|QO|2|N|Not again, go find him again.|T|Lucktail|
-K Kulett the Ornery|QID|49984|QO|1|T|Kulutt the Ornery|ITEM|158597|M|47.86,22.22|N|Silver Elite to kill and loot for Azerite Power and resources.|RANK|2|
+K Kulett the Ornery|QID|49984|QO|1|T|Kulutt the Ornery|RARE|ITEM|158597|M|47.86,22.22|N|Silver Elite to kill and loot for Azerite Power and resources.|RANK|2|
 C Lucky Charm|QID|48898|M|50.76,22.17|QO|3|N|Finally you get Lucktail's Tail|T|Lucktail|
 C Monstrous Energy|QID|48902|M|47.87,23.77|US|N|Finish collecting the Pulsating Extracts.|
 C Safety First|QID|48899|M|49.41,21.97|US|NC|N|Finish Picking up Durable Seashells.|
@@ -697,10 +702,10 @@ A Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|N|Bonus Objective - Autoaccept
 C Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|S|N|Bonus Objective - Pick up shipwrecked supplies, kill sirens and saurolisks, you know the drill.|
 C Captured and Enraptured|QID|47755|M|54.13,35.01|U|151135|S|NC|N|Target an Entralled Sailer and use the Grog to break the enchantment - can be done at ranged distances.|
 A Can't Hear A Thing|QID|50059|M|51.08,35.79|N|From Earless Joe.|PRE|50026|RANK|2|
-K Squirgle of the Depths|QID|51807|QO|1|M|48.89,36.94|T|Squirgle of the Depths|ITEM|155551|N|Silver Elite - loot for Azerite Power and resources.|RANK|2|
+K Squirgle of the Depths|QID|51807|QO|1|M|48.89,36.94|T|Squirgle of the Depths|RARE|ITEM|155551|N|Silver Elite - loot for Azerite Power and resources.|RANK|2|
 $ Buried Treasure-Singed Treasure Map|QID|52845|M|48.98,37.59|Z|Tiragarde Sound|N|If you have looted the Singed Treasure Map, this treasure can be found here.|RANK|3|PRE|52860|
 C Can't Hear A Thing|QID|50059|M|53.65,32.89|N|Kill Anthemusa slain.|T|Anthemusa|
-K Shiverscale the Toxic|QID|51876|QO|1|M|55.18,32.51|T|Shiverscale the Toxic|ITEM|155278|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
+K Shiverscale the Toxic|QID|51876|QO|1|M|55.18,32.51|T|Shiverscale the Toxic|RARE|ITEM|155278|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 A She Sells Seashells|QID|52258|M|60.99,30.83|N|From Jenny Swiftbrook.|RANK|3|
 C She Sells Seashells|QID|52258|M|58.03,32.13|NC|N|Pick up shells along the water's edge.|
 T She Sells Seashells|QID|52258|M|61.00,30.85|N|To Jenny Swiftbrook.|
@@ -725,7 +730,7 @@ A WANTED: The Hornet|QID|51368|M|42.15,22.99|N|From Wanted Poster.|RANK|3|
 C The Bears and the Bees|QID|49395|M|48.73,17.44|QO|1|NC|S|N|Pick up the Honeycombs.|
 C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|2|S|N|Kill Scruffhide Bears.|
 C Hold Still|QID|49394|M|48.19,19.79|U|153596|S|N|Use the shears to collect Goat Fur, they don't like it much, must be done before killing them.|
-K Totes|QID|50095|QO|1|M|46.87,20.60|T|Totes|ITEM|160452|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
+K Totes|QID|50095|QO|1|M|46.87,20.60|T|Totes|RARE|ITEM|160452|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 K The Hornet|QID|51368|M|47.37,18.18;47.48,18.01|CS|QO|1|T|The Hornet|N|Kill The Hornet.|RANK|3|
 A Helping Henry|QID|49412|M|47.71,17.63|N|From "Helpless" Henry.|RANK|2|
 C Helping Henry|QID|49412|M|48.71,18.01|N|Kill Brawr.|
@@ -741,7 +746,7 @@ A An Offering of Eggs|QID|49710|M|42.48,22.71|N|From Rulf.|PRE|49395;49394|RANK|
 C Protect the Nests|QID|49735|M|43.65,17.00|S|N|Kill the Hungry Dewscales as you go.|
 C An Offering of Eggs|QID|49710|M|44.71,20.19|S|NC|N|Collect some Spotted Gryphon Eggs.|
 
-K Merianae|QID|49921|QO|1|M|44.27,20.24;42.97,16.82|CS|T|Merianae|ITEM|160461|N|Silver Elite - Kill for Azerite Power and resources.|RANK|2|
+K Merianae|QID|49921|QO|1|M|44.27,20.24;42.97,16.82|CS|T|Merianae|RARE|ITEM|160461|N|Silver Elite - Kill for Azerite Power and resources.|RANK|2|
 C An Offering of Eggs|QID|49710|M|44.71,20.19|NC|US|N|Finish collecting the Spotted Gryphon Eggs.|
 C Protect the Nests|QID|49735|M|43.65,17.00|US|N|Finish killing the Hungry Dewscales.|
 T Protect the Nests|QID|49735|M|47.88,16.39|N|To Shawn McClinter.|
@@ -770,16 +775,16 @@ T Where'd They Go?|QID|49435|M|39.67,13.38|N|To Boss Tak.|
 A Boss' Revenge|QID|49439|M|39.67,13.38|N|From Boss Tak.|RANK|2|PRE|49435|
 C Boss' Revenge|QID|49439|M|39.44,12.41;39.10,12.20|CS||QO|1|N|Kill Whompus.|T|Whompus|
 T Boss' Revenge|QID|49439|M|39.35,12.59|N|To Boss Tak.|
-K Pack Leader Asenya|QID|49923|QO|1|M|39.89,14.89;38.86,15.29|CS|T|Pack Leader Asenya|ITEM|160263|N|In her underground den, you will find a Silver Elite to kill for Azerite Power and resources.|RANK|2|
+K Pack Leader Asenya|QID|49923|QO|1|M|39.89,14.89;38.86,15.29|CS|T|Pack Leader Asenya|RARE|ITEM|160263|N|In her underground den, you will find a Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Wendies|QID|49433|M|39.82,13.11|US|N|Finish kill Wendigos.|
 T Wendies|QID|49433|M|40.42,13.75|N|To Boss Tak.|
 A Getting Paid|QID|49719|M|40.42,13.75|N|From Boss Tak.|RANK|2|PRE|49439;49433|
 T Getting Paid|QID|49719|M|42.39,22.28|N|To Tagart.|
-$ Smugglar's Cache|QID|50097|M|38.47,20.77|N|Click on the Smugglar's Cache to start short vignette - Ends with Captain Wintersail - Silver Elite to kill and loot for reasources and treasure.|ITEM|155422|RANK|3|
+$ Smugglar's Cache|QID|50097|M|38.47,20.77|N|Click on the Smugglar's Cache to start short vignette - Ends with Captain Wintersail - Silver Elite to kill and loot for reasources and treasure.|RARE|ITEM|155422|RANK|3|
 
 R Anglepoint Wharf|ACTIVE|48347|M|40.94,24.41;42.30,27.25|CS|N|Take the footpath down the hill to Anglepoint Wharf.|
-$ Buried Treasure-Soggy Treasure Map|QID|52807|M|54.99,46.08|Z|Tiragarde Sound|N|If you have looted the Soggy Treasure Map, this treasure can be found on the ocean floor.|PRE|52853|RANK|3|;NW Edge of map -
-K Bashmu|QID|50094|QO|1|M|34.01,30.29|Z|Tiragarde Sound|T|Bashmu|ITEM|160467|N|Hop over the wall to find this Silver Elite and kill for Azerite Power and resources.|RANK|3|;Anglepoint Bay
+$ Buried Treasure-Soggy Treasure Map|QID|52807|M|54.99,46.08|Z|Tiragarde Sound|N|If you have looted the Soggy Treasure Map, this treasure can be found on the ocean floor.|PRE|52853|RANK|3|
+K Bashmu|QID|50094|QO|1|M|34.01,30.29|Z|Tiragarde Sound|T|Bashmu|RARE|ITEM|160467|N|Hop over the wall to find this Silver Elite and kill for Azerite Power and resources.|RANK|3|
 A WANTED: Quartermaster Ssylis|QID|51384|M|42.30,27.25|N|From Wanted Poster.|RANK|3|
 T Anglepoint Wharf|QID|48347|M|42.29,29.31|N|To Brother Therold.|
 A Aiding the Wharf|QID|48540|M|42.29,29.31|N|From Brother Therold.|
