@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2018-09-14 07:42
+-- Who: elidion
+-- Log: Updated the zone errors
+
+-- URL: http://wow-pro.com/node/3674/revisions/29266/view
 -- Date: 2018-05-07 20:23
 -- Who: Emmaleah
 -- Log: Remove deprecated quest "hitting the books"
@@ -165,6 +170,7 @@ WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Priest")
 WoWPro:GuideSteps(guide, function()
 return [[
+
 N Guide Progression|QID|43385|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
 
 ; Grail reports QID 44663 and 44184 needs a PRE of 44120+44473 - one not avail, the other DH
@@ -177,10 +183,10 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 
 ;both
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardian) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
+T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
 
-A Priestly Matters|QID|40705|PRE|43635|M|57.57,44.48|Z|Dalaran@Dalaran70|N|From Hooded Priestess.| ; Needs PRE of 43635, not sure if still avail
-R Chamber of the Guardian|QID|40705|M|49.44,47.54|CC|Z|Dalaran@Dalaran70|N|In the middle of Dalaran.|ACTIVE|40705|
+A Priestly Matters|QID|40705|PRE|43635|M|57.57,44.48|Z|Dalaran!Dalaran!Dungeon|N|From Hooded Priestess.| ; Needs PRE of 43635, not sure if still avail
+R Chamber of the Guardian|QID|40705|M|49.44,47.54|CC|Z|Dalaran!Dalaran!Dungeon|N|In the middle of Dalaran.|ACTIVE|40705|
 C Priestly Matters|QID|40705|QO|1|M|28.66,77.50|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional) Take the Portal to the Dalaran Crater, be ready with levitate or some other way to mitigate falling damage.|
 C Priestly Matters|QID|40705|QO|2|M|79.09,41.06|Z|Tirisfal Glades|CHAT|N|Meet with the priest at Faol's Rest in Tirisfal Glades.|
 C Priestly Matters|QID|40705|QO|3|M|78.90,40.92|Z|Tirisfal Glades|NC|N|Listen to Alonsus Faol.|
@@ -192,8 +198,8 @@ A Accept artifact specific quest|QID|40710;41625;41957|M|78.96,41.00|Z|Tirisfal 
 
 ;chapter I order hall
 ;44100-Proper Introductions
-R Windrunner's Sanctuary|QID|44100|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Horde|LVL|101|
-R Graymane Enclave|QID|44100|M|39.2,57.2|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Alliance|LVL|101|
+R Windrunner's Sanctuary|QID|44100|M|63.09,17.71|Z|Dalaran!Dalaran!Dungeon|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Horde|LVL|101|
+R Graymane Enclave|QID|44100|M|39.2,57.2|Z|Dalaran!Dalaran!Dungeon|N|Portal to Netherlight Temple|ACTIVE|44100|FACTION|Alliance|LVL|101|
 T Proper Introductions|QID|44100|M|51.61,47.81|N|To Alonsus Faol.|LVL|101|
 A Rise, Champions|QID|43270|M|51.61,47.81|N|From Alonsus Faol.|PRE|44100|LVL|101|
 A Champion: Calia Menethil|QID|43271|M|51.80,48.98|N|Pick Up Calia as a follower.|ACTIVE|43270|LVL|101|
@@ -225,13 +231,13 @@ A The Best and Brightest|QID|43373|M|47.65,47.33|N|From Prophet Velen.|PRE|43372
 
 ;lights heart intro questline
 P Dalaran|QID|44009|M|49.72,80.67|N|Back to the outside world to continue leveling.|ACTIVE|44009|
-A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|LVL|101|PRE|44100|
-C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
+A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar in The Violet Citadel.|LVL|101|PRE|44100|
+C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
 C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
 U Dalaran Hearthstone|QID|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|ACTIVE|44009|
-R Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
+R Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran!Dalaran!Dungeon|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
 T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
 A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar.|PRE|44009|
 P Khadgar's portal|QID|44004|M|28.77,33.28|Z|Aegwynn's Gallery@Dalaran70|N|Take his portal to enter a scenario.|ACTIVE|44004|
@@ -252,12 +258,12 @@ C The Light's Heart|QID|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to sho
 C A Long Way Down|QID|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
 C Revelations|QID|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When Velen says to STOP, ignore him and continue killing the fel annihilator *even though Prophet Velen is also fighting you now*.|
 U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use it and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|ACTIVE|44004|
-T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage Kadgar.|
-A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
+T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Kadgar.|
+A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Kadgar.|PRE|44004|
 T Light's Charge|QID|44153|M|52.37,69.37|NC|N|Return to your order hall and return to Light's Heart (table in front of the Alter of Light and Shadow).|
 
 ;back to priest hall quests
-F Felblaze Ingress|QID|43373|M|69.85,51.16|Z|Dalaran@Dalaran70|N|Field trip time. Fly out to as Felblaze Ingress or if you don't have that flightpath, Shackle's Den.|ACTIVE|43373|
+F Felblaze Ingress|QID|43373|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|Field trip time. Fly out to as Felblaze Ingress or if you don't have that flightpath, Shackle's Den.|ACTIVE|43373|
 C The Best and Brightest|QID|43373|M|57.93,33.51|Z|Azsuna|CHAT|N|Tell Zabra it's time to go home.|LVL|103|
 T The Best and Brightest|QID|43373|M|58.53,37.16|Z|Azsuna|N|To Zabra Hexx.|LVL|103|
 A Murloc Mind Control|QID|43374|M|58.53,37.16|Z|Azsuna|N|From Zabra Hexx.|LVL|103|PRE|43373|
@@ -295,7 +301,7 @@ C Infiltrating Our Enemies|QID|43385|M|50.22,46.19|NC|N|Go to your command table
 t Infiltrating Our Enemies|QID|43385|M|51.61,47.69|N|To Alonsus Faol.|
 A Onslaught Envoy|QID|43386|M|51.61,47.69|N|From Alonsus Faol.|PRE|43385|
 P Dalaran|QID|43386|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|43386|
-R Chamber of the Guardian|QID|43386|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43386|
+R Chamber of the Guardian|QID|43386|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Run to the Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43386|
 P Wyrmrest Temple|QID|43386|M|31.22,83.42|Z|Aegwynn's Gallery@Dalaran70|NC|N|Take the Dalaran portal to Wyrmrest Temple.|ACTIVE|43386|
 R New Hearthglen|QID|43386|M|71.43,71.80|Z|Dragonblight|N|Fly over to New Hearthglen to find an old enemy or something like that.|ACTIVE|43386|
 T Onslaught Envoy|QID|43386|M|71.43,71.80|Z|Dragonblight|N|To Mariella the Heretic.|
@@ -313,7 +319,7 @@ T Unexpected Guests|QID|43389|M|51.58,47.77|N|To Alonsus Faol back in your order
 A Champion: Mariella Ward|QID|43381|M|51.17,49.47|N|From/To Mariella Ward.|PRE|43389|
 A Forgotten Shadows|QID|43390|M|51.58,47.77|N|From Alonsus Faol.|PRE|43381|
 P Dalaran|QID|43390|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|43390|
-R Chamber of the Guardian|QID|43390|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43390|
+R Chamber of the Guardian|QID|43390|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Run to the Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43390|
 P Karazhan|QID|43390|M|31.92,71.37|Z|Aegwynn's Gallery@Dalaran70|N|Take the Dalaran portal to Karazhan.|ACTIVE|43390|
 R Raven Hill Cemetery|QID|43390|M|24.14,37.80|Z|Duskwood|N|Fly to Raven Hill Cemetary in Duskwood.|ACTIVE|43390|
 T Forgotten Shadows|QID|43390|M|24.14,37.80|Z|Duskwood|N|To Micah Belford.|
@@ -329,7 +335,7 @@ A Rising Shadows|QID|43393|M|24.29,37.79|Z|Duskwood|N|From Natalie Seline.|PRE|4
 H Dalaran|QID|43393|U|140192|M|24.29,37.79|Z|Duskwood|N|Use your Dalaran Hearthstone or use the portal and fly back.|ACTIVE|43393|
 A Crossing Legion Lines|QID|43394|M|49.71,59.40|N|From Lord Maxwell Tyrosus who has come to visit your order hall.|PRE|43392|
 T Rising Shadows|QID|43393|M|51.58,47.77|N|To Alonsus Faol.|
-F Felblaze Ingress|QID|43394|M|69.85,51.16|Z|Dalaran@Dalaran70|N|Run back out to Dalaran and Krasus' Landing. Fly out to as Felblaze Ingress.|ACTIVE|43394|
+F Felblaze Ingress|QID|43394|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|Run back out to Dalaran and Krasus' Landing. Fly out to as Felblaze Ingress.|ACTIVE|43394|
 C Crossing Legion Lines|QID|43394|QO|1|NC|M|67.12,27.74|Z|Azsuna|N|Click to use the Felblaze Ingress Portal.|
 C Crossing Legion Lines|QID|43394|QO|2|NC|M|49,63.4|Z|Niskara#1078|N|Free Aponi Brightmane.|
 T Crossing Legion Lines|QID|43394|M|49,63.4|Z|Niskara#1078|N|To Aponi Brightmane.|
@@ -348,12 +354,12 @@ T Allies of the Light|QID|43395|M|51.58,47.77|N|To Alonsus Faol back in your ord
 T The Mind of the Enemy|QID|43396|M|51.58,47.77|N|To Alonsus Faol.|
 A United As One|QID|43397|M|51.58,47.77|N|From Alonsus Faol.|PRE|43395+43396|
 P Dalaran|QID|43397|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|43397|
-R Chamber of the Guardian|QID|43397|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43397|
+R Chamber of the Guardian|QID|43397|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Run to the Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43397|
 P Dalaran Crater|QID|43397|M|28.77,77.36|Z|Aegwynn's Gallery@Dalaran70|N|Take the Dalaran portal to Dalaran Crater. Cast Lev (or don't your choice.)|ACTIVE|43397|
 R Light's Hope Chapel|QID|43397|M|75.75,52.22|Z|Eastern Plaguelands|N|Fly to Light's Hope Chapel in Eastern Plaguelands. Once you arrive, click on the floor in the middle of the chapel to enter the Paladin order hall.|ACTIVE|43397|
-C United As One|QID|43397|QO|2|M|50.45,74.33|Z|Eastern Plaguelands/20|CHAT|N|Continue down the stairs to find and talk to Lady Liadrin. Then, wait a minute or so for the war council to finish discussing.|
-T United As One|QID|43397|M|50.45,74.33|Z|Eastern Plaguelands/20|N|To Lady Liadrin.|
-A Aiding the Conclave|QID|43797|M|50.45,74.33|Z|Eastern Plaguelands/20|N|From Lady Liadrin.|PRE|43397|
+C United As One|QID|43397|QO|2|M|50.45,74.33|Z|Light's Hope Chapel|CHAT|N|Continue down the stairs to find and talk to Lady Liadrin. Then, wait a minute or so for the war council to finish discussing.|
+T United As One|QID|43397|M|50.45,74.33|Z|Light's Hope Chapel|N|To Lady Liadrin.|
+A Aiding the Conclave|QID|43797|M|50.45,74.33|Z|Light's Hope Chapel|N|From Lady Liadrin.|PRE|43397|
 T Aiding the Conclave|QID|43797|M|51.58,47.77|N|From Alonsus Faol.|
 A Elixirs of Aid|QID|43832|M|51.58,47.77|N|From Alonsus Faol.|PRE|43797|
 A Fortifying the Temple|QID|43399|M|51.58,47.77|N|From Alonsus Faol.|PRE|43797|
@@ -368,10 +374,10 @@ t Fortfying the Temple|QID|43399|M|51.58,47.77|N|To Alonsus Faol.|
 t Lumenstone|QID|43400|M|54.46,45.84|N|To Moira Thaurissan.|
 A A Light in the Darkness|QID|43401|M|51.58,47.77|N|From Alonsus Faol.|PRE|43832;43399;43400|
 P Dalaran|QID|43401|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|43401|
-C A Light in the Darkness|QID|43401|QO|1|M|72.82,43.17|Z|Dalaran@Dalaran70|CHAT|N|Talk to Lord Maxwell Tyrosus at Krasus' Landing.|
-C A Light in the Darkness|QID|43401|QO|2|M|49.92,46.36|Z|Dalaran@Dalaran70|CHAT|N|Talk to Prophet Velen in the Chamber of the Guardian.|
-C A Light in the Darkness|QID|43401|QO|3|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple in Windrunner's Sanctuary.|FACTION|Horde|
-C A Light in the Darkness|QID|43401|QO|3|M|39.2,57.2|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple in Graymane Enclave.|FACTION|Alliance|
+C A Light in the Darkness|QID|43401|QO|1|M|72.82,43.17|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk to Lord Maxwell Tyrosus at Krasus' Landing.|
+C A Light in the Darkness|QID|43401|QO|2|M|49.92,46.36|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk to Prophet Velen in the Chamber of the Guardian.|
+C A Light in the Darkness|QID|43401|QO|3|M|63.09,17.71|Z|Dalaran!Dalaran!Dungeon|N|Portal to Netherlight Temple in Windrunner's Sanctuary.|FACTION|Horde|
+C A Light in the Darkness|QID|43401|QO|3|M|39.2,57.2|Z|Dalaran!Dalaran!Dungeon|N|Portal to Netherlight Temple in Graymane Enclave.|FACTION|Alliance|
 C Join the Battle|QID|43401|SO|1|M|49.70,61.26|N|Walk forward to join the battle.|
 C Defeat Balnazzar's Lieutenants|QID|43401|SO|2;1|M|76.14,40.46|T|Ogoroth|N|Kill Ogoroth.|
 C Defeat Balnazzar's Lieutenants|QID|43401|SO|2;2|M|23.33,40.64|T|Torenai the Souleater|N|Kill Torenai the Souleater.|
@@ -393,28 +399,28 @@ A Goddess Watch Over You|QID|44337|M|49.74,58.86|N|From a floating pink ball whi
 A Power Word: Armor|QID|44251|M|38.70,23.93|N|From Meridelle Lightspark. Your class hall has a gift for you.|LVL|110|
 T Power Word: Armor|QID|44251|M|38.70,23.93|N|To Meridelle Lightspark.|
 C Goddess Watch Over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
-t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
-A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
-R Windrunner's Sanctuary|QID|44448|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Horde|LVL|110|
-R Graymane Enclave|QID|44448|M|39.2,57.2|Z|Dalaran@Dalaran70|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Alliance|LVL|110|
+t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|LVL|110|
+A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+R Windrunner's Sanctuary|QID|44448|M|63.09,17.71|Z|Dalaran!Dalaran!Dungeon|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Horde|LVL|110|
+R Graymane Enclave|QID|44448|M|39.2,57.2|Z|Dalaran!Dalaran!Dungeon|N|Portal to Netherlight Temple|ACTIVE|44448|FACTION|Alliance|LVL|110|
 C In the House of Light and Shadow|QID|44448|M|52.37,69.37|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
 
-A Firing Up the Forge|QID|41778|LVL|110|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
-T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
+A Firing Up the Forge|QID|41778|LVL|110|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|
+C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Handful of Obliterum Ash|
+T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
 
-A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
-C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
-T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
+A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337;44338|
+C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran!Dalaran!Dungeon|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
+T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
+A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|39986|
 N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
 
 ;lights heart - post 110
 A Awakenings|QID|44464|M|49.64,26.41|N|From Light's Heart|PRE|44448|LVL|110|
 P Dalaran|QID|44464|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44464|
-R Krasus' Landing|QID|44464|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44464|
-F Lorlathil|QID|44464|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44464|
+R Krasus' Landing|QID|44464|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|ACTIVE|44464|
+F Lorlathil|QID|44464|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|ACTIVE|44464|
 C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
 F Dalaran|QID|44464|ACTIVE|44464|M|54.97,72.49|Z|Val'sharah|N|At Elyssia Winterdusk.|
 T Awakenings|QID|44464|M|49.64,26.41|N|To Light's Heart|
@@ -423,15 +429,15 @@ T Awakenings|QID|44464|M|49.64,26.41|N|To Light's Heart|
 
 A An Unclear Path|QID|44466|M|49.64,26.41|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44464|;no way to limit this showing until you get AK=2
 P Dalaran|QID|44466|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44466|
-R Krasus' Landing|QID|44466|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44466|
-F Garden of the Moon|QID|44466|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44466|
+R Krasus' Landing|QID|44466|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|ACTIVE|44466|
+F Garden of the Moon|QID|44466|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|ACTIVE|44466|
 R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|N|Use your extra action button to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|49.64,26.41|N|To Light's Heart, back in your order hall.|
 A Ravencrest's Legacy|QID|44479|M|49.64,26.41|N|From Light's Heart.|PRE|44466|
 P Dalaran|QID|44479|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44479|
-R Krasus' Landing|QID|44479|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44479|
-F Bradensbrook|QID|44479|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44479|
+R Krasus' Landing|QID|44479|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|ACTIVE|44479|
+F Bradensbrook|QID|44479|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|ACTIVE|44479|
 R Black Rook Hold|QID|44479|M|38.80,58.06;39.34,53.45|CS|Z|Val'sharah|N|Travel to Black Rook Hold.|ACTIVE|44479|
 R Ravencourt|QID|44479|M|40.97,54.12;41.44,45.63|CS|Z|Val'sharah|N|Run to the alcove behind Araxxas (not in the instance).|ACTIVE|44479|
 C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|Val'sharah|NC|S|N|Use your extra action button to watch a vignette about Illidan traveling the wrong path.|
@@ -457,8 +463,8 @@ T Ravencrest's Legacy|QID|44479|M|49.64,26.41|N|To Light's Heart, back in your o
 ;light's heart, requires AK>=5
 A In My Father's House|QID|44480|M|49.64,26.41|N|From Light's Heart. Requires Artifact Knowledge >=5. (no way for guide to determine if you are eligible).|PRE|44479|
 P Dalaran|QID|44480|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44480|
-R Graymane Enclave|QID|44480|M|47.2,17.8|Z|Dalaran@Dalaran70|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|44480|
-R Windrunner's Sanctuary|QID|44480|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|44480|
+R Graymane Enclave|QID|44480|M|47.2,17.8|Z|Dalaran!Dalaran!Dungeon|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|44480|
+R Windrunner's Sanctuary|QID|44480|M|55.33,24.04|Z|Dalaran!Dalaran!Dungeon|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|44480|
 R Temple of Zin-Malor - Azshara|QID|44480|ACTIVE|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
 T In My Father's House|QID|44480|M|49.64,26.41|N|Return to Light's Heart in your order hall.|
@@ -472,15 +478,15 @@ T Destiny Unfulfilled|QID|44481;44496;44497|M|49.64,26.41|N|Return to Light's He
 ;light's heart, requires AK>=7
 A The Hunt for Illidan Stormrage|QID|45174|M|49.64,26.41|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481;44496;44497|
 P Dalaran|QID|45174|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|45174|
-R Krasus' Landing|QID|45174|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45174|
-F Illidari Stand|QID|45174|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45174|
+R Krasus' Landing|QID|45174|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|ACTIVE|45174|
+F Illidari Stand|QID|45174|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|ACTIVE|45174|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
 A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|PRE|45174|
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|;guessing on turn in
 
 A The Power Within|QID|43496|PRE|45175|M|49.68,16.98|N|From Image of Kalec. prereq seems to be AK>=10 and finishing class hall campaign. (maybe... much discussion on wowhead)|;guessing at location. I havent gotten the quest yet
 P Dalaran|QID|43496|ACTIVE|43496|M|49.72,80.67|N|Take the portal to Dalaran from your order hall.|
-F Azurewing Repose|QID|43496|ACTIVE|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
+F Azurewing Repose|QID|43496|ACTIVE|43496|M|46.72,64.70|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|
 T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
 A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
@@ -501,9 +507,9 @@ T The Third Legend|QID|44407|M|51.60,47.77|N|To Alonsus Faol.|
 ;DISCIPLINE
 ;A The Light's Wrath|QID|41625|M|78.95,40.99|Z|Tirisfal Glades|N|From Alonsus Faol.|
 U Back to Dalaran|QID|41625|M|78.95,40.99|Z|Tirisfal Glades|U|140192|N|Use your Dalaran hearthstone or otherwise travel back to Dalaran.|ACTIVE|41625|
-T The Light's Wrath|QID|41625|M|28.64,49.92|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
-A A New Threat|QID|41626|M|28.64,49.92|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|41625|
-R Chamber of the Guardian|QID|41626|M|49.49,47.32|Z|Dalaran@Dalaran70|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardian, and step on the teleport pad.|ACTIVE|41626|
+T The Light's Wrath|QID|41625|M|28.64,49.92|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Kalec.|
+A A New Threat|QID|41626|M|28.64,49.92|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Kalec.|PRE|41625|
+R Chamber of the Guardian|QID|41626|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardian, and step on the teleport pad.|ACTIVE|41626|
 C A New Threat|QID|41626|QO|1|M|31.22,83.42|Z|Aegwynn's Gallery@Dalaran70|NC|N|Take the Dalaran portal to Wyrmrest Temple (Optional)|
 C A New Threat|QID|41626|QO|2|M|56.46,63.19|Z|Dragonblight|NC|N|Travel to the Azure Dragonshrine|
 C A New Threat|QID|41626|QO|3|M|54.49,65.02;56.05,67.55;54.80,67.56|CN|Z|Dragonblight|NC|N|Click on the glowing spots in this area.|
@@ -534,19 +540,19 @@ C The Nexus Vault|QID|41631|QO|1|M|59.55,20.28|Z|TheBeyond/1|T|Nexus-Prince Bila
 C A Will of Fire|QID|41631|SO|6|N|Step thru the portal and then go claim Light's Wrath. Heal snd shield yourself while seizing control of Light's Wrath.|;no coordinates. Its not on a map
 C Claim Light's Wrath|QID|41631|SO|7;1|NC|N|Claim Light's Wrath.|;no coordinates. Its not on a map
 C Leave the Nexus Vault|QID|41631|SO|7;2|M|59.22,20.41|Z|TheBeyond/1|NC|N|Leave the Nexus Vault via the Portal Azuregos creates for you.|
-T The Nexus Vault|QID|41631|M|28.60,49.89|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
-A A Gift of Time|QID|41632|M|28.60,49.89|Z|Dalaran@Dalaran70|N|From Archmage Kalec.|PRE|41631|
+T The Nexus Vault|QID|41631|M|28.60,49.89|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Kalec.|
+A A Gift of Time|QID|41632|M|28.60,49.89|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Kalec.|PRE|41631|
 C A Gift of Time|QID|41632|M|51.61,47.81|CHAT|N|Talk to Alonsus Faol in Netherlight Temple.|LVL|102|
-T A Gift of Time|QID|41632|M|46.37,20.96|Z|Dalaran@Dalaran70|N|To Alonsus Faol.|
+T A Gift of Time|QID|41632|M|46.37,20.96|Z|Dalaran!Dalaran!Dungeon|N|To Alonsus Faol.|
 
 ;HOLY
 ;A The Vindicator's Plea|QID|41957|M|78.51,41.07|Z|Tirisfal Glades|N|From Brother Larry.|PRE|40706|
-T The Vindicator's Plea|QID|41957|M|37.76,36.86|Z|Dalaran@Dalaran70|N|To Vindicator Boros.|
-A House Call|QID|41966|M|37.76,36.86|Z|Dalaran@Dalaran70|N|From Vindicator Boros.|PRE|41957|
-C House Call|QID|41966|NC|QO|1|M|36.02,36.69|Z|Dalaran@Dalaran70|N|Use Purify to cure Barrem. After you cure him there is a bad thing to kill.|
-T House Call|QID|41966|M|37.46,35.52|Z|Dalaran@Dalaran70|N|To Defender Barrem.|
-A Out of the Darkness|QID|41967|M|37.46,35.52|Z|Dalaran@Dalaran70|N|From Defender Barrem.|PRE|41966|
-C Out of the Darkness|QID|41967|QO|1|M|70.71,43.93|Z|Dalaran@Dalaran70|NC|N|Go up to Krasus landing and hop on Lightfeather who is waiting for you.|
+T The Vindicator's Plea|QID|41957|M|37.76,36.86|Z|Dalaran!Dalaran!Dungeon|N|To Vindicator Boros.|
+A House Call|QID|41966|M|37.76,36.86|Z|Dalaran!Dalaran!Dungeon|N|From Vindicator Boros.|PRE|41957|
+C House Call|QID|41966|NC|QO|1|M|36.02,36.69|Z|Dalaran!Dalaran!Dungeon|N|Use Purify to cure Barrem. After you cure him there is a bad thing to kill.|
+T House Call|QID|41966|M|37.46,35.52|Z|Dalaran!Dalaran!Dungeon|N|To Defender Barrem.|
+A Out of the Darkness|QID|41967|M|37.46,35.52|Z|Dalaran!Dalaran!Dungeon|N|From Defender Barrem.|PRE|41966|
+C Out of the Darkness|QID|41967|QO|1|M|70.71,43.93|Z|Dalaran!Dalaran!Dungeon|NC|N|Go up to Krasus landing and hop on Lightfeather who is waiting for you.|
 C Out of the Darkness|QID|41967|QO|2|M|34.72,33.11|Z|Broken Shore|N|Kill the demon standing in front of you.|
 C Out of the Darkness|QID|41967|QO|3|M|34.00,33.91|Z|Broken Shore|NC|N|Resurrect Alora.|
 T Out of the Darkness|QID|41967|M|34.00,33.91|Z|Broken Shore|N|To Alora.|
@@ -564,7 +570,7 @@ C Defeat Captain Naranoth|QID|42074|SO|5|M|72.85,73.61|Z|Niskara|N|To start the 
 C Defeat Lady Calindris|QID|42074|SO|6|M|62.14,61.42|Z|Niskara|N|Assist your allies in defeating Lady Calindris|
 C T'uure obtained.|QID|42074|SO|7;1|M|65.34,59.26|Z|Niskara|NC|N|Pick up T'uure.|
 C Leave Niskara|QID|42074|SO|7;2|M|65.53,59.99|Z|Niskara|NC|N|Bo'ja made a portal for you, use it to Leave Niskara.|
-T Return of the Light|QID|42074|M|46.28,20.52|Z|Dalaran@Dalaran70|N|To Prophet Velen.|
+T Return of the Light|QID|42074|M|46.28,20.52|Z|Dalaran!Dalaran!Dungeon|N|To Prophet Velen.|
 
 ;SHADOW
 ;A Blade in Twilight|QID|40710|M|78.96,41.00|Z|Tirisfal Glades|N|From Alonsus Faol.|
@@ -572,20 +578,20 @@ C Blade in Twilight|QID|40710|QO|1|M|17.62,53.55|Z|Tirisfal Glades|N|Go to the c
 C Find the first clue.|NC|QID|40710|QO|2|SO|1;1|M|13.47,57.58|Z|Tirisfal Glades|N|Find the first clue in the bed of a wagon.|
 C Find the second clue.|NC|QID|40710|QO|2|SO|1;2|M|13.20,55.48|Z|Tirisfal Glades|N|Find the second clue inside a tent.|
 C Find the third clue.|NC|QID|40710|QO|2|SO|1;3|M|13.87,55.40|Z|Tirisfal Glades|N|Find the third clue on a crate at the lake's edge.|
-C Enter the tomb at the bottom of the lake.|QID|40710|QO|2|SO|2;1|M|37.72,13.70;34.22,23.38|CS|Z|Tirisfal Glades|N|Enter the tomb at the bottom of the lake.|
-C Defeat the guards at the door to gain access.|QID|40710|QO|2|SO|3;1|M|37.07,40.51|Z|Floor1@TirisfalGladesInsideScenario|N|Defeat the guards at the door to gain access.|
-C Enter the Tomb of Tyr.|QID|40710|QO|2|SO|4;1|M|37.27,44.13|Z|Floor1@TirisfalGladesInsideScenario|N|Enter the Tomb of Tyr.|
-C Stop the dampening rituals|QID|40710|QO|2|SO|5;1|M|39.28,50.52|Z|Floor1@TirisfalGladesInsideScenario|N|Cultists are dampening the holy wards of the tomb. Dispel their defenses and kill the ritualists to break the barrier.|
-C Defeat the Amassing Darkness|QID|40710|QO|2|SO|6;1|M|37.50,55.00|Z|Floor1@TirisfalGladesInsideScenario|N|Defeat the Amassing Darkness|
-C Dark Passage|QID|40710|QO|2|SO|7;1|M|42.33,83.23|Z|Floor1@TirisfalGladesInsideScenario|N|You can use mass dispell or kill the void tendrils some other way.|
-C Death to the Deacon|QID|40710|QO|2|SO|8;1|Z|Floor2@TirisfalGladesInsideScenariol@TirisfalGladesInsideScenariol Glades|N|Stop the Twilight Deacon.|
-C Blade in Twilight|QID|40710|QO|2|M|59.87,74.94|Z|Floor2@TirisfalGladesInsideScenario|N|Use your extra action button to consume Zakajz.|
-P Return to Dalaran|QID|40710|QO|3|M|57.43,73.29|CC|Z|Floor2@TirisfalGladesInsideScenario|N|Shadowlord Slaghammer has created a portal back to Dalaran for you.|ACTIVE|40710|
-C Blade in Twilight|QID|40710|QO|3|M|46.25,20.92|Z|Dalaran@Dalaran70|NC|N|You will find Alonsus and Moira beside the North Bank.|
-T Blade in Twilight|QID|40710|M|46.15,21.32|Z|Dalaran@Dalaran70|N|To Moira Thaurissan.|
+C Enter the tomb at the bottom of the lake.|QID|40710|QO|2|SO|2;1|M|15.36,55.70|Z|Tirisfal Glades|N|Enter the tomb at the bottom of the lake.|
+C Defeat the guards at the door to gain access.|QID|40710|QO|2|SO|3;1|M|37.07,40.51|Z|Keeper's Rest|N|Defeat the guards at the door to gain access.|
+C Enter the Tomb of Tyr.|QID|40710|QO|2|SO|4;1|M|37.27,44.13|Z|Keeper's Rest|N|Enter the Tomb of Tyr.|
+C Stop the dampening rituals|QID|40710|QO|2|SO|5;1|M|39.28,50.52|Z|Keeper's Rest|N|Cultists are dampening the holy wards of the tomb. Dispel their defenses and kill the ritualists to break the barrier.|
+C Defeat the Amassing Darkness|QID|40710|QO|2|SO|6;1|M|37.50,55.00|Z|Keeper's Rest|N|Defeat the Amassing Darkness|
+C Dark Passage|QID|40710|QO|2|SO|7;1|M|42.33,83.23|Z|Keeper's Rest|N|You can use mass dispell or kill the void tendrils some other way.|
+C Death to the Deacon|QID|40710|QO|2|SO|8;1|M|59.89,74.64|Z|Keeper's Rest|N|Stop the Twilight Deacon.|
+C Blade in Twilight|QID|40710|QO|2|M|59.87,74.94|Z|Keeper's Rest|N|Use your extra action button to consume Zakajz.|
+P Dalaran|QID|40710|QO|3|M|57.43,73.29|CC|Z|Keeper's Rest|N|Shadowlord Slaghammer has created a portal back to Dalaran for you.|ACTIVE|40710|
+C Blade in Twilight|QID|40710|QO|3|M|46.25,20.92|Z|Dalaran!Dalaran!Dungeon|NC|N|You will find Alonsus and Moira beside the North Bank.|
+T Blade in Twilight|QID|40710|M|46.15,21.32|Z|Dalaran!Dalaran!Dungeon|N|To Moira Thaurissan.|
 
 ;After finishing first artifact-Class Hall
-A The Light and the Void|QID|40938|M|46.26,20.50|Z|Dalaran@Dalaran70|N|From Prophet Velen.|PRE|40710+41632+42074|
+A The Light and the Void|QID|40938|M|46.26,20.50|Z|Dalaran!Dalaran!Dungeon|N|From Prophet Velen.|PRE|40710+41632+42074|
 C The Light and the Void|QID|40938|QO|1|M|45.69,56.14|Z|Aegwynn's Gallery@Dalaran70|NC|N|Follow Velen to the portal.|
 C The Light and the Void|QID|40938|QO|2|M|34.66,77.57|Z|Aegwynn's Gallery@Dalaran70|NC|N|Take the portal to Netherlight Temple.|
 C The Light and the Void|QID|40938|QO|3|M|49.66,49.16|NC|N|Listen to Alonsus Faol.|
@@ -618,8 +624,8 @@ t Investigate the Broken Shore|QID|46029|M|51.41,45.88|N|To Moira Thaurissan.|
 
 A A Curious Contagion|QID|45343|M|51.58,47.79|N|From Alonsus Faol.|ACTIVE|47137|
 P Dalaran|QID|45343|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|45343|
-R Krasus' Landing|QID|45343|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45343|
-F Sylvan Falls, Highmountain|QID|45343|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45343|
+R Krasus' Landing|QID|45343|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|ACTIVE|45343|
+F Sylvan Falls, Highmountain|QID|45343|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|ACTIVE|45343|
 R Pass of An'she|QID|45343|M|35.48,63.56;29.66,56.32|CS|Z|Highmountain|N|Run to the Pass of An'she.|
 T A Curious Contagion|QID|45343|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
 A Sampling the Source|QID|45344|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45343|
@@ -643,8 +649,8 @@ H Dalaran|QID|45348|U|140192|N|Use your Dalaran Hearthstone and return to Alonsu
 T Safekeeping|QID|45348|M|51.58,47.79|N|To Alonsus Faol.|
 A To the Broken Shore|QID|45349|M|51.58,47.79|N|From Alonsus Faol.|PRE|45348|
 P Dalaran|QID|45349|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|45349|
-R Krasus' Landing|QID|45349|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45349|
-F Deliverance Point, Broken Shore|QID|45349|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45349|
+R Krasus' Landing|QID|45349|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|ACTIVE|45349|
+F Deliverance Point, Broken Shore|QID|45349|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|ACTIVE|45349|
 T To the Broken Shore|QID|45349|M|33.65,49.68|Z|Broken Shore|N|To Aelthalyste.|
 A Administering Aid|QID|45342|M|33.65,49.68|Z|Broken Shore|N|From Aelhalyste.|PRE|45349|
 A Countering the Contagion|QID|45350|M|33.65,49.68|Z|Broken Shore|N|From Aelthalyste.|PRE|45349|
@@ -667,7 +673,7 @@ T Further Advancement|QID|46788|M|51.46,45.84|N|To Moira Thaurissan.|
 t The Speaker Awaits|QID|45788|M|48.78,22.93|N|To Betild Deepanvil.|
 A The Sunken Vault|QID|45789|M|48.78,22.93|N|From Betild Deepanvil.|PRE|45788|
 P Dalaran|QID|45789|M|49.76,80.57|N|Take the portal to Dalaran|ACTIVE|45789|
-F Illidari Stand|QID|45789|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45789|
+F Illidari Stand|QID|45789|QO|1|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|ACTIVE|45789|
 R The Sunken Vault|QID|45789|QO|1|M|44.26,51.23|Z|Azsuna|CHAT|N|Run over and Chat with Brann Bronzebeard to start the scenario.|
 C A Call from the Depths|QID|45789|SO|1|M|45.89,50.09|Z|PriestClassMountScenario|NC|N|Walk forward towards the door.|
 C The Lost Observatory|QID|45789|SO|2|M|68.83,62.96|Z|PriestClassMountScenario|NC|N|Walk thru the now open door, into the room.|
