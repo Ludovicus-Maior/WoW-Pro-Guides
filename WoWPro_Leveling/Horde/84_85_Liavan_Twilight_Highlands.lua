@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
+-- Date: 2018-09-15 01:00
+-- Who: Emmaleah
+-- Log: Swap Eitrigg for High Overlord Saurfang during his incarceration.
+
+-- URL: http://wow-pro.com/node/3312/revisions/29252/view
 -- Date: 2018-05-02 00:47
 -- Who: Ludovicus_Maior
 -- Log: Goodbye  Garrosh Hellscream.
@@ -120,23 +125,23 @@ return [[
 
 R Orgrimmar|QID|28717|Z|Orgrimmar|N|Make your way to Orgimmar.|
 A Warchief's Command: Twilight Highlands!|QID|28717|M|49.67,76.45|Z|Orgrimmar|
-T Warchief's Command: Twilight Highlands!|QID|28717|M|48.26,70.93|Z|Orgrimmar|N|To High Overlord Saurfang.|
+T Warchief's Command: Twilight Highlands!|QID|28717|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg.|
 
-A Machines of War|QID|26293|PRE|28717|M|48.26,70.93|Z|Orgrimmar|N|From High Overlord Saurfang.|
+A Machines of War|QID|26293|PRE|28717|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
 T Machines of War|QID|26293|M|26.18,78.80|Z|Azshara|N|To Foreman Glibbs.|
 
 A Weapons of Mass Dysfunction|QID|26294|PRE|26293|M|26.18,78.80|Z|Azshara|N|From Foreman Glibbs.|
 C Weapons of Mass Dysfunction|QID|26294|NC|M|73.88,8.15|Z|Orgrimmar|N|Click the demo to find faulty one, then punt a gnome!|
-T Weapons of Mass Dysfunction|QID|26294|M|48.26,70.93|Z|Orgrimmar|N|To High Overlord Saurfang.|
+T Weapons of Mass Dysfunction|QID|26294|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg.|
 
-A Sauranok Will Point the Way|QID|28909|LEAD|26311|PRE|26294|M|48.26,70.93|Z|Orgrimmar|N|From High Overlord Saurfang.|
+A Sauranok Will Point the Way|QID|28909|LEAD|26311|PRE|26294|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
 T Sauranok Will Point the Way|QID|28909|M|48.07,71.15|Z|Orgrimmar|N|To Sauranok the Mystic.|
 
 A Unfamiliar Waters|QID|26311|M|48.07,71.15|Z|Orgrimmar|N|From Sauranok the Mystic.|
 C Unfamiliar Waters|QID|26311|M|71.24,50.60|Z|Orgrimmar|N|Talk to Herezegor Flamecrusk inside building. After the ambush, talk to him again to get the chart.|
 T Unfamiliar Waters|QID|26311|M|47.97,71.07|Z|Orgrimmar|N|To Sauranok the Mystic.|
 
-A Where Is My Warfleet?|QID|26324|PRE|26311|M|48.26,70.93|Z|Orgrimmar|N|From High Overlord Saurfang.|
+A Where Is My Warfleet?|QID|26324|PRE|26311|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
 T Where Is My Warfleet?|QID|26324|M|60.05,50.46|Z|Azshara|N|To Warlord Krogg. Fly to Azshara.|
 
 A Ready the Navy|QID|26335|PRE|26324|M|60.15,50.43|Z|Azshara|N|From Warlord Krogg.|
@@ -203,13 +208,13 @@ T Cementing Our Victory|QID|26788|M|74.23,53.25|N|To Ornak.|
 T Muddied Waters|QID|26784|M|73.82,53.89|N|To Artesh.|
 
 A The Warchief Will be Pleased|QID|26798|PRE|26784;26788|M|73.82,53.89|N|From Artesh.|
-T The Warchief Will be Pleased|QID|26798|M|48.26,70.93|Z|Orgrimmar|N|To High Overlord Saurfang. Go through the portal.|
+T The Warchief Will be Pleased|QID|26798|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg. Go through the portal.|
 
-A Traitor's Bait|QID|26830|PRE|26798|M|48.26,70.93|Z|Orgrimmar|N|From High Overlord Saurfang.|
+A Traitor's Bait|QID|26830|PRE|26798|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
 C Traitor's Bait|QID|26830|M|43.73,63.68|Z|Orgrimmar|N|Bottom of the tower.|
-T Traitor's Bait|QID|26830|M|48.26,70.93|Z|Orgrimmar|N|To High Overlord Saurfang.|
+T Traitor's Bait|QID|26830|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg.|
 
-A Return to the Highlands|QID|26840|PRE|26830|M|48.26,70.93|Z|Orgrimmar|N|From High Overlord Saurfang.|
+A Return to the Highlands|QID|26840|PRE|26830|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
 f Dragonmaw Port|QID|26840|M|73.78,52.81|N|Take the portal from Org to Twilight Highlands.Get flight path|
 T Return to the Highlands|QID|26840|M|75.30,54.84|N|To Zaela.|
 
