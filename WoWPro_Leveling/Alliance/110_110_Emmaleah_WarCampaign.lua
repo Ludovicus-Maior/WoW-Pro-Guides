@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-15 22:32
+-- Who: elidion
+-- Log: Accuracy pass on the 3k honored questline.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29745/view
 -- Date: 2018-09-13 15:53
 -- Who: elidion
 -- Log: Added one of the outpost upgrades and the PRE/O tags
@@ -567,37 +572,37 @@ T Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Our Next Target|QID|52154|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|REP|7th Legion;2159;honored;3000;false|PRE|52219|
 C Our Next Target|QID|52154|M|69.28,27.00|Z|Boralus|NC|N|Wait for conversation to end.|
 T Our Next Target|QID|52154|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A The Void Elves Stand Ready|QID|52173|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|PRE|52154|
+A The Void Elves Stand Ready|QID|52173|M|69.35,26.57|Z|Boralus|N|From Magister Umbric|PRE|52154|
 C The Void Elves Stand Ready|QID|52173|M|67.94,26.70|Z|Boralus|CHAT|QO|1|N|Speak with Grand Admiral Jes-Tereth to said for Nazmir|
-C The Void Elves Stand Ready|QID|52173|M|40.60,70.70|Z|Zuldazar|NC|QO|2|N|Meet Magister Umbric|
-T The Void Elves Stand Ready|QID|52173|M|40.60,70.70|Z|Zuldazar|N|To Magister Umbric|
-A Find the Paper Trail|QID|52203|M|40.60,70.70|Z|Zuldazar|N|From Magister Umbric|PRE|52173|
-A The Void Solution|QID|52204|M|40.60,70.70|Z|Zuldazar|N|From Magister Umbric|PRE|52173|
-A Bilgewater Bonanza Go Boom|QID|52205|M|40.60,70.70|Z|Zuldazar|N|From Magister Umbric|PRE|52173|
-C Bilgewater Bonanza Go Boom|QID|52205|M|40.60,70.70|Z|Zuldazar|S|N|Kill 12 goblins and open void tears if you need extra assistance.|
-C Find the Paper Trail|QID|52203|M|35.29,66.49|Z|Zuldazar|S|N|Kill Boss Blastmouth to loot the Orders from Gallywix|
-C The Void Solution|QID|52204|M|40.60,70.70|Z|Zuldazar|N|Destroy 4 Bilgewater Frackers using the Void Shard|U|161422|
-C Find the Paper Trail|QID|52203|M|35.29,66.49|Z|Zuldazar|US|N|Kill Boss Blastmouth to loot the Orders from Gallywix|
-C Bilgewater Bonanza Go Boom|QID|52205|M|40.60,70.70|Z|Zuldazar|US|N|Kill 12 goblins and open void tears if you need extra assistance.|
-T Find the Paper Trail|QID|52203|M|40.60,70.70|Z|Zuldazar|N|To Magister Umbric|
-T The Void Solution|QID|52204|M|40.60,70.70|Z|Zuldazar|N|To Magister Umbric|
-T Bilgewater Bonanza Go Boom|QID|52205|M|40.60,70.70|Z|Zuldazar|N|To Magister Umbric|
-A A Greedy Goblin's Paradise|QID|52241|M|40.60,70.70|Z|Zuldazar|N|From Magister Umbric|PRE|52203;52204;52205|
+C The Void Elves Stand Ready|QID|52173|M|40.59,70.68|Z|Zuldazar|NC|QO|2|N|Meet Magister Umbric|
+T The Void Elves Stand Ready|QID|52173|M|40.59,70.68|Z|Zuldazar|N|To Magister Umbric|
+A Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|N|From Magister Umbric|PRE|52173|
+A The Void Solution|QID|52204|M|40.59,70.68|Z|Zuldazar|N|From Magister Umbric|PRE|52173|
+A Find the Paper Trail|QID|52203|M|40.59,70.68|Z|Zuldazar|N|From Magister Umbric|PRE|52173|
+C Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|S|N|Kill 12 goblins and open void tears if you need extra assistance.|
+C The Void Solution|QID|52204|M|35.48,68.42|Z|Zuldazar|S|N|Destroy 4 Bilgewater Frackers using the Void Shard|U|161422|
+C Find the Paper Trail|QID|52203|M|35.28,66.66|Z|Zuldazar|N|Kill Boss Blastmouth to loot the Orders from Gallywix|
+C The Void Solution|QID|52204|M|35.48,68.42|Z|Zuldazar|US|N|Destroy 4 Bilgewater Frackers using the Void Shard|U|161422|
+C Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|US|N|Kill 12 goblins and open void tears if you need extra assistance.|
+T Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|N|To Magister Umbric|
+T The Void Solution|QID|52204|M|40.59,70.68|Z|Zuldazar|N|To Magister Umbric|
+T Find the Paper Trail|QID|52203|M|40.59,70.68|Z|Zuldazar|N|To Magister Umbric|
+A A Greedy Goblin's Paradise|QID|52241|M|40.59,70.68|Z|Zuldazar|N|From Magister Umbric|PRE|52203;52204;52205|
 C A Greedy Goblin's Paradise|QID|52241|M|40.55,70.63|Z|Zuldazar|QO|1|NC|N|Use the void portal in front of you|
-C A Greedy Goblin's Paradise|QID|52241|M|40.39,39.70|Z|Zuldazar|QO|2|NC|N|Meet Umbric at Atal'Dazar|
-T A Greedy Goblin's Paradise|QID|52241|M|40.39,39.70|Z|Zuldazar|N|To Magister Umbric|
-A Chasing Gallywix|QID|52247|M|40.39,39.70|Z|Zuldazar|N|From Magister Umbric|PRE|52241|
-C Chasing Gallywix|QID|52247|M|40.37,43.94|Z|Zuldazar|QO|1|N|Find Gallywix|
+C A Greedy Goblin's Paradise|QID|52241|M|40.33,39.71|Z|Zuldazar|QO|2|NC|N|Meet Umbric at Atal'Dazar|
+T A Greedy Goblin's Paradise|QID|52241|M|40.33,39.71|Z|Zuldazar|N|To Magister Umbric|
+A Chasing Gallywix|QID|52247|M|40.33,39.71|Z|Zuldazar|N|From Magister Umbric|PRE|52241|
+C Chasing Gallywix|QID|52247|M|40.35,44.00|Z|Zuldazar|QO|1|N|Find Gallywix|
 C Chasing Gallywix|QID|52247|M|40.41,44.28|Z|Zuldazar|QO|2|N|Use Gallywix's personal teleporter|
 T Chasing Gallywix|QID|52247|M|21.60,52.55|Z|Azshara|N|To Magister Umbric|
 A I Take No Pleasure In This|QID|52259|M|21.60,52.55|Z|Azshara|N|From Magister Umbric|PRE|52247|
-C I Take No Pleasure In This|QID|52259|M|21.01,55.97|Z|Azshara|N|Crash the party! Kill all guests and blow stuff up.|
-T I Take No Pleasure In This|QID|52259|M|21.01,55.97|Z|Azshara|N|Turn in to Magister Umbric wherever you're standing.|
-A We Have Him Cornered|QID|52260|M|21.01,55.97|Z|Azshara|N|From Magister Umbric wherever you're standing.|PRE|52259|
-C We Have Him Cornered|QID|52260|M|20.94,60.48|Z|Azshara|N|Kill Prince Gallywix.|
+C I Take No Pleasure In This|QID|52259|M|20.97,57.85|Z|Azshara|N|Crash the party! Kill all guests and blow stuff up.|
+T I Take No Pleasure In This|QID|52259|M|20.97,57.85|Z|Azshara|N|Turn in to Magister Umbric wherever you're standing.|
+A We Have Him Cornered|QID|52260|M|20.97,57.85|Z|Azshara|N|From Magister Umbric wherever you're standing.|PRE|52259|
+C We Have Him Cornered|QID|52260|M|21.07,60.66|Z|Azshara|N|Kill Prince Gallywix.|
 T We Have Him Cornered|QID|52260|M|20.94,60.48|Z|Azshara|N|To Magister Umbric|
 A Gallywix Got Away|QID|52261|M|20.94,60.48|Z|Azshara|N|From Magister Umbric|PRE|52260|
-P Boralus|ACTIVE|52261|M|20.94,60.48|Z|Azshara|N|Use the void portal to return to your ship|
+P Wind's Redemption|ACTIVE|52261|M|20.94,60.48|Z|Azshara|N|Use the void portal to return to your ship|
 T Gallywix Got Away|QID|52261|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
 ; 7.5k Honored with The 7th Legion
