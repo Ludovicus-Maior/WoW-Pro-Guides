@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-09-15 21:04
+-- Who: Emmaleah
+-- Log: Add RARE tags; Change C steps with a target, where appropriate, to K steps; Change all K steps without a RARE tag from QID to ACTIVE
+
+-- URL: http://wow-pro.com/node/3766/revisions/29619/view
 -- Date: 2018-08-27 23:38
 -- Who: jovieve
 -- Log: Moved step for killing Xak'lar to after taking the boat ride in Down by the Riverside. (It was 2000 yards away before the ride. It's 200 yards away after the ride.)
@@ -130,7 +135,7 @@ A Crocolisk Life|QID|48573|M|38.83,77.71|N|From Sur'jan.|RANK|2|PRE|48669|
 A Pulling Fangs|QID|48574|M|38.83,77.71|N|From Sur'jan.|RANK|2|PRE|48669|
 C Pulling Fangs|QID|48574|M|36.44,71.39|S|N|Kill the little Saurid's and collect their Teeth as you go.|
 C Crocolisk Life|QID|48573|M|34.38,77.47|U|152596|S|N|After killing them, use the wand to absorb Snapjaw mojo as you go.|
-K Zanxib|QID|50423|M|38.94,71.45|QO|1|T|Zanxib|ITEM|161092|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K Zanxib|QID|50423|M|38.94,71.45|QO|1|T|Zanxib|RARE|ITEM|161092|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 C Crocolisk Life|QID|48573|M|34.38,77.47|U|152596|US|N|Finish absorbing Snapjaw mojo.|
 C Pulling Fangs|QID|48574|M|36.44,71.39|US|N|Finish collecting the Saurid Teeth.|
 K Primal Snapjaw|QID|50437|L|157801|M|34,75|N|Kill the crockolisk until you loot a Snapjaw Tail.|RANK|3|PRE|47442|
@@ -145,7 +150,7 @@ C Safe Flying|QID|48576|M|33.50,84.91|S|U|152610|N|Use Grappling Hook to pull th
 C Terrorizing their Eggs|QID|48577|M|33.78,84.81|S|NC|N|Click to destroy the Skyterror eggs.|
 $ Cleverly Disguised Chest|QID|49885|M|35.63,85.58|N|There is a small cave at the base of the cliff, kill the skyterror inside, to find ths treasure.|RANK|2|
 C There's No Eye in Skyterror|QID|48578|M|33.90,85.98|QO|1|N|Kill Jarkadiax and take his Eye.|T|Jarkadiax|
-K Gwugnug the Cursed|QID|48638|M|34.93,86.44;33.75,86.28|CS|QO|1|ITEM|162614|T|Gwugnug the Cursed|N|This silver elite can be found down a path behind and below Jarkadiax.|RANK|2|
+K Gwugnug the Cursed|QID|48638|M|34.93,86.44;33.75,86.28|CS|QO|1|RARE|ITEM|162614|T|Gwugnug the Cursed|N|This silver elite can be found down a path behind and below Jarkadiax.|RANK|2|
 C Terrorizing their Eggs|QID|48577|M|33.78,84.81|US|NC|N|Finish destroyjing the Skyterror eggs.|
 C Safe Flying|QID|48576|M|33.50,84.91|US|U|152610|N|Finish kill the Skyterrors.|
 T Safe Flying|QID|48576|M|34.10,78.60|N|To Sur'jan.|
@@ -159,7 +164,7 @@ C The Blood of My Enemies|QID|48584|M|30.19,75.26|S|N|Kill Dreadticks and loot t
 C My Head and Shoulders|QID|48590|M|31.62,73.49|QO|1|NC|N|Pick up Sur'jan's Helm.|
 C My Head and Shoulders|QID|48590|M|31.05,71.38|QO|2|NC|N|Pick up Sur'jan's Left Shoulderpad.|
 C My Head and Shoulders|QID|48590|M|28.79,76.75|QO|3|NC|N|Pick up Sur'jan's Right Shoulderpad.|
-K Infected Direhorn|QID|47877|M|24.53,78.09|QO|1|ITEM|161218|T|Infected Direhorn|N|You can find this Silver Elite in a cave under a waterfall.|RANK|2|
+K Infected Direhorn|QID|47877|M|24.53,78.09|QO|1|RARE|ITEM|161218|T|Infected Direhorn|N|You can find this Silver Elite in a cave under a waterfall.|RANK|2|
 C The Blood of My Enemies|QID|48584|M|30.19,75.26|US|N|Finish collecting the Dreadtick blood.|
 C Purge the Infection|QID|48588|M|28.29,75.53|US|N|Now is a good time to finish this bonus objective if you plan to.|
 T Purge the Infection|QID|48588|M|28.29,75.53|N|Bonus Obective - Autocompleted.|
@@ -168,13 +173,13 @@ T My Head and Shoulders|QID|48590|M|28.77,72.64|N|To Sur'jan.|
 A Urok's True Death|QID|48591|M|28.77,72.64|N|From Sur'jan.|RANK|2|PRE|48590;48584|
 C Urok's True Death|QID|48591|M|26.01,73.49|N|Kill Urok.|T|Urok|
 T Urok's True Death|QID|48591|M|28.78,72.64|N|To Sur'jan.|
-C WANTED: Tojek|QID|51089|M|27.30,67.41|T|Tojek|N|You can use the group finder if you need help for this, recommended 3 person quest to kill Tojek.|
+K Tojek|ACTIVE|51089|QO|1|M|27.30,67.41|T|Tojek|N|You can use the group finder if you need help for this, recommended 3 person quest to kill Tojek.|
 
 ;A Pact with Death
 C The Shadow of Death|QID|47241|M|39.63,65.00|NC|QO|1|N|Click to investigate the Weathered Shrine.|
 C The Shadow of Death|QID|47241|M|37.48,63.07|QO|2|NC|N|Pick up the spear from inside the ruins.|
 C The Shadow of Death|QID|47241|M|35.64,58.55|QO|3|NC|N|Click to investigate the Shrine of Bones.|
-$ Urn of Agussu|QID|50888|M|38.12,57.68|N|Click the Urn to summon the guardians, Defeat them and loot the treasure.|RANK|2|
+$ Urn of Agussu|QID|50888|M|38.12,57.68|N|Click the Urn to summon the guardians, Defeat them and loot the treasure.|RANK|2|RARE|
 A Bwonsamdi's Deliverance|QID|48468|M|39.07,60.62|N|From Shinga Deathwalker.|RANK|2|
 A Respecting the Rites|QID|48473|M|39.07,60.62|N|From Shinga Deathwalker.|RANK|2|
 C Bwonsamdi's Deliverance|QID|48468|M|41.37,61.63|U|153178|S|N|Kill the defiled worshipers and burn thier corpses as you go.|
@@ -191,20 +196,20 @@ C Kel'vax's Home|QID|48478|M|39.39,57.50|QO|2|U|154130|NC|N|Use the powder then 
 C Kel'vax's Home|QID|48478|M|38.31,54.44|QO|3|U|154130|NC|N|Pick up the Pristine Phylactery.|
 C Kel'vax's Home|QID|48478|M|40.99,51.97|QO|1|U|154130|NC|N|Pick up the Repaired Phylactery acquired.|
 $ Cursed Nazmani Chest|QID|49979|M|42.35,50.53;43.05,50.76|CS|N|In a tiny "cave" made from the roots of a tree you can find this chest to loot for resources and artifact power.|RANK|2|
-K Uroku the Bound|QID|49305|M|44.25,48.77|QO|1|ITEM|161094|T|Uroku the Bound|N|Silver Elite to kill for resources and artifact power.|RANK|2|
-K Corpse Bringer Yal'kar|QID|48462|M|41.33,53.41|QO|1|ITEM|161102|T|Corpse Bringer Yal'kar|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K Uroku the Bound|QID|49305|M|44.25,48.77|QO|1|RARE|ITEM|161094|T|Uroku the Bound|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K Corpse Bringer Yal'kar|QID|48462|M|41.33,53.41|QO|1|RARE|ITEM|161102|T|Corpse Bringer Yal'kar|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 C Bones for Protection|QID|48479|M|39.92,53.98|US|N|Finish up collecting the Cursed Bones.|
 T Bones for Protection|QID|48479|M|38.99,59.92|N|To Kol'jun Deathwalker.|
 T Kel'vax's Home|QID|48478|M|38.94,59.94|N|To Shinga Deathwalker.|
 A The Fall of Kel'vax|QID|48480|M|38.94,59.94|N|From Shinga Deathwalker.|RANK|2|PRE|48479;48478|
 C The Fall of Kel'vax|QID|48480|M|41.75,57.49|N|Kill Kel'vax Deathwalker.|
-K Bajiatha|QID|48439|M|42.70,60.47|QO|1|ITEM|161093|T|Bajiatha|N|Silver Elite to kill for resources and artifact power.|RANK|2|
-K Mala'kili|QID|50040|M|53.06,54.30|QO|1|ITEM|163703|T|Mala'kili|N|Run down the hill for this Silver Elite. Mala'kili's pet Crawg Rohn'kor, will come join in the fight. Kill and loot for artifact power and resources.|RANK|3|
+K Bajiatha|QID|48439|M|42.70,60.47|QO|1|RARE|ITEM|161093|T|Bajiatha|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K Mala'kili|QID|50040|M|53.06,54.30|QO|1|RARE|ITEM|163703|T|Mala'kili|N|Run down the hill for this Silver Elite. Mala'kili's pet Crawg Rohn'kor, will come join in the fight. Kill and loot for artifact power and resources.|RANK|3|
 T The Fall of Kel'vax|QID|48480|M|38.93,59.92|N|To Shinga Deathwalker.|
 T The Shadow of Death|QID|47241|M|36.64,53.91|N|To Hanzabu.|
 A A Culling of Souls|QID|47244|M|36.64,53.91|N|From Hanzabu.|PRE|47241|
 $ Wunja's Trove|QID|49313|M|34.67,54.98;35.41,54.97|CS|N|Stealing from the Blind, For Shame! Treasure to loot and Wunja is a vendor if you want to sell some junk.|RANK|2|
-K Xu'ba|QID|50348|M|36.72,50.81|QO|1|ITEM|162619|T|Xu'ba|N|Silver Elite for resources and artifact power.|RANK|2|
+K Xu'ba|QID|50348|M|36.72,50.81|QO|1|RARE|ITEM|162619|T|Xu'ba|N|Silver Elite for resources and artifact power.|RANK|2|
 C A Culling of Souls|QID|47244|M|38.46,50.12|N|Kill Blood Witch Najima.|
 T A Culling of Souls|QID|47244|M|39.52,43.87|N|To Hanzabu.|
 
@@ -228,7 +233,7 @@ C How to Be a Blood Troll|QID|48890|M|33.05,44.21|NC|S|N|Click the Unproven Drud
 C Isolating Zalamar|QID|48801|M|35.28,46.83|CHAT|QO|2|N|Go to the top of the tower and send Wardrummer Sheej off.|
 C Isolating Zalamar|QID|48801|M|31.14,49.73|CHAT|QO|3|N|Go to the top of the tower and send Wardrummer Gix on an errand.|
 C Isolating Zalamar|QID|48801|M|31.51,43.29|CHAT|QO|1|N|Go to the top of the tower and send Wardrummer Saljo to get firewood.|
-K Gutrip|QID|49231|M|32.56,43.24|QO|1|ITEM|161041|T|Gutrip|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K Gutrip|QID|49231|M|32.56,43.24|QO|1|RARE|ITEM|161041|T|Gutrip|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 C How to Be a Blood Troll|QID|48890|M|33.05,44.21|US|NC|N|Finish testing your disguise on the Unproven Drudges.|
 T Isolating Zalamar|QID|48801|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 T How to Be a Blood Troll|QID|48890|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
@@ -236,10 +241,10 @@ A Poisoning the Brood|QID|49078|M|33.35,45.77|N|From Bloodseeker Jo'chunga.|PRE|
 A Mark of the Bat|QID|48800|M|33.35,45.77|N|From Bloodseeker Jo'chunga.|PRE|48801;48890|
 A Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective - Autoaccepted.|LVL|-120|
 C Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective.|S|
-C Poisoning the Brood|QID|49078|M|32.13,48.71|U|153012|NC|T|Tamed Warspawn|S|N|Target the Tamed Warspawn and use the poison|
-K Vashera|QID|48800|M|30.99,45.12|QO|2|T|Vashera|N|Kill Vashera and loot her Talisman.|
-K Zu'Anji|QID|48800|M|32.62,49.44|QO|3|T|Zu'Anji|N|Kill Zu'Anji and loot her Talisman.|
-K Yialu|QID|48800|M|33.62,49.10|QO|1|T|Yialu|N|Kill Yialu and loot her Talisman.|
+C Poisoning the Brood|QID|49078|M|32.13,48.71|U|153012|NC|T|Tamed Warspawn|S|N|Target the Tamed Warspawn and use the poison.|
+K Vashera|ACTIVE|48800|M|30.99,45.12|QO|2|T|Vashera|N|Kill Vashera and loot her Talisman.|
+K Zu'Anji|ACTIVE|48800|M|32.62,49.44|QO|3|T|Zu'Anji|N|Kill Zu'Anji and loot her Talisman.|
+K Yialu|ACTIVE|48800|M|33.62,49.10|QO|1|T|Yialu|N|Kill Yialu and loot her Talisman.|
 C Poisoning the Brood|QID|49078|M|32.13,48.71|U|153012|T|Tamed Warspawn|US|N|Finish poisoning the Tamed Warspawn.|
 T Poisoning the Brood|QID|49078|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 T Mark of the Bat|QID|48800|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
@@ -250,7 +255,7 @@ C Hir'eek, the Bat Loa|QID|49079|M|31.72,46.75|QO|1|CHAT|N|Speak with Jo'chunga 
 C Hir'eek, the Bat Loa|QID|49079|M|32.09,46.88|QO|2|NC|N|Press the "1" key to use the poisoned dagger that Jo'chunga gave you while Hir'eek flies around.|
 T Hir'eek, the Bat Loa|QID|49079|M|31.23,46.81|N|To Jo'chunga.|
 A To Kill a Loa|QID|49081|M|31.23,46.81|N|From Jo'chunga.|PRE|49079|
-K Hir'eek|QID|49081|M|29.75,46.75|QO|1|T|Hir'eek|N|Kill Hir'eek. Go behind the pillers in the room when he casts Blood Horror.|
+K Hir'eek|ACTIVE|49081|M|29.75,46.75|QO|1|T|Hir'eek|N|Kill Hir'eek. Go behind the pillers in the room when he casts Blood Horror.|
 T To Kill a Loa|QID|49081|M|31.25,46.81|N|To Jo'chunga.|
 A Upward and Onward|QID|49082|M|31.25,46.81|N|From Jo'chunga.|PRE|49081|
 C Upward and Onward|QID|49082|M|31.27,46.83|QO|1|NC|N|Take the proffered Flight out of Hir'eek's Lair(Optional).|
@@ -273,11 +278,11 @@ C That Which Haunts the Dead|QID|47247|M|43.35,30.02|QO|1|N|Kill Warlord Malaja.
 A The Forlorn Soul|QID|49432|M|42.60,31.47|N|From Keula.|
 A 'Til Death Do Us Part|QID|47248|M|36.66,27.39|N|From Theurgist Salazae.|RANK|2|
 C That Which Haunts the Dead|QID|47247|M|36.12,29.87|QO|2|N|Kill Hex Priestess Tizeja.|
-K Azerite-Infused Slag|QID|50563|M|37.30,26.24;33.34,27.53|CS|QO|1|T|Azerite-Infused Slag|N|Silver Elite to kill for resources and artifact power.|RANK|2|;item unknown
+K Azerite-Infused Slag|QID|50563|M|37.30,26.24;33.34,27.53|CS|QO|1|T|Azerite-Infused Slag|N|Silver Elite to kill for resources and artifact power.|RANK|2|RARE|;item unknown
 C Remnants of the Damned|QID|47491|M|40.46,30.25|S|N|Decaying Bloodstones drop from the skeletal Reanimated and Bound Horrors. Kill them as you go.|
 C The Forlorn Soul|QID|49432|M|39.58,31.56;39.58,34.95|CS|QO|1|NC|N|Head down into the catacombs to find Keula's mother. Click on the sarcophagus lid.|
 C The Forlorn Soul|QID|49432|M|39.65,34.94|QO|2|N|Subdue Matron Shaazula.|
-K Za'amar the Queen's Blade|QID|49469|M|38.77,28.76;38.84,26.72|CS|ITEM|161095|QO|1|T|Za'amar the Queen's Blade|N|In the Necropolis Catacombs you can find this Silver Elite to kill and loot for a bit of resources and artifact power.|RANK|2|
+K Za'amar the Queen's Blade|QID|49469|M|38.77,28.76;38.84,26.72|CS|RARE|ITEM|161095|QO|1|T|Za'amar the Queen's Blade|N|In the Necropolis Catacombs you can find this Silver Elite to kill and loot for a bit of resources and artifact power.|RANK|2|
 C 'Til Death Do Us Part|QID|47248|M|40.37,26.52|QO|1|NC|N|Into the last catacomb you will find a box with Valjabu's Tusk Ring, Kill Gee'dee the Cursed if he is in the way.|
 C Remnants of the Damned|QID|47491|M|40.46,30.25|US|N|Finish collecting the Decaying Bloodstones.|
 C Mark of the Damned|QID|48934|M|37.17,27.83|US|N|Finish up this bonus objective before going into the temple to turn in the quests.|
@@ -300,7 +305,7 @@ T Catching Up|QID|49185|M|39.39,44.02|N|To Princess Talanji.|
 A Torga, the Turtle Loa|QID|49064|M|39.45,44.01|N|From Lashk.|PRE|49185|
 
 A Surprise Backup|QID|49477|M|33.97,39.62|N|From Torn Horde Missive.|RANK|3|
-K Tainted Guardian|QID|48508|QO|1|M|28.63,43.74|T|Tainted Guardian|N|Silver Elite to kill for resources and artifact power.|RANK|3|;item unknown
+K Tainted Guardian|QID|48508|QO|1|M|28.63,43.74|T|Tainted Guardian|N|Silver Elite to kill for resources and artifact power.|RANK|3|RARE|;item unknown
 T Surprise Backup|QID|49477|M|28.63,43.74|N|To Chadwick Paxton.|
 A Getting a Leg Up|QID|48492|M|28.63,43.74|N|From Chadwick Paxton.|RANK|3|PRE|49477|
 C Getting a Leg Up|QID|48492|M|28.63,43.74|QO|1|NC|N|Click on his legs to pick them up.|
@@ -313,10 +318,10 @@ C Reuniting the Company|QID|48496|QO|3|NC|M|27.37,41.15|N|Click on the cage to f
 C Reuniting the Company|QID|48496|QO|1|NC|M|26.16,40.41|N|Click on the cage to free Anna.|
 C Reuniting the Company|QID|48496|QO|4|NC|M|26.57,37.89|N|Click on the cage to free Ingrid.|
 A No Mercy for Sithis|QID|48498|M|26.57,37.89|N|From Ingrid Bellix.|RANK|3|
-K Fangcaller Sithis|QID|48498|M|25.38,37.65|QO|1|T|Fangcaller Sithis|N|Kill and loot Fangcaller Sithis to retrieve the Skycaller Gem.|RANK|3|
+K Fangcaller Sithis|ACTIVE|48498|M|25.38,37.65|QO|1|T|Fangcaller Sithis|N|Kill and loot Fangcaller Sithis to retrieve the Skycaller Gem.|RANK|3|
 C Reuniting the Company|QID|48496|QO|2|NC|M|27.41,38.53|N|Click on the cage to free Timothy.|
 C Show of Force|QID|48497|M|26.75,37.70|US|N|Finish off your quota of Sethrak.|
-K Juba the Scarred|QID|50342|M|28.48,33.77|QO|1|ITEM|160950|T|Juba the Scarred|N|Silver Elite to kill for resources and artifact power.|RANK|3|
+K Juba the Scarred|QID|50342|M|28.48,33.77|QO|1|RARE|ITEM|160950|T|Juba the Scarred|N|Silver Elite to kill for resources and artifact power.|RANK|3|
 T Reuniting the Company|QID|48496|M|25.82,36.03|N|To Chadwick Paxton.|
 T Show of Force|QID|48497|M|25.82,36.03|N|To Chadwick Paxton.|
 T No Mercy for Sithis|QID|48498|M|25.82,36.03|N|To Chadwick Paxton.|
@@ -327,7 +332,7 @@ A Return to Dust|QID|48499|M|25.82,36.03|N|From Chadwick Paxton.|RANK|3|PRE|4947
 C Return to Dust|QID|48499|M|26.25,37.27|NC|N|Head down into the sethrak camp and use your special action button till the Sethrak are ALL dead.|
 T Return to Dust|QID|48499|M|25.82,36.03|N|To Chadwick Paxton.|
 
-K Venomjaw|QID|48626|M|30.59,51.36|QO|1|T|Venomjaw|ITEM|161028|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K Venomjaw|QID|48626|M|30.59,51.36|QO|1|T|Venomjaw|RARE|ITEM|161028|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 T Hunting Zardrax|QID|49314|M|31.05,52.08|N|To Shadow Hunter Da'jul.|
 A Offer of Power|QID|48854|M|30.97,52.18|N|From Zardrax the Empowerer.|RANK|2|PRE|49314|
 C Offer of Power|QID|48854|M|30.97,52.18|QO|1|CHAT|N|Wait and listen to Zardrax.|
@@ -389,7 +394,7 @@ A Catch Me if You Can|QID|49781|M|24.13,53.21|N|From Zaluto.|RANK|2|PRE|49780;49
 C Catch Me if You Can|QID|49781|M|28.18,53.39|NC|N|Hop on Zaluto's raptor. After a bit he stops -- facing Zulajin -- use the 1 key. the rapter will run towards the puddle of tar, in a little while 2 key becomes available, use it. Run away some more and then when the 3 key becomes avaiable -- use it repeatedly until Zulajin is dead.|T|Zulajin|
 T Catch Me if You Can|QID|49781|M|28.36,52.03|N|To Jin'Tiki.|
 
-K King Kooba|QID|49317|M|53.63,42.64|QO|1|ITEM|161221|T|King Kooba|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K King Kooba|QID|49317|M|53.63,42.64|QO|1|RARE|ITEM|161221|T|King Kooba|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 
 ;Turtle Power
 R Natha'vor|ACTIVE|49064|M|53.31,39.30|N|Follow the road east to Nath'vor.|
@@ -404,14 +409,14 @@ A Killing Cannibals|QID|47998|M|51.76,33.24|N|From Kajosh.|RANK|2|PRE|47924|
 A Just Say No to Cannibalism|QID|47919|M|51.76,33.24|N|From Kajosh.|RANK|2|PRE|47924|
 A Shoak's on the Menu|QID|47925|M|51.76,33.24|N|From Kajosh.|RANK|2|PRE|47924|
 C Killing Cannibals|QID|47998|M|49.82,34.68|S|N|Kill Natha'vor Cannibals as you go.|
-K Corpse Monger Nog'shra|QID|47919|M|49.27,33.08|QO|1|T|Corpse Monger Nog'shra|N|Corpse Monger Nog'shra can be found in the hut at the top of the hill.|RANK|2|
-K Totem Maker Jash'ga|QID|48406|M|49.43,37.44|QO|1|ITEM|162618|T|Totem Maker Jash'ga|N|Silver Elite to kill for resources and artifact power.|RANK|2|
-K Corpse Monger Jal'aka|QID|47919|M|49.49,38.35|QO|3|T|Corpse Monger Jal'aka|N|Corpse Monger Jal'aka's hut is around behind Totem Maker Jash'ga.|RANK|2|
+K Corpse Monger Nog'shra|ACTIVE|47919|M|49.27,33.08|QO|1|T|Corpse Monger Nog'shra|N|Corpse Monger Nog'shra can be found in the hut at the top of the hill.|RANK|2|
+K Totem Maker Jash'ga|QID|48406|M|49.43,37.44|QO|1|RARE|ITEM|162618|T|Totem Maker Jash'ga|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K Corpse Monger Jal'aka|ACTIVE|47919|M|49.49,38.35|QO|3|T|Corpse Monger Jal'aka|N|Corpse Monger Jal'aka's hut is around behind Totem Maker Jash'ga.|RANK|2|
 C Shoak's on the Menu|QID|47925|M|49.51,39.27|CHAT|N|Talk to Shoak to start. Several small mawfiends will swarm you and then Poz'ga the Butcher Queen must be killed to recue Shoak.|
-K Corpse Monger Yon'gi|QID|47919|M|50.60,35.56|QO|3|T|Corpse Monger Yon'gi|N|Corpse Monger Yon'gi's hut is by itself just east of the village.|RANK|2|
+K Corpse Monger Yon'gi|ACTIVE|47919|M|50.60,35.56|QO|3|T|Corpse Monger Yon'gi|N|Corpse Monger Yon'gi's hut is by itself just east of the village.|RANK|2|
 C Killing Cannibals|QID|47998|M|49.82,34.68|US|N|Finish your quota of Natha'vor Cannibals.|
 C Mawfiend Extermination|QID|47996|M|52.44,31.49|US|N|Bonus Objective - Finish eliminating the Mawfiend threat.|
-T Mawfiend Extermination|QID|47996|M|52.44,31.49|QO|1|T|Totem Maker Jash'ga|N|Bonus Objective - Autocompleted.|
+T Mawfiend Extermination|QID|47996|M|52.44,31.49|N|Bonus Objective - Autocompleted.|
 T Shoak's on the Menu|QID|47925|M|55.81,32.24|N|To Shoak.|
 T Killing Cannibals|QID|47998|M|55.85,32.36|N|To Kajosh.|
 T Just Say No to Cannibalism|QID|47919|M|55.85,32.36|N|To Kajosh.|
@@ -426,7 +431,7 @@ A Dreadtick Combustion|QID|49071|M|56.51,26.65|N|From Lashk.|PRE|49067|
 A Souls for the Death Loa|QID|49070|M|56.62,26.57|N|From Bwonsamdi.|PRE|49067|
 C Souls for the Death Loa|QID|49070|M|59.54,19.28|S|N|Kill Blood troll drudges as you go.|
 C Dreadtick Combustion|QID|49071|M|60.80,23.11|QO|1|U|153024|NC|S|N|Use the scroll to blow up Dreadtick Leechers. (or just kill them)|
-K Summoner Yarz|QID|49080|M|61.01,18.15|QO|1|T|Summoner Yarz|N|Kill Summoner Yarz.|
+K Summoner Yarz|ACTIVE|49080|M|61.01,18.15|QO|1|T|Summoner Yarz|N|Kill Summoner Yarz.|
 C Dreadtick Combustion|QID|49071|M|60.80,23.11|QO|1|U|153024|NC|US|N|Use the scroll to blow up Dreadtick Leechers. (or just kill them)|
 C Souls for the Death Loa|QID|49070|M|58.20,20.41|US|N|Finish claiming the Blood troll souls.|
 T Dreadtick Combustion|QID|49071|M|56.52,26.67|N|To Lashk.|
@@ -443,7 +448,7 @@ C Negative Blood|QID|49125|M|62.27,24.56|QO|2|N|Pick up Scroll of Fate's Hand ly
 C Negative Blood|QID|49125|M|62.82,23.14|QO|1|U|160559|NC|US|N|Finish destroying the Corrupted Loa Blood.|
 C Tortollan Rescue|QID|51689|M|64.91,20.93|US|N|Bonus Objective - Finish up rescuing Tortollans.|
 T Tortollan Rescue|QID|51689|M|64.91,20.93|N|Bonus Objective - Autocompleted.|
-$ Chag's Challenge|QID|50567|M|67.97,19.80|QO|1|ITEM|161046|T|Lucille|N|Tell Chag you will kill his summoned creature. Silver Elite to kill for artifact power and resources.|RANK|2|
+$ Chag's Challenge|QID|50567|M|67.97,19.80|QO|1|RARE|ITEM|161046|T|Lucille|N|Tell Chag you will kill his summoned creature. Silver Elite to kill for artifact power and resources.|RANK|2|
 $ Shipwreaked Chest|QID|49483|M|67.81,16.80;66.78,17.33|CS|N|Starting at this waypoint, run up the fallen tree to find a long forgotten shipwreck. Up another branch takes you to the top deck where you will find some treasure to loot for resources and artifact power.|RANK|2|
 T Negative Blood|QID|49125|M|65.72,17.97|N|To Kisha.|
 A Forcing Fate's Hand|QID|49126|M|65.72,17.97|N|From Kisha.|PRE|49125;49123;49124|
@@ -454,8 +459,8 @@ T Forcing Fate's Hand|QID|49126|M|58.48,13.78|N|To Kisha.|
 A Loa-Free Diet|QID|49130|M|58.48,13.78|N|From Kisha.|PRE|49126|
 A Sanctifying Ground|QID|49131|M|58.48,13.85|N|From Princess Talanji.|PRE|49126|
 A Crushing the Skullcrushers|QID|49132|M|58.52,13.89|N|From Lashk.|PRE|49126|
-K Scrounger Patriarch|QID|48980|QO|1|M|58.37,8.50|ITEM|161219|T|Scrounger Patriarch|N|Silver Elite to kill for artifact power and resources.|RANK|2|
-K Kal'draxa|QID|47843|M|53.12,13.55|QO|1|ITEM|161018|T|Kal'draxa|N|Silver Elite to kill for artifact power and resources.|RANK|2|
+K Scrounger Patriarch|QID|48980|QO|1|M|58.37,8.50|RARE|ITEM|161219|T|Scrounger Patriarch|N|Silver Elite to kill for artifact power and resources.|RANK|2|
+K Kal'draxa|QID|47843|M|53.12,13.55|QO|1|RARE|ITEM|161018|T|Kal'draxa|N|Silver Elite to kill for artifact power and resources.|RANK|2|
 C Crushing the Skullcrushers|QID|49132|M|54.99,21.50|S|N|Kill the Loa-Gutter Skullcrushers.|
 C Loa-Free Diet|QID|49130|M|54.99,21.50|S|N|Kill the Loa Butchers to collect Parts of Torga.|
 C Sanctifying Ground|QID|49131|M|56.61,22.09|QO|1|NC|N|Click the Sanctifying Totems scattered around.|
@@ -474,7 +479,7 @@ T Torga's Eternal Return|QID|49160|M|56.59,26.75|N|To Kisha.|
 A To Gloom Hollow|QID|49902|M|56.59,26.75|N|From Kisha.|PRE|49160|
 R Razorjaw River|ACTIVE|49902|M|55.79,34.32|N|Follow whats left of the road across the Razorjaw river to find the Tortollans.|
 R Towards Gloom Hollow and Crez|QID|49902|M|55.65,39.40|CC|CHAT|N|Talk to Crez.|
-K Scout Skrasniss|QID|48972|M|58.84,38.98|QO|1|ITEM|160951|T|Scout Skrasniss|N|Silver Elite to kill and loot for resources and artifact power.|RANK|2|
+K Scout Skrasniss|QID|48972|M|58.84,38.98|QO|1|RARE|ITEM|160951|T|Scout Skrasniss|N|Silver Elite to kill and loot for resources and artifact power.|RANK|2|
 R Continue on, to Gloom Hollow and Korkrush|QID|49902|M|60.24,46.18|CC|CHAT|N|Talk to Korkrush.|
 C To Gloom Hollow|QID|49902|M|63.88,47.75|CHAT|N|Talk to Yash.|
 f Gloom Hollow|ACTIVE|49902|M|66.95,43.84|N|At Cuja.|
@@ -492,7 +497,7 @@ A Fallen Idols|QID|47660|M|68.59,46.75|N|From Witch Doctor Zentimo.|PRE|47525|
 C Fallen Idols|QID|47660|M|68.92,51.66|QO|1|NC|S|N|Retrieve the Stolen Idols of Krag'wa as you go.|
 A A Poisonous Touch|QID|48402|M|69.16,50.51|N|From Mag'ash the Poisonous.|
 C A Poisonous Touch|QID|48402|M|68.71,49.57|QO|1|S|N|Use special action button to poison trolls (preferably from a distance so they don't interrupt you.)|
-K Warmother Boatema|QID|47659|M|68.28,51.75|QO|1|T|Warmother Boatema|N|Kill Warmother Boatema.|
+K Warmother Boatema|ACTIVE|47659|M|68.28,51.75|QO|1|T|Warmother Boatema|N|Kill Warmother Boatema.|
 C A Poisonous Touch|QID|48402|M|68.71,49.57|QO|1|US|N|Finish poisoning the Bloodhunter Trolls.|
 C Fallen Idols|QID|47660|M|68.92,51.66|NC|US|N|Finish retrieving the Stolen Idols.|
 T Hunt the Hunter|QID|47659|M|75.49,56.69|N|To Krag'wa the Huge.|
@@ -506,7 +511,7 @@ A A True Loa Feast|QID|47621|M|75.46,56.79|N|From Krag'wa the Huge.|PRE|47623|
 A A Magical Glow|QID|47622|M|75.46,56.79|N|From Krag'wa the Huge.|PRE|47623|
 C A True Loa Feast|QID|47621|M|75.95,45.97|QO|1|S|N|Kill creatures in the area and loot their meat as you go.|
 C A Magical Glow|QID|47622|M|74.25,48.19|QO|1|U|151237|NC|S|N|Use the Glowfly bottle to capture the Beautiful Glowflies.|
-K Lo'kuno|QID|50355|M|77.26,45.92|QO|1|ITEM|161111|T|Lo'kuno|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K Lo'kuno|QID|50355|M|77.26,45.92|QO|1|RARE|ITEM|161111|T|Lo'kuno|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 $ Partially Digested Treasure|QID|50061|M|77.89,46.38|QO|1|N|This chest is found beside a dead Riverbeast. Loot for resources and artifact power.|RANK|2|
 C A Magical Glow|QID|47622|M|74.25,48.19|QO|1|U|151237|NC|US|N|Finish collecting the Beautiful Glowflies.|
 C A True Loa Feast|QID|47621|M|75.95,45.97|US|N|Finish collecting meat for Krag'wa.|
@@ -530,7 +535,7 @@ A Vengeance of the Frogs|QID|48092|M|77.78,53.18|N|From Shadow Hunter Narez.|RAN
 C Nagating the Threat|QID|48093|M|77.78,53.18|S|N|Bonus Objective - Kill Naga, release frogs from the cages, etc to complete the bonus objective.|
 C Krag'wa's Chosen|QID|48090|M|79.38,53.84|QO|3|U|158071|NC|N|Throw the potion at Wok'grug the Clever.|
 C Krag'wa's Chosen|QID|48090|M|82.35,55.68|QO|1|U|158071|NC|N|Throw the potion on Wag'shash the Bold.|
-$ Lost Scroll|QID|50565|M|81.68,61.08|QO|1|T|Enraged Water Elemental|N|Click on the Lost Scroll lying on this island to summon a Silver Elite to kill and loot for resources and artifact power.|RANK|2|;ITEM unknown
+$ Lost Scroll|QID|50565|M|81.68,61.08|QO|1|T|Enraged Water Elemental|N|Click on the Lost Scroll lying on this island to summon a Silver Elite to kill and loot for resources and artifact power.|RANK|2|RARE|;ITEM unknown
 C Vengeance of the Frogs|QID|48092|M|85.11,54.95|QO|1|N|Kill Priestess Zaldraxia.|
 C Krag'wa's Chosen|QID|48090|M|80.37,50.27|QO|2|U|158071|NC|N|Throw the potion on Krol'dra the Wise.|
 K Naga|QID|50435|M|80.91,46.77|L|157797|N|Kill the Vilescale Naga in the area until you get a Vilescale Pearl.|RANK|3|PRE|47442|
@@ -563,7 +568,7 @@ C Earn Their Trust|QID|49378|S|QO|2|M|60.75,58.29|N|Kill Blood trolls so your Cr
 C Crawg Free Zone|QID|49379|M|61.53,56.49|S|N|Kill Battle Crawgs as you go.|
 C Bad Juju|QID|49380|M|60.17,53.47|QO|1|U|153678|NC|N|Use the sample bottle to drain the Western Blood Orb.|
 C Bad Juju|QID|49380|M|60.49,55.97|QO|3|U|153678|NC|N|Use the Sample Bottle to drain the Southern Blood Orb.|
-K Warmother Nagla|QID|49377|M|62.19,57.25|QO|1|T|Warmother Nagla|N|Loot Nagla's Head|RANK|3|
+K Warmother Nagla|ACTIVE|49377|M|62.19,57.25|QO|1|T|Warmother Nagla|N|Loot Nagla's Head.|RANK|3|
 C Bad Juju|QID|49380|M|62.20,54.40|QO|2|U|153678|NC|N|Use the Sample Bottle to drain the Eastern Blood Orb.|
 C Crawg Free Zone|QID|49379|M|61.53,56.49|US|N|Finish your quota of Battle Crawgs.|
 C Earn Their Trust|QID|49378|US|QO|2|M|60.75,58.29|N|Finish feeding your Crawgling.|
@@ -572,7 +577,7 @@ T Off With Her Head|QID|49377|M|63.16,52.70|N|To Guard Satao.|
 T Earn Their Trust|QID|49378|M|63.18,52.73|N|To Chronicler Jabari.|
 T Crawg Free Zone|QID|49379|M|63.18,52.73|N|To Chronicler Jabari.|
 A It Seems You've Made a Friend|QID|49382|M|63.18,52.73|N|From Chronicler Jabari.|RANK|3|PRE|49378;49377;49379;49380|
-K Glompmaw|QID|50361|M|68.94,55.84|T|Glompmaw|QO|1|ITEM|160985|N|Silver Elite to kill for resources and artifact power.|RANK|3|
+K Glompmaw|QID|50361|M|68.94,55.84|T|Glompmaw|QO|1|RARE|ITEM|160985|N|Silver Elite to kill for resources and artifact power.|RANK|3|
 C It Seems You've Made a Friend|QID|49382|M|74.71,55.89|NC|N|Run to Krag'wa.|
 T It Seems You've Made a Friend|QID|49382|M|75.46,56.72|N|To Krag'wa the Huge. Note, the pet is cage-able if you already have one.|
 
@@ -584,13 +589,13 @@ A Revenge: Served Hot|QID|47599|M|74.78,39.04|N|From Tickler.|PRE|47631|
 A The Libation's Liberation|QID|47756|M|75.05,37.17|N|Bonus Objective - Autoaccepted.|LVL|-120|
 C The Libation's Liberation|QID|47756|M|75.05,37.17|S|N|Bonus Objective - Kill Naga and bandage injured soldiers to complete.|
 C Revenge: Served Hot|QID|47599|M|79.96,32.26|QO|1|U|151363|NC|S|N|Target a Vilescale Behemoth and use the provided Rocket Laucher as you go.|
-K Krubbs|QID|48052|M|75.85,36.22|QO|1|ITEM|161110|T|Krubbs|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K Krubbs|QID|48052|M|75.85,36.22|QO|1|RARE|ITEM|161110|T|Krubbs|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 $ Lucky Horace's Lucky Chest|QID|49867|M|77.66,36.14|N|Loot for resources and artifact power.|RANK|2|
 C No Goblin Left Behind|QID|47597|M|79.30,36.73|QO|2|NC|N|Click on the escape pod to rescue Newt.|
 C No Goblin Left Behind|QID|47597|M|79.97,32.35|QO|3|NC|N|Click on the cage to recuse Volt.|
 C No Goblin Left Behind|QID|47597|M|76.99,32.66|QO|1|NC|N|Kill his torturers, then click on Grit to rescue.|
 C Revenge: Served Hot|QID|47599|M|79.96,32.26|NC|U|151363|US|N|Target a Vileschale Behemoth and use the Rocket Launcher.|
-$ Cused Treasure Chest|QID|48057|M|81.78,30.53|QO|1|T|Captain Mu'kala|N|Attempting to open the chest summons Silver Elite, Captain Mu'kala, opon killing him, the chest can be opened. Loot it for resources and artifact power.|ITEM|161115|RANK|2|
+$ Cused Treasure Chest|QID|48057|M|81.78,30.53|QO|1|T|Captain Mu'kala|N|Attempting to open the chest summons Silver Elite, Captain Mu'kala, opon killing him, the chest can be opened. Loot it for resources and artifact power.|RARE|ITEM|161115|RANK|2|
 C The Libation's Liberation|QID|47756|M|78.37,30.34|US|N|Bonus Obective - Complete by killing Naga and Bandaging Sailors.|
 T The Libation's Liberation|QID|47756|M|78.37,30.34|N|Bonus Objective - Autocompleted.|
 f Forlorn Ruins|ACTIVE|47599|M|82.15,26.70|N|At Zibir the Wingmaster.|
@@ -601,7 +606,7 @@ A Pilfering and Fencing|QID|47598|M|82.27,27.42|N|From Newt.|PRE|47599;47597|
 A There Is No Plan "B"|QID|47596|M|82.38,27.21|N|From Ticker.|PRE|47599;47597|
 C Pilfering and Fencing|QID|47598|M|77.90,24.88|QO|1|S|N|Kill Naga and loot them to obtain the Ancient Titan Relics as you go.|
 C There Is No Plan "B"|QID|47596|M|79.16,27.42|QO|2|NC|N|Pick up Broken Elevating Gears.|
-K Lord Slithin|QID|47711|QO|1|M|78.67,25.28|T|Lord Slithin|N|Kill Lord Slithin.|
+K Lord Slithin|ACTIVE|47711|QO|1|M|78.67,25.28|T|Lord Slithin|N|Kill Lord Slithin.|
 C There Is No Plan "B"|QID|47596|M|77.63,25.28|QO|1|NC|N|Pick up the Damaged A.M.O.D. Barrel|
 C There Is No Plan "B"|QID|47596|M|79.55,22.23|QO|3|NC|N|Pick up the Shattered Firing Mechanism.|
 C Pilfering and Fencing|QID|47598|M|80.45,23.86|US|N|Finish collecting the Ancient Titan Relics.|
@@ -619,7 +624,7 @@ T Ready For Action|QID|47602|M|67.42,42.24|N|To Princess Talanji.|
 
 ;Everything Contained
 A Slumber No More|QID|49932|M|67.50,41.95|N|From Lashk.|PRE|47602|
-C WANTED: Ayame|QID|52477|M|60.04,33.79|QO|1|S|T|Ayame|N|Kill Ayame. Avoid, interrupt or dispell the acid spit and its not too hard. You may want to be on the lookout for a partner while you are doing this next set of quests for the Titan.|
+K Ayame|ACTIVE|52477|M|60.04,33.79|QO|1|S|T|Ayame|N|Kill Ayame. Avoid, interrupt or dispell the acid spit and its not too hard. You may want to be on the lookout for a partner while you are doing this next set of quests for the Titan.|
 $ Lost Nazmani Treasure|QID|49891|M|62.32,36.18;62.09,34.92|CS|S|N|Pick up this treasure, in an underwater cave, while running to or from Ayame. Loot to finish the treasure achievement and of course for resources.|RANK|2|
 C Slumber No More|QID|49932|M|66.91,38.83|QO|1|NC|N|Click on the Deactivated titan keeper.|
 C Slumber No More|QID|49932|M|66.98,38.81|QO|2|NC|N|Click on the Damaged Core.|
@@ -631,18 +636,18 @@ A How to Repair a Titan Keeper|QID|49935|M|66.89,38.92|N|From Titan Keeper Hezre
 C Recovering Remnants|QID|49937|M|67.51,33.74|S|N|Kill the Nazwathan Spectres to collect the titan plating.|
 C Corrupted Earth|QID|49938|M|65.75,35.00|S|N|Kill Blood-Infused Lashers as you go.|
 C How to Repair a Titan Keeper|QID|49935|M|69.25,39.77|QO|1|NC|N|Pick up Keeper Shavras's core.|
-K Keeper Bolcan|QID|49935|M|66.20,33.66|QO|2|T|Keeper Bolcan|N|Defeat Keeper Bolcan and then collect his core.|
+K Keeper Bolcan|ACTIVE|49935|M|66.20,33.66|QO|2|T|Keeper Bolcan|N|Defeat Keeper Bolcan and then collect his core.|
 C Corrupted Earth|QID|49938|M|65.75,35.00|US|N|Finish wiping out the Blood-Infused Lashers.|
 C Recovering Remnants|QID|49937|M|67.51,33.74|US|N|Finish collecting the Titan Plating.|
 $ Lost Nazmani Treasure|QID|49891|M|62.32,36.18;62.09,34.92|CS|US|N|Pick up this treasure, in an underwater cave, while running to or from Ayame. Loot to finish the treasure achievement and of course for resources.|RANK|2|
-C WANTED: Ayame|QID|52477|M|60.04,33.79|QO|1|US|T|Ayame|N|Kill Ayame. Avoid, interrupt or dispell the acid spit and its not too hard. You may want to be on the lookout for a partner while you are doing this next set of quests for the Titan.|
+K Ayame|ACTIVE|52477|M|60.04,33.79|QO|1|US|T|Ayame|N|Kill Ayame. Avoid, interrupt or dispell the acid spit and its not too hard. You may want to be on the lookout for a partner while you are doing this next set of quests for the Titan.|
 T Recovering Remnants|QID|49937|M|68.69,35.12|N|To Titan Keeper Hezrel.|
 T Corrupted Earth|QID|49938|M|68.69,35.12|N|To Titan Keeper Hezrel.|
 T How to Repair a Titan Keeper|QID|49935|M|68.69,35.12|N|To Titan Keeper Hezrel.|
 A Bone Procession|QID|49941|M|68.69,35.12|N|From Titan Keeper Hezrel.|PRE|49938;49937;49935|
 A Unwelcome Undead|QID|49949|M|68.69,35.12|N|From Titan Keeper Hezrel.|PRE|49938;49937;49935|
 A Blood Purification|QID|49950|M|69.22,33.77|N|From Minor Corruption.|PRE|49938;49937;49935|
-K Ancient Jawbreaker|QID|48063|M|67.58,29.77|QO|1|ITEM|161113|T|Ancient Jawbreaker|N|Silver Elite to kill for resources and artifact power.|RANK|2|
+K Ancient Jawbreaker|QID|48063|M|67.58,29.77|QO|1|RARE|ITEM|161113|T|Ancient Jawbreaker|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 C Blood Purification|QID|49950|M|71.71,32.65|S|NC|N|Click on the floating balls of Corrupted Energy to destroy them as you go.|
 C Unwelcome Undead|QID|49949|M|70.23,33.75|S|N|Kill Nazwathan undead as you go.|
 C Bone Procession|QID|49941|M|71.58,32.83|U|156528|N|Use the Titan Manipulater to weaken the Reanimated Monstrosities and collect thier bones when dead.|
@@ -659,13 +664,13 @@ A Protocol Recovery|QID|49957|M|68.66,35.12|N|From Titan Keeper Hezrel.|PRE|4995
 C Not Fit for This Plane|QID|49955|M|71.10,29.58|S|N|Kill Faceless Ones as you proceed towards the Seal of Nazmir. *large building*|
 C Void is Prohibited|QID|49956|M|70.95,29.09|U|156542|NC|N|Use the Void Disrupter to seal the Void Portals.|
 C Not Fit for This Plane|QID|49955|M|71.10,29.58|US|N|Finish off the Faceless Ones before you go inside.|
-K Overlord Kraxis|QID|49957|M|72.58,29.16|QO|1|T|Overlord Kraxis|N|Kill Overlord Kraxis to recover the Containment Protocol.|
+K Overlord Kraxis|ACTIVE|49957|M|72.58,29.16|QO|1|T|Overlord Kraxis|N|Kill Overlord Kraxis to recover the Containment Protocol.|
 T Not Fit for This Plane|QID|49955|M|72.47,29.38|N|To Titan Keeper Hezrel.|
 T Void is Prohibited|QID|49956|M|72.47,29.38|N|To Titan Keeper Hezrel.|
 T Protocol Recovery|QID|49957|M|72.47,29.38|N|To Titan Keeper Hezrel.|
 A Containment Procedure|QID|49980|M|72.47,29.38|N|From Titan Keeper Hezrel.|PRE|49956;49957;49955|
 C Containment Procedure|QID|49980|M|72.47,29.38|QO|1|CHAT|N|Tell Titan Keeper Hezrel to begin and watch the scene.|
-K Grand Ma'da Ateena|QID|49980|M|72.85,28.99|QO|2|T|Grand Ma'da Ateena|N|Attempt to defeat Grand Ma'da Ateena.|
+K Grand Ma'da Ateena|ACTIVE|49980|M|72.85,28.99|QO|2|T|Grand Ma'da Ateena|N|Attempt to defeat Grand Ma'da Ateena.|
 T Containment Procedure|QID|49980|M|72.47,29.37|N|To Titan Keeper Hezrel.|
 A Return to Gloom Hollow|QID|49985|M|72.47,29.37|N|From Titan Keeper Hezrel.|PRE|49980|
 C Return to Gloom Hollow|QID|49985|M|66.01,39.13|QO|1|NC|N|Hop on Titan Keeper Hezrel for a ride back to Gloom Hollow.|
@@ -676,7 +681,7 @@ t WANTED: Ayame|QID|52477|M|67.76,41.85|N|To Korkush.|
 ;bleeding the blood trolls
 C Down by the Riverside|QID|49569|M|65.70,45.09|QO|1|CHAT|N|Speak with Patch to board the barge|
 C Down by the Riverside|QID|49569|M|39.89,84.92|QO|2|NC|N|Use the "1" key to destroy enemies as you sail down the river, at one point, near zuldazar, use the "2" key to destroy the big water serpent.|
-K Blood Priest Xak'lar|QID|48541|M|43.20,90.55;43.27,91.37|CS|QO|1|T|Blood Priest Xak'lar|N|Into this cave to kill a Silver Elite for artifact power and resources.|RANK|2|;item unknown
+K Blood Priest Xak'lar|QID|48541|M|43.20,90.55;43.27,91.37|CS|QO|1|T|Blood Priest Xak'lar|N|Into this cave to kill a Silver Elite for artifact power and resources.|RANK|2|RARE|;item unknown
 t WANTED: Tojek|QID|51089|M|39.12,79.87|N|To Rovash the One Eyed.|
 T Down by the Riverside|QID|49569|M|39.41,78.17|N|To Princess Talanji.|
 A Rally the Warriors|QID|50076|M|39.41,78.17|N|From Princess Talanji.|PRE|49569|
@@ -716,14 +721,14 @@ C What Rots Beneath|QID|51244|M|50.45,58.33|QO|1|NC|N|Fly down to the Altar of R
 
 R Tul'vor|AVAILABLE|50083|M|45.45,53.51;45.21,60.54|CS|N|Run accross the bridge and back to where Talanji dueled Grand Ma'da Ateena to find another quest.|RANK|3|
 A The Crawg Ma'da|QID|50083|M|45.34,58.59|N|From Rokhan.|RANK|3|PRE|50323|
-C The Crawg Ma'da|QID|50083|QO|2|M|46.99,54.11|U|156868|T|Amaka the Crawg Ma'da|N|Optionally, if you have one, you can use the poison gland to weaken and do additional damage to Amaka.|
+K Amaka the Crawg Ma'da|ACTIVE|50083|QO|2|M|46.99,54.11|U|156868|T|Amaka the Crawg Ma'da|N|Optionally, if you have one, you can use the poison gland to weaken and do additional damage to Amaka.|
 T The Crawg Ma'da|QID|50083|M|48.53,53.54|N|To Rokhan.|
 A A Message of Blood and Fire|QID|50085|M|48.53,53.54|N|From Rokhan.|PRE|50083|RANK|3|;may be spurious, but quest isnt avail until you turn in The Crawg Ma'da
 A Raiding the Raiders|QID|50080|M|48.46,52.69|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|3|PRE|50079;50081|
 C Raiding the Raiders|QID|50080|M|48.46,52.69|S|N|Bonus Objective - Kill blood trolls, rescue captives and pick up the crates to complete.|
 C A Message of Blood and Fire|QID|50085|M|48.85,52.58|U|156931|S|NC|N|Use the wand to set huts on fire, some will take more than one torching to find the right spot.|
-K Wardrummer Zurula|QID|48623|M|48.14,58.04;48.91,51.19;48.96,50.83|CS|QO|1|T|Wardrummer Zurula|N|And back up taking the path at the first waypoint to find yet another Silver Elite at the top of the tower to kill for artifact power and resources.|RANK|3|;item unknown
-K Jax'teb the Reanimated|QID|50307|M|45.17,51.79|QO|1|ITEM|160969|T|Jax'teb the Reanimated|N|One more Silver Elite to kill and loot for artifact power and resources.|RANK|3|
+K Wardrummer Zurula|QID|48623|M|48.14,58.04;48.91,51.19;48.96,50.83|CS|QO|1|T|Wardrummer Zurula|N|And back up taking the path at the first waypoint to find yet another Silver Elite at the top of the tower to kill for artifact power and resources.|RANK|3|RARE|;item unknown
+K Jax'teb the Reanimated|QID|50307|M|45.17,51.79|QO|1|RARE|ITEM|160969|T|Jax'teb the Reanimated|N|One more Silver Elite to kill and loot for artifact power and resources.|RANK|3|
 C A Message of Blood and Fire|QID|50085|M|48.85,52.58|U|156931|US|NC|N|Use the wand to set huts on fire, some will take more than one torching to find the right spot.|
 C Raiding the Raiders|QID|50080|M|45.34,58.59|US|N|Bonus Objective - Finish this up before you leave (or not as you choose).|
 T Raiding the Raiders|QID|50080|M|45.34,58.59|S|N|Bonus Objective - Autocompleted.|
@@ -735,8 +740,8 @@ T What Rots Beneath|QID|51244|M|51.73,65.69|N|To Titan Keeper Hezrel.|
 A The Underrot: Sealing G'huun's Corruption|QID|51302|M|51.73,65.69|NA|N|From Titan Keeper Hezrel. This is a dungeon quest.|RANK|2|PRE|51244|
 A Halting the Empire's Fall|QID|50808|M|51.91,65.56|N|From Rokhan.|PRE|51244|
 F Zul'jan Ruins|ACTIVE|50808|M|51.91,65.56|N|Queue if you want to do the dugeon now or ask Rokhan for a ride back to Zul'jan. Alternatively check this off manually and hearth to The Great Seal.|RANK|-1|
-K Queen Tzxi'kik|QID|49312|M|53.07,65.50;55.60,65.91;55.84,70.15;55.77,69.23;57.69,67.67|CS|QO|1|T|Queen Tzxi'kik|N|Run up the hill to find this Silver Elite and kill for artifact power and resources.|RANK|3|
-K Overstuffed Saurolisk|QID|47827|M|62.47,64.67|QO|1|ITEM|160987|T|Overstuffed Saurolisk|N|Silver Elite, not part of the achievement, but hey, we were in the area.|
+K Queen Tzxi'kik|QID|49312|M|53.07,65.50;55.60,65.91;55.84,70.15;55.77,69.23;57.69,67.67|CS|QO|1|T|Queen Tzxi'kik|RARE|ITEM|160963|N|Run up the hill to find this Silver Elite and kill for artifact power and resources.|RANK|3|
+K Overstuffed Saurolisk|QID|47827|M|62.47,64.67|QO|1|RARE|ITEM|160987|T|Overstuffed Saurolisk|N|Silver Elite, not part of the achievement, but hey, we were in the area.|
 A Taking the Loa Road|QID|50444|M|53.99,74.09|N|Click on the mysterious trashpile, to Summon Jani who will offer this quest.|PRE|47442|RANK|3|;not spurious
 C Taking the Loa Road|QID|50444|QO|1|M|53.99,74.09;59.60,68.91|CS|N|Ask Jani for a disguise then run down the road (or just off the road to avoid mobs) till you see a glowing spot on the road.|
 C Taking the Loa Road|QID|50444|QO|2|M|59.71,68.64|N|Click on the glowing coin in the middle of the road.|
@@ -744,9 +749,9 @@ C Taking the Loa Road|QID|50444|QO|3|M|59.30,68.65|N|Back off a little ways and 
 T Taking the Loa Road|QID|50444|M|53.99,74.09|N|To Jani.|
 A An Ancient Curse|QID|50976|M|52.92,72.06|N|From an Ancient Tablet.|RANK|3|
 C An Ancient Curse|QID|50976|QO|1|M|52.48,73.87;51.72,71.83;54.06,72.10;54.41,70.79;54.54,69.26|CS|N|Click to light the braziers, which summons Aiji.|
-K Aiji the Accursed|QID|50976|QO|2|M|52.99,72.06|T|Aiji the Accursed.|N|Kill Aiji the Accursed.|RANK|3|
+K Aiji the Accursed|ACTIVE|50976|QO|2|M|52.99,72.06|T|Aiji the Accursed.|N|Kill Aiji the Accursed.|RANK|3|
 T An Ancient Curse|QID|50976|M|52.99,72.06|N|To UI Alert.|
-K Azerite-Infused Elemental|QID|50569|M|54.01,81.15|QO|1|T|Azerite-Infused Elemental|N|Silver Elite for artifact power and resources.|RANK|3|;item unknown
+K Azerite-Infused Elemental|QID|50569|M|54.01,81.15|QO|1|T|Azerite-Infused Elemental|N|Silver Elite for artifact power and resources.|RARE|RANK|3|;item unknown
 
 H The Great Seal|ACTIVE|50808|M|51.91,65.56|N|To The Great Seal to turn in the final quest.|
 T Halting the Empire's Fall|QID|50808|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
