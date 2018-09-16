@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-09-15 19:23
+-- Who: Emmaleah
+-- Log: Add |RARE tag to all Silver Elite Mobs, changed all C steps, that had |T|, to K steps; on those made sure had QO tag, changed QID to ACTIVE
+
+-- URL: http://wow-pro.com/node/3763/revisions/29732/view
 -- Date: 2018-09-11 18:30
 -- Who: Emmaleah
 -- Log: Add missing QO|1| to K Bramblethorn|QID|50238| - thanks Ikibewn
@@ -210,7 +215,7 @@ A Signs and Portents|QID|47968|M|56.13,35.26|N|From Mayor's Bulletin.|PRE|48622|
 A Fallhaven's Curse|QID|47969|M|56.13,35.26|N|Bonus Objective - Autoaccepted.|LVL|-120|
 C Fallhaven's Curse|QID|47969|M|56.13,35.26|S|N|Bonus Objective: attack everything related to the curse.|
 C Signs and Portents|QID|47968|QO|2|M|57.96,35.70|N|Find Rancher's Letter lying on the ground.|
-K Betsy|QID|47884|QO|1|M|58.46,33.16|N|Silver Elite to kill and loot for azerite power and resources.|T|Betsy|ITEM|160463|RANK|2|
+K Betsy|QID|47884|QO|1|M|58.46,33.16|N|Silver Elite to kill and loot for azerite power and resources.|T|Betsy|RARE|ITEM|160463|RANK|2|
 C Signs and Portents|QID|47968|QO|3|M|55.21,35.98|N|Ava's Note is inside, lying on a little ton.|
 C Signs and Portents|QID|47968|QO|1|M|53.22,35.13|N|Find Farmer's Journal.|
 T Signs and Portents|QID|47968|M|55.73,35.66|N|To Fallhaven Ledger on the table.|
@@ -222,8 +227,8 @@ A Cracking the Curse|QID|47981|M|60.55,31.48|N|From spellbook at exit of Helena'
 A Furious Familiars|QID|47980|M|60.81,30.74|N|From dead Fallhaven Villager lying on the ground.|PRE|47979|
 C Furious Familiars|QID|47980|S|N|Kill Enthralled Wildlife as you go.|
 C Cracking the Curse|QID|47981|M|59.57,28.29;57.62,27.80;57.54,30.06;56.18,29.13|S|CN|NC|N|Destroy Lesser Effigies.|
-K Balethorn|QID|49602|QO|1|M|59.57,29.29|T|Balethorn|N|Silver Elite to kill for azerite power and resources. He paths around the four effigies you need to destroy.|ITEM|160475|RANK|2|
-C Witch Hunt|QID|47979|QO|2|M|57.86,28.19|N|Kill Helena Gentle.|T|Helena Gentle|
+K Balethorn|QID|49602|QO|1|M|59.57,29.29|T|Balethorn|N|Silver Elite to kill for azerite power and resources. He paths around the four effigies you need to destroy.|RARE|ITEM|160475|RANK|2|
+K Helena Gentle|ACTIVE|47979|QO|2|M|57.86,28.19|N|Kill Helena Gentle.|T|Helena Gentle|
 T Witch Hunt|QID|47979|M|57.86,28.19|N|To UI Alert.|
 C Cracking the Curse|QID|47981|M|59.57,28.29;57.62,27.80;57.54,30.06;56.18,29.13|US|CN|NC|N|Finish destroying the Lesser Effigies.|
 C Furious Familiars|QID|47980|M|56.18,29.13|US|N|Finish killing the needed Enthralled Wildlife.|
@@ -233,7 +238,7 @@ T Fallhaven's Curse|QID|47969|M|57.24,35.34|N|Bonus Objective - autocompleted.|
 T Cracking the Curse|QID|47981|M|55.93,35.11|N|To Cursed Effigy.|
 A The Final Effigy|QID|47982|M|55.93,35.11|N|From Cursed Effigy.|PRE|47980;47981|
 C The Final Effigy|QID|47982|QO|1|M|55.93,35.11|N|Break Cursed Effigy.|
-C The Final Effigy|QID|47982|QO|2|M|55.93,35.11|N|Kill Deathcursed Terror.|T|Deathcursed Terror|
+K Deathcursed Terror|ACTIVE|47982|QO|2|M|55.93,35.11|N|Kill Deathcursed Terror.|T|Deathcursed Terror|
 T The Final Effigy|QID|47982|M|55.95,35.14|N|To Cyril White.|
 A The Waycrest Daughter|QID|48108|M|55.95,35.14|N|From Cyril White.|PRE|47982|
 
@@ -244,7 +249,7 @@ A The North Pass Caverns|QID|48948|M|55.15,35.17|N|From Maude Rifthold.|PRE|4798
 h The Swine's Larder|ACTIVE|48948|M|55.50,34.26|N|At Dinah Wellard.|
 
 ; Adventurer's Society
-$ Obviously Safe Chest|QID|49481|M|50.57,30.06|T|Beshol|N|This obviously safe chest isn't quite as unprotected as it looks, kill the giant Silver Elite spider and it is yours.|ITEM|158363|RANK|3|
+$ Obviously Safe Chest|QID|49481|M|50.57,30.06|T|Beshol|N|This obviously safe chest isn't quite as unprotected as it looks, kill the giant Silver Elite spider and it is yours.|RARE|ITEM|158363|RANK|3|
 K Rindlewoe|QID|51547|QO|1|M|52.28,26.66|N|Rindlewoe slain - He is found at the end of the stream at the waterfall - optional- possible alone.|T|Rindlewoe|RANK|3|
 T The North Pass Caverns|QID|48948|M|53.92,26.99|N|To Thaddeus "Gramps" Rifthold is i the woods. There is a path up the hill that goes from the field where you found the farmer's journal at the back off Fallhaven.|
 A The Adventurer's Society|QID|48793|M|53.92,26.99|N|From Thaddeus "Gramps" Rifthold.|RANK|2|
@@ -265,7 +270,7 @@ l "Genuine Titan Disc"|QID|48805|QO|2|M|51.60,21.91|L|152703|N|On the ground in 
 l "Ancient Potsherds"|QID|48805|QO|3|M|51.07,22.45|L|152699|N|On the ground to the left.|RANK|2|
 C Mistakes Were Made|QID|48804|QO|3|M|50.63,22.11|NC|N|Click on Euphemia Batten-Chase to save her.|
 l "Relic of the Makers"|QID|48805|QO|1|M|50.75,20.22|L|152704|N|On higher ground at the back.|RANK|2|
-K Grozgore|QID|49388|QO|1|M|50.29,20.74|N|Silver Elite to loot for azerite power and resources.|ITEM|160457|RANK|2|T|Grozgore|
+K Grozgore|QID|49388|QO|1|M|50.29,20.74|N|Silver Elite to loot for azerite power and resources.|RARE|ITEM|160457|RANK|2|T|Grozgore|
 T Mistakes Were Made|QID|48804|M|50.63,24.31|N|To Marcus Howlingdale acrros the bridge.|
 T Research Recovery|QID|48805|M|50.63,24.31|N|To Marcus Howlingdale.|
 A Terminal Degree|QID|48853|M|50.63,24.31|N|From Marcus Howlingdale.|PRE|48792;48804|RANK|2|
@@ -299,7 +304,7 @@ T Cured Ham|QID|47950|M|63.24,27.04|N|To Thomas Staughton.|
 
 ; Wicker Worship
 f Barbthorn Ridge|AVAILABLE|48677|M|62.62,23.98|N|Follow the route to the north and find Anna Ridgeley before the bridge to the left.|RANK|2|
-K Whargarble the Ill-Tempered|QID|51871;49311|QO|1|M|64.97,21.37|ITEM|155543|T|Whargarble the Ill-Tempered|N|Silver Elite to kill and loot for some azerite power and resources.|RANK|2|
+K Whargarble the Ill-Tempered|QID|51871;49311|QO|1|M|64.97,21.37|RARE|ITEM|155543|T|Whargarble the Ill-Tempered|N|Silver Elite to kill and loot for some azerite power and resources.|RANK|2|
 A Wicker Worship|QID|48677|M|62.54,23.94|N|From David Maldus.|RANK|2|
 R Autumnvale|ACTIVE|48677|M|59.50,21.97|N|Before the bridge go left and follow the route to Autumvale.|RANK|2|
 T Wicker Worship|QID|48677|M|59.44,21.91|N|To Lord Autumnvale.|
@@ -310,7 +315,7 @@ T Questionable Offerings|QID|48678|M|59.44,21.91|N|To Lord Autumnvale.|
 A Not the Bees!|QID|48680|M|59.44,21.96|N|Bonus Objective - Autoaccepted.|PRE|48678|LVL|-120|RANK|2|
 A Mind the Hives|QID|48679|M|59.44,21.96|N|From Lord Autumnvale.|PRE|48678|RANK|2|
 C Not the Bees!|QID|48680|M|59.44,21.96|S|N|Bonus Objective - Knock down the hives, kill the bees and burn the effigies.|
-K Barbthorn Queen|QID|48842|QO|1|M|58.89,18.62|T|Barbthorn Queen|N|Silver Elite to kill and loot for azerite power and resources.|ITEM|155425|RANK|2|
+K Barbthorn Queen|QID|48842|QO|1|M|58.89,18.62|T|Barbthorn Queen|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|155425|RANK|2|
 C Mind the Hives|QID|48679|M|60.60,17.43|N|Find Edwin in the back of the cave then drive back the Barbthorn Swarm.|
 C Not the Bees!|QID|48680|M|60.57,17.45|US|N|Finish this bonus objective before leaving the area.|
 T Not the Bees!|QID|48680|M|60.57,17.45|N|Bonus Objective - Autocompleted.|
@@ -336,11 +341,11 @@ T Kitty?|QID|47428|M|55.60,41.19|N|To Smoochums sitting on a rock with a backpac
 A The Accursed Thicket|QID|45972|M|55.60,41.19|N|Bonus Objective - Autoaccepted.|PRE|47428|LVL|-120|RANK|2|
 A The Village of Glenbrook|QID|45079|M|55.60,41.19|N|From Glenbook Register.|PRE|47428|RANK|2|
 C The Accursed Thicket|QID|45972|M|55.60,41.19|S|N|Burn charms, destroy fetishes and kill the accursed wildlife to complete the bonus objective.|
-K Gorehorn|QID|49480|QO|1|M|57.23,44.18|T|Gorehorn|N|Silver Elite to kill and loot for azerite power and resources.|ITEM|158710|RANK|2|
+K Gorehorn|QID|49480|QO|1|M|57.23,44.18|T|Gorehorn|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|158710|RANK|2|
 C The Village of Glenbrook|QID|45079|QO|2|M|57.17,46.43|CHAT|N|In a cave. Look at body of Jonathan Hayes and investigate. Then take the letter|
 C The Village of Glenbrook|QID|45079|QO|3|M|55.50,45.31|NC|N|Look at Samuel Hawthorne's axe on the ground.|
 C The Village of Glenbrook|QID|45079|QO|1|M|53.14,44.44|NC|N|Look at Mary's book on the ground inside a cave.|
-$ Beastly Ritual Skull|QID|49216|QO|1|M|52.07,46.97|N|Click on the skull to start the vignette ending with killing Silver Elite for azerite power and resources.|T|Cottentail Matron|ITEM|163036|RANK|2|
+$ Beastly Ritual Skull|QID|49216|QO|1|M|52.07,46.97|N|Click on the skull to start the vignette ending with killing Silver Elite for azerite power and resources.|T|Cottentail Matron|RARE|ITEM|163036|RANK|2|
 T The Village of Glenbrook|QID|45079|M|54.74,49.13|N|To Annie Warren in yet a other cave.|
 A Tea Party|QID|44785|M|54.74,49.13|N|From Annie Warren.|PRE|45079|RANK|2|
 C Tea Party|QID|44785|QO|1|M|56.35,49.15|NC|N|Follow Abby Lewis.|
@@ -351,14 +356,14 @@ $ Bespelled Chest|QID|53472|M|55.60,51.83|N|Click on any of the Witch Torches to
 C The Accursed Thicket|QID|45972|QO|1|M|58.18,47.91|US|N|Finish purging the woods for this bonus objective.|
 T The Accursed Thicket|QID|45972|M|58.18,47.91|N|Bonus Objective - Autocompleted.|
 
-K Longfang/Henry Breakwater|QID|48981|QO|1|M|56.5,50.5;59.36,55.40|CS|ITEM|160468|N|Decide which of them to help and talk to them to offer your help. Silver Elite to kill for azerite power and resources.|RANK|3|
+K Longfang/Henry Breakwater|QID|48981|QO|1|M|56.5,50.5;59.36,55.40|CS|RARE|ITEM|160468|N|Decide which of them to help and talk to them to offer your help. Silver Elite to kill for azerite power and resources.|RANK|3|
 
 ; Seeing Spirits (optional)
 A Seeing Spirits|QID|48475|M|62.61,42.99|N|From Caretaker Allen.|RANK|3|
 A Crypt Keepers|QID|48474|M|62.61,42.99|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|3|
 C Crypt Keepers|QID|48474|M|62.61,42.99|S|N|Kill the enraged spirits and other wildlife, clean up the neglected gravestones and destroy corrupting circles to cleanse the cemetery for this bonus objective.|
 C Seeing Spirits|QID|48475|QO|1|M|60.39,45.89|S|NC|N|Collect Graveblooma.|
-K Nevermore|QID|49601|QO|1|M|59.96,45.52|T|Nevermore|N|Silver Elite to kill and loot for azerite power and resources.|ITEM|160456|RANK|3|
+K Nevermore|QID|49601|QO|1|M|59.96,45.52|T|Nevermore|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|160456|RANK|3|
 C Seeing Spirits|QID|48475|QO|1|M|59.99,45.85|US|NC|N|Finish collecting the needed Graveblooms.|
 C Seeing Spirits|QID|48475|QO|2|M|59.99,45.85|NC|N|Click on the pot to create the salve out of the collected graveblooms and then apply it.|
 C Seeing Spirits|QID|48475|QO|3|M|60.76,46.63|NC|N|Click on Aaron Cresterly to free him|
@@ -371,7 +376,7 @@ C Looking For One More|QID|48477|M|58.84,50.70|N|Kill Sister Westwood.|
 T Looking For One More|QID|48477|M|59.50,51.22|N|To Mercy Fairwater.|
 C Crypt Keepers|QID|48474|M|61.70,44.16|US|N|Finish up the bonus objective before leaving the area.|
 T Crypt Keepers|QID|48474|M|61.70,44.16|N|Bonus Objective - Autocompleted.|
-$ Emily Mayville|QID|49530|M|63.41,40.18|T|Emily Mayville|CHAT|N|Ask her why she is crying, ends with killing her - Silver Elite to loot for azerite power and resources.|ITEM|160447|RANK|3|
+$ Emily Mayville|QID|49530|M|63.41,40.18|T|Emily Mayville|CHAT|N|Ask her why she is crying, ends with killing her - Silver Elite to loot for azerite power and resources.|RARE|ITEM|160447|RANK|3|
 
 ; The Witch Trial
 R Hangman's Point|ACTIVE|48108|M|69.53,42.60|N|Run east down the coast road.|
@@ -399,7 +404,7 @@ C Once Bitten, Twice Shy|QID|48170|QO|1|M|69.5, 43.7|NC|N|Pick up the Bug-Catchi
 C Once Bitten, Twice Shy|QID|48170|QO|2|M|49.52,43.87|NC|S|N|Click on the hovering bloodflies to capture them.|
 A Quill or Be Quilled|QID|49242|M|66.91,42.17|N|From Adela Hawthorne.|PRE|48111|
 C Quill or Be Quilled|QID|49242|M|66.41,42.09|S|N|Kill the invading quillrats.|
-K Quillrat Matriarch|QID|48178|QO|1|M|66.57,42.56|T|Quillrat Matriarch|ITEM|158583|N|Silver Elite to kill and loot for azerite power and resources.|RANK|2|
+K Quillrat Matriarch|QID|48178|QO|1|M|66.57,42.56|T|Quillrat Matriarch|RARE|ITEM|158583|N|Silver Elite to kill and loot for azerite power and resources.|RANK|2|
 C A Pungent Solution|QID|48113|M|66.41,42.09|NC|N|Pick up a Juicy Onion.|
 C Quill or Be Quilled|QID|49242|M|66.41,42.09|US|N|Finish killing the Invasive Quillrats.|
 T Quill or Be Quilled|QID|49242|M|66.88,42.13|N|To Adela Hawthorne.|
@@ -435,7 +440,7 @@ T Mean Gulls|QID|48880|M|71.76,50.46|N|To Art Hughie.|
 T Take the Bait|QID|48904|M|71.76,50.46|N|To Art Hughie.|
 T I Like Fish Guts and I Cannot Lie|QID|48882|M|71.76,50.46|N|To Art Hughie.|
 A Big Gulls Won't Die|QID|48883|M|71.76,50.46|N|From Art Hughie.|PRE|48880;48904|RANK|3|;not spurious
-C Big Gulls Won't Die|QID|48883|M|71.48,49.10|N|Kill Brinebeak slain|T|Brinebeak|
+K Brinebeak|ACTIVE|48883|QO|1|M|71.48,49.10|N|Kill Brinebeak.|T|Brinebeak|
 T Big Gulls Won't Die|QID|48883|M|71.77,50.41|N|To Art Hughie.|
 
 ; Fletcher's Hollow
@@ -447,7 +452,7 @@ A Clear-Cutting|QID|49295|M|70.07,60.27|N|From Evelyn Pare.|PRE|48171|
 
 C Clear-Cutting|QID|49295|S|N|Kill the Curseformed Familiars.|
 C Save Who We Can|QID|48518|S|NC|N|Click on the Frightened Woodsman to Rally them.|
-$ Untended Fishing Pole|QID|48928|M|72.88,60.47|N|Click on the pole to catch an angry crab - Silver Elite to kill for azerite power and resources.|T|Vicemaul|ITEM|160474|RANK|2|
+$ Untended Fishing Pole|QID|48928|M|72.88,60.47|N|Click on the pole to catch an angry crab - Silver Elite to kill for azerite power and resources.|T|Vicemaul|RARE|ITEM|160474|RANK|2|
 
 C Save Who We Can|QID|48518|US|NC|N|Finish rallying the Frightened Woodsmen.|
 T Save Who We Can|QID|48518|M|70.07,60.27|N|To Evelyn Pare.|
@@ -465,7 +470,7 @@ C The Three Sisters|QID|48520|M|70.13,62.14|QO|3|N|Slay Sister Mooring.|
 C The Three Sisters|QID|48520|M|70.52,63.13|QO|2|N|Slay Sister Early.|
 C The Three Sisters|QID|48520|M|68.49,63.27|QO|1|N|Slay Sister Ashwell.|
 A A Revealing Missive|QID|48522|M|68.55,63.29|N|From Levae's Missive dropped by one of the sisters.|PRE|48519|
-$ Seething Cache|QID|49341|M|67.98,66.89|N|Click on the chest to spawn several manifestations of hate, Final one is a Silver Elite, defeat him and the treasure is yours. Reclick the chest to loot. it.|ITEM|158598|RANK|2|
+$ Seething Cache|QID|49341|M|67.98,66.89|N|Click on the chest to spawn several manifestations of hate, Final one is a Silver Elite, defeat him and the treasure is yours. Reclick the chest to loot. it.|RARE|ITEM|158598|RANK|2|
 $ Ensorcelled Chest|QID|53473|M|67.62,68.61;68.48,69.08;67.17,70.93;67.77,73.67|CS|N|Click on any of the Witch Torches to enable looting the chest.|RANK|3|
 C Charming the Lifeless|QID|48521|M|68.55,63.29|N|Keep trying until you have control a Dormant Ravager.|US|NC|U|152590|
 T The Three Sisters|QID|48520|M|70.07,60.27|N|To Evelyn Pare.|
@@ -498,7 +503,7 @@ A Gol Koval|QID|48947|M|69.52,43.71|N|From Auntie Amanda Hale.|PRE|59259|LEAD|52
 R Wayward Thicket|ACTIVE|48947|M|47.93,48.96|N|Take this smaal path to the right afther you cross the bridge|RANK|2|
 A Nooooope|QID|48181|M|68.01,48.88|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|2|
 C Nooooope|QID|48181|M|68.01,48.88|S|N|Trample spiderlings, break open egg sacs and kill the bigger spiders to clean up the thicket.|
-K Bonesquall|QID|48978|QO|1|M|66.72,51.10|T|Bonesquall|N|Silver Elite to kill and loot for azerite power and resources.|ITEM|154376|RANK|2|
+K Bonesquall|QID|48978|QO|1|M|66.72,51.10|T|Bonesquall|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|154376|RANK|2|
 T Gol Koval|QID|48947|M|64.66,54.77|N|To Rebecca Hale.|
 A Deliverance|QID|52074|M|64.66,54.77|N|From Rebecca Hale.|RANK|2|
 C Nooooope|QID|48181|M|63.43,58.08|US|N|Finish up the bonus objective now if you plan to..|
@@ -513,12 +518,12 @@ C The Hills Are Alive|QID|48183|M|61.89,59.30|S|N|Kill the awoken guardians for 
 C Rescue Rangers|QID|48179|M|61.91,59.30|S|NC|N|Click on the injured to heal them as you go.|
 C Total Cairnage|QID|48182|QO|1|S|NC|N|Destroy the Minor Ancient Cairns as you go.|
 A Really Big Problem|QID|48180|M|58.50,63.25|N|From Arthur Tradewind, stealthed druid.|PRE|52074|
-C Really Big Problem|QID|48180|M|58.57,64.41|T|Ancient Sentinel|N|Slay the Ancient Sentinel.|
+K Ancient Sentinel|QID|48180|QO|1|M|58.57,64.41|T|Ancient Sentinel|N|Slay the Ancient Sentinel.|
 $ Runebound Cache|QID|53385|M|63.30,65.85|N|Click the runes in this order *LEFT, BOTTOM, TOP, RIGHT* to open the cache and loot the treasure.|ITEM|163743|RANK|2|
 C Total Cairnage|QID|48182|QO|1|M|62.20,64.03|US|NC|N|Destroy the Minor Ancient Cairns as you go.|
 C Total Cairnage|QID|48182|QO|2|M|59.10,67.99|NC|N|Destroy the Major Ancient Cairn.|
-K Rimestone|QID|49269|QO|1|M|59.77,70.02;59.8,70.02|CS|T|Rimestone|N|Silver Elite to kill for azerite power and resources.|ITEM|158345|RANK|2|
-$ Gluttonous Yeti|QID|48979|M|63.03,69.51|T|Gluttonous Yeti|N|Talk to the Lost Goat, either option causes a Silver - Elite Yeti to appear. Kill and loot for azerite power and resources.|ITEM|158683|RANK|2|
+K Rimestone|QID|49269|QO|1|M|59.77,70.02;59.8,70.02|CS|T|Rimestone|N|Silver Elite to kill for azerite power and resources.|RARE|ITEM|158345|RANK|2|
+$ Gluttonous Yeti|QID|48979|M|63.03,69.51|T|Gluttonous Yeti|N|Talk to the Lost Goat, either option causes a Silver - Elite Yeti to appear. Kill and loot for azerite power and resources.|RARE|ITEM|158683|RANK|2|
 C Rescue Rangers|QID|48179|M|62.11,61.61|US|NC|N|Finish healing the injured.|
 C The Hills Are Alive|QID|48183|M|62.11,61.61|US|N|Finish collecting the Runic Power Cores.|
 C Boned|QID|52075|M|62.11,61.61|US|N|Finish killing Vengeful Bones.|
@@ -540,7 +545,7 @@ C Yeti to Rumble|QID|48942|M|45.60,34.37|S|N|Kill yetis as you go.|
 C Salvage Rights|QID|48943|QO|1|M|45.60,34.37|NC|N|Pick up the Wrapped Supplies.|
 A If Bones Could Talk|QID|51134|M|45.23,33.62|N|from UI by looting bone from Awakend dead.|RANK|2|
 C If Bones Could Talk|QID|51134|M|45.23,33.62|S|N|Kill the undead until you get a Pristine Rune-Etched Bone.|
-$ Ancient Sarcophagus|QID|49137|M|43.37,36.29;41.95,36.48|CS|N|Kill 3 waves of undead, final one being a Silver Elite, then you can loot the sarcophagus.|RANK|2|
+$ Ancient Sarcophagus|QID|49137|M|43.37,36.29;41.95,36.48|CS|N|Kill 3 waves of undead, final one being a Silver Elite, then you can loot the sarcophagus.|RARE|RANK|2|
 C Salvage Rights|QID|48943|QO|2|M|45.05,32.49|NC|N|Pick up Cask of Salted Fish.|
 C Salvage Rights|QID|48943|QO|3|M|43.54,30.80|NC|N|Pick up the Hardened Lockbox.|
 C Salvage Rights|QID|48943|QO|4|M|45.53,30.08|NC|N|Pick up the Bucket of Grain.|
@@ -551,7 +556,7 @@ T Yeti to Rumble|QID|48942|M|44.74,28.48|N|To Lucille Waycrest.|
 T Salvage Rights|QID|48943|M|44.74,28.48|N|To Lucille Waycrest.|
 T If Bones Could Talk|QID|51134|M|44.74,28.48|N|To Lucille Waycrest.|
 A Diversionary Tactics|QID|48963|M|44.74,28.48|N|From Lucille Waycrest.|PRE|48942;48943|
-C Diversionary Tactics|QID|48963|M|45.22,28.57|N|Slay Frostmange|T|Frostmange|
+K Frostmange|ACTIVE|48963|QO|1|M|45.22,28.57|N|Slay Frostmange|T|Frostmange|
 T Diversionary Tactics|QID|48963|M|45.01,27.76|N|To Lucille Waycrest.|
 A Unlocking History|QID|48944|M|45.01,27.76|N|From Lucille Waycrest.|PRE|48963|
 C Unlocking History|QID|48944|M|44.96,27.52|NC|N|Click on the wall sconce to the left of the bookcase.|
@@ -594,7 +599,7 @@ C Changing of the Guard|QID|49803|QO|2|M|35.26,53.13|CHAT|N|Recruit Ensign Yorri
 f Arom's Stand|ACTIVE|49806|M|38.13,52.54|N|At Jess Albury.|
 C Changing of the Guard|QID|49803|QO|5|M|38.73,52.47|CHAT|N|Recruit Falconer Notley.|
 C Hidden Dealings|QID|49806|QO|1|CHAT|M|38.40,53.16;38.37,53.69|CS|N|Go down, thru the celler doors and talk to the Suspicious Refugee to complete the celler exploration.|
-C Hidden Dealings|QID|49806|QO|2|M|38.37,53.69|N|After a bit of conversation they transform and you need to kill them.|T|Sister Littlefield
+K Sister Littlefield|ACTIVE|49806|QO|2|M|38.37,53.69|N|After a bit of conversation they transform and you need to kill them.|T|Sister Littlefield
 C Changing of the Guard|QID|49803|QO|4|M|39.05,51.51|CHAT|N|Recriot Ensign Mace.|
 C Changing of the Guard|QID|49803|QO|3|M|39.91,50.18|CHAT|N|Recruit Lieutenant Sterntide.|
 C Changing of the Guard|QID|49803|QO|1|M|37.55,48.76|CHAT|N|Recruit Captain Cleardawn.|
@@ -636,7 +641,7 @@ C Clear Victory|QID|49898|US|M|37.30,61.99|N|Finish off the needed Drust Skeleto
 T Clear Victory|QID|49898|M|39.68,58.03|N|To Captain Lilian Nottley, back up at the top of the battlefield.|
 
 R Iceveil Glacier|AVAILABLE|51543|M|38.06,66.60;37.42,68.74|CS|N|Take this path out the back of the battlefield to Iceveil Glacier.|RANK|3|
-K Arvon the Betrayed|QID|51383|QO|1|M|34.83,69.14|T|Arvon the Betrayed|N|Silver Elite to kill for azerite power and resources.|ITEM|160449|RANK|3|
+K Arvon the Betrayed|QID|51383|QO|1|M|34.83,69.14|T|Arvon the Betrayed|N|Silver Elite to kill for azerite power and resources.|RARE|ITEM|160449|RANK|3|
 
 A Saplings in the Snow|QID|51543|M|33.45,65.09|N|From Adalyn Forestwatcher.|RANK|3|
 C Saplings in the Snow|QID|51543|M|33.73,69.54|S|NC|N|Grab hold of the Mountain Sapling and then run away with the roots trailing behind you to uproot.|
@@ -644,18 +649,18 @@ $ Runebound Coffer|QID|53387|M|33.73,71.72|N|Click the runes in this order *RIGH
 C Saplings in the Snow|QID|51543|M|33.73,69.54|US|NC|N|Finish collecting the mountain saplings.|
 T Saplings in the Snow|QID|51543|M|33.45,65.09|N|To Adalyn Forestwatcher.|
 A Greenstalker|QID|50953|M|33.45,65.09|N|From Adalyn Forestwatcher.|PRE|51543|RANK|3|;not spurious
-C Greenstalker|QID|50953|M|33.75,62.31;34.24,61.89|CS|U|159143|T|Greenstalker|N|Use the charm (at range) then slay Greenstalker.|
+K Greenstalker|ACTIVE|50953|M|33.75,62.31;34.24,61.89|CS|U|159143|T|Greenstalker|N|Use the charm (at range) then slay Greenstalker.|
 T Greenstalker|QID|50953|M|33.44,65.09|N|To Adalyn Forestwatcher.|
 A Life Preserver|QID|51472|M|33.52,65.13|N|From Zallestrasza.|PRE|50953|RANK|3|;not spurious
 C Life Preserver|QID|51472|QO|1|M|33.63,65.10|NC|N|Hop on Zallestrasza's back.|
 C Life Preserver|QID|51472|QO|2|M|42.05,81.98|CHAT|N|Tell her you are ready.|
-C Life Preserver|QID|51472|QO|3|M|41.88,81.97|T|Danir Emberlight|N|Kill Danir Emberlight, who seems to want to disrupt her ritual.|
+K Danir Emberlight|ACTIVE|51472|QO|3|M|41.88,81.97|T|Danir Emberlight|N|Kill Danir Emberlight, who seems to want to disrupt her ritual.|
 T Life Preserver|QID|51472|M|41.88,81.97|N|To Zallestrasza.|
-K Avalanche|QID|51471|QO|1|M|43.58,88.10|T|Avalanche|N|Silver Elite to kill for azerite power and resources.|RANK|3|ITEM|155547|
+K Avalanche|QID|51471|QO|1|M|43.58,88.10|T|Avalanche|N|Silver Elite to kill for azerite power and resources.|RANK|3|RARE|ITEM|155547|
 
 ; Falconhurst
 R Crimson Coast|ACTIVE|49896|M|41.71,81.31;32.43,67.85;29.45,62.41|CS|N|Run generally north, back thru Iceveil Glacier where you will find the path you were on, continue through Snowmelt Foothills and on to the Crimson Coast.|
-K Sister Martha|QID|51748|QO|1||M|33.08,57.17|ITEM|155299|T|Sister Martha|N|Silver Elite to kill and loot for azerite power and resources.|RANK|2|
+K Sister Martha|QID|51748|QO|1||M|33.08,57.17|RARE|ITEM|155299|T|Sister Martha|N|Silver Elite to kill and loot for azerite power and resources.|RANK|2|
 
 T To Falconhurst!|QID|49896|M|26.91,65.82|N|To Inquisitor Cleardawn.|
 A Breaking Hag|QID|50001|M|26.91,65.82|N|From Inquisitor Cleardawn.|
@@ -673,7 +678,7 @@ T Hold The Barricade!|QID|50177|M|25.77,70.27|N|To Inquisitor Cleardawn.|
 A So Long, Sister|QID|49939|M|25.77,70.27|N|From Inquisitor Cleardawn.|PRE|50177|;not spurious
 A Village Repair|QID|50091|M|25.77,70.27|N|Bonus Objective - Autoaccepted.|PRE|50177|LVL|-120|RANK|2|;not spurious
 C Village Repair|QID|50091|M|25.77,70.27|S|N|Destroy Charms and Banners, kill Briarthorn mobs to do this bonus objective.|
-C So Long, Sister|QID|49939|M|25.01,71.83|N|Slay Sister Noella Briarwood inside the house.|T|Sister Noella Briarwood|
+K Sister Noella Briarwood|ACTIVE|49939|QO|1|M|25.01,71.83|N|Slay Sister Noella Briarwood inside the house.|T|Sister Noella Briarwood|
 f Falconhurst|ACTIVE|49939|M|27.05,72.36|N|At Viviana Swailes.|
 T So Long, Sister|QID|49939|M|26.64,72.17|N|To Leandro Royston.|
 A WANTED: The Crimson Cutthroats|QID|51390|M|26.42,72.16|N|From Wanted Poster.|RANK|3|
@@ -688,9 +693,9 @@ C Curiously Strong|QID|50092|M|25.91,39.19|S|U|156828|N|Use the Frost Potion to 
 A Building Defenses|QID|50090|M|25.54,70.06|N|From Leandro Royston.|
 C Building Defenses|QID|50090|QO|1|M|26.05,68.88|N|Collect Lumber as travel out of town.|
 C Building Defenses|QID|50090|QO|2|M|26.49,66.74|NC|N|Click on the defenses to place them.|
-K Whitney "Steelclaw" Ramsey|QID|51923|QO|1|M|28.29,66.55;27.92,66.32;28.03,65.28;29.46,64.18|CS|T|Whitney "Steelclaw" Ramsey|N|Silver Elite to kill for azerite power and resources.|ITEM|154315|RANK|2|
+K Whitney "Steelclaw" Ramsey|QID|51923|QO|1|M|28.29,66.55;27.92,66.32;28.03,65.28;29.46,64.18|CS|T|Whitney "Steelclaw" Ramsey|N|Silver Elite to kill for azerite power and resources.|RARE|ITEM|154315|RANK|2|
 C The Crimson Cutthroats|QID|51390|M|27.69,67.21;29.70,65.50|CS|N|They are all together in a cave.|RANK|3|
-K Arclight|QID|51470|QO|1|M|29.03,68.69|T|Arclight|ITEM|160469|N|Below you on an island at waters' edge. Silver Elite to kill for azerite power and resources.|RANK|3|
+K Arclight|QID|51470|QO|1|M|29.03,68.69|T|Arclight|RARE|ITEM|160469|N|Below you on an island at waters' edge. Silver Elite to kill for azerite power and resources.|RANK|3|
 C Village Repair|QID|50091|M|26.92,66.96|US|N|Stay and finish repairing the village to complete this bonus objective.|
 T Village Repair|QID|50091|M|26.92,66.96|N|Bonus Objective - Autocompleted.|
 T Bramblethorn|QID|50238|M|26.98,71.34|N|To Lynn Sweet.|
@@ -704,7 +709,7 @@ C A Weapon of Old|QID|50036|QO|2|M|25.17,67.18|NC|N|Help create a Liquid Fire po
 T A Weapon of Old|QID|50036|M|25.24,67.16|N|To Warren Ashton.|
 A Fighting With Fire|QID|50063|M|25.24,67.16|N|From Warren Ashton.|PRE|50036|;not spurious
 C Fighting With Fire|QID|50063|U|156710|S|N|Slay Briarwood Bulwarks.|
-K Braedan Whitewall|QID|51922|M|27.63,59.57|QO|1|T|Braedan Whitewall|N|Silver Elite to kill and loot for azerite power and resources.|ITEM|154500|RANK|3|
+K Braedan Whitewall|QID|51922|M|27.63,59.57|QO|1|T|Braedan Whitewall|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|154500|RANK|3|
 C Fighting With Fire|QID|50063|U|156710|US|N|Slay Briarwood Bulwarks.|
 T Fighting With Fire|QID|50063|M|25.09,67.29|N|To Marten Webb.|
 
@@ -743,7 +748,7 @@ A Witch Way Out?|QID|50530|M|24.57,56.65|N|From Inquisitor Cleardawn.|PRE|50370|
 A Controlling the Situation|QID|50445|M|24.58,56.72|N|From Warren Ashton.|PRE|50370|;not spurious
 A Matrons of the Crimsonwood|QID|50329|M|24.58,56.72|N|From Warren Ashton.|PRE|50370|;not spurious
 C Witch Way Out?|QID|50530|S|NC|N|Free Captive Villagers as you go.|
-K Deathcap|QID|50669|M|18.65,59.21;18.74,60.57|CS|QO|1|ITEM|158555|T|Deathcap|N|Silver Elite can be found in an Alcove. Kill and loot for Azerite Power and resources.|RANK|2|;Crimson Forest - QID may be 51912 need to check with a non 120
+K Deathcap|QID|50669|M|18.65,59.21;18.74,60.57|CS|QO|1|RARE|ITEM|158555|T|Deathcap|N|Silver Elite can be found in an Alcove. Kill and loot for Azerite Power and resources.|RANK|2|;Crimson Forest - QID may be 51912 need to check with a non 120
 K Kill Haunted Servitors|QID|50445|QO|1|S|N|Kill the Haunted Servitors to get the Control Charms.|
 $ Stolen Thornspeaker Cache|QID|53475|M|24.68,48.88;24.27,48.32|CS|N|Enter this small cave at the water's edge to find this treasure.|RANK|2|;may need moved slightly for max efficiency
 C Stopping the Grand Rite|QID|50325|QO|1|NC|M|24.60,59.31|N|First Focus destroyed.|
@@ -753,7 +758,7 @@ K Kill Haunted Servitors|QID|50445|QO|1|US|M|23.39,50.01|N|Kill the Haunted Serv
 C Witch Way Out?|QID|50530|US|NC|M|23.39,50.01|N|Free Captive Villagers as you go.|
 
 ; Anyport
-K Hyo'gi|QID|50688|QO|1|M|22.98,49.50|T|Hyo'gi|N|Silver Elite to kill for azerite power and resources.|ITEM|160462|RANK|3|
+K Hyo'gi|QID|50688|QO|1|M|22.98,49.50|T|Hyo'gi|N|Silver Elite to kill for azerite power and resources.|RARE|ITEM|160462|RANK|3|
 
 A An Economic Opportunity|QID|50988|M|22.88,46.24|N|From Cesi Loosecannon.|RANK|3|
 T An Economic Opportunity|QID|50988|M|20.62,46.20|N|To Cesi Loosecannon.|
@@ -801,7 +806,7 @@ T Stick It To 'Em!|QID|50533|M|37.87,50.08|N|To Inquisitor Cleardawn.|
 
 ; sidequests Teller farm
 R Teller Farm|AVAILABLE|50970|M|37.17,49.27;30.84,41.28|CS|N|Run out the main gate and generally west towards the Teller Farm.|RANK|2|
-K Talon|QID|49528|QO|1|M|31.94,40.64|T|Talon|N|Silver Elite to kill for azerite power and resources.|RANK|2|ITEM|161444|
+K Talon|QID|49528|QO|1|M|31.94,40.64|T|Talon|N|Silver Elite to kill for azerite power and resources.|RANK|2|RARE|ITEM|161444|
 A A Farmer's Fate|QID|50970|M|29.92,40.45|N|From Morwin Gladeheart.|RANK|2|
 A Lost in the Woods|QID|50967|M|29.92,40.45|N|From Morwin Gladeheart.|RANK|2|
 K Kill Bloodbough Fungalmancer|QID|50965|M|27.54,42.11|T|Bloodbough Fungalmancer|N|Drops Ashenwood Relic to start a quest.|RANK|2|ACTIVE|-50965|; took |L| as it is not a physical item you loot, -ACTIVE appears to work...
@@ -810,7 +815,7 @@ C Those Who Remain|QID|50965|M|27.54,42.11|S|N|Continue killing Fungalmancers to
 C A Farmer's Fate|QID|50970|M|26.75,41.99|QO|1|NC|N|Empower the branch with the Mark of Ash.|
 C A Farmer's Fate|QID|50970|M|25.24,41.85|QO|2|NC|N|Empower the branch with the Mark of Yew.|
 C A Farmer's Fate|QID|50970|M|24.04,40.71|QO|3|NC|N|Empower the branch with the Mark of Alder.|
-C Lost in the Woods|QID|50967|M|23.39,39.56|T|Lichenlord Ripp|N|Kill Lichenlord Ripp to rescue Amalie Oakseeker.|
+K Lichenllord Ripp|ACTIVE|50967|QO|1|M|23.39,39.56|T|Lichenlord Ripp|N|Kill Lichenlord Ripp to rescue Amalie Oakseeker.|
 C Those Who Remain|QID|50965|M|25.15,42.64|US|N|Finish collecting the Ashenwood Relics|
 T A Farmer's Fate|QID|50970|M|29.92,40.44|N|To Morwin Gladeheart.|
 T Lost in the Woods|QID|50967|M|29.92,40.44|N|To Morwin Gladeheart.|
@@ -840,7 +845,7 @@ C An Eight-Legged Curse|QID|50175|M|35.54,31.15|S|N|Kill Bilefang spiders as you
 C Precious Metals|QID|50173|M|35.44,32.29|S|NC|N|Collect Silver Nuggets as you go.|
 C All Wrapped Up|QID|50174|M|35.54,31.15|S|N|Attack the writhing webs to rescue the Miners.|
 $ Web Wrapped Chest|QID|53356|M|33.71,30.09|N|Approach cautiously, all those webs will spawn spiderlings which can quickly overwhealm you if you take them all on at once.|ITEM|160053|RANK|2|
-K Bilefang Mother|QID|50163|QO|1|M|35.43,32.88|T|Bilefang Mother|N|Bilefang Mother is all the way at the end of the mine. Just like with the Web Wrapped Chest, the webs on the ground around her will spawn spiderlings. Silver Elite to kill for azerite power and resources.|RANK|3|ITEM|155284|
+K Bilefang Mother|QID|50163|QO|1|M|35.43,32.88|T|Bilefang Mother|N|Bilefang Mother is all the way at the end of the mine. Just like with the Web Wrapped Chest, the webs on the ground around her will spawn spiderlings. Silver Elite to kill for azerite power and resources.|RANK|3|RARE|ITEM|155284|
 C All Wrapped Up|QID|50174|M|35.54,31.15|US|N|Finish rescuing the Miners.|
 C Precious Metals|QID|50173|M|35.44,32.29|US|NC|N|Finish collecting Silver Nuggets as head back out of the mine.|
 C An Eight-Legged Curse|QID|50175|M|35.54,31.15|US|N|Finish killing Bilefang spiders.|
@@ -874,7 +879,7 @@ C Remembering the Fallen|QID|50447|M|26.71,31.51|S|NC|N|Personal Keepsakes are p
 C Witchrending|QID|50446|M|30.59,28.37|QO|2|N|Slay Matron Adeline.|
 C Witchrending|QID|50446|M|29.17,28.43|QO|1|N|Slay Matron Ceridwen.|
 A Reeking Refuge|QID|50449|M|28.60,25.70|N|From Inquisitor Mace.|PRE|50253|RANK|2|;not spurious
-K Gorged Boar|QID|51700|M|28.14,26.12|QO|1|N|Silver Elite to kill for azerite power and resources.|T|Gorged Boar|ITEM|154461|RANK|2|
+K Gorged Boar|QID|51700|M|28.14,26.12|QO|1|N|Silver Elite to kill for azerite power and resources.|T|Gorged Boar|RARE|ITEM|154461|RANK|2|
 C Reeking Refuge|QID|50449|M|27.26,25.31|NC|N|Investigate the Farm.|
 T Reeking Refuge|QID|50449|M|27.06,25.24|N|To Harris Hocking.|
 A Eating Through the Defenses|QID|50451|M|27.06,25.24|N|From Harris Hocking.|PRE|50449|RANK|2|;not spurious
@@ -885,7 +890,7 @@ C Eating Through the Defenses|QID|50451|M|27.80,24.45|US|N|Finish off the Scaven
 T Eating Through the Defenses|QID|50451|M|27.08,25.26|N|To Harris Hocking.|
 T An Offensive Harvest|QID|50450|M|27.08,25.26|N|To Harris Hocking.|PRE|50451|
 A Potent Protection|QID|50452|M|27.08,25.26|N|From Harris Hocking.|RANK|2|;not spurious
-K Haywire Golem|QID|51698|QO|1|M|24.13,30.33|ITEM|155362|T|Haywire Golem|N|Silver Elite to kill and loot for azerite power and resources.|RANK|2|
+K Haywire Golem|QID|51698|QO|1|M|24.13,30.33|RARE|ITEM|155362|T|Haywire Golem|N|Silver Elite to kill and loot for azerite power and resources.|RANK|2|
 
 C Witchrending|QID|50446|M|27.51,29.56|QO|3|N|Slay Matron Letitia.|
 C Remembering the Fallen|QID|50447|M|26.71,31.51|US|NC|N|Finish collecting Personal Keepsakes.|
@@ -908,7 +913,7 @@ C Barrier Buster|QID|50453|M|28.94,19.09|US|NC|N|Finish collecting the Blasting 
 K Sister Lilias|QID|51356|QO|1|T|Sister Lilias|M|28.55,18.39;27.55,19.19|CS|N|Take the path behind Captain Goodspeed to find Sister Lilias and remove her Head.|
 $ Enchanted Chest|QID|53474|M|25.46,24.19|N|Click on any of the Witch Torches to enable looting the chest.|RANK|2|
 $ Merchant's Chest|QID|53357|M|25.89,19.99|N|Target the Gorging Raven's and determine which one has the buff "merchant's key" and kill it to loot the key to open the treasure.|RANK|2|
-K Fungi Trio|QID|51749|M|26.11,21.38;24.88,19.86;23.67,21.87;24.10,21.93|CS|N|Run down the hill and take out this trio of Silver Elites.|ITEM|154217|RANK|2|
+K Fungi Trio|QID|51749|M|26.11,21.38;24.88,19.86;23.67,21.87;24.10,21.93|CS|N|Run down the hill and take out this trio of Silver Elites.|RARE|ITEM|154217|RANK|2|
 R Western Watch |ACH|12557|M|19.24,11.94|CC|N|Run (or better swim) to this island Western Watch to get the explore Drustvar archiement at the end of this guide. The first set of coordinates will lead to a way down for the shortest swim|
 R Whitegrove Chapel|ACTIVE|50754|M|23.17,20.18;24.73,21.05;23.74,17.44|CS|N|Up the hill fo meet Lucille's fiance.|
 C To Have Loved and Lost|QID|50754|M|23.31,17.45|NC|N|Place flowers on the grave.|
@@ -934,14 +939,14 @@ A The Lady's Fate|QID|50762|M|23.26,12.75|N|From Lord Arthur Waycrest.|PRE|50761
 C The Lady's Fate|QID|50762|M|23.65,20.00;24.30,14.82|CS|NC|QO|1|N|Back up to the Chapel and of course in the basement you find Lady Waycrest.|
 K Roland the Knife|QID|50762|M|24.30,14.82|QO|2|N|Slay Roland the Knife.|T|Roland the Knife|
 C The Lady's Fate|QID|50762|M|24.26,14.97|QO|3|NC|N|Pick up the Assassin's Orders from Roland's skeleton.|
-$ Ruined Wedding Cake|QID|51949|M|25.12,16.23|N|Click on the ruined cake to summon the Caterer. Silver Elite to kill and loot for azerite power and resources.|ITEM|155560|RANK|2|
+$ Ruined Wedding Cake|QID|51949|M|25.12,16.23|N|Click on the ruined cake to summon the Caterer. Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|155560|RANK|2|
 
 T The Lady's Fate|QID|50762|M|23.32,17.49|N|To Alexander Treadward.|
 A One Last Request|QID|50763|M|23.32,17.49|N|From Alexander Treadward.|PRE|50762|RANK|2|;not spurious
 
 f Whitegrove Chapel|AVAILABLE|50939|M|25.70,16.61|N|At Bertram.|RANK|2|
 R Chandlery Wharf|AVAILABLE|50939|M|27.08,16.45|N|Down the hill for an optional quest and Silver Elite.|RANK|3|
-K Captain Leadfist|QID|50939|M|26.71,14.37|QO|1|T|Captain Leadfist|N|Silver Elite just down the hill to kill for azerite power and resources.|ITEM|160450|RANK|3|
+K Captain Leadfist|QID|50939|M|26.71,14.37|QO|1|T|Captain Leadfist|N|Silver Elite just down the hill to kill for azerite power and resources.|RARE|ITEM|160450|RANK|3|
 A Sweete's Orders|QID|50960|M|27.45,11.61|N|From Ship's Log, on top deck of ship in the harbor.|RANK|3|
 F Watchman's Rise|ACTIVE|50763|M|25.70,16.61|N|Run back up to the flightmaster and take a flight back to Watchman's Rise.|RANK|2|
 
@@ -967,7 +972,7 @@ A The Fall of Corlain|QID|50586|M|30.76,19.62|N|From journal.|PRE|50457|RANK|2|;
 C Hexecutioner|QID|50585|M|31.98,16.62|S|N|Kill Heartsbane witches as you go.|
 C Ruinous Rituals|QID|50584|M|33.44,19.87|S|N|Kill Blighted Horrors as you go.|
 C The Fall of Corlain|QID|50586|M|32.06,20.40|S|N|Read Corlain citizens' Journals as you go.|
-K Executioner Blackwell|QID|50546|QO|1|M|30.82,18.46|N|Silver Elite to kill for azerite power and resources.|ITEM|155055|T|Executioner Blackwell|RANK|2|
+K Executioner Blackwell|QID|50546|QO|1|M|30.82,18.46|N|Silver Elite to kill for azerite power and resources.|RARE|ITEM|155055|T|Executioner Blackwell|RANK|2|
 C To the Other Side|QID|50583|M|29.87,17.90|QO|1|NC|N|Click to open East Gate.|
 C To the Other Side|QID|50583|M|33.76,20.93|QO|3|NC|N|Click to open West Gate.|
 C To the Other Side|QID|50583|M|32.53,20.48|QO|2|NC|N|Click to open South Gate.|
