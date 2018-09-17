@@ -289,7 +289,7 @@ function WoWPro.AutoCompleteZone()
 	end
 end
 
--- Auto-Complete: Criteria Change
+-- Auto-Complete: Criteria Change from RegisterBucketEvent(CRITERIA_UPDATE)
 function WoWPro.AutoCompleteCriteria()
     if not WoWProDB.char.currentguide then return end
 
@@ -342,12 +342,6 @@ function WoWPro.RegisterEventHandler(event, handler)
 	WoWPro[event] = handler
 end
 
-
-WoWPro.RegisterEventHandler("CRITERIA_UPDATE", function (event, ...)
-    if not WoWPro.MaybeCombatLockdown() then
-        WoWPro.AutoCompleteCriteria(...)
-    end
-    end)
 
 WoWPro.RegisterEventHandler("UNIT_AURA", function (event, ...)
     if not WoWPro.MaybeCombatLockdown() then
