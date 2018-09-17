@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-16 17:56
+-- Who: Emmaleah
+-- Log: tweaks to first Voldun outpost
+
+-- URL: http://wow-pro.com/node/3760/revisions/29757/view
 -- Date: 2018-09-15 22:32
 -- Who: elidion
 -- Log: Accuracy pass on the 3k honored questline.
@@ -276,30 +281,29 @@ C Unexpected Aid|QID|51350|M|42.68,39.67|Z|Vol'dun|NC|US|N|Finish collecting Pri
 T Unexpected Aid|QID|51350|M|38.95,42.92|Z|Vol'dun|N|To Sergeant Ermey.|
 T Poisoned Barbs|QID|51351|M|38.95,42.92|Z|Vol'dun|N|To Sergeant Ermey.|
 A Antidote Application|QID|51366|M|38.95,42.92|Z|Vol'dun|N|From Sergeant Ermey.|PRE|51350;51351|
-C Antidote Application|QID|51366|M|38.95,42.92|Z|Vol'dun|NC|U|160045|N|Apply antidote salve to Vorrik.|
+C Antidote Application|QID|51366|M|38.95,42.92|Z|Vol'dun|NC|U|160045|T|Vorrik|N|Apply antidote salve to Vorrik.|
 T Antidote Application|QID|51366|M|38.95,42.96|Z|Vol'dun|N|To Vorrik.|
 A Friends in Strange Places|QID|51369|M|38.95,42.96|Z|Vol'dun|N|From Vorrik.|PRE|51366|
-C Friends in Strange Places|QID|51369|M|39.08,43.06|Z|Vol'dun|QO|1|N|Hop on the Pterrordax, enjoy the ride.|
+C Friends in Strange Places|QID|51369|M|39.08,43.06|Z|Vol'dun|QO|1|NC|N|Hop on the Pterrordax, enjoy the ride.|
 T Friends in Strange Places|QID|51369|M|27.22,53.92|Z|Vol'dun|N|To Vorrik.|
 A Defang the Faithless|QID|51391|M|27.22,53.92|Z|Vol'dun|N|From Vorrik.|PRE|51369|
 A Break the Siege|QID|51394|M|27.22,53.92|Z|Vol'dun|N|From Vorrik.|PRE|51369|
 A Breaking Free|QID|51389|M|27.18,53.91|Z|Vol'dun|N|From Sergeant Ermey.|PRE|51369|
 C Defang the Faithless|QID|51391|M|29.02,51.32|Z|Vol'dun|S|N|Kill the snake people as you go.|
+C Shatter Spires|QID|51394|M|29.02,54.98|Z|Vol'dun|QO|3<1|NC|N|Click on the spire to shatter it.|
 C Crush the Cannons|QID|51394|M|29.56,51.39|Z|Vol'dun|QO|2|S|NC|N|Click on the cannons to crush them as you go.|
-C Break the Siege|QID|51394|M|29.41,51.18|Z|Vol'dun|QO|1|S|NC|N|Click on the banners to burn them as you go.|
-C Shatter Spires|QID|51394|M|29.02,54.98|Z|Vol'dun|QO|3<1|NC|N|Click on the spires to shatter them.|
-C Breaking Free|QID|51389|M|30.07,53.65|Z|Vol'dun|NC|N|1/1 Private James rescued|
-C Shatter Spires|QID|51394|M|28.86,51.47|Z|Vol'dun|QO|3<2|NC|N|Click on the spires to shatter them.|
-C Break the Siege|QID|51394|M|29.41,51.18|Z|Vol'dun|QO|1|US|NC|N|Finish burning the banners.|
+C Burn the Flags|QID|51394|M|29.41,51.18|Z|Vol'dun|QO|1|S|NC|N|Click on the banners to burn them as you go.|
+C Breaking Free|QID|51389|M|30.07,53.65|Z|Vol'dun|NC|N|Rescue Private James.|
+C Burn the Flags|QID|51394|M|29.41,51.18|Z|Vol'dun|QO|1|US|NC|N|Finish burning the banners.|
 C Crush the Cannons|QID|51394|M|29.56,51.39|Z|Vol'dun|QO|2|US|NC|N|Finish crushing the cannons.|
-C Shatter Spires|QID|51394|M|28.87,51.45|Z|Vol'dun|QO|3|US|NC|N|Finish shattering spires.|
 C Defang the Faithless|QID|51391|M|29.02,51.32|Z|Vol'dun|US|N|Finish killing the Faithless.|
+C Shatter Spires|QID|51394|M|28.86,51.47|Z|Vol'dun|QO|3|NC|N|Click on the spire to shatter it.|
 f Terrace of the Devoted|QID|51389|M|27.66,50.34|Z|Vol'dun|N|At Vethiss.|ACTIVE|51391|
 T Breaking Free|QID|51389|M|27.56,52.62|Z|Vol'dun|N|To Private James.|
 T Defang the Faithless|QID|51391|M|27.62,52.57|Z|Vol'dun|N|To Vorrik.|
 T Break the Siege|QID|51394|M|27.62,52.57|Z|Vol'dun|N|To Vorrik.|
 A The Keepers' Keys|QID|51395|M|27.62,52.57|Z|Vol'dun|N|From Vorrik.|PRE|51389;51391;51394|
-C The Keepers' Keys|QID|51395|M|27.57,52.62|Z|Vol'dun|QO|1|NC|N|Speak to Private James|
+C The Keepers' Keys|QID|51395|M|27.57,52.62|Z|Vol'dun|QO|1|CHAT|N|Speak to Private James|
 C The Keepers' Keys|QID|51395|M|27.12,52.54|Z|Vol'dun|QO|2|NC|N|Follow Vorrik|
 T The Keepers' Keys|QID|51395|M|27.11,52.58|Z|Vol'dun|N|To Vorrik.|
 A Reporting In|QID|51402|M|27.02,52.50|Z|Vol'dun|N|From Sergeant Ermey.|PRE|51395|

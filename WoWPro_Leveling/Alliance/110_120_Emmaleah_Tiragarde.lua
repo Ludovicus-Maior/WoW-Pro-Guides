@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-09-17 07:08
+-- Who: Emmaleah
+-- Log: move trouble at greystone keep to rank 3
+
+-- URL: http://wow-pro.com/node/3769/revisions/29761/view
+-- Date: 2018-09-17 06:50
+-- Who: elidion
+-- Log: Added a couple rank tags.
+
+-- URL: http://wow-pro.com/node/3769/revisions/29753/view
 -- Date: 2018-09-15 08:18
 -- Who: Emmaleah
 -- Log: Add RARE tag to Silver Elites - Change QID to ACTIVE on the K steps for Boralus Triple Threat and Targeting a Turncoat
@@ -459,7 +469,7 @@ f Proudmoore Keep|ACTIVE|50972|M|47.65,65.42|Z|1161|N|At Jessica Clarke.|
 F Tradewinds Market|ACTIVE|50972|M|47.70,65.40|Z|1161|N|At Jessica Clarke.|
 $ Scrimshaw Cache|QID|52870|Z|Boralus|M|64.79,12.39;62.85,11.84;61.72,10.61|CS|N|Down the stairs and over the wall into a little cave for some Azerite Power and resources. You can return the same way you came.|RANK|2|
 A Bundle of Furs|QID|51144|M|74.81,23.65|N|From "Risky" Liz Seminario.|RANK|2|
-A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|LEAD|49733;51226|
+A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|LEAD|49733;51226|RANK|3|
 T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko. This has a followup to come back for at 120.|
 A The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|PRE|49523|
 T Proudmoore's Parley|QID|50972|M|73.81,25.12|N|To Genn Greymane.|
@@ -610,7 +620,7 @@ A Troublesome Troglodytes|QID|48195|M|54.47,19.39|N|From Melissa Kenny.|PRE|4867
 C Troublesome Troglodytes|QID|48195|M|55.38,18.78|S|N|Kill Grimestone Bullies and Throwers.|
 A Saurolisk Escape|QID|48597|M|55.95,17.51|N|From Trapped Saurolisk.|PRE|48670|
 C Following Eddie's Trail|QID|48196|M|56.04,17.98|QO|1|NC|N|Find Hotshot.|
-A Stone Soup|QID|48778|M|56.14,17.96|N|From Recipe Stone.|
+A Stone Soup|QID|48778|M|56.14,17.96|N|From Recipe Stone.|RANK|2|
 C Saurolisk Escape|QID|48597|M|56.03,18.80|S|NC|N|Click on the post to free the Trapped Saurolisks.|
 C Stone Soup|QID|48778|M|57.83,14.46|QO|3|S|N|Saurolisk Scale drops from the Saurolisk's being ridden by Grimstone Handlers around the area.|
 C Stone Soup|QID|48778|M|58.34,16.41|QO|2|S|N|Unidentifiable Meat drops from the Grimstone Chefs.|
