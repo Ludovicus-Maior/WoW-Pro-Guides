@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-09-16 19:58
+-- Who: elidion
+-- Log: Updated Horde Arathi quests from my guesses to reality.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29752/view
 -- Date: 2018-09-15 06:27
 -- Who: Emmaleah
 -- Log: Added FPs to the upgrade quest step of first two purchased missions.
@@ -380,25 +385,25 @@ P Zuldazar|ACTIVE|53212|M|26.68,35.80|Z|Arathi Highlands|CHAT|N|Talk to Druza Ne
 T Back to Zuldazar|QID|53212|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
 C Warfront Contribution|QID|53209|M|51.74,95.44|Z|Dazar'alor|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g at Paymaster Grintooth|
 T Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|To Throk and enjoy Warfronts!|
-A The League Will Lose|QID|53154|ACTIVE|53154;53193;53190;53148;53173;53150|M|26.68,35.80|Z|Arathi Highlands|N|From Druza Netherfang.|
-A Twice-Exiled|QID|53193|ACTIVE|53154;53193;53190;53148;53173;53150|M|26.68,35.80|Z|Arathi Highlands|N|From Druza Netherfang.|
-A Executing Exorcisms|QID|53190|ACTIVE|53154;53193;53190;53148;53173;53150|M|26.68,35.80|Z|Arathi Highlands|N|From Druza Netherfang.|
-A Boulderfist Beatdown|QID|53148|ACTIVE|53154;53193;53190;53148;53173;53150|M|26.68,35.80|Z|Arathi Highlands|N|From Druza Netherfang.|
-A Sins of the Syndicate|QID|53173|ACTIVE|53154;53193;53190;53148;53173;53150|M|26.68,35.80|Z|Arathi Highlands|N|From Druza Netherfang.|
-A Wiping Out the Witherbark|QID|53150|ACTIVE|53154;53193;53190;53148;53173;53150|M|26.68,35.80|Z|Arathi Highlands|N|From Druza Netherfang.|
+A The League Will Lose|QID|53154|ACTIVE|53154;53193;53190;53148;53173;53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
+A Twice-Exiled|QID|53193|ACTIVE|53154;53193;53190;53148;53173;53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
+A Executing Exorcisms|QID|53190|ACTIVE|53154;53193;53190;53148;53173;53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
+A Boulderfist Beatdown|QID|53148|ACTIVE|53154;53193;53190;53148;53173;53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
+A Sins of the Syndicate|QID|53173|ACTIVE|53154;53193;53190;53148;53173;53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
+A Wiping Out the Witherbark|QID|53150|ACTIVE|53154;53193;53190;53148;53173;53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
 C Twice-Exiled|QID|53193|M|29.76,59.85|Z|Arathi Highlands|S|N|Kill elementals, they have spawn areas all over the map.|
 C Boulderfist Beatdown|QID|53148|M|28.75,45.55|Z|Arathi Highlands|N|Cave entrance at waypoint, kill the Boulderfist inside.|
 C Executing Exorcisms|QID|53190|M|21.71,64.88|Z|Arathi Highlands|N|Kill Ghosts in the area.|
 C Sins of the Syndicate|QID|53173|M|53.14,60.05|Z|Arathi Highlands|N|Kill Syndicate in the area.|
-C The League Will Lose|QID|53154|M|49.81,39.77|Z|Arathi Highlands|N|Kill defilers in the area.|
 C Wiping Out the Witherbark|QID|53150|M|63.75,72.54|Z|Arathi Highlands|N|Kill trolls in the area.|
+C The League Will Lose|QID|53154|M|49.81,39.77|Z|Arathi Highlands|N|Kill defilers in the area.|
 C Twice-Exiled|QID|53193|M|29.76,59.85|Z|Arathi Highlands|US|N|Finish killing elementals in this area. There is also the Rumbling Goliath rare here.|
-T The League Will Lose|QID|53154|M|26.68,35.80|Z|Arathi Highlands|N|To Druza Netherfang.|
-T Twice-Exiled|QID|53193|M|26.68,35.80|Z|Arathi Highlands|N|To Druza Netherfang.|
-T Executing Exorcisms|QID|53190|M|26.68,35.80|Z|Arathi Highlands|N|To Druza Netherfang.|
-T Boulderfist Beatdown|QID|53148|M|26.68,35.80|Z|Arathi Highlands|N|To Druza Netherfang.|
-T Sins of the Syndicate|QID|53173|M|26.68,35.80|Z|Arathi Highlands|N|To Druza Netherfang.|
-T Wiping Out the Witherbark|QID|53150|M|26.68,35.80|Z|Arathi Highlands|N|To Druza Netherfang.|
+T The League Will Lose|QID|53154|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
+T Twice-Exiled|QID|53193|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
+T Executing Exorcisms|QID|53190|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
+T Boulderfist Beatdown|QID|53148|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
+T Sins of the Syndicate|QID|53173|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
+T Wiping Out the Witherbark|QID|53150|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
 ;End Warfront
 ; Warfront Scenerio
 A Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|N|From Throk.|O|
