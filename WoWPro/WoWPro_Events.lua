@@ -150,7 +150,6 @@ function WoWPro.AutoCompleteLoot()
     		end
     	end
 	end
-	-- Used to catch ACH updates.
 	WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
 end
 
@@ -297,7 +296,9 @@ function WoWPro.AutoCompleteCriteria()
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 	local GID = WoWProDB.char.currentguide
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
-	        WoWPro.CompleteStep(qidx,"AutoCompleteCriteria")
+	    WoWPro.CompleteStep(qidx,"AutoCompleteCriteria-Quest")
+	else
+	    WoWPro:UpdateGuide("WoWPro.AutoCompleteCriteria?")
 	end
 end
 
@@ -341,6 +342,12 @@ function WoWPro.RegisterEventHandler(event, handler)
 	WoWPro[event] = handler
 end
 
+
+WoWPro.RegisterEventHandler("CRITERIA_UPDATE", function (event, ...)
+    if not WoWPro.MaybeCombatLockdown() then
+        WoWPro.AutoCompleteCriteria(...)
+    end
+    end)
 
 WoWPro.RegisterEventHandler("UNIT_AURA", function (event, ...)
     if not WoWPro.MaybeCombatLockdown() then
