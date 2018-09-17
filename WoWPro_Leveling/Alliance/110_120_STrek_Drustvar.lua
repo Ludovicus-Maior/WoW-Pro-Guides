@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-09-17 09:06
+-- Who: elidion
+-- Log: Rank 1 pass through a few zone achievement objectives.
+
+-- URL: http://wow-pro.com/node/3763/revisions/29754/view
 -- Date: 2018-09-15 19:23
 -- Who: Emmaleah
 -- Log: Add |RARE tag to all Silver Elite Mobs, changed all C steps, that had |T|, to K steps; on those made sure had QO tag, changed QID to ACTIVE
@@ -477,6 +482,7 @@ T The Three Sisters|QID|48520|M|70.07,60.27|N|To Evelyn Pare.|
 T Charming the Lifeless|QID|48521|M|70.07,60.27|N|To Evelyn Pare.|
 T A Revealing Missive|QID|48522|M|70.07,60.27|N|To Evelyn Pare.|
 A The Murderous Matron|QID|48523|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520;48521;48522|
+A Culling the Coven|QID|48524|M|70.07,60.27|RANK|-1|N|From Evelyn Pare. Technically this isn't part of zone achievement but it's nearly impossible to NOT complete while doing the other quests.|PRE|48520;48521;48522|
 A Culling the Coven|QID|48524|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520;48521;48522|
 C The Murderous Matron|QID|48523|QO|1|N|Click the Dormant Ravager to take control of it.|
 C Culling the Coven|QID|48524|S|N|While controlling the Dormant Ravager, run up to the Elderstone Mine and use the ravagers abilities to slay Heartsbane minions while traveling towards Matron Levae.|
@@ -574,7 +580,7 @@ C The High Thornspeaker|QID|53110|QO|1|M|43.62,39.15|CHAT|N|Tell Arthur you are 
 C The High Thornspeaker|QID|53110|QO|2|M|43.62,39.15|NC|N|Hop on Arthur's back for a ride up to Ulfar's Den.|
 T The High Thornspeaker|QID|53110|M|45.30,45.75|N|To Ulfar.--currently no follow up... seems odd--|
 
-A WANTED: The Rime Huntress|QID|52033|M|41.24,40.98|N|group quest - optional|
+A WANTED: The Rime Huntress|QID|52033|M|41.24,40.98|N|group quest - optional|RANK|2|
 K Bilgewater Incinerator|AVAILABLE|50897|L|158928|M|38.82,35.79|T|Bilgewater Incinerator|N|Kill the Bilgewater Incinerator's until you get the item that starts a quest.|RANK|2|
 A Turn the Heat Around|QID|50897|M|38.82,35.79|N|Auto accepted from the Flamethrower you just looted.|RANK|2|
 C Turn the Heat Around|QID|50897|M|38.82,35.79|NC|U|158928|N|Use the Flamethrower to destroy the mining supplies in the area.|RANK|2|
@@ -621,6 +627,7 @@ R Gol Osigr|ACTIVE|48504|M|39.40,51.39;40.34,54.31|CS|N|Follow the footpath to G
 T Through the Old Roads|QID|48504|M|40.23,56.51|N|To Inquisitor Cleardawn.|
 A Pieces of History|QID|48184|M|40.23,56.51|N|From Inquisitor Cleardawn.|
 A Honorable Discharge|QID|48517|M|40.23,56.51|N|From Inquisitor Cleardawn.|
+A Clear Victory|QID|49898|M|39.69,57.98|N|From Captain Lilian Nottley. Technically not part of zone achievement but may as well grab it since you will most likely complete it without trying while doing the other quests. Skip if you like.|RANK|-1|
 A Clear Victory|QID|49898|M|39.69,57.98|N|From Captain Lilian Nottley.|
 C Clear Victory|QID|49898||S|N|Slay Drust Skeletons as you go.|
 C Honorable Discharge|QID|48517|S|NC|N|Click on the Weary Spirits to release them as you go.|
