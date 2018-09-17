@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2018-09-17 01:57
+-- Who: jovieve
+-- Log: Lowered level requirements for new scaling.
+
+-- URL: http://wow-pro.com/node/3476/revisions/29592/view
 -- Date: 2018-08-24 01:03
 -- Who: jovieve
 -- Log: Updated old style QO tags. Also added kiss emote to the T tag in A Blade Fit for a Champion.
@@ -58,7 +63,7 @@
 -- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoArgTour",'Dailies', "Icecrown", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,77,78,77.0131)
+WoWPro:GuideLevels(guide,67,68,67.0131)
 WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
 WoWPro:GuideSteps(guide, function()
 return [[
