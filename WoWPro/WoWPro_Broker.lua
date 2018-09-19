@@ -584,16 +584,24 @@ function WoWPro.UpdateQuestTrackerRow(row)
 					    local done, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
 					    track = track.."\n- " .. status
 					else
-					    WoWPro:dbp("UQT: Not a valid objective [%s]", qid, questtext)
+					    WoWPro:dbp("UQT: Not a valid quest objective %q [%s]", QID, questtext)
 					    track =  track.." ???"
 					end
 				end
 			elseif  WoWPro.sobjective[index] then
-			    -- Scenario objectives we dont do now.
-			    track = track
+			    -- Scenario objectives we can do now.
+			    local stage, objective = string.split(";",WoWPro.sobjective[index])
+			    if WoWPro.ValidObjective(objective) then
+			        local done, status = WoWPro.QuestObjectiveStatus(stage, objective)
+			        track = track.."\n- " .. status
+			    else
+				    WoWPro:dbp("UQT: Not a valid scenario objective %q [%s]", QID, WoWPro.sobjective[index])
+				    track =  track.." ??"
+			    end
 			else
 			    --No questtext or leaderboard
 			    WoWPro:dbp("UQT: QID %d active, but no QO or leaderBoard!", qid)
+			    track =  track.." ?"
 			end
 		end
 		if lootitem then
@@ -1351,7 +1359,6 @@ function WoWPro.NextStep(k,i)
                 skip = true
                 break
             end
-            objective = tonumber(objective) or 0
             if not WoWPro.Scenario then
                 WoWPro:dbp("Step %s [%s/%s] skipped as Scenario de-activated (2)",WoWPro.action[k],WoWPro.step[k],tostring(QID))
                 skip = true
@@ -1367,14 +1374,15 @@ function WoWPro.NextStep(k,i)
                skip = true
                break
            end
-           if objective > 0 then
+           if WoWPro.ValidObjective(objective) then
                if objective > WoWPro.Scenario.numCriteria then
                    WoWPro:dbp("Big scenario objective [%s] at step %s [%s]. objective=%d, numCriteria=%d", WoWPro.sobjective[k], WoWPro.action[k],WoWPro.step[k], objective, WoWPro.Scenario.numCriteria)
                    skip = true
                    break
                end
-               if WoWPro.Scenario.Criteria[objective].completed then
-                   WoWPro.CompleteStep(k, "Scenario objective completed:"..WoWPro.sobjective[k])
+               local done, status = WoWPro.QuestObjectiveStatus(stage, objective)
+               if done then
+                   WoWPro.CompleteStep(k, "Scenario objective completed: "..WoWPro.sobjective[k].." "..status)
                    skip = true
                    break
                end 
