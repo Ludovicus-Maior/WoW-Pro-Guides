@@ -228,60 +228,108 @@ end
 
 
 WoWPro.ObjectiveOperators = {}
-function WoWPro.ObjectiveOperators.done(qid, objective)
+-- Quest Objective functions
+function WoWPro.ObjectiveOperators.QuestDone(qid, objective)
     local done = WoWPro.QuestLog[qid].ocompleted and WoWPro.QuestLog[qid].ocompleted[objective]
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
-function WoWPro.ObjectiveOperators.less(qid, objective, target)
+function WoWPro.ObjectiveOperators.QuestLess(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] >= target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
-function WoWPro.ObjectiveOperators.equal(qid, objective, target)
+function WoWPro.ObjectiveOperators.QuestEqual(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] == target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
-function WoWPro.ObjectiveOperators.greater(qid, objective, target)
+function WoWPro.ObjectiveOperators.QuestGreater(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] <= target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
-WoWPro.ObjectiveOperators['<'] = WoWPro.ObjectiveOperators.less
-WoWPro.ObjectiveOperators['='] = WoWPro.ObjectiveOperators.equal
-WoWPro.ObjectiveOperators['>'] = WoWPro.ObjectiveOperators.greater
+-- Scenario Objective functions
+function WoWPro.ObjectiveOperators.ScenarioDone(stage, objective)
+    -- Needs updating
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].completed
+    local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
+    return done , status
+end
+
+function WoWPro.ObjectiveOperators.ScenarioLess(stage, objective, target)
+    -- Needs updating
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity >= target
+    local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
+    return done , status
+end
+
+function WoWPro.ObjectiveOperators.ScenarioEqual(stage, objective, target)
+    -- Needs updating
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity == target
+    local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
+    return done , status
+end
+
+function WoWPro.ObjectiveOperators.ScenarioGreater(qid, objective, target)
+    -- Needs updating
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity <= target
+    local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
+    return done , status
+end
 
 
-function WoWPro.ParseObjective(questtext)
+WoWPro.ObjectiveOperators['Q<'] = WoWPro.ObjectiveOperators.QuestLess
+WoWPro.ObjectiveOperators['Q='] = WoWPro.ObjectiveOperators.QuestEqual
+WoWPro.ObjectiveOperators['Q>'] = WoWPro.ObjectiveOperators.QuestGreater
+WoWPro.ObjectiveOperators['Q'] = WoWPro.ObjectiveOperators.QuestDone
+WoWPro.ObjectiveOperators['S<'] = WoWPro.ObjectiveOperators.ScenarioLess
+WoWPro.ObjectiveOperators['S='] = WoWPro.ObjectiveOperators.ScenarioEqual
+WoWPro.ObjectiveOperators['S>'] = WoWPro.ObjectiveOperators.ScenarioGreater
+WoWPro.ObjectiveOperators['S'] = WoWPro.ObjectiveOperators.ScenarioDone
+
+
+function WoWPro.ParseObjective(questtext, class)
     local objective, operator, target = string.match(questtext,OBJECTIVE_PATTERN)
-    WoWPro:dbp("ParseObjective(%q): %q %q %q",questtext, objective, operator, target)
+    WoWPro:dbp("ParseObjective(%q,%q): %q %q %q",questtext, class, objective, operator, target)
     if operator == "" then
         WoWPro:dbp("ParseObjective(%q): returning ObjectiveOperators.done", questtext)
-        return tonumber(objective), WoWPro.ObjectiveOperators.done, nil
+        return tonumber(objective), WoWPro.ObjectiveOperators[class], nil
     elseif (operator ~= "") and (target ~= "") then
-        if WoWPro.ObjectiveOperators[operator] then
+        if WoWPro.ObjectiveOperators[class..operator] then
             target = tonumber(target)
             WoWPro:dbp("ParseObjective(%q): returning ObjectiveOperators[%q], %d", questtext, operator, target)
-            return tonumber(objective), WoWPro.ObjectiveOperators[operator], target
+            return tonumber(objective), WoWPro.ObjectiveOperators[class..operator], target
         else
             WoWPro:Warning("ParseObjective(%q): invalid operator. using ObjectiveOperators.done.", questtext)
-            return tonumber(objective), WoWPro.ObjectiveOperators.done, nil
+            return tonumber(objective), WoWPro.ObjectiveOperators[class], nil
         end
     else
          WoWPro:Warning("ParseObjective(%q): invalid objective. using ObjectiveOperators.done.", questtext)
-        return tonumber(objective), WoWPro.ObjectiveOperators.done, nil
+        return tonumber(objective), WoWPro.ObjectiveOperators[class], nil
     end
 end
 
-function WoWPro.ObjectiveStatus(qid, questtext)
+function WoWPro.QuestObjectiveStatus(qid, questtext)
     local done = false
     local status = "¿"
-    local objective, predicate, target = WoWPro.ParseObjective(questtext)
+    local objective, predicate, target = WoWPro.ParseObjective(questtext,"Q")
+    if (not WoWPro.QuestLog[qid]) then
+        return false, "Unknown qid "..tostring(qid)
+    end
+    done, status = predicate(qid, objective, target)
+    return done, status
+end
+
+function WoWPro.ScenarioObjectiveStatus(stage, objective)
+    local done = false
+    local status = "¿"
+    local objective, predicate, target = WoWPro.ParseObjective(objective,"S")
+    -- Needs updating
     if (not WoWPro.QuestLog[qid]) then
         return false, "Unknown qid "..tostring(qid)
     end
@@ -533,7 +581,7 @@ function WoWPro.UpdateQuestTrackerRow(row)
 				for l=1,numquesttext do
 					local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
 					if WoWPro.ValidObjective(lquesttext) then
-					    local done, status = WoWPro.ObjectiveStatus(qid, lquesttext)
+					    local done, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
 					    track = track.."\n- " .. status
 					else
 					    WoWPro:dbp("UQT: Not a valid objective [%s]", qid, questtext)
@@ -1250,7 +1298,7 @@ function WoWPro.NextStep(k,i)
 		        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[k]))
 		        local lcomplete = false
 		        if WoWPro.ValidObjective(lquesttext) then
-		            lcomplete = WoWPro.ObjectiveStatus(qid, lquesttext)
+		            lcomplete = WoWPro.QuestObjectiveStatus(qid, lquesttext)
     		    end
 		        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
 	        end
