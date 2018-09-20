@@ -2,7 +2,7 @@
   <Script file="01_05_Gylin_Dwarf_Starter.lua"/>
   <Script file="01_05_Gylin_Gnome_Starter.lua"/>
   <Script file="01_05_Kurich_Northsire.lua"/>
-  <Script file="05_10_Kurich_Elwynn.lua"/>  
+  <Script file="05_10_Kurich_Elwynn.lua"/>
   <Script file="01_05_Bitsem_Shadowglen.lua"/>
   <Script file="05_12_Bitsem_Teldrassil.lua"/>
   <Script file="01_05_Snowflakes_AmmenVale.lua"/>
@@ -63,4 +63,5 @@
   <Script file="110_120_Emmaleah_Tiragarde.lua"/>
   <Script file="110_120_Freitas_Stormsong.lua"/>
   <Script file="110_120_STrek_Drustvar.lua" />
+  <Script file="120_120_Jovieve_EndgameStory.lua" />
 </Ui>
