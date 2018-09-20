@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-20 08:24
+-- Who: elidion
+-- Log: Added alliance warfront scenario questline.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29764/view
 -- Date: 2018-09-17 22:59
 -- Who: jovieve
 -- Log: Added appropriate CHAT and NC tags. Some minor note changes.
@@ -453,6 +458,40 @@ T Boulderfist Beatdown|QID|53146|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Daw
 T Sins of the Syndicate|QID|53162|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
 T Wiping Out the Witherbark|QID|53149|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
 ;End Warfront
+; Warfront Scenerio
+A Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|From Ralston Karn.|O|
+C Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|QO|1|NC|N|View the War Table and join the queue to defeat the Horde at the Battle for Stromgarde.|
+A Iron Stores|QID|52439|M|61.05,67.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Foreman Tully. After taking the mines by killing Overseer Krix.|
+C Iron Stores|QID|52439|M|47.28,74.06|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|Back at the base, access your Iron Stores.|
+T Iron Stores|QID|52439|M|47.13,74.18|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Henrik.|
+A Cutting Out the Competition|QID|52118|M|36.37,59.61|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Lumbering Leo. after taking the Lumber Mill.|
+C Cutting Out the Competition|QID|52118|M|36.71,59.43|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|Grab the Sturdy Axe.|
+C Cutting Out the Competition|QID|52118|M|36.35,58.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|2|N|Chop down the Sapling.|
+C Cutting Out the Competition|QID|52118|M|36.35,58.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|3|N|Pick up the Freshly-Chopped Wood around the tree you just chopped.|
+T Cutting Out the Competition|QID|52118|M|36.65,59.78|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Lumbering Leo.|
+A Ready for Battle|QID|53672|M|46.04,73.30|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Sergeant Matthew Walker.|
+C Ready for Battle|QID|53672|M|44.40,73.70|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|Recruit a troop from the Barracks, 20 Iron minimum.|
+T Ready for Battle|QID|53672|M|46.04,73.29|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Sergeant Matthew Walker.|
+A Armor Up!|QID|53673|M|49.60,76.61|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Balinda Darkstone.|
+C Armor Up!|QID|53673|M|51.28,74.18|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|See what the Armory has to offer.|
+T Armor Up!|QID|53673|M|48.02,80.01|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Captain Roderick Brewston.|
+A The Altar's Power|QID|53674|M|48.02,80.01|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Captain Roderick Brewston.|
+C The Altar's Power|QID|53674|M|51.42,81.06|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|See what the Altar has to offer.|
+T The Altar's Power|QID|53674|M|48.01,79.96|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Captain Roderick Brewston.|
+A Welcome to the Workshop|QID|53675|M|50.73,72.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Genny.|
+C Welcome to the Workshop|QID|53675|M|49.93,72.26|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|See what the Workshop has to offer.|
+T Welcome to the Workshop|QID|53675|M|50.72,72.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Genny.|
+A Establishing a Connection|QID|53678|M|51.11,47.09|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Grayson Bell.|
+C Establishing a Connection|QID|53678|M|51.11,47.09|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|Fly back to get your flightmaster whistle upgrade.|
+T Establishing a Connection|QID|53678|M|47.49,75.40|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Danath Trollbane.|
+A Beasts of Newstead|QID|53677|M|42.31,39.61|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Huntmaster Theodore after capturing Newstead.|
+C Beasts of Newstead|QID|53677|M|41.50,40.54|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|See what Vindicator Banra has to offer.|
+T Beasts of Newstead|QID|53677|M|42.33,39.66|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Huntmaster Theodore.|
+A The Circle's Power|QID|53676|M|69.62,47.69|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From High Sorceress Marala after capturing the Circle of Elements.|
+C The Circle's Power|QID|53676|M|67.16,47.39|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|See what Justine Frost has to offer.|
+T The Circle's Power|QID|53676|M|69.64,47.68|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To High Sorceress Marala.|
+T Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|To Ralston Karn.|O|
+; End Warfront Scenerio
 C Uniting Kul Tiras|QID|51918;52450|US|N|This requires earning friendly reputation with Proudmoore Admirity (Tiragarde Sound), Order of Embers (Drustvar) and Storm's Wake (Stormsong Valley).|
 T Uniting Kul Tiras|QID|51918;52450|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
