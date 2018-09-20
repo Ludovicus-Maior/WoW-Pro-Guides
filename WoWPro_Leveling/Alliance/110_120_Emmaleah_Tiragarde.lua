@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-09-20 08:48
+-- Who: Emmaleah
+-- Log: Added Coords to Air Raid/Numbing the Pain/Farmers who Fight
+
+-- URL: http://wow-pro.com/node/3769/revisions/29762/view
 -- Date: 2018-09-17 07:08
 -- Who: Emmaleah
 -- Log: move trouble at greystone keep to rank 3
@@ -397,16 +402,16 @@ T A Desperate Defense|QID|49869|M|56.68,61.19|N|To Lieutenant Tarenfold.|
 A Farmers Who Fight|QID|52750|M|56.68,61.19|N|From Lieutenant Tarenfold.|PRE|49869|
 A Air Raid|QID|49737|M|56.68,61.19|N|From Lieutenant Tarenfold.|PRE|49869|
 A Numbing the Pain|QID|52787|M|56.48,61.73|N|From Taelia.|PRE|49869|
-C Air Raid|QID|49737|S|N|Kill Irontide Skyriders.|
-C Farmers Who Fight|QID|52750|NC|S|N|Clear the area around them, and then recruit the Vigil Hill Farmers.|
-C Numbing the Pain|QID|52787|S|NC|N|Click on the Evermoss Clumps to pick them up.|
-K Gulliver|QID|53373|QO|1|M|57.79,55.93|T|Gulliver|RARE|ITEM|158338|N|Tkill and loot this Silver Elite for Artifact Power and resources.|RANK|3|
+C Air Raid|QID|49737|M|57.16,59.47|S|N|Kill Irontide Skyriders.|
+C Farmers Who Fight|QID|52750|M|56.79,59.81|NC|S|N|Clear the area around them, and then recruit the Vigil Hill Farmers.|
+C Numbing the Pain|QID|52787|M|56.79,59.81|S|NC|N|Click on the Evermoss Clumps to pick them up.|
+K Gulliver|QID|53373|QO|1|M|57.79,55.93|T|Gulliver|RARE|ITEM|158338|N|Kill and loot this Silver Elite for Artifact Power and resources.|RANK|3|
 K Maison the Portable|QID|51880|QO|1|M|58.09,48.70|Z|Tiragarde Sound|T|Maison the Portable|N|Kill this Silver Elite and loot for Azerite Power and resources.|RARE|ITEM|154458|RANK|3|;in cave NE of Vigil Hill
 K Teres|QID|49942|QO|1|M|63.55,50.44|Z|Tiragarde Sound|T|Teres|N|Kill this Silver Elite near the waterfall for Azerite Power and resources.|RARE|ITEM|158556|RANK|3|;Wanderer's Cove
 K Tentulos the Drifter|QID|51879|QO|1|M|55.06,51.91|T|Tentulos the Drifter|RARE|ITEM|154448|N|Silver elite to kill for some Azerite Power and resources.|RANK|3|
-C Numbing the Pain|QID|52787||US|NC|N|Finish collecting the Evermoss Clumps.|
-C Farmers Who Fight|QID|52750|NC|US|N|Finish recruiting the Vigil Hill Farmers.|
-C Air Raid|QID|49737|US|N|Finish killing Irontide Skyriders.|
+C Numbing the Pain|QID|52787|M|56.79,59.81|US|NC|N|Finish collecting the Evermoss Clumps.|
+C Farmers Who Fight|QID|52750|M|56.79,59.81|NC|US|N|Finish recruiting the Vigil Hill Farmers.|
+C Air Raid|QID|49737|M|56.79,59.81|US|N|Finish killing Irontide Skyriders.|
 T Numbing the Pain|QID|52787|M|56.47,61.70|N|To Taelia.|
 T Air Raid|QID|49737|M|56.67,61.18|N|To Lieutenant Tarenfold.|
 T Farmers Who Fight|QID|52750|M|56.67,61.18|N|To Lieutenant Tarenfold.|
