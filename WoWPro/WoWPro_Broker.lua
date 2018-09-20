@@ -586,12 +586,12 @@ function WoWPro.UpdateQuestTrackerRow(row)
 			elseif  WoWPro.sobjective[index] then
 			    -- Scenario objectives we can do now.
 			    local stage, objective = string.split(";",WoWPro.sobjective[index])
+			    stage = tonumber(stage)
 			    if objective and WoWPro.ValidObjective(objective) then
 			        local done, status = WoWPro.ScenarioObjectiveStatus(stage, objective)
 			        track = track.."\n- " .. status
-			    elseif tonumber(stage) then
+			    elseif stage then
 			        --- Naked stage
-			        stage = tonumber(stage)
 			        if WoWPro.Scenario.currentStage == stage then
 			            track = track.."\n- "..WoWPro.Scenario.stageDescription
 			        end
