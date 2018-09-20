@@ -586,9 +586,15 @@ function WoWPro.UpdateQuestTrackerRow(row)
 			elseif  WoWPro.sobjective[index] then
 			    -- Scenario objectives we can do now.
 			    local stage, objective = string.split(";",WoWPro.sobjective[index])
-			    if WoWPro.ValidObjective(objective) then
+			    if objective and WoWPro.ValidObjective(objective) then
 			        local done, status = WoWPro.QuestObjectiveStatus(stage, objective)
 			        track = track.."\n- " .. status
+			    elseif tonumber(stage) then
+			        --- Naked stage
+			        stage = tonumber(stage)
+			        if WoWPro.Scenario.currentStage == stage then
+			            track = track.."\n- "..WoWPro.Scenario.stageDescription
+			        end
 			    else
 				    WoWPro:dbp("UQT: Not a valid scenario objective %q [%s]", QID, WoWPro.sobjective[index])
 				    track =  track.." ??"
