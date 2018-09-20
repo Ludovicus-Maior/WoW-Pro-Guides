@@ -256,25 +256,37 @@ end
 -- Scenario Objective functions
 function WoWPro.ObjectiveOperators.ScenarioDone(stage, objective)
     local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].completed
-    local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
+    local status = "?"
+    if WoWPro.Scenario.Criteria[objective] then
+    	status = string.format("%s: %d/%d", WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
+    end
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.ScenarioLess(stage, objective, target)
     local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity >= target
-    local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
+    local status = "?"
+    if WoWPro.Scenario.Criteria[objective] then
+    	status = string.format("%s: %d/%d", WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
+    end
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.ScenarioEqual(stage, objective, target)
     local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity == target
-    local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
+    local status = "?"
+    if WoWPro.Scenario.Criteria[objective] then
+    	status = string.format("%s: %d/%d", WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
+    end
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.ScenarioGreater(qid, objective, target)
     local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity <= target
-    local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
+    local status = "?"
+    if WoWPro.Scenario.Criteria[objective] then
+    	status = string.format("%s: %d/%d", WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
+    end
     return done , status
 end
 
@@ -2274,7 +2286,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
     ScenarioSerial = ScenarioSerial + 1
     WoWPro:print("WoWPro.ProcessScenarioCriteria: Serial %d, found %d criteria",WoWPro.Scenario.Criteria.serial, WoWPro.Scenario.numCriteria)
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
-        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, _, isWeightedProgress = C_Scenario.GetCriteriaInfo(criteriaIndex);
+        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, criteriaFailed, isWeightedProgress = C_Scenario.GetCriteriaInfo(criteriaIndex);
         if (criteriaString) then
             WoWPro.Scenario.Criteria[criteriaIndex] = WoWPro.Scenario.Criteria[criteriaIndex] or {}
             WoWPro.Scenario.Criteria[criteriaIndex].criteriaString = criteriaString
