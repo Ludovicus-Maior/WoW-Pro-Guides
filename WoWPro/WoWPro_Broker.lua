@@ -255,28 +255,24 @@ end
 
 -- Scenario Objective functions
 function WoWPro.ObjectiveOperators.ScenarioDone(stage, objective)
-    -- Needs updating
     local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].completed
     local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.ScenarioLess(stage, objective, target)
-    -- Needs updating
     local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity >= target
     local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.ScenarioEqual(stage, objective, target)
-    -- Needs updating
     local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity == target
     local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.ScenarioGreater(qid, objective, target)
-    -- Needs updating
     local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity <= target
     local status = (WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantityString) or "?"
     return done , status
@@ -329,9 +325,8 @@ function WoWPro.ScenarioObjectiveStatus(stage, objective)
     local done = false
     local status = "¿"
     local objective, predicate, target = WoWPro.ParseObjective(objective,"S")
-    -- Needs updating
-    if (not WoWPro.QuestLog[qid]) then
-        return false, "Unknown qid "..tostring(qid)
+    if not (WoWPro.Scenario.currentStage == stage) then
+        return false, "Scenario stage "..tostring(stage).." not active"
     end
     done, status = predicate(qid, objective, target)
     return done, status
@@ -1374,13 +1369,8 @@ function WoWPro.NextStep(k,i)
                skip = true
                break
            end
-           if WoWPro.ValidObjective(objective) then
-               if objective > WoWPro.Scenario.numCriteria then
-                   WoWPro:dbp("Big scenario objective [%s] at step %s [%s]. objective=%d, numCriteria=%d", WoWPro.sobjective[k], WoWPro.action[k],WoWPro.step[k], objective, WoWPro.Scenario.numCriteria)
-                   skip = true
-                   break
-               end
-               local done, status = WoWPro.QuestObjectiveStatus(stage, objective)
+           if objective and WoWPro.ValidObjective(objective) then
+               local done, status = WoWPro.ScenarioObjectiveStatus(stage, objective)
                if done then
                    WoWPro.CompleteStep(k, "Scenario objective completed: "..WoWPro.sobjective[k].." "..status)
                    skip = true
