@@ -249,7 +249,7 @@ DefineTag("L","lootitem","string",nil,function (text,i)
     end
 end)
 DefineTag("QO","questtext","string",nil,nil)
-DefineTag("SO","sobjective","string",validate_list_of_ints,nil)
+DefineTag("SO","sobjective","string",nil,nil)
 DefineTag("U","use","number",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
