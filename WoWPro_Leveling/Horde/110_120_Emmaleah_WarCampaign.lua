@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-09-20 08:26
+-- Who: elidion
+-- Log: One more typo
+
+-- URL: http://wow-pro.com/node/3761/revisions/29771/view
+-- Date: 2018-09-20 08:25
+-- Who: elidion
+-- Log: Updated some of the notes for the warfront scenario. 
+
+-- URL: http://wow-pro.com/node/3761/revisions/29759/view
 -- Date: 2018-09-16 19:58
 -- Who: elidion
 -- Log: Updated Horde Arathi quests from my guesses to reality.
@@ -407,39 +417,40 @@ T Wiping Out the Witherbark|QID|53150|M|27.30,29.79|Z|Arathi Highlands|N|To Druz
 ;End Warfront
 ; Warfront Scenerio
 A Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|N|From Throk.|O|
-C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|QO|1|N|1/1 View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde|
+C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde|
 A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|
-C Iron Stores|QID|51082|M|61.49,25.10|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|Back at the base, access your Iron Stores|
+C Iron Stores|QID|51082|M|61.49,25.10|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|Back at the base, access your Iron Stores.|
 T Iron Stores|QID|51082|M|61.48,25.26|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Lug'ruk.|
 A Chop, Chop!|QID|47283|ACTIVE|53416|M|45.98,19.64|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Graul. After taking Hatchet Ridge and killing Lumberjack Leo.|
-C Chop, Chop!|QID|47283|M|46.38,19.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|Grab the Sturdy Axe|
-C Chop, Chop!|QID|47283|M|46.47,18.16|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|2|NC|N|chop down the Sapling|
-C Chop, Chop!|QID|47283|M|46.47,18.16|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|3|NC|N|pick up the Freshly-Chopped Wood around the tree you just chopped.|
+C Chop, Chop!|QID|47283|M|46.38,19.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|Grab the Sturdy Axe.|
+C Chop, Chop!|QID|47283|M|46.47,18.16|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|2|NC|N|Chop down the Sapling.|
+C Chop, Chop!|QID|47283|M|46.47,18.16|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|3|NC|N|Pick up the Freshly-Chopped Wood around the tree you just chopped.|
 T Chop, Chop!|QID|47283|M|46.04,19.63|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Graul.|
 A Ready for Battle|QID|53665|ACTIVE|53416|M|60.64,28.10|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Lieutenant Akaro.|
 C Ready for Battle|QID|53665|M|60.77,28.90|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|Recruit a troop from the Barracks, 20 Iron minimum.|
 T Ready for Battle|QID|53665|M|60.64,28.09|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Lieutenant Akaro.|
 A Armor Up!|QID|53666|ACTIVE|53416|M|58.72,25.90|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Drom'kal.|
-C Armor Up!|QID|53666|M|58.60,25.40|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what the Armory has to offer|
+C Armor Up!|QID|53666|M|58.60,25.40|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what the Armory has to offer.|
 T Armor Up!|QID|53666|M|60.71,25.19|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Wistel Silversnitch.|
 A The Altar's Power|QID|53669|ACTIVE|53416|M|60.71,25.19|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Wistel Silversnitch.|
-C The Altar's Power|QID|53669|M|61.03,22.65|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what the Altar has to offer|
+C The Altar's Power|QID|53669|M|61.03,22.65|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what the Altar has to offer.|
 T The Altar's Power|QID|53669|M|60.70,25.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Wistel Silversnitch.|
 A Welcome to the Workshop|QID|53667|ACTIVE|53416|M|58.52,21.47|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Margie Slickwinch.|
-C Welcome to the Workshop|QID|53667|M|57.89,21.81|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what the Workshop has to offer|
+C Welcome to the Workshop|QID|53667|M|57.89,21.81|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what the Workshop has to offer.|
 T Welcome to the Workshop|QID|53667|M|58.52,21.47|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Margie Slickwinch.|
 A Flightgineer's Network|QID|53668|ACTIVE|53416|M|51.14,46.94|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Flightgineer Krazzle after capturing High Perch.|
 C Flightgineer's Network|QID|53668|M|51.31,46.85|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|Fly back to Ar'gorok to get your flightmaster whistle upgrade.|
 T Flightgineer's Network|QID|53668|M|61.69,26.19|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Eitrigg.|
 A Beasts of Newstead|QID|53670|ACTIVE|53416|M|42.26,39.56|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Raider Zugg after capturing Newstead.|
-C Beasts of Newstead|QID|53670|M|41.50,40.55|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what Kodo Rider Tanauk has to offer|
+C Beasts of Newstead|QID|53670|M|41.50,40.55|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what Kodo Rider Tanauk has to offer.|
 T Beasts of Newstead|QID|53670|M|42.62,41.53|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Raider Zugg.|
 A The Circle's Power|QID|53671|ACTIVE|53416|M|69.62,47.65|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Arcanist Ilira after capturing the Circle of Elements.|
-C The Circle's Power|QID|53671|M|68.45,47.51|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what Kraga Tidefury has to offer|
+C The Circle's Power|QID|53671|M|68.45,47.51|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what Kraga Tidefury has to offer.|
 T The Circle's Power|QID|53671|M|69.63,47.65|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Arcanist Ilira.|
-C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|2|N|Defeat the Alliance at the Battle for Stromgarde|
+C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|2|N|Defeat the Alliance at the Battle for Stromgarde.|
 T Warfront: The Battle for Stromgarde|QID|53416|M|52.92,94.51|Z|Dazar'alor|N|To Throk.|
 ;End Warfront Scenerio
+
 C Uniting Zandalar|QID|52451;51916|M|58.44,62.67|Z|Zuldazar|US|N|Requires at least honored with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
 T Uniting Zandalar|QID|52451;51916|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
