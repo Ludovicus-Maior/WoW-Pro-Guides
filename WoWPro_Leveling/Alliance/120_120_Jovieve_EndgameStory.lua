@@ -1,9 +1,15 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('JoviJaina', 'Leveling', 'Kul Tiras', 'Jovieve', 'Alliance')
 WoWPro:GuideLevels(guide,120, 120)
 WoWPro:GuideName(guide,'Endgame Storylines')
 WoWPro:GuideNextGuide(guide, 'TBD')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
+
 
 return [[
 N About|M|67.99,22.01|Z|Boralus|N|You must be level 120 and have the Kul Tourist achievement to start this guide. This guide is for the Jaina Proudmoore storyline in Kul'tiras. It earns the Pride of Kul'tiras achievement and unlocks the Siege of Boralus mythic-only instance.|AVAILABLE|52194|
@@ -117,12 +123,11 @@ C Runic Resistance|QID|52488|M|27.56,58.79|Z|Drustvar|QO|1|N|Runic symbols are e
 C Runic Resistance|QID|52488|M|26.79,58.00|Z|Thros, The Blighted Lands!Dungeon|N|To Katherine Proudmoore.|
 T Runic Resistance|QID|52488|M|27.54,58.89|Z|Drustvar|N|To Katherine Proudmoore.|
 
-; Scenerio 
+; Scenerio
 A Thros, the Blighted Lands|QID|51445|M|27.54,58.89|Z|Drustvar|N|From Katherine Proudmoore.|PRE|52488|
 P Thros, the Blighted Lands|ACTIVE|51445|M|27.57,58.81|Z|Drustvar|N|Click the portal to enter a scenario.|
 C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|26.55,57.68|SO|1;1|N|Follow Katherine|
 C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|23.65,55.69|SO|2;1|N|Chase Jainas mirror down. Creatures will spawn around you as you go.|
-;C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|26.24,52.48;25.24,50.14;21.43,56.54|CS|SO|3|N|Run to each of Jainas mirrors , listen to the dialog and battle the images. Be sure to click on Jaina's image before heading to the next area.|;Temporary until SOs are updated with new objective code.
 C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|26.24,52.48|SO|3;1<1|N|Run to Jainas 1st mirror featuring King Varian Wrynn. After the dialog, click on Jaina's image.|
 C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|25.24,50.14|SO|3;1<2|N|Run to Jainas 2nd mirror featuring Rhonin. After the dialog, click on Jaina's image.|
 C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|21.43,56.54|SO|3;1<3|N|Run to Jainas 3rd mirror featuring Citizens of Theramore. After the dialog, click on Jaina's image.|
@@ -133,3 +138,5 @@ T Thros, the Blighted Lands|QID|51445|M|44.76,62.78|Z|Boralus|N|To Katherine Pro
 ]]
 
 end)
+
+
