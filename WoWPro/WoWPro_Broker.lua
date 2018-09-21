@@ -1657,37 +1657,46 @@ function WoWPro.NextStep(k,i)
         
         -- Skipping Achievements if completed  --
     	if WoWPro.ach and WoWPro.ach[k] then
-    		local achnum, achitem, achflip = string.split(";",WoWPro.ach[k])
-    		achflip = WoWPro.toboolean(achflip) 
-    		local count = GetAchievementNumCriteria(achnum)
-    		if achitem == "" then achitem = nil end
-    		if count == 0 or not achitem then
-    			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(achnum)
-    			WoWPro:dbp("ACH %s wasEarnedByMe=%s, Flip=%s", achnum, tostring(wasEarnedByMe), tostring(achflip))
-    			if achflip then wasEarnedByMe = not wasEarnedByMe end
-                if wasEarnedByMe then
-                    if not achflip then
-				        WoWPro.CompleteStep(k, "NextStep(): Achivement ["..Name.."] Complete.") 
-				    end
-				    skip = true
+			local achtbl = { string.split("+",WoWPro.ach[k]) }
+			for akey, aval in pairs(achtbl) do
+				local achnum, achitem, achflip = string.split(";",aval)
+				achflip = WoWPro.toboolean(achflip) 
+				local count = GetAchievementNumCriteria(achnum)
+				if achitem == "" then achitem = nil end
+				if count == 0 or not achitem then
+					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(achnum)
+					WoWPro:dbp("ACH %s wasEarnedByMe=%s, Flip=%s", achnum, tostring(wasEarnedByMe), tostring(achflip))
+					if achflip then wasEarnedByMe = not wasEarnedByMe end
+					if wasEarnedByMe then
+						if akey == #achtbl then
+							if not achflip then
+								WoWPro.CompleteStep(k, "NextStep(): Achivement ["..Name.."] Complete.") 
+							end
+							skip = true
+						end
+					else
+						WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] not complete."
+						break
+					end 
+				elseif (count > 0) and achitem then
+					local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+					WoWPro:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(Completed), tostring(achflip))
+					if achflip then completed = not completed end
+					if completed then
+						if akey == #achtbl then
+							if not achflip then
+								WoWPro.CompleteStep(k, "NextStep(): Criteria ["..description.."] Complete.")
+							end
+							skip = true
+						end
+					else
+						WoWPro.why[k] = "NextStep(): Criteria ["..description.."] not complete."
+						break;
+					end
 				else
-				    WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] not complete."
-			    end 
-    		elseif (count > 0) and achitem then
-    			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
-    			WoWPro:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(Completed), tostring(achflip))
-    			if achflip then completed = not completed end
-			    if completed then
-			        if not achflip then
-				        WoWPro.CompleteStep(k, "NextStep(): Criteria ["..description.."] Complete.")
-				    end
-				    skip = true
-				else
-				    WoWPro.why[k] = "NextStep(): Criteria ["..description.."] not complete."
-			    end
-			else
-			    WoWPro:Error("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
-    		end
+					WoWPro:Error("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
+				end
+			end
     	end
     	
     	-- Skipping spells if known.
