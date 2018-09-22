@@ -1699,6 +1699,27 @@ function WoWPro.NextStep(k,i)
 			end
     	end
     	
+	if WoWPro.ilvl and WoWPro.ilvl[k] then
+    		local ilvlID,ilvlFlip = string.split(";",WoWPro.ilvl[k])
+    		local avgIlvl = GetAverageItemLevel()
+		local ilvlMatch
+		ilvlFlip = WoWPro.toboolean(ilvlFlip)
+		if tonumber(ilvlID) >= avgIlvl then 
+			ilvlMatch = true
+		end		
+		if ilvlFlip then
+			ilvlMatch = not ilvlMatch
+		end
+		if ilvlMatch then
+			if not ilvlFlip then
+				WoWPro.CompleteStep(k, "NextStep(): Item Level ["..avgIlvl.."] is less than "..ilvlID..".") 
+			end
+			skip = true
+		else
+			WoWPro.why[k] = "NextStep(): Item Level ["..ilvlID.."] not met."
+		end			
+    	end		
+			
     	-- Skipping spells if known.
     	-- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
     	-- This tests for Spells you can put on a button, essentially.
