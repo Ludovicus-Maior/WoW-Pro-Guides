@@ -377,8 +377,6 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	            value = tags[idx]
 	            if not value then
 	                WoWPro:Warning("%d:Missing value for tag %s in [%s].",i,tag,atext)
-	            elseif string.len(value) == 0 then
-	                WoWPro:Warning("%d:Empty value for tag ¦%s¦ in [%s].",i,tag,atext)
 	            end
 	        elseif tag_spec.vtype == "guide" then
 	            -- pop the next value off the stack
