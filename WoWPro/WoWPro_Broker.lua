@@ -1226,7 +1226,9 @@ function WoWPro.NextStep(k,i)
 	    
 		-- Checking Prerequisites --
     	if WoWPro.prereq[k] then
-    	    if string.find(WoWPro.prereq[k],"+") then
+    	    if WoWPro.prereq[k] == "" then
+    	        WoWPro.why[k] = "NextStep(): Empty PRE tag!"
+    	    elseif string.find(WoWPro.prereq[k],"+") then
     	        -- Any prereq met is OK, skip only if none are met	
         		local numprereqs = select("#", string.split("+", WoWPro.prereq[k]))
         		local totalFailure = true
