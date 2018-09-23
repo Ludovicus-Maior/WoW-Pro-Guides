@@ -4,8 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2018-08-24 16:34
+-- Who: Ludovicus_Maior
+-- Log: Fixed QOs on [Caught Unawares] and [How Hot]
+
+-- URL: http://wow-pro.com/node/3469/revisions/28991/view
+-- Date: 2018-02-19 22:54
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3469/revisions/28556/view
+-- Date: 2017-03-23 17:44
+-- Who: Ludovicus_Maior
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3469/revisions/28328/view
+-- Date: 2017-03-10 23:28
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3469/revisions/26882/view
 -- Date: 2014-11-08 00:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Rogue Z tag
 
 -- URL: http://wow-pro.com/node/3469/revisions/26854/view
@@ -15,52 +35,52 @@
 
 -- URL: http://wow-pro.com/node/3469/revisions/26556/view
 -- Date: 2014-07-06 15:39
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels/faction
 
 -- URL: http://wow-pro.com/node/3469/revisions/26523/view
 -- Date: 2014-06-11 19:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3469/revisions/25668/view
 -- Date: 2013-05-17 19:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  [The Bigger They Are]
 
 -- URL: http://wow-pro.com/node/3469/revisions/25624/view
 -- Date: 2013-05-14 15:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3469/revisions/25623/view
 -- Date: 2013-05-14 15:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  MoltenFront
 
 -- URL: http://wow-pro.com/node/3469/revisions/25363/view
 -- Date: 2013-01-12 18:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3469/revisions/25016/view
 -- Date: 2012-06-30 20:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Relocate [Well Armed] and [Aid of the Ancients] for better quest flow.
 
 -- URL: http://wow-pro.com/node/3469/revisions/25004/view
 -- Date: 2012-06-08 14:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of unneeded |O| tags and warnings.
 --	Nonlinear quest unlocks have been working reliably.
 
 -- URL: http://wow-pro.com/node/3469/revisions/24999/view
 -- Date: 2012-05-27 22:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Edits to guide having played it to the Shadow Wardens fork.
 
 -- URL: http://wow-pro.com/node/3469/revisions/24977/view
 -- Date: 2012-05-19 01:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Fixed Links....
 
 -- URL: http://wow-pro.com/node/3469/revisions/24961/view
@@ -88,15 +108,15 @@
 
 -- URL: http://wow-pro.com/node/3469/revisions/24953/view
 -- Date: 2012-02-13 21:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3469/revisions/24952/view
 -- Date: 2012-02-13 20:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3469/revisions/24951/view
 -- Date: 2012-02-13 20:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3469/revisions/24950/view
 -- Date: 2012-02-13 10:50
@@ -106,7 +126,7 @@
 
 -- URL: http://wow-pro.com/node/3469/revisions/24948/view
 -- Date: 2012-02-13 01:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("EstFirelands",'Dailies', "Mount Hyjal", "Estelyen", "Neutral")
 WoWPro:GuideLevels(guide,85,85,85)
@@ -124,22 +144,22 @@ A Flight of the Storm Crows|QID|29182|PRE|29181|N|After the little event, accept
 
 T Guardians of Hyjal: Firelands Invasion!|QID|29388|FACTION|Horde|N|At Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
 T Guardians of Hyjal: Firelands Invasion!|QID|29387|FACTION|Alliance|N|At Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
-A Opening the Door|QID|29145|N|From Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
+A Opening the Door|QID|29145|PRE|25372|N|From Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
 T Opening the Door|QID|29145|N|At Arch Druid Hamuul Runetotem atop the cliff.|Z|Mount Hyjal|M|27.00,54.60|
-A A Ritual of Flame|QID|29195|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,54.60|
+A A Ritual of Flame|QID|29195|PRE|29145|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,54.60|
 C A Ritual of Flame|QID|29195|N|Assist in opening the portal.|Z|Mount Hyjal|M|27.00,54.60|
 T A Ritual of Flame|QID|29195|N|At Malfurion Stormrage.|Z|Mount Hyjal|M|27.40,55.20|
-A To the Sanctuary!|QID|29196|N|From Malfurion Stormrage.|Z|Mount Hyjal|M|27.40,55.20|
+A To the Sanctuary!|QID|29196|PRE|29195|N|From Malfurion Stormrage.|Z|Mount Hyjal|M|27.40,55.20|
 T To the Sanctuary!|QID|29196|N|Back at Matoclaw down below.|Z|Mount Hyjal|M|27.17,62.54|
-A Caught Unawares|QID|29197|N|From Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
-C Caught Unawares|QID|29197|QO|Kill elementals near Thisalee: 6/6|N|Fly over to Thisalee Crow and help her against the Elementals.|Z|Mount Hyjal|M|24.40,55.80|
-C Caught Unawares|QID|29197|QO|Kill elementals near Elderlimb: 6/6|N|Next is the Ancient Elderlimb, help him fight off the Elementals.|Z|Mount Hyjal|M|33.95, 57.54|
-C Caught Unawares|QID|29197|QO|Kill elementals near Tholo and Anren: 6/6|N|Finally, help Tholo and Angren defend themselves.|Z|Mount Hyjal|M|41.40,56.40|
+A Caught Unawares|QID|29197|PRE|29196|N|From Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
+C Thisalee Elementals|QID|29197|QO|2|N|Fly over to Thisalee Crow and help her against the Elementals.|Z|Mount Hyjal|M|24.40,55.80|
+C Elderlimb Elementals|QID|29197|QO|1|N|Next is the Ancient Elderlimb, help him fight off the Elementals.|Z|Mount Hyjal|M|33.95, 57.54|
+C Tholo's and Anren's Elementals|QID|29197|QO|3|N|Finally, help Tholo and Angren defend themselves.|Z|Mount Hyjal|M|41.40,56.40|
 T Caught Unawares|QID|29197|N|At Arch Druid Hamuul Runetotem at the Sanctuary of Malorne.|Z|Mount Hyjal|M|27.00,62.60|
-A The Sanctuary Must Not Fall|QID|29198|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
+A The Sanctuary Must Not Fall|QID|29198|PRE|29197|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
 C The Sanctuary Must Not Fall|QID|29198|N|You don't actually need to do anything for this quest. Just watch as the Ancient gets resurrected after a few moments.|Z|Mount Hyjal|
 T The Sanctuary Must Not Fall|QID|29198|N|At Malfurion Stormrage.|Z|Mount Hyjal|M|27.00,62.60|
-A Calling for Reinforcements|QID|29199|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
+A Calling for Reinforcements|QID|29199|PRE|29198|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
 C Achievement step available!|QID|29199|ACH|5870;2|N|Talk to Matoclaw and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|Mount Hyjal|M|27.00,62.60|
 
 A Well Armed|QID|29282|PRE|29281|N|After the little event, accept this quest from Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
@@ -155,15 +175,15 @@ C Achievement step available!|QID|29248;29246;29247|ACH|5870;4|N|Talk to Dorda'e
 
 C Call the Flock|QID|29147|ACH|5862|U|69234|N|Use the Quill to transform into a bird. Fly around in this area and use Ability #1 to collect nearby birds. Every time you do, you'll get a speed buff that stacks. If you gain enough stacks, you'll get the achievement 'Ludicrous Speed'.|Z|Mount Hyjal|M|12.24,35.44|
 C Call the Flock|QID|29147|U|69234|N|Use the Quill to transform into a bird. Fly around in this area and use Ability #1 to collect nearby birds.|Z|Mount Hyjal|M|12.24,35.44|
-C Those Bears up there|QID|29161|ACH|5868;2|N|You should remember how this works from leveling in Mount Hyjal. Climb a tree, grab one of the bears, climb up to the top and throw it onto the target. Climb down to get another bear and repeat until complete. If you want, you can toss a bear at one of the sleeping corehounds instead for a step in the achievement 'And the Meek Shall Inherit Kalimdor'.|Z|Mount Hyjal|M|13.66,33.02|
-C Those Bears up there|QID|29161|N|You should remember how this works from leveling in Mount Hyjal. Climb a tree, grab one of the bears, climb up to the top and throw it onto the target. Climb down to get another bear and repeat until complete.|Z|Mount Hyjal|M|13.66,33.02|
+C Those Bears Up There|QID|29161|ACH|5868;2|N|You should remember how this works from leveling in Mount Hyjal. Climb a tree, grab one of the bears, climb up to the top and throw it onto the target. Climb down to get another bear and repeat until complete. If you want, you can toss a bear at one of the sleeping corehounds instead for a step in the achievement 'And the Meek Shall Inherit Kalimdor'.|Z|Mount Hyjal|M|13.66,33.02|
+C Those Bears Up There|QID|29161|N|You should remember how this works from leveling in Mount Hyjal. Climb a tree, grab one of the bears, climb up to the top and throw it onto the target. Climb down to get another bear and repeat until complete.|Z|Mount Hyjal|M|13.66,33.02|
 C Punting Season|QID|29101|ACH|5868;4|N|Along the Shores of both lakes (top and bottom half), kill the flame elementals attacking the little tortoises. Pick up a tortoise and punt it into the lake using ablility #1. If you want, you can try to punt it at one of the fire elementals instead. If you aimed right, the elemental will die and you'll get credit for a step in the achievement 'And the Meek Shall Inherit Kalimdor'.|Z|Mount Hyjal|M|21.33,56.37|
 C Punting Season|QID|29101|N|Along the Shores of both lakes (top and bottom half), kill the flame elementals attacking the little tortoises. Pick up a tortoise and punt it into the lake using ablility #1.|Z|Mount Hyjal|M|21.33,56.37|
 C Releasing the Pressure|QID|29248|N|Kill and loot Charred Flamewalkers in the Regrowth.|Z|Mount Hyjal|S|
 C Supplies for the Other Side|QID|29166|N|Collect Blueroot Vines from all over the Regrowth. Herbalists can track these with the Find Herbs ability.|Z|Mount Hyjal|S|
 C Achievement step available!|QID|29125;29164;29166;29248|ACH|5868;1|N|Look closely at the trees in the Regrowth. If you see one where some squirrels are hiding, pull any enemy close to it, the squirrels will start throwing nuts at them and give credit for a step in the achievement 'And the Meek Shall Inherit Kalimdor'.|Z|Mount Hyjal|M|36.74,59.06|US|
 C Between the Trees|QID|29125|N|Look for the ghostly deers running around in this area. You have to stand in a place so they run right into you. You've done it right when they disappear, giving you the Presence of Malorne buff.|Z|Mount Hyjal|M|36.74,59.06|
-C Perfecting your Howl|QID|29164|U|69235|N|Kill anything that looks like it's coming from the Firelands and use the Fang on its corpse.|Z|Mount Hyjal|M|36.73,56.66|
+C Perfecting Your Howl|QID|29164|U|69235|N|Kill anything that looks like it's coming from the Firelands and use the Fang on its corpse.|Z|Mount Hyjal|M|36.73,56.66|
 
 A Next Random Daily in the line|QID|29126;29148;29165;29162;29122|N|Turn in the quest you just completed in your questlog and accept the follow-up.|Z|Mount Hyjal|
 
@@ -209,13 +229,13 @@ T Releasing the Pressure|QID|29248|N|At Dorda'en Nightweaver.|Z|Mount Hyjal|M|27
 T Relieving the Pain|QID|29246|N|At Dorda'en Nightweaver.|Z|Mount Hyjal|M|27.53,62.51|
 T Treating the Wounds|QID|29247|N|At Dorda'en Nightweaver.|Z|Mount Hyjal|M|27.53,62.51|
 T Calling for Reinforcements|QID|29199|N|At Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
-A Leyara|QID|29200|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
+A Leyara|QID|29200|PRE|29199|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
 C Leyara|QID|29200|N|Find Leyara at the edge of the zone and talk to her. After going through her dialogue, an event occurs which you are unfortunately powerless to stop.|Z|Mount Hyjal|M|06.60,33.80|
 T Leyara|QID|29200|N|At Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
-A Through the Gates of Hell|QID|29201|N|From Malfurion Stormrage.|Z|Mount Hyjal|M|27.00,62.60|
+A Through the Gates of Hell|QID|29201|PRE|29200|N|From Malfurion Stormrage.|Z|Mount Hyjal|M|27.00,62.60|
 C Through the Gates of Hell|QID|29201|N|Enter the Portal to the Molten Front on top of the cliff. Battle the huge Fire Elemental at the other side. Don't stand around in the fire pools he casts on the ground, they explode.|Z|Mount Hyjal|M|27.48,56.32|
 T Through the Gates of Hell|QID|29201|N|At Malfurion Stormrage in the small cave.|M|47.00,91.00|
-A The Fate of Runetotem|QID|29202|N|Before doing anything else at the Molten Front, head back to Hyjal through the portal and accept this quest from Matoclaw at the Sanctuary of Malorne.|Z|Mount Hyjal|M|27.17,62.54|
+A The Fate of Runetotem|QID|29202|PRE|29201|N|Before doing anything else at the Molten Front, head back to Hyjal through the portal and accept this quest from Matoclaw at the Sanctuary of Malorne.|Z|Mount Hyjal|M|27.17,62.54|
 T The Fate of Runetotem|QID|29202|N|At Dorda'en Nightweaver near the tent to the left.|Z|Mount Hyjal|M|27.17,62.54|
 
 R Molten Front|N|Enter the Portal to the Molten Front here.|Z|Mount Hyjal|M|27.48,56.32|
@@ -229,9 +249,9 @@ A The Shadow Wardens|QID|29214|N|From Malfurion Stormrage in the small cave.|Z|M
 A Druids of the Talon|QID|29181|N|From Malfurion Stormrage in the small cave.|Z|MoltenFront|M|47.00,91.00|
 C Achievement step available!|QID|29181|ACH|5870;1|N|Talk to Malfurion Stormrage and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|47.00,91.00|
 C Achievement step available!|QID|29181|ACH|5870;3|N|Talk to Commander Jarod Shadowsong who patrols around outside the cave and select the speech bubble option for another step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|47.00,91.00|
-A Burn Victims|QID|29138|N|From Captain Irontree.|Z|MoltenFront|M|45.64,86.19|
+A Burn Victims|QID|29138|PRE|29201|N|From Captain Irontree.|Z|MoltenFront|M|45.64,86.19|
 T The Protectors of Hyjal|QID|29128|N|At General Taldris Moonfall.|Z|MoltenFront|M|45.58,85.80|
-A Hostile Elements|QID|29179|N|From General Taldris Moonfall.|Z|MoltenFront|M|45.58,85.80|
+A Hostile Elements|QID|29179|PRE|29201|N|From General Taldris Moonfall.|Z|MoltenFront|M|45.58,85.80|
 A Random Daily Extermination Quest|QID|29137;29304;29141;29142|N|From General Taldris Moonfall.|Z|MoltenFront|M|45.58,85.80|
 C Achievement step available!|QID|29179|ACH|5870;8|N|Talk to General Taldris Moonfall and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|45.58,85.80|
 
@@ -279,7 +299,7 @@ C The Forlorn Spire|QID|29205|N|Help the Shadow Wardens ascending this path. Loo
 T The Forlorn Spire|QID|29205|N|At Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
 A Random Daily Druids of the Flame Quest|QID|29211;29192|PRE|29205|N|From Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
 A The Flame Spider Queen|QID|29276|PRE|29205;29272|N|From Tholo Whitehoof near the Forlorn Spire. If he doesn't offer any quests, close this step, you'll get another quest later instead.|Z|MoltenFront|M|66.25,66.12|
-A Bye Bye Burdy|QID|29297|PRE|29205;29281|N|From Ricket near the Forlorn Spire, if she's here. If you did Rickets Random Daily at the Sentinel Tree, you won't be offered this one.|Z|MoltenFront|M|66.41,65.41|
+A Bye Bye Burdy|QID|29297|PRE|29205|N|From Ricket near the Forlorn Spire, if she's here. If you did Rickets Random Daily at the Sentinel Tree, you won't be offered this one.|Z|MoltenFront|M|66.41,65.41|
 A Pyrorachnophobia|QID|29159|PRE|29205|N|From Deldren Ravenelm.|Z|MoltenFront|M|66.10,64.00|
 A Random Daily Fire Spiders Quest|QID|29189;29160|PRE|29205|N|From Deldren Ravenelm.|Z|MoltenFront|M|66.10,64.00|
 C Achievement step available!|QID|29205|ACH|5870;7|N|Talk to Deldren Ravenelm and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|66.10,64.00|
@@ -288,7 +308,7 @@ C Pyrorachnophobia|QID|29159|N|Kill Cinderweb Spinners and Creepers. Attack a Sp
 C Egg-stinction|QID|29160|N|Collect Cinderweb Eggs. They might erupt into a shower of tiny spiders; you have to jump repeatedly and move away from where you are standing to shake them off.|S|
 C Wicked Webs|QID|29189|N|Look for Cinderweb Cocoons sticking on the side of the rock formations. Attack them to break them open.|S|
 C Achievement step available!|QID|29205|ACH|5872|N|The Cinderweb Spinners will hoist you up onto their ledge if you attack them. Use this knowledge to make your way to the highest peak in the area to get the achievement 'King of the Spider-Hill'.|Z|MoltenFront|M|66.04,56.80|
-A The Mysterious Seed|QID|29245|PRE|29205|N|Kill a Druid of the Flame around here, a small seed will appear next to her/him. Accept this quest from the seed.|Z|MoltenFront|M|70.99,38.07|
+A The Mysterious Seed|QID|29245|PRE|29214|N|Kill a Druid of the Flame around here, a small seed will appear next to her/him. Accept this quest from the seed.|Z|MoltenFront|M|70.99,38.07|
 C Solar Core Destruction|QID|29211|N|Fight through to the Solar Core and right click to destroy it.|Z|MoltenFront|M|70.99,38.07|
 C The Wardens are Watching|QID|29192|N|Beat a Druid of the Flame down a little until the Sentinel that follows you sets up a trap. Kite the weakened Druid of the Flame into it.|Z|MoltenFront|M|70.99,38.07|
 C Bye Bye Burdy|QID|29297|U|69832|N|Look up to search for Druids of the Flame in bird-form. When you have targeted one, use the Burd Sticker. Bye bye Burdy!|Z|MoltenFront|M|70.99,38.07|
@@ -303,13 +323,13 @@ T Wicked Webs|QID|29189|N|At Deldren Ravenelm.|Z|MoltenFront|M|66.10,64.00|
 T Solar Core Destruction|QID|29211|N|At Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
 T The Wardens are Watching|QID|29192|N|At Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
 
-A Enduring the Heat|QID|29210|PRE|29205|N|From Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
-A Fandral's Methods|QID|29275|PRE|29205;29272|N|From Anren Shadowseeker near the Forlorn Spire. If he isn't here anymore, close this step; you were offered The Flame Spider Queen instead.|Z|MoltenFront|M|66.01,66.05|
+A Enduring the Heat|QID|29210|PRE|29192+29211|N|From Marin Bladewing.|Z|MoltenFront|M|64.90,67.20|
+A Fandral's Methods|QID|29275|N|From Anren Shadowseeker near the Forlorn Spire. If he isn't here anymore, close this step; you were offered The Flame Spider Queen instead.|Z|MoltenFront|M|66.01,66.05|
 C Enduring the Heat|QID|29210|N|Enter the Igneous Depths. Don't bother fighting any mobs that attack you, just run to one of the glowing blue runes and click on it to detonate, killing all mobs in the vicinity. Repeat until all the runes are gone.|S|
 C Fandral's Methods|QID|29275|N|Look for sparkling quest items while you are in the Igneous Depths. They're usually near the edges of the paths, just keep your eyes open.|Z|MoltenFront|M|57.70,49.50|
 C Enduring the Heat|QID|29210|N|Enter the Igneous Depths. Don't bother fighting any mobs that attack you, just run to one of the glowing blue runes and click on it to detonate, killing all mobs in the vicinity. Repeat until all the runes are gone.|Z|MoltenFront|M|57.70,49.50|US|
 T Enduring the Heat|QID|29210|N|At Theresa Barkskin at the cave's entrance.|Z|MoltenFront|M|57.70,49.50|
-A Strike at the Heart|QID|29243|PRE|29205;29283|N|From Shalis Darkhunter at the entrance to the Ingeous Depths.|Z|MoltenFront|M|57.48,49.46|
+A Strike at the Heart|QID|29243|PRE|29210;29214;29283|N|From Shalis Darkhunter at the entrance to the Ingeous Depths.|Z|MoltenFront|M|57.48,49.46|
 C Strike at the Heart|QID|29243|ACH|5873|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Shadow Warden Sira Moonwarden to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day. When you defeat the Lieutenant without getting hit by their special attacks, you will get credit for a step in the achievement 'Ready for Raiding II'.|Z|MoltenFront|M|49.00,30.00|
 C Strike at the Heart|QID|29243|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Shadow Warden Sira Moonwarden to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day.|Z|MoltenFront|M|49.00,30.00|
 
@@ -321,7 +341,7 @@ A Fire Flowers|QID|29265|PRE|29206|N|From Thisalee Crow.|Z|MoltenFront|M|42.48,5
 C Achievement step available!|QID|29265|ACH|5870;5|N|Talk to Thisalee Crow and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|42.48,59.71|
 A Hounds of Shannox|QID|29274|PRE|29206;29272|N|If Anren Shadowseeker and his friend Tholo are standing next to Thisalee Crow in the cave, accept this quest from Anren. If they're not around, close this step. You'll get another quest later instead.|Z|MoltenFront|M|41.93,61.55|
 
-A Need... Water... Badly...|QID|29272|PRE|29206|N|Fight your way to the very end of the cave, you'll find Anren Shadowseeker there, accept this quest from him. This is an escort quest, so get ready to defend him beforehand.|Z|MoltenFront|M|51.90,31.00|
+A Need... Water... Badly...|QID|29272|PRE|29181|N|Fight your way to the very end of the cave, you'll find Anren Shadowseeker there, accept this quest from him. This is an escort quest, so get ready to defend him beforehand.|Z|MoltenFront|M|51.90,31.00|
 C Need... Water... Badly...|QID|29272|N|Defend Anren on his way out. He will explain about Thermal Vents on the way, listen closely, they're really useful.|
 C Flamewakers of the Molten Flow|QID|29264|N|Kill Flamewalkers all over the cave.|S|
 C Hounds of Shannox|QID|29274|N|Kill and loot Charhounds.|S|
@@ -336,7 +356,7 @@ T Flamewakers of the Molten Flow|QID|29264|N|At Thisalee Crow back at the entran
 R The Furnace|QID|29265|PRE|29206|N|Get out of the cave by using the Thermal Vent at the place you came in.|Z|MoltenFront|M|34.20,65.90|
 A How Hot|QID|29273|PRE|29206;29272|N|Back on the surface, accept this quest from Tholo Whitehoof. If he isn't here, close this step, you were offered Hounds of Shannox instead.|Z|MoltenFront|M|36.00,59.01|
 T Fire Flowers|QID|29265|N|At Choluna.|Z|MoltenFront|M|36.29,56.35|
-A The Bigger They Are|QID|29295|PRE|29206;29281|N|From Ricket next to Choluna near Fireplume Peak. If you did Rickets Random Daily at the Sentinel Tree, you won't be offered this one.|Z|MoltenFront|M|36.27,56.61|
+A The Bigger They Are|QID|29295|PRE|29265|N|From Ricket next to Choluna near Fireplume Peak. If you did Rickets Random Daily at the Sentinel Tree, you won't be offered this one.|Z|MoltenFront|M|36.27,56.61|
 A Random Daily Fire Hawk Quest|QID|29290;29288;29287;29289|PRE|29206|N|From Morthis Whisperwing.|Z|MoltenFront|M|34.52,56.20|
 A Random Daily Fireplume Peak Quest|QID|29296;29293|PRE|29206|N|From Arthorn Windsong.|Z|MoltenFront|M|34.28,56.43|
 C Achievement step available!|QID|29296;29293|ACH|5870;6|N|Talk to Arthorn Windsong and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|34.28,56.43|
@@ -349,9 +369,9 @@ C Territorial Birds|QID|29296|N|Kill Fire Hawks.|S|
 C Singed Wings|QID|29293|N|Search for Injured Druids of the Talon and click on them to heal them.|S|
 C The Bigger They Are|QID|29295|N|Kill Obsidium Punishers and collect the sparkling rocks that spawn around them when they die.|S|
 C Starting Young|QID|29288|N|Look for Fire hawk Hatchlings lying on the ground near lava lakes, it's almost impossible to collect those up in the air.|S|
-C How Hot|QID|29273|QO|Northeastern Lava Pool sampled: 1/1|U|69806|N|Go to the Northeastern Lava Pool and use the thermometer.|Z|MoltenFront|M|29.88,30.58|
-C How Hot|QID|29273|QO|Northwestern Lava Pool sampled: 1/1|U|69806|N|Go to the Northwestern Lava Pool and use the thermometer.|Z|MoltenFront|M|20.24,30.05|
-C How Hot|QID|29273|U|69806|N|Climb to the top of the volcano and use the thermometer on the Central Lava Pool.|Z|MoltenFront|M|23.09,40.58|
+C Northeastern Lava Pool|QID|29273|QO|2|U|69806|N|Go to the Northeastern Lava Pool and use the thermometer.|Z|MoltenFront|M|29.88,30.58|
+C Northwestern Lava Pool|QID|29273|QO|1|U|69806|N|Go to the Northwestern Lava Pool and use the thermometer.|Z|MoltenFront|M|20.24,30.05|
+C Central Lava Pool|QID|29273|QO|3|U|69806|N|Climb to the top of the volcano and use the thermometer on the Central Lava Pool.|Z|MoltenFront|M|23.09,40.58|
 C Mother's Malice|QID|29289|N|You need to kill the Firehawk Matriarch at the top of the volcano for this quest. The author of this guide never got this quest however and is not sure whether it is still in the game at all, so it would be nice if you dropped a comment on wowpro.com about how to do this quest if you get it.|Z|MoltenFront|M|23.09,40.58|
 C Peaked Interest|QID|29287|N|At the top of the volcano, steal one of the eggs. The Matriarch will aggro, you can fight her if you want, or simply run away.|Z|MoltenFront|M|23.09,40.58|
 C Starting Young|QID|29288|N|Look for Fire hawk Hatchlings lying on the ground near lava lakes, it's almost impossible to collect those up in the air. There might be a flock of them at the top of the volcano if you're lucky, but they spawn in other places on Fireplume Peak as well.|Z|MoltenFront|M|23.09,40.58|US|
@@ -365,7 +385,7 @@ T Singed Wings|QID|29293|N|At Arthorn Windsong.|Z|MoltenFront|M|34.28,56.43|
 T Starting Young|QID|29288|N|At Morthis Whisperwing.|Z|MoltenFront|M|34.52,56.20|
 T Peaked Interest|QID|29287|N|At Morthis Whisperwing.|Z|MoltenFront|M|34.52,56.20|
 T Mother's Malice|QID|29289|N|At Morthis Whisperwing.|Z|MoltenFront|M|34.52,56.20|
-A Strike at the Heart|QID|29305|PRE|29206;29283|N|From Choluna near Fireplume Peak. Also acceptable from Skylord Omnuron near the Sentinel Tree.|Z|MoltenFront|M|36.29,56.35;43.04,80.62|CN|
+A Strike at the Heart|QID|29305|N|From Choluna near Fireplume Peak. Also acceptable from Skylord Omnuron near the Sentinel Tree.|Z|MoltenFront|M|36.29,56.35;43.04,80.62|CN|
 C Strike at the Heart|QID|29305|ACH|5873|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Druid of the Talon Thisalee Crow to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day. When you defeat the Lieutenant without getting hit by their special attacks, you will get credit for a step in the achievement 'Ready for Raiding II'.|Z|MoltenFront|M|49.00,30.00|
 C Strike at the Heart|QID|29305|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Druid of the Talon Thisalee Crow to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day.|Z|MoltenFront|M|49.00,30.00|
 
@@ -392,9 +412,9 @@ T Planting Season|QID|29249|N|Turn this quest in via your questlog. You COULD al
 A Little Lasher|QID|29254|PRE|29249|N|Auto-accepted if you turned the previous quest in via questlog, else from Avrilla.|
 T Little Lasher|QID|29254|N|At Avrilla.|Z|MoltenFront|M|50.63,87.19|
 T Need... Water... Badly...|QID|29272|N|At Tholo Whitehoof near the portal back to Hyjal.|Z|MoltenFront|M|51.52,85.53|
-A Additional Armaments|QID|29281|PRE|29182;29215|N|The next tier of unlocking quests is available now. This one is from Damek Bloombeard in the cave under the Sentinel Tree.|Z|MoltenFront|M|46.90,89.95|
-A Filling the Moonwell|QID|29279|PRE|29182;29215|N|The next tier of unlocking quests is available now. This one is from Ayla Shadowstorm next to the newly created but empty Moonwell.|Z|MoltenFront|M|44.07,86.32|
-A Calling the Ancients|QID|29283|PRE|29182;29215|N|The next tier of unlocking quests is available now. This one is from Varlan Highbough.|Z|MoltenFront|M|44.47,88.74|
+A Additional Armaments|QID|29281|PRE|29181;29214|N|The next tier of unlocking quests is available now. This one is from Damek Bloombeard in the cave under the Sentinel Tree.|Z|MoltenFront|M|46.90,89.95|
+A Filling the Moonwell|QID|29279|PRE|29181;29214|N|The next tier of unlocking quests is available now. This one is from Ayla Shadowstorm next to the newly created but empty Moonwell.|Z|MoltenFront|M|44.07,86.32|
+A Calling the Ancients|QID|29283|PRE|29181;29214|N|The next tier of unlocking quests is available now. This one is from Varlan Highbough.|Z|MoltenFront|M|44.47,88.74|
 T Additional Armaments|QID|29281|LEAD|29283;29279|N|Check if you have 125 Marks of the World Tree yet, close this step if you don't. If you do, you can turn in one of your unlocking quests. Additional Armaments and Calling the Ancients each unlock one additional daily quest, while Filling the Moonwell unlocks a one-time-only questline that represents the final battle of the Firelands Invasion, the choice is yours. Close this step to get coordinates for the other two quests, or turn in Additional Armaments at Matoclaw at the Sanctuary of Malorne in Hyjal.|Z|Mount Hyjal|M|27.17,62.54|
 T Calling the Ancients|QID|29283|LEAD|29281;29279|N|Check if you have 125 Marks of the World Tree yet, close this step if you don't. If you do, you can turn in one of your unlocking quests. Additional Armaments and Calling the Ancients each unlock one additional daily quest, while Filling the Moonwell unlocks a one-time-only questline that represents the final battle of the Firelands Invasion, the choice is yours. Close this step to get coordinates for Filling the Moonwell, or turn in Calling the Ancients at the Ancient Elderlimb at the Sanctuary of Malorne in Hyjal.|Z|Mount Hyjal|M|26.00,61.20|
 T Filling the Moonwell|QID|29279|LEAD|29281;29283|N|Check if you have 125 Marks of the World Tree yet, close this step if you don't. If you do, you can turn in one of your unlocking quests. Additional Armaments and Calling the Ancients each unlock one additional daily quest, while Filling the Moonwell unlocks a one-time-only questline that represents the final battle of the Firelands Invasion, the choice is yours. Turn in Filling the Moonwell at Matoclaw at the Sanctuary of Malorne in Hyjal.|Z|Mount Hyjal|M|27.17,62.54|
@@ -430,3 +450,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
+

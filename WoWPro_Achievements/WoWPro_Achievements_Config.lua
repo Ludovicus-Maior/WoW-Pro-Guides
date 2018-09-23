@@ -8,11 +8,7 @@ local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
 local function createBlizzOptions()
-
-	config:RegisterOptionsTable("WoWPro-Achievements-Bliz", {
-		name = "WoW-Pro Achievements",
-		type = "group",
-		args = {
+    local args = {
 			help = {
 				order = 0,
 				type = "description",
@@ -34,11 +30,22 @@ local function createBlizzOptions()
 						if WoWPro.Achievements:IsEnabled() then WoWPro.Achievements:Disable() else WoWPro.Achievements:Enable() end
 					end
 			}, 
+			arank = {
+				order = 3,
+				type = "range",
+				name = L["Rank (Difficulty/Completeness)"],
+				desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
+				min = 1, max = 3, step = 1,
+				get = function(info) return WoWProDB.profile.rank end,
+				set = function(info,val) WoWProDB.profile.rank = val
+					WoWPro.UpdateGuide("Config: Rank") end,
+				width = "double"
+			},
 			blank2 = {
 				order = 4,
 				type = "description",
 				name = " ",
-			},    
+			},
 			helpheader = {
 				order = 5,
 				type = "header",
@@ -48,127 +55,13 @@ local function createBlizzOptions()
 				order = 6,
 				type = "description",
 				name = " ",
-			},  
-			accept = {
-				order = 7,
-				type = "description",
-				fontSize = "medium",
-				name = "Accept Quest",
-				image = "Interface\\GossipFrame\\AvailableQuestIcon",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
-			complete = {
-				order = 8,
-				type = "description",
-				fontSize = "medium",
-				name = "Complete Quest",
-				image = "Interface\\Icons\\Ability_DualWield",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
-			turnin = {
-				order = 9,
-				type = "description",
-				fontSize = "medium",
-				name = "Turn In Quest",
-				image = "Interface\\GossipFrame\\ActiveQuestIcon",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
-			kill = {
-				order = 10,
-				type = "description",
-				fontSize = "medium",
-				name = "Kill",
-				image = "Interface\\Icons\\Ability_Creature_Cursed_02",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
-			runto = {
-				order = 11,
-				type = "description",
-				fontSize = "medium",
-				name = "Run To",
-				image = "Interface\\Icons\\Ability_Tracking",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
-			hearth = {
-				order = 11,
-				type = "description",
-				fontSize = "medium",
-				name = "Use Hearthstone",
-				image = "Interface\\Icons\\INV_Misc_Rune_01",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
-			sethearth = {
-				order = 12,
-				type = "description",
-				fontSize = "medium",
-				name = "Set Hearthstone",
-				image = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
-			fly = {
-				order = 13,
-				type = "description",
-				fontSize = "medium",
-				name = "Fly To",
-				image = "Interface\\Icons\\Ability_Druid_FlightForm",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
-			note = {
-				order = 14,
-				type = "description",
-				fontSize = "medium",
-				name = "Note",
-				image = "Interface\\Icons\\INV_Misc_Note_01",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
-			buy = {
-				order = 15,
-				type = "description",
-				fontSize = "medium",
-				name = "Buy",
-				image = "Interface\\Icons\\INV_Misc_Coin_01",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
-			boat = {
-				order = 16,
-				type = "description",
-				fontSize = "medium",
-				name = "Go by Boat or Zeppelin",
-				image = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
-				imageWidth = 15,
-				imageHeight = 15
-			},    
-			use = {
-				order = 17,
-				type = "description",
-				fontSize = "medium",
-				name = "Use Item",
-				image = "Interface\\Icons\\INV_Misc_Bag_08",
-				imageWidth = 15,
-				imageHeight = 15
-			},    
-			repair = {
-				order = 18,
-				type = "description",
-				fontSize = "medium",
-				name = "Repair/Restock",
-				image = "Interface\\Icons\\Ability_Repair",
-				imageWidth = 15,
-				imageHeight = 15
-			}, 
-			
-		},
-	})
+			}
+	}
+	args = WoWPro.InsertActionDescriptions(args, 7)
+	config:RegisterOptionsTable("WoWPro-Achievements-Bliz", {
+		name = "WoW-Pro Achievements",
+		type = "group",
+		args = args})
 	dialog:SetDefaultSize("WoWPro-Achievements-Bliz", 600, 400)
 	dialog:AddToBlizOptions("WoWPro-Achievements-Bliz", "WoW-Pro Achievements")
 

@@ -4,25 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3538
--- Date: 2014-06-03 22:15
--- Who: Ludovicus
+-- Date: 2014-12-25 18:51
+-- Who: Ludovicus_Maior
 -- Log: Moved Author to the right slot!
 
 -- URL: http://wow-pro.com/node/3538/revisions/26313/view
 -- Date: 2014-05-26 18:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3538/revisions/26199/view
 -- Date: 2014-05-22 22:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Registration guide
 
 -- URL: http://wow-pro.com/node/3538/revisions/25546/view
 -- Date: 2013-03-23 16:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide('EstAchHiLe',"Achievements",'Dalaran', 'Estelyen','Neutral')
+WoWPro:GuideLevels(guide,70, 85, 82.5)
 WoWPro:GuideIcon(guide,"ACH",1956)
 WoWPro:GuideSteps(guide, function()
 return
@@ -40,3 +41,5 @@ A Transmutation|ACH|1956;8|N|In the empty bookshelf downstairs by the stove.|Z|D
 N Keep resetting|QID|972810001|N|until you find them all (or give up).|
 ]]
 end)
+
+

@@ -1,4 +1,4 @@
---[[ $Id: AceGUIWidget-DropDown-Items.lua 996 2010-12-01 18:34:17Z nevcairiel $ ]]--
+--[[ $Id: AceGUIWidget-DropDown-Items.lua 1167 2017-08-29 22:08:48Z funkydude $ ]]--
 
 local AceGUI = LibStub("AceGUI-3.0")
 
@@ -323,7 +323,7 @@ end
 -- Does not close the pullout on click.
 do
 	local widgetType = "Dropdown-Item-Toggle"
-	local widgetVersion = 3
+	local widgetVersion = 4
 	
 	local function UpdateToggle(self)
 		if self.value then
@@ -343,9 +343,9 @@ do
 		if self.disabled then return end
 		self.value = not self.value
 		if self.value then
-			PlaySound("igMainMenuOptionCheckBoxOn")
+			PlaySound(856) -- SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON
 		else
-			PlaySound("igMainMenuOptionCheckBoxOff")
+			PlaySound(857) -- SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_OFF
 		end
 		UpdateToggle(self)
 		self:Fire("OnValueChanged", self.value)
@@ -440,7 +440,7 @@ end
 -- A single line to separate items
 do
 	local widgetType = "Dropdown-Item-Separator"
-	local widgetVersion = 1
+	local widgetVersion = 2
 	
 	-- exported, override
 	local function SetDisabled(self, disabled)
@@ -455,7 +455,7 @@ do
 		
 		local line = self.frame:CreateTexture(nil, "OVERLAY")
 		line:SetHeight(1)
-		line:SetTexture(.5, .5, .5)
+		line:SetColorTexture(.5, .5, .5)
 		line:SetPoint("LEFT", self.frame, "LEFT", 10, 0)
 		line:SetPoint("RIGHT", self.frame, "RIGHT", -10, 0)
 		

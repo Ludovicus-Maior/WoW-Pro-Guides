@@ -4,6 +4,175 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-09-10 21:51
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3200/revisions/29353/view
+-- Date: 2018-06-14 23:41
+-- Who: Linkslegend5
+-- Log: updated some names and cleaned up a few lines.
+
+-- URL: http://wow-pro.com/node/3200/revisions/29156/view
+-- Date: 2018-02-24 20:36
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL Dun
+
+-- URL: http://wow-pro.com/node/3200/revisions/29154/view
+-- Date: 2018-02-24 20:34
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL gnome
+
+-- URL: http://wow-pro.com/node/3200/revisions/29007/view
+-- Date: 2018-02-19 23:14
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - DunM
+
+-- URL: http://wow-pro.com/node/3200/revisions/29003/view
+-- Date: 2018-02-19 23:09
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Gnome
+
+-- URL: http://wow-pro.com/node/3200/revisions/29002/view
+-- Date: 2018-02-19 23:08
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3200/revisions/28851/view
+-- Date: 2018-01-16 23:22
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3200/revisions/28344/view
+-- Date: 2017-03-11 20:02
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3200/revisions/28221/view
+-- Date: 2017-01-10 20:27
+-- Who: Ludovicus_Maior
+-- Log: Deleted spurious Z tag in Hunter's [T Meet the High Tinker]
+
+-- URL: http://wow-pro.com/node/3200/revisions/27706/view
+-- Date: 2016-09-06 23:19
+-- Who: Fluclo
+-- Log: Dun Morogh quests can't be done below level 5, so changed GuideLevel
+
+-- URL: http://wow-pro.com/node/3200/revisions/27705/view
+-- Date: 2016-09-06 23:11
+-- Who: Fluclo
+-- Log: As you are level 5 at the end of the guide, changed GuideLevels to finish at 5; What's Left Behind is not essential for zone progression so added Rank 2 to it; Changed coords for Dealing with the Fallout as the mobs there keep respawning when you kill them; Warlock can handle Finishin' the Job without the need to despawn the pet, so class steps removed. 
+
+-- URL: http://wow-pro.com/node/3200/revisions/27704/view
+-- Date: 2016-09-06 22:40
+-- Who: Fluclo
+-- Log: Added NC to See to the Survivors, Scrounging for Parts and A Job for the Multi-Bot. Changed New Tinkertown step from R to C since you must speak to Torben Zapblast for the quest. Added the pre-req quests for The Fight Continues, What's Left Behind, Dealing with the Fallout, Crushcog's Minions, No Tanks! and Staging in Brewnall. Added a C step for The Fight Continues. Added missing M coords for A Job for the Multi-Bot. Removed Level tags as you can continue without meeting these level requirements, whilst adding Level tag to the last quest (to handle skipping whilst still level 1) Clarified steps needed for Get Me Explosives Back! Tweaked notes on a few steps to clarify what's needed. Swapped order of sticky quests so non-combat ones are given priority. Changed Sell and Repair so that it only shows at right time, and auto-completes when next quest handed in.
+--	
+
+-- URL: http://wow-pro.com/node/3200/revisions/27693/view
+-- Date: 2016-09-06 01:46
+-- Who: Fluclo
+-- Log: Changing Level Range to be 1 to 4, as you are level 4 when completing Rank 1 guide
+
+-- URL: http://wow-pro.com/node/3200/revisions/27692/view
+-- Date: 2016-09-06 01:45
+-- Who: Fluclo
+-- Log: Multiple Races in |R| tag doesn't seem to be working, so changed it to individual lines for each of the races. The Troll Menace is auto-accepted even if you're on Rank 1, so added Note.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27684/view
+-- Date: 2016-09-03 09:20
+-- Who: Fluclo
+-- Log: Added NC to the Casks, and Felix's stuff, split quest All the Other Stuff into two parts, Lockdown and Whitebeard quests both have a second quest pre-req quest, unnecessary quests for zone progression changed to Rank 2. Removed Level tags as you can continue the quests below that level. Added auto-completing sell junk step towards end of zone. Details of being flown off included in quest rather than after you've started flying. Clarified the Trolls needed for Troll Menace (not all trolls count)
+
+-- URL: http://wow-pro.com/node/3200/revisions/27507/view
+-- Date: 2016-07-31 16:09
+-- Who: tubera
+-- Log:  Meet the High Tinker for hunter. Remove class ability training quests.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27503/view
+-- Date: 2016-07-31 00:10
+-- Who: tubera
+-- Log: Remove class quests from Coldridge Valley. Fix note on Wayward Fire Elemental
+
+-- URL: http://wow-pro.com/node/3200/revisions/27442/view
+-- Date: 2016-03-23 12:41
+-- Who: Ludovicus_Maior
+-- Log: Fixing step merge.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27392/view
+-- Date: 2015-10-05 14:50
+-- Who: Ludovicus_Maior
+-- Log: Correct coords for [Wayward Fire Elemental] and [Grik'nir the Cold]
+
+-- URL: http://wow-pro.com/node/3200/revisions/27335/view
+-- Date: 2015-07-17 19:28
+-- Who: Fluclo
+-- Log: Paint it Black is a non-combat quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/27334/view
+-- Date: 2015-07-17 19:25
+-- Who: Fluclo
+-- Log: No Tanks is a non-combat quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/27333/view
+-- Date: 2015-07-17 19:24
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3200/revisions/27259/view
+-- Date: 2015-05-18 00:14
+-- Who: Ludovicus_Maior
+-- Log: Wow, that [code] block thing was a bad idea.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27254/view
+-- Date: 2015-05-16 21:18
+-- Who: Ludovicus_Maior
+-- Log: Need a blank line before the [/code] directive.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27253/view
+-- Date: 2015-05-16 21:17
+-- Who: Ludovicus_Maior
+-- Log: Updated Dwarf guide levels.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27251/view
+-- Date: 2015-05-16 18:02
+-- Who: Ludovicus_Maior
+-- Log: Amend coords for Gnome starter zone.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27248/view
+-- Date: 2015-05-16 15:55
+-- Who: Aldavor
+-- Log: Amended most coordinates in the Dwarf starter zone; changed some 'l' tags to 'C' with numeric QOs; cleaned up.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27247/view
+-- Date: 2015-05-16 15:07
+-- Who: Ludovicus_Maior
+-- Log: Revert to get the dwarf zone back, re-add the zone changes for gnomes.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27246/view
+-- Date: 2015-05-16 15:06
+-- Who: Ludovicus_Maior
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3200/revisions/27228/view
+-- Date: 2015-04-30 20:24
+-- Who: Ludovicus_Maior
+-- Log: remap
+
+-- URL: http://wow-pro.com/node/3200/revisions/27217/view
+-- Date: 2015-04-28 00:49
+-- Who: Ludovicus_Maior
+-- Log: Zone name fixes
+
+-- URL: http://wow-pro.com/node/3200/revisions/27204/view
+-- Date: 2015-04-18 14:31
+-- Who: Aldavor
+-- Log: Updated Dun Morogh (lvls 5-12); removed redundant class training, amended some steps to autoclose.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27203/view
+-- Date: 2015-04-18 12:24
+-- Who: Aldavor
+-- Log: updated starter zone for Gnome (Warlock) - still needs coords correcting for other classes.
+
+-- URL: http://wow-pro.com/node/3200/revisions/26804/view
 -- Date: 2014-11-06 12:53
 -- Who: Fluclo
 -- Log: Removed duplicate PRE tag from Return to Gremlock
@@ -15,401 +184,206 @@
 
 -- URL: http://wow-pro.com/node/3200/revisions/26634/view
 -- Date: 2014-07-26 00:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3200/revisions/26593/view
 -- Date: 2014-07-25 20:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3200/revisions/26403/view
 -- Date: 2014-05-30 12:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level setting
 
 -- URL: http://wow-pro.com/node/3200/revisions/26386/view
 -- Date: 2014-05-29 22:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean level
 
 -- URL: http://wow-pro.com/node/3200/revisions/26319/view
 -- Date: 2014-05-26 19:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Guide type.
 
 -- URL: http://wow-pro.com/node/3200/revisions/26204/view
 -- Date: 2014-05-25 22:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3200/revisions/26021/view
 -- Date: 2014-05-17 16:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3200/revisions/25955/view
 -- Date: 2014-05-14 22:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3200/revisions/25951/view
 -- Date: 2014-05-14 21:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New register guide.
 
 -- URL: http://wow-pro.com/node/3200/revisions/25950/view
 -- Date: 2014-05-14 21:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New Guide Registration
 
 -- URL: http://wow-pro.com/node/3200/revisions/25638/view
 -- Date: 2013-05-14 18:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
 
 -- URL: http://wow-pro.com/node/3200/revisions/25591/view
 -- Date: 2013-03-23 20:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Name tweaks
 
 -- URL: http://wow-pro.com/node/3200/revisions/25496/view
 -- Date: 2013-01-22 17:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed "Lambs on the Lam" to use special target macro!
 
 -- URL: http://wow-pro.com/node/3200/revisions/25412/view
 -- Date: 2013-01-13 14:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a CS tag
 
--- URL: http://wow-pro.com/node/3200/revisions/25359/view
--- Date: 2013-01-12 18:36
--- Who: Ludovicus
--- Log: Added some CS and CN tags
-
--- URL: http://wow-pro.com/node/3200/revisions/25136/view
--- Date: 2012-10-09 23:22
--- Who: Ludovicus
--- Log: Added Monk quests and got rid of extra spaces and spell corrections.
-
--- URL: http://wow-pro.com/node/3200/revisions/25131/view
--- Date: 2012-10-08 22:49
--- Who: Ludovicus
--- Log: Add Dwarf Monk starter quests.
-
--- URL: http://wow-pro.com/node/3200/revisions/24869/view
--- Date: 2011-12-14 21:36
--- Who: Fluclo
--- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24742/view
--- Date: 2011-08-24 00:49
--- Who: Jiyambi
--- Log: Took out two location based completion steps that weren't auto-completing, rolled them into other steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24626/view
--- Date: 2011-06-28 20:52
--- Who: Fluclo
--- Log: Minor tweaks to final couple of quests
-
--- URL: http://wow-pro.com/node/3200/revisions/24625/view
--- Date: 2011-06-28 20:42
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3200/revisions/24624/view
--- Date: 2011-06-28 20:37
--- Who: Fluclo
--- Log: Updated Grimaxe's Demise to auto-complete
-
--- URL: http://wow-pro.com/node/3200/revisions/24623/view
--- Date: 2011-06-28 20:27
--- Who: Fluclo
--- Log: Added some NC tags to Non Combat quest lines
-
--- URL: http://wow-pro.com/node/3200/revisions/24622/view
--- Date: 2011-06-28 20:19
--- Who: Fluclo
--- Log: Add location note to Mathel's Flying Machine
-
--- URL: http://wow-pro.com/node/3200/revisions/24621/view
--- Date: 2011-06-28 20:05
--- Who: Fluclo
--- Log: Inverting Dealing with the Surge and Entombed in Ice turn-in
-
--- URL: http://wow-pro.com/node/3200/revisions/24620/view
--- Date: 2011-06-28 19:56
--- Who: Fluclo
--- Log: Hand in Trouble at the Lake before taking Entombed in Ice
-
--- URL: http://wow-pro.com/node/3200/revisions/24619/view
--- Date: 2011-06-28 19:54
--- Who: Fluclo
--- Log: Correcting the Sticky of Priceless Treasures
-
--- URL: http://wow-pro.com/node/3200/revisions/24587/view
--- Date: 2011-06-25 00:43
--- Who: Crackerhead22
--- Log: Checking ../WoWPro_Leveling/Alliance/05_10_Gameldar_Dun_Morogh.lua
---	! Duplicate A step for qid 6388 - Fixed
---	! Duplicate T step for qid 6388 - Fixed
-
--- URL: http://wow-pro.com/node/3200/revisions/24583/view
--- Date: 2011-06-25 00:27
--- Who: Crackerhead22
--- Log: # Checking ../WoWPro_Leveling/Alliance/01_05_Gylin_Dwarf_Starter.lua
---	! Line 157, for step A, missing Argument for tag N: [A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|N]
---	! Line 198 for step A has unknown tag [24532]: [A Evisceratin' the Enemy QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|]
-
--- URL: http://wow-pro.com/node/3200/revisions/24581/view
--- Date: 2011-06-24 19:52
--- Who: Fluclo
--- Log: Added auto-complete to killing Vagash
-
--- URL: http://wow-pro.com/node/3200/revisions/24580/view
--- Date: 2011-06-24 19:43
--- Who: Fluclo
--- Log: |US| the The View from Down Here quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24579/view
--- Date: 2011-06-24 14:58
--- Who: Fluclo
--- Log: Corrected Zone on Ride to Ironforge quests
-
--- URL: http://wow-pro.com/node/3200/revisions/24517/view
--- Date: 2011-06-07 23:07
--- Who: Ludovicus
--- Log: ! Line 128 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|Gnome,Dwarf|]
---	! Line 129 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.47,50.97|N|You should visit your class trainer Granis Swiftaxe. Click this step to continue.|C|Warrior|Gnome,Dwarf|]
---	! Line 130 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Maxan Anvol. Click this step to continue.|C|Priest|Gnome,Dwarf|]
---	! Line 131 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.61,50.40|N|You should visit your class trainer Magis Sparkmantle. Click this step to continue.|C|Mage|Gnome,Dwarf|]
---	! Line 132 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Azar Stronghammer. Click this step to continue.|C|Paladin|Gnome,Dwarf|]
---	! Line 133 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.60,50.23|N|You should visit your class trainer Halbin Frosthammer. Click this step to continue.|C|Shaman|Gnome,Dwarf|]
---	! Line 137 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Gimrizz Shadowcog. Click this step to continue.|C|Warlock|Gnome,Dwarf|]
---	! Line 138 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Grif Wildheart. Click this step to continue.|C|Hunter|Gnome,Dwarf|]
---	! Line 139 for step N has unknown tag [Gnome,Dwarf]: [N Primary Professions |QID|384|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |Gnome,Dwarf|]
---	! Line 271 for step R has unknown tag [77.14,18.52]: [R Striking Back|QID|26094|77.14,18.52|N|Put the bombs on the action bar. Jump into the Repaired Bomber here.|CC|]
-
--- URL: http://wow-pro.com/node/3200/revisions/24508/view
--- Date: 2011-06-06 21:27
--- Who: Crackerhead22
--- Log: Added missing R for a race tag.
-
--- URL: http://wow-pro.com/node/3200/revisions/24507/view
--- Date: 2011-06-06 21:14
--- Who: Crackerhead22
--- Log: Dwarf starting area update: Added race tags for the Dwarf only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags.
---	Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
---	5-12 guide update: Added race tags for a few steps (non-Gnome step for "Bound for Kharanos", non-Gnome/Dwarf step for getting FP at Kharanos), added missing notes, added missing waypoint, tweaked a few notes, tweaked a few waypoints. Added in steps done by Fluclo (as I missed his edits before I started my edits).
-
--- URL: http://wow-pro.com/node/3200/revisions/24506/view
--- Date: 2011-06-06 20:43
--- Who: Crackerhead22
--- Log: .
-
--- URL: http://wow-pro.com/node/3200/revisions/24505/view
--- Date: 2011-06-06 14:23
--- Who: Crackerhead22
--- Log: Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
-
--- URL: http://wow-pro.com/node/3200/revisions/24504/view
--- Date: 2011-06-06 12:51
--- Who: Crackerhead22
--- Log: Dwarf starting area update: Added race tags for the Dwarf only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags.
-
--- URL: http://wow-pro.com/node/3200/revisions/24499/view
--- Date: 2011-06-03 18:47
--- Who: Fluclo
--- Log: Removing f Kharanos, as FP already known to the two starting races, and you already meet the Flight Master in an earlier quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24498/view
--- Date: 2011-06-03 18:45
--- Who: Fluclo
--- Log: Tweaked coords for Razzle Sprysprocket
-
--- URL: http://wow-pro.com/node/3200/revisions/24497/view
--- Date: 2011-06-03 18:41
--- Who: Fluclo
--- Log: Removed the unnecessary |Z|Dun Morogh| tags; Removed unnecessary QO tag in Bound for Kharanos; Added quest A Honor Student; Added  three to/from Ironforge quests as Rank 2 quests; Updated some Run to and Heath steps to auto-complete; added some notes for clarity
-
--- URL: http://wow-pro.com/node/3200/revisions/24495/view
--- Date: 2011-06-02 23:50
--- Who: Fluclo
--- Log: Adding auto-complete step for On to Kharanos
-
--- URL: http://wow-pro.com/node/3200/revisions/24494/view
--- Date: 2011-06-02 23:39
--- Who: Fluclo
--- Log:  No Tanks! as the latter is a Non-Combat quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24493/view
--- Date: 2011-06-02 23:30
--- Who: Fluclo
--- Log: Added Coord Complete tag to both "Enter the cave" here steps
-
--- URL: http://wow-pro.com/node/3200/revisions/24354/view
--- Date: 2011-04-29 18:18
--- Who: Ludovicus
--- Log: Changed O steps to N steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24226/view
--- Date: 2011-04-05 23:41
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3200/revisions/24219/view
--- Date: 2011-04-05 23:32
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3200/revisions/24200/view
--- Date: 2011-04-02 18:57
--- Who: Ludovicus
--- Log: QID on [Get Me Explosives Back!] was wrong.  Added advice to [Down with Crushcog!]
-
-local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "Dun Morogh (Gnome)", "Gylin - Gnome", "Alliance")
-WoWPro:GuideLevels(guide,1,5,1)
+local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
+WoWPro:GuideLevels(guide,1,4,1.81013)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
+WoWPro:GuideRaceSpecific(guide,"Gnome")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Gnome_Male","Interface\\Icons\\Achievement_Character_Gnome_Female"))
 WoWPro:GuideSteps(guide, function()
 return
 [[
+A Pinned Down|QID|27670|M|34.10,32.22|Z|The Old Dormitory|N|From Nevin Twistwrench standing in front of you.|
+C Pinned Down|QID|27670|M|40.39,32.03|Z|The Old Dormitory|N|Kill 6 Crazed Leper Gnomes.|
+T Pinned Down|QID|27670|M|34.10,32.22|Z|The Old Dormitory|N|To Nevin Twistwrench|
 
-N To races other than Gnome|R|Dwarf,Draenei,Night Elf,Human,Worgen|N|All of the quests for this guide are Gnome only, so they won't show. So close this step to finish the rest of Dun Morogh.|
-A Pinned Down|QID|27670|M|25.77,31.93|N|From Nevin Twistwrench standing in front of you.|R|Gnome|
-C Pinned Down|QID|27670|M|26.49,31.94|N|Kill 6 Crazed Lepers.|R|Gnome|
-T Pinned Down|QID|27670|M|25.77,31.93|N|To Nevin Twistwrench|R|Gnome|
-A Report to Carvo Blastbolt|PRE|27670|QID|28167|M|25.77,31.93|N|From Nevin Twistwrench.|R|Gnome|
-T Report to Carvo Blastbolt|QID|28167|M|27.70,31.95|N|To Carvo Blastbolt, at the top of the ramp.|R|Gnome|
-A See to the Survivors|PRE|28167|QID|27671|M|27.70,31.95|N|From Carvo Blastbolt.|R|Gnome|
-C See to the Survivors|QID|27671|N|Use the Teleport Beacon on the survivors around the lower level of the room, then return to Carvo Blastbolt.|U|62057|R|Gnome|
-T See to the Survivors|QID|27671|M|27.70,31.95|N|To Carvo Blastbolt.|R|Gnome|
+A Report to Carvo Blastbolt|PRE|27670|QID|28167|M|34.10,32.22|Z|The Old Dormitory|N|From Nevin Twistwrench.|
+T Report to Carvo Blastbolt|QID|28167|M|50.99,31.92|Z|The Old Dormitory|N|To Carvo Blastbolt, at the top of the ramp.|
 
-L Level 2!|LVL|2|QID|28169|N|You should be around level 2 by this point|R|Gnome|
+A See to the Survivors|PRE|28167|QID|27671|M|50.99,31.92|Z|The Old Dormitory|N|From Carvo Blastbolt.|
+C See to the Survivors|QID|27671|M|45.6,28.6|Z|The Old Dormitory|N|Use the Teleport Beacon on the survivors around the lower level of the room.|U|62057|NC|
+T See to the Survivors|QID|27671|M|50.99,31.92|Z|The Old Dormitory|N|To Carvo Blastbolt.|
 
-A Withdraw to the Loading Room!|PRE|27671|QID|28169|M|27.70,31.95|N|From Carvo Blastbolt.|R|Gnome|
-T Withdraw to the Loading Room!|QID|28169|M|27.98,37.71|N|To Gaffer Coilspring.|R|Gnome|
-A Decontamination|PRE|28169|QID|27635|M|27.98,37.71|N|From Gaffer Coilspring.|R|Gnome|
-C Decontamination|QID|27635|M|28.64,37.72|N|Jump onto a Sanitron 500 to get decontaminated.|R|Gnome|
-T Decontamination|QID|27635|M|29.50,37.73|N|To Technician Braggle.|R|Gnome|
-A To the Surface|PRE|27635|QID|27674|M|29.50,37.73|N|To Technician Braggle.|R|Gnome|
-R New Tinkertown|QID|27674|M|29.60,37.96|N|Talk to Torben Zapblast and ask him to teleport you to the surface.|R|Gnome|
-T To the Surface|QID|27674|N|To Nevin Twistwrench in front of you.|R|Gnome|
+A Withdraw to the Loading Room!|PRE|27671|QID|28169|M|50.99,31.92|Z|The Old Dormitory|N|From Carvo Blastbolt.|
+T Withdraw to the Loading Room!|QID|28169|M|53.07,82.36|Z|The Old Dormitory|N|To Gaffer Coilspring.|
 
-A The Future of Gnomeregan|PRE|27674|QID|26197|C|Mage|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
-A The Future of Gnomeregan|PRE|27674|QID|26199|C|Priest|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
-A The Future of Gnomeregan|PRE|27674|QID|26206|C|Rogue|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
-A The Future of Gnomeregan|PRE|27674|QID|26202|C|Warlock|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
-A The Future of Gnomeregan|PRE|27674|QID|26203|C|Warrior|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
-A The Future of Gnomeregan|PRE|27674|QID|31135|C|Monk|M|33.8,38.6|N|From Nevin Twistwrench.|R|Gnome|
+A Decontamination|PRE|28169|QID|27635|M|53.07,82.36|Z|The Old Dormitory|N|From Gaffer Coilspring.|
+C Decontamination|QID|27635|M|58.84,81.69|Z|The Old Dormitory|N|Board a Sanitron 500.|NC|
+T Decontamination|QID|27635|M|66.46,81.64|Z|The Old Dormitory|N|Wait for the decontamination to finish, then to Technician Braggle.|
 
-T The Future of Gnomeregan|QID|26197|M|34.50,35.10|N|To Bipsi Frostflinger.|C|Mage|R|Gnome|
-T The Future of Gnomeregan|QID|26199|M|33.91,34.77|N|To "Doc" Cogspin.|C|Priest|R|Gnome|
-T The Future of Gnomeregan|QID|26206|M|33.38,36.79|N|To Kelsey Steelspark.|C|Rogue|R|Gnome|
-T The Future of Gnomeregan|QID|26202|M|33.27,38.37|N|To Alamar Grimm.|C|Warlock|R|Gnome|
-T The Future of Gnomeregan|QID|26203|M|34.24,37.59|N|To Drill Sergeant Steamcrank.|C|Warrior|R|Gnome|
-T The Future of Gnomeregan|QID|31135|M|34.16,37.52|N|To Xi.|C|Monk|R|Gnome|
+A To the Surface|PRE|27635|QID|27674|M|66.46,81.64|Z|The Old Dormitory|N|To Technician Braggle.|
+C To the Surface|QID|27674|M|67.29,84.14|Z|The Old Dormitory|N|Speak to Torben Zapblast and ask him to send you to the surface.|CHAT|
+T To the Surface|QID|27674|M|39.50,38.39|N|To Nevin Twistwrench in front of you.|
 
-A Meet the High Tinker|PRE|26197|QID|26421|C|Mage|M|34.50,35.10|N|From Bipsi Frostflinger.|R|Gnome|
-A Meet the High Tinker|PRE|26199|QID|26422|C|Priest|M|33.91,34.77|N|From "Doc" Cogspin.|R|Gnome|
-A Meet the High Tinker|PRE|26206|QID|26423|C|Rogue|M|33.38,36.79|N|From Kelsey Steelspark.|R|Gnome|
-A Meet the High Tinker|PRE|26202|QID|26424|C|Warlock|M|33.27,38.37|N|From Alamar Grimm.|R|Gnome|
-A Meet the High Tinker|PRE|26203|QID|26425|C|Warrior|M|34.24,37.59|N|From Drill Sergeant Steamcrank.|R|Gnome|
-A Meet the High Tinker|PRE|31135|QID|31137|C|Monk|M|34.16,37.52|N|From Xi.|R|Gnome|
+A The Future of Gnomeregan|PRE|27674|QID|26197|C|Mage|M|39.15,38.49|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|PRE|27674|QID|26199|C|Priest|M|39.50,38.39|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|PRE|27674|QID|26206|C|Rogue|M|39.50,38.39|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|PRE|27674|QID|26202|C|Warlock|M|39.50,38.39|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|PRE|27674|QID|26203|C|Warrior|M|39.50,38.39|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|PRE|27674|QID|31135|C|Monk|M|39.50,38.39|N|From Nevin Twistwrench.|
+A The Future of Gnomeregan|QID|41217|PRE|27674|C|Hunter|M|39.50,38.38|N|From Nevin Twistwrench.|
 
-T Meet the High Tinker|QID|26421|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Mage|R|Gnome|
-T Meet the High Tinker|QID|26422|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Priest|R|Gnome|
-T Meet the High Tinker|QID|26423|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Rogue|R|Gnome|
-T Meet the High Tinker|QID|26424|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Warlock|R|Gnome|
-T Meet the High Tinker|QID|26425|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Warrior|R|Gnome|
-T Meet the High Tinker|QID|31137|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|Monk|R|Gnome|
+T The Future of Gnomeregan|QID|26202|M|37.68,37.97|N|To Alamar Grimm.|C|Warlock|
+T The Future of Gnomeregan|QID|26197|M|41.00,29.23|N|To Bipsi Frostflinger.|C|Mage|
+T The Future of Gnomeregan|QID|26199|M|39.44,28.35|N|To "Doc" Cogspin.|C|Priest|
+T The Future of Gnomeregan|QID|26206|M|38.04,33.70|N|To Kelsey Steelspark.|C|Rogue|
+T The Future of Gnomeregan|QID|26203|M|40.65,35.35|N|To Drill Sergeant Steamcrank, who wanders.|C|Warrior|
+T The Future of Gnomeregan|QID|31135|M|40.09,35.61|N|To Xi.|C|Monk|
+T The Future of Gnomeregan|QID|41217|C|Hunter|M|41.86,31.58|N|To Muffinus Chromebrew.|
 
-A The Fight Continues|QID|26208|M|33.71,36.48|N|From High Tinker Mekkatorque.|R|Gnome|
-C The Fight Continues|QID|26208|N|Watch the scene on the Holo-table|R|Gnome|
-T The Fight Continues|QID|26208|M|33.71,36.48|N|To High Tinker Mekkatorque.|R|Gnome|
-A A Triumph of Gnomish Ingenuity|PRE|26208|QID|26566|M|33.71,36.48|N|From High Tinker Mekkatorque.|R|Gnome|
-T A Triumph of Gnomish Ingenuity|QID|26566|M|34.32,34.70|N|To Engineer Grindspark.|R|Gnome|
-A Scrounging for Parts|PRE|26566|QID|26222|M|34.32,34.70|N|From Engineer Grindspark.|R|Gnome|
-C Scrounging for Parts|QID|26222|N|Collect Spare Parts scattered on the ground around the area.|M|33.5,35.6|R|Gnome|
-T Scrounging for Parts|QID|26222|M|34.32,34.70|N|To Engineer Grindspark.|R|Gnome|
+A Meet the High Tinker|PRE|26202|QID|26424|C|Warlock|M|37.68,37.97|N|From Alamar Grimm.|
+A Meet the High Tinker|PRE|26197|QID|26421|C|Mage|M|41.10,29.12|N|From Bipsi Frostflinger.|
+A Meet the High Tinker|PRE|26199|QID|26422|C|Priest|M|39.40,28.38|N|From "Doc" Cogspin.|
+A Meet the High Tinker|PRE|26206|QID|26423|C|Rogue|M|38.03,33.56|N|From Kelsey Steelspark.|
+A Meet the High Tinker|PRE|26203|QID|26425|C|Warrior|M|40.65,35.35|N|From Drill Sergeant Steamcrank.|
+A Meet the High Tinker|PRE|31135|QID|31137|C|Monk|M|40.09,35.61|N|From Xi.|
+A Meet the High Tinker|QID|41218|PRE|41217|C|Hunter|M|41.86,31.58|N|From Muffinus Chromebrew.|
 
-A A Job for the Multi-Bot|PRE|26222|QID|26205|N|From Engineer Grindspark.|R|Gnome|
-A What's Left Behind|QID|26264|M|33.88,34.15|N|From Tock Sprysprocket.|R|Gnome|
-A Dealing with the Fallout|QID|26265|M|33.47,39.19|N|From Corporal Fizzwhistle, behind the building.|R|Gnome|
-C A Job for the Multi-Bot|S|QID|26205|N|Stand near the erupting Toxic Geysers in the green pools nearby and the Multi-Bot will clean them up.|R|Gnome|
-C What's Left Behind|S|QID|26264|N|Kill Toxic Oozes around the area and loot Recovered Possessions from them.|M|33.2,41.4|R|Gnome|
-C Dealing with the Fallout|QID|26265|N|Destroy 6 Living Contaminations at the Toxic Airfield.|M|33.2,43.4|R|Gnome|
-C A Job for the Multi-Bot|US|QID|26205|N|Stand near the Toxic Geysers in the pools nearby and the Multi-Bot will clean them up.|R|Gnome|
-C What's Left Behind|US|QID|26264|N|Kill Toxic Oozes around the area and loot Recovered Possessions from them.|M|33.2,41.4|R|Gnome|
+T Meet the High Tinker|QID|26424|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Warlock|
+T Meet the High Tinker|QID|26421|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Mage|
+T Meet the High Tinker|QID|26422|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Priest|
+T Meet the High Tinker|QID|26423|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Rogue|
+T Meet the High Tinker|QID|26425|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Warrior|
+T Meet the High Tinker|QID|31137|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Monk|
+T Meet the High Tinker|QID|41218|M|38.68,32.94|N|To High Tinker Mekkatorque.|C|Hunter|
 
-L Level 3!|LVL|3|QID|26264|N|You should be around level 3 by this point|R|Gnome|
+A The Fight Continues|QID|26208|M|38.72,32.74|N|From High Tinker Mekkatorque.|PRE|26421+26422+26423+26424+26425+31137+41218|
+C The Fight Continues|QID|26208|M|38.72,32.74|N|Wait for High Tinker Mekkatorque to start the holo-table.|NC|
+T The Fight Continues|QID|26208|M|38.72,32.74|N|To High Tinker Mekkatorque.|
 
-T Dealing with the Fallout|QID|26265|M|33.46,39.32|N|To Corporal Fizzwhistle.|R|Gnome|
+A A Triumph of Gnomish Ingenuity|PRE|26208|QID|26566|M|38.72,32.81|N|From High Tinker Mekkatorque.|
+T A Triumph of Gnomish Ingenuity|QID|26566|M|40.62,28.07|N|To Engineer Grindspark.|
 
-A The Arts of a Mage|QID|26198|M|34.49,35.05|N|From Bipsi Frostflinger.|C|Mage|R|Gnome|
-C The Arts of a Mage|QID|26198|M|34.57,36.25|N|Train Arcane Missiles. Once you've learned the spell, successfully cast Arcane Missiles twice at a Training Dummy in New Tinkertown.|C|Mage|R|Gnome|
-T The Arts of a Mage|QID|26198|M|34.49,35.05|N|To Bipsi Frostflinger.|C|Mage|R|Gnome|
+A Scrounging for Parts|PRE|26566|QID|26222|M|40.62,28.07|N|From Engineer Grindspark.|
+C Scrounging for Parts|QID|26222|N|Collect Spare Parts scattered on the ground around the area.|M|38.35,30.55|NC|
+T Scrounging for Parts|QID|26222|M|40.62,28.07|N|To Engineer Grindspark.|
 
-A The Arts of a Rogue|QID|26207|M|33.39,36.78|N|From Kelsey Steelspark.|C|Rogue|R|Gnome|
-C The Arts of a Rogue|QID|26207|M|34.52,37.58|N|Learn Eviscerate, then find a training dummy in New Tinkertown and practice using Eviscerate 3 times.|C|Rogue|R|Gnome|
-T The Arts of a Rogue|QID|26207|M|33.39,36.78|N|To Kelsey Steelspark.|C|Rogue|R|Gnome|
+A A Job for the Multi-Bot|PRE|26222|QID|26205|N|From Engineer Grindspark.|M|40.62,28.07|
+A What's Left Behind|QID|26264|M|39.22,26.55|N|From Tock Sprysprocket.|PRE|26222|RANK|2|
+A Dealing with the Fallout|QID|26265|M|38.20,40.21|N|From Corporal Fizzwhistle, behind the building near the toxic dump.|PRE|26222|
 
-A The Power of a Warlock|QID|26201|M|33.22,38.38|N|From Alamar Grimm.|C|Warlock|R|Gnome|
-C The Power of a Warlock|QID|26201|M|34.33,37.66|N|Learn Immolate, then cast Immolate on a Training Dummy in New Tinkertown 5 times.|C|Warlock|R|Gnome|
-T The Power of a Warlock|QID|26201|M|33.25,38.31|N|To Alamar Grimm.|C|Warlock|R|Gnome|
+C What's Left Behind|S|QID|26264|N|Kill and loot the Toxic Sludge for the Recovered Possessions.|M|37.56,45.90|
+C Dealing with the Fallout|QID|26265|N|Destroy 6 Living Contaminations at the Toxic Airfield.|M|39.5,40.75|S|
+C A Job for the Multi-Bot|QID|26205|N|Stand near the erupting Toxic Geysers in the green pools nearby and the Multi-Bot will clean them up.|NC|
+C What's Left Behind|US|QID|26264|N|Kill and loot the Toxic Sludge for the Recovered Possessions.|M|37.56,45.90|
+C Dealing with the Fallout|QID|26265|N|Destroy 6 Living Contaminations at the Toxic Airfield.|M|39.5,40.75|US|
 
-A The Arts of a Warrior|QID|26204|M|34.25,37.56|N|From Drill Sergeant Steamcrank.|C|Warrior|R|Gnome|
-C The Arts of a Warrior|QID|26204|M|34.46,37.48|N|Learn Charge. Locate a Training Dummy in New Tinkertown and use Charge on it.|C|Warrior|R|Gnome|
-T The Arts of a Warrior|QID|26204|M|34.32,37.52|N|To Drill Sergeant Steamcrank.|C|Warrior|R|Gnome|
+T Dealing with the Fallout|QID|26265|M|38.20,40.21|N|To Corporal Fizzwhistle.|
+T A Job for the Multi-Bot|QID|26205|M|40.62,28.07|N|To Engineer Grindspark.|
+T What's Left Behind|QID|26264|M|39.22,26.55|N|To Tock Sprysprocke.|
 
-A The Arts of a Priest|QID|26200|M|33.90,34.84|N|From "Doc" Cogspin.|C|Priest|R|Gnome|
-C The Arts of a Priest|QID|26200|M|33.90,34.84|C|Priest|N|Train Flash Heal, then use Flash Heal 5 times on Wounded Infantry in New Tinkertown.|R|Gnome|
-T The Arts of a Priest|QID|26200|M|33.90,34.84|N|To "Doc" Cogspin.|C|Priest|R|Gnome|
+A What's Keeping Jessup?|QID|26316|M|38.38,33.48|N|From Captain Tread Sparknozzle.|PRE|26205|
+T What's Keeping Jessup?|QID|26316|M|37.28,65.20|N|To Jessup McCree, at the Frostmane Hold.|
 
-A The Arts of a Monk|QID|31138|M|34.16,37.52|N|From Xi.|C|Monk|R|Gnome|; May have been auto-accepted already!
-C The Arts of a Monk|QID|31138|M|34.46,37.48|N|Locate a Training Dummy in New Tinkertown and use Tiger Palm on it.|C|Monk|R|Gnome|
-T The Arts of a Monk|QID|31138|M|34.16,37.52|N|To Xi.|C|Monk|R|Gnome|
+A Get Me Explosives Back!|QID|26285|M|37.28,65.20|N|From Jessup McCree.|PRE|26316|
+A Missing in Action|QID|26284|M|37.28,65.20|N|From Jessup McCree.|PRE|26316|
 
-T A Job for the Multi-Bot|QID|26205|M|34.32,34.64|N|To Engineer Grindspark.|R|Gnome|
-T What's Left Behind|QID|26264|M|33.85,34.17|N|To Tock Sprysprocke.|R|Gnome|
-A What's Keeping Jessup?|QID|26316|M|33.53,36.69|N|From Captain Tread Sparknozzle.|R|Gnome|
+C Get Me Explosives Back!|QID|26285|N|Kill and loot the Rockjaw Bonepicker and Rockjaw Marauder for the Stolen Powder Kegs.|S|
+C Missing in Action|QID|26284|N|Attack the cages to release captives.|M|37.75,73.50|
+C Get Me Explosives Back!|QID|26285|M|37.75,73.50|N|Kill and loot the Rockjaw Bonepicker and Rockjaw Marauder for the Stolen Powder Kegs.|US|
 
-T What's Keeping Jessup?|QID|26316|M|33.12,48.70|N|To Jessup McCree.|R|Gnome|
-A Get Me Explosives Back!|QID|26285|M|33.12,48.70|N|From Jessup McCree.|R|Gnome|
-A Missing in Action|QID|26284|M|33.12,48.70|N|From Jessup McCree.|R|Gnome|
-C Missing in Action|S|QID|26284|N|Attack the cages to release captives.|R|Gnome|
-C Get Me Explosives Back!|QID|26285|M|35.52,51.52|N|Kill Rockjaws and loot Stolen Powder Kegs from them.|R|Gnome|
-C Missing in Action|US|QID|26284|M|35.52,51.52|N|Attack the cages to release captives.|R|Gnome|
+T Get Me Explosives Back!|QID|26285|M|37.28,65.20|N|To Jessup McCree|
+T Missing in Action|QID|26284|M|37.28,65.20|N|To Jessup McCree|
 
-L Level 4|LVL|4|QID|26285|N|You should be around level 4 by this point|R|Gnome|
+A Finishin' the Job|QID|26318|N|From Jessup McCree.|M|37.28,65.20|PRE|26285;26284|
+C Finishin' the Job - Boss Bruggor|QID|26318|N|Kill Boss Bruggor|QO|2|M|29.15,48.45|T|Boss Bruggor|S|
+C Finishin' the Job - Detonator|QID|26318|N|Enter the cavern to the west, then go through the cave to the detonator, then use the detonator.|QO|1|M|29.15,48.45|NC|
+C Finishin' the Job - Boss Bruggor|QID|26318|N|Kill Boss Bruggor|QO|2|M|29.15,48.45|T|Boss Bruggor|US|
+T Finishin' the Job|QID|26318|M|37.28,65.20|N|To Jessup McCree.|
 
-T Get Me Explosives Back!|QID|26285|M|33.12,48.70|N|To Jessup McCree|R|Gnome|
-T Missing in Action|QID|26284|M|33.12,48.70|N|To Jessup McCree|R|Gnome|
-A Finishin' the Job|QID|26318|N|From Jessup McCree.|M|33.12,48.70|R|Gnome|
-R Enter the cave here|QID|26318|CC|M|31.98,49.20|N|Enter the cave and run through it keeping to the left as you go.|C|Mage,Priest,Rogue,Warrior|R|Gnome|
-R Enter the cave here|QID|26318|CC|M|31.98,49.20|N|Dismiss your Imp, then enter the cave and run through it keeping to the left as you go.|C|Warlock|R|Gnome|
-K Boss Bruggor|QID|26318|M|28.88,48.93|T|Boss Bruggor|QO|Boss Bruggor slain: 1/1|N|Kill Boss Bruggor.|R|Gnome|
-C Finishin' the Job|QID|26318|M|29.11,48.50|N|Activate the Detonator to detonate the trogg tunnels.|R|Gnome|
-T Finishin' the Job|QID|26318|M|33.12,48.70|N|To Jessup McCree.|C|Mage,Priest,Rogue,Warrior|R|Gnome|
-T Finishin' the Job|QID|26318|M|33.12,48.70|N|To Jessup McCree, and resummon your Imp.|C|Warlock|R|Gnome|
-A One More Thing|PRE|26318|QID|26329|M|33.12,48.70|N|From Jessup McCree.|R|Gnome|
-T One More Thing|QID|26329|M|33.74,36.51|N|To High Tinker Mekkatorque.|R|Gnome|
-A Crushcog's Minions|QID|26331|M|33.74,36.51|N|From High Tinker Mekkatorque.|R|Gnome|
-A No Tanks!|QID|26333|M|33.50,36.76|N|From Hinkles Fastblast.|R|Gnome|
-C No Tanks!|S|QID|26333|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|40.5,32.26|R|Gnome|
-C Crushcog's Minions|QID|26331|M|40.5,32.26|N|Kill 8 of Crushcog's Minions at Crushcog's Arsenal.|R|Gnome|
-C No Tanks!|US|QID|26333|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|40.5,32.26|R|Gnome|
-T Crushcog's Minions|QID|26331|M|33.73,36.46|N|To High Tinker Mekkatorque.|R|Gnome|
-T No Tanks!|QID|26333|M|33.47,36.75|N|To Hinkles Fastblast.|R|Gnome|
-A Staging in Brewnall|QID|26339|N|From Kelsey Steelspark.|M|33.4,36.8|R|Gnome|
+A One More Thing|PRE|26318|QID|26329|M|37.28,65.20|N|From Jessup McCree.|
+T One More Thing|QID|26329|M|38.72,32.74|N|To High Tinker Mekkatorque.|
 
-L Level 5|LVL|5|QID|26339|N|You should be around level 5 by this point|R|Gnome|
+A Crushcog's Minions|QID|26331|M|38.72,32.74|N|From High Tinker Mekkatorque.|PRE|26329|
+A No Tanks!|QID|26333|M|38.19,33.68|N|From Hinkles Fastblast.|PRE|26329|
+C Crushcog's Minions|QID|26331|M|57.20,19.37|N|Kill  Crushcog's Minions (Irradiated Technicians and Crushcog Battle Suits).|S|
+C No Tanks!|QID|26333|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|59.04,20.12|NC|
+C Crushcog's Minions|QID|26331|M|57.20,19.37|N|Kill  Crushcog's Minions (Irradiated Technicians and Crushcog Battle Suits)|US|
+T Crushcog's Minions|QID|26331|M|38.72,32.74|N|To High Tinker Mekkatorque.|NC|
+T No Tanks!|QID|26333|M|38.19,33.68|N|To Hinkles Fastblast.|
 
-T Staging in Brewnall|QID|26339|M|37.38,43.99|N|To Jarvi Shadowstep.|R|Gnome|
-A Paint it Black|PRE|26339|QID|26342|M|37.38,43.99|N|From Jarvi Shadowstep.|R|Gnome|
-C Paint it Black|QID|26342|M|39.54,41.4|N|Use the Paintinator on Sentry Bot's on Iceflow Lake.|U|58203|R|Gnome|
-T Paint it Black|QID|26342|M|37.46,44.07|N|To Jarvi Shadowstep.|R|Gnome|
-A Down with Crushcog!|PRE|26342|QID|26364|M|37.38,43.99|N|From Jarvi Shadowstep.|R|Gnome|
-N Speak to High Tinker Mekkatorgue|QID|26364|M|40.57,42.02|N|Tell him you're ready to begin, then close this step.|R|Gnome|
-C Down with Crushcog!|QID|26364|M|41.02,40.36|N|Use the Orbital Targeting Device on the area where Crushcog is standing. Defend yourself if attacked.|U|58253|R|Gnome|
-T Down with Crushcog!|QID|26364|M|37.42,43.95|N|To Jarvi Shadowstep|R|Gnome|
-A On to Kharanos|PRE|26364|QID|26373|M|37.38,43.99|N|From Jarvi Shadowstep.|R|Gnome|
-A Bound for Kharanos|QID|26380|M|49.89,45.01|N|From Ciara Deepstone.|R|Gnome|
-R Kharanos|QID|26373|M|53.53,50.15|N|Follow the path East to get to Kharanos.|R|Gnome|
+A Staging in Brewnall|QID|26339|N|From Kelsey Steelspark.|M|38.03,33.56|PRE|26331;26333|
+T Staging in Brewnall|QID|26339|M|48.75,52.90|N|Follow the road southeast to Jarvi Shadowstep.|
+
+A Paint it Black|PRE|26339|QID|26342|M|48.75,52.90|N|From Jarvi Shadowstep.|
+C Paint it Black|QID|26342|M|53.80,49.80|N|Use the Paintinator on Sentry Bot's on Iceflow Lake.|U|58203|NC|
+T Paint it Black|QID|26342|M|48.75,52.90|N|To Jarvi Shadowstep.|
+
+A Down with Crushcog!|PRE|26342|QID|26364|M|48.75,52.90|N|From Jarvi Shadowstep.|
+C Down with Crushcog! - High Tinker Mekkatorgue|QID|26364|M|57.17,47.57|N|Speak to High Tinker Mekkatorque on the island of Iceflow Lake.|CHAT|QO|1|
+C Down with Crushcog! - Orbital Targeting Device|QID|26364|M|58.81,43.61|N|Use the Orbital Targeting Device on the area where Crushcog is standing. Defend yourself if attacked.|U|58253|QO|2|
+
+r Sell and Repair|M|49.67,51.92|QID|26364|N|Take this opportunity to sell junk and repair with Burdrak Harglhelm.|ACTIVE|26364|T|Burdrak Harglhelm|S|
+T Down with Crushcog!|QID|26364|M|48.75,52.90|N|To Jarvi Shadowstep|
+A On to Kharanos|PRE|26364|QID|26373|LEAD|25724|M|48.75,52.90|N|From Jarvi Shadowstep.|
+
+A Bound for Kharanos|QID|26380|M|49.91,44.98|Z|Dun Morogh|N|From Ciara Deepstone, on the road east towards Kharanos.|
+
 ]]
 end)
+
+

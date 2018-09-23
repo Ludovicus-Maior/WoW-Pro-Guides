@@ -1,2 +1,6 @@
 WoWPro*.zip
+.DS_Store
 *~
+*.pyc
+*.pkl
+.ipynb_checkpoints

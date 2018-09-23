@@ -10,53 +10,53 @@
 
 -- URL: http://wow-pro.com/node/3503/revisions/26694/view
 -- Date: 2014-09-27 23:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Hordie coordinate corrections
 
 -- URL: http://wow-pro.com/node/3503/revisions/26614/view
 -- Date: 2014-07-25 22:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj mean
 
 -- URL: http://wow-pro.com/node/3503/revisions/26568/view
 -- Date: 2014-07-06 15:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels
 
 -- URL: http://wow-pro.com/node/3503/revisions/26536/view
 -- Date: 2014-06-11 19:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3503/revisions/25773/view
 -- Date: 2013-10-14 19:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Breakup the questlines warning at the top, add the ;nobonus tag to the REP argument to stop prompting me to buy the silly thing when I have it.
 
 -- URL: http://wow-pro.com/node/3503/revisions/25772/view
 -- Date: 2013-10-14 17:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added some missing M tags and trimmed one warning.
 --	Need to add magic REP tags.
 
 -- URL: http://wow-pro.com/node/3503/revisions/25713/view
 -- Date: 2013-06-18 00:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 32010's name [A Celestial Task!] does not match Grail's database [A Celestial Task].
 
 -- URL: http://wow-pro.com/node/3503/revisions/25695/view
 -- Date: 2013-06-04 23:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spelling errors, corrds, and misc fixes as I play through.
 
 -- URL: http://wow-pro.com/node/3503/revisions/25673/view
 -- Date: 2013-05-17 19:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Various errors!
 
 -- URL: http://wow-pro.com/node/3503/revisions/25651/view
 -- Date: 2013-05-14 19:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3503/revisions/25534/view
 -- Date: 2013-02-18 06:25
@@ -100,11 +100,11 @@
 
 -- URL: http://wow-pro.com/node/3503/revisions/25159/view
 -- Date: 2012-10-24 11:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3503/revisions/25114/view
 -- Date: 2012-10-07 22:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("EmmAugCel",'Dailies', "Vale of Eternal Blossoms", "Emmaleah", "Neutral")
 WoWPro:GuideLevels(guide,85,90, 89.8843)
@@ -279,3 +279,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
+

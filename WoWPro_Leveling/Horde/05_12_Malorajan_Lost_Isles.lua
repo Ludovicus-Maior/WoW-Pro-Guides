@@ -4,8 +4,53 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2018-05-02 00:46
+-- Who: Ludovicus_Maior
+-- Log: Goodbye Vol'jin
+
+-- URL: http://wow-pro.com/node/3212/revisions/29191/view
+-- Date: 2018-02-27 00:04
+-- Who: Ludovicus_EditBot
+-- Log: Level strip - Kezan
+
+-- URL: http://wow-pro.com/node/3212/revisions/29076/view
+-- Date: 2018-02-20 01:56
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Lost Isles
+
+-- URL: http://wow-pro.com/node/3212/revisions/29071/view
+-- Date: 2018-02-20 01:49
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - Kezan
+
+-- URL: http://wow-pro.com/node/3212/revisions/28570/view
+-- Date: 2017-03-23 18:59
+-- Who: Ludovicus_Maior
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3212/revisions/28415/view
+-- Date: 2017-03-15 22:59
+-- Who: Ludovicus_Maior
+-- Log: Added 2 PREs to MalLos0512
+
+-- URL: http://wow-pro.com/node/3212/revisions/28410/view
+-- Date: 2017-03-15 22:53
+-- Who: Ludovicus_Maior
+-- Log: Syntax fixes to MalKez0105
+
+-- URL: http://wow-pro.com/node/3212/revisions/27497/view
+-- Date: 2016-07-30 20:11
+-- Who: tubera
+-- Log: Remove class quests. Move quests around to make guide more efficient.
+
+-- URL: http://wow-pro.com/node/3212/revisions/27368/view
+-- Date: 2015-07-25 18:43
+-- Who: Ludovicus_Maior
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3212/revisions/26938/view
 -- Date: 2014-11-08 13:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Extra NC
 
 -- URL: http://wow-pro.com/node/3212/revisions/26932/view
@@ -30,22 +75,22 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/26483/view
 -- Date: 2014-06-02 22:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Icons
 
 -- URL: http://wow-pro.com/node/3212/revisions/26475/view
 -- Date: 2014-06-02 20:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Remove step level race restriction
 
 -- URL: http://wow-pro.com/node/3212/revisions/26322/view
 -- Date: 2014-05-26 19:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing guide type.
 
 -- URL: http://wow-pro.com/node/3212/revisions/26212/view
 -- Date: 2014-05-25 22:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3212/revisions/26126/view
@@ -60,12 +105,12 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/26041/view
 -- Date: 2014-05-17 17:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3212/revisions/26038/view
 -- Date: 2014-05-17 17:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3212/revisions/25926/view
@@ -78,12 +123,12 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/25858/view
 -- Date: 2013-12-27 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Play through tweaks + new goblin only quests for Razor Hill.
 
 -- URL: http://wow-pro.com/node/3212/revisions/25852/view
 -- Date: 2013-12-26 21:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: A few tweaks as I ran my goblin priest through.
 
 -- URL: http://wow-pro.com/node/3212/revisions/25847/view
@@ -97,17 +142,17 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/25481/view
 -- Date: 2013-01-13 19:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3212/revisions/25450/view
 -- Date: 2013-01-13 17:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3212/revisions/25127/view
 -- Date: 2012-10-08 19:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Get rid of - in zone
 
 -- URL: http://wow-pro.com/node/3212/revisions/25063/view
@@ -127,7 +172,7 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/24320/view
 -- Date: 2011-04-29 15:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 213 for step A has unknown tag [From Sassy Hardwrench.]
 
 -- URL: http://wow-pro.com/node/3212/revisions/24268/view
@@ -155,7 +200,7 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/24000/view
 -- Date: 2011-01-16 17:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added help text around [Trouble in the Mines] and [Trouble in the Mines].  Added separate completion steps for each of the homies in [Rolling with my Homies].  Added help text [The Replacements].  Added help text to [Do it Yourself]. Added the female quest lines for [Off to the Bank] and [The New You] and labled them as (For [Males|Females]). Add quest objectives for [Life of the Party] and [Pirate Party Crashers] and [Liberate the Kaja'mite].  Added help note for [Waltz Right In] and intermediate completion steps.  Added turn in notes for [The Great Bank Heist], [Robbing Hoods].  Added a completion step for [Life Savings].
 
 -- URL: http://wow-pro.com/node/3212/revisions/23991/view
@@ -183,13 +228,14 @@
 local guide = WoWPro:RegisterGuide('MalLos0512', 'Leveling', 'The Lost Isles', 'Malorajan', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5)
 WoWPro:GuideRaceSpecific(guide,"Goblin")
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Crate_07")
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
 WoWPro:GuideSteps(guide, function()
 return [[
 
 N Finish Kezan First|QID|14126|N|You will need to finish the Kezan zone before you can do the Lost Isles zone.|
 
-A Don't Go Into The Light |QID|14239|N|Wait for the cinematic to finish, then get this quest from Doc Zapnozzle.|
+A Don't Go Into the Light!|QID|14239|PRE|14126|N|Wait for the cinematic to finish, then get this quest from Doc Zapnozzle.|
 ;T Don't Go Into The Light |QID|14239|N|To Doc Zapnozzle.|
 
 A Goblin Escape Pods|QID|14001;14474|M|24.63,77.96|N|From Geargrinder Gizmo.|PRE|14239|
@@ -275,7 +321,7 @@ A It's a Town-In-A-Box|QID|14245|M|44.51,64.36|N|From Foreman Dampwick.|PRE|1424
 C It's a Town-In-A-Box|QID|14245|M|45.46,65.35|N|Click on the plunger to create Town-In-A-Box.|NC|
 T It's a Town-In-A-Box|QID|14245|M|45.35,64.84|N|To Foreman Dampwick.|
 
-A Hobart Needs You|QID|27139|M|45.35,64.84|N|From Foreman Dampwick.|PRE|14245|
+A Hobart Needs You|QID|27139|LEAD|24671|M|45.35,64.84|N|From Foreman Dampwick.|PRE|14245|
 N Professions Trainer|QID|27139|N|Want to learn your professions now? The KTC Train-A-Tron will teach you the skills and sell the basic equipment.|T|KTC Train-A-Tron Deluxe|ACTIVE|27139|S|
 T Hobart Needs You|QID|27139|M|45.33,65.13|N|To Hobart Grapplehammer.|
 
@@ -431,7 +477,7 @@ C Ace|QID|25122|M|56.99,37.15|QO|1|N|Throw a Kaja'Cola at Ace to free his mind. 
 C Morale Boost|QID|25122|M|56.86,36.79|US|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|QO|4|
 T Morale Boost|QID|25122|N|To Assistant Greely.|
 
-A Light at the End of the Tunnel|QID|25125|N|From Assistant Greely.|PRE|25122|
+A Light at the End of the Tunnel|QID|25125|N|From Assistant Greely.|PRE|25122;25123|
 T Light at the End of the Tunnel|QID|25125|M|56.30,27.36|N|To Mine Cart.|
 
 A Wild Mine Cart Ride|QID|25184|M|56.30,27.36|N|From Mine Cart. On accepting quest, you will be transproted to the Bilgewater Lumber Yard.|PRE|25125|
@@ -463,8 +509,8 @@ T What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.23|N|To Ace.|GEN|MALE|
 T The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|To Izzy.|GEN|FEMALE|
 T Good-bye, Sweet Oil|QID|25207|M|54.37,17.00|N|To Assistant Greely.|
 
-A The Slave Pits|QID|25213|M|54.36,17.02|N|From Assistant Greely. On accepting the quest, you will be whisked to the Slave Pits.|PRE|25207;25203|GEN|MALE|
-A The Slave Pits|QID|25213|M|54.36,17.02|N|From Assistant Greely. On accepting the quest, you will be whisked to the Slave Pits.|PRE|25207;25202|GEN|FEMALE|
+A The Slave Pits|QID|25213|M|54.36,17.02|N|From Assistant Greely. On accepting the quest, you will be whisked to the Slave Pits.|PRE|25207|GEN|MALE|
+A The Slave Pits|QID|25213|M|54.36,17.02|N|From Assistant Greely. On accepting the quest, you will be whisked to the Slave Pits.|PRE|25207|GEN|FEMALE|
 r Repair Opportunity|QID|25213|N|You have a repair and sell junk opportunity with Chawg.|T|Chawg|ACTIVE|25213|S|
 T The Slave Pits|QID|25213|M|43.65,25.31|N|To Sassy Hardwrench.|
 
@@ -479,8 +525,7 @@ T Escape Velocity|QID|25214|M|43.84,25.35|N|To Hobart Grapplehammer.|
 T She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.32|N|To Sassy Hardwrench.|GEN|MALE|
 T What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|N|To Sassy Hardwrench.|GEN|FEMALE|
 
-A Final Confrontation|QID|25251|M|43.66,25.32|N|From Sassy Hardwrench.|PRE|25214;25243|GEN|MALE|
-A Final Confrontation|QID|25251|M|43.66,25.32|N|From Sassy Hardwrench.|PRE|25214;25244|GEN|FEMALE|
+A Final Confrontation|QID|25251|M|43.66,25.32|N|From Sassy Hardwrench.|PRE|25214|
 C Final Confrontation|QID|25251|M|43.85,25.18|QO|1|N|Hop into the Ultimate Footbomb Uniform.|NC|
 C Final Confrontation|QID|25251|M|43.27,20.03|QO|2|N|Head to where the Trade Prince Gallywix is and use the abilities of the shredder when they are not on cooldown.|
 T Final Confrontation|QID|25251|M|43.67,25.32|N|To Sassy Hardwrench.|
@@ -491,14 +536,14 @@ T Victory!|QID|25265|M|42.14,17.41|N|To Thrall.|
 ;The following will only show if you've skipped the quests before this point.
 N Quest Skipping Not Allowed|QID|99999|N|You won't be able to skip the quests in this zone. Please reset this guide and pick up all the quests.|LEAD|25265|
 
-A Warchief's Emissary|QID|25266|M|42.14,17.41|N|From Thrall.|PRE|25265|LEAD|25265|
+A Warchief's Emissary|QID|25266|M|42.14,17.41|N|From Thrall.|PRE|25265|LEAD|25267|
 R Bladefist Bay|QID|25266|M|42.59,16.40|N|Talk to Sassy Hardwrench and choose to go to Orgrimmar.|T|Sassy|ACTIVE|25266|
 T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|Durotar|N|To Korkron Loyalist.|
 
-A Message for Vol'jin|QID|25267|M|57.67,9.6|Z|Durotar|N|From Darkspear Loyalist. On accepting quest, you will be riden to Orgrimmar.|PRE|25265|
-T Message for Vol'jin|QID|25267|M|48.11,70.54|Z|Orgrimmar|N|To Vol'jin, inside Grommash Hold.|
+A Message for Saurfang|QID|25267|M|57.67,9.6|Z|Durotar|N|From some Loyalist. On accepting quest, you will be taken to Orgrimmar.|
+T Message for Saurfang|QID|25267|M|48.26,70.93|Z|Orgrimmar|N|To Saurfang, inside Grommash Hold.|
 
-A Report to the Labor Captain|QID|25275|M|48.11,70.54|Z|Orgrimmar|N|From Vol'jin.|
+A Report to the Labor Captain|QID|25275|LEAD|14129|PRE|25267|M|48.26,70.93|Z|Orgrimmar|N|From Saurfang.|
 A Missing Reports|QID|26803|M|49.0,72.2|Z|Orgrimmar|N|From Eitrigg.|RANK|2|
 T Missing Reports|QID|26803|M|49.4,59.2|Z|Orgrimmar|N|To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
 
@@ -520,3 +565,5 @@ T Report to the Labor Captain|QID|25275|M|26.98,77.11|Z|Azshara|N|To Labor Capta
 ]]
 
 end)
+
+

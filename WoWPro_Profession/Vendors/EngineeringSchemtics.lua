@@ -4,14 +4,29 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/engineering_schematics
+-- Date: 2017-01-02 22:45
+-- Who: Ludovicus_Maior
+-- Log: New registration style
+
+-- URL: http://wow-pro.com/node/3569/revisions/28081/view
+-- Date: 2016-11-30 20:24
+-- Who: Ludovicus_Maior
+-- Log: Fix single section error.
+
+-- URL: http://wow-pro.com/node/3569/revisions/25896/view
 -- Date: 2014-02-14 00:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3569/revisions/25887/view
 -- Date: 2014-02-14 00:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
-WoWPro.Profession:RegisterGuide('LudoShopEngineering', 'Engineering', 'Engineering Schematics', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopEngineering","Profession", "Engineering", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Engineering Schematics")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",202)
+WoWPro:GuideSteps(guide, function()
 return [[
 B Masterwork Target Dummy|QID|990019814|RECIPE|19814|M|59.20,50.90|Z|Winterspring|P|Engineering;202;275|N|Sold by Xizzer Fizzbolt in Winterspring.|
 B Delicate Arcanite Converter|QID|990019815|RECIPE|19815|M|59.20,50.90|Z|Winterspring|P|Engineering;202;285|N|Sold by Xizzer Fizzbolt in Winterspring.|
@@ -88,6 +103,8 @@ B Extreme-Impact Hole Puncher|QID|990100687|RECIPE|100687|M|47.00,90.60|Z|Molten
 B Large Blue Rocket|QID|990026420|RECIPE|26420|M|54.00,35.40|Z|Moonglade|P|Engineering;202;175|N|Sold by Fariel Starsong in Moonglade.\nBind on Pickup.|
 B Small Blue Rocket|QID|990026416|RECIPE|26416|M|54.00,35.40|Z|Moonglade|P|Engineering;202;125|N|Sold by Fariel Starsong in Moonglade.\nBind on Pickup.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
+

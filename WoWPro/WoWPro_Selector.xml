@@ -18,18 +18,12 @@
                 </Anchors>
             </FontString>
           </Layer>
-          <Layer>
-            <Texture name="$parentGlow" parentKey="glow" alphamode="ADD" file="Interface\Buttons\UI-ActionButton-Border">
-                <Size>
-                    <AbsDimension x="128" y="128" />
-                </Size>
-                <Anchors>
-                    <Anchor point="CENTER"/>
-                </Anchors>
-                <Color r="1.0" g="1.0" b="1.0" a="0.6" />           
-            </Texture>
-          </Layer>          
-        </Layers>    
+        </Layers>
+        <HighlightTexture name="$parentHighlight" file="Interface\Buttons\ButtonHilight-Square" alphaMode="BLEND"/>
+        <PushedTexture name="$parentPushed" file="Interface\ContainerFrame\UI-Icon-QuestBang" alphaMode="ALPHAKEY" />
+        <Scripts>
+            <OnMouseDown function="WoWPro_SelectorButton_OnMouseDown" />
+        </Scripts>    
     </Button>
 	<Frame name="WoWProSelector_Frame" toplevel="true" frameStrata="DIALOG" enableMouse="true" hidden="true" parent="UIParent">
 		<Size x="640" y="144"/>
@@ -75,15 +69,9 @@
             </Button>
 		</Frames>
 		<Scripts>
-		    <OnLoad>
-		    WoWPro:Selector_OnLoad();
-		    </OnLoad>
-			<OnShow>
-			WoWPro:Selector_OnShow();
-			</OnShow>
-			<OnHide>
-			WoWPro:Selector_OnHide();
-			</OnHide>
+		    <OnLoad function="WoWPro_Selector_OnLoad" />
+			<OnShow function="WoWPro_Selector_OnShow" />
+			<OnHide function="WoWPro_Selector_OnHide" />
 		</Scripts>
 	</Frame>
 </Ui>

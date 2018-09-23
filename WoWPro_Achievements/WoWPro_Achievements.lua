@@ -17,14 +17,6 @@ end
 function WoWPro.Achievements:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Achievements Module")
 	
-	
-	-- Event Registration --
-	WoWPro.Achievements.Events = {"QUEST_COMPLETE",
-		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM"
-	}
-	WoWPro:RegisterEvents(WoWPro.Achievements.Events)
-	
 	--Loading Frames--
 	if not WoWPro.Achievements.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Achievements:CreateConfig()
@@ -45,8 +37,6 @@ end
 
 -- Called when the module is disabled --
 function WoWPro.Achievements:OnDisable()
-	-- Unregistering Achievements Module Events --
-	WoWPro:UnregisterEvents(WoWPro.Achievements.Events)
 	
 	--[[ If the current guide is a Achievements guide, removes the map point, stores the guide's ID to be resumed later, 
 	sets the current guide to nil, and loads the nil guide. ]]
@@ -56,28 +46,18 @@ function WoWPro.Achievements:OnDisable()
 	end
 end
 
--- Guide Registration Function --
-function WoWPro.Achievements:RegisterGuide(GIDvalue, zonename, guidename, categoryname, subname, authorname, factionname, sequencevalue)
-	
---[[ Purpose: 
-		Called by guides to register them to the WoWPro.Guide table. All members
-		of this table must have a quidetype parameter to let the addon know what 
-		module should handle that guide.]]
-		
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
-		-- If the guide is not of the correct faction, don't register it
-		
-	WoWPro.Guides[GIDvalue] = {
-		guidetype = "Achievements",
-		zone = zonename,
-		name = guidename,
-		category = categoryname,
-		sub = subname,
-		author = authorname,
-		sequence = sequencevalue,
-		faction = factionname,
-		GID = GIDvalue
-	}
+function WoWPro.Achievements:GuideMisc(guide, name, categoryname, subname)
+    if not name or not categoryname then
+        WoWPro:Error("Achievements Guide %s is missing name or cat.",guide.GID)
+    end
+    guide['name']=name
+    guide['category']=categoryname
+
+    if subname then
+        guide['sub']=subname
+    end
+    -- Assume we have enough info to resolve icon by now
+    WoWPro:ResolveIcon(guide)
 end
 
 function WoWPro.Achievements:LoadAllGuides()

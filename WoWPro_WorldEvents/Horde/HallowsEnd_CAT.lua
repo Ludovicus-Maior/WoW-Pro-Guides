@@ -4,6 +4,66 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2017-03-17 14:09
+-- Who: Ludovicus_Maior
+-- Log: Syntax and PRE for LudoHallowPanH
+
+-- URL: http://wow-pro.com/node/3441/revisions/28512/view
+-- Date: 2017-03-17 14:07
+-- Who: Ludovicus_Maior
+-- Log: Syntax for LudoHallowOUT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28511/view
+-- Date: 2017-03-17 14:05
+-- Who: Ludovicus_Maior
+-- Log: Syntax for LudoHallowNOR
+
+-- URL: http://wow-pro.com/node/3441/revisions/28510/view
+-- Date: 2017-03-17 14:03
+-- Who: Ludovicus_Maior
+-- Log: 1 Syntax fix for LudoHallowKAL
+
+-- URL: http://wow-pro.com/node/3441/revisions/28509/view
+-- Date: 2017-03-17 14:02
+-- Who: Ludovicus_Maior
+-- Log: 1 Syntax fix for LudoHallowEK
+
+-- URL: http://wow-pro.com/node/3441/revisions/28508/view
+-- Date: 2017-03-17 14:00
+-- Who: Ludovicus_Maior
+-- Log: PRE and syntax for LudoHallowCAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28285/view
+-- Date: 2017-03-05 18:53
+-- Who: Ludovicus_Maior
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3441/revisions/27939/view
+-- Date: 2016-10-19 16:58
+-- Who: Blanckaert
+-- Log: NR: Moa'ki Harbor, needs just Moa'ki.
+
+-- URL: http://wow-pro.com/node/3441/revisions/27938/view
+-- Date: 2016-10-19 16:15
+-- Who: Blanckaert
+-- Log: fixed the VoEB locations to Horde instead of (Gasp!) Alliance info. Add QID for Mistfall... No FP at Mistfall changed to closest one.
+
+-- URL: http://wow-pro.com/node/3441/revisions/27937/view
+-- Date: 2016-10-19 15:46
+-- Who: Blanckaert
+-- Log: Changed Westwind to Eastwind (missed on last edit)
+
+-- URL: http://wow-pro.com/node/3441/revisions/27936/view
+-- Date: 2016-10-19 15:42
+-- Who: Blanckaert
+-- Log: fixed QID for Eastwind Rest from -4 to 32040
+
+-- URL: http://wow-pro.com/node/3441/revisions/27774/view
+-- Date: 2016-09-14 17:40
+-- Who: Ludovicus_Maior
+-- Log: Dalaran City@Dalaran
+
+-- URL: http://wow-pro.com/node/3441/revisions/26860/view
 -- Date: 2014-11-07 21:24
 -- Who: Emmaleah
 -- Log: corrections per Ludo's big list o' errors
@@ -47,84 +107,84 @@
 
 -- URL: http://wow-pro.com/node/3441/revisions/26739/view
 -- Date: 2014-10-19 18:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set guide titles for Hallow's End guides.  Corrected Zones.
 
 -- URL: http://wow-pro.com/node/3441/revisions/26692/view
 -- Date: 2014-09-27 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/26543/view
 -- Date: 2014-06-13 00:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing quote
 
 -- URL: http://wow-pro.com/node/3441/revisions/26503/view
 -- Date: 2014-06-10 22:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3441/revisions/26499/view
 -- Date: 2014-06-10 21:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25788/view
 -- Date: 2013-10-28 02:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Use Dalaran City@Dalaran instead of Dalaran
 
 -- URL: http://wow-pro.com/node/3441/revisions/25786/view
 -- Date: 2013-10-27 22:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Next set of corrections.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25785/view
 -- Date: 2013-10-27 01:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some coord fixes for Northrend
 
 -- URL: http://wow-pro.com/node/3441/revisions/25784/view
 -- Date: 2013-10-26 22:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add the missing U|37586| to Northrend
 
 -- URL: http://wow-pro.com/node/3441/revisions/25783/view
 -- Date: 2013-10-26 22:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Blade's Edge Mountains not Netherstorm.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25782/view
 -- Date: 2013-10-26 02:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cleft of Shadow@Orgrimmar
 
 -- URL: http://wow-pro.com/node/3441/revisions/25781/view
 -- Date: 2013-10-26 02:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/25780/view
 -- Date: 2013-10-26 01:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Forest was misspelled
 
 -- URL: http://wow-pro.com/node/3441/revisions/25779/view
 -- Date: 2013-10-26 01:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/25778/view
 -- Date: 2013-10-25 22:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  Ibanozzle
 
 -- URL: http://wow-pro.com/node/3441/revisions/25162/view
 -- Date: 2012-10-24 21:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Horde Pandaria Hallows End TRIAL.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24895/view
 -- Date: 2012-01-18 23:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to GIT.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24785/view
@@ -138,7 +198,7 @@
 
 -- URL: http://wow-pro.com/node/3441/revisions/24779/view
 -- Date: 2011-10-29 02:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/24772/view
 -- Date: 2011-10-28 08:04
@@ -161,7 +221,7 @@ A Candy Bucket|QID|208181|M|51.2,50.0|Z|Deepholm|N|Caretaker Nuunwa, Temple of E
 R Orgrimmar|M|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|
 
 R Nordrassil|QID|28999|M|50.97,38.13|Z|Orgrimmar|N|Take the portal to Mt. Hyjal.|
-A Candy Bucket|QID|28999|M|63.05,24.14|Z|Mount Hyjal|N|Sebelia, Nordrassil)
+A Candy Bucket|QID|28999|M|63.05,24.14|Z|Mount Hyjal|N|Sebelia, Nordrassil)|
 F Shrine of Aviana|QID|29001|M|62.14,21.58|Z|Mount Hyjal|U|37586|N|Fly to the Shrine of Aviana, Mt. Hyjal.|
 A Candy Bucket|QID|29001|M|42.67,45.70|Z|Mount Hyjal|N|Isara Riverstride, Shrine of Aviana|
 F Grove of Aessina|QID|29000|M|41.18,42.59|Z|Mount Hyjal|U|37586|N|Fly to the Shrine/Grove of Aessina, Mt. Hyjal.|
@@ -180,7 +240,7 @@ F The Krazzworks|M|68.17,33.40|QID|28976|Z|Arathi Highlands|U|37586|N|Fly to The
 
 A Candy Bucket|QID|28976|M|75.41,16.53|Z|Twilight Highlands|N|Inkeeper Geno, The Krazzworks|
 F Dragonmaw Port|M|75.33,17.79|QID|28975|Z|Twilight Highlands|U|37586|N|Fly to Dragonmaw Port, Twilight Highlands.|
-A Candy Bucket|QID|28975|M|75.4,54.9|Z|Twilight Highlands|N|Innkeeper Lutz, Dragonmaw Port. Not here if you have not done the quests.|
+A Candy Bucket|QID|28975|PRE|26830|M|75.4,54.9|Z|Twilight Highlands|N|Innkeeper Lutz, Dragonmaw Port. Not here if you have not done the quests.|
 F Bloodgulch|M|73.59,52.92|QID|28973|Z|Twilight Highlands|U|37586|N|Fly to Bloodgulch, Twilight Highlands.|
 A Candy Bucket|QID|28973|M|53.40,42.85|Z|Twilight Highlands|N|Inkeeper Turk, Bloodgulch|
 F Crushblow|M|54.15,42.23|QID|28974|Z|Twilight Highlands|U|37586|N|Fly to Crushblow, Twilight Highlands.|
@@ -189,8 +249,10 @@ A Candy Bucket|QID|28974|M|45.11,76.80|Z|Twilight Highlands|N|Inkeeper Krum, Cru
 R Uldum|QID|29016|M|28.98,38.49|Z|Orgrimmar|N|Take the portal to Uldum|
 F Oasis of Vir'sar|QID|29016|M|55.98,64.17|Z|Un'Goro Crater|U|37586|N|Fly to Oasis of Vir'sar, Uldum.|
 A Candy Bucket|QID|29016|M|26.58,7.25|Z|Uldum|N|Yasmin, Oasis of Vir'sar|
-F Ramkahen|QID|29017|M|26.61,8.35|Z|Uldum|U|37586||N|Fly to Ramkahen, Uldum.|
-A Candy Bucket|QID|29017|M|54.68,33.01|Z|Uldum||N| Kazemde, Ramkahen|
+F Ramkahen|QID|29017|M|26.61,8.35|Z|Uldum|U|37586|N|Fly to Ramkahen, Uldum.|
+A Candy Bucket|QID|29017|M|54.68,33.01|Z|Uldum|N| Kazemde, Ramkahen|
 
 ]]
 end)
+
+

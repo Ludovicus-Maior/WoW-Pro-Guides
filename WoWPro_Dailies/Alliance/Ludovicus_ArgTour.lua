@@ -4,46 +4,66 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2018-09-17 01:57
+-- Who: jovieve
+-- Log: Lowered level requirements for new scaling.
+
+-- URL: http://wow-pro.com/node/3476/revisions/29592/view
+-- Date: 2018-08-24 01:03
+-- Who: jovieve
+-- Log: Updated old style QO tags. Also added kiss emote to the T tag in A Blade Fit for a Champion.
+
+-- URL: http://wow-pro.com/node/3476/revisions/28985/view
+-- Date: 2018-02-19 22:48
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3476/revisions/28319/view
+-- Date: 2017-03-10 23:12
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3476/revisions/26592/view
 -- Date: 2014-07-25 20:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: adj meanlevel
 
 -- URL: http://wow-pro.com/node/3476/revisions/26545/view
 -- Date: 2014-07-06 15:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: guide level
 
 -- URL: http://wow-pro.com/node/3476/revisions/26504/view
 -- Date: 2014-06-10 22:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coverted guide
 
 -- URL: http://wow-pro.com/node/3476/revisions/25621/view
 -- Date: 2013-05-14 15:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed extra M tag
 
 -- URL: http://wow-pro.com/node/3476/revisions/25411/view
 -- Date: 2013-01-13 14:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC and CN tag
 
 -- URL: http://wow-pro.com/node/3476/revisions/25358/view
 -- Date: 2013-01-12 18:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3476/revisions/25291/view
 -- Date: 2013-01-09 01:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3476/revisions/24983/view
 -- Date: 2012-05-27 18:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoArgTour",'Dailies', "Icecrown", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,77,78,77.0131)
+WoWPro:GuideLevels(guide,67,68,67.0131)
 WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -61,33 +81,33 @@ C Mastery Of The Shield-Breaker|QID|13835|M|73.20,19.24|PRE|13667|N|From Scout S
 T Mastery Of The Charge|QID|13837|M|76.4,19.4|PRE|13667|N|From Avareth Swiftstrike.|
 T Mastery Of The Shield-Breaker|QID|13835|M|76.4,19.4|PRE|13667|N|From Scout Shalyndria.|
 T Mastery Of Melee|QID|13828|M|76.4,19.4|PRE|13667|N|From Arcanist Taelis.|
-A Up To The Challenge|QID|13672|M|76.4,19.4|PRE|13667|N|From Arcanist Taelis.|
+A Up To The Challenge|QID|13672|M|76.4,19.4|PRE|13828;13835;13837|N|From Arcanist Taelis.|
 
 ; Black Knight Quests
 A The Black Knight of Westfall?|QID|13633|M|69.43,23.02|FACTION|Alliance|N|Crusader Rhydalla|
-A The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|FACTION|Horde|N|Crusader Rhydalla|
+A The Black Knight of Silverpine?|QID|13634|PRE|13633|M|69.43,23.02|FACTION|Horde|N|Crusader Rhydalla|
 C The Black Knight of Westfall?|QID|13633|M|42.10,69.66|Z|Westfall|N|Get to Moonbrook in Westfall and look at the Dusty Journal.|
 C The Black Knight of Silverpine?|QID|13634|M|53.1,28.1|Z|Silverpine Forest|N|Get to just past the Forsaken Rear Guard in Silverpine Forest and read the Dusty Journal.|
 T The Black Knight of Westfall?|QID|13633|M|69.43,23.02|N|Crusader Rhydalla|
 T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|FACTION|Horde|N|Crusader Rhydalla|
-A The Seer's Crystal|QID|13641|PRE|13633;13634|M|69.43,23.02|N|Crusader Rhydalla|
+A The Seer's Crystal|QID|13641|PRE|13633+13634|M|69.43,23.02|N|Crusader Rhydalla|
 C The Seer's Crystal|QID|13641|M|46, 42|Z|Crystalsong Forest|N|Kill Unbound Seer's to get the crystal.|
 T The Seer's Crystal|QID|13641|M|69.4,23.0|N|Crusader Rhydalla|
 A The Stories Dead Men Tell|QID|13643|PRE|13641|M|69.43,23.02|N|Crusader Rhydalla|
-C The Stories Dead Men Tell|QID|13643|M|79.37,23.09|QO|Sir Wendell Balfour's death investigated: 1/1|NC|N|Sir Wendell Balfour.|
-C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|Lorien Sunblaze's death investigated: 1/1|NC|N|Lorien Sunblaze|
-C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|Conall Irongrip's death investigated: 1/1|NC|N|Conall Irongrip|
+C The Stories Dead Men Tell|QID|13643|M|79.37,23.09|QO|1|NC|N|Sir Wendell Balfour|
+C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|2|NC|N|Lorien Sunblaze|
+C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|3|NC|N|Conall Irongrip|
 T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|Crusader Rhydalla|
 A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|Crusader Rhydalla|
 C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|N|Kill Skeletal Woodcutters until you get a Large Femur.|L|45080|
 C There's Something About the Squire|QID|13654|M|38.3,59.4|Z|Crystalsong Forest|N|Sneak behind Maloric and use the Large Femur to bonk him. His bag will be looted automatically.  Run away!|U|45080|
 T There's Something About the Squire|QID|13654|M|69.43,23.02|N|Crusader Rhydalla|
 A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|Crusader Rhydalla.|
-C The Black Knight's Orders|QID|13663|M|77.76,21.61|N|Go here and use the enchanted bridle.|U|45083|QO|Black Knight's Gryphon taken: 1/1|
-C The Black Knight's Orders|QID|13663|M|54.11,8.63|QO|Stolen Tournament Invitation: 1/1|N|Get the Stolen Invite|
-C The Black Knight's Orders|QID|13663|M|54.07,8.66|QO|Black Knight's Orders: 1/1|N|Get the Orders|
+C The Black Knight's Orders|QID|13663|M|77.76,21.61|N|Go here and use the enchanted bridle.|U|45083|QO|1|
+C The Black Knight's Orders|QID|13663|M|54.11,8.63|QO|2|N|Get the Stolen Invite|
+C The Black Knight's Orders|QID|13663|M|54.07,8.66|QO|3|N|Get the Orders|
 T The Black Knight's Orders|QID|13663|M|69.43,23.02|N|Crusader Rhydalla.|
-A The Black Knight's Fall|QID|13664|PRE|13663;13794|M|69.43,23.02|N|Crusader Rhydalla.|
+A The Black Knight's Fall|QID|13664|PRE|13663|M|69.43,23.02|N|Crusader Rhydalla.|
 C The Black Knight's Fall|QID|13664|M|72.27,22.55|N|Go to the ring of Champions. Equip your lance and mount up on a Stabled Argent Warhorse. Click when done.|
 C The Black Knight's Fall|QID|13664|M|71.36,23.4|N|Talk to Squire Cavin and have him summon the Black Knight. DISMOUNT when you see the BK DK on his gryphon, requip your regular weapon and ATTACK!|
 T The Black Knight's Fall|QID|13664|M|69.43,23.02|N|Crusader Rhydalla.|
@@ -100,12 +120,12 @@ T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|Crusader Rhydalla.|
 
 ; Aspirant Quests
 A One of Three|QID|13666;13669;13670|LEAD|13679|M|76.47,19.40|N|From Arcanist Taelis, one of three quests.|
-A Learning The Reins|QID|13625|LEAD|13679|M|76.47,19.46|N|From Scout Shalyndria.|
-A Training In The Field|QID|13671|LEAD|13679|M|76.44,19.35|N|From Avareth Swiftstrike.|
+A Learning The Reins|QID|13625|M|76.47,19.46|N|From Scout Shalyndria.|
+A Training In The Field|QID|13671|M|76.44,19.35|N|From Avareth Swiftstrike.|
 
 C Learning The Reins|QID|13625|N|Mount up and go practice on the fields.|U|46069|
 C Training In The Field|QID|13671|M|70, 62|N|Equil your regular weapon and go kill any Scourge|
-C A Blade Fit For A Champion|QID|13666|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
+C A Blade Fit For A Champion|QID|13666|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog,kiss|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
 C A Worthy Weapon|QID|13669|M|68.75,76.38;72.62,73.12;70.56,74.71|L|194213 4|CN|N|Pick flowers along the Ironwall Dam.|
 C A Worthy Weapon|QID|13669|M|93,26|Z|Dragonblight|U|194213|N|Use the stack of flowers within the circle outlined with the purple floating boys. Loot the sword.|L|44978|
 C The Edge Of Winter|QID|13670|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
@@ -310,10 +330,12 @@ A A Champion Rises|QID|13734|PRE|13724|R|Draenei|M|76.10,19.10|N|From Colosos.|
 N A Champion Rises|QID|13702;13732;13733;13734;13735|N|At this point you can become a Valiant for another faction.  Walk up and take the quest and the guide should adjust.|
 T A Champion Rises|QID|13702;13732;13733;13734;13735|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
 
-A Eadric the Pure|QID|13794|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|From Justicar Mariel Trueheart, everybody but DKs|
+A Eadric the Pure|QID|13794|PRE|13702+13732+13733+13734+13735+13736+13737+13738+13739+13740|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|From Justicar Mariel Trueheart, everybody but DKs|
 T Eadric the Pure|QID|13794|M|69.96,23.44|N|To Eadric the Pure.|
-A The Scourgebane|QID|13795|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
+A The Scourgebane|QID|13795|PRE|13702+13732+13733+13734+13735+13736+13737+13738+13739+13740|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
 T The Scourgebane|QID|13795|M|73.80,20.06|N|From Crok Scourgebane.|
 
 ]]
 end)
+
+

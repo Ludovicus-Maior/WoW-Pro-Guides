@@ -4,68 +4,103 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
+-- Date: 2018-02-24 01:18
+-- Who: Ludovicus_EditBot
+-- Log: Fix the Nexus zone reference
+
+-- URL: http://wow-pro.com/node/3451/revisions/29144/view
+-- Date: 2018-02-23 01:58
+-- Who: Ludovicus_EditBot
+-- Log: Moving Emmaleah's flight instructions to the alliance side
+
+-- URL: http://wow-pro.com/node/3451/revisions/29143/view
+-- Date: 2018-02-23 01:53
+-- Who: Ludovicus_EditBot
+-- Log: Thanks Heldrigan!
+
+-- URL: http://wow-pro.com/node/3451/revisions/28505/view
+-- Date: 2017-03-17 13:53
+-- Who: Ludovicus_Maior
+-- Log: Tiny syntax fix
+
+-- URL: http://wow-pro.com/node/3451/revisions/28289/view
+-- Date: 2017-03-05 18:54
+-- Who: Ludovicus_Maior
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3451/revisions/27714/view
+-- Date: 2016-09-07 04:34
+-- Who: Emmaleah
+-- Log: update |Z|TheTempleOf AtalHakkar| to |Z|The Temple of Atal' Hakkar|
+
+-- URL: http://wow-pro.com/node/3451/revisions/27361/view
+-- Date: 2015-07-25 18:14
+-- Who: Ludovicus_Maior
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3451/revisions/26496/view
 -- Date: 2014-06-10 21:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3451/revisions/25881/view
 -- Date: 2014-02-13 16:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adjusted Ranks
 
 -- URL: http://wow-pro.com/node/3451/revisions/25644/view
 -- Date: 2013-05-14 19:14
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Z tags for dungeon zone corrections
 
 -- URL: http://wow-pro.com/node/3451/revisions/25523/view
 -- Date: 2013-02-06 20:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Checked every coords, qid, and added ranks like the horde guide.
 
 -- URL: http://wow-pro.com/node/3451/revisions/25513/view
 -- Date: 2013-01-28 12:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updates for this year!
 
 -- URL: http://wow-pro.com/node/3451/revisions/25431/view
 -- Date: 2013-01-13 15:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS and CC tag
 
 -- URL: http://wow-pro.com/node/3451/revisions/25083/view
 -- Date: 2012-09-24 23:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spell Njorndir Preparation right!
 
 -- URL: http://wow-pro.com/node/3451/revisions/25018/view
 -- Date: 2012-06-30 23:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct Zone in TheNexus
 
 -- URL: http://wow-pro.com/node/3451/revisions/24931/view
 -- Date: 2012-02-04 22:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Elders of Cata
 
 -- URL: http://wow-pro.com/node/3451/revisions/24924/view
 -- Date: 2012-01-25 22:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Two zone name errors: Z|The Nexus and Z|Halls of Stone.
 
 -- URL: http://wow-pro.com/node/3451/revisions/24922/view
 -- Date: 2012-01-25 12:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Rumblerrock is Rumblerock
 
 -- URL: http://wow-pro.com/node/3451/revisions/24920/view
 -- Date: 2012-01-24 12:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Hendo72's Corrections.
 
 -- URL: http://wow-pro.com/node/3451/revisions/24919/view
 -- Date: 2012-01-24 12:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: 1,$s/|T|\([A-Za-z ]*\) the Elder|/|T|Elder \1|/
 
 -- URL: http://wow-pro.com/node/3451/revisions/24854/view
@@ -83,8 +118,9 @@
 -- Log: Source page created.
 
 local guide = WoWPro:RegisterGuide("CraLunFesEldA",'WorldEvents',"Lunar Festival Elders Guide", "Crackerhead22", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LunarFestival")
+WoWPro:GuideIcon(guide,"ACH",915)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -130,6 +166,7 @@ F Tower of Estulan|N|Fly to the Tower of Estulan.|QID|8685|M|36.75,71.69|Z|Desol
 A Mistwalker the Elder|N|From Mistwalker the Elder.|QID|8685|M|62.56,31.07|Z|Feralas|
 A Grimtotem the Elder|N|From Grimtotem the Elder.|QID|8679|M|76.70,37.90|Z|Feralas|
 F Cenarion Hold|N|Fly to Cenarion Hold.|QID|8719|M|77.2,56.8|Z|Feralas|
+F Zidormi|N|If you have finished the Antarus raid, you will need to talk to Zidormi before you can see the elders.|LVL|110|M|78.8,21.8|Z|Silithus|
 A Bladesing the Elder|N|From Bladesing the Elder.|QID|8719|M|53.02,35.47|Z|Silithus|
 A Primestone the Elder|N|From Primestone the Elder.|QID|8654|M|30.80,13.31|Z|Silithus|
 
@@ -155,7 +192,7 @@ R The Dark Portal|N|Head over to the Dark Portal.|QID|8647|M|54.3,49.5|Z|Blasted
 A Bellowrage the Elder|N|From Bellowrage the Elder.|QID|8647|M|54.3,49.5|Z|Blasted Lands|
 F The Temple of Atal'Hakkar|N|Head North to Swamp of Sworrows and into the Temple of Atal'Hakkar.|QID|8713|M|69.37,53.07|Z|Swamp of Sorrows|RANK|2|
 R Hall of Masks|N|Head inside the Temple down into the Hall of Masks|Z|Swamp of Sorrows|M|75.99,45.22|QID|8713|RANK|2|
-A Starsong the Elder|N|From Starsong the Elder from inside the instance.|QID|8713|M|62.90,34.47|Z|TheTempleOfAtalHakkar|RANK|2|
+A Starsong the Elder|N|From Starsong the Elder from inside the instance.|QID|8713|M|62.90,34.47|Z|The Temple of Atal' Hakkar|RANK|2|
 F Sentinel Hill|N|Fly to Sentinel Hill.|QID|8675|M|70.04,38.56|Z|Swamp of Sorrows|
 A Skychaser the Elder|N|From Skychaser the Elder.|QID|8675|M|56.64,47.09|Z|Westfall|
 F Stormwind City|N|Fly to Stormwind City.|QID|8649|M|56.64,49.44|Z|Westfall|
@@ -212,7 +249,7 @@ A Pamuya the Elder|N|From Pamuya the Elder.|QID|13029|M|42.8,49.6|Z|Borean Tundr
 A Northal the Elder|N|From Northal the Elder.|QID|13016|M|33.80,34.36|Z|Borean Tundra|
 
 R The Nexus|N|Run into The Nexus. You want the bottom instance of the three.|QID|13021|M|27.5,26.09|Z|Borean Tundra|RANK|2|
-A Igasho the Elder|N|From Igasho the Elder, at the end of the Singing Grove.|QID|13021|M|55.19,64.72|Z|TheNexus|RANK|2|
+A Igasho the Elder|N|From Igasho the Elder, at the end of the Singing Grove.|QID|13021|M|55.19,64.72|Z|The Nexus@TheNexus|RANK|2|
 
 F Stars' Rest|N|Head back outside of The Nexus and fly to Stars' Rest in Dragonblight.|QID|13014|M|33,34.4|Z|Borean Tundra|
 A Morthie the Elder|N|From Morthie the Elder.|QID|13014|M|29.75,55.90|Z|Dragonblight|
@@ -273,7 +310,7 @@ F Darkbreak Cove|QID|29738|N|Take the portal to Vashj'ir.|
 F Voldrin's Hold|QID|29738|M|57.34,15.80|Z|Shimmering Expanse|
 A Moonlance the Elder|QID|29738|M|57.25,86.14|Z|Shimmering Expanse|N|From Elder Moonlance, Near Biel'Aran Ridge|
 
-F Thundermar|QID|29736||N|Take the portal to the Twilight Highlands.|
+F Thundermar|QID|29736|N|Take the portal to the Twilight Highlands.|
 A Darkfeather the Elder|QID|29736|M|51.87,33.07|Z|Twilight Highlands|N|From Elder Darkfeather|
 A Firebeard the Elder|QID|29737|M|50.91,70.45|Z|Twilight Highlands|N|From Elder Firebeard|
 
@@ -285,3 +322,5 @@ N The End |N|That's all for this year.|
 
 ]]
 end)
+
+

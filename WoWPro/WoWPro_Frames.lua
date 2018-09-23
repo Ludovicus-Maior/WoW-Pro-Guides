@@ -5,19 +5,24 @@ local L = WoWPro_Locale
 local AceGUI = LibStub("AceGUI-3.0")
 
 -- Frame Update Functions --
-local function GetSide(frame)
+function WoWPro.GetSide(frame)
 	local x,y = frame:GetCenter()
 	local horizontal, vertical
+	if (not x) or (not y) then
+	    return nil , nil
+	end
 	if x > (UIParent:GetWidth()/2) then horizontal = "RIGHT" else horizontal = "LEFT" end
 	if y > (UIParent:GetHeight()/2) then vertical = "TOP" else vertical = "BOTTOM" end
 	return horizontal, vertical
 end
+
 function WoWPro.ResetMainFramePosition()
 	local top = WoWPro.Titlebar:GetTop()
 	local left = WoWPro.Titlebar:GetLeft()
 	WoWPro.MainFrame:ClearAllPoints()
 	WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
 end
+
 function WoWPro:MinimapSet()
 	local icon = LibStub("LibDBIcon-1.0")
 	if not WoWProDB.profile.minimap.hide then
@@ -55,7 +60,7 @@ function WoWPro:DragSet()
 				WoWPro.MainFrame:StopMovingOrSizing()
 				WoWPro.AnchorSet()
 			end
-		end) 
+		end)
 	else
 		WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
 			if button == "RightButton" then
@@ -63,13 +68,13 @@ function WoWPro:DragSet()
 			end
 		end)
 		WoWPro.Titlebar:SetScript("OnMouseUp", function(self, button)
-		end) 
+		end)
 	end
 end
 function WoWPro:PaddingSet()
 	local pad = WoWProDB.profile.pad
 	-- Padding Customization --
-	if WoWPro.Titlebar:IsShown() then 
+	if WoWPro.Titlebar:IsShown() then
 		WoWPro.StickyFrame:SetPoint("TOPLEFT", WoWPro.Titlebar, "BOTTOMLEFT", pad+3, -pad+3)
 		WoWPro.StickyFrame:SetPoint("TOPRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", -pad-3, -pad+3)
 	else
@@ -81,10 +86,11 @@ function WoWPro:PaddingSet()
 	WoWPro.GuideFrame:SetPoint("BOTTOM", 0, pad)
 end
 function WoWPro:TitlebarSet()
+    WoWPro:dbp("WoWPro:TitlebarSet()")
 -- Titlebar enable/disable --
 	if WoWProDB.profile.titlebar then WoWPro.Titlebar:Show() else WoWPro.Titlebar:Hide() end
-	
--- Colors --	
+
+-- Colors --
 	WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
 
 -- Fonts --
@@ -93,12 +99,13 @@ function WoWPro:TitlebarSet()
 
 -- Size --
 	WoWPro.Titlebar:SetHeight(WoWPro.TitleText:GetHeight()+10)
-	
+
 -- Scrollbar --
 	if WoWProDB.profile.guidescroll then WoWPro.Scrollbar:Show() else WoWPro.Scrollbar:Hide() end
-	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end 
+	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
 end
 function WoWPro:BackgroundSet()
+    WoWPro:dbp("WoWPro:BackgroundSet()")
 -- Textures and Borders --
 	WoWPro.MainFrame:SetBackdrop( {
 		bgFile = WoWProDB.profile.bgtexture,
@@ -114,13 +121,14 @@ function WoWPro:BackgroundSet()
 	WoWPro.MainFrame:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
 	WoWPro.StickyFrame:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], WoWProDB.profile.stickycolor[4])
 -- Border enable/disable --
-	if WoWProDB.profile.border then 
-		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 1) 
-	else 
-		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0) 
+	if WoWProDB.profile.border then
+		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 1)
+	else
+		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0)
 	end
-	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end 
-end	
+	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
+end
+
 function WoWPro:RowColorSet()
 	for i,row in ipairs(WoWPro.rows) do
 		-- Setting color and texture for sticky steps --
@@ -160,7 +168,8 @@ function WoWPro.RowSizeSet()
 	local biggeststep = 0
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
 	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
-	
+    WoWPro:dbp("WoWPro.RowSizeSet()")
+
 	-- Hiding the row if it's past the set number of steps --
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWProDB.profile.autoresize then
@@ -172,7 +181,7 @@ function WoWPro.RowSizeSet()
 			end
 		end
 	end
-	
+
 	-- Auto Resizing - Horizontal --
 	if WoWProDB.profile.autoresize and biggeststep and biggeststep ~= 0 then
 		local extraw = WoWPro.MainFrame:GetWidth()
@@ -181,12 +190,12 @@ function WoWPro.RowSizeSet()
 		if WoWPro.Titlebar:IsShown() then totalw = max(totalw,ceil(WoWPro.TitleText:GetStringWidth()+pad*2+10)) end
 		WoWPro.MainFrame:SetWidth(totalw)
 	end
-	
+
 	WoWPro.ShownRows = 0
-	
+
 	for i,row in ipairs(WoWPro.rows) do
 		row.check:SetPoint("TOPLEFT", 1, -space)
-		
+
 		-- Setting the note frame size correctly, setting up mouseover notes --
 		local newh, noteh, trackh
 		if WoWProDB.profile.mousenotes and row.index and (WoWPro.note[row.index] or (WoWPro.map[row.index] and WoWProDB.profile.showcoords)) then
@@ -209,7 +218,7 @@ function WoWPro.RowSizeSet()
 			row:SetScript("OnEnter", function() end)
 			row:SetScript("OnLeave", function() end)
 		end
-		
+
 		if row.trackcheck and row.track:GetText() ~= "" then
 			row.track:Show()
 			row.track:SetPoint("TOPLEFT", row.action, "BOTTOMLEFT", 0, -noteh-5)
@@ -218,10 +227,10 @@ function WoWPro.RowSizeSet()
 			row.track:Hide()
 			trackh = 1
 		end
-		
+
 		newh = noteh + trackh + max(row.step:GetHeight(),row.action:GetHeight()) + space*2 +3
 		row:SetHeight(newh)
-		
+
 		-- Hiding the row if it's past the set number of steps --
 		if WoWProDB.profile.autoresize then
 			if i <= WoWProDB.profile.numsteps + WoWPro.ActiveStickyCount then
@@ -234,19 +243,19 @@ function WoWPro.RowSizeSet()
 		-- Hiding the row if the new height makes it too large --
 		else
 			totalh = totalh + newh
-			if totalh > maxh then 
+			if totalh > maxh then
 				if i == 1 then i = 2 end
-				for j=i,15 do 
-					WoWPro.rows[j]:Hide() 
+				for j=i,15 do
+					WoWPro.rows[j]:Hide()
 				end
 				break
-			else 
-				row:Show() 
+			else
+				row:Show()
 				WoWPro.ShownRows = WoWPro.ShownRows + 1
 			end
 		end
 	end
-	
+
 	if WoWPro.ActiveStickyCount >= 1 then
 		WoWPro.StickyFrame:Show()
 		WoWPro.StickyFrame:SetHeight(WoWPro.StickyTitle:GetHeight())
@@ -254,7 +263,7 @@ function WoWPro.RowSizeSet()
 		WoWPro.StickyFrame:Hide()
 		WoWPro.StickyFrame:SetHeight(1)
 	end
-	
+
 	-- Auto Resizing - Vertical --
 	if WoWProDB.profile.autoresize then
 		local titleheight = 0
@@ -262,12 +271,15 @@ function WoWPro.RowSizeSet()
 		local totalh = totalh + pad*2 + WoWPro.StickyFrame:GetHeight() + titleheight
 		WoWPro.MainFrame:SetHeight(totalh)
 	end
+	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
 end
+
 function WoWPro.AnchorSet()
 	local w = WoWPro.Titlebar:GetWidth()
 	local h = WoWPro.Titlebar:GetHeight()
+	WoWPro:dbp("WoWPro.AnchorSet()")
 	for i,row in ipairs(WoWPro.rows) do
-		if GetSide(WoWPro.MainFrame) == "RIGHT" then
+		if WoWPro.GetSide(WoWPro.MainFrame) == "RIGHT" then
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
 			WoWPro.mousenotes[i]:SetPoint("TOPLEFT", row, "TOPLEFT", -210, 10)
 --			row.itembutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -15, -10)
@@ -278,7 +290,7 @@ function WoWPro.AnchorSet()
 		end
 	end
 	WoWPro.MainFrame:SetScript("OnUpdate", function()
-		if not MaybeCombatLockdown() then
+		if not WoWPro.MaybeCombatLockdown() then
 			local top = WoWPro.MainFrame:GetTop()
 			local bottom = WoWPro.MainFrame:GetBottom()
 			local vcenter = ( top + bottom ) / 2
@@ -286,13 +298,13 @@ function WoWPro.AnchorSet()
 			local right = WoWPro.MainFrame:GetRight()
 			local hcenter = (left + right) / 2
 			local anchorpoint = WoWProDB.profile.anchorpoint
-			local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
-				
+			local hquadrant, vquadrant = WoWPro.GetSide(WoWPro.MainFrame)
+
 			-- Setting anchor point based on the quadrant if it's set to auto --
 			if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
-			
+
 			WoWPro.MainFrame:ClearAllPoints()
-			
+
 			if anchorpoint == "TOPLEFT" then
 				WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
 			elseif anchorpoint == "TOP" then
@@ -312,26 +324,35 @@ function WoWPro.AnchorSet()
 			elseif anchorpoint == "BOTTOMRIGHT" then
 				WoWPro.MainFrame:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMLEFT", right, bottom)
 			end
-			
+
 			WoWPro.MainFrame:SetScript("OnUpdate", function()
 			end)
 		end
 	end)
 end
 function WoWPro.RowSet()
+    WoWPro:dbp("WoWPro.RowSet()")
 	WoWPro.RowColorSet()
 	WoWPro.RowFontSet()
 	WoWPro.RowSizeSet()
 	WoWPro.AnchorSet()
 end
+
 function WoWPro.CustomizeFrames()
-	WoWPro.ResizeSet(); WoWPro.DragSet(); WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.BackgroundSet(); WoWPro.RowSet(); WoWPro.MinimapSet();
-	
+    WoWPro:dbp("WoWPro.CustomizeFrames()")
+	WoWPro.ResizeSet();
+	WoWPro.DragSet();
+	WoWPro.TitlebarSet();
+	WoWPro.PaddingSet();
+	WoWPro.BackgroundSet();
+	WoWPro.RowSet();
+	WoWPro.MinimapSet();
+
 	-- Module Customize Frames --
 	for name, module in WoWPro:IterateModules() do
 		if WoWPro[name].CustomizeFrames then WoWPro[name]:CustomizeFrames() end
 	end
-	
+
 end
 
 -- Create Dialog Box --
@@ -356,7 +377,7 @@ function WoWPro:CreateDialogBox(name, w, h)
 	titletext:SetWidth(w)
 	titletext:SetTextColor(1, 1, 1)
 	titletext:SetText(name)
-	
+
 	return frame, titletext
 end
 
@@ -403,7 +424,7 @@ function WoWPro:CreateMainFrame()
 		end
 	end)
 end
-	
+
 -- Resize Button --
 function WoWPro:CreateResizeButton()
 	local resizebutton = CreateFrame("Button", "WoWPro.ResizeButton", WoWPro.MainFrame)
@@ -427,10 +448,10 @@ function WoWPro:CreateResizeButton()
 		end)
 	WoWPro.resizebutton = resizebutton
 end
-	
+
 -- Title Bar --
 function WoWPro:CreateTitleBar()
-	local titlebar = CreateFrame("Button", "Titlebar", WoWPro.MainFrame)
+	local titlebar = CreateFrame("Button", nil, WoWPro.MainFrame)
 	titlebar:SetHeight(22)
 	titlebar:SetWidth(200)
 	titlebar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT")
@@ -464,10 +485,10 @@ function WoWPro:CreateTitleBar()
 			WoWPro.MainFrame:StopMovingOrSizing()
 			WoWPro.AnchorSet()
 		end
-	end) 
+	end)
 	WoWPro.Titlebar:SetScript ("OnDoubleClick", function (self, button)
 		local anchorpoint = WoWProDB.profile.anchorpoint
-		local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
+		local hquadrant, vquadrant = WoWPro.GetSide(WoWPro.MainFrame)
 		if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 		if WoWPro.GuideFrame:IsVisible() then
 			if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
@@ -486,7 +507,7 @@ function WoWPro:CreateTitleBar()
 			WoWPro.AnchorSet()
 			WoWPro:UpdateGuide("DoubleClick")
 		end
-	end)   
+	end)
 end
 
 -- Sticky Frame --
@@ -530,9 +551,9 @@ function WoWPro:CreateGuideWindowScrollbar()
 		end
 		return f(self, value, ...)
 	end)
-	WoWPro.MainFrame:SetScript("OnMouseWheel", function(self, val) 
-		if WoWProDB.profile.guidescroll then 
-			WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - val) 
+	WoWPro.MainFrame:SetScript("OnMouseWheel", function(self, val)
+		if WoWProDB.profile.guidescroll then
+			WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - val)
 		end
 	end)
 end
@@ -547,13 +568,13 @@ function WoWPro:CreateRows()
 			tile = true, tileSize = 16
 		})
 		row:SetBackdropBorderColor(1, 1, 1, 0)
-		if i == 1 then 
+		if i == 1 then
 			row:SetPoint("TOPLEFT")
 			row:SetPoint("TOPRIGHT")
-		else 
+		else
 			row:SetPoint("TOPLEFT", WoWPro.rows[i-1], "BOTTOMLEFT")
 			row:SetPoint("TOPRIGHT", WoWPro.rows[i-1], "BOTTOMRIGHT")
-		end	
+		end
 		row:SetPoint("LEFT")
 		row:SetPoint("RIGHT")
 		row:SetHeight(25)
@@ -577,15 +598,16 @@ function WoWPro:CreateRows()
 		row.track = WoWPro:CreateTrack(row, row.action)
 		row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row, i)
 		row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row, i)
-		
+		row.lootsbutton, row.lootsicon = WoWPro:CreateLootsButton(row, i)
+
 		local highlight = row:CreateTexture()
 		highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
 		highlight:SetTexCoord(0, 1, 0, 0.578125)
 		highlight:SetAllPoints()
 		row:SetHighlightTexture(highlight)
 		row:SetCheckedTexture(highlight)
-		
-		WoWPro.rows[i] = row	
+
+		WoWPro.rows[i] = row
 	end
 end
 
@@ -593,7 +615,7 @@ end
 function WoWPro:CreateMouseNotes()
 	WoWPro.mousenotes = {}
 	for i=1,15 do
-		local row = CreateFrame("Frame", "Mouseover Note Tooltip", WoWPro.GuideFrame)
+		local row = CreateFrame("Frame", nil, WoWPro.GuideFrame)
 		row:SetBackdrop( {
 			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 			edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
@@ -612,9 +634,9 @@ function WoWPro:CreateMouseNotes()
 		note:SetJustifyV("TOP")
 		note:SetWidth(200-20)
 		row.note = note
-		
+
 		row:Hide()
-		
+
 		WoWPro.mousenotes[i] = row
 	end
 end
@@ -640,10 +662,10 @@ function WoWPro:CreateMiniMapButton()
 				InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
 			end
 		end,
-		OnTooltipShow = function(self) 
+		OnTooltipShow = function(self)
 			self:AddLine("WoW-Pro")
 			self:AddLine("Left-click to enable/disable addon", 1, 1, 1)
-			self:AddLine("Right-click to open config panel", 1, 1, 1) 
+			self:AddLine("Right-click to open config panel", 1, 1, 1)
 			end,
 	})
 	icon:Register("WoWProIcon", WoWPro.MinimapButton, WoWProDB.profile.minimap)
@@ -651,9 +673,9 @@ end
 
 -- Skip Steps Dialog --
 function WoWPro:CreateSkipStepsDialog()
-	local frame, titletext = WoWPro:CreateDialogBox("Skip Steps", 250, 250)
+	local frame, titletext = WoWPro:CreateDialogBox("WoWPro_SkipSteps", 250, 250)
 	frame:SetClampedToScreen(true)
-	
+
 	local explanation = frame:CreateFontString()
 	explanation:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -70-titletext:GetHeight())
 	explanation:SetJustifyH("LEFT")
@@ -661,7 +683,7 @@ function WoWPro:CreateSkipStepsDialog()
 	explanation:SetWidth(frame:GetWidth()-20)
 	explanation:SetTextColor(1, 1, 1)
 
-	local button1 = CreateFrame("Button", "Okay", frame, "OptionsButtonTemplate")
+	local button1 = CreateFrame("Button", "WoWPro_SkipOkay", frame, "OptionsButtonTemplate")
 	button1:SetPoint("TOP", titletext, "BOTTOM", 0, -5)
 	button1:SetHeight(25)
 	button1:SetWidth(160)
@@ -672,9 +694,9 @@ function WoWPro:CreateSkipStepsDialog()
 	button1text:SetTextColor(1, 1, 1)
 	button1:SetScript("OnClick", function(self, button)
 		WoWPro.SkipStepsDialog:Hide()
-	end) 
+	end)
 
-	local button2 = CreateFrame("Button", "Cancel", frame, "OptionsButtonTemplate")
+	local button2 = CreateFrame("Button", "WoWPro_SkipCancel", frame, "OptionsButtonTemplate")
 	button2:SetPoint("TOP", titletext, "BOTTOM", 0, -30)
 	button2:SetHeight(25)
 	button2:SetWidth(160)
@@ -686,18 +708,21 @@ function WoWPro:CreateSkipStepsDialog()
 	button2:SetScript("OnClick", function(self, button)
 		WoWPro.SkipStepsDialog:Hide()
 	end)
-	
+
 	WoWPro.SkipStepsDialog = frame
 	WoWPro.SkipStepsDialogText = explanation
+	WoWPro.SkipStepsOkayButton = button1
 	WoWPro.SkipStepsCancelButton = button2
-	
-	function WoWPro:SkipStepDialogCall(index, steplist)
+
+	function WoWPro:SkipStepDialogCall(index, steplist, checkbox)
 		WoWPro.SkipStepsDialogText:SetText("Skipping the step "..WoWPro.step[index].." will also cause the following steps to skip: \n\n"
 			..strtrim(steplist))
 		WoWPro.SkipStepsDialog:SetHeight(120+WoWPro.SkipStepsDialogText:GetHeight())
-		WoWPro.SkipStepsCancelButton:SetScript("OnClick", function(self, button)
+		WoWPro.SkipStepsOkayButton:SetScript("OnClick", function(self, button)
 			WoWPro.SkipStepsDialog:Hide()
-			WoWPro.Leveling:UnSkipStep(index)
+			WoWPro.SkipStep(index, false)
+			checkbox:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
+			WoWPro:UpdateGuide("SkipStepDialogCall:SkipSteps")
 		end)
 		WoWPro.SkipStepsDialog:Show()
 	end
@@ -706,10 +731,10 @@ end
 -- TODO: make it module specific, move this to WoWPro_Leveling
 -- Next Guide Dialog --
 function WoWPro:CreateNextGuideDialog()
-	
-	local frame, titletext = WoWPro:CreateDialogBox("Guide Completed", 180, 150)
 
-	local button1 = CreateFrame("Button", "LoadNextGuide", frame, "OptionsButtonTemplate")
+	local frame, titletext = WoWPro:CreateDialogBox("WoWPro_GuideCompleted", 180, 150)
+
+	local button1 = CreateFrame("Button", "WoWPro_LoadNextGuide", frame, "OptionsButtonTemplate")
 	button1:SetPoint("BOTTOMLEFT", 10, 80)
 	button1:SetHeight(25)
 	button1:SetWidth(160)
@@ -721,9 +746,9 @@ function WoWPro:CreateNextGuideDialog()
 	button1:SetScript("OnClick", function(self, button)
 		WoWPro:LoadGuide(WoWPro:NextGuide(WoWProDB.char.currentguide))
 		WoWPro.NextGuideDialog:Hide()
-	end) 
+	end)
 
-	local button2 = CreateFrame("Button", "OpenWoWPro_Leveling.GuideList", frame, "OptionsButtonTemplate")
+	local button2 = CreateFrame("Button", "WoWPro_OpenLevelingGuidelist", frame, "OptionsButtonTemplate")
 	button2:SetPoint("BOTTOMLEFT", 10, 45)
 	button2:SetHeight(25)
 	button2:SetWidth(160)
@@ -733,12 +758,12 @@ function WoWPro:CreateNextGuideDialog()
 	button2text:SetText("Choose Guide From List")
 	button2text:SetTextColor(1, 1, 1)
 	button2:SetScript("OnClick", function(self, button)
-		InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
-		InterfaceOptionsFrame_OpenToCategory("Guide List") 
+		InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")
+		InterfaceOptionsFrame_OpenToCategory("Guide List")
 		WoWPro.NextGuideDialog:Hide()
-	end) 
+	end)
 
-	local button3 = CreateFrame("Button", "OpenWoWPro_Leveling.GuideList", frame, "OptionsButtonTemplate")
+	local button3 = CreateFrame("Button", "WoWPro_ResetGuide", frame, "OptionsButtonTemplate")
 	button3:SetPoint("BOTTOMLEFT", 10, 10)
 	button3:SetHeight(25)
 	button3:SetWidth(160)
@@ -749,43 +774,56 @@ function WoWPro:CreateNextGuideDialog()
 	button3text:SetTextColor(1, 1, 1)
 	button3:SetScript("OnClick", function(self, button)
 		WoWProCharDB.Guide[WoWProDB.char.currentguide] = nil
+		WoWProCharDB.skippedQIDs = {}
+		WoWPro:Print("Guide Reset from UI, WoWPro Version %s.", WoWPro.Version);
 		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
-	end) 
-	
+	end)
+
 	WoWPro.NextGuideDialog = frame
+end
+
+
+function WoWPro.ResetCurrentGuide()
+    if not WoWProDB.char.currentguide then return end
+    local GID = WoWProDB.char.currentguide
+    WoWProCharDB.Guide[GID] = nil
+    if WoWPro.stepcount then
+        for j = 1,WoWPro.stepcount do
+            if WoWPro.QID[j] then
+                 WoWPro:WipeQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
+            end
+        end
+    end
+    WoWPro.ClearNpcFauxQuests(GID)
+    WoWPro.ClearQID2Guide(GID)
+    WoWPro:LoadGuide()
 end
 
 -- Dropdown Menu --
 function WoWPro:CreateDropdownMenu()
 	WoWPro.DropdownMenu = {
 		{text = "WoW-Pro Guides", isTitle = true},
-		{text = "About", func = function() 
+		{text = "About", func = function()
 			InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
 		end},
-		{text = "Display Settings", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("Guide Display") 
+		{text = "Display Settings", func = function()
+			InterfaceOptionsFrame_OpenToCategory("Guide Display")
 		end},
-		{text = L["Guide List"], func = function() 
-			InterfaceOptionsFrame_OpenToCategory("Guide List") 
+		{text = L["Guide List"], func = function()
+			InterfaceOptionsFrame_OpenToCategory("Guide List")
 		end},
-		{text = L["Current Guide"], func = function() 
-			InterfaceOptionsFrame_OpenToCategory("Current Guide") 
+		{text = L["Current Guide"], func = function()
+			InterfaceOptionsFrame_OpenToCategory("Current Guide")
 		end},
-		{text = L["Reset Current Guide"], func = function() 
-			if not WoWProDB.char.currentguide then return end
-			WoWProCharDB.Guide[WoWProDB.char.currentguide] = nil
-			for j = 1,WoWPro.stepcount do 
-				if WoWPro.QID[j] then WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = nil end
-			end
-			WoWPro:LoadGuide()
-		end},
+		{text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
+		{text = "Proxymity Sort", func = function() WoWPro.OrderSteps(true); end }
 	}
 end
 
 -- Creating the addon's frames --
 function WoWPro:CreateFrames()
-	
+
 	WoWPro:CreateResizeButton()
 	WoWPro:CreateTitleBar()
 	WoWPro:CreateStickyFrame()
@@ -831,7 +869,7 @@ function WoWPro:CreateFrames()
 end
 
 --Enables or Disables frames (hides/shows)
-function WoWPro:AbleFrames() 
+function WoWPro:AbleFrames()
 	if WoWPro:IsEnabled() then
 		WoWPro.MainFrame:Show()
 		WoWPro.Titlebar:Show()

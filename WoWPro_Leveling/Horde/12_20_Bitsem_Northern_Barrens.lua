@@ -4,28 +4,67 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2018-02-27 17:41
+-- Who: Ludovicus_EditBot
+-- Log: LVL strip
+
+-- URL: http://wow-pro.com/node/3214/revisions/29080/view
+-- Date: 2018-02-20 21:00
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3214/revisions/28874/view
+-- Date: 2018-01-16 23:36
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3214/revisions/28418/view
+-- Date: 2017-03-15 23:10
+-- Who: Ludovicus_Maior
+-- Log: Added PREs to BitNor1220
+
+-- URL: http://wow-pro.com/node/3214/revisions/27476/view
+-- Date: 2016-07-29 15:27
+-- Who: tubera
+-- Log: Changed Buckland's coordinates to his spawn location
+
+-- URL: http://wow-pro.com/node/3214/revisions/27475/view
+-- Date: 2016-07-29 14:12
+-- Who: tubera
+-- Log: Fixed Reaperclaw coordinates
+
+-- URL: http://wow-pro.com/node/3214/revisions/27371/view
+-- Date: 2015-07-27 01:24
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3214/revisions/27292/view
+-- Date: 2015-06-22 16:11
+-- Who: Ludovicus_Maior
+-- Log: Played through on a Level 14 Pally.  Lost of QO changes.
+
+-- URL: http://wow-pro.com/node/3214/revisions/26927/view
 -- Date: 2014-11-08 06:39
 -- Who: Emmaleah
 -- Log: Delete Dup RANK tag on A Disciples of Naralex
 
 -- URL: http://wow-pro.com/node/3214/revisions/26432/view
 -- Date: 2014-06-02 14:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3214/revisions/26215/view
 -- Date: 2014-05-25 22:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3214/revisions/26141/view
 -- Date: 2014-05-20 19:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3214/revisions/26042/view
 -- Date: 2014-05-17 17:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3214/revisions/25923/view
@@ -34,23 +73,23 @@
 
 -- URL: http://wow-pro.com/node/3214/revisions/25857/view
 -- Date: 2013-12-26 21:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some mean hordie put a slaughterhouse on poor Echeyakee's den.
 --	Minor playthrough tweaks.
 
 -- URL: http://wow-pro.com/node/3214/revisions/25570/view
 -- Date: 2013-03-23 18:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: qust name correction on [Through Fire and Flames]
 
 -- URL: http://wow-pro.com/node/3214/revisions/25498/view
 -- Date: 2013-01-22 17:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord Tweaks
 
 -- URL: http://wow-pro.com/node/3214/revisions/25462/view
 -- Date: 2013-01-13 19:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3214/revisions/24949/view
@@ -84,13 +123,13 @@
 
 -- URL: http://wow-pro.com/node/3214/revisions/24454/view
 -- Date: 2011-05-30 16:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Whoa!  Blizzard changed alot of the quest IDs and added new ordering requirements.
 --	This edit tried to get all the new quests, shuffle things in the right order and get the right coords.  Mistakes will no doubt have been made.
 
 -- URL: http://wow-pro.com/node/3214/revisions/24322/view
 -- Date: 2011-04-29 15:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 123 for step C has unknown tag [Collect Centaur ...], Line 128 for step C has unknown tag [Use the Fungal ...], Line 158 for step C has unknown tag [.], Line 241 for step C has unknown tag [n].
 
 -- URL: http://wow-pro.com/node/3214/revisions/23297/view
@@ -103,6 +142,7 @@
 
 local guide = WoWPro:RegisterGuide('BitNor1220', "Leveling", 'Northern Barrens', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,9,24,12.2483)
+WoWPro:NewGuideLevels(guide,10,60)
 WoWPro:GuideNextGuide(guide, 'BitAsh2025')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
@@ -126,19 +166,19 @@ C Plainstrider Menace|QID|844|M|67.57,35.5|US|N|Kill and loot Plainstriders.|
 T In Defense of Far Watch|QID|871|M|67.64,39.46|N|To Kargal Battlescar.|
 A The Far Watch Offensive|QID|872|PRE|871|RANK|1|M|63.13,56.24|N|From Kargal Battlescar.|
 T Plainstrider Menace|QID|844|M|67.57,38.85|N|To Halga Bloodeye.|
-A Supplies for the Crossroads|QID|5041|RANK|1|M|67.57,38.85|N|From Halga Bloodeye.|
+A Supplies for the Crossroads|QID|5041|PRE|871|RANK|1|M|67.57,38.85|N|From Halga Bloodeye.|
 
 R Cave|QID|872;5041|M|65.92,52.50|CC|N|Head to the entrance of the Cave.|
 C Supplies for the Crossroads|QID|5041|NC|S|M|66.32,51.89;63.03,56.47|CN|N|Collect the Supply Crates from the floor in the cave.|
-C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Thornweavers.|S|QO|Razormane Thornweaver slain: 5/5|
-C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Defenders.|S|QO|Razormane Defender slain: 5/5|
-K Kreenig Snarlsnout|QID|872|M|64.3,55.15|N|Kill and loot Kreenig Snarlsnout for his tusk. He's on a ledge overlooking the lake. Run through the cave to the lake, then follow the path upwards to the left.|QO|Kreenig Snarlsnout's Tusk: 1/1|
+C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Thornweavers.|S|QO|1|
+C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Defenders.|S|QO|2|
+K Kreenig Snarlsnout|QID|872|M|64.3,55.15|N|Kill and loot Kreenig Snarlsnout for his tusk. He's on a ledge overlooking the lake. Run through the cave to the lake, then follow the path upwards to the left.|QO|3|
 C Supplies for the Crossroads|QID|5041|NC|US|M|63.03,56.47|N|Finish collecting the Supply Crates from the floor in the cave.|
 C The Far Watch Offensive|QID|872|M|65.92,52.50|N|Finish killing the Razormane Thornweavers and Thornweavers as you head out of the cave.|US|
 
 T The Far Watch Offensive|QID|872|M|67.69,39.50|N|To Kargal Battlescar.|
 T Supplies for the Crossroads|QID|5041|M|67.46,38.79|N|To Halga Bloodeye.|
-A Crossroads Caravan Pickup|QID|13949|RANK|1|M|67.41,38.83|N|From Halga Bloodeye.|
+A Crossroads Caravan Pickup|QID|13949|PRE|872;5041|RANK|1|M|67.41,38.83|N|From Halga Bloodeye.|
 C Crossroads Caravan Pickup|QID|13949|M|56.38,42.02|N|Speak to Halga, then mount the Lead Caravan Kodo that spawns on the road. The caravan will then take you to Grol'dom Farm. It is not necessary to shoot any Razormane Raiders.|NC|
 
 T Crossroads Caravan Pickup|QID|13949|M|56.38,40.41|N|To Kranal Fiss.|
@@ -148,7 +188,7 @@ h Grol'dom Farm|QID|13961|M|56.27,40.04|N|At Innkeeper Kerntis.|
 A Drag it Out of Them|QID|13961|RANK|1|M|56.55,40.32|N|From Togrik.|
 A Consumed by Hatred|QID|899|RANK|1|M|55.22,41.01|N|From Mankrik.|
 C Consumed by Hatred|QID|899|S|M|58.41,49.49|N|These drop from the Razormane, so if you kill any, don't forget to loot them!|
-A Crossroads Caravan Delivery|QID|13975|RANK|1|M|54.67,41.48|N|From Rocco Whipshank.|
+A Crossroads Caravan Delivery|QID|13975|PRE|13949|RANK|1|M|54.67,41.48|N|From Rocco Whipshank.|
 A The Grol'dom Militia|QID|13973|RANK|1|M|53.95,40.94|N|From Una Wolfclaw.|
 C Drag it Out of Them|QID|13961|NC|U|46722|M|56.55,40.41|N|Use the net on a Pillager, then speak to him and select "pound him". Then run back Togrik to deliver the prisoner.|
 
@@ -157,7 +197,7 @@ A By Hook Or By Crook|QID|13963|PRE|13961|RANK|1|M|56.56,40.38|N|From Togrik.|
 C By Hook Or By Crook|QID|13963|M|56.62,39.90|N|Go into the pen to the North and question the prisoner, after a while he'll let slip the name Tortusk, which will complete the interrogation.|CHAT|
 T By Hook Or By Crook|QID|13963|M|56.62,40.28|N|To Togrik.|
 A The Tortusk Takedown|QID|13968|PRE|13963|RANK|1|M|56.62,40.28|N|From Togrik.|
-A Grol'dom's Missing Kodo|QID|13969|RANK|1|M|56.40,40.37|N|From Kranal Fiss.|
+A Grol'dom's Missing Kodo|QID|13969|PRE|13963|RANK|1|M|56.40,40.37|N|From Kranal Fiss.|
 
 C The Grol'dom Militia|QID|13973|M|52.47,41.49|N|Kill 6 Pillagers.|
 T The Grol'dom Militia|QID|13973|M|53.98,41.15|N|To Una Wolfclaw.|
@@ -186,7 +226,7 @@ f The Crossroads |QID|13992|M|48.7,58.67|N|Get The Crossroads flightpoint from D
 A Fungal Spores|QID|848|RANK|1|M|48.63,58.45|N|From Apothecary Helbrim.|
 A The Forgotten Pools|QID|870|RANK|1|M|49.41,58.67|N|From Tonga Runetotem.|
 
-A Disciples of Naralex|QID|26878|M|49.41,58.67|N|*DUNGEON QUEST* - only accept if you plan on doing the Wailing Caverns Instance, otherwise skip this step. From Tonga Runetotem.|RANK|3|
+A Disciples of Naralex|QID|26878|M|49.41,58.67|LVL|17|N|*DUNGEON QUEST* - only accept if you plan on doing the Wailing Caverns Instance, otherwise skip this step. From Tonga Runetotem.|RANK|3|
 
 h The Crossroads|QID|13992|M|49.60,57.95|N|At Innkeeper Boorand Plainswind.|
 
@@ -221,12 +261,12 @@ A A Growing Problem|QID|13988|PRE|870|RANK|1|M|49.43,58.64|N|From Tonga Runetote
 T The Zhevra|QID|845|M|49.97,59.79|N|To Sergra Darkthorn.|
 T Hunting the Huntress|QID|903|M|49.97,59.79|N|To Sergra Darkthorn.|
 
-A Echeyakee|QID|881|M|49.97,59.79|N|From Sergra Darkthorn.|
+A Echeyakee|QID|881|PRE|845;903|M|49.97,59.79|N|From Sergra Darkthorn.|
 C Echeyakee|QID|881|U|10327|M|47.48,44.01|N|Use the Horn of Echeyakee at his lair. Take the North road.|
 
 T Echeyakee|QID|881|M|49.98,59.82|N|To Sergra Darkthorn.|
 A Into the Raptor's Den|QID|905|PRE|881|RANK|1|M|49.98,59.82|N|From Sergra Darkthorn.|
-l Sunscale Feather|QID|905|L|5165 3|S|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|
+l Sunscale Feather|QID|905|L|5165 3|S|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|ACTIVE|905|
 A Flushing Out Verog|QID|14072|RANK|1|M|55.20,78.40|N|From Shoe.|
 A King of Centaur Mountain|QID|13995|RANK|2|M|54.97,78.57|N|Escort quest. From Gorgal Angerscar.|
 C Flushing Out Verog|QID|14072|S|NC|M|52.94,80.85|N|Collect Centaur Intelligence from centaur camps while questing.|
@@ -239,15 +279,15 @@ C A Growing Problem|QID|13988|U|46782|M|58.77,81.07;60.73,85.38|CS|N|Use Tonga's
 T A Growing Problem|QID|13988|M|60.73,85.38|N|To Jerrik Highmountain.|
 
 A The Stagnant Oasis|QID|877|PRE|13988|RANK|1|M|60.73,85.38|N|From Jerrik Highmountain.|
-A Altered Beings|QID|880|RANK|1|M|60.60,85.34|N|From Jerrik Highmountain.|
+A Altered Beings|QID|880|PRE|13988|RANK|1|M|60.60,85.34|N|From Jerrik Highmountain.|
 
 C Altered Beings|QID|880|S|M|55.36,79.14|N|From now on kill Oasis Snapjaws for their shells.|
+C The Stagnant Oasis|QID|877|NC|U|5068|M|55.91,80.76|N|Use the Dried Seeds underwater at the fissure.|
 C Flushing Out Verog|QID|14072|US|NC|M|52.94,80.85;51.02,83.40;58.26,82.22;52.94,80.85|CN|N|Finish collecting Centaur Intelligence from huts.|
 l Sunscale Feather|QID|905|L|5165 3|US|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|M|48.27,73.44|
-N Visit Blue Raptor Nest|QID|905|NC|QO|Visit Blue Raptor Nest: 1/1|U|5165|M|48.57,74.81|N|Use the feather at the blue nest.|
-N Visit Red Raptor Nest|QID|905|NC|QO|Visit Red Raptor Nest: 1/1|U|5165|M|49.67,75.13|N|Use the feather at the red nest.|
-C Into the Raptor's Den|QID|905|U|5165|M|47.92,74.24;48.02,76.14|CS|N|Finally use the feather at the yellow nest.|
-C The Stagnant Oasis|QID|877|NC|U|5068|M|55.91,80.76|N|Use the Dried Seeds underwater at the fissure.|
+N Visit Blue Raptor Nest|QID|905|NC|QO|3|U|5165|M|48.57,74.81|N|Use the feather at the blue nest.|
+N Visit Red Raptor Nest|QID|905|NC|QO|1|U|5165|M|49.67,75.13|N|Use the feather at the red nest.|
+C Into the Raptor's Den|QID|905|U|5165|M|47.92,74.24;48.02,76.14|CS|N|Finally use the feather at the yellow nest.|QO|2|
 C Altered Beings|QID|880|US|M|55.36,79.14|N|Finish killing snapjaws.|
 
 T Flushing Out Verog|QID|14072|M|55.20,78.40|N|To Shoe.|
@@ -256,17 +296,17 @@ C Verog the Dervish|QID|851|M|51.31,78.79|N|Kill Wyneth to lure Verog out. Kill 
 
 T Verog the Dervish|QID|851|M|55.20,78.40|N|To Shoe.|
 T Into the Raptor's Den|QID|905|M|49.95,59.94|N|To Sergra Darkthorn.|
-A The Purloined Payroll|QID|13991|PRE|905|RANK|1|M|49.95,59.94|N|From Sergra Darkthorn.|
+A The Purloined Payroll|QID|13991|LEAD|14066|PRE|905|RANK|1|M|49.95,59.94|N|From Sergra Darkthorn.|
 
 T The Stagnant Oasis|QID|877|PRE|13988|M|49.48,58.73|N|To Tonga Runetotem.|
 T Altered Beings|QID|880|M|49.48,58.73|N|To Tonga Runetotem.|
 T In Fungus We Trust|QID|13998|M|48.65,58.38|N|To Apothecary Helbrim.|
 A Who's Shroomin' Who?|QID|13999|PRE|13998|RANK|1|M|48.65,58.38|N|From Apothecary Helbrim.|
-A Deathgate's Reinforcements|QID|14073|RANK|1|M|48.68,59.54|N|From Thork.|
+A Deathgate's Reinforcements|QID|14073|LEAD|852|PRE|850;851|RANK|1|M|48.68,59.54|N|From Thork.|
 
 T Deathgate's Reinforcements|QID|14073|M|37.79,55.33|N|To Regthar Deathgate.|
 A Centaur Bracers|QID|855|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
-A Hezrul Bloodmark|QID|852|PRE|14073|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
+A Hezrul Bloodmark|QID|852|PRE|850;851|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 
 C Centaur Bracers|QID|855|S|M|39.71,70.36|N|Kill Kolkar Marauders and Stormseers and loot their Bracers.|
 C Hezrul Bloodmark|QID|852|M|40.14,72.17|N|Slay Hezrul Bloodmark and collect his head. He has two minions with him.|T|Hezrul Bloodmark|
@@ -275,13 +315,14 @@ C Centaur Bracers|QID|855|US|M|39.71,70.36|N|Finish collecting 10 Centaur Bracer
 T Hezrul Bloodmark|QID|852|M|37.82,55.28|N|To Regthar Deathgate.|
 T Centaur Bracers|QID|855|M|37.82,55.28|N|To Regthar Deathgate.|
 
-A Counterattack!|QID|4021|RANK|1|M|37.82,55.28|N|From Regthar Deathgate.|
+A Counterattack!|QID|4021|PRE|852;855|RANK|1|M|37.82,55.28|N|From Regthar Deathgate.|
 C Counterattack!|QID|4021|M|36.06,54.79|N|Kill Kolkar centaur until Krom'zar appears, then slay him. Don't forget to take a Piece of Krom'zar's Banner.|
 T Counterattack!|QID|4021|M|37.88,55.23|N|To Regthar Deathgate.|
-F Ratchet|QID|13991|M|48.71,58.68|N|Head to The Crossroads and fly to Ratchet.|
+R Ratchet|QID|13991|M|66.90,72.72|N|Head to The Crossroads and ride to Ratchet.|
+f Ratchet|QID|13991|M|69.13,70.70|N|Get the flight point from Bragok|
 T The Purloined Payroll|QID|13991|M|66.90,72.72|N|To Gazrog.|
-A Investigate the Wreckage|QID|14066|PRE|13991|RANK|1|M|66.90,72.72|N|From Gazrog.|
-A A Captain's Vengeance|QID|891|RANK|2|M|67.64,74.06|N|From Captain Thalo'thas Brightsun.|
+A Investigate the Wreckage|QID|14066|RANK|1|M|66.90,72.72|N|From Gazrog.|
+A A Captain's Vengeance|QID|891|RANK|2|M|67.72,74.00|N|From Captain Thalo'thas Brightsun.|
 T Who's Shroomin' Who?|QID|13999|M|67.07,74.78|N|To Sashya.|
 
 h Ratchet|QID|14066|M|67.29,74.68|N|At Innkeeper Wiley.|
@@ -292,35 +333,35 @@ A WANTED: Cap'n Garvey|QID|895|RANK|2|M|68.28,71.28|N|From the WANTED poster.|
 A Southsea Freebooters|QID|887|RANK|2|M|69.53,72.88|N|From Wharfmaster Dizzywig.|
 A Take it up with Tony|QID|14052|RANK|1|M|69.53,72.88|N|From Wharfmaster Dizzywig.|
 
-C Investigate the Wreckage|QID|14066|NC|M|58.86,67.19|N|Head to the waypoint to investigate the wreckage.|
+C Investigate the Wreckage|QID|14066|NC|M|65.99,66.91|N|Head to the waypoint to investigate the wreckage.|
 T Investigate the Wreckage|QID|14066|M|58.86,67.19|N|(UI Alert)|
 
 A To Track a Thief|QID|869|PRE|14066|RANK|1|M|58.86,67.19|N|(UI Alert)|
-A Waptor Twapping|QID|14068|RANK|1|M|62.37,63.88|N|From Kala'ma.|
+A Waptor Twapping|QID|14068|RANK|1|M|62.03,63.26|N|From Kala'ma.|
 C To Track a Thief|QID|869|NC|M|62.83,61.83|N|Find the set of tracks.|
 T To Track a Thief|QID|869|M|62.36,61.43|N|(UI Alert)|
 
 A The Stolen Silver|QID|14067|PRE|869|RANK|1|M|62.36,61.43|N|(UI Alert)|
-K Sunscale Ravagers|QID|14067|S|QO|Sunscale Ravager slain: 8/8|M|62.74,61.66|N|Kill Sunscale Ravagers.|
-K Sunscale Scytheclaws|QID|14067|S|QO|Sunscale Scytheclaw slain: 4/4|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
+K Sunscale Ravagers|QID|14067|S|QO|1|M|62.74,61.66|N|Kill Sunscale Ravagers.|
+K Sunscale Scytheclaws|QID|14067|S|QO|2|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
 C Waptor Twapping|QID|14068|S|U|46853|M|63.13,59.18|N|Use the Waptor Twap near Raptors, then loot the trap.|
-l Stolen Silver|QID|14067|L|5061|M|63.72,58.79|N|Loot the Stolen Silver from the Stolen Silver Lockbox.|
+l Stolen Silver|QID|14067|QO|3|M|63.72,58.79|N|Loot the Stolen Silver from the Stolen Silver Lockbox.|
 
-C It's Gotta be the Horn|QID|865|M|65.08,58.80|N|Kill Reaperclaw and his minions. Loot his horn.|
+C It's Gotta be the Horn|QID|865|M|64.82,57.15|N|Kill Reaperclaw and his minions. Loot his horn.|
 C Waptor Twapping|QID|14068|US|U|46853|M|63.13,59.18|N|Use the Waptor Twap near Raptors, then loot the trap.|
-K Sunscale Ravagers|QID|14067|US|QO|Sunscale Ravager slain: 8/8|M|62.74,61.66|N|Kill Sunscale Ravagers.|
-K Sunscale Scytheclaws|QID|14067|US|QO|Sunscale Scytheclaw slain: 4/4|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
-T Waptor Twapping|QID|14068|M|62.38,63.87|N|To Kala'ma.|
+K Sunscale Ravagers|QID|14067|US|QO|1|M|62.74,61.66|N|Kill Sunscale Ravagers.|
+K Sunscale Scytheclaws|QID|14067|US|QO|2|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
+T Waptor Twapping|QID|14068|M|62.03,63.26|N|To Kala'ma.|
 
 H Ratchet|QID|14067|NC|M|66.87,72.78|N|Hearth to Ratchet.|
 
 T The Stolen Silver|QID|14067|M|66.94,72.84|N|To Gazrog.|
 T It's Gotta be the Horn|QID|865|M|67.85,71.52|N|To Mebok Mizzyrix.|
 
-l Theramore Medals|QID|891|S|M|71.51,86.54|L|5078 10|N|From now on, kill Theramore mobs. Be sure to loot the Medals from them.|
-K Lieutenant Pyre|QID|891|M|70.4,84.1|QO|Lieutenant Pyre slain: 1/1|T|Lieutenant Pyre|N|Kill Lieutenant Pyre. She stays near the archers.|
-K Lieutenant Buckland|QID|891|M|70.91,85.34|QO|Lieutenant Buckland slain: 1/1|T|Lieutenant Buckland|N|Kill Lieutenant Buckland. He wanders from around the holding pen and the boat.|
-l Theramore Medals|QID|891|US|M|71.51,86.54|L|5078 10|N|Finish gathering Theramore Medals.|
+l Theramore Medals|QID|891|S|M|71.51,86.54|QO|3|N|From now on, kill Theramore mobs. Be sure to loot the Medals from them.|
+K Lieutenant Pyre|QID|891|M|70.4,84.1|QO|2|T|Lieutenant Pyre|N|Kill Lieutenant Pyre. She stays near the archers.|
+K Lieutenant Buckland|QID|891|M|71.5,86.5|QO|1|T|Lieutenant Buckland|N|Kill Lieutenant Buckland. He wanders from around the holding pen and the boat.|
+l Theramore Medals|QID|891|US|M|71.51,86.54|QO|3|N|Finish gathering Theramore Medals.|
 
 C Southsea Freebooters|QID|887|S|M|77.61,89.48|N|Finish killing 8 Southsea Cutthroats or Privateers on Fray Island.|
 
@@ -337,7 +378,7 @@ C Guns. We Need Guns.|QID|14057|US|M|77.86,89.29|N|Inside the other cabin, up th
 C Southsea Freebooters|QID|887|US|M|77.61,89.48|N|Finish killing 8 Southsea Cutthroats or Privateers on Fray Island.|
 
 T Guns. We Need Guns.|QID|14057|M|77.25,91.34|N|To Tony Two-Tusk.|
-A Mutiny, Mon!|QID|14063|RANK|1|M|77.25,91.34|N|From Tony Two-Tusk.|
+A Mutiny, Mon!|QID|14063|PRE|14057|RANK|1|M|77.25,91.34|N|From Tony Two-Tusk.|
 
 C Mutiny, Mon!|QID|14063|U|46838|M|79.72,90.33|N|Use the Pirate Signal Horn once you're on the deck. Then help Two-Tusk's with the mutiny.|
 
@@ -371,18 +412,18 @@ T Ammo Kerblammo|QID|14042|M|68.42,69.11|N|To Gazlowe.|
 
 T A Most Unusual Map|QID|14049|M|68.42,69.11|N|To Gazlowe.|
 
-A Gazlowe's Fortune|QID|14050|RANK|1|M|68.42,69.11|N|From Gazlowe.|
+A Gazlowe's Fortune|QID|14050|PRE|14049|RANK|1|M|68.42,69.11|N|From Gazlowe.|
 C Gazlowe's Fortune|QID|14050|M|63.45,73.88;61.97,75.80;63.53,77.44;66.20,77.70|CS|N|Follow the waypoint trail, then click on the Curious Pirate Landmark. The Baron will make an appearance.|
 T Gazlowe's Fortune|QID|14050|M|68.36,69.09|N|To Gazlowe.|
 
 A Raging River Ride|QID|26769|PRE|14050|RANK|1|M|68.36,69.09|N|From Gazlowe.|
 C Raging River Ride|QID|26769|M|72.96,65.53|N|Hop on the riverboat for a free ride.|
-T Raging River Ride|QID|26769|M|62.55,16.86|N|To Nozzlepot.|
+f Nozzlepot's Outpost|QID|26769|M|62.30,17.12|N|Get flight point from Gazrix.|
+h Nozzlepot's Outpost|QID|26769|M|62.52,16.65|N|At Innkeeper Kritzle.|
+T Raging River Ride|QID|26769|M|62.50,16.75|N|To Nozzlepot.|
 
-h Nozzlepot's Outpost|QID|29087|M|62.52,16.65|N|At Innkeeper Kritzle.|
-
-A Sludge Investigation|QID|29087|M|62.55,16.86|N|From Nozzlepot.|
-A Hyena Extermination|QID|29088|M|62.55,16.86|N|From Nozzlepot.|
+A Sludge Investigation|QID|29087|M|62.50,16.75|N|From Nozzlepot.|
+A Hyena Extermination|QID|29088|M|62.50,16.75|N|From Nozzlepot.|
 A Competition Schmompetition|QID|29086|M|62.23,17.40|RANK|1|N|From Sputtervalve.|
 
 ; Venture Co. Drill Site
@@ -390,7 +431,7 @@ A Ignition|QID|858|S|RANK|1|M|57.57,18.36|N|From Wizzlecrank's Shredder.|
 C Competition Schmompetition|QID|29086|M|59.13,18.49|RANK|1|N|Kill Drudgers, Mercenaries, or Peons.|S|
 C Sludge Investigation|QID|29087|M|59.13,18.49|N|Examine 5 tracks around the lake.|
 T Sludge Investigation|QID|29087|N|(UI Alert)|
-A Sludge Beast!|QID|29089|N|(UI Alert)|
+A Sludge Beast!|QID|29089|PRE|29087|N|(UI Alert)|
 C Sludge Beast!|QID|29089|M|58.18,19.34|N|Swim to the bottom of the lake and click on the glowing mud-thing.|
 A Ignition|QID|858|RANK|1|M|57.57,18.36|N|From Wizzlecrank's Shredder.|
 C Ignition|QID|858|T|Supervisor Lugwizzle|M|56.95,20.38|N|Kill Supervisor Lugwizzle and loot the key. He is on top of the tower.|
@@ -401,8 +442,8 @@ C The Escape|QID|863|NC|M|57.55,18.23;54.7,20.7|CS|N|Escort Wizzlecrank out of t
 C Hyena Extermination|QID|29088|M|53,25|N|Kill Hyenas.|
 C Competition Schmompetition|QID|29086|M|59.13,18.49|RANK|1|N|Kill Drudgers, Mercenaries, or Peons.|US|
 
-T Sludge Beast!|QID|29089|M|62.55,16.86|N|To Nozzlepot.|
-T Hyena Extermination|QID|29088|M|62.55,16.86|N|To Nozzlepot.|
+T Sludge Beast!|QID|29089|M|62.50,16.75|N|To Nozzlepot.|
+T Hyena Extermination|QID|29088|M|62.50,16.75|N|To Nozzlepot.|
 T Competition Schmompetition|QID|29086|M|62.29,17.43|N|To Sputtervalve.|
 T The Escape|QID|863|M|62.29,17.43|N|To Sputtervalve.|
 A Samophlange|QID|29021|M|62.23,17.40|RANK|1|N|From Sputtervalve.|
@@ -426,22 +467,22 @@ A Samophlange Repair|QID|14003|PRE|29024|RANK|1|M|62.29,17.43|N|From Sputtervalv
 T Samophlange Repair|QID|14003|M|62.62,17.00|N|To Brak Blusterpipe.|
 
 ; Wenikee Quests
-A Wenikee Boltbucket|QID|29026|RANK|1|M|62.62,17.00|N|From Brak Blusterpipe.|
+A Wenikee Boltbucket|QID|29026|PRE|14003|RANK|1|M|62.62,17.00|N|From Brak Blusterpipe.|
 T Wenikee Boltbucket|QID|29026|M|62.62,17.00;44.37,24.94|CC|N|Talk to Brak to teleport directly to her. To Wenikee Boltbucket.|
 A Nugget Slugs|QID|29027|PRE|29026|RANK|1|M|44.37,24.94|N|From Wenikee Boltbucket.|
-A A Burning Threat|QID|29090|RANK|1|M|44.3,25.1|N|From Brogor.|
+A A Burning Threat|QID|29090|RANK|1|M|44.34,25.10|N|From Brogor.|
 C A Burning Threat|QID|29090|M|42,32|N|Kill 8 members of the Burning Blade.|S|
 C Nugget Slugs|QID|29027|NC|M|42,32|N|Collect Slugs from the Tool Buckets all around the farm.|
 C A Burning Threat|QID|29090|M|42,32|N|Kill 8 members of the Burning Blade.|US|
-T A Burning Threat|QID|29090|RANK|1|M|44.2,25.0|N|To Brogor.|
+T A Burning Threat|QID|29090|RANK|1|M|44.34,25.10|N|To Brogor.|
 T Nugget Slugs|QID|29027|M|44.34,24.90|N|To Wenikee Boltbucket.|
-A Return to Samophlanger|QID|14004|RANK|1|M|44.34,24.90|N|From Wenikee Boltbucket.|
+A Return to Samophlanger|QID|14004|PRE|29027|RANK|1|M|44.34,24.90|N|From Wenikee Boltbucket.|
 
 T Return to Samophlanger|QID|14004|M|62.21,17.50|N|Talk to Wenikee and have her teleport you to Nozzlepot's Outpost. To Sputtervalve.|
 
 ; Boulder Lode Mine Quests
 A Read the Manual|QID|14006|PRE|14004|RANK|1|M|62.21,17.50|N|From Sputtervalve.|
-A Miner's Fortune|QID|29015|RANK|1|M|62.61,17.01|N|From Brak Blusterpipe.|
+A Miner's Fortune|QID|29015|PRE|14004|RANK|1|M|62.61,17.01|N|From Brak Blusterpipe.|
 
 R Boulder Lode Mine|NC|M|63.00,18.00;65.02,19.13;67.00,20.09;66.39,15.71|CC|N|Follow the road.|QID|29015|
 l Samophlange Manual Page|QID|14006|M|63.71,10.81|N|Kill Venture Co. mobs until you have 5 pages.|L|11148 5|S|
@@ -456,13 +497,11 @@ T Miner's Fortune|QID|29015|M|62.63,16.98|N|To Brak Blusterpipe.|
 T Read the Manual|QID|14006|M|62.25,17.41|N|To Sputtervalve.|
 
 ; The Dreadmist Peak sequence. All part of a quest chain, triggered by [Read the Manual]
-;A They Call Him Swiftdagger. He Kills Harpies.|QID|28877|PRE|14004|RANK|1|M|62.55,16.86| -Not in game?
-A The Short Way Home|QID|29094|PRE|29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
-;T They Call Him Swiftdagger. He Kills Harpies.|QID|28877|M|30.59,45.95|N|To Darsok Swiftdagger.| -Not in game?
+A The Short Way Home|QID|29094|LEAD|875|PRE|29015;29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
 C The Short Way Home|QID|29094|RANK|1|M|62.15,17.43|N|Hop on the Silver Bullet X-831.|
 T The Short Way Home|QID|29094|M|30.59,45.95|N|To Darsok Swiftdagger.|
 A Harpy Raiders|QID|867|RANK|2|M|30.59,45.95|N|From Darsok Swiftdagger.|
-A Harpy Lieutenants|QID|875|PRE|867|RANK|2|M|30.61,46.02|N|From Darsok Swiftdagger.|
+A Harpy Lieutenants|QID|875|RANK|2|M|30.61,46.02|N|From Darsok Swiftdagger.|
 
 C Harpy Raiders|QID|867|M|27.40,28.55|N|Kill any type of Witchwing Harpies for Witchwing Talons.|S|
 C Harpy Lieutenants|QID|875|M|27.96,32.67|N|Kill Witchwing Slayers.|
@@ -472,23 +511,25 @@ C Serena Bloodfeather|QID|876|M|26.97,26.64|N|Slay Serena Bloodfeather and loot 
 C Harpy Raiders|QID|867|M|27.40,28.55|N|Kill any type of Witchwing Harpies for Witchwing Talons.|US|
 T Harpy Raiders|QID|867|M|30.61,46.02|N|(UI Alert)|
 T Serena Bloodfeather|QID|876|M|30.59,45.82|N|To Darsok Swiftdagger.|
-A Report to Thork|QID|29095|M|30.59,45.95|N|From Darsok Swiftdagger.|
+A Report to Thork|QID|29095|PRE|876|M|30.59,45.95|N|From Darsok Swiftdagger.|
 T Report to Thork|QID|29095|M|48.68,59.60|N|To Thork.|
-A Mor'shan Caravan Pick-Up|QID|29109|M|48.68,59.60|N|From Thork.|
+A Mor'shan Caravan Pick-Up|QID|29109|PRE|29095|M|48.68,59.60|N|From Thork.|
 C Mor'shan Caravan Pick-Up|QID|29109|M|50.33,57.20|N|Talk to Rocco Whipshank and get the ride.|
 T Mor'shan Caravan Pick-Up|QID|29109|M|47.53,39.58|N|To Nagala Whipshank.|
-A Mor'shan Caravan Rescue|QID|29110|M|47.53,39.58|N|From Nagala Whipshank.|
+A Mor'shan Caravan Rescue|QID|29110|PRE|29109|M|47.53,39.58|N|From Nagala Whipshank.|
 R Dreadmist Peak|QID|29110|M|47.16,38.07;45.28,36.76;43.73,37.28;41.83,37.07|CS|N|Up to Dreadmist Peak.|
 T Mor'shan Caravan Rescue|QID|29110|M|41.06,39.01|N|From Balgor Whipshank.|
-A Demon Seed|QID|29112|M|47.6,39.6|N|From Balgor Whipshank.|
+A Demon Seed|QID|29112|PRE|29110|M|47.6,39.6|N|From Balgor Whipshank.|
 C Demon Seed|QID|29112|M|41.96,39.00|N|Get the Demon Seed in the cave.|
 T Demon Seed|QID|29112|M|47.53,39.58|N|To Nagala Whipshank.|
-A Mor'shan Caravan Delivery|QID|29111|M|47.53,39.58|N|From Nagala Whipshank.|
+A Mor'shan Caravan Delivery|QID|29111|PRE|29112|M|47.53,39.58|N|From Nagala Whipshank.|
 C Mor'shan Caravan Delivery|QID|29111|M|47.53,39.58|N|Talk to Nagala and defend the caravan.|
 T Mor'shan Caravan Delivery|QID|29111|M|42.42,14.97|N|To Kadrak, who wanders.|
 
 F Orgrimmar|NC|O|N|If you plan on going to Stranglethorn next.|
-A Northern Stranglethorn: The Fallen Empire|QID|26417|RANK|1|O|M|51.78,56.49|Z|Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|LEAD|26278|PRE|26416|RANK|1|O|M|51.78,56.49|Z|Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
 
 ]]
 end)
+
+

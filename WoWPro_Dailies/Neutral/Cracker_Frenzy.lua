@@ -4,23 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_frenzyheart_tribe_reputation_dalies_sholazar_basin
+-- Date: 2018-08-24 16:46
+-- Who: Ludovicus_Maior
+-- Log: Corrected a few QO's
+
+-- URL: http://wow-pro.com/node/3417/revisions/26839/view
 -- Date: 2014-11-06 18:25
 -- Who: Fluclo
 -- Log: Added missing |M| tag
 
 -- URL: http://wow-pro.com/node/3417/revisions/26579/view
 -- Date: 2014-07-19 17:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adjust mean level
 
 -- URL: http://wow-pro.com/node/3417/revisions/26557/view
 -- Date: 2014-07-06 15:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels and faction
 
 -- URL: http://wow-pro.com/node/3417/revisions/26524/view
 -- Date: 2014-06-11 19:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3417/revisions/25251/view
@@ -30,7 +35,7 @@
 
 -- URL: http://wow-pro.com/node/3417/revisions/24649/view
 -- Date: 2011-06-30 19:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("CraShoFre",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral")
 WoWPro:GuideLevels(guide,74,77,76.5)
@@ -46,8 +51,8 @@ A Chicken Party!|QID|12702|M|55.4,69.6|N|From Elder Harkek.|
 C Chicken Party!|QID|12702|M|55.4,69.6|U|38689|N|They're quick, but as long as you have them in the target circle when you click, you'll catch them in the net. Pick them up for credit. Turn on the nameplates (V key) to make it easier. You can aslo be mounted when you pick the chickens up.|
 T Chicken Party!|QID|12702|M|55.4,69.6|N|To Elder Harkek.|
 
-N Blade blooded on Hardknuckle Charger|QID|12734|QO|Blade blooded on Hardknuckle Charger: 1/1|M|60,70|N|Kill a Hardknuckle Charger then use Rejek's Blade on the corpse.|U|39577|
-N Blade blooded on Sapphire Hive Wasp|QID|12734|QO|Blade blooded on Sapphire Hive Wasp: 1/1|M|55,75|N|Kill a Sapphire Hive Wasp then use Rejek's Blade on the corpse.|U|39577|
+C Blade blooded on Hardknuckle Charger|QID|12734|QO|2|M|60,70|N|Kill a Hardknuckle Charger then use Rejek's Blade on the corpse.|U|39577|
+C Blade blooded on Sapphire Hive Wasp|QID|12734|QO|1|M|55,75|N|Kill a Sapphire Hive Wasp then use Rejek's Blade on the corpse.|U|39577|
 
 l Zepik's Trap Stash|QID|12759|M|23.9,83.1|L|39695|N|Getting the traps is optional, if you don't want to get them, close this step. Open Zepik's Trap Stash to get the 3 traps.|
 l Oracle Blood|QID|12703|M|31.2,77.4|L|39265|N|This is optional to get the blood, since when you use it to turn into Kartak, you will not be able to loot. If you don't want worry about the blood just close this step.|
@@ -67,7 +72,7 @@ l Essence of the Storm|QID|12741|M|25.1,35.5|US|L|39643 3|N|Kill and loot Storm 
 C Strength of the Tempest|QID|12741|M|21.8,33.5|N|Head towards the Shrine of the Tempest to get struck by lightning to get True Power of the Tempest. You may have to walk up the path leading to the Shrine of the Tempest, or even touch it before you get the item.|
 C A Hero's Headgear|QID|12758|U|39651|N|Kill a Stormwatcher then use the Venture Co. Explosives on its corpse.|
 
-C Rejek: First Blood|QID|12734|U|39577|N|Kill Mistwhisper Gorlocs and use Rejek's Blade on their corpse. Do this 3 times.|
+C Mistwhisper Gorlocs|QID|12734|QO|3|U|39577|N|Kill Mistwhisper Gorlocs and use Rejek's Blade on their corpses 3 times.|
 l Matriarch's Blood|QID|12732|M|58.8,22.9|N|Kill and loot Goretalon Matriarch to get her blood.|
 C The Heartblood's Strength|QID|12732|M|58.8,22.9|N|Use the Suntouched Water to combine it and the blood to get the Suntouched Heartblood.|U|39576|
 
@@ -79,3 +84,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
+

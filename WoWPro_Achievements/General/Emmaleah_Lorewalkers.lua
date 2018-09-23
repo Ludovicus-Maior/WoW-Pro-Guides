@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
+-- Date: 2017-03-10 22:56
+-- Who: Ludovicus_Maior
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3506/revisions/26947/view
 -- Date: 2014-11-08 18:12
 -- Who: Emmaleah
 -- Log: Deleted extraneous step for collecting from mailbox 
@@ -15,17 +20,17 @@
 
 -- URL: http://wow-pro.com/node/3506/revisions/26571/view
 -- Date: 2014-07-06 15:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added artificial levels line
 
 -- URL: http://wow-pro.com/node/3506/revisions/26539/view
 -- Date: 2014-06-11 22:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Converted
 
 -- URL: http://wow-pro.com/node/3506/revisions/25759/view
 -- Date: 2013-09-10 23:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Interleave the last turnins to avoid client crash if you turn in more than one quest before "Storytime" starts.   You could pile up X copies of Lorewalker Cho telling stories at the same time and then BOOOM!
 
 -- URL: http://wow-pro.com/node/3506/revisions/25512/view
@@ -89,16 +94,16 @@
 
 -- URL: http://wow-pro.com/node/3506/revisions/25138/view
 -- Date: 2012-10-10 11:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added credits
 
 -- URL: http://wow-pro.com/node/3506/revisions/25137/view
 -- Date: 2012-10-10 11:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3506/revisions/25117/view
 -- Date: 2012-10-07 22:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide('Lorewalkers',"Achievements",'Pandaria', 'Lockslap','Neutral')
 WoWPro:GuideIcon(guide,"ACH",6548)
@@ -108,7 +113,7 @@ return
 [[
 
 N Lorewalkers|QID|31367|N|Lorewalkers faction is earned by visiting various points of interest around Pandaria.  This guide assumes you start in your factions city in Vale of Eternal Blossoms and will take you to all of those places. It also assumes you are level 90 and have trained flying in Pandaria.  Some steps may already be checked off.  They are points of interest that you visited while leveling. The first stop in a new zone I have also included the zone name to help find the green dot.|
-N Brewfathers|QID|31367|N|This guide will also guide you to the spots for the Ledgend of the Brewfathers Achievement.  While it is unrelated, it is similar in that it requires flying to points of interest that are along the same route as the Lorewalker points of interest, so you may as well do it.
+N Brewfathers|QID|31367|N|This guide will also guide you to the spots for the Ledgend of the Brewfathers Achievement.  While it is unrelated, it is similar in that it requires flying to points of interest that are along the same route as the Lorewalker points of interest, so you may as well do it.|
 A The Lorewalkers|QID|31367|LEAD|31015|FACTION|Alliance|M|85.6,60.4|Z|Vale of Eternal Blossoms|N|From Scrollmaker Resshi on the ground floor. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
 C The Lorewalkers|QID|31367|FACTION|Alliance|NC|M|84.8,60.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
 T The Lorewalkers|QID|31367|FACTION|Alliance|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
@@ -207,3 +212,5 @@ B Toys!|M|82.2,29.4|Z|Vale of Eternal Blossoms|N|You should now be exalted, visi
 ]]
 
 end)
+
+

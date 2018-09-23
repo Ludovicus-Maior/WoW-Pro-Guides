@@ -4,18 +4,43 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2018-08-24 15:17
+-- Who: Ludovicus_Maior
+-- Log: Fix QOs for [Friends, Not Food!]
+
+-- URL: http://wow-pro.com/node/3501/revisions/29598/view
+-- Date: 2018-08-24 15:09
+-- Who: Ludovicus_Maior
+-- Log: Amend QOs on [A Morale Victory] and [Fumigation]
+
+-- URL: http://wow-pro.com/node/3501/revisions/28989/view
+-- Date: 2018-02-19 22:51
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3501/revisions/28326/view
+-- Date: 2017-03-10 23:24
+-- Who: Ludovicus_Maior
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3501/revisions/27171/view
+-- Date: 2015-03-09 19:23
+-- Who: Ludovicus_Maior
+-- Log: Got rid of empty |N|| tags
+
+-- URL: http://wow-pro.com/node/3501/revisions/26853/view
 -- Date: 2014-11-07 20:41
 -- Who: Fluclo
 -- Log: Added missing |M| tags
 
 -- URL: http://wow-pro.com/node/3501/revisions/26567/view
 -- Date: 2014-07-06 15:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels
 
 -- URL: http://wow-pro.com/node/3501/revisions/26534/view
 -- Date: 2014-06-11 19:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3501/revisions/25769/view
@@ -29,12 +54,12 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25756/view
 -- Date: 2013-09-10 23:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add a QID for finishing Townlong Steppes.
 
 -- URL: http://wow-pro.com/node/3501/revisions/25698/view
 -- Date: 2013-06-04 23:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cleanup around [A Morale Victory]
 
 -- URL: http://wow-pro.com/node/3501/revisions/25693/view
@@ -44,7 +69,7 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25617/view
 -- Date: 2013-05-09 22:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some horrid editors change ... into a proper ellipses (sp?) character and change ' into a proper quote.  
 
 -- URL: http://wow-pro.com/node/3501/revisions/25508/view
@@ -54,7 +79,7 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25488/view
 -- Date: 2013-01-13 23:41
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3501/revisions/25407/view
@@ -79,15 +104,15 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25158/view
 -- Date: 2012-10-24 11:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3501/revisions/25111/view
 -- Date: 2012-10-07 22:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3501/revisions/25110/view
 -- Date: 2012-10-07 22:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("EmmShadoPan",'Dailies', "Townlong Steppes", "Emmaleah", "Neutral")
 WoWPro:GuideLevels(guide,88,90,89)
@@ -130,7 +155,7 @@ C Spirit Dust|QID|31116|N|Continue killing and looting defiled spirits for their
 
 ;This doesn't appear when you follow the guide, probably because nothing dropped for me.
 C The Deadtalker Cipher|QID|31118|N|This should drop while you are killing the Deadtalkers for Assult Deadtaker's Plateau. Keep killing those mobs until it drops. Also drops off the silver elite Uruk.|
-T The Deadtalker Cipher|QID|31118|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.
+T The Deadtalker Cipher|QID|31118|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|
 
 C Assault Deadtalker's Plateau|QID|31114|M|51,53|US|N|Finish killing the Deadtalkers.|
 T Assault Deadtalker's Plateau|QID|31114|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|
@@ -138,7 +163,7 @@ T Assault Deadtalker's Plateau|QID|31114|M|49.5,70.5|N|You can turn this in stra
 C Spirit Dust|QID|31116|M|51,53|U|84727|NC|N|Use the spirit dusts on the bones scattered around the area. You can do this part while mounted.|
 T Spirit Dust|QID|31116|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|
 
-A Uruk!|QID|31117|PRE|31114|M|49.5,70.5|N|From UI Alert, your Shado-Pan companion or Master Snowdrift.|
+A Uruk!|QID|31117|M|49.5,70.5|N|From UI Alert, your Shado-Pan companion or Master Snowdrift.|
 C Uruk!|QID|31117|T|Uruk|M|50.4,49|N|He is floating up above the ground in front of a large totem. You will get credit for the kill, even if another player attacked him first.|
 T Uruk!|QID|31117|M|49.5,70.5|N|To Master Snowdrift.|
 T Cheng Bo!|QID|31120|M|49.5,70.5|N|To Master Snowdrift.|
@@ -192,17 +217,19 @@ N Achievement Opportunity|ACH|7307|ACTIVE|31197|N|To earn the Achievement Silent
 C The Bigger They Come...|QID|31197|M|18,48|U|86536|S|N|These are located all over the Island. The Elite Kunchong in the feeding pits do NOT count, nor do the Swarmlords. Only the Sra'thik Will-Breakers, Sra'thik Deathmixers, Sra'thik Swarm-Leaders and Sra'thik Vessguards count.|
 C Sra'vess Wetwork|QID|31196|M|18,48|U|90006|S|N|Any non elite counts. These are located all over the Island.|
 N A Morale Victory|QID|31198|N|You may want to hotkey the items from the bag of Wu Kao Supplies, especially if you are going for the Silent Assassin Achievement.|
-C A Morale Victory|QID|31198|M|27.83,41.93|QO|Eastern idol: 1/1|
-C A Morale Victory|QID|31198|M|21.50,49.24|QO|Central idol: 1/1|
-C A Morale Victory|QID|31198|M|23.52,55.64|QO|Southern idol: 1/1|
-C A Morale Victory|QID|31198|M|16.19,46.04|QO|Western idol: 1/1|
-C Fumigation|QID|31200|M|20.70,45.93|QO|Amber Vault bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
-C Fumigation|QID|31200|M|23.8,47.3|QO|Nutriment Cell bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
-C Fumigation|QID|31200|M|23.6,44.7|QO|Egg Chamber bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
-C Fumigation|QID|31200|M|22.0,41.5|QO|Torture Cell bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
-C Fumigation|QID|31200|M|21.2,43.2|QO|Slaughtering Pit bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
+C Eastern idol|QID|31198|M|27.83,41.93|QO|4|
+C Central idol|QID|31198|M|21.50,49.24|QO|3|
+C Southern idol|QID|31198|M|23.52,55.64|QO|1|
+C Western idol|QID|31198|M|16.19,46.04|QO|2|
+C Amber Vault bombed|QID|31200|M|20.70,45.93|QO|1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
+C Nutriment Cell bombed|QID|31200|M|23.8,47.3|QO|2|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
+C Egg Chamber bombed|QID|31200|M|23.6,44.7|QO|3|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
+C Torture Cell bombed|QID|31200|M|22.0,41.5|QO|4|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
+C Slaughtering Pit bombed|QID|31200|M|21.2,43.2|QO|5|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
 C Destroy the Siege Weapons!|QID|31199|M|27.54,54.72;25.75,53.59;26.03,39.94;27.14,41.23|CN|NC|U|86536|N|The Wu Kao Supplies can come in handy here to avoid extras.|
-C Friends, Not Food!|QID|31201|M|18,53;18.01,58.14;17.57,58.03|CN|NC|QO|Shado-Pan Trainee at Southern Feeding Pit freed: 1/1|N|The swarming insects is a debuff that will dismount you. Avoid the big bugs.|
+C Southern Feeding Pit|QID|31201|M|18,53;18.01,58.14;17.57,58.03|CN|NC|QO|3|N|The swarming insects is a debuff that will dismount you. Avoid the big bugs.|
+C Central Feeding Pit|QID|31201|M|17.4,56.8|NC|QO|2|N|The swarming insects is a debuff that will dismount you. Avoid the big bugs.|
+C Northern Feeding Pit|QID|31201|M|18,53.4|NC|QO|1|N|The swarming insects is a debuff that will dismount you. Avoid the big bugs.|
 C Sra'vess Wetwork|QID|31196|M|18,48|U|90006|US|N|Any non elite counts. These are located all over the Island.|
 C The Bigger They Come...|QID|31197|M|18,48|U|86536|US|N|These are located all over the Island. The Elite Kunchong in the feeding pits do NOT count, nor do the Swarmlords. Only the Sra'thik Will-Breakers, Sra'thik Deathmixers, Sra'thik Swarm-Leaders and Sra'thik Vessguards count.|
 N Achievement Opportunity|ACH|7307|ACTIVE|31197|N|To earn the Achievement Silent Assassin, you MUST NOT be mounted when you turn in the quests. Dismount, wait a few seconds to make sure the game knows you have, then turn in. Manually check this off once you dismount.|
@@ -221,28 +248,28 @@ T Target of Opportunity: Sra'thik Swarmlord|QID|31203|M|49.01,71.34|N|To Ling of
 T Target of Opportunity: Sra'thik Hivelord|QID|31204|M|49.01,71.34|N|To Ling of the Six Pools.|
 
 ;one time challenger ring quests
-A The Challenger's Ring: Chao the Voice|QID|31127|PRE|31113|M|49.5,70.5|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Master Snowdrift.|
+A The Challenger's Ring: Chao the Voice|QID|31127|M|49.5,70.5|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Master Snowdrift.|
 C The Challenger's Ring: Chao the Voice|QID|31127|M|49.69,70.46;50.15,68.27|CS|N|Chao is a tank type Panda. Stay out of Bladestorm! Once you have defeated her, she is available to be your companion on days you are doing the Blackguard Defenders Quests.|
 T The Challenger's Ring: Chao the Voice|QID|31127|M|49.5,70.5|N|To Master Snowdrift.|
 
-A The Challenger's Ring: Snow Blossom|QID|31038|PRE|31039|M|49.02,70.45|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Ban Bearheart.|
+A The Challenger's Ring: Snow Blossom|QID|31038|M|49.02,70.45|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Ban Bearheart.|
 C The Challenger's Ring: Snow Blossom|QID|31038|M|48.92,70.11;50.4,67.8|CS|N|Snow Blossom is a mage type Panda. Once you have defeated her, she is available to be your companion on days you are doing the Omnia Mystics Quests.|
 T The Challenger's Ring: Snow Blossom|QID|31038|M|49.02,70.45|N|To Ban Bearheart.|
 
-A The Challenger's Ring: Hawkmaster Nurong|QID|31220|PRE|31197|M|49.01,71.36|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Ling of the Six Pools.|
-C The Challenger's Ring: Hawkmaster Nurong|QID|31220|M|49.01,70.94;50.71,68.18|CS|N|
+A The Challenger's Ring: Hawkmaster Nurong|QID|31220|M|49.01,71.36|REP|Shado-Pan;1270;Honored-Exalted|N|This is a one time challenge at Honored also from Ling of the Six Pools.|
+C The Challenger's Ring: Hawkmaster Nurong|QID|31220|M|49.01,70.94;50.71,68.18|CS|
 T The Challenger's Ring: Hawkmaster Nurong|QID|31220|M|49.01,71.36|N|To Ling of the Six Pools.|
 
-A The Challenger's Ring: Lao-Chin the Iron Belly|QID|31128|PRE|31113|M|49.5,70.5|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Master Snowdrift.|
+A The Challenger's Ring: Lao-Chin the Iron Belly|QID|31128|M|49.5,70.5|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Master Snowdrift.|
 C The Challenger's Ring: Lao-Chin the Iron Belly|QID|31128|M|50.4,67.8|N|Lao-chin is a healing type Panda. Run thru his healing bubbles, so he can't. Once you have defeated him, he is available to be your companion on days you are doing the Blackguard Defenders Quests.|
 T The Challenger's Ring: Lao-Chin the Iron Belly|QID|31128|M|49.5,70.5|N|To Master Snowdrift.|
 
-A The Challenger's Ring: Yalia Sagewhisper|QID|31104|PRE|31039|M|49.02,70.45|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Ban Bearheart.|
+A The Challenger's Ring: Yalia Sagewhisper|QID|31104|M|49.02,70.45|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Ban Bearheart.|
 C The Challenger's Ring: Yalia Sagewhisper|QID|31104|M|48.86,70.02;50.35,67.74|CS|N|Yalia is a casting/healing type Panda. Inturrupt her Psychic Scream. Once you have defeated her, she is available to be your companion on days you are doing the Omnia Mystics Quests.|
 T The Challenger's Ring: Yalia Sagewhisper|QID|31104|M|49.02,70.45|N|To Ban Bearheart.|
 
-A The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|PRE|31197|M|49.01,71.36|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Ling of the Six Pools.|
-C The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|50.4,67.85;50.62,68.5|CS|N|
+A The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|49.01,71.36|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Ling of the Six Pools.|
+C The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|50.4,67.85;50.62,68.5|CS|
 T The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|49.01,71.36|N|To Ling of the Six Pools.|
 
 ;Sha of Anger
@@ -271,3 +298,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
+

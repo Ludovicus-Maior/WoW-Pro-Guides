@@ -4,43 +4,63 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
--- Date: 2014-06-02 13:19
+-- Date: 2018-02-20 21:35
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3236/revisions/28882/view
+-- Date: 2018-01-16 23:40
 -- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3236/revisions/28427/view
+-- Date: 2017-03-15 23:22
+-- Who: Ludovicus_Maior
+-- Log: Added PREs to JiySou3035
+
+-- URL: http://wow-pro.com/node/3236/revisions/27457/view
+-- Date: 2016-06-28 07:33
+-- Who: Emmaleah
+-- Log: Updated QOs to new format for Honor the Dead
+
+-- URL: http://wow-pro.com/node/3236/revisions/26424/view
+-- Date: 2014-06-02 13:19
+-- Who: Ludovicus_Maior
 -- Log: Set Levels.
 
 -- URL: http://wow-pro.com/node/3236/revisions/26235/view
 -- Date: 2014-05-25 22:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3236/revisions/26082/view
 -- Date: 2014-05-18 21:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3236/revisions/26027/view
 -- Date: 2014-05-17 16:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3236/revisions/26026/view
 -- Date: 2014-05-17 16:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3236/revisions/25705/view
 -- Date: 2013-06-18 00:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Step C [Stalling the Survey:24519] in JiySou3035 is missing a CS|CC|CN tag.
 
 -- URL: http://wow-pro.com/node/3236/revisions/25677/view
 -- Date: 2013-05-17 20:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad coord for [Stalling the Survey]
 
 -- URL: http://wow-pro.com/node/3236/revisions/25490/view
 -- Date: 2013-01-13 23:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3236/revisions/24928/view
@@ -63,6 +83,7 @@
 
 local guide = WoWPro:RegisterGuide('JiySou3035', "Leveling", 'Southern Barrens', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,28,33, 30.2616)
+WoWPro:NewGuideLevels(guide,25,60)
 WoWPro:GuideNextGuide(guide, 'JiyDus3540')
 WoWPro:GuideIcon(guide,"ACH",4937)
 WoWPro:GuideSteps(guide, function()
@@ -107,7 +128,7 @@ T Signals in the Sky|QID|24515|M|44.17,33.71|N|To Makaba Flathoof.|
 
 A Keeping the Dogs at Bay|QID|24525|M|44.17,33.71|N|From Makaba Flathoof.|
 A Bad to Worse|QID|24529|M|44.19,33.69|N|From Makaba Flathoof.|
-A When Plants Attack|QID|24539|M|44.33,33.38|N|From Lane Tallgrass.|
+A When Plants Attack|QID|24539|PRE|24515|M|44.33,33.38|N|From Lane Tallgrass.|
 C When Plants Attack|QID|24539|M|45.61,31.99|N|Free refugees from Overgrowth.|S|
 C Keeping the Dogs at Bay|QID|24525|M|43.12,42.74|N|Kill Hecklefang Scavengers.|S|
 C Bad to Worse|QID|24529|M|42.11,36.73|N|Kill 8 Quillboar and free 5 refugees.|
@@ -149,7 +170,7 @@ C The Nightmare Scar|QID|24601|M|48.17,38.72|N|Speak to Naralex when you are rea
 T The Nightmare Scar|QID|24601|M|48.18,38.70|N|To Naralex.|
 A Winnoa Pineforest|QID|24807|PRE|24601|M|48.18,38.70|N|From Naralex.|
 T A Family Divided|QID|24543|M|41.62,46.57|N|To Kirge Sternhorn.|
-A A Line in the Dirt|QID|24546|M|41.62,46.57|N|From Kirge Sternhorn.|
+A A Line in the Dirt|QID|24546|PRE|24543|M|41.62,46.57|N|From Kirge Sternhorn.|
 T Winnoa Pineforest|QID|24807|M|41.62,46.57|N|Winnoa Pineforest.|
 A Lion's Pride|QID|24552|M|41.56,47.13|N|From Jorn Skyseer.|
 A Meet the New Boss|QID|24551|M|41.70,46.71|N|From Tatternack Steelforge.|
@@ -162,15 +183,15 @@ T Lion's Pride|QID|24552|M|41.54,47.16|N|To Jorn Skyseer.|
 T Meet the New Boss|QID|24551|M|41.53,46.82|N|To Warlord Bloodhilt.|
 T A Line in the Dirt|QID|24546|M|41.64,46.59|N|To Kirge Sternhorn.|
 
-A Siegebreaker|QID|24569|PRE|24551|M|41.51,46.75|N|From Warlord Bloodhilt.|
+A Siegebreaker|QID|24569|PRE|24546;24551|M|41.51,46.75|N|From Warlord Bloodhilt.|
 C Siegebreaker|QID|24569|NC|M|41.00,53.10|N|Right-click the Siege Engines.|
 T Siegebreaker|QID|24569|M|41.51,46.75|N|To Warlord Bloodhilt.|
 A Taking Back Taurajo|QID|24572|PRE|24569|M|41.51,46.75|N|From Warlord Bloodhilt.|
 A Honoring the Dead|QID|24573|PRE|24569|M|41.53,46.63|N|From Winnoa Pineforest.|
 C Taking Back Taurajo|QID|24572|S|M|44.05,52.21|N|Kill Taurajo Looters.|
-N Krulmoo Eulogized|QID|24573|NC|QO|Krulmoo Eulogized: 1/1|U|49880|M|44.35,50.87|N|Use the totem next to the corpse of Krulmoo.|
-N Omusa Eulogized|QID|24573|NC|QO|Omusa Eulogized: 1/1|U|49880|M|43.7,52.34|N|Use the totem next to the corpse of Omusa.|
-N Yonada Eulogized|QID|24573|NC|QO|Yonada Eulogized: 1/1|U|49880|M|44.32,52.57|N|Use the totem next to the corpse of Yonada.|
+N Krulmoo Eulogized|QID|24573|NC|QO|1|U|49880|M|44.35,50.87|N|Use the totem next to the corpse of Krulmoo.|
+N Omusa Eulogized|QID|24573|NC|QO|4|U|49880|M|43.7,52.34|N|Use the totem next to the corpse of Omusa.|
+N Yonada Eulogized|QID|24573|NC|QO|3|U|49880|M|44.32,52.57|N|Use the totem next to the corpse of Yonada.|
 C Honoring the Dead|QID|24573|NC|U|49880|M|44.54,52.18|N|Finally use the totem next to Dranh.|
 C Taking Back Taurajo|QID|24572|US|M|44.05,52.21|N|Kill Taurajo Looters.|
 T Honoring the Dead|QID|24573|M|41.51,46.64|N|To Winnoa Pineforest.|
@@ -178,7 +199,7 @@ T Taking Back Taurajo|QID|24572|M|41.53,46.81|N|To Warlord Bloodhilt.|
 A Desolation Hold Inspection|QID|24577|PRE|24572|M|41.50,46.78|N|From Warlord Bloodhilt.|
 C Desolation Hold Inspection|QID|24577|NC|M|41.69,69.79|N|Talk to Warlord Bloodhilt - he'll give you a wolf that will take you right where you need to go, past any hostile mobs! Talk to Warlord Gar'dul when you get there.|
 T Desolation Hold Inspection|QID|24577|M|41.69,69.79|N|To Warlord Gar'dul.|
-A Changing of the Gar'dul|QID|24591|PRE|24591|M|41.69,69.79|N|From Warlord Gar'dul.|
+A Changing of the Gar'dul|QID|24591|PRE|24577|M|41.69,69.79|N|From Warlord Gar'dul.|
 
 A Flightmare|RANK|2|QID|24631|M|41.11,70.92|N|From Tomusa.|
 A Silithissues|RANK|2|QID|24654|M|41.62,69.43|N|From Crawgol.|
@@ -204,7 +225,7 @@ T Claim the Battle Scar|RANK|2|QID|24618|M|41.69,69.81|N|To Warlord Bloodhilt.|
 T Silithissues|RANK|2|QID|24654|M|41.64,69.48|N|To Crawgol.|
 A Firestone Point|QID|24667|PRE|24654|M|41.61,69.62|N|From Crawgol.|
 T Flightmare|RANK|2|QID|24631|M|41.13,71.03|N|To Tomusa.|
-A Tauren Vengeance|RANK|2|QID|24632|PRE|24631|LEAD|24684|M|41.13,71.03|N|From Tomusa.|
+A Tauren Vengeance|RANK|2|QID|24632|PRE|24631|M|41.13,71.03|N|From Tomusa.|
 C The Butcher of Taurajo|QID|24637|M|48.18,58.18|N|Speak with Karthog. When the Alliance general rides by, let Karthog run in first. Be careful - the general is an elite, but with Karthog's help, you should be fine.|
 T The Butcher of Taurajo|QID|24637|M|41.68,69.82|N|To Warlord Bloodhilt.|
 C Hearts-is-Hearts|RANK|2|QID|24620|M|44.13,75.79|N|Kill and loot a Landquaker Bull to get the heart.|
@@ -227,18 +248,18 @@ C Don't Stop Bereavin'|QID|24603|M|40.73,80.85|N|Kill Razormane Seers, Warfrenzy
 T Don't Stop Bereavin'|QID|24603|M|44.46,88.03|N|To Mankrik.|
 A Mangletooth|QID|24608|PRE|24603|M|44.46,88.03|N|From Mankrik.|
 T Blood of the Barrens|QID|24606|M|45.15,85.41|N|To Mahka.|
-A Echoes of Agamaggan|QID|24653|M|45.15,85.41|N|From Mahka.|
+A Echoes of Agamaggan|QID|24653|PRE|24606|M|45.15,85.41|N|From Mahka.|
 C Echoes of Agamaggan|QID|24653|M|41.46,84.06|S|N|Loot Polished Boar Skulls from the ground.|
 C Mangletooth|QID|24608|M|37.96,81.81|N|Kill Mangletooth.|
 C Echoes of Agamaggan|QID|24653|M|41.46,84.06|US|N|Loot Polished Boar Skulls from the ground.|
 T Mangletooth|QID|24608|M|44.49,88.02|N|To Mankrik.|
 T Echoes of Agamaggan|QID|24653|M|45.15,85.41|N|To Mahka.|
-A Mahka's Plea|QID|24633|M|45.15,85.41|N|From Mahka.|
+A Mahka's Plea|QID|24633|PRE|24653|M|45.15,85.41|N|From Mahka.|
 T Mahka's Plea|QID|24633|M|44.49,88.02|N|To Mankrik.|
 C The Disturbed Earth|RANK|2|QID|24824|M|48.22,81.11|N|Kill elementals and loot them.|
 T The Disturbed Earth|RANK|2|QID|24824|M|45.06,85.36|N|To Tauna Skychaser.|
 T Tauren Vengeance|QID|24632|M|49.15,82.34|N|To Gann Stonespire.|
-A A Weezil in the Henhouse|QID|24684|M|49.19,82.36|N|From Gann Stonespire.|
+A A Weezil in the Henhouse|QID|24684|PRE|24632|M|49.19,82.36|N|From Gann Stonespire.|
 C A Weezil in the Henhouse|QID|24684|M|50.74,86.78|N|Kill dwarves on your way in.|
 T A Weezil in the Henhouse|QID|24684|M|50.74,86.78|N|To Weezil Slipshadow.|
 
@@ -252,3 +273,5 @@ A Next of Kin|QID|25292|PRE|24747|M|49.23,82.18|N|From Nato Raintree. Take this 
 
 ]]
 end)
+
+

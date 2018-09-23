@@ -16,13 +16,6 @@ end
 function WoWPro.Dailies:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Dailies Module")
 
-	
-	-- Event Registration --
-	WoWPro.Dailies.Events = {"QUEST_COMPLETE", "GOSSIP_SHOW",
-		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"CHAT_MSG_SYSTEM"
-	}
-	WoWPro:RegisterEvents(WoWPro.Dailies.Events)
 	--Loading Frames--
 	if not WoWPro.Dailies.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Dailies:CreateConfig()
@@ -45,37 +38,12 @@ end
 
 -- Called when the module is disabled --
 function WoWPro.Dailies:OnDisable()
-	-- Unregistering Dailies Module Events --
-	WoWPro:UnregisterEvents(WoWPro.Dailies.Events)
-	
 	--[[ If the current guide is a dailies guide, removes the map point, stores the guide's ID to be resumed later, 
 	sets the current guide to nil, and loads the nil guide. ]]
 	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Dailies" then
 		WoWPro:RemoveMapPoint()
 		WoWProDB.char.lastdailiesguide = WoWProDB.char.currentguide
 	end
-end
-
--- Guide Registration Function --
-function WoWPro.Dailies:RegisterGuide(GIDvalue, zonename, guidename, categoryname, authorname, factionname, sequencevalue)
-	
---[[ Purpose: 
-		Called by guides to register them to the WoWPro.Guide table. All members
-		of this table must have a quidetype parameter to let the addon know what 
-		module should handle that guide.]]
-		
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
-		-- If the guide is not of the correct faction, don't register it
-		
-	WoWPro.Guides[GIDvalue] = {
-		guidetype = "Dailies",
-		GID = GIDvalue,
-		zone = zonename,
-		name = guidename,
-		category = categoryname,
-		author = authorname,
-		sequence = sequencevalue,
-	}
 end
 
 function WoWPro.Dailies:GuideFaction(guide,faction)

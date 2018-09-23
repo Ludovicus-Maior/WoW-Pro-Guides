@@ -4,6 +4,19 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2017-03-10 22:57
+-- Who: Ludovicus_Maior
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3514/revisions/27106/view
+-- Date: 2014-12-25 20:09
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3514/revisions/27103/view
+-- Date: 2014-12-25 18:59
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3514/revisions/26841/view
 -- Date: 2014-11-07 20:18
 -- Who: Emmaleah
 
@@ -14,22 +27,22 @@
 
 -- URL: http://wow-pro.com/node/3514/revisions/26312/view
 -- Date: 2014-05-26 18:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type. Typographical corrections.
 
 -- URL: http://wow-pro.com/node/3514/revisions/26200/view
 -- Date: 2014-05-22 23:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Registration guide; typographical corrections
 
 -- URL: http://wow-pro.com/node/3514/revisions/25824/view
 -- Date: 2013-11-27 21:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a CS tag to A [Hozen Warrior Spear:31413]
 
 -- URL: http://wow-pro.com/node/3514/revisions/25758/view
 -- Date: 2013-09-10 23:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord tweaks and spelling fixes.
 
 -- URL: http://wow-pro.com/node/3514/revisions/25506/view
@@ -39,12 +52,12 @@
 
 -- URL: http://wow-pro.com/node/3514/revisions/25436/view
 -- Date: 2013-01-13 15:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3514/revisions/25289/view
 -- Date: 2013-01-09 01:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN and CS tags.
 
 -- URL: http://wow-pro.com/node/3514/revisions/25277/view
@@ -64,17 +77,17 @@
 
 -- URL: http://wow-pro.com/node/3514/revisions/25206/view
 -- Date: 2012-11-13 02:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated to latest from Emmaleah
 
 -- URL: http://wow-pro.com/node/3514/revisions/25205/view
 -- Date: 2012-11-13 02:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Close of Blog Page
 
-local guide = WoWPro:RegisterGuide('EmmAchLost',"Achievements",'MoP Zones', 'Lost and Found - Riches of Pandaria','Neutral')
--- WoWPro:GuideIcon(guide,"ACH",XXX)
-WoWPro:GuideNextGuide(guide, 'Emmaleah')
+local guide = WoWPro:RegisterGuide('EmmAchLost', "Achievements", 'Pandaria', 'Emmaleah', 'Neutral')
+WoWPro:GuideLevels(guide,87, 91, 90)
+WoWPro:GuideIcon(guide,"ACH",7284)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -147,7 +160,9 @@ A Sturdy Yaungol Spear|QID|31421|L|88723|RANK|1|M|71.2,62.6;70.06,63.88|Z|Kun-La
 A Stolen Sprite Treasure|QID|31415|RANK|2|M|56.8,48.9|Z|Kun-Lai Summit|N|End of Howlingwind Cavern.|
 A Sprite's Cloth Chest|QID|31412|RANK|1|M|74.7,74.9|Z|Kun-Lai Summit|N|End of sprite cave. Loot (ilvl 434 cloak) will be specific to your current spec (and BOP).|
 
-N Keep resetting|QID|972810001|N|until you find them all (or give up). In the end you should have earned the following eight achievements: Treasures of Pandaria; Fortune of Pandaria; Bounty of Pandaria: Riches of Pandaria; Lost and Found, Finders Keepers, One Man's Trash..., Is Another Man's Treasure.
+N Keep resetting|QID|972810001|N|until you find them all (or give up). In the end you should have earned the following eight achievements: Treasures of Pandaria; Fortune of Pandaria; Bounty of Pandaria: Riches of Pandaria; Lost and Found, Finders Keepers, One Man's Trash..., Is Another Man's Treasure.|
 
 ]]
 end)
+
+

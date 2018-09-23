@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2018-02-23 01:40
+-- Who: Ludovicus_EditBot
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags - EK
+
+-- URL: http://wow-pro.com/node/3440/revisions/28503/view
+-- Date: 2017-03-17 13:50
+-- Who: Ludovicus_Maior
+-- Log: Add one PRE to LudoHallowPanA
+
+-- URL: http://wow-pro.com/node/3440/revisions/28502/view
+-- Date: 2017-03-17 13:49
+-- Who: Ludovicus_Maior
+-- Log: Added PREs to TwiHollEK
+
+-- URL: http://wow-pro.com/node/3440/revisions/28284/view
+-- Date: 2017-03-05 18:53
+-- Who: Ludovicus_Maior
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3440/revisions/27166/view
+-- Date: 2015-03-09 17:40
+-- Who: Ludovicus_Maior
+-- Log: The Underbelly@Dalaran
+
+-- URL: http://wow-pro.com/node/3440/revisions/26865/view
 -- Date: 2014-11-07 22:01
 -- Who: Emmaleah
 -- Log: corrections per list 'o errors missing N tag x2, misplaced z tag. several missing "|"
@@ -35,28 +60,28 @@
 
 -- URL: http://wow-pro.com/node/3440/revisions/26738/view
 -- Date: 2014-10-19 16:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected guide registration for Hallow's End Alliance guides.
 --	Boy I messed them up!
 
 -- URL: http://wow-pro.com/node/3440/revisions/26542/view
 -- Date: 2014-06-13 00:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing quote
 
 -- URL: http://wow-pro.com/node/3440/revisions/26500/view
 -- Date: 2014-06-10 21:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25789/view
 -- Date: 2013-10-28 19:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: do emotes using new syntax
 
 -- URL: http://wow-pro.com/node/3440/revisions/25787/view
 -- Date: 2013-10-28 02:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Use Dalaran City@Dalaran instead of just Dalaran.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25777/view
@@ -66,52 +91,52 @@
 
 -- URL: http://wow-pro.com/node/3440/revisions/25647/view
 -- Date: 2013-05-14 19:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: The Underbelly@Dalaran
 
 -- URL: http://wow-pro.com/node/3440/revisions/25646/view
 -- Date: 2013-05-14 19:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected quest name [A Time to Lose]
 
 -- URL: http://wow-pro.com/node/3440/revisions/25489/view
 -- Date: 2013-01-13 23:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342] 
 
 -- URL: http://wow-pro.com/node/3440/revisions/25434/view
 -- Date: 2013-01-13 15:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a CS tag
 
 -- URL: http://wow-pro.com/node/3440/revisions/25156/view
 -- Date: 2012-10-24 03:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add MoP Hallows End.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25152/view
 -- Date: 2012-10-22 20:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35. 
 
 -- URL: http://wow-pro.com/node/3440/revisions/25015/view
 -- Date: 2012-06-30 19:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: More zone name corrections.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25014/view
 -- Date: 2012-06-30 19:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add coords for flight Booty Bay flight point and correct zone.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25013/view
 -- Date: 2012-06-30 19:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Wrong zone in Booty Bay Candy Bucket
 
 -- URL: http://wow-pro.com/node/3440/revisions/24909/view
 -- Date: 2012-01-19 21:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Delete duplicate guide
 
 -- URL: http://wow-pro.com/node/3440/revisions/24790/view
@@ -188,7 +213,7 @@ A Candy Bucket |QID|13438|M|28.97,56.16|Z|Dragonblight|N|Star's Rest|
 
 F Dalaran|QID|13472|M|72.70,45.68|Z|Dalaran City@Dalaran|U|37586|
 A Candy Bucket |QID|13463|M|48.32,40.86|Z|Dalaran City@Dalaran|N|The Legerdemain Lounge|
-A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|Z|Dalaran City@The Underbelly|U|37586|CS|N|The Underbelly@Dalaran|
+A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|Z|The Underbelly@Dalaran|U|37586|CS|N|The Underbelly@Dalaran|
 A Candy Bucket |QID|13473|M|42.56,63.27|Z|Dalaran City@Dalaran|U|37586|N|Hero's Rest Inn|
 N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
 N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|

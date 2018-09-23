@@ -4,6 +4,66 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2017-03-17 14:09
+-- Who: Ludovicus_Maior
+-- Log: Syntax and PRE for LudoHallowPanH
+
+-- URL: http://wow-pro.com/node/3441/revisions/28512/view
+-- Date: 2017-03-17 14:07
+-- Who: Ludovicus_Maior
+-- Log: Syntax for LudoHallowOUT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28511/view
+-- Date: 2017-03-17 14:05
+-- Who: Ludovicus_Maior
+-- Log: Syntax for LudoHallowNOR
+
+-- URL: http://wow-pro.com/node/3441/revisions/28510/view
+-- Date: 2017-03-17 14:03
+-- Who: Ludovicus_Maior
+-- Log: 1 Syntax fix for LudoHallowKAL
+
+-- URL: http://wow-pro.com/node/3441/revisions/28509/view
+-- Date: 2017-03-17 14:02
+-- Who: Ludovicus_Maior
+-- Log: 1 Syntax fix for LudoHallowEK
+
+-- URL: http://wow-pro.com/node/3441/revisions/28508/view
+-- Date: 2017-03-17 14:00
+-- Who: Ludovicus_Maior
+-- Log: PRE and syntax for LudoHallowCAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28285/view
+-- Date: 2017-03-05 18:53
+-- Who: Ludovicus_Maior
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3441/revisions/27939/view
+-- Date: 2016-10-19 16:58
+-- Who: Blanckaert
+-- Log: NR: Moa'ki Harbor, needs just Moa'ki.
+
+-- URL: http://wow-pro.com/node/3441/revisions/27938/view
+-- Date: 2016-10-19 16:15
+-- Who: Blanckaert
+-- Log: fixed the VoEB locations to Horde instead of (Gasp!) Alliance info. Add QID for Mistfall... No FP at Mistfall changed to closest one.
+
+-- URL: http://wow-pro.com/node/3441/revisions/27937/view
+-- Date: 2016-10-19 15:46
+-- Who: Blanckaert
+-- Log: Changed Westwind to Eastwind (missed on last edit)
+
+-- URL: http://wow-pro.com/node/3441/revisions/27936/view
+-- Date: 2016-10-19 15:42
+-- Who: Blanckaert
+-- Log: fixed QID for Eastwind Rest from -4 to 32040
+
+-- URL: http://wow-pro.com/node/3441/revisions/27774/view
+-- Date: 2016-09-14 17:40
+-- Who: Ludovicus_Maior
+-- Log: Dalaran City@Dalaran
+
+-- URL: http://wow-pro.com/node/3441/revisions/26860/view
 -- Date: 2014-11-07 21:24
 -- Who: Emmaleah
 -- Log: corrections per Ludo's big list o' errors
@@ -47,84 +107,84 @@
 
 -- URL: http://wow-pro.com/node/3441/revisions/26739/view
 -- Date: 2014-10-19 18:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set guide titles for Hallow's End guides.  Corrected Zones.
 
 -- URL: http://wow-pro.com/node/3441/revisions/26692/view
 -- Date: 2014-09-27 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/26543/view
 -- Date: 2014-06-13 00:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing quote
 
 -- URL: http://wow-pro.com/node/3441/revisions/26503/view
 -- Date: 2014-06-10 22:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3441/revisions/26499/view
 -- Date: 2014-06-10 21:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25788/view
 -- Date: 2013-10-28 02:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Use Dalaran City@Dalaran instead of Dalaran
 
 -- URL: http://wow-pro.com/node/3441/revisions/25786/view
 -- Date: 2013-10-27 22:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Next set of corrections.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25785/view
 -- Date: 2013-10-27 01:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some coord fixes for Northrend
 
 -- URL: http://wow-pro.com/node/3441/revisions/25784/view
 -- Date: 2013-10-26 22:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add the missing U|37586| to Northrend
 
 -- URL: http://wow-pro.com/node/3441/revisions/25783/view
 -- Date: 2013-10-26 22:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Blade's Edge Mountains not Netherstorm.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25782/view
 -- Date: 2013-10-26 02:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cleft of Shadow@Orgrimmar
 
 -- URL: http://wow-pro.com/node/3441/revisions/25781/view
 -- Date: 2013-10-26 02:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/25780/view
 -- Date: 2013-10-26 01:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Forest was misspelled
 
 -- URL: http://wow-pro.com/node/3441/revisions/25779/view
 -- Date: 2013-10-26 01:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/25778/view
 -- Date: 2013-10-25 22:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  Ibanozzle
 
 -- URL: http://wow-pro.com/node/3441/revisions/25162/view
 -- Date: 2012-10-24 21:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Horde Pandaria Hallows End TRIAL.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24895/view
 -- Date: 2012-01-18 23:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to GIT.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24785/view
@@ -138,7 +198,7 @@
 
 -- URL: http://wow-pro.com/node/3441/revisions/24779/view
 -- Date: 2011-10-29 02:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/24772/view
 -- Date: 2011-10-28 08:04
@@ -217,7 +277,7 @@ A Candy Bucket|QID|29018|M|55.27,62.12|Z|Un'Goro Crater|N|Innkeeper Dreedle, Mar
 F Bootlegger Outpost|QID|29014|M|55.98,64.17|Z|Un'Goro Crater|U|37586|N|Fly to Bootlegger Outpost, Tanaris.|
 A Candy Bucket|QID|29014|M|55.7,60.96|Z|Tanaris|N|Inkeeper Ibanozzel, Bootlegger Outpost.|
 
-F Gadgetzan|QID|12399|M|55.88,60.6|Z|Tanaris|U|37586||N|Fly to Gadgetzan.
+F Gadgetzan|QID|12399|M|55.88,60.6|Z|Tanaris|U|37586|N|Fly to Gadgetzan.|
 A Candy Bucket|QID|12399|M|52.55,27.09|Z|Tanaris|N|Innkeeper Fizzgrimble, Gadgetzan|
 
 F Mudsprocket|QID|12398|M|52.04,27.61|U|37586|Z|Tanaris|N|Fly to Mudsprocket, Dustwallow Marsh|
@@ -239,3 +299,5 @@ N BioBreak|N|Take a break and pick the next guide to do.|
 
 ]]
 end)
+
+

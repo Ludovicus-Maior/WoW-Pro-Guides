@@ -4,53 +4,63 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2017-03-23 17:41
+-- Who: Ludovicus_Maior
+-- Log: Spelling
+
+-- URL: http://wow-pro.com/node/3416/revisions/28322/view
+-- Date: 2017-03-10 23:19
+-- Who: Ludovicus_Maior
+-- Log: Syntax changes.
+
+-- URL: http://wow-pro.com/node/3416/revisions/26838/view
 -- Date: 2014-11-06 18:24
 -- Who: Fluclo
 -- Log: Added missing |N| tag
 
 -- URL: http://wow-pro.com/node/3416/revisions/26633/view
 -- Date: 2014-07-26 00:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: OOps, wrong faction
 
 -- URL: http://wow-pro.com/node/3416/revisions/26589/view
 -- Date: 2014-07-25 19:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Whoops!   Copied over the alliance version by accident.
 
 -- URL: http://wow-pro.com/node/3416/revisions/26511/view
 -- Date: 2014-06-10 23:15
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3416/revisions/25717/view
 -- Date: 2013-06-18 00:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 28665's name [Cursed Shackels] does not match Grail's database [Cursed Shackles].
 
 -- URL: http://wow-pro.com/node/3416/revisions/25675/view
 -- Date: 2013-05-17 20:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Watch Out For Splinters!
 
 -- URL: http://wow-pro.com/node/3416/revisions/25484/view
 -- Date: 2013-01-13 19:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spell Orgrimmar right again.
 
 -- URL: http://wow-pro.com/node/3416/revisions/25452/view
 -- Date: 2013-01-13 17:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Spell Orgrimmar right and use ,'s to separate coords instead of ;'s!
 
 -- URL: http://wow-pro.com/node/3416/revisions/25451/view
 -- Date: 2013-01-13 17:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Malformed coords!
 
 -- URL: http://wow-pro.com/node/3416/revisions/25293/view
 -- Date: 2013-01-09 01:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3416/revisions/24879/view
@@ -64,7 +74,7 @@
 
 -- URL: http://wow-pro.com/node/3416/revisions/24648/view
 -- Date: 2011-06-30 19:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("CraToBarPH",'Dailies', "Tol Barad Peninsula", "Crackerhead22", "Horde")
 WoWPro:GuideLevels(guide,1,85,90)
@@ -91,14 +101,14 @@ C Bombs Away!|QID|28696|M|22,47.1|N|Click on a cannon, use Ability #1, aim with 
 
 C Leave No Weapon Behind|QID|28685|M|39.6,34.3|N|Loot 12 Rusty Rifles from the Racks of Rifles.|
 C Claiming The Keep|QID|28682|M|35.5,27.3|N|Head upstairs in the keep and kill Keep Lord Farson.|
-C Walk A Mile In Their Shoes|QID|28721|M|35.5,27.3|N|Head into the basement. Talk to one of the Alliance Farson Prisoners, and escort them out of the keep.
+C Walk A Mile In Their Shoes|QID|28721|M|35.5,27.3|N|Head into the basement. Talk to one of the Alliance Farson Prisoners, and escort them out of the keep.|
 
 C Rattling Their Cages|QID|28679|M|44.5,27.1|N|Kill 8 Shipwecked Sailors.|
 C Shark Tank|QID|28681|M|49.3,20.9|T|Tank|N|Find and kill Tank. He is a level 85 elite, so you may need help.|
 C Boosting Morale|QID|28680|M|49.3,20.9|N|Loot 6 Barrels of Southsea Rum. Watch out for Tank, he is a level 85 elite.|
 C Captain P. Harris|QID|28678|M|48,7.9|N|Find and kill Captain P. Harris.|T|Captain P. Harris|
 
-C Not The Friendlist Town|QID|28686|M|67.6,34.7|N|Kill 14 villagers in Rustberg Village.|
+C Not The Friendliest Town|QID|28686|M|67.6,34.7|N|Kill 14 villagers in Rustberg Village.|
 C Teach A Man To Fish.... Or Steal|QID|28687|M|68.2,23.3|N|You can loot the Seabass from the Rustberg Fisherman or from Strings of Fish.|
 
 C Ghostbuster|QID|28697|M|79,50|N|Kill 14 ghosts of any type.|
@@ -138,3 +148,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 
 ]]
 end)
+
+

@@ -4,53 +4,74 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2018-08-18 21:03
+-- Who: Ludovicus_Maior
+-- Log: Fix L steps that should be l steps.
+
+-- URL: http://wow-pro.com/node/3458/revisions/28288/view
+-- Date: 2017-03-05 18:54
+-- Who: Ludovicus_Maior
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3458/revisions/27363/view
+-- Date: 2015-07-25 18:17
+-- Who: Ludovicus_Maior
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3458/revisions/27362/view
+-- Date: 2015-07-25 18:17
+-- Who: Ludovicus_Maior
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3458/revisions/26861/view
 -- Date: 2014-11-07 21:31
 -- Who: Emmaleah
 -- Log: corrections per List 'o errors and added other QID's to Horde side A Greatfather Winter is here
 
 -- URL: http://wow-pro.com/node/3458/revisions/26602/view
 -- Date: 2014-07-25 21:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj levels
 
 -- URL: http://wow-pro.com/node/3458/revisions/26494/view
 -- Date: 2014-06-10 21:29
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed Guide format.
 
 -- URL: http://wow-pro.com/node/3458/revisions/25679/view
 -- Date: 2013-05-17 20:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  [A Smokywood Pastures' Thank You!]
 
 -- URL: http://wow-pro.com/node/3458/revisions/25642/view
 -- Date: 2013-05-14 19:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coord and quest corrections
 
 -- URL: http://wow-pro.com/node/3458/revisions/25301/view
 -- Date: 2013-01-09 17:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3458/revisions/25266/view
 -- Date: 2012-12-25 20:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Update winter veil to use the latest WE updates and eliminate many manual click offs!
 
 -- URL: http://wow-pro.com/node/3458/revisions/24901/view
 -- Date: 2012-01-19 00:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct node number
 
 -- URL: http://wow-pro.com/node/3458/revisions/24900/view
 -- Date: 2012-01-19 00:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to GIT
 
 local guide = WoWPro:RegisterGuide("LudoWinterVeilH",'WorldEvents',"Winter Veil", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.WorldEvents:GuideHoliday(guide,"WinterVeil")
+WoWPro:GuideIcon(guide,"ACH",1691)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -69,7 +90,7 @@ B Holiday Spices|QID|6962|M|52.68,77.28|Z|Orgrimmar|L|17194 5|N|From Penney Copp
 U Learn the Recipe|QID|6962|U|17200|N|Click off when done!|
 B Small Eggs|QID|6962|M|53.80,73.50|Z|Orgrimmar|L|6889 5|N|If you did not farm the eggs, buy them at the AH.|
 B Milk|QID|6962|L|1179|M|55.08,77.97|Z|Orgrimmar|N|Buy Milk from Barkeep Morag.|
-L Make 5 Gingerbread Cookies|QID|6962|L|17197 5|
+l Make 5 Gingerbread Cookies|QID|6962|L|17197 5|
 T Treats for Great-father Winter|QID|6962|M|49.62,78.00|Z|Orgrimmar|N|To Great-father Winter.|
 
 A The Reason for the Season|QID|6964|M|51.00,71.00|Z|Orgrimmar|N|To Furmond.|
@@ -100,3 +121,5 @@ A A Ticking Present|QID|8769|LVL|40|M|49.19,77.76|Z|Orgrimmar|N|Your sixth gift!
 N All done for the day|
 ]]
 end)
+
+

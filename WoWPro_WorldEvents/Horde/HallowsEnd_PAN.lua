@@ -4,6 +4,66 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2017-03-17 14:09
+-- Who: Ludovicus_Maior
+-- Log: Syntax and PRE for LudoHallowPanH
+
+-- URL: http://wow-pro.com/node/3441/revisions/28512/view
+-- Date: 2017-03-17 14:07
+-- Who: Ludovicus_Maior
+-- Log: Syntax for LudoHallowOUT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28511/view
+-- Date: 2017-03-17 14:05
+-- Who: Ludovicus_Maior
+-- Log: Syntax for LudoHallowNOR
+
+-- URL: http://wow-pro.com/node/3441/revisions/28510/view
+-- Date: 2017-03-17 14:03
+-- Who: Ludovicus_Maior
+-- Log: 1 Syntax fix for LudoHallowKAL
+
+-- URL: http://wow-pro.com/node/3441/revisions/28509/view
+-- Date: 2017-03-17 14:02
+-- Who: Ludovicus_Maior
+-- Log: 1 Syntax fix for LudoHallowEK
+
+-- URL: http://wow-pro.com/node/3441/revisions/28508/view
+-- Date: 2017-03-17 14:00
+-- Who: Ludovicus_Maior
+-- Log: PRE and syntax for LudoHallowCAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/28285/view
+-- Date: 2017-03-05 18:53
+-- Who: Ludovicus_Maior
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3441/revisions/27939/view
+-- Date: 2016-10-19 16:58
+-- Who: Blanckaert
+-- Log: NR: Moa'ki Harbor, needs just Moa'ki.
+
+-- URL: http://wow-pro.com/node/3441/revisions/27938/view
+-- Date: 2016-10-19 16:15
+-- Who: Blanckaert
+-- Log: fixed the VoEB locations to Horde instead of (Gasp!) Alliance info. Add QID for Mistfall... No FP at Mistfall changed to closest one.
+
+-- URL: http://wow-pro.com/node/3441/revisions/27937/view
+-- Date: 2016-10-19 15:46
+-- Who: Blanckaert
+-- Log: Changed Westwind to Eastwind (missed on last edit)
+
+-- URL: http://wow-pro.com/node/3441/revisions/27936/view
+-- Date: 2016-10-19 15:42
+-- Who: Blanckaert
+-- Log: fixed QID for Eastwind Rest from -4 to 32040
+
+-- URL: http://wow-pro.com/node/3441/revisions/27774/view
+-- Date: 2016-09-14 17:40
+-- Who: Ludovicus_Maior
+-- Log: Dalaran City@Dalaran
+
+-- URL: http://wow-pro.com/node/3441/revisions/26860/view
 -- Date: 2014-11-07 21:24
 -- Who: Emmaleah
 -- Log: corrections per Ludo's big list o' errors
@@ -47,84 +107,84 @@
 
 -- URL: http://wow-pro.com/node/3441/revisions/26739/view
 -- Date: 2014-10-19 18:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set guide titles for Hallow's End guides.  Corrected Zones.
 
 -- URL: http://wow-pro.com/node/3441/revisions/26692/view
 -- Date: 2014-09-27 22:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/26543/view
 -- Date: 2014-06-13 00:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing quote
 
 -- URL: http://wow-pro.com/node/3441/revisions/26503/view
 -- Date: 2014-06-10 22:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3441/revisions/26499/view
 -- Date: 2014-06-10 21:44
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25788/view
 -- Date: 2013-10-28 02:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Use Dalaran City@Dalaran instead of Dalaran
 
 -- URL: http://wow-pro.com/node/3441/revisions/25786/view
 -- Date: 2013-10-27 22:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Next set of corrections.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25785/view
 -- Date: 2013-10-27 01:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Some coord fixes for Northrend
 
 -- URL: http://wow-pro.com/node/3441/revisions/25784/view
 -- Date: 2013-10-26 22:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add the missing U|37586| to Northrend
 
 -- URL: http://wow-pro.com/node/3441/revisions/25783/view
 -- Date: 2013-10-26 22:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Blade's Edge Mountains not Netherstorm.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25782/view
 -- Date: 2013-10-26 02:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Cleft of Shadow@Orgrimmar
 
 -- URL: http://wow-pro.com/node/3441/revisions/25781/view
 -- Date: 2013-10-26 02:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/25780/view
 -- Date: 2013-10-26 01:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Forest was misspelled
 
 -- URL: http://wow-pro.com/node/3441/revisions/25779/view
 -- Date: 2013-10-26 01:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/25778/view
 -- Date: 2013-10-25 22:50
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log:  Ibanozzle
 
 -- URL: http://wow-pro.com/node/3441/revisions/25162/view
 -- Date: 2012-10-24 21:10
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add Horde Pandaria Hallows End TRIAL.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24895/view
 -- Date: 2012-01-18 23:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to GIT.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24785/view
@@ -138,7 +198,7 @@
 
 -- URL: http://wow-pro.com/node/3441/revisions/24779/view
 -- Date: 2011-10-29 02:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/24772/view
 -- Date: 2011-10-28 08:04
@@ -154,7 +214,7 @@ WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Pandaria")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Wall of Text Part 1 of 2|QID|-1|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".
+N Wall of Text Part 1 of 2|QID|-1|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".|
 N Wall of Text Part 2 of 2|QID|-1|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
 
 R The Jade Forest|N|Take your portal to The Jade Forest|
@@ -196,10 +256,10 @@ A Candy Bucket|QID|32026|M|55.09,72.25|Z|The Veiled Stair|N|Tong the Fixer, Tave
 F Binan Village|QID|32039|M|56.74,75.75|Z|The Veiled Stair|N|Ask Shin the Weightless to go to Binan Village|U|37586|
 
 A Candy Bucket|QID|32039|M|72.73,92.28|Z|Kun-Lai Summit|N|Puli the Even Handed, Binan Village|
-N Eastwind Rest|N|If you have not quested in Kun-Lai Summit, you need to unlock it.|
-F Eastwind Rest|QID|-4|M|72.54,94.18|Z|Kun-Lai Summit|N|Ask Jo the Wind Watcher to go to Westwind Rest|U|37586|
+N Eastwind Rest|QID|32040|N|If you have not quested in Kun-Lai Summit, you need to unlock it.|
+F Eastwind Rest|QID|32040|M|72.54,94.18|Z|Kun-Lai Summit|N|Ask Jo the Wind Watcher to go to Eastwind Rest|U|37586|
 
-A Candy Bucket|QID|-4|M|62.77,80.50|Z|Kun-Lai Summit|N|Mai the Sleepy, Eastwind Rest|FACTION|Horde|
+A Candy Bucket|QID|32040|PRE|30515|M|62.77,80.50|Z|Kun-Lai Summit|N|Mai the Sleepy, Eastwind Rest|FACTION|Horde|
 F Temple of the White Tiger|QID|32041|M|62.4,80.6|Z|Kun-Lai Summit|N|Ask Soaring Paw to go to Temple of the White Tiger|U|37586|
 
 A Candy Bucket|QID|32041|M|64.21,61.28|Z|Kun-Lai Summit|N|Li Goldendraft, The Grummle Bazaar|
@@ -218,14 +278,16 @@ A Candy Bucket|QID|32024|M|55.93,32.27|Z|Dread Wastes|N|Zit'tix, Klaxxi'vess|
 F Soggy's Gamble|QID|32023|M|55.83,34.87|Z|Dread Wastes|N|Ask Kik'Tik to go to Soggy's Gamble|U|37586|
 
 A Candy Bucket|QID|32023|M|55.21,71.20|Z|Dread Wastes|N|San the Sea Calmer, Soggy's Gamble |
-F Shrine of Seven Stars|QID|32052|M|56.10,70.18|Z|Dread Wastes|N|Ask Min the Breeze Rider to go to Shrine of Seven Stars|U|37586|
+F Shrine of Two Moonsa|QID|32052|M|56.10,70.18|Z|Dread Wastes|N|Ask Min the Breeze Rider to go to Shrine of Two Moons|U|37586|
 
-A Candy Bucket|QID|32052|M|87,69|Z|Vale of Eternal Blossoms|N|Matron Vi Vinh, Shrine of Seven Stars.|
+A Candy Bucket|QID|32022|M|58.22,77.68|Z|Vale of Eternal Blossoms|FACTION|HORDE|N|Brewmaster Skye, Shrine of Two Moons.|
 N Mistfall Village|N|Unless you have the Lotus rep and are L90, you cant get the last one.|
-F Mistfall Village|QID|-24|M|84.62,62.42|Z|Vale of Eternal Blossoms|N|Ask Sharinga Springrunner to go to Mistfall Village|U|37586|
+F Serpent's Spine|QID|32044|M|84.62,62.42|Z|Vale of Eternal Blossoms|N|Ask Sharinga Springrunner to go to Serpent's Spine|U|37586|
 
-A Candy Bucket|QID|-24|M|35.15,77.75|Z|Vale of Eternal Blossoms|N|Anonymous, Mistfall Village, phased|
+A Candy Bucket|QID|32044|M|35.15,77.75|Z|Vale of Eternal Blossoms|N|Anonymous, Mistfall Village, phased|
 N You made it!|N|Done with MoP|
 
 ]]
 end)
+
+

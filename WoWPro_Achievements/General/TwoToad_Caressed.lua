@@ -4,23 +4,40 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2017-03-15 20:59
+-- Who: Ludovicus_Maior
+-- Log: Syntax
+
+-- URL: http://wow-pro.com/node/3520/revisions/27107/view
+-- Date: 2014-12-25 20:11
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3520/revisions/27102/view
+-- Date: 2014-12-25 18:56
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3520/revisions/27101/view
+-- Date: 2014-12-25 18:55
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3520/revisions/26318/view
 -- Date: 2014-05-26 19:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guid etype to TwoCared
 
 -- URL: http://wow-pro.com/node/3520/revisions/26314/view
 -- Date: 2014-05-26 18:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3520/revisions/26197/view
 -- Date: 2014-05-22 22:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Registration guide
 
 -- URL: http://wow-pro.com/node/3520/revisions/26196/view
 -- Date: 2014-05-22 22:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Registration guide
 
 -- URL: http://wow-pro.com/node/3520/revisions/25939/view
@@ -32,12 +49,12 @@
 
 -- URL: http://wow-pro.com/node/3520/revisions/25556/view
 -- Date: 2013-03-23 15:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Twists [To All the Squirrels Who Cared for Me]
 
 -- URL: http://wow-pro.com/node/3520/revisions/25356/view
 -- Date: 2013-01-12 18:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Capitalization error on "Valley of the Four Winds"
 
 -- URL: http://wow-pro.com/node/3520/revisions/25322/view
@@ -56,21 +73,15 @@
 
 -- URL: http://wow-pro.com/node/3520/revisions/25258/view
 -- Date: 2012-12-19 22:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial
 
-local guide = WoWPro:RegisterGuide('TwoToadSqu',"Achievements",'MoP Zones', 'To All the Squirrels I Once Carressed?','Neutral')
+local guide = WoWPro:RegisterGuide('TwoToadSqu',"Achievements",'Pandaria', 'TwoToad', 'Neutral')
+WoWPro:GuideLevels(guide,85, 90, 89)
 WoWPro:GuideIcon(guide,"ACH",6350)
-WoWPro:GuideNextGuide(guide, 'TwoToad')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-; I left the misspelled guide title 'Carrassed' (Should be Caressed) just in case correcting it breaks the guide
-
-; Do we really need a note to tell us the title of the guide?
-;N To All the Squirrels I Once Carressed?
-
-;We do not need a note to tell us to love the animal listed. I added 'love' to the target option.
 F Leopard Tree Frog|QID|963500009|M|51,55|Z|The Jade Forest|ACH|6350;9|T|Leopard Tree Frog,love|
 F Shrine Fly|QID|963500015|M|36,58|Z|The Jade Forest|ACH|6350;15|T|Shrine Fly,love|
 F Coral Adder|QID|963500004|M|64,82|Z|The Jade Forest|ACH|6350;4|T|Coral Adder,love|
@@ -95,6 +106,8 @@ F Emperor Crab|QID|963500006|M|54,82|Z|Dread Wastes|ACH|6350;6|T|Emperor Crab,lo
 F Mongoose|QID|963500013|M|62,67|Z|Townlong Steppes|ACH|6350;13|T|Mongoose,love|
 F Yakrat|QID|963500017|M|76,82|Z|Townlong Steppes|ACH|6350;17|T|Yakrat,love|
 
-N Congratulations!|N|If you skipped the Dancing Water Skimmer, now is the time to queue up for the Temple of Kotmogu.
+N Congratulations!|N|If you skipped the Dancing Water Skimmer, now is the time to queue up for the Temple of Kotmogu.|
 ]]
 end)
+
+

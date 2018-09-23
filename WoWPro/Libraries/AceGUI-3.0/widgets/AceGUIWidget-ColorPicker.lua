@@ -1,7 +1,7 @@
 --[[-----------------------------------------------------------------------------
 ColorPicker Widget
 -------------------------------------------------------------------------------]]
-local Type, Version = "ColorPicker", 22
+local Type, Version = "ColorPicker", 23
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -146,7 +146,7 @@ local function Constructor()
 	local texture = frame:CreateTexture(nil, "BACKGROUND")
 	texture:SetWidth(16)
 	texture:SetHeight(16)
-	texture:SetTexture(1, 1, 1)
+	texture:SetColorTexture(1, 1, 1)
 	texture:SetPoint("CENTER", colorSwatch)
 	texture:Show()
 

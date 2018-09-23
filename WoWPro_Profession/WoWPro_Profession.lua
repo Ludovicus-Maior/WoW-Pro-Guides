@@ -18,11 +18,7 @@ function WoWPro.Profession:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Profession Module")
 	
 	-- Event Registration --
-	WoWPro.Profession.Events = {"QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
-		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "TRAINER_UPDATE",
-		"CHAT_MSG_SKILL",
-	}
+	WoWPro.Profession.Events = {"QUEST_COMPLETE", "TRAINER_UPDATE", "CHAT_MSG_SKILL" }
 	WoWPro:RegisterEvents(WoWPro.Profession.Events)
 	WoWPro:RegisterTags({"mat"})
 	--Loading Frames--
@@ -40,7 +36,7 @@ function WoWPro.Profession:OnEnable()
 	end
 	WoWProCharDB.ShowBOP = ((WoWProCharDB.ShowBOP == nil) and true) or (WoWProCharDB.ShowBOP and true)
 	WoWProCharDB.IgnoreProf = WoWProCharDB.IgnoreProf or false
-	WoWProCharDB.ProfessionalfOffset = WoWProCharDB.ProfessionalfOffset or 10
+	WoWProCharDB.ProfessionalfOffset = WoWProCharDB.ProfessionalfOffset or 100
 	
 	WoWPro.FirstMapCall = true
 end
@@ -56,31 +52,6 @@ function WoWPro.Profession:OnDisable()
 		WoWPro:RemoveMapPoint()
 		WoWProDB.char.lastProfessionguide = WoWProDB.char.currentguide
 	end
-end
-
--- Guide Registration Function --
-function WoWPro.Profession:RegisterGuide(GIDvalue, zonename, guidename, authorname, startlevelvalue, 
-	endlevelvalue, vendorP, factionname, sequencevalue)
-
-	
---[[ Purpose: 
-		Called by guides to register them to the WoWPro.Guide table. All members
-		of this table must have a quidetype parameter to let the addon know what 
-		module should handle that guide.]]
-		
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
-		-- If the guide is not of the correct faction, don't register it
-		
-	WoWPro.Guides[GIDvalue] = {
-		guidetype = "Profession",
-		zone = zonename,
-		name = guidename,
-		author = authorname,
-		startlevel = startlevelvalue,
-		endlevel = endlevelvalue,
-		sequence = sequencevalue,
-		nextGID = nil,
-	}
 end
 
 function WoWPro.Profession:LoadAllGuides()

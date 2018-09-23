@@ -4,33 +4,68 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2018-02-26 21:36
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3237/revisions/29038/view
+-- Date: 2018-02-20 01:03
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3237/revisions/29024/view
+-- Date: 2018-02-19 23:31
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3237/revisions/28843/view
+-- Date: 2018-01-16 23:17
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3237/revisions/28364/view
+-- Date: 2017-03-13 17:38
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3237/revisions/27625/view
+-- Date: 2016-08-29 22:56
+-- Who: Fluclo
+-- Log: Changed WoWPro:GuideLevels from 26 to 29, and removed redundant L step at beginning of guide.
+
+-- URL: http://wow-pro.com/node/3237/revisions/27152/view
+-- Date: 2015-03-04 20:25
+-- Who: Aldavor
+-- Log: Changed the 'CN' to 'CC' in "The Bloodsail Buccaneers" line to auto-complete directional waypoints.
+
+-- URL: http://wow-pro.com/node/3237/revisions/26811/view
 -- Date: 2014-11-06 13:12
 -- Who: Fluclo
 -- Log: Added missing pipe in High Priest Venoxis
 
 -- URL: http://wow-pro.com/node/3237/revisions/26628/view
 -- Date: 2014-07-25 22:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean
 
 -- URL: http://wow-pro.com/node/3237/revisions/26343/view
 -- Date: 2014-05-27 20:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "26,34".
 
 -- URL: http://wow-pro.com/node/3237/revisions/26236/view
 -- Date: 2014-05-25 22:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3237/revisions/26095/view
 -- Date: 2014-05-18 22:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3237/revisions/25968/view
 -- Date: 2014-05-14 22:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3237/revisions/25904/view
@@ -41,17 +76,17 @@
 
 -- URL: http://wow-pro.com/node/3237/revisions/25721/view
 -- Date: 2013-06-18 01:07
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest 26805's name [To the Cape] does not match Grail's database [To the Cape!].
 
 -- URL: http://wow-pro.com/node/3237/revisions/25596/view
 -- Date: 2013-03-23 20:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: quest name corrections.
 
 -- URL: http://wow-pro.com/node/3237/revisions/25438/view
 -- Date: 2013-01-13 15:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3237/revisions/24866/view
@@ -72,7 +107,7 @@
 
 -- URL: http://wow-pro.com/node/3237/revisions/24519/view
 -- Date: 2011-06-07 23:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: ! Line 72 for step C has unknown tag [Pick up Naga Icons.]: [C If They're Just Going to Leave Them Lying Around...|QID|26820|M|37.31,52.82|Pick up Naga Icons.|]
 --	! Line 155 for step C has unknown tag [Hand over the Gorilla Fang to Witch Doctor Unbagwam who will summon Mokk for you. Kill him and loot his heart.]: [C Stranglethorn Fever|QID|26597|L|2797|Hand over the Gorilla Fang to Witch Doctor Unbagwam who will summon Mokk for you. Kill him and loot his heart.|]
 
@@ -86,27 +121,27 @@
 
 -- URL: http://wow-pro.com/node/3237/revisions/24465/view
 -- Date: 2011-05-31 20:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: "The Cape of Stranglethorn" is the zone name.  The "The" matters!
 
 -- URL: http://wow-pro.com/node/3237/revisions/24298/view
 -- Date: 2011-04-29 14:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 131 for step T has unknown tag [Turns in at a barrel near the water.]
 
 -- URL: http://wow-pro.com/node/3237/revisions/24218/view
 -- Date: 2011-04-05 23:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3237/revisions/24145/view
 -- Date: 2011-03-06 19:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Removed references to [The Curse of the Tides] which is obsolete.
 --	Besides, they were all A steps and no C and T's.  Wierd.
 
 -- URL: http://wow-pro.com/node/3237/revisions/24126/view
 -- Date: 2011-02-23 01:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected Coordinates on [A Good-Fer-Nothin' Slither-Dogs], [Zanzil's Secret] and [Backdoor Dealings].
 --	Removed PRE tag on [Dask "The Flask" Gobfizzle] as it did not seem to be required for me.
 
@@ -119,13 +154,12 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitCap3035', "Leveling", 'The Cape of Stranglethorn', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,26,34, 30.1168)
+WoWPro:GuideLevels(guide,29,34, 30.1168)
+WoWPro:NewGuideLevels(guide,30,60)
 WoWPro:GuideNextGuide(guide, 'BitWes3540')
 WoWPro:GuideIcon(guide,"ACH",4905)
 WoWPro:GuideSteps(guide, function()
 return [[
-
-L Level 29 |QID|26805|N|You need to be Level 29 to work this guide.|LVL|29|
 
 R Fort Livingston |QID|26805|N|The Cape of Stranglethorn is found south of Northern Stranglethorn. To start this guide, first head to Fort Livingstone, to the south of Northern Stranglethorn.\n\nThere is a breadcrumb quest leading you to this zone, Hero's Call from the callboard in Stormwind City, which can be used in addition to the breadcrumb from Northern Stranglethorn.|
 A To the Cape! |QID|26805|M|53.37,66.32|N|From Wilfred Harrys in Fort Livingston, Northern Stranglethorn.  This quest is available even if you haven't quested in Northern Stranglethorn.|Z|Northern Stranglethorn|
@@ -142,7 +176,7 @@ A Dask "The Flask" Gobfizzle|QID|26825|M|55.12,42.44|N|From Bronwyn Hewstrike.|L
 T Dask "The Flask" Gobfizzle|QID|26825|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|O|
 T Dask "The Flask" Gobfizzle|QID|26826|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|O|
 
-A Too Big For His Britches|QID|26823|PRE|26825|M|55.31,41.93|N|From Dask "The Flask" Gobfizzle.|
+A Too Big For His Britches|QID|26823|PRE|26825+26826|M|55.31,41.93|N|From Dask "The Flask" Gobfizzle.|
 A Good-Fer-Nothin' Slither-Dogs|QID|26822|RANK|2|M|54.76,41.86|N|From Goris.|
 
 C Good-Fer-Nothin' Slither-Dogs|QID|26822|S|M|44.50,19.02|N|Kill Stranglethorn Basilisks on your way to Ironjaw Behemoth.|
@@ -193,7 +227,6 @@ A Airwyn Bantamflax|QID|26821|PRE|26824|M|55.32,42.39|N|From Bronwyn Hewstrike.|
 T Backdoor Dealings|QID|26809|M|55.72,42.20|N|To Maywiki.|
 A Eliminate the Outcast|QID|26810|PRE|26809|M|55.72,42.20|N|From Maywiki.|
 
-L Level 30 |QID|26810|N|You need to be Level 30 to continue with this guide.|LVL|30|
 C Recipe for Disaster|QID|26816|S|M|62.27,41.98|N|Kill Zanzil Witchdoctors for the Formulation.|
 A Message in a Bottle|QID|26603|M|57.36,39.64;62.41,46.70|CN|N|From the Half-Buried Bottle on the coast.|
 C Recipe for Disaster|QID|26816|US|M|62.27,41.98|N|Kill Zanzil Witchdoctors for the Formulation.|
@@ -237,18 +270,17 @@ A Mukla's Demise|QID|26606|PRE|26605|M|59.51,79.17|N|From Princess Poobah.|
 C Mukla's Demise|QID|26606|M|62.74,83.26|N|Kill Mukla. He will throw barrels at you DK style. Loot the Shackle Key.|
 T Mukla's Demise|QID|26606|M|59.44,79.11|N|To Princess Poobah.|
 
-L Level 31 |QID|26609|N|You need to be Level 31 to continue with this guide.|LVL|31|
 H The Salty Sailor Tavern |QID|26609|N|Hearthstone to The Salty Sailor Tavern in Booty Bay.|
 
 A Scaring Shaky|QID|26593|M|40.97,74.32;42.05,73.46|CC|N|From "Sea Wolf" MacKinley.|
 A Stranglethorn Fever|QID|26597|M|41.88,72.81|N|From Fin Fizracket.|
-A The Bloodsail Buccaneers|QID|26609|M|42.66,71.96|N|From First Mate Crazz.|
+A The Bloodsail Buccaneers|QID|26609|PRE|26595+26601+26606|M|42.66,71.96|N|From First Mate Crazz.|
 A The Captain's Chest|QID|26599|M|40.33,67.87|N|From Captain Hecklebury Smotts.|
 
 ;f Booty Bay|QID|26593|NC|M|41.64,74.47|N|Get the Booty Bay flight path.|
 
 K "Good-Boy" Bruce |QID|26617|L|59143|M|41.35,61.23|N|Kill and loot "Good-Boy" Bruce.|S|
-T The Bloodsail Buccaneers|QID|26609|M|42.33,67.89;45.06,65.75;41.35,61.16|CN|N|To Bloodsail Correspondence on the Southern Savage Coast.|
+T The Bloodsail Buccaneers|QID|26609|M|42.33,67.89;45.06,65.75;41.35,61.16|CC|N|To Bloodsail Correspondence on the Southern Savage Coast.|
 A Bloodsail Treachery|QID|26610|PRE|26609|M|41.35,61.16|N|From Bloodsail Correspondence.|
 K "Good-Boy" Bruce |QID|26617|L|59143|M|41.35,61.23|N|Kill and loot "Good-Boy" Bruce.|US|
 A An Old Sea Dog|QID|26617|U|59143|N|Accept this quest from the Weather-Beaten Coin.|
@@ -270,14 +302,14 @@ A The Baron Must Be Told|QID|26611|PRE|26610|M|42.53,72.05|N|From First Mate Cra
 T The Baron Must Be Told|QID|26611|M|41.14,73.15|N|To Baron Revilgaz, he's on the top floor of the Salty Sailor Tavern, out on the balcony.|
 
 A Details of the Attack|QID|26612|PRE|26611|M|41.14,73.15|N|From Baron Revilgaz.|
-A Up to Snuff|QID|26613|M|40.74,73.72|N|From Deeg.|
+A Up to Snuff|QID|26613|PRE|26611|M|40.74,73.72|N|From Deeg.|
 T The Captain's Chest|QID|26599|M|40.37,67.76|N|To Captain Hecklebury Smotts.|
 
 A A Giant's Feast|QID|26600|PRE|26599|M|40.37,67.76|N|From Captain Hecklebury Smotts.|
 T Scaring Shaky|QID|26593|M|40.48,67.70|N|To "Shaky" Phillipe.|
 
 A Return to MacKinley|QID|26594|PRE|26593|M|40.48,67.70|N|From "Shaky" Phillipe.|
-A Keep An Eye Out|QID|26614|M|43.43,71.37|N|Up the ramp and around to Dizzy One-Eye.|
+A Keep An Eye Out|QID|26614|PRE|26611|M|43.43,71.37|N|Up the ramp and around to Dizzy One-Eye.|
 T Return to MacKinley|QID|26594|M|41.99,73.47|N|To "Sea Wolf" MacKinley.|
 A Kill-Collect|QID|26595|PRE|26594|M|41.99,73.47|N|From "Sea Wolf" MacKinley.|
 B Crate of Pupellyverbos Port|QID|26600|M|41.01,73.98|N|Buy a Crate of Pupillyverbos Port from Whiskey Slim inside the Tavern.|L|59037|
@@ -292,7 +324,7 @@ C Kill-Collect|QID|26595|L|3924|M|59.55,49.16|N|Kill Maury "Clubfoot" Wilkins. L
 
 C Keep An Eye Out|QID|26614|M|43.16,81.72|N|Kill and loot Bloodsail mobs until this drops.|S|
 C Up to Snuff|QID|26613|M|41.17,82.64|N|Kill and loot Bloodsail mobs until you get 15 Snuff.|S|
-C A Dish Best Served Huge|QID|26602|QO|Negolash slain: 1/1|M|49.68,81.16|N|Activate the Life Boat. Put in the food. Wait for Negolash to appear. Kill him!|
+C A Dish Best Served Huge|QID|26602|QO|1|M|49.68,81.16|N|Activate the Life Boat. Put in the food. Wait for Negolash to appear. Kill him!|; Negolash slain: 1/1
 C Details of the Attack|QID|26612|M|45.09,79.59;42.08,83.04;41.12,82.55|CN|N|The Orders and the Charts can be at any of the waypoints. Don't forget to kill the Bloodsail mobs needed.|
 C Keep An Eye Out|QID|26614|M|43.16,81.72|N|Kill and loot Bloodsail mobs until this drops.|US|
 C Up to Snuff|QID|26613|M|41.17,82.64|N|Kill and loot Bloodsail mobs until you get 15 Snuff.|US|
@@ -303,7 +335,7 @@ T Up to Snuff|QID|26613|M|40.75,73.78|N|To Deeg, on the top floor.|
 T Details of the Attack|QID|26612|M|41.12,73.13|N|To Baron Revilgaz.|
 
 A Getting In With the Bloodsail|QID|26624|PRE|26612|M|41.12,73.13|N|From Baron Revilgaz.|
-T Kill-Collect|QID|26595|M|42.04,73.47|N|To "Sea Wolf" MacKinley.
+T Kill-Collect|QID|26595|M|42.04,73.47|N|To "Sea Wolf" MacKinley.|
 T Keep An Eye Out|QID|26614|M|43.33,71.41|N|Up the ramp to Dizzy One-Eye.|
 T A Dish Best Served Huge|QID|26602|M|40.37,67.84|N|To Captain Hecklebury Smotts.|
 
@@ -325,21 +357,21 @@ A Your First Day as a Pirate|QID|26631|PRE|26629|M|43.85,56.34|N|From Yancey Gri
 
 T Your First Day as a Pirate|QID|26631|M|50,68;45.03,93.29;44.41,91.61|CC|N|To Captain Keelhaul, in the right-hand ship of Wild Shore.|
 A Swabbing Duty|QID|26633|PRE|26631|M|44.41,91.61|N|From Captain Keelhaul.|
-A Cannonball Swim|QID|26635|M|44.53,92.92|N|From "Pretty Boy" Duncan, back up on deck.|
+A Cannonball Swim|QID|26635|PRE|26631|M|44.53,92.92|N|From "Pretty Boy" Duncan, back up on deck.|
 C Swabbing Duty|QID|26633|M|44.73,92.84|N|Grab a mop up on deck and activate the globs of goo as they appear. Or if you're lazy, pay Duncan a gold to do it for you.|NC|
 
-A The Bane of Many A Pirate|QID|26634|M|44.50,92.03|N|Up by the helm from Garr Salthoof.|
+A The Bane of Many A Pirate|QID|26634|PRE|26631|M|44.50,92.03|N|Up by the helm from Garr Salthoof.|
 T Swabbing Duty|QID|26633|M|44.47,91.41|N|To Captain Keelhaul.|
 C Cannonball Swim|QID|26635|M|43.59,97.78|N|Dive off the ship and search the bottom for cannonballs.|
 T Cannonball Swim|QID|26635|M|44.62,93.47|N|To "Pretty Boy" Duncan.|
 C The Bane of Many A Pirate|QID|26634|M|45.97,80.36|N|Look for crates near trees and rowboats. Kill the theives that appear.|
 T The Bane of Many A Pirate|QID|26634|M|44.51,91.89|N|To Garr Salthoof.|
 
-A Attracting Attention|QID|26644|PRE|26633|M|44.43,91.69|N|From Captain Keelhaul.|
+A Attracting Attention|QID|26644|PRE|26633;26634;26635|M|44.43,91.69|N|From Captain Keelhaul.|
 T Attracting Attention|QID|26644|M|46.68,95.26|N|To Fleet Master Firallon.|
 
-A Ol' Blasty|QID|26647|M|46.68,94.97|N|From Ironpatch.|
-A Our Mortal Enemies|QID|26648|M|46.57,94.11|N|From "Dead-Eye" Drederick McGumm.|
+A Ol' Blasty|QID|26647|PRE|26644|M|46.68,94.97|N|From Ironpatch.|
+A Our Mortal Enemies|QID|26648|PRE|26644|M|46.57,94.11|N|From "Dead-Eye" Drederick McGumm.|
 C Ol' Blasty|QID|26647|M|46.90,93.91|N|Grab a cannon. Ability 1 is ready, 2 is Aim (locks target in place), aim ahead of the dummy. Ability 3 Fires the cannon.|
 T Ol' Blasty|QID|26647|M|46.69,94.95|N|To Ironpatch.|
 
@@ -349,7 +381,7 @@ C Our Mortal Enemies|QID|26648|U|59226|M|63.34,83.65|N|When you get to the islan
 T Our Mortal Enemies|QID|26648|M|63.18,83.31|N|(UI Alert)|
 T Drive-By Piracy|QID|26649|M|46.68,94.99|N|To Ironpatch.|
 
-A The Damsel's Luck|QID|26650|PRE|26649|M|46.70,95.24|N|From Fleet Master Firallon.|
+A The Damsel's Luck|QID|26650|PRE|26648|M|46.70,95.24|N|From Fleet Master Firallon.|
 T The Damsel's Luck|QID|26650|M|50.30,91.46|N|To Captain Still Water's Charts.|
 
 A The Brashtide Crew|QID|26662|PRE|26650|M|50.30,91.46|N|From Captain Still Water's Charts.|
@@ -357,14 +389,14 @@ A Sinking From Within|QID|26663|PRE|26650|M|50.30,91.46|N|From Captain Still Wat
 A Making Mutiny|QID|26664|PRE|26650|M|50.30,91.46|N|From Captain Still Water's Charts.|
 
 C Making Mutiny|QID|26664|M|44.71,92.59|S|N|Accuse Corsairs of mutiny. When they attack, kill them.|
-C Speak with Long John Copper|QID|26662|M|51.27,91.38|QO|Speak with Long John Copper: 1/1|N|On The Damsel's Luck.|
-C Sabotage the Grog|QID|26663|M|50.96,91.52|QO|Sabotage the Grog: 1/1|N|On the lowest level of The Damsel's Luck.|
+C Speak with Long John Copper|QID|26662|M|51.27,91.38|QO|1|N|On The Damsel's Luck.|; Speak with Long John Copper: 1/1
+C Sabotage the Grog|QID|26663|M|50.96,91.52|QO|1|N|On the lowest level of The Damsel's Luck.|; Sabotage the Grog: 1/1
 
-C Speak with Enormous Shawn Stooker|QID|26662|M|46.77,94.17|QO|Speak with Enormous Shawn Stooker: 1/1|N|Now head to The Crimson Veil ship. Go to the lowest level and speak to Enormous Shawn.|
-C Sabotage the Gunpowder|QID|26663|M|46.80,93.79|QO|Sabotage the Gunpowder: 1/1|N|Activate the Gunpowder Barrell on the lowest level of the ship.|
+C Speak with Enormous Shawn Stooker|QID|26662|M|46.77,94.17|QO|2|N|Now head to The Crimson Veil ship. Go to the lowest level and speak to Enormous Shawn.|; Speak with Enormous Shawn Stooker: 1/1
+C Sabotage the Gunpowder|QID|26663|M|46.80,93.79|QO|2|N|Activate the Gunpowder Barrell on the lowest level of the ship.|; Sabotage the Gunpowder: 1/1
 
-C Speak with Wailing Mary Smitts|QID|26662|M|44.52,93.15|QO|Speak with Wailing Mary Smitts: 1/1|N|Last, head to The Riptide ship. One level down, speak to Wailing Mary.|
-C Sabotage the Cannonballs|QID|26663|M|44.71,92.78|QO|Sabotage the Cannonballs: 1/1|N|On the lowest level, between a wall and some normal crates.|
+C Speak with Wailing Mary Smitts|QID|26662|M|44.52,93.15|QO|3|N|Last, head to The Riptide ship. One level down, speak to Wailing Mary.|; Speak with Wailing Mary Smitts: 1/1
+C Sabotage the Cannonballs|QID|26663|M|44.71,92.78|QO|3|N|On the lowest level, between a wall and some normal crates.|; Sabotage the Cannonballs: 1/1
 C Making Mutiny|QID|26664|M|44.71,92.59|US|N|Finish your accusations if necessary.|
 
 T The Brashtide Crew|QID|26662|M|44.52,93.15|N|(UI Alert)|
@@ -402,12 +434,12 @@ T Turning the Brashtide|QID|26699|M|41.12,73.09|N|To Baron Revilgaz.|
 C The Final Voyage of the Brashtide|QID|26697|M|40.47,73.38;34.06,53.27|CN|N|Speak to Kebok for a ride. Use Action 1 to bomb the ships and rowboats. Don't forget you need to get 6 of them too. Use Action 3 to return when finished.|
 T The Final Voyage of the Brashtide|QID|26697|M|41.12,73.12|N|To Baron Revilgaz.|
 
-A Bloodsail's End|QID|26703|PRE|26679|M|41.12,73.12|N|From Baron Revilgaz.|
+A Bloodsail's End|QID|26703|PRE|26697;26699;26700|M|41.12,73.12|N|From Baron Revilgaz.|
 C Bloodsail's End|QID|26703|M|40.47,73.38;36.05,66.51|CS|N|Speak to Kebok again. Once on the ship, go down to the Captain's room and kill him and his little parrot too.|
 T Bloodsail's End|QID|26703|M|41.17,73.15|N|To Baron Revilgaz.|
 
 A The Call of Kalimdor|QID|26596|M|40.56,68.20|N|If you're going to go to Dustwallow Marsh in Kalimdor next, skip this if you wish to do Western Plaguelands. From Corporal Jeyne.|
-A The Battle for Andorhal|QID|28749|M|41.55,74.35|N|If you are going to go to the Western Plaguelands next. Ask him for teleport. From War-Mage Erallier.|
+A The Battle for Andorhal|QID|28749|LEAD|27159|M|41.55,74.35|N|If you are going to go to the Western Plaguelands next. Ask him for teleport. From War-Mage Erallier.|
 
 R Western Plaguelands|QID|28749|O|M|41.55,74.34|N|To continue to Western Plaguelands, get a teleport from War-Mage Erallier below the Alliance Flight Master.|
 b Northern Barrens|QID|26596|O|M|39.10,67.05|N|To continue on to Dustwallow Marsh in Kalimdor, hop on the ship to Ratchet.|
@@ -416,3 +448,5 @@ N Close this step to go onto the next guide.|N|Those doing Dustwallow Marsh will
 ]]
 
 end)
+
+

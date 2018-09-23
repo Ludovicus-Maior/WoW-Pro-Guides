@@ -84,6 +84,18 @@ local function categorySort()
 	end
 end
   
+-- Fancy tooltip!
+function WoWPro.WorldEvents.GuideTooltipInfo(row, tooltip, guide)
+    WoWPro:ResolveIcon(guide)
+    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    GameTooltip:AddLine(guide.name)
+    if guide.icon then
+        GameTooltip:AddTexture(guide.icon,1,1,1,1)
+        GameTooltip:AddLine(guide.icon)
+    else
+        GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
+    end
+end
   
   
 -- Describe the table to the Core Module

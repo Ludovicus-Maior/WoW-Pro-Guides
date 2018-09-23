@@ -4,48 +4,63 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2018-08-24 16:43
+-- Who: Ludovicus_Maior
+-- Log: Update QOs
+
+-- URL: http://wow-pro.com/node/3504/revisions/28739/view
+-- Date: 2017-08-05 19:47
+-- Who: Ludovicus_Maior
+-- Log: Put QID before ACTIVE for [The Warlord's Ashes], [The Matriarch's Maw] and [Kypa'rak's Core]
+
+-- URL: http://wow-pro.com/node/3504/revisions/27069/view
+-- Date: 2014-12-02 03:15
+-- Who: Blanckaert
+-- Log: Added QID for Quest Seeds of Fear, QID#31603
+
+-- URL: http://wow-pro.com/node/3504/revisions/26879/view
 -- Date: 2014-11-08 00:18
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: BAd N's
 
 -- URL: http://wow-pro.com/node/3504/revisions/26569/view
 -- Date: 2014-07-06 15:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added levels
 
 -- URL: http://wow-pro.com/node/3504/revisions/26505/view
 -- Date: 2014-06-10 22:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Converted guide.
 
 -- URL: http://wow-pro.com/node/3504/revisions/25754/view
 -- Date: 2013-09-10 23:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Coordinate corrections for "Xaril the Poisoned Mind".
 
 -- URL: http://wow-pro.com/node/3504/revisions/25696/view
 -- Date: 2013-06-04 23:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added QUIDs to the notes at the start so it stops asking ya questions if you don't need it anymore.
 
 -- URL: http://wow-pro.com/node/3504/revisions/25667/view
 -- Date: 2013-05-17 19:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added the missing CN tags
 
 -- URL: http://wow-pro.com/node/3504/revisions/25652/view
 -- Date: 2013-05-15 23:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added missing quests at revered.  General cleanups.  Still missing some CN/CS/CC tags and T tags.
 
 -- URL: http://wow-pro.com/node/3504/revisions/25553/view
 -- Date: 2013-03-20 00:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrected quest names from  Blanckaert's report.
 
 -- URL: http://wow-pro.com/node/3504/revisions/25300/view
 -- Date: 2013-01-09 17:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3504/revisions/25274/view
@@ -95,12 +110,12 @@
 
 -- URL: http://wow-pro.com/node/3504/revisions/25143/view
 -- Date: 2012-10-18 23:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Original from way2hairy
 
 -- URL: http://wow-pro.com/node/3504/revisions/25115/view
 -- Date: 2012-10-07 22:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("WayKlaxxi",'Dailies', "Dread Wastes", "Way2hairy", "Neutral")
 WoWPro:GuideLevels(guide,89,89,89)
@@ -151,19 +166,19 @@ A Extracting Answers|QID|31465|PRE|31441|N|From Hisek the Swarmkeeper|M|56.25,58
 
 C Damage Control|QID|31458|M|55.64,46.77|N|From Hisek the Swarmkeeper. Kill Ik'thik Whisperer around the beacon and then click on it.|
 
-C Extracting Answers|QID|31465|N|Collect Mandibles from the Ik'thik Swarmborn|QO|Venom-Coated Mandible: 6/6|M|51.20,49.80;51.40,46.20;51.65,51.75;51.40,44.00;54.33,45.19;54.40,51.05;56.59,46.55|CN|
+C Venom-Coated Mandible|QID|31465|N|Collect Mandibles from the Ik'thik Swarmborn|QO|1|M|51.20,49.80;51.40,46.20;51.65,51.75;51.40,44.00;54.33,45.19;54.40,51.05;56.59,46.55|CN|
 
 R Beneath the Heart of Fear|QID|31018|M|29.00,42.40|N|Entrance|Z|Dread Wastes|CC|
 
-C Adjunct Tzikzi slain|QID|31018|QO|Adjunct Tzikzi slain: 1/1|M|30.80,44.20|N|Try to stay in the hall of the chamber, or he might reset.|
+C Adjunct Tzikzi slain|QID|31018|QO|4|M|30.80,44.20|N|Try to stay in the hall of the chamber, or he might reset.|
 
-C Adjunct Suruz slain|QID|31018|QO|Adjunct Suruz slain: 1/1|M|33.20,44.20|N|Try to stay in the hall of the chamber, or he might reset.|
+C Adjunct Suruz slain|QID|31018|QO|3|M|33.20,44.20|N|Try to stay in the hall of the chamber, or he might reset.|
 
-C Adjunct Ikkess slain|QID|31018|QO|Adjunct Ikkess slain: 1/1|M|33.20,40.40|N|Try to stay in the hall of the chamber, or he might reset.|
+C Adjunct Ikkess slain|QID|31018|QO|2|M|33.20,40.40|N|Try to stay in the hall of the chamber, or he might reset.|
 
-C Adjunct Ek'vem slain|QID|31018|QO|Adjunct Ek'vem slain: 1/1|M|30.80,40.40|N|Try to stay in the hall of the chamber, or he might reset.|
+C Adjunct Ek'vem slain|QID|31018|QO|1|M|30.80,40.40|N|Try to stay in the hall of the chamber, or he might reset.|
 
-C Beneath the Heart of Fear|QID|31018|N|Awaken Xaril the Poisoned Mind. Click the cog floating above the rock.|M|32.00,42.30|
+C Xaril the Poisoned Mind|QID|31018|QO|5|N|Awaken Xaril the Poisoned Mind. Click the cog floating above the rock.|M|32.00,42.30|
 
 T Beneath the Heart of Fear|QID|31018|M|28.67,42.14|N|To Xaril the Poisoned Mind|
 
@@ -239,9 +254,9 @@ A Kil'ruk the Wind-Reaver's Quests|M|55.06,35.86|N|Any and all quests from Kil'r
 
 C Dark Skies|QID|31216|M|54.80,36.00|N|Speak to Xaril the Poisoned Mind to start the bombing run.|
 
-C Locate Kovok|QID|31808|QO|Locate Kovok near the Clutches of Shek'zeer: 1/1|M|50.7,41.6|N|Use Kovok to slay 200 Mantids.|
+C Locate Kovok|QID|31808|QO|1|M|50.7,41.6|N|Use Kovok to slay 200 Mantids.|
 
-C Rampage Against the Machine|QID|31808|M|51.00,43.00|N|Kill Mantids all over the area.|
+K Mantids Slaughter|QID|31808|QO|2|M|51.00,43.00|N|Kill Mantids all over the area.|
 
 ; Lake of Stars
 
@@ -289,7 +304,7 @@ C Putting An Eye Out|QID|31234|N|Drops from Mire Beasts.|S|
 
 K Summon and Kill Warlord Gurthan|QID|31233;31232;31231;31237;31235;31234|L|88715|M|66.20,31.80|N|Requires two players; one to /lay on Green Rune and another to /kneel on the Red Rune. Loot his corpse.|
 
-A The Warlord's Ashes|ACTIVE|31233;31232;31231;31237;31235;31234|QID|31677|O|U|88715|N|Accept the quest from the ashes.|
+A The Warlord's Ashes|QID|31677|ACTIVE|31233;31232;31231;31237;31235;31234|O|U|88715|N|Accept the quest from the ashes.|
 
 C Putting An Eye Out|QID|31234|US|M|67.20,36.00|N|Drops from Mire Beasts.|
 
@@ -325,15 +340,15 @@ C Wing Clip|QID|31502|N|Collect 24 Needler Wings from Shek'zeer Needlers.|US|M|3
 
 K Karanosh|QID|31109;31504;31502;31503;31599|M|41.80,33.60|L|87878|T|Karanosh|N|Kill Karanosh and Loot the Enormous Kunchong Mandibles.|
 
-A The Matriarch's Maw|ACTIVE|31109;31504;31502;31503;31599|QID|31599|U|87878|N|Accept the quest from the mandibles.|
+A The Matriarch's Maw|QID|31599|ACTIVE|31109;31504;31502;31503;31599|U|87878|N|Accept the quest from the mandibles.|
 
-C Sap Jar filled at North feeder|QID|31496|U|87400|QO|North Feeder: 1/1|M|36.00,32.00|
+C Sap Jar filled at North feeder|QID|31496|U|87400|QO|3|M|36.00,32.00|
 
-C Sap Jar filled at Central feeder|QID|31496|U|87400|QO|Central Feeder: 1/1|M|37.00,28.00|
+C Sap Jar filled at Central feeder|QID|31496|U|87400|QO|1|M|37.00,28.00|
 
-C Sap Jar filled at East feeder|QID|31496|U|87400|QO|East Feeder: 1/1|M|38.00,31.00|
+C Sap Jar filled at East feeder|QID|31496|U|87400|QO|2|M|38.00,31.00|
 
-C Sap Jar filled at Northeast feeder|QID|31496|U|87400|QO|Northeast Feeder: 1/1|M|39.00,29.00|
+C Sap Jar filled at Northeast feeder|QID|31496|U|87400|QO|4|M|39.00,29.00|
 
 C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|US|M|44.60,43.20|
 
@@ -343,7 +358,7 @@ R The Briny Muck|QID|31111;31508;31509;31506;31505;31507;31510|N|Get your favori
 
 K Kypa'rak|QID|31111;31508;31509;31506;31505;31507;31510|M|34.20,59.80|T|Kypa'rak|L|87871 |N|Loot the Massive Kyparite Core.|
 
-A Kypa'rak's Core|ACTIVE|31111;31508;31509;31506;31505;31507;31510|QID|31598|O|U|87871|N|Accept the quest from the kyparite core.|
+A Kypa'rak's Core|QID|31598|ACTIVE|31111;31508;31509;31506;31505;31507;31510|O|U|87871|N|Accept the quest from the kyparite core.|
 
 C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik Manipulators.|S|
 
@@ -353,13 +368,13 @@ C Fear Takes Root|QID|31509|N|Destroy 15 Dreadspore Bulbs in Zan'vess and The Br
 
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|S|
 
-K Vess-Guard Vik'az|QID|31505|M|29.00,75.60|QO|Vess-Guard Vik'az slain: 1/1|T|Vess-Guard Vik'az|
+K Vess-Guard Vik'az|QID|31505|M|29.00,75.60|QO|1|T|Vess-Guard Vik'az|
 
 C Meltdown|QID|31507|M|23.00,77.60|U|87841|N|Slay 6 Zan'thik Venomstings in Zan'vess. Use Korven's Experimental Grenade to counter their armor plating.|
 
 R Whispering Stones|QID|31510|M|24.20,86.20|N|Interact with the Zan'thik Resonating Crystal at the Whispering Stones in Zan'vess to incite Adjunct Sek'ot|
 
-K Adjunct Sek'ot|QID|31510|M|24.20,86.20|T|Adjunct Sek'ot|QO|Adjunct Sek'ot slain: 1/1|N|After you interact with the crystal, he will appear, kill him.|
+K Adjunct Sek'ot|QID|31510|M|24.20,86.20|T|Adjunct Sek'ot|QO|1|N|After you interact with the crystal, he will appear, kill him.|
 
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|US|M|29.20,89.60|
 
@@ -375,7 +390,7 @@ T Kypa'rak's Core|QID|31598|M|55.00,35.40|N|To Ambersmith Zikk.|
 
 T The Matriarch's Maw|QID|31599|M|55.00,35.40|N|To Ambersmith Zikk.|
 
-T Seeds of Fear|M|55.00,35.40|L|87903 5|N|If you have 5 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|;patch 5.1 changed to 5 shards from 20
+T Seeds of Fear|QID|31603|M|55.00,35.40|L|87903 5|N|If you have 5 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|;patch 5.1 changed to 5 shards from 20 ;Added QID ID for Quest
 
 T Culling the Swarm|QID|31109|M|55.10,35.90|N|To Kil'ruk the Wind-Reaver.|
 
@@ -444,3 +459,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
+

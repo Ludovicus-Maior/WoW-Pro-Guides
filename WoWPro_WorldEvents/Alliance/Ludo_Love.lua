@@ -4,52 +4,78 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2018-08-23 23:33
+-- Who: jovieve
+-- Log: Updated old style QO tags.
+
+-- URL: http://wow-pro.com/node/3466/revisions/29548/view
+-- Date: 2018-08-18 21:02
+-- Who: Ludovicus_Maior
+-- Log: Correct L step to l step.
+
+-- URL: http://wow-pro.com/node/3466/revisions/28504/view
+-- Date: 2017-03-17 13:52
+-- Who: Ludovicus_Maior
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3466/revisions/28291/view
+-- Date: 2017-03-05 18:55
+-- Who: Ludovicus_Maior
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3466/revisions/27359/view
+-- Date: 2015-07-25 18:12
+-- Who: Ludovicus_Maior
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3466/revisions/26863/view
 -- Date: 2014-11-07 21:43
 -- Who: Emmaleah
 -- Log: Delete dup QID's per list o' errors.
 
 -- URL: http://wow-pro.com/node/3466/revisions/26604/view
 -- Date: 2014-07-25 21:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Adj levels
 
 -- URL: http://wow-pro.com/node/3466/revisions/26493/view
 -- Date: 2014-06-10 21:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Converted guide
 
 -- URL: http://wow-pro.com/node/3466/revisions/25879/view
 -- Date: 2014-02-13 16:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Leaders dailies and shuffled flow.
 
 -- URL: http://wow-pro.com/node/3466/revisions/25718/view
 -- Date: 2013-06-18 00:59
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing coordinate, 1/1 in guide LudoLoveA, line [A/T You've Been Served].
 
 -- URL: http://wow-pro.com/node/3466/revisions/25643/view
 -- Date: 2013-05-14 19:11
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Z tag corrections
 
 -- URL: http://wow-pro.com/node/3466/revisions/25528/view
 -- Date: 2013-02-11 11:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added [Crushing the Crown] and some of the dalies.
 
 -- URL: http://wow-pro.com/node/3466/revisions/24936/view
 -- Date: 2012-02-05 13:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrections after runthrough
 
 -- URL: http://wow-pro.com/node/3466/revisions/24934/view
 -- Date: 2012-02-04 23:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoLoveA",'WorldEvents',"Love is in the Air", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,81,8.55102)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
+WoWPro:GuideIcon(guide,"ACH",1695)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -65,24 +91,24 @@ A Something Stinks|QID|24655|M|61.50,75.29|Z|Stormwind City|N|From Inspector Sni
 C Heavily Perfumed Guards|QID|24655|Z|Stormwind City|U|50131|N|Find the guards with the clouds and use the analyzer|
 T Something Stinks|QID|24655|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
-A Pilfering Perfume|QID|24656|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|
+A Pilfering Perfume|QID|24656|PRE|24655|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|
 C Pilfering Perfume|QID|24656|M|34.16,47.31|Z|Elwynn Forest|N|Run outside of Stormwind City Gates|
 T Pilfering Perfume|QID|24656|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
-A Fireworks At The Gilded Rose|QID|24848|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|
+A Fireworks At The Gilded Rose|QID|24848|PRE|24656|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|
 T Fireworks At The Gilded Rose|QID|24848|M|60.62,76.38|Z|Stormwind City|N|To Marion Sutton|
 
-A Hot On The Trail|QID|24849|M|60.62,76.38|Z|Stormwind City|N|From Marion Sutton|
-C Hot On The Trail|QID|24849|M|62.9,78.4|Z|Stormwind City|N|Look for him at the Bank|QO|Stormwind Counting House searched: 1/1|
-C Hot On The Trail|QID|24849|M|61.4,71.4|Z|Stormwind City|N|Look for him at the Auction House|QO|Stormwind Auction House searched: 1/1|
-C Hot On The Trail|QID|24849|M|61.5,64.6|Z|Stormwind City|N|Look for him at the Barber Shop|QO|Stormwind Barber Shop House searched: 1/1|
+A Hot On The Trail|QID|24849|PRE|24848|M|60.62,76.38|Z|Stormwind City|N|From Marion Sutton|
+C Stormwind Counting House|QID|24849|M|62.9,78.4|Z|Stormwind City|N|Look for Snivel Rustrocket at the bank.|QO|1|
+C Stormwind Auction House|QID|24849|M|61.4,71.4|Z|Stormwind City|N|Look for Snivel Rustrocket at the Auction House.|QO|2|
+C Stormwind Barber Shop|QID|24849|M|61.5,64.6|Z|Stormwind City|N|Look for Snivel Rustrocket at the Barber Shop.|QO|3|
 T Hot On The Trail|QID|24849|M|60.62,76.38|Z|Stormwind City|N|To Marion Sutton|
 
-A A Friendly Chat...|QID|24657|M|60.62,76.38|Z|Stormwind City|N|From Marion Sutton|
+A A Friendly Chat...|QID|24657|PRE|24849|M|60.62,76.38|Z|Stormwind City|N|From Marion Sutton|
 C A Friendly Chat...|QID|24657|M|27.42,34.82|Z|Stormwind City|N|Find Snivel Rustrocket at Stormwind Harbor and talk to him...|L|49915|
 T A Friendly Chat...|QID|24657|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
-L Lovely Charm Collector's Kit|L|49661|M|62.53,74.96|Z|Stormwind City|N|Ask Kwee Q. Peddlefeet for a Kit.|
+l Lovely Charm Collector's Kit|L|49661|M|62.53,74.96|Z|Stormwind City|N|Ask Kwee Q. Peddlefeet for a Kit.|
 
 A Crown Chemical Company Daily|QID|24635;24629;24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
 C A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|Spray everyone and any NPC in sight.|U|49669|
@@ -128,3 +154,5 @@ N All done for the day|
 
 ]]
 end)
+
+

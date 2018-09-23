@@ -44,7 +44,7 @@ local function nameSort()
 	if sorttype == "NameAsc" then
 		table.sort(guides, function(a,b) return a.Name > b.Name end)
 		WoWPro.Profession:UpdateGuideList()
-		sorttype = "Nameesc"
+		sorttype = "NameDesc"
 	else
 		table.sort(guides, function(a,b) return a.Name < b.Name end)
 		WoWPro.Profession:UpdateGuideList()
@@ -52,6 +52,14 @@ local function nameSort()
 	end
 end
 
+-- Fancy tooltip!
+function WoWPro.Profession.GuideTooltipInfo(row, tooltip, guide)
+    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    GameTooltip:AddLine(guide.name.."      ")
+    GameTooltip:AddLine("")
+    GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    GameTooltip:AddDoubleLine("Name:",guide.name,1,1,1,unpack(WoWPro.LevelColor(guide)))
+end
 
 
 

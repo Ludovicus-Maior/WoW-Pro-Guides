@@ -4,32 +4,81 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2018-08-23 23:43
+-- Who: jovieve
+-- Log: Removed old style QO since step has a CS tag.
+
+-- URL: http://wow-pro.com/node/3244/revisions/29171/view
+-- Date: 2018-02-26 21:38
+-- Who: Ludovicus_EditBot
+-- Log: Level strip
+
+-- URL: http://wow-pro.com/node/3244/revisions/29041/view
+-- Date: 2018-02-20 01:07
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3244/revisions/29028/view
+-- Date: 2018-02-19 23:35
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3244/revisions/28848/view
+-- Date: 2018-01-16 23:20
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3244/revisions/28378/view
+-- Date: 2017-03-15 21:13
+-- Who: Ludovicus_Maior
+-- Log: Added PREs to BitWes3540
+
+-- URL: http://wow-pro.com/node/3244/revisions/27627/view
+-- Date: 2016-08-29 22:57
+-- Who: Fluclo
+-- Log: Removed redundant L step from beginning of guide
+
+-- URL: http://wow-pro.com/node/3244/revisions/27553/view
+-- Date: 2016-08-15 20:16
+-- Who: tubera
+-- Log: Fix several QOs
+
+-- URL: http://wow-pro.com/node/3244/revisions/27464/view
+-- Date: 2016-07-17 20:15
+-- Who: Ludovicus_Maior
+-- Log: Added Andorhal flight point capture
+
+-- URL: http://wow-pro.com/node/3244/revisions/27262/view
+-- Date: 2015-05-22 20:54
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3244/revisions/26814/view
 -- Date: 2014-11-06 13:31
 -- Who: Fluclo
 -- Log: Fixed level tag at The Battle Resumes!
 
 -- URL: http://wow-pro.com/node/3244/revisions/26635/view
 -- Date: 2014-07-26 00:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3244/revisions/26355/view
 -- Date: 2014-05-27 20:46
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: GuideLevels corrected from "0,0" to "34,39".
 
 -- URL: http://wow-pro.com/node/3244/revisions/26244/view
 -- Date: 2014-05-25 22:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3244/revisions/26089/view
 -- Date: 2014-05-18 22:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3244/revisions/25972/view
 -- Date: 2014-05-14 22:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3244/revisions/25905/view
@@ -59,12 +108,12 @@
 
 -- URL: http://wow-pro.com/node/3244/revisions/25590/view
 -- Date: 2013-03-23 20:22
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: name tweaks
 
 -- URL: http://wow-pro.com/node/3244/revisions/25395/view
 -- Date: 2013-01-12 22:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3244/revisions/24870/view
@@ -131,16 +180,16 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitWes3540', "Leveling", 'Western Plaguelands', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,34,39, 35)
+WoWPro:GuideLevels(guide,34,39,35.1196)
+WoWPro:NewGuideLevels(guide,35,60)
 WoWPro:GuideNextGuide(guide, 'CraEas4045')
 WoWPro:GuideIcon(guide,"ACH",4893)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 34 |QID|27161|N|You need to be Level 34 to do this guide.|LVL|34|
-
 R Andorhal |QID|27161|N|Western Plaguelands is located north of The Hinterlands.  You can take the quest The Battle for Andorhal from Booty Bay (War-Mage Erallier near the Flightmaster), Gryphon Master Talonaxe in Aerie Peak, or from Commander Ashlam Valorfist in Chillwind Camp.  Each will give you transportation to Andorhal. Alternatively, you can also take the Hero's Call from Ironforge or Stormwind City.|M|41.08,70.26|
 
+F Andorhal|QID|27161|M|39.43,69.54|N|Flight Point|
 T The Battle for Andorhal|QID|27158|M|40.97,70.38|N|To Thassarian.|O|
 T The Battle for Andorhal|QID|28505|M|40.97,70.38|N|To Thassarian.|O|
 T The Battle for Andorhal|QID|28749|M|40.97,70.38|N|To Thassarian.|O|
@@ -204,7 +253,7 @@ C Those That Couldn't Let Go|QID|27168|S|U|60861|T|Withdrawn Soul|M|49.84,80.79|
 C Uther's Blessing|QID|27169|NC|U|61920|M|51.94,82.64|N|Use the Chillwind Tribute at Uther's Tomb.|
 
 T Uther's Blessing|QID|27169|M|51.95,82.71|N|To High Priest Thel'danis.|
-A The Abandoned Crypt|QID|27170|M|51.95,82.71|N|From High Priest Thel'danis.|
+A The Abandoned Crypt|QID|27170|PRE|27169|M|51.95,82.71|N|From High Priest Thel'danis.|
 T The Abandoned Crypt|QID|27170|M|54.32,79.92;53.75,80.43|CS|N|Head into the Crypt, go all the way down. Then turn the quest into the Broken Weapons Crate.|
 A Ambushed!|QID|27171|PRE|27170|M|53.77,80.47|N|From the Broken Weapons Crate.|
 
@@ -213,7 +262,7 @@ C Ambushed!|QID|27171|M|54.82,79.75|N|Kill and loot the Skeletal Sorcerers, as y
 C Those That Couldn't Let Go|QID|27168|US|U|60861|M|49.84,80.79|T|Withdrawn Soul|N|Finish off using the Holy Thurible on Withdrawn Souls as you head back to Chillwind Camp.  Remember, they can turn hostile.|
 
 T Those That Couldn't Let Go|QID|27168|M|43.44,83.76|N|To High Priestess MacDonnell.|
-A The Menders' Stead|QID|27175|M|43.02,83.61|N|From Argent Officer Pureheart.|
+A The Menders' Stead|QID|27175|LEAD|26999|PRE|27168|M|43.02,83.61|N|From Argent Officer Pureheart.|
 T Ambushed!|QID|27171|M|42.74,83.97|N|To Commander Ashlam Valorfist.|
 A The Writhing Haunt|QID|27172|PRE|27171|M|42.74,83.97|N|From Commander Ashlam Valorfist.|
 
@@ -222,7 +271,7 @@ A This Is Our Army|QID|27173|PRE|27172|M|53.78,64.67|N|From Thurman Grant.|
 C This Is Our Army|QID|27173|M|52.53,65.78|N|Go outside and kill 10 Forsaken Outriders.|
 T This Is Our Army|QID|27173|M|53.78,64.67|N|To Thurman Grant.|
 
-A Combat Training|QID|27174|M|53.78,64.67|N|From Thurman Grant.|
+A Combat Training|QID|27174|PRE|27173|M|53.78,64.67|N|From Thurman Grant.|
 C Combat Training|QID|27174|M|53.91,65.70|N|Talk to Gory, then help the villagers defeat Gory.|
 T Combat Training|QID|27174|M|53.84,64.66|N|To Thurman Grant.|
 T The Menders' Stead|QID|27175|M|49.31,54.87|N|To Field Agent Kaartish.|
@@ -234,23 +283,22 @@ A I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.60,54.88|N|From Selyria Gr
 f The Menders' Stead|QID|27197|M|50.49,52.34|N|At Marge Heffman.|
 r Repair and Sell Junk |QID|26999|M|50.69,53.12|N|Excellent opportunity to repair and sell your junk with Gurt.\n\nClick this step to continue.|RANK|3|
 
-C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|47.41,52.91|CN|N|Click on the Unhealthy-Looking Pumpkins then kill the Thrashing Pumpkin that appears.|QO|Unhealthy-Looking Pumpkin Removed: 3/3|
-C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|46.33,54.45|CN|N|Click on the Rotten Apples then kill the Pome Wrath that appears.|QO|Rotten Apple Removed: 4/4|
-C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|45.19,53.40|CN|N|Click on the Bad Corn then kill the Corn Stalker that appears.|QO|Bad Corn Removed: 6/6|
+C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|47.41,52.91|CN|N|Click on the Unhealthy-Looking Pumpkins then kill the Thrashing Pumpkin that appears.|QO|3|
+C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|46.33,54.45|CN|N|Click on the Rotten Apples then kill the Pome Wrath that appears.|QO|2|
+C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|45.19,53.40|CN|N|Click on the Bad Corn then kill the Corn Stalker that appears.|QO|1|
 C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Kill with Zen'kiki with you. If Zen'kiki isn't with you, talk to Adrine Towhide at The Mender's Stead to get him back.|S|
-l Diseased Wolf Samples|QID|26999|M|46.98,46.34|L|60763 4|N|Kill and loot Diseased Wolves for their samples.|S|
-l Hulking Plaguebear Samples|QID|26999|M|46.98,46.34|L|60762 4|N|Kill and loot Hulking Plaguebears for their samples.|
-l Diseased Wolf Samples|QID|26999|M|46.98,46.34|L|60763 4|N|Kill and loot Diseased Wolves for their samples.|US|
+;QO
+l Diseased Wolf Samples|QID|26999|M|46.98,46.34|QO|4|N|Kill and loot Diseased Wolves for their samples.|S|
+l Hulking Plaguebear Samples|QID|26999|M|46.98,46.34|QO|3|N|Kill and loot Hulking Plaguebears for their samples.|
+l Diseased Wolf Samples|QID|26999|M|46.98,46.34|QO|4|N|Kill and loot Diseased Wolves for their samples.|US|
 C A New Era for the Plaguelands|QID|26999|M|54.92,60.83|N|Kill and loot Plague Lurkers and Venom Mist Lurkers to get their samples.|
 C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Finish killing the wildlife with Zen'kiki. If Zen'kiki isn't with you, talk to Adrine Towhide at The Mender's Stead to get him back.|US|
 T A New Era for the Plaguelands|QID|26999|M|49.33,54.92|N|To Field Agent Kaartish.|
 
-A Northridge Lumber Mill|QID|26935|PRE|26999|M|49.33,54.92|N|From Field Agent Kaartish.|
+A Northridge Lumber Mill|QID|26935|LEAD|27000|PRE|26999|M|49.33,54.92|N|From Field Agent Kaartish.|
 T I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.58,54.89|N|To Selyria Groenveld.|
 
 T Zen'Kiki, the Druid|QID|26953|M|48.93,54.74|N|To Adrine Towhide.|
-
-L Level 35 |QID|26954|N|You need to be Level 35 to continue with this guide.|LVL|35|
 
 A A Different Approach|QID|26954|PRE|26953|M|48.93,54.74|N|From Adrine Towhide.|
 
@@ -259,7 +307,7 @@ C A Different Approach|QID|26954|M|53.72,53.59|N|Head to the top of the hill (th
 T A Different Approach|QID|26954|M|49.00,54.72|N|To Adrine Towhide.|
 T Northridge Lumber Mill|QID|26935|M|48.12,32.45|N|To Nathaniel Dumah.|
 
-A Learning the Ropes|QID|27000|PRE|26935|M|48.12,32.45|N|From Nathaniel Dumah.|
+A Learning the Ropes|QID|27000|M|48.12,32.45|N|From Nathaniel Dumah.|
 A Too Close for Comfort|QID|27013|M|48.35,31.84|N|From Kelly Dumah.|
 
 C Too Close for Comfort|QID|27013|M|51.00,27.75|N|Hunt down those Rabid Foxes.|
@@ -281,7 +329,7 @@ T Redpine Thievery|QID|27011|M|48.41,32.11|N|To Kelly Dumah.|US|
 
 T Learning the Ropes|QID|27000|M|48.13,32.44|N|To Nathaniel Dumah.|
 
-A This Means WAR (Wild Arachnid Roundup)|QID|27001|M|48.13,32.44|N|From Nathaniel Dumah.|
+A This Means WAR (Wild Arachnid Roundup)|QID|27001|PRE|27000|M|48.13,32.44|N|From Nathaniel Dumah.|
 C This Means WAR (Wild Arachnid Roundup)|QID|27001|M|47.95,33.53|N|Use the whinny to herd spiders back to the mill.|NC|
 T This Means WAR (Wild Arachnid Roundup)|QID|27001|M|48.11,32.47|N|To Nathaniel Dumah.|
 
@@ -292,12 +340,12 @@ f Hearthglen|QID|27002|M|47.67,31.80;44.67,18.58|CS|N|Hop on a Hearthglen Mustan
 A It's About Time!|QID|27156|M|43.24,16.02|N|From Lieutenant Myner.|
 T An Audience with the Highlord|QID|27002|M|42.04,14.64|N|To Highlord Tirion Fordring, upstairs in Mardenholde Keep.|
 
-A Taelan Fordring's Legacy|QID|27151|M|42.19,14.98|N|From Daria L'Rayne.|
+A Taelan Fordring's Legacy|QID|27151|PRE|27002|M|42.19,14.98|N|From Daria L'Rayne.|
 
 C It's About Time!|QID|27156|M|43.09,16.33|N|Head outside the keep, then talk to Trainees. Challenge and beat them.|
 T It's About Time!|QID|27156|M|43.28,15.96|N|To Lieutenant Myner.|
 
-A Drudges...|QID|27157|M|43.28,15.96|N|From Lieutenant Myner.|
+A Drudges...|QID|27157|PRE|27156|M|43.28,15.96|N|From Lieutenant Myner.|
 C Drudges...|QID|27157|M|45.86,12.31;45.37,9.73|CS|N|Enter the mine. Kill the *ew* huge spider.|
 T Drudges...|QID|27157|M|43.27,15.91|N|To Lieutenant Myner.|
 
@@ -305,16 +353,16 @@ C Taelan Fordring's Legacy|QID|27151|M|54.78,24.69|N|Kill the Redpine Looters.|
 T Taelan Fordring's Legacy|QID|27151|M|54.99,24.73|N|(UI Alert)|
 
 A Unusual Behavior... Even For Gnolls|QID|27152|PRE|27151|M|54.99,24.73|N|(UI Alert)|
-R Unusual Behavior... Even For Gnolls|QID|27152|NC|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Follow the arrows up the path to investigate the Gnoll Camp.|QO|Gnoll camp investigated|
-C Unusual Behavior... Even For Gnolls|QID|27152|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Kill Moldfang.|QO|Moldfang slain: 1/1|T|Moldfang|
+R Unusual Behavior... Even For Gnolls|QID|27152|NC|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Follow the arrows up the path to investigate the Gnoll Camp.|
+C Unusual Behavior... Even For Gnolls|QID|27152|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Kill Moldfang.|QO|1|T|Moldfang|; Moldfang slain: 1/1
 T Unusual Behavior... Even For Gnolls|QID|27152|M|57.28,35.71|N|(UI Alert)|
 
 A The Good People of Hearthglen|QID|27153|PRE|27152|M|57.28,35.71|N|(UI Alert)|
-C Bree Ironstock|QID|27153|M|43.68,17.22|QO|Speak with Bree Ironstock: 1/1|N|Head back to Hearthglen, then talk to Bree Ironstock in the stables.|CHAT|
-C High Cleric Alphus|QID|27153|M|42.15,18.24|QO|Speak with High Cleric Alphus: 1/1|N|Talk to High Cleric Alphus in the Town Hall.|CHAT|
-C Morris Vant|QID|27153|M|44.38,13.55|QO|Speak with Morris Vant: 1/1|N|Talk to Morris Vant inside the blacksmith building.|CHAT|
+C Bree Ironstock|QID|27153|M|43.68,17.22|QO|3|N|Head back to Hearthglen, then talk to Bree Ironstock in the stables.|CHAT|
+C High Cleric Alphus|QID|27153|M|42.15,18.24|QO|4|N|Talk to High Cleric Alphus in the Town Hall.|CHAT|
+C Morris Vant|QID|27153|M|44.38,13.55|QO|1|N|Talk to Morris Vant inside the blacksmith building.|CHAT|
 r Repair and Sell Junk |QID|27153|M|44.38,13.55|N|Excellent opportunity to repair and sell your junk with Morris Vant.\n\nClick this step to continue.|RANK|3|
-C Outfitter Mendelev|QID|27153|M|44.82,12.47|QO|Speak with Outfitter Mendelev: 1/1|N|Talk to Outfitter Mendelev in the hut to the west.|CHAT|
+C Outfitter Mendelev|QID|27153|M|44.82,12.47|QO|2|N|Talk to Outfitter Mendelev in the hut to the west.|CHAT|
 T The Good People of Hearthglen|QID|27153|M|44.82,12.47|N|(UI Alert)|
 
 A Bagging Bisp|QID|27154|PRE|27153|M|42.16,18.33|N|(UI Alert)|
@@ -324,28 +372,25 @@ T Bagging Bisp|QID|27154|M|45.90,18.46|N|(UI Alert)|
 A Turning Yourself In|QID|27155|PRE|27154|M|45.90,18.46|N|(UI Alert)|
 T Turning Yourself In|QID|27155|M|42.06,14.61|N|Head to the Highlord and face the music.|
 
-L Level 36 |QID|26957|N|You need to be Level 36 to continue with this guide.|LVL|36|
-
 A The Long Trip Home|QID|26957|M|42.11,14.85|N|From Del Gahrron.|
 F The Menders' Stead|QID|26957|NC|M|44.62,18.37|N|Fly to The Menders' Stead.|
 T The Long Trip Home|QID|26957|M|50.59,52.52|N|To Del Gahrron.|
 
 A Memories from a Lost Past|QID|27017|PRE|26957|M|50.59,52.52|N|From Del Gahrron.|
-A Gahrron's Withering Cauldron|QID|27053|M|49.30,54.84|N|From Field Agent Kaartish.|
+A Gahrron's Withering Cauldron|QID|27053|PRE|27002|M|49.30,54.84|N|From Field Agent Kaartish.|
 C Gahrron's Withering Cauldron|QID|27053|M|62.71,59.17|N|Kill the Cauldron Lord and loot his key.|
 T Gahrron's Withering Cauldron|QID|27053|M|62.58,58.62|N|At the Scourge Cauldron.|
 
 A Return to the Stead|QID|27057|PRE|27053|M|62.58,58.62|N|From the Scourge Cauldron.|
-C Memories from a Lost Past|QID|27017|NC|M|64.88,59.32|CS|N|Collect the Painting, which is hanging over the fireplace downstairs.|QO|Faded Finger Painting: 1/1|
-C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43|CS|N|Collect the Prayer Book, which can be found upstairs.|QO|Gahrron Prayer Book: 1/1|
+C Memories from a Lost Past|QID|27017|NC|M|64.88,59.32|CS|N|Collect the Painting, which is hanging over the fireplace downstairs.|QO|2|; Faded Finger Painting: 1/1
+C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43|CS|N|Collect the Prayer Book, which can be found upstairs.|QO|1|; Gahrron Prayer Book: 1/1
 
 T Return to the Stead|QID|27057|M|49.32,54.76|N|To Field Agent Kaartish.|
 A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
-A Zen'Kiki and the Cultists|QID|26955|M|48.93,54.76|N|From Adrine Towhide.|
+A Zen'Kiki and the Cultists|QID|26955|PRE|27057|M|48.93,54.76|N|From Adrine Towhide.|
 T Memories from a Lost Past|QID|27017|M|50.60,52.60|N|To Del Gahrron.|
 
-L Level 38 |QID|27197|N|You need to be Level 38 to continue with this guide.|LVL|38|
-A The Battle Resumes!|QID|27197|M|50.39,52.70|N|From Durnt Brightfalcon.|
+A The Battle Resumes!|QID|27197|PRE|27175+27233|M|50.39,52.70|N|From Durnt Brightfalcon.|
 
 C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|S|
 C Desperate Acts|QID|27054|M|66.04,47.75|N|Kill Instructor Malicia and loot the orders.|
@@ -360,7 +405,7 @@ F Andorhal|QID|27197|M|50.52,52.36|N|Fly to Andorhal.|
 
 T The Battle Resumes!|QID|27197|M|39.84,69.47|N|To Thassarian.|
 A Ashes to Ashes|QID|27199|PRE|27197|M|39.84,69.47|N|From Thassarian.|
-A Supporting the Troops|QID|27198|PRE|27199|M|40.11,69.17|N|From Lang Loosegrip.|
+A Supporting the Troops|QID|27198|PRE|27197|M|40.11,69.17|N|From Lang Loosegrip.|
 
 C Supporting the Troops|QID|27198|S|M|44.45,65.66|N|Kill Andorhal Deathguards.|
 C Ashes to Ashes|QID|27199|M|44.70,65.11|N|Kill three Deathguard War-Captains on their horses.|
@@ -368,7 +413,7 @@ C Supporting the Troops|QID|27198|US|M|44.45,65.66|N|Finish killing Deathguards.
 
 T Supporting the Troops|QID|27198|M|39.94,69.42|N|To Lang Loosegrip.|
 T Ashes to Ashes|QID|27199|M|39.94,69.42|N|To Thassarian.|
-A The Depravity of the Forsaken|QID|27205|PRE|27199|M|39.74,69.52|N|From Thassarian.|
+A The Depravity of the Forsaken|QID|27205|PRE|27198;27199|M|39.74,69.52|N|From Thassarian.|
 
 T The Depravity of the Forsaken|QID|27205|M|39.84,69.51|N|To Thassarian.|
 A Val'kyr Incursion|QID|27201|PRE|27205|M|39.84,69.51|N|From Thassarian.|
@@ -381,7 +426,7 @@ C Val'kyr Incursion|QID|27201|US|M|41.80,70.42|N|Finish killing those Lesser Val
 T Brother Against Brother|QID|27202|M|39.90,69.65|N|To Thurman Grant.|
 T Val'kyr Incursion|QID|27201|M|39.89,69.55|N|To Thassarian.|
 
-A Aradne|QID|27204|PRE|27201|M|39.89,69.55|N|From Thassarian.|
+A Aradne|QID|27204|PRE|27201;27202|M|39.89,69.55|N|From Thassarian.|
 C Aradne|QID|27204|M|40.37,72.24|N|Head up the tower and kill the elite Aradne.  Your companions will be there to help you.|
 T Aradne|QID|27204|M|39.97,69.58|N|To Thassarian.|
 
@@ -389,7 +434,9 @@ A Alas, Andorhal|QID|27206|PRE|27204|M|39.97,69.58|N|From Thassarian.|
 F Chillwind Camp|QID|27206|NC|N|Fly to Chillwind Camp.|M|39.43,69.55|
 T Alas, Andorhal|QID|27206|M|42.73,84.12|N|To Commander Ashlam Valorfist.|
 
-A Into the Woods|QID|27683|M|42.97,83.51|N|From Argent Officer Pureheart, if you intent to continue onto Eastern Plaguelands.|
+A Into the Woods|QID|27683|LEAD|27367|M|42.97,83.51|N|From Argent Officer Pureheart, if you intent to continue onto Eastern Plaguelands.|
 
 ]]
 end)
+
+

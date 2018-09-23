@@ -4,8 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_wildhammer_dalies_twilight_highlands
+-- Date: 2017-03-10 23:18
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3415/revisions/27579/view
+-- Date: 2016-08-20 01:00
+-- Who: Emmaleah
+-- Log: changed link in header to match the page it should.
+
+-- URL: http://wow-pro.com/node/3415/revisions/26887/view
 -- Date: 2014-11-08 00:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing M
 
 -- URL: http://wow-pro.com/node/3415/revisions/26837/view
@@ -15,22 +25,22 @@
 
 -- URL: http://wow-pro.com/node/3415/revisions/26550/view
 -- Date: 2014-07-06 15:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide level and faction
 
 -- URL: http://wow-pro.com/node/3415/revisions/26510/view
 -- Date: 2014-06-10 23:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3415/revisions/24672/view
 -- Date: 2011-07-11 22:20
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add a flight point home.
 
 -- URL: http://wow-pro.com/node/3415/revisions/24647/view
 -- Date: 2011-06-30 19:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("TwiTwiWil",'Dailies', "Twilight Highlands", "Twists", "Alliance")
 WoWPro:GuideLevels(guide,84,84,84)
@@ -38,11 +48,11 @@ WoWPro.Dailies:GuideFaction(guide,1174) --  "Wildhammer"
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Fight Like a Wildhammer|QID|28861|M|49.76,29.23|N|From Low Shaman Blundy.|
-A Never Leave a Dinner Behind|QID|28862|M|49.76,29.23|N|From Low Shaman Blundy.|
-A Keeping the Dragonmaw at Bay|QID|28860|M|49.07,29.80|N|From Colin Thundermar.|
-A Beer Run|QID|28864|M|49.07,29.80|N|From Colin Thundermar.|
-A Warlord Halthar is Back|QID|28863|M|48.63,30.59|N|From Craw Macgraw.|
+A Fight Like a Wildhammer|QID|28861|PRE|28655|M|49.76,29.23|N|From Low Shaman Blundy.|
+A Never Leave a Dinner Behind|QID|28862|PRE|28655|M|49.76,29.23|N|From Low Shaman Blundy.|
+A Keeping the Dragonmaw at Bay|QID|28860|PRE|28655|M|49.07,29.80|N|From Colin Thundermar.|
+A Beer Run|QID|28864|PRE|28655|M|49.07,29.80|N|From Colin Thundermar.|
+A Warlord Halthar is Back|QID|28863|PRE|28655|M|48.63,30.59|N|From Craw Macgraw.|
 
 C Beer Run|QID|28864|M|64.49,22.70|N|This is just an escort quest. Speak to Hammelhand to start.|
 
@@ -63,3 +73,5 @@ F Back to the Portal|M|79.48,77.79|N|Get Back Home|CC|
 ]]
 
 end)
+
+

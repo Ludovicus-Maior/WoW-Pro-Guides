@@ -1,9 +1,12 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
   <Script file="01_05_Gylin_Dwarf_Starter.lua"/>
   <Script file="01_05_Gylin_Gnome_Starter.lua"/>
-  <Script file="01_11_Kurich_Elwynn_Forest.lua"/>
-  <Script file="01_12_Bitsem_Teldrassil.lua"/>
-  <Script file="01_12_Snowflakes_Azuremyst.lua"/>
+  <Script file="01_05_Kurich_Northsire.lua"/>
+  <Script file="05_10_Kurich_Elwynn.lua"/>
+  <Script file="01_05_Bitsem_Shadowglen.lua"/>
+  <Script file="05_12_Bitsem_Teldrassil.lua"/>
+  <Script file="01_05_Snowflakes_AmmenVale.lua"/>
+  <Script file="05_12_Snowflakes_Azuremyst.lua"/>
   <Script file="01_13_Rpotor_Worgen_Starter.lua"/>
   <Script file="05_10_Gameldar_Dun_Morogh.lua"/>
   <Script file="11_15_Bitsem_Westfall.lua"/>
@@ -11,6 +14,8 @@
   <Script file="12_20_Wkjezz_Loch_Modan.lua"/>
   <Script file="13_20_James_Darkshore.lua"/>
   <Script file="15_20_Kurich_Redridge_Mountains.lua"/>
+  <Script file="20_20_Ludovicus_Lightforged.lua"/>
+  <Script file="20_20_Ludovicus_VoidElf.lua"/>
   <Script file="20_25_Twists_Duskwood.lua"/>
   <Script file="20_25_Wkjezz_Ashenvale.lua"/>
   <Script file="20_25_Wkjezz_Wetlands.lua"/>
@@ -48,4 +53,15 @@
   <Script file="85_86_Rajitazi_JadeForest.lua"/>
   <Script file="87_88_Rajitazi_KrasarangWilds.lua"/>
   <Script file="90_92_Fluclo_Shadowmoon.lua"/>
+  <Script file="92_94_Fluclo_Gorgrond.lua"/>
+  <Script file="95_96_Ludovico_Talador.lua"/>
+  <Script file="98_100_Ludovico_Nagrand.lua"/>
+  <Script file="100_100_Emmaleah_LegionIntro.lua"/>
+  <Script file="100_109_Ludovicus_Stormheim.lua"/>
+  <Script file="110_110_STrek_BurnTedrazil.lua"/>
+  <Script file="110_110_Emmaleah_WarCampaign.lua"/>
+  <Script file="110_120_Emmaleah_Tiragarde.lua"/>
+  <Script file="110_120_Freitas_Stormsong.lua"/>
+  <Script file="110_120_STrek_Drustvar.lua" />
+  <Script file="120_120_Jovieve_EndgameStory.lua" />
 </Ui>

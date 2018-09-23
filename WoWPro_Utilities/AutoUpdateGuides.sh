@@ -18,7 +18,7 @@ if ! git pull ; then
 fi
 
 echo "# Syncronizing to WoW-Pro.com"
-if ! python WoWPro_Utilities/UpdateGuides.py --root=. ; then 
+if ! ipython --pdb WoWPro_Utilities/UpdateGuides.py -- --root=. ; then 
     echo "! Error updating local repo: $?"
     exit 2 
 fi
@@ -30,18 +30,17 @@ if ! git status --porcelain --untracked-files=no > /tmp/AU$$.tmp ; then
 fi
 
 if [ -s /tmp/AU$$.tmp ] ; then
-    echo "# Ah, there was an update! Committing update"
-    cat /tmp/AU$$.tmp
-    rm -f /tmp/AU$$.tmp
-    if ! git commit -m "AutoSync to WoW-Pro.COM on `date`" -a ; then
-        echo "! Error committing files: $?"
-	exit 5
-    fi
-    echo "# Pushing to GitHub"
-    if ! git push ; then
-        echo "! Error pushing update: $?"
-	exit 5
-    fi
+    echo "# Ah, there was an update! Committing updates"
+    for f in ` awk '{ print $2 }' < /tmp/AU$$.tmp` ; do
+        if ! git commit -m "Updated $f from WoW-Pro.COM" $f  ; then
+            echo "! Error committing file: $?"
+	    exit 5
+        fi
+        if ! git push ; then
+            echo "! Error pushing update: $?"
+	    exit 5
+        fi
+    done
 else
     echo "# Nope, nothing changed"
     rm /tmp/AU$$.tmp

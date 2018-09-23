@@ -4,23 +4,40 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2017-03-15 20:59
+-- Who: Ludovicus_Maior
+-- Log: Syntax
+
+-- URL: http://wow-pro.com/node/3520/revisions/27107/view
+-- Date: 2014-12-25 20:11
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3520/revisions/27102/view
+-- Date: 2014-12-25 18:56
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3520/revisions/27101/view
+-- Date: 2014-12-25 18:55
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3520/revisions/26318/view
 -- Date: 2014-05-26 19:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guid etype to TwoCared
 
 -- URL: http://wow-pro.com/node/3520/revisions/26314/view
 -- Date: 2014-05-26 18:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3520/revisions/26197/view
 -- Date: 2014-05-22 22:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Registration guide
 
 -- URL: http://wow-pro.com/node/3520/revisions/26196/view
 -- Date: 2014-05-22 22:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Registration guide
 
 -- URL: http://wow-pro.com/node/3520/revisions/25939/view
@@ -32,12 +49,12 @@
 
 -- URL: http://wow-pro.com/node/3520/revisions/25556/view
 -- Date: 2013-03-23 15:40
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Twists [To All the Squirrels Who Cared for Me]
 
 -- URL: http://wow-pro.com/node/3520/revisions/25356/view
 -- Date: 2013-01-12 18:26
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Capitalization error on "Valley of the Four Winds"
 
 -- URL: http://wow-pro.com/node/3520/revisions/25322/view
@@ -56,12 +73,12 @@
 
 -- URL: http://wow-pro.com/node/3520/revisions/25258/view
 -- Date: 2012-12-19 22:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial
 
-local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'CaT Zones', 'To All the Squirrels Who Cared for Me','Neutral')
+local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'Maelstrom', 'Twists','Neutral')
+WoWPro:GuideLevels(guide,80, 85, 84)
 WoWPro:GuideIcon(guide,"ACH",5548)
-WoWPro:GuideNextGuide(guide, 'Twists')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -86,3 +103,5 @@ F Baradin Fox Kit|QID|955480002|M|40,26|ACH|5548;2|Z|Tol Barad|T|Baradin Fox Kit
 N Congratulations!|QID|955480050|
 ]]
 end)
+
+

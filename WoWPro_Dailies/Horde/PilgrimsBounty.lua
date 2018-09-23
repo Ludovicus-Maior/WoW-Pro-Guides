@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
 -- Date: 2014-11-08 00:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: One more N tag
 
 -- URL: http://wow-pro.com/node/3456/revisions/26849/view
@@ -20,32 +20,32 @@
 
 -- URL: http://wow-pro.com/node/3456/revisions/26587/view
 -- Date: 2014-07-20 19:34
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added catrgories and icon
 
 -- URL: http://wow-pro.com/node/3456/revisions/26551/view
 -- Date: 2014-07-06 15:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Name and category
 
 -- URL: http://wow-pro.com/node/3456/revisions/26513/view
 -- Date: 2014-06-10 23:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3456/revisions/25706/view
 -- Date: 2013-06-18 00:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Got rid of stuttered M tag
 
 -- URL: http://wow-pro.com/node/3456/revisions/24897/view
 -- Date: 2012-01-19 00:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Correct node numbers
 
 -- URL: http://wow-pro.com/node/3456/revisions/24896/view
 -- Date: 2012-01-19 00:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Sync to GIT
 
 local guide = WoWPro:RegisterGuide("LudoPilgrimDailiesH",'Dailies',"Pilgrim's Bounty", "Ludovicus", "Horde")
@@ -98,3 +98,5 @@ T She Says Potato|QID|14058|M|65.24,14.22|Z|Undercity|N|To William Mullins, Unde
 N Pilgrim's Bounty|N|You are done for the day!|
 ]]
 end)
+
+

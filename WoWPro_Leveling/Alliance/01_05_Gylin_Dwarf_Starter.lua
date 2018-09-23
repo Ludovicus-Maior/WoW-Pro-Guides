@@ -4,6 +4,175 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-09-10 21:51
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3200/revisions/29353/view
+-- Date: 2018-06-14 23:41
+-- Who: Linkslegend5
+-- Log: updated some names and cleaned up a few lines.
+
+-- URL: http://wow-pro.com/node/3200/revisions/29156/view
+-- Date: 2018-02-24 20:36
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL Dun
+
+-- URL: http://wow-pro.com/node/3200/revisions/29154/view
+-- Date: 2018-02-24 20:34
+-- Who: Ludovicus_EditBot
+-- Log: LEVEL gnome
+
+-- URL: http://wow-pro.com/node/3200/revisions/29007/view
+-- Date: 2018-02-19 23:14
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - DunM
+
+-- URL: http://wow-pro.com/node/3200/revisions/29003/view
+-- Date: 2018-02-19 23:09
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags - Gnome
+
+-- URL: http://wow-pro.com/node/3200/revisions/29002/view
+-- Date: 2018-02-19 23:08
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL: http://wow-pro.com/node/3200/revisions/28851/view
+-- Date: 2018-01-16 23:22
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3200/revisions/28344/view
+-- Date: 2017-03-11 20:02
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3200/revisions/28221/view
+-- Date: 2017-01-10 20:27
+-- Who: Ludovicus_Maior
+-- Log: Deleted spurious Z tag in Hunter's [T Meet the High Tinker]
+
+-- URL: http://wow-pro.com/node/3200/revisions/27706/view
+-- Date: 2016-09-06 23:19
+-- Who: Fluclo
+-- Log: Dun Morogh quests can't be done below level 5, so changed GuideLevel
+
+-- URL: http://wow-pro.com/node/3200/revisions/27705/view
+-- Date: 2016-09-06 23:11
+-- Who: Fluclo
+-- Log: As you are level 5 at the end of the guide, changed GuideLevels to finish at 5; What's Left Behind is not essential for zone progression so added Rank 2 to it; Changed coords for Dealing with the Fallout as the mobs there keep respawning when you kill them; Warlock can handle Finishin' the Job without the need to despawn the pet, so class steps removed. 
+
+-- URL: http://wow-pro.com/node/3200/revisions/27704/view
+-- Date: 2016-09-06 22:40
+-- Who: Fluclo
+-- Log: Added NC to See to the Survivors, Scrounging for Parts and A Job for the Multi-Bot. Changed New Tinkertown step from R to C since you must speak to Torben Zapblast for the quest. Added the pre-req quests for The Fight Continues, What's Left Behind, Dealing with the Fallout, Crushcog's Minions, No Tanks! and Staging in Brewnall. Added a C step for The Fight Continues. Added missing M coords for A Job for the Multi-Bot. Removed Level tags as you can continue without meeting these level requirements, whilst adding Level tag to the last quest (to handle skipping whilst still level 1) Clarified steps needed for Get Me Explosives Back! Tweaked notes on a few steps to clarify what's needed. Swapped order of sticky quests so non-combat ones are given priority. Changed Sell and Repair so that it only shows at right time, and auto-completes when next quest handed in.
+--	
+
+-- URL: http://wow-pro.com/node/3200/revisions/27693/view
+-- Date: 2016-09-06 01:46
+-- Who: Fluclo
+-- Log: Changing Level Range to be 1 to 4, as you are level 4 when completing Rank 1 guide
+
+-- URL: http://wow-pro.com/node/3200/revisions/27692/view
+-- Date: 2016-09-06 01:45
+-- Who: Fluclo
+-- Log: Multiple Races in |R| tag doesn't seem to be working, so changed it to individual lines for each of the races. The Troll Menace is auto-accepted even if you're on Rank 1, so added Note.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27684/view
+-- Date: 2016-09-03 09:20
+-- Who: Fluclo
+-- Log: Added NC to the Casks, and Felix's stuff, split quest All the Other Stuff into two parts, Lockdown and Whitebeard quests both have a second quest pre-req quest, unnecessary quests for zone progression changed to Rank 2. Removed Level tags as you can continue the quests below that level. Added auto-completing sell junk step towards end of zone. Details of being flown off included in quest rather than after you've started flying. Clarified the Trolls needed for Troll Menace (not all trolls count)
+
+-- URL: http://wow-pro.com/node/3200/revisions/27507/view
+-- Date: 2016-07-31 16:09
+-- Who: tubera
+-- Log:  Meet the High Tinker for hunter. Remove class ability training quests.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27503/view
+-- Date: 2016-07-31 00:10
+-- Who: tubera
+-- Log: Remove class quests from Coldridge Valley. Fix note on Wayward Fire Elemental
+
+-- URL: http://wow-pro.com/node/3200/revisions/27442/view
+-- Date: 2016-03-23 12:41
+-- Who: Ludovicus_Maior
+-- Log: Fixing step merge.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27392/view
+-- Date: 2015-10-05 14:50
+-- Who: Ludovicus_Maior
+-- Log: Correct coords for [Wayward Fire Elemental] and [Grik'nir the Cold]
+
+-- URL: http://wow-pro.com/node/3200/revisions/27335/view
+-- Date: 2015-07-17 19:28
+-- Who: Fluclo
+-- Log: Paint it Black is a non-combat quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/27334/view
+-- Date: 2015-07-17 19:25
+-- Who: Fluclo
+-- Log: No Tanks is a non-combat quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/27333/view
+-- Date: 2015-07-17 19:24
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3200/revisions/27259/view
+-- Date: 2015-05-18 00:14
+-- Who: Ludovicus_Maior
+-- Log: Wow, that [code] block thing was a bad idea.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27254/view
+-- Date: 2015-05-16 21:18
+-- Who: Ludovicus_Maior
+-- Log: Need a blank line before the [/code] directive.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27253/view
+-- Date: 2015-05-16 21:17
+-- Who: Ludovicus_Maior
+-- Log: Updated Dwarf guide levels.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27251/view
+-- Date: 2015-05-16 18:02
+-- Who: Ludovicus_Maior
+-- Log: Amend coords for Gnome starter zone.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27248/view
+-- Date: 2015-05-16 15:55
+-- Who: Aldavor
+-- Log: Amended most coordinates in the Dwarf starter zone; changed some 'l' tags to 'C' with numeric QOs; cleaned up.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27247/view
+-- Date: 2015-05-16 15:07
+-- Who: Ludovicus_Maior
+-- Log: Revert to get the dwarf zone back, re-add the zone changes for gnomes.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27246/view
+-- Date: 2015-05-16 15:06
+-- Who: Ludovicus_Maior
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3200/revisions/27228/view
+-- Date: 2015-04-30 20:24
+-- Who: Ludovicus_Maior
+-- Log: remap
+
+-- URL: http://wow-pro.com/node/3200/revisions/27217/view
+-- Date: 2015-04-28 00:49
+-- Who: Ludovicus_Maior
+-- Log: Zone name fixes
+
+-- URL: http://wow-pro.com/node/3200/revisions/27204/view
+-- Date: 2015-04-18 14:31
+-- Who: Aldavor
+-- Log: Updated Dun Morogh (lvls 5-12); removed redundant class training, amended some steps to autoclose.
+
+-- URL: http://wow-pro.com/node/3200/revisions/27203/view
+-- Date: 2015-04-18 12:24
+-- Who: Aldavor
+-- Log: updated starter zone for Gnome (Warlock) - still needs coords correcting for other classes.
+
+-- URL: http://wow-pro.com/node/3200/revisions/26804/view
 -- Date: 2014-11-06 12:53
 -- Who: Fluclo
 -- Log: Removed duplicate PRE tag from Return to Gremlock
@@ -15,400 +184,165 @@
 
 -- URL: http://wow-pro.com/node/3200/revisions/26634/view
 -- Date: 2014-07-26 00:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3200/revisions/26593/view
 -- Date: 2014-07-25 20:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3200/revisions/26403/view
 -- Date: 2014-05-30 12:19
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Level setting
 
 -- URL: http://wow-pro.com/node/3200/revisions/26386/view
 -- Date: 2014-05-29 22:17
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add mean level
 
 -- URL: http://wow-pro.com/node/3200/revisions/26319/view
 -- Date: 2014-05-26 19:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Guide type.
 
 -- URL: http://wow-pro.com/node/3200/revisions/26204/view
 -- Date: 2014-05-25 22:08
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3200/revisions/26021/view
 -- Date: 2014-05-17 16:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3200/revisions/25955/view
 -- Date: 2014-05-14 22:05
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3200/revisions/25951/view
 -- Date: 2014-05-14 21:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New register guide.
 
 -- URL: http://wow-pro.com/node/3200/revisions/25950/view
 -- Date: 2014-05-14 21:51
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New Guide Registration
 
 -- URL: http://wow-pro.com/node/3200/revisions/25638/view
 -- Date: 2013-05-14 18:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
 
 -- URL: http://wow-pro.com/node/3200/revisions/25591/view
 -- Date: 2013-03-23 20:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Name tweaks
 
 -- URL: http://wow-pro.com/node/3200/revisions/25496/view
 -- Date: 2013-01-22 17:53
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed "Lambs on the Lam" to use special target macro!
 
 -- URL: http://wow-pro.com/node/3200/revisions/25412/view
 -- Date: 2013-01-13 14:33
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added a CS tag
 
--- URL: http://wow-pro.com/node/3200/revisions/25359/view
--- Date: 2013-01-12 18:36
--- Who: Ludovicus
--- Log: Added some CS and CN tags
-
--- URL: http://wow-pro.com/node/3200/revisions/25136/view
--- Date: 2012-10-09 23:22
--- Who: Ludovicus
--- Log: Added Monk quests and got rid of extra spaces and spell corrections.
-
--- URL: http://wow-pro.com/node/3200/revisions/25131/view
--- Date: 2012-10-08 22:49
--- Who: Ludovicus
--- Log: Add Dwarf Monk starter quests.
-
--- URL: http://wow-pro.com/node/3200/revisions/24869/view
--- Date: 2011-12-14 21:36
--- Who: Fluclo
--- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24742/view
--- Date: 2011-08-24 00:49
--- Who: Jiyambi
--- Log: Took out two location based completion steps that weren't auto-completing, rolled them into other steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24626/view
--- Date: 2011-06-28 20:52
--- Who: Fluclo
--- Log: Minor tweaks to final couple of quests
-
--- URL: http://wow-pro.com/node/3200/revisions/24625/view
--- Date: 2011-06-28 20:42
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3200/revisions/24624/view
--- Date: 2011-06-28 20:37
--- Who: Fluclo
--- Log: Updated Grimaxe's Demise to auto-complete
-
--- URL: http://wow-pro.com/node/3200/revisions/24623/view
--- Date: 2011-06-28 20:27
--- Who: Fluclo
--- Log: Added some NC tags to Non Combat quest lines
-
--- URL: http://wow-pro.com/node/3200/revisions/24622/view
--- Date: 2011-06-28 20:19
--- Who: Fluclo
--- Log: Add location note to Mathel's Flying Machine
-
--- URL: http://wow-pro.com/node/3200/revisions/24621/view
--- Date: 2011-06-28 20:05
--- Who: Fluclo
--- Log: Inverting Dealing with the Surge and Entombed in Ice turn-in
-
--- URL: http://wow-pro.com/node/3200/revisions/24620/view
--- Date: 2011-06-28 19:56
--- Who: Fluclo
--- Log: Hand in Trouble at the Lake before taking Entombed in Ice
-
--- URL: http://wow-pro.com/node/3200/revisions/24619/view
--- Date: 2011-06-28 19:54
--- Who: Fluclo
--- Log: Correcting the Sticky of Priceless Treasures
-
--- URL: http://wow-pro.com/node/3200/revisions/24587/view
--- Date: 2011-06-25 00:43
--- Who: Crackerhead22
--- Log: Checking ../WoWPro_Leveling/Alliance/05_10_Gameldar_Dun_Morogh.lua
---	! Duplicate A step for qid 6388 - Fixed
---	! Duplicate T step for qid 6388 - Fixed
-
--- URL: http://wow-pro.com/node/3200/revisions/24583/view
--- Date: 2011-06-25 00:27
--- Who: Crackerhead22
--- Log: # Checking ../WoWPro_Leveling/Alliance/01_05_Gylin_Dwarf_Starter.lua
---	! Line 157, for step A, missing Argument for tag N: [A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|N]
---	! Line 198 for step A has unknown tag [24532]: [A Evisceratin' the Enemy QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|]
-
--- URL: http://wow-pro.com/node/3200/revisions/24581/view
--- Date: 2011-06-24 19:52
--- Who: Fluclo
--- Log: Added auto-complete to killing Vagash
-
--- URL: http://wow-pro.com/node/3200/revisions/24580/view
--- Date: 2011-06-24 19:43
--- Who: Fluclo
--- Log: |US| the The View from Down Here quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24579/view
--- Date: 2011-06-24 14:58
--- Who: Fluclo
--- Log: Corrected Zone on Ride to Ironforge quests
-
--- URL: http://wow-pro.com/node/3200/revisions/24517/view
--- Date: 2011-06-07 23:07
--- Who: Ludovicus
--- Log: ! Line 128 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|Gnome,Dwarf|]
---	! Line 129 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.47,50.97|N|You should visit your class trainer Granis Swiftaxe. Click this step to continue.|C|Warrior|Gnome,Dwarf|]
---	! Line 130 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Maxan Anvol. Click this step to continue.|C|Priest|Gnome,Dwarf|]
---	! Line 131 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.61,50.40|N|You should visit your class trainer Magis Sparkmantle. Click this step to continue.|C|Mage|Gnome,Dwarf|]
---	! Line 132 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Azar Stronghammer. Click this step to continue.|C|Paladin|Gnome,Dwarf|]
---	! Line 133 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.60,50.23|N|You should visit your class trainer Halbin Frosthammer. Click this step to continue.|C|Shaman|Gnome,Dwarf|]
---	! Line 137 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Gimrizz Shadowcog. Click this step to continue.|C|Warlock|Gnome,Dwarf|]
---	! Line 138 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Grif Wildheart. Click this step to continue.|C|Hunter|Gnome,Dwarf|]
---	! Line 139 for step N has unknown tag [Gnome,Dwarf]: [N Primary Professions |QID|384|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |Gnome,Dwarf|]
---	! Line 271 for step R has unknown tag [77.14,18.52]: [R Striking Back|QID|26094|77.14,18.52|N|Put the bombs on the action bar. Jump into the Repaired Bomber here.|CC|]
-
--- URL: http://wow-pro.com/node/3200/revisions/24508/view
--- Date: 2011-06-06 21:27
--- Who: Crackerhead22
--- Log: Added missing R for a race tag.
-
--- URL: http://wow-pro.com/node/3200/revisions/24507/view
--- Date: 2011-06-06 21:14
--- Who: Crackerhead22
--- Log: Dwarf starting area update: Added race tags for the Dwarf only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags.
---	Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
---	5-12 guide update: Added race tags for a few steps (non-Gnome step for "Bound for Kharanos", non-Gnome/Dwarf step for getting FP at Kharanos), added missing notes, added missing waypoint, tweaked a few notes, tweaked a few waypoints. Added in steps done by Fluclo (as I missed his edits before I started my edits).
-
--- URL: http://wow-pro.com/node/3200/revisions/24506/view
--- Date: 2011-06-06 20:43
--- Who: Crackerhead22
--- Log: .
-
--- URL: http://wow-pro.com/node/3200/revisions/24505/view
--- Date: 2011-06-06 14:23
--- Who: Crackerhead22
--- Log: Gnome starting area update: Added race tags for the Gnome only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags. Added a note for non-Gnome races that this is Gnome only.
-
--- URL: http://wow-pro.com/node/3200/revisions/24504/view
--- Date: 2011-06-06 12:51
--- Who: Crackerhead22
--- Log: Dwarf starting area update: Added race tags for the Dwarf only steps, added missing notes, added missing cords, removed unneeded zone tags, and QO tags.
-
--- URL: http://wow-pro.com/node/3200/revisions/24499/view
--- Date: 2011-06-03 18:47
--- Who: Fluclo
--- Log: Removing f Kharanos, as FP already known to the two starting races, and you already meet the Flight Master in an earlier quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24498/view
--- Date: 2011-06-03 18:45
--- Who: Fluclo
--- Log: Tweaked coords for Razzle Sprysprocket
-
--- URL: http://wow-pro.com/node/3200/revisions/24497/view
--- Date: 2011-06-03 18:41
--- Who: Fluclo
--- Log: Removed the unnecessary |Z|Dun Morogh| tags; Removed unnecessary QO tag in Bound for Kharanos; Added quest A Honor Student; Added  three to/from Ironforge quests as Rank 2 quests; Updated some Run to and Heath steps to auto-complete; added some notes for clarity
-
--- URL: http://wow-pro.com/node/3200/revisions/24495/view
--- Date: 2011-06-02 23:50
--- Who: Fluclo
--- Log: Adding auto-complete step for On to Kharanos
-
--- URL: http://wow-pro.com/node/3200/revisions/24494/view
--- Date: 2011-06-02 23:39
--- Who: Fluclo
--- Log:  No Tanks! as the latter is a Non-Combat quest
-
--- URL: http://wow-pro.com/node/3200/revisions/24493/view
--- Date: 2011-06-02 23:30
--- Who: Fluclo
--- Log: Added Coord Complete tag to both "Enter the cave" here steps
-
--- URL: http://wow-pro.com/node/3200/revisions/24354/view
--- Date: 2011-04-29 18:18
--- Who: Ludovicus
--- Log: Changed O steps to N steps.
-
--- URL: http://wow-pro.com/node/3200/revisions/24226/view
--- Date: 2011-04-05 23:41
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3200/revisions/24219/view
--- Date: 2011-04-05 23:32
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3200/revisions/24200/view
--- Date: 2011-04-02 18:57
--- Who: Ludovicus
--- Log: QID on [Get Me Explosives Back!] was wrong.  Added advice to [Down with Crushcog!]
-
-local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Dun Morogh (Dwarf)", "Gylin - Dwarf", "Alliance")
-WoWPro:GuideLevels(guide,1,2,1)
+local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
+WoWPro:GuideLevels(guide,1,4,1.1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Dwarf_Male","Interface\\Icons\\Achievement_Character_Dwarf_Female"))
 WoWPro:GuideSteps(guide, function()
 return
 [[
 
-R Coldridge Valley |QID|24469|M|36.90,70.11|R|Gnome,Draenei,Night Elf,Human,Worgen|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley |QID|24469|M|67.18,41.41|R|Gnome|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley |QID|24469|M|67.18,41.41|R|Draenei|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley |QID|24469|M|67.18,41.41|R|Night Elf|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley |QID|24469|M|67.18,41.41|R|Human|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley |QID|24469|M|67.18,41.41|R|Worgen|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
 
-A Hold the Line! |QID|24469|M|36.90,70.11|N|From Joren Ironstock.|
-C Hold the Line! |QID|24469|M|36.54,71.73|N|Slay 6 Rockjaw Invaders.|
-T Hold the Line! |QID|24469|M|36.84,70.14|N|To Joren Ironstock.|
+A Hold the Line! |QID|24469|M|67.18,41.41|N|From Joren Ironstock.|
+C Hold the Line! |QID|24469|M|60.82,50.85|N|Slay 6 Rockjaw Invaders.|
+T Hold the Line! |QID|24469|M|67.18,41.41|N|To Joren Ironstock.|
 
-A Give 'em What-For |PRE|24469|QID|24470|M|36.84,70.14|N|From Joren Ironstock.|
-A Aid for the Wounded |PRE|24469|QID|24471|M|36.57,70.30|N|From Sten Stoutarm.|
-C Give 'em What-For |QID|24470|M|37.33,73.84|N|Kill 3 Rockjaw Goons.|S|
-C Aid for the Wounded |QID|24471|M|38.43,72.37|N|Use Sten's First Aid Kit to heal the Wounded Coldridge Mountaineers.|U|49743|NC|
-C Give 'em What-For |QID|24470|M|37.33,73.84|N|Kill 3 Rockjaw Goons.|US|
+A Give 'em What-For |PRE|24469|QID|24470|M|67.18,41.41|N|From Joren Ironstock.|
+A Aid for the Wounded |PRE|24469|QID|24471|M|65.61,43.39|N|From Sten Stoutarm.|
+C Give 'em What-For |QID|24470|M|62.82,52.70|N|Kill 3 Rockjaw Goons.|S|
+C Aid for the Wounded |QID|24471|M|62.82,52.70|N|Use Sten's First Aid Kit to heal the Wounded Coldridge Mountaineers.|U|49743|NC|
+C Give 'em What-For |QID|24470|M|62.82,52.70|N|Kill 3 Rockjaw Goons.|US|
 
-L Level 2 |LVL|2|QID|24471|N|You should be around level 2 by this point.|
+T Aid for the Wounded |QID|24471|M|65.61,43.39|N|To Sten Stoutarm.|
+T Give 'em What-For |QID|24470|M|67.18,41.41|N|To Joren Ironstock.|
+A Lockdown in Anvilmar |PRE|24470;24471|QID|24473|M|67.00,41.35|N|From Joren Ironstock.|
+T Lockdown in Anvilmar |QID|24473|M|62.45,22.05|N|To Jona Ironstock, walking around the room.|
 
-T Aid for the Wounded |QID|24471|M|36.59,70.22|N|To Sten Stoutarm.|
-T Give 'em What-For |QID|24470|M|36.89,70.12|N|To Joren Ironstock.|
-A Lockdown in Anvilmar |PRE|24471|QID|24473|M|36.84,70.14|N|From Joren Ironstock.|
-T Lockdown in Anvilmar |QID|24473|M|35.67,65.82|N|To Jona Ironstock, walking around the room.|
+A First Things First: We're Gonna Need Some Beer|PRE|24473|QID|24474|N|From Jona Ironstock.|M|62.45,22.05|
+A Dwarven Artifacts |PRE|24473|QID|24477|M|61.75,22.17|N|From Grundel Harkin.|
 
-A First Things First: We're Gonna Need Some Beer|PRE|24473|QID|24474|N|From Jona Ironstock.|M|35.67,65.82|
-A Dwarven Artifacts |PRE|24473|QID|24477|M|35.70,66.27|N|From Grundel Harkin.|
-C Dwarven Artifacts |S|QID|24477|N|Scattered on the ground, they look like little piles of snow.|NC|
-l Cask of Gnomenbrau|QID|24474|L|49746|M|37.05,67.51|N|Pick up the Cask of Gnomenbrau.|
-l Cask of Stormhammer Stout|QID|24474|L|49744|M|34.85,67.45|N|Pick up the Cask of Stormhammer Stout.|
-l Cask of Theramore Pale Ale|QID|24474|L|49745|M|31.50,67.69|N|Pick up the Cask of Theramore Pale Ale.|
-C First Things First: We're Gonna Need Some Beer|QID|24474|M|37.05,67.51;34.85,67.45;31.50,67.69|CN|N|Finally get the Cask of Gnomenbrau, the Cask of Stormhammer Stout and the Cask of Theramore Pale Ale.|NC|
-C Dwarven Artifacts |US|QID|24477|M|33.13,68.08|N|Scattered on the ground, they look like little piles of snow.|NC|
+C Dwarven Artifacts |S|QID|24477|N|Scattered on the ground, they look like glowing broken tablets.|NC|
 
-T Dwarven Artifacts |QID|24477|M|35.70,66.27|N|To Grundel Harkin.|
-A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|
-T First Things First: We're Gonna Need Some Beer |QID|24474|M|35.74,66.31|N|To Jona Ironstock.|
-A All the Other Stuff |PRE|24474|QID|24475|N|From Jona Ironstock.|M|35.74,66.31|
+C Cask of Gnomenbrau|QID|24474|L|49746|M|68.19,27.95|N|Pick up the Keg of Gnomenbrau, just to the east of Anvilmar.|QO|3|NC|
+C Cask of Stormhammer Stout|QID|24474|L|49744|M|56.90,28.13|N|Pick up the Keg of Stormhammer Stout, to the west of Anvilmar.|QO|1|NC|
+C Cask of Theramore Pale Ale|QID|24474|L|49745|M|39.95,29.03|N|Continue west, and pick up the Keg of Theramore Pale Ale.|QO|2|NC|
 
-C All the Other Stuff |S|QID|24475|N|Kill any Boars or Wolves you see and loot them for Boar Haunches and Ragged Wolf Hides.|
-C Make Hay While the Sun Shines |QID|24486|M|34.13,71.75|N|Attack the Rockjaws, and they will throw the artifacts at you, or kill them and loot the artifacts.|
-C All the Other Stuff |US|QID|24475|N|Kill any Boars or Wolves you still need haunches or hides from.|M|33.79,74.94|
+C Dwarven Artifacts |US|QID|24477|M|23.5,33.5;78.5,25.0|CN|N|Scattered on the ground, they look like glowing broken tablets.|NC|
 
-L Level 3 |LVL|3|QID|24475|N|You should be around level 3 by this point.|
+T Dwarven Artifacts |QID|24477|M|61.75,22.17|N|To Grundel Harkin.|
+A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|61.75,22.17|
+T First Things First: We're Gonna Need Some Beer |QID|24474|M|62.45,22.05|N|To Jona Ironstock.|
+A All the Other Stuff |PRE|24474|QID|24475|N|From Jona Ironstock.|M|62.45,22.05|
 
-T Make Hay While the Sun Shines |QID|24486|M|35.74,66.32|N|To Grundel Harkin.|
-T All the Other Stuff |QID|24475|M|35.82,66.29|N|To Jona Ironstock.|
-A Whitebeard Needs Ye |PRE|24475|QID|24487|N|From Jona Ironstock.|M|35.82,66.29|
+C All the Other Stuff - Haunch|S|QID|24475|N|Kill and loot the Small Crag Boars for their Haunches|QO|1|
+C All the Other Stuff - Ragged Hide |S|QID|24475|N|Kill and loot the Ragged Timber Wolf for the Ragged Hides.|QO|2|
+C Make Hay While the Sun Shines |QID|24486|M|52.35,46.04|N|Attack the Rockjaw Scavengers, and they will throw the artifacts at you, or kill them and loot the artifacts.|
+C All the Other Stuff - Ragged Hide |US|QID|24475|N|Kill and loot the Ragged Timber Wolf for the Ragged Hides.|QO|2|M|52.35,46.04|
+C All the Other Stuff - Haunch |US|QID|24475|N|Kill and loot the Small Crag Boars for their Haunches|QO|1|M|45.00,40.00|
 
-A Etched Rune |PRE|24473|QID|3108|C|Hunter|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
-T Etched Rune |QID|3108|M|36.13,65.91|N|To Thorgas Grimson.|C|Hunter|R|Dwarf|
-A Oh, A Hunter's Life For Me |PRE|3108|QID|24530|C|Hunter|N|From Thorgas Grimson.|M|36.13,65.91|R|Dwarf|
-C Oh, A Hunter's Life For Me |QID|24530|M|35.83,67.67|N|Learn Steady Shot, then use Steady Shot 5 times on the Training Dummies outside the entrance to Anvilmar. |C|Hunter|R|Dwarf|
-T Oh, A Hunter's Life For Me |QID|24530|M|36.15,65.91|N|To Thorgas Grimson.|C|Hunter|R|Dwarf|
+T Make Hay While the Sun Shines |QID|24486|M|61.75,22.17|N|To Grundel Harkin.|
+T All the Other Stuff |QID|24475|M|62.45,22.05|N|To Jona Ironstock.|
+A Whitebeard Needs Ye |PRE|24475;24486|QID|24487|N|From Jona Ironstock.|M|62.45,22.05|
 
-A Arcane Rune |PRE|24473|QID|24496|C|Mage|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
-T Arcane Rune |QID|24496|M|35.72,64.80|N|To Teegli Merrowith.|C|Mage|R|Dwarf|
-A Filling Up the Spellbook |PRE|24496|QID|24526|C|Mage|M|35.72,64.80|N|From Teegli Merrowith.|R|Dwarf|
-C Filling Up the Spellbook |QID|24526|M|35.77,67.64|N|Learn Arcane Missiles, then successfully cast Arcane Missiles 2 times on the Training Dummies outside the entrance to Anvilmar. |C|Mage|R|Dwarf|
-T Filling Up the Spellbook |QID|24526|M|35.73,64.75|N|To Teegli Merrowith.|C|Mage|R|Dwarf|
+T Whitebeard Needs Ye |QID|24487|M|42.74,62.22|N|To Grelin Whitebeard.|
+A The Troll Menace |PRE|24487|QID|182|N|From Grelin Whitebeard.|M|42.74,62.22|RANK|2|
+A A Refugee's Quandary |PRE|24487|QID|3361|M|42.04,63.34|N|From Felix Whindlebolt.|RANK|2|
+A Trolling for Information |PRE|24487|QID|24489|M|43.24,63.12|N|From Apprentice Soren.|
+C The Troll Menace |S|QID|182|N|Kill Frostmane Troll Whelps around the camps. This quest is not necessary for zone completion if you want to drop it. |
+C Felix's Box|QID|3361|M|21.30,64.00|L|10438|N|Pick up Felix's Box.|QO|1|NC|
+C Trolling for Information - Mirim'koa|QID|24489|M|21.11,66.45|N|Head into the tent, stand next to Soothsayer Mirim'koa, then listen to the dialogue.|QO|3|NC|
+C Felix's Chest|QID|3361|M|30.95,83.84|L|16313|N|Pick up Felix's Chest.|QO|2|NC|
+C Trolling for Information - Rikkari |QID|24489|M|30.47,84.96|N|Head into the tent, stand next to Soothsayer Rikkari, then listen to the dialogue.|QO|2|NC|
+C Felix's Bucket of Bolts|QID|3361|M|49.06,80.31|L|16314|N|Pick up Felix's Bucket of Bolts.|QO|3|NC|
+C Trolling for Information - Shi'kala |QID|24489|M|49.25,81.28|N|Stand next to Soothsayer Shi'kala, then listen to the dialogue.|QO|1|NC|
+C The Troll Menace |US|QID|182|M|33.31,77.83|N|Finish killing the Frostmane Troll Whelps. The Trolls inside the cave do not count.|
 
-A Consecrated Rune |PRE|24473|QID|3107|C|Paladin|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
-T Consecrated Rune |QID|3107|M|35.82,66.68|N|To Bromos Grummner.|C|Paladin|R|Dwarf|
-A The Power of the Light |PRE|3107|QID|24528|C|Paladin|M|35.82,66.68|N|From Bromos Grummner.|R|Dwarf|
-C The Power of the Light |QID|24528|M|35.83,67.67|R|Dwarf|N|Learn Seal of Righteousness and Judgment. After casting Seal of Righteousness on yourself, use Judgment on one of the Training Dummies at the entrance to Anvilmar. |C|Paladin|
-T The Power of the Light |QID|24528|M|35.82,66.68|N|To Bromos Grummner.|C|Paladin|R|Dwarf|
+T Trolling for Information |QID|24489|M|43.24,63.12|N|To Apprentice Soren.|
+T The Troll Menace |QID|182|M|42.74,62.22|N|To Grelin Whitebeard.|
+A Ice and Fire |PRE|24489|QID|218|M|42.74,62.22|N|From Grelin Whitebeard.|
+T A Refugee's Quandary |QID|3361|M|42.04,63.34|N|To Felix Whindlebolt.|
+C Ice and Fire |S|QID|218|M|51.17,82.44;37.17,78.31|N|Enter the cave, keeping to the left as you go throught it, killing Frostmane Novices and Blades as you go.|CC|
+K Wayward Fire Elemental |QID|218|M|12.61,36.80;34.15,35.67;66.63,29.93|Z|Coldridge Valley/9|CS|T|Wayward Fire Elemental|QO|2|N|Kill the Wayward Fire Elemental|ACTIVE|218|
+K Grik'nir the Cold |QID|218|M|76.24,32.00|Z|Coldridge Valley/9|T|Grik'nir the Cold|QO|1|N|Kill Grik'nir the Cold.|ACTIVE|218|
+C Ice and Fire |US|QID|218|M|33.31,77.83|N|Finish killing the Frostmane Novice and Blades in the cavern, then make your way out of the cave.|
 
-A Hallowed Rune |PRE|24473|QID|3110|C|Priest|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
-T Hallowed Rune |QID|3110|M|35.63,64.86|N|To Branstock Khalder.|C|Priest|R|Dwarf|
-A Words of Power |PRE|3110|QID|24533|C|Priest|M|35.63,64.86|N|From Branstock Khalder.|R|Dwarf|
-C Words of Power |QID|24533|N|Learn Flash Heal, then cast Flash Heal 5 times on Wounded Militia members in Anvilmar.|C|Priest|R|Dwarf|
-T Words of Power |QID|24533|M|35.63,64.86|N|To Branstock Khalder.|C|Priest|R|Dwarf|
+T Ice and Fire |QID|218|M|42.74,62.22|N|To Grelin Whitebeard.|
+A A Trip to Ironforge |PRE|218|QID|24490|N|From Grelin Whitebeard.|M|42.74,62.22|
 
-A Encrypted Rune |PRE|24473|QID|3109|C|Rogue|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
-T Encrypted Rune |QID|3109|M|35.43,65.94|N|To Solm Hargrin.|C|Rogue|R|Dwarf|
-A Evisceratin' the Enemy |PRE|3109|QID|24532|C|Rogue|M|35.43,65.94|N|From Solm Hargrin.|R|Dwarf|
-C Evisceratin' the Enemy |QID|24532|M|35.83,67.67|N|Learn Evisecerate, then use Eviscerate 3 times on the Training Dummies near the entrance to Anvilmar.|C|Rogue|R|Dwarf|
-T Evisceratin' the Enemy |QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|
+T A Trip to Ironforge |QID|24490|M|87.50,44.39|N|To Hands Springsprocket at the top of the hill.|
+A Follow that Gyro-Copter! |PRE|24490|QID|24491|N|From Hands Springsprocket.|M|87.50,44.39|
+T Follow that Gyro-Copter! |QID|24491|M|69.95,44.08|N|To Milo Geartwinge at the bottom of the hill.|
+A Pack Your Bags |PRE|24491|QID|24492|N|From Milo Geartwinge.|M|69.95,44.08|
 
-A Empowered Rune |PRE|24473|QID|24494|C|Shaman|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
-T Empowered Rune |QID|24494|M|35.76,64.63|N|To Teo Hammerstorm.|C|Shaman|R|Dwarf|
-A Your Path Begins Here |PRE|24494|QID|24527|C|Shaman|M|35.76,64.63|N|From Teo Hammerstorm.|R|Dwarf|
-C Your Path Begins Here |QID|24527|M|35.72,67.70|N|Learn Primal Strike, then use Primal Strike 2 times on a Training Dummy near the entrance of Anvilmar.|C|Shaman|R|Dwarf|
-T Your Path Begins Here |QID|24527|M|35.74,64.62|N|To Teo Hammerstorm.|C|Shaman|R|Dwarf|
-
-A Tainted Rune |PRE|24473|QID|3115|C|Warlock|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
-T Tainted Rune |QID|3115|M|35.72,65.43|N|To Saripal Smolderbrew.|C|Warlock|R|Dwarf|
-A Harnessing the Flames |PRE|3115|QID|26904|C|Warlock|M|35.72,65.43|N|From Saripal Smolderbrew.|R|Dwarf|
-C Harnessing the Flames |QID|26904|M|35.83,67.72|N|Learn Immolate, then cast Immolate 5 times on a Training Dummy near the entrance to Anvilmar. |C|Warlock|R|Dwarf|
-T Harnessing the Flames |QID|26904|M|35.69,65.45|N|To Saripal Smolderbrew.|C|Warlock|R|Dwarf|
-
-A Simple Rune |PRE|24473|QID|3106|C|Warrior|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
-T Simple Rune |QID|3106|M|35.87,65.70|N|To Thran Khorman.|C|Warrior|R|Dwarf|
-A Getting Battle-Ready |QID|24531|M|35.87,65.70|N|From Thran Khorman.|C|Warrior|R|Dwarf||PRE|3106|
-C Getting Battle-Ready |QID|24531|M|35.83,67.67|N|Learn Charge, then use Charge on one of the Training Dummies outside the entrance to Anvilmar.|C|Warrior|R|Dwarf|
-T Getting Battle-Ready |QID|24531|M|35.80,65.70|N|To Thran Khorman.|C|Warrior|R|Dwarf|
-
-A Elegant Rune |PRE|24473|QID|31150|C|Monk|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
-T Simple Rune |QID|31150|M|36.10,66.29|N|To Lo.|C|Monk|R|Dwarf|
-A Kick, Punch, It's All in the Mind|PRE|31150|QID|31151|M|36.10,66.29|N|From Lo.|C|Monk|R|Dwarf|
-C Kick, Punch, It's All in the Mind|QID|31151|M|35.83,67.67|N|Learn Tiger Palm, then use on one of the Training Dummies outside the entrance to Anvilmar.|C|Monk|R|Dwarf|
-T Kick, Punch, It's All in the Mind|QID|31151|M|36.10,66.29|N|To Lo.|C|Monk|R|Dwarf|
-
-T Whitebeard Needs Ye |QID|24487|M|32.01,74.22|N|To Grelin Whitebeard.|
-A The Troll Menace |PRE|24487|QID|182|N|From Grelin Whitebeard.|M|32.01,74.22|
-A A Refugee's Quandary |PRE|24487|QID|3361|M|31.92,74.33|N|From Felix Whindlebolt.|
-A Trolling for Information |PRE|24487|QID|24489|M|32.12,74.34|N|From Apprentice Soren.|
-C The Troll Menace |S|QID|182|N|Kill Trolls as you go around the camps.|
-l Felix's Box|QID|3361|M|27.90,74.53|L|10438|N|Pick up Felix's Box.|
-C Trolling for Information - Mirim'koa|QID|24489|M|27.80,75.06|N|Head into the tent, stand next to the Soothsayer, then listen to the dialogue.|QO|Soothsayer Mirim'koa Scouted: 1/1|NC|
-l Felix's Chest|QID|3361|M|29.77,78.46|L|16313|N|Pick up Felix's Chest.|
-C Trolling for Information - Rikkari |QID|24489|M|29.66,78.63|N|Head into the tent, stand next to the Soothsayer, then listen to the dialogue.|QO|Soothsayer Rikkari Scouted: 1/1|NC|
-l Felix's Bucket of Bolts|QID|3361|M|33.31,77.83|L|16314|N|Pick up Felix's Bucket of Bolts.|
-C A Refugee's Quandary |QID|3361|M|33.31,77.83|N|Pick up Felix's Chest, Bucket of Bolts and Box.|NC|
-C Trolling for Information - Soothsayer |QID|24489|M|33.35,77.75|N|Stand next to the Soothsayer, then listen to the dialogue.|QO|Soothsayer Shi'kala Scouted: 1/1|NC|
-C The Troll Menace |US|QID|182|M|33.31,77.83|N|Kill any remaining Trolls you need.|
-
-L Level 4 |LVL|4|QID|24489|N|You should be around level 4 by this point.|
-
-T Trolling for Information |QID|24489|M|32.07,74.34|N|To Apprentice Soren.|
-T The Troll Menace |QID|182|M|32.07,74.25|N|To Grelin Whitebeard.|
-A Ice and Fire |PRE|24489|QID|218|M|32.07,74.25|N|From Grelin Whitebeard.|
-T A Refugee's Quandary |QID|3361|M|31.93,74.38|N|To Felix Whindlebolt.|
-C Ice and Fire |S|QID|218|M|33.78,78.20;33.68,77.99|N|Enter the cave, keeping to the left as you go throught it, killing Grik'nir's Servants as you go.|CS|QO|Grik'nir's Servant slain: 10/10|
-K Wayward Fire Elemental |QID|218|M|33.79,78.34;36.76,78.29|CS|T|Wayward Fire Elemental|QO|Wayward Fire Elemental slain: 1/1|N|Kill the Wayward Fire Elemental.|
-K Grik'nir the Cold |QID|218|M|37.66,78.48|T|Grik'nir the Cold|QO|Grik'nir the Cold slain: 1/1|N|Kill Grik'nir the Cold.|
-C Ice and Fire |US|QID|218|M|33.31,77.83|N|Make your way out of the cave, killing any Grik'nir's Servants you still need.|QO|Grik'nir's Servant slain: 10/10|
-
-L Level 5 |LVL|5|QID|218|N|You should be around level 5 by this point|
-
-T Ice and Fire |QID|218|M|32.04,74.24|N|To Grelin Whitebeard.|
-A A Trip to Ironforge |PRE|218|QID|24490|N|From Grelin Whitebeard.|M|32.04,74.24|
-T A Trip to Ironforge |QID|24490|M|40.85,70.63|N|To Hands Springsprocket at the top of the hill.|
-A Follow that Gyro-Copter! |PRE|24490|QID|24491|N|From Hands Springsprocket back down the hill.|M|40.85,70.63|
-T Follow that Gyro-Copter! |QID|24491|M|37.44,70.61|N|To Milo Geartwinge.|
-A Pack Your Bags |PRE|24491|QID|24492|N|From Milo Geartwinge.|M|37.44,70.61|
-
-A Don't Forget About Us |PRE|24491|QID|24493|M|35.61,66.23|N|From Jona Ironstock.|
-l Ragged Wolf-Hide Cloak|QID|24492|M|35.81,64.55|N|Pick up the Wolf-Hide Cloaks, box in the back room at the top of the stairs.|QO|Ragged Wolf-Hide Cloak: 1/1|
-l Coldridge Beer Flagon|QID|24492|M|35.50,65.13|N|Pick up the Coldridge Beer Flagon, in the corner to the side of the bar.|QO|Coldridge Beer Flagon: 1/1|
-l Leftover Boar Meat|QID|24492|M|35.41,66.00|N|Pick up the Leftover Boar Meat, back in the main room, on the table to your right.|QO|Leftover Boar Meat: 1/1|
-C Pack Your Bags |QID|24492|M|35.81,64.55;35.50,65.13;35.41,66.00|CN|N|Pick up the Ragged Wolf-Hide Cloak, Coldridge Beer Flagon and Leftover Boar Meat from inside Anvilmar.|
-T Pack Your Bags |QID|24492|M|37.37,70.55|N|To Milo Geartwinge.|
-F Kharanos |QID|24493|N|On handing the quest Pack Your Bags, you should be whisked on a gyro-copter to Kharanos.|
-T Don't Forget About Us |QID|24493|M|53.16,49.98|N|To Tharek Blackstone.|
+A Don't Forget About Us |QID|24493|M|62.45,22.05|N|From Jona Ironstock.|RANK|2|
+r Repair and Sell Junk|QID|24492|S|ACTIVE|24492|N|Take this opportunity to sell your junk and repair with the sellers in Anvilmar.|T|Grundel Harkin|
+C Coldridge Beer Flagon|QID|24492|M|62.45,23.87|N|Go to near the entrance, and all the items are around a table. Pick up the barrel of Coldridge Beer from the floor.|QO|1|NC|
+C Ragged Wolf-Hide Cloak|QID|24492|M|62.45,23.87|N|Pick up the box of Wolf-Hide Cloaks.|QO|2|NC|
+C Leftover Boar Meat|QID|24492|M|62.45,23.87|N|Pick up the Leftover Boar Meat that's on the table.|QO|3|NC|
+T Pack Your Bags |QID|24492|M|69.95,44.08|N|To Milo Geartwinge. On handing this quest, you will be whisked by gyro-copter to Kharanos.|
+T Don't Forget About Us |QID|24493|M|53.16,49.98|N|To Tharek Blackstone.|Z|Dun Morogh|
 
 ]]
 end)
+
+

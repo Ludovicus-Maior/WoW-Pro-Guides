@@ -4,48 +4,58 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
+-- Date: 2018-08-24 16:04
+-- Who: Ludovicus_Maior
+-- Log: Cleaned up QOs on [Troll Patrol: High Standards]
+
+-- URL: http://wow-pro.com/node/3479/revisions/28334/view
+-- Date: 2017-03-11 18:20
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3479/revisions/26601/view
 -- Date: 2014-07-25 21:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: adj mean
 
 -- URL: http://wow-pro.com/node/3479/revisions/26586/view
 -- Date: 2014-07-20 19:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added faction for Argent Dawn
 
 -- URL: http://wow-pro.com/node/3479/revisions/26554/view
 -- Date: 2014-07-06 15:36
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added level and faction
 
 -- URL: http://wow-pro.com/node/3479/revisions/26521/view
 -- Date: 2014-06-11 19:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3479/revisions/25741/view
 -- Date: 2013-08-15 23:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Improved ordering.
 
 -- URL: http://wow-pro.com/node/3479/revisions/25645/view
 -- Date: 2013-05-14 19:16
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Extra M tag
 
 -- URL: http://wow-pro.com/node/3479/revisions/25396/view
 -- Date: 2013-01-12 22:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3479/revisions/25085/view
 -- Date: 2012-09-25 00:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Wrong separators in [Captain Grondel's Task]
 
 -- URL: http://wow-pro.com/node/3479/revisions/24998/view
 -- Date: 2012-05-27 22:30
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: INitial Versions
 
 local guide = WoWPro:RegisterGuide("LudoArgCrusade",'Dailies', "Icecrown", "Ludovicus", "Neutral")
@@ -77,9 +87,9 @@ N The Timer|N|If this took you more than 6 minutes, abandon Troll Patrol, reset 
 ; Captain Brandon's Task
 A Captain Brandon's Task|QID|12588;12502;12564|M|48.8,78.8|Z|Zul'Drak|N|From Captain Brandon.|
 C Troll Patrol: Can You Dig It?|QID|12588|M|47.5,82.5|Z|Zul'Drak|N|Dig near the sparkly mounds of dirt.|U|38566|
-C Troll Patrol: High Standards|QID|12502|M|50.4,73.1|Z|Zul'Drak|N|Set the banner on the North Pedestal.|U|38544|QO|Argent Crusade Banner North|
-C Troll Patrol: High Standards|QID|12502|M|53.2,72.3|Z|Zul'Drak|N|Set the banner on the East Pedestal.|U|38544|QO|Argent Crusade Banner East|
-C Troll Patrol: High Standards|QID|12502|M|52.5,76.6|Z|Zul'Drak|N|Set the banner on the South Pedestal.|U|38544|QO|Argent Crusade Banner South|
+C Banner North|QID|12502|M|50.4,73.1|Z|Zul'Drak|N|Set the banner on the North Pedestal.|U|38544|QO|2|
+C Banner East|QID|12502|M|53.2,72.3|Z|Zul'Drak|N|Set the banner on the East Pedestal.|U|38544|QO|3|
+C Banner South|QID|12502|M|52.5,76.6|Z|Zul'Drak|N|Set the banner on the South Pedestal.|U|38544|QO|1|
 C Troll Patrol: Something for the Pain|QID|12564|M|44.9,79.5|Z|Zul'Drak|N|Loot Mature Water-Poppies from the fields.|
 
 T Troll Patrol: Can You Dig It?|QID|12588|M|48.8,78.8|Z|Zul'Drak|N|To Captain Brandon.|
@@ -115,3 +125,5 @@ T Congratulations!|QID|12604|M|40.3,66.6|Z|Zul'Drak|N|To Commander Kunz.|
 
 ]]
 end)
+
+

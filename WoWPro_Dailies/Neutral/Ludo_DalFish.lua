@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dalaran_cooking_and_fishing_dalies
+-- Date: 2018-08-18 20:59
+-- Who: Ludovicus_Maior
+-- Log: Change L to l for fishing quests
+
+-- URL: http://wow-pro.com/node/3477/revisions/29545/view
+-- Date: 2018-08-18 20:57
+-- Who: Ludovicus_Maior
+-- Log: Change L steps to l steps for cooking dailies.
+
+-- URL: http://wow-pro.com/node/3477/revisions/26857/view
 -- Date: 2014-11-07 20:45
 -- Who: Fluclo
 -- Log: Fixed coord tag for Bloated Slippery Eel
@@ -15,42 +25,42 @@
 
 -- URL: http://wow-pro.com/node/3477/revisions/26555/view
 -- Date: 2014-07-06 15:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added name/faction.
 
 -- URL: http://wow-pro.com/node/3477/revisions/26522/view
 -- Date: 2014-06-11 19:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3477/revisions/25641/view
 -- Date: 2013-05-14 19:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Bad coord
 
 -- URL: http://wow-pro.com/node/3477/revisions/25640/view
 -- Date: 2013-05-14 19:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: More @DalaranCity
 
 -- URL: http://wow-pro.com/node/3477/revisions/25622/view
 -- Date: 2013-05-14 15:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated to The Underbelly@DalaranCity
 
 -- URL: http://wow-pro.com/node/3477/revisions/25424/view
 -- Date: 2013-01-13 15:03
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3477/revisions/25362/view
 -- Date: 2013-01-12 18:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Lots of CN tags
 
 -- URL: http://wow-pro.com/node/3477/revisions/24995/view
 -- Date: 2012-05-27 19:57
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide("LudoDalFish",'Dailies', "Dalaran", "Ludovicus", "Neutral")
@@ -66,7 +76,7 @@ T Jewel Of The Sewers|QID|13832|M|52.6,64.8|N|To Marcia Chase|
 
 K Kill a Mammoth|QID|13833|M|54.6,41.0|Z|Borean Tundra|N|Kill any mammoth to get bloody.|
 R Pool of Blood|QID|13833|M|52.6,42.4|Z|Borean Tundra|N|Jump in the water to get a pool of blood.|
-L Bloodtooth Frenzy|QID|13833|M|52.6,42.4|Z|Borean Tundra|N|Now fish in the pool to get the Frenzies.|L|45905 5|
+l Bloodtooth Frenzy|QID|13833|M|52.6,42.4|Z|Borean Tundra|N|Now fish in the pool to get the Frenzies.|L|45905 5|
 T Blood Is Thicker|QID|13833|M|52.6,64.8|N|To Marcia Chase|
 
 C Dangerously Delicious|QID|13834|M|79.6,43.0;50.2,81.2|Z|Wintergrasp|CN|N|Pick your spot and fish away.|L|45904 10|
@@ -82,3 +92,5 @@ T The Ghostfish|QID|13830|M|52.6,64.8|N|To Marcia Chase|
 
 ]]
 end)
+
+

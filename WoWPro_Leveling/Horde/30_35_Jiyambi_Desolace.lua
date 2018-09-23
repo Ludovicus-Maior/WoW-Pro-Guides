@@ -4,38 +4,67 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2018-02-20 21:31
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3314/revisions/28885/view
+-- Date: 2018-01-16 23:41
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3314/revisions/28441/view
+-- Date: 2017-03-16 16:15
+-- Who: Ludovicus_Maior
+-- Log: Add missing PRE
+
+-- URL: http://wow-pro.com/node/3314/revisions/28425/view
+-- Date: 2017-03-15 23:20
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3314/revisions/27467/view
+-- Date: 2016-07-17 20:19
+-- Who: Ludovicus_Maior
+-- Log: Updated Q0 for [Three Princes]
+
+-- URL: http://wow-pro.com/node/3314/revisions/27431/view
+-- Date: 2016-02-08 01:04
+-- Who: Ludovicus_Maior
+-- Log: Add T|Dying Kodo| and a PRE correction.
+
+-- URL: http://wow-pro.com/node/3314/revisions/26923/view
 -- Date: 2014-11-08 06:26
 -- Who: Emmaleah
 -- Log: Delete dup NC on C To the Hilt
 
 -- URL: http://wow-pro.com/node/3314/revisions/26422/view
 -- Date: 2014-06-02 13:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3314/revisions/26239/view
 -- Date: 2014-05-25 22:55
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3314/revisions/26077/view
 -- Date: 2014-05-18 21:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3314/revisions/26029/view
 -- Date: 2014-05-17 17:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3314/revisions/25455/view
 -- Date: 2013-01-13 18:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3314/revisions/25285/view
 -- Date: 2013-01-09 01:00
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Multicoord
 
 -- URL: http://wow-pro.com/node/3314/revisions/24942/view
@@ -45,7 +74,7 @@
 
 -- URL: http://wow-pro.com/node/3314/revisions/24330/view
 -- Date: 2011-04-29 16:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 36 for step R has 1 M coords: , Line 37 for step T has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3314/revisions/23544/view
@@ -81,6 +110,7 @@
 
 local guide = WoWPro:RegisterGuide('JiyDes3035', "Leveling", 'Desolace', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,27,34,28.5434)
+WoWPro:NewGuideLevels(guide,30,60)
 WoWPro:GuideNextGuide(guide, 'JiyFer3540')
 WoWPro:GuideIcon(guide,"ACH",4930)
 WoWPro:GuideSteps(guide, function()
@@ -89,7 +119,7 @@ return [[
 R Desolace|QID|14184|M|54.7,8.8|N|Run down into Desolace.|
 T Warchief's Command: Desolace!|O|QID|28548|M|54.7,8.8|N|To Furien at Tethris Aran in Desolace.|
 T Nothing Left for You Here|O|QID|26134|M|54.74,8.84|N|To Furien.|
-A My Time Has Passed|QID|14184|M|54.74,8.84|N|From Furien.|
+A My Time Has Passed|QID|14184|PRE|28548+26134|M|54.74,8.84|N|From Furien.| ; Grail PRE|28548;26134 cant be right
 
 T My Time Has Passed|QID|14184|M|54.81,8.65;44.63,29.52|CC|N|Talk to the dragonhawk. When it lands, turn-in to Cerelia.|
 A Avenge Furien!|QID|14188|PRE|14184|M|44.63,29.52|N|From Cerelia.|
@@ -98,9 +128,9 @@ A Translation|QID|14189|PRE|14188|M|44.85,29.53|N|From Sorrem.|
 
 T Translation|QID|14189|M|44.31,29.66;69.30,29.30|CC|N|Take the dragonhawk by talking to Narimar, the flightmaster. Turn-in to the tablet.|
 A Furien's Footsteps|QID|14191|PRE|14189|M|69.30,29.30|N|From the Ancient Tablets.|
-A To the Hilt!|QID|14219|PRE|14189|M|75.84,26.66|N|From the Elune's Handmaiden statue.|
+A To the Hilt!|QID|14219|M|75.84,26.66|N|From the Elune's Handmaiden statue.|
 l Satyr Sabers|QID|14219|N|Gather Satyr Sabers from racks and Satyrs in the area.|L|48943 20|S|
-A Ten Pounds of Flesh|QID|14213|PRE|14189|M|78.71,23.22|N|From Elune's Brazier.|
+A Ten Pounds of Flesh|QID|14213|M|78.71,23.22|N|From Elune's Brazier.|
 l Satyr Flesh|QID|14219|N|Kill Satyrs and loot their flesh.|L|48857 10|S|
 C Furien's Footsteps|QID|14191|M|76.86,18.08|N|Head to the waypoint for the last place.|
 T Furien's Footsteps|QID|14191|M|76.87,18.16|N|The turn-in should pop up automatically.|
@@ -126,12 +156,12 @@ A Rider on the Storm|QID|14198|PRE|14196|M|77.42,18.41|N|The new quest should po
 
 C Rider on the Storm|QID|14198|U|48249|M|67.69,16.88|N|Use the gem to summon the vortex at the ruins outside Nigel's Point. Use ability 1 while targeting defenders and merchants to kill them. When you finish the quest, use the final ability to return to town.|
 T Rider on the Storm|QID|14198|M|44.65,29.50|N|When you finish the quest, use the final ability to return to town. Turn-in to Cerelia. Congrats on a very nice piece of gear!|
-A Ethel Rethor|QID|14255|PRE|14198|M|44.65,29.50|N|From Cerelia.|
+A Ethel Rethor|QID|14255|LEAD|14256|PRE|14191|M|44.65,29.50|N|From Cerelia.|
 A Peace of Mind|QID|14223|PRE|14198|M|44.86,29.52|N|From Sorrem.|
 
 R Ethel Rethor|QID|14255|M|41.19,29.03;38.83,26.98|CC|N|Head over to Ethel Rethor.|
 T Ethel Rethor|QID|14255|M|38.83,26.98|N|To Cenarion Researcher Korrah.|
-A The Emerging Threat|QID|14256|PRE|14255|M|38.83,26.98|N|From Cenarion Researcher Korrah.|
+A The Emerging Threat|QID|14256|M|38.83,26.98|N|From Cenarion Researcher Korrah.|
 C The Emerging Threat|NC|QID|14256|M|38.82,27.03|N|Speak with Researcher Korrah to get on the hippogryph.|
 T The Emerging Threat|QID|14256|M|38.82,27.03|N|To Cenarion Researcher Korrah.|
 A Slitherblade Slaughter|QID|14257|PRE|14256|M|38.82,27.03|N|From Cenarion Researcher Korrah.|
@@ -203,38 +233,38 @@ C Pulling Weeds|QID|14306|M|61.00,59.40|US|N|Kill Uprooted Lashers.|
 T Calming the Kodo|QID|14309|M|58.78,46.52|N|To Thressa Amberglen.|
 T A Time to Reap|QID|14305|M|58.55,48.60|N|To Botanist Ferrah.|
 T Pulling Weeds|QID|14306|M|58.54,48.73|N|To Botanist Ferrah.|
-A Taking Part|QID|14311|PRE|14305;14306|M|58.57,48.69|N|From Botanist Ferrah.|
+A Taking Part|QID|14311|PRE|14305|M|58.57,48.69|N|From Botanist Ferrah.|
 
 C Taking Part|NC|QID|14311|U|49150|M|65.10,51.88|N|Use the seed packet next to the mounds of earth.|
 
 T Taking Part|QID|14311|M|58.57,48.69|N|To Botanist Ferrah.|
-A An Introduction Is In Order|QID|14312|PRE|14311;14309;14307|M|58.42,49.83|N|From Garren Darkwind.|
+A An Introduction Is In Order|QID|14312|PRE|14311|M|58.42,49.83|N|From Garren Darkwind.|
 T An Introduction Is In Order|QID|14312|M|58.32,49.97|N|To Khan Leh'Prah.|
 A Breakout!|QID|14314|PRE|14312|M|58.32,49.97|N|From Khan Leh'Prah.|
 A Cenarion Property|QID|14316|PRE|14312|M|58.44,49.84|N|From Garren Darkwind.|
-A Ghost Walker Post|QID|14338|PRE|14311;14309;14307|M|57.45,47.71|N|From Karnum Marshweaver.|
+A Ghost Walker Post|QID|14338|LEAD|14339|PRE|14311|M|57.45,47.71|N|From Karnum Marshweaver.|
 
 R Ghost Walker Post|QID|14338|M|57.66,56.37;56.51,56.97|CC|N|Head up to Ghost Walker Post.|
 A Infernal Encroachment|RANK|2|QID|14342|M|56.51,56.97;56.25,59.51|CC|N|From Felgur Twocuts.|
 A Portals of the Legion|RANK|2|QID|5581|M|56.25,59.51|N|From Felgur Twocuts.|
 A Smeed's Harnesses|RANK|2|QID|14341|M|55.46,55.77|N|From Nataka Longhorn.|
 T Ghost Walker Post|QID|14338|M|52.22,53.51|N|To Maurin Bonesplitter.|
-A Delivery Device|QID|14339|PRE|14338|M|52.22,53.51|N|From Maurin Bonesplitter.|
+A Delivery Device|QID|14339|M|52.22,53.51|N|From Maurin Bonesplitter.|
 T Smeed's Harnesses|RANK|2|QID|14341|M|60.83,61.89|N|To Smeed Scrabblescrew, at the camp to the east.|
 A Kodo Roundup|RANK|2|QID|5561|M|60.79,61.89|N|From Smeed Scrabblescrew.|
 
 C Bone Collector |QID|5501|S|M|52.2,58.4|N|Kodo Bones from the graveyard, they look like smaller Kodo skulls. A Kodo Apparition can spawn when you pick one up.|RANK|3|
-C Delivery Device|QID|14339|M|50.42,58.07|S|N|Kill and loot Dying Kodos.|
+C Delivery Device|QID|14339|M|50.42,58.07|S|N|Kill and loot Dying Kodos.|T|Dying Kodo|
 C Kodo Roundup|NC|RANK|2|QID|5561|U|13892|M|60.73,61.98|N|Go into the Kodo Graveyard and use the Kodo Kombobulator on an Ancient or Aged Kodo, then bring it back to Smeed (Try not to get too far ahead of it). Click on the Kodo once back to Smeed to inspect it. Do this three times.. Repeat.|
 T Kodo Roundup|RANK|2|QID|5561|M|60.81,61.92|N|To Smeed Scrabblescrew.|
-C Delivery Device|QID|14339|M|50.42,58.07|US|N|Kill and loot Dying Kodos.|
+C Delivery Device|QID|14339|M|50.42,58.07|US|N|Kill and loot Dying Kodos.|T|Dying Kodo|
 C Bone Collector |QID|5501|US|M|52.2,58.4|N|Kodo Bones from the graveyard, they look like smaller Kodo skulls. A Kodo Apparition can spawn when you pick one up.|RANK|3|
 
 T Delivery Device|QID|14339|M|55.29,58.22;52.23,53.48|CC|N|To Maurin Bonesplitter.|
 A Maurin's Concoction|QID|14343|PRE|14339|M|52.23,53.48|N|From Maurin Bonesplitter.|
 
 T Maurin's Concoction|QID|14343|M|57.41,47.72|N|To Karnum Marshweaver, back at Karnum's Glade.|
-A Cleansing Our Crevasse|QID|14346|M|57.41,47.72|N|From Karnum Marshweaver.|
+A Cleansing Our Crevasse|QID|14346|PRE|14343+14379|M|57.41,47.72|N|From Karnum Marshweaver.|
 C Cleansing Our Crevasse|QID|14346|M|57.58,47.71|N|Hop onto Grimfeather - he will take you to the naga. Use Ability 1 to bomb the naga. Use Ability 3 when you are done.|
 T Cleansing Our Crevasse|QID|14346|M|57.42,47.72|N|Use Ability 3 to return to Karnum Marshweaver. Congrats on a very nice piece of gear!|
 
@@ -244,11 +274,11 @@ C Cenarion Property|NC|QID|14316|M|74.70,46.94|N|The crates are inside the tents
 H Karnum's Glade|QID|14316|M|57.44,47.71|N|If you didn't set your hearth there, run back.|
 T Cenarion Property|QID|14316|M|58.38,49.83|N|To Garren Darkwind.|
 T Breakout!|QID|14314|M|58.32,50.00|N|To Khan Leh'Prah.|
-A Delicate Negotiations|QID|14318|PRE|14314|M|58.32,50.00|N|From Khan Leh'Prah.|
+A Delicate Negotiations|QID|14318|PRE|14314;14316|M|58.32,50.00|N|From Khan Leh'Prah.|
 
 C Delicate Negotiations|QID|14318|M|71.26,45.80|N|Talk to the Khan to mount up. When he slows down next to the Fatherstone in the Magram Territory, use Ability 1. Help the Kolkar defeat the Magram Defenders.|
 T Delicate Negotiations|QID|14318|M|71.69,45.56|N|To Khan Kammah. Congrats on a very nice piece of gear!|
-A Will Work For Food|QID|14325|M|71.69,45.56|N|From Khan Kammah.|
+A Will Work For Food|QID|14325|PRE|14318|M|71.69,45.56|N|From Khan Kammah.|
 C Will Work For Food|QID|14325|S|M|63.61,36.84|N|The basilisks can be found to the west.|
 T Bone Collector|QID|5501|M|62.31,38.93|N|To Bibbly F'utzbuckle.|RANK|3|
 C Will Work For Food|QID|14325|US|M|63.61,36.84|N|The basilisks can be found to the west.|
@@ -288,18 +318,18 @@ A Jugkar's Undoing|RANK|2|QID|14344|U|49200|N|From the Infernal Power Core.|
 C Jugkar's Undoing|RANK|2|QID|14344|U|49199|M|54.36,76.96|N|Use the Infernal Power Core on the big demon. You'll take control of him - use him to defeat the warlock. Ability 1 is an enrage, Ability 2 is a stun, and Ability 3 is a cone of fire. Just use them when they are off cooldown, try to use the stun to interrupt the warlock's casts.|
 T Jugkar's Undoing|RANK|2|QID|14344|N|The turn-in should pop up automatically.|
 
-K Rhoho|QID|14328|M|41.78,82.51|QO|Rhoho Defeated: 1/1|N|At the Gelkis Village to the west, kill Rhoho.|
-K Sherik|QID|14328|M|35.56,81.48|QO|Sherik Defeated: 1/1|N|Kill Sherik.|
-C Three Princes|QID|14328|M|35.62,92.28|N|Now kill Jorreth.|
+K Rhoho|QID|14328|M|41.78,82.51|QO|1|N|At the Gelkis Village to the west, kill Rhoho.|
+K Sherik|QID|14328|M|35.40,81.40|QO|2|N|Kill Sherik.|
+K Jorreth|QID|14328|M|35.62,92.28|QO|3|N|Kill Jorreth.|
 T Three Princes|QID|14328|M|38.15,85.52;38.47,90.88;40.46,95.43|CS|N|To Khan Shodo, inside the cave.|
-A Not So Fast!|QID|14329|M|40.46,95.43|N|From Khan Shodo.|
+A Not So Fast!|QID|14329|PRE|14328|M|40.46,95.43|N|From Khan Shodo.|
 
 C Not So Fast!|QID|14329|M|32.94,54.73|N|To the north, in the Valley of Spears. Make sure you loot the centaurs, one will drop a quest starting item.|
 A Behind Closed Doors|QID|14330|PRE|14328|U|38567|N|From the Maraudine Prisoner Manifest.|
 T Not So Fast!|QID|14329|N|The turn-in should pop up automatically.|
 T Behind Closed Doors|QID|14330|M|29.91,62.43|N|Head inside Maraudon. Follow the tunnel - you should come to a centaur in a cage. Turn-in to Kherrah.|
-A Time For Change|QID|14332|N|From Kherrah.|
-A While You're Here|QID|14333|N|From the nearby artifact.|
+A Time For Change|QID|14332|PRE|14330|N|From Kherrah.|
+A While You're Here|QID|14333|PRE|14328|N|From the nearby artifact.|
 l Defiled Relics|QID|14333|M|30.71,52.67|N|Out in the Valley of Spears, look for Defiled Relics on the ground. Gather 6 of them.|L|49194 6|
 C While You're Here|NC|QID|14333|U|49194|N|Use the Defiled Relics.|
 T While You're Here|QID|14333|N|The turn-in should pop up automatically.|
@@ -330,12 +360,14 @@ T Time For Change|QID|14332|M|72.26,67.37|N|To Khan Leh'Prah.|
 A Into the Fray!|QID|14393|PRE|14332|M|72.26,67.37|N|From Khan Leh'Prah.|
 C Into the Fray!|QID|14393|M|69.54,76.70|N|Talk to the Khan to start the battle. You will get to ride a centaur, and get several centaur troops to command in battle. Ability 1 is a basic attack. Ability 2 sends the troops in. Ability 3 calls the troops back to you. Ability 4 requests healing. Ability 6 calls for reinforcements if yours die.|
 T Into the Fray!|QID|14393|M|72.26,67.41|N|To Khan Leh'Prah.|
-A Death to Agogridon|QID|14394|M|72.26,67.41|N|From Khan Leh'Prah.|
+A Death to Agogridon|QID|14394|PRE|14393|M|72.26,67.41|N|From Khan Leh'Prah.|
 C Death to Agogridon|QID|14394|M|77.45,76.04;79.77,77.76;79.32,82.16;81.71,80.71|CS|N|Make sure you are still on your centaur - talk to the Khan if you need to remount. Follow the arrows to the demon you need to defeat. The Khans will show up, so it's not difficult.|
 T Death to Agogridon|QID|14394|M|82.30,80.85|N|To Khan Leh'Prah. Congrats on a very nice weapon!|
-A The Wilds of Feralas|QID|26589|M|73.2,73|N|From Khan Shodo.|
+A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346;14394|M|73.2,73|N|From Khan Shodo.|
 C Ghost-o-plasm Round Up|QID|6134|U|15848|M|63.91,91.78|N|Clear the area then use your gizmo. Kill the ghost centaurs. (They turn aggressive when they get to the gizmo so beware.)|
 T Ghost-o-plasm Round Up|QID|6134|N|To Hornizz Brimbuzzle.|M|47.88,61.80|
 
 ]]
 end)
+
+

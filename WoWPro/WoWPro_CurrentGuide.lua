@@ -93,7 +93,7 @@ frame:SetScript("OnShow", function()
 		    if row.index and WoWPro.why and WoWPro.why[row.index] then
 		        tooltip:SetPoint("TOPLEFT", row, "BOTTOMLEFT", -10, 10)
 		        tooltiptext:SetHeight(125)
-		        tooltiptext:SetText(string.format("%d: %s",row.index,WoWPro.why[row.index]))
+		        tooltiptext:SetText(string.format("Step %d/QID %s: %s",row.index,tostring(WoWPro.QID[row.index]),WoWPro.why[row.index]))
 		        tooltiptext:SetHeight(tooltiptext:GetStringHeight())
 		        tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
 		        tooltip:Show()
@@ -102,6 +102,10 @@ frame:SetScript("OnShow", function()
 		row.action.frame:SetScript("OnLeave", function()
 		    tooltip:Hide()
 		end)
+---		row.action.frame:RegisterForClicks("AnyUp")
+---		row.action.frame:SetScript("OnClick", function(self, button, down)
+---				WoWPro.PickQuestline(WoWPro.QID[row.index], WoWPro.step[row.index])
+---		end)
 		
 		row.step = WoWPro:CreateStep(row, row.action)
 		row.note = WoWPro:CreateNote(row, row.action)
@@ -118,7 +122,7 @@ frame:SetScript("OnShow", function()
 		if not module or not module:IsEnabled() then return end
 		local steplist = WoWPro.step
 		local optional = WoWPro.optional
-		local completion = WoWProCharDB.Guide[GID].completion
+		local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or 0
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
 		local i = 1

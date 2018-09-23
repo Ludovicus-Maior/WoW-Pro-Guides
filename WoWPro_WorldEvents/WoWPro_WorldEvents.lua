@@ -17,14 +17,7 @@ end
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.WorldEvents:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: WorldEvents Module")
-	
-	-- Event Registration --
-	WoWPro.WorldEvents.Events = {"QUEST_COMPLETE", 
-		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM"
-	}
-	WoWPro:RegisterEvents(WoWPro.WorldEvents.Events)
-	
+
 	--Loading Frames--
 	if not WoWPro.WorldEvents.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.WorldEvents:CreateConfig()
@@ -37,9 +30,6 @@ end
 
 -- Called when the module is disabled --
 function WoWPro.WorldEvents:OnDisable()
-	-- Unregistering WorldEvents Module Events --
-	WoWPro:UnregisterEvents(WoWPro.WorldEvents.Events)
-	
 	--[[ If the current guide is a WorldEvents guide, removes the map point, stores the guide's ID to be resumed later, 
 	sets the current guide to nil, and loads the nil guide. ]]
 	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "WorldEvents" then
@@ -50,46 +40,26 @@ function WoWPro.WorldEvents:OnDisable()
 	end
 end
 
--- Guide Registration Function --
-function WoWPro.WorldEvents:RegisterGuide(GIDvalue, zonename, guidename, categoryname, authorname, factionname, sequencevalue)
-	
---[[ Purpose: 
-		Called by guides to register them to the WoWPro.Guide table. All members
-		of this table must have a quidetype parameter to let the addon know what 
-		module should handle that guide.]]
-		
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
-		-- If the guide is not of the correct faction, don't register it
-		
-
-	WoWPro.Guides[GIDvalue] = {
-		guidetype = "WorldEvents",
-		GID = GIDvalue,
-		zone = zonename,
-		name = guidename,
-		category = categoryname,
-		author = authorname,
-		sequence = sequencevalue,
-		faction = factionname
-	}
-end
-
 
 function WoWPro.WorldEvents:GuideHoliday(guide,holiday, name)
     -- The holiday needs to be a word to match the texture returned from the CalendarGetHolidayInfo() function 
     guide['holiday']=holiday
     if name then
         guide['name']=name
+    else
+        guide['name']=holiday
     end
 
     guide['category']='Holiday'
-
+    guide['icon'] = "Interface\\Calendar\\Holidays\\Calendar_" .. holiday
 end
 
 function WoWPro.WorldEvents:GuideWorldEvent(guide, name)
     -- No holiday means World Event
     if name then
         guide['name']=name
+    else
+        WoWPro.WorldEvents:Error("GuideWorldEvent: No name supplied in guide %s", guide.GID)
     end
 
     guide['category']='World Event'

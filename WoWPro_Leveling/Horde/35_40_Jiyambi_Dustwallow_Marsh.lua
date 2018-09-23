@@ -4,38 +4,53 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
--- Date: 2014-06-02 15:13
+-- Date: 2018-02-20 21:41
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3242/revisions/28886/view
+-- Date: 2018-01-16 23:42
 -- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3242/revisions/28429/view
+-- Date: 2017-03-15 23:26
+-- Who: Ludovicus_Maior
+-- Log: Added PREs to JiyDus3540
+
+-- URL: http://wow-pro.com/node/3242/revisions/26451/view
+-- Date: 2014-06-02 15:13
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3242/revisions/26241/view
 -- Date: 2014-05-25 22:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3242/revisions/26075/view
 -- Date: 2014-05-18 21:47
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3242/revisions/26024/view
 -- Date: 2014-05-17 16:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: New registration guide.
 
 -- URL: http://wow-pro.com/node/3242/revisions/25746/view
 -- Date: 2013-08-16 19:42
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added the new nest of eggs for [The Brood of Onyxia]
 
 -- URL: http://wow-pro.com/node/3242/revisions/25579/view
 -- Date: 2013-03-23 19:06
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: QID correction on [Warchief's Command: Dustwallow Marsh!] 
 
 -- URL: http://wow-pro.com/node/3242/revisions/25476/view
 -- Date: 2013-01-13 19:37
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3242/revisions/24929/view
@@ -45,17 +60,17 @@
 
 -- URL: http://wow-pro.com/node/3242/revisions/24332/view
 -- Date: 2011-04-29 16:25
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line 179 for step f has unknown tag [From Dyslix Silvergrub.]
 
 -- URL: http://wow-pro.com/node/3242/revisions/24192/view
 -- Date: 2011-03-20 21:58
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Import TwoToad https://github.com/Jiyambi/WoW-Pro-Guides/commit/6f679123512da96001fc6cbc2e98f2f4e41eb505
 
 -- URL: http://wow-pro.com/node/3242/revisions/24191/view
 -- Date: 2011-03-20 21:54
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Moved TwoToad's change from Git to source code page.
 
 -- URL: http://wow-pro.com/node/3242/revisions/24008/view
@@ -73,6 +88,7 @@
 
 local guide = WoWPro:RegisterGuide('JiyDus3540', "Leveling", 'Dustwallow Marsh', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,34,39, 35.0632)
+WoWPro:NewGuideLevels(guide,35,60)
 WoWPro:GuideNextGuide(guide, 'JiyTho4045')
 WoWPro:GuideIcon(guide,"ACH",4929)
 WoWPro:GuideSteps(guide, function()
@@ -94,11 +110,11 @@ A The Black Shield|RANK|1|QID|27255|PRE|27254|M|36.39,31.82|N|From Krog.|
 A A Shambling Threat|RANK|1|QID|26682|M|36.39,31.82|N|From Krog.|
 A Darkmist Extermination|RANK|1|QID|25051|M|36.39,31.82|N|From Krog.|
 A Inspecting the Ruins|RANK|3|QID|27253|M|36.39,31.82|N|From Krog.|
-A Talk to Ogron|RANK|1|QID|27306|M|36.39,31.82|N|From Krog.|
+A Talk to Ogron|RANK|1|QID|27306|PRE|27260|M|36.39,31.82|N|From Krog.|
 h Brackenwall Village|RANK|1|QID|27182|M|36.88,32.27|N|If you'd like, set your hearth at "Little" Logok.|
-A The Hermit of Witch Hill|RANK|1|QID|27182|M|37.11,33.01|N|From Draz'Zilb.|
+A The Hermit of Witch Hill|RANK|1|QID|27182|LEAD|27183|M|37.11,33.01|N|From Draz'Zilb.|
 T The Black Shield|RANK|1|QID|27255|M|36.54,30.86|N|To Do'gol.|
-A The Black Shield|RANK|1|QID|27256|M|36.54,30.86|N|From Do'gol.|
+A The Black Shield|RANK|1|QID|27256|PRE|27255|M|36.54,30.86|N|From Do'gol.|
 
 C Theramore Spies|RANK|2|QID|1201|M|42.13,26.02|S|N|Kill Theramore Infiltators.|
 C A Shambling Threat|RANK|1|QID|26682|M|40.54,19.85|N|Kill the large elementals north-east of the village.|
@@ -106,7 +122,7 @@ C Twilight of the Dawn Runner|RANK|1|QID|9437|NC|M|46.63,24.50|N|Talk to the Blo
 T Talk to Ogron|RANK|1|QID|27306|M|41.02,36.68|N|To Ogron. He's a little ways out of the village.|
 A Questioning Reethe|RANK|1|QID|27261|PRE|27306|M|41.02,36.68|N|From Ogron.|
 C Questioning Reethe|RANK|1|QID|27261|M|42.63,38.10|N|Stay with the ogre. You'll end up fighting a group of three humans, so be prepared and pop cooldowns if you need them!|
-C Theramore Spies|RANK|2|QID|1201|M|42.13,26.02|US|N|They can be found north-east of the village.
+C Theramore Spies|RANK|2|QID|1201|M|42.13,26.02|US|N|They can be found north-east of the village.|
 
 T Questioning Reethe|RANK|1|QID|27261|M|36.48,31.83|N|To Krog.|
 T A Shambling Threat|RANK|1|QID|26682|M|36.48,31.84|N|To Krog.|
@@ -151,7 +167,7 @@ A The Black Shield|RANK|1|QID|27257|PRE|27256|M|36.50,30.85|N|From Do'gol.|
 T The Black Shield|RANK|1|QID|27257|M|36.42,31.78|N|To Krog.|
 T Darkmist Extermination|RANK|1|QID|25051|M|36.42,31.78|N|To Krog.|
 T SMASH BROODQUEEN|RANK|1|QID|27229|M|36.42,31.78|N|To Krog.|
-A The Black Shield|RANK|2|QID|27258|PRE|27257|M|36.42,31.78|N|From Krog.|
+A The Black Shield|RANK|2|QID|27258|PRE|27257;27253;27259;27260;27306;27261|M|36.42,31.78|N|From Krog.|
 
 T Jarl Needs Eyes|RANK|1|QID|27184|M|55.43,26.26|N|To "Swamp Eye" Jarl.|
 A Hungry as an Ogre!|RANK|1|QID|27191|PRE|27184|M|55.43,26.26|N|From "Swamp Eye" Jarl.|
@@ -189,10 +205,10 @@ T Inspecting the Ruins|RANK|3|QID|27253|M|29.78,47.60|N|To Inspector Tarem, at t
 T Check Up on Tabetha|RANK|1|QID|11213|M|46.00,57.11|N|To Tabetha. Her house is located in the mid-eastern part of the zone.|
 T Seek Out Tabetha|RANK|2|QID|27295|M|46.01,57.12|N|To Tabetha.|
 A Raze Direhorn Post!|RANK|2|QID|27296|NC|PRE|27295|M|46.01,57.12|N|From Tabetha.|
-A The Grimtotem Weapon|RANK|1|QID|27336|PRE|11213|M|46.03,57.18|N|From Apprentice Garion.|
-A The Reagent Thief|RANK|1|QID|27339|PRE|11213|M|46.03,57.18|N|From Apprentice Garion.|
-A Direhorn Raiders|RANK|1|QID|27340|PRE|11213|M|46.05,57.48|N|From Apprentice Morlann.|
-A The Zeppelin Crash|RANK|2|QID|27346|PRE|11213|M|46.05,57.48|N|From Apprentice Morlann.|
+A The Grimtotem Weapon|RANK|1|QID|27336|M|46.03,57.18|N|From Apprentice Garion.|
+A The Reagent Thief|RANK|1|QID|27339|M|46.03,57.18|N|From Apprentice Garion.|
+A Direhorn Raiders|RANK|1|QID|27340|M|46.05,57.48|N|From Apprentice Morlann.|
+A The Zeppelin Crash|RANK|2|QID|27346|M|46.05,57.48|N|From Apprentice Morlann.|
 
 T The Zeppelin Crash|RANK|2|QID|27346|M|53.50,56.90|N|To Moxie Steelgrille, at the crash site to the east.|
 A Secure the Cargo!|RANK|2|QID|27348|PRE|27346|M|53.50,56.90|N|From Moxie Steelgrille.|
@@ -212,7 +228,7 @@ C The Grimtotem Weapon|RANK|1|QID|27336|U|33101|M|41.83,55.75|N|Use the totem ne
 C The Reagent Thief|RANK|1|QID|27339|M|43.59,54.22|US|N|From spiders and dragonhawks throughout the swamp.|
 
 T Raze Direhorn Post!|RANK|2|QID|27296|M|46.00,57.11|N|To Tabetha, back at Tabetha's house.|
-A Justice Dispensed|RANK|2|QID|27297|M|46.00,57.11|N|From Tabetha.|
+A Justice Dispensed|RANK|2|QID|27297|PRE|27296|M|46.00,57.11|N|From Tabetha.|
 T The Grimtotem Weapon|RANK|1|QID|27336|M|46.02,57.19|N|To Apprentice Garion.|
 T The Reagent Thief|RANK|1|QID|27339|M|46.02,57.19|N|To Apprentice Garion.|
 T Direhorn Raiders|RANK|1|QID|27340|M|46.10,57.45|N|To Apprentice Morlann.|
@@ -240,7 +256,7 @@ A The Essence of Enmity|RANK|1|QID|27409|PRE|27407|M|41.85,73.91|N|From Brogg.|
 C Army of the Black Dragon|RANK|1|QID|1168|M|45.64,65.91|S|N|Firemane Scalebane's are in the cave, the others patrol outside the cave and in the ruins.|
 C The Essence of Enmity|RANK|1|QID|27409|U|33088|M|39.98,65.31|S|N|Use the totem on the dragonkin you kill.|
 l Mok'Morokk's Snuff|RANK|1|QID|27424|M|44.49,66.05|L|5834|N|Pick up Mok'Morokk's Snuff.|
-l Mok'Morokk's Grog|RANK|1|QID|27424|M|38.63,65.63|QO|Mok'Morokk's Grog: 1/1|N|Pick up Mok'Morokk's Grog.|
+l Mok'Morokk's Grog|RANK|1|QID|27424|M|38.63,65.63|QO|2|N|Pick up Mok'Morokk's Grog.|; Mok'Morokk's Grog: 1/1
 C Overlord Mok'Morokk's Concern|RANK|1|QID|27424|NC|M|38.55,65.89;36.59,69.52|CS|N|Inside the cave.|
 C Banner of the Stonemaul|RANK|1|QID|27408|NC|M|38.12,69.40|N|Also inside the cave.|
 C Army of the Black Dragon|RANK|1|QID|1168|M|45.64,65.91|US|N|Firemane Scalebane's are in the cave, the others patrol outside the cave and in the ruins.|
@@ -282,3 +298,5 @@ C To the Summit|RANK|1|QID|25478|M|42.82,72.42|O|N|Talk to Dyslix Silvergrub and
 
 ]]
 end)
+
+

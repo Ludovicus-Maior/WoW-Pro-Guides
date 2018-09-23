@@ -4,57 +4,83 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2018-08-24 08:42
+-- Who: Emmaleah
+-- Log: update old style QOs
+
+-- URL: http://wow-pro.com/node/3467/revisions/29550/view
+-- Date: 2018-08-18 21:04
+-- Who: Ludovicus_Maior
+-- Log: Fix L step that should have been an l step.
+
+-- URL: http://wow-pro.com/node/3467/revisions/28514/view
+-- Date: 2017-03-17 14:10
+-- Who: Ludovicus_Maior
+-- Log: Added PREs
+
+-- URL: http://wow-pro.com/node/3467/revisions/28292/view
+-- Date: 2017-03-05 18:55
+-- Who: Ludovicus_Maior
+-- Log: Float the level
+
+-- URL: http://wow-pro.com/node/3467/revisions/27358/view
+-- Date: 2015-07-25 18:11
+-- Who: Ludovicus_Maior
+-- Log: Add Icon
+
+-- URL: http://wow-pro.com/node/3467/revisions/26850/view
 -- Date: 2014-11-07 20:37
 -- Who: Emmaleah
 -- Log: Delete 2 dup QID's per Ludo's list o' errors
 
 -- URL: http://wow-pro.com/node/3467/revisions/26492/view
 -- Date: 2014-06-10 21:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed  guide format
 
 -- URL: http://wow-pro.com/node/3467/revisions/25903/view
 -- Date: 2014-02-21 19:21
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Missing A in [T A Gift]
 
 -- URL: http://wow-pro.com/node/3467/revisions/25880/view
 -- Date: 2014-02-13 16:56
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Leaders dailies and shuffled flow.
 
 -- URL: http://wow-pro.com/node/3467/revisions/25704/view
 -- Date: 2013-06-18 00:31
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Guide errors
 
 -- URL: http://wow-pro.com/node/3467/revisions/25674/view
 -- Date: 2013-05-17 20:45
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrections
 
 -- URL: http://wow-pro.com/node/3467/revisions/25530/view
 -- Date: 2013-02-11 11:48
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Better coords for Uldum and Crystalsong
 
 -- URL: http://wow-pro.com/node/3467/revisions/25529/view
 -- Date: 2013-02-11 11:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added Crushing the Crown and a random daily
 
 -- URL: http://wow-pro.com/node/3467/revisions/24937/view
 -- Date: 2012-02-05 13:35
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Corrections after runthrough.
 
 -- URL: http://wow-pro.com/node/3467/revisions/24935/view
 -- Date: 2012-02-04 23:23
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoLoveH",'WorldEvents',"Love is in the Air", "Ludovicus", "Horde")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
+WoWPro:GuideIcon(guide,"ACH",1695)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -65,28 +91,28 @@ A Uncommon Scents|QID|24805|LEAD|24536|M|64.30,37.55|Z|Undercity|N|From Junior D
 A Uncommon Scents|QID|24805|LEAD|24536|M|44.22,55.86|Z|Thunder Bluff|N|From Junior Detective, Thunder Bluff|
 T Uncommon Scents|QID|24805|LEAD|24536|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
-A Something Stinks|QID|24536||M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt, Orgrimmar|
+A Something Stinks|QID|24536|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt, Orgrimmar|
 C Heavily Perfumed Guards|QID|24536|Z|Orgrimmar|U|50131|N|Find the guards with the clouds and use the analyzer|
 T Something Stinks|QID|24536|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
-A Pilfering Perfume|QID|24541|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
+A Pilfering Perfume|QID|24541|PRE|24536|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
 C Pilfering Perfume|QID|24541|M|47.73,11.80|Z|Durotar|N|Run outside of Orgrimmar Gates|
 T Pilfering Perfume|QID|24541|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
-A Snivel's Sweetheart|QID|24850|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
+A Snivel's Sweetheart|QID|24850|PRE|24541|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
 T Snivel's Sweetheart|QID|24850|M|57.6,60.78|Z|Orgrimmar|N|To Roka, at the Bag Shop, in The Drag|
 
-A Hot On The Trail|QID|24851|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
-C Hot On The Trail|QID|24851|M|48.8,83.0|Z|Orgrimmar|N|Look for him at the Bank|QO|Orgrimmar Bank searched: 1/1|
-C Hot On The Trail|QID|24851|M|53.7,73.7|Z|Orgrimmar|N|Look for him at the Auction House|QO|Orgrimmar Auction House searched: 1/1|
-C Hot On The Trail|QID|24851|M|40.1,60.5|Z|Orgrimmar|N|Look for him at the Barber Shop|QO|Orgrimmar Barber Shop searched: 1/1|
+A Hot On The Trail|QID|24851|PRE|24850|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
+C Hot On The Trail|QID|24851|M|48.8,83.0|Z|Orgrimmar|N|Look for him at the Bank|QO|1|
+C Hot On The Trail|QID|24851|M|53.7,73.7|Z|Orgrimmar|N|Look for him at the Auction House|QO|2|
+C Hot On The Trail|QID|24851|M|40.1,60.5|Z|Orgrimmar|N|Look for him at the Barber Shop|QO|3|
 T Hot On The Trail|QID|24851|M|57.6,60.78|Z|Orgrimmar|N|To Roka|
 
-A A Friendly Chat...|QID|24576|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
+A A Friendly Chat...|QID|24576|PRE|24851|M|57.6,60.78|Z|Orgrimmar|N|From Roka|
 C A Friendly Chat...|QID|24576|M|51.65,56.79|Z|Orgrimmar|N|Find Snivel Rustrocket at the Zepplin Tower|L|49915|
 T A Friendly Chat...|QID|24576|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
-L Lovely Charm Collector's Kit|L|49661|M|52.99,76.81|Z|Orgrimmar|N|Ask Kwee Q. Peddlefeet for a Kit.|
+l Lovely Charm Collector's Kit|L|49661|M|52.99,76.81|Z|Orgrimmar|N|Ask Kwee Q. Peddlefeet for a Kit.|
 
 A Public Relations Daily|QID|24635;24629;24636|M|53.05,77.15|Z|Orgrimmar|N|From Public Relations Agent|
 C A Cloudlet of Classy Cologne|QID|24635|Z|Orgrimmar|N|Spray everyone and any NPC in sight.|U|49669|
@@ -116,7 +142,7 @@ T A Gift for the Warchief|QID|24612|M|48.11,70.48|Z|Orgrimmar|N|To Garrosh Hells
 A A Gift for the High Chieftain|QID|24614|M|44.01,52.59|Z|Thunder Bluff|N|From Kwee Q. Peddlefeet, near the flight tower.|
 l Lovely Charm Bracelet|QID|24614|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the High Chieftain.|
 T A Gift for the High Chieftain|QID|24614|M|60.33,51.68|Z|Thunder Bluff|N|To Baine Bloodhoof.|
-A A Gift for the Banshee Queen|QID|24613|M|66.55,38.58|Z|Undercity|N|From Kwee Q. Peddlefeet, near the old throne.||
+A A Gift for the Banshee Queen|QID|24613|M|66.55,38.58|Z|Undercity|N|From Kwee Q. Peddlefeet, near the old throne.|
 l Lovely Charm Bracelet|QID|24613|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the Banshee Queen.|
 T A Gift for the Banshee Queen|QID|24613|M|58.05,91.81|Z|Undercity|N|To Lady Sylvanas Windrunner.|
 A A Gift for the Regent Lord of Quel'Thalas|QID|24615|M|64.43, 66.55|Z|Silvermoon City|N|From Kwee Q. Peddlefeet, near the Bazzar.|
@@ -131,3 +157,5 @@ A You've Been Served|QID|14488|Z|ShadowfangKeep|N|To Investigator Fezzen Brassta
 N All done for the day|
 ]]
 end)
+
+

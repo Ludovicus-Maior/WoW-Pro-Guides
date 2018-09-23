@@ -21,7 +21,7 @@ echo "# Considering stub guides in ${GUIDES}"
 for guide in ${GUIDES} ; do
     # Find the level
     level=`echo $guide | awk -F/ '{print $3}' |awk -F_ '{print $1}' `
-    if [ $level -ge 60 ] ; then
+    if [ $level -ge 80 ] ; then
         echo "# Guide ${guide} will be stubbed"
         mv ${guide} ${guide}~
         awk -f WoWPro_Utilities/StubGuide.awk < ${guide}~ > ${guide}
@@ -31,9 +31,9 @@ done
 # Find the current version.  Use the one in WoWPro as the master
 crelease=`awk -F: '$1 == "## Version" {print $2}' < WoWPro/WoWPro.toc | tr -d ' ' `
 echo '#' The current release is "[${crelease}]"
-echo -n '#' 'Please enter the new release number (a T will automatically be appended):'
+echo -n '#' 'Please enter the new release number:'
 read nrelease
-nrelease=${nrelease}T
+nrelease=${nrelease}
 echo '#' The new release number will be "[${nrelease}]".  
 echo -n "# Please ^C or abort this command or hit enter to proceed:"
 read confirm
@@ -42,7 +42,7 @@ for toc in ${TOCS} ; do
   echo '#' Moving $toc to ${toc}~
   mv ${toc} ${toc}~
   echo "#" Editing  ${toc}
-  sed "s/${crelease}/${nrelease}/" < ${toc}~ > ${toc}
+  sed "s/## Version: ${crelease}/## Version: ${nrelease}/" < ${toc}~ > ${toc}
 done
 
 echo "# OK, the current version numbers are:"

@@ -2,69 +2,56 @@
 --      WoWPro_Profession_Trade     --
 --------------------------------------
 
-function WoWPro:ScanTrade()
-    local tradeskillName, rank, maxLevel = GetTradeSkillLine()
+function WoWPro.ScanTrade()
+    -- local tradeskillName, rank, maxLevel = GetTradeSkillLine()
+    local tradeSkillID, skillLineName, skillLineRank, skillLineMaxRank, skillLineModifier =  C_TradeSkillUI.GetTradeSkillLine();
     
-    WoWPro:Print("Opened %s window",tradeskillName)
+    if not skillLineName then
+        -- Got event when not in Trade window. Ignore
+        return
+    end
+
+    WoWPro:dbp("Opened %s window",skillLineName)
     WoWProCharDB.Trades = WoWProCharDB.Trades or {}
     local Trade = WoWProCharDB.Trades 
     
-    -- Clear some filters, recoverd from globals later
-    TradeSkillOnlyShowMakeable(false)
-	TradeSkillOnlyShowSkillUps(false)
-	
-	-- Record the Inventory Slot filter
-	local InventorySlotFilter = 0;
-	for i=0, select("#", GetTradeSkillInvSlots()) - 1 do
-		if GetTradeSkillInvSlotFilter(i) then
-			InventorySlotFilter = i;
-			break;
-		end
-	end
-	
-	-- Record the Category Filter
-	local CategoryFilter = 0;
-	for i=0, select("#", GetTradeSkillSubClasses()) - 1 do
-		if GetTradeSkillCategoryFilter(i) then
-			CategoryFilter = i;
-			break;
-		end
-	end
-	
-	
-    -- Now clear the Inventory Slot and Category Filters
-    SetTradeSkillCategoryFilter(0)
-	SetTradeSkillInvSlotFilter(0, 1, 1)
-
     -- Scan trade skills, saving state of headers
-    local CollapsedHeaders = {}
+    local recipeIDs = C_TradeSkillUI.GetAllRecipeIDs({})
+    WoWPro:dbp("Located %d recipeIDs",#recipeIDs)
     
-    for idx = 1, GetNumTradeSkills() do
-		local skillName, skillType, numAvailable, isExpanded, serviceType, numSkillUps = GetTradeSkillInfo(idx)
-		if skillName then
-			if skillType == "header" or skillType == "subheader" then
-				if not isExpanded then
-					ExpandTradeSkillSubClass(idx);
-					CollapsedHeaders[skillName] = 1;
-				end
-			else
-			    local link = GetTradeSkillRecipeLink(idx)
-				local _, _, spellId = GetTradeSkillRecipeLink(idx):find("^|%x+|Henchant:(.+)|h%[.+%]");
+    for i, recipeID in ipairs(recipeIDs) do
+		local recipeInfo = C_TradeSkillUI.GetRecipeInfo(recipeID)
+		if recipeInfo.type == "recipe" then
+		    if recipeInfo.learned then
+--		        WoWPro:Print("Scanning %d:%s",recipeID,recipeInfo.name)
+                local link = C_TradeSkillUI.GetRecipeLink(recipeID)
+                local _, _, spellId = link:find("^|%x+|Henchant:(.+)|h%[.+%]");
                 spellId = tonumber(spellId)
-                if not Trade[spellId] then
-                    Trade[spellId] = true
-                    WoWPro:Print("Learned %s:%s",skillName,spellId)
+                if not spellId then
+                    local safe_link = link:gsub("|", "¦")
+                    WoWPro:Error("Error scanning recipeID %d for [%s]: %s",recipeID, recipeInfo.name, safe_link)
+                else
+                    if not Trade[spellId] then
+                        Trade[spellId] = true
+                        WoWPro:dbp("Newly learned %s:%d",recipeInfo.name, spellId)
+                    end
                 end
-			end
+            end
 		end
 	end
 
     WoWProCharDB.Trades  = Trade
-    
-    -- Restore Filter Settings
-    TradeSkillOnlyShowMakeable(TradeSkillFrame.filterTbl.hasMaterials);
-	TradeSkillOnlyShowSkillUps(TradeSkillFrame.filterTbl.hasSkillUp);
-	SetTradeSkillCategoryFilter(CategoryFilter);
-	SetTradeSkillInvSlotFilter(InventorySlotFilter, 1, 1);
-    	
+end
+
+function WoWPro.LearnRecipe(which)
+    local which = tonumber(which)
+    if which then
+        if WoWProCharDB.Trades[which] then
+            -- You managed to learn something you already knew?
+            WoWPro:Warning("Recipe %d was already recorded as learned.",which)
+        else
+            WoWProCharDB.Trades[which] = true
+            WoWPro:dbp("Newly learned %d", which)
+        end
+    end
 end

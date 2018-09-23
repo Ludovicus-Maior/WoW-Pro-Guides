@@ -10,5 +10,5 @@
 	<Script file="Jewelcrafting.lua"/>
 	<Script file="Tailoring.lua"/>
 	<Script file="Skinning.lua"/>
-
+	<Script file="Legion.lua"/>
 </Ui>

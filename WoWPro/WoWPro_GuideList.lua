@@ -12,10 +12,10 @@ function WoWPro.CreateGuideList()
 	frame.parent = "WoW-Pro"
 	frame:Hide()
 	WoWPro.GuideList = frame
-	
+
 	local title, subtitle = WoWPro:CreateHeading(frame, L["Guide List"], L["Use the tabs to look at different guide types. "
-		.."\nSelect one and hit \"Okay\" to load. "
-		.."\nShift+click a guide to clear it."])
+		.."\nUse the scroll bar (or scroll wheel) to see all the guides. Click to select a guide and load it. "
+		.."\nSHIFT+click a guide to reset it and then load it."])
     frame.title = title
     frame.subtitle = subtitle
 
@@ -24,7 +24,7 @@ function WoWPro.CreateGuideList()
 	local tabhashtable = {}
 	local firstTab = nil
 	local maxFormatItems = 0
-	
+
 	-- Create tab for each module --
 	for name, module in WoWPro:IterateModules() do
 	    if WoWPro[name].GuideList then
@@ -204,7 +204,7 @@ function WoWPro:UpdateGuideList()
         		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row,tooltip,iGuide.guide)		            
         		    GameTooltip:Show()
         		    if iGuide.guide.icon then
-        		        WoWPro:ShowTooltipIcon(iGuide.guide.icon)
+                        WoWPro:ShowTooltipIcon(iGuide.guide.icon, iGuide.guide.icon_offsets)
         		    end
         		end)
         		row:SetScript("OnLeave", function(self)
@@ -306,11 +306,26 @@ function WoWPro:GuideTabFrame_RowOnClick()
 end		
 
 
-local TooltipIcon
-function WoWPro:ShowTooltipIcon(icon)
+local TooltipButton, TooltipIcon
+function WoWPro:ShowTooltipIcon(icon, offsets)
+    if not TooltipButton then
+         TooltipButton, TooltipIcon = WoWPro:CreateLootsButton(GameTooltip, 99)
+    end
+    TooltipButton:SetParent(GameTooltip)
+    TooltipIcon:SetTexture(icon)
+    if offsets then
+        local x1, x2, y1, y2 = unpack(offsets)
+        TooltipIcon:SetTexCoord(x1, x2, y1, y2)
+    end
+    TooltipButton:SetPoint("TOPRIGHT", GameTooltip, "TOPRIGHT", -4, -4)
+    TooltipButton:Show()
 end
 
 function WoWPro:HideTooltipIcon()
+    if TooltipButton then
+        TooltipButton:Hide()
+        TooltipButton:SetParent(nil)
+    end
 end
 
 WoWPro:Export("CreateGuideTabFrame_Rows")
@@ -334,7 +349,7 @@ function WoWPro:CreateGuideTabFrame_Rows(frame)
     		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row,tooltip,iGuide.guide)		            
     		    GameTooltip:Show()
     		    if iGuide.guide.icon then
-    		        WoWPro:ShowTooltipIcon(iGuide.guide.icon)
+    		        WoWPro:ShowTooltipIcon(iGuide.guide.icon, iGuide.guide.icon_offsets)
     		    end
     		end)
     		row:SetScript("OnLeave", function(self)

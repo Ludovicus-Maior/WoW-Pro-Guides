@@ -4,29 +4,12 @@
 WoWPro.Achievements.GuideList = {}
 WoWPro.Achievements.GuideList.Guides = {}
 
-WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
--- Creating a Table of Guides for the Guide List and sorting based on level --
-local guides
-
-function WoWPro.Achievements.Scrape()
-    WoWProDB.global.Achievements.Category = {}
-    WoWProDB.global.Achievements.Achievement = {}
-
-    local categories = GetCategoryList()
-    for i, cid in ipairs(categories) do
-        local name, parentID, flags = GetCategoryInfo(cid)
-        WoWProDB.global.Achievements.Category[cid] = { ['name'] = name, ['parentID'] = parentID}
-    end
-    for cid, cinfo in pairs(WoWProDB.global.Achievements.Category) do
-        local numItems, numCompleted = GetCategoryNumAchievements(cid)
-        for index = 1,numItems do
-            local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(cid, index)
-            WoWProDB.global.Achievements.Achievement[id] = {['cid'] = cid, ['name'] = name, ['icon'] = icon } 
-        end
-    end    
-end
-
 local function AddInfo(guide)
+    -- If name and cat are set, then assume all is well.
+    if guide.name and guide.category then
+        guide.sub = guide.sub or ""
+        return
+    end
     if not guide.ach then
         WoWPro.Achievements:Error("Guide %s: missing ach",guide.GID)
         guide.name = "Unknown"
@@ -64,7 +47,7 @@ end
 local function Init()
     guides = {}
     if not WoWProDB.global.Achievements.Category then
-        WoWPro.Achievements.Scrape()
+        WoWPro.AchievementsScrape()
     end
     
     for guidID,guide in pairs(WoWPro.Guides) do
@@ -141,16 +124,8 @@ end
 -- Fancy tooltip!
 function WoWPro.Achievements.GuideTooltipInfo(row, tooltip, guide)
     GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    GameTooltip:AddLine(guide.name)
-    if guide.icon then
-        GameTooltip:AddTexture(guide.icon,1,1,1,1)
-        GameTooltip:AddLine(guide.icon)
-        GameTooltip:AddTexture("")
-    else
-        GameTooltip:AddTexture("Interface\\Icons\\Ability_DualWield")
-        GameTooltip:AddLine("")
-        GameTooltip:AddTexture("")
-    end
+    GameTooltip:AddLine(guide.name.."      ")
+    GameTooltip:AddLine("")
     GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
     GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
 end
@@ -159,5 +134,11 @@ end
 -- Describe the table to the Core Module
 WoWPro.Achievements.GuideList.Format={{"Name",0.30,nameSort},{"Category",0.15,categorySort},{"Sub",0.25,subSort},{"Author",0.15,authorSort},{"Progress",0.15,nil}}
 WoWPro.Achievements.GuideList.Init = Init
+
+function WoWPro.Achievements:UpdateGuideScores()
+    WoWPro.Achievements:dbp("UpdateGuideScores()")
+    -- Setup the Icons
+    Init()
+end
 
 WoWPro.Achievements:dbp("Guide Setup complete")

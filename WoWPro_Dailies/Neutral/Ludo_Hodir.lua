@@ -4,38 +4,48 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
+-- Date: 2017-03-11 18:33
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3478/revisions/28335/view
+-- Date: 2017-03-11 18:22
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL: http://wow-pro.com/node/3478/revisions/26580/view
 -- Date: 2014-07-19 17:04
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: adjusted LudoKaluak levels
 
 -- URL: http://wow-pro.com/node/3478/revisions/26558/view
 -- Date: 2014-07-06 15:43
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Updated headers
 
 -- URL: http://wow-pro.com/node/3478/revisions/26525/view
 -- Date: 2014-06-11 19:09
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
 -- URL: http://wow-pro.com/node/3478/revisions/25405/view
 -- Date: 2013-01-13 01:24
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Add a CN tag
 
 -- URL: http://wow-pro.com/node/3478/revisions/25357/view
 -- Date: 2013-01-12 18:28
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: WoWPro_Dailies: Step C [The Way to His Heart...:11472] in LudoKaluak is missing a CS|CC|CN tag.
 
 -- URL: http://wow-pro.com/node/3478/revisions/25296/view
 -- Date: 2013-01-09 01:49
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CN tags.
 
 -- URL: http://wow-pro.com/node/3478/revisions/24996/view
 -- Date: 2012-05-27 20:12
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Initial Versions of Hodir, Kaluak and Wyrmrest Rep guides.
 
 local guide = WoWPro:RegisterGuide("LudoHodir",'Dailies', "The Storm Peaks", "Ludovicus", "Neutral")
@@ -44,10 +54,10 @@ WoWPro.Dailies:GuideFaction(guide,1119) --  "The Sons of Hodir"
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Hot and Cold|QID|12981|M|63.13,62.95|N|From Fjorn's Anvil|
-A Blowing Hodir's Horn|QID|12977|M|64.22,64.99|N|From Hordir's Horn|
-A Thrusting Hodir's Spear|QID|13003|M|64.99,60.98|N|From Hodir's Spear, hanging in the middle.|
-A Polishing the Helm|QID|13006|M|64.21,59.34|N|From Hodir's Helm, on the spike|
+A Hot and Cold|QID|12981|PRE|12967|M|63.13,62.95|N|From Fjorn's Anvil|
+A Blowing Hodir's Horn|QID|12977|PRE|12976|M|64.22,64.99|N|From Hordir's Horn|
+A Thrusting Hodir's Spear|QID|13003|PRE|13001|M|64.99,60.98|N|From Hodir's Spear, hanging in the middle.|
+A Polishing the Helm|QID|13006|PRE|12985|M|64.21,59.34|N|From Hodir's Helm, on the spike|
 A Spy Hunter|QID|12994|M|63.49,59.74|N|From Frostworg Denmother, down below|
 A Feeding Arngrim|QID|13046|M|67.57,59.94|N|From Arngrim the Insatiable, at the upper level|
 
@@ -72,3 +82,5 @@ T Feeding Arngrim|QID|13046|M|67.57,59.94|N|To Arngrim the Insatiable|
 
 ]]
 end)
+
+

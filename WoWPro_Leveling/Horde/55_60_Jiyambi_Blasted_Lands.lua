@@ -4,28 +4,53 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2018-02-20 21:54
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD/QO tags
+
+-- URL: http://wow-pro.com/node/3268/revisions/28895/view
+-- Date: 2018-01-16 23:46
+-- Who: Ludovicus
+-- Log: New Levels
+
+-- URL: http://wow-pro.com/node/3268/revisions/28766/view
+-- Date: 2017-08-30 01:26
+-- Who: Linkslegend5
+-- Log: Added Okrilla and the Blasted Lands turn in step from the Swamp of Sorrows guide.
+
+-- URL: http://wow-pro.com/node/3268/revisions/28438/view
+-- Date: 2017-03-15 23:40
+-- Who: Ludovicus_Maior
+-- Log: Added PREs to JiyBla5560
+
+-- URL: http://wow-pro.com/node/3268/revisions/27747/view
+-- Date: 2016-09-13 03:35
+-- Who: tubera
+-- Log: Mostly QOs
+
+-- URL: http://wow-pro.com/node/3268/revisions/26920/view
 -- Date: 2014-11-08 05:59
 -- Who: Emmaleah
 -- Log: Delete Dup NC in C Loramus T... Awaits
 
 -- URL: http://wow-pro.com/node/3268/revisions/26445/view
 -- Date: 2014-06-02 15:01
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Set Levels
 
 -- URL: http://wow-pro.com/node/3268/revisions/26264/view
 -- Date: 2014-05-26 00:32
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
 -- URL: http://wow-pro.com/node/3268/revisions/26098/view
 -- Date: 2014-05-18 22:13
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Icon
 
 -- URL: http://wow-pro.com/node/3268/revisions/26014/view
 -- Date: 2014-05-16 22:02
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 
 -- URL: http://wow-pro.com/node/3268/revisions/25738/view
 -- Date: 2013-08-03 07:56
@@ -34,12 +59,12 @@
 
 -- URL: http://wow-pro.com/node/3268/revisions/25492/view
 -- Date: 2013-01-13 23:52
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3268/revisions/25472/view
 -- Date: 2013-01-13 19:27
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3268/revisions/24863/view
@@ -54,7 +79,7 @@
 
 -- URL: http://wow-pro.com/node/3268/revisions/24338/view
 -- Date: 2011-04-29 16:38
--- Who: Ludovicus
+-- Who: Ludovicus_Maior
 -- Log: Line ** for step * has unknown tag [If you didn't
 
 -- URL: http://wow-pro.com/node/3268/revisions/23418/view
@@ -67,6 +92,7 @@
 
 local guide = WoWPro:RegisterGuide('JiyBla5560', "Leveling", 'Blasted Lands', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,54,58,54.2878)
+WoWPro:NewGuideLevels(guide,40,60)
 WoWPro:GuideNextGuide(guide, 'JamHel6063')
 WoWPro:GuideIcon(guide,"ACH",4909)
 WoWPro:GuideSteps(guide, function()
@@ -75,10 +101,11 @@ return [[
 T Warchief's Command: Blasted Lands!|QID|28671|M|40.47,11.65|N|To Okrilla.|O|
 T Blasted Lands: The Other Side of the World|QID|28858|M|40.47,11.65|N|To Okrilla.|O|
 T Call of the Warmatron|QID|28865|M|40.47,11.65|N|To Okrilla.|O|
+T Okrilla and the Blasted Lands|QID|28553|M|40.47,11.65|N|To Okrilla.|O|
 A Futile Pride|QID|25674|M|40.47,11.65|N|From Okrilla.|
 C Futile Pride|QID|25674|M|42.39,15.00|N|Kill one of the ogres that frequently run into the camp.|
 T Futile Pride|QID|25674|M|40.49,11.67|N|To Okrilla.|
-A Heartstrike|QID|25676|M|40.49,11.67|N|From Okrilla.|
+A Heartstrike|QID|25676|PRE|25674|M|40.49,11.67|N|From Okrilla.|
 h Dreadmaul Hold|QID|25676|M|40.44,11.39|N|Set your hearth at Innkeeper Grak, if you like.|
 A Ogre Combat|QID|25675|M|42.61,13.93|N|From Master Aitokk.|
 f Dreadmaul Hold|QID|25675|M|43.69,14.26|N|At Preda.|
@@ -127,18 +154,18 @@ C A Bloodmage's Gotta Eat Too|QID|25690|M|54.89,37.68|N|Kill boars for their mea
 
 T A Bloodmage's Gotta Eat Too|QID|25690|M|41.52,31.91;39.28,36.18|CS|N|To Bloodmage Drazial. Remember to use the blood stone to get to them easily.|
 T The First Step|QID|25685|M|39.25,36.22|N|To Bloodmage Lynnore.|
-A Blood Ritual|QID|25686|PRE|25685|M|39.25,36.22|N|From Bloodmage Lynnore.|
+A Blood Ritual|QID|25686|PRE|25685;25690|M|39.25,36.22|N|From Bloodmage Lynnore.|
 C Blood Ritual|NC|QID|25686|M|39.20,36.28|N|Talk to the bloodmage.|
 T Blood Ritual|QID|25686|M|39.18,36.28|N|To Bloodmage Lynnore.|
-A Not Just Any Body|QID|25687|M|39.18,36.28|N|From Bloodmage Lynnore.|
-l Loramus' Torso|QID|25687|M|39.99,37.16|N|Pick up Loramus' Torso.|L|55836|
-l Loramus' Head|QID|25687|M|46.72,26.95|N|Pick up Loramus' Head.|L|55829|
-C Not Just Any Body|NC|QID|25687|M|46.94,39.50|N|Finally loot his legs.|
+A Not Just Any Body|QID|25687|PRE|25686|M|39.18,36.28|N|From Bloodmage Lynnore.|
+l Loramus' Torso|QID|25687|M|39.99,37.16|N|Pick up Loramus' Torso.|QO|2|
+l Loramus' Head|QID|25687|M|46.72,26.95|N|Pick up Loramus' Head.|QO|1|
+C Not Just Any Body|NC|QID|25687|M|46.94,39.50|N|Finally loot his legs.|QO|3|
 T Not Just Any Body|QID|25687|M|41.56,31.95;39.24,36.20|CS|N|To Bloodmage Lynnore.|
 A The Altar of Storms|QID|25688|PRE|25687|M|39.24,36.20|N|From Bloodmage Lynnore.|
 C The Altar of Storms|QID|25688|M|40.44,35.81;36.97,28.40|CS|N|Go up to the Altar of Storms, clear it out then click on the Altar of Blood. Protect Loramus as he is resurrected.|
 T The Altar of Storms|QID|25688|M|41.51,31.97;39.31,35.78|CS|N|To Loramus Thalipedes. Use the bloodstone.|
-A Time is Short|QID|25689|M|39.31,35.78|N|From Loramus Thalipedes.|
+A Time is Short|QID|25689|PRE|25688|M|39.31,35.78|N|From Loramus Thalipedes.|
 
 T Time is Short|QID|25689|M|54.30,50.03|N|To Watcher Wazzik at the Dark Portal.|
 A The Charred Granite of the Dark Portal|QID|25691|PRE|25689|M|54.30,50.03|N|From Watcher Wazzik.|
@@ -147,9 +174,9 @@ A Protecting Our Rear|QID|25694|M|54.40,50.53|N|From Warlord Dar'toon.|
 
 C The Charred Granite of the Dark Portal|NC|QID|25691|U|56024|M|58.24,46.57|S|N|Right-click the rocks to loot granite chips.|
 C The Vile Blood of Demons|QID|25692|M|51.14,46.42|S|N|Kill and loot demons.|
-K Shahandana|QID|25694|QO|Shahandana slain: 1/1|N|Kill Shahandana.|M|59.97,43.22|
-K Gomegaz|QID|25694|QO|Gomegaz slain: 1/1|N|Kill Gomegaz.|M|52.19,42.03|
-C Protecting Our Rear|QID|25694|M|43.90,47.76|N|To round off the trio, kill Jarroc Torn-Wing now.|
+K Shahandana|QID|25694|QO|2|N|Kill Shahandana.|M|59.97,43.22|
+K Gomegaz|QID|25694|QO|3|N|Kill Gomegaz.|M|52.19,42.03|
+C Protecting Our Rear|QID|25694|QO|1|M|43.90,47.76|N|To round off the trio, kill Jarroc Torn-Wing now.|
 C The Charred Granite of the Dark Portal|NC|QID|25691|U|56024|M|58.24,46.57|US|N|Right-click the rocks to loot granite chips.|
 C The Vile Blood of Demons|QID|25692|M|51.14,46.42|US|N|Kill and loot demons.|
 
@@ -163,15 +190,15 @@ T Watching Our Back|QID|25695|M|54.44,50.48|N|To Warlord Dar'toon.|
 A The Sunveil Excursion|RANK|2|QID|25696|PRE|25695|M|54.44,50.48|N|From Warlord Dar'toon.|
 
 T Enhancing the Stone|QID|25693|M|41.56,31.95;39.32,35.76|CS|N|To Loramus Thalipedes. Remember to use the blood stone.|
-A The Amulet of Allistarj|QID|25697|M|39.32,35.76|N|From Loramus Thalipedes.|
-A The Amulet of Sevine|QID|25698|M|39.32,35.76|N|From Loramus Thalipedes.|
-A The Amulet of Grol|QID|25699|M|39.32,35.76|N|From Loramus Thalipedes.|
+A The Amulet of Allistarj|QID|25697|PRE|25693|M|39.32,35.76|N|From Loramus Thalipedes.|
+A The Amulet of Sevine|QID|25698|PRE|25693|M|39.32,35.76|N|From Loramus Thalipedes.|
+A The Amulet of Grol|QID|25699|PRE|25693|M|39.32,35.76|N|From Loramus Thalipedes.|
 C Ogre Combat|QID|25675|M|44.87,39.32|US|N|Finish killing any ogres you still need.|
 
 C The Amulet of Allistarj|NC|QID|25697|M|60.92,29.30;61.61,26.85|CS|N|Enter the cave, the amulet is in a chest not too far in.|
 C The Amulet of Grol|QID|25699|M|71.11,35.38|N|Loot the pile of skulls. Grol's spirit will attack - defeat him and loot the amulet.|
 C The Amulet of Sevine|NC|QID|25698|M|73.16,47.51|N|Talk to Salt-Flop and ask him for the amulet.|
-A Home... Gone... Naga...|QID|25702|M|73.16,47.51|N|From Salt-Flop.|
+A Home... Gone... Naga...|QID|25702|LEAD|25703|M|73.16,47.51|N|From Salt-Flop.|
 T Home... Gone... Naga...|QID|25702|M|71.02,59.95|N|To Neptool.|
 A Atrocities|QID|25703|PRE|25702|M|71.02,59.95|N|From Neptool.|
 C Atrocities|QID|25703|M|71.91,62.12|N|Kill the nearby naga.|
@@ -179,11 +206,13 @@ T Atrocities|QID|25703|M|71.00,59.89|N|To Neptool.|
 A False Idols|QID|25705|PRE|25703|M|71.00,59.89|N|From Neptool.|
 A Neptool's Revenge|QID|25706|PRE|25703|M|71.00,59.89|N|From Neptool.|
 C False Idols|QID|25705|M|60.87,64.00|S|N|Right-click the idols to destroy them.|
-K Bloodwash Gamblers|QID|25706|M|66.87,72.23|QO|Bloodwash Gambler slain: 4/4|N|Gamblers can be found around the Bloodwash Fighting Pits.|
-K Bloodwash Idolaters|QID|25706|M|60.90,74.74|QO|Bloodwash Idolater slain: 4/4|N|Idolaters can be found around the Bloodwash Shrine.|
-C Neptool's Revenge|QID|25706|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|
+K Bloodwash Gamblers|QID|25706|M|66.87,72.23|QO|3|N|Gamblers can be found around the Bloodwash Fighting Pits.|
+K Bloodwash Idolaters|QID|25706|M|60.90,74.74|QO|4|N|Idolaters can be found around the Bloodwash Shrine.|
+C Neptool's Revenge|QID|25706|QO|1|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|S|
+C Neptool's Revenge|QID|25706|QO|2|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|
+C Neptool's Revenge|QID|25706|QO|1|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|US|
 C False Idols|QID|25705|M|60.87,64.00|US|N|Right-click the idols to destroy them.|
-A The Future of the Rockpool|QID|25707|M|61.54,63.02|N|From Abandoned Bloodwash Crate. Click it and choose to help the tadpoles.|
+A The Future of the Rockpool|QID|25707|PRE|25703|M|61.54,63.02|N|From Abandoned Bloodwash Crate. Click it and choose to help the tadpoles.|
 C The Future of the Rockpool|QID|25707|M|69.23,81.26|N|Drag the crate to the beach and swim a little ways out into the water.|
 T The Future of the Rockpool|QID|25707|M|69.21,81.26|N|The quest turn-in should pop up automatically.|
 T False Idols|QID|25705|M|71.04,59.96|N|Back to Neptool.|
@@ -194,7 +223,7 @@ T The Sunveil Excursion|RANK|2|QID|25696|M|49.83,71.46|N|To Rohan Sunveil.|
 A The Demons and the Druid|RANK|2|QID|25717|PRE|25696|M|49.83,71.46|N|From Rohan Sunveil.|
 f Sunveil Excursion|RANK|2|QID|25717|M|50.91,72.91|N|At Salena.|
 C The Demons and the Druid|RANK|2|QID|25717|M|36.31,68.27|S|N|Kill Doomguard Destroyers, Dreadlord Defiliers and Corrupted Darkwood Treants.|
-K Bog Lords|RANK|2|QID|25717|M|33.32,77.99|QO|Felspore Bog Lord slain: 3/3|N|The bog lords can be found on the south side of the forest.|
+K Bog Lords|RANK|2|QID|25717|M|33.32,77.99|QO|4|N|The bog lords can be found on the south side of the forest.|
 C The Demons and the Druid|RANK|2|QID|25717|M|36.31,68.27|US|N|Kill Doomguard Destroyers, Dreadlord Defiliers and Corrupted Darkwood Treants.|
 T The Demons and the Druid|RANK|2|QID|25717|M|49.72,71.49|N|To Rohan Sunveil.|
 A How Best to Proceed|RANK|2|QID|25718|PRE|25717|M|49.72,71.49|N|From Rohan Sunveil.|
@@ -223,15 +252,16 @@ T Ogre Combat|QID|25675|M|42.72,13.90|N|To Master Aitokk.|
 T The Amulet of Allistarj|QID|25697|M|41.56,31.95;39.22,36.19|CS|N|To Bloodmage Lynnore. Use the bloodstone to get in.|
 T The Amulet of Sevine|QID|25698|M|39.22,36.19|N|To Bloodmage Lynnore.|
 T The Amulet of Grol|QID|25699|M|39.22,36.19|N|To Bloodmage Lynnore.|
-A Loramus Thalipedes Awaits|QID|25700|M|39.22,36.19|N|From Bloodmage Lynnore.|
+A Loramus Thalipedes Awaits|QID|25700|PRE|25697;25698;25699|M|39.22,36.19|N|From Bloodmage Lynnore.|
 C Loramus Thalipedes Awaits|QID|25700|NC|M|39.20,36.24|N|Speak to the bloodmage.|
 T Loramus Thalipedes Awaits|QID|25700|M|39.33,35.81|N|To Loramus Thalipedes.|
-A You Are Rakh'likh, Demon|QID|25701|M|39.33,35.81|N|From Loramus Thalipedes.|
+A You Are Rakh'likh, Demon|QID|25701|PRE|25700|M|39.33,35.81|N|From Loramus Thalipedes.|
 C You Are Rakh'likh, Demon|QID|25701|U|56012|M|46.53,21.88;44.90,26.85|CS|N|Speak to the ghost to have him teleport you up to the mountain. Wait until Loramus summons the demon. Help him kill it (let him tank). When Loramus is possessed, defeat him, then use the knife.|
 T You Are Rakh'likh, Demon|QID|25701|M|41.57,32.04;54.29,50.00|CC|N|To Watcher Wazzik. Congrats on the excellent ring!|
-
-A Through the Dark Portal|QID|9407|M|54.42,50.56|N|From Warlord Dar'toon. Take this quest to be ready to head to Hellfire Peninsula.|
-N That's it for the|N|Blasted Lands. If you need to, visit your trainers now, and the AH if wish. Close this step to continue.|
+;Not available anymore (possible bug)
+;A Through the Dark Portal|QID|9407|M|54.42,50.56|N|From Warlord Dar'toon. Take this quest to be ready to head to Hellfire Peninsula.|
 
 ]]
 end)
+
+
