@@ -4,6 +4,101 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2018-09-23 20:18
+-- Who: jovieve
+-- Log: Added BUFF tags for the other two Naz'jar Battlemaiden buffs.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29808/view
+-- Date: 2018-09-23 18:53
+-- Who: jovieve
+-- Log: Added BUFF tag to make step autocomplete. Made note shorter.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29804/view
+-- Date: 2018-09-23 00:23
+-- Who: jovieve
+-- Log: Edited for brevity. Split C step into two for separate objectives.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29803/view
+-- Date: 2018-09-22 23:18
+-- Who: jovieve
+-- Log: Added note to ride the seahorse.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29802/view
+-- Date: 2018-09-22 21:51
+-- Who: jovieve
+-- Log: Changed ACTIVE to QID in C steps.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29801/view
+-- Date: 2018-09-22 21:48
+-- Who: jovieve
+-- Log: Weeded Quel'Dormir Gardens (prereq mess) 2.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29800/view
+-- Date: 2018-09-22 21:45
+-- Who: jovieve
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3305/revisions/29799/view
+-- Date: 2018-09-22 21:44
+-- Who: jovieve
+-- Log: Weeded Quel'Dormir Gardens (prereq mess).
+
+-- URL: http://wow-pro.com/node/3305/revisions/29798/view
+-- Date: 2018-09-22 10:44
+-- Who: jovieve
+-- Log: N steps changed to NC C steps so they won't show up on wrong rank.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29797/view
+-- Date: 2018-09-22 09:31
+-- Who: jovieve
+-- Log: Put vortex to rank 1, because the other quest in the area is much harder to do without the item to take care of the snakes.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29796/view
+-- Date: 2018-09-22 09:15
+-- Who: jovieve
+-- Log: Edited unreadably long note for conciseness.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29795/view
+-- Date: 2018-09-22 09:10
+-- Who: jovieve
+-- Log: Changed rank 2 quest to rank 1. It was too stupid not to do it when you needed to kill the same mobs for the other quest, anyway.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29794/view
+-- Date: 2018-09-22 08:59
+-- Who: jovieve
+-- Log: Fixed note that didn't make sense on rank 1.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29793/view
+-- Date: 2018-09-22 08:58
+-- Who: jovieve
+-- Log: Fixed note that didn't make sense on rank 1.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29792/view
+-- Date: 2018-09-22 08:55
+-- Who: jovieve
+-- Log: Got rid of another note that was showing up on rank 1 for a rank 2 quest (and probably wouldn't autocomplete, either).
+
+-- URL: http://wow-pro.com/node/3305/revisions/29791/view
+-- Date: 2018-09-22 08:29
+-- Who: jovieve
+-- Log: Changed N step to R step so it would autocomplete.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29790/view
+-- Date: 2018-09-22 08:18
+-- Who: jovieve
+-- Log: Added H step.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29789/view
+-- Date: 2018-09-22 07:53
+-- Who: jovieve
+-- Log: Removed note that didn't autocomplete and combined it with the information in the C step.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29788/view
+-- Date: 2018-09-22 07:27
+-- Who: jovieve
+-- Log: Made some changes that were messing up the guide on rank 1, including removing one of the QIDs in a PRE. Grail complains, but Grail seems to be wrong.
+
+-- URL: http://wow-pro.com/node/3305/revisions/29182/view
 -- Date: 2018-02-26 22:52
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -156,82 +251,6 @@
 -- Who: Ludovicus_Maior
 -- Log: A ton of tweaks from geri.
 
--- URL: http://wow-pro.com/node/3305/revisions/24029/view
--- Date: 2011-01-21 21:21
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23922/view
--- Date: 2011-01-03 05:14
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23905/view
--- Date: 2011-01-02 09:39
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23904/view
--- Date: 2011-01-02 09:33
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23903/view
--- Date: 2011-01-02 09:31
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23902/view
--- Date: 2011-01-02 09:29
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23900/view
--- Date: 2011-01-02 09:23
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23899/view
--- Date: 2011-01-02 09:20
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23898/view
--- Date: 2011-01-02 08:59
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23897/view
--- Date: 2011-01-02 08:51
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23896/view
--- Date: 2011-01-02 08:50
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23895/view
--- Date: 2011-01-02 08:17
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23894/view
--- Date: 2011-01-02 08:14
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23893/view
--- Date: 2011-01-02 07:38
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23892/view
--- Date: 2011-01-02 07:24
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23891/view
--- Date: 2011-01-02 07:20
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23890/view
--- Date: 2011-01-02 07:16
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23889/view
--- Date: 2011-01-02 06:51
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23888/view
--- Date: 2011-01-02 06:35
--- Who: JamesL85
-
 local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
 WoWPro:GuideLevels(guide,80,80, 79.9802)
 WoWPro:NewGuideLevels(guide,80,90)
@@ -318,7 +337,7 @@ T Ain't Too Proud to Beg|QID|25598|M|57.1,28.8|Z|Kelp'thar Forest|N|To Adarrah.|
 T A Case of Crabs|QID|25388|RANK|2|M|57.1,28.8|Z|Kelp'thar Forest|N|To Adarrah.|
 A A Girl's Best Friend|QID|25390|PRE|25388;25598|RANK|2|M|57.1,28.8|Z|Kelp'thar Forest|N|From Adarrah.|
 A A Taste For Tail|QID|25389|PRE|25388;25598|RANK|2|M|57.1,28.8|Z|Kelp'thar Forest|N|From Adarrah.|
-A Can't Start a Fire Without a Spark|QID|25602|PRE|25388;25598|M|57.3,28.9|Z|Kelp'thar Forest|N|From Captain Samir.|
+A Can't Start a Fire Without a Spark|QID|25602|PRE|25598|M|57.3,28.9|Z|Kelp'thar Forest|N|From Captain Samir.|;Grail complains that 25388 should be a PRE, but the quest is available without it, and the guide is broken on rank 1 if you add it.
 C A Girl's Best Friend|QID|25390|RANK|2|S|M|56.2,37.6;50.8,44.9;46.8,41.6;50.82,31.95|L|53074 6|Z|Kelp'thar Forest|CN|N|While you complete the other quests, look for Adarrah's Jewelry Box on the sea floor. They are small and a little hard to spot.|
 C A Taste For Tail|QID|25389|RANK|2|M|48.77,36.36|Z|Kelp'thar Forest|L|53073 4|N|In the area just east, kill Clacksnap Pincers for A Taste For Tail. You should get a Tattered Treasure Map off one of them.|
 A The Horde's Hoard|QID|25377|RANK|2|Z|Kelp'thar Forest|U|53053|M|48.7,40.7;48.6,32.9;51.9,43.2;46.9,47.2|CN|N|If you don't have a Tattered Treasure Map yet, keep killing Clacksnap Pincers in the area until you get it. Use the map to accept the quest The Horde's Hoard.|
@@ -326,9 +345,9 @@ l Crumpled Treasure Map|QID|25467|RANK|2|Z|Kelp'thar Forest|M|53.2,44.0;53.5,23.
 A Kliklak's Craw|QID|25467|Z|Kelp'thar Forest|RANK|2|M|53.2,44.0;53.5,23.9;51.2,47.8|CN|U|54345|N|Use the map.|
 K Kliklak's Craw|QID|25467|RANK|2|M|45,38;43.89,39.85|Z|Kelp'thar Forest|CN|L|54344|N|Kliklak patrols around this area. Kill him and loot the Corroded key.|T|Kliklak|
 T Kliklak's Craw|QID|25467|RANK|2|M|46.6,47.5|Z|Kelp'thar Forest|U|54344|N|Swim to Shallow's End and locate the chest behind the two large shells. Open it to turn in Kliklak's Craw.|
-l Can't Start a Fire Without a Spark|QID|25602|M|55.4,38.8|Z|Kelp'thar Forest|L|55143|N|Get the Keg of Gunpowder at Budd's Dig.|
-K Akasha|QID|25377|M|56.4,40.1|L|53054|Z|Kelp'thar Forest|N|Kill Akasha who patrols around here and loot the Horde Chest Key.|QO|1|; Horde Chest Key: 1/1
-T The Horde's Hoard|QID|25377|U|53054|M|57.8,35.1|Z|Kelp'thar Forest|N|The quest turn-in is at the Sunken Horde Chest.|
+C Can't Start a Fire Without a Spark|QID|25602|QO|1|M|55.4,38.8|Z|Kelp'thar Forest|L|55143|NC|N|Get the Keg of Gunpowder at Budd's Dig.|
+K Akasha|QID|25377|RANK|2|M|56.4,40.1|L|53054|Z|Kelp'thar Forest|N|Kill Akasha who patrols around here and loot the Horde Chest Key.|QO|1|; Horde Chest Key: 1/1
+T The Horde's Hoard|QID|25377|RANK|2|U|53054|M|57.8,35.1|Z|Kelp'thar Forest|N|The quest turn-in is at the Sunken Horde Chest.|
 C A Girl's Best Friend|QID|25390|RANK|2|US|M|56.2,37.6;50.8,44.9;46.8,41.6;50.82,31.95|CN|L|53074 6|Z|Kelp'thar Forest|N|Finish collecting Adarrah's Keepsake.|
 T A Taste For Tail|QID|25389|RANK|2|M|53.90,34.38;57.1,28.8|CS|Z|Kelp'thar Forest|N|To Adarrah.|
 T A Girl's Best Friend|QID|25390|RANK|2|M|57.1,28.8|Z|Kelp'thar Forest|N|To Adarrah.|
@@ -383,9 +402,8 @@ h Deepmist Grotto|QID|25824|M|63.9,59.9|Z|Kelp'thar Forest|N|At Erunak Stonespea
 C Debriefing|QID|25824|M|63.9,59.9|Z|Kelp'thar Forest|N|Talk to Private Pollard to complete this quest.|
 T Debriefing|QID|25824|M|63.8,59.7|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Wake of Destruction|QID|25887|PRE|25824+26007|M|63.8,59.7|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
-N Wake of Destruction|QID|25887|M|58.2,64.4|Z|Kelp'thar Forest|U|56576|N|Swim out of the grotto and head just a bit west, where you will find the Famished Great Sharks. Target one of the sharks while staying far enough away that it doesn't attack you and use the Orb of Suggestion.|
-C Wake of Destruction|QID|25887|M|59,70|Z|Kelp'thar Forest|N|Swim near the Zin'Jatar Guardians and use the ability "Eat Naga". You don't actually have to target the naga, just swim near them.|
-T Wake of Destruction|QID|25887|M|63.8,59.7|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
+C Wake of Destruction|QID|25887|M|59,70|Z|Kelp'thar Forest|N|Swim out of the grotto and head a bit west, where you will find the Famished Great Sharks. Target one from range and use the Orb of Suggestion. \n\nWhen you have a shark, swim near the Zin'Jatar Guardians and use ability 1. You don't have to target the naga.|
+T Wake of Destruction|QID|25887|M|63.8,59.7|Z|Kelp'thar Forest|N|Use the shark's third ability to return to the grotto and turn the quest in to Erunak Stonespeaker.|
 A Decompression|QID|25888|PRE|25887|RANK|2|M|63.9,59.4|Z|Kelp'thar Forest|N|From Moanah Stormhoof.|
 A What? What? In My Gut...?|QID|25885|PRE|25887|RANK|2|M|63.9,59.9|Z|Kelp'thar Forest|N|From Private Pollard.|
 A Come Hell or High Water|QID|25884|PRE|25887|M|64.2,59.9|Z|Kelp'thar Forest|N|From Rendel Firetongue.|
@@ -401,14 +419,15 @@ C Decompression|QID|25888|M|58.75,77.77|Z|Kelp'thar Forest|US|U|56169|N|Swim tow
 T Come Hell or High Water|QID|25884|M|64.2,59.9|Z|Kelp'thar Forest|N|(UI Alert)|
 A The Warden's Time|QID|27708|PRE|25884|M|60.2,80.4|Z|Kelp'thar Forest|N|Automatic from (UI Alert) after turning in Come Hell or High Water.|
 C The Warden's Time|QID|27708|M|60.2,80.4|Z|Kelp'thar Forest|N|Kill the Warden.|
-T Decompression|QID|25888|M|60.48,64.71;63.84,59.66|CS|Z|Kelp'thar Forest|N|To Moanah Stormhoof.|
+H Deepmist Grotto|ACTIVE|27708|M|60.48,64.71;63.84,59.66|Z|Kelp'thar Forest|CS|N|Hearth or swim back to Deepmist Grotto to turn in.|
+T Decompression|QID|25888|M|63.84,59.66|Z|Kelp'thar Forest|N|To Moanah Stormhoof.|
 T What? What? In My Gut...?|QID|25885|M|63.84,59.66|Z|Kelp'thar Forest|N|To Private Pollard.|
 T The Warden's Time|QID|27708|M|63.84,59.66|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Across the Great Divide|QID|25471|PRE|27708|M|63.8,59.7|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 f Kelp'thar Forest|QID|25471|M|42.39,66.12|Z|Kelp'thar Forest|N|Grab the flight point from the Swift Seahorse.|
 
 f Shimmering Expanse|QID|25471|M|57.06,17.11|Z|Shimmering Expanse|N|Grab the flight point from Francis Greene.|
-N Across the Great Divide|QID|25471|M|48.31,73.28|Z|Kelp'thar Forest|N|Head to the entrance to the cave. Then click off this step.|
+R Across the Great Divide|QID|25471|M|48.31,73.28|CC|Z|Kelp'thar Forest|N|Head to the entrance to the cave.|
 T Across the Great Divide|QID|25471|M|56.02,13.68|Z|Shimmering Expanse|N|To Farseer Gadra. Head into the cave.|
 A The Looming Threat|QID|25334|PRE|25471|M|56.02,13.68|Z|Shimmering Expanse|N|From Farseer Gadra.|
 C The Looming Threat|QID|25334|M|56.0,13.7|Z|Shimmering Expanse|N|Speak to Farseer Gadra and tell him you are ready to enter the vision. after a few seconds you will be pulled into a vision. Gadra will explain the current situation in Vashj'ir.|
@@ -427,20 +446,20 @@ A The Great Sambino|QID|25216|PRE|25222|M|49.6,42.1|Z|Shimmering Expanse|N|From 
 A Don't be Shellfish|QID|25219|PRE|25222|RANK|2|M|49.24,42.57|Z|Shimmering Expanse|N|From Earthmender Duarn.|
 A Slippery Threat|QID|25220|PRE|25222|RANK|2|M|49.13,41.95|Z|Shimmering Expanse|N|From Caretaker Movra.|
 h Silver Tide Hollow|QID|25215|M|49.13,41.95|Z|Shimmering Expanse|N|At Caretaker Movra.|
-N A Distracting Scent|QID|25215|M|49.2,42|Z|Shimmering Expanse|N|Swim out of Silver Tide Hollow and mount up. All around the entrance you will see naga bodies. Swim close to one and right-click it to start dragging the body.|
 C Don't be Shellfish|QID|25219|S|M|49.2,35.8|Z|Shimmering Expanse|L|52975 10|N|Collect Coilshell Sifters.|
 C Slippery Threat|QID|25220|S|M|40.5,37.9;49.2,35.8;61,38.2|Z|Shimmering Expanse|CN|N|Kill Spiketooth Eels.|
-C A Distracting Scent|QID|25215|M|50.35,41.11;50.63,45.51|Z|Shimmering Expanse|CN|N|Swim south to Glimmerdeep Gorge. As soon as you are over the gorge you will drop the naga you are dragging. Drag 3 bodies into the gorge to complete Distracting Scent.|
-T The Great Sambino|QID|25216|M|41.3,34.2|Z|Shimmering Expanse|N|From The Great Sambino.|
+C A Distracting Scent|QID|25215|M|50.35,41.11;50.63,45.51|Z|Shimmering Expanse|CN|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
+T The Great Sambino|QID|25216|M|41.3,34.2|Z|Shimmering Expanse|N|To The Great Sambino.|
 A Undersea Inflation|QID|25218|PRE|25216|M|41.3,34.3|Z|Shimmering Expanse|N|From The Great Sambino.|
-A Crabby Patrons|QID|25360|RANK|2|M|41.2,34.2|Z|Shimmering Expanse|N|From Felice.|
+A Crabby Patrons|QID|25360|M|41.2,34.2|Z|Shimmering Expanse|N|From Felice.|
 C Crabby Patrons|QID|25360|S|Z|Shimmering Expanse|N|Kill Crabs.|
-C Undersea Inflation|QID|25218|U|54608|M|42.02,33.82;43.47,32.57;43.91,32.86;44.77,33.29;44.99,33.92;45.67,34.60;47.19,33.61;49.32,35.86|Z|Shimmering Expanse|CN|N|While you are doing that, use Sambino's Air Balloon near any of the large blueish shells on the sea floor or the green coral formations to fill up the balloon. Keep doing this until you get the message that the balloon is full. Don't forget to kill crabs on the way until you get Sambino's Air Valve.|
+C Undersea Inflation|QID|25218|U|54608|M|42.02,33.82;43.47,32.57;43.91,32.86;44.77,33.29;44.99,33.92;45.67,34.60;47.19,33.61;49.32,35.86|Z|Shimmering Expanse|CN|N|Use Sambino's Air Balloon near any of the large blueish shells on the sea floor or the green coral formations to fill up the balloon. Keep doing this until you get the message that the balloon is full. \n\nAlso kill crabs until you get Sambino's Air Valve.|
+C Crabby Patrons|QID|25360|M|41.2,40.0;43.7,39.5;48.8,35.2|US|Z|Shimmering Expanse|CN|N|Kill the remaining Crabs.|
 C Crabby Patrons|QID|25360|M|41.2,40.0;43.7,39.5;48.8,35.2|US|Z|Shimmering Expanse|CN|N|Kill the remaining Crabs.|
 T Crabby Patrons|QID|25360|M|41.2,34.2|Z|Shimmering Expanse|N|To Felice.|
 T Undersea Inflation|QID|25218|M|41.2,34.3|Z|Shimmering Expanse|N|To The Great Sambino.|
 A Totem Modification|QID|25217|PRE|25218|M|41.2,34.2|Z|Shimmering Expanse|N|From The Great Sambino.|
-C Totem Modification|QID|25217|M|42.33,33.62|Z|Shimmering Expanse|N|Go to one of the brown/orange patches on the ground and use Sambino's Modified Totem (Could be 1 of 4 totems, disable and enable the addon for the button to appear, or just use it out of your inventory. You can also ask Sambino for a specific one. Also Shamans, this counts as your Earth Totem.). Defend the totem from whatever sea life comes to destroy it until the Enormous Sea Crab appears. Kill him to complete Totem Modifaction.|
+C Totem Modification|QID|25217|M|42.33,33.62|Z|Shimmering Expanse|N|Go to one of the brown/orange patches on the ground and use Sambino's Modified Totem. Defend the totem from whatever sea life comes to destroy it until the Enormous Sea Crab appears.|
 T Totem Modification|QID|25217|M|41.2,34.2|Z|Shimmering Expanse|N|To The Great Sambino.|
 A Back in One Piece|QID|25456|PRE|25217|M|41.2,34.2|Z|Shimmering Expanse|N|From The Great Sambino.|
 C Slippery Threat|QID|25220|US|M|40.5,37.9;49.2,35.8;61,38.2|Z|Shimmering Expanse|CN|N|Kill the remaining Spiketooth Eels.|
@@ -452,7 +471,7 @@ T Slippery Threat|QID|25220|M|49.2,42|Z|Shimmering Expanse|N|To Caretaker Movra.
 T Don't be Shellfish|QID|25219|M|49.3,42.6|Z|Shimmering Expanse|N|To Earthmender Duarn.|
 T Toshe's Vengeance|QID|25359|M|64.1,42.3|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
 A Vengeful Heart|QID|25439|PRE|25359|RANK|1|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-A Vortex|QID|25441|RANK|2|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
+A Vortex|QID|25441|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
 C Vengeful Heart|QID|25439|PRE|25359|S|M|66.3,46.5|Z|Shimmering Expanse|N|Kill Zin'Jatar Ravagers. Make sure you use the Globes of Tumultuous Water after the Naga command the snakes to attack you.|
 C Vortex|QID|25441|M|64.7,45.7|RANK|2|U|54785|Z|Shimmering Expanse|N|Use the Globes of Tumultuous Water to suck up the swarming serpents. |
 C Vengeful Heart|QID|25439|US|M|66.3,46.5|Z|Shimmering Expanse|N|Kill remaining Zin'Jatar Ravagers.|
@@ -528,13 +547,14 @@ A A Better Vantage|QID|25582|PRE|25536;25540|M|49.20,56.99|Z|Shimmering Expanse|
 A Caught Off-Guard|QID|25579|RANK|1|PRE|25536;25540|M|49.2,56.9|Z|Shimmering Expanse|N|From Admiral Dvorek.|
 C Caught Off-Guard|QID|25579|RANK|1|S|Z|Shimmering Expanse|N|Kill Azsh'ir Patrollers.|
 C Swift Approach|QID|25580|RANK|1|S|Z|Shimmering Expanse|N|Destroy Azsh'ir Monitors.|
-N Lestharia Vashj statue|QID|25581|QO|1|M|39.66,58.96|Z|Shimmering Expanse|N|Read the inscription at the Lestharia Vashj statue.|; Lestharia Vashj statue: 1/1
-N Queen Azshara statue|QID|25581|QO|2|M|38.62,58.96|Z|Shimmering Expanse|N|Read the inscription at the Queen Azshara statue.|; Queen Azshara statue: 1/1
-N High Priestess Siralen statue|QID|25581|QO|4|M|38.46,66.05|Z|Shimmering Expanse|N|Read the inscription at the High Priestess Siralen statue.|; High Priestess Siralen statue: 1/1
-C An Occupation of Time|QID|25581|RANK|2|M|39.73,67.70|Z|Shimmering Expanse|N|Read the inscription at the Ranger Valarian statue.|
-A Upon the Scene of Battle|QID|25583|PRE|27393|M|40.52,75.42|Z|Shimmering Expanse|N|From the skull on the ground.|
-N Structures south of Quel'Dormir Gardens scouted|QID|25582|M|40.49,74.95|Z|Shimmering Expanse|N|Head to the waypoint to scout the Structures south of Quel'Dormir Gardens.|QO|3|; Structures south of Quel'Dormir Gardens scouted: 1/1
-N Tunnel west of Quel'Dormir Gardens scouted|QID|25582|M|35.24,63.06|Z|Shimmering Expanse|N|Head to the waypoint to get the Tunnel west of Guel'Dormir Garderns scouted.|QO|2|; Tunnel west of Quel'Dormir Gardens scouted: 1/1
+C Lestharia Vashj statue|QID|25581|QO|1|M|39.66,58.96|Z|Shimmering Expanse|NC|N|Read the inscription at the Lestharia Vashj statue.|; Lestharia Vashj statue: 1/1
+C Queen Azshara statue|QID|25581|QO|2|M|38.62,58.96|Z|Shimmering Expanse|NC|N|Read the inscription at the Queen Azshara statue.|; Queen Azshara statue: 1/1
+C Northern Quel'Dormir Gardens|QID|25582|QO|1|M|39.30,58.58|Z|Shimmering Expanse|NC|N|Head to the waypoint to scout the Northern gardens.|
+C High Priestess Siralen statue|QID|25581|QO|4|M|38.46,66.05|Z|Shimmering Expanse|NC|N|Read the inscription at the High Priestess Siralen statue.|; High Priestess Siralen statue: 1/1
+C Ranger Valarian statue|QID|25581|QO|3|M|39.73,67.70|Z|Shimmering Expanse|NC|N|Read the inscription at the Ranger Valarian statue.|
+A Upon the Scene of Battle|QID|25583|PRE||M|40.52,75.42|Z|Shimmering Expanse|N|From the skull on the ground.|;Grail says this needs PRE|27393, but it doesn't. Empty PRE tag inserted so Grail integration can't overwrite.
+C Structures south of Quel'Dormir Gardens scouted|QID|25582|QO|3|M|40.49,74.95|Z|Shimmering Expanse|NC|N|Head to the waypoint to scout the Structures south of Quel'Dormir Gardens.|; Structures south of Quel'Dormir Gardens scouted: 1/1
+C Tunnel west of Quel'Dormir Gardens scouted|QID|25582|QO|2|M|35.24,63.06|Z|Shimmering Expanse|NC|N|Head to the waypoint to get the Tunnel west of Guel'Dormir Garderns scouted.|; Tunnel west of Quel'Dormir Gardens scouted: 1/1
 C A Better Vantage|QID|25582|M|39.17,56.89|Z|Shimmering Expanse|N|Scout the area.|
 C Swift Approach|QID|25580|RANK|1|US|M|40.3,62.3;41.37,65.78;40.87,68.85;41.81,71.86;42.23,74.49|Z|Shimmering Expanse|CN|N|Destroy Azsh'ir Monitors.|
 C Caught Off-Guard|QID|25579|RANK|1|US|M|41.7,53.4;39.1,63.6;38.8,78.8;33.2,65.9;43.3,67.1;39,62|Z|Shimmering Expanse|CN|N|Kill remaining Azsh'ir Patrollers.|
@@ -546,7 +566,7 @@ T A Better Vantage|QID|25582|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvore
 T Caught Off-Guard|QID|25579|RANK|1|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
 T Upon the Scene of Battle|QID|25583|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
 A Visions of the Past: The Invasion of Vashj'ir|QID|25760|PRE|25583|RANK|1|U|55171|M|49.3,57.0|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-U Visions of the Past: The Invasion of Vashj'ir|QID|25619|RANK|1|U|55171|M|40.50,75.58|Z|Shimmering Expanse|N|Use the Blade of the Naz'jar Battlemaiden to start the vision. Close this step.|
+U Visions of the Past: The Invasion of Vashj'ir|QID|25619|RANK|1|U|55171|BUFF|73974|M|40.50,75.58|Z|Shimmering Expanse|N|Use the Blade of the Naz'jar Battlemaiden to start the vision. Close this step.|;Buff ID 73974 untested. When an author confirms the autocomplete works, please remove "Close this step" and this comment.
 A Reoccupation|QID|25619|M|40.5,75.4|Z|Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
 C Reoccupation|QID|25619|M|39.32,78.26;38.27,79.35;37.61,75.62;38.89,72.13|CN|Z|Shimmering Expanse|N|Kill Kvaldir Defenders.|
 T Reoccupation|QID|25619|M|40.5,75.4|Z|Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
@@ -564,7 +584,7 @@ C Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|Shimmering Expanse|N|Swim up the tu
 T Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|Shimmering Expanse|N|(UI Alert)|
 T Visions of the Past: The Invasion of Vashj'ir|QID|25760|M|40.58,75.03|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
 A Looking Forward|QID|25747|PRE|25760|M|40.58,75.03|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-T Looking Forward|QID|25747|M|33.2,68.4|Z|Shimmering Expanse|N|To Admiral Dvorek.|
+T Looking Forward|QID|25747|M|33.2,68.4|Z|Shimmering Expanse|N|Jump on the Tamed Seahorse for a ride to Admiral Dvorek.|
 A Clear Goals|QID|25748|PRE|25747|M|38.7,78.4|Z|Shimmering Expanse|N|From Admiral Dvorek.|
 A Not Entirely Unprepared|QID|25749|PRE|25747|M|33.19,68.33|Z|Shimmering Expanse|N|From Captain Taylor.|
 A Properly Inspired|QID|25751|PRE|25747|M|33,69.2|Z|Shimmering Expanse|N|From Engineer Hexascrub.|
@@ -581,13 +601,14 @@ C Swift Action|QID|25752|M|33,69.2|Z|Shimmering Expanse|N|Go outside and speak t
 T Swift Action|QID|25752|M|39.10,78.71|Z|Shimmering Expanse|N|To Admiral Dvorek.|
 A Gauging Success|QID|25754|PRE|25752|M|39.10,78.71|Z|Shimmering Expanse|N|From Admiral Dvorek.|
 A Fallen But Not Forgotten|QID|25753|PRE|25752|M|39.08,78.52|Z|Shimmering Expanse|N|From Captain Taylor.|
-C Fallen But Not Forgotten|QID|25753|S|M|32.2,79.2;29,79.8;37.7,82;29.4,77.5|Z|Shimmering Expanse|CN|N|While doing the next two steps, look for Injured Alliance Volunteers. Speak to them to send them back to the rendezvous point.|
-C Gauging Success|QID|25754|M|33.0,67.7;30.73,72.46|Z|Shimmering Expanse|CS|N|Scout the Tunnel to the North and the Northwestern Terrace.|
-C Fallen But Not Forgotten|QID|25753|US|M|32.2,79.2;29,79.8;37.7,82;29.4,77.5|Z|Shimmering Expanse|CN|N|Look for the remaining Volunteers.|
+C Fallen But Not Forgotten|QID|25753|S|M|32.2,79.2;29,79.8;37.7,82;29.4,77.5|Z|Shimmering Expanse|CN|CHAT|N|Speak to Injured Alliance Volunteers.|
+C Northern Tunnel|QID|25754|QO|1|M|33.0,67.7|Z|Shimmering Expanse|
+C Northwestern Terrace|QID|25754|QO|2|M|30.73,72.46|Z|Shimmering Expanse|
+C Fallen But Not Forgotten|QID|25753|US|M|32.2,79.2;29,79.8;37.7,82;29.4,77.5|Z|Shimmering Expanse|CN|CHAT|N|Finish speaking to Injured Alliance Volunteers.|
 T Gauging Success|QID|25754|M|39.10,78.71|Z|Shimmering Expanse|N|To Admiral Dvorek.|
 T Fallen But Not Forgotten|QID|25753|M|39.08,78.52|Z|Shimmering Expanse|N|To Captain Taylor.|
 A Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|PRE|25753;25754|M|39.20,78.61|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-U Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|U|55171|M|28.9,78.7|Z|Shimmering Expanse|N|Swim up the tunnel directly west. At the far end is the location where you start the second vision. Use the Blade of the Naz'jar Battlemaiden to begin. Close this step once you use the blade.|
+U Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|U|55171|BUFF|77565|M|28.9,78.7|Z|Shimmering Expanse|N|Swim through the tunnel to the west and use the Blade of the Naz'jar Battlemaiden.|
 A By Her Lady's Word|QID|25858|M|29.1,78.6|Z|Shimmering Expanse|N|From Lady Naz'jar.|
 N Speak to Fathom-Lord Zin'jatar|QID|25858|QO|1|M|34.45,78.65|Z|Shimmering Expanse|N|Speak to Fathom-Lord Zin'jatar.|; Speak to Fathom-Lord Zin'jatar: 1/1
 N Speak to Overseer Idra'kess|QID|25858|QO|3|M|36.79,79.73|Z|Shimmering Expanse|N|Speak to Overseer Idra'kess.|; Speak to Overseer Idra'kess: 1/1
@@ -629,7 +650,7 @@ T Honor and Privilege|QID|25898|M|56.9,80.5|Z|Shimmering Expanse|N|To Jorlan Tru
 A Welcome News|QID|25911|PRE|25898|RANK|1|M|56.6,80.4|Z|Shimmering Expanse|N|From Jorlan Trueblade.|
 T Welcome News|QID|25911|M|46.49,57.45;49.2,57|CS|Z|Shimmering Expanse|N|To Captain Taylor.|
 A Visions of the Past: Rise from the Deep|QID|25626|PRE|25911|M|49.43,57.53|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-U Visions of the Past: Rise from the Deep|QID|25626|M|33.1,77.8|U|55171|Z|Shimmering Expanse|N|Swim to the Quel'Dormir Temple, on the top terrace of the Ruins of Vashj'ir. In the center of the temple, you will find the Crucible. Swim up to a ledge just behind to find the point where you can enter the vision.|
+U Visions of the Past: Rise from the Deep|QID|25626|M|33.1,77.8|U|55171|BUFF|78264|Z|Shimmering Expanse|N|Swim to the Quel'Dormir Temple, on the top terrace of the Ruins of Vashj'ir. In the center of the temple, you will find the Crucible. Swim up to a ledge just behind to find the point where you can enter the vision.|
 A Devout Assembly|QID|25896|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
 A Her Lady's Hand|QID|25629|M|33.1,75.9|Z|Shimmering Expanse|N|From Lady Naz'jar.|
 C Her Lady's Hand|QID|25629|S|N|Kill any of the Kvaldir fighting the Naz'jar Honor Guards. When the guards are out of combat, you will automatically send them back to the temple.|
