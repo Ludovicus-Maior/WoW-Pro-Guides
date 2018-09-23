@@ -337,7 +337,7 @@ function WoWPro.ScenarioObjectiveStatus(stage, objective)
     local done = false
     local status = "¿"
     local objective, predicate, target = WoWPro.ParseObjective(objective,"S")
-    if not (WoWPro.Scenario.currentStage == stage) then
+    if (not WoWPro.Scenario) or not (WoWPro.Scenario.currentStage == stage) then
         return false, "Scenario stage "..tostring(stage).." not active"
     end
     done, status = predicate(qid, objective, target)
@@ -604,8 +604,11 @@ function WoWPro.UpdateQuestTrackerRow(row)
 			        track = track.."\n- " .. status
 			    elseif stage then
 			        --- Naked stage
-			        if WoWPro.Scenario.currentStage == stage then
+			        if WoWPro.Scenario and WoWPro.Scenario.currentStage == stage then
 			            track = track.."\n- "..WoWPro.Scenario.stageDescription
+			        else
+					    WoWPro:dbp("UQT: Scenario not active yet %q [%s]", QID, WoWPro.sobjective[index])
+					    track =  track.." ??"
 			        end
 			    else
 				    WoWPro:dbp("UQT: Not a valid scenario objective %q [%s]", QID, WoWPro.sobjective[index])
