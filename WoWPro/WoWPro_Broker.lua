@@ -1669,7 +1669,6 @@ function WoWPro.NextStep(k,i)
 					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(achnum)
 					WoWPro:dbp("ACH %s wasEarnedByMe=%s, Flip=%s", achnum, tostring(wasEarnedByMe), tostring(achflip))
 					if achflip then wasEarnedByMe = not wasEarnedByMe end
-					--print(achnum..": achflip is "..tostring(achflip).." and wasEarnedByMe is "..tostring(wasEarnedByMe))
 					if wasEarnedByMe then
 						if akey == #achtbl then
 							if not achflip then
