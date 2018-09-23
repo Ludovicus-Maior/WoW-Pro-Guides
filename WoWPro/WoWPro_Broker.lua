@@ -1678,10 +1678,17 @@ function WoWPro.NextStep(k,i)
 								WoWPro.CompleteStep(k, "NextStep(): Achivement ["..Name.."] Complete.") 
 							end
 							skip = true
+						elseif achflip then
+							skip = true
+							break
 						end
 					else
-						WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] not complete."
-						break
+						if achflip then
+							WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] complete but flipped."
+						else
+							WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] not complete."
+							break
+						end
 					end 
 				elseif (count > 0) and achitem then
 					local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
@@ -1693,10 +1700,17 @@ function WoWPro.NextStep(k,i)
 								WoWPro.CompleteStep(k, "NextStep(): Criteria ["..description.."] Complete.")
 							end
 							skip = true
+						elseif achflip then
+							skip = true
+							break
 						end
 					else
-						WoWPro.why[k] = "NextStep(): Criteria ["..description.."] not complete."
-						break;
+						if achflip then
+							WoWPro.why[k] = "NextStep(): Criteria ["..description.."] complete but flipped."
+						else
+							WoWPro.why[k] = "NextStep(): Criteria ["..description.."] not complete."
+							break;
+						end
 					end
 				else
 					WoWPro:Error("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
