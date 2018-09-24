@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-24 19:14
+-- Who: elidion
+-- Log: added LVL tags for some post 120 questlines that were missing.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29828/view
+-- Date: 2018-09-24 08:50
+-- Who: Emmaleah
+-- Log: minor adj to zuldazar foothold.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29813/view
+-- Date: 2018-09-23 23:28
+-- Who: elidion
+-- Log: Accuracy pass, all 7th legion rep quests on Zandalar
+
+-- URL: http://wow-pro.com/node/3760/revisions/29770/view
 -- Date: 2018-09-20 08:24
 -- Who: elidion
 -- Log: Added alliance warfront scenario questline.
@@ -331,7 +346,6 @@ C Zuldazar Foothold|QID|51308|QO|1|M|69.25,27.00|Z|Boralus|CHAT|N|Listen to Half
 C Zuldazar Foothold|QID|51308|QO|2|M|67.95,26.72|Z|Boralus|CHAT|N|If you are ready to travel to Zuldazar and start the War Campaign, tell Jes-Tereth you are ready.|
 T Zuldazar Foothold|QID|51308|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
 A The Troll's Tale|QID|51201|M|77.54,54.58|Z|Zuldazar|N|From Brigadier Thom.|PRE|51308|
-f Castaway Encampment|QID|51201|M|77.66,54.44|Z|Zuldazar|N|At Kaolin.|ACTIVE|51201|
 C The Troll's Tale|QID|51201|M|77.51,54.60|Z|Zuldazar|CHAT|N|Talk to the Captured Zandalari Troll.|
 T The Troll's Tale|QID|51201|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
 A Granting a Reprieve|QID|51190|M|77.54,54.58|Z|Zuldazar|N|From Brigadier Thom.|PRE|51201|
@@ -339,11 +353,12 @@ A Disarming the Cannons|QID|51544|M|77.54,54.58|Z|Zuldazar|N|From Brigadier Thom
 A A Lack of Surplus|QID|51192|M|77.14,55.58|Z|Zuldazar|N|From Degdod.|PRE|51201|
 A That One's Mine|QID|51193|M|77.14,55.58|Z|Zuldazar|N|From Degdod.|PRE|51201|
 A Save Them All|QID|51191|M|77.13,55.55|Z|Zuldazar|N|From Medic Feorea.|PRE|51201|
+f Castaway Encampment|ACTIVE|51191|M|77.66,54.44|Z|Zuldazar|N|At Kaolin.|ACTIVE|51201|
 C Granting a Reprieve|QID|51190|M|79.11,53.96|Z|Zuldazar|S|N|Kill the Horde on the beach as you go.|
 C Save Them All|QID|51191|M|79.11,53.96|Z|Zuldazar|S|NC|N|Click on the injured sailors to heal them as you go.|
 C A Lack of Surplus|QID|51192|M|79.11,53.96|Z|Zuldazar|S|NC|N|Pick up bundles of supplies as you go.|
 C Disarming the Cannons|QID|51544|M|83.27,54.64|Z|Zuldazar|NC|N|Click on the rope to board the ship and then destroy the cannons.|
-C That One's Mine|QID|51193|M|81.92,51.18|Z|Zuldazar|N|Kill Major Hawkins and loot his hammer.|T|Major Alan Hawkins|
+K Major Hawkins|QID|51193|QO|1|M|81.92,51.18|Z|Zuldazar|N|Kill Major Hawkins and loot his hammer.|T|Major Alan Hawkins|
 C A Lack of Surplus|QID|51192|M|79.11,53.96|Z|Zuldazar|US|NC|N|Finish collecting the bundles of supplies.|
 C Save Them All|QID|51191|M|79.11,53.96|Z|Zuldazar|US|NC|N|Finish up healing the injured sailors.|
 C Granting a Reprieve|QID|51190|M|79.11,53.96|Z|Zuldazar|US|N|Finish your quota of killing Horde.|
@@ -354,7 +369,7 @@ T Granting a Reprieve|QID|51190|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
 T Disarming the Cannons|QID|51544|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
 A Xibala|QID|51418|M|77.50,55.21|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51190;51191;51192;51193;51544|
 C Xibala|QID|51418|M|80.35,55.45|Z|Zuldazar|NC|N|Hop in the rowboat and enjoy the ride.|
-f Xibala|QID|51418|M|40.59,71.46|Z|Zuldazar|N|At Paula Waverunner.|ACTIVE|51418|
+f Xibala|ACTIVE|51418|M|40.59,71.46|Z|Zuldazar|N|At Paula Waverunner.|
 T Xibala|QID|51418|M|40.75,70.84|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
 A Mole Machinations|QID|51331|M|40.75,70.84|Z|Zuldazar|N|From Anvil-Thane Thurgaden.|PRE|51418|
 A Rocks of Ragnaros|QID|51309|M|40.75,70.84|Z|Zuldazar|N|From Anvil-Thane Thurgaden.|PRE|51418|
@@ -459,38 +474,38 @@ T Sins of the Syndicate|QID|53162|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Da
 T Wiping Out the Witherbark|QID|53149|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
 ;End Warfront
 ; Warfront Scenerio
-A Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|From Ralston Karn.|O|
-C Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|QO|1|NC|N|View the War Table and join the queue to defeat the Horde at the Battle for Stromgarde.|
-A Iron Stores|QID|52439|M|61.05,67.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Foreman Tully. After taking the mines by killing Overseer Krix.|
+A Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|From Ralston Karn.|ILVL|320|O|
+C Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|QO|1|NC|N|View the War Table and join the queue to defeat the Horde at the Battle for Stromgarde.|ILVL|320|
+A Iron Stores|QID|52439|M|61.05,67.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Foreman Tully. After taking the mines by killing Overseer Krix.|ILVL|320|
 C Iron Stores|QID|52439|M|47.28,74.06|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|Back at the base, access your Iron Stores.|
 T Iron Stores|QID|52439|M|47.13,74.18|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Henrik.|
-A Cutting Out the Competition|QID|52118|M|36.37,59.61|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Lumbering Leo. after taking the Lumber Mill.|
+A Cutting Out the Competition|QID|52118|M|36.37,59.61|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Lumbering Leo. after taking the Lumber Mill.|ILVL|320|
 C Cutting Out the Competition|QID|52118|M|36.71,59.43|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|Grab the Sturdy Axe.|
 C Cutting Out the Competition|QID|52118|M|36.35,58.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|2|N|Chop down the Sapling.|
 C Cutting Out the Competition|QID|52118|M|36.35,58.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|3|N|Pick up the Freshly-Chopped Wood around the tree you just chopped.|
 T Cutting Out the Competition|QID|52118|M|36.65,59.78|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Lumbering Leo.|
-A Ready for Battle|QID|53672|M|46.04,73.30|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Sergeant Matthew Walker.|
+A Ready for Battle|QID|53672|M|46.04,73.30|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Sergeant Matthew Walker.|ILVL|320|
 C Ready for Battle|QID|53672|M|44.40,73.70|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|Recruit a troop from the Barracks, 20 Iron minimum.|
 T Ready for Battle|QID|53672|M|46.04,73.29|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Sergeant Matthew Walker.|
-A Armor Up!|QID|53673|M|49.60,76.61|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Balinda Darkstone.|
+A Armor Up!|QID|53673|M|49.60,76.61|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Balinda Darkstone.|ILVL|320|
 C Armor Up!|QID|53673|M|51.28,74.18|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|See what the Armory has to offer.|
 T Armor Up!|QID|53673|M|48.02,80.01|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Captain Roderick Brewston.|
-A The Altar's Power|QID|53674|M|48.02,80.01|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Captain Roderick Brewston.|
+A The Altar's Power|QID|53674|M|48.02,80.01|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Captain Roderick Brewston.|ILVL|320|
 C The Altar's Power|QID|53674|M|51.42,81.06|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|See what the Altar has to offer.|
 T The Altar's Power|QID|53674|M|48.01,79.96|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Captain Roderick Brewston.|
-A Welcome to the Workshop|QID|53675|M|50.73,72.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Genny.|
+A Welcome to the Workshop|QID|53675|M|50.73,72.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Genny.|ILVL|320|
 C Welcome to the Workshop|QID|53675|M|49.93,72.26|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|See what the Workshop has to offer.|
 T Welcome to the Workshop|QID|53675|M|50.72,72.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Genny.|
-A Establishing a Connection|QID|53678|M|51.11,47.09|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Grayson Bell.|
+A Establishing a Connection|QID|53678|M|51.11,47.09|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Grayson Bell.|ILVL|320|
 C Establishing a Connection|QID|53678|M|51.11,47.09|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|Fly back to get your flightmaster whistle upgrade.|
 T Establishing a Connection|QID|53678|M|47.49,75.40|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Danath Trollbane.|
-A Beasts of Newstead|QID|53677|M|42.31,39.61|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Huntmaster Theodore after capturing Newstead.|
+A Beasts of Newstead|QID|53677|M|42.31,39.61|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Huntmaster Theodore after capturing Newstead.|ILVL|320|
 C Beasts of Newstead|QID|53677|M|41.50,40.54|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|See what Vindicator Banra has to offer.|
 T Beasts of Newstead|QID|53677|M|42.33,39.66|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Huntmaster Theodore.|
-A The Circle's Power|QID|53676|M|69.62,47.69|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From High Sorceress Marala after capturing the Circle of Elements.|
+A The Circle's Power|QID|53676|M|69.62,47.69|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From High Sorceress Marala after capturing the Circle of Elements.|ILVL|320|
 C The Circle's Power|QID|53676|M|67.16,47.39|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|N|See what Justine Frost has to offer.|
 T The Circle's Power|QID|53676|M|69.64,47.68|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To High Sorceress Marala.|
-T Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|To Ralston Karn.|O|
+T Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|To Ralston Karn.|ILVL|320|
 ; End Warfront Scenerio
 C Uniting Kul Tiras|QID|51918;52450|US|N|This requires earning friendly reputation with Proudmoore Admirity (Tiragarde Sound), Order of Embers (Drustvar) and Storm's Wake (Stormsong Valley).|
 T Uniting Kul Tiras|QID|51918;52450|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
@@ -594,8 +609,8 @@ T Target: Blood Prince Dreven|QID|52219|M|61.97,41.24|Z|Nazmir|N|To Shandris Fea
 ; The Honored Repuation Mission Report: Veiled Grotto
 A Mission Report: Veiled Grotto|QID|52801|M|70.46,27.13|Z|Boralus|O|
 T Mission Report: Veiled Grotto|QID|52801|M|69.28,26.99|Z|Boralus|N|To Halford Wyrmbane.|
-A Veiled Grotto|QID|52802|M|69.28,26.99|Z|Boralus|N|From Halford Wyrmbane.|
-R Zuldazar|ACTIVE|52802|M|67.94,26.70|Z|Boralus|CHAT|PRE|52801|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+A Veiled Grotto|QID|52802|M|69.28,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|52801|
+R Zuldazar|ACTIVE|52802|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 C Veiled Grotto|QID|52802|M|44.48,36.69|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
 f Veiled Grotto|ACTIVE|52802|M|44.43,36.84|Z|Zuldazar|CHAT|N|Get the flightpoint from Isaac "Lefteye" Bentham.|
 T Veiled Grotto|QID|52802|M|44.25,36.49|Z|Zuldazar|N|To Kolton Garrick.|
@@ -661,46 +676,48 @@ C Intercepted Orders|QID|52308|M|69.28,27.00|Z|Boralus|NC|N|Wait for conversatio
 T Intercepted Orders|QID|52308|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Intercepted Orders|QID|52489|M|69.28,27.00|Z|Boralus|N|From Shandris Feathermoon.|PRE|52308|
 C Intercepted Orders|QID|52489|M|69.28,27.00|Z|Boralus|QO|1|NC|N|Mount Swiftwing.|
-C Intercepted Orders|QID|52489|M|37.42,43.30|Z|The Great Sea!Instance!Azeroth|QO|2|NC|N|Locate Horde ships.|
-T Intercepted Orders|QID|52489|M|37.42,43.30|Z|The Great Sea!Instance!Azeroth|N|Turn in Shandris Feathermoon on the Griffin next to you.|
-A Behind Enemy Boats|QID|52490|M|37.42,43.30|Z|The Great Sea!Instance!Azeroth|N|From Shandris Feathermoon on the Griffin next to you.|PRE|52489|
-C Behind Enemy Boats|QID|52490|M|36.57,52.15|Z|The Great Sea!Instance!Azeroth|QO|1|NC|N|Climb in the Banshee's Wail gunport.|
-C Kill the Sailors|QID|52490|M|36.59,53.08|Z|The Great Sea!Instance!Azeroth|QO|2|S|N|Kill 10 sailors.|
-A Broadside Bedlam|QID|52491|M|36.93,52.42|Z|The Great Sea!Instance!Azeroth|N|From a cannon across from you.|PRE|52489|
-C Broadside Bedlam|QID|52491|M|36.96,52.04|Z|The Great Sea!Instance!Azeroth|QO|1|NC|N|Collect the Cannonballs|
-C Broadside Bedlam|QID|52491|M|36.79,52.78|Z|The Great Sea!Instance!Azeroth|QO|2|NC|N|Collect the Gunpowder.|
-C Broadside Bedlam|QID|52491|M|36.62,53.31|Z|The Great Sea!Instance!Azeroth|QO|3|NC|N|Collect the torch.|
-C Broadside Bedlam|QID|52491|M|36.62,53.31|Z|The Great Sea!Instance!Azeroth|QO|4|NC|N|Fire the 3 cannons.|
-C Kill the Sailors|QID|52490|M|36.59,53.08|Z|The Great Sea!Instance!Azeroth|QO|2|US|N|Finish killing your 10 sailors.|
-C Behind Enemy Boats|QID|52490|M|36.59,53.08|Z|The Great Sea!Instance!Azeroth|QO|3|NC|N|Battlechest of the Horde opened, this is optional and will make Falstad come get you, if you don't want to, you can use your special action button to send up a flare.|
-T Behind Enemy Boats|QID|52490|M|40.89,47.68|Z|The Great Sea!Instance!Azeroth|N|Turn in to Falstad Wildhammer on the Griffin with you.|
-T Broadside Bedlam|QID|52491|M|40.89,47.68|Z|The Great Sea!Instance!Azeroth|N|Turn in to Falstad Wildhammer on the Griffin with you.|
-A The Wildhammer Specialty|QID|52492|M|40.89,47.68|Z|The Great Sea!Instance!Azeroth|N|From Falstad Wildhammer.|PRE|52490;52491|
-C The Wildhammer Specialty|QID|52492|M|40.67,49.81|Z|The Great Sea!Instance!Azeroth|QO|1|NC|N|Order Falstad to start the attack|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|The Great Sea!Instance!Azeroth|QO|2|N|Use the special action bar to destroy rowbots, kill sailors and burn the deck and sails of The Crimson Squall|
-T The Wildhammer Specialty|QID|52492|M|41.72,57.01|Z|The Great Sea!Instance!Azeroth|N|Turn in to Shandris Feathermoon.|
-A An Unnatural Crew|QID|52493|M|41.72,57.01|Z|The Great Sea!Instance!Azeroth|N|From Shandris Feathermoon.|PRE|52492|
-A Foul Crystals for Foul People|QID|52494|M|41.72,57.01|Z|The Great Sea!Instance!Azeroth|N|From Shandris Feathermoon.|PRE|52492|
-C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|The Great Sea!Instance!Azeroth|S|N|Kill 12 Horde on the ship|
-C Foul Crystals for Foul People|QID|52494|M|41.66,55.77|Z|The Great Sea!Instance!Azeroth||NC|N|Destroy 5 San'layn Crystals |
-C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|The Great Sea!Instance!Azeroth|US|N|Continue to killHorde on the ship|
-T An Unnatural Crew|QID|52493|M|41.67,55.38|Z|The Great Sea!Instance!Azeroth|N|To Shandris Feathermoon below deck.|
-T Foul Crystals for Foul People|QID|52494|M|41.67,55.38|Z|The Great Sea!Instance!Azeroth|N|To Shandris Feathermoon below deck.|
-A Ending the San'layn Threat|QID|52495|M|41.67,55.38|Z|The Great Sea!Instance!Azeroth|N|From Shandris Feathermoon.|PRE|52493;52494|
-C Ending the San'layn Threat|QID|52495|M|41.62,56.79|Z|The Great Sea!Instance!Azeroth|QO|1|NC|N|destroy the door|
-C Ending the San'layn Threat|QID|52495|M|41.53,55.66|Z|The Great Sea!Instance!Azeroth|QO|2|N|Kill Blood Prince Dreven|
-C Ending the San'layn Threat|QID|52495|M|42.40,55.90|Z|The Great Sea!Instance!Azeroth|QO|3|NC|N|Escape the ship and signal Falstad|
-T Ending the San'layn Threat|QID|52495|M|41.44,48.20|Z|The Great Sea!Instance!Azeroth|N|To Shandris Feathermoon on a Griffin next to you.|
-A A Clean Escape|QID|52496|M|41.44,48.20|Z|The Great Sea!Instance!Azeroth|N|From Shandris Feathermoon on a Griffin next to you.|PRE|52495|
-P Boralus|ACTIVE|52496|M|40.57,41.06|Z|The Great Sea!Instance!Azeroth|N|Let griffin portal you at edge of zone|
+C Intercepted Orders|QID|52489|M|37.42,43.30|Z|1156|QO|2|NC|N|Locate Horde ships.|
+T Intercepted Orders|QID|52489|M|37.42,43.30|Z|1156|N|Turn in Shandris Feathermoon on the Griffin next to you.|
+A Behind Enemy Boats|QID|52490|M|37.42,43.30|Z|1156|N|From Shandris Feathermoon on the Griffin next to you.|PRE|52489|
+C Behind Enemy Boats|QID|52490|M|36.57,52.15|Z|1156|QO|1|NC|N|Climb in the Banshee's Wail gunport.|
+C Kill the Sailors|QID|52490|M|36.59,53.08|Z|1156|QO|2|S|N|Kill 10 sailors.|
+A Broadside Bedlam|QID|52491|M|36.93,52.42|Z|1156|N|From a cannon across from you.|PRE|52489|
+C Broadside Bedlam|QID|52491|M|36.96,52.04|Z|1156|QO|1|NC|N|Collect the Cannonballs|
+C Broadside Bedlam|QID|52491|M|36.79,52.78|Z|1156|QO|2|NC|N|Collect the Gunpowder.|
+C Broadside Bedlam|QID|52491|M|36.62,53.31|Z|1156|QO|3|NC|N|Collect the torch.|
+C Broadside Bedlam|QID|52491|M|36.62,53.31|Z|1156|QO|4|NC|N|Fire the 3 cannons.|
+C Kill the Sailors|QID|52490|M|36.59,53.08|Z|1156|QO|2|US|N|Finish killing your 10 sailors.|
+C Behind Enemy Boats|QID|52490|M|36.59,53.08|Z|1156|QO|3|NC|N|Open the Battlechest of the Horde.|
+T Behind Enemy Boats|QID|52490|M|40.89,47.68|Z|1156|N|Turn in to Falstad Wildhammer on the Griffin with you.|
+T Broadside Bedlam|QID|52491|M|40.89,47.68|Z|1156|N|Turn in to Falstad Wildhammer on the Griffin with you.|
+A The Wildhammer Specialty|QID|52492|M|40.89,47.68|Z|1156|N|From Falstad Wildhammer.|PRE|52490;52491|
+C The Wildhammer Specialty|QID|52492|M|40.67,49.81|Z|1156|QO|1|NC|N|Order Falstad to start the attack|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|2|N|Use the special action bar to destroy rowbots and kill sailors|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|3|N|Use the special action bar to burn the deck of The Crimson Squall|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|4|N|Use the special action bar to burn the sails of The Crimson Squall|
+T The Wildhammer Specialty|QID|52492|M|41.72,57.01|Z|1156|N|Turn in to Shandris Feathermoon.|
+A An Unnatural Crew|QID|52493|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
+A Foul Crystals for Foul People|QID|52494|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
+C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|1156|S|N|Kill 12 Horde on the ship|
+C Foul Crystals for Foul People|QID|52494|M|41.66,55.77|Z|1156||NC|N|Destroy 5 San'layn Crystals |
+C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|1156|US|N|Continue to killHorde on the ship|
+T An Unnatural Crew|QID|52493|M|41.67,55.38|Z|1156|N|To Shandris Feathermoon below deck.|
+T Foul Crystals for Foul People|QID|52494|M|41.67,55.38|Z|1156|N|To Shandris Feathermoon below deck.|
+A Ending the San'layn Threat|QID|52495|M|41.67,55.38|Z|1156|N|From Shandris Feathermoon.|PRE|52493;52494|
+C Ending the San'layn Threat|QID|52495|M|41.62,56.79|Z|1156|QO|1|NC|N|destroy the door|
+C Ending the San'layn Threat|QID|52495|M|41.53,55.66|Z|1156|QO|2|N|Kill Blood Prince Dreven|
+C Ending the San'layn Threat|QID|52495|M|42.40,55.90|Z|1156|QO|3|NC|N|Escape the ship and signal Falstad|
+T Ending the San'layn Threat|QID|52495|M|41.44,48.20|Z|1156|N|To Shandris Feathermoon on a Griffin next to you.|
+A A Clean Escape|QID|52496|M|41.44,48.20|Z|1156|N|From Shandris Feathermoon on a Griffin next to you.|PRE|52495|
+P Wind's Redemption|ACTIVE|52496|M|40.57,41.06|Z|1156|N|Let griffin portal you at edge of zone|
 T A Clean Escape|QID|52496|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
 ; Revered with The 7th Legion
-A Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;revered;7500;false|PRE|52496|
+A Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;revered;0;false|PRE|52496|
 T Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Bringing Down the Fleet|QID|52473|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|REP|7th Legion;2159;revered;7500;false|PRE|52496|
+A Bringing Down the Fleet|QID|52473|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|REP|7th Legion;2159;revered;0;false|PRE|52496|
 C Bringing Down the Fleet|QID|52473|M|67.94,26.70|Z|Boralus|CHAT|NC|N|Speak with Grand Admiral Jes-Tereth to sail for Zuldazar|
-T Bringing Down the Fleet|QID|52473|M|40.76,70.89|Z|Zuldazar|N|To Halford Wyrmbane.|
+T Bringing Down the Fleet|QID|52473|M|40.77,70.85|Z|Zuldazar|N|To Halford Wyrmbane.|
 A How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52473|
 C How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|QO|1|CHAT|N|Tell Halford you want to discuss the plan.|
 T How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|N|To Halford Wyrmbane.|
@@ -709,7 +726,7 @@ C Under the Cover of Swiftwing|QID|52281|M|57.68,87.50|Z|Zuldazar|QO|1|NC|N|Jump
 T Under the Cover of Swiftwing|QID|52281|M|57.66,87.60|Z|Zuldazar|N|To Kelsey Steelspark.|
 A Ship Logs|QID|52284|M|57.66,87.60|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52281|
 A Sabotaging the Pa'ku|QID|52283|M|57.65,87.54|Z|Zuldazar|N|From John J. Keeshan.|PRE|52281|
-C Ship Logs|QID|52284|M|49.25,37.72|Z|Lower Deck!Breath Of Pa'ku!Dungeon|QO|1|N|Board the Breath of Pa'ku and kill its crew until you get the naval records needed for this quest. (You can use the boots to kill crew on other boats if you need to, but there should be enough here.) \n\nDon't drive yourself crazy looking for the deathbombs; they are in the water.|
+C Ship Logs|QID|52284|M|49.25,37.72|Z|Lower Deck!Breath Of Pa'ku!Dungeon|QO|1|N|Board the Breath of Pa'ku and kill its crew until you get the naval records needed for this quest. (You can use the boots to kill crew on other boats if you need to, but there should be enough here.) \n\nDon't drive yourself crazy looking for the deathbombs; they are in the water.|U|162264|
 C Sabotaging the Pa'ku|QID|52283|M|51.88,87.43|Z|Zuldazar|QO|1|N|Jump off the boat and swim around the hull to plant the deathbombs.|
 T Sabotaging the Pa'ku|QID|52283|M|57.66,87.60|Z|Zuldazar|N|To John J. Keeshan.|
 T Ship Logs|QID|52284|M|57.66,87.60|Z|Zuldazar|N|To Kelsey Steelspark.|
@@ -726,7 +743,7 @@ C Void Vacation|QID|52288|M|48.03,63.02|Z|Zuldazar|QO|1|NC|S|N|Use your extra ac
 K Intelligence Denial|ACTIVE|52287|M|47.48,66.86|Z|Zuldazar|QO|1|T|Spymaster Stormhorn|N|Kill Spymaster Stormhorn.|
 K Intelligence Denial|ACTIVE|52287|M|45.85,62.12|Z|Zuldazar|QO|2|T|Spymaster Bloodsnarl|N|Kill Spymaster Bloodsnarl.|
 K Intelligence Denial|ACTIVE|52287|M|46.33,59.95|Z|Zuldazar|QO|3|T|Spymaster Bilespreader|N|Kill Spymaster Bilespreader.|
-C Void Vacation|QID|52288|M|50.34,65.80|Z|Zuldazar|QO|1|NC|N|Finish throwing Horde emissaries into the void as you work your way to the ship to plant bombs.|U|162450|
+C Void Vacation|QID|52288|M|50.34,65.80|Z|Zuldazar|QO|1|NC|US|N|Finish throwing Horde emissaries into the void as you work your way to the ship to plant bombs.|U|162450|
 C Right Beneath Their Nose|QID|52286|M|50.34,65.80|Z|Zuldazar|QO|1|N|Back into the water to plant deathbombs.|
 T Void Vacation|QID|52288|M|48.88,68.58|Z|Zuldazar|N|To Magister Umbric.|
 T Right Beneath Their Nose|QID|52286|M|48.88,68.58|Z|Zuldazar|N|To Shandris Feathermoon.|
@@ -740,7 +757,7 @@ A Leave None Alive|QID|52788|M|35.13,77.32|Z|Zuldazar|N|From Halford Wyrmbane.|P
 C Leave None Alive|QID|52788|M|34.65,76.42|Z|Zuldazar|QO|1|N|Kill the Zandalari on the deck. In theory, you only have to kill 10, but you can't turn in the quest until Halford stops fighting. On the other hand, if there aren't enough on deck, you might have to go below to finish.|
 T Leave None Alive|QID|52788|M|34.28,75.70|Z|Zuldazar|N|To Halford Wyrmbane.|
 A Silencing the Advisor|QID|52789|M|34.28,75.70|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52788|
-C Silencing the Advisor|QID|52789|M|34.93,76.91|Z|Zuldazar|QO|1|T|Advisor Ko'jan|N|Advisor Ko'jan slain. All the way down at the bottom level of the boat.|
+C Silencing the Advisor|QID|52789|M|34.98,77.04|Z|Zuldazar|QO|1|T|Advisor Ko'jan|N|Advisor Ko'jan slain. All the way down at the bottom level of the boat.|
 T Silencing the Advisor|QID|52789|M|34.98,77.02|Z|Zuldazar|N|To Halford Wyrmbane.|
 A An End to the Killing|QID|52790|M|34.98,77.02|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52789|
 C An End to the Killing|QID|52790|M|34.82,76.34|Z|Zuldazar|QO|2|N|Go back up to the deck and ask Shandris Feathermoon for a status report. Listen to the RP.|CHAT|
@@ -749,9 +766,75 @@ T An End to the Killing|QID|52790|M|85.89,31.64|Z|Stormwind City|N|Take your bes
 A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|PRE|52790|
 T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|
 
+; The Revered Reputation Mission Report: Vulture's Nest
+A Mission Report: Vulture's Nest|QID|53043|M|70.56,27.20|Z|Boralus|O|
+T Mission Report: Vulture's Nest|QID|53043|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Vulture's Nest|QID|53044|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53043|
+R Vol'dun|ACTIVE|53044|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Vol'dun or get there through other means.|
+C Vulture's Nest|QID|53044|M|53.76,37.79|Z|Vol'dun|QO|1|N|Make your way to the outpost and claim it.|
+f Vulture's Nest|QID|53044|M|53.60,37.68|Z|Vol'dun|CHAT|N|Get the flightpoint from Buzz Crankchug.|
+T Vulture's Nest|QID|53044|M|53.71,37.72|Z|Vol'dun|N|To Hilda Hammerfast.|
+A Mission Report: Missing Supplies|QID|53221|M|70.56,27.19|Z|Boralus|O|
+T Mission Report: Missing Supplies|QID|53221|M|69.26,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Necessary Supplies|QID|53222|M|69.26,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53221|
+R Vol'dun|ACTIVE|53222|CHAT|N|Tell Jes-Tereth to take you to Vol'dun or get there through other means.|
+T Necessary Supplies|QID|53222|M|53.60,37.67|Z|Vol'dun|N|Fly to Vulture's Nest and turn in to Buzz Crankchug.|
+
+; The Revered Reputation Mission Report: Mugamba Overlook
+A Mission Report: Mugamba Overlook|QID|52851|M|70.57,27.17|Z|Boralus|O|
+T Mission Report: Mugamba Overlook|QID|52851|M|69.27,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Mugamba Overlook|QID|52852|M|69.27,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52851|
+R Zuldazar|ACTIVE|52852|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+C Mugamba Overlook|QID|52852|M|44.72,27.47|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
+f Mugamba Overlook|QID|52963|M|44.84,27.07|Z|Zuldazar|CHAT|N|Get the flightpoint from Drager Smokewing.|
+T Mugamba Overlook|QID|52852|M|44.86,27.40|Z|Zuldazar|N|To Darchelle Hayes.|
+A Mission Report: Spare Parts|QID|53275|M|70.57,27.18|Z|Boralus|O|
+T Mission Report: Spare Parts|QID|53275|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Spare Parts|QID|53276|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53275|
+R Zuldazar|ACTIVE|53276|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+T Spare Parts|QID|53276|M|44.94,27.25|Z|Zuldazar|N|Fly to Mugamba Overlook and turn in to Giblin Clockspark.|
+
+; The Revered Reputation Mission Report: Verdant Hollow
+A Mission Report: Verdant Hollow|QID|52886|M|70.52,27.19|Z|Boralus|O|
+T Mission Report: Verdant Hollow|QID|52886|M|69.29,27.02|Z|Boralus|N|To Halford Wyrmbane.|
+A Verdant Hollow|QID|52888|M|69.29,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|52886|
+R Zuldazar|ACTIVE|52888|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+C Verdant Hollow|QID|52888|M|55.23,25.25|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
+f Verdant Hollow|QID|52963|M|55.65,24.85|Z|Zuldazar|CHAT|N|Get the flightpoint from Kina Cobbleflame.|
+T Verdant Hollow|QID|52888|M|54.87,25.55|Z|Zuldazar|N|To Argrim Stonedeep.|
+A Mission Report: Dino Research|QID|53267|M|70.56,27.17|Z|Boralus|O|
+T Mission Report: Dino Research|QID|53267|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Dino Research|QID|53268|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53267|
+R Zuldazar|ACTIVE|53268|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+T Dino Research|QID|53268|M|54.87,25.55|Z|Zuldazar|N|Fly to Verdant Hollow and turn in to Argrim Stonedeep.|
+
+; The Revered Reputation Mission Report: Mistvine Ledge
+A Mission Report: Mistvine Ledge|QID|52962|M|70.55,27.17|Z|Boralus|O|
+T Mission Report: Mistvine Ledge|QID|52962|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Mistvine Ledge|QID|52963|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52962|
+R Zuldazar|ACTIVE|52963|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+C Mistvine Ledge|QID|52963|M|64.46,47.48|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
+f Mistvine Ledge|QID|51822|M|64.33,47.33|Z|Zuldazar|N|Get the flightpoint from Sornoth Slagmane.|
+T Mistvine Ledge|QID|52963|M|64.46,47.29|Z|Zuldazar|N|To Neva.|
+A Mission Report: Jungle Escort|QID|53306|M|70.56,27.18|Z|Boralus|O|
+T Mission Report: Jungle Escort|QID|53306|M|69.27,26.99|Z|Boralus|N|To Halford Wyrmbane.|
+A Jungle Escort|QID|53307|M|69.27,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|53306|
+R Zuldazar|ACTIVE|53307|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+T Jungle Escort|QID|53307|M|64.46,47.29|Z|Zuldazar|N|Fly to Mistvine Ledge and turn in to Neva.|
+
+; Jani starting questline.
+A Pests|QID|51142|M|36.57,32.30|Z|Vol'dun|LVL|120|N|From Quartermaster Alfin in Vol'dun. This will open up 'Jani' opportunities which give you will find around the Zandalar.|PRE|51969|
+C Pests|QID|51142|M|36.90,32.24|Z|Vol'dun|QO|1|N|Thieving Snapper spawn all over the place, hunt them down and kill them.|
+C Pests|QID|51142|M|36.18,36.78|Z|Vol'dun|QO|2|N|Follow the Big One|
+T Pests|QID|51142|M|36.19,36.74|Z|Vol'dun|N|To Jani.|
+A Curse of Jani|QID|51145|M|36.19,36.74|Z|Vol'dun|N|From Jani.|PRE|51142|
+C Curse of Jani|QID|51145|M|36.32,32.80|Z|Vol'dun|QO|1|N|Reach Quartermaster Alfin while avoiding guards, you can actually mount here.|
+C Curse of Jani|QID|51145|M|36.57,32.30|Z|Vol'dun|QO|2|N|Sneak up behind Quartermaster Alfin and bite him.|
+T Curse of Jani|QID|51145|M|36.19,36.74|Z|Vol'dun|N|To Jani.|
+
 ;Zuldazar Quests
-A WANTED: Dark Chronicler|QID|51085|M|40.79,71.13|Z|Zuldazar|PRE|51968|N|To help grind out 7th Legion Rep, head to Zuldazar and grab the quests.|
-A The Thrill of Exploration|QID|49276|M|41.33,71.43|Z|Zuldazar|PRE|51968|N|From Acadia Chistlestone.|
+A WANTED: Dark Chronicler|QID|51085|M|40.79,71.13|Z|Zuldazar|PRE|51968|LVL|120|N|To help grind out 7th Legion Rep, head to Zuldazar and grab the quests.|
+A The Thrill of Exploration|QID|49276|M|41.33,71.43|Z|Zuldazar|PRE|51968|LVL|120|N|From Acadia Chistlestone.|
 C The Thrill of Exploration|QID|49276|M|41.28,71.70|Z|Zuldazar|QO|1|N|Click on a fossile in the pit, after the first you can click the Excavation Elemental to finish it quick.|
 T The Thrill of Exploration|QID|49276|M|41.35,71.45|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
 A Morgrum's Survey|QID|49274|M|41.35,71.45|Z|Zuldazar|PRE|49276|N|From Excavator Morgrum Emberflint.|
@@ -787,23 +870,43 @@ C Not Our Purple Elves|QID|49427|M|46.57,72.13|Z|Zuldazar|QO|1|US|N|Finish killi
 T Grand Theft Telemancy|QID|49428|M|41.35,71.44|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
 T Not Our Purple Elves|QID|49427|M|41.35,71.44|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
 
+A Hunt for King K'tal|QID|47706|M|67.44,17.92|Z|Zuldazar|LVL|120|N|From the Notice Board at Nesingwary's Trek in Zuldazar.|
+A WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.44,17.92|Z|Zuldazar|LVL|120|N|From the Notice Board at Nesingwary's Trek in Zuldazar.|
+C WANTED: Ten'gor and Nol'ixwan|QID|51091|M|61.94,24.19|Z|Zuldazar|S|QO|1|N|Kill Nol'ixwan, one of the 2 dinosaurs fighting each other.|
+C WANTED: Ten'gor and Nol'ixwan|QID|51091|M|61.93,25.16|Z|Zuldazar|QO|2|N|Kill Ten'gor, one of the 2 dinosaurs fighting each other.|
+C WANTED: Ten'gor and Nol'ixwan|QID|51091|M|61.94,24.19|Z|Zuldazar|US|QO|1|N|Kill Nol'ixwan, one of the 2 dinosaurs fighting each other.|
+C Hunt for King K'tal|QID|47706|M|69.41,23.08|Z|Zuldazar|QO|1|N|You will find King K'tal roaming up and down the path, kill and loot his Skull.|
+T Hunt for King K'tal|QID|47706|M|67.50,17.62|Z|Zuldazar|N|To Huntmaster Vol'ka.|
+T WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.50,17.62|Z|Zuldazar|N|To Huntmaster Vol'ka.|
+
+;Nazmir Wanted
+A WANTED: Tojek|QID|51139|M|62.15,41.03|Z|Nazmir|LVL|120|N|From Notice Board at Nazwatha in Nazmir.|
+A WANTED: Ayame|QID|52480|M|62.39,41.31|Z|Nazmir|LVL|120|N|From Notice Board at Nazwatha in Nazmir.|
+C WANTED: Ayame|QID|52480|M|58.17,34.13|Z|Nazmir|QO|1|N|Not too far from the camp, kill Ayame and claim its head. This recommends 3 people but it's incredibly easy.|
+C WANTED: Tojek|QID|51139|M|26.61,66.02|Z|Nazmir|QO|1|N|If you have Grimwatt's Crash, it's the only flight path near Tojek. This recommends 3 people but it's incredibly easy.|
+T WANTED: Tojek|QID|51139|M|61.89,41.48|Z|Nazmir|N|To Garrick Blacksteel.|
+T WANTED: Ayame|QID|52480|M|61.89,41.47|Z|Nazmir|N|To Garrick Blacksteel.|
+
+;Vol'dun quests
+A WANTED: Sandscout Vesarik|QID|51165|M|27.36,53.28|Z|Vol'dun|LVL|120|N|From Notice Board at the Terrace of the Devoted in Vol'dun.|PRE|51969|
+C WANTED: Sandscout Vesarik|QID|51165|M|42.44,46.19|Z|Vol'dun|QO|1|N|You need to kill Sandscout Vesarik, this one will require a group as he is quite difficult to solo for "most" classes.|
+T WANTED: Sandscout Vesarik|QID|51165|M|26.79,52.87|Z|Vol'dun|N|To Zareen.|
+
 ; Rep Gated Notes
 N Come back at level 114|AVAILABLE|51961|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51569|
 N Come back at level 116|AVAILABLE|51903|LVL|-116|N|Island Adventures can be done when you are level 116. This quest can be done once per account.|PRE|51961|
 N Come back at level 118|AVAILABLE|52443|LVL|-118|N|Last foothold can be done when you are level 118.|PRE|51961|
-N Rep Gated|AVAILABLE|52147|N|So, go out Contribute to the Warfront (when available) and do WQs that give 7th Legion Faction. Next segment is available at 4.5K into friendly.|PRE|52146|REP|7th Legion;2159;friendly;4500;true|
-N Rep Gated|N|So, go out Contribute to the Warfront (when available) and do WQs that give 7th Legion Reputation. Scouting Report Missions unlock at Honored, and the next segment is available at 3K into it.|PRE|52219|REP|7th Legion;2159;honored;0;true|
+N Rep Gated|AVAILABLE|52147|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 4.5K into friendly.|PRE|52146|REP|7th Legion;2159;friendly;4500;true|
+N Rep Gated|AVAILABLE|52154|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Reputation. Scouting Report Missions unlock at Honored, and the next segment is available at 3K into it.|PRE|52219|REP|7th Legion;2159;honored;0;true|
 N Vindicator Jaelaana|AVAILABLE|52154|M|69.33,24.96|Z|Boralus|N|Now that you're Honored you can purchase 2 Scouting Reports from the Emissary to unlock outposts. Next Campaign segment will be available at 3k into Honored.|PRE|52219|REP|7th Legion;2159;honored;3000;true|
-N Rep Gated|AVAILABLE|52308|N|So, go out Contribute to the Warfront (when available) and do WQs that give 7th Legion Faction. Next segment is available at 7.5k into honored.|PRE|52261|REP|7th Legion;2159;honored;7500;true|
-N Rep Gated|AVAILABLE|52473|N|So, go out Contribute to the Warfront (when available) and do WQs that give 7th Legion Faction. Next segment is available at revered.|PRE|52496|REP|7th Legion;2159;revered;0;true|
-N Outposts and Rep|AVAILABLE|53103;53152;53126;52320;52479;53101;53082|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Dark Iron Dwarves Allied Race|PRE|52790|
+N Rep Gated|AVAILABLE|52308|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 7.5k into honored.|PRE|52261|REP|7th Legion;2159;honored;7500;true|
+N Rep Gated|AVAILABLE|52473|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at revered.|PRE|52496|REP|7th Legion;2159;revered;0;true|
+N Outposts and Rep|AVAILABLE|52802;53187;53222;53276;53268;53307|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Dark Iron Dwarves Allied Race|PRE|52790|
 
 ;J On to Tiragarde Sound|QID|47485|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Tiragarde Sound. That guide will auto load when you close this step.|GUIDE|EmmTiragarde|
 ;J On to Drustvar|QID|48622|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Drustvar. That guide will auto load when you close this step.|GUIDE|STrekDrustvar|
 ;J On to Stormsong Valley|QID|47952|N|This temporarily ends the Battle for Azeroth opening guide, you will be sent back here, when you finish Stormsong Valley. That guide will auto load when you close this step.|GUIDE|Freitas_Stormsong|
-
 ]]
-
 end)
 
 
