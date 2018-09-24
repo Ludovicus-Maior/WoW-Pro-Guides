@@ -58,9 +58,10 @@
   <Script file="100_100_Emmaleah_LegionIntro.lua"/>
   <Script file="100_109_Emmaleah_Stormheim.lua"/>
   <Script file="110_110_Emmaleah_BurnTedrazil.lua"/>
-  <Script file="110_120_Emmaleah_WarCampaign.lua"/>
   <Script file="110_120_Emmaleah_Voldun.lua"/>
   <Script file="110_120_Emmaleah_Zuldazar.lua"/>
   <Script file="110_120_Emmaleah_Nazmir.lua"/>
+  <Script file="110_120_Emmaleah_WarCampaign.lua"/>
+  <Script file="120_120_Elidion_EndgameStory.lua"/>
 </Ui>
 
