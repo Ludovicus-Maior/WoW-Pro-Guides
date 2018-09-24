@@ -1,3 +1,8 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EliEndgame', 'Leveling', 'Zandalar', 'Elidion', 'Horde')
 WoWPro:GuideLevels(guide,120, 120)
 WoWPro:GuideName(guide,'Endgame Storylines')
@@ -53,3 +58,5 @@ T Zandalar Forever!|QID|50954|M|49.94,46.63|Z|Dazar'alor|N|To King Rastakhan.|
 N Not the end|AVAILABLE|-50954|N|That's it for patch 8.0. Come back in 8.1 when the story continues.|ACH|12479;;true|
 ]]
 end)
+
+
