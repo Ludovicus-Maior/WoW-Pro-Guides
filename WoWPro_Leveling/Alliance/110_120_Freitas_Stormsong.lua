@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-09-24 18:16
+-- Who: Emmaleah
+-- Log: added QIDs per Ikibewn (from pre 120 rare kills)
+
+-- URL: http://wow-pro.com/node/3767/revisions/29827/view
+-- Date: 2018-09-24 08:22
+-- Who: Emmaleah
+-- Log: add Weathered Treasure QID
+
+-- URL: http://wow-pro.com/node/3767/revisions/29775/view
 -- Date: 2018-09-20 21:52
 -- Who: Emmaleah
 -- Log: Rearranged order slightly after Battle of Brennadam
@@ -248,16 +258,6 @@
 -- Date: 2018-07-27 18:41
 -- Who: Ludovicus_Maior
 -- Log: V3 from Lemmer
-
--- URL: http://wow-pro.com/node/3767/revisions/29444/view
--- Date: 2018-07-20 17:47
--- Who: Ludovicus_Maior
--- Log: Lemmer update.
-
--- URL: http://wow-pro.com/node/3767/revisions/29428/view
--- Date: 2018-07-15 04:50
--- Who: Emmaleah
--- Log: added sort level
 
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
@@ -838,7 +838,6 @@ C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|5|N|Use your ability wh
 T Deadliest Cache: Carpe Diem|QID|52130|M|25.99,55.21|N|To Hook.|
 ; $ Weathered Treasure Chest|QID|99999|M|65.37,11.74;66.92,12.03|CS|N|Underground cave hidden in trees.|RANK|3|
 
-
 H The Golden Flagon|TZ|Brennadam|ACTIVE|49908|M|34.26,47.18|N|Hearth to Brennadam or run back to the flight point and fly there.|RANK|2|
 T Back to Brennadam|QID|49908|M|59.51,69.94|N|To Squire Augustus III|RANK|2|
 T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|RANK|2|
@@ -857,9 +856,9 @@ C Don't Play with Matches|QID|51352|M|39.69,41.30|S|N|Mobs along the beach. Avoi
 C Cleaning Bills|QID|51339|M|39.69,41.30|S|N|Clean the birds up.|
 C Swimming Lessons|QID|51343|M|38.68,44.57|QO|3|N|Next to the ship.|
 C Swimming Lessons|QID|51343|M|38.71,39.34|QO|1|N|Inside the cave.|
-K Seabreaker Skoloth|QID|51759|QO|1|M|33.64,37.93|T|Seabreaker Skoloth|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|160477|RANK|2|;I think there's a time later in the guide when you're standing right next to this guy, anyway. It would be more efficient to kill him then.
+K Seabreaker Skoloth|QID|51759;51757|QO|1|M|33.64,37.93|T|Seabreaker Skoloth|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|160477|RANK|2|;I think there's a time later in the guide when you're standing right next to this guy, anyway. It would be more efficient to kill him then.
 C Swimming Lessons|QID|51343|M|34.35,36.41|QO|2|N|On the island.|
-K Sabertron|QID|51978|QO|1|M|34.91,32.58|T|Sabertron|N|Inside the cave. Silver Elite to kill for loot and achievement.|RARE|ITEM|154664|RANK|2|
+K Sabertron|QID|51978;51956|QO|1|M|34.91,32.58|T|Sabertron|N|Inside the cave. Silver Elite to kill for loot and achievement.|RARE|ITEM|154664|RANK|2|
 $ Legends of the Tidesages|ACH|13051;4|M|35.46,32.52;33.81,33.23|CS|N|Run up above Sabertron's cave.|
 C Don't Play with Matches|QID|51352|M|39.69,41.30|US|N|Finish up with mobs.|
 C Cleaning Bills|QID|51339|M|39.69,41.30|US|N|Finish up with the birds.|
@@ -881,7 +880,7 @@ C Flavorable Offering|QID|51371|M|38.39,28.21|S|N|Completed by killing and looti
 C Response Required|QID|51221|M|36.89,29.29|N|On the island beach.  Make sure you tag her when she jumps out of mech otherwise she will de-spawn.|
 A Explosive Situation|QID|51540|M|37.82,28.50|N|From the bomb underwater.|RANK|2|
 C Explosive Situation|QID|51540|M|38.89,27.01|S|N|Collect bombs while you also get seaweed.|
-K Slickspill|QID|51921|QO|1|M|41.60,28.60|T|Slickspill|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|158216|RANK|2|
+K Slickspill|QID|51921;51958|QO|1|M|41.60,28.60|T|Slickspill|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|158216|RANK|2|
 C Explosive Situation|QID|51540|M|38.89,27.01|US|N|Finish up with the bombs.|
 C Flavorable Offering|QID|51371|M|38.39,28.21|US|N|Finish up with mobs and plants.|
 T Flavorable Offering|QID|51371|M|37.14,32.55|N|Back to the underwater cave.  To Loroja.|
@@ -936,8 +935,8 @@ C Anchors Aweigh Too Much|QID|50704|M|48.01,56.82|S|NC|N|Gather ship parts on th
 C Not On Our Payroll|QID|50691|M|48.01,56.82|S|N|Kill the big rock dudes (but not the really big elite rock dudes).|
 C Fun With Magnets|QID|50696|M|44.42,55.51|U|158226|S|NC|N|Areas are marked with a glowing sign (and on your map).  Use the Metal Collector 3 or 4 times in each area.|
 C Bomb Beats Rock|QID|50697|M|48.72,56.57|QO|2|N|Click on the pile of bombs.|
-K Crushtacean|QID|51901|QO|1|M|51.72,55.32|T|Crushtacean|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154857|RANK|2|
-K Deepfang|QID|51778|QO|1|M|53.07,50.63|T|Deepfang|N|Quick side trip for another rare. Silver Elite to kill for loot and achievement.|RARE|ITEM|160464|RANK|2|
+K Crushtacean|QID|51901;52466|QO|1|M|51.72,55.32|T|Crushtacean|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154857|RANK|2|
+K Deepfang|QID|51778;50692|QO|1|M|53.07,50.63|T|Deepfang|N|Quick side trip for another rare. Silver Elite to kill for loot and achievement.|RARE|ITEM|160464|RANK|2|
 C Bomb Beats Rock|QID|50697|M|50.88,58.20|QO|1|NC|N|Click on these bombs too.|
 T Bomb Beats Rock|QID|50697|M|50.88,58.26|N|To Moxie Lockspinner right beside you.|
 A Share the Wealth|QID|51140|M|50.86,56.71|N|Pick up inside the Eastern Cave from treasure pile.|
