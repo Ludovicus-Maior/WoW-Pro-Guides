@@ -251,10 +251,16 @@ function WoWPro:LogDump(callback)
 end
 
 function WoWPro:LogClear(where)
-    WoWProDB.global.Log = {}
+    if WoWProDB and WoWProDB.global then
+        WoWProDB.global.Log = {}
+    end
     WoWPro.Serial = 999999999
     WoWPro:Print("Log Reset from %s, WoWPro Version %s.", where, WoWPro.Version)
+    WoWPro:Print("Unit: %s, Realm: %s, Class: %s, Race: %s, Faction: %s", UnitName("player"), GetRealmName(), UnitClass("player"), UnitRace("player"), UnitFactionGroup("player"))
 end
+
+WoWPro:LogClear("Addon Load")
+
 
 function WoWPro:LogShow()
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Debug Log","Hit escape to dismiss")
