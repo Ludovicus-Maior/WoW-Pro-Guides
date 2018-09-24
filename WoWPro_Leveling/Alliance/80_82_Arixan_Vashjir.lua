@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2018-09-23 20:39
+-- Who: jovieve
+-- Log: Typo correction
+
+-- URL: http://wow-pro.com/node/3305/revisions/29811/view
+-- Date: 2018-09-23 20:38
+-- Who: jovieve
+-- Log: Changed N to C for better QID validation (plus it's a fighting step anyway). Added a QO. 
+
+-- URL: http://wow-pro.com/node/3305/revisions/29809/view
 -- Date: 2018-09-23 20:18
 -- Who: jovieve
 -- Log: Added BUFF tags for the other two Naz'jar Battlemaiden buffs.
@@ -240,16 +250,6 @@
 -- Date: 2011-04-24 00:06
 -- Who: Crackerhead22
 -- Log: Fixed note tags, zone tags, added a few QO steps, added a few sticky steps, added missing quests.
-
--- URL: http://wow-pro.com/node/3305/revisions/24170/view
--- Date: 2011-03-12 18:40
--- Who: Ludovicus_Maior
--- Log: Unique ID
-
--- URL: http://wow-pro.com/node/3305/revisions/24144/view
--- Date: 2011-03-06 16:37
--- Who: Ludovicus_Maior
--- Log: A ton of tweaks from geri.
 
 local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
 WoWPro:GuideLevels(guide,80,80, 79.9802)
@@ -664,8 +664,8 @@ A At All Costs|QID|25860|PRE|25629;25896|M|33.1,77.7|Z|Shimmering Expanse|N|From
 C At All Costs|QID|25860|M|33.12,76.52|Z|Shimmering Expanse|N|Stay at the entrance and kill all new arriving Kvaldir until you get your 20 kills.|
 T At All Costs|QID|25860|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess.|
 A Final Judgment|QID|25951|PRE|25860|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
-N Hold the eastern end of Quel'Dormir Terrace|QID|25951|QO|1|M|37.5,78.69|Z|Shimmering Expanse|N|Swim out of the temple to the east, where you will find Lady Naz'jar. Kill Kvaldir and stay alive, ends at about the 3-4 minute mark.|; Hold the eastern end of Quel'Dormir Terrace: 1/1
-C Final Judgment|QID|25951|M|42.90,78.40|Z|Shimmering Expanse|N|Kill Kvaldir and stay alive until you get the quest complete message.|
+C Hold the eastern end of Quel'Dormir Terrace|QID|25951|QO|1|M|37.5,78.69|Z|Shimmering Expanse|N|Swim out of the temple to the east, where you will find Lady Naz'jar. Kill Kvaldir and stay alive.|
+C Final Judgment|QID|25951|QO|2|M|42.90,78.40|Z|Shimmering Expanse|N|Kill Kvaldir and stay alive. It's easiest if you don't get too far ahead of Lady Naz'jar.|
 T Final Judgment|QID|25951|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 T Visions of the Past: Rise from the Deep|QID|25626|M|46.69,57.53;49.45,57.57|CS|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
 A A Breath of Fresh Air|QID|26005|PRE|25626|M|49.45,57.57|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
