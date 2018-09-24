@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2018-09-24 07:43
+-- Who: elidion
+-- Log: Updated zone tags, skip F tags if you have legion flying.
+
+-- URL: http://wow-pro.com/node/3657/revisions/29746/view
 -- Date: 2018-09-13 18:51
 -- Who: elidion
 -- Log: Changes for skip rares and treasures feature.
@@ -250,11 +255,6 @@
 -- Log: -Fix T Containing the Demon Within|QID|39938|M|54.00m15.31|N|To Baric Stormrunner.|P|Inscription|LVL|102|
 --	-fixed format of |P| tags to include the ;### 
 
--- URL: http://wow-pro.com/node/3657/revisions/27647/view
--- Date: 2016-09-01 06:19
--- Who: Emmaleah
--- Log: Correct typo in 60.98,34.67,65.84,37.26
-
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,98, 110, 98.661)
 WoWPro:NewGuideLevels(guide,98,110)
@@ -269,9 +269,9 @@ N Treasure|AVAILABLE|38834;44137|N|Enough treasures necessary for the zone treas
 N Rares (Silver Elite)|AVAILABLE|38834;44137|N|All Rares are included if you do the guide on rank 3, *some are on rank 2, none are on 1*  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|AVAILABLE|38834;44137|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the most of the rest of the quests in the zone, Rank 3, includes the difficult or out of the way optional quests, rares and treasures.|
 
-T Paradise Lost|QID|39718|M|72.51,45.66|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Down to Azsuna|QID|41220|PRE|39718|M|72.51,45.66|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
-C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|Dalaran@Dalaran70|NC|N|Fly down with Khadgar.|
+T Paradise Lost|QID|39718|M|72.51,45.66|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
+A Down to Azsuna|QID|41220|PRE|39718|M|72.51,45.66|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|
+C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|Dalaran!Dalaran!Dungeon|NC|N|Fly down with Khadgar.|
 T Down to Azsuna|QID|41220|M|45.11,42.92|N|To Archmage Khadgar.|
 A Into the Fray|QID|38834;44137|PRE|41220|M|45.11,42.92|N|From Archmage Khadgar.|
 f Illidari Stand|QID|38834|M|44.59,43.85|N|At Izal Whitemoon.|
@@ -753,14 +753,14 @@ $ Disputed Treasure|QID|38365|M|55.87,56.87|N|Kill the npcs argueing over the tr
 C Shipwrecked Sailors|QID|42268;42220|QO|1|M|59.93,58.12|N|Finish up with the sailors.|US|
 T Shipwrecked Sailors|QID|42268;42220|M|59.93,58.12|N|To UI Alert.|
 T Making the World Safe for Profit|QID|37657|M|56.59,59.58|N|To Mr. Shackle.|
-F Illidari Stand|QID|40327|ACTIVE|40327|M|56.20,58.91|N|Fly to Illidari Stand, from Avaya Farwind.|
+F Illidari Stand|QID|40327|ACTIVE|40327|M|56.20,58.91|N|Fly to Illidari Stand, from Avaya Farwind.|SPELL|Flying in Legion;233368|
 T Testing the Metal|QID|40327|M|47.52,44.17|N|To Celea.|
 T Reclaimed Cargo|QID|40194|M|47.52,44.17|N|To Celea.|
 
 U Dalaran Hearthstone|QID|42244|U|140192|N|Hearth or fly to Dalaran to get the final zone quest completed and receive you zone achievement.|
-T Fate of the Queen's Reprisal|QID|42244|M|61.05,17.23|Z|Dalaran@Dalaran70|N|To Advisor Stillwater.|FACTION|Horde|
-T Fate of the Queen's Reprisal|QID|40794|M|28.66,74.87|Z|Dalaran@Dalaran70|N|To Lt. Surtees.|FACTION|Alliance|
-C Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|49.07,48.02|Z|Dalaran@Dalaran70|NC|N|Assuming you have completed the Eye of Azshara instance, you can run down and do the final turn in.  Into the Guardian's chamber and down to Aegwynn's Gallery.|
+T Fate of the Queen's Reprisal|QID|42244|M|61.05,17.23|Z|Dalaran!Dalaran!Dungeon|N|To Advisor Stillwater.|FACTION|Horde|
+T Fate of the Queen's Reprisal|QID|40794|M|28.66,74.87|Z|Dalaran!Dalaran!Dungeon|N|To Lt. Surtees.|FACTION|Alliance|
+C Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|49.07,48.02|Z|Dalaran!Dalaran!Dungeon|NC|N|Assuming you have completed the Eye of Azshara instance, you can run down and do the final turn in.  Into the Guardian's chamber and down to Aegwynn's Gallery.|
 T Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|To Tidestone of Golganneth (glowing blob on the wall in the Portrait Room).|
 A Pressing the Assault|QID|44545|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213|
 A Isle Hopping|QID|44547|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 2nd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213;44545|
