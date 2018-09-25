@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2018-09-24 20:04
+-- Who: Emmaleah
+-- Log: add R Zocalo to Jani quest line.
+
+-- URL: http://wow-pro.com/node/3772/revisions/29815/view
 -- Date: 2018-09-24 01:28
 -- Who: elidion
 -- Log: A few tweaks after running through Rank 1, some missing ACTIVE tags.
@@ -104,8 +109,7 @@ C Discreet Discussions|QID|47313|M|52.20,37.54|Z|Dazar'alor|QO|1<2|NC|N|Continue
 C Discreet Discussions|QID|47313|M|54.26,35.85|Z|Dazar'alor|QO|1<3|NC|N|And down some more to find Enforcer Dakanji.|
 
 ;to open up Jani's mysterious trashpiles
-;need R Zocalo with |N|A bit out of the way, but if you are into Achievements, you want to get this quest done to open up "Get Hek'd".|LEAD|47441|RANK|3|ACH|12482|
-
+R The Zocalo|AVAILABLE|47441|M|42.58,27.97|N|A bit out of the way, but if you are into Achievements or pets, you want to get this quest done to open up "Get Hek'd".|RANK|3|
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
 C Pests|QID|47441|M|40.58,18.88|Z|Dazar'alor|QO|1|N|Kill the little pests.|
 C Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|QO|2|NC|N|Follow the Big One.|
