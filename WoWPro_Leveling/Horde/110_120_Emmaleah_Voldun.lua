@@ -96,7 +96,6 @@ WoWPro:GuideIcon(guide,"ACH",12943)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-
 N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a spec appropriate helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done alongside the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 N Rares (aka Silver Elite)|ACH|12943|N|Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it will direct you to kill them again. Check off manually if you choose not to.|
