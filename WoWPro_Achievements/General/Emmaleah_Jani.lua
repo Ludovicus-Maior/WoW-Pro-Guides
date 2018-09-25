@@ -1,3 +1,22 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/child_jani
+-- Date: 2018-09-25 22:25
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3782/revisions/29836/view
+-- Date: 2018-09-25 08:20
+-- Who: Emmaleah
+-- Log: now with travel steps. Tested on Horde side.
+
+-- URL: http://wow-pro.com/node/3782/revisions/29807/view
+-- Date: 2018-09-23 11:55
+-- Who: Emmaleah
+-- Log: First Draft . Missing almost all travel steps.
+
 local guide = WoWPro:RegisterGuide('Emm_Jani', 'Achievements', "Dazar'alor", 'Emmaleah', 'Neutral')
 WoWPro.Achievements:GuideMisc(guide, "Child of Jani", "Pet", "Battle for Azeroth")
 WoWPro:GuideIcon(guide,"ACH",12482)
@@ -126,5 +145,162 @@ U Add to your collection|U|163504|N|Congratulations on your new pet. This ends t
 ]]
 
 end)
+
+
+[Back to List of Guides]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ludovicus_EditBot
+Grail 095 seems to have the quest level issues fixed!
+
+
+
+
+Ludovicus
+If you are using Grail 094 or earlier, it will mess up the quest levels for 7.3.5 .  Disable it till version 095 is out.
+
+
+
+
+Ludovicus
+"Bigger Fish to Fry" + Artifact Fishing rod guide now published.
+
+
+
+
+Ludovicus
+BTW, I have 2 accounts here. Ludovicus_Maior my site admin account and this is my normal account.  I cant edit some content as an admin!
+
+
+
+
+Ludovicus_Maior
+I apologize for the late replies to many bug reports.  The SPAM catcher had about 2000 comments that I had to sift through by hand!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Agence Web Nice|Référencement Internet
+
+
+
+
+
+
+
+
+
+
 
 
